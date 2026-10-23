@@ -1,0 +1,26 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia o esterno; 'osso do tórax' não basta para responder, pois há costelas e vértebras, então a figura é necessária. Os trechos confirmam que o esterno é osso do tórax. Resposta específica e redação curta, boa para voz.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Músculo do ombro' é pista que quase entrega o deltoide, que é descrito como o músculo que forma o contorno do ombro. Isso enfraquece a figura. Também torna defensáveis distratores como o infraespinal, que é muscular do ombro. Tirei a localização e deixei só o que a imagem mostra: as cores.",
+      "reescrita": {
+        "pergunta": "Que músculo aparece colorido em vermelho, verde e azul nesta figura?",
+        "resposta": "Deltoide",
+        "distratores": [
+          "Peitoral maior",
+          "Trapézio",
+          "Infraespinal"
+        ]
+      }
+    }
+  ]
+}

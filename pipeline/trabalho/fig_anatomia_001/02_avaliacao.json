@@ -1,0 +1,97 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Hifas e clamidósporos ao microscópio não permitem reconhecer a espécie com resposta única; poderia ser outro fungo."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A imagem tem legendas em inglês que entregam a resposta (Large intestine, Colon, etc.) e o título."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A legenda na base da imagem diz 'Tomato leaf stomate 1', o que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Espiroqueta em emaranhado: não dá para distinguir de outras espiroquetas (Borrelia, Leptospira). A resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A imagem é desfocada e o animal não mostra os traços do tardígrado (oito patas, corpo segmentado). Não é reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ilustração limpa e sem texto, com o esterno em vermelho no tórax. Reconhecível e resposta única.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que osso do tórax está destacado em vermelho nesta figura?",
+      "resposta": "Esterno",
+      "distratores": [],
+      "ancora": {
+        "nome": "Esterno",
+        "descricao": "Osso plano no centro do peito humano, que se liga às costelas por cartilagem e forma a frente da caixa torácica.",
+        "variantes": [
+          "Osso do peito"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Micrografia eletrônica de bactéria curva com flagelo e fímbrias. Não dá para distinguir o Vibrio cholerae de outras bactérias; a resposta não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O diagrama tem legendas em inglês (Trachea, Larynx etc.) que entregam a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Célula ativada com pseudópodes em microscopia eletrônica, sem traços que a identifiquem com segurança como plaqueta. Pode ser confundida com outras células."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Ilustração de esqueleto sem texto, com o deltoide colorido nos dois ombros. Em múltipla escolha, com músculos vizinhos como distratores, a resposta é única.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que músculo do ombro aparece colorido em vermelho, verde e azul nesta figura?",
+      "resposta": "Deltoide",
+      "distratores": [
+        "Peitoral maior",
+        "Trapézio",
+        "Infraespinal"
+      ],
+      "ancora": {
+        "nome": "Músculo deltoide",
+        "descricao": "Músculo que forma o contorno arredondado do ombro humano, com três partes: clavicular, acromial e escapular.",
+        "variantes": [
+          "Deltoide",
+          "Deltoideus"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O diagrama tem muitas legendas em inglês (Uterus, Ovary etc.) que entregam a resposta, e mostra várias estruturas."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Organismo microscópico com filamentos finos, sem concha nítida. Pode ser confundido com radiolário ou heliozoário; a resposta não é única."
+    }
+  ]
+}

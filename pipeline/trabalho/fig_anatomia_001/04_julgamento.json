@@ -1,0 +1,130 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Esterno",
+        "descricao": "Osso plano no centro do peito humano, que se liga às costelas por cartilagem e forma a frente da caixa torácica.",
+        "variantes": [
+          "Osso do peito"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "florianopolis",
+          "nome": "Florianópolis",
+          "descricao": "Capital do estado de Santa Catarina, situada em grande parte na Ilha de Santa Catarina.",
+          "variantes": [
+            "Desterro",
+            "Nossa Senhora do Desterro",
+            "Floripa"
+          ]
+        },
+        {
+          "id": "estroncio",
+          "nome": "Estrôncio",
+          "descricao": "Elemento químico de número atômico 38, metal alcalino-terroso cujos sais dão a cor vermelha aos fogos de artifício.",
+          "variantes": [
+            "Sr"
+          ]
+        },
+        {
+          "id": "einstenio",
+          "nome": "Einstênio",
+          "descricao": "Elemento químico sintético de número atômico 99, batizado em homenagem a Albert Einstein.",
+          "variantes": [
+            "Einsteinium",
+            "Einstênio (elemento químico)"
+          ]
+        },
+        {
+          "id": "esperanto",
+          "nome": "Esperanto",
+          "descricao": "Língua planejada para a comunicação internacional, publicada em 1887.",
+          "variantes": [
+            "Esperanto language"
+          ]
+        },
+        {
+          "id": "quero_quero",
+          "nome": "Quero-quero",
+          "descricao": "Vanellus chilensis, ave pernalta comum na América do Sul, de olhos vermelhos e pernas vermelhas.",
+          "variantes": [
+            "Southern lapwing",
+            "Tero",
+            "Vanellus chilensis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Músculo deltoide",
+        "descricao": "Músculo que forma o contorno arredondado do ombro humano, com três partes: clavicular, acromial e escapular.",
+        "variantes": [
+          "Deltoide",
+          "Deltoideus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "celuloide",
+          "nome": "Celuloide",
+          "descricao": "Um dos primeiros plásticos, feito de nitrocelulose e cânfora no século dezenove, usado depois em filmes de cinema.",
+          "variantes": []
+        },
+        {
+          "id": "musculo_estapedio",
+          "nome": "Músculo estapédio",
+          "descricao": "Músculo do ouvido médio, preso ao estribo, que amortece vibrações de sons muito fortes.",
+          "variantes": [
+            "Estapédio",
+            "Músculo do estribo",
+            "Stapedius"
+          ]
+        },
+        {
+          "id": "musculo_sartorio",
+          "nome": "Músculo sartório",
+          "descricao": "Músculo longo e fino que cruza a coxa em diagonal, do quadril até a face interna do joelho.",
+          "variantes": [
+            "Sartório",
+            "Sartorius"
+          ]
+        },
+        {
+          "id": "glandula_tireoide",
+          "nome": "Glândula tireoide",
+          "descricao": "Glândula endócrina localizada na parte da frente do pescoço.",
+          "variantes": [
+            "Tireoide",
+            "Tiroide",
+            "Thyroid"
+          ]
+        },
+        {
+          "id": "euclides",
+          "nome": "Euclides",
+          "descricao": "Matemático grego que viveu em Alexandria por volta de 300 a.C., autor de Os Elementos.",
+          "variantes": [
+            "Euclides de Alexandria",
+            "Euclid"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Esterno (osso) não corresponde a nenhuma candidata; são entidades sem relação."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Músculo deltoide (ombro) é diferente dos outros músculos e demais candidatas."
+    }
+  ]
+}

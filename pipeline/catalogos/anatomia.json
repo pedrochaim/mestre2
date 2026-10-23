@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Estômago",
+      "titulo": "en:Stomach",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pâncreas",
+      "titulo": "en:Pancreas",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bexiga urinária",
+      "titulo": "en:Urinary bladder",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Intestino grosso",
+      "titulo": "en:Large intestine",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pelve",
+      "titulo": "en:Pelvis",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bíceps",
+      "titulo": "en:Biceps",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Útero",
+      "titulo": "en:Uterus",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Traqueia",
+      "titulo": "en:Trachea",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mitose",
+      "titulo": "en:Mitosis",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tardígrado",
+      "titulo": "en:Tardigrade",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Membrana plasmática",
+      "titulo": "en:Cell membrane",
+      "camada": 1,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Hidra",
+      "titulo": "en:Hydra (genus)",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Glóbulo branco",
+      "titulo": "en:White blood cell",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Diafragma",
+      "titulo": "en:Thoracic diaphragm",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Esterno",
+      "titulo": "en:Sternum",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Ulna",
+      "titulo": "en:Ulna",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fíbula",
+      "titulo": "en:Fibula",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alvéolo pulmonar",
+      "titulo": "en:Pulmonary alveolus",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Glândula suprarrenal",
+      "titulo": "en:Adrenal gland",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Plaqueta",
+      "titulo": "en:Platelet",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Complexo de Golgi",
+      "titulo": "en:Golgi apparatus",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Retículo endoplasmático",
+      "titulo": "en:Endoplasmic reticulum",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estômato",
+      "titulo": "en:Stoma",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Giárdia",
+      "titulo": "en:Giardia duodenalis",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bacilo de Koch",
+      "titulo": "en:Mycobacterium tuberculosis",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Candida albicans",
+      "titulo": "en:Candida albicans",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cílio",
+      "titulo": "en:Cilium",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Músculo deltoide",
+      "titulo": "en:Deltoid muscle",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Músculo trapézio",
+      "titulo": "en:Trapezius muscle",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Músculo esternocleidomastoideo",
+      "titulo": "en:Sternocleidomastoid muscle",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Néfron",
+      "titulo": "en:Nephron",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Macrófago",
+      "titulo": "en:Macrophage",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rotífero",
+      "titulo": "en:Rotifer",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Vorticela",
+      "titulo": "en:Vorticella",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Radiolário",
+      "titulo": "en:Radiolaria",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Foraminífero",
+      "titulo": "en:Foraminifera",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Stentor",
+      "titulo": "en:Stentor",
+      "camada": 3,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Espirogira",
+      "titulo": "en:Spirogyra",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Treponema pallidum",
+      "titulo": "en:Treponema pallidum",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Vibrião da cólera",
+      "titulo": "en:Vibrio cholerae",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    }
+  ]
+}

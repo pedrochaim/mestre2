@@ -278410,5 +278410,50 @@
       "autor": "Arte oficial dos detentores dos direitos, via Fandom (yugioh.fandom.com)",
       "licenca": "Arte oficial; uso não comercial, sem licença livre"
     }
+  },
+  {
+    "id": "q14826",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "esterno",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que osso do tórax está destacado em vermelho nesta figura?",
+    "resposta": "Esterno",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sternum",
+      "https://pt.wikipedia.org/wiki/Esterno"
+    ],
+    "imagem": {
+      "arquivo": "q14826.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sternum_animation2.gif",
+      "autor": "Anatomography",
+      "licenca": "CC BY-SA 2.1 jp"
+    }
+  },
+  {
+    "id": "q14827",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "musculo_deltoide",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que músculo aparece colorido em vermelho, verde e azul nesta figura?",
+    "resposta": "Deltoide",
+    "distratores": [
+      "Peitoral maior",
+      "Trapézio",
+      "Infraespinal"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Deltoid_muscle",
+      "https://pt.wikipedia.org/wiki/M%C3%BAsculo_deltoide"
+    ],
+    "imagem": {
+      "arquivo": "q14827.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Deltoid_muscle_animation4.gif",
+      "autor": "Anatomography",
+      "licenca": "CC BY-SA 2.1 jp"
+    }
   }
 ]
