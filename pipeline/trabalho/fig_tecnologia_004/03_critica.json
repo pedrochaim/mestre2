@@ -1,0 +1,42 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Van de Graaff concebeu o gerador como fonte de energia para aceleradores de partículas. O enunciado não nomeia a máquina e não dá a resposta. Sem a figura não dá para saber de que máquina se trata.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em inglês confirma que o Cray-1 foi anunciado em 1975. A resposta é um ano, então `multipla` é o tipo certo. Os distratores são anos críveis e errados. O enunciado é curto e não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1, reconhecimento direto. O trecho define a antena parabólica como a antena em forma de prato para satélites. O enunciado não vaza a resposta: \"antena\" é só a categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1, reconhecimento direto. Os trechos confirmam o trackball como dispositivo apontador de esfera. O enunciado fala só em \"periférico\", sem pista que entregue a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Instrumento de medição elétrica com duas pontas de prova\" é pista que entrega a resposta pelo enunciado, então a figura vira enfeite. Também admite voltímetro e ohmímetro, e \"duas pontas de prova\" não consta nos trechos. A reescrita usa uma pergunta direta, sem pista.",
+      "reescrita": {
+        "pergunta": "Que instrumento de medição é este?",
+        "resposta": "Multímetro"
+      }
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Marca Lenovo visível e tela com texto da Wikipédia; notebook genérico, sem época identificável para uma pergunta de 'quando'."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Modelo didático de Van de Graaff, com esfera, coluna e esfera de descarga, bem reconhecível e sem texto.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "pergunta": "Esta máquina de esfera metálica foi concebida por seu inventor como fonte de energia para que tipo de equipamento de pesquisa?",
+      "resposta": "Acelerador de partículas",
+      "distratores": [],
+      "ancora": {
+        "nome": "Gerador de Van de Graaff",
+        "descricao": "Gerador eletrostático que usa uma correia móvel para acumular carga em um terminal metálico oco, inventado por Robert J. Van de Graaff.",
+        "variantes": [
+          "Gerador de Van de Graaff",
+          "Van de Graaff generator"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cray-1 com o gabinete em C e os bancos ao redor, sem texto que entregue; forma única.",
+      "tipo": "multipla",
+      "familia": "quando",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Em que ano este supercomputador foi anunciado?",
+      "resposta": "1975",
+      "distratores": [
+        "1971",
+        "1978",
+        "1981"
+      ],
+      "ancora": {
+        "nome": "Cray-1",
+        "descricao": "Supercomputador vetorial da Cray Research, em gabinete em forma de C com bancos ao redor, anunciado em 1975.",
+        "variantes": [
+          "Cray 1"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Render de frente de um smartphone com tela preta; a frente é quase idêntica à do iPhone 3G e 3GS, então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A palavra ODYSSEY aparece escrita no console e entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Antena em forma de prato, nítida, sem texto legível relevante, reconhecível no celular.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que tipo de antena é esta?",
+      "resposta": "Antena parabólica",
+      "distratores": [],
+      "ancora": {
+        "nome": "Antena parabólica",
+        "descricao": "Antena em forma de prato que recebe ou transmite sinais de rádio de ou para satélites de comunicação.",
+        "variantes": [
+          "Parabólica",
+          "Satellite dish",
+          "Prato de satélite"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Diagrama com rótulos DDR, DDR 2, DDR 3 e DDR 4 e régua, com várias versões ao mesmo tempo; não é foto de um único objeto."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Trackball com a esfera vermelha bem visível; o logotipo pequeno da Logitech não entrega a resposta.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que periférico de computador é este?",
+      "resposta": "Trackball",
+      "distratores": [],
+      "ancora": {
+        "nome": "Trackball",
+        "descricao": "Dispositivo apontador em que o usuário gira uma esfera com o polegar ou os dedos para mover o cursor.",
+        "variantes": [
+          "Mouse de bola",
+          "Esfera de rolagem"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto histórica com pessoas comuns em primeiro plano usando os orelhões, e letreiro de loja visível."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Multímetro digital com pontas de prova, nítido; marca e modelo não entregam o nome do instrumento.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que instrumento de medição elétrica, com duas pontas de prova, é este?",
+      "resposta": "Multímetro",
+      "distratores": [],
+      "ancora": {
+        "nome": "Multímetro",
+        "descricao": "Instrumento que mede grandezas elétricas como tensão, corrente e resistência.",
+        "variantes": [
+          "Multímetro digital",
+          "Multitester",
+          "Voltímetro-amperímetro-ohmímetro"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "É um desenho vetorial, e o mimeógrafo pode ser fotografado; a ilustração é esquemática e ambígua."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A caixa mostra VHS e a marca BASF, o que entrega a resposta."
+    }
+  ]
+}
