@@ -1,0 +1,124 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato literal nos trechos (principal ancestral da maioria das raças de pato doméstico). O enunciado não nomeia a ave e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Bico amarelo e laranja' descreve a imagem e não distingue o calau-bicorne de outros calaus asiáticos, como o calau-rinoceronte. A pista fica fraca e a resposta, ambígua. A reescrita usa só a região.",
+      "reescrita": {
+        "pergunta": "Que grande ave da Índia e do Sudeste Asiático é esta?",
+        "resposta": "Calau-bicorne"
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "O trecho da Wikipédia em português lista 'savacu' como outro nome do arapapá, então o distrator Savacu também seria correto. Foi trocado por outro, e o 'Socó-dorminhoco' é uma garça noturna parecida.",
+      "reescrita": {
+        "pergunta": "Que ave de hábitos noturnos, da família das garças, é esta?",
+        "resposta": "Arapapá",
+        "distratores": [
+          "Socó-dorminhoco",
+          "Socó-boi",
+          "Garça-moura"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pousada sobre a neve' não consta em `mostra` e pode ser falso para esta foto. A reescrita tira essa afirmação e deixa a pista do Hemisfério Norte.",
+      "reescrita": {
+        "pergunta": "Que águia do Hemisfério Norte é esta?",
+        "resposta": "Águia-real",
+        "distratores": [
+          "Águia-imperial",
+          "Águia-calçada",
+          "Águia-de-bonelli"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Abutre que se alimenta de carniça e ocorre em montanhas e rochedos, conforme os trechos. A pista não entrega a resposta, e os distratores são do mesmo tipo e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Peito ruivo' é impreciso: a descrição fala em pescoço ruivo. 'Crista' é, além disso, quase sinônimo de 'penacho', e a pista fica perto de entregar o nome. A reescrita usa uma pista neutra.",
+      "reescrita": {
+        "pergunta": "Que ave de rapina florestal da América tropical é esta?",
+        "resposta": "Gavião-de-penacho",
+        "distratores": [
+          "Gavião-real",
+          "Gavião-pega-macaco",
+          "Uiraçu-falso"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "O trecho da Wikipédia em português lista 'pomba-trocal' como outro nome popular da asa-branca, então o distrator também seria correto. Foi trocado por 'Pomba-amargosa', outra pomba do mesmo gênero.",
+      "reescrita": {
+        "pergunta": "Que pomba sul-americana é esta?",
+        "resposta": "Asa-branca",
+        "distratores": [
+          "Pomba-amargosa",
+          "Avoante",
+          "Pomba-galega"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que 70 a 90% da dieta é osso. O enunciado não contém a resposta e exige reconhecer a ave.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dão a distribuição do sul do México ao norte da Argentina. A pergunta é literalmente correta e tem resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Crista e bico fino curvo' permite responder 'poupa' sem ver a figura (teste da imagem coberta). A reescrita usa só a distribuição geográfica.",
+      "reescrita": {
+        "pergunta": "Que ave da Europa, da Ásia e da África é esta?",
+        "resposta": "Poupa",
+        "distratores": [
+          "Abelharuco",
+          "Torcicolo",
+          "Pica-pau-verde"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos ligam o íbis-sagrado ao deus Thoth (Tote) no Antigo Egito. O enunciado não nomeia a ave e a resposta é única.",
+      "reescrita": null
+    }
+  ]
+}

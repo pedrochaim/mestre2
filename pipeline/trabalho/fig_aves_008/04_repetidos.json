@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que pomba sul-americana é esta?",
+        "resposta": "Asa-branca"
+      },
+      "existentes": [
+        {
+          "id": "q08717",
+          "pergunta": "Que cantor pernambucano eternizou a canção sobre a pomba asa-branca, que bate asas do sertão quando chega a seca?",
+          "resposta": "Luiz Gonzaga"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar a ave pela imagem (resposta Asa-branca); a existente pergunta o cantor que eternizou a canção (Luiz Gonzaga). Fatos diferentes."
+    }
+  ]
+}

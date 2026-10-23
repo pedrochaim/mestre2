@@ -1,0 +1,712 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pato-real",
+        "descricao": "Pato selvagem Anas platyrhynchos, o macho de cabeça verde, ancestral da maioria dos patos domésticos.",
+        "variantes": [
+          "Mallard",
+          "Anas platyrhynchos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mallard_locomotiva",
+          "nome": "Mallard (locomotiva)",
+          "descricao": "Locomotiva a vapor britânica da classe A4 da LNER que, em 1938, atingiu 203 quilômetros por hora, recorde de velocidade para locomotivas a vapor.",
+          "variantes": [
+            "LNER 4468 Mallard",
+            "Mallard"
+          ]
+        },
+        {
+          "id": "plano_real",
+          "nome": "Plano Real",
+          "descricao": "Programa de estabilização econômica lançado no Brasil em 1993 e 1994, que criou a moeda real e controlou a hiperinflação.",
+          "variantes": []
+        },
+        {
+          "id": "pao_frances",
+          "nome": "Pão francês",
+          "descricao": "Pão de sal de casca crocante e miolo macio, o mais consumido no café da manhã brasileiro",
+          "variantes": [
+            "Cacetinho",
+            "Pão de sal",
+            "Carioquinha"
+          ]
+        },
+        {
+          "id": "japamala",
+          "nome": "Japamala",
+          "descricao": "Cordão de contas usado para contar orações e mantras no hinduísmo e no budismo",
+          "variantes": [
+            "Mala",
+            "Japa mala"
+          ]
+        },
+        {
+          "id": "malaria",
+          "nome": "Malária",
+          "descricao": "Doença infecciosa causada por parasitas do gênero Plasmodium e transmitida por mosquitos.",
+          "variantes": [
+            "Paludismo",
+            "Impaludismo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Calau-bicorne",
+        "descricao": "Grande calau do subcontinente indiano e do Sudeste Asiático, Buceros bicornis, com elmo amarelo sobre o bico.",
+        "variantes": [
+          "Calau-malhado-grande",
+          "Great hornbill",
+          "Buceros bicornis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bicorne",
+          "nome": "Bicorne",
+          "descricao": "Chapéu de feltro com a aba levantada na frente e atrás, usado por oficiais no fim do século dezoito e início do dezenove",
+          "variantes": [
+            "Bicórnio",
+            "Chapéu bicorne"
+          ]
+        },
+        {
+          "id": "big_ben",
+          "nome": "Big Ben",
+          "descricao": "Grande sino da torre do relógio do Palácio de Westminster, em Londres; o apelido se estende à própria torre.",
+          "variantes": [
+            "Elizabeth Tower",
+            "Torre Elizabeth",
+            "Great Bell"
+          ]
+        },
+        {
+          "id": "colhereiro",
+          "nome": "Colhereiro",
+          "descricao": "Ave pernalta rosada, de bico em forma de colher, da família dos íbis, nas Américas.",
+          "variantes": [
+            "Colhereiro-americano",
+            "Platalea ajaja",
+            "Roseate spoonbill"
+          ]
+        },
+        {
+          "id": "campo_grande",
+          "nome": "Campo Grande",
+          "descricao": "Capital do estado de Mato Grosso do Sul.",
+          "variantes": [
+            "Campo Grande (Mato Grosso do Sul)"
+          ]
+        },
+        {
+          "id": "gros_michel",
+          "nome": "Gros Michel",
+          "descricao": "Variedade de banana que foi a principal de exportação até meados do século vinte",
+          "variantes": [
+            "Banana-maçã-grande",
+            "Big Mike"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Arapapá",
+        "descricao": "Garça noturna de mangues da América tropical, Cochlearius cochlearius, de bico largo em forma de barco.",
+        "variantes": [
+          "Boat-billed heron",
+          "Cochlearius cochlearius"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "harappa",
+          "nome": "Harappa",
+          "descricao": "Sítio arqueológico da Idade do Bronze, na região do Punjab, que deu nome à civilização harappiana do Vale do Indo.",
+          "variantes": [
+            "Harapa"
+          ]
+        },
+        {
+          "id": "mosquito",
+          "nome": "Mosquito",
+          "descricao": "Díptero da família Culicidae, de pernas longas, cujas fêmeas sugam sangue.",
+          "variantes": [
+            "Pernilongo",
+            "Muriçoca",
+            "Culicidae",
+            "Carapanã"
+          ]
+        },
+        {
+          "id": "caldo_de_cana",
+          "nome": "Caldo de cana",
+          "descricao": "Bebida feita do líquido extraído da cana-de-açúcar prensada.",
+          "variantes": [
+            "Garapa"
+          ]
+        },
+        {
+          "id": "mamao",
+          "nome": "Mamão",
+          "descricao": "Fruta tropical alaranjada da Carica papaya, com muitas sementes pretas no centro.",
+          "variantes": [
+            "Papaia",
+            "Carica papaya"
+          ]
+        },
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Águia-real",
+        "descricao": "Ave de rapina do Hemisfério Norte, Aquila chrysaetos, marrom escura com nuca dourada.",
+        "variantes": [
+          "Golden eagle",
+          "Aquila chrysaetos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aguia_careca",
+          "nome": "Águia-careca",
+          "descricao": "Ave de rapina norte-americana (Haliaeetus leucocephalus) de cabeça branca, símbolo nacional dos Estados Unidos.",
+          "variantes": [
+            "Haliaeetus leucocephalus",
+            "Bald eagle",
+            "Águia-de-cabeça-branca"
+          ]
+        },
+        {
+          "id": "agua_regia",
+          "nome": "Água régia",
+          "descricao": "Mistura de ácido nítrico e ácido clorídrico capaz de dissolver o ouro e a platina.",
+          "variantes": [
+            "Aqua regia"
+          ]
+        },
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        },
+        {
+          "id": "gol_de_ouro",
+          "nome": "Gol de ouro",
+          "descricao": "Regra de morte súbita na prorrogação, usada no futebol nos anos 1990 e 2000, em que o primeiro gol encerrava a partida.",
+          "variantes": [
+            "Golden goal",
+            "Morte súbita"
+          ]
+        },
+        {
+          "id": "urso_de_ouro",
+          "nome": "Urso de Ouro",
+          "descricao": "Prêmio máximo do Festival Internacional de Cinema de Berlim.",
+          "variantes": [
+            "Golden Bear",
+            "Goldener Bär"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Grifo",
+        "descricao": "Abutre do Velho Mundo Gyps fulvus, de plumagem castanha e cabeça clara, comum no sul da Europa.",
+        "variantes": [
+          "Grifo-eurasiático",
+          "Eurasian griffon vulture",
+          "Gyps fulvus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grifo",
+          "nome": "Grifo",
+          "descricao": "Criatura lendária com corpo de leão e cabeça e asas de águia.",
+          "variantes": [
+            "Grifon",
+            "Griffin"
+          ]
+        },
+        {
+          "id": "grilo",
+          "nome": "Grilo",
+          "descricao": "Inseto ortóptero de corpo cilíndrico e antenas longas, cujos machos cantam esfregando as asas.",
+          "variantes": [
+            "Gryllidae",
+            "Grylloidea",
+            "cricket"
+          ]
+        },
+        {
+          "id": "garfo",
+          "nome": "Garfo",
+          "descricao": "Talher com dentes usado para espetar e levar a comida à boca.",
+          "variantes": [
+            "Fork"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro",
+          "nome": "Rio de Janeiro",
+          "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+          "variantes": [
+            "São Sebastião do Rio de Janeiro",
+            "Rio"
+          ]
+        },
+        {
+          "id": "lince_euroasiatico",
+          "nome": "Lince-euroasiático",
+          "descricao": "Felino de médio porte (Lynx lynx) das florestas da Europa e da Ásia, com tufos pretos nas orelhas.",
+          "variantes": [
+            "Lince-boreal",
+            "Lince-comum",
+            "Eurasian lynx",
+            "Lynx lynx"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Gavião-de-penacho",
+        "descricao": "Gavião-águia das Américas tropicais, Spizaetus ornatus, de pescoço ruivo e crista negra.",
+        "variantes": [
+          "Ornate hawk-eagle",
+          "Spizaetus ornatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "basilisco_verde",
+          "nome": "Basilisco-verde",
+          "descricao": "Lagarto Basiliscus plumifrons, verde e de crista na cabeça, nativo da América Central.",
+          "variantes": [
+            "Basilisco-de-penacho",
+            "Lagarto-Jesus-Cristo",
+            "Basiliscus plumifrons"
+          ]
+        },
+        {
+          "id": "bandeira_de_pernambuco",
+          "nome": "Bandeira de Pernambuco",
+          "descricao": "Bandeira do estado de Pernambuco, azul e branca com arco-íris, estrela, sol e cruz.",
+          "variantes": [
+            "Bandeira pernambucana"
+          ]
+        },
+        {
+          "id": "polen",
+          "nome": "Pólen",
+          "descricao": "Pó produzido pelas flores das plantas com sementes, formado por grãos que contêm os gametas masculinos.",
+          "variantes": [
+            "Grão de pólen",
+            "Grãos de pólen"
+          ]
+        },
+        {
+          "id": "viola",
+          "nome": "Viola",
+          "descricao": "Instrumento de cordas friccionadas com arco, um pouco maior e mais grave que o violino, tocado apoiado no ombro.",
+          "variantes": [
+            "Viola de arco",
+            "Viola d'arco"
+          ]
+        },
+        {
+          "id": "paldea",
+          "nome": "Paldea",
+          "descricao": "Região fictícia dos jogos Pokémon Scarlet e Violet, da nona geração.",
+          "variantes": [
+            "Região de Paldea"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Asa-branca",
+        "descricao": "Pomba sul-americana Patagioenas picazuro, acinzentada com pescoço riscado de branco.",
+        "variantes": [
+          "Pombão",
+          "Picazuro pigeon",
+          "Patagioenas picazuro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "asa_branca",
+          "nome": "Asa Branca",
+          "descricao": "Toada de baião lançada por Luiz Gonzaga em 1947, sobre a seca no sertão.",
+          "variantes": []
+        },
+        {
+          "id": "asa_branca_2",
+          "nome": "Asa-branca",
+          "descricao": "Pomba sul-americana que abandona o sertão nordestino nas secas",
+          "variantes": [
+            "Pomba asa-branca",
+            "Patagioenas picazuro",
+            "Pombão"
+          ]
+        },
+        {
+          "id": "casa_branca",
+          "nome": "Casa Branca",
+          "descricao": "Residência oficial e local de trabalho do presidente dos Estados Unidos, em Washington, D.C.",
+          "variantes": [
+            "White House"
+          ]
+        },
+        {
+          "id": "pombo",
+          "nome": "Pombo",
+          "descricao": "Pombo-comum ou pombo-das-rochas (Columba livia), ave de plumagem cinza com duas faixas escuras nas asas.",
+          "variantes": [
+            "Pombo-comum",
+            "Pombo-doméstico",
+            "Columba livia",
+            "Rock dove"
+          ]
+        },
+        {
+          "id": "rosa_branca",
+          "nome": "Rosa Branca",
+          "descricao": "Grupo de resistência não violenta ao nazismo formado por estudantes da Universidade de Munique, ativo entre 1942 e 1943.",
+          "variantes": [
+            "Weiße Rose",
+            "White Rose"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Abutre-barbudo",
+        "descricao": "Grande ave de rapina de montanha, Gypaetus barbatus, que se alimenta sobretudo de ossos.",
+        "variantes": [
+          "Quebra-ossos",
+          "Bearded vulture",
+          "Lammergeier",
+          "Gypaetus barbatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_quebra_nozes",
+          "nome": "O Quebra-Nozes",
+          "descricao": "Balé de Piotr Ilitch Tchaikovsky, de 1892, que inclui a Dança da Fada Açucarada.",
+          "variantes": [
+            "The Nutcracker",
+            "Shchelkunchik",
+            "Quebra-Nozes"
+          ]
+        },
+        {
+          "id": "guerra_dos_ossos",
+          "nome": "Guerra dos Ossos",
+          "descricao": "Rivalidade entre os paleontólogos americanos Edward Drinker Cope e Othniel Charles Marsh no fim do século dezenove.",
+          "variantes": [
+            "Bone Wars",
+            "Grande Corrida dos Dinossauros"
+          ]
+        },
+        {
+          "id": "gabigol",
+          "nome": "Gabigol",
+          "descricao": "Gabriel Barbosa Almeida, atacante brasileiro de futebol, ídolo do Flamengo.",
+          "variantes": [
+            "Gabriel Barbosa",
+            "Gabi"
+          ]
+        },
+        {
+          "id": "urubu_de_cabeca_preta",
+          "nome": "Urubu-de-cabeça-preta",
+          "descricao": "Ave necrófaga das Américas (Coragyps atratus), toda preta e de cabeça nua cinza-escura, comum nas cidades brasileiras.",
+          "variantes": [
+            "Urubu",
+            "Urubu-comum",
+            "Coragyps atratus"
+          ]
+        },
+        {
+          "id": "cisne_negro",
+          "nome": "Cisne-negro",
+          "descricao": "Cygnus atratus, grande ave aquática de plumagem negra e bico vermelho, nativa da Austrália.",
+          "variantes": [
+            "Cygnus atratus",
+            "Black swan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Pica-pau-de-banda-branca",
+        "descricao": "Grande pica-pau Dryocopus lineatus, de crista vermelha e riscas brancas no dorso, do México à Argentina.",
+        "variantes": [
+          "Lineated woodpecker",
+          "Dryocopus lineatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pica_pau_de_cabeca_amarela",
+          "nome": "Pica-pau-de-cabeça-amarela",
+          "descricao": "Pica-pau (Celeus flavescens) de cabeça clara e mancha vermelha na face, que vive na Argentina, no Brasil e no Paraguai.",
+          "variantes": [
+            "Celeus flavescens",
+            "Blond-crested woodpecker"
+          ]
+        },
+        {
+          "id": "pica_pau",
+          "nome": "Pica-Pau",
+          "descricao": "Pássaro de desenho animado, de risada característica, que estreou nos cinemas em 1940 e fez sucesso na TV.",
+          "variantes": [
+            "Woody Woodpecker",
+            "Picapau"
+          ]
+        },
+        {
+          "id": "aguia_careca",
+          "nome": "Águia-careca",
+          "descricao": "Ave de rapina norte-americana (Haliaeetus leucocephalus) de cabeça branca, símbolo nacional dos Estados Unidos.",
+          "variantes": [
+            "Haliaeetus leucocephalus",
+            "Bald eagle",
+            "Águia-de-cabeça-branca"
+          ]
+        },
+        {
+          "id": "faisao_dourado",
+          "nome": "Faisão-dourado",
+          "descricao": "Faisão colorido (Chrysolophus pictus), originário das montanhas da China.",
+          "variantes": [
+            "Chrysolophus pictus",
+            "Golden pheasant"
+          ]
+        },
+        {
+          "id": "acafrao",
+          "nome": "Açafrão",
+          "descricao": "Especiaria feita dos estigmas secos da flor Crocus sativus, usada em pratos como a paella e o risoto",
+          "variantes": [
+            "Saffron",
+            "Açafrão-verdadeiro",
+            "Crocus sativus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Poupa",
+        "descricao": "Ave Upupa epops de plumagem canela, asas listradas e crista erétil, da Europa, Ásia e África.",
+        "variantes": [
+          "Poupa-eurasiática",
+          "Eurasian hoopoe",
+          "Upupa epops"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "organizacao_da_unidade_africana",
+          "nome": "Organização da Unidade Africana",
+          "descricao": "Organização de países africanos criada em 1963 e substituída pela União Africana em 2002.",
+          "variantes": [
+            "OUA",
+            "Organisation of African Unity"
+          ]
+        },
+        {
+          "id": "pupila",
+          "nome": "Pupila",
+          "descricao": "Abertura escura no centro da íris, por onde a luz entra no olho.",
+          "variantes": [
+            "Menina dos olhos",
+            "Pupil"
+          ]
+        },
+        {
+          "id": "vespa_asiatica",
+          "nome": "Vespa-asiática",
+          "descricao": "Vespa (Vespa velutina) nativa do Sudeste Asiático, predadora de abelhas e invasora na Europa.",
+          "variantes": [
+            "Vespa velutina",
+            "Vespa-de-patas-amarelas"
+          ]
+        },
+        {
+          "id": "puma",
+          "nome": "Puma",
+          "descricao": "Marca alemã de calçados e roupas esportivas fundada por Rudolf Dassler",
+          "variantes": [
+            "Puma SE"
+          ]
+        },
+        {
+          "id": "pompeia",
+          "nome": "Pompeia",
+          "descricao": "Antiga cidade romana perto de Nápoles, soterrada pela erupção do Vesúvio em 79 depois de Cristo.",
+          "variantes": [
+            "Pompeii",
+            "Pompei"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Íbis-sagrado",
+        "descricao": "Ave pernalta africana Threskiornis aethiopicus, de corpo branco e cabeça e bico negros.",
+        "variantes": [
+          "Íbis-sagrado-africano",
+          "African sacred ibis",
+          "Threskiornis aethiopicus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bisao_americano",
+          "nome": "Bisão-americano",
+          "descricao": "Grande bovino de corcova e juba espessa, nativo da América do Norte (Bison bison).",
+          "variantes": [
+            "Bison bison",
+            "Búfalo-americano",
+            "American bison"
+          ]
+        },
+        {
+          "id": "lotus_2",
+          "nome": "Lótus",
+          "descricao": "Planta aquática Nelumbo nucifera, da família Nelumbonaceae, de grandes flores rosadas, sagrada no hinduísmo e no budismo.",
+          "variantes": [
+            "Flor-de-lótus",
+            "Lótus-sagrado",
+            "Nelumbo nucifera"
+          ]
+        },
+        {
+          "id": "voie_sacree",
+          "nome": "Voie Sacrée",
+          "descricao": "Estrada entre Bar-le-Duc e Verdun que abasteceu de tropas e suprimentos a defesa francesa durante a Batalha de Verdun, em 1916.",
+          "variantes": [
+            "Via Sagrada",
+            "Caminho Sagrado"
+          ]
+        },
+        {
+          "id": "guara",
+          "nome": "Guará",
+          "descricao": "Ave pernalta de plumagem vermelho-escarlate, da família dos íbis, da América do Sul tropical.",
+          "variantes": [
+            "Íbis-escarlate",
+            "Eudocimus ruber"
+          ]
+        },
+        {
+          "id": "leopardo",
+          "nome": "Leopardo",
+          "descricao": "Grande felino do gênero Panthera, de pelagem dourada com rosetas escuras (Panthera pardus).",
+          "variantes": [
+            "Panthera pardus",
+            "Leopardo-africano"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pato-real é a ave; Mallard locomotiva é outra entidade."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o calau."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a arapapá."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Águia-real difere da águia-careca."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Grifo proposto é abutre Gyps fulvus; candidata é criatura lendária."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o gavião-de-penacho."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "asa_branca_2",
+      "motivo": "Mesma pomba Patagioenas picazuro, mesmas variantes."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o abutre-barbudo."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Espécie diferente das candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a poupa."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Íbis-sagrado diferente do guará e demais."
+    }
+  ]
+}
