@@ -1,0 +1,220 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Uniforme todo branco com detalhes dourados mínimos; cores e desenho se repetem em muitos times, não é reconhecível."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Listras pretas e brancas também servem a outros times conhecidos; por isso múltipla escolha com distratores de outras cores.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que time é este uniforme?",
+      "resposta": "Ceará",
+      "distratores": [
+        "Fortaleza",
+        "Bahia",
+        "Náutico"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ceará Sporting Club",
+        "descricao": "Clube de futebol de Fortaleza, no Ceará, fundado em 1914.",
+        "variantes": [
+          "Ceará",
+          "Vozão"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Camisa azul-escura com padrão de ondas e calção branco; azul é comum, então múltipla escolha com distratores de outras cores.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que seleção é este uniforme?",
+      "resposta": "Japão",
+      "distratores": [
+        "Coreia do Sul",
+        "Austrália",
+        "Arábia Saudita"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Seleção Japonesa de Futebol",
+        "descricao": "Seleção masculina de futebol do Japão, apelidada Samurai Blue.",
+        "variantes": [
+          "Japão",
+          "Samurai Blue"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Listras celestes e brancas também são usadas por outros países e clubes; múltipla escolha com distratores de outras cores.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que seleção é este uniforme?",
+      "resposta": "Argentina",
+      "distratores": [
+        "Brasil",
+        "Holanda",
+        "Espanha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Seleção Argentina de Futebol",
+        "descricao": "Seleção masculina de futebol da Argentina, a Albiceleste.",
+        "variantes": [
+          "Argentina",
+          "Albiceleste"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Camisa azul com faixa vermelha central e frisos brancos, desenho marcante e reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica o time deste uniforme?",
+      "resposta": "Paris",
+      "destino": 0,
+      "ancora": {
+        "nome": "Paris Saint-Germain",
+        "descricao": "Clube de futebol de Paris, na França, fundado em 1970.",
+        "variantes": [
+          "PSG",
+          "Paris SG"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Listras amarelas e pretas com desenho em H, reconhecível; pergunta vai além do reconhecimento sem nomear o clube.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que time é o maior rival do clube deste uniforme?",
+      "resposta": "Nacional",
+      "destino": 0,
+      "ancora": {
+        "nome": "Peñarol",
+        "descricao": "Clube de futebol de Montevidéu, no Uruguai, de camisa listrada em preto e amarelo.",
+        "variantes": [
+          "Club Atlético Peñarol",
+          "Carbonero"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Camisa azul com calção branco é comum a outros times; múltipla escolha com distratores de outras cores.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que time é este uniforme?",
+      "resposta": "Cruzeiro",
+      "distratores": [
+        "Flamengo",
+        "Internacional",
+        "Vasco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cruzeiro",
+        "descricao": "Clube de futebol de Belo Horizonte, Minas Gerais, fundado em 1921 como Palestra Itália.",
+        "variantes": [
+          "Cruzeiro Esporte Clube",
+          "Raposa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Camisa celeste com calção preto, reconhecível; múltipla escolha com distratores de outras cores.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que seleção é este uniforme?",
+      "resposta": "Uruguai",
+      "distratores": [
+        "Chile",
+        "Paraguai",
+        "Equador"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Seleção Uruguaia de Futebol",
+        "descricao": "Seleção masculina de futebol do Uruguai, a Celeste.",
+        "variantes": [
+          "Uruguai",
+          "La Celeste"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Camisa dividida ao meio em vermelho-escuro e amarelo-alaranjado, marcante e única.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica o clube deste uniforme?",
+      "resposta": "Istambul",
+      "distratores": [
+        "Ancara",
+        "Esmirna",
+        "Bursa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Galatasaray",
+        "descricao": "Clube de futebol de Istambul, na Turquia, fundado em 1905.",
+        "variantes": [
+          "Galatasaray Spor Kulübü",
+          "Gala"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Camisa e calção vermelhos lisos, sem desenho marcante; idêntico a muitos outros times, não é reconhecível."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Listras verdes e pretas lembram outros times; a imagem não bate claramente com o uniforme principal verde e branco descrito, resposta não única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Camisa branca com faixa vermelha central, desenho icônico e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que time é este uniforme?",
+      "resposta": "Ájax",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ájax",
+        "descricao": "Clube de futebol de Amsterdã, nos Países Baixos, fundado em 1900.",
+        "variantes": [
+          "AFC Ajax",
+          "Ajax Amsterdam"
+        ]
+      }
+    }
+  ]
+}

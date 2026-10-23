@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que time é este uniforme?",
+        "resposta": "Cruzeiro"
+      },
+      "existentes": [
+        {
+          "id": "q00041",
+          "pergunta": "Os clubes Palmeiras e Cruzeiro tinham, na fundação, o mesmo nome. Que nome era esse?",
+          "resposta": "Palestra Itália"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que seleção é este uniforme?",
+        "resposta": "Uruguai"
+      },
+      "existentes": [
+        {
+          "id": "q09348",
+          "pergunta": "A camisa do Uruguai exibe quatro estrelas, embora o país tenha conquistado duas Copas do Mundo. Por quê?",
+          "resposta": "Conta também dois ouros olímpicos"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "De que time é este uniforme?",
+        "resposta": "Ájax"
+      },
+      "existentes": [
+        {
+          "id": "q00738",
+          "pergunta": "O Ajax, de Amsterdã, leva o nome de um herói grego que lutou em qual guerra da mitologia?",
+          "resposta": "Guerra de Troia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o time pelo uniforme é um fato diferente do nome de fundação."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a seleção pelo uniforme difere do motivo das quatro estrelas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o time pelo uniforme difere da origem do nome Ajax."
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ceará Sporting Club",
+        "descricao": "Clube de futebol de Fortaleza, no Ceará, fundado em 1914.",
+        "variantes": [
+          "Ceará",
+          "Vozão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ceara",
+          "nome": "Ceará",
+          "descricao": "Estado do Nordeste do Brasil, com capital em Fortaleza.",
+          "variantes": []
+        },
+        {
+          "id": "caral",
+          "nome": "Caral",
+          "descricao": "Sítio arqueológico com pirâmides e praças no vale do Supe, no Peru, centro da civilização Norte Chico.",
+          "variantes": [
+            "Caral-Supe"
+          ]
+        },
+        {
+          "id": "carma",
+          "nome": "Carma",
+          "descricao": "Conceito do hinduísmo e do budismo segundo o qual as ações geram consequências futuras",
+          "variantes": [
+            "Karma"
+          ]
+        },
+        {
+          "id": "cabra",
+          "nome": "Cabra",
+          "descricao": "Cabra-doméstica, Capra hircus, mamífero criado para leite, carne e pele.",
+          "variantes": [
+            "Bode",
+            "Cabra-doméstica",
+            "Capra hircus"
+          ]
+        },
+        {
+          "id": "cesariao",
+          "nome": "Cesarião",
+          "descricao": "Ptolomeu Quinze, filho de Cleópatra Sétima e de Júlio César, corregente do Egito morto em 30 antes de Cristo",
+          "variantes": [
+            "Ptolomeu XV",
+            "Caesarion",
+            "Ptolomeu XV Cesarião"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Seleção Japonesa de Futebol",
+        "descricao": "Seleção masculina de futebol do Japão, apelidada Samurai Blue.",
+        "variantes": [
+          "Japão",
+          "Samurai Blue"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "japao",
+          "nome": "Japão",
+          "descricao": "País insular do Leste Asiático, cuja capital é Tóquio.",
+          "variantes": [
+            "Nippon",
+            "Nihon",
+            "Japan"
+          ]
+        },
+        {
+          "id": "selecao_francesa_de_futebol",
+          "nome": "Seleção Francesa de Futebol",
+          "descricao": "Equipe nacional masculina de futebol da França, conhecida como Les Bleus.",
+          "variantes": [
+            "França",
+            "Les Bleus",
+            "Seleção da França"
+          ]
+        },
+        {
+          "id": "selecao_inglesa_de_futebol",
+          "nome": "Seleção Inglesa de Futebol",
+          "descricao": "Seleção nacional masculina de futebol da Inglaterra.",
+          "variantes": [
+            "Inglaterra",
+            "Three Lions",
+            "Seleção da Inglaterra"
+          ]
+        },
+        {
+          "id": "selecao_alema_de_futebol",
+          "nome": "Seleção Alemã de Futebol",
+          "descricao": "Equipe nacional masculina de futebol da Alemanha, de camisa branca com detalhes nas cores da bandeira.",
+          "variantes": [
+            "Alemanha",
+            "Seleção da Alemanha",
+            "Die Mannschaft"
+          ]
+        },
+        {
+          "id": "selecao_portuguesa_de_futebol",
+          "nome": "Seleção Portuguesa de Futebol",
+          "descricao": "Seleção nacional masculina de futebol de Portugal.",
+          "variantes": [
+            "Portugal national football team"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Seleção Argentina de Futebol",
+        "descricao": "Seleção masculina de futebol da Argentina, a Albiceleste.",
+        "variantes": [
+          "Argentina",
+          "Albiceleste"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "argentina",
+          "nome": "Argentina",
+          "descricao": "País da América do Sul cuja capital é Buenos Aires.",
+          "variantes": [
+            "República Argentina"
+          ]
+        },
+        {
+          "id": "selecao_alema_de_futebol",
+          "nome": "Seleção Alemã de Futebol",
+          "descricao": "Equipe nacional masculina de futebol da Alemanha, de camisa branca com detalhes nas cores da bandeira.",
+          "variantes": [
+            "Alemanha",
+            "Seleção da Alemanha",
+            "Die Mannschaft"
+          ]
+        },
+        {
+          "id": "selecao_marroquina_de_futebol",
+          "nome": "Seleção Marroquina de Futebol",
+          "descricao": "Seleção nacional de futebol do Marrocos, semifinalista da Copa do Mundo de 2022.",
+          "variantes": [
+            "Seleção do Marrocos",
+            "Leões do Atlas"
+          ]
+        },
+        {
+          "id": "selecao_italiana_de_futebol",
+          "nome": "Seleção Italiana de Futebol",
+          "descricao": "Seleção nacional de futebol da Itália, campeã mundial em 1934, 1938, 1982 e 2006.",
+          "variantes": [
+            "Azzurra",
+            "Squadra Azzurra"
+          ]
+        },
+        {
+          "id": "selecao_croata_de_futebol",
+          "nome": "Seleção Croata de Futebol",
+          "descricao": "Seleção nacional masculina de futebol da Croácia, de camisa em xadrez vermelho e branco.",
+          "variantes": [
+            "Croácia",
+            "Vatreni",
+            "Seleção da Croácia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Paris Saint-Germain",
+        "descricao": "Clube de futebol de Paris, na França, fundado em 1970.",
+        "variantes": [
+          "PSG",
+          "Paris SG"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "canhao_de_paris",
+          "nome": "Canhão de Paris",
+          "descricao": "Canhão alemão de longuíssimo alcance usado em 1918 para bombardear Paris a partir de posições muito distantes da cidade.",
+          "variantes": [
+            "Paris-Geschütz",
+            "Paris Gun",
+            "Kaiser-Wilhelm-Geschütz"
+          ]
+        },
+        {
+          "id": "paris",
+          "nome": "Paris",
+          "descricao": "Capital da França, cortada pelo rio Sena e marcada pela Torre Eiffel.",
+          "variantes": []
+        },
+        {
+          "id": "paris_texas",
+          "nome": "Paris, Texas",
+          "descricao": "Filme de 1984 dirigido por Wim Wenders, sobre um homem que reaparece do deserto sem memória.",
+          "variantes": [
+            "Paris, Texas (filme)"
+          ]
+        },
+        {
+          "id": "sophie_germain",
+          "nome": "Sophie Germain",
+          "descricao": "Matemática francesa dos séculos dezoito e dezenove, conhecida por trabalhos em teoria dos números e elasticidade.",
+          "variantes": [
+            "Marie-Sophie Germain"
+          ]
+        },
+        {
+          "id": "parses",
+          "nome": "Parses",
+          "descricao": "Comunidade de seguidores do zoroastrismo que migrou da Pérsia para a Índia na Idade Média.",
+          "variantes": [
+            "Parsis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Peñarol",
+        "descricao": "Clube de futebol de Montevidéu, no Uruguai, de camisa listrada em preto e amarelo.",
+        "variantes": [
+          "Club Atlético Peñarol",
+          "Carbonero"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "perola",
+          "nome": "Pérola",
+          "descricao": "Gema orgânica formada dentro de ostras e outros moluscos.",
+          "variantes": [
+            "Pearl"
+          ]
+        },
+        {
+          "id": "ovelha",
+          "nome": "Ovelha",
+          "descricao": "Ruminante doméstico da espécie Ovis aries, criado por lã, carne e leite.",
+          "variantes": [
+            "Ovis aries",
+            "Carneiro",
+            "Ovino"
+          ]
+        },
+        {
+          "id": "clube_atletico_mineiro",
+          "nome": "Clube Atlético Mineiro",
+          "descricao": "Clube de futebol de Belo Horizonte, em Minas Gerais, fundado em 1908, conhecido como Galo.",
+          "variantes": [
+            "Atlético Mineiro",
+            "Atlético-MG",
+            "Galo"
+          ]
+        },
+        {
+          "id": "atletico_de_madrid",
+          "nome": "Atlético de Madrid",
+          "descricao": "Club Atlético de Madrid, clube de futebol da capital espanhola fundado em 1903.",
+          "variantes": [
+            "Club Atlético de Madrid",
+            "Atlético Madrid",
+            "Athletic Club de Madrid",
+            "Atleti"
+          ]
+        },
+        {
+          "id": "caronte",
+          "nome": "Caronte",
+          "descricao": "Maior lua de Plutão, de superfície cinzenta com um polo avermelhado, fotografada pela sonda New Horizons.",
+          "variantes": [
+            "Charon",
+            "Plutão I"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cruzeiro",
+        "descricao": "Clube de futebol de Belo Horizonte, Minas Gerais, fundado em 1921 como Palestra Itália.",
+        "variantes": [
+          "Cruzeiro Esporte Clube",
+          "Raposa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cruzeiro",
+          "nome": "Cruzeiro",
+          "descricao": "Cruzeiro Esporte Clube, clube de futebol de Belo Horizonte fundado em 1921 por imigrantes italianos.",
+          "variantes": [
+            "Cruzeiro Esporte Clube",
+            "Palestra Itália de Belo Horizonte"
+          ]
+        },
+        {
+          "id": "cruzeiro_do_sul",
+          "nome": "Cruzeiro do Sul",
+          "descricao": "Constelação do céu austral, presente na bandeira do Brasil.",
+          "variantes": [
+            "Crux",
+            "Cruzeiro"
+          ]
+        },
+        {
+          "id": "rosa",
+          "nome": "Rosa",
+          "descricao": "Planta lenhosa do gênero Rosa, da família Rosaceae, ou a flor que ela produz.",
+          "variantes": [
+            "Roseira",
+            "Rosa silvestre",
+            "Rosa (gênero)"
+          ]
+        },
+        {
+          "id": "toronto_raptors",
+          "nome": "Toronto Raptors",
+          "descricao": "Franquia canadense da NBA, sediada em Toronto e fundada em 1995.",
+          "variantes": [
+            "Raptors"
+          ]
+        },
+        {
+          "id": "cruzeiro_real",
+          "nome": "Cruzeiro real",
+          "descricao": "Moeda brasileira que circulou de agosto de 1993 a junho de 1994, antecessora imediata do real.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Seleção Uruguaia de Futebol",
+        "descricao": "Seleção masculina de futebol do Uruguai, a Celeste.",
+        "variantes": [
+          "Uruguai",
+          "La Celeste"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "uruguai",
+          "nome": "Uruguai",
+          "descricao": "País do sudeste da América do Sul entre Argentina e Brasil, cuja capital é Montevidéu.",
+          "variantes": [
+            "República Oriental do Uruguai",
+            "Uruguay"
+          ]
+        },
+        {
+          "id": "selecao_uruguaia_de_futebol",
+          "nome": "Seleção Uruguaia de Futebol",
+          "descricao": "Seleção nacional de futebol do Uruguai, campeã mundial em 1930 e 1950.",
+          "variantes": [
+            "Celeste Olímpica",
+            "Uruguay national football team"
+          ]
+        },
+        {
+          "id": "selecao_portuguesa_de_futebol",
+          "nome": "Seleção Portuguesa de Futebol",
+          "descricao": "Seleção nacional masculina de futebol de Portugal.",
+          "variantes": [
+            "Portugal national football team"
+          ]
+        },
+        {
+          "id": "selecao_croata_de_futebol",
+          "nome": "Seleção Croata de Futebol",
+          "descricao": "Seleção nacional masculina de futebol da Croácia, de camisa em xadrez vermelho e branco.",
+          "variantes": [
+            "Croácia",
+            "Vatreni",
+            "Seleção da Croácia"
+          ]
+        },
+        {
+          "id": "selecao_hungara_de_futebol",
+          "nome": "Seleção Húngara de Futebol",
+          "descricao": "Seleção nacional de futebol da Hungria, vice-campeã mundial em 1938 e 1954.",
+          "variantes": [
+            "Hungary national football team"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Galatasaray",
+        "descricao": "Clube de futebol de Istambul, na Turquia, fundado em 1905.",
+        "variantes": [
+          "Galatasaray Spor Kulübü",
+          "Gala"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "galactus",
+          "nome": "Galactus",
+          "descricao": "Devorador de mundos da Marvel Comics, criado em Quarteto Fantástico #48.",
+          "variantes": [
+            "Galan"
+          ]
+        },
+        {
+          "id": "galar",
+          "nome": "Galar",
+          "descricao": "Região fictícia dos jogos Pokémon Sword e Shield, da oitava geração, inspirada na Grã-Bretanha.",
+          "variantes": [
+            "Região de Galar"
+          ]
+        },
+        {
+          "id": "aeroporto_internacional_do_galeao",
+          "nome": "Aeroporto Internacional do Galeão",
+          "descricao": "Principal aeroporto internacional do Rio de Janeiro, na Ilha do Governador.",
+          "variantes": [
+            "Aeroporto Internacional do Rio de Janeiro",
+            "Galeão"
+          ]
+        },
+        {
+          "id": "galena",
+          "nome": "Galena",
+          "descricao": "Sulfeto de chumbo, principal minério de chumbo, em cristais cúbicos cinza metálicos.",
+          "variantes": [
+            "Sulfeto de chumbo"
+          ]
+        },
+        {
+          "id": "japamala",
+          "nome": "Japamala",
+          "descricao": "Cordão de contas usado para contar orações e mantras no hinduísmo e no budismo",
+          "variantes": [
+            "Mala",
+            "Japa mala"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Ájax",
+        "descricao": "Clube de futebol de Amsterdã, nos Países Baixos, fundado em 1900.",
+        "variantes": [
+          "AFC Ajax",
+          "Ajax Amsterdam"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ajax",
+          "nome": "Ajax",
+          "descricao": "AFC Ajax, clube de futebol de Amsterdã, na Holanda, fundado em 1900.",
+          "variantes": [
+            "AFC Ajax",
+            "Ajax de Amsterdã"
+          ]
+        },
+        {
+          "id": "ajax_2",
+          "nome": "Ájax",
+          "descricao": "Herói grego da Guerra de Troia, filho de Télamon, famoso pela força e pelo escudo enorme.",
+          "variantes": [
+            "Ájax, o Grande",
+            "Ájax Telamônio"
+          ]
+        },
+        {
+          "id": "nova_amsterda",
+          "nome": "Nova Amsterdã",
+          "descricao": "Povoado colonial holandês na ilha de Manhattan, capital da Nova Holanda, tomado pelos ingleses em 1664.",
+          "variantes": [
+            "Nova Amsterdam",
+            "New Amsterdam",
+            "Nieuw Amsterdam"
+          ]
+        },
+        {
+          "id": "uacari_vermelho",
+          "nome": "Uacari-vermelho",
+          "descricao": "Macaco amazônico do gênero Cacajao, de rosto vermelho vivo, cabeça calva e cauda curta.",
+          "variantes": [
+            "Uacari",
+            "Uacari-careca",
+            "Cacajao"
+          ]
+        },
+        {
+          "id": "abuja",
+          "nome": "Abuja",
+          "descricao": "Cidade planejada no centro da Nigéria, capital do país desde 1991.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Clube de futebol, diferente do estado do Ceará."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Seleção de futebol do Japão difere do país."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Seleção argentina difere do país e das outras seleções."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Clube PSG difere da cidade de Paris e demais candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Peñarol é clube uruguaio, nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "cruzeiro",
+      "motivo": "Mesmo clube Cruzeiro Esporte Clube de Belo Horizonte, fundado em 1921."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "selecao_uruguaia_de_futebol",
+      "motivo": "Mesma seleção masculina de futebol do Uruguai."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Galatasaray é clube turco, sem candidata equivalente."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "ajax",
+      "motivo": "Mesmo clube AFC Ajax de Amsterdã, fundado em 1900."
+    }
+  ]
+}
