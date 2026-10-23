@@ -1,0 +1,97 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelo trecho (Sciuridae). Enunciado não nomeia o animal e os distratores são roedores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto (maior mustelídeo terrestre), mas a resposta traz parênteses desnecessários. Simplificada.",
+      "reescrita": {
+        "pergunta": "Este carnívoro de florestas frias é o maior representante terrestre de qual família?",
+        "resposta": "Mustelídeos",
+        "distratores": [
+          "Ursídeos",
+          "Canídeos",
+          "Procionídeos"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pika é lagomorfo, parente de coelhos e lebres, conforme o trecho. Enunciado não entrega o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma que o nome científico significa 'amante do gelo da Groenlândia'. Distratores do mesmo tipo e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento com distratores do mesmo grupo; nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'anda dando saltinhos como numa dança' é o apelido famoso do sifaka e entrega Madagascar sem olhar a figura. Trocada por pista de grupo e região.",
+      "reescrita": {
+        "pergunta": "Em que ilha do oceano Índico vive este primata de pelagem branca?",
+        "resposta": "Madagascar",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento da espécie com distratores de saguis visualmente parecidos e distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Impala é antílope africano; distratores são antílopes críveis de savana e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cerdocyon thous é canídeo sul-americano; distratores são outros canídeos de espécies distintas.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cudo é grande antílope africano de chifres espiralados; distratores são tragelafíneos parecidos, mas distinguíveis pela figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Sem a figura, 'marsupial das copas, da mesma família de qual animal australiano famoso' já leva a canguru; a figura vira enfeite. Reescrita pede o lugar, que exige reconhecer a imagem.",
+      "reescrita": {
+        "pergunta": "Em que grande ilha ao norte da Austrália vive este marsupial?",
+        "resposta": "Nova Guiné",
+        "distratores": []
+      }
+    }
+  ]
+}

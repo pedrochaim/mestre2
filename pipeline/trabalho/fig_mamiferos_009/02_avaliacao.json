@@ -1,0 +1,274 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clara de cão-da-pradaria em pé, cauda com ponta escura.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Apesar do nome, este roedor norte-americano pertence à família de qual outro animal?",
+      "resposta": "Esquilo",
+      "distratores": [
+        "Castor",
+        "Capivara",
+        "Porco-espinho"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cão-da-pradaria",
+        "descricao": "Roedor da família dos esquilos (Cynomys ludovicianus) que vive nas pradarias da América do Norte.",
+        "variantes": [
+          "Cão-da-pradaria-de-cauda-preta",
+          "Cachorro-da-pradaria",
+          "Black-tailed prairie dog"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de um carcaju (filhote ou jovem), reconhecível pelo corpo robusto, pelagem escura e cauda peluda.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este carnívoro de florestas frias é o maior representante terrestre de qual família?",
+      "resposta": "Mustelídeos (família das doninhas)",
+      "distratores": [
+        "Ursídeos",
+        "Canídeos",
+        "Procionídeos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Carcaju",
+        "descricao": "Maior mustelídeo terrestre (Gulo gulo), carnívoro solitário do hemisfério norte.",
+        "variantes": [
+          "Glutão",
+          "Wolverine",
+          "Gulo gulo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Pika-americana nítida, com orelhas arredondadas e corpo compacto, mastigando capim entre rochas.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este pequeno mamífero de encostas rochosas é parente próximo de quais animais?",
+      "resposta": "Coelhos e lebres",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pika-americana",
+        "descricao": "Pequeno lagomorfo herbívoro (Ochotona princeps) das montanhas do oeste da América do Norte.",
+        "variantes": [
+          "Ochotona princeps",
+          "American pika",
+          "Pica-americana"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foca-harpa adulta, com cabeça escura e o desenho em sela nas costas, sobre o gelo; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "O nome científico desta foca significa amante do gelo de qual terra?",
+      "resposta": "Groenlândia",
+      "distratores": [
+        "Islândia",
+        "Alasca",
+        "Noruega"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Foca-harpa",
+        "descricao": "Foca verdadeira (Pagophilus groenlandicus) do Atlântico Norte e do Oceano Ártico, com mancha escura em forma de harpa nas costas.",
+        "variantes": [
+          "Foca-da-Groenlândia",
+          "Harp seal",
+          "Pagophilus groenlandicus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido de lince com tufos nas orelhas; a espécie exata pede múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que espécie de lince é esta?",
+      "resposta": "Lince-euroasiático",
+      "distratores": [
+        "Lince-ibérico",
+        "Lince-canadense",
+        "Lince-vermelho"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lince-euroasiático",
+        "descricao": "Felino de médio porte (Lynx lynx) das florestas da Europa e da Ásia, com tufos pretos nas orelhas.",
+        "variantes": [
+          "Lince-boreal",
+          "Lince-comum",
+          "Eurasian lynx",
+          "Lynx lynx"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Sifaka branco de cabeça escura, nítido e reconhecível como lêmure malgaxe.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ilha vive este primata, que anda no chão dando saltinhos como numa dança?",
+      "resposta": "Madagascar",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sifaka-de-verreaux",
+        "descricao": "Lêmure branco da família Indriidae (Propithecus verreauxi), de Madagascar.",
+        "variantes": [
+          "Sifaka-branco",
+          "Verreaux's sifaka",
+          "Propithecus verreauxi"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Grupo de saguis da mesma espécie, com tufos pretos nas orelhas e mancha branca na testa; foto nítida e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sagui brasileiro é este?",
+      "resposta": "Sagui-de-tufos-pretos",
+      "distratores": [
+        "Sagui-de-tufos-brancos",
+        "Sagui-de-cara-branca",
+        "Sagui-de-cabeça-amarela"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sagui-de-tufos-pretos",
+        "descricao": "Primata do Novo Mundo (Callithrix penicillata) do Planalto Central brasileiro, com tufos pretos nas orelhas.",
+        "variantes": [
+          "Mico-estrela",
+          "Sagui-estrela",
+          "Black-tufted marmoset",
+          "Callithrix penicillata"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Macho de impala nítido, de corpo inteiro, com chifres em forma de lira.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que antílope africano é este?",
+      "resposta": "Impala",
+      "distratores": [
+        "Gazela-de-thomson",
+        "Springbok",
+        "Gazela-de-grant"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Impala",
+        "descricao": "Antílope de porte médio (Aepyceros melampus) do leste e do sul da África; o macho tem chifres em forma de lira.",
+        "variantes": [
+          "Aepyceros melampus",
+          "Rooibok"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto antiga e desbotada, de baixa qualidade, com mão humana em primeiro plano; o animal é pequeno e não dá para reconhecer a espécie com segurança."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto clara de cachorro-do-mato de corpo inteiro; parecido com outros canídeos, por isso múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que canídeo sul-americano é este?",
+      "resposta": "Cachorro-do-mato",
+      "distratores": [
+        "Graxaim-do-campo",
+        "Raposa-cinzenta",
+        "Cachorro-vinagre"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cachorro-do-mato",
+        "descricao": "Canídeo de porte médio (Cerdocyon thous) da América do Sul, que não é uma raposa verdadeira.",
+        "variantes": [
+          "Graxaim-do-mato",
+          "Raposa-do-mato",
+          "Crab-eating fox",
+          "Cerdocyon thous"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Macho de cudo-maior de corpo inteiro, com chifres espiralados e listras brancas nos flancos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que antílope africano de chifres espiralados é este?",
+      "resposta": "Cudo",
+      "distratores": [
+        "Nyala",
+        "Elande",
+        "Bongo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cudo",
+        "descricao": "Grande antílope de savanas arborizadas (Tragelaphus strepsiceros) do leste e do sul da África, com chifres espiralados.",
+        "variantes": [
+          "Cudo-maior",
+          "Greater kudu",
+          "Tragelaphus strepsiceros"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Canguru-arborícola nítido, sobre um galho, com pelagem castanha e listras douradas.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este marsupial que vive nas copas das árvores é da mesma família de qual animal australiano famoso?",
+      "resposta": "Canguru",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Canguru-arborícola-de-goodfellow",
+        "descricao": "Marsupial arborícola (Dendrolagus goodfellowi) das florestas da Nova Guiné, da família dos cangurus.",
+        "variantes": [
+          "Canguru-arborícola-ornamentado",
+          "Goodfellow's tree-kangaroo",
+          "Dendrolagus goodfellowi"
+        ]
+      }
+    }
+  ]
+}

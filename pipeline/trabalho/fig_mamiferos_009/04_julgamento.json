@@ -1,0 +1,644 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cão-da-pradaria",
+        "descricao": "Roedor da família dos esquilos (Cynomys ludovicianus) que vive nas pradarias da América do Norte.",
+        "variantes": [
+          "Cão-da-pradaria-de-cauda-preta",
+          "Cachorro-da-pradaria",
+          "Black-tailed prairie dog"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "formiga_leao",
+          "nome": "Formiga-leão",
+          "descricao": "Larva de insetos da família Myrmeleontidae, que cava funis na areia para capturar presas.",
+          "variantes": [
+            "Myrmeleontidae",
+            "Antlion",
+            "Cachorrinho-da-areia"
+          ]
+        },
+        {
+          "id": "praia",
+          "nome": "Praia",
+          "descricao": "Capital de Cabo Verde, situada na ilha de Santiago.",
+          "variantes": [
+            "Cidade da Praia"
+          ]
+        },
+        {
+          "id": "ano_da_africa",
+          "nome": "Ano da África",
+          "descricao": "O ano de 1960, em que dezessete países africanos se tornaram independentes.",
+          "variantes": [
+            "Year of Africa"
+          ]
+        },
+        {
+          "id": "taxi",
+          "nome": "Táxi",
+          "descricao": "Automóvel de aluguel com motorista que leva passageiros e cobra pela corrida.",
+          "variantes": [
+            "Carro de praça"
+          ]
+        },
+        {
+          "id": "ducado_da_normandia",
+          "nome": "Ducado da Normandia",
+          "descricao": "Ducado no norte da França criado em 911, quando o rei franco cedeu a região ao chefe viking Rollo.",
+          "variantes": [
+            "Normandia",
+            "Normandy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Carcaju",
+        "descricao": "Maior mustelídeo terrestre (Gulo gulo), carnívoro solitário do hemisfério norte.",
+        "variantes": [
+          "Glutão",
+          "Wolverine",
+          "Gulo gulo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "wolverine",
+          "nome": "Wolverine",
+          "descricao": "Mutante canadense dos X-Men, com garras retráteis de adamantium, criado pela Marvel em 1974",
+          "variantes": [
+            "Logan",
+            "James Howlett"
+          ]
+        },
+        {
+          "id": "aracaju",
+          "nome": "Aracaju",
+          "descricao": "Capital do estado de Sergipe, fundada em 1855 com traçado em tabuleiro de xadrez.",
+          "variantes": []
+        },
+        {
+          "id": "plutao",
+          "nome": "Plutão",
+          "descricao": "Planeta anão do Cinturão de Kuiper, descoberto em 1930 e considerado o nono planeta até 2006.",
+          "variantes": [
+            "Pluto",
+            "134340 Plutão"
+          ]
+        },
+        {
+          "id": "cacau",
+          "nome": "Cacau",
+          "descricao": "Árvore Theobroma cacao, cujas sementes são a matéria-prima do chocolate",
+          "variantes": [
+            "Theobroma cacao",
+            "cacaueiro",
+            "cacao"
+          ]
+        },
+        {
+          "id": "cacau_2",
+          "nome": "Cacau",
+          "descricao": "Semente da árvore do cacau, domesticada na América e base do chocolate.",
+          "variantes": [
+            "Semente de cacau",
+            "Cocoa bean",
+            "Theobroma cacao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pika-americana",
+        "descricao": "Pequeno lagomorfo herbívoro (Ochotona princeps) das montanhas do oeste da América do Norte.",
+        "variantes": [
+          "Ochotona princeps",
+          "American pika",
+          "Pica-americana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "panqueca",
+          "nome": "Panqueca",
+          "descricao": "Massa líquida de farinha, ovos e leite cozida em frigideira; aqui, a versão grossa e fofa em pilha.",
+          "variantes": [
+            "Pancake",
+            "Panqueca americana"
+          ]
+        },
+        {
+          "id": "abacate",
+          "nome": "Abacate",
+          "descricao": "Fruto da Persea americana, de casca escura e polpa cremosa com um grande caroço.",
+          "variantes": [
+            "Persea americana"
+          ]
+        },
+        {
+          "id": "placa_sul_americana",
+          "nome": "Placa Sul-Americana",
+          "descricao": "Placa tectônica que abrange a América do Sul e parte do oceano Atlântico Sul.",
+          "variantes": [
+            "South American Plate"
+          ]
+        },
+        {
+          "id": "ema",
+          "nome": "Ema",
+          "descricao": "Grande ave não voadora sul-americana (Rhea americana), a maior ave do Brasil.",
+          "variantes": [
+            "Nhandu",
+            "Rhea americana"
+          ]
+        },
+        {
+          "id": "america_s_cup",
+          "nome": "America's Cup",
+          "descricao": "Troféu e competição de regatas de vela disputados desde 1851.",
+          "variantes": [
+            "Copa América de vela",
+            "Taça América"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Foca-harpa",
+        "descricao": "Foca verdadeira (Pagophilus groenlandicus) do Atlântico Norte e do Oceano Ártico, com mancha escura em forma de harpa nas costas.",
+        "variantes": [
+          "Foca-da-Groenlândia",
+          "Harp seal",
+          "Pagophilus groenlandicus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gaviao_real",
+          "nome": "Gavião-real",
+          "descricao": "Grande águia neotropical (Harpia harpyja), a maior ave de rapina de sua área de distribuição, das florestas tropicais de baixada.",
+          "variantes": [
+            "Harpia",
+            "Harpy eagle",
+            "Harpia harpyja"
+          ]
+        },
+        {
+          "id": "baleia_da_groenlandia",
+          "nome": "Baleia-da-groenlândia",
+          "descricao": "Baleia de barbatanas do Ártico (Balaena mysticetus), de cabeça enorme e sem nadadeira dorsal.",
+          "variantes": [
+            "Baleia-franca-da-groenlândia",
+            "Baleia-boreal",
+            "Balaena mysticetus",
+            "Bowhead whale"
+          ]
+        },
+        {
+          "id": "tubarao_da_groenlandia",
+          "nome": "Tubarão-da-groenlândia",
+          "descricao": "Tubarão lento de águas frias do Atlântico Norte e do Ártico (Somniosus microcephalus), famoso pela longevidade.",
+          "variantes": [
+            "Somniosus microcephalus",
+            "Greenland shark"
+          ]
+        },
+        {
+          "id": "arsenal",
+          "nome": "Arsenal",
+          "descricao": "Arsenal Football Club, clube de futebol de Londres fundado em 1886 no bairro de Woolwich.",
+          "variantes": [
+            "Arsenal FC",
+            "Arsenal F.C."
+          ]
+        },
+        {
+          "id": "groenlandia",
+          "nome": "Groenlândia",
+          "descricao": "A maior ilha do mundo, no Atlântico Norte, coberta em grande parte por uma camada de gelo.",
+          "variantes": [
+            "Greenland",
+            "Kalaallit Nunaat"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Lince-euroasiático",
+        "descricao": "Felino de médio porte (Lynx lynx) das florestas da Europa e da Ásia, com tufos pretos nas orelhas.",
+        "variantes": [
+          "Lince-boreal",
+          "Lince-comum",
+          "Eurasian lynx",
+          "Lynx lynx"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pao_fatiado",
+          "nome": "Pão fatiado",
+          "descricao": "Pão de forma vendido já cortado em fatias por máquina, popularizado nos Estados Unidos a partir de 1928.",
+          "variantes": [
+            "Pão de forma fatiado",
+            "Sliced bread"
+          ]
+        },
+        {
+          "id": "lebre_europeia",
+          "nome": "Lebre-europeia",
+          "descricao": "Espécie de lebre (Lepus europaeus) nativa da Europa e partes da Ásia, também chamada lebre-comum.",
+          "variantes": [
+            "Lebre-comum",
+            "Lepus europaeus",
+            "European hare",
+            "Brown hare"
+          ]
+        },
+        {
+          "id": "baleia_da_groenlandia",
+          "nome": "Baleia-da-groenlândia",
+          "descricao": "Baleia de barbatanas do Ártico (Balaena mysticetus), de cabeça enorme e sem nadadeira dorsal.",
+          "variantes": [
+            "Baleia-franca-da-groenlândia",
+            "Baleia-boreal",
+            "Balaena mysticetus",
+            "Bowhead whale"
+          ]
+        },
+        {
+          "id": "ice_beam",
+          "nome": "Ice Beam",
+          "descricao": "Golpe de pokémon do tipo Gelo, da 1ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "noz",
+          "nome": "Noz",
+          "descricao": "Semente comestível da nogueira (Juglans regia), com casca dura e enrugada e miolo em forma de cérebro.",
+          "variantes": [
+            "Noz comum",
+            "Walnut"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Sifaka-de-verreaux",
+        "descricao": "Lêmure branco da família Indriidae (Propithecus verreauxi), de Madagascar.",
+        "variantes": [
+          "Sifaka-branco",
+          "Verreaux's sifaka",
+          "Propithecus verreauxi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "white_day",
+          "nome": "White Day",
+          "descricao": "Data japonesa em que os homens retribuem os presentes recebidos no Dia dos Namorados.",
+          "variantes": [
+            "Dia Branco",
+            "Howaito Dē"
+          ]
+        },
+        {
+          "id": "asa_branca",
+          "nome": "Asa Branca",
+          "descricao": "Toada de baião lançada por Luiz Gonzaga em 1947, sobre a seca no sertão.",
+          "variantes": []
+        },
+        {
+          "id": "anu_branco",
+          "nome": "Anu-branco",
+          "descricao": "Ave gregária da família dos cuculídeos, de topete e cauda longa, de campos abertos da América do Sul.",
+          "variantes": [
+            "Guira guira",
+            "Guira cuckoo"
+          ]
+        },
+        {
+          "id": "barao_do_rio_branco",
+          "nome": "Barão do Rio Branco",
+          "descricao": "José Maria da Silva Paranhos Júnior, diplomata brasileiro que resolveu as fronteiras do país no início do século vinte.",
+          "variantes": [
+            "José Maria da Silva Paranhos Júnior",
+            "Rio Branco"
+          ]
+        },
+        {
+          "id": "rio_branco",
+          "nome": "Rio Branco",
+          "descricao": "Capital do estado do Acre, às margens do rio Acre.",
+          "variantes": [
+            "Rio Branco (Acre)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Sagui-de-tufos-pretos",
+        "descricao": "Primata do Novo Mundo (Callithrix penicillata) do Planalto Central brasileiro, com tufos pretos nas orelhas.",
+        "variantes": [
+          "Mico-estrela",
+          "Sagui-estrela",
+          "Black-tufted marmoset",
+          "Callithrix penicillata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sagui_de_tufos_brancos",
+          "nome": "Sagui-de-tufos-brancos",
+          "descricao": "Primata do Novo Mundo, Callithrix jacchus, de tufos brancos nas orelhas, nativo do litoral do Nordeste brasileiro.",
+          "variantes": [
+            "Callithrix jacchus",
+            "Sagui-comum",
+            "Sagui-de-tufo-branco",
+            "Mico-estrela"
+          ]
+        },
+        {
+          "id": "tipo_estelar",
+          "nome": "Tipo Estelar",
+          "descricao": "Teratipo especial introduzido na expansão The Indigo Disk, de Pokémon Scarlet e Violet, ligado ao lendário Terapagos.",
+          "variantes": [
+            "Stellar",
+            "Teratipo Estelar"
+          ]
+        },
+        {
+          "id": "espiga",
+          "nome": "Espiga",
+          "descricao": "Estrela mais brilhante da constelação de Virgem.",
+          "variantes": [
+            "Spica",
+            "Alfa da Virgem",
+            "Alpha Virginis",
+            "Espiga (estrela)",
+            "Alfa Virginis"
+          ]
+        },
+        {
+          "id": "patrick_estrela",
+          "nome": "Patrick Estrela",
+          "descricao": "Estrela-do-mar rosa, melhor amigo de Bob Esponja na série animada Bob Esponja Calça Quadrada.",
+          "variantes": [
+            "Patrick Star",
+            "Patrick"
+          ]
+        },
+        {
+          "id": "costela",
+          "nome": "Costela",
+          "descricao": "Osso longo e curvo que forma a caixa torácica e protege órgãos do tórax.",
+          "variantes": [
+            "Costelas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Impala",
+        "descricao": "Antílope de porte médio (Aepyceros melampus) do leste e do sul da África; o macho tem chifres em forma de lira.",
+        "variantes": [
+          "Aepyceros melampus",
+          "Rooibok"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "japamala",
+          "nome": "Japamala",
+          "descricao": "Cordão de contas usado para contar orações e mantras no hinduísmo e no budismo",
+          "variantes": [
+            "Mala",
+            "Japa mala"
+          ]
+        },
+        {
+          "id": "magic_paula",
+          "nome": "Magic Paula",
+          "descricao": "Maria Paula Gonçalves da Silva, armadora brasileira campeã mundial de basquete em 1994.",
+          "variantes": [
+            "Paula",
+            "Maria Paula Gonçalves da Silva"
+          ]
+        },
+        {
+          "id": "chevrolet_opala",
+          "nome": "Chevrolet Opala",
+          "descricao": "Automóvel médio produzido pela General Motors do Brasil de 1968 a 1992, derivado do Opel Rekord.",
+          "variantes": [
+            "Opala",
+            "Opala Especial"
+          ]
+        },
+        {
+          "id": "robo",
+          "nome": "Robô",
+          "descricao": "Máquina capaz de executar tarefas de forma automática; o termo surgiu na peça R.U.R., de Karel Čapek.",
+          "variantes": [
+            "Robot"
+          ]
+        },
+        {
+          "id": "torre_xadrez",
+          "nome": "Torre (xadrez)",
+          "descricao": "Peça do xadrez que se move em linha reta, na horizontal ou na vertical, chamada rukh no xadrez persa.",
+          "variantes": [
+            "Rook"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Cachorro-do-mato",
+        "descricao": "Canídeo de porte médio (Cerdocyon thous) da América do Sul, que não é uma raposa verdadeira.",
+        "variantes": [
+          "Graxaim-do-mato",
+          "Raposa-do-mato",
+          "Crab-eating fox",
+          "Cerdocyon thous"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "raposa_do_artico",
+          "nome": "Raposa-do-ártico",
+          "descricao": "Pequena raposa (Vulpes lagopus) nativa da tundra ártica, de pelagem que muda com as estações.",
+          "variantes": [
+            "Raposa-polar",
+            "Vulpes lagopus",
+            "Arctic fox"
+          ]
+        },
+        {
+          "id": "cachorro_vinagre",
+          "nome": "Cachorro-vinagre",
+          "descricao": "Canídeo sul-americano de corpo alongado, patas curtas e pelagem ruiva (Speothos venaticus).",
+          "variantes": [
+            "Cachorro-do-mato-vinagre",
+            "Speothos venaticus"
+          ]
+        },
+        {
+          "id": "feneco",
+          "nome": "Feneco",
+          "descricao": "Pequena raposa do deserto do Saara, Vulpes zerda, de orelhas enormes.",
+          "variantes": [
+            "Raposa-do-deserto",
+            "Vulpes zerda",
+            "Fennec"
+          ]
+        },
+        {
+          "id": "raposa_vermelha",
+          "nome": "Raposa-vermelha",
+          "descricao": "Canídeo de pelagem alaranjada e patas pretas, a maior das raposas verdadeiras (Vulpes vulpes).",
+          "variantes": [
+            "Vulpes vulpes",
+            "Raposa-comum"
+          ]
+        },
+        {
+          "id": "mao_do_morto",
+          "nome": "Mão do morto",
+          "descricao": "Mão de pôquer com dois pares, de ases e de oitos pretos, associada à morte de um pistoleiro do Velho Oeste.",
+          "variantes": [
+            "Dead man's hand"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Cudo",
+        "descricao": "Grande antílope de savanas arborizadas (Tragelaphus strepsiceros) do leste e do sul da África, com chifres espiralados.",
+        "variantes": [
+          "Cudo-maior",
+          "Greater kudu",
+          "Tragelaphus strepsiceros"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cluedo",
+          "nome": "Cluedo",
+          "descricao": "Jogo de tabuleiro britânico de investigação de assassinato, lançado no Brasil como Detetive.",
+          "variantes": [
+            "Clue",
+            "Detetive"
+          ]
+        },
+        {
+          "id": "curdos",
+          "nome": "Curdos",
+          "descricao": "Povo iraniano do Oriente Médio, cujo território tradicional, o Curdistão, se divide entre vários países.",
+          "variantes": [
+            "Povo curdo",
+            "Kurds"
+          ]
+        },
+        {
+          "id": "cubo_magico",
+          "nome": "Cubo mágico",
+          "descricao": "Quebra-cabeça tridimensional de faces coloridas giratórias criado pelo húngaro Ernő Rubik.",
+          "variantes": [
+            "Cubo de Rubik",
+            "Rubik's Cube"
+          ]
+        },
+        {
+          "id": "bongo",
+          "nome": "Bongo",
+          "descricao": "Grande antílope de floresta, Tragelaphus eurycerus, de pelagem avermelhada com listras brancas.",
+          "variantes": [
+            "Tragelaphus eurycerus"
+          ]
+        },
+        {
+          "id": "ludo",
+          "nome": "Ludo",
+          "descricao": "Jogo de tabuleiro de corrida com dados e peões coloridos, derivado do pachisi indiano.",
+          "variantes": [
+            "Ludo (jogo)"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o cão-da-pradaria."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Carcaju (animal) difere do personagem Wolverine da Marvel e das demais."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pika-americana."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Foca-harpa é espécie distinta das candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Lince-euroasiático não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o sifaka."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Callithrix penicillata é espécie diferente de Callithrix jacchus."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o antílope impala."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Cerdocyon thous é diferente do cachorro-vinagre e das raposas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Cudo é diferente do bongo (outra espécie) e das demais."
+    }
+  ]
+}
