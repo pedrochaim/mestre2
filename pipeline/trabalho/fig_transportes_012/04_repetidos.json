@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de embarcação é esta?",
+        "resposta": "Submarino"
+      },
+      "existentes": [
+        {
+          "id": "q15298",
+          "pergunta": "Que tipo de embarcação é esta?",
+          "resposta": "Submarino"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que tanque soviético da Segunda Guerra Mundial é este?",
+        "resposta": "T-34"
+      },
+      "existentes": [
+        {
+          "id": "q13373",
+          "pergunta": "Fabricado em dezenas de milhares de unidades, que tanque foi produzido em maior número durante a Segunda Guerra Mundial?",
+          "resposta": "T-34"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Pergunta e resposta idênticas (identificar a embarcação como submarino)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar o tanque por imagem; a existente pergunta qual tanque foi o mais produzido. Fatos diferentes, apesar da mesma resposta."
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Submarino",
+        "descricao": "Embarcação capaz de operar de forma independente debaixo d'água.",
+        "variantes": [
+          "Sub"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "submarino",
+          "nome": "Submarino",
+          "descricao": "Embarcação capaz de operar submersa, aqui um submarino alemão da Segunda Guerra Mundial exposto em terra num museu.",
+          "variantes": [
+            "Sub",
+            "U-boot",
+            "Submarine"
+          ]
+        },
+        {
+          "id": "ultracriaturas",
+          "nome": "Ultracriaturas",
+          "descricao": "Pokémon misteriosos de Pokémon Sun e Moon, como Nihilego e Buzzwole, vindos de outra dimensão por fendas chamadas Ultra Wormholes.",
+          "variantes": [
+            "Ultra Beasts",
+            "UB"
+          ]
+        },
+        {
+          "id": "metro_de_buenos_aires",
+          "nome": "Metrô de Buenos Aires",
+          "descricao": "Sistema de metrô da capital argentina, inaugurado em 1913.",
+          "variantes": [
+            "Subte",
+            "Subterráneo de Buenos Aires"
+          ]
+        },
+        {
+          "id": "mergulho_autonomo",
+          "nome": "Mergulho autônomo",
+          "descricao": "Modalidade de mergulho em que o mergulhador leva seu próprio suprimento de gás respiratório, em cilindro (scuba).",
+          "variantes": [
+            "Scuba",
+            "Mergulho scuba"
+          ]
+        },
+        {
+          "id": "bandeira_de_san_marino",
+          "nome": "Bandeira de San Marino",
+          "descricao": "Bandeira nacional de San Marino, branca e azul-celeste com o brasão de três torres no centro.",
+          "variantes": [
+            "San Marino",
+            "Bandeira sanmarinense"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Lamborghini Countach",
+        "descricao": "Esportivo italiano de motor central traseiro, produzido pela Lamborghini de 1974 a 1990.",
+        "variantes": [
+          "Countach"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coluna_vertebral",
+          "nome": "Coluna vertebral",
+          "descricao": "Eixo ósseo do corpo humano formado pelas vértebras, que protege a medula espinhal.",
+          "variantes": [
+            "Espinha dorsal",
+            "Coluna"
+          ]
+        },
+        {
+          "id": "crunch",
+          "nome": "Crunch",
+          "descricao": "Golpe de pokémon do tipo Sombrio, da 2ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "lamborghini",
+          "nome": "Lamborghini",
+          "descricao": "Fabricante italiana de carros esportivos fundada por Ferruccio Lamborghini em 1963.",
+          "variantes": [
+            "Automobili Lamborghini"
+          ]
+        },
+        {
+          "id": "mitsuyo_maeda",
+          "nome": "Mitsuyo Maeda",
+          "descricao": "Judoca japonês que se fixou em Belém do Pará e ensinou sua luta à família Gracie.",
+          "variantes": [
+            "Conde Koma",
+            "Count Koma"
+          ]
+        },
+        {
+          "id": "conde_dracula",
+          "nome": "Conde Drácula",
+          "descricao": "Vampiro protagonista do romance Drácula, de Bram Stoker, publicado em 1897.",
+          "variantes": [
+            "Drácula",
+            "Count Dracula"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ford Galaxie",
+        "descricao": "Automóvel full-size vendido pela Ford de 1959 a 1974.",
+        "variantes": [
+          "Ford Galaxie 500"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fordlandia",
+          "nome": "Fordlândia",
+          "descricao": "Cidade fundada por Henry Ford na Amazônia em 1928 para produzir borracha.",
+          "variantes": []
+        },
+        {
+          "id": "galaxia_espiral",
+          "nome": "Galáxia espiral",
+          "descricao": "Galáxia com braços de estrelas, gás e poeira enrolados em torno de um núcleo brilhante, como a mostrada na foto.",
+          "variantes": [
+            "Galáxia",
+            "Galáxia espiral NGC 4414"
+          ]
+        },
+        {
+          "id": "alfred_russel_wallace",
+          "nome": "Alfred Russel Wallace",
+          "descricao": "Naturalista britânico do século dezenove que explorou a Amazônia e o arquipélago Malaio.",
+          "variantes": [
+            "Alfred Wallace"
+          ]
+        },
+        {
+          "id": "ford_modelo_t",
+          "nome": "Ford Modelo T",
+          "descricao": "Automóvel da Ford fabricado de 1908 a 1927, o primeiro carro produzido em massa em linha de montagem.",
+          "variantes": [
+            "Ford Model T",
+            "Ford Bigode",
+            "Tin Lizzie",
+            "Model T"
+          ]
+        },
+        {
+          "id": "frei_galvao",
+          "nome": "Frei Galvão",
+          "descricao": "Frade franciscano paulista do século dezoito, primeiro santo nascido no Brasil",
+          "variantes": [
+            "Santo Antônio de Sant'Anna Galvão",
+            "Santo Antônio de Santana Galvão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "T-34",
+        "descricao": "Tanque médio soviético da Segunda Guerra Mundial, mostrado na versão T-34-85.",
+        "variantes": [
+          "Tanque de guerra",
+          "T-34-85"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tanque_de_guerra",
+          "nome": "Tanque de guerra",
+          "descricao": "Veículo blindado de combate com lagartas, criado pelos britânicos e estreado na Primeira Guerra Mundial.",
+          "variantes": [
+            "Tank",
+            "Carro de combate"
+          ]
+        },
+        {
+          "id": "t_34",
+          "nome": "T-34",
+          "descricao": "Tanque médio soviético, peça central das forças blindadas do Exército Vermelho na Segunda Guerra Mundial.",
+          "variantes": [
+            "Tanque T-34"
+          ]
+        },
+        {
+          "id": "guerra_do_paraguai",
+          "nome": "Guerra do Paraguai",
+          "descricao": "Guerra travada entre 1864 e 1870 entre o Paraguai e a Tríplice Aliança, formada por Brasil, Argentina e Uruguai.",
+          "variantes": [
+            "Guerra da Tríplice Aliança",
+            "Grande Guerra"
+          ]
+        },
+        {
+          "id": "a_arte_da_guerra",
+          "nome": "A Arte da Guerra",
+          "descricao": "Tratado chinês antigo de estratégia militar, atribuído a Sun Tzu.",
+          "variantes": [
+            "The Art of War",
+            "Sunzi Bingfa"
+          ]
+        },
+        {
+          "id": "rachel_de_queiroz",
+          "nome": "Rachel de Queiroz",
+          "descricao": "Escritora cearense (1910–2003), autora de O Quinze.",
+          "variantes": [
+            "Raquel de Queirós",
+            "Raquel de Queiroz"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Asa-delta",
+        "descricao": "Aeronave leve, sem motor, de asa fixa, em que o piloto fica pendurado num arnês.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "asa_delta",
+          "nome": "Asa-delta",
+          "descricao": "Esporte aéreo em que o piloto voa pendurado num arnês sob uma asa sem motor.",
+          "variantes": [
+            "Hang gliding",
+            "Voo livre de asa-delta"
+          ]
+        },
+        {
+          "id": "delta_do_ganges",
+          "nome": "Delta do Ganges",
+          "descricao": "Imenso delta na Índia e em Bangladesh, formado pelos rios Ganges e Brahmaputra antes do golfo de Bengala.",
+          "variantes": [
+            "Delta do Ganges-Brahmaputra",
+            "Delta de Bengala",
+            "Ganges Delta"
+          ]
+        },
+        {
+          "id": "delta_do_okavango",
+          "nome": "Delta do Okavango",
+          "descricao": "Grande delta interior formado pelo rio Okavango, que se espalha no deserto do Kalahari sem chegar ao mar.",
+          "variantes": [
+            "Okavango Delta",
+            "Delta do Cubango"
+          ]
+        },
+        {
+          "id": "sueter",
+          "nome": "Suéter",
+          "descricao": "Peça de vestuário de malha de tricô, em geral de mangas compridas, que cobre a parte superior do corpo.",
+          "variantes": [
+            "Pulôver",
+            "Sweater",
+            "Camisola de lã"
+          ]
+        },
+        {
+          "id": "elba",
+          "nome": "Elba",
+          "descricao": "Ilha italiana no mar Tirreno, entre a Toscana e a Córsega.",
+          "variantes": [
+            "Isola d'Elba",
+            "Ilha de Elba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tesla Cybertruck",
+        "descricao": "Picape elétrica de painéis angulares de aço inoxidável, fabricada pela Tesla desde 2023.",
+        "variantes": [
+          "Cybertruck"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monster_truck",
+          "nome": "Monster truck",
+          "descricao": "Veículo off-road de pneus enormes e suspensão reforçada, usado em shows e competições, como esmagar carros.",
+          "variantes": [
+            "Caminhão monstro"
+          ]
+        },
+        {
+          "id": "uluru",
+          "nome": "Uluru",
+          "descricao": "Grande monólito de arenito no centro da Austrália, sagrado para o povo aborígene Anangu.",
+          "variantes": [
+            "Ayers Rock",
+            "Uluru / Ayers Rock"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Tata Nano",
+        "descricao": "Carro compacto econômico fabricado pela Tata Motors na Índia de 2008 a 2018.",
+        "variantes": [
+          "Nano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "burro",
+          "nome": "Burro",
+          "descricao": "Equino doméstico descendente do asno-selvagem-africano, usado como animal de carga.",
+          "variantes": [
+            "Asno",
+            "Jumento",
+            "Equus asinus"
+          ]
+        },
+        {
+          "id": "nanu",
+          "nome": "Nanu",
+          "descricao": "Kahuna da ilha Ula'ula e policial nos jogos Pokémon Sun e Moon, especialista em pokémon sombrios.",
+          "variantes": []
+        },
+        {
+          "id": "ainus",
+          "nome": "Ainus",
+          "descricao": "Povo indígena do norte do Japão e de áreas vizinhas da Rússia.",
+          "variantes": [
+            "Ainu",
+            "Aino"
+          ]
+        },
+        {
+          "id": "jano",
+          "nome": "Jano",
+          "descricao": "Deus romano de duas faces, protetor das portas, das passagens e dos começos.",
+          "variantes": [
+            "Janus"
+          ]
+        },
+        {
+          "id": "lingua_ioruba",
+          "nome": "Língua iorubá",
+          "descricao": "Língua nígero-congolesa da África Ocidental, presente nos cultos afro-brasileiros como o candomblé.",
+          "variantes": [
+            "Iorubá",
+            "Yoruba",
+            "Nagô"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Metrô de Nova York",
+        "descricao": "Sistema de transporte metroviário da cidade de Nova York, inaugurado em 1904.",
+        "variantes": [
+          "New York City Subway",
+          "Subway de Nova York"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nova_york",
+          "nome": "Nova York",
+          "descricao": "Maior cidade dos Estados Unidos, vista pelo skyline do sul de Manhattan.",
+          "variantes": [
+            "Nova Iorque",
+            "New York City"
+          ]
+        },
+        {
+          "id": "checker_marathon",
+          "nome": "Checker Marathon",
+          "descricao": "Automóvel produzido pela Checker Motors, de Kalamazoo, entre 1960 e 1982, famoso como táxi americano.",
+          "variantes": [
+            "Checker Marathon (táxi amarelo de Nova York)",
+            "Checker A11",
+            "Checker Cab",
+            "táxi amarelo de Nova York"
+          ]
+        },
+        {
+          "id": "metro_de_paris",
+          "nome": "Metrô de Paris",
+          "descricao": "Sistema de metrô da cidade de Paris, inaugurado em 1900.",
+          "variantes": [
+            "Paris Métro"
+          ]
+        },
+        {
+          "id": "metro_de_sao_paulo",
+          "nome": "Metrô de São Paulo",
+          "descricao": "Sistema de metrô da cidade de São Paulo, o primeiro do Brasil.",
+          "variantes": [
+            "Companhia do Metropolitano de São Paulo"
+          ]
+        },
+        {
+          "id": "metro_de_buenos_aires",
+          "nome": "Metrô de Buenos Aires",
+          "descricao": "Sistema de metrô da capital argentina, inaugurado em 1913.",
+          "variantes": [
+            "Subte",
+            "Subterráneo de Buenos Aires"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "submarino",
+      "motivo": "Mesma entidade: submarino como embarcação; variante Sub idêntica."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O modelo Countach é distinto do fabricante Lamborghini."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ford Galaxie é um modelo distinto; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "t_34",
+      "motivo": "Mesmo tanque soviético T-34; a variante 'Tanque de guerra' é só ruído."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A proposta descreve a aeronave (equipamento), enquanto a candidata descreve o esporte; na dúvida, nova."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Cybertruck."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Tata Nano."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Metrô de Nova York não consta entre as candidatas; as outras são cidades ou sistemas diferentes."
+    }
+  ]
+}

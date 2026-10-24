@@ -1,0 +1,74 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A alegação 'preservada em terra firme como museu' não consta em `mostra` e não é verificável para esta foto; o enunciado não precisa dela.",
+      "reescrita": {
+        "pergunta": "Que tipo de embarcação é esta?",
+        "resposta": "Submarino"
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bertone/Gandini confirmado nos trechos. O enunciado não nomeia o carro nem a resposta, e não dá para respondê-lo sem a figura. Os distratores são casas italianas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Conversível dos anos sessenta' não consta em `mostra`, então não há garantia de que valha para esta foto. Troquei por fatos dos trechos que não entregam a resposta.",
+      "reescrita": {
+        "pergunta": "Que modelo da Ford, de porte grande e vendido entre 1959 e 1974, é este?",
+        "resposta": "Galaxie",
+        "distratores": [
+          "Fairlane",
+          "Thunderbird",
+          "Mustang"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O T-34 é soviético e da Segunda Guerra Mundial, conforme os trechos. Os distratores são tanques soviéticos parecidos ou da mesma família. O T-34-85 é uma versão do T-34.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A asa-delta é uma aeronave leve e não motorizada, segundo o trecho. O enunciado não entrega a resposta. Os distratores são aeronaves sem motor visualmente distintas da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Picape elétrica de aço inoxidável' identifica o Cybertruck sem olhar a figura, e portanto a Tesla. O teste da imagem coberta falha.",
+      "reescrita": {
+        "pergunta": "Que empresa fabrica esta picape?",
+        "resposta": "Tesla"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Tata Nano foi um carro econômico fabricado pela Tata Motors, indiana, segundo os trechos. O enunciado não entrega a resposta. Os distratores são montadoras indianas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, de nível 1, sem vazamento. A resposta está nos trechos.",
+      "reescrita": null
+    }
+  ]
+}

@@ -495,7 +495,7 @@
       "titulo": "en:HMS Victory",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Submarino USS Nautilus",
@@ -747,7 +747,7 @@
       "titulo": "en:Tesla Cybertruck",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Embraer Super Tucano",
@@ -936,7 +936,7 @@
       "titulo": "en:Lamborghini Countach",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Ferrari Testarossa",
@@ -971,7 +971,7 @@
       "titulo": "en:New York City Subway",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Estação da Luz",
@@ -1090,7 +1090,7 @@
       "titulo": "en:Ford Galaxie",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Simca Chambord",
@@ -1116,6 +1116,286 @@
     {
       "nome": "Encouraçado USS Missouri",
       "titulo": "en:USS Missouri (BB-63)",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Toyota Corolla",
+      "titulo": "en:Toyota Corolla",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Toyota Hilux",
+      "titulo": "en:Toyota Hilux",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chevrolet Celta",
+      "titulo": "en:Chevrolet Celta",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Trenó",
+      "titulo": "en:Sled",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Monociclo",
+      "titulo": "en:Unicycle",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caiaque",
+      "titulo": "en:Kayak",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Asa-delta",
+      "titulo": "en:Hang gliding",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Limusine",
+      "titulo": "en:Limousine",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Retroescavadeira",
+      "titulo": "en:Backhoe loader",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tanque de guerra",
+      "titulo": "en:Tank",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Navio porta-contêineres",
+      "titulo": "en:Container ship",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Submarino",
+      "titulo": "en:Submarine",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Empilhadeira",
+      "titulo": "en:Forklift",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Volkswagen Karmann Ghia",
+      "titulo": "en:Volkswagen Karmann Ghia",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ford Thunderbird",
+      "titulo": "en:Ford Thunderbird",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cadillac Eldorado",
+      "titulo": "en:Cadillac Eldorado",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Boeing B-17 Flying Fortress",
+      "titulo": "en:Boeing B-17 Flying Fortress",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "P-51 Mustang",
+      "titulo": "en:North American P-51 Mustang",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Saab Gripen",
+      "titulo": "en:Saab JAS 39 Gripen",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Boeing CH-47 Chinook",
+      "titulo": "en:Boeing CH-47 Chinook",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Black Hawk",
+      "titulo": "en:Sikorsky UH-60 Black Hawk",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "V-22 Osprey",
+      "titulo": "en:Bell Boeing V-22 Osprey",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Soyuz (nave espacial)",
+      "titulo": "en:Soyuz (spacecraft)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Eurostar",
+      "titulo": "en:Eurostar",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Toyota Prius",
+      "titulo": "en:Toyota Prius",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Encouraçado Yamato",
+      "titulo": "en:Japanese battleship Yamato",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ferrari 250 GTO",
+      "titulo": "en:Ferrari 250 GTO",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lamborghini Miura",
+      "titulo": "en:Lamborghini Miura",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Porsche 356",
+      "titulo": "en:Porsche 356",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bugatti Type 35",
+      "titulo": "en:Bugatti Type 35",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Renault 4",
+      "titulo": "en:Renault 4",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lada Niva",
+      "titulo": "en:Lada Niva",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tata Nano",
+      "titulo": "en:Tata Nano",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Honda CB750",
+      "titulo": "en:Honda CB750",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Messerschmitt Bf 109",
+      "titulo": "en:Messerschmitt Bf 109",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sopwith Camel",
+      "titulo": "en:Sopwith Camel",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "MiG-21",
+      "titulo": "en:Mikoyan-Gurevich MiG-21",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mil Mi-24",
+      "titulo": "en:Mil Mi-24",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Boeing 707",
+      "titulo": "en:Boeing 707",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Embraer Ipanema",
+      "titulo": "en:Embraer EMB 202 Ipanema",
       "camada": 3,
       "destino": 0,
       "status": "reprovada"

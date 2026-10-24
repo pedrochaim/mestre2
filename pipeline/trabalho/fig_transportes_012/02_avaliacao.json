@@ -1,0 +1,197 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Submarino da Segunda Guerra em museu, bem visível; pessoas pequenas e incidentais. Pergunta simples de reconhecimento.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que tipo de embarcação é esta, preservada em terra firme como museu?",
+      "resposta": "Submarino",
+      "distratores": [],
+      "ancora": {
+        "nome": "Submarino",
+        "descricao": "Embarcação capaz de operar de forma independente debaixo d'água.",
+        "variantes": [
+          "Sub"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Countach inconfundível; placa britânica não entrega a resposta.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que casa de design italiana criou a linha cunha deste esportivo?",
+      "resposta": "Bertone",
+      "distratores": [
+        "Pininfarina",
+        "Italdesign",
+        "Zagato"
+      ],
+      "ancora": {
+        "nome": "Lamborghini Countach",
+        "descricao": "Esportivo italiano de motor central traseiro, produzido pela Lamborghini de 1974 a 1990.",
+        "variantes": [
+          "Countach"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Galaxie conversível 1966 claro; só aparece a marca Ford, não o modelo. Reconhecimento por múltipla escolha com modelos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que modelo da Ford é este conversível dos anos sessenta?",
+      "resposta": "Galaxie",
+      "distratores": [
+        "Fairlane",
+        "Thunderbird",
+        "Mustang"
+      ],
+      "ancora": {
+        "nome": "Ford Galaxie",
+        "descricao": "Automóvel full-size vendido pela Ford de 1959 a 1974.",
+        "variantes": [
+          "Ford Galaxie 500"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Tanque soviético T-34-85 sobre fundo neutro, reconhecível; a âncora é o T-34, não o tanque genérico.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tanque soviético da Segunda Guerra Mundial é este?",
+      "resposta": "T-34",
+      "distratores": [
+        "KV-1",
+        "IS-2",
+        "T-54"
+      ],
+      "ancora": {
+        "nome": "T-34",
+        "descricao": "Tanque médio soviético da Segunda Guerra Mundial, mostrado na versão T-34-85.",
+        "variantes": [
+          "T-34-85"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A palavra 'eurostar' aparece escrita no trem, entregando a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A legenda 'Victory Portsmouth' e o nome na popa entregam a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Asa-delta clara; o piloto aparece de costas, com capacete, sem ser identificável.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que aeronave sem motor é esta?",
+      "resposta": "Asa-delta",
+      "distratores": [
+        "Parapente",
+        "Planador",
+        "Balão de ar quente"
+      ],
+      "ancora": {
+        "nome": "Asa-delta",
+        "descricao": "Aeronave leve, sem motor, de asa fixa, em que o piloto fica pendurado num arnês.",
+        "variantes": [
+          "Asa delta"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cybertruck inconfundível, sem texto legível.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que empresa fabrica esta picape elétrica de aço inoxidável?",
+      "resposta": "Tesla",
+      "distratores": [],
+      "ancora": {
+        "nome": "Tesla Cybertruck",
+        "descricao": "Picape elétrica de painéis angulares de aço inoxidável, fabricada pela Tesla desde 2023.",
+        "variantes": [
+          "Cybertruck"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Tata Nano reconhecível pelo formato; placa indiana ilegível e sem relação com a resposta.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que montadora indiana fabricou este carro popular?",
+      "resposta": "Tata Motors",
+      "distratores": [
+        "Mahindra",
+        "Maruti Suzuki",
+        "Hindustan Motors"
+      ],
+      "ancora": {
+        "nome": "Tata Nano",
+        "descricao": "Carro compacto econômico fabricado pela Tata Motors na Índia de 2008 a 2018.",
+        "variantes": [
+          "Nano"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Marca 'Nissan' legível na empilhadeira e operador (pessoa comum) em primeiro plano."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Trem do metrô com o horizonte de Manhattan ao fundo; a letra F não entrega a cidade.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que metrô é este?",
+      "resposta": "Metrô de Nova York",
+      "distratores": [],
+      "ancora": {
+        "nome": "Metrô de Nova York",
+        "descricao": "Sistema de transporte metroviário da cidade de Nova York, inaugurado em 1904.",
+        "variantes": [
+          "New York City Subway",
+          "Subway de Nova York"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O nome 'Ipanema' aparece escrito na cauda e na fuselagem, entregando a resposta."
+    }
+  ]
+}
