@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado só dá a nacionalidade; distratores são pilotos italianos críveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Da década de 1950' não é literalmente exato: o carro foi concebido em 1938. Competiu na F1 em 1950 e 1951. Reescrito com época correta; distrator alemão trocado por um italiano para não ser eliminado pela pista.",
+      "reescrita": {
+        "pergunta": "Que carro de corrida italiano, que disputou a Fórmula 1 no início da década de 1950, é este?",
+        "resposta": "Alfa Romeo 158 (Alfetta)",
+        "distratores": [
+          "Maserati 4CLT",
+          "Ferrari 375",
+          "Maserati 250F"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nacionalidade correta; distratores são finlandeses de F1, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Horner foi chefe da Red Bull de 2005 a 2025, duas décadas; nacionalidade britânica correta; o enunciado não entrega a resposta sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nacionalidade correta; distratores são alemães de F1, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nacionalidade correta; distratores são alemães de F1, nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}
