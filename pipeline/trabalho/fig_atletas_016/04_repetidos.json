@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que universidade americana este astro da NBA jogou antes de ser draftado?",
+        "resposta": "Marquette"
+      },
+      "existentes": [
+        {
+          "id": "q15482",
+          "pergunta": "Que astro do basquete americano é este?",
+          "resposta": "Dwyane Wade"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que prova do atletismo este atleta é o recordista mundial?",
+        "resposta": "Salto com vara"
+      },
+      "existentes": [
+        {
+          "id": "q15110",
+          "pergunta": "Por qual país compete este atleta olímpico do salto com vara?",
+          "resposta": "Suécia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que torneio de Grand Slam este tenista foi campeão em 2013 e em 2016?",
+        "resposta": "Wimbledon"
+      },
+      "existentes": [
+        {
+          "id": "q14997",
+          "pergunta": "Quem é este tenista britânico?",
+          "resposta": "Andy Murray"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a universidade, não sobre a identidade do astro."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Prova do recorde mundial é diferente do país pelo qual compete."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Torneio dos títulos de 2013 e 2016 é fato diferente da identidade do tenista."
+    }
+  ]
+}

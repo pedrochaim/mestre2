@@ -1,0 +1,203 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto que entregue o nome; jogador muito conhecido.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este jovem atacante espanhol se formou em qual academia de base?",
+      "resposta": "La Masia",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lamine Yamal",
+        "descricao": "Futebolista espanhol, ponta direita do Barcelona e da seleção da Espanha, nascido em 2007.",
+        "variantes": [
+          "Lamine Yamal Nasraoui Ebana"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida; camisa mostra só o time e o número 3, sem o nome do jogador. Pergunta vai além do reconhecimento.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que universidade americana este astro da NBA jogou antes de ser draftado?",
+      "resposta": "Marquette",
+      "distratores": [],
+      "destino": 2,
+      "ancora": {
+        "nome": "Dwyane Wade",
+        "descricao": "Ex-jogador de basquete americano, armador do Miami Heat, tricampeão da NBA.",
+        "variantes": [
+          "D-Wade",
+          "Dwyane Tyrone Wade Jr."
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto 3x4 minúscula e de baixa resolução, sem contexto; o atleta não é reconhecível pela imagem e não fica legível no celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato claro com camisa da França e número 7, sem nome visível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em 2014, este atacante francês deixou a Real Sociedad rumo a que clube de Madri?",
+      "resposta": "Atlético de Madrid",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Antoine Griezmann",
+        "descricao": "Futebolista francês, atacante, ex-Atlético de Madrid e campeão mundial em 2018.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rosto nítido; só patrocinadores no fundo, sem o nome. Pergunta distingue a modalidade.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que prova do atletismo este atleta é o recordista mundial?",
+      "resposta": "Salto com vara",
+      "distratores": [
+        "Salto em altura",
+        "Salto triplo",
+        "Lançamento de dardo"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Armand Duplantis",
+        "descricao": "Atleta sueco-americano do salto com vara, bicampeão olímpico e recordista mundial.",
+        "variantes": [
+          "Mondo Duplantis",
+          "Mondo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido; boné e uniforme com patrocinadores, sem nome do piloto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que montadora apoia a carreira deste piloto japonês desde 2016?",
+      "resposta": "Honda",
+      "distratores": [],
+      "destino": 4,
+      "ancora": {
+        "nome": "Yuki Tsunoda",
+        "descricao": "Piloto japonês de Fórmula 1, ligado à Red Bull e à Honda, nascido em 2000.",
+        "variantes": [
+          "Tsunoda Yūki"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato claro com camisa da Argentina; legenda do jogo não traz o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em 2007, este ponta argentino chegou a que clube português?",
+      "resposta": "Benfica",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ángel Di María",
+        "descricao": "Futebolista argentino, ponta, campeão mundial em 2022, ex-Benfica, Real Madrid e PSG.",
+        "variantes": [
+          "Di Maria",
+          "Fideo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem nome visível; astro conhecido.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que universidade americana este pivô jogou um ano antes de ir para a NBA?",
+      "resposta": "Kansas",
+      "distratores": [
+        "Duke",
+        "Kentucky",
+        "Syracuse"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Joel Embiid",
+        "descricao": "Pivô camaronês-americano do Philadelphia 76ers, MVP da NBA em 2023.",
+        "variantes": [
+          "Joel Hans Embiid"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem pequena e de baixa resolução; mostra um skatista brasileiro com medalha de prata, mas a resposta não é única (Pedro Barros também foi prata em Tóquio) e o rosto não permite reconhecer."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida com camisa do Brasil; sem o nome do jogador.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Por que clube inglês este meia brasileiro jogou de 2013 a 2018?",
+      "resposta": "Liverpool",
+      "distratores": [
+        "Everton",
+        "Tottenham",
+        "Arsenal"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Philippe Coutinho",
+        "descricao": "Meia brasileiro, ex-Vasco, Liverpool e Barcelona.",
+        "variantes": [
+          "Coutinho"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto com o nome; tenista muito conhecido.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que torneio de Grand Slam este tenista foi campeão em 2013 e em 2016?",
+      "resposta": "Wimbledon",
+      "distratores": [],
+      "destino": 3,
+      "ancora": {
+        "nome": "Andy Murray",
+        "descricao": "Tenista britânico escocês, ex-número 1 do mundo e tricampeão de Grand Slam.",
+        "variantes": [
+          "Sir Andrew Barron Murray"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto de perfil, com boné e carro de stock car ao fundo com nomes parciais; o piloto não é reconhecível pelo rosto e o contexto sugere outros pilotos."
+    }
+  ]
+}

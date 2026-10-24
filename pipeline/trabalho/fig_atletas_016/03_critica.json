@@ -1,0 +1,78 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos. O enunciado não identifica o jogador, então a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marquette confirmado nos trechos. O enunciado não nomeia o atleta nem entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A expressão 'clube de Madri' vaza a resposta, que é 'Atlético de Madrid'. O fato (transferência em 2014) está nos trechos.",
+      "reescrita": {
+        "pergunta": "Em 2014, este atacante francês deixou a Real Sociedad. Para qual clube ele se transferiu?",
+        "resposta": "Atlético de Madrid"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Recorde no salto com vara confirmado. Os distratores são provas parecidas, curtos e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Apoia' está no presente e pode deixar de ser verdade. Sem opções, 'montadora' para um japonês entrega Honda por palpite. Os trechos confirmam o apoio da Honda desde 2016. Passa a múltipla, com montadoras japonesas como distratores.",
+      "reescrita": {
+        "pergunta": "Desde 2016, o projeto de jovens pilotos de qual montadora apoiou a carreira deste piloto japonês?",
+        "resposta": "Honda",
+        "distratores": [
+          "Toyota",
+          "Nissan",
+          "Mazda"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chegada ao Benfica em julho de 2007 confirmada nos trechos. A figura identifica o jogador.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Um ano na Universidade do Kansas, confirmado nos trechos. Os distratores são universidades críveis e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Liverpool de janeiro de 2013 a janeiro de 2018, confirmado nos trechos. Os distratores são clubes ingleses críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Wimbledon em 2013 e 2016, confirmado nos trechos. A figura identifica o tenista, pois só o enunciado não basta (Djokovic ganhou o Australian Open nesses dois anos).",
+      "reescrita": null
+    }
+  ]
+}
