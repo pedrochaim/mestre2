@@ -439,7 +439,7 @@
       "titulo": "en:Set square",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Régua",
@@ -460,7 +460,7 @@
       "titulo": "en:Isaac Newton",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "saturada"
     },
     {
       "nome": "Icosaedro",
@@ -559,6 +559,286 @@
       "camada": 3,
       "destino": 1,
       "status": "nova"
+    },
+    {
+      "nome": "Pilha de Volta",
+      "titulo": "en:Voltaic pile",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Dínamo",
+      "titulo": "en:Dynamo",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Transformador",
+      "titulo": "en:Transformer",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Turbina a vapor",
+      "titulo": "en:Steam turbine",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Roda Pelton",
+      "titulo": "en:Pelton wheel",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Turbina Kaplan",
+      "titulo": "en:Kaplan turbine",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Torre solar",
+      "titulo": "en:Solar power tower",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Coletor cilindro-parabólico",
+      "titulo": "en:Parabolic trough",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Fogão solar",
+      "titulo": "en:Solar cooker",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Usina nuclear de Zaporíjia",
+      "titulo": "en:Zaporizhzhia Nuclear Power Plant",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Usina nuclear de Three Mile Island",
+      "titulo": "en:Three Mile Island Nuclear Generating Station",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "ITER",
+      "titulo": "en:ITER",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tempestade de areia",
+      "titulo": "en:Dust storm",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Erosão do solo",
+      "titulo": "en:Soil erosion",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Voçoroca",
+      "titulo": "pt:Voçoroca",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lixo eletrônico",
+      "titulo": "en:Electronic waste",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Compostagem",
+      "titulo": "en:Compost",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Iceberg",
+      "titulo": "en:Iceberg",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Bomba de combustível",
+      "titulo": "en:Fuel dispenser",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gerador a diesel",
+      "titulo": "en:Diesel generator",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pirâmide",
+      "titulo": "en:Pyramid (geometry)",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Esfera",
+      "titulo": "en:Sphere",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cilindro",
+      "titulo": "en:Cylinder",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cone",
+      "titulo": "en:Cone",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Hexágono",
+      "titulo": "en:Hexagon",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Paralelepípedo",
+      "titulo": "en:Cuboid",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Gráfico de barras",
+      "titulo": "en:Bar chart",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Tetraedro",
+      "titulo": "en:Tetrahedron",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Octaedro",
+      "titulo": "en:Octahedron",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pentagrama",
+      "titulo": "en:Pentagram",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Icosaedro truncado",
+      "titulo": "en:Truncated icosahedron",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mecanismo de Anticítera",
+      "titulo": "en:Antikythera mechanism",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Prisma",
+      "titulo": "en:Prism (geometry)",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Espiral de Arquimedes",
+      "titulo": "en:Archimedean spiral",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Curva de Hilbert",
+      "titulo": "en:Hilbert curve",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Curva do dragão",
+      "titulo": "en:Dragon curve",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Máquina diferencial",
+      "titulo": "en:Difference engine",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Hiperboloide",
+      "titulo": "en:Hyperboloid",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pseudoesfera",
+      "titulo": "en:Pseudosphere",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Pequeno dodecaedro estrelado",
+      "titulo": "en:Small stellated dodecahedron",
+      "camada": 3,
+      "destino": 1,
+      "status": "sem_imagem"
     }
   ]
 }

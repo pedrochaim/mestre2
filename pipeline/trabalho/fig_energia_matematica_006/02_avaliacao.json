@@ -1,0 +1,172 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Iceberg nítido em mar com gelo; plataforma de gelo ao fundo. Sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de massa de gelo é esta, em primeiro plano no mar?",
+      "resposta": "Iceberg",
+      "distratores": [
+        "Banquisa",
+        "Geleira",
+        "Plataforma de gelo"
+      ],
+      "ancora": {
+        "nome": "Iceberg",
+        "descricao": "Bloco de gelo de água doce desprendido de uma geleira ou plataforma de gelo, que flutua à deriva no mar.",
+        "variantes": [
+          "Iceberg tabular",
+          "Montanha de gelo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Pilha voltaica de museu, fundo escuro, sem texto, forma característica em coluna de discos.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que unidade de medida elétrica leva o nome do inventor deste aparelho?",
+      "resposta": "Volt",
+      "ancora": {
+        "nome": "Pilha de Volta",
+        "descricao": "Primeira bateria elétrica capaz de fornecer corrente contínua, feita de discos metálicos empilhados, inventada por Alessandro Volta em 1799.",
+        "variantes": [
+          "Pilha voltaica",
+          "Voltaic pile"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Gráfico de barras agrupadas simples; os rótulos 'Sample' não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de gráfico é este?",
+      "resposta": "Gráfico de barras",
+      "distratores": [
+        "Histograma",
+        "Gráfico de setores",
+        "Gráfico de linhas"
+      ],
+      "ancora": {
+        "nome": "Gráfico de barras",
+        "descricao": "Gráfico que mostra dados categóricos por meio de barras retangulares de altura proporcional aos valores.",
+        "variantes": [
+          "Gráfico de colunas",
+          "Bar chart"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O sólido da imagem é irregular e ambíguo; não se reconhece com clareza como octaedro, resposta não única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A gravura traz legenda 'Portion of Babbage's difference engine' e 'Calculation complete', que entregam a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Prancha com vários tipos de cone e legendas em francês; mais de um assunto e texto na imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Bobina toroidal com quatro terminais; pode ser transformador ou indutor/choque, então a resposta não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Renderização com a forma de duas trombetas da pseudoesfera, sem texto; reconhecível por quem conhece, em múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "tipo": "multipla",
+      "pergunta": "Que superfície matemática é esta?",
+      "resposta": "Pseudoesfera",
+      "distratores": [
+        "Toro",
+        "Catenoide",
+        "Helicoide"
+      ],
+      "ancora": {
+        "nome": "Pseudoesfera",
+        "descricao": "Superfície de revolução com curvatura gaussiana negativa constante, em forma de trombeta infinita.",
+        "variantes": [
+          "Pseudosfera",
+          "Pseudosphere"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Prisma de base hexagonal nítido, sem texto, base visível.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 1,
+      "tipo": "multipla",
+      "pergunta": "Que prisma é este, pelo formato da base?",
+      "resposta": "Prisma hexagonal",
+      "distratores": [
+        "Prisma pentagonal",
+        "Prisma heptagonal",
+        "Prisma octogonal"
+      ],
+      "ancora": {
+        "nome": "Prisma hexagonal",
+        "descricao": "Prisma cujas bases são dois hexágonos paralelos unidos por seis faces laterais.",
+        "variantes": [
+          "Hexagonal prism"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Esquadro verde com escala numérica, nítido; os números não entregam o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de desenho técnico é este?",
+      "resposta": "Esquadro",
+      "distratores": [
+        "Transferidor",
+        "Compasso",
+        "Régua T"
+      ],
+      "ancora": {
+        "nome": "Esquadro",
+        "descricao": "Instrumento triangular de desenho técnico, com um ângulo reto, usado para traçar retas e ângulos.",
+        "variantes": [
+          "Esquadro de desenho",
+          "Set square"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Torres de resfriamento numa ilha fluvial não identificam a usina de forma única; podem ser outra usina, nuclear ou não."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A placa na turbina traz 'Pelton-Freistrahlturbine', que entrega a resposta; há também carros e restaurante ao fundo."
+    }
+  ]
+}

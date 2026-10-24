@@ -1,0 +1,377 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Iceberg",
+        "descricao": "Bloco de gelo de água doce desprendido de uma geleira ou plataforma de gelo, que flutua à deriva no mar.",
+        "variantes": [
+          "Iceberg tabular",
+          "Montanha de gelo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "iceberg",
+          "nome": "Iceberg",
+          "descricao": "Grande bloco de gelo de água doce desprendido de uma geleira ou plataforma de gelo, que flutua no mar.",
+          "variantes": []
+        },
+        {
+          "id": "montanha_do_pico",
+          "nome": "Montanha do Pico",
+          "descricao": "Estratovulcão da ilha do Pico, no arquipélago dos Açores, o ponto mais alto de Portugal.",
+          "variantes": [
+            "Monte Pico",
+            "Pico"
+          ]
+        },
+        {
+          "id": "pingo",
+          "nome": "Pingo",
+          "descricao": "Colina cônica com núcleo de gelo que se forma em regiões de permafrost no Ártico e subártico.",
+          "variantes": [
+            "Pingos",
+            "Colina de gelo"
+          ]
+        },
+        {
+          "id": "cerbero",
+          "nome": "Cérbero",
+          "descricao": "Cão monstruoso da mitologia grega que guardava a entrada do mundo dos mortos.",
+          "variantes": [
+            "Cerberus",
+            "Kerberos"
+          ]
+        },
+        {
+          "id": "werner_heisenberg",
+          "nome": "Werner Heisenberg",
+          "descricao": "Físico teórico alemão (1901–1976), autor do princípio da incerteza e Nobel de Física de 1932.",
+          "variantes": [
+            "Heisenberg"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pilha de Volta",
+        "descricao": "Primeira bateria elétrica capaz de fornecer corrente contínua, feita de discos metálicos empilhados, inventada por Alessandro Volta em 1799.",
+        "variantes": [
+          "Pilha voltaica",
+          "Voltaic pile"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pilha_voltaica",
+          "nome": "Pilha voltaica",
+          "descricao": "Primeira bateria elétrica, feita de discos de metal empilhados e separados por tecido embebido em salmoura, apresentada em 1800.",
+          "variantes": [
+            "Pilha de Volta",
+            "Voltaic pile"
+          ]
+        },
+        {
+          "id": "pilha_de_botao",
+          "nome": "Pilha de botão",
+          "descricao": "Pequena bateria de uma única célula, em forma de cilindro achatado, usada em relógios e calculadoras.",
+          "variantes": [
+            "Bateria de botão",
+            "Pilha moeda",
+            "Bateria de moeda"
+          ]
+        },
+        {
+          "id": "elba",
+          "nome": "Elba",
+          "descricao": "Ilha italiana no mar Tirreno, entre a Toscana e a Córsega.",
+          "variantes": [
+            "Isola d'Elba",
+            "Ilha de Elba"
+          ]
+        },
+        {
+          "id": "java",
+          "nome": "Java",
+          "descricao": "Ilha da Indonésia onde fica a capital Jacarta, tradicional produtora de café.",
+          "variantes": [
+            "Jawa",
+            "Ilha de Java"
+          ]
+        },
+        {
+          "id": "sapatilha_de_ponta",
+          "nome": "Sapatilha de ponta",
+          "descricao": "Sapatilha de ballet com ponta reforçada, que permite dançar sobre a ponta dos pés.",
+          "variantes": [
+            "Sapatilha de ballet",
+            "Pointe shoe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Gráfico de barras",
+        "descricao": "Gráfico que mostra dados categóricos por meio de barras retangulares de altura proporcional aos valores.",
+        "variantes": [
+          "Gráfico de colunas",
+          "Bar chart"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grafico_de_pizza",
+          "nome": "Gráfico de pizza",
+          "descricao": "Gráfico circular dividido em fatias proporcionais às quantidades representadas.",
+          "variantes": [
+            "Gráfico de setores",
+            "Pie chart"
+          ]
+        },
+        {
+          "id": "chapeu_de_castor",
+          "nome": "Chapéu de castor",
+          "descricao": "Chapéu de feltro feito com pelo de castor, muito valorizado na Europa entre os séculos dezessete e dezenove",
+          "variantes": [
+            "Beaver hat"
+          ]
+        },
+        {
+          "id": "codigo_de_barras",
+          "nome": "Código de barras",
+          "descricao": "Representação de dados em barras paralelas lidas por scanners, criada por Norman Joseph Woodland e Bernard Silver.",
+          "variantes": [
+            "Barcode",
+            "Código de barras UPC"
+          ]
+        },
+        {
+          "id": "futbol_club_barcelona",
+          "nome": "Futbol Club Barcelona",
+          "descricao": "Clube de futebol da cidade de Barcelona, na Espanha, fundado em 1899.",
+          "variantes": [
+            "Barcelona",
+            "Barça",
+            "FC Barcelona"
+          ]
+        },
+        {
+          "id": "polen",
+          "nome": "Pólen",
+          "descricao": "Pó produzido pelas flores das plantas com sementes, formado por grãos que contêm os gametas masculinos.",
+          "variantes": [
+            "Grão de pólen",
+            "Grãos de pólen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pseudoesfera",
+        "descricao": "Superfície de revolução com curvatura gaussiana negativa constante, em forma de trombeta infinita.",
+        "variantes": [
+          "Pseudosfera",
+          "Pseudosphere"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pastel",
+          "nome": "Pastel",
+          "descricao": "Salgado brasileiro de massa fina frita, em meia-lua ou retângulo, com recheios variados.",
+          "variantes": [
+            "Pastel de feira",
+            "Pastel paulista"
+          ]
+        },
+        {
+          "id": "biosfera",
+          "nome": "Biosfera",
+          "descricao": "Conjunto de todos os ecossistemas da Terra, a camada do planeta onde existe vida.",
+          "variantes": [
+            "Biosphere"
+          ]
+        },
+        {
+          "id": "basco",
+          "nome": "Basco",
+          "descricao": "Língua isolada falada no País Basco, na Espanha e na França.",
+          "variantes": [
+            "Euskara",
+            "Euskera",
+            "Língua basca"
+          ]
+        },
+        {
+          "id": "esponja_do_mar",
+          "nome": "Esponja-do-mar",
+          "descricao": "Animal marinho filtrador do filo Porifera, aqui uma esponja-barril gigante num recife.",
+          "variantes": [
+            "Esponja",
+            "Porífero",
+            "Porifera"
+          ]
+        },
+        {
+          "id": "william_shakespeare",
+          "nome": "William Shakespeare",
+          "descricao": "Dramaturgo e poeta inglês (1564–1616), autor de Hamlet e Romeu e Julieta.",
+          "variantes": [
+            "Shakespeare",
+            "O Bardo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Prisma hexagonal",
+        "descricao": "Prisma cujas bases são dois hexágonos paralelos unidos por seis faces laterais.",
+        "variantes": [
+          "Prisma",
+          "Hexagonal prism"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "prisma",
+          "nome": "Prisma",
+          "descricao": "Elemento óptico transparente de superfícies planas, como o prisma triangular que dispersa a luz branca em um espectro.",
+          "variantes": [
+            "Prisma óptico",
+            "Prisma triangular"
+          ]
+        },
+        {
+          "id": "prima_anime",
+          "nome": "Prima (anime)",
+          "descricao": "Integrante da Elite dos Quatro de Kanto que Ash conhece nas Ilhas Laranja, no anime Pokémon.",
+          "variantes": [
+            "Prima",
+            "Kanna"
+          ]
+        },
+        {
+          "id": "praia",
+          "nome": "Praia",
+          "descricao": "Capital de Cabo Verde, situada na ilha de Santiago.",
+          "variantes": [
+            "Cidade da Praia"
+          ]
+        },
+        {
+          "id": "toyota_prius",
+          "nome": "Toyota Prius",
+          "descricao": "Automóvel híbrido da Toyota lançado no Japão em 1997.",
+          "variantes": [
+            "Prius"
+          ]
+        },
+        {
+          "id": "paris",
+          "nome": "Paris",
+          "descricao": "Capital da França, cortada pelo rio Sena e marcada pela Torre Eiffel.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Esquadro",
+        "descricao": "Instrumento triangular de desenho técnico, com um ângulo reto, usado para traçar retas e ângulos.",
+        "variantes": [
+          "Esquadro de desenho",
+          "Set square"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "equador",
+          "nome": "Equador",
+          "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+          "variantes": [
+            "Ecuador",
+            "República do Equador"
+          ]
+        },
+        {
+          "id": "praca_vermelha",
+          "nome": "Praça Vermelha",
+          "descricao": "Praça central de Moscou, entre o Kremlin e a Catedral de São Basílio.",
+          "variantes": [
+            "Krasnaya Ploshchad",
+            "Red Square"
+          ]
+        },
+        {
+          "id": "quarto_de_despejo",
+          "nome": "Quarto de Despejo",
+          "descricao": "Diário de Carolina Maria de Jesus publicado em 1960, sobre a vida numa favela de São Paulo.",
+          "variantes": [
+            "Quarto de Despejo: Diário de uma Favelada"
+          ]
+        },
+        {
+          "id": "esquadrao_201",
+          "nome": "Esquadrão 201",
+          "descricao": "Esquadrão de caça da Força Aérea Mexicana que combateu ao lado dos Aliados nas Filipinas em 1945.",
+          "variantes": [
+            "Escuadrón 201",
+            "Águias Astecas"
+          ]
+        },
+        {
+          "id": "quadro_de_punnett",
+          "nome": "Quadro de Punnett",
+          "descricao": "Diagrama criado pelo geneticista Reginald Punnett para prever as combinações genéticas dos filhos de um cruzamento.",
+          "variantes": [
+            "Punnett square"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "iceberg",
+      "motivo": "Mesma entidade: bloco de gelo flutuante desprendido de geleira."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "pilha_voltaica",
+      "motivo": "Pilha de Volta é a pilha voltaica, primeira bateria de Volta."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é gráfico de barras; código de barras é outra coisa."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pseudoesfera é superfície matemática, distinta de biosfera e demais candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Prisma hexagonal é um sólido geométrico específico, diferente do prisma óptico."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Esquadro (instrumento de desenho) não corresponde a nenhuma candidata."
+    }
+  ]
+}

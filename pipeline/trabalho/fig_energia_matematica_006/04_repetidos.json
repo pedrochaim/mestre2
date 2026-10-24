@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de massa de gelo é esta?",
+        "resposta": "Iceberg"
+      },
+      "existentes": [
+        {
+          "id": "q09218",
+          "pergunta": "Que parte de um iceberg costuma ficar escondida debaixo d'água?",
+          "resposta": "Cerca de nove décimos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que unidade de medida elétrica leva o nome do inventor deste aparelho?",
+        "resposta": "Volt"
+      },
+      "existentes": [
+        {
+          "id": "q00901",
+          "pergunta": "Em 1800, que físico italiano empilhou discos de metal para criar a pilha elétrica e hoje dá nome à unidade de tensão?",
+          "resposta": "Alessandro Volta"
+        },
+        {
+          "id": "q03002",
+          "pergunta": "Nos experimentos de Luigi Galvani, que levaram Alessandro Volta à disputa da qual nasceu a pilha elétrica, as pernas de que animal se contraíam?",
+          "resposta": "Rã"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede identificar o tipo de massa de gelo (iceberg); a existente pergunta qual fração fica submersa. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "A nova pergunta pede a unidade (volt) que leva o nome de Volta, o inventor da pilha. Quem soubesse que Alessandro Volta dá nome à unidade de tensão acertaria também a nova, então é o mesmo fato da q00901.",
+      "id_existente": "q00901"
+    }
+  ]
+}

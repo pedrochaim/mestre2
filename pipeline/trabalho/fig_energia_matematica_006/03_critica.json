@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia em português lista \"geleira\" como sinônimo de iceberg, então o distrator \"Geleira\" é defensável. \"Em primeiro plano\" também não é verificável pelo texto. Troquei o distrator e simplifiquei o enunciado.",
+      "reescrita": {
+        "pergunta": "Que tipo de massa de gelo é esta?",
+        "resposta": "Iceberg",
+        "distratores": [
+          "Banquisa",
+          "Plataforma de gelo",
+          "Calota polar"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado não nomeia o aparelho nem o inventor, então é preciso reconhecer a figura. Os trechos confirmam Volta como inventor, e a unidade volt ter o nome dele é fato amplamente documentado. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é de reconhecimento direto, sem vazamento. A resposta é única e os distratores são do mesmo tipo e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é curto e não vaza. Os distratores são superfícies matemáticas plausíveis e nenhum descreve a imagem. O trecho e o conhecimento geral sustentam a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os prismas são nomeados pela base, como diz o trecho. Os distratores são prismas de outras bases e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não vaza a resposta. Os distratores são instrumentos de desenho do mesmo tipo e nenhum descreve um objeto triangular com ângulo reto.",
+      "reescrita": null
+    }
+  ]
+}
