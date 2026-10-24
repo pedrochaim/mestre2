@@ -1,0 +1,224 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arte clara de Mutley, sem texto. A silhueta é um ovo peludo e pouco característico, então uso a imagem colorida.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Este cão é o ajudante de qual vilão dos desenhos animados?",
+      "resposta": "Dick Vigarista",
+      "distratores": [
+        "Gargamel",
+        "Lobo Mau",
+        "Mumm-Ra"
+      ],
+      "ancora": {
+        "nome": "Mutley",
+        "descricao": "Cão de raça indefinida, ajudante do vilão Dick Vigarista nos desenhos da Hanna-Barbera, como Corrida Maluca.",
+        "variantes": [
+          "Muttley",
+          "Mutley"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto antiga e granulada de um palhaço fantasiado. Não se sabe qual intérprete de Bozo é, e o personagem pode ser confundido com outros palhaços de peruca vermelha. A resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bender sozinho, de corpo inteiro, com contorno marcante (antena, cabeça cilíndrica). A silhueta é reconhecível.",
+      "usar_silhueta": true,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Quem é o melhor amigo humano deste robô?",
+      "resposta": "Fry",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bender",
+        "descricao": "Robô dobrador alcoólatra e egocêntrico da série animada Futurama, melhor amigo de Fry.",
+        "variantes": [
+          "Bender Bending Rodríguez",
+          "Bender Dobrador Rodríguez"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A imagem é o logotipo da novela Roque Santeiro, com o título escrito, e não mostra o personagem. O texto entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Arte pintada, sem texto, mostrando claramente a Mulher-Gato (orelhas, máscara, traje justo, diamante).",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Qual é a identidade civil desta personagem de Gotham?",
+      "resposta": "Selina Kyle",
+      "distratores": [
+        "Pamela Isley",
+        "Harleen Quinzel",
+        "Barbara Gordon"
+      ],
+      "ancora": {
+        "nome": "Mulher-Gato",
+        "descricao": "Personagem da DC Comics, ladra de Gotham City e interesse amoroso do Batman, cuja identidade civil é Selina Kyle.",
+        "variantes": [
+          "Catwoman",
+          "Selina Kyle"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Arte oficial clara do Anjinho, sem texto. A silhueta é uma massa redonda de cabelo cacheado e pode ser confundida com outro personagem infantil, então uso a colorida.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Anjinho",
+      "distratores": [],
+      "ancora": {
+        "nome": "Anjinho",
+        "descricao": "Anjo da guarda das crianças da Turma da Mônica, de Mauricio de Sousa.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Trecho de tira em preto e branco, com Krazy Kat e Ignatz, de uma única obra e sem título legível. Há dois personagens, então a silhueta não serve. A pergunta é pela tira.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "De que tira de quadrinhos americana, do início do século vinte, é esta cena?",
+      "resposta": "Krazy Kat",
+      "distratores": [
+        "Little Nemo",
+        "Gasoline Alley",
+        "Pogo"
+      ],
+      "ancora": {
+        "nome": "Krazy Kat",
+        "descricao": "Tira de quadrinhos de George Herriman, com um gato ingênuo e o rato Ignatz, que lhe atira tijolos.",
+        "variantes": [
+          "Krazy & Ignatz"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pateta sozinho, de corpo inteiro, com contorno característico (chapéu, orelhas, sapatões). A silhueta é reconhecível.",
+      "usar_silhueta": true,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "Quem foi o dublador original que deu a voz a este personagem?",
+      "resposta": "Pinto Colvig",
+      "distratores": [],
+      "ancora": {
+        "nome": "Pateta",
+        "descricao": "Personagem canino e desastrado da Disney, amigo de Mickey e Donald, estreado em 1932.",
+        "variantes": [
+          "Goofy",
+          "Dippy Dawg"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem de anime clara, com Kakashi em primeiro plano, sem texto. Ele é coadjuvante, mas muito reconhecível pela máscara e pelo cabelo prateado.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Kakashi Hatake",
+      "distratores": [],
+      "ancora": {
+        "nome": "Kakashi Hatake",
+        "descricao": "Ninja de Konoha, mestre da Equipe 7 em Naruto, conhecido como o Ninja Copiador.",
+        "variantes": [
+          "Kakashi"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cena clara de Dragon Ball com Mr. Satan, sem texto. Nome em múltipla escolha, com distratores da mesma franquia.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esse personagem de Dragon Ball?",
+      "resposta": "Mr. Satan",
+      "distratores": [
+        "Mestre Kame",
+        "Yamcha",
+        "Tenshinhan"
+      ],
+      "ancora": {
+        "nome": "Mr. Satan",
+        "descricao": "Campeão mundial de artes marciais e fanfarrão de Dragon Ball Z, de cabelo afro e bigode.",
+        "variantes": [
+          "Mister Satan",
+          "Hercule Satan",
+          "Hercule"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "É uma foto de um ator sem o figurino e a caracterização típicos do Didi Mocó. Não dá para reconhecer o personagem pela imagem, e a resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arte de mangá clara de Light Yagami sozinho, sem texto. O fundo é branco e não transparente, então uso a imagem colorida.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é o nome do shinigami que acompanha este personagem?",
+      "resposta": "Ryuk",
+      "distratores": [
+        "Rem",
+        "Sidoh",
+        "Gelus"
+      ],
+      "ancora": {
+        "nome": "Light Yagami",
+        "descricao": "Estudante prodígio, protagonista de Death Note, que usa o caderno da morte para eliminar criminosos como Kira.",
+        "variantes": [
+          "Yagami Raito",
+          "Kira",
+          "Light"
+        ]
+      }
+    }
+  ]
+}

@@ -292355,5 +292355,193 @@
       "licenca": "CC BY-SA 4.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q15414",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "mutley",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este cão é o ajudante de qual vilão dos desenhos animados?",
+    "resposta": "Dick Vigarista",
+    "distratores": [
+      "Gargamel",
+      "Lobo Mau",
+      "Mumm-Ra"
+    ],
+    "fonte": [
+      "https://hanna-barbera.fandom.com/wiki/Muttley",
+      "https://en.wikipedia.org/wiki/Muttley"
+    ],
+    "imagem": {
+      "arquivo": "q15414.jpg",
+      "origem": "https://hanna-barbera.fandom.com/wiki/Muttley",
+      "autor": "Arte oficial dos detentores dos direitos, via Fandom (hanna-barbera.fandom.com)",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q15415",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "bender",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Quem é o melhor amigo humano deste robô?",
+    "resposta": "Fry",
+    "fonte": [
+      "https://futurama.fandom.com/wiki/Bender_Bending_Rodr%C3%ADguez",
+      "https://en.wikipedia.org/wiki/Bender_%28Futurama%29"
+    ],
+    "imagem": {
+      "arquivo": "q15415.jpg",
+      "origem": "https://futurama.fandom.com/wiki/Bender_Bending_Rodr%C3%ADguez",
+      "autor": "Arte oficial dos detentores dos direitos, via Fandom (futurama.fandom.com)",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre",
+      "revelacao": "q15415_revelacao.jpg"
+    }
+  },
+  {
+    "id": "q15416",
+    "tema": "Entretenimento",
+    "subtema": "Quadrinhos",
+    "ancora": "mulher_gato",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Qual é a identidade civil desta personagem de Gotham?",
+    "resposta": "Selina Kyle",
+    "distratores": [
+      "Pamela Isley",
+      "Harleen Quinzel",
+      "Barbara Gordon"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Catwoman",
+      "https://pt.wikipedia.org/wiki/Mulher-Gato"
+    ],
+    "imagem": {
+      "arquivo": "q15416.jpg",
+      "origem": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/165-catwoman.jpg",
+      "autor": "Arte oficial dos detentores dos direitos, via superhero-api",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q15417",
+    "tema": "Entretenimento",
+    "subtema": "Quadrinhos",
+    "ancora": "anjinho",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Quem é esse personagem?",
+    "resposta": "Anjinho",
+    "fonte": [
+      "https://turmadamonica.fandom.com/pt-br/wiki/Anjinho",
+      "https://pt.wikipedia.org/wiki/Anjinho"
+    ],
+    "imagem": {
+      "arquivo": "q15417.jpg",
+      "origem": "https://turmadamonica.fandom.com/pt-br/wiki/Anjinho",
+      "autor": "Arte oficial dos detentores dos direitos, via Fandom (turmadamonica.fandom.com)",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q15418",
+    "tema": "Entretenimento",
+    "subtema": "Quadrinhos",
+    "ancora": "krazy_kat",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "De que tira de quadrinhos americana, publicada nos jornais entre 1913 e 1944, é esta cena?",
+    "resposta": "Krazy Kat",
+    "distratores": [
+      "Little Nemo",
+      "Gasoline Alley",
+      "Buster Brown"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Krazy_Kat",
+      "https://pt.wikipedia.org/wiki/Krazy_Kat"
+    ],
+    "imagem": {
+      "arquivo": "q15418.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Krazy_Kat_and_Ignatz_1.png",
+      "autor": "Arte oficial dos detentores dos direitos, via Wikipédia (en)",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q15419",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "pateta",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem foi o dublador original que deu a voz a este personagem?",
+    "resposta": "Pinto Colvig",
+    "fonte": [
+      "https://disney.fandom.com/wiki/Goofy",
+      "https://en.wikipedia.org/wiki/Goofy",
+      "https://pt.wikipedia.org/wiki/Pateta"
+    ],
+    "imagem": {
+      "arquivo": "q15419.jpg",
+      "origem": "https://disney.fandom.com/wiki/Goofy",
+      "autor": "Arte oficial dos detentores dos direitos, via Fandom (disney.fandom.com)",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre",
+      "revelacao": "q15419_revelacao.jpg"
+    }
+  },
+  {
+    "id": "q15420",
+    "tema": "Entretenimento",
+    "subtema": "Anime e Mangá",
+    "ancora": "mr_satan",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Quem é esse personagem de Dragon Ball?",
+    "resposta": "Mr. Satan",
+    "distratores": [
+      "Mestre Kame",
+      "Yamcha",
+      "Tenshinhan"
+    ],
+    "fonte": [
+      "https://dragonball.fandom.com/wiki/Mr._Satan",
+      "https://en.wikipedia.org/wiki/Mr._Satan"
+    ],
+    "imagem": {
+      "arquivo": "q15420.jpg",
+      "origem": "https://dragonball.fandom.com/wiki/Mr._Satan",
+      "autor": "Arte oficial dos detentores dos direitos, via Fandom (dragonball.fandom.com)",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q15421",
+    "tema": "Entretenimento",
+    "subtema": "Anime e Mangá",
+    "ancora": "light_yagami",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Qual é o nome do shinigami que acompanha este personagem?",
+    "resposta": "Ryuk",
+    "distratores": [
+      "Rem",
+      "Sidoh",
+      "Gelus"
+    ],
+    "fonte": [
+      "https://deathnote.fandom.com/wiki/Light_Yagami",
+      "https://en.wikipedia.org/wiki/Light_Yagami"
+    ],
+    "imagem": {
+      "arquivo": "q15421.jpg",
+      "origem": "https://deathnote.fandom.com/wiki/Light_Yagami",
+      "autor": "Arte oficial dos detentores dos direitos, via Fandom (deathnote.fandom.com)",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre"
+    }
   }
 ]

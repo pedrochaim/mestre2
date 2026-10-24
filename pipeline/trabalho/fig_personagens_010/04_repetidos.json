@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é esse personagem?",
+        "resposta": "Kakashi Hatake"
+      },
+      "existentes": [
+        {
+          "id": "q14823",
+          "pergunta": "Quem é esse personagem?",
+          "resposta": "Kakashi Hatake"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q14823",
+      "motivo": "Mesma pergunta e mesma resposta (Kakashi Hatake), perguntando a identidade do mesmo personagem."
+    }
+  ]
+}
