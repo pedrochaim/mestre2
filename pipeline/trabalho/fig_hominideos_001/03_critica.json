@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia a estatueta; a pista (paleolítica, calcário) não a entrega, e os trechos confirmam. Nível 1 adequado.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Touros, cavalos e cervos também descrevem Altamira e Chauvet, que estão entre os distratores, então a resposta não é única. Troquei a pista por região e país, que distinguem sem entregar.",
+      "reescrita": {
+        "pergunta": "Que caverna da Dordonha, no sudoeste da França, com mais de seiscentas pinturas pré-históricas, é esta?",
+        "resposta": "Lascaux",
+        "distratores": [
+          "Altamira",
+          "Chauvet",
+          "Cosquer"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam espécie africana de cerca de dois milhões de anos, com o crânio KNM-ER 1470. O enunciado não nomeia a espécie, e os distratores são do mesmo tipo e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento simples, sem vazamento. A resposta 'Gorila' é correta para a subespécie mostrada.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Pesquisadora inglesa' ajuda sem entregar o nome, e os trechos confirmam. É figura pública.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Ötzi foi achado nos Alpes de Ötztal. O enunciado não o nomeia, e os distratores são cadeias europeias críveis.",
+      "reescrita": null
+    }
+  ]
+}

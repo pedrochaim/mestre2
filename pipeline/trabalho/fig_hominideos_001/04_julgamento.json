@@ -1,0 +1,391 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Vênus de Willendorf",
+        "descricao": "Estatueta paleolítica de calcário com cerca de 11 cm, achada em 1908 perto de Willendorf, na Áustria.",
+        "variantes": [
+          "Mulher de Willendorf",
+          "Venus of Willendorf"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "venus_de_willendorf",
+          "nome": "Vênus de Willendorf",
+          "descricao": "Estatueta paleolítica de uma figura feminina, esculpida em calcário.",
+          "variantes": [
+            "Venus of Willendorf",
+            "Mulher de Willendorf"
+          ]
+        },
+        {
+          "id": "venus_de_milo",
+          "nome": "Vênus de Milo",
+          "descricao": "Estátua grega de mármore no Louvre.",
+          "variantes": [
+            "Afrodite de Milo",
+            "Afrodite de Milos"
+          ]
+        },
+        {
+          "id": "venus_de_urbino",
+          "nome": "Vênus de Urbino",
+          "descricao": "Quadro de Ticiano de 1538, na Galeria Uffizi.",
+          "variantes": []
+        },
+        {
+          "id": "casa_de_windsor",
+          "nome": "Casa de Windsor",
+          "descricao": "Casa real do Reino Unido, que adotou esse nome em 1917, no reinado de Jorge V.",
+          "variantes": [
+            "House of Windsor"
+          ]
+        },
+        {
+          "id": "restos_do_lago_mungo",
+          "nome": "Restos do lago Mungo",
+          "descricao": "Esqueletos humanos de cerca de 40 mil anos, como o Homem de Mungo, achados no lago seco de Mungo, na Austrália.",
+          "variantes": [
+            "Homem de Mungo",
+            "Mulher de Mungo",
+            "Lake Mungo remains"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Caverna de Lascaux",
+        "descricao": "Rede de cavernas na Dordonha, na França, com mais de 600 pinturas rupestres do Paleolítico Superior.",
+        "variantes": [
+          "Lascaux",
+          "Grotte de Lascaux"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caverna_de_lascaux",
+          "nome": "Caverna de Lascaux",
+          "descricao": "Caverna no sudoeste da França com pinturas rupestres de animais feitas há cerca de dezessete mil anos.",
+          "variantes": [
+            "Lascaux",
+            "Grotte de Lascaux"
+          ]
+        },
+        {
+          "id": "caverna_dos_cristais",
+          "nome": "Caverna dos Cristais",
+          "descricao": "Caverna na mina de Naica, no estado de Chihuahua, com cristais gigantes de gipsita e calor extremo.",
+          "variantes": [
+            "Cueva de los Cristales",
+            "Cave of the Crystals",
+            "Caverna dos Cristais de Naica",
+            "Caverna de Naica"
+          ]
+        },
+        {
+          "id": "escorpiao",
+          "nome": "Escorpião",
+          "descricao": "Aracnídeos predadores da ordem Scorpiones, com pinças e cauda terminada em ferrão venenoso.",
+          "variantes": [
+            "Scorpiones",
+            "lacrau"
+          ]
+        },
+        {
+          "id": "bandeira_do_alasca",
+          "nome": "Bandeira do Alasca",
+          "descricao": "Bandeira do estado americano do Alasca, com oito estrelas douradas sobre fundo azul-marinho.",
+          "variantes": [
+            "Alasca",
+            "Alaska"
+          ]
+        },
+        {
+          "id": "caverna_de_altamira",
+          "nome": "Caverna de Altamira",
+          "descricao": "Caverna na Cantábria, Espanha, famosa pelos bisões pintados no Paleolítico.",
+          "variantes": [
+            "Altamira",
+            "Cueva de Altamira",
+            "Cave of Altamira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Homo rudolfensis",
+        "descricao": "Espécie extinta de humano arcaico do Pleistoceno inferior da África Oriental, conhecida pelo crânio KNM-ER 1470.",
+        "variantes": [
+          "H. rudolfensis",
+          "KNM-ER 1470"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "knm_er_1470",
+          "nome": "KNM-ER 1470",
+          "descricao": "Crânio fóssil de cerca de dois milhões de anos, achado em Koobi Fora, no Quênia, e tipo de Homo rudolfensis.",
+          "variantes": [
+            "Crânio 1470",
+            "Homo rudolfensis"
+          ]
+        },
+        {
+          "id": "cranio_negro",
+          "nome": "Crânio Negro",
+          "descricao": "Crânio fóssil de Paranthropus aethiopicus com cerca de 2,5 milhões de anos, achado em 1985 a oeste do lago Turkana, no Quênia.",
+          "variantes": [
+            "Black Skull",
+            "KNM WT 17000"
+          ]
+        },
+        {
+          "id": "homo_floresiensis",
+          "nome": "Homo floresiensis",
+          "descricao": "Espécie humana extinta, de baixa estatura, descoberta em 2003 na caverna Liang Bua, na ilha de Flores, Indonésia.",
+          "variantes": [
+            "Homem de Flores",
+            "Hobbit"
+          ]
+        },
+        {
+          "id": "homem_de_neandertal",
+          "nome": "Homem de Neandertal",
+          "descricao": "Espécie humana extinta que viveu na Europa e na Ásia Ocidental até cerca de 40 mil anos atrás.",
+          "variantes": [
+            "Homo neanderthalensis",
+            "Neandertal",
+            "Neanderthal"
+          ]
+        },
+        {
+          "id": "homem_de_pequim",
+          "nome": "Homem de Pequim",
+          "descricao": "Fósseis de Homo erectus encontrados em Zhoukoudian, perto de Pequim, na China, nas décadas de 1920 e 1930.",
+          "variantes": [
+            "Peking Man",
+            "Sinanthropus pekinensis",
+            "Homo erectus pekinensis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Gorila-da-montanha",
+        "descricao": "Subespécie do gorila-oriental que vive nas montanhas Virunga e em Bwindi, na África Central.",
+        "variantes": [
+          "Gorila-das-montanhas",
+          "Gorilla beringei beringei",
+          "Mountain gorilla"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "puma_2",
+          "nome": "Puma",
+          "descricao": "Grande felino de pelagem uniforme, Puma concolor, presente nas Américas.",
+          "variantes": [
+            "Onça-parda",
+            "Suçuarana",
+            "Leão-da-montanha",
+            "Puma concolor"
+          ]
+        },
+        {
+          "id": "na_gruta_do_rei_da_montanha",
+          "nome": "Na Gruta do Rei da Montanha",
+          "descricao": "Trecho da música incidental de Edvard Grieg para a peça Peer Gynt, de Henrik Ibsen.",
+          "variantes": [
+            "In the Hall of the Mountain King",
+            "I Dovregubbens hall"
+          ]
+        },
+        {
+          "id": "hinamatsuri",
+          "nome": "Hinamatsuri",
+          "descricao": "Festa japonesa do Dia das Meninas, em que se expõem bonecas da corte imperial em degraus.",
+          "variantes": [
+            "Dia das Meninas",
+            "Festival das Bonecas",
+            "Hina Matsuri",
+            "Festa das Bonecas"
+          ]
+        },
+        {
+          "id": "serrilha_das_moedas",
+          "nome": "Serrilha das moedas",
+          "descricao": "Ranhuras na borda das moedas, adotadas para proteger moedas de metal precioso.",
+          "variantes": [
+            "Reeding"
+          ]
+        },
+        {
+          "id": "cota_de_malha",
+          "nome": "Cota de malha",
+          "descricao": "Armadura feita de pequenos anéis de metal entrelaçados formando uma malha, usada em exércitos da Antiguidade ao século dezesseis.",
+          "variantes": [
+            "Malha",
+            "Chain mail",
+            "Loriga de malha",
+            "Hauberk"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Jane Goodall",
+        "descricao": "Primatóloga e antropóloga inglesa, conhecida por décadas de pesquisa sobre chimpanzés selvagens em Gombe, na Tanzânia.",
+        "variantes": [
+          "Valerie Jane Morris-Goodall",
+          "Dame Jane Goodall"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jane_goodall",
+          "nome": "Jane Goodall",
+          "descricao": "Primatóloga inglesa conhecida por seus estudos de chimpanzés selvagens em Gombe, na Tanzânia.",
+          "variantes": [
+            "Valerie Jane Morris-Goodall"
+          ]
+        },
+        {
+          "id": "mona_lisa",
+          "nome": "Mona Lisa",
+          "descricao": "Retrato pintado por Leonardo da Vinci no início do século dezesseis.",
+          "variantes": [
+            "Gioconda",
+            "La Gioconda",
+            "A Gioconda",
+            "La Joconde"
+          ]
+        },
+        {
+          "id": "jangada",
+          "nome": "Jangada",
+          "descricao": "Embarcação de pesca de madeira, com vela triangular, típica do litoral do Nordeste do Brasil.",
+          "variantes": []
+        },
+        {
+          "id": "salto_angel",
+          "nome": "Salto Ángel",
+          "descricao": "Queda d'água que despenca de um tepui no Parque Nacional Canaima, na Venezuela.",
+          "variantes": [
+            "Angel Falls",
+            "Kerepakupai Merú"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Ötzi, o Homem do Gelo",
+        "descricao": "Múmia natural de um homem da Idade do Cobre, de cerca de 3200 a.C., achada em 1991 nos Alpes de Ötztal, na fronteira entre a Áustria e a Itália.",
+        "variantes": [
+          "Ötzi",
+          "Homem do Gelo",
+          "Iceman",
+          "Homem de Similaun",
+          "Homem do Tirol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "otzi",
+          "nome": "Ötzi",
+          "descricao": "Múmia natural de um homem da Idade do Cobre achada nos Alpes em 1991.",
+          "variantes": [
+            "Homem do gelo",
+            "Iceman",
+            "Homem de Similaun",
+            "Oetzi"
+          ]
+        },
+        {
+          "id": "kimi_raikkonen",
+          "nome": "Kimi Räikkönen",
+          "descricao": "Piloto finlandês de Fórmula 1, campeão mundial em 2007 pela Ferrari.",
+          "variantes": [
+            "Iceman"
+          ]
+        },
+        {
+          "id": "homem_de_gelo",
+          "nome": "Homem de Gelo",
+          "descricao": "Bobby Drake, mutante da Marvel que controla o gelo, um dos cinco X-Men originais",
+          "variantes": [
+            "Iceman",
+            "Bobby Drake"
+          ]
+        },
+        {
+          "id": "restos_do_lago_mungo",
+          "nome": "Restos do lago Mungo",
+          "descricao": "Esqueletos humanos de cerca de 40 mil anos, como o Homem de Mungo, achados no lago seco de Mungo, na Austrália.",
+          "variantes": [
+            "Homem de Mungo",
+            "Mulher de Mungo",
+            "Lake Mungo remains"
+          ]
+        },
+        {
+          "id": "iemanja",
+          "nome": "Iemanjá",
+          "descricao": "Orixá das águas salgadas nas religiões afro-brasileiras, homenageada com oferendas no mar.",
+          "variantes": [
+            "Yemanjá",
+            "Janaína",
+            "Rainha do Mar"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "venus_de_willendorf",
+      "motivo": "Mesma estatueta paleolítica de Willendorf."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "caverna_de_lascaux",
+      "motivo": "Mesma caverna de Lascaux, na França, com pinturas rupestres."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A espécie Homo rudolfensis é diferente do crânio KNM-ER 1470, que é um espécime fóssil."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o gorila-da-montanha."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "jane_goodall",
+      "motivo": "Mesma primatóloga."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "otzi",
+      "motivo": "Mesma múmia natural da Idade do Cobre achada nos Alpes em 1991."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que estatueta paleolítica de calcário é esta?",
+        "resposta": "Vênus de Willendorf"
+      },
+      "existentes": [
+        {
+          "id": "q03119",
+          "pergunta": "A Vênus de Willendorf, pequena estatueta de mulher com cerca de trinta mil anos, foi encontrada em que país?",
+          "resposta": "Áustria"
+        },
+        {
+          "id": "q14206",
+          "pergunta": "A Vênus de Willendorf, estatueta paleolítica que aparece em tantos livros de arte, tem cerca de que altura?",
+          "resposta": "Onze centímetros"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que caverna da Dordonha, no sudoeste da França, com mais de seiscentas pinturas pré-históricas, é esta?",
+        "resposta": "Lascaux"
+      },
+      "existentes": [
+        {
+          "id": "q03066",
+          "pergunta": "Em 1940, na França, quem descobriu as pinturas pré-históricas da caverna de Lascaux?",
+          "resposta": "Quatro adolescentes da região"
+        },
+        {
+          "id": "q03075",
+          "pergunta": "Em 1963, a caverna de Lascaux, na França, foi fechada ao público porque suas pinturas se deterioravam. O que, vindo dos visitantes, as prejudicava?",
+          "resposta": "A respiração dos visitantes"
+        },
+        {
+          "id": "q06293",
+          "pergunta": "Em que país fica a caverna com estas pinturas pré-históricas?",
+          "resposta": "França"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Quem é esta pesquisadora inglesa?",
+        "resposta": "Jane Goodall"
+      },
+      "existentes": [
+        {
+          "id": "q08138",
+          "pergunta": "Quem é esta cientista inglesa?",
+          "resposta": "Jane Goodall"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que cadeia de montanhas foi encontrada esta múmia?",
+        "resposta": "Alpes"
+      },
+      "existentes": [
+        {
+          "id": "q03110",
+          "pergunta": "O homem do gelo de mais de cinco mil anos, achado em 1991 na fronteira entre Áustria e Itália, ganhou o apelido Ötzi por causa de quê?",
+          "resposta": "Dos Alpes de Ötztal, onde foi achado"
+        },
+        {
+          "id": "q03111",
+          "pergunta": "Em 2001, um exame de raio X revelou o que provavelmente matou Ötzi, o homem do gelo dos Alpes. O que foi?",
+          "resposta": "Uma flechada"
+        },
+        {
+          "id": "q04098",
+          "pergunta": "Ötzi, o homem do gelo de mais de cinco mil anos achado nos Alpes, usava sapatos forrados por dentro com o quê?",
+          "resposta": "Capim seco"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação da estatueta (imagem); as existentes perguntam país e altura, que são outros fatos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome da caverna; as existentes tratam da descoberta, do fechamento e do país, que são outros fatos."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q08138",
+      "motivo": "As duas pedem a identificação de Jane Goodall, com a mesma resposta."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A nova pergunta a cadeia de montanhas em que a múmia foi achada. As existentes tratam da origem do apelido, da causa da morte e dos sapatos. O apelido cita os Alpes de Ötztal, mas pergunta outro fato."
+    }
+  ]
+}

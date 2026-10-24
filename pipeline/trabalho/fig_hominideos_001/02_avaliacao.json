@@ -1,0 +1,167 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Estatueta bem nítida, fundo branco, sem texto, silhueta inconfundível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estatueta paleolítica de calcário é esta?",
+      "resposta": "Vênus de Willendorf",
+      "ancora": {
+        "nome": "Vênus de Willendorf",
+        "descricao": "Estatueta paleolítica de calcário com cerca de 11 cm, achada em 1908 perto de Willendorf, na Áustria.",
+        "variantes": [
+          "Mulher de Willendorf",
+          "Venus of Willendorf"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Retrato em preto e branco de um senhor idoso, que o público em geral não reconhece; a pergunta viraria enfeite."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A etiqueta do museu aparece na imagem e traz o nome da espécie. Além disso, ossos soltos em exposição não são reconhecíveis."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pinturas da Sala dos Touros de Lascaux, sem texto, com policromia e animais característicos. Em múltipla escolha, com cavernas parecidas, a resposta é justa.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que caverna com pinturas pré-históricas de touros, cavalos e cervos é esta?",
+      "resposta": "Lascaux",
+      "distratores": [
+        "Altamira",
+        "Chauvet",
+        "Cosquer"
+      ],
+      "ancora": {
+        "nome": "Caverna de Lascaux",
+        "descricao": "Rede de cavernas na Dordonha, na França, com mais de 600 pinturas rupestres do Paleolítico Superior.",
+        "variantes": [
+          "Lascaux",
+          "Grotte de Lascaux"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Crânio de museu nítido, sem texto, o célebre KNM-ER 1470. Em múltipla escolha, com espécies parecidas, a resposta é justa.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que espécie humana africana é este crânio de cerca de dois milhões de anos?",
+      "resposta": "Homo rudolfensis",
+      "distratores": [
+        "Homo habilis",
+        "Homo erectus",
+        "Homo ergaster"
+      ],
+      "ancora": {
+        "nome": "Homo rudolfensis",
+        "descricao": "Espécie extinta de humano arcaico do Pleistoceno inferior da África Oriental, conhecida pelo crânio KNM-ER 1470.",
+        "variantes": [
+          "H. rudolfensis",
+          "KNM-ER 1470"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O crânio é quase moderno e pode ser confundido com outros Homo sapiens antigos ou com neandertais. Não há resposta única nem reconhecimento possível pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de um gorila macho adulto, sem texto. Reconhece-se o grande primata, mas não a subespécie, então a pergunta é só pelo animal.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que grande primata africano é este?",
+      "resposta": "Gorila",
+      "ancora": {
+        "nome": "Gorila-da-montanha",
+        "descricao": "Subespécie do gorila-oriental que vive nas montanhas Virunga e em Bwindi, na África Central.",
+        "variantes": [
+          "Gorila-das-montanhas",
+          "Gorilla beringei beringei",
+          "Mountain gorilla"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto pequena de um homem comum, de roupa de mergulho, sem traços que permitam reconhecê-lo. Não é legível num celular e o público não o identifica."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "É uma reconstrução em argila de um crânio fragmentado, sem traços que permitam reconhecer os restos de Omo. Pode ser confundida com outros fósseis de Homo sapiens antigos."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto. Qualquer pista sobre chimpanzés entregaria a resposta, então o enunciado usa só a nacionalidade.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esta pesquisadora inglesa?",
+      "resposta": "Jane Goodall",
+      "ancora": {
+        "nome": "Jane Goodall",
+        "descricao": "Primatóloga e antropóloga inglesa, conhecida por décadas de pesquisa sobre chimpanzés selvagens em Gombe, na Tanzânia.",
+        "variantes": [
+          "Valerie Jane Morris-Goodall",
+          "Dame Jane Goodall"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "É um crânio fóssil sem contexto. Não se distingue do Homem de Herto de outros Homo sapiens arcaicos nem de crânios parecidos, e o reconhecimento pela imagem é impossível."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto da múmia natural de Ötzi, sem texto, de um homem famoso e reconhecível. A pergunta sobre o local da descoberta só se responde depois de reconhecer a múmia.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cadeia de montanhas foi encontrada esta múmia?",
+      "resposta": "Alpes",
+      "distratores": [
+        "Pireneus",
+        "Cárpatos",
+        "Apeninos"
+      ],
+      "ancora": {
+        "nome": "Ötzi, o Homem do Gelo",
+        "descricao": "Múmia natural de um homem da Idade do Cobre, de cerca de 3200 a.C., achada em 1991 nos Alpes de Ötztal, na fronteira entre a Áustria e a Itália.",
+        "variantes": [
+          "Ötzi",
+          "Homem do Gelo",
+          "Iceman",
+          "Homem de Similaun",
+          "Homem do Tirol"
+        ]
+      }
+    }
+  ]
+}
