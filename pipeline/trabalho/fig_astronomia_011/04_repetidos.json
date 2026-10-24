@@ -1,0 +1,103 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que cientista inglês é este?",
+        "resposta": "Isaac Newton"
+      },
+      "existentes": [
+        {
+          "id": "q00863",
+          "pergunta": "Qual obra de 1687 deste cientista inglês estabeleceu a mecânica clássica?",
+          "resposta": "Principia Mathematica"
+        },
+        {
+          "id": "q02990",
+          "pergunta": "Em 1665, Isaac Newton deixou Cambridge e foi para a fazenda da família, onde teria visto a famosa maçã cair. Por que ele saiu da universidade?",
+          "resposta": "A peste fechou a universidade"
+        },
+        {
+          "id": "q02991",
+          "pergunta": "Além da física, Isaac Newton dirigiu por décadas que instituição inglesa, onde chegou a perseguir falsificadores?",
+          "resposta": "Casa da Moeda Real"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que sonda espacial é esta?",
+        "resposta": "New Horizons"
+      },
+      "existentes": [
+        {
+          "id": "q08292",
+          "pergunta": "A sonda New Horizons levou até Plutão parte das cinzas de qual astrônomo americano, o descobridor desse planeta anão?",
+          "resposta": "Clyde Tombaugh"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que físico é este?",
+        "resposta": "Albert Einstein"
+      },
+      "existentes": [
+        {
+          "id": "q00860",
+          "pergunta": "Que físico é este?",
+          "resposta": "Albert Einstein"
+        },
+        {
+          "id": "q02992",
+          "pergunta": "O Nobel de Física de 1921 não premiou Einstein pela relatividade. Que fenômeno ele explicou para ganhar o prêmio?",
+          "resposta": "Efeito fotoelétrico"
+        },
+        {
+          "id": "q07296",
+          "pergunta": "Em 1952, Albert Einstein recebeu e recusou o convite para ser presidente de que país?",
+          "resposta": "Israel"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que sondas espaciais levam a bordo este disco?",
+        "resposta": "Voyager 1 e Voyager 2"
+      },
+      "existentes": [
+        {
+          "id": "q08293",
+          "pergunta": "Que pioneiro do rock americano tem uma canção gravada no Disco de Ouro, levado ao espaço pelas sondas Voyager?",
+          "resposta": "Chuck Berry"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta de identificação do cientista (imagem); nenhuma existente pergunta quem ele é, os fatos são outros."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a sonda é um fato diferente das cinzas de Tombaugh."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e mesma resposta que q00860.",
+      "id_existente": "q00860"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Quais sondas levam o disco é diferente de qual artista tem canção nele."
+    }
+  ]
+}

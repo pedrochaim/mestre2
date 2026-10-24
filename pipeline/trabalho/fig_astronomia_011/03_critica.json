@@ -1,0 +1,71 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A afirmação 'retratado nesta pintura' não é confirmada por 'mostra' (pode ser foto, gravura ou estátua). Removi o trecho.",
+      "reescrita": {
+        "pergunta": "Que cientista inglês é este?",
+        "resposta": "Isaac Newton"
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem pista, distratores são sondas planetárias críveis e nenhuma descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de nível 1, sem vazamento. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento. Os distratores são radiotelescópios ou arranjos críveis, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pede o tipo depois de reconhecer o instrumento, sem nomear a resposta. Os distratores são tipos de telescópio.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vários astronautas foram senadores, então o enunciado sozinho não entrega a resposta. Glenn foi senador por Ohio de 1974 a 1999, e os trechos confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Koroliov, Glushko e Kondratiuk também nasceram na Rússia imperial (Ucrânia ou Império Russo), então 'nascido na Rússia imperial' não distingue a resposta e os distratores também cabem no enunciado. Reescrevi com 'cientista russo'.",
+      "reescrita": {
+        "pergunta": "Que cientista russo é este?",
+        "resposta": "Konstantin Tsiolkovsky",
+        "distratores": [
+          "Serguei Koroliov",
+          "Valentin Glushko",
+          "Iuri Kondratiuk"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que um disco vai em cada uma das duas Voyager. O enunciado não nomeia a entidade e não responde sem a figura.",
+      "reescrita": null
+    }
+  ]
+}

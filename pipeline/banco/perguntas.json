@@ -284710,5 +284710,165 @@
       "autor": "NASA",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q15094",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "isaac_newton",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que cientista inglês é este?",
+    "resposta": "Isaac Newton",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Isaac_Newton",
+      "https://pt.wikipedia.org/wiki/Isaac_Newton"
+    ],
+    "imagem": {
+      "arquivo": "q15094.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:GodfreyKneller-IsaacNewton-1689.jpg",
+      "autor": "Godfrey Kneller",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15095",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "new_horizons",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que sonda espacial é esta?",
+    "resposta": "New Horizons",
+    "distratores": [
+      "Cassini",
+      "Galileo",
+      "Voyager 2"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/New_Horizons",
+      "https://pt.wikipedia.org/wiki/New_Horizons"
+    ],
+    "imagem": {
+      "arquivo": "q15095.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Encounter_01_lg.jpg",
+      "autor": "Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15096",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "very_large_array",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que observatório de rádio é este?",
+    "resposta": "Very Large Array",
+    "distratores": [
+      "Allen Telescope Array",
+      "Atacama Compact Array",
+      "Green Bank Telescope"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Very_Large_Array",
+      "https://pt.wikipedia.org/wiki/Very_Large_Array"
+    ],
+    "imagem": {
+      "arquivo": "q15096.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:USA.NM.VeryLargeArray.02.jpg",
+      "autor": "user:Hajor",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15097",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "luneta_telescopio_refrator",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de telescópio é este, quanto à forma de captar a luz?",
+    "resposta": "Refrator (luneta)",
+    "distratores": [
+      "Refletor",
+      "Catadióptrico",
+      "Radiotelescópio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Refracting_telescope",
+      "https://pt.wikipedia.org/wiki/Telesc%C3%B3pio_refractor"
+    ],
+    "imagem": {
+      "arquivo": "q15097.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Zeiss2.jpg",
+      "autor": "Bori64",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15098",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "john_glenn",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que estado americano este astronauta representou no Senado?",
+    "resposta": "Ohio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/John_Glenn",
+      "https://pt.wikipedia.org/wiki/John_Glenn"
+    ],
+    "imagem": {
+      "arquivo": "q15098.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:John_Glenn_Low_Res_crop.jpg",
+      "autor": "U.S. Senate Historical Office",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15099",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "konstantin_tsiolkovsky",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que cientista russo é este?",
+    "resposta": "Konstantin Tsiolkovsky",
+    "distratores": [
+      "Serguei Koroliov",
+      "Valentin Glushko",
+      "Iuri Kondratiuk"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Konstantin_Tsiolkovsky",
+      "https://pt.wikipedia.org/wiki/Konstantin_Tsiolkovski"
+    ],
+    "imagem": {
+      "arquivo": "q15099.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Константин_Циолковский.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15100",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "disco_de_ouro_da_voyager",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que sondas espaciais levam a bordo este disco?",
+    "resposta": "Voyager 1 e Voyager 2",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Voyager_Golden_Record",
+      "https://pt.wikipedia.org/wiki/Voyager_Golden_Record"
+    ],
+    "imagem": {
+      "arquivo": "q15100.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg",
+      "autor": "NASA/JPL",
+      "licenca": "Public domain"
+    }
   }
 ]

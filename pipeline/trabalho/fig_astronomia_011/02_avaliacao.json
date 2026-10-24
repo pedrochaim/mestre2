@@ -1,0 +1,189 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato pintado famoso, sem texto, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cientista inglês é este, retratado nesta pintura?",
+      "resposta": "Isaac Newton",
+      "destino": 0,
+      "ancora": {
+        "nome": "Isaac Newton",
+        "descricao": "Matemático e físico inglês autor dos Principia e da lei da gravitação universal.",
+        "variantes": [
+          "Sir Isaac Newton"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ilustração clara da sonda com Plutão e Caronte ao fundo, sem texto; distinguível com distratores de sondas diferentes.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sonda espacial é esta?",
+      "resposta": "New Horizons",
+      "distratores": [
+        "Cassini",
+        "Galileo",
+        "Voyager 2"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "New Horizons",
+        "descricao": "Sonda da NASA lançada em 2006 que sobrevoou Plutão em 2015.",
+        "variantes": [
+          "Novos Horizontes"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto de trabalho em preto e branco; o rosto da astrônoma não é reconhecível pela imagem para a maioria, e o contexto (equipamento) não identifica a pessoa."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto histórica famosa de Einstein; o quadro-negro tem só um 'K' e um traço, sem entregar a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que físico é este?",
+      "resposta": "Albert Einstein",
+      "destino": 0,
+      "ancora": {
+        "nome": "Albert Einstein",
+        "descricao": "Físico teórico nascido na Alemanha, criador da teoria da relatividade.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida de radiotelescópios em fila numa planície; reconhecível por quem conhece, com distratores de outros conjuntos de antenas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que observatório de rádio é este?",
+      "resposta": "Very Large Array",
+      "distratores": [
+        "Allen Telescope Array",
+        "Atacama Compact Array",
+        "Green Bank Telescope"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Very Large Array",
+        "descricao": "Observatório de radioastronomia com 27 antenas de 25 metros no Novo México, EUA.",
+        "variantes": [
+          "VLA",
+          "Karl G. Jansky Very Large Array"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A imagem mostra dois aglomerados em recortes circulares (uma montagem de um mostruário); não é reconhecível como M13 e a resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto clara de um telescópio refrator antigo em cúpula; o tipo é identificável pelo tubo longo com lente objetiva.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de telescópio é este, quanto à forma de captar a luz?",
+      "resposta": "Refrator (luneta)",
+      "distratores": [
+        "Refletor",
+        "Catadióptrico",
+        "Radiotelescópio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Luneta (telescópio refrator)",
+        "descricao": "Telescópio óptico que usa uma lente como objetiva para formar a imagem.",
+        "variantes": [
+          "Telescópio refrator",
+          "Refrator"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato oficial de figura pública, sem texto; a pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que estado americano este astronauta representou no Senado?",
+      "resposta": "Ohio",
+      "destino": 0,
+      "ancora": {
+        "nome": "John Glenn",
+        "descricao": "Astronauta americano, primeiro dos EUA a orbitar a Terra, depois senador por Ohio.",
+        "variantes": [
+          "John Herschel Glenn Jr."
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida de figura pública, sem texto; múltipla com distratores do mesmo meio.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cientista, nascido na Rússia imperial, é este?",
+      "resposta": "Konstantin Tsiolkovsky",
+      "distratores": [
+        "Serguei Koroliov",
+        "Valentin Glushko",
+        "Iuri Kondratiuk"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Konstantin Tsiolkovsky",
+        "descricao": "Cientista russo, pioneiro da astronáutica e da teoria dos foguetes.",
+        "variantes": [
+          "Konstantin Tsiolkovski",
+          "Ciolkovski"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem nítida da capa dourada com diagramas gravados, sem texto; resposta única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sondas espaciais levam a bordo este disco?",
+      "resposta": "Voyager 1 e Voyager 2",
+      "destino": 0,
+      "ancora": {
+        "nome": "Disco de Ouro da Voyager",
+        "descricao": "Par de discos fonográficos dourados com sons e imagens da Terra, a bordo das sondas Voyager.",
+        "variantes": [
+          "Voyager Golden Record"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução, pequena, em que a 'face' mal se distingue entre mesas e crateras; não é legível no celular nem reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Campo denso de estrelas de um aglomerado globular que não se distingue de outros (M13, 47 Tucanae); a entidade não é reconhecível e a resposta não é única diante da imagem."
+    }
+  ]
+}
