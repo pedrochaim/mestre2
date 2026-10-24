@@ -189135,5 +189135,61 @@
       "pt": 46,
       "en": 3154
     }
+  },
+  {
+    "id": "robo_aspirador",
+    "nome": "Robô aspirador",
+    "descricao": "Aspirador de pó autônomo e circular, com sensores, que limpa o chão sozinho.",
+    "variantes": [
+      "Aspirador robô",
+      "Robovac",
+      "Roomba"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Robotic_vacuum_cleaner",
+      "https://pt.wikipedia.org/wiki/Rob%C3%B4_aspirador"
+    ]
+  },
+  {
+    "id": "projetor_multimidia",
+    "nome": "Projetor multimídia",
+    "descricao": "Aparelho que recebe um sinal de vídeo e projeta a imagem numa tela por um sistema de lentes.",
+    "variantes": [
+      "Projetor de vídeo",
+      "Datashow",
+      "Projetor digital"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Video_projector",
+      "https://pt.wikipedia.org/wiki/Projetor_de_v%C3%ADdeo"
+    ]
+  },
+  {
+    "id": "fonte_de_alimentacao_de_computador",
+    "nome": "Fonte de alimentação de computador",
+    "descricao": "Componente que converte a corrente alternada da tomada em corrente contínua de baixa tensão para o computador.",
+    "variantes": [
+      "Fonte ATX",
+      "PSU",
+      "Fonte de energia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Power_supply_unit_%28computer%29",
+      "https://pt.wikipedia.org/wiki/Unidade_de_fonte_de_alimenta%C3%A7%C3%A3o_%28computador%29"
+    ]
+  },
+  {
+    "id": "boombox",
+    "nome": "Boombox",
+    "descricao": "Rádio-gravador portátil com alto-falantes laterais e toca-fitas, popular a partir do fim dos anos 1970.",
+    "variantes": [
+      "Radiogravador",
+      "Rádio-gravador",
+      "Aparelho de som portátil"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Boombox",
+      "https://pt.wikipedia.org/wiki/Boombox_%28r%C3%A1dio%29"
+    ]
   }
 ]

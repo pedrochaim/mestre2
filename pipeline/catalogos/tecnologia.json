@@ -614,7 +614,7 @@
       "titulo": "en:Boombox",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Videocassete",
@@ -985,7 +985,7 @@
       "titulo": "en:Game & Watch",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Kindle",
@@ -1013,7 +1013,7 @@
       "titulo": "en:Reel-to-reel audio tape recording",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Projetor de slides",
@@ -1119,6 +1119,286 @@
       "camada": 3,
       "destino": 1,
       "status": "reprovada"
+    },
+    {
+      "nome": "Caixa eletrônico",
+      "titulo": "en:Automated teller machine",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Maquininha de cartão",
+      "titulo": "en:Payment terminal",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Urna eletrônica",
+      "titulo": "pt:Urna eletrônica",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Impressora 3D",
+      "titulo": "en:3D printing",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fliperama",
+      "titulo": "en:Arcade cabinet",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Walkie-talkie",
+      "titulo": "en:Walkie-talkie",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cartão telefônico",
+      "titulo": "en:Telephone card",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Torre de telefonia celular",
+      "titulo": "en:Cell site",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Filme fotográfico 35 mm",
+      "titulo": "en:135 film",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Projetor multimídia",
+      "titulo": "en:Video projector",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Cartão de tarja magnética",
+      "titulo": "en:Magnetic stripe card",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Robô aspirador",
+      "titulo": "en:Robotic vacuum cleaner",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Processador",
+      "titulo": "en:Central processing unit",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Disjuntor",
+      "titulo": "en:Circuit breaker",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Placa de circuito impresso",
+      "titulo": "en:Printed circuit board",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "SSD",
+      "titulo": "en:Solid-state drive",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Fonte de alimentação de computador",
+      "titulo": "en:Power supply unit (computer)",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Secretária eletrônica",
+      "titulo": "en:Answering machine",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Leitor de código de barras",
+      "titulo": "en:Barcode reader",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ficha telefônica",
+      "titulo": "pt:Ficha telefônica",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Transformador",
+      "titulo": "en:Transformer",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Motor elétrico",
+      "titulo": "en:Electric motor",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Zootrópio",
+      "titulo": "en:Zoetrope",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rádio-relógio",
+      "titulo": "en:Clock radio",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fita magnética de dados",
+      "titulo": "en:Magnetic tape data storage",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ferro de solda",
+      "titulo": "en:Soldering iron",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Patinho Feio (computador)",
+      "titulo": "pt:Patinho Feio (computador)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Computador Atanasoff-Berry",
+      "titulo": "en:Atanasoff–Berry computer",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Kenbak-1",
+      "titulo": "en:Kenbak-1",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Calculadora de Leibniz",
+      "titulo": "en:Stepped reckoner",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ossos de Napier",
+      "titulo": "en:Napier's bones",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "IBM 1401",
+      "titulo": "en:IBM 1401",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lanterna mágica",
+      "titulo": "en:Magic lantern",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Disco de Nipkow",
+      "titulo": "en:Nipkow disk",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cinetoscópio",
+      "titulo": "en:Kinetoscope",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Wafer de silício",
+      "titulo": "en:Wafer (electronics)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Oscilador de cristal",
+      "titulo": "en:Crystal oscillator",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Termopar",
+      "titulo": "en:Thermocouple",
+      "camada": 3,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Relógio atômico",
+      "titulo": "en:Atomic clock",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cabo submarino de comunicações",
+      "titulo": "en:Submarine communications cable",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }

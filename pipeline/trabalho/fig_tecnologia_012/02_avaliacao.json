@@ -1,0 +1,159 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Duas pessoas comuns em primeiro plano e letreiro 'Mult Games' visível."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Rótulo traz 'Solid State Drive' e a marca, entregando a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O nome 'Atanasoff-Berry Computer' aparece na parede, além das placas explicativas."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Aspirador robô reconhecível pela forma, sem texto legível que entregue a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aparelho doméstico é este?",
+      "resposta": "Robô aspirador",
+      "distratores": [
+        "Robô cortador de grama",
+        "Purificador de ar",
+        "Umidificador de ambiente"
+      ],
+      "ancora": {
+        "nome": "Robô aspirador",
+        "descricao": "Aspirador de pó autônomo e circular, com sensores, que limpa o chão sozinho.",
+        "variantes": [
+          "Aspirador robô",
+          "Robovac",
+          "Roomba"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Carretel de fita aberta reconhecível, sem texto legível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este carretel de fita magnética é usado em que tipo de aparelho?",
+      "resposta": "Gravador de rolo",
+      "distratores": [
+        "Toca-fitas cassete",
+        "Videocassete VHS",
+        "Toca-discos de vinil"
+      ],
+      "ancora": {
+        "nome": "Fita de gravador de rolo",
+        "descricao": "Carretel aberto de fita magnética usado em gravadores de áudio de rolo.",
+        "variantes": [
+          "Fita de rolo",
+          "Fita aberta",
+          "Reel-to-reel"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Projetor reconhecível; a marca visível não entrega a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que aparelho é este?",
+      "resposta": "Projetor multimídia",
+      "ancora": {
+        "nome": "Projetor multimídia",
+        "descricao": "Aparelho que recebe um sinal de vídeo e projeta a imagem numa tela por um sistema de lentes.",
+        "variantes": [
+          "Projetor de vídeo",
+          "Datashow",
+          "Projetor digital"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O nome 'Game & Watch' está escrito no aparelho."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto antiga com duas pessoas ao lado de uma máquina pouco reconhecível; não há resposta única nem identificação clara."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano; o walkie-talkie é secundário e há texto 'USDA' no capacete."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fonte de computador reconhecível pelo ventilador e pela tomada, sem texto que entregue a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que componente interno de um computador de mesa é este?",
+      "resposta": "Fonte de alimentação",
+      "distratores": [
+        "Placa de vídeo",
+        "Cooler do processador",
+        "Disco rígido"
+      ],
+      "ancora": {
+        "nome": "Fonte de alimentação de computador",
+        "descricao": "Componente que converte a corrente alternada da tomada em corrente contínua de baixa tensão para o computador.",
+        "variantes": [
+          "Fonte ATX",
+          "PSU",
+          "Fonte de energia"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Diagrama esquemático abstrato, sem forma reconhecível pelo público; não fica claro o que é."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Boombox reconhecível pela forma; marca Sharp visível não entrega a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aparelho de som é este?",
+      "resposta": "Boombox",
+      "distratores": [
+        "Vitrola portátil",
+        "Micro system",
+        "Walkman"
+      ],
+      "ancora": {
+        "nome": "Boombox",
+        "descricao": "Rádio-gravador portátil com alto-falantes laterais e toca-fitas, popular a partir do fim dos anos 1970.",
+        "variantes": [
+          "Radiogravador",
+          "Rádio-gravador",
+          "Aparelho de som portátil"
+        ]
+      }
+    }
+  ]
+}

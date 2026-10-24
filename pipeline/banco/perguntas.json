@@ -286083,5 +286083,100 @@
       "licenca": "CC BY-SA 4.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q15152",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "robo_aspirador",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que aparelho doméstico é este?",
+    "resposta": "Robô aspirador",
+    "distratores": [
+      "Robô cortador de grama",
+      "Purificador de ar",
+      "Umidificador de ambiente"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Robotic_vacuum_cleaner",
+      "https://pt.wikipedia.org/wiki/Rob%C3%B4_aspirador"
+    ],
+    "imagem": {
+      "arquivo": "q15152.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Roomba_＃tenticle_wire_＃fantasy_android_＃love_(j_bizzie)_2014-07-05.jpg",
+      "autor": "j bizzie from MINNEAPOLIS, USA",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q15153",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "projetor_multimidia",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que aparelho é este?",
+    "resposta": "Projetor multimídia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Video_projector",
+      "https://pt.wikipedia.org/wiki/Projetor_de_v%C3%ADdeo"
+    ],
+    "imagem": {
+      "arquivo": "q15153.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:InFocus_IN34.jpg",
+      "autor": "Dave Pape",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15154",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "fonte_de_alimentacao_de_computador",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que componente interno de um computador de mesa é este?",
+    "resposta": "Fonte de alimentação",
+    "distratores": [
+      "Placa de vídeo",
+      "Cooler do processador",
+      "Disco rígido"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Power_supply_unit_%28computer%29",
+      "https://pt.wikipedia.org/wiki/Unidade_de_fonte_de_alimenta%C3%A7%C3%A3o_%28computador%29"
+    ],
+    "imagem": {
+      "arquivo": "q15154.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:ATX_PS_downside2.jpg",
+      "autor": "Baran Ivo",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15155",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "boombox",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que aparelho de som é este?",
+    "resposta": "Boombox",
+    "distratores": [
+      "Vitrola portátil",
+      "Micro system",
+      "Walkman"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Boombox",
+      "https://pt.wikipedia.org/wiki/Boombox_%28r%C3%A1dio%29"
+    ],
+    "imagem": {
+      "arquivo": "q15155.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sharp_GF-9494_(22W)_Ghetto_Blaster_(edited).jpg",
+      "autor": "Stephen Michael Barnett from Adelaide, Australia",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]
