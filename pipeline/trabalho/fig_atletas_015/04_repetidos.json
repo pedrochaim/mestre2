@@ -1,0 +1,82 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Com que idade este enxadrista conquistou o título de grande mestre?",
+        "resposta": "Treze anos"
+      },
+      "existentes": [
+        {
+          "id": "q14035",
+          "pergunta": "De que país é este enxadrista?",
+          "resposta": "Noruega"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Este boxeador ganhou o ouro olímpico em 1988 representando que país?",
+        "resposta": "Canadá"
+      },
+      "existentes": [
+        {
+          "id": "q15063",
+          "pergunta": "Este ex-boxeador dos pesos-pesados foi ouro olímpico em 1988 representando que país?",
+          "resposta": "Canadá"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Quem é este lutador de MMA, campeão dos meio-pesados do UFC?",
+        "resposta": "Jon Jones"
+      },
+      "existentes": [
+        {
+          "id": "q15578",
+          "pergunta": "Quem é este lutador americano de MMA?",
+          "resposta": "Jon Jones"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que astro da NBA é este?",
+        "resposta": "Giannis Antetokounmpo"
+      },
+      "existentes": [
+        {
+          "id": "q15487",
+          "pergunta": "Que astro do basquete é este?",
+          "resposta": "Giannis Antetokounmpo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Idade do título é diferente do país."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: ouro olímpico em 1988 pelo Canadá."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identidade do lutador, resposta Jon Jones."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identidade do mesmo astro, resposta Giannis Antetokounmpo."
+    }
+  ]
+}

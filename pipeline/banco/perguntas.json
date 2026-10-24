@@ -296399,5 +296399,145 @@
       "revelacao": "q15599_revelacao.jpg"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q15600",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "lance_armstrong",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em que estado americano nasceu este ciclista?",
+    "resposta": "Texas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lance_Armstrong",
+      "https://pt.wikipedia.org/wiki/Lance_Armstrong"
+    ],
+    "imagem": {
+      "arquivo": "q15600.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lance_Armstrong,_Tour_de_France_2009_n2.jpg",
+      "autor": "Josh Hallett",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q15601",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "magnus_carlsen",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Com que idade este enxadrista conquistou o título de grande mestre?",
+    "resposta": "Treze anos",
+    "distratores": [
+      "Quinze anos",
+      "Dezessete anos",
+      "Dezenove anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Magnus_Carlsen",
+      "https://pt.wikipedia.org/wiki/Magnus_Carlsen"
+    ],
+    "imagem": {
+      "arquivo": "q15601.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Carlsen_Magnus_(30238051906).jpg",
+      "autor": "Andreas Kontokanis from Piraeus, Greece",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q15602",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "iker_casillas",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este goleiro espanhol passou a maior parte da carreira em que clube?",
+    "resposta": "Real Madrid",
+    "distratores": [
+      "Barcelona",
+      "Atlético de Madrid",
+      "Valencia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Iker_Casillas",
+      "https://pt.wikipedia.org/wiki/Iker_Casillas"
+    ],
+    "imagem": {
+      "arquivo": "q15602.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Iker_Casillas_2.jpg",
+      "autor": "Зайцев Антон",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15603",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "tadej_pogacar",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que ciclista é este?",
+    "resposta": "Tadej Pogačar",
+    "distratores": [
+      "Jonas Vingegaard",
+      "Primož Roglič",
+      "Remco Evenepoel"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tadej_Poga%C4%8Dar",
+      "https://pt.wikipedia.org/wiki/Tadej_Poga%C4%8Dar"
+    ],
+    "imagem": {
+      "arquivo": "q15603.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2022_Tour_of_Slovenia_(Stage_3,_Tadej_Pogačar_celebrating_victory_on_Celje_Castle_v2).jpg",
+      "autor": "Petar Milošević",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q15604",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "jack_nicklaus",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que golfista é este?",
+    "resposta": "Jack Nicklaus",
+    "distratores": [
+      "Arnold Palmer",
+      "Gary Player",
+      "Tom Watson"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jack_Nicklaus",
+      "https://pt.wikipedia.org/wiki/Jack_Nicklaus"
+    ],
+    "imagem": {
+      "arquivo": "q15604.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:JackNicklausMedalOfFreedom.jpg",
+      "autor": "Shealeah Craighead",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15605",
+    "tema": "Esportes",
+    "subtema": "Tênis",
+    "ancora": "luisa_stefani",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade nasceu esta tenista brasileira, especialista em duplas?",
+    "resposta": "São Paulo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Luisa_Stefani",
+      "https://pt.wikipedia.org/wiki/Luisa_Stefani"
+    ],
+    "imagem": {
+      "arquivo": "q15605.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:TENFEM_WR_01.08.21-3244_(cropped_Stefani).jpg",
+      "autor": "LoGur",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

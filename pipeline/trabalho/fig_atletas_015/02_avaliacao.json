@@ -1,0 +1,215 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ciclista em primeiro plano, figura pública, foto clara; o texto visível (patrocinadores, Astana) não traz o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 7,
+      "pergunta": "Em 2012, este ciclista perdeu quantas vitórias no Tour de France por causa de doping?",
+      "resposta": "Sete",
+      "distratores": [],
+      "ancora": {
+        "nome": "Lance Armstrong",
+        "descricao": "Ex-ciclista profissional americano, vencedor do Tour de France de 1999 a 2005, títulos cassados em 2012.",
+        "variantes": [
+          "Lance Edward Armstrong"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido de enxadrista famoso, com tabuleiro; o patch VG não entrega o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Com que idade este enxadrista conquistou o título de grande mestre?",
+      "resposta": "Treze anos",
+      "distratores": [
+        "Quinze anos",
+        "Dezessete anos",
+        "Dezenove anos"
+      ],
+      "ancora": {
+        "nome": "Magnus Carlsen",
+        "descricao": "Grande mestre de xadrez norueguês, campeão mundial várias vezes.",
+        "variantes": [
+          "Sven Magnus Øen Carlsen"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Rosto em close, nítido, figura pública; o alfinete com bandeiras é pequeno e traz duas bandeiras, sem entregar a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 6,
+      "pergunta": "Este boxeador ganhou o ouro olímpico em 1988 representando que país?",
+      "resposta": "Canadá",
+      "distratores": [
+        "Reino Unido",
+        "Estados Unidos",
+        "Jamaica"
+      ],
+      "ancora": {
+        "nome": "Lennox Lewis",
+        "descricao": "Ex-boxeador peso-pesado britânico-canadense, campeão mundial e ouro olímpico em 1988.",
+        "variantes": [
+          "Lennox Claudius Lewis"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Goleiro famoso, foto nítida; camisa do Porto não traz o nome e não conflita com a pergunta sobre a maior parte da carreira.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este goleiro espanhol passou a maior parte da carreira em que clube?",
+      "resposta": "Real Madrid",
+      "distratores": [
+        "Barcelona",
+        "Atlético de Madrid",
+        "Valencia"
+      ],
+      "ancora": {
+        "nome": "Iker Casillas",
+        "descricao": "Ex-goleiro espanhol, ídolo do Real Madrid e campeão mundial em 2010.",
+        "variantes": [
+          "Iker Casillas Fernández",
+          "San Iker"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública, sem texto que entregue o nome; bandeira americana não identifica o lutador.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 6,
+      "pergunta": "Quem é este lutador de MMA, campeão dos meio-pesados do UFC?",
+      "resposta": "Jon Jones",
+      "distratores": [],
+      "ancora": {
+        "nome": "Jon Jones",
+        "descricao": "Lutador americano de MMA, campeão dos meio-pesados e dos pesados do UFC.",
+        "variantes": [
+          "Jonathan Dwight Jones"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido; texto visível (UAE, Celje) não traz o nome. Distratores são ciclistas rivais do mesmo perfil.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Que ciclista é este?",
+      "resposta": "Tadej Pogačar",
+      "distratores": [
+        "Jonas Vingegaard",
+        "Primož Roglič",
+        "Remco Evenepoel"
+      ],
+      "ancora": {
+        "nome": "Tadej Pogačar",
+        "descricao": "Ciclista esloveno da UAE Team Emirates, multicampeão do Tour de France.",
+        "variantes": [
+          "Tadej Pogacar",
+          "Pogi"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Captura de vídeo de baixa qualidade, de entrevista, com barba que dificulta o reconhecimento; sem contexto esportivo. Não é reconhecível com segurança."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido de atleta famoso; camisa mostra o time e o número 34, mas não o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Que astro da NBA é este?",
+      "resposta": "Giannis Antetokounmpo",
+      "distratores": [],
+      "ancora": {
+        "nome": "Giannis Antetokounmpo",
+        "descricao": "Basquetebolista greco-nigeriano, ala-pivô, campeão da NBA com o Milwaukee Bucks em 2021.",
+        "variantes": [
+          "Giannis",
+          "Greek Freak"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato legível de lenda do golfe, com medalha cívica, sem texto que revele o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Que golfista é este?",
+      "resposta": "Jack Nicklaus",
+      "distratores": [
+        "Arnold Palmer",
+        "Gary Player",
+        "Tom Watson"
+      ],
+      "ancora": {
+        "nome": "Jack Nicklaus",
+        "descricao": "Golfista americano aposentado, com recorde de 18 títulos de majors.",
+        "variantes": [
+          "Jack William Nicklaus",
+          "Golden Bear",
+          "Urso Dourado"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Imagem muito pequena e de baixa resolução; o jogador não é reconhecível pelo rosto num celular, e a camisa da Roma não basta para resposta única."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto com várias pessoas ao fundo e muitos patrocinadores em texto; o boné encobre o rosto e a parecença com outros membros da família Gracie impede resposta única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido de atleta olímpica brasileira com medalha de bronze; o texto é discreto e não traz o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "Esta tenista brasileira ganhou medalha olímpica nas duplas ao lado de qual parceira?",
+      "resposta": "Laura Pigossi",
+      "distratores": [],
+      "ancora": {
+        "nome": "Luisa Stefani",
+        "descricao": "Tenista brasileira especialista em duplas, bronze olímpico em Tóquio 2020.",
+        "variantes": [
+          "Luisa Veras Stefani"
+        ]
+      }
+    }
+  ]
+}

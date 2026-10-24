@@ -1,0 +1,516 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Lance Armstrong",
+        "descricao": "Ex-ciclista profissional americano, vencedor do Tour de France de 1999 a 2005, títulos cassados em 2012.",
+        "variantes": [
+          "Lance Edward Armstrong"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "louis_armstrong",
+          "nome": "Louis Armstrong",
+          "descricao": "Músico e cantor americano de jazz, nascido em Nova Orleans, intérprete de What a Wonderful World",
+          "variantes": [
+            "Satchmo"
+          ]
+        },
+        {
+          "id": "larry_page",
+          "nome": "Larry Page",
+          "descricao": "Cientista da computação e empresário americano, cofundador do Google com Sergey Brin.",
+          "variantes": [
+            "Lawrence Edward Page"
+          ]
+        },
+        {
+          "id": "lago_natron",
+          "nome": "Lago Natron",
+          "descricao": "Lago salgado e muito alcalino no norte da Tanzânia, local de reprodução de flamingos-pequenos.",
+          "variantes": [
+            "Lake Natron"
+          ]
+        },
+        {
+          "id": "volante_badminton",
+          "nome": "Volante (badminton)",
+          "descricao": "Peteca de penas usada no badminton.",
+          "variantes": [
+            "Shuttlecock",
+            "Peteca de badminton"
+          ]
+        },
+        {
+          "id": "jane_austen",
+          "nome": "Jane Austen",
+          "descricao": "Romancista inglesa, autora de Orgulho e Preconceito e Emma.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Magnus Carlsen",
+        "descricao": "Grande mestre de xadrez norueguês, campeão mundial várias vezes.",
+        "variantes": [
+          "Sven Magnus Øen Carlsen"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "magnus_carlsen",
+          "nome": "Magnus Carlsen",
+          "descricao": "Grande mestre norueguês de xadrez, campeão mundial.",
+          "variantes": [
+            "Sven Magnus Øen Carlsen"
+          ]
+        },
+        {
+          "id": "calendario_romano",
+          "nome": "Calendário romano",
+          "descricao": "Sistema de contagem do tempo usado na Roma Antiga antes da reforma juliana.",
+          "variantes": [
+            "Roman calendar"
+          ]
+        },
+        {
+          "id": "magna_carta",
+          "nome": "Magna Carta",
+          "descricao": "Carta de direitos que os barões ingleses impuseram ao rei em 1215, limitando o poder da coroa.",
+          "variantes": [
+            "Magna Charta",
+            "Grande Carta"
+          ]
+        },
+        {
+          "id": "marco_aurelio",
+          "nome": "Marco Aurélio",
+          "descricao": "Imperador romano e filósofo estoico (121–180), autor das Meditações.",
+          "variantes": [
+            "Marcus Aurelius"
+          ]
+        },
+        {
+          "id": "jacques_charles",
+          "nome": "Jacques Charles",
+          "descricao": "Físico e inventor francês (1746–1823) que fez, em 1783, o primeiro voo tripulado num balão de hidrogênio.",
+          "variantes": [
+            "Jacques Alexandre César Charles"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Lennox Lewis",
+        "descricao": "Ex-boxeador peso-pesado britânico-canadense, campeão mundial e ouro olímpico em 1988.",
+        "variantes": [
+          "Lennox Claudius Lewis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lennox_lewis",
+          "nome": "Lennox Lewis",
+          "descricao": "Ex-boxeador britânico-canadense, campeão mundial dos pesos-pesados e ouro olímpico em 1988.",
+          "variantes": []
+        },
+        {
+          "id": "nero",
+          "nome": "Nero",
+          "descricao": "Imperador romano de 54 a 68 d.C., último da dinastia júlio-claudiana.",
+          "variantes": [
+            "Nero Cláudio César",
+            "Nero Claudius Caesar"
+          ]
+        },
+        {
+          "id": "carl_lewis",
+          "nome": "Carl Lewis",
+          "descricao": "Atleta americano, campeão de quatro provas nos Jogos de Los Angeles 1984.",
+          "variantes": [
+            "Frederick Carlton Lewis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Iker Casillas",
+        "descricao": "Ex-goleiro espanhol, ídolo do Real Madrid e campeão mundial em 2010.",
+        "variantes": [
+          "Iker Casillas Fernández",
+          "San Iker"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "san_siro",
+          "nome": "San Siro",
+          "descricao": "Estádio Giuseppe Meazza, de Milan e Inter, em Milão.",
+          "variantes": []
+        },
+        {
+          "id": "snickers",
+          "nome": "Snickers",
+          "descricao": "Barra de chocolate com amendoim, caramelo e nougat lançada pela americana Mars em 1930.",
+          "variantes": []
+        },
+        {
+          "id": "o_lago_dos_cisnes",
+          "nome": "O Lago dos Cisnes",
+          "descricao": "Balé de Piotr Ilitch Tchaikovsky, estreado em Moscou em 1877.",
+          "variantes": [
+            "Swan Lake"
+          ]
+        },
+        {
+          "id": "chichen_itza",
+          "nome": "Chichén Itzá",
+          "descricao": "Cidade maia na península de Iucatã, no México, com a pirâmide de Kukulcán.",
+          "variantes": [
+            "Pirâmide de Kukulcán",
+            "El Castillo"
+          ]
+        },
+        {
+          "id": "snooker",
+          "nome": "Snooker",
+          "descricao": "Modalidade de bilhar com vinte e duas bolas, que deu origem à sinuca brasileira.",
+          "variantes": [
+            "Sinuca inglesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Jon Jones",
+        "descricao": "Lutador americano de MMA, campeão dos meio-pesados e dos pesados do UFC.",
+        "variantes": [
+          "Jonathan Dwight Jones"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jon_jones",
+          "nome": "Jon Jones",
+          "descricao": "Lutador americano de MMA, campeão dos meio-pesados e dos pesados do UFC.",
+          "variantes": [
+            "Jonathan Dwight Jones",
+            "Bones"
+          ]
+        },
+        {
+          "id": "iene",
+          "nome": "Iene",
+          "descricao": "Moeda oficial do Japão.",
+          "variantes": [
+            "Yen",
+            "Iene japonês"
+          ]
+        },
+        {
+          "id": "john_nash",
+          "nome": "John Nash",
+          "descricao": "Matemático americano do século vinte, retratado no filme Uma Mente Brilhante.",
+          "variantes": [
+            "John Forbes Nash Jr."
+          ]
+        },
+        {
+          "id": "kofun",
+          "nome": "Kofun",
+          "descricao": "Túmulos monumentais de terra construídos no Japão entre os séculos três e sete.",
+          "variantes": [
+            "Kofun japoneses"
+          ]
+        },
+        {
+          "id": "jornadas_pokemon",
+          "nome": "Jornadas Pokémon",
+          "descricao": "Série do anime Pokémon, exibida a partir de 2019, em que Ash e Goh trabalham no Laboratório Cerise e viajam por todas as regiões.",
+          "variantes": [
+            "Pokémon Journeys",
+            "Pokémon Journeys: The Series",
+            "Pocket Monsters (2019)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tadej Pogačar",
+        "descricao": "Ciclista esloveno da UAE Team Emirates, multicampeão do Tour de France.",
+        "variantes": [
+          "Pogi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pong",
+          "nome": "Pong",
+          "descricao": "Jogo de fliperama da Atari que simula tênis de mesa, lançado em 1972.",
+          "variantes": []
+        },
+        {
+          "id": "orangotango",
+          "nome": "Orangotango",
+          "descricao": "Grandes primatas de pelagem avermelhada do gênero Pongo, nativos de Bornéu e Sumatra.",
+          "variantes": [
+            "Pongo",
+            "Orangutan",
+            "Orangutã"
+          ]
+        },
+        {
+          "id": "shogi",
+          "nome": "Shogi",
+          "descricao": "Jogo de tabuleiro japonês de estratégia, parente do xadrez, com peças pentagonais que podem ser recolocadas após a captura.",
+          "variantes": [
+            "Xadrez japonês"
+          ]
+        },
+        {
+          "id": "piaui",
+          "nome": "Piauí",
+          "descricao": "Estado da Região Nordeste do Brasil, com o menor litoral do país e capital em Teresina.",
+          "variantes": [
+            "Estado do Piauí",
+            "PI"
+          ]
+        },
+        {
+          "id": "mogli",
+          "nome": "Mogli",
+          "descricao": "Menino criado por lobos nas selvas da Índia, protagonista de histórias de O Livro da Selva.",
+          "variantes": [
+            "Mowgli",
+            "Mogli, o Menino Lobo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Giannis Antetokounmpo",
+        "descricao": "Basquetebolista greco-nigeriano, ala-pivô, campeão da NBA com o Milwaukee Bucks em 2021.",
+        "variantes": [
+          "Giannis",
+          "Greek Freak"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "giannis_antetokounmpo",
+          "nome": "Giannis Antetokounmpo",
+          "descricao": "Jogador greco-nigeriano de basquete da NBA, estrela do Milwaukee Bucks.",
+          "variantes": [
+            "Greek Freak",
+            "Giannis"
+          ]
+        },
+        {
+          "id": "fogo_grego",
+          "nome": "Fogo grego",
+          "descricao": "Arma incendiária de composição secreta usada pelo Império Bizantino, sobretudo em batalhas navais.",
+          "variantes": [
+            "Fogo marinho",
+            "Fogo líquido",
+            "Greek fire"
+          ]
+        },
+        {
+          "id": "giovanni",
+          "nome": "Giovanni",
+          "descricao": "Chefe da Equipe Rocket nos jogos e no anime Pokémon.",
+          "variantes": [
+            "Sakaki"
+          ]
+        },
+        {
+          "id": "game_freak",
+          "nome": "Game Freak",
+          "descricao": "Estúdio japonês fundado por Satoshi Tajiri, responsável pelos jogos principais da série Pokémon.",
+          "variantes": []
+        },
+        {
+          "id": "goiania",
+          "nome": "Goiânia",
+          "descricao": "Capital do estado de Goiás, cidade planejada que substituiu a Cidade de Goiás como sede do governo.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Jack Nicklaus",
+        "descricao": "Golfista americano aposentado, com recorde de 18 títulos de majors.",
+        "variantes": [
+          "Jack William Nicklaus",
+          "Golden Bear",
+          "Urso Dourado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "urso_de_ouro",
+          "nome": "Urso de Ouro",
+          "descricao": "Prêmio máximo do Festival Internacional de Cinema de Berlim.",
+          "variantes": [
+            "Golden Bear",
+            "Goldener Bär"
+          ]
+        },
+        {
+          "id": "sapo_dourado",
+          "nome": "Sapo-dourado",
+          "descricao": "Sapo alaranjado (Incilius periglenes) das florestas de Monteverde, na Costa Rica, visto pela última vez em 1989 e considerado extinto.",
+          "variantes": [
+            "Incilius periglenes",
+            "Bufo periglenes",
+            "Golden toad"
+          ]
+        },
+        {
+          "id": "arroz_dourado",
+          "nome": "Arroz dourado",
+          "descricao": "Variedade de arroz geneticamente modificada para produzir betacaroteno nos grãos.",
+          "variantes": [
+            "Golden rice"
+          ]
+        },
+        {
+          "id": "aguia_real",
+          "nome": "Águia-real",
+          "descricao": "Ave de rapina do Hemisfério Norte, Aquila chrysaetos, marrom escura com nuca dourada.",
+          "variantes": [
+            "Golden eagle",
+            "Aquila chrysaetos"
+          ]
+        },
+        {
+          "id": "faisao_dourado",
+          "nome": "Faisão-dourado",
+          "descricao": "Faisão colorido (Chrysolophus pictus), originário das montanhas da China.",
+          "variantes": [
+            "Chrysolophus pictus",
+            "Golden pheasant"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Luisa Stefani",
+        "descricao": "Tenista brasileira especialista em duplas, bronze olímpico em Tóquio 2020.",
+        "variantes": [
+          "Luisa Veras Stefani"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "leonard_bernstein",
+          "nome": "Leonard Bernstein",
+          "descricao": "Maestro e compositor americano, autor de West Side Story.",
+          "variantes": [
+            "Louis Bernstein"
+          ]
+        },
+        {
+          "id": "befana",
+          "nome": "Befana",
+          "descricao": "Velha bondosa do folclore italiano que voa numa vassoura e traz doces às crianças.",
+          "variantes": [
+            "La Befana"
+          ]
+        },
+        {
+          "id": "rms_lusitania",
+          "nome": "RMS Lusitania",
+          "descricao": "Transatlântico britânico afundado por um submarino alemão na costa da Irlanda em maio de 1915.",
+          "variantes": [
+            "Lusitânia",
+            "Lusitania"
+          ]
+        },
+        {
+          "id": "lusitania",
+          "nome": "Lusitânia",
+          "descricao": "Província romana da Península Ibérica que abrangia boa parte do atual Portugal e parte da Espanha.",
+          "variantes": []
+        },
+        {
+          "id": "luis_figo",
+          "nome": "Luís Figo",
+          "descricao": "Ex-ponta português, Bola de Ouro de 2000, que jogou no Barcelona e no Real Madrid.",
+          "variantes": [
+            "Figo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ciclista Lance Armstrong não está entre as candidatas; Louis Armstrong é músico."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "magnus_carlsen",
+      "motivo": "Mesmo enxadrista norueguês, mesmas variantes."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "lennox_lewis",
+      "motivo": "Mesmo boxeador britânico-canadense, ouro em 1988."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Iker Casillas."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "jon_jones",
+      "motivo": "Mesmo lutador de MMA, descrição e variantes idênticas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Tadej Pogačar."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "giannis_antetokounmpo",
+      "motivo": "Mesmo basquetebolista, mesmas variantes."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Golfista Jack Nicklaus é distinto do prêmio Urso de Ouro, apesar da variante Golden Bear."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a tenista Luisa Stefani."
+    }
+  ]
+}

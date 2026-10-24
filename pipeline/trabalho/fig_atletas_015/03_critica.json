@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Enunciado entrega a identidade: só um ciclista perdeu sete Tours por doping em 2012, então a figura vira enfeite. Reescrita pergunta um fato que exige reconhecer a imagem (estado natal, Texas, amplamente documentado).",
+      "reescrita": {
+        "pergunta": "Em que estado americano nasceu este ciclista?",
+        "resposta": "Texas",
+        "distratores": [
+          "Califórnia",
+          "Colorado",
+          "Oregon"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Carlsen tornou-se grande mestre aos treze anos (2004), fato amplamente documentado. O enunciado não entrega a identidade e os distratores são críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que representou o Canadá no ouro de 1988. Muitos boxeadores ganharam ouro em 1988, então o enunciado não entrega a identidade. Os distratores são críveis, e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos o ligam ao Real Madrid, onde passou a maior parte da carreira. 'Goleiro espanhol' não identifica ninguém sozinho. Os distratores são clubes espanhóis críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que foi campeão meio-pesado do UFC. Houve muitos campeões da categoria, então a pista não entrega a resposta sozinha. Nível 1 aberta, adequado.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista no enunciado. Os distratores são ciclistas rivais críveis, e nenhum é o retratado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de astro da NBA, sem vazamento. Resposta única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista. Os distratores são golfistas lendários do mesmo tipo e época próxima.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: Luisa Stefani e Pigossi conquistaram a única medalha olímpica do tênis brasileiro, então o enunciado já entrega a resposta. Reescrita pergunta a cidade natal, que exige reconhecer a tenista.",
+      "reescrita": {
+        "pergunta": "Em que cidade nasceu esta tenista brasileira, especialista em duplas?",
+        "resposta": "São Paulo",
+        "distratores": [
+          "Curitiba",
+          "Rio de Janeiro",
+          "Porto Alegre"
+        ]
+      }
+    }
+  ]
+}
