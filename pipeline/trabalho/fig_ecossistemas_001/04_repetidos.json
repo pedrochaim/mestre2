@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que árvore florida é esta, comum nas ruas de cidades brasileiras?",
+        "resposta": "Ipê-amarelo"
+      },
+      "existentes": [
+        {
+          "id": "q08723",
+          "pergunta": "Em que estação do ano, durante a seca do Cerrado, o ipê-amarelo perde as folhas e se cobre de flores?",
+          "resposta": "Inverno"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que fenômeno luminoso é este, visto no céu noturno?",
+        "resposta": "Aurora polar (boreal ou austral)"
+      },
+      "existentes": [
+        {
+          "id": "q00558",
+          "pergunta": "O nome da aurora do hemisfério norte junta a deusa romana do amanhecer e qual deus grego do vento norte?",
+          "resposta": "Bóreas"
+        },
+        {
+          "id": "q00576",
+          "pergunta": "As auroras nascem de partículas vindas do Sol. Por que elas aparecem quase sempre perto dos polos da Terra?",
+          "resposta": "Campo magnético da Terra"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação da árvore (ipê-amarelo); a existente pede a estação em que ele floresce. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome do fenômeno (aurora polar); as existentes tratam da etimologia (Bóreas) e da causa da localização polar (campo magnético). Fatos diferentes."
+    }
+  ]
+}

@@ -283132,5 +283132,184 @@
       "licenca": "Arte oficial; uso não comercial, sem licença livre"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q15026",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "tubarao_martelo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que tubarão é este?",
+    "resposta": "Tubarão-martelo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hammerhead_shark",
+      "https://pt.wikipedia.org/wiki/Sphyrnidae"
+    ],
+    "imagem": {
+      "arquivo": "q15026.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hammerhead_shark.jpg",
+      "autor": "suneko",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q15027",
+    "tema": "Natureza",
+    "subtema": "Ecossistemas e Ambientes Extremos",
+    "ancora": "superflorada_do_deserto",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que fenômeno natural raro, registrado nos desertos da Califórnia e do Arizona, mostra esta paisagem?",
+    "resposta": "Superflorada",
+    "distratores": [
+      "Floração de algas",
+      "Maré vermelha",
+      "Chuva de pólen"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Superbloom"
+    ],
+    "imagem": {
+      "arquivo": "q15027.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Superbloom_at_Carrizo_2017.jpg",
+      "autor": "Bob Wick, BLM",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15028",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "pinha_cone_de_conifera",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que estrutura de árvore conífera é esta?",
+    "resposta": "Pinha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cone_%28botany%29",
+      "https://pt.wikipedia.org/wiki/Pinha"
+    ],
+    "imagem": {
+      "arquivo": "q15028.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pinus_halepensis_kz17_(Morocco).jpg",
+      "autor": "Krzysztof Ziarnek, Kenraiz",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q15029",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "estrela_da_terra",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que fungo é este?",
+    "resposta": "Estrela-da-terra",
+    "distratores": [
+      "Bufa-de-lobo",
+      "Orelha-de-pau",
+      "Fungo-coral"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Geastrum",
+      "https://pt.wikipedia.org/wiki/Geastrum"
+    ],
+    "imagem": {
+      "arquivo": "q15029.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Geastrum_triplex.jpg",
+      "autor": "Josef F. Stuefer",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q15030",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "ipe_amarelo",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que árvore florida é esta, comum nas ruas de cidades brasileiras?",
+    "resposta": "Ipê-amarelo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Handroanthus_albus",
+      "https://pt.wikipedia.org/wiki/Handroanthus_albus"
+    ],
+    "imagem": {
+      "arquivo": "q15030.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ipe-amarelo_curitiba.jpg",
+      "autor": "Mathieu Bertrand Struck (mathieu.struck@gmail.com)",
+      "licenca": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "id": "q15031",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "palmeira_imperial",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que palmeira, muito plantada em avenidas e jardins do Brasil, é esta?",
+    "resposta": "Palmeira-imperial",
+    "distratores": [
+      "Jerivá",
+      "Palmito-juçara",
+      "Coqueiro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Roystonea_oleracea",
+      "https://pt.wikipedia.org/wiki/Palmeira-imperial"
+    ],
+    "imagem": {
+      "arquivo": "q15031.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Roystonea_oleracea,_Saint_Patrick_Parish,_Dominica_5.jpg",
+      "autor": "pei-ott",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q15032",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "figueira_estranguladora",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que planta tropical é esta?",
+    "resposta": "Mata-pau (figueira-estranguladora)",
+    "distratores": [
+      "Mangue-vermelho",
+      "Sumaúma",
+      "Cipó-imbé"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Strangler_fig",
+      "https://pt.wikipedia.org/wiki/Mata-pau"
+    ],
+    "imagem": {
+      "arquivo": "q15032.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ficus_watkinsiana_on_Syzygium_hemilampra-Iluka.jpg",
+      "autor": "Poyt448 Peter Woodard",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15033",
+    "tema": "Natureza",
+    "subtema": "Ecossistemas e Ambientes Extremos",
+    "ancora": "aurora_polar",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que fenômeno luminoso é este, visto no céu noturno?",
+    "resposta": "Aurora polar (boreal ou austral)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aurora",
+      "https://pt.wikipedia.org/wiki/Aurora_polar"
+    ],
+    "imagem": {
+      "arquivo": "q15033.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Northern_lights_in_Tromsoe.jpg",
+      "autor": "Flickr user: Gunnar Hildonen https://www.flickr.com/people/48746111@N04/",
+      "licenca": "CC BY-SA 2.0"
+    }
   }
 ]

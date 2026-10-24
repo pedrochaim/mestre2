@@ -1,0 +1,98 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem pista, resposta única e apoiada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado entrega a resposta (flores cobrindo colinas, chuvas, deserto da Califórnia) e repete a raiz de 'florada'. Também restringe a 'invernos', o que o trecho não diz.",
+      "reescrita": {
+        "pergunta": "Que fenômeno natural raro, registrado nos desertos da Califórnia e do Arizona, mostra esta paisagem?",
+        "resposta": "Superflorada",
+        "distratores": [
+          "Floração de algas",
+          "Maré vermelha",
+          "Chuva de pólen"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Pendurada no galho' não é confirmado pela descrição da imagem e é uma afirmação específica da foto.",
+      "reescrita": {
+        "pergunta": "Que estrutura de árvore conífera é esta?",
+        "resposta": "Pinha"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Rente ao chão da floresta' não está confirmado pela imagem descrita e não ajuda a distinguir.",
+      "reescrita": {
+        "pergunta": "Que fungo é este?",
+        "resposta": "Estrela-da-terra",
+        "distratores": [
+          "Bufa-de-lobo",
+          "Orelha-de-pau",
+          "Fungo-coral"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista de contexto sem entregar a resposta. O trecho confirma o uso como árvore urbana.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Tronco liso e esguio' também descreve jerivá e coqueiro, dois dos distratores, e não ajuda a distinguir.",
+      "reescrita": {
+        "pergunta": "Que palmeira, muito plantada em avenidas e jardins do Brasil, é esta?",
+        "resposta": "Palmeira-imperial",
+        "distratores": [
+          "Jerivá",
+          "Palmito-juçara",
+          "Coqueiro"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A descrição das raízes entrelaçadas sobre um tronco entrega a resposta sem a figura. Em português o nome mais comum é mata-pau.",
+      "reescrita": {
+        "pergunta": "Que planta tropical é esta?",
+        "resposta": "Mata-pau (figueira-estranguladora)",
+        "distratores": [
+          "Mangue-vermelho",
+          "Sumaúma",
+          "Cipó-imbé"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A figura mostra uma aurora polar, que pode ser boreal ou austral. Responder só 'boreal' pode estar errado.",
+      "reescrita": {
+        "pergunta": "Que fenômeno luminoso é este, visto no céu noturno?",
+        "resposta": "Aurora polar (boreal ou austral)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de tubarão-martelo, cabeça em T inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tubarão é este?",
+      "resposta": "Tubarão-martelo",
+      "ancora": {
+        "nome": "Tubarão-martelo",
+        "descricao": "Tubarão da família Sphyrnidae, com a cabeça achatada e alongada lateralmente em forma de T.",
+        "variantes": [
+          "Tubarão-martelo-recortado",
+          "Hammerhead shark",
+          "Sphyrnidae"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A imagem parece tundra ou charneca com bétulas e montanha; não mostra com clareza uma turfeira, e a resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Colinas cobertas de flores amarelas e roxas, típicas de superflorada; paisagem clara e legível. Pessoas minúsculas ao fundo.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno natural, que ocorre após invernos muito chuvosos em desertos da Califórnia, cobriu estas colinas de flores?",
+      "resposta": "Superflorada",
+      "distratores": [
+        "Floração de algas",
+        "Maré vermelha",
+        "Chuva de pólen"
+      ],
+      "ancora": {
+        "nome": "Superflorada do deserto",
+        "descricao": "Fenômeno raro em que sementes dormentes de flores silvestres do deserto germinam e florescem ao mesmo tempo após uma estação muito chuvosa.",
+        "variantes": [
+          "Superbloom",
+          "Super floração"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pinha de pinheiro bem nítida, em primeiro plano, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 2,
+      "tipo": "aberta",
+      "pergunta": "Que estrutura é esta, pendurada no galho?",
+      "resposta": "Pinha",
+      "ancora": {
+        "nome": "Pinha (cone de conífera)",
+        "descricao": "Estrutura lenhosa com escamas que carrega as sementes em pinheiros e outras coníferas.",
+        "variantes": [
+          "Cone",
+          "Estróbilo",
+          "Pine cone"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto em close de Geastrum com a camada externa aberta em estrela ao redor do saco de esporos; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fungo é este, visto rente ao chão da floresta?",
+      "resposta": "Estrela-da-terra",
+      "distratores": [
+        "Bufa-de-lobo",
+        "Orelha-de-pau",
+        "Fungo-coral"
+      ],
+      "ancora": {
+        "nome": "Estrela-da-terra",
+        "descricao": "Fungo do gênero Geastrum, cuja camada externa se abre em segmentos em forma de estrela ao redor do saco de esporos.",
+        "variantes": [
+          "Geastrum",
+          "Earthstar"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ipês amarelos floridos numa rua urbana; árvore reconhecível. A pessoa é pequena e ao fundo, e o texto visível não entrega a resposta.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "destino": 2,
+      "tipo": "aberta",
+      "pergunta": "Que árvore florida é esta, comum nas ruas de cidades brasileiras?",
+      "resposta": "Ipê-amarelo",
+      "ancora": {
+        "nome": "Ipê-amarelo",
+        "descricao": "Árvore brasileira de flores amarelas do gênero Handroanthus, considerada planta nacional do Brasil.",
+        "variantes": [
+          "Ipê",
+          "Handroanthus",
+          "Golden trumpet tree"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Palmeira alta de tronco liso e coroa de folhas arqueadas, típica palmeira-imperial; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 2,
+      "tipo": "multipla",
+      "pergunta": "Que palmeira de tronco liso e esguio é esta?",
+      "resposta": "Palmeira-imperial",
+      "distratores": [
+        "Jerivá",
+        "Palmito-juçara",
+        "Coqueiro"
+      ],
+      "ancora": {
+        "nome": "Palmeira-imperial",
+        "descricao": "Palmeira alta do gênero Roystonea, de tronco liso e acinzentado, muito usada em jardins e avenidas.",
+        "variantes": [
+          "Roystonea",
+          "Palmeira-real",
+          "Royal palm"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Raízes entrelaçadas envolvendo um tronco, aspecto típico de figueira-estranguladora; boa imagem.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 2,
+      "tipo": "multipla",
+      "pergunta": "Que planta é esta, de raízes entrelaçadas sobre um tronco?",
+      "resposta": "Figueira-estranguladora",
+      "distratores": [
+        "Mangue-vermelho",
+        "Sumaúma",
+        "Cipó-imbé"
+      ],
+      "ancora": {
+        "nome": "Figueira-estranguladora",
+        "descricao": "Figueira tropical do gênero Ficus que cresce sobre outra árvore e a envolve com raízes entrelaçadas.",
+        "variantes": [
+          "Mata-pau",
+          "Strangler fig"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "É um diagrama esquemático colorido, não uma foto de gêiser; pouco reconhecível e não mostra o fenômeno real."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O animal coberto de espinhos finos é ambíguo: pode ser ouriço-coração ou bolacha-da-praia, e a resposta não é única."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A foto mostra apenas um deserto com rochas, não a estrutura circular de Richat, que não é reconhecível; a resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Aurora verde nítida sobre um fiorde, fenômeno inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno luminoso é este, visto no céu noturno?",
+      "resposta": "Aurora boreal",
+      "ancora": {
+        "nome": "Aurora polar",
+        "descricao": "Fenômeno luminoso na alta atmosfera causado por partículas solares carregadas que colidem com átomos do ar, visto em regiões de alta latitude.",
+        "variantes": [
+          "Aurora boreal",
+          "Luzes do norte",
+          "Aurora"
+        ]
+      }
+    }
+  ]
+}

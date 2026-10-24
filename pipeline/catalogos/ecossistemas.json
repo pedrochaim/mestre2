@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Aurora polar",
+      "titulo": "en:Aurora",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Gêiser",
+      "titulo": "en:Geyser",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Manguezal",
+      "titulo": "en:Mangrove",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cataratas do Iguaçu",
+      "titulo": "en:Iguazu Falls",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tornado",
+      "titulo": "en:Tornado",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Turfeira",
+      "titulo": "en:Bog",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pororoca",
+      "titulo": "en:Pororoca",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Calçada dos Gigantes",
+      "titulo": "en:Giant's Causeway",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Glaciar Perito Moreno",
+      "titulo": "en:Perito Moreno Glacier",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Atol",
+      "titulo": "en:Atoll",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Relâmpago do Catatumbo",
+      "titulo": "en:Catatumbo lightning",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Olho do Saara",
+      "titulo": "en:Richat Structure",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Brinicle",
+      "titulo": "en:Brinicle",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nuvem mammatus",
+      "titulo": "en:Mammatus cloud",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Anêmona-do-mar",
+      "titulo": "en:Sea anemone",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Esponja-do-mar",
+      "titulo": "en:Sponge",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tubarão-martelo",
+      "titulo": "en:Hammerhead shark",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Caranguejo-ermitão",
+      "titulo": "en:Hermit crab",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Dugongo",
+      "titulo": "en:Dugong",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tartaruga-de-pente",
+      "titulo": "en:Hawksbill sea turtle",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Coral-cérebro",
+      "titulo": "en:Brain coral",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bolacha-da-praia",
+      "titulo": "en:Sand dollar",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Maré vermelha",
+      "titulo": "en:Red tide",
+      "camada": 2,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Peixe-mandarim",
+      "titulo": "en:Mandarinfish",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lírio-do-mar",
+      "titulo": "en:Crinoid",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mar dos Sargaços",
+      "titulo": "en:Sargasso Sea",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Peixe-anjo-imperador",
+      "titulo": "en:Emperor angelfish",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ipê-amarelo",
+      "titulo": "en:Handroanthus albus",
+      "camada": 1,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Musgo",
+      "titulo": "en:Moss",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Jabuticabeira",
+      "titulo": "en:Plinia cauliflora",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Pinha (cone de conífera)",
+      "titulo": "en:Conifer cone",
+      "camada": 1,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Planta-jarro",
+      "titulo": "en:Nepenthes",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Drósera",
+      "titulo": "en:Drosera",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Palmeira-imperial",
+      "titulo": "en:Roystonea oleracea",
+      "camada": 2,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Cavalinha",
+      "titulo": "en:Equisetum",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Cogumelo bioluminescente",
+      "titulo": "en:Mycena chlorophos",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Rabo-de-peru",
+      "titulo": "en:Trametes versicolor",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Estrela-da-terra",
+      "titulo": "en:Geastrum",
+      "camada": 3,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Figueira-estranguladora",
+      "titulo": "en:Strangler fig",
+      "camada": 3,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Superflorada do deserto",
+      "titulo": "en:Superbloom",
+      "camada": 3,
+      "destino": 2,
+      "status": "usada"
+    }
+  ]
+}
