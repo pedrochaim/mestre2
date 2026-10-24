@@ -1,0 +1,46 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz a função (contra o mau-olhado) e a cor, que praticamente entregam a resposta sem olhar a figura. A resposta também traz lista de variantes. Troquei a pista por outra que só ajuda (o país).",
+      "reescrita": {
+        "pergunta": "Que objeto de vidro, muito comum na Turquia, é este?",
+        "resposta": "Olho turco (também chamado olho grego)"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta pede o país, e os trechos confirmam que o festival é em Harbin, na China. O enunciado não vaza a resposta. Os distratores são países plausíveis com festivais de inverno e nenhum deles está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista \"posta em pares na entrada das casas\" é verdadeira (trecho), mas identifica o kadomatsu mesmo com a imagem coberta. Removi a pista.",
+      "reescrita": {
+        "pergunta": "Como se chama esta decoração japonesa de Ano-Novo?",
+        "resposta": "Kadomatsu",
+        "distratores": [
+          "Kagami mochi",
+          "Shimenawa",
+          "Hamaya"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Desfile americano de feriado, com balões gigantes\" entrega o desfile da Macy's sem olhar a figura. Troquei por uma pista que só ajuda (a cidade), já que há outros desfiles em Nova York.",
+      "reescrita": {
+        "pergunta": "Que desfile anual de Nova York é este?",
+        "resposta": "Desfile de Ação de Graças da Macy's"
+      }
+    }
+  ]
+}

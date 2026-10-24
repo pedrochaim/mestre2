@@ -1,0 +1,131 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida e sem texto do amuleto de vidro azul, inconfundível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que amuleto de vidro azul, usado contra o mau-olhado, é este?",
+      "resposta": "Olho grego (nazar, olho turco)",
+      "ancora": {
+        "nome": "Olho grego",
+        "descricao": "Amuleto de vidro em forma de olho azul, usado para proteger contra o mau-olhado, comum na Turquia e na Grécia.",
+        "variantes": [
+          "Olho turco",
+          "Nazar",
+          "Nazar boncuğu",
+          "Máti"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Retrato em primeiro plano de uma mulher comum, fora de uma festa pública."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem mostra só uma bola azul na neve, numa árvore. Não se reconhece uma caça aos ovos de Páscoa."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Fantasias de samba que também poderiam ser do carnaval do Rio. Nada na imagem identifica Notting Hill, então a resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Panorama noturno de esculturas de gelo iluminadas, típico de Harbin. Sem texto que entregue a resposta. Múltipla escolha por causa de festivais parecidos.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país acontece este festival de inverno?",
+      "resposta": "China",
+      "distratores": [
+        "Japão",
+        "Canadá",
+        "Rússia"
+      ],
+      "ancora": {
+        "nome": "Festival de Gelo de Harbin",
+        "descricao": "Festival anual de inverno com enormes esculturas de gelo e neve iluminadas, em Harbin, na China.",
+        "variantes": [
+          "Harbin Ice and Snow World",
+          "Festival Internacional de Esculturas de Gelo e Neve de Harbin"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto de um casal comum em primeiro plano, num casamento. São pessoas comuns, e não brincantes de festa pública."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Kadomatsu nítido, de bambu e pinheiro. O texto visível é só um barril e uma placa de extintor, que não entregam a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Como se chama esta decoração japonesa de Ano-Novo, posta em pares na entrada das casas?",
+      "resposta": "Kadomatsu",
+      "distratores": [
+        "Kagami mochi",
+        "Shimenawa",
+        "Hamaya"
+      ],
+      "ancora": {
+        "nome": "Kadomatsu",
+        "descricao": "Decoração japonesa de Ano-Novo feita de bambu cortado em diagonal e pinheiro, posta na entrada de casas e prédios.",
+        "variantes": [
+          "Pinheiro do portão",
+          "門松"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O bolo traz o texto '10th Birthday Wikidata', que é uma legenda de outro assunto e entrega o contexto."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto de moda com um modelo anônimo cortado. Uma jaqueta de couro genérica não permite uma pergunta com resposta única e não é um costume ou traje típico."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, tocando tambor. O contexto não é uma festa pública claramente identificada."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Retrato de perfil de uma pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto histórica do desfile, com balões gigantes no meio de uma rua de Nova York. O letreiro visível é de um restaurante e não entrega a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que desfile americano de feriado, com balões gigantes, é este?",
+      "resposta": "Desfile de Ação de Graças da Macy's",
+      "ancora": {
+        "nome": "Desfile de Ação de Graças da Macy's",
+        "descricao": "Desfile anual em Nova York, no Dia de Ação de Graças, famoso pelos balões gigantes de personagens e pelos carros alegóricos.",
+        "variantes": [
+          "Macy's Thanksgiving Day Parade"
+        ]
+      }
+    }
+  ]
+}

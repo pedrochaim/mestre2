@@ -327,7 +327,7 @@
       "titulo": "en:Nazar (amulet)",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Filtro dos sonhos",
@@ -376,7 +376,7 @@
       "titulo": "en:Belly dance",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Chapéu-panamá",
@@ -397,7 +397,7 @@
       "titulo": "en:Dashiki",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Niqab",
@@ -460,7 +460,7 @@
       "titulo": "en:Neck ring",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Hammam",
@@ -509,7 +509,7 @@
       "titulo": "en:Agbada",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Prato labial",
@@ -656,7 +656,7 @@
       "titulo": "en:Leather jacket",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Kabuki",
@@ -691,14 +691,14 @@
       "titulo": "en:Notting Hill Carnival",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Yi Peng",
       "titulo": "en:Yi Peng",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Coroa do Advento",
@@ -747,7 +747,7 @@
       "titulo": "en:Wai (gesture)",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Hachimaki",
@@ -782,7 +782,7 @@
       "titulo": "en:Tagelmust",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Huipil",
@@ -831,7 +831,7 @@
       "titulo": "en:Harbin International Ice and Snow Sculpture Festival",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Nebuta Matsuri",
@@ -853,6 +853,286 @@
       "camada": 3,
       "destino": 0,
       "status": "reprovada"
+    },
+    {
+      "nome": "Bolo de aniversário",
+      "titulo": "en:Birthday cake",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Chapéu de festa",
+      "titulo": "en:Party hat",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brinde",
+      "titulo": "en:Toast (honor)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tourada",
+      "titulo": "en:Bullfighting",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cosplay",
+      "titulo": "en:Cosplay",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caça aos ovos de Páscoa",
+      "titulo": "en:Egg hunt",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cancã",
+      "titulo": "en:Can-can",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Camisa havaiana",
+      "titulo": "en:Aloha shirt",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Moicano",
+      "titulo": "en:Mohawk hairstyle",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Dreadlocks",
+      "titulo": "en:Dreadlocks",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Blazer",
+      "titulo": "en:Blazer",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Legging",
+      "titulo": "en:Leggings",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tiara",
+      "titulo": "en:Tiara",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Piercing",
+      "titulo": "en:Body piercing",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Envelope vermelho",
+      "titulo": "en:Red envelope",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bar mitzvah",
+      "titulo": "en:Bar and bat mitzvah",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Casamento hindu",
+      "titulo": "en:Hindu wedding",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Desfile de Ação de Graças da Macy's",
+      "titulo": "en:Macy's Thanksgiving Day Parade",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Festival da Neve de Sapporo",
+      "titulo": "en:Sapporo Snow Festival",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sirtaki",
+      "titulo": "en:Sirtaki",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dança irlandesa",
+      "titulo": "en:Irish stepdance",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Royal Ascot",
+      "titulo": "en:Royal Ascot",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fascinator",
+      "titulo": "en:Fascinator",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Moda lolita",
+      "titulo": "en:Lolita fashion",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Moda punk",
+      "titulo": "en:Punk fashion",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Shalwar kameez",
+      "titulo": "en:Shalwar kameez",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mocassim",
+      "titulo": "en:Moccasin",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Penteado colmeia",
+      "titulo": "en:Beehive (hairstyle)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Kadomatsu",
+      "titulo": "en:Kadomatsu",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Teru teru bōzu",
+      "titulo": "en:Teru teru bōzu",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gion Matsuri",
+      "titulo": "en:Gion Matsuri",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Kecak",
+      "titulo": "en:Kecak",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hogmanay",
+      "titulo": "en:Hogmanay",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Sucá",
+      "titulo": "en:Sukkah",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Garba",
+      "titulo": "en:Garba (dance)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Charro",
+      "titulo": "en:Charro",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Sherwani",
+      "titulo": "en:Sherwani",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Talit",
+      "titulo": "en:Tallit",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Chonmage",
+      "titulo": "en:Chonmage",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Gravata bolo",
+      "titulo": "en:Bolo tie",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
     }
   ]
 }
