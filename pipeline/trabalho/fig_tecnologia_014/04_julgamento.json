@@ -1,0 +1,319 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Relógio inteligente",
+        "descricao": "Computador vestível de pulso, com tela sensível ao toque, que se conecta a um celular e roda aplicativos.",
+        "variantes": [
+          "Smartwatch"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marta",
+          "nome": "Marta",
+          "descricao": "Marta Vieira da Silva, jogadora eleita seis vezes a melhor do mundo.",
+          "variantes": [
+            "Marta Vieira da Silva"
+          ]
+        },
+        {
+          "id": "maratona",
+          "nome": "Maratona",
+          "descricao": "Corrida de longa distância do atletismo, com percurso oficial de 42,195 quilômetros.",
+          "variantes": [
+            "Marathon"
+          ]
+        },
+        {
+          "id": "maratona_grecia",
+          "nome": "Maratona (Grécia)",
+          "descricao": "Cidade e planície da Ática, na Grécia, onde os atenienses venceram os persas em 490 a.C.",
+          "variantes": [
+            "Marathon",
+            "Marathonas"
+          ]
+        },
+        {
+          "id": "smart_fortwo",
+          "nome": "Smart Fortwo",
+          "descricao": "Carro urbano de dois lugares da marca Smart, do grupo Mercedes-Benz, lançado em 1998.",
+          "variantes": [
+            "Smart"
+          ]
+        },
+        {
+          "id": "mariachi",
+          "nome": "Mariachi",
+          "descricao": "Conjunto musical tradicional mexicano com violinos, trompetes, violão, vihuela e guitarrón, em trajes de charro.",
+          "variantes": [
+            "Mariachis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Betamax",
+        "descricao": "Formato de videocassete analógico doméstico criado pela Sony, rival do VHS.",
+        "variantes": [
+          "Beta",
+          "Betacam doméstico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cao_domestico",
+          "nome": "Cão doméstico",
+          "descricao": "Canídeo domesticado pelo ser humano, classificado como Canis familiaris ou Canis lupus familiaris.",
+          "variantes": [
+            "Cachorro",
+            "Canis lupus familiaris",
+            "Dog"
+          ]
+        },
+        {
+          "id": "porquinho_da_india",
+          "nome": "Porquinho-da-índia",
+          "descricao": "Roedor doméstico da espécie Cavia porcellus, criado como animal de estimação e de laboratório.",
+          "variantes": [
+            "Cobaia",
+            "Cavia porcellus",
+            "Preá doméstico"
+          ]
+        },
+        {
+          "id": "monte_etna",
+          "nome": "Monte Etna",
+          "descricao": "Vulcão ativo da costa leste da Sicília, na Itália.",
+          "variantes": [
+            "Etna",
+            "Mount Etna",
+            "Mongibello"
+          ]
+        },
+        {
+          "id": "paisley",
+          "nome": "Paisley",
+          "descricao": "Estampa de motivos em forma de gota curvada, de origem persa, batizada com o nome de uma cidade têxtil escocesa",
+          "variantes": [
+            "Estampa paisley",
+            "Estampa caxemira",
+            "Buta"
+          ]
+        },
+        {
+          "id": "gol_baliza",
+          "nome": "Gol (baliza)",
+          "descricao": "Armação formada por duas traves e um travessão onde a bola deve entrar para valer um gol no futebol.",
+          "variantes": [
+            "Baliza",
+            "Meta",
+            "Goal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Motor elétrico",
+        "descricao": "Máquina que converte energia elétrica em energia mecânica por meio de campos magnéticos.",
+        "variantes": [
+          "Motor de indução",
+          "Motor trifásico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "trio_eletrico",
+          "nome": "Trio elétrico",
+          "descricao": "Caminhão com equipamento de som e músicos que arrasta foliões no carnaval, criado em Salvador.",
+          "variantes": [
+            "Fobica",
+            "Trio eléctrico",
+            "Trio"
+          ]
+        },
+        {
+          "id": "bonde",
+          "nome": "Bonde",
+          "descricao": "Veículo elétrico ou de tração animal que corre sobre trilhos nas ruas das cidades, nome usado no Brasil para o tram ou elétrico.",
+          "variantes": [
+            "Elétrico",
+            "Tram",
+            "Carril"
+          ]
+        },
+        {
+          "id": "bobina_de_inducao_ruhmkorff",
+          "nome": "Bobina de indução (Ruhmkorff)",
+          "descricao": "Tipo de transformador que produz pulsos de alta tensão a partir de corrente contínua, usando um interruptor vibratório; inventada em 1836.",
+          "variantes": [
+            "Bobina de Ruhmkorff",
+            "Bobina de indução",
+            "Indutório"
+          ]
+        },
+        {
+          "id": "ferro_de_passar",
+          "nome": "Ferro de passar",
+          "descricao": "Aparelho doméstico aquecido, usado para alisar roupas e tirar amassados.",
+          "variantes": [
+            "Ferro elétrico",
+            "Ferro a vapor",
+            "Ferro de engomar"
+          ]
+        },
+        {
+          "id": "periodo_triassico",
+          "nome": "Período Triássico",
+          "descricao": "Primeiro período da Era Mesozoica, de cerca de 252 a 201 milhões de anos atrás, quando surgiram os dinossauros.",
+          "variantes": [
+            "Triássico",
+            "Triásico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Acoplador acústico",
+        "descricao": "Dispositivo que transmite dados por som, em que o fone do telefone se encaixa, usado nos primeiros modems.",
+        "variantes": [
+          "Modem acústico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "suco_gastrico",
+          "nome": "Suco gástrico",
+          "descricao": "Líquido ácido produzido pelo estômago que participa da digestão.",
+          "variantes": [
+            "Ácido gástrico"
+          ]
+        },
+        {
+          "id": "contrabaixo",
+          "nome": "Contrabaixo",
+          "descricao": "Instrumento de cordas friccionadas, tocado de pé, o maior da família das cordas na orquestra.",
+          "variantes": [
+            "Contrabaixo acústico",
+            "Double bass"
+          ]
+        },
+        {
+          "id": "bambole",
+          "nome": "Bambolê",
+          "descricao": "Aro de plástico girado em volta da cintura, que virou febre nos Estados Unidos em 1958.",
+          "variantes": [
+            "Hula hoop",
+            "Bambolê de plástico"
+          ]
+        },
+        {
+          "id": "raposa_do_artico",
+          "nome": "Raposa-do-ártico",
+          "descricao": "Pequena raposa (Vulpes lagopus) nativa da tundra ártica, de pelagem que muda com as estações.",
+          "variantes": [
+            "Raposa-polar",
+            "Vulpes lagopus",
+            "Arctic fox"
+          ]
+        },
+        {
+          "id": "polo_aquatico",
+          "nome": "Polo aquático",
+          "descricao": "Esporte coletivo disputado na piscina, com gols nas extremidades.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Disjuntor",
+        "descricao": "Dispositivo de segurança que interrompe um circuito elétrico em caso de sobrecorrente e pode ser rearmado.",
+        "variantes": [
+          "Disjuntor termomagnético"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ditador_romano",
+          "nome": "Ditador romano",
+          "descricao": "Magistrado extraordinário da República romana nomeado com plenos poderes em tempos de crise.",
+          "variantes": [
+            "Dictator",
+            "Ditadura romana"
+          ]
+        },
+        {
+          "id": "bismuto",
+          "nome": "Bismuto",
+          "descricao": "Elemento químico de símbolo Bi e número atômico 83, metal que forma cristais escalonados iridescentes.",
+          "variantes": [
+            "Bi"
+          ]
+        },
+        {
+          "id": "burro",
+          "nome": "Burro",
+          "descricao": "Equino doméstico descendente do asno-selvagem-africano, usado como animal de carga.",
+          "variantes": [
+            "Asno",
+            "Jumento",
+            "Equus asinus"
+          ]
+        },
+        {
+          "id": "cristal_de_bismuto",
+          "nome": "Cristal de bismuto",
+          "descricao": "Cristais escalonados e iridescentes do elemento químico bismuto, obtidos por solidificação do metal fundido.",
+          "variantes": [
+            "Bismuto",
+            "Bismuth"
+          ]
+        },
+        {
+          "id": "hera",
+          "nome": "Hera",
+          "descricao": "Deusa grega do casamento, rainha dos deuses do Olimpo e esposa de Zeus.",
+          "variantes": [
+            "Juno"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um relógio inteligente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o formato Betamax."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Motor elétrico não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um acoplador acústico."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um disjuntor."
+    }
+  ]
+}

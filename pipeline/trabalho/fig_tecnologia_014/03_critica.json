@@ -1,0 +1,66 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado define a resposta (aparelho de pulso que funciona como computador); no teste da imagem coberta, dá para responder sem a figura. Reescrito sem a pista.",
+      "reescrita": {
+        "pergunta": "Que aparelho vestível é este?",
+        "resposta": "Relógio inteligente"
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O ano de 1975 aparece em ambos os trechos como o lançamento no Japão. O enunciado não nomeia o formato. Os distratores são anos próximos e plausíveis, e nenhum está correto. A pergunta é multipla, como exige a regra para respostas que são ano.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mostrada desmontada' não consta na descrição da figura e pode ser falso para esta foto. Foi removido, e o enunciado ficou curto e sem vazamento.",
+      "reescrita": {
+        "pergunta": "Que máquina elétrica é esta?",
+        "resposta": "Motor elétrico",
+        "distratores": [
+          "Gerador elétrico",
+          "Compressor de ar",
+          "Turbina a vapor"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a função da resposta (fone de telefone que se encaixa), o que entrega a resposta com a imagem coberta. Foi trocado por uma pista de época e uso mais vaga.",
+      "reescrita": {
+        "pergunta": "Que dispositivo é este, usado nos anos setenta e oitenta para ligar computadores a linhas telefônicas?",
+        "resposta": "Acoplador acústico",
+        "distratores": [
+          "Central telefônica",
+          "Interfone",
+          "Modem a cabo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Preso a um trilho' não está na descrição da figura. Além disso, o interruptor diferencial também é um dispositivo de proteção, então um distrator era defensável. Foram removidos o trilho e os distratores problemáticos.",
+      "reescrita": {
+        "pergunta": "Que dispositivo de proteção elétrica é este?",
+        "resposta": "Disjuntor",
+        "distratores": [
+          "Fusível",
+          "Contator",
+          "Transformador"
+        ]
+      }
+    }
+  ]
+}

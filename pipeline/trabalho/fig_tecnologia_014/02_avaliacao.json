@@ -1,0 +1,152 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Três relógios inteligentes nítidos, sem marca legível; reconhecimento direto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de aparelho de pulso é este, que funciona como um pequeno computador?",
+      "resposta": "Relógio inteligente",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Relógio inteligente",
+        "descricao": "Computador vestível de pulso, com tela sensível ao toque, que se conecta a um celular e roda aplicativos.",
+        "variantes": [
+          "Smartwatch"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fita Betamax reconhecível pelo formato da cartela; texto visível (Scotch, Key Video) não entrega o nome do formato. Resposta é ano, logo múltipla.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi lançado no Japão o formato desta fita de vídeo?",
+      "resposta": "1975",
+      "distratores": [
+        "1972",
+        "1978",
+        "1981"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Betamax",
+        "descricao": "Formato de videocassete analógico doméstico criado pela Sony, rival do VHS.",
+        "variantes": [
+          "Beta",
+          "Betacam doméstico"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Montagem de quatro cartões com texto em alemão ('Telefon-Wertkarte') que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Motor desmontado, com rotor e estator bem visíveis; a plaquinha de marca é ilegível e não entrega nada.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que máquina é esta, mostrada desmontada?",
+      "resposta": "Motor elétrico",
+      "distratores": [
+        "Bomba hidráulica",
+        "Compressor de ar",
+        "Turbina a vapor"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Motor elétrico",
+        "descricao": "Máquina que converte energia elétrica em energia mecânica por meio de campos magnéticos.",
+        "variantes": [
+          "Motor de indução",
+          "Motor trifásico"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Imagem com legendas e setas em inglês, e o objeto parece uma linha de retardo analógica, não uma memória de linha de retardo reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Rolo com texto visível (Fujifilm, 135, 'film for color prints') que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Textos visíveis (Answer On/Off, OGM, Panasonic) entregam a resposta e o aparelho pode ser confundido com um gravador de microfitas."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Acoplador acústico com fone de telefone encaixado em primeiro plano; sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que dispositivo é este, em que se encaixa o fone de um telefone?",
+      "resposta": "Acoplador acústico",
+      "distratores": [
+        "Central telefônica",
+        "Interfone",
+        "Modem de fibra"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Acoplador acústico",
+        "descricao": "Dispositivo que transmite dados por som, em que o fone do telefone se encaixa, usado nos primeiros modems.",
+        "variantes": [
+          "Modem acústico"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A imagem é um cartão virtual (N26, Mastercard), não um cartão de tarja magnética, e traz marcas e texto."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O nome 'Sega Saturn' aparece escrito no console e no controle, o que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Aparelho de cilindros giratórios em caixa de madeira, sem sinais claros de que seja os ossos de Napier; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Disjuntor bipolar em trilho DIN, nítido; a marca IEK e os códigos não entregam o nome do dispositivo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que dispositivo de proteção, preso a um trilho, é este?",
+      "resposta": "Disjuntor",
+      "distratores": [
+        "Fusível",
+        "Contator",
+        "Interruptor diferencial"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Disjuntor",
+        "descricao": "Dispositivo de segurança que interrompe um circuito elétrico em caso de sobrecorrente e pode ser rearmado.",
+        "variantes": [
+          "Disjuntor termomagnético"
+        ]
+      }
+    }
+  ]
+}

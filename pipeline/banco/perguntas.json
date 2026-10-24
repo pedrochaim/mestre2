@@ -294444,5 +294444,124 @@
       "autor": "Autor desconhecido",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q15503",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "relogio_inteligente",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que aparelho vestível é este?",
+    "resposta": "Relógio inteligente",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Smartwatch",
+      "https://pt.wikipedia.org/wiki/Rel%C3%B3gio_inteligente"
+    ],
+    "imagem": {
+      "arquivo": "q15503.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Smartwatches.jpeg",
+      "autor": "Ka Kit Pang",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q15504",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "betamax",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano foi lançado no Japão o formato desta fita de vídeo?",
+    "resposta": "1975",
+    "distratores": [
+      "1972",
+      "1978",
+      "1981"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Betamax",
+      "https://pt.wikipedia.org/wiki/Betamax"
+    ],
+    "imagem": {
+      "arquivo": "q15504.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Betamax_Tape_v2.jpg",
+      "autor": "Beta_Max_Tape.jpg: Original uploader was Stevo81989 at en.wikipedia derivative work: Ubcule (talk)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15505",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "motor_eletrico",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que máquina elétrica é esta?",
+    "resposta": "Motor elétrico",
+    "distratores": [
+      "Gerador elétrico",
+      "Compressor de ar",
+      "Turbina a vapor"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Electric_motor",
+      "https://pt.wikipedia.org/wiki/Motor_el%C3%A9trico"
+    ],
+    "imagem": {
+      "arquivo": "q15505.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stator_and_rotor_by_Zureks.JPG",
+      "autor": "Zureks",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15506",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "acoplador_acustico",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que dispositivo é este, usado nos anos setenta e oitenta para ligar computadores a linhas telefônicas?",
+    "resposta": "Acoplador acústico",
+    "distratores": [
+      "Central telefônica",
+      "Interfone",
+      "Modem a cabo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Acoustic_coupler"
+    ],
+    "imagem": {
+      "arquivo": "q15506.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Coupleur-accoustique-IMG_0298.JPG",
+      "autor": "Rama",
+      "licenca": "CC BY-SA 2.0 fr"
+    }
+  },
+  {
+    "id": "q15507",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "disjuntor",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que dispositivo de proteção elétrica é este?",
+    "resposta": "Disjuntor",
+    "distratores": [
+      "Fusível",
+      "Contator",
+      "Transformador"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Circuit_breaker",
+      "https://pt.wikipedia.org/wiki/Disjuntor"
+    ],
+    "imagem": {
+      "arquivo": "q15507.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Circuit_breaker_2_pole_on_DIN_rail.JPG",
+      "autor": "Kae",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]
