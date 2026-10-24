@@ -1,0 +1,126 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Nabo",
+        "descricao": "Raiz comestível Brassica rapa subsp. rapa, de polpa branca e topo arroxeado.",
+        "variantes": [
+          "Nabo branco",
+          "Turnip"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vinho",
+          "nome": "Vinho",
+          "descricao": "Bebida alcoólica feita da fermentação do suco de uva.",
+          "variantes": [
+            "Vinho tinto",
+            "Vinho branco"
+          ]
+        },
+        {
+          "id": "white_day",
+          "nome": "White Day",
+          "descricao": "Data japonesa em que os homens retribuem os presentes recebidos no Dia dos Namorados.",
+          "variantes": [
+            "Dia Branco",
+            "Howaito Dē"
+          ]
+        },
+        {
+          "id": "anu_branco",
+          "nome": "Anu-branco",
+          "descricao": "Ave gregária da família dos cuculídeos, de topete e cauda longa, de campos abertos da América do Sul.",
+          "variantes": [
+            "Guira guira",
+            "Guira cuckoo"
+          ]
+        },
+        {
+          "id": "barao_do_rio_branco",
+          "nome": "Barão do Rio Branco",
+          "descricao": "José Maria da Silva Paranhos Júnior, diplomata brasileiro que resolveu as fronteiras do país no início do século vinte.",
+          "variantes": [
+            "José Maria da Silva Paranhos Júnior",
+            "Rio Branco"
+          ]
+        },
+        {
+          "id": "rio_branco",
+          "nome": "Rio Branco",
+          "descricao": "Capital do estado do Acre, às margens do rio Acre.",
+          "variantes": [
+            "Rio Branco (Acre)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pimenta-da-jamaica",
+        "descricao": "Especiaria feita do fruto seco e verde da Pimenta dioica, árvore da América Central e das Antilhas.",
+        "variantes": [
+          "Allspice",
+          "Pimenta-de-caiena-doce",
+          "Pimenta-da-índia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "portal_da_india",
+          "nome": "Portal da Índia",
+          "descricao": "Arco monumental de basalto à beira-mar em Mumbai, na Índia, concluído em 1924.",
+          "variantes": [
+            "Gateway of India"
+          ]
+        },
+        {
+          "id": "independencia_da_india",
+          "nome": "Independência da Índia",
+          "descricao": "Fim do domínio britânico sobre a Índia, acompanhado da partição que criou o Paquistão.",
+          "variantes": [
+            "Partição da Índia"
+          ]
+        },
+        {
+          "id": "povoamento_da_america",
+          "nome": "Povoamento da América",
+          "descricao": "Chegada dos primeiros seres humanos ao continente americano, vindos da Ásia, no fim da última era glacial.",
+          "variantes": [
+            "Povoamento das Américas",
+            "Settlement of the Americas"
+          ]
+        },
+        {
+          "id": "calice",
+          "nome": "Cálice",
+          "descricao": "Canção de Chico Buarque e Gilberto Gil de 1973, censurada pela ditadura militar.",
+          "variantes": []
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nabo é uma raiz comestível; nenhuma candidata descreve essa entidade."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pimenta-da-jamaica é uma especiaria; as candidatas são lugares, eventos ou obras sem relação com ela."
+    }
+  ]
+}

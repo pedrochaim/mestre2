@@ -1,0 +1,34 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento e fato confirmado (nabo é raiz de polpa branca). Mas a cebola é um bulbo, não raiz, e o próprio enunciado ('raiz comestível') a elimina. Troquei por cenoura, que é raiz e crível.",
+      "reescrita": {
+        "pergunta": "Que raiz comestível é esta?",
+        "resposta": "Nabo",
+        "distratores": [
+          "Rabanete",
+          "Beterraba",
+          "Cenoura"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado: fruto verde seco, parecido com grãos grandes de pimenta. Mas o cravo-da-índia não tem forma de bolinha, então o enunciado já o elimina. Troquei por pimenta-rosa, que também é uma bolinha seca.",
+      "reescrita": {
+        "pergunta": "Que especiaria, em forma de bolinhas secas, é esta?",
+        "resposta": "Pimenta-da-jamaica",
+        "distratores": [
+          "Pimenta-do-reino",
+          "Zimbro",
+          "Pimenta-rosa"
+        ]
+      }
+    }
+  ]
+}

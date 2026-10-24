@@ -1,0 +1,103 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Pasta marrom num pote; poderia ser doce de leite, caramelo ou purê de frutas. Resposta não é única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pó vermelho-alaranjado sem contexto; confundível com pimenta em pó, colorau ou outros temperos."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Frutas amarelas num prato decorado com frutas pintadas (pera, cereja, uva); distrai e a fruta não é reconhecível com segurança."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Massa branca num prato; confundível com coalhada, queijo fresco ou mussarela."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Nabos de topo roxo, nítidos e com folhas, bem reconhecíveis. Múltipla escolha com raízes redondas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que raiz comestível é esta?",
+      "resposta": "Nabo",
+      "distratores": [
+        "Rabanete",
+        "Beterraba",
+        "Cebola"
+      ],
+      "ancora": {
+        "nome": "Nabo",
+        "descricao": "Raiz comestível Brassica rapa subsp. rapa, de polpa branca e topo arroxeado.",
+        "variantes": [
+          "Nabo branco",
+          "Turnip"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Mostra só flores e folhas, sem a fruta; planta obscura, pouco reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O primeiro plano é uma ave (sanhaço) comendo a pimenta; mistura assuntos e a pimenta não é a entidade clara."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto escura de arbusto com frutinhas vermelhas; confundível com airela-vermelha e outras bagas, pouco legível no celular."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Copo de líquido branco; poderia ser leite, bebida vegetal ou iogurte líquido. Resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Planta rasteira com frutos pequenos espinhosos, pouco legível e difícil de reconhecer; confundível com outras cucurbitáceas."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bolinhas marrons rugosas sobre fundo branco, boa nitidez; a escala em cm não entrega a resposta. Múltipla escolha com especiarias parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que especiaria, em forma de bolinhas secas, é esta?",
+      "resposta": "Pimenta-da-jamaica",
+      "distratores": [
+        "Pimenta-do-reino",
+        "Zimbro",
+        "Cravo-da-índia"
+      ],
+      "ancora": {
+        "nome": "Pimenta-da-jamaica",
+        "descricao": "Especiaria feita do fruto seco e verde da Pimenta dioica, árvore da América Central e das Antilhas.",
+        "variantes": [
+          "Allspice",
+          "Pimenta-de-caiena-doce",
+          "Pimenta-da-índia"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A embalagem mostra 'Requeijão do Campo' legível, o que entrega a resposta; além disso é um queijo fresco com ervas, não o requeijão cremoso."
+    }
+  ]
+}
