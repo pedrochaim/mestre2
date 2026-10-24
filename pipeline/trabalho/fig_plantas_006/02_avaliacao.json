@@ -1,0 +1,218 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Prancha com várias espécies de cacto numeradas, ilustração antiga; vários assuntos e números na imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Árvore com flores rosadas e base engrossada, clara e reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que planta de flores rosadas é esta?",
+      "resposta": "Rosa-do-deserto",
+      "distratores": [
+        "Azaleia",
+        "Jasmim-manga",
+        "Oleandro"
+      ],
+      "ancora": {
+        "nome": "Rosa-do-deserto",
+        "descricao": "Planta suculenta africana Adenium obesum, de caule inchado e flores rosadas.",
+        "variantes": [
+          "Adenium obesum",
+          "Adenium"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Flor de estames longos e amarelos, característica do pequi; múltipla para ser justa.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que fruto brasileiro nasce desta flor?",
+      "resposta": "Pequi",
+      "distratores": [
+        "Baru",
+        "Cagaita",
+        "Mangaba"
+      ],
+      "ancora": {
+        "nome": "Pequi",
+        "descricao": "Árvore do Cerrado Caryocar brasiliense, de flores com muitos estames e fruto comestível.",
+        "variantes": [
+          "Caryocar brasiliense",
+          "Piqui"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Prancha ilustrada de Haeckel com várias espécies de musgo; ilustração para algo que pode ser fotografado."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Flor de lírio alaranjada com pintas, bem visível e reconhecível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta flor é altamente tóxica para qual animal doméstico?",
+      "resposta": "Gato",
+      "ancora": {
+        "nome": "Lírio",
+        "descricao": "Flor do gênero Lilium, de pétalas grandes que crescem de bulbos.",
+        "variantes": [
+          "Lilium",
+          "Lírio verdadeiro"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Reishi com chapéus em forma de leque, avermelhados e envernizados, bem visíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fungo é este?",
+      "resposta": "Reishi (lingzhi)",
+      "ancora": {
+        "nome": "Reishi",
+        "descricao": "Fungo Ganoderma sichuanense, de chapéu avermelhado e envernizado, usado na medicina tradicional chinesa.",
+        "variantes": [
+          "Lingzhi",
+          "Ganoderma lucidum",
+          "Ganoderma sichuanense"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pinheiros bem visíveis, de copa irregular e casca em placas; múltipla para evitar confusão com outras coníferas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de árvore é a dominante nesta paisagem?",
+      "resposta": "Pinheiro",
+      "distratores": [
+        "Abeto",
+        "Cipreste",
+        "Cedro"
+      ],
+      "ancora": {
+        "nome": "Pinheiro",
+        "descricao": "Árvore conífera do gênero Pinus, de folhas em forma de agulhas e sementes em cones lenhosos.",
+        "variantes": [
+          "Pinus",
+          "Pinheiro-silvestre"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Prancha ilustrada de Haeckel com vários liquens; ilustração e vários assuntos."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Inflorescência de protea-rei nítida e inconfundível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Esta flor é o símbolo nacional de qual país?",
+      "resposta": "África do Sul",
+      "ancora": {
+        "nome": "Protea-rei",
+        "descricao": "Planta Protea cynaroides, de enorme inflorescência com brácteas rosa-avermelhadas, típica do fynbos sul-africano.",
+        "variantes": [
+          "Protea cynaroides",
+          "Protea gigante",
+          "King protea"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Maçã vermelha e verde em palha, clara.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que região do mundo se originou a árvore desta fruta?",
+      "resposta": "Ásia Central",
+      "distratores": [
+        "Oriente Médio",
+        "Sudeste Asiático",
+        "Europa Oriental"
+      ],
+      "ancora": {
+        "nome": "Maçã",
+        "descricao": "Fruto redondo e comestível da macieira, Malus domestica.",
+        "variantes": [
+          "Maçã vermelha",
+          "Malus domestica"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fruto verde coberto de espinhos moles, pendurado na árvore, típico da graviola.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta tropical é esta?",
+      "resposta": "Graviola",
+      "ancora": {
+        "nome": "Graviola",
+        "descricao": "Fruto da árvore Annona muricata, verde, espinhoso e de polpa branca e cremosa.",
+        "variantes": [
+          "Annona muricata",
+          "Guanábana",
+          "Soursop"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Flor tubular vermelha pendente, típica de Fuchsia, nítida.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que flor pendente é esta?",
+      "resposta": "Brinco-de-princesa",
+      "distratores": [
+        "Hibisco",
+        "Lanterna-chinesa",
+        "Amarílis"
+      ],
+      "ancora": {
+        "nome": "Brinco-de-princesa",
+        "descricao": "Planta do gênero Fuchsia, de flores pendentes tubulares vermelhas.",
+        "variantes": [
+          "Fúcsia",
+          "Fuchsia"
+        ]
+      }
+    }
+  ]
+}

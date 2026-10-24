@@ -1,0 +1,78 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza, e a figura (caule inchado, flores rosadas) distingue de distratores plausíveis. Flores rosadas confirmadas no trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pequi é fruto brasileiro do Cerrado, e a árvore com flores de muitos estames dá o fruto. Sem vazamento, e os distratores são frutos do Cerrado que não vêm desta flor.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É amplamente documentado que lírios do gênero Lilium são altamente tóxicos para gatos. O enunciado não vaza e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto. O trecho confirma que reishi e lingzhi são o mesmo fungo, e o enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado fala em 'paisagem' e em árvore 'dominante', mas `mostra` descreve só a árvore. Isso não dá para conferir. Pinheiro, abeto e cedro são coníferas muito parecidas, então os distratores podem descrever a imagem e a resposta fica ambígua.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que a protea-rei é a flor nacional da África do Sul, e 'símbolo nacional' é impreciso (há outros símbolos, como o springbok). Trocar por 'flor nacional' deixa o enunciado literalmente verdadeiro.",
+      "reescrita": {
+        "pergunta": "Esta flor é a flor nacional de qual país?",
+        "resposta": "África do Sul"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia em português diz 'Ásia Ocidental', então o distrator 'Oriente Médio' é defensável e torna a pergunta ambígua. Substituí por uma região claramente errada.",
+      "reescrita": {
+        "pergunta": "Em que região do mundo se originou a árvore desta fruta?",
+        "resposta": "Ásia Central",
+        "distratores": [
+          "Norte da África",
+          "Sudeste Asiático",
+          "Europa Oriental"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 simples. Fruta tropical é pista que não entrega a resposta, e a graviola é reconhecível pelo fruto verde e espinhoso.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma que brinco-de-princesa é o nome comum de espécies de Fuchsia, de flores pendentes. 'Pendente' ajuda sem entregar. Os distratores são visualmente parecidos, mas a figura (tubular vermelha) os exclui.",
+      "reescrita": null
+    }
+  ]
+}

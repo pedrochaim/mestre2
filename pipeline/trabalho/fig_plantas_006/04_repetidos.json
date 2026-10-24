@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que região do mundo se originou a árvore desta fruta?",
+        "resposta": "Ásia Central"
+      },
+      "existentes": [
+        {
+          "id": "q01851",
+          "pergunta": "Que fruta é esta?",
+          "resposta": "Maçã"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que fruta tropical é esta?",
+        "resposta": "Graviola"
+      },
+      "existentes": [
+        {
+          "id": "q02768",
+          "pergunta": "Que fruta é esta?",
+          "resposta": "Graviola"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta a identidade da fruta (maçã); a nova pergunta a região de origem da árvore, outro fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação da mesma fruta (graviola) pela imagem, com a mesma resposta."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q02768",
+      "motivo": "Ambas pedem a identificação da mesma fruta (graviola) pela imagem, com a mesma resposta."
+    }
+  ]
+}
