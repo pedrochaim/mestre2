@@ -1,0 +1,128 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A lanterna traz 'TOKYO 2020' em relevo, o que entrega a edição, e a pergunta sobre onde a chama é acesa seria respondida sem a imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem nome visível; só há logotipos de patrocinadores. A pergunta pede o país, depois de reconhecê-lo.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Por qual país compete este atleta olímpico do salto com vara?",
+      "resposta": "Suécia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Mondo Duplantis",
+        "descricao": "Atleta sueco-americano do salto com vara, bicampeão olímpico (2020 e 2024) e recordista mundial.",
+        "variantes": [
+          "Armand Duplantis",
+          "Armand Gustav Duplantis"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto escura e de baixa qualidade, com o atleta pouco reconhecível pelo rosto; a resposta não é única nem legível no celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Aparecem pessoas comuns em primeiro plano, e a camisa traz o texto 'RICE'. Nada indica um contexto olímpico."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do estádio olímpico de Londres. O texto 'West Ham United' é pequeno e não entrega a edição dos Jogos.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este estádio foi construído para sediar a abertura de qual edição dos Jogos Olímpicos?",
+      "resposta": "Londres 2012",
+      "distratores": [
+        "Pequim 2008",
+        "Atenas 2004",
+        "Rio 2016"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio Olímpico de Londres",
+        "descricao": "Estádio do Parque Olímpico Rainha Elizabeth, em Stratford, Londres, construído para os Jogos de 2012 e hoje casa do West Ham United.",
+        "variantes": [
+          "London Stadium",
+          "Olympic Stadium de Londres"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Mostra um jovem ginasta comum em primeiro plano, com número de competidor e marca visíveis. Não é figura pública, e a pergunta 'quando' não se liga à imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem nome escrito (só 'USA' e Nike na jaqueta). Boa para múltipla escolha com ginastas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta ginasta olímpica?",
+      "resposta": "Simone Biles",
+      "distratores": [
+        "Rebeca Andrade",
+        "Sunisa Lee",
+        "Gabby Douglas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Simone Biles",
+        "descricao": "Ginasta artística americana, a mais premiada da história da modalidade, com 11 medalhas olímpicas.",
+        "variantes": [
+          "Simone Arianne Biles"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "É uma escalada em rocha ao ar livre, sem contexto olímpico. Pode ser escalada livre, tradicional ou boulder, então a resposta não é única."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O letreiro 'BIATHLON ANTERSELVA' está visível e entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto muito borrada, com vários atletas. Não dá para saber se é prova de 100 metros, e a resposta não é única."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem nome visível; só o logotipo da marca no traje. A pergunta pede o estado de origem, depois de reconhecê-lo.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que estado brasileiro é este surfista?",
+      "resposta": "Rio Grande do Norte",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ítalo Ferreira",
+        "descricao": "Surfista brasileiro de Baía Formosa (RN), campeão mundial em 2019 e medalhista de ouro olímpico em Tóquio 2020.",
+        "variantes": [
+          "Ítalo Ferreira da Costa"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto histórica de um salto em distância, não do decatlo como um todo. Não é reconhecível nem tem resposta única para a pergunta sobre o decatlo."
+    }
+  ]
+}

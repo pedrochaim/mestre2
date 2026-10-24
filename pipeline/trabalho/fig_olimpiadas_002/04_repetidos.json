@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que estado brasileiro é este surfista?",
+        "resposta": "Rio Grande do Norte"
+      },
+      "existentes": [
+        {
+          "id": "q08446",
+          "pergunta": "Quem é este surfista brasileiro?",
+          "resposta": "Ítalo Ferreira"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta a identidade do surfista; a nova pergunta o estado de origem. Fatos diferentes, e saber o nome não implica responder o estado de forma direta."
+    }
+  ]
+}

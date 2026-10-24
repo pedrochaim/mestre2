@@ -722,9 +722,10 @@
     "fig_festas_costumes_005",
     "fig_hominideos_002",
     "fig_astronomia_011",
-    "fig_ecossistemas_002"
+    "fig_ecossistemas_002",
+    "fig_olimpiadas_002"
   ],
-  "maior_id": 15109,
+  "maior_id": 15113,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1503,14 +1504,16 @@
     },
     "olimpiadas": {
       "familias": {
-        "o_que_e": 2,
-        "quando": 1
+        "o_que_e": 3,
+        "quando": 2,
+        "onde": 2
       },
       "niveis": {
-        "1": 1,
-        "2": 2
+        "1": 3,
+        "2": 3,
+        "3": 1
       },
-      "registradas": 3
+      "registradas": 7
     },
     "hominideos": {
       "familias": {

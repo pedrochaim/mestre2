@@ -1,0 +1,40 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que ele compete pela Suécia. O enunciado não entrega a resposta nem o nome, e a figura é necessária para reconhecer o atleta. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta está certa, mas 'construído para sediar a abertura' é impreciso. O estádio foi construído para os Jogos como um todo, com cerimônias de abertura e encerramento e atletismo. Reescrevi com uma afirmação literalmente verdadeira.",
+      "reescrita": {
+        "pergunta": "Este estádio foi o palco principal de qual edição dos Jogos Olímpicos?",
+        "resposta": "Londres 2012",
+        "distratores": [
+          "Pequim 2008",
+          "Atenas 2004",
+          "Rio 2016"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é de reconhecimento e o enunciado não entrega o nome. Os distratores são ginastas de mesma categoria e nenhum deles é a pessoa da figura. Todos têm no máximo 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que ele é de Baía Formosa, no Rio Grande do Norte. O enunciado não vaza a resposta e depende do reconhecimento da figura. A resposta é única.",
+      "reescrita": null
+    }
+  ]
+}
