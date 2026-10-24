@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este brinquedo de bola e cordão teve sua era de ouro na França no reinado de Luís quinze. Que nome ele tem em francês?",
+        "resposta": "Bilboquet"
+      },
+      "existentes": [
+        {
+          "id": "q06902",
+          "pergunta": "Que brinquedo tradicional de madeira, com cordão, é este?",
+          "resposta": "Bilboquê"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem o nome do brinquedo de bola e cordão (bilboquê/bilboquet); quem soubesse uma responderia a outra.",
+      "id_existente": "q06902"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bilboquê",
+        "descricao": "Brinquedo tradicional em que o jogador tenta encaixar uma bola presa por um cordão a um cabo com copo ou pino.",
+        "variantes": [
+          "Bilboquet",
+          "Cup-and-ball",
+          "Balero"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bilboque",
+          "nome": "Bilboquê",
+          "descricao": "Brinquedo tradicional de madeira com um cabo, uma bola presa por cordão e um copo ou espeto para encaixá-la.",
+          "variantes": [
+            "Bilboquet",
+            "Cup-and-ball"
+          ]
+        },
+        {
+          "id": "bolero_de_ravel",
+          "nome": "Bolero de Ravel",
+          "descricao": "Obra orquestral de Maurice Ravel, de 1928, construída sobre um único ritmo repetido.",
+          "variantes": [
+            "Boléro"
+          ]
+        },
+        {
+          "id": "balder",
+          "nome": "Balder",
+          "descricao": "Deus nórdico da luz e da beleza, filho de Odin e Frigg, morto por artimanha de Loki.",
+          "variantes": [
+            "Baldr",
+            "Baldur"
+          ]
+        },
+        {
+          "id": "allegro",
+          "nome": "Allegro",
+          "descricao": "Indicação italiana de andamento usada nas partituras para pedir um tempo rápido e animado.",
+          "variantes": []
+        },
+        {
+          "id": "balao_de_ar_quente",
+          "nome": "Balão de ar quente",
+          "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+          "variantes": [
+            "Balão",
+            "Balão aerostático",
+            "Montgolfière",
+            "Hot air balloon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cartas Zener",
+        "descricao": "Baralho de cinco símbolos (círculo, cruz, ondas, quadrado e estrela) usado em experimentos de percepção extrassensorial.",
+        "variantes": [
+          "Cartas de Zener",
+          "Zener cards",
+          "Cartas ESP"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carta_de_energia_card_game_pokemon",
+          "nome": "Carta de Energia (card game Pokémon)",
+          "descricao": "Tipo de carta do card game Pokémon ligada aos pokémon para pagar o custo dos ataques.",
+          "variantes": [
+            "Energy card",
+            "Energia"
+          ]
+        },
+        {
+          "id": "premio_eisner",
+          "nome": "Prêmio Eisner",
+          "descricao": "Premiação anual dos quadrinhos americanos entregue na Comic-Con de San Diego",
+          "variantes": [
+            "Eisner Awards",
+            "Will Eisner Comic Industry Awards"
+          ]
+        },
+        {
+          "id": "cataratas_kaieteur",
+          "nome": "Cataratas Kaieteur",
+          "descricao": "Queda d'água de 226 metros no Rio Potaro, no Parque Nacional Kaieteur, na Guiana.",
+          "variantes": [
+            "Kaieteur Falls",
+            "Cataratas de Kaieteur"
+          ]
+        },
+        {
+          "id": "diners_club",
+          "nome": "Diners Club",
+          "descricao": "Cartão de pagamento lançado nos Estados Unidos em 1950, precursor dos cartões de crédito modernos.",
+          "variantes": [
+            "Diners Club International",
+            "Cartão Diners"
+          ]
+        },
+        {
+          "id": "hanafuda",
+          "nome": "Hanafuda",
+          "descricao": "Baralho tradicional japonês com ilustrações de flores, plantas e animais dos doze meses do ano.",
+          "variantes": [
+            "Cartas de flores"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Patolli",
+        "descricao": "Antigo jogo de tabuleiro mesoamericano, de estratégia e sorte, jogado em um tabuleiro em forma de cruz com feijões como dados.",
+        "variantes": [
+          "Patole"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "atol",
+          "nome": "Atol",
+          "descricao": "Recife de coral em forma de anel que cerca uma lagoa, típico de mares tropicais.",
+          "variantes": [
+            "Atoll",
+            "Atóis"
+          ]
+        },
+        {
+          "id": "pole_position",
+          "nome": "Pole position",
+          "descricao": "Primeira posição no grid de largada de uma corrida, conquistada em geral pelo mais rápido no treino classificatório.",
+          "variantes": [
+            "Pole"
+          ]
+        },
+        {
+          "id": "patolino",
+          "nome": "Patolino",
+          "descricao": "Pato preto e escandaloso dos desenhos Looney Tunes, da Warner Bros.",
+          "variantes": [
+            "Daffy Duck"
+          ]
+        },
+        {
+          "id": "ptolomeu",
+          "nome": "Ptolomeu",
+          "descricao": "Astrônomo, geógrafo e astrólogo greco-romano do século dois, autor do Almagesto.",
+          "variantes": [
+            "Cláudio Ptolomeu",
+            "Claudius Ptolemy",
+            "Ptolemy"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "bilboque",
+      "motivo": "Mesmo brinquedo (bilboquê/cup-and-ball), descrições equivalentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o baralho Zener; Hanafuda é outro baralho."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Patolli é um jogo mesoamericano; nenhuma candidata corresponde."
+    }
+  ]
+}

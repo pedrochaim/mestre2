@@ -1,0 +1,117 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, de um bilboquê de madeira com cordão; pergunta vai além do nome pelo nome francês histórico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este brinquedo tradicional de madeira, com cordão, foi muito popular na França antiga. Que nome francês ele tinha?",
+      "resposta": "Bilboquet",
+      "distratores": [
+        "Diabolo",
+        "Toupie",
+        "Cerceau"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bilboquê",
+        "descricao": "Brinquedo tradicional em que o jogador tenta encaixar uma bola presa por um cordão a um cabo com copo ou pino.",
+        "variantes": [
+          "Bilboquet",
+          "Cup-and-ball",
+          "Balero"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A carta traz texto visível (XIII e 'DER TOD'), que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Retrato de um enxadrista pouco reconhecível pelo rosto para o público geral; a pergunta dependeria só de reconhecer a pessoa, e o fato mais marcante (campeão em exercício) é sensível ao tempo."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Diagrama com legendas de texto (Double ring, Triple ring, Bull, Bull's eye) e números; não é uma foto limpa."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Montagem de 40 cartas com texto visível ('BARAJA', 'NAIPES LIBRES') e emblema de software livre no verso e nos ouros, o que confunde e entrega parte da resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cinco cartas Zener nítidas, sem texto, com símbolos inconfundíveis; a pergunta exige conhecer o uso das cartas.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Estas cartas foram criadas na década de mil novecentos e trinta para experimentos sobre qual suposto fenômeno?",
+      "resposta": "Percepção extrassensorial",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cartas Zener",
+        "descricao": "Baralho de cinco símbolos (círculo, cruz, ondas, quadrado e estrela) usado em experimentos de percepção extrassensorial.",
+        "variantes": [
+          "Cartas de Zener",
+          "Zener cards",
+          "Cartas ESP"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto de pessoas comuns em primeiro plano, em um bar, com camisetas com ícones e texto."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto histórica com legenda visível '\"CRAPS\" AT CAMP', que entrega a resposta, e soldados anônimos em primeiro plano."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A caixa do jogo mostra 'HEX' em letras grandes e há folha de regras com texto, o que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O foco é um jogador em primeiro plano e a resposta é ambígua (sinuca, bilhar americano, pool); há ainda texto de patrocinador ao fundo."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A carta traz o texto 'THE DEVIL' e o número XV, que entregam a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Ilustração de códice asteca sem texto, com tabuleiro em X e dois jogadores; reconhecível e adequada para uma pergunta que vai além do nome do jogo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Os conquistadores espanhóis relataram que um soberano gostava de ver seus nobres jogarem este jogo na corte. Quem era ele?",
+      "resposta": "Moctezuma II",
+      "distratores": [
+        "Cuauhtémoc",
+        "Atahualpa",
+        "Pachacútec"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Patolli",
+        "descricao": "Antigo jogo de tabuleiro mesoamericano, de estratégia e sorte, jogado em um tabuleiro em forma de cruz com feijões como dados.",
+        "variantes": [
+          "Patole"
+        ]
+      }
+    }
+  ]
+}

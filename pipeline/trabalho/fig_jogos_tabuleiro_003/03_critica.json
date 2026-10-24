@@ -1,0 +1,36 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"França antiga\" é impreciso: os trechos falam do século dezesseis, da era de ouro com Luís quinze e da popularidade nos séculos dezoito e dezenove. \"De madeira, com cordão\" também descreve o objeto sem necessidade. A reescrita usa um fato dos trechos e mantém a pergunta pelo nome francês.",
+      "reescrita": {
+        "pergunta": "Este brinquedo de bola e cordão teve sua era de ouro na França no reinado de Luís quinze. Que nome ele tem em francês?",
+        "resposta": "Bilboquet",
+        "distratores": [
+          "Diabolo",
+          "Toupie",
+          "Cerceau"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Sem a imagem, o enunciado quase entrega a resposta, e \"suposto fenômeno\" admite telepatia ou clarividência além de percepção extrassensorial. Os trechos também divergem sobre a data (início dos anos trinta no inglês, 1920 no português). A reescrita pergunta quem as desenhou, o que exige reconhecer as cartas, e usa o trecho em inglês.",
+      "reescrita": {
+        "pergunta": "Estas cartas foram desenhadas no início da década de mil novecentos e trinta, para experimentos com o parapsicólogo J. B. Rhine. Que psicólogo da percepção as criou?",
+        "resposta": "Karl Zener"
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em inglês afirma que os conquistadores relataram que Moctezuma Xocoyotzin (Moctezuma II) gostava de ver seus nobres jogarem patolli na corte. O enunciado não nomeia o jogo e a resposta é única. Os distratores são governantes mesoamericanos ou andinos críveis, com no máximo 4 palavras.",
+      "reescrita": null
+    }
+  ]
+}
