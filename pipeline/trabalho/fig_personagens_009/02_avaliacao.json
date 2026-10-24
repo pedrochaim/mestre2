@@ -1,0 +1,216 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida do personagem em cena, sem texto; reconhecível pelo figurino.",
+      "tipo": "aberta",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "destino": 3,
+      "pergunta": "Que ator interpreta este pirata nos filmes?",
+      "resposta": "Johnny Depp",
+      "ancora": {
+        "nome": "Jack Sparrow",
+        "descricao": "Pirata protagonista da franquia de filmes Piratas do Caribe.",
+        "variantes": [
+          "Capitão Jack Sparrow"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta com contorno inconfundível (orelhas, cauda longa, braço estendido).",
+      "usar_silhueta": true,
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Este pokémon foi criado artificialmente a partir do DNA de qual outro pokémon?",
+      "resposta": "Mew",
+      "distratores": [
+        "Celebi",
+        "Jirachi",
+        "Ditto"
+      ],
+      "ancora": {
+        "nome": "Mewtwo",
+        "descricao": "Pokémon lendário do tipo psíquico, criado artificialmente a partir do DNA de Mew.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem traz assinatura 'Mauricio' e o texto '© MSP - Brasil', que entregam autoria e origem; além disso o personagem aparece junto de um pássaro."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta reconhecível pelo topete, cauda e pernas longas; personagem sozinho.",
+      "usar_silhueta": true,
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 3,
+      "pergunta": "Que personagem tenta, sem sucesso, apanhar este corredor nos desenhos animados?",
+      "resposta": "Coiote",
+      "distratores": [
+        "Frajola",
+        "Hortelino Troca-Letras",
+        "Taz"
+      ],
+      "ancora": {
+        "nome": "Papa-Léguas",
+        "descricao": "Ave corredora azul dos desenhos animados Looney Tunes, perseguida pelo Coiote.",
+        "variantes": [
+          "Road Runner",
+          "Corre-Corre"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem clara do rosto do personagem, sem texto; símbolo de Konoha na testeira não entrega o nome.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Quem é o rival e melhor amigo deste personagem?",
+      "resposta": "Naruto Uzumaki",
+      "ancora": {
+        "nome": "Sasuke Uchiha",
+        "descricao": "Ninja do clã Uchiha, membro do Time 7 e rival de Naruto no mangá e anime Naruto.",
+        "variantes": [
+          "Uchiha Sasuke"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Duas versões (mangá e anime) do mesmo personagem de uma única obra, sem texto; a resposta vale para qualquer cavaleiro de ouro.",
+      "tipo": "aberta",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que mangaká criou a obra da qual vem este personagem?",
+      "resposta": "Masami Kurumada",
+      "ancora": {
+        "nome": "Mu de Áries",
+        "descricao": "Cavaleiro de Ouro de Áries na obra Os Cavaleiros do Zodíaco.",
+        "variantes": [
+          "Aries Mu",
+          "Mu"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arte nítida, sem texto, personagem reconhecível pelo elmo alado, cabelo loiro e martelo.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Como se chama o martelo deste personagem?",
+      "resposta": "Mjolnir",
+      "distratores": [
+        "Stormbreaker",
+        "Gungnir",
+        "Gjallarhorn"
+      ],
+      "ancora": {
+        "nome": "Thor",
+        "descricao": "Deus do trovão asgardiano dos quadrinhos da Marvel, filho de Odin.",
+        "variantes": [
+          "Thor Odinson"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Personagem sozinho, de corpo inteiro; a silhueta do cabelão enorme e das botas é característica.",
+      "usar_silhueta": true,
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 2,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Irmão do Jorel",
+      "ancora": {
+        "nome": "Irmão do Jorel",
+        "descricao": "Protagonista caçula da série de animação brasileira Irmão do Jorel.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Arte de capa nítida do vilão, sem texto legível; rosto inconfundível.",
+      "tipo": "multipla",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Que artista criou este vilão dos quadrinhos?",
+      "resposta": "Jack Kirby",
+      "distratores": [
+        "Stan Lee",
+        "Bob Kane",
+        "Joe Simon"
+      ],
+      "ancora": {
+        "nome": "Darkseid",
+        "descricao": "Tirano do planeta Apokolips, vilão da DC Comics.",
+        "variantes": [
+          "Uxas"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto de divulgação nítida do personagem com chapéu, suéter listrado e luva de lâminas; sem texto.",
+      "tipo": "aberta",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "destino": 3,
+      "pergunta": "Que ator deu vida a este personagem no filme original, de 1984?",
+      "resposta": "Robert Englund",
+      "ancora": {
+        "nome": "Freddy Krueger",
+        "descricao": "Assassino de rosto queimado e luva de lâminas da franquia de terror A Hora do Pesadelo.",
+        "variantes": [
+          "Freddy"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Arte clara do druida preparando a poção, sem texto; reconhecível.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Panoramix",
+      "ancora": {
+        "nome": "Panoramix",
+        "descricao": "Druida da aldeia gaulesa dos quadrinhos de Asterix, criador da poção mágica.",
+        "variantes": [
+          "Getafix",
+          "Magigamix"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "É uma tela de título com o nome 'Radical Chic' escrito e logotipo da Globo; proibido e entrega a resposta."
+    }
+  ]
+}

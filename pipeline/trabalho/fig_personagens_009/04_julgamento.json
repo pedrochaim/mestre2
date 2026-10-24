@@ -1,0 +1,421 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Jack Sparrow",
+        "descricao": "Pirata protagonista da franquia de filmes Piratas do Caribe.",
+        "variantes": [
+          "Capitão Jack Sparrow"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rendicao_do_japao",
+          "nome": "Rendição do Japão",
+          "descricao": "Fim da guerra no Pacífico, anunciado pelo Japão em agosto de 1945 e formalizado em 2 de setembro de 1945.",
+          "variantes": [
+            "Capitulação do Japão"
+          ]
+        },
+        {
+          "id": "captain_falcon",
+          "nome": "Captain Falcon",
+          "descricao": "Piloto e caçador de recompensas de capacete vermelho, protagonista da série de corrida F-Zero.",
+          "variantes": [
+            "Capitão Falcon"
+          ]
+        },
+        {
+          "id": "spearow",
+          "nome": "Spearow",
+          "descricao": "Pokémon dos tipos Normal e Voador, número 21 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "super_campeoes",
+          "nome": "Super Campeões",
+          "descricao": "Mangá e anime de futebol de Yoichi Takahashi, protagonizado por Tsubasa Ozora.",
+          "variantes": [
+            "Captain Tsubasa",
+            "Capitão Tsubasa"
+          ]
+        },
+        {
+          "id": "capitao_america",
+          "nome": "Capitão América",
+          "descricao": "Super-herói patriótico criado por Joe Simon e Jack Kirby, estreou em 1941",
+          "variantes": [
+            "Captain America",
+            "Steve Rogers"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mewtwo",
+        "descricao": "Pokémon lendário do tipo psíquico, criado artificialmente a partir do DNA de Mew.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "mewtwo",
+          "nome": "Mewtwo",
+          "descricao": "Pokémon do tipo Psíquico, número 150 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "metro",
+          "nome": "Metro",
+          "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito.",
+          "variantes": [
+            "Metro (unidade)",
+            "Metre",
+            "Meter"
+          ]
+        },
+        {
+          "id": "meowth",
+          "nome": "Meowth",
+          "descricao": "Pokémon do tipo Normal, número 52 da Pokédex Nacional.",
+          "variantes": [
+            "Nyarth"
+          ]
+        },
+        {
+          "id": "mew",
+          "nome": "Mew",
+          "descricao": "Pokémon do tipo Psíquico, número 151 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "isaac_newton",
+          "nome": "Isaac Newton",
+          "descricao": "Polímata inglês, autor dos Principia e formulador da gravitação universal e da mecânica clássica.",
+          "variantes": [
+            "Sir Isaac Newton",
+            "Newton"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mu de Áries",
+        "descricao": "Cavaleiro de Ouro de Áries na obra Os Cavaleiros do Zodíaco.",
+        "variantes": [
+          "Aries Mu",
+          "Mu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "emu",
+          "nome": "Emu",
+          "descricao": "Grande ave corredora não voadora da Austrália (Dromaius novaehollandiae).",
+          "variantes": [
+            "Dromaius novaehollandiae"
+          ]
+        },
+        {
+          "id": "muk",
+          "nome": "Muk",
+          "descricao": "Pokémon de lodo venenoso da primeira geração, evolução de Grimer, número 89 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "comuna_de_paris",
+          "nome": "Comuna de Paris",
+          "descricao": "Governo revolucionário popular que controlou Paris em 1871, após a derrota francesa na guerra contra a Prússia, até ser esmagado pelo exército.",
+          "variantes": [
+            "Paris Commune",
+            "La Commune"
+          ]
+        },
+        {
+          "id": "muk_de_ash",
+          "nome": "Muk de Ash",
+          "descricao": "Muk de Ash Ketchum no anime Pokémon, que vive no laboratório do Professor Carvalho em Pallet.",
+          "variantes": [
+            "Ash's Muk"
+          ]
+        },
+        {
+          "id": "metro_de_paris",
+          "nome": "Metrô de Paris",
+          "descricao": "Sistema de metrô da cidade de Paris, inaugurado em 1900.",
+          "variantes": [
+            "Paris Métro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Irmão do Jorel",
+        "descricao": "Protagonista caçula da série de animação brasileira Irmão do Jorel.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "mao_do_morto",
+          "nome": "Mão do morto",
+          "descricao": "Mão de pôquer com dois pares, de ases e de oitos pretos, associada à morte de um pistoleiro do Velho Oeste.",
+          "variantes": [
+            "Dead man's hand"
+          ]
+        },
+        {
+          "id": "dia_do_rei",
+          "nome": "Dia do Rei",
+          "descricao": "Feriado nacional dos Países Baixos em homenagem ao aniversário do monarca.",
+          "variantes": [
+            "Koningsdag",
+            "King's Day"
+          ]
+        },
+        {
+          "id": "paris_roubaix",
+          "nome": "Paris-Roubaix",
+          "descricao": "Clássica de ciclismo de um dia no norte da França, famosa pelos trechos de calçamento de pedra.",
+          "variantes": [
+            "Inferno do Norte"
+          ]
+        },
+        {
+          "id": "cisma_do_oriente",
+          "nome": "Cisma do Oriente",
+          "descricao": "Ruptura entre a Igreja de Roma e as igrejas cristãs orientais, que originou a separação entre católicos e ortodoxos",
+          "variantes": [
+            "Grande Cisma do Oriente",
+            "Cisma de 1054",
+            "Grande Cisma",
+            "Cisma Leste-Oeste",
+            "East–West Schism"
+          ]
+        },
+        {
+          "id": "parelio",
+          "nome": "Parélio",
+          "descricao": "Fenômeno óptico em que pontos luminosos aparecem ao lado do Sol, causado por cristais de gelo.",
+          "variantes": [
+            "Sun dog",
+            "Falso sol",
+            "Cão-do-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Darkseid",
+        "descricao": "Tirano do planeta Apokolips, vilão da DC Comics.",
+        "variantes": [
+          "Uxas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dark",
+          "nome": "Dark",
+          "descricao": "Série alemã de ficção científica da Netflix, lançada em 2017, sobre viagens no tempo e quatro famílias.",
+          "variantes": [
+            "Dark (série)"
+          ]
+        },
+        {
+          "id": "xuxa",
+          "nome": "Xuxa",
+          "descricao": "Apresentadora, atriz e cantora brasileira, conhecida como Rainha dos Baixinhos.",
+          "variantes": [
+            "Xuxa Meneghel",
+            "Maria da Graça Meneghel"
+          ]
+        },
+        {
+          "id": "dreidel",
+          "nome": "Dreidel",
+          "descricao": "Pião de quatro lados com letras hebraicas, usado em jogo na festa judaica de Hanucá.",
+          "variantes": [
+            "Dreydl",
+            "Sevivon",
+            "Pião de Hanucá"
+          ]
+        },
+        {
+          "id": "uxmal",
+          "nome": "Uxmal",
+          "descricao": "Antiga cidade maia do período clássico na região Puuc, península de Yucatán, México, com a Pirâmide do Adivinho.",
+          "variantes": [
+            "Óoxmáal"
+          ]
+        },
+        {
+          "id": "luva",
+          "nome": "Luva",
+          "descricao": "Peça de vestuário que cobre a mão, com compartimentos separados para cada dedo.",
+          "variantes": [
+            "Luvas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Freddy Krueger",
+        "descricao": "Assassino de rosto queimado e luva de lâminas da franquia de terror A Hora do Pesadelo.",
+        "variantes": [
+          "Freddy"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sigmund_freud",
+          "nome": "Sigmund Freud",
+          "descricao": "Neurologista austríaco (1856–1939), fundador da psicanálise.",
+          "variantes": [
+            "Freud"
+          ]
+        },
+        {
+          "id": "freya",
+          "nome": "Freya",
+          "descricao": "Deusa nórdica do amor, da beleza e da fertilidade.",
+          "variantes": [
+            "Freyja",
+            "Freia"
+          ]
+        },
+        {
+          "id": "casa_dancante",
+          "nome": "Casa Dançante",
+          "descricao": "Prédio de escritórios de linhas tortas à beira do rio Moldava, em Praga, inaugurado em 1996.",
+          "variantes": [
+            "Dancing House",
+            "Tančící dům",
+            "Fred e Ginger"
+          ]
+        },
+        {
+          "id": "red_treinador",
+          "nome": "Red (treinador)",
+          "descricao": "Protagonista silencioso dos jogos Pokémon Red, Green e Blue, que reaparece como desafio final na segunda geração.",
+          "variantes": [
+            "Red",
+            "Vermelho"
+          ]
+        },
+        {
+          "id": "friede",
+          "nome": "Friede",
+          "descricao": "Professor pokémon e líder dos aventureiros Rising Volt Tacklers na série Pokémon Horizontes.",
+          "variantes": [
+            "Professor Friede"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Panoramix",
+        "descricao": "Druida da aldeia gaulesa dos quadrinhos de Asterix, criador da poção mágica.",
+        "variantes": [
+          "Getafix",
+          "Magigamix"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pandora",
+          "nome": "Pandora",
+          "descricao": "Primeira mulher da mitologia grega, segundo Hesíodo, que libertou os males no mundo.",
+          "variantes": []
+        },
+        {
+          "id": "pangrama",
+          "nome": "Pangrama",
+          "descricao": "Frase que usa todas as letras do alfabeto",
+          "variantes": [
+            "Pantograma"
+          ]
+        },
+        {
+          "id": "geta",
+          "nome": "Geta",
+          "descricao": "Calçado tradicional japonês de madeira, com base plana elevada por dentes e preso ao pé por uma tira de tecido.",
+          "variantes": [
+            "Gueta",
+            "Sandália japonesa de madeira"
+          ]
+        },
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)",
+            "Raia"
+          ]
+        },
+        {
+          "id": "ianomamis",
+          "nome": "Ianomâmis",
+          "descricao": "Povo indígena da floresta amazônica que vive no norte do Brasil e no sul da Venezuela.",
+          "variantes": [
+            "Yanomami",
+            "Ianomami",
+            "Yanomâmi"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Jack Sparrow."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "mewtwo",
+      "motivo": "Mesmo Pokémon Mewtwo, apenas descrições diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Mu de Áries."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Darkseid."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Freddy Krueger."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Panoramix."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Johnny Depp interpreta Jack Sparrow; fato nos trechos. Enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado dá a pista 'criado a partir do DNA de' que entrega o Mewtwo sem a figura (teste da imagem coberta). Além disso, Ditto é distrator fraco mas ok. Reescrever pedindo um passo sem entregar: o tipo.",
+      "reescrita": {
+        "pergunta": "Este pokémon lendário foi criado artificialmente por cientistas. De qual outro pokémon foi tirado o DNA usado na sua criação?",
+        "resposta": "Mew",
+        "distratores": [
+          "Celebi",
+          "Jirachi",
+          "Ditto"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A pergunta pode ser respondida sem a figura: 'corredor perseguido nos desenhos' entrega Coiote; a figura vira enfeite e o conceito é muito conhecido. Sem conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Sem a imagem, 'rival e melhor amigo' ainda exige saber quem é o personagem, mas a pergunta é equivalente a identidade; porém 'melhor amigo' é afirmação discutível (fonte fala em rival e melhor amigo, mas a resposta fica ambígua com Sakura/Naruto). Na dúvida, descartar.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Masami Kurumada criou Os Cavaleiros do Zodíaco; o enunciado não nomeia a obra nem o personagem. A figura é necessária para reconhecer a obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O martelo é a pista clássica; o enunciado sozinho não nomeia, mas a pergunta só tem sentido com a figura e a resposta Mjolnir é bem sabida. Contudo, 'o martelo deste personagem' é válido; porém outros personagens (Jane Foster, Capitão América) também portaram Mjolnir e a pergunta fica pouco específica. Na dúvida, descartar.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento direto; o enunciado não vaza e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jack Kirby criou Darkseid, confirmado nos trechos. O enunciado não nomeia o vilão; distratores plausíveis e curtos. Stan Lee e Bob Kane não criaram Darkseid.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Robert Englund interpretou Freddy no filme de 1984, e o enunciado é literalmente verdadeiro. Não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto do personagem, nível 1. Resposta Panoramix é o nome em português, confirmado pelos trechos.",
+      "reescrita": null
+    }
+  ]
+}
