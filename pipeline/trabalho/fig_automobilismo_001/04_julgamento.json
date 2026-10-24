@@ -1,0 +1,384 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ferrari F2004",
+        "descricao": "Carro de Fórmula 1 da Scuderia Ferrari usado na temporada de 2004, com o qual Michael Schumacher conquistou seu sétimo título.",
+        "variantes": [
+          "F2004"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ferrari_f40",
+          "nome": "Ferrari F40",
+          "descricao": "Esportivo de motor central da Ferrari, criado para celebrar os quarenta anos da marca e produzido a partir de 1987.",
+          "variantes": [
+            "F40"
+          ]
+        },
+        {
+          "id": "ferrari",
+          "nome": "Ferrari",
+          "descricao": "Fabricante italiana de carros esportivos fundada por Enzo Ferrari, com o símbolo do cavalo empinado.",
+          "variantes": [
+            "Scuderia Ferrari"
+          ]
+        },
+        {
+          "id": "jogos_olimpicos_de_verao_de_2024",
+          "nome": "Jogos Olímpicos de Verão de 2024",
+          "descricao": "Edição dos Jogos Olímpicos realizada em Paris, em 2024.",
+          "variantes": [
+            "Paris 2024"
+          ]
+        },
+        {
+          "id": "atari_2600",
+          "nome": "Atari 2600",
+          "descricao": "Console doméstico de cartuchos da Atari, lançado nos Estados Unidos no fim dos anos setenta.",
+          "variantes": [
+            "Atari VCS",
+            "Video Computer System"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Porsche 917",
+        "descricao": "Protótipo de corrida da Porsche, com motor de doze cilindros, vencedor das 24 Horas de Le Mans de 1970 e 1971.",
+        "variantes": [
+          "917"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "porsche_911",
+          "nome": "Porsche 911",
+          "descricao": "Carro esportivo da fabricante alemã Porsche, produzido desde 1964, com motor traseiro.",
+          "variantes": [
+            "Nove-onze"
+          ]
+        },
+        {
+          "id": "1917_filme",
+          "nome": "1917 (filme)",
+          "descricao": "Filme britânico de guerra de 2019 sobre dois soldados que atravessam o front para entregar uma mensagem, filmado para parecer um plano contínuo.",
+          "variantes": [
+            "1917"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Gil de Ferran",
+        "descricao": "Piloto brasileiro, campeão da Champ Car em 2000 e 2001 e vencedor das 500 Milhas de Indianápolis de 2003.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "galo_da_serra",
+          "nome": "Galo-da-serra",
+          "descricao": "Cotinga macho de plumagem laranja viva e crista em meia-lua (Rupicola rupicola), das florestas do nordeste da América do Sul.",
+          "variantes": [
+            "Galo-da-serra-guianense",
+            "Guianan cock-of-the-rock",
+            "Rupicola rupicola"
+          ]
+        },
+        {
+          "id": "lei_de_terras",
+          "nome": "Lei de Terras",
+          "descricao": "Lei brasileira de 1850 que regulamentou a propriedade das terras no Império.",
+          "variantes": [
+            "Lei número 601 de 1850"
+          ]
+        },
+        {
+          "id": "gaiola_de_faraday",
+          "nome": "Gaiola de Faraday",
+          "descricao": "Invólucro condutor que bloqueia campos elétricos externos, protegendo o que está dentro.",
+          "variantes": [
+            "Faraday cage",
+            "Blindagem eletrostática"
+          ]
+        },
+        {
+          "id": "ferrugem",
+          "nome": "Ferrugem",
+          "descricao": "Óxido de ferro marrom-avermelhado formado pela reação do ferro com oxigênio na presença de água.",
+          "variantes": [
+            "Óxido de ferro"
+          ]
+        },
+        {
+          "id": "reis_catolicos",
+          "nome": "Reis Católicos",
+          "descricao": "Isabel I de Castela e Fernando II de Aragão, casal que uniu as coroas e reinou na Espanha no fim do século quinze.",
+          "variantes": [
+            "Isabel e Fernando",
+            "Catholic Monarchs"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Circuito das Américas",
+        "descricao": "Autódromo de Austin, no Texas, sede do Grande Prêmio dos Estados Unidos de Fórmula 1.",
+        "variantes": [
+          "Circuit of the Americas",
+          "COTA"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "circuito_das_americas",
+          "nome": "Circuito das Américas",
+          "descricao": "Autódromo de Austin, Texas, EUA, sede do GP dos Estados Unidos de Fórmula 1.",
+          "variantes": [
+            "Circuit of the Americas",
+            "COTA"
+          ]
+        },
+        {
+          "id": "cometa",
+          "nome": "Cometa",
+          "descricao": "Pequeno corpo gelado do Sistema Solar que libera gás e poeira ao se aproximar do Sol, formando coma e cauda.",
+          "variantes": []
+        },
+        {
+          "id": "nado_costas",
+          "nome": "Nado costas",
+          "descricao": "Estilo de natação em que o nadador fica de barriga para cima, alternando os braços.",
+          "variantes": [
+            "Costas",
+            "Backstroke"
+          ]
+        },
+        {
+          "id": "shaduf",
+          "nome": "Shaduf",
+          "descricao": "Aparelho de irrigação com uma vara basculante, um balde e um contrapeso, usado no Egito para tirar água do Nilo",
+          "variantes": [
+            "Shadoof",
+            "Chaduf",
+            "Picota"
+          ]
+        },
+        {
+          "id": "pelourinho_2",
+          "nome": "Pelourinho",
+          "descricao": "Coluna de pedra erguida em praça pública nas vilas coloniais portuguesas, usada para castigos públicos.",
+          "variantes": [
+            "Picota"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Jackie Stewart",
+        "descricao": "Ex-piloto escocês de Fórmula 1, tricampeão mundial pela Tyrrell, apelidado de Flying Scot.",
+        "variantes": [
+          "Sir Jackie Stewart",
+          "John Young Stewart"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "stewart_grand_prix",
+          "nome": "Stewart Grand Prix",
+          "descricao": "Equipe de Fórmula 1 fundada por Jackie Stewart e seu filho Paul, que correu de 1997 a 1999.",
+          "variantes": [
+            "Stewart"
+          ]
+        },
+        {
+          "id": "ancient_mew",
+          "nome": "Ancient Mew",
+          "descricao": "Carta promocional de Mew, escrita numa língua inventada, distribuída nos cinemas americanos que exibiam o filme Pokémon 2000.",
+          "variantes": [
+            "Ancient Mew (carta)",
+            "Mew antigo"
+          ]
+        },
+        {
+          "id": "jackie_chan",
+          "nome": "Jackie Chan",
+          "descricao": "Ator, dublê e artista marcial de Hong Kong, famoso por filmes de ação com comédia.",
+          "variantes": [
+            "Chan Kong-sang"
+          ]
+        },
+        {
+          "id": "jack_walker",
+          "nome": "Jack Walker",
+          "descricao": "Pokémon Ranger do filme Pokémon Ranger e o Templo do Mar, que protege o ovo de Manaphy infiltrado num grupo do Povo da Água.",
+          "variantes": [
+            "Jackie",
+            "Jack Walker (Pokémon Ranger)"
+          ]
+        },
+        {
+          "id": "patrick_estrela",
+          "nome": "Patrick Estrela",
+          "descricao": "Estrela-do-mar rosa, melhor amigo de Bob Esponja na série animada Bob Esponja Calça Quadrada.",
+          "variantes": [
+            "Patrick Star",
+            "Patrick"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pit stop",
+        "descricao": "Parada de um carro de corrida nos boxes para trocar pneus, abastecer ou fazer reparos.",
+        "variantes": [
+          "parada nos boxes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caixa_de_pandora",
+          "nome": "Caixa de Pandora",
+          "descricao": "Recipiente do mito grego que, ao ser aberto por Pandora, libertou os males no mundo.",
+          "variantes": [
+            "Pandora's box",
+            "Jarro de Pandora"
+          ]
+        },
+        {
+          "id": "rebeliao_dos_boxers",
+          "nome": "Rebelião dos Boxers",
+          "descricao": "Levante chinês de 1899 a 1901 contra estrangeiros e cristãos, reprimido por uma coalizão de oito potências.",
+          "variantes": [
+            "Levante dos Boxers",
+            "Revolta dos Boxers",
+            "Boxer Rebellion"
+          ]
+        },
+        {
+          "id": "porta_dos_leoes_de_micenas",
+          "nome": "Porta dos Leões de Micenas",
+          "descricao": "Entrada principal da cidadela micênica da Idade do Bronze, com relevo de dois leões, na Grécia.",
+          "variantes": [
+            "Portão dos Leões",
+            "Lion Gate",
+            "Porta dos Leões"
+          ]
+        },
+        {
+          "id": "espirito_santo",
+          "nome": "Espírito Santo",
+          "descricao": "Estado do Sudeste do Brasil, com capital em Vitória.",
+          "variantes": []
+        },
+        {
+          "id": "sapatilha_de_ponta",
+          "nome": "Sapatilha de ponta",
+          "descricao": "Sapatilha de ballet com ponta reforçada, que permite dançar sobre a ponta dos pés.",
+          "variantes": [
+            "Sapatilha de ballet",
+            "Pointe shoe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Mercedes-Benz W196",
+        "descricao": "Carro de Fórmula 1 da Mercedes-Benz usado em 1954 e 1955, pilotado por Fangio e Stirling Moss.",
+        "variantes": [
+          "W196",
+          "Mercedes W196"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mercedes_w11",
+          "nome": "Mercedes W11",
+          "descricao": "Carro de Fórmula 1 da Mercedes na temporada de 2020, pintado de preto, com o qual Lewis Hamilton foi campeão.",
+          "variantes": [
+            "Mercedes-AMG F1 W11 EQ Performance"
+          ]
+        },
+        {
+          "id": "mercedes_benz",
+          "nome": "Mercedes-Benz",
+          "descricao": "Marca alemã de automóveis cujo nome Mercedes surgiu nos carros da Daimler no início do século vinte.",
+          "variantes": [
+            "Mercedes"
+          ]
+        },
+        {
+          "id": "mercedes_benz_classe_g",
+          "nome": "Mercedes-Benz Classe G",
+          "descricao": "Utilitário esportivo de tração nas quatro rodas da Mercedes-Benz, de linhas retas, produzido desde 1979.",
+          "variantes": [
+            "G-Wagen",
+            "Mercedes Classe G",
+            "Geländewagen"
+          ]
+        },
+        {
+          "id": "eurocopa_de_1960",
+          "nome": "Eurocopa de 1960",
+          "descricao": "Primeira edição do Campeonato Europeu de futebol, com fase final disputada na França.",
+          "variantes": [
+            "1960 European Nations' Cup",
+            "Taça das Nações Europeias de 1960"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ferrari F2004 é um carro de F1 específico, diferente da F40 e da marca Ferrari."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Porsche 917 é diferente do 911 e do filme 1917."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Piloto Gil de Ferran não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "circuito_das_americas",
+      "motivo": "Mesmo autódromo de Austin, descrição e variantes idênticas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Jackie Stewart é o piloto; a equipe Stewart Grand Prix e as outras candidatas são entidades distintas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Pit stop é um conceito do automobilismo, sem candidata equivalente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "W196 é um carro específico de 1954-55, diferente do W11, da marca e do Classe G."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro, resposta única diante da imagem, distratores do mesmo tipo (modelos vizinhos da Ferrari), curtos e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Anos setenta' é impreciso: o 917 estreou em 1969 e correu até 1971. Além disso, vários carros da Porsche e de outras marcas alemãs dos anos setenta caberiam, então a resposta não é única sem distratores. Passa a múltipla escolha, com época corrigida.",
+      "reescrita": {
+        "pergunta": "Que modelo de carro de corrida alemão, da virada dos anos sessenta para os setenta, é este?",
+        "resposta": "Porsche 917",
+        "distratores": [
+          "Porsche 906",
+          "Porsche 935",
+          "Porsche 936"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A vitória nas 500 Milhas de Indianápolis de 2003 está nos trechos. O enunciado não entrega o nome, e nenhum distrator é uma corrida que ele tenha vencido.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de identificação direta. Os distratores são autódromos americanos plausíveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nascimento na Escócia (Milton, West Dunbartonshire) confirmado nos trechos. O enunciado não vaza e os distratores são países do Reino Unido e a Irlanda.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de nível 1, sem pista que entregue a resposta. A resposta é curta e o parêntese é uma observação apropriada.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro. Os distratores são modelos da Mercedes de outras épocas e o 300 SLR, derivado do W196, é um carro distinto do que a imagem mostra.",
+      "reescrita": null
+    }
+  ]
+}

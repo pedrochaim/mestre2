@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que autódromo é este?",
+        "resposta": "Circuito das Américas"
+      },
+      "existentes": [
+        {
+          "id": "q07029",
+          "pergunta": "Que circuito de corridas é este?",
+          "resposta": "Circuito das Américas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q07029",
+      "motivo": "Ambas pedem a identificação do mesmo circuito (Circuito das Américas) a partir de uma imagem; mesma resposta e mesmo fato."
+    }
+  ]
+}

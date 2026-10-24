@@ -1,0 +1,183 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de lado, sem nome do modelo escrito; só o escudo da Ferrari aparece. Múltipla com Ferraris da mesma época.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que modelo de carro de Fórmula 1 é este?",
+      "resposta": "Ferrari F2004",
+      "distratores": [
+        "Ferrari F2003-GA",
+        "Ferrari F2002",
+        "Ferrari F2005"
+      ],
+      "ancora": {
+        "nome": "Ferrari F2004",
+        "descricao": "Carro de Fórmula 1 da Scuderia Ferrari usado na temporada de 2004, com o qual Michael Schumacher conquistou seu sétimo título.",
+        "variantes": [
+          "F2004"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O nome 'Niki Lauda' está escrito na carenagem e o número 12 aparece, o que entrega a pista principal."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Retrato de um senhor numa entrevista, sem nenhum elemento que permita reconhecê-lo; a entidade não é identificável pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta inconfundível do 917 em foto de época; não há o nome Porsche nem o modelo escritos, só patrocinadores e número.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que modelo de carro de corrida alemão, dos anos mil novecentos e setenta, é este?",
+      "resposta": "Porsche 917",
+      "distratores": [],
+      "ancora": {
+        "nome": "Porsche 917",
+        "descricao": "Protótipo de corrida da Porsche, com motor de doze cilindros, vencedor das 24 Horas de Le Mans de 1970 e 1971.",
+        "variantes": [
+          "917"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Trecho de pista com carros de turismo, sem nada que permita reconhecer o Hungaroring; muitos circuitos são parecidos e a resposta não é única."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato de rosto nítido de figura pública, sem texto que identifique. Pergunta vai além do nome, em múltipla.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Qual destas corridas este piloto brasileiro venceu?",
+      "resposta": "500 Milhas de Indianápolis",
+      "distratores": [
+        "24 Horas de Le Mans",
+        "Daytona 500",
+        "Grande Prêmio de Mônaco"
+      ],
+      "ancora": {
+        "nome": "Gil de Ferran",
+        "descricao": "Piloto brasileiro, campeão da Champ Car em 2000 e 2001 e vencedor das 500 Milhas de Indianápolis de 2003.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista aérea com as curvas em esses e as cores da bandeira americana na pista; apenas 'Toyota' escrito, que não entrega. Múltipla com circuitos americanos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que autódromo é este?",
+      "resposta": "Circuito das Américas",
+      "distratores": [
+        "Sebring",
+        "Road America",
+        "Watkins Glen"
+      ],
+      "ancora": {
+        "nome": "Circuito das Américas",
+        "descricao": "Autódromo de Austin, no Texas, sede do Grande Prêmio dos Estados Unidos de Fórmula 1.",
+        "variantes": [
+          "Circuit of the Americas",
+          "COTA"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem texto que entregue o nome; a calça xadrez ajuda sem identificar. Pergunta sobre o país de origem.",
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Em que país nasceu este ex-piloto de Fórmula 1?",
+      "resposta": "Escócia",
+      "distratores": [
+        "Inglaterra",
+        "País de Gales",
+        "Irlanda"
+      ],
+      "ancora": {
+        "nome": "Jackie Stewart",
+        "descricao": "Ex-piloto escocês de Fórmula 1, tricampeão mundial pela Tyrrell, apelidado de Flying Scot.",
+        "variantes": [
+          "Sir Jackie Stewart",
+          "John Young Stewart"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A assinatura 'Tazio Nuvolari' aparece na foto, além do monograma TN na camisa, o que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cena clara de equipe trocando pneus e abastecendo um carro de corrida, sem texto que nomeie a ação.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que momento de uma corrida de automóveis é este?",
+      "resposta": "Pit stop (parada nos boxes)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Pit stop",
+        "descricao": "Parada de um carro de corrida nos boxes para trocar pneus, abastecer ou fazer reparos.",
+        "variantes": [
+          "parada nos boxes"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Carro prateado de rodas expostas, com a estrela da Mercedes mas sem o nome do modelo. Múltipla com outros Mercedes de corrida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que modelo de carro de corrida é este?",
+      "resposta": "Mercedes-Benz W196",
+      "distratores": [
+        "Mercedes-Benz W125",
+        "Mercedes-Benz W154",
+        "Mercedes-Benz 300 SLR"
+      ],
+      "ancora": {
+        "nome": "Mercedes-Benz W196",
+        "descricao": "Carro de Fórmula 1 da Mercedes-Benz usado em 1954 e 1955, pilotado por Fangio e Stirling Moss.",
+        "variantes": [
+          "W196",
+          "Mercedes W196"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Retrato de rosto sem contexto que permita reconhecer o piloto; só aparece o logotipo OMP. A entidade não é identificável pela imagem."
+    }
+  ]
+}
