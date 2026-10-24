@@ -1,0 +1,208 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto de elenco de uma única obra, sem texto, reconhecível pela família e pelo figurino dos anos 80.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que série é esta imagem?",
+      "resposta": "Todo Mundo Odeia o Chris",
+      "destino": 1,
+      "ancora": {
+        "nome": "Todo Mundo Odeia o Chris",
+        "descricao": "Série de comédia americana (2005) sobre a adolescência de Chris Rock nos anos 1980 no Brooklyn.",
+        "variantes": [
+          "Everybody Hates Chris"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cena icônica e sem texto: Chaplin sobre as engrenagens da fábrica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que filme é esta cena?",
+      "resposta": "Tempos Modernos",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tempos Modernos",
+        "descricao": "Filme de Charles Chaplin de 1936 em que o Vagabundo enfrenta a vida na era industrial.",
+        "variantes": [
+          "Modern Times"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cena sem texto, com Klaus Kinski em armadura de conquistador, reconhecível por quem conhece o filme. Múltipla escolha deixa a pergunta justa.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem dirigiu o filme desta cena, passado na expedição de conquistadores espanhóis pela selva?",
+      "resposta": "Werner Herzog",
+      "distratores": [
+        "Wim Wenders",
+        "Rainer Werner Fassbinder",
+        "Volker Schlöndorff"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Aguirre, a Cólera dos Deuses",
+        "descricao": "Filme alemão de 1972 dirigido por Werner Herzog, sobre uma expedição espanhola em busca de El Dorado.",
+        "variantes": [
+          "Aguirre, der Zorn Gottes",
+          "Aguirre, the Wrath of God"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "É arte de divulgação no estilo de pôster, com os dois atores posados e tropicais ao fundo, e não uma cena. Fica perto do que o manifesto proíbe, e os rostos pouco entregam a obra."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto de divulgação sem texto, com Matthew Broderick numa Ferrari vermelha, imagem característica do filme.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi lançado o filme desta cena?",
+      "resposta": "1986",
+      "distratores": [
+        "1984",
+        "1985",
+        "1988"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Curtindo a Vida Adoidado",
+        "descricao": "Comédia americana de 1986 sobre um estudante que mata aula, com Matthew Broderick no papel de Ferris Bueller.",
+        "variantes": [
+          "Ferris Bueller's Day Off"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Montagem dos personagens de uma única obra, sem texto, bem legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que filme de animação são estes personagens?",
+      "resposta": "Frozen: Uma Aventura Congelante",
+      "destino": 0,
+      "ancora": {
+        "nome": "Frozen: Uma Aventura Congelante",
+        "descricao": "Animação da Disney de 2013 sobre as irmãs Anna e Elsa e o reino de Arendelle.",
+        "variantes": [
+          "Frozen"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cena de família à mesa, sem texto, com elenco reconhecível. Múltipla escolha entre diretores de cinema independente americano.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem dirigiu o filme desta cena?",
+      "resposta": "Jonathan Dayton e Valerie Faris",
+      "distratores": [
+        "Wes Anderson",
+        "Alexander Payne",
+        "Jason Reitman"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pequena Miss Sunshine",
+        "descricao": "Comédia dramática americana de 2006 sobre uma família que viaja numa kombi amarela até um concurso de beleza infantil.",
+        "variantes": [
+          "Little Miss Sunshine"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cena em preto e branco sem texto, de um filme clássico japonês. Múltipla escolha com décadas próximas, já que o preto e branco não restringe a uma só.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que década foi lançado este filme japonês?",
+      "resposta": "Década de 1950",
+      "distratores": [
+        "Década de 1930",
+        "Década de 1940",
+        "Década de 1960"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Era Uma Vez em Tóquio",
+        "descricao": "Filme japonês de 1953 dirigido por Yasujirō Ozu, sobre um casal de idosos que visita os filhos em Tóquio.",
+        "variantes": [
+          "Tokyo Story",
+          "Tōkyō monogatari"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato do ator Rowan Atkinson caracterizado como o personagem, sem texto, fundo neutro, figura pública.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que série britânica de comédia é este personagem?",
+      "resposta": "Mr. Bean",
+      "destino": 1,
+      "ancora": {
+        "nome": "Mr. Bean",
+        "descricao": "Série britânica de comédia estrelada por Rowan Atkinson como o personagem desastrado Mr. Bean, exibida a partir de 1990.",
+        "variantes": [
+          "Mister Bean"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem sem texto, com as tesouras e o rosto pálido emoldurado por cabelos escuros, característica do personagem.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem dirigiu o filme desta imagem?",
+      "resposta": "Tim Burton",
+      "distratores": [
+        "Terry Gilliam",
+        "Sam Raimi",
+        "Guillermo del Toro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Edward Mãos de Tesoura",
+        "descricao": "Filme de fantasia americano de 1990, dirigido por Tim Burton, sobre um jovem artificial com tesouras no lugar das mãos.",
+        "variantes": [
+          "Edward Scissorhands"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "É a ilustração pintada do pôster do filme, e não uma foto de cena. Pôsteres são proibidos."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "É a cena final do filme, o que é spoiler. Os personagens estão de costas e em silhueta, então a cena também não se reconhece pela imagem."
+    }
+  ]
+}

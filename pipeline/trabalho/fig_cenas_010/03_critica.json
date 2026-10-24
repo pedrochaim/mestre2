@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista no enunciado. Resposta confirmada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de nível 1, sem vazamento. Título confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A descrição da trama (expedição de conquistadores espanhóis pela selva) permite identificar o filme sem ver a figura. Troquei a pista por país e época, que ajudam sem entregar. A direção de Herzog está nos trechos.",
+      "reescrita": {
+        "pergunta": "Quem dirigiu este filme alemão da década de 1970?",
+        "resposta": "Werner Herzog",
+        "distratores": [
+          "Wim Wenders",
+          "Rainer Werner Fassbinder",
+          "Volker Schlöndorff"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ano 1986 confirmado. É múltipla escolha, como exige o manifesto para respostas que são ano, e os distratores são anos próximos e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de nível 1, sem vazamento. Título confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta é uma dupla e os distratores são diretores individuais, o que a denuncia. A resposta também passa de 4 palavras. Uso nomes de duplas e a forma curta 'Dayton e Faris'.",
+      "reescrita": {
+        "pergunta": "Quem dirigiu o filme desta cena, lançado em 2006?",
+        "resposta": "Dayton e Faris",
+        "distratores": [
+          "Joel e Ethan Coen",
+          "Boden e Fleck",
+          "Peter e Bobby Farrelly"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lançamento em 1953 confirmado, logo década de 1950. O enunciado não vaza o título e os distratores são décadas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a série. A resposta tem apoio nos trechos e é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Direção de Tim Burton confirmada. O enunciado não vaza nada e os distratores são diretores de fantasia e terror, plausíveis e incorretos.",
+      "reescrita": null
+    }
+  ]
+}
