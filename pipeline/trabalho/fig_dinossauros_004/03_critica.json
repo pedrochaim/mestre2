@@ -1,0 +1,103 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Todo dinossauro de bico de pato viveu no Cretáceo, então dá para responder só com o enunciado e a figura vira enfeite. Reescrita para pedir o reconhecimento do animal, com distratores parecidos.",
+      "reescrita": {
+        "pergunta": "Que dinossauro de bico de pato do Cretáceo Superior da América do Norte é este?",
+        "resposta": "Edmontossauro",
+        "distratores": [
+          "Parasaurolofo",
+          "Maiassaura",
+          "Coritossauro"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelos trechos. O enunciado não entrega a resposta, e os distratores são do mesmo tipo e todos errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento com distratores parentes dos elefantes, curtos e errados. A pista 'parente dos elefantes' não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "O trecho em português coloca o gênero do Carbonífero ao Triássico, o que contradiz os distratores. O trecho em inglês e a literatura dizem Permiano. Além disso, 'peixe cartilaginoso de dentes em espiral' já identifica o animal sem a figura. Reescrita para pedir o reconhecimento, sem a pista da espiral.",
+      "reescrita": {
+        "pergunta": "Que peixe cartilaginoso extinto do Permiano é este?",
+        "resposta": "Helicoprion",
+        "distratores": [
+          "Megalodonte",
+          "Edestus",
+          "Orthacanthus"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Rinocerontes' é eliminado pelo próprio enunciado ('embora lembre um rinoceronte'). Substituído por um distrator crível.",
+      "reescrita": {
+        "pergunta": "Embora lembre um rinoceronte, este mamífero extinto era parente de quais animais?",
+        "resposta": "Elefantes",
+        "distratores": [
+          "Hipopótamos",
+          "Cavalos",
+          "Antas"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Emplumado' e 'garras em foice' identificam os dromeossaurídeos sem a figura. Pistas retiradas, mantendo a época.",
+      "reescrita": {
+        "pergunta": "A que família de dinossauros terópodes do Cretáceo Inferior pertence este predador?",
+        "resposta": "Dromeossaurídeos (raptores)",
+        "distratores": [
+          "Tiranossaurídeos",
+          "Espinossaurídeos",
+          "Alossaurídeos"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Animal alado extinto' entrega 'pterossauros', e os distratores são répteis marinhos nada plausíveis. Reescrita para pedir o reconhecimento do gênero, com distratores de crista parecida.",
+      "reescrita": {
+        "pergunta": "Que pterossauro de crista enorme, achado no Nordeste do Brasil, é este?",
+        "resposta": "Tupandactylus",
+        "distratores": [
+          "Tapejara",
+          "Thalassodromeus",
+          "Anhanguera"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Extinto, parente das zebras' é pista que quase entrega o quaga sem a figura. Reescrita com pista mais fraca, só a época da extinção, que é sustentada pelos trechos.",
+      "reescrita": {
+        "pergunta": "Que animal, extinto no fim do século dezenove, é este?",
+        "resposta": "Quaga"
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Reconstrução clara de hadrossaurídeo, sem texto. Período único (Cretáceo) para qualquer espécie do gênero.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que período da era dos dinossauros viveu este dinossauro de bico de pato?",
+      "resposta": "Cretáceo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Edmontossauro",
+        "descricao": "Gênero de dinossauro hadrossaurídeo (bico de pato) do Cretáceo Superior da América do Norte.",
+        "variantes": [
+          "Edmontosaurus",
+          "Anatotitan",
+          "Anatossauro"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Reconstrução subaquática clara de baleia primitiva alongada, sem texto; o grupo é reconhecível pela forma.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "A que grupo de animais pertencia este gigante marinho extinto?",
+      "resposta": "Baleias (mamíferos)",
+      "distratores": [
+        "Répteis marinhos",
+        "Tubarões",
+        "Peixes ósseos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Basilossauro",
+        "descricao": "Gênero de baleia arqueoceto predadora e alongada do Eoceno Superior.",
+        "variantes": [
+          "Basilosaurus"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Esqueleto montado em museu, com visitantes ao fundo; a identificação pela imagem é incerta (outros dicinodontes parecidos) e a época do gênero abrange duas eras, sem resposta única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Reconstrução clara; o único texto é a escala de 3 m, que não entrega a resposta. Distratores são proboscídeos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal extinto, parente dos elefantes, é este?",
+      "resposta": "Mastodonte",
+      "distratores": [
+        "Mamute-lanoso",
+        "Deinotério",
+        "Estegodonte"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mastodonte",
+        "descricao": "Proboscídeo extinto do gênero Mammut, da América do Norte, com presas longas e curvas.",
+        "variantes": [
+          "Mammut",
+          "Mastodon"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ilustração limpa e inconfundível, com a espiral de dentes visível, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que período viveu este peixe cartilaginoso de dentes em espiral?",
+      "resposta": "Permiano",
+      "distratores": [
+        "Carbonífero",
+        "Triássico",
+        "Siluriano"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Helicoprion",
+        "descricao": "Gênero extinto de peixe cartilaginoso do Permiano, com uma espiral de dentes na mandíbula inferior.",
+        "variantes": [
+          "Helicoprium"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Desenho claro, sem texto, com os chifres característicos. A semelhança com rinoceronte torna a pergunta de parentesco interessante.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Embora lembre um rinoceronte, este mamífero extinto era parente de quais animais?",
+      "resposta": "Elefantes",
+      "distratores": [
+        "Rinocerontes",
+        "Hipopótamos",
+        "Cavalos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Arsinoitério",
+        "descricao": "Mamífero extinto do Eoceno e Oligoceno da África, de grandes chifres nasais, aparentado aos elefantes.",
+        "variantes": [
+          "Arsinoitherium"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Reconstrução emplumada nítida, sem texto. A pergunta de família vale mesmo se a espécie for confundida com outro dromeossaurídeo.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A que família de dinossauros pertence este predador emplumado de garras em foice?",
+      "resposta": "Dromeossaurídeos (raptores)",
+      "distratores": [
+        "Tiranossaurídeos",
+        "Espinossaurídeos",
+        "Alossaurídeos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Utahraptor",
+        "descricao": "Gênero de grande dinossauro dromeossaurídeo emplumado do Cretáceo Inferior de Utah, nos Estados Unidos.",
+        "variantes": [
+          "Utahraptor ostrommaysi"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Terópode grande com espinhos dorsais pouco comuns; pode ser confundido com outros carnossauros (Allosaurus, Carcharodontosaurus), de períodos diferentes, então a resposta não é única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Reconstrução clara, crista inconfundível, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Encontrado no Nordeste brasileiro, este animal alado extinto, de crista enorme, pertence a que grupo?",
+      "resposta": "Pterossauros",
+      "distratores": [
+        "Plesiossauros",
+        "Ictiossauros",
+        "Mosassauros"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tupandactylus",
+        "descricao": "Gênero de pterossauro tapejarídeo de grande crista, da Formação Crato, Cretáceo Inferior do Brasil.",
+        "variantes": [
+          "Tupandactylus imperator",
+          "Tapejara imperator"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto histórica colorizada de quaga viva em zoológico, sem texto; listras só na frente do corpo reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que animal extinto, parente das zebras, é este?",
+      "resposta": "Quaga",
+      "destino": 0,
+      "ancora": {
+        "nome": "Quaga",
+        "descricao": "Subespécie extinta da zebra-das-planícies, da África do Sul, com listras só na parte da frente do corpo.",
+        "variantes": [
+          "Quagga",
+          "Equus quagga quagga"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem traz o nome científico e a autoria escritos (Mamenchisaurus youngi), o que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Fóssil pouco legível, escuro e fragmentado, sem forma reconhecível pelo celular; há ainda uma placa parcialmente visível na borda."
+    }
+  ]
+}

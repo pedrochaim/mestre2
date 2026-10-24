@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que animal extinto, parente dos elefantes, é este?",
+        "resposta": "Mastodonte"
+      },
+      "existentes": [
+        {
+          "id": "q08337",
+          "pergunta": "O nome mastodonte vem do formato das saliências de seus dentes, que lembravam que parte do corpo humano?",
+          "resposta": "Mamilos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que animal, extinto no fim do século dezenove, é este?",
+        "resposta": "Quaga"
+      },
+      "existentes": [
+        {
+          "id": "q07922",
+          "pergunta": "O quaga, zebra sul-africana com listras só na frente do corpo, foi extinto quando o último exemplar morreu no zoológico de Amsterdã. Em que década?",
+          "resposta": "Década de 1880 (1883)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do animal (mastodonte); a existente pergunta a origem do nome (mamilos). Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do animal (quaga) pela imagem; a existente pergunta a década da extinção. Responder uma não leva à outra, pois o nome do animal já consta no enunciado da existente e a nova não pede a data."
+    }
+  ]
+}
