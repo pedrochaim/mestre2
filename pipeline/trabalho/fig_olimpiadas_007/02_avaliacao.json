@@ -1,0 +1,149 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ginasta com arco, claramente ginástica rítmica; os textos visíveis não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que modalidade olímpica é esta, praticada com um arco?",
+      "resposta": "Ginástica rítmica",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ginástica rítmica",
+        "descricao": "Modalidade esportiva e olímpica em que ginastas se apresentam com aparelhos como arco, bola, maças, fita e corda.",
+        "variantes": [
+          "Ginástica rítmica desportiva"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Interior de estádio genérico, sem elemento que permita reconhecê-lo. O único texto, no placar, é minúsculo. O Estádio Olímpico de Turim também poderia caber na descrição."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A placa na entrada traz 'Yoyogi National Stadium' em letras legíveis e entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Combate de caratê (kumite) com luvas coloridas, quimono e faixas, bem identificável. O texto 'HYDEN SWE' não entrega a modalidade.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que modalidade de luta é esta?",
+      "resposta": "Caratê",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caratê",
+        "descricao": "Arte marcial de origem okinawana, baseada em socos e chutes, que entrou no programa olímpico em Tóquio 2020.",
+        "variantes": [
+          "Karate",
+          "Karatê"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A atleta não é reconhecível pelo rosto, e a fita da medalha traz o texto 'Santiago 2023'."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato de Neymar, figura pública reconhecível. O texto da credencial não entrega o nome. Ele foi ouro apenas em 2016, então a resposta é única.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este jogador conquistou o ouro olímpico com a seleção brasileira em que edição dos Jogos?",
+      "resposta": "Rio 2016",
+      "distratores": [
+        "Londres 2012",
+        "Pequim 2008",
+        "Tóquio 2020"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Neymar",
+        "descricao": "Futebolista brasileiro, atacante, campeão olímpico em 2016 com a seleção brasileira.",
+        "variantes": [
+          "Neymar Jr.",
+          "Neymar da Silva Santos Júnior"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A atleta não é reconhecível pelo rosto, e a fita da medalha traz o texto 'Rio 2016', que entrega a edição."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Retrato de um homem comum de gorro, reconhecível só por quem conhece muito bem o esqui nórdico. O gorro com a bandeira da Noruega ainda cria ambiguidade."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato em close de Michael Jordan, figura pública muito reconhecível. A pergunta cita o Dream Team para excluir o ouro de 1984.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Com o Dream Team, esta lenda do basquete foi campeã olímpica em que edição dos Jogos?",
+      "resposta": "Barcelona 1992",
+      "distratores": [
+        "Atlanta 1996",
+        "Seul 1988",
+        "Sydney 2000"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Michael Jordan",
+        "descricao": "Ex-jogador de basquete norte-americano, seis vezes campeão da NBA com o Chicago Bulls e campeão olímpico em 1984 e 1992.",
+        "variantes": [
+          "Michael Jeffrey Jordan",
+          "MJ"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Close extremo do rosto, sem contexto esportivo. Não é reconhecível com segurança."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Retrato de rosto sem contexto, de uma figura pouco reconhecível. Há texto parcial no fundo."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato de Marta, figura pública reconhecível. A camisa do Orlando Pride não entrega o nome. A pergunta se limita à primeira prata, em 2004.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Com a seleção brasileira, em que edição olímpica esta jogadora conquistou sua primeira medalha de prata?",
+      "resposta": "Atenas 2004",
+      "distratores": [
+        "Pequim 2008",
+        "Londres 2012",
+        "Rio 2016"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Marta",
+        "descricao": "Futebolista brasileira, seis vezes melhor jogadora do mundo pela FIFA, três vezes prata olímpica com o Brasil.",
+        "variantes": [
+          "Marta Vieira da Silva"
+        ]
+      }
+    }
+  ]
+}

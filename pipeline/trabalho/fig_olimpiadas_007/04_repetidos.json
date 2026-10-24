@@ -1,0 +1,116 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que modalidade olímpica é esta?",
+        "resposta": "Ginástica rítmica"
+      },
+      "existentes": [
+        {
+          "id": "q05719",
+          "pergunta": "Na ginástica rítmica, as atletas se apresentam com aparelhos como a fita, o arco e a bola. Qual destes também é um aparelho oficial?",
+          "resposta": "Maças"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que modalidade de luta é esta?",
+        "resposta": "Caratê"
+      },
+      "existentes": [
+        {
+          "id": "q01941",
+          "pergunta": "Traduzido do japonês, o nome da arte marcial caratê quer dizer o quê?",
+          "resposta": "Mão vazia"
+        },
+        {
+          "id": "q01942",
+          "pergunta": "O caratê nasceu em que ilha, sede do antigo Reino de Ryukyu e hoje parte do Japão?",
+          "resposta": "Okinawa"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Este jogador conquistou o ouro olímpico com a seleção brasileira em que edição dos Jogos?",
+        "resposta": "Rio 2016"
+      },
+      "existentes": [
+        {
+          "id": "q01663",
+          "pergunta": "Quem é este jogador de futebol, camisa da seleção brasileira?",
+          "resposta": "Neymar"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Com o Dream Team, esta lenda do basquete foi campeã olímpica em que edição dos Jogos?",
+        "resposta": "Barcelona 1992"
+      },
+      "existentes": [
+        {
+          "id": "q00537",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Michael Jordan"
+        },
+        {
+          "id": "q01798",
+          "pergunta": "Ao voltar do beisebol para a NBA, em 1995, Michael Jordan usou por alguns meses qual número de camisa antes de retomar o vinte e três?",
+          "resposta": "45"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Com a seleção brasileira, em que edição olímpica esta jogadora conquistou sua primeira medalha de prata?",
+        "resposta": "Atenas 2004"
+      },
+      "existentes": [
+        {
+          "id": "q00534",
+          "pergunta": "Quem é esta atleta?",
+          "resposta": "Marta"
+        },
+        {
+          "id": "q00709",
+          "pergunta": "Marta, eleita seis vezes a melhor jogadora do mundo, nasceu em Dois Riachos, no sertão de qual estado brasileiro?",
+          "resposta": "Alagoas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar a modalidade pela imagem é diferente de perguntar um aparelho oficial."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a luta pela imagem é diferente do significado do nome ou da origem do caratê."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A edição do ouro olímpico é fato diferente de identificar o jogador."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A edição olímpica do Dream Team é fato diferente da identidade ou do número da camisa."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A edição da primeira prata olímpica é fato diferente da identidade ou do local de nascimento."
+    }
+  ]
+}
