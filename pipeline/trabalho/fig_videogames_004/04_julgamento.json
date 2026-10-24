@@ -1,0 +1,686 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Liu Kang",
+        "descricao": "Monge Shaolin e campeão do torneio, protagonista da série de jogos de luta Mortal Kombat.",
+        "variantes": [
+          "Liu Kang (Mortal Kombat)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mortal_kombat",
+          "nome": "Mortal Kombat",
+          "descricao": "Jogo de luta de 1992, da Midway, famoso pela violência e pelos golpes finais chamados fatalities.",
+          "variantes": [
+            "Mortal Kombat (1992)"
+          ]
+        },
+        {
+          "id": "klinklang",
+          "nome": "Klinklang",
+          "descricao": "Pokémon do tipo Aço, número 601 da Pokédex Nacional.",
+          "variantes": [
+            "Klink",
+            "Klang"
+          ]
+        },
+        {
+          "id": "cirurgiao_patela",
+          "nome": "Cirurgião-patela",
+          "descricao": "Peixe-cirurgião azul do Indo-Pacífico (Paracanthurus hepatus), de cauda amarela, popular em aquários.",
+          "variantes": [
+            "Cirurgião-patela (Dory)",
+            "Paracanthurus hepatus",
+            "Blue tang",
+            "Dory",
+            "Peixe-cirurgião-azul"
+          ]
+        },
+        {
+          "id": "loy_krathong",
+          "nome": "Loy Krathong",
+          "descricao": "Festival tailandês em que se soltam krathongs, cestas decoradas com velas, em rios e lagos.",
+          "variantes": [
+            "Loi Krathong"
+          ]
+        },
+        {
+          "id": "linus_pauling",
+          "nome": "Linus Pauling",
+          "descricao": "Químico americano (1901–1994), pioneiro no estudo das ligações químicas, Nobel de Química em 1954 e da Paz em 1962.",
+          "variantes": [
+            "Linus Carl Pauling"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Waluigi",
+        "descricao": "Rival de Luigi e parceiro de Wario na franquia Mario, de roupa roxa e chapéu com a letra L invertida.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "luigi",
+          "nome": "Luigi",
+          "descricao": "Irmão gêmeo de Mario nos jogos da Nintendo, de roupa verde.",
+          "variantes": []
+        },
+        {
+          "id": "volubilis",
+          "nome": "Volubilis",
+          "descricao": "Cidade berbere-romana parcialmente escavada perto de Meknés, no Marrocos, possível capital do reino da Mauritânia.",
+          "variantes": [
+            "Walili",
+            "Volubilis (Marrocos)"
+          ]
+        },
+        {
+          "id": "althing",
+          "nome": "Althing",
+          "descricao": "Assembleia nacional da Islândia, criada pelos colonos nórdicos em 930 em Þingvellir.",
+          "variantes": [
+            "Alþingi",
+            "Althingi"
+          ]
+        },
+        {
+          "id": "lugia",
+          "nome": "Lugia",
+          "descricao": "Pokémon dos tipos Psíquico e Voador, número 249 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "waldi",
+          "nome": "Waldi",
+          "descricao": "Mascote dos Jogos Olímpicos de Munique 1972, o primeiro mascote olímpico oficial.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Sephiroth",
+        "descricao": "Ex-SOLDIER de cabelos prateados e katana longa, principal vilão de Final Fantasy VII.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "hercule_poirot",
+          "nome": "Hercule Poirot",
+          "descricao": "Detetive belga, personagem de dezenas de romances policiais de Agatha Christie.",
+          "variantes": [
+            "Poirot"
+          ]
+        },
+        {
+          "id": "farao",
+          "nome": "Faraó",
+          "descricao": "Título dado pelos historiadores modernos aos reis do Egito Antigo",
+          "variantes": [
+            "Pharaoh",
+            "Per-aa"
+          ]
+        },
+        {
+          "id": "epicuro",
+          "nome": "Epicuro",
+          "descricao": "Filósofo grego (341–270 a.C.) que fundou em Atenas a escola epicurista, voltada à busca do prazer moderado e da tranquilidade.",
+          "variantes": [
+            "Epicurus"
+          ]
+        },
+        {
+          "id": "cynthia",
+          "nome": "Cynthia",
+          "descricao": "Campeã da Liga Pokémon de Sinnoh nos jogos Diamond, Pearl e Platinum.",
+          "variantes": [
+            "Shirona"
+          ]
+        },
+        {
+          "id": "acordo_sykes_picot",
+          "nome": "Acordo Sykes-Picot",
+          "descricao": "Acordo secreto de 1916 entre o Reino Unido e a França, com assentimento da Rússia, para dividir territórios do Império Otomano no Oriente Médio.",
+          "variantes": [
+            "Sykes-Picot"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Alex Kidd",
+        "descricao": "Príncipe macaco de macacão vermelho, protagonista da série Alex Kidd e segundo mascote da Sega.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "elekid",
+          "nome": "Elekid",
+          "descricao": "Pokémon do tipo Elétrico, número 239 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "karate_kid",
+          "nome": "Karatê Kid",
+          "descricao": "Filme americano de 1984 sobre o jovem Daniel e seu mestre de caratê, o Sr. Miyagi.",
+          "variantes": [
+            "The Karate Kid",
+            "Karatê Kid: A Hora da Verdade"
+          ]
+        },
+        {
+          "id": "apple_i",
+          "nome": "Apple I",
+          "descricao": "Primeiro computador da Apple, projetado por Steve Wozniak e vendido a partir de 1976.",
+          "variantes": [
+            "Apple-1"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Ellie (The Last of Us)",
+        "descricao": "Jovem imune ao fungo Cordyceps, protagonista da série de jogos The Last of Us.",
+        "variantes": [
+          "Ellie Williams"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "serena_williams",
+          "nome": "Serena Williams",
+          "descricao": "Tenista americana nascida em 1981, campeã de 23 Grand Slams em simples na Era Aberta.",
+          "variantes": []
+        },
+        {
+          "id": "williams",
+          "nome": "Williams",
+          "descricao": "Equipe britânica de Fórmula 1 fundada em 1977, pela qual Nelson Piquet foi campeão em 1987 e Nigel Mansell em 1992.",
+          "variantes": [
+            "Williams Racing",
+            "Williams Grand Prix Engineering"
+          ]
+        },
+        {
+          "id": "venus_williams",
+          "nome": "Venus Williams",
+          "descricao": "Tenista americana, número 1 do mundo e campeã de sete torneios de Grand Slam em simples.",
+          "variantes": [
+            "Venus Ebony Star Williams"
+          ]
+        },
+        {
+          "id": "tennessee_williams",
+          "nome": "Tennessee Williams",
+          "descricao": "Dramaturgo americano (1911–1983), autor de Um Bonde Chamado Desejo.",
+          "variantes": [
+            "Thomas Lanier Williams III"
+          ]
+        },
+        {
+          "id": "ofelia_millais",
+          "nome": "Ofélia (Millais)",
+          "descricao": "Quadro de John Everett Millais de 1851 e 1852.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Simon Belmont",
+        "descricao": "Caçador de vampiros com chicote, herói da série Castlevania.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "usina_de_belo_monte",
+          "nome": "Usina de Belo Monte",
+          "descricao": "Usina hidrelétrica no município de Altamira, no Pará, construída na década de 2010.",
+          "variantes": [
+            "Belo Monte",
+            "Belo Monte Dam",
+            "Usina Hidrelétrica de Belo Monte",
+            "UHE Belo Monte"
+          ]
+        },
+        {
+          "id": "leao_de_belfort",
+          "nome": "Leão de Belfort",
+          "descricao": "Grande escultura de um leão em arenito vermelho, aos pés da cidadela de Belfort, na França, obra de Frédéric Auguste Bartholdi.",
+          "variantes": [
+            "Lion de Belfort",
+            "Lion of Belfort"
+          ]
+        },
+        {
+          "id": "tres_marias",
+          "nome": "Três Marias",
+          "descricao": "Trio de estrelas alinhadas, Alnitak, Alnilam e Mintaka, bem visível no céu brasileiro.",
+          "variantes": [
+            "Cinturão de Órion",
+            "Orion's Belt"
+          ]
+        },
+        {
+          "id": "simone_biles",
+          "nome": "Simone Biles",
+          "descricao": "Ginasta artística americana, a mais premiada da história da modalidade, com 11 medalhas olímpicas.",
+          "variantes": [
+            "Simone Arianne Biles"
+          ]
+        },
+        {
+          "id": "iron_moth",
+          "nome": "Iron Moth",
+          "descricao": "Pokémon dos tipos Fogo e Venenoso, número 994 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Toad",
+        "descricao": "Habitante do Reino dos Cogumelos de cabeça de cogumelo branca com manchas vermelhas, atendente da Princesa Peach.",
+        "variantes": [
+          "Kinopio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "toga",
+          "nome": "Toga",
+          "descricao": "Manto de lã enrolado ao corpo, traje característico dos cidadãos da Roma Antiga",
+          "variantes": [
+            "Toga romana"
+          ]
+        },
+        {
+          "id": "tora",
+          "nome": "Torá",
+          "descricao": "Conjunto dos cinco primeiros livros da Bíblia hebraica, base da lei judaica",
+          "variantes": [
+            "Torah"
+          ]
+        },
+        {
+          "id": "todd_snap",
+          "nome": "Todd Snap",
+          "descricao": "Fotógrafo de pokémon que aparece no anime Pokémon ao lado de Ash e é o protagonista do jogo Pokémon Snap.",
+          "variantes": [
+            "Todd"
+          ]
+        },
+        {
+          "id": "tornado",
+          "nome": "Tornado",
+          "descricao": "Coluna de ar em rotação violenta que se estende de uma nuvem de tempestade até o solo",
+          "variantes": []
+        },
+        {
+          "id": "kino",
+          "nome": "Kino",
+          "descricao": "Fruto espinhoso de Cucumis metuliferus, nativo da África, de polpa verde gelatinosa e casca alaranjada quando maduro.",
+          "variantes": [
+            "Kiwano",
+            "Melão-de-chifres",
+            "Pepino-africano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Agente 47",
+        "descricao": "Assassino profissional careca de terno e gravata vermelha, protagonista da série Hitman.",
+        "variantes": [
+          "47",
+          "Hitman"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "james_bond",
+          "nome": "James Bond",
+          "descricao": "Agente secreto britânico de código 007, criado pelo escritor Ian Fleming e levado ao cinema a partir de 1962.",
+          "variantes": [
+            "007",
+            "Agente 007"
+          ]
+        },
+        {
+          "id": "staryu",
+          "nome": "Staryu",
+          "descricao": "Pokémon estrela-do-mar de água da primeira geração, número 120 da Pokédex Nacional.",
+          "variantes": [
+            "Hitodeman"
+          ]
+        },
+        {
+          "id": "hitmonchan",
+          "nome": "Hitmonchan",
+          "descricao": "Pokémon lutador do tipo Lutador, de número 107 da Pokédex Nacional, que usa luvas de boxe.",
+          "variantes": [
+            "Ebiwalar"
+          ]
+        },
+        {
+          "id": "guepardo",
+          "nome": "Guepardo",
+          "descricao": "Felino de pelagem amarelada com manchas sólidas e o animal terrestre mais veloz (Acinonyx jubatus).",
+          "variantes": [
+            "Chita",
+            "Acinonyx jubatus"
+          ]
+        },
+        {
+          "id": "homo_sapiens",
+          "nome": "Homo sapiens",
+          "descricao": "Espécie humana moderna, a única do gênero Homo ainda viva.",
+          "variantes": [
+            "Ser humano",
+            "Humano moderno",
+            "Human",
+            "Ser humano moderno"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Banjo",
+        "descricao": "Urso pardo de bermuda amarela e mochila azul, protagonista da série Banjo-Kazooie da Rareware.",
+        "variantes": [
+          "Banjo-Kazooie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "banjo",
+          "nome": "Banjo",
+          "descricao": "Instrumento de cordas com caixa circular coberta por uma membrana, de origem afro-americana.",
+          "variantes": [
+            "Banjo de cinco cordas"
+          ]
+        },
+        {
+          "id": "banco_card_game_pokemon",
+          "nome": "Banco (card game Pokémon)",
+          "descricao": "Área da mesa no card game Pokémon onde ficam os pokémon do jogador que não estão na posição ativa.",
+          "variantes": [
+            "Bench",
+            "Banco"
+          ]
+        },
+        {
+          "id": "leque",
+          "nome": "Leque",
+          "descricao": "Objeto de mão, plano e largo, agitado para criar fluxo de ar e refrescar.",
+          "variantes": [
+            "Abano",
+            "Leque de mão"
+          ]
+        },
+        {
+          "id": "ankh",
+          "nome": "Ankh",
+          "descricao": "Símbolo egípcio em forma de cruz com uma alça no alto, frequentemente seguro pelos deuses nas representações",
+          "variantes": [
+            "Cruz ansata",
+            "Anj"
+          ]
+        },
+        {
+          "id": "libano",
+          "nome": "Líbano",
+          "descricao": "País do Levante, na Ásia Ocidental, banhado pelo Mediterrâneo, cuja capital é Beirute.",
+          "variantes": [
+            "República Libanesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Goomba",
+        "descricao": "Inimigo marrom em forma de cogumelo, o mais comum da franquia Mario.",
+        "variantes": [
+          "Kuribo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "numbat",
+          "nome": "Numbat",
+          "descricao": "Pequeno marsupial diurno, listrado, que se alimenta de cupins, do sudoeste da Austrália (Myrmecobius fasciatus).",
+          "variantes": [
+            "Myrmecobius fasciatus",
+            "Mirmecóbio",
+            "Noombat"
+          ]
+        },
+        {
+          "id": "gamba",
+          "nome": "Gambá",
+          "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+          "variantes": [
+            "Didelphis",
+            "Saruê",
+            "Opossum",
+            "Timbu"
+          ]
+        },
+        {
+          "id": "kibon",
+          "nome": "Kibon",
+          "descricao": "Marca de sorvetes fundada no Brasil nos anos 1940 pelo empresário americano Ulysses Harkson.",
+          "variantes": [
+            "U.S. Harkson do Brasil"
+          ]
+        },
+        {
+          "id": "cortada",
+          "nome": "Cortada",
+          "descricao": "Ataque do vôlei em que o jogador salta e golpeia a bola de cima para baixo na quadra adversária.",
+          "variantes": [
+            "Ataque",
+            "Spike",
+            "Bomba"
+          ]
+        },
+        {
+          "id": "gloom",
+          "nome": "Gloom",
+          "descricao": "Pokémon de planta e veneno, número 44 da Pokédex Nacional, evolução de Oddish.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "King K. Rool",
+        "descricao": "Rei crocodilo de coroa dourada, principal vilão da série Donkey Kong.",
+        "variantes": [
+          "K. Rool"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rei_boo",
+          "nome": "Rei Boo",
+          "descricao": "Líder dos fantasmas Boo e principal vilão da série Luigi's Mansion.",
+          "variantes": [
+            "King Boo"
+          ]
+        },
+        {
+          "id": "estacao_king_s_cross",
+          "nome": "Estação King's Cross",
+          "descricao": "Estação ferroviária de Londres, terminal de trens para o norte da Inglaterra e a Escócia.",
+          "variantes": [
+            "London King's Cross",
+            "King's Cross"
+          ]
+        },
+        {
+          "id": "canguru",
+          "nome": "Canguru",
+          "descricao": "Marsupiais saltadores australianos da família Macropodidae, de patas traseiras longas e cauda forte.",
+          "variantes": [
+            "Kangaroo"
+          ]
+        },
+        {
+          "id": "krookodile",
+          "nome": "Krookodile",
+          "descricao": "Pokémon dos tipos Terrestre e Sombrio, número 553 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "brocolis",
+          "nome": "Brócolis",
+          "descricao": "Hortaliça da família das couves (Brassica oleracea var. italica), cuja cabeça floral verde é comestível.",
+          "variantes": [
+            "Brócoli",
+            "Brócolos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Capitão Olimar",
+        "descricao": "Pequeno astronauta de capacete de vidro, protagonista da série Pikmin.",
+        "variantes": [
+          "Olimar",
+          "Captain Olimar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lima",
+          "nome": "Lima",
+          "descricao": "Capital e maior cidade do Peru, fundada em 1535.",
+          "variantes": [
+            "Cidade dos Reis",
+            "Ciudad de los Reyes"
+          ]
+        },
+        {
+          "id": "capitao_marvel_shazam",
+          "nome": "Capitão Marvel (Shazam)",
+          "descricao": "Super-herói criado em 1939 pela editora Fawcett, que se transforma ao gritar a palavra mágica Shazam",
+          "variantes": [
+            "Shazam",
+            "Captain Marvel"
+          ]
+        },
+        {
+          "id": "olympia_manet",
+          "nome": "Olympia (Manet)",
+          "descricao": "Pintura de Édouard Manet, de 1863, de uma mulher nua reclinada numa cama, com uma criada; está no Museu d'Orsay.",
+          "variantes": [
+            "Olympia",
+            "Olímpia"
+          ]
+        },
+        {
+          "id": "capitu",
+          "nome": "Capitu",
+          "descricao": "Personagem de Dom Casmurro, de Machado de Assis, amiga de infância e depois esposa de Bento Santiago.",
+          "variantes": [
+            "Capitolina",
+            "Capitu de Dom Casmurro"
+          ]
+        },
+        {
+          "id": "dolar",
+          "nome": "Dólar",
+          "descricao": "Nome de diversas moedas, como a dos Estados Unidos, derivado de uma antiga moeda de prata europeia.",
+          "variantes": [
+            "Dollar"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Personagem Liu Kang é distinto do jogo Mortal Kombat."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Waluigi é personagem distinto de Luigi e demais candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Sephiroth."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Alex Kidd não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Ellie é personagem fictícia, diferente das candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Simon Belmont não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Toad (personagem Mario) não consta entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Agente 47 é distinto de James Bond e demais."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Banjo urso personagem difere do instrumento musical homônimo."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Goomba não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "King K. Rool é distinto de Rei Boo e demais."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Capitão Olimar não corresponde a nenhuma candidata."
+    }
+  ]
+}

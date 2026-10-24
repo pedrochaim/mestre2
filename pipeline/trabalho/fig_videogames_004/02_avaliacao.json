@@ -1,0 +1,248 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arte nítida de personagem sozinho, sem texto; silhueta pouco característica.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que série de jogos de luta é este personagem?",
+      "resposta": "Mortal Kombat",
+      "distratores": [
+        "Street Fighter",
+        "Tekken",
+        "Killer Instinct"
+      ],
+      "ancora": {
+        "nome": "Liu Kang",
+        "descricao": "Monge Shaolin e campeão do torneio, protagonista da série de jogos de luta Mortal Kombat.",
+        "variantes": [
+          "Liu Kang (Mortal Kombat)"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Waluigi nítido e inconfundível; silhueta de chapéu, orelhas pontudas e corpo magro reconhecível.",
+      "usar_silhueta": true,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que dublador deu voz a este personagem na estreia dele, em Mario Tennis?",
+      "resposta": "Charles Martinet",
+      "ancora": {
+        "nome": "Waluigi",
+        "descricao": "Rival de Luigi e parceiro de Wario na franquia Mario, de roupa roxa e chapéu com a letra L invertida.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Corpo inteiro, personagem sozinho, silhueta com cabelo longo, ombreiras e katana muito característica.",
+      "usar_silhueta": true,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Sephiroth",
+      "ancora": {
+        "nome": "Sephiroth",
+        "descricao": "Ex-SOLDIER de cabelos prateados e katana longa, principal vilão de Final Fantasy VII.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Arte clara de Alex Kidd, sem texto; silhueta é uma mancha, então usa a colorida.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que empresa criou este personagem?",
+      "resposta": "Sega",
+      "distratores": [
+        "Nintendo",
+        "Capcom",
+        "Konami"
+      ],
+      "ancora": {
+        "nome": "Alex Kidd",
+        "descricao": "Príncipe macaco de macacão vermelho, protagonista da série Alex Kidd e segundo mascote da Sega.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato claro de Ellie, sem texto, reconhecível por quem conhece o jogo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem é esta personagem?",
+      "resposta": "Ellie",
+      "ancora": {
+        "nome": "Ellie (The Last of Us)",
+        "descricao": "Jovem imune ao fungo Cordyceps, protagonista da série de jogos The Last of Us.",
+        "variantes": [
+          "Ellie Williams"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Arte de corpo inteiro com chicote, sem texto; reconhecível como caçador da série Castlevania. Silhueta não distingue entre os Belmont, então usa a colorida e pergunta pela empresa.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que empresa criou a série de jogos deste personagem?",
+      "resposta": "Konami",
+      "distratores": [
+        "Capcom",
+        "Sega",
+        "Namco"
+      ],
+      "ancora": {
+        "nome": "Simon Belmont",
+        "descricao": "Caçador de vampiros com chicote, herói da série Castlevania.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Toad nítido, sem texto; silhueta é um bulbo genérico, então usa a colorida.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "A que princesa este personagem serve como atendente?",
+      "resposta": "Princesa Peach",
+      "ancora": {
+        "nome": "Toad",
+        "descricao": "Habitante do Reino dos Cogumelos de cabeça de cogumelo branca com manchas vermelhas, atendente da Princesa Peach.",
+        "variantes": [
+          "Kinopio"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato claro de Agente 47 sem texto; figura reconhecível (careca, terno preto, gravata vermelha).",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem é este personagem?",
+      "resposta": "Agente 47",
+      "ancora": {
+        "nome": "Agente 47",
+        "descricao": "Assassino profissional careca de terno e gravata vermelha, protagonista da série Hitman.",
+        "variantes": [
+          "47",
+          "Hitman"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Arte nítida de Banjo, sem texto; silhueta é mancha sem contorno claro.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é o nome deste personagem?",
+      "resposta": "Banjo",
+      "distratores": [
+        "Conker",
+        "Crash Bandicoot",
+        "Spyro"
+      ],
+      "ancora": {
+        "nome": "Banjo",
+        "descricao": "Urso pardo de bermuda amarela e mochila azul, protagonista da série Banjo-Kazooie da Rareware.",
+        "variantes": [
+          "Banjo-Kazooie"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Goomba nítido e inconfundível; silhueta de cogumelo genérica, usa a colorida.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que inimigo da série Mario é este?",
+      "resposta": "Goomba",
+      "ancora": {
+        "nome": "Goomba",
+        "descricao": "Inimigo marrom em forma de cogumelo, o mais comum da franquia Mario.",
+        "variantes": [
+          "Kuribo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cena renderizada nítida de King K. Rool, sem texto; barras brancas são só moldura.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que povo este vilão governa?",
+      "resposta": "Kremlings",
+      "distratores": [
+        "Koopas",
+        "Gerudos",
+        "Octoroks"
+      ],
+      "ancora": {
+        "nome": "King K. Rool",
+        "descricao": "Rei crocodilo de coroa dourada, principal vilão da série Donkey Kong.",
+        "variantes": [
+          "K. Rool"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Personagem sozinho, corpo inteiro; silhueta com capacete de vidro e antena luminosa é característica.",
+      "usar_silhueta": true,
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que criaturas este astronauta comanda para recuperar as peças de sua nave?",
+      "resposta": "Pikmin",
+      "ancora": {
+        "nome": "Capitão Olimar",
+        "descricao": "Pequeno astronauta de capacete de vidro, protagonista da série Pikmin.",
+        "variantes": [
+          "Olimar",
+          "Captain Olimar"
+        ]
+      }
+    }
+  ]
+}
