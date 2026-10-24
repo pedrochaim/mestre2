@@ -1,0 +1,146 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Rolos fritos em bandeja com outros itens e placa com texto; fácil confundir com outros rolinhos, resposta não única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Rótulo com 'Gorgonzola D.O.P.' visível entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Parece vinho branco ou espumante numa garrafa; o hidromel não é reconhecível pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Embalagem com texto (Casa Modenese, Mortadella) visível e pessoas ao fundo."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Tigela de feijão-vermelho com carne e nachos, reconhecível. Família trocada para o_que_e, nível 2, múltipla.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato é este, servido com tortilhas crocantes?",
+      "resposta": "Chili com carne",
+      "distratores": [
+        "Feijoada",
+        "Baked beans",
+        "Goulash"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chili com carne",
+        "descricao": "Ensopado picante de origem mexicano-texana, com pimenta, carne, feijão e tomate.",
+        "variantes": [
+          "Chili con carne",
+          "Chili"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Pasta cremosa de berinjela com azeite, romã e hortelã, reconhecível. Pode lembrar homus, por isso múltipla.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pasta do Oriente Médio é esta?",
+      "resposta": "Babaganuche",
+      "distratores": [
+        "Homus",
+        "Coalhada seca",
+        "Tzatziki"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Babaganuche",
+        "descricao": "Pasta levantina de berinjela assada, tahine, azeite e limão.",
+        "variantes": [
+          "Baba ghanoush",
+          "Baba ganoush",
+          "Babaganoush"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fatia de torta com creme de limão e merengue dourado, bem visível, sem texto.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Como se chama a cobertura branca e dourada desta torta?",
+      "resposta": "Merengue",
+      "destino": 0,
+      "ancora": {
+        "nome": "Torta de limão com merengue",
+        "descricao": "Torta de massa amanteigada recheada com creme de limão e coberta com merengue.",
+        "variantes": [
+          "Torta de limão",
+          "Lemon meringue pie"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Salada de trigo, salsa e tomate muito característica, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que salada árabe é esta?",
+      "resposta": "Tabule",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tabule",
+        "descricao": "Salada levantina de salsa picada, trigo bulgur, tomate, hortelã e cebola.",
+        "variantes": [
+          "Tabbouleh",
+          "Tabouli",
+          "Tabulé"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Espetos de frango vermelho-alaranjado com marcas de brasa, aspecto típico do tandoori, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que prato indiano é este?",
+      "resposta": "Frango tandoori",
+      "destino": 0,
+      "ancora": {
+        "nome": "Frango tandoori",
+        "descricao": "Frango indiano marinado em iogurte e especiarias, assado em forno de barro tandoor.",
+        "variantes": [
+          "Tandoori chicken",
+          "Frango tandoori"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Queijo branco redondo e liso, sem traço distintivo; pode ser outro queijo fresco, resposta não única."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Pasta alaranjada com fatias de banana, difícil de reconhecer como pirão; resposta ambígua."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Pote com chá e película flutuante; pode ser confundido com vinagre caseiro ou kefir, e o respondente não reconhece com segurança."
+    }
+  ]
+}

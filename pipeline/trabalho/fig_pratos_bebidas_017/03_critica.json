@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'servido com tortilhas crocantes' não está nos trechos nem em 'mostra', então não é confirmável para esta foto. Os trechos citam queijos, salsas, biscoitos salgados e acompanhamentos variados, e nenhum cita tortilhas. A pergunta fica mais segura sem a pista.",
+      "reescrita": {
+        "pergunta": "Que prato é este?",
+        "resposta": "Chili com carne",
+        "distratores": [
+          "Feijoada",
+          "Baked beans",
+          "Goulash"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pasta é levantina, de berinjela e tahine, e os trechos confirmam. O enunciado não vaza a resposta. Os distratores são plausíveis, têm até 4 palavras e nenhum deles é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta pede só uma parte da torta e não exige reconhecê-la, então não chega ao nível 3. 'Branca e dourada' é um detalhe de cor que não está confirmado para esta foto. O termo 'merengue' também aparece no nome da torta, e uma 'cobertura de torta' pode ser chantilly ou outra. É melhor pedir a identificação da torta em múltipla escolha.",
+      "reescrita": {
+        "pergunta": "Que torta é esta?",
+        "resposta": "Torta de limão com merengue",
+        "distratores": [
+          "Torta de maçã",
+          "Cheesecake",
+          "Torta de nozes"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O tabule é uma salada levantina, libanesa e árabe, e os trechos confirmam. O enunciado não vaza a resposta, que é única. A pergunta é de nível 1 e aberta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O frango tandoori é um prato indiano, confirmado pelos trechos. O enunciado é curto, não vaza a resposta e é adequado para o nível 1.",
+      "reescrita": null
+    }
+  ]
+}

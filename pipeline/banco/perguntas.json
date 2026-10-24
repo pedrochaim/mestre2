@@ -292733,5 +292733,113 @@
       "autor": "9EkieraM1",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q15430",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "chili_com_carne",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que prato é este?",
+    "resposta": "Chili com carne",
+    "distratores": [
+      "Feijoada",
+      "Baked beans",
+      "Goulash"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chili_con_carne",
+      "https://pt.wikipedia.org/wiki/Chili_com_carne"
+    ],
+    "imagem": {
+      "arquivo": "q15430.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bowl_of_chili.jpg",
+      "autor": "Carstor",
+      "licenca": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "id": "q15431",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "babaganuche",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que pasta do Oriente Médio é esta?",
+    "resposta": "Babaganuche",
+    "distratores": [
+      "Homus",
+      "Coalhada seca",
+      "Tzatziki"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Baba_ghanoush",
+      "https://pt.wikipedia.org/wiki/Baba_ghanoush"
+    ],
+    "imagem": {
+      "arquivo": "q15431.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Noura_Restaurant_(3385996373).jpg",
+      "autor": "Serge Melki from Indianapolis, USA",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q15432",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "torta_de_limao_com_merengue",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que torta é esta?",
+    "resposta": "Torta de limão com merengue",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lemon_meringue_pie"
+    ],
+    "imagem": {
+      "arquivo": "q15432.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:NCI_Visuals_Food_Pie.jpg",
+      "autor": "Renee Comet (photographer)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15433",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "tabule",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que salada árabe é esta?",
+    "resposta": "Tabule",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tabbouleh",
+      "https://pt.wikipedia.org/wiki/Tabule"
+    ],
+    "imagem": {
+      "arquivo": "q15433.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flickr_-_cyclonebill_-_Tabbouleh.jpg",
+      "autor": "cyclonebill",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q15434",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "frango_tandoori",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que prato indiano é este?",
+    "resposta": "Frango tandoori",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tandoori_chicken"
+    ],
+    "imagem": {
+      "arquivo": "q15434.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Chickentandoori.jpg",
+      "autor": "kspoddar",
+      "licenca": "CC BY-SA 2.0"
+    }
   }
 ]
