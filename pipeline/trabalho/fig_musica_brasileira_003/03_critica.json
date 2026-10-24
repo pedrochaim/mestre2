@@ -1,0 +1,70 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; o enunciado só dá a categoria genérica e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Zé Ramalho é primo de Elba. Ele é paraibano. Sem a figura não se sabe de quem é o primo.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o Império Serrano. Os distratores são escolas cariocas críveis e nenhum está certo.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento, sem vazamento. 'Cantora de MPB' é uma pista genérica.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que Aldir Blanc foi o parceiro mais frequente. Vinicius, Paulo César Pinheiro e Chico não foram o principal parceiro. Sem a figura não dá para responder.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos o descrevem como bandolinista brasileiro. Os distratores são músicos do mesmo tipo e nenhum aparece na imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Dona de Mim foi o álbum de estreia, de 2018. Os distratores são álbuns de outros artistas brasileiros e não estão corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "O trecho em português diz que Macalé rompeu com os tropicalistas e considerou o movimento cooptado. 'Papel influente' na Tropicália é discutível, e 'Tropicália' é a resposta mais provável para qualquer movimento dos anos sessenta. O nível 1 pede reconhecimento, então a pergunta passa a pedir o nome.",
+      "reescrita": {
+        "pergunta": "Que cantor, compositor e ator carioca é este?",
+        "resposta": "Jards Macalé"
+      }
+    }
+  ]
+}

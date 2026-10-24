@@ -1,0 +1,205 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto de palco nítida, sem texto, figura pública.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cantor e compositor brasileiro é este?",
+      "resposta": "Djavan",
+      "distratores": [],
+      "ancora": {
+        "nome": "Djavan",
+        "descricao": "Cantor, compositor e violonista brasileiro nascido em Maceió em 1949.",
+        "variantes": [
+          "Djavan Caetano Viana"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto de show nítida, sem texto legível, figura pública.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que cantor paraibano é primo de primeiro grau desta cantora?",
+      "resposta": "Zé Ramalho",
+      "distratores": [],
+      "ancora": {
+        "nome": "Elba Ramalho",
+        "descricao": "Cantora e compositora paraibana de forró e MPB, nascida em 1951.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Com qual escola de samba do Rio de Janeiro esta sambista e compositora ficou historicamente ligada?",
+      "resposta": "Império Serrano",
+      "distratores": [
+        "Estação Primeira de Mangueira",
+        "Portela",
+        "Acadêmicos do Salgueiro"
+      ],
+      "ancora": {
+        "nome": "Dona Ivone Lara",
+        "descricao": "Sambista e compositora carioca (1922–2018), da ala de compositores do Império Serrano.",
+        "variantes": [
+          "Yvonne Lara da Costa"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto de palco nítida, sem texto, figura pública.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cantora brasileira de MPB é esta?",
+      "resposta": "Simone",
+      "distratores": [],
+      "ancora": {
+        "nome": "Simone",
+        "descricao": "Cantora brasileira de MPB nascida em 1949, com mais de 30 álbuns.",
+        "variantes": [
+          "Simone Bittencourt de Oliveira"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Tubo metálico liso sobre feltro verde; não é reconhecível como ganzá e poderia ser outro objeto ou chocalho."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Cantor pequeno e distante no palco, com outros músicos ao fundo; não é reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida da cantora com violão, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cantora e compositora brasileira é esta?",
+      "resposta": "Zélia Duncan",
+      "distratores": [],
+      "ancora": {
+        "nome": "Zélia Duncan",
+        "descricao": "Cantora e compositora brasileira nascida em 1964.",
+        "variantes": [
+          "Zélia Cristina Gonçalves Moreira"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido em preto e branco, sem texto, figura pública.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que letrista foi o principal parceiro deste compositor e violonista?",
+      "resposta": "Aldir Blanc",
+      "distratores": [
+        "Vinicius de Moraes",
+        "Paulo César Pinheiro",
+        "Chico Buarque"
+      ],
+      "ancora": {
+        "nome": "João Bosco",
+        "descricao": "Cantor, compositor e violonista brasileiro de MPB nascido em 1946, parceiro de Aldir Blanc.",
+        "variantes": [
+          "João Bosco de Freitas Mucci"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto de perfil, desfocada, com pessoa pouco reconhecível e etiqueta no peito; não dá para reconhecer a artista."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida do músico com bandolim de dez cordas, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que bandolinista brasileiro é este?",
+      "resposta": "Hamilton de Holanda",
+      "distratores": [
+        "Danilo Brito",
+        "Armandinho Macedo",
+        "Jacob do Bandolim"
+      ],
+      "ancora": {
+        "nome": "Hamilton de Holanda",
+        "descricao": "Bandolinista brasileiro nascido em 1976, que une choro e jazz contemporâneo.",
+        "variantes": [
+          "Hamilton de Holanda Vasconcelos Neto"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Quadro nítido da cantora em apresentação, sem texto; resolução modesta mas legível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual foi o álbum de estreia desta cantora, lançado em 2018?",
+      "resposta": "Dona de Mim",
+      "distratores": [
+        "Tropix",
+        "Mulher do Fim do Mundo",
+        "Caravanas"
+      ],
+      "ancora": {
+        "nome": "Iza",
+        "descricao": "Cantora, compositora e dançarina brasileira nascida em 1990, que ficou famosa com covers no YouTube.",
+        "variantes": [
+          "IZA",
+          "Isabela Cristina Correia de Lima"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Close nítido de figura pública, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este compositor e cantor teve papel influente em que movimento musical brasileiro dos anos sessenta?",
+      "resposta": "Tropicália",
+      "distratores": [],
+      "ancora": {
+        "nome": "Jards Macalé",
+        "descricao": "Compositor, cantor e ator brasileiro (1943–2025), ligado à Tropicália.",
+        "variantes": [
+          "Jards Anet da Silva"
+        ]
+      }
+    }
+  ]
+}
