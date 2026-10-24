@@ -1,0 +1,89 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que gema, produzida por moluscos, é esta?",
+        "resposta": "Pérola"
+      },
+      "existentes": [
+        {
+          "id": "q02563",
+          "pergunta": "Quando um corpo estranho entra numa ostra, ela o envolve em camadas de que substância brilhante, formando uma pérola?",
+          "resposta": "Nácar"
+        },
+        {
+          "id": "q07746",
+          "pergunta": "Dentro de ostras e mexilhões, as pérolas naturais se formam como reação a quê?",
+          "resposta": "Um irritante que invade a concha"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que pequeno animal de água doce, de corpo tubular e tentáculos, é este?",
+        "resposta": "Hidra"
+      },
+      "existentes": [
+        {
+          "id": "q14834",
+          "pergunta": "Que pequeno animal de água doce, visto ao microscópio, é este?",
+          "resposta": "Hidra"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que osso do corpo humano é este?",
+        "resposta": "Mandíbula"
+      },
+      "existentes": [
+        {
+          "id": "q11839",
+          "pergunta": "Responsável por segurar os dentes de baixo, qual é o maior e mais forte osso do rosto humano?",
+          "resposta": "Mandíbula"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que mineral azul-escuro é este?",
+        "resposta": "Azurita"
+      },
+      "existentes": [
+        {
+          "id": "q14033",
+          "pergunta": "Que metal dá a cor azul intensa a este mineral?",
+          "resposta": "Cobre"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar a gema pela imagem (pérola); as existentes perguntam nácar e a causa da formação, fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar a hidra como pequeno animal de água doce, com a mesma resposta.",
+      "id_existente": "q14834"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas levam à mandíbula como osso; quem soubesse que é o maior osso do rosto que segura os dentes de baixo responderia.",
+      "id_existente": "q11839"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome do mineral (azurita); a existente pede o metal que dá a cor (cobre), fato diferente."
+    }
+  ]
+}
