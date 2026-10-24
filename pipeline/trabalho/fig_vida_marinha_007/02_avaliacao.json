@@ -1,0 +1,213 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de albatroz-errante, ave marinha reconhecível; pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta ave marinha detém qual recorde entre as aves vivas?",
+      "resposta": "Maior envergadura de asas",
+      "destino": 0,
+      "ancora": {
+        "nome": "Albatroz-errante",
+        "descricao": "Grande ave marinha do Oceano Austral (Diomedea exulans), com a maior envergadura de asas entre as aves vivas.",
+        "variantes": [
+          "Albatroz-gigante",
+          "Snowy albatross",
+          "Wandering albatross",
+          "Diomedea exulans"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Imagem muito escura e com cores distorcidas, pouco legível no celular; difícil distinguir a espécie de outros caranguejos-reais."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Corpo achatado e boca ampla típicos do tubarão-anjo, bem visíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tubarão é este, deitado no fundo arenoso?",
+      "resposta": "Tubarão-anjo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tubarão-anjo",
+        "descricao": "Tubarão de corpo achatado do gênero Squatina, que vive no fundo arenoso e lembra uma raia.",
+        "variantes": [
+          "Anjo-do-mar",
+          "Squatina",
+          "Angel shark"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Duas orcas saltando, inconfundíveis pela pigmentação; pergunta de nível 3 sustentada pelo trecho.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este animal é o maior representante de qual família de cetáceos?",
+      "resposta": "Golfinhos",
+      "destino": 0,
+      "ancora": {
+        "nome": "Orca",
+        "descricao": "Cetáceo dentado preto e branco (Orcinus orca), o maior membro da família dos golfinhos.",
+        "variantes": [
+          "Baleia-assassina",
+          "Orcinus orca",
+          "Killer whale"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida, com pernas longas características do caranguejo-aranha-japonês; resposta única.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que caranguejo gigante é este?",
+      "resposta": "Caranguejo-aranha-japonês",
+      "destino": 0,
+      "ancora": {
+        "nome": "Caranguejo-aranha-japonês",
+        "descricao": "Caranguejo marinho das águas do Japão (Macrocheira kaempferi), com a maior envergadura de pernas entre os artrópodes.",
+        "variantes": [
+          "Macrocheira kaempferi",
+          "Japanese spider crab",
+          "Taka-ashi-gani"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Camarão de faixa vermelha e antenas longas, bem visível, de tipo limpador; a pergunta é pela função, comum às espécies parecidas.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Nos recifes, que papel este camarão desempenha em relação aos peixes?",
+      "resposta": "Limpa os parasitas dos peixes",
+      "destino": 0,
+      "ancora": {
+        "nome": "Camarão-limpador",
+        "descricao": "Camarão de recife (Lysmata amboinensis) que se alimenta de parasitas e tecido morto de peixes.",
+        "variantes": [
+          "Lysmata amboinensis",
+          "Camarão-limpador-do-Pacífico",
+          "Skunk cleaner shrimp"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem pequena, borrada e escura; a concha está coberta pelo manto e o búzio não é reconhecível."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Caranguejo terrestre de carapaça abaulada e quela grande, em foto nítida; múltipla com caranguejos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que caranguejo de manguezais e áreas costeiras é este?",
+      "resposta": "Guaiamum",
+      "distratores": [
+        "Caranguejo-uçá",
+        "Aratu",
+        "Chama-maré"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Guaiamum",
+        "descricao": "Caranguejo terrestre azulado (Cardisoma guanhumi) das regiões costeiras e estuarinas do Atlântico americano.",
+        "variantes": [
+          "Guaiamu",
+          "Cardisoma guanhumi",
+          "Great land crab"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução; muitos cones têm formato parecido, então a espécie não é única diante da imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cabeça em forma de martelo claramente visível; resposta única no nível do grupo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tubarão é este?",
+      "resposta": "Tubarão-martelo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tubarão-martelo",
+        "descricao": "Tubarão do gênero Sphyrna, com a cabeça achatada e alargada em forma de martelo.",
+        "variantes": [
+          "Sphyrna",
+          "Cambeva",
+          "Hammerhead shark",
+          "Tubarão-martelo-panã"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ofiúro de corpo em disco e braços finos com espinhos, bem visível; distratores são outros equinodermos.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que equinoderma é este?",
+      "resposta": "Ofiúro",
+      "distratores": [
+        "Ouriço-do-mar",
+        "Pepino-do-mar",
+        "Bolacha-da-praia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ofiúro",
+        "descricao": "Equinoderma da classe Ophiuroidea, com disco central e cinco braços longos e flexíveis.",
+        "variantes": [
+          "Estrela-serpente",
+          "Ofiuroide",
+          "Brittle star",
+          "Serpent star"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Peixe-morcego reconhecível pelo focinho e pelas nadadeiras em forma de pernas; resposta no nível do grupo, já que os lábios vermelhos não aparecem.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que peixe de aparência estranha, que anda pelo fundo do mar, é este?",
+      "resposta": "Peixe-morcego",
+      "destino": 0,
+      "ancora": {
+        "nome": "Peixe-morcego-de-lábios-vermelhos",
+        "descricao": "Peixe-morcego (Ogcocephalus darwini) das ilhas Galápagos, que caminha no fundo com as nadadeiras e tem lábios vermelhos.",
+        "variantes": [
+          "Ogcocephalus darwini",
+          "Galápagos batfish",
+          "Red-lipped batfish",
+          "Peixe-morcego"
+        ]
+      }
+    }
+  ]
+}

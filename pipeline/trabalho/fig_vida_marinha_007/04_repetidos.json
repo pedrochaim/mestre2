@@ -1,0 +1,71 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este animal é o maior representante de qual família de cetáceos?",
+        "resposta": "Golfinhos"
+      },
+      "existentes": [
+        {
+          "id": "q01730",
+          "pergunta": "Este mamífero marinho é o maior representante de qual família de cetáceos?",
+          "resposta": "Golfinhos"
+        },
+        {
+          "id": "q09572",
+          "pergunta": "A família dos golfinhos tem dezenas de espécies. Qual é a maior delas, que muita gente chama de baleia?",
+          "resposta": "Orca"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que caranguejo gigante é este?",
+        "resposta": "Caranguejo-aranha-japonês"
+      },
+      "existentes": [
+        {
+          "id": "q09570",
+          "pergunta": "Com patas finas que podem medir quase quatro metros de ponta a ponta, que caranguejo das águas do Japão tem a maior envergadura entre os artrópodes?",
+          "resposta": "Caranguejo-aranha-japonês"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que tubarão é este?",
+        "resposta": "Tubarão-martelo"
+      },
+      "existentes": [
+        {
+          "id": "q15026",
+          "pergunta": "Que tubarão é este?",
+          "resposta": "Tubarão-martelo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta (maior representante da família dos golfinhos) com resposta idêntica, só muda 'animal' por 'mamífero marinho'.",
+      "id_existente": "q01730"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas identificam o caranguejo-aranha-japonês, resposta igual, a partir da imagem/descrição.",
+      "id_existente": "q09570"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Pergunta e resposta idênticas: identificar o tubarão-martelo.",
+      "id_existente": "q15026"
+    }
+  ]
+}

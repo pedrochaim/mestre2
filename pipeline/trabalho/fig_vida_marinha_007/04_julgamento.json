@@ -1,0 +1,544 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tubarão-anjo",
+        "descricao": "Tubarão de corpo achatado do gênero Squatina, que vive no fundo arenoso e lembra uma raia.",
+        "variantes": [
+          "Anjo-do-mar",
+          "Squatina",
+          "Angel shark"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubarao_branco",
+          "nome": "Tubarão-branco",
+          "descricao": "Grande tubarão predador (Carcharodon carcharias), de dorso cinzento e ventre branco.",
+          "variantes": [
+            "Carcharodon carcharias",
+            "Tubarão-branco-grande"
+          ]
+        },
+        {
+          "id": "cetim",
+          "nome": "Cetim",
+          "descricao": "Tecido de trama que deixa uma face lisa e brilhante, feito originalmente de seda",
+          "variantes": [
+            "Satin"
+          ]
+        },
+        {
+          "id": "quati",
+          "nome": "Quati",
+          "descricao": "Mamífero procionídeo sul-americano de focinho comprido e cauda anelada (Nasua nasua).",
+          "variantes": [
+            "Quati-de-cauda-anelada",
+            "Nasua nasua"
+          ]
+        },
+        {
+          "id": "cinchona",
+          "nome": "Cinchona",
+          "descricao": "Gênero de árvores andinas de cuja casca se extrai o quinino",
+          "variantes": [
+            "Quina",
+            "Chinchona"
+          ]
+        },
+        {
+          "id": "tubarao_raposa",
+          "nome": "Tubarão-raposa",
+          "descricao": "Tubarão do gênero Alopias, de cauda quase tão longa quanto o resto do corpo.",
+          "variantes": [
+            "Alopias",
+            "Thresher shark",
+            "Tubarão-rabarraposa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Orca",
+        "descricao": "Cetáceo dentado preto e branco (Orcinus orca), o maior membro da família dos golfinhos.",
+        "variantes": [
+          "Baleia-assassina",
+          "Orcinus orca",
+          "Killer whale"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "orca",
+          "nome": "Orca",
+          "descricao": "Cetáceo dentado preto e branco, o maior membro da família dos golfinhos oceânicos (Orcinus orca).",
+          "variantes": [
+            "Baleia-assassina",
+            "Orcinus orca",
+            "Killer whale"
+          ]
+        },
+        {
+          "id": "federico_garcia_lorca",
+          "nome": "Federico García Lorca",
+          "descricao": "Poeta e dramaturgo espanhol (1898–1936), autor de Bodas de Sangue.",
+          "variantes": [
+            "García Lorca",
+            "Lorca"
+          ]
+        },
+        {
+          "id": "oca",
+          "nome": "Oca",
+          "descricao": "Habitação coletiva tradicional de povos indígenas do Brasil, de estrutura de madeira coberta de palha.",
+          "variantes": [
+            "Oka"
+          ]
+        },
+        {
+          "id": "abelha_africanizada",
+          "nome": "Abelha-africanizada",
+          "descricao": "Híbrido entre abelhas europeias e africanas surgido no Brasil e espalhado pelas Américas, conhecido pela defesa agressiva da colmeia.",
+          "variantes": [
+            "abelha assassina",
+            "Africanized bee"
+          ]
+        },
+        {
+          "id": "boca_juniors",
+          "nome": "Boca Juniors",
+          "descricao": "Club Atlético Boca Juniors, clube de futebol de Buenos Aires fundado em 1905 no bairro de La Boca.",
+          "variantes": [
+            "Club Atlético Boca Juniors",
+            "Boca",
+            "Xeneizes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Caranguejo-aranha-japonês",
+        "descricao": "Caranguejo marinho das águas do Japão (Macrocheira kaempferi), com a maior envergadura de pernas entre os artrópodes.",
+        "variantes": [
+          "Macrocheira kaempferi",
+          "Japanese spider crab",
+          "Taka-ashi-gani"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caranguejo_aranha_japones",
+          "nome": "Caranguejo-aranha-japonês",
+          "descricao": "Caranguejo marinho das águas do Japão (Macrocheira kaempferi), de patas longas e finas.",
+          "variantes": [
+            "Caranguejo-aranha-gigante",
+            "Macrocheira kaempferi",
+            "Japanese spider crab"
+          ]
+        },
+        {
+          "id": "caranguejo_fantasma",
+          "nome": "Caranguejo-fantasma",
+          "descricao": "Caranguejo de praia do gênero Ocypode, de olhos em hastes longas, que vive na areia.",
+          "variantes": [
+            "Caranguejo",
+            "Maria-farinha",
+            "Ocypode"
+          ]
+        },
+        {
+          "id": "cerejeira_japonesa",
+          "nome": "Cerejeira-japonesa",
+          "descricao": "Árvores ornamentais do gênero Prunus, as sakuras, famosas pela floração na primavera",
+          "variantes": [
+            "Sakura",
+            "Cerejeira ornamental"
+          ]
+        },
+        {
+          "id": "limulo",
+          "nome": "Límulo",
+          "descricao": "Artrópode marinho da família Limulidae, conhecido como caranguejo-ferradura, de carapaça em forma de ferradura e sangue azul.",
+          "variantes": [
+            "caranguejo-ferradura",
+            "horseshoe crab",
+            "Limulus polyphemus"
+          ]
+        },
+        {
+          "id": "caramujo_gigante_africano",
+          "nome": "Caramujo-gigante-africano",
+          "descricao": "Molusco terrestre (Achatina fulica) nativo da África Oriental, espécie invasora no Brasil.",
+          "variantes": [
+            "Achatina fulica",
+            "Lissachatina fulica",
+            "caramujo-africano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Camarão-limpador",
+        "descricao": "Camarão de recife (Lysmata amboinensis) que se alimenta de parasitas e tecido morto de peixes.",
+        "variantes": [
+          "Lysmata amboinensis",
+          "Camarão-limpador-do-Pacífico",
+          "Skunk cleaner shrimp"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubarao_zebra",
+          "nome": "Tubarão-zebra",
+          "descricao": "Tubarão-tapete do Indo-Pacífico (Stegostoma tigrinum), de corpo com cristas e manchas escuras quando adulto.",
+          "variantes": [
+            "Stegostoma tigrinum",
+            "Stegostoma fasciatum",
+            "Tubarão-leopardo-do-indo-pacífico",
+            "Zebra shark"
+          ]
+        },
+        {
+          "id": "camaleao_do_iemen",
+          "nome": "Camaleão-do-iêmen",
+          "descricao": "Camaleão Chamaeleo calyptratus, com capacete alto na cabeça, nativo do Iêmen e da Arábia Saudita.",
+          "variantes": [
+            "Camaleão",
+            "Camaleão-velado",
+            "Chamaeleo calyptratus"
+          ]
+        },
+        {
+          "id": "grande_porcao_de_lixo_do_pacifico",
+          "nome": "Grande Porção de Lixo do Pacífico",
+          "descricao": "Grande acúmulo de detritos, sobretudo plásticos, que flutua no oceano Pacífico Norte.",
+          "variantes": [
+            "Great Pacific garbage patch",
+            "Mancha de lixo do Pacífico",
+            "Ilha de lixo do Pacífico"
+          ]
+        },
+        {
+          "id": "camara_selada",
+          "nome": "Câmara Selada",
+          "descricao": "Câmara submarina de Hoenn, em Pokémon Ruby, Sapphire e Emerald, cujas inscrições guiam o jogador até Regirock, Regice e Registeel.",
+          "variantes": [
+            "Sealed Chamber"
+          ]
+        },
+        {
+          "id": "circulo_de_fogo_do_pacifico",
+          "nome": "Círculo de Fogo do Pacífico",
+          "descricao": "Faixa de intensa atividade vulcânica e sísmica que contorna as bordas de um oceano.",
+          "variantes": [
+            "Anel de Fogo",
+            "Cinturão de Fogo",
+            "Ring of Fire",
+            "Cinturão de Fogo do Pacífico",
+            "Anel de Fogo do Pacífico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Guaiamum",
+        "descricao": "Caranguejo terrestre azulado (Cardisoma guanhumi) das regiões costeiras e estuarinas do Atlântico americano.",
+        "variantes": [
+          "Guaiamu",
+          "Cardisoma guanhumi",
+          "Great land crab"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lago_guaiba",
+          "nome": "Lago Guaíba",
+          "descricao": "Corpo d'água do Rio Grande do Sul, formado pelo encontro de vários rios, que deságua na Lagoa dos Patos.",
+          "variantes": [
+            "Guaíba",
+            "Rio Guaíba"
+          ]
+        },
+        {
+          "id": "bugio",
+          "nome": "Bugio",
+          "descricao": "Macacos do gênero Alouatta, das Américas, famosos pelos uivos altíssimos.",
+          "variantes": [
+            "Guariba",
+            "Alouatta",
+            "Howler monkey",
+            "Barbado"
+          ]
+        },
+        {
+          "id": "rio_negro",
+          "nome": "Rio Negro",
+          "descricao": "Rio de águas escuras da Amazônia, principal afluente da margem esquerda do Amazonas, que passa por Manaus.",
+          "variantes": [
+            "Rio Negro (Amazonas)",
+            "Rio Negro do Amazonas",
+            "Guainía",
+            "Negro River"
+          ]
+        },
+        {
+          "id": "gulab_jamun",
+          "nome": "Gulab jamun",
+          "descricao": "Doce indiano de bolinhos de leite em pó ou khoya fritos e servidos em calda de açúcar.",
+          "variantes": [
+            "Gulabjamun"
+          ]
+        },
+        {
+          "id": "magna_carta",
+          "nome": "Magna Carta",
+          "descricao": "Carta de direitos que os barões ingleses impuseram ao rei em 1215, limitando o poder da coroa.",
+          "variantes": [
+            "Magna Charta",
+            "Grande Carta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tubarão-martelo",
+        "descricao": "Tubarão do gênero Sphyrna, com a cabeça achatada e alargada em forma de martelo.",
+        "variantes": [
+          "Sphyrna",
+          "Cambeva",
+          "Hammerhead shark",
+          "Tubarão-martelo-panã"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubarao_martelo",
+          "nome": "Tubarão-martelo",
+          "descricao": "Tubarão da família Sphyrnidae, com a cabeça achatada e alongada lateralmente em forma de T.",
+          "variantes": [
+            "Tubarão-martelo-recortado",
+            "Hammerhead shark",
+            "Sphyrnidae"
+          ]
+        },
+        {
+          "id": "barracuda",
+          "nome": "Barracuda",
+          "descricao": "Peixe predador alongado de mandíbula grande, do gênero Sphyraena, de mares tropicais.",
+          "variantes": [
+            "Sphyraena"
+          ]
+        },
+        {
+          "id": "cartoes_amarelo_e_vermelho",
+          "nome": "Cartões amarelo e vermelho",
+          "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+          "variantes": [
+            "Cartão amarelo",
+            "Cartão vermelho",
+            "Penalty card"
+          ]
+        },
+        {
+          "id": "tubarao_romance",
+          "nome": "Tubarão (romance)",
+          "descricao": "Romance americano de 1974 sobre um tubarão-branco que ataca um balneário, base do filme de Steven Spielberg.",
+          "variantes": [
+            "Jaws"
+          ]
+        },
+        {
+          "id": "tubarao_da_groenlandia",
+          "nome": "Tubarão-da-groenlândia",
+          "descricao": "Tubarão lento de águas frias do Atlântico Norte e do Ártico (Somniosus microcephalus), famoso pela longevidade.",
+          "variantes": [
+            "Somniosus microcephalus",
+            "Greenland shark"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ofiúro",
+        "descricao": "Equinoderma da classe Ophiuroidea, com disco central e cinco braços longos e flexíveis.",
+        "variantes": [
+          "Estrela-serpente",
+          "Ofiuroide",
+          "Brittle star",
+          "Serpent star"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ouro",
+          "nome": "Ouro",
+          "descricao": "Elemento químico de símbolo Au e número atômico 79, metal amarelo, denso e maleável.",
+          "variantes": [
+            "Au",
+            "Gold"
+          ]
+        },
+        {
+          "id": "serpentario",
+          "nome": "Serpentário",
+          "descricao": "Grande ave de rapina terrestre africana de pernas longas e crista de penas negras (Sagittarius serpentarius).",
+          "variantes": [
+            "Secretário",
+            "Secretário-ave",
+            "Sagittarius serpentarius"
+          ]
+        },
+        {
+          "id": "serpentes",
+          "nome": "Serpentes",
+          "descricao": "Subordem de répteis escamados sem patas (Serpentes), que inclui todas as cobras.",
+          "variantes": [
+            "Cobras",
+            "Ofídios",
+            "Snakes"
+          ]
+        },
+        {
+          "id": "glandula_tireoide",
+          "nome": "Glândula tireoide",
+          "descricao": "Glândula endócrina localizada na parte da frente do pescoço.",
+          "variantes": [
+            "Tireoide",
+            "Tiroide",
+            "Thyroid"
+          ]
+        },
+        {
+          "id": "furao",
+          "nome": "Furão",
+          "descricao": "Mustelídeo doméstico da espécie Mustela furo, derivado do furão-europeu selvagem.",
+          "variantes": [
+            "Mustela furo",
+            "Furão doméstico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Peixe-morcego-de-lábios-vermelhos",
+        "descricao": "Peixe-morcego (Ogcocephalus darwini) das ilhas Galápagos, que caminha no fundo com as nadadeiras e tem lábios vermelhos.",
+        "variantes": [
+          "Ogcocephalus darwini",
+          "Galápagos batfish",
+          "Red-lipped batfish",
+          "Peixe-morcego"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_cofre_amarelo",
+          "nome": "Peixe-cofre-amarelo",
+          "descricao": "Peixe de recife (Ostracion cubicum) de corpo em forma de caixa, amarelo com pintas escuras.",
+          "variantes": [
+            "Ostracion cubicum",
+            "Yellow boxfish",
+            "Peixe-cofre"
+          ]
+        },
+        {
+          "id": "tartaruga_de_galapagos",
+          "nome": "Tartaruga-de-galápagos",
+          "descricao": "Maior espécie de jabuti vivo (Chelonoidis niger), nativa de ilhas do arquipélago de Galápagos, no Equador.",
+          "variantes": [
+            "Tartaruga-gigante-de-galápagos",
+            "Galápagos tortoise",
+            "Chelonoidis niger"
+          ]
+        },
+        {
+          "id": "perereca_de_olhos_vermelhos",
+          "nome": "Perereca-de-olhos-vermelhos",
+          "descricao": "Perereca arborícola Agalychnis callidryas, verde com olhos vermelhos, da América Central e noroeste da América do Sul.",
+          "variantes": [
+            "Rã-de-olhos-vermelhos",
+            "Agalychnis callidryas"
+          ]
+        },
+        {
+          "id": "charles_darwin",
+          "nome": "Charles Darwin",
+          "descricao": "Naturalista inglês autor da teoria da evolução por seleção natural.",
+          "variantes": [
+            "Charles Robert Darwin",
+            "Darwin"
+          ]
+        },
+        {
+          "id": "ilhas_galapagos",
+          "nome": "Ilhas Galápagos",
+          "descricao": "Arquipélago vulcânico do Equador, no oceano Pacífico, famoso por sua fauna única.",
+          "variantes": [
+            "Galápagos",
+            "Arquipélago de Colón",
+            "Galapagos Islands"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Tubarão-anjo (Squatina) não está entre as candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "orca",
+      "motivo": "Mesma espécie Orcinus orca, mesmas variantes."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "caranguejo_aranha_japones",
+      "motivo": "Mesma espécie Macrocheira kaempferi."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Camarão-limpador não consta nas candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Guaiamum não consta nas candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "tubarao_martelo",
+      "motivo": "Ambos são o tubarão-martelo (Sphyrnidae/Sphyrna), mesma entidade."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Ofiúro não consta nas candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Peixe-morcego-de-lábios-vermelhos não consta nas candidatas."
+    }
+  ]
+}

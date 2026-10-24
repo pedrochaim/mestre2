@@ -293723,5 +293723,113 @@
       "autor": "Humor Multishow",
       "licenca": "CC BY 3.0"
     }
+  },
+  {
+    "id": "q15472",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "tubarao_anjo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que tubarão é este, deitado no fundo arenoso?",
+    "resposta": "Tubarão-anjo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Angelshark",
+      "https://pt.wikipedia.org/wiki/Squatina"
+    ],
+    "imagem": {
+      "arquivo": "q15472.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Squatina_japonica2.jpg",
+      "autor": "RYO SATO from Hamamatsu, Shizuoka, Japan",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q15473",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "camarao_limpador",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que camarão de recife é este?",
+    "resposta": "Camarão-limpador",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lysmata_amboinensis"
+    ],
+    "imagem": {
+      "arquivo": "q15473.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lysmata_amboinensis_Shrimp.jpg",
+      "autor": "Lonnie Huffman",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q15474",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "guaiamum",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que caranguejo terrestre das regiões costeiras do Atlântico americano é este?",
+    "resposta": "Guaiamum",
+    "distratores": [
+      "Caranguejo-uçá",
+      "Aratu",
+      "Chama-maré"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cardisoma_guanhumi",
+      "https://pt.wikipedia.org/wiki/Guaiamu"
+    ],
+    "imagem": {
+      "arquivo": "q15474.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cardisoma_guanhumi.jpg",
+      "autor": "Hans Hillewaert",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q15475",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "ofiuro",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que equinoderma é este?",
+    "resposta": "Ofiúro",
+    "distratores": [
+      "Ouriço-do-mar",
+      "Pepino-do-mar",
+      "Bolacha-da-praia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brittle_star",
+      "https://pt.wikipedia.org/wiki/Ophiuroidea"
+    ],
+    "imagem": {
+      "arquivo": "q15475.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Greenbrittlestar.jpg",
+      "autor": "Neıl ☎",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15476",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "peixe_morcego_de_labios_vermelhos",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que peixe das ilhas Galápagos, que anda pelo fundo do mar com as nadadeiras, é este?",
+    "resposta": "Peixe-morcego-de-lábios-vermelhos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Red-lipped_batfish"
+    ],
+    "imagem": {
+      "arquivo": "q15476.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ogcocephalus_darwini_02_-_Galapagos.jpg",
+      "autor": "ideonexus on Flickr",
+      "licenca": "CC BY-SA 2.0"
+    }
   }
 ]

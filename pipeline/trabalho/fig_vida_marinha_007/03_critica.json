@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Teste da imagem coberta: 'ave marinha' com 'recorde entre as aves vivas' leva quase sozinho a 'maior envergadura'; a figura é enfeite. Além disso, o trecho em português cita o recorde como compartilhado com outras aves, o que complica a resposta. Sem conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto. 'Fundo arenoso' ajuda sem entregar, e os trechos confirmam o habitat. Resposta genérica adequada ao gênero.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia o animal, e sem a figura não dá para responder. Os trechos confirmam que é o maior membro da família dos golfinhos oceânicos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 com pista leve ('gigante'), que não entrega o nome. Nome confirmado pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'camarão de recife' e 'papel em relação aos peixes' já entregam a resposta (limpador); a figura é enfeite. Reescrito como reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que camarão de recife é este?",
+        "resposta": "Camarão-limpador",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'De manguezais' também descreve o caranguejo-uçá, um dos distratores, o que enfraquece a justiça da pergunta. Trocado por 'terrestre', que os trechos sustentam para o guaiamum.",
+      "reescrita": {
+        "pergunta": "Que caranguejo terrestre das regiões costeiras do Atlântico americano é este?",
+        "resposta": "Guaiamum",
+        "distratores": [
+          "Caranguejo-uçá",
+          "Aratu",
+          "Chama-maré"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem pista. A forma da cabeça é o que permite reconhecer o tubarão. O nome vem dos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os distratores são equinodermas de outras classes, nenhum correto. A pergunta é curta, sem vazamento, e a resposta está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A figura mostra a espécie de lábios vermelhos, e 'peixe-morcego' é genérico (vários Ogcocephalus). A resposta deve ser específica. A pista 'Galápagos' ajuda sem entregar, e 'aparência estranha' é subjetivo.",
+      "reescrita": {
+        "pergunta": "Que peixe das ilhas Galápagos, que anda pelo fundo do mar com as nadadeiras, é este?",
+        "resposta": "Peixe-morcego-de-lábios-vermelhos",
+        "distratores": []
+      }
+    }
+  ]
+}
