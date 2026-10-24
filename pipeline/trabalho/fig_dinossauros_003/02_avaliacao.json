@@ -1,0 +1,269 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ilustração clara de pterossauro com dentes e cauda longa, sem texto.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pterossauro do Jurássico é este?",
+      "resposta": "Dimorfodonte",
+      "distratores": [
+        "Pteranodonte",
+        "Ranforrinco",
+        "Quetzalcoatlo"
+      ],
+      "ancora": {
+        "nome": "Dimorfodonte",
+        "descricao": "Gênero de pterossauro de médio porte do Jurássico Inferior da Europa, com dois tipos de dentes.",
+        "variantes": [
+          "Dimorphodon"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ilustração lateral clara de um grande crocodiliano, sem texto.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que crocodiliano gigante do Cretáceo é este?",
+      "resposta": "Deinosuco",
+      "distratores": [
+        "Sarcosuco",
+        "Purussauro",
+        "Mourasuco"
+      ],
+      "ancora": {
+        "nome": "Deinosuco",
+        "descricao": "Gênero extinto de crocodiliano gigante do Cretáceo Superior da América do Norte.",
+        "variantes": [
+          "Deinosuchus"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Reconstrução de touro selvagem sobre fundo branco, sem texto; reconhecível em múltipla escolha com distratores de bovinos selvagens.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que bovino selvagem extinto é este?",
+      "resposta": "Auroque",
+      "distratores": [
+        "Bisão-europeu",
+        "Búfalo-africano",
+        "Iaque selvagem"
+      ],
+      "ancora": {
+        "nome": "Auroque",
+        "descricao": "Bovino selvagem extinto (Bos primigenius), ancestral do gado doméstico.",
+        "variantes": [
+          "Bos primigenius",
+          "Uro"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto antiga em preto e branco de um pombo-passageiro, sem texto; a pergunta vai além do nome.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano morreu o último exemplar conhecido desta ave extinta?",
+      "resposta": "1914",
+      "distratores": [
+        "1904",
+        "1909",
+        "1919"
+      ],
+      "ancora": {
+        "nome": "Pombo-passageiro",
+        "descricao": "Espécie extinta de pombo migratório da América do Norte (Ectopistes migratorius).",
+        "variantes": [
+          "Ectopistes migratorius",
+          "Passenger pigeon"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ilustração clara de um marsupial carnívoro extinto, sem texto; listras do dorso exigem distratores cuidadosos.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que marsupial carnívoro extinto é este?",
+      "resposta": "Tilacoleo",
+      "distratores": [
+        "Tilacino",
+        "Procoptodonte",
+        "Diprotodonte"
+      ],
+      "ancora": {
+        "nome": "Tilacoleo",
+        "descricao": "Gênero extinto de marsupiais carnívoros da Austrália, o leão-marsupial.",
+        "variantes": [
+          "Thylacoleo",
+          "Leão-marsupial"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Reconstrução e esqueleto do mesmo animal, sem texto; um único assunto.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que época geológica viveu este canídeo extinto?",
+      "resposta": "Pleistoceno",
+      "distratores": [
+        "Plioceno",
+        "Mioceno",
+        "Oligoceno"
+      ],
+      "ancora": {
+        "nome": "Lobo-terrível",
+        "descricao": "Canídeo extinto das Américas (Aenocyon dirus), conhecido pelos fósseis de Rancho La Brea.",
+        "variantes": [
+          "Aenocyon dirus",
+          "Canis dirus",
+          "Dire wolf"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Ilustração lateral clara do maior marsupial conhecido, sem texto.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que marsupial gigante extinto da Austrália é este?",
+      "resposta": "Diprotodonte",
+      "distratores": [
+        "Zigomaturo",
+        "Palorquestes",
+        "Megatério"
+      ],
+      "ancora": {
+        "nome": "Diprotodonte",
+        "descricao": "Gênero extinto do maior marsupial conhecido, do Pleistoceno da Austrália.",
+        "variantes": [
+          "Diprotodon"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Reconstrução 3D nítida de um animal com espinhos, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estranho animal marinho do Cambriano é este?",
+      "resposta": "Hallucigenia",
+      "distratores": [
+        "Opabínia",
+        "Anomalocaris",
+        "Wiwaxia"
+      ],
+      "ancora": {
+        "nome": "Hallucigenia",
+        "descricao": "Gênero de lobópode do Cambriano, conhecido do Folhelho de Burgess.",
+        "variantes": [
+          "Hallucigenia sparsa"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Reconstrução de museu de um urso pré-histórico, sem texto; distratores extintos evitam confusão com o urso-pardo.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que urso extinto é este?",
+      "resposta": "Urso-das-cavernas",
+      "distratores": [
+        "Urso-de-cara-curta",
+        "Urso-etrusco",
+        "Agriotério"
+      ],
+      "ancora": {
+        "nome": "Urso-das-cavernas",
+        "descricao": "Espécie de urso pré-histórico (Ursus spelaeus) da Europa e Ásia, extinto há cerca de 24 mil anos.",
+        "variantes": [
+          "Ursus spelaeus",
+          "Cave bear"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de crânio de terópode em museu, sem texto; múltipla com grandes terópodes.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que dinossauro terópode africano é este crânio?",
+      "resposta": "Carcarodontossauro",
+      "distratores": [
+        "Giganotossauro",
+        "Acrocantossauro",
+        "Tiranossauro"
+      ],
+      "ancora": {
+        "nome": "Carcarodontossauro",
+        "descricao": "Gênero de grande dinossauro terópode do Cretáceo do noroeste da África.",
+        "variantes": [
+          "Carcharodontosaurus"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ilustração clara de rinocerontóide gigante sem chifre, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mamífero gigante extinto é este?",
+      "resposta": "Paraceratério",
+      "distratores": [
+        "Elasmotério",
+        "Embolotério",
+        "Arsinoitério"
+      ],
+      "ancora": {
+        "nome": "Paraceratério",
+        "descricao": "Gênero de rinocerontóides sem chifre do Oligoceno, um dos maiores mamíferos terrestres.",
+        "variantes": [
+          "Paraceratherium",
+          "Indricotério"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A placa do modelo diz 'Gallimimus bullatus' e há um pôster com texto ao fundo; texto entrega a resposta."
+    }
+  ]
+}

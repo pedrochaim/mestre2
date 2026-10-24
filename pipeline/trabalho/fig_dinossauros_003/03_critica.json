@@ -1,0 +1,105 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dimorphodon é pterossauro do Jurássico Inferior; o enunciado não entrega o nome e os distratores são pterossauros plausíveis, errados para a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Crocodiliano gigante do Cretáceo confere com os trechos. O enunciado não entrega o nome e os distratores são crocodilomorfos gigantes críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Todos os distratores são bovinos vivos, então 'extinto' leva à resposta por eliminação. Troquei por bovinos extintos e tirei 'extinto' do enunciado.",
+      "reescrita": {
+        "pergunta": "Que grande bovino da Eurásia, ancestral do gado doméstico, é este?",
+        "resposta": "Auroque",
+        "distratores": [
+          "Bisão-das-estepes",
+          "Bisão-antigo",
+          "Bisão-de-testa-larga"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Martha, o último pombo-passageiro, morreu em 1914. O enunciado não nomeia a ave e vale para várias aves extintas. A resposta é um ano e a pergunta é multipla.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tilacoleo é um marsupial carnívoro extinto, e a figura distingue do tilacino. O enunciado não entrega a resposta e os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O lobo-terrível viveu no Pleistoceno Superior, segundo os trechos. 'Canídeo extinto' não identifica a espécie e os distratores são épocas anteriores.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Megatério é uma preguiça-gigante sul-americana, não um marsupial australiano. É distrator fraco, e a pergunta é identificada por eliminação. Troquei por Procoptodonte, um marsupial australiano extinto.",
+      "reescrita": {
+        "pergunta": "Que marsupial gigante extinto da Austrália é este?",
+        "resposta": "Diprotodonte",
+        "distratores": [
+          "Zigomaturo",
+          "Palorquestes",
+          "Procoptodonte"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hallucigenia é do Cambriano. O enunciado não entrega o nome e os distratores são animais estranhos do Cambriano, do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O urso-das-cavernas é um urso extinto. O enunciado não vaza a resposta e os distratores são ursos extintos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os distratores não são africanos, então 'africano' elimina três opções. Além disso, 'crânio' não consta em 'mostra' e pode não ser verdadeiro para a foto. Troquei por terópodes africanos e tirei 'crânio'.",
+      "reescrita": {
+        "pergunta": "Que grande dinossauro terópode africano do Cretáceo é este?",
+        "resposta": "Carcarodontossauro",
+        "distratores": [
+          "Espinossauro",
+          "Deltadromeu",
+          "Bahariassauro"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Paraceratherium é um dos maiores mamíferos terrestres. 'Gigante extinto' não basta para identificar a espécie e os distratores são grandes mamíferos extintos.",
+      "reescrita": null
+    }
+  ]
+}

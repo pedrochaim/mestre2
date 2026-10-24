@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que grande bovino da Eurásia, ancestral do gado doméstico, é este?",
+        "resposta": "Auroque"
+      },
+      "existentes": [
+        {
+          "id": "q07921",
+          "pergunta": "O auroque, boi selvagem ancestral do gado doméstico, desapareceu quando o último exemplar morreu numa floresta da Polônia. Em que século?",
+          "resposta": "Século dezessete"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que ano morreu o último exemplar conhecido desta ave extinta?",
+        "resposta": "1914"
+      },
+      "existentes": [
+        {
+          "id": "q02507",
+          "pergunta": "Martha, a última pomba-passageira conhecida, morreu no zoológico de Cincinnati, nos Estados Unidos. Em que ano?",
+          "resposta": "1914"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação do animal (auroque); a existente pergunta o século da extinção, e já dá o nome na pergunta. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o ano da morte do último exemplar da pomba-passageira (Martha), 1914."
+    }
+  ]
+}
