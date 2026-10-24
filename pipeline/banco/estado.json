@@ -728,9 +728,10 @@
     "fig_anatomia_009",
     "fig_jogos_tabuleiro_003",
     "fig_automobilismo_002",
-    "fig_videogames_004"
+    "fig_videogames_004",
+    "fig_hominideos_003"
   ],
-  "maior_id": 15145,
+  "maior_id": 15151,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1522,16 +1523,17 @@
     },
     "hominideos": {
       "familias": {
-        "o_que_e": 4,
-        "onde": 3,
-        "quando": 1
+        "o_que_e": 5,
+        "onde": 5,
+        "quando": 1,
+        "com_o_que_se_liga": 3
       },
       "niveis": {
-        "1": 3,
-        "2": 4,
-        "3": 1
+        "1": 4,
+        "2": 7,
+        "3": 3
       },
-      "registradas": 8
+      "registradas": 14
     }
   },
   "rendimento": {

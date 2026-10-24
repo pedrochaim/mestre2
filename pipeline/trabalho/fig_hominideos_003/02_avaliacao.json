@@ -1,0 +1,190 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública, sem texto. Pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destes livros foi escrito por este biólogo evolucionista britânico?",
+      "resposta": "O Gene Egoísta",
+      "distratores": [
+        "O Macaco Nu",
+        "A Origem das Espécies",
+        "Gorilas na Névoa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Richard Dawkins",
+        "descricao": "Biólogo evolucionista e divulgador científico britânico, autor de O Gene Egoísta.",
+        "variantes": [
+          "Clinton Richard Dawkins"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Objeto reconhecível pelos entalhes em fileiras, sem texto. Pergunta de lugar em múltipla escolha, já que a datação é discutida.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país africano foi encontrado este osso entalhado, com mais de dez mil anos?",
+      "resposta": "República Democrática do Congo",
+      "distratores": [
+        "Uganda",
+        "Tanzânia",
+        "Quênia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Osso de Ishango",
+        "descricao": "Osso entalhado do Paleolítico Superior, achado em Ishango, na República Democrática do Congo, possível instrumento de contagem.",
+        "variantes": [
+          "Ishango bone"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto clara de gibão preto nas árvores, sem texto. Múltipla com gibões parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que gibão do Sudeste Asiático é este?",
+      "resposta": "Siamang",
+      "distratores": [
+        "Gibão-de-mãos-brancas",
+        "Gibão-de-crista-negra",
+        "Gibão-de-bochechas-brancas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Siamang",
+        "descricao": "Maior dos gibões, primata arborícola de pelagem preta da Indonésia, Malásia e Tailândia (Symphalangus syndactylus).",
+        "variantes": [
+          "Symphalangus syndactylus",
+          "Gibão-siamang"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem texto. Pergunta sobre obra dele.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destes livros foi escrito por este primatólogo holandês?",
+      "resposta": "A Política dos Chimpanzés",
+      "distratores": [
+        "Gorilas na Névoa",
+        "O Gene Egoísta",
+        "O Macaco Nu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Frans de Waal",
+        "descricao": "Primatólogo e etólogo holandês-americano, professor da Universidade Emory, autor de Chimpanzee Politics.",
+        "variantes": [
+          "Franciscus Bernardus Maria de Waal"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Placa com texto bilíngue visível ao fundo cita Petralona, entregando a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem texto. Pergunta de lugar sem citar gorilas.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país africano esta primatóloga americana passou vinte anos pesquisando?",
+      "resposta": "Ruanda",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dian Fossey",
+        "descricao": "Primatóloga e conservacionista americana que estudou os gorilas-da-montanha em Ruanda.",
+        "variantes": [
+          "Dian Fossey"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Peça lítica isolada, de aparência de biface; não permite atribuir a indústria musteriense e a resposta não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Crânio em ângulo oblíquo, sem pista para reconhecer o fóssil específico; resposta não única diante da imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Um homem comum aparece em primeiro plano segurando o chimpanzé, e a imagem não mostra com clareza o animal."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Pintura rupestre de rinoceronte, sem texto e legível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica a caverna com esta pintura rupestre de rinoceronte?",
+      "resposta": "França",
+      "distratores": [
+        "Espanha",
+        "Itália",
+        "Alemanha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caverna de Chauvet",
+        "descricao": "Caverna do sul da França, em Ardèche, com algumas das pinturas rupestres paleolíticas mais bem conservadas do mundo.",
+        "variantes": [
+          "Gruta Chauvet-Pont d'Arc",
+          "Chauvet-Pont-d'Arc Cave"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A foto mostra um bonobo qualquer; não há como reconhecer Kanzi, e a âncora não corresponderia à imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Osso furado em fundo preto, sem texto. Pergunta liga o objeto a quem o teria feito.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que grupo humano teria feito este osso furado, achado numa caverna da Eslovênia?",
+      "resposta": "Neandertais",
+      "distratores": [
+        "Homo erectus",
+        "Denisovanos",
+        "Homo floresiensis"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Flauta de Divje Babe",
+        "descricao": "Fêmur de urso das cavernas com furos, achado em Divje Babe, na Eslovênia, atribuído por alguns a neandertais como possível flauta.",
+        "variantes": [
+          "Flauta neandertal",
+          "Divje Babe flute",
+          "Tidldibab"
+        ]
+      }
+    }
+  ]
+}

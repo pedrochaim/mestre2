@@ -1,0 +1,54 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que país africano foi encontrado este osso entalhado, com mais de dez mil anos?",
+        "resposta": "República Democrática do Congo"
+      },
+      "existentes": [
+        {
+          "id": "q07756",
+          "pergunta": "O osso de Ishango, com entalhes de cerca de vinte mil anos que podem ser marcas de contagem, foi encontrado em que país africano?",
+          "resposta": "República Democrática do Congo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país fica a caverna com esta pintura rupestre de rinoceronte?",
+        "resposta": "França"
+      },
+      "existentes": [
+        {
+          "id": "q03078",
+          "pergunta": "Que cineasta alemão filmou em três dimensões a caverna Chauvet, no documentário A Caverna dos Sonhos Esquecidos?",
+          "resposta": "Werner Herzog"
+        },
+        {
+          "id": "q13294",
+          "pergunta": "A caverna Chauvet, com pinturas rupestres de mais de trinta mil anos, fica junto às gargantas de que rio francês?",
+          "resposta": "Ardèche"
+        },
+        {
+          "id": "q14188",
+          "pergunta": "Ao contrário de outras cavernas, a Chauvet, na França, tem muitas pinturas de animais perigosos, como leões, ursos e qual animal de chifre no focinho?",
+          "resposta": "Rinoceronte"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam em que país africano o osso de Ishango foi encontrado; resposta idêntica."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta quer o país da caverna (França) com pintura de rinoceronte; as existentes perguntam o diretor, o rio e o animal. A França é mencionada no enunciado de q14188, mas não é o fato perguntado."
+    }
+  ]
+}
