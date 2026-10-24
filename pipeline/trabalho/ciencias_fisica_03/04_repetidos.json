@@ -1,0 +1,244 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Qual destes materiais conduz melhor o calor?",
+        "resposta": "Diamante"
+      },
+      "existentes": [
+        {
+          "id": "q04294",
+          "pergunta": "A palavra diamante vem do grego adamas. O que esse termo grego significava?",
+          "resposta": "Inquebrável"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual é o único elemento químico que não se solidifica sob pressão normal, mesmo resfriado até perto do zero absoluto?",
+        "resposta": "Hélio"
+      },
+      "existentes": [
+        {
+          "id": "q03122",
+          "pergunta": "O nome do hélio vem da palavra grega helios. Que astro essa palavra designa?",
+          "resposta": "Sol"
+        },
+        {
+          "id": "q09414",
+          "pergunta": "Usado para resfriar os ímãs dos aparelhos de ressonância magnética, que elemento químico tem o ponto de ebulição mais baixo de todos?",
+          "resposta": "Hélio"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Os cabos de fibra óptica, que levam internet usando luz, são feitos em geral de fios finíssimos de que material?",
+        "resposta": "Vidro"
+      },
+      "existentes": [
+        {
+          "id": "q03465",
+          "pergunta": "As fibras ópticas que transportam boa parte dos dados da internet são feitas, em geral, de qual material?",
+          "resposta": "Vidro"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Por volta de 1668, Isaac Newton construiu um telescópio que trocava a lente principal por que peça?",
+        "resposta": "Um espelho curvo"
+      },
+      "existentes": [
+        {
+          "id": "q08732",
+          "pergunta": "Em 1668, Isaac Newton construiu um telescópio que trocava as lentes por que peça curva para captar a luz?",
+          "resposta": "Espelho"
+        },
+        {
+          "id": "q09313",
+          "pergunta": "Quem inventou este tipo de telescópio, no século dezessete?",
+          "resposta": "Isaac Newton"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Às vezes aparece um segundo arco-íris, mais fraco, por fora do principal. O que acontece com a ordem das cores nele?",
+        "resposta": "Fica invertida"
+      },
+      "existentes": [
+        {
+          "id": "q02993",
+          "pergunta": "Isaac Newton dividiu as cores do arco-íris em sete, acrescentando o laranja e o anil, por analogia com quê?",
+          "resposta": "As sete notas musicais"
+        },
+        {
+          "id": "q14161",
+          "pergunta": "Que fenômeno óptico aparece no céu desta foto?",
+          "resposta": "Arco-íris"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O forno de micro-ondas esquenta a comida agitando principalmente as moléculas de que substância presente nos alimentos?",
+        "resposta": "Água"
+      },
+      "existentes": [
+        {
+          "id": "q00881",
+          "pergunta": "Nos anos quarenta, o engenheiro Percy Spencer trabalhava perto de um equipamento de radar quando algo derreteu no seu bolso. O que era?",
+          "resposta": "Uma barra de chocolate"
+        },
+        {
+          "id": "q03602",
+          "pergunta": "O forno de micro-ondas nasceu nos anos quarenta, de pesquisas com que equipamento militar?",
+          "resposta": "Radar"
+        },
+        {
+          "id": "q15083",
+          "pergunta": "Que componente de radar, desenvolvido no Reino Unido, tornou possível a criação deste aparelho?",
+          "resposta": "Magnétron de cavidade"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Se você quebrar um ímã em barra ao meio, tentando separar o polo norte do polo sul, o que acontece?",
+        "resposta": "Cada pedaço ganha os dois polos"
+      },
+      "existentes": [
+        {
+          "id": "q14849",
+          "pergunta": "Que objeto é este?",
+          "resposta": "Ímã"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "A palavra laser é uma sigla em inglês que significa amplificação de quê por emissão estimulada de radiação?",
+        "resposta": "Da luz"
+      },
+      "existentes": [
+        {
+          "id": "q04612",
+          "pergunta": "Em que ano o físico americano Theodore Maiman fez funcionar o primeiro laser?",
+          "resposta": "1960"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Uma linguagem de programação de 1970 e a unidade de pressão do Sistema Internacional homenageiam o mesmo pensador francês. Quem é ele?",
+        "resposta": "Blaise Pascal"
+      },
+      "existentes": [
+        {
+          "id": "q03313",
+          "pergunta": "A unidade de pressão do Sistema Internacional e uma linguagem de programação dos anos setenta homenageiam o mesmo matemático francês. Quem?",
+          "resposta": "Blaise Pascal"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Num dia de sol na praia, por que o vento costuma soprar do mar para a terra?",
+        "resposta": "A terra esquenta mais rápido que o mar"
+      },
+      "existentes": [
+        {
+          "id": "q08697",
+          "pergunta": "Numa praia, durante o dia, a brisa sopra do mar para a terra. E à noite, para que lado ela costuma soprar?",
+          "resposta": "Da terra para o mar"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em que ano o americano Theodore Maiman fez funcionar o primeiro laser, usando um cristal de rubi?",
+        "resposta": "1960"
+      },
+      "existentes": [
+        {
+          "id": "q04612",
+          "pergunta": "Em que ano o físico americano Theodore Maiman fez funcionar o primeiro laser?",
+          "resposta": "1960"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Condutividade térmica do diamante vs. etimologia grega."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Não se solidificar sob pressão normal é fato diferente do ponto de ebulição mais baixo e da etimologia."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: fibra óptica é feita de vidro.",
+      "id_existente": "q03465"
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: telescópio de Newton trocou lentes por espelho.",
+      "id_existente": "q08732"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Ordem invertida das cores no arco-íris secundário é fato distinto."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Mecanismo de aquecimento (água) difere de origem histórica."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Existente só pede identificar o objeto; fato diferente."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Significado da sigla vs. ano do primeiro laser."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e resposta: Blaise Pascal.",
+      "id_existente": "q03313"
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Brisa marítima de dia (causa) vs. direção à noite; fatos diferentes."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: ano do primeiro laser de Maiman.",
+      "id_existente": "q04612"
+    }
+  ]
+}

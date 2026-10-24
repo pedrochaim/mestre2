@@ -1,0 +1,1108 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Dispersão da luz",
+        "descricao": "Separação da luz branca em suas cores ao atravessar um meio como o vidro de um prisma, porque cada cor se desvia de um jeito.",
+        "variantes": [
+          "Dispersão óptica",
+          "Dispersion (optics)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dispersion_(optics)"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Quando a luz branca atravessa um prisma e se abre num leque de cores, qual cor sofre o maior desvio?",
+      "resposta": "Violeta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dispersion_(optics)",
+        "https://en.wikipedia.org/wiki/Prism_(optics)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Radiação gama",
+        "descricao": "Radiação eletromagnética de altíssima energia emitida por núcleos atômicos e por fenômenos astrofísicos violentos.",
+        "variantes": [
+          "Raios gama",
+          "Gamma ray"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gamma_ray",
+          "https://pt.wikipedia.org/wiki/Radiação_gama"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre estes tipos de radiação eletromagnética, qual carrega mais energia?",
+      "resposta": "Raios gama",
+      "distratores": [
+        "Raios X",
+        "Ultravioleta",
+        "Micro-ondas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gamma_ray",
+        "https://en.wikipedia.org/wiki/Electromagnetic_spectrum"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Diamante",
+        "descricao": "Forma cristalina do carbono, o mineral natural mais duro, usado em joias e ferramentas de corte.",
+        "variantes": [
+          "Diamond"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Diamond",
+          "https://en.wikipedia.org/wiki/Material_properties_of_diamond"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes materiais conduz melhor o calor?",
+      "resposta": "Diamante",
+      "distratores": [
+        "Prata",
+        "Cobre",
+        "Alumínio"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Material_properties_of_diamond",
+        "https://en.wikipedia.org/wiki/Diamond"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Interação forte",
+        "descricao": "Uma das quatro forças fundamentais da natureza, que mantém os quarks unidos e os prótons e nêutrons presos no núcleo atômico.",
+        "variantes": [
+          "Força nuclear forte",
+          "Força forte",
+          "Strong interaction"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Strong_interaction",
+          "https://pt.wikipedia.org/wiki/Interação_forte"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre as quatro forças fundamentais da natureza, qual é a mais intensa?",
+      "resposta": "Força nuclear forte",
+      "distratores": [
+        "Força nuclear fraca",
+        "Força eletromagnética",
+        "Gravidade"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Strong_interaction",
+        "https://en.wikipedia.org/wiki/Fundamental_interaction"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Plasma",
+        "descricao": "Estado da matéria formado por gás ionizado, com elétrons livres, presente nas estrelas, nos raios e nas auroras.",
+        "variantes": [
+          "Plasma (física)",
+          "Plasma (physics)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Plasma_(physics)"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Contando a matéria das estrelas, qual estado da matéria é o mais comum no universo visível?",
+      "resposta": "Plasma",
+      "distratores": [
+        "Gasoso",
+        "Sólido",
+        "Líquido"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Plasma_(physics)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Nêutron",
+        "descricao": "Partícula subatômica sem carga elétrica que, com os prótons, forma o núcleo dos átomos; descoberta por James Chadwick em 1932.",
+        "variantes": [
+          "Neutrão",
+          "Neutron"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Neutron",
+          "https://pt.wikipedia.org/wiki/Nêutron"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Comparando as partículas subatômicas a seguir, qual delas tem a maior massa?",
+      "resposta": "Nêutron",
+      "distratores": [
+        "Próton",
+        "Elétron",
+        "Neutrino"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Neutron"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Partícula alfa",
+        "descricao": "Partícula formada por dois prótons e dois nêutrons, emitida por núcleos radioativos no decaimento alfa.",
+        "variantes": [
+          "Radiação alfa",
+          "Alpha particle"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alpha_particle"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre estas radiações emitidas por materiais radioativos, qual é barrada por uma simples folha de papel?",
+      "resposta": "Radiação alfa",
+      "distratores": [
+        "Radiação beta",
+        "Radiação gama",
+        "Radiação de nêutrons"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alpha_particle"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Gravidade da Terra",
+        "descricao": "Aceleração que a Terra imprime aos corpos na sua superfície, que varia levemente com a latitude por causa da rotação e do achatamento do planeta.",
+        "variantes": [
+          "Gravity of Earth",
+          "Aceleração da gravidade terrestre"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gravity_of_Earth"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Por causa da rotação e do formato achatado da Terra, em que região do planeta uma balança marca um peso um pouquinho menor?",
+      "resposta": "Na linha do Equador",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gravity_of_Earth"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hélio",
+        "descricao": "Elemento químico de número atômico 2, gás nobre leve usado em balões, que permanece líquido perto do zero absoluto.",
+        "variantes": [
+          "Helium"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Helium",
+          "https://pt.wikipedia.org/wiki/Hélio"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Qual é o único elemento químico que não se solidifica sob pressão normal, mesmo resfriado até perto do zero absoluto?",
+      "resposta": "Hélio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Helium"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Calor específico",
+        "descricao": "Quantidade de energia necessária para elevar em um grau a temperatura de uma unidade de massa de uma substância.",
+        "variantes": [
+          "Capacidade térmica mássica",
+          "Specific heat capacity"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Specific_heat_capacity"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Para esquentar um quilo de cada uma destas substâncias em um grau, qual exige mais energia?",
+      "resposta": "Água",
+      "distratores": [
+        "Ferro",
+        "Areia",
+        "Azeite"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Specific_heat_capacity",
+        "https://en.wikipedia.org/wiki/Table_of_specific_heat_capacities"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lâmpada incandescente",
+        "descricao": "Lâmpada elétrica que produz luz aquecendo um filamento metálico até ele brilhar.",
+        "variantes": [
+          "Incandescent light bulb"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Incandescent_light_bulb",
+          "https://pt.wikipedia.org/wiki/Lâmpada_incandescente"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Nas lâmpadas incandescentes, o filamento que brilha ao esquentar é feito de que metal, escolhido por resistir a temperaturas altíssimas?",
+      "resposta": "Tungstênio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Incandescent_light_bulb",
+        "https://en.wikipedia.org/wiki/Tungsten"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "RGB",
+        "descricao": "Modelo de cores aditivo em que luzes vermelha, verde e azul se combinam para formar as cores exibidas em telas.",
+        "variantes": [
+          "Modelo RGB",
+          "RGB color model",
+          "Cores primárias da luz"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/RGB_color_model",
+          "https://pt.wikipedia.org/wiki/RGB"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "As telas de TV e de celular formam todas as cores misturando pontinhos de luz de três cores. Vermelho, azul e qual outra?",
+      "resposta": "Verde",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/RGB_color_model"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Próton",
+        "descricao": "Partícula subatômica de carga elétrica positiva presente no núcleo de todos os átomos.",
+        "variantes": [
+          "Protão",
+          "Proton"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Proton",
+          "https://pt.wikipedia.org/wiki/Próton"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Prótons e nêutrons já foram considerados indivisíveis, mas cada um é formado por três partículas menores. Como elas se chamam?",
+      "resposta": "Quarks",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Proton",
+        "https://en.wikipedia.org/wiki/Quark"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fibra óptica",
+        "descricao": "Fio transparente e finíssimo que conduz luz por reflexão interna, usado em telecomunicações e na internet.",
+        "variantes": [
+          "Optical fiber"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Optical_fiber",
+          "https://pt.wikipedia.org/wiki/Fibra_óptica"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Os cabos de fibra óptica, que levam internet usando luz, são feitos em geral de fios finíssimos de que material?",
+      "resposta": "Vidro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Optical_fiber"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bomba de hidrogênio",
+        "descricao": "Arma termonuclear cuja energia vem principalmente da fusão de isótopos de hidrogênio, testada pela primeira vez em 1952.",
+        "variantes": [
+          "Bomba termonuclear",
+          "Bomba H",
+          "Thermonuclear weapon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Thermonuclear_weapon"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Para detonar, uma bomba de hidrogênio carrega dentro dela, como gatilho, que outro tipo de bomba?",
+      "resposta": "Uma bomba atômica de fissão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Thermonuclear_weapon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Disco de Newton",
+        "descricao": "Disco pintado em fatias coloridas que parece branco quando gira rapidamente, demonstrando a composição da luz branca.",
+        "variantes": [
+          "Newton disc"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Newton_disc",
+          "https://pt.wikipedia.org/wiki/Disco_de_Newton"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O disco de Newton parece branco quando gira bem rápido. Que cores são pintadas nas suas fatias?",
+      "resposta": "As cores do arco-íris",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Newton_disc",
+        "https://pt.wikipedia.org/wiki/Disco_de_Newton"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Telescópio newtoniano",
+        "descricao": "Telescópio refletor construído por Isaac Newton por volta de 1668, que forma a imagem com um espelho em vez de uma lente.",
+        "variantes": [
+          "Telescópio refletor de Newton",
+          "Newtonian telescope"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Newtonian_telescope"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Por volta de 1668, Isaac Newton construiu um telescópio que trocava a lente principal por que peça?",
+      "resposta": "Um espelho curvo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Newtonian_telescope",
+        "https://en.wikipedia.org/wiki/Reflecting_telescope"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "E = mc²",
+        "descricao": "Equação de Albert Einstein que expressa a equivalência entre massa e energia.",
+        "variantes": [
+          "Equivalência massa-energia",
+          "Mass–energy equivalence"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mass–energy_equivalence",
+          "https://pt.wikipedia.org/wiki/Equivalência_massa-energia"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na famosa equação de Einstein, E igual a m c ao quadrado, o que a letra c representa?",
+      "resposta": "A velocidade da luz",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mass–energy_equivalence"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Leis de Newton",
+        "descricao": "As três leis do movimento formuladas por Isaac Newton: inércia, princípio fundamental da dinâmica e ação e reação.",
+        "variantes": [
+          "Leis do movimento de Newton",
+          "Newton's laws of motion"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion",
+          "https://pt.wikipedia.org/wiki/Leis_de_Newton"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Das três leis do movimento de Isaac Newton, qual diz que toda ação provoca uma reação de mesma intensidade e sentido oposto?",
+      "resposta": "A terceira lei",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Guerra das correntes",
+        "descricao": "Disputa comercial e técnica do fim do século dezenove entre os defensores da corrente contínua e da corrente alternada nos Estados Unidos.",
+        "variantes": [
+          "War of the currents",
+          "Batalha das correntes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/War_of_the_currents"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na guerra das correntes, no fim do século dezenove, Thomas Edison defendia a corrente contínua. Que inventor de origem sérvia apoiava a corrente alternada?",
+      "resposta": "Nikola Tesla",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/War_of_the_currents"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "arco_iris",
+        "nome": "Arco-íris",
+        "descricao": "Fenômeno óptico em que a luz do Sol, refratada e refletida em gotas de chuva, forma um arco colorido no céu.",
+        "variantes": [
+          "Rainbow"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rainbow",
+          "https://pt.wikipedia.org/wiki/Arco-íris"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Às vezes aparece um segundo arco-íris, mais fraco, por fora do principal. O que acontece com a ordem das cores nele?",
+      "resposta": "Fica invertida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rainbow"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Letreiro de neon",
+        "descricao": "Placa luminosa feita de tubos de vidro com gás rarefeito, como o neônio, que brilham com descarga elétrica.",
+        "variantes": [
+          "Neon sign",
+          "Luminoso de neon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Neon_sign",
+          "https://en.wikipedia.org/wiki/Neon_lighting"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O gás neônio, usado nos letreiros luminosos clássicos, brilha em que cor quando é atravessado pela eletricidade?",
+      "resposta": "Vermelho-alaranjado",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Neon_lighting",
+        "https://en.wikipedia.org/wiki/Neon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Forno de micro-ondas",
+        "descricao": "Eletrodoméstico que aquece alimentos com radiação de micro-ondas gerada por um magnétron.",
+        "variantes": [
+          "Micro-ondas",
+          "Microwave oven"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Microwave_oven",
+          "https://pt.wikipedia.org/wiki/Forno_de_micro-ondas"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O forno de micro-ondas esquenta a comida agitando principalmente as moléculas de que substância presente nos alimentos?",
+      "resposta": "Água",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Microwave_oven"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Átomo",
+        "descricao": "Menor unidade de um elemento químico, formada por um núcleo de prótons e nêutrons cercado por elétrons.",
+        "variantes": [
+          "Atom"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Atom",
+          "https://pt.wikipedia.org/wiki/Átomo"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Embora a matéria pareça sólida, quase todo o volume de um átomo é formado por quê?",
+      "resposta": "Espaço vazio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Atom",
+        "https://en.wikipedia.org/wiki/Rutherford_model"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Supercondutividade",
+        "descricao": "Fenômeno em que certos materiais, resfriados abaixo de uma temperatura crítica, conduzem corrente sem resistência e expulsam campos magnéticos.",
+        "variantes": [
+          "Superconductivity",
+          "Supercondutor"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Superconductivity",
+          "https://pt.wikipedia.org/wiki/Supercondutividade"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Resfriados a temperaturas baixíssimas, certos materiais passam a conduzir eletricidade sem perder energia. Que grandeza elétrica neles cai a zero?",
+      "resposta": "Resistência elétrica",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Superconductivity"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ima",
+        "nome": "Ímã",
+        "descricao": "Objeto que produz um campo magnético e atrai materiais ferromagnéticos; aqui, um ímã em barra com polos marcados.",
+        "variantes": [
+          "Magnete",
+          "Magnet"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Magnet"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Se você quebrar um ímã em barra ao meio, tentando separar o polo norte do polo sul, o que acontece?",
+      "resposta": "Cada pedaço ganha os dois polos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Magnet",
+        "https://en.wikipedia.org/wiki/Magnetic_monopole"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Campo magnético da Terra",
+        "descricao": "Campo magnético gerado no núcleo terrestre, que orienta as bússolas e protege o planeta do vento solar.",
+        "variantes": [
+          "Magnetosfera terrestre",
+          "Earth's magnetic field",
+          "Geomagnetismo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Earth%27s_magnetic_field"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "A ponta norte da agulha da bússola é atraída para o Ártico. Do ponto de vista da física, que tipo de polo magnético fica lá?",
+      "resposta": "Um polo sul magnético",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Earth%27s_magnetic_field",
+        "https://en.wikipedia.org/wiki/North_magnetic_pole"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ultrassom",
+        "descricao": "Som de frequência acima do limite da audição humana, usado em exames médicos e na ecolocalização de animais.",
+        "variantes": [
+          "Ultra-som",
+          "Ultrasound"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ultrasound",
+          "https://pt.wikipedia.org/wiki/Ultrassom"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Como a física chama o som agudo demais para o ouvido humano, como o de certos apitos usados para adestrar cães?",
+      "resposta": "Ultrassom",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ultrasound",
+        "https://en.wikipedia.org/wiki/Dog_whistle"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Magnetita",
+        "descricao": "Mineral de óxido de ferro, naturalmente magnético, que forma os ímãs naturais conhecidos desde a Antiguidade.",
+        "variantes": [
+          "Magnetite",
+          "Pedra-ímã",
+          "Lodestone"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Magnetite",
+          "https://en.wikipedia.org/wiki/Lodestone"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que mineral de ferro, conhecido desde a Antiguidade, forma ímãs naturais capazes de atrair pregos?",
+      "resposta": "Magnetita",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lodestone",
+        "https://en.wikipedia.org/wiki/Magnetite"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Eletricidade estática",
+        "descricao": "Acúmulo de carga elétrica na superfície de objetos, em geral por atrito, que causa faíscas e atrai cabelos.",
+        "variantes": [
+          "Static electricity"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Static_electricity",
+          "https://pt.wikipedia.org/wiki/Eletricidade_estática"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno faz o cabelo ficar em pé e dar estalinhos quando tiramos uma blusa de lã num dia seco?",
+      "resposta": "Eletricidade estática",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Static_electricity"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Átomo",
+        "descricao": "Menor unidade de um elemento químico, formada por um núcleo de prótons e nêutrons cercado por elétrons.",
+        "variantes": [
+          "Atom"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Atom",
+          "https://pt.wikipedia.org/wiki/Átomo"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Filósofos gregos imaginaram a menor parte da matéria e a chamaram de átomo. O que essa palavra significa?",
+      "resposta": "Indivisível",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Atom",
+        "https://pt.wikipedia.org/wiki/Átomo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Próton",
+        "descricao": "Partícula subatômica de carga elétrica positiva presente no núcleo de todos os átomos.",
+        "variantes": [
+          "Protão",
+          "Proton"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Proton",
+          "https://pt.wikipedia.org/wiki/Próton"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Batizado por Ernest Rutherford, o próton tem um nome tirado de uma palavra grega. O que ela significa?",
+      "resposta": "Primeiro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Proton"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Neutrino",
+        "descricao": "Partícula elementar sem carga elétrica e de massa minúscula, que interage muito pouco com a matéria.",
+        "variantes": [
+          "Neutrino"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Neutrino",
+          "https://pt.wikipedia.org/wiki/Neutrino"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A partícula chamada neutrino ganhou um nome italiano, popularizado por Enrico Fermi. O que esse nome significa?",
+      "resposta": "Pequeno neutro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Neutrino"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Laser",
+        "descricao": "Dispositivo que emite um feixe de luz intenso, concentrado e de uma só cor, por emissão estimulada de radiação.",
+        "variantes": [
+          "LASER",
+          "Lêiser"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Laser",
+          "https://pt.wikipedia.org/wiki/Laser"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra laser é uma sigla em inglês que significa amplificação de quê por emissão estimulada de radiação?",
+      "resposta": "Da luz",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Laser"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mecânica quântica",
+        "descricao": "Teoria física que descreve o comportamento da matéria e da energia na escala dos átomos e das partículas subatômicas.",
+        "variantes": [
+          "Física quântica",
+          "Quantum mechanics"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Quantum_mechanics",
+          "https://en.wikipedia.org/wiki/Quantum"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A física quântica tirou seu nome da palavra latina quantum. O que ela significa?",
+      "resposta": "Quanto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Quantum"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Aage Bohr",
+        "descricao": "Físico dinamarquês (1922–2009), filho de Niels Bohr, que dividiu o Nobel de Física de 1975 por estudos sobre a estrutura do núcleo atômico.",
+        "variantes": [
+          "Aage Niels Bohr"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aage_Bohr"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O dinamarquês Aage Bohr dividiu o Nobel de Física de 1975. Que outro ganhador do Nobel de Física era o pai dele?",
+      "resposta": "Niels Bohr",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aage_Bohr"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pascal (unidade)",
+        "descricao": "Unidade de pressão do Sistema Internacional, igual a um newton por metro quadrado, nomeada em honra a Blaise Pascal.",
+        "variantes": [
+          "Pascal",
+          "Pa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pascal_(unit)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Uma linguagem de programação de 1970 e a unidade de pressão do Sistema Internacional homenageiam o mesmo pensador francês. Quem é ele?",
+      "resposta": "Blaise Pascal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pascal_(unit)",
+        "https://en.wikipedia.org/wiki/Pascal_(programming_language)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sonar",
+        "descricao": "Técnica que usa a propagação e o eco do som na água para navegar e detectar objetos, usada por navios e submarinos.",
+        "variantes": [
+          "Sonar"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sonar",
+          "https://pt.wikipedia.org/wiki/Sonar"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que o sonar dos submarinos e o jeito como os morcegos caçam no escuro têm em comum?",
+      "resposta": "Localizam objetos pelo eco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sonar",
+        "https://en.wikipedia.org/wiki/Animal_echolocation"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Forno de micro-ondas",
+        "descricao": "Eletrodoméstico que aquece alimentos com radiação de micro-ondas gerada por um magnétron.",
+        "variantes": [
+          "Micro-ondas",
+          "Microwave oven"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Microwave_oven",
+          "https://pt.wikipedia.org/wiki/Forno_de_micro-ondas"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Ligar o forno de micro-ondas pode atrapalhar o sinal do wi-fi. O que os dois aparelhos têm em comum?",
+      "resposta": "Usam a mesma faixa de frequência",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Microwave_oven",
+        "https://en.wikipedia.org/wiki/ISM_radio_band"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Brisa marítima",
+        "descricao": "Vento que sopra do mar para a terra durante o dia, causado pelo aquecimento mais rápido do continente.",
+        "variantes": [
+          "Brisa do mar",
+          "Sea breeze"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sea_breeze"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Num dia de sol na praia, por que o vento costuma soprar do mar para a terra?",
+      "resposta": "A terra esquenta mais rápido que o mar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sea_breeze"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ponto de ebulição",
+        "descricao": "Temperatura em que um líquido ferve, que depende da pressão exercida sobre ele.",
+        "variantes": [
+          "Temperatura de ebulição",
+          "Boiling point"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Boiling_point"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em La Paz, a mais de três mil e quinhentos metros de altitude, a água ferve bem abaixo de cem graus. Por quê?",
+      "resposta": "A pressão do ar é menor",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Boiling_point",
+        "https://en.wikipedia.org/wiki/High-altitude_cooking"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Inércia",
+        "descricao": "Tendência de um corpo de manter seu estado de repouso ou de movimento, descrita pela primeira lei de Newton.",
+        "variantes": [
+          "Inertia",
+          "Princípio da inércia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Inertia",
+          "https://pt.wikipedia.org/wiki/Inércia"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Quando um ônibus freia de repente, os passageiros em pé são jogados para a frente. Que propriedade dos corpos explica isso?",
+      "resposta": "Inércia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Inertia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Som",
+        "descricao": "Onda mecânica de vibração que se propaga por um meio material, como o ar ou a água.",
+        "variantes": [
+          "Onda sonora",
+          "Sound"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sound",
+          "https://pt.wikipedia.org/wiki/Som"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Nos filmes, naves explodem com estrondo, mas no espaço de verdade a explosão seria silenciosa. Por quê?",
+      "resposta": "O som não se propaga no vácuo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sound"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lei de Hooke",
+        "descricao": "Lei física segundo a qual a deformação de uma mola é proporcional à força aplicada, formulada no século dezessete.",
+        "variantes": [
+          "Hooke's law"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hooke%27s_law",
+          "https://pt.wikipedia.org/wiki/Lei_de_Hooke"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que cientista inglês do século dezessete, rival de Isaac Newton, formulou a lei que descreve quanto uma mola estica?",
+      "resposta": "Robert Hooke",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hooke%27s_law",
+        "https://en.wikipedia.org/wiki/Robert_Hooke"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Radiação infravermelha",
+        "descricao": "Radiação eletromagnética invisível, de comprimento de onda maior que o da luz vermelha, sentida como calor.",
+        "variantes": [
+          "Infravermelho",
+          "Infrared"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Infrared"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1800, medindo com termômetros as cores de um prisma, que astrônomo, descobridor de Urano, achou uma luz invisível além do vermelho?",
+      "resposta": "William Herschel",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Infrared",
+        "https://en.wikipedia.org/wiki/William_Herschel"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pêndulo",
+        "descricao": "Corpo suspenso por um fio ou haste que oscila sob a ação da gravidade, base dos relógios de pêndulo.",
+        "variantes": [
+          "Pendulum",
+          "Pêndulo simples"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pendulum",
+          "https://pt.wikipedia.org/wiki/Pêndulo"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Diz a tradição que, vendo um lustre balançar na catedral de Pisa, que cientista percebeu que cada oscilação de um pêndulo dura o mesmo tempo?",
+      "resposta": "Galileu Galilei",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pendulum",
+        "https://en.wikipedia.org/wiki/Galileo_Galilei"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Experimento do martelo e da pena",
+        "descricao": "Demonstração feita pelo astronauta David Scott na missão Apollo 15, em 1971, que repetiu a ideia de Galileu sobre a queda dos corpos.",
+        "variantes": [
+          "Hammer and feather drop",
+          "Queda do martelo e da pena"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Apollo_15",
+          "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1971, um astronauta soltou ao mesmo tempo um martelo e uma pena de falcão, e os dois chegaram juntos ao chão. Onde foi isso?",
+      "resposta": "Na Lua",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Apollo_15",
+        "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Escala Fahrenheit",
+        "descricao": "Escala de temperatura proposta por Daniel Gabriel Fahrenheit em 1724, usada principalmente nos Estados Unidos.",
+        "variantes": [
+          "Fahrenheit",
+          "Grau Fahrenheit"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fahrenheit",
+          "https://pt.wikipedia.org/wiki/Grau_Fahrenheit"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em que temperatura os termômetros em graus Celsius e em graus Fahrenheit marcam exatamente o mesmo número?",
+      "resposta": "Quarenta graus negativos",
+      "distratores": [
+        "Zero grau",
+        "Trinta e dois graus",
+        "Dez graus negativos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fahrenheit"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Densidade máxima da água",
+        "descricao": "Comportamento anômalo da água líquida, que fica mais densa por volta de quatro graus Celsius, e não no ponto de congelamento.",
+        "variantes": [
+          "Dilatação anômala da água",
+          "Anomalia da água"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Properties_of_water"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Ajudando lagos congelados a manter água líquida no fundo, a água atinge sua densidade máxima a que temperatura?",
+      "resposta": "Quatro graus Celsius",
+      "distratores": [
+        "Zero grau Celsius",
+        "Oito graus Celsius",
+        "Dez graus Celsius"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Properties_of_water",
+        "https://en.wikipedia.org/wiki/Water"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Laser",
+        "descricao": "Dispositivo que emite um feixe de luz intenso, concentrado e de uma só cor, por emissão estimulada de radiação.",
+        "variantes": [
+          "LASER",
+          "Lêiser"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Laser",
+          "https://pt.wikipedia.org/wiki/Laser"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que ano o americano Theodore Maiman fez funcionar o primeiro laser, usando um cristal de rubi?",
+      "resposta": "1960",
+      "distratores": [
+        "1948",
+        "1955",
+        "1967"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Laser",
+        "https://en.wikipedia.org/wiki/Theodore_Maiman"
+      ]
+    }
+  ]
+}
