@@ -1,0 +1,203 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Close da orelha de uma pessoa comum, com vários brincos diferentes (argola, tachinhas, pendente); a resposta não é única e há pessoa em primeiro plano."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Peça inteira, bem visível, fundo neutro; etiqueta minúscula não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que peça de roupa de trabalho, criada nos anos mil oitocentos e noventa, é esta?",
+      "resposta": "Macacão jardineira",
+      "destino": 1,
+      "ancora": {
+        "nome": "Macacão jardineira",
+        "descricao": "Peça de roupa com peitilho e alças, em geral de jeans, usada originalmente como vestimenta de trabalho.",
+        "variantes": [
+          "Jardineira",
+          "Overalls",
+          "Dungarees"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto histórica com multidão de homens em primeiro plano, vistos em grande parte de costas; thobe, ghutra e bisht aparecem juntos, então a resposta não é única, e as pessoas não são figuras públicas identificáveis."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vela acesa nítida, sem texto, reconhecível a qualquer distância.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto é este?",
+      "resposta": "Vela",
+      "destino": 0,
+      "ancora": {
+        "nome": "Vela",
+        "descricao": "Pavio embutido em cera ou outra substância sólida inflamável, usado para iluminar.",
+        "variantes": [
+          "Candle"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Objeto isolado em fundo claro, forma característica, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que acessório é este, usado para prender o cabelo?",
+      "resposta": "Grampo de cabelo",
+      "destino": 1,
+      "ancora": {
+        "nome": "Grampo de cabelo",
+        "descricao": "Pequeno grampo metálico de duas hastes, ondulado, que prende o cabelo no lugar.",
+        "variantes": [
+          "Grampo",
+          "Bobby pin",
+          "Presilha"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem nítida de um paquímetro com nônio; o texto 0.02mm não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento de medição é este?",
+      "resposta": "Paquímetro",
+      "destino": 0,
+      "ancora": {
+        "nome": "Paquímetro",
+        "descricao": "Instrumento com escala e nônio que mede comprimentos, espessuras e diâmetros com precisão.",
+        "variantes": [
+          "Calibre",
+          "Caliper",
+          "Calipers"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Objeto isolado em fundo branco, forma inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ferramenta doméstica é esta?",
+      "resposta": "Desentupidor",
+      "destino": 0,
+      "ancora": {
+        "nome": "Desentupidor",
+        "descricao": "Ferramenta com ventosa de borracha presa a um cabo, usada para desobstruir ralos e vasos.",
+        "variantes": [
+          "Desentupidor de pia",
+          "Plunger",
+          "Ventosa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Chapéu de feltro com aba flexível e vinco central, fotografado de cima com fundo branco; reconhecível, ainda que exija distinguir de chapéus parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que chapéu de feltro, com aba mole e copa vincada, é este?",
+      "resposta": "Fedora",
+      "distratores": [
+        "Homburg",
+        "Trilby",
+        "Bombim"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Chapéu fedora",
+        "descricao": "Chapéu de feltro de aba mole e copa vincada no sentido do comprimento, com as laterais beliscadas.",
+        "variantes": [
+          "Fedora",
+          "Chapéu de feltro"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Objeto bem visível; o texto na madeira (marca, Made in Canada) não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto doméstico antigo é este?",
+      "resposta": "Tábua de lavar roupa",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tábua de lavar roupa",
+        "descricao": "Tábua com superfície ondulada, de vidro ou metal, usada para esfregar roupas ao lavá-las à mão.",
+        "variantes": [
+          "Tábua de lavar",
+          "Washboard"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Balde amarelo com alça de metal, claro e reconhecível; a marca pequena não entrega a resposta. Imagem de baixa resolução, mas legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto é este?",
+      "resposta": "Balde",
+      "destino": 0,
+      "ancora": {
+        "nome": "Balde",
+        "descricao": "Recipiente cilíndrico ou cônico, aberto em cima e com alça semicircular, usado para carregar líquidos.",
+        "variantes": [
+          "Bucket",
+          "Baldinho"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Close sem contexto de um utensílio metálico serrilhado que se confunde com alicate ou quebra-casca de crustáceo; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Camisa bordada translúcida exposta em museu, sem texto; traje característico das Filipinas.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é este traje masculino tradicional?",
+      "resposta": "Filipinas",
+      "distratores": [
+        "Indonésia",
+        "Tailândia",
+        "Malásia"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Barong tagalog",
+        "descricao": "Camisa masculina formal bordada, de mangas compridas e tecido translúcido, traje nacional das Filipinas.",
+        "variantes": [
+          "Barong",
+          "Barong tagalog"
+        ]
+      }
+    }
+  ]
+}

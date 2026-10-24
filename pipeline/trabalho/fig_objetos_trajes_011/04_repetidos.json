@@ -1,0 +1,65 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que peça de roupa, usada originalmente para o trabalho, é esta?",
+        "resposta": "Macacão jardineira"
+      },
+      "existentes": [
+        {
+          "id": "q15116",
+          "pergunta": "Que peça de roupa é esta?",
+          "resposta": "Jardineira"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que chapéu de feltro, que fez grande sucesso a partir dos anos vinte, é este?",
+        "resposta": "Fedora"
+      },
+      "existentes": [
+        {
+          "id": "q04089",
+          "pergunta": "O chapéu fedora tirou seu nome de uma peça de teatro do século dezenove, protagonizada por qual atriz francesa?",
+          "resposta": "Sarah Bernhardt"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "De que país é este traje masculino tradicional?",
+        "resposta": "Filipinas"
+      },
+      "existentes": [
+        {
+          "id": "q14899",
+          "pergunta": "Em que país do Sudeste Asiático esta peça de roupa masculina é traje nacional?",
+          "resposta": "Filipinas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q15116",
+      "motivo": "Ambas pedem a identificação da mesma peça de roupa (jardineira) a partir da imagem."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do chapéu fedora; a existente pergunta a atriz da peça que deu nome a ele. Fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q14899",
+      "motivo": "Ambas perguntam o país (Filipinas) de que a peça masculina é traje tradicional/nacional."
+    }
+  ]
+}

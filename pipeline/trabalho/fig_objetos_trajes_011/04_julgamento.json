@@ -1,0 +1,560 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Macacão jardineira",
+        "descricao": "Peça de roupa com peitilho e alças, em geral de jeans, usada originalmente como vestimenta de trabalho.",
+        "variantes": [
+          "Jardineira",
+          "Overalls",
+          "Dungarees"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jardineira",
+          "nome": "Jardineira",
+          "descricao": "Peça de vestuário com peitilho e alças, de calça, originalmente de brim e usada no trabalho.",
+          "variantes": [
+            "Overalls",
+            "Dungarees"
+          ]
+        },
+        {
+          "id": "sardenha",
+          "nome": "Sardenha",
+          "descricao": "Ilha italiana no mar Mediterrâneo, ao sul da Córsega, cuja capital é Cagliari.",
+          "variantes": [
+            "Sardinia",
+            "Sardegna"
+          ]
+        },
+        {
+          "id": "paineira",
+          "nome": "Paineira",
+          "descricao": "Árvore decídua sul-americana Ceiba speciosa, de flores rosadas e tronco bojudo com espinhos.",
+          "variantes": [
+            "Ceiba speciosa",
+            "Barriguda",
+            "Paina-rosa",
+            "Árvore-de-paina"
+          ]
+        },
+        {
+          "id": "aranha_armadeira",
+          "nome": "Aranha-armadeira",
+          "descricao": "Aranhas sul-americanas do gênero Phoneutria, errantes e de veneno potente, comuns no Brasil.",
+          "variantes": [
+            "Phoneutria",
+            "armadeira",
+            "aranha-de-bananeira"
+          ]
+        },
+        {
+          "id": "jardim_persa",
+          "nome": "Jardim persa",
+          "descricao": "Tradição de jardins murados do antigo Irã, cujo termo em persa antigo deu origem à palavra paraíso.",
+          "variantes": [
+            "Persian garden",
+            "Pairidaeza"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Vela",
+        "descricao": "Pavio embutido em cera ou outra substância sólida inflamável, usado para iluminar.",
+        "variantes": [
+          "Candle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "avela",
+          "nome": "Avelã",
+          "descricao": "Fruto da aveleira (Corylus avellana), fruto seco usado em doces e pastas de chocolate.",
+          "variantes": [
+            "Avelã comum",
+            "Hazelnut"
+          ]
+        },
+        {
+          "id": "very_large_array",
+          "nome": "Very Large Array",
+          "descricao": "Observatório de radioastronomia com 27 antenas de 25 metros no Novo México, EUA.",
+          "variantes": [
+            "VLA",
+            "Karl G. Jansky Very Large Array"
+          ]
+        },
+        {
+          "id": "ovelha",
+          "nome": "Ovelha",
+          "descricao": "Ruminante doméstico da espécie Ovis aries, criado por lã, carne e leite.",
+          "variantes": [
+            "Ovis aries",
+            "Carneiro",
+            "Ovino"
+          ]
+        },
+        {
+          "id": "veluza",
+          "nome": "Veluza",
+          "descricao": "Pokémon dos tipos Água e Psíquico, número 976 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "candido",
+          "nome": "Cândido",
+          "descricao": "Novela satírica de Voltaire publicada em 1759, que ridiculariza o otimismo filosófico.",
+          "variantes": [
+            "Cândido, ou o Otimismo",
+            "Candide"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Grampo de cabelo",
+        "descricao": "Pequeno grampo metálico de duas hastes, ondulado, que prende o cabelo no lugar.",
+        "variantes": [
+          "Grampo",
+          "Bobby pin",
+          "Presilha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gramado",
+          "nome": "Gramado",
+          "descricao": "Município turístico da Serra Gaúcha, no Rio Grande do Sul, conhecido pela arquitetura de influência alemã e italiana.",
+          "variantes": []
+        },
+        {
+          "id": "grampeador",
+          "nome": "Grampeador",
+          "descricao": "Dispositivo mecânico que une folhas de papel cravando um grampo metálico e dobrando suas pontas.",
+          "variantes": [
+            "Agrafador",
+            "Stapler"
+          ]
+        },
+        {
+          "id": "gramofone",
+          "nome": "Gramofone",
+          "descricao": "Aparelho de reprodução de som com discos planos, patenteado por Emile Berliner em 1887.",
+          "variantes": [
+            "Gramophone"
+          ]
+        },
+        {
+          "id": "uva",
+          "nome": "Uva",
+          "descricao": "Fruto em cachos da videira (gênero Vitis), consumido fresco, seco ou usado na vinificação.",
+          "variantes": [
+            "Grape"
+          ]
+        },
+        {
+          "id": "gamao",
+          "nome": "Gamão",
+          "descricao": "Jogo de tabuleiro para dois jogadores, com dados e quinze peças cada, que andam por vinte e quatro casas triangulares.",
+          "variantes": [
+            "Backgammon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Paquímetro",
+        "descricao": "Instrumento com escala e nônio que mede comprimentos, espessuras e diâmetros com precisão.",
+        "variantes": [
+          "Calibre",
+          "Caliper",
+          "Calipers"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caliope",
+          "nome": "Calíope",
+          "descricao": "Musa grega da poesia épica e da eloquência, mãe de Orfeu em algumas versões.",
+          "variantes": [
+            "Calliope",
+            "Kalliope"
+          ]
+        },
+        {
+          "id": "clipe_de_papel",
+          "nome": "Clipe de papel",
+          "descricao": "Peça de arame dobrado usada para prender folhas de papel.",
+          "variantes": [
+            "Clipe",
+            "Paper clip"
+          ]
+        },
+        {
+          "id": "alcaparra",
+          "nome": "Alcaparra",
+          "descricao": "Capparis spinosa, arbusto mediterrâneo cujos botões florais são usados como tempero em conserva.",
+          "variantes": [
+            "Alcaparreira",
+            "Capparis spinosa",
+            "Caper"
+          ]
+        },
+        {
+          "id": "calcifer",
+          "nome": "Calcifer",
+          "descricao": "Demônio do fogo que move o castelo em O Castelo Animado, filme do Studio Ghibli.",
+          "variantes": [
+            "Calcifer, o demônio do fogo"
+          ]
+        },
+        {
+          "id": "calipateira",
+          "nome": "Calipateira",
+          "descricao": "Mulher de Rodes que, segundo Pausânias, entrou disfarçada de treinador nos Jogos de Olímpia para ver o filho competir.",
+          "variantes": [
+            "Kallipateira",
+            "Ferenice de Rodes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Desentupidor",
+        "descricao": "Ferramenta com ventosa de borracha presa a um cabo, usada para desobstruir ralos e vasos.",
+        "variantes": [
+          "Desentupidor de pia",
+          "Plunger",
+          "Ventosa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "veto",
+          "nome": "Veto",
+          "descricao": "Poder de barrar uma decisão, cuja palavra vem do latim e era usada pelos tribunos da plebe romana.",
+          "variantes": []
+        },
+        {
+          "id": "luge",
+          "nome": "Luge",
+          "descricao": "Esporte olímpico de inverno em que o atleta desce deitado de costas, com os pés à frente, num pequeno trenó.",
+          "variantes": [
+            "Luge de pista natural",
+            "Trenó"
+          ]
+        },
+        {
+          "id": "avental",
+          "nome": "Avental",
+          "descricao": "Peça que cobre a frente do corpo sobre a roupa; aqui, um avental tradicional bordado em ponto cruz.",
+          "variantes": [
+            "Apron"
+          ]
+        },
+        {
+          "id": "despertador",
+          "nome": "Despertador",
+          "descricao": "Relógio que emite um som num horário programado para acordar quem dorme.",
+          "variantes": [
+            "Relógio despertador",
+            "Alarm clock"
+          ]
+        },
+        {
+          "id": "vestido_de_noiva",
+          "nome": "Vestido de Noiva",
+          "descricao": "Peça de Nelson Rodrigues estreada em 1943, marco do teatro moderno brasileiro.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Chapéu fedora",
+        "descricao": "Chapéu de feltro de aba mole e copa vincada no sentido do comprimento, com as laterais beliscadas.",
+        "variantes": [
+          "Fedora",
+          "Chapéu de feltro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fedora",
+          "nome": "Fedora",
+          "descricao": "Chapéu de feltro macio com aba e copa vincada no centro",
+          "variantes": [
+            "Chapéu fedora"
+          ]
+        },
+        {
+          "id": "ushanka",
+          "nome": "Ushanka",
+          "descricao": "Chapéu russo de pele com abas que cobrem as orelhas, usado contra o frio.",
+          "variantes": [
+            "Chapéu de pele russo",
+            "Shapka-ushanka"
+          ]
+        },
+        {
+          "id": "teodora",
+          "nome": "Teodora",
+          "descricao": "Imperatriz bizantina do século seis, esposa e conselheira do imperador Justiniano Primeiro.",
+          "variantes": [
+            "Theodora",
+            "Imperatriz Teodora"
+          ]
+        },
+        {
+          "id": "chapeu_de_castor",
+          "nome": "Chapéu de castor",
+          "descricao": "Chapéu de feltro feito com pelo de castor, muito valorizado na Europa entre os séculos dezessete e dezenove",
+          "variantes": [
+            "Beaver hat"
+          ]
+        },
+        {
+          "id": "cartola_2",
+          "nome": "Cartola",
+          "descricao": "Chapéu alto de copa reta e aba curta, tradicionalmente preto, usado com trajes formais ocidentais.",
+          "variantes": [
+            "Cartola (chapéu)",
+            "Top hat",
+            "Chapéu alto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Tábua de lavar roupa",
+        "descricao": "Tábua com superfície ondulada, de vidro ou metal, usada para esfregar roupas ao lavá-las à mão.",
+        "variantes": [
+          "Tábua de lavar",
+          "Washboard"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maquina_de_lavar_louca",
+          "nome": "Máquina de lavar louça",
+          "descricao": "Eletrodoméstico que lava pratos e utensílios, patenteado pela americana Josephine Cochrane em 1886.",
+          "variantes": [
+            "Lava-louças",
+            "Dishwasher"
+          ]
+        },
+        {
+          "id": "lago_de_lava",
+          "nome": "Lago de lava",
+          "descricao": "Grande volume de lava fundida contido numa cratera ou depressão de um vulcão.",
+          "variantes": [
+            "Lava lake"
+          ]
+        },
+        {
+          "id": "vila_velha_parana",
+          "nome": "Vila Velha (Paraná)",
+          "descricao": "Parque estadual em Ponta Grossa, no Paraná, conhecido pelas formações de arenito como a Taça.",
+          "variantes": [
+            "Parque Estadual de Vila Velha",
+            "Taça de Vila Velha"
+          ]
+        },
+        {
+          "id": "tabela_de_basquete",
+          "nome": "Tabela de basquete",
+          "descricao": "Placa vertical presa atrás do aro, na qual a bola pode quicar antes de entrar na cesta.",
+          "variantes": [
+            "Backboard",
+            "Tabela"
+          ]
+        },
+        {
+          "id": "ashoka",
+          "nome": "Ashoka",
+          "descricao": "Imperador da dinastia Máuria, que governou quase todo o subcontinente indiano no século três antes de Cristo.",
+          "variantes": [
+            "Asoka",
+            "Ashoka, o Grande"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Balde",
+        "descricao": "Recipiente cilíndrico ou cônico, aberto em cima e com alça semicircular, usado para carregar líquidos.",
+        "variantes": [
+          "Bucket",
+          "Baldinho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "balder",
+          "nome": "Balder",
+          "descricao": "Deus nórdico da luz e da beleza, filho de Odin e Frigg, morto por artimanha de Loki.",
+          "variantes": [
+            "Baldr",
+            "Baldur"
+          ]
+        },
+        {
+          "id": "alder",
+          "nome": "Alder",
+          "descricao": "Campeão da Liga Pokémon de Unova nos jogos Pokémon Black e White, treinador andarilho de cabelo ruivo.",
+          "variantes": [
+            "Adeku"
+          ]
+        },
+        {
+          "id": "ronaldinho_gaucho",
+          "nome": "Ronaldinho Gaúcho",
+          "descricao": "Ronaldo de Assis Moreira, meia-atacante brasileiro do Barcelona, campeão mundial em 2002.",
+          "variantes": [
+            "Ronaldinho",
+            "Ronaldo de Assis Moreira"
+          ]
+        },
+        {
+          "id": "teleferico",
+          "nome": "Teleférico",
+          "descricao": "Meio de transporte com cabines suspensas por cabos de aço, usado para vencer desníveis.",
+          "variantes": [
+            "Bondinho",
+            "Gôndola aérea",
+            "Cable car"
+          ]
+        },
+        {
+          "id": "saladino",
+          "nome": "Saladino",
+          "descricao": "Sultão curdo do Egito e da Síria no século doze, fundador da dinastia aiúbida e adversário dos cruzados.",
+          "variantes": [
+            "Salah ad-Din",
+            "Saladin",
+            "Salah al-Din Yusuf ibn Ayyub"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Barong tagalog",
+        "descricao": "Camisa masculina formal bordada, de mangas compridas e tecido translúcido, traje nacional das Filipinas.",
+        "variantes": [
+          "Barong"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barong_tagalog",
+          "nome": "Barong tagalog",
+          "descricao": "Camisa formal masculina bordada e translúcida, traje nacional das Filipinas.",
+          "variantes": [
+            "Barong"
+          ]
+        },
+        {
+          "id": "aron",
+          "nome": "Aron",
+          "descricao": "Pokémon do tipo Aço/Pedra da terceira geração, número 304 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "argonio",
+          "nome": "Argônio",
+          "descricao": "Elemento químico gasoso de número atômico 18, um gás nobre que forma cerca de um por cento do ar.",
+          "variantes": [
+            "Árgon",
+            "Argon"
+          ]
+        },
+        {
+          "id": "bongo",
+          "nome": "Bongo",
+          "descricao": "Grande antílope de floresta, Tragelaphus eurycerus, de pelagem avermelhada com listras brancas.",
+          "variantes": [
+            "Tragelaphus eurycerus"
+          ]
+        },
+        {
+          "id": "lord_byron",
+          "nome": "Lord Byron",
+          "descricao": "Poeta romântico inglês (1788–1824), autor de Don Juan e A Peregrinação de Childe Harold.",
+          "variantes": [
+            "George Gordon Byron",
+            "Byron"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "jardineira",
+      "motivo": "Mesma peça de vestuário com peitilho e alças, mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Vela (objeto) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Grampo de cabelo é distinto do grampeador e das demais candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Paquímetro não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Desentupidor não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "fedora",
+      "motivo": "Mesmo chapéu de feltro com copa vincada; variante 'Chapéu fedora' coincide."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Tábua de lavar roupa não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Balde (recipiente) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "barong_tagalog",
+      "motivo": "Mesma camisa tradicional filipina, descrições equivalentes."
+    }
+  ]
+}
