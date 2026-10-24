@@ -1,0 +1,57 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto, sem vazamento; a torta de maçã é descrita nos trechos e os distratores são tortas de frutas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os dois trechos confirmam a origem no Porto. O enunciado não entrega a resposta sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Naan é um pão achatado. Os distratores são pães achatados críveis, com no máximo 4 palavras, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o affogato é uma sobremesa italiana. O enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz 'quente', parte da resposta 'Misto-quente' (vazamento). Troquei por uma pista neutra, o país.",
+      "reescrita": {
+        "pergunta": "Que sanduíche, muito comum nas padarias e lanchonetes do Brasil, é este?",
+        "resposta": "Misto-quente"
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'português' no enunciado é derivado de 'portuguesa', na resposta. Troquei por 'europeu', que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que prato europeu é este?",
+        "resposta": "Cozido à portuguesa",
+        "distratores": [
+          "Feijoada à transmontana",
+          "Arroz de cabidela",
+          "Bacalhau com todos"
+        ]
+      }
+    }
+  ]
+}

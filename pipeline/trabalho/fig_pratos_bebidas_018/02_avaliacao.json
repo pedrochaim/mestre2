@@ -1,0 +1,168 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Torta de massa treliçada com maçãs ao lado, reconhecível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que torta é esta?",
+      "resposta": "Torta de maçã",
+      "distratores": [
+        "Torta de cereja",
+        "Torta de pêssego",
+        "Torta de abóbora"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Torta de maçã",
+        "descricao": "Torta de frutas cujo recheio principal é maçã, com massa quebradiça embaixo e em cima.",
+        "variantes": [
+          "Apple pie"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Fatia pálida de queijo em palito sobre um prato florido; não há características que permitam reconhecer o queijo coalho, e poderia ser outro queijo."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Francesinha com cobertura de queijo derretido e molho, reconhecível; sem texto legível que entregue a resposta.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este sanduíche é originário de que cidade portuguesa?",
+      "resposta": "Porto",
+      "destino": 0,
+      "ancora": {
+        "nome": "Francesinha",
+        "descricao": "Sanduíche português originário do Porto, com carnes, queijo derretido e molho de tomate e cerveja.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Bloco marrom liso num prato, que pode ser confundido com doce de leite em tablete, goiabada ou outro doce; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pão achatado com bolhas e manchas douradas típicas do naan, sem texto; imagem pequena, mas legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pão é este?",
+      "resposta": "Naan",
+      "distratores": [
+        "Pão pita",
+        "Chapati",
+        "Lavash"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Naan",
+        "descricao": "Pão achatado fermentado, assado em forno tandoor ou frigideira, típico da Índia e da Ásia Central.",
+        "variantes": [
+          "Nan"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Sorvete de creme numa xícara com café, claramente um affogato; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sobremesa italiana é esta?",
+      "resposta": "Affogato",
+      "destino": 0,
+      "ancora": {
+        "nome": "Affogato",
+        "descricao": "Sobremesa italiana de uma bola de sorvete coberta com café expresso.",
+        "variantes": [
+          "Affogato al caffè"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto escura e borrada, com mão em primeiro plano e outros pratos e bebidas na mesa; o escondidinho não é reconhecível."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Mostra cinco tigelas com preparações diferentes; várias coisas e sem entidade única, e curry é uma categoria ampla."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Os rótulos mostram 'Limoncello' escrito em várias garrafas e entregam a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Sanduíche torrado de presunto e queijo, claro e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sanduíche quente é este?",
+      "resposta": "Misto-quente",
+      "destino": 0,
+      "ancora": {
+        "nome": "Misto-quente",
+        "descricao": "Sanduíche quente de pão com queijo e presunto, prensado ou grelhado.",
+        "variantes": [
+          "Tosta mista",
+          "Croque-monsieur",
+          "Sandes mista"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Abóbora moranga recheada coberta com tiras de queijo, característica do prato; sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este prato foi criado em que cidade do litoral paulista?",
+      "resposta": "Ubatuba",
+      "destino": 0,
+      "ancora": {
+        "nome": "Camarão na moranga",
+        "descricao": "Prato caiçara de abóbora moranga recheada com camarão e creme, criado em Ubatuba (SP).",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Prato com carnes cozidas, enchidos, batata, cenoura e repolho, típico do cozido à portuguesa; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato português é este?",
+      "resposta": "Cozido à portuguesa",
+      "distratores": [
+        "Feijoada à transmontana",
+        "Arroz de cabidela",
+        "Bacalhau com todos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cozido à portuguesa",
+        "descricao": "Prato tradicional português de carnes, enchidos e legumes cozidos.",
+        "variantes": [
+          "Cozido português"
+        ]
+      }
+    }
+  ]
+}

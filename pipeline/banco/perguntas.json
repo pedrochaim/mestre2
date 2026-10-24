@@ -294768,5 +294768,139 @@
       "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
       "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
     }
+  },
+  {
+    "id": "q15517",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "torta_de_maca",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que torta é esta?",
+    "resposta": "Torta de maçã",
+    "distratores": [
+      "Torta de cereja",
+      "Torta de pêssego",
+      "Torta de abóbora"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Apple_pie",
+      "https://pt.wikipedia.org/wiki/Torta_de_ma%C3%A7%C3%A3"
+    ],
+    "imagem": {
+      "arquivo": "q15517.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Apple_pie.jpg",
+      "autor": "Dan Parsons",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q15518",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "francesinha",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Este sanduíche é originário de que cidade portuguesa?",
+    "resposta": "Porto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Francesinha",
+      "https://pt.wikipedia.org/wiki/Francesinha"
+    ],
+    "imagem": {
+      "arquivo": "q15518.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Francesinhacaseira.JPG",
+      "autor": "José Raeiro",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q15519",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "naan",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que pão é este?",
+    "resposta": "Naan",
+    "distratores": [
+      "Pão pita",
+      "Chapati",
+      "Lavash"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Naan",
+      "https://pt.wikipedia.org/wiki/Naan"
+    ],
+    "imagem": {
+      "arquivo": "q15519.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:YosriRotiTempayan.jpg",
+      "autor": "Yosri at ms.wikipedia. Later version(s) were uploaded by PM Poon at ms.wikipedia.",
+      "licenca": "GFDL"
+    }
+  },
+  {
+    "id": "q15520",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "affogato",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que sobremesa italiana é esta?",
+    "resposta": "Affogato",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Affogato",
+      "https://pt.wikipedia.org/wiki/Affogato"
+    ],
+    "imagem": {
+      "arquivo": "q15520.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Vinoteca,_Smithfield,_London_(4485849609).jpg",
+      "autor": "Ewan Munro from London, UK",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q15521",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "misto_quente",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que sanduíche, muito comum nas padarias e lanchonetes do Brasil, é este?",
+    "resposta": "Misto-quente",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Misto-quente"
+    ],
+    "imagem": {
+      "arquivo": "q15521.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sand._Mixto_-_Extra_queso.jpg",
+      "autor": "Tamorlan",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15522",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cozido_a_portuguesa",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que prato europeu é este?",
+    "resposta": "Cozido à portuguesa",
+    "distratores": [
+      "Feijoada à transmontana",
+      "Arroz de cabidela",
+      "Bacalhau com todos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cozido_%C3%A0_portuguesa",
+      "https://pt.wikipedia.org/wiki/Cozido_%C3%A0_portuguesa"
+    ],
+    "imagem": {
+      "arquivo": "q15522.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cozido_a_portuguesa_1.JPG",
+      "autor": "Uxbona",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

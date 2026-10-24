@@ -1,0 +1,371 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Torta de maçã",
+        "descricao": "Torta de frutas cujo recheio principal é maçã, com massa quebradiça embaixo e em cima.",
+        "variantes": [
+          "Apple pie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "apple_i",
+          "nome": "Apple I",
+          "descricao": "Primeiro computador da Apple, projetado por Steve Wozniak e vendido a partir de 1976.",
+          "variantes": [
+            "Apple-1"
+          ]
+        },
+        {
+          "id": "pave",
+          "nome": "Pavê",
+          "descricao": "Sobremesa gelada brasileira em camadas de biscoito ou bolo e creme, de inspiração francesa.",
+          "variantes": [
+            "Torta de bolacha",
+            "Pavê de doce de leite"
+          ]
+        },
+        {
+          "id": "torta_de_limao_com_merengue",
+          "nome": "Torta de limão com merengue",
+          "descricao": "Torta de massa amanteigada recheada com creme de limão e coberta com merengue.",
+          "variantes": [
+            "Torta de limão",
+            "Lemon meringue pie"
+          ]
+        },
+        {
+          "id": "apple",
+          "nome": "Apple",
+          "descricao": "Empresa americana de tecnologia fundada em 1976, fabricante do Macintosh e do iPhone.",
+          "variantes": [
+            "Apple Inc.",
+            "Apple Computer"
+          ]
+        },
+        {
+          "id": "cota_de_malha",
+          "nome": "Cota de malha",
+          "descricao": "Armadura feita de pequenos anéis de metal entrelaçados formando uma malha, usada em exércitos da Antiguidade ao século dezesseis.",
+          "variantes": [
+            "Malha",
+            "Chain mail",
+            "Loriga de malha",
+            "Hauberk"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Francesinha",
+        "descricao": "Sanduíche português originário do Porto, com carnes, queijo derretido e molho de tomate e cerveja.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "franjinha",
+          "nome": "Franjinha",
+          "descricao": "Menino cientista e inventor da Turma da Mônica, morador do Bairro do Limoeiro.",
+          "variantes": []
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        },
+        {
+          "id": "franca_2",
+          "nome": "Franca",
+          "descricao": "Município do interior de São Paulo, tradicional centro do basquete brasileiro.",
+          "variantes": [
+            "Franca SP"
+          ]
+        },
+        {
+          "id": "dama_xadrez",
+          "nome": "Dama (xadrez)",
+          "descricao": "Peça mais poderosa do xadrez, que se move em linha reta e na diagonal por quantas casas quiser, também chamada rainha.",
+          "variantes": [
+            "Rainha (xadrez)",
+            "Queen",
+            "Rainha"
+          ]
+        },
+        {
+          "id": "abelha_rainha",
+          "nome": "Abelha-rainha",
+          "descricao": "Fêmea fértil e reprodutora de uma colônia de abelhas-europeias.",
+          "variantes": [
+            "Rainha",
+            "Queen bee"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Naan",
+        "descricao": "Pão achatado fermentado, assado em forno tandoor ou frigideira, típico da Índia e da Ásia Central.",
+        "variantes": [
+          "Nan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nanu",
+          "nome": "Nanu",
+          "descricao": "Kahuna da ilha Ula'ula e policial nos jogos Pokémon Sun e Moon, especialista em pokémon sombrios.",
+          "variantes": []
+        },
+        {
+          "id": "tata_nano",
+          "nome": "Tata Nano",
+          "descricao": "Carro compacto econômico fabricado pela Tata Motors na Índia de 2008 a 2018.",
+          "variantes": [
+            "Nano"
+          ]
+        },
+        {
+          "id": "sodio",
+          "nome": "Sódio",
+          "descricao": "Elemento químico de número atômico 11, metal alcalino macio que reage violentamente com a água.",
+          "variantes": [
+            "Na",
+            "Natrium"
+          ]
+        },
+        {
+          "id": "juan",
+          "nome": "Juan",
+          "descricao": "Líder do ginásio de tipo Água de Sootopolis em Pokémon Emerald, antigo mestre de Wallace.",
+          "variantes": [
+            "Adan"
+          ]
+        },
+        {
+          "id": "whiscash",
+          "nome": "Whiscash",
+          "descricao": "Pokémon dos tipos Água e Terrestre, número 340 da Pokédex Nacional.",
+          "variantes": [
+            "Namazun"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Affogato",
+        "descricao": "Sobremesa italiana de uma bola de sorvete coberta com café expresso.",
+        "variantes": [
+          "Affogato al caffè"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "botafogo",
+          "nome": "Botafogo",
+          "descricao": "Botafogo de Futebol e Regatas, clube carioca de camisa alvinegra e escudo com uma estrela.",
+          "variantes": [
+            "Botafogo de Futebol e Regatas",
+            "Fogão"
+          ]
+        },
+        {
+          "id": "gato",
+          "nome": "Gato",
+          "descricao": "Pequeno mamífero carnívoro doméstico (Felis catus).",
+          "variantes": [
+            "Gato-doméstico",
+            "Felis catus"
+          ]
+        },
+        {
+          "id": "afogamento_xadrez",
+          "nome": "Afogamento (xadrez)",
+          "descricao": "Situação do xadrez em que o jogador da vez não está em xeque mas não tem nenhum lance legal.",
+          "variantes": [
+            "Stalemate",
+            "Rei afogado"
+          ]
+        },
+        {
+          "id": "afeganistao",
+          "nome": "Afeganistão",
+          "descricao": "País sem litoral da Ásia Central e do Sul, cuja capital é Cabul.",
+          "variantes": [
+            "Afghanistan",
+            "Emirado Islâmico do Afeganistão"
+          ]
+        },
+        {
+          "id": "aligator",
+          "nome": "Aligátor",
+          "descricao": "Gênero de crocodilianos (Alligator) que inclui o aligátor-americano e o aligátor-chinês.",
+          "variantes": [
+            "Alligator",
+            "Jacaré-americano",
+            "Aligátor-americano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Misto-quente",
+        "descricao": "Sanduíche quente de pão com queijo e presunto, prensado ou grelhado.",
+        "variantes": [
+          "Tosta mista",
+          "Croque-monsieur",
+          "Sandes mista"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "andres_iniesta",
+          "nome": "Andrés Iniesta",
+          "descricao": "Ex-meio-campista espanhol do Barcelona, campeão mundial em 2010.",
+          "variantes": [
+            "Iniesta",
+            "Andrés Iniesta Luján"
+          ]
+        },
+        {
+          "id": "rio_tamisa",
+          "nome": "Rio Tâmisa",
+          "descricao": "Rio da Inglaterra que atravessa Londres e Oxford e deságua no mar do Norte.",
+          "variantes": [
+            "Tâmisa",
+            "River Thames",
+            "Thames"
+          ]
+        },
+        {
+          "id": "boa_vista",
+          "nome": "Boa Vista",
+          "descricao": "Capital do estado de Roraima, às margens do rio Branco, inteiramente no Hemisfério Norte.",
+          "variantes": [
+            "Boa Vista (Roraima)"
+          ]
+        },
+        {
+          "id": "motor_stirling",
+          "nome": "Motor Stirling",
+          "descricao": "Motor térmico de ciclo fechado que opera pela expansão e contração cíclica de um gás aquecido externamente.",
+          "variantes": [
+            "Stirling engine",
+            "Motor a ar quente"
+          ]
+        },
+        {
+          "id": "post_it",
+          "nome": "Post-it",
+          "descricao": "Bloco de papéis autoadesivos removíveis lançado pela empresa americana 3M.",
+          "variantes": [
+            "Post-it note",
+            "Nota adesiva",
+            "Bloco autoadesivo",
+            "Post-its"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cozido à portuguesa",
+        "descricao": "Prato tradicional português de carnes, enchidos e legumes cozidos.",
+        "variantes": [
+          "Cozido português"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_portuguesa",
+          "nome": "A Portuguesa",
+          "descricao": "Hino nacional de Portugal, composto em 1890 por Alfredo Keil, com letra de Henrique Lopes de Mendonça.",
+          "variantes": [
+            "Hino de Portugal"
+          ]
+        },
+        {
+          "id": "cruz_da_ordem_de_cristo",
+          "nome": "Cruz da Ordem de Cristo",
+          "descricao": "Cruz vermelha e branca da Ordem de Cristo, símbolo de Portugal associado aos Descobrimentos.",
+          "variantes": [
+            "Cruz de Cristo",
+            "Cruz Portuguesa"
+          ]
+        },
+        {
+          "id": "galego_portugues",
+          "nome": "Galego-português",
+          "descricao": "Língua românica medieval falada no noroeste da Península Ibérica, origem do português e do galego",
+          "variantes": [
+            "Galaico-português",
+            "Português arcaico"
+          ]
+        },
+        {
+          "id": "imperio_portugues",
+          "nome": "Império Português",
+          "descricao": "Império colonial de Portugal, iniciado com a conquista de Ceuta em 1415 e encerrado com a entrega de Macau à China em 1999.",
+          "variantes": [
+            "Império Colonial Português",
+            "Portuguese Empire"
+          ]
+        },
+        {
+          "id": "lingua_portuguesa",
+          "nome": "Língua portuguesa",
+          "descricao": "Língua românica originada no noroeste da Península Ibérica, oficial em países de quatro continentes",
+          "variantes": [
+            "Português"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Torta de maçã não corresponde a nenhuma candidata; são outras tortas, empresa ou computador."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Francesinha (sanduíche) não está entre as candidatas, que são entidades distintas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Naan (pão) é diferente de todas as candidatas, só têm nomes parecidos."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Affogato (sobremesa) não coincide com nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Misto-quente (sanduíche) não aparece entre as candidatas, que são entidades sem relação."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Cozido à portuguesa (prato) é distinto das candidatas sobre Portugal, língua ou hino."
+    }
+  ]
+}
