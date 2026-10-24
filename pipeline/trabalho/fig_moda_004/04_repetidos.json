@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Como se chama esta peça do traje tradicional escocês?",
+        "resposta": "Sporran"
+      },
+      "existentes": [
+        {
+          "id": "q01614",
+          "pergunta": "Esta bolsa, usada na frente da cintura, faz parte do traje tradicional masculino de que país?",
+          "resposta": "Escócia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome da peça (sporran); a existente pede o país do traje (Escócia). Fatos diferentes, e saber uma resposta não leva à outra."
+    }
+  ]
+}

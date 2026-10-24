@@ -1,0 +1,192 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Suéter de gola alta isolado, bem visível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peça de roupa é esta?",
+      "resposta": "Suéter",
+      "distratores": [
+        "Colete",
+        "Camisa polo",
+        "Jaqueta bomber"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Suéter",
+        "descricao": "Peça de vestuário de malha de tricô, em geral de mangas compridas, que cobre a parte superior do corpo.",
+        "variantes": [
+          "Pulôver",
+          "Sweater",
+          "Camisola de lã"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto antiga de duas pessoas comuns em primeiro plano, não figuras públicas."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Sporran em close, sobre tartã, reconhecível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Como se chama esta peça do traje tradicional escocês?",
+      "resposta": "Sporran",
+      "distratores": [
+        "Sgian-dubh",
+        "Glengarry",
+        "Dirk"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sporran",
+        "descricao": "Bolsa de couro ou pelo usada na frente do kilt, na vestimenta tradicional masculina das Terras Altas escocesas.",
+        "variantes": [
+          "Esporrão escocês"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Jardineira de brim isolada, clara; logotipo minúsculo ilegível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peça de roupa é esta?",
+      "resposta": "Jardineira",
+      "distratores": [
+        "Calça pantalona",
+        "Bermuda cargo",
+        "Calça saruel"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jardineira",
+        "descricao": "Peça de vestuário com peitilho e alças, de calça, originalmente de brim e usada no trabalho.",
+        "variantes": [
+          "Overalls",
+          "Dungarees"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Chapéu pork pie isolado, copa plana característica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que modelo de chapéu é este?",
+      "resposta": "Pork pie",
+      "distratores": [
+        "Fedora",
+        "Trilby",
+        "Homburg"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chapéu pork pie",
+        "descricao": "Chapéu de feltro com copa plana e redonda, que lembra uma torta de porco.",
+        "variantes": [
+          "Pork pie hat",
+          "Porkpie"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "É um desenho/esboço; ilustração só vale para o que não pode ser fotografado, e uma camiseta pode."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Várias amostras de tecido diferentes, com aspecto de bouclé; não é reconhecível como tweed e a resposta não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Mulher comum em primeiro plano, não figura pública nem festa pública."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Avental bordado tradicional, isolado e sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que peça de vestuário é esta?",
+      "resposta": "Avental",
+      "distratores": [
+        "Saia",
+        "Xale",
+        "Colete"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Avental",
+        "descricao": "Peça que cobre a frente do corpo sobre a roupa; aqui, um avental tradicional bordado em ponto cruz.",
+        "variantes": [
+          "Apron"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Scarpin vermelho de perfil, nítido e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que modelo de calçado feminino é este?",
+      "resposta": "Scarpin",
+      "distratores": [
+        "Slingback",
+        "Mule",
+        "Sapatilha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Scarpin",
+        "descricao": "Sapato feminino fechado, de corte baixo na frente e salto alto.",
+        "variantes": [
+          "Pump",
+          "Court shoe"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Modelo anônima em primeiro plano, pessoa comum; o adereço ocupa só parte da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Sandália de tiras em foto de estúdio, clara e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de calçado aberto é este?",
+      "resposta": "Sandália",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sandália",
+        "descricao": "Calçado aberto com sola presa ao pé por tiras.",
+        "variantes": [
+          "Sandalia rasteira",
+          "Sandal"
+        ]
+      }
+    }
+  ]
+}
