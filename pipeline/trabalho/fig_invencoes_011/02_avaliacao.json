@@ -1,0 +1,171 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Clipart/ilustração de um objeto que poderia ser fotografado; quem_fez ambíguo (Booth, Spangler, Hoover)."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de multímetro com pontas de prova; quem_fez seria ambíguo e fora do trecho, então usei o_que_e.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Que aparelho de medição é este?",
+      "resposta": "Multímetro",
+      "ancora": {
+        "nome": "Multímetro",
+        "descricao": "Instrumento de medição que mede tensão, corrente e resistência elétricas, aqui um modelo digital com pontas de prova.",
+        "variantes": [
+          "Multitester",
+          "Voltímetro-amperímetro-ohmímetro",
+          "Multimeter"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Ciclotron industrial visto por dentro de uma sala, com tubulações e cabos; não reconhecível pela imagem, e traz logotipo IBA."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Barra magnética nítida e reconhecível; quem_fez não faz sentido para um ímã, então usei o_que_e. As letras S e N não dão o nome.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Que objeto é este?",
+      "resposta": "Ímã",
+      "ancora": {
+        "nome": "Ímã",
+        "descricao": "Barra de material magnetizado, com polos sul e norte, que atrai materiais ferromagnéticos.",
+        "variantes": [
+          "Magneto",
+          "Imã",
+          "Magnete"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pluviômetro em foto clara, com tubo graduado. Pergunta por data não rende; usei múltipla escolha com instrumentos meteorológicos parecidos.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que instrumento é este, instalado ao ar livre num poste?",
+      "resposta": "Pluviômetro",
+      "distratores": [
+        "Anemômetro",
+        "Higrômetro",
+        "Barômetro"
+      ],
+      "ancora": {
+        "nome": "Pluviômetro",
+        "descricao": "Instrumento cilíndrico de coleta e medição da chuva, aqui com tubo graduado interno, montado num poste.",
+        "variantes": [
+          "Udômetro",
+          "Ombrômetro",
+          "Rain gauge"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Controle remoto claro. Os rótulos dos botões não dão o nome. quem_fez é ambíguo (Polley, Adler), então usei o_que_e.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que objeto é este?",
+      "resposta": "Controle remoto",
+      "ancora": {
+        "nome": "Controle remoto",
+        "descricao": "Dispositivo eletrônico de mão que comanda à distância aparelhos como a televisão, aqui com teclado numérico e botões coloridos.",
+        "variantes": [
+          "Controle",
+          "Telecomando",
+          "Remote control"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Roda de fiar de madeira, sobre fundo branco, bem reconhecível. Pergunta por data é ambígua, então usei o_que_e.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que máquina antiga é esta?",
+      "resposta": "Roda de fiar",
+      "ancora": {
+        "nome": "Roda de fiar",
+        "descricao": "Máquina de madeira com uma grande roda e um fuso, usada para fiar fibras em fio, anterior à Revolução Industrial.",
+        "variantes": [
+          "Roda de fiação",
+          "Spinning wheel"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Fotografia de trajetórias de partículas em preto e branco; a câmara de bolhas não é reconhecível pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Submarino alemão exposto em museu, em foto clara. A inscrição no casco não dá a resposta. Pessoas aparecem pequenas e ao fundo.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que tipo de embarcação é esta?",
+      "resposta": "Submarino",
+      "ancora": {
+        "nome": "Submarino",
+        "descricao": "Embarcação capaz de operar submersa, aqui um submarino alemão da Segunda Guerra Mundial exposto em terra num museu.",
+        "variantes": [
+          "Sub",
+          "U-boot",
+          "Submarine"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Prancha de enciclopédia com várias figuras e o texto 'Dessein, Chambre Obscure' escrito, que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "A imagem mostra um relógio de bolso, não de pulso; reaproveitada com a âncora correta. O nome da marca no mostrador não entrega a resposta.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que objeto é este, preso a uma corrente?",
+      "resposta": "Relógio de bolso",
+      "ancora": {
+        "nome": "Relógio de bolso",
+        "descricao": "Relógio portátil mecânico carregado no bolso e preso a uma corrente, aqui com mostrador branco e pequeno ponteiro de segundos.",
+        "variantes": [
+          "Pocket watch"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O logotipo VHS e a marca BASF aparecem escritos nas caixas, o que entrega a resposta."
+    }
+  ]
+}

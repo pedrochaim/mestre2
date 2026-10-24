@@ -1,0 +1,445 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Multímetro",
+        "descricao": "Instrumento de medição que mede tensão, corrente e resistência elétricas, aqui um modelo digital com pontas de prova.",
+        "variantes": [
+          "Multitester",
+          "Voltímetro-amperímetro-ohmímetro",
+          "Multimeter"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "multimetro",
+          "nome": "Multímetro",
+          "descricao": "Instrumento que mede grandezas elétricas como tensão, corrente e resistência.",
+          "variantes": [
+            "Multímetro digital",
+            "Multitester",
+            "Voltímetro-amperímetro-ohmímetro"
+          ]
+        },
+        {
+          "id": "ultimate_frisbee",
+          "nome": "Ultimate frisbee",
+          "descricao": "Esporte coletivo sem contato jogado com um disco arremessado com as mãos, em que se marca ponto ao receber o disco na área adversária.",
+          "variantes": [
+            "Ultimate",
+            "Frisbee"
+          ]
+        },
+        {
+          "id": "micrometro",
+          "nome": "Micrômetro",
+          "descricao": "Instrumento de medição de precisão que usa um parafuso calibrado para medir pequenas dimensões.",
+          "variantes": [
+            "Micrômetro de parafuso",
+            "Palmer"
+          ]
+        },
+        {
+          "id": "rio_tiete",
+          "nome": "Rio Tietê",
+          "descricao": "Rio do estado de São Paulo que nasce em Salesópolis, atravessa a capital paulista e deságua no rio Paraná.",
+          "variantes": [
+            "Tietê",
+            "Tietê River"
+          ]
+        },
+        {
+          "id": "twitter",
+          "nome": "Twitter",
+          "descricao": "Rede social de mensagens curtas criada em 2006 nos Estados Unidos.",
+          "variantes": [
+            "X"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ímã",
+        "descricao": "Barra de material magnetizado, com polos sul e norte, que atrai materiais ferromagnéticos.",
+        "variantes": [
+          "Magneto",
+          "Magnete"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "magneto",
+          "nome": "Magneto",
+          "descricao": "Vilão mutante da Marvel, de capacete vermelho e roxo, que controla o magnetismo.",
+          "variantes": [
+            "Erik Lehnsherr",
+            "Erik Magnus Lensherr"
+          ]
+        },
+        {
+          "id": "ima",
+          "nome": "Ímã",
+          "descricao": "Objeto que produz um campo magnético e atrai materiais ferromagnéticos; aqui, um ímã em barra com polos marcados.",
+          "variantes": [
+            "Magneto"
+          ]
+        },
+        {
+          "id": "magneton",
+          "nome": "Magneton",
+          "descricao": "Pokémon dos tipos Elétrico e Aço, número 82 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "magnemite",
+          "nome": "Magnemite",
+          "descricao": "Pokémon do tipo Elétrico/Aço, número 81 da Pokédex Nacional, uma esfera com ímãs e parafusos.",
+          "variantes": []
+        },
+        {
+          "id": "magnetron",
+          "nome": "Magnétron",
+          "descricao": "Válvula eletrônica de alta potência que gera micro-ondas, usada em radares e em fornos de micro-ondas.",
+          "variantes": [
+            "Magnétron de cavidade",
+            "Cavity magnetron"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pluviômetro",
+        "descricao": "Instrumento cilíndrico de coleta e medição da chuva, aqui com tubo graduado interno, montado num poste.",
+        "variantes": [
+          "Udômetro",
+          "Ombrômetro",
+          "Rain gauge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barometro",
+          "nome": "Barômetro",
+          "descricao": "Instrumento científico que mede a pressão atmosférica, usado na previsão do tempo.",
+          "variantes": [
+            "Barometer",
+            "Barômetro de mercúrio"
+          ]
+        },
+        {
+          "id": "micrometro",
+          "nome": "Micrômetro",
+          "descricao": "Instrumento de medição de precisão que usa um parafuso calibrado para medir pequenas dimensões.",
+          "variantes": [
+            "Micrômetro de parafuso",
+            "Palmer"
+          ]
+        },
+        {
+          "id": "sombrero",
+          "nome": "Sombrero",
+          "descricao": "Chapéu de aba larga e copa alta, tradicional do México, usado para proteger do sol.",
+          "variantes": [
+            "Sombrero de charro",
+            "Sombrero jarano"
+          ]
+        },
+        {
+          "id": "metro",
+          "nome": "Metro",
+          "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito.",
+          "variantes": [
+            "Metro (unidade)",
+            "Metre",
+            "Meter"
+          ]
+        },
+        {
+          "id": "umero",
+          "nome": "Úmero",
+          "descricao": "Osso longo do braço, que vai do ombro ao cotovelo.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Controle remoto",
+        "descricao": "Dispositivo eletrônico de mão que comanda à distância aparelhos como a televisão, aqui com teclado numérico e botões coloridos.",
+        "variantes": [
+          "Controle",
+          "Telecomando",
+          "Remote control"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "new_look",
+          "nome": "New Look",
+          "descricao": "Primeira coleção de Christian Dior, de 1947, com cintura marcada e saias amplas",
+          "variantes": [
+            "Corolle"
+          ]
+        },
+        {
+          "id": "rastro_de_condensacao",
+          "nome": "Rastro de condensação",
+          "descricao": "Nuvem em forma de linha produzida pelo escapamento ou pela pressão das aeronaves em grande altitude.",
+          "variantes": [
+            "Contrail",
+            "Rasto de condensação",
+            "Rastro de vapor"
+          ]
+        },
+        {
+          "id": "codigo_konami",
+          "nome": "Código Konami",
+          "descricao": "Sequência de botões usada como truque em jogos da Konami, criada por Kazuhisa Hashimoto.",
+          "variantes": [
+            "Konami Code",
+            "Contra Code"
+          ]
+        },
+        {
+          "id": "coprolito",
+          "nome": "Coprólito",
+          "descricao": "Fezes fossilizadas de animais, usadas para estudar a dieta de espécies extintas.",
+          "variantes": [
+            "Coprolite",
+            "Coprólitos"
+          ]
+        },
+        {
+          "id": "contralto",
+          "nome": "Contralto",
+          "descricao": "Tipo de voz feminina de canto lírico, a de registro mais grave entre as vozes femininas.",
+          "variantes": [
+            "Contralto (voz)",
+            "Alto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Roda de fiar",
+        "descricao": "Máquina de madeira com uma grande roda e um fuso, usada para fiar fibras em fio, anterior à Revolução Industrial.",
+        "variantes": [
+          "Roda de fiação",
+          "Spinning wheel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roca_de_fiar",
+          "nome": "Roca de fiar",
+          "descricao": "Equipamento de madeira com roda e fuso para transformar fibras em fio, usado antes da Revolução Industrial.",
+          "variantes": [
+            "Roda de fiar",
+            "Roca",
+            "Spinning wheel"
+          ]
+        },
+        {
+          "id": "roda_d_agua",
+          "nome": "Roda d'água",
+          "descricao": "Grande roda de madeira com pás ou caçambas que converte a energia da água corrente em força mecânica, usada em moinhos.",
+          "variantes": [
+            "Roda de água",
+            "Roda hidráulica",
+            "Azenha"
+          ]
+        },
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda",
+            "Capoeira circle"
+          ]
+        },
+        {
+          "id": "as_bodas_de_figaro",
+          "nome": "As Bodas de Fígaro",
+          "descricao": "Ópera cômica de Mozart, de 1786, com libreto de Lorenzo Da Ponte.",
+          "variantes": [
+            "Le nozze di Figaro",
+            "The Marriage of Figaro"
+          ]
+        },
+        {
+          "id": "sitcom",
+          "nome": "Sitcom",
+          "descricao": "Gênero de série de comédia de TV com personagens fixos em situações do dia a dia, geralmente em episódios curtos.",
+          "variantes": [
+            "Comédia de situação"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Submarino",
+        "descricao": "Embarcação capaz de operar submersa, aqui um submarino alemão da Segunda Guerra Mundial exposto em terra num museu.",
+        "variantes": [
+          "Sub",
+          "U-boot",
+          "Submarine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ultracriaturas",
+          "nome": "Ultracriaturas",
+          "descricao": "Pokémon misteriosos de Pokémon Sun e Moon, como Nihilego e Buzzwole, vindos de outra dimensão por fendas chamadas Ultra Wormholes.",
+          "variantes": [
+            "Ultra Beasts",
+            "UB"
+          ]
+        },
+        {
+          "id": "metro_de_buenos_aires",
+          "nome": "Metrô de Buenos Aires",
+          "descricao": "Sistema de metrô da capital argentina, inaugurado em 1913.",
+          "variantes": [
+            "Subte",
+            "Subterráneo de Buenos Aires"
+          ]
+        },
+        {
+          "id": "mergulho_autonomo",
+          "nome": "Mergulho autônomo",
+          "descricao": "Modalidade de mergulho em que o mergulhador leva seu próprio suprimento de gás respiratório, em cilindro (scuba).",
+          "variantes": [
+            "Scuba",
+            "Mergulho scuba"
+          ]
+        },
+        {
+          "id": "agua_marinha",
+          "nome": "Água-marinha",
+          "descricao": "Gema azul-esverdeada, variedade do mineral berilo, com grandes jazidas no Brasil.",
+          "variantes": [
+            "Aquamarine"
+          ]
+        },
+        {
+          "id": "bandeira_de_san_marino",
+          "nome": "Bandeira de San Marino",
+          "descricao": "Bandeira nacional de San Marino, branca e azul-celeste com o brasão de três torres no centro.",
+          "variantes": [
+            "San Marino",
+            "Bandeira sanmarinense"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Relógio de bolso",
+        "descricao": "Relógio portátil mecânico carregado no bolso e preso a uma corrente, aqui com mostrador branco e pequeno ponteiro de segundos.",
+        "variantes": [
+          "Relógio de pulso",
+          "Pocket watch"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "relogio_de_bolso",
+          "nome": "Relógio de bolso",
+          "descricao": "Relógio portátil com corrente, carregado no bolso em vez de usado no pulso.",
+          "variantes": [
+            "Relógio de pulso",
+            "Relógio de algibeira"
+          ]
+        },
+        {
+          "id": "relogio_de_pendulo",
+          "nome": "Relógio de pêndulo",
+          "descricao": "Relógio que usa as oscilações regulares de um pêndulo para marcar o tempo, criado em 1656.",
+          "variantes": [
+            "Pendulum clock"
+          ]
+        },
+        {
+          "id": "relogio_de_sol",
+          "nome": "Relógio de sol",
+          "descricao": "Instrumento com um gnômon que projeta sombra sobre um mostrador marcado com horas.",
+          "variantes": [
+            "Quadrante solar"
+          ]
+        },
+        {
+          "id": "relogio_de_flores",
+          "nome": "Relógio de flores",
+          "descricao": "Jardim proposto por Lineu em que cada espécie de flor se abriria ou fecharia numa hora diferente do dia",
+          "variantes": [
+            "Horologium florae",
+            "Relógio floral de Lineu"
+          ]
+        },
+        {
+          "id": "clepsidra",
+          "nome": "Clepsidra",
+          "descricao": "Relógio de água usado na Grécia Antiga, entre outras funções, para marcar o tempo dos discursos nos tribunais de Atenas.",
+          "variantes": [
+            "Relógio de água",
+            "Clepsydra",
+            "Water clock"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "multimetro",
+      "motivo": "Mesmo instrumento de medição elétrica."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "ima",
+      "motivo": "Mesmo objeto: ímã em barra com polos; Magneto é variante, não o vilão."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um pluviômetro."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é controle remoto."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "roca_de_fiar",
+      "motivo": "Mesma máquina de fiar, descrição e variantes coincidem."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um submarino."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "relogio_de_bolso",
+      "motivo": "Mesmo objeto, relógio de bolso."
+    }
+  ]
+}

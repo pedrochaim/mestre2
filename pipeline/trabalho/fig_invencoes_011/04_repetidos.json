@@ -1,0 +1,82 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que aparelho de medição é este?",
+        "resposta": "Multímetro"
+      },
+      "existentes": [
+        {
+          "id": "q14868",
+          "pergunta": "Que instrumento de medição é este?",
+          "resposta": "Multímetro"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que objeto é este?",
+        "resposta": "Ímã"
+      },
+      "existentes": [
+        {
+          "id": "q14849",
+          "pergunta": "Que objeto é este?",
+          "resposta": "Ímã"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que máquina antiga é esta?",
+        "resposta": "Roda de fiar"
+      },
+      "existentes": [
+        {
+          "id": "q06004",
+          "pergunta": "O que se produz com este equipamento?",
+          "resposta": "Fio"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que objeto é este, preso a uma corrente?",
+        "resposta": "Relógio de bolso"
+      },
+      "existentes": [
+        {
+          "id": "q09675",
+          "pergunta": "Que tipo de relógio é este?",
+          "resposta": "Relógio de bolso"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificar o multímetro, só com sinônimo no enunciado."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Pergunta e resposta idênticas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Uma pede o nome da máquina (roda de fiar), a outra o que ela produz (fio); fatos diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do relógio de bolso, com a mesma resposta."
+    }
+  ]
+}

@@ -159,7 +159,7 @@
       "titulo": "en:Camera obscura",
       "camada": 2,
       "destino": 2,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Garrafa de Leyden",
@@ -607,7 +607,7 @@
       "titulo": "en:Magnet",
       "camada": 1,
       "destino": 2,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Telefone celular",
@@ -740,7 +740,7 @@
       "titulo": "en:VHS",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Aquecedor solar",
@@ -838,7 +838,7 @@
       "titulo": "en:Cyclotron",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Ferro de passar",
@@ -866,7 +866,7 @@
       "titulo": "en:Vacuum cleaner",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Elevador",
@@ -880,7 +880,7 @@
       "titulo": "en:Remote control",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Lâmpada fluorescente",
@@ -908,7 +908,7 @@
       "titulo": "en:Submarine",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Lanterna",
@@ -936,7 +936,7 @@
       "titulo": "en:Watch",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Joystick",
@@ -978,14 +978,14 @@
       "titulo": "en:Rain gauge",
       "camada": 2,
       "destino": 3,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Multímetro",
       "titulo": "en:Multimeter",
       "camada": 2,
       "destino": 2,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Giroscópio",
@@ -1013,7 +1013,7 @@
       "titulo": "en:Spinning wheel",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Monjolo",
@@ -1076,7 +1076,7 @@
       "titulo": "en:Bubble chamber",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Praxinoscópio",
@@ -1104,7 +1104,7 @@
       "titulo": "en:Atwood machine",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Ossos de Napier",
@@ -1118,7 +1118,7 @@
       "titulo": "en:Pitot tube",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "sem_imagem"
     }
   ]
 }
