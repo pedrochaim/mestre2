@@ -1,0 +1,68 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ecossistema costeiro é este?",
+        "resposta": "Manguezal"
+      },
+      "existentes": [
+        {
+          "id": "q02277",
+          "pergunta": "Por que algumas árvores do mangue têm raízes que brotam da lama apontando para cima?",
+          "resposta": "Para respirar"
+        },
+        {
+          "id": "q02278",
+          "pergunta": "Que movimento musical de Recife, liderado por Chico Science nos anos noventa, tirou seu nome de um ecossistema costeiro?",
+          "resposta": "Manguebeat"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que tipo de ser vivo são estes organismos do recife?",
+        "resposta": "Esponjas"
+      },
+      "existentes": [
+        {
+          "id": "q09305",
+          "pergunta": "Este animal marinho, fixo no fundo do recife, pertence a qual filo?",
+          "resposta": "Porifera (esponjas)"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que região sul-americana fica esta geleira?",
+        "resposta": "Patagônia"
+      },
+      "existentes": [
+        {
+          "id": "q02336",
+          "pergunta": "Que famosa geleira da Patagônia é esta?",
+          "resposta": "Perito Moreno"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o ecossistema em imagem é um fato diferente de raízes respiratórias ou do movimento Manguebeat."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do organismo do recife como esponja (Porifera); acertar uma leva à outra."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede a região da geleira e a outra o nome da geleira; são fatos distintos."
+    }
+  ]
+}

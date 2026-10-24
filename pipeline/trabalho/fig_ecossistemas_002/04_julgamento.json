@@ -1,0 +1,640 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Manguezal",
+        "descricao": "Ecossistema costeiro tropical de árvores tolerantes a água salgada ou salobra, com raízes aéreas.",
+        "variantes": [
+          "Mangue",
+          "Mangal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "manguezal",
+          "nome": "Manguezal",
+          "descricao": "Ecossistema costeiro de árvores adaptadas à água salobra, na foz de rios em regiões tropicais",
+          "variantes": [
+            "Mangue",
+            "Mangrove"
+          ]
+        },
+        {
+          "id": "manga",
+          "nome": "Manga",
+          "descricao": "Fruta tropical da mangueira (Mangifera indica), de origem no sul da Ásia.",
+          "variantes": [
+            "Mango",
+            "Mangifera indica",
+            "mangueira"
+          ]
+        },
+        {
+          "id": "mahjong",
+          "nome": "Mahjong",
+          "descricao": "Jogo chinês para quatro jogadores, jogado com peças ilustradas de naipes, ventos e dragões.",
+          "variantes": [
+            "Mah-jong",
+            "Majongue"
+          ]
+        },
+        {
+          "id": "sangue",
+          "nome": "Sangue",
+          "descricao": "Fluido que circula pelo corpo humano transportando oxigênio e nutrientes.",
+          "variantes": [
+            "Blood"
+          ]
+        },
+        {
+          "id": "magali",
+          "nome": "Magali",
+          "descricao": "Personagem comilona da Turma da Mônica, de Mauricio de Sousa",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Dugongo",
+        "descricao": "Mamífero marinho herbívoro da ordem Sirenia, que vive no Indo-Pacífico e se alimenta de capim-marinho.",
+        "variantes": [
+          "Dugong dugon",
+          "Vaca-marinha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "agua_marinha",
+          "nome": "Água-marinha",
+          "descricao": "Gema azul-esverdeada, variedade do mineral berilo, com grandes jazidas no Brasil.",
+          "variantes": [
+            "Aquamarine"
+          ]
+        },
+        {
+          "id": "iguana_marinha",
+          "nome": "Iguana-marinha",
+          "descricao": "Lagarto de Galápagos (Amblyrhynchus cristatus) que mergulha no mar para comer algas.",
+          "variantes": [
+            "Amblyrhynchus cristatus",
+            "Marine iguana"
+          ]
+        },
+        {
+          "id": "neve_marinha",
+          "nome": "Neve marinha",
+          "descricao": "Chuva contínua de partículas orgânicas que desce das camadas superiores do oceano para as profundezas.",
+          "variantes": [
+            "Marine snow"
+          ]
+        },
+        {
+          "id": "camisa_canarinho",
+          "nome": "Camisa canarinho",
+          "descricao": "Uniforme amarelo da seleção brasileira de futebol, adotado a partir de 1954 no lugar da camisa branca.",
+          "variantes": [
+            "Camisa amarela da seleção",
+            "Amarelinha",
+            "Uniforme canarinho"
+          ]
+        },
+        {
+          "id": "pomo_de_adao",
+          "nome": "Pomo de adão",
+          "descricao": "Saliência na frente do pescoço formada pela cartilagem tireoide da laringe.",
+          "variantes": [
+            "Gogó",
+            "Proeminência laríngea",
+            "Adam's apple"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Peixe-anjo-imperador",
+        "descricao": "Peixe de recife Pomacanthus imperator, listrado de azul e amarelo, nativo dos oceanos Índico e Pacífico.",
+        "variantes": [
+          "Pomacanthus imperator",
+          "Emperor angelfish"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_frade",
+          "nome": "Peixe-frade",
+          "descricao": "Peixe-anjo de recifes do Atlântico (Pomacanthus paru), de corpo escuro com escamas de borda amarela.",
+          "variantes": [
+            "Pomacanthus paru",
+            "French angelfish",
+            "Paru-frade"
+          ]
+        },
+        {
+          "id": "qin_shi_huang",
+          "nome": "Qin Shi Huang",
+          "descricao": "Primeiro imperador da China unificada, fundador da dinastia Qin no século três antes de Cristo.",
+          "variantes": [
+            "Shi Huangdi",
+            "Primeiro Imperador"
+          ]
+        },
+        {
+          "id": "peixe_pescador",
+          "nome": "Peixe-pescador",
+          "descricao": "Peixes da ordem Lophiiformes, muitos de águas profundas, que atraem presas com uma isca na cabeça.",
+          "variantes": [
+            "Tamboril",
+            "Anglerfish",
+            "Lophiiformes"
+          ]
+        },
+        {
+          "id": "pinguim_imperador",
+          "nome": "Pinguim-imperador",
+          "descricao": "Maior e mais pesado dos pinguins (Aptenodytes forsteri), endêmico da Antártida, com manchas amarelas nos lados da cabeça.",
+          "variantes": [
+            "Emperor penguin",
+            "Aptenodytes forsteri"
+          ]
+        },
+        {
+          "id": "peixe_voador",
+          "nome": "Peixe-voador",
+          "descricao": "Peixe marinho da família Exocoetidae, que plana sobre a água com nadadeiras peitorais alongadas.",
+          "variantes": [
+            "Exocoetidae",
+            "Flying fish"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Esponja-do-mar",
+        "descricao": "Animal marinho do filo Porifera, séssil e filtrador, de corpo cheio de poros.",
+        "variantes": [
+          "Esponja",
+          "Porifera",
+          "Esponja-barril"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esponja_do_mar",
+          "nome": "Esponja-do-mar",
+          "descricao": "Animal marinho filtrador do filo Porifera, aqui uma esponja-barril gigante num recife.",
+          "variantes": [
+            "Esponja",
+            "Porífero",
+            "Porifera"
+          ]
+        },
+        {
+          "id": "vespa_do_mar",
+          "nome": "Vespa-do-mar",
+          "descricao": "Água-viva-de-caixa (Chironex fleckeri) do norte da Austrália e do Indo-Pacífico, de veneno potentíssimo.",
+          "variantes": [
+            "Chironex fleckeri",
+            "Sea wasp"
+          ]
+        },
+        {
+          "id": "bob_esponja_calca_quadrada",
+          "nome": "Bob Esponja Calça Quadrada",
+          "descricao": "Série animada americana estreada em 1999, sobre uma esponja-do-mar amarela que trabalha numa lanchonete no fundo do mar.",
+          "variantes": [
+            "SpongeBob SquarePants",
+            "Bob Esponja"
+          ]
+        },
+        {
+          "id": "esponja_de_menger",
+          "nome": "Esponja de Menger",
+          "descricao": "Fractal tridimensional, generalização do tapete de Sierpinski, obtido retirando cubos de um cubo recursivamente.",
+          "variantes": [
+            "Cubo de Menger",
+            "Esponja de Menger-Sierpinski"
+          ]
+        },
+        {
+          "id": "espeon",
+          "nome": "Espeon",
+          "descricao": "Pokémon do tipo Psíquico, número 196 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Glaciar Perito Moreno",
+        "descricao": "Geleira do Parque Nacional Los Glaciares, na Patagônia argentina, perto de El Calafate.",
+        "variantes": [
+          "Geleira Perito Moreno",
+          "Perito Moreno Glacier"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "glaciar_perito_moreno",
+          "nome": "Glaciar Perito Moreno",
+          "descricao": "Geleira do Parque Nacional Los Glaciares, na província de Santa Cruz, Argentina, perto de El Calafate.",
+          "variantes": [
+            "Geleira Perito Moreno",
+            "Perito Moreno Glacier"
+          ]
+        },
+        {
+          "id": "imperio_songai",
+          "nome": "Império Songai",
+          "descricao": "Império da África Ocidental que dominou o Sahel nos séculos quinze e dezesseis, sucedendo o Império do Mali.",
+          "variantes": [
+            "Songhai",
+            "Império Songhai"
+          ]
+        },
+        {
+          "id": "imperio_mongol",
+          "nome": "Império Mongol",
+          "descricao": "Império fundado por Gengis Khan em 1206, que nos séculos treze e quatorze se estendeu da Coreia à Europa oriental.",
+          "variantes": [
+            "Mongol Empire"
+          ]
+        },
+        {
+          "id": "geladeira_de_einstein",
+          "nome": "Geladeira de Einstein",
+          "descricao": "Refrigerador sem partes móveis patenteado por Albert Einstein e Leó Szilárd em 1930.",
+          "variantes": [
+            "Refrigerador Einstein-Szilárd"
+          ]
+        },
+        {
+          "id": "lei_de_moore",
+          "nome": "Lei de Moore",
+          "descricao": "Previsão de que o número de transistores num chip dobra a intervalos regulares, formulada por Gordon Moore em 1965.",
+          "variantes": [
+            "Moore's law"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Rabo-de-peru",
+        "descricao": "Cogumelo poliporo Trametes versicolor, de leques com faixas coloridas que cresce em troncos.",
+        "variantes": [
+          "Trametes versicolor",
+          "Turkey tail",
+          "Coriolus versicolor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "perdao_do_peru",
+          "nome": "Perdão do peru",
+          "descricao": "Cerimônia anual na Casa Branca em que o presidente dos Estados Unidos poupa simbolicamente um peru antes do Dia de Ação de Graças.",
+          "variantes": [
+            "National Thanksgiving Turkey Presentation"
+          ]
+        },
+        {
+          "id": "polen",
+          "nome": "Pólen",
+          "descricao": "Pó produzido pelas flores das plantas com sementes, formado por grãos que contêm os gametas masculinos.",
+          "variantes": [
+            "Grão de pólen",
+            "Grãos de pólen"
+          ]
+        },
+        {
+          "id": "turquia",
+          "nome": "Turquia",
+          "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+          "variantes": [
+            "Türkiye",
+            "República da Turquia",
+            "Turkey"
+          ]
+        },
+        {
+          "id": "argentina_x_inglaterra_na_copa_de_1986",
+          "nome": "Argentina x Inglaterra na Copa de 1986",
+          "descricao": "Partida da Copa do Mundo de 1986 em que Maradona marcou o gol de mão e o chamado Gol do Século.",
+          "variantes": [
+            "Mão de Deus",
+            "La mano de Dios",
+            "Argentina 2 x 1 Inglaterra"
+          ]
+        },
+        {
+          "id": "bicho_de_pe",
+          "nome": "Bicho-de-pé",
+          "descricao": "Pulga parasita (Tunga penetrans) cuja fêmea se instala na pele, geralmente dos pés.",
+          "variantes": [
+            "Tunga penetrans",
+            "bicho-do-porco",
+            "tunga",
+            "jigger"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Jabuticabeira",
+        "descricao": "Árvore brasileira Plinia cauliflora, cujos frutos roxo-escuros crescem diretamente no tronco.",
+        "variantes": [
+          "Jabuticaba",
+          "Plinia cauliflora"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jabuticaba",
+          "nome": "Jabuticaba",
+          "descricao": "Fruta nativa do Brasil, pequena, redonda e de casca escura, da árvore jabuticabeira",
+          "variantes": [
+            "Jaboticaba",
+            "Plinia cauliflora",
+            "Myrciaria cauliflora",
+            "jabuticabeira"
+          ]
+        },
+        {
+          "id": "jabuti_piranga",
+          "nome": "Jabuti-piranga",
+          "descricao": "Espécie de jabuti (Chelonoidis carbonarius) do norte da América do Sul, com patas de escamas vermelhas ou alaranjadas.",
+          "variantes": [
+            "Jabuti",
+            "Red-footed tortoise",
+            "Chelonoidis carbonarius"
+          ]
+        },
+        {
+          "id": "jabuti",
+          "nome": "Jabuti",
+          "descricao": "Quelônio estritamente terrestre do gênero Chelonoidis, comum no Brasil, de casco alto e patas em forma de coluna.",
+          "variantes": [
+            "Chelonoidis",
+            "Jabutis"
+          ]
+        },
+        {
+          "id": "justiceiro",
+          "nome": "Justiceiro",
+          "descricao": "Frank Castle, anti-herói da Marvel que combate o crime com armas e usa uma caveira no peito",
+          "variantes": [
+            "The Punisher",
+            "Frank Castle"
+          ]
+        },
+        {
+          "id": "estilingue",
+          "nome": "Estilingue",
+          "descricao": "Arma ou brinquedo em forma de Y com elástico que lança projéteis pequenos.",
+          "variantes": [
+            "Atiradeira",
+            "Bodoque",
+            "Baladeira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Coral-cérebro",
+        "descricao": "Coral pétreo de colônia esférica com sulcos que lembram um cérebro, construtor de recifes.",
+        "variantes": [
+          "Brain coral"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santa_cruz",
+          "nome": "Santa Cruz",
+          "descricao": "Santa Cruz Futebol Clube, clube brasileiro de Recife, Pernambuco.",
+          "variantes": [
+            "Santa Cruz Futebol Clube",
+            "Cobra Coral",
+            "Tricolor do Arruda"
+          ]
+        },
+        {
+          "id": "castelo_de_bran",
+          "nome": "Castelo de Bran",
+          "descricao": "Castelo medieval na Transilvânia, Romênia, divulgado como o Castelo do Drácula.",
+          "variantes": [
+            "Castelo do Drácula",
+            "Bran Castle"
+          ]
+        },
+        {
+          "id": "lago_baikal",
+          "nome": "Lago Baikal",
+          "descricao": "Lago de água doce no sul da Sibéria, na Rússia, o mais profundo do mundo.",
+          "variantes": [
+            "Baikal",
+            "Baical",
+            "Lake Baikal"
+          ]
+        },
+        {
+          "id": "coral_sol",
+          "nome": "Coral-sol",
+          "descricao": "Coral invasor do gênero Tubastraea, nativo do Indo-Pacífico, que se espalhou pelo litoral brasileiro.",
+          "variantes": [
+            "Tubastraea coccinea",
+            "Sun coral"
+          ]
+        },
+        {
+          "id": "colhereiro",
+          "nome": "Colhereiro",
+          "descricao": "Ave pernalta rosada, de bico em forma de colher, da família dos íbis, nas Américas.",
+          "variantes": [
+            "Colhereiro-americano",
+            "Platalea ajaja",
+            "Roseate spoonbill"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Caranguejo-ermitão",
+        "descricao": "Crustáceo decápode que protege o abdome mole numa concha vazia de caracol.",
+        "variantes": [
+          "Paguro",
+          "Hermit crab"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "patricia_galvao",
+          "nome": "Patrícia Galvão",
+          "descricao": "Escritora, jornalista e militante modernista brasileira (1910–1962).",
+          "variantes": [
+            "Pagu"
+          ]
+        },
+        {
+          "id": "caranguejo_yeti",
+          "nome": "Caranguejo-yeti",
+          "descricao": "Crustáceo das fontes hidrotermais do Pacífico Sul, Kiwa hirsuta, com garras cobertas de cerdas claras.",
+          "variantes": [
+            "Kiwa hirsuta",
+            "Yeti crab"
+          ]
+        },
+        {
+          "id": "saguaro",
+          "nome": "Saguaro",
+          "descricao": "Cacto colunar gigante, Carnegiea gigantea, de braços erguidos, típico do sudoeste dos Estados Unidos e do noroeste do México.",
+          "variantes": [
+            "Carnegiea gigantea"
+          ]
+        },
+        {
+          "id": "pangoro",
+          "nome": "Pangoro",
+          "descricao": "Pokémon dos tipos Lutador e Sombrio, número 675 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "limulo",
+          "nome": "Límulo",
+          "descricao": "Artrópode marinho da família Limulidae, conhecido como caranguejo-ferradura, de carapaça em forma de ferradura e sangue azul.",
+          "variantes": [
+            "caranguejo-ferradura",
+            "horseshoe crab",
+            "Limulus polyphemus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Planta-jarro",
+        "descricao": "Planta carnívora tropical do gênero Nepenthes, com folhas modificadas em urnas que capturam insetos.",
+        "variantes": [
+          "Nepenthes",
+          "Planta-jarro tropical"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "serpentes",
+          "nome": "Serpentes",
+          "descricao": "Subordem de répteis escamados sem patas (Serpentes), que inclui todas as cobras.",
+          "variantes": [
+            "Cobras",
+            "Ofídios",
+            "Snakes"
+          ]
+        },
+        {
+          "id": "pente",
+          "nome": "Pente",
+          "descricao": "Objeto com uma fileira de dentes usado para desembaraçar, limpar ou pentear o cabelo.",
+          "variantes": [
+            "Comb"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        },
+        {
+          "id": "pelicano_pardo",
+          "nome": "Pelicano-pardo",
+          "descricao": "Pelicano marinho das Américas (Pelecanus occidentalis) que mergulha para pescar.",
+          "variantes": [
+            "Pelicano-marrom",
+            "Pelecanus occidentalis"
+          ]
+        },
+        {
+          "id": "armadura_de_placas",
+          "nome": "Armadura de placas",
+          "descricao": "Armadura de corpo inteiro feita de placas de aço articuladas, típica do fim da Idade Média e do Renascimento.",
+          "variantes": [
+            "Armadura completa",
+            "Plate armour"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "manguezal",
+      "motivo": "Mesmo ecossistema, mesmo nome e variante Mangue."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o dugongo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Peixe-frade é outra espécie (Pomacanthus paru); peixe-anjo-imperador é P. imperator."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "esponja_do_mar",
+      "motivo": "Mesmo animal, filo Porifera, mesmo nome e variantes."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "glaciar_perito_moreno",
+      "motivo": "Mesma geleira, descrições e variantes coincidem."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Cogumelo Trametes versicolor não consta entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "A jabuticabeira é a árvore; a candidata jabuticaba é a fruta. Entidades distintas, e na dúvida decide-se nova."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Coral-cérebro é diferente de coral-sol e das demais candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Caranguejo-ermitão não consta entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a planta-jarro Nepenthes."
+    }
+  ]
+}

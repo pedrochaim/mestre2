@@ -721,9 +721,10 @@
     "fig_tecnologia_011",
     "fig_festas_costumes_005",
     "fig_hominideos_002",
-    "fig_astronomia_011"
+    "fig_astronomia_011",
+    "fig_ecossistemas_002"
   ],
-  "maior_id": 15100,
+  "maior_id": 15109,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1477,15 +1478,16 @@
     },
     "ecossistemas": {
       "familias": {
-        "o_que_e": 6,
-        "que_tipo": 2
+        "o_que_e": 12,
+        "que_tipo": 3,
+        "onde": 2
       },
       "niveis": {
-        "1": 4,
-        "3": 1,
-        "2": 3
+        "1": 10,
+        "3": 2,
+        "2": 5
       },
-      "registradas": 8
+      "registradas": 17
     },
     "lutas": {
       "familias": {

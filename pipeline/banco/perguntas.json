@@ -284870,5 +284870,194 @@
       "autor": "NASA/JPL",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q15101",
+    "tema": "Natureza",
+    "subtema": "Ecossistemas e Ambientes Extremos",
+    "ancora": "manguezal",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que ecossistema costeiro é este?",
+    "resposta": "Manguezal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mangrove",
+      "https://pt.wikipedia.org/wiki/Manguezal"
+    ],
+    "imagem": {
+      "arquivo": "q15101.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mangroves_in_Kannur,_India.jpg",
+      "autor": "see other version",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15102",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "dugongo",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que região do mundo vive este mamífero marinho?",
+    "resposta": "Indo-Pacífico",
+    "distratores": [
+      "Caribe e Flórida",
+      "Bacia amazônica",
+      "Costa atlântica africana"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dugong",
+      "https://pt.wikipedia.org/wiki/Dugongo"
+    ],
+    "imagem": {
+      "arquivo": "q15102.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Dugong_Marsa_Alam.jpg",
+      "autor": "Julien Willem",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15103",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "peixe_anjo_imperador",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que peixe de recife é este?",
+    "resposta": "Peixe-anjo-imperador",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Emperor_angelfish",
+      "https://pt.wikipedia.org/wiki/Pomacanthus_imperator"
+    ],
+    "imagem": {
+      "arquivo": "q15103.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pez_ángel_emperador_(Pomacanthus_imperator),_mar_Rojo,_Egipto,_2023-04-17,_DD_104.jpg",
+      "autor": "Diego Delso",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q15104",
+    "tema": "Natureza",
+    "subtema": "Ecossistemas e Ambientes Extremos",
+    "ancora": "glaciar_perito_moreno",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que região sul-americana fica esta geleira?",
+    "resposta": "Patagônia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Perito_Moreno_Glacier",
+      "https://pt.wikipedia.org/wiki/Geleira_Perito_Moreno"
+    ],
+    "imagem": {
+      "arquivo": "q15104.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Perito_Moreno_Glacier_2023.jpg",
+      "autor": "Fernando",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q15105",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "rabo_de_peru",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que tipo de ser vivo é este, que cresce sobre um tronco?",
+    "resposta": "Fungo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trametes_versicolor",
+      "https://pt.wikipedia.org/wiki/Trametes_versicolor"
+    ],
+    "imagem": {
+      "arquivo": "q15105.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stumpfungus.jpg",
+      "autor": "Ecornerdropshop at en.wikipedia",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15106",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "jabuticabeira",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que fruta brasileira é esta?",
+    "resposta": "Jabuticaba",
+    "distratores": [
+      "Jamelão",
+      "Açaí",
+      "Uva-Isabel"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Plinia_cauliflora",
+      "https://pt.wikipedia.org/wiki/Jabuticaba"
+    ],
+    "imagem": {
+      "arquivo": "q15106.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Jabuticaba_fruto.jpg",
+      "autor": "Alexandre CampolinaCampola",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q15107",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "coral_cerebro",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que coral é este?",
+    "resposta": "Coral-cérebro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brain_coral"
+    ],
+    "imagem": {
+      "arquivo": "q15107.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Brain_coral.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15108",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "caranguejo_ermitao",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que crustáceo é este?",
+    "resposta": "Caranguejo-ermitão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hermit_crab",
+      "https://pt.wikipedia.org/wiki/Paguroidea"
+    ],
+    "imagem": {
+      "arquivo": "q15108.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Calliactis_and_Dardanus_001.JPG",
+      "autor": "H. Zell",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15109",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "planta_jarro",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que planta carnívora é esta?",
+    "resposta": "Planta-jarro (Nepenthes)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nepenthes",
+      "https://pt.wikipedia.org/wiki/Nepenthes"
+    ],
+    "imagem": {
+      "arquivo": "q15109.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Nepenthes_peltata.jpg",
+      "autor": "Kleo Marlo Sialongo",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]

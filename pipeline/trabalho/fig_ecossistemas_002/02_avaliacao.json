@@ -1,0 +1,220 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Raízes aéreas e água salobra, bem característico de manguezal; foto clara.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ecossistema costeiro é este?",
+      "resposta": "Manguezal",
+      "destino": 0,
+      "ancora": {
+        "nome": "Manguezal",
+        "descricao": "Ecossistema costeiro tropical de árvores tolerantes a água salgada ou salobra, com raízes aéreas.",
+        "variantes": [
+          "Mangue",
+          "Mangal"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Dugongo comendo capim-marinho, focinho voltado para baixo característico; foto nítida.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que região do mundo vive este mamífero marinho?",
+      "resposta": "Indo-Pacífico",
+      "distratores": [
+        "Caribe e Flórida",
+        "Bacia amazônica",
+        "Costa atlântica africana"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Dugongo",
+        "descricao": "Mamífero marinho herbívoro da ordem Sirenia, que vive no Indo-Pacífico e se alimenta de capim-marinho.",
+        "variantes": [
+          "Dugong dugon",
+          "Vaca-marinha"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Padrão listrado azul e amarelo inconfundível; foto nítida.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que peixe de recife é este?",
+      "resposta": "Peixe-anjo-imperador",
+      "destino": 1,
+      "ancora": {
+        "nome": "Peixe-anjo-imperador",
+        "descricao": "Peixe de recife Pomacanthus imperator, listrado de azul e amarelo, nativo dos oceanos Índico e Pacífico.",
+        "variantes": [
+          "Pomacanthus imperator",
+          "Emperor angelfish"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Esponjas-barril gigantes bem visíveis num recife; mergulhadores só ao fundo.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de ser vivo são estes organismos do recife?",
+      "resposta": "Esponjas",
+      "distratores": [
+        "Corais duros",
+        "Anêmonas-do-mar",
+        "Algas gigantes"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Esponja-do-mar",
+        "descricao": "Animal marinho do filo Porifera, séssil e filtrador, de corpo cheio de poros.",
+        "variantes": [
+          "Esponja",
+          "Porifera",
+          "Esponja-barril"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Paredão de gelo característico da geleira, foto panorâmica nítida e sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que região sul-americana fica esta geleira?",
+      "resposta": "Patagônia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Glaciar Perito Moreno",
+        "descricao": "Geleira do Parque Nacional Los Glaciares, na Patagônia argentina, perto de El Calafate.",
+        "variantes": [
+          "Geleira Perito Moreno",
+          "Perito Moreno Glacier"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fungo em leque com faixas concêntricas sobre tronco, reconhecível como poliporo; foto clara.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de ser vivo é este, que cresce sobre um tronco?",
+      "resposta": "Fungo",
+      "destino": 2,
+      "ancora": {
+        "nome": "Rabo-de-peru",
+        "descricao": "Cogumelo poliporo Trametes versicolor, de leques com faixas coloridas que cresce em troncos.",
+        "variantes": [
+          "Trametes versicolor",
+          "Turkey tail",
+          "Coriolus versicolor"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Frutos escuros brotando direto do tronco, típico da jabuticabeira; foto nítida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta brasileira é esta?",
+      "resposta": "Jabuticaba",
+      "distratores": [
+        "Jamelão",
+        "Açaí",
+        "Uva-Isabel"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Jabuticabeira",
+        "descricao": "Árvore brasileira Plinia cauliflora, cujos frutos roxo-escuros crescem diretamente no tronco.",
+        "variantes": [
+          "Jabuticaba",
+          "Plinia cauliflora"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Colônia esférica com sulcos como um cérebro, inconfundível; foto nítida.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que coral é este?",
+      "resposta": "Coral-cérebro",
+      "destino": 1,
+      "ancora": {
+        "nome": "Coral-cérebro",
+        "descricao": "Coral pétreo de colônia esférica com sulcos que lembram um cérebro, construtor de recifes.",
+        "variantes": [
+          "Brain coral"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Mapa com legendas e título escrito (Sargasso See), que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Caranguejo-ermitão em concha com anêmona, bem reconhecível; foto nítida.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que crustáceo é este?",
+      "resposta": "Caranguejo-ermitão",
+      "destino": 1,
+      "ancora": {
+        "nome": "Caranguejo-ermitão",
+        "descricao": "Crustáceo decápode que protege o abdome mole numa concha vazia de caracol.",
+        "variantes": [
+          "Paguro",
+          "Hermit crab"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Planta com urna característica visível na base; foto legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que planta carnívora é esta?",
+      "resposta": "Planta-jarro (Nepenthes)",
+      "destino": 2,
+      "ancora": {
+        "nome": "Planta-jarro",
+        "descricao": "Planta carnívora tropical do gênero Nepenthes, com folhas modificadas em urnas que capturam insetos.",
+        "variantes": [
+          "Nepenthes",
+          "Planta-jarro tropical"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Ilustração em prancha (Haeckel) de plantas que podem ser fotografadas; não é foto e mostra vários musgos."
+    }
+  ]
+}
