@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em corridas de automóvel, que bandeira é esta?",
+        "resposta": "Bandeira quadriculada"
+      },
+      "existentes": [
+        {
+          "id": "q07977",
+          "pergunta": "Que sinal dá aos pilotos a bandeira que este homem agita no alto?",
+          "resposta": "O fim da corrida"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas giram em torno da bandeira quadriculada: uma pergunta qual é a bandeira (quadriculada), a outra o que ela significa (fim da corrida). Mesmo fato central, e quem sabe uma sabe a outra.",
+      "id_existente": "q07977"
+    }
+  ]
+}

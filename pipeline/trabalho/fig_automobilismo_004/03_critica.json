@@ -1,0 +1,43 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia nem entrega a resposta (há vários narradores brasileiros). Distratores do mesmo tipo, curtos e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista de nacionalidade e função ajuda sem entregar. Distratores são projetistas da F1 e nenhum é a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado afirma detalhes que não dá para garantir na imagem (fiscal, mão direita, torre). Além disso, a pergunta não tem resposta única, porque o fiscal agita outras bandeiras do alto da torre. Basta pedir o reconhecimento da bandeira.",
+      "reescrita": {
+        "pergunta": "Em corridas de automóvel, que bandeira é esta?",
+        "resposta": "Bandeira quadriculada",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Senna foi o piloto brasileiro do MP4/6 (Berger é austríaco). Sem vazamento e com distratores críveis, entre eles Fittipaldi, que correu pela McLaren mas não neste carro.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta, sem pista que entregue a resposta. Distratores são pilotos de F1 do mesmo período e nenhum é o retratado.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto de perfil, com boné e carro com patrocinadores e texto parcial ao fundo; o piloto não é reconhecível pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Trecho de pista genérico, com faixa 'BMW M Power Experience 2012'; difícil reconhecer o circuito com resposta única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Retrato de perfil de um piloto dos anos 1970, sem contexto; o rosto não é reconhecível pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Figura pública brasileira muito conhecida, foto nítida, sem texto que revele o nome.",
+      "pergunta": "Que narrador esportivo brasileiro é este?",
+      "resposta": "Galvão Bueno",
+      "tipo": "multipla",
+      "distratores": [
+        "Cléber Machado",
+        "Luís Roberto",
+        "Milton Leite"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Galvão Bueno",
+        "descricao": "Narrador esportivo brasileiro, conhecido pelas transmissões de Fórmula 1 e futebol na TV.",
+        "variantes": [
+          "Carlos Eduardo dos Santos Galvão Bueno"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Placas e painéis com 'Circuit de Catalunya' visíveis entregam a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem nome visível; público aficionado reconhece o engenheiro.",
+      "pergunta": "Que engenheiro britânico da Fórmula 1 é este?",
+      "resposta": "Adrian Newey",
+      "tipo": "multipla",
+      "distratores": [
+        "Ross Brawn",
+        "Rory Byrne",
+        "Patrick Head"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Adrian Newey",
+        "descricao": "Engenheiro e aerodinamicista britânico, projetista de carros campeões de Fórmula 1 na Williams, McLaren e Red Bull.",
+        "variantes": [
+          "Adrian Martin Newey"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem clara de um fiscal agitando a bandeira quadriculada, sem texto.",
+      "pergunta": "Que bandeira o fiscal agita com a mão direita, no alto da torre?",
+      "resposta": "Bandeira quadriculada",
+      "tipo": "aberta",
+      "distratores": [],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira quadriculada",
+        "descricao": "Bandeira de corrida em xadrez preto e branco, usada para indicar o fim da prova.",
+        "variantes": [
+          "Bandeira de chegada",
+          "Bandeira xadrez"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Jornalista pouco reconhecível pela imagem; foto de evento sem contexto."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Carro McLaren vermelho e branco com piloto de capacete amarelo e número 1; sem nome visível.",
+      "pergunta": "Que piloto brasileiro guia este carro?",
+      "resposta": "Ayrton Senna",
+      "tipo": "multipla",
+      "distratores": [
+        "Nelson Piquet",
+        "Emerson Fittipaldi",
+        "Rubens Barrichello"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "McLaren MP4/6",
+        "descricao": "Carro de Fórmula 1 da McLaren com motor Honda V12, com o qual Ayrton Senna foi campeão em 1991.",
+        "variantes": [
+          "MP4/6"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O nome 'Gilles Villeneuve' está escrito no carro, e há legenda do modelo, entregando a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida de piloto com boné da Red Bull e número 11; sem nome visível.",
+      "pergunta": "Que piloto é este?",
+      "resposta": "Sergio Pérez",
+      "tipo": "multipla",
+      "distratores": [
+        "Daniel Ricciardo",
+        "Carlos Sainz",
+        "Pierre Gasly"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Sergio Pérez",
+        "descricao": "Piloto mexicano de Fórmula 1, vice-campeão mundial em 2023 pela Red Bull.",
+        "variantes": [
+          "Checo Pérez"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Retrato antigo em preto e branco, com trecho de letras na roupa; piloto pouco reconhecível pela imagem."
+    }
+  ]
+}
