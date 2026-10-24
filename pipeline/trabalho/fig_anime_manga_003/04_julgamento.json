@@ -1,0 +1,679 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Brock",
+        "descricao": "Líder do ginásio de Pewter City na franquia Pokémon, especialista em pokémon do tipo Pedra.",
+        "variantes": [
+          "Takeshi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "brock",
+          "nome": "Brock",
+          "descricao": "Líder de ginásio do tipo Pedra nos jogos Pokémon e companheiro de viagem de Ash no anime.",
+          "variantes": [
+            "Takeshi"
+          ]
+        },
+        {
+          "id": "mega_man",
+          "nome": "Mega Man",
+          "descricao": "Robô protagonista da série de jogos da Capcom iniciada em 1987, chamado Rockman no Japão.",
+          "variantes": [
+            "Rockman",
+            "Rock"
+          ]
+        },
+        {
+          "id": "rocky_um_lutador",
+          "nome": "Rocky, um Lutador",
+          "descricao": "Filme de boxe de 1976 sobre o pugilista Rocky Balboa, da Filadélfia.",
+          "variantes": [
+            "Rocky",
+            "Rocky Balboa",
+            "Rocky (1976)"
+          ]
+        },
+        {
+          "id": "locomotiva_rocket",
+          "nome": "Locomotiva Rocket",
+          "descricao": "Locomotiva a vapor de Robert Stephenson, vencedora dos Rainhill Trials em 1829.",
+          "variantes": [
+            "Rocket",
+            "Stephenson's Rocket",
+            "Rocket de Stephenson"
+          ]
+        },
+        {
+          "id": "lakshmi",
+          "nome": "Lakshmi",
+          "descricao": "Deusa hindu, esposa de Vixnu",
+          "variantes": [
+            "Laxmi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Barba Branca",
+        "descricao": "Edward Newgate, lendário capitão pirata dos Piratas do Barba Branca em One Piece, um dos Quatro Imperadores.",
+        "variantes": [
+          "Edward Newgate",
+          "Whitebeard"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "asa_branca",
+          "nome": "Asa Branca",
+          "descricao": "Toada de baião lançada por Luiz Gonzaga em 1947, sobre a seca no sertão.",
+          "variantes": []
+        },
+        {
+          "id": "asa_branca_2",
+          "nome": "Asa-branca",
+          "descricao": "Pomba sul-americana que abandona o sertão nordestino nas secas",
+          "variantes": [
+            "Pomba asa-branca",
+            "Patagioenas picazuro",
+            "Pombão"
+          ]
+        },
+        {
+          "id": "beluga",
+          "nome": "Beluga",
+          "descricao": "Baleia-branca ártica, Delphinapterus leucas, cetáceo sem nadadeira dorsal e com testa bulbosa.",
+          "variantes": [
+            "Baleia-branca",
+            "Delphinapterus leucas",
+            "Beluga whale"
+          ]
+        },
+        {
+          "id": "casa_branca",
+          "nome": "Casa Branca",
+          "descricao": "Residência oficial e local de trabalho do presidente dos Estados Unidos, em Washington, D.C.",
+          "variantes": [
+            "White House"
+          ]
+        },
+        {
+          "id": "rosa_branca",
+          "nome": "Rosa Branca",
+          "descricao": "Grupo de resistência não violenta ao nazismo formado por estudantes da Universidade de Munique, ativo entre 1942 e 1943.",
+          "variantes": [
+            "Weiße Rose",
+            "White Rose"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Meruem",
+        "descricao": "Rei das Formigas-Quimera e principal antagonista do arco das Formigas-Quimera em Hunter x Hunter.",
+        "variantes": [
+          "Meruem, o Rei"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "metro",
+          "nome": "Metro",
+          "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito.",
+          "variantes": [
+            "Metro (unidade)",
+            "Metre",
+            "Meter"
+          ]
+        },
+        {
+          "id": "ferrugem",
+          "nome": "Ferrugem",
+          "descricao": "Óxido de ferro marrom-avermelhado formado pela reação do ferro com oxigênio na presença de água.",
+          "variantes": [
+            "Óxido de ferro"
+          ]
+        },
+        {
+          "id": "jerusalem",
+          "nome": "Jerusalém",
+          "descricao": "Cidade sagrada para judeus, cristãos e muçulmanos, no Levante, com a Cúpula da Rocha.",
+          "variantes": []
+        },
+        {
+          "id": "matusalem_2",
+          "nome": "Matusalém",
+          "descricao": "Patriarca bíblico do Gênesis, avô de Noé, símbolo de longevidade",
+          "variantes": [
+            "Metusalém",
+            "Methuselah"
+          ]
+        },
+        {
+          "id": "rum",
+          "nome": "Rum",
+          "descricao": "Bebida destilada de origem caribenha feita do melaço ou do caldo da cana-de-açúcar.",
+          "variantes": [
+            "Ron"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Charizard",
+        "descricao": "Pokémon de fogo e voador, evolução final de Charmander, aqui em sua forma Mega Charizard X.",
+        "variantes": [
+          "Mega Charizard X",
+          "Lizardon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "charizard",
+          "nome": "Charizard",
+          "descricao": "Pokémon dos tipos Fogo e Voador, número 6 da Pokédex Nacional.",
+          "variantes": [
+            "Lizardon"
+          ]
+        },
+        {
+          "id": "mega_charizard_x",
+          "nome": "Mega Charizard X",
+          "descricao": "Uma das duas megaevoluções de Charizard, introduzida em Pokémon X e Y, de corpo negro e chamas azuis.",
+          "variantes": []
+        },
+        {
+          "id": "charizard_holografico_do_base_set",
+          "nome": "Charizard holográfico do Base Set",
+          "descricao": "Carta holográfica de Charizard da primeira coleção do card game Pokémon, uma das mais cobiçadas pelos colecionadores.",
+          "variantes": [
+            "Charizard Base Set",
+            "Charizard 4/102"
+          ]
+        },
+        {
+          "id": "blizzard",
+          "nome": "Blizzard",
+          "descricao": "Golpe de pokémon do tipo Gelo, da 1ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "lairon",
+          "nome": "Lairon",
+          "descricao": "Pokémon dos tipos Aço e Pedra, número 305 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Satoru Gojo",
+        "descricao": "Feiticeiro de grau especial e professor de cabelo branco em Jujutsu Kaisen, portador dos Seis Olhos e do Ilimitado.",
+        "variantes": [
+          "Mu de Áries",
+          "Satoshi Gojo",
+          "Gojo Satoru"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "satoru_gojo",
+          "nome": "Satoru Gojo",
+          "descricao": "Feiticeiro de grau especial e professor da Escola Jujutsu de Tóquio em Jujutsu Kaisen.",
+          "variantes": [
+            "Gojo Satoru",
+            "Gojo"
+          ]
+        },
+        {
+          "id": "comuna_de_paris",
+          "nome": "Comuna de Paris",
+          "descricao": "Governo revolucionário popular que controlou Paris em 1871, após a derrota francesa na guerra contra a Prússia, até ser esmagado pelo exército.",
+          "variantes": [
+            "Paris Commune",
+            "La Commune"
+          ]
+        },
+        {
+          "id": "muk_de_ash",
+          "nome": "Muk de Ash",
+          "descricao": "Muk de Ash Ketchum no anime Pokémon, que vive no laboratório do Professor Carvalho em Pallet.",
+          "variantes": [
+            "Ash's Muk"
+          ]
+        },
+        {
+          "id": "ash_ketchum",
+          "nome": "Ash Ketchum",
+          "descricao": "Treinador protagonista do anime Pokémon, chamado Satoshi no Japão.",
+          "variantes": [
+            "Satoshi",
+            "Ash"
+          ]
+        },
+        {
+          "id": "metro_de_paris",
+          "nome": "Metrô de Paris",
+          "descricao": "Sistema de metrô da cidade de Paris, inaugurado em 1900.",
+          "variantes": [
+            "Paris Métro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Calcifer",
+        "descricao": "Demônio do fogo que move o castelo em O Castelo Animado, filme do Studio Ghibli.",
+        "variantes": [
+          "Calcifer, o demônio do fogo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gafanhoto",
+          "nome": "Gafanhoto",
+          "descricao": "Inseto saltador herbívoro da subordem Caelifera, de antenas curtas.",
+          "variantes": [
+            "Caelifera",
+            "Grasshopper",
+            "Locusta"
+          ]
+        },
+        {
+          "id": "calcita",
+          "nome": "Calcita",
+          "descricao": "Mineral de carbonato de cálcio (CaCO3), componente do calcário, de dureza 3 na escala de Mohs.",
+          "variantes": [
+            "Calcite"
+          ]
+        },
+        {
+          "id": "chupeta",
+          "nome": "Chupeta",
+          "descricao": "Bico de silicone ou borracha dado a bebês para sugar e acalmá-los.",
+          "variantes": [
+            "Chupeta de bebê",
+            "Pacifier"
+          ]
+        },
+        {
+          "id": "cancer",
+          "nome": "Câncer",
+          "descricao": "Grupo de doenças marcadas pelo crescimento descontrolado de células.",
+          "variantes": [
+            "Cancro",
+            "Neoplasia maligna"
+          ]
+        },
+        {
+          "id": "calice",
+          "nome": "Cálice",
+          "descricao": "Canção de Chico Buarque e Gilberto Gil de 1973, censurada pela ditadura militar.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ash Ketchum",
+        "descricao": "Protagonista do anime Pokémon, treinador de Pallet Town que sonha ser Mestre Pokémon.",
+        "variantes": [
+          "Ash",
+          "Satoshi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ash_ketchum",
+          "nome": "Ash Ketchum",
+          "descricao": "Treinador protagonista do anime Pokémon, chamado Satoshi no Japão.",
+          "variantes": [
+            "Satoshi",
+            "Ash"
+          ]
+        },
+        {
+          "id": "as_carta_de_baralho",
+          "nome": "Ás (carta de baralho)",
+          "descricao": "Carta de baralho com um único símbolo de naipe, aqui os quatro ases do baralho francês.",
+          "variantes": [
+            "Ás",
+            "Ace"
+          ]
+        },
+        {
+          "id": "santos_futebol_clube",
+          "nome": "Santos Futebol Clube",
+          "descricao": "Clube de futebol da cidade de Santos, São Paulo, fundado em 1912 e onde Pelé fez carreira.",
+          "variantes": [
+            "Santos",
+            "Santos FC",
+            "Peixe"
+          ]
+        },
+        {
+          "id": "hipismo_saltos",
+          "nome": "Hipismo (saltos)",
+          "descricao": "Modalidade equestre em que cavalo e cavaleiro vencem uma sequência de obstáculos.",
+          "variantes": [
+            "Salto",
+            "Saltos",
+            "Show jumping",
+            "Hipismo"
+          ]
+        },
+        {
+          "id": "hashi",
+          "nome": "Hashi",
+          "descricao": "Par de palitos usado como talher no Japão, na China e em outros países do Leste Asiático.",
+          "variantes": [
+            "Chopsticks",
+            "Pauzinhos",
+            "Palitinhos",
+            "Kuaizi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Asuka Langley",
+        "descricao": "Piloto da Unidade 02 e segunda criança em Neon Genesis Evangelion, de cabelo ruivo.",
+        "variantes": [
+          "Asuka Langley Soryu",
+          "Asuka Langley Sohryu",
+          "Asuka"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ashoka",
+          "nome": "Ashoka",
+          "descricao": "Imperador da dinastia Máuria, que governou quase todo o subcontinente indiano no século três antes de Cristo.",
+          "variantes": [
+            "Asoka",
+            "Ashoka, o Grande"
+          ]
+        },
+        {
+          "id": "flannery",
+          "nome": "Flannery",
+          "descricao": "Líder do ginásio de tipo Fogo de Lavaridge, em Hoenn, nos jogos Pokémon Ruby e Sapphire.",
+          "variantes": [
+            "Asuna"
+          ]
+        },
+        {
+          "id": "suzuka",
+          "nome": "Suzuka",
+          "descricao": "Circuito japonês com traçado em forma de oito.",
+          "variantes": [
+            "Suzuka International Racing Course",
+            "Circuito de Suzuka"
+          ]
+        },
+        {
+          "id": "casuar",
+          "nome": "Casuar",
+          "descricao": "Grande ave corredora não voadora de plumagem negra, pescoço azul e elmo na cabeça (Casuarius casuarius).",
+          "variantes": [
+            "Casuar-do-sul",
+            "Casuarius casuarius"
+          ]
+        },
+        {
+          "id": "may_anime",
+          "nome": "May (anime)",
+          "descricao": "Companheira de viagem de Ash na série Pokémon Advanced, filha do líder de ginásio Norman, chamada Haruka no Japão.",
+          "variantes": [
+            "Haruka"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Sanji",
+        "descricao": "Cozinheiro dos Piratas do Chapéu de Palha em One Piece, conhecido como Pé Negro.",
+        "variantes": [
+          "Sanji Pé Negro",
+          "Vinsmoke Sanji",
+          "Black Leg Sanji"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kanji",
+          "nome": "Kanji",
+          "descricao": "Ideogramas de origem chinesa usados na escrita da língua japonesa.",
+          "variantes": [
+            "Kanjis"
+          ]
+        },
+        {
+          "id": "sai",
+          "nome": "Sai",
+          "descricao": "Arma metálica de Okinawa com haste central pontiaguda e dois dentes laterais.",
+          "variantes": [
+            "Sai (arma)"
+          ]
+        },
+        {
+          "id": "ankh",
+          "nome": "Ankh",
+          "descricao": "Símbolo egípcio em forma de cruz com uma alça no alto, frequentemente seguro pelos deuses nas representações",
+          "variantes": [
+            "Cruz ansata",
+            "Anj"
+          ]
+        },
+        {
+          "id": "sannin",
+          "nome": "Sannin",
+          "descricao": "Trio de ninjas lendários de Konoha no mangá e anime Naruto.",
+          "variantes": [
+            "Densetsu no Sannin",
+            "Três Ninjas Lendários"
+          ]
+        },
+        {
+          "id": "paul",
+          "nome": "Paul",
+          "descricao": "Treinador frio e exigente, rival de Ash Ketchum na série Diamante e Pérola do anime Pokémon, chamado Shinji no Japão.",
+          "variantes": [
+            "Shinji"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Sem-Rosto",
+        "descricao": "Espírito mascarado de A Viagem de Chihiro, filme do Studio Ghibli, que absorve a personalidade de quem engole.",
+        "variantes": [
+          "Kaonashi",
+          "No-Face"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kanzashi",
+          "nome": "Kanzashi",
+          "descricao": "Enfeite de cabelo tradicional japonês, como grampos com flores e correntes pendentes.",
+          "variantes": [
+            "Kanzashi japonês"
+          ]
+        },
+        {
+          "id": "duas_caras",
+          "nome": "Duas-Caras",
+          "descricao": "Harvey Dent, ex-promotor de Gotham com metade do rosto desfigurado, vilão do Batman",
+          "variantes": [
+            "Two-Face",
+            "Harvey Dent"
+          ]
+        },
+        {
+          "id": "kakashi_hatake",
+          "nome": "Kakashi Hatake",
+          "descricao": "Ninja de cabelo prateado e máscara, líder da Equipe 7 e sexto Hokage em Naruto.",
+          "variantes": [
+            "Kakashi",
+            "Ninja Copiador"
+          ]
+        },
+        {
+          "id": "varanasi",
+          "nome": "Varanasi",
+          "descricao": "Cidade sagrada hindu às margens do rio Ganges, no estado indiano de Uttar Pradesh.",
+          "variantes": [
+            "Benares",
+            "Banaras",
+            "Kashi"
+          ]
+        },
+        {
+          "id": "anansi",
+          "nome": "Anansi",
+          "descricao": "Personagem trapaceiro dos contos do povo acã, da África Ocidental, dono de todas as histórias.",
+          "variantes": [
+            "Ananse",
+            "Kwaku Anansi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Faye Valentine",
+        "descricao": "Caçadora de recompensas de cabelo roxo que integra a tripulação da nave Bebop em Cowboy Bebop.",
+        "variantes": [
+          "Faye"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jill_valentine",
+          "nome": "Jill Valentine",
+          "descricao": "Agente da série de jogos de terror Resident Evil, sobrevivente do desastre de Raccoon City.",
+          "variantes": [
+            "Jill"
+          ]
+        },
+        {
+          "id": "filas",
+          "nome": "Filas",
+          "descricao": "Ilha do Nilo, perto de Assuã, famosa pelo complexo de templos dedicado à deusa Ísis",
+          "variantes": [
+            "Philae",
+            "Filae",
+            "Ilha de Filas"
+          ]
+        },
+        {
+          "id": "wright_flyer",
+          "nome": "Wright Flyer",
+          "descricao": "Avião dos irmãos Wright que voou em Kitty Hawk, nos Estados Unidos, em 17 de dezembro de 1903.",
+          "variantes": [
+            "Flyer",
+            "Flyer I"
+          ]
+        },
+        {
+          "id": "lysandre_anime",
+          "nome": "Lysandre (anime)",
+          "descricao": "Líder da Equipe Flare na série XY do anime Pokémon, antagonista principal da temporada XYZ.",
+          "variantes": [
+            "Lysandre",
+            "Flare"
+          ]
+        },
+        {
+          "id": "ovomaltine",
+          "nome": "Ovomaltine",
+          "descricao": "Bebida em pó à base de malte criada em Berna, na Suíça, em 1904, pela empresa de Albert Wander.",
+          "variantes": [
+            "Ovaltine"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "brock",
+      "motivo": "Mesmo líder de ginásio Pokémon, tipo Pedra."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o pirata de One Piece."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Meruem de Hunter x Hunter."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Proposta é a forma Mega Charizard X, ambígua entre Charizard e Mega Charizard X; na dúvida, nova."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "satoru_gojo",
+      "motivo": "Mesmo personagem de Jujutsu Kaisen."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Calcifer."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "ash_ketchum",
+      "motivo": "Mesmo protagonista do anime Pokémon."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Asuka Langley."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Sanji de One Piece."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Sem-Rosto de Ghibli."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Faye Valentine; Jill Valentine é outra personagem."
+    }
+  ]
+}

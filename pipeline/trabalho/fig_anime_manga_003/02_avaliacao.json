@@ -1,0 +1,245 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arte oficial clara de Brock, sozinho. A silhueta é só um garoto de cabelo espetado, genérico, então uso a imagem colorida e pergunto algo além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este líder de ginásio de Pokémon usa só pokémon de que tipo?",
+      "resposta": "Pedra",
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Brock",
+        "descricao": "Líder do ginásio de Pewter City na franquia Pokémon, especialista em pokémon do tipo Pedra.",
+        "variantes": [
+          "Takeshi"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Barba Branca reconhecível pelo bigode em meia-lua, pelas cicatrizes no peito e pelo casaco de capitão. Sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem criou o mangá em que aparece este pirata?",
+      "resposta": "Eiichiro Oda",
+      "distratores": [
+        "Masashi Kishimoto",
+        "Akira Toriyama",
+        "Tite Kubo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Barba Branca",
+        "descricao": "Edward Newgate, lendário capitão pirata dos Piratas do Barba Branca em One Piece, um dos Quatro Imperadores.",
+        "variantes": [
+          "Edward Newgate",
+          "Whitebeard"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Close do rosto de Meruem, de pele verde e olhos roxos, em cena do anime, sem texto. A imagem é escura, mas reconhecível para quem conhece Hunter x Hunter.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem criou o mangá em que aparece este personagem?",
+      "resposta": "Yoshihiro Togashi",
+      "destino": 0,
+      "ancora": {
+        "nome": "Meruem",
+        "descricao": "Rei das Formigas-Quimera e principal antagonista do arco das Formigas-Quimera em Hunter x Hunter.",
+        "variantes": [
+          "Meruem, o Rei"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "É a Mega Charizard X. A silhueta tem asas, chamas na cauda e chifres e é reconhecível. A resposta Charizard vale para qualquer forma.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Charizard",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Charizard",
+        "descricao": "Pokémon de fogo e voador, evolução final de Charmander, aqui em sua forma Mega Charizard X.",
+        "variantes": [
+          "Mega Charizard X",
+          "Lizardon"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "A imagem mostra Satoshi Gojo, de Jujutsu Kaisen (cabelo branco, venda preta e olhos azuis), e não Mu de Áries. A âncora foi corrigida para Gojo. É um close recortado, mas reconhecível, e a pergunta é sobre o autor, em múltipla escolha.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem criou o mangá em que aparece este personagem?",
+      "resposta": "Gege Akutami",
+      "distratores": [
+        "Koyoharu Gotouge",
+        "Kohei Horikoshi",
+        "Tite Kubo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Satoru Gojo",
+        "descricao": "Feiticeiro de grau especial e professor de cabelo branco em Jujutsu Kaisen, portador dos Seis Olhos e do Ilimitado.",
+        "variantes": [
+          "Satoshi Gojo",
+          "Gojo Satoru"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Calcifer, o demônio do fogo, com rosto inconfundível. Sem texto. Atrás aparecem apenas os olhos de Howl, em transparência.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem dirigiu o filme em que aparece este personagem?",
+      "resposta": "Hayao Miyazaki",
+      "destino": 0,
+      "ancora": {
+        "nome": "Calcifer",
+        "descricao": "Demônio do fogo que move o castelo em O Castelo Animado, filme do Studio Ghibli.",
+        "variantes": [
+          "Calcifer, o demônio do fogo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Ash do anime, de corpo inteiro, com boné e mochila reconhecíveis. A silhueta em pose dinâmica, sem o rosto, é menos clara, então uso a imagem colorida. É o único protagonista do lote.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pokémon é o companheiro principal deste treinador?",
+      "resposta": "Pikachu",
+      "distratores": [
+        "Eevee",
+        "Togepi",
+        "Jigglypuff"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Ash Ketchum",
+        "descricao": "Protagonista do anime Pokémon, treinador de Pallet Town que sonha ser Mestre Pokémon.",
+        "variantes": [
+          "Ash",
+          "Satoshi"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A imagem parece mostrar uma Tsunade jovem, num cenário real, com visual bem diferente do usual. É fácil confundir com outras loiras de Naruto e não fica reconhecível com segurança."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Asuka em arte clara, sozinha, de corpo inteiro. A silhueta (cabelo longo, saia, mão atrás da cabeça) poderia ser de qualquer colegial, então uso a imagem colorida e pergunto pelo criador.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem criou o anime de que faz parte esta personagem?",
+      "resposta": "Hideaki Anno",
+      "distratores": [
+        "Hayao Miyazaki",
+        "Shinichiro Watanabe",
+        "Satoshi Kon"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Asuka Langley",
+        "descricao": "Piloto da Unidade 02 e segunda criança em Neon Genesis Evangelion, de cabelo ruivo.",
+        "variantes": [
+          "Asuka Langley Soryu",
+          "Asuka Langley Sohryu",
+          "Asuka"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Sanji de corpo inteiro, com a sobrancelha em espiral e o cabelo loiro cobrindo um olho. Há figurantes minúsculos ao fundo, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este personagem é o cozinheiro de qual bando pirata?",
+      "resposta": "Piratas do Chapéu de Palha",
+      "destino": 0,
+      "ancora": {
+        "nome": "Sanji",
+        "descricao": "Cozinheiro dos Piratas do Chapéu de Palha em One Piece, conhecido como Pé Negro.",
+        "variantes": [
+          "Sanji Pé Negro",
+          "Vinsmoke Sanji",
+          "Black Leg Sanji"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Sem-Rosto em cena clara, com máscara e manto preto, sozinho na ponte. Sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que personagem do filme A Viagem de Chihiro é este?",
+      "resposta": "Sem-Rosto",
+      "destino": 0,
+      "ancora": {
+        "nome": "Sem-Rosto",
+        "descricao": "Espírito mascarado de A Viagem de Chihiro, filme do Studio Ghibli, que absorve a personalidade de quem engole.",
+        "variantes": [
+          "Kaonashi",
+          "No-Face"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Close de Faye Valentine, com cabelo roxo, tiara e blusa amarela, empunhando uma arma. Sem texto e reconhecível pelo visual.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem dirigiu o anime em que aparece esta personagem?",
+      "resposta": "Shinichiro Watanabe",
+      "distratores": [
+        "Hideaki Anno",
+        "Mamoru Oshii",
+        "Satoshi Kon"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Faye Valentine",
+        "descricao": "Caçadora de recompensas de cabelo roxo que integra a tripulação da nave Bebop em Cowboy Bebop.",
+        "variantes": [
+          "Faye"
+        ]
+      }
+    }
+  ]
+}

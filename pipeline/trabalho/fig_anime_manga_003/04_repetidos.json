@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem criou o mangá em que aparece este personagem?",
+        "resposta": "Gege Akutami"
+      },
+      "existentes": [
+        {
+          "id": "q14885",
+          "pergunta": "Quem é esse personagem?",
+          "resposta": "Satoru Gojo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que pokémon é o companheiro principal deste treinador?",
+        "resposta": "Pikachu"
+      },
+      "existentes": [
+        {
+          "id": "q01316",
+          "pergunta": "No Japão, o protagonista do anime Pokémon, Ash Ketchum, tem o mesmo prenome do criador da franquia. Que nome é esse?",
+          "resposta": "Satoshi"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pede a identidade do personagem (Satoru Gojo); a nova pede o criador do mangá (Gege Akutami). São fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A existente pergunta o nome japonês de Ash (Satoshi); a nova pergunta o pokémon companheiro (Pikachu). São fatos diferentes."
+    }
+  ]
+}
