@@ -1,0 +1,50 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O console tem dois nomes conforme a região (Famicom no Japão, NES na América do Norte), então a resposta não é única. Delimitar a região e o ano deixa o NES como resposta correta, e a pista não entrega nada.",
+      "reescrita": {
+        "pergunta": "Lançado em 1985 como acessório na América do Norte, este robô de brinquedo funcionava com qual console da Nintendo?",
+        "resposta": "Nintendo Entertainment System (NES)"
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista (jogos de lançar no chão) não entrega a resposta sem a figura, e o trecho confirma o uso em jogos infantis. A resposta é única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a origem alemã (Sternhalma, século dezenove) e que o nome \"chinesas\" é só marketing americano. A pista \"apesar do nome\" não permite responder sem reconhecer o jogo.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Pedras ou sementes\" quase entrega a resposta no teste da imagem coberta. Além disso, o distrator Go também é antigo e jogado com pedras, então pode ser considerado correto. A reescrita tira a pista e usa distratores que não descrevem a imagem.",
+      "reescrita": {
+        "pergunta": "Que jogo de tabuleiro para dois jogadores é este?",
+        "resposta": "Mancala",
+        "distratores": [
+          "Gamão",
+          "Senet",
+          "Damas"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista \"percussão tocada com as mãos\" é genérica e não identifica o bongô (as congas também se encaixam). A figura é que decide, e o trecho confirma que o bongô é tocado com as mãos.",
+      "reescrita": null
+    }
+  ]
+}

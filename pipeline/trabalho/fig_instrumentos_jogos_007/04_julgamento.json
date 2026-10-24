@@ -1,0 +1,328 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "R.O.B.",
+        "descricao": "Robô de brinquedo da Nintendo, acessório do NES/Famicom lançado em 1985, compatível com Gyromite e Stack-Up.",
+        "variantes": [
+          "R.O.B. (robô da Nintendo)",
+          "ROB",
+          "Robotic Operating Buddy",
+          "Family Computer Robot"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "robo",
+          "nome": "Robô",
+          "descricao": "Máquina capaz de executar tarefas de forma automática; o termo surgiu na peça R.U.R., de Karel Čapek.",
+          "variantes": [
+            "Robot"
+          ]
+        },
+        {
+          "id": "robin",
+          "nome": "Robin",
+          "descricao": "Identidade de parceiro mirim do Batman, usada por vários jovens ao longo das décadas nos quadrinhos da DC",
+          "variantes": [
+            "Menino Prodígio",
+            "Boy Wonder"
+          ]
+        },
+        {
+          "id": "pisco_de_peito_ruivo",
+          "nome": "Pisco-de-peito-ruivo",
+          "descricao": "Pequena ave europeia de peito e rosto alaranjados, Erithacus rubecula.",
+          "variantes": [
+            "Erithacus rubecula",
+            "European robin",
+            "Robin"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro",
+          "nome": "Rio de Janeiro",
+          "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+          "variantes": [
+            "São Sebastião do Rio de Janeiro",
+            "Rio"
+          ]
+        },
+        {
+          "id": "arroba_simbolo",
+          "nome": "Arroba (símbolo)",
+          "descricao": "O símbolo @, usado nos endereços de e-mail, chamado de arroba em português e espanhol",
+          "variantes": [
+            "@",
+            "At sign",
+            "Arroba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bola de gude",
+        "descricao": "Pequena esfera, geralmente de vidro, usada em brincadeiras e jogos infantis.",
+        "variantes": [
+          "Bolinha de gude",
+          "Berlinde",
+          "Birosca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bolinha_de_gude",
+          "nome": "Bolinha de gude",
+          "descricao": "Pequena esfera de vidro usada em jogos infantis.",
+          "variantes": [
+            "Bola de gude",
+            "Berlinde",
+            "Bolita",
+            "Búlica"
+          ]
+        },
+        {
+          "id": "berlim",
+          "nome": "Berlim",
+          "descricao": "Capital da Alemanha, vista com a torre de TV, o Reichstag e o Portão de Brandemburgo.",
+          "variantes": [
+            "Berlin"
+          ]
+        },
+        {
+          "id": "bola_de_golfe",
+          "nome": "Bola de golfe",
+          "descricao": "Pequena bola com covinhas na superfície usada no golfe.",
+          "variantes": [
+            "Golf ball"
+          ]
+        },
+        {
+          "id": "berna",
+          "nome": "Berna",
+          "descricao": "Cidade suíça que funciona como sede do governo federal da Suíça.",
+          "variantes": [
+            "Bern",
+            "Berne"
+          ]
+        },
+        {
+          "id": "pingo",
+          "nome": "Pingo",
+          "descricao": "Colina cônica com núcleo de gelo que se forma em regiões de permafrost no Ártico e subártico.",
+          "variantes": [
+            "Pingos",
+            "Colina de gelo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Damas chinesas",
+        "descricao": "Jogo de tabuleiro estratégico em forma de estrela de seis pontas, variação do Halma, de origem alemã.",
+        "variantes": [
+          "Chinese checkers",
+          "Sternhalma"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "damas_inglesas",
+          "nome": "Damas inglesas",
+          "descricao": "Variante do jogo de damas jogada em tabuleiro de oito por oito, em que a dama anda uma casa por vez, resolvida por computador em 2007.",
+          "variantes": [
+            "Checkers",
+            "English draughts"
+          ]
+        },
+        {
+          "id": "dragao_chines",
+          "nome": "Dragão chinês",
+          "descricao": "Criatura lendária da mitologia chinesa, serpentina com quatro patas, símbolo de poder e controle das águas.",
+          "variantes": [
+            "Long",
+            "Loong"
+          ]
+        },
+        {
+          "id": "saturnalia_tupiniquim",
+          "nome": "Saturnalia tupiniquim",
+          "descricao": "Dinossauro primitivo do Triássico encontrado no Rio Grande do Sul e descrito em 1999.",
+          "variantes": [
+            "Saturnalia"
+          ]
+        },
+        {
+          "id": "saturnalia",
+          "nome": "Saturnália",
+          "descricao": "Festa romana em honra do deus Saturno, com banquetes, presentes e inversão de papéis entre senhores e escravos.",
+          "variantes": [
+            "Saturnais"
+          ]
+        },
+        {
+          "id": "draisiana",
+          "nome": "Draisiana",
+          "descricao": "Veículo de duas rodas movido com os pés no chão, criado pelo alemão Karl Drais em 1817, ancestral da bicicleta.",
+          "variantes": [
+            "Dandy horse",
+            "Laufmaschine",
+            "Máquina de correr"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mancala",
+        "descricao": "Família de jogos de tabuleiro para dois jogadores, com sementes ou pedras movidas entre covas.",
+        "variantes": [
+          "Kalah",
+          "Oware",
+          "Bao"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mancala",
+          "nome": "Mancala",
+          "descricao": "Família de jogos de tabuleiro para dois jogadores, com sementes ou pedras distribuídas em covas.",
+          "variantes": [
+            "Kalah",
+            "Manqala"
+          ]
+        },
+        {
+          "id": "baco_caravaggio",
+          "nome": "Baco (Caravaggio)",
+          "descricao": "Pintura a óleo de Caravaggio (c. 1596) que mostra um jovem Baco com uvas na cabeça e uma taça de vinho, na Galeria Uffizi.",
+          "variantes": [
+            "Bacchus",
+            "Baco",
+            "Bacco"
+          ]
+        },
+        {
+          "id": "baco",
+          "nome": "Baço",
+          "descricao": "Órgão do lado esquerdo do abdome que filtra o sangue e faz parte do sistema linfático.",
+          "variantes": [
+            "Spleen"
+          ]
+        },
+        {
+          "id": "dioniso",
+          "nome": "Dioniso",
+          "descricao": "Deus grego do vinho, das festas e do teatro, filho de Zeus e da mortal Sêmele.",
+          "variantes": [
+            "Dionísio",
+            "Baco",
+            "Dionysus"
+          ]
+        },
+        {
+          "id": "monte_kailash",
+          "nome": "Monte Kailash",
+          "descricao": "Montanha sagrada de 6.638 metros no oeste do Planalto Tibetano, na China.",
+          "variantes": [
+            "Kailash",
+            "Monte Kailasa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Bongô",
+        "descricao": "Instrumento de percussão afro-cubano formado por um par de pequenos tambores unidos, tocado com as mãos.",
+        "variantes": [
+          "Bongos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bongo",
+          "nome": "Bongo",
+          "descricao": "Grande antílope de floresta, Tragelaphus eurycerus, de pelagem avermelhada com listras brancas.",
+          "variantes": [
+            "Tragelaphus eurycerus"
+          ]
+        },
+        {
+          "id": "bono",
+          "nome": "Bono",
+          "descricao": "Cantor irlandês, vocalista da banda U2, nascido Paul Hewson",
+          "variantes": [
+            "Paul Hewson",
+            "Bono Vox"
+          ]
+        },
+        {
+          "id": "orangotango",
+          "nome": "Orangotango",
+          "descricao": "Grandes primatas de pelagem avermelhada do gênero Pongo, nativos de Bornéu e Sumatra.",
+          "variantes": [
+            "Pongo",
+            "Orangutan",
+            "Orangutã"
+          ]
+        },
+        {
+          "id": "congada",
+          "nome": "Congada",
+          "descricao": "Manifestação afro-brasileira de cortejo, dança e música que encena a coroação do Rei do Congo.",
+          "variantes": [
+            "Congado",
+            "Congo"
+          ]
+        },
+        {
+          "id": "rio_congo",
+          "nome": "Rio Congo",
+          "descricao": "Grande rio da África Central que deságua no oceano Atlântico, entre Angola e a República Democrática do Congo.",
+          "variantes": [
+            "Congo",
+            "Rio Zaire",
+            "Congo River"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "R.O.B. é o robô específico da Nintendo, distinto do conceito genérico de robô e das outras candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "bolinha_de_gude",
+      "motivo": "Mesma entidade: pequena esfera de vidro usada em jogos infantis; 'Bola de gude' é variante da candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Damas chinesas (Sternhalma) é um jogo diferente das damas inglesas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "mancala",
+      "motivo": "Mesma família de jogos, mesmo nome e descrição equivalente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Bongô é o instrumento de percussão, diferente do antílope bongo."
+    }
+  ]
+}

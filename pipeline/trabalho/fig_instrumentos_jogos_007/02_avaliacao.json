@@ -1,0 +1,143 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Montagem incomum de dois pratos com correntes sobre um pedestal; resposta ambígua (prato, chimbal) e instrumento pouco claro."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Texto visível 'SEGA MASTER SYSTEM' entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem clara do robô; texto na base é minúsculo e não entrega a resposta (o console).",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este robô acessório funcionava com qual console da Nintendo?",
+      "resposta": "Nintendo Entertainment System (NES)",
+      "destino": 3,
+      "ancora": {
+        "nome": "R.O.B.",
+        "descricao": "Robô de brinquedo da Nintendo, acessório do NES/Famicom lançado em 1985, compatível com Gyromite e Stack-Up.",
+        "variantes": [
+          "ROB",
+          "Robotic Operating Buddy",
+          "Family Computer Robot"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem clara de bolas de gude, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que brinquedo, usado em jogos de lançar no chão, é este?",
+      "resposta": "Bola de gude",
+      "destino": 2,
+      "ancora": {
+        "nome": "Bola de gude",
+        "descricao": "Pequena esfera, geralmente de vidro, usada em brincadeiras e jogos infantis.",
+        "variantes": [
+          "Bolinha de gude",
+          "Berlinde",
+          "Birosca"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Tabuleiro estrelado claro, sem texto, reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este jogo de tabuleiro, apesar do nome, é originário de que país?",
+      "resposta": "Alemanha",
+      "destino": 2,
+      "ancora": {
+        "nome": "Damas chinesas",
+        "descricao": "Jogo de tabuleiro estratégico em forma de estrela de seis pontas, variação do Halma, de origem alemã.",
+        "variantes": [
+          "Damas chinesas",
+          "Chinese checkers",
+          "Sternhalma"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma guitarra elétrica comum de corpo colorido; não é reconhecível como guitarra baiana."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Texto 'Wii' visível no controle entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Textos 'SONY' e 'PSP' visíveis entregam a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Tabuleiro com covas e pedras, claro e sem texto; múltipla escolha com tabuleiros distintos.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que antigo jogo de tabuleiro, jogado com pedras ou sementes, é este?",
+      "resposta": "Mancala",
+      "distratores": [
+        "Gamão",
+        "Go",
+        "Senet"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Mancala",
+        "descricao": "Família de jogos de tabuleiro para dois jogadores, com sementes ou pedras movidas entre covas.",
+        "variantes": [
+          "Kalah",
+          "Oware",
+          "Bao"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano e texto visível ('Mult Games', 'The King of Fighters')."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Par de tambores pequenos unidos, claro e sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento de percussão, tocado com as mãos, é este?",
+      "resposta": "Bongô",
+      "destino": 1,
+      "ancora": {
+        "nome": "Bongô",
+        "descricao": "Instrumento de percussão afro-cubano formado por um par de pequenos tambores unidos, tocado com as mãos.",
+        "variantes": [
+          "Bongos",
+          "Bongo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Texto 'Roland TR-808 Rhythm Composer' visível entrega a resposta."
+    }
+  ]
+}

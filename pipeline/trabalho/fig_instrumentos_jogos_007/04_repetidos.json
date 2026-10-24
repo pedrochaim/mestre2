@@ -1,0 +1,46 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que brinquedo, usado em jogos de lançar no chão, é este?",
+        "resposta": "Bola de gude"
+      },
+      "existentes": [
+        {
+          "id": "q08895",
+          "pergunta": "Que brinquedo de criança, usado em jogos de rua, é este?",
+          "resposta": "Bolinha de gude (ou bola de gude)"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que jogo de tabuleiro para dois jogadores é este?",
+        "resposta": "Mancala"
+      },
+      "existentes": [
+        {
+          "id": "q14037",
+          "pergunta": "Que família de jogos de tabuleiro é esta?",
+          "resposta": "Mancala"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar o brinquedo (bola de gude) a partir da imagem; mesma resposta e mesmo fato.",
+      "id_existente": "q08895"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar Mancala pela imagem; quem acertasse uma saberia a outra.",
+      "id_existente": "q14037"
+    }
+  ]
+}
