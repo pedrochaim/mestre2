@@ -1,0 +1,81 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a nave e a figura decide entre os distratores. Os trechos confirmam a Crew Dragon e a ligação com a ISS.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Ao ar livre' é pista fraca que não entrega a resposta. Resposta única, nível 1.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Liderou' é impreciso. Os trechos dizem que von Braun foi 'um dos principais desenvolvedores', e Dornberger comandava o programa militar. 'Diretor técnico' é amplamente documentado e deixa a resposta única.",
+      "reescrita": {
+        "pergunta": "Que engenheiro alemão foi o diretor técnico do desenvolvimento deste foguete da Segunda Guerra Mundial?",
+        "resposta": "Wernher von Braun"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Fotografada pelo Hubble' não está em 'mostra' nem nos trechos, então não dá para saber se vale para esta imagem. Troquei pela constelação, que está nos trechos, ajuda a distinguir e não entrega.",
+      "reescrita": {
+        "pergunta": "Que nebulosa de emissão, na constelação de Cassiopeia, é esta?",
+        "resposta": "Nebulosa da Bolha",
+        "distratores": [
+          "Nebulosa do Anel",
+          "Nebulosa Olho de Gato",
+          "Nebulosa da Tulipa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos situam o hexágono no polo norte de Saturno. Distratores são do mesmo tipo e a pergunta exige reconhecer a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Fotografado no céu do amanhecer' não é confirmado por 'mostra' nem pelos trechos. Tirei a afirmação sobre a foto.",
+      "reescrita": {
+        "pergunta": "Que tipo de astro é este?",
+        "resposta": "Cometa"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Juno é uma sonda da NASA que orbita Júpiter. O enunciado não a nomeia, e a figura a distingue de Galileo, Cassini e New Horizons.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos descrevem o ALMA como conjunto de radiotelescópios no Atacama. Nível 1, resposta única, sem vazamento relevante.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'o foguete que levou astronautas à Lua' já entrega Saturno V sem a figura. Além disso, o edifício também montou o ônibus espacial e, hoje, o SLS, então a resposta não é única. Não há conserto simples.",
+      "reescrita": null
+    }
+  ]
+}

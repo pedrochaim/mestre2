@@ -1,0 +1,214 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O nome 'Atlantis' está escrito na asa e na fuselagem, entregando a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cápsula atracada à estação por braço robótico, sem texto com o nome; distratores são naves de aparência diferente mas do mesmo tipo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que nave espacial é esta, vista acoplada a uma estação orbital?",
+      "resposta": "Crew Dragon",
+      "distratores": [
+        "Boeing Starliner",
+        "Orion",
+        "Soyuz"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Crew Dragon",
+        "descricao": "Cápsula espacial tripulada da SpaceX, variante da Dragon 2, que leva astronautas à Estação Espacial Internacional.",
+        "variantes": [
+          "SpaceX Dragon 2",
+          "Dragon 2",
+          "Dragon"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Campo estelar genérico: sem a forma típica não é reconhecível como a Caixa de Joias e poderia ser qualquer aglomerado aberto."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Relógio de sol com gnômon e sombra, claro e sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento é este, que funciona ao ar livre?",
+      "resposta": "Relógio de sol",
+      "destino": 0,
+      "ancora": {
+        "nome": "Relógio de sol",
+        "descricao": "Instrumento que indica a hora do dia pela sombra de um gnômon projetada sobre um mostrador.",
+        "variantes": [
+          "Quadrante solar"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foguete com o padrão xadrez preto e branco, bem reconhecível, sem texto; a pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que engenheiro alemão liderou o desenvolvimento deste foguete da Segunda Guerra Mundial?",
+      "resposta": "Wernher von Braun",
+      "destino": 0,
+      "ancora": {
+        "nome": "Foguete V-2",
+        "descricao": "Míssil balístico alemão da Segunda Guerra Mundial, também chamado A4, primeiro objeto feito pelo homem a chegar ao espaço.",
+        "variantes": [
+          "V2",
+          "A4",
+          "Aggregat-4"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem do Hubble, sem texto, com a bolha azul característica; distratores são nebulosas de aspecto parecido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que nebulosa é esta, fotografada pelo telescópio Hubble?",
+      "resposta": "Nebulosa da Bolha",
+      "distratores": [
+        "Nebulosa do Anel",
+        "Nebulosa Olho de Gato",
+        "Nebulosa da Tulipa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nebulosa da Bolha",
+        "descricao": "Nebulosa de emissão na constelação de Cassiopeia, também chamada NGC 7635, em forma de bolha criada pelo vento de uma estrela massiva.",
+        "variantes": [
+          "NGC 7635",
+          "Sharpless 162",
+          "Caldwell 11",
+          "Bubble Nebula"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A imagem é um planisfério celeste com texto em alemão (nomes de constelações e meses), não um astrolábio; além disso é um mapa cheio de texto."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco da Cassini mostrando o polo norte de Saturno com o hexágono e os anéis ao fundo; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que planeta tem o seu polo norte mostrado nesta imagem?",
+      "resposta": "Saturno",
+      "distratores": [
+        "Júpiter",
+        "Netuno",
+        "Urano"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hexágono de Saturno",
+        "descricao": "Padrão de nuvens aproximadamente hexagonal e persistente em torno do polo norte do planeta Saturno.",
+        "variantes": [
+          "Hexágono polar de Saturno",
+          "Saturn's hexagon"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto de cometa com longa cauda, sem texto; reconhecimento do tipo de astro, não do cometa específico.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de astro é este, fotografado no céu do amanhecer?",
+      "resposta": "Cometa",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cometa West",
+        "descricao": "Grande cometa (C/1975 V1) que atravessou o Sistema Solar interno em 1976, um dos mais brilhantes da época.",
+        "variantes": [
+          "C/1975 V1",
+          "Comet West"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Ilustração da sonda diante de Júpiter, sem texto; sonda de três painéis solares inconfundível e impossível de fotografar assim.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sonda da NASA é esta, representada diante do seu planeta de destino?",
+      "resposta": "Juno",
+      "distratores": [
+        "Galileo",
+        "Cassini",
+        "New Horizons"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sonda Juno",
+        "descricao": "Sonda espacial da NASA lançada em 2011 que orbita Júpiter desde 2016, com três grandes painéis solares.",
+        "variantes": [
+          "Juno",
+          "Juno (sonda espacial)"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Antenas parabólicas brancas no deserto, claramente radiotelescópios; sem texto. Pergunta pelo tipo de instrumento, não pelo observatório específico.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de instrumento astronômico são estas antenas no deserto?",
+      "resposta": "Radiotelescópio",
+      "destino": 0,
+      "ancora": {
+        "nome": "ALMA (Atacama Large Millimeter Array)",
+        "descricao": "Conjunto de 66 radiotelescópios no deserto do Atacama, no Chile, que observa em ondas milimétricas e submilimétricas.",
+        "variantes": [
+          "ALMA",
+          "Atacama Large Millimeter/submillimeter Array"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto aérea do Edifício de Montagem de Veículos do Centro Espacial Kennedy; só há o logotipo da NASA e a bandeira, sem o nome do local. A pergunta exige um passo além do reconhecimento.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que foguete, o que levou astronautas à Lua, era montado neste edifício?",
+      "resposta": "Saturno V",
+      "destino": 0,
+      "ancora": {
+        "nome": "Edifício de Montagem de Veículos (Centro Espacial Kennedy)",
+        "descricao": "Enorme edifício do Centro Espacial Kennedy, na Flórida, onde eram montados os foguetes Saturno V e os ônibus espaciais.",
+        "variantes": [
+          "VAB",
+          "Vehicle Assembly Building",
+          "Centro Espacial Kennedy"
+        ]
+      }
+    }
+  ]
+}

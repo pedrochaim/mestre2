@@ -1,0 +1,51 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento é este, que funciona ao ar livre?",
+        "resposta": "Relógio de sol"
+      },
+      "existentes": [
+        {
+          "id": "q03583",
+          "pergunta": "Que instrumento é este?",
+          "resposta": "Relógio de sol"
+        },
+        {
+          "id": "q03619",
+          "pergunta": "Qual destes instrumentos de medir o tempo é o mais antigo?",
+          "resposta": "Relógio de sol"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que engenheiro alemão foi o diretor técnico do desenvolvimento deste foguete da Segunda Guerra Mundial?",
+        "resposta": "Wernher von Braun"
+      },
+      "existentes": [
+        {
+          "id": "q05799",
+          "pergunta": "O míssil nazista V-2 e o foguete Saturno V, que levou astronautas à Lua, foram desenvolvidos sob a liderança do mesmo engenheiro alemão. Quem?",
+          "resposta": "Wernher von Braun"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q03583",
+      "motivo": "Ambas pedem a identificação do mesmo instrumento (relógio de sol) a partir da imagem; o acréscimo 'ao ar livre' não muda o fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q05799",
+      "motivo": "Ambas pedem o engenheiro alemão que liderou o desenvolvimento do V-2: Wernher von Braun."
+    }
+  ]
+}
