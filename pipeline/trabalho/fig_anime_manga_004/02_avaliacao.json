@@ -1,0 +1,250 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arte oficial de corpo inteiro, sem texto. Silhueta genérica demais, então usa a imagem colorida e vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "usar_silhueta": false,
+      "pergunta": "Que guerreiro Z é o marido desta personagem?",
+      "resposta": "Kuririn (Krillin)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Androide 18",
+        "descricao": "Androide gêmea do Androide 17, criada pelo Dr. Gero, que depois se une aos Guerreiros Z em Dragon Ball.",
+        "variantes": [
+          "Android 18",
+          "C-18",
+          "Lazuli"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Close do rosto em quadro de mangá, sem traço inequívoco. A personagem pode ser confundida com outras morenas de cabelo preto de Bleach."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Arte clara de corpo inteiro. A silhueta é só um vulto de capa, que serve a vários personagens, então usa a colorida em múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "usar_silhueta": false,
+      "pergunta": "Que personagem de Dragon Quest: A Aventura de Dai é este?",
+      "resposta": "Hyunckel",
+      "distratores": [
+        "Popp",
+        "Baran",
+        "Hadlar"
+      ],
+      "ancora": {
+        "nome": "Hyunckel",
+        "descricao": "Ex-comandante da Legião Morta-Viva do Exército das Trevas que vira discípulo de Avan em Dragon Quest: A Aventura de Dai.",
+        "variantes": [
+          "Hyunkel",
+          "Hyunckel"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Gata Luna reconhecível pela lua crescente na testa. A silhueta mistura ave e rosa, então usa a colorida e pergunta a autoria.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "usar_silhueta": false,
+      "pergunta": "Que autora criou o mangá em que aparece este gato?",
+      "resposta": "Naoko Takeuchi",
+      "distratores": [],
+      "ancora": {
+        "nome": "Luna (Sailor Moon)",
+        "descricao": "Gata preta falante, conselheira de Usagi e das Sailor Guardiãs em Sailor Moon.",
+        "variantes": [
+          "Luna"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rosto inconfundível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "usar_silhueta": false,
+      "pergunta": "A que trio de ninjas lendários de Konoha pertence este personagem?",
+      "resposta": "Sannin",
+      "distratores": [],
+      "ancora": {
+        "nome": "Orochimaru",
+        "descricao": "Um dos Sannin lendários de Konoha, vilão de Naruto que busca a imortalidade.",
+        "variantes": [
+          "Orochimaru"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Rosto claro, reconhecível pelo cabelo e pela venda no olho, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "usar_silhueta": false,
+      "pergunta": "Que vilão de Bleach é este?",
+      "resposta": "Sosuke Aizen",
+      "distratores": [
+        "Gin Ichimaru",
+        "Kaname Tosen",
+        "Shinji Hirako"
+      ],
+      "ancora": {
+        "nome": "Sosuke Aizen",
+        "descricao": "Ex-capitão da 5ª Divisão do Gotei 13 e principal vilão de Bleach.",
+        "variantes": [
+          "Sousuke Aizen",
+          "Aizen"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cena clara de Dragon Ball, com o símbolo da Kame no uniforme, sem texto que entregue o nome.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "usar_silhueta": false,
+      "pergunta": "Que mangaká criou este personagem?",
+      "resposta": "Akira Toriyama",
+      "distratores": [],
+      "ancora": {
+        "nome": "Kuririn",
+        "descricao": "Lutador careca e melhor amigo de Goku em Dragon Ball, marido da Androide 18.",
+        "variantes": [
+          "Krillin",
+          "Kuririn"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Personagem sozinha, de corpo inteiro. A silhueta é característica: cabelo com os dois chifrinhos, vestido e mãos na cintura.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "usar_silhueta": true,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Anya Forger",
+      "distratores": [],
+      "ancora": {
+        "nome": "Anya Forger",
+        "descricao": "Menina telepata adotada pelos Forger em Spy x Family.",
+        "variantes": [
+          "Anya",
+          "Ânia Forger"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Rosto com chupeta, inconfundível. O 'Jr' do chapéu só indica 'júnior' e não entrega o nome Koenma.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "usar_silhueta": false,
+      "pergunta": "Que personagem de Yu Yu Hakusho é este?",
+      "resposta": "Koenma",
+      "distratores": [],
+      "ancora": {
+        "nome": "Koenma",
+        "descricao": "Governante do Mundo Espiritual em Yu Yu Hakusho, filho do rei Enma, com aparência de bebê.",
+        "variantes": [
+          "Enma Jr.",
+          "Príncipe Koenma"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Personagem sozinha, de corpo inteiro. O rabo de cavalo enorme em curva torna a silhueta única.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "usar_silhueta": true,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Jessie",
+      "distratores": [],
+      "ancora": {
+        "nome": "Jessie (Equipe Rocket)",
+        "descricao": "Integrante da Equipe Rocket e líder do trio com James e Meowth no anime Pokémon.",
+        "variantes": [
+          "Musashi",
+          "Jessica"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Rosto claro, com lua crescente na testa e marcas na face, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "usar_silhueta": false,
+      "pergunta": "Quem é o meio-irmão mais novo deste personagem?",
+      "resposta": "Inuyasha",
+      "distratores": [
+        "Miroku",
+        "Kouga",
+        "Naraku"
+      ],
+      "ancora": {
+        "nome": "Sesshomaru",
+        "descricao": "Poderoso youkai cão, meio-irmão mais velho de Inuyasha, na série Inuyasha.",
+        "variantes": [
+          "Sesshōmaru"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Quadro colorido de mangá com Dio (Phantom Blood) em destaque. O texto é só efeito sonoro em japonês e não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "usar_silhueta": false,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Dio Brando",
+      "distratores": [],
+      "ancora": {
+        "nome": "Dio Brando",
+        "descricao": "Vilão principal de JoJo's Bizarre Adventure, vampiro e depois usuário do Stand The World.",
+        "variantes": [
+          "DIO",
+          "Dio"
+        ]
+      }
+    }
+  ]
+}
