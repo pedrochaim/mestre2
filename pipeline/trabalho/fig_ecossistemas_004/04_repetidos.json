@@ -1,0 +1,75 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de nuvem é esta?",
+        "resposta": "Lenticular"
+      },
+      "existentes": [
+        {
+          "id": "q14224",
+          "pergunta": "Que tipo de nuvem é esta?",
+          "resposta": "Nuvem lenticular"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que animal marinho é este?",
+        "resposta": "Raia-manta"
+      },
+      "existentes": [
+        {
+          "id": "q04117",
+          "pergunta": "Que raia gigante é esta?",
+          "resposta": "Raia-manta"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que estado americano fica este cânion, escavado pelo rio que corre no fundo?",
+        "resposta": "Arizona"
+      },
+      "existentes": [
+        {
+          "id": "q02076",
+          "pergunta": "Ao longo de milhões de anos, que rio escavou o Grand Canyon, no Arizona?",
+          "resposta": "Rio Colorado"
+        },
+        {
+          "id": "q06710",
+          "pergunta": "Em 1908, que presidente americano, caçador e conservacionista, protegeu o Grand Canyon ao declará-lo monumento nacional?",
+          "resposta": "Theodore Roosevelt"
+        },
+        {
+          "id": "q14028",
+          "pergunta": "Que cânion americano, escavado por um rio, é este?",
+          "resposta": "Grand Canyon"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificação de imagem com a mesma resposta (nuvem lenticular).",
+      "id_existente": "q14224"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar a raia-manta pela imagem; mesma resposta.",
+      "id_existente": "q04117"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pergunta o estado onde fica o cânion (Arizona); as existentes perguntam rio, presidente e nome do cânion. Saber o estado não decorre de nenhuma delas, pois q02076 apenas cita o Arizona no enunciado."
+    }
+  ]
+}

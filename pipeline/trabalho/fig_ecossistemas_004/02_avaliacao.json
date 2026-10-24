@@ -1,0 +1,236 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma parede de gelo junto ao mar, que pode ser iceberg, plataforma de gelo ou frente de geleira. A resposta não é única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Falésias sobre uma água azul sem nenhum traço distintivo. Não dá para reconhecer o Baikal e a paisagem se confunde com outros lagos e costas."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "A nuvem em forma de disco empilhado é bem característica.",
+      "tipo": "multipla",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que tipo de nuvem é esta, que fica parada sobre a montanha?",
+      "resposta": "Lenticular",
+      "distratores": [
+        "Cumulonimbus",
+        "Cirrus",
+        "Mammatus"
+      ],
+      "ancora": {
+        "nome": "Nuvem lenticular",
+        "descricao": "Nuvem estacionária em forma de lente ou disco, que se forma junto a montanhas e na direção do vento.",
+        "variantes": [
+          "Nuvem lentiforme",
+          "Lenticular cloud"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida de uma raia-manta vista de baixo, com as nadadeiras cefálicas visíveis.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Que animal marinho é este?",
+      "resposta": "Raia-manta",
+      "distratores": [
+        "Raia-pintada",
+        "Tubarão-baleia",
+        "Raia-lixa"
+      ],
+      "ancora": {
+        "nome": "Raia-manta",
+        "descricao": "Grande raia de corpo achatado e nadadeiras cefálicas em forma de chifre, que se alimenta filtrando plâncton.",
+        "variantes": [
+          "Manta",
+          "Jamanta",
+          "Manta birostris"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Os caules segmentados e verticais com estróbilos são típicos da cavalinha.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 2,
+      "pergunta": "Que planta é esta?",
+      "resposta": "Cavalinha",
+      "distratores": [
+        "Bambu",
+        "Papiro",
+        "Samambaia"
+      ],
+      "ancora": {
+        "nome": "Cavalinha",
+        "descricao": "Planta do gênero Equisetum, de caules verdes articulados, que se reproduz por esporos.",
+        "variantes": [
+          "Equisetum",
+          "Rabo-de-cavalo",
+          "Horsetail"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Samambaia arborescente com tronco e copa de frondes, reconhecível como samambaia.",
+      "tipo": "multipla",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 2,
+      "pergunta": "Que tipo de planta é esta, que forma um tronco no meio da mata?",
+      "resposta": "Samambaia",
+      "distratores": [
+        "Palmeira",
+        "Cicadácea",
+        "Bromélia"
+      ],
+      "ancora": {
+        "nome": "Xaxim",
+        "descricao": "Samambaia arborescente nativa das Américas, Dicksonia sellowiana, de tronco escuro e fibroso.",
+        "variantes": [
+          "Samambaiaçu",
+          "Dicksonia sellowiana"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Lago com montanhas ao fundo e névoa, sem traço distintivo. Poderia ser qualquer lago grande de deserto, e o Mar Morto não é reconhecível."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida de dois pinguins-rei com as manchas laranja típicas.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que espécie de pinguim é esta?",
+      "resposta": "Pinguim-rei",
+      "distratores": [
+        "Pinguim-imperador",
+        "Pinguim-de-magalhães",
+        "Pinguim-papua"
+      ],
+      "ancora": {
+        "nome": "Pinguim-rei",
+        "descricao": "Segunda maior espécie de pinguim, Aptenodytes patagonicus, de manchas laranja na cabeça e no peito.",
+        "variantes": [
+          "Aptenodytes patagonicus",
+          "King penguin"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Medusa grande e nítida, com a umbrela lobada e o centro alaranjado.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Que medusa é esta?",
+      "resposta": "Juba-de-leão",
+      "distratores": [
+        "Água-viva-comum",
+        "Medusa-ovo-frito",
+        "Vespa-do-mar"
+      ],
+      "ancora": {
+        "nome": "Medusa juba-de-leão",
+        "descricao": "Grande medusa de águas frias, Cyanea capillata, com tentáculos longos como uma juba.",
+        "variantes": [
+          "Cyanea capillata",
+          "Lion's mane jellyfish",
+          "Água-viva juba-de-leão"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Folhas grandes e recortadas com furos, muito características.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 2,
+      "pergunta": "Que planta de folhas grandes e recortadas é esta?",
+      "resposta": "Costela-de-adão",
+      "distratores": [],
+      "ancora": {
+        "nome": "Costela-de-adão",
+        "descricao": "Planta trepadeira tropical, Monstera deliciosa, de folhas grandes com cortes e furos, muito usada como planta de vaso.",
+        "variantes": [
+          "Monstera",
+          "Monstera deliciosa",
+          "Swiss cheese plant"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Campo de folhas longas e estreitas submersas, bem característico de pradaria marinha.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que ambiente submarino é este?",
+      "resposta": "Pradaria marinha",
+      "distratores": [
+        "Floresta de kelp",
+        "Recife de coral",
+        "Manguezal"
+      ],
+      "ancora": {
+        "nome": "Pradaria marinha",
+        "descricao": "Ecossistema costeiro submerso dominado por ervas marinhas, plantas com flores adaptadas ao mar.",
+        "variantes": [
+          "Campo de ervas marinhas",
+          "Seagrass meadow",
+          "Prado de fanerógamas marinhas"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista clássica do Grand Canyon, com o rio escavando camadas de rocha.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Em que estado americano fica este cânion, escavado pelo rio que corre no fundo?",
+      "resposta": "Arizona",
+      "distratores": [
+        "Utah",
+        "Nevada",
+        "Novo México"
+      ],
+      "ancora": {
+        "nome": "Grand Canyon",
+        "descricao": "Cânion de paredes íngremes escavado pelo rio Colorado, no Arizona, Estados Unidos.",
+        "variantes": [
+          "Grande Cânion",
+          "Grand Canyon do Colorado"
+        ]
+      }
+    }
+  ]
+}
