@@ -1,0 +1,375 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pandeiro",
+        "descricao": "Instrumento de percussão brasileiro, tambor de mão de aro com platinelas metálicas, usado no samba e no choro.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "pandeiro",
+          "nome": "Pandeiro",
+          "descricao": "Instrumento de percussão de mão, com pele esticada em aro e platinelas, usado no samba, no choro e na capoeira.",
+          "variantes": []
+        },
+        {
+          "id": "ovelha",
+          "nome": "Ovelha",
+          "descricao": "Ruminante doméstico da espécie Ovis aries, criado por lã, carne e leite.",
+          "variantes": [
+            "Ovis aries",
+            "Carneiro",
+            "Ovino"
+          ]
+        },
+        {
+          "id": "paineira",
+          "nome": "Paineira",
+          "descricao": "Árvore decídua sul-americana Ceiba speciosa, de flores rosadas e tronco bojudo com espinhos.",
+          "variantes": [
+            "Ceiba speciosa",
+            "Barriguda",
+            "Paina-rosa",
+            "Árvore-de-paina"
+          ]
+        },
+        {
+          "id": "panair_do_brasil",
+          "nome": "Panair do Brasil",
+          "descricao": "Companhia aérea brasileira que operou de 1929 até ser fechada pelo governo militar em 1965.",
+          "variantes": [
+            "Panair"
+          ]
+        },
+        {
+          "id": "papiro",
+          "nome": "Papiro",
+          "descricao": "Material de escrita feito pelos antigos egípcios com o caule da planta Cyperus papyrus, que crescia nas margens do Nilo",
+          "variantes": [
+            "Papyrus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Didgeridoo",
+        "descricao": "Instrumento de sopro de tubo longo de madeira, dos povos aborígenes do norte da Austrália, que produz um zumbido contínuo.",
+        "variantes": [
+          "Didjeridu",
+          "Yidaki"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "didjeridu",
+          "nome": "Didjeridu",
+          "descricao": "Instrumento de sopro em tubo longo, desenvolvido por povos aborígenes do norte da Austrália.",
+          "variantes": [
+            "Didgeridoo",
+            "Yidaki"
+          ]
+        },
+        {
+          "id": "denis_diderot",
+          "nome": "Denis Diderot",
+          "descricao": "Filósofo, crítico de arte e escritor francês do Iluminismo, co-fundador e editor da Enciclopédia.",
+          "variantes": [
+            "Diderot"
+          ]
+        },
+        {
+          "id": "itaca",
+          "nome": "Ítaca",
+          "descricao": "Ilha grega do mar Jônico, apresentada na Odisseia como o reino de Ulisses.",
+          "variantes": [
+            "Ithaca",
+            "Ithaki"
+          ]
+        },
+        {
+          "id": "gerrideo",
+          "nome": "Gerrídeo",
+          "descricao": "Percevejos aquáticos da família Gerridae, de pernas longas e finas, que andam sobre a superfície da água.",
+          "variantes": [
+            "Gerridae",
+            "Alfaiate",
+            "Patinador"
+          ]
+        },
+        {
+          "id": "darwinius_ida",
+          "nome": "Darwinius (Ida)",
+          "descricao": "Fóssil quase completo de um primata adapiforme do Eocénio médio, Darwinius masillae, achado no sítio de Messel.",
+          "variantes": [
+            "Ida",
+            "Darwinius masillae"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Espadas (naipe)",
+        "descricao": "Naipe preto do baralho francês, com símbolo em forma de coração invertido com haste.",
+        "variantes": [
+          "Pique",
+          "Espada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nelson_piquet",
+          "nome": "Nelson Piquet",
+          "descricao": "Piloto brasileiro tricampeão mundial de Fórmula 1, em 1981, 1983 e 1987.",
+          "variantes": [
+            "Nelson Piquet Souto Maior",
+            "Nelson Souto Maior",
+            "Piquet"
+          ]
+        },
+        {
+          "id": "psique",
+          "nome": "Psiquê",
+          "descricao": "Jovem mortal da mitologia greco-romana que se casou com Eros, o deus do amor.",
+          "variantes": [
+            "Psyche"
+          ]
+        },
+        {
+          "id": "empada",
+          "nome": "Empada",
+          "descricao": "Salgado de massa podre assada em forminha, com recheio, popular no Brasil e em Portugal.",
+          "variantes": [
+            "Empadinha"
+          ]
+        },
+        {
+          "id": "pequi",
+          "nome": "Pequi",
+          "descricao": "Fruto do cerrado de polpa amarela e aroma forte, típico da culinária de Goiás",
+          "variantes": [
+            "Caryocar brasiliense",
+            "Piqui"
+          ]
+        },
+        {
+          "id": "pequi_2",
+          "nome": "Pequi",
+          "descricao": "Árvore do Cerrado Caryocar brasiliense, de flores com muitos estames e fruto comestível.",
+          "variantes": [
+            "Caryocar brasiliense",
+            "Piqui"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Reco-reco",
+        "descricao": "Instrumento de percussão de raspagem; nesta imagem, o modelo de aço com molas, de origem brasileira.",
+        "variantes": [
+          "Raspador",
+          "Caracaxá",
+          "Querequexé"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "reco_reco",
+          "nome": "Reco-reco",
+          "descricao": "Instrumento de percussão raspado, de origem africana, usado na música brasileira, aqui no modelo de molas metálicas.",
+          "variantes": [
+            "Raspador",
+            "Caracaxá",
+            "Querequexé"
+          ]
+        },
+        {
+          "id": "carcara",
+          "nome": "Carcará",
+          "descricao": "Falconídeo (Caracara plancus) de topete preto, rosto alaranjado e pernas amarelas, comum em campos abertos da América do Sul.",
+          "variantes": [
+            "Caracará",
+            "Crested caracara",
+            "Caracara plancus"
+          ]
+        },
+        {
+          "id": "caracal",
+          "nome": "Caracal",
+          "descricao": "Felino selvagem de pelagem castanho-avermelhada e longas orelhas com tufos pretos (Caracal caracal).",
+          "variantes": [
+            "Caracal caracal",
+            "Lince-do-deserto"
+          ]
+        },
+        {
+          "id": "ralador",
+          "nome": "Ralador",
+          "descricao": "Utensílio de cozinha com lâmina perfurada usado para ralar alimentos.",
+          "variantes": []
+        },
+        {
+          "id": "grampeador",
+          "nome": "Grampeador",
+          "descricao": "Dispositivo mecânico que une folhas de papel cravando um grampo metálico e dobrando suas pontas.",
+          "variantes": [
+            "Agrafador",
+            "Stapler"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Crokinole",
+        "descricao": "Jogo de destreza em tabuleiro circular de madeira com furo central, em que se lançam discos com o dedo.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "crinolina",
+          "nome": "Crinolina",
+          "descricao": "Armação rígida de aros usada sob as saias para deixá-las amplas e rodadas",
+          "variantes": [
+            "Crinoline",
+            "Saia-balão"
+          ]
+        },
+        {
+          "id": "cookie_com_gotas_de_chocolate",
+          "nome": "Cookie com gotas de chocolate",
+          "descricao": "Biscoito americano com pedaços de chocolate, criado nos anos 1930 no restaurante Toll House, em Massachusetts.",
+          "variantes": [
+            "Chocolate chip cookie",
+            "Toll House cookie",
+            "Cookie"
+          ]
+        },
+        {
+          "id": "croke_park",
+          "nome": "Croke Park",
+          "descricao": "Estádio de esportes gaélicos em Dublin, na Irlanda, sede da Associação Atlética Gaélica.",
+          "variantes": [
+            "Croker",
+            "Páirc an Chrócaigh"
+          ]
+        },
+        {
+          "id": "codenames",
+          "nome": "Codenames",
+          "descricao": "Jogo de tabuleiro de palavras de 2015 em que dois times de espiões dão pistas para encontrar seus agentes.",
+          "variantes": [
+            "Codinomes"
+          ]
+        },
+        {
+          "id": "coiote",
+          "nome": "Coiote",
+          "descricao": "Canídeo da América do Norte (Canis latrans), menor que o lobo-cinzento.",
+          "variantes": [
+            "Canis latrans"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Rainha (xadrez)",
+        "descricao": "Peça mais poderosa do xadrez, que se move em linha reta ou na diagonal por quantas casas quiser.",
+        "variantes": [
+          "Dama"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dama_xadrez",
+          "nome": "Dama (xadrez)",
+          "descricao": "Peça mais poderosa do xadrez, que se move em linha reta e na diagonal por quantas casas quiser, também chamada rainha.",
+          "variantes": [
+            "Rainha (xadrez)",
+            "Queen",
+            "Rainha"
+          ]
+        },
+        {
+          "id": "damao",
+          "nome": "Damão",
+          "descricao": "Pequeno mamífero herbívoro da África e do Oriente Médio, ordem Hyracoidea.",
+          "variantes": [
+            "Hírax",
+            "Hyrax"
+          ]
+        },
+        {
+          "id": "daruma",
+          "nome": "Daruma",
+          "descricao": "Boneco japonês redondo e sem braços, usado como amuleto para fazer pedidos.",
+          "variantes": [
+            "Boneco Daruma",
+            "Daruma doll"
+          ]
+        },
+        {
+          "id": "torre_do_silencio",
+          "nome": "Torre do Silêncio",
+          "descricao": "Estrutura circular elevada usada pelos zoroastristas para expor os mortos às aves de rapina.",
+          "variantes": [
+            "Dakhma",
+            "Tower of Silence"
+          ]
+        },
+        {
+          "id": "drampa",
+          "nome": "Drampa",
+          "descricao": "Pokémon dos tipos Normal e Dragão, número 780 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "pandeiro",
+      "motivo": "Mesmo instrumento, pandeiro, descrições equivalentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "didjeridu",
+      "motivo": "Didgeridoo e Didjeridu são o mesmo instrumento aborígene."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Naipe de espadas não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "reco_reco",
+      "motivo": "Mesmo instrumento, reco-reco de molas, mesmas variantes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Crokinole é um jogo distinto; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "dama_xadrez",
+      "motivo": "Rainha e dama são a mesma peça do xadrez."
+    }
+  ]
+}

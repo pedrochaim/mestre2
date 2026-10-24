@@ -1,0 +1,91 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento de percussão brasileiro é este?",
+        "resposta": "Pandeiro"
+      },
+      "existentes": [
+        {
+          "id": "q02635",
+          "pergunta": "Que instrumento de percussão brasileiro, tocado com a mão, é este?",
+          "resposta": "Pandeiro"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Este instrumento de sopro é tradicional de qual povo?",
+        "resposta": "Aborígenes australianos"
+      },
+      "existentes": [
+        {
+          "id": "q14227",
+          "pergunta": "Este instrumento de sopro foi desenvolvido por povos originários de que país?",
+          "resposta": "Austrália"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que instrumento de percussão é este?",
+        "resposta": "Reco-reco"
+      },
+      "existentes": [
+        {
+          "id": "q04698",
+          "pergunta": "Que instrumento de percussão, usado no samba, é este?",
+          "resposta": "Reco-reco"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Na reforma do xadrez europeu, esta peça ganhou seu movimento atual. Em que século isso aconteceu?",
+        "resposta": "Século quinze"
+      },
+      "existentes": [
+        {
+          "id": "q06423",
+          "pergunta": "A dama do xadrez já foi uma peça fraca, que andava uma só casa na diagonal. Em que século ela ganhou os poderes de hoje?",
+          "resposta": "Século quinze"
+        },
+        {
+          "id": "q08394",
+          "pergunta": "No xadrez, vale a regra dama na cor: a dama branca começa numa casa clara. Em que cor de casa começa a dama preta?",
+          "resposta": "Escura"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesmo instrumento (pandeiro) identificado por imagem; mesma resposta.",
+      "id_existente": "q02635"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a origem do instrumento de sopro (didgeridoo): aborígenes australianos/Austrália; saber um leva ao outro.",
+      "id_existente": "q14227"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo instrumento (reco-reco) identificado por imagem; mesma resposta.",
+      "id_existente": "q04698"
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o século em que a dama ganhou o movimento atual (século quinze).",
+      "id_existente": "q06423"
+    }
+  ]
+}

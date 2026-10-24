@@ -12,7 +12,7 @@
       "titulo": "en:Pandeiro",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Berimbau",
@@ -222,7 +222,7 @@
       "titulo": "en:Didgeridoo",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Virtual Boy",
@@ -362,7 +362,7 @@
       "titulo": "en:Queen (chess)",
       "camada": 1,
       "destino": 2,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Roleta",
@@ -397,7 +397,7 @@
       "titulo": "en:Western concert flute",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Contrabaixo acústico",
@@ -418,7 +418,7 @@
       "titulo": "pt:Reco-reco",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Castanholas",
@@ -544,7 +544,7 @@
       "titulo": "en:Game & Watch",
       "camada": 3,
       "destino": 3,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Trilha (moinho)",
@@ -559,6 +559,286 @@
       "camada": 3,
       "destino": 2,
       "status": "usada"
+    },
+    {
+      "nome": "Teclado eletrônico",
+      "titulo": "en:Electronic keyboard",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Baixo elétrico",
+      "titulo": "en:Bass guitar",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Prato (bateria)",
+      "titulo": "en:Cymbal",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Flauta de pã",
+      "titulo": "en:Pan flute",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Gongo",
+      "titulo": "en:Gong",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fliperama",
+      "titulo": "en:Arcade cabinet",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Nintendo DS",
+      "titulo": "en:Nintendo DS",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "PlayStation 3",
+      "titulo": "en:PlayStation 3",
+      "camada": 1,
+      "destino": 3,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Nintendo Switch",
+      "titulo": "en:Nintendo Switch",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Game Boy Advance",
+      "titulo": "en:Game Boy Advance",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Controle DualShock",
+      "titulo": "en:DualShock",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Wii Remote",
+      "titulo": "en:Wii Remote",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Espadas (naipe)",
+      "titulo": "en:Spades (suit)",
+      "camada": 1,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Game Boy Color",
+      "titulo": "en:Game Boy Color",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "GameCube",
+      "titulo": "en:GameCube",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Xbox 360",
+      "titulo": "en:Xbox 360",
+      "camada": 2,
+      "destino": 3,
+      "status": "reprovada"
+    },
+    {
+      "nome": "PlayStation Portable (PSP)",
+      "titulo": "en:PlayStation Portable",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Pistola Zapper",
+      "titulo": "en:NES Zapper",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Damas chinesas",
+      "titulo": "en:Chinese checkers",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Relógio de xadrez",
+      "titulo": "en:Chess clock",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Twister",
+      "titulo": "en:Twister (game)",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Órgão de tubos",
+      "titulo": "en:Pipe organ",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Marimba",
+      "titulo": "en:Marimba",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cravo",
+      "titulo": "en:Harpsichord",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Djembê",
+      "titulo": "en:Djembe",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Steelpan",
+      "titulo": "en:Steelpan",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Fender Stratocaster",
+      "titulo": "en:Fender Stratocaster",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Atari Lynx",
+      "titulo": "en:Atari Lynx",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "TurboGrafx-16",
+      "titulo": "en:TurboGrafx-16",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Commodore 64",
+      "titulo": "en:Commodore 64",
+      "camada": 3,
+      "destino": 3,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Intellivision",
+      "titulo": "en:Intellivision",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "R.O.B. (robô da Nintendo)",
+      "titulo": "en:R.O.B.",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Hnefatafl",
+      "titulo": "en:Hnefatafl",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Crokinole",
+      "titulo": "en:Crokinole",
+      "camada": 3,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Bandoneón",
+      "titulo": "en:Bandoneon",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tabla",
+      "titulo": "en:Tabla",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Charango",
+      "titulo": "en:Charango",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Roland TR-808",
+      "titulo": "en:Roland TR-808",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Guitarra baiana",
+      "titulo": "pt:Guitarra baiana",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caxixi",
+      "titulo": "pt:Caxixi",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }

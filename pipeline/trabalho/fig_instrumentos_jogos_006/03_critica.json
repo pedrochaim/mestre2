@@ -1,0 +1,49 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pandeiro de aro com platinelas, brasileiro; 'brasileiro' não entrega a resposta. Distratores do mesmo tipo, curtos e incorretos para a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Didgeridoo é dos aborígenes do norte da Austrália, confirmado nos trechos. O enunciado não nomeia o instrumento e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Naipe de espadas, nome usado em português. Enunciado sem vazamento e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reco-reco de aço é de origem brasileira e raspado. O enunciado não dá pista, e os distratores são percussões plausíveis que a imagem exclui.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Crokinole é um jogo de destreza em que se dá piparotes em discos. O enunciado não o nomeia. Carrom é um distrator visualmente próximo, mas o tabuleiro circular com furo central o exclui.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'combina os movimentos de duas outras peças' descreve a rainha e dá para responder sem a figura. Troquei por um fato histórico, apoiado nos trechos, que só se responde depois de reconhecer a peça.",
+      "reescrita": {
+        "pergunta": "Na reforma do xadrez europeu, esta peça ganhou seu movimento atual. Em que século isso aconteceu?",
+        "resposta": "Século quinze"
+      }
+    }
+  ]
+}

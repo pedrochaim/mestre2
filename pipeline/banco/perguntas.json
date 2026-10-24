@@ -293160,5 +293160,49 @@
       "autor": "Iztok Bončina/ESO",
       "licenca": "CC BY 4.0"
     }
+  },
+  {
+    "id": "q15448",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "espadas_naipe",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que naipe do baralho é este?",
+    "resposta": "Espadas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spades_%28suit%29",
+      "https://pt.wikipedia.org/wiki/Espadas"
+    ],
+    "imagem": {
+      "arquivo": "q15448.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Spades.svg",
+      "autor": "Dexxor",
+      "licenca": "GFDL"
+    }
+  },
+  {
+    "id": "q15449",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "crokinole",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que jogo de tabuleiro, em que se lançam discos com o dedo, é este?",
+    "resposta": "Crokinole",
+    "distratores": [
+      "Carrom",
+      "Bagatela",
+      "Hóquei de mesa"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crokinole"
+    ],
+    "imagem": {
+      "arquivo": "q15449.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Crokinole_01.jpg",
+      "autor": "Alessio Sbarbaro User_talk:Yoggysot",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

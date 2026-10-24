@@ -1,0 +1,157 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pandeiro com platinelas bem visível, sem texto; só as mãos aparecem, sem rosto. Por poder lembrar outros tamborins, melhor múltipla.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de percussão brasileiro é este?",
+      "resposta": "Pandeiro",
+      "distratores": [
+        "Tamborim",
+        "Adufe",
+        "Bodhrán"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pandeiro",
+        "descricao": "Instrumento de percussão brasileiro, tambor de mão de aro com platinelas metálicas, usado no samba e no choro.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Homem comum em primeiro plano, cartazes de 'Sale' ao fundo e instrumento só visto de lado, sem a superfície côncava característica."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Didgeridoo isolado na grama, sem texto e reconhecível. A pergunta de nível 3 pede a origem cultural.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este instrumento de sopro é tradicional de qual povo?",
+      "resposta": "Aborígenes australianos",
+      "destino": 1,
+      "ancora": {
+        "nome": "Didgeridoo",
+        "descricao": "Instrumento de sopro de tubo longo de madeira, dos povos aborígenes do norte da Austrália, que produz um zumbido contínuo.",
+        "variantes": [
+          "Didjeridu",
+          "Yidaki"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Símbolo de espadas, preto, sem texto, inequívoco. Nível 1 direto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que naipe do baralho é este?",
+      "resposta": "Espadas",
+      "destino": 2,
+      "ancora": {
+        "nome": "Espadas (naipe)",
+        "descricao": "Naipe preto do baralho francês, com símbolo em forma de coração invertido com haste.",
+        "variantes": [
+          "Pique",
+          "Espada"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Reco-reco de molas de aço, fundo verde liso, sem texto. Múltipla com instrumentos de percussão brasileiros parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de percussão é este?",
+      "resposta": "Reco-reco",
+      "distratores": [
+        "Ganzá",
+        "Agogô",
+        "Afuché"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Reco-reco",
+        "descricao": "Instrumento de percussão de raspagem; nesta imagem, o modelo de aço com molas, de origem brasileira.",
+        "variantes": [
+          "Raspador",
+          "Caracaxá",
+          "Querequexé"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Tabuleiro de crokinole nítido; os textos ao fundo são ilegíveis e não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que jogo de tabuleiro, em que se lançam discos com o dedo, é este?",
+      "resposta": "Crokinole",
+      "distratores": [
+        "Carrom",
+        "Bagatela",
+        "Hóquei de mesa"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Crokinole",
+        "descricao": "Jogo de destreza em tabuleiro circular de madeira com furo central, em que se lançam discos com o dedo.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Rainha branca de xadrez, em foco, sem texto; a coroa a distingue do rei. Nível 3 sobre seus movimentos.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta peça de xadrez combina os movimentos de quais outras duas peças?",
+      "resposta": "Torre e bispo",
+      "destino": 2,
+      "ancora": {
+        "nome": "Rainha (xadrez)",
+        "descricao": "Peça mais poderosa do xadrez, que se move em linha reta ou na diagonal por quantas casas quiser.",
+        "variantes": [
+          "Dama"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Não dá para distinguir com segurança entre flauta transversal e flautim; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O logotipo 'commodore 64' aparece na carcaça e entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "'PLAYSTATION 3' e 'PS3' estão escritos nos consoles e entregam a resposta; a imagem também mostra dois modelos."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "'XBOX 360' está escrito em vários pontos dos consoles e entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O texto 'GAME & WATCH' e 'BALL' está visível no aparelho e entrega a resposta."
+    }
+  ]
+}
