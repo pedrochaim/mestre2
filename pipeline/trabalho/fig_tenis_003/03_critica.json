@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta, resposta única e confirmada nos trechos; distratores nórdicos críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento; o enunciado só dá a nacionalidade, que não entrega o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de lugar sem vazamento; Dinamarca confirmada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'tenista asiático vice-campeão do US Open' identifica Nishikori sem olhar a figura (primeiro asiático em final de Grand Slam). Tirar a pista e deixar só a nacionalidade.",
+      "reescrita": {
+        "pergunta": "Quem é este tenista japonês?",
+        "resposta": "Kei Nishikori",
+        "distratores": [
+          "Yoshihito Nishioka",
+          "Taro Daniel",
+          "Hyeon Chung"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples, nacionalidade confirmada, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nacionalidade francesa confirmada; distratores adequados e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bielorrússia confirmada nos trechos; distratores regionais críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento com nacionalidade americana confirmada, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Frank Sedgman, australiano, venceu Wimbledon em 1952, então também é resposta correta como distrator. Troquei os distratores por australianos que não foram campeões de Wimbledon nos anos 1950. Rosewall foi apenas finalista, Fraser ganhou em 1960 e Rose nunca ganhou.",
+      "reescrita": {
+        "pergunta": "Quem é este tenista australiano, campeão de Wimbledon na década de 1950?",
+        "resposta": "Lew Hoad",
+        "distratores": [
+          "Ken Rosewall",
+          "Neale Fraser",
+          "Mervyn Rose"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de Casper Ruud sozinho; só patrocinadores visíveis, nada que entregue o nome ou o país.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é este tenista?",
+      "resposta": "Noruega",
+      "distratores": [
+        "Dinamarca",
+        "Suécia",
+        "Finlândia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Casper Ruud",
+        "descricao": "Tenista profissional norueguês, número 2 do mundo e finalista de Roland Garros em 2022 e 2023.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Angelique Kerber, sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esta tenista alemã?",
+      "resposta": "Angelique Kerber",
+      "destino": 0,
+      "ancora": {
+        "nome": "Angelique Kerber",
+        "descricao": "Ex-tenista alemã, número 1 do mundo e campeã de três Grand Slams.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida de Holger Rune sozinho; sem texto que entregue a resposta.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é este tenista?",
+      "resposta": "Dinamarca",
+      "destino": 0,
+      "ancora": {
+        "nome": "Holger Rune",
+        "descricao": "Tenista profissional dinamarquês, campeão do Masters de Paris em 2022.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida de Kei Nishikori; patrocinadores não entregam o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este tenista asiático, vice-campeão do Aberto dos Estados Unidos?",
+      "resposta": "Kei Nishikori",
+      "distratores": [
+        "Yoshihito Nishioka",
+        "Taro Daniel",
+        "Hyeon Chung"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Kei Nishikori",
+        "descricao": "Ex-tenista japonês, vice-campeão do US Open de 2014 e bronze nos Jogos do Rio.",
+        "variantes": [
+          "Nishikori Kei"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto de baixa resolução, com toalha e bolsa cobrindo o corpo e camiseta com texto; o tenista não é reconhecível com segurança."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida de Teliana Pereira sacando; só logos de patrocinadores.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esta tenista brasileira?",
+      "resposta": "Teliana Pereira",
+      "destino": 0,
+      "ancora": {
+        "nome": "Teliana Pereira",
+        "descricao": "Ex-tenista brasileira de Santana do Ipanema, 43ª do mundo em 2015.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de Tsonga em quadra de grama; sem texto que entregue a resposta.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é este tenista?",
+      "resposta": "França",
+      "distratores": [
+        "Bélgica",
+        "Suíça",
+        "Canadá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jo-Wilfried Tsonga",
+        "descricao": "Ex-tenista francês, finalista do Australian Open de 2008.",
+        "variantes": [
+          "Tsonga"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A imagem mostra duas raquetes diferentes (de tênis e de beach tennis), com marcas escritas; o assunto é ambíguo."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto com cartaz de texto ao fundo e outras pessoas comuns; o tenista não é reconhecível pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Aryna Sabalenka com o troféu em foto nítida; sem texto que entregue a resposta.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta tenista?",
+      "resposta": "Bielorrússia",
+      "distratores": [
+        "Rússia",
+        "Ucrânia",
+        "Cazaquistão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Aryna Sabalenka",
+        "descricao": "Tenista bielorrussa, número 1 do mundo e campeã de quatro Grand Slams.",
+        "variantes": [
+          "Arina Sabalenka"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida de Taylor Fritz em saibro; sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este tenista americano?",
+      "resposta": "Taylor Fritz",
+      "destino": 0,
+      "ancora": {
+        "nome": "Taylor Fritz",
+        "descricao": "Tenista profissional americano, campeão de Indian Wells em 2022 e finalista do US Open de 2024.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato antigo colorizado de Lew Hoad, sem texto; múltipla ajuda por ser menos conhecido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este tenista australiano, campeão de Wimbledon na década de 1950?",
+      "resposta": "Lew Hoad",
+      "distratores": [
+        "Ken Rosewall",
+        "Frank Sedgman",
+        "Neale Fraser"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lew Hoad",
+        "descricao": "Tenista australiano dos anos 1950, campeão de quatro torneios de Grand Slam e rival de Ken Rosewall.",
+        "variantes": [
+          "Lewis Alan Hoad"
+        ]
+      }
+    }
+  ]
+}
