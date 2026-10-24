@@ -1,0 +1,207 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Carro de rali saltando em estrada de terra, modalidade reconhecível; sem texto que entregue.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que modalidade do automobilismo é esta, disputada em estradas de terra e asfalto?",
+      "resposta": "Rali",
+      "destino": 0,
+      "ancora": {
+        "nome": "Rali",
+        "descricao": "Modalidade do automobilismo disputada em percursos de estrada, por trechos cronometrados.",
+        "variantes": [
+          "Rally",
+          "Rallye"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem nome visível; só a camisa da Ferrari.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este piloto espanhol?",
+      "resposta": "Carlos Sainz Jr.",
+      "destino": 0,
+      "ancora": {
+        "nome": "Carlos Sainz Jr.",
+        "descricao": "Piloto espanhol de Fórmula 1, filho do bicampeão mundial de rali Carlos Sainz.",
+        "variantes": [
+          "Carlos Sainz Júnior",
+          "Carlos Sainz"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem nome legível; em múltipla escolha fica justa por ser menos conhecido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este piloto brasileiro, campeão mundial de protótipos em 1987?",
+      "resposta": "Raul Boesel",
+      "distratores": [
+        "Maurício Gugelmin",
+        "Chico Serra",
+        "Christian Fittipaldi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Raul Boesel",
+        "descricao": "Ex-piloto brasileiro de Fórmula 1, Champ Car e protótipos, campeão mundial de esporte-protótipos em 1987.",
+        "variantes": [
+          "Raul de Mesquita Boesel"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Dois dragsters largando em reta, claramente reconhecíveis; textos são só patrocinadores.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que modalidade do automobilismo é esta, em que dois carros disputam uma reta curta?",
+      "resposta": "Corrida de arrancada",
+      "destino": 0,
+      "ancora": {
+        "nome": "Corrida de arrancada",
+        "descricao": "Modalidade em que dois veículos competem numa reta curta, a partir da parada, em geral por um quarto de milha.",
+        "variantes": [
+          "Drag racing",
+          "Arrancada",
+          "Drag race"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; apenas patrocinadores na jaqueta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este piloto britânico de Fórmula 1?",
+      "resposta": "George Russell",
+      "distratores": [
+        "Lando Norris",
+        "Lewis Hamilton",
+        "Oliver Bearman"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "George Russell",
+        "descricao": "Piloto britânico de Fórmula 1 da Mercedes, ex-Williams.",
+        "variantes": [
+          "George William Russell"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O nome 'Clay Regaz...' está bordado na jaqueta e entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O carro traz 'DRIFTWORKS' escrito várias vezes, o que entrega a resposta (drift)."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Monster truck esmagando um carro, inconfundível; o texto 'El Toro' não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de veículo de espetáculo é este, de pneus gigantes?",
+      "resposta": "Monster truck",
+      "destino": 0,
+      "ancora": {
+        "nome": "Monster truck",
+        "descricao": "Veículo off-road de pneus enormes e suspensão reforçada, usado em shows e competições, como esmagar carros.",
+        "variantes": [
+          "Caminhão monstro",
+          "Monster Truck"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; só patrocinadores e a marca Red Bull visíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este ex-piloto escocês de Fórmula 1?",
+      "resposta": "David Coulthard",
+      "destino": 0,
+      "ancora": {
+        "nome": "David Coulthard",
+        "descricao": "Ex-piloto escocês de Fórmula 1, vice-campeão em 2001 pela McLaren.",
+        "variantes": [
+          "DC",
+          "David Marshall Coulthard"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A placa no chão diz '1955 Mercedes-Benz 300 SLR', entregando a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato de perfil de figura pública, sem texto; reconhecimento mais difícil, por isso múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este ex-piloto britânico de Fórmula 1?",
+      "resposta": "Jenson Button",
+      "distratores": [
+        "Damon Hill",
+        "Mark Webber",
+        "Nick Heidfeld"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jenson Button",
+        "descricao": "Ex-piloto britânico, campeão mundial de Fórmula 1 em 2009 pela Brawn.",
+        "variantes": [
+          "Jenson Alexander Lyons Button"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Carro preto e dourado da John Player Special, bem visível; nenhum texto diz o nome do modelo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que carro de Fórmula 1 da Lotus, do fim dos anos setenta, é este?",
+      "resposta": "Lotus 79",
+      "distratores": [
+        "Lotus 72",
+        "Lotus 49",
+        "Lotus 91"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lotus 79",
+        "descricao": "Carro de Fórmula 1 da Lotus de 1978, o primeiro a explorar plenamente o efeito solo, campeão com Mario Andretti.",
+        "variantes": [
+          "Lotus Type 79"
+        ]
+      }
+    }
+  ]
+}

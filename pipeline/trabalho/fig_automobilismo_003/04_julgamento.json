@@ -1,0 +1,539 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Rali",
+        "descricao": "Modalidade do automobilismo disputada em percursos de estrada, por trechos cronometrados.",
+        "variantes": [
+          "Rally",
+          "Rallye"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rai",
+          "nome": "Raí",
+          "descricao": "Raí Souza Vieira de Oliveira, meia brasileiro ídolo do São Paulo e do Paris Saint-Germain, campeão mundial em 1994.",
+          "variantes": [
+            "Raí Souza Vieira de Oliveira"
+          ]
+        },
+        {
+          "id": "wally",
+          "nome": "Wally",
+          "descricao": "Menino de Hoenn, rival do jogador em Pokémon Ruby, Sapphire e Emerald, que captura um Ralts com a ajuda do protagonista.",
+          "variantes": [
+            "Mitsuru"
+          ]
+        },
+        {
+          "id": "braille",
+          "nome": "Braille",
+          "descricao": "Sistema de escrita e leitura tátil para pessoas cegas, formado por pontos em relevo.",
+          "variantes": [
+            "Sistema braille",
+            "Braile",
+            "Sistema braile"
+          ]
+        },
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea",
+            "Lago de Aral"
+          ]
+        },
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)",
+            "Raia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Carlos Sainz Jr.",
+        "descricao": "Piloto espanhol de Fórmula 1, filho do bicampeão mundial de rali Carlos Sainz.",
+        "variantes": [
+          "Carlos Sainz Júnior",
+          "Carlos Sainz"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carlos_magno",
+          "nome": "Carlos Magno",
+          "descricao": "Rei dos francos e dos lombardos, coroado imperador do Ocidente pelo papa Leão Terceiro.",
+          "variantes": [
+            "Carlos I",
+            "Charlemagne",
+            "Karl der Große",
+            "Carolus Magnus"
+          ]
+        },
+        {
+          "id": "carl_sagan",
+          "nome": "Carl Sagan",
+          "descricao": "Astrônomo e divulgador científico americano (1934–1996), autor e apresentador da série Cosmos.",
+          "variantes": [
+            "Carl Edward Sagan"
+          ]
+        },
+        {
+          "id": "carlos_v",
+          "nome": "Carlos V",
+          "descricao": "Monarca Habsburgo do século dezesseis, rei da Espanha como Carlos I e imperador do Sacro Império Romano-Germânico.",
+          "variantes": [
+            "Carlos I da Espanha",
+            "Carlos Quinto",
+            "Charles V"
+          ]
+        },
+        {
+          "id": "jose_carlos_pace",
+          "nome": "José Carlos Pace",
+          "descricao": "Piloto brasileiro de Fórmula 1 nos anos setenta, morto num acidente aéreo em 1977, que dá nome ao autódromo de Interlagos.",
+          "variantes": [
+            "Carlos Pace",
+            "Moco"
+          ]
+        },
+        {
+          "id": "charles_darwin",
+          "nome": "Charles Darwin",
+          "descricao": "Naturalista inglês autor da teoria da evolução por seleção natural.",
+          "variantes": [
+            "Charles Robert Darwin",
+            "Darwin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Raul Boesel",
+        "descricao": "Ex-piloto brasileiro de Fórmula 1, Champ Car e protótipos, campeão mundial de esporte-protótipos em 1987.",
+        "variantes": [
+          "Raul de Mesquita Boesel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ossos_oraculares",
+          "nome": "Ossos oraculares",
+          "descricao": "Ossos e cascos de tartaruga usados para adivinhação na China antiga, com os textos mais antigos da escrita chinesa.",
+          "variantes": [
+            "Oracle bones",
+            "Jiaguwen"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_djenne",
+          "nome": "Grande Mesquita de Djenné",
+          "descricao": "Mesquita de barro na cidade de Djenné, no Mali, reconstruída em 1907 e Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Great Mosque of Djenné",
+            "Mesquita de Djenné"
+          ]
+        },
+        {
+          "id": "rudolf_diesel",
+          "nome": "Rudolf Diesel",
+          "descricao": "Engenheiro e inventor alemão (1858–1913), criador do motor a diesel.",
+          "variantes": [
+            "Rudolf Christian Karl Diesel"
+          ]
+        },
+        {
+          "id": "rachel_de_queiroz",
+          "nome": "Rachel de Queiroz",
+          "descricao": "Escritora cearense (1910–2003), autora de O Quinze.",
+          "variantes": [
+            "Raquel de Queirós",
+            "Raquel de Queiroz"
+          ]
+        },
+        {
+          "id": "raul_seixas",
+          "nome": "Raul Seixas",
+          "descricao": "Cantor e compositor baiano, pioneiro do rock brasileiro, chamado de Maluco Beleza.",
+          "variantes": [
+            "Raulzito"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Corrida de arrancada",
+        "descricao": "Modalidade em que dois veículos competem numa reta curta, a partir da parada, em geral por um quarto de milha.",
+        "variantes": [
+          "Drag racing",
+          "Arrancada",
+          "Drag race"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carranca",
+          "nome": "Carranca",
+          "descricao": "Escultura de rosto feroz, metade humano e metade animal, colocada na proa das embarcações do rio São Francisco.",
+          "variantes": [
+            "Carrancas do São Francisco"
+          ]
+        },
+        {
+          "id": "barracuda",
+          "nome": "Barracuda",
+          "descricao": "Peixe predador alongado de mandíbula grande, do gênero Sphyraena, de mares tropicais.",
+          "variantes": [
+            "Sphyraena"
+          ]
+        },
+        {
+          "id": "hoplitodromo",
+          "nome": "Hoplitódromo",
+          "descricao": "Corrida dos Jogos Olímpicos da Antiguidade em que os atletas corriam com equipamento de soldado.",
+          "variantes": [
+            "Hoplitodromos",
+            "Corrida armada"
+          ]
+        },
+        {
+          "id": "danca_do_dragao",
+          "nome": "Dança do dragão",
+          "descricao": "Dança tradicional chinesa em que uma equipe manipula com varas um longo dragão de pano.",
+          "variantes": [
+            "Dragon dance"
+          ]
+        },
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "George Russell",
+        "descricao": "Piloto britânico de Fórmula 1 da Mercedes, ex-Williams.",
+        "variantes": [
+          "George William Russell"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "beau_brummell",
+          "nome": "Beau Brummell",
+          "descricao": "George Bryan Brummell, inglês que ditou a moda masculina de Londres e virou modelo do dândi",
+          "variantes": [
+            "George Bryan Brummell",
+            "George Brummell"
+          ]
+        },
+        {
+          "id": "george_orwell",
+          "nome": "George Orwell",
+          "descricao": "Escritor britânico (1903–1950), autor de 1984 e A Revolução dos Bichos.",
+          "variantes": [
+            "Eric Arthur Blair"
+          ]
+        },
+        {
+          "id": "george_marshall",
+          "nome": "George Marshall",
+          "descricao": "General americano, chefe do Exército na Segunda Guerra Mundial e depois secretário de Estado, que deu nome ao Plano Marshall.",
+          "variantes": [
+            "George C. Marshall",
+            "George Catlett Marshall"
+          ]
+        },
+        {
+          "id": "herge",
+          "nome": "Hergé",
+          "descricao": "Quadrinista belga, criador de Tintim",
+          "variantes": [
+            "Georges Remi"
+          ]
+        },
+        {
+          "id": "bill_russell",
+          "nome": "Bill Russell",
+          "descricao": "Pivô americano do Boston Celtics, onze vezes campeão da NBA entre 1957 e 1969.",
+          "variantes": [
+            "William Felton Russell"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Monster truck",
+        "descricao": "Veículo off-road de pneus enormes e suspensão reforçada, usado em shows e competições, como esmagar carros.",
+        "variantes": [
+          "Caminhão monstro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nobre_caminho_octuplo",
+          "nome": "Nobre Caminho Óctuplo",
+          "descricao": "Ensinamento de Buda sobre o caminho que leva ao fim do sofrimento, a quarta das Quatro Nobres Verdades.",
+          "variantes": [
+            "Caminho Óctuplo",
+            "Noble Eightfold Path"
+          ]
+        },
+        {
+          "id": "caminho_de_santiago",
+          "nome": "Caminho de Santiago",
+          "descricao": "Rede de rotas de peregrinação medievais até o túmulo atribuído ao apóstolo Tiago, em Santiago de Compostela, na Galiza.",
+          "variantes": [
+            "Camino de Santiago",
+            "Caminho de Compostela"
+          ]
+        },
+        {
+          "id": "qhapaq_nan",
+          "nome": "Qhapaq Ñan",
+          "descricao": "Rede de estradas do Império Inca que ligava Cusco a todo o território andino.",
+          "variantes": [
+            "Caminho Inca",
+            "Inca road system",
+            "Capac Ñan",
+            "Estradas incas"
+          ]
+        },
+        {
+          "id": "ana_moser",
+          "nome": "Ana Moser",
+          "descricao": "Ex-jogadora brasileira de vôlei, medalha de bronze olímpica em Atlanta 1996.",
+          "variantes": [
+            "Ana Beatriz Moser"
+          ]
+        },
+        {
+          "id": "monte_elbrus",
+          "nome": "Monte Elbrus",
+          "descricao": "Vulcão adormecido de dois cumes na cordilheira do Cáucaso, no sul da Rússia.",
+          "variantes": [
+            "Elbrus",
+            "Elbrús"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "David Coulthard",
+        "descricao": "Ex-piloto escocês de Fórmula 1, vice-campeão em 2001 pela McLaren.",
+        "variantes": [
+          "DC",
+          "David Marshall Coulthard"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dc_comics",
+          "nome": "DC Comics",
+          "descricao": "Editora americana de quadrinhos, casa do Superman e do Batman",
+          "variantes": [
+            "DC"
+          ]
+        },
+        {
+          "id": "republica_democratica_do_congo",
+          "nome": "República Democrática do Congo",
+          "descricao": "País da África Central, antigo Zaire, cuja capital é Kinshasa.",
+          "variantes": [
+            "RD Congo",
+            "Congo-Kinshasa",
+            "Zaire",
+            "RDC"
+          ]
+        },
+        {
+          "id": "cedilha",
+          "nome": "Cedilha",
+          "descricao": "Sinal gráfico colocado sob a letra c, formando o ç",
+          "variantes": [
+            "Cedilla",
+            "Zedilla",
+            "Ç"
+          ]
+        },
+        {
+          "id": "dado",
+          "nome": "Dado",
+          "descricao": "Pequeno cubo com faces numeradas de um a seis, usado para sortear números em jogos.",
+          "variantes": [
+            "Dice",
+            "Dado de seis faces"
+          ]
+        },
+        {
+          "id": "douglas_dc_3",
+          "nome": "Douglas DC-3",
+          "descricao": "Avião de passageiros bimotor a hélice da Douglas Aircraft Company, em serviço desde a década de 1930.",
+          "variantes": [
+            "DC-3",
+            "Dakota",
+            "C-47"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Jenson Button",
+        "descricao": "Ex-piloto britânico, campeão mundial de Fórmula 1 em 2009 pela Brawn.",
+        "variantes": [
+          "Jenson Alexander Lyons Button"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jemmy_button",
+          "nome": "Jemmy Button",
+          "descricao": "Nativo yaghan levado à Inglaterra pelo capitão Robert FitzRoy e trazido de volta à sua terra na viagem do Beagle com Darwin.",
+          "variantes": [
+            "Orundellico"
+          ]
+        },
+        {
+          "id": "escorbuto",
+          "nome": "Escorbuto",
+          "descricao": "Doença causada pela deficiência de vitamina C, comum entre marinheiros em longas viagens.",
+          "variantes": [
+            "Scurvy"
+          ]
+        },
+        {
+          "id": "jason_todd",
+          "nome": "Jason Todd",
+          "descricao": "Segundo jovem a usar o uniforme de Robin, parceiro do Batman",
+          "variantes": [
+            "Capuz Vermelho",
+            "Red Hood"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Lotus 79",
+        "descricao": "Carro de Fórmula 1 da Lotus de 1978, o primeiro a explorar plenamente o efeito solo, campeão com Mario Andretti.",
+        "variantes": [
+          "Lotus Type 79"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lotus_72",
+          "nome": "Lotus 72",
+          "descricao": "Carro de Fórmula 1 da Lotus, usado de 1970 a 1975, com o qual Emerson Fittipaldi foi campeão mundial em 1972.",
+          "variantes": [
+            "Lotus 72D"
+          ]
+        },
+        {
+          "id": "lotus",
+          "nome": "Lotus",
+          "descricao": "Equipe britânica de Fórmula 1 fundada por Colin Chapman, que competiu de 1958 a 1994.",
+          "variantes": [
+            "Team Lotus"
+          ]
+        },
+        {
+          "id": "lotus_2",
+          "nome": "Lótus",
+          "descricao": "Planta aquática Nelumbo nucifera, da família Nelumbonaceae, de grandes flores rosadas, sagrada no hinduísmo e no budismo.",
+          "variantes": [
+            "Flor-de-lótus",
+            "Lótus-sagrado",
+            "Nelumbo nucifera"
+          ]
+        },
+        {
+          "id": "plotino",
+          "nome": "Plotino",
+          "descricao": "Filósofo grego do século III, nascido no Egito romano, fundador do neoplatonismo.",
+          "variantes": [
+            "Plotinus"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Rali (modalidade) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Piloto Carlos Sainz Jr. não está entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Raul Boesel não está entre as candidatas; Raul Seixas é outra pessoa."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Corrida de arrancada não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "George Russell, piloto, não está entre as candidatas; Bill Russell é outra pessoa."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Monster truck não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "David Coulthard é um piloto; a variante DC não basta para igualar às candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Jenson Button é diferente de Jemmy Button e das demais."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Lotus 79 é um carro específico, distinto do Lotus 72 e da equipe Lotus."
+    }
+  ]
+}
