@@ -1,0 +1,218 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A bola mostra a marca 'molten' e 'Soft Touch'/'FIVB' em destaque; o texto entrega o que seria perguntado e o objeto genérico não rende pergunta com resposta única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Que ex-jogador de basquete da NBA é este?",
+      "resposta": "Vince Carter",
+      "distratores": [
+        "Tracy McGrady",
+        "Allen Iverson",
+        "Chris Bosh"
+      ],
+      "ancora": {
+        "nome": "Vince Carter",
+        "descricao": "Ex-jogador americano de basquete da NBA, conhecido pelas enterradas e por 22 temporadas na liga.",
+        "variantes": [
+          "Vincent Lamar Carter Jr.",
+          "Vinsanity",
+          "Air Canada"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida em jogo; camisa mostra só time e número, sem nome.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que astro do basquete americano é este?",
+      "resposta": "Dwyane Wade",
+      "ancora": {
+        "nome": "Dwyane Wade",
+        "descricao": "Ex-armador americano de basquete, três vezes campeão da NBA pelo Miami Heat.",
+        "variantes": [
+          "D-Wade",
+          "Dwyane Tyrone Wade Jr."
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Jogadora de vôlei de praia pouco conhecida, sem traço que permita reconhecê-la com resposta única; patrocinadores e texto ao fundo, imagem com outra pessoa ao fundo."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública; camisa traz só patrocinadores e número, sem nome.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que jogadora brasileira de vôlei, campeã olímpica, é esta?",
+      "resposta": "Sheilla Castro",
+      "ancora": {
+        "nome": "Sheilla Castro",
+        "descricao": "Ex-jogadora brasileira de vôlei, ponteira oposta, bicampeã olímpica em 2008 e 2012.",
+        "variantes": [
+          "Sheilla Tavares de Castro",
+          "Sheilla"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida em jogo; camisa mostra só time e número.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que jogador de basquete é este?",
+      "resposta": "Klay Thompson",
+      "ancora": {
+        "nome": "Klay Thompson",
+        "descricao": "Arremessador americano de basquete da NBA, quatro vezes campeão pelo Golden State Warriors.",
+        "variantes": [
+          "Klay Alexander Thompson"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida da jogadora pela seleção; sem nome visível.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que jogadora da seleção brasileira de vôlei é esta?",
+      "resposta": "Rosamaria Montibeller",
+      "distratores": [
+        "Tandara Caixeta",
+        "Ana Carolina da Silva",
+        "Gabi Guimarães"
+      ],
+      "ancora": {
+        "nome": "Rosamaria Montibeller",
+        "descricao": "Jogadora brasileira de vôlei, oposta, medalhista olímpica em Tóquio e Paris.",
+        "variantes": [
+          "Rosamaria"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública; texto da camisa quase todo cortado.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que ex-jogador brasileiro de vôlei, campeão olímpico em 1992, é este?",
+      "resposta": "Giovane Gávio",
+      "distratores": [
+        "Marcelo Negrão",
+        "Tande Ribas",
+        "Maurício Lima"
+      ],
+      "ancora": {
+        "nome": "Giovane Gávio",
+        "descricao": "Ex-jogador e técnico brasileiro de vôlei, campeão olímpico em Barcelona 1992.",
+        "variantes": [
+          "Giovane",
+          "Giovane Farinazzo Gavio"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida; camisa mostra só time e número.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que astro do basquete é este?",
+      "resposta": "Giannis Antetokounmpo",
+      "ancora": {
+        "nome": "Giannis Antetokounmpo",
+        "descricao": "Jogador greco-nigeriano de basquete da NBA, estrela do Milwaukee Bucks.",
+        "variantes": [
+          "Greek Freak",
+          "Giannis"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, de barba característica; camisa sem nome.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "pergunta": "Que time escolheu este jogador no draft da NBA de 2009?",
+      "resposta": "Oklahoma City Thunder",
+      "ancora": {
+        "nome": "James Harden",
+        "descricao": "Armador americano de basquete da NBA, conhecido como 'the Beard', campeão olímpico em 2012.",
+        "variantes": [
+          "The Beard",
+          "James Edward Harden Jr."
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida; camisa mostra só patrocinadores do clube italiano e número.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que jogadora brasileira de vôlei, central, é esta?",
+      "resposta": "Carol Gattaz",
+      "ancora": {
+        "nome": "Carol Gattaz",
+        "descricao": "Ex-jogadora brasileira de vôlei, central, medalhista de prata em Tóquio 2020.",
+        "variantes": [
+          "Caroline Gattaz",
+          "Caroline de Oliveira Saad Gattaz"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "pergunta": "Este ex-armador passou toda a carreira de jogador em que time da NBA?",
+      "resposta": "Detroit Pistons",
+      "ancora": {
+        "nome": "Isiah Thomas",
+        "descricao": "Ex-armador americano de basquete, bicampeão da NBA pelo Detroit Pistons.",
+        "variantes": [
+          "Isiah Lord Thomas III",
+          "Zeke"
+        ]
+      }
+    }
+  ]
+}

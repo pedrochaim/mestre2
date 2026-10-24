@@ -1,0 +1,82 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza, afirmações verdadeiras (ex-jogador da NBA), distratores plausíveis e curtos, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação direta, sem pista que entregue; afirmações corretas.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Campeã olímpica em 2008 e 2012 confirmado; a pista não identifica sozinha, a figura decide.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta neutra, sem vazamento; resposta única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jogadora da seleção brasileira confirmada; distratores do mesmo tipo e nenhum é a pessoa da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os distratores Marcelo Negrão, Tande e Maurício Lima também integraram a seleção campeã olímpica em 1992, então a pista torna as alternativas também corretas. Troca-se por 'bicampeão olímpico' (1992 e 2004, confirmado no trecho) e por distratores que não foram bicampeões.",
+      "reescrita": {
+        "pergunta": "Que ex-jogador brasileiro de vôlei, bicampeão olímpico, é este?",
+        "resposta": "Giovane Gávio",
+        "distratores": [
+          "Giba",
+          "Gustavo Endres",
+          "Dante"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação direta sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Não nomeia o jogador; draft de 2009 pelo Oklahoma City Thunder está nos trechos; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Central brasileira confirmada; a figura decide a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carreira inteira no Detroit Pistons confirmada; o enunciado não entrega a resposta.",
+      "reescrita": null
+    }
+  ]
+}
