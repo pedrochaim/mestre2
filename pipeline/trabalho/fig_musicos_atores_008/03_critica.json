@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia a atriz; o Oscar por Erin Brockovich está nos trechos e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta de reconhecimento sem vazamento; distratores são atores norte-americanos críveis, com poucas palavras, e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista; nacionalidade confere com os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; Miles Davis é norte-americano, conforme os trechos. Sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de atriz brasileira; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O casamento com Garrincha (1968–1982) está nos trechos. O enunciado não identifica a cantora, então a figura é necessária. Os distratores são craques de época próxima e nenhum foi casado com ela.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Capitão pirata numa famosa franquia' entrega Jack Sparrow sem a imagem, e outros atores interpretaram capitães piratas. Troquei a pista por um papel indicado ao Oscar em filme de 2003 (trechos), em múltipla escolha com personagens da mesma franquia.",
+      "reescrita": {
+        "pergunta": "Este ator foi indicado ao Oscar por um papel num filme de 2003. Que personagem ele interpretou?",
+        "resposta": "Jack Sparrow",
+        "distratores": [
+          "Hector Barbossa",
+          "Will Turner",
+          "Davy Jones"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta está correta, mas Raul Seixas e Zé Ramalho são distratores pouco críveis para um compositor e instrumentista. Troquei por músicos instrumentistas brasileiros.",
+      "reescrita": {
+        "pergunta": "Que músico brasileiro é este?",
+        "resposta": "Egberto Gismonti",
+        "distratores": [
+          "Hermeto Pascoal",
+          "Toninho Horta",
+          "Baden Powell"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de ator brasileiro de novelas; distratores são atores de novela da mesma geração e nenhum é correto.",
+      "reescrita": null
+    }
+  ]
+}

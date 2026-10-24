@@ -1,0 +1,199 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, figura pública.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta atriz ganhou o Oscar de melhor atriz por qual filme?",
+      "resposta": "Erin Brockovich",
+      "ancora": {
+        "nome": "Julia Roberts",
+        "descricao": "Atriz norte-americana, vencedora do Oscar de melhor atriz por Erin Brockovich.",
+        "variantes": [
+          "Julia Fiona Roberts"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto; reconhecível.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ator norte-americano é este?",
+      "resposta": "Al Pacino",
+      "distratores": [
+        "Robert De Niro",
+        "Dustin Hoffman",
+        "Joe Pesci"
+      ],
+      "ancora": {
+        "nome": "Al Pacino",
+        "descricao": "Ator norte-americano de O Poderoso Chefão e Scarface.",
+        "variantes": [
+          "Alfredo James Pacino"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto; ator emblemático do cinema italiano.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ator italiano é este?",
+      "resposta": "Marcello Mastroianni",
+      "ancora": {
+        "nome": "Marcello Mastroianni",
+        "descricao": "Ator italiano de A Doce Vida e Oito e Meio.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A camisa mostra 'Hooligans' e o número 24, referências diretas à banda e ao álbum do cantor, o que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto tremida, com outra pessoa parcialmente em quadro; a cantora não é reconhecível com segurança."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco nítido, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que músico norte-americano é este?",
+      "resposta": "Miles Davis",
+      "ancora": {
+        "nome": "Miles Davis",
+        "descricao": "Trompetista, compositor e líder de banda de jazz norte-americano.",
+        "variantes": [
+          "Miles Dewey Davis III"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Captura de tela de baixa qualidade, sem a caracterização habitual; a identificação não é segura."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido; o texto do fundo é só parte do nome de um festival e não entrega a resposta.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que atriz brasileira é esta?",
+      "resposta": "Alice Braga",
+      "ancora": {
+        "nome": "Alice Braga",
+        "descricao": "Atriz brasileira de Cidade de Deus, Ensaio sobre a Cegueira e Eu Sou a Lenda.",
+        "variantes": [
+          "Alice Braga Moraes"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto de palco nítida, sem texto; figura pública.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta cantora foi casada com qual craque do futebol?",
+      "resposta": "Garrincha",
+      "distratores": [
+        "Pelé",
+        "Didi",
+        "Nílton Santos"
+      ],
+      "ancora": {
+        "nome": "Elza Soares",
+        "descricao": "Cantora brasileira de samba, nascida no Rio de Janeiro, casada com Garrincha.",
+        "variantes": [
+          "Elza da Conceição Soares"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto legível; figura pública.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este ator interpretou qual capitão pirata numa famosa franquia de aventura?",
+      "resposta": "Jack Sparrow",
+      "ancora": {
+        "nome": "Johnny Depp",
+        "descricao": "Ator norte-americano de Edward Mãos de Tesoura e Piratas do Caribe.",
+        "variantes": [
+          "John Christopher Depp II"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto; menos conhecido, por isso múltipla escolha com distratores de aparência parecida.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que músico brasileiro é este?",
+      "resposta": "Egberto Gismonti",
+      "distratores": [
+        "Hermeto Pascoal",
+        "Raul Seixas",
+        "Zé Ramalho"
+      ],
+      "ancora": {
+        "nome": "Egberto Gismonti",
+        "descricao": "Compositor, violonista e pianista brasileiro nascido em 1947.",
+        "variantes": [
+          "Egberto Amin Gismonti"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Close nítido, sem texto; ator muito conhecido no Brasil.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ator brasileiro é este?",
+      "resposta": "Tony Ramos",
+      "distratores": [
+        "Antônio Fagundes",
+        "José Mayer",
+        "Francisco Cuoco"
+      ],
+      "ancora": {
+        "nome": "Tony Ramos",
+        "descricao": "Ator brasileiro de telenovelas, nascido em 1948.",
+        "variantes": [
+          "Antônio de Carvalho Barbosa"
+        ]
+      }
+    }
+  ]
+}

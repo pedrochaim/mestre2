@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta cantora foi casada com qual craque do futebol?",
+        "resposta": "Garrincha"
+      },
+      "existentes": [
+        {
+          "id": "q05118",
+          "pergunta": "Que relação pessoal existiu entre a cantora Elza Soares e o craque Garrincha, ídolo do Botafogo?",
+          "resposta": "Foram casados"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q05118",
+      "motivo": "Ambas perguntam o mesmo fato: Elza Soares foi casada com Garrincha."
+    }
+  ]
+}
