@@ -1,0 +1,64 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento. O enunciado só dá a profissão e a nacionalidade, o que não entrega o nome. Os trechos confirmam que ele é artista marcial, ator e chinês.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A foto distingue Royce dos outros Gracie, que são distratores críveis e do mesmo tipo, com no máximo 4 palavras. O enunciado não vaza o nome. Os trechos confirmam que ele é brasileiro e de jiu-jitsu.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto. O enunciado não dá pista, e a resposta é única e confirmada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os distratores são lutadores brasileiros de MMA, críveis e curtos, e nenhum é a pessoa da foto. O enunciado não vaza o nome. Os trechos confirmam o perfil.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta: 'aplicativo de vídeos curtos encerrado em 2017' já entrega Vine sem olhar a figura. Além disso, o ano do encerramento não está nos trechos. A reescrita pede um fato que só se alcança depois de reconhecer a pessoa (a série do Disney Channel), confirmado nos trechos, e não usa o nome do personagem.",
+      "reescrita": {
+        "pergunta": "Antes de virar boxeador, este influenciador americano fez parte do elenco de qual série do Disney Channel?",
+        "resposta": "Bizaardvark"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os distratores são boxeadores ucranianos, curtos e plausíveis, e a foto decide entre eles e o irmão Vitali. O enunciado não vaza o nome. Os trechos confirmam que ele é ucraniano, ex-boxeador e peso-pesado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Quadro' não consta em `mostra`, então não há garantia de que seja uma pintura; o certo é 'imagem'. O distrator Yağlı güreş é turco e pouco europeu, e é luta com óleo, um tipo bem diferente. Foi trocado por outra luta folclórica europeia com projeções.",
+      "reescrita": {
+        "pergunta": "Que luta folclórica europeia, com golpes de projeção, é mostrada nesta imagem?",
+        "resposta": "Schwingen",
+        "distratores": [
+          "Glima",
+          "Luta bretã",
+          "Lucha leonesa"
+        ]
+      }
+    }
+  ]
+}

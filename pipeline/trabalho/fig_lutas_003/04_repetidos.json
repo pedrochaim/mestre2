@@ -1,0 +1,31 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que esporte de combate é este?",
+        "resposta": "Esgrima"
+      },
+      "existentes": [
+        {
+          "id": "q00516",
+          "pergunta": "Que esporte é este?",
+          "resposta": "Esgrima"
+        },
+        {
+          "id": "q09051",
+          "pergunta": "A esgrima olímpica tem três armas. Em qual delas o corpo inteiro do adversário, da cabeça aos pés, vale ponto?",
+          "resposta": "Espada"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q00516",
+      "motivo": "Ambas mostram uma imagem e pedem o esporte, com resposta Esgrima; quem acertasse uma saberia a outra."
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato de rosto, sem texto, figura pública reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este artista marcial e ator chinês?",
+      "resposta": "Jet Li",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jet Li",
+        "descricao": "Artista marcial e ator chinês nascido em 1963, especialista em wushu e astro do cinema de ação.",
+        "variantes": [
+          "Li Lianjie",
+          "Jet Li Lianjie"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto de rosto de figura pública, sem nome visível (só patrocinadores); pessoas ao fundo não estão em primeiro plano. Usa múltipla com irmãos Gracie como distratores.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual lutador brasileiro de jiu-jitsu aparece nesta foto?",
+      "resposta": "Royce Gracie",
+      "distratores": [
+        "Rickson Gracie",
+        "Renzo Gracie",
+        "Royler Gracie"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Royce Gracie",
+        "descricao": "Lutador brasileiro de jiu-jitsu e MMA, vencedor dos primeiros torneios do UFC e membro da família Gracie.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O boné traz escrito 'No hay otro como Duran', entregando a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Duelo de esgrima nítido; o texto 'Italia' não entrega a resposta.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte de combate é este?",
+      "resposta": "Esgrima",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Esgrima",
+        "descricao": "Esporte de combate com espadas, com as modalidades florete, espada e sabre.",
+        "variantes": [
+          "Fencing"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: 'CROCOP' no agasalho e 'UFC Fight Night' ao fundo."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Imagem pequena, borrada e granulada; o lutador não é reconhecível com segurança e não fica legível no celular."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O crachá mostra outros lutadores e o nome 'Saunders', o que confunde a resposta; imagem de reconhecimento incerto."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, figura pública; múltipla com pesos-pesados brasileiros.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lutador brasileiro de MMA aparece nesta foto?",
+      "resposta": "Fabrício Werdum",
+      "distratores": [
+        "Junior Cigano",
+        "Antônio Rodrigo Nogueira",
+        "Maurício Shogun"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fabrício Werdum",
+        "descricao": "Lutador brasileiro de MMA e jiu-jitsu, ex-campeão peso-pesado do UFC.",
+        "variantes": [
+          "Werdum"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem nome visível; pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta personalidade, hoje boxeador, ficou famosa em que aplicativo de vídeos curtos, encerrado em 2017?",
+      "resposta": "Vine",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jake Paul",
+        "descricao": "Boxeador, influenciador e ex-ator americano nascido em 1997, famoso a partir do Vine e do YouTube.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido sem texto; múltipla porque o irmão Vitali é parecido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ex-boxeador ucraniano peso-pesado aparece nesta foto?",
+      "resposta": "Wladimir Klitschko",
+      "distratores": [
+        "Vitali Klitschko",
+        "Oleksandr Usyk",
+        "Vasyl Lomachenko"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Wladimir Klitschko",
+        "descricao": "Ex-boxeador ucraniano, campeão mundial dos pesos-pesados e medalhista de ouro olímpico em 1996.",
+        "variantes": [
+          "Wladimir Klitschko",
+          "Vladimir Klitschko"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pintura de uma luta tradicional, sem texto além de assinatura de iniciais; um único assunto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que luta folclórica europeia, com golpes de projeção, é retratada neste quadro?",
+      "resposta": "Schwingen",
+      "distratores": [
+        "Glima",
+        "Luta bretã",
+        "Yağlı güreş"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Schwingen",
+        "descricao": "Luta folclórica tradicional da Suíça, em que se vence prendendo os ombros do adversário ao chão.",
+        "variantes": [
+          "Luta suíça",
+          "Hosenlupf"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Os painéis ao fundo trazem 'dos Santos vs Carwin', entregando o nome do lutador."
+    }
+  ]
+}

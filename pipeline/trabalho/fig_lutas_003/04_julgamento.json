@@ -1,0 +1,391 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Jet Li",
+        "descricao": "Artista marcial e ator chinês nascido em 1963, especialista em wushu e astro do cinema de ação.",
+        "variantes": [
+          "Li Lianjie",
+          "Jet Li Lianjie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lillie",
+          "nome": "Lillie",
+          "descricao": "Colega de Ash na Escola Pokémon de Alola, na série Sol e Lua do anime, irmã de Gladion e filha de Lusamine.",
+          "variantes": [
+            "Lillie (anime)"
+          ]
+        },
+        {
+          "id": "janete_clair",
+          "nome": "Janete Clair",
+          "descricao": "Novelista brasileira, autora de sucessos da Globo como Selva de Pedra e Irmãos Coragem.",
+          "variantes": []
+        },
+        {
+          "id": "escherichia_coli",
+          "nome": "Escherichia coli",
+          "descricao": "Bactéria gram-negativa em forma de bastonete, comum no intestino de animais de sangue quente.",
+          "variantes": [
+            "E. coli"
+          ]
+        },
+        {
+          "id": "lilligant",
+          "nome": "Lilligant",
+          "descricao": "Pokémon do tipo Planta, número 549 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "pegadas_de_laetoli",
+          "nome": "Pegadas de Laetoli",
+          "descricao": "Trilha de pegadas fossilizadas de hominídeos bípedes no sítio de Laetoli, na Tanzânia, descoberta pela equipe de Mary Leakey em 1978.",
+          "variantes": [
+            "Laetoli footprints",
+            "Laetoli"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Royce Gracie",
+        "descricao": "Lutador brasileiro de jiu-jitsu e MMA, vencedor dos primeiros torneios do UFC e membro da família Gracie.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "grace_kelly",
+          "nome": "Grace Kelly",
+          "descricao": "Atriz americana de Janela Indiscreta e Ladrão de Casaca que se tornou princesa de Mônaco.",
+          "variantes": [
+            "Grace de Mônaco",
+            "Princesa Grace"
+          ]
+        },
+        {
+          "id": "helio_gracie",
+          "nome": "Hélio Gracie",
+          "descricao": "Lutador brasileiro, um dos criadores do jiu-jítsu brasileiro.",
+          "variantes": []
+        },
+        {
+          "id": "ciclismo_de_estrada",
+          "nome": "Ciclismo de estrada",
+          "descricao": "Modalidade de ciclismo competitivo disputada em ruas e estradas, com chegada em pelotão.",
+          "variantes": [
+            "Ciclismo",
+            "Ciclismo de rua",
+            "Road bicycle racing"
+          ]
+        },
+        {
+          "id": "rio_grande",
+          "nome": "Rio Grande",
+          "descricao": "Rio da América do Norte que forma a fronteira entre o Texas, nos Estados Unidos, e o México.",
+          "variantes": [
+            "Río Bravo",
+            "Río Bravo del Norte",
+            "Rio Grande do Norte americano"
+          ]
+        },
+        {
+          "id": "rio_doce",
+          "nome": "Rio Doce",
+          "descricao": "Rio do Sudeste brasileiro que nasce em Minas Gerais e deságua no Atlântico, no Espírito Santo.",
+          "variantes": [
+            "Doce River"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Esgrima",
+        "descricao": "Esporte de combate com espadas, com as modalidades florete, espada e sabre.",
+        "variantes": [
+          "Fencing"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esgrima",
+          "nome": "Esgrima",
+          "descricao": "Esporte de combate com armas brancas: florete, espada e sabre.",
+          "variantes": []
+        },
+        {
+          "id": "seriema",
+          "nome": "Seriema",
+          "descricao": "Ave terrestre predadora (Cariama cristata), de pernas e bico vermelhos e topete de penas eriçadas, dos campos da América do Sul.",
+          "variantes": [
+            "Seriema-de-perna-vermelha",
+            "Siriema",
+            "Red-legged seriema",
+            "Cariama cristata"
+          ]
+        },
+        {
+          "id": "espermatozoide",
+          "nome": "Espermatozoide",
+          "descricao": "Célula reprodutiva masculina móvel, com cabeça e flagelo.",
+          "variantes": [
+            "Espermatozoides",
+            "Esperma",
+            "Célula espermática"
+          ]
+        },
+        {
+          "id": "sangria",
+          "nome": "Sangria",
+          "descricao": "Bebida alcoólica ibérica de vinho tinto com frutas picadas.",
+          "variantes": []
+        },
+        {
+          "id": "dejima",
+          "nome": "Dejima",
+          "descricao": "Ilha artificial construída em 1634 no Japão, onde comerciantes holandeses ficaram confinados durante o isolamento do país.",
+          "variantes": [
+            "Deshima"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Fabrício Werdum",
+        "descricao": "Lutador brasileiro de MMA e jiu-jitsu, ex-campeão peso-pesado do UFC.",
+        "variantes": [
+          "Werdum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "batalha_de_verdun",
+          "nome": "Batalha de Verdun",
+          "descricao": "Batalha travada entre franceses e alemães em 1916, perto da cidade de Verdun, uma das mais longas e sangrentas da Primeira Guerra Mundial.",
+          "variantes": [
+            "Battle of Verdun",
+            "Verdun"
+          ]
+        },
+        {
+          "id": "rum",
+          "nome": "Rum",
+          "descricao": "Bebida destilada de origem caribenha feita do melaço ou do caldo da cana-de-açúcar.",
+          "variantes": [
+            "Ron"
+          ]
+        },
+        {
+          "id": "cerio",
+          "nome": "Cério",
+          "descricao": "Elemento químico do grupo das terras raras, de número atômico cinquenta e oito, descoberto em 1803.",
+          "variantes": [
+            "Cerium"
+          ]
+        },
+        {
+          "id": "beldum",
+          "nome": "Beldum",
+          "descricao": "Pokémon dos tipos Aço e Psíquico, número 374 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "meruem",
+          "nome": "Meruem",
+          "descricao": "Rei das Formigas-Quimera e principal antagonista do arco das Formigas-Quimera em Hunter x Hunter.",
+          "variantes": [
+            "Meruem, o Rei"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Jake Paul",
+        "descricao": "Boxeador, influenciador e ex-ator americano nascido em 1997, famoso a partir do Vine e do YouTube.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "sao_paulo",
+          "nome": "São Paulo",
+          "descricao": "Capital do estado de São Paulo, cidade fundada em 1554 a partir de um colégio jesuíta.",
+          "variantes": [
+            "São Paulo (cidade)",
+            "Cidade de São Paulo",
+            "Sampa"
+          ]
+        },
+        {
+          "id": "periodo_azul_de_picasso",
+          "nome": "Período Azul de Picasso",
+          "descricao": "Fase de Pablo Picasso, entre 1901 e 1904, de quadros melancólicos pintados em tons de azul.",
+          "variantes": [
+            "Fase Azul",
+            "Picasso's Blue Period"
+          ]
+        },
+        {
+          "id": "axel",
+          "nome": "Axel",
+          "descricao": "Salto da patinação artística batizado em homenagem ao norueguês Axel Paulsen.",
+          "variantes": [
+            "Axel jump",
+            "Axel Paulsen"
+          ]
+        },
+        {
+          "id": "sao_paulo_estado",
+          "nome": "São Paulo (estado)",
+          "descricao": "Estado mais populoso do Brasil, na Região Sudeste.",
+          "variantes": [
+            "São Paulo",
+            "Estado de São Paulo"
+          ]
+        },
+        {
+          "id": "sao_paulo_futebol_clube",
+          "nome": "São Paulo Futebol Clube",
+          "descricao": "Clube de futebol brasileiro sediado na cidade de São Paulo, com sede no Morumbi.",
+          "variantes": [
+            "São Paulo",
+            "São Paulo FC",
+            "Tricolor Paulista"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Wladimir Klitschko",
+        "descricao": "Ex-boxeador ucraniano, campeão mundial dos pesos-pesados e medalhista de ouro olímpico em 1996.",
+        "variantes": [
+          "Vladimir Klitschko"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lenin",
+          "nome": "Lênin",
+          "descricao": "Vladimir Ilitch Ulianov, revolucionário russo e primeiro chefe de governo da Rússia soviética e da União Soviética.",
+          "variantes": [
+            "Vladimir Lenin",
+            "Vladimir Ilitch Ulianov",
+            "Vladimir Ilyich Ulyanov"
+          ]
+        },
+        {
+          "id": "vladimir_putin",
+          "nome": "Vladimir Putin",
+          "descricao": "Político russo e ex-oficial da KGB, presidente da Rússia desde 2012, depois de um primeiro mandato de 2000 a 2008.",
+          "variantes": [
+            "Vladimir Vladimirovich Putin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Schwingen",
+        "descricao": "Luta folclórica tradicional da Suíça, em que se vence prendendo os ombros do adversário ao chão.",
+        "variantes": [
+          "Luta suíça",
+          "Hosenlupf"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "guarda_suica",
+          "nome": "Guarda Suíça",
+          "descricao": "Corpo militar que protege o papa e o Vaticano, formado por soldados suíços",
+          "variantes": [
+            "Guarda Suíça Pontifícia",
+            "Pontifical Swiss Guard"
+          ]
+        },
+        {
+          "id": "herpes_zoster",
+          "nome": "Herpes-zóster",
+          "descricao": "Doença de pele dolorosa, popularmente chamada de cobreiro, causada pela reativação do vírus da catapora.",
+          "variantes": [
+            "Cobreiro",
+            "Zona",
+            "Shingles"
+          ]
+        },
+        {
+          "id": "suica",
+          "nome": "Suíça",
+          "descricao": "País sem litoral da Europa Central, confederação de 26 cantões.",
+          "variantes": [
+            "Confederação Suíça",
+            "Switzerland"
+          ]
+        },
+        {
+          "id": "erwin_schrodinger",
+          "nome": "Erwin Schrödinger",
+          "descricao": "Físico teórico austríaco (1887–1961), autor da equação de Schrödinger e Nobel de Física de 1933.",
+          "variantes": [
+            "Schroedinger"
+          ]
+        },
+        {
+          "id": "chingling",
+          "nome": "Chingling",
+          "descricao": "Pokémon psíquico bebê da quarta geração, número 433 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Jet Li."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Royce Gracie é diferente de Hélio Gracie."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "esgrima",
+      "motivo": "Mesmo esporte, mesma descrição."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Fabrício Werdum."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Jake Paul."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Klitschko não é Lênin nem Putin."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Schwingen não corresponde a nenhuma candidata; Suíça é o país, entidade diferente."
+    }
+  ]
+}
