@@ -1,0 +1,58 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Antes de virar ator de cinema\" é impreciso: Cena lutou na WWE por 24 anos, de 2001 a 2025, e atuou em cinema durante esse período. Reescrito sem a ordem temporal.",
+      "reescrita": {
+        "pergunta": "Este ator americano ficou famoso, por mais de vinte anos, em qual modalidade de luta?",
+        "resposta": "Luta livre profissional",
+        "distratores": [
+          "Boxe",
+          "Jiu-jítsu",
+          "Luta greco-romana"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento nível 1. \"Espada japonesa\" só indica a categoria e não entrega a resposta. A resposta é única e a fonte a sustenta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Campeão dos meio-pesados do UFC\" também vale para Daniel Cormier, que é americano e foi campeão da categoria, e ele é um dos distratores. O enunciado passa a ser só \"lutador americano de MMA\", e a figura decide a resposta.",
+      "reescrita": {
+        "pergunta": "Quem é este lutador americano de MMA?",
+        "resposta": "Jon Jones",
+        "distratores": [
+          "Daniel Cormier",
+          "Alexander Gustafsson",
+          "Anthony Johnson"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a kama é uma ferramenta agrícola parecida com uma foice. Só com o enunciado, outras ferramentas agrícolas, como o mangual de arroz do nunchaku, também seriam palpites possíveis, então a figura continua necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Faixa preta de uma arte marcial japonesa\" quase entrega Seagal, que é famoso pelo aikido, e também descreve outros atores, como Chuck Norris, que tem faixa preta de judô. O enunciado agora usa só a época e o gênero, sem entregar a resposta.",
+      "reescrita": {
+        "pergunta": "Quem é este ator americano, astro de filmes de ação dos anos oitenta e noventa?",
+        "resposta": "Steven Seagal"
+      }
+    }
+  ]
+}

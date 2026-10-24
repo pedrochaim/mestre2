@@ -1,0 +1,142 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Camiseta mostra parte do nome (\"WANI...\") e há outras pessoas em primeiro/segundo plano; entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Retrato de terno sem contexto de luta, desfocado e com outras pessoas ao fundo; não reconhecível de forma confiável."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Relevo de pedra desgastado, sem nada que permita reconhecer o silat; resposta não é única nem reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Figura pública reconhecível, sem texto que revele o nome (só logotipo da convenção). Pergunta vai além do nome.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Antes de virar ator de cinema, este homem praticou por mais de vinte anos qual modalidade de luta?",
+      "resposta": "Luta livre profissional",
+      "distratores": [
+        "Boxe",
+        "Jiu-jítsu",
+        "Luta greco-romana"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "John Cena",
+        "descricao": "Ator americano e ex-lutador de luta livre profissional da WWE, recordista de títulos mundiais.",
+        "variantes": [
+          "John Felix Anthony Cena"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A plaquinha à frente dela traz o nome \"Cris Cyborg\"; entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, com foto emoldurada ao fundo; pessoa não reconhecível num celular."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Espada japonesa de lâmina curva e um só gume, com guarda circular e cabo longo, isolada em fundo branco, legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que espada japonesa é esta?",
+      "resposta": "Katana",
+      "destino": 0,
+      "ancora": {
+        "nome": "Katana",
+        "descricao": "Espada japonesa de lâmina curva e um só gume, usada pelos samurais.",
+        "variantes": [
+          "Catana",
+          "Uchigatana"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Figura pública, rosto nítido, sem texto; a bandeira não entrega o nome. Múltipla escolha com lutadores do mesmo peso.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este lutador americano de MMA, campeão dos meio-pesados do UFC?",
+      "resposta": "Jon Jones",
+      "distratores": [
+        "Daniel Cormier",
+        "Alexander Gustafsson",
+        "Anthony Johnson"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jon Jones",
+        "descricao": "Lutador americano de MMA, campeão dos meio-pesados e dos pesados do UFC.",
+        "variantes": [
+          "Jonathan Dwight Jones",
+          "Bones"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Duas kamas com bainhas sobre fundo vermelho, imagem clara e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Estas armas das artes marciais japonesas derivam de qual ferramenta agrícola?",
+      "resposta": "Foice",
+      "destino": 0,
+      "ancora": {
+        "nome": "Kama (arma)",
+        "descricao": "Arma japonesa de artes marciais derivada de uma foice agrícola, usada em par.",
+        "variantes": [
+          "Kama",
+          "Kama (ferramenta)"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Figura pública reconhecível, sem texto na imagem. Pista de ator e de filmes de ação não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este ator americano de filmes de ação, faixa preta de uma arte marcial japonesa?",
+      "resposta": "Steven Seagal",
+      "destino": 0,
+      "ancora": {
+        "nome": "Steven Seagal",
+        "descricao": "Ator, produtor e mestre de aikido americano, famoso por filmes de ação como Nico e Difícil de Matar.",
+        "variantes": [
+          "Steven Frederic Seagal"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O nome \"Beatriz\" está bordado no quimono, entregando parte da resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Retrato de terno sem nenhum elemento do sumô; não é reconhecível pela imagem."
+    }
+  ]
+}
