@@ -1,0 +1,31 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta caverna, Patrimônio Mundial da UNESCO, guarda pinturas rupestres. Em que país da América do Sul ela fica?",
+        "resposta": "Argentina"
+      },
+      "existentes": [
+        {
+          "id": "q03081",
+          "pergunta": "A Cueva de las Manos, na Patagônia, tem centenas de contornos de mãos pintados há milhares de anos. Em que país ela fica?",
+          "resposta": "Argentina"
+        },
+        {
+          "id": "q13325",
+          "pergunta": "Na Cueva de las Manos, na Patagônia, como os artistas pré-históricos criavam os contornos das mãos nas paredes?",
+          "resposta": "Soprando tinta sobre a mão"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q03081",
+      "motivo": "Ambas perguntam em que país fica a caverna (Cueva de las Manos, Argentina); a nova é descrição da mesma caverna com pinturas rupestres e mesma resposta."
+    }
+  ]
+}

@@ -719,9 +719,10 @@
     "fig_hominideos_001",
     "fig_musicos_atores_006",
     "fig_tecnologia_011",
-    "fig_festas_costumes_005"
+    "fig_festas_costumes_005",
+    "fig_hominideos_002"
   ],
-  "maior_id": 15090,
+  "maior_id": 15093,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1511,13 +1512,15 @@
     "hominideos": {
       "familias": {
         "o_que_e": 4,
-        "onde": 1
+        "onde": 3,
+        "quando": 1
       },
       "niveis": {
-        "1": 2,
-        "2": 3
+        "1": 3,
+        "2": 4,
+        "3": 1
       },
-      "registradas": 5
+      "registradas": 8
     }
   },
   "rendimento": {

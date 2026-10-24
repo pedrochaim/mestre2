@@ -1,0 +1,161 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arco de arenito da Pedra Furada, reconhecível e sem texto; múltipla escolha com estados vizinhos.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que estado brasileiro fica esta formação rochosa, em um parque nacional com sítios pré-históricos?",
+      "resposta": "Piauí",
+      "distratores": [
+        "Bahia",
+        "Maranhão",
+        "Ceará"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pedra Furada (Serra da Capivara)",
+        "descricao": "Arco de arenito símbolo do Parque Nacional da Serra da Capivara, em São Raimundo Nonato, Piauí.",
+        "variantes": [
+          "Pedra Furada",
+          "Parque Nacional da Serra da Capivara"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Crânio de museu claro, sem texto; pergunta evita nomear a espécie (ergaster/erectus) e pede o lago de Koobi Fora.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Perto de que lago do Quênia foi encontrado este crânio de hominínio de cerca de um milhão e meio de anos?",
+      "resposta": "Lago Turkana",
+      "distratores": [
+        "Lago Vitória",
+        "Lago Tanganica",
+        "Lago Malawi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Homo ergaster",
+        "descricao": "Espécie ou subespécie extinta de humanos arcaicos do Pleistoceno inferior da África, às vezes tratada como Homo erectus africano.",
+        "variantes": [
+          "Homo erectus africano",
+          "Homo erectus ergaster",
+          "KNM-ER 3733"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Mandíbula fóssil bem fotografada, sem texto; resposta única pela cidade de achado, com distratores alemães.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Perto de que cidade alemã foi encontrada esta mandíbula, a mais antiga do gênero Homo na Alemanha?",
+      "resposta": "Heidelberg",
+      "distratores": [
+        "Munique",
+        "Colônia",
+        "Frankfurt"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mandíbula de Mauer",
+        "descricao": "Mandíbula Mauer 1, achada em 1907 numa pedreira de areia em Mauer e espécime-tipo do Homo heidelbergensis.",
+        "variantes": [
+          "Mauer 1",
+          "Homo heidelbergensis"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto histórica clara de chimpanzé com capacete da NASA; o ano vale para Ham e para Enos, então a resposta é única.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este chimpanzé foi lançado ao espaço pelos Estados Unidos?",
+      "resposta": "1961",
+      "distratores": [
+        "1957",
+        "1959",
+        "1963"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ham, o chimpanzé astronauta",
+        "descricao": "Chimpanzé que fez um voo suborbital da NASA na missão Mercury-Redstone 2 em 1961.",
+        "variantes": [
+          "Ham",
+          "Ham the Chimp",
+          "Ham the Astrochimp"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto de um homem em primeiro plano ao lado de um crânio: dois assuntos, a pessoa não é reconhecível e o crânio não é identificável com certeza."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Imagem escura, com vinheta e baixa nitidez; pouco legível no celular e a pintura não é inequívoca."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Mãos estampadas características e sem texto; o sítio é muito reconhecível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país da América do Sul fica esta caverna com centenas de mãos estampadas na rocha?",
+      "resposta": "Argentina",
+      "distratores": [
+        "Chile",
+        "Brasil",
+        "Peru"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cueva de las Manos",
+        "descricao": "Caverna e sítio de arte rupestre na província de Santa Cruz, Argentina, com centenas de mãos estampadas nas paredes.",
+        "variantes": [
+          "Caverna das Mãos",
+          "Cave of the Hands"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Crânio de aparência humana comum, não reconhecível como o Homem de Kennewick; há reflexos com letras no vidro."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Pintura rupestre genérica e fragmentada, sem local ou estilo identificável; resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Desenho esquemático de ossos do pé, não é foto de fóssil e não é identificável como o Pé Pequeno."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A etiqueta com 'indicus' aparece na imagem e entrega a espécie; os fragmentos de crânio também são pouco reconhecíveis."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto de um abrigo rochoso com placa e portão; não é reconhecível, e o sítio aparece sem nada distintivo."
+    }
+  ]
+}

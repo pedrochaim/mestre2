@@ -1,0 +1,257 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pedra Furada (Serra da Capivara)",
+        "descricao": "Arco de arenito símbolo do Parque Nacional da Serra da Capivara, em São Raimundo Nonato, Piauí.",
+        "variantes": [
+          "Parque Nacional da Serra da Capivara",
+          "Pedra Furada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "parque_nacional_da_serra_da_capivara",
+          "nome": "Parque Nacional da Serra da Capivara",
+          "descricao": "Parque nacional no sudeste do Piauí, com milhares de pinturas rupestres pré-históricas.",
+          "variantes": [
+            "Serra da Capivara"
+          ]
+        },
+        {
+          "id": "serra_da_canastra",
+          "nome": "Serra da Canastra",
+          "descricao": "Serra do sudoeste de Minas Gerais, protegida pelo Parque Nacional da Serra da Canastra.",
+          "variantes": [
+            "Parque Nacional da Serra da Canastra"
+          ]
+        },
+        {
+          "id": "parque_nacional_da_serra_do_divisor",
+          "nome": "Parque Nacional da Serra do Divisor",
+          "descricao": "Parque nacional na fronteira com o Peru, onde fica o ponto extremo oeste do Brasil.",
+          "variantes": [
+            "Serra do Divisor"
+          ]
+        },
+        {
+          "id": "estadio_serra_dourada",
+          "nome": "Estádio Serra Dourada",
+          "descricao": "Estádio de futebol inaugurado em 1975 em Goiânia, Goiás, projetado por Paulo Mendes da Rocha.",
+          "variantes": [
+            "Serra Dourada",
+            "Estádio Mané Garrincha de Goiânia"
+          ]
+        },
+        {
+          "id": "caverna_da_pedra_pintada",
+          "nome": "Caverna da Pedra Pintada",
+          "descricao": "Caverna em Monte Alegre, no Pará, com pinturas rupestres e vestígios humanos de mais de onze mil anos.",
+          "variantes": [
+            "Pedra Pintada"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mandíbula de Mauer",
+        "descricao": "Mandíbula Mauer 1, achada em 1907 numa pedreira de areia em Mauer e espécime-tipo do Homo heidelbergensis.",
+        "variantes": [
+          "Mauer 1",
+          "Homo heidelbergensis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "homo_heidelbergensis",
+          "nome": "Homo heidelbergensis",
+          "descricao": "Espécie humana extinta descrita a partir de uma mandíbula achada em 1907 em Mauer, na Alemanha.",
+          "variantes": [
+            "Homem de Heidelberg"
+          ]
+        },
+        {
+          "id": "driver_golfe",
+          "nome": "Driver (golfe)",
+          "descricao": "Taco de golfe de cabeça grande, o chamado madeira um, usado nas tacadas de saída.",
+          "variantes": [
+            "Driver",
+            "Madeira 1",
+            "1-wood"
+          ]
+        },
+        {
+          "id": "queixo_dos_habsburgos",
+          "nome": "Queixo dos Habsburgos",
+          "descricao": "Prognatismo mandibular hereditário que marcou vários membros da dinastia Habsburgo, associado aos casamentos entre parentes.",
+          "variantes": [
+            "Mandíbula dos Habsburgos",
+            "Habsburg jaw",
+            "Prognatismo Habsburgo"
+          ]
+        },
+        {
+          "id": "dia_dos_mortos",
+          "nome": "Dia dos Mortos",
+          "descricao": "Celebração mexicana do início de novembro em que as famílias homenageiam seus mortos com altares e oferendas.",
+          "variantes": [
+            "Día de Muertos",
+            "Día de los Muertos"
+          ]
+        },
+        {
+          "id": "homem_de_neandertal",
+          "nome": "Homem de Neandertal",
+          "descricao": "Espécie humana extinta que viveu na Europa e na Ásia Ocidental até cerca de 40 mil anos atrás.",
+          "variantes": [
+            "Homo neanderthalensis",
+            "Neandertal",
+            "Neanderthal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ham, o chimpanzé astronauta",
+        "descricao": "Chimpanzé que fez um voo suborbital da NASA na missão Mercury-Redstone 2 em 1961.",
+        "variantes": [
+          "Ham",
+          "Ham the Chimp",
+          "Ham the Astrochimp"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maquina_oculta",
+          "nome": "Máquina Oculta",
+          "descricao": "Item dos jogos Pokémon que ensinava golpes usados também fora das batalhas, como Surf e Força, para abrir caminho pelo mapa.",
+          "variantes": [
+            "MO",
+            "HM",
+            "Hidden Machine"
+          ]
+        },
+        {
+          "id": "lhama",
+          "nome": "Lhama",
+          "descricao": "Camelídeo doméstico sul-americano (Lama glama), usado como animal de carga e fonte de carne e lã nos Andes.",
+          "variantes": [
+            "Llama",
+            "Lama glama"
+          ]
+        },
+        {
+          "id": "hamsa",
+          "nome": "Hamsa",
+          "descricao": "Amuleto em forma de mão aberta, popular no Oriente Médio e no Norte da África contra o mau-olhado.",
+          "variantes": [
+            "Mão de Fátima",
+            "Khamsa",
+            "Mão de Miriam"
+          ]
+        },
+        {
+          "id": "rede_de_dormir",
+          "nome": "Rede de dormir",
+          "descricao": "Leito de tecido ou fibras suspenso entre dois pontos, de origem indígena americana.",
+          "variantes": [
+            "Hammock",
+            "Hamaca"
+          ]
+        },
+        {
+          "id": "gotham_city",
+          "nome": "Gotham City",
+          "descricao": "Cidade fictícia onde se passam as histórias do Batman",
+          "variantes": [
+            "Gotham"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Cueva de las Manos",
+        "descricao": "Caverna e sítio de arte rupestre na província de Santa Cruz, Argentina, com centenas de mãos estampadas nas paredes.",
+        "variantes": [
+          "Caverna das Mãos",
+          "Cave of the Hands"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cueva_de_las_manos",
+          "nome": "Cueva de las Manos",
+          "descricao": "Caverna na Patagônia com centenas de contornos de mãos pintados há milhares de anos.",
+          "variantes": [
+            "Caverna das Mãos",
+            "Cave of the Hands"
+          ]
+        },
+        {
+          "id": "cueva_de_la_arana",
+          "nome": "Cueva de la Araña",
+          "descricao": "Cavernas em Bicorp, na Espanha, com uma pintura rupestre de cerca de oito mil anos que mostra a coleta de mel.",
+          "variantes": [
+            "Cuevas de la Araña",
+            "Caverna da Aranha"
+          ]
+        },
+        {
+          "id": "caverna_de_blombos",
+          "nome": "Caverna de Blombos",
+          "descricao": "Caverna no litoral sul da África do Sul com vestígios de Homo sapiens de mais de setenta mil anos, como pedaços de pigmento gravados.",
+          "variantes": [
+            "Blombos Cave"
+          ]
+        },
+        {
+          "id": "lavar_as_maos_expressao",
+          "nome": "Lavar as mãos (expressão)",
+          "descricao": "Expressão para quem se exime de responsabilidade sobre uma decisão",
+          "variantes": [
+            "Lavar as mãos"
+          ]
+        },
+        {
+          "id": "caverna_dos_nadadores",
+          "nome": "Caverna dos Nadadores",
+          "descricao": "Abrigo rochoso no deserto do sudoeste do Egito com pinturas pré-históricas de figuras que parecem nadar.",
+          "variantes": [
+            "Cave of Swimmers",
+            "Wadi Sura"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pedra Furada é um arco de arenito específico dentro do parque; o parque é uma entidade mais ampla (parte vs. todo)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A mandíbula Mauer 1 é um fóssil específico, distinto da espécie Homo heidelbergensis."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o chimpanzé Ham; são nomes apenas parecidos."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "cueva_de_las_manos",
+      "motivo": "Mesma caverna com mãos estampadas na Patagônia argentina; nome e variantes coincidem."
+    }
+  ]
+}

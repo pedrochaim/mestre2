@@ -284636,5 +284636,79 @@
       "licenca": "CC BY-SA 4.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q15091",
+    "tema": "Natureza",
+    "subtema": "Evolução Humana",
+    "ancora": "pedra_furada_serra_da_capivara",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que estado do Nordeste brasileiro fica esta formação rochosa, um arco de arenito?",
+    "resposta": "Piauí",
+    "distratores": [
+      "Bahia",
+      "Maranhão",
+      "Ceará"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Parque_Nacional_Serra_da_Capivara",
+      "https://en.wikipedia.org/wiki/Serra_da_Capivara_National_Park"
+    ],
+    "imagem": {
+      "arquivo": "q15091.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:20030924PPedraFurada9.jpg",
+      "autor": "Cleude",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15092",
+    "tema": "Natureza",
+    "subtema": "Evolução Humana",
+    "ancora": "mandibula_de_mauer",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Esta mandíbula foi achada em 1907, numa pedreira de areia na Alemanha. Perto de que cidade alemã ela foi encontrada?",
+    "resposta": "Heidelberg",
+    "distratores": [
+      "Munique",
+      "Colônia",
+      "Frankfurt"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mauer_1"
+    ],
+    "imagem": {
+      "arquivo": "q15092.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Unterkiefer_von_Mauer_(Replika).JPG",
+      "autor": "Gerbil",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15093",
+    "tema": "Natureza",
+    "subtema": "Evolução Humana",
+    "ancora": "ham_o_chimpanze_astronauta",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em janeiro de 1961, este chimpanzé fez um voo suborbital pela NASA. Qual era o nome dele?",
+    "resposta": "Ham",
+    "distratores": [
+      "Enos",
+      "Gordo",
+      "Miss Baker"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ham_%28chimpanzee%29",
+      "https://pt.wikipedia.org/wiki/Ham_%28chimpanz%C3%A9%29"
+    ],
+    "imagem": {
+      "arquivo": "q15093.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ham_the_chimp_(cropped).jpg",
+      "autor": "NASA",
+      "licenca": "Public domain"
+    }
   }
 ]

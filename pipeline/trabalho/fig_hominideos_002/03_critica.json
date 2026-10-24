@@ -1,0 +1,71 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A pista 'parque nacional com sítios pré-históricos' aponta para a Serra da Capivara e quase entrega o estado sem a figura. Troquei por uma pista regional que ajuda sem entregar. O fato (Pedra Furada, símbolo do parque, no Piauí) é amplamente documentado e o trecho confirma o parque no Piauí.",
+      "reescrita": {
+        "pergunta": "Em que estado do Nordeste brasileiro fica esta formação rochosa, um arco de arenito?",
+        "resposta": "Piauí",
+        "distratores": [
+          "Bahia",
+          "Maranhão",
+          "Ceará"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A figura mostra a espécie, mas o enunciado fala de um crânio específico de 1,5 milhão de anos. Não dá para garantir que seja o espécime da foto, e há fósseis de H. ergaster de outras idades e locais (KNM-ER 3733 tem cerca de 1,75 milhão de anos, Swartkrans fica na África do Sul). Isso é impreciso e a resposta não é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'A mais antiga do gênero Homo na Alemanha' identifica o espécime sozinho, então a figura vira enfeite. O trecho confirma o fato (Mauer, a cerca de 10 km a sudeste de Heidelberg). Reescrevi com uma pista mais fraca, sem entregar.",
+      "reescrita": {
+        "pergunta": "Esta mandíbula foi achada em 1907, numa pedreira de areia na Alemanha. Perto de que cidade alemã ela foi encontrada?",
+        "resposta": "Heidelberg",
+        "distratores": [
+          "Munique",
+          "Colônia",
+          "Frankfurt"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Qualquer chimpanzé lançado ao espaço pelos EUA em 1961 (Ham ou Enos) dá a mesma resposta, 1961. A figura vira enfeite. Reescrevi para exigir o reconhecimento do chimpanzé. 'Voo suborbital' o distingue de Enos, que orbitou a Terra.",
+      "reescrita": {
+        "pergunta": "Em janeiro de 1961, este chimpanzé fez um voo suborbital pela NASA. Qual era o nome dele?",
+        "resposta": "Ham",
+        "distratores": [
+          "Enos",
+          "Gordo",
+          "Miss Baker"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Caverna com centenas de mãos estampadas' é a descrição famosa do lugar e dá para responder sem a figura. Troquei por uma pista genérica (Patrimônio Mundial, pinturas rupestres). Assim a figura é que desfaz a ambiguidade com outros sítios rupestres, como os do Brasil. O fato está nos trechos (Santa Cruz, Argentina; Patrimônio Mundial desde 1999).",
+      "reescrita": {
+        "pergunta": "Esta caverna, Patrimônio Mundial da UNESCO, guarda pinturas rupestres. Em que país da América do Sul ela fica?",
+        "resposta": "Argentina",
+        "distratores": [
+          "Chile",
+          "Brasil",
+          "Peru"
+        ]
+      }
+    }
+  ]
+}
