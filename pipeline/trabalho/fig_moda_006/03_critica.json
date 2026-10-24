@@ -1,0 +1,47 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Casaco esportivo\" é quase a definição de blazer (sports jacket), e as \"listras largas\" e o \"ele usa\" não constam em `mostra`, então não há garantia de que valham para esta foto. Basta pedir o tipo de casaco, sem pista nem detalhe não verificado.",
+      "reescrita": {
+        "pergunta": "Que tipo de casaco é este?",
+        "resposta": "Blazer",
+        "distratores": [
+          "Jaqueta bomber",
+          "Trench coat",
+          "Cardigã de lã"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é verdadeiro e não entrega a resposta, porque tamancos de madeira existem em vários países e a figura é que resolve. A resposta, Japão, está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta pede o nome do objeto a partir da figura, e \"chapéu sem aba\" não entrega o nome. Os trechos confirmam a descrição, e a resposta é única, embora a grafia varie.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A descrição (gorro com orelheiras, de lã) é verdadeira e não nomeia a região. Os trechos confirmam a origem andina. Gorros com orelheiras existem em outros lugares, então a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é curta e não vaza a resposta. Os distratores são do mesmo tipo (jaquetas e casacos), têm até 4 palavras e são visualmente distintos de uma bomber com gola de pelo.",
+      "reescrita": null
+    }
+  ]
+}

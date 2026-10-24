@@ -264,7 +264,7 @@
       "titulo": "en:Geta (footwear)",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Huipil",
@@ -306,7 +306,7 @@
       "titulo": "en:Knit cap",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Jaqueta de couro",
@@ -376,7 +376,7 @@
       "titulo": "en:Tights",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Mocassim",
@@ -418,7 +418,7 @@
       "titulo": "en:Kippah",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Hijab",
@@ -559,6 +559,286 @@
       "camada": 3,
       "destino": 0,
       "status": "nova"
+    },
+    {
+      "nome": "Terno",
+      "titulo": "en:Suit",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Saia",
+      "titulo": "en:Skirt",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Meia",
+      "titulo": "en:Sock",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Blazer",
+      "titulo": "en:Blazer",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Legging",
+      "titulo": "en:Leggings",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pulseira",
+      "titulo": "en:Bracelet",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Anel",
+      "titulo": "en:Ring (jewellery)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bolsa",
+      "titulo": "en:Handbag",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Carteira",
+      "titulo": "en:Wallet",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Capa de chuva",
+      "titulo": "en:Raincoat",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chuteira",
+      "titulo": "en:Football boot",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Maiô",
+      "titulo": "en:One-piece swimsuit",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Tiara",
+      "titulo": "en:Tiara",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cardigã",
+      "titulo": "en:Cardigan (sweater)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Parka",
+      "titulo": "en:Parka",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jaqueta bomber",
+      "titulo": "en:Flight jacket",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Calça boca de sino",
+      "titulo": "en:Bell-bottoms",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Calça cargo",
+      "titulo": "en:Cargo pants",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cropped",
+      "titulo": "en:Crop top",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gargantilha",
+      "titulo": "en:Choker",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Broche",
+      "titulo": "en:Brooch",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chapéu bucket",
+      "titulo": "en:Bucket hat",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Camisa havaiana",
+      "titulo": "en:Aloha shirt",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sapato plataforma",
+      "titulo": "en:Platform shoe",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Veludo",
+      "titulo": "en:Velvet",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bota Chelsea",
+      "titulo": "en:Chelsea boot",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cafetã",
+      "titulo": "en:Kaftan",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Djellaba",
+      "titulo": "en:Djellaba",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dashiki",
+      "titulo": "en:Dashiki",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sombrero vueltiao",
+      "titulo": "en:Sombrero vueltiao",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tam o' shanter",
+      "titulo": "en:Tam o' shanter",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Chapéu homburg",
+      "titulo": "en:Homburg (hat)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Peineta",
+      "titulo": "en:Peineta",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Obi",
+      "titulo": "en:Obi (sash)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Zōri",
+      "titulo": "en:Zōri",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sherwani",
+      "titulo": "en:Sherwani",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chullo",
+      "titulo": "en:Chullo",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Bolo tie",
+      "titulo": "en:Bolo tie",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sapato monk",
+      "titulo": "en:Monk shoe",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Xadrez madras",
+      "titulo": "en:Madras (cloth)",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
     }
   ]
 }

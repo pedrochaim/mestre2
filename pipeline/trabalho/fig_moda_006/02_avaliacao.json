@@ -1,0 +1,146 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto histórica do maestro Leonard Bernstein (figura pública) com um blazer listrado bem visível, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de casaco esportivo, de listras largas, ele usa nesta foto?",
+      "resposta": "Blazer",
+      "distratores": [
+        "Jaqueta bomber",
+        "Casaco trench coat",
+        "Cardigã de lã"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Blazer",
+        "descricao": "Casaco esportivo leve, tradicionalmente de lã ou linho, com botões metálicos, mais elegante que a jaqueta esportiva comum e menos formal que o paletó de terno.",
+        "variantes": [
+          "Blazer listrado",
+          "Boating jacket"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pessoa comum (adolescente) em primeiro plano, em pista de patinação."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto limpa, fundo branco, sem texto; geta bem reconhecível pela base de madeira com dentes e tira de tecido.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país vem este calçado tradicional de madeira?",
+      "resposta": "Japão",
+      "destino": 0,
+      "ancora": {
+        "nome": "Geta",
+        "descricao": "Calçado tradicional japonês, tipo de sandália com base plana de madeira elevada por dois dentes e presa ao pé por uma tira de tecido.",
+        "variantes": [
+          "Geta japonesa",
+          "下駄"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Pessoa em primeiro plano, com texto visível (USA e marca TYR) no maiô."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto de bailarinos em cena; a meia-calça não é o assunto claro da imagem e há duas pessoas em primeiro plano."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Gorro de tricô genérico, sem forma ou nome característico; a resposta não é única (gorro, touca, beanie) e a imagem sustenta mal uma pergunta específica."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Kipá bem visível, com estrela de Davi e menorá; o texto em hebraico é decorativo e não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Como se chama este pequeno chapéu sem aba?",
+      "resposta": "Kipá",
+      "destino": 0,
+      "ancora": {
+        "nome": "Kipá",
+        "descricao": "Pequeno chapéu de tecido sem aba, usado tradicionalmente por judeus para cobrir a cabeça.",
+        "variantes": [
+          "Quipá",
+          "Yarmulke",
+          "Kippah"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Chullo com orelheiras e motivos de lhamas, reconhecível; imagem pequena, mas legível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que cadeia de montanhas vem este gorro com orelheiras, tecido em lã?",
+      "resposta": "Andes",
+      "destino": 0,
+      "ancora": {
+        "nome": "Chullo",
+        "descricao": "Gorro andino com orelheiras, feito de lã de alpaca, lhama ou ovelha, com padrões tecidos.",
+        "variantes": [
+          "Chulo",
+          "Ch'ullu"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Mostra carteira de habilitação com foto e nome de pessoa comum e textos legíveis."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Jaqueta de couro com gola de pelo e punhos em malha, claramente do tipo bomber; os patches de empresas aeronáuticas não entregam o nome.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de jaqueta é esta?",
+      "resposta": "Jaqueta bomber",
+      "distratores": [
+        "Jaqueta perfecto",
+        "Jaqueta jeans",
+        "Parca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jaqueta bomber",
+        "descricao": "Jaqueta curta de couro com gola de pelo e punhos e barra de malha, criada para pilotos e depois popularizada como moda.",
+        "variantes": [
+          "Bomber",
+          "Jaqueta de aviador",
+          "Flight jacket"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Tecido xadrez genérico, que podia ser gingham ou madras; a resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Joia antiga com cabeças de animais, que pode ser bracelete ou braçadeira; a resposta não é única e a imagem não dá apoio a uma pergunta clara."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que país vem este calçado tradicional de madeira?",
+        "resposta": "Japão"
+      },
+      "existentes": [
+        {
+          "id": "q15156",
+          "pergunta": "De que país é este calçado tradicional de madeira?",
+          "resposta": "Japão"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Como se chama este pequeno chapéu sem aba?",
+        "resposta": "Kipá"
+      },
+      "existentes": [
+        {
+          "id": "q06938",
+          "pergunta": "Como se chama este tipo de chapéu sem aba?",
+          "resposta": "Quipá"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "De que cadeia de montanhas vem este gorro com orelheiras, tecido em lã?",
+        "resposta": "Andes"
+      },
+      "existentes": [
+        {
+          "id": "q09676",
+          "pergunta": "Que gorro tradicional é este?",
+          "resposta": "Chullo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q15156",
+      "motivo": "Mesma pergunta e resposta: país de origem do calçado (Japão)."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q06938",
+      "motivo": "Ambas pedem o nome do chapéu sem aba: kipá/quipá, mesma resposta."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a cadeia de montanhas de origem (Andes), enquanto a existente pede o nome do gorro (Chullo); são fatos diferentes."
+    }
+  ]
+}
