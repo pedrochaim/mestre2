@@ -1,0 +1,51 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'camisa de estampa tropical' e a origem levam facilmente a Havaí sem a figura. Reescrita pede o reconhecimento da peça sem pista que entregue.",
+      "reescrita": {
+        "pergunta": "Que tipo de camisa de manga curta e estampa colorida é esta?",
+        "resposta": "Camisa havaiana",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Nove noites' é a tradução literal de Navaratri e entrega a resposta. Retirada a pista, o reconhecimento da dança continua necessário.",
+      "reescrita": {
+        "pergunta": "Esta dança circular do estado indiano de Gujarat é praticada em que festival hindu?",
+        "resposta": "Navaratri",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O enunciado define o objeto ('xale de oração de judeus religiosos'), então a figura é enfeite. Não há pista que ajude sem entregar a resposta, e as alternativas de nível 3 também ficam adivinháveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Chapéu de papel cônico' é ambíguo (chapéu de bruxa, de burro) e a resposta traz parênteses desnecessários. Reescrita usa a característica do trecho (elástico sob o queixo) e uma resposta única.",
+      "reescrita": {
+        "pergunta": "Que chapéu cônico de papelão, com elástico sob o queixo, é este?",
+        "resposta": "Chapéu de festa",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que os envelopes vermelhos são dados a crianças e familiares mais jovens no Ano-Novo Chinês. O enunciado não nomeia a figura e o reconhecimento é necessário antes do fato.",
+      "reescrita": null
+    }
+  ]
+}

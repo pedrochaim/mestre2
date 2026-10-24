@@ -1,0 +1,136 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "É uma pintura de uma dançarina, sem identificação clara como flamenco; não é foto de costume e a resposta não é única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Mostra só a arquibancada do hipódromo, sem chapéus nem evento; não dá para reconhecer Ascot nem o Royal Ascot pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Camisas de estampa tropical típica, reconhecíveis e sem texto. Pergunta de origem.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que estado americano é originária esta camisa de estampa tropical?",
+      "resposta": "Havaí",
+      "ancora": {
+        "nome": "Camisa havaiana",
+        "descricao": "Camisa social de manga curta e tecido estampado, originária do Havaí, também chamada aloha shirt.",
+        "variantes": [
+          "Aloha shirt",
+          "Camisa aloha"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "É uma pintura de um menino lendo a Torá numa sinagoga; não mostra com clareza um bar mitzvah, e a resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Dançarinas em trajes típicos com bastões, diante de um templo, em festa pública; permite ligar ao Navaratri.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta dança circular do estado indiano de Gujarat faz parte de que festival hindu de nove noites?",
+      "resposta": "Navaratri",
+      "ancora": {
+        "nome": "Garba",
+        "descricao": "Dança folclórica circular de Gujarat, na Índia, praticada durante o festival hindu de Navaratri.",
+        "variantes": [
+          "Dandiya raas"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Calça justa esportiva com logotipo da marca visível; ambígua entre legging, calça de corrida e collant, e não é um costume."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, fora de festa pública."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Rostos de pessoas comuns (mãe e criança) em primeiro plano, fora de festa pública."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Retrato de pessoa comum em primeiro plano, imagem pequena e granulada."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "O talit, com franjas e listras, é o foco; o rosto do homem está quase todo coberto pelo xale.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que xale de oração, usado por judeus religiosos, é este?",
+      "resposta": "Talit",
+      "ancora": {
+        "nome": "Talit",
+        "descricao": "Xale de oração franjado usado por judeus religiosos, com tzitzit nas quatro pontas.",
+        "variantes": [
+          "Tallit",
+          "Talis",
+          "Talet"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Chapéu cônico de papel colorido, claro e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de chapéu de papel cônico é este?",
+      "resposta": "Chapéu de festa (de aniversário)",
+      "ancora": {
+        "nome": "Chapéu de festa",
+        "descricao": "Chapéu cônico de papelão fino, com estampa e elástico sob o queixo, usado em comemorações.",
+        "variantes": [
+          "Chapéu de aniversário",
+          "Chapéu de aniversário de papel"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Montagem de envelopes vermelhos de uma só tradição; o texto chinês e as marcas pequenas não entregam a resposta.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Estes envelopes costumam ser dados a crianças e familiares em que celebração asiática?",
+      "resposta": "Ano-Novo Chinês",
+      "ancora": {
+        "nome": "Envelope vermelho",
+        "descricao": "Envelope vermelho com dinheiro, dado como presente em festas e ocasiões especiais na cultura chinesa.",
+        "variantes": [
+          "Hongbao",
+          "Ang pau",
+          "Lai see",
+          "Red packet"
+        ]
+      }
+    }
+  ]
+}
