@@ -1,0 +1,500 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Almôndega",
+        "descricao": "Bolinho de carne moída, de forma esférica, cozido em molho ou frito.",
+        "variantes": [
+          "Almôndegas",
+          "Bolinho de carne"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "xiaolongbao",
+          "nome": "Xiaolongbao",
+          "descricao": "Pequeno bolinho chinês recheado e com caldo, cozido no vapor em cesta de bambu.",
+          "variantes": [
+            "Bolinho de sopa",
+            "Soup dumpling"
+          ]
+        },
+        {
+          "id": "amonite",
+          "nome": "Amonite",
+          "descricao": "Grupo extinto de moluscos cefalópodes marinhos de concha em espiral, muito comuns como fósseis.",
+          "variantes": [
+            "Amonoide",
+            "Ammonoidea",
+            "Ammonite"
+          ]
+        },
+        {
+          "id": "linha_de_plimsoll",
+          "nome": "Linha de Plimsoll",
+          "descricao": "Marca pintada no casco dos navios que indica até onde eles podem afundar na água com carga, com segurança.",
+          "variantes": [
+            "Plimsoll line",
+            "Linha de carga",
+            "Disco de Plimsoll"
+          ]
+        },
+        {
+          "id": "bolso_relojoeiro",
+          "nome": "Bolso relojoeiro",
+          "descricao": "Bolsinho costurado dentro do bolso dianteiro direito das calças jeans",
+          "variantes": [
+            "Watch pocket",
+            "Bolsinho do jeans"
+          ]
+        },
+        {
+          "id": "bolinha_de_gude",
+          "nome": "Bolinha de gude",
+          "descricao": "Pequena esfera de vidro usada em jogos infantis.",
+          "variantes": [
+            "Bola de gude",
+            "Berlinde",
+            "Bolita",
+            "Búlica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Club sandwich",
+        "descricao": "Sanduíche de três fatias de pão com frango, bacon, alface, tomate e maionese.",
+        "variantes": [
+          "Clubhouse sandwich",
+          "Sanduíche club"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sanduiche",
+          "nome": "Sanduíche",
+          "descricao": "Alimento feito com recheio entre duas fatias de pão, nome tirado de um título nobre inglês",
+          "variantes": [
+            "Sanduba",
+            "Sandes",
+            "Sandwich",
+            "Sanduche"
+          ]
+        },
+        {
+          "id": "bauru",
+          "nome": "Bauru",
+          "descricao": "Sanduíche brasileiro de rosbife, queijo derretido, tomate e picles no pão francês, criado no bar Ponto Chic",
+          "variantes": [
+            "Bauru (sanduíche)"
+          ]
+        },
+        {
+          "id": "coruja_das_neves",
+          "nome": "Coruja-das-neves",
+          "descricao": "Bubo scandiacus, grande coruja de plumagem branca nativa das regiões árticas.",
+          "variantes": [
+            "Snowy owl",
+            "Bubo scandiacus",
+            "Coruja-branca"
+          ]
+        },
+        {
+          "id": "apendice_vermiforme",
+          "nome": "Apêndice vermiforme",
+          "descricao": "Pequena bolsa em forma de dedo ligada ao início do intestino grosso humano.",
+          "variantes": [
+            "Apêndice",
+            "Apêndice cecal"
+          ]
+        },
+        {
+          "id": "gripe_espanhola",
+          "nome": "Gripe espanhola",
+          "descricao": "Pandemia de gripe que se espalhou pelo mundo entre 1918 e 1920, no fim da Primeira Guerra Mundial.",
+          "variantes": [
+            "Pandemia de gripe de 1918",
+            "Spanish flu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Lagosta Thermidor",
+        "descricao": "Prato francês de carne de lagosta em molho cremoso de vinho, servida na carapaça e gratinada.",
+        "variantes": [
+          "Lobster Thermidor",
+          "Lagosta à Thermidor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lago_superior",
+          "nome": "Lago Superior",
+          "descricao": "Um dos cinco Grandes Lagos da América do Norte, na fronteira entre os Estados Unidos e o Canadá.",
+          "variantes": [
+            "Lake Superior",
+            "Superior"
+          ]
+        },
+        {
+          "id": "crosta_terrestre",
+          "nome": "Crosta terrestre",
+          "descricao": "Camada sólida mais externa da Terra, acima do manto.",
+          "variantes": [
+            "Crosta da Terra",
+            "Earth's crust"
+          ]
+        },
+        {
+          "id": "poste_totemico",
+          "nome": "Poste totêmico",
+          "descricao": "Escultura monumental em madeira de cedro dos povos indígenas da Costa Noroeste do Pacífico.",
+          "variantes": [
+            "Totem",
+            "Totem pole"
+          ]
+        },
+        {
+          "id": "guerra_da_lagosta",
+          "nome": "Guerra da Lagosta",
+          "descricao": "Crise diplomática e naval entre Brasil e França, de 1961 a 1963, sobre a pesca de lagosta no litoral nordestino.",
+          "variantes": [
+            "Lobster War"
+          ]
+        },
+        {
+          "id": "reacao_termidoriana",
+          "nome": "Reação Termidoriana",
+          "descricao": "Golpe de julho de 1794 que derrubou Robespierre e encerrou o período do Terror na Revolução Francesa.",
+          "variantes": [
+            "Golpe do 9 Termidor",
+            "Thermidorian Reaction"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Nugget de frango",
+        "descricao": "Pedaço de carne de frango empanado e frito, popular em redes de fast food.",
+        "variantes": [
+          "Chicken nugget",
+          "Nuggets"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coxinha",
+          "nome": "Coxinha",
+          "descricao": "Salgado brasileiro frito, em forma de gota, recheado com frango desfiado.",
+          "variantes": [
+            "Coxinha de frango"
+          ]
+        },
+        {
+          "id": "macarrao_instantaneo",
+          "nome": "Macarrão instantâneo",
+          "descricao": "Macarrão pré-cozido e desidratado, pronto em poucos minutos, lançado no Japão em 1958 pela Nissin com o nome Chicken Ramen.",
+          "variantes": [
+            "Miojo",
+            "Lámen instantâneo",
+            "Instant noodles",
+            "Chicken Ramen"
+          ]
+        },
+        {
+          "id": "nuragues",
+          "nome": "Nuragues",
+          "descricao": "Torres de pedra em forma de cone erguidas na Idade do Bronze pela civilização nurágica.",
+          "variantes": [
+            "Nuraghe",
+            "Nuraghi"
+          ]
+        },
+        {
+          "id": "sundae",
+          "nome": "Sundae",
+          "descricao": "Sobremesa gelada de sorvete coberto com calda e outros acompanhamentos, de origem americana.",
+          "variantes": [
+            "Sundae de morango"
+          ]
+        },
+        {
+          "id": "circulo_de_fogo_do_pacifico",
+          "nome": "Círculo de Fogo do Pacífico",
+          "descricao": "Faixa de intensa atividade vulcânica e sísmica que contorna as bordas de um oceano.",
+          "variantes": [
+            "Anel de Fogo",
+            "Cinturão de Fogo",
+            "Ring of Fire",
+            "Cinturão de Fogo do Pacífico",
+            "Anel de Fogo do Pacífico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Bolinho de bacalhau",
+        "descricao": "Petisco português frito feito de bacalhau, batata, ovos e salsa.",
+        "variantes": [
+          "Pastel de bacalhau",
+          "Bolinhos de bacalhau"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "battle_chateau",
+          "nome": "Battle Château",
+          "descricao": "Castelo de batalhas da região de Kalos, nos jogos Pokémon X e Y, onde os treinadores sobem de posto a cada vitória.",
+          "variantes": [
+            "Castelo de Batalha"
+          ]
+        },
+        {
+          "id": "pastel_de_nata",
+          "nome": "Pastel de nata",
+          "descricao": "Tortinha portuguesa de massa folhada recheada com creme de ovos.",
+          "variantes": [
+            "Pastéis de nata",
+            "Pastel de Belém"
+          ]
+        },
+        {
+          "id": "xiaolongbao",
+          "nome": "Xiaolongbao",
+          "descricao": "Pequeno bolinho chinês recheado e com caldo, cozido no vapor em cesta de bambu.",
+          "variantes": [
+            "Bolinho de sopa",
+            "Soup dumpling"
+          ]
+        },
+        {
+          "id": "cajuzinho",
+          "nome": "Cajuzinho",
+          "descricao": "Docinho brasileiro de massa de amendoim moldado em forma de caju, passado em açúcar.",
+          "variantes": [
+            "Docinho de caju"
+          ]
+        },
+        {
+          "id": "radiometro_de_crookes",
+          "nome": "Radiômetro de Crookes",
+          "descricao": "Bulbo de vidro com vácuo parcial e pás que giram sob a luz, inventado por William Crookes em 1873.",
+          "variantes": [
+            "Moinho de luz",
+            "Crookes radiometer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tonkatsu",
+        "descricao": "Prato japonês de lombo ou filé de porco empanado com panko e frito.",
+        "variantes": [
+          "Costeleta de porco empanada japonesa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "honchkrow",
+          "nome": "Honchkrow",
+          "descricao": "Pokémon dos tipos Sombrio e Voador, número 430 da Pokédex Nacional.",
+          "variantes": [
+            "Donkarasu"
+          ]
+        },
+        {
+          "id": "tinkatuff",
+          "nome": "Tinkatuff",
+          "descricao": "Pokémon dos tipos Fada e Aço, número 958 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "wobbuffet",
+          "nome": "Wobbuffet",
+          "descricao": "Pokémon do tipo Psíquico, número 202 da Pokédex Nacional.",
+          "variantes": [
+            "Sonans",
+            "Sōnansu"
+          ]
+        },
+        {
+          "id": "natu",
+          "nome": "Natu",
+          "descricao": "Pokémon pássaro psíquico e voador, número 177 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "sabrina",
+          "nome": "Sabrina",
+          "descricao": "Líder do ginásio de tipo Psíquico de Saffron, em Kanto, nos jogos e no anime Pokémon.",
+          "variantes": [
+            "Natsume"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Fettuccine Alfredo",
+        "descricao": "Prato de fettuccine com manteiga e parmesão, ou molho cremoso de queijo, criado em Roma.",
+        "variantes": [
+          "Fettuccine al burro",
+          "Alfredo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "albedo",
+          "nome": "Albedo",
+          "descricao": "Fração da luz solar que uma superfície reflete, importante para o equilíbrio de temperatura da Terra.",
+          "variantes": []
+        },
+        {
+          "id": "alfred_nobel",
+          "nome": "Alfred Nobel",
+          "descricao": "Químico e industrial sueco (1833–1896), inventor da dinamite e criador do Prêmio Nobel.",
+          "variantes": [
+            "Alfred Bernhard Nobel"
+          ]
+        },
+        {
+          "id": "alfa_romeo",
+          "nome": "Alfa Romeo",
+          "descricao": "Fabricante italiana de automóveis fundada em Milão em 1910.",
+          "variantes": [
+            "A.L.F.A."
+          ]
+        },
+        {
+          "id": "alfredo_volpi",
+          "nome": "Alfredo Volpi",
+          "descricao": "Pintor modernista nascido em Lucca, na Itália, em 1896, e radicado em São Paulo, onde morreu em 1988.",
+          "variantes": [
+            "Volpi"
+          ]
+        },
+        {
+          "id": "barreado",
+          "nome": "Barreado",
+          "descricao": "Prato de carne cozida por muitas horas em panela de barro vedada com massa de farinha, típico do litoral sul do Brasil",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Carbonara",
+        "descricao": "Massa italiana do Lazio com porco curado, queijo duro, ovos e pimenta-do-reino.",
+        "variantes": [
+          "Espaguete à carbonara",
+          "Spaghetti alla carbonara"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "penarol",
+          "nome": "Peñarol",
+          "descricao": "Clube de futebol de Montevidéu, no Uruguai, de camisa listrada em preto e amarelo.",
+          "variantes": [
+            "Club Atlético Peñarol",
+            "Carbonero"
+          ]
+        },
+        {
+          "id": "carcara",
+          "nome": "Carcará",
+          "descricao": "Falconídeo (Caracara plancus) de topete preto, rosto alaranjado e pernas amarelas, comum em campos abertos da América do Sul.",
+          "variantes": [
+            "Caracará",
+            "Crested caracara",
+            "Caracara plancus"
+          ]
+        },
+        {
+          "id": "cabra",
+          "nome": "Cabra",
+          "descricao": "Cabra-doméstica, Capra hircus, mamífero criado para leite, carne e pele.",
+          "variantes": [
+            "Bode",
+            "Cabra-doméstica",
+            "Capra hircus"
+          ]
+        },
+        {
+          "id": "caronte_2",
+          "nome": "Caronte",
+          "descricao": "Personagem da mitologia grega que levava as almas dos mortos através do rio do mundo inferior.",
+          "variantes": [
+            "Charon",
+            "Caron"
+          ]
+        },
+        {
+          "id": "capivara",
+          "nome": "Capivara",
+          "descricao": "Roedor semiaquático sul-americano, espécie Hydrochoerus hydrochaeris.",
+          "variantes": [
+            "Hydrochoerus hydrochaeris",
+            "Capybara"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é almôndega."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Club sandwich é um sanduíche específico, distinto do genérico Sanduíche e do Bauru."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Prato distinto; candidatas são lago, guerra e reação histórica, não o prato."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nugget não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Bolinho de bacalhau não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Tonkatsu não tem correspondente; candidatas são Pokémon."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Prato de massa distinto de pessoas, marcas e outros pratos."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Prato de massa sem correspondente entre as candidatas."
+    }
+  ]
+}

@@ -873,7 +873,7 @@
       "titulo": "en:Sandwich",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Pavê",
@@ -1399,6 +1399,286 @@
       "camada": 3,
       "destino": 0,
       "status": "usada"
+    },
+    {
+      "nome": "Tapioca",
+      "titulo": "pt:Tapioca",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bolinho de chuva",
+      "titulo": "pt:Bolinho de chuva",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rapadura",
+      "titulo": "pt:Rapadura",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Misto-quente",
+      "titulo": "pt:Misto-quente",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Requeijão",
+      "titulo": "pt:Requeijão",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Queijo minas",
+      "titulo": "pt:Queijo minas",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mortadela",
+      "titulo": "en:Mortadella",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bacon",
+      "titulo": "en:Bacon",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Iogurte",
+      "titulo": "en:Yogurt",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Manteiga",
+      "titulo": "en:Butter",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Almôndega",
+      "titulo": "en:Meatball",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Nugget de frango",
+      "titulo": "en:Chicken nugget",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Torrada",
+      "titulo": "en:Toast",
+      "camada": 1,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Café com leite",
+      "titulo": "en:Café au lait",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bolinho de bacalhau",
+      "titulo": "en:Pastéis de bacalhau",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Camarão na moranga",
+      "titulo": "pt:Camarão na moranga",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pirão",
+      "titulo": "pt:Pirão",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Queijo coalho",
+      "titulo": "en:Queijo coalho",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Carbonara",
+      "titulo": "en:Carbonara",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Fettuccine Alfredo",
+      "titulo": "en:Fettuccine Alfredo",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Chili com carne",
+      "titulo": "en:Chili con carne",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pão sírio",
+      "titulo": "en:Pita",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Naan",
+      "titulo": "en:Naan",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Curry",
+      "titulo": "en:Curry",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cuba libre",
+      "titulo": "en:Rum and Coke",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Gorgonzola",
+      "titulo": "en:Gorgonzola",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Club sandwich",
+      "titulo": "en:Club sandwich",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Francesinha",
+      "titulo": "en:Francesinha",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cozido à portuguesa",
+      "titulo": "en:Cozido à portuguesa",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bolo Souza Leão",
+      "titulo": "pt:Bolo Souza Leão",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Arroz de cuxá",
+      "titulo": "pt:Arroz de cuxá",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vaca atolada",
+      "titulo": "pt:Vaca atolada",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lagosta Thermidor",
+      "titulo": "en:Lobster Thermidor",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Mexilhões com fritas",
+      "titulo": "en:Moules-frites",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Burrata",
+      "titulo": "en:Burrata",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tonkatsu",
+      "titulo": "en:Tonkatsu",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Soju",
+      "titulo": "en:Soju",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Gemada",
+      "titulo": "en:Eggnog",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Frango tandoori",
+      "titulo": "en:Tandoori chicken",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Camembert",
+      "titulo": "en:Camembert",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }

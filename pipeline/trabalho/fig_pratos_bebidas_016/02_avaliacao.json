@@ -1,0 +1,205 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Dois copos de bebida escura com gelo e limão: indistinguível de qualquer outro refrigerante de cola ou drinque; resposta não é única pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Almôndegas douradas com ervilhas e tomate em panela, claras e reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que prato é este?",
+      "resposta": "Almôndega",
+      "destino": 0,
+      "ancora": {
+        "nome": "Almôndega",
+        "descricao": "Bolinho de carne moída, de forma esférica, cozido em molho ou frito.",
+        "variantes": [
+          "Almôndegas",
+          "Bolinho de carne"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Sanduíche de três fatias de pão torrado com frango, bacon, alface e tomate, com batata chips; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sanduíche é este?",
+      "resposta": "Club sandwich",
+      "distratores": [
+        "Croque monsieur",
+        "Bauru",
+        "Sanduíche Reuben"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Club sandwich",
+        "descricao": "Sanduíche de três fatias de pão com frango, bacon, alface, tomate e maionese.",
+        "variantes": [
+          "Clubhouse sandwich",
+          "Sanduíche club"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Lagosta gratinada servida na carapaça com crosta dourada de queijo; reconhecível como Thermidor, com múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato clássico da cozinha francesa é este?",
+      "resposta": "Lagosta Thermidor",
+      "distratores": [
+        "Lagosta grelhada",
+        "Lagosta à Newburg",
+        "Bisque de lagosta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lagosta Thermidor",
+        "descricao": "Prato francês de carne de lagosta em molho cremoso de vinho, servida na carapaça e gratinada.",
+        "variantes": [
+          "Lobster Thermidor",
+          "Lagosta à Thermidor"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Nuggets empanados sobre fundo branco, com um pedaço mordido mostrando a carne; claro.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que alimento é este?",
+      "resposta": "Nugget de frango",
+      "destino": 0,
+      "ancora": {
+        "nome": "Nugget de frango",
+        "descricao": "Pedaço de carne de frango empanado e frito, popular em redes de fast food.",
+        "variantes": [
+          "Chicken nugget",
+          "Nuggets"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bolinhos fritos dourados com ervas, típicos do bolinho de bacalhau; sem texto. Usa múltipla por haver fritos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que petisco português é este?",
+      "resposta": "Bolinho de bacalhau",
+      "distratores": [
+        "Bolinho de arroz",
+        "Croquete de carne",
+        "Pão de queijo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bolinho de bacalhau",
+        "descricao": "Petisco português frito feito de bacalhau, batata, ovos e salsa.",
+        "variantes": [
+          "Pastel de bacalhau",
+          "Bolinhos de bacalhau"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Costeleta empanada com panko, fatiada, em bandeja com grade, estilo japonês; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato japonês é este?",
+      "resposta": "Tonkatsu",
+      "distratores": [
+        "Tempura",
+        "Karaage",
+        "Korokke"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tonkatsu",
+        "descricao": "Prato japonês de lombo ou filé de porco empanado com panko e frito.",
+        "variantes": [
+          "Costeleta de porco empanada japonesa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A embalagem mostra o texto 'Requeijão do campo', que entrega a resposta; além disso é um queijo fresco português, não o requeijão cremoso brasileiro."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Ninho de fettuccine com molho cremoso claro, sem texto; reconhecível com múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato de massa é este?",
+      "resposta": "Fettuccine Alfredo",
+      "distratores": [
+        "Fettuccine ao pesto",
+        "Fettuccine à bolonhesa",
+        "Fettuccine carbonara"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fettuccine Alfredo",
+        "descricao": "Prato de fettuccine com manteiga e parmesão, ou molho cremoso de queijo, criado em Roma.",
+        "variantes": [
+          "Fettuccine al burro",
+          "Alfredo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O copo traz o nome da marca em coreano (Chamisul), texto que identifica o soju; além disso, bebida transparente em copo é pouco reconhecível."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Sanduíche de presunto e pepino: a resposta 'sanduíche' é genérica e não única; a imagem não permite resposta específica."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Espaguete com cubos de carne de porco curada, queijo ralado e pimenta-do-reino; carbonara clara, múltipla com massas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato de massa italiano é este?",
+      "resposta": "Carbonara",
+      "distratores": [
+        "Cacio e pepe",
+        "Alfredo",
+        "Amatriciana"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Carbonara",
+        "descricao": "Massa italiana do Lazio com porco curado, queijo duro, ovos e pimenta-do-reino.",
+        "variantes": [
+          "Espaguete à carbonara",
+          "Spaghetti alla carbonara"
+        ]
+      }
+    }
+  ]
+}
