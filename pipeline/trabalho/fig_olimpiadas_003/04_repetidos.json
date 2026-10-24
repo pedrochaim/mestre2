@@ -1,0 +1,75 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade esta judoca brasileira conquistou o ouro olímpico?",
+        "resposta": "Rio de Janeiro"
+      },
+      "existentes": [
+        {
+          "id": "q01671",
+          "pergunta": "Quem é esta judoca brasileira, campeã olímpica no Rio de Janeiro em 2016?",
+          "resposta": "Rafaela Silva"
+        },
+        {
+          "id": "q01978",
+          "pergunta": "A judoca Rafaela Silva cresceu e começou a treinar em que comunidade carioca, que também dá nome a um filme famoso?",
+          "resposta": "Cidade de Deus"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que sítio arqueológico grego é este?",
+        "resposta": "Olímpia"
+      },
+      "existentes": [
+        {
+          "id": "q03228",
+          "pergunta": "Que tradição dos Jogos Olímpicos modernos começa nas ruínas de Olímpia, com raios de sol concentrados por um espelho?",
+          "resposta": "O acendimento da chama olímpica"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que ano esta judoca brasileira conquistou o ouro olímpico?",
+        "resposta": "2012"
+      },
+      "existentes": [
+        {
+          "id": "q06649",
+          "pergunta": "A piauiense Sarah Menezes tornou-se a primeira brasileira campeã olímpica de judô em que edição dos Jogos?",
+          "resposta": "Londres 2012"
+        },
+        {
+          "id": "q14373",
+          "pergunta": "Que judoca brasileira é esta?",
+          "resposta": "Sarah Menezes"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "A pergunta existente q01671 já informa que a campeã olímpica foi no Rio de Janeiro em 2016, então quem sabe uma sabe a outra.",
+      "id_existente": "q01671"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede identificação do sítio por imagem. A existente pergunta qual tradição começa lá, que é outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "A existente q06649 pergunta a edição dos Jogos (Londres 2012) em que Sarah Menezes ganhou o ouro, que é o mesmo fato que o ano 2012.",
+      "id_existente": "q06649"
+    }
+  ]
+}
