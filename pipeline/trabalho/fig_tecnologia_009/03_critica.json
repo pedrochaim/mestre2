@@ -1,0 +1,33 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a popularidade do formato do meio dos anos 1960 ao início dos 1980 e o uso em carros. O enunciado não nomeia a resposta, e a pista \"em carros\" não basta sem a imagem, porque a fita cassete também era usada em carros. Os distratores são formatos de áudio do mesmo tipo, e nenhum descreve a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de nível 1 e direta. O enunciado só diz \"aparelho de uso na cabeça\", sem entregar a resposta, e a imagem decide. O trecho define o equipamento como um aparelho montado na cabeça que fornece realidade virtual.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista \"gerador de faíscas de alta tensão\" descreve a função da bobina (\"spark coil\") e entrega a resposta com a imagem coberta. Também faz o distrator Máquina de Wimshurst, que é do século dezenove e produz faíscas, ficar defensável pelo texto. A reescrita tira a pista de função e mantém só a época, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que aparelho elétrico, inventado no século dezenove, é este?",
+        "resposta": "Bobina de Ruhmkorff",
+        "distratores": [
+          "Máquina de Wimshurst",
+          "Gerador de Van de Graaff",
+          "Garrafa de Leiden"
+        ]
+      }
+    }
+  ]
+}

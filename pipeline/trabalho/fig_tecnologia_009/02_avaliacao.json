@@ -1,0 +1,120 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Logotipo 'PS2 PlayStation 2' e 'SONY' visíveis no console entregam a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "'Nintendo GameCube' escrito no console e no controle entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto com legendas em alemão (Spiegel, Laser, Schirm etc.), é um diagrama rotulado com texto."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cartucho aberto sem texto, com o rolo único de fita em laço, característico; imagem pequena, mas legível. Pergunta de reconhecimento do formato com distratores de mídias sonoras.",
+      "pergunta": "Que formato de áudio é este, popular em carros nas décadas de sessenta e setenta?",
+      "resposta": "Cartucho de 8 pistas",
+      "tipo": "multipla",
+      "distratores": [
+        "Fita cassete",
+        "Fita de rolo",
+        "Disco de vinil"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Cartucho de 8 pistas",
+        "descricao": "Formato de fita magnética de áudio em cartucho de laço contínuo, popular de meados dos anos 1960 ao início dos anos 1980.",
+        "variantes": [
+          "8-track",
+          "Stereo 8",
+          "Fita de oito pistas"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "'sinclair' e 'ZX81' impressos no aparelho entregam a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "'Wii' escrito no console e no controle entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A imagem é uma página de texto do Museu da Pessoa, sem relação com uma placa-mãe."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Aparece texto: marca 'Zeiss Aerotopo' e a prancha 'Prüfungstafel für stereoskopisches Sehen', que denuncia o assunto."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Headset de VR visto por trás, sem texto legível, lentes e tiras características; reconhecível.",
+      "pergunta": "Que aparelho de uso na cabeça é este?",
+      "resposta": "Óculos de realidade virtual",
+      "tipo": "aberta",
+      "distratores": [],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Óculos de realidade virtual",
+        "descricao": "Aparelho de uso na cabeça com telas junto aos olhos e rastreamento de movimento, que cria um ambiente de realidade virtual.",
+        "variantes": [
+          "Headset de realidade virtual",
+          "Headset VR",
+          "Visor de realidade virtual"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "'amazonkindle' escrito no aparelho entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Gravura sem texto de bobina de indução com grande cilindro e interruptor vibratório; reconhecível. Múltipla com aparelhos elétricos históricos como distratores.",
+      "pergunta": "Que aparelho elétrico do século dezenove, gerador de faíscas de alta tensão, é este?",
+      "resposta": "Bobina de Ruhmkorff",
+      "tipo": "multipla",
+      "distratores": [
+        "Máquina de Wimshurst",
+        "Gerador de Van de Graaff",
+        "Garrafa de Leiden"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Bobina de indução (Ruhmkorff)",
+        "descricao": "Tipo de transformador que produz pulsos de alta tensão a partir de corrente contínua, usando um interruptor vibratório; inventada em 1836.",
+        "variantes": [
+          "Bobina de Ruhmkorff",
+          "Bobina de indução",
+          "Indutório"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "'Nintendo DS' impresso no aparelho entrega a resposta."
+    }
+  ]
+}

@@ -383,7 +383,7 @@
       "titulo": "en:Motherboard",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Placa de vídeo",
@@ -839,6 +839,286 @@
       "camada": 3,
       "destino": 1,
       "status": "usada"
+    },
+    {
+      "nome": "PlayStation 2",
+      "titulo": "en:PlayStation 2",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Wii",
+      "titulo": "en:Wii",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Nintendo DS",
+      "titulo": "en:Nintendo DS",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "iPad (primeira geração)",
+      "titulo": "en:IPad (1st generation)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Forno de micro-ondas",
+      "titulo": "en:Microwave oven",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Telefone sem fio",
+      "titulo": "en:Cordless telephone",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Impressora a jato de tinta",
+      "titulo": "en:Inkjet printing",
+      "camada": 1,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Lâmpada fluorescente compacta",
+      "titulo": "en:Compact fluorescent lamp",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nintendo Switch",
+      "titulo": "en:Nintendo Switch",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Xbox 360",
+      "titulo": "en:Xbox 360",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bateria de 9 volts",
+      "titulo": "en:Nine-volt battery",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Óculos de realidade virtual",
+      "titulo": "en:Virtual reality headset",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Relógio inteligente",
+      "titulo": "en:Smartwatch",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Game Boy Color",
+      "titulo": "en:Game Boy Color",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sega Saturn",
+      "titulo": "en:Sega Saturn",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Game Gear",
+      "titulo": "en:Game Gear",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "GameCube",
+      "titulo": "en:GameCube",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Furby",
+      "titulo": "en:Furby",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Speak & Spell",
+      "titulo": "en:Speak & Spell (toy)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Genius (jogo Simon)",
+      "titulo": "en:Simon (game)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Game & Watch",
+      "titulo": "en:Game & Watch",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Kindle",
+      "titulo": "en:Amazon Kindle",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Sputnik 1",
+      "titulo": "en:Sputnik 1",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cartucho de 8 pistas",
+      "titulo": "en:8-track cartridge",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Gravador de rolo",
+      "titulo": "en:Reel-to-reel audio tape recording",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Projetor de slides",
+      "titulo": "en:Slide projector",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "View-Master",
+      "titulo": "en:View-Master",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "PDP-11",
+      "titulo": "en:PDP-11",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Commodore PET",
+      "titulo": "en:Commodore PET",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "BBC Micro",
+      "titulo": "en:BBC Micro",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sinclair ZX81",
+      "titulo": "en:Sinclair ZX81",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Connection Machine",
+      "titulo": "en:Connection Machine",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Acoplador acústico",
+      "titulo": "en:Acoustic coupler",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Perfuradora de cartões",
+      "titulo": "en:Keypunch",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Memória de linha de retardo",
+      "titulo": "en:Delay-line memory",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Máquina de Wimshurst",
+      "titulo": "en:Wimshurst machine",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Interferômetro de Michelson",
+      "titulo": "en:Michelson interferometer",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Bobina de indução (Ruhmkorff)",
+      "titulo": "en:Induction coil",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Eolípila",
+      "titulo": "en:Aeolipile",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estereoscópio",
+      "titulo": "en:Stereoscope",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
     }
   ]
 }
