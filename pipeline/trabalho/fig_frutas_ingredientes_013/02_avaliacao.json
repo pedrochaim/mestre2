@@ -1,0 +1,179 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Macro de cristais brancos que podem ser confundidos com sal grosso; resposta não é única diante da imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Figos verdes na árvore, folhas lobadas características; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fruta é esta, ainda verde, pendurada na árvore?",
+      "resposta": "Figo",
+      "distratores": [
+        "Pera",
+        "Goiaba",
+        "Caqui"
+      ],
+      "ancora": {
+        "nome": "Figo",
+        "descricao": "Fruto da figueira-comum (Ficus carica), nativa da região mediterrânea.",
+        "variantes": [
+          "Figo-comum",
+          "Ficus carica"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Vagens marrons penduradas em árvore de folhas compostas; típico do tamarindeiro.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fruta, de vagens marrons como estas, cresce nesta árvore?",
+      "resposta": "Tamarindo",
+      "distratores": [
+        "Jatobá",
+        "Alfarroba",
+        "Ingá"
+      ],
+      "ancora": {
+        "nome": "Tamarindo",
+        "descricao": "Fruto em vagem do tamarindeiro (Tamarindus indica), de polpa doce e azeda.",
+        "variantes": [
+          "Tamarindus indica"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fatia de bacon frita sobre fundo branco, clara e legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que alimento é esta fatia frita?",
+      "resposta": "Bacon",
+      "distratores": [
+        "Presunto cru",
+        "Linguiça calabresa",
+        "Carne-seca"
+      ],
+      "ancora": {
+        "nome": "Bacon",
+        "descricao": "Carne de porco curada em sal, geralmente da barriga, servida em fatias fritas.",
+        "variantes": [
+          "Toucinho defumado",
+          "Bacon frito"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Folhas secas de alga nori, muito características.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que alga seca, em folhas, é esta?",
+      "resposta": "Nori",
+      "distratores": [
+        "Wakame",
+        "Kombu",
+        "Espirulina"
+      ],
+      "ancora": {
+        "nome": "Alga nori",
+        "descricao": "Alga vermelha seca em folhas finas, usada na culinária japonesa para enrolar sushi.",
+        "variantes": [
+          "Nori",
+          "Pyropia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Imagem pequena e de baixa resolução, mostra uma palmeira jovem sem fruto visível; não reconhecível como tucumã."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Líquido escuro numa tigela pode ser vinagre balsâmico, molho inglês ou outro; resposta não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Mostra palmeiras num cenário de deserto com mesa de piquenique, sem frutos; não evidencia a tâmara nem a tamareira com clareza."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Só folhas de uma muda, sem fruto nem flor; não reconhecível como cambucá."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Fatia de doce escuro pode ser goiabada, marmelada ou outro doce de massa; resposta não é única pela imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Feijões claros com mancha preta característica; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que feijão é este?",
+      "resposta": "Feijão-fradinho",
+      "distratores": [
+        "Feijão-branco",
+        "Feijão-azuki",
+        "Feijão-carioca"
+      ],
+      "ancora": {
+        "nome": "Feijão-fradinho",
+        "descricao": "Feijão claro com uma mancha preta no hilo, subespécie do feijão-caupi (Vigna unguiculata).",
+        "variantes": [
+          "Fradinho",
+          "Feijão-de-olho-preto",
+          "Black-eyed pea"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Frutos amarelo-esverdeados em ramos com folíolos, típicos do cajá; razoavelmente reconhecível, com múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fruta nordestina é esta, ainda na árvore?",
+      "resposta": "Cajá",
+      "distratores": [
+        "Umbu",
+        "Azeitona",
+        "Pequi"
+      ],
+      "ancora": {
+        "nome": "Cajá",
+        "descricao": "Fruto da cajazeira (Spondias mombin), amarelo, de polpa fina e azedinha, comum no Nordeste do Brasil.",
+        "variantes": [
+          "Taperebá",
+          "Cajá-mirim",
+          "Spondias mombin"
+        ]
+      }
+    }
+  ]
+}

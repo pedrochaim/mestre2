@@ -1,0 +1,62 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia a fruta, pistas genéricas; figo é o fruto da figueira (trecho). Distratores plausíveis e distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tamarindo é vagem de árvore leguminosa (trecho). A pista 'vagens marrons' não entrega sozinha, pois há outras frutas em vagem (jatobá, alfarroba, ingá), distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bacon é carne de porco curada, em fatias fritas; enunciado não vaza. Distratores do mesmo tipo (carnes curadas).",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Alga seca, em folhas' descreve a nori sem olhar a figura (teste da imagem coberta); a figura vira enfeite. Troca por pista só de origem e distrator de grupo mais parecido (hijiki em vez de espirulina, que não é alga japonesa em folha).",
+      "reescrita": {
+        "pergunta": "Que alga usada na culinária japonesa é esta?",
+        "resposta": "Nori",
+        "distratores": [
+          "Wakame",
+          "Kombu",
+          "Hijiki"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado mínimo, sem vazamento; fradinho aparece nos trechos como o feijão do acarajé. Distratores são outros feijões visualmente diferentes e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Distratores fracos: azeitona não é fruta nordestina e pequi é do Cerrado, o que denuncia a resposta; umbu é de fato nordestino. Troca por frutas parecidas e igualmente do Nordeste, para a figura decidir.",
+      "reescrita": {
+        "pergunta": "Que fruta nordestina é esta, ainda na árvore?",
+        "resposta": "Cajá",
+        "distratores": [
+          "Umbu",
+          "Seriguela",
+          "Mangaba"
+        ]
+      }
+    }
+  ]
+}
