@@ -1,0 +1,309 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Estreptococo",
+        "descricao": "Gênero de bactérias esféricas gram-positivas que se dividem em um só eixo e formam pares ou cadeias.",
+        "variantes": [
+          "Streptococcus",
+          "Estreptococos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estetoscopio",
+          "nome": "Estetoscópio",
+          "descricao": "Instrumento médico para ouvir sons do coração e dos pulmões, inventado pelo francês René Laennec em 1816.",
+          "variantes": [
+            "Estetoscópio de Laennec"
+          ]
+        },
+        {
+          "id": "estroncio",
+          "nome": "Estrôncio",
+          "descricao": "Elemento químico de número atômico 38, metal alcalino-terroso cujos sais dão a cor vermelha aos fogos de artifício.",
+          "variantes": [
+            "Sr"
+          ]
+        },
+        {
+          "id": "estocolmo",
+          "nome": "Estocolmo",
+          "descricao": "Capital da Suécia, espalhada por ilhas onde o lago Mälaren encontra o mar Báltico.",
+          "variantes": [
+            "Stockholm"
+          ]
+        },
+        {
+          "id": "sirius",
+          "nome": "Sírius",
+          "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+          "variantes": [
+            "Alfa do Cão Maior",
+            "Estrela do Cão"
+          ]
+        },
+        {
+          "id": "metecos",
+          "nome": "Metecos",
+          "descricao": "Estrangeiros livres que residiam em Atenas, pagavam imposto e serviam no exército, mas não tinham direitos políticos.",
+          "variantes": [
+            "Meteco",
+            "Metic",
+            "Métoikos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Hipotálamo",
+        "descricao": "Pequena região do diencéfalo, abaixo do tálamo, que liga o sistema nervoso ao endócrino via hipófise.",
+        "variantes": [
+          "Hypothalamus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hipopotamo",
+          "nome": "Hipopótamo",
+          "descricao": "Grande mamífero semiaquático africano, espécie Hippopotamus amphibius.",
+          "variantes": [
+            "Hippopotamus amphibius",
+            "Hippopotamus",
+            "Hipopótamo-comum"
+          ]
+        },
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala",
+            "Potala Palace"
+          ]
+        },
+        {
+          "id": "talamo",
+          "nome": "Tálamo",
+          "descricao": "Grande massa de substância cinzenta do diencéfalo que retransmite sinais sensoriais e motores ao córtex cerebral.",
+          "variantes": [
+            "Tálamo cerebral"
+          ]
+        },
+        {
+          "id": "hipocampo",
+          "nome": "Hipocampo",
+          "descricao": "Estrutura do cérebro ligada à formação de memórias.",
+          "variantes": [
+            "Hippocampus"
+          ]
+        },
+        {
+          "id": "jotalhao",
+          "nome": "Jotalhão",
+          "descricao": "Elefante verde da Turma da Mata, nos quadrinhos de Mauricio de Sousa.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Caixa torácica",
+        "descricao": "Estrutura óssea do tórax formada por costelas, esterno e vértebras torácicas, que protege coração e pulmões.",
+        "variantes": [
+          "Gaiola torácica",
+          "Tórax ósseo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caixa_eletronico",
+          "nome": "Caixa eletrônico",
+          "descricao": "Máquina de autoatendimento bancário que permite sacar dinheiro sem passar pelo caixa humano.",
+          "variantes": [
+            "ATM",
+            "Caixa automático"
+          ]
+        },
+        {
+          "id": "tornassol",
+          "nome": "Tornassol",
+          "descricao": "Corante extraído de líquens, usado em papel indicador que muda de cor conforme a acidez.",
+          "variantes": [
+            "Papel de tornassol",
+            "Litmus"
+          ]
+        },
+        {
+          "id": "ouro_preto",
+          "nome": "Ouro Preto",
+          "descricao": "Cidade histórica de Minas Gerais, centro do ciclo do ouro e palco da Inconfidência Mineira.",
+          "variantes": [
+            "Vila Rica"
+          ]
+        },
+        {
+          "id": "raia_eletrica",
+          "nome": "Raia-elétrica",
+          "descricao": "Raia da ordem Torpediniformes capaz de produzir descargas elétricas para atordoar presas.",
+          "variantes": [
+            "Torpedo",
+            "Tremelga",
+            "Electric ray"
+          ]
+        },
+        {
+          "id": "federico_garcia_lorca",
+          "nome": "Federico García Lorca",
+          "descricao": "Poeta e dramaturgo espanhol (1898–1936), autor de Bodas de Sangue.",
+          "variantes": [
+            "García Lorca",
+            "Lorca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sistema nervoso",
+        "descricao": "Sistema formado por encéfalo, medula e nervos que coordena ações e informações sensoriais do corpo.",
+        "variantes": [
+          "Sistema nervoso humano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sistema_binario",
+          "nome": "Sistema binário",
+          "descricao": "Sistema de numeração que usa apenas os algarismos zero e um, base da computação digital.",
+          "variantes": [
+            "Numeração binária",
+            "Base dois",
+            "Sistema de numeração binário",
+            "Binary number"
+          ]
+        },
+        {
+          "id": "fator_rh",
+          "nome": "Fator Rh",
+          "descricao": "Antígeno das hemácias que define se o sangue é Rh positivo ou negativo.",
+          "variantes": [
+            "Sistema Rh",
+            "Fator Rhesus"
+          ]
+        },
+        {
+          "id": "sistema_abo",
+          "nome": "Sistema ABO",
+          "descricao": "Classificação dos grupos sanguíneos humanos em A, B, AB e O.",
+          "variantes": [
+            "Grupos sanguíneos ABO",
+            "ABO blood group system"
+          ]
+        },
+        {
+          "id": "a_tabela_periodica",
+          "nome": "A Tabela Periódica",
+          "descricao": "Livro de contos de 1975 do escritor e químico italiano Primo Levi, com capítulos nomeados por elementos químicos.",
+          "variantes": [
+            "Il sistema periodico",
+            "The Periodic Table"
+          ]
+        },
+        {
+          "id": "sistema_zw_de_determinacao_do_sexo",
+          "nome": "Sistema ZW de determinação do sexo",
+          "descricao": "Sistema cromossômico das aves e de alguns répteis e insetos, em que as fêmeas têm dois cromossomos sexuais diferentes.",
+          "variantes": [
+            "Sistema ZW",
+            "ZW sex-determination system"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Músculo sóleo",
+        "descricao": "Músculo potente da parte posterior da perna, sob o gastrocnêmio, que vai de abaixo do joelho ao calcanhar.",
+        "variantes": [
+          "Sóleo",
+          "Soleus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "solon",
+          "nome": "Sólon",
+          "descricao": "Legislador e poeta ateniense do início do século seis a.C., autor de reformas que aboliram a escravidão por dívidas.",
+          "variantes": []
+        },
+        {
+          "id": "solgaleo",
+          "nome": "Solgaleo",
+          "descricao": "Pokémon dos tipos Psíquico e Aço, número 791 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "musculo_sartorio",
+          "nome": "Músculo sartório",
+          "descricao": "Músculo longo e fino que cruza a coxa em diagonal, do quadril até a face interna do joelho.",
+          "variantes": [
+            "Sartório",
+            "Sartorius"
+          ]
+        },
+        {
+          "id": "sol",
+          "nome": "Sol",
+          "descricao": "Estrela no centro do Sistema Solar.",
+          "variantes": [
+            "O Sol",
+            "Sun"
+          ]
+        },
+        {
+          "id": "musculo_esternocleidomastoideo",
+          "nome": "Músculo esternocleidomastoideo",
+          "descricao": "Músculo superficial do pescoço que liga o esterno e a clavícula ao osso temporal e gira a cabeça.",
+          "variantes": [
+            "Esternocleidomastóideo",
+            "Músculo ECM"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o gênero Streptococcus; nomes apenas parecidos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Hipotálamo é distinto do tálamo e do hipocampo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde à caixa torácica."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o sistema nervoso humano."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "O sóleo é um músculo distinto do sartório e do esternocleidomastoideo."
+    }
+  ]
+}

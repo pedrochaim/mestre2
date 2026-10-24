@@ -1,0 +1,156 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Montagem de duas imagens diferentes (foto de ombro e desenho antigo com escrita manuscrita)."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cadeias de cocos ao microscópio, claras e sem texto.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que gênero de bactéria é este, visto ao microscópio?",
+      "resposta": "Estreptococo (Streptococcus)",
+      "ancora": {
+        "nome": "Estreptococo",
+        "descricao": "Gênero de bactérias esféricas gram-positivas que se dividem em um só eixo e formam pares ou cadeias.",
+        "variantes": [
+          "Streptococcus",
+          "Estreptococos"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Estrutura destacada em vermelho no centro do cérebro, sem texto; múltipla para evitar ambiguidade.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que estrutura do cérebro aparece destacada em vermelho nesta figura?",
+      "resposta": "Hipotálamo",
+      "distratores": [
+        "Glândula pineal",
+        "Hipófise",
+        "Cerebelo"
+      ],
+      "ancora": {
+        "nome": "Hipotálamo",
+        "descricao": "Pequena região do diencéfalo, abaixo do tálamo, que liga o sistema nervoso ao endócrino via hipófise.",
+        "variantes": [
+          "Hypothalamus"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Gravura de Gray da caixa torácica; os textos 'First thoracic' e 'First lumbar' não entregam a resposta.",
+      "tipo": "aberta",
+      "familia": "que_parte",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Como se chama o osso achatado que ocupa o centro desta figura?",
+      "resposta": "Esterno",
+      "ancora": {
+        "nome": "Caixa torácica",
+        "descricao": "Estrutura óssea do tórax formada por costelas, esterno e vértebras torácicas, que protege coração e pulmões.",
+        "variantes": [
+          "Gaiola torácica",
+          "Tórax ósseo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Cadeias de bastonetes em desenho/coloração, não identificáveis com resposta única como Bacillus anthracis."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A imagem é a estrutura de uma proteína, não o vírus do mosaico do tabaco."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto de pele sem estruturas reconhecíveis; região ambígua (punho, mão, antebraço) e parte do corpo de pessoa comum."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cariótipo humano em bandas, com apenas números de pares, sem entregar a resposta.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Como se chama este conjunto organizado em pares dos cromossomos de uma pessoa?",
+      "resposta": "Cariótipo (cariograma)",
+      "ancora": {
+        "nome": "Cariótipo",
+        "descricao": "Conjunto completo dos cromossomos de uma célula ou indivíduo, organizados em pares por tamanho e forma.",
+        "variantes": [
+          "Cariograma",
+          "Karyotype"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Prancha com vários tipos de epitélio e legendas em texto (título 'Types of Epithelium') que entregam a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Gravura antiga clara da rede de nervos no corpo, sem texto.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que sistema do corpo humano esta gravura representa?",
+      "resposta": "Sistema nervoso",
+      "ancora": {
+        "nome": "Sistema nervoso",
+        "descricao": "Sistema formado por encéfalo, medula e nervos que coordena ações e informações sensoriais do corpo.",
+        "variantes": [
+          "Sistema nervoso humano"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Corte histológico roxo não reconhecível como glândula mamária pela imagem; resposta não única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Músculo destacado em vermelho sobre esqueleto, vista posterior, sem texto.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que músculo da perna está destacado em vermelho nesta figura, vista por trás?",
+      "resposta": "Sóleo",
+      "distratores": [
+        "Tibial anterior",
+        "Fibular longo",
+        "Plantar"
+      ],
+      "ancora": {
+        "nome": "Músculo sóleo",
+        "descricao": "Músculo potente da parte posterior da perna, sob o gastrocnêmio, que vai de abaixo do joelho ao calcanhar.",
+        "variantes": [
+          "Sóleo",
+          "Soleus"
+        ]
+      }
+    }
+  ]
+}
