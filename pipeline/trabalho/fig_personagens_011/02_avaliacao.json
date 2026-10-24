@@ -1,0 +1,251 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arte oficial clara, sem texto, personagem sozinho. Pergunta de autoria pede a imagem colorida, onde o suéter de zigue-zague ajuda a reconhecer.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que cartunista criou este personagem?",
+      "resposta": "Charles M. Schulz",
+      "distratores": [],
+      "ancora": {
+        "nome": "Charlie Brown",
+        "descricao": "Protagonista da tira de quadrinhos Peanuts, menino de camiseta amarela com zigue-zague preto.",
+        "variantes": [
+          "Charles Brown",
+          "Chuck",
+          "Carlinhos"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida, sem texto, personagem inconfundível pelo capacete e pelo traje rosa. Silhueta reconhecível só em parte, então usa a imagem colorida.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Em que desenho de corridas da Hanna-Barbera estreou esta personagem?",
+      "resposta": "Corrida Maluca",
+      "distratores": [],
+      "ancora": {
+        "nome": "Penélope Charmosa",
+        "descricao": "Personagem da Hanna-Barbera, piloto de rosa que estreou em Corrida Maluca e depois estrelou As Perigosas Aventuras de Penélope Charmosa.",
+        "variantes": [
+          "Penelope Pitstop"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Close claro do personagem, sem texto, inconfundível. Pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "Que cientista alienígena criou este experimento?",
+      "resposta": "Jumba Jookiba",
+      "distratores": [],
+      "ancora": {
+        "nome": "Stitch",
+        "descricao": "Experimento 626, criatura azul alienígena do filme Lilo & Stitch, da Disney.",
+        "variantes": [
+          "Experimento 626"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Quadro de quadrinho com o vilão em destaque, sem texto, reconhecível pelo capuz rosa e pela pele verde.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que herói é o maior inimigo deste vilão?",
+      "resposta": "Homem-Aranha",
+      "distratores": [
+        "Capitão América",
+        "Pantera Negra",
+        "Doutor Estranho"
+      ],
+      "ancora": {
+        "nome": "Duende Verde",
+        "descricao": "Norman Osborn, vilão da Marvel Comics e inimigo do Homem-Aranha desde Amazing Spider-Man número 14.",
+        "variantes": [
+          "Green Goblin",
+          "Norman Osborn"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cena de Chaves com o personagem sozinho, sem texto. Reconhecível pelo boné verde, camisa amarela e macacão.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Em Chaves, que ator interpretou este personagem?",
+      "resposta": "Horacio Gómez Bolaños",
+      "distratores": [
+        "Carlos Villagrán",
+        "Edgar Vivar",
+        "Rubén Aguirre"
+      ],
+      "ancora": {
+        "nome": "Godinez",
+        "descricao": "Colega de escola do Chaves, de boné verde e macacão, personagem coadjuvante do seriado mexicano.",
+        "variantes": [
+          "Godínez"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A imagem traz o logotipo 'Disney Pixar Cars' e o endereço 'Disney.com/Cars'. O texto entrega a obra e a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Personagem sozinho, de corpo inteiro, com silhueta inconfundível (magro, colarinho de espinhos). Sem texto.",
+      "usar_silhueta": true,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Em que cidade vive este personagem?",
+      "resposta": "Cidade do Halloween",
+      "distratores": [
+        "Cidade do Natal",
+        "Cidade da Páscoa",
+        "Cidade do Carnaval"
+      ],
+      "ancora": {
+        "nome": "Jack Skellington",
+        "descricao": "Esqueleto de terno listrado, o Rei das Abóboras de O Estranho Mundo de Jack, de Tim Burton e Henry Selick.",
+        "variantes": [
+          "Jack Esqueleto",
+          "Rei das Abóboras"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Quadro claro de Os Simpsons com o personagem em destaque, sem texto. Coadjuvante reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Moe Szyslak",
+      "distratores": [],
+      "ancora": {
+        "nome": "Moe Szyslak",
+        "descricao": "Dono da taverna do Moe e barman mal-humorado de Os Simpsons.",
+        "variantes": [
+          "Moe",
+          "Moe Sizlak"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Quadro do filme com o personagem em destaque, sem texto. Reconhecível pelo cabelo de fogo azul.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que ator americano deu a voz original a este vilão?",
+      "resposta": "James Woods",
+      "distratores": [
+        "Jack Nicholson",
+        "Danny DeVito",
+        "Jeremy Irons"
+      ],
+      "ancora": {
+        "nome": "Hades (Hércules)",
+        "descricao": "Deus do mundo dos mortos e vilão do filme de animação Hércules, da Disney, de 1997.",
+        "variantes": [
+          "Hades",
+          "Hades da Disney"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Arte oficial da Turma da Mônica, sem texto, reconhecível pelo cabelo e pela camisa amarela com bola.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que jogador de futebol real inspirou este personagem?",
+      "resposta": "Pelé",
+      "distratores": [],
+      "ancora": {
+        "nome": "Pelezinho",
+        "descricao": "Garoto craque de bola da Turma do Pelezinho, de Mauricio de Sousa, baseado na infância de Pelé.",
+        "variantes": [
+          "Turma do Pelezinho"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Imagem nítida, sem texto, personagem inconfundível. A silhueta é cortada na base e só do busto, e pode ser confundida com Yoda, então usa a imagem colorida.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Grogu",
+      "distratores": [],
+      "ancora": {
+        "nome": "Grogu",
+        "descricao": "Pequeno foundling sensível à Força, da mesma espécie de Yoda, protegido de Din Djarin em The Mandalorian.",
+        "variantes": [
+          "O Menino",
+          "The Child",
+          "Baby Yoda",
+          "Din Grogu"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cena de Chaves com a personagem em destaque, sem texto. Reconhecível pelos coques com laços vermelhos, vestido rosa e boneca.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Em Chaves, que atriz interpretou esta personagem?",
+      "resposta": "Florinda Meza",
+      "distratores": [
+        "María Antonieta de las Nieves",
+        "Angelines Fernández",
+        "Carmen Valdés"
+      ],
+      "ancora": {
+        "nome": "Pópis",
+        "descricao": "Menina da vila do seriado Chaves, de coques e vestido rosa, que carrega a boneca Serafina.",
+        "variantes": [
+          "Popis"
+        ]
+      }
+    }
+  ]
+}

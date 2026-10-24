@@ -297389,5 +297389,251 @@
       "autor": "Pauline Richard",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q15643",
+    "tema": "Entretenimento",
+    "subtema": "Quadrinhos",
+    "ancora": "charlie_brown",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que cartunista criou este personagem?",
+    "resposta": "Charles M. Schulz",
+    "fonte": [
+      "https://peanuts.fandom.com/wiki/Charlie_Brown",
+      "https://en.wikipedia.org/wiki/Charlie_Brown"
+    ],
+    "imagem": {
+      "arquivo": "q15643.jpg",
+      "origem": "https://peanuts.fandom.com/wiki/Charlie_Brown",
+      "autor": "Arte oficial dos detentores dos direitos, via Fandom (peanuts.fandom.com)",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q15644",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "penelope_charmosa",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em que série animada da Hanna-Barbera, de mil novecentos e sessenta e oito, estreou esta personagem?",
+    "resposta": "Corrida Maluca",
+    "fonte": [
+      "https://hanna-barbera.fandom.com/wiki/Penelope_Pitstop",
+      "https://en.wikipedia.org/wiki/Penelope_Pitstop",
+      "https://pt.wikipedia.org/wiki/Pen%C3%A9lope_Charmosa"
+    ],
+    "imagem": {
+      "arquivo": "q15644.jpg",
+      "origem": "https://hanna-barbera.fandom.com/wiki/Penelope_Pitstop",
+      "autor": "Arte oficial dos detentores dos direitos, via Fandom (hanna-barbera.fandom.com)",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q15645",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "stitch",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que cientista alienígena criou este experimento?",
+    "resposta": "Jumba Jookiba",
+    "fonte": [
+      "https://disney.fandom.com/wiki/Stitch",
+      "https://en.wikipedia.org/wiki/Stitch_%28Lilo_%26_Stitch%29"
+    ],
+    "imagem": {
+      "arquivo": "q15645.jpg",
+      "origem": "https://disney.fandom.com/wiki/Stitch",
+      "autor": "Arte oficial dos detentores dos direitos, via Fandom (disney.fandom.com)",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q15646",
+    "tema": "Entretenimento",
+    "subtema": "Quadrinhos",
+    "ancora": "duende_verde",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este vilão da Marvel é um dos grandes arqui-inimigos de qual herói?",
+    "resposta": "Homem-Aranha",
+    "distratores": [
+      "Capitão América",
+      "Pantera Negra",
+      "Doutor Estranho"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Green_Goblin",
+      "https://pt.wikipedia.org/wiki/Duende_Verde"
+    ],
+    "imagem": {
+      "arquivo": "q15646.jpg",
+      "origem": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/299-green-goblin.jpg",
+      "autor": "Arte oficial dos detentores dos direitos, via superhero-api",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q15647",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "godinez",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em Chaves, que ator interpretou este personagem?",
+    "resposta": "Horacio Gómez Bolaños",
+    "distratores": [
+      "Carlos Villagrán",
+      "Edgar Vivar",
+      "Rubén Aguirre"
+    ],
+    "fonte": [
+      "https://chaves.fandom.com/pt-br/wiki/Godinez",
+      "https://pt.wikipedia.org/wiki/Godinez"
+    ],
+    "imagem": {
+      "arquivo": "q15647.jpg",
+      "origem": "https://chaves.fandom.com/pt-br/wiki/Godinez",
+      "autor": "Arte oficial dos detentores dos direitos, via Fandom (chaves.fandom.com)",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q15648",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "jack_skellington",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade vive este personagem?",
+    "resposta": "Cidade do Halloween",
+    "distratores": [
+      "Cidade do Natal",
+      "Cidade da Páscoa",
+      "Cidade do Carnaval"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jack_Skellington"
+    ],
+    "imagem": {
+      "arquivo": "q15648.jpg",
+      "origem": "https://en.wikipedia.org/wiki/File:Jack_Skellington.png",
+      "autor": "Arte oficial dos detentores dos direitos, via Wikipédia (en)",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre",
+      "revelacao": "q15648_revelacao.jpg"
+    }
+  },
+  {
+    "id": "q15649",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "moe_szyslak",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Quem é esse personagem?",
+    "resposta": "Moe Szyslak",
+    "fonte": [
+      "https://simpsons.fandom.com/wiki/Moe_Szyslak",
+      "https://en.wikipedia.org/wiki/Moe_Szyslak"
+    ],
+    "imagem": {
+      "arquivo": "q15649.jpg",
+      "origem": "https://simpsons.fandom.com/wiki/Moe_Szyslak",
+      "autor": "Arte oficial dos detentores dos direitos, via Fandom (simpsons.fandom.com)",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q15650",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "hades_hercules",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que ator americano deu a voz original a este vilão?",
+    "resposta": "James Woods",
+    "distratores": [
+      "Jack Nicholson",
+      "Danny DeVito",
+      "Jeremy Irons"
+    ],
+    "fonte": [
+      "https://disney.fandom.com/wiki/Hades",
+      "https://en.wikipedia.org/wiki/Hades_%28Disney%29"
+    ],
+    "imagem": {
+      "arquivo": "q15650.jpg",
+      "origem": "https://disney.fandom.com/wiki/Hades",
+      "autor": "Arte oficial dos detentores dos direitos, via Fandom (disney.fandom.com)",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q15651",
+    "tema": "Entretenimento",
+    "subtema": "Quadrinhos",
+    "ancora": "pelezinho",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que jogador de futebol real inspirou este personagem?",
+    "resposta": "Pelé",
+    "fonte": [
+      "https://turmadamonica.fandom.com/pt-br/wiki/Pelezinho",
+      "https://pt.wikipedia.org/wiki/Pelezinho"
+    ],
+    "imagem": {
+      "arquivo": "q15651.jpg",
+      "origem": "https://turmadamonica.fandom.com/pt-br/wiki/Pelezinho",
+      "autor": "Arte oficial dos detentores dos direitos, via Fandom (turmadamonica.fandom.com)",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q15652",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "grogu",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Quem é esse personagem?",
+    "resposta": "Grogu",
+    "fonte": [
+      "https://starwars.fandom.com/wiki/Din_Grogu",
+      "https://en.wikipedia.org/wiki/Grogu"
+    ],
+    "imagem": {
+      "arquivo": "q15652.jpg",
+      "origem": "https://starwars.fandom.com/wiki/Din_Grogu",
+      "autor": "Arte oficial dos detentores dos direitos, via Fandom (starwars.fandom.com)",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q15653",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "popis",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em Chaves, que atriz interpretou esta personagem?",
+    "resposta": "Florinda Meza",
+    "distratores": [
+      "María Antonieta de las Nieves",
+      "Angelines Fernández",
+      "Carmen Valdés"
+    ],
+    "fonte": [
+      "https://chaves.fandom.com/pt-br/wiki/P%C3%B3pis",
+      "https://pt.wikipedia.org/wiki/P%C3%B3pis"
+    ],
+    "imagem": {
+      "arquivo": "q15653.jpg",
+      "origem": "https://chaves.fandom.com/pt-br/wiki/P%C3%B3pis",
+      "autor": "Arte oficial dos detentores dos direitos, via Fandom (chaves.fandom.com)",
+      "licenca": "Arte oficial; uso não comercial, sem licença livre"
+    }
   }
 ]
