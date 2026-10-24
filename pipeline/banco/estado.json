@@ -702,9 +702,10 @@
     "fig_tecnologia_008",
     "fig_anatomia_007",
     "fig_automobilismo_001",
-    "fig_musica_brasileira_003"
+    "fig_musica_brasileira_003",
+    "fig_festas_costumes_003"
   ],
-  "maior_id": 14981,
+  "maior_id": 14988,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1409,14 +1410,16 @@
     },
     "festas_costumes": {
       "familias": {
-        "o_que_e": 7,
-        "onde": 4
+        "o_que_e": 11,
+        "onde": 5,
+        "com_o_que_se_liga": 2
       },
       "niveis": {
-        "1": 5,
-        "2": 6
+        "1": 8,
+        "2": 8,
+        "3": 2
       },
-      "registradas": 11
+      "registradas": 18
     },
     "moda": {
       "familias": {

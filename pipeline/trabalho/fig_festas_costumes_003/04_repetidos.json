@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este objeto entalhado e iluminado por dentro é tradição de que festa?",
+        "resposta": "Halloween"
+      },
+      "existentes": [
+        {
+          "id": "q00911",
+          "pergunta": "Antes de usar abóboras, irlandeses e escoceses esculpiam as lanternas de Halloween em qual vegetal?",
+          "resposta": "Nabo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que montagem tradicional de Natal é esta?",
+        "resposta": "Presépio"
+      },
+      "existentes": [
+        {
+          "id": "q00111",
+          "pergunta": "Em 1223, na aldeia italiana de Greccio, que santo montou o que é considerado o primeiro presépio de Natal?",
+          "resposta": "São Francisco de Assis"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a festa associada ao objeto (Halloween); a existente pergunta o vegetal original das lanternas (nabo). Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o nome da montagem (presépio); a existente pergunta quem montou o primeiro presépio (São Francisco). Fatos diferentes."
+    }
+  ]
+}

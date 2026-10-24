@@ -1,0 +1,69 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a abóbora nem a festa. O trecho associa a jack-o'-lantern ao Halloween. Sem a figura não dá para responder só pelo texto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Banho público comum no mundo islâmico' define o hamame e entrega a resposta sem a figura. Tirei a pista e deixei só 'banho público tradicional'.",
+      "reescrita": {
+        "pergunta": "Que tipo de banho público tradicional aparece nesta gravura?",
+        "resposta": "Hamame",
+        "distratores": [
+          "Banya russa",
+          "Onsen japonês",
+          "Sauna finlandesa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o Kurentovanje é o carnaval de Ptuj, e que os Kurents fazem a ronda com chocalhos e sinos para anunciar a primavera. O enunciado não nomeia a figura nem a cidade. Os distratores são cidades eslovenas e nenhum está certo.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Burning Man acontece no deserto de Black Rock, em Nevada, segundo os trechos. É uma pergunta de nível 1 e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Dança folclórica inglesa com lenços e sinos nas pernas' descreve a morris dance, então a figura vira enfeite. Mantive só 'inglesa', que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que dança folclórica inglesa, feita em grupo, é esta?",
+        "resposta": "Morris dance",
+        "distratores": [
+          "Dança do mastro",
+          "Dança de tamancos",
+          "Contradança escocesa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento de nível 1, sem pista no enunciado. Os trechos sustentam 'capacete colonial' (pith helmet).",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de nível 1, sem vazamento. Os trechos confirmam o presépio como exibição natalina do nascimento de Jesus.",
+      "reescrita": null
+    }
+  ]
+}

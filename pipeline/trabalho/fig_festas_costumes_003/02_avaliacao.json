@@ -1,0 +1,179 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Jack-o'-lantern iluminada, inconfundível e sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este objeto entalhado e iluminado por dentro é tradição de que festa?",
+      "resposta": "Halloween",
+      "ancora": {
+        "nome": "Abóbora de Halloween",
+        "descricao": "Lanterna entalhada em abóbora, símbolo tradicional do Halloween.",
+        "variantes": [
+          "Jack-o'-lantern",
+          "Lanterna de Jack"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Gravura clara de banho público otomano, sem texto; distratores de outras culturas de banho.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de banho público, comum no mundo islâmico, é mostrado nesta gravura?",
+      "resposta": "Hamame",
+      "distratores": [
+        "Banya russa",
+        "Onsen japonês",
+        "Sauna finlandesa"
+      ],
+      "ancora": {
+        "nome": "Hamame",
+        "descricao": "Banho público a vapor tradicional do mundo islâmico, também chamado de banho turco.",
+        "variantes": [
+          "Hammam",
+          "Banho turco"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foliões do Kurentovanje com peles de ovelha, fitas e penas; brincantes de festa pública, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Estas figuras, que afastam o inverno com barulho, são o centro do carnaval de que cidade?",
+      "resposta": "Ptuj",
+      "distratores": [
+        "Liubliana",
+        "Maribor",
+        "Celje"
+      ],
+      "ancora": {
+        "nome": "Kurent",
+        "descricao": "Figura de pele de ovelha do carnaval esloveno de Ptuj, que espanta o inverno.",
+        "variantes": [
+          "Kurenti",
+          "Korent",
+          "Kurentovanje"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto antiga de mulher e menina comuns em primeiro plano; pessoas comuns não são permitidas."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "A estrutura do Man e a paisagem desértica identificam o evento; pessoas ao fundo são participantes de evento público, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que estado americano acontece este evento anual no deserto?",
+      "resposta": "Nevada",
+      "ancora": {
+        "nome": "Burning Man",
+        "descricao": "Festival anual no deserto de Black Rock, em Nevada, que culmina na queima de uma grande efígie.",
+        "variantes": [
+          "Black Rock City"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Grupo de dançarinos com lenços e coletes, típico da Morris dance; participantes de dança pública.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que dança folclórica inglesa, com lenços e sinos nas pernas, é esta?",
+      "resposta": "Morris dance",
+      "distratores": [
+        "Dança do mastro",
+        "Dança de tamancos",
+        "Contradança escocesa"
+      ],
+      "ancora": {
+        "nome": "Morris dance",
+        "descricao": "Dança folclórica inglesa em grupo, com trajes, lenços, bastões e guizos nas pernas.",
+        "variantes": [
+          "Dança Morris",
+          "Morris dancing"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "É um desenho em traço, não foto, de um assunto que poderia ser fotografado; e o turbante é usado em muitas regiões, então a resposta de lugar não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Capacete claro com faixa e ponta metálica, bem visível; o texto ao fundo não entrega a resposta.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de capacete é este?",
+      "resposta": "Capacete colonial",
+      "ancora": {
+        "nome": "Capacete colonial",
+        "descricao": "Capacete leve coberto de tecido, feito de sholapith, usado por militares e exploradores nos trópicos.",
+        "variantes": [
+          "Pith helmet",
+          "Capacete de safári",
+          "Salacot"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Mulher comum em primeiro plano, e a cena mostra a confecção de oferendas, não só a roupa; pessoas comuns não são permitidas."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Presépio tradicional com Maria, José, o menino, pastor, ovelhas e estrela; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que montagem tradicional de Natal é esta?",
+      "resposta": "Presépio",
+      "ancora": {
+        "nome": "Presépio",
+        "descricao": "Representação em miniatura do nascimento de Jesus, montada no Natal.",
+        "variantes": [
+          "Cena da natividade",
+          "Manjedoura",
+          "Lapinha"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Miniatura persa com caligrafia, e a dança não é claramente a dos dervixes rodopiantes; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Retrato antigo de um homem comum em primeiro plano; pessoas comuns não são permitidas."
+    }
+  ]
+}
