@@ -1,0 +1,494 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Skylab",
+        "descricao": "Primeira estação espacial dos Estados Unidos, lançada pela NASA em 1973 a partir de um estágio do foguete Saturn V.",
+        "variantes": [
+          "Skylab (estação espacial)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estacao_espacial_mir",
+          "nome": "Estação Espacial Mir",
+          "descricao": "Estação espacial modular soviética e depois russa, operada em órbita baixa de 1986 a 2001.",
+          "variantes": [
+            "Mir",
+            "Estação Mir"
+          ]
+        },
+        {
+          "id": "estacao_espacial_tiangong",
+          "nome": "Estação Espacial Tiangong",
+          "descricao": "Estação espacial permanente da China, em órbita baixa da Terra desde 2021.",
+          "variantes": [
+            "Tiangong",
+            "Estação Espacial Chinesa",
+            "China Space Station"
+          ]
+        },
+        {
+          "id": "traje_espacial",
+          "nome": "Traje espacial",
+          "descricao": "Roupa pressurizada que protege astronautas do vácuo, da temperatura e da radiação no espaço.",
+          "variantes": [
+            "Roupa espacial",
+            "Escafandro espacial"
+          ]
+        },
+        {
+          "id": "libertacao_de_paris",
+          "nome": "Libertação de Paris",
+          "descricao": "Expulsão das tropas alemãs de Paris pela Resistência Francesa e pelas forças aliadas, em agosto de 1944.",
+          "variantes": [
+            "Liberation of Paris"
+          ]
+        },
+        {
+          "id": "caminhada_espacial",
+          "nome": "Caminhada espacial",
+          "descricao": "Atividade extraveicular em que um astronauta trabalha fora da nave, no espaço.",
+          "variantes": [
+            "Atividade extraveicular",
+            "EVA",
+            "Passeio espacial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Nebulosa da Borboleta",
+        "descricao": "Nebulosa planetária bipolar NGC 6302, na constelação do Escorpião, com formato de asas de borboleta.",
+        "variantes": [
+          "NGC 6302",
+          "Nebulosa do Inseto",
+          "Caldwell 69"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_do_olho_de_gato",
+          "nome": "Nebulosa do Olho de Gato",
+          "descricao": "Nebulosa planetária NGC 6543, na constelação do Dragão.",
+          "variantes": [
+            "NGC 6543",
+            "Cat's Eye Nebula",
+            "Caldwell 6"
+          ]
+        },
+        {
+          "id": "nebulosa_da_helice",
+          "nome": "Nebulosa da Hélice",
+          "descricao": "Nebulosa planetária NGC 7293, em Aquário, uma das mais próximas da Terra.",
+          "variantes": [
+            "Nebulosa de Hélix",
+            "NGC 7293",
+            "Caldwell 63",
+            "Helix Nebula",
+            "Olho de Deus"
+          ]
+        },
+        {
+          "id": "nebulosa_roseta",
+          "nome": "Nebulosa Roseta",
+          "descricao": "Região H II na constelação do Unicórnio, associada ao aglomerado aberto NGC 2244, com formato de rosa.",
+          "variantes": [
+            "Rosette Nebula",
+            "Caldwell 49",
+            "NGC 2237"
+          ]
+        },
+        {
+          "id": "nebulosa_do_anel",
+          "nome": "Nebulosa do Anel",
+          "descricao": "Nebulosa planetária na constelação de Lira, catalogada como Messier 57.",
+          "variantes": [
+            "Messier 57",
+            "M57",
+            "NGC 6720",
+            "Ring Nebula"
+          ]
+        },
+        {
+          "id": "galaxias_antenas",
+          "nome": "Galáxias Antenas",
+          "descricao": "Par de galáxias em colisão, NGC 4038 e NGC 4039, na constelação do Corvo.",
+          "variantes": [
+            "NGC 4038/4039",
+            "Antennae Galaxies",
+            "Caldwell 60/61"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Sergei Korolev",
+        "descricao": "Engenheiro soviético de foguetes que liderou o programa espacial da União Soviética nos primeiros anos da corrida espacial.",
+        "variantes": [
+          "Sergei Koroliov",
+          "Sergey Korolyov"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "serperior",
+          "nome": "Serperior",
+          "descricao": "Pokémon do tipo Planta, número 497 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "efeito_borboleta",
+          "nome": "Efeito borboleta",
+          "descricao": "Ideia da teoria do caos segundo a qual pequenas mudanças nas condições iniciais podem gerar grandes diferenças, popularizada por Edward Lorenz.",
+          "variantes": [
+            "Butterfly effect"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Falcon 9",
+        "descricao": "Foguete de dois estágios parcialmente reutilizável da SpaceX, cujo primeiro estágio pousa na vertical.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "paulo_roberto_falcao",
+          "nome": "Paulo Roberto Falcão",
+          "descricao": "Ex-meia brasileiro do Internacional e da Roma, ídolo dos anos 1980.",
+          "variantes": [
+            "Falcão"
+          ]
+        },
+        {
+          "id": "falcao",
+          "nome": "Falcão",
+          "descricao": "Jogador brasileiro de futsal, considerado o maior da história da modalidade, nascido Alessandro Rosa Vieira.",
+          "variantes": [
+            "Falcão (futsal)",
+            "Alessandro Rosa Vieira"
+          ]
+        },
+        {
+          "id": "falcoes",
+          "nome": "Falcões",
+          "descricao": "Família de aves de rapina (Falconidae) que inclui falcões e caracarás.",
+          "variantes": [
+            "Falconidae",
+            "Falcão"
+          ]
+        },
+        {
+          "id": "alcione",
+          "nome": "Alcione",
+          "descricao": "Cantora e sambista brasileira nascida em São Luís, conhecida como Marrom e Dama do Samba.",
+          "variantes": [
+            "Alcione Dias Nazareth",
+            "Marrom"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Primeiro Campo Profundo do Webb",
+        "descricao": "Primeira imagem operacional do Telescópio Espacial James Webb, centrada no aglomerado de galáxias SMACS 0723, divulgada em 2022.",
+        "variantes": [
+          "Webb's First Deep Field",
+          "SMACS 0723"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hubble_deep_field",
+          "nome": "Hubble Deep Field",
+          "descricao": "Imagem de uma pequena região da constelação da Ursa Maior, feita pelo Hubble em 1995, mostrando cerca de três mil galáxias.",
+          "variantes": [
+            "Campo Profundo do Hubble",
+            "HDF"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cassini-Huygens",
+        "descricao": "Missão conjunta de NASA, ESA e ASI, cuja sonda Cassini orbitou Saturno de 2004 a 2017.",
+        "variantes": [
+          "Cassini",
+          "Sonda Cassini"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "etiopia",
+          "nome": "Etiópia",
+          "descricao": "País sem litoral do Chifre da África, com capital em Adis Abeba.",
+          "variantes": [
+            "Ethiopia",
+            "Abissínia"
+          ]
+        },
+        {
+          "id": "imperio_etiope",
+          "nome": "Império Etíope",
+          "descricao": "Monarquia que governou a Etiópia até 1974 e resistiu à partilha colonial da África no fim do século dezenove.",
+          "variantes": [
+            "Abissínia",
+            "Império da Etiópia"
+          ]
+        },
+        {
+          "id": "tassili_n_ajjer",
+          "nome": "Tassili n'Ajjer",
+          "descricao": "Planalto no Saara argelino famoso por milhares de pinturas e gravuras rupestres.",
+          "variantes": [
+            "Tassili"
+          ]
+        },
+        {
+          "id": "gioachino_rossini",
+          "nome": "Gioachino Rossini",
+          "descricao": "Compositor italiano de óperas (1792–1868), autor de O Barbeiro de Sevilha e Guilherme Tell.",
+          "variantes": [
+            "Rossini"
+          ]
+        },
+        {
+          "id": "abadia_de_monte_cassino",
+          "nome": "Abadia de Monte Cassino",
+          "descricao": "Mosteiro beneditino no centro da Itália, destruído por bombardeios aliados em fevereiro de 1944 e depois reconstruído.",
+          "variantes": [
+            "Monte Cassino",
+            "Montecassino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Cratera do Meteoro (Arizona)",
+        "descricao": "Cratera de impacto de cerca de 1200 metros de diâmetro no deserto do norte do Arizona, formada pelo meteorito Canyon Diablo.",
+        "variantes": [
+          "Meteor Crater",
+          "Cratera Barringer",
+          "Barringer Crater"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cratera_de_impacto",
+          "nome": "Cratera de impacto",
+          "descricao": "Depressão na superfície de um corpo sólido formada pelo choque em alta velocidade de um objeto menor; a imagem mostra a Meteor Crater, no Arizona.",
+          "variantes": [
+            "Meteor Crater",
+            "Cratera Barringer",
+            "Cratera do Meteoro"
+          ]
+        },
+        {
+          "id": "cratera_do_meteoro",
+          "nome": "Cratera do Meteoro",
+          "descricao": "Cratera de impacto de cerca de 1,2 km de diâmetro no deserto do norte do Arizona, Estados Unidos.",
+          "variantes": [
+            "Meteor Crater",
+            "Cratera Barringer",
+            "Barringer Crater"
+          ]
+        },
+        {
+          "id": "meteora",
+          "nome": "Meteora",
+          "descricao": "Conjunto de mosteiros ortodoxos construídos no alto de pilares de rocha, na Tessália",
+          "variantes": []
+        },
+        {
+          "id": "muro_de_berlim",
+          "nome": "Muro de Berlim",
+          "descricao": "Barreira de concreto que cercou Berlim Ocidental entre 1961 e 1989, separando-a de Berlim Oriental e da Alemanha Oriental.",
+          "variantes": [
+            "Berliner Mauer",
+            "Berlin Wall"
+          ]
+        },
+        {
+          "id": "lago_crater",
+          "nome": "Lago Crater",
+          "descricao": "Lago vulcânico numa caldeira no Oregon, EUA, o mais profundo do país, com a Ilha do Mago.",
+          "variantes": [
+            "Crater Lake"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Ida (asteroide)",
+        "descricao": "Asteroide 243 Ida, da família Koronis do cinturão de asteroides, o primeiro encontrado com um satélite natural, fotografado pela sonda Galileo em 1993.",
+        "variantes": [
+          "243 Ida",
+          "Ida"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "darwinius_ida",
+          "nome": "Darwinius (Ida)",
+          "descricao": "Fóssil quase completo de um primata adapiforme do Eocénio médio, Darwinius masillae, achado no sítio de Messel.",
+          "variantes": [
+            "Ida",
+            "Darwinius masillae"
+          ]
+        },
+        {
+          "id": "aida",
+          "nome": "Aida",
+          "descricao": "Ópera de Giuseppe Verdi, ambientada no Egito antigo, estreada em 1871.",
+          "variantes": []
+        },
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        },
+        {
+          "id": "ceres",
+          "nome": "Ceres",
+          "descricao": "Planeta anão do cinturão de asteroides entre Marte e Júpiter, com manchas brilhantes na cratera Occator.",
+          "variantes": [
+            "Asteroide",
+            "Ceres (planeta anão)",
+            "1 Ceres"
+          ]
+        },
+        {
+          "id": "asteroide",
+          "nome": "Asteroide",
+          "descricao": "Pequeno corpo rochoso ou metálico que orbita o Sol, concentrado sobretudo no cinturão entre Marte e Júpiter.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Cometa McNaught",
+        "descricao": "Cometa C/2006 P1, o Grande Cometa de 2007, descoberto por Robert McNaught e muito brilhante no Hemisfério Sul.",
+        "variantes": [
+          "C/2006 P1",
+          "Grande Cometa de 2007",
+          "Comet McNaught"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "furacao_de_galveston_de_1900",
+          "nome": "Furacão de Galveston de 1900",
+          "descricao": "Furacão que destruiu a cidade de Galveston, no Texas, no início do século vinte",
+          "variantes": [
+            "1900 Galveston hurricane",
+            "Grande Tempestade de 1900"
+          ]
+        },
+        {
+          "id": "grande_seca_de_1877",
+          "nome": "Grande Seca de 1877",
+          "descricao": "Seca de 1877 a 1879 que devastou o sertão nordestino, sobretudo o Ceará",
+          "variantes": [
+            "Grande Seca",
+            "Seca dos Dois Setes"
+          ]
+        },
+        {
+          "id": "ciclone_bhola",
+          "nome": "Ciclone Bhola",
+          "descricao": "Ciclone tropical que devastou o então Paquistão Oriental em novembro de 1970",
+          "variantes": [
+            "1970 Bhola cyclone",
+            "Grande Ciclone de 1970"
+          ]
+        },
+        {
+          "id": "cometa_neowise",
+          "nome": "Cometa NEOWISE",
+          "descricao": "Cometa de longo período C/2020 F3, descoberto em 2020 pela missão NEOWISE e visível a olho nu no hemisfério norte.",
+          "variantes": [
+            "C/2020 F3",
+            "NEOWISE",
+            "C/2020 F3 (NEOWISE)"
+          ]
+        },
+        {
+          "id": "chesnaught",
+          "nome": "Chesnaught",
+          "descricao": "Pokémon dos tipos Planta e Lutador, número 652 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Skylab não está entre as candidatas; Mir e Tiangong são outras estações."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "NGC 6302 não consta; as outras são nebulosas diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Korolev."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Falcon 9 é um foguete; candidatas não têm relação."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Imagem do Webb difere do Hubble Deep Field."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Missão Cassini-Huygens não consta entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "cratera_do_meteoro",
+      "motivo": "Mesma cratera do Arizona, mesma descrição e variantes; 'Cratera de impacto' é o conceito genérico."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "243 Ida é um asteroide específico; Darwinius Ida é um fóssil, Asteroide é o conceito genérico."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Cometa McNaught é diferente do NEOWISE; demais são irrelevantes."
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Skylab visto de cima, painéis solares em X e escudo térmico improvisado, sem texto. Reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estação espacial é esta?",
+      "resposta": "Skylab",
+      "destino": 0,
+      "ancora": {
+        "nome": "Skylab",
+        "descricao": "Primeira estação espacial dos Estados Unidos, lançada pela NASA em 1973 a partir de um estágio do foguete Saturn V.",
+        "variantes": [
+          "Skylab (estação espacial)"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem clara do Hubble, formato inconfundível de nebulosa planetária bipolar, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de nebulosa é esta?",
+      "resposta": "Nebulosa planetária",
+      "distratores": [
+        "Nebulosa de emissão",
+        "Nebulosa de reflexão",
+        "Nebulosa escura"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nebulosa da Borboleta",
+        "descricao": "Nebulosa planetária bipolar NGC 6302, na constelação do Escorpião, com formato de asas de borboleta.",
+        "variantes": [
+          "NGC 6302",
+          "Nebulosa do Inseto",
+          "Caldwell 69"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A carenagem mostra 'FH' e 'Falcon Heavy' e o corpo traz 'SPACEX': texto visível entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco, sem texto, de figura pública. Reconhecimento difícil, por isso múltipla com distratores do mesmo ramo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este engenheiro soviético, chefe do programa espacial da União Soviética?",
+      "resposta": "Sergei Korolev",
+      "distratores": [
+        "Valentin Glushko",
+        "Wernher von Braun",
+        "Konstantin Tsiolkovsky"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sergei Korolev",
+        "descricao": "Engenheiro soviético de foguetes que liderou o programa espacial da União Soviética nos primeiros anos da corrida espacial.",
+        "variantes": [
+          "Sergei Koroliov",
+          "Sergey Korolyov"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Decolagem de um Falcon 9, silhueta branca com interestágio preto, texto ilegível na carenagem. Reconhecível, com múltipla para a justiça.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que foguete é este, decolando?",
+      "resposta": "Falcon 9",
+      "distratores": [
+        "Atlas V",
+        "Antares",
+        "Vulcan Centaur"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Falcon 9",
+        "descricao": "Foguete de dois estágios parcialmente reutilizável da SpaceX, cujo primeiro estágio pousa na vertical.",
+        "variantes": [
+          "Falcon-9"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem do campo profundo com aglomerado de galáxias, arcos de lente gravitacional e espículas de seis pontas típicas do Webb. Sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que telescópio espacial registrou esta imagem?",
+      "resposta": "James Webb",
+      "distratores": [
+        "Hubble",
+        "Spitzer",
+        "Kepler"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Primeiro Campo Profundo do Webb",
+        "descricao": "Primeira imagem operacional do Telescópio Espacial James Webb, centrada no aglomerado de galáxias SMACS 0723, divulgada em 2022.",
+        "variantes": [
+          "Webb's First Deep Field",
+          "SMACS 0723"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Render nítido da sonda Cassini sobre fundo branco, sem texto, com antena, braço do magnetômetro e propulsor. Reconhecível para o público informado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que planeta esta sonda passou anos orbitando?",
+      "resposta": "Saturno",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cassini-Huygens",
+        "descricao": "Missão conjunta de NASA, ESA e ASI, cuja sonda Cassini orbitou Saturno de 2004 a 2017.",
+        "variantes": [
+          "Cassini",
+          "Sonda Cassini"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Imagem ultravioleta da galáxia espiral. Não permite reconhecer M33 diante de outras galáxias espirais parecidas, então a resposta não é única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida da cratera, de contorno quase quadrado, sem texto. Pergunta sobre o lugar, em múltipla.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que estado americano fica esta cratera de impacto?",
+      "resposta": "Arizona",
+      "distratores": [
+        "Novo México",
+        "Utah",
+        "Nevada"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cratera do Meteoro (Arizona)",
+        "descricao": "Cratera de impacto de cerca de 1200 metros de diâmetro no deserto do norte do Arizona, formada pelo meteorito Canyon Diablo.",
+        "variantes": [
+          "Meteor Crater",
+          "Cratera Barringer",
+          "Barringer Crater"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto da Galileo, nítida, sem texto, mostrando o asteroide Ida e a pequena lua ao lado. Resposta única diante da imagem.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que nome tem a pequena lua que aparece ao lado deste asteroide?",
+      "resposta": "Dactyl",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ida (asteroide)",
+        "descricao": "Asteroide 243 Ida, da família Koronis do cinturão de asteroides, o primeiro encontrado com um satélite natural, fotografado pela sonda Galileo em 1993.",
+        "variantes": [
+          "243 Ida",
+          "Ida"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O retrato mostra o emblema da missão com os sobrenomes dos cinco tripulantes (Ride entre eles) e a placa NASA. O texto visível ajuda a identificar a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto noturna com a cauda em leque característica, sobre silhuetas de árvores, sem texto. Múltipla com grandes cometas.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cometa é este, fotografado sobre o horizonte?",
+      "resposta": "Cometa McNaught",
+      "distratores": [
+        "Hale-Bopp",
+        "Hyakutake",
+        "Cometa Lovejoy"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cometa McNaught",
+        "descricao": "Cometa C/2006 P1, o Grande Cometa de 2007, descoberto por Robert McNaught e muito brilhante no Hemisfério Sul.",
+        "variantes": [
+          "C/2006 P1",
+          "Grande Cometa de 2007",
+          "Comet McNaught"
+        ]
+      }
+    }
+  ]
+}

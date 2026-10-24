@@ -1,0 +1,102 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pistas; Skylab é a primeira estação espacial dos EUA.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Nebulosa planetária também é um tipo de nebulosa de emissão, então o distrator 'Nebulosa de emissão' pode ser defendido como correto. Troquei por um distrator inequivocamente errado.",
+      "reescrita": {
+        "pergunta": "Que tipo de nebulosa é esta?",
+        "resposta": "Nebulosa planetária",
+        "distratores": [
+          "Nebulosa de reflexão",
+          "Nebulosa escura",
+          "Remanescente de supernova"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Chefe do programa espacial da União Soviética' entrega a resposta com a imagem coberta. Removi a pista e troquei os distratores por engenheiros soviéticos igualmente críveis. Von Braun era alemão e Tsiolkovsky já tinha morrido quando o programa começou.",
+      "reescrita": {
+        "pergunta": "Quem é este engenheiro de foguetes soviético?",
+        "resposta": "Sergei Korolev",
+        "distratores": [
+          "Valentin Glushko",
+          "Vladimir Chelomei",
+          "Mikhail Yangel"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Decolando' não consta em 'mostra' e pode não ser verdadeiro para esta foto. Removi o trecho. O restante está correto.",
+      "reescrita": {
+        "pergunta": "Que foguete é este?",
+        "resposta": "Falcon 9",
+        "distratores": [
+          "Atlas V",
+          "Antares",
+          "Vulcan Centaur"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A imagem é a primeira imagem operacional do Webb, e os distratores são telescópios espaciais críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A resposta só sai depois de reconhecer a sonda; o enunciado não entrega nada. Cassini orbitou Saturno de 2004 a 2017.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A cratera fica no norte do Arizona, e os distratores são estados vizinhos e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Que aparece ao lado' não consta em 'mostra' e pode não valer para esta foto. Mencionar a Galileo ou a descoberta da lua também entregaria Ida e Dactyl com a imagem coberta. Deixei só a pergunta sobre a lua do asteroide.",
+      "reescrita": {
+        "pergunta": "Que nome tem a lua deste asteroide?",
+        "resposta": "Dactyl"
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Sobre o horizonte' não está confirmado em 'mostra'. A resposta 'Cometa McNaught' tinha formato diferente dos distratores, e Lovejoy era o único com 'Cometa'. Padronizei.",
+      "reescrita": {
+        "pergunta": "Que cometa é este?",
+        "resposta": "McNaught",
+        "distratores": [
+          "Hale-Bopp",
+          "Hyakutake",
+          "Lovejoy"
+        ]
+      }
+    }
+  ]
+}

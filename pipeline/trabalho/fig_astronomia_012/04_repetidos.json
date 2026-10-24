@@ -1,0 +1,36 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que estado americano fica esta cratera de impacto?",
+        "resposta": "Arizona"
+      },
+      "existentes": [
+        {
+          "id": "q04405",
+          "pergunta": "Em que estado americano fica esta cratera de impacto?",
+          "resposta": "Arizona"
+        },
+        {
+          "id": "q06712",
+          "pergunta": "Que engenheiro de minas americano defendeu que a Cratera do Meteoro, no Arizona, foi aberta por um impacto vindo do espaço, e hoje lhe empresta o sobrenome?",
+          "resposta": "Daniel Barringer"
+        },
+        {
+          "id": "q09639",
+          "pergunta": "A Cratera do Meteoro, no Arizona, foi aberta pelo impacto de um meteorito. Há cerca de quantos anos isso aconteceu?",
+          "resposta": "Cerca de cinquenta mil anos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q04405",
+      "motivo": "Pergunta idêntica, mesma resposta (Arizona)."
+    }
+  ]
+}
