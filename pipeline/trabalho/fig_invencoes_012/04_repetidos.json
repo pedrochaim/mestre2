@@ -1,0 +1,104 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que irmãos franceses são lembrados como inventores desta aeronave?",
+        "resposta": "Irmãos Montgolfier"
+      },
+      "existentes": [
+        {
+          "id": "q03985",
+          "pergunta": "Que tipo de veículo aéreo é este?",
+          "resposta": "Balão de ar quente"
+        },
+        {
+          "id": "q05606",
+          "pergunta": "Em 1783, na França, o primeiro voo tripulado da história foi feito num balão de ar quente construído por quais irmãos?",
+          "resposta": "Irmãos Montgolfier"
+        },
+        {
+          "id": "q05607",
+          "pergunta": "Antes de levar pessoas, um balão de ar quente subiu diante do rei em Versalhes, em 1783, levando um pato, um galo e qual outro animal?",
+          "resposta": "Ovelha"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que século surgiu esta máquina de cerco de contrapeso, nas terras cristãs e muçulmanas do Mediterrâneo?",
+        "resposta": "Século doze"
+      },
+      "existentes": [
+        {
+          "id": "q11493",
+          "pergunta": "Que máquina de cerco medieval é esta?",
+          "resposta": "Trabuco"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que periférico de videogame é este?",
+        "resposta": "Joystick"
+      },
+      "existentes": [
+        {
+          "id": "q14960",
+          "pergunta": "Que dispositivo de controle de videogames é este?",
+          "resposta": "Joystick"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que usina hidrelétrica sul-americana é esta?",
+        "resposta": "Itaipu"
+      },
+      "existentes": [
+        {
+          "id": "q02166",
+          "pergunta": "A usina de Itaipu, no rio Paraná, começou a gerar energia em que década do século vinte?",
+          "resposta": "Anos 1980"
+        },
+        {
+          "id": "q02415",
+          "pergunta": "Que famoso conjunto de cachoeiras do rio Paraná desapareceu em 1982, coberto pelas águas do lago da usina de Itaipu?",
+          "resposta": "Salto de Sete Quedas"
+        },
+        {
+          "id": "q02416",
+          "pergunta": "A usina hidrelétrica de Itaipu, no rio Paraná, é dividida meio a meio entre o Brasil e qual país vizinho?",
+          "resposta": "Paraguai"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q05606",
+      "motivo": "Ambas perguntam os irmãos Montgolfier como inventores/construtores do balão."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Existente pede o nome da máquina; a nova pede o século de surgimento, outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q14960",
+      "motivo": "Ambas pedem identificar a imagem como joystick."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nova pede identificar a usina pela imagem; as existentes tratam de década, Sete Quedas e país sócio, e nenhuma pergunta a identificação."
+    }
+  ]
+}

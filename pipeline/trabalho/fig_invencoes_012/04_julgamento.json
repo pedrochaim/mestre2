@@ -1,0 +1,320 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Balão de ar quente",
+        "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+        "variantes": [
+          "Balão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "balao_de_ar_quente",
+          "nome": "Balão de ar quente",
+          "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+          "variantes": [
+            "Balão",
+            "Balão aerostático",
+            "Montgolfière",
+            "Hot air balloon"
+          ]
+        },
+        {
+          "id": "lago_balaton",
+          "nome": "Lago Balaton",
+          "descricao": "Grande lago de água doce no oeste da Hungria, o maior da Europa Central.",
+          "variantes": [
+            "Balaton",
+            "Lake Balaton"
+          ]
+        },
+        {
+          "id": "taco_de_criquete",
+          "nome": "Taco de críquete",
+          "descricao": "Taco de madeira de lâmina plana e cabo envolto, usado pelo batedor no críquete.",
+          "variantes": [
+            "Bastão de críquete",
+            "Cricket bat"
+          ]
+        },
+        {
+          "id": "bola_de_basquete",
+          "nome": "Bola de basquete",
+          "descricao": "Bola esférica alaranjada com gomos pretos usada no basquete.",
+          "variantes": [
+            "Basketball"
+          ]
+        },
+        {
+          "id": "salmao",
+          "nome": "Salmão",
+          "descricao": "Peixe migratório da família Salmonidae que vive no mar e sobe os rios para desovar.",
+          "variantes": [
+            "Salmon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ar-condicionado",
+        "descricao": "Aparelho que retira calor de um ambiente fechado para resfriá-lo, aqui a unidade externa de um sistema split.",
+        "variantes": [
+          "Condicionador de ar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ar_condicionado",
+          "nome": "Ar-condicionado",
+          "descricao": "Sistema de controle de temperatura e umidade do ar, cuja versão moderna foi criada por Willis Carrier em 1902.",
+          "variantes": [
+            "Air conditioning",
+            "Condicionador de ar"
+          ]
+        },
+        {
+          "id": "delicate_arch",
+          "nome": "Delicate Arch",
+          "descricao": "Arco natural de arenito isolado no Parque Nacional dos Arcos, perto de Moab, nos Estados Unidos.",
+          "variantes": [
+            "Arco Delicado"
+          ]
+        },
+        {
+          "id": "catan",
+          "nome": "Catan",
+          "descricao": "Jogo de tabuleiro moderno de colonização de uma ilha com troca de recursos, criado por Klaus Teuber em 1995.",
+          "variantes": [
+            "Colonizadores de Catan",
+            "Die Siedler von Catan",
+            "Settlers of Catan"
+          ]
+        },
+        {
+          "id": "codigo_de_barras",
+          "nome": "Código de barras",
+          "descricao": "Representação de dados em barras paralelas lidas por scanners, criada por Norman Joseph Woodland e Bernard Silver.",
+          "variantes": [
+            "Barcode",
+            "Código de barras UPC"
+          ]
+        },
+        {
+          "id": "cortador_de_unha",
+          "nome": "Cortador de unha",
+          "descricao": "Ferramenta manual usada para aparar unhas.",
+          "variantes": [
+            "Alicate de unha",
+            "Corta-unhas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Trabuco",
+        "descricao": "Máquina de cerco medieval tipo catapulta, com braço articulado e contrapeso, que lança projéteis com uma funda.",
+        "variantes": [
+          "Trebuchet",
+          "Trabuco de contrapeso"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "trabuco",
+          "nome": "Trabuco",
+          "descricao": "Máquina de cerco medieval que arremessa projéteis com um braço articulado e contrapeso.",
+          "variantes": [
+            "Trabuco (trebuchet)",
+            "Trebuchet",
+            "Trabuquete"
+          ]
+        },
+        {
+          "id": "truco",
+          "nome": "Truco",
+          "descricao": "Jogo de cartas de blefe, muito popular no Brasil, jogado com baralho sem oitos, noves e dez.",
+          "variantes": [
+            "Truco mineiro",
+            "Truco paulista",
+            "Truque"
+          ]
+        },
+        {
+          "id": "taco",
+          "nome": "Taco",
+          "descricao": "Prato mexicano de tortilla de milho ou trigo dobrada em torno de um recheio.",
+          "variantes": [
+            "Tacos",
+            "Taco al pastor"
+          ]
+        },
+        {
+          "id": "nabucco",
+          "nome": "Nabucco",
+          "descricao": "Ópera de Giuseppe Verdi, estreada em Milão em 1842, sobre o rei babilônico Nabucodonosor e o exílio dos hebreus.",
+          "variantes": []
+        },
+        {
+          "id": "tabasco",
+          "nome": "Tabasco",
+          "descricao": "Molho de pimenta produzido pela McIlhenny Company em Avery Island, na Luisiana, desde o século dezenove.",
+          "variantes": [
+            "Molho Tabasco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Joystick",
+        "descricao": "Dispositivo de entrada com uma haste que pivota numa base, usado para controlar jogos e aeronaves.",
+        "variantes": [
+          "Manche",
+          "Manípulo eletrônico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "joystick",
+          "nome": "Joystick",
+          "descricao": "Dispositivo de entrada com uma haste que pivota sobre uma base e informa a direção ao aparelho controlado, usado em videogames e aeronaves.",
+          "variantes": [
+            "Manche",
+            "Manípulo eletrônico"
+          ]
+        },
+        {
+          "id": "canal_da_mancha",
+          "nome": "Canal da Mancha",
+          "descricao": "Braço do oceano Atlântico que separa a Inglaterra do norte da França.",
+          "variantes": [
+            "English Channel",
+            "La Manche"
+          ]
+        },
+        {
+          "id": "machoke",
+          "nome": "Machoke",
+          "descricao": "Pokémon do tipo Lutador, número 67 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "mapuches",
+          "nome": "Mapuches",
+          "descricao": "Povo indígena do centro-sul do Chile e do sudoeste da Argentina.",
+          "variantes": [
+            "Mapuche",
+            "Araucanos"
+          ]
+        },
+        {
+          "id": "caixa_eletronico",
+          "nome": "Caixa eletrônico",
+          "descricao": "Máquina de autoatendimento bancário que permite sacar dinheiro sem passar pelo caixa humano.",
+          "variantes": [
+            "ATM",
+            "Caixa automático"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Usina de Itaipu",
+        "descricao": "Usina hidrelétrica no rio Paraná, na fronteira entre Brasil e Paraguai.",
+        "variantes": [
+          "Itaipu Binacional",
+          "Barragem de Itaipu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "usina_de_itaipu",
+          "nome": "Usina de Itaipu",
+          "descricao": "Usina hidrelétrica binacional de Brasil e Paraguai, no rio Paraná.",
+          "variantes": [
+            "Itaipu",
+            "Itaipu Binacional",
+            "Itaipu Dam",
+            "Usina Hidrelétrica de Itaipu"
+          ]
+        },
+        {
+          "id": "represa_de_assua",
+          "nome": "Represa de Assuã",
+          "descricao": "Grande barragem no rio Nilo, no sul do Egito, construída nos anos 1960, que formou o lago Nasser.",
+          "variantes": [
+            "Represa Alta de Assuã",
+            "Barragem de Assuã",
+            "Aswan High Dam"
+          ]
+        },
+        {
+          "id": "simbolo_da_raiz_quadrada",
+          "nome": "Símbolo da raiz quadrada",
+          "descricao": "Símbolo matemático em forma de visto alongado que indica a extração de uma raiz.",
+          "variantes": [
+            "Radical",
+            "Sinal de raiz"
+          ]
+        },
+        {
+          "id": "sinal_de_igual",
+          "nome": "Sinal de igual",
+          "descricao": "Símbolo matemático formado por dois traços paralelos, que indica igualdade.",
+          "variantes": [
+            "Sinal de igualdade",
+            "Equals sign"
+          ]
+        },
+        {
+          "id": "ruinas_de_alph",
+          "nome": "Ruínas de Alph",
+          "descricao": "Ruínas antigas da região de Johto, nos jogos Pokémon Gold e Silver, com câmaras de painéis de pedra e inscrições misteriosas.",
+          "variantes": [
+            "Ruins of Alph"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "balao_de_ar_quente",
+      "motivo": "Mesma descrição e mesmo nome; é o balão de ar quente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A proposta descreve o aparelho, em especial a unidade externa de um split. A candidata é o sistema de controle de temperatura e umidade em geral. Na dúvida, nova."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "trabuco",
+      "motivo": "Os dois são o trabuco, a máquina de cerco medieval com contrapeso (trebuchet)."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "joystick",
+      "motivo": "Mesmo dispositivo, com as mesmas variantes e quase a mesma descrição."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "usina_de_itaipu",
+      "motivo": "É a mesma usina hidrelétrica binacional no rio Paraná."
+    }
+  ]
+}

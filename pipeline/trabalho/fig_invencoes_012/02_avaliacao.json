@@ -1,0 +1,157 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Balões de ar quente claros no céu, um só assunto; os textos são marcas e não entregam a resposta.",
+      "pergunta": "Que irmãos franceses são lembrados como inventores desta aeronave?",
+      "tipo": "aberta",
+      "resposta": "Irmãos Montgolfier",
+      "distratores": [],
+      "familia": "quem_fez",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Balão de ar quente",
+        "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+        "variantes": [
+          "Balão"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Dirigível rígido bem visível; o texto 'U.S. Navy' não entrega o nome do tipo. Foto histórica reconhecível.",
+      "pergunta": "Que conde alemão desenvolveu este tipo de dirigível rígido, que acabou dando nome a ele?",
+      "tipo": "aberta",
+      "resposta": "Ferdinand von Zeppelin",
+      "distratores": [],
+      "familia": "quem_fez",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Zepelim",
+        "descricao": "Tipo de dirigível rígido desenvolvido pelo alemão Ferdinand von Zeppelin no início do século vinte.",
+        "variantes": [
+          "Zeppelin",
+          "Dirigível rígido"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma lâmpada de arco de xenônio de eletrodos curtos, difícil de reconhecer e que não corresponde à lâmpada de arco de carbono do trecho; resposta pouco única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Unidade externa de ar-condicionado reconhecível; marca TECO e a placa em chinês não nomeiam o aparelho para o público do jogo.",
+      "pergunta": "Que engenheiro americano é considerado o inventor do sistema moderno deste aparelho?",
+      "tipo": "aberta",
+      "resposta": "Willis Carrier",
+      "distratores": [],
+      "familia": "quem_fez",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Ar-condicionado",
+        "descricao": "Aparelho que retira calor de um ambiente fechado para resfriá-lo, aqui a unidade externa de um sistema split.",
+        "variantes": [
+          "Condicionador de ar",
+          "Ar condicionado"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Trabuco de contrapeso nítido, sem texto, foto bem legível.",
+      "pergunta": "Em que século surgiu esta máquina de cerco de contrapeso, nas terras cristãs e muçulmanas do Mediterrâneo?",
+      "tipo": "multipla",
+      "resposta": "Século doze",
+      "distratores": [
+        "Século oito",
+        "Século dez",
+        "Século catorze"
+      ],
+      "familia": "quando",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Trabuco",
+        "descricao": "Máquina de cerco medieval tipo catapulta, com braço articulado e contrapeso, que lança projéteis com uma funda.",
+        "variantes": [
+          "Trebuchet",
+          "Trabuco de contrapeso"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Luminária de teto acesa, em ambiente doméstico; os tubos podem ser fluorescentes ou LED, e a autoria da lâmpada fluorescente é disputada."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O console mostra 'GENESIS' e 'SEGA' escritos; o texto entrega a resposta e o nome Genesis conflita com Mega Drive."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O painel traz 'ALTAIR 8800 COMPUTER' escrito, o que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A máquina traz muito texto visível (LG, 'Wash', ciclos de lavagem), que entrega a função."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Joystick de Atari, nítido, fundo branco, sem texto legível.",
+      "pergunta": "Que periférico de videogame é este?",
+      "tipo": "aberta",
+      "resposta": "Joystick",
+      "distratores": [],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "ancora": {
+        "nome": "Joystick",
+        "descricao": "Dispositivo de entrada com uma haste que pivota numa base, usado para controlar jogos e aeronaves.",
+        "variantes": [
+          "Manche",
+          "Manípulo eletrônico"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Gravura minúscula e de baixa resolução, pouco legível num celular e difícil de reconhecer."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do vertedouro e da barragem de Itaipu, sem texto, e famosa no Brasil.",
+      "pergunta": "Que usina hidrelétrica sul-americana é esta?",
+      "tipo": "aberta",
+      "resposta": "Itaipu",
+      "distratores": [],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 3,
+      "ancora": {
+        "nome": "Usina de Itaipu",
+        "descricao": "Usina hidrelétrica no rio Paraná, na fronteira entre Brasil e Paraguai.",
+        "variantes": [
+          "Itaipu Binacional",
+          "Barragem de Itaipu"
+        ]
+      }
+    }
+  ]
+}

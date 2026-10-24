@@ -642,7 +642,7 @@
       "titulo": "en:Hot air balloon",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Escada rolante",
@@ -677,7 +677,7 @@
       "titulo": "en:Zeppelin",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Motor de combustão interna",
@@ -887,14 +887,14 @@
       "titulo": "en:Fluorescent lamp",
       "camada": 1,
       "destino": 3,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Máquina de lavar roupa",
       "titulo": "en:Washing machine",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Helicóptero",
@@ -943,7 +943,7 @@
       "titulo": "en:Joystick",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Impressora 3D",
@@ -971,7 +971,7 @@
       "titulo": "en:Trebuchet",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Pluviômetro",
@@ -1118,6 +1118,286 @@
       "titulo": "en:Pitot tube",
       "camada": 3,
       "destino": 2,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Fósforo",
+      "titulo": "en:Match",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Guarda-chuva",
+      "titulo": "en:Umbrella",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Zíper",
+      "titulo": "en:Zipper",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Grampeador",
+      "titulo": "en:Stapler",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Secador de cabelo",
+      "titulo": "en:Hair dryer",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Torradeira",
+      "titulo": "en:Toaster",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Escova de dentes",
+      "titulo": "en:Toothbrush",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ar-condicionado",
+      "titulo": "en:Air conditioning",
+      "camada": 1,
+      "destino": 3,
+      "status": "usada"
+    },
+    {
+      "nome": "Videocassete",
+      "titulo": "en:Videocassette recorder",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ônibus espacial",
+      "titulo": "en:Space Shuttle",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Notebook",
+      "titulo": "en:Laptop",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Usina de Itaipu",
+      "titulo": "en:Itaipu Dam",
+      "camada": 1,
+      "destino": 3,
+      "status": "usada"
+    },
+    {
+      "nome": "Aparelho de barbear",
+      "titulo": "en:Safety razor",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rádio",
+      "titulo": "en:Radio",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cubo mágico",
+      "titulo": "en:Rubik's Cube",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tamagotchi",
+      "titulo": "en:Tamagotchi",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "PlayStation",
+      "titulo": "en:PlayStation (console)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mega Drive",
+      "titulo": "en:Sega Genesis",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Desastre do Hindenburg",
+      "titulo": "en:Hindenburg disaster",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Saturno V",
+      "titulo": "en:Saturn V",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Telescópio Espacial James Webb",
+      "titulo": "en:James Webb Space Telescope",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Disco de Ouro da Voyager",
+      "titulo": "en:Voyager Golden Record",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Microfone",
+      "titulo": "en:Microphone",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Megafone",
+      "titulo": "en:Megaphone",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "iPod",
+      "titulo": "en:IPod",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Concorde",
+      "titulo": "en:Concorde",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Usina de Belo Monte",
+      "titulo": "en:Belo Monte Dam",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Máquina tabuladora de Hollerith",
+      "titulo": "en:Tabulating machine",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "UNIVAC I",
+      "titulo": "en:UNIVAC I",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Manchester Baby",
+      "titulo": "en:Manchester Baby",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Altair 8800",
+      "titulo": "en:Altair 8800",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Harmônica de vidro",
+      "titulo": "en:Glass harmonica",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lente de Fresnel",
+      "titulo": "en:Fresnel lens",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Eletróforo",
+      "titulo": "en:Electrophorus",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Lâmpada de arco",
+      "titulo": "en:Arc lamp",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Escafandro",
+      "titulo": "en:Standard diving dress",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Torre Wardenclyffe",
+      "titulo": "en:Wardenclyffe Tower",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Motor homopolar",
+      "titulo": "en:Homopolar motor",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Telégrafo óptico de Chappe",
+      "titulo": "en:Semaphore line",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Analisador diferencial",
+      "titulo": "en:Differential analyser",
+      "camada": 3,
+      "destino": 1,
       "status": "sem_imagem"
     }
   ]
