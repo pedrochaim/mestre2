@@ -1,0 +1,765 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pimenta",
+        "descricao": "Frutos de variedades do gênero Capsicum, cultivados pela ardência e usados como condimento.",
+        "variantes": [
+          "Pimenta chili",
+          "Chili",
+          "Pimenta-malagueta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pimenta",
+          "nome": "Pimenta",
+          "descricao": "Fruto picante das plantas do gênero Capsicum, como a malagueta e a jalapeño",
+          "variantes": [
+            "Capsicum",
+            "Pimenta-malagueta"
+          ]
+        },
+        {
+          "id": "pimentao",
+          "nome": "Pimentão",
+          "descricao": "Fruto de Capsicum annuum do grupo Grossum, usado como hortaliça, aqui vermelho.",
+          "variantes": [
+            "Pimentão vermelho",
+            "Bell pepper"
+          ]
+        },
+        {
+          "id": "pieta_michelangelo",
+          "nome": "Pietà (Michelangelo)",
+          "descricao": "Escultura de mármore de Michelangelo, de 1498-1499, que mostra Maria com Jesus morto no colo, na Basílica de São Pedro.",
+          "variantes": [
+            "Pietà do Vaticano",
+            "La Pietà",
+            "Pietà"
+          ]
+        },
+        {
+          "id": "bandeira_do_chile",
+          "nome": "Bandeira do Chile",
+          "descricao": "Bandeira nacional do Chile, com quadrado azul com estrela branca, faixa branca e faixa vermelha.",
+          "variantes": [
+            "Chile",
+            "La Estrella Solitaria"
+          ]
+        },
+        {
+          "id": "chile",
+          "nome": "Chile",
+          "descricao": "País longo e estreito da América do Sul, entre os Andes e o Oceano Pacífico, com capital em Santiago.",
+          "variantes": [
+            "República do Chile"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Manjericão",
+        "descricao": "Erva aromática Ocimum basilicum, da família das lamiáceas, muito usada na culinária.",
+        "variantes": [
+          "Basílico",
+          "Manjericão-de-folha-larga"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "manjericao",
+          "nome": "Manjericão",
+          "descricao": "Erva aromática Ocimum basilicum, de folhas verdes largas, usada na culinária.",
+          "variantes": [
+            "Basílico",
+            "Manjericão-doce"
+          ]
+        },
+        {
+          "id": "basilisco",
+          "nome": "Basilisco",
+          "descricao": "Lagarto da América Central (Basiliscus basiliscus) capaz de correr sobre a superfície da água.",
+          "variantes": [
+            "Basilisco-comum",
+            "Basiliscus basiliscus"
+          ]
+        },
+        {
+          "id": "basilisco_2",
+          "nome": "Basilisco",
+          "descricao": "Réptil lendário dos bestiários europeus, rei das serpentes, cujo olhar mata.",
+          "variantes": [
+            "Basilisk",
+            "Cocatriz"
+          ]
+        },
+        {
+          "id": "silicio",
+          "nome": "Silício",
+          "descricao": "Elemento químico de número atômico 14, semimetal presente na areia e base dos chips eletrônicos.",
+          "variantes": []
+        },
+        {
+          "id": "basilio_ii",
+          "nome": "Basílio II",
+          "descricao": "Imperador bizantino de 976 a 1025, apelidado de Matador de Búlgaros.",
+          "variantes": [
+            "Basílio Segundo",
+            "Basil II",
+            "Bulgaróctono"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cica",
+        "descricao": "Cycas revoluta, gimnosperma ornamental originária do sul do Japão, de tronco fibroso e folhas pinadas.",
+        "variantes": [
+          "Cycas revoluta",
+          "Sagu-de-jardim",
+          "Palmeira-sagu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cuica",
+          "nome": "Cuíca",
+          "descricao": "Tambor de fricção usado no samba, com uma vareta presa ao centro do couro.",
+          "variantes": []
+        },
+        {
+          "id": "palmeiras",
+          "nome": "Palmeiras",
+          "descricao": "Sociedade Esportiva Palmeiras, clube de futebol de São Paulo fundado em 1914 por imigrantes italianos.",
+          "variantes": [
+            "Sociedade Esportiva Palmeiras",
+            "Verdão",
+            "Palestra Itália"
+          ]
+        },
+        {
+          "id": "cigarra",
+          "nome": "Cigarra",
+          "descricao": "Insetos da superfamília Cicadoidea, cujos machos produzem um canto alto e cujas ninfas vivem sob a terra.",
+          "variantes": [
+            "Cicadoidea",
+            "cicada"
+          ]
+        },
+        {
+          "id": "cicuta",
+          "nome": "Cicuta",
+          "descricao": "Planta venenosa Conium maculatum, da família da cenoura",
+          "variantes": [
+            "Conium maculatum",
+            "hemlock",
+            "cicuta-maior"
+          ]
+        },
+        {
+          "id": "palmeira_imperial",
+          "nome": "Palmeira-imperial",
+          "descricao": "Palmeira alta do gênero Roystonea, de tronco liso e acinzentado, muito usada em jardins e avenidas.",
+          "variantes": [
+            "Roystonea",
+            "Palmeira-real",
+            "Royal palm"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Amanita muscaria",
+        "descricao": "Cogumelo venenoso de chapéu vermelho com verrugas brancas, do gênero Amanita.",
+        "variantes": [
+          "Agário-das-moscas",
+          "Fly agaric",
+          "Mata-moscas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "amanita_muscaria",
+          "nome": "Amanita muscaria",
+          "descricao": "Cogumelo venenoso de chapéu vermelho com pintas brancas, típico das ilustrações de contos de fadas",
+          "variantes": [
+            "Agário-das-moscas",
+            "Mata-moscas",
+            "Fly agaric"
+          ]
+        },
+        {
+          "id": "dioneia",
+          "nome": "Dioneia",
+          "descricao": "Planta carnívora Dionaea muscipula, que captura insetos com folhas em forma de armadilha",
+          "variantes": [
+            "Dionaea muscipula",
+            "papa-moscas",
+            "Venus flytrap"
+          ]
+        },
+        {
+          "id": "mata_dos_cocais",
+          "nome": "Mata dos Cocais",
+          "descricao": "Formação vegetal de transição entre Amazônia, Cerrado e Caatinga, dominada por palmeiras como o babaçu e a carnaúba",
+          "variantes": [
+            "Zona dos Cocais"
+          ]
+        },
+        {
+          "id": "santa_maria_nau_de_colombo",
+          "nome": "Santa Maria (nau de Colombo)",
+          "descricao": "Nau capitânia da primeira viagem de Cristóvão Colombo à América, em 1492, que naufragou no Haiti no Natal daquele ano.",
+          "variantes": [
+            "Santa María",
+            "La Gallega"
+          ]
+        },
+        {
+          "id": "atol_das_rocas",
+          "nome": "Atol das Rocas",
+          "descricao": "Atol no oceano Atlântico, a nordeste do Brasil, protegido como reserva biológica.",
+          "variantes": [
+            "Rocas Atoll",
+            "Reserva Biológica do Atol das Rocas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Pitaya",
+        "descricao": "Fruto de cactos do gênero Selenicereus, de casca rosa com escamas.",
+        "variantes": [
+          "Pitahaya",
+          "Pitaia",
+          "Fruta-do-dragão",
+          "Dragon fruit"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pitaia",
+          "nome": "Pitaia",
+          "descricao": "Fruta de um cacto do gênero Selenicereus, de casca rosa com escamas, também chamada pitahaya.",
+          "variantes": [
+            "Pitaya",
+            "Fruta-do-dragão",
+            "Dragon fruit"
+          ]
+        },
+        {
+          "id": "oraculo_de_delfos",
+          "nome": "Oráculo de Delfos",
+          "descricao": "Santuário de Apolo em Delfos, na Grécia, onde a sacerdotisa Pítia dava respostas proféticas.",
+          "variantes": [
+            "Pítia",
+            "Delphi Oracle",
+            "Delfos",
+            "Oráculo de Delphi"
+          ]
+        },
+        {
+          "id": "italia",
+          "nome": "Itália",
+          "descricao": "País da Europa meridional, formado por uma península em forma de bota, Sicília e Sardenha.",
+          "variantes": [
+            "República Italiana"
+          ]
+        },
+        {
+          "id": "fruta_do_diabo",
+          "nome": "Fruta do Diabo",
+          "descricao": "Fruta mágica de One Piece que dá poderes sobre-humanos a quem a come.",
+          "variantes": [
+            "Akuma no Mi",
+            "Devil Fruit"
+          ]
+        },
+        {
+          "id": "o_voo_do_dragao",
+          "nome": "O Voo do Dragão",
+          "descricao": "Filme de artes marciais de 1972 escrito, dirigido e estrelado por Bruce Lee.",
+          "variantes": [
+            "The Way of the Dragon",
+            "A Fúria do Dragão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Paineira",
+        "descricao": "Árvore decídua sul-americana Ceiba speciosa, de flores rosadas e tronco bojudo com espinhos.",
+        "variantes": [
+          "Ceiba speciosa",
+          "Barriguda",
+          "Paina-rosa",
+          "Árvore-de-paina"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bocio",
+          "nome": "Bócio",
+          "descricao": "Aumento de volume da glândula tireoide, visível no pescoço.",
+          "variantes": [
+            "Papeira",
+            "Goitre",
+            "Goiter"
+          ]
+        },
+        {
+          "id": "pangeia",
+          "nome": "Pangeia",
+          "descricao": "Supercontinente que reuniu quase todas as terras emersas no fim da Era Paleozoica e no início da Mesozoica.",
+          "variantes": [
+            "Pangea",
+            "Pangaea"
+          ]
+        },
+        {
+          "id": "arvore_de_natal",
+          "nome": "Árvore de Natal",
+          "descricao": "Pinheiro, natural ou artificial, enfeitado com luzes e ornamentos durante as festas de fim de ano.",
+          "variantes": [
+            "Pinheirinho de Natal",
+            "Christmas tree"
+          ]
+        },
+        {
+          "id": "agave_americana",
+          "nome": "Agave-americana",
+          "descricao": "Planta suculenta Agave americana, que floresce uma única vez depois de muitos anos e então morre",
+          "variantes": [
+            "Planta-do-século",
+            "Piteira"
+          ]
+        },
+        {
+          "id": "barracuda",
+          "nome": "Barracuda",
+          "descricao": "Peixe predador alongado de mandíbula grande, do gênero Sphyraena, de mares tropicais.",
+          "variantes": [
+            "Sphyraena"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Cana-de-açúcar",
+        "descricao": "Gramínea alta do gênero Saccharum, de colmos ricos em sacarose, usada para produzir açúcar.",
+        "variantes": [
+          "Cana",
+          "Saccharum officinarum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cana_de_acucar",
+          "nome": "Cana-de-açúcar",
+          "descricao": "Gramínea alta do gênero Saccharum, cultivada para produzir açúcar e etanol",
+          "variantes": [
+            "Saccharum officinarum",
+            "Cana"
+          ]
+        },
+        {
+          "id": "canja",
+          "nome": "Canja",
+          "descricao": "Caldo de arroz com galinha, cujo nome chegou ao português vindo da Ásia",
+          "variantes": [
+            "Canja de galinha"
+          ]
+        },
+        {
+          "id": "pao_de_acucar",
+          "nome": "Pão de Açúcar",
+          "descricao": "Morro de granito na entrada da Baía de Guanabara, no Rio de Janeiro, ligado ao Morro da Urca por um teleférico.",
+          "variantes": [
+            "Morro do Pão de Açúcar",
+            "Sugarloaf Mountain"
+          ]
+        },
+        {
+          "id": "canada",
+          "nome": "Canadá",
+          "descricao": "País da América do Norte cuja capital é Ottawa.",
+          "variantes": []
+        },
+        {
+          "id": "cigana",
+          "nome": "Cigana",
+          "descricao": "Ave da Amazônia e do Orinoco (Opisthocomus hoazin), de crista eriçada e olho vermelho, que fermenta folhas no sistema digestivo.",
+          "variantes": [
+            "Jacu-cigano",
+            "Hoatzin",
+            "Opisthocomus hoazin",
+            "Hoazin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Camomila",
+        "descricao": "Planta anual Matricaria chamomilla, da família das asteráceas, usada para fazer chá.",
+        "variantes": [
+          "Camomila-vulgar",
+          "Matricaria chamomilla",
+          "Matricaria recutita"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "astana",
+          "nome": "Astana",
+          "descricao": "Capital do Cazaquistão desde 1997, chamada Nur-Sultan entre 2019 e 2022.",
+          "variantes": [
+            "Nur-Sultan",
+            "Akmola",
+            "Tselinogrado"
+          ]
+        },
+        {
+          "id": "amonia",
+          "nome": "Amônia",
+          "descricao": "Composto de nitrogênio e hidrogênio, gás de cheiro forte usado em fertilizantes e produtos de limpeza.",
+          "variantes": [
+            "Amoníaco",
+            "Ammonia"
+          ]
+        },
+        {
+          "id": "esfera_armilar",
+          "nome": "Esfera armilar",
+          "descricao": "Modelo da esfera celeste formado por anéis metálicos que representam círculos astronômicos como a eclíptica.",
+          "variantes": [
+            "Armila",
+            "Astrolábio esférico"
+          ]
+        },
+        {
+          "id": "casa_mila",
+          "nome": "Casa Milà",
+          "descricao": "Edifício residencial projetado por Antoni Gaudí no Passeig de Gràcia, em Barcelona, com fachada ondulada de pedra.",
+          "variantes": [
+            "La Pedrera"
+          ]
+        },
+        {
+          "id": "alomomola",
+          "nome": "Alomomola",
+          "descricao": "Pokémon do tipo Água, número 594 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Hydnora africana",
+        "descricao": "Planta parasita sem clorofila do sul da África, que vive sob o solo e só mostra a flor carnosa.",
+        "variantes": [
+          "Jakkalskos",
+          "Hydnora"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hidra_constelacao",
+          "nome": "Hidra (constelação)",
+          "descricao": "Constelação longa em forma de serpente d'água, a maior das oitenta e oito constelações oficiais em área.",
+          "variantes": [
+            "Hydra"
+          ]
+        },
+        {
+          "id": "hidra",
+          "nome": "Hidra",
+          "descricao": "Gênero de pequenos cnidários de água doce, com corpo tubular e tentáculos, capazes de regenerar o corpo.",
+          "variantes": [
+            "Hydra"
+          ]
+        },
+        {
+          "id": "eva_mitocondrial",
+          "nome": "Eva mitocondrial",
+          "descricao": "Ancestral comum mais recente, pela linhagem materna, de todos os seres humanos vivos, identificada pelo DNA mitocondrial.",
+          "variantes": [
+            "Mitochondrial Eve",
+            "Eva africana"
+          ]
+        },
+        {
+          "id": "ano_da_africa",
+          "nome": "Ano da África",
+          "descricao": "O ano de 1960, em que dezessete países africanos se tornaram independentes.",
+          "variantes": [
+            "Year of Africa"
+          ]
+        },
+        {
+          "id": "cores_pan_africanas",
+          "nome": "Cores pan-africanas",
+          "descricao": "Conjunto de cores verde, amarelo e vermelho usado em muitas bandeiras africanas como símbolo de unidade e independência.",
+          "variantes": [
+            "Pan-African colours"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Algodão",
+        "descricao": "Planta do gênero Gossypium cujo fruto, o capulho, envolve as sementes em fibra macia usada em tecidos.",
+        "variantes": [
+          "Algodoeiro",
+          "Gossypium"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alcorao",
+          "nome": "Alcorão",
+          "descricao": "Livro sagrado do islã, considerado pelos muçulmanos a palavra de Deus revelada a Maomé",
+          "variantes": [
+            "Corão",
+            "Qur'an",
+            "Quran"
+          ]
+        },
+        {
+          "id": "alagoas",
+          "nome": "Alagoas",
+          "descricao": "Estado brasileiro do litoral da Região Nordeste, com capital em Maceió.",
+          "variantes": [
+            "Estado de Alagoas"
+          ]
+        },
+        {
+          "id": "sanfona",
+          "nome": "Sanfona",
+          "descricao": "Instrumento de fole com palhetas livres, com teclado ou botões na mão direita e baixos na esquerda.",
+          "variantes": [
+            "Acordeão",
+            "Acordeom"
+          ]
+        },
+        {
+          "id": "pandeiro",
+          "nome": "Pandeiro",
+          "descricao": "Instrumento de percussão de mão, com pele esticada em aro e platinelas, usado no samba, no choro e na capoeira.",
+          "variantes": []
+        },
+        {
+          "id": "agogo",
+          "nome": "Agogô",
+          "descricao": "Instrumento de percussão de metal formado por dois sinos cônicos de alturas diferentes, de origem iorubá.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Romã",
+        "descricao": "Fruto da romãzeira, Punica granatum, arbusto da família das litráceas de origem iraniana.",
+        "variantes": [
+          "Romãzeira",
+          "Punica granatum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        },
+        {
+          "id": "roma_2",
+          "nome": "Roma",
+          "descricao": "Capital da Itália, às margens do rio Tibre.",
+          "variantes": [
+            "Rome"
+          ]
+        },
+        {
+          "id": "povo_cigano",
+          "nome": "Povo cigano",
+          "descricao": "Povo romani, de origem no norte do subcontinente indiano, espalhado pela Europa e pelas Américas.",
+          "variantes": [
+            "Romani",
+            "Roma",
+            "Ciganos",
+            "Rom"
+          ]
+        },
+        {
+          "id": "bandeira_de_oma",
+          "nome": "Bandeira de Omã",
+          "descricao": "Bandeira nacional do Sultanato de Omã, com faixas branca, vermelha e verde e emblema de punhal e espadas.",
+          "variantes": [
+            "Omã",
+            "Bandeira de Oman"
+          ]
+        },
+        {
+          "id": "rio_madeira",
+          "nome": "Rio Madeira",
+          "descricao": "Grande afluente da margem direita do rio Amazonas, que banha Porto Velho, em Rondônia.",
+          "variantes": [
+            "Madeira",
+            "Madeira River"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Quaresmeira",
+        "descricao": "Árvore Pleroma granulosum, da família das melastomatáceas, de flores roxas, nativa do Brasil e da Bolívia.",
+        "variantes": [
+          "Tibouchina granulosa",
+          "Pleroma granulosum",
+          "Flor-da-quaresma"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quaresma",
+          "nome": "Quaresma",
+          "descricao": "Período de quarenta dias de penitência que antecede a Páscoa cristã",
+          "variantes": []
+        },
+        {
+          "id": "cupuacu",
+          "nome": "Cupuaçu",
+          "descricao": "Fruta amazônica de polpa branca e ácida, usada em sucos, doces e sorvetes",
+          "variantes": [
+            "Theobroma grandiflorum",
+            "cupuaçuzeiro",
+            "cupuassu"
+          ]
+        },
+        {
+          "id": "aranha_armadeira",
+          "nome": "Aranha-armadeira",
+          "descricao": "Aranhas sul-americanas do gênero Phoneutria, errantes e de veneno potente, comuns no Brasil.",
+          "variantes": [
+            "Phoneutria",
+            "armadeira",
+            "aranha-de-bananeira"
+          ]
+        },
+        {
+          "id": "indochina_francesa",
+          "nome": "Indochina Francesa",
+          "descricao": "Conjunto de colônias e protetorados franceses no Sudeste Asiático, de 1887 a 1954.",
+          "variantes": [
+            "French Indochina",
+            "União Indochinesa"
+          ]
+        },
+        {
+          "id": "maracuja",
+          "nome": "Maracujá",
+          "descricao": "Fruto das trepadeiras do gênero Passiflora, cujas flores são chamadas de flor-da-paixão",
+          "variantes": [
+            "Passiflora",
+            "flor-da-paixão",
+            "passion fruit",
+            "maracujazeiro"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "pimenta",
+      "motivo": "Ambas são o fruto picante de Capsicum (pimenta-malagueta/chili)."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "manjericao",
+      "motivo": "Mesma erva Ocimum basilicum."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cica (Cycas revoluta) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "amanita_muscaria",
+      "motivo": "Mesmo cogumelo, mesmas variantes."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "pitaia",
+      "motivo": "Mesma fruta (pitaya/pitaia, dragon fruit)."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Paineira (Ceiba speciosa) não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "cana_de_acucar",
+      "motivo": "Mesma planta Saccharum."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Camomila não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Hydnora africana é uma planta parasita; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Algodão (Gossypium) não consta entre as candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "roma",
+      "motivo": "Ambas são o fruto da romãzeira, Punica granatum (id 'roma' com nome Romã)."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Quaresmeira (árvore) é diferente de Quaresma (período litúrgico) e das demais."
+    }
+  ]
+}

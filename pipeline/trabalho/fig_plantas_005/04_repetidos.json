@@ -1,0 +1,125 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Estes frutos, de uma planta da família das solanáceas, pertencem a que gênero botânico?",
+        "resposta": "Capsicum"
+      },
+      "existentes": [
+        {
+          "id": "q00226",
+          "pergunta": "Que substância presente nas pimentas é responsável pela sensação de ardência na boca?",
+          "resposta": "Capsaicina"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que erva aromática é esta?",
+        "resposta": "Manjericão"
+      },
+      "existentes": [
+        {
+          "id": "q08083",
+          "pergunta": "Que erva aromática de folhas verdes largas, muito usada na culinária italiana, é esta?",
+          "resposta": "Manjericão"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Este cogumelo venenoso de chapéu vermelho tem um nome popular que alude a que inseto?",
+        "resposta": "Mosca"
+      },
+      "existentes": [
+        {
+          "id": "q06082",
+          "pergunta": "O nome popular do cogumelo vermelho de pintas brancas, em várias línguas europeias, provavelmente vem do uso caseiro dele como veneno contra qual inseto?",
+          "resposta": "Mosca"
+        },
+        {
+          "id": "q14947",
+          "pergunta": "Que cogumelo é este?",
+          "resposta": "Amanita muscaria (agário-das-moscas)"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que fruta é esta?",
+        "resposta": "Pitaya"
+      },
+      "existentes": [
+        {
+          "id": "q04352",
+          "pergunta": "Que fruta tropical, produzida por um cacto, é esta?",
+          "resposta": "Pitaia"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Estes caules vêm de que planta?",
+        "resposta": "Cana-de-açúcar"
+      },
+      "existentes": [
+        {
+          "id": "q06061",
+          "pergunta": "Segundo as melhores evidências, a espécie de cana-de-açúcar Saccharum officinarum, base do açúcar colonial, foi domesticada originalmente em que ilha?",
+          "resposta": "Nova Guiné"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que fruta é esta?",
+        "resposta": "Romã"
+      },
+      "existentes": [
+        {
+          "id": "q01852",
+          "pergunta": "Que fruta é esta, ainda pendurada na árvore?",
+          "resposta": "Romã"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Gênero botânico é um fato diferente da substância da ardência."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas identificam a mesma erva por imagem, resposta Manjericão."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o inseto (mosca) ligado ao nome popular do cogumelo vermelho."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificação da mesma fruta (pitaya/pitaia) por imagem."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Identificar a planta pelos caules difere da ilha de domesticação."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificação da romã por imagem."
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pimentas amarelas, verdes e vermelhas, fundo branco, sem texto; todas são Capsicum.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que substância dá a ardência a estes frutos?",
+      "resposta": "Capsaicina",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pimenta",
+        "descricao": "Frutos de variedades do gênero Capsicum, cultivados pela ardência e usados como condimento.",
+        "variantes": [
+          "Pimenta chili",
+          "Chili",
+          "Pimenta-malagueta"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Folhas de manjericão bem visíveis e reconhecíveis, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que erva aromática é esta?",
+      "resposta": "Manjericão",
+      "distratores": [
+        "Sálvia",
+        "Orégano",
+        "Coentro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Manjericão",
+        "descricao": "Erva aromática Ocimum basilicum, da família das lamiáceas, muito usada na culinária.",
+        "variantes": [
+          "Basílico",
+          "Manjericão-de-folha-larga"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cone masculino de cica entre folhas pinadas, nítido; a pergunta de nível 3 vale para qualquer cica.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta planta é muitas vezes confundida com que outro grupo de plantas?",
+      "resposta": "Palmeiras",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cica",
+        "descricao": "Cycas revoluta, gimnosperma ornamental originária do sul do Japão, de tronco fibroso e folhas pinadas.",
+        "variantes": [
+          "Cycas revoluta",
+          "Sagu-de-jardim",
+          "Palmeira-sagu"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cogumelos vermelhos com pintas brancas, inconfundíveis e nítidos.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "O nome em inglês deste cogumelo, fly agaric, refere-se a que inseto?",
+      "resposta": "Mosca",
+      "destino": 0,
+      "ancora": {
+        "nome": "Amanita muscaria",
+        "descricao": "Cogumelo venenoso de chapéu vermelho com verrugas brancas, do gênero Amanita.",
+        "variantes": [
+          "Agário-das-moscas",
+          "Fly agaric",
+          "Mata-moscas"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pilha de pitayas rosadas, reconhecíveis; o jornal ao fundo não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Pitaya",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pitaya",
+        "descricao": "Fruto de cactos do gênero Selenicereus, de casca rosa com escamas.",
+        "variantes": [
+          "Pitahaya",
+          "Pitaia",
+          "Fruta-do-dragão",
+          "Dragon fruit"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Paineiras floridas em parque, copa rosada característica, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que árvore florida é esta?",
+      "resposta": "Paineira",
+      "distratores": [
+        "Ipê-rosa",
+        "Quaresmeira",
+        "Flamboyant"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Paineira",
+        "descricao": "Árvore decídua sul-americana Ceiba speciosa, de flores rosadas e tronco bojudo com espinhos.",
+        "variantes": [
+          "Ceiba speciosa",
+          "Barriguda",
+          "Paina-rosa",
+          "Árvore-de-paina"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Colmos de cana empilhados, claros e legíveis.",
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Estes caules vêm de que planta?",
+      "resposta": "Cana-de-açúcar",
+      "distratores": [
+        "Bambu",
+        "Sorgo",
+        "Mandioca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cana-de-açúcar",
+        "descricao": "Gramínea alta do gênero Saccharum, de colmos ricos em sacarose, usada para produzir açúcar.",
+        "variantes": [
+          "Cana",
+          "Saccharum officinarum"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Capítulo de camomila em foco, branco com miolo amarelo, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que planta de flores brancas e miolo amarelo é esta?",
+      "resposta": "Camomila",
+      "distratores": [
+        "Margarida-comum",
+        "Crisântemo",
+        "Calêndula"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Camomila",
+        "descricao": "Planta anual Matricaria chamomilla, da família das asteráceas, usada para fazer chá.",
+        "variantes": [
+          "Camomila-vulgar",
+          "Matricaria chamomilla",
+          "Matricaria recutita"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Flores vermelhas e carnosas de Hydnora africana, bem distintas, apesar de a imagem ser pequena; usa múltipla por ser de aficionado.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que planta parasita africana, sem folhas, tem esta flor?",
+      "resposta": "Hydnora africana",
+      "distratores": [
+        "Rafflesia",
+        "Lírio-cadáver",
+        "Aristolóquia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hydnora africana",
+        "descricao": "Planta parasita sem clorofila do sul da África, que vive sob o solo e só mostra a flor carnosa.",
+        "variantes": [
+          "Jakkalskos",
+          "Hydnora"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Capulho aberto de algodão com folha típica, nítido.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que planta é esta?",
+      "resposta": "Algodão",
+      "destino": 0,
+      "ancora": {
+        "nome": "Algodão",
+        "descricao": "Planta do gênero Gossypium cujo fruto, o capulho, envolve as sementes em fibra macia usada em tecidos.",
+        "variantes": [
+          "Algodoeiro",
+          "Gossypium"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Romã e flor em formação na árvore, nítidas e reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Romã",
+      "destino": 0,
+      "ancora": {
+        "nome": "Romã",
+        "descricao": "Fruto da romãzeira, Punica granatum, arbusto da família das litráceas de origem iraniana.",
+        "variantes": [
+          "Romãzeira",
+          "Punica granatum"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Duas quaresmeiras floridas, roxa e rosa, reconhecíveis, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que árvore brasileira de flores roxas é esta?",
+      "resposta": "Quaresmeira",
+      "distratores": [
+        "Ipê-roxo",
+        "Jacarandá-mimoso",
+        "Resedá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Quaresmeira",
+        "descricao": "Árvore Pleroma granulosum, da família das melastomatáceas, de flores roxas, nativa do Brasil e da Bolívia.",
+        "variantes": [
+          "Tibouchina granulosa",
+          "Pleroma granulosum",
+          "Flor-da-quaresma"
+        ]
+      }
+    }
+  ]
+}
