@@ -1,0 +1,129 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem traz rótulos legíveis (Coccyx, Coccygeus, Levator ani) que entregam a resposta, e é uma prancha anatômica cheia de texto."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Ilustração genérica de uma célula roxa e borrada, sem traços que permitam reconhecer um macrófago. Poderia ser qualquer célula, então a resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Corte histológico com muitas células e setas, impossível de reconhecer por um leigo. Os megacariócitos pequenos não ficam legíveis num celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O diagrama está cheio de rótulos, entre eles Tympanic membrane e The Anatomy of the Ear, que entregam a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista do encéfalo em transparência, com o cerebelo destacado em vermelho. Não há texto, e a região destacada é clara.",
+      "tipo": "multipla",
+      "familia": "que_parte",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Que parte do encéfalo está destacada em vermelho nesta imagem?",
+      "resposta": "Cerebelo",
+      "distratores": [
+        "Tronco encefálico",
+        "Tálamo",
+        "Hipocampo"
+      ],
+      "ancora": {
+        "nome": "Cerebelo",
+        "descricao": "Estrutura do encéfalo na parte posterior inferior, ligada à coordenação motora e ao equilíbrio.",
+        "variantes": [
+          "Cerebellum"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem de fluorescência de célula em metáfase, com microtúbulos verdes, cromossomos azuis e sem texto. O fuso é bem visível.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 2,
+      "pergunta": "Que estrutura, mostrada em verde, aparece nesta célula em divisão?",
+      "resposta": "Fuso mitótico",
+      "distratores": [
+        "Aparelho de Golgi",
+        "Flagelo",
+        "Nucléolo"
+      ],
+      "ancora": {
+        "nome": "Fuso mitótico",
+        "descricao": "Estrutura de microtúbulos que separa os cromossomos durante a divisão celular.",
+        "variantes": [
+          "Fuso acromático",
+          "Fuso mitótico",
+          "Aparelho do fuso"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de um pedaço de carvão mineral (antracito), sem texto. Pede-se o elemento principal que o compõe.",
+      "tipo": "aberta",
+      "familia": "que_parte",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que elemento químico é o principal componente deste material?",
+      "resposta": "Carbono",
+      "ancora": {
+        "nome": "Carvão mineral",
+        "descricao": "Rocha sedimentar combustível preta, formada principalmente por carbono, aqui um pedaço de antracito.",
+        "variantes": [
+          "Antracito",
+          "Carvão"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A imagem traz o texto Centrioles e Microtubules, que entrega a resposta, e reúne vários elementos."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida de um ornitorrinco nadando, com o bico e a cauda característicos e sem texto.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 2,
+      "pergunta": "Que animal é este?",
+      "resposta": "Ornitorrinco",
+      "ancora": {
+        "nome": "Ornitorrinco",
+        "descricao": "Mamífero semiaquático da Austrália que põe ovos e tem bico de pato.",
+        "variantes": [
+          "Ornithorhynchus anatinus"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A célula mostrada tem núcleo único e arredondado, parecido com o de um monócito ou linfócito, e não o núcleo multilobulado de um neutrófilo. A imagem não corresponde à entidade. Há ainda uma marca d'água com o nome do autor."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto de rocha com manchas amareladas, sem traços que permitam reconhecer o ouropigmento. A baixa resolução também não ajuda num celular."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O rótulo Pectoralis major está escrito na imagem e entrega a resposta."
+    }
+  ]
+}

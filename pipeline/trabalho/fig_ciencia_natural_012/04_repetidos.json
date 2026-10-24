@@ -1,0 +1,97 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que parte do encéfalo está destacada em vermelho nesta imagem?",
+        "resposta": "Cerebelo"
+      },
+      "existentes": [
+        {
+          "id": "q11860",
+          "pergunta": "Localizado atrás e embaixo do cérebro, o cerebelo é essencial para quais funções do corpo?",
+          "resposta": "Equilíbrio e coordenação dos movimentos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que estrutura, mostrada em verde, aparece nesta célula em divisão?",
+        "resposta": "Fuso mitótico"
+      },
+      "existentes": [
+        {
+          "id": "q15322",
+          "pergunta": "Na célula em divisão desta imagem, a estrutura verde separa que material entre as células-filhas?",
+          "resposta": "Cromátides-irmãs"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que elemento químico é o principal componente deste material?",
+        "resposta": "Carbono"
+      },
+      "existentes": [
+        {
+          "id": "q04143",
+          "pergunta": "O carvão mineral, que alimenta usinas termelétricas, e o diamante das joias são formados principalmente pelo mesmo elemento. Qual?",
+          "resposta": "Carbono"
+        },
+        {
+          "id": "q05489",
+          "pergunta": "Para gerar a mesma quantidade de energia, qual destes combustíveis fósseis lança mais gás carbônico no ar?",
+          "resposta": "Carvão mineral"
+        },
+        {
+          "id": "q11758",
+          "pergunta": "Que material é este?",
+          "resposta": "Carvão"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que animal é este?",
+        "resposta": "Ornitorrinco"
+      },
+      "existentes": [
+        {
+          "id": "q00276",
+          "pergunta": "Por causa do bico achatado, o ornitorrinco recebeu um nome grego que significa focinho de que tipo de animal?",
+          "resposta": "Ave"
+        },
+        {
+          "id": "q07928",
+          "pergunta": "Em 1799, ao fazer a primeira descrição científica do ornitorrinco, que zoólogo britânico chegou a suspeitar que o exemplar fosse uma montagem falsa?",
+          "resposta": "George Shaw"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar a estrutura na imagem; a existente pergunta a função do cerebelo."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta o nome da estrutura (fuso mitótico); a existente pergunta o material separado (cromátides-irmãs)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pede o elemento principal de um material mostrado em imagem; q04143 pergunta o elemento comum ao carvão e ao diamante, resposta igual, mas o fato do material da imagem é incerto. Na dúvida, nova."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A nova pede identificação do animal pela imagem; as existentes tratam do significado do nome e da descrição científica."
+    }
+  ]
+}

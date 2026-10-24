@@ -628,7 +628,7 @@
       "titulo": "en:Platypus",
       "camada": 1,
       "destino": 2,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Água-viva",
@@ -1013,7 +1013,7 @@
       "titulo": "en:Cerebellum",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Esponja-do-mar",
@@ -1118,6 +1118,286 @@
       "titulo": "en:Spindle apparatus",
       "camada": 3,
       "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Bexiga urinária",
+      "titulo": "en:Urinary bladder",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Intestino grosso",
+      "titulo": "en:Large intestine",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Medula espinhal",
+      "titulo": "en:Spinal cord",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Úvula",
+      "titulo": "en:Uvula",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Amígdala palatina",
+      "titulo": "en:Palatine tonsil",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cóccix",
+      "titulo": "en:Coccyx",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Reto abdominal",
+      "titulo": "en:Rectus abdominis muscle",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Peitoral maior",
+      "titulo": "en:Pectoralis major muscle",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ombro",
+      "titulo": "en:Shoulder",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tímpano",
+      "titulo": "en:Eardrum",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Carbono",
+      "titulo": "en:Carbon",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Calcário",
+      "titulo": "en:Limestone",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Quartzo rosa",
+      "titulo": "en:Rose quartz",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Macrófago",
+      "titulo": "en:Macrophage",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Linfócito",
+      "titulo": "en:Lymphocyte",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Neutrófilo",
+      "titulo": "en:Neutrophil",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Fontanela (moleira)",
+      "titulo": "en:Fontanelle",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Maxila",
+      "titulo": "en:Maxilla",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Complexo de Golgi",
+      "titulo": "en:Golgi apparatus",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Retículo endoplasmático",
+      "titulo": "en:Endoplasmic reticulum",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Membrana plasmática",
+      "titulo": "en:Cell membrane",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Meiose",
+      "titulo": "en:Meiosis",
+      "camada": 2,
+      "destino": 2,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Amianto",
+      "titulo": "en:Asbestos",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jaspe",
+      "titulo": "en:Jasper",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Olho-de-tigre",
+      "titulo": "en:Tiger's eye",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Plutônio",
+      "titulo": "en:Plutonium",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Calcopirita",
+      "titulo": "en:Chalcopyrite",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mastócito",
+      "titulo": "en:Mast cell",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Megacariócito",
+      "titulo": "en:Megakaryocyte",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Célula caliciforme",
+      "titulo": "en:Goblet cell",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Centríolo",
+      "titulo": "en:Centriole",
+      "camada": 3,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Vibrio cholerae",
+      "titulo": "en:Vibrio cholerae",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Bacilo de Koch",
+      "titulo": "en:Mycobacterium tuberculosis",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Vanadinita",
+      "titulo": "en:Vanadinite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Crocoíta",
+      "titulo": "en:Crocoite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Wulfenita",
+      "titulo": "en:Wulfenite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ouropigmento",
+      "titulo": "en:Orpiment",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Realgar",
+      "titulo": "en:Realgar",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dioptásio",
+      "titulo": "en:Dioptase",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sodalita",
+      "titulo": "en:Sodalite",
+      "camada": 3,
+      "destino": 0,
       "status": "nova"
     }
   ]
