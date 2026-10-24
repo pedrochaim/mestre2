@@ -1,0 +1,184 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de um cinto de couro com fivela, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que acessório é este?",
+      "resposta": "Cinto",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cinto",
+        "descricao": "Faixa flexível de couro ou tecido, com fivela, usada na cintura para prender a roupa ou como adorno.",
+        "variantes": [
+          "Cinta",
+          "Cinturão"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Crianças comuns em primeiro plano, sem serem figuras públicas."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Estampa toile azul sobre almofadas de lavanda, reconhecível e sem texto. Múltipla escolha para distinguir de outras estampas.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estampa tradicional, de cenas em um só tom, aparece nestas almofadas?",
+      "resposta": "Toile de Jouy",
+      "distratores": [
+        "Paisley",
+        "Xadrez vichy",
+        "Pied-de-poule"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Toile de Jouy",
+        "descricao": "Estampa têxtil de origem francesa, com cenas pastorais em um só tom sobre fundo claro.",
+        "variantes": [
+          "Toile",
+          "Tela de Jouy"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Bailarina desconhecida em primeiro plano; pessoa comum, não figura pública."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Close da gola alta dobrada, sem rosto nem texto, claramente identificável.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de gola é esta?",
+      "resposta": "Gola rulê",
+      "destino": 0,
+      "ancora": {
+        "nome": "Gola rulê",
+        "descricao": "Gola alta e justa que se dobra e cobre o pescoço, comum em suéteres.",
+        "variantes": [
+          "Gola alta",
+          "Gola olímpica",
+          "Turtleneck",
+          "Polo neck"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Desenho de um traje inteiro (camisa, gravata-borboleta e faixa), com vários itens; ilustração de algo que poderia ser fotografado."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Três tecidos xadrez de lã, um só assunto, sem texto; o padrão é reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que padrão de tecido, associado à Escócia, aparece nesta imagem?",
+      "resposta": "Xadrez tartan",
+      "destino": 0,
+      "ancora": {
+        "nome": "Xadrez tartan",
+        "descricao": "Padrão de tecido de listras horizontais e verticais cruzadas em várias cores, tradicional da Escócia.",
+        "variantes": [
+          "Tartã",
+          "Tartan",
+          "Plaid"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Figura pública usando a kufiya com destaque; o texto do fundo (fórum) não entrega a resposta. Múltipla para distinguir de outros panos de cabeça.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peça tradicional cobre a cabeça do homem nesta foto?",
+      "resposta": "Kufiya",
+      "distratores": [
+        "Turbante",
+        "Fez",
+        "Chador"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Kufiya",
+        "descricao": "Lenço quadrado de algodão, geralmente xadrez, usado na cabeça por homens do Oriente Médio e do norte da África.",
+        "variantes": [
+          "Quefia",
+          "Keffiyeh",
+          "Shemagh",
+          "Ghutra"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Busto de mármore com barrete cônico de ponta dobrada, claro e sem texto. Múltipla com chapéus distintos.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de chapéu a figura desta escultura antiga está usando?",
+      "resposta": "Barrete frígio",
+      "distratores": [
+        "Boina basca",
+        "Fez turco",
+        "Chapéu cloche"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Barrete frígio",
+        "descricao": "Gorro cônico macio com a ponta dobrada para a frente, usado na Antiguidade e depois símbolo de liberdade na Revolução Francesa.",
+        "variantes": [
+          "Gorro frígio",
+          "Barrete da liberdade",
+          "Phrygian cap"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto clara de pantufas de couro; o texto na palmilha (tamanho e origem) não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que calçado é este?",
+      "resposta": "Pantufa",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pantufa",
+        "descricao": "Calçado leve e fechado na frente, feito para usar dentro de casa.",
+        "variantes": [
+          "Chinelo de quarto",
+          "Chinelo de casa",
+          "Slipper"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Ilustração simples (clip-art) de algo que pode ser fotografado; sem os traços que dão reconhecimento claro."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Desenho de babados sem contexto, ilustração de algo fotografável e pouco reconhecível, com resposta ambígua (babado, golinha, jabô)."
+    }
+  ]
+}

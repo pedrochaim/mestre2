@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que peça tradicional cobre a cabeça do homem nesta foto?",
+        "resposta": "Kufiya"
+      },
+      "existentes": [
+        {
+          "id": "q01352",
+          "pergunta": "Como se chama este lenço quadriculado de algodão, usado na cabeça por homens do Oriente Médio?",
+          "resposta": "Keffiyeh"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q01352",
+      "motivo": "Ambas pedem o nome do mesmo lenço de cabeça (kufiya/keffiyeh); a resposta é a mesma com grafia diferente."
+    }
+  ]
+}

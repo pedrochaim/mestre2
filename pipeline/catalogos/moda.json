@@ -19,7 +19,7 @@
       "titulo": "en:Tutu (clothing)",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Poncho",
@@ -68,7 +68,7 @@
       "titulo": "en:Tartan",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Leque",
@@ -159,7 +159,7 @@
       "titulo": "en:Keffiyeh",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Poá",
@@ -279,6 +279,286 @@
       "camada": 3,
       "destino": 0,
       "status": "usada"
+    },
+    {
+      "nome": "Sandália",
+      "titulo": "en:Sandal",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bota",
+      "titulo": "en:Boot",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vestido de noiva",
+      "titulo": "en:Wedding dress",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gorro de lã",
+      "titulo": "en:Knit cap",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jaqueta de couro",
+      "titulo": "en:Leather jacket",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cinto",
+      "titulo": "en:Belt (clothing)",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Brinco",
+      "titulo": "en:Earring",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Colar",
+      "titulo": "en:Necklace",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Relógio de pulso",
+      "titulo": "en:Watch",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Suéter",
+      "titulo": "en:Sweater",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jardineira",
+      "titulo": "en:Overalls",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pantufa",
+      "titulo": "en:Slipper",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Crochê",
+      "titulo": "en:Crochet",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Meia-calça",
+      "titulo": "en:Tights",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mocassim",
+      "titulo": "en:Moccasin",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sapato boneca",
+      "titulo": "en:Mary Jane (shoe)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Coturno",
+      "titulo": "en:Combat boot",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Scarpin",
+      "titulo": "en:Court shoe",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chapéu cônico asiático",
+      "titulo": "en:Asian conical hat",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Kipá",
+      "titulo": "en:Kippah",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hijab",
+      "titulo": "en:Hijab",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Sarongue",
+      "titulo": "en:Sarong",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hanbok",
+      "titulo": "en:Hanbok",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Gola rulê",
+      "titulo": "en:Polo neck",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Abotoadura",
+      "titulo": "en:Cufflink",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tweed",
+      "titulo": "en:Tweed (cloth)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Xadrez vichy",
+      "titulo": "en:Gingham",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gravata Ascot",
+      "titulo": "en:Ascot tie",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jabô",
+      "titulo": "en:Jabot (neckwear)",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Chapéu trilby",
+      "titulo": "en:Trilby",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chapéu pork pie",
+      "titulo": "en:Pork pie hat",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fascinator",
+      "titulo": "en:Fascinator",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Faixa de smoking",
+      "titulo": "en:Cummerbund",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Gola Peter Pan",
+      "titulo": "en:Peter Pan collar",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estampa argyle",
+      "titulo": "en:Argyle (pattern)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Espinha de peixe",
+      "titulo": "en:Herringbone (cloth)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ikat",
+      "titulo": "en:Ikat",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Toile de Jouy",
+      "titulo": "en:Toile",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Barrete frígio",
+      "titulo": "en:Phrygian cap",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Duffle coat",
+      "titulo": "en:Duffel coat",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }
