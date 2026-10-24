@@ -1,0 +1,654 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Caravela-portuguesa",
+        "descricao": "Sifonóforo colonial marinho (Physalia physalis) de flutuador transparente e tentáculos urticantes.",
+        "variantes": [
+          "Physalia physalis",
+          "Portuguese man o' war",
+          "Fragata-portuguesa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caravela_portuguesa",
+          "nome": "Caravela-portuguesa",
+          "descricao": "Sifonóforo colonial (Physalia physalis) de flutuador azulado, com tentáculos urticantes.",
+          "variantes": [
+            "Physalia physalis",
+            "Fragata-portuguesa",
+            "Man o' war"
+          ]
+        },
+        {
+          "id": "a_portuguesa",
+          "nome": "A Portuguesa",
+          "descricao": "Hino nacional de Portugal, composto em 1890 por Alfredo Keil, com letra de Henrique Lopes de Mendonça.",
+          "variantes": [
+            "Hino de Portugal"
+          ]
+        },
+        {
+          "id": "cruz_da_ordem_de_cristo",
+          "nome": "Cruz da Ordem de Cristo",
+          "descricao": "Cruz vermelha e branca da Ordem de Cristo, símbolo de Portugal associado aos Descobrimentos.",
+          "variantes": [
+            "Cruz de Cristo",
+            "Cruz Portuguesa"
+          ]
+        },
+        {
+          "id": "docaria_conventual_portuguesa",
+          "nome": "Doçaria conventual portuguesa",
+          "descricao": "Conjunto de doces portugueses ricos em gemas de ovo e açúcar, criados em conventos e mosteiros.",
+          "variantes": [
+            "Doces conventuais"
+          ]
+        },
+        {
+          "id": "galego_portugues",
+          "nome": "Galego-português",
+          "descricao": "Língua românica medieval falada no noroeste da Península Ibérica, origem do português e do galego",
+          "variantes": [
+            "Galaico-português",
+            "Português arcaico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Besouro-golias",
+        "descricao": "Besouro africano do gênero Goliathus, um dos maiores insetos do mundo, com élitros e tórax listrados de preto e branco.",
+        "variantes": [
+          "Goliathus",
+          "Goliath beetle",
+          "Golias"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "goias",
+          "nome": "Goiás",
+          "descricao": "Estado brasileiro da região Centro-Oeste que cerca o Distrito Federal, com capital em Goiânia.",
+          "variantes": [
+            "Estado de Goiás"
+          ]
+        },
+        {
+          "id": "bandeira_de_goias",
+          "nome": "Bandeira de Goiás",
+          "descricao": "Bandeira do estado brasileiro de Goiás, com faixas verdes e amarelas e canto azul com cinco estrelas.",
+          "variantes": [
+            "Goiás",
+            "Bandeira do estado de Goiás"
+          ]
+        },
+        {
+          "id": "ra_golias",
+          "nome": "Rã-golias",
+          "descricao": "Rã africana (Conraua goliath) de rios de Camarões e da Guiné Equatorial.",
+          "variantes": [
+            "Conraua goliath"
+          ]
+        },
+        {
+          "id": "besouro_girafa",
+          "nome": "Besouro-girafa",
+          "descricao": "Pequeno gorgulho endêmico de Madagascar (Trachelophorus giraffa), com élitros vermelhos e pescoço alongado nos machos.",
+          "variantes": [
+            "Gorgulho-girafa",
+            "Giraffe weevil",
+            "Trachelophorus giraffa"
+          ]
+        },
+        {
+          "id": "besouro_tita",
+          "nome": "Besouro-titã",
+          "descricao": "Besouro cerambicídeo neotropical (Titanus giganteus), um dos maiores insetos conhecidos.",
+          "variantes": [
+            "Titanus giganteus",
+            "titan beetle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pseudoescorpião",
+        "descricao": "Aracnídeo minúsculo da ordem Pseudoscorpiones, com pedipalpos em pinça e sem cauda nem ferrão.",
+        "variantes": [
+          "Falso escorpião",
+          "Escorpião-de-livro",
+          "Pseudoscorpiones"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "antares",
+          "nome": "Antares",
+          "descricao": "Estrela supergigante vermelha, a mais brilhante da constelação de Escorpião.",
+          "variantes": [
+            "Alfa do Escorpião"
+          ]
+        },
+        {
+          "id": "escorpiao",
+          "nome": "Escorpião",
+          "descricao": "Aracnídeos predadores da ordem Scorpiones, com pinças e cauda terminada em ferrão venenoso.",
+          "variantes": [
+            "Scorpiones",
+            "lacrau"
+          ]
+        },
+        {
+          "id": "escorpiao_amarelo",
+          "nome": "Escorpião-amarelo",
+          "descricao": "Escorpião brasileiro (Tityus serrulatus), de veneno perigoso e comum em áreas urbanas.",
+          "variantes": [
+            "Tityus serrulatus"
+          ]
+        },
+        {
+          "id": "pseudoesfera",
+          "nome": "Pseudoesfera",
+          "descricao": "Superfície de revolução com curvatura gaussiana negativa constante, em forma de trombeta infinita.",
+          "variantes": [
+            "Pseudosfera",
+            "Pseudosphere"
+          ]
+        },
+        {
+          "id": "mosteiro_do_escorial",
+          "nome": "Mosteiro do Escorial",
+          "descricao": "Complexo de mosteiro e palácio real mandado erguer por Filipe II da Espanha no século dezesseis.",
+          "variantes": [
+            "El Escorial",
+            "Real Sitio de San Lorenzo de El Escorial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Barata-d'água",
+        "descricao": "Inseto hemíptero aquático da família Belostomatidae, predador de água doce, cujo macho carrega os ovos nas costas.",
+        "variantes": [
+          "Belostomatidae",
+          "Giant water bug",
+          "Baratão-d'água"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barao_de_maua",
+          "nome": "Barão de Mauá",
+          "descricao": "Irineu Evangelista de Sousa, empresário, banqueiro e industrial brasileiro do Império, barão e depois visconde de Mauá.",
+          "variantes": [
+            "Visconde de Mauá",
+            "Irineu Evangelista de Sousa"
+          ]
+        },
+        {
+          "id": "gota_d_agua_peca",
+          "nome": "Gota d'Água (peça)",
+          "descricao": "Peça de Chico Buarque e Paulo Pontes, de 1975, ambientada num conjunto habitacional do Rio de Janeiro.",
+          "variantes": [
+            "Gota d'Água"
+          ]
+        },
+        {
+          "id": "roda_d_agua",
+          "nome": "Roda d'água",
+          "descricao": "Grande roda de madeira com pás ou caçambas que converte a energia da água corrente em força mecânica, usada em moinhos.",
+          "variantes": [
+            "Roda de água",
+            "Roda hidráulica",
+            "Azenha"
+          ]
+        },
+        {
+          "id": "bufalo_asiatico",
+          "nome": "Búfalo-asiático",
+          "descricao": "Bovino domesticado de origem asiática (Bubalus bubalis), criado em grandes rebanhos na Ilha de Marajó, no Pará.",
+          "variantes": [
+            "Búfalo-d'água",
+            "Búfalo-doméstico",
+            "Bubalus bubalis"
+          ]
+        },
+        {
+          "id": "tardigrado",
+          "nome": "Tardígrado",
+          "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas.",
+          "variantes": [
+            "Tardigrada",
+            "water bear",
+            "Urso-d'água"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Vespa-joia",
+        "descricao": "Vespa solitária metálica verde e azul (Ampulex compressa) que parasita baratas para criar suas larvas.",
+        "variantes": [
+          "Ampulex compressa",
+          "Vespa-esmeralda",
+          "Emerald cockroach wasp",
+          "Jewel wasp"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vespa_do_mar",
+          "nome": "Vespa-do-mar",
+          "descricao": "Água-viva-de-caixa (Chironex fleckeri) do norte da Austrália e do Indo-Pacífico, de veneno potentíssimo.",
+          "variantes": [
+            "Chironex fleckeri",
+            "Sea wasp"
+          ]
+        },
+        {
+          "id": "jiboia_esmeralda",
+          "nome": "Jiboia-esmeralda",
+          "descricao": "Jiboia arborícola verde das florestas sul-americanas, Corallus caninus.",
+          "variantes": [
+            "Periquitamboia",
+            "Corallus caninus",
+            "Emerald tree boa"
+          ]
+        },
+        {
+          "id": "tres_joias",
+          "nome": "Três Joias",
+          "descricao": "Os três refúgios do budismo: o Buda, o Dharma e a Sangha",
+          "variantes": [
+            "Três Refúgios",
+            "Triratna",
+            "Três Tesouros"
+          ]
+        },
+        {
+          "id": "festa_junina",
+          "nome": "Festa junina",
+          "descricao": "Conjunto de festas populares de junho no Brasil em homenagem a Santo Antônio, São João e São Pedro.",
+          "variantes": [
+            "Festas juninas",
+            "São João",
+            "Festa joanina"
+          ]
+        },
+        {
+          "id": "vespa",
+          "nome": "Vespa",
+          "descricao": "Marca italiana de scooters fabricados pela Piaggio, criada em 1946.",
+          "variantes": [
+            "Vespa Piaggio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Maria-fedida",
+        "descricao": "Percevejo da família Pentatomidae, de corpo em forma de escudo, que libera odor forte quando incomodado.",
+        "variantes": [
+          "Percevejo-do-escudo",
+          "Pentatomidae",
+          "Stink bug",
+          "Shield bug",
+          "Percevejo-fedorento"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maria_rita",
+          "nome": "Maria Rita",
+          "descricao": "Cantora brasileira de MPB e samba, filha de Elis Regina.",
+          "variantes": [
+            "Maria Rita Camargo Mariano"
+          ]
+        },
+        {
+          "id": "percevejo_de_cama",
+          "nome": "Percevejo-de-cama",
+          "descricao": "Inseto da família Cimicidae (Cimex lectularius) que se alimenta de sangue, geralmente à noite, e infesta camas.",
+          "variantes": [
+            "Bed bug",
+            "Cimex lectularius"
+          ]
+        },
+        {
+          "id": "caranguejo_fantasma",
+          "nome": "Caranguejo-fantasma",
+          "descricao": "Caranguejo de praia do gênero Ocypode, de olhos em hastes longas, que vive na areia.",
+          "variantes": [
+            "Caranguejo",
+            "Maria-farinha",
+            "Ocypode"
+          ]
+        },
+        {
+          "id": "sting",
+          "nome": "Sting",
+          "descricao": "Cantor e baixista britânico, ex-vocalista do The Police, nascido Gordon Sumner",
+          "variantes": [
+            "Gordon Sumner"
+          ]
+        },
+        {
+          "id": "pentatlo_moderno",
+          "nome": "Pentatlo moderno",
+          "descricao": "Modalidade olímpica criada por Pierre de Coubertin, que combina esgrima, natação, hipismo, tiro e corrida.",
+          "variantes": [
+            "Modern pentathlon",
+            "Pentatlo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Nudibrânquio",
+        "descricao": "Molusco gastrópode marinho da ordem Nudibranchia, sem concha na fase adulta e de cores vivas.",
+        "variantes": [
+          "Lesma-do-mar",
+          "Nudibranchia",
+          "Nudibranch",
+          "Sea slug"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nudibranquio",
+          "nome": "Nudibrânquio",
+          "descricao": "Molusco gastrópode marinho sem concha na fase adulta, da ordem Nudibranchia, de cores vistosas.",
+          "variantes": [
+            "Lesma-do-mar",
+            "Nudibranchia"
+          ]
+        },
+        {
+          "id": "vespa_do_mar",
+          "nome": "Vespa-do-mar",
+          "descricao": "Água-viva-de-caixa (Chironex fleckeri) do norte da Austrália e do Indo-Pacífico, de veneno potentíssimo.",
+          "variantes": [
+            "Chironex fleckeri",
+            "Sea wasp"
+          ]
+        },
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        },
+        {
+          "id": "esponja_do_mar",
+          "nome": "Esponja-do-mar",
+          "descricao": "Animal marinho filtrador do filo Porifera, aqui uma esponja-barril gigante num recife.",
+          "variantes": [
+            "Esponja",
+            "Porífero",
+            "Porifera"
+          ]
+        },
+        {
+          "id": "brisa_maritima",
+          "nome": "Brisa marítima",
+          "descricao": "Vento local que alterna entre o mar e a terra ao longo do dia por causa da diferença de aquecimento entre eles",
+          "variantes": [
+            "Brisa terrestre",
+            "Sea breeze",
+            "Brisa do mar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Mariposa-atlas",
+        "descricao": "Grande mariposa saturniídea asiática (Attacus atlas), uma das maiores do mundo, com pontas das asas semelhantes a cabeças de serpente.",
+        "variantes": [
+          "Attacus atlas",
+          "Atlas moth",
+          "Atlas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "atlas_vertebra",
+          "nome": "Atlas (vértebra)",
+          "descricao": "Primeira vértebra cervical, que sustenta o crânio.",
+          "variantes": [
+            "Atlas",
+            "C1",
+            "Atlas (anatomy)"
+          ]
+        },
+        {
+          "id": "atlas_farnese",
+          "nome": "Atlas Farnese",
+          "descricao": "Escultura romana em mármore do Titã Atlas sustentando o globo celeste, no Museu Arqueológico Nacional de Nápoles.",
+          "variantes": [
+            "Atlas",
+            "Atlante Farnese"
+          ]
+        },
+        {
+          "id": "mariposa_das_betulas",
+          "nome": "Mariposa-das-bétulas",
+          "descricao": "Mariposa europeia Biston betularia, exemplo clássico de seleção natural durante a Revolução Industrial.",
+          "variantes": [
+            "Biston betularia",
+            "Peppered moth",
+            "Mariposa-sarapintada"
+          ]
+        },
+        {
+          "id": "mariposa",
+          "nome": "Mariposa",
+          "descricao": "Inseto alado da ordem Lepidoptera, de hábitos em geral noturnos, aparentado com as borboletas; aqui, um exemplar de mariposa de olhos desenhados nas asas.",
+          "variantes": [
+            "Traça",
+            "Mariposas",
+            "Moth"
+          ]
+        },
+        {
+          "id": "atlantida",
+          "nome": "Atlântida",
+          "descricao": "Ilha lendária que, segundo um relato da Grécia Antiga, teria sido engolida pelo mar.",
+          "variantes": [
+            "Atlantis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Lagarta",
+        "descricao": "Fase larval de borboletas e mariposas (ordem Lepidoptera), de corpo alongado e que se alimenta de forma voraz.",
+        "variantes": [
+          "Larva de lepidóptero",
+          "Taturana",
+          "Caterpillar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lagartixa",
+          "nome": "Lagartixa",
+          "descricao": "Pequeno lagarto da família dos gecos, capaz de andar em paredes e tetos.",
+          "variantes": [
+            "Geco",
+            "Gecko",
+            "Lagartixa-de-parede",
+            "Gekkonidae"
+          ]
+        },
+        {
+          "id": "agata",
+          "nome": "Ágata",
+          "descricao": "Variedade de calcedônia com bandas coloridas, comum em geodos de rochas vulcânicas.",
+          "variantes": [
+            "Agate"
+          ]
+        },
+        {
+          "id": "chaturanga",
+          "nome": "Chaturanga",
+          "descricao": "Jogo de estratégia da Índia antiga, surgido por volta do século seis, ancestral do xadrez.",
+          "variantes": [
+            "Caturanga"
+          ]
+        },
+        {
+          "id": "capilar_sanguineo",
+          "nome": "Capilar sanguíneo",
+          "descricao": "Vaso sanguíneo microscópico onde ocorrem as trocas entre o sangue e os tecidos.",
+          "variantes": [
+            "Capilar",
+            "Vasos capilares"
+          ]
+        },
+        {
+          "id": "agatha",
+          "nome": "Agatha",
+          "descricao": "Treinadora idosa especialista em pokémon fantasmas, membro da Elite dos Quatro de Kanto em Pokémon Red e Blue.",
+          "variantes": [
+            "Kikuko"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Besouro-hércules",
+        "descricao": "Besouro-rinoceronte (Dynastes hercules) das florestas tropicais americanas, cujo macho tem dois grandes chifres.",
+        "variantes": [
+          "Dynastes hercules",
+          "Hercules beetle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "doze_trabalhos_de_hercules",
+          "nome": "Doze Trabalhos de Hércules",
+          "descricao": "Série de tarefas impostas ao herói Hércules, como expiação, pelo rei Euristeu.",
+          "variantes": [
+            "Trabalhos de Héracles",
+            "Labours of Hercules"
+          ]
+        },
+        {
+          "id": "hercules_farnese",
+          "nome": "Hércules Farnese",
+          "descricao": "Estátua romana em mármore de Hércules em repouso, cópia de um original grego, no Museu Arqueológico de Nápoles.",
+          "variantes": [
+            "Hércules Farnésio",
+            "Farnese Hercules",
+            "Ercole Farnese"
+          ]
+        },
+        {
+          "id": "colunas_de_hercules",
+          "nome": "Colunas de Hércules",
+          "descricao": "Nome antigo dos promontórios que ladeiam a entrada do Mediterrâneo.",
+          "variantes": [
+            "Pillars of Hercules",
+            "Colunas de Héracles"
+          ]
+        },
+        {
+          "id": "besouro_arlequim",
+          "nome": "Besouro-arlequim",
+          "descricao": "Grande besouro cerambicídeo neotropical (Acrocinus longimanus), de padrão preto, laranja e amarelo-esverdeado e patas dianteiras muito longas.",
+          "variantes": [
+            "Acrocinus longimanus",
+            "harlequin beetle"
+          ]
+        },
+        {
+          "id": "lockheed_c_130_hercules",
+          "nome": "Lockheed C-130 Hercules",
+          "descricao": "Avião militar de transporte turboélice quadrimotor americano, fabricado pela Lockheed.",
+          "variantes": [
+            "C-130",
+            "Hercules"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "caravela_portuguesa",
+      "motivo": "Mesma espécie Physalia physalis."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Besouro Goliathus; nenhuma candidata é essa entidade."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pseudoscorpiones é distinta de Scorpiones e das demais."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Belostomatidae não consta entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Ampulex compressa não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Pentatomidae não consta entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "nudibranquio",
+      "motivo": "Mesma ordem Nudibranchia."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Attacus atlas é distinta das candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Fase larval de lepidópteros; nenhuma candidata equivale."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Dynastes hercules não consta entre as candidatas."
+    }
+  ]
+}

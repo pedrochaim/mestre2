@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Embora lembre uma água-viva, este ser marinho é, na verdade, que tipo de organismo?",
+        "resposta": "Sifonóforo"
+      },
+      "existentes": [
+        {
+          "id": "q02050",
+          "pergunta": "Este animal parece uma água-viva, mas não é. Que tipo de hidrozoário colonial ele é?",
+          "resposta": "Sifonóforo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que tipo de animal marinho é este?",
+        "resposta": "Nudibrânquio"
+      },
+      "existentes": [
+        {
+          "id": "q05506",
+          "pergunta": "Que molusco marinho colorido é este?",
+          "resposta": "Nudibrânquio (lesma-do-mar)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam que o animal parecido com água-viva é um sifonóforo; mesma resposta e mesmo fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do mesmo animal (nudibrânquio) a partir da imagem; mesmo fato."
+    }
+  ]
+}

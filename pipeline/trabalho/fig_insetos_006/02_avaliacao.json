@@ -1,0 +1,238 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Ilustração antiga com várias espécies de anêmonas e assinatura do artista visível; não é um único assunto e a espécie não é única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida, fundo claro, o flutuador e os tentáculos reconhecíveis.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Embora pareça uma água-viva, este animal marinho é, na verdade, que tipo de organismo?",
+      "resposta": "Um sifonóforo (colônia de zoóides)",
+      "ancora": {
+        "nome": "Caravela-portuguesa",
+        "descricao": "Sifonóforo colonial marinho (Physalia physalis) de flutuador transparente e tentáculos urticantes.",
+        "variantes": [
+          "Physalia physalis",
+          "Portuguese man o' war",
+          "Fragata-portuguesa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida, de cima, com o padrão preto e branco característico.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que besouro africano é este?",
+      "resposta": "Besouro-golias",
+      "ancora": {
+        "nome": "Besouro-golias",
+        "descricao": "Besouro africano do gênero Goliathus, um dos maiores insetos do mundo, com élitros e tórax listrados de preto e branco.",
+        "variantes": [
+          "Goliathus",
+          "Goliath beetle",
+          "Golias"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Espécime conservado numa vitrine escura de museu; a imagem é pouco nítida e pode ser confundida com outras lulas, como a lula-colossal."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida de cima, com as pinças e o abdômen segmentado visíveis; o respondente consegue distinguir de um escorpião pela ausência de cauda.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aracnídeo minúsculo é este?",
+      "resposta": "Pseudoescorpião",
+      "distratores": [
+        "Escorpião-chicote",
+        "Opilião",
+        "Carrapato"
+      ],
+      "ancora": {
+        "nome": "Pseudoescorpião",
+        "descricao": "Aracnídeo minúsculo da ordem Pseudoscorpiones, com pedipalpos em pinça e sem cauda nem ferrão.",
+        "variantes": [
+          "Falso escorpião",
+          "Escorpião-de-livro",
+          "Pseudoscorpiones"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto clara de um macho de barata-d'água com os ovos nas costas, característica marcante da família.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que inseto aquático é este, que carrega ovos nas costas?",
+      "resposta": "Barata-d'água",
+      "distratores": [
+        "Escorpião-d'água",
+        "Alfaiate",
+        "Besouro-mergulhador"
+      ],
+      "ancora": {
+        "nome": "Barata-d'água",
+        "descricao": "Inseto hemíptero aquático da família Belostomatidae, predador de água doce, cujo macho carrega os ovos nas costas.",
+        "variantes": [
+          "Belostomatidae",
+          "Giant water bug",
+          "Baratão-d'água"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida, de lado, com o brilho metálico verde-azulado e as pernas vermelhas inconfundíveis.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta vespa leva que inseto para a sua toca, para servir de alimento vivo às suas larvas?",
+      "resposta": "Barata",
+      "ancora": {
+        "nome": "Vespa-joia",
+        "descricao": "Vespa solitária metálica verde e azul (Ampulex compressa) que parasita baratas para criar suas larvas.",
+        "variantes": [
+          "Ampulex compressa",
+          "Vespa-esmeralda",
+          "Emerald cockroach wasp",
+          "Jewel wasp"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida de um percevejo verde em forma de escudo, típico da família.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que inseto é este?",
+      "resposta": "Maria-fedida (percevejo-do-escudo)",
+      "ancora": {
+        "nome": "Maria-fedida",
+        "descricao": "Percevejo da família Pentatomidae, de corpo em forma de escudo, que libera odor forte quando incomodado.",
+        "variantes": [
+          "Percevejo-do-escudo",
+          "Pentatomidae",
+          "Stink bug",
+          "Shield bug",
+          "Percevejo-fedorento"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida e colorida de um nudibrânquio com cerata azul e laranja e rinóforos visíveis.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de animal marinho é este?",
+      "resposta": "Nudibrânquio",
+      "distratores": [
+        "Platelminto marinho",
+        "Poliqueta",
+        "Anêmona-do-mar"
+      ],
+      "ancora": {
+        "nome": "Nudibrânquio",
+        "descricao": "Molusco gastrópode marinho da ordem Nudibranchia, sem concha na fase adulta e de cores vivas.",
+        "variantes": [
+          "Lesma-do-mar",
+          "Nudibranchia",
+          "Nudibranch",
+          "Sea slug"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida, de cima e com fundo liso, com as asas e as pontas em forma de cabeça de serpente bem visíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que mariposa gigante asiática é esta?",
+      "resposta": "Mariposa-atlas",
+      "ancora": {
+        "nome": "Mariposa-atlas",
+        "descricao": "Grande mariposa saturniídea asiática (Attacus atlas), uma das maiores do mundo, com pontas das asas semelhantes a cabeças de serpente.",
+        "variantes": [
+          "Attacus atlas",
+          "Atlas moth",
+          "Atlas"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto legível de uma lagarta espinhosa verde de perfil; a fase da vida é inequívoca.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fase da vida de uma mariposa ou borboleta é esta?",
+      "resposta": "Lagarta",
+      "distratores": [
+        "Pupa",
+        "Ninfa",
+        "Ovo"
+      ],
+      "ancora": {
+        "nome": "Lagarta",
+        "descricao": "Fase larval de borboletas e mariposas (ordem Lepidoptera), de corpo alongado e que se alimenta de forma voraz.",
+        "variantes": [
+          "Larva de lepidóptero",
+          "Taturana",
+          "Caterpillar"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto de estúdio nítida de um macho, com os dois chifres característicos bem visíveis.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este besouro pertence a um grupo conhecido pelo nome de qual mamífero?",
+      "resposta": "Rinoceronte (besouro-rinoceronte)",
+      "ancora": {
+        "nome": "Besouro-hércules",
+        "descricao": "Besouro-rinoceronte (Dynastes hercules) das florestas tropicais americanas, cujo macho tem dois grandes chifres.",
+        "variantes": [
+          "Dynastes hercules",
+          "Hercules beetle",
+          "Besouro Hércules"
+        ]
+      }
+    }
+  ]
+}

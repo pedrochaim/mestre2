@@ -1,0 +1,98 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O truque 'parece água-viva mas não é' já identifica o animal sem a figura. A resposta aberta também admite 'hidrozoário', que é correto. Convém usar múltipla escolha com a resposta mais específica.",
+      "reescrita": {
+        "pergunta": "Embora lembre uma água-viva, este ser marinho é, na verdade, que tipo de organismo?",
+        "resposta": "Sifonóforo",
+        "distratores": [
+          "Cubozoário",
+          "Ctenóforo",
+          "Coral-mole"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1. O enunciado só traz 'africano' e não vaza. A resposta é única no gênero e está sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os distratores são aracnídeos parecidos e críveis, com no máximo 4 palavras, e nenhum descreve a figura. O enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Escorpião-d'água' é apelido da própria barata-d'água segundo o trecho, então também seria correto. Carregar ovos nas costas vale só para alguns belostomatídeos e é uma pista que entrega a resposta.",
+      "reescrita": {
+        "pergunta": "Que inseto aquático predador de água doce é este?",
+        "resposta": "Barata-d'água",
+        "distratores": [
+          "Alfaiate",
+          "Besouro-mergulhador",
+          "Notonecta"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a vespa leva a barata para a toca como hospedeira das larvas. O enunciado não nomeia a vespa nem a resposta, e outras vespas não são o assunto da figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Que inseto é este?' é vago e a resposta traz um tradução do inglês entre parênteses. Os trechos não citam 'maria-fedida'. É melhor usar múltipla com distratores de hemípteros.",
+      "reescrita": {
+        "pergunta": "Que percevejo de corpo em forma de escudo é este?",
+        "resposta": "Maria-fedida",
+        "distratores": [
+          "Barbeiro",
+          "Cigarrinha",
+          "Pulgão"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A resposta é única e os distratores são invertebrados marinhos críveis, com no máximo 4 palavras. O enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que é uma saturniídea gigante da Ásia. 'Asiática' e 'gigante' ajudam sem entregar a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os distratores (pupa, ninfa, ovo) são críveis e não são corretos. O enunciado não vaza e a resposta está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que é um besouro-rinoceronte (Dynastinae). O enunciado não nomeia a figura e a figura é necessária para saber de qual besouro se trata.",
+      "reescrita": null
+    }
+  ]
+}
