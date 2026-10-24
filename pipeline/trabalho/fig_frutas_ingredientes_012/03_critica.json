@@ -1,0 +1,51 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado só dá a categoria, sem vazar. Trechos confirmam o nome chuchu e o uso como hortaliça.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado só dá a categoria. Trecho confirma que vagem é o fruto verde do feijão comum.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator Mamey é problemático. O mamey também é chamado de sapote ou sapota, e tem casca marrom e polpa alaranjada, então é defensável como outra resposta. Troquei por Bacuri, que é outra fruta marrom-amarelada e não é sinônimo de sapoti.",
+      "reescrita": {
+        "pergunta": "Que fruta é esta?",
+        "resposta": "Sapoti",
+        "distratores": [
+          "Cupuaçu",
+          "Abiu",
+          "Bacuri"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista \"base da alimentação de mais da metade da humanidade\" entrega a resposta sem olhar a figura (teste da imagem coberta). Removi a pista.",
+      "reescrita": {
+        "pergunta": "Que grão é este?",
+        "resposta": "Arroz",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado só dá a categoria \"fruta seca\", sem vazar. Os trechos confirmam que a uva-passa é uva desidratada.",
+      "reescrita": null
+    }
+  ]
+}

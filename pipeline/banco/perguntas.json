@@ -289356,5 +289356,110 @@
       "licenca": "Arte oficial; uso não comercial, sem licença livre"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q15290",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "chuchu",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que legume é este?",
+    "resposta": "Chuchu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chayote",
+      "https://pt.wikipedia.org/wiki/Sechium_edule"
+    ],
+    "imagem": {
+      "arquivo": "q15290.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sechium_edule_dsc07767.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15291",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "vagem",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que hortaliça é esta?",
+    "resposta": "Vagem",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Green_bean",
+      "https://pt.wikipedia.org/wiki/Vagem"
+    ],
+    "imagem": {
+      "arquivo": "q15291.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:38_-_CIMG1598.JPG",
+      "autor": "Susan Slater",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q15292",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "sapoti",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que fruta é esta?",
+    "resposta": "Sapoti",
+    "distratores": [
+      "Cupuaçu",
+      "Abiu",
+      "Bacuri"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Manilkara_zapota",
+      "https://pt.wikipedia.org/wiki/Sapotizeiro"
+    ],
+    "imagem": {
+      "arquivo": "q15292.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sapodilla_Malay_with_seeds.jpg",
+      "autor": "Ivar Leidus",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q15293",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "arroz",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que grão é este?",
+    "resposta": "Arroz",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rice",
+      "https://pt.wikipedia.org/wiki/Arroz"
+    ],
+    "imagem": {
+      "arquivo": "q15293.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:White,_Brown,_Red_&_Wild_rice.jpg",
+      "autor": "Earth100",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15294",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "uva_passa",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que fruta seca é esta?",
+    "resposta": "Uva-passa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Raisin",
+      "https://pt.wikipedia.org/wiki/Passa"
+    ],
+    "imagem": {
+      "arquivo": "q15294.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2023_Rodzynki_(1).jpg",
+      "autor": "Jacek Halicki",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

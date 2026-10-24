@@ -1,0 +1,140 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Chuchus em close, claros e inconfundíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que legume é este?",
+      "resposta": "Chuchu",
+      "destino": 0,
+      "ancora": {
+        "nome": "Chuchu",
+        "descricao": "Fruto verde da trepadeira Sechium edule, da família das abóboras, usado como legume.",
+        "variantes": [
+          "Chayote",
+          "Sechium edule"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O rótulo do frasco ao lado diz 'Palmito de Pupunha', entregando a resposta, e há texto de marcas."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Palmeira com cachos de frutos amarelos vista de longe; a identificação como pupunheira é ambígua com outras palmeiras e não é reconhecível pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vagens verdes em close, claras e legíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que hortaliça é esta?",
+      "resposta": "Vagem",
+      "destino": 0,
+      "ancora": {
+        "nome": "Vagem",
+        "descricao": "Fruto verde e imaturo do feijoeiro comum, comido com a casca como hortaliça.",
+        "variantes": [
+          "Feijão-verde",
+          "Vagem verde"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "É uma prancha de ilustração botânica com detalhes numerados; a regra pede foto para plantas, e a prancha mistura detalhes pequenos ilegíveis no celular."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fruto inteiro e cortado com sementes, em fundo neutro, bem legível; para distinguir de frutas parecidas, múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Sapoti",
+      "distratores": [
+        "Cupuaçu",
+        "Mamey",
+        "Abiu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sapoti",
+        "descricao": "Fruto marrom e doce do sapotizeiro (Manilkara zapota), de polpa alaranjada e sementes pretas.",
+        "variantes": [
+          "Sapotizeiro",
+          "Sapodilla",
+          "Manilkara zapota"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Ambígua: hastes com base branca podem ser cebolinha, cebolinha-verde, cebolete ou cebola-de-folha, sem resposta única diante da imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Planta de mato em flor; não dá para reconhecer a espécie de hortelã, que se confunde com outras mentas."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Marca d'água visível ('jorge mejía p') e árvore sem folhas com frutos pequenos verdes, pouco reconhecível."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Grãos de arroz de variedades mistas (branco, vermelho, preto), inequívocos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que grão é este, base da alimentação de mais da metade da humanidade?",
+      "resposta": "Arroz",
+      "destino": 0,
+      "ancora": {
+        "nome": "Arroz",
+        "descricao": "Grão da gramínea Oryza sativa, alimento básico de grande parte da população mundial.",
+        "variantes": [
+          "Oryza sativa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Uvas-passas num prato branco, imagem clara e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta seca é esta?",
+      "resposta": "Uva-passa",
+      "destino": 0,
+      "ancora": {
+        "nome": "Uva-passa",
+        "descricao": "Uva desidratada, usada em bolos, farofas e na ceia de Natal.",
+        "variantes": [
+          "Passa",
+          "Uva passa",
+          "Raisin"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Close de flores roxas que podem ser de sálvia, lavanda ou outras Salvia; não há resposta única nem reconhecimento seguro."
+    }
+  ]
+}
