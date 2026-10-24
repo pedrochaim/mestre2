@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano voou pela primeira vez o protótipo deste caça americano?",
+        "resposta": "1940"
+      },
+      "existentes": [
+        {
+          "id": "q14292",
+          "pergunta": "Que caça americano da Segunda Guerra Mundial é este?",
+          "resposta": "P-51 Mustang"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta a identidade do caça; a nova pergunta o ano do primeiro voo do protótipo. São fatos diferentes."
+    }
+  ]
+}

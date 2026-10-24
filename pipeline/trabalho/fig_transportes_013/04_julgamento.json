@@ -1,0 +1,439 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Trenó",
+        "descricao": "Veículo que desliza sobre gelo ou neve por meio de lâminas, puxado ou usado em descidas.",
+        "variantes": [
+          "Tobogã",
+          "Sled"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "luge",
+          "nome": "Luge",
+          "descricao": "Esporte olímpico de inverno em que o atleta desce deitado de costas, com os pés à frente, num pequeno trenó.",
+          "variantes": [
+            "Luge de pista natural",
+            "Trenó"
+          ]
+        },
+        {
+          "id": "led",
+          "nome": "LED",
+          "descricao": "Diodo emissor de luz, componente semicondutor que emite luz quando percorrido por corrente elétrica.",
+          "variantes": [
+            "Diodo emissor de luz",
+            "Light-emitting diode"
+          ]
+        },
+        {
+          "id": "taranto",
+          "nome": "Taranto",
+          "descricao": "Cidade do sul da Itália fundada no século oito a.C. por colonos gregos com o nome de Taras.",
+          "variantes": [
+            "Taras",
+            "Tarento"
+          ]
+        },
+        {
+          "id": "toga",
+          "nome": "Toga",
+          "descricao": "Manto de lã enrolado ao corpo, traje característico dos cidadãos da Roma Antiga",
+          "variantes": [
+            "Toga romana"
+          ]
+        },
+        {
+          "id": "paus_naipe",
+          "nome": "Paus (naipe)",
+          "descricao": "Naipe preto do baralho francês, representado por um trevo de três folhas.",
+          "variantes": [
+            "Paus",
+            "Clubs",
+            "Trevo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "P-51 Mustang",
+        "descricao": "Caça americano monoplace de longo alcance da Segunda Guerra Mundial, fabricado pela North American Aviation.",
+        "variantes": [
+          "North American P-51 Mustang",
+          "Mustang"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ford_mustang",
+          "nome": "Ford Mustang",
+          "descricao": "Carro esportivo americano fabricado pela Ford desde 1964, que deu nome ao segmento dos pony cars.",
+          "variantes": [
+            "Mustang"
+          ]
+        },
+        {
+          "id": "p_51_mustang",
+          "nome": "P-51 Mustang",
+          "descricao": "Caça de longo alcance americano da North American Aviation, usado na Segunda Guerra Mundial e na Guerra da Coreia.",
+          "variantes": [
+            "Mustang",
+            "North American P-51"
+          ]
+        },
+        {
+          "id": "roy_mustang",
+          "nome": "Roy Mustang",
+          "descricao": "Coronel e Alquimista das Chamas do exército de Amestris, em Fullmetal Alchemist.",
+          "variantes": [
+            "Coronel Mustang",
+            "Alquimista das Chamas",
+            "Flame Alchemist"
+          ]
+        },
+        {
+          "id": "metang",
+          "nome": "Metang",
+          "descricao": "Pokémon dos tipos Aço e Psíquico, número 375 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "banana",
+          "nome": "Banana",
+          "descricao": "Fruto comestível das plantas do gênero Musa",
+          "variantes": [
+            "Musa",
+            "bananeira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Navio porta-contêineres",
+        "descricao": "Navio de carga que transporta toda a carga em contêineres padronizados.",
+        "variantes": [
+          "Porta-contentores",
+          "Containership",
+          "Navio de contêineres"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "navio_de_teseu",
+          "nome": "Navio de Teseu",
+          "descricao": "Paradoxo filosófico sobre identidade que pergunta se um barco com todas as peças trocadas continua sendo o mesmo.",
+          "variantes": [
+            "Paradoxo de Teseu",
+            "Ship of Theseus"
+          ]
+        },
+        {
+          "id": "porta_dos_leoes_de_micenas",
+          "nome": "Porta dos Leões de Micenas",
+          "descricao": "Entrada principal da cidadela micênica da Idade do Bronze, com relevo de dois leões, na Grécia.",
+          "variantes": [
+            "Portão dos Leões",
+            "Lion Gate",
+            "Porta dos Leões"
+          ]
+        },
+        {
+          "id": "navio_de_emigrantes",
+          "nome": "Navio de Emigrantes",
+          "descricao": "Grande tela de Lasar Segall, pintada entre 1939 e 1941, com refugiados amontoados no convés de um navio.",
+          "variantes": []
+        },
+        {
+          "id": "hipopotamos_de_pablo_escobar",
+          "nome": "Hipopótamos de Pablo Escobar",
+          "descricao": "População de hipopótamos asselvajados na Colômbia, descendente dos animais levados pelo traficante Pablo Escobar para a Fazenda Nápoles.",
+          "variantes": [
+            "Hipopótamos da cocaína",
+            "Pablo Escobar's hippos",
+            "Cocaine hippos"
+          ]
+        },
+        {
+          "id": "starship",
+          "nome": "Starship",
+          "descricao": "Veículo de lançamento de dois estágios, totalmente reutilizável, em desenvolvimento pela SpaceX.",
+          "variantes": [
+            "SpaceX Starship",
+            "Super Heavy",
+            "Starship e Super Heavy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Ferrari Testarossa",
+        "descricao": "Esportivo italiano de motor central e doze cilindros da Ferrari, produzido a partir de 1984.",
+        "variantes": [
+          "Testarossa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "metagross",
+          "nome": "Metagross",
+          "descricao": "Pokémon dos tipos Aço e Psíquico, número 376 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "staurikosaurus",
+          "nome": "Staurikosaurus",
+          "descricao": "Gênero de dinossauro primitivo do Triássico do Rio Grande do Sul, descrito em 1970.",
+          "variantes": [
+            "Estauricossauro",
+            "Staurikosaurus pricei"
+          ]
+        },
+        {
+          "id": "adidas_telstar",
+          "nome": "Adidas Telstar",
+          "descricao": "Bola oficial da Copa do Mundo de 1970, com gomos pretos e brancos.",
+          "variantes": [
+            "Telstar"
+          ]
+        },
+        {
+          "id": "samosa",
+          "nome": "Samosa",
+          "descricao": "Salgado frito do subcontinente indiano, de massa em forma triangular, cone ou meia-lua, com recheio picante.",
+          "variantes": [
+            "Chamuça",
+            "Samossa",
+            "Shingara"
+          ]
+        },
+        {
+          "id": "nova_zelandia",
+          "nome": "Nova Zelândia",
+          "descricao": "País insular da Oceania, no sudoeste do Pacífico, cuja capital é Wellington.",
+          "variantes": [
+            "New Zealand",
+            "Aotearoa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Limusine",
+        "descricao": "Carro de luxo de entre-eixos longo, dirigido por chofer, aqui um sedã Mercedes alongado.",
+        "variantes": [
+          "Limusina",
+          "Limousine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lisia",
+          "nome": "Lisia",
+          "descricao": "Estrela dos concursos pokémon em Omega Ruby e Alpha Sapphire, que apresenta o jogador aos Concursos Espetaculares.",
+          "variantes": [
+            "Lutia"
+          ]
+        },
+        {
+          "id": "lusamine",
+          "nome": "Lusamine",
+          "descricao": "Presidente da Fundação Aether nos jogos Pokémon Sun e Moon, obcecada pelas Ultracriaturas.",
+          "variantes": []
+        },
+        {
+          "id": "musselina",
+          "nome": "Musselina",
+          "descricao": "Tecido de algodão leve e de trama fina, usado em vestidos, cortinas e fraldas",
+          "variantes": [
+            "Muslin",
+            "Mousseline"
+          ]
+        },
+        {
+          "id": "mouse",
+          "nome": "Mouse",
+          "descricao": "Dispositivo apontador manual usado para controlar o cursor na tela de um computador.",
+          "variantes": [
+            "Computer mouse",
+            "Rato"
+          ]
+        },
+        {
+          "id": "tornassol",
+          "nome": "Tornassol",
+          "descricao": "Corante extraído de líquens, usado em papel indicador que muda de cor conforme a acidez.",
+          "variantes": [
+            "Papel de tornassol",
+            "Litmus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Chevrolet Celta",
+        "descricao": "Carro compacto da Chevrolet produzido na América Latina, em Gravataí, de 2000 a 2015.",
+        "variantes": [
+          "Celta",
+          "Suzuki Fun"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "creta",
+          "nome": "Creta",
+          "descricao": "A maior ilha da Grécia, no mar Mediterrâneo, berço da civilização minoica.",
+          "variantes": [
+            "Crete",
+            "Kriti"
+          ]
+        },
+        {
+          "id": "chevrolet_opala",
+          "nome": "Chevrolet Opala",
+          "descricao": "Automóvel médio produzido pela General Motors do Brasil de 1968 a 1992, derivado do Opel Rekord.",
+          "variantes": [
+            "Opala",
+            "Opala Especial"
+          ]
+        },
+        {
+          "id": "aro_de_basquete",
+          "nome": "Aro de basquete",
+          "descricao": "Anel de metal com rede, preso à tabela, por onde a bola deve passar para marcar pontos.",
+          "variantes": [
+            "Cesta",
+            "Rim",
+            "Hoop"
+          ]
+        },
+        {
+          "id": "chevrolet_corvette",
+          "nome": "Chevrolet Corvette",
+          "descricao": "Linha de esportivos americanos de dois lugares fabricada pela Chevrolet desde 1953; a imagem mostra um modelo da oitava geração.",
+          "variantes": [
+            "Corvette",
+            "Corvette C8"
+          ]
+        },
+        {
+          "id": "chevrolet_chevette",
+          "nome": "Chevrolet Chevette",
+          "descricao": "Subcompacto de tração traseira da Chevrolet, produzido nos anos 1970 e 1980.",
+          "variantes": [
+            "Chevette"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Blériot XI",
+        "descricao": "Monoplano francês pioneiro, usado por Louis Blériot na travessia do Canal da Mancha em 1909.",
+        "variantes": [
+          "Blériot 11"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "raio_x",
+          "nome": "Raio X",
+          "descricao": "Radiação eletromagnética de alta energia usada em radiografias.",
+          "variantes": [
+            "Raios X",
+            "Raios Röntgen",
+            "X-ray"
+          ]
+        },
+        {
+          "id": "bolero_de_ravel",
+          "nome": "Bolero de Ravel",
+          "descricao": "Obra orquestral de Maurice Ravel, de 1928, construída sobre um único ritmo repetido.",
+          "variantes": [
+            "Boléro"
+          ]
+        },
+        {
+          "id": "morros_carsticos_de_guilin",
+          "nome": "Morros cársticos de Guilin",
+          "descricao": "Paisagem de morros isolados de calcário às margens do rio Li, na região de Guilin, no sul da China.",
+          "variantes": [
+            "Paisagem de Guilin",
+            "Rio Li"
+          ]
+        },
+        {
+          "id": "abertura_1812",
+          "nome": "Abertura 1812",
+          "descricao": "Abertura orquestral de Piotr Ilitch Tchaikovsky, de 1880, famosa pelos tiros de canhão e pelos sinos no final.",
+          "variantes": [
+            "Abertura Solene 1812",
+            "1812 Overture"
+          ]
+        },
+        {
+          "id": "baleia_comum",
+          "nome": "Baleia-comum",
+          "descricao": "Baleia de barbatanas esguia e veloz (Balaenoptera physalus), o segundo maior animal vivo.",
+          "variantes": [
+            "Baleia-fin",
+            "Rorqual-comum",
+            "Balaenoptera physalus",
+            "Fin whale"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Trenó genérico é um veículo; Luge é um esporte, entidade diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "p_51_mustang",
+      "motivo": "Mesmo caça North American P-51 Mustang."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um navio porta-contêineres."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Ferrari Testarossa."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é limusine."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Chevrolet Celta não consta; Opala, Chevette e Corvette são outros modelos."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Blériot XI."
+    }
+  ]
+}

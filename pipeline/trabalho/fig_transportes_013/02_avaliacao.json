@@ -1,0 +1,208 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Trenó de madeira e metal, claro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que veículo é este?",
+      "resposta": "Trenó",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Trenó",
+        "descricao": "Veículo que desliza sobre gelo ou neve por meio de lâminas, puxado ou usado em descidas.",
+        "variantes": [
+          "Tobogã",
+          "Sled"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "P-51 bem reconhecível; texto visível (Miss Kandy, piloto) não entrega a resposta.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano voou pela primeira vez o protótipo deste caça americano?",
+      "resposta": "1940",
+      "distratores": [
+        "1938",
+        "1942",
+        "1944"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "P-51 Mustang",
+        "descricao": "Caça americano monoplace de longo alcance da Segunda Guerra Mundial, fabricado pela North American Aviation.",
+        "variantes": [
+          "North American P-51 Mustang",
+          "Mustang"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A placa dianteira mostra '250 GTO', entregando a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Dois navios porta-contêineres nítidos; só a sigla da empresa aparece.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de navio de carga é este?",
+      "resposta": "Navio porta-contêineres",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Navio porta-contêineres",
+        "descricao": "Navio de carga que transporta toda a carga em contêineres padronizados.",
+        "variantes": [
+          "Porta-contentores",
+          "Containership",
+          "Navio de contêineres"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Testarossa de perfil característico (grades laterais); placa não entrega o projetista.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que estúdio italiano de design desenhou a carroceria deste carro?",
+      "resposta": "Pininfarina",
+      "distratores": [
+        "Bertone",
+        "Zagato",
+        "Italdesign"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ferrari Testarossa",
+        "descricao": "Esportivo italiano de motor central e doze cilindros da Ferrari, produzido a partir de 1984.",
+        "variantes": [
+          "Testarossa"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Biplano parcialmente encoberto em museu, fácil de confundir com outros caças da época (Pup, outros Sopwith)."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Sedã de luxo alongado, visível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de carro é este?",
+      "resposta": "Limusine",
+      "distratores": [
+        "Perua",
+        "Cupê",
+        "Conversível"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Limusine",
+        "descricao": "Carro de luxo de entre-eixos longo, dirigido por chofer, aqui um sedã Mercedes alongado.",
+        "variantes": [
+          "Limusina",
+          "Limousine"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cadillac de 1959 com as barbatanas características; a placa diz só Biarritz, o ano não é entregue.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "De que ano é este Cadillac conversível?",
+      "resposta": "1959",
+      "distratores": [
+        "1957",
+        "1958",
+        "1960"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cadillac Eldorado",
+        "descricao": "Carro de luxo da Cadillac fabricado de 1952 a 2002, aqui o conversível Eldorado Biarritz de 1959.",
+        "variantes": [
+          "Eldorado",
+          "Cadillac Eldorado Biarritz"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A fuselagem mostra a inscrição legível com a designação 'Dr.I', entregando a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Celta reconhecível, placa pequena e ilegível; só o logotipo da marca.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano começou a produção deste carro compacto?",
+      "resposta": "2000",
+      "distratores": [
+        "1998",
+        "2002",
+        "2004"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chevrolet Celta",
+        "descricao": "Carro compacto da Chevrolet produzido na América Latina, em Gravataí, de 2000 a 2015.",
+        "variantes": [
+          "Celta",
+          "Suzuki Fun"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A fuselagem traz 'JAS 39D' e 'Flight Hours' em texto legível, entregando a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Blériot XI nítido, silhueta de monoplano pioneiro inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que avião pioneiro da aviação é este?",
+      "resposta": "Blériot XI",
+      "distratores": [
+        "Demoiselle",
+        "14-bis",
+        "Wright Flyer"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Blériot XI",
+        "descricao": "Monoplano francês pioneiro, usado por Louis Blériot na travessia do Canal da Mancha em 1909.",
+        "variantes": [
+          "Bleriot XI",
+          "Blériot 11"
+        ]
+      }
+    }
+  ]
+}
