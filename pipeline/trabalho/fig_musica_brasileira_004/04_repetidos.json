@@ -1,0 +1,95 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento de percussão da música brasileira é este?",
+        "resposta": "Reco-reco"
+      },
+      "existentes": [
+        {
+          "id": "q04698",
+          "pergunta": "Que instrumento de percussão, usado no samba, é este?",
+          "resposta": "Reco-reco"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que instrumento de percussão de origem africana é este?",
+        "resposta": "Agogô"
+      },
+      "existentes": [
+        {
+          "id": "q02638",
+          "pergunta": "Que instrumento de percussão é este?",
+          "resposta": "Agogô"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que compositor brasileiro é este?",
+        "resposta": "Heitor Villa-Lobos"
+      },
+      "existentes": [
+        {
+          "id": "q03272",
+          "pergunta": "O que Villa-Lobos, Anita Malfatti e Mário de Andrade têm em comum no ano de 1922?",
+          "resposta": "Participaram da Semana de Arte Moderna"
+        },
+        {
+          "id": "q03633",
+          "pergunta": "Qual destas obras foi composta pelo músico desta foto?",
+          "resposta": "Bachianas Brasileiras"
+        },
+        {
+          "id": "q05174",
+          "pergunta": "Na infância, usando uma viola adaptada, Villa-Lobos aprendeu com o pai a tocar qual instrumento de orquestra?",
+          "resposta": "Violoncelo"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que instrumento de percussão de origem africana é este?",
+        "resposta": "Caxixi"
+      },
+      "existentes": [
+        {
+          "id": "q02639",
+          "pergunta": "Que instrumento de percussão, sacudido com a mão, é este?",
+          "resposta": "Caxixi"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Identificar o reco-reco pela imagem; mesma resposta e mesmo fato.",
+      "id_existente": "q04698"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Identificar o agogô pela imagem; mesmo fato.",
+      "id_existente": "q02638"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar Villa-Lobos pela foto é diferente dos fatos existentes (Semana de 22, obra, instrumento da infância). A existente q03633 usa foto, mas pergunta sobre a obra."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Identificar o caxixi pela imagem; mesmo fato.",
+      "id_existente": "q02639"
+    }
+  ]
+}

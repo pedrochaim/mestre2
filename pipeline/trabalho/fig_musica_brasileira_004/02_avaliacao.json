@@ -1,0 +1,246 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto de dupla de figuras públicas; o texto do banner não revela o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que dupla sertaneja é esta?",
+      "resposta": "Chitãozinho & Xororó",
+      "distratores": [
+        "Zezé Di Camargo & Luciano",
+        "Leandro & Leonardo",
+        "João Paulo & Daniel"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chitãozinho & Xororó",
+        "descricao": "Dupla sertaneja brasileira formada pelos irmãos José Lima Sobrinho e Durval de Lima, ativa desde a década de 1970.",
+        "variantes": [
+          "Chitãozinho e Xororó"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Reco-reco metálico com molas e baqueta, bem nítido e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de percussão da música brasileira é este?",
+      "resposta": "Reco-reco",
+      "distratores": [
+        "Ganzá",
+        "Cuíca",
+        "Triângulo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Reco-reco",
+        "descricao": "Instrumento de percussão raspado, de origem africana, usado no samba e em outros gêneros brasileiros.",
+        "variantes": [
+          "Raspador",
+          "Caracaxá",
+          "Querequexé"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Figura pública tocando violão, sem texto que entregue o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este cantor foi, nos anos noventa, o vocalista de que grupo de pagode?",
+      "resposta": "Só Pra Contrariar",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alexandre Pires",
+        "descricao": "Cantor e compositor brasileiro, ex-vocalista do grupo Só Pra Contrariar.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Agogô nítido, fundo liso, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de percussão de origem africana é este?",
+      "resposta": "Agogô",
+      "distratores": [
+        "Cencerro",
+        "Triângulo",
+        "Ganzá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Agogô",
+        "descricao": "Instrumento de percussão formado por dois cones metálicos de alturas diferentes, de origem iorubá, usado na música brasileira.",
+        "variantes": [
+          "Agogo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato histórico em preto e branco, de resolução baixa mas legível; a assinatura do fotógrafo não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que compositor brasileiro é este?",
+      "resposta": "Heitor Villa-Lobos",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Heitor Villa-Lobos",
+        "descricao": "Compositor, maestro e violoncelista brasileiro, autor das Bachianas Brasileiras e dos Choros.",
+        "variantes": [
+          "Villa-Lobos"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cantora brasileira é esta?",
+      "resposta": "Claudia Leitte",
+      "distratores": [
+        "Ivete Sangalo",
+        "Daniela Mercury",
+        "Anitta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Claudia Leitte",
+        "descricao": "Cantora brasileira de axé, ex-vocalista da banda Babado Novo.",
+        "variantes": [
+          "Cláudia Leitte"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este músico carioca foi guitarrista e vocalista de que banda de rock dos anos oitenta?",
+      "resposta": "Barão Vermelho",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Frejat",
+        "descricao": "Roberto Frejat, músico, compositor e cantor carioca, cofundador da banda Barão Vermelho.",
+        "variantes": [
+          "Roberto Frejat"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Percussionista tocando pandeiro, sem texto; em múltipla escolha com percussionistas brasileiros fica justo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que percussionista brasileiro, famoso no jazz, é este?",
+      "resposta": "Airto Moreira",
+      "distratores": [
+        "Naná Vasconcelos",
+        "Guilherme Franco",
+        "Paulinho da Costa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Airto Moreira",
+        "descricao": "Percussionista e baterista brasileiro de jazz, que tocou com Miles Davis e Return to Forever.",
+        "variantes": [
+          "Airto Guimorvan Moreira"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta cantora e compositora mineira nasceu em que cidade?",
+      "resposta": "Sete Lagoas",
+      "distratores": [
+        "Divinópolis",
+        "Montes Claros",
+        "Uberaba"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Paula Fernandes",
+        "descricao": "Cantora e compositora brasileira nascida em Sete Lagoas, Minas Gerais, vencedora do Grammy Latino.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O nome DOMINGUINHOS está escrito na sanfona, o que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Caxixi nítido, fundo liso, sem texto; imagem pequena mas legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de percussão de palha trançada é este?",
+      "resposta": "Caxixi",
+      "distratores": [
+        "Ganzá",
+        "Afoxé",
+        "Maracá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caxixi",
+        "descricao": "Pequeno chocalho de cesta de palha com fundo de cabaça, tocado junto ao berimbau.",
+        "variantes": [
+          "Caxixi de cesto"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública cantando, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cantor sertanejo é este?",
+      "resposta": "Luan Santana",
+      "distratores": [
+        "Gusttavo Lima",
+        "Michel Teló",
+        "Jorge"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Luan Santana",
+        "descricao": "Cantor e compositor sertanejo brasileiro, nascido em 1991.",
+        "variantes": []
+      }
+    }
+  ]
+}

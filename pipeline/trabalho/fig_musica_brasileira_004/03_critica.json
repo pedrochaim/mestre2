@@ -1,0 +1,97 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem pista que entregue a resposta. Os distratores são duplas sertanejas críveis e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O ganzá, em várias regiões, também é um instrumento raspado conhecido como reco-reco, então é um distrator defensável como correto. Troquei por pandeiro, que é inequivocamente diferente.",
+      "reescrita": {
+        "pergunta": "Que instrumento de percussão da música brasileira é este?",
+        "resposta": "Reco-reco",
+        "distratores": [
+          "Cuíca",
+          "Triângulo",
+          "Pandeiro"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que ele foi vocalista do Só Pra Contrariar desde 1989 até o início dos anos 2000, então 'nos anos noventa' é verdadeiro. O enunciado, coberto da imagem, não permite responder.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A origem africana ajuda sem entregar a resposta. Os distratores são instrumentos de percussão visualmente distintos do agogô, de dois cones.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento direto, sem pista no enunciado. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Os distratores são cantoras brasileiras críveis e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que ele nasceu no Rio, cofundou o Barão Vermelho em 1981 como guitarrista e assumiu os vocais em 1985. O enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista 'famoso no jazz' ajuda sem identificar sozinha. O trecho confirma que ele é percussionista brasileiro de jazz, e os distratores são percussionistas brasileiros críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma o nascimento em Sete Lagoas, MG. 'Mineira' ajuda sem entregar a cidade, e os distratores são cidades mineiras críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'De palha trançada' descreve o caxixi, que é uma cesta de palha. Com a imagem coberta, a pista quase entrega a resposta. Troquei por uma pista de origem, que ajuda sem identificar.",
+      "reescrita": {
+        "pergunta": "Que instrumento de percussão de origem africana é este?",
+        "resposta": "Caxixi",
+        "distratores": [
+          "Ganzá",
+          "Afoxé",
+          "Maracá"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Os distratores são cantores sertanejos críveis e nenhum está correto.",
+      "reescrita": null
+    }
+  ]
+}
