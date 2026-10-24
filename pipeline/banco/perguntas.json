@@ -291796,5 +291796,95 @@
       "licenca": "CC BY-SA 2.5"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q15391",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "nelson_piquet_jr",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Este piloto é filho de qual tricampeão mundial de Fórmula 1?",
+    "resposta": "Nelson Piquet",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nelson_Piquet_Jr.",
+      "https://pt.wikipedia.org/wiki/Nelson_Piquet_Jr."
+    ],
+    "imagem": {
+      "arquivo": "q15391.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Piquet_Jr._2015.jpg",
+      "autor": "Andreas Bakkerud",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q15392",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "sebastien_loeb",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Quem é este piloto de rali?",
+    "resposta": "Sébastien Loeb",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/S%C3%A9bastien_Loeb",
+      "https://pt.wikipedia.org/wiki/S%C3%A9bastien_Loeb"
+    ],
+    "imagem": {
+      "arquivo": "q15392.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Dakar_2016_-_Conférence_de_presse_-_20151118_-_079.jpg",
+      "autor": "Thesupermat",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q15393",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "colin_mcrae",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que piloto de rali é este?",
+    "resposta": "Colin McRae",
+    "distratores": [
+      "Carlos Sainz",
+      "Tommi Mäkinen",
+      "Richard Burns"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Colin_McRae",
+      "https://pt.wikipedia.org/wiki/Colin_McRae"
+    ],
+    "imagem": {
+      "arquivo": "q15393.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Colin_Mcrae_square.jpg",
+      "autor": "Carolyn (squared by Juan Pablo Arancibia Medina)",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q15394",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "juan_pablo_montoya",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país nasceu este piloto?",
+    "resposta": "Colômbia",
+    "distratores": [
+      "Venezuela",
+      "México",
+      "Argentina"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Juan_Pablo_Montoya",
+      "https://pt.wikipedia.org/wiki/Juan_Pablo_Montoya"
+    ],
+    "imagem": {
+      "arquivo": "q15394.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Juan_Pablo_Montoya_at_2021_Indianapolis_500_(51222252077)_(cropped).jpg",
+      "autor": "Zach Catanzareti Photo",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]

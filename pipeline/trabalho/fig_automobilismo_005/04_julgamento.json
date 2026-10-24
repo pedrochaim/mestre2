@@ -1,0 +1,206 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Nelson Piquet Jr.",
+        "descricao": "Piloto brasileiro, ex-Fórmula 1 e campeão da Fórmula E 2014–15, filho do tricampeão Nelson Piquet.",
+        "variantes": [
+          "Nelsinho Piquet",
+          "Nelson Ângelo Tamsma Piquet Souto Maior"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nelson_piquet",
+          "nome": "Nelson Piquet",
+          "descricao": "Piloto brasileiro tricampeão mundial de Fórmula 1, em 1981, 1983 e 1987.",
+          "variantes": [
+            "Nelson Piquet Souto Maior",
+            "Nelson Souto Maior",
+            "Piquet"
+          ]
+        },
+        {
+          "id": "nelson_rodrigues",
+          "nome": "Nelson Rodrigues",
+          "descricao": "Dramaturgo, jornalista e cronista brasileiro (1912–1980), autor de Vestido de Noiva.",
+          "variantes": []
+        },
+        {
+          "id": "marcelinho_huertas",
+          "nome": "Marcelinho Huertas",
+          "descricao": "Armador brasileiro de basquete, ex-Los Angeles Lakers e capitão do Tenerife.",
+          "variantes": [
+            "Marcelo Huertas",
+            "Marcelo Tieppo Huertas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Sébastien Loeb",
+        "descricao": "Piloto francês de rali, nove vezes campeão mundial de rali consecutivas.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "sebastian_vettel",
+          "nome": "Sebastian Vettel",
+          "descricao": "Piloto alemão de Fórmula 1, tetracampeão mundial entre 2010 e 2013 pela Red Bull.",
+          "variantes": [
+            "Vettel"
+          ]
+        },
+        {
+          "id": "chave_da_bastilha",
+          "nome": "Chave da Bastilha",
+          "descricao": "Chave principal da fortaleza da Bastilha, enviada por La Fayette a George Washington em 1790 e guardada em Mount Vernon.",
+          "variantes": [
+            "Bastille Key"
+          ]
+        },
+        {
+          "id": "vestido_envelope",
+          "nome": "Vestido envelope",
+          "descricao": "Vestido que se fecha cruzando a frente e se amarra na cintura",
+          "variantes": [
+            "Wrap dress",
+            "Vestido transpassado"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Colin McRae",
+        "descricao": "Piloto escocês de rali, campeão mundial de 1995 pela Subaru.",
+        "variantes": [
+          "Colin Steele McRae"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "clima",
+          "nome": "Clima",
+          "descricao": "Conjunto das condições atmosféricas típicas de uma região ao longo de muitos anos",
+          "variantes": [
+            "Climate"
+          ]
+        },
+        {
+          "id": "chapolin_colorado",
+          "nome": "Chapolin Colorado",
+          "descricao": "Seriado humorístico mexicano de 1973 sobre um atrapalhado super-herói vestido de vermelho.",
+          "variantes": [
+            "El Chapulín Colorado",
+            "Chapolin"
+          ]
+        },
+        {
+          "id": "conor_mcgregor",
+          "nome": "Conor McGregor",
+          "descricao": "Lutador irlandês de MMA, ex-campeão do UFC em duas categorias.",
+          "variantes": [
+            "McGregor"
+          ]
+        },
+        {
+          "id": "cogumelo_juba_de_leao",
+          "nome": "Cogumelo juba-de-leão",
+          "descricao": "Cogumelo comestível Hericium erinaceus, de espinhos longos e pendentes, que cresce em árvores de madeira dura.",
+          "variantes": [
+            "Hericium erinaceus",
+            "Lion's mane",
+            "Yamabushitake"
+          ]
+        },
+        {
+          "id": "concorde",
+          "nome": "Concorde",
+          "descricao": "Avião comercial supersônico franco-britânico que operou de 1976 a 2003.",
+          "variantes": [
+            "Aérospatiale-BAC Concorde"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Juan Pablo Montoya",
+        "descricao": "Ex-piloto colombiano de Fórmula 1, IndyCar e NASCAR, duas vezes vencedor das 500 Milhas de Indianápolis.",
+        "variantes": [
+          "Montoya"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bernard_montgomery",
+          "nome": "Bernard Montgomery",
+          "descricao": "Marechal de campo britânico, comandante do Oitavo Exército em El Alamein na Segunda Guerra Mundial.",
+          "variantes": [
+            "Montgomery",
+            "Monty",
+            "Montgomery de Alamein"
+          ]
+        },
+        {
+          "id": "juno_moneta",
+          "nome": "Juno Moneta",
+          "descricao": "Epíteto da deusa Juno, em cujo templo no Capitólio funcionava a casa da moeda de Roma.",
+          "variantes": [
+            "Moneta"
+          ]
+        },
+        {
+          "id": "moutza",
+          "nome": "Moutza",
+          "descricao": "Gesto ofensivo tradicional da Grécia, feito com a palma da mão aberta voltada para a outra pessoa.",
+          "variantes": [
+            "Mountza"
+          ]
+        },
+        {
+          "id": "monrovia",
+          "nome": "Monróvia",
+          "descricao": "Capital da Libéria, na costa oeste da África.",
+          "variantes": []
+        },
+        {
+          "id": "monopoly",
+          "nome": "Monopoly",
+          "descricao": "Jogo de tabuleiro americano de compra e venda de imóveis, lançado pela Parker Brothers em 1935.",
+          "variantes": [
+            "Monopólio"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nelson Piquet Jr. é o filho, distinto do pai tricampeão de F1."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Sébastien Loeb."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Colin McRae."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Juan Pablo Montoya."
+    }
+  ]
+}

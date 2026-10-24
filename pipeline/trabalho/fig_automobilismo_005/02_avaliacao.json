@@ -1,0 +1,140 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto livre de figura pública, sem nome visível; pergunta de nível 3 sobre o pai.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este piloto é filho de qual tricampeão mundial de Fórmula 1?",
+      "resposta": "Nelson Piquet",
+      "destino": 0,
+      "ancora": {
+        "nome": "Nelson Piquet Jr.",
+        "descricao": "Piloto brasileiro, ex-Fórmula 1 e campeão da Fórmula E 2014–15, filho do tricampeão Nelson Piquet.",
+        "variantes": [
+          "Nelsinho Piquet",
+          "Nelson Ângelo Tamsma Piquet Souto Maior"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Rosto parcialmente coberto pelo boné e olhando para baixo; o piloto não é reconhecível, e o logotipo Canon domina a imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem traz texto que entrega a resposta: 'Jim Clark' e 'Team Lotus' no carro."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A placa 'Safety Car' e o texto na carroceria entregam a resposta, e o carro é um Mercedes-AMG GT R específico."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Corrida de caminhões em pista, sem o nome da categoria visível; assunto único e reconhecível. Ressalva menor: a Copa Truck é parecida, mas o patrocínio e a época apontam para a Fórmula Truck.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que categoria brasileira de corrida é esta?",
+      "resposta": "Fórmula Truck",
+      "destino": 0,
+      "ancora": {
+        "nome": "Fórmula Truck",
+        "descricao": "Categoria brasileira de corrida de caminhões, disputada a partir de 1996.",
+        "variantes": [
+          "Formula Truck"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O macacão traz a assinatura 'Rosberg' legível, e há patrocinadores que entregam a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato livre, sem texto ou nome visível; figura pública.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este piloto de rali?",
+      "resposta": "Sébastien Loeb",
+      "destino": 0,
+      "ancora": {
+        "nome": "Sébastien Loeb",
+        "descricao": "Piloto francês de rali, nove vezes campeão mundial de rali consecutivas.",
+        "variantes": [
+          "Sebastien Loeb"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Mostra só o prédio dos boxes, genérico; não dá para reconhecer o circuito, e a resposta não é única."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem de baixa qualidade, feita por webcam, em que o piloto não é reconhecível e o contexto é pessoal."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O texto 'O.PIASTRI' e a bandeira aparecem no macacão e entregam a resposta; há também a data e o nome do evento ao fundo."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem nome visível; a logomarca da Subaru ajuda sem entregar. Múltipla escolha com pilotos de rali, por ser menos óbvio.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que piloto de rali é este?",
+      "resposta": "Colin McRae",
+      "distratores": [
+        "Carlos Sainz",
+        "Tommi Mäkinen",
+        "Richard Burns"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Colin McRae",
+        "descricao": "Piloto escocês de rali, campeão mundial de 1995 pela Subaru.",
+        "variantes": [
+          "Colin Steele McRae"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública; o texto 'Arrow McLaren SP' não entrega o nome. Pergunta de nível 2 sobre o país de origem.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país nasceu este piloto?",
+      "resposta": "Colômbia",
+      "distratores": [
+        "Venezuela",
+        "México",
+        "Argentina"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Juan Pablo Montoya",
+        "descricao": "Ex-piloto colombiano de Fórmula 1, IndyCar e NASCAR, duas vezes vencedor das 500 Milhas de Indianápolis.",
+        "variantes": [
+          "Montoya"
+        ]
+      }
+    }
+  ]
+}
