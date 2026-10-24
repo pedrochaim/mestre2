@@ -1,0 +1,410 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Daniil Medvedev",
+        "descricao": "Tenista russo, ex-número 1 do mundo, campeão do US Open de 2021.",
+        "variantes": [
+          "Medvedev"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesa_verde",
+          "nome": "Mesa Verde",
+          "descricao": "Conjunto de moradias de pedra construídas sob penhascos pelos antigos povos pueblo, hoje parque nacional nos Estados Unidos.",
+          "variantes": [
+            "Mesa Verde National Park",
+            "Parque Nacional de Mesa Verde"
+          ]
+        },
+        {
+          "id": "monte_verde",
+          "nome": "Monte Verde",
+          "descricao": "Sítio arqueológico no sul do Chile com sinais de presença humana de cerca de 14,5 mil anos.",
+          "variantes": []
+        },
+        {
+          "id": "mercedes_benz",
+          "nome": "Mercedes-Benz",
+          "descricao": "Marca alemã de automóveis cujo nome Mercedes surgiu nos carros da Daimler no início do século vinte.",
+          "variantes": [
+            "Mercedes"
+          ]
+        },
+        {
+          "id": "ordem_mevlevi",
+          "nome": "Ordem Mevlevi",
+          "descricao": "Ordem sufi turca famosa pela dança giratória dos dervixes",
+          "variantes": [
+            "Dervixes rodopiantes",
+            "Mevlevis"
+          ]
+        },
+        {
+          "id": "eevee",
+          "nome": "Eevee",
+          "descricao": "Pokémon do tipo Normal, número 133 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Coco Gauff",
+        "descricao": "Tenista norte-americana, campeã do US Open de 2023 e de Roland Garros de 2025.",
+        "variantes": [
+          "Cori Gauff"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coringa",
+          "nome": "Coringa",
+          "descricao": "Vilão palhaço e principal inimigo do Batman, criado em 1940",
+          "variantes": [
+            "Joker"
+          ]
+        },
+        {
+          "id": "curinga",
+          "nome": "Curinga",
+          "descricao": "Carta extra do baralho, geralmente com a figura de um bobo da corte, que pode substituir outras cartas.",
+          "variantes": [
+            "Coringa",
+            "Joker"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "rio_iguacu",
+          "nome": "Rio Iguaçu",
+          "descricao": "Rio do Paraná que forma as Cataratas do Iguaçu e deságua no rio Paraná, na Tríplice Fronteira.",
+          "variantes": [
+            "Iguaçu",
+            "Iguazú",
+            "Iguazu River"
+          ]
+        },
+        {
+          "id": "cacau_2",
+          "nome": "Cacau",
+          "descricao": "Semente da árvore do cacau, domesticada na América e base do chocolate.",
+          "variantes": [
+            "Semente de cacau",
+            "Cocoa bean",
+            "Theobroma cacao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Foro Italico",
+        "descricao": "Complexo esportivo de Roma, no Monte Mario, construído nos anos 1930 como Foro Mussolini.",
+        "variantes": [
+          "Foro Mussolini",
+          "Stadio dei Marmi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "benito_mussolini",
+          "nome": "Benito Mussolini",
+          "descricao": "Ditador italiano, o Duce, fundador do fascismo e líder da Itália de 1922 a 1943.",
+          "variantes": [
+            "Il Duce",
+            "Benito Amilcare Andrea Mussolini"
+          ]
+        },
+        {
+          "id": "estadio_beira_rio",
+          "nome": "Estádio Beira-Rio",
+          "descricao": "Estádio de futebol às margens do rio Guaíba, em Porto Alegre, casa do Sport Club Internacional.",
+          "variantes": [
+            "Beira-Rio",
+            "Estádio José Pinheiro Borda",
+            "Gigante da Beira-Rio"
+          ]
+        },
+        {
+          "id": "estadio_de_saitama",
+          "nome": "Estádio de Saitama",
+          "descricao": "Estádio de futebol em Midori-ku, Saitama, no Japão, casa do Urawa Red Diamonds e sede de semifinais da Copa de 2002.",
+          "variantes": [
+            "Saitama Stadium 2002",
+            "Saisuta"
+          ]
+        },
+        {
+          "id": "ellis_park",
+          "nome": "Ellis Park",
+          "descricao": "Estádio de rúgbi e futebol em Johannesburgo, África do Sul, palco da final da Copa do Mundo de Rúgbi de 1995.",
+          "variantes": [
+            "Ellis Park Stadium",
+            "Estádio Ellis Park"
+          ]
+        },
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Jimmy Connors",
+        "descricao": "Ex-tenista americano, número 1 do mundo, com oito títulos de Grand Slam em simples.",
+        "variantes": [
+          "James Scott Connors"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "james_prescott_joule",
+          "nome": "James Prescott Joule",
+          "descricao": "Físico inglês (1818–1889) que estudou a relação entre calor e trabalho e dá nome à unidade de energia.",
+          "variantes": [
+            "Joule"
+          ]
+        },
+        {
+          "id": "james_cook",
+          "nome": "James Cook",
+          "descricao": "Navegador e cartógrafo britânico do século dezoito que explorou o Pacífico em três grandes viagens.",
+          "variantes": [
+            "Capitão Cook",
+            "Captain Cook"
+          ]
+        },
+        {
+          "id": "carnivine_de_james",
+          "nome": "Carnivine de James",
+          "descricao": "Carnivine que pertence a James, da Equipe Rocket, na série Diamante e Pérola do anime Pokémon.",
+          "variantes": [
+            "James's Carnivine"
+          ]
+        },
+        {
+          "id": "conan_edogawa",
+          "nome": "Conan Edogawa",
+          "descricao": "Protagonista do mangá Detetive Conan, de Gosho Aoyama, um detetive que voltou a ter corpo de criança.",
+          "variantes": [
+            "Detetive Conan",
+            "Case Closed",
+            "Shinichi Kudo",
+            "Jimmy Kudo"
+          ]
+        },
+        {
+          "id": "mykonos",
+          "nome": "Mykonos",
+          "descricao": "Ilha grega das Cíclades, conhecida pelas casas brancas e pela vida noturna.",
+          "variantes": [
+            "Míconos",
+            "Mikonos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Alexander Zverev",
+        "descricao": "Tenista alemão, ouro olímpico em Tóquio 2020 e campeão do ATP Finals.",
+        "variantes": [
+          "Sascha Zverev"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alexandre_o_grande",
+          "nome": "Alexandre, o Grande",
+          "descricao": "Rei da Macedônia que conquistou o Império Persa e chegou ao noroeste da Índia no século quatro a.C.",
+          "variantes": [
+            "Alexandre Magno",
+            "Alexandre III da Macedônia",
+            "Alexander the Great"
+          ]
+        },
+        {
+          "id": "alexander_selkirk",
+          "nome": "Alexander Selkirk",
+          "descricao": "Marinheiro escocês (1676–1721) que viveu mais de quatro anos sozinho numa ilha do Pacífico.",
+          "variantes": []
+        },
+        {
+          "id": "cha",
+          "nome": "Chá",
+          "descricao": "Bebida preparada com a infusão das folhas da planta Camellia sinensis, originária da China.",
+          "variantes": [
+            "Chá preto",
+            "Chá verde"
+          ]
+        },
+        {
+          "id": "alexander_fleming",
+          "nome": "Alexander Fleming",
+          "descricao": "Médico e microbiologista escocês (1881–1955), descobridor da penicilina e Nobel de 1945.",
+          "variantes": [
+            "Sir Alexander Fleming"
+          ]
+        },
+        {
+          "id": "periodo_umido_africano",
+          "nome": "Período Úmido Africano",
+          "descricao": "Fase climática em que o Saara ficou coberto de lagos e vegetação, terminada há cerca de cinco mil anos.",
+          "variantes": [
+            "Saara Verde",
+            "African humid period",
+            "Green Sahara"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Iga Świątek",
+        "descricao": "Tenista polonesa, ex-número 1 do mundo, com seis títulos de Grand Slam em simples.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "pedra_do_inga",
+          "nome": "Pedra do Ingá",
+          "descricao": "Rocha na Paraíba coberta de gravuras pré-históricas, também chamada Itacoatiara do Ingá.",
+          "variantes": [
+            "Itacoatiara do Ingá",
+            "Ingá Stone"
+          ]
+        },
+        {
+          "id": "gato_siames",
+          "nome": "Gato siamês",
+          "descricao": "Raça de gato originária da Tailândia, de corpo claro com extremidades escuras.",
+          "variantes": [
+            "Siamês",
+            "Siamese cat"
+          ]
+        },
+        {
+          "id": "giga_impact",
+          "nome": "Giga Impact",
+          "descricao": "Golpe de pokémon do tipo Normal, da 4ª geração.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Gabriela Sabatini",
+        "descricao": "Ex-tenista argentina, campeã do US Open de 1990 e vice em Wimbledon 1991.",
+        "variantes": [
+          "Gaby Sabatini"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gabriela_telenovela_de_1975",
+          "nome": "Gabriela (telenovela de 1975)",
+          "descricao": "Telenovela da Rede Globo de 1975, adaptada do romance Gabriela, Cravo e Canela, de Jorge Amado, com Sônia Braga no papel-título.",
+          "variantes": [
+            "Gabriela"
+          ]
+        },
+        {
+          "id": "gabriela_cravo_e_canela",
+          "nome": "Gabriela, Cravo e Canela",
+          "descricao": "Romance de Jorge Amado publicado em 1958, sobre a retirante Gabriela e o árabe Nacib na região do cacau.",
+          "variantes": [
+            "Gabriela"
+          ]
+        },
+        {
+          "id": "albert_sabin",
+          "nome": "Albert Sabin",
+          "descricao": "Médico pesquisador polonês-americano que desenvolveu a vacina oral contra a poliomielite.",
+          "variantes": [
+            "Albert Bruce Sabin"
+          ]
+        },
+        {
+          "id": "gabigol",
+          "nome": "Gabigol",
+          "descricao": "Gabriel Barbosa Almeida, atacante brasileiro de futebol, ídolo do Flamengo.",
+          "variantes": [
+            "Gabriel Barbosa",
+            "Gabi"
+          ]
+        },
+        {
+          "id": "vacina_oral_contra_a_poliomielite",
+          "nome": "Vacina oral contra a poliomielite",
+          "descricao": "Vacina de vírus atenuado contra a pólio, aplicada em gotas, desenvolvida por Albert Sabin.",
+          "variantes": [
+            "Vacina Sabin",
+            "VOP",
+            "Gotinha"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o tenista Daniil Medvedev."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a tenista Coco Gauff."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Foro Italico é um complexo esportivo em Roma; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Jimmy Connors, tenista, não está entre as candidatas; Jimmy Kudo é outro personagem."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Alexander Zverev, tenista, não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Iga Świątek, tenista, não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Gabriela Sabatini, tenista, não corresponde a nenhuma candidata."
+    }
+  ]
+}

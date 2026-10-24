@@ -1,0 +1,57 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o US Open de 2021 foi o primeiro título de Grand Slam. O enunciado não nomeia o tenista nem a resposta, e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o US Open de 2023 foi o primeiro título de Grand Slam em simples. Não há vazamento, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta, Roma, está nos trechos. Mas \"cercado de estátuas de atletas\" não é literalmente verdadeiro para o complexo inteiro. As estátuas decoram o Stadio dei Marmi, e não o complexo todo. Removi a pista imprecisa.",
+      "reescrita": {
+        "pergunta": "Em que cidade italiana fica este complexo esportivo?",
+        "resposta": "Roma",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É amplamente documentado que Connors ganhou o US Open cinco vezes (1974, 1976, 1978, 1982 e 1983). Ganhou Wimbledon duas vezes e o Australian Open uma, então a resposta é única. Os distratores são do mesmo tipo e nenhum também é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o ouro em Tóquio 2020, conquistado em 2021. O enunciado não entrega o tenista, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam quatro títulos em Roland Garros. Ela ganhou os outros torneios no máximo uma vez, então a resposta é única e os distratores são válidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que ela venceu as duplas de Wimbledon em 1988 com Steffi Graf. \"Parceira alemã\" é verdadeiro e não entrega o nome sem a figura.",
+      "reescrita": null
+    }
+  ]
+}

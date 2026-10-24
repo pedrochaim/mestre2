@@ -1,0 +1,171 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "É uma raquete de tênis de mesa (Stiga), não de tênis, com a marca escrita; a imagem não representa o assunto do catálogo."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto que entregue o nome.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que torneio de Grand Slam este tenista conquistou o seu primeiro título, em 2021?",
+      "resposta": "US Open",
+      "distratores": [],
+      "ancora": {
+        "nome": "Daniil Medvedev",
+        "descricao": "Tenista russo, ex-número 1 do mundo, campeão do US Open de 2021.",
+        "variantes": [
+          "Medvedev"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto antiga em preto e branco, recortada, com outra pessoa parcialmente visível; a tenista não é reconhecível pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública; as letras ao fundo não entregam o nome.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que torneio de Grand Slam, em 2023, esta tenista ganhou o seu primeiro título de simples?",
+      "resposta": "US Open",
+      "distratores": [],
+      "ancora": {
+        "nome": "Coco Gauff",
+        "descricao": "Tenista norte-americana, campeã do US Open de 2023 e de Roland Garros de 2025.",
+        "variantes": [
+          "Cori Gauff"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Estátuas de mármore e cavalo de bronze característicos do complexo, sem texto; pessoas ao fundo são incidentais.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade italiana fica este complexo esportivo, cercado de estátuas de atletas?",
+      "resposta": "Roma",
+      "distratores": [],
+      "ancora": {
+        "nome": "Foro Italico",
+        "descricao": "Complexo esportivo de Roma, no Monte Mario, construído nos anos 1930 como Foro Mussolini.",
+        "variantes": [
+          "Foro Mussolini",
+          "Stadio dei Marmi"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública; só aparece a marca Reebok na gola, sem nome.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que torneio de Grand Slam este tenista americano ganhou cinco vezes?",
+      "resposta": "US Open",
+      "distratores": [
+        "Wimbledon",
+        "Australian Open",
+        "Roland Garros"
+      ],
+      "ancora": {
+        "nome": "Jimmy Connors",
+        "descricao": "Ex-tenista americano, número 1 do mundo, com oito títulos de Grand Slam em simples.",
+        "variantes": [
+          "James Scott Connors"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Rosto nítido de figura pública; o texto do troféu não nomeia o tenista.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que Olimpíada este tenista ganhou a medalha de ouro?",
+      "resposta": "Tóquio 2020",
+      "distratores": [],
+      "ancora": {
+        "nome": "Alexander Zverev",
+        "descricao": "Tenista alemão, ouro olímpico em Tóquio 2020 e campeão do ATP Finals.",
+        "variantes": [
+          "Sascha Zverev"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Dois jogadores sobrepostos em pulo, de costas e de lado, sem rostos nítidos; a dupla não é reconhecível pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; a logo da marca e as letras ao fundo não entregam o nome.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que torneio de Grand Slam esta tenista polonesa ganhou quatro vezes?",
+      "resposta": "Roland Garros",
+      "distratores": [
+        "Wimbledon",
+        "US Open",
+        "Australian Open"
+      ],
+      "ancora": {
+        "nome": "Iga Świątek",
+        "descricao": "Tenista polonesa, ex-número 1 do mundo, com seis títulos de Grand Slam em simples.",
+        "variantes": [
+          "Iga Swiatek"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Há marca d'água (KT) no canto, e a tenista, de corpo inteiro e em ação, não é bem reconhecível."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto de um senhor com boné, com marca Wilson e fundo de quadra; sem elementos que permitam reconhecer Roy Emerson."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública, sem texto que entregue o nome.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Com que parceira alemã esta tenista ganhou o torneio de duplas de Wimbledon em 1988?",
+      "resposta": "Steffi Graf",
+      "distratores": [],
+      "ancora": {
+        "nome": "Gabriela Sabatini",
+        "descricao": "Ex-tenista argentina, campeã do US Open de 1990 e vice em Wimbledon 1991.",
+        "variantes": [
+          "Gaby Sabatini"
+        ]
+      }
+    }
+  ]
+}
