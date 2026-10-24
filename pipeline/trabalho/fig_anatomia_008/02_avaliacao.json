@@ -1,0 +1,177 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de mosca de olhos vermelhos, sem texto; reconhecível como mosca doméstica entre moscas parecidas, em múltipla.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que inseto, comum dentro das casas no mundo todo, é este?",
+      "resposta": "Mosca-doméstica",
+      "distratores": [
+        "Mosca-varejeira",
+        "Mosca-das-frutas",
+        "Mosca-do-estábulo"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Mosca-doméstica",
+        "descricao": "Mosca comum (Musca domestica), inseto díptero que vive junto aos humanos em todo o mundo.",
+        "variantes": [
+          "Musca domestica",
+          "Mosca doméstica"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Bactérias em forma de bastão em microscopia eletrônica; não é possível distinguir Salmonela de outras bactérias bacilares (como E. coli), então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto clara de sanguessuga listrada, sem texto. A pergunta vai além do nome e não é respondível sem a imagem.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Este animal aquático é parente próximo de qual verme que vive no solo?",
+      "resposta": "Minhoca",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Sanguessuga",
+        "descricao": "Anelídeo segmentado da subclasse Hirudinea, com ventosas nas duas pontas do corpo, muitas espécies sugadoras de sangue.",
+        "variantes": [
+          "Hirudínea",
+          "Hirudinea"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Massa branca sobre casca escura com código de crédito visível; não mostra com clareza a entidade e o micélio não é reconhecível pela imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Esfregaço de sangue nítido com duas células grandes de núcleo reniforme, reconhecíveis como monócitos, sem texto. Pergunta de nível 3 sobre diferenciação.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Esta célula branca do sangue, a maior de todas, pode se transformar em qual célula de defesa nos tecidos?",
+      "resposta": "Macrófago",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Monócito",
+        "descricao": "Tipo de glóbulo branco (leucócito), o maior do sangue, que se diferencia em macrófagos e células dendríticas.",
+        "variantes": [
+          "Monocito"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto clara de dois girinos com brânquias externas, sem texto; assunto único e reconhecível.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que fase da vida de um anfíbio aparece nesta foto?",
+      "resposta": "Girino",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Girino",
+        "descricao": "Larva aquática de anfíbios, com cauda e brânquias, que passa por metamorfose até a fase adulta.",
+        "variantes": [
+          "Larva de anfíbio"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Figura limpa, sem texto, com músculos da coxa coloridos sobre o esqueleto; assunto único.",
+      "tipo": "aberta",
+      "familia": "que_parte",
+      "nivel": 1,
+      "pergunta": "Que grupo muscular da perna aparece destacado em cores nesta figura?",
+      "resposta": "Quadríceps femoral",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Quadríceps femoral",
+        "descricao": "Grupo muscular de quatro cabeças na frente da coxa, único extensor do joelho.",
+        "variantes": [
+          "Quadríceps",
+          "Músculo quadríceps femoral",
+          "Quadríceps femoris"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida de mixomiceto amarelo em rede de veios, sem texto. Pergunta de nível 3 sobre a classificação errada, válida para o organismo.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Este organismo amarelo, que forma uma rede de tubos, foi originalmente classificado de forma errada como que tipo de ser vivo?",
+      "resposta": "Fungo",
+      "distratores": [
+        "Planta",
+        "Alga",
+        "Bactéria"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Physarum polycephalum",
+        "descricao": "Mixomiceto acelular amarelo, uma ameba multinucleada em rede de tubos, usado como organismo modelo em pesquisa.",
+        "variantes": [
+          "Blob",
+          "Fungo gelatinoso amarelo",
+          "Mofo limoso"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem de microscópio nítida de embrião inicial com poucas células, sem texto. Pergunta sobre as células que o compõem.",
+      "tipo": "aberta",
+      "familia": "que_parte",
+      "nivel": 2,
+      "pergunta": "Como se chamam as células visíveis neste embrião, formadas pelas primeiras divisões do zigoto?",
+      "resposta": "Blastômeros",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Embrião",
+        "descricao": "Estágio inicial de desenvolvimento de um organismo multicelular, aqui com poucas células logo após a fecundação.",
+        "variantes": [
+          "Embrião humano",
+          "Embrião inicial"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Ilustração de Gray com legendas visíveis (COCCYX, Coccygeus etc.) que entregam a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A estrutura destacada na imagem parece ser tronco encefálico e tálamo, não a glândula pineal, que é minúscula e não é reconhecível aqui; resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Ilustração de Gray com a legenda 'Cochlea' e outras visíveis, que entrega a resposta."
+    }
+  ]
+}

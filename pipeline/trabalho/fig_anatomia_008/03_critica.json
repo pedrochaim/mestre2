@@ -1,0 +1,65 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Comum dentro das casas' entrega a resposta (mosca-doméstica, mosca-de-casa); o teste da imagem coberta falha. Pedir a espécie de mosca torna a figura essencial, e os distratores (moscas parecidas) funcionam.",
+      "reescrita": {
+        "pergunta": "Que espécie de mosca é esta?",
+        "resposta": "Mosca-doméstica",
+        "distratores": [
+          "Mosca-varejeira",
+          "Mosca-das-frutas",
+          "Mosca-do-estábulo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Animal aquático' pode não ser literal para esta foto, pois há sanguessugas terrestres. Removido; o parentesco com oligoquetas (minhoca) está nos trechos.",
+      "reescrita": {
+        "pergunta": "Este animal é parente próximo de qual verme de jardim?",
+        "resposta": "Minhoca",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Maior célula branca' que vira célula de defesa nos tecidos entrega a resposta sem a figura. Além disso, monócitos também viram células dendríticas, o que enfraquece a resposta única. Sem conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto. O enunciado não nomeia nem entrega a resposta, e girino é a larva de anfíbio, como confirmam os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de nível 1. O enunciado não vaza a resposta e o quadríceps fica na coxa, parte da perna em sentido amplo.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português diz que o organismo foi originalmente caracterizado como fungo. O enunciado não vaza a resposta e os distratores são do mesmo tipo, curtos e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A definição 'células formadas pelas primeiras divisões do zigoto' basta para responder 'blastômeros' sem a figura. O enunciado ainda nomeia o embrião. Sem conserto simples.",
+      "reescrita": null
+    }
+  ]
+}

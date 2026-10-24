@@ -282742,5 +282742,115 @@
       "autor": "Subhrajyoti07",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q15010",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "mosca_domestica",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que espécie de mosca é esta?",
+    "resposta": "Mosca-doméstica",
+    "distratores": [
+      "Mosca-varejeira",
+      "Mosca-das-frutas",
+      "Mosca-do-estábulo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Housefly",
+      "https://pt.wikipedia.org/wiki/Musca_domestica"
+    ],
+    "imagem": {
+      "arquivo": "q15010.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Musca_domestica_housefly.jpg",
+      "autor": "Muhammad Mahdi Karim",
+      "licenca": "GFDL 1.2"
+    }
+  },
+  {
+    "id": "q15011",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "sanguessuga",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Este animal é parente próximo de qual verme de jardim?",
+    "resposta": "Minhoca",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Leech",
+      "https://pt.wikipedia.org/wiki/Sanguessuga"
+    ],
+    "imagem": {
+      "arquivo": "q15011.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Leech-china.JPG",
+      "autor": "Shizhao",
+      "licenca": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "id": "q15012",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "girino",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que fase da vida de um anfíbio aparece nesta foto?",
+    "resposta": "Girino",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tadpole",
+      "https://pt.wikipedia.org/wiki/Girino"
+    ],
+    "imagem": {
+      "arquivo": "q15012.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tadpoles_10_days.jpg",
+      "autor": "The original uploader was Tarquin at English Wikipedia.",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15013",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "quadriceps_femoral",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que grupo muscular da perna aparece destacado em cores nesta figura?",
+    "resposta": "Quadríceps femoral",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Quadriceps",
+      "https://pt.wikipedia.org/wiki/M%C3%BAsculo_quadr%C3%ADceps_femural"
+    ],
+    "imagem": {
+      "arquivo": "q15013.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Quadriceps_3D.gif",
+      "autor": "BodyParts3D/Anatomography",
+      "licenca": "CC BY-SA 2.1 jp"
+    }
+  },
+  {
+    "id": "q15014",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "physarum_polycephalum",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este organismo amarelo, que forma uma rede de tubos, foi originalmente classificado de forma errada como que tipo de ser vivo?",
+    "resposta": "Fungo",
+    "distratores": [
+      "Planta",
+      "Alga",
+      "Bactéria"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Physarum_polycephalum",
+      "https://pt.wikipedia.org/wiki/Blob_%28ser_vivo%29"
+    ],
+    "imagem": {
+      "arquivo": "q15014.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Physarum_polycephalum.jpg",
+      "autor": "HelenGinger",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

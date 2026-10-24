@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que espécie de mosca é esta?",
+        "resposta": "Mosca-doméstica"
+      },
+      "existentes": [
+        {
+          "id": "q05078",
+          "pergunta": "Que inseto é este?",
+          "resposta": "Mosca"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pede o inseto (resposta: mosca); a nova pede a espécie específica (mosca-doméstica). Quem soubesse que é uma mosca não saberia necessariamente a espécie, então o fato perguntado é diferente."
+    }
+  ]
+}
