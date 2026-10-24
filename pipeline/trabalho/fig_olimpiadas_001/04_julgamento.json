@@ -1,0 +1,428 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Maracanã",
+        "descricao": "Estádio de futebol no Rio de Janeiro, palco de Copas do Mundo e das cerimônias dos Jogos Olímpicos de 2016.",
+        "variantes": [
+          "Estádio Jornalista Mário Filho",
+          "Estádio do Maracanã"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        },
+        {
+          "id": "maracanazo",
+          "nome": "Maracanazo",
+          "descricao": "Vitória do Uruguai sobre o Brasil por 2 a 1 no Maracanã, em 16 de julho de 1950, que decidiu a Copa do Mundo daquele ano.",
+          "variantes": [
+            "Maracanaço",
+            "Uruguai 2 x 1 Brasil"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "estadio_do_dragao",
+          "nome": "Estádio do Dragão",
+          "descricao": "Estádio de futebol na cidade do Porto, em Portugal, casa do FC Porto desde 2003.",
+          "variantes": [
+            "Dragão",
+            "Estádio do Dragão do Porto"
+          ]
+        },
+        {
+          "id": "madrassa_sher_dor",
+          "nome": "Madrassa Sher-Dor",
+          "descricao": "Madrassa do século dezessete na Praça Registan, em Samarcanda, Uzbequistão, decorada com leões e sóis em mosaico.",
+          "variantes": [
+            "Samarcanda",
+            "Sher-Dor",
+            "Praça Registan",
+            "Registan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Judô",
+        "descricao": "Arte marcial e esporte olímpico de origem japonesa, criado por Jigorō Kanō em 1882.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "judo",
+          "nome": "Judô",
+          "descricao": "Arte marcial e esporte olímpico japonês criado por Jigoro Kano no fim do século dezenove.",
+          "variantes": []
+        },
+        {
+          "id": "ludo",
+          "nome": "Ludo",
+          "descricao": "Jogo de tabuleiro de corrida com dados e peões coloridos, derivado do pachisi indiano.",
+          "variantes": [
+            "Ludo (jogo)"
+          ]
+        },
+        {
+          "id": "hera",
+          "nome": "Hera",
+          "descricao": "Deusa grega do casamento, rainha dos deuses do Olimpo e esposa de Zeus.",
+          "variantes": [
+            "Juno"
+          ]
+        },
+        {
+          "id": "cudo",
+          "nome": "Cudo",
+          "descricao": "Grande antílope de savanas arborizadas (Tragelaphus strepsiceros) do leste e do sul da África, com chifres espiralados.",
+          "variantes": [
+            "Cudo-maior",
+            "Greater kudu",
+            "Tragelaphus strepsiceros"
+          ]
+        },
+        {
+          "id": "ladino",
+          "nome": "Ladino",
+          "descricao": "Língua judeu-espanhola falada pelos judeus sefarditas.",
+          "variantes": [
+            "Judeu-espanhol",
+            "Judezmo",
+            "Judaeo-Spanish"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Hóquei no gelo",
+        "descricao": "Esporte coletivo jogado sobre patins no gelo, em que times marcam gols com um disco de borracha.",
+        "variantes": [
+          "Hóquei sobre o gelo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hoquei_no_gelo",
+          "nome": "Hóquei no gelo",
+          "descricao": "Esporte coletivo disputado sobre o gelo, com patins e tacos, em que se faz gols com um disco de borracha.",
+          "variantes": [
+            "Hóquei sobre o gelo"
+          ]
+        },
+        {
+          "id": "hoquei_sobre_grama",
+          "nome": "Hóquei sobre grama",
+          "descricao": "Esporte olímpico jogado com tacos curvos e uma bola pequena, na grama.",
+          "variantes": []
+        },
+        {
+          "id": "otzi",
+          "nome": "Ötzi",
+          "descricao": "Múmia natural de um homem da Idade do Cobre achada nos Alpes em 1991.",
+          "variantes": [
+            "Homem do gelo",
+            "Iceman",
+            "Homem de Similaun",
+            "Oetzi"
+          ]
+        },
+        {
+          "id": "homem_de_gelo",
+          "nome": "Homem de Gelo",
+          "descricao": "Bobby Drake, mutante da Marvel que controla o gelo, um dos cinco X-Men originais",
+          "variantes": [
+            "Iceman",
+            "Bobby Drake"
+          ]
+        },
+        {
+          "id": "pequena_era_do_gelo",
+          "nome": "Pequena Era do Gelo",
+          "descricao": "Período de resfriamento do clima no hemisfério norte entre os séculos quatorze e dezenove",
+          "variantes": [
+            "Little Ice Age"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Surfe",
+        "descricao": "Esporte aquático em que o atleta desliza sobre uma onda em pé numa prancha.",
+        "variantes": [
+          "Surf"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "surfe",
+          "nome": "Surfe",
+          "descricao": "Esporte aquático em que o atleta desliza em pé sobre uma prancha na face de uma onda.",
+          "variantes": [
+            "Surf"
+          ]
+        },
+        {
+          "id": "surf",
+          "nome": "Surf",
+          "descricao": "Golpe de pokémon do tipo Água, da 1ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "os_smurfs",
+          "nome": "Os Smurfs",
+          "descricao": "Criaturinhas azuis criadas pelo quadrinista belga Peyo em 1958",
+          "variantes": [
+            "Les Schtroumpfs",
+            "Smurfs"
+          ]
+        },
+        {
+          "id": "antonio_jose_de_sucre",
+          "nome": "Antonio José de Sucre",
+          "descricao": "General venezuelano das guerras de independência sul-americanas, vencedor de Ayacucho e presidente da Bolívia.",
+          "variantes": [
+            "Sucre",
+            "Marechal Sucre"
+          ]
+        },
+        {
+          "id": "sucre",
+          "nome": "Sucre",
+          "descricao": "Cidade boliviana que é a capital constitucional da Bolívia.",
+          "variantes": [
+            "La Plata",
+            "Chuquisaca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Giba",
+        "descricao": "Gilberto Amauri de Godoy Filho, ex-jogador brasileiro de vôlei, campeão olímpico em 2004.",
+        "variantes": [
+          "Gilberto Godoy Filho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "giba",
+          "nome": "Giba",
+          "descricao": "Ex-ponteiro brasileiro de vôlei, campeão olímpico em 2004 e capitão da seleção.",
+          "variantes": [
+            "Gilberto Amauri de Godoy Filho"
+          ]
+        },
+        {
+          "id": "gibao_de_couro",
+          "nome": "Gibão de couro",
+          "descricao": "Casaco de couro do vaqueiro nordestino, usado com chapéu e perneiras do mesmo material",
+          "variantes": [
+            "Roupa de couro do vaqueiro",
+            "Gibão"
+          ]
+        },
+        {
+          "id": "gibao",
+          "nome": "Gibão",
+          "descricao": "Primata da família Hylobatidae, um dos macacos menores sem cauda, que vive nas florestas do sul e do sudeste da Ásia.",
+          "variantes": [
+            "Gibões",
+            "Gibbon"
+          ]
+        },
+        {
+          "id": "gibao_doublet",
+          "nome": "Gibão (doublet)",
+          "descricao": "Casaco justo ao corpo, usado por homens na Europa entre os séculos quinze e dezessete, aqui em versão de seda bordada com mangas fendidas.",
+          "variantes": [
+            "Doublet",
+            "Gibão"
+          ]
+        },
+        {
+          "id": "lago_guaiba",
+          "nome": "Lago Guaíba",
+          "descricao": "Corpo d'água do Rio Grande do Sul, formado pelo encontro de vários rios, que deságua na Lagoa dos Patos.",
+          "variantes": [
+            "Guaíba",
+            "Rio Guaíba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Robson Conceição",
+        "descricao": "Boxeador brasileiro, campeão olímpico em 2016 e primeiro brasileiro a ganhar ouro no boxe.",
+        "variantes": [
+          "Robson Donato Conceição"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "robson_conceicao",
+          "nome": "Robson Conceição",
+          "descricao": "Boxeador baiano, campeão olímpico na categoria peso-leve nos Jogos do Rio de Janeiro.",
+          "variantes": []
+        },
+        {
+          "id": "orfeu_da_conceicao",
+          "nome": "Orfeu da Conceição",
+          "descricao": "Peça de Vinicius de Moraes, de 1956, que leva o mito de Orfeu a um morro carioca.",
+          "variantes": [
+            "Orfeu da Conceição (peça)"
+          ]
+        },
+        {
+          "id": "elza_soares",
+          "nome": "Elza Soares",
+          "descricao": "Cantora brasileira (1930-2022) de samba e MPB, eleita pela BBC a cantora brasileira do milênio.",
+          "variantes": [
+            "Elza Gomes da Conceição"
+          ]
+        },
+        {
+          "id": "conducao_ossea",
+          "nome": "Condução óssea",
+          "descricao": "Transmissão do som até o ouvido interno pelos ossos do crânio.",
+          "variantes": [
+            "Bone conduction"
+          ]
+        },
+        {
+          "id": "robinson_crusoe",
+          "nome": "Robinson Crusoé",
+          "descricao": "Romance inglês de 1719 sobre um náufrago que passa anos sozinho numa ilha.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Muhammad Ali",
+        "descricao": "Boxeador norte-americano, campeão olímpico em 1960 e campeão mundial dos pesos-pesados.",
+        "variantes": [
+          "Cassius Clay"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "muhammad_ali",
+          "nome": "Muhammad Ali",
+          "descricao": "Boxeador americano, campeão mundial dos pesos-pesados.",
+          "variantes": [
+            "Cassius Clay"
+          ]
+        },
+        {
+          "id": "maome",
+          "nome": "Maomé",
+          "descricao": "Profeta do islã, nascido em Meca",
+          "variantes": [
+            "Muhammad",
+            "Mohammed"
+          ]
+        },
+        {
+          "id": "muammar_kadafi",
+          "nome": "Muammar Kadafi",
+          "descricao": "Oficial militar e ditador que governou a Líbia de 1969 até ser deposto em 2011.",
+          "variantes": [
+            "Muammar Gaddafi",
+            "Moamar Kadafi",
+            "Khadafi"
+          ]
+        },
+        {
+          "id": "mamma_mia_musical",
+          "nome": "Mamma Mia! (musical)",
+          "descricao": "Musical estreado em Londres em 1999, construído com canções do grupo sueco ABBA.",
+          "variantes": [
+            "Mamma Mia!",
+            "Mamma Mia"
+          ]
+        },
+        {
+          "id": "mamma_mia_filme",
+          "nome": "Mamma Mia! (filme)",
+          "descricao": "Filme musical de 2008 com Meryl Streep, baseado no musical de teatro com canções do grupo ABBA.",
+          "variantes": [
+            "Mamma Mia!"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "estadio_do_maracana",
+      "motivo": "Mesmo estádio no Rio de Janeiro; nomes e variantes coincidem."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "judo",
+      "motivo": "Mesma arte marcial criada por Jigoro Kano."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "hoquei_no_gelo",
+      "motivo": "Mesmo esporte, descrições equivalentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "surfe",
+      "motivo": "Mesmo esporte aquático; 'surf' pokémon é outra entidade."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "giba",
+      "motivo": "Mesmo jogador de vôlei, campeão olímpico em 2004, nome completo coincide."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "robson_conceicao",
+      "motivo": "Mesmo boxeador brasileiro campeão olímpico no Rio 2016."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "muhammad_ali",
+      "motivo": "Mesmo boxeador, variante Cassius Clay coincide."
+    }
+  ]
+}

@@ -283550,5 +283550,75 @@
       "autor": "NASA, derivative work by Zafiroblue05 at en.wikipedia",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q15045",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "judo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que esporte olímpico é este?",
+    "resposta": "Judô",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Judo",
+      "https://pt.wikipedia.org/wiki/Judo"
+    ],
+    "imagem": {
+      "arquivo": "q15045.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:KOCIS_Korea_Judo_Kim_Jaebum_London_36_(7696361164).jpg",
+      "autor": "Korea.net / Korean Culture and Information Service (Korean Olympic Committee)",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q15046",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "surfe",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que edição dos Jogos Olímpicos este esporte estreou?",
+    "resposta": "Tóquio 2020",
+    "distratores": [
+      "Rio 2016",
+      "Londres 2012",
+      "Paris 2024"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Surfing",
+      "https://pt.wikipedia.org/wiki/Surfe"
+    ],
+    "imagem": {
+      "arquivo": "q15046.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Surfer_at_the_Cayucos_Pier,_Cayucos,_CA.jpg",
+      "autor": "Mike Baird",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q15047",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "giba",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Quem é este ex-jogador de vôlei brasileiro?",
+    "resposta": "Giba",
+    "distratores": [
+      "Nalbert",
+      "Gustavo Endres",
+      "Dante"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giba",
+      "https://pt.wikipedia.org/wiki/Giba_%28voleibolista%29"
+    ],
+    "imagem": {
+      "arquivo": "q15047.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2012-08-29_Sessão_Solene_-_Agosto_Azul_05_(cropped).jpg",
+      "autor": "Assembleia Legislativa do Paraná",
+      "licenca": "CC0"
+    }
   }
 ]

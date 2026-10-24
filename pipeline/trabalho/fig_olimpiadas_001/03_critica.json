@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento direto de um estádio emblemático; o enunciado não nomeia nem entrega a resposta. A pista 'brasileiro' só ajuda.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Os trechos confirmam que o judô é esporte olímpico.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o hóquei no gelo é esporte olímpico de inverno. O enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a estreia do surfe em Tóquio 2020, disputada em 2021. Os distratores são edições críveis e nenhum está correto. Paris 2024 teve surfe, mas não foi a estreia.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem pistas que entreguem o nome. Os distratores são voleibolistas brasileiros da mesma época, nenhum deles é a resposta, e cada um tem uma ou duas palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o ouro em Rio 2016. O enunciado não nomeia o boxeador. Os distratores não têm ouro dele: em 2008 e 2012 ele perdeu na estreia, e Tóquio 2020 não deu ouro a ele.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Ainda como Cassius Clay' nomeia a entidade da figura. Dá para responder só com o enunciado, e a figura vira enfeite. Basta tirar a pista. O ouro em 1960 (Roma) está nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que ano este boxeador norte-americano ganhou a medalha de ouro olímpica?",
+        "resposta": "1960",
+        "distratores": [
+          "1956",
+          "1964",
+          "1968"
+        ]
+      }
+    }
+  ]
+}

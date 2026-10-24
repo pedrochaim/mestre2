@@ -1,0 +1,168 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que estádio brasileiro é este?",
+        "resposta": "Maracanã"
+      },
+      "existentes": [
+        {
+          "id": "q00030",
+          "pergunta": "O Maracanã, no Rio de Janeiro, tem um nome oficial que homenageia qual jornalista esportivo?",
+          "resposta": "Mário Filho"
+        },
+        {
+          "id": "q00524",
+          "pergunta": "Que estádio é este?",
+          "resposta": "Maracanã"
+        },
+        {
+          "id": "q05436",
+          "pergunta": "Inaugurado ainda com obras por terminar, o Estádio do Maracanã, no Rio de Janeiro, foi construído para receber qual Copa do Mundo?",
+          "resposta": "Copa do Mundo de 1950"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que esporte olímpico é este?",
+        "resposta": "Judô"
+      },
+      "existentes": [
+        {
+          "id": "q01939",
+          "pergunta": "O que significa, ao pé da letra, o nome japonês da arte marcial judô?",
+          "resposta": "Caminho suave"
+        },
+        {
+          "id": "q01940",
+          "pergunta": "Em 1882, ao abrir o Instituto Kodokan em Tóquio, que educador japonês fundou o judô?",
+          "resposta": "Jigoro Kano"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que esporte olímpico de inverno é este?",
+        "resposta": "Hóquei no gelo"
+      },
+      "existentes": [
+        {
+          "id": "q04588",
+          "pergunta": "Que esporte é praticado nesta imagem?",
+          "resposta": "Hóquei no gelo"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que edição dos Jogos Olímpicos este esporte estreou?",
+        "resposta": "Tóquio 2020"
+      },
+      "existentes": [
+        {
+          "id": "q04580",
+          "pergunta": "Que esporte é praticado nesta imagem?",
+          "resposta": "Surfe"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Quem é este ex-jogador de vôlei brasileiro?",
+        "resposta": "Giba"
+      },
+      "existentes": [
+        {
+          "id": "q01664",
+          "pergunta": "Este ex-ponteiro de vôlei foi campeão olímpico com a seleção brasileira em que ano?",
+          "resposta": "2004"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que edição dos Jogos Olímpicos este boxeador brasileiro conquistou a medalha de ouro?",
+        "resposta": "Rio 2016"
+      },
+      "existentes": [
+        {
+          "id": "q01981",
+          "pergunta": "O baiano Robson Conceição deu ao Brasil o primeiro ouro olímpico do boxe em que ano?",
+          "resposta": "2016"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em que ano este boxeador norte-americano ganhou a medalha de ouro olímpica?",
+        "resposta": "1960"
+      },
+      "existentes": [
+        {
+          "id": "q00539",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Muhammad Ali"
+        },
+        {
+          "id": "q01955",
+          "pergunta": "Aos doze anos, em Louisville, o futuro Muhammad Ali foi parar numa academia de boxe depois de que incidente?",
+          "resposta": "O roubo de sua bicicleta"
+        },
+        {
+          "id": "q06639",
+          "pergunta": "Ainda com o nome de Cassius Clay, Muhammad Ali ganhou a medalha de ouro olímpica em 1960, nos Jogos de que cidade?",
+          "resposta": "Roma"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q00524",
+      "motivo": "Mesma pergunta de identificação do estádio, mesma resposta Maracanã."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o esporte pela imagem é diferente do significado do nome ou do fundador."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q04588",
+      "motivo": "Identificação do esporte por imagem, mesma resposta Hóquei no gelo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a estreia olímpica do surfe; a existente só pede o nome do esporte."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Identificar o jogador é diferente do ano do ouro olímpico."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q01981",
+      "motivo": "Ambas perguntam o ano/edição do ouro olímpico de Robson Conceição (2016)."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "id_existente": "q06639",
+      "motivo": "O ano do ouro olímpico (1960) de Ali é o fato já contido na existente."
+    }
+  ]
+}

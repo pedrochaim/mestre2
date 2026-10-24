@@ -1,0 +1,176 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do estádio com o Maracanãzinho ao lado, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estádio brasileiro é este?",
+      "resposta": "Maracanã",
+      "destino": 0,
+      "ancora": {
+        "nome": "Maracanã",
+        "descricao": "Estádio de futebol no Rio de Janeiro, palco de Copas do Mundo e das cerimônias dos Jogos Olímpicos de 2016.",
+        "variantes": [
+          "Estádio Jornalista Mário Filho",
+          "Estádio do Maracanã"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Texto visível (USC, United Airlines Field) entrega a cidade e o local; plateia lotada com pessoas comuns."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Retrato informal sem contexto; o atleta não é reconhecível pela imagem para o público do jogo."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Combate de judô olímpico com kimonos e faixas, esporte inequívoco e sem texto que o entregue.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte olímpico é este?",
+      "resposta": "Judô",
+      "destino": 0,
+      "ancora": {
+        "nome": "Judô",
+        "descricao": "Arte marcial e esporte olímpico de origem japonesa, criado por Jigorō Kanō em 1882.",
+        "variantes": [
+          "Judo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Goleiro de hóquei no gelo com gol, disco e pista de gelo; esporte claro. Patrocínios não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte olímpico de inverno é este?",
+      "resposta": "Hóquei no gelo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Hóquei no gelo",
+        "descricao": "Esporte coletivo jogado sobre patins no gelo, em que times marcam gols com um disco de borracha.",
+        "variantes": [
+          "Hóquei sobre o gelo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Surfista numa onda, esporte claro e sem texto que entregue; pergunta sobre a estreia olímpica.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que edição dos Jogos Olímpicos este esporte estreou?",
+      "resposta": "Tóquio 2020",
+      "distratores": [
+        "Rio 2016",
+        "Londres 2012",
+        "Paris 2024"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Surfe",
+        "descricao": "Esporte aquático em que o atleta desliza sobre uma onda em pé numa prancha.",
+        "variantes": [
+          "Surf"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública brasileira do esporte, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este ex-jogador de vôlei brasileiro?",
+      "resposta": "Giba",
+      "distratores": [
+        "Nalbert",
+        "Gustavo Endres",
+        "Dante"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Giba",
+        "descricao": "Gilberto Amauri de Godoy Filho, ex-jogador brasileiro de vôlei, campeão olímpico em 2004.",
+        "variantes": [
+          "Gilberto Godoy Filho"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido de atleta olímpico brasileiro; apenas o boné com a bandeira, sem nome.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que edição dos Jogos Olímpicos este boxeador brasileiro conquistou a medalha de ouro?",
+      "resposta": "Rio 2016",
+      "distratores": [
+        "Londres 2012",
+        "Tóquio 2020",
+        "Pequim 2008"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Robson Conceição",
+        "descricao": "Boxeador brasileiro, campeão olímpico em 2016 e primeiro brasileiro a ganhar ouro no boxe.",
+        "variantes": [
+          "Robson Donato Conceição"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato histórico famoso, sem texto, reconhecível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este boxeador ganhou a medalha de ouro olímpica, ainda como Cassius Clay?",
+      "resposta": "1960",
+      "distratores": [
+        "1956",
+        "1964",
+        "1968"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Muhammad Ali",
+        "descricao": "Boxeador norte-americano, campeão olímpico em 1960 e campeão mundial dos pesos-pesados.",
+        "variantes": [
+          "Cassius Clay"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O número de peito mostra o sobrenome KIPCHOGE, que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto publicitária antiga; o rosto não basta para reconhecer, e as perguntas possíveis seriam respondíveis sem a imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A caixa de areia serve também ao salto triplo, então a prova não é única; o número de peito e 'Don Valley Stadium Sheffield' são texto visível e há pessoas comuns ao fundo."
+    }
+  ]
+}
