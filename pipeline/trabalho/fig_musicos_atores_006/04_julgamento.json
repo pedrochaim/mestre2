@@ -1,0 +1,663 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Justin Bieber",
+        "descricao": "Cantor canadense de pop, revelado no fim dos anos 2000.",
+        "variantes": [
+          "Justin Drew Bieber"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "stan_lee",
+          "nome": "Stan Lee",
+          "descricao": "Roteirista e editor americano da Marvel, cocriador do Homem-Aranha, do Hulk e do Quarteto Fantástico",
+          "variantes": [
+            "Stanley Lieber"
+          ]
+        },
+        {
+          "id": "justiniano_i",
+          "nome": "Justiniano I",
+          "descricao": "Imperador romano do Oriente (bizantino) de 527 a 565, retratado no mosaico da basílica de San Vitale, em Ravena.",
+          "variantes": [
+            "Justiniano, o Grande",
+            "Justiniano"
+          ]
+        },
+        {
+          "id": "usina_de_battersea",
+          "nome": "Usina de Battersea",
+          "descricao": "Antiga usina termelétrica a carvão às margens do rio Tâmisa, em Londres, famosa por suas quatro chaminés.",
+          "variantes": [
+            "Battersea Power Station"
+          ]
+        },
+        {
+          "id": "justiceiro",
+          "nome": "Justiceiro",
+          "descricao": "Frank Castle, anti-herói da Marvel que combate o crime com armas e usa uma caveira no peito",
+          "variantes": [
+            "The Punisher",
+            "Frank Castle"
+          ]
+        },
+        {
+          "id": "chupeta",
+          "nome": "Chupeta",
+          "descricao": "Bico de silicone ou borracha dado a bebês para sugar e acalmá-los.",
+          "variantes": [
+            "Chupeta de bebê",
+            "Pacifier"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tarcísio Meira",
+        "descricao": "Ator brasileiro (1935–2021), um dos primeiros contratados da TV Globo.",
+        "variantes": [
+          "Tarcísio Pereira de Magalhães Sobrinho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_madeira",
+          "nome": "Rio Madeira",
+          "descricao": "Grande afluente da margem direita do rio Amazonas, que banha Porto Velho, em Rondônia.",
+          "variantes": [
+            "Madeira",
+            "Madeira River"
+          ]
+        },
+        {
+          "id": "tarsio",
+          "nome": "Társio",
+          "descricao": "Pequeno primata noturno do Sudeste Asiático, de olhos enormes, família Tarsiidae.",
+          "variantes": [
+            "Tarsier"
+          ]
+        },
+        {
+          "id": "truco",
+          "nome": "Truco",
+          "descricao": "Jogo de cartas de blefe, muito popular no Brasil, jogado com baralho sem oitos, noves e dez.",
+          "variantes": [
+            "Truco mineiro",
+            "Truco paulista",
+            "Truque"
+          ]
+        },
+        {
+          "id": "turcomenistao",
+          "nome": "Turcomenistão",
+          "descricao": "País sem litoral oceânico da Ásia Central, à margem do Mar Cáspio, com capital em Asgabate.",
+          "variantes": [
+            "Turquemenistão",
+            "Turcomênia"
+          ]
+        },
+        {
+          "id": "abelha",
+          "nome": "Abelha",
+          "descricao": "Abelha-europeia (Apis mellifera), inseto social produtor de mel e polinizador.",
+          "variantes": [
+            "Abelha-europeia",
+            "Apis mellifera",
+            "abelha-melífera"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Martinho da Vila",
+        "descricao": "Cantor, compositor e percussionista brasileiro, pioneiro do samba e da MPB, nascido em 1938.",
+        "variantes": [
+          "Martinho José Ferreira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paulinho_da_viola",
+          "nome": "Paulinho da Viola",
+          "descricao": "Sambista, cantor e compositor carioca, ligado à Portela, nascido Paulo César Batista de Faria.",
+          "variantes": [
+            "Paulo César Batista de Faria"
+          ]
+        },
+        {
+          "id": "sotaque_manezinho",
+          "nome": "Sotaque manezinho",
+          "descricao": "Falar típico dos nativos de Florianópolis, marcado pela herança açoriana",
+          "variantes": [
+            "Dialeto florianopolitano",
+            "Manezinho da Ilha"
+          ]
+        },
+        {
+          "id": "rio_roosevelt",
+          "nome": "Rio Roosevelt",
+          "descricao": "Afluente do rio Aripuanã, na Amazônia brasileira, antes chamado rio da Dúvida.",
+          "variantes": [
+            "Rio da Dúvida",
+            "Roosevelt River"
+          ]
+        },
+        {
+          "id": "martinho_de_dume",
+          "nome": "Martinho de Dume",
+          "descricao": "Bispo de Dume e de Braga no século seis, que evangelizou os suevos na Galécia.",
+          "variantes": [
+            "São Martinho de Braga",
+            "Martin of Braga"
+          ]
+        },
+        {
+          "id": "martina_navratilova",
+          "nome": "Martina Navratilova",
+          "descricao": "Tenista nascida em 1956 em Praga e naturalizada americana, campeã de 18 Grand Slams em simples.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Denzel Washington",
+        "descricao": "Ator e produtor americano, vencedor de dois Oscars, nascido em 1954.",
+        "variantes": [
+          "Denzel Hayes Washington Jr."
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "george_washington",
+          "nome": "George Washington",
+          "descricao": "Comandante do Exército Continental e primeiro presidente dos Estados Unidos, de 1789 a 1797.",
+          "variantes": [
+            "Washington"
+          ]
+        },
+        {
+          "id": "washington_d_c",
+          "nome": "Washington, D.C.",
+          "descricao": "Capital federal dos Estados Unidos, situada no Distrito de Colúmbia.",
+          "variantes": [
+            "Washington",
+            "Distrito de Colúmbia",
+            "District of Columbia"
+          ]
+        },
+        {
+          "id": "monumento_a_washington",
+          "nome": "Monumento a Washington",
+          "descricao": "Obelisco de mármore no National Mall, em Washington, D.C., em homenagem a George Washington, concluído em 1884.",
+          "variantes": [
+            "Washington Monument"
+          ]
+        },
+        {
+          "id": "laranja_de_umbigo",
+          "nome": "Laranja-de-umbigo",
+          "descricao": "Variedade de laranja sem sementes, com um segundo fruto rudimentar na ponta, surgida no Brasil",
+          "variantes": [
+            "Laranja-baía",
+            "Laranja-da-baía",
+            "Washington navel",
+            "Navel orange"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Paulo Autran",
+        "descricao": "Ator brasileiro de teatro e cinema (1922–2007).",
+        "variantes": [
+          "Paulo Paquet Autran"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aurora_polar",
+          "nome": "Aurora polar",
+          "descricao": "Fenômeno luminoso no céu das regiões polares, chamado de aurora boreal no norte e de aurora austral no sul.",
+          "variantes": [
+            "Aurora boreal",
+            "Aurora austral",
+            "Aurora"
+          ]
+        },
+        {
+          "id": "paul_gauguin",
+          "nome": "Paul Gauguin",
+          "descricao": "Pintor pós-impressionista francês, que viveu de 1848 a 1903 e passou seus últimos anos na Polinésia Francesa.",
+          "variantes": [
+            "Eugène Henri Paul Gauguin"
+          ]
+        },
+        {
+          "id": "camelo",
+          "nome": "Camelo",
+          "descricao": "Mamíferos do gênero Camelus, adaptados a desertos e com corcovas nas costas.",
+          "variantes": [
+            "Camelus",
+            "Camel",
+            "Dromedário",
+            "Camelo-bactriano"
+          ]
+        },
+        {
+          "id": "azul_ultramarino",
+          "nome": "Azul ultramarino",
+          "descricao": "Pigmento azul intenso, caríssimo na pintura medieval e renascentista, obtido originalmente de uma pedra do Afeganistão.",
+          "variantes": [
+            "Ultramarino",
+            "Ultramarine"
+          ]
+        },
+        {
+          "id": "camelo_bactriano",
+          "nome": "Camelo-bactriano",
+          "descricao": "Camelo de duas corcovas (Camelus bactrianus), das estepes e desertos frios da Ásia Central.",
+          "variantes": [
+            "Camelus bactrianus",
+            "Bactrian camel",
+            "Camelo-de-duas-corcovas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Ed Sheeran",
+        "descricao": "Cantor e compositor inglês nascido em 1991.",
+        "variantes": [
+          "Edward Christopher Sheeran"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mar_vermelho",
+          "nome": "Mar Vermelho",
+          "descricao": "Braço do oceano Índico entre a península Arábica e o nordeste da África, ligado ao Mediterrâneo pelo canal de Suez.",
+          "variantes": [
+            "Red Sea"
+          ]
+        },
+        {
+          "id": "tanque_m4_sherman",
+          "nome": "Tanque M4 Sherman",
+          "descricao": "Tanque médio americano, o mais usado pelos Aliados ocidentais na Segunda Guerra Mundial.",
+          "variantes": [
+            "Sherman",
+            "M4"
+          ]
+        },
+        {
+          "id": "mar_morto",
+          "nome": "Mar Morto",
+          "descricao": "Lago salgado entre Israel, a Cisjordânia e a Jordânia, alimentado pelo rio Jordão.",
+          "variantes": [
+            "Dead Sea",
+            "Mar Salgado"
+          ]
+        },
+        {
+          "id": "cervo_vermelho",
+          "nome": "Cervo-vermelho",
+          "descricao": "Grande cervídeo (Cervus elaphus) da Europa e do oeste da Ásia; o macho tem galhada ramificada.",
+          "variantes": [
+            "Veado-vermelho",
+            "Cervus elaphus",
+            "Red deer"
+          ]
+        },
+        {
+          "id": "enderman",
+          "nome": "Enderman",
+          "descricao": "Criatura alta e preta do jogo Minecraft que teletransporta e pega blocos.",
+          "variantes": [
+            "Enderman do Minecraft"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Emicida",
+        "descricao": "Rapper, cantor e compositor brasileiro nascido em 1985.",
+        "variantes": [
+          "Leandro Roque de Oliveira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "emilia",
+          "nome": "Emília",
+          "descricao": "Boneca de pano falante do Sítio do Picapau Amarelo, de Monteiro Lobato.",
+          "variantes": [
+            "Boneca Emília"
+          ]
+        },
+        {
+          "id": "jair_rodrigues",
+          "nome": "Jair Rodrigues",
+          "descricao": "Cantor brasileiro (1939–2014), pai dos músicos Luciana Mello e Jair Oliveira.",
+          "variantes": [
+            "Jair Rodrigues de Oliveira"
+          ]
+        },
+        {
+          "id": "equidna",
+          "nome": "Equidna",
+          "descricao": "Mamífero monotremado coberto de espinhos da família Tachyglossidae, da Austrália e Nova Guiné.",
+          "variantes": [
+            "Echidna",
+            "Tachyglossidae",
+            "Tamanduá-espinhoso"
+          ]
+        },
+        {
+          "id": "hemacia",
+          "nome": "Hemácia",
+          "descricao": "Célula do sangue em forma de disco bicôncavo que transporta oxigênio por meio da hemoglobina.",
+          "variantes": [
+            "Glóbulo vermelho",
+            "Eritrócito"
+          ]
+        },
+        {
+          "id": "dormideira",
+          "nome": "Dormideira",
+          "descricao": "Mimosa pudica, planta rasteira da família das leguminosas cujas folhas se fecham ao toque.",
+          "variantes": [
+            "Sensitiva",
+            "Mimosa pudica",
+            "Malícia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Gugu Liberato",
+        "descricao": "Apresentador de TV brasileiro (1959–2019).",
+        "variantes": [
+          "Gugu",
+          "Antônio Augusto de Moraes Liberato"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gustavo_kuerten",
+          "nome": "Gustavo Kuerten",
+          "descricao": "Tenista brasileiro tricampeão de Roland Garros, o Guga.",
+          "variantes": [
+            "Guga"
+          ]
+        },
+        {
+          "id": "baiacu",
+          "nome": "Baiacu",
+          "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+          "variantes": [
+            "Peixe-balão",
+            "Tetraodontidae",
+            "Fugu"
+          ]
+        },
+        {
+          "id": "fugu",
+          "nome": "Fugu",
+          "descricao": "Prato japonês de baiacu, peixe que contém uma toxina mortal e exige preparo especializado.",
+          "variantes": [
+            "Baiacu japonês"
+          ]
+        },
+        {
+          "id": "googol",
+          "nome": "Googol",
+          "descricao": "Nome do número formado pelo algarismo um seguido de cem zeros.",
+          "variantes": [
+            "Gugol"
+          ]
+        },
+        {
+          "id": "gulag",
+          "nome": "Gulag",
+          "descricao": "Órgão soviético que administrava a rede de campos de trabalho forçado da União Soviética, sobretudo sob Stálin.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Keith Richards",
+        "descricao": "Guitarrista e compositor inglês, membro original dos Rolling Stones.",
+        "variantes": [
+          "Keith Richard"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "king_richard_criando_campeas",
+          "nome": "King Richard: Criando Campeãs",
+          "descricao": "Filme americano de 2021 sobre Richard Williams, estrelado por Will Smith.",
+          "variantes": [
+            "King Richard"
+          ]
+        },
+        {
+          "id": "sergio_ricardo",
+          "nome": "Sérgio Ricardo",
+          "descricao": "Cantor, compositor e cineasta paulista, autor de trilhas de filmes de Glauber Rocha, morto em 2020.",
+          "variantes": [
+            "João Lutfi"
+          ]
+        },
+        {
+          "id": "lago_chade",
+          "nome": "Lago Chade",
+          "descricao": "Lago de água doce no centro-oeste da África, na junção de Nigéria, Níger, Chade e Camarões, que encolheu muito desde 1960.",
+          "variantes": [
+            "Lago Tchad",
+            "Lake Chad"
+          ]
+        },
+        {
+          "id": "keiko",
+          "nome": "Keiko",
+          "descricao": "Orca macho que estrelou o filme Free Willy, de 1993, e depois foi reintroduzida no mar.",
+          "variantes": [
+            "Keiko (orca)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Eva Wilma",
+        "descricao": "Atriz e dançarina brasileira (1933–2021).",
+        "variantes": [
+          "Eva Wilma Riefle Buckup"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "erva_mate",
+          "nome": "Erva-mate",
+          "descricao": "Árvore sul-americana Ilex paraguariensis, cujas folhas são usadas no chimarrão e no tereré",
+          "variantes": [
+            "Ilex paraguariensis",
+            "mate",
+            "yerba mate"
+          ]
+        },
+        {
+          "id": "baunilha",
+          "nome": "Baunilha",
+          "descricao": "Especiaria aromática obtida das vagens curadas de plantas do gênero Vanilla",
+          "variantes": [
+            "Vanilla",
+            "Vanilla planifolia"
+          ]
+        },
+        {
+          "id": "variola",
+          "nome": "Varíola",
+          "descricao": "Doença infecciosa causada pelo vírus variola, erradicada após campanha mundial de vacinação.",
+          "variantes": [
+            "Smallpox",
+            "Bexiga"
+          ]
+        },
+        {
+          "id": "ervilha",
+          "nome": "Ervilha",
+          "descricao": "Planta leguminosa Pisum sativum, de sementes redondas comestíveis",
+          "variantes": [
+            "Pisum sativum"
+          ]
+        },
+        {
+          "id": "karl_malone",
+          "nome": "Karl Malone",
+          "descricao": "Ala-pivô americano que jogou 18 temporadas pelo Utah Jazz, parceiro de John Stockton.",
+          "variantes": [
+            "The Mailman"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Tom Cruise",
+        "descricao": "Ator e produtor americano nascido em 1962.",
+        "variantes": [
+          "Thomas Cruise Mapother IV"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "trypanosoma_cruzi",
+          "nome": "Trypanosoma cruzi",
+          "descricao": "Protozoário causador da doença de Chagas, descrito por Carlos Chagas em 1909.",
+          "variantes": [
+            "T. cruzi"
+          ]
+        },
+        {
+          "id": "lord_voldemort",
+          "nome": "Lord Voldemort",
+          "descricao": "Vilão principal da saga Harry Potter, bruxo das trevas sem nariz.",
+          "variantes": [
+            "Voldemort",
+            "Tom Riddle",
+            "Tom Marvolo Riddle"
+          ]
+        },
+        {
+          "id": "thomas_more",
+          "nome": "Thomas More",
+          "descricao": "Humanista, estadista e santo inglês (1478–1535), autor de Utopia, executado por ordem de Henrique oitavo.",
+          "variantes": [
+            "Tomás Morus",
+            "São Tomás More",
+            "Sir Thomas More"
+          ]
+        },
+        {
+          "id": "as_bruxas_de_salem",
+          "nome": "As Bruxas de Salem",
+          "descricao": "Peça de Arthur Miller, de 1953, sobre os julgamentos de bruxaria de Salem, em Massachusetts, em 1692.",
+          "variantes": [
+            "The Crucible",
+            "O Caldeirão"
+          ]
+        },
+        {
+          "id": "santo_crisma",
+          "nome": "Santo crisma",
+          "descricao": "Óleo consagrado usado em ritos cristãos como o batismo, a crisma e a ordenação",
+          "variantes": [
+            "Crisma (óleo)",
+            "Óleo do crisma",
+            "Chrism",
+            "Mirão"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Justin Bieber."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o ator Tarcísio Meira."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Paulinho da Viola é outro sambista; as demais não correspondem."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Denzel Washington é pessoa distinta de George Washington e dos demais."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Paulo Autran."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Ed Sheeran."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Emicida."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Gugu Liberato é distinto de Guga Kuerten e das demais."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Keith Richards."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Eva Wilma."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Tom Cruise."
+    }
+  ]
+}

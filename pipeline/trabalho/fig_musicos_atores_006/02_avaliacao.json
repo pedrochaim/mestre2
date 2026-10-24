@@ -1,0 +1,218 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clara de Justin Bieber em show, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que empresário americano descobriu este cantor e o levou à fama?",
+      "resposta": "Scooter Braun",
+      "ancora": {
+        "nome": "Justin Bieber",
+        "descricao": "Cantor canadense de pop, revelado no fim dos anos 2000.",
+        "variantes": [
+          "Justin Drew Bieber"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco, de figura pública, sem texto relevante.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Com que atriz este ator brasileiro foi casado por décadas, formando um dos casais mais famosos da TV?",
+      "resposta": "Glória Menezes",
+      "ancora": {
+        "nome": "Tarcísio Meira",
+        "descricao": "Ator brasileiro (1935–2021), um dos primeiros contratados da TV Globo.",
+        "variantes": [
+          "Tarcísio Pereira de Magalhães Sobrinho"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Martinho da Vila, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cantor e compositor brasileiro é este?",
+      "resposta": "Martinho da Vila",
+      "ancora": {
+        "nome": "Martinho da Vila",
+        "descricao": "Cantor, compositor e percussionista brasileiro, pioneiro do samba e da MPB, nascido em 1938.",
+        "variantes": [
+          "Martinho José Ferreira"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Denzel Washington, sem texto.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que série médica da NBC este ator ganhou destaque nos anos oitenta?",
+      "resposta": "St. Elsewhere",
+      "ancora": {
+        "nome": "Denzel Washington",
+        "descricao": "Ator e produtor americano, vencedor de dois Oscars, nascido em 1954.",
+        "variantes": [
+          "Denzel Hayes Washington Jr."
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem pequena, mas legível; rosto de figura pública sem texto.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ator brasileiro de teatro, cinema e TV é este?",
+      "resposta": "Paulo Autran",
+      "distratores": [
+        "Raul Cortez",
+        "Sérgio Brito",
+        "Procópio Ferreira"
+      ],
+      "ancora": {
+        "nome": "Paulo Autran",
+        "descricao": "Ator brasileiro de teatro e cinema (1922–2007).",
+        "variantes": [
+          "Paulo Paquet Autran"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto clara de Ed Sheeran; fundo com texto borrado e ilegível que não entrega o nome.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que canção deste cantor inglês ganhou o Grammy de Canção do Ano?",
+      "resposta": "Thinking Out Loud",
+      "ancora": {
+        "nome": "Ed Sheeran",
+        "descricao": "Cantor e compositor inglês nascido em 1991.",
+        "variantes": [
+          "Edward Christopher Sheeran"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de Emicida em show; a estampa da camiseta não traz texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que rapper brasileiro é este?",
+      "resposta": "Emicida",
+      "ancora": {
+        "nome": "Emicida",
+        "descricao": "Rapper, cantor e compositor brasileiro nascido em 1985.",
+        "variantes": [
+          "Leandro Roque de Oliveira"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto de baixa resolução, desfocada, com chapéu e microfone cobrindo o rosto; não dá para reconhecer o ator."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato claro de Gugu Liberato, sem texto.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que apresentador brasileiro de TV é este?",
+      "resposta": "Gugu Liberato",
+      "ancora": {
+        "nome": "Gugu Liberato",
+        "descricao": "Apresentador de TV brasileiro (1959–2019).",
+        "variantes": [
+          "Gugu",
+          "Antônio Augusto de Moraes Liberato"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Keith Richards em primeiro plano, claro e reconhecível; pessoas ao fundo estão desfocadas e em segundo plano; sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que banda inglesa este guitarrista é um dos membros originais?",
+      "resposta": "The Rolling Stones",
+      "distratores": [
+        "The Who",
+        "The Kinks",
+        "The Animals"
+      ],
+      "ancora": {
+        "nome": "Keith Richards",
+        "descricao": "Guitarrista e compositor inglês, membro original dos Rolling Stones.",
+        "variantes": [
+          "Keith Richard"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato claro de Eva Wilma, sem texto.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que série brasileira dos anos cinquenta esta atriz estrelou?",
+      "resposta": "Alô, Doçura!",
+      "ancora": {
+        "nome": "Eva Wilma",
+        "descricao": "Atriz e dançarina brasileira (1933–2021).",
+        "variantes": [
+          "Eva Wilma Riefle Buckup"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato claro de Tom Cruise; ao fundo só letras parciais de um logotipo, que não entregam o nome.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ator americano é este?",
+      "resposta": "Tom Cruise",
+      "ancora": {
+        "nome": "Tom Cruise",
+        "descricao": "Ator e produtor americano nascido em 1962.",
+        "variantes": [
+          "Thomas Cruise Mapother IV"
+        ]
+      }
+    }
+  ]
+}
