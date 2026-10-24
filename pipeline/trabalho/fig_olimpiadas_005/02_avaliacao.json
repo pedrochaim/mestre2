@@ -1,0 +1,148 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Combate de taekwondo com protetores e capacetes, aros olímpicos no tatame; sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que modalidade olímpica de luta é esta?",
+      "resposta": "Taekwondo",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Taekwondo",
+        "descricao": "Arte marcial e esporte de combate coreano, baseado em chutes, modalidade olímpica.",
+        "variantes": [
+          "Tae kwon do"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Remadores comuns treinando num lago com vilarejo ao fundo; contexto amador, não identifica claramente a modalidade olímpica e há pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Faixa com 'ANZ STADIUM' em destaque na fachada entrega a resposta e não pode ser cortada sem estragar a imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Cena de formação (scrum) que não permite distinguir o rugby de sete do rugby union; resposta não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto noturna da pira e fogos de artifício; a entidade (estádio de Atenas) não é reconhecível pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem texto que entregue o nome.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade brasileira nasceu este ex-jogador, maior pontuador da história olímpica?",
+      "resposta": "Natal",
+      "distratores": [
+        "Recife",
+        "Fortaleza",
+        "Salvador"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Oscar Schmidt",
+        "descricao": "Ex-jogador brasileiro de basquete, apelidado Mão Santa, maior pontuador da história dos Jogos Olímpicos.",
+        "variantes": [
+          "Mão Santa"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato de atleta público com a camisa do Brasil; sem nome visível.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que edição dos Jogos Olímpicos este mesário brasileiro terminou em quarto lugar no individual?",
+      "resposta": "Paris 2024",
+      "distratores": [
+        "Tóquio 2020",
+        "Rio 2016",
+        "Londres 2012"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hugo Calderano",
+        "descricao": "Mesa-tenista brasileiro, número 2 do mundo e quarto colocado nos Jogos Olímpicos de Paris 2024.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Faixa ao fundo com 'WORLD CUP SHORT TRACK' entrega a resposta, e há textos de países."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Número de peito com 'DOS SANTOS' entrega o nome do atleta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública com uniforme do Brasil; sem nome visível.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que edição dos Jogos Olímpicos este técnico brasileiro conquistou seu primeiro ouro?",
+      "resposta": "Atenas 2004",
+      "distratores": [
+        "Sydney 2000",
+        "Pequim 2008",
+        "Londres 2012"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bernardinho",
+        "descricao": "Bernardo Rezende, técnico brasileiro de vôlei, campeão olímpico em Atenas 2004 e Rio 2016.",
+        "variantes": [
+          "Bernardo Rezende"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública; os logotipos de fundo não trazem o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que nadadora norte-americana é esta?",
+      "resposta": "Katie Ledecky",
+      "distratores": [
+        "Missy Franklin",
+        "Simone Manuel",
+        "Allison Schmitt"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Katie Ledecky",
+        "descricao": "Nadadora norte-americana, a mulher com mais medalhas olímpicas na natação.",
+        "variantes": [
+          "Kathleen Ledecky"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto pequena e de baixa qualidade, com outras pessoas cortadas nas bordas; o atleta não é reconhecível."
+    }
+  ]
+}

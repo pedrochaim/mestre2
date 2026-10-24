@@ -1,0 +1,249 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Taekwondo",
+        "descricao": "Arte marcial e esporte de combate coreano, baseado em chutes, modalidade olímpica.",
+        "variantes": [
+          "Tae kwon do"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taekwondo",
+          "nome": "Taekwondo",
+          "descricao": "Arte marcial coreana conhecida pelos chutes altos e giratórios.",
+          "variantes": [
+            "Tae kwon do"
+          ]
+        },
+        {
+          "id": "ventos_alisios",
+          "nome": "Ventos alísios",
+          "descricao": "Ventos constantes que sopram dos trópicos em direção ao equador",
+          "variantes": [
+            "Alísios",
+            "Trade winds"
+          ]
+        },
+        {
+          "id": "akebono",
+          "nome": "Akebono",
+          "descricao": "Lutador de sumô nascido nos Estados Unidos, primeiro yokozuna nascido fora do Japão, em 1993.",
+          "variantes": [
+            "Akebono Tarō",
+            "Chad Rowan"
+          ]
+        },
+        {
+          "id": "macondo",
+          "nome": "Macondo",
+          "descricao": "Cidade fictícia criada por Gabriel García Márquez, cenário de Cem Anos de Solidão.",
+          "variantes": []
+        },
+        {
+          "id": "amendoeira",
+          "nome": "Amendoeira",
+          "descricao": "Árvore Prunus dulcis, da família das rosáceas, cuja semente é a amêndoa.",
+          "variantes": [
+            "Amêndoa",
+            "Prunus dulcis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Oscar Schmidt",
+        "descricao": "Ex-jogador brasileiro de basquete, apelidado Mão Santa, maior pontuador da história dos Jogos Olímpicos.",
+        "variantes": [
+          "Mão Santa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oscar_schmidt",
+          "nome": "Oscar Schmidt",
+          "descricao": "Jogador brasileiro de basquete, o Mão Santa.",
+          "variantes": [
+            "Mão Santa"
+          ]
+        },
+        {
+          "id": "bruno_schmidt",
+          "nome": "Bruno Schmidt",
+          "descricao": "Jogador brasileiro de vôlei de praia, campeão olímpico com Alison em 2016.",
+          "variantes": [
+            "Bruno Oscar Schmidt"
+          ]
+        },
+        {
+          "id": "mao",
+          "nome": "Mão",
+          "descricao": "Extremidade do membro superior humano, formada por punho, palma e dedos.",
+          "variantes": [
+            "Mão humana"
+          ]
+        },
+        {
+          "id": "raia_manta",
+          "nome": "Raia-manta",
+          "descricao": "Grande raia do gênero Mobula (antes Manta), de corpo em losango e nadadeiras cefálicas, que se alimenta de plâncton.",
+          "variantes": [
+            "Jamanta",
+            "Manta",
+            "Manta ray"
+          ]
+        },
+        {
+          "id": "oskar_schindler",
+          "nome": "Oskar Schindler",
+          "descricao": "Industrial alemão que salvou cerca de 1.200 judeus do Holocausto empregando-os em suas fábricas.",
+          "variantes": [
+            "Schindler"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Hugo Calderano",
+        "descricao": "Mesa-tenista brasileiro, número 2 do mundo e quarto colocado nos Jogos Olímpicos de Paris 2024.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "hugo_calderano",
+          "nome": "Hugo Calderano",
+          "descricao": "Mesa-tenista brasileiro, campeão da Copa do Mundo de 2025 e quarto colocado nos Jogos Olímpicos.",
+          "variantes": [
+            "Hugo Marinho Borges Calderano"
+          ]
+        },
+        {
+          "id": "as_bruxas_de_salem",
+          "nome": "As Bruxas de Salem",
+          "descricao": "Peça de Arthur Miller, de 1953, sobre os julgamentos de bruxaria de Salem, em Massachusetts, em 1692.",
+          "variantes": [
+            "The Crucible",
+            "O Caldeirão"
+          ]
+        },
+        {
+          "id": "homo_sapiens",
+          "nome": "Homo sapiens",
+          "descricao": "Espécie humana moderna, a única do gênero Homo ainda viva.",
+          "variantes": [
+            "Ser humano",
+            "Humano moderno",
+            "Human",
+            "Ser humano moderno"
+          ]
+        },
+        {
+          "id": "lago_de_genebra",
+          "nome": "Lago de Genebra",
+          "descricao": "Grande lago alpino na fronteira entre a Suíça e a França, às margens do qual fica a cidade de Genebra.",
+          "variantes": [
+            "Lago Léman",
+            "Lago Lemano",
+            "Lake Geneva",
+            "Lac Léman"
+          ]
+        },
+        {
+          "id": "os_candangos",
+          "nome": "Os Candangos",
+          "descricao": "Escultura de bronze de Bruno Giorgi, oficialmente chamada Os Guerreiros, na Praça dos Três Poderes, em Brasília.",
+          "variantes": [
+            "Os Guerreiros"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bernardinho",
+        "descricao": "Bernardo Rezende, técnico brasileiro de vôlei, campeão olímpico em Atenas 2004 e Rio 2016.",
+        "variantes": [
+          "Bernardo Rezende"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bernardinho",
+          "nome": "Bernardinho",
+          "descricao": "Técnico brasileiro de vôlei, campeão olímpico com a seleção masculina em 2004 e 2016.",
+          "variantes": [
+            "Bernardo Rezende",
+            "Bernardo Rocha de Rezende"
+          ]
+        },
+        {
+          "id": "bruninho",
+          "nome": "Bruninho",
+          "descricao": "Levantador brasileiro de vôlei, campeão olímpico nos Jogos do Rio em 2016.",
+          "variantes": [
+            "Bruno Rezende",
+            "Bruno Mossa de Rezende"
+          ]
+        },
+        {
+          "id": "penadinho",
+          "nome": "Penadinho",
+          "descricao": "Fantasminha amigo da Turma da Mônica que mora num cemitério, criado por Mauricio de Sousa.",
+          "variantes": [
+            "Penadinho Penoso Penado"
+          ]
+        },
+        {
+          "id": "bernard_rajzman",
+          "nome": "Bernard Rajzman",
+          "descricao": "Ex-jogador brasileiro de vôlei, medalha de prata nos Jogos de Los Angeles em 1984.",
+          "variantes": [
+            "Bernard"
+          ]
+        },
+        {
+          "id": "ronaldinho_gaucho",
+          "nome": "Ronaldinho Gaúcho",
+          "descricao": "Ronaldo de Assis Moreira, meia-atacante brasileiro do Barcelona, campeão mundial em 2002.",
+          "variantes": [
+            "Ronaldinho",
+            "Ronaldo de Assis Moreira"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "taekwondo",
+      "motivo": "Mesma arte marcial coreana."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "oscar_schmidt",
+      "motivo": "Mesmo jogador de basquete, Mão Santa."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "hugo_calderano",
+      "motivo": "Mesmo mesa-tenista brasileiro."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "bernardinho",
+      "motivo": "Mesmo técnico de vôlei Bernardo Rezende."
+    }
+  ]
+}

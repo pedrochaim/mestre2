@@ -1,0 +1,103 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que modalidade olímpica de luta é esta?",
+        "resposta": "Taekwondo"
+      },
+      "existentes": [
+        {
+          "id": "q06663",
+          "pergunta": "Que três ideias se juntam no nome coreano da arte marcial taekwondo?",
+          "resposta": "Pé, punho e caminho"
+        },
+        {
+          "id": "q06929",
+          "pergunta": "Que arte marcial olímpica está sendo praticada neste combate?",
+          "resposta": "Taekwondo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade brasileira nasceu este ex-jogador de basquete?",
+        "resposta": "Natal"
+      },
+      "existentes": [
+        {
+          "id": "q00535",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Oscar Schmidt"
+        },
+        {
+          "id": "q01774",
+          "pergunta": "Oscar Schmidt recusou a NBA em 1984 para seguir na seleção brasileira. Até 1989, o que a liga proibia seus jogadores de fazer?",
+          "resposta": "Defender suas seleções nacionais"
+        },
+        {
+          "id": "q01775",
+          "pergunta": "Em 1984, qual time da NBA escolheu Oscar Schmidt no draft?",
+          "resposta": "New Jersey Nets"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que edição dos Jogos Olímpicos este mesa-tenista brasileiro terminou em quarto lugar no individual?",
+        "resposta": "Paris 2024"
+      },
+      "existentes": [
+        {
+          "id": "q02574",
+          "pergunta": "Que mesa-tenista brasileiro é este?",
+          "resposta": "Hugo Calderano"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que edição dos Jogos Olímpicos este técnico brasileiro conquistou seu primeiro ouro?",
+        "resposta": "Atenas 2004"
+      },
+      "existentes": [
+        {
+          "id": "q01701",
+          "pergunta": "Antes de ser campeão olímpico como técnico, Bernardinho subiu ao pódio olímpico como levantador. Em que edição dos Jogos?",
+          "resposta": "Los Angeles 1984"
+        },
+        {
+          "id": "q07121",
+          "pergunta": "Antes de assumir a seleção masculina, Bernardinho conquistou duas medalhas de bronze olímpicas como técnico de que equipe?",
+          "resposta": "Seleção feminina brasileira"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificar a arte marcial olímpica (taekwondo) na imagem, resposta idêntica a q06929.",
+      "id_existente": "q06929"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cidade de nascimento é um fato diferente de identidade, NBA ou draft."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Edição olímpica do quarto lugar é fato distinto da identificação do atleta."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Edição do primeiro ouro como técnico é diferente dos fatos existentes (pódio como levantador, bronzes como técnico da seleção feminina)."
+    }
+  ]
+}

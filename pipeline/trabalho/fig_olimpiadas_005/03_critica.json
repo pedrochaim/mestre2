@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto. 'Modalidade olímpica de luta' não entrega a resposta, porque há várias lutas olímpicas. A resposta é única diante da imagem e os trechos confirmam que é modalidade olímpica.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta: 'maior pontuador da história olímpica' é um feito único que identifica Oscar Schmidt sem olhar a figura. Basta tirar a pista. O local de nascimento (Natal) está nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que cidade brasileira nasceu este ex-jogador de basquete?",
+        "resposta": "Natal",
+        "distratores": [
+          "Recife",
+          "Fortaleza",
+          "Salvador"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mesário' é erro de vocabulário: designa quem trabalha em eleições, e o termo correto é 'mesa-tenista'. O quarto lugar em Paris 2024 está nos trechos. Em Tóquio 2020 ele parou nas quartas, então os distratores continuam válidos.",
+      "reescrita": {
+        "pergunta": "Em que edição dos Jogos Olímpicos este mesa-tenista brasileiro terminou em quarto lugar no individual?",
+        "resposta": "Paris 2024",
+        "distratores": [
+          "Tóquio 2020",
+          "Rio 2016",
+          "Londres 2012"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos mostram que os ouros vieram em 2004 e 2016, então o primeiro foi em Atenas 2004. Os bronzes de 1996 e 2000 foram como técnico da seleção feminina, então 'primeiro ouro' é literalmente verdadeiro. O enunciado não entrega a identidade e os distratores não estão corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identidade em múltipla escolha, sem pista no enunciado além de 'nadadora norte-americana'. Os distratores são nadadoras americanas críveis, com no máximo 4 palavras, e nenhuma é a da imagem.",
+      "reescrita": null
+    }
+  ]
+}
