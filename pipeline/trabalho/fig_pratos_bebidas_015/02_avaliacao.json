@@ -1,0 +1,179 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Frango frito empanado, claro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que prato é este?",
+      "resposta": "Frango frito",
+      "destino": 0,
+      "ancora": {
+        "nome": "Frango frito",
+        "descricao": "Prato de pedaços de frango empanados ou cobertos de massa e fritos até ficarem crocantes.",
+        "variantes": [
+          "Frango frito à moda do sul dos EUA",
+          "Fried chicken"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano (homens à esquerda) na cena do restaurante."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Gulab jamun em calda com lascas de amêndoa, bem visível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que doce indiano é este?",
+      "resposta": "Gulab jamun",
+      "destino": 0,
+      "ancora": {
+        "nome": "Gulab jamun",
+        "descricao": "Doce indiano de bolinhos de leite em pó ou khoya fritos e servidos em calda de açúcar.",
+        "variantes": [
+          "Gulabjamun"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A imagem mostra frutos do mar fritos com mandioca e cebola (jalea peruana), não torresmo."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Onigiris com nori, claros e reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que petisco japonês é este?",
+      "resposta": "Onigiri",
+      "destino": 0,
+      "ancora": {
+        "nome": "Onigiri",
+        "descricao": "Bolinho japonês de arroz branco, geralmente triangular e envolto em alga nori.",
+        "variantes": [
+          "Oniguiri",
+          "Omusubi",
+          "Nigirimeshi"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Madeleines com a forma de concha característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que bolinho francês é este?",
+      "resposta": "Madeleine",
+      "destino": 0,
+      "ancora": {
+        "nome": "Madeleine",
+        "descricao": "Pequeno bolo francês assado em forma de concha, originário da Lorena.",
+        "variantes": [
+          "Madalena"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Prato misto (arroz com feijão, carnes, peixe, banana-da-terra, macarrão); a resposta não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Travessa mista com sashimi, nigiri e maki; a resposta não é única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Kouign-amann inteiro, caramelizado, sem texto; pergunta de origem regional.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta massa folhada caramelizada é uma especialidade de qual região da França?",
+      "resposta": "Bretanha",
+      "destino": 0,
+      "ancora": {
+        "nome": "Kouign-amann",
+        "descricao": "Doce bretão de massa folhada com camadas de manteiga e açúcar caramelizado, originário de Douarnenez.",
+        "variantes": [
+          "Kouignamann"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Suspiros de clara em neve bem visíveis, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que docinho é este?",
+      "resposta": "Suspiro (merengue)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Suspiro",
+        "descricao": "Doce leve e crocante feito de claras batidas com açúcar e assado em fogo baixo.",
+        "variantes": [
+          "Merengue",
+          "Meringue"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cajuzinhos com açúcar cristal e pedaço de castanha, forma de caju reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que docinho brasileiro de festa é este?",
+      "resposta": "Cajuzinho",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cajuzinho",
+        "descricao": "Docinho brasileiro de massa de amendoim moldado em forma de caju, passado em açúcar.",
+        "variantes": [
+          "Docinho de caju"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Mil-folhas com camadas de massa e creme e cobertura marmorizada, claro.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que doce francês é este?",
+      "resposta": "Mil-folhas",
+      "distratores": [
+        "Éclair",
+        "Profiterole",
+        "Torta holandesa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mil-folhas",
+        "descricao": "Doce francês de camadas de massa folhada intercaladas com creme de confeiteiro.",
+        "variantes": [
+          "Mille-feuille",
+          "Napoleão",
+          "Vanilla slice"
+        ]
+      }
+    }
+  ]
+}
