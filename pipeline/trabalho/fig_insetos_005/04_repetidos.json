@@ -1,0 +1,112 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que inseto parasita é este?",
+        "resposta": "Piolho"
+      },
+      "existentes": [
+        {
+          "id": "q06284",
+          "pergunta": "Que inseto parasita é este, visto ao microscópio?",
+          "resposta": "Piolho"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual destes animais pertence à mesma classe deste?",
+        "resposta": "Aranha"
+      },
+      "existentes": [
+        {
+          "id": "q02625",
+          "pergunta": "O que acontece com o corpo de um escorpião quando ele é iluminado por luz ultravioleta no escuro?",
+          "resposta": "Brilha, ficando fluorescente"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que molusco marinho é este?",
+        "resposta": "Náutilo"
+      },
+      "existentes": [
+        {
+          "id": "q02054",
+          "pergunta": "A que classe de moluscos pertence este animal?",
+          "resposta": "Cefalópodes"
+        },
+        {
+          "id": "q02557",
+          "pergunta": "O submarino do Capitão Nemo, em Vinte Mil Léguas Submarinas, de Júlio Verne, tem o mesmo nome de que molusco de concha espiralada?",
+          "resposta": "Náutilo"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que inseto é este?",
+        "resposta": "Cigarra"
+      },
+      "existentes": [
+        {
+          "id": "q02599",
+          "pergunta": "Depois que a ninfa da cigarra sobe num tronco, a casca vazia que fica agarrada nele é o quê?",
+          "resposta": "O exoesqueleto velho, da muda"
+        },
+        {
+          "id": "q02617",
+          "pergunta": "O canto da cigarra macho não vem das asas nem da boca. Que estruturas do abdômen ele faz vibrar para cantar?",
+          "resposta": "Tímbalos"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que inseto sugador de seiva é este?",
+        "resposta": "Pulgão"
+      },
+      "existentes": [
+        {
+          "id": "q09212",
+          "pergunta": "Formigas protegem pulgões de predadores, como pastores cuidando de um rebanho. O que elas ganham em troca?",
+          "resposta": "Melada, um líquido açucarado"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar o piolho numa imagem; mesma resposta e mesmo fato.",
+      "id_existente": "q06284"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre classe (aracnídeos) com imagem; a existente trata da fluorescência do escorpião, fato diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o náutilo por imagem difere da classe dos cefalópodes e do nome do submarino de Nemo; saber uma não implica a outra."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar a cigarra por imagem é um fato diferente de muda ou canto."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Identificar o pulgão por imagem difere do que as formigas ganham em troca."
+    }
+  ]
+}

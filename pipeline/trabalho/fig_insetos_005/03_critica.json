@@ -1,0 +1,131 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Visto ao microscópio' é afirmação sobre a foto que não está confirmada em 'mostra' e pode ser falsa. Basta pedir o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que inseto parasita é este?",
+        "resposta": "Piolho"
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'mandíbulas lembram galhada de que animal' se responde sem a figura (veado/cervo), que vira enfeite. Passa a pedir o reconhecimento do besouro.",
+      "reescrita": {
+        "pergunta": "Que grande besouro europeu é este?",
+        "resposta": "Besouro-veado (vaca-loura)",
+        "distratores": [
+          "Besouro-hércules",
+          "Besouro-golias",
+          "Escaravelho-sagrado"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Vespa gigante' e 'leste da Ásia' entregam o apelido aceito (vespa-gigante-asiática) e quase a resposta; a figura vira enfeite. Passa a múltipla, sem pista que entregue.",
+      "reescrita": {
+        "pergunta": "Que vespa é esta?",
+        "resposta": "Vespa-mandarina",
+        "distratores": [
+          "Vespão-europeu",
+          "Vespa-asiática",
+          "Vespa-papel"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Parente próximo' é vago. 'Mesma classe' é preciso: escorpião e aranha são aracnídeos, os outros três não.",
+      "reescrita": {
+        "pergunta": "Qual destes animais pertence à mesma classe deste?",
+        "resposta": "Aranha",
+        "distratores": [
+          "Barata",
+          "Camarão",
+          "Centopeia"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento, com resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que fazem ninhos unindo folhas. O enunciado não nomeia a formiga, e a figura é necessária para saber de quais formigas se fala.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Aranha-lobo' é distrator defensável: o nome 'tarântula' foi originalmente de uma aranha-lobo (Lycosa tarantula). Troca por distrator seguro.",
+      "reescrita": {
+        "pergunta": "Que tipo de aranha é esta?",
+        "resposta": "Aranha-caranguejeira (tarântula)",
+        "distratores": [
+          "Viúva-negra",
+          "Aranha-armadeira",
+          "Aranha-de-jardim"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a mosca-tsé-tsé transmite a doença do sono. Os distratores são doenças transmitidas por outros vetores.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Membracidae é um grupo aparentado às cigarras, e a cigarra não é resposta correta. Os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, com distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pequeno inseto, praga de plantas' também descreve cochonilha, mosca-branca e tripes, então a resposta não é única. Passa a múltipla com distratores do mesmo tipo.",
+      "reescrita": {
+        "pergunta": "Que inseto sugador de seiva é este?",
+        "resposta": "Pulgão",
+        "distratores": [
+          "Cochonilha",
+          "Mosca-branca",
+          "Tripes"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que 'luna' vem da deusa romana da Lua. O reconhecimento da mariposa é necessário, e os distratores são astros.",
+      "reescrita": null
+    }
+  ]
+}

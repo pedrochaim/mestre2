@@ -1,0 +1,266 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Piolho em close ao microscópio, reconhecível e sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que inseto parasita é este, visto ao microscópio?",
+      "resposta": "Piolho",
+      "destino": 0,
+      "ancora": {
+        "nome": "Piolho",
+        "descricao": "Inseto parasita sem asas que vive no couro cabeludo humano e se alimenta de sangue (Pediculus humanus capitis).",
+        "variantes": [
+          "Piolho-da-cabeça",
+          "Pediculus humanus capitis"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Macho com mandíbulas enormes, inconfundível e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "As mandíbulas deste besouro lembram a galhada de que animal?",
+      "resposta": "Veado (cervo)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Besouro-veado",
+        "descricao": "Grande besouro europeu da família Lucanidae, cujos machos têm mandíbulas em forma de galhada (Lucanus cervus).",
+        "variantes": [
+          "Vaca-loura",
+          "Lucanus cervus",
+          "Besouro-cervo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Vespas gigantes de cabeça alaranjada, claras e sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que vespa gigante, nativa do leste da Ásia, é esta?",
+      "resposta": "Vespa-mandarina (vespão-gigante-asiático)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Vespa-mandarina",
+        "descricao": "Maior vespa do mundo, nativa do leste da Ásia (Vespa mandarinia).",
+        "variantes": [
+          "Vespão-gigante-asiático",
+          "Vespa mandarinia",
+          "Asian giant hornet"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Escorpião de corpo inteiro, nítido e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destes animais é parente próximo deste?",
+      "resposta": "Aranha",
+      "distratores": [
+        "Barata",
+        "Camarão",
+        "Centopeia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Escorpião",
+        "descricao": "Aracnídeo predador de oito pernas, com pinças e cauda terminada em ferrão (ordem Scorpiones).",
+        "variantes": [
+          "Scorpiones"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Náutilo com concha listrada, claro e sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que molusco marinho é este?",
+      "resposta": "Náutilo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Náutilo",
+        "descricao": "Molusco cefalópode marinho de concha espiralada e câmaras, da família Nautilidae.",
+        "variantes": [
+          "Nautilus",
+          "Nautilus pompilius"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Formiga verde em fundo branco; a escala '1cm' não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Com que material estas formigas, que vivem em árvores, constroem seus ninhos?",
+      "resposta": "Folhas",
+      "destino": 0,
+      "ancora": {
+        "nome": "Formiga-tecelã",
+        "descricao": "Formiga arbórea verde do gênero Oecophylla, que constrói ninhos unindo folhas com seda das larvas.",
+        "variantes": [
+          "Formiga-verde",
+          "Oecophylla",
+          "Weaver ant"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Tarântula peluda vista de cima, nítida e sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de aranha é esta?",
+      "resposta": "Aranha-caranguejeira (tarântula)",
+      "distratores": [
+        "Viúva-negra",
+        "Aranha-lobo",
+        "Aranha-de-jardim"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Aranha-caranguejeira",
+        "descricao": "Aranha grande e peluda da família Theraphosidae, popularmente chamada de tarântula.",
+        "variantes": [
+          "Tarântula",
+          "Theraphosidae"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Mosca tsé-tsé com asas dobradas sobre o abdome, sem texto; múltipla ajuda no reconhecimento.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que doença é transmitida por esta mosca?",
+      "resposta": "Doença do sono",
+      "distratores": [
+        "Malária",
+        "Dengue",
+        "Doença de Chagas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mosca-tsé-tsé",
+        "descricao": "Mosca africana hematófaga do gênero Glossina, transmissora de tripanossomos.",
+        "variantes": [
+          "Tsé-tsé",
+          "Glossina",
+          "Tsetse"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Membracídeo verde de perfil, bem visível e sem texto; múltipla por ser pouco conhecido.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de inseto é este?",
+      "resposta": "Membracídeo",
+      "distratores": [
+        "Cigarra",
+        "Gafanhoto",
+        "Percevejo-do-escudo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Membracídeo",
+        "descricao": "Inseto da família Membracidae, de tórax dilatado em espinho ou capuz, aparentado às cigarras.",
+        "variantes": [
+          "Cigarrinha-chifruda",
+          "Treehopper",
+          "Membracidae"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cigarra com asas nervuradas, nítida e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que inseto é este?",
+      "resposta": "Cigarra",
+      "distratores": [
+        "Libélula",
+        "Mosca-varejeira",
+        "Vespa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cigarra",
+        "descricao": "Inseto hemíptero de olhos afastados e asas membranosas, cujos machos cantam alto (superfamília Cicadoidea).",
+        "variantes": [
+          "Cicada",
+          "Cicadidae"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pulgão verde com filhotes, claro e sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pequeno inseto, praga de plantas, é este?",
+      "resposta": "Pulgão",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pulgão",
+        "descricao": "Pequeno inseto sugador de seiva da família Aphididae.",
+        "variantes": [
+          "Afídio",
+          "Aphid"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Mariposa verde-clara com caudas longas, inconfundível e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que astro dá nome a esta mariposa norte-americana?",
+      "resposta": "Lua",
+      "distratores": [
+        "Sol",
+        "Vênus",
+        "Marte"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mariposa-luna",
+        "descricao": "Grande mariposa verde-clara norte-americana da família Saturniidae, com caudas nas asas posteriores (Actias luna).",
+        "variantes": [
+          "Actias luna",
+          "Luna moth"
+        ]
+      }
+    }
+  ]
+}

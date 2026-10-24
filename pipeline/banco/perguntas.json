@@ -291108,5 +291108,255 @@
       "autor": "Léonard François Berger",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q15363",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "besouro_veado",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que grande besouro europeu é este?",
+    "resposta": "Besouro-veado (vaca-loura)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lucanus_cervus",
+      "https://pt.wikipedia.org/wiki/Vaca-loura"
+    ],
+    "imagem": {
+      "arquivo": "q15363.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lucanus_cervus_male_Saarland_22.jpg",
+      "autor": "Orchi",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15364",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "vespa_mandarina",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que vespa é esta?",
+    "resposta": "Vespa-mandarina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Asian_giant_hornet",
+      "https://pt.wikipedia.org/wiki/Vespa-mandarina"
+    ],
+    "imagem": {
+      "arquivo": "q15364.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Vespa_mandarinia_japonica2.jpg",
+      "autor": "KENPEI",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15365",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "escorpiao",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes animais pertence à mesma classe deste?",
+    "resposta": "Aranha",
+    "distratores": [
+      "Barata",
+      "Camarão",
+      "Centopeia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Scorpion",
+      "https://pt.wikipedia.org/wiki/Escorpi%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q15365.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Asian_forest_scorpion_in_Khao_Yai_National_Park.JPG",
+      "autor": "Chris huh",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15366",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "nautilo",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que molusco marinho é este?",
+    "resposta": "Náutilo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nautilus",
+      "https://pt.wikipedia.org/wiki/Nautilidae"
+    ],
+    "imagem": {
+      "arquivo": "q15366.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Nautilus_belauensis_from_Palau.jpg",
+      "autor": "Manuae",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15367",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "formiga_tecela",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Com que material estas formigas, que vivem em árvores, constroem seus ninhos?",
+    "resposta": "Folhas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Weaver_ant",
+      "https://pt.wikipedia.org/wiki/Oecophylla"
+    ],
+    "imagem": {
+      "arquivo": "q15367.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Oecophylla_smaragdina_MHNT_reine.jpg",
+      "autor": "Didier Descouens",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q15368",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "aranha_caranguejeira",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de aranha é esta?",
+    "resposta": "Aranha-caranguejeira (tarântula)",
+    "distratores": [
+      "Viúva-negra",
+      "Aranha-armadeira",
+      "Aranha-de-jardim"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tarantula",
+      "https://pt.wikipedia.org/wiki/Terafos%C3%ADdeos"
+    ],
+    "imagem": {
+      "arquivo": "q15368.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Brachypelma_edit.jpg",
+      "autor": "User:Fir0002",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15369",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "mosca_tse_tse",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que doença é transmitida por esta mosca?",
+    "resposta": "Doença do sono",
+    "distratores": [
+      "Malária",
+      "Dengue",
+      "Doença de Chagas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tsetse_fly",
+      "https://pt.wikipedia.org/wiki/Mosca-ts%C3%A9-ts%C3%A9"
+    ],
+    "imagem": {
+      "arquivo": "q15369.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Glossina-morsitans.jpg",
+      "autor": "Alan R Walker",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15370",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "membracideo",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de inseto é este?",
+    "resposta": "Membracídeo",
+    "distratores": [
+      "Cigarra",
+      "Gafanhoto",
+      "Percevejo-do-escudo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Treehopper",
+      "https://pt.wikipedia.org/wiki/Membrac%C3%ADdeos"
+    ],
+    "imagem": {
+      "arquivo": "q15370.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:(MHNT)_Stictocephala_bisonia.jpg",
+      "autor": "Didier Descouens",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q15371",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "cigarra",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que inseto é este?",
+    "resposta": "Cigarra",
+    "distratores": [
+      "Libélula",
+      "Mosca-varejeira",
+      "Vespa"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cicada",
+      "https://pt.wikipedia.org/wiki/Cigarra"
+    ],
+    "imagem": {
+      "arquivo": "q15371.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Neotibicen_linnei.jpg",
+      "autor": "Bruce Marlin",
+      "licenca": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "id": "q15372",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "pulgao",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que inseto sugador de seiva é este?",
+    "resposta": "Pulgão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aphid",
+      "https://pt.wikipedia.org/wiki/Af%C3%ADdio"
+    ],
+    "imagem": {
+      "arquivo": "q15372.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Acyrthosiphon_pisum_(pea_aphid)-PLoS.jpg",
+      "autor": "Shipher Wu (photograph) and Gee-way Lin (aphid provision), National Taiwan University",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q15373",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "mariposa_luna",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que astro dá nome a esta mariposa norte-americana?",
+    "resposta": "Lua",
+    "distratores": [
+      "Sol",
+      "Vênus",
+      "Marte"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Luna_moth",
+      "https://pt.wikipedia.org/wiki/Actias_luna"
+    ],
+    "imagem": {
+      "arquivo": "q15373.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Male_Luna_Moth,_Megan_McCarty141.jpg",
+      "autor": "Megan McCarty",
+      "licenca": "CC BY 3.0"
+    }
   }
 ]

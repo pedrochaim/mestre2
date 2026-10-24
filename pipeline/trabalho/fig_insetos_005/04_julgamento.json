@@ -1,0 +1,778 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Piolho",
+        "descricao": "Inseto parasita sem asas que vive no couro cabeludo humano e se alimenta de sangue (Pediculus humanus capitis).",
+        "variantes": [
+          "Piolho-da-cabeça",
+          "Pediculus humanus capitis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piolho",
+          "nome": "Piolho",
+          "descricao": "Inseto sem asas, parasita externo do ser humano, que vive no couro cabeludo e se alimenta de sangue.",
+          "variantes": [
+            "Piolho-da-cabeça",
+            "Pediculus humanus capitis"
+          ]
+        },
+        {
+          "id": "polo",
+          "nome": "Polo",
+          "descricao": "Esporte coletivo jogado a cavalo, em que os jogadores conduzem a bola com tacos.",
+          "variantes": [
+            "Polo equestre"
+          ]
+        },
+        {
+          "id": "piccolo",
+          "nome": "Piccolo",
+          "descricao": "Namekuseijin verde de capa branca e turbante, personagem de Dragon Ball.",
+          "variantes": [
+            "Piccolo Jr.",
+            "Piccolo Júnior",
+            "Kamiccolo"
+          ]
+        },
+        {
+          "id": "brassica_oleracea",
+          "nome": "Brassica oleracea",
+          "descricao": "Espécie vegetal da família da mostarda que deu origem a repolho, couve, brócolis, couve-flor e outras hortaliças",
+          "variantes": [
+            "Couve",
+            "Repolho",
+            "Couve silvestre"
+          ]
+        },
+        {
+          "id": "flautim",
+          "nome": "Flautim",
+          "descricao": "Pequena flauta transversal que soa uma oitava acima da flauta comum, usada na orquestra e em bandas.",
+          "variantes": [
+            "Piccolo",
+            "Flauta piccolo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Besouro-veado",
+        "descricao": "Grande besouro europeu da família Lucanidae, cujos machos têm mandíbulas em forma de galhada (Lucanus cervus).",
+        "variantes": [
+          "Vaca-loura",
+          "Lucanus cervus",
+          "Besouro-cervo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "federico_garcia_lorca",
+          "nome": "Federico García Lorca",
+          "descricao": "Poeta e dramaturgo espanhol (1898–1936), autor de Bodas de Sangue.",
+          "variantes": [
+            "García Lorca",
+            "Lorca"
+          ]
+        },
+        {
+          "id": "besouro_tita",
+          "nome": "Besouro-titã",
+          "descricao": "Besouro cerambicídeo neotropical (Titanus giganteus), um dos maiores insetos conhecidos.",
+          "variantes": [
+            "Titanus giganteus",
+            "titan beetle"
+          ]
+        },
+        {
+          "id": "besouro",
+          "nome": "Besouro",
+          "descricao": "Insetos da ordem Coleoptera, com o primeiro par de asas endurecido em forma de estojo.",
+          "variantes": [
+            "Coleoptera",
+            "coleóptero",
+            "beetle",
+            "Coleópteros"
+          ]
+        },
+        {
+          "id": "maquina_de_lavar_louca",
+          "nome": "Máquina de lavar louça",
+          "descricao": "Eletrodoméstico que lava pratos e utensílios, patenteado pela americana Josephine Cochrane em 1886.",
+          "variantes": [
+            "Lava-louças",
+            "Dishwasher"
+          ]
+        },
+        {
+          "id": "lua",
+          "nome": "Lua",
+          "descricao": "Único satélite natural da Terra.",
+          "variantes": [
+            "A Lua",
+            "Moon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Vespa-mandarina",
+        "descricao": "Maior vespa do mundo, nativa do leste da Ásia (Vespa mandarinia).",
+        "variantes": [
+          "Vespão-gigante-asiático",
+          "Vespa mandarinia",
+          "Asian giant hornet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tangerina",
+          "nome": "Tangerina",
+          "descricao": "Fruta cítrica pequena de casca solta, Citrus reticulata.",
+          "variantes": [
+            "Mexerica",
+            "Bergamota",
+            "Mandarina",
+            "Citrus reticulata"
+          ]
+        },
+        {
+          "id": "pato_mandarim",
+          "nome": "Pato-mandarim",
+          "descricao": "Pato ornamental do leste da Ásia (Aix galericulata), com o macho muito colorido.",
+          "variantes": [
+            "Aix galericulata",
+            "Mandarin duck"
+          ]
+        },
+        {
+          "id": "vespa_asiatica",
+          "nome": "Vespa-asiática",
+          "descricao": "Vespa (Vespa velutina) nativa do Sudeste Asiático, predadora de abelhas e invasora na Europa.",
+          "variantes": [
+            "Vespa velutina",
+            "Vespa-de-patas-amarelas"
+          ]
+        },
+        {
+          "id": "elefante_asiatico",
+          "nome": "Elefante-asiático",
+          "descricao": "Elefante da espécie Elephas maximus, nativo do sul e sudeste da Ásia.",
+          "variantes": [
+            "Elefante-indiano",
+            "Elephas maximus"
+          ]
+        },
+        {
+          "id": "saramandaia_telenovela_de_1976",
+          "nome": "Saramandaia (telenovela de 1976)",
+          "descricao": "Telenovela da Rede Globo de 1976, escrita por Dias Gomes, marcada pelo realismo fantástico, com personagens como um homem que cria asas.",
+          "variantes": [
+            "Saramandaia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Escorpião",
+        "descricao": "Aracnídeo predador de oito pernas, com pinças e cauda terminada em ferrão (ordem Scorpiones).",
+        "variantes": [
+          "Scorpiones"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "escorpiao",
+          "nome": "Escorpião",
+          "descricao": "Aracnídeos predadores da ordem Scorpiones, com pinças e cauda terminada em ferrão venenoso.",
+          "variantes": [
+            "Scorpiones",
+            "lacrau"
+          ]
+        },
+        {
+          "id": "scorpion",
+          "nome": "Scorpion",
+          "descricao": "Ninja amarelo de fogo da série de jogos de luta Mortal Kombat.",
+          "variantes": [
+            "Hanzo Hasashi"
+          ]
+        },
+        {
+          "id": "skorupi",
+          "nome": "Skorupi",
+          "descricao": "Pokémon escorpião do tipo Veneno/Inseto, número 451 da Pokédex Nacional, da quarta geração.",
+          "variantes": [
+            "Scorpi"
+          ]
+        },
+        {
+          "id": "chopine",
+          "nome": "Chopine",
+          "descricao": "Sapato feminino de plataforma altíssima usado na Europa entre os séculos quinze e dezessete",
+          "variantes": [
+            "Chopines",
+            "Chapins"
+          ]
+        },
+        {
+          "id": "escocia",
+          "nome": "Escócia",
+          "descricao": "País constituinte do Reino Unido, no norte da ilha da Grã-Bretanha, cuja capital é Edimburgo.",
+          "variantes": [
+            "Scotland"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Náutilo",
+        "descricao": "Molusco cefalópode marinho de concha espiralada e câmaras, da família Nautilidae.",
+        "variantes": [
+          "Nautilus",
+          "Nautilus pompilius"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nautilo",
+          "nome": "Náutilo",
+          "descricao": "Cefalópode de concha externa espiralada e dividida em câmaras (Nautilus pompilius).",
+          "variantes": [
+            "Nautilus pompilius",
+            "Nautilus"
+          ]
+        },
+        {
+          "id": "nautilus_submarino_de_julio_verne",
+          "nome": "Nautilus (submarino de Júlio Verne)",
+          "descricao": "Submarino fictício comandado pelo Capitão Nemo nos romances de Júlio Verne.",
+          "variantes": [
+            "Náutilus",
+            "Nautilus"
+          ]
+        },
+        {
+          "id": "xatu",
+          "nome": "Xatu",
+          "descricao": "Pokémon dos tipos Psíquico e Voador, número 178 da Pokédex Nacional.",
+          "variantes": [
+            "Natio"
+          ]
+        },
+        {
+          "id": "nailon",
+          "nome": "Náilon",
+          "descricao": "Fibra sintética criada na empresa DuPont nos anos 1930, usada em meias, tecidos e cordas.",
+          "variantes": [
+            "Nylon"
+          ]
+        },
+        {
+          "id": "naruto_uzumaki",
+          "nome": "Naruto Uzumaki",
+          "descricao": "Protagonista do mangá e anime Naruto, ninja de Konoha com o Nove Caudas selado nele.",
+          "variantes": [
+            "Uzumaki Naruto",
+            "Naruto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Formiga-tecelã",
+        "descricao": "Formiga arbórea verde do gênero Oecophylla, que constrói ninhos unindo folhas com seda das larvas.",
+        "variantes": [
+          "Formiga-verde",
+          "Oecophylla",
+          "Weaver ant"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chapeu_de_castor",
+          "nome": "Chapéu de castor",
+          "descricao": "Chapéu de feltro feito com pelo de castor, muito valorizado na Europa entre os séculos dezessete e dezenove",
+          "variantes": [
+            "Beaver hat"
+          ]
+        },
+        {
+          "id": "tocandira",
+          "nome": "Tocandira",
+          "descricao": "Grande formiga amazônica (Paraponera clavata), conhecida como formiga-bala pela picada extremamente dolorosa.",
+          "variantes": [
+            "Paraponera clavata",
+            "formiga-bala",
+            "bullet ant",
+            "tucandeira"
+          ]
+        },
+        {
+          "id": "formiga_leao",
+          "nome": "Formiga-leão",
+          "descricao": "Larva de insetos da família Myrmeleontidae, que cava funis na areia para capturar presas.",
+          "variantes": [
+            "Myrmeleontidae",
+            "Antlion",
+            "Cachorrinho-da-areia"
+          ]
+        },
+        {
+          "id": "iguana",
+          "nome": "Iguana",
+          "descricao": "Lagarto arborícola e herbívoro (Iguana iguana), comum da América tropical, também chamado iguana-verde.",
+          "variantes": [
+            "Iguana-verde",
+            "Green iguana",
+            "Iguana iguana"
+          ]
+        },
+        {
+          "id": "cupim",
+          "nome": "Cupim",
+          "descricao": "Inseto social da infraordem Isoptera, que se alimenta de madeira e matéria vegetal em decomposição e é aparentado às baratas.",
+          "variantes": [
+            "Térmita",
+            "Isoptera",
+            "formiga-branca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Aranha-caranguejeira",
+        "descricao": "Aranha grande e peluda da família Theraphosidae, popularmente chamada de tarântula.",
+        "variantes": [
+          "Tarântula",
+          "Theraphosidae"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tarountula",
+          "nome": "Tarountula",
+          "descricao": "Pokémon aranha de tipo inseto da nona geração, número 917 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "marimbondo_cavalo",
+          "nome": "Marimbondo-cavalo",
+          "descricao": "Vespa da família Pompilidae, dos gêneros Pepsis e Hemipepsis, que caça tarântulas.",
+          "variantes": [
+            "Tarantula hawk",
+            "Vespa-caçadora-de-tarântulas"
+          ]
+        },
+        {
+          "id": "aranha_armadeira",
+          "nome": "Aranha-armadeira",
+          "descricao": "Aranhas sul-americanas do gênero Phoneutria, errantes e de veneno potente, comuns no Brasil.",
+          "variantes": [
+            "Phoneutria",
+            "armadeira",
+            "aranha-de-bananeira"
+          ]
+        },
+        {
+          "id": "tetrafobia",
+          "nome": "Tetrafobia",
+          "descricao": "Aversão ao número quatro, comum na China e em outros países do Leste Asiático.",
+          "variantes": [
+            "Tetraphobia"
+          ]
+        },
+        {
+          "id": "taranto",
+          "nome": "Taranto",
+          "descricao": "Cidade do sul da Itália fundada no século oito a.C. por colonos gregos com o nome de Taras.",
+          "variantes": [
+            "Taras",
+            "Tarento"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Mosca-tsé-tsé",
+        "descricao": "Mosca africana hematófaga do gênero Glossina, transmissora de tripanossomos.",
+        "variantes": [
+          "Tsé-tsé",
+          "Glossina",
+          "Tsetse"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sensei",
+          "nome": "Sensei",
+          "descricao": "Termo japonês de tratamento usado para professores e mestres, inclusive nas artes marciais.",
+          "variantes": [
+            "Sensē"
+          ]
+        },
+        {
+          "id": "rio_tiete",
+          "nome": "Rio Tietê",
+          "descricao": "Rio do estado de São Paulo que nasce em Salesópolis, atravessa a capital paulista e deságua no rio Paraná.",
+          "variantes": [
+            "Tietê",
+            "Tietê River"
+          ]
+        },
+        {
+          "id": "borboleta_asa_de_vidro",
+          "nome": "Borboleta-asa-de-vidro",
+          "descricao": "Borboleta da América Central e do Norte da América do Sul (Greta oto), de asas transparentes.",
+          "variantes": [
+            "Greta oto",
+            "glasswing"
+          ]
+        },
+        {
+          "id": "curva_normal_distribuicao_gaussiana",
+          "nome": "Curva normal (distribuição gaussiana)",
+          "descricao": "Distribuição de probabilidade contínua simétrica em forma de sino, definida por média e variância.",
+          "variantes": [
+            "Distribuição normal",
+            "Gaussiana",
+            "Curva de sino"
+          ]
+        },
+        {
+          "id": "metro_de_londres",
+          "nome": "Metrô de Londres",
+          "descricao": "Sistema de metrô de Londres, aberto em 1863 com a Metropolitan Railway.",
+          "variantes": [
+            "London Underground",
+            "The Tube",
+            "Metropolitan Railway",
+            "Tube"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Membracídeo",
+        "descricao": "Inseto da família Membracidae, de tórax dilatado em espinho ou capuz, aparentado às cigarras.",
+        "variantes": [
+          "Cigarrinha-chifruda",
+          "Treehopper",
+          "Membracidae"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "creeper",
+          "nome": "Creeper",
+          "descricao": "Criatura verde que explode ao se aproximar do jogador no jogo Minecraft.",
+          "variantes": [
+            "Creeper (Minecraft)"
+          ]
+        },
+        {
+          "id": "tony_tony_chopper",
+          "nome": "Tony Tony Chopper",
+          "descricao": "Rena médica do bando dos Chapéus de Palha, no mangá e anime One Piece.",
+          "variantes": [
+            "Chopper"
+          ]
+        },
+        {
+          "id": "vombate",
+          "nome": "Vombate",
+          "descricao": "Marsupial escavador australiano da família Vombatidae.",
+          "variantes": [
+            "Wombat",
+            "Vombatidae"
+          ]
+        },
+        {
+          "id": "hemacia",
+          "nome": "Hemácia",
+          "descricao": "Célula do sangue em forma de disco bicôncavo que transporta oxigênio por meio da hemoglobina.",
+          "variantes": [
+            "Glóbulo vermelho",
+            "Eritrócito"
+          ]
+        },
+        {
+          "id": "gafanhoto",
+          "nome": "Gafanhoto",
+          "descricao": "Inseto saltador herbívoro da subordem Caelifera, de antenas curtas.",
+          "variantes": [
+            "Caelifera",
+            "Grasshopper",
+            "Locusta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Cigarra",
+        "descricao": "Inseto hemíptero de olhos afastados e asas membranosas, cujos machos cantam alto (superfamília Cicadoidea).",
+        "variantes": [
+          "Cicada",
+          "Cicadidae"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cigarra",
+          "nome": "Cigarra",
+          "descricao": "Insetos da superfamília Cicadoidea, cujos machos produzem um canto alto e cujas ninfas vivem sob a terra.",
+          "variantes": [
+            "Cicadoidea",
+            "cicada"
+          ]
+        },
+        {
+          "id": "cocada",
+          "nome": "Cocada",
+          "descricao": "Doce tradicional feito de coco ralado e açúcar.",
+          "variantes": [
+            "Cocada branca"
+          ]
+        },
+        {
+          "id": "cica",
+          "nome": "Cica",
+          "descricao": "Cycas revoluta, gimnosperma ornamental originária do sul do Japão, de tronco fibroso e folhas pinadas.",
+          "variantes": [
+            "Cycas revoluta",
+            "Sagu-de-jardim",
+            "Palmeira-sagu"
+          ]
+        },
+        {
+          "id": "mosquito",
+          "nome": "Mosquito",
+          "descricao": "Díptero da família Culicidae, de pernas longas, cujas fêmeas sugam sangue.",
+          "variantes": [
+            "Pernilongo",
+            "Muriçoca",
+            "Culicidae",
+            "Carapanã"
+          ]
+        },
+        {
+          "id": "cigana",
+          "nome": "Cigana",
+          "descricao": "Ave da Amazônia e do Orinoco (Opisthocomus hoazin), de crista eriçada e olho vermelho, que fermenta folhas no sistema digestivo.",
+          "variantes": [
+            "Jacu-cigano",
+            "Hoatzin",
+            "Opisthocomus hoazin",
+            "Hoazin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Pulgão",
+        "descricao": "Pequeno inseto sugador de seiva da família Aphididae.",
+        "variantes": [
+          "Afídio",
+          "Aphid"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pulgao",
+          "nome": "Pulgão",
+          "descricao": "Pequeno inseto da superfamília Aphidoidea que suga a seiva das plantas.",
+          "variantes": [
+            "Afídeo",
+            "Aphid"
+          ]
+        },
+        {
+          "id": "pulga",
+          "nome": "Pulga",
+          "descricao": "Inseto sem asas da ordem Siphonaptera, parasita externo de mamíferos e aves que se alimenta de sangue.",
+          "variantes": [
+            "Pulgas",
+            "Sifonápteros",
+            "Flea"
+          ]
+        },
+        {
+          "id": "pulmao",
+          "nome": "Pulmão",
+          "descricao": "Órgão par do sistema respiratório responsável pelas trocas gasosas.",
+          "variantes": [
+            "Pulmões"
+          ]
+        },
+        {
+          "id": "anfibios",
+          "nome": "Anfíbios",
+          "descricao": "Classe de vertebrados (Amphibia) que inclui sapos, rãs, salamandras e cecílias, em geral com fase larval aquática.",
+          "variantes": [
+            "Amphibia",
+            "Anfíbio"
+          ]
+        },
+        {
+          "id": "serpentes",
+          "nome": "Serpentes",
+          "descricao": "Subordem de répteis escamados sem patas (Serpentes), que inclui todas as cobras.",
+          "variantes": [
+            "Cobras",
+            "Ofídios",
+            "Snakes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Mariposa-luna",
+        "descricao": "Grande mariposa verde-clara norte-americana da família Saturniidae, com caudas nas asas posteriores (Actias luna).",
+        "variantes": [
+          "Actias luna",
+          "Luna moth"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mariposa",
+          "nome": "Mariposa",
+          "descricao": "Inseto alado da ordem Lepidoptera, de hábitos em geral noturnos, aparentado com as borboletas; aqui, um exemplar de mariposa de olhos desenhados nas asas.",
+          "variantes": [
+            "Traça",
+            "Mariposas",
+            "Moth"
+          ]
+        },
+        {
+          "id": "maria_lenk",
+          "nome": "Maria Lenk",
+          "descricao": "Nadadora brasileira pioneira, primeira sul-americana a disputar os Jogos Olímpicos, em 1932.",
+          "variantes": []
+        },
+        {
+          "id": "mariposa_caveira",
+          "nome": "Mariposa-caveira",
+          "descricao": "Mariposas do gênero Acherontia, como a Acherontia atropos, que têm no tórax um desenho parecido com uma caveira.",
+          "variantes": [
+            "Acherontia atropos",
+            "Acherontia",
+            "death's-head hawkmoth",
+            "esfinge-caveira"
+          ]
+        },
+        {
+          "id": "esfinge_colibri",
+          "nome": "Esfinge-colibri",
+          "descricao": "Mariposa da família Sphingidae (Macroglossum stellatarum), que paira no ar para sugar néctar, como um beija-flor.",
+          "variantes": [
+            "Mariposa-colibri",
+            "Macroglossum stellatarum",
+            "Hummingbird hawk-moth"
+          ]
+        },
+        {
+          "id": "eclipse_lunar",
+          "nome": "Eclipse lunar",
+          "descricao": "Fenômeno em que a Terra fica entre o Sol e a Lua, e sua sombra cobre a Lua.",
+          "variantes": [
+            "Eclipse da Lua",
+            "Lua de sangue"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "piolho",
+      "motivo": "Mesmo inseto parasita, mesmo nome científico."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Lucanus cervus é espécie específica; candidatas são besouro genérico ou outra espécie."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Vespa mandarinia difere de Vespa velutina."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "escorpiao",
+      "motivo": "Mesmos aracnídeos Scorpiones."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "nautilo",
+      "motivo": "Mesmo cefalópode Nautilus."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a formiga-tecelã Oecophylla."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a caranguejeira/Theraphosidae."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a mosca tsé-tsé."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Membracidae."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "cigarra",
+      "motivo": "Mesmos insetos Cicadoidea."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "pulgao",
+      "motivo": "Mesmo inseto sugador de seiva (afídeos)."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Actias luna é espécie específica, distinta de mariposa genérica e outras."
+    }
+  ]
+}
