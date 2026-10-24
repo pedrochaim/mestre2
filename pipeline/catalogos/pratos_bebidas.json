@@ -159,7 +159,7 @@
       "titulo": "en:Guacamole",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Macaron",
@@ -1300,7 +1300,7 @@
       "titulo": "en:Caviar",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Quesadilla",
@@ -1405,7 +1405,7 @@
       "titulo": "pt:Tapioca",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Bolinho de chuva",
@@ -1622,7 +1622,7 @@
       "titulo": "pt:Vaca atolada",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Lagosta Thermidor",
@@ -1676,6 +1676,286 @@
     {
       "nome": "Camembert",
       "titulo": "en:Camembert",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Goiabada",
+      "titulo": "pt:Goiabada",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Biscoito de polvilho",
+      "titulo": "pt:Biscoito de polvilho",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Bala de goma",
+      "titulo": "en:Gummy bear",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Marshmallow",
+      "titulo": "en:Marshmallow",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Macarrão instantâneo",
+      "titulo": "en:Instant noodles",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Salame",
+      "titulo": "en:Salami",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Presunto",
+      "titulo": "en:Ham",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Leite",
+      "titulo": "en:Milk",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Pão de alho",
+      "titulo": "en:Garlic bread",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ovo cozido",
+      "titulo": "en:Boiled egg",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Frango assado",
+      "titulo": "en:Roast chicken",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Mingau",
+      "titulo": "en:Porridge",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rocambole",
+      "titulo": "en:Swiss roll",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cupcake",
+      "titulo": "en:Cupcake",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gyros",
+      "titulo": "en:Gyros",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Poke",
+      "titulo": "en:Poke (dish)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nasi goreng",
+      "titulo": "en:Nasi goreng",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Frango tikka masala",
+      "titulo": "en:Chicken tikka masala",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fajita",
+      "titulo": "en:Fajita",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Enchilada",
+      "titulo": "en:Enchilada",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tortellini",
+      "titulo": "en:Tortellini",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Salada caprese",
+      "titulo": "en:Caprese salad",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bratwurst",
+      "titulo": "en:Bratwurst",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Scone",
+      "titulo": "en:Scone",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Missoshiru",
+      "titulo": "en:Miso soup",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Steak tartare",
+      "titulo": "en:Steak tartare",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pão de ló",
+      "titulo": "en:Pão de Ló",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ovo centenário",
+      "titulo": "en:Century egg",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Balut",
+      "titulo": "en:Balut",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Nattō",
+      "titulo": "en:Nattō",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Smørrebrød",
+      "titulo": "en:Smørrebrød",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mofongo",
+      "titulo": "en:Mofongo",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Tamagoyaki",
+      "titulo": "en:Tamagoyaki",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Morcela",
+      "titulo": "en:Black pudding",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Shabu-shabu",
+      "titulo": "en:Shabu-shabu",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hákarl",
+      "titulo": "en:Hákarl",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pulque",
+      "titulo": "en:Pulque",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ouzo",
+      "titulo": "en:Ouzo",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cachupa",
+      "titulo": "en:Cachupa",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Kaiserschmarrn",
+      "titulo": "en:Kaiserschmarrn",
       "camada": 3,
       "destino": 0,
       "status": "nova"

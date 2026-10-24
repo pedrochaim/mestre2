@@ -1,0 +1,189 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Copo de leite nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que bebida é esta?",
+      "resposta": "Leite",
+      "destino": 0,
+      "ancora": {
+        "nome": "Leite",
+        "descricao": "Líquido branco produzido pelas glândulas mamárias de mamíferos, consumido como bebida e base de laticínios.",
+        "variantes": [
+          "Leite de vaca"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Scones com geleia, claros e legíveis.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pãozinho assado tradicional da Grã-Bretanha e da Irlanda é este, servido aqui com geleia?",
+      "resposta": "Scone",
+      "distratores": [
+        "Muffin inglês",
+        "Bolinho de chuva",
+        "Pão de leite"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Scone",
+        "descricao": "Pãozinho assado tradicional britânico e irlandês, básico do chá da tarde.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Grânulos brancos num prato vermelho, facilmente confundidos com sal grosso, açúcar ou outros derivados; resposta não única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Massa recheada inconfundível, foto nítida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que massa recheada italiana é esta?",
+      "resposta": "Tortellini",
+      "distratores": [
+        "Ravióli",
+        "Nhoque",
+        "Canelone"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tortellini",
+        "descricao": "Massa italiana recheada, típica de Bolonha e Módena, em forma de anel.",
+        "variantes": [
+          "Tortelino"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Prato com molho e camarão; pouco reconhecível, e o mofongo (ou mangú) também é comum em outros países caribenhos, então a origem não é única."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Frango assado inteiro, claro e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que prato é este?",
+      "resposta": "Frango assado",
+      "destino": 0,
+      "ancora": {
+        "nome": "Frango assado",
+        "descricao": "Frango inteiro preparado por assamento no forno ou no espeto.",
+        "variantes": [
+          "Galeto assado",
+          "Frango no forno"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Guacamole com nachos, nítido, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "De que país é originário este molho?",
+      "resposta": "México",
+      "destino": 0,
+      "ancora": {
+        "nome": "Guacamole",
+        "descricao": "Pasta ou molho à base de abacate, originário do México.",
+        "variantes": [
+          "Guac"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Garrafa de líquido branco leitoso, não reconhecível como pulque pela imagem; pode ser confundida com leite ou outra bebida, e há outra garrafa com rótulo ao lado."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Ursinhos de goma coloridos, claros; assunto único.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que doce é este?",
+      "resposta": "Bala de goma (ursinho de goma)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bala de goma",
+        "descricao": "Doce de gelatina mastigável em forma de ursinho, como os da Haribo.",
+        "variantes": [
+          "Ursinho de goma",
+          "Gummy bear",
+          "Gummibärchen"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Duas colheres de madrepérola com ovas de peixe; claro e sem texto.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Estas iguarias, servidas em colheres de madrepérola, são feitas de que parte de certos peixes?",
+      "resposta": "As ovas",
+      "destino": 0,
+      "ancora": {
+        "nome": "Caviar",
+        "descricao": "Iguaria feita de ovas salgadas de esturjão e, por extensão, de outros peixes.",
+        "variantes": [
+          "Caviare",
+          "Ova de salmão"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Panela com costela e pedaços claros em caldo; mandioca não identificável, facilmente confundida com cozido ou outro caldo de carne e batata."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Rosquinhas claras típicas, nítidas e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que biscoito brasileiro, leve e crocante, em forma de argola, é este?",
+      "resposta": "Biscoito de polvilho",
+      "distratores": [
+        "Sequilho",
+        "Biscoito de nata",
+        "Broa de milho"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Biscoito de polvilho",
+        "descricao": "Biscoito típico brasileiro feito de polvilho, em forma de argola, como o Biscoito Globo.",
+        "variantes": [
+          "Avoador",
+          "Biscoito de goma",
+          "Biscoito de vento",
+          "Biscoito voador",
+          "Peta"
+        ]
+      }
+    }
+  ]
+}

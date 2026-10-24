@@ -1,0 +1,503 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Leite",
+        "descricao": "Líquido branco produzido pelas glândulas mamárias de mamíferos, consumido como bebida e base de laticínios.",
+        "variantes": [
+          "Leite de vaca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rock_lee",
+          "nome": "Rock Lee",
+          "descricao": "Ninja da Vila da Folha, especialista em taijutsu e membro da equipe de Might Guy em Naruto.",
+          "variantes": [
+            "Lee"
+          ]
+        },
+        {
+          "id": "colete",
+          "nome": "Colete",
+          "descricao": "Peça sem mangas usada sobre a camisa e sob o paletó, parte do terno de três peças",
+          "variantes": [
+            "Waistcoat",
+            "Vest"
+          ]
+        },
+        {
+          "id": "laser",
+          "nome": "Laser",
+          "descricao": "Dispositivo que emite um feixe de luz concentrado e coerente por emissão estimulada de radiação.",
+          "variantes": [
+            "Raio laser",
+            "Lêiser"
+          ]
+        },
+        {
+          "id": "papel_carta",
+          "nome": "Papel carta",
+          "descricao": "Formato de papel de 8,5 por 11 polegadas, padrão nos Estados Unidos e no Canadá.",
+          "variantes": [
+            "Letter",
+            "US Letter"
+          ]
+        },
+        {
+          "id": "valete_carta_de_baralho",
+          "nome": "Valete (carta de baralho)",
+          "descricao": "Carta de figura do baralho que representa um jovem da corte, abaixo da dama e do rei.",
+          "variantes": [
+            "Valete",
+            "Jack",
+            "Conde"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Scone",
+        "descricao": "Pãozinho assado tradicional britânico e irlandês, básico do chá da tarde.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "pinha_cone_de_conifera",
+          "nome": "Pinha (cone de conífera)",
+          "descricao": "Estrutura lenhosa com escamas que carrega as sementes em pinheiros e outras coníferas.",
+          "variantes": [
+            "Cone",
+            "Estróbilo",
+            "Pine cone"
+          ]
+        },
+        {
+          "id": "playstation",
+          "nome": "PlayStation",
+          "descricao": "Primeiro console de videogame da Sony, lançado em 1994.",
+          "variantes": [
+            "PS1",
+            "PSX",
+            "PSone"
+          ]
+        },
+        {
+          "id": "valete_carta_de_baralho",
+          "nome": "Valete (carta de baralho)",
+          "descricao": "Carta de figura do baralho que representa um jovem da corte, abaixo da dama e do rei.",
+          "variantes": [
+            "Valete",
+            "Jack",
+            "Conde"
+          ]
+        },
+        {
+          "id": "clone",
+          "nome": "Clone",
+          "descricao": "Organismo ou célula geneticamente idêntico a outro, obtido por reprodução assexuada ou por clonagem.",
+          "variantes": [
+            "Clonagem",
+            "Cloning"
+          ]
+        },
+        {
+          "id": "visconde_de_sabugosa",
+          "nome": "Visconde de Sabugosa",
+          "descricao": "Personagem sábio do Sítio do Picapau Amarelo, de Monteiro Lobato.",
+          "variantes": [
+            "Visconde"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Tortellini",
+        "descricao": "Massa italiana recheada, típica de Bolonha e Módena, em forma de anel.",
+        "variantes": [
+          "Tortelino"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "otelo",
+          "nome": "Otelo",
+          "descricao": "Tragédia de William Shakespeare sobre um general mouro a serviço de Veneza, levado ao ciúme contra a esposa Desdêmona.",
+          "variantes": [
+            "Othello",
+            "Otelo, o Mouro de Veneza"
+          ]
+        },
+        {
+          "id": "luge",
+          "nome": "Luge",
+          "descricao": "Esporte olímpico de inverno em que o atleta desce deitado de costas, com os pés à frente, num pequeno trenó.",
+          "variantes": [
+            "Luge de pista natural",
+            "Trenó"
+          ]
+        },
+        {
+          "id": "treno",
+          "nome": "Trenó",
+          "descricao": "Veículo que desliza sobre gelo ou neve por meio de lâminas, puxado ou usado em descidas.",
+          "variantes": [
+            "Tobogã",
+            "Sled"
+          ]
+        },
+        {
+          "id": "bellini",
+          "nome": "Bellini",
+          "descricao": "Coquetel italiano de prosecco com purê de pêssego, criado no Harry's Bar, em Veneza.",
+          "variantes": [
+            "Bellini (coquetel)"
+          ]
+        },
+        {
+          "id": "patolino",
+          "nome": "Patolino",
+          "descricao": "Pato preto e escandaloso dos desenhos Looney Tunes, da Warner Bros.",
+          "variantes": [
+            "Daffy Duck"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Frango assado",
+        "descricao": "Frango inteiro preparado por assamento no forno ou no espeto.",
+        "variantes": [
+          "Galeto assado",
+          "Frango no forno"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "frango_tandoori",
+          "nome": "Frango tandoori",
+          "descricao": "Frango indiano marinado em iogurte e especiarias, assado em forno de barro tandoor.",
+          "variantes": [
+            "Tandoori chicken"
+          ]
+        },
+        {
+          "id": "maneki_neko",
+          "nome": "Maneki-neko",
+          "descricao": "Estatueta de gato com a pata levantada, usada como amuleto de sorte em lojas e restaurantes.",
+          "variantes": [
+            "Gato da sorte",
+            "Gato acenando"
+          ]
+        },
+        {
+          "id": "acossado",
+          "nome": "Acossado",
+          "descricao": "Filme francês de 1960 de Jean-Luc Godard, com Jean-Paul Belmondo e Jean Seberg, marco da Nouvelle Vague.",
+          "variantes": [
+            "À bout de souffle",
+            "Breathless"
+          ]
+        },
+        {
+          "id": "alberto_ascari",
+          "nome": "Alberto Ascari",
+          "descricao": "Piloto italiano bicampeão mundial de Fórmula 1 pela Ferrari, em 1952 e 1953, morto em 1955.",
+          "variantes": []
+        },
+        {
+          "id": "peru_assado",
+          "nome": "Peru assado",
+          "descricao": "Peru inteiro assado no forno, prato tradicional de festas nos Estados Unidos e no Brasil.",
+          "variantes": [
+            "Peru de Natal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Guacamole",
+        "descricao": "Pasta ou molho à base de abacate, originário do México.",
+        "variantes": [
+          "Guac"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cataratas_do_iguacu",
+          "nome": "Cataratas do Iguaçu",
+          "descricao": "Conjunto de quedas d'água do rio Iguaçu, na fronteira entre o Paraná, no Brasil, e a província argentina de Misiones.",
+          "variantes": [
+            "Iguaçu",
+            "Cataratas del Iguazú",
+            "Iguazu Falls",
+            "Foz do Iguaçu"
+          ]
+        },
+        {
+          "id": "rio_iguacu",
+          "nome": "Rio Iguaçu",
+          "descricao": "Rio do Paraná que forma as Cataratas do Iguaçu e deságua no rio Paraná, na Tríplice Fronteira.",
+          "variantes": [
+            "Iguaçu",
+            "Iguazú",
+            "Iguazu River"
+          ]
+        },
+        {
+          "id": "gustavo_kuerten",
+          "nome": "Gustavo Kuerten",
+          "descricao": "Tenista brasileiro tricampeão de Roland Garros, o Guga.",
+          "variantes": [
+            "Guga"
+          ]
+        },
+        {
+          "id": "agua",
+          "nome": "Água",
+          "descricao": "Substância formada por hidrogênio e oxigênio, essencial à vida, considerada um dos quatro elementos pelos antigos.",
+          "variantes": [
+            "H2O"
+          ]
+        },
+        {
+          "id": "goulash",
+          "nome": "Goulash",
+          "descricao": "Ensopado húngaro de carne temperado com páprica.",
+          "variantes": [
+            "Gulash",
+            "Gulyás",
+            "Gulache"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Bala de goma",
+        "descricao": "Doce de gelatina mastigável em forma de ursinho, como os da Haribo.",
+        "variantes": [
+          "Ursinho de goma",
+          "Gummy bear",
+          "Gummibärchen"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "reino_de_roma",
+          "nome": "Reino de Roma",
+          "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+          "variantes": [
+            "Monarquia Romana",
+            "Roman Kingdom"
+          ]
+        },
+        {
+          "id": "carrinho_de_rolima",
+          "nome": "Carrinho de rolimã",
+          "descricao": "Carrinho artesanal de madeira com rolamentos, usado em corridas ladeira abaixo.",
+          "variantes": [
+            "Carrinho de rolamentos",
+            "Carrinho de lomba"
+          ]
+        },
+        {
+          "id": "tubarao_cobra",
+          "nome": "Tubarão-cobra",
+          "descricao": "Tubarão de águas profundas (Chlamydoselachus anguineus), de corpo de enguia e guelras franjadas.",
+          "variantes": [
+            "Chlamydoselachus anguineus",
+            "Tubarão-de-gola"
+          ]
+        },
+        {
+          "id": "batalha_de_zama",
+          "nome": "Batalha de Zama",
+          "descricao": "Batalha de 202 antes de Cristo, no norte da África, que encerrou a Segunda Guerra Púnica com a derrota de Aníbal.",
+          "variantes": [
+            "Battle of Zama"
+          ]
+        },
+        {
+          "id": "bandeira_de_oma",
+          "nome": "Bandeira de Omã",
+          "descricao": "Bandeira nacional do Sultanato de Omã, com faixas branca, vermelha e verde e emblema de punhal e espadas.",
+          "variantes": [
+            "Omã",
+            "Bandeira de Oman"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Caviar",
+        "descricao": "Iguaria feita de ovas salgadas de esturjão e, por extensão, de outros peixes.",
+        "variantes": [
+          "Caviare",
+          "Ova de salmão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dinastia_salomonica",
+          "nome": "Dinastia salomônica",
+          "descricao": "Casa imperial da Etiópia, que reinou de 1270 a 1974 e se dizia descendente do rei Salomão.",
+          "variantes": [
+            "Solomonic dynasty",
+            "Casa de Salomão"
+          ]
+        },
+        {
+          "id": "cranio",
+          "nome": "Crânio",
+          "descricao": "Estrutura óssea que envolve e protege o cérebro dos vertebrados.",
+          "variantes": [
+            "Caveira",
+            "Cabeça óssea"
+          ]
+        },
+        {
+          "id": "capilar_sanguineo",
+          "nome": "Capilar sanguíneo",
+          "descricao": "Vaso sanguíneo microscópico onde ocorrem as trocas entre o sangue e os tecidos.",
+          "variantes": [
+            "Capilar",
+            "Vasos capilares"
+          ]
+        },
+        {
+          "id": "torta_de_limao_com_merengue",
+          "nome": "Torta de limão com merengue",
+          "descricao": "Torta de massa amanteigada recheada com creme de limão e coberta com merengue.",
+          "variantes": [
+            "Torta de limão",
+            "Lemon meringue pie"
+          ]
+        },
+        {
+          "id": "primeiro_templo_de_jerusalem",
+          "nome": "Primeiro Templo de Jerusalém",
+          "descricao": "Templo judaico erguido em Jerusalém e destruído pelos babilônios no século seis antes de Cristo",
+          "variantes": [
+            "Templo de Salomão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Biscoito de polvilho",
+        "descricao": "Biscoito típico brasileiro feito de polvilho, em forma de argola, como o Biscoito Globo.",
+        "variantes": [
+          "Avoador",
+          "Biscoito de goma",
+          "Biscoito de vento",
+          "Biscoito voador",
+          "Peta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "petra",
+          "nome": "Petra",
+          "descricao": "Cidade dos nabateus, escavada na rocha, no sul da Jordânia.",
+          "variantes": [
+            "Cidade Rosa"
+          ]
+        },
+        {
+          "id": "pieta_michelangelo",
+          "nome": "Pietà (Michelangelo)",
+          "descricao": "Escultura de mármore de Michelangelo, de 1498-1499, que mostra Maria com Jesus morto no colo, na Basílica de São Pedro.",
+          "variantes": [
+            "Pietà do Vaticano",
+            "La Pietà",
+            "Pietà"
+          ]
+        },
+        {
+          "id": "petra_al_khazneh",
+          "nome": "Petra (Al-Khazneh)",
+          "descricao": "Tumba nabateia esculpida na rocha, chamada de Tesouro, na cidade antiga de Petra, na Jordânia.",
+          "variantes": [
+            "Al-Khazneh",
+            "O Tesouro",
+            "Petra"
+          ]
+        },
+        {
+          "id": "politereftalato_de_etileno",
+          "nome": "Politereftalato de etileno",
+          "descricao": "Plástico conhecido pela sigla PET, usado em garrafas de refrigerante e reciclado em fibras têxteis.",
+          "variantes": [
+            "PET",
+            "Polietileno tereftalato"
+          ]
+        },
+        {
+          "id": "ptah",
+          "nome": "Ptah",
+          "descricao": "Deus criador egípcio cultuado em Mênfis, patrono dos artesãos e construtores",
+          "variantes": [
+            "Ptá"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é leite."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é scone."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é tortellini."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Frango assado difere de frango tandoori e peru assado."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é guacamole."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é bala de goma."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é caviar."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é biscoito de polvilho."
+    }
+  ]
+}
