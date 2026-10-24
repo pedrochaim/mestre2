@@ -1,0 +1,191 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Nintendo Switch",
+        "descricao": "Console de videogame híbrido da Nintendo, lançado em 2017, que funciona como portátil ou conectado à TV.",
+        "variantes": [
+          "Switch"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "swift",
+          "nome": "Swift",
+          "descricao": "Golpe de pokémon do tipo Normal, da 1ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "sanduiche",
+          "nome": "Sanduíche",
+          "descricao": "Alimento feito com recheio entre duas fatias de pão, nome tirado de um título nobre inglês",
+          "variantes": [
+            "Sanduba",
+            "Sandes",
+            "Sandwich",
+            "Sanduche"
+          ]
+        },
+        {
+          "id": "nintendo",
+          "nome": "Nintendo",
+          "descricao": "Empresa japonesa de videogames fundada em 1889, criadora de Mario e Zelda.",
+          "variantes": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Koppai"
+          ]
+        },
+        {
+          "id": "sitcom",
+          "nome": "Sitcom",
+          "descricao": "Gênero de série de comédia de TV com personagens fixos em situações do dia a dia, geralmente em episódios curtos.",
+          "variantes": [
+            "Comédia de situação"
+          ]
+        },
+        {
+          "id": "itachi_uchiha",
+          "nome": "Itachi Uchiha",
+          "descricao": "Ninja do clã Uchiha, irmão mais velho de Sasuke e membro da Akatsuki em Naruto.",
+          "variantes": [
+            "Itachi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Placa de ensaio (protoboard)",
+        "descricao": "Base reutilizável com furos para montar protótipos de circuitos eletrônicos sem solda.",
+        "variantes": [
+          "Protoboard",
+          "Breadboard",
+          "Matriz de contatos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tabela_de_basquete",
+          "nome": "Tabela de basquete",
+          "descricao": "Placa vertical presa atrás do aro, na qual a bola pode quicar antes de entrar na cesta.",
+          "variantes": [
+            "Backboard",
+            "Tabela"
+          ]
+        },
+        {
+          "id": "bridge",
+          "nome": "Bridge",
+          "descricao": "Jogo de cartas de vazas jogado em duplas, com uma fase de leilão para definir o contrato.",
+          "variantes": [
+            "Contract bridge",
+            "Bridge de contrato"
+          ]
+        },
+        {
+          "id": "regador",
+          "nome": "Regador",
+          "descricao": "Recipiente portátil com alça e bico usado para regar plantas.",
+          "variantes": [
+            "Regadora"
+          ]
+        },
+        {
+          "id": "pilha_de_botao",
+          "nome": "Pilha de botão",
+          "descricao": "Pequena bateria de uma única célula, em forma de cilindro achatado, usada em relógios e calculadoras.",
+          "variantes": [
+            "Bateria de botão",
+            "Pilha moeda",
+            "Bateria de moeda"
+          ]
+        },
+        {
+          "id": "arco_de_constantino",
+          "nome": "Arco de Constantino",
+          "descricao": "Arco do triunfo de Roma, entre o Coliseu e o monte Palatino, dedicado em 315.",
+          "variantes": [
+            "Arco di Costantino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Forno de micro-ondas",
+        "descricao": "Eletrodoméstico que aquece alimentos por radiação eletromagnética na faixa das micro-ondas.",
+        "variantes": [
+          "Micro-ondas",
+          "Microondas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "forno_de_micro_ondas",
+          "nome": "Forno de micro-ondas",
+          "descricao": "Eletrodoméstico que aquece alimentos com radiação de micro-ondas, desenvolvido a partir da tecnologia de radar.",
+          "variantes": [
+            "Micro-ondas",
+            "Microwave oven"
+          ]
+        },
+        {
+          "id": "hiroo_onoda",
+          "nome": "Hiroo Onoda",
+          "descricao": "Oficial do exército japonês que continuou lutando nas Filipinas por décadas após o fim da Segunda Guerra Mundial.",
+          "variantes": [
+            "Onoda Hirō"
+          ]
+        },
+        {
+          "id": "mitocondria",
+          "nome": "Mitocôndria",
+          "descricao": "Organela de células eucariotas com dupla membrana, responsável pela respiração aérea e produção de ATP.",
+          "variantes": [
+            "Mitocôndrias",
+            "Mitochondrion"
+          ]
+        },
+        {
+          "id": "miranda",
+          "nome": "Miranda",
+          "descricao": "Menor e mais interna das cinco luas esféricas de Urano, de superfície com cânions e coroas, fotografada pela Voyager 2.",
+          "variantes": [
+            "Miranda (satélite)",
+            "Uranus V"
+          ]
+        },
+        {
+          "id": "mykonos",
+          "nome": "Mykonos",
+          "descricao": "Ilha grega das Cíclades, conhecida pelas casas brancas e pela vida noturna.",
+          "variantes": [
+            "Míconos",
+            "Mikonos"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nintendo Switch é um console, diferente da empresa Nintendo e das demais candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Protoboard não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "forno_de_micro_ondas",
+      "motivo": "Mesmo eletrodoméstico, mesmo nome e variantes."
+    }
+  ]
+}

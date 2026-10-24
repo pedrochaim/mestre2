@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que componente de radar, desenvolvido no Reino Unido, tornou possível a criação deste aparelho?",
+        "resposta": "Magnétron de cavidade"
+      },
+      "existentes": [
+        {
+          "id": "q00881",
+          "pergunta": "Nos anos quarenta, o engenheiro Percy Spencer trabalhava perto de um equipamento de radar quando algo derreteu no seu bolso. O que era?",
+          "resposta": "Uma barra de chocolate"
+        },
+        {
+          "id": "q03602",
+          "pergunta": "O forno de micro-ondas nasceu nos anos quarenta, de pesquisas com que equipamento militar?",
+          "resposta": "Radar"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o magnétron de cavidade, componente que viabilizou o micro-ondas. As existentes pedem o chocolate derretido e o radar como origem. Responder uma não leva a responder a outra."
+    }
+  ]
+}

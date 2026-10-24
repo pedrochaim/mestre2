@@ -1,0 +1,36 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato (sucedeu o Wii U) está nos trechos. Mas o Nintendo 3DS é um distrator defensável: o Switch é muitas vezes visto como sucessor também da linha portátil. Troquei esse distrator por um console doméstico claramente anterior.",
+      "reescrita": {
+        "pergunta": "Este console da Nintendo sucedeu qual outro console da própria empresa?",
+        "resposta": "Wii U",
+        "distratores": [
+          "Wii",
+          "GameCube",
+          "Nintendo 64"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz a palavra \"placa\", que faz parte da resposta \"placa de ensaio\" e é palavra derivada dela. Troquei por \"item\". A pista \"aulas de eletrônica\" ajuda sem entregar a resposta.",
+      "reescrita": {
+        "pergunta": "Que item é este, comum em aulas de eletrônica, usado para montar circuitos?",
+        "resposta": "Protoboard (placa de ensaio)"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em inglês confirma que o magnétron de cavidade, desenvolvido no Reino Unido para radar, tornou possível o forno de micro-ondas. Sem a figura, o enunciado não permite responder. Os distratores são do mesmo tipo e nenhum deles está correto.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto limpa do console, sem texto, reconhecível pelo formato e pelos controles laterais.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este console da Nintendo sucedeu qual outro console da própria empresa?",
+      "resposta": "Wii U",
+      "distratores": [
+        "Wii",
+        "GameCube",
+        "Nintendo 3DS"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nintendo Switch",
+        "descricao": "Console de videogame híbrido da Nintendo, lançado em 2017, que funciona como portátil ou conectado à TV.",
+        "variantes": [
+          "Switch"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O nome 'Speak & Spell' e 'Texas Instruments' estão escritos no aparelho e entregam a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "A protoboard com chips, fios e LEDs é reconhecível; o texto no chip não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de placa é esta, comum em aulas de eletrônica?",
+      "resposta": "Protoboard (placa de ensaio)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Placa de ensaio (protoboard)",
+        "descricao": "Base reutilizável com furos para montar protótipos de circuitos eletrônicos sem solda.",
+        "variantes": [
+          "Protoboard",
+          "Breadboard",
+          "Matriz de contatos"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O nome 'XBOX 360' aparece escrito várias vezes nos consoles."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Aparecem 'Newton', 'MessagePad' e a logo da Apple, que entregam a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A placa 'olivetti programma 101' está visível e entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Forno de micro-ondas claramente visível; a marca Panasonic e o display não entregam a resposta pedida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que componente de radar, desenvolvido no Reino Unido, tornou possível a criação deste aparelho?",
+      "resposta": "Magnétron de cavidade",
+      "distratores": [
+        "Válvula triodo",
+        "Tubo de raios catódicos",
+        "Tubo de Geiger"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Forno de micro-ondas",
+        "descricao": "Eletrodoméstico que aquece alimentos por radiação eletromagnética na faixa das micro-ondas.",
+        "variantes": [
+          "Micro-ondas",
+          "Microondas"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Uma mulher desconhecida, pessoa comum, aparece em primeiro plano, e o telefone fica pequeno na imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A pilha mostra 'AA ALKALINE' e a marca Energizer, o que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O nome 'iMac' está escrito na frente do aparelho."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Uma mulher comum aparece em primeiro plano, e a máquina é um perfurador manual pouco reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A bateria mostra '9V' e a marca Duracell, o que entrega a resposta."
+    }
+  ]
+}
