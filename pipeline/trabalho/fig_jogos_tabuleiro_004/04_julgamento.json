@@ -1,0 +1,565 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Reversi (Othello)",
+        "descricao": "Jogo de estratégia para dois jogadores num tabuleiro 8x8, com discos de duas cores que são virados.",
+        "variantes": [
+          "Othello",
+          "Reversi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "otelo",
+          "nome": "Otelo",
+          "descricao": "Tragédia de William Shakespeare sobre um general mouro a serviço de Veneza, levado ao ciúme contra a esposa Desdêmona.",
+          "variantes": [
+            "Othello",
+            "Otelo, o Mouro de Veneza"
+          ]
+        },
+        {
+          "id": "grande_otelo",
+          "nome": "Grande Otelo",
+          "descricao": "Ator, comediante, cantor e compositor brasileiro nascido em Uberlândia, parceiro de Oscarito no cinema.",
+          "variantes": [
+            "Sebastião Bernardes de Souza Prata",
+            "Othelo"
+          ]
+        },
+        {
+          "id": "monte_everest",
+          "nome": "Monte Everest",
+          "descricao": "Montanha do Himalaia, na fronteira entre Nepal e China, o ponto mais alto da Terra acima do nível do mar.",
+          "variantes": [
+            "Everest",
+            "Chomolungma",
+            "Sagarmatha",
+            "Mount Everest"
+          ]
+        },
+        {
+          "id": "hellboy",
+          "nome": "Hellboy",
+          "descricao": "Demônio de pele vermelha que combate o sobrenatural, personagem de quadrinhos americano dos anos 1990",
+          "variantes": []
+        },
+        {
+          "id": "shellos",
+          "nome": "Shellos",
+          "descricao": "Pokémon do tipo Água, número 422 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ganjifa",
+        "descricao": "Tipo de baralho tradicional, de cartas redondas pintadas, associado à Pérsia e à Índia.",
+        "variantes": [
+          "Ganjapa",
+          "Gânjaphâ"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ganesha",
+          "nome": "Ganesha",
+          "descricao": "Deus hindu com cabeça de elefante, ligado à sabedoria e à remoção de obstáculos",
+          "variantes": [
+            "Ganesh",
+            "Ganapati"
+          ]
+        },
+        {
+          "id": "caldo_de_cana",
+          "nome": "Caldo de cana",
+          "descricao": "Bebida feita do líquido extraído da cana-de-açúcar prensada.",
+          "variantes": [
+            "Garapa"
+          ]
+        },
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+          "variantes": [
+            "Ghana",
+            "República de Gana"
+          ]
+        },
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        },
+        {
+          "id": "rio_negro",
+          "nome": "Rio Negro",
+          "descricao": "Rio de águas escuras da Amazônia, principal afluente da margem esquerda do Amazonas, que passa por Manaus.",
+          "variantes": [
+            "Rio Negro (Amazonas)",
+            "Rio Negro do Amazonas",
+            "Guainía",
+            "Negro River"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Futebol de botão",
+        "descricao": "Jogo de mesa que simula uma partida de futebol com discos ou botões e uma pequena bola.",
+        "variantes": [
+          "Futebol de mesa",
+          "Futebol de mesa de botão",
+          "Button football"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pebolim",
+          "nome": "Pebolim",
+          "descricao": "Jogo de mesa que simula uma partida de futebol com bonequinhos presos em barras giratórias.",
+          "variantes": [
+            "Totó",
+            "Fla-flu",
+            "Futebol de mesa",
+            "Matraquilhos"
+          ]
+        },
+        {
+          "id": "futebol_de_botao",
+          "nome": "Futebol de botão",
+          "descricao": "Jogo de mesa que simula uma partida de futebol com botões movidos por uma palheta.",
+          "variantes": [
+            "Futebol de mesa",
+            "Futmesa"
+          ]
+        },
+        {
+          "id": "futebol_de_areia",
+          "nome": "Futebol de areia",
+          "descricao": "Variante do futebol jogada na areia por duas equipes de cinco jogadores.",
+          "variantes": [
+            "Beach soccer",
+            "Futebol de praia"
+          ]
+        },
+        {
+          "id": "futsal",
+          "nome": "Futsal",
+          "descricao": "Variante do futebol jogada em quadra por equipes de cinco jogadores.",
+          "variantes": [
+            "Futebol de salão"
+          ]
+        },
+        {
+          "id": "futebol_de_5",
+          "nome": "Futebol de 5",
+          "descricao": "Modalidade paralímpica de futebol para atletas cegos, jogada com bola sonora e cinco jogadores por equipe.",
+          "variantes": [
+            "Futebol de cegos",
+            "Football 5-a-side"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Lee Sedol",
+        "descricao": "Ex-jogador profissional sul-coreano de go, 9 dan, que enfrentou o AlphaGo em 2016.",
+        "variantes": [
+          "Lee Se-dol",
+          "Yi Se-dol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_lua",
+          "nome": "Peixe-lua",
+          "descricao": "Grande peixe oceânico de corpo achatado e arredondado (Mola mola), um dos peixes ósseos mais pesados.",
+          "variantes": [
+            "Mola mola",
+            "Ocean sunfish",
+            "Peixe-sol"
+          ]
+        },
+        {
+          "id": "selecao_marroquina_de_futebol",
+          "nome": "Seleção Marroquina de Futebol",
+          "descricao": "Seleção nacional de futebol do Marrocos, semifinalista da Copa do Mundo de 2022.",
+          "variantes": [
+            "Seleção do Marrocos",
+            "Leões do Atlas"
+          ]
+        },
+        {
+          "id": "volei_sentado",
+          "nome": "Vôlei sentado",
+          "descricao": "Variante do vôlei para pessoas com deficiência, jogada com os atletas sentados no chão.",
+          "variantes": [
+            "Voleibol sentado",
+            "Sitting volleyball"
+          ]
+        },
+        {
+          "id": "jeet_kune_do",
+          "nome": "Jeet Kune Do",
+          "descricao": "Filosofia e sistema de luta criados nos anos 1960 por Bruce Lee.",
+          "variantes": [
+            "Caminho do punho que intercepta"
+          ]
+        },
+        {
+          "id": "luis_xiv",
+          "nome": "Luís XIV",
+          "descricao": "Rei da França de 1643 a 1715, o Rei Sol, construtor de Versalhes.",
+          "variantes": [
+            "Rei Sol",
+            "Louis XIV"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Caça-níqueis",
+        "descricao": "Máquina de jogo de azar com rolos giratórios que paga conforme a combinação de símbolos.",
+        "variantes": [
+          "Slot machine",
+          "Máquina de fruta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maquina_de_costura",
+          "nome": "Máquina de costura",
+          "descricao": "Máquina que une tecidos com linha, considerada inventada por Thomas Saint em 1790.",
+          "variantes": []
+        },
+        {
+          "id": "eolipila",
+          "nome": "Eolípila",
+          "descricao": "Turbina a vapor simples, uma esfera que gira quando a água do recipiente é aquecida, descrita por Heron de Alexandria.",
+          "variantes": [
+            "Máquina de Heron",
+            "Aeolipile",
+            "Eolípila de Heron"
+          ]
+        },
+        {
+          "id": "snag_machine",
+          "nome": "Snag Machine",
+          "descricao": "Aparelho preso ao braço do protagonista de Pokémon Colosseum e Pokémon XD, usado para capturar pokémon de outros treinadores.",
+          "variantes": [
+            "Máquina Snag"
+          ]
+        },
+        {
+          "id": "maquina_de_lavar_louca",
+          "nome": "Máquina de lavar louça",
+          "descricao": "Eletrodoméstico que lava pratos e utensílios, patenteado pela americana Josephine Cochrane em 1886.",
+          "variantes": [
+            "Lava-louças",
+            "Dishwasher"
+          ]
+        },
+        {
+          "id": "maquina_oculta",
+          "nome": "Máquina Oculta",
+          "descricao": "Item dos jogos Pokémon que ensinava golpes usados também fora das batalhas, como Surf e Força, para abrir caminho pelo mapa.",
+          "variantes": [
+            "MO",
+            "HM",
+            "Hidden Machine"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cama de gato",
+        "descricao": "Brincadeira em que se formam figuras com um laço de barbante entre os dedos das mãos.",
+        "variantes": [
+          "Cat's cradle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pendulo_de_newton",
+          "nome": "Pêndulo de Newton",
+          "descricao": "Aparelho com esferas metálicas suspensas em fila que demonstra a conservação do momento e da energia.",
+          "variantes": [
+            "Berço de Newton",
+            "Newton's cradle"
+          ]
+        },
+        {
+          "id": "academia_de_platao",
+          "nome": "Academia de Platão",
+          "descricao": "Escola fundada por Platão em Atenas, por volta de 387 a.C.",
+          "variantes": [
+            "Academia platônica",
+            "Platonic Academy"
+          ]
+        },
+        {
+          "id": "igapo",
+          "nome": "Igapó",
+          "descricao": "Floresta amazônica que fica inundada por longos períodos nas cheias dos rios de água preta",
+          "variantes": [
+            "Mata de igapó"
+          ]
+        },
+        {
+          "id": "salto_sobre_a_mesa",
+          "nome": "Salto sobre a mesa",
+          "descricao": "Prova da ginástica artística em que o ginasta salta apoiando as mãos na mesa de salto.",
+          "variantes": [
+            "Salto",
+            "Mesa de salto"
+          ]
+        },
+        {
+          "id": "cadeado",
+          "nome": "Cadeado",
+          "descricao": "Fechadura portátil com argola que passa por uma abertura para impedir o uso ou o roubo.",
+          "variantes": [
+            "Cadeado de latão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Shut the box",
+        "descricao": "Jogo de dados em que se abaixam peças numeradas de 1 a 9 numa caixa de madeira, conforme a soma dos dados.",
+        "variantes": [
+          "Fecha a caixa",
+          "Batten down the hatches"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "batalha_do_atlantico",
+          "nome": "Batalha do Atlântico",
+          "descricao": "Campanha naval de 1939 a 1945 entre os comboios aliados e os submarinos e navios alemães no Oceano Atlântico.",
+          "variantes": [
+            "Battle of the Atlantic"
+          ]
+        },
+        {
+          "id": "batalha_dos_sexos_1973",
+          "nome": "Batalha dos Sexos (1973)",
+          "descricao": "Partida de exibição disputada em 1973 em Houston entre Billie Jean King e Bobby Riggs.",
+          "variantes": [
+            "Battle of the Sexes"
+          ]
+        },
+        {
+          "id": "cara_a_cara",
+          "nome": "Cara a Cara",
+          "descricao": "Jogo de tabuleiro de adivinhar o personagem do adversário com perguntas de sim ou não, conhecido em inglês como Guess Who.",
+          "variantes": [
+            "Guess Who?"
+          ]
+        },
+        {
+          "id": "selecao_croata_de_futebol",
+          "nome": "Seleção Croata de Futebol",
+          "descricao": "Seleção nacional masculina de futebol da Croácia, de camisa em xadrez vermelho e branco.",
+          "variantes": [
+            "Croácia",
+            "Vatreni",
+            "Seleção da Croácia"
+          ]
+        },
+        {
+          "id": "ziper",
+          "nome": "Zíper",
+          "descricao": "Fecho deslizante de dentes intercalados usado em roupas, bolsas e calçados",
+          "variantes": [
+            "Zipper",
+            "Fecho éclair",
+            "Fecho de correr"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Lig 4",
+        "descricao": "Jogo em que dois jogadores soltam fichas coloridas numa grade vertical para alinhar quatro.",
+        "variantes": [
+          "Connect Four",
+          "Connect 4"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "couve_flor",
+          "nome": "Couve-flor",
+          "descricao": "Hortaliça de inflorescência branca e compacta, variedade da espécie Brassica oleracea.",
+          "variantes": [
+            "Brassica oleracea var. botrytis"
+          ]
+        },
+        {
+          "id": "elite_dos_quatro",
+          "nome": "Elite dos Quatro",
+          "descricao": "Grupo de quatro treinadores de elite que o jogador enfrenta antes do campeão na Liga Pokémon de cada região.",
+          "variantes": [
+            "Elite Four",
+            "Shitennō"
+          ]
+        },
+        {
+          "id": "pinha_cone_de_conifera",
+          "nome": "Pinha (cone de conífera)",
+          "descricao": "Estrutura lenhosa com escamas que carrega as sementes em pinheiros e outras coníferas.",
+          "variantes": [
+            "Cone",
+            "Estróbilo",
+            "Pine cone"
+          ]
+        },
+        {
+          "id": "conde_dookan",
+          "nome": "Conde Dookan",
+          "descricao": "Lorde Sith da franquia Star Wars, vilão de O Ataque dos Clones e A Vingança dos Sith.",
+          "variantes": [
+            "Count Dooku",
+            "Darth Tyranus"
+          ]
+        },
+        {
+          "id": "luigi",
+          "nome": "Luigi",
+          "descricao": "Irmão gêmeo de Mario nos jogos da Nintendo, de roupa verde.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Janggi (xadrez coreano)",
+        "descricao": "Jogo de estratégia coreano derivado do xiangqi, jogado com peças octogonais num tabuleiro de 9 por 10 linhas.",
+        "variantes": [
+          "Janggi",
+          "Changgi",
+          "Xadrez coreano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estampa_argyle",
+          "nome": "Estampa argyle",
+          "descricao": "Estampa de losangos coloridos sobrepostos por linhas diagonais cruzadas, típica de meias e suéteres.",
+          "variantes": [
+            "Argyll",
+            "Xadrez losango"
+          ]
+        },
+        {
+          "id": "haggis",
+          "nome": "Haggis",
+          "descricao": "Prato tradicional escocês feito com miúdos de ovelha, aveia e temperos, servido com purê de nabo e batata.",
+          "variantes": []
+        },
+        {
+          "id": "xango",
+          "nome": "Xangô",
+          "descricao": "Orixá da justiça, dos raios e do trovão, cultuado no candomblé e em outras religiões afro-brasileiras",
+          "variantes": [
+            "Shango",
+            "Changó",
+            "Sàngó"
+          ]
+        },
+        {
+          "id": "xadrez_tartan",
+          "nome": "Xadrez tartan",
+          "descricao": "Padrão de tecido de listras horizontais e verticais cruzadas em várias cores, tradicional da Escócia.",
+          "variantes": [
+            "Tartã",
+            "Tartan",
+            "Plaid"
+          ]
+        },
+        {
+          "id": "zen",
+          "nome": "Zen",
+          "descricao": "Escola do budismo maaiana surgida na China com o nome de Chan e difundida no Japão.",
+          "variantes": [
+            "Zen-budismo",
+            "Chan",
+            "Budismo zen"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Jogo de tabuleiro, diferente da tragédia Otelo e demais."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Baralho Ganjifa não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "futebol_de_botao",
+      "motivo": "Mesmo jogo de mesa com botões; descrições equivalentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Jogador de go; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Caça-níqueis é distinto das máquinas candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Brincadeira de barbante diferente do Pêndulo de Newton (berço de Newton)."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Jogo de dados sem candidata correspondente."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Jogo Lig 4 não está entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Janggi é um jogo; candidatas são estampas, prato etc."
+    }
+  ]
+}

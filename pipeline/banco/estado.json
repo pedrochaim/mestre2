@@ -742,9 +742,10 @@
     "fig_cientistas_012",
     "fig_automobilismo_003",
     "fig_pratos_bebidas_015",
-    "fig_plantas_005"
+    "fig_plantas_005",
+    "fig_jogos_tabuleiro_004"
   ],
-  "maior_id": 15238,
+  "maior_id": 15246,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1240,16 +1241,16 @@
     },
     "jogos_tabuleiro": {
       "familias": {
-        "o_que_e": 8,
+        "o_que_e": 14,
         "onde": 4,
-        "com_o_que_se_liga": 5
+        "com_o_que_se_liga": 7
       },
       "niveis": {
-        "1": 6,
-        "2": 6,
-        "3": 5
+        "1": 9,
+        "2": 10,
+        "3": 6
       },
-      "registradas": 17
+      "registradas": 25
     },
     "energia_matematica": {
       "familias": {

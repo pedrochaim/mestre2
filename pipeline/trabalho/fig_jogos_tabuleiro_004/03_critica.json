@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta, sem vazamento; distratores do mesmo tipo e claramente distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve o baralho (redondo, da Pérsia e da Índia) e quase entrega a resposta sem a figura. Tirar a pista.",
+      "reescrita": {
+        "pergunta": "A que tipo de baralho tradicional pertence esta carta?",
+        "resposta": "Ganjifa",
+        "distratores": [
+          "Tarô de Marselha",
+          "Hanafuda",
+          "Baralho italiano"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista; distratores plausíveis e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A nacionalidade e a modalidade ajudam sem entregar; a pessoa se reconhece pela foto. Distratores são jogadores de go.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1, aberta, sem pista no enunciado; resposta específica e única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta curta sem vazamento; distratores são outras brincadeiras populares.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado só dá a categoria; distratores são outros jogos de dados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta sem pista; distratores são outros jogos de tabuleiro/mesa e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'peças octogonais' junto com 'coreano' identifica o Janggi sem a figura. Tirar a pista. O fato (derivado do xiangqi) é sustentado pelos trechos.",
+      "reescrita": {
+        "pergunta": "De qual jogo de tabuleiro chinês é derivado este jogo coreano?",
+        "resposta": "Xiangqi (xadrez chinês)",
+        "distratores": [
+          "Shogi",
+          "Xadrez ocidental",
+          "Go"
+        ]
+      }
+    }
+  ]
+}

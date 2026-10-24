@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que jogo de mesa é este?",
+        "resposta": "Futebol de botão"
+      },
+      "existentes": [
+        {
+          "id": "q08493",
+          "pergunta": "Que jogo de mesa é este?",
+          "resposta": "Futebol de botão"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q08493",
+      "motivo": "Pergunta e resposta idênticas: mesmo fato (futebol de botão)."
+    }
+  ]
+}

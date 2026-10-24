@@ -1,0 +1,231 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano (jogador e outras pessoas no fliperama), e o aero-hóquei aparece só de relance na foto."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Tabuleiro 8x8 verde com posição inicial do Othello, sem texto, claro e legível.",
+      "pergunta": "Que jogo de tabuleiro é este?",
+      "resposta": "Othello (Reversi)",
+      "tipo": "multipla",
+      "distratores": [
+        "Go",
+        "Damas",
+        "Gamão"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Reversi (Othello)",
+        "descricao": "Jogo de estratégia para dois jogadores num tabuleiro 8x8, com discos de duas cores que são virados.",
+        "variantes": [
+          "Othello",
+          "Reversi"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Carta redonda pintada, de motivo felino, típica do ganjifa; sem texto. Distratores de baralhos tradicionais.",
+      "pergunta": "Esta carta redonda, pintada à mão, pertence a que baralho tradicional da Pérsia e da Índia?",
+      "resposta": "Ganjifa",
+      "tipo": "multipla",
+      "distratores": [
+        "Tarô de Marselha",
+        "Hanafuda",
+        "Baralho italiano"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Ganjifa",
+        "descricao": "Tipo de baralho tradicional, de cartas redondas pintadas, associado à Pérsia e à Índia.",
+        "variantes": [
+          "Ganjapa",
+          "Gânjaphâ"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Close de mão com disco, goleiro e bolinha sobre campo marcado; reconhecível como futebol de botão, sem rosto nem texto.",
+      "pergunta": "Que jogo de mesa é este?",
+      "resposta": "Futebol de botão",
+      "tipo": "multipla",
+      "distratores": [
+        "Pebolim",
+        "Aero-hóquei",
+        "Jogo de damas"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Futebol de botão",
+        "descricao": "Jogo de mesa que simula uma partida de futebol com discos ou botões e uma pequena bola.",
+        "variantes": [
+          "Futebol de mesa",
+          "Futebol de mesa de botão",
+          "Button football"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Os números de 1 a 15 visíveis entregam o nome do jogo, e a imagem é um diagrama."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; o texto ao fundo é ilegível e não traz o nome. A pergunta é de múltipla escolha, com jogadores de go parecidos.",
+      "pergunta": "Quem é este jogador profissional de go sul-coreano?",
+      "resposta": "Lee Sedol",
+      "tipo": "multipla",
+      "distratores": [
+        "Lee Chang-ho",
+        "Ke Jie",
+        "Gu Li"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Lee Sedol",
+        "descricao": "Ex-jogador profissional sul-coreano de go, 9 dan, que enfrentou o AlphaGo em 2016.",
+        "variantes": [
+          "Lee Se-dol",
+          "Yi Se-dol"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Máquina caça-níqueis em close, com rolos, alavanca e botões; os textos genéricos não dão o nome.",
+      "pergunta": "Que máquina é esta?",
+      "resposta": "Caça-níqueis",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Caça-níqueis",
+        "descricao": "Máquina de jogo de azar com rolos giratórios que paga conforme a combinação de símbolos.",
+        "variantes": [
+          "Slot machine",
+          "Máquina de fruta"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Mãos com barbante formando uma figura, fundo escuro, sem texto e sem rostos.",
+      "pergunta": "Que brincadeira é esta?",
+      "resposta": "Cama de gato",
+      "tipo": "multipla",
+      "distratores": [
+        "Cabo de guerra",
+        "Pular corda",
+        "Amarelinha"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Cama de gato",
+        "descricao": "Brincadeira em que se formam figuras com um laço de barbante entre os dedos das mãos.",
+        "variantes": [
+          "Cat's cradle"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Caixa de madeira com peças numeradas de 1 a 9, dois dados e copo; sem nome escrito.",
+      "pergunta": "Que jogo de dados é este?",
+      "resposta": "Shut the box",
+      "tipo": "multipla",
+      "distratores": [
+        "Yahtzee",
+        "Craps",
+        "Perudo"
+      ],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Shut the box",
+        "descricao": "Jogo de dados em que se abaixam peças numeradas de 1 a 9 numa caixa de madeira, conforme a soma dos dados.",
+        "variantes": [
+          "Fecha a caixa",
+          "Batten down the hatches"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Grade azul vertical com fichas vermelhas e amarelas, inconfundível; só aparece um pequeno MB em relevo, que não entrega a resposta.",
+      "pergunta": "Que jogo é este?",
+      "resposta": "Lig 4",
+      "tipo": "multipla",
+      "distratores": [
+        "Jogo da velha",
+        "Quarto",
+        "Pega-varetas"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Lig 4",
+        "descricao": "Jogo em que dois jogadores soltam fichas coloridas numa grade vertical para alinhar quatro.",
+        "variantes": [
+          "Connect Four",
+          "Connect 4"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Peças octogonais brancas com caracteres vermelhos e verdes sobre tabuleiro de linhas, típicas do janggi; um pouco desfocada, mas legível.",
+      "pergunta": "Este jogo de tabuleiro coreano, de peças octogonais, é derivado de qual jogo?",
+      "resposta": "Xiangqi (xadrez chinês)",
+      "tipo": "multipla",
+      "distratores": [
+        "Shogi",
+        "Xadrez ocidental",
+        "Go"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Janggi (xadrez coreano)",
+        "descricao": "Jogo de estratégia coreano derivado do xiangqi, jogado com peças octogonais num tabuleiro de 9 por 10 linhas.",
+        "variantes": [
+          "Janggi",
+          "Changgi",
+          "Xadrez coreano"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A imagem é um mapa político da Itália com regiões numeradas, e não mostra um baralho italiano."
+    }
+  ]
+}
