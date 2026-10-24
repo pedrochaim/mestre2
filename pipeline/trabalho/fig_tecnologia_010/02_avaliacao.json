@@ -1,0 +1,130 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de telefone sem fio com base e antena; a marca visível não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de telefone é este, composto por um fone e uma base?",
+      "resposta": "Telefone sem fio",
+      "destino": 0,
+      "ancora": {
+        "nome": "Telefone sem fio",
+        "descricao": "Telefone portátil que se conecta por rádio a uma base ligada à rede telefônica pública.",
+        "variantes": [
+          "Telefone cordless",
+          "Cordless"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vários módulos laser emitindo feixes coloridos, claramente reconhecíveis, sem texto legível relevante.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi construído o primeiro aparelho capaz de emitir feixes de luz como estes?",
+      "resposta": "1960",
+      "distratores": [
+        "1954",
+        "1957",
+        "1965"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Laser",
+        "descricao": "Dispositivo que emite luz coerente por amplificação baseada em emissão estimulada de radiação.",
+        "variantes": [
+          "Lasers"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A moldura do teclado traz 'British Broadcasting Corporation Microcomputer System' legível, o que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, de lâmpada em espiral inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de lâmpada é esta, de tubo em espiral?",
+      "resposta": "Lâmpada fluorescente compacta",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lâmpada fluorescente compacta",
+        "descricao": "Lâmpada fluorescente de tubo dobrado ou em espiral, feita para substituir a lâmpada incandescente.",
+        "variantes": [
+          "Lâmpada compacta",
+          "Lâmpada de baixo consumo",
+          "CFL"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto antiga em preto e branco de projetor de slides com lente e slide à mostra; a marca não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aparelho é este?",
+      "resposta": "Projetor de slides",
+      "distratores": [
+        "Ampliador fotográfico",
+        "Retroprojetor",
+        "Projetor de cinema"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Projetor de slides",
+        "descricao": "Aparelho óptico que projeta em uma tela imagens ampliadas de diapositivos fotográficos.",
+        "variantes": [
+          "Projetor de diapositivos",
+          "Projetor de diapositivos fotográficos"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Imagem pequena, de baixa resolução e pouco legível no celular; o objeto não é reconhecível com segurança."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Tela apagada e frente genérica: não distingue a primeira geração das seguintes, e o enunciado não escapa de nomear ou entregar o aparelho."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O texto 'GAME BOY COLOR' está visível no aparelho e entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O nome 'pdp11' e 'pdp11/40' aparece escrito no painel e entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "'SUPER NINTENDO' está escrito no console e no controle, entregando a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "'GAME GEAR' e 'SEGA' estão escritos no aparelho, entregando a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A foto mostra uma placa de museu com texto e a legenda 'Morton-Wimshurst-Holtz Influence Machine', que entrega a resposta, e a máquina quase não aparece."
+    }
+  ]
+}

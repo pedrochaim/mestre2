@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano foi construído o primeiro aparelho capaz de emitir feixes de luz como estes?",
+        "resposta": "1960"
+      },
+      "existentes": [
+        {
+          "id": "q04612",
+          "pergunta": "Em que ano o físico americano Theodore Maiman fez funcionar o primeiro laser?",
+          "resposta": "1960"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o ano do primeiro laser (1960); saber uma permite responder a outra.",
+      "id_existente": "q04612"
+    }
+  ]
+}

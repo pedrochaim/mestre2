@@ -186666,5 +186666,45 @@
       "pt": 0,
       "en": 1737
     }
+  },
+  {
+    "id": "telefone_sem_fio",
+    "nome": "Telefone sem fio",
+    "descricao": "Telefone portátil que se conecta por rádio a uma base ligada à rede telefônica pública.",
+    "variantes": [
+      "Telefone cordless",
+      "Cordless"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cordless_telephone",
+      "https://pt.wikipedia.org/wiki/Telefone_sem_fio"
+    ]
+  },
+  {
+    "id": "lampada_fluorescente_compacta",
+    "nome": "Lâmpada fluorescente compacta",
+    "descricao": "Lâmpada fluorescente de tubo dobrado ou em espiral, feita para substituir a lâmpada incandescente.",
+    "variantes": [
+      "Lâmpada compacta",
+      "Lâmpada de baixo consumo",
+      "CFL"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Compact_fluorescent_lamp",
+      "https://pt.wikipedia.org/wiki/L%C3%A2mpada_fluorescente_compacta"
+    ]
+  },
+  {
+    "id": "projetor_de_slides",
+    "nome": "Projetor de slides",
+    "descricao": "Aparelho óptico que projeta em uma tela imagens ampliadas de diapositivos fotográficos.",
+    "variantes": [
+      "Projetor de diapositivos",
+      "Projetor de diapositivos fotográficos"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Slide_projector",
+      "https://pt.wikipedia.org/wiki/Projetor_de_diapositivos"
+    ]
   }
 ]

@@ -282338,5 +282338,70 @@
       "licenca": "Public domain"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q14992",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "telefone_sem_fio",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que tipo de telefone residencial é este?",
+    "resposta": "Telefone sem fio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cordless_telephone",
+      "https://pt.wikipedia.org/wiki/Telefone_sem_fio"
+    ],
+    "imagem": {
+      "arquivo": "q14992.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:SonySPP_E100_CT1+04_res.jpg",
+      "autor": "Phrontis",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14993",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "lampada_fluorescente_compacta",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que tipo de lâmpada é esta, de tubo em espiral?",
+    "resposta": "Lâmpada fluorescente compacta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Compact_fluorescent_lamp",
+      "https://pt.wikipedia.org/wiki/L%C3%A2mpada_fluorescente_compacta"
+    ],
+    "imagem": {
+      "arquivo": "q14993.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:02_Spiral_CFL_Bulb_2010-03-08_(black_back).jpg",
+      "autor": "Sun Ladder",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14994",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "projetor_de_slides",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que aparelho é este?",
+    "resposta": "Projetor de slides",
+    "distratores": [
+      "Ampliador fotográfico",
+      "Retroprojetor",
+      "Projetor de cinema"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Slide_projector",
+      "https://pt.wikipedia.org/wiki/Projetor_de_diapositivos"
+    ],
+    "imagem": {
+      "arquivo": "q14994.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Projecteur_de_diapositives_Prestinox_début_des_années_1960.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]
