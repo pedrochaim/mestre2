@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que aparelho óptico do século dezessete é este?",
+        "resposta": "Lanterna mágica"
+      },
+      "existentes": [
+        {
+          "id": "q06737",
+          "pergunta": "Em que século foi inventado este aparelho?",
+          "resposta": "Século dezessete"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que aparelho da Antiguidade é este?",
+        "resposta": "Eolípila"
+      },
+      "existentes": [
+        {
+          "id": "q03584",
+          "pergunta": "Que aparelho da Antiguidade é este?",
+          "resposta": "Eolípila"
+        },
+        {
+          "id": "q03603",
+          "pergunta": "Que engenheiro grego do primeiro século descreveu a eolípila, uma esfera que gira movida a vapor?",
+          "resposta": "Heron de Alexandria"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede o nome do aparelho (lanterna mágica), a outra o século da invenção; fatos diferentes, embora a resposta 'século dezessete' apareça no enunciado novo."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q03584",
+      "motivo": "Enunciado e resposta idênticos (Eolípila)."
+    }
+  ]
+}

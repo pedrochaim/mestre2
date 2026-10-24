@@ -1,0 +1,144 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Mostra cinco caixas eletrônicos diferentes, com textos visíveis (Bankomat, Poznań Główny, wpłatomat); montagem e texto que entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de uma lanterna mágica antiga, sem texto, reconhecível pela chaminé, pela lente e pela lâmina de vidro pintada.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que aparelho óptico do século dezessete é este?",
+      "resposta": "Lanterna mágica",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lanterna mágica",
+        "descricao": "Antigo projetor de imagens que usa lâminas de vidro pintadas, lentes e uma fonte de luz.",
+        "variantes": [
+          "Lanterna mágica (projetor)",
+          "Lanterna magica"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem minúscula, borrada e escura; não mostra com clareza uma impressora 3D e não fica legível no celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Leitor de código de barras de mão, nítido, com apenas uma marca minúscula que não entrega a resposta. Reconhecível pela forma de pistola e pela janela vermelha. O trecho não sustenta uma pergunta de data, então a família foi trocada para o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que aparelho é este?",
+      "resposta": "Leitor de código de barras",
+      "destino": 0,
+      "ancora": {
+        "nome": "Leitor de código de barras",
+        "descricao": "Scanner óptico de mão que lê códigos de barras impressos e envia os dados a um computador.",
+        "variantes": [
+          "Scanner de código de barras",
+          "Leitor óptico de código de barras"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Réplica de eolípila (esfera com dois tubos curvos sobre uma caldeira), sem texto. A imagem é pequena, então a pergunta é de múltipla escolha, com distratores de aparelhos antigos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aparelho da Antiguidade, movido a vapor, é este?",
+      "resposta": "Eolípila",
+      "distratores": [
+        "Parafuso de Arquimedes",
+        "Relógio de água",
+        "Mecanismo de Anticítera"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Eolípila",
+        "descricao": "Pequena turbina a vapor da Antiguidade, em que uma esfera com jatos de vapor gira ao aquecer a água.",
+        "variantes": [
+          "Eolípila de Heron",
+          "Máquina de Heron",
+          "Aeolipile"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Torre com antenas setoriais contra o céu azul, sem texto, nítida. O trecho não sustenta uma pergunta de data, então a família foi trocada para o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estrutura é esta?",
+      "resposta": "Torre de telefonia celular",
+      "destino": 0,
+      "ancora": {
+        "nome": "Torre de telefonia celular",
+        "descricao": "Estrutura elevada com antenas e equipamentos que forma uma célula numa rede de telefonia celular.",
+        "variantes": [
+          "Torre celular",
+          "Estação rádio base",
+          "ERB",
+          "Antena de celular"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O teclado traz 'MSX Home Computer', 'Sony' e 'HB-10P' legíveis, o que entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Componente aberto, em close, sem reconhecimento possível como oscilador de cristal; parece uma placa qualquer e a resposta não é única."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Mostra o 'Mini Senso' da MB, variante alemã com texto visível (senso, MB). O nome na caixa não bate com a resposta Genius/Simon e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O texto 'commodore PET 2001 Series' está legível na máquina e entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Terminal de pagamento com cartão inserido, nítido. Os textos visíveis (Visa, PAX, Processing) não entregam a resposta. O trecho não sustenta uma pergunta mais profunda, então a pergunta fica no nível 1.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que aparelho é este?",
+      "resposta": "Maquininha de cartão",
+      "destino": 0,
+      "ancora": {
+        "nome": "Maquininha de cartão",
+        "descricao": "Terminal de pagamento que lê cartões de crédito e débito para fazer transferências eletrônicas de fundos.",
+        "variantes": [
+          "Máquina de cartão",
+          "Terminal de pagamento",
+          "Terminal POS",
+          "POS"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "As etiquetas 'Radio Shack TRS-80' estão legíveis em teclado, monitor e interface de expansão, o que entrega a resposta."
+    }
+  ]
+}

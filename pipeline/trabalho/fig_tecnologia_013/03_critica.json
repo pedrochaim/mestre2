@@ -1,0 +1,47 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inventada no século XVII, segundo a Wikipédia em português. 'Aparelho óptico do século dezessete' só dá época e categoria, e não entrega a resposta: camera obscura, telescópio e microscópio também cabem. A figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento. O trecho descreve o leitor de código de barras como scanner óptico que envia os dados a um computador, e a figura mostra isso.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Antiguidade' somado a 'movido a vapor' descreve a eolípila (máquina de Heron) e entrega a resposta com a imagem coberta. Além disso, os distratores não são movidos a vapor, então a pergunta se resolve por eliminação. Sem a pista do vapor, a figura volta a ser necessária, e os três distratores continuam críveis, pois também são aparelhos da Antiguidade.",
+      "reescrita": {
+        "pergunta": "Que aparelho da Antiguidade é este?",
+        "resposta": "Eolípila",
+        "distratores": [
+          "Parafuso de Arquimedes",
+          "Relógio de água",
+          "Mecanismo de Anticítera"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista no enunciado. Os trechos sustentam que a torre é uma estrutura elevada com antenas que forma uma célula na rede celular.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento. Os trechos confirmam que é um terminal de pagamento que lê cartões, chamado popularmente de maquininha no Brasil.",
+      "reescrita": null
+    }
+  ]
+}
