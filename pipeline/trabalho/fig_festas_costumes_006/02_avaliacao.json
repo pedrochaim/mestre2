@@ -1,0 +1,151 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Retrato de uma jovem comum em primeiro plano, num contexto que não é festa pública; o chapéu aparece em segundo plano com outras pessoas."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto clara do serviço de chá com bandeja de três andares, sanduíches, scones e bule, sem texto.",
+      "tipo": "aberta",
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Este costume à mesa, com chá, sanduíches pequenos e bolinhos, é uma tradição de que país?",
+      "resposta": "Reino Unido",
+      "distratores": [],
+      "ancora": {
+        "nome": "Chá da tarde",
+        "descricao": "Refeição leve de meio da tarde, com chá, sanduíches e bolinhos, associada ao Reino Unido.",
+        "variantes": [
+          "Afternoon tea",
+          "Chá das cinco",
+          "Chá inglês"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Dois dançarinos em pose de estúdio em primeiro plano, fora de festa pública; a resposta 'tango' não é única diante da imagem, pois poderia ser outra dança de salão."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Par de geta bem nítido sobre fundo branco, sem texto, reconhecível pelos dentes de madeira e pela tira.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "De que país é este calçado tradicional de madeira, com dois dentes sob a sola?",
+      "resposta": "Japão",
+      "distratores": [
+        "China",
+        "Coreia do Sul",
+        "Tailândia"
+      ],
+      "ancora": {
+        "nome": "Geta",
+        "descricao": "Calçado tradicional japonês de madeira, com base plana elevada por dentes e preso ao pé por uma tira de tecido.",
+        "variantes": [
+          "Gueta",
+          "Sandália japonesa de madeira"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto de uma pessoa comum, nua, em primeiro plano; fora das regras de pessoas e pouco adequada para celular."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Close de três tecidos xadrez de lã com padrão tartan claro, sem texto e legível.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Que padrão de tecido de lã, com faixas cruzadas coloridas, é este?",
+      "resposta": "Tartan",
+      "distratores": [
+        "Vichy",
+        "Pied-de-poule",
+        "Argyle"
+      ],
+      "ancora": {
+        "nome": "Tartan",
+        "descricao": "Tecido de padrão formado por faixas horizontais e verticais coloridas que se cruzam, associado à Escócia e aos clãs escoceses.",
+        "variantes": [
+          "Tartã",
+          "Xadrez escocês",
+          "Plaid"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto histórica de multidão de homens, quase toda de costas e granulada; a resposta thobe é ambígua, pois também aparecem ghutra e bisht, e as pessoas são comuns."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Peça pendurada com penas e listras, em feira, sem forma reconhecível de rebozo; a identificação não é clara nem única."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "É um desenho a tinta, e a gravata-borboleta pode ser fotografada; ilustração não é permitida nesse caso."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Evzone em serviço diante do Túmulo do Soldado Desconhecido, com fustanella e tamancos de pompom bem visíveis; guarda cerimonial pública e sem texto que entregue a resposta.",
+      "tipo": "aberta",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Em que país trabalha esta guarda cerimonial, que usa este traje com saiote plissado e sapatos de pompom?",
+      "resposta": "Grécia",
+      "distratores": [],
+      "ancora": {
+        "nome": "Evzones",
+        "descricao": "Guardas cerimoniais da Guarda Presidencial grega, famosos pelo uniforme com fustanella.",
+        "variantes": [
+          "Evzonos",
+          "Tsoliás",
+          "Guarda Presidencial grega"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto de grupo de pessoas comuns posando numa biblioteca; vários trajes diferentes, e a resposta gákti não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bailarina de perfil com tutu clássico vermelho, bem nítido contra fundo escuro, sem texto; apresentação pública em palco.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que traje de balé clássico, de saia rígida e projetada na horizontal, é este?",
+      "resposta": "Tutu",
+      "distratores": [],
+      "ancora": {
+        "nome": "Tutu",
+        "descricao": "Traje de balé clássico com corpete e saia de tule, rígida e horizontal no modelo clássico.",
+        "variantes": [
+          "Tutu clássico",
+          "Tutu de balé",
+          "Tutu prato"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Pelas palavras 'chá, sanduíches e bolinhos' o enunciado já define o costume, e dá para responder sem ver a figura. Além disso, o chá da tarde também é tradição na Austrália, na Nova Zelândia e na África do Sul, então 'tradição de que país' não tem resposta única. O conserto exigiria outra pergunta. Na dúvida, descarte.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Calçado de madeira com dois dentes' é a definição da geta e quase entrega o Japão sem a imagem. Tirei o detalhe dos dentes e deixei o país e o tipo de calçado. A geta tem dois ou até três dentes, então o detalhe também era impreciso.",
+      "reescrita": {
+        "pergunta": "De que país é este calçado tradicional de madeira?",
+        "resposta": "Japão",
+        "distratores": [
+          "China",
+          "Coreia do Sul",
+          "Tailândia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Faixas cruzadas coloridas' descreve o tartan e entrega a resposta sem a imagem. Descreve também o vichy, um distrator, o que o torna defensável. Tirei a descrição para a figura fazer o trabalho de distinguir os padrões.",
+      "reescrita": {
+        "pergunta": "Que padrão de tecido é este?",
+        "resposta": "Tartan",
+        "distratores": [
+          "Vichy",
+          "Pied-de-poule",
+          "Argyle"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Saiote plissado e sapatos de pompom' são pistas muito características dos Evzones e levam à Grécia sem a figura. 'Trabalha' também soa estranho. Deixei só a guarda cerimonial e o país.",
+      "reescrita": {
+        "pergunta": "Em que país serve esta guarda cerimonial?",
+        "resposta": "Grécia",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Traje de balé clássico de saia rígida e horizontal' é a definição do tutu clássico e entrega a resposta sem a imagem. Tirei a descrição da saia.",
+      "reescrita": {
+        "pergunta": "Que traje de balé é este?",
+        "resposta": "Tutu",
+        "distratores": []
+      }
+    }
+  ]
+}

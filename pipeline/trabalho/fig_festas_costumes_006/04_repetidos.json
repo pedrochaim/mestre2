@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que padrão de tecido é este?",
+        "resposta": "Tartan"
+      },
+      "existentes": [
+        {
+          "id": "q15051",
+          "pergunta": "Que padrão de tecido é este?",
+          "resposta": "Xadrez tartan (tartã)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q15051",
+      "motivo": "Mesma pergunta e mesma resposta (tartan/xadrez tartã), mesmo fato."
+    }
+  ]
+}
