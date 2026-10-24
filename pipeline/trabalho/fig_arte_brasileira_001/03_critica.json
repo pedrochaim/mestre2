@@ -1,0 +1,90 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma que os edifícios da Esplanada foram concebidos por Niemeyer; sem vazamento, resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Dois distratores (Memorial JK, em Brasília, e Museu Oscar Niemeyer, em Curitiba) não são paulistanos e são eliminados pelo próprio enunciado. Trocados por obras de Niemeyer em São Paulo.",
+      "reescrita": {
+        "pergunta": "Que conjunto arquitetônico paulistano, projetado por Oscar Niemeyer, é este?",
+        "resposta": "Memorial da América Latina",
+        "distratores": [
+          "Parque Ibirapuera",
+          "Edifício Copan",
+          "Sambódromo do Anhembi"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma o Museu Nacional de Belas Artes; quadro de 1882, século dezenove correto; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam Niemeyer; distratores do mesmo tipo e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pintura de 1900 retrata a fundação/ocupação de São Vicente; distratores plausíveis e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma o Museu Mariano Procópio; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pedra fundamental em 1937 e obras iniciadas em 1939: ambas na década de 1930; distratores corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Dois distratores passam de quatro palavras (limite do manifesto). Encurtados, mantendo-os do mesmo tipo.",
+      "reescrita": {
+        "pergunta": "Que santuário barroco mineiro é este?",
+        "resposta": "Santuário do Bom Jesus de Matosinhos",
+        "distratores": [
+          "Santuário do Caraça",
+          "Igreja do Pilar",
+          "Igreja de São Francisco"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma o Museu Histórico Nacional; distratores plausíveis, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inaugurada em 28 de junho de 1958; resposta é ano em múltipla escolha, com distratores próximos.",
+      "reescrita": null
+    }
+  ]
+}

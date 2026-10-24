@@ -1,0 +1,241 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea clara do Congresso e dos ministérios, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que arquiteto projetou os edifícios públicos deste conjunto?",
+      "resposta": "Oscar Niemeyer",
+      "destino": 1,
+      "ancora": {
+        "nome": "Esplanada dos Ministérios",
+        "descricao": "Trecho inicial do Eixo Monumental de Brasília, com os prédios dos ministérios e o Congresso Nacional.",
+        "variantes": [
+          "Eixo Monumental",
+          "Esplanada"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Praça com arquitetura e escultura vermelha reconhecíveis, sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que conjunto arquitetônico paulistano é este?",
+      "resposta": "Memorial da América Latina",
+      "distratores": [
+        "Memorial JK",
+        "Parque Ibirapuera",
+        "Museu Oscar Niemeyer"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Memorial da América Latina",
+        "descricao": "Complexo cultural projetado por Oscar Niemeyer, inaugurado em 1989 em São Paulo.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Pintura clara; assinatura não revela o museu.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que museu fica este quadro brasileiro do século dezenove?",
+      "resposta": "Museu Nacional de Belas Artes",
+      "distratores": [
+        "Pinacoteca de São Paulo",
+        "Museu Histórico Nacional",
+        "Museu do Ipiranga"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Marabá (Rodolfo Amoedo)",
+        "descricao": "Pintura a óleo de 1882 de Rodolfo Amoedo, inspirada no poema de Gonçalves Dias.",
+        "variantes": [
+          "Marabá"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A fachada traz escrito 'Theatro Municipal', o que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Monumento reconhecível, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto projetou este memorial?",
+      "resposta": "Oscar Niemeyer",
+      "distratores": [
+        "Lúcio Costa",
+        "Lina Bo Bardi",
+        "Paulo Mendes da Rocha"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Memorial JK",
+        "descricao": "Mausoléu e centro cultural em Brasília dedicado a Juscelino Kubitschek, projetado por Oscar Niemeyer.",
+        "variantes": [
+          "Memorial Juscelino Kubitschek"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Pintura histórica nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que acontecimento da colonização esta pintura de 1900 retrata?",
+      "resposta": "Fundação de São Vicente",
+      "distratores": [
+        "Fundação de São Paulo",
+        "Fundação de Santos",
+        "Fundação do Rio de Janeiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fundação de São Vicente (Benedito Calixto)",
+        "descricao": "Pintura a óleo de 1900 de Benedito Calixto sobre a ocupação de São Vicente, no Museu Paulista.",
+        "variantes": [
+          "Fundação de São Vicente"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pintura nítida; a assinatura 'P. Americo 1893' não revela o museu.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que museu fica este quadro?",
+      "resposta": "Museu Mariano Procópio",
+      "distratores": [
+        "Museu da Inconfidência",
+        "Museu Histórico Nacional",
+        "Museu do Ipiranga"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tiradentes Esquartejado",
+        "descricao": "Óleo sobre tela de 1893 de Pedro Américo que mostra o corpo esquartejado de Tiradentes.",
+        "variantes": [
+          "Tiradentes Supliciado"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Prédio modernista com brises bem visíveis; as placas de rua não nomeiam o edifício.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década começou a construção deste edifício modernista do Rio de Janeiro?",
+      "resposta": "Década de 1930",
+      "distratores": [
+        "Década de 1920",
+        "Década de 1940",
+        "Década de 1950"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Palácio Gustavo Capanema",
+        "descricao": "Edifício modernista no centro do Rio de Janeiro, antiga sede do Ministério da Educação e Saúde.",
+        "variantes": [
+          "Edifício Gustavo Capanema",
+          "Ministério da Educação e Saúde"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A placa em frente ao prédio traz 'Museu Oscar Niemeyer', o que entrega o arquiteto."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Santuário com capelas e igreja no alto, reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que santuário barroco mineiro é este?",
+      "resposta": "Santuário do Bom Jesus de Matosinhos",
+      "distratores": [
+        "Santuário do Caraça",
+        "Igreja de São Francisco de Assis",
+        "Basílica de Nossa Senhora do Pilar"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Santuário do Bom Jesus de Matosinhos",
+        "descricao": "Santuário barroco do século dezoito em Congonhas, Minas Gerais, com os Passos da Paixão e os Profetas de Aleijadinho.",
+        "variantes": [
+          "Basílica do Bom Jesus de Matosinhos",
+          "Santuário de Congonhas"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Quadro de batalha naval escuro, mas sem texto e com resposta única sobre o museu.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que museu fica este quadro de batalha naval?",
+      "resposta": "Museu Histórico Nacional",
+      "distratores": [
+        "Museu Nacional de Belas Artes",
+        "Museu Naval",
+        "Museu da República"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Passagem de Humaitá (Victor Meirelles)",
+        "descricao": "Óleo sobre tela de Victor Meirelles sobre a passagem da esquadra brasileira por Humaitá na Guerra do Paraguai.",
+        "variantes": [
+          "Passagem de Humaitá"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Igreja inconfundível, sem texto legível.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi inaugurada esta igreja de Brasília?",
+      "resposta": "1958",
+      "distratores": [
+        "1956",
+        "1957",
+        "1960"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Igrejinha Nossa Senhora de Fátima",
+        "descricao": "Primeira igreja católica de alvenaria de Brasília, na quadra 307/308 Sul, inaugurada em 1958.",
+        "variantes": [
+          "Igrejinha da 307/308 Sul",
+          "Igreja Nossa Senhora de Fátima"
+        ]
+      }
+    }
+  ]
+}

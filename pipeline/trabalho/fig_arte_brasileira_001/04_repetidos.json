@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que museu fica este quadro?",
+        "resposta": "Museu Mariano Procópio"
+      },
+      "existentes": [
+        {
+          "id": "q07618",
+          "pergunta": "Em que século foi executado o homem retratado nesta pintura brasileira?",
+          "resposta": "Século dezoito"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que santuário barroco mineiro é este?",
+        "resposta": "Santuário do Bom Jesus de Matosinhos"
+      },
+      "existentes": [
+        {
+          "id": "q03476",
+          "pergunta": "Que santuário barroco de Minas Gerais é este?",
+          "resposta": "Santuário do Bom Jesus de Matosinhos"
+        },
+        {
+          "id": "q05424",
+          "pergunta": "No adro do Santuário do Bom Jesus de Matosinhos, em Congonhas, os doze profetas de pedra-sabão foram esculpidos por qual artista?",
+          "resposta": "Aleijadinho"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o museu onde fica o quadro, fato diferente do século da execução do retratado."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q03476",
+      "motivo": "Mesma pergunta e mesma resposta: identificar o santuário barroco mineiro."
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Esplanada dos Ministérios",
+        "descricao": "Trecho inicial do Eixo Monumental de Brasília, com os prédios dos ministérios e o Congresso Nacional.",
+        "variantes": [
+          "Eixo Monumental",
+          "Esplanada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_monumental_de_nunez",
+          "nome": "Estádio Monumental de Núñez",
+          "descricao": "Estádio do River Plate em Buenos Aires, Argentina, palco da final da Copa do Mundo de 1978.",
+          "variantes": [
+            "Estádio Monumental",
+            "Estadio Más Monumental",
+            "Estádio Monumental Antonio Vespucio Liberti"
+          ]
+        },
+        {
+          "id": "empanada",
+          "nome": "Empanada",
+          "descricao": "Salgado de massa dobrada sobre um recheio, assado ou frito, comum na Espanha e na América Latina.",
+          "variantes": [
+            "Empanadas"
+          ]
+        },
+        {
+          "id": "espadas_naipe",
+          "nome": "Espadas (naipe)",
+          "descricao": "Naipe preto do baralho francês, com símbolo em forma de coração invertido com haste.",
+          "variantes": [
+            "Pique",
+            "Espada"
+          ]
+        },
+        {
+          "id": "espanha",
+          "nome": "Espanha",
+          "descricao": "País do sul e oeste da Europa que ocupa a maior parte da Península Ibérica, cuja capital é Madri.",
+          "variantes": [
+            "Reino da Espanha"
+          ]
+        },
+        {
+          "id": "selecao_espanhola_de_futebol",
+          "nome": "Seleção Espanhola de Futebol",
+          "descricao": "Seleção nacional masculina de futebol da Espanha, apelidada de La Roja.",
+          "variantes": [
+            "Espanha",
+            "La Roja",
+            "La Furia Roja"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Memorial da América Latina",
+        "descricao": "Complexo cultural projetado por Oscar Niemeyer, inaugurado em 1989 em São Paulo.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "teoria_das_eras_glaciais",
+          "nome": "Teoria das eras glaciais",
+          "descricao": "Ideia, consolidada no século dezenove, de que grandes geleiras já cobriram extensas áreas da Terra no passado.",
+          "variantes": [
+            "Teoria glacial",
+            "Ice age theory"
+          ]
+        },
+        {
+          "id": "memorial_de_lincoln",
+          "nome": "Memorial de Lincoln",
+          "descricao": "Memorial nacional em forma de templo clássico em Washington, D.C., em homenagem a Abraham Lincoln.",
+          "variantes": [
+            "Lincoln Memorial",
+            "Memorial a Lincoln"
+          ]
+        },
+        {
+          "id": "memorial_do_uss_arizona",
+          "nome": "Memorial do USS Arizona",
+          "descricao": "Memorial em Pearl Harbor, Havaí, construído em 1962 sobre o casco afundado do encouraçado USS Arizona, atingido no ataque de 7 de dezembro de 1941.",
+          "variantes": [
+            "USS Arizona Memorial",
+            "Memorial USS Arizona"
+          ]
+        },
+        {
+          "id": "alegoria_da_caverna",
+          "nome": "Alegoria da caverna",
+          "descricao": "Alegoria de Platão sobre prisioneiros acorrentados numa caverna que só conhecem sombras projetadas na parede.",
+          "variantes": [
+            "Mito da caverna",
+            "Allegory of the cave"
+          ]
+        },
+        {
+          "id": "abacate",
+          "nome": "Abacate",
+          "descricao": "Fruto da Persea americana, de casca escura e polpa cremosa com um grande caroço.",
+          "variantes": [
+            "Persea americana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Marabá (Rodolfo Amoedo)",
+        "descricao": "Pintura a óleo de 1882 de Rodolfo Amoedo, inspirada no poema de Gonçalves Dias.",
+        "variantes": [
+          "Marabá"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marabaixo",
+          "nome": "Marabaixo",
+          "descricao": "Dança e música afro-brasileira com saias rodadas e caixas de percussão, ligada a festas religiosas populares.",
+          "variantes": []
+        },
+        {
+          "id": "mara",
+          "nome": "Mara",
+          "descricao": "Roedor parecido com uma lebre de pernas longas, Dolichotis patagonum, da Argentina.",
+          "variantes": [
+            "Mara-da-patagônia",
+            "Dolichotis patagonum"
+          ]
+        },
+        {
+          "id": "paraiba",
+          "nome": "Paraíba",
+          "descricao": "Estado do Nordeste brasileiro, cuja capital é João Pessoa.",
+          "variantes": [
+            "Estado da Paraíba"
+          ]
+        },
+        {
+          "id": "mastaba",
+          "nome": "Mastaba",
+          "descricao": "Tipo de tumba egípcia retangular, de teto plano e paredes inclinadas, anterior às pirâmides",
+          "variantes": []
+        },
+        {
+          "id": "marta",
+          "nome": "Marta",
+          "descricao": "Marta Vieira da Silva, jogadora eleita seis vezes a melhor do mundo.",
+          "variantes": [
+            "Marta Vieira da Silva"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Memorial JK",
+        "descricao": "Mausoléu e centro cultural em Brasília dedicado a Juscelino Kubitschek, projetado por Oscar Niemeyer.",
+        "variantes": [
+          "Memorial Juscelino Kubitschek"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "juscelino_kubitschek",
+          "nome": "Juscelino Kubitschek",
+          "descricao": "Político brasileiro, 21º presidente do Brasil (1956 a 1961), conhecido pela construção de Brasília.",
+          "variantes": [
+            "JK",
+            "Juscelino Kubitschek de Oliveira"
+          ]
+        },
+        {
+          "id": "ponte_jk",
+          "nome": "Ponte JK",
+          "descricao": "Ponte de três arcos de aço sobre o Lago Paranoá, em Brasília, inaugurada em 2002.",
+          "variantes": [
+            "Ponte Juscelino Kubitschek"
+          ]
+        },
+        {
+          "id": "memorial_de_vimy",
+          "nome": "Memorial de Vimy",
+          "descricao": "Memorial nacional canadense na França, dedicado aos soldados canadenses mortos na Primeira Guerra Mundial.",
+          "variantes": [
+            "Memorial Nacional Canadense de Vimy",
+            "Canadian National Vimy Memorial"
+          ]
+        },
+        {
+          "id": "memorial_de_aires",
+          "nome": "Memorial de Aires",
+          "descricao": "Último romance de Machado de Assis, publicado em 1908, em forma de diário do Conselheiro Aires.",
+          "variantes": [
+            "Memorial de Ayres"
+          ]
+        },
+        {
+          "id": "movimento_armorial",
+          "nome": "Movimento Armorial",
+          "descricao": "Movimento artístico criado por Ariano Suassuna no Recife em 1970, baseado na cultura popular nordestina.",
+          "variantes": [
+            "Armorial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Fundação de São Vicente (Benedito Calixto)",
+        "descricao": "Pintura a óleo de 1900 de Benedito Calixto sobre a ocupação de São Vicente, no Museu Paulista.",
+        "variantes": [
+          "Fundação de São Vicente"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_sao_vicente_e_granadinas",
+          "nome": "Bandeira de São Vicente e Granadinas",
+          "descricao": "Bandeira atual de São Vicente e Granadinas: tricolor vertical azul, amarelo e verde, com três losangos verdes em V no centro.",
+          "variantes": [
+            "São Vicente e Granadinas",
+            "Bandeira de São Vicente"
+          ]
+        },
+        {
+          "id": "sao_vicente",
+          "nome": "São Vicente",
+          "descricao": "Cidade do litoral do estado de São Paulo, fundada por Martim Afonso de Sousa em 1532.",
+          "variantes": [
+            "São Vicente (São Paulo)",
+            "Vila de São Vicente"
+          ]
+        },
+        {
+          "id": "torre_de_belem",
+          "nome": "Torre de Belém",
+          "descricao": "Fortificação do século dezesseis à beira do Tejo, em Lisboa.",
+          "variantes": [
+            "Torre de São Vicente",
+            "Belém Tower"
+          ]
+        },
+        {
+          "id": "fundacao_de_sao_paulo_pintura",
+          "nome": "Fundação de São Paulo (pintura)",
+          "descricao": "Quadro de Oscar Pereira da Silva no Museu Paulista.",
+          "variantes": []
+        },
+        {
+          "id": "fundacao_de_roma",
+          "nome": "Fundação de Roma",
+          "descricao": "Fundação lendária da cidade de Roma por Rômulo.",
+          "variantes": [
+            "Founding of Rome"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tiradentes Esquartejado",
+        "descricao": "Óleo sobre tela de 1893 de Pedro Américo que mostra o corpo esquartejado de Tiradentes.",
+        "variantes": [
+          "Tiradentes Supliciado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tiradentes_esquartejado",
+          "nome": "Tiradentes Esquartejado",
+          "descricao": "Óleo sobre tela de 1893 de Pedro Américo que retrata o corpo esquartejado de Tiradentes.",
+          "variantes": [
+            "Tiradentes Supliciado"
+          ]
+        },
+        {
+          "id": "smilodon",
+          "nome": "Smilodon",
+          "descricao": "Gênero extinto de felino dentes-de-sabre das Américas, que viveu até o fim da última era do gelo.",
+          "variantes": [
+            "Tigre-dentes-de-sabre",
+            "Dente-de-sabre",
+            "Smilodon populator",
+            "Tigre-dente-de-sabre"
+          ]
+        },
+        {
+          "id": "tiradentes",
+          "nome": "Tiradentes",
+          "descricao": "Joaquim José da Silva Xavier, alferes e principal mártir da Inconfidência Mineira, executado em 1792.",
+          "variantes": [
+            "Joaquim José da Silva Xavier"
+          ]
+        },
+        {
+          "id": "tiradentes_2",
+          "nome": "Tiradentes",
+          "descricao": "Município histórico de Minas Gerais, antiga São José del Rei, com a Matriz de Santo Antônio.",
+          "variantes": [
+            "São José del Rei"
+          ]
+        },
+        {
+          "id": "times_square",
+          "nome": "Times Square",
+          "descricao": "Praça e cruzamento comercial de Manhattan, em Nova York, famosa pelos painéis luminosos.",
+          "variantes": [
+            "Praça Times"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Palácio Gustavo Capanema",
+        "descricao": "Edifício modernista no centro do Rio de Janeiro, antiga sede do Ministério da Educação e Saúde.",
+        "variantes": [
+          "Edifício Gustavo Capanema",
+          "Ministério da Educação e Saúde"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "edificio_copan",
+          "nome": "Edifício Copan",
+          "descricao": "Edifício residencial sinuoso projetado por Oscar Niemeyer no centro de São Paulo.",
+          "variantes": [
+            "Copan"
+          ]
+        },
+        {
+          "id": "paulo_gustavo",
+          "nome": "Paulo Gustavo",
+          "descricao": "Ator, humorista e roteirista brasileiro (1978–2021), criador de Minha Mãe é uma Peça.",
+          "variantes": [
+            "Paulo Gustavo Amaral Monteiro de Barros"
+          ]
+        },
+        {
+          "id": "palacio_do_catete",
+          "nome": "Palácio do Catete",
+          "descricao": "Palácio no bairro do Catete, no Rio de Janeiro, sede da Presidência da República de 1897 a 1960.",
+          "variantes": [
+            "Catete Palace",
+            "Palácio Nova Friburgo"
+          ]
+        },
+        {
+          "id": "palacio_da_alvorada",
+          "nome": "Palácio da Alvorada",
+          "descricao": "Palácio projetado por Oscar Niemeyer em Brasília, à beira do lago Paranoá, residência oficial do presidente da República.",
+          "variantes": [
+            "Alvorada"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Santuário do Bom Jesus de Matosinhos",
+        "descricao": "Santuário barroco do século dezoito em Congonhas, Minas Gerais, com os Passos da Paixão e os Profetas de Aleijadinho.",
+        "variantes": [
+          "Basílica do Bom Jesus de Matosinhos",
+          "Santuário de Congonhas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santuario_do_bom_jesus_de_congonhas",
+          "nome": "Santuário do Bom Jesus de Congonhas",
+          "descricao": "Santuário barroco do século dezoito em Congonhas, Minas Gerais, com os profetas esculpidos por Aleijadinho.",
+          "variantes": [
+            "Santuário do Bom Jesus de Matosinhos",
+            "Basílica do Bom Jesus de Matosinhos",
+            "Santuário de Congonhas"
+          ]
+        },
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        },
+        {
+          "id": "delfos",
+          "nome": "Delfos",
+          "descricao": "Antigo santuário grego na encosta do monte Parnaso, sede do oráculo da Pítia e do templo de Apolo.",
+          "variantes": [
+            "Delphi",
+            "Santuário de Delfos",
+            "Oráculo de Delfos"
+          ]
+        },
+        {
+          "id": "santuario_de_cristo_rei",
+          "nome": "Santuário de Cristo Rei",
+          "descricao": "Monumento religioso em Almada, Portugal, de frente para Lisboa, inaugurado em 1959.",
+          "variantes": [
+            "Cristo Rei",
+            "Sanctuary of Christ the King",
+            "Cristo Rei de Almada"
+          ]
+        },
+        {
+          "id": "pau_de_sebo",
+          "nome": "Pau de sebo",
+          "descricao": "Brincadeira de subir num mastro untado de gordura para alcançar um prêmio no topo, típica das festas juninas.",
+          "variantes": [
+            "Mastro de cocanha",
+            "Cocanha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Passagem de Humaitá (Victor Meirelles)",
+        "descricao": "Óleo sobre tela de Victor Meirelles sobre a passagem da esquadra brasileira por Humaitá na Guerra do Paraguai.",
+        "variantes": [
+          "Passagem de Humaitá"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "passagem_de_drake",
+          "nome": "Passagem de Drake",
+          "descricao": "Trecho de mar entre o cabo Horn, no sul da América do Sul, e a península Antártica.",
+          "variantes": [
+            "Estreito de Drake",
+            "Mar de Hoces"
+          ]
+        },
+        {
+          "id": "morros_carsticos_de_guilin",
+          "nome": "Morros cársticos de Guilin",
+          "descricao": "Paisagem de morros isolados de calcário às margens do rio Li, na região de Guilin, no sul da China.",
+          "variantes": [
+            "Paisagem de Guilin",
+            "Rio Li"
+          ]
+        },
+        {
+          "id": "moema_victor_meirelles",
+          "nome": "Moema (Victor Meirelles)",
+          "descricao": "Pintura a óleo de 1866 de Victor Meirelles que retrata a indígena Moema morta nas águas, personagem do poema Caramuru.",
+          "variantes": [
+            "Moema"
+          ]
+        },
+        {
+          "id": "pastel_de_nata",
+          "nome": "Pastel de nata",
+          "descricao": "Tortinha portuguesa de massa folhada recheada com creme de ovos.",
+          "variantes": [
+            "Pastéis de nata",
+            "Pastel de Belém"
+          ]
+        },
+        {
+          "id": "revolta_de_haymarket",
+          "nome": "Revolta de Haymarket",
+          "descricao": "Protesto operário de maio de 1886 em Chicago, pela jornada de oito horas, que terminou com uma explosão e mortes e deu origem ao Primeiro de Maio.",
+          "variantes": [
+            "Haymarket affair",
+            "Massacre de Haymarket"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Igrejinha Nossa Senhora de Fátima",
+        "descricao": "Primeira igreja católica de alvenaria de Brasília, na quadra 307/308 Sul, inaugurada em 1958.",
+        "variantes": [
+          "Igrejinha da 307/308 Sul",
+          "Igreja Nossa Senhora de Fátima"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cirio_de_nazare",
+          "nome": "Círio de Nazaré",
+          "descricao": "Grande procissão católica em honra de Nossa Senhora de Nazaré realizada em Belém do Pará em outubro.",
+          "variantes": [
+            "Círio de Nossa Senhora de Nazaré"
+          ]
+        },
+        {
+          "id": "catedral_de_notre_dame_de_paris",
+          "nome": "Catedral de Notre-Dame de Paris",
+          "descricao": "Catedral gótica medieval na Île de la Cité, em Paris.",
+          "variantes": [
+            "Notre-Dame",
+            "Notre Dame de Paris",
+            "Nossa Senhora de Paris"
+          ]
+        },
+        {
+          "id": "nossa_senhora_aparecida",
+          "nome": "Nossa Senhora Aparecida",
+          "descricao": "Imagem de Nossa Senhora da Conceição encontrada em 1717, padroeira do Brasil",
+          "variantes": [
+            "Nossa Senhora da Conceição Aparecida",
+            "Our Lady of Aparecida",
+            "Imagem de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "fita_do_senhor_do_bonfim",
+          "nome": "Fita do Senhor do Bonfim",
+          "descricao": "Fitinha colorida de lembrança da Igreja do Senhor do Bonfim, em Salvador, amarrada no pulso com nós de pedidos.",
+          "variantes": [
+            "Fitinha do Bonfim",
+            "Medida do Bonfim"
+          ]
+        },
+        {
+          "id": "igreja_de_sao_jorge_de_lalibela",
+          "nome": "Igreja de São Jorge de Lalibela",
+          "descricao": "Igreja monolítica cruciforme escavada na rocha em Lalibela, Etiópia, do tempo da dinastia Zagwe.",
+          "variantes": [
+            "Bete Giyorgis",
+            "Bet Giyorgis"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Esplanada dos Ministérios."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Memorial da América Latina."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pintura de Amoedo não consta entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Memorial JK é distinto de JK e da Ponte JK."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Pintura de Calixto é diferente da cidade e das outras obras."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "tiradentes_esquartejado",
+      "motivo": "Mesma pintura de Pedro Américo, 1893, mesmas variantes."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Palácio Gustavo Capanema."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "santuario_do_bom_jesus_de_congonhas",
+      "motivo": "Mesmo santuário em Congonhas, com mesmos nomes alternativos."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Pintura Passagem de Humaitá não consta; Moema é outra obra."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Igrejinha de Brasília não consta entre as candidatas."
+    }
+  ]
+}
