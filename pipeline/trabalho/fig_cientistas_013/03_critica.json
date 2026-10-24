@@ -1,0 +1,116 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho em inglês confirma que a andradita foi batizada em homenagem a José Bonifácio. O enunciado não nomeia o cientista, e os distratores são minerais críveis, com até 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma o ampère como unidade do SI. Sem a figura há outras respostas defensáveis para um físico francês (coulomb, becquerel, pascal), então a imagem é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pelo teste da imagem coberta, 'cientista alemão, 1912, ideia sobre os continentes' entrega a deriva continental sem olhar a figura. Reescrevi para um fato que exige reconhecer a pessoa: morreu na Groenlândia em 1930, o que o trecho em português confirma.",
+      "reescrita": {
+        "pergunta": "Em que ilha ártica este cientista alemão morreu, em 1930, durante uma expedição?",
+        "resposta": "Groenlândia",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que Zerbini criou o Instituto do Coração (InCor). O enunciado não vaza a resposta, e os distratores são institutos paulistas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que ele foi general alemão e inventor dos dirigíveis rígidos. O enunciado não vaza a resposta, e a figura é necessária para identificá-lo.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato é verdadeiro, mas 'irregularidade na órbita de Mercúrio' mais 'planeta hipotético' já entrega Vulcano sem a figura. Qualquer pista alternativa sobre o feito dele também entregaria o nome, então não há reescrita boa.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está nos trechos. O distrator 'Uma Breve História do Tempo' tem 5 palavras e passa do limite de 4. Troquei por 'Breve História do Tempo'.",
+      "reescrita": {
+        "pergunta": "Qual destes livros foi escrito por este físico teórico americano?",
+        "resposta": "Física do Impossível",
+        "distratores": [
+          "O Universo Elegante",
+          "Cosmos",
+          "Breve História do Tempo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cientista belga e padre católico' basta para responder sem a figura e vaza a resposta. Tirei o 'padre católico' e deixei só a nacionalidade, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Quem é este cientista belga?",
+        "resposta": "Georges Lemaître",
+        "distratores": [
+          "Adolphe Quetelet",
+          "Ernest Solvay",
+          "Zénobe Gramme"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'É professora' depende do momento (os trechos dizem 'as of 2023'), então a pergunta não é atemporal. Ela também tem vínculo com a UCSF. Fixei o fato nos trechos: em 2002 ela aceitou o cargo em Berkeley.",
+      "reescrita": {
+        "pergunta": "Em que universidade americana esta bioquímica passou a lecionar em 2002?",
+        "resposta": "Universidade da Califórnia em Berkeley",
+        "distratores": [
+          "Stanford",
+          "Harvard",
+          "Caltech"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que ele foi general e projetou o AK-47. O enunciado não nomeia a arma nem o autor, e a figura é necessária para o reconhecimento.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos o descrevem como pai das ferrovias e pioneiro da locomotiva a vapor. O enunciado não vaza a resposta, e outros engenheiros ingleses tornam a figura necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que ele foi um dos pioneiros da fotografia. O enunciado não vaza a resposta, e a figura é necessária para identificá-lo.",
+      "reescrita": null
+    }
+  ]
+}

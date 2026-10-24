@@ -1,0 +1,261 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato pintado nítido, sem texto; figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mineral foi batizado em homenagem a este naturalista brasileiro?",
+      "resposta": "Andradita",
+      "distratores": [
+        "Andesina",
+        "Andaluzita",
+        "Anortita"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "José Bonifácio de Andrada e Silva",
+        "descricao": "Naturalista, estadista e poeta brasileiro, o Patriarca da Independência do Brasil.",
+        "variantes": [
+          "José Bonifácio",
+          "Patriarca da Independência"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato a óleo nítido, sem texto; pergunta além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que unidade de medida do Sistema Internacional leva o nome deste físico francês?",
+      "resposta": "Ampère (unidade de corrente elétrica)",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "André-Marie Ampère",
+        "descricao": "Físico e matemático francês, fundador do eletromagnetismo clássico, que dá nome à unidade de corrente elétrica.",
+        "variantes": [
+          "Ampère",
+          "André Marie Ampère"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco nítida, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ideia sobre os continentes este cientista alemão propôs em 1912?",
+      "resposta": "Deriva continental",
+      "distratores": [],
+      "destino": 5,
+      "ancora": {
+        "nome": "Alfred Wegener",
+        "descricao": "Climatologista, geofísico e explorador polar alemão que propôs a hipótese da deriva continental.",
+        "variantes": [
+          "Alfred Lothar Wegener"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto antiga legível; a caixa tem texto ilegível e de cabeça para baixo, que não entrega a resposta. Múltipla ajuda por ser figura pouco conhecida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instituto de São Paulo foi criado por este cirurgião brasileiro?",
+      "resposta": "Instituto do Coração (InCor)",
+      "distratores": [
+        "Instituto Butantan",
+        "Instituto Adolfo Lutz",
+        "Instituto do Câncer"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Euryclides de Jesus Zerbini",
+        "descricao": "Médico e cirurgião cardíaco brasileiro que fez o primeiro transplante de coração da América Latina, em 1968.",
+        "variantes": [
+          "Euryclides Zerbini",
+          "Euryclides de Jesus Zerbini"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de aeronave este general alemão projetou?",
+      "resposta": "Dirigível rígido (zepelim)",
+      "distratores": [],
+      "destino": 5,
+      "ancora": {
+        "nome": "Ferdinand von Zeppelin",
+        "descricao": "General alemão e inventor dos dirigíveis rígidos que levam seu nome.",
+        "variantes": [
+          "Conde Zeppelin",
+          "Ferdinand Graf von Zeppelin"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Litografia nítida; os textos da base são só do editor e do litógrafo, sem nome do retratado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Para explicar uma irregularidade na órbita de Mercúrio, este astrônomo francês propôs a existência de que planeta hipotético?",
+      "resposta": "Vulcano",
+      "distratores": [
+        "Planeta X",
+        "Nêmesis",
+        "Faetonte"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Urbain Le Verrier",
+        "descricao": "Astrônomo e matemático francês que previu a existência de Netuno por cálculos.",
+        "variantes": [
+          "Le Verrier",
+          "Urbain Jean Joseph Le Verrier"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, fundo borrado sem texto legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destes livros foi escrito por este físico teórico americano?",
+      "resposta": "Física do Impossível",
+      "distratores": [
+        "O Universo Elegante",
+        "Cosmos",
+        "Uma Breve História do Tempo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Michio Kaku",
+        "descricao": "Físico teórico americano de origem japonesa e divulgador científico, autor de Física do Impossível.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto antiga de baixa resolução, mas legível: padre de óculos redondos. Múltipla com cientistas belgas torna a pergunta justa.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cientista belga e padre católico é este?",
+      "resposta": "Georges Lemaître",
+      "distratores": [
+        "Adolphe Quetelet",
+        "Ernest Solvay",
+        "Zénobe Gramme"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Georges Lemaître",
+        "descricao": "Padre católico, físico teórico e matemático belga que propôs a hipótese do átomo primordial, origem da teoria do Big Bang.",
+        "variantes": [
+          "Georges Henri Joseph Édouard Lemaître",
+          "Monsenhor Lemaître"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido, fundo neutro, sem texto; figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que universidade americana esta bioquímica é professora?",
+      "resposta": "Universidade da Califórnia em Berkeley",
+      "distratores": [
+        "Stanford",
+        "Harvard",
+        "Caltech"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Jennifer Doudna",
+        "descricao": "Bioquímica americana, Nobel de Química de 2020 pelo desenvolvimento da edição de genomas com CRISPR.",
+        "variantes": [
+          "Jennifer Anne Doudna"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem texto legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que arma este general soviético projetou?",
+      "resposta": "Fuzil AK-47",
+      "distratores": [],
+      "destino": 5,
+      "ancora": {
+        "nome": "Mikhail Kalashnikov",
+        "descricao": "General, engenheiro militar e projetista de armas soviético e russo, criador do fuzil AK-47.",
+        "variantes": [
+          "Mikhail Timofeyevich Kalashnikov",
+          "Kalashnikov"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato oval antigo, legível e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que meio de transporte este engenheiro inglês foi pioneiro em desenvolver?",
+      "resposta": "Trem a vapor (ferrovia)",
+      "distratores": [],
+      "destino": 5,
+      "ancora": {
+        "nome": "George Stephenson",
+        "descricao": "Engenheiro inglês chamado de pai das ferrovias, pioneiro da locomotiva a vapor.",
+        "variantes": [
+          "George Stephenson, o pai das ferrovias"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato a óleo nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este inventor francês foi pioneiro de que invenção?",
+      "resposta": "Fotografia",
+      "distratores": [],
+      "destino": 5,
+      "ancora": {
+        "nome": "Nicéphore Niépce",
+        "descricao": "Inventor francês pioneiro da fotografia, criador da heliografia e autor da fotografia conservada mais antiga.",
+        "variantes": [
+          "Joseph Nicéphore Niépce"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ilha ártica este cientista alemão morreu, em 1930, durante uma expedição?",
+        "resposta": "Groenlândia"
+      },
+      "existentes": [
+        {
+          "id": "q04318",
+          "pergunta": "O meteorologista alemão Alfred Wegener morreu em 1930 durante uma expedição científica a qual grande ilha gelada?",
+          "resposta": "Groenlândia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q04318",
+      "motivo": "Ambas perguntam onde Wegener morreu em 1930 durante expedição; resposta Groenlândia."
+    }
+  ]
+}
