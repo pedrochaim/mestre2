@@ -1,0 +1,251 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea clara e característica das cataratas em ferradura, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cataratas são estas?",
+      "resposta": "Cataratas do Iguaçu",
+      "distratores": [
+        "Cataratas do Niágara",
+        "Cataratas Vitória",
+        "Salto Ángel"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cataratas do Iguaçu",
+        "descricao": "Sistema de quedas-d'água do rio Iguaçu na fronteira entre o Paraná (Brasil) e Misiones (Argentina).",
+        "variantes": [
+          "Cataratas do Iguazú",
+          "Iguazu Falls"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ave marinha nítida na água, sem texto; a pergunta sobre o oceano vale para o grupo dos albatrozes-errantes.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que oceano esta ave marinha tem distribuição circumpolar?",
+      "resposta": "Oceano Austral",
+      "distratores": [
+        "Oceano Ártico",
+        "Atlântico Norte",
+        "Pacífico Norte"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Albatroz-errante",
+        "descricao": "Grande ave marinha da família Diomedeidae, de maior envergadura entre as aves vivas, que habita o Oceano Austral.",
+        "variantes": [
+          "Diomedea exulans",
+          "Albatroz-viajante"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Vista distante e genérica de um vale com planície ao fundo; a cratera não é reconhecível pela imagem e a resposta não é única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Siri-azul nítido sobre fundo preto, com cores e espinhos laterais característicos, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta espécie de siri é nativa de qual oceano?",
+      "resposta": "Oceano Atlântico",
+      "distratores": [
+        "Oceano Pacífico",
+        "Oceano Índico",
+        "Oceano Ártico"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Siri-azul",
+        "descricao": "Siri Callinectes sapidus, nativo do Atlântico ocidental e do Golfo do México, de grande importância pesqueira.",
+        "variantes": [
+          "Callinectes sapidus",
+          "Blue crab"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Colunas de basalto à beira-mar e degraus de rocha característicos; pessoas pequenas e ao fundo, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que rocha vulcânica forma estas colunas?",
+      "resposta": "Basalto",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Calçada dos Gigantes",
+        "descricao": "Área de cerca de quarenta mil colunas de basalto na costa norte da Irlanda do Norte, patrimônio da UNESCO.",
+        "variantes": [
+          "Giant's Causeway"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cogumelo de espinhos pendentes brancos, muito característico, em tronco, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cogumelo é este?",
+      "resposta": "Juba-de-leão",
+      "distratores": [
+        "Cogumelo-coral",
+        "Cogumelo-ostra",
+        "Cogumelo-do-sol"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Cogumelo juba-de-leão",
+        "descricao": "Cogumelo comestível Hericium erinaceus, de espinhos longos e pendentes, que cresce em árvores de madeira dura.",
+        "variantes": [
+          "Hericium erinaceus",
+          "Lion's mane",
+          "Yamabushitake"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cogumelos shiitake com chapéu marrom escamoso e lamelas brancas, em tora, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cogumelo comestível é este?",
+      "resposta": "Shiitake",
+      "distratores": [],
+      "destino": 2,
+      "ancora": {
+        "nome": "Shiitake",
+        "descricao": "Cogumelo comestível Lentinula edodes, nativo do leste da Ásia e cultivado no mundo todo.",
+        "variantes": [
+          "Lentinula edodes",
+          "Shitake"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tubarão-lixa em repouso no fundo, com barbilhões visíveis e duas dorsais próximas; reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tubarão é este?",
+      "resposta": "Tubarão-lixa",
+      "distratores": [
+        "Tubarão-zebra",
+        "Tubarão-tapete",
+        "Tubarão-galhudo"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Tubarão-lixa",
+        "descricao": "Tubarão Ginglymostoma cirratum, de hábitos de fundo e com barbilhões, do Atlântico e Pacífico oriental.",
+        "variantes": [
+          "Ginglymostoma cirratum",
+          "Nurse shark"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Plasmódio amarelo em rede, aspecto típico do bolor-limoso, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de organismo amarelo, em forma de rede, é este, já confundido com um fungo?",
+      "resposta": "Bolor-limoso",
+      "distratores": [],
+      "destino": 2,
+      "ancora": {
+        "nome": "Bolor-limoso",
+        "descricao": "Mixomiceto Physarum polycephalum, organismo unicelular gigante de plasmódio amarelo em rede, usado em pesquisas.",
+        "variantes": [
+          "Physarum polycephalum",
+          "Blob",
+          "Mixomiceto"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Água e palmeiras cercadas por dunas: oásis claro, apesar da baixa resolução; sem texto nem pessoas.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de ambiente é este?",
+      "resposta": "Oásis",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Oásis",
+        "descricao": "Área fértil dentro de um deserto, com água e vegetação como palmeiras.",
+        "variantes": [
+          "Oasis"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Dois atobás-de-pés-azuis, com pés azul-vivo inconfundíveis, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que arquipélago do Pacífico se reproduz cerca de metade dos casais desta ave?",
+      "resposta": "Galápagos",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Atobá-de-pés-azuis",
+        "descricao": "Ave marinha Sula nebouxii, de pés azul-vivo, do Pacífico oriental tropical.",
+        "variantes": [
+          "Sula nebouxii",
+          "Patola-de-pés-azuis",
+          "Blue-footed booby"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Gravura antiga de navio com chamas luminosas nos topos dos mastros; ilustração aceitável para fenômeno raro e difícil de fotografar, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno elétrico é este, que aparece nos mastros deste navio?",
+      "resposta": "Fogo-de-santelmo",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fogo-de-santelmo",
+        "descricao": "Descarga em corona que forma um brilho azulado em mastros e pontas durante tempestades.",
+        "variantes": [
+          "Fogo de Santelmo",
+          "St. Elmo's fire",
+          "Corposant"
+        ]
+      }
+    }
+  ]
+}

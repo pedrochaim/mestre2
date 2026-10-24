@@ -1,0 +1,101 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; os distratores são cataratas ou quedas famosas, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a distribuição circumpolar no Oceano Austral. É preciso reconhecer a ave, e os distratores são oceanos ou regiões que não servem.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a espécie é nativa do Atlântico ocidental e do Golfo do México. A resposta é única e os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Dá para responder 'basalto' só com o enunciado: colunas de rocha vulcânica remetem ao basalto, então a figura vira enfeite. A nova pergunta exige reconhecer o lugar, que fica na costa norte da Irlanda do Norte conforme o trecho.",
+      "reescrita": {
+        "pergunta": "Em que país do Reino Unido fica esta formação de colunas de rocha?",
+        "resposta": "Irlanda do Norte",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 'Juba-de-leão' não segue o formato 'Cogumelo-...' dos distratores, o que denuncia a correta. A nova resposta usa o mesmo formato.",
+      "reescrita": {
+        "pergunta": "Que cogumelo é este?",
+        "resposta": "Cogumelo juba-de-leão",
+        "distratores": [
+          "Cogumelo-coral",
+          "Cogumelo-ostra",
+          "Cogumelo-do-sol"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1, direto, sem pista que vaze. Um cogumelo emblemático e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento da espécie. O nome tubarão-lixa consta no trecho, e os distratores são tubarões de fundo plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "As pistas 'amarelo, em rede, confundido com fungo' descrevem a resposta e dispensam a figura. Além disso, 'bolor-limoso' é uma categoria e a imagem mostra a espécie. A nova versão tira a pista e pede a espécie específica.",
+      "reescrita": {
+        "pergunta": "Que organismo é este?",
+        "resposta": "Bolor-limoso (Physarum polycephalum)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 simples. O oásis é definido como área fértil num deserto, e a pergunta não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os dois trechos dizem que cerca de metade dos casais reprodutores nidifica em Galápagos. É preciso reconhecer a ave, e o enunciado não a nomeia.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Fenômeno elétrico nos mastros de navio' define o fogo-de-santelmo e permite responder sem a figura. A nova versão tira essa pista.",
+      "reescrita": {
+        "pergunta": "Que fenômeno é este?",
+        "resposta": "Fogo-de-santelmo",
+        "distratores": []
+      }
+    }
+  ]
+}

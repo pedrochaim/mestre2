@@ -26,7 +26,7 @@
       "titulo": "en:Iguazu Falls",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Tornado",
@@ -54,7 +54,7 @@
       "titulo": "en:Giant's Causeway",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Glaciar Perito Moreno",
@@ -279,6 +279,286 @@
       "camada": 3,
       "destino": 2,
       "status": "usada"
+    },
+    {
+      "nome": "Geleira",
+      "titulo": "en:Glacier",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Grand Canyon",
+      "titulo": "en:Grand Canyon",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mar Morto",
+      "titulo": "en:Dead Sea",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arco-íris",
+      "titulo": "en:Rainbow",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Oásis",
+      "titulo": "en:Oasis",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Fonte termal",
+      "titulo": "en:Hot spring",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caverna de gelo",
+      "titulo": "en:Ice cave",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dolina",
+      "titulo": "en:Sinkhole",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Baikal",
+      "titulo": "en:Lake Baikal",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Halo solar",
+      "titulo": "en:Halo (optical phenomenon)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fogo-de-santelmo",
+      "titulo": "en:St. Elmo's fire",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Nuvem lenticular",
+      "titulo": "en:Lenticular cloud",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cratera de Ngorongoro",
+      "titulo": "en:Ngorongoro Crater",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pradaria marinha",
+      "titulo": "en:Seagrass",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Papagaio-do-mar",
+      "titulo": "en:Atlantic puffin",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Raia",
+      "titulo": "en:Batoidea",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Siri-azul",
+      "titulo": "en:Callinectes sapidus",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Peixe-espada",
+      "titulo": "en:Swordfish",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tamarutaca (camarão-louva-deus)",
+      "titulo": "en:Mantis shrimp",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Atobá-de-pés-azuis",
+      "titulo": "en:Blue-footed booby",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Albatroz-errante",
+      "titulo": "en:Wandering albatross",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Pinguim-rei",
+      "titulo": "en:King penguin",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tubarão-lixa",
+      "titulo": "en:Nurse shark",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Medusa juba-de-leão",
+      "titulo": "en:Lion's mane jellyfish",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Enguia-de-jardim",
+      "titulo": "en:Garden eel",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Leque-do-mar",
+      "titulo": "en:Gorgonia ventalina",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lebre-do-mar",
+      "titulo": "en:Sea hare",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Aguapé",
+      "titulo": "en:Pontederia crassipes",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Champignon",
+      "titulo": "en:Agaricus bisporus",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Shiitake",
+      "titulo": "en:Shiitake",
+      "camada": 1,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Costela-de-adão",
+      "titulo": "en:Monstera deliciosa",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Mangue-vermelho",
+      "titulo": "en:Rhizophora mangle",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Lentilha-d'água",
+      "titulo": "en:Lemna minor",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Barba-de-velho",
+      "titulo": "en:Spanish moss",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Cogumelo-ostra",
+      "titulo": "en:Pleurotus ostreatus",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Ninfeia",
+      "titulo": "en:Nymphaea",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Sargaço",
+      "titulo": "en:Sargassum",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Cogumelo juba-de-leão",
+      "titulo": "en:Hericium erinaceus",
+      "camada": 3,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Bolor-limoso",
+      "titulo": "en:Physarum polycephalum",
+      "camada": 3,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Xaxim",
+      "titulo": "en:Dicksonia sellowiana",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
     }
   ]
 }

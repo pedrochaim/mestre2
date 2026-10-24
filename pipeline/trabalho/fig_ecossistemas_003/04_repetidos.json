@@ -1,0 +1,180 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que cataratas são estas?",
+        "resposta": "Cataratas do Iguaçu"
+      },
+      "existentes": [
+        {
+          "id": "q02064",
+          "pergunta": "Em tupi-guarani, o que significa o nome Iguaçu?",
+          "resposta": "Água grande"
+        },
+        {
+          "id": "q02065",
+          "pergunta": "Que nome tem a queda das Cataratas do Iguaçu, uma fenda longa e estreita que recebe cerca de metade da vazão do rio?",
+          "resposta": "Garganta do Diabo"
+        },
+        {
+          "id": "q06713",
+          "pergunta": "Que explorador espanhol é considerado o primeiro europeu a ver as Cataratas do Iguaçu, no século dezesseis?",
+          "resposta": "Cabeza de Vaca"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que oceano esta ave marinha tem distribuição circumpolar?",
+        "resposta": "Oceano Austral"
+      },
+      "existentes": [
+        {
+          "id": "q02498",
+          "pergunta": "Que ave marinha, capaz de planar por horas sobre os oceanos do sul, tem a maior envergadura entre todas as aves vivas?",
+          "resposta": "Albatroz-errante"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que país do Reino Unido fica esta formação de colunas de rocha?",
+        "resposta": "Irlanda do Norte"
+      },
+      "existentes": [
+        {
+          "id": "q02084",
+          "pergunta": "As colunas de pedra, quase todas hexagonais, da Calçada dos Gigantes, na Irlanda do Norte, se formaram com o resfriamento de quê?",
+          "resposta": "Lava"
+        },
+        {
+          "id": "q02085",
+          "pergunta": "Segundo a lenda irlandesa, que gigante construiu a Calçada dos Gigantes para atravessar o mar até a Escócia?",
+          "resposta": "Finn McCool"
+        },
+        {
+          "id": "q05185",
+          "pergunta": "Em que parte do Reino Unido fica a Calçada dos Gigantes, com cerca de quarenta mil colunas de basalto formadas por lava resfriada?",
+          "resposta": "Irlanda do Norte"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que cogumelo comestível é este?",
+        "resposta": "Shiitake"
+      },
+      "existentes": [
+        {
+          "id": "q14662",
+          "pergunta": "Os registros escritos mais antigos do cultivo deste cogumelo vêm de que país?",
+          "resposta": "China"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que organismo é este?",
+        "resposta": "Bolor-limoso (Physarum polycephalum)"
+      },
+      "existentes": [
+        {
+          "id": "q15014",
+          "pergunta": "Este organismo amarelo, que forma uma rede de tubos, foi originalmente classificado de forma errada como que tipo de ser vivo?",
+          "resposta": "Fungo"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que tipo de ambiente é este?",
+        "resposta": "Oásis"
+      },
+      "existentes": [
+        {
+          "id": "q08692",
+          "pergunta": "Que palmeira, cujos frutos doces alimentavam as caravanas, é a árvore mais típica dos oásis do Saara?",
+          "resposta": "Tamareira"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em que arquipélago do Pacífico se reproduz cerca de metade dos casais desta ave?",
+        "resposta": "Galápagos"
+      },
+      "existentes": [
+        {
+          "id": "q06420",
+          "pergunta": "Que ave marinha é esta?",
+          "resposta": "Atobá-de-pés-azuis"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Que fenômeno é este?",
+        "resposta": "Fogo-de-santelmo"
+      },
+      "existentes": [
+        {
+          "id": "q14259",
+          "pergunta": "Como se chama este fenômeno atmosférico que aparece neste navio?",
+          "resposta": "Fogo de santelmo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar as cataratas (imagem) é fato diferente de significado do nome, Garganta do Diabo ou explorador."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Distribuição oceânica é fato diferente da maior envergadura."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q05185",
+      "motivo": "Ambas perguntam a localização da Calçada dos Gigantes: Irlanda do Norte."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar o cogumelo é diferente do país dos registros de cultivo."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Identificar o organismo é diferente da classificação errônea original."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Identificar o ambiente é diferente da palmeira típica dos oásis."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Local de reprodução é fato diferente da identificação da ave."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "id_existente": "q14259",
+      "motivo": "Ambas pedem o nome do fenômeno fogo de santelmo."
+    }
+  ]
+}
