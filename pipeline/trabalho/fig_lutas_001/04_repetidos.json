@@ -1,0 +1,56 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento musical é este?",
+        "resposta": "Berimbau"
+      },
+      "existentes": [
+        {
+          "id": "q00341",
+          "pergunta": "No berimbau, que comanda o ritmo da roda de capoeira, que fruto seco e oco serve de caixa de ressonância?",
+          "resposta": "Cabaça"
+        },
+        {
+          "id": "q04164",
+          "pergunta": "Que instrumento musical é este?",
+          "resposta": "Berimbau"
+        },
+        {
+          "id": "q05256",
+          "pergunta": "Na roda de capoeira tocam três berimbaus: gunga, médio e viola. Qual deles, de cabaça maior, tem o som mais grave?",
+          "resposta": "Gunga"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Como se chama a faixa que este lutador usa na cintura?",
+        "resposta": "Mawashi"
+      },
+      "existentes": [
+        {
+          "id": "q14375",
+          "pergunta": "Como se chama a faixa de pano que estes lutadores usam na cintura?",
+          "resposta": "Mawashi"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q04164",
+      "motivo": "Mesma pergunta e resposta (identificar o berimbau pela imagem)."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q14375",
+      "motivo": "Ambas perguntam o nome da faixa usada pelos lutadores de sumô: mawashi."
+    }
+  ]
+}

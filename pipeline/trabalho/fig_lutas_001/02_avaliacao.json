@@ -1,0 +1,137 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Três berimbaus nítidos, fundo neutro, sem texto; um único assunto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento musical é este?",
+      "resposta": "Berimbau",
+      "destino": 0,
+      "ancora": {
+        "nome": "Berimbau",
+        "descricao": "Instrumento musical de uma corda, com arco de madeira e cabaça, usado na capoeira.",
+        "variantes": [
+          "Berimbau de barriga"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Desenho a traço de uma arma que poderia ser fotografada; pelo traço, florete, espada e outras lâminas de esgrima ficam ambíguos."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem é um monumento com estátuas, visto de longe e com pessoas comuns ao fundo. Não mostra Mestre Pastinha de forma reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto, com bigode e cabelo loiro característicos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este lutador?",
+      "resposta": "Hulk Hogan",
+      "destino": 0,
+      "ancora": {
+        "nome": "Hulk Hogan",
+        "descricao": "Lutador estadunidense de luta livre profissional, astro da WWF nos anos 1980.",
+        "variantes": [
+          "Terry Bollea",
+          "Terry Gene Bollea"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, com boné com logotipo e letras ao fundo. O rosto é pouco reconhecível e não fica legível no celular."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Mostra pessoas comuns em primeiro plano, com os rostos cortados, em contexto que não é de luta. Hakama vermelha de sacerdotisa não é típica de artes marciais."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Várias armas do mesmo tipo (estrelas de arremesso) sobre fundo claro, sem texto. O assunto é um só, o shuriken, e o objeto central é uma lâmina de arremesso parecida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arma de artes marciais japonesas são estes objetos?",
+      "resposta": "Shuriken",
+      "distratores": [
+        "Nunchaku",
+        "Tonfa",
+        "Sai"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Shuriken",
+        "descricao": "Arma japonesa de arremesso, em geral uma lâmina em forma de estrela, associada aos ninjas.",
+        "variantes": [
+          "Estrela ninja",
+          "Shuriken de arremesso"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Há texto visível que entrega a resposta: 'KICKBOXEN.DE' na quina do ringue. A cena também pode ser confundida com boxe."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Conjunto completo de bogu (men, do, tare, kote), nítido, fundo branco, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Em que arte marcial japonesa se usa este equipamento de proteção?",
+      "resposta": "Kendo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bogu",
+        "descricao": "Armadura de treino do kendo, formada por máscara, protetor de tronco, cintura e luvas.",
+        "variantes": [
+          "Kendogu",
+          "Armadura de kendo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A figura principal é Muhammad Ali treinando, com várias pessoas ao fundo, pôster e a marca Everlast escrita no saco e no calção. O assunto fica ambíguo e há texto visível."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto cortada de baixa qualidade, com rosto de perfil e patrocínio escrito no quimono. Não dá para reconhecer a atleta pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "O lutador não é reconhecível como Hakuhō por esta foto. O mawashi e o dohyō ficam nítidos, então a pergunta é sobre a vestimenta. Há público ao fundo, mas é incidental, e não há texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Como se chama a faixa que este lutador usa na cintura?",
+      "resposta": "Mawashi",
+      "destino": 0,
+      "ancora": {
+        "nome": "Mawashi",
+        "descricao": "Faixa de tecido grossa usada na cintura pelos lutadores de sumô.",
+        "variantes": [
+          "Mawashi de sumô"
+        ]
+      }
+    }
+  ]
+}

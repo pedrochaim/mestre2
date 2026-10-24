@@ -283311,5 +283311,70 @@
       "autor": "Flickr user: Gunnar Hildonen https://www.flickr.com/people/48746111@N04/",
       "licenca": "CC BY-SA 2.0"
     }
+  },
+  {
+    "id": "q15034",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "hulk_hogan",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Quem é este lutador?",
+    "resposta": "Hulk Hogan",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hulk_Hogan",
+      "https://pt.wikipedia.org/wiki/Hulk_Hogan"
+    ],
+    "imagem": {
+      "arquivo": "q15034.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hulk_Hogan,_circa_1985.jpg",
+      "autor": "Unknown photographer",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15035",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "shuriken",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que arma de artes marciais japonesas são estes objetos?",
+    "resposta": "Shuriken",
+    "distratores": [
+      "Nunchaku",
+      "Tonfa",
+      "Sai"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shuriken",
+      "https://pt.wikipedia.org/wiki/Shuriken"
+    ],
+    "imagem": {
+      "arquivo": "q15035.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Shaken.JPG",
+      "autor": "Chatsam",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15036",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "bogu",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em que arte marcial japonesa se usa este equipamento de proteção?",
+    "resposta": "Kendo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/B%C5%8Dgu",
+      "https://pt.wikipedia.org/wiki/B%C5%8Dgu"
+    ],
+    "imagem": {
+      "arquivo": "q15036.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bogu.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

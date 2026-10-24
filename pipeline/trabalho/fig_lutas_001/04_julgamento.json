@@ -1,0 +1,311 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Berimbau",
+        "descricao": "Instrumento musical de uma corda, com arco de madeira e cabaça, usado na capoeira.",
+        "variantes": [
+          "Berimbau de barriga"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "berimbau",
+          "nome": "Berimbau",
+          "descricao": "Instrumento de corda de arco e cabaça que comanda o ritmo da roda de capoeira.",
+          "variantes": [
+            "Berimbau de barriga"
+          ]
+        },
+        {
+          "id": "berlim",
+          "nome": "Berlim",
+          "descricao": "Capital da Alemanha, vista com a torre de TV, o Reichstag e o Portão de Brandemburgo.",
+          "variantes": [
+            "Berlin"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "esgrima",
+          "nome": "Esgrima",
+          "descricao": "Esporte de combate com armas brancas: florete, espada e sabre.",
+          "variantes": []
+        },
+        {
+          "id": "seriema",
+          "nome": "Seriema",
+          "descricao": "Ave terrestre predadora (Cariama cristata), de pernas e bico vermelhos e topete de penas eriçadas, dos campos da América do Sul.",
+          "variantes": [
+            "Seriema-de-perna-vermelha",
+            "Siriema",
+            "Red-legged seriema",
+            "Cariama cristata"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Hulk Hogan",
+        "descricao": "Lutador estadunidense de luta livre profissional, astro da WWF nos anos 1980.",
+        "variantes": [
+          "Terry Bollea",
+          "Terry Gene Bollea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "wolverine",
+          "nome": "Wolverine",
+          "descricao": "Mutante canadense dos X-Men, com garras retráteis de adamantium, criado pela Marvel em 1974",
+          "variantes": [
+            "Logan",
+            "James Howlett"
+          ]
+        },
+        {
+          "id": "carvao_mineral",
+          "nome": "Carvão mineral",
+          "descricao": "Rocha sedimentar combustível formada por restos vegetais soterrados, usada em usinas termelétricas.",
+          "variantes": [
+            "Hulha",
+            "Coal",
+            "Carvão"
+          ]
+        },
+        {
+          "id": "ursinho_de_pelucia",
+          "nome": "Ursinho de pelúcia",
+          "descricao": "Brinquedo de pelúcia em forma de urso, surgido no início do século vinte.",
+          "variantes": [
+            "Teddy bear"
+          ]
+        },
+        {
+          "id": "tardigrado",
+          "nome": "Tardígrado",
+          "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas.",
+          "variantes": [
+            "Tardigrada",
+            "water bear",
+            "Urso-d'água"
+          ]
+        },
+        {
+          "id": "terra_roxa",
+          "nome": "Terra roxa",
+          "descricao": "Solo avermelhado e fértil do sul e sudeste do Brasil, formado pela decomposição do basalto e famoso pelas lavouras de café.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Shuriken",
+        "descricao": "Arma japonesa de arremesso, em geral uma lâmina em forma de estrela, associada aos ninjas.",
+        "variantes": [
+          "Estrela ninja",
+          "Shuriken de arremesso"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "relogio_de_arremesso",
+          "nome": "Relógio de arremesso",
+          "descricao": "Cronômetro que limita o tempo de cada ataque, adotado pela NBA em 1954 com vinte e quatro segundos.",
+          "variantes": [
+            "Shot clock",
+            "Relógio de 24 segundos",
+            "Regra dos 24 segundos"
+          ]
+        },
+        {
+          "id": "festa_junina",
+          "nome": "Festa junina",
+          "descricao": "Conjunto de festas populares de junho no Brasil em homenagem a Santo Antônio, São João e São Pedro.",
+          "variantes": [
+            "Festas juninas",
+            "São João",
+            "Festa joanina"
+          ]
+        },
+        {
+          "id": "la_nina",
+          "nome": "La Niña",
+          "descricao": "Fenômeno de resfriamento anormal das águas do Oceano Pacífico equatorial",
+          "variantes": []
+        },
+        {
+          "id": "ken_sugimori",
+          "nome": "Ken Sugimori",
+          "descricao": "Ilustrador e designer japonês da Game Freak, responsável pela arte dos primeiros jogos Pokémon.",
+          "variantes": [
+            "Sugimori Ken"
+          ]
+        },
+        {
+          "id": "estrela_polar",
+          "nome": "Estrela Polar",
+          "descricao": "Estrela muito próxima do polo norte celeste, usada há séculos para indicar o norte.",
+          "variantes": [
+            "Polaris",
+            "Alfa da Ursa Menor"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bogu",
+        "descricao": "Armadura de treino do kendo, formada por máscara, protetor de tronco, cintura e luvas.",
+        "variantes": [
+          "Bogu (armadura de kendo)",
+          "Kendogu",
+          "Armadura de kendo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kendo",
+          "nome": "Kendo",
+          "descricao": "Arte marcial japonesa de esgrima com espadas de bambu (shinai) e armadura (bōgu).",
+          "variantes": []
+        },
+        {
+          "id": "sapato_brogue",
+          "nome": "Sapato brogue",
+          "descricao": "Sapato de couro com furinhos decorativos e bordas serrilhadas, aqui na versão Oxford com bico asa de pássaro.",
+          "variantes": [
+            "Brogue",
+            "Wingtip"
+          ]
+        },
+        {
+          "id": "ogum",
+          "nome": "Ogum",
+          "descricao": "Orixá guerreiro, ligado ao ferro, cultuado no candomblé e na umbanda",
+          "variantes": [
+            "Ogun"
+          ]
+        },
+        {
+          "id": "dogu",
+          "nome": "Dogū",
+          "descricao": "Estatueta humanoide de argila do período Jōmon do Japão pré-histórico.",
+          "variantes": [
+            "Dogū Jōmon"
+          ]
+        },
+        {
+          "id": "armadura_de_placas",
+          "nome": "Armadura de placas",
+          "descricao": "Armadura de corpo inteiro feita de placas de aço articuladas, típica do fim da Idade Média e do Renascimento.",
+          "variantes": [
+            "Armadura completa",
+            "Plate armour"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Mawashi",
+        "descricao": "Faixa de tecido grossa usada na cintura pelos lutadores de sumô.",
+        "variantes": [
+          "Hakuhō",
+          "Mawashi de sumô"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mawashi",
+          "nome": "Mawashi",
+          "descricao": "Faixa de tecido enrolada na cintura e entre as pernas, usada pelos lutadores de sumô.",
+          "variantes": [
+            "Mawashi de sumô"
+          ]
+        },
+        {
+          "id": "alcremie",
+          "nome": "Alcremie",
+          "descricao": "Pokémon do tipo Fada da oitava geração, em forma de doce de creme, evolução de Milcery.",
+          "variantes": [
+            "Mawhip"
+          ]
+        },
+        {
+          "id": "masais",
+          "nome": "Masais",
+          "descricao": "Povo nilótico de pastores seminômades da África Oriental, conhecido pelas vestes vermelhas.",
+          "variantes": [
+            "Maasai",
+            "Massai",
+            "Masai"
+          ]
+        },
+        {
+          "id": "bandeira_da_malasia",
+          "nome": "Bandeira da Malásia",
+          "descricao": "Bandeira nacional da Malásia, com listras vermelhas e brancas e um crescente com estrela amarela num cantão azul.",
+          "variantes": [
+            "Malásia",
+            "Jalur Gemilang",
+            "Bandeira malaia"
+          ]
+        },
+        {
+          "id": "jessie_equipe_rocket",
+          "nome": "Jessie (Equipe Rocket)",
+          "descricao": "Integrante da Equipe Rocket no anime Pokémon, parceira de James e Meowth, chamada Musashi no Japão.",
+          "variantes": [
+            "Jessie",
+            "Musashi",
+            "Jessilina"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "berimbau",
+      "motivo": "Mesmo instrumento da capoeira, mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o lutador Hulk Hogan."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a arma shuriken."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Bogu é a armadura; Kendo é a arte marcial, entidade diferente."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "mawashi",
+      "motivo": "Mesma faixa de sumô; a variante 'Hakuhō' na proposta é ruído, mas a descrição coincide."
+    }
+  ]
+}
