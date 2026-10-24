@@ -1,0 +1,165 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto que entregue a resposta. Pergunta de ano em múltipla escolha.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que ano este surfista brasileiro conquistou a medalha de bronze nos Jogos Olímpicos?",
+      "resposta": "2024",
+      "distratores": [
+        "2012",
+        "2016",
+        "2021"
+      ],
+      "ancora": {
+        "nome": "Gabriel Medina",
+        "descricao": "Surfista brasileiro tricampeão mundial e bronze olímpico em Paris 2024.",
+        "variantes": [
+          "Medina"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A placa na imagem mostra o texto 'SPITZ', que sugere outro nome (Mark Spitz) e confunde a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Montagem de duas cenas do mesmo esporte (salto e esqui cross-country), sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que esporte olímpico de inverno reúne as duas provas mostradas nesta figura?",
+      "resposta": "Combinado nórdico",
+      "distratores": [
+        "Biatlo",
+        "Esqui alpino",
+        "Esqui estilo livre"
+      ],
+      "ancora": {
+        "nome": "Combinado nórdico",
+        "descricao": "Esporte de inverno que combina salto de esqui e esqui cross-country.",
+        "variantes": [
+          "Nordic combined"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A cena parece mostrar uma pista de tumbling com o trampolim ao fundo da imagem, então a modalidade fica ambígua. A atleta em pleno salto não permite afirmar que é ginástica de trampolim."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O gramado traz a inscrição 'Champions du Monde', que entrega o país. O interior do estádio também é pouco distintivo, sem a silhueta externa característica."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ruínas com colunas dóricas e nenhum texto. É o Templo de Hera, em Olímpia, mas a imagem exige distratores gregos parecidos.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que sítio arqueológico grego ficam estas ruínas?",
+      "resposta": "Olímpia",
+      "distratores": [
+        "Delfos",
+        "Corinto",
+        "Epidauro"
+      ],
+      "ancora": {
+        "nome": "Templo de Hera (Olímpia)",
+        "descricao": "Antigo templo grego arcaico em Olímpia, onde a chama olímpica é acesa.",
+        "variantes": [
+          "Heraion",
+          "Heréon de Olímpia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco clara de um levantador no arranco, sem nome legível. Pergunta sobre o movimento que aparece.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que movimento do levantamento de peso este atleta está executando?",
+      "resposta": "Arranco",
+      "distratores": [
+        "Arremesso",
+        "Desenvolvimento",
+        "Levantamento terra"
+      ],
+      "ancora": {
+        "nome": "Levantamento de peso",
+        "descricao": "Esporte olímpico em que o atleta levanta uma barra carregada com anilhas.",
+        "variantes": [
+          "Halterofilismo",
+          "Weightlifting"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem texto que revele o nome. A camisa e o boné não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem é este atleta americano, medalhista de ouro em Olimpíadas de inverno?",
+      "resposta": "Shaun White",
+      "distratores": [],
+      "ancora": {
+        "nome": "Shaun White",
+        "descricao": "Snowboarder e skatista americano, três vezes campeão olímpico no half-pipe.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto antiga colorizada de um atleta de traje típico, que só aficionados reconhecem. O rosto não permite identificá-lo e a resposta não sai da imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O nome 'Beatriz' está bordado no quimono e entrega a resposta, com 'CBJ Brasil' e '2018' também visíveis. Seria preciso recortar a imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto informal de um homem comum, em que o nadador não é reconhecível e não há contexto esportivo. Não serve como pergunta de reconhecimento."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto. O enunciado evita o apelido famoso.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem é esta ex-jogadora brasileira de basquete, medalhista olímpica?",
+      "resposta": "Hortência",
+      "distratores": [],
+      "ancora": {
+        "nome": "Hortência",
+        "descricao": "Ex-jogadora brasileira de basquete, membro do Hall da Fama do basquete.",
+        "variantes": [
+          "Hortência Marcari",
+          "Hortência Maria de Fátima Marcari"
+        ]
+      }
+    }
+  ]
+}

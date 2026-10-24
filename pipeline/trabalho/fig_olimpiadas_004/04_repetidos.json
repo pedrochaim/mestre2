@@ -1,0 +1,46 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que esporte olímpico de inverno reúne as duas provas mostradas nesta figura?",
+        "resposta": "Combinado nórdico"
+      },
+      "existentes": [
+        {
+          "id": "q08547",
+          "pergunta": "O combinado nórdico, dos Jogos de Inverno, junta o esqui cross-country com qual outra prova?",
+          "resposta": "Salto de esqui"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quem é esta ex-jogadora brasileira de basquete, medalhista olímpica?",
+        "resposta": "Hortência"
+      },
+      "existentes": [
+        {
+          "id": "q13947",
+          "pergunta": "Quem é esta ex-jogadora brasileira de basquete, ídolo da seleção nos anos oitenta e noventa?",
+          "resposta": "Hortência Marcari"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas tratam do combinado nórdico como junção de esqui cross-country e salto; quem soubesse uma responderia a outra.",
+      "id_existente": "q08547"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identidade da mesma jogadora (Hortência) a partir da imagem.",
+      "id_existente": "q13947"
+    }
+  ]
+}
