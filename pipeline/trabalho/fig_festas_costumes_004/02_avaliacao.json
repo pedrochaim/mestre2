@@ -1,0 +1,227 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Objeto isolado em fundo branco, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este chapéu tornou-se símbolo de que império no início do século dezenove?",
+      "resposta": "Império Otomano",
+      "destino": 1,
+      "ancora": {
+        "nome": "Fez",
+        "descricao": "Chapéu de feltro vermelho, cilíndrico e sem aba, com borla preta, associado ao Império Otomano.",
+        "variantes": [
+          "Tarbush",
+          "Tarboosh",
+          "Fes"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Duas pessoas comuns (modelos de desfile) em primeiro plano, fora de festa pública."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Brincante fantasiado de diabo em festa pública, traje inconfundível; imagem pequena mas legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que dança andina é esta, em que os brincantes usam máscaras e trajes de demônio?",
+      "resposta": "Diablada",
+      "destino": 0,
+      "ancora": {
+        "nome": "Diablada",
+        "descricao": "Dança folclórica andina, típica de Oruro, na Bolívia, em que os dançarinos usam máscaras e trajes de diabo.",
+        "variantes": [
+          "Danza de los Diablos",
+          "Dança dos Diabos"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cocar de penas de estilo das planícies, em vitrine de museu, legível e sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que região da América do Norte nasceu este tipo de cocar?",
+      "resposta": "Grandes Planícies",
+      "distratores": [
+        "Costa do Noroeste",
+        "Deserto do Sudoeste",
+        "Ártico canadense"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Cocar de penas",
+        "descricao": "Adorno de cabeça de penas usado por líderes dos povos indígenas das planícies norte-americanas.",
+        "variantes": [
+          "War bonnet",
+          "Cocar das planícies"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto de uma mulher comum em primeiro plano, fora de festa pública."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ritual público com mastro e voadores, inconfundível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país da América é famoso este ritual?",
+      "resposta": "México",
+      "destino": 0,
+      "ancora": {
+        "nome": "Danza de los Voladores",
+        "descricao": "Ritual mesoamericano em que homens se lançam amarrados por cordas de um mastro de cerca de trinta metros.",
+        "variantes": [
+          "Dança dos Voladores",
+          "Palo Volador",
+          "Voladores de Papantla"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cesta de ovos tingidos, clara e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Estes ovos decorados estão ligados a que festa cristã?",
+      "resposta": "Páscoa",
+      "distratores": [
+        "Natal",
+        "Pentecostes",
+        "Epifania"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ovo de Páscoa",
+        "descricao": "Ovo decorado, tradicionalmente tingido, usado na celebração cristã da Páscoa.",
+        "variantes": [
+          "Ovos de Páscoa",
+          "Easter egg",
+          "Ovo pascal"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista aérea da Caaba e da mesquita com peregrinos, reconhecível e sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica este local?",
+      "resposta": "Meca",
+      "destino": 0,
+      "ancora": {
+        "nome": "Hajj",
+        "descricao": "Peregrinação anual islâmica a Meca, na Arábia Saudita, em torno da Caaba.",
+        "variantes": [
+          "Haje",
+          "Hadj",
+          "Peregrinação a Meca"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Padrão têxtil javanês característico em close, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que técnica de tingimento produz este tecido?",
+      "resposta": "Batik",
+      "distratores": [
+        "Ikat",
+        "Shibori",
+        "Tie-dye"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Batik",
+        "descricao": "Técnica de tingimento de tecidos com reserva de cera, típica da Indonésia, e o tecido assim produzido.",
+        "variantes": [
+          "Batique"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Folião mascarado em festa pública, com o Campanile de São Marcos ao fundo.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade acontece este carnaval?",
+      "resposta": "Veneza",
+      "destino": 0,
+      "ancora": {
+        "nome": "Carnaval de Veneza",
+        "descricao": "Festival anual de Veneza, na Itália, famoso por suas máscaras e fantasias elaboradas.",
+        "variantes": [
+          "Carnevale di Venezia",
+          "Carnival of Venice"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Caixa de madeira em forma de casa com pacotinhos numerados, reconhecível como calendário de Advento.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que festa cristã este objeto ajuda a esperar, dia após dia?",
+      "resposta": "Natal",
+      "destino": 0,
+      "ancora": {
+        "nome": "Calendário do Advento",
+        "descricao": "Objeto com pequenas portas ou pacotes, aberto um por dia, que marca a contagem para o Natal.",
+        "variantes": [
+          "Advent calendar",
+          "Adventskalender"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem da deusa Durga com a família em pandal, inconfundível e sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade indiana esta festa foi inscrita pela UNESCO em 2021?",
+      "resposta": "Calcutá",
+      "distratores": [
+        "Nova Délhi",
+        "Mumbai",
+        "Benares"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Durga Puja",
+        "descricao": "Grande festival hindu em honra da deusa Durga, celebrado sobretudo no leste da Índia e em Bangladesh.",
+        "variantes": [
+          "Durgotsava",
+          "Sharadotsava"
+        ]
+      }
+    }
+  ]
+}

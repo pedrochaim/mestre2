@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Depois de 1826, o exército modernizado de um império passou a usar este chapéu como parte do uniforme. De que império se trata?",
+        "resposta": "Império Otomano"
+      },
+      "existentes": [
+        {
+          "id": "q14250",
+          "pergunta": "Que chapéu é este?",
+          "resposta": "Fez"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade acontece esta peregrinação anual?",
+        "resposta": "Meca"
+      },
+      "existentes": [
+        {
+          "id": "q09467",
+          "pergunta": "Durante o Hajj, os peregrinos passam uma tarde em oração num monte perto de Meca, onde Maomé fez seu sermão de despedida. Que monte é esse?",
+          "resposta": "Monte Arafat"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pede o nome do chapéu (fez); a nova pede o império que o adotou no uniforme após 1826. Fatos diferentes, embora relacionados."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede a cidade da peregrinação (Meca); a existente pede o monte onde se reza durante o Hajj (Arafat). Fatos diferentes."
+    }
+  ]
+}
