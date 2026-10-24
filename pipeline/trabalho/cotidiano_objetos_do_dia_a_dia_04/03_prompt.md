@@ -1,0 +1,1769 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Objetos do Dia a Dia** (tema **Cotidiano**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6). Uma pergunta `aberta` cuja resposta é um ano ou uma data deve ser reescrita como `multipla`, com 3 anos ou datas próximos e críveis (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Zíper",
+      "descricao": "Fecho de correr formado por duas fileiras de dentes que se encaixam por meio de um cursor."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em 1923, uma fabricante americana de pneus popularizou o nome zíper ao usar o fecho de correr num produto de borracha. Que produto era?",
+    "resposta": "Galochas (botas de borracha)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Zipper",
+      "https://www.britannica.com/technology/zipper"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Zipper",
+        "situacao": "ok",
+        "texto": "A zipper (N. America), zip, zip fastener (UK), formerly known as a clasp locker, is a commonly used device for binding together two edges of fabric or other flexible material. Used in clothing (e.g., jackets and jeans), luggage and other bags, camping gear (e.g., tents and sleeping bags), and many other items, zippers come in a wide range of sizes, shapes, and colors. In 1892, Whitcomb L. Judson, \n[…]\nThe popular North American term zipper (UK zip, or occasionally zip-fastener) came from the B. F. Goodrich Company in 1923. The company used Gideon Sundbäck's fastener on a new type of rubber boots (or galoshes) and referred to it as the zipper, and the name stuck. The two chief uses of the zipper in its early years were for closing boots and tobacco pouches. Zippers began being used for clothing in 1925 by Schott NYC on leather jackets.\n[…]\nPlastic-molded zippers  are identical to metallic zippers, except that the teeth are plastic instead of metal. Metal zippers can be painted to match the surrounding fabric; plastic zippers can be made in any color of plastic. Plastic zippers mostly use polyacetal resin, though other thermoplastic polymers are used as well, such as polyethylene. Used most popularly for pencil cases, small plastic pouches and other stationery.\n[…]\nThe components of a zipper are:\n[…]\nBottom Tape Extension (the fabric part of the zipper, that extends beyond the teeth, at the bottom of the chain)\n[…]\nSingle Tape Width (refers to the width of the fabric on one side of the zipper chain)\n[…]\nZippers have entered into urban legends. American folklorist Jan Brunvand noted that \"The zipper has been the subject of jokes and legends since... the 1920s\". Those stories reflect \"modern anxieties and desires\", emphasizing embarrassments and accidents, primarily involving the flies of men's trousers in stories such as \"The Unzipped Stranger\" and \"The Unzipped Fly\".\n[…]\nZipper storage bag\n[…]\nType of Zippers"
+      },
+      {
+        "url": "https://www.britannica.com/technology/zipper",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Z%C3%ADper",
+        "situacao": "ok",
+        "texto": "Um zíper, fecho éclair, fecho ecler, zíper ou fecho de correr [PT]   é um fecho utilizado em roupas e em artefatos de couro feito de dois cadarços com dentes plásticos ou metálicos, que se encaixam por ação de um cursor.\n[…]\nA história do zíper, fecho éclair ou simplesmente \"fecho\" começou em 1893 na Exposição Mundial de Chicago, nos EUA, onde este objeto deslizante para fechar e abrir roupas foi apresentado pela primeira vez. Tratava-se de uma versão primitiva do dispositivo, com minúsculos ganchos e argolas, desenvolvida pelo engenheiro americano Whitcomb L. Judson. Cansado de abrir e fechar todos os dias os cordões dos seus sapatos, ele teve a ideia de criar um artefato rudimentar, composto de ganchos e furos.\n[…]\nPorém, esse tipo de zíper não era muito eficiente: não fechava com facilidade e abria em horas impróprias.\n[…]\nEmbora Whitcomb L. Judson tenha sido o inventor e tenha montado uma fábrica para a criação desta nova invenção, ele também era obrigado a fabricar botões. O zíper só começou a se popularizar quando começou a ser usado em outras peças de roupa que não calçados, e quando foi inventada em 1912, pelo sueco-americano Gideon Sundbäck, a versão do zíper que é conhecida hoje, com dentes que se engancham, o que tornou o dispositivo mais prático.\n[…]\nO nome \"zíper\" vem da palavra zipper, em inglês. Este nome popularizou-se somente em 1923, vindo de um funcionário da empresa americana B. F. Goodrich, em que o termo foi usado para denominar o fecho da nova linha de galochas de borracha da fábrica, chamada Zipper Boots.\n[…]\nAtualmente, o maior produtor de zíperes do mundo está localizado no Japão, onde o grupo YKK tornou-se o mais famoso do mundo na fabricação destes fechos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "BIC (empresa)",
+      "descricao": "Empresa francesa de canetas, isqueiros e lâminas de barbear fundada por Marcel Bich em 1945."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A marca francesa BIC, das canetas e isqueiros, tirou uma letra do sobrenome do seu fundador. Como se chamava esse barão?",
+    "resposta": "Marcel Bich",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Société_Bic",
+      "https://en.wikipedia.org/wiki/Marcel_Bich"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Société_Bic",
+        "situacao": "ok",
+        "texto": "Société Bic S.A., commonly referred to as Bic (stylized as BiC or BIC), is a French manufacturing corporation based in Clichy, Hauts-de-Seine. Founded in 1945 by Italian aristocrat Marcel Bich and Édouard Buffard, the company produces disposable items, specifically pens, stationery, lighters, and shaving razors.\n[…]\nIn 1945, Marcel Bich, former director of an ink factory, and his partner, Édouard Buffard, established a business creating writing instrument parts in a factory in the Paris suburb of Clichy, where they began production of pen holders and pencil cases. Bich bought the patent for the ballpoint pen from Hungarian-Argentine inventor László Bíró and, using Swiss watchmaking tools, devised a manufacturing process that produced stainless-steel balls for the tip of the pen.\n[…]\nBich soon perfected the design of the ballpoint pen, and the Bic Cristal ballpoint pen became the company's first product (under the \"BIC\" name) in 1950. As of 2005, the Bic Cristal had sold over one hundred billion units since its launch.\n[…]\nIn order to avoid problems with sales in English-speaking countries (although in French, his name is not pronounced bitch but \"beesh\"), Bich dropped the letter H when he formed Société Bic in 1953, and the company was listed on the Paris Stock Exchange in 1972. The design of the pen has remained mostly unchanged since its initial launch, and as of 2021, remains the best-selling pen in the world.\n[…]\nIn 1971, Bich took control of the French Flaminaire company, a manufacturer of butane lighters, and set its technicians to the task of developing a disposable lighter. The first model of the Bic lighter was introduced in 1973.\n[…]\nThe Bich family owns about 46% of issued shares and controls 63% of its voting power.\n[…]\nSociété Bic Company Profile and News—Bloomberg"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Marcel_Bich",
+        "situacao": "ok",
+        "texto": "Marcel Bich, Baron Bich (French: [bik]; 29 July 1914 – 30 May 1994) was an Italian-French manufacturer and co-founder of Bic, the world's leading producer of ballpoint pens, lighters and razors.\n[…]\nThe Bich family originated at Châtillon, and earlier in the Valtournenche valley, in the Aosta Valley. King Charles Albert of Sardinia granted Emmanuel Bich, mayor of Aosta, the title of baron in 1841. Emmanuel's grandson Aimé-Mario Bich, the father of Marcel Bich, was an engineer who moved to France after failing to gain commercial success in Italy.\n[…]\nThe Bich family moved to Spain and then to France where Marcel was naturalised as a French citizen in 1932 and later studied law at the University of Paris. He served in the French Air Force at the outset of World War II.\n[…]\nIn 1944, Marcel Bich and his partner, Édouard Buffard, bought an empty factory in the Paris suburb of Clichy, where they began the production of inexpensive pen holders and pencil cases.\n[…]\nMarcel Bich bought the patent for the ballpoint pen for US$2 million from Hungarian László Bíró who had been producing such pens since 1943 in Argentina. Using Swiss watchmaking tools, he devised a manufacturing process that produced stainless-steel balls for the tip of the pen, and the Bic Cristal ballpoint pen became his first product in 1950. The Bic Cristal ballpoint pen went on to become a worldwide best-seller. He then invented the famous four-color pen in 1969.\n[…]\nBich stepped down as Chairman of Societe Bic in 1993. He was succeeded by his son, Bruno, who served as chairman for 25 years, 15 of which also as CEO. Marcel's grandson Gonzalve Bich has been CEO since 2018."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bic",
+        "situacao": "ok",
+        "texto": "Bic é uma empresa francesa com sede em Clichy. Fundada em 1945, é conhecida por fabricar produtos a base de plásticos, incluindo isqueiros, canetas, aparelhos de barbear e anteriormente pilhas e caiaques. A empresa compete com Compactor, Faber-Castell, Gillette, 3M, Newell Rubbermaid e Stabilo.\n[…]\nNa França, em 1945, Marcel Bich, que fora gerente de produção para um fabricante de tintas francês, comprou, com seu sócio Edouard Buffard, uma fábrica fora de Paris e instalou uma empresa para fazer peças para canetas-tinteiro e lapiseiras.\n[…]\nÀ medida em que o negócio de peças para instrumentos de escrita começou a crescer, o desenvolvimento da esferográfica avançava, tanto na Europa como nos Estados Unidos, e Marcel Bich viu o enorme potencial desse novo instrumento de escrita.\n[…]\nDepois de obter os direitos das patentes para uma esferográfica criada pelo inventor húngaro e naturalizado argentino László Bíró (1899–1985), Marcel Bich lançou sua própria esferográfica em 27 de dezembro de 1950. Promovendo o produto como uma caneta confiável a preço acessível, chamou-a \"Bic\", uma versão mais curta e fácil de lembrar de seu próprio nome. Assim nasceu a Bic Cristal.\n[…]\nEm 1950, quando o francês Marcel Bich lançou sua primeira versão sob a licença dos irmãos Bíró, ele investiu em tecnologia suíça para conseguir uma esfera que permitisse que a tinta corresse livremente.\n[…]\nA empresa já vendeu mais de 100 bilhões de canetas esferográficas desde 1950.\n[…]\nNo Brasil desde 1956, a empresa possui uma fábrica em Manaus, Amazonas e outra na cidade de Cajamar, São Paulo.\n[…]\nTambém em 2013 a Bic Brasil ganhou mais uma vez o prêmio \"MELHORES MARCAS\", para caneta esferográfica com a Cristal e com a marca Pimaco para etiquetas adesivas.\n[…]\nPágina oficial da empresa\n[…]\nYahoo! - Société BIC Company Profile",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Azulejo",
+      "descricao": "Placa cerâmica fina, vidrada e muitas vezes pintada, usada para revestir paredes, tradicional em Portugal e no Brasil."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Apesar do som, a palavra azulejo não tem relação com a cor azul. Ela vem de um termo árabe que significava o quê?",
+    "resposta": "Pequena pedra polida",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Azulejo",
+      "https://en.wikipedia.org/wiki/Azulejo"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Azulejo",
+        "situacao": "ok",
+        "texto": "Azulejo é uma peça de cerâmica de pouca espessura, geralmente quadrada, em que uma das faces é vidrada, resultado da cozedura de um revestimento geralmente denominado como esmalte, que se torna impermeável e brilhante. Esta face pode ser monocromática ou policromática, lisa ou em relevo. O azulejo é geralmente usado em grande número como elemento associado à arquitetura em revestimento de superfíc\n[…]\nAzulejo esponjado: aplicação da tinta através de uma esponja ou escova, em que o resultado se assemelha a uma superfície de pedra (rugosa). Com utilização a partir do século XVIII tem maior aplicação em rodapés e lances de escada.\n[…]\nBalaústre: colunelo (pequena coluna) usado como elemento arquitectónico em balaustradas e que se assume como motivo decorativo em azulejos do século XVIII de modo a criar efeitos espaciais ópticos.\n[…]\nTrempe: pequeno tripé de suporte que permite a optimização do espaço dentro do forno pela possibilidade que oferece de empilhar azulejos.\n[…]\nA palavra em si, azulejo, tem origem no árabe azzelij (ou al zuleycha,  al zuléija, al zulaiju, al zulaco) que significa pequena pedra polida e era usada para designar o mosaico bizantino do Próximo Oriente. É comum, no entanto, relacionar-se o termo com a palavra azul (termo persa لاژورد: lazhward, lápis-lazúli) dado grande parte da  produção portuguesa de azulejo se caracterizar pelo emprego maioritário desta cor, mas a real origem da palavra é árabe.\n[…]\nVão-se observar, pequenos painéis de registo em fachadas, representações de padroeiros de protecção contra catástrofes naturais, e, em frisos de portas e janelas, já a introdução da estética neoclássica de carácter mais racional e quase desprovido de decoração. Este tipo de azulejo fica conhecido como azulejo pombalino como referência ao Marquês de Pombal, responsável pela reconstrução da cidade.\n[…]\n«O Azulejo em Portugal»\n[…]\n«A arte do azulejo em Portugal - Instituto Camões»"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Azulejo",
+        "situacao": "ok",
+        "texto": "Azulejo (Portuguese: [ɐzuˈle(j)ʒu, ɐzuˈlɐjʒu], Spanish: [aθuˈlexo]; from the Arabic الزليج, al-zillīj) is a form of Iberian painted tin-glazed ceramic tilework. They are an ornamental art form, but also had a specific function, such as aiding temperature control in homes.\n[…]\nIn Spanish and Portuguese, azulejo is the everyday word for (any) tile.\n[…]\nFrançois Lemoyne, another prominent Rococo artist, influenced the trends azulejo followed at this time as well. His recently rediscovered work, the Annunciation, has been credited by researchers as a significant exemplar for 18th century azulejo works in Portugal and Brazil. The original work was copied by Laurent Cars and proliferated through Portugal and its colonies. Lemoyne's work has been reproduced through azulejo in numerous Portuguese churches.\n[…]\nNational Museum of the Azulejo\n[…]\ndos Santos Simões, J. M. – Azulejaria em Portugal nos séculos XV e XVI : introdução geral, Calouste Gulbenkian Foundation, 2nd ed., Lisbon, 1990 (in Portuguese)\n[…]\nCosta, Vania – Azulejo, Accessible Travel Magazine, September 2006\n[…]\nMeco, José – O Azulejo em Portugal, Alfa, Lisbon, 1988 (in Portuguese)\n[…]\nCastel-Branco Pereira, João – Portuguese tiles from the National Museum of Azulejo, Lisbon, 1995, ISBN 0-302-00661-3\n[…]\nMucznik, Sonia. – The Azulejos of Lisbon\n[…]\nBarros Veloso, A. J.; Almasqué, Isabel – Portuguese Tiles and Art Nouveau / O Azulejo Portugués ea Arte Nova, Edições Inapa, Portugal, 2000; ISBN 972-8387-64-4\n[…]\nMedia related to Azulejos at Wikimedia Commons\n[…]\nA catalog with many of the historical azulejos in Spain and Portugal with their creation date and details\n[…]\nNational Azulejo Museum, Portugal\n[…]\nAn illustrated history of the azulejo\n[…]\nIntroduction to the azulejos by the Instituto Camoes Archived 2016-02-06 at the Wayback Machine (in Portuguese)"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Bidê",
+      "descricao": "Peça sanitária baixa, parecida com uma pia, usada para a higiene íntima."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em francês, a palavra bidê nomeava um animal, porque a pessoa se senta na peça como quem monta. Que animal era esse?",
+    "resposta": "Pônei",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bidet"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bidet",
+        "situacao": "ok",
+        "texto": "A bidet (UK: , US:  ) is a bowl or receptacle designed to be sat upon in order to wash a person's genitalia, perineum, inner buttocks, and anus.\n[…]\nOpinions as to the necessity of the bidet vary widely over different nationalities and cultures. In  cultures that use it habitually, such as parts of Western, Central and Southeastern Europe (especially Italy, Portugal, France and Turkey), Eastern Asia and some Latin American countries such as Argentina, Uruguay or Paraguay, it is considered an indispensable tool in maintaining good personal hygiene. It is regularly used across the Middle East and North African countries, such as Egypt.\n[…]\nBidets are common bathroom fixtures in the Arab world and in Catholic countries, such as Italy (the installation of a bidet in a bathroom has been mandatory since 1975), Spain (but in recent times new or renewed houses tend to have bathrooms without bidets, except the luxurious ones), Portugal (installation is mandatory since 1975), and France (present in 95% of households in the 1970s, but dropped to 42% in 1993).\n[…]\nBidet is a French word for 'pony', and in Old French, bider meant 'to trot'. This etymology comes from the notion that one \"rides\" or straddles a bidet much like a pony is ridden. The word bidet was used in 15th-century France to refer to the pet ponies that French royalty kept.\n[…]\nThe bidet appears to have been an invention of French furniture makers in the late 17th century, although no exact date or inventor is known. The earliest written reference to the bidet is in 1710 in France and latter in 1726 in Italy."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bid%C3%AA",
+        "situacao": "ok",
+        "texto": "O bidé (português europeu) ou bidê (português brasileiro) é um objeto sanitário, com o formato de um bacia oblonga, para lavagem das partes inferiores do tronco (partes íntimas) assim como os pés, que pode incluir uma pequena ducha, na qual há um misturador para água quente, fria ou ambas que lança, no sentido vertical.\n[…]\nBidé' é uma palavra que vem do francês, bidet, uma invenção francesa do final do século XVII ou no começo do século XVIII, embora não se saiba exatamente a data e o inventor.\n[…]\nA mais antiga referência escrita de que se tem notícia a respeito do bidé data de 1710.\n[…]\n\"bidê\" no Wikcionário",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Calendas",
+      "descricao": "Primeiro dia de cada mês no calendário da Roma Antiga, termo que deu origem à palavra calendário."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os antigos romanos chamavam de calendas um dia específico de cada mês, e daí veio a palavra calendário. Que dia era esse?",
+    "resposta": "O primeiro dia do mês",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Calends",
+      "https://www.etymonline.com/word/calendar"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Calends",
+        "situacao": "ok",
+        "texto": "The calends or kalends (Latin: kalendae) is the first day of every month in the Roman calendar. The English word \"calendar\" is derived from this word.\n[…]\nThe Romans called the first day of every month the calends, signifying the start of a new lunar phase. On this day, the pontiffs would announce the number of days until the next month at the Curia Calabra; in addition, debtors had to pay off their debts on this day. These debts were inscribed in the kalendaria, effectively an accounting book.\n[…]\nModern calendars count the number of days after the first of each month; by contrast, the Roman calendar counted the number of days until certain upcoming dates (such as the calends, the nones or the ides). The day before the calends was called pridie kalendas, but the day before that was counted as the \"third day\", as Romans used inclusive counting.\n[…]\nTo calculate the day of the calends of the upcoming month, counting the number of days remaining in the current month is necessary, then adding two to that number. For example, April 22 is the 10th day before the calends of May (ante diem decimum Kalendas Maias/Maii), because eight days are left in April and both end dates are included in the total.\n[…]\nThe following lines of poetry aid calculations relating to the day of the month from the calends:\n[…]\nThe calends was a feature of the Roman calendar, but it was not included in the Greek calendar. Consequently, to postpone something ad Kalendas Graecas (\"until the Greek calends\") was a colloquial expression for postponing something forever.\n[…]\nT.P. Wiseman, \"The Kalends of April,\" in Idem, Unwritten Rome. Exeter, University of Exeter Press, 2008."
+      },
+      {
+        "url": "https://www.etymonline.com/word/calendar",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Calendas",
+        "situacao": "ok",
+        "texto": "As calendas, no antigo calendário romano, eram o primeiro dia de cada mês quando ocorria a Lua nova. Havia três dias fixos: as calendas, as nonas (quinto ou sétimo dia, de acordo com o mês) e idos (13.º ou 15.º dia, conforme o mês). Dos idos é que provém a expressão \"nos idos de setembro\" para expressar uma data para a segunda metade do mês.\n[…]\nÉ desta palavra que se originou o termo calendário e a expressão calendas gregas, representando um dia que jamais chegará, pois era inexistente no calendário grego.\n[…]\nAd kalendas græcas",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Agenda",
+      "descricao": "Caderno ou livreto organizado por datas, usado para anotar compromissos e tarefas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Vinda do latim, a palavra agenda, que dá nome ao caderno de compromissos, tem qual significado literal?",
+    "resposta": "Coisas que devem ser feitas",
+    "fonte": [
+      "https://www.etymonline.com/word/agenda",
+      "https://en.wiktionary.org/wiki/agenda"
+    ],
+    "trechos": [
+      {
+        "url": "https://www.etymonline.com/word/agenda",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://en.wiktionary.org/wiki/agenda",
+        "situacao": "ok",
+        "texto": "See also: Agenda , agendá , agendą , and agendă\n[…]\n\"agenda\" in Pusat Rujukan Persuratan Melayu (PRPM) [ Malay Literary Reference Centre (PRPM) ] (in Malay), Kuala Lumpur: Dewan Bahasa dan Pustaka , 2017\n[…]\nAleksander Zdanowicz ( 1861 ), “ agenda ”, in Słownik języka polskiego, Wilno 1861\n[…]\nPortuguese Wikipedia has an article on: agenda\n[…]\nagenda ( booklet where a schedule is kept )\n[…]\nO valor simbólico aumenta quanto mais nomes, principalmente nomes antigos estiverem na agenda , por isso as telas são criteriosamente escolhidas e disputadas. (please add an English translation of this quotation)\n[…]\n“ agenda ”, in Dicionário Aulete Digital (in Portuguese), Rio de Janeiro: Lexikon Editora Digital, 2008– 2026\n[…]\n“ agenda ”, in Dicionário Priberam da Língua Portuguesa (in Portuguese), Lisbon: Priberam, 2008– 2026\n[…]\nBorrowed from Latin agenda , substantive use of the neuter plural of agendus ( “ which ought to be done ” ) , future passive participle ( gerundive ) of agō ( “ to do, to act, to make ” ) .\n[…]\nagenda ( list of matters to be taken up )\n[…]\n“ agenda ”, in Diccionario de la lengua española [ Dictionary of the Spanish Language ] (in Spanish), online version 23.8.1, Royal Spanish Academy [Spanish: Real Academia Española ], 15 December 2025\n[…]\nagenda   class IX ( plural agenda   class X )\n[…]\nFrom Latin agenda ( “ what ought to be done ” ) .\n[…]\nThe agenda for a meeting is normally called dagordning . The word agenda is more often used in the abstract sense of somebody's \"political agenda\".\n[…]\nRetrieved from \" https://en.wiktionary.org/w/index.php?title=agenda&oldid=93558134 \""
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Lápis",
+      "descricao": "Instrumento de escrita e desenho com miolo sólido de grafite em um revestimento, aqui um lápis preto HB."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em latim, a palavra lapis, que deu origem ao nome do lápis, significava o quê?",
+    "resposta": "Pedra",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Lápis",
+      "https://en.wiktionary.org/wiki/lapis"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lápis",
+        "situacao": "ok",
+        "texto": "Um lápis é um instrumento de escrever, pintar, desenhar e das mais variadas coisas, concebido para marcar, sublinhar e riscar. A acepção mais comum do termo atrela-se a um instrumento utilizado para escrever,[carece de fontes]? ou mesmo riscar sobre um papel; usualmente construído através de um estilete de grafite revestido de madeira, o tradicional lápis de escrever preto ou grafite (cor mais cin\n[…]\nMudando-se o material do estilete, produzem-se de forma similar lápis de várias cores distintas.\n[…]\nSabe-se que os lápis de grafite não eram muito comuns antes de 1540, contudo, em uma obra sobre fósseis, Konrad Gesner faz saber que esses já estavam a se popularizar em 1565. A primeira produção de lápis em massa é atribuída a Friedrich Staedtler em 1622, em Nuremberg, na Alemanha.\n[…]\nMesmo com a ascensão dos lápis de grafite, os lápis de chumbo ainda guardaram significância até o século XIX, e vieram a extinguir-se definitivamente apenas no século XX, com a descoberta da toxicidade do chumbo.\n[…]\nA “borracha” e o “anel metálico” foram construídos com materiais sintéticos e metal pintado. O lápis inteiro tinha 23,23 metros de comprimento e pesava cerca de 98 toneladas. O projeto exigiu gruas, caminhões e ferramentas industriais. O lápis foi inaugurado no bairro de Queens, Nova York, em 27 de agosto de 2007, diante de centenas de pessoas. pouco tempo depois, ele foi transportado para o City Museum, em St. Louis, Missouri (EUA), onde ficou exposto como uma peça de arte e recorde mundial.\n[…]\nDuas instituições registram o que consideram o menor lápis do mundo:\n[…]\nA \"Assist World Records Research Foundation\", da Índia, possui em seus registros o lápis confeccionado pelo micro-escultor Prakash Chandra Upadhyay com a dimensão de 0,5 cm de comprimento;\n[…]\nO \"Guinness World Records\" tem, em seus arquivos, a comprovação da fabricação de um lápis de 1,75 cm de comprimento pela empresa Faber-Castell em Stein."
+      },
+      {
+        "url": "https://en.wiktionary.org/wiki/lapis",
+        "situacao": "ok",
+        "texto": "English Bolinao •  Cebuano •  Central Bikol •  Cuyunon •  Galician •  Indonesian •  Italian •  Kapampangan •  Kavalan •  Latin •  Limos Kalinga •  Lubuagan Kalinga •  Malay •  Maltese •  Masbatenyo •  Matigsalug Manobo •  Pangasinan •  Polish •  Portuguese •  Romanian •  Tagabawa •  Tagalog •  Tetum •  Waray-Waray •  Yogad Page categories\n[…]\n“ lapis ”, in Wielki słownik języka polskiego ‎ [1] (in Polish), Instytut Języka Polskiego PAN\n[…]\n“ lapis ”, in Polish dictionaries at PWN ‎ [2] (in Polish)\n[…]\npre-reform spelling (used until 1943 in Brazil and 1911 in Portugal) of lápis\n[…]\nprescribed spelling of lápis under the Orthographic Agreement of 1931, which was not effectively implemented\n[…]\nBorrowed from French lapis , or a learned borrowing from Latin lapis .\n[…]\nBorrowed from Spanish lápiz , a learned borrowing from Latin lapis , or borrowed from Italian lapis . Doublet of lapida .\n[…]\n( Standard Tagalog ) IPA ( key ) : /ˈlapis/ [ˈlaː.pɪs]\n[…]\nInherited from Proto-Malayo-Polynesian *lapis ( “ stone slab, thin layer ” ) . Compare Malay lapis ( “ fold; layer ” ) .\n[…]\n( Standard Tagalog ) IPA ( key ) : /ˈlapis/ [ˈlaː.pɪs]\n[…]\nlapis ( Baybayin spelling ᜎᜉᜒᜐ᜔ ) ( obsolete )\n[…]\nlapís ( Baybayin spelling ᜎᜉᜒᜐ᜔ ) ( obsolete )\n[…]\n“ lapis ”, in KWF Diksiyonaryo ng Wikang Filipino , Komisyon sa Wikang Filipino , 2025\n[…]\n“ lapis ”, in Pambansang Diksiyonaryo | Diksiyonaryo.ph , 2018\n[…]\n“ lapis ”, in Pinoy Dictionary , 2010–2026 .\n[…]\npage 380: “ Labrar) Lapis (pp) adelgaçando como tabla conçepillo o açuela, piedra conpico, o madero como bigueta hancho y delgado ”\n[…]\npage 393: “ Loſa) Lapis (pp) delgada y liſa como ara ”\n[…]\npage 565: “ Tabla) Lapis (pp) delgada mucho ”\n[…]\nBlust, Robert; Trussel, Stephen; et al. (2023) “ *lapis ”, in the CLDF dataset from The Austronesian Comparative Dictionary (2010–), →DOI\n[…]\nRetrieved from \" https://en.wiktionary.org/w/index.php?title=lapis&oldid=93704307 \""
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Câmara escura",
+      "descricao": "Aparelho óptico antigo, uma caixa ou sala escura com um pequeno furo que projeta a imagem invertida do exterior, precursor da câmera fotográfica."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra câmera vem da expressão latina camera obscura, nome de um antigo aparelho de projetar imagens. Em latim, o que era camera?",
+    "resposta": "Quarto (aposento)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Camera_obscura",
+      "https://en.wikipedia.org/wiki/Camera"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Camera_obscura",
+        "situacao": "ok",
+        "texto": "A camera obscura (pl. camerae obscurae or camera obscuras; from Latin  camera obscūra 'dark chamber') is the natural phenomenon in which light passing through the small hole of a dark chamber or box will project an image of a scene outside the chamber (box) onto the surface opposite to the hole, resulting in an inverted (upside down) and reversed (left to right) projection of the view outside.\n[…]\nIt is also suggested that camera obscura projections could have played a role in Neolithic structures.\n[…]\nThe use of the camera obscura to project special shows to entertain an audience seems to have remained very rare. A description of what was most likely such a show in 1656 in France, was penned by the poet Jean Loret, who expressed how rare and novel it was. The Parisian society were presented with upside-down images of palaces, ballet dancing and battling with swords. Loret felt somewhat frustrated that he did not know the secret that made this spectacle possible.\n[…]\nBonnington Pavilion (the first Scottish camera obscura, dating from 1708)\n[…]\nRaynaud, D. (2016), A Critical Edition of Ibn al-Haytham's On the Shape of the Eclipse. The First Experimental Study of the Camera Obscura, New York: Springer International, ISBN 9783319479910\n[…]\nWade, Nicholas J.; Finger, Stanley (2001), \"The eye as an optical instrument: from camera obscura to Helmholtz's perspective\", Perception, 30 (10): 1157–1177, doi:10.1068/p3210, PMID 11721819, S2CID 8185797\n[…]\nLefèvre, Wolfgang (ed.) Inside the Camera Obscura: Optics and Art under the Spell of the Projected Image. Max Planck Institut Fur Wissenschaftgesichte. Max Planck Institute for the History of Science [1]\n[…]\nBurkhard Walther, Przemek Zajfert: Camera Obscura Heidelberg. Black-and-white photography and texts. Historical and contemporary literature. edition merid, Stuttgart, 2006, ISBN 3-9810820-0-1\n[…]\nMedia related to Camera obscura at Wikimedia Commons"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Camera",
+        "situacao": "ok",
+        "texto": "A camera is an instrument used to capture and store images and videos, either digitally via an electronic image sensor, or chemically via a light-sensitive material such as photographic film. As a pivotal technology in the fields of photography and videography, cameras have played a significant role in the progression of visual arts, media, entertainment, surveillance, and scientific research.\n[…]\nBeginning with the use of the camera obscura and transitioning to complex photographic cameras, the evolution of the technology in the 19th century was driven by pioneers like Thomas Wedgwood, Nicéphore Niépce, and Henry Fox Talbot. First using the camera obscura for chemical experiments, they ultimately created cameras specifically for chemical photography, and later reduced the camera's size and optimized lens configurations.\n[…]\nThese cameras earlier used vacuum tubes and later electronic image sensors.\n[…]\nIn 1986, Japanese company Nikon introduced an analog-recording electronic single-lens reflex camera, the Nikon SVC.\n[…]\nThe first full-frame digital SLR cameras were developed in Japan from around 2000 to 2002: the MZ-D by Pentax, the N Digital by Contax's Japanese R6D team, and the EOS-1Ds by Canon. Gradually in the 2000s, the full-frame DSLR became the dominant camera type for professional photography.\n[…]\nOn most digital cameras a display, often a liquid-crystal display (LCD), permits the user to view the scene to be recorded and settings such as ISO speed, exposure, and shutter speed.\n[…]\nIn 2000, Sharp introduced the world's first digital camera phone, the J-SH04 J-Phone, in Japan. By the mid-2000s, higher-end cell phones had an integrated digital camera, and by the beginning of the 2010s, almost all smartphones had an integrated digital camera.\n[…]\nCamera matrix\n[…]\nHistory of the camera\n[…]\nList of camera types\n[…]\nList of digital camera brands\n[…]\nHow cameras works at How stuff works."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/C%C3%A2mera_escura",
+        "situacao": "ok",
+        "texto": "Câmera escura (português brasileiro) ou câmara escura (português europeu) (do latim camera obscura) é um tipo de aparelho óptico baseado no princípio de mesmo nome, o qual esteve na base da invenção da fotografia no início do século XIX. A câmera escura consiste numa caixa (que pode ter alguns centímetros ou atingir as dimensões de uma sala) com um orifício em uma de suas faces.\n[…]\nO primeiro aparelho identificado como uma câmera escura foi construído em meados do século VI d.C, em experimentos de Antêmio de Trales. No século XI, durante a Dinastia Song, foi usado para aplicar atributos geométricos e quantitativos.\n[…]\nAlgumas câmeras escuras foram construídas como atrações turísticas, embora poucas existam ainda hoje. Exemplos podem ser encontrados em Grahamstown na África, Bristol na Inglaterra, Kirriemuir, Dumfries e Edinburgh, Escócia, Santa Monica e São Francisco, Califórnia. Existe uma grande e bem montada câmera escura no Museu da Vida da Fundação Oswaldo Cruz no Rio de Janeiro.\n[…]\nEm Lisboa, no Castelo de São Jorge, existe uma câmara escura com periscópio gigante, através do qual é possível observar imagens da cidade em movimento.\n[…]\nPode fazer-se uma câmara escura simples a partir de uma caixa onde se perfura um pequeno orifício em uma das paredes. Com uma abertura pequena o suficiente, a luz de apenas uma parte da cena pode acertar qualquer parte específica da parede de trás; quanto menor o buraco, mais definida a imagem no lado de trás. Com esse dispositivo simples a imagem fica sempre invertida, embora usando espelhos seja possível projetar uma imagem que não fique ao contrário.\n[…]\nCâmera EscuraHomenagem às primeiras câmeras fotográficas e cinematográficas.\n[…]\nFotografias PinholeDedicado à exposição de fotografias pinhole tiradas em São Paulo, é apresentado método para construção da câmera escura.\n[…]\n«Camera Obscura» (em inglês). Camera Obscura Links",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Velcro",
+      "descricao": "Sistema de fecho de gancho e argola inventado pelo engenheiro suíço George de Mestral."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome velcro une duas palavras francesas: velours, que quer dizer veludo, e crochet. O que significa crochet?",
+    "resposta": "Gancho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Velcro"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Velcro",
+        "situacao": "ok",
+        "texto": "Velcro is a brand of versatile fastening devices, known as hook-and-loop fasteners, hook-and-pile fasteners, or touch fasteners, that allow two surfaces to be repeatedly attached and detached with ease. A trademark of Velcro Companies, the brand name is often used generically to refer to this type of fastener. Invented in the mid-20th century, it is widely used in clothing, accessories, and variou\n[…]\nThe original hook-and-loop fastener was conceived in 1941 by Swiss engineer George de Mestral, which he named velcro. The word Velcro is a portmanteau of two French words: \"velours\" meaning velvet, and \"crochet\" meaning hook. The idea came to him one day after he returned from a hunting trip with his dog in the Alps. He took a close look at the burs of burdock that kept sticking to his clothes and his dog's fur.\n[…]\n1996 – In the John Frankenheimer film The Island of Dr. Moreau, Moreau's assistant jokingly claims that the doctor won his Nobel Prize for inventing Velcro.\n[…]\n2002 – The Star Trek: Enterprise episode \"Carbon Creek\" portrays Velcro as being introduced to human society by Vulcans in 1957. One of the Vulcans in the episode is named \"Mestral\", after the fastener's actual inventor and founder of the brand.\n[…]\n2004 – One of the characters in the film Garden State made a fictional vast fortune from inventing \"silent Velcro\".\n[…]\n2008 – In filming his mocumentary, Brüno (released in 2009), actor Sacha Baron Cohen stormed onto the catwalk at the Ágatha Ruiz de la Prada fashion show in Milan, with random large objects from backstage attached to his outfit, which was made largely of Velcro.\n[…]\n2016 – As an April Fools' Day joke Lexus introduced \"Variable Load Coupling Rear Orientation (V-LCRO)\" seats, technology that attaches the driver to the seat with Velcro to allow for more aggressive turns."
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Vaselina",
+      "descricao": "Gel de petróleo semissólido usado em cosméticos e cuidados com a pele, lançado pelo químico americano Robert Chesebrough no século dezenove."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome vaselina, criado pelo químico Robert Chesebrough, junta a palavra alemã para água com uma palavra grega. Qual é o sentido dela?",
+    "resposta": "Óleo (azeite)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Petroleum_jelly",
+      "https://en.wikipedia.org/wiki/Vaseline"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Petroleum_jelly",
+        "situacao": "ok",
+        "texto": "Petroleum jelly, petrolatum (), white petrolatum, soft paraffin, or multi-hydrocarbon, CAS number 8009-03-8, is a semi-solid mixture of hydrocarbons (with carbon numbers mainly higher than 25), commonly promoted as a topical ointment for its healing properties. Vaseline has been the dominant brand of petroleum jelly sold since 1870.\n[…]\nRobert Chesebrough, a young chemist whose previous work of distilling fuel from the oil of sperm whales had been rendered obsolete by petroleum, went to Titusville, Pennsylvania, to see what new materials had commercial potential. Chesebrough took the unrefined green-to-gold-colored \"rod wax\", as the drillers called it, back to his laboratory to refine it and explore potential uses.\n[…]\nHe discovered that by distilling the lighter, thinner oil products from the rod wax, he could create a light-colored gel. Chesebrough patented the process of making petroleum jelly by U.S. patent 127,568 in 1872. The process involved vacuum distillation of the crude material followed by filtration of the still residue through bone char.\n[…]\nChesebrough traveled around New York demonstrating the product to encourage sales by burning his skin with acid or an open flame, then spreading the ointment on his injuries and showing his past injuries healed, he said, by his miracle product. He opened his first factory in 1870 in Brooklyn using the name Vaseline.\n[…]\nVaseline brand First Aid Petroleum Jelly, or carbolated petroleum jelly containing phenol to give the jelly additional antibacterial effect, has been discontinued.\n[…]\nThis article incorporates text from a publication now in the public domain: Chisholm, Hugh, ed. (1911). \"Vaseline\". Encyclopædia Britannica (11th ed.). Cambridge University Press.\n[…]\nThe dictionary definition of petroleum jelly at Wiktionary"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Vaseline",
+        "situacao": "ok",
+        "texto": "Vaseline ( ) is an American brand of petroleum jelly-based products owned by a British company Unilever. Products include plain petroleum jelly and a selection of skin creams, soaps, lotions, cleansers, and deodorants.\n[…]\nIn 1859, Robert Chesebrough, a chemist who formerly clarified lamp oil from sperm oil, a waxy oil from the heads of sperm whales, was losing business as whale oil was replaced by petroleum-derived coal oil. He traveled to the oil fields in Titusville, Pennsylvania, to research what new materials might be created from this new fuel. There he learned of a residue called rod wax that had to be periodically removed from oil rig pumps.\n[…]\nThe oil workers had been using the substance to heal cuts and burns. Chesebrough took samples of the rod wax back to Brooklyn, extracted the usable petroleum jelly, and began manufacturing a medicinal product he called Vaseline.\n[…]\nThe first known reference to the name Vaseline was by the Chesebrough Manufacturing Company in the U.S. patent (U.S. Patent 127,568) in 1872. \"I, Robert Chesebrough, have invented a new and useful product from petroleum which I have named Vaseline...\"\n[…]\nVaseline was made by the Chesebrough Manufacturing Company until the company, which merged with Pond's in 1955, was purchased by Unilever in 1987.\n[…]\nVaseline contains mineral oils. Unrefined mineral oils often contain adulterants including polycyclic aromatic hydrocarbons (PAHs), which can increase risk for certain forms of cancer when consumed orally. When used topically (as is recommended with Vaseline), dermal absorption of PAHs is insignificant. No link between topical petroleum jelly-based moisturizers and cancer has been found in large studies over many years."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vaselina",
+        "situacao": "ok",
+        "texto": "A vaselina ou gelatina de petróleo é uma parafina líquida: é oleaginosa, límpida, incolor, não fluorescente, inodora quando fria, (mas apresenta leve odor de petróleo quando aquecida) e insípida. Insolúvel na água e no álcool, miscível com a exceção do óleo de rícino, solúvel no éter, clorofórmio, éter de petróleo e nos óleos essenciais.\n[…]\nA vaselina é hidrófoba, ou seja, praticamente não se dissolve em água, e é menos densa que esta (0,9 g/cm3).\n[…]\nA primeira referência ao nome (Vaseline) está relacionada com o inventor da geleia de petróleo (petroleum jelly), Robert Chesebrough através de uma patente dos Estados Unidos para o processo de fabrico (U.S. Patent 127568) em 1872.\n[…]\nSupõe-se que a palavra provenha do alemão Wasser (água) e do grego έλαιον [elaion] (óleo)\n[…]\nEm 1859, Chesebrough foi aos campos petrolíferos em Titusville (Pensilvânia), e aí soube que um resíduo chamado \"rod wax\" era usado pelos trabalhadores dos campos petrolíferos para curar cortes, feridas e queimaduras. Chesebrough levou amostras do \"rod wax\" para Brooklyn, extraiu a geleia de petróleo (petroleum jelly) utilizável, e começou a fabricar o produto medicinal a que chamou \"Vaseline\".\n[…]\nA vaselina, sob o nome comercial \"Vaseline\", foi feita pela Chesebrough Manufacturing Company até esta ter sido comprada pela Unilever em 1987.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Tamagotchi",
+      "descricao": "Bichinho virtual eletrônico em forma de ovo, criado pela empresa japonesa Bandai."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do bichinho virtual Tamagotchi mistura a palavra inglesa watch, relógio, com o japonês tamago. O que significa tamago?",
+    "resposta": "Ovo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tamagotchi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tamagotchi",
+        "situacao": "ok",
+        "texto": "Tamagotchi (Japanese: たまごっち; IPA: [tamaɡotꜜtɕi], \"Egg Watch\") is a brand of handheld digital pets marketed since 1996 by Japanese toymaker Bandai, a division of Bandai Namco Holdings. Most Tamagotchi are housed in a small egg-shaped handheld video game with an interface consisting of three buttons, with the goal of raising the pet as it goes through different life stages.\n[…]\nTamagotchi was created in Japan by Akihiro Yokoi of WiZ and Aki Maita of Bandai. They both won the tongue-in-cheek 1997 Ig Nobel Prize for economics, dubbing them the father and mother of Tamagotchi. The first Tamagotchi was released by Bandai on November 23, 1996 (several months after the release of the unsuccessful Apple Pippin console) in Japan. It would then release in the United States on May 1, 1997. Tamagotchi is a keychain-sized virtual pet simulation game.\n[…]\nThe characters were first drawn in heta-uma, which was a popular style found in teen magazines, and were then converted to pixel art. They were worn like a wristwatch in the initial concept, hence the portmanteau name. The egg shape might have been chosen as it was meant to resemble a pocket watch. The characters are colorful creatures with simple designs based on animals, objects, or people. When releasing the Tamagotchi in Japan, Bandai initially marketed them exclusively to teenage girls.\n[…]\nThe Tamagotchi was extremely popular globally in 1997-1998 having been referred to as becoming a \"pop culture phenomenon\". The success of the Tamagotchi led to the electronic pet being appointed the Christmas Gift of the Year by the Swedish Retail Institute in November 1997. The toy was especially popular among the high school girls and young women demographics. It also spawned the virtual pet genre and led to many knock-off products or imitators at the time, such as Tiger/Hasbro's Giga Pet.\n[…]\nPou – 2012 virtual pet game"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tamagotchi",
+        "situacao": "ok",
+        "texto": "Tamagotchi (たまごっち, tamagocchi) é uma franquia de mídia japonesa que consiste em animais de estimação virtual, jogos eletrônicos, animações ​​e outras mídias relacionadas. A franquia se passa em um universo compartilhado no qual humanos coexistem com criaturas alienígenas, denominadas Tamagotchi, vindas de um planeta de mesmo nome. O público-alvo principal da franquia é o infantojuvenil, mas ficou \n[…]\nNo ano de 1997, Akihiro Yokoi e Aki Maita, receberam o Prêmio Ig Nobel de Economia por \"divertir milhões de pessoas com horas de trabalho na criação de bichinhos virtuais\".\n[…]\nO Tamagotchi Connection V3 foi lançado em 2005 no Japão e só agora está se espalhando pela Europa. É o novo \"Tamagotchi Connection\", que, além do sensor infravermelho e de jogos e funções adicionais àquelas conhecidas, tem interação com o computador, em um site \"Tamagotchi Town\", onde pode-se adquirir produtos virtuais através dos pontos ganhos em jogos. Não paga nada para entrar e se divertir. Nem para adquirir os produtos virtuais. Estes são armazenados em seu Tamagochi V2.\n[…]\nDurante o final da década de 1990, as crianças frequentemente levavam os bichinhos digitais Tamagotchi para a escola porque nos dois primeiros lançamentos (Geração 1 e Geração 2), um personagem poderia morrer em menos de meio dia se não recebesse os cuidados adequados. Os professores expressaram preocupação com a interrupção das aulas, bem como a distração geral dos trabalhos escolares e isso acabou levando muitas escolas a banir o produto.\n[…]\nAs crianças se emocionaram com a morte de seus Tamagotchi, levando os adolescentes a enviá-los para cemitérios para enterro e lendas urbanas de suicídio de adolescentes, como um suposto caso de uma adolescente se enforcando pela morte de seu Tamagotchi depois que seus pais o levaram embora. uma punição.\n[…]\nForam lançados os seguintes jogos eletrônicos de Tamagotchi:\n[…]\nAnimal de estimação virtual",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Watt",
+      "descricao": "Unidade de potência do Sistema Internacional, usada por exemplo para indicar o consumo de lâmpadas e aparelhos elétricos."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que engenheiro escocês, famoso por aperfeiçoar a máquina a vapor, empresta o nome à unidade de potência estampada nas embalagens de lâmpadas?",
+    "resposta": "James Watt",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Watt",
+      "https://pt.wikipedia.org/wiki/Watt"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Watt",
+        "situacao": "ok",
+        "texto": "The watt (symbol: W) is the unit of power or radiant flux in the International System of Units (SI), equal to 1 joule per second or 1 kg⋅m2⋅s−3. It is used to quantify the rate of energy transfer. The watt is named in honor of James Watt (1736–1819), an 18th-century Scottish inventor, mechanical engineer, and chemist who in 1776 improved the Newcomen engine with his own steam engine, which became \n[…]\nTwo additional unit conversions for watt can be found using the above equation and Ohm's law.\n[…]\nThe watt is named after the Scottish inventor James Watt. The unit name was proposed by C. William Siemens in August 1882 in his President's Address to the Fifty-Second Congress of the British Association for the Advancement of Science. Noting that units in the practical system of units were named after leading physicists, Siemens proposed that watt might be an appropriate name for a unit of power.\n[…]\nWatt\n[…]\nWhen describing alternating current (AC) electricity, another distinction is made between the watt and the volt-ampere. While these units are equivalent for simple resistive circuits, they differ when loads exhibit electrical reactance.\n[…]\nFor example, when a light bulb with a power rating of 100W is turned on for one hour, the energy used is 100 watt hours (W·h), 0.1 kilowatt hour, or 360 kJ. This same amount of energy would light a 40-watt bulb for 2.5 hours, or a 50-watt bulb for 2 hours.\n[…]\nThe watt-second is a unit of energy, equal to the joule. One kilowatt hour is 3,600,000 watt seconds.\n[…]\nWhile a watt per hour is a unit of rate of change of power with time, it is not correct to refer to a watt (or watt-hour) as a watt per hour.\n[…]\nKibble balance (formerly known as a watt balance)\n[…]\nOne Watt Initiative\n[…]\nMedia related to Watt at Wikimedia Commons\n[…]\nThe dictionary definition of watt at Wiktionary"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Watt",
+        "situacao": "ok",
+        "texto": "O watt (símbolo: W), ou vátio, é a unidade de potência do Sistema Internacional de Unidades (SI). É equivalente a um joule por segundo.\n[…]\nA unidade recebeu este nome em homenagem a James Watt, pelas suas contribuições para o desenvolvimento do motor a vapor, e foi adotada pelo segundo congresso da associação britânica para o avanço da ciência em 1882.\n[…]\nQuando um objeto em velocidade constante de um metro por segundo é antagônico a uma força constante de um newton, a taxa de trabalho é de 1 watt.\n[…]\nNo eletromagnetismo, um watt é a taxa de trabalho resultante quando um ampere (\n[…]\nDuas conversões de unidades adicionais podem ser obtidas a partir da Lei de Ohm.\n[…]\n) é a unidade de medida no SI para resistência elétrica.\n[…]\nO termo técnico watt elétrico (símbolo: We) corresponde à produção de potência elétrica. Seus múltiplos são  o megawatt elétrico (MWe) e o gigawatt elétrico (GWe').\n[…]\nO termo técnico watt térmico (símbolo : Wt ou Wth) corresponde à produção de potência térmica. Seus múltiplos são o megawatt térmico (MWt ou MWth) e o gigawatt térmico (GWt ou GWth).\n[…]\nEmbora de uso corrente, a adoção de símbolos dotados de índices não é recomendada pelo Escritório Internacional de Pesos e Medidas (BIPM), que só considera a existência de um único watt, pois é a quantidade medida que muda, não a unidade utilizada para a medida.\n[…]\nEm mecânica o watt é a potência desenvolvida por uma força de um newton aplicada a um ponto que se move um metro em um segundo. Ou seja, se um ponto sobre o qual se aplica uma força de um newton se move a uma velocidade de 1 m/s, então a potência é igual a 1 watt (1 W = 1 Nm/s):\n[…]\nTabela de conversão de unidades"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Dia dos Namorados no Brasil",
+      "descricao": "Data comemorativa brasileira celebrada em 12 de junho, criada em 1949 como ação publicitária do comércio."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Escolhido para animar o comércio num mês de vendas fracas, o Dia dos Namorados brasileiro cai na véspera da festa de qual santo casamenteiro?",
+    "resposta": "Santo Antônio",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Dia_dos_Namorados"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dia_dos_Namorados",
+        "situacao": "ok",
+        "texto": "O Dia dos Namorados, também conhecido em diversos países como Dia de São Valentim, é uma celebração anual comemorada a 14 de fevereiro que assinala a união amorosa, o romance e o afeto entre casais.\n[…]\nNo Brasil, a celebração ocorre a 12 de junho, tendo sido instituída por motivos comerciais na véspera do Dia de Santo António, conhecido popularmente como o santo casamenteiro, em detrimento do tradicional São Valentim.\n[…]\nO Dia dos Namorados foi criado pelo publicitário João Doria, que buscava uma data comemorativa para fomentar o comércio no mês de junho — considerado um mês com poucas vendas a época —, sendo comemorada no dia 12 de junho por ser véspera do 13 de junho, Dia de Santo Antônio, santo português com tradição de casamenteiro.\n[…]\nDoria trouxe a ideia do exterior e apresentou-a aos comerciantes paulistas, iniciando em junho de 1949 uma campanha com o lema \"não é só com beijos que se prova o amor\". A ideia se expandiu pelo Brasil, amparada pela correlação com o Dia de São Valentim — que nos países do hemisfério norte, ocorre em 14 de fevereiro e é utilizada para incentivar a troca de presentes entre o casal apaixonado.\n[…]\nA \"Festa\" (em latim: in natali, lit. \"no aniversário\") de São Valentim teve origem na Cristandade e tem sido assinalada pela Igreja Ocidental em honra de um dos mártires cristãos de nome Valentim, conforme registado no Sacramentário Gelasiano do século VIII. Na Roma Antiga, as Lupercais eram celebradas entre 13 e 15 de fevereiro em honra de Pan e Juno, deuses pagãos do amor, do casamento e da fertilidade.\n[…]\nCasamento\n[…]\nSanto António\n[…]\n«Dia de São Valentim celebra santo que nunca existiu». , na Folha Online\n[…]\nO Doodle da Google para o Dia dos Namorados de 2025"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Dia das Crianças no Brasil",
+      "descricao": "Data comemorativa brasileira celebrada em 12 de outubro, popularizada pela indústria de brinquedos nos anos cinquenta."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em doze de outubro, além do Dia das Crianças, os brasileiros têm um feriado religioso. Ele homenageia quem?",
+    "resposta": "Nossa Senhora Aparecida",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Dia_das_Crianças",
+      "https://pt.wikipedia.org/wiki/Nossa_Senhora_da_Conceição_Aparecida"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dia_das_Crianças",
+        "situacao": "ok",
+        "texto": "Dia das Crianças (português brasileiro) ou Dia da Criança (português europeu) é uma data comemorativa celebrada anualmente em homenagem às crianças, cujo dia efetivo varia de acordo com o país. Países como Angola, Portugal e Moçambique adotaram o dia 1 de junho. No Brasil é celebrado em 12 de outubro.\n[…]\nEm 1924, o deputado federal Galdino do Valle Filho lançou a ideia do Dia da Criança. Os deputados aprovaram e o dia 12 de outubro foi oficializado pelo presidente Arthur Bernardes, por meio do decreto nº 4867, de 5 de novembro de 1924.\n[…]\nNeste dia, os Estados-membros reconheceram que todas as crianças, independentemente da raça, cor, religião, origem social, país de origem, têm direito a afeto, amor e compreensão, alimentação adequada, cuidados médicos, educação gratuita, proteção contra todas as formas de exploração e a crescer num clima de paz e fraternidade.\n[…]\nNos Estados Unidos, o dia das crianças é festejado no primeiro domingo de junho, podendo a data variar de estado para estado em nível nacional. O Dia das Crianças e Juventude foi aprovado em 1994, quando o Legislativo do Havaí tornou-se o primeiro estado do país a aprovar uma lei para reconhecer o primeiro domingo de outubro como o \"Dia da Criança\". Nos Estados Unidos, o presidente Bill Clinton proclamou o dia das crianças em 8 de outubro de 2000.\n[…]\nO \"Dia Nacional da Criança\" foi proclamado pelo presidente George W. Bush em 3 de junho de 2001.\n[…]\nNo Paraguai, devido ao esforço do historiador Andrés Aguirre, o dia das crianças é comemorado em 16 de agosto, data da Batalha de Campo Grande (conhecida como \"Batalha de Los Niños\" pelos paraguaios), em homenagem às crianças-soldado recrutadas por Solano López devido à falta de homens no exército paraguaio e mortas no referido combate da Guerra do Paraguai."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nossa_Senhora_da_Conceição_Aparecida",
+        "situacao": "ok",
+        "texto": "Nossa Senhora da Conceição Aparecida, popularmente chamada Nossa Senhora Aparecida, é um dos títulos da Virgem Maria, mãe de Jesus Cristo, referente a sua aparição a três pescadores no Rio Paraíba do Sul, em outubro de 1717. É reconhecida oficialmente como a Padroeira do Brasil.\n[…]\nAtualmente, é venerada na Catedral Basílica de Nossa Senhora Aparecida, situada na cidade de Aparecida, São Paulo, considerada o maior santuário mariano das Américas e o quarto mais visitado do mundo. O Papa João Paulo II, em sua visita apostólica ao Brasil em 1980, consagrou solenemente a Basílica e declarou 12 de outubro como o dia da Festa Litúrgica de Nossa Senhora Aparecida, que se tornou feriado nacional no mesmo ano.\n[…]\nPela Lei n.º 6 802, de 30 de junho de 1980, foi decretado oficialmente feriado o dia 12 de outubro, dedicando-se este dia à devoção. Também nesta lei, a República Federativa do Brasil reconhece oficialmente Nossa Senhora Aparecida como padroeira do Brasil.\n[…]\nSegundo o jornalista Rodrigo Alvarez, autor de Aparecida - A Biografia da Santa que Perdeu a Cabeça, Ficou Negra, Foi Roubada, Cobiçada pelos Políticos e Conquistou o Brasil, a imagem pertencia à capela Nossa Senhora do Rosário, então propriedade do capitão José Correia Leite, inaugurada em 1712.\n[…]\nNo feriado de Nossa Senhora Aparecida de 1995, ocorreu o incidente conhecido como \"chute na santa\". O ex-bispo televangelista Sérgio von Helder, da Igreja Universal do Reino de Deus (IURD), chutou uma réplica da imagem de Nossa Senhora Aparecida num programa religioso transmitido de madrugada pela Rede Record, emissora de propriedade da IURD. Na noite seguinte, o Jornal Nacional, da Rede Globo, denunciou o incidente, causando comoção nacional.\n[…]\nAparecida\n[…]\nPortal do Santuário Nacional de Nossa Senhora Aparecida"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Controle remoto de televisão",
+      "descricao": "Aparelho portátil que comanda a televisão a distância, cujo modelo sem fio surgiu nos Estados Unidos."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Décadas antes do controle remoto da televisão, que inventor exibiu em Nova York, em 1898, um barquinho comandado por ondas de rádio?",
+    "resposta": "Nikola Tesla",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Remote_control",
+      "https://en.wikipedia.org/wiki/Nikola_Tesla"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Remote_control",
+        "situacao": "ok",
+        "texto": "A remote control, also known colloquially as a remote or clicker, is an electronic device used to operate another device from a distance, usually wirelessly. In consumer electronics, a remote control can be used to operate devices such as a television set, DVD player or other digital home media appliance. A remote control can allow operation of devices that are out of convenient reach for direct o\n[…]\nWired and wireless remote control was developed in the latter half of the 19th century to meet the need to control unmanned vehicles (for the most part military torpedoes). These included a wired version by German engineer Werner von Siemens in 1870, and radio controlled ones by British engineer Ernest Wilson and C. J. Evans (1897) and a prototype that inventor Nikola Tesla demonstrated in New York in 1898.\n[…]\nOne of the first remote intended to control a television was developed by Zenith Radio Corporation in 1950. The remote, called Lazy Bones, was connected to the television by a wire. A wireless remote control, the Flash-Matic, was developed in 1955 by Eugene Polley. It worked by shining a beam of light onto one of four photoelectric cells, but the cell did not distinguish between light from the remote and light from other sources.\n[…]\nThe Brennan torpedo, invented by Louis Brennan in 1877 was powered by two contra-rotating propellers that were spun by rapidly pulling out wires from drums wound inside the torpedo. Differential speed on the wires connected to the shore station allowed the torpedo to be guided to its target, making it \"the world's first practical guided missile\". In 1898 Nikola Tesla publicly demonstrated a \"wireless\" radio-controlled torpedo that he hoped to sell to the U.S. Navy.\n[…]\nHand-gesture recognition has been researched as an alternative to remote controls for television sets.\n[…]\nMedia controls\n[…]\nRadio control\n[…]\nMedia related to Remote control at Wikimedia Commons"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nikola_Tesla",
+        "situacao": "ok",
+        "texto": "Nikola Tesla (10 July 1856 – 7 January 1943) was a Serbian-American engineer, futurist, and inventor. He is known for his contributions to the design of the modern alternating current (AC) electricity supply system.\n[…]\nIn 1895, Edward Dean Adams, impressed with what he saw when he toured Tesla's lab, agreed to help found the Nikola Tesla Company, set up to fund, develop, and market a variety of previous Tesla patents and inventions as well as new ones. Alfred Brown signed on, bringing along patents developed under Peck and Brown. The board was filled out with William Birch Rankine and Charles F. Coaney.\n[…]\nTo further study the conductive nature of low-pressure air, Tesla set up an experimental station at high altitude in Colorado Springs in 1899. There he could safely operate much larger coils than in his New York lab, and the El Paso Electric Light Company supplied alternating current free of charge. To fund his experiments, he convinced John Jacob Astor IV to invest $100,000 ($3,870,000 in today's dollars) to become a majority shareholder in the Nikola Tesla Company.\n[…]\nTesla wrote a number of books and articles for magazines and journals. Among his books are My Inventions: The Autobiography of Nikola Tesla, compiled and edited by Ben Johnston in 1983 from a series of 1919 magazine articles by Tesla which were republished in 1977; and The Tesla Papers.\n[…]\nMany of his writings are freely available online, including the article \"The Problem of Increasing Human Energy\", published in The Century Magazine in 1900, and the article \"Experiments with Alternate Currents of High Potential and High Frequency\", published in his book Inventions, Researches and Writings of Nikola Tesla."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Controlo_remoto",
+        "situacao": "ok",
+        "texto": "Em eletrônica de consumo, controle remoto (português brasileiro) ou controlo remoto (português europeu), telecomando ou ainda comando à distância é um aparelho utilizado para realizar uma operação remota a um dispositivo eletrônico.\n[…]\nO termo é mais utilizado para referir o controle remoto de uma televisão. Porém utiliza-se a técnica de controle remoto em diversos meios como aeromodelismo, ar-condicionado, automodelismo, automodelismo elétrico, nautimodelismo, portões elétricos e vídeo games.\n[…]\nAtualmente o controle remoto mais sofisticado pode ser baseado em software, uma vez que podemos comandar remotamente qualquer equipamento conectado à internet ou a uma interface de telefone celular, desde que tenhamos instalado hardware e software capazes de interpretar os comandos recebidos e transformá-los em ações. Neste caso, de posse de um telefone celular, temos um controle remoto universal de alcance intercontinental.\n[…]\nO primeiro controle remoto para controlar uma televisão foi desenvolvido pela Zenith Radio Corporation em 1950, com a autoria dada ao engenheiro Eugene Polley, sendo este aparelho com fio. O primeiro controle sem fio veio em 1956 pela mesma empresa, utilizava sistema de ultrassom para se comunicar a televisão que tinha um microfone, sendo utilizado até a década de 1970 quando começaram a aparecer os controles remotos com comunicação via infravermelho.\n[…]\nUm controle remoto pode utilizar vários meios de comunicação, entre eles a irradiação de infravermelho, ondas de rádio, redes de energia elétrica, entre outros.\n[…]\nControles remotos já tiveram uso militar, geralmente para manusear objetos suspeitos, assim como também usado como artefato explosivo improvisado.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Máquina de waffle",
+      "descricao": "Aparelho de cozinha com duas chapas quadriculadas articuladas, usado para assar waffles."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "No começo dos anos setenta, Bill Bowerman, cofundador da Nike, criou uma sola de tênis derramando borracha em qual aparelho de cozinha da esposa?",
+    "resposta": "Máquina de waffle",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bill_Bowerman"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bill_Bowerman",
+        "situacao": "ok",
+        "texto": "William Jay Bowerman (February 19, 1911 – December 24, 1999) was an American track and field coach and co-founder of Nike. Over his career, he trained 31 Olympic athletes, 51 All-Americans, 12 American record-holders, 22 NCAA champions and 16 sub-4 minute milers.\n[…]\nAccording to Otis Davis, a student athlete who Bowerman coached at the University of Oregon, who later went on to win two gold medals at the 1960 Summer Olympics, he was one of the guinea pigs for whom Bowerman customized shoes prior to being a cofounder of Nike. Davis stated, \"I didn't like the way they felt on my feet. There was no support and they were too tight. But I saw Bowerman make them from the waffle iron, and they were mine.\"\n[…]\nBowerman's design ideas led to the creation of a running shoe in 1966 that was ultimately named \"Nike Cortez\" in 1968, which quickly became a top-seller and remains one of Nike's most iconic footwear designs. Bowerman designed several Nike shoes, but is best known for ruining his wife's Belgian waffle iron in 1970 or 1971, experimenting with the idea of using waffle-ironed rubber to create a new sole for footwear that would grip but be lightweight.\n[…]\nBowerman's design inspiration led to the introduction of the so-called \"Moon Shoe\" in 1972, so named because the waffle tread was said to resemble the footprints left by astronauts on the Moon. Further refinement resulted in the \"Waffle Trainer\" in 1974, which helped fuel the explosive growth of Blue Ribbon Sports/Nike. While Bowerman was experimenting with shoe design, he worked in a small, unventilated space, using glue and solvents with toxic components that caused him severe nerve damage.\n[…]\nBill Bowerman Papers at the University of Oregon\n[…]\nBill Bowerman at the USATF Hall of Fame (archived)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bill_Bowerman",
+        "situacao": "ok",
+        "texto": "William Jay \"Bill\" Bowerman (19 de fevereiro de 1911 – 24 de dezembro 1999) foi um treinador de atletismo da Universidade do Oregon, que criou a marca de roupas Nike de Steve Prefontaine e co-fundador da Nike.\n[…]\nBill Bowerman nasceu em Portland, Oregon, onde seu pai Jay Bowerman foi governador. Foi também o criador de uma cidade;\n[…]\nDe acordo com a Otis Davis, um atleta estudante que Bowerman treinou na Universidade de Oregon, que mais tarde passou a ganhar duas medalhas de ouro nos Jogos Olímpicos de 1960, Bowerman fez o primeiro par de tênis Nike para ele, contrariando a alegação de que eles foram feitos para Phil Knight. Davis adisse \"Eu falei a Tom Brokaw que eu era o primeiro. Não me importo o que todos os bilionários dizem. Bill Bowerman fez o primeiro par de sapatos para mim. As pessoas não acreditam em mim.\n[…]\nNa verdade, não gostei de como se sentiam em meus pés. Não tinha apoio e eles estavam muito apertadas. Mas eu vi Bowerman fazê-los a partir do ferro de waffle, e eles eram meus.\"",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Disquete",
+      "descricao": "Disco magnético flexível, protegido por uma capa plástica, usado para guardar arquivos de computador nas últimas décadas do século vinte."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em muitos programas de computador, o ícone do botão salvar continua sendo o desenho de qual objeto antigo de guardar arquivos?",
+    "resposta": "Disquete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Floppy_disk"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Floppy_disk",
+        "situacao": "ok",
+        "texto": "A floppy disk, diskette, or floppy diskette is a type of disk storage made from a thin, flexible disk coated with a magnetic storage medium. It is enclosed in a square or nearly square plastic shell lined with fabric to help remove dust from the spinning disk. Floppy disks store digital data, which can be read or written when inserted into a floppy disk drive (FDD) connected to or built into a com\n[…]\nDisk formatting is usually done by a utility program supplied by the computer OS manufacturer; generally, it sets up a file storage directory system on the disk, and initializes its sectors and tracks. Areas of the disk unusable for storage due to flaws can be locked (marked as \"bad sectors\") so that the operating system does not attempt to use them. This was time-consuming so many environments had quick formatting which skipped the error checking process.\n[…]\nWhen floppy disks were often used, disks pre-formatted for popular computers were sold. The unformatted capacity of a floppy disk does not include the sector and track headings of a formatted disk; the difference in storage between them depends on the drive's application. Floppy disk drive and media manufacturers specify the unformatted capacity (for example, 2 MB for a standard 3½-inch HD floppy).\n[…]\nMost home computers from that time have an elementary OS and BASIC stored in read-only memory (ROM), with the option of loading a more advanced OS from a floppy disk.\n[…]\nFor more than two decades, the floppy disk was the primary external writable storage device used. Most small computing environments before the 1990s were non-networked, and floppy disks were the primary means to transfer data between such computers, a method known informally as sneakernet. Unlike hard disks, floppy disks were more commonly handled and seen, and typically novice users could identify a floppy disk.\n[…]\nComputer Hope: Information about computer floppy drives"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Disquete",
+        "situacao": "ok",
+        "texto": "Disquete (do inglês: diskette ou floppy-disk) é um dispositivo obsoleto de armazenamento removível de dados usado no computador (ou dispositivo portátil de entrada e saída de dados, ou sistema de transferência de dados entre computadores) desenvolvido no final da década de 1960 e popular na década de 1990, que utiliza memória de disco magnético fino e flexível, com um formato achatado e quadrado, \n[…]\nDisquetes eram lidos e gravados por uma unidade de leitura/gravação de disco (em inglês: \"disk-drive\"), chamado também de \"floppy disk drive\" (FDD).\n[…]\nAs unidades de leitura geralmente possuem um botão que, se pressionado ejeta o disquete. A possibilidade de ejetar o disquete mecanicamente pode acarretar erros de leitura, ou até mesmo a perda de todos os dados contidos no disquete caso a ejeção seja feita durante um processo de leitura. Uma exceção a isso é constituído pelas unidades de leitura dos computadores Macintosh, nos quais a ejeção do disco é comandada pelo sistema operacional e realizada através de um motor interno.\n[…]\nO disquete já foi considerado um dispositivo com grande capacidade de armazenamento, especialmente devido ao pequeno tamanho dos arquivos.\n[…]\nAtualmente, devido ao tamanho cada vez maior dos arquivos e, devido à existência de mídias de armazenamento não-voláteis de maior capacidade, como cartões de memória (memory sticks, cartões MMC, cartões SD, ...), Pen Drives, CD-R, CD-RW, DVDs graváveis e regraváveis; além da existência de outras maneiras de armazenamento de arquivos, como armazenamento distribuído, Compartilhamento de arquivos em redes locais, e-mail, disco virtual, serviços de hospedagem de arquivos, cloud computing e SAN, o disquete se tornou um utilitário obsoleto.\n[…]\nAtualmente os computadores saem de fábrica sem o drive de leitura de disquete.\n[…]\nSetor (disco)\n[…]\nTrilha (disco)\n[…]\nA miraculosa sobrevida dos disquetes de 1.44\n[…]\nFotos dos diversos tipos de disquetes",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Good Morning to All",
+      "descricao": "Canção infantil americana de 1893, das irmãs Patty e Mildred Hill, cuja melodia deu origem ao Parabéns pra Você."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A melodia do Parabéns pra Você vem de uma canção americana de 1893, cantada por crianças ao chegar à escola. O que ela desejava?",
+    "resposta": "Bom dia a todos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Happy_Birthday_to_You"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Happy_Birthday_to_You",
+        "situacao": "ok",
+        "texto": "\"Happy Birthday to You\", or simply \"Happy Birthday\", is an American song traditionally sung to celebrate a person's birthday. According to the 1998 Guinness World Records, it is the most recognized song in the English language, followed by \"For He's a Jolly Good Fellow\". The song's base lyrics have been translated into at least 18 languages.\n[…]\nThe melody of \"Happy Birthday to You\" comes from the song \"Good Morning to All\", which has traditionally been attributed to American sisters Patty and Mildred J. Hill in 1893, although the claim that the sisters composed the tune is disputed.\n[…]\nAmerican law professor Robert Brauneis extensively researched the song and concluded in 2010 \"it is almost certainly no longer under copyright.\" Good Morning to You Productions sued Warner/Chappell for falsely claiming copyright to the song in 2013. In September 2015, a federal judge declared that the Warner/Chappell copyright claim was invalid, ruling that the copyright registration applied only to a specific piano arrangement of the song and not to its lyrics and melody.\n[…]\n\"Happy Birthday to You\" dates from the late 19th century, when sisters Patty and Mildred J. Hill introduced the song \"Good Morning to All\" to Patty's kindergarten class in Kentucky. They published the tune in their 1893 songbook Song Stories for the Kindergarten with Chicago publisher Clayton F. Summy.\n[…]\nSong Stories for the Kindergarten by Mildred Hill: containing the song \"Good morning to you\" at the International Music Score Library Project\n[…]\n\"The Happy Birthday Song\". University of Pittsburgh. Archived from the original on September 26, 2015. Retrieved May 24, 2024. – shows the \"Good Morning and Birthday Song\" from the 1927 edition of The Everyday Song Book held by the University of Pittsburgh Library System."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parab%C3%A9ns_a_Voc%C3%AA",
+        "situacao": "ok",
+        "texto": "\"Parabéns a Você\" (no Brasil, popularmente alterado para \"Parabéns para Você\" ou mais habitualmente \"Parabéns pra Você\") é o título em português para a canção tradicional de origem estadunidense \"Happy Birthday to You\", cantada nas comemorações de aniversários das pessoas, e que em 1942 teve uma letra adaptando-a no Brasil por Bertha Celeste, a qual também é utilizada em Portugal.\n[…]\nA melodia de \"Parabéns a Você\" tem origem na canção \"Good Morning to All\" (\"Bom dia a todos\"), das irmãs e professoras norte-americanas Mildred J. Hill e Patty Hill em 1893, que resolveram compor uma canção para as crianças cantarem na entrada da escola. A melodia era acompanhada pela repetição do título quatro vezes. Isto ocorreu no ano de 1875.\n[…]\nO chamado Parabéns Crioulo ou Parabéns Gaúcho ou Parabéns Gaudério é uma versão regional da canção do Parabéns a Você, criada e utilizada no estado brasileiro do Rio Grande do Sul. A letra foi composta entre as décadas de 1950 e 1960 por Dimas Costa, poeta, radialista e folclorista brasileiro, e a música foi composta por Eleu Salvador, ator, compositor e dublador. \"É um refrão repetido 3x e duas declamações no meio\".\n[…]\nA Warner exigira que a cineasta Jennifer Nelson, que realizava um documentário sobre as irmãs Hill, pagasse uma taxa de 1.500 dólares pelo uso da canção na trilha sonora; inconformada com esta cobrança, Nelson então processou a empresa, a fim de demonstrar que ela não tinha direito algum de realizar tal cobrança. A empresa tencionava continuar as cobranças de todos que fizessem uso comercial da canção até 2030, com um lucro estimado até lá de 14 milhões de dólares.\n[…]\nSegundo argumentou o advogado de Nelson, Mark C. Rifkin, que ajuizara a ação em 13 de junho de 2013, Happy Birthday era uma simples adaptação pública da canção original: \"É uma música criada pelo público, pertence ao público, e que precisa voltar para o público\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Cerquilha",
+      "descricao": "O símbolo formado por duas linhas horizontais cruzadas por duas oblíquas, usado em teclados, telefones e hashtags."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "No Brasil, o símbolo usado nas hashtags, chamado de cerquilha, também é conhecido pelo nome de qual brincadeira de papel e lápis?",
+    "resposta": "Jogo da velha",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cerquilha"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cerquilha",
+        "situacao": "ok",
+        "texto": "Cerquilha, cancela, antífen, cardinal ou octótropo (símbolo: #) é um sinal de pontuação utilizado para indicar diversas funções.\n[…]\nNo Brasil, o símbolo é popularmente chamado \"jogo da velha\", \"tralha\" e \"hashtag\" e, em Portugal, como \"cardinal\", quando se refere o símbolo isoladamente,[carece de fontes]? ou \"número\" quando o símbolo está inserido num texto imediatamente antes de um número.[http://web.archive.org/web/*/https://www.ultius.com/glossary/grammar/punctuation/number-signhashtag.html [ligação inativa]] Em programação, é muito chamado pelos programadores mais antigos de cancela.[carece de fontes]?\n[…]\nApesar do uso cada vez mais frequente do termo \"cerquilha\" em páginas hospedadas no Brasil, alguns dicionários brasileiros tradicionais registram apenas o termo \"antífen\" para o símbolo, citando particularmente seu uso em artes gráficas.\n[…]\nÉ visualmente semelhante considerado conceptualmente diferente do símbolo musical \"♯\", que representa o acidente musical denominado sustenido — tomando o símbolo também este nome.\n[…]\nÉ ainda comumente utilizado por computadores para indicar o xeque-mate na transcrição de lances de um jogo de xadrez.\n[…]\nTambém é utilizado para indicar uma hashtag nas redes sociais (funcionalidade originada no Twitter), sendo assim o sinal também referido por metonímia pelo termo \"hashtag\", popularizado pelo uso recorrente do recurso."
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Kleenex",
+      "descricao": "Marca de lenço de papel lançada nos Estados Unidos pela Kimberly-Clark em 1924."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Antes de virar lenço Kleenex, o material de celulose da Kimberly-Clark serviu na Primeira Guerra em curativos e como filtro de qual equipamento?",
+    "resposta": "Máscaras de gás",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kleenex"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kleenex",
+        "situacao": "ok",
+        "texto": "Kleenex is a brand name primarily known for its line of facial tissues. Often used informally as a genericized trademark for facial tissue, Kleenex is a registered trademark of Kimberly-Clark applied to products made in 78 countries. The brand also includes other paper products, such as napkins and toilet paper.\n[…]\nIn the application, Cellucotton claimed that it had used the drawing and stylized word mark in commerce since June 12, 1924. The USPTO granted trademark registration on November 25, 1924. International Cellucotton Products Company officially assigned trademark interest and goodwill of the business to Kimberly-Clark Corporation on September 30, 1955. Kimberly-Clark Corporation of Neenah, Wisconsin, is the current registered owner of the Kleenex trademark.\n[…]\nIn the U.S., the Kleenex name has become—in common usage but not in law—genericized. The popularity of the product has led to the use of its name to refer to any facial tissue, regardless of the brand. Many dictionaries, including Merriam-Webster and Oxford, now define it as such.\n[…]\nIn 2023, Kimberly-Clark announced that it would no longer be selling the brand in Canada, citing transportation costs. The brand had a 16 percent market share at the time, but the cost of shipping meant profitability was low.\n[…]\nIn 1978, Kimberly-Clark introduced Kleenex Super Dry diapers with wetness indicators in the form of a design that fades as the inside of the diaper becomes wetter. The Huggies brand, introduced in 1977, is Kimberly-Clark's current diaper brand.\n[…]\nMan of Steel, Woman of Kleenex\n[…]\nHenrich, Thomas; Batchelor, Bob (2004). Kotex, Kleenex, Huggies. Ohio State University Press. ISBN 0814209769.\n[…]\nKleenex History Timeline\n[…]\nGallery of vintage graphic design featuring Kleenex tissues"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Kleenex",
+        "situacao": "ok",
+        "texto": "Kleenex é uma marca registrada mundialmente conhecida no ramo de lenços de papel (como lenços, papeis higiênicos, fraldas etc.) que pertence à empresa estadunidense Kimberly-Clark Worldwide, Inc.. Produtos da marca, que foi introduzida em 12 de junho de 1924, são oferecidos em mais de 130 países.\n[…]\nLogo https://logosmarcas.net/wp-content/uploads/2020/09/Kleenex-Logo.png",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Frederik Philips",
+      "descricao": "Banqueiro holandês do século dezenove que financiou e cofundou com o filho Gerard a fabricante de lâmpadas Philips, em 1891."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O banqueiro Frederik Philips, que ajudou a fundar a fabricante de lâmpadas Philips em 1891, era primo de qual pensador alemão?",
+    "resposta": "Karl Marx",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Philips",
+      "https://en.wikipedia.org/wiki/Lion_Philips"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Philips",
+        "situacao": "ok",
+        "texto": "Koninklijke Philips N.V., commonly known as Philips, is a Dutch multinational health technology company and former major consumer electronics manufacturer. The company was founded in Eindhoven in 1891 by Gerard Philips and his father Frederik Philips to manufacture incandescent light bulbs. In October 1997, Philips decided to move its corporate headquarters from Eindhoven to Amsterdam, with the re\n[…]\nPhilips & Co. was founded in Eindhoven in 1891 by Gerard Philips and his father Frederik Philips to manufacture incandescent electric lamps. Gerard's younger brother Anton Philips joined the company in 1895 and helped expand its commercial operations.\n[…]\n1891–1922: Gerard Philips\n[…]\nPhilips Denmark was founded in Copenhagen in 1927, and is now headquartered in Frederiksberg.\n[…]\nPhilips AVENTil\n[…]\nPhilips Sonicare\n[…]\nTrust In Philips Is Worldwide (1960–1974)\n[…]\nHowever, the guide criticized Philips' sourcing of fibres for paper, arguing it must develop a paper procurement policy which excludes suppliers involved in deforestation and illegal logging.\n[…]\nIn 2016 Philips introduced a series of LED lamps with an efficiency up to 200lm/W. The Dubai Lamp produces 600 lumens at an input power of 3 W.\n[…]\nA. Heerding: The origin of the Dutch incandescent lamp industry. (Vol. 1 of The history of N.V. Philips gloeilampenfabriek). Cambridge: Cambridge University Press, 1986. ISBN 0-521-32169-7\n[…]\nA. Heerding: A company of many parts. (Vol. 2 of The history of N.V. Philips' gloeilampenfabrieken). Cambridge: Cambridge University Press, 1988. ISBN 0-521-32170-0\n[…]\nI.J. Blanken: The development of N.V. Philips' Gloeilampenfabrieken into a major electrical group. Zaltbommel: European Library, 1999. (Vol. 3 of The history of Philips Electronics N.V.). ISBN 90-288-1439-6\n[…]\nI.J. Blanken: Under German rule. Zaltbommel: European Library, 1999. (Vol. 4 of The history of Philips Electronics N.V). ISBN 90-288-1440-X\n[…]\nBusiness data for Philips:"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Lion_Philips",
+        "situacao": "ok",
+        "texto": "Lion Philips (29 October 1794 – 28 December 1866) was a Dutch tobacco merchant. He is the grandfather of Gerard and Anton Philips of Philips Electronics, and was a financial supporter of Karl Marx.\n[…]\nLion married Sophie Pressburg from Nijmegen. Sophie's sister Henriëtte married German lawyer Heinrich Marx and was the mother of Karl Marx. Sophie and Lion had nine children, including August Philips, who was a lawyer and dean of the Amsterdam Bar Association; and banker Frederik Philips who, together with his son Gerard Philips, established the Philips Electronics Company, the first Dutch incandescent light company, in 1891. Gerard's younger brother Anton joined the company in 1912.\n[…]\nAfter Henriëtte's death in 1863, Lion, who was named one of her executors, paid what remained after Karl's inheritance: seven thousand guilders, a considerable sum. In addition, Philips occasionally offered extras, after a lot of flattery: \"I squeezed £160 out of my uncle so that we were able to pay off the greater part of our debts\", Marx wrote to Friedrich Engels on 7 May 1861.\n[…]\nIn the Soviet TV series Karl Marks, Molodye gody (Карл Маркс: Молодые годы, \"Karl Marx's early years\") the role of Lion Philips is played by the Soviet actor Leonid Bronevoy.\n[…]\nHeinz Monz: Karl Marx. Ground layers zu Leben und Werk . NCO-Verlag, Trier 1973\n[…]\nJan Gielkens: \" If only I were in Bommel again\": Karl Marx and his Dutch relatives: a family history in documents / delivered and collected. . Amsterdam 1997 ISBN 90-6861-099-6\n[…]\nJan Gielkens: Karl Marx und seine niederländischen Verwandten. Eine kommentierte Quellenedition . Trier 1999 [vielmehr April 2000] (= Scriptures from the Karl-Marx-Haus 50) ISBN 3-86077-845-5"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Philips",
+        "situacao": "ok",
+        "texto": "Philips, estilizado como PHILIPS (Euronext: PHI, NYSE: PHG, B3: PHGN34\n[…]\nA Philips & Co. foi fundada em Eindhoven em 1891 por Gerard Philips e seu pai, Frederik Philips, com a finalidade de produzir lâmpadas elétricas incandescentes. O irmão mais novo de Gerard, Anton Philips, ingressou na sociedade em 1895, impulsionando a expansão de suas operações comerciais.\n[…]\n1891, Philips é fundada quando o engenheiro físico Gerard Philips junto com seu irmão Anton, com formação comercial, se dispõe a produzir lâmpadas incandescentes na zona de Eindhoven, província de Brabante do Norte nos Países Baixos.\n[…]\n1891-1922: Gerard Philips\n[…]\nA Philips do Brasil é uma subsidiária da Royal Philips Electronics dos Países Baixos e atua no país há mais de cem anos. Foi inaugurada em 28 de julho de 1924, no Rio de Janeiro, para a importação e venda dos produtos Philips fabricados na Holanda, e, em 1929, começa a vender receptores de rádio. Na década de 1930, a Philips fabricava lâmpadas e receptores de rádio no Brasil.\n[…]\nA Philips foi participante ativa do cartel Phoebus de 1925, ao lado de fabricantes como a Osram, a Tungsram, a Associated Electrical Industries, a ELIN, a Compagnie des Lampes, a International General Electric e o grupo GE Overseas, detendo cotas da corporação suíça proporcionais ao volume comercializado de suas lâmpadas.\n[…]\nEm 2016, a Philips introduziu uma série de lâmpadas LED com eficiência luminosa de até 200 lm/W. Desenvolvida em conjunto com a municipalidade de Dubai, a Dubai Lamp produz 600 lúmens consumindo uma potência de entrada de 3 W.\n[…]\nPhilips do Brasil",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Tampinha de garrafa",
+      "descricao": "Tampa metálica de bordas onduladas para garrafas, a crown cork, patenteada por William Painter em 1892."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A tampinha metálica de garrafa, chamada de coroa, tem a borda dobrada em dentinhos. Quantos dentes tem a tampinha padrão?",
+    "resposta": "21",
+    "distratores": [
+      "16",
+      "18",
+      "28"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crown_cork"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Crown_cork",
+        "situacao": "ok",
+        "texto": "The crown cork (also known as a crown seal, crown cap, metal bottle cap, or just cap) was the first commercially successful bottle cap design. It was invented by William Painter in 1892 in Baltimore. Painter had been working for years trying various bottle cap designs, with his company the Bottle Seal Company.\n[…]\nAfter he patented the crown cork in 1892, which was an immediate success, he started a new company, Crown Cork & Seal Company (now Crown Holdings) which went on to become one of the largest manufacturing companies in the United States producing billions of caps annually.\n[…]\nPatent number US 468226  was applied for on May 19, 1891 — a lower patent number despite being a later application — it further shortened the skirt and reduced the cork thickness. This last patent perfected the design.\n[…]\nOn February 2, 1892, Painter was granted three patents for his new system: one for the cap itself, one for the sealing disk's composition, and one for the use of cork and other materials. The family dubbed the invention the \"crown cap,\" and Painter's son Orrin drew the company's crown logo. One editor marveled that the invention \"crowned one of the most troublesome inventive problems with a success which is simply dazzling.\"\n[…]\nIn 1892, Painter patented the invention and founded the Crown Cork & Seal Company in Baltimore to manufacture his new invention. Painter died in 1906 having lived long enough to see it become widely adopted. The expiration of Painter's original patents in 1909 opened the company to competition and further solidified the ubiquity of the crown cap. In 1923 the crown-finish bottle was standardized by the relevant national standards body.\n[…]\nLive Counter of produced crown corks\n[…]\nDavide's Crown Caps Homepage"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Dado",
+      "descricao": "Cubo com as faces numeradas de um a seis, por pontos, usado em jogos de sorte."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Num dado comum de seis faces, os números de faces opostas sempre somam o mesmo valor. Qual é essa soma?",
+    "resposta": "Sete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dice"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dice",
+        "situacao": "ok",
+        "texto": "A die (plural: dice, sometimes also used as singular) is a small, throwable object with marked sides that can rest in multiple positions. Dice are used for generating random values, commonly as part of tabletop games, including dice games, board games, role-playing games, and games of chance.\n[…]\nBipyramids, the duals of the infinite set of prisms, with triangle faces: any multiple of 4 (so that a facet faces up), starting from 8\n[…]\nLong dice and teetotums can, in principle, be made with any number of faces, including odd numbers. Long dice are based on the infinite set of prisms. All the rectangular faces are mutually face-transitive, so they are equally probable. The two ends of the prism may be rounded or capped with a pyramid, designed so that the die cannot rest on those faces. 4-sided long dice are easier to roll than tetrahedra and are used in the traditional board games dayakattai and daldøs.\n[…]\nThe faces of most dice are labelled using sequences of whole numbers, usually starting at one, expressed with either pips or digits. However, there are some applications that require results other than numbers. Examples include letters for Boggle, directions for Warhammer, Fudge dice, playing card symbols for poker dice, and instructions for sexual acts using sex dice.\n[…]\nPolyhedral dice are commonly used in role-playing games. The fantasy role-playing game Dungeons & Dragons (D&D) is largely credited with popularizing dice in such games. Some games use only one type, like Exalted and Call of Cthulhu, which use only ten-sided dice. Others use numerous types for different game purposes, such as D&D, which makes use of all common polyhedral dice. Dice are usually used to determine the outcome of events."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dado_%28pe%C3%A7a%29",
+        "situacao": "ok",
+        "texto": "Os dados são pequenos poliedros gravados com determinadas instruções. O dado mais clássico é o cubo (seis faces), gravado com números de um a seis. Existem também dados de duas faces (representados por moedas), três faces (igual a um dado clássico de seis lados, mas com apenas três números, sendo cada um repetido duas vezes), quatro faces (em formato piramidal), oito faces, dez faces, 12 faces, 20\n[…]\nUma pequena curiosidade quanto aos dados clássicos (fabricados de forma correta), de seis lados: a soma dos lados opostos resulta no número sete. Ou seja, se de um lado temos o número um automaticamente teríamos o número seis do outro lado. Isso ocorre também com o dois casando com o cinco, e o três com o quatro. Isso se aplica também a qualquer outro dado, a soma de dois lados opostos sempre é igual ao número de faces mais um.\n[…]\nUm dado com dois números um e sem o número seis;\n[…]\nEstes dados são em sua maioria feitos de plástico, e apresentam geralmente números em suas faces e não tanto com pontos como os dados comuns de seis lados. Números semelhantes são distinguidos com um ponto na parte inferior (6. e 9.) ou sublinhados (6 e 9).\n[…]\nQuando não se tem dois dados com mesmo número de lados para um '2d8', por exemplo, joga-se o mesmo dado duas vezes. Isso é muito útil para jogos como Banco Imobiliário e RPGs em geral. O dado estilo peão tem uma forma semi-cilíndrica quando com mais de dez lados. Também propiciam a possibilidade de um dado com três lados (sem contar os outros seis das pontas), em forma de uma barraca.\n[…]\nTambém existem os dados dentro de dados, ou dados duplos, ou ainda dois em um, são dados transparentes (geralmente d6 e d10), e ocos. Dentro eles têm outro dado com o mesmo número de lados. É comum que se some o resultado dos dois, ou se subtraia, já que um gira livremente dentro do outro, mas a confiabilidade destes dados é muito questionada por jogadores experientes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Lego",
+      "descricao": "Marca dinamarquesa de brinquedos de blocos de montar plásticos."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Seis peças de Lego retangulares, do tipo dois por quatro e da mesma cor, podem ser encaixadas de quantas maneiras diferentes?",
+    "resposta": "Cerca de 915 milhões",
+    "distratores": [
+      "Cerca de 9 mil",
+      "Cerca de 900 mil",
+      "Cerca de 90 bilhões"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lego"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lego",
+        "situacao": "ok",
+        "texto": "Lego ( , LEG-oh; Danish: [ˈle̝ːko]) is a brand of plastic construction toys manufactured by the Lego Group, a privately held company based in Billund, Denmark. Lego consists of variously coloured interlocking plastic bricks made of acrylonitrile butadiene styrene (ABS) that accompany an array of gears, figurines called minifigures, and various other parts. Its pieces can be assembled and connected\n[…]\nLego pieces of all varieties constitute a universal system. Despite there being variations in the design and the purposes of individual pieces over the years, each remains compatible in some way with existing pieces. Lego bricks from 1958 still interlock with those made presently, and Lego sets for young children are compatible with those made for teenagers. Six bricks of 2 × 4 studs can be combined in 915,103,765 ways.\n[…]\nClague, Kevin; Agullo, Miguel; Hassing, Lars C. (2003). LEGO Software Power Tools, With LDraw, MLCad, and LPub. Syngress. ISBN 1-931836-76-0.\n[…]\nCourtney, Tim; Herrera, Ahui; Bliss, Steve (2003). Virtual LEGO: The Official LDraw.org Guide to LDraw Tools for Windows. San Francisco: No Starch Press. ISBN 1-886411-94-8.\n[…]\nMcKee, Jacob H (2003). Getting Started with LEGO Trains. San Francisco: No Starch Press. ISBN 1-59327-006-2.\n[…]\nFerrari, Mario; Ferrari, Giulio; Hempel, Ralph (2001). Building Robots With LEGO Mindstorms: The Ultimate Tool for Mindstorms Maniacs. Syngress Media. ISBN 1-928994-67-9.\n[…]\nPickering, David (1999). The Ultimate LEGO Book. New York: Dorling Kindersley. ISBN 0-7894-4691-X.\n[…]\nLipkowitz, Daniel (2012). The LEGO Book. London: Dorling Kindersley. ISBN 978-1-4093-7660-6.\n[…]\nWiencek, Henry (1987). The World of LEGO Toys. New York: Harry N. Abrams, Inc., Publishers. ISBN 0-8109-2362-9.\n[…]\nPilegaard, Ulrik; Dooley, Mike (2007). Forbidden LEGO. San Francisco: No Starch Press. ISBN 978-1-59327-137-4.\n[…]\nMedia related to Lego at Wikimedia Commons\n[…]\nLego sets guide and database"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lego",
+        "situacao": "ok",
+        "texto": "Lego ([ˈlɛɡu], Dinamarquês: [ˈle̝ːko]; estilizado como LEGO) é uma linha de brinquedos de construção de plástico fabricados pelo The Lego Group, uma empresa privada com sede em Billund, Dinamarca. Lego consiste em blocos de plástico interligados de várias cores, feitos de acrilonitrila butadieno estireno (ABS), que acompanham uma série de engrenagens, bonecos chamados minifiguras e diversas outras\n[…]\nSuas peças podem ser montadas e conectadas de diversas maneiras para construir objetos, incluindo veículos, edifícios e robôs funcionais. Modelos de Lego montados podem ser desmontados e suas peças podem ser reutilizadas para criar novas construções.\n[…]\nO The Lego Group iniciou a fabricação dos blocos de brinquedo com encaixe em 1949. A moldagem é feita na Dinamarca, Hungria, México e China. A decoração e a embalagem dos blocos são feitas em fábricas nos três primeiros países e na República Tcheca. A produção anual média desses blocos é de aproximadamente 36 bilhões, ou cerca de 1.140 peças por segundo. Uma das maiores empresas da Europa, Lego é a maior fabricante de brinquedos do mundo em vendas.\n[…]\nAté julho de 2015, 600 bilhões de peças de Lego haviam sido produzidas.\n[…]\nO brinquedo surgiu numa pequena empresa familiar na década de 1930. Obteve sucesso na década de 1960, expandindo-se nas décadas seguintes. O criador fundiu duas palavras em dinamarquês para obter o nome \"LEGO\": leg godt que significa \"brincar bem\". Atualmente o grupo LEGO emprega mais de 10.000 pessoas em cerca de 140 países, ocupando a posição de líder mundial no segmento de brinquedos para crianças nas faixas dos três meses aos dezesseis anos de idade.\n[…]\nFIRST LEGO League Campeonato da LEGO de Robótica\n[…]\nViolência e Lego\n[…]\nHistória do Lego\n[…]\nPatente estadunidense do Lego\n[…]\n(em inglês) LEGO\n[…]\n(em inglês) LEGO BIONICLE\n[…]\n(em inglês) LEGO CLICKITS\n[…]\n(em inglês) LEGO EXO-FORCE\n[…]\n(em inglês) LEGO MINDSTORMS",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Cubo mágico",
+      "descricao": "Quebra-cabeça tridimensional de faces coloridas giratórias criado pelo húngaro Ernő Rubik."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Girando as faces de um cubo mágico comum, de três por três, é possível chegar a quantas combinações diferentes?",
+    "resposta": "Cerca de 43 quintilhões",
+    "distratores": [
+      "Cerca de 43 milhões",
+      "Cerca de 43 bilhões",
+      "Cerca de 43 trilhões"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rubik%27s_Cube"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rubik%27s_Cube",
+        "situacao": "ok",
+        "texto": "The Rubik's Cube (Hungarian: Rubik-kocka) is a 3D combination puzzle invented in 1974 by Hungarian sculptor and professor of architecture Ernő Rubik. Originally called the Magic Cube (Hungarian: bűvös kocka), the puzzle was licensed by Rubik to be sold by Pentangle Puzzles in the UK in 1978, and then by Ideal Toy Corp in 1980 via businessman Tibor Laczi and Seven Towns founder Tom Kremer. The cube\n[…]\n43,252,003,274,489,856,000\n[…]\n{\\displaystyle {8!\\times 3^{7}\\times {\\frac {12!}{2}}\\times 2^{11}}=43{,}252{,}003{,}274{,}489{,}856{,}000}\n[…]\nor about 43 quintillion. To put this into perspective, if one had one standard-sized Rubik's Cube for each permutation, one could cover the Earth's surface 275 times, or stack them in a tower 261 light-years high.\n[…]\nor approximately 519 quintillion possible arrangements of the pieces that make up the cube, but only one-twelfth of these are actually solvable. This is because there is no sequence of moves that will swap a single pair of pieces or rotate a single corner or edge cube. Thus, there are 12 possible sets of reachable configurations, sometimes called \"universes\" or \"orbits\", into which the cube can be placed by dismantling and reassembling it.\n[…]\nThus orientations of centres increases the total number of possible Cube permutations from 43,252,003,274,489,856,000 (4.3×1019) to 88,580,102,706,155,225,088,000 (8.9×1022).\n[…]\nThere are many variations of the original cube, some of which are made by Rubik. The mechanical products include Rubik's Magic, 360, and Twist. There are electronic variants such as Rubik's Revolution and Slide that were also inspired by the original. One of the 3×3×3 Cube variants is Rubik's TouchCube. Sliding a finger across its faces causes its patterns of coloured lights to rotate the same way they would on a mechanical cube.\n[…]\nHow to solve a Rubik's Cube on YouTube\n[…]\nSafecracker Method: Solving Rubik's Cube with just 10 Numbers"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cubo_de_Rubik",
+        "situacao": "ok",
+        "texto": "Cubo de Rubik (em inglês: Rubik's Cube), também conhecido como cubo mágico, é um quebra-cabeça tridimensional, inventado pelo professor de arquitetura húngaro Ernő Rubik em 1974. Originalmente foi chamado de \"Cubo Mágico\" pelo seu inventor, mas o nome foi alterado pela Ideal Toys para \"Cubo de Rubik\" quando a empresa licenciou o brinquedo em 1980. Nesse mesmo ano, ganhou o prêmio alemão de \"Jogo d\n[…]\nO cubo de Rubik é um cubo geralmente confeccionado em plástico e possui várias versões, sendo a versão 3x3x3 a mais comum, composta por 6 faces de 6 cores diferentes, geralmente com arestas de 56 mm cada. Outras versões menos conhecidas são o 2x2x2, 4x4x4 e 5x5x5.\n[…]\nNo total, o número de combinações possíveis no cubo de Rubik é:\n[…]\nErnő Rubik foi a primeira pessoa a resolver o cubo de Rubik, levando cerca de um mês depois de criar seu protótipo de madeira em 1974. Seu método original se resumia em: resolver as quinas da camada D, colocar as quinas da camada U no lugar e depois orientá-las, resolver três meios da camada D, resolver três meios da camada U, resolver os demais meios das camadas D e U, por fim resolver os meios da camada do meio.\n[…]\nAtravés da montagem, podemos solucionar o cubo mágico com o auxílio da robótica, uma recente pesquisa elaborada por Silva, Henrique, Aires Fernandes e Castellanos trabalham com a resolução do cubo de Rubik utilizando programação pelo Dataloggin, um complemento auxiliar do software que permite fazer a leitura da programação em gráficos.\n[…]\nPor intermédio desta pesquisa é possível a realização de diversas análises sobre a Teoria de Grupos, ao longo deste trabalho relatam-se os conteúdos relacionados a uma movimentação proposital para observar os Grupos de Permutação gerados e seus subgrupos. O resultado da programação serviu de base para analisar e aplicar a Teoria de Grupos na programação inserida no protótipo que solucionou o cubo mágico.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Código de barras",
+      "descricao": "Representação de dados em barras paralelas lidas por scanners, criada por Norman Joseph Woodland e Bernard Silver."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Nos códigos de barras dos supermercados, os produtos registrados no Brasil costumam ter números que começam com qual sequência?",
+    "resposta": "789",
+    "distratores": [
+      "978",
+      "750",
+      "560"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/List_of_GS1_country_codes"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_GS1_country_codes",
+        "situacao": "ok",
+        "texto": "This is a list of country codes used by GS1.\n[…]\nList of ISBN registration groups"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lista_de_c%C3%B3digos_de_pa%C3%ADs_GS1",
+        "situacao": "ok",
+        "texto": "Este artigo consiste numa lista de códigos de país, que são os 3 primeiros dígitos do código numérico que aparece em códigos de barras EAN-13 e EAN-8 e que servem para representar o país onde o código foi emitido originalmente. A entidade reguladora destes códigos é a GS1, que se encontra espalhada mundialmente.\n[…]\nPorém, segundo a própria GS1 \"os prefixos GS1 não fornecem a identificação do país de origem do produto e sim a identificação da GS1 que atribui a licença a este produto.\" Portanto, um produto brasileiro, por exemplo, pode apresentar código com prefixo diferente daquele estipulado para o Brasil, ou seja, o código 789 não garante que o produto foi fabricado no Brasil, mas que foi cadastrado aqui.\n[…]\nO código 950 GS1 Global Office é usado para algumas aplicações especiais e para acordos bilaterais. Por exemplo o prefixo 9509999 foi fornecido pelo GS1 ao programa United Nations International Drug Control Programme em 1995.\n[…]\nAlgumas entidades são responsáveis pela atribuição e gestão de códigos de mais do que um país.\n[…]\nCódigo de barras",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Pilha alcalina",
+      "descricao": "Pilha descartável comum, de zinco e dióxido de manganês, usada em controles remotos e brinquedos."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Seja do tamanho grande ou do tamanho palito, uma pilha alcalina comum, nova, fornece qual tensão nominal?",
+    "resposta": "1,5 volt",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alkaline_battery"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Alkaline_battery",
+        "situacao": "ok",
+        "texto": "An alkaline battery (IEC code: L) is a type of primary battery where the electrolyte (most commonly potassium hydroxide) has a pH value above 7. Typically, these batteries derive energy from the reaction between zinc metal and manganese dioxide.\n[…]\nThe nominal voltage of a fresh alkaline cell as established by manufacturer standards is 1.5 V. The actual zero-load voltage of a new alkaline battery ranges from 1.50 to 1.65 V, depending on the purity of the manganese dioxide used and the contents of zinc oxide in the electrolyte. The voltage delivered to a load decreases as the current drawn increases and as the cell discharges. A cell is considered fully discharged when the voltage drops to about 0.9 V.\n[…]\nCells connected in series produce a voltage equal to the sum of the voltages of each cell (e.g., three cells generate about 4.5 V when new).\n[…]\nAlkaline batteries are manufactured in standard cylindrical forms interchangeable with zinc–carbon batteries, and in button forms. Several individual cells may be interconnected to form a true \"battery\", such as the 9-volt PP3-size battery.\n[…]\nThe disposable battery market grows at a rate of 5.5% every year. In the past , used batteries ended up at landfill sites, but in 2004, disposal of alkaline batteries at landfill sites was forbidden by an EU regulation. In 2006, the EU committed to recycling 45% of all batteries by 2016. In 2023, a new regulation set a target of 63% by 2027 and 73% by 2036. The United States Environmental Protection Agency recommends recycling alkaline batteries with a battery recycler or local waste disposal."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pilha_alcalina",
+        "situacao": "ok",
+        "texto": "A pilha alcalina é um tipo de fonte portátil de energia. Ela recebe este nome porque são feitas a partir de bases, e possuem d.d.p de 1,5 V e não são recarregáveis. Indicada para equipamentos que requerem descargas de energia rápidas e fortes, como câmeras digitais, lanternas,entre outros etc.\n[…]\nApesar de a pilha comum e a alcalina serem ambas compostas de dióxido de manganês e zinco, o processo de fabricação é diferenciado: na pilha comum, a mistura eletrolítica é de cloreto de amônio (sal ácido) e o zinco é o envoltório do mecanismo — na alcalina, o zinco ocupa o centro da pilha.\n[…]\nComparando-a com a pilha seca comum, a alcalina é mais cara,  mantém a tensão constante por mais tempo e dura cerca de quatro vezes mais. Isso ocorre porque o hidróxido de potássio ou sódio é melhor condutor eletrolítico, resultando em uma resistência interna muito menor do que na pilha comum ou seca. A alcalina é uma das pilhas mais caras, mas uma das melhores.\n[…]\nA pilha alcalina é capaz de fornecer correntes mais elevadas, tem ótimo desempenho em baixas temperaturas, bom rendimento em equipamentos de alto consumo e excelente proteção contra vazamentos.\n[…]\nCriada pelo cientista Waldemar Jungner em 1899. A produção comercial da pilha alcalina começou em 1949.\n[…]\nAté 1989, a típica pilha alcalina continha mais de 1% de mercúrio. Em 1990, pelo menos três grandes fabricantes de pilhas domésticas começaram a fabricar e vender pilhas alcalinas contendo menos de 0,025% de mercúrio. Em 1993, os maiores fabricantes europeus, americanos e japoneses eliminaram todo o mercúrio de suas pilhas e, assim, passaram a não prejudicar o meio ambiente e a saúde.\n[…]\n«Pilha Alcalina - INMETRO»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Braille",
+      "descricao": "Sistema de escrita e leitura tátil para pessoas cegas, formado por pontos em relevo."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "No sistema braile, cada letra é formada numa pequena cela com um número fixo de posições para pontos em relevo. Quantas posições?",
+    "resposta": "Seis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Braille",
+      "https://pt.wikipedia.org/wiki/Braille"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Braille",
+        "situacao": "ok",
+        "texto": "Braille ( BRAYL; French: [bʁaj] ) is a tactile writing system used by blind or visually impaired people. It can be read either on embossed paper or by using refreshable braille displays that connect to computers and smartphone devices. Braille can be written using a slate and stylus, a braille writer, an electronic braille notetaker or with the use of a computer connected to a braille embosser. Fo\n[…]\n(See English Braille.)\n[…]\nNumerous factors influence access to braille literacy, including school budget constraints, technology advancements such as screen-reader software, access to qualified instruction, and different philosophical views over how blind children should be educated.\n[…]\nHowever, some codes have quite different tactile versus visual interpretations and most are not even defined in Braille ASCII.)\n[…]\nThe Unicode block for braille is U+2800 ... U+28FF. The mapping of patterns to characters etc. is language dependent: even for English for example, see American Braille and English Braille.\n[…]\nEvery year on 4 January, World Braille Day is observed internationally to commemorate the birth of Louis Braille and to recognize his efforts. Although the event is not considered a public holiday, it has been recognized by the United Nations as an official day of celebration since 2019.\n[…]\nThe 200th anniversary of the launch of braille was celebrated in 2024. In the UK, the Royal National Institute of Blind People has held celebrations from September 2024 until August 2025.\n[…]\nThere is a variety of contemporary electronic devices that serve the needs of blind people that operate in Braille, such as refreshable braille displays and braille e-books that use different technologies for transmitting graphic information of different types (pictures, maps, graphs, texts, etc.).\n[…]\nBraille Part 1 Text To Speech For The Visually Impaired YouTube\n[…]\nBraille information and advice – Sense UK\n[…]\nBraille at Omniglot"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Braille",
+        "situacao": "ok",
+        "texto": "Braile ou braille é um sistema de escrita tátil utilizado por pessoas cegas ou com baixa visão. É tradicionalmente escrito em papel relevo. Os usuários do sistema Braille podem ler em telas de computadores e em outros suportes eletrônicos graças a um mostrador em braile atualizáveis. Eles podem escrever em braile com reglete e punção, máquina de escrever em braille, notetaker em braille ou computa\n[…]\nEm inglês, o Braille tinha três níveis de codificação:\n[…]\nUma célula Braille completa inclui seis pontos dispostos em duas linhas verticais, cada uma com três pontos. As posições dos pontos são identificadas por números de um a seis. São 63 combinações possíveis para usar um ou mais pontos e 64 combinações possíveis considerando o espaço em branco. Uma única célula pode ser usada para representar uma letra do alfabeto, um número, um sinal de pontuação ou mesmo uma palavra inteira.\n[…]\nA solução de Braille foi usar células de 6 pontos e atribuir um padrão específico para cada letra do alfabeto. Inicialmente, o Braille era uma transliteração um–para–um da ortografia francesa, mas logo várias abreviaturas, contrações e até mesmo logogramas foram desenvolvidos. Isto criou um sistema muito mais parecido com a taquigrafia. O sistema inglês expandido chamado de Braille de grau 2 estava completo em 1905.\n[…]\nAs próximas dez letras (a próxima década) são as mesmas novamente, mas com pontos também nas posições 3 e 6 (pontos verdes). A letra w foi deixada de fora, porque não fazia parte do alfabeto francês enquanto Braille estava vivo. A ordem francesa em Braille é u v x y z ç é à è ù.\n[…]\nOs textos acadêmicos são às vezes escritos em um script de oito em vez de seis pontos por célula, permitindo-lhes codificar um maior número de símbolos. O Braille luxemburguês adotou células de oito pontos para uso geral. Por exemplo, adiciona um ponto abaixo de cada letra para derivar sua variante com letra maiúscula."
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Mostrador de relógio",
+      "descricao": "Face do relógio analógico com números ou marcas das horas e ponteiros."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Nas fotos de propaganda, os relógios de ponteiro costumam marcar dez horas e quantos minutos, com os ponteiros abertos como um sorriso?",
+    "resposta": "Dez minutos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Clock_face"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Clock_face",
+        "situacao": "ok",
+        "texto": "A clock face is the part of an analog clock (or watch) that displays time through the use of a flat dial with reference marks, and revolving pointers turning on concentric shafts at the center, called hands (or arms). In its most basic, globally recognized form, the periphery of the dial is numbered 1 through 12 indicating the hours in a 12-hour cycle, and a short hour hand makes two revolutions i"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Polegada",
+      "descricao": "Unidade de comprimento do sistema imperial, usada no Brasil para medir telas, canos e aros de roda."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A polegada, usada para medir telas de televisão e de celular, equivale exatamente a quantos centímetros?",
+    "resposta": "2,54 centímetros",
+    "distratores": [
+      "2 centímetros",
+      "2,45 centímetros",
+      "3 centímetros"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Inch"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Inch",
+        "situacao": "ok",
+        "texto": "The inch (symbol: in or ″) is a unit of length in the British Imperial and the United States customary systems of measurement. It is equal to ⁠1/36⁠ yard or ⁠1/12⁠ of a foot. Derived from the Roman uncia (\"twelfth\"), the word inch is also sometimes used to translate similar units in other measurement systems, usually understood as deriving from the width of the human thumb.\n[…]\nPortuguese: polegada (\"inch\") and polegar (\"thumb\")\n[…]\nWelsh: modfedd (\"inch\") and bawd (\"thumb\")\n[…]\nSubdivisions of an inch are typically written using dyadic fractions with odd number numerators; for example, two and three-eighths of an inch would be written as ⁠2+3/8⁠″ and not as 2.375″ nor as ⁠2+6/16⁠″. However, for engineering purposes fractions are commonly given to three or four places of decimals and have been for many years.\n[…]\nIn 1946, the Commonwealth Science Congress recommended a yard of exactly 0.9144 metres for adoption throughout the British Commonwealth. This was adopted by Canada in 1951; the United States on 1 July 1959; Australia in 1961, effective 1 January 1964; and the United Kingdom in 1963, effective on 1 January 1964. The new standards gave an inch of exactly 25.4 mm, 1.7 millionths of an inch longer than the old imperial inch and 2 millionths of an inch shorter than the old US inch.\n[…]\nThe United States retained the ⁠1/39.37⁠-metre definition for surveying, producing a 2 millionth part difference between standard and US survey inches. This is approximately ⁠1/8⁠ inch per mile; 12.7 kilometres is exactly 500,000 standard inches and exactly 499,999 survey inches. This difference is substantial when doing calculations in State Plane Coordinate Systems with coordinate values in the hundreds of thousands or millions of feet.\n[…]\nThe now obsolete Scottish inch (Scottish Gaelic: òirleach), ⁠1/12⁠ of a Scottish foot, was about 1.0016 imperial inches (about 25.44 mm)."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Polegada",
+        "situacao": "ok",
+        "texto": "A polegada (inch em inglês, símbolos: in ou dupla plica (″) ) é uma unidade de comprimento usada no sistema imperial de medidas. Uma polegada é igual a 2,54 centímetros ou 25,4 milímetros.\n[…]\nA polegada é amplamente utilizada pelas nações anglófonas. Contudo, no Sistema Internacional de Unidades (SI), a utilização da polegada não é recomendada, conforme definido no capítulo 4.2 da sua 8ª edição publicada pelo BIPM (Bureau International des Poids et Mesures).\n[…]\nA polegada tem sua origem na idade antiga onde romanos mediam o comprimento com o próprio polegar.[carece de fontes]? É a largura de um polegar humano regular, medido na base da unha, a qual, num ser humano adulto, é de aproximadamente 2,5 cm.Também houve tentativas de se ligar a medida com a distância entre a ponta do polegar e a primeira junta; porém, isso normalmente é especulativo.[carece de fontes]?\n[…]\nO símbolo internacional normalizado para polegada é in (ver ISO 80000-4). Por vezes, a unidade polegada é também representada por uma dupla plica (p.ex. 30″ = 30 in). Da mesma forma, o pé (unidade) é representado por uma plica, e então 6′ 2″ significam 6 pés e 2 polegadas, que medem 1,8796 m.\n[…]\nNo Brasil, aparelhos de TV, monitores de computador, de celulares e de tablets ainda costumam ser vendidos com medidas da diagonal em polegadas. Para formatos os de 4:3, uma regra prática para converter para centímetros é usar 1 polegada de diagonal = 2 cm de largura. A polegada também é utilizada em aros de pneus, de bicicletas e de veículos automotores.\n[…]\nDimensões da televisão em largura e altura e, com diagonal em polegadas e centímetros:",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Lata de bebida",
+      "descricao": "Embalagem cilíndrica de alumínio usada para refrigerantes e cervejas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O fundo das latas de refrigerante é curvado para dentro, como uma cúpula. Que força esse formato ajuda a lata a aguentar?",
+    "resposta": "A pressão do gás",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beverage_can"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Beverage_can",
+        "situacao": "ok",
+        "texto": "A drink can (or beverage can) is a metal container with a polymer interior designed to hold a fixed portion of liquid such as carbonated soft drinks, alcoholic drinks, fruit juices, teas, herbal teas, energy drinks, etc. Drink can exteriors are made of aluminum (75% of worldwide production) or tin-plated steel (25% worldwide production) and the interiors coated with an epoxy resin or polymer. Worl\n[…]\nAnother variation on the drink can is the \"full aperture end\", where the entire lid can be removed – turning an aluminum can into a cup. Crown Holdings first designed the \"360 End\" for use by SABMiller at the 2010 FIFA World Cup in South Africa. It has been used by Anheuser-Busch InBev in China and Brazil and by the Sly Fox Brewing Company in the United States.\n[…]\nThe beverage container can be recycled, and clean aluminum has residual market value, but recycled cans still need to be diluted by up to 50% virgin aluminum because the sides and tops of the can are of different alloys. The acronym UBC, for used beverage container, is employed by such companies as Apple Inc. for reference to the material of its portable laptop cases.\n[…]\nMost large companies serve their beverages in printed cans, where designs are printed on the aluminum and then crafted into a can. Alternatively, cans can be wrapped with a plastic design, mimicking the printed can but allowing for more flexibility than printed cans. A modern-day trend in craft alcohol is to design stickers to put on cans, allowing for smaller batches and quick changes for new flavors.\n[…]\nAluminum cans also contain a polymeric coating on the liquid-contacting surface to preserve the taste of the beverage, and because aluminum is susceptible to corrosion via acidic attack.\n[…]\nThe Ingenious Design of the Aluminum Beverage Can – Prof. WS Hammack"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lata_de_bebida",
+        "situacao": "ok",
+        "texto": "Lata (do latim tardio latta, de provável origem germânica) é uma folha de ferro delgada, laminada. Também pode significar o canudo de folha para onde o algodão vai, depois de sair das cardas, nas fábricas de fiação. A lata de aço é revestida eletroliticamente com estanho, chamada folha-de-flandres, ou com cromo, também conhecida por folha cromada. Popularmente, a lata é qualquer recipiente de meta\n[…]\nAs latas são enchidas antes de as máquinas de fecho apertarem a tampa. Para acelerar o processo de produção, as operações de enchimento e fecho devem ser extremamente precisas. A cabeça de enchimento centra a lata através da pressão do gás, liberta o ar e permite que a bebida escorra pelas paredes da lata. A tampa é colocada na lata e depois cravada em duas operações.\n[…]\nA cabeça de rolamento agarra a tampa a partir do topo, enquanto o rolo de rolamento, a partir do lado, torce o bordo da tampa à volta do bordo do corpo da lata. A cabeça e o rolo rodam a lata num círculo completo para a selar completamente. Em seguida, um rolo de pressão com um perfil diferente aproxima os dois bordos sob pressão, criando uma vedação estanque ao gás. As latas cheias têm normalmente gás comprimido no interior, o que as torna suficientemente rígidas para facilitar o manuseamento.\n[…]\nuso de pontas de alumínio de fácil abertura: sem necessidade de abridor de latas\n[…]\nA extremidade de alumínio de abertura fácil para latas de bebidas foi desenvolvida pela Alcoa, em 1962, para a Pittsburgh Brewing Company e agora é usada em quase todo o mercado de bebidas em lata.\n[…]\nAs latas de alumínio podem ser feitas com alumínio reciclado . Em 2017, 3,8 milhões de toneladas de alumínio foram geradas nos Estados Unidos, das quais 0,62 milhões de toneladas foram recicladas - uma taxa de reciclagem de 16%. As latas são o recipiente para bebidas mais reciclado, com uma taxa de 69% em todo o mundo.\n[…]\nAbridores de lata",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Garrafa de cerveja",
+      "descricao": "Garrafa de vidro usada para envasar cerveja, geralmente marrom ou verde."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Muitas garrafas de cerveja são de vidro marrom. Essa cor protege a bebida de quê, evitando que ela pegue um gosto ruim?",
+    "resposta": "Da luz",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beer_bottle"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Beer_bottle",
+        "situacao": "ok",
+        "texto": "A beer bottle is a bottle designed as a container for beer. Such designs vary greatly in size and shape, but the glass commonly is brown or green to reduce spoilage from light, especially ultraviolet."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Garrafa_de_cerveja",
+        "situacao": "ok",
+        "texto": "Uma garrafa de cerveja é uma garrafa especialmente adaptada para conter cerveja, ou seja, uma bebida altamente carbonatada, muitas vezes ainda em fermentação na garrafa, frágil quando exposta à luz e que requer vários tamanhos de capacidade para se adaptar aos perfis de consumo.\n[…]\nA garrafa de vidro era usada como recipiente para cerveja em meados do século XIX . Seu uso permite que a cerveja seja distribuída para grandes setores da população. Uma das primeiras garrafas de cerveja produzidas industrialmente foi feita no Canadá em 1825, em Mallorytown, Ontário, na Mallorytown Glass Works. Somente no início do  século XX é que seu envase pôde ser implementado em uma linha de produção.\n[…]\nO formato da garrafa e a espessura do vidro são importantes, pois devem suportar a pressão do gás dissolvido. Em alguns casos, as garrafas são refermentadas (uma técnica para amadurecer e carbonatar a bebida dentro da garrafa), o que envolve pressão adicional . Dependendo das regulamentações dos países, ela geralmente contém um volume de um quinto, um quarto, um terço, meio ou um litro — nos três primeiros casos, é comumente chamada de \"garrafa pequena\" devido à sua menor capacidade.\n[…]\nEmbora existam garrafas de vidro incolores geralmente destinadas as cervejas ou alcopop de cor pronunciada, o uso usual é para vidros marrons ou mesmo verdes. Garrafas de vidro verde foram produzidas por muito tempo no leste europeu e na China, até a década de 1980.\n[…]\nPesquisas comprovam a rápida deterioração da cerveja quando exposta à luz através de vidro verde ou incolor, enquanto o vidro marrom oferece proteção suficiente. Os estudos mostram ainda a preferência do consumidor por esse tipo de cor (marrom).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Dia das Mães",
+      "descricao": "Data comemorativa em homenagem às mães, criada nos Estados Unidos por Anna Jarvis e celebrada no Brasil no segundo domingo de maio."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A americana Anna Jarvis, que lutou para criar o Dia das Mães, passou o fim da vida tentando acabar com a data. O que a revoltava?",
+    "resposta": "A comercialização da data",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Anna_Jarvis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Anna_Jarvis",
+        "situacao": "ok",
+        "texto": "Anna Maria Jarvis (May 1, 1864 – November 24, 1948) was the founder of Mother's Day in the United States. Her mother had frequently expressed a desire to establish such a holiday, and after her mother's death, Jarvis led the movement for the commemoration. However, as the years passed, Jarvis grew disenchanted with the growing commercialization of the observation and even attempted to have Mother'\n[…]\nJarvis was singularly dedicated throughout this process, resigning her position at Fidelity Mutual and incorporating the Mother’s Day International Association (MDIA) in 1912 to encourage national and international recognition of the day. During her campaign, the holiday spread throughout every U.S. state and numerous foreign countries, including Canada, Mexico, China, Japan, and throughout South America and Africa.\n[…]\nBy the 1920s, as the floral industry continued increasing prices of white carnations and then introduced red carnations to meet the demand for the flower, Anna Jarvis's original symbols began to become re-appropriated, such as the red carnation representing living mothers and the white carnation honoring deceased mothers. She attempted to counter these commercial forces, creating a badge with a Mother's Day emblem as a less ephemeral alternative to the white carnation.\n[…]\nJarvis died on November 24, 1948, and was buried next to her mother, sister, and brother at West Laurel Hill Cemetery in Bala Cynwyd, Pennsylvania. Although the Anna M.\n[…]\nInternational Mother's Day Shrine\n[…]\nAnatolini, Katherine Lane (2009). Memorializing Motherhood: Anna Jarvis and the Struggle for Control of Mother's Day (PhD Diss). West Virginia University. ISBN 978-1-124-17972-8. OCLC 610042090. ProQuest 748312352.\n[…]\nAnna Jarvis and Mother's Day\n[…]\nAnna Jarvis, the Germanna Descendant who Founded Mother's Day\n[…]\nAnna Jarvis and International Mother's Day Archived November 27, 2019, at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Anna_Jarvis",
+        "situacao": "ok",
+        "texto": "Anna Maria Jarvis (Webster, 1 de maio de 1864 – West Chester, 24 de novembro de 1948) foi uma ativista social norte-americana, conhecida como a idealizadora do Dia das Mães nos Estados Unidos.\n[…]\nSua mãe expressava frequentemente o desejo de estabelecer tal feriado e, após a morte de sua mãe, Jarvis liderou o movimento para a estabelecer a data da comemoração. No entanto, com o passar dos anos, Jarvis ficou desencantada com a crescente comercialização da data e até tentou destituir o Dia das Mães. No início da década de 1940, Anna ficou doente e foi internada em um sanatório por amigos, onde morreu em 24 de novembro de 1948.\n[…]\nEmbora a proclamação nacional representasse uma validação pública dos seus esforços, Anna sempre acreditou ser a líder do dia comemorativo. Ela, portanto, manteve sua crença no significado sentimental do dia para homenagear todas as mães e a maternidade. Entretanto, Anna começou a perceber que muitos estavam lucrando com a data que deveria ser de homenagens e não de consumismo. Eram buquês de flores e confecção de cartões com dedicatórias, enquanto Anna reiterava a importância da homenagem em si.\n[…]\nNo entanto, seus esforços para manter o significado original do dia levaram a suas próprias dificuldades econômicas. Enquanto outros lucraram com o dia, Anna Jarvis não, e ela passou os últimos anos de sua vida com sua irmã Lillie. Em 1943, ela começou a organizar uma petição para rescindir o Dia das Mães em todo território nacional.\n[…]\nAnatolini, Katherine Lane (2009). Memorializing Motherhood: Anna Jarvis and the Struggle for Control of Mother's Day. [S.l.]: West Virginia University. ISBN 978-1-124-17972-8",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Lei de Segurança das Geladeiras",
+      "descricao": "Lei americana de 1956 que obrigou as geladeiras a poderem ser abertas por dentro, popularizando a vedação magnética da porta."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Uma lei americana de 1956 obrigou as geladeiras a abrir por dentro, e o trinco deu lugar à vedação com ímã. Que tragédia ela queria evitar?",
+    "resposta": "Crianças presas lá dentro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Refrigerator_Safety_Act"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Refrigerator_Safety_Act",
+        "situacao": "ok",
+        "texto": "A refrigerator death is death by suffocation in a refrigerator or other air-tight appliance. Because, by design, such appliances are air-tight when closed, a person trapped inside will have a low supply of oxygen. Until around 1958, refrigerators could only be opened from the outside, making accidental entrapment a possibility, particularly of children playing with discarded appliances; many such \n[…]\nAt least one state, Oklahoma, enacted legislation making the abandonment of a refrigerator with a latch, in a location where a child might find it, illegal. At least as early as 1954, alternative methods of securing air-tight closures had been suggested, such as in patent 2767011, filed by Francis P. Buckley et al. in 1954 and issued in 1956. Starting in the mid-1950s, volunteers and health inspectors searched out abandoned refrigerators in order to detach doors and break latches.\n[…]\nThe Refrigerator Safety Act in 1956 was a U.S. law that required a change in the way refrigerator doors stay shut. It was codified at 15 U.S.C. 1211–1214 as Public Law 84-930, 70 Stat. 953, on 2 August 1956. The act applied to all refrigerators manufactured in the United States after 31 October 1958, and is largely responsible for the adoption of the magnetic mechanism that is used today instead of a latch. Individual American states also have similar laws, such as California and Washington.\n[…]\nThe number of U.S. and Canadian deaths due to suffocation in refrigerators declined a significant amount in the years following federal legislation. A 1985 study of suffocation deaths in the United States showed a sharp decline in the early 1960s, followed by a plateau and gradual decline to the early 1980s. The Refrigerator Safety Act was a factor in the decline, in combination with other factors such as \"reduced exposure and increased parental supervision\"."
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Aliança de casamento",
+      "descricao": "Anel usado como símbolo do casamento, tradicionalmente no dedo anelar."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo uma crença antiga, a aliança vai no dedo anelar esquerdo porque dali sairia uma veia ligada direto a qual órgão?",
+    "resposta": "Coração",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wedding_ring",
+      "https://en.wikipedia.org/wiki/Ring_finger"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wedding_ring",
+        "situacao": "ok",
+        "texto": "A wedding ring, also called a wedding band in the United States, is a finger ring that indicates that its wearer is married. It is usually forged from metal, traditionally gold or another precious metal. Rings were used in ancient Rome during marriage."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ring_finger",
+        "situacao": "ok",
+        "texto": "The ring finger, third finger, fourth finger, leech finger, or annulary is the fourth digit of the human hand, located between the middle finger and the little finger."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Alian%C3%A7a_%28anel%29",
+        "situacao": "ok",
+        "texto": "Aliança é um anel usado para simbolizar um compromisso e a união afetiva entre duas pessoas que se amam total e verdadeiramente, simbolo do romance. Normalmente, é usada para indicar que o utilizador é casado.\n[…]\nAcredita-se geralmente que os primeiros exemplos de alianças de casamento foram encontrados no antigo Egito. Relíquias que datam de 6.000 anos atrás, incluindo pergaminhos de papiro, são evidências da troca de anéis trançados de cânhamo entre os cônjuges. O antigo Egito considerava o círculo como um símbolo da eternidade, e o anel servia para significar o amor perpétuo dos cônjuges.\n[…]\nEsta era também a origem do costume de usar a aliança no dedo anelar da mão esquerda, porque os antigos egípcios acreditavam que este dedo encerrava uma veia especial que estava diretamente ligada ao coração, denominada em latim a \"Vena amoris\".\n[…]\nMuitas crenças nasceram então, como, por exemplo, o facto de os escoceses dizerem que a mulher que perde a aliança está condenada a perder o marido.\n[…]\nOs anéis de casamento são usados pelos noivos na cerimônia de casamento religioso ou civil, por diversas culturas. Costuma-se fazer a troca dos anéis no momento final desta cerimônia. Os noivos colocam as alianças no dedo anelar da mão esquerda um do outro, simbolizando assim a união matrimonial/casamento.\n[…]\nAnel de compromisso ou aliança de compromisso, normalmente as pessoas fazem a pesquisa por anéis de prata ou aço, que são utilizado por casais de namorados no Brasil, e cada vez mais utilizado em outros países, como Portugal e outros, para demonstrar fidelidade e seriedade do namoro.\n[…]\nAlianças de compromisso são usadas no dedo anelar da mão direita e, na ocasião do noivado, substituídas pelas alianças de noivado.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Dia do Trabalho",
+      "descricao": "Data comemorativa internacional dos trabalhadores, celebrada em primeiro de maio."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O feriado de primeiro de maio, o Dia do Trabalho, relembra uma greve operária de 1886 que terminou em violência em qual cidade americana?",
+    "resposta": "Chicago",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/International_Workers%27_Day",
+      "https://pt.wikipedia.org/wiki/Dia_do_Trabalhador"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/International_Workers%27_Day",
+        "situacao": "ok",
+        "texto": "International Workers' Day, also called Labour Day in some countries and often referred to as May Day, is a celebration of labourers, the labour movement and the working class that is marked every year on 1 May, or the first Monday in May.\n[…]\nThe date was chosen by the American Federation of Labor to commemorate a general strike in the United States, which had begun on 1 May 1886 and culminated in the Haymarket affair on 4 May. The demonstration subsequently became a yearly event.\n[…]\nOn 21 April 1856, Australian stonemasons in Victoria undertook a mass stoppage as part of the eight-hour workday movement. It became a yearly commemoration, inspiring American workers to have their first stoppage. 1 May was chosen to be International Workers' Day to commemorate the 1886 Haymarket affair in Chicago. In that year beginning on 1 May, there was a general strike for the eight-hour workday.\n[…]\nSome of the largest examples of this occurred during the Great Depression of the 1930s, when hundreds of thousands of workers marched in International Workers' Day parades in New York's Union Square, while cities like Chicago and Duluth saw large demonstrations organized by the Communist Party.\n[…]\nOn 1 May 2017, immigrants' rights advocates, labor unions and leftists held protests against the immigration and economic policies of President Donald Trump in cities throughout the US, Chicago and Los Angeles having some of the largest marches.\n[…]\nA more radical attitude to the holiday in 2009 was expressed by the head of the metropolitan branch of the Right Cause party, Igor Trunov: \"To be honest, I didn't really want to celebrate 1 May, because I don't stand in solidarity with the workers of Chicago, where this holiday came from\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dia_do_Trabalhador",
+        "situacao": "ok",
+        "texto": "Dia do Trabalhador, Dia Internacional do Trabalhador ou Primeiro de Maio é uma data comemorativa internacional, dedicada aos trabalhadores, celebrada anualmente no dia 1 de maio em diversos países, sendo feriado em alguns deles.\n[…]\nA homenagem remonta ao dia 1 de maio de 1886, quando uma greve foi iniciada na cidade norte-americana de Chicago com o objetivo de conquistar melhores condições de trabalho, melhorias e benefícios aos trabalhadores, principalmente a redução da jornada de trabalho diária, que chegava a 17 horas, para oito horas. Durante a manifestação houve confrontos, o que resultou em prisões e mortes de trabalhadores inocentes.\n[…]\nEm Chicago, a greve atingiu várias empresas. No dia 3 de maio, durante uma manifestação, grevistas da fábrica McCormick sairam em perseguição dos indivíduos contratados pela empresa para furar a greve. São recebidos pelos detetives da agência Pinkerton e policias armados de espingardas. O confronto resultou em três trabalhadores mortos.\n[…]\nNo dia 20 de junho de 1889, a segunda Internacional Socialista, reunida em Paris, decidiu convocar anualmente uma manifestação, com o objetivo de lutar pela jornada de 8 horas de trabalho. A data escolhida foi o primeiro dia de maio, como homenagem às lutas sindicais de Chicago. Em 1 de maio de 1891, uma manifestação no norte de França foi dispersada pela polícia, resultando na morte de dez manifestantes.\n[…]\nCom a chegada de imigrantes europeus no Brasil, as ideias de luta pelos direitos dos trabalhadores vieram junto. Em 1917, houve uma Greve geral. Com o crescimento do operariado, o dia 1 de maio foi declarado feriado pelo presidente Artur Bernardes, em 1925.\n[…]\nNa Austrália o Dia do Trabalho varia de acordo com a região;"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "São Nicolau de Mira",
+      "descricao": "Bispo cristão do século quatro, conhecido pela generosidade, cuja figura inspirou o Papai Noel."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "São Nicolau, o bispo que inspirou a figura do Papai Noel, viveu no século quatro numa cidade que hoje pertence a qual país?",
+    "resposta": "Turquia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Saint_Nicholas"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Saint_Nicholas",
+        "situacao": "ok",
+        "texto": "Saint Nicholas of Myra (traditionally 15 March 270 – 6 December 343), also known as Nicholas of Bari, was an early Christian bishop of Greek descent from the maritime city of Patara in Anatolia (in modern-day Antalya Province, Turkey) during the time of the Roman Empire. Because of the many miracles attributed to his intercession, he is also known as Nicholas the Wonderworker.\n[…]\nAdam C. English describes the removal of the relics from Myra as \"essentially a holy robbery\" and notes the thieves were not only afraid of being caught or chased after by the locals, but also the power of Saint Nicholas himself. Returning to Bari, they brought the remains with them and cared for them. The remains arrived on 9 May 1087. Two years later, Pope Urban II inaugurated a new church, the Basilica di San Nicola, to Saint Nicholas in Bari.\n[…]\nPort became an important center of devotion in the following of Nicholas and, in the fifteenth century, a church known as the Basilique Saint-Nicolas was built there and dedicated to him. The town itself is now known as \"Saint Nicolas de Port\" in honor of Nicholas.\n[…]\nThe clergy at Bari strategically distributed samples of Nicholas's bones to promote the cult and enhance its prestige. Many of these bones were initially kept in Constantinople, but, after the Sack of Constantinople in 1204 during the Fourth Crusade, these fragments were scattered across western Europe. A hand claimed to be that of Saint Nicholas was kept at San Nicola in Carcere in Rome. This church, whose name means \"Saint Nicholas in Chains\", was built on the site of a former municipal prison.\n[…]\nSaint Nicholas (European folklore)\n[…]\nCompanions of Saint Nicholas\n[…]\nSaint Nicholas, patron saint archive\n[…]\nSt. Nicholas Church (disambiguation) – list of churches named after the saint\n[…]\nThe Saint Nicholas Center\n[…]\nBiography of Saint Nicholas\n[…]\n\"Saint Nicholas\" in the Ecumenical Lexicon of Saints"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nicolau_de_Mira",
+        "situacao": "ok",
+        "texto": "São Nicolau de Mira, também conhecido como São Nicolau de Bari (Patara, c. 270 – Mira, 6 de dezembro de 343), foi um bispo cristão grego da Ásia Menor, venerado como santo pela Igreja Católica e pela Igreja Ortodoxa. É um dos santos mais populares da cristandade e tornou-se, ao longo dos séculos, símbolo de caridade, especialmente para com os pobres e as crianças.\n[…]\nSão Nicolau era de ascendência grega e nasceu em Patara, na região da Lícia, então parte do Império Romano (atual Turquia), na segunda metade do século III. Viveu num período marcado pelas perseguições aos cristãos e pelas grandes disputas doutrinais que moldaram os primeiros séculos da Igreja.\n[…]\nNicolau tornou-se bispo de Mira, destacando-se pelo zelo pastoral, pela defesa da fé cristã e pela caridade concreta. Durante a perseguição promovida pelo imperador Diocleciano, foi preso por se recusar a renegar a sua fé em Jesus Cristo.\n[…]\nNa cidade de Bari, na Itália, onde se acredita estarem sepultados os seus restos mortais, São Nicolau é padroeiro dos coroinhas e objeto de profunda devoção popular.\n[…]\nSéculos após a sua morte, a figura de São Nicolau inspirou o personagem natalino conhecido como Papai Noel (português brasileiro) ou Pai Natal (português europeu), Santa Claus (nos países anglófonos) e Sinterklaas (na Holanda). É representado por um velhinho corado de barba branca, que traz um saco de presentes e percorre o mundo sendo levado em um trenó por renas voadoras.\n[…]\nEm 1691 foi fundada a Irmandade de São Nicolau, composta por estudantes, e até hoje realizam-se as Festas Nicolinas, uma das mais antigas celebrações académicas do mundo. As festividades decorrem entre 29 de novembro e 6 de dezembro, tendo como ponto alto as Maçãzinhas, tradição inspirada no auxílio prestado por São Nicolau às jovens pobres.\n[…]\nFesta de São Nicolau\n[…]\nPapai Noel\n[…]\nSão Nicolau, verdadeiro Papai Noel",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Fósforo de segurança",
+      "descricao": "Palito de fósforo que só acende quando riscado na superfície própria da caixa."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "No século dezenove, os irmãos Lundström abriram uma fábrica e passaram a produzir em grande escala o fósforo de segurança. Em que país?",
+    "resposta": "Suécia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Match"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Match",
+        "situacao": "ok",
+        "texto": "A match is a tool for starting a fire. Typically, matches are made of small wooden sticks or stiff paper. One end is coated with a material that can be ignited by friction generated by striking the match against a suitable surface. Wooden matches are packaged in matchboxes, and paper matches are partially cut into rows and stapled into matchbooks. The coated end of a match, known as the match \"hea\n[…]\nIn 1832, William Newton patented the \"wax vesta\" in England. It consisted of a wax stem that embedded cotton threads and had a tip of phosphorus. Variants known as \"candle matches\" were made by Savaresse and Merckel in 1836. John Hucks Stevens also patented a safety version of the friction match in 1839.\n[…]\nBy 1851, his company was producing the substance by heating white phosphorus in a sealed pot at a specific temperature. He exhibited his red phosphorus at the 1851 Great Exhibition in The Crystal Palace in London. Johan Edvard Lundström and his younger brother Carl Frans Lundström (1823–1917) had started a large-scale match industry in Jönköping, Sweden around 1847, but the improved safety match was not introduced until the early 1850s.\n[…]\nThe Swedes long held a virtual worldwide monopoly on safety matches, with the industry mainly situated in Jönköping, by 1903 called Jönköpings & Vulcans Tändsticksfabriks AB today Swedish Match. In France, they sold the rights to their safety match patent to Coigent Père & Fils of Lyon, but Coigent contested the payment in the French courts, on the basis that the invention was known in Vienna before the Lundström brothers patented it.\n[…]\nThe British match manufacturer Bryant and May visited Jönköping in 1858 to try to obtain a supply of safety matches, but was unsuccessful. In 1862 it established its own factory and bought the rights for the British safety match patent from the Lundström brothers.\n[…]\nThe dictionary definition of Match at Wiktionary"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Palito_de_f%C3%B3sforo",
+        "situacao": "ok",
+        "texto": "O palito de fósforo (fósforo de fricção) fabricado atualmente é um artigo, curto, fino, feito de madeira, papelão ou barbante encerado e apresentando oxidantes, enxofre e cola em uma das extremidades e que quando entra em atrito com a lixa, da parte externa da caixa, fabricada com dextrina, fósforo e trissulfeto de antimônio III (Sb2S3) se decompõe e arde diante de baixas temperaturas e incendeia \n[…]\nBoyle acreditava que a chama não era causada pela fricção, mas sim por algo inerente ao fósforo e ao enxofre. Ele tinha razão. Encontrara o princípio que conduziria a invenção do fósforo. Coube ao farmacêutico inglês John Walker produzir, em 1827, palitos de fósforo que podem ser considerados, apesar de seu grande tamanho, o precursor de nossos fósforos.\n[…]\nFoi nos Estados Unidos que Alonzo D. Phillips de Springfield obteve, em 1836, uma patente para “fabricar fósforos de fricção” e os chamou “locofocos”. Mas o perigo ainda era grande e só foi resolvido após a descoberta do fósforo vermelho, em 1845. Foi o sueco Carl Lundström que introduziu em 1855 fósforos seguros, também chamados fósforos de segurança.\n[…]\nAlém de ser fabricado com fósforo vermelho, para uma maior segurança, seus ingredientes inflamáveis foram colocados em dois locais distintos: na cabeça do palito e do lado de fora da caixa, junto com o material abrasivo.\n[…]\nNo Brasil, o comerciante curitibano Olivo Carnascialli fundou, em 1913, a Cia. Fabril Paranaense com a finalidade de explorar a indústria do palito de fósforo, sendo desta forma um dos precursores dessa indústria no país. A Cia Fabril Paranaense foi inaugurada no final da Avenida Visconde de Guarapuava, que na época era o setor industrial da capital paranaense.\n[…]\nMais de 500 bilhões de fósforos são usados a cada ano.[carece de fontes]?\n[…]\nUma fábrica de palitos de fósforo na Rússia: sortimento de produções (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Jazida de grafite de Borrowdale",
+      "descricao": "Grande depósito de grafite puro encontrado no século dezesseis em Borrowdale, no noroeste da Inglaterra, usado nos primeiros lápis."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "No século dezesseis, achou-se uma enorme jazida de grafite tão puro que podia ser cortado em bastões, usados nos primeiros lápis. Em que país?",
+    "resposta": "Inglaterra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pencil",
+      "https://en.wikipedia.org/wiki/Graphite"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pencil",
+        "situacao": "ok",
+        "texto": "A pencil ( ) is a writing or drawing implement with a solid pigment core in a protective casing that reduces the risk of core breakage and keeps it from marking the user's hand.\n[…]\nAs a technique for drawing, the closest predecessor to the pencil was silverpoint or leadpoint until, in 1565 (some sources say as early as 1500), a large deposit of graphite was discovered on the approach to Grey Knotts from the hamlet of Seathwaite in Borrowdale parish, Cumbria, England. This particular deposit of graphite was extremely pure and solid, and it could easily be sawn into sticks. It remains the only large-scale deposit of graphite ever found in this solid form."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Graphite",
+        "situacao": "ok",
+        "texto": "Graphite () is a crystalline allotrope (form) of the element carbon. It consists of many stacked layers of graphene, typically in excess of hundreds of layers. Graphite occurs naturally and is the most stable form of carbon under standard conditions.\n[…]\nSometime before 1565 (some sources say as early as 1500), an enormous deposit of graphite was discovered on the approach to Grey Knotts from the hamlet of Seathwaite in Borrowdale parish, Cumbria, England, which the locals found useful for marking sheep. During the reign of Elizabeth I (1558–1603), Borrowdale graphite was used as a refractory material to line molds for cannonballs, resulting in rounder, smoother balls that could be fired farther, contributing to the strength of the English navy."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/L%C3%A1pis",
+        "situacao": "ok",
+        "texto": "Um lápis é um instrumento de escrever, pintar, desenhar e das mais variadas coisas, concebido para marcar, sublinhar e riscar. A acepção mais comum do termo atrela-se a um instrumento utilizado para escrever,[carece de fontes]? ou mesmo riscar sobre um papel; usualmente construído através de um estilete de grafite revestido de madeira, o tradicional lápis de escrever preto ou grafite (cor mais cin\n[…]\nOs primeiros lápis livres de chumbo datam do século XVI. Neste século foi descoberta, perto de Borrowdale, Cúmbria, Inglaterra, uma grande jazida de um material bastante puro e sólido, hoje reconhecido como o estado alotrópico mais comum do carbono, a grafite. À época nomeava-se tal elemento \"chumbo negro\" em alusão direta ao elemento concorrente e suas aplicações; e os habitantes locais descobriram rapidamente que o \"chumbo negro\" era muito útil para marcarem-se as ovelhas.\n[…]\nSabe-se que os lápis de grafite não eram muito comuns antes de 1540, contudo, em uma obra sobre fósseis, Konrad Gesner faz saber que esses já estavam a se popularizar em 1565. A primeira produção de lápis em massa é atribuída a Friedrich Staedtler em 1622, em Nuremberg, na Alemanha.\n[…]\nA mina de grafite de Borrowdale permaneceu por muito tempo como a fornecedora da melhor matéria prima para se confeccionarem os lápis, e apenas em 1795, à época de Napoleão Bonaparte, o francês Nicolas-Jacques Conté encontrou uma forma viável de produzir grafite aplicável à escrita a partir de material de qualidade incompatível. Contudo, em 1832 a importância da mina era ainda notória, e uma fábrica de lápis instalava-se nas redondezas da mesma.\n[…]\nMesmo com a ascensão dos lápis de grafite, os lápis de chumbo ainda guardaram significância até o século XIX, e vieram a extinguir-se definitivamente apenas no século XX, com a descoberta da toxicidade do chumbo.\n[…]\nDuas instituições registram o que consideram o menor lápis do mundo:",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Dia das Mães",
+      "descricao": "Data comemorativa em homenagem às mães, criada nos Estados Unidos por Anna Jarvis e celebrada no Brasil no segundo domingo de maio."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1932, que presidente brasileiro oficializou, por decreto, o segundo domingo de maio como Dia das Mães?",
+    "resposta": "Getúlio Vargas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Dia_das_Mães"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dia_das_Mães",
+        "situacao": "ok",
+        "texto": "Dia das Mães (português brasileiro) ou Dia da Mãe (português europeu) é uma data comemorativa que homenageia anualmente a figura familiar materna (mãe) e a maternidade. A data de comemoração varia de acordo com o país. Em Portugal e nos PALOP, é comemorado maioritariamente no primeiro domingo do mês de maio, embora muitas igrejas protestantes, em Portugal, o façam no segundo domingo do mesmo mês, \n[…]\nJá no Brasil, como também na Itália, por exemplo, é no segundo domingo do mês de maio que o dia é celebrado.\n[…]\nReconhecida como idealizadora do Dia das Mães na sua forma atual, a metodista Anna Jarvis, iniciou uma campanha para que o Dia das Mães fosse um feriado reconhecido. Ela obteve sucesso ao torná-lo reconhecido nos Estados Unidos em 8 de maio de 1914, quando a resolução Joint Resolution Designating the Second Sunday in May as Mother's Day foi aprovada pelo Congresso dos Estados Unidos, instaurando o segundo domingo do mês de maio como Dia das Mães.\n[…]\nAos poucos, a festividade foi se espalhando pelo país e, em 1932, o então presidente Getúlio Vargas, a pedido das feministas da Federação Brasileira pelo Progresso Feminino, oficializou a data no segundo domingo de maio. A iniciativa fazia parte da estratégia das feministas de valorizar a importância das mulheres na sociedade, animadas com as perspectivas que se abriram a partir da conquista do direito de votar, em fevereiro do mesmo ano.\n[…]\nNo Brasil e nos Estados Unidos o Dia das Mães é a segunda melhor data do comércio, depois do Natal. A National Retail Federation (Federação Nacional de Varejo norte-americana) estimou para 2012 que os gastos para o Dia das Mães devem ultrapassar $18,6 bilhões ($152 por pessoa) nos Estados Unidos.\n[…]\nMedia relacionados com Dia das Mães no Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Lentes bifocais",
+      "descricao": "Lentes de óculos divididas em duas partes, uma para ver de longe e outra para ver de perto."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que pai fundador dos Estados Unidos costuma receber o crédito por criar, no século dezoito, os óculos bifocais, para ver de perto e de longe?",
+    "resposta": "Benjamin Franklin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bifocals",
+      "https://en.wikipedia.org/wiki/Benjamin_Franklin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bifocals",
+        "situacao": "ok",
+        "texto": "Bifocals are eyeglasses with two distinct optical powers correcting vision at both long and short distances. Bifocals are commonly prescribed to people with presbyopia who also require a correction for myopia, hyperopia or astigmatism.\n[…]\nBenjamin Franklin is generally credited with the invention of bifocals. One account states that Franklin cut his lenses in half so that he could follow speakers of French at court by reading their lips.\n[…]\nHistorians have produced some evidence to suggest that others may have come before him in the invention; however, a correspondence between George Whatley and John Fenno, editor of the Gazette of the United States, suggested that Franklin had indeed invented bifocals, and perhaps 50 years earlier than had been originally thought. However, the College of Optometrists concluded:\n[…]\nUnless further evidence emerges all we can say for certain is that Franklin was one of the first people to wear split bifocals and this act of wearing them caused his name to be associated with the type from an early date. This no doubt contributed greatly to their popularisation. The evidence implies, however, that when he sought to order lenses of this type the London opticians were already familiar with them.\n[…]\nOther members of Franklin's circle of British friends may have worn them even earlier, from the 1760s, but it is at best uncertain (and arguably improbable?) that split bifocal lenses had a famous gentleman inventor. Since many inventions are developed independently by more than one person, it is possible that the invention of bifocals may have been such a case.\n[…]\nJohn Isaac Hawkins, the inventor of trifocal lenses, coined the term bifocals in 1824 and credited Benjamin Franklin."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Benjamin_Franklin",
+        "situacao": "ok",
+        "texto": "Benjamin Franklin (January 17, 1706 [O.S. January 6, 1705] – April 17, 1790) was an American polymath active as a physicist, philosopher, statesman and inventor who was one of the Founding Fathers of the United States. He was a drafter and signer of the Declaration of Independence, and the first postmaster general.\n[…]\n\"Writings of Benjamin Franklin\" – American Writers: A Journey Through History by C-SPAN\n[…]\nBenjamin Franklin: A Documentary History – Leo Lemay at the University of Delaware\n[…]\nBenjamin Franklin: An extraordinary life – PBS\n[…]\nBenjamin Franklin: First American Diplomat, 1776–1785 – U.S. State Department\n[…]\nChisholm, Hugh, ed. (1911). \"Franklin, Benjamin\" . Encyclopædia Britannica (11th ed.). Cambridge University Press.\n[…]\nGuide to Benjamin Franklin; Archived March 16, 2010, at the Wayback Machine – Richard J. Jensen at the University of Illinois\n[…]\nThe Electric Benjamin Franklin – ushistory.org\n[…]\nAbridgement of the Book of Common Prayer (1773), by Benjamin Franklin and Francis Dashwood, transcribed by Richard Mammana\n[…]\nLibrary of Congress web resource: Benjamin Franklin ... In His Own Words\n[…]\nWorks by Benjamin Franklin at LibriVox (public domain audiobooks)\n[…]\nWorks by Benjamin Franklin in eBook form at Standard Ebooks\n[…]\nWorks by Benjamin Franklin at Project Gutenberg\n[…]\nWorks by or about Benjamin Franklin at the Internet Archive\n[…]\nThe Autobiography of Benjamin Franklin at Project Gutenberg\n[…]\nThe Autobiography of Benjamin Franklin LibriVox recording\n[…]\nBenjamin Franklin 300 (1706–2006); Archived August 20, 2008, at the Wayback Machine Official web site of the Benjamin Franklin Tercentenary.\n[…]\nThe Historical Society of Pennsylvania Collection of Benjamin Franklin Papers, including correspondence, government documents, writings and a copy of his will, are available for research use at the Historical Society of Pennsylvania."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lente_bifocal",
+        "situacao": "ok",
+        "texto": "Lentes bifocais são óculos com dois distintos potências ópticas. Lentes bifocais são normalmente prescritas para pessoas com presbiopia que também requer uma correção para miopia, hipermetropia e/ou astigmatismo.\n[…]\nBenjamin Franklin é creditado geralmente pela invenção da lente bifocal. Historiadores obtiveram algumas evidências sugerindo que outras pessoas podem ter chegado antes de Franklin à invenção; contudo, uma correspondência entre George Whatley e John Fenno, editor do Gazette of the United States, sugere que Franklin inventou realmente a lente bifocal, e talvez 50 anos antes do que se pensava originalmente.\n[…]\nComo diversas invenções são desenvolvidas independentemente por mais de uma pessoa, é possível que a invenção das lentes bifocais seja um destes casos. No entanto, Benjamin Franklin foi um dos primeiros a usar lentes bifocais, e as correspondências de Franklin levam a crer que ele inventou-as independentemente, indiferentemente de ser o primeiro a apresentar tal invenção.\n[…]\nJohn Isaac Hawkins, inventor das lentes trifocais, cunhou o termo bifocal em 1824 e o creditou ao Dr. Franklin.\n[…]\nLetocha, Charles E. (1990). «The Invention and Early Manufacture of Bifocals». Survey of Ophthalmology. 35 (3): 226–235. PMID 2274850. doi:10.1016/0039-6257(90)90092-A\n[…]\nFranklin's letters to Whatley concerning double spectacles.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Chupa Chups",
+      "descricao": "Marca espanhola de pirulitos esféricos com palito, fundada por Enric Bernat em 1958."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que pintor surrealista espanhol desenhou, em 1969, o logotipo amarelo do pirulito Chupa Chups?",
+    "resposta": "Salvador Dalí",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chupa_Chups"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chupa_Chups",
+        "situacao": "ok",
+        "texto": "Chupa Chups (Spanish pronunciation: [ˈtʃupa ˈtʃups]) is a Spanish brand of confectionery found in over 150 countries. It was founded in 1958 by Enric Bernat and is owned by the Italian-Dutch company Perfetti Van Melle. The name comes from the Spanish verb chupar, meaning \"to suck\". Similar confections are known as lollipops or suckers in English.\n[…]\nThe Chupa Chups logo was designed in 1969 by the surrealist artist Salvador Dalí. Its first marketing campaign was the logo with the slogan \"Es redondo y dura mucho, Chupa Chups\", which translates from Spanish as \"It's round and long-lasting\". Later, celebrities like Madonna were hired to advertise the product.\n[…]\nIn 1995, Chupa Chups became the first candy sent to the Mir space station.\n[…]\nBetween 2000 and 2003, Chupa Chups was the main shirt sponsor of English football team Sheffield Wednesday.\n[…]\nSince 2007, Chupa Chups was the signature sweet of the Marriott brand hotel Springhill Suites. Chupa Chups were available at the front desk of any Springhill Suites property for free to any guest, child or adult. As of August 2021, Marriott has begun stepping away from Chupa Chups as a signature item for Springhill Suites.\n[…]\nMesser Chups is a surf rock band from Saint Petersburg, Russia. In the group's name, \"Messer\" is taken from the German word for \"knife\" and \"Chups\" from Chupa Chups lollipops.\n[…]\nIn 2025, Chupa Chups launched an Australian advertising campaign with the slogan \"Suck Yeah\"; this is the company's first major campaign in the country in more than a decade.\n[…]\nChupa Chups has a large product range, with their flagship lollipop being the most popular.\n[…]\nChupa Chups has more than 100 flavours available worldwide, including sugar-free varieties. They are individually heat-sealed in the factory, and are best opened by twisting the base of the wrapper.\n[…]\nChupa Chups World (official site) (Flash)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chupa_Chups",
+        "situacao": "ok",
+        "texto": "Chupa Chups (pronúncia espanhola: Espanhol: [ˈtʃupa ˈtʃups]) é uma empresa espanhola de chupa-chupas ou pirulitos criada no ano de 1958 pelo catalão Enric Bernat, e atualmente parte da multinacional Perfetti Van Melle. Seus produtos são vendidos em mais de 150 países ao redor do mundo.\n[…]\nNo início da década de 50, Enric Bernat trabalhava em uma fábrica de geleia de maçãs chamada \"Granja Asturias\" quando teve a ideia de produzir chupa-chupas e renomeou o nome da companhia para Chupa Chups. A ideia das sobremesas veio da sensação de que os doces e confeitos da época não eram devidamente desenhados para o consumo por crianças, um potencial público-alvo.\n[…]\nA companhia obteve grande sucesso de vendas e, em 5 anos, os doces já eram vendidos em mais de 300 mil lojas. Na década de 70, espalharam-se pelo mundo, chegando ao Japão e ao Sudeste Asiático. Em 2003, 4 bilhões de chupa-chupas foram vendidos em mais de 150 países.\n[…]\nO logotipo da Chupa Chups foi desenhado em 1969 por Salvador Dalí. As campanhas de marketing da companhia utilizaram grandes celebridades, como Madonna, em seus comerciais. A campanha publicitária de 1997/1998 contou com a banda pop Spice Girls e, em 2001/2002, com o desenho animado mundialmente conhecido Simpsons.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Sistema sexagesimal",
+      "descricao": "Sistema de numeração de base sessenta, criado na antiga Mesopotâmia, que deu origem à divisão da hora em sessenta minutos."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "A hora tem sessenta minutos por herança de uma contagem em base sessenta, criada por qual povo antigo?",
+    "resposta": "Sumérios",
+    "distratores": [
+      "Egípcios",
+      "Gregos",
+      "Romanos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sexagesimal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sexagesimal",
+        "situacao": "ok",
+        "texto": "Sexagesimal, also known as base 60, is a numeral system with sixty as its base. It originated with the ancient Sumerians in the 3rd millennium BC, was passed down to the ancient Babylonians, and is still used—in a modified form—for measuring time, angles, and geographic coordinates.\n[…]\nIn the late 3rd millennium BC, Sumerian/Akkadian units of weight included the kakkaru (talent, approximately 30 kg) divided into 60 manû (mina), which was further subdivided into 60 šiqlu (shekel); the descendants of these units persisted for millennia, though the Greeks later coerced this relationship into the more base-10–compatible ratio of a shekel being one 50th of a mina.\n[…]\nThe sexagesimal system as used in ancient Mesopotamia was not a pure base-60 system, in the sense that it did not use 60 distinct symbols for its digits. Instead, the cuneiform digits used ten as a sub-base in the fashion of a sign-value notation: a sexagesimal digit was composed of a group of narrow, wedge-shaped marks representing units up to nine (, , , , ..., ) and a group of wide, wedge-shaped marks representing up to five tens (, , , , ).\n[…]\nMedieval astronomers also used sexagesimal numbers to note time. Al-Biruni first subdivided the hour sexagesimally into minutes, seconds, thirds and fourths in 1000 while discussing Jewish months. Around 1235 John of Sacrobosco continued this tradition, although Nothaft thought Sacrobosco was the first to do so. The Parisian version of the Alfonsine tables (ca. 1320) used the day as the basic unit of time, recording multiples and fractions of a day in base-60 notation.\n[…]\nBase-60 number systems have also been used in some other cultures that are unrelated to the Sumerians, for example by the Ekari people of Western New Guinea.\n[…]\n60\n[…]\n60\n[…]\n60"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sistema_de_numera%C3%A7%C3%A3o_sexagesimal",
+        "situacao": "ok",
+        "texto": "O sistema sexagesimal é um sistema de numeração de base 60, criado pela antiga civilização Suméria. Uma possível razão para o aparecimento deste sistema de numeração poderá residir no elevado número de divisores de 60 (1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30 e 60). Outra hipótese poderá vir de uma união de um sistema de contagem de base 5 que se baseava em contar com os dedos da mão e o sistema de co\n[…]\nO sistema consistia em contar as falanges dos dedos da mão direita, utilizando o polegar, totalizando doze falanges (três falanges em quatro dedos),com os cinco dedos da mão esquerda, contam-se as dúzias, totalizando cinco dúzias ou seja 60.\n[…]\nEste sistema é utilizado nas medidas de ângulos (e de coordenadas geográficas angulares) e de tempo.\n[…]\nA medida angular de um grau é dividida em 60 minutos de arco, e cada minuto de arco em 60 segundos de arco.\n[…]\nNas medidas usuais de tempo, uma hora é dividida em 60 minutos, e cada minuto em 60 segundos. Antigamente o segundo era dividido em 60 terceiros e assim por diante, mas hoje em dia, o segundo é dividido através de um sistema decimal.\n[…]\n\"Fatos sobre o cálculo de graus e minutos\" é um livro de 1825, em árabe, que é considerada a primeira publicação a discutir frações sexagesimais e trabalhos relacionados",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Lápis com borracha",
+      "descricao": "Lápis com uma borracha presa na extremidade oposta à ponta, patenteado pelo americano Hymen Lipman em 1858."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em 1858, o americano Hymen Lipman patenteou uma novidade para o lápis que se tornou comum até hoje. O que ele acrescentou na ponta de trás?",
+    "resposta": "Uma borracha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hymen_Lipman",
+      "https://en.wikipedia.org/wiki/Eraser"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hymen_Lipman",
+        "situacao": "ok",
+        "texto": "Hymen L. Lipman (March 20, 1817 – November 4, 1893) was an American stationer and inventor credited with registering the first patent for a pencil with an attached eraser on March 30, 1858.\n[…]\nHymen L. Lipman was born in Kingston, Jamaica, on March 20, 1817, to Lewis Lipman, an English merchant. Lyman immigrated to the US around 1829, arriving and settling in Philadelphia, Pennsylvania. He resided in Philadelphia for the remainder of his life.\n[…]\nIn 1840, Lipman succeeded Samuel M. Stewart, then the leading stationer in Philadelphia. Three years later, he started the first envelope company in the US.\n[…]\nIn 1862, Lipman sold his lead-pencil and eraser patent for $100,000 to Joseph Reckendorfer, who went to sue the pencil manufacturer Faber for infringement. In 1875, the US Supreme Court ruled against Reckendorfer, declaring the patent invalid because his invention was actually a combination of two already known things with no new use.\n[…]\nIn 1848, he married Mary A. Lehman, daughter of Peter K. Lehman, one of the founders of the Philadelphia College of Pharmacy. Their children where Mary, Lewis, and Anna Elizabeth \"Lillie\" Lipman.\n[…]\nLipman died at his Philadelphia home November 4, 1893, aged 76, and his wife a year later. Both were buried in Laurel Hill Cemetery."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Eraser",
+        "situacao": "ok",
+        "texto": "An eraser (also known as a rubber in some Commonwealth countries, including South Africa from which the material first used got its name) is an article of stationery that is used for removing marks from paper or skin (e.g. parchment or vellum). Erasers have a rubbery consistency and come in a variety of shapes, sizes, and colors. Some pencils have an eraser on one end.\n[…]\nHowever, raw rubber was perishable. In 1839 Charles Goodyear discovered the process of vulcanization, a method that would cure rubber, making it durable. Rubber erasers became common with the advent of vulcanization. On March 30, 1858, Hymen Lipman of Philadelphia, United States, received the first patent for attaching an eraser to the end of a pencil. It was later invalidated because it was determined to be simply a composite of two devices rather than an entirely new product.\n[…]\nCo-inventor of the laser Arthur Leonard Schawlow created a \"laser eraser\" for typewritten material. This used a laser to vaporize the ink of the typo, leaving the paper beneath unharmed. Although Schawlow received a patent for the invention, it was never produced commercially.\n[…]\nPearlstein, E. J.; Cabelli, D.; King, A.; Indictor, N. (1982). \"Effects of Eraser Treatment on Paper\". Journal of the American Institute for Conservation. 22 (1): 1–2. doi:10.2307/3179714. JSTOR 3179714. Archived from the original on 2009-05-13. Retrieved 2008-05-05."
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Capa impermeável de fralda",
+      "descricao": "Cobertura impermeável para fraldas de pano criada pela americana Marion Donovan nos anos quarenta, precursora da fralda descartável."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Nos anos quarenta, a americana Marion Donovan fez uma capa impermeável para fraldas de pano costurando um pedaço de qual objeto do banheiro?",
+    "resposta": "Cortina do chuveiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Marion_Donovan"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Marion_Donovan",
+        "situacao": "ok",
+        "texto": "Marion O'Brien Donovan (October 15, 1917 – November 4, 1998) was an American inventor and entrepreneur. Recognized as one of the era's most prominent female inventors, she secured a total of 20 patents for her creations. In 1946, she created a reusable, impermeable diaper cover. Ultimately, this led to the invention of the disposable paper diaper, which was eventually commercialized by Victor Mill\n[…]\nWhen Donovan attempted to sell the \"Boater\" to top manufacturers, it was rejected. Therefore, she went into manufacturing herself.\n[…]\nAfter much experimentation, Donovan designed a disposable diaper that aimed to further solve the problem of leaking diapers.\n[…]\nMeanwhile, Donovan had returned to school to study architecture. She claimed she \"always wanted to be an architect\", as she was fascinated by structure. She earned a degree in architecture at Yale University in 1958. She was one of just three women in her graduating class. Donovan subsequently designed her own home in Greenwich, Connecticut in 1981.\n[…]\nBetween the years of 1951 and 1996, Donovan earned 20 patents. The inventions were aimed to tackle practical problems in the home.\n[…]\nUsing her home as her lab, and household items as her materials, Donovan proved that domestic settings can be places for innovation. She recognized common challenges in her life and used that understanding to innovate better solutions for others, with many of her inventions aimed especially for women.\n[…]\nDonovan died on November 4, 1998, from heart disease at the age of 81 at Lenox Hill Hospital in Manhattan.\n[…]\nDonovan was elected to the National Inventors Hall of Fame in May 2015 and has a picture on the Hall of Fame wall.\n[…]\nBusch-Vishniac, Ilene; Busch, Lauren; Tietjen, Jill (2024). \"Chapter 15. Marion Donovan\". Women in the National Inventors Hall of Fame: The First 50 Years. Springer Nature. ISBN 9783031755255."
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Lâmpada de LED",
+      "descricao": "Lâmpada que produz luz por meio de diodos emissores de luz, muito mais eficiente que as incandescentes."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Para iluminar um ambiente com o mesmo brilho, qual destes tipos de lâmpada gasta menos energia elétrica?",
+    "resposta": "LED",
+    "distratores": [
+      "Incandescente",
+      "Halógena",
+      "Fluorescente compacta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/LED_lamp"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/LED_lamp",
+        "situacao": "ok",
+        "texto": "An LED lamp or LED light is an electric light that produces light using light-emitting diodes (LEDs). LED lamps are significantly more energy-efficient than equivalent incandescent lamps and fluorescent lamps. The most efficient commercially available LED lamps have efficiencies exceeding 200 lumens per watt (lm/W) and convert more than half the input power into light. Commercial LED lamps have a \n[…]\nPhilips Lighting ceased research on compact fluorescents in 2008 and began devoting the bulk of its research and development budget to solid-state lighting. On 24 September 2009, Philips Lighting North America became the first to submit lamps in the category to replace the standard 60 W A-19 \"Edison screw fixture\" light bulb, with a design based on their earlier \"AmbientLED\" consumer product. DOE awarded Philips the prize after 18 months of extensive testing.\n[…]\nLED lamps run cooler than their predecessors since there is no electric arc or tungsten filament, but they can still cause burns. Thermal management of high-power LEDs is required to keep the junction temperature of the LED device close to ambient temperature, since increased temperature reduces light output and can cause catastrophic failure. LEDs use much less power for a given light output, but they do produce some heat, and it is concentrated in a very small semiconductor die."
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Play-Doh",
+      "descricao": "Marca americana de massinha de modelar colorida para crianças, lançada como brinquedo nos anos cinquenta."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Antes de virar massinha de modelar para crianças, a Play-Doh era vendida nos Estados Unidos com qual função doméstica?",
+    "resposta": "Limpar papel de parede",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Play-Doh"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Play-Doh",
+        "situacao": "ok",
+        "texto": "Play-Doh, also known as Play-Dough, is an American brand of modeling compound marketed for young children to make arts and crafts projects. The product was first manufactured in Cincinnati, Ohio, as a wallpaper cleaner in the 1930s. Play-Doh was then reworked and marketed to Cincinnati schools in the mid-1950s. Play-Doh was demonstrated at an educational convention in 1956 and prominent department\n[…]\nPlay-Doh was inducted into the National Toy Hall of Fame at The Strong in Rochester, New York, in 1998.\n[…]\nIn 1960, the Play-Doh Fun Factory (a toy press that extrudes the compound in various shapes) was invented by Bob Boggild and Bill Dale. The Play-Doh Fuzzy Pumper Barber & Beauty Shop of 1977 and Mop Top Hair Shop of 1986 featured a figurine whose extruded \"hair\" could be styled.\n[…]\nIn 1996, an educational software CD-ROM game, Play-Doh Creations was released.\n[…]\nIn 2003, the Play-Doh Creativity Table was sold. Play-Doh related merchandise introduced during the 2007 anniversary year included the Play-Doh Birthday Bucket, the Play-Doh Fifty Colors Pack, the Fuzzy Pumper Crazy Cuts (a reworking of the 1977 Fuzzy Pumper Barber & Beauty Shop), and the Play-Doh Creativity Center. In 2013, \"Play-Doh Plus\" was introduced. It is lighter, more pliable, and softer than regular Play-Doh.\n[…]\nA game show adaptation produced by Hasbro's former entertainment division Entertainment One started streaming on Amazon Freevee (then known as IMDb TV), called Play-Doh Squished. Initially a holiday special on December 10, 2021, it became a full-length series on November 11, 2022. The competition show is hosted by Sarah Hyland.\n[…]\nPlay-Doh, sculpture by Jeff Koons\n[…]\nPlay-Doh on Instagram\n[…]\nPlay-Doh began as wall cleaner | Our History\n[…]\nPlaymakers Part II: Play-Doh Archived 2015-11-27 at the Wayback Machine\n[…]\nThe Accidental Invention of Play-Doh, by David Kindy, smithsonian.com, November 12, 2019"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Código de barras",
+      "descricao": "Representação de dados em barras paralelas lidas por scanners, criada por Norman Joseph Woodland e Bernard Silver."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Num supermercado de Ohio, um caixa leu pela primeira vez o código de barras de um produto, um pacote de chiclete. Em que ano?",
+    "resposta": "1974",
+    "distratores": [
+      "1966",
+      "1969",
+      "1979"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Universal_Product_Code"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Universal_Product_Code",
+        "situacao": "ok",
+        "texto": "The Universal Product Code (UPC or UPC code) is a barcode symbology that is used worldwide for tracking trade items in stores.\n[…]\nThe first UPC-marked item ever to be scanned at a retail checkout was a 10-pack (50 sticks) of Wrigley's Juicy Fruit chewing gum, purchased at the Marsh supermarket in Troy, Ohio, at 8:01 a.m. on 26 June 1974. The NCR cash register rang up 67 cents.\n[…]\nAround late 1969, IBM at Research Triangle Park (RTP) in North Carolina assigned George Laurer to determine how to make a supermarket scanner and label. In late 1970, Heard Baumeister provided equations to calculate characters-per-inch achievable by two IBM bar codes, Delta A and Delta B. In February 1971, Baumeister joined Laurer.\n[…]\nUS 3832686, Bilgutay, Ilhan M., \"Bar Code Font\", published 11 May 1972, issued 27 August 1974"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/C%C3%B3digo_Universal_de_Produtos",
+        "situacao": "ok",
+        "texto": "O Código Universal de Produto (UPC ou código UPC) é uma simbologia de código de barras amplamente utilizada mundialmente para rastreamento de itens comerciais em lojas.\n[…]\nO primeiro item com a marca UPC a ser escaneado em um caixa de varejo foi um pacote de 50 chicletes Wrigley's Juicy Fruit, comprado no supermercado Marsh em Troy, Ohio, às 8h01 em 26 de junho de 1974. A caixa registradora NCR registrou 67 centavos. O carrinho de compras também continha outros itens com código de barras, mas o chiclete foi o primeiro retirado no caixa. Um fac-símile do pacote de chicletes foi exibido no museu de história americana do Smithsonian Institution em Washington, DC.\n[…]\nPor volta do final de 1969, a IBM, do Research Triangle Park (RTP), na Carolina do Norte, designou George Laurer para determinar como fazer um scanner e uma etiqueta de supermercado. No final de 1970, Heard Baumeister forneceu equações para calcular caracteres por polegada alcançáveis por dois códigos de barras IBM, Delta A e Delta B. Em fevereiro de 1971, Baumeister juntou-se à Laurer.\n[…]\nEm meados de 1971, William \"Bill\" Crouse inventou um novo código de barras chamado Delta C Ele alcançou quatro vezes mais caracteres por polegada do Delta B.\n[…]\nA área escaneável de cada código de barras UPC-A segue o padrão S L LLLLLMRRRRR R E, onde os padrões de guarda S (início), M (meio) e E (final) são representados da mesma maneira em cada código de barras UPC-A e no L As seções (esquerda) e R (direita) representam coletivamente os 12 dígitos numéricos que tornam cada UPC-A único. O primeiro dígito L indica um sistema numérico específico a ser usado pelos dígitos seguintes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Arroba (símbolo)",
+      "descricao": "O símbolo @, usado nos endereços de e-mail, chamado de arroba em português e espanhol"
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O engenheiro americano Ray Tomlinson escolheu a arroba para os endereços ao enviar o primeiro e-mail entre computadores da rede Arpanet. Em que ano?",
+    "resposta": "1971",
+    "distratores": [
+      "1965",
+      "1978",
+      "1983"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ray_Tomlinson",
+      "https://en.wikipedia.org/wiki/At_sign"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ray_Tomlinson",
+        "situacao": "ok",
+        "texto": "Raymond Samuel Tomlinson (April 23, 1941 – March 5, 2016) was an American computer programmer who invented the first email program on the ARPANET system, the precursor to the Internet, in 1971; it was the first system able to send mail between users on different hosts connected to ARPANET. Previously, mail could be sent only to others who used the same computer.\n[…]\nTomlinson also developed CPYNET, a file transfer program designed to transmit files between computers connected to the ARPANET. In 1971, he was asked to adapt an existing program called SNDMSG—which allowed users to leave messages for others on the same time-sharing computer—so that it could run on TENEX. He incorporated source code from CPYNET into SNDMSG, enabling users to send messages to others on different computers over the network.\n[…]\nThe first email Tomlinson sent was a test message between two computers placed side by side. The content of the message was not preserved, and Tomlinson later described it as insignificant, likely consisting of a random string such as \"QWERTYUIOP.\" This is often misquoted as \"The first e-mail was QWERTYUIOP.\" He later stated, \"The test messages were entirely forgettable and I have, therefore, forgotten them.\"\n[…]\nThe @ sign, which was relatively obscure at the time, was added to the Museum of Modern Art's architecture and design collection in 2010, credited to Tomlinson and described as a \"defining symbol of the computer age.\"\n[…]\nTomlinson said he preferred \"email\" over \"e-mail,\" joking in a 2010 interview that \"I'm simply trying to conserve the world's supply of hyphens\" and that \"the term has been in use long enough to drop the hyphen.\"\n[…]\nIn 2000, he received the George R. Stibitz Computer Pioneer Award from the American Computer Museum (with the Computer Science Department of Montana State University).\n[…]\nTomlinsons' e-mail webpage"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/At_sign",
+        "situacao": "ok",
+        "texto": "The at sign (@) is a typographical symbol used as an accounting and invoice abbreviation meaning \"at a rate of\" (e.g. 7 widgets @ £2 per widget = £14), and now seen more widely in email addresses and social media platform handles. Most languages have their own name for the symbol.\n[…]\nA common contemporary use of @ is in email addresses (using the SMTP system), as in jdoe@example.com (the user jdoe located at the domain example.com). Ray Tomlinson of BBN Technologies is credited for having introduced this usage in 1971.\n[…]\nIn Indian English, speakers often say at the rate of (with e-mail addresses quoted as \"example at the rate of example.com\").\n[…]\nIn Norwegian, it is officially called krøllalfa ('curly alpha' or 'alpha twirl'), and commonly as alfakrøll. Sometimes snabel-a, the Swedish/Danish name (which means 'trunk A', as in 'elephant's trunk'), is used. Commonly, people will call the symbol [æt] (as in English), particularly when giving their email addresses. The computer manufacturer Norsk Data used it as the command prompt, and it was often called grisehale (pig's tail).\n[…]\nIn Portuguese, it is called arroba (from the Arabic ar-roub, ‏اَلرُّبْع‎). The word arroba is also used for a weight measure in Portuguese. One arroba is equivalent to 32 old Portuguese pounds, approximately 14.7 kg (32 lb), and both the weight and the symbol are called arroba. In Brazil, cattle are still priced by the arroba – now rounded to 15 kg (33 lb). This naming is because the at sign was used to represent this measure.\n[…]\nIn Spanish-speaking countries, it is called arroba (from the Arabic ar-roub, which denotes a pre-metric unit of weight).\n[…]\ncommercial-at at the Free On-line Dictionary of Computing"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ray_Tomlinson",
+        "situacao": "ok",
+        "texto": "Ray Tomlinson (Amsterdam, Nova Iorque, 23 de abril de 1941 — Lincoln, Massachusetts, 5 de março de 2016) foi um programador dos Estados Unidos que implementou um sistema de correio eletrônico na ARPANET, em 1971. Ray era um funcionário da Bolt Beranek and Newman (BBN), empresa contratada pelo Departamento de Defesa dos Estados Unidos em 1968 para implantar a ARPANET.\n[…]\nEm 1971, Tomlinson começou a enviar mensagens para si mesmo e para seus colegas como brincadeira. Ele somou as funcionalidades dos aplicativos SNDMSG (uma contração da expressão em inglês \"send message\", ou seja, \"enviar mensagem\") e o Readmail, para leitura de correio. Mas esse sistema permitia apenas o compartilhamento de textos. O engenheiro também trabalhava em um protocolo chamado CPYNET, para transferência de arquivos entre computadores conectados em rede.\n[…]\nO conceito de correio eletrônico já existia e estava implementado em sistemas como o AUTODIN. Entretanto, esse foi o primeiro sistema capaz de enviar mensagens entre diferentes nós conectados à ARPANET. Tomlinson também inovou na medida em que escolheu o símbolo @ para distinguir as mensagens destinadas às caixas de correio na máquina local das que se dirigiam à rede, por ser o símbolo que significa \"at\", ou seja, estar em algum lugar. Logo enviou a si próprio uma mensagem de e-mail.\n[…]\nA BBN tinha dois computadores PDP-10 ligados entre si através da ARPANET, e a mensagem viajou através da rede entre as duas máquinas na mesma sala, em Cambridge. Depois de se ter assegurado que o SNDMSG funcionava na rede, enviou uma mensagem aos seus colegas os avisando da nova funcionalidade, com instruções para colocar um @ entre o nome do utilizador e o do seu computador. O primeiro endereço de e-mail criado foi o tomlinson@bbn-tenexa.\n[…]\nTomlinson morreu em 5 de março de 2016, supostamente de ataque cardíaco.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "CD",
+      "descricao": "Disco óptico digital para armazenar música e dados, desenvolvido pela Philips e pela Sony."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O CD de música começou a ser vendido no Japão, e um dos primeiros títulos foi um disco de Billy Joel. Em que ano?",
+    "resposta": "1982",
+    "distratores": [
+      "1979",
+      "1985",
+      "1988"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Compact_disc"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Compact_disc",
+        "situacao": "ok",
+        "texto": "The compact disc (CD) is a digital optical disc data storage format co-developed by Philips and Sony to store and play digital audio recordings. It employs the Compact Disc Digital Audio (CD-DA) standard and is capable of holding uncompressed stereo audio. First released in Japan in October 1982, the CD was the second optical disc format to reach the market, following the larger LaserDisc (LD).\n[…]\nOne major drawback to these copy-protected discs is that most will not play on either computer CD-ROM drives or some standalone CD players that use CD-ROM mechanisms. Philips has stated that such discs are not permitted to bear the trademarked Compact Disc Digital Audio logo because they violate the Red Book specifications.\n[…]\nOptical disc packaging\n[…]\nExtended Resolution Compact Disc\n[…]\nCompact disc bronzing – Type of compact disc corrosion\n[…]\nDualDisc – Double-sided optical disc\n[…]\nSPARS code – Classification system for commercial compact disc releases\n[…]\nList of optical disc manufacturers\n[…]\nPohlmann, Kenneth C. (1992). The Compact Disc Handbook. Middleton, Wisconsin: A-R Editions. ISBN 0-89579-300-8.\n[…]\nPeek, Hans et al. (2009) Origins and Successors of the Compact Disc. Springer Science+Business Media B.V. ISBN 978-1-4020-9552-8.\n[…]\nPeek, Hans B., The emergence of the compact disc, IEEE Communications Magazine, Jan. 2010, pp. 10–17.\n[…]\nNakajima, Heitaro; Ogawa, Hiroshi (1992) Compact Disc Technology, Tokyo, Ohmsha Ltd. ISBN 4-274-03347-3.\n[…]\nBarry, Robert (2020). Compact Disc (Object Lessons). New York: Bloomsbury. ISBN 978-1-5013-4851-8.\n[…]\nVideo How Compact Discs are Manufactured\n[…]\nA Media History of the Compact Disc (1-hour podcast interview)\n[…]\nSorin, Stan (2009), \"Compact Disc Standards and Formats\", Origins and Successors of the Compact Disc, Philips Research, vol. 11, Philips Research, pp. 137–176, doi:10.1007/978-1-4020-9553-5_4, ISBN 978-1-4020-9552-8"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Compact_disc",
+        "situacao": "ok",
+        "texto": "O compact disc (CD ou \"Disco Compacto\") é um disco óptico digital de armazenamento de dados. O formato foi originalmente desenvolvido com o propósito de armazenar e tocar apenas músicas, mas posteriormente foi adaptado para o armazenamento de dados, o CD-ROM.\n[…]\nEm 2014, as receitas de serviços de música digital se igualaram às vendas de formato físico pela primeira vez. Em 2017 os CDs já estavam sendo altamente substituídos por outras formas de distribuição ou de mídias digitais. Como resultado, as vendas dos CDs caíram para 50% de seu pico nos Estados Unidos. Já na atualidade, qualquer HD possui uma capacidade superior a de um CD.\n[…]\nDerivações de formatos foram criadas, assim como: mídias regraváveis (CD-RW), CD de áudio e dados (CD-R), Video Compact Disc (VCD), Super Video Compact Disc (SVCD), Enhanced Music Compact Disc (EMCD), Photo CD, Picture CD, CD-i, dentre outros.\n[…]\nA idealização do CD teve seu início em 1975 onde, Sony, com a Philips vindo logo atrás em 1977, começaram a estudar com protótipos uma possibilidade de um novo disco óptico digital de áudio.\n[…]\nA Philips anunciou publicamente um protótipo de CD-ROM de áudio em uma conferência de imprensa, intitulada \"Philips Introduce Compact Disc\", em 8 de março de 1979, em Eindhoven, Países Baixos.\n[…]\nSeu lançamento se deu a partir de 1º de outubro de 1982 no mercado mundial, começando com o Japão e a Europa. Em fevereiro de 1983, o sistema apareceu na América do Norte. No Brasil, o então novo sistema digital só foi lançado em julho de 1987. As datas de lançamento do CD em diversos países foram graduais e consecutivas, pois a Philips e a Sony tiveram, por motivos financeiros e de custos na fabricação dos discos, atrasos no cumprimento do lançamento.\n[…]\nDisco blu-ray",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.75 — 2026-10-23**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 e até 20 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+> - [`modo_pokemon.md`](modo_pokemon.md): o modo Pokémon e a coleção de perguntas de pokémon (§6, §15, §16, §17)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Dificuldade percebida** (2026-10-12): no app, quem lê pode avaliar a pergunta em cinco níveis, de muito fácil a muito difícil (§16, "Avaliação"). Essa avaliação poderá mudar o campo `dificuldade`, como **informação adicional à popularidade**, e não no lugar dela. **Por enquanto só é registrada:** não altera o campo, e a dificuldade, estimada ou percebida, **não orienta a criação de perguntas**. A ideia é coletar dados antes de decidir como usá-los.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **5 perguntas por âncora** no banco inteiro (3 até 2026-10-23), somando texto e figura, e no máximo **2 com figura**. As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+- **Resposta que é um ano ou uma data: sempre `multipla`.** Quando a resposta é um ano específico ("1969") ou uma data mais detalhada ("15 de novembro de 1889", "2 de fevereiro"), a pergunta é obrigatoriamente de múltipla escolha, com ou sem figura. Os distratores são anos (ou datas) próximos e críveis, no mesmo formato da resposta, nenhum deles também correto. A regra vale só quando **a resposta é o próprio ano ou a data**: século e década ("século dezenove", "década de 1970") e respostas em que o ano identifica outra coisa, como uma edição de Olimpíada ou de Copa ("Londres 2012", "1970, no México"), podem continuar abertas.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+### Coleções
+
+Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um modo de jogo próprio (decidido em 2026-10-13). Cada coleção tem um documento próprio com as diretrizes dela; a única até agora é a de **pokémon**, do modo Pokémon, em [`modo_pokemon.md`](modo_pokemon.md).
+
+- A pergunta da coleção tem o campo `colecao`. O modo da coleção sorteia só as perguntas dela, de qualquer tema.
+- **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master, Trilha da Vida, Linear).
+- **Subtema da coleção** (campo `subtema_colecao`): uma coleção pode ter subtemas próprios, definidos no documento dela, que dividem as perguntas dentro do modo. Eles não substituem tema e subtema, e a lista canônica (§3) não muda. A folga para sobreposição entre eles também é definida no documento da coleção.
+- As perguntas da coleção seguem esta Parte I: tema e subtema, âncora, fontes, redação e critérios. Podem ser com ou sem figura.
+- **Regras de conteúdo próprias:** o documento de uma coleção pode ter regras de conteúdo para as exclusivas dela, que partem desta Parte I e prevalecem sobre ela onde divergirem. Nos lotes exclusivos, o gerador e o crítico recebem esta Parte I e, depois dela, essas regras.
+- **Saturação das exclusivas:** é contada só dentro da coleção, com o limite definido no documento dela, e as exclusivas não contam na saturação do jogo original, porque uma partida nunca sorteia os dois conjuntos.
+- As exclusivas não contam nas metas do jogo original (§17), e o autopiloto não as produz: os lotes delas são rodados à mão.
+
+### Perguntas com áudio
+
+Uma pergunta de qualquer tipo pode ter um **trecho de áudio** (campo `audio`), decidido em 2026-10-12. O questionador lê o enunciado e manda o trecho tocar **na tela grande** (modo mesa), para todos ouvirem; o celular de quem lê não toca o som. **Até segunda ordem, as perguntas com áudio ficam fora do jogo:** o app não as sorteia em nenhum modo (§16), enquanto os trechos são revistos.
+
+- **De reconhecimento**, como as figuras: a pergunta pede para reconhecer o que se ouve ("De que país é este hino nacional?", "Que música é esta?", "Que animal faz este som?", "Que instrumento é este?", "De que compositor é esta peça?"). O enunciado nunca diz o que toca; pode trazer uma pista que ajude sem entregar ("Que ave do Cerrado…").
+- **Categorias:** hinos nacionais (Geografia › Bandeiras e Símbolos); música clássica e ópera (Artes e Pensamento › Música Clássica, Teatro e Ópera); música brasileira antiga (Entretenimento › Música Brasileira); sons de animais (Natureza, no subtema do bicho); instrumentos (Música Clássica, Música Brasileira ou Música Internacional, conforme o instrumento).
+- **Só áudio livre**, porque o repositório e o site são públicos: domínio público, CC0, CC BY ou CC BY-SA, sem NC nem ND. Gravações comerciais de música popular **não entram**: a composição fica protegida até 70 anos depois da morte do autor, e a gravação, até 70 anos depois de publicada. Na música brasileira antiga, a composição e a gravação precisam estar em domínio público no Brasil: autores mortos há mais de 70 anos (Chiquinha Gonzaga, Ernesto Nazareth, Zequinha de Abreu, Catulo da Paixão Cearense, Carlos Gomes) e gravação publicada há mais de 70 anos. *Pelo Telefone*, de Donga (morto em 1974), por exemplo, fica de fora. Boas fontes: os hinos da Banda da Marinha dos EUA e os sons do Serviço de Pesca e Vida Selvagem dos EUA (obras do governo americano, em domínio público), o Musopen e as gravações antigas da Casa Edison, todos no Wikimedia Commons.
+- **O LLM não ouve áudio.** A pergunta sai dos metadados do arquivo (título, descrição, categorias, origem) e das fontes, e **uma pessoa ouve o trecho** antes de ele entrar no banco, na página que o pipeline gera (§17).
+- **O trecho:** de 6 a 30 segundos, escolhido para ser reconhecível (o tema famoso de uma peça, o começo de um hino, o canto típico de uma ave), com entrada e saída suaves e volume igualado. Nas gravações antigas, o trecho pula o anúncio do locutor, que muitas vezes diz o nome da música.
+- **Saturação:** o áudio conta no limite de 5 perguntas por âncora, e cada âncora tem no máximo 1 pergunta com áudio.
+- **Resposta específica e justa:** o nome da música, do país, do animal ou do instrumento. Quando o som não permite distinguir a espécie ou o instrumento exato de outros parecidos (uma coruja de outra, o acordeão do bandoneón), a pergunta é `multipla`, sem distratores que soem igual.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

@@ -1,0 +1,406 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado: B. F. Goodrich usou o nome zipper em galochas de borracha em 1923.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta Marcel Bich é quase dedutível de BIC, e Bich não foi o único fundador; pergunta melhor pela letra cortada.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Para evitar problemas em países de língua inglesa, o barão Marcel Bich cortou uma letra do próprio sobrenome ao criar a marca BIC. Qual letra?",
+        "resposta": "H",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Société_Bic",
+          "https://en.wikipedia.org/wiki/Marcel_Bich"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem árabe com sentido de pequena pedra polida está na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bidet significa pônei em francês, pela ideia de montar; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Calendas eram o primeiro dia do mês e originaram calendário; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Agenda vem do latim agenda, 'o que deve ser feito'; confirmado no Wikcionário.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lapis significa pedra em latim e deu origem à palavra lápis; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Camera obscura significa câmara escura; camera é câmara/aposento em latim.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Velcro vem de velours e crochet (gancho); confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A etimologia é apenas suposta na fonte; o enunciado a afirma como certa.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Segundo a explicação mais aceita, o nome vaselina junta a palavra alemã para água com uma palavra grega. Qual é o sentido dela?",
+        "resposta": "Óleo",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Vaselina",
+          "https://en.wikipedia.org/wiki/Petroleum_jelly"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tamagotchi significa 'relógio-ovo'; tamago é ovo.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta é sobre a origem do nome da unidade, então o ângulo correto é nome, não conexão.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Que engenheiro escocês, famoso por aperfeiçoar a máquina a vapor, empresta o nome à unidade de potência estampada nas embalagens de lâmpadas?",
+        "resposta": "James Watt",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Watt",
+          "https://pt.wikipedia.org/wiki/Watt"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas é data comemorativa e não objeto do dia a dia; mal classificada no subtema.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato é sobre outro feriado e não sobre objeto; mal classificada e fraca.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tesla demonstrou em Nova York em 1898 um barco controlado por rádio; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bowerman usou a máquina de waffle da esposa em 1970-71; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O ícone de salvar é um disquete; fato amplamente conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Canção infantil não pertence ao subtema Objetos do Dia a Dia; mal classificada.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pergunta sobre apelido do símbolo é ângulo nome, não conexão.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "No Brasil, o símbolo usado nas hashtags, chamado de cerquilha, também é conhecido pelo nome de qual brincadeira de papel e lápis?",
+        "resposta": "Jogo da velha",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Cerquilha"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Os trechos não sustentam o uso em máscaras de gás, que é alegação duvidosa sobre o Kleenex.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Frederik era filho de Lion Philips, sobrinho da mãe de Marx, logo primo dele; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A tampinha coroa padrão tem 21 dentes; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Faces opostas do dado de seis faces somam sete; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Seis peças 2x4 combinam-se de 915.103.765 maneiras; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "43 quintilhões de combinações confirmado, em escala longa do português.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Prefixo 789 é o do Brasil na GS1; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tensão nominal de 1,5 V confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Célula braile tem seis pontos; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Relógios de propaganda costumam marcar 10h10; fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Uma polegada equivale a 2,54 cm exatos; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O fundo abaulado reforça a lata contra a pressão interna do gás; fato documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O vidro marrom protege a cerveja da luz; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Data comemorativa, não objeto do dia a dia; mal classificada no subtema.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A lei de 1956 visava evitar mortes por sufocamento de crianças em geladeiras; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Crença da veia ligada ao coração confirmada; enunciado ressalva ser crença.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Feriado e movimento operário não são objeto do dia a dia; mal classificada.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Santo e figura histórica fora do subtema; mal classificada.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os irmãos Lundström fundaram a indústria em Jönköping, Suécia; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jazida de Borrowdale, Cumbria, Inglaterra; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Data comemorativa, não objeto do dia a dia; mal classificada no subtema.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Franklin é geralmente creditado pelos bifocais; o enunciado diz 'costuma receber o crédito'.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O logotipo não é apenas amarelo; o adjetivo é impreciso e desnecessário.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Que pintor surrealista espanhol desenhou, em 1969, o logotipo do pirulito Chupa Chups?",
+        "resposta": "Salvador Dalí",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Chupa_Chups"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Sistema de numeração não é objeto do dia a dia; mal classificada.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 'uma borracha' é óbvia pela âncora; melhor perguntar quem patenteou.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Que americano patenteou, em 1858, a ideia de prender uma borracha na ponta do lápis?",
+        "resposta": "Hymen Lipman",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Hymen_Lipman",
+          "https://en.wikipedia.org/wiki/Eraser"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Donovan fez a capa com uma cortina de chuveiro; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fato óbvio demais e sem graça para uma pergunta.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Play-Doh começou como limpador de papel de parede; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro UPC lido foi um chiclete Wrigley em Troy, Ohio, em 1974; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tomlinson introduziu a arroba em 1971; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "CD lançado no Japão em outubro de 1982; o título de Billy Joel (52nd Street) é conhecido.",
+      "reescrita": null
+    }
+  ]
+}

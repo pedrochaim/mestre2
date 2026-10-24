@@ -1,0 +1,535 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1923, uma fabricante americana de pneus popularizou o nome zíper ao usar o fecho de correr num produto de borracha. Que produto era?",
+        "resposta": "Galochas (botas de borracha)"
+      },
+      "existentes": [
+        {
+          "id": "q00932",
+          "pergunta": "Em 1923, a fabricante de pneus Goodrich criou o nome zipper ao usar o fecho deslizante em que tipo de calçado?",
+          "resposta": "Galochas de borracha"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Os antigos romanos chamavam de calendas um dia específico de cada mês, e daí veio a palavra calendário. Que dia era esse?",
+        "resposta": "O primeiro dia do mês"
+      },
+      "existentes": [
+        {
+          "id": "q05347",
+          "pergunta": "A palavra calendário vem de calendas, nome que os romanos davam a que dia de cada mês?",
+          "resposta": "O primeiro dia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em latim, a palavra lapis, que deu origem ao nome do lápis, significava o quê?",
+        "resposta": "Pedra"
+      },
+      "existentes": [
+        {
+          "id": "q05069",
+          "pergunta": "Que material forma o miolo deste objeto?",
+          "resposta": "Grafite"
+        },
+        {
+          "id": "q07342",
+          "pergunta": "No fim do século dezenove, muitos lápis passaram a ser pintados de amarelo, cor da realeza de um país de onde vinha grafite de qualidade. Que país?",
+          "resposta": "China"
+        },
+        {
+          "id": "q08729",
+          "pergunta": "O miolo do lápis não tem chumbo: ele é feito de grafite misturado com qual material?",
+          "resposta": "Argila"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O nome velcro une duas palavras francesas: velours, que quer dizer veludo, e crochet. O que significa crochet?",
+        "resposta": "Gancho"
+      },
+      "existentes": [
+        {
+          "id": "q00882",
+          "pergunta": "O suíço George de Mestral teve a ideia do velcro depois de um passeio, ao examinar o que tinha grudado no pelo do seu cachorro. O que era?",
+          "resposta": "Carrapichos de bardana"
+        },
+        {
+          "id": "q00933",
+          "pergunta": "O nome velcro junta duas palavras francesas: velours, que significa veludo, e qual outra, que significa gancho?",
+          "resposta": "Crochet"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Segundo a explicação mais aceita, o nome vaselina junta a palavra alemã para água com uma palavra grega. Qual é o sentido dela?",
+        "resposta": "Óleo"
+      },
+      "existentes": [
+        {
+          "id": "q11901",
+          "pergunta": "A Vaselina, patenteada pelo químico americano Robert Chesebrough em 1872, é obtida a partir de qual matéria-prima?",
+          "resposta": "Petróleo"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O nome do bichinho virtual Tamagotchi mistura a palavra inglesa watch, relógio, com o japonês tamago. O que significa tamago?",
+        "resposta": "Ovo"
+      },
+      "existentes": [
+        {
+          "id": "q04504",
+          "pergunta": "O Tamagotchi, bichinho virtual em forma de ovo que precisava ser alimentado e limpo, foi lançado no Japão em que década?",
+          "resposta": "Anos noventa"
+        },
+        {
+          "id": "q07402",
+          "pergunta": "O nome do bichinho virtual Tamagotchi junta watch, relógio em inglês, com tamago, palavra japonesa que significa o quê?",
+          "resposta": "Ovo"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que engenheiro escocês, famoso por aperfeiçoar a máquina a vapor, empresta o nome à unidade de potência estampada nas embalagens de lâmpadas?",
+        "resposta": "James Watt"
+      },
+      "existentes": [
+        {
+          "id": "q02984",
+          "pergunta": "A potência das lâmpadas é medida numa unidade que homenageia qual engenheiro escocês, famoso por aperfeiçoar a máquina a vapor?",
+          "resposta": "James Watt"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Décadas antes do controle remoto da televisão, que inventor exibiu em Nova York, em 1898, um barquinho comandado por ondas de rádio?",
+        "resposta": "Nikola Tesla"
+      },
+      "existentes": [
+        {
+          "id": "q07348",
+          "pergunta": "A americana Zenith lançou o primeiro controle remoto sem fio para televisão, que funcionava com um feixe de luz. Em que década?",
+          "resposta": "Anos cinquenta"
+        },
+        {
+          "id": "q14905",
+          "pergunta": "Entre 1956 e 1977, os antecessores deste aparelho, usados para comandar televisores, funcionavam com que tipo de sinal?",
+          "resposta": "Tons ultrassônicos"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "A tampinha metálica de garrafa, chamada de coroa, tem a borda dobrada em dentinhos. Quantos dentes tem a tampinha padrão?",
+        "resposta": "21"
+      },
+      "existentes": [
+        {
+          "id": "q00890",
+          "pergunta": "William Painter, inventor da tampinha metálica de garrafa, aconselhou um vendedor da empresa a criar algo descartável. Que vendedor era esse, que depois lançou a lâmina de barbear?",
+          "resposta": "King Camp Gillette"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Num dado comum de seis faces, os números de faces opostas sempre somam o mesmo valor. Qual é essa soma?",
+        "resposta": "Sete"
+      },
+      "existentes": [
+        {
+          "id": "q01531",
+          "pergunta": "Num dado comum de seis faces, quanto dá a soma dos pontos de duas faces opostas?",
+          "resposta": "Sete"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Seis peças de Lego retangulares, do tipo dois por quatro e da mesma cor, podem ser encaixadas de quantas maneiras diferentes?",
+        "resposta": "Cerca de 915 milhões"
+      },
+      "existentes": [
+        {
+          "id": "q00876",
+          "pergunta": "O nome da fabricante de blocos de montar Lego vem de uma expressão em dinamarquês. O que ela significa?",
+          "resposta": "Brinque bem"
+        },
+        {
+          "id": "q03782",
+          "pergunta": "Em dinamarquês, a expressão que deu origem ao nome da marca de brinquedos Lego quer dizer o quê?",
+          "resposta": "Brinque bem"
+        },
+        {
+          "id": "q03783",
+          "pergunta": "Em 1932, qual carpinteiro dinamarquês fundou a pequena fábrica de brinquedos de madeira que viria a se chamar Lego?",
+          "resposta": "Ole Kirk Christiansen"
+        },
+        {
+          "id": "q07061",
+          "pergunta": "O tijolinho de plástico da Lego, com o sistema de encaixe usado até hoje, foi patenteado em que ano?",
+          "resposta": "1958"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Girando as faces de um cubo mágico comum, de três por três, é possível chegar a quantas combinações diferentes?",
+        "resposta": "Cerca de 43 quintilhões"
+      },
+      "existentes": [
+        {
+          "id": "q00905",
+          "pergunta": "O cubo mágico foi inventado pelo húngaro Ernő Rubik, professor de arquitetura. Em que ano ele criou o primeiro protótipo?",
+          "resposta": "1974"
+        },
+        {
+          "id": "q06444",
+          "pergunta": "Em 1974, que professor húngaro de arquitetura inventou o cubo mágico?",
+          "resposta": "Ernő Rubik"
+        },
+        {
+          "id": "q07330",
+          "pergunta": "No cubo mágico com o esquema de cores padrão, que cor fica na face oposta à branca?",
+          "resposta": "Amarelo"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Nos códigos de barras dos supermercados, os produtos registrados no Brasil costumam ter números que começam com qual sequência?",
+        "resposta": "789"
+      },
+      "existentes": [
+        {
+          "id": "q00893",
+          "pergunta": "Norman Woodland teve a ideia do código de barras na areia de uma praia de Miami, esticando para baixo os sinais de outro código. Qual?",
+          "resposta": "Código Morse"
+        },
+        {
+          "id": "q06775",
+          "pergunta": "A primeira compra com leitura de código de barras num caixa de supermercado americano foi um pacote de chiclete, em Ohio. Em que ano?",
+          "resposta": "1974"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Seja do tamanho grande ou do tamanho palito, uma pilha alcalina comum, nova, fornece qual tensão nominal?",
+        "resposta": "1,5 volt"
+      },
+      "existentes": [
+        {
+          "id": "q07321",
+          "pergunta": "A pilha alcalina comum gera energia a partir do zinco e de um composto de qual outro metal?",
+          "resposta": "Manganês"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "No sistema braile, cada letra é formada numa pequena cela com um número fixo de posições para pontos em relevo. Quantas posições?",
+        "resposta": "Seis"
+      },
+      "existentes": [
+        {
+          "id": "q04506",
+          "pergunta": "Em 1824, que jovem francês, cego desde a infância, criou um sistema de leitura e escrita com pontos em relevo?",
+          "resposta": "Louis Braille"
+        },
+        {
+          "id": "q13112",
+          "pergunta": "O braile foi inspirado numa escrita em relevo criada para que soldados pudessem fazer o quê?",
+          "resposta": "Ler mensagens no escuro"
+        },
+        {
+          "id": "q13529",
+          "pergunta": "No braile, cada letra é formada numa pequena célula de pontos em relevo. Quantos pontos tem essa célula?",
+          "resposta": "Seis"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Nas fotos de propaganda, os relógios de ponteiro costumam marcar dez horas e quantos minutos, com os ponteiros abertos como um sorriso?",
+        "resposta": "Dez minutos"
+      },
+      "existentes": [
+        {
+          "id": "q07331",
+          "pergunta": "Em muitos relógios com algarismos romanos, o quatro não aparece como I e V. Como ele costuma ser escrito?",
+          "resposta": "Com quatro letras I"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "No século dezenove, os irmãos Lundström abriram uma fábrica e passaram a produzir em grande escala o fósforo de segurança. Em que país?",
+        "resposta": "Suécia"
+      },
+      "existentes": [
+        {
+          "id": "q03155",
+          "pergunta": "O fósforo de segurança, que só acende riscado na lixa da caixa, foi desenvolvido no século dezenove em que país?",
+          "resposta": "Suécia"
+        },
+        {
+          "id": "q07314",
+          "pergunta": "No fósforo de segurança, o fósforo vermelho que ajuda a produzir a chama não fica na cabeça do palito. Onde ele fica?",
+          "resposta": "Na lixa da caixa"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Que pai fundador dos Estados Unidos costuma receber o crédito por criar, no século dezoito, os óculos bifocais, para ver de perto e de longe?",
+        "resposta": "Benjamin Franklin"
+      },
+      "existentes": [
+        {
+          "id": "q03595",
+          "pergunta": "O para-raios e as lentes bifocais, que ajudam a enxergar de perto e de longe, são atribuídos ao mesmo inventor. Quem?",
+          "resposta": "Benjamin Franklin"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Que pintor surrealista espanhol desenhou, em 1969, o logotipo do pirulito Chupa Chups?",
+        "resposta": "Salvador Dalí"
+      },
+      "existentes": [
+        {
+          "id": "q07044",
+          "pergunta": "Em 1969, qual pintor surrealista espanhol desenhou o logotipo em forma de margarida dos pirulitos Chupa Chups?",
+          "resposta": "Salvador Dalí"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Antes de virar massinha de modelar para crianças, a Play-Doh era vendida nos Estados Unidos com qual função doméstica?",
+        "resposta": "Limpar papel de parede"
+      },
+      "existentes": [
+        {
+          "id": "q03797",
+          "pergunta": "O que a massinha de modelar Play-Doh e o plástico-bolha têm em comum na sua origem?",
+          "resposta": "Nasceram ligados ao papel de parede"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Num supermercado de Ohio, um caixa leu pela primeira vez o código de barras de um produto, um pacote de chiclete. Em que ano?",
+        "resposta": "1974"
+      },
+      "existentes": [
+        {
+          "id": "q00893",
+          "pergunta": "Norman Woodland teve a ideia do código de barras na areia de uma praia de Miami, esticando para baixo os sinais de outro código. Qual?",
+          "resposta": "Código Morse"
+        },
+        {
+          "id": "q06775",
+          "pergunta": "A primeira compra com leitura de código de barras num caixa de supermercado americano foi um pacote de chiclete, em Ohio. Em que ano?",
+          "resposta": "1974"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "O engenheiro americano Ray Tomlinson escolheu a arroba para os endereços ao enviar o primeiro e-mail entre computadores da rede Arpanet. Em que ano?",
+        "resposta": "1971"
+      },
+      "existentes": [
+        {
+          "id": "q00759",
+          "pergunta": "Muito antes do e-mail, arroba já era o nome de uma unidade de medida, usada até hoje na venda de gado. O que ela mede?",
+          "resposta": "Peso"
+        },
+        {
+          "id": "q04517",
+          "pergunta": "Em português, o símbolo dos endereços de e-mail tem o mesmo nome de uma antiga unidade de peso, usada até hoje para pesar gado. Que nome é esse?",
+          "resposta": "Arroba"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "O CD de música começou a ser vendido no Japão, e um dos primeiros títulos foi um disco de Billy Joel. Em que ano?",
+        "resposta": "1982"
+      },
+      "existentes": [
+        {
+          "id": "q06754",
+          "pergunta": "Lançado comercialmente em 1982, o CD foi desenvolvido pela japonesa Sony em parceria com qual empresa holandesa?",
+          "resposta": "Philips"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: galochas de borracha com zipper em 1923.",
+      "id_existente": "q00932"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: calendas eram o primeiro dia do mês.",
+      "id_existente": "q05347"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Etimologia de lapis (pedra) não é perguntada nas existentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: crochet = gancho.",
+      "id_existente": "q00933"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Etimologia da palavra grega (óleo) difere da matéria-prima petróleo."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: tamago = ovo.",
+      "id_existente": "q07402"
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: James Watt e unidade de potência.",
+      "id_existente": "q02984"
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Tesla e o barco de 1898 é fato diferente."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Número de dentes da tampinha é outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Mesma soma das faces opostas do dado.",
+      "id_existente": "q01531"
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Combinações de peças é fato diferente."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Número de combinações é fato diferente."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Prefixo brasileiro 789 é outro fato."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Tensão difere da composição química."
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: seis pontos na célula braile.",
+      "id_existente": "q13529"
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Horário de relógios em propaganda é outro fato."
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: fósforo de segurança desenvolvido na Suécia.",
+      "id_existente": "q03155"
+    },
+    {
+      "caso": 18,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Franklin e lentes bifocais.",
+      "id_existente": "q03595"
+    },
+    {
+      "caso": 19,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Dalí e logotipo Chupa Chups.",
+      "id_existente": "q07044"
+    },
+    {
+      "caso": 20,
+      "decisao": "repete",
+      "motivo": "Quem soubesse que a Play-Doh nasceu ligada ao papel de parede responderia.",
+      "id_existente": "q03797"
+    },
+    {
+      "caso": 21,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: primeira leitura de código de barras em 1974.",
+      "id_existente": "q06775"
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Ano do primeiro e-mail é outro fato."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Ano de venda inicial difere do parceiro de desenvolvimento."
+    }
+  ]
+}

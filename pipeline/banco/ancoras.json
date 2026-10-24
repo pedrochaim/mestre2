@@ -13921,7 +13921,8 @@
     "variantes": [
       "Zipper",
       "Fecho éclair",
-      "Fecho de correr"
+      "Fecho de correr",
+      "Fecho ecler"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Zipper"
@@ -106163,7 +106164,10 @@
       "wikidata": "Q185091",
       "pt": 300,
       "en": 8859
-    }
+    },
+    "variantes": [
+      "Controle remoto"
+    ]
   },
   {
     "id": "garfo",
@@ -154290,7 +154294,9 @@
     "nome": "Vaselina",
     "descricao": "Marca de geleia de petróleo criada pelo químico americano Robert Chesebrough no século dezenove.",
     "variantes": [
-      "Vaseline"
+      "Vaseline",
+      "Petrolato",
+      "Geleia de petróleo"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Vaseline"
@@ -197573,6 +197579,186 @@
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Igreja_Nossa_Senhora_de_F%C3%A1tima"
+    ]
+  },
+  {
+    "id": "bic_empresa",
+    "nome": "BIC (empresa)",
+    "descricao": "Empresa francesa de canetas, isqueiros e lâminas de barbear fundada por Marcel Bich em 1945.",
+    "variantes": [
+      "Société Bic",
+      "Bic"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Société_Bic"
+    ]
+  },
+  {
+    "id": "azulejo",
+    "nome": "Azulejo",
+    "descricao": "Placa cerâmica fina, vidrada e muitas vezes pintada, usada para revestir paredes, tradicional em Portugal e no Brasil.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Azulejo"
+    ]
+  },
+  {
+    "id": "bide",
+    "nome": "Bidê",
+    "descricao": "Peça sanitária baixa, parecida com uma pia, usada para a higiene íntima.",
+    "variantes": [
+      "Bidet"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bidet"
+    ]
+  },
+  {
+    "id": "agenda",
+    "nome": "Agenda",
+    "descricao": "Caderno ou livreto organizado por datas, usado para anotar compromissos e tarefas.",
+    "fontes": [
+      "https://en.wiktionary.org/wiki/agenda"
+    ]
+  },
+  {
+    "id": "camara_escura",
+    "nome": "Câmara escura",
+    "descricao": "Aparelho óptico antigo, uma caixa ou sala escura com um pequeno furo que projeta a imagem invertida do exterior, precursor da câmera fotográfica.",
+    "variantes": [
+      "Camera obscura",
+      "Câmera escura"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Camera_obscura"
+    ]
+  },
+  {
+    "id": "maquina_de_waffle",
+    "nome": "Máquina de waffle",
+    "descricao": "Aparelho de cozinha com duas chapas quadriculadas articuladas, usado para assar waffles.",
+    "variantes": [
+      "Waffle iron",
+      "Waffleira"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Waffle_iron"
+    ]
+  },
+  {
+    "id": "disquete",
+    "nome": "Disquete",
+    "descricao": "Disco magnético flexível, protegido por uma capa plástica, usado para guardar arquivos de computador nas últimas décadas do século vinte.",
+    "variantes": [
+      "Floppy disk",
+      "Disco flexível"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Floppy_disk"
+    ]
+  },
+  {
+    "id": "cerquilha",
+    "nome": "Cerquilha",
+    "descricao": "O símbolo formado por duas linhas horizontais cruzadas por duas oblíquas, usado em teclados, telefones e hashtags.",
+    "variantes": [
+      "Hashtag",
+      "Jogo da velha (símbolo)",
+      "Sustenido"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Cerquilha"
+    ]
+  },
+  {
+    "id": "frederik_philips",
+    "nome": "Frederik Philips",
+    "descricao": "Banqueiro holandês do século dezenove que financiou e cofundou com o filho Gerard a fabricante de lâmpadas Philips, em 1891.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Philips",
+      "https://en.wikipedia.org/wiki/Lion_Philips"
+    ]
+  },
+  {
+    "id": "polegada",
+    "nome": "Polegada",
+    "descricao": "Unidade de comprimento do sistema imperial, usada no Brasil para medir telas, canos e aros de roda.",
+    "variantes": [
+      "Inch"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Inch"
+    ]
+  },
+  {
+    "id": "lata_de_bebida",
+    "nome": "Lata de bebida",
+    "descricao": "Embalagem cilíndrica de alumínio usada para refrigerantes e cervejas.",
+    "variantes": [
+      "Lata de refrigerante",
+      "Lata de alumínio"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Beverage_can"
+    ]
+  },
+  {
+    "id": "garrafa_de_cerveja",
+    "nome": "Garrafa de cerveja",
+    "descricao": "Garrafa de vidro usada para envasar cerveja, geralmente marrom ou verde.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Beer_bottle"
+    ]
+  },
+  {
+    "id": "lei_de_seguranca_das_geladeiras",
+    "nome": "Lei de Segurança das Geladeiras",
+    "descricao": "Lei americana de 1956 que obrigou as geladeiras a poderem ser abertas por dentro, popularizando a vedação magnética da porta.",
+    "variantes": [
+      "Refrigerator Safety Act"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Refrigerator_Safety_Act"
+    ]
+  },
+  {
+    "id": "alianca_de_casamento",
+    "nome": "Aliança de casamento",
+    "descricao": "Anel usado como símbolo do casamento, tradicionalmente no dedo anelar.",
+    "variantes": [
+      "Anel de casamento"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Wedding_ring"
+    ]
+  },
+  {
+    "id": "jazida_de_grafite_de_borrowdale",
+    "nome": "Jazida de grafite de Borrowdale",
+    "descricao": "Grande depósito de grafite puro encontrado no século dezesseis em Borrowdale, no noroeste da Inglaterra, usado nos primeiros lápis.",
+    "variantes": [
+      "Borrowdale"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pencil"
+    ]
+  },
+  {
+    "id": "lapis_com_borracha",
+    "nome": "Lápis com borracha",
+    "descricao": "Lápis com uma borracha presa na extremidade oposta à ponta, patenteado pelo americano Hymen Lipman em 1858.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hymen_Lipman"
+    ]
+  },
+  {
+    "id": "capa_impermeavel_de_fralda",
+    "nome": "Capa impermeável de fralda",
+    "descricao": "Cobertura impermeável para fraldas de pano criada pela americana Marion Donovan nos anos quarenta, precursora da fralda descartável.",
+    "variantes": [
+      "Boater"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Marion_Donovan"
     ]
   }
 ]

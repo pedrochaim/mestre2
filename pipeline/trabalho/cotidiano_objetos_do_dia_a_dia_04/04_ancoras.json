@@ -1,0 +1,967 @@
+{
+  "itens": [
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "BIC (empresa)",
+        "descricao": "Empresa francesa de canetas, isqueiros e lâminas de barbear fundada por Marcel Bich em 1945.",
+        "variantes": [
+          "Société Bic",
+          "Bic"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Société_Bic"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Para evitar problemas em países de língua inglesa, o barão Marcel Bich cortou uma letra do próprio sobrenome ao criar a marca BIC. Qual letra?",
+      "resposta": "H",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Société_Bic",
+        "https://en.wikipedia.org/wiki/Marcel_Bich"
+      ],
+      "ancora": "bic_empresa"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Azulejo",
+        "descricao": "Placa cerâmica fina, vidrada e muitas vezes pintada, usada para revestir paredes, tradicional em Portugal e no Brasil.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Azulejo"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Apesar do som, a palavra azulejo não tem relação com a cor azul. Ela vem de um termo árabe que significava o quê?",
+      "resposta": "Pequena pedra polida",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Azulejo",
+        "https://en.wikipedia.org/wiki/Azulejo"
+      ],
+      "ancora": "azulejo"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Bidê",
+        "descricao": "Peça sanitária baixa, parecida com uma pia, usada para a higiene íntima.",
+        "variantes": [
+          "Bidet"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bidet"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em francês, a palavra bidê nomeava um animal, porque a pessoa se senta na peça como quem monta. Que animal era esse?",
+      "resposta": "Pônei",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bidet"
+      ],
+      "ancora": "bide"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Agenda",
+        "descricao": "Caderno ou livreto organizado por datas, usado para anotar compromissos e tarefas.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wiktionary.org/wiki/agenda"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Vinda do latim, a palavra agenda, que dá nome ao caderno de compromissos, tem qual significado literal?",
+      "resposta": "Coisas que devem ser feitas",
+      "fonte": [
+        "https://www.etymonline.com/word/agenda",
+        "https://en.wiktionary.org/wiki/agenda"
+      ],
+      "ancora": "agenda"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "lapis",
+        "nome": "Lápis",
+        "descricao": "Instrumento de escrita e desenho com miolo sólido de grafite em um revestimento, aqui um lápis preto HB.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Lápis"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em latim, a palavra lapis, que deu origem ao nome do lápis, significava o quê?",
+      "resposta": "Pedra",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Lápis",
+        "https://en.wiktionary.org/wiki/lapis"
+      ],
+      "ancora": "lapis"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Câmara escura",
+        "descricao": "Aparelho óptico antigo, uma caixa ou sala escura com um pequeno furo que projeta a imagem invertida do exterior, precursor da câmera fotográfica.",
+        "variantes": [
+          "Camera obscura",
+          "Câmera escura"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Camera_obscura"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra câmera vem da expressão latina camera obscura, nome de um antigo aparelho de projetar imagens. Em latim, o que era camera?",
+      "resposta": "Quarto (aposento)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Camera_obscura",
+        "https://en.wikipedia.org/wiki/Camera"
+      ],
+      "ancora": "camara_escura"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Vaselina",
+        "descricao": "Gel de petróleo semissólido usado em cosméticos e cuidados com a pele, lançado pelo químico americano Robert Chesebrough no século dezenove.",
+        "variantes": [
+          "Vaseline",
+          "Petrolato",
+          "Geleia de petróleo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Petroleum_jelly"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Segundo a explicação mais aceita, o nome vaselina junta a palavra alemã para água com uma palavra grega. Qual é o sentido dela?",
+      "resposta": "Óleo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Vaselina",
+        "https://en.wikipedia.org/wiki/Petroleum_jelly"
+      ],
+      "ancora": "vaselina"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "controle_remoto_de_televisao",
+        "nome": "Controle remoto de televisão",
+        "descricao": "Aparelho portátil que comanda a televisão a distância, cujo modelo sem fio surgiu nos Estados Unidos.",
+        "variantes": [
+          "Controle remoto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Remote_control"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Décadas antes do controle remoto da televisão, que inventor exibiu em Nova York, em 1898, um barquinho comandado por ondas de rádio?",
+      "resposta": "Nikola Tesla",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Remote_control",
+        "https://en.wikipedia.org/wiki/Nikola_Tesla"
+      ],
+      "ancora": "controle_remoto_de_televisao"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Máquina de waffle",
+        "descricao": "Aparelho de cozinha com duas chapas quadriculadas articuladas, usado para assar waffles.",
+        "variantes": [
+          "Waffle iron",
+          "Waffleira"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Waffle_iron"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "No começo dos anos setenta, Bill Bowerman, cofundador da Nike, criou uma sola de tênis derramando borracha em qual aparelho de cozinha da esposa?",
+      "resposta": "Máquina de waffle",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bill_Bowerman"
+      ],
+      "ancora": "maquina_de_waffle"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Disquete",
+        "descricao": "Disco magnético flexível, protegido por uma capa plástica, usado para guardar arquivos de computador nas últimas décadas do século vinte.",
+        "variantes": [
+          "Floppy disk",
+          "Disco flexível"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Floppy_disk"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em muitos programas de computador, o ícone do botão salvar continua sendo o desenho de qual objeto antigo de guardar arquivos?",
+      "resposta": "Disquete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Floppy_disk"
+      ],
+      "ancora": "disquete"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Cerquilha",
+        "descricao": "O símbolo formado por duas linhas horizontais cruzadas por duas oblíquas, usado em teclados, telefones e hashtags.",
+        "variantes": [
+          "Hashtag",
+          "Jogo da velha (símbolo)",
+          "Sustenido"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cerquilha"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No Brasil, o símbolo usado nas hashtags, chamado de cerquilha, também é conhecido pelo nome de qual brincadeira de papel e lápis?",
+      "resposta": "Jogo da velha",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cerquilha"
+      ],
+      "ancora": "cerquilha"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Frederik Philips",
+        "descricao": "Banqueiro holandês do século dezenove que financiou e cofundou com o filho Gerard a fabricante de lâmpadas Philips, em 1891.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Philips",
+          "https://en.wikipedia.org/wiki/Lion_Philips"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O banqueiro Frederik Philips, que ajudou a fundar a fabricante de lâmpadas Philips em 1891, era primo de qual pensador alemão?",
+      "resposta": "Karl Marx",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Philips",
+        "https://en.wikipedia.org/wiki/Lion_Philips"
+      ],
+      "ancora": "frederik_philips"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "tampinha_de_garrafa",
+        "nome": "Tampinha de garrafa",
+        "descricao": "Tampa metálica de bordas onduladas para garrafas, a crown cork, patenteada por William Painter em 1892.",
+        "variantes": [
+          "Crown cork",
+          "Tampa coroa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Crown_cork"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A tampinha metálica de garrafa, chamada de coroa, tem a borda dobrada em dentinhos. Quantos dentes tem a tampinha padrão?",
+      "resposta": "21",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Crown_cork"
+      ],
+      "distratores": [
+        "16",
+        "18",
+        "28"
+      ],
+      "ancora": "tampinha_de_garrafa"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "lego_2",
+        "nome": "Lego",
+        "descricao": "Marca dinamarquesa de brinquedos de blocos de montar plásticos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lego"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Seis peças de Lego retangulares, do tipo dois por quatro e da mesma cor, podem ser encaixadas de quantas maneiras diferentes?",
+      "resposta": "Cerca de 915 milhões",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lego"
+      ],
+      "distratores": [
+        "Cerca de 9 mil",
+        "Cerca de 900 mil",
+        "Cerca de 90 bilhões"
+      ],
+      "ancora": "lego_2"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "id_existente": "cubo_magico",
+        "nome": "Cubo mágico",
+        "descricao": "Quebra-cabeça tridimensional de faces coloridas giratórias criado pelo húngaro Ernő Rubik.",
+        "variantes": [
+          "Cubo de Rubik"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rubik%27s_Cube"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Girando as faces de um cubo mágico comum, de três por três, é possível chegar a quantas combinações diferentes?",
+      "resposta": "Cerca de 43 quintilhões",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rubik%27s_Cube"
+      ],
+      "distratores": [
+        "Cerca de 43 milhões",
+        "Cerca de 43 bilhões",
+        "Cerca de 43 trilhões"
+      ],
+      "ancora": "cubo_magico"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "codigo_de_barras",
+        "nome": "Código de barras",
+        "descricao": "Representação de dados em barras paralelas lidas por scanners, criada por Norman Joseph Woodland e Bernard Silver.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/List_of_GS1_country_codes"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Nos códigos de barras dos supermercados, os produtos registrados no Brasil costumam ter números que começam com qual sequência?",
+      "resposta": "789",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/List_of_GS1_country_codes"
+      ],
+      "distratores": [
+        "978",
+        "750",
+        "560"
+      ],
+      "ancora": "codigo_de_barras"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "id_existente": "pilha_alcalina",
+        "nome": "Pilha alcalina",
+        "descricao": "Pilha descartável comum, de zinco e dióxido de manganês, usada em controles remotos e brinquedos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alkaline_battery"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Seja do tamanho grande ou do tamanho palito, uma pilha alcalina comum, nova, fornece qual tensão nominal?",
+      "resposta": "1,5 volt",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alkaline_battery"
+      ],
+      "ancora": "pilha_alcalina"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "mostrador_de_relogio",
+        "nome": "Mostrador de relógio",
+        "descricao": "Face do relógio analógico com números ou marcas das horas e ponteiros.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Clock_face"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Nas fotos de propaganda, os relógios de ponteiro costumam marcar dez horas e quantos minutos, com os ponteiros abertos como um sorriso?",
+      "resposta": "Dez minutos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Clock_face"
+      ],
+      "ancora": "mostrador_de_relogio"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Polegada",
+        "descricao": "Unidade de comprimento do sistema imperial, usada no Brasil para medir telas, canos e aros de roda.",
+        "variantes": [
+          "Inch"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Inch"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A polegada, usada para medir telas de televisão e de celular, equivale exatamente a quantos centímetros?",
+      "resposta": "2,54 centímetros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Inch"
+      ],
+      "distratores": [
+        "2 centímetros",
+        "2,45 centímetros",
+        "3 centímetros"
+      ],
+      "ancora": "polegada"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Lata de bebida",
+        "descricao": "Embalagem cilíndrica de alumínio usada para refrigerantes e cervejas.",
+        "variantes": [
+          "Lata de refrigerante",
+          "Lata de alumínio"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Beverage_can"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O fundo das latas de refrigerante é curvado para dentro, como uma cúpula. Que força esse formato ajuda a lata a aguentar?",
+      "resposta": "A pressão do gás",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Beverage_can"
+      ],
+      "ancora": "lata_de_bebida"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Garrafa de cerveja",
+        "descricao": "Garrafa de vidro usada para envasar cerveja, geralmente marrom ou verde.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Beer_bottle"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Muitas garrafas de cerveja são de vidro marrom. Essa cor protege a bebida de quê, evitando que ela pegue um gosto ruim?",
+      "resposta": "Da luz",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Beer_bottle"
+      ],
+      "ancora": "garrafa_de_cerveja"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Lei de Segurança das Geladeiras",
+        "descricao": "Lei americana de 1956 que obrigou as geladeiras a poderem ser abertas por dentro, popularizando a vedação magnética da porta.",
+        "variantes": [
+          "Refrigerator Safety Act"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Refrigerator_Safety_Act"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Uma lei americana de 1956 obrigou as geladeiras a abrir por dentro, e o trinco deu lugar à vedação com ímã. Que tragédia ela queria evitar?",
+      "resposta": "Crianças presas lá dentro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Refrigerator_Safety_Act"
+      ],
+      "ancora": "lei_de_seguranca_das_geladeiras"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Aliança de casamento",
+        "descricao": "Anel usado como símbolo do casamento, tradicionalmente no dedo anelar.",
+        "variantes": [
+          "Anel de casamento"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wedding_ring"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo uma crença antiga, a aliança vai no dedo anelar esquerdo porque dali sairia uma veia ligada direto a qual órgão?",
+      "resposta": "Coração",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wedding_ring",
+        "https://en.wikipedia.org/wiki/Ring_finger"
+      ],
+      "ancora": "alianca_de_casamento"
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Jazida de grafite de Borrowdale",
+        "descricao": "Grande depósito de grafite puro encontrado no século dezesseis em Borrowdale, no noroeste da Inglaterra, usado nos primeiros lápis.",
+        "variantes": [
+          "Borrowdale"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pencil"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "No século dezesseis, achou-se uma enorme jazida de grafite tão puro que podia ser cortado em bastões, usados nos primeiros lápis. Em que país?",
+      "resposta": "Inglaterra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pencil",
+        "https://en.wikipedia.org/wiki/Graphite"
+      ],
+      "ancora": "jazida_de_grafite_de_borrowdale"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Lápis com borracha",
+        "descricao": "Lápis com uma borracha presa na extremidade oposta à ponta, patenteado pelo americano Hymen Lipman em 1858.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hymen_Lipman"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que americano patenteou, em 1858, a ideia de prender uma borracha na ponta do lápis?",
+      "resposta": "Hymen Lipman",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hymen_Lipman",
+        "https://en.wikipedia.org/wiki/Eraser"
+      ],
+      "ancora": "lapis_com_borracha"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Capa impermeável de fralda",
+        "descricao": "Cobertura impermeável para fraldas de pano criada pela americana Marion Donovan nos anos quarenta, precursora da fralda descartável.",
+        "variantes": [
+          "Boater"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Marion_Donovan"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Nos anos quarenta, a americana Marion Donovan fez uma capa impermeável para fraldas de pano costurando um pedaço de qual objeto do banheiro?",
+      "resposta": "Cortina do chuveiro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Marion_Donovan"
+      ],
+      "ancora": "capa_impermeavel_de_fralda"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "id_existente": "arroba_simbolo",
+        "nome": "Arroba (símbolo)",
+        "descricao": "O símbolo @, usado nos endereços de e-mail, chamado de arroba em português e espanhol",
+        "variantes": [
+          "@"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ray_Tomlinson"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O engenheiro americano Ray Tomlinson escolheu a arroba para os endereços ao enviar o primeiro e-mail entre computadores da rede Arpanet. Em que ano?",
+      "resposta": "1971",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ray_Tomlinson",
+        "https://en.wikipedia.org/wiki/At_sign"
+      ],
+      "distratores": [
+        "1965",
+        "1978",
+        "1983"
+      ],
+      "ancora": "arroba_simbolo"
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "nome": "CD",
+        "descricao": "Disco óptico digital para armazenar música e dados, desenvolvido pela Philips e pela Sony.",
+        "variantes": [
+          "Compact disc",
+          "Disco compacto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Compact_disc"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Objetos do Dia a Dia",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O CD de música começou a ser vendido no Japão, e um dos primeiros títulos foi um disco de Billy Joel. Em que ano?",
+      "resposta": "1982",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Compact_disc"
+      ],
+      "distratores": [
+        "1979",
+        "1985",
+        "1988"
+      ],
+      "ancora": "cd"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "bic_empresa",
+      "nome": "BIC (empresa)",
+      "descricao": "Empresa francesa de canetas, isqueiros e lâminas de barbear fundada por Marcel Bich em 1945.",
+      "variantes": [
+        "Société Bic",
+        "Bic"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Société_Bic"
+      ]
+    },
+    {
+      "id": "azulejo",
+      "nome": "Azulejo",
+      "descricao": "Placa cerâmica fina, vidrada e muitas vezes pintada, usada para revestir paredes, tradicional em Portugal e no Brasil.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Azulejo"
+      ]
+    },
+    {
+      "id": "bide",
+      "nome": "Bidê",
+      "descricao": "Peça sanitária baixa, parecida com uma pia, usada para a higiene íntima.",
+      "variantes": [
+        "Bidet"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Bidet"
+      ]
+    },
+    {
+      "id": "agenda",
+      "nome": "Agenda",
+      "descricao": "Caderno ou livreto organizado por datas, usado para anotar compromissos e tarefas.",
+      "fontes": [
+        "https://en.wiktionary.org/wiki/agenda"
+      ]
+    },
+    {
+      "id": "camara_escura",
+      "nome": "Câmara escura",
+      "descricao": "Aparelho óptico antigo, uma caixa ou sala escura com um pequeno furo que projeta a imagem invertida do exterior, precursor da câmera fotográfica.",
+      "variantes": [
+        "Camera obscura",
+        "Câmera escura"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Camera_obscura"
+      ]
+    },
+    {
+      "id": "maquina_de_waffle",
+      "nome": "Máquina de waffle",
+      "descricao": "Aparelho de cozinha com duas chapas quadriculadas articuladas, usado para assar waffles.",
+      "variantes": [
+        "Waffle iron",
+        "Waffleira"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Waffle_iron"
+      ]
+    },
+    {
+      "id": "disquete",
+      "nome": "Disquete",
+      "descricao": "Disco magnético flexível, protegido por uma capa plástica, usado para guardar arquivos de computador nas últimas décadas do século vinte.",
+      "variantes": [
+        "Floppy disk",
+        "Disco flexível"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Floppy_disk"
+      ]
+    },
+    {
+      "id": "cerquilha",
+      "nome": "Cerquilha",
+      "descricao": "O símbolo formado por duas linhas horizontais cruzadas por duas oblíquas, usado em teclados, telefones e hashtags.",
+      "variantes": [
+        "Hashtag",
+        "Jogo da velha (símbolo)",
+        "Sustenido"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Cerquilha"
+      ]
+    },
+    {
+      "id": "frederik_philips",
+      "nome": "Frederik Philips",
+      "descricao": "Banqueiro holandês do século dezenove que financiou e cofundou com o filho Gerard a fabricante de lâmpadas Philips, em 1891.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Philips",
+        "https://en.wikipedia.org/wiki/Lion_Philips"
+      ]
+    },
+    {
+      "id": "polegada",
+      "nome": "Polegada",
+      "descricao": "Unidade de comprimento do sistema imperial, usada no Brasil para medir telas, canos e aros de roda.",
+      "variantes": [
+        "Inch"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Inch"
+      ]
+    },
+    {
+      "id": "lata_de_bebida",
+      "nome": "Lata de bebida",
+      "descricao": "Embalagem cilíndrica de alumínio usada para refrigerantes e cervejas.",
+      "variantes": [
+        "Lata de refrigerante",
+        "Lata de alumínio"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Beverage_can"
+      ]
+    },
+    {
+      "id": "garrafa_de_cerveja",
+      "nome": "Garrafa de cerveja",
+      "descricao": "Garrafa de vidro usada para envasar cerveja, geralmente marrom ou verde.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Beer_bottle"
+      ]
+    },
+    {
+      "id": "lei_de_seguranca_das_geladeiras",
+      "nome": "Lei de Segurança das Geladeiras",
+      "descricao": "Lei americana de 1956 que obrigou as geladeiras a poderem ser abertas por dentro, popularizando a vedação magnética da porta.",
+      "variantes": [
+        "Refrigerator Safety Act"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Refrigerator_Safety_Act"
+      ]
+    },
+    {
+      "id": "alianca_de_casamento",
+      "nome": "Aliança de casamento",
+      "descricao": "Anel usado como símbolo do casamento, tradicionalmente no dedo anelar.",
+      "variantes": [
+        "Anel de casamento"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Wedding_ring"
+      ]
+    },
+    {
+      "id": "jazida_de_grafite_de_borrowdale",
+      "nome": "Jazida de grafite de Borrowdale",
+      "descricao": "Grande depósito de grafite puro encontrado no século dezesseis em Borrowdale, no noroeste da Inglaterra, usado nos primeiros lápis.",
+      "variantes": [
+        "Borrowdale"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Pencil"
+      ]
+    },
+    {
+      "id": "lapis_com_borracha",
+      "nome": "Lápis com borracha",
+      "descricao": "Lápis com uma borracha presa na extremidade oposta à ponta, patenteado pelo americano Hymen Lipman em 1858.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Hymen_Lipman"
+      ]
+    },
+    {
+      "id": "capa_impermeavel_de_fralda",
+      "nome": "Capa impermeável de fralda",
+      "descricao": "Cobertura impermeável para fraldas de pano criada pela americana Marion Donovan nos anos quarenta, precursora da fralda descartável.",
+      "variantes": [
+        "Boater"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Marion_Donovan"
+      ]
+    }
+  ],
+  "variantes": {
+    "lapis": [
+      "Lápis"
+    ],
+    "velcro": [
+      "Velcro"
+    ],
+    "tamagotchi": [
+      "Tamagotchi"
+    ],
+    "controle_remoto_de_televisao": [
+      "Controle remoto de televisão",
+      "Controle remoto"
+    ],
+    "tampinha_de_garrafa": [
+      "Tampinha de garrafa",
+      "Crown cork",
+      "Tampa coroa"
+    ],
+    "lego_2": [
+      "Lego"
+    ],
+    "cubo_magico": [
+      "Cubo mágico",
+      "Cubo de Rubik"
+    ],
+    "codigo_de_barras": [
+      "Código de barras"
+    ],
+    "pilha_alcalina": [
+      "Pilha alcalina"
+    ],
+    "braille": [
+      "Braille",
+      "Braile"
+    ],
+    "mostrador_de_relogio": [
+      "Mostrador de relógio"
+    ],
+    "fosforo_de_seguranca": [
+      "Fósforo de segurança",
+      "Safety match"
+    ],
+    "arroba_simbolo": [
+      "Arroba (símbolo)",
+      "@"
+    ],
+    "ziper": [
+      "Zíper",
+      "Fecho ecler",
+      "Fecho de correr",
+      "Zipper"
+    ],
+    "calendas": [
+      "Calendas",
+      "Kalendae",
+      "Calends"
+    ],
+    "vaselina": [
+      "Vaselina",
+      "Vaseline",
+      "Petrolato",
+      "Geleia de petróleo"
+    ],
+    "watt": [
+      "Watt",
+      "W"
+    ],
+    "dado": [
+      "Dado",
+      "Dado de seis faces"
+    ],
+    "oculos_bifocais": [
+      "Lentes bifocais",
+      "Óculos bifocais",
+      "Bifocais"
+    ],
+    "chupa_chups": [
+      "Chupa Chups"
+    ],
+    "play_doh": [
+      "Play-Doh"
+    ],
+    "cd": [
+      "CD",
+      "Compact disc",
+      "Disco compacto"
+    ]
+  }
+}
