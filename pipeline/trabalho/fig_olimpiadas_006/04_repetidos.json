@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este jogador de basquete ganhou a primeira medalha de ouro olímpica pela seleção dos Estados Unidos em que edição dos Jogos?",
+        "resposta": "Pequim 2008"
+      },
+      "existentes": [
+        {
+          "id": "q04205",
+          "pergunta": "Quem é este astro do basquete?",
+          "resposta": "LeBron James"
+        },
+        {
+          "id": "q08056",
+          "pergunta": "Em que ano LeBron James ultrapassou Kareem Abdul-Jabbar e se tornou o maior cestinha da história da NBA?",
+          "resposta": "2023"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta trata da edição olímpica da primeira medalha de ouro; as existentes tratam da identidade do jogador e do recorde de pontos na NBA. São fatos diferentes."
+    }
+  ]
+}

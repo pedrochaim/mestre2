@@ -1,0 +1,119 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Jovens ciclistas anônimos em primeiro plano (pessoas comuns), com patrocinadores nas camisas; a imagem não identifica uma entidade específica de forma única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Figura pública, ginasta soviética com medalha; pergunta de múltipla escolha com ginastas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ginasta soviética, famosa nos Jogos de 1972, aparece nesta foto?",
+      "resposta": "Olga Korbut",
+      "distratores": [
+        "Nadia Comaneci",
+        "Larisa Latynina",
+        "Ludmilla Tourischeva"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Olga Korbut",
+        "descricao": "Ginasta soviética nascida na Bielorrússia, estrela dos Jogos Olímpicos de 1972, apelidada de Pardal de Minsk.",
+        "variantes": [
+          "Olga Valentinovna Korbut"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Largada de natação em lago com roupas de neoprene, típica de triatlo; não é claramente maratona aquática olímpica, resposta ambígua, e há pessoas comuns."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Figura pública, nadador brasileiro em competição; texto visível (arena, Yakult, ina) não revela o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que nadador brasileiro, especialista em provas de velocidade, aparece nesta foto?",
+      "resposta": "Bruno Fratus",
+      "distratores": [
+        "César Cielo",
+        "Nicholas Santos",
+        "Gabriel Santos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bruno Fratus",
+        "descricao": "Nadador brasileiro, bronze nos 50 metros livre nos Jogos Olímpicos de Tóquio.",
+        "variantes": [
+          "Bruno Giuseppe Fratus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Retrato de estúdio sem contexto de patinação; a pessoa não é reconhecível de forma justa pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Figura pública claramente reconhecível; camisa Lakers não traz o nome. Pergunta vai além do reconhecimento.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este jogador de basquete ganhou a primeira medalha de ouro olímpica pela seleção dos Estados Unidos em que edição dos Jogos?",
+      "resposta": "Pequim 2008",
+      "distratores": [
+        "Atenas 2004",
+        "Londres 2012",
+        "Rio 2016"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "LeBron James",
+        "descricao": "Jogador de basquete americano da NBA, tricampeão olímpico pela seleção dos Estados Unidos.",
+        "variantes": [
+          "LeBron Raymone James",
+          "King James"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Faixas e placas visíveis na arquibancada trazem o nome Botafogo, entregando o estádio."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto de pessoa em ambiente com texto visível (US Speed Skating, Utah Olympic Oval) e sem contexto que permita reconhecê-lo; texto entrega e pessoa não reconhecível."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A imagem é o retrato de uma pessoa com coroa de louros; o assunto principal é o retratado, não a coroa, gerando ambiguidade."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Atletas anônimos em primeiro plano, texto de fundo, e a imagem não distingue com segurança luta greco-romana de luta livre."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Homem sentado numa poltrona sem nenhuma pista visual; não reconhecível pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Atletas anônimos em primeiro plano e imagem que não distingue com segurança luta livre de greco-romana."
+    }
+  ]
+}

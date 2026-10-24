@@ -1,0 +1,33 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado 'ginasta soviética famosa nos Jogos de 1972' quase entrega Olga Korbut sem a foto. Além disso, Tourischeva, um dos distratores, também foi ginasta soviética em 1972 (campeã do individual geral), então o enunciado deixava a resposta ambígua. Reescrita: pista só de país, sem época, e distratores soviéticos que a foto distingue.",
+      "reescrita": {
+        "pergunta": "Que ginasta da União Soviética aparece nesta foto?",
+        "resposta": "Olga Korbut",
+        "distratores": [
+          "Ludmilla Tourischeva",
+          "Larisa Latynina",
+          "Nellie Kim"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista (brasileiro, velocista) ajuda sem entregar, pois vários nadadores brasileiros de velocidade existem. Os distratores são do mesmo tipo e plausíveis, e nenhum deles é o da foto. Está curta e boa para voz.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 3: depois de reconhecer LeBron, pede a edição da primeira medalha de ouro. O ouro de 2008 em Pequim está nos trechos, e ele teve bronze em 2004, então a pergunta está precisa. O enunciado não nomeia o jogador. Os distratores são edições olímpicas no mesmo formato e nenhum é a primeira medalha de ouro dele.",
+      "reescrita": null
+    }
+  ]
+}

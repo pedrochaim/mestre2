@@ -1,0 +1,175 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Olga Korbut",
+        "descricao": "Ginasta soviética nascida na Bielorrússia, estrela dos Jogos Olímpicos de 1972, apelidada de Pardal de Minsk.",
+        "variantes": [
+          "Olga Valentinovna Korbut"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "poa",
+          "nome": "Poá",
+          "descricao": "Estampa de círculos cheios do mesmo tamanho, espaçados regularmente.",
+          "variantes": [
+            "Bolinhas",
+            "Polka dot"
+          ]
+        },
+        {
+          "id": "gola_rule",
+          "nome": "Gola rulê",
+          "descricao": "Gola alta e justa que se dobra e cobre o pescoço, comum em suéteres.",
+          "variantes": [
+            "Gola alta",
+            "Gola olímpica",
+            "Turtleneck",
+            "Polo neck"
+          ]
+        },
+        {
+          "id": "alga_nori",
+          "nome": "Alga nori",
+          "descricao": "Alga vermelha seca em folhas finas, usada na culinária japonesa para enrolar sushi.",
+          "variantes": [
+            "Nori",
+            "Pyropia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bruno Fratus",
+        "descricao": "Nadador brasileiro, bronze nos 50 metros livre nos Jogos Olímpicos de Tóquio.",
+        "variantes": [
+          "Bruno Giuseppe Fratus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nosferatu",
+          "nome": "Nosferatu",
+          "descricao": "Filme expressionista alemão de terror de 1922, dirigido por F. W. Murnau, com o vampiro Conde Orlok.",
+          "variantes": [
+            "Nosferatu, uma Sinfonia do Horror"
+          ]
+        },
+        {
+          "id": "rio_eufrates",
+          "nome": "Rio Eufrates",
+          "descricao": "Rio do Oriente Médio que nasce na Turquia e, com o Tigre, delimita a Mesopotâmia.",
+          "variantes": [
+            "Eufrates",
+            "Euphrates"
+          ]
+        },
+        {
+          "id": "bruno_soares",
+          "nome": "Bruno Soares",
+          "descricao": "Ex-tenista brasileiro especialista em duplas, campeão de seis torneios de Grand Slam.",
+          "variantes": []
+        },
+        {
+          "id": "burkina_faso",
+          "nome": "Burkina Faso",
+          "descricao": "País da África Ocidental, chamado Alto Volta até 1984.",
+          "variantes": [
+            "Burquina Faso",
+            "Alto Volta"
+          ]
+        },
+        {
+          "id": "bunraku",
+          "nome": "Bunraku",
+          "descricao": "Teatro tradicional japonês de grandes bonecos, acompanhado por um narrador e pelo alaúde shamisen.",
+          "variantes": [
+            "Ningyō jōruri"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "LeBron James",
+        "descricao": "Jogador de basquete americano da NBA, tricampeão olímpico pela seleção dos Estados Unidos.",
+        "variantes": [
+          "LeBron Raymone James",
+          "King James"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lebron_james",
+          "nome": "LeBron James",
+          "descricao": "Astro americano do basquete da NBA, conhecido como King James.",
+          "variantes": [
+            "King James",
+            "LeBron"
+          ]
+        },
+        {
+          "id": "nomes_akan",
+          "nome": "Nomes akan",
+          "descricao": "Sistema tradicional de nomes do povo akan, de Gana, em que o nome indica o dia da semana do nascimento.",
+          "variantes": [
+            "Akan names",
+            "Nomes do dia akan"
+          ]
+        },
+        {
+          "id": "lionel_messi",
+          "nome": "Lionel Messi",
+          "descricao": "Atacante argentino ídolo do Barcelona, campeão mundial com a Argentina em 2022.",
+          "variantes": [
+            "Leo Messi",
+            "Lionel Andrés Messi",
+            "Messi"
+          ]
+        },
+        {
+          "id": "james_equipe_rocket",
+          "nome": "James (Equipe Rocket)",
+          "descricao": "Integrante da Equipe Rocket no anime Pokémon, parceiro de Jessie e Meowth, chamado Kojiro no Japão.",
+          "variantes": [
+            "Kojiro",
+            "Kojirō",
+            "James"
+          ]
+        },
+        {
+          "id": "cobra_fumando",
+          "nome": "Cobra Fumando",
+          "descricao": "Emblema da Força Expedicionária Brasileira, que mostra uma cobra fumando, usado no distintivo dos pracinhas.",
+          "variantes": [
+            "A cobra vai fumar",
+            "Smoking Snakes"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a ginasta Olga Korbut."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o nadador Bruno Fratus; Bruno Soares é outro atleta."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "lebron_james",
+      "motivo": "Mesmo jogador de basquete da NBA, LeBron James, com a mesma variante King James."
+    }
+  ]
+}
