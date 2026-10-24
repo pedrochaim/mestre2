@@ -1,0 +1,72 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto sem vazamento. Os trechos confirmam que Deimos é uma lua de Marte. Fobos é um distrator crível, e Amalteia e Nereida são luas de outros planetas.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta diz 'americano', então Sputnik 1 (soviético) é eliminado só pelo enunciado e não funciona como distrator. Troquei por outro satélite americano.",
+      "reescrita": {
+        "pergunta": "Que satélite americano, lançado em 1958, é este?",
+        "resposta": "Explorer 1",
+        "distratores": [
+          "Vanguard 1",
+          "Telstar 1",
+          "Echo 1"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'feito de anéis' descreve a própria resposta ('armilar' vem de armila, anel) e entrega pelo enunciado. Removi essa pista.",
+      "reescrita": {
+        "pergunta": "Que instrumento antigo, usado na astronomia e na navegação, é este?",
+        "resposta": "Esfera armilar"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o Telescópio Lovell fica no Observatório Jodrell Bank, na Inglaterra. O enunciado não nomeia a resposta e a figura é necessária para o reconhecimento.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o Mercury foi o programa tripulado americano de 1958 a 1963. Os distratores são programas americanos do mesmo tipo, e nenhum deles é correto para a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho informa que a Galáxia do Triângulo também é chamada de Pinwheel Galaxy (Cata-Vento), então esse distrator é ambíguo. Troquei por outra espécie de galáxia espiral.",
+      "reescrita": {
+        "pergunta": "Que galáxia espiral, vista de frente na Ursa Maior, é esta?",
+        "resposta": "Galáxia do Cata-Vento",
+        "distratores": [
+          "Galáxia do Redemoinho",
+          "Galáxia do Girassol",
+          "Galáxia de Andrômeda"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Cassiopeia A é um remanescente de supernova. O enunciado não vaza a resposta, e os distratores são outros tipos de objeto, nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}

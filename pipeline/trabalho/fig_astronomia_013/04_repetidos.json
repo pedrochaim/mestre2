@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento antigo, usado na astronomia e na navegação, é este?",
+        "resposta": "Esfera armilar"
+      },
+      "existentes": [
+        {
+          "id": "q04997",
+          "pergunta": "Que instrumento astronômico, comum antes do telescópio, é este?",
+          "resposta": "Esfera armilar"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do mesmo objeto (esfera armilar) a partir de uma imagem, com a mesma resposta.",
+      "id_existente": "q04997"
+    }
+  ]
+}

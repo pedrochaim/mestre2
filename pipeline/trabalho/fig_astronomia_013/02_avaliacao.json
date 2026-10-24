@@ -1,0 +1,187 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Gravura em preto e branco de um retrato pouco difundido; o rosto não é reconhecível com segurança pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A torre traz a palavra 'ariane' e o foguete traz 'esa' e 'arianespace', o que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida de Deimos, de forma e superfície lisa características. Múltipla escolha com outras luas de formato irregular.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lua é esta?",
+      "resposta": "Deimos",
+      "distratores": [
+        "Fobos",
+        "Amalteia",
+        "Nereida"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Deimos",
+        "descricao": "A menor e mais externa das duas luas naturais de Marte.",
+        "variantes": [
+          "Deimos (satélite)"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Há técnicos de macacão em primeiro plano, e o rover Spirit é visualmente idêntico ao gêmeo Opportunity, então a resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem limpa do satélite junto ao último estágio do foguete, de aparência característica. Em múltipla escolha, com satélites da mesma época.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que satélite americano é este?",
+      "resposta": "Explorer 1",
+      "distratores": [
+        "Vanguard 1",
+        "Sputnik 1",
+        "Telstar 1"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Explorer 1",
+        "descricao": "Primeiro satélite artificial lançado pelos Estados Unidos, em 1958, que detectou o cinturão de radiação de Van Allen.",
+        "variantes": [
+          "Explorer I"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto amadora de um campo de estrelas dentro de um círculo; a nebulosa mal se distingue e não é reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Gravura antiga clara de uma esfera armilar. Os rótulos em francês (zênite, meridiano, polo) não citam o nome do instrumento.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento astronômico antigo, feito de anéis, é este?",
+      "resposta": "Esfera armilar",
+      "destino": 0,
+      "ancora": {
+        "nome": "Esfera armilar",
+        "descricao": "Modelo da esfera celeste formado por anéis metálicos que representam círculos como o equador e a eclíptica.",
+        "variantes": [
+          "Armila",
+          "Astrolábio esférico"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida e bem característica do radiotelescópio, sem texto. A pergunta vai além do nome, para o observatório.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que observatório britânico fica este radiotelescópio?",
+      "resposta": "Jodrell Bank",
+      "destino": 0,
+      "ancora": {
+        "nome": "Telescópio Lovell",
+        "descricao": "Radiotelescópio de 76 metros de diâmetro em Jodrell Bank, na Inglaterra, concluído em 1957.",
+        "variantes": [
+          "Lovell Telescope",
+          "Mark I",
+          "Radiotelescópio de Jodrell Bank"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto histórica de lançamento de um foguete Mercury-Redstone, sem texto que revele o programa (só 'UNITED' parcial). Em múltipla escolha, com programas espaciais americanos.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta decolagem pertence a qual programa espacial americano?",
+      "resposta": "Projeto Mercury",
+      "distratores": [
+        "Projeto Gemini",
+        "Programa Apollo",
+        "Programa Skylab"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Projeto Mercury",
+        "descricao": "Primeiro programa espacial tripulado dos Estados Unidos, entre 1958 e 1963.",
+        "variantes": [
+          "Programa Mercury",
+          "Mercury"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Famosa imagem do Hubble, em espiral vista de frente e sem texto. Múltipla escolha com outras galáxias espirais parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que galáxia espiral é esta?",
+      "resposta": "Galáxia do Cata-Vento",
+      "distratores": [
+        "Galáxia do Redemoinho",
+        "Galáxia do Triângulo",
+        "Galáxia de Andrômeda"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Galáxia do Cata-Vento (M101)",
+        "descricao": "Galáxia espiral vista de frente, na constelação da Ursa Maior, a cerca de 21 milhões de anos-luz da Terra.",
+        "variantes": [
+          "Messier 101",
+          "M101",
+          "NGC 5457",
+          "Pinwheel Galaxy"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Imagem do Hubble, sem texto, com filamentos em casca característicos. A pergunta é pelo tipo de objeto, em múltipla escolha com tipos parecidos.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de objeto celeste é este?",
+      "resposta": "Remanescente de supernova",
+      "distratores": [
+        "Nebulosa planetária",
+        "Aglomerado globular",
+        "Nebulosa escura"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cassiopeia A",
+        "descricao": "Remanescente de supernova na constelação de Cassiopeia, a cerca de 11 mil anos-luz, e a fonte de rádio extrasolar mais brilhante do céu.",
+        "variantes": [
+          "Cas A"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A palavra 'Endeavour' está escrita na asa e 'NASA' aparece no logotipo, o que entrega a resposta."
+    }
+  ]
+}
