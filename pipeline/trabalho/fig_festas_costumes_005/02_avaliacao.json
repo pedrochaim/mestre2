@@ -1,0 +1,180 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Traje claramente visível, com babados e mantón; foto de moda do traje típico, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que região da Espanha é este traje típico, usado em suas feiras populares?",
+      "resposta": "Andaluzia",
+      "distratores": [
+        "Galícia",
+        "Catalunha",
+        "Castela"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Traje de flamenca",
+        "descricao": "Vestido de babados usado pelas mulheres nas feiras da Andaluzia, na Espanha.",
+        "variantes": [
+          "Traje de gitana",
+          "Vestido de flamenca"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Crianças comuns em ambiente doméstico em primeiro plano; não são figuras públicas nem participantes de festa pública."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Retrato em close de uma pessoa comum; não é figura pública nem festa pública."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Grupo de músicos em apresentação pública, com trompetes, violão e trajes de charro; reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é originário este tipo de grupo musical?",
+      "resposta": "México",
+      "destino": 0,
+      "ancora": {
+        "nome": "Mariachi",
+        "descricao": "Conjunto musical tradicional mexicano com violinos, trompetes, violão, vihuela e guitarrón, em trajes de charro.",
+        "variantes": [
+          "Mariachis"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Par de alpargatas bem visível, fundo limpo, sem texto; múltipla com calçados parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que calçado é este?",
+      "resposta": "Alpargata",
+      "distratores": [
+        "Mocassim",
+        "Sapatilha",
+        "Tamanco"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Alpargata (espadrille)",
+        "descricao": "Calçado leve de lona com sola de corda de esparto, típico do sul da Europa.",
+        "variantes": [
+          "Espadrille",
+          "Alpercata"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ema nítida, com galo e torii; texto em japonês não entrega a resposta ao público do jogo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Antigamente, que animal vivo era doado aos santuários, dando origem a estas placas de madeira?",
+      "resposta": "Cavalo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ema (placa votiva xintoísta)",
+        "descricao": "Pequena placa de madeira em que fiéis japoneses escrevem pedidos e a deixam pendurada em santuários.",
+        "variantes": [
+          "Ema",
+          "Placas votivas japonesas"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "É uma pintura de retrato; o colar (lei) é só uma faixa de penas vermelhas no cabelo, a entidade não aparece com clareza e a resposta não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bandeiras coloridas em varal diante de montanhas, bem legíveis; o texto tibetano não entrega a resposta.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cadeia de montanhas é tradicional pendurar estas bandeiras?",
+      "resposta": "Himalaia",
+      "distratores": [
+        "Andes",
+        "Alpes",
+        "Cáucaso"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeiras de oração tibetanas",
+        "descricao": "Tecidos retangulares coloridos com textos sagrados, pendurados em cordas nas montanhas do Himalaia.",
+        "variantes": [
+          "Bandeiras de oração",
+          "Lung ta"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Devotos em festa pública diante de templo hindu, com kavadi e pote de leite; reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que festival hindu é este?",
+      "resposta": "Thaipusam",
+      "distratores": [
+        "Diwali",
+        "Holi",
+        "Pongal"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Thaipusam",
+        "descricao": "Festival hindu tâmil em honra ao deus Murugan, com devotos que carregam kavadi e potes de leite.",
+        "variantes": [
+          "Thaipoosam"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cadeados pendurados num cabo, com coração vermelho em destaque; sem texto legível e sem pessoas.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em muitas pontes, o que se faz com a chave de cadeados como estes, depois de trancá-los?",
+      "resposta": "Joga-se fora, em geral num rio",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cadeados do amor",
+        "descricao": "Cadeados que casais prendem em pontes e outros locais públicos para simbolizar o amor.",
+        "variantes": [
+          "Love locks",
+          "Cadeados de amor"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Retrato em close de uma mulher comum; não é figura pública nem festa pública."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A imagem mostra um carro alegórico com figurantes, sem laranjas nem a batalha; não permite reconhecer o Carnaval de Ivrea e poderia ser outro desfile."
+    }
+  ]
+}
