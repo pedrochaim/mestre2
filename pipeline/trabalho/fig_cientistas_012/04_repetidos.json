@@ -1,0 +1,35 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que filósofo e matemático grego da Antiguidade é retratado neste busto?",
+        "resposta": "Pitágoras"
+      },
+      "existentes": [
+        {
+          "id": "q03237",
+          "pergunta": "Em que cidade da Magna Grécia, no sul da atual Itália, Pitágoras fundou sua comunidade de seguidores?",
+          "resposta": "Crotona"
+        },
+        {
+          "id": "q03332",
+          "pergunta": "Entre os gregos Pitágoras, Euclides e Arquimedes, qual nasceu primeiro?",
+          "resposta": "Pitágoras"
+        },
+        {
+          "id": "q03745",
+          "pergunta": "Segundo uma lenda, Pitágoras foi alcançado pelos inimigos porque se recusou a atravessar uma plantação de quê?",
+          "resposta": "Favas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede identificar Pitágoras a partir de um busto; as existentes tratam de Crotona, ordem cronológica entre gregos e a lenda das favas. São fatos diferentes."
+    }
+  ]
+}

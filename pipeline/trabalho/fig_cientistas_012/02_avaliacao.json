@@ -1,0 +1,210 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Busto de mármore sem texto, turbante e barba característicos, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que filósofo e matemático grego da Antiguidade é retratado neste busto?",
+      "resposta": "Pitágoras",
+      "distratores": [
+        "Euclides",
+        "Arquimedes",
+        "Tales de Mileto"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Pitágoras",
+        "descricao": "Filósofo e matemático grego de Samos, do século seis antes de Cristo, fundador do pitagorismo.",
+        "variantes": [
+          "Pitágoras de Samos"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico limpo, sem texto; modelo de DNA ao fundo não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este biólogo molecular britânico?",
+      "resposta": "Francis Crick",
+      "distratores": [
+        "James Watson",
+        "Maurice Wilkins",
+        "Frederick Sanger"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Francis Crick",
+        "descricao": "Biólogo molecular britânico, co-descobridor da estrutura helicoidal do DNA e Nobel de 1962.",
+        "variantes": [
+          "Francis Harry Compton Crick"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Pintura de época sem texto legível, retrato claro.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este matemático, retratado neste quadro?",
+      "resposta": "John Napier",
+      "distratores": [
+        "Johannes Kepler",
+        "Galileu Galilei",
+        "François Viète"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "John Napier",
+        "descricao": "Matemático escocês do século dezesseis e dezessete, descobridor dos logaritmos.",
+        "variantes": [
+          "John Neper",
+          "Napier de Merchiston"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A foto mostra um só irmão (Orville), enquanto o item é 'Irmãos Wright'; a resposta não seria única nem reconhecível."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A assinatura 'Joseph Lister' está visível na parte inferior da foto e entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A gravura traz o texto 'Andreae Vesalii' no topo e a data e a idade na base, entregando a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato a óleo de corpo inteiro, sem texto que entregue o nome; traje oficial e globo característicos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este cientista francês, retratado em traje oficial neste quadro?",
+      "resposta": "Pierre-Simon Laplace",
+      "distratores": [
+        "Joseph Fourier",
+        "Adrien-Marie Legendre",
+        "Antoine Lavoisier"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Pierre-Simon Laplace",
+        "descricao": "Matemático, astrônomo e físico francês autor da Mecânica Celeste e da equação de Laplace.",
+        "variantes": [
+          "Marquês de Laplace",
+          "Pierre-Simon de Laplace"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto casual, de baixa resolução, em que o cientista não é reconhecível pela imagem e que não se lê bem num celular."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta bióloga marinha e escritora americana?",
+      "resposta": "Rachel Carson",
+      "distratores": [
+        "Jane Goodall",
+        "Lynn Margulis",
+        "Barbara McClintock"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Rachel Carson",
+        "descricao": "Bióloga marinha e escritora americana, autora de Primavera Silenciosa, pioneira do movimento ambientalista.",
+        "variantes": [
+          "Rachel Louise Carson"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico de perfil, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este geneticista americano?",
+      "resposta": "Thomas Hunt Morgan",
+      "distratores": [
+        "Hermann Muller",
+        "George Beadle",
+        "Theodosius Dobzhansky"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Thomas Hunt Morgan",
+        "descricao": "Geneticista americano, Nobel de 1933, que demonstrou que os genes ficam nos cromossomos usando a mosca-das-frutas.",
+        "variantes": [
+          "T. H. Morgan"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pintura de retrato sem texto, nítida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este físico e matemático italiano do século dezessete, retratado neste quadro?",
+      "resposta": "Evangelista Torricelli",
+      "distratores": [
+        "Vincenzo Viviani",
+        "Giovanni Borelli",
+        "Galileu Galilei"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Evangelista Torricelli",
+        "descricao": "Físico e matemático italiano do século dezessete, inventor do barômetro.",
+        "variantes": [
+          "Torricelli"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico antigo, sem texto, nítido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este físico, um dos fundadores da mecânica quântica?",
+      "resposta": "Paul Dirac",
+      "distratores": [
+        "Werner Heisenberg",
+        "Erwin Schrödinger",
+        "Wolfgang Pauli"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Paul Dirac",
+        "descricao": "Físico teórico britânico, Nobel de 1933, fundador da mecânica quântica e da eletrodinâmica quântica.",
+        "variantes": [
+          "Paul Adrien Maurice Dirac"
+        ]
+      }
+    }
+  ]
+}

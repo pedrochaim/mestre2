@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Descrição confere com os trechos; o enunciado não vaza e a figura resolve entre os distratores.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Britânico e biólogo molecular confirmados; os distratores não são britânicos biólogos moleculares, e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Matemático escocês confirmado; o enunciado não vaza nada e os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Em traje oficial' não está em mostra nem nos trechos, então não dá para garantir que seja literalmente verdadeiro para esta imagem. Removido.",
+      "reescrita": {
+        "pergunta": "Quem é este cientista francês, retratado neste quadro?",
+        "resposta": "Pierre-Simon Laplace",
+        "distratores": [
+          "Joseph Fourier",
+          "Adrien-Marie Legendre",
+          "Antoine Lavoisier"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bióloga marinha e escritora americana confirmado; os distratores são de perfil diferente e a figura resolve.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Geneticista americano confirmado; sem vazamento; distratores plausíveis e do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Físico e matemático italiano do século dezessete confirmado; distratores italianos do mesmo período.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Heisenberg, Schrödinger e Pauli também são fundadores da mecânica quântica, então os distratores também seriam corretos para o enunciado. Troquei por pista que distingue (inglês, teórico) e distratores ingleses plausíveis.",
+      "reescrita": {
+        "pergunta": "Quem é este físico teórico inglês?",
+        "resposta": "Paul Dirac",
+        "distratores": [
+          "Nevill Mott",
+          "Fred Hoyle",
+          "Peter Higgs"
+        ]
+      }
+    }
+  ]
+}
