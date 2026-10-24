@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que inseto, visto bem de perto, é este?",
+        "resposta": "Pulga"
+      },
+      "existentes": [
+        {
+          "id": "q15181",
+          "pergunta": "De que se alimentam os adultos deste inseto?",
+          "resposta": "Sangue"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede a identificação do inseto (pulga) pela imagem; a outra pergunta de que os adultos se alimentam (sangue). São fatos diferentes."
+    }
+  ]
+}

@@ -290082,5 +290082,145 @@
       "licenca": "CC BY 3.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q15320",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "polegar",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Este dedo da mão corresponde a qual dedo do pé?",
+    "resposta": "Hálux (dedão do pé)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thumb",
+      "https://pt.wikipedia.org/wiki/Polegar"
+    ],
+    "imagem": {
+      "arquivo": "q15320.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Thumbup.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15321",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "musculo_latissimo_do_dorso",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que músculo do tronco aparece em vermelho nesta figura?",
+    "resposta": "Latíssimo do dorso",
+    "distratores": [
+      "Trapézio",
+      "Peitoral maior",
+      "Serrátil anterior"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Latissimus_dorsi_muscle",
+      "https://pt.wikipedia.org/wiki/M%C3%BAsculo_grande_dorsal"
+    ],
+    "imagem": {
+      "arquivo": "q15321.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Latissimus_dorsi_muscle_animation.gif",
+      "autor": "Anatomography",
+      "licenca": "CC BY-SA 2.1 jp"
+    }
+  },
+  {
+    "id": "q15322",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "fuso_mitotico",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Na célula em divisão desta imagem, a estrutura verde separa que material entre as células-filhas?",
+    "resposta": "Cromátides-irmãs",
+    "distratores": [
+      "Mitocôndrias",
+      "Ribossomos",
+      "Nucléolos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spindle_apparatus",
+      "https://pt.wikipedia.org/wiki/Fuso_acrom%C3%A1tico"
+    ],
+    "imagem": {
+      "arquivo": "q15322.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kinetochore.jpg",
+      "autor": "Afunguy at English Wikipedia",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15323",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "hifa",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Como se chama esta estrutura de fungo, vista ao microscópio?",
+    "resposta": "Hifa",
+    "distratores": [
+      "Conídio",
+      "Flagelo",
+      "Esporângio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hypha",
+      "https://pt.wikipedia.org/wiki/Hifa"
+    ],
+    "imagem": {
+      "arquivo": "q15323.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Filamentous_cell_state_of_Yarrowia_lipolytica.jpg",
+      "autor": "Ger Oliver",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q15324",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "pulga",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que inseto, visto bem de perto, é este?",
+    "resposta": "Pulga",
+    "distratores": [
+      "Piolho",
+      "Percevejo",
+      "Formiga"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flea",
+      "https://pt.wikipedia.org/wiki/Sifon%C3%A1pteros"
+    ],
+    "imagem": {
+      "arquivo": "q15324.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flea_Scanning_Electron_Micrograph_False_Color.jpg",
+      "autor": "CDC/Janice Haney Carr",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15325",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "aspergillus",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Visto ao microscópio, este mofo recebeu o nome por lembrar que objeto?",
+    "resposta": "Aspersório de água benta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aspergillus",
+      "https://pt.wikipedia.org/wiki/Aspergillus"
+    ],
+    "imagem": {
+      "arquivo": "q15325.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Aspergillus_niger_01.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
   }
 ]

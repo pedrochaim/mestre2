@@ -1,0 +1,69 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia o polegar. O trecho confirma a correspondência pólex/hálux, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não vaza a resposta. Os distratores são músculos do tronco, críveis e curtos, e nenhum deles é o músculo destacado na figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que o fuso separa cromátides-irmãs entre as células-filhas. Não há vazamento, e os distratores são organelas que o fuso não separa.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'filamentos microscópicos de fungo' é quase a definição de hifa, e a figura vira enfeite. Basta tirar essa pista.",
+      "reescrita": {
+        "pergunta": "Como se chama esta estrutura de fungo, vista ao microscópio?",
+        "resposta": "Hifa",
+        "distratores": [
+          "Conídio",
+          "Flagelo",
+          "Esporângio"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O carrapato não é inseto, então o enunciado já o elimina como distrator. Além disso, 'microscópio eletrônico' é uma afirmação sobre a foto que não foi verificada.",
+      "reescrita": {
+        "pergunta": "Que inseto, visto bem de perto, é este?",
+        "resposta": "Pulga",
+        "distratores": [
+          "Piolho",
+          "Percevejo",
+          "Formiga"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos em inglês e em português confirmam a origem do nome, a partir do aspersório de água benta. O enunciado não nomeia o gênero e exige reconhecer a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'faixa de pelos acima do olho' é a definição de sobrancelha e responde sem a figura. Não há pista que a substitua sem entregar a resposta.",
+      "reescrita": null
+    }
+  ]
+}

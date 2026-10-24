@@ -1,0 +1,179 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de um polegar, sem texto, sem rosto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este dedo da mão corresponde a qual dedo do pé?",
+      "resposta": "Hálux (dedão do pé)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Polegar",
+        "descricao": "Primeiro dedo da mão, o mais afastado quando a palma está voltada para a frente.",
+        "variantes": [
+          "Pólex",
+          "Dedo polegar"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ilustração limpa, sem texto, com o músculo em vermelho sobre o esqueleto; múltipla escolha com músculos do tronco.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que músculo do tronco aparece em vermelho nesta figura?",
+      "resposta": "Latíssimo do dorso",
+      "distratores": [
+        "Trapézio",
+        "Peitoral maior",
+        "Serrátil anterior"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Músculo latíssimo do dorso",
+        "descricao": "Grande músculo plano das costas que se estende até a lateral do tronco e atrás do braço.",
+        "variantes": [
+          "Grande dorsal",
+          "Latissimus dorsi"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto de microscopia de fluorescência de célula em divisão, sem texto; fuso verde e cromossomos azuis bem visíveis.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Na célula em divisão desta imagem, a estrutura verde separa que material entre as células-filhas?",
+      "resposta": "Cromátides-irmãs",
+      "distratores": [
+        "Mitocôndrias",
+        "Ribossomos",
+        "Nucléolos"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Fuso mitótico",
+        "descricao": "Estrutura de microtúbulos que se forma na divisão celular para separar as cromátides-irmãs.",
+        "variantes": [
+          "Fuso acromático",
+          "Fuso mitótico",
+          "Aparelho do fuso"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Diagrama cheio de legendas que entregam a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Microscopia nítida de filamentos de fungo; escala sem nome nenhum.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Como se chama cada um destes filamentos microscópicos de fungo?",
+      "resposta": "Hifa",
+      "distratores": [
+        "Conídio",
+        "Flagelo",
+        "Esporângio"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Hifa",
+        "descricao": "Estrutura filamentosa e ramificada dos fungos, cujo conjunto forma o micélio.",
+        "variantes": [
+          "Hifas"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto desfocada e de baixa qualidade, close do rosto de pessoa comum, com sobrancelha também em cena, o que gera ambiguidade."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem de microscópio eletrônico nítida, silhueta característica de pulga.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que inseto, visto ao microscópio eletrônico, é este?",
+      "resposta": "Pulga",
+      "distratores": [
+        "Piolho",
+        "Carrapato",
+        "Percevejo"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Pulga",
+        "descricao": "Inseto sem asas, achatado lateralmente, parasita externo de mamíferos e aves, da ordem Siphonaptera.",
+        "variantes": [
+          "Sifonáptero"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Microscopia nítida da cabeça conidial característica, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Visto ao microscópio, este mofo recebeu o nome por lembrar que objeto?",
+      "resposta": "Aspersório de água benta",
+      "destino": 1,
+      "ancora": {
+        "nome": "Aspergillus",
+        "descricao": "Gênero de fungos filamentosos (mofos) com estrutura de esporulação em forma de cabeça arredondada.",
+        "variantes": [
+          "Aspergilo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida e legível de sobrancelha, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Como se chama esta faixa de pelos acima do olho?",
+      "resposta": "Sobrancelha",
+      "destino": 0,
+      "ancora": {
+        "nome": "Sobrancelha",
+        "descricao": "Faixa de pelos curtos acima de cada olho, na borda inferior da arcada superciliar.",
+        "variantes": [
+          "Supercílio"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Desenho vetorial estilizado, que não se reconhece com certeza como coanoflagelado; resposta não única."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Diagrama cheio de legendas que entregam a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto pequena e desfocada; não dá para garantir que seja planária e não outro platelminto."
+    }
+  ]
+}
