@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia a forma de teatro, resposta única diante da figura, distratores do mesmo tipo e plausíveis, e os trechos confirmam que o kabuki é teatro japonês clássico.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Outros festivais também celebram Ganesha, como Ganesh Jayanti, então a resposta não é única. Acrescentei a imersão das imagens na água, que está nos trechos, para fechar a resposta sem entregar o nome. Ela só identifica o festival se a figura mostrar Ganesha.",
+      "reescrita": {
+        "pergunta": "Que festival hindu, encerrado com a imersão das imagens na água, celebra a divindade representada nesta imagem?",
+        "resposta": "Ganesh Chaturthi",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista \"uniforme listrado\" ajuda a identificar a guarda sem olhar a figura, então ela virou enfeite. O enunciado deve só pedir o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que corpo de guarda europeu é este?",
+        "resposta": "Guarda Suíça",
+        "distratores": [
+          "Guarda Real Britânica",
+          "Guarda Republicana Francesa",
+          "Guarda Evzone"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Ramos e velas\" descreve a própria coroa e entrega a resposta sem a figura. O enunciado deve pedir o nome sem descrever o objeto.",
+      "reescrita": {
+        "pergunta": "Como se chama este arranjo cristão tradicional, usado em casas e igrejas antes do Natal?",
+        "resposta": "Coroa do Advento",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a origem equatoriana. O enunciado não nomeia o chapéu, e o distrator Panamá é crível sem estar correto. Os demais distratores são países, o que está de acordo com a regra.",
+      "reescrita": null
+    }
+  ]
+}

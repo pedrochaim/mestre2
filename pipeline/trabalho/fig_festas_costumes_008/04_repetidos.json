@@ -1,0 +1,64 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que forma de teatro tradicional japonês era encenada neste palco?",
+        "resposta": "Kabuki"
+      },
+      "existentes": [
+        {
+          "id": "q03394",
+          "pergunta": "O kabuki japonês começou com dançarinas, mas tradicionalmente é feito só por homens. O que provocou essa mudança no século dezessete?",
+          "resposta": "O xogunato proibiu as mulheres"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que corpo de guarda europeu é este?",
+        "resposta": "Guarda Suíça"
+      },
+      "existentes": [
+        {
+          "id": "q09499",
+          "pergunta": "Em 1506, que papa, também patrono de Michelangelo, criou a Guarda Suíça que protege o Vaticano?",
+          "resposta": "Júlio Segundo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "De que país vem a origem tradicional deste chapéu de palha?",
+        "resposta": "Equador"
+      },
+      "existentes": [
+        {
+          "id": "q00908",
+          "pergunta": "Apesar do nome, o chapéu-panamá é tradicionalmente fabricado em qual país?",
+          "resposta": "Equador"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o nome da forma de teatro; a existente pergunta o motivo da proibição das mulheres. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o nome do corpo de guarda; a existente pede o papa que o criou. Fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q00908",
+      "motivo": "As duas perguntas pedem o país de origem do chapéu-panamá, e a resposta é Equador."
+    }
+  ]
+}

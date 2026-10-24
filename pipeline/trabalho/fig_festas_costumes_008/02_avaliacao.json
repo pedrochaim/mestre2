@@ -1,0 +1,151 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Leque trançado simples, sobre tecido estampado; pouco reconhecível (parece raquete ou bandeira) e sem ligação clara com festas ou costumes."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Gravura ukiyo-e de um teatro japonês lotado, com palco e plateia. O texto na faixa e nas lanternas não entrega a resposta. Dá para distinguir de Nô e Bunraku.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que forma de teatro tradicional japonês era encenada neste palco?",
+      "resposta": "Kabuki",
+      "distratores": [
+        "Nô",
+        "Bunraku",
+        "Rakugo"
+      ],
+      "ancora": {
+        "nome": "Kabuki",
+        "descricao": "Forma clássica de teatro japonês, com dança, figurinos exuberantes e maquiagem kumadori, surgida no período Edo.",
+        "variantes": [
+          "Teatro Kabuki"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem de Ganesha em primeiro plano, durante uma festa pública. A pessoa ao fundo está cortada e é secundária. A pergunta vai além do reconhecimento da divindade.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que festival hindu celebra a divindade representada nesta imagem?",
+      "resposta": "Ganesh Chaturthi",
+      "ancora": {
+        "nome": "Ganesh Chaturthi",
+        "descricao": "Festival hindu que celebra Ganesha com imagens instaladas em casas e palcos e levadas em procissão no último dia.",
+        "variantes": [
+          "Vinayaka Chavithi",
+          "Vinayagar Chaturthi",
+          "Ganexa Chaturthi"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O cartão traz o texto visível 'To my Valentine', que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Há uma pessoa comum em primeiro plano, fora de festa pública identificável. A cena mistura outros elementos (pompons, comida) e o hachimaki ocupa pouco espaço."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Uma criança coberta de lama aparece em primeiro plano. Nada na imagem identifica o festival de Boryeong, e outras festas de lama seriam igualmente plausíveis."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Guardas suíços do Vaticano em uniforme listrado característico, com alabardas, em serviço público. A imagem é nítida e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que corpo de guarda, famoso pelo uniforme listrado, é este?",
+      "resposta": "Guarda Suíça",
+      "distratores": [
+        "Guarda Real Britânica",
+        "Guarda Republicana Francesa",
+        "Guarda Evzone"
+      ],
+      "ancora": {
+        "nome": "Guarda Suíça Pontifícia",
+        "descricao": "Corpo armado da Santa Sé que protege o papa e o Palácio Apostólico, fundado em 1506 e conhecido pelo uniforme renascentista.",
+        "variantes": [
+          "Guarda Suíça Pontifícia",
+          "Guarda Suíça do Vaticano",
+          "Swiss Guard"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Arranjo de ramos com quatro velas vermelhas, bem visível e sem texto. É uma tradição cristã clara.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Como se chama este arranjo de ramos e velas, usado em casas e igrejas?",
+      "resposta": "Coroa do Advento",
+      "ancora": {
+        "nome": "Coroa do Advento",
+        "descricao": "Coroa de ramos verdes com quatro velas, acesas uma a cada domingo do Advento, tradição cristã luterana que antecede o Natal.",
+        "variantes": [
+          "Advent wreath",
+          "Corona de Advento"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O cartão-postal traz a legenda 'Typy ludowe z Polesia', que revela a origem. A imagem retrata o traje regional de Polesie, e a identificação como vyshyvanka ucraniana fica ambígua."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Aparece a marca 'Ray-Ban' nas lentes. Óculos de sol também não se encaixam bem no catálogo de festas e costumes."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Chapéu de palha trançada com fita, nítido. A pergunta sobre a origem tem resposta única e boa armadilha no distrator Panamá. Há um risco leve de o chapéu ser confundido com outro chapéu de palha, por isso a pergunta é de múltipla escolha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "De que país vem a origem tradicional deste chapéu de palha?",
+      "resposta": "Equador",
+      "distratores": [
+        "Panamá",
+        "México",
+        "Cuba"
+      ],
+      "ancora": {
+        "nome": "Chapéu-panamá",
+        "descricao": "Chapéu de palha de toquilla, leve e de aba curta, de origem equatoriana, popularizado como acessório tropical.",
+        "variantes": [
+          "Panama hat",
+          "Chapéu de Jipijapa",
+          "Chapéu de palha toquilla"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem de baixíssima resolução, ilegível no celular. Mostra pessoas comuns em primeiro plano, e a roupa pode ser lida como traje de sacerdotisa (miko) em vez de hakama."
+    }
+  ]
+}
