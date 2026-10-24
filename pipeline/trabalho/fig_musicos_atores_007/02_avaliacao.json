@@ -1,0 +1,221 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, figura pública reconhecível.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cargo político este ator ocupou de 2003 a 2011?",
+      "resposta": "Governador da Califórnia",
+      "distratores": [
+        "Governador do Texas",
+        "Senador da Califórnia",
+        "Prefeito de Los Angeles"
+      ],
+      "ancora": {
+        "nome": "Arnold Schwarzenegger",
+        "descricao": "Ator, fisiculturista e político austro-americano, 38º governador da Califórnia.",
+        "variantes": [
+          "Schwarzenegger",
+          "Arnold Alois Schwarzenegger"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto de palco distante, com o rosto pequeno e iluminado de roxo; o artista não é reconhecível com segurança pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco nítido, sem texto, atriz reconhecível.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Esta atriz sueca ganhou seu primeiro Oscar de melhor atriz por qual filme de 1944?",
+      "resposta": "Gaslight (À Meia-Luz)",
+      "ancora": {
+        "nome": "Ingrid Bergman",
+        "descricao": "Atriz sueca de Hollywood, vencedora de três Oscars, estrela de Casablanca.",
+        "variantes": [
+          "Ingrid Bergmann"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Rosto em close, sem texto; atriz famosa e reconhecível.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em qual destas novelas da Globo esta atriz atuou?",
+      "resposta": "Vale Tudo",
+      "distratores": [
+        "Roque Santeiro",
+        "Renascer",
+        "Torre de Babel"
+      ],
+      "ancora": {
+        "nome": "Glória Pires",
+        "descricao": "Atriz brasileira de telenovelas e cinema, conhecida por Vale Tudo, Mulheres de Areia e O Rei do Gado.",
+        "variantes": [
+          "Glória Maria Cláudia Pires de Morais"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto de show nítida, sem texto, cantora reconhecível pelo cabelo ruivo e óculos.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Com que banda esta artista gravou discos nos anos 1960 e começo dos anos 1970?",
+      "resposta": "Os Mutantes",
+      "ancora": {
+        "nome": "Rita Lee",
+        "descricao": "Cantora e compositora brasileira de rock, conhecida como Rainha do Rock Brasileiro.",
+        "variantes": [
+          "Rita Lee Jones de Carvalho"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto clara do cantor com violão de doze cordas, sem texto; figura pública.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este cantor e compositor paraibano?",
+      "resposta": "Chico César",
+      "ancora": {
+        "nome": "Chico César",
+        "descricao": "Cantor, compositor e poeta paraibano nascido em Catolé do Rocha.",
+        "variantes": [
+          "Francisco César Gonçalves"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Apresentadora de perfil, com o selo do prêmio no canto (não entrega o nome); figura pública reconhecível.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destes programas infantis esta apresentadora comandou?",
+      "resposta": "Xou da Xuxa",
+      "distratores": [
+        "Clube da Criança",
+        "Bom Dia & Cia",
+        "TV Colosso"
+      ],
+      "ancora": {
+        "nome": "Xuxa",
+        "descricao": "Apresentadora, atriz e cantora brasileira, conhecida como Rainha dos Baixinhos.",
+        "variantes": [
+          "Xuxa Meneghel",
+          "Maria da Graça Meneghel"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido; as letras ao fundo não formam nome legível.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esta atriz americana?",
+      "resposta": "Meryl Streep",
+      "ancora": {
+        "nome": "Meryl Streep",
+        "descricao": "Atriz americana de cinema, recordista de indicações ao Oscar.",
+        "variantes": [
+          "Mary Louise Streep"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, ator reconhecível.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em qual destes filmes de James Bond este ator dinamarquês atuou?",
+      "resposta": "Cassino Royale",
+      "distratores": [
+        "Skyfall",
+        "Quantum of Solace",
+        "007 contra Spectre"
+      ],
+      "ancora": {
+        "nome": "Mads Mikkelsen",
+        "descricao": "Ator dinamarquês de cinema e TV, o vilão Le Chiffre em Cassino Royale.",
+        "variantes": [
+          "Mads Dittmann Mikkelsen"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto, ator conhecido no Brasil.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em qual destas novelas da Globo este ator atuou?",
+      "resposta": "O Rei do Gado",
+      "distratores": [
+        "Roque Santeiro",
+        "Mulheres de Areia",
+        "Torre de Babel"
+      ],
+      "ancora": {
+        "nome": "Antônio Fagundes",
+        "descricao": "Ator, dramaturgo e produtor brasileiro de teatro, cinema e telenovelas.",
+        "variantes": [
+          "Antônio José da Silva Fagundes Filho"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco nítido, sem texto, atriz reconhecível.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Por qual filme de 1953 esta atriz britânica ganhou o Oscar de melhor atriz?",
+      "resposta": "A Princesa e o Plebeu",
+      "ancora": {
+        "nome": "Audrey Hepburn",
+        "descricao": "Atriz britânica, ícone do cinema e da moda, de Bonequinha de Luxo.",
+        "variantes": [
+          "Audrey Kathleen Ruston"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto casual de um senhor num banco de praça, sem instrumento nem contexto; não é reconhecível pela imagem."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Ator + cargo entre 2003 e 2011 permite responder sem a imagem (figura virou enfeite). Reescrita pede um filme em que o ator atuou, com distratores de outros astros de ação.",
+      "reescrita": {
+        "pergunta": "Em qual destes filmes este ator atuou?",
+        "resposta": "O Exterminador do Futuro",
+        "distratores": [
+          "Rambo",
+          "Duro de Matar",
+          "RoboCop"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Prêmio e ano do filme (1944) identificam Gaslight sem a figura. Tirar o ano devolve o papel à imagem; fato confirmado nos trechos.",
+      "reescrita": {
+        "pergunta": "Por qual filme esta atriz sueca ganhou seu primeiro Oscar de melhor atriz?",
+        "resposta": "Gaslight (À Meia-Luz)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vale Tudo confirmado nos trechos; distratores não estão no elenco dela e nada vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os Mutantes confirmado nos trechos (1966 a 1972); enunciado não entrega a artista.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento; 'paraibano' ajuda sem entregar. Nascimento na Paraíba está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator Clube da Criança também está correto (Xuxa o apresentou na Manchete, segundo o trecho). Além disso, 'Xou da Xuxa' traz o nome dela e entrega a resposta. Troca a resposta por Clube da Criança, com distratores de outros apresentadores.",
+      "reescrita": {
+        "pergunta": "Qual destes programas infantis esta apresentadora comandou?",
+        "resposta": "Clube da Criança",
+        "distratores": [
+          "Bom Dia & Cia",
+          "TV Colosso",
+          "Angel Mix"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direto, nível 1; a figura é essencial.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Casino Royale confirmado nos trechos; ele não atuou nos outros três filmes.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho coloca o ator em Mulheres de Areia (1973), então o distrator é defensável. Troquei-o por novela da qual ele não participou.",
+      "reescrita": {
+        "pergunta": "Em qual destas novelas da Globo este ator atuou?",
+        "resposta": "O Rei do Gado",
+        "distratores": [
+          "Roque Santeiro",
+          "Vale Tudo",
+          "Avenida Brasil"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Oscar de melhor atriz mais o ano 1953 identificam o filme sem a figura. Tirar o ano mantém a resposta única, pois ela ganhou um só Oscar de atriz, e recoloca a imagem no centro.",
+      "reescrita": {
+        "pergunta": "Por qual filme esta atriz britânica ganhou o Oscar de melhor atriz?",
+        "resposta": "A Princesa e o Plebeu",
+        "distratores": []
+      }
+    }
+  ]
+}

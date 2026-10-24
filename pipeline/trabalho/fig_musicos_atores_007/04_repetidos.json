@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Com que banda esta artista gravou discos nos anos 1960 e começo dos anos 1970?",
+        "resposta": "Os Mutantes"
+      },
+      "existentes": [
+        {
+          "id": "q11427",
+          "pergunta": "Em 1976, grávida do primeiro filho, Rita Lee foi presa e condenada sob qual acusação?",
+          "resposta": "Porte de maconha"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em qual destas novelas da Globo este ator atuou?",
+        "resposta": "O Rei do Gado"
+      },
+      "existentes": [
+        {
+          "id": "q14490",
+          "pergunta": "Que ator brasileiro de teatro e telenovelas aparece nesta foto?",
+          "resposta": "Antônio Fagundes"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A banda com que Rita Lee gravou nos anos 1960/70 é um fato diferente da acusação pela qual foi presa em 1976."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Perguntar uma novela em que o ator atuou é diferente de identificar o ator na foto; a resposta de uma não leva à outra."
+    }
+  ]
+}
