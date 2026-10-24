@@ -296714,5 +296714,120 @@
       "autor": "Didier Descouens",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q15614",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "acelga",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Esta hortaliça folhosa pertence à mesma espécie de qual raiz?",
+    "resposta": "Beterraba",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chard",
+      "https://pt.wikipedia.org/wiki/Acelga"
+    ],
+    "imagem": {
+      "arquivo": "q15614.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Chard_in_the_Victory_Garden.jpg",
+      "autor": "mercedesfromtheeighties",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q15615",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "couve_rabano",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Esta hortaliça pertence à mesma espécie de qual destas?",
+    "resposta": "Couve-flor",
+    "distratores": [
+      "Couve-chinesa",
+      "Nabo",
+      "Rabanete"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kohlrabi",
+      "https://pt.wikipedia.org/wiki/Couve-r%C3%A1bano"
+    ],
+    "imagem": {
+      "arquivo": "q15615.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Koolrabi.jpg",
+      "autor": "Toubib at Dutch Wikipedia",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15616",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "jambu",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que sensação esta planta causa na boca de quem a mastiga?",
+    "resposta": "Formigamento e dormência",
+    "distratores": [
+      "Gosto de alho",
+      "Sabor adocicado",
+      "Gosto de queijo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Acmella_oleracea",
+      "https://pt.wikipedia.org/wiki/Acmella_oleracea"
+    ],
+    "imagem": {
+      "arquivo": "q15616.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Spilanthes-closeup-large.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15617",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "aveia",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que cereal é este?",
+    "resposta": "Aveia",
+    "distratores": [
+      "Trigo",
+      "Cevada",
+      "Centeio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oat",
+      "https://pt.wikipedia.org/wiki/Aveia-comum"
+    ],
+    "imagem": {
+      "arquivo": "q15617.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Avena_sativa_L.jpg",
+      "autor": "Sendelbach (talk)",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15618",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "trigo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que cereal é este?",
+    "resposta": "Trigo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wheat",
+      "https://pt.wikipedia.org/wiki/Trigo"
+    ],
+    "imagem": {
+      "arquivo": "q15618.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Wheat_close-up.JPG",
+      "autor": "User:Bluemoose",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

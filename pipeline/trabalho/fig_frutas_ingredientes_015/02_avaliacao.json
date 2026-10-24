@@ -1,0 +1,150 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Só folhagem de taro/inhame vista de longe; o nome é ambíguo no Brasil (inhame e taro são plantas diferentes) e a planta é pouco reconhecível."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Acelga de talos vermelhos, nítida e reconhecível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta hortaliça folhosa pertence à mesma espécie de qual raiz?",
+      "resposta": "Beterraba",
+      "ancora": {
+        "nome": "Acelga",
+        "descricao": "Hortaliça folhosa (Beta vulgaris subsp. vulgaris) de talos largos, brancos, amarelos ou vermelhos.",
+        "variantes": [
+          "Swiss chard",
+          "Beta vulgaris cicla"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Couve-rábano com o caule engrossado bem visível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta hortaliça, de caule engrossado perto do chão, é da mesma espécie de qual destas?",
+      "resposta": "Couve-flor",
+      "distratores": [
+        "Nabo",
+        "Rabanete",
+        "Cenoura"
+      ],
+      "ancora": {
+        "nome": "Couve-rábano",
+        "descricao": "Hortaliça (Brassica oleracea, grupo Gongylodes) de caule globoso engrossado e folhas de couve.",
+        "variantes": [
+          "Kohlrabi",
+          "Nabo-de-repolho"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O bloco marrom brilhante e macio no prato pode ser confundido com doce de leite, goiabada ou outro tipo de açúcar mascavo; não é reconhecível com resposta única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Fruta verde de protuberâncias digitadas muito parecida com fruta-do-conde, cherimoia e pinha; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Inflorescência amarela e vermelha típica do jambu, em foco e sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que sensação esta planta causa na boca de quem a mastiga?",
+      "resposta": "Formigamento e dormência",
+      "distratores": [
+        "Calor ardido",
+        "Frescor de menta",
+        "Gosto muito amargo"
+      ],
+      "ancora": {
+        "nome": "Jambu",
+        "descricao": "Erva amazônica (Acmella oleracea) de flores amarelas com centro vermelho, usada em pratos paraenses.",
+        "variantes": [
+          "Agrião-do-pará",
+          "Acmella oleracea",
+          "Abecedária"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Bananas verdes empilhadas com adesivos de marca visíveis; podem ser confundidas com banana comum verde e o texto aparece na imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A imagem mostra só as flores da planta, não a raiz; pouco reconhecível para o público."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Panícula de aveia verde com espiguetas pendentes, distinguível de trigo, cevada e centeio.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cereal é este?",
+      "resposta": "Aveia",
+      "distratores": [
+        "Trigo",
+        "Cevada",
+        "Centeio"
+      ],
+      "ancora": {
+        "nome": "Aveia",
+        "descricao": "Cereal (Avena sativa) de panícula solta com espiguetas pendentes, usado em farinhas e flocos.",
+        "variantes": [
+          "Aveia-comum",
+          "Avena sativa"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Exsicata de herbário com etiqueta legível 'Eruca vesicaria', escala e logotipo; o texto entrega a resposta e a planta seca não é reconhecível."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Árvore inteira com frutos pequenos ao longe; pouco legível no celular e pode ser confundida com outras frutíferas."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Espigas maduras de trigo em primeiro plano, nítidas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cereal é este?",
+      "resposta": "Trigo",
+      "ancora": {
+        "nome": "Trigo",
+        "descricao": "Cereal do gênero Triticum, cujas espigas fornecem o grão da farinha de pão.",
+        "variantes": [
+          "Triticum",
+          "Triticum aestivum"
+        ]
+      }
+    }
+  ]
+}

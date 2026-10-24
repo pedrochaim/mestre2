@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que cereal é este?",
+        "resposta": "Trigo"
+      },
+      "existentes": [
+        {
+          "id": "q06068",
+          "pergunta": "O trigo, um dos primeiros cereais domesticados, começou a ser cultivado no Crescente Fértil, no Oriente Médio, há aproximadamente quantos anos?",
+          "resposta": "Cerca de dez mil anos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação do cereal (trigo), provavelmente a partir de uma imagem. A existente pergunta há quantos anos o trigo é cultivado. São fatos diferentes."
+    }
+  ]
+}
