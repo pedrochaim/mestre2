@@ -1,0 +1,250 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arte limpa de corpo inteiro, reconhecível; silhueta com cartola, microfone e corpo robusto é característica.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem criou o jogo de terror em que este urso animatrônico estreou?",
+      "resposta": "Scott Cawthon",
+      "ancora": {
+        "nome": "Freddy Fazbear",
+        "descricao": "Urso animatrônico antagonista título da série de jogos de terror Five Nights at Freddy's.",
+        "variantes": [
+          "Freddy"
+        ]
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Arte oficial clara do personagem; silhueta tem sombras sobrepostas e pode lembrar Bowser, então usa a imagem colorida com múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual personagem da franquia Mario é este?",
+      "resposta": "Bowser Jr.",
+      "distratores": [
+        "Bowser",
+        "Baby Bowser",
+        "Lemmy Koopa"
+      ],
+      "ancora": {
+        "nome": "Bowser Jr.",
+        "descricao": "Filho de Bowser e príncipe dos Koopas, vilão recorrente da franquia Mario.",
+        "variantes": [
+          "Junior",
+          "Bowser Junior"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Mascote icônico, sozinho, de corpo inteiro, com cabelo e macacão característicos; silhueta reconhecível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este mascote simboliza qual série de jogos?",
+      "resposta": "Fallout",
+      "ancora": {
+        "nome": "Vault Boy",
+        "descricao": "Mascote da corporação fictícia Vault-Tec e símbolo da série de jogos Fallout.",
+        "variantes": [
+          "Vault-Man"
+        ]
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Arte nítida; a silhueta sem casco visível é pouco distintiva, então usa a imagem colorida.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que inimigo clássico da franquia Mario é este?",
+      "resposta": "Koopa Troopa",
+      "distratores": [
+        "Dry Bones",
+        "Hammer Bro",
+        "Lakitu"
+      ],
+      "ancora": {
+        "nome": "Koopa Troopa",
+        "descricao": "Inimigo tartaruga comum da franquia Mario que se esconde no casco quando pisoteado.",
+        "variantes": [
+          "Koopa",
+          "Nokonoko"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Arte oficial clara do vilão; silhueta é de um homem genérico, então usa a imagem colorida.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que unidade de elite este vilão era capitão antes de trair os colegas?",
+      "resposta": "S.T.A.R.S.",
+      "ancora": {
+        "nome": "Albert Wesker",
+        "descricao": "Ex-capitão da S.T.A.R.S. e principal vilão da série de jogos Resident Evil.",
+        "variantes": [
+          "Wesker"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Arte nítida e reconhecível; a silhueta ficou estranha e ambígua, então usa a imagem colorida.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que herói esta personagem acompanha em sua aventura?",
+      "resposta": "Link",
+      "ancora": {
+        "nome": "Midna",
+        "descricao": "Habitante do Reino do Crepúsculo e parceira de Link em The Legend of Zelda: Twilight Princess.",
+        "variantes": []
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arte oficial clara; silhueta com chapéu poderia ser confundida com Kung Lao, então usa a imagem colorida.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destes personagens de Mortal Kombat é este?",
+      "resposta": "Raiden",
+      "distratores": [
+        "Kung Lao",
+        "Liu Kang",
+        "Scorpion"
+      ],
+      "ancora": {
+        "nome": "Raiden (Mortal Kombat)",
+        "descricao": "Deus do trovão e protetor da Terra na série de jogos de luta Mortal Kombat.",
+        "variantes": [
+          "Raiden"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Rosto de personagem de jogo bem reconhecível; o texto no pescoço é parte da arte e não entrega o nome.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ator deu voz e movimentos a este personagem de Grand Theft Auto cinco?",
+      "resposta": "Steven Ogg",
+      "ancora": {
+        "nome": "Trevor Philips",
+        "descricao": "Um dos três protagonistas de Grand Theft Auto V.",
+        "variantes": [
+          "Trevor"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Arte clara e identificável, personagem sozinho, sem texto que entregue o nome.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é o irmão mais novo deste personagem?",
+      "resposta": "Papyrus",
+      "distratores": [
+        "Asgore",
+        "Undyne",
+        "Toriel"
+      ],
+      "ancora": {
+        "nome": "Sans",
+        "descricao": "Esqueleto preguiçoso e brincalhão, personagem importante do jogo Undertale.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Arte oficial clara; silhueta traz respingos de tinta colados ao corpo, então usa a imagem colorida.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que empresa criou a série de jogos de luta deste personagem?",
+      "resposta": "Capcom",
+      "ancora": {
+        "nome": "Ryu",
+        "descricao": "Lutador de artes marciais e protagonista emblemático da série Street Fighter.",
+        "variantes": []
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Arte oficial da personagem com e sem armadura, sem texto; mesma personagem, assunto único.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que série de jogos tem esta personagem como protagonista?",
+      "resposta": "Metroid",
+      "ancora": {
+        "nome": "Samus Aran",
+        "descricao": "Caçadora de recompensas intergaláctica e protagonista da série Metroid.",
+        "variantes": [
+          "Samus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Personagem sozinho, de corpo inteiro, com cabeça quadrada de pano característica; silhueta reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é o nome deste mascote de jogos?",
+      "resposta": "Sackboy",
+      "distratores": [
+        "Yarny",
+        "Rayman",
+        "Kirby"
+      ],
+      "ancora": {
+        "nome": "Sackboy",
+        "descricao": "Personagem de pano tricotado, protagonista da série de jogos LittleBigPlanet.",
+        "variantes": [
+          "Sackperson"
+        ]
+      },
+      "usar_silhueta": true
+    }
+  ]
+}

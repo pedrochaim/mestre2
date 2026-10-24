@@ -1,0 +1,727 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Freddy Fazbear",
+        "descricao": "Urso animatrônico antagonista título da série de jogos de terror Five Nights at Freddy's.",
+        "variantes": [
+          "Freddy"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "freddy_krueger",
+          "nome": "Freddy Krueger",
+          "descricao": "Assassino de rosto queimado e luva de lâminas da franquia de terror A Hora do Pesadelo.",
+          "variantes": [
+            "Freddy"
+          ]
+        },
+        {
+          "id": "ursinho_de_pelucia",
+          "nome": "Ursinho de pelúcia",
+          "descricao": "Brinquedo de pelúcia em forma de urso, surgido no início do século vinte.",
+          "variantes": [
+            "Teddy bear"
+          ]
+        },
+        {
+          "id": "sigmund_freud",
+          "nome": "Sigmund Freud",
+          "descricao": "Neurologista austríaco (1856–1939), fundador da psicanálise.",
+          "variantes": [
+            "Freud"
+          ]
+        },
+        {
+          "id": "freya",
+          "nome": "Freya",
+          "descricao": "Deusa nórdica do amor, da beleza e da fertilidade.",
+          "variantes": [
+            "Freyja",
+            "Freia"
+          ]
+        },
+        {
+          "id": "red_treinador",
+          "nome": "Red (treinador)",
+          "descricao": "Protagonista silencioso dos jogos Pokémon Red, Green e Blue, que reaparece como desafio final na segunda geração.",
+          "variantes": [
+            "Red",
+            "Vermelho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bowser Jr.",
+        "descricao": "Filho de Bowser e príncipe dos Koopas, vilão recorrente da franquia Mario.",
+        "variantes": [
+          "Junior",
+          "Bowser Junior"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hera",
+          "nome": "Hera",
+          "descricao": "Deusa grega do casamento, rainha dos deuses do Olimpo e esposa de Zeus.",
+          "variantes": [
+            "Juno"
+          ]
+        },
+        {
+          "id": "sonda_juno",
+          "nome": "Sonda Juno",
+          "descricao": "Sonda espacial da NASA lançada em 2011 que orbita Júpiter desde 2016, com três grandes painéis solares.",
+          "variantes": [
+            "Juno",
+            "Juno (sonda espacial)"
+          ]
+        },
+        {
+          "id": "professora_juniper",
+          "nome": "Professora Juniper",
+          "descricao": "Professora pokémon da região de Unova, que entrega o inicial ao jogador em Pokémon Black e White.",
+          "variantes": [
+            "Juniper",
+            "Professora Araragi",
+            "Aurea Juniper"
+          ]
+        },
+        {
+          "id": "unicornio",
+          "nome": "Unicórnio",
+          "descricao": "Criatura lendária semelhante a um cavalo, com um único chifre espiralado na testa.",
+          "variantes": [
+            "Unicorn"
+          ]
+        },
+        {
+          "id": "boca_juniors",
+          "nome": "Boca Juniors",
+          "descricao": "Club Atlético Boca Juniors, clube de futebol de Buenos Aires fundado em 1905 no bairro de La Boca.",
+          "variantes": [
+            "Club Atlético Boca Juniors",
+            "Boca",
+            "Xeneizes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Vault Boy",
+        "descricao": "Mascote da corporação fictícia Vault-Tec e símbolo da série de jogos Fallout.",
+        "variantes": [
+          "Vault-Man"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fat_man_bomba_de_nagasaki",
+          "nome": "Fat Man (bomba de Nagasaki)",
+          "descricao": "Bomba atômica de plutônio lançada pelos Estados Unidos sobre Nagasaki em 9 de agosto de 1945.",
+          "variantes": [
+            "Fat Man",
+            "Homem Gordo",
+            "Mark III"
+          ]
+        },
+        {
+          "id": "homem_de_java",
+          "nome": "Homem de Java",
+          "descricao": "Fósseis de Homo erectus encontrados na ilha de Java, Indonésia, a partir de 1891.",
+          "variantes": [
+            "Java Man",
+            "Pithecanthropus erectus",
+            "Trinil 2"
+          ]
+        },
+        {
+          "id": "homem_de_dali",
+          "nome": "Homem de Dali",
+          "descricao": "Crânio fóssil quase completo de humano arcaico do Pleistoceno Médio, achado em 1978 em Dali, na China.",
+          "variantes": [
+            "Dali man",
+            "Dali Man"
+          ]
+        },
+        {
+          "id": "astro_boy",
+          "nome": "Astro Boy",
+          "descricao": "Menino robô criado por Osamu Tezuka, protagonista do mangá Tetsuwan Atom.",
+          "variantes": [
+            "Tetsuwan Atom",
+            "Mighty Atom",
+            "Atom"
+          ]
+        },
+        {
+          "id": "batman",
+          "nome": "Batman",
+          "descricao": "Super-herói da DC, identidade de Bruce Wayne, estreou em 1939",
+          "variantes": [
+            "Homem-Morcego",
+            "Bruce Wayne"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Koopa Troopa",
+        "descricao": "Inimigo tartaruga comum da franquia Mario que se esconde no casco quando pisoteado.",
+        "variantes": [
+          "Koopa",
+          "Nokonoko"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hoopa",
+          "nome": "Hoopa",
+          "descricao": "Pokémon dos tipos Psíquico e Fantasma, número 720 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "konoha",
+          "nome": "Konoha",
+          "descricao": "A Vila Oculta da Folha, vila ninja natal de Naruto Uzumaki no mangá e anime Naruto.",
+          "variantes": [
+            "Konohagakure",
+            "Vila da Folha",
+            "Vila Oculta da Folha"
+          ]
+        },
+        {
+          "id": "kosovo",
+          "nome": "Kosovo",
+          "descricao": "País dos Bálcãs, de reconhecimento diplomático parcial, com capital em Pristina.",
+          "variantes": [
+            "República do Kosovo",
+            "Kosova"
+          ]
+        },
+        {
+          "id": "buzkashi",
+          "nome": "Buzkashi",
+          "descricao": "Esporte tradicional da Ásia Central em que cavaleiros disputam a carcaça de uma cabra ou bezerro para levá-la a um alvo.",
+          "variantes": [
+            "Kokpar",
+            "Kök-börü",
+            "Ulak tartysh",
+            "Kupkari"
+          ]
+        },
+        {
+          "id": "flaaffy",
+          "nome": "Flaaffy",
+          "descricao": "Pokémon elétrico da segunda geração, número 180 da Pokédex Nacional, forma intermediária entre Mareep e Ampharos.",
+          "variantes": [
+            "Mokoko"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Albert Wesker",
+        "descricao": "Ex-capitão da S.T.A.R.S. e principal vilão da série de jogos Resident Evil.",
+        "variantes": [
+          "Wesker"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "basco",
+          "nome": "Basco",
+          "descricao": "Língua isolada falada no País Basco, na Espanha e na França.",
+          "variantes": [
+            "Euskara",
+            "Euskera",
+            "Língua basca"
+          ]
+        },
+        {
+          "id": "albert_einstein",
+          "nome": "Albert Einstein",
+          "descricao": "Físico teórico alemão, criador da teoria da relatividade e Nobel de Física de 1921.",
+          "variantes": [
+            "Einstein"
+          ]
+        },
+        {
+          "id": "geysir",
+          "nome": "Geysir",
+          "descricao": "Fonte termal eruptiva no sudoeste da Islândia que deu nome a todos os gêiseres.",
+          "variantes": [
+            "Grande Geysir",
+            "Gêiser",
+            "Great Geysir",
+            "Gêiser de Haukadalur",
+            "Stóri Geysir"
+          ]
+        },
+        {
+          "id": "laser",
+          "nome": "Laser",
+          "descricao": "Dispositivo que emite um feixe de luz concentrado e coerente por emissão estimulada de radiação.",
+          "variantes": [
+            "Raio laser",
+            "Lêiser"
+          ]
+        },
+        {
+          "id": "alberto_ascari",
+          "nome": "Alberto Ascari",
+          "descricao": "Piloto italiano bicampeão mundial de Fórmula 1 pela Ferrari, em 1952 e 1953, morto em 1955.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Midna",
+        "descricao": "Habitante do Reino do Crepúsculo e parceira de Link em The Legend of Zelda: Twilight Princess.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "dna_mitocondrial",
+          "nome": "DNA mitocondrial",
+          "descricao": "Material genético próprio das mitocôndrias, separado do DNA do núcleo.",
+          "variantes": [
+            "mtDNA",
+            "Mitochondrial DNA"
+          ]
+        },
+        {
+          "id": "midas",
+          "nome": "Midas",
+          "descricao": "Rei lendário da Frígia, famoso por transformar em ouro tudo o que tocava.",
+          "variantes": [
+            "Rei Midas"
+          ]
+        },
+        {
+          "id": "idun",
+          "nome": "Idun",
+          "descricao": "Deusa nórdica que guarda os frutos que mantêm os deuses jovens.",
+          "variantes": [
+            "Iðunn",
+            "Idunn",
+            "Iduna"
+          ]
+        },
+        {
+          "id": "dna",
+          "nome": "DNA",
+          "descricao": "Molécula que carrega as informações genéticas dos seres vivos.",
+          "variantes": [
+            "ADN",
+            "Ácido desoxirribonucleico"
+          ]
+        },
+        {
+          "id": "darwinius_ida",
+          "nome": "Darwinius (Ida)",
+          "descricao": "Fóssil quase completo de um primata adapiforme do Eocénio médio, Darwinius masillae, achado no sítio de Messel.",
+          "variantes": [
+            "Ida",
+            "Darwinius masillae"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Raiden (Mortal Kombat)",
+        "descricao": "Deus do trovão e protetor da Terra na série de jogos de luta Mortal Kombat.",
+        "variantes": [
+          "Raiden"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mortal_kombat",
+          "nome": "Mortal Kombat",
+          "descricao": "Jogo de luta de 1992, da Midway, famoso pela violência e pelos golpes finais chamados fatalities.",
+          "variantes": [
+            "Mortal Kombat (1992)"
+          ]
+        },
+        {
+          "id": "braixen",
+          "nome": "Braixen",
+          "descricao": "Pokémon fogo da sexta geração, número 654 da Pokédex Nacional, forma intermediária entre Fennekin e Delphox, que carrega um galho na cauda.",
+          "variantes": [
+            "Tairenar"
+          ]
+        },
+        {
+          "id": "liu_kang",
+          "nome": "Liu Kang",
+          "descricao": "Monge Shaolin e campeão do torneio, protagonista da série de jogos de luta Mortal Kombat.",
+          "variantes": [
+            "Liu Kang (Mortal Kombat)"
+          ]
+        },
+        {
+          "id": "lamen",
+          "nome": "Lámen",
+          "descricao": "Prato japonês de macarrão de trigo em caldo quente, com coberturas como chāshū, nori e narutomaki.",
+          "variantes": [
+            "Ramen",
+            "Rámen"
+          ]
+        },
+        {
+          "id": "brain_virus_de_computador",
+          "nome": "Brain (vírus de computador)",
+          "descricao": "Vírus de computador de 1986 que infectava disquetes de computadores pessoais compatíveis com o IBM PC.",
+          "variantes": [
+            "Brain",
+            "Pakistani Brain"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Trevor Philips",
+        "descricao": "Um dos três protagonistas de Grand Theft Auto V.",
+        "variantes": [
+          "Trevor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paus_naipe",
+          "nome": "Paus (naipe)",
+          "descricao": "Naipe preto do baralho francês, representado por um trevo de três folhas.",
+          "variantes": [
+            "Paus",
+            "Clubs",
+            "Trevo"
+          ]
+        },
+        {
+          "id": "frevo",
+          "nome": "Frevo",
+          "descricao": "Ritmo e dança do carnaval de Pernambuco, com passos acrobáticos e sombrinhas coloridas.",
+          "variantes": []
+        },
+        {
+          "id": "luge",
+          "nome": "Luge",
+          "descricao": "Esporte olímpico de inverno em que o atleta desce deitado de costas, com os pés à frente, num pequeno trenó.",
+          "variantes": [
+            "Luge de pista natural",
+            "Trenó"
+          ]
+        },
+        {
+          "id": "treno",
+          "nome": "Trenó",
+          "descricao": "Veículo que desliza sobre gelo ou neve por meio de lâminas, puxado ou usado em descidas.",
+          "variantes": [
+            "Tobogã",
+            "Sled"
+          ]
+        },
+        {
+          "id": "terere",
+          "nome": "Tereré",
+          "descricao": "Infusão de erva-mate preparada com água gelada, tradicional no Paraguai e no Centro-Oeste brasileiro",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Sans",
+        "descricao": "Esqueleto preguiçoso e brincalhão, personagem importante do jogo Undertale.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "wobbuffet",
+          "nome": "Wobbuffet",
+          "descricao": "Pokémon do tipo Psíquico, número 202 da Pokédex Nacional.",
+          "variantes": [
+            "Sonans",
+            "Sōnansu"
+          ]
+        },
+        {
+          "id": "santos_futebol_clube",
+          "nome": "Santos Futebol Clube",
+          "descricao": "Clube de futebol da cidade de Santos, São Paulo, fundado em 1912 e onde Pelé fez carreira.",
+          "variantes": [
+            "Santos",
+            "Santos FC",
+            "Peixe"
+          ]
+        },
+        {
+          "id": "sanduiche",
+          "nome": "Sanduíche",
+          "descricao": "Alimento feito com recheio entre duas fatias de pão, nome tirado de um título nobre inglês",
+          "variantes": [
+            "Sanduba",
+            "Sandes",
+            "Sandwich",
+            "Sanduche"
+          ]
+        },
+        {
+          "id": "sansao",
+          "nome": "Sansão",
+          "descricao": "Coelhinho de pelúcia azul da Mônica, na Turma da Mônica, usado por ela para dar coelhadas.",
+          "variantes": [
+            "Sansão da Mônica"
+          ]
+        },
+        {
+          "id": "shanks",
+          "nome": "Shanks",
+          "descricao": "Pirata ruivo, capitão dos Piratas do Ruivo e inspiração de Luffy em One Piece.",
+          "variantes": [
+            "Shanks, o Ruivo",
+            "Akagami no Shanks"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Ryu",
+        "descricao": "Lutador de artes marciais e protagonista emblemático da série Street Fighter.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "ryuk",
+          "nome": "Ryuk",
+          "descricao": "Deus da morte que deixa cair o caderno no mundo humano em Death Note.",
+          "variantes": [
+            "Ryuuku"
+          ]
+        },
+        {
+          "id": "rum",
+          "nome": "Rum",
+          "descricao": "Bebida destilada de origem caribenha feita do melaço ou do caldo da cana-de-açúcar.",
+          "variantes": [
+            "Ron"
+          ]
+        },
+        {
+          "id": "staryu",
+          "nome": "Staryu",
+          "descricao": "Pokémon estrela-do-mar de água da primeira geração, número 120 da Pokédex Nacional.",
+          "variantes": [
+            "Hitodeman"
+          ]
+        },
+        {
+          "id": "try_rugbi",
+          "nome": "Try (rúgbi)",
+          "descricao": "Jogada do rúgbi em que o jogador apoia a bola no chão dentro da área de meta adversária.",
+          "variantes": [
+            "Ensaio",
+            "Try"
+          ]
+        },
+        {
+          "id": "ampharos",
+          "nome": "Ampharos",
+          "descricao": "Pokémon do tipo Elétrico da segunda geração, número 181 da Pokédex Nacional, de pescoço longo e esfera na cauda.",
+          "variantes": [
+            "Denryu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Samus Aran",
+        "descricao": "Caçadora de recompensas intergaláctica e protagonista da série Metroid.",
+        "variantes": [
+          "Samus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "albert_camus",
+          "nome": "Albert Camus",
+          "descricao": "Escritor e filósofo francês nascido na Argélia (1913–1960), autor de O Estrangeiro e O Mito de Sísifo.",
+          "variantes": [
+            "Camus"
+          ]
+        },
+        {
+          "id": "samis",
+          "nome": "Sámis",
+          "descricao": "Povo indígena do norte da Escandinávia e da península de Kola, tradicionalmente criador de renas.",
+          "variantes": [
+            "Sami",
+            "Lapões",
+            "Saami"
+          ]
+        },
+        {
+          "id": "samurai",
+          "nome": "Samurai",
+          "descricao": "Classe de guerreiros nobres do Japão pré-moderno, a serviço de senhores feudais.",
+          "variantes": [
+            "Samurais",
+            "Bushi"
+          ]
+        },
+        {
+          "id": "sms",
+          "nome": "SMS",
+          "descricao": "Serviço de mensagens curtas de texto entre celulares.",
+          "variantes": [
+            "Short Message Service",
+            "Torpedo",
+            "Mensagem de texto"
+          ]
+        },
+        {
+          "id": "sistema_unico_de_saude",
+          "nome": "Sistema Único de Saúde",
+          "descricao": "Sistema público de saúde do Brasil, previsto na Constituição de 1988.",
+          "variantes": [
+            "SUS"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Sackboy",
+        "descricao": "Personagem de pano tricotado, protagonista da série de jogos LittleBigPlanet.",
+        "variantes": [
+          "Sackperson"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tenis",
+          "nome": "Tênis",
+          "descricao": "Calçado esportivo e casual, de solado de borracha e cadarço, aqui um par de lona.",
+          "variantes": [
+            "Sneakers",
+            "Tênis de lona"
+          ]
+        },
+        {
+          "id": "sabao",
+          "nome": "Sabão",
+          "descricao": "Produto de limpeza feito pela reação de gorduras com uma base, conhecido desde a Antiguidade.",
+          "variantes": []
+        },
+        {
+          "id": "sambo",
+          "nome": "Sambo",
+          "descricao": "Arte marcial e esporte de combate criado na União Soviética nos anos 1920 e 1930.",
+          "variantes": [
+            "Sambo soviético"
+          ]
+        },
+        {
+          "id": "snickers",
+          "nome": "Snickers",
+          "descricao": "Barra de chocolate com amendoim, caramelo e nougat lançada pela americana Mars em 1930.",
+          "variantes": []
+        },
+        {
+          "id": "avental",
+          "nome": "Avental",
+          "descricao": "Peça que cobre a frente do corpo sobre a roupa; aqui, um avental tradicional bordado em ponto cruz.",
+          "variantes": [
+            "Apron"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Freddy Fazbear é distinto de todas as candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Bowser Jr."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Vault Boy não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Koopa Troopa."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Albert Wesker não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Midna não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Raiden é distinto de Mortal Kombat e Liu Kang."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Trevor Philips não está entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Sans do Undertale não está entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Ryu de Street Fighter não está entre as candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Samus Aran não está entre as candidatas."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Sackboy não está entre as candidatas."
+    }
+  ]
+}
