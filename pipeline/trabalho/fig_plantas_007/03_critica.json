@@ -1,0 +1,98 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta não exige reconhecer a planta, e a raiz não é a única parte comestível (os trechos dizem que as folhas também são). A resposta 'a raiz' não é única nem específica. Reescrita como reconhecimento direto.",
+      "reescrita": {
+        "pergunta": "Que hortaliça de raiz é esta?",
+        "resposta": "Cenoura"
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que é uma árvore frutífera da China, na Ásia. O enunciado não entrega a resposta. Os distratores são frutas tropicais parecidas ou críveis, e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que Darwin fez uma longa série de experimentos com Drosera, e as cartas são de 1860. O enunciado não nomeia a planta e exige reconhecer a figura. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A planta é de folhas longas e rígidas, e o enunciado não a nomeia. Os distratores são plantas de vaso de outras famílias e nenhum descreve a imagem. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'típica do outono' também vale para áster, um dos distratores, e dália floresce no fim do verão e no outono. Isso enfraquece a unicidade. Troco por uma pista histórica dos trechos (mais de 2.500 anos de cultivo na China) que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que flor, cultivada há mais de dois mil anos na China, é esta?",
+        "resposta": "Crisântemo",
+        "distratores": [
+          "Dália",
+          "Áster",
+          "Zínia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que muguet 'às vezes' aparece em nomes de perfumes, e 'muitos perfumes' exagera. Ajusto a redação para ser literalmente verdadeira.",
+      "reescrita": {
+        "pergunta": "Qual é o nome francês desta flor, que às vezes aparece em nomes de perfumes?",
+        "resposta": "Muguet"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O arroz tem variedades branca, preta, vermelha e outras, o que é amplamente documentado. A pista ajuda sem entregar, e a figura é necessária para identificar o cereal.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O cupuaçu é fruto amazônico segundo os trechos. Os distratores são frutas amazônicas igualmente críveis e nenhum está correto. O enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é curto e não entrega a resposta. Os distratores são plantas carnívoras conhecidas, de gêneros diferentes, e nenhum descreve a imagem de sarracênia. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O gênero Mentha é conhecido como hortelã, segundo os trechos. Os distratores são ervas aromáticas lamiáceas críveis e nenhum está correto. O enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Visto na foto' presume que o fruto aparece na imagem, o que `mostra` não confirma (só indica a árvore). O trecho confirma que o fruto se chama bolota. Removo a referência.",
+      "reescrita": {
+        "pergunta": "Como se chama o fruto desta árvore?",
+        "resposta": "Bolota"
+      }
+    }
+  ]
+}

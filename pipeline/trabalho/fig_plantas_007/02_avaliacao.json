@@ -1,0 +1,249 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cenouras de várias cores com folhas, bem nítidas e reconhecíveis.",
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que parte desta planta, em cores variadas, é a que se come?",
+      "resposta": "A raiz",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cenoura",
+        "descricao": "Hortaliça de raiz (Daucus carota subsp. sativus), da família das apiáceas.",
+        "variantes": [
+          "Daucus carota subsp. sativus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Lichieira carregada de frutos vermelhos, sem texto; reconhecível com múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que árvore frutífera asiática é esta?",
+      "resposta": "Lichia",
+      "distratores": [
+        "Longan",
+        "Rambutã",
+        "Pitanga"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lichia",
+        "descricao": "Árvore Litchi chinensis e seu fruto, da família das sapindáceas, originária do sul da China.",
+        "variantes": [
+          "Litchi",
+          "Lichieira",
+          "Litchi chinensis"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Drósera em close, com tentáculos e gotas de mucilagem, inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que naturalista britânico estudou esta planta numa longa série de experimentos no século dezenove?",
+      "resposta": "Charles Darwin",
+      "destino": 0,
+      "ancora": {
+        "nome": "Drósera",
+        "descricao": "Gênero Drosera de plantas carnívoras de folhas com tentáculos pegajosos, os orvalhinhos.",
+        "variantes": [
+          "Drosera",
+          "Orvalhinha",
+          "Sundew"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Folhas listradas e inflorescência da espada-de-são-jorge, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que planta de vaso, de folhas longas e rígidas, é esta?",
+      "resposta": "Espada-de-são-jorge",
+      "distratores": [
+        "Zamioculca",
+        "Costela-de-adão",
+        "Comigo-ninguém-pode"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Espada-de-são-jorge",
+        "descricao": "Planta ornamental Dracaena trifasciata (antes Sansevieria), de folhas longas e listradas, nativa da África tropical.",
+        "variantes": [
+          "Sansevieria",
+          "Língua-de-sogra",
+          "Dracaena trifasciata"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Flor rosa em close, nítida, com características de crisântemo; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que flor, típica do outono no hemisfério norte, é esta?",
+      "resposta": "Crisântemo",
+      "distratores": [
+        "Dália",
+        "Áster",
+        "Zínia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Crisântemo",
+        "descricao": "Flor do gênero Chrysanthemum, da família das asteráceas, originária da Ásia oriental.",
+        "variantes": [
+          "Chrysanthemum"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Lírio-do-vale em close, com flores brancas em sinos; inconfundível e nítido.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que nome francês desta flor aparece em muitos perfumes?",
+      "resposta": "Muguet",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lírio-do-vale",
+        "descricao": "Planta Convallaria majalis, de flores brancas em forma de sino e muito venenosa.",
+        "variantes": [
+          "Convallaria majalis",
+          "Muguet",
+          "Lily of the valley"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Grãos de arroz de várias cores, claramente reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cereal, em variedades de várias cores, é este?",
+      "resposta": "Arroz",
+      "destino": 0,
+      "ancora": {
+        "nome": "Arroz",
+        "descricao": "Cereal Oryza sativa, base da alimentação de metade da humanidade.",
+        "variantes": [
+          "Oryza sativa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fruto aberto de cupuaçu, sem texto que entregue a resposta (marca do vidro irrelevante); aceitável com múltipla.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta amazônica, aberta ao meio, é esta?",
+      "resposta": "Cupuaçu",
+      "distratores": [
+        "Bacuri",
+        "Taperebá",
+        "Biribá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cupuaçu",
+        "descricao": "Fruto de Theobroma grandiflorum, árvore amazônica parente do cacau.",
+        "variantes": [
+          "Cupuassu",
+          "Theobroma grandiflorum"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Flor e jarro de sarracênia, bem nítidos; com distratores de carnívoras parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que planta carnívora é esta?",
+      "resposta": "Sarracênia",
+      "distratores": [
+        "Nepente",
+        "Dionéia",
+        "Darlingtônia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sarracênia",
+        "descricao": "Gênero Sarracenia de plantas carnívoras norte-americanas de folhas em forma de jarro.",
+        "variantes": [
+          "Sarracenia",
+          "Planta-jarro"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Hortelã em flor, nítida; reconhecível com múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que erva aromática, em flor, é esta?",
+      "resposta": "Hortelã",
+      "distratores": [
+        "Manjericão",
+        "Sálvia",
+        "Alecrim"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hortelã",
+        "descricao": "Planta aromática do gênero Mentha, da família das lamiáceas.",
+        "variantes": [
+          "Menta",
+          "Mentha"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ramo de carvalho com folhas lobadas e bolotas, nítido e inconfundível.",
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Como se chama o fruto desta árvore, visto na foto?",
+      "resposta": "Bolota",
+      "destino": 0,
+      "ancora": {
+        "nome": "Carvalho",
+        "descricao": "Árvore do gênero Quercus, da família das faiáceas, cujo fruto é a bolota.",
+        "variantes": [
+          "Quercus",
+          "Oak"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Pilha de frutos verdes arredondados, parecidos com outras frutas verdes (cajá-manga, ameixas verdes, limas); não é reconhecível com resposta única."
+    }
+  ]
+}

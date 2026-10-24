@@ -1,0 +1,65 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que hortaliça de raiz é esta?",
+        "resposta": "Cenoura"
+      },
+      "existentes": [
+        {
+          "id": "q05985",
+          "pergunta": "Que raiz comestível é esta, aqui em várias cores?",
+          "resposta": "Cenoura"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que cereal, em variedades de várias cores, é este?",
+        "resposta": "Arroz"
+      },
+      "existentes": [
+        {
+          "id": "q15293",
+          "pergunta": "Que grão é este?",
+          "resposta": "Arroz"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que fruta amazônica, aberta ao meio, é esta?",
+        "resposta": "Cupuaçu"
+      },
+      "existentes": [
+        {
+          "id": "q00227",
+          "pergunta": "Com as sementes do cupuaçu se faz um produto muito parecido com chocolate. Isso porque ele é parente próximo de qual planta?",
+          "resposta": "Cacau"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas são perguntas com imagem pedindo identificar a cenoura como raiz comestível; mesmo fato.",
+      "id_existente": "q05985"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar o arroz pela imagem; quem soubesse uma saberia a outra.",
+      "id_existente": "q15293"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar o cupuaçu pela imagem; a existente pergunta o parentesco com o cacau, fato diferente."
+    }
+  ]
+}
