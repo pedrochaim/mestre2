@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado só dá a nacionalidade, que não basta para identificar o piloto. Os trechos confirmam que ele é australiano e competiu na F1.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O M23 foi usado de 1973 a 1978, então 'anos setenta' é verdadeiro. Os distratores também são carros de F1 dos anos setenta e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A figura mostra o FW14B, mas a resposta era 'FW14', que é o carro de 1991. O FW15C, distrator, também foi projetado por Newey e é do início dos anos noventa, então é defensável. A pista 'projetado por Newey' ainda ajuda a adivinhar sem ver a figura. Reescrita com o ano de 1992 e distratores de outras equipes.",
+      "reescrita": {
+        "pergunta": "Que carro de Fórmula 1 de mil novecentos e noventa e dois é este?",
+        "resposta": "Williams FW14B",
+        "distratores": [
+          "McLaren MP4/7A",
+          "Benetton B192",
+          "Ferrari F92A"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Norris foi campeão em 2025 pela McLaren. O enunciado não revela o piloto, então é preciso reconhecê-lo na figura. Nenhum distrator é correto para ele.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hunt competiu de 1973 a 1979 e era britânico. A pista de época e nacionalidade não identifica o piloto sozinha, porque houve vários britânicos nos anos setenta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zandvoort fica nos Países Baixos, como dizem os trechos. A pergunta não entrega a resposta, e os distratores são países europeus vizinhos, nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}

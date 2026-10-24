@@ -1,0 +1,164 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; a camisa diz só 'Thorne', sem nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que piloto australiano de Fórmula 1 é este?",
+      "resposta": "Daniel Ricciardo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Daniel Ricciardo",
+        "descricao": "Piloto australiano de Fórmula 1 apelidado de Honey Badger, com oito vitórias entre 2011 e 2024.",
+        "variantes": [
+          "Ricciardo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Carro de Fórmula 1 claro, em vista lateral. Os patrocinadores não dizem o modelo. O nome do piloto aparece pequeno no cockpit, mas não entrega o modelo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que modelo de carro de Fórmula 1 dos anos setenta é este?",
+      "resposta": "McLaren M23",
+      "distratores": [
+        "Lotus 72",
+        "Tyrrell 007",
+        "Brabham BT44"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "McLaren M23",
+        "descricao": "Carro de Fórmula 1 da McLaren projetado por Gordon Coppuck, usado de 1973 a 1978, com motor Ford Cosworth.",
+        "variantes": [
+          "M23"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Só aparece um piloto de capacete num cockpit, sem rosto reconhecível. A identificação viria dos patrocinadores, não da imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Trecho genérico de pista com arquibancada e placas de patrocinadores. Nada permite reconhecer o Hockenheimring, e o placar traz as siglas VET e BUT."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Carro claro e sem texto que nomeie o modelo. Reconhecível pelo bico, pela asa e pelas cores. Como o FW14 e o FW14B são visualmente quase iguais, a resposta é 'Williams FW14'.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que modelo de Fórmula 1 do início dos anos noventa, projetado por Adrian Newey, é este?",
+      "resposta": "Williams FW14",
+      "distratores": [
+        "Williams FW15C",
+        "McLaren MP4/6",
+        "Benetton B192"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Williams FW14B",
+        "descricao": "Carro de Fórmula 1 da Williams projetado por Adrian Newey, usado em 1991 e 1992 por Mansell e Patrese.",
+        "variantes": [
+          "Williams FW14",
+          "FW14B"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Rosto fora do contexto, sem nada que o identifique. Não é reconhecível pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública no pódio, sem nome escrito. A pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Por qual equipe este piloto britânico foi campeão mundial de Fórmula 1?",
+      "resposta": "McLaren",
+      "distratores": [
+        "Red Bull",
+        "Mercedes",
+        "Ferrari"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lando Norris",
+        "descricao": "Piloto britânico da McLaren, campeão mundial de Fórmula 1 em 2025.",
+        "variantes": [
+          "Norris"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O nome 'Gilles Villeneuve' está escrito no cockpit da Ferrari, o que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O logotipo e o nome 'Auto Union' estão escritos no capô, o que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública, reconhecível pelo cabelo. O texto na roupa está cortado e não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que piloto britânico dos anos setenta é este?",
+      "resposta": "James Hunt",
+      "destino": 0,
+      "ancora": {
+        "nome": "James Hunt",
+        "descricao": "Piloto britânico de Fórmula 1, campeão mundial de 1976 pela McLaren, apelidado de 'the Shunt'.",
+        "variantes": [
+          "Hunt"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista aérea sem texto legível. O circuito entre dunas e o Mar do Norte é característico. Resposta única por país.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este autódromo?",
+      "resposta": "Países Baixos",
+      "distratores": [
+        "Bélgica",
+        "Alemanha",
+        "Inglaterra"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Circuito de Zandvoort",
+        "descricao": "Autódromo nas dunas junto ao Mar do Norte, em Zandvoort, nos Países Baixos, sede do Grande Prêmio da Holanda.",
+        "variantes": [
+          "Circuit Zandvoort",
+          "Zandvoort"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A faixa 'CIRCUIT PAUL RICARD' aparece em letras grandes, o que entrega a resposta."
+    }
+  ]
+}
