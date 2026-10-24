@@ -1,0 +1,205 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto de ação clara, sem nome visível (só marcas). Reconhecimento moderado, então múltipla.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este tenista americano, campeão de Roland Garros aos dezessete anos?",
+      "resposta": "Michael Chang",
+      "distratores": [
+        "Andre Agassi",
+        "Pete Sampras",
+        "Jim Courier"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Michael Chang",
+        "descricao": "Ex-tenista norte-americano, campeão de Roland Garros em 1989.",
+        "variantes": [
+          "Michael Te-pei Chang"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Retrato fechado de homem de suéter, sem contexto de tênis, com texto parcial ao fundo; não reconhecível pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto com medalha de bronze de Tóquio: a resposta não é única diante da imagem (outra brasileira, Laura Pigossi, também ganhou bronze), e a tenista é pouco reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública muito conhecida, sem texto que entregue o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Com qual tenista esta ex-tenista russa venceu duplas do Aberto da Austrália?",
+      "resposta": "Martina Hingis",
+      "distratores": [
+        "Lindsay Davenport",
+        "Monica Seles",
+        "Jana Novotná"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Anna Kournikova",
+        "descricao": "Ex-tenista russa, número 8 do mundo em simples e campeã de duplas com Martina Hingis.",
+        "variantes": [
+          "Anna Sergeyevna Kournikova"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto clara e sem texto identificador; reconhecimento moderado, então múltipla com distratores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta tenista tunisiana?",
+      "resposta": "Ons Jabeur",
+      "distratores": [
+        "Paula Badosa",
+        "Garbiñe Muguruza",
+        "Elina Svitolina"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ons Jabeur",
+        "descricao": "Tenista tunisiana, número 2 do mundo e finalista de três Grand Slams.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto histórica em preto e branco, tenista não reconhecível pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem nome visível (só a marca Asics); múltipla com distratores da mesma nacionalidade e aparência.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este tenista?",
+      "resposta": "Gaël Monfils",
+      "distratores": [
+        "Jo-Wilfried Tsonga",
+        "Richard Gasquet",
+        "Gilles Simon"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gaël Monfils",
+        "descricao": "Ex-tenista francês, número 6 do mundo, conhecido pelo estilo acrobático.",
+        "variantes": [
+          "Gael Monfils"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem nome visível; pergunta vai além do nome sem entregá-lo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que compatriota treinou este tenista croata entre 2013 e 2016?",
+      "resposta": "Goran Ivanišević",
+      "distratores": [
+        "Ivan Ljubičić",
+        "Ivo Karlović",
+        "Mario Ančić"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Marin Čilić",
+        "descricao": "Tenista croata, campeão do US Open de 2014 e finalista de Wimbledon em 2017.",
+        "variantes": [
+          "Marin Cilic"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto antiga de baixa resolução, pouco legível no celular e jogador não reconhecível pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido; só aparece a marca Babolat, sem nome. Múltipla com distratores de Wimbledon.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este ex-tenista, de saque potente e canhoto?",
+      "resposta": "Goran Ivanišević",
+      "distratores": [
+        "Boris Becker",
+        "Richard Krajicek",
+        "Michael Stich"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Goran Ivanišević",
+        "descricao": "Ex-tenista croata, campeão de Wimbledon em 2001 como convidado.",
+        "variantes": [
+          "Goran Ivanisevic"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida de ação; sem nome visível. O cenário é Roland Garros, mas o título perguntado é outro, o que torna a pergunta justa.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que torneio de Grand Slam este tenista venceu?",
+      "resposta": "US Open",
+      "distratores": [
+        "Roland Garros",
+        "Wimbledon",
+        "Aberto da Austrália"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dominic Thiem",
+        "descricao": "Ex-tenista austríaco, campeão do US Open de 2020.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida de tenista em quadra, sem nome visível; múltipla com distratores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta tenista?",
+      "resposta": "Jelena Ostapenko",
+      "distratores": [
+        "Anastasija Sevastova",
+        "Anett Kontaveit",
+        "Aryna Sabalenka"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jelena Ostapenko",
+        "descricao": "Tenista letã, campeã de Roland Garros em 2017.",
+        "variantes": [
+          "Jeļena Ostapenko",
+          "Aljona Ostapenko"
+        ]
+      }
+    }
+  ]
+}

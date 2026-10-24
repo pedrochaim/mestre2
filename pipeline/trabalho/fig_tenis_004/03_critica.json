@@ -1,0 +1,84 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz o feito famoso (mais jovem campeão de Roland Garros, aos dezessete anos), que entrega a resposta com a imagem coberta. Troquei por uma pista de época, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Quem é este ex-tenista americano, campeão de um torneio de Grand Slam em 1989?",
+        "resposta": "Michael Chang",
+        "distratores": [
+          "Andre Agassi",
+          "Pete Sampras",
+          "Jim Courier"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Kournikova venceu duplas do Aberto da Austrália com Hingis, em 1999 e 2002. A pergunta exige reconhecer a tenista, e os distratores são do mesmo tipo e não são a parceira dela.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Com a imagem coberta, \"tenista tunisiana\" já identifica Ons Jabeur, e os distratores não são tunisianos. Qualquer outra pista famosa dela também entregaria a resposta, então não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é de reconhecimento puro, sem pista no enunciado. Os distratores são tenistas franceses da mesma época, e nenhum deles é a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos só confirmam o início da parceria (final de 2013). O ano de 2016 como fim não está neles, então retirei esse limite. A versão nova mantém a frase \"a partir de 2013\", que os trechos sustentam.",
+      "reescrita": {
+        "pergunta": "Que compatriota passou a ser o técnico deste tenista croata a partir de 2013?",
+        "resposta": "Goran Ivanišević",
+        "distratores": [
+          "Ivan Ljubičić",
+          "Ivo Karlović",
+          "Mario Ančić"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "\"Saque potente e canhoto\" é pista que quase entrega a resposta, e os distratores são todos destros ou não têm a mesma nacionalidade. Troquei por \"croata\", que ajuda sem entregar, e usei distratores croatas.",
+      "reescrita": {
+        "pergunta": "Quem é este ex-tenista croata?",
+        "resposta": "Goran Ivanišević",
+        "distratores": [
+          "Ivan Ljubičić",
+          "Mario Ančić",
+          "Ivo Karlović"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Thiem ganhou um único Grand Slam, o US Open de 2020, então a resposta é única. A pergunta só se responde reconhecendo a figura, e os distratores são os outros três Grand Slams.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é de reconhecimento puro, sem pista no enunciado. Os distratores são tenistas do Leste Europeu e do Báltico, críveis e do mesmo tipo.",
+      "reescrita": null
+    }
+  ]
+}
