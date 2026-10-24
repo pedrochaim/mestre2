@@ -1,0 +1,158 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato histórico de figura pública, sem texto; pergunta vai além do nome.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este zoólogo alemão popularizou Darwin na Alemanha e defendeu uma teoria refutada sobre o desenvolvimento dos embriões. Que teoria é essa?",
+      "resposta": "Teoria da recapitulação (lei biogenética)",
+      "ancora": {
+        "nome": "Ernst Haeckel",
+        "descricao": "Zoólogo e naturalista alemão do século dezenove que popularizou o darwinismo e propôs a teoria da recapitulação.",
+        "variantes": [
+          "Ernst Heinrich Philipp August Haeckel"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Ossos soltos numa vitrine, sem forma que permita reconhecer a Dama Vermelha; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Paisagem de uma dolina verde sem elementos distintivos; o Homem de Altamura não aparece e o local não é reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem texto; pergunta de nível 3 sobre sua descoberta famosa. Foto granulada, mas legível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta arqueóloga britânica encontrou, em 1976, pegadas de hominídeos preservadas em cinzas vulcânicas na Tanzânia. Como se chama esse sítio?",
+      "resposta": "Laetoli",
+      "ancora": {
+        "nome": "Mary Leakey",
+        "descricao": "Arqueóloga e paleoantropóloga britânica que descobriu as pegadas de Laetoli e fósseis de Homo habilis e Paranthropus boisei.",
+        "variantes": [
+          "Mary Douglas Leakey",
+          "Mary Douglas Nicol"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Crânio reconstruído, fundo preto limpo, sem texto; reconhecível por aficionados, por isso múltipla escolha.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país foram encontrados os fósseis em que se baseia este crânio reconstruído de um humano arcaico?",
+      "resposta": "França",
+      "distratores": [
+        "Espanha",
+        "Itália",
+        "Alemanha"
+      ],
+      "ancora": {
+        "nome": "Homem de Tautavel",
+        "descricao": "Humano arcaico do Pleistoceno Médio, de cerca de 450 mil anos, encontrado na caverna de Arago, em Tautavel, na França.",
+        "variantes": [
+          "Tautavel Man",
+          "Homo erectus tautavelensis",
+          "Arago 21"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida do gorila branco, único e inconfundível, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que zoológico viveu quase quarenta anos este gorila de pelagem branca?",
+      "resposta": "Zoológico de Barcelona",
+      "distratores": [
+        "Zoológico de Madri",
+        "Zoológico de Lisboa",
+        "Zoológico de Paris"
+      ],
+      "ancora": {
+        "nome": "Floco de Neve, o gorila albino",
+        "descricao": "Gorila-das-planícies-ocidentais de pelagem branca, único conhecido, que viveu no Zoológico de Barcelona até 2003.",
+        "variantes": [
+          "Floquet de Neu",
+          "Copito de Nieve",
+          "Snowflake"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem texto; a veste clerical ajuda sem entregar; pergunta de nível 3.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este padre jesuíta francês participou, na China, da descoberta de fósseis de um famoso hominídeo. Que hominídeo é esse?",
+      "resposta": "Homem de Pequim",
+      "ancora": {
+        "nome": "Pierre Teilhard de Chardin",
+        "descricao": "Padre jesuíta, paleontólogo e filósofo francês que participou da descoberta do Homem de Pequim.",
+        "variantes": [
+          "Teilhard de Chardin"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "As placas da vitrine trazem 'Lantian Man' em inglês e chinês, entregando a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Pedra lascada com régua; um núcleo de pedra qualquer não é reconhecível como olduvaiense e a resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Estatueta icônica, sem texto, reconhecível e única.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Esta estatueta de marfim de mamute, a mais antiga representação humana indiscutível, foi encontrada numa caverna de que país?",
+      "resposta": "Alemanha",
+      "ancora": {
+        "nome": "Vênus de Hohle Fels",
+        "descricao": "Estatueta paleolítica de marfim de mamute, de cerca de 40 mil anos, achada em 2008 na caverna Hohle Fels, perto de Schelklingen.",
+        "variantes": [
+          "Vênus de Schelklingen",
+          "Venus of Hohle Fels"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Crânio restaurado em azul e marrom, com pernas de visitantes ao fundo; não é claramente reconhecível como A. garhi e pode ser confundido com outro australopiteco."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A etiqueta no peito traz o nome 'Walter Neves', que entrega a resposta, e a foto é de um evento comum."
+    }
+  ]
+}

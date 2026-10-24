@@ -1,0 +1,57 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'popularizou Darwin na Alemanha' mais 'teoria refutada sobre embriões' entrega o zoólogo e a teoria sem olhar a figura. Resposta com dois nomes entre parênteses. Sem conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Pegadas de hominídeos em cinzas vulcânicas na Tanzânia levam a Laetoli sem a figura. Além disso, 1976 é impreciso: a trilha de hominídeos foi achada depois (1978), e o trecho fala em 1976 a 1981.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia o assunto; França confirmada nos trechos; distratores plausíveis, curtos e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Gorila de pelagem branca' identifica o único gorila albino conhecido sem olhar a figura. Remove-se a pista e pergunta-se a cidade, que o enunciado não entrega. O tempo de permanência (1966 a 2003) é compatível com 'quase quarenta anos'.",
+      "reescrita": {
+        "pergunta": "Este gorila, famoso no mundo todo, viveu quase quarenta anos num zoológico europeu. Em que cidade ficava esse zoológico?",
+        "resposta": "Barcelona",
+        "distratores": [
+          "Madri",
+          "Lisboa",
+          "Paris"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português confirma a participação na descoberta do Homem de Pequim. 'Na China' distingue do caso Piltdown. O enunciado não nomeia a pessoa.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'A mais antiga representação humana indiscutível' não é literalmente verdadeira: o trecho em português diz que o Homem-Leão é mais antigo, e há outras peças contestadas. Troca-se a superlativa por fatos dos trechos (marfim de mamute, 2008).",
+      "reescrita": {
+        "pergunta": "Esta estatueta paleolítica de marfim de mamute foi encontrada em 2008 numa caverna do Jura da Suábia. Em que país fica essa caverna?",
+        "resposta": "Alemanha"
+      }
+    }
+  ]
+}

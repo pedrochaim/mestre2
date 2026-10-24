@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta estatueta paleolítica de marfim de mamute foi encontrada em 2008 numa caverna do Jura da Suábia. Em que país fica essa caverna?",
+        "resposta": "Alemanha"
+      },
+      "existentes": [
+        {
+          "id": "q13960",
+          "pergunta": "Que estatueta paleolítica de marfim é esta?",
+          "resposta": "Vênus de Hohle Fels"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pede o nome da estatueta; a nova pede o país da caverna. Saber que é a Vênus de Hohle Fels não garante responder Alemanha, e são fatos distintos."
+    }
+  ]
+}
