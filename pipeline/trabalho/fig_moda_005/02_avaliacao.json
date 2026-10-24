@@ -1,0 +1,145 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Close da orelha de uma pessoa comum, com vários brincos e piercings diferentes; a resposta não é única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida, fundo branco, sem texto; o coturno de couro com polainas fivelas é reconhecível.",
+      "tipo": "multipla",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que tipo de calçado é este?",
+      "resposta": "Coturno",
+      "distratores": [
+        "Bota Chelsea",
+        "Bota de vaqueiro",
+        "Chukka"
+      ],
+      "ancora": {
+        "nome": "Coturno",
+        "descricao": "Bota militar de couro, com cano alto e cadarço, projetada para soldados em combate.",
+        "variantes": [
+          "Bota de combate",
+          "Combat boot"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "É um desenho a tinta de uma gola, e a regra pede foto para peças que podem ser fotografadas."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Gravura histórica colorida em que o poncho listrado domina a figura, sem texto; reconhecível.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que agasalho listrado cobre os ombros deste homem?",
+      "resposta": "Poncho",
+      "ancora": {
+        "nome": "Poncho",
+        "descricao": "Peça de agasalho solta, de tecido, com abertura para a cabeça, originária das Américas.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Retrato de uma jovem comum em primeiro plano, e outra pessoa parcialmente visível."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Estampa de losangos com linhas cruzadas bem nítida, sem texto; legível no celular.",
+      "tipo": "multipla",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que estampa é esta?",
+      "resposta": "Argyle",
+      "distratores": [
+        "Pied-de-poule",
+        "Xadrez tartan",
+        "Xadrez vichy"
+      ],
+      "ancora": {
+        "nome": "Estampa argyle",
+        "descricao": "Estampa de losangos coloridos sobrepostos por linhas diagonais cruzadas, típica de meias e suéteres.",
+        "variantes": [
+          "Argyll",
+          "Xadrez losango"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Colar de pérolas e argolas de metal num manequim, sem pessoa nem texto; claro e reconhecível.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que joia está exposta neste manequim?",
+      "resposta": "Colar",
+      "ancora": {
+        "nome": "Colar",
+        "descricao": "Joia usada ao redor do pescoço, aqui de correntes de argolas com pérolas.",
+        "variantes": [
+          "Gargantilha"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto clara de um par de sapatos azuis com tira e fivela; o texto na palmilha é só marca, não entrega a resposta.",
+      "tipo": "multipla",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que tipo de sapato é este?",
+      "resposta": "Sapato boneca",
+      "distratores": [
+        "Sapato Oxford",
+        "Mocassim",
+        "Sandália gladiadora"
+      ],
+      "ancora": {
+        "nome": "Sapato boneca",
+        "descricao": "Sapato fechado e baixo, com uma tira sobre o peito do pé, de bico arredondado.",
+        "variantes": [
+          "Mary Jane",
+          "Sapato Mary Jane"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto de um cantor com outra pessoa de chapéu ao fundo; trilby e fedora se confundem, a resposta não é única, e a pessoa domina a imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Modelo desconhecida em desfile, uma pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto de uma mulher comum posando num parque, em primeiro plano."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Desenho a tinta, ambíguo e pouco legível, que pode ser lido como cachecol ou outro tipo de gravata."
+    }
+  ]
+}
