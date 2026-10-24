@@ -187297,5 +187297,70 @@
       "https://en.wikipedia.org/wiki/B%C5%8Dgu",
       "https://pt.wikipedia.org/wiki/B%C5%8Dgu"
     ]
+  },
+  {
+    "id": "tokamak",
+    "nome": "Tokamak",
+    "descricao": "Máquina que confina plasma em forma de toro com campos magnéticos para obter fusão nuclear controlada.",
+    "variantes": [
+      "ITER",
+      "Reator de fusão tokamak"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tokamak",
+      "https://pt.wikipedia.org/wiki/Tokamak"
+    ]
+  },
+  {
+    "id": "energia_eolica_offshore",
+    "nome": "Energia eólica offshore",
+    "descricao": "Geração de eletricidade por turbinas eólicas instaladas em corpos de água, em geral no mar.",
+    "variantes": [
+      "Parque eólico offshore",
+      "Eólica marítima"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Offshore_wind_power",
+      "https://pt.wikipedia.org/wiki/Energia_e%C3%B3lica_offshore"
+    ]
+  },
+  {
+    "id": "curva_normal_distribuicao_gaussiana",
+    "nome": "Curva normal (distribuição gaussiana)",
+    "descricao": "Distribuição de probabilidade contínua simétrica em forma de sino, definida por média e variância.",
+    "variantes": [
+      "Distribuição normal",
+      "Gaussiana",
+      "Curva de sino"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Normal_distribution",
+      "https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_normal"
+    ]
+  },
+  {
+    "id": "turbina_darrieus",
+    "nome": "Turbina Darrieus",
+    "descricao": "Turbina eólica de eixo vertical com pás curvas, patenteada pelo francês Georges Darrieus em 1926.",
+    "variantes": [
+      "Turbina eólica Darrieus",
+      "Darrieus wind turbine"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Darrieus_wind_turbine"
+    ]
+  },
+  {
+    "id": "compasso",
+    "nome": "Compasso",
+    "descricao": "Instrumento de desenho técnico com duas hastes, usado para traçar circunferências e arcos.",
+    "variantes": [
+      "Compasso de desenho",
+      "Compasso de ponta seca"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Compass_%28drawing_tool%29",
+      "https://pt.wikipedia.org/wiki/Compasso_%28geometria%29"
+    ]
   }
 ]

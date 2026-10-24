@@ -1,0 +1,587 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Dado",
+        "descricao": "Objeto lançável com faces marcadas, usado para gerar valores aleatórios em jogos; aqui, dados poliédricos de RPG.",
+        "variantes": [
+          "Dados",
+          "Dado poliédrico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dado",
+          "nome": "Dado",
+          "descricao": "Pequeno cubo com faces numeradas de um a seis, usado para sortear números em jogos.",
+          "variantes": [
+            "Dice",
+            "Dado de seis faces"
+          ]
+        },
+        {
+          "id": "dados_poliedricos",
+          "nome": "Dados poliédricos",
+          "descricao": "Conjunto de dados de várias faces, como os usados em jogos de RPG de mesa.",
+          "variantes": [
+            "Copo de dados",
+            "Dados de RPG",
+            "Dados",
+            "Dice"
+          ]
+        },
+        {
+          "id": "dardos",
+          "nome": "Dardos",
+          "descricao": "Jogo de salão em que os jogadores arremessam pequenos dardos contra um alvo circular dividido em vinte setores.",
+          "variantes": [
+            "Darts",
+            "Jogo de dardos"
+          ]
+        },
+        {
+          "id": "lancamento_de_dardo",
+          "nome": "Lançamento de dardo",
+          "descricao": "Prova de atletismo em que se arremessa uma lança o mais longe possível.",
+          "variantes": [
+            "Arremesso de dardo",
+            "Javelin throw",
+            "Dardo"
+          ]
+        },
+        {
+          "id": "tao",
+          "nome": "Tao",
+          "descricao": "Conceito central da filosofia chinesa, que dá nome ao taoismo.",
+          "variantes": [
+            "Dao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tokamak",
+        "descricao": "Máquina que confina plasma em forma de toro com campos magnéticos para obter fusão nuclear controlada.",
+        "variantes": [
+          "ITER",
+          "Reator de fusão tokamak"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "inter_de_milao",
+          "nome": "Inter de Milão",
+          "descricao": "Football Club Internazionale Milano, clube de futebol de Milão, na Itália, fundado em 1908.",
+          "variantes": [
+            "Internazionale",
+            "Inter Milan",
+            "Inter"
+          ]
+        },
+        {
+          "id": "sport_club_internacional",
+          "nome": "Sport Club Internacional",
+          "descricao": "Clube de futebol de Porto Alegre, no Rio Grande do Sul, fundado em 1909, conhecido como Colorado.",
+          "variantes": [
+            "Internacional",
+            "Inter",
+            "Inter de Porto Alegre",
+            "Internacional de Porto Alegre"
+          ]
+        },
+        {
+          "id": "bocio",
+          "nome": "Bócio",
+          "descricao": "Aumento de volume da glândula tireoide, visível no pescoço.",
+          "variantes": [
+            "Papeira",
+            "Goitre",
+            "Goiter"
+          ]
+        },
+        {
+          "id": "adolf_hitler",
+          "nome": "Adolf Hitler",
+          "descricao": "Líder do Partido Nazista e ditador da Alemanha de 1933 a 1945.",
+          "variantes": [
+            "Hitler",
+            "Führer"
+          ]
+        },
+        {
+          "id": "santorini",
+          "nome": "Santorini",
+          "descricao": "Ilha vulcânica grega das Cíclades, no mar Egeu, formada ao redor de uma caldeira.",
+          "variantes": [
+            "Thira",
+            "Thera",
+            "Tera"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Lâmpada incandescente",
+        "descricao": "Lâmpada elétrica que produz luz aquecendo um filamento dentro de um bulbo de vidro.",
+        "variantes": [
+          "Lâmpada de filamento",
+          "Lâmpada comum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lampada_incandescente",
+          "nome": "Lâmpada incandescente",
+          "descricao": "Lâmpada elétrica que produz luz aquecendo um filamento dentro de um bulbo de vidro.",
+          "variantes": [
+            "Lâmpada de filamento",
+            "Lâmpada elétrica incandescente",
+            "Lâmpada elétrica"
+          ]
+        },
+        {
+          "id": "pardal",
+          "nome": "Pardal",
+          "descricao": "Pequena ave (Passer domesticus), macho com garganta preta, comum em áreas urbanas do mundo.",
+          "variantes": [
+            "Pardal-comum",
+            "Passer domesticus"
+          ]
+        },
+        {
+          "id": "lampada_fluorescente_compacta",
+          "nome": "Lâmpada fluorescente compacta",
+          "descricao": "Lâmpada fluorescente de tubo dobrado ou em espiral, feita para substituir a lâmpada incandescente.",
+          "variantes": [
+            "Lâmpada compacta",
+            "Lâmpada de baixo consumo",
+            "CFL"
+          ]
+        },
+        {
+          "id": "lampada_fluorescente",
+          "nome": "Lâmpada fluorescente",
+          "descricao": "Lâmpada de descarga em gás que produz luz pela excitação de vapor de mercúrio e de um revestimento fluorescente.",
+          "variantes": [
+            "Lâmpada fluorescente compacta"
+          ]
+        },
+        {
+          "id": "raposa_vermelha",
+          "nome": "Raposa-vermelha",
+          "descricao": "Canídeo de pelagem alaranjada e patas pretas, a maior das raposas verdadeiras (Vulpes vulpes).",
+          "variantes": [
+            "Vulpes vulpes",
+            "Raposa-comum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Energia eólica offshore",
+        "descricao": "Geração de eletricidade por turbinas eólicas instaladas em corpos de água, em geral no mar.",
+        "variantes": [
+          "Parque eólico offshore",
+          "Eólica marítima"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "brisa_maritima",
+          "nome": "Brisa marítima",
+          "descricao": "Vento local que alterna entre o mar e a terra ao longo do dia por causa da diferença de aquecimento entre eles",
+          "variantes": [
+            "Brisa terrestre",
+            "Sea breeze"
+          ]
+        },
+        {
+          "id": "revolucao_haitiana",
+          "nome": "Revolução Haitiana",
+          "descricao": "Revolta de escravizados na colônia francesa de Saint-Domingue, entre 1791 e 1804, que resultou na independência do Haiti.",
+          "variantes": [
+            "Haitian Revolution"
+          ]
+        },
+        {
+          "id": "pelicano_pardo",
+          "nome": "Pelicano-pardo",
+          "descricao": "Pelicano marinho das Américas (Pelecanus occidentalis) que mergulha para pescar.",
+          "variantes": [
+            "Pelicano-marrom",
+            "Pelecanus occidentalis"
+          ]
+        },
+        {
+          "id": "gato_de_areia",
+          "nome": "Gato-de-areia",
+          "descricao": "Pequeno felino selvagem (Felis margarita) dos desertos arenosos e pedregosos da África e da Ásia.",
+          "variantes": [
+            "Gato-do-deserto",
+            "Felis margarita",
+            "Sand cat"
+          ]
+        },
+        {
+          "id": "argentina",
+          "nome": "Argentina",
+          "descricao": "País da América do Sul cuja capital é Buenos Aires.",
+          "variantes": [
+            "República Argentina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Usina de Três Gargantas",
+        "descricao": "Usina hidrelétrica no rio Yangtzé, na China, com uma das maiores barragens do mundo.",
+        "variantes": [
+          "Usina hidrelétrica",
+          "Barragem das Três Gargantas",
+          "Three Gorges Dam"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "usina_de_tres_gargantas",
+          "nome": "Usina de Três Gargantas",
+          "descricao": "Grande usina hidrelétrica e barragem na província de Hubei, na China.",
+          "variantes": [
+            "Three Gorges Dam",
+            "Barragem das Três Gargantas",
+            "Três Gargantas"
+          ]
+        },
+        {
+          "id": "usina_de_itaipu",
+          "nome": "Usina de Itaipu",
+          "descricao": "Usina hidrelétrica binacional de Brasil e Paraguai, no rio Paraná.",
+          "variantes": [
+            "Itaipu",
+            "Itaipu Binacional",
+            "Itaipu Dam",
+            "Usina Hidrelétrica de Itaipu"
+          ]
+        },
+        {
+          "id": "usina_hidreletrica_reversivel",
+          "nome": "Usina hidrelétrica reversível",
+          "descricao": "Usina com dois reservatórios em alturas diferentes que armazena energia bombeando água para cima e a gera deixando-a descer.",
+          "variantes": [
+            "Hidrelétrica de bombeamento",
+            "Pumped storage"
+          ]
+        },
+        {
+          "id": "urna_eletronica_brasileira",
+          "nome": "Urna eletrônica brasileira",
+          "descricao": "Equipamento eletrônico de votação usado nas eleições do Brasil.",
+          "variantes": [
+            "Urna eletrônica"
+          ]
+        },
+        {
+          "id": "usina_de_belo_monte",
+          "nome": "Usina de Belo Monte",
+          "descricao": "Usina hidrelétrica no município de Altamira, no Pará, construída na década de 2010.",
+          "variantes": [
+            "Belo Monte",
+            "Belo Monte Dam",
+            "Usina Hidrelétrica de Belo Monte",
+            "UHE Belo Monte"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Curva normal (distribuição gaussiana)",
+        "descricao": "Distribuição de probabilidade contínua simétrica em forma de sino, definida por média e variância.",
+        "variantes": [
+          "Distribuição normal",
+          "Gaussiana",
+          "Curva de sino"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "guiana",
+          "nome": "Guiana",
+          "descricao": "País do norte da América do Sul, de língua oficial inglesa, cuja capital é Georgetown.",
+          "variantes": [
+            "Guyana",
+            "República Cooperativa da Guiana"
+          ]
+        },
+        {
+          "id": "curva_de_keeling",
+          "nome": "Curva de Keeling",
+          "descricao": "Gráfico das medições contínuas da concentração de gás carbônico na atmosfera, iniciadas em 1958 por Charles David Keeling.",
+          "variantes": [
+            "Keeling Curve"
+          ]
+        },
+        {
+          "id": "aranha_mergulhadora",
+          "nome": "Aranha-mergulhadora",
+          "descricao": "Aranha europeia e asiática (Argyroneta aquatica) que vive quase toda a vida debaixo d'água.",
+          "variantes": [
+            "Argyroneta aquatica",
+            "Diving bell spider",
+            "Aranha-de-sino"
+          ]
+        },
+        {
+          "id": "carl_friedrich_gauss",
+          "nome": "Carl Friedrich Gauss",
+          "descricao": "Matemático, astrônomo e físico alemão, o príncipe dos matemáticos.",
+          "variantes": [
+            "Johann Carl Friedrich Gauss",
+            "Gauß",
+            "Gauss"
+          ]
+        },
+        {
+          "id": "cueva_de_las_manos",
+          "nome": "Cueva de las Manos",
+          "descricao": "Caverna na Patagônia com centenas de contornos de mãos pintados há milhares de anos.",
+          "variantes": [
+            "Caverna das Mãos",
+            "Cave of the Hands"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Turbina Darrieus",
+        "descricao": "Turbina eólica de eixo vertical com pás curvas, patenteada pelo francês Georges Darrieus em 1926.",
+        "variantes": [
+          "Turbina eólica Darrieus",
+          "Darrieus wind turbine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "turbina_eolica",
+          "nome": "Turbina eólica",
+          "descricao": "Máquina de eixo horizontal com três pás que converte a energia cinética do vento em energia elétrica.",
+          "variantes": [
+            "Aerogerador",
+            "Gerador eólico"
+          ]
+        },
+        {
+          "id": "chapada_do_araripe",
+          "nome": "Chapada do Araripe",
+          "descricao": "Planalto do Nordeste brasileiro, famoso por fósseis do Cretáceo, como peixes e pterossauros.",
+          "variantes": [
+            "Araripe",
+            "Bacia do Araripe"
+          ]
+        },
+        {
+          "id": "venus_de_urbino",
+          "nome": "Vênus de Urbino",
+          "descricao": "Quadro de Ticiano de 1538, na Galeria Uffizi.",
+          "variantes": []
+        },
+        {
+          "id": "torben_grael",
+          "nome": "Torben Grael",
+          "descricao": "Torben Grael, velejador brasileiro com cinco medalhas olímpicas, conhecido como Turbine.",
+          "variantes": [
+            "Torben Schmidt Grael",
+            "Turbine"
+          ]
+        },
+        {
+          "id": "turmalina_paraiba",
+          "nome": "Turmalina Paraíba",
+          "descricao": "Variedade de turmalina de azul ou verde neon, colorida pelo cobre, descoberta no fim dos anos oitenta no Nordeste do Brasil.",
+          "variantes": [
+            "Paraíba tourmaline"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Compasso",
+        "descricao": "Instrumento de desenho técnico com duas hastes, usado para traçar circunferências e arcos.",
+        "variantes": [
+          "Compasso de desenho",
+          "Compasso de ponta seca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bussola",
+          "nome": "Bússola",
+          "descricao": "Instrumento de orientação com agulha magnetizada que aponta para o norte magnético.",
+          "variantes": [
+            "Compasso magnético",
+            "Compass",
+            "Agulha magnética"
+          ]
+        },
+        {
+          "id": "palacio_de_cnossos",
+          "nome": "Palácio de Cnossos",
+          "descricao": "Grande complexo palaciano da Idade do Bronze em Creta, centro da civilização minoica.",
+          "variantes": [
+            "Cnossos",
+            "Knossos",
+            "Cnosso"
+          ]
+        },
+        {
+          "id": "colosso_de_rodes",
+          "nome": "Colosso de Rodes",
+          "descricao": "Estátua gigante de bronze erguida na ilha de Rodes no século três a.C., uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Colossus of Rhodes"
+          ]
+        },
+        {
+          "id": "croissant",
+          "nome": "Croissant",
+          "descricao": "Pão folhado amanteigado em forma de meia-lua, símbolo da padaria francesa",
+          "variantes": [
+            "Croassã"
+          ]
+        },
+        {
+          "id": "argentina_x_inglaterra_na_copa_de_1986",
+          "nome": "Argentina x Inglaterra na Copa de 1986",
+          "descricao": "Partida da Copa do Mundo de 1986 em que Maradona marcou o gol de mão e o chamado Gol do Século.",
+          "variantes": [
+            "Mão de Deus",
+            "La mano de Dios",
+            "Argentina 2 x 1 Inglaterra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Mar de Aral",
+        "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde os anos 1960.",
+        "variantes": [
+          "Lago de Aral",
+          "Aral Sea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea",
+            "Lago de Aral"
+          ]
+        },
+        {
+          "id": "lago_de_lava",
+          "nome": "Lago de lava",
+          "descricao": "Grande volume de lava fundida contido numa cratera ou depressão de um vulcão.",
+          "variantes": [
+            "Lava lake"
+          ]
+        },
+        {
+          "id": "caral",
+          "nome": "Caral",
+          "descricao": "Sítio arqueológico com pirâmides e praças no vale do Supe, no Peru, centro da civilização Norte Chico.",
+          "variantes": [
+            "Caral-Supe"
+          ]
+        },
+        {
+          "id": "arale_norimaki",
+          "nome": "Arale Norimaki",
+          "descricao": "Menina robô protagonista do mangá Dr. Slump, de Akira Toriyama.",
+          "variantes": [
+            "Arale",
+            "Dr. Slump"
+          ]
+        },
+        {
+          "id": "mar_dos_sargacos",
+          "nome": "Mar dos Sargaços",
+          "descricao": "Região do Atlântico Norte coberta de algas flutuantes, a leste das Bermudas.",
+          "variantes": [
+            "Sargasso Sea",
+            "Mar de Sargaços"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "dados_poliedricos",
+      "motivo": "Proposta trata de dados poliédricos de RPG, igual à candidata dados_poliedricos; o dado cúbico comum é outra entidade."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Tokamak (reator de fusão) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "lampada_incandescente",
+      "motivo": "Mesma descrição e mesmo objeto."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Energia eólica offshore não aparece entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "usina_de_tres_gargantas",
+      "motivo": "Mesma usina/barragem Três Gargantas na China."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Curva normal é um conceito estatístico; Gauss é a pessoa, entidade diferente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Turbina Darrieus é de eixo vertical, diferente da turbina eólica genérica de eixo horizontal."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Compasso de desenho é diferente da bússola, mesmo havendo variante 'compasso magnético'."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "mar_de_aral",
+      "motivo": "Mesmo lago salgado da Ásia Central."
+    }
+  ]
+}

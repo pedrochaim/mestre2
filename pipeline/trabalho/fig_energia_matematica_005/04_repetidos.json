@@ -1,0 +1,102 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Estes objetos de várias faces numeradas são típicos de que tipo de jogo de mesa?",
+        "resposta": "RPG de mesa"
+      },
+      "existentes": [
+        {
+          "id": "q14016",
+          "pergunta": "Que objetos de jogo são estes, de vários formatos e usados em jogos de mesa?",
+          "resposta": "Dados"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que metal forma o filamento fino que brilha dentro deste objeto?",
+        "resposta": "Tungstênio"
+      },
+      "existentes": [
+        {
+          "id": "q03730",
+          "pergunta": "Que tipo de lâmpada é esta?",
+          "resposta": "Incandescente"
+        },
+        {
+          "id": "q07319",
+          "pergunta": "Nas lâmpadas incandescentes comuns, o filamento que brilha ao esquentar é feito de qual metal, de altíssimo ponto de fusão?",
+          "resposta": "Tungstênio"
+        },
+        {
+          "id": "q08731",
+          "pergunta": "Por volta de 1880, Thomas Edison fez suas lâmpadas durarem muito mais com um filamento feito de que planta carbonizada?",
+          "resposta": "Bambu"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que usina hidrelétrica é esta?",
+        "resposta": "Três Gargantas"
+      },
+      "existentes": [
+        {
+          "id": "q04153",
+          "pergunta": "A gigantesca usina hidrelétrica chinesa de Três Gargantas represa as águas de que rio?",
+          "resposta": "Yangtzé"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que corpo d'água da Ásia Central é este?",
+        "resposta": "Mar de Aral"
+      },
+      "existentes": [
+        {
+          "id": "q02139",
+          "pergunta": "Na era soviética, os rios que abasteciam o mar de Aral foram desviados para irrigar qual cultura, o que ajudou a secá-lo?",
+          "resposta": "Algodão"
+        },
+        {
+          "id": "q02140",
+          "pergunta": "Em que década do século vinte o mar de Aral, na Ásia Central, começou a encolher?",
+          "resposta": "Anos 1960"
+        },
+        {
+          "id": "q14261",
+          "pergunta": "Este lago salgado, mostrado em duas épocas, ficava entre o Cazaquistão e que outro país?",
+          "resposta": "Uzbequistão"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Existente pede o nome dos objetos (dados); a nova pede o tipo de jogo (RPG de mesa). Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "q07319 já pergunta o metal do filamento (tungstênio); a resposta é a mesma."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação da usina pela imagem. A existente pede o rio que ela represa, que é outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do mar de Aral pela imagem. As existentes tratam de algodão, da década do encolhimento e do país vizinho, que são fatos diferentes."
+    }
+  ]
+}

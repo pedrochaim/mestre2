@@ -1,0 +1,220 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Conjunto nítido de dados poliédricos, sem texto que entregue a resposta; serve para o passo além do reconhecimento.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Estes objetos de várias faces numeradas são típicos de que tipo de jogo de mesa?",
+      "resposta": "RPG de mesa",
+      "ancora": {
+        "nome": "Dado",
+        "descricao": "Objeto lançável com faces marcadas, usado para gerar valores aleatórios em jogos; aqui, dados poliédricos de RPG.",
+        "variantes": [
+          "Dados",
+          "Dado poliédrico"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fotografia legível de caminhões despejando lixo entre gaivotas; um aterro reconhecível, sem texto que entregue a resposta.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que gás inflamável, aproveitável para gerar energia, sai da decomposição do material despejado neste local?",
+      "resposta": "Metano",
+      "ancora": {
+        "nome": "Aterro sanitário",
+        "descricao": "Local de disposição final de resíduos sólidos urbanos, com caminhões despejando lixo.",
+        "variantes": [
+          "Aterro",
+          "Lixão"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Corte esquemático colorido do reator ITER, sem texto, reconhecível como tokamak pelo formato toroidal e pelos ímãs.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que nome tem este tipo de máquina experimental de fusão nuclear, que confina o plasma com ímãs?",
+      "resposta": "Tokamak",
+      "ancora": {
+        "nome": "Tokamak",
+        "descricao": "Máquina que confina plasma em forma de toro com campos magnéticos para obter fusão nuclear controlada.",
+        "variantes": [
+          "ITER",
+          "Reator de fusão tokamak"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Lâmpada incandescente transparente, com filamento visível, sem texto relevante.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que metal, de altíssimo ponto de fusão, forma o filamento fino que brilha dentro deste objeto?",
+      "resposta": "Tungstênio",
+      "ancora": {
+        "nome": "Lâmpada incandescente",
+        "descricao": "Lâmpada elétrica que produz luz aquecendo um filamento dentro de um bulbo de vidro.",
+        "variantes": [
+          "Lâmpada de filamento",
+          "Lâmpada comum"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto aérea clara de turbinas eólicas no mar, sem texto.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de parque eólico é este, quanto à sua localização?",
+      "resposta": "Offshore (no mar)",
+      "ancora": {
+        "nome": "Energia eólica offshore",
+        "descricao": "Geração de eletricidade por turbinas eólicas instaladas em corpos de água, em geral no mar.",
+        "variantes": [
+          "Parque eólico offshore",
+          "Eólica marítima"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A imagem mostra um paraboloide elíptico (taça), e não um paraboloide hiperbólico (sela); a resposta não seria correta para esta figura."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida da barragem e usina de Três Gargantas; distinguível de outras por múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que usina hidrelétrica é esta?",
+      "resposta": "Três Gargantas",
+      "distratores": [
+        "Itaipu",
+        "Belo Monte",
+        "Hoover"
+      ],
+      "ancora": {
+        "nome": "Usina de Três Gargantas",
+        "descricao": "Usina hidrelétrica no rio Yangtzé, na China, com uma das maiores barragens do mundo.",
+        "variantes": [
+          "Barragem das Três Gargantas",
+          "Three Gorges Dam"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Gráfico de curvas em sino com legenda matemática, mas sem o nome da distribuição; legível e reconhecível.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que matemático alemão deu nome a estas curvas em forma de sino?",
+      "resposta": "Carl Friedrich Gauss",
+      "ancora": {
+        "nome": "Curva normal (distribuição gaussiana)",
+        "descricao": "Distribuição de probabilidade contínua simétrica em forma de sino, definida por média e variância.",
+        "variantes": [
+          "Distribuição normal",
+          "Gaussiana",
+          "Curva de sino"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto clara de turbina de eixo vertical com pás curvas, inconfundível como Darrieus.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que modelo de turbina eólica de eixo vertical é este, de pás curvas?",
+      "resposta": "Turbina Darrieus",
+      "ancora": {
+        "nome": "Turbina Darrieus",
+        "descricao": "Turbina eólica de eixo vertical com pás curvas, patenteada pelo francês Georges Darrieus em 1926.",
+        "variantes": [
+          "Turbina eólica Darrieus",
+          "Darrieus wind turbine"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de compasso de desenho técnico com acessórios; sem texto que entregue a resposta.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de desenho é este?",
+      "resposta": "Compasso",
+      "distratores": [
+        "Esquadro",
+        "Transferidor",
+        "Paquímetro"
+      ],
+      "ancora": {
+        "nome": "Compasso",
+        "descricao": "Instrumento de desenho técnico com duas hastes, usado para traçar circunferências e arcos.",
+        "variantes": [
+          "Compasso de desenho",
+          "Compasso de ponta seca"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Imagens de satélite do mesmo corpo d'água em duas épocas, sem texto; assunto único, reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que corpo d'água da Ásia Central é este, visto de satélite em duas épocas?",
+      "resposta": "Mar de Aral",
+      "distratores": [
+        "Mar Cáspio",
+        "Lago Balkhash",
+        "Lago Baikal"
+      ],
+      "ancora": {
+        "nome": "Mar de Aral",
+        "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde os anos 1960.",
+        "variantes": [
+          "Lago de Aral",
+          "Aral Sea"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A foto aérea mostra uma área de mineração de areias betuminosas com lagoa; não evidencia uma barragem de rejeitos, e a resposta não é única nem reconhecível."
+    }
+  ]
+}

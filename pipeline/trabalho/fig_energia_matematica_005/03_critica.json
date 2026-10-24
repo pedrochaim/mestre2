@@ -1,0 +1,88 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dados poliédricos são típicos de RPG; trechos sustentam. Sem vazamento e resposta defensável.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: o gás inflamável aproveitável da decomposição de lixo (metano) se responde sem a figura. Reconhecer o local geraria ambiguidade com lixão e aterro controlado.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro. 'Ímãs' não basta para entregar a resposta, pois o stellarator também usa campos magnéticos. A figura decide.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Altíssimo ponto de fusão' é pista que quase entrega o tungstênio sem a figura. Retirar.",
+      "reescrita": {
+        "pergunta": "Que metal forma o filamento fino que brilha dentro deste objeto?",
+        "resposta": "Tungstênio"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de nível 1, com resposta única e sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de usina emblemática. Distratores do mesmo tipo, curtos e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Curvas em forma de sino' e 'matemático alemão que deu nome' permitem responder Gauss sem ver a figura. Reformulado para depender do reconhecimento da curva.",
+      "reescrita": {
+        "pergunta": "Esta curva também é conhecida pelo nome de qual matemático alemão?",
+        "resposta": "Carl Friedrich Gauss"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Eixo vertical e pás curvas ajudam a distinguir sem identificar sozinhos. Resposta sustentada pelo trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples, com distratores plausíveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Visto de satélite em duas épocas' não é confirmado por 'mostra' e pode ser falso para esta imagem. Retirado. Os distratores continuam válidos.",
+      "reescrita": {
+        "pergunta": "Que corpo d'água da Ásia Central é este?",
+        "resposta": "Mar de Aral",
+        "distratores": [
+          "Mar Cáspio",
+          "Lago Balkhash",
+          "Lago Baikal"
+        ]
+      }
+    }
+  ]
+}
