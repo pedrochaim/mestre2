@@ -1,0 +1,654 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Caranguejo-ermitão",
+        "descricao": "Crustáceo decápode da superfamília Paguroidea que habita conchas vazias de gastrópodes para proteger o abdômen mole.",
+        "variantes": [
+          "Ermitão",
+          "Paguro",
+          "Hermit crab"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caranguejo_ermitao",
+          "nome": "Caranguejo-ermitão",
+          "descricao": "Crustáceo decápode que protege o abdome mole numa concha vazia de caracol.",
+          "variantes": [
+            "Paguro",
+            "Hermit crab"
+          ]
+        },
+        {
+          "id": "cupim",
+          "nome": "Cupim",
+          "descricao": "Inseto social da infraordem Isoptera, que se alimenta de madeira e matéria vegetal em decomposição e é aparentado às baratas.",
+          "variantes": [
+            "Térmita",
+            "Isoptera",
+            "formiga-branca"
+          ]
+        },
+        {
+          "id": "patricia_galvao",
+          "nome": "Patrícia Galvão",
+          "descricao": "Escritora, jornalista e militante modernista brasileira (1910–1962).",
+          "variantes": [
+            "Pagu"
+          ]
+        },
+        {
+          "id": "museu_hermitage",
+          "nome": "Museu Hermitage",
+          "descricao": "Grande museu de arte de São Petersburgo, na Rússia, instalado no antigo Palácio de Inverno dos czares.",
+          "variantes": [
+            "Hermitage",
+            "Museu Estatal Hermitage",
+            "Ermitage"
+          ]
+        },
+        {
+          "id": "caranguejo_yeti",
+          "nome": "Caranguejo-yeti",
+          "descricao": "Crustáceo das fontes hidrotermais do Pacífico Sul, Kiwa hirsuta, com garras cobertas de cerdas claras.",
+          "variantes": [
+            "Kiwa hirsuta",
+            "Yeti crab"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Besouro-girafa",
+        "descricao": "Pequeno gorgulho endêmico de Madagascar (Trachelophorus giraffa), com élitros vermelhos e pescoço alongado nos machos.",
+        "variantes": [
+          "Gorgulho-girafa",
+          "Giraffe weevil",
+          "Trachelophorus giraffa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "besouro_tita",
+          "nome": "Besouro-titã",
+          "descricao": "Besouro cerambicídeo neotropical (Titanus giganteus), um dos maiores insetos conhecidos.",
+          "variantes": [
+            "Titanus giganteus",
+            "titan beetle"
+          ]
+        },
+        {
+          "id": "gerenuk",
+          "nome": "Gerenuk",
+          "descricao": "Antílope de pescoço e pernas longos, do Chifre da África (Litocranius walleri).",
+          "variantes": [
+            "Litocranius walleri",
+            "Gazela-girafa",
+            "Giraffe gazelle"
+          ]
+        },
+        {
+          "id": "rola_bosta",
+          "nome": "Rola-bosta",
+          "descricao": "Besouros escarabeídeos que se alimentam de fezes e as moldam em bolas para rolar e enterrar.",
+          "variantes": [
+            "besouro-rola-bosta",
+            "dung beetle",
+            "escaravelho"
+          ]
+        },
+        {
+          "id": "girafa",
+          "nome": "Girafa",
+          "descricao": "Mamífero africano de pescoço longo do gênero Giraffa.",
+          "variantes": [
+            "Giraffa",
+            "Giraffe"
+          ]
+        },
+        {
+          "id": "caneta_esferografica",
+          "nome": "Caneta esferográfica",
+          "descricao": "Caneta cuja ponta tem uma pequena esfera que distribui a tinta, patenteada em sua forma moderna em 1938.",
+          "variantes": [
+            "Esferográfica",
+            "Ballpoint pen",
+            "Birome",
+            "Caneta Bic"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pulga",
+        "descricao": "Inseto sem asas da ordem Siphonaptera, parasita externo de mamíferos e aves que se alimenta de sangue.",
+        "variantes": [
+          "Pulgas",
+          "Sifonápteros",
+          "Flea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pulgao",
+          "nome": "Pulgão",
+          "descricao": "Pequeno inseto da superfamília Aphidoidea que suga a seiva das plantas.",
+          "variantes": [
+            "Afídeo",
+            "Aphid"
+          ]
+        },
+        {
+          "id": "magic_paula",
+          "nome": "Magic Paula",
+          "descricao": "Maria Paula Gonçalves da Silva, armadora brasileira campeã mundial de basquete em 1994.",
+          "variantes": [
+            "Paula",
+            "Maria Paula Gonçalves da Silva"
+          ]
+        },
+        {
+          "id": "leao",
+          "nome": "Leão",
+          "descricao": "Grande felino social da África e da Índia, espécie Panthera leo.",
+          "variantes": [
+            "Panthera leo",
+            "Lion"
+          ]
+        },
+        {
+          "id": "chumbo",
+          "nome": "Chumbo",
+          "descricao": "Elemento químico metálico de número atômico 82, pesado e maleável, usado pelos romanos em encanamentos.",
+          "variantes": [
+            "Lead",
+            "Plumbum"
+          ]
+        },
+        {
+          "id": "pudim",
+          "nome": "Pudim",
+          "descricao": "Sobremesa de creme gelatinoso assado em banho-maria, coberta com calda de caramelo.",
+          "variantes": [
+            "Pudim de leite",
+            "Flan",
+            "Crème caramel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Escutigera",
+        "descricao": "Centopeia-de-casa (Scutigera coleoptrata), quilópode amarelo-acinzentado de até quinze pares de pernas longas, que vive em casas e caça insetos.",
+        "variantes": [
+          "Centopeia-de-casa",
+          "Scutigera coleoptrata",
+          "House centipede",
+          "Lacraia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lacraia",
+          "nome": "Lacraia",
+          "descricao": "Artrópode predador e venenoso da classe Chilopoda, com um par de patas por segmento do corpo.",
+          "variantes": [
+            "Centopeia",
+            "Quilópode",
+            "Chilopoda"
+          ]
+        },
+        {
+          "id": "tesourinha",
+          "nome": "Tesourinha",
+          "descricao": "Inseto da ordem Dermaptera, com pinças no fim do abdômen.",
+          "variantes": [
+            "Lacrainha",
+            "Dermáptero",
+            "Earwig"
+          ]
+        },
+        {
+          "id": "escorpiao",
+          "nome": "Escorpião",
+          "descricao": "Aracnídeos predadores da ordem Scorpiones, com pinças e cauda terminada em ferrão venenoso.",
+          "variantes": [
+            "Scorpiones",
+            "lacrau"
+          ]
+        },
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)",
+            "Raia"
+          ]
+        },
+        {
+          "id": "gotcha_clipe",
+          "nome": "GOTCHA! (clipe)",
+          "descricao": "Clipe animado de 2020 que relembra as aventuras dos jogos Pokémon, embalado pela música Acacia.",
+          "variantes": [
+            "GOTCHA!",
+            "Acacia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Mariposa",
+        "descricao": "Inseto alado da ordem Lepidoptera, de hábitos em geral noturnos, aparentado com as borboletas; aqui, um exemplar de mariposa de olhos desenhados nas asas.",
+        "variantes": [
+          "Traça",
+          "Mariposas",
+          "Moth"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "matrioska",
+          "nome": "Matrioska",
+          "descricao": "Conjunto russo de bonecas de madeira ocas que se encaixam umas dentro das outras.",
+          "variantes": [
+            "Matryoshka",
+            "Boneca russa"
+          ]
+        },
+        {
+          "id": "meowth",
+          "nome": "Meowth",
+          "descricao": "Pokémon do tipo Normal, número 52 da Pokédex Nacional.",
+          "variantes": [
+            "Nyarth"
+          ]
+        },
+        {
+          "id": "itaca",
+          "nome": "Ítaca",
+          "descricao": "Ilha grega do mar Jônico, apresentada na Odisseia como o reino de Ulisses.",
+          "variantes": [
+            "Ithaca",
+            "Ithaki"
+          ]
+        },
+        {
+          "id": "tacha",
+          "nome": "Tachã",
+          "descricao": "Chauna torquata, ave aquática cinzenta sul-americana da família Anhimidae, de pernas vermelhas.",
+          "variantes": [
+            "Chajá",
+            "Tachã-cinzenta",
+            "Southern screamer"
+          ]
+        },
+        {
+          "id": "marzipa",
+          "nome": "Marzipã",
+          "descricao": "Massa doce de açúcar e amêndoas moídas, usada para modelar frutinhas e figuras de confeitaria.",
+          "variantes": [
+            "Maçapão",
+            "Marzipan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Percevejo-de-cama",
+        "descricao": "Inseto da família Cimicidae (Cimex lectularius) que se alimenta de sangue, geralmente à noite, e infesta camas.",
+        "variantes": [
+          "Bed bug",
+          "Cimex lectularius"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "red_bull",
+          "nome": "Red Bull",
+          "descricao": "Bebida energética austríaca lançada em 1987 por Dietrich Mateschitz.",
+          "variantes": []
+        },
+        {
+          "id": "iloveyou",
+          "nome": "ILOVEYOU",
+          "descricao": "Vírus de computador que se espalhou por e-mail em maio de 2000 e infectou milhões de máquinas.",
+          "variantes": [
+            "I Love You",
+            "Love Bug",
+            "Love Letter"
+          ]
+        },
+        {
+          "id": "dom_pedro_i",
+          "nome": "Dom Pedro I",
+          "descricao": "Primeiro imperador do Brasil, que proclamou a Independência em 1822 e depois foi rei de Portugal.",
+          "variantes": [
+            "Pedro I do Brasil",
+            "Pedro IV de Portugal",
+            "Pedro de Alcântara"
+          ]
+        },
+        {
+          "id": "dom_pedro_ii",
+          "nome": "Dom Pedro II",
+          "descricao": "Segundo e último imperador do Brasil, que reinou de 1831 a 1889.",
+          "variantes": [
+            "Pedro II do Brasil",
+            "Pedro de Alcântara",
+            "Pedro Segundo"
+          ]
+        },
+        {
+          "id": "edimburgo",
+          "nome": "Edimburgo",
+          "descricao": "Capital da Escócia, com castelo sobre uma rocha vulcânica.",
+          "variantes": [
+            "Edinburgh"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Borboleta-88",
+        "descricao": "Borboleta neotropical do gênero Diaethria, cujas asas posteriores, por baixo, têm um desenho que lembra o número 88.",
+        "variantes": [
+          "Borboleta oitenta e oito",
+          "Eighty-eight",
+          "Diaethria"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nado_borboleta",
+          "nome": "Nado borboleta",
+          "descricao": "Estilo de natação com braços simétricos e pernas em golfinhada.",
+          "variantes": [
+            "Borboleta",
+            "Butterfly",
+            "Butterfly stroke"
+          ]
+        },
+        {
+          "id": "diantha",
+          "nome": "Diantha",
+          "descricao": "Campeã da Liga Pokémon de Kalos nos jogos Pokémon X e Y, dona de um Gardevoir.",
+          "variantes": [
+            "Carnet"
+          ]
+        },
+        {
+          "id": "canhao_88_flak_88",
+          "nome": "Canhão 88 (Flak 88)",
+          "descricao": "Canhão alemão de 88 mm, antiaéreo e antitanque, usado na Segunda Guerra Mundial.",
+          "variantes": [
+            "Flak 88",
+            "8.8 cm Flak",
+            "Acht-acht",
+            "Oitenta e oito"
+          ]
+        },
+        {
+          "id": "borboleta_monarca",
+          "nome": "Borboleta-monarca",
+          "descricao": "Borboleta norte-americana (Danaus plexippus) de asas laranja, pretas e brancas, famosa pela migração anual.",
+          "variantes": [
+            "Monarca",
+            "Danaus plexippus"
+          ]
+        },
+        {
+          "id": "heroina",
+          "nome": "Heroína",
+          "descricao": "Droga opioide derivada da morfina, a diacetilmorfina, comercializada originalmente como medicamento.",
+          "variantes": [
+            "Diacetilmorfina",
+            "Diamorfina",
+            "Heroin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Camarão",
+        "descricao": "Crustáceo decápode de corpo alongado e natação ágil, dos grupos Caridea e Dendrobranchiata.",
+        "variantes": [
+          "Camarões",
+          "Shrimp"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camaroes",
+          "nome": "Camarões",
+          "descricao": "País da África Central cujo nome vem do Rio dos Camarões, batizado por navegadores portugueses",
+          "variantes": [
+            "Cameroon",
+            "Cameroun"
+          ]
+        },
+        {
+          "id": "bandeira_de_camaroes",
+          "nome": "Bandeira de Camarões",
+          "descricao": "Bandeira de Camarões, tricolor vertical verde, vermelho e amarelo com estrela amarela no centro.",
+          "variantes": [
+            "Camarões",
+            "Bandeira dos Camarões"
+          ]
+        },
+        {
+          "id": "camarao",
+          "nome": "Camarão",
+          "descricao": "Crustáceo decápode de corpo alongado e nadador, como os da imagem, listrados e com longas antenas.",
+          "variantes": [
+            "Camarões"
+          ]
+        },
+        {
+          "id": "chevrolet_camaro",
+          "nome": "Chevrolet Camaro",
+          "descricao": "Automóvel esportivo americano do tipo pony car, fabricado pela Chevrolet desde o modelo de 1967.",
+          "variantes": [
+            "Camaro",
+            "Camaro RS"
+          ]
+        },
+        {
+          "id": "agudas",
+          "nome": "Agudás",
+          "descricao": "Comunidade de descendentes de africanos e brasileiros que se estabeleceram no golfo da Guiné vindos do Brasil, sobretudo no século dezenove.",
+          "variantes": [
+            "Amarôs",
+            "Brasileiros do Benim"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Esfinge-colibri",
+        "descricao": "Mariposa da família Sphingidae (Macroglossum stellatarum), que paira no ar para sugar néctar, como um beija-flor.",
+        "variantes": [
+          "Mariposa-colibri",
+          "Macroglossum stellatarum",
+          "Hummingbird hawk-moth"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mariposa_caveira",
+          "nome": "Mariposa-caveira",
+          "descricao": "Mariposas do gênero Acherontia, como a Acherontia atropos, que têm no tórax um desenho parecido com uma caveira.",
+          "variantes": [
+            "Acherontia atropos",
+            "Acherontia",
+            "death's-head hawkmoth",
+            "esfinge-caveira"
+          ]
+        },
+        {
+          "id": "esfinge_de_tebas",
+          "nome": "Esfinge de Tebas",
+          "descricao": "Monstro da mitologia grega com corpo de leão e cabeça de mulher que propunha um enigma aos viajantes de Tebas.",
+          "variantes": [
+            "Esfinge grega"
+          ]
+        },
+        {
+          "id": "raposa_do_artico",
+          "nome": "Raposa-do-ártico",
+          "descricao": "Pequena raposa (Vulpes lagopus) nativa da tundra ártica, de pelagem que muda com as estações.",
+          "variantes": [
+            "Raposa-polar",
+            "Vulpes lagopus",
+            "Arctic fox"
+          ]
+        },
+        {
+          "id": "cobra_real",
+          "nome": "Cobra-real",
+          "descricao": "Maior serpente venenosa do mundo (Ophiophagus hannah), nativa do sul e sudeste da Ásia.",
+          "variantes": [
+            "Ophiophagus hannah",
+            "King cobra"
+          ]
+        },
+        {
+          "id": "maria_rita",
+          "nome": "Maria Rita",
+          "descricao": "Cantora brasileira de MPB e samba, filha de Elis Regina.",
+          "variantes": [
+            "Maria Rita Camargo Mariano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Borboleta",
+        "descricao": "Inseto alado da superfamília Papilionoidea, de asas grandes e coloridas; aqui, uma borboleta de asas alaranjadas e brancas, pousada numa folha.",
+        "variantes": [
+          "Borboletas",
+          "Butterfly"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nado_borboleta",
+          "nome": "Nado borboleta",
+          "descricao": "Estilo de natação com braços simétricos e pernas em golfinhada.",
+          "variantes": [
+            "Borboleta",
+            "Butterfly",
+            "Butterfly stroke"
+          ]
+        },
+        {
+          "id": "roleta",
+          "nome": "Roleta",
+          "descricao": "Jogo de cassino em que uma bolinha cai em um dos compartimentos numerados e coloridos de uma roda giratória.",
+          "variantes": [
+            "Roleta de cassino"
+          ]
+        },
+        {
+          "id": "butterfree",
+          "nome": "Butterfree",
+          "descricao": "Pokémon borboleta do tipo Inseto e Voador da primeira geração, número 12 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "efeito_borboleta",
+          "nome": "Efeito borboleta",
+          "descricao": "Ideia da teoria do caos segundo a qual pequenas mudanças nas condições iniciais podem gerar grandes diferenças, popularizada por Edward Lorenz.",
+          "variantes": [
+            "Butterfly effect"
+          ]
+        },
+        {
+          "id": "madama_butterfly",
+          "nome": "Madama Butterfly",
+          "descricao": "Ópera de Giacomo Puccini, estreada em 1904, sobre uma jovem japonesa abandonada por um oficial americano.",
+          "variantes": [
+            "Madame Butterfly"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "caranguejo_ermitao",
+      "motivo": "Mesmo crustáceo que habita conchas vazias."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Gorgulho de Madagascar, diferente das candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pulga (Siphonaptera) não é pulgão nem outra candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Escutigera é uma espécie específica; Lacraia é o grupo geral Chilopoda."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é mariposa."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Percevejo-de-cama é inseto, nenhuma candidata corresponde."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Borboleta Diaethria é distinta das candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "camarao",
+      "motivo": "Mesmo crustáceo camarão; o país e a bandeira são entidades diferentes."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Macroglossum stellatarum é espécie distinta da mariposa-caveira."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Inseto borboleta; nenhuma candidata é o inseto (Butterfree é Pokémon, nado é esporte)."
+    }
+  ]
+}

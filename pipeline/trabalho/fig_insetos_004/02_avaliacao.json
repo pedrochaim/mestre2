@@ -1,0 +1,228 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Caranguejo-ermitão nítido, reconhecível pelas pinças e pelo corpo; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Para proteger o abdômen mole, este crustáceo costuma ocupar o abrigo vazio de outro animal. Que abrigo é esse?",
+      "resposta": "Concha de caracol",
+      "destino": 0,
+      "ancora": {
+        "nome": "Caranguejo-ermitão",
+        "descricao": "Crustáceo decápode da superfamília Paguroidea que habita conchas vazias de gastrópodes para proteger o abdômen mole.",
+        "variantes": [
+          "Ermitão",
+          "Paguro",
+          "Hermit crab"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Besouro-girafa muito nítido e inconfundível, pescoço longo e élitros vermelhos; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este besouro de pescoço alongado só é encontrado em estado natural em que ilha africana?",
+      "resposta": "Madagascar",
+      "destino": 0,
+      "ancora": {
+        "nome": "Besouro-girafa",
+        "descricao": "Pequeno gorgulho endêmico de Madagascar (Trachelophorus giraffa), com élitros vermelhos e pescoço alongado nos machos.",
+        "variantes": [
+          "Gorgulho-girafa",
+          "Giraffe weevil",
+          "Trachelophorus giraffa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Micrografia eletrônica colorida de pulga, forma característica (corpo achatado, patas traseiras longas); sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que se alimentam os adultos deste inseto?",
+      "resposta": "Sangue",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pulga",
+        "descricao": "Inseto sem asas da ordem Siphonaptera, parasita externo de mamíferos e aves que se alimenta de sangue.",
+        "variantes": [
+          "Pulgas",
+          "Sifonápteros",
+          "Flea"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A lagarta é pequena, em piso vermelho, e não dá para afirmar que é a Lonomia obliqua; poderia ser outra lagarta urticante, então a resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Escutigera de corpo inteiro sobre fundo branco, bem legível e inconfundível pelas pernas longas.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de animal é este, comum dentro de casas e com um par de pernas em cada segmento do corpo?",
+      "resposta": "Centopeia",
+      "distratores": [
+        "Piolho-de-cobra",
+        "Aranha-caranguejeira",
+        "Escorpião"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Escutigera",
+        "descricao": "Centopeia-de-casa (Scutigera coleoptrata), quilópode amarelo-acinzentado de até quinze pares de pernas longas, que vive em casas e caça insetos.",
+        "variantes": [
+          "Centopeia-de-casa",
+          "Scutigera coleoptrata",
+          "House centipede",
+          "Lacraia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Mariposa em exemplar de coleção sobre fundo branco, com antenas plumosas e corpo peludo; só há a escala '1 cm', que não entrega a resposta.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de inseto é este, de antenas plumosas?",
+      "resposta": "Mariposa",
+      "destino": 0,
+      "ancora": {
+        "nome": "Mariposa",
+        "descricao": "Inseto alado da ordem Lepidoptera, de hábitos em geral noturnos, aparentado com as borboletas; aqui, um exemplar de mariposa de olhos desenhados nas asas.",
+        "variantes": [
+          "Traça",
+          "Mariposas",
+          "Moth"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Percevejo-de-cama em macro nítida sobre pele; reconhecível pelo corpo oval achatado e marrom.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este inseto se alimenta de sangue humano. Em que período do dia ele costuma picar?",
+      "resposta": "À noite",
+      "destino": 0,
+      "ancora": {
+        "nome": "Percevejo-de-cama",
+        "descricao": "Inseto da família Cimicidae (Cimex lectularius) que se alimenta de sangue, geralmente à noite, e infesta camas.",
+        "variantes": [
+          "Percevejo de cama",
+          "Bed bug",
+          "Cimex lectularius"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Borboleta-88 nítida, com o padrão 88 bem visível nas asas; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que número lembra o desenho na parte de baixo das asas desta borboleta, que dá nome a ela?",
+      "resposta": "Oitenta e oito",
+      "destino": 0,
+      "ancora": {
+        "nome": "Borboleta-88",
+        "descricao": "Borboleta neotropical do gênero Diaethria, cujas asas posteriores, por baixo, têm um desenho que lembra o número 88.",
+        "variantes": [
+          "Borboleta oitenta e oito",
+          "Eighty-eight",
+          "Diaethria"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Camarões listrados nítidos, claramente reconhecíveis como camarão; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "A que grupo de animais pertence este bicho aquático?",
+      "resposta": "Crustáceos",
+      "distratores": [
+        "Moluscos",
+        "Equinodermos",
+        "Anelídeos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Camarão",
+        "descricao": "Crustáceo decápode de corpo alongado e natação ágil, dos grupos Caridea e Dendrobranchiata.",
+        "variantes": [
+          "Camarões",
+          "Shrimp"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O animal listrado e brilhante na pedra molhada não é claramente reconhecível como sanguessuga; pode ser confundido com uma lesma ou um verme plano."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Exemplar de esfinge-colibri em vista dorsal e ventral, mesma espécie, fundo branco; só traz a escala '1cm'.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mariposa é esta, de asas posteriores alaranjadas e abdômen listrado?",
+      "resposta": "Esfinge-colibri",
+      "distratores": [
+        "Esfinge-caveira",
+        "Esfinge-do-álamo",
+        "Mariposa-atlas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Esfinge-colibri",
+        "descricao": "Mariposa da família Sphingidae (Macroglossum stellatarum), que paira no ar para sugar néctar, como um beija-flor.",
+        "variantes": [
+          "Mariposa-colibri",
+          "Macroglossum stellatarum",
+          "Hummingbird hawk-moth"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Borboleta nítida, de perfil, com asas coloridas e antena fina; claramente borboleta, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Como se chama a fase larval deste inseto, que se alimenta de folhas antes de virar adulto?",
+      "resposta": "Lagarta",
+      "destino": 0,
+      "ancora": {
+        "nome": "Borboleta",
+        "descricao": "Inseto alado da superfamília Papilionoidea, de asas grandes e coloridas; aqui, uma borboleta de asas alaranjadas e brancas, pousada numa folha.",
+        "variantes": [
+          "Borboletas",
+          "Butterfly"
+        ]
+      }
+    }
+  ]
+}

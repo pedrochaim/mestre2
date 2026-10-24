@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que crustáceo decápode é este?",
+        "resposta": "Caranguejo-ermitão"
+      },
+      "existentes": [
+        {
+          "id": "q15108",
+          "pergunta": "Que crustáceo é este?",
+          "resposta": "Caranguejo-ermitão"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A que grupo de animais pertence este bicho aquático?",
+        "resposta": "Crustáceos"
+      },
+      "existentes": [
+        {
+          "id": "q09116",
+          "pergunta": "Que tipo de crustáceo é este?",
+          "resposta": "Camarão"
+        },
+        {
+          "id": "q09583",
+          "pergunta": "A casca que tiramos do camarão antes de comê-lo é feita principalmente de que substância, a mesma do esqueleto externo dos insetos?",
+          "resposta": "Quitina"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma imagem e mesma resposta (caranguejo-ermitão); só acrescenta 'decápode' ao enunciado.",
+      "id_existente": "q15108"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o grupo (crustáceos) de um bicho aquático; as existentes pedem o tipo de crustáceo (camarão) e a substância da casca (quitina), fatos diferentes."
+    }
+  ]
+}

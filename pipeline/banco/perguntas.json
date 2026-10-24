@@ -286750,5 +286750,200 @@
       "licenca": "GFDL 1.2"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q15180",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "besouro_girafa",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em que ilha africana este besouro é encontrado em estado natural, e só ali?",
+    "resposta": "Madagascar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giraffe_weevil",
+      "https://pt.wikipedia.org/wiki/Trachelophorus_giraffa"
+    ],
+    "imagem": {
+      "arquivo": "q15180.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Trachelophorus_giraffa_male_01.jpg",
+      "autor": "Axel Strauß",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15181",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "pulga",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "De que se alimentam os adultos deste inseto?",
+    "resposta": "Sangue",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flea",
+      "https://pt.wikipedia.org/wiki/Sifon%C3%A1pteros"
+    ],
+    "imagem": {
+      "arquivo": "q15181.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flea_Scanning_Electron_Micrograph_False_Color.jpg",
+      "autor": "CDC/Janice Haney Carr",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15182",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "escutigera",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de animal é este, que costuma ser visto dentro de casas?",
+    "resposta": "Centopeia",
+    "distratores": [
+      "Piolho-de-cobra",
+      "Escorpião",
+      "Aranha-caranguejeira"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Scutigera_coleoptrata",
+      "https://pt.wikipedia.org/wiki/Scutigera_coleoptrata"
+    ],
+    "imagem": {
+      "arquivo": "q15182.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Scutigera_coleoptrata_MHNT.jpg",
+      "autor": "Didier Descouens",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q15183",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "mariposa",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que tipo de inseto é este, parente próximo das borboletas?",
+    "resposta": "Mariposa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Moth",
+      "https://pt.wikipedia.org/wiki/Mariposa"
+    ],
+    "imagem": {
+      "arquivo": "q15183.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Opodiphthera_eucalypti_male.jpg",
+      "autor": "Birgit E. Rhode, Landcare Research New Zealand Ltd.",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q15184",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "percevejo_de_cama",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Este inseto se alimenta de sangue humano. Em que período do dia ele costuma picar?",
+    "resposta": "À noite",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bed_bug",
+      "https://pt.wikipedia.org/wiki/Percevejos_de_cama"
+    ],
+    "imagem": {
+      "arquivo": "q15184.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bed_bug,_Cimex_lectularius.jpg",
+      "autor": "Content Providers(s): CDC/ Harvard University, Dr. Gary Alpert; Dr. Harold Harlan; Richard Pollack. Photo Credit: Piotr Naskrecki",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15185",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "borboleta_88",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Esta borboleta neotropical é popularmente chamada de borboleta com qual número?",
+    "resposta": "Oitenta e oito",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Diaethria",
+      "https://pt.wikipedia.org/wiki/Diaethria"
+    ],
+    "imagem": {
+      "arquivo": "q15185.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Diaethria_eluina.jpg",
+      "autor": "Adrian198cm",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15186",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "camarao",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "A que grupo de animais pertence este bicho aquático?",
+    "resposta": "Crustáceos",
+    "distratores": [
+      "Moluscos",
+      "Equinodermos",
+      "Anelídeos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shrimp",
+      "https://pt.wikipedia.org/wiki/Camar%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q15186.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Palaemon_serratus_Croazia.jpg",
+      "autor": "Etrusko25",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15187",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "esfinge_colibri",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que mariposa é esta, de asas posteriores alaranjadas e abdômen listrado?",
+    "resposta": "Esfinge-colibri",
+    "distratores": [
+      "Esfinge-caveira",
+      "Esfinge-do-álamo",
+      "Mariposa-atlas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hummingbird_hawk-moth",
+      "https://pt.wikipedia.org/wiki/Macroglossum_stellatarum"
+    ],
+    "imagem": {
+      "arquivo": "q15187.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Macroglossum_stellatarum_MHNT.jpg",
+      "autor": "Didier Descouens",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q15188",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "borboleta",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Antes de virar adulto, a lagarta deste inseto passa por uma fase imóvel. Como se chama essa fase nas borboletas?",
+    "resposta": "Crisálida (pupa)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Butterfly",
+      "https://pt.wikipedia.org/wiki/Borboleta"
+    ],
+    "imagem": {
+      "arquivo": "q15188.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Charaxes_brutus_natalensis.jpg",
+      "autor": "Muhammad Mahdi Karim",
+      "licenca": "GFDL 1.2"
+    }
   }
 ]

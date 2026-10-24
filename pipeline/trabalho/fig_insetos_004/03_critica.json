@@ -1,0 +1,102 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta é sobre a concha, não sobre o animal da figura. A descrição no enunciado já entrega o bicho, então a figura virou enfeite. Reescrita para pedir o reconhecimento do crustáceo.",
+      "reescrita": {
+        "pergunta": "Que crustáceo decápode é este?",
+        "resposta": "Caranguejo-ermitão",
+        "distratores": [
+          "Siri azul",
+          "Lagosta",
+          "Tatuí"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Besouro de pescoço alongado' é a pista que identifica a espécie e entrega Madagascar sem olhar a figura. Removida a pista.",
+      "reescrita": {
+        "pergunta": "Em que ilha africana este besouro é encontrado em estado natural, e só ali?",
+        "resposta": "Madagascar"
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a pulga. A resposta, sangue, está nos trechos e é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Um par de pernas em cada segmento' é a definição de centopeia e entrega a resposta com a imagem coberta. Trocada por pista que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que tipo de animal é este, que costuma ser visto dentro de casas?",
+        "resposta": "Centopeia",
+        "distratores": [
+          "Piolho-de-cobra",
+          "Escorpião",
+          "Aranha-caranguejeira"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "As antenas plumosas não valem para toda mariposa e não há como confirmar que aparecem nesta foto. Reescrita com pista verdadeira, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que tipo de inseto é este, parente próximo das borboletas?",
+        "resposta": "Mariposa"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o percevejo-de-cama se alimenta de sangue, geralmente à noite. O enunciado não nomeia o inseto e a pergunta vai além do reconhecimento.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Não dá para garantir que a foto mostra a parte de baixo das asas, então o enunciado pode ser falso para esta imagem. Reescrita para depender só do reconhecimento da borboleta.",
+      "reescrita": {
+        "pergunta": "Esta borboleta neotropical é popularmente chamada de borboleta com qual número?",
+        "resposta": "Oitenta e oito"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o camarão é crustáceo. Os distratores são do mesmo tipo e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A esfinge-colibri tem asas posteriores alaranjadas e abdômen listrado, o que é amplamente documentado, embora os trechos não digam isso. O enunciado não nomeia a espécie e os distratores são mariposas esfingídeas ou mariposas de outro grupo.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A lagarta se alimentar de folhas é a pista que responde sem a figura, e qualquer lepidóptero tem lagarta, então a figura é enfeite. Nível 3 pede um passo além. Reescrita para a fase seguinte à lagarta.",
+      "reescrita": {
+        "pergunta": "Antes de virar adulto, a lagarta deste inseto passa por uma fase imóvel. Como se chama essa fase nas borboletas?",
+        "resposta": "Crisálida (pupa)"
+      }
+    }
+  ]
+}
