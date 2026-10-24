@@ -1,0 +1,135 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este crustáceo é a estrela da baía de Chesapeake. Virginia e qual outro estado americano lideram sua captura?",
+        "resposta": "Maryland"
+      },
+      "existentes": [
+        {
+          "id": "q15266",
+          "pergunta": "Esta espécie de siri é nativa de qual oceano?",
+          "resposta": "Oceano Atlântico"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que pinguim é este?",
+        "resposta": "Pinguim-imperador"
+      },
+      "existentes": [
+        {
+          "id": "q01030",
+          "pergunta": "Que pinguim é este, o maior de todos?",
+          "resposta": "Pinguim-imperador"
+        },
+        {
+          "id": "q04829",
+          "pergunta": "No inverno antártico, pinguins-imperadores se amontoam aos milhares, revezando quem fica na borda do grupo. Por que fazem isso?",
+          "resposta": "Para conservar o calor"
+        },
+        {
+          "id": "q06534",
+          "pergunta": "No inverno antártico, o macho do pinguim-imperador choca o ovo apoiado sobre os pés. Por quanto tempo, aproximadamente?",
+          "resposta": "Cerca de dois meses"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que tubarão de fundo é este?",
+        "resposta": "Tubarão-lixa"
+      },
+      "existentes": [
+        {
+          "id": "q15269",
+          "pergunta": "Que tubarão é este?",
+          "resposta": "Tubarão-lixa"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que golfinho é este?",
+        "resposta": "Golfinho-nariz-de-garrafa (roaz)"
+      },
+      "existentes": [
+        {
+          "id": "q05674",
+          "pergunta": "O golfinho-nariz-de-garrafa emite cliques e escuta o eco para localizar presas. Que mamíferos voadores usam essa mesma técnica?",
+          "resposta": "Morcegos"
+        },
+        {
+          "id": "q09590",
+          "pergunta": "Cada golfinho-nariz-de-garrafa tem um assobio exclusivo, que os outros imitam para chamá-lo. A que os cientistas costumam comparar esse assobio?",
+          "resposta": "A um nome próprio"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que animal marinho é este?",
+        "resposta": "Esponja-do-mar"
+      },
+      "existentes": [
+        {
+          "id": "q09305",
+          "pergunta": "Este animal marinho, fixo no fundo do recife, pertence a qual filo?",
+          "resposta": "Porifera (esponjas)"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que foca é esta?",
+        "resposta": "Foca-leopardo"
+      },
+      "existentes": [
+        {
+          "id": "q14739",
+          "pergunta": "Que foca é esta?",
+          "resposta": "Foca-leopardo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre estados líderes na captura, diferente da origem oceânica."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificação do pinguim-imperador (q01030)."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma identificação do tubarão-lixa pela imagem."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificação do golfinho é fato diferente de ecolocalização ou assobio."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Identificar como esponja-do-mar é diferente de saber o filo; a resposta não decorre uma da outra."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Pergunta idêntica de identificação da foca-leopardo."
+    }
+  ]
+}

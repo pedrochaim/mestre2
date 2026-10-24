@@ -1,0 +1,737 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Siri-azul",
+        "descricao": "Callinectes sapidus, caranguejo nadador do Atlântico ocidental, de pinças azuis, muito pescado nos Estados Unidos.",
+        "variantes": [
+          "Callinectes sapidus",
+          "Caranguejo-azul",
+          "Blue crab"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "siri_azul",
+          "nome": "Siri-azul",
+          "descricao": "Siri Callinectes sapidus, nativo do Atlântico ocidental e do Golfo do México, de grande importância pesqueira.",
+          "variantes": [
+            "Callinectes sapidus",
+            "Blue crab"
+          ]
+        },
+        {
+          "id": "rio_yangtze",
+          "nome": "Rio Yangtzé",
+          "descricao": "Grande rio da China que nasce no planalto do Tibete e deságua no mar da China Oriental, perto de Xangai.",
+          "variantes": [
+            "Yangtze",
+            "Chang Jiang",
+            "Rio Azul",
+            "Iangtsé"
+          ]
+        },
+        {
+          "id": "caranguejo_fantasma",
+          "nome": "Caranguejo-fantasma",
+          "descricao": "Caranguejo de praia do gênero Ocypode, de olhos em hastes longas, que vive na areia.",
+          "variantes": [
+            "Caranguejo",
+            "Maria-farinha",
+            "Ocypode"
+          ]
+        },
+        {
+          "id": "caranguejo",
+          "nome": "Caranguejo",
+          "descricao": "Crustáceo decápode da infraordem Brachyura, de carapaça larga e cauda curta dobrada sob o corpo.",
+          "variantes": [
+            "Brachyura",
+            "Crab"
+          ]
+        },
+        {
+          "id": "dragao_azul",
+          "nome": "Dragão-azul",
+          "descricao": "Lesma-do-mar pelágica Glaucus atlanticus, azul e prateada, que flutua de cabeça para baixo na superfície.",
+          "variantes": [
+            "Glaucus atlanticus",
+            "Dragão-azul-do-mar",
+            "Anjo-azul"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tubarão-mako",
+        "descricao": "Isurus oxyrinchus, grande tubarão-cavala de corpo fusiforme, o mais rápido entre os tubarões conhecidos.",
+        "variantes": [
+          "Mako",
+          "Tubarão-anequim",
+          "Isurus oxyrinchus",
+          "Shortfin mako"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mao",
+          "nome": "Mão",
+          "descricao": "Extremidade do membro superior humano, formada por punho, palma e dedos.",
+          "variantes": [
+            "Mão humana"
+          ]
+        },
+        {
+          "id": "tubarao_anjo",
+          "nome": "Tubarão-anjo",
+          "descricao": "Tubarão de corpo achatado do gênero Squatina, que vive no fundo arenoso e lembra uma raia.",
+          "variantes": [
+            "Anjo-do-mar",
+            "Squatina",
+            "Angel shark"
+          ]
+        },
+        {
+          "id": "tubarao_martelo",
+          "nome": "Tubarão-martelo",
+          "descricao": "Tubarão da família Sphyrnidae, com a cabeça achatada e alongada lateralmente em forma de T.",
+          "variantes": [
+            "Tubarão-martelo-recortado",
+            "Hammerhead shark",
+            "Sphyrnidae"
+          ]
+        },
+        {
+          "id": "tubarao_branco",
+          "nome": "Tubarão-branco",
+          "descricao": "Grande tubarão predador (Carcharodon carcharias), de dorso cinzento e ventre branco.",
+          "variantes": [
+            "Carcharodon carcharias",
+            "Tubarão-branco-grande"
+          ]
+        },
+        {
+          "id": "tubarao_raposa",
+          "nome": "Tubarão-raposa",
+          "descricao": "Tubarão do gênero Alopias, de cauda quase tão longa quanto o resto do corpo.",
+          "variantes": [
+            "Alopias",
+            "Thresher shark",
+            "Tubarão-rabarraposa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pinguim-imperador",
+        "descricao": "Aptenodytes forsteri, o maior pinguim, endêmico da Antártida.",
+        "variantes": [
+          "Aptenodytes forsteri",
+          "Emperor penguin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pinguim_imperador",
+          "nome": "Pinguim-imperador",
+          "descricao": "Maior e mais pesado dos pinguins (Aptenodytes forsteri), endêmico da Antártida, com manchas amarelas nos lados da cabeça.",
+          "variantes": [
+            "Emperor penguin",
+            "Aptenodytes forsteri"
+          ]
+        },
+        {
+          "id": "qin_shi_huang",
+          "nome": "Qin Shi Huang",
+          "descricao": "Primeiro imperador da China unificada, fundador da dinastia Qin no século três antes de Cristo.",
+          "variantes": [
+            "Shi Huangdi",
+            "Primeiro Imperador"
+          ]
+        },
+        {
+          "id": "peixe_anjo_imperador",
+          "nome": "Peixe-anjo-imperador",
+          "descricao": "Peixe de recife Pomacanthus imperator, listrado de azul e amarelo, nativo dos oceanos Índico e Pacífico.",
+          "variantes": [
+            "Pomacanthus imperator",
+            "Emperor angelfish"
+          ]
+        },
+        {
+          "id": "dom_pedro_ii",
+          "nome": "Dom Pedro II",
+          "descricao": "Segundo e último imperador do Brasil, que reinou de 1831 a 1889.",
+          "variantes": [
+            "Pedro II do Brasil",
+            "Pedro de Alcântara",
+            "Pedro Segundo"
+          ]
+        },
+        {
+          "id": "semperoper",
+          "nome": "Semperoper",
+          "descricao": "Casa de ópera de Dresden, na Alemanha, projetada por Gottfried Semper e sede da Ópera Estatal da Saxônia.",
+          "variantes": [
+            "Ópera Semper",
+            "Sächsische Staatsoper Dresden"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Tubarão-lixa",
+        "descricao": "Ginglymostoma cirratum, tubarão de hábitos de fundo, com barbilhões junto ao focinho, do Atlântico.",
+        "variantes": [
+          "Ginglymostoma cirratum",
+          "Nurse shark",
+          "Tubarão-enfermeiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubarao_lixa",
+          "nome": "Tubarão-lixa",
+          "descricao": "Tubarão Ginglymostoma cirratum, de hábitos de fundo e com barbilhões, do Atlântico e Pacífico oriental.",
+          "variantes": [
+            "Ginglymostoma cirratum",
+            "Nurse shark"
+          ]
+        },
+        {
+          "id": "tubarao_baleia",
+          "nome": "Tubarão-baleia",
+          "descricao": "Grande tubarão filtrador (Rhincodon typus) de pele pintada, que se alimenta de plâncton.",
+          "variantes": [
+            "Rhincodon typus",
+            "Whale shark"
+          ]
+        },
+        {
+          "id": "tubarao_duende",
+          "nome": "Tubarão-duende",
+          "descricao": "Raro tubarão de águas profundas, Mitsukurina owstoni, de focinho longo e achatado e mandíbulas protráteis.",
+          "variantes": [
+            "Mitsukurina owstoni",
+            "Goblin shark",
+            "Tubarão-goblin"
+          ]
+        },
+        {
+          "id": "tubarao_anjo",
+          "nome": "Tubarão-anjo",
+          "descricao": "Tubarão de corpo achatado do gênero Squatina, que vive no fundo arenoso e lembra uma raia.",
+          "variantes": [
+            "Anjo-do-mar",
+            "Squatina",
+            "Angel shark"
+          ]
+        },
+        {
+          "id": "tubarao_peregrino",
+          "nome": "Tubarão-peregrino",
+          "descricao": "Grande tubarão filtrador (Cetorhinus maximus) de mares temperados, segundo maior peixe vivo.",
+          "variantes": [
+            "Tubarão-frade",
+            "Cetorhinus maximus",
+            "Basking shark"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Argonauta",
+        "descricao": "Gênero Argonauta, polvos pelágicos cujas fêmeas secretam uma concha fina e frágil para guardar os ovos.",
+        "variantes": [
+          "Náutilo-de-papel",
+          "Paper nautilus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "argonautas",
+          "nome": "Argonautas",
+          "descricao": "Heróis gregos que navegaram com Jasão no navio Argo em busca do velocino de ouro.",
+          "variantes": [
+            "Argonauts"
+          ]
+        },
+        {
+          "id": "astronauta",
+          "nome": "Astronauta",
+          "descricao": "Astronauta Pereira, herói espacial brasileiro da Turma da Mônica, de Mauricio de Sousa.",
+          "variantes": [
+            "Astronauta (Turma da Mônica)",
+            "Astronauta Pereira",
+            "Astro"
+          ]
+        },
+        {
+          "id": "argonath",
+          "nome": "Argonath",
+          "descricao": "Par de estátuas gigantes de reis às margens do rio Anduin em O Senhor dos Anéis: A Sociedade do Anel.",
+          "variantes": [
+            "O Senhor dos Anéis: A Sociedade do Anel",
+            "Pilares dos Reis"
+          ]
+        },
+        {
+          "id": "nautilo",
+          "nome": "Náutilo",
+          "descricao": "Cefalópode de concha externa espiralada e dividida em câmaras (Nautilus pompilius).",
+          "variantes": [
+            "Nautilus pompilius",
+            "Nautilus"
+          ]
+        },
+        {
+          "id": "nautilus_submarino_de_julio_verne",
+          "nome": "Nautilus (submarino de Júlio Verne)",
+          "descricao": "Submarino fictício comandado pelo Capitão Nemo nos romances de Júlio Verne.",
+          "variantes": [
+            "Náutilus",
+            "Nautilus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Golfinho-nariz-de-garrafa",
+        "descricao": "Tursiops truncatus, golfinho comum de focinho curto e corpo cinzento, muito visto em cativeiro.",
+        "variantes": [
+          "Golfinho-roaz",
+          "Roaz",
+          "Tursiops truncatus",
+          "Bottlenose dolphin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "golfinho_nariz_de_garrafa",
+          "nome": "Golfinho-nariz-de-garrafa",
+          "descricao": "Golfinho oceânico do gênero Tursiops, de focinho curto e grosso, muito comum em águas costeiras.",
+          "variantes": [
+            "Tursiops truncatus",
+            "Boto-da-tainha",
+            "Bottlenose dolphin",
+            "Roaz",
+            "Tursiops"
+          ]
+        },
+        {
+          "id": "golfinho_rotador",
+          "nome": "Golfinho-rotador",
+          "descricao": "Pequeno golfinho tropical (Stenella longirostris), famoso pelos saltos em que gira no ar.",
+          "variantes": [
+            "Stenella longirostris",
+            "Spinner dolphin",
+            "Golfinho-rotador-de-noronha"
+          ]
+        },
+        {
+          "id": "golfinho",
+          "nome": "Golfinho",
+          "descricao": "Cetáceos com dentes da família Delphinidae, como o golfinho-nariz-de-garrafa.",
+          "variantes": [
+            "Delphinidae",
+            "Dolphin",
+            "Golfinhos"
+          ]
+        },
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        },
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda",
+            "Capoeira circle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Tubarão-galha-preta-de-recife",
+        "descricao": "Carcharhinus melanopterus, tubarão de recifes tropicais com pontas pretas nas nadadeiras.",
+        "variantes": [
+          "Tubarão-de-pontas-negras-do-recife",
+          "Carcharhinus melanopterus",
+          "Blacktip reef shark"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubarao_peregrino",
+          "nome": "Tubarão-peregrino",
+          "descricao": "Grande tubarão filtrador (Cetorhinus maximus) de mares temperados, segundo maior peixe vivo.",
+          "variantes": [
+            "Tubarão-frade",
+            "Cetorhinus maximus",
+            "Basking shark"
+          ]
+        },
+        {
+          "id": "baia_shark",
+          "nome": "Baía Shark",
+          "descricao": "Baía da costa oeste australiana, Patrimônio Mundial, famosa pelos estromatólitos vivos de Hamelin Pool.",
+          "variantes": [
+            "Shark Bay",
+            "Hamelin Pool"
+          ]
+        },
+        {
+          "id": "argos_panoptes",
+          "nome": "Argos Panoptes",
+          "descricao": "Gigante de cem olhos da mitologia grega, vigia a serviço de Hera, morto por Hermes.",
+          "variantes": [
+            "Argos",
+            "Argus Panoptes"
+          ]
+        },
+        {
+          "id": "armas_nacionais_do_brasil",
+          "nome": "Armas Nacionais do Brasil",
+          "descricao": "Brasão de armas oficial da República Federativa do Brasil, um dos quatro símbolos nacionais.",
+          "variantes": [
+            "Brasão de armas do Brasil",
+            "Brasão da República"
+          ]
+        },
+        {
+          "id": "tubarao_raposa",
+          "nome": "Tubarão-raposa",
+          "descricao": "Tubarão do gênero Alopias, de cauda quase tão longa quanto o resto do corpo.",
+          "variantes": [
+            "Alopias",
+            "Thresher shark",
+            "Tubarão-rabarraposa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Lampreia",
+        "descricao": "Peixes sem mandíbulas, de corpo de enguia e boca em ventosa, da ordem Petromyzontiformes.",
+        "variantes": [
+          "Lampreias",
+          "Petromyzontiformes",
+          "Lamprey"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lampiao",
+          "nome": "Lampião",
+          "descricao": "Virgulino Ferreira da Silva, o mais famoso líder do cangaço no sertão nordestino, morto em 1938.",
+          "variantes": [
+            "Virgulino Ferreira da Silva",
+            "Rei do Cangaço"
+          ]
+        },
+        {
+          "id": "lapras",
+          "nome": "Lapras",
+          "descricao": "Pokémon dos tipos Água e Gelo, número 131 da Pokédex Nacional.",
+          "variantes": [
+            "Laplace"
+          ]
+        },
+        {
+          "id": "lampiao_a_querosene",
+          "nome": "Lampião a querosene",
+          "descricao": "Lâmpada com pavio e chaminé de vidro que queima querosene para iluminar sem eletricidade.",
+          "variantes": [
+            "Lamparina a querosene",
+            "Lanterna a querosene",
+            "Lampião"
+          ]
+        },
+        {
+          "id": "andre_marie_ampere",
+          "nome": "André-Marie Ampère",
+          "descricao": "Físico e matemático francês, fundador do eletromagnetismo clássico, que dá nome à unidade de corrente elétrica.",
+          "variantes": [
+            "Ampère"
+          ]
+        },
+        {
+          "id": "lapis",
+          "nome": "Lápis",
+          "descricao": "Instrumento de escrita e desenho com miolo sólido de grafite em um revestimento, aqui um lápis preto HB.",
+          "variantes": [
+            "Lápis grafite"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Esponja-do-mar",
+        "descricao": "Animais marinhos do filo Porifera, fixos no fundo; na imagem, uma esponja-barril gigante.",
+        "variantes": [
+          "Esponja",
+          "Poríferos",
+          "Porifera",
+          "Sea sponge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esponja_do_mar",
+          "nome": "Esponja-do-mar",
+          "descricao": "Animal marinho filtrador do filo Porifera, aqui uma esponja-barril gigante num recife.",
+          "variantes": [
+            "Esponja",
+            "Porífero",
+            "Porifera"
+          ]
+        },
+        {
+          "id": "vespa_do_mar",
+          "nome": "Vespa-do-mar",
+          "descricao": "Água-viva-de-caixa (Chironex fleckeri) do norte da Austrália e do Indo-Pacífico, de veneno potentíssimo.",
+          "variantes": [
+            "Chironex fleckeri",
+            "Sea wasp"
+          ]
+        },
+        {
+          "id": "bob_esponja_calca_quadrada",
+          "nome": "Bob Esponja Calça Quadrada",
+          "descricao": "Série animada americana estreada em 1999, sobre uma esponja-do-mar amarela que trabalha numa lanchonete no fundo do mar.",
+          "variantes": [
+            "SpongeBob SquarePants",
+            "Bob Esponja"
+          ]
+        },
+        {
+          "id": "rotifero",
+          "nome": "Rotífero",
+          "descricao": "Filo de animais microscópicos, comuns em água doce, com coroa de cílios na cabeça.",
+          "variantes": [
+            "Rotifera",
+            "Rotíferos"
+          ]
+        },
+        {
+          "id": "esponja_de_menger",
+          "nome": "Esponja de Menger",
+          "descricao": "Fractal tridimensional, generalização do tapete de Sierpinski, obtido retirando cubos de um cubo recursivamente.",
+          "variantes": [
+            "Cubo de Menger",
+            "Esponja de Menger-Sierpinski"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Foca-leopardo",
+        "descricao": "Hydrurga leptonyx, grande foca predadora do oceano Antártico, de pelagem manchada.",
+        "variantes": [
+          "Hydrurga leptonyx",
+          "Leopardo-marinho",
+          "Leopard seal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "foca_leopardo",
+          "nome": "Foca-leopardo",
+          "descricao": "Foca predadora (Hydrurga leptonyx) do oceano Antártico, de pelagem manchada.",
+          "variantes": [
+            "Hydrurga leptonyx",
+            "Leopardo-marinho"
+          ]
+        },
+        {
+          "id": "leao_marinho",
+          "nome": "Leão-marinho",
+          "descricao": "Mamífero marinho da família Otariidae, com orelhas externas, como o leão-marinho-da-califórnia.",
+          "variantes": [
+            "Leão-marinho-da-Califórnia",
+            "Otariidae"
+          ]
+        },
+        {
+          "id": "leopardo",
+          "nome": "Leopardo",
+          "descricao": "Grande felino do gênero Panthera, de pelagem dourada com rosetas escuras (Panthera pardus).",
+          "variantes": [
+            "Panthera pardus",
+            "Leopardo-africano"
+          ]
+        },
+        {
+          "id": "leonardo_dicaprio",
+          "nome": "Leonardo DiCaprio",
+          "descricao": "Ator e produtor norte-americano, vencedor do Oscar de melhor ator por O Regresso.",
+          "variantes": [
+            "Leonardo Wilhelm DiCaprio"
+          ]
+        },
+        {
+          "id": "fogo_grego",
+          "nome": "Fogo grego",
+          "descricao": "Arma incendiária de composição secreta usada pelo Império Bizantino, sobretudo em batalhas navais.",
+          "variantes": [
+            "Fogo marinho",
+            "Fogo líquido",
+            "Greek fire"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Tamarutaca",
+        "descricao": "Odontodactylus scyllarus, crustáceo estomatópode colorido de garras rápidas e visão excepcional do Indo-Pacífico.",
+        "variantes": [
+          "Camarão-mantis",
+          "Camarão-louva-a-deus",
+          "Odontodactylus scyllarus",
+          "Peacock mantis shrimp"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tamarutaca",
+          "nome": "Tamarutaca",
+          "descricao": "Crustáceos marinhos da ordem Stomatopoda, com patas raptoriais que golpeiam a presa com enorme velocidade.",
+          "variantes": [
+            "Stomatopoda",
+            "camarão-louva-a-deus",
+            "mantis shrimp",
+            "estomatópode"
+          ]
+        },
+        {
+          "id": "louva_a_deus",
+          "nome": "Louva-a-deus",
+          "descricao": "Inseto predador da ordem Mantodea, com patas dianteiras adaptadas para capturar presas.",
+          "variantes": [
+            "Mantodea",
+            "Mantis",
+            "Mantídeo"
+          ]
+        },
+        {
+          "id": "chevrolet_camaro",
+          "nome": "Chevrolet Camaro",
+          "descricao": "Automóvel esportivo americano do tipo pony car, fabricado pela Chevrolet desde o modelo de 1967.",
+          "variantes": [
+            "Camaro",
+            "Camaro RS"
+          ]
+        },
+        {
+          "id": "ambar_antigo",
+          "nome": "Âmbar Antigo",
+          "descricao": "Pedaço de âmbar dos jogos Pokémon que, levado a um laboratório, revive o pokémon fóssil Aerodactyl.",
+          "variantes": [
+            "Old Amber"
+          ]
+        },
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "siri_azul",
+      "motivo": "Mesma espécie Callinectes sapidus."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o tubarão-mako."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "pinguim_imperador",
+      "motivo": "Mesma espécie Aptenodytes forsteri."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "tubarao_lixa",
+      "motivo": "Mesma espécie Ginglymostoma cirratum."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Gênero de polvo Argonauta é distinto das demais candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "golfinho_nariz_de_garrafa",
+      "motivo": "Mesma espécie Tursiops truncatus, mesmo nome e variantes."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Tubarão-galha-preta-de-recife não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Lampreia não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "esponja_do_mar",
+      "motivo": "Mesmo grupo Porifera, esponja-barril na imagem."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "foca_leopardo",
+      "motivo": "Mesma espécie Hydrurga leptonyx."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "A proposta é a espécie específica Odontodactylus scyllarus; a candidata é a ordem Stomatopoda, uma entidade mais ampla."
+    }
+  ]
+}

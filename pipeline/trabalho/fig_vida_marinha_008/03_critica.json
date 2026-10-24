@@ -1,0 +1,103 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Maior pescaria comercial de um estado' não está nos trechos e é discutível: Virginia e Louisiana também têm grandes capturas. Os trechos sustentam que Maryland e Virginia lideram a captura na baía de Chesapeake. Reescrito sobre esse fato, com distratores que não ficam na baía.",
+      "reescrita": {
+        "pergunta": "Este crustáceo é a estrela da baía de Chesapeake. Virginia e qual outro estado americano lideram sua captura?",
+        "resposta": "Maryland",
+        "distratores": [
+          "Louisiana",
+          "Texas",
+          "Flórida"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, resposta única e distratores plausíveis de tubarões parecidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento, com distratores do mesmo grupo.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista 'de fundo' ajuda sem entregar a resposta, e os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o argonauta é um polvo verdadeiro. A pergunta pede reconhecer a figura e os distratores são críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'O mais comum em aquários e parques marinhos' é pista que entrega a resposta com a imagem coberta, e 'mais comum' não é literalmente sustentado.",
+      "reescrita": {
+        "pergunta": "Que golfinho é este?",
+        "resposta": "Golfinho-nariz-de-garrafa (roaz)"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O nome 'galha-preta-de-recife' não aparece nos trechos, que usam 'pontas-negras-do-recife'. 'Galha-preta' costuma designar outra espécie. O enunciado também repete 'recife', parte da resposta.",
+      "reescrita": {
+        "pergunta": "Que tubarão é este, comum em águas rasas dos oceanos Índico e Pacífico?",
+        "resposta": "Tubarão-de-pontas-negras-do-recife",
+        "distratores": [
+          "Tubarão-de-pontas-brancas-do-recife",
+          "Tubarão-cinzento-de-recife",
+          "Tubarão-limão"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É fato amplamente documentado que as feiticeiras são o grupo irmão das lampreias, o único outro grupo vivo de vertebrados sem mandíbulas. O enunciado não nomeia a lampreia.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Em forma de barril' aproxima de 'esponja-barril' e 'fixo no fundo' entrega a resposta; a figura vira enfeite. Basta pedir o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que animal marinho é este?",
+        "resposta": "Esponja-do-mar"
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento, com distratores do mesmo tipo (focas).",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Colorido' e 'olhos saltados' são verdadeiros e não identificam sozinhos. Sem a imagem não se chega à resposta.",
+      "reescrita": null
+    }
+  ]
+}

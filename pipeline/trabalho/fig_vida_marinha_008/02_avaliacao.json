@@ -1,0 +1,267 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de siri-azul sobre fundo preto, sem texto, reconhecível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este crustáceo é a maior pescaria comercial de qual estado americano?",
+      "resposta": "Maryland",
+      "distratores": [
+        "Texas",
+        "Alasca",
+        "Havaí"
+      ],
+      "ancora": {
+        "nome": "Siri-azul",
+        "descricao": "Callinectes sapidus, caranguejo nadador do Atlântico ocidental, de pinças azuis, muito pescado nos Estados Unidos.",
+        "variantes": [
+          "Callinectes sapidus",
+          "Caranguejo-azul",
+          "Blue crab"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto clara do tubarão de focinho pontudo e corpo fusiforme; reconhecível, distratores parecidos disponíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tubarão é este?",
+      "resposta": "Tubarão-mako",
+      "distratores": [
+        "Tubarão-sardo",
+        "Tubarão-azul",
+        "Tubarão-branco"
+      ],
+      "ancora": {
+        "nome": "Tubarão-mako",
+        "descricao": "Isurus oxyrinchus, grande tubarão-cavala de corpo fusiforme, o mais rápido entre os tubarões conhecidos.",
+        "variantes": [
+          "Mako",
+          "Tubarão-anequim",
+          "Isurus oxyrinchus",
+          "Shortfin mako"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "É uma ilustração antiga; ilustração só vale para o que não pode ser fotografado, e o peixe-víbora tem fotos."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida de dois adultos e um filhote da mesma espécie, com as manchas amarelas do pescoço; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pinguim é este?",
+      "resposta": "Pinguim-imperador",
+      "distratores": [
+        "Pinguim-rei",
+        "Pinguim-de-adélia",
+        "Pinguim-de-barbicha"
+      ],
+      "ancora": {
+        "nome": "Pinguim-imperador",
+        "descricao": "Aptenodytes forsteri, o maior pinguim, endêmico da Antártida.",
+        "variantes": [
+          "Aptenodytes forsteri",
+          "Emperor penguin"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto de tubarão pousado no fundo, com barbilhões visíveis e duas dorsais; reconhecível, múltipla evita ambiguidade.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tubarão de fundo é este?",
+      "resposta": "Tubarão-lixa",
+      "distratores": [
+        "Tubarão-tapete",
+        "Tubarão-zebra",
+        "Tubarão-cabeça-chata"
+      ],
+      "ancora": {
+        "nome": "Tubarão-lixa",
+        "descricao": "Ginglymostoma cirratum, tubarão de hábitos de fundo, com barbilhões junto ao focinho, do Atlântico.",
+        "variantes": [
+          "Ginglymostoma cirratum",
+          "Nurse shark",
+          "Tubarão-enfermeiro"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida de argonauta na concha frágil, com o corpo de polvo visível.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Apesar da concha, que animal é este?",
+      "resposta": "Polvo",
+      "distratores": [
+        "Náutilo",
+        "Caracol-do-mar",
+        "Mexilhão"
+      ],
+      "ancora": {
+        "nome": "Argonauta",
+        "descricao": "Gênero Argonauta, polvos pelágicos cujas fêmeas secretam uma concha fina e frágil para guardar os ovos.",
+        "variantes": [
+          "Argonauta",
+          "Náutilo-de-papel",
+          "Paper nautilus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de golfinho saindo da água, sem texto; reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que golfinho é este, o mais comum em aquários e parques marinhos?",
+      "resposta": "Golfinho-nariz-de-garrafa (roaz)",
+      "ancora": {
+        "nome": "Golfinho-nariz-de-garrafa",
+        "descricao": "Tursiops truncatus, golfinho comum de focinho curto e corpo cinzento, muito visto em cativeiro.",
+        "variantes": [
+          "Golfinho-roaz",
+          "Roaz",
+          "Tursiops truncatus",
+          "Bottlenose dolphin"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto clara com pontas pretas na dorsal e na cauda; distratores parecidos possíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tubarão de recife é este?",
+      "resposta": "Tubarão-galha-preta-de-recife",
+      "distratores": [
+        "Tubarão-galha-branca-de-recife",
+        "Tubarão-cinzento-de-recife",
+        "Tubarão-limão"
+      ],
+      "ancora": {
+        "nome": "Tubarão-galha-preta-de-recife",
+        "descricao": "Carcharhinus melanopterus, tubarão de recifes tropicais com pontas pretas nas nadadeiras.",
+        "variantes": [
+          "Tubarão-de-pontas-negras-do-recife",
+          "Carcharhinus melanopterus",
+          "Blacktip reef shark"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida de duas lampreias, com poros branquiais visíveis; sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual outro grupo de peixes sem mandíbulas é o parente vivo mais próximo deste animal?",
+      "resposta": "Feiticeiras (peixes-bruxa)",
+      "ancora": {
+        "nome": "Lampreia",
+        "descricao": "Peixes sem mandíbulas, de corpo de enguia e boca em ventosa, da ordem Petromyzontiformes.",
+        "variantes": [
+          "Lampreias",
+          "Petromyzontiformes",
+          "Lamprey"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Esponja-barril grande e clara; mergulhadores ao fundo são pequenos e distantes, não em primeiro plano.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que animal marinho fixo no fundo, em forma de barril, é este?",
+      "resposta": "Esponja-do-mar",
+      "ancora": {
+        "nome": "Esponja-do-mar",
+        "descricao": "Animais marinhos do filo Porifera, fixos no fundo; na imagem, uma esponja-barril gigante.",
+        "variantes": [
+          "Esponja",
+          "Poríferos",
+          "Porifera",
+          "Sea sponge"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida de foca-leopardo com boca aberta e pelagem pintada; reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que foca é esta?",
+      "resposta": "Foca-leopardo",
+      "distratores": [
+        "Foca-comum",
+        "Foca-de-Weddell",
+        "Foca-anelada"
+      ],
+      "ancora": {
+        "nome": "Foca-leopardo",
+        "descricao": "Hydrurga leptonyx, grande foca predadora do oceano Antártico, de pelagem manchada.",
+        "variantes": [
+          "Hydrurga leptonyx",
+          "Leopardo-marinho",
+          "Leopard seal"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida e inconfundível de tamarutaca-pavão, com olhos saltados e cores vivas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que crustáceo colorido, de olhos saltados, é este?",
+      "resposta": "Tamarutaca (camarão-mantis)",
+      "ancora": {
+        "nome": "Tamarutaca",
+        "descricao": "Odontodactylus scyllarus, crustáceo estomatópode colorido de garras rápidas e visão excepcional do Indo-Pacífico.",
+        "variantes": [
+          "Camarão-mantis",
+          "Camarão-louva-a-deus",
+          "Odontodactylus scyllarus",
+          "Peacock mantis shrimp"
+        ]
+      }
+    }
+  ]
+}

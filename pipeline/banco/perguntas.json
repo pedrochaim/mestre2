@@ -295642,5 +295642,185 @@
       "autor": "Autor desconhecido",
       "licenca": "CC BY 2.5"
     }
+  },
+  {
+    "id": "q15568",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "siri_azul",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este crustáceo é a estrela da baía de Chesapeake. Virginia e qual outro estado americano lideram sua captura?",
+    "resposta": "Maryland",
+    "distratores": [
+      "Louisiana",
+      "Texas",
+      "Flórida"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Callinectes_sapidus",
+      "https://pt.wikipedia.org/wiki/Siri-azul"
+    ],
+    "imagem": {
+      "arquivo": "q15568.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Blue_crab_(black_background).jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15569",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "tubarao_mako",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que tubarão é este?",
+    "resposta": "Tubarão-mako",
+    "distratores": [
+      "Tubarão-sardo",
+      "Tubarão-azul",
+      "Tubarão-branco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shortfin_mako_shark",
+      "https://pt.wikipedia.org/wiki/Isurus_oxyrinchus"
+    ],
+    "imagem": {
+      "arquivo": "q15569.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Isurus_oxyrinchus_by_mark_conlin2.JPG",
+      "autor": "Mark Conlin, SWFSC Large Pelagics Program",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15570",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "argonauta",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Apesar da concha, que animal é este?",
+    "resposta": "Polvo",
+    "distratores": [
+      "Náutilo",
+      "Caracol-do-mar",
+      "Mexilhão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Argonaut_%28animal%29",
+      "https://pt.wikipedia.org/wiki/Argonauta_%28molusco%29"
+    ],
+    "imagem": {
+      "arquivo": "q15570.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Papierboot_Argonauta_200705181139.jpg",
+      "autor": "Original uploader was Bernd Hofmann at de.wikipedia",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q15571",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "golfinho_nariz_de_garrafa",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que golfinho é este?",
+    "resposta": "Golfinho-nariz-de-garrafa (roaz)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Common_bottlenose_dolphin",
+      "https://pt.wikipedia.org/wiki/Golfinho-roaz"
+    ],
+    "imagem": {
+      "arquivo": "q15571.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tursiops_truncatus_01-cropped.jpg",
+      "autor": "NASA",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15572",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "tubarao_galha_preta_de_recife",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que tubarão é este, comum em águas rasas dos oceanos Índico e Pacífico?",
+    "resposta": "Tubarão-de-pontas-negras-do-recife",
+    "distratores": [
+      "Tubarão-de-pontas-brancas-do-recife",
+      "Tubarão-cinzento-de-recife",
+      "Tubarão-limão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Blacktip_reef_shark",
+      "https://pt.wikipedia.org/wiki/Tubar%C3%A3o-de-pontas-negras-do-recife"
+    ],
+    "imagem": {
+      "arquivo": "q15572.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Carcharhinus_melanopterus_mirihi.jpg",
+      "autor": "https://www.whatsthatfish.com/profile/fishx6",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15573",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "lampreia",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Qual outro grupo de peixes sem mandíbulas é o parente vivo mais próximo deste animal?",
+    "resposta": "Feiticeiras (peixes-bruxa)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lamprey",
+      "https://pt.wikipedia.org/wiki/Lampreia"
+    ],
+    "imagem": {
+      "arquivo": "q15573.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Jõesilmud2.jpg",
+      "autor": "Tiit Hunt",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15574",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "esponja_do_mar",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que animal marinho é este?",
+    "resposta": "Esponja-do-mar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sponge",
+      "https://pt.wikipedia.org/wiki/Porifera"
+    ],
+    "imagem": {
+      "arquivo": "q15574.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Vaasspons2.jpg",
+      "autor": "Albert Kok at Dutch Wikipedia (Original text: Albert Kok)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15575",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "tamarutaca_2",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que crustáceo colorido, de olhos saltados, é este?",
+    "resposta": "Tamarutaca (camarão-mantis)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Odontodactylus_scyllarus",
+      "https://pt.wikipedia.org/wiki/Odontodactylus_scyllarus"
+    ],
+    "imagem": {
+      "arquivo": "q15575.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Odontodactylus_scyllarus_Réunion.jpg",
+      "autor": "Cédric Péneau",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]
