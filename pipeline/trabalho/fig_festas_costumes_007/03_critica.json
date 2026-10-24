@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz 'casal', o que entrega que é um bolo de casamento, e a pergunta se responde sem a figura. Além disso, fertilidade também é defendida nos trechos como finalidade tradicional, então 'boa sorte' não é a única resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a festa coincide com a Natividade de São João Batista. O enunciado não nomeia a festa, e os distratores são santos do mesmo tipo e nenhum deles é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é curto e não nomeia a entidade. Os distratores são construções doces plausíveis, nenhuma correta para a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Buzkashi significa literalmente 'puxar cabra', o que o trecho confirma. A figura é necessária para reconhecer o jogo, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é de reconhecimento e não vaza a resposta. Os distratores são feiras do mesmo tipo e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A origem ojibwe/anishinaabe está nos trechos. Mas a função descrita no enunciado, 'pendurado sobre berços e camas', quase identifica o objeto sem a figura. Reescrita sem essa pista.",
+      "reescrita": {
+        "pergunta": "Este objeto artesanal, de aro com teia e penas, surgiu entre qual povo indígena norte-americano?",
+        "resposta": "Ojibwe (anishinaabe)",
+        "distratores": [
+          "Navajo",
+          "Apache",
+          "Inuit"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que rangolis são feitos com mais frequência no Diwali. O enunciado não nomeia a arte, e os distratores são festas hindus em que o rangoli não é o principal.",
+      "reescrita": null
+    }
+  ]
+}
