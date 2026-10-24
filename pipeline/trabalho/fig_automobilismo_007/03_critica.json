@@ -1,0 +1,36 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia nem entrega a resposta; fato confirmado nos trechos; distratores são campeões que não são pais de Mick.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "1981 a 2009 são 28 anos, então 'quase trinta' é literal; resposta única e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Schumacher foi campeão em 2002 com o F2002; enunciado não nomeia o carro nem o ano; distratores não foram campeões em 2002.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Com as datas 2009 a 2021 e 'entidade mundial do automobilismo', dá para responder FIA sem olhar a figura; a imagem virou enfeite. A nova pergunta usa outro fato, confirmado por conhecimento amplo e pelo trecho (chegou à Ferrari em 1993).",
+      "reescrita": {
+        "pergunta": "Que equipe de Fórmula 1 este dirigente francês chefiou por mais de uma década, a partir de 1993?",
+        "resposta": "Ferrari",
+        "distratores": []
+      }
+    }
+  ]
+}
