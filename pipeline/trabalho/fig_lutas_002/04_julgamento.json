@@ -1,0 +1,599 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Chuck Norris",
+        "descricao": "Artista marcial e ator norte-americano, fundador do Chun Kuk Do.",
+        "variantes": [
+          "Carlos Ray Norris"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carlos_magno",
+          "nome": "Carlos Magno",
+          "descricao": "Rei dos francos e dos lombardos, coroado imperador do Ocidente pelo papa Leão Terceiro.",
+          "variantes": [
+            "Carlos I",
+            "Charlemagne",
+            "Karl der Große",
+            "Carolus Magnus"
+          ]
+        },
+        {
+          "id": "carlos_alberto_torres",
+          "nome": "Carlos Alberto Torres",
+          "descricao": "Lateral-direito brasileiro, capitão da seleção tricampeã mundial em 1970.",
+          "variantes": [
+            "Carlos Alberto",
+            "Capita",
+            "Capitão do Tri"
+          ]
+        },
+        {
+          "id": "carlos_i_da_austria",
+          "nome": "Carlos I da Áustria",
+          "descricao": "Último imperador da Áustria-Hungria, que reinou de 1916 a 1918 e morreu no exílio em 1922.",
+          "variantes": [
+            "Carlos I da Áustria-Hungria",
+            "Karl I",
+            "Carlos IV da Hungria",
+            "Charles I of Austria"
+          ]
+        },
+        {
+          "id": "churros",
+          "nome": "Churros",
+          "descricao": "Massa frita em formato de bastão sulcado, polvilhada de açúcar e canela, de origem ibérica.",
+          "variantes": [
+            "Churro"
+          ]
+        },
+        {
+          "id": "carlos_alcaraz",
+          "nome": "Carlos Alcaraz",
+          "descricao": "Tenista espanhol, número 1 do mundo e campeão de torneios de Grand Slam.",
+          "variantes": [
+            "Carlos Alcaraz Garfia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Joe Frazier",
+        "descricao": "Boxeador norte-americano, campeão olímpico em 1964 e campeão dos pesos-pesados, o primeiro a vencer Muhammad Ali.",
+        "variantes": [
+          "Smokin' Joe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "joseph_fourier",
+          "nome": "Joseph Fourier",
+          "descricao": "Matemático e físico francês criador das séries de Fourier e da análise de condução do calor.",
+          "variantes": [
+            "Jean-Baptiste Joseph Fourier"
+          ]
+        },
+        {
+          "id": "smoking",
+          "nome": "Smoking",
+          "descricao": "Traje masculino de gala com lapelas de cetim, chamado tuxedo nos Estados Unidos",
+          "variantes": [
+            "Tuxedo",
+            "Dinner jacket"
+          ]
+        },
+        {
+          "id": "simon_jogo",
+          "nome": "Simon (jogo)",
+          "descricao": "Brinquedo eletrônico de memória com quatro botões coloridos que acendem em sequência, lançado em 1978.",
+          "variantes": [
+            "Simon",
+            "Genius"
+          ]
+        },
+        {
+          "id": "frasier",
+          "nome": "Frasier",
+          "descricao": "Sitcom americana exibida de 1993 a 2004, sobre o psiquiatra Frasier Crane, que vive em Seattle.",
+          "variantes": [
+            "Frasier Crane"
+          ]
+        },
+        {
+          "id": "rio_doce",
+          "nome": "Rio Doce",
+          "descricao": "Rio do Sudeste brasileiro que nasce em Minas Gerais e deságua no Atlântico, no Espírito Santo.",
+          "variantes": [
+            "Doce River"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Amanda Nunes",
+        "descricao": "Lutadora brasileira de MMA, campeã do UFC em duas categorias.",
+        "variantes": [
+          "Leoa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "leao",
+          "nome": "Leão",
+          "descricao": "Grande felino social da África e da Índia, espécie Panthera leo.",
+          "variantes": [
+            "Panthera leo",
+            "Lion"
+          ]
+        },
+        {
+          "id": "chumbo",
+          "nome": "Chumbo",
+          "descricao": "Elemento químico metálico de número atômico 82, pesado e maleável, usado pelos romanos em encanamentos.",
+          "variantes": [
+            "Lead",
+            "Plumbum"
+          ]
+        },
+        {
+          "id": "lego_2",
+          "nome": "Lego",
+          "descricao": "Marca dinamarquesa de brinquedos de blocos de montar plásticos.",
+          "variantes": [
+            "The Lego Group"
+          ]
+        },
+        {
+          "id": "leon",
+          "nome": "Leon",
+          "descricao": "Campeão da Liga Pokémon de Galar nos jogos Sword e Shield, adversário de Ash na final do Mundial no anime Jornadas Pokémon.",
+          "variantes": [
+            "Dande"
+          ]
+        },
+        {
+          "id": "lev_bulgaro",
+          "nome": "Lev búlgaro",
+          "descricao": "Moeda tradicional da Bulgária, usada antes da adoção do euro.",
+          "variantes": [
+            "Lev",
+            "Leva"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Maurício Shogun",
+        "descricao": "Lutador brasileiro de MMA, ex-campeão meio-pesado do UFC e campeão do Grand Prix dos médios do PRIDE em 2005.",
+        "variantes": [
+          "Maurício Rua",
+          "Shogun Rua"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mauricio_lima",
+          "nome": "Maurício Lima",
+          "descricao": "Ex-levantador brasileiro de vôlei, campeão olímpico em Barcelona 1992 e Atenas 2004.",
+          "variantes": [
+            "Maurício Camargo Lima"
+          ]
+        },
+        {
+          "id": "mauricio_de_sousa",
+          "nome": "Mauricio de Sousa",
+          "descricao": "Quadrinista paulista, criador da Turma da Mônica",
+          "variantes": []
+        },
+        {
+          "id": "do_contra",
+          "nome": "Do Contra",
+          "descricao": "Menino rebelde e diferentão da Turma da Mônica, irmão do ilusionista Nimbus.",
+          "variantes": [
+            "Mauricio Hiromashi"
+          ]
+        },
+        {
+          "id": "mosquito",
+          "nome": "Mosquito",
+          "descricao": "Díptero da família Culicidae, de pernas longas, cujas fêmeas sugam sangue.",
+          "variantes": [
+            "Pernilongo",
+            "Muriçoca",
+            "Culicidae",
+            "Carapanã"
+          ]
+        },
+        {
+          "id": "mario_sonic",
+          "nome": "Mario & Sonic",
+          "descricao": "Série de jogos esportivos que reúne os personagens da Nintendo e da Sega, iniciada em 2007.",
+          "variantes": [
+            "Mario & Sonic at the Olympic Games",
+            "Mario e Sonic nos Jogos Olímpicos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Morihei Ueshiba",
+        "descricao": "Mestre de artes marciais japonês, fundador do aikidô.",
+        "variantes": [
+          "Ōsensei",
+          "O-Sensei"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sensei",
+          "nome": "Sensei",
+          "descricao": "Termo japonês de tratamento usado para professores e mestres, inclusive nas artes marciais.",
+          "variantes": [
+            "Sensē"
+          ]
+        },
+        {
+          "id": "fossil",
+          "nome": "Fóssil",
+          "descricao": "Resto ou vestígio preservado de um ser vivo de épocas geológicas passadas.",
+          "variantes": [
+            "Fósseis"
+          ]
+        },
+        {
+          "id": "ensaios_montaigne",
+          "nome": "Ensaios (Montaigne)",
+          "descricao": "Coletânea de textos de Michel de Montaigne publicada a partir de 1580, que deu nome ao gênero ensaio.",
+          "variantes": [
+            "Essais",
+            "Os Ensaios"
+          ]
+        },
+        {
+          "id": "ostensorio",
+          "nome": "Ostensório",
+          "descricao": "Objeto litúrgico dourado usado para expor a hóstia consagrada na adoração eucarística.",
+          "variantes": [
+            "Custódia",
+            "Monstrância"
+          ]
+        },
+        {
+          "id": "albert_einstein",
+          "nome": "Albert Einstein",
+          "descricao": "Físico teórico alemão, criador da teoria da relatividade e Nobel de Física de 1921.",
+          "variantes": [
+            "Einstein"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Alex Poatan (Alex Pereira)",
+        "descricao": "Lutador brasileiro de MMA e ex-kickboxer, campeão do UFC em duas categorias.",
+        "variantes": [
+          "Alex Pereira",
+          "Poatan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "otan",
+          "nome": "OTAN",
+          "descricao": "Organização do Tratado do Atlântico Norte, aliança militar ocidental criada em 1949 durante a Guerra Fria.",
+          "variantes": [
+            "Organização do Tratado do Atlântico Norte",
+            "NATO"
+          ]
+        },
+        {
+          "id": "pashtuns",
+          "nome": "Pashtuns",
+          "descricao": "Povo iraniano oriental que vive no Afeganistão e no noroeste do Paquistão e fala o pashto.",
+          "variantes": [
+            "Pachtuns",
+            "Pastós",
+            "Patanes"
+          ]
+        },
+        {
+          "id": "pantano",
+          "nome": "Pântano",
+          "descricao": "Terra úmida florestada, alagada de forma permanente ou sazonal.",
+          "variantes": [
+            "Swamp",
+            "Floresta alagada"
+          ]
+        },
+        {
+          "id": "didi",
+          "nome": "Didi",
+          "descricao": "Waldyr Pereira, meio-campista brasileiro bicampeão mundial em 1958 e 1962.",
+          "variantes": [
+            "Waldyr Pereira"
+          ]
+        },
+        {
+          "id": "natalia_pereira",
+          "nome": "Natália Pereira",
+          "descricao": "Jogadora brasileira de vôlei, campeã olímpica em Londres 2012, nascida Natália Zilio Pereira.",
+          "variantes": [
+            "Natália Zilio Pereira",
+            "Natália"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Oscar De La Hoya",
+        "descricao": "Ex-boxeador e promotor mexicano-americano, o Golden Boy, ouro olímpico em 1992.",
+        "variantes": [
+          "Golden Boy"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gol_de_ouro",
+          "nome": "Gol de ouro",
+          "descricao": "Regra de morte súbita na prorrogação, usada no futebol nos anos 1990 e 2000, em que o primeiro gol encerrava a partida.",
+          "variantes": [
+            "Golden goal",
+            "Morte súbita"
+          ]
+        },
+        {
+          "id": "sapo_dourado",
+          "nome": "Sapo-dourado",
+          "descricao": "Sapo alaranjado (Incilius periglenes) das florestas de Monteverde, na Costa Rica, visto pela última vez em 1989 e considerado extinto.",
+          "variantes": [
+            "Incilius periglenes",
+            "Bufo periglenes",
+            "Golden toad"
+          ]
+        },
+        {
+          "id": "urso_de_ouro",
+          "nome": "Urso de Ouro",
+          "descricao": "Prêmio máximo do Festival Internacional de Cinema de Berlim.",
+          "variantes": [
+            "Golden Bear",
+            "Goldener Bär"
+          ]
+        },
+        {
+          "id": "gholdengo",
+          "nome": "Gholdengo",
+          "descricao": "Pokémon dourado dos tipos Aço e Fantasma da nona geração, evolução de Gimmighoul.",
+          "variantes": [
+            "Surfugo"
+          ]
+        },
+        {
+          "id": "razao_aurea",
+          "nome": "Razão áurea",
+          "descricao": "Número irracional aproximadamente igual a um vírgula seis um oito, também chamado proporção áurea ou número de ouro.",
+          "variantes": [
+            "Proporção áurea",
+            "Número de ouro",
+            "Golden ratio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Jack Dempsey",
+        "descricao": "Boxeador norte-americano, campeão mundial dos pesos-pesados de 1919 a 1926.",
+        "variantes": [
+          "William Harrison Dempsey"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jack_daniel_s",
+          "nome": "Jack Daniel's",
+          "descricao": "Marca de uísque americano produzida em Lynchburg, no Tennessee, desde o século dezenove.",
+          "variantes": [
+            "Jack Daniels"
+          ]
+        },
+        {
+          "id": "william_thomson_lorde_kelvin",
+          "nome": "William Thomson (Lorde Kelvin)",
+          "descricao": "Físico britânico do século dezenove, nascido em Belfast e professor em Glasgow, que dá nome à escala Kelvin.",
+          "variantes": [
+            "Lord Kelvin",
+            "Lorde Kelvin",
+            "William Thomson"
+          ]
+        },
+        {
+          "id": "willem_dafoe",
+          "nome": "Willem Dafoe",
+          "descricao": "Ator americano indicado quatro vezes ao Oscar, nascido em Appleton, Wisconsin.",
+          "variantes": [
+            "William James Dafoe"
+          ]
+        },
+        {
+          "id": "william_herschel",
+          "nome": "William Herschel",
+          "descricao": "Astrônomo e compositor germano-britânico (1738–1822), descobridor de Urano.",
+          "variantes": [
+            "Frederick William Herschel",
+            "Friedrich Wilhelm Herschel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Dwayne Johnson (The Rock)",
+        "descricao": "Ator norte-americano e ex-lutador de luta livre profissional da WWF/WWE.",
+        "variantes": [
+          "Dwayne Johnson",
+          "The Rock"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_turco_automato",
+          "nome": "O Turco (autômato)",
+          "descricao": "Falso autômato jogador de xadrez construído por Wolfgang von Kempelen em 1770, que percorreu a Europa e a América.",
+          "variantes": [
+            "Turco Mecânico",
+            "Mechanical Turk",
+            "The Turk"
+          ]
+        },
+        {
+          "id": "equipe_rocket",
+          "nome": "Equipe Rocket",
+          "descricao": "Organização criminosa da franquia Pokémon, representada no anime pela dupla Jessie e James e pelo Meowth falante.",
+          "variantes": [
+            "Team Rocket"
+          ]
+        },
+        {
+          "id": "magic_johnson",
+          "nome": "Magic Johnson",
+          "descricao": "Armador americano do Los Angeles Lakers, cinco vezes campeão da NBA nos anos 1980.",
+          "variantes": [
+            "Earvin Johnson",
+            "Earvin Magic Johnson"
+          ]
+        },
+        {
+          "id": "the_o2_arena",
+          "nome": "The O2 Arena",
+          "descricao": "Arena coberta na Península de Greenwich, em Londres, instalada no antigo Millennium Dome.",
+          "variantes": [
+            "The O2",
+            "O2 Arena",
+            "Millennium Dome"
+          ]
+        },
+        {
+          "id": "katherine_johnson",
+          "nome": "Katherine Johnson",
+          "descricao": "Matemática americana (1918–2020) da NASA, que calculou trajetórias de voos espaciais.",
+          "variantes": [
+            "Katherine Coleman Goble Johnson"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Lennox Lewis",
+        "descricao": "Ex-boxeador britânico-canadense, campeão mundial dos pesos-pesados e ouro olímpico em 1988.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "carl_lewis",
+          "nome": "Carl Lewis",
+          "descricao": "Atleta americano, campeão de quatro provas nos Jogos de Los Angeles 1984.",
+          "variantes": [
+            "Frederick Carlton Lewis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Gichin Funakoshi",
+        "descricao": "Mestre okinawano, fundador do caratê Shotokan.",
+        "variantes": [
+          "Funakoshi Gichin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gioachino_rossini",
+          "nome": "Gioachino Rossini",
+          "descricao": "Compositor italiano de óperas (1792–1868), autor de O Barbeiro de Sevilha e Guilherme Tell.",
+          "variantes": [
+            "Rossini"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Chuck Norris."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o boxeador Joe Frazier."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Amanda Nunes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o lutador Maurício Shogun."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Sensei é termo genérico, não a pessoa Ueshiba."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Alex Pereira."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Oscar De La Hoya."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Jack Dempsey."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Dwayne Johnson."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Carl Lewis é outra pessoa."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Rossini é outra pessoa."
+    }
+  ]
+}

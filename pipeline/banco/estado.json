@@ -714,9 +714,10 @@
     "fig_lutas_001",
     "fig_energia_matematica_005",
     "fig_olimpiadas_001",
-    "fig_moda_003"
+    "fig_moda_003",
+    "fig_lutas_002"
   ],
-  "maior_id": 15053,
+  "maior_id": 15064,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1482,14 +1483,15 @@
     },
     "lutas": {
       "familias": {
-        "o_que_e": 2,
-        "com_o_que_se_liga": 1
+        "o_que_e": 4,
+        "com_o_que_se_liga": 10
       },
       "niveis": {
-        "1": 1,
-        "2": 2
+        "1": 2,
+        "2": 8,
+        "3": 4
       },
-      "registradas": 3
+      "registradas": 14
     },
     "olimpiadas": {
       "familias": {

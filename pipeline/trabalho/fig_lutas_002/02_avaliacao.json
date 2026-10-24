@@ -1,0 +1,239 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto; pergunta além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este ator e artista marcial fundou a sua própria disciplina de combate. Que nome ela recebeu?",
+      "resposta": "Chun Kuk Do",
+      "destino": 0,
+      "ancora": {
+        "nome": "Chuck Norris",
+        "descricao": "Artista marcial e ator norte-americano, fundador do Chun Kuk Do.",
+        "variantes": [
+          "Carlos Ray Norris"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de boxeador com luvas, sem texto que entregue o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este boxeador, campeão olímpico em 1964, foi o primeiro a derrotar que lutador, em 1971?",
+      "resposta": "Muhammad Ali",
+      "destino": 0,
+      "ancora": {
+        "nome": "Joe Frazier",
+        "descricao": "Boxeador norte-americano, campeão olímpico em 1964 e campeão dos pesos-pesados, o primeiro a vencer Muhammad Ali.",
+        "variantes": [
+          "Smokin' Joe"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Montagem com fundo decorativo; não dá para afirmar com segurança que é sabre em vez de florete, e o assunto é ambíguo."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Figura pública nítida; textos visíveis são patrocinadores e outros lutadores, não o nome dela.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta lutadora brasileira?",
+      "resposta": "Amanda Nunes",
+      "distratores": [
+        "Cris Cyborg",
+        "Jéssica Andrade",
+        "Cláudia Gadelha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Amanda Nunes",
+        "descricao": "Lutadora brasileira de MMA, campeã do UFC em duas categorias.",
+        "variantes": [
+          "Leoa"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rosto visível; textos são só patrocínios.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este lutador brasileiro venceu, em 2005, o Grand Prix dos médios de que evento?",
+      "resposta": "PRIDE",
+      "destino": 0,
+      "ancora": {
+        "nome": "Maurício Shogun",
+        "descricao": "Lutador brasileiro de MMA, ex-campeão meio-pesado do UFC e campeão do Grand Prix dos médios do PRIDE em 2005.",
+        "variantes": [
+          "Maurício Rua",
+          "Shogun Rua"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato histórico claro, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que arte marcial japonesa foi fundada por este mestre?",
+      "resposta": "Aikidô",
+      "destino": 0,
+      "ancora": {
+        "nome": "Morihei Ueshiba",
+        "descricao": "Mestre de artes marciais japonês, fundador do aikidô.",
+        "variantes": [
+          "Ōsensei",
+          "O-Sensei"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto; múltipla escolha ajuda no reconhecimento.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este lutador brasileiro?",
+      "resposta": "Alex Poatan",
+      "distratores": [
+        "Glover Teixeira",
+        "Charles Oliveira",
+        "Thiago Marreta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alex Poatan (Alex Pereira)",
+        "descricao": "Lutador brasileiro de MMA e ex-kickboxer, campeão do UFC em duas categorias.",
+        "variantes": [
+          "Alex Pereira",
+          "Poatan"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Rosto nítido, sem texto; pessoas ao fundo são marginais.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este ex-boxeador ganhou a medalha de ouro olímpica em que ano?",
+      "resposta": "1992",
+      "distratores": [
+        "1988",
+        "1996",
+        "2000"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Oscar De La Hoya",
+        "descricao": "Ex-boxeador e promotor mexicano-americano, o Golden Boy, ouro olímpico em 1992.",
+        "variantes": [
+          "Golden Boy"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual era o apelido deste campeão dos pesos-pesados dos anos vinte?",
+      "resposta": "Manassa Mauler",
+      "distratores": [
+        "Brown Bomber",
+        "Brockton Blockbuster",
+        "Galveston Giant"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jack Dempsey",
+        "descricao": "Boxeador norte-americano, campeão mundial dos pesos-pesados de 1919 a 1926.",
+        "variantes": [
+          "William Harrison Dempsey"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que nome de ringue este ator usava como lutador de luta livre profissional?",
+      "resposta": "The Rock",
+      "destino": 0,
+      "ancora": {
+        "nome": "Dwayne Johnson (The Rock)",
+        "descricao": "Ator norte-americano e ex-lutador de luta livre profissional da WWF/WWE.",
+        "variantes": [
+          "Dwayne Johnson",
+          "The Rock"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; alfinetes de bandeira não entregam o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este ex-boxeador dos pesos-pesados foi ouro olímpico em 1988 representando que país?",
+      "resposta": "Canadá",
+      "distratores": [
+        "Reino Unido",
+        "Estados Unidos",
+        "Jamaica"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lennox Lewis",
+        "descricao": "Ex-boxeador britânico-canadense, campeão mundial dos pesos-pesados e ouro olímpico em 1988.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto histórica de mestre em postura de caratê, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estilo de caratê foi fundado por este mestre okinawano?",
+      "resposta": "Shotokan",
+      "distratores": [
+        "Goju-ryu",
+        "Kyokushin",
+        "Wado-ryu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gichin Funakoshi",
+        "descricao": "Mestre okinawano, fundador do caratê Shotokan.",
+        "variantes": [
+          "Funakoshi Gichin"
+        ]
+      }
+    }
+  ]
+}
