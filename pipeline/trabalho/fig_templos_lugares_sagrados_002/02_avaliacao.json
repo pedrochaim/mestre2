@@ -1,0 +1,278 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fachada, cúpula e torre do relógio bem visíveis, sem texto; reconhecível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que estado brasileiro fica esta basílica?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Minas Gerais",
+        "Rio de Janeiro",
+        "Bahia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Basílica de Aparecida",
+        "descricao": "Catedral Basílica do Santuário Nacional de Nossa Senhora Aparecida, grande templo católico em Aparecida, no estado de São Paulo.",
+        "variantes": [
+          "Santuário Nacional de Aparecida",
+          "Basílica de Nossa Senhora Aparecida"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Salão de Orações pela Boa Colheita bem visível; turistas pequenos ao fundo e apenas ideogramas na placa, que não entregam o nome.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este complexo, onde imperadores rezavam por boas colheitas?",
+      "resposta": "Pequim",
+      "distratores": [
+        "Xi'an",
+        "Nanquim",
+        "Xangai"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Templo do Céu",
+        "descricao": "Complexo de templos imperiais confucionistas no sudeste de Pequim, usado para cerimônias de oração ao Céu por boas colheitas.",
+        "variantes": [
+          "Temple of Heaven",
+          "Tiantan"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Templo romano de colunas coríntias bem preservado, sem texto; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este templo romano em ruínas é associado a que deus?",
+      "resposta": "Baco",
+      "distratores": [
+        "Júpiter",
+        "Vênus",
+        "Mercúrio"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Templo de Baco (Baalbek)",
+        "descricao": "Templo romano do século dois muito bem preservado no sítio arqueológico de Baalbek, no Líbano.",
+        "variantes": [
+          "Temple of Bacchus",
+          "Templo de Baco em Baalbek"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto antiga da Caaba com o pátio da mesquita ao redor; sem texto, reconhecível, ainda que de baixa resolução.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mesquita é esta?",
+      "resposta": "Grande Mesquita de Meca",
+      "distratores": [
+        "Mesquita do Profeta",
+        "Mesquita Azul",
+        "Mesquita de Al-Aqsa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Grande Mesquita de Meca",
+        "descricao": "Masjid al-Haram, a mais sagrada mesquita do Islã, que envolve a Caaba em Meca, na Arábia Saudita.",
+        "variantes": [
+          "Masjid al-Haram",
+          "Mesquita Sagrada",
+          "Al-Masjid al-Haram"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pirâmide do Sol vista da Pirâmide da Lua, bem reconhecível; visitantes pequenos ao longe.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta pirâmide?",
+      "resposta": "México",
+      "distratores": [
+        "Peru",
+        "Guatemala",
+        "Honduras"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Pirâmide do Sol",
+        "descricao": "Maior construção da cidade pré-colombiana de Teotihuacán, no México, na Avenida dos Mortos.",
+        "variantes": [
+          "Pyramid of the Sun",
+          "Pirámide del Sol"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Monte circular com fachada de quartzo branco e pedras do perímetro; reconhecível, pessoas pequenas e distantes.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que evento astronômico faz o sol iluminar a câmara interna deste túmulo?",
+      "resposta": "Solstício de inverno",
+      "distratores": [
+        "Solstício de verão",
+        "Equinócio de primavera",
+        "Equinócio de outono"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Newgrange",
+        "descricao": "Túmulo de passagem neolítico de cerca de 3100 a.C. no Condado de Meath, na Irlanda, com fachada de quartzo branco.",
+        "variantes": [
+          "Sí an Bhrú",
+          "Brú na Bóinne"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano (homem de camisa amarela no centro e outro sentado), ocupando boa parte da imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Colunas e paredes com relevos, obelisco e estátua do complexo de Karnak; resposta pela cidade é única (Luxor), mesmo com outros templos vizinhos.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade egípcia fica este complexo de templos?",
+      "resposta": "Luxor",
+      "distratores": [
+        "Assuã",
+        "Gizé",
+        "Alexandria"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Templo de Karnak",
+        "descricao": "Vasto complexo de templos, pilonos e capelas do Egito Antigo perto de Luxor, dedicado sobretudo a Amon.",
+        "variantes": [
+          "Karnak",
+          "Carnaque",
+          "Complexo de Karnak"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Templo egípcio com pórticos e espelho d'água em parque, sem texto ou pessoas; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país ganhou este templo, transportado pedra por pedra desde a Núbia?",
+      "resposta": "Espanha",
+      "distratores": [
+        "Estados Unidos",
+        "Países Baixos",
+        "Itália"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Templo de Debod",
+        "descricao": "Antigo templo núbio egípcio do século dois a.C., hoje reconstruído no Parque de la Montaña, em Madri.",
+        "variantes": [
+          "Temple of Debod",
+          "Templo de Debode"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada icônica com os colossos sentados, sem texto nem pessoas; inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que templos esculpidos na rocha são estes?",
+      "resposta": "Abu Simbel",
+      "distratores": [
+        "Karnak",
+        "Templo de Luxor",
+        "Templo de Filas"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Templos de Abu Simbel",
+        "descricao": "Dois templos escavados na rocha por Ramsés II, no sul do Egito, famosos pelos colossos da fachada e transferidos em 1968.",
+        "variantes": [
+          "Abu Simbel",
+          "Abul-Simbel"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Templo jônico com as cariátides e a cidade de Atenas ao fundo; sem texto, reconhecível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que colina de Atenas fica este templo?",
+      "resposta": "Acrópole",
+      "distratores": [
+        "Areópago",
+        "Colina de Filopapo",
+        "Monte Licabeto"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Erecteion",
+        "descricao": "Templo grego jônico no lado norte da Acrópole de Atenas, famoso pelo Pórtico das Cariátides e dedicado a Atena e Erecteu.",
+        "variantes": [
+          "Erechtheion",
+          "Erecteu",
+          "Templo de Atena Polias"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do templo dórico bem preservado, sem texto ou pessoas relevantes.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Durante séculos, este templo grego serviu de igreja ortodoxa dedicada a que santo?",
+      "resposta": "São Jorge",
+      "distratores": [
+        "São Nicolau",
+        "São Demétrio",
+        "Santo André"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Templo de Hefesto",
+        "descricao": "Templo dórico bem preservado na Ágora de Atenas, dedicado a Hefesto, também chamado Hefesteion ou Teseion.",
+        "variantes": [
+          "Hefesteion",
+          "Hephaisteion",
+          "Teseion",
+          "Temple of Hephaestus"
+        ]
+      }
+    }
+  ]
+}

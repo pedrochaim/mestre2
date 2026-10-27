@@ -1,0 +1,220 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que estado brasileiro fica esta basílica?",
+        "resposta": "São Paulo"
+      },
+      "existentes": [
+        {
+          "id": "q11583",
+          "pergunta": "Em que cidade do interior paulista fica esta basílica católica, principal santuário de peregrinação do Brasil?",
+          "resposta": "Aparecida"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade chinesa fica este complexo de templos?",
+        "resposta": "Pequim"
+      },
+      "existentes": [
+        {
+          "id": "q05285",
+          "pergunta": "Em que século foi construído este templo imperial?",
+          "resposta": "Século quinze"
+        },
+        {
+          "id": "q08583",
+          "pergunta": "Que templo chinês é este?",
+          "resposta": "Templo do Céu"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que país fica esta pirâmide?",
+        "resposta": "México"
+      },
+      "existentes": [
+        {
+          "id": "q01921",
+          "pergunta": "Que pirâmide mesoamericana é esta?",
+          "resposta": "Pirâmide do Sol"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que evento astronômico faz o sol iluminar a câmara interna deste túmulo?",
+        "resposta": "Solstício de inverno"
+      },
+      "existentes": [
+        {
+          "id": "q03113",
+          "pergunta": "Em que época do ano a luz do sol nascente atravessa o corredor da tumba de Newgrange, na Irlanda, e ilumina a sua câmara?",
+          "resposta": "No solstício de inverno"
+        },
+        {
+          "id": "q14181",
+          "pergunta": "Qual destes monumentos antigos foi construído primeiro?",
+          "resposta": "Newgrange"
+        },
+        {
+          "id": "q14182",
+          "pergunta": "A grande pedra deitada diante da entrada do túmulo de Newgrange, na Irlanda, é famosa por gravações de que forma?",
+          "resposta": "Espirais"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que cidade egípcia fica este complexo de templos?",
+        "resposta": "Luxor"
+      },
+      "existentes": [
+        {
+          "id": "q06395",
+          "pergunta": "A grande sala hipostila do templo de Karnak, em Luxor, é uma verdadeira floresta de colunas de pedra. Quantas colunas ela tem?",
+          "resposta": "134"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que país ganhou este templo, transportado pedra por pedra desde a Núbia?",
+        "resposta": "Espanha"
+      },
+      "existentes": [
+        {
+          "id": "q06368",
+          "pergunta": "O Templo de Debod, doado pelo Egito como agradecimento pela ajuda no salvamento dos monumentos da Núbia, foi remontado em qual capital europeia?",
+          "resposta": "Madri"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que templos esculpidos na rocha são estes?",
+        "resposta": "Abu Simbel"
+      },
+      "existentes": [
+        {
+          "id": "q00116",
+          "pergunta": "Nos anos sessenta, os templos de Abu Simbel foram cortados em blocos e remontados num terreno mais alto. Que obra os ameaçava?",
+          "resposta": "Alta Represa de Assuã"
+        },
+        {
+          "id": "q06390",
+          "pergunta": "O templo menor de Abu Simbel foi dedicado à deusa Hátor e também a uma rainha, a grande esposa de Ramsés Segundo. Qual?",
+          "resposta": "Nefertari"
+        },
+        {
+          "id": "q06920",
+          "pergunta": "Que templo egípcio escavado na rocha é este?",
+          "resposta": "Abu Simbel"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em que colina de Atenas fica este templo?",
+        "resposta": "Acrópole"
+      },
+      "existentes": [
+        {
+          "id": "q02450",
+          "pergunta": "Em que século antes de Cristo foi construído este templo grego?",
+          "resposta": "Quinto século a.C."
+        },
+        {
+          "id": "q03197",
+          "pergunta": "No templo Erecteion, na Acrópole de Atenas, estátuas de mulheres fazem o papel de colunas. Como elas se chamam?",
+          "resposta": "Cariátides"
+        },
+        {
+          "id": "q09536",
+          "pergunta": "Das seis cariátides originais do Erecteion, cinco estão num museu de Atenas. Em que museu de Londres está a sexta?",
+          "resposta": "Museu Britânico"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Durante séculos, este templo grego serviu de igreja ortodoxa dedicada a que santo?",
+        "resposta": "São Jorge"
+      },
+      "existentes": [
+        {
+          "id": "q03877",
+          "pergunta": "Que templo dórico da Grécia antiga é este, na cidade de Atenas?",
+          "resposta": "Templo de Hefesto"
+        },
+        {
+          "id": "q08584",
+          "pergunta": "Que ordem arquitetônica grega têm as colunas deste templo?",
+          "resposta": "Dórica"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o estado, não a cidade; fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Localização em cidade difere de século e nome do templo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "País da pirâmide é fato distinto do nome dela."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: solstício de inverno ilumina a câmara de Newgrange.",
+      "id_existente": "q03113"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Cidade do complexo difere do número de colunas."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Remontado em Madri equivale a ter sido dado à Espanha; mesmo fato.",
+      "id_existente": "q06368"
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do templo como Abu Simbel.",
+      "id_existente": "q06920"
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "A colina onde fica o templo é fato diferente de século ou cariátides."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "O santo da igreja é fato novo, distinto de nome e ordem arquitetônica."
+    }
+  ]
+}

@@ -1,0 +1,719 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Basílica de Aparecida",
+        "descricao": "Catedral Basílica do Santuário Nacional de Nossa Senhora Aparecida, grande templo católico em Aparecida, no estado de São Paulo.",
+        "variantes": [
+          "Santuário Nacional de Aparecida",
+          "Basílica de Nossa Senhora Aparecida"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "basilica_de_nossa_senhora_aparecida",
+          "nome": "Basílica de Nossa Senhora Aparecida",
+          "descricao": "Santuário nacional católico em Aparecida, São Paulo, dedicado à padroeira do Brasil.",
+          "variantes": [
+            "Basílica Nova de Aparecida",
+            "Santuário Nacional de Aparecida"
+          ]
+        },
+        {
+          "id": "nossa_senhora_aparecida",
+          "nome": "Nossa Senhora Aparecida",
+          "descricao": "Imagem de Nossa Senhora da Conceição encontrada em 1717, padroeira do Brasil",
+          "variantes": [
+            "Nossa Senhora da Conceição Aparecida",
+            "Our Lady of Aparecida",
+            "Imagem de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "basilica_de_sacre_c_ur",
+          "nome": "Basílica de Sacré-Cœur",
+          "descricao": "Basílica de cúpulas brancas em Paris, dedicada ao Sagrado Coração, concluída no início do século vinte.",
+          "variantes": [
+            "Sacré-Cœur",
+            "Basílica do Sagrado Coração de Montmartre",
+            "Basílica do Sagrado Coração"
+          ]
+        },
+        {
+          "id": "basilica_de_sao_marcos",
+          "nome": "Basílica de São Marcos",
+          "descricao": "Catedral de estilo bizantino na Praça de São Marcos, em Veneza, na Itália.",
+          "variantes": [
+            "Basilica di San Marco"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Templo do Céu",
+        "descricao": "Complexo de templos imperiais confucionistas no sudeste de Pequim, usado para cerimônias de oração ao Céu por boas colheitas.",
+        "variantes": [
+          "Temple of Heaven",
+          "Tiantan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        },
+        {
+          "id": "radiotelescopio_fast",
+          "nome": "Radiotelescópio FAST",
+          "descricao": "Radiotelescópio chinês de 500 metros de abertura, instalado numa depressão natural em Guizhou.",
+          "variantes": [
+            "FAST",
+            "Five-hundred-meter Aperture Spherical Telescope",
+            "Tianyan"
+          ]
+        },
+        {
+          "id": "tita",
+          "nome": "Titã",
+          "descricao": "Maior lua de Saturno, com densa atmosfera alaranjada.",
+          "variantes": [
+            "Titan"
+          ]
+        },
+        {
+          "id": "templo_de_edfu",
+          "nome": "Templo de Edfu",
+          "descricao": "Templo dedicado ao deus Hórus na cidade de Edfu, no sul do Egito, um dos mais bem conservados do país",
+          "variantes": [
+            "Templo de Hórus em Edfu",
+            "Temple of Edfu"
+          ]
+        },
+        {
+          "id": "instituto_butantan",
+          "nome": "Instituto Butantan",
+          "descricao": "Centro de pesquisa biomédica de São Paulo, criado em 1901, conhecido pela produção de soros e vacinas.",
+          "variantes": [
+            "Butantan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Templo de Baco (Baalbek)",
+        "descricao": "Templo romano do século dois muito bem preservado no sítio arqueológico de Baalbek, no Líbano.",
+        "variantes": [
+          "Temple of Bacchus",
+          "Templo de Baco em Baalbek"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baalbek",
+          "nome": "Baalbek",
+          "descricao": "Cidade e sítio arqueológico romano no Vale do Beca, no Líbano, aqui o Templo de Baco.",
+          "variantes": [
+            "Heliópolis",
+            "Templo de Baco"
+          ]
+        },
+        {
+          "id": "templo_de_edfu",
+          "nome": "Templo de Edfu",
+          "descricao": "Templo dedicado ao deus Hórus na cidade de Edfu, no sul do Egito, um dos mais bem conservados do país",
+          "variantes": [
+            "Templo de Hórus em Edfu",
+            "Temple of Edfu"
+          ]
+        },
+        {
+          "id": "templo_de_artemis",
+          "nome": "Templo de Ártemis",
+          "descricao": "Grande templo grego dedicado à deusa Ártemis na antiga cidade de Éfeso, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Artemísion",
+            "Templo de Diana em Éfeso",
+            "Templo de Ártemis em Éfeso",
+            "Temple of Artemis"
+          ]
+        },
+        {
+          "id": "templo_de_kom_ombo",
+          "nome": "Templo de Kom Ombo",
+          "descricao": "Templo duplo de época ptolomaica em Kom Ombo, na província de Assuã, no Alto Egito.",
+          "variantes": [
+            "Templo de Com Ombo",
+            "Temple of Kom Ombo"
+          ]
+        },
+        {
+          "id": "templo_do_sol_de_konark",
+          "nome": "Templo do Sol de Konark",
+          "descricao": "Templo hindu do século treze em Konark, em Odisha, na Índia, dedicado ao deus Sol Surya e com forma de carruagem.",
+          "variantes": [
+            "Templo do Sol em Konarak",
+            "Konark Sun Temple",
+            "Surya Devalaya"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Grande Mesquita de Meca",
+        "descricao": "Masjid al-Haram, a mais sagrada mesquita do Islã, que envolve a Caaba em Meca, na Arábia Saudita.",
+        "variantes": [
+          "Masjid al-Haram",
+          "Mesquita Sagrada",
+          "Al-Masjid al-Haram"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_djenne",
+          "nome": "Grande Mesquita de Djenné",
+          "descricao": "Mesquita de barro na cidade de Djenné, no Mali, reconstruída em 1907 e Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Great Mosque of Djenné",
+            "Mesquita de Djenné"
+          ]
+        },
+        {
+          "id": "mesquita_do_profeta",
+          "nome": "Mesquita do Profeta",
+          "descricao": "Mesquita em Medina, Arábia Saudita, segunda mais sagrada do Islã, com a cúpula verde sobre o túmulo de Maomé.",
+          "variantes": [
+            "Al-Masjid an-Nabawi",
+            "Mesquita de Medina"
+          ]
+        },
+        {
+          "id": "voie_sacree",
+          "nome": "Voie Sacrée",
+          "descricao": "Estrada entre Bar-le-Duc e Verdun que abasteceu de tropas e suprimentos a defesa francesa durante a Batalha de Verdun, em 1916.",
+          "variantes": [
+            "Via Sagrada",
+            "Caminho Sagrado"
+          ]
+        },
+        {
+          "id": "lindisfarne",
+          "nome": "Lindisfarne",
+          "descricao": "Ilha de maré no nordeste da Inglaterra, sede de um mosteiro saqueado pelos vikings em 793.",
+          "variantes": [
+            "Ilha Sagrada",
+            "Holy Island"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Pirâmide do Sol",
+        "descricao": "Maior construção da cidade pré-colombiana de Teotihuacán, no México, na Avenida dos Mortos.",
+        "variantes": [
+          "Pyramid of the Sun",
+          "Pirámide del Sol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piramide_do_sol_teotihuacan",
+          "nome": "Pirâmide do Sol (Teotihuacan)",
+          "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
+          "variantes": [
+            "Pirâmide do Sol",
+            "Pyramid of the Sun",
+            "Pirámide del Sol"
+          ]
+        },
+        {
+          "id": "piramide_de_cestio",
+          "nome": "Pirâmide de Céstio",
+          "descricao": "Pirâmide romana funerária de Caio Céstio, junto à Porta San Paolo, em Roma.",
+          "variantes": [
+            "Pirâmide de Caio Céstio",
+            "Piramide Cestia"
+          ]
+        },
+        {
+          "id": "pedra_do_sol_asteca",
+          "nome": "Pedra do Sol asteca",
+          "descricao": "Monólito circular mexica esculpido no início do século dezesseis, exposto no Museu Nacional de Antropologia da Cidade do México.",
+          "variantes": [
+            "Calendário Asteca",
+            "Piedra del Sol",
+            "Pedra do Sol"
+          ]
+        },
+        {
+          "id": "grande_piramide_de_cholula",
+          "nome": "Grande Pirâmide de Cholula",
+          "descricao": "Enorme pirâmide pré-colombiana no estado mexicano de Puebla, hoje coberta de terra e com uma igreja no topo.",
+          "variantes": [
+            "Pirâmide de Cholula",
+            "Tlachihualtépetl"
+          ]
+        },
+        {
+          "id": "piramide_de_djoser",
+          "nome": "Pirâmide de Djoser",
+          "descricao": "Pirâmide de degraus construída em Sacará no século vinte e sete antes de Cristo para o faraó Djoser, considerada a primeira pirâmide egípcia",
+          "variantes": [
+            "Pirâmide de Degraus",
+            "Pyramid of Djoser",
+            "Pirâmide de Zoser"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Newgrange",
+        "descricao": "Túmulo de passagem neolítico de cerca de 3100 a.C. no Condado de Meath, na Irlanda, com fachada de quartzo branco.",
+        "variantes": [
+          "Sí an Bhrú",
+          "Brú na Bóinne"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "newgrange",
+          "nome": "Newgrange",
+          "descricao": "Túmulo de corredor neolítico no vale do rio Boyne, na Irlanda.",
+          "variantes": [
+            "Brú na Bóinne"
+          ]
+        },
+        {
+          "id": "brute_bonnet",
+          "nome": "Brute Bonnet",
+          "descricao": "Pokémon dos tipos Planta e Sombrio, número 986 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "rio_ganges",
+          "nome": "Rio Ganges",
+          "descricao": "Rio sagrado do hinduísmo, que nasce no Himalaia e atravessa o norte da Índia até Bangladesh.",
+          "variantes": [
+            "Ganges",
+            "Ganga"
+          ]
+        },
+        {
+          "id": "laranja_de_umbigo",
+          "nome": "Laranja-de-umbigo",
+          "descricao": "Variedade de laranja sem sementes, com um segundo fruto rudimentar na ponta, surgida no Brasil",
+          "variantes": [
+            "Laranja-baía",
+            "Laranja-da-baía",
+            "Washington navel",
+            "Navel orange"
+          ]
+        },
+        {
+          "id": "pokemon_ranger",
+          "nome": "Pokémon Ranger",
+          "descricao": "Jogo derivado da franquia Pokémon, lançado em 2006 para Nintendo DS, em que o jogador é um guarda florestal que acalma pokémon selvagens.",
+          "variantes": [
+            "Ranger"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Templo de Karnak",
+        "descricao": "Vasto complexo de templos, pilonos e capelas do Egito Antigo perto de Luxor, dedicado sobretudo a Amon.",
+        "variantes": [
+          "Karnak",
+          "Carnaque",
+          "Complexo de Karnak"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_karnak",
+          "nome": "Templo de Karnak",
+          "descricao": "Vasto complexo de templos dedicado sobretudo ao deus Amon, na antiga Tebas, atual Luxor",
+          "variantes": [
+            "Karnak",
+            "Ipet-isut"
+          ]
+        },
+        {
+          "id": "eta_carinae",
+          "nome": "Eta Carinae",
+          "descricao": "Sistema estelar massivo na constelação da Carena, cercado pela Nebulosa do Homúnculo, formada na Grande Erupção do século dezenove.",
+          "variantes": [
+            "η Carinae",
+            "Eta Argus"
+          ]
+        },
+        {
+          "id": "caiaque",
+          "nome": "Caiaque",
+          "descricao": "Pequena embarcação estreita, propulsionada por remo de pá dupla, de origem inuíte.",
+          "variantes": [
+            "Kayak",
+            "Qajaq"
+          ]
+        },
+        {
+          "id": "ocarina",
+          "nome": "Ocarina",
+          "descricao": "Instrumento de sopro de cerâmica, com corpo fechado e furos para os dedos.",
+          "variantes": [
+            "Okarina"
+          ]
+        },
+        {
+          "id": "furacao_katrina",
+          "nome": "Furacão Katrina",
+          "descricao": "Furacão que devastou Nova Orleans e o litoral do Golfo do México nos Estados Unidos",
+          "variantes": [
+            "Hurricane Katrina",
+            "Katrina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Templo de Debod",
+        "descricao": "Antigo templo núbio egípcio do século dois a.C., hoje reconstruído no Parque de la Montaña, em Madri.",
+        "variantes": [
+          "Temple of Debod",
+          "Templo de Debode"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_debod",
+          "nome": "Templo de Debod",
+          "descricao": "Templo egípcio antigo da Núbia doado pelo Egito à Espanha e remontado num parque de Madri",
+          "variantes": [
+            "Temple of Debod"
+          ]
+        },
+        {
+          "id": "baalbek",
+          "nome": "Baalbek",
+          "descricao": "Cidade e sítio arqueológico romano no Vale do Beca, no Líbano, aqui o Templo de Baco.",
+          "variantes": [
+            "Heliópolis",
+            "Templo de Baco"
+          ]
+        },
+        {
+          "id": "borobudur",
+          "nome": "Borobudur",
+          "descricao": "Templo budista monumental do século nove, na ilha de Java.",
+          "variantes": [
+            "Templo de Borobudur"
+          ]
+        },
+        {
+          "id": "templo_mahabodhi",
+          "nome": "Templo Mahabodhi",
+          "descricao": "Templo budista restaurado em Bodh Gaya, na Índia, que marca o local onde Buda teria alcançado a iluminação.",
+          "variantes": [
+            "Templo de Mahabodhi",
+            "Mahabodhi Mahavihara"
+          ]
+        },
+        {
+          "id": "templo_de_edfu",
+          "nome": "Templo de Edfu",
+          "descricao": "Templo dedicado ao deus Hórus na cidade de Edfu, no sul do Egito, um dos mais bem conservados do país",
+          "variantes": [
+            "Templo de Hórus em Edfu",
+            "Temple of Edfu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Templos de Abu Simbel",
+        "descricao": "Dois templos escavados na rocha por Ramsés II, no sul do Egito, famosos pelos colossos da fachada e transferidos em 1968.",
+        "variantes": [
+          "Abu Simbel",
+          "Abul-Simbel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abu_simbel",
+          "nome": "Abu Simbel",
+          "descricao": "Par de templos escavados na rocha por ordem de Ramsés II, no sul do Egito, junto ao Lago Nasser",
+          "variantes": [
+            "Templos de Abu Simbel",
+            "Abu Simbel temples"
+          ]
+        },
+        {
+          "id": "arroba_simbolo",
+          "nome": "Arroba (símbolo)",
+          "descricao": "O símbolo @, usado nos endereços de e-mail, chamado de arroba em português e espanhol",
+          "variantes": [
+            "@",
+            "At sign",
+            "Arroba"
+          ]
+        },
+        {
+          "id": "templo_de_kom_ombo",
+          "nome": "Templo de Kom Ombo",
+          "descricao": "Templo duplo de época ptolomaica em Kom Ombo, na província de Assuã, no Alto Egito.",
+          "variantes": [
+            "Templo de Com Ombo",
+            "Temple of Kom Ombo"
+          ]
+        },
+        {
+          "id": "templo_de_philae",
+          "nome": "Templo de Philae",
+          "descricao": "Complexo de templos egípcios dedicado à deusa Ísis, hoje na ilha de Agilkia, perto de Assuã, no Egito.",
+          "variantes": [
+            "Templo de Filas",
+            "Templo de Ísis em Filas"
+          ]
+        },
+        {
+          "id": "templo_de_hera_olimpia",
+          "nome": "Templo de Hera (Olímpia)",
+          "descricao": "Antigo templo grego arcaico em Olímpia, onde a chama olímpica é acesa.",
+          "variantes": [
+            "Heraion",
+            "Heréon de Olímpia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Erecteion",
+        "descricao": "Templo grego jônico no lado norte da Acrópole de Atenas, famoso pelo Pórtico das Cariátides e dedicado a Atena e Erecteu.",
+        "variantes": [
+          "Erechtheion",
+          "Erecteu",
+          "Templo de Atena Polias"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "erecteion",
+          "nome": "Erecteion",
+          "descricao": "Templo jônico da Acrópole de Atenas, famoso pelo pórtico das cariátides.",
+          "variantes": [
+            "Erechtheion",
+            "Erecteu"
+          ]
+        },
+        {
+          "id": "templo_de_hera_olimpia",
+          "nome": "Templo de Hera (Olímpia)",
+          "descricao": "Antigo templo grego arcaico em Olímpia, onde a chama olímpica é acesa.",
+          "variantes": [
+            "Heraion",
+            "Heréon de Olímpia"
+          ]
+        },
+        {
+          "id": "templo_de_artemis",
+          "nome": "Templo de Ártemis",
+          "descricao": "Grande templo grego dedicado à deusa Ártemis na antiga cidade de Éfeso, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Artemísion",
+            "Templo de Diana em Éfeso",
+            "Templo de Ártemis em Éfeso",
+            "Temple of Artemis"
+          ]
+        },
+        {
+          "id": "templo_de_hefesto",
+          "nome": "Templo de Hefesto",
+          "descricao": "Templo dórico muito bem preservado, no noroeste da Ágora de Atenas, dedicado a Hefesto.",
+          "variantes": [
+            "Hefesteion",
+            "Teseion"
+          ]
+        },
+        {
+          "id": "refracao",
+          "nome": "Refração",
+          "descricao": "Mudança de direção da luz ao passar de um meio para outro, como do ar para a água.",
+          "variantes": [
+            "Refração da luz",
+            "Refraction"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Templo de Hefesto",
+        "descricao": "Templo dórico bem preservado na Ágora de Atenas, dedicado a Hefesto, também chamado Hefesteion ou Teseion.",
+        "variantes": [
+          "Hefesteion",
+          "Hephaisteion",
+          "Teseion",
+          "Temple of Hephaestus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_hefesto",
+          "nome": "Templo de Hefesto",
+          "descricao": "Templo dórico muito bem preservado, no noroeste da Ágora de Atenas, dedicado a Hefesto.",
+          "variantes": [
+            "Hefesteion",
+            "Teseion"
+          ]
+        },
+        {
+          "id": "hefesto",
+          "nome": "Hefesto",
+          "descricao": "Deus grego do fogo, da forja e dos metais, ferreiro dos deuses.",
+          "variantes": [
+            "Vulcano",
+            "Hephaestus"
+          ]
+        },
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        },
+        {
+          "id": "templo_de_edfu",
+          "nome": "Templo de Edfu",
+          "descricao": "Templo dedicado ao deus Hórus na cidade de Edfu, no sul do Egito, um dos mais bem conservados do país",
+          "variantes": [
+            "Templo de Hórus em Edfu",
+            "Temple of Edfu"
+          ]
+        },
+        {
+          "id": "espeon",
+          "nome": "Espeon",
+          "descricao": "Pokémon do tipo Psíquico, número 196 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "basilica_de_nossa_senhora_aparecida",
+      "motivo": "Mesmo santuário/basílica em Aparecida (SP); variantes coincidem."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "templo_do_ceu",
+      "motivo": "Mesmo complexo de templos em Pequim."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O Templo de Baco é um templo específico; a candidata Baalbek é a cidade/sítio inteiro, entidade mais ampla."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Grande Mesquita de Meca; a Mesquita do Profeta fica em Medina."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "piramide_do_sol_teotihuacan",
+      "motivo": "Mesma pirâmide de Teotihuacán."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "newgrange",
+      "motivo": "Mesmo túmulo neolítico no vale do Boyne."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "templo_de_karnak",
+      "motivo": "Mesmo complexo de templos em Karnak."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "templo_de_debod",
+      "motivo": "Mesmo templo egípcio remontado em Madri."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "abu_simbel",
+      "motivo": "Mesmos templos de Ramsés II em Abu Simbel."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "erecteion",
+      "motivo": "Mesmo templo jônico da Acrópole de Atenas."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "templo_de_hefesto",
+      "motivo": "Mesmo templo dórico na Ágora de Atenas."
+    }
+  ]
+}

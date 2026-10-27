@@ -1,0 +1,97 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia nem entrega a basílica; resposta única e distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'imperadores rezavam por boas colheitas' descreve o Templo do Céu e entrega a cidade sem olhar a figura. Troquei por pista que só ajuda (país).",
+      "reescrita": {
+        "pergunta": "Em que cidade chinesa fica este complexo de templos?",
+        "resposta": "Pequim",
+        "distratores": [
+          "Xi'an",
+          "Nanquim",
+          "Xangai"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Em ruínas' é impreciso: o templo é um dos mais bem preservados. Troquei por pista neutra (país).",
+      "reescrita": {
+        "pergunta": "Este templo romano, no Líbano, é associado a que deus?",
+        "resposta": "Baco",
+        "distratores": [
+          "Júpiter",
+          "Vênus",
+          "Mercúrio"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; distratores são mesquitas sagradas ou famosas, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pirâmide do Sol fica em Teotihuacán, no México; pergunta de lugar sem vazamento e distratores corretos como erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam o alinhamento com o solstício de inverno; o enunciado não nomeia o túmulo.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Karnak fica em Luxor, segundo os trechos; sem vazamento e distratores válidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam a doação à Espanha em 1968; distratores são países que receberam outros templos núbios, mas não este.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dois templos esculpidos na rocha, como no trecho; distratores não são templos escavados na rocha.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Erecteion fica no lado norte da Acrópole de Atenas; enunciado sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos: convertido em igreja de São Jorge no século sete e usada séculos depois; o enunciado não nomeia o templo.",
+      "reescrita": null
+    }
+  ]
+}
