@@ -1,0 +1,305 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de maitaca-verde, reconhecível pela cabeça escura e a cauda vermelha por baixo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Maitaca-verde",
+      "distratores": [
+        "Papagaio-verdadeiro",
+        "Jandaia-sol",
+        "Periquitão-maracanã"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Maitaca-verde",
+        "descricao": "Papagaio Pionus maximiliani, de cabeça escura com penas escamadas, presente no Brasil, Bolívia, Argentina e Paraguai.",
+        "variantes": [
+          "Maitaca",
+          "Maritaca",
+          "Pionus maximiliani",
+          "Scaly-headed parrot"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida do gaio-azul, com crista e colar preto bem visíveis; distratores azuis parecidos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Gaio-azul",
+      "distratores": [
+        "Gralha-azul",
+        "Gaio-de-Steller",
+        "Azulão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gaio-azul",
+        "descricao": "Ave Cyanocitta cristata, da família dos corvídeos, azul com peito branco e crista, nativa do leste da América do Norte.",
+        "variantes": [
+          "Blue jay",
+          "Cyanocitta cristata"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Marabu bem visível e inconfundível (bico grande, pescoço pelado); pergunta de região de vida, nível 3.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que continente vive naturalmente esta grande cegonha de cabeça sem penas?",
+      "resposta": "África",
+      "distratores": [
+        "Ásia",
+        "América do Sul",
+        "Oceania"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Marabu",
+        "descricao": "Grande cegonha africana Leptoptilos crumenifer, de cabeça e pescoço pelados e bico enorme, que frequenta também lixões.",
+        "variantes": [
+          "Marabou",
+          "Leptoptilos crumenifer",
+          "Marabout stork"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Águia-careca de frente, inconfundível, sem texto; liga-se a um fato conhecido (símbolo nacional).",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país esta ave é o símbolo nacional?",
+      "resposta": "Estados Unidos",
+      "distratores": [
+        "Canadá",
+        "Reino Unido",
+        "Austrália"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Águia-careca",
+        "descricao": "Ave de rapina Haliaeetus leucocephalus, de cabeça branca, nativa da América do Norte e emblema dos Estados Unidos.",
+        "variantes": [
+          "Águia-de-cabeça-branca",
+          "Bald eagle",
+          "Haliaeetus leucocephalus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Macho com capuz preto e corpo amarelo, nítido e característico do pintassilgo-de-cabeça-preta; distratores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Pintassilgo-de-cabeça-preta",
+      "distratores": [
+        "Pintassilgo-do-nordeste",
+        "Canário-da-terra",
+        "Pintassilgo-europeu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pintassilgo-de-cabeça-preta",
+        "descricao": "Pequena ave Spinus magellanicus, de capuz preto e corpo amarelo, encontrada em quase toda a América do Sul.",
+        "variantes": [
+          "Pintassilgo",
+          "Hooded siskin",
+          "Spinus magellanicus"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Macho de saí-azul bem nítido; a espécie é reconhecível, mas há azuis parecidos, então vai como nível 2.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave azul é esta?",
+      "resposta": "Saí-azul",
+      "distratores": [
+        "Saí-andorinha",
+        "Saíra-beija-flor",
+        "Azulão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Saí-azul",
+        "descricao": "Pequena ave Dacnis cayana, de plumagem azul-turquesa no macho, da família dos traupídeos, presente da América Central à América do Sul.",
+        "variantes": [
+          "Dacnis cayana",
+          "Blue dacnis",
+          "Saí-azul-turquesa"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Gaivotão adulto de perfil, de dorso preto e bico amarelo, na praia; distratores são gaivotas e trinta-réis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ave marinha é esta?",
+      "resposta": "Gaivotão",
+      "distratores": [
+        "Gaivota-de-cabeça-cinza",
+        "Gaivota-de-Franklin",
+        "Trinta-réis-real"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gaivotão",
+        "descricao": "Gaivota grande Larus dominicanus, de dorso preto e cabeça branca, comum nas costas do Hemisfério Sul.",
+        "variantes": [
+          "Gaivota-meridional",
+          "Kelp gull",
+          "Larus dominicanus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Grupo de grous-da-manchúria, todos da mesma espécie, sem texto; pergunta de região, nível 3.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que região da Ásia vive esta ave, símbolo de sorte e longevidade?",
+      "resposta": "Nordeste da Ásia",
+      "distratores": [
+        "Sul da Ásia",
+        "Sudeste Asiático",
+        "Oeste da Ásia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Grou-da-manchúria",
+        "descricao": "Grande grou Grus japonensis, de plumagem branca com pescoço preto e topo da cabeça vermelho, raro e típico do nordeste asiático.",
+        "variantes": [
+          "Grou-japonês",
+          "Red-crowned crane",
+          "Grus japonensis"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Coruja de cabeça preta, sobrancelhas brancas e peito claro, típica do murucututu; resposta única entre os distratores.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que coruja é esta?",
+      "resposta": "Murucututu",
+      "distratores": [
+        "Coruja-buraqueira",
+        "Suindara",
+        "Jacurutu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Murucututu",
+        "descricao": "Grande coruja tropical Pulsatrix perspicillata, de cabeça escura com sobrancelhas brancas e barriga clara.",
+        "variantes": [
+          "Spectacled owl",
+          "Pulsatrix perspicillata",
+          "Coruja-de-óculos"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Sanhaço-cinzento nítido; distratores são outros sanhaços de aparência parecida, o que o torna nível 2.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Sanhaço-cinzento",
+      "distratores": [
+        "Sanhaço-do-coqueiro",
+        "Sanhaço-de-encontro-amarelo",
+        "Sanhaço-frade"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sanhaço-cinzento",
+        "descricao": "Ave Thraupis sayaca, de corpo cinza-azulado e asas azul-esverdeadas, comum no Brasil e em países vizinhos.",
+        "variantes": [
+          "Sanhaçu-cinzento",
+          "Sayaca tanager",
+          "Thraupis sayaca"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ararajuba amarela inconfundível, de asas com pontas verdes, nítida; distratores amarelos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Ararajuba",
+      "distratores": [
+        "Jandaia-sol",
+        "Arara-canindé",
+        "Periquito-rei"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ararajuba",
+        "descricao": "Psitacídeo amarelo-dourado Guaruba guarouba, com pontas verdes nas asas, nativo da Amazônia brasileira.",
+        "variantes": [
+          "Guaruba",
+          "Guaruba guarouba",
+          "Golden parakeet"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Urutau em pose típica de camuflagem sobre um toco, nítido e reconhecível; distratores são aves noturnas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave noturna é esta?",
+      "resposta": "Urutau",
+      "distratores": [
+        "Bacurau",
+        "Curiango",
+        "Tuju"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Urutau",
+        "descricao": "Ave noturna Nyctibius griseus, de plumagem camuflada que imita um toco de árvore, de olhos grandes amarelos.",
+        "variantes": [
+          "Urutau-comum",
+          "Mãe-da-lua",
+          "Common potoo",
+          "Nyctibius griseus"
+        ]
+      }
+    }
+  ]
+}

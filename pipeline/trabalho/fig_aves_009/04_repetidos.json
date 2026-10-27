@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que país esta ave é o símbolo nacional?",
+        "resposta": "Estados Unidos"
+      },
+      "existentes": [
+        {
+          "id": "q06510",
+          "pergunta": "Em que ano o Congresso americano aprovou o desenho do Grande Selo dos Estados Unidos, com a águia-careca?",
+          "resposta": "1782"
+        },
+        {
+          "id": "q06511",
+          "pergunta": "Em meados do século vinte, a águia-careca ficou ameaçada nos Estados Unidos porque um inseticida deixava frágil a casca de seus ovos. Que inseticida?",
+          "resposta": "DDT"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que ave é esta?",
+        "resposta": "Ararajuba"
+      },
+      "existentes": [
+        {
+          "id": "q06498",
+          "pergunta": "A ararajuba, toda amarela com as pontas das asas verdes, vive apenas em que bioma brasileiro?",
+          "resposta": "Amazônia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o país de que a ave é símbolo nacional; as existentes tratam do ano do Grande Selo e do DDT, fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta a identificação da ave (nome); a existente pergunta o bioma onde vive, que é outro fato e a resposta de uma não leva à da outra."
+    }
+  ]
+}

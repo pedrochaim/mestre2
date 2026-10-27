@@ -1,0 +1,96 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro, sem pista; distratores de papagaios brasileiros críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento; distratores plausíveis (gaios e aves azuis) e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A África é confirmada nos trechos. O enunciado não nomeia a ave, e a figura distingue o marabu de cegonhas calvas asiáticas.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português confirma que é o símbolo nacional dos EUA. O enunciado não entrega a resposta e os distratores são países plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. Os distratores são aves reais e parecidas, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz \"azul\", e a resposta é \"Saí-azul\". Isso vaza parte da resposta e favorece o distrator \"Azulão\". A pista deve ser outra.",
+      "reescrita": {
+        "pergunta": "Que pequena ave tropical da família dos traupídeos é esta?",
+        "resposta": "Saí-azul",
+        "distratores": [
+          "Saí-andorinha",
+          "Saíra-beija-flor",
+          "Azulão"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O nome gaivotão consta na Wikipédia em português. O enunciado é neutro e os distratores são aves marinhas parecidas.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Sem a figura, \"símbolo de sorte e longevidade\" já aponta para o Leste Asiático. A resposta \"Nordeste da Ásia\" se sobrepõe a \"Leste da Ásia\", e a ave também passa o inverno em outras áreas. Na dúvida, descarta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de coruja. Os distratores são outras corujas brasileiras e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 2 de distinção entre sanhaços. Os distratores são sanhaços reais e distintos do cinzento.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. Os distratores são psitacídeos plausíveis, inclusive a jandaia-sol, também amarela.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado só diz que é noturna, sem entregar a resposta. Os distratores são aves noturnas brasileiras e nenhum é correto.",
+      "reescrita": null
+    }
+  ]
+}

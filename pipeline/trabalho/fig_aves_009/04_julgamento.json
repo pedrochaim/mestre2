@@ -1,0 +1,728 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Maitaca-verde",
+        "descricao": "Papagaio Pionus maximiliani, de cabeça escura com penas escamadas, presente no Brasil, Bolívia, Argentina e Paraguai.",
+        "variantes": [
+          "Maritaca",
+          "Maitaca",
+          "Pionus maximiliani",
+          "Scaly-headed parrot"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "itaca",
+          "nome": "Ítaca",
+          "descricao": "Ilha grega do mar Jônico, apresentada na Odisseia como o reino de Ulisses.",
+          "variantes": [
+            "Ithaca",
+            "Ithaki"
+          ]
+        },
+        {
+          "id": "tamarutaca",
+          "nome": "Tamarutaca",
+          "descricao": "Crustáceos marinhos da ordem Stomatopoda, com patas raptoriais que golpeiam a presa com enorme velocidade.",
+          "variantes": [
+            "Stomatopoda",
+            "camarão-louva-a-deus",
+            "mantis shrimp",
+            "estomatópode"
+          ]
+        },
+        {
+          "id": "mauritania",
+          "nome": "Mauritânia",
+          "descricao": "República Islâmica do noroeste da África, com capital em Nouakchott.",
+          "variantes": [
+            "República Islâmica da Mauritânia"
+          ]
+        },
+        {
+          "id": "tamarutaca_2",
+          "nome": "Tamarutaca",
+          "descricao": "Odontodactylus scyllarus, crustáceo estomatópode colorido de garras rápidas e visão excepcional do Indo-Pacífico.",
+          "variantes": [
+            "Camarão-mantis",
+            "Camarão-louva-a-deus",
+            "Odontodactylus scyllarus",
+            "Peacock mantis shrimp"
+          ]
+        },
+        {
+          "id": "marta",
+          "nome": "Marta",
+          "descricao": "Marta Vieira da Silva, jogadora eleita seis vezes a melhor do mundo.",
+          "variantes": [
+            "Marta Vieira da Silva"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Gaio-azul",
+        "descricao": "Ave Cyanocitta cristata, da família dos corvídeos, azul com peito branco e crista, nativa do leste da América do Norte.",
+        "variantes": [
+          "Blue jay",
+          "Cyanocitta cristata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_yangtze",
+          "nome": "Rio Yangtzé",
+          "descricao": "Grande rio da China que nasce no planalto do Tibete e deságua no mar da China Oriental, perto de Xangai.",
+          "variantes": [
+            "Yangtze",
+            "Chang Jiang",
+            "Rio Azul",
+            "Iangtsé"
+          ]
+        },
+        {
+          "id": "dragao_azul",
+          "nome": "Dragão-azul",
+          "descricao": "Lesma-do-mar pelágica Glaucus atlanticus, azul e prateada, que flutua de cabeça para baixo na superfície.",
+          "variantes": [
+            "Glaucus atlanticus",
+            "Dragão-azul-do-mar",
+            "Anjo-azul"
+          ]
+        },
+        {
+          "id": "jeans",
+          "nome": "Jeans",
+          "descricao": "Calça de tecido de algodão resistente, geralmente azul, popularizada pela Levi Strauss & Co.",
+          "variantes": [
+            "Calça jeans",
+            "Blue jeans"
+          ]
+        },
+        {
+          "id": "remo_2",
+          "nome": "Remo",
+          "descricao": "Clube do Remo, clube de futebol brasileiro de Belém, Pará.",
+          "variantes": [
+            "Clube do Remo",
+            "Leão Azul"
+          ]
+        },
+        {
+          "id": "danubio_azul",
+          "nome": "Danúbio Azul",
+          "descricao": "Valsa de Johann Strauss Filho, de 1867, cujo título original é An der schönen blauen Donau.",
+          "variantes": [
+            "O Belo Danúbio Azul",
+            "An der schönen blauen Donau",
+            "The Blue Danube"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Marabu",
+        "descricao": "Grande cegonha africana Leptoptilos crumenifer, de cabeça e pescoço pelados e bico enorme, que frequenta também lixões.",
+        "variantes": [
+          "Marabou",
+          "Leptoptilos crumenifer",
+          "Marabout stork"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maraba_rodolfo_amoedo",
+          "nome": "Marabá (Rodolfo Amoedo)",
+          "descricao": "Pintura a óleo de 1882 de Rodolfo Amoedo, inspirada no poema de Gonçalves Dias.",
+          "variantes": [
+            "Marabá"
+          ]
+        },
+        {
+          "id": "mara",
+          "nome": "Mara",
+          "descricao": "Roedor parecido com uma lebre de pernas longas, Dolichotis patagonum, da Argentina.",
+          "variantes": [
+            "Mara-da-patagônia",
+            "Dolichotis patagonum"
+          ]
+        },
+        {
+          "id": "socrates",
+          "nome": "Sócrates",
+          "descricao": "Sócrates Brasileiro Sampaio de Souza Vieira de Oliveira, meia do Corinthians e capitão da seleção brasileira na Copa de 1982.",
+          "variantes": [
+            "Doutor Sócrates",
+            "Magrão"
+          ]
+        },
+        {
+          "id": "ilha_de_marajo",
+          "nome": "Ilha de Marajó",
+          "descricao": "Grande ilha do estado do Pará, na foz do rio Amazonas.",
+          "variantes": [
+            "Marajó",
+            "Marajó Island"
+          ]
+        },
+        {
+          "id": "marabaixo",
+          "nome": "Marabaixo",
+          "descricao": "Dança e música afro-brasileira com saias rodadas e caixas de percussão, ligada a festas religiosas populares.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Águia-careca",
+        "descricao": "Ave de rapina Haliaeetus leucocephalus, de cabeça branca, nativa da América do Norte e emblema dos Estados Unidos.",
+        "variantes": [
+          "Águia-de-cabeça-branca",
+          "Bald eagle",
+          "Haliaeetus leucocephalus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aguia_careca",
+          "nome": "Águia-careca",
+          "descricao": "Ave de rapina norte-americana (Haliaeetus leucocephalus) de cabeça branca, símbolo nacional dos Estados Unidos.",
+          "variantes": [
+            "Haliaeetus leucocephalus",
+            "Bald eagle",
+            "Águia-de-cabeça-branca"
+          ]
+        },
+        {
+          "id": "aguia_real",
+          "nome": "Águia-real",
+          "descricao": "Ave de rapina do Hemisfério Norte, Aquila chrysaetos, marrom escura com nuca dourada.",
+          "variantes": [
+            "Golden eagle",
+            "Aquila chrysaetos"
+          ]
+        },
+        {
+          "id": "esquadrao_201",
+          "nome": "Esquadrão 201",
+          "descricao": "Esquadrão de caça da Força Aérea Mexicana que combateu ao lado dos Aliados nas Filipinas em 1945.",
+          "variantes": [
+            "Escuadrón 201",
+            "Águias Astecas"
+          ]
+        },
+        {
+          "id": "hms_beagle",
+          "nome": "HMS Beagle",
+          "descricao": "Navio da Marinha Real britânica em que Charles Darwin viajou ao redor do mundo entre 1831 e 1836.",
+          "variantes": [
+            "Beagle"
+          ]
+        },
+        {
+          "id": "albatroz_golfe",
+          "nome": "Albatroz (golfe)",
+          "descricao": "Termo do golfe para terminar um buraco com três tacadas a menos que o par.",
+          "variantes": [
+            "Albatross",
+            "Double eagle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Pintassilgo-de-cabeça-preta",
+        "descricao": "Pequena ave Spinus magellanicus, de capuz preto e corpo amarelo, encontrada em quase toda a América do Sul.",
+        "variantes": [
+          "Pintassilgo",
+          "Hooded siskin",
+          "Spinus magellanicus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pinguim_de_magalhaes",
+          "nome": "Pinguim-de-magalhães",
+          "descricao": "Pinguim sul-americano, Spheniscus magellanicus, que se reproduz na Patagônia e migra para o norte no inverno.",
+          "variantes": [
+            "Spheniscus magellanicus",
+            "Magellanic penguin"
+          ]
+        },
+        {
+          "id": "urubu_de_cabeca_preta",
+          "nome": "Urubu-de-cabeça-preta",
+          "descricao": "Ave necrófaga das Américas (Coragyps atratus), toda preta e de cabeça nua cinza-escura, comum nas cidades brasileiras.",
+          "variantes": [
+            "Urubu",
+            "Urubu-comum",
+            "Coragyps atratus"
+          ]
+        },
+        {
+          "id": "maracuja",
+          "nome": "Maracujá",
+          "descricao": "Fruto das trepadeiras do gênero Passiflora, cujas flores são chamadas de flor-da-paixão",
+          "variantes": [
+            "Passiflora",
+            "flor-da-paixão",
+            "passion fruit",
+            "maracujazeiro"
+          ]
+        },
+        {
+          "id": "tassili_n_ajjer",
+          "nome": "Tassili n'Ajjer",
+          "descricao": "Planalto no Saara argelino famoso por milhares de pinturas e gravuras rupestres.",
+          "variantes": [
+            "Tassili"
+          ]
+        },
+        {
+          "id": "lobo_etiope",
+          "nome": "Lobo-etíope",
+          "descricao": "Canídeo ruivo raro (Canis simensis) das montanhas da Etiópia.",
+          "variantes": [
+            "Canis simensis",
+            "Chacal-da-Etiópia",
+            "Lobo-de-Simien"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Saí-azul",
+        "descricao": "Pequena ave Dacnis cayana, de plumagem azul-turquesa no macho, da família dos traupídeos, presente da América Central à América do Sul.",
+        "variantes": [
+          "Dacnis cayana",
+          "Blue dacnis",
+          "Saí-azul-turquesa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "siri_azul",
+          "nome": "Siri-azul",
+          "descricao": "Siri Callinectes sapidus, nativo do Atlântico ocidental e do Golfo do México, de grande importância pesqueira.",
+          "variantes": [
+            "Callinectes sapidus",
+            "Blue crab"
+          ]
+        },
+        {
+          "id": "jeans",
+          "nome": "Jeans",
+          "descricao": "Calça de tecido de algodão resistente, geralmente azul, popularizada pela Levi Strauss & Co.",
+          "variantes": [
+            "Calça jeans",
+            "Blue jeans"
+          ]
+        },
+        {
+          "id": "rio_yangtze",
+          "nome": "Rio Yangtzé",
+          "descricao": "Grande rio da China que nasce no planalto do Tibete e deságua no mar da China Oriental, perto de Xangai.",
+          "variantes": [
+            "Yangtze",
+            "Chang Jiang",
+            "Rio Azul",
+            "Iangtsé"
+          ]
+        },
+        {
+          "id": "baleia_azul",
+          "nome": "Baleia-azul",
+          "descricao": "Cetáceo gigante da espécie Balaenoptera musculus.",
+          "variantes": [
+            "Balaenoptera musculus",
+            "Blue whale"
+          ]
+        },
+        {
+          "id": "sao_paulo",
+          "nome": "São Paulo",
+          "descricao": "Capital do estado de São Paulo, cidade fundada em 1554 a partir de um colégio jesuíta.",
+          "variantes": [
+            "São Paulo (cidade)",
+            "Cidade de São Paulo",
+            "Sampa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Gaivotão",
+        "descricao": "Gaivota grande Larus dominicanus, de dorso preto e cabeça branca, comum nas costas do Hemisfério Sul.",
+        "variantes": [
+          "Gaivota-meridional",
+          "Kelp gull",
+          "Larus dominicanus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gaita",
+          "nome": "Gaita",
+          "descricao": "Instrumento de palhetas livres tocado com a boca, soprando e aspirando o ar.",
+          "variantes": [
+            "Gaita de boca",
+            "Harmônica",
+            "Harmonica"
+          ]
+        },
+        {
+          "id": "gastao",
+          "nome": "Gastão",
+          "descricao": "Primo do Pato Donald nos quadrinhos da Disney, famoso por sua sorte absurda",
+          "variantes": [
+            "Gladstone Gander",
+            "Gastão (Disney)"
+          ]
+        },
+        {
+          "id": "chocolates_garoto",
+          "nome": "Chocolates Garoto",
+          "descricao": "Fabricante brasileira de chocolates fundada em 1929 em Vila Velha pelo imigrante alemão Heinrich Meyerfreund.",
+          "variantes": [
+            "Garoto"
+          ]
+        },
+        {
+          "id": "anta_malaia",
+          "nome": "Anta-malaia",
+          "descricao": "Anta asiática de corpo preto e branco (Tapirus indicus), a única do grupo fora das Américas.",
+          "variantes": [
+            "Anta-asiática",
+            "Tapirus indicus",
+            "Malayan tapir"
+          ]
+        },
+        {
+          "id": "gravata",
+          "nome": "Gravata",
+          "descricao": "Peça de tecido usada amarrada ao pescoço, sob o colarinho da camisa.",
+          "variantes": [
+            "Necktie",
+            "Cravate",
+            "Cravat"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Murucututu",
+        "descricao": "Grande coruja tropical Pulsatrix perspicillata, de cabeça escura com sobrancelhas brancas e barriga clara.",
+        "variantes": [
+          "Spectacled owl",
+          "Pulsatrix perspicillata",
+          "Coruja-de-óculos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "urso_de_oculos",
+          "nome": "Urso-de-óculos",
+          "descricao": "Único urso sul-americano (Tremarctos ornatus), com manchas claras ao redor dos olhos.",
+          "variantes": [
+            "Urso-andino",
+            "Tremarctos ornatus"
+          ]
+        },
+        {
+          "id": "sagui_de_tufos_pretos",
+          "nome": "Sagui-de-tufos-pretos",
+          "descricao": "Primata do Novo Mundo (Callithrix penicillata) do Planalto Central brasileiro, com tufos pretos nas orelhas.",
+          "variantes": [
+            "Mico-estrela",
+            "Sagui-estrela",
+            "Black-tufted marmoset",
+            "Callithrix penicillata"
+          ]
+        },
+        {
+          "id": "cobra_palavra_inglesa",
+          "nome": "Cobra (palavra inglesa)",
+          "descricao": "Palavra que o inglês e outras línguas tomaram do português para designar as najas",
+          "variantes": [
+            "Cobra de capelo"
+          ]
+        },
+        {
+          "id": "corrida_de_cavalos",
+          "nome": "Corrida de cavalos",
+          "descricao": "Esporte em que cavalos montados por jóqueis disputam quem é o mais rápido numa distância determinada.",
+          "variantes": [
+            "Turfe",
+            "Hipismo de corrida"
+          ]
+        },
+        {
+          "id": "leatherface",
+          "nome": "Leatherface",
+          "descricao": "Assassino mascarado com uma motosserra, vilão do filme de terror O Massacre da Serra Elétrica, de 1974.",
+          "variantes": [
+            "Cara de Couro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Sanhaço-cinzento",
+        "descricao": "Ave Thraupis sayaca, de corpo cinza-azulado e asas azul-esverdeadas, comum no Brasil e em países vizinhos.",
+        "variantes": [
+          "Sanhaçu-cinzento",
+          "Sayaca tanager",
+          "Thraupis sayaca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gandalf",
+          "nome": "Gandalf",
+          "descricao": "Mago da obra de Tolkien, personagem central de O Senhor dos Anéis e O Hobbit.",
+          "variantes": [
+            "Gandalf, o Cinzento"
+          ]
+        },
+        {
+          "id": "ambar_gris",
+          "nome": "Âmbar-gris",
+          "descricao": "Substância cerosa e rara, usada na perfumaria, formada no sistema digestivo do cachalote.",
+          "variantes": [
+            "Âmbar cinzento",
+            "Ambergris"
+          ]
+        },
+        {
+          "id": "tacha",
+          "nome": "Tachã",
+          "descricao": "Chauna torquata, ave aquática cinzenta sul-americana da família Anhimidae, de pernas vermelhas.",
+          "variantes": [
+            "Chajá",
+            "Tachã-cinzenta",
+            "Southern screamer"
+          ]
+        },
+        {
+          "id": "lobo_cinzento",
+          "nome": "Lobo-cinzento",
+          "descricao": "Maior canídeo selvagem (Canis lupus), nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Lobo",
+            "Lobo-comum",
+            "Canis lupus"
+          ]
+        },
+        {
+          "id": "tie_sangue",
+          "nome": "Tiê-sangue",
+          "descricao": "Ave vermelha da família dos traupídeos, endêmica da Mata Atlântica brasileira.",
+          "variantes": [
+            "Ramphocelus bresilia",
+            "Brazilian tanager"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Ararajuba",
+        "descricao": "Psitacídeo amarelo-dourado Guaruba guarouba, com pontas verdes nas asas, nativo da Amazônia brasileira.",
+        "variantes": [
+          "Guaruba",
+          "Guaruba guarouba",
+          "Golden parakeet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ararajuba",
+          "nome": "Ararajuba",
+          "descricao": "Psitacídeo brasileiro (Guaruba guarouba) de plumagem amarela com pontas das asas verdes.",
+          "variantes": [
+            "Guaruba guarouba",
+            "Guaruba",
+            "Golden parakeet"
+          ]
+        },
+        {
+          "id": "bugio",
+          "nome": "Bugio",
+          "descricao": "Macacos do gênero Alouatta, das Américas, famosos pelos uivos altíssimos.",
+          "variantes": [
+            "Guariba",
+            "Alouatta",
+            "Howler monkey",
+            "Barbado"
+          ]
+        },
+        {
+          "id": "guara",
+          "nome": "Guará",
+          "descricao": "Ave pernalta de plumagem vermelho-escarlate, da família dos íbis, da América do Sul tropical.",
+          "variantes": [
+            "Íbis-escarlate",
+            "Eudocimus ruber"
+          ]
+        },
+        {
+          "id": "garba",
+          "nome": "Garba",
+          "descricao": "Dança folclórica circular de Gujarat, na Índia, praticada durante o festival hindu de Navaratri.",
+          "variantes": [
+            "Dandiya raas"
+          ]
+        },
+        {
+          "id": "lago_guaiba",
+          "nome": "Lago Guaíba",
+          "descricao": "Corpo d'água do Rio Grande do Sul, formado pelo encontro de vários rios, que deságua na Lagoa dos Patos.",
+          "variantes": [
+            "Guaíba",
+            "Rio Guaíba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Urutau",
+        "descricao": "Ave noturna Nyctibius griseus, de plumagem camuflada que imita um toco de árvore, de olhos grandes amarelos.",
+        "variantes": [
+          "Urutau-comum",
+          "Mãe-da-lua",
+          "Common potoo",
+          "Nyctibius griseus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "urubu_de_cabeca_preta",
+          "nome": "Urubu-de-cabeça-preta",
+          "descricao": "Ave necrófaga das Américas (Coragyps atratus), toda preta e de cabeça nua cinza-escura, comum nas cidades brasileiras.",
+          "variantes": [
+            "Urubu",
+            "Urubu-comum",
+            "Coragyps atratus"
+          ]
+        },
+        {
+          "id": "wadi_rum",
+          "nome": "Wadi Rum",
+          "descricao": "Vale desértico de areia vermelha e montanhas de arenito no sul da Jordânia.",
+          "variantes": [
+            "Vale da Lua"
+          ]
+        },
+        {
+          "id": "parque_provincial_ischigualasto",
+          "nome": "Parque Provincial Ischigualasto",
+          "descricao": "Área protegida na província de San Juan, na Argentina, apelidada de Vale da Lua e rica em fósseis de dinossauros do Triássico.",
+          "variantes": [
+            "Ischigualasto",
+            "Valle de la Luna",
+            "Vale da Lua"
+          ]
+        },
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "sushruta",
+          "nome": "Sushruta",
+          "descricao": "Médico e cirurgião da Índia antiga, autor tradicional do tratado médico Sushruta Samhita.",
+          "variantes": [
+            "Susruta",
+            "Suśruta"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Maitaca-verde é um papagaio; nenhuma candidata é essa espécie."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Gaio-azul (Cyanocitta cristata) não consta entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Marabu é uma cegonha africana; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "aguia_careca",
+      "motivo": "Mesma espécie Haliaeetus leucocephalus, com as mesmas variantes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Spinus magellanicus não consta; o pinguim-de-magalhães é outra espécie."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Saí-azul (Dacnis cayana) é uma ave; as candidatas são outras entidades."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Gaivotão (Larus dominicanus) não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Murucututu é uma coruja; o urso-de-óculos é outra espécie."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Sanhaço-cinzento não consta; as candidatas são outras entidades."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "ararajuba",
+      "motivo": "Mesma espécie Guaruba guarouba."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Urutau (Nyctibius griseus) é diferente do urubu e das demais candidatas."
+    }
+  ]
+}
