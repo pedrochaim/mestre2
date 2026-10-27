@@ -1,0 +1,172 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A etiqueta legível 'Cordless Spotlight' entrega a natureza do objeto e a resposta fica ambígua entre lanterna e holofote."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Prensa francesa de aço, com êmbolo bem visível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que utensílio é este?",
+      "resposta": "Prensa francesa",
+      "distratores": [
+        "Cafeteira italiana",
+        "Chaleira elétrica",
+        "Bule de chá"
+      ],
+      "ancora": {
+        "nome": "Prensa francesa",
+        "descricao": "Utensílio de cozinha com êmbolo e filtro de malha, usado para preparar café por infusão.",
+        "variantes": [
+          "Cafeteira de êmbolo",
+          "French press",
+          "Cafetière"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Mandolina fatiadora clara, com cenoura fatiada. O texto 'TNS 2000, Made in Germany' não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que utensílio de cozinha é este?",
+      "resposta": "Mandolina",
+      "distratores": [
+        "Ralador",
+        "Descascador",
+        "Espiralizador"
+      ],
+      "ancora": {
+        "nome": "Mandolina (utensílio)",
+        "descricao": "Utensílio de cozinha com lâmina fixa numa base, usado para fatiar legumes em lâminas finas.",
+        "variantes": [
+          "Mandoline",
+          "Fatiador de legumes"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Par de meias de tricô listradas, bem nítido. A régua na borda só mostra números.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que peça de vestuário é esta?",
+      "resposta": "Meia",
+      "distratores": [
+        "Polaina",
+        "Pantufa",
+        "Luva"
+      ],
+      "ancora": {
+        "nome": "Meia",
+        "descricao": "Peça de vestuário que cobre o pé e, muitas vezes, parte da perna.",
+        "variantes": [
+          "Meias",
+          "Meia de tricô"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Espanador branco com cabo, em foto nítida e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que objeto é este?",
+      "resposta": "Espanador",
+      "distratores": [
+        "Vassoura",
+        "Rodo",
+        "Pincel largo"
+      ],
+      "ancora": {
+        "nome": "Espanador",
+        "descricao": "Utensílio de limpeza com cabo e tufo macio, usado para tirar o pó.",
+        "variantes": [
+          "Espanador de pó",
+          "Espanador de penas"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Mostra uma mulher comum em primeiro plano, numa cena de oferenda, sem ser figura pública nem festa pública. A imagem também tem outros elementos, como o gamelão e as oferendas."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Apito de latão em foto limpa. A gravação de pássaro e as iniciais não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que objeto é este?",
+      "resposta": "Apito",
+      "ancora": {
+        "nome": "Apito",
+        "descricao": "Instrumento pequeno que produz um som agudo ao se soprar uma corrente de ar.",
+        "variantes": [
+          "Apito de latão"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Aquarela de um homem com traje otomano completo (turbante, calça, botas, cachimbo). A resposta 'cafetã' não é única diante da imagem, e a assinatura está visível."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Mostra uma pessoa comum em primeiro plano, com o rosto parcialmente coberto, num contexto privado, e há retratos ao fundo."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Régua metálica em close, com graduações em polegadas. Os números não entregam o nome do objeto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento é este?",
+      "resposta": "Régua",
+      "distratores": [
+        "Esquadro",
+        "Transferidor",
+        "Compasso"
+      ],
+      "ancora": {
+        "nome": "Régua",
+        "descricao": "Instrumento rígido com marcações, usado para medir comprimentos e traçar linhas retas.",
+        "variantes": [
+          "Régua metálica"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Mostra uma mulher desconhecida em primeiro plano, que não é figura pública identificada. O foco está na pessoa e no vestido, e não no boá."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O chapéu aparece em foto escura de um cantor, de perfil e com a sombra cobrindo o rosto. A distinção entre trilby e fedora é discutível, então a resposta não é única."
+    }
+  ]
+}

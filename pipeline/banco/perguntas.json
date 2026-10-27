@@ -301649,7 +301649,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:2019_Formula_One_tests_Barcelona,_Gasly_(47200027932).jpg",
       "autor": "Marc Alvarado",
       "licenca": "CC BY-SA 2.0"
-    }
+    },
+    "dificuldade": 3
   },
   {
     "id": "q15841",
@@ -301674,7 +301675,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Williams_FW11_Honda_Collection_Hall.jpg",
       "autor": "Morio",
       "licenca": "CC BY-SA 3.0"
-    }
+    },
+    "dificuldade": 5
   },
   {
     "id": "q15842",
@@ -301699,7 +301701,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Colin_Chapman_(1965).jpg",
       "autor": "Joost Evers / Anefo;",
       "licenca": "CC0"
-    }
+    },
+    "dificuldade": 5
   },
   {
     "id": "q15843",
@@ -301724,7 +301727,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Team_Brazil_at_2026_FIFA_World_Cup_by_YantsImages_(Endrick).jpg",
       "autor": "YantsImages",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "dificuldade": 2
   },
   {
     "id": "q15844",
@@ -301749,7 +301753,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Ederson_(cropped).png",
       "autor": "Кирилл Венедиктов",
       "licenca": "CC BY-SA 3.0"
-    }
+    },
+    "dificuldade": 2
   },
   {
     "id": "q15845",
@@ -301774,7 +301779,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Raphinha_Brazil_V_Morocco_13_June_2026-133_(cropped).jpg",
       "autor": "Bryan Berlin",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "dificuldade": 2
   },
   {
     "id": "q15846",
@@ -301799,7 +301805,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Cristiane.jpg",
       "autor": "Wilson Dias/Abr",
       "licenca": "CC BY 3.0 br"
-    }
+    },
+    "dificuldade": 4
   },
   {
     "id": "q15847",
@@ -301824,7 +301831,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_(cropped).jpg",
       "autor": "Bryan Berlin",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "dificuldade": 2
   },
   {
     "id": "q15848",
@@ -301849,7 +301857,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Gareth_Bale_2015_(1).jpg",
       "autor": "Дмитрий Журавель",
       "licenca": "CC BY-SA 3.0"
-    }
+    },
+    "dificuldade": 2
   },
   {
     "id": "q15849",
@@ -301874,7 +301883,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Australopithèque_Cerveau_Double.jpg",
       "autor": "José Braga;Didier Descouens",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "dificuldade": 5
   },
   {
     "id": "q15850",
@@ -301899,7 +301909,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:ESO_Centaurus_A_LABOCA.jpg",
       "autor": "ESO/WFI (Optical); MPIfR/ESO/APEX/A.Weiss et al. (Submillimetre); NASA/CXC/CfA/R.Kraft et al. (X-ray)",
       "licenca": "CC BY 4.0"
-    }
+    },
+    "dificuldade": 5
   },
   {
     "id": "q15851",
@@ -301924,7 +301935,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Lion_Nebula_roars_to_life_for_Webb_ESA524574.jpg",
       "autor": "European Space Agency",
       "licenca": "CC BY 4.0"
-    }
+    },
+    "dificuldade": 5
   },
   {
     "id": "q15852",
@@ -301949,6 +301961,132 @@
       "origem": "https://commons.wikimedia.org/wiki/File:NGC4676.jpg",
       "autor": "NASA, H. Ford (JHU), G. Illingworth (UCSC/LO), M.Clampin (STScI), G. Hartig (STScI), the ACS Science Team, and ESA",
       "licenca": "Public domain"
-    }
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q15853",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "prensa_francesa",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que utensílio é este?",
+    "resposta": "Prensa francesa",
+    "distratores": [
+      "Cafeteira italiana",
+      "Chaleira elétrica",
+      "Bule de chá"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/French_press",
+      "https://pt.wikipedia.org/wiki/Prensa_francesa"
+    ],
+    "imagem": {
+      "arquivo": "q15853.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stainless_steel_french_press.png",
+      "autor": "Shisma",
+      "licenca": "CC BY 4.0"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q15854",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "mandolina_utensilio",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que utensílio de cozinha é este?",
+    "resposta": "Mandolina",
+    "distratores": [
+      "Ralador",
+      "Descascador",
+      "Espiralizador"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mandoline",
+      "https://pt.wikipedia.org/wiki/Mandolina"
+    ],
+    "imagem": {
+      "arquivo": "q15854.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cooking_Mandolin_with_Carrot.jpg",
+      "autor": "Wikimedia Commons",
+      "licenca": "CC BY-SA 2.5"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q15855",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "meia",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que peça de vestuário é esta?",
+    "resposta": "Meia",
+    "distratores": [
+      "Polaina",
+      "Pantufa",
+      "Luva"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sock",
+      "https://pt.wikipedia.org/wiki/Meia"
+    ],
+    "imagem": {
+      "arquivo": "q15855.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Villased_sokid,_STM_1998.jpg",
+      "autor": "Venemaa; Petseri rajoon, Põrste küla; valmistaja: Helü, Linda; fotograaf: Tuul, Toomas",
+      "licenca": "CC0"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q15856",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "espanador",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que objeto é este?",
+    "resposta": "Espanador",
+    "distratores": [
+      "Vassoura",
+      "Rodo",
+      "Pincel largo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Feather_duster",
+      "https://pt.wikipedia.org/wiki/Espanador"
+    ],
+    "imagem": {
+      "arquivo": "q15856.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Feather_duster_asv2021-03.jpg",
+      "autor": "A.Savin",
+      "licenca": "FAL"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q15857",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "apito",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que objeto é este?",
+    "resposta": "Apito",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Whistle",
+      "https://pt.wikipedia.org/wiki/Apito"
+    ],
+    "imagem": {
+      "arquivo": "q15857.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:William_J._Donovan’s_Whistle_-_Flickr_-_The_Central_Intelligence_Agency.jpg",
+      "autor": "The Central Intelligence Agency",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
   }
 ]
