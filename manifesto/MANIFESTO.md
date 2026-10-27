@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.82 — 2026-10-27**
+> **Versão preliminar 0.83 — 2026-10-27**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -709,6 +709,7 @@ O primeiro dos **modos temáticos** (2026-10-27): modos de um universo só, com 
 ### Definições
 
 - **Tela do questionador:** mostra a pergunta e, se for múltipla escolha, as alternativas embaralhadas. A resposta **só aparece ao tocar**, para não vazar para quem está ao lado.
+- **Sorteio em níveis** (2026-10-27, só no jogo original): primeiro o **subtema**, depois a **pergunta** dentro dele, cada um com chance igual. Com "Qualquer tema", sorteia antes o **tema**. Assim um subtema com muitas perguntas não sai mais que os outros. Um subtema cujas perguntas já saíram todas na partida fica de fora, e o sorteio cai noutro. Antes, a pergunta era sorteada com chance igual entre todas as do tema, e é assim que continua no modo Pokémon, que tem as suas regras.
 - **Repetição:** o sorteio prefere as perguntas que ainda não saíram na partida, em **qualquer aparelho**. Quando as do tema acabam, ele **repete**: sorteia entre as que saíram menos vezes. A pergunta repetida aparece **marcada**, com quantas vezes já saiu na partida. No botão do tema, o número é o de perguntas que ainda não saíram, e "(só repetidas)" indica que todas já saíram.
 - **Avanço:** o tabuleiro tem duas formas de mover o peão, e as duas convivem.
   - **Pelo sorteio:** depois de revelar a resposta, o questionador escolhe quem respondeu e marca se acertou.
@@ -738,7 +739,7 @@ O primeiro dos **modos temáticos** (2026-10-27): modos de um universo só, com 
 3. Na aba **Sorteio**, o questionador escolhe quem responde e sorteia a pergunta.
    - No Master e no Linear, uma linha mostra quem vai perguntar (à esquerda) e o jogador da vez, que responde (à direita), cada um com a ficha da cor do seu peão, como na tela grande; jogando sozinho, só quem responde. O jogador da vez já vem escolhido, com o tema dele (§15).
    - O alto da tela mostra os jogadores, com o tema atual e a posição de cada um. Tocar num jogador o escolhe como respondente e seleciona o tema dele. Ainda dá para escolher outro tema à mão, numa grade com os temas que têm perguntas; os outros aparecem numa linha de "Em breve".
-   - Numa partida de **Múltipla escolha**, o app só sorteia perguntas de múltipla escolha, em qualquer modo (Master, Linear e Pokémon), e o alto da tela mostra "· Múltipla escolha" ao lado do código. A escolha vale para a partida inteira e é a mesma em todos os aparelhos (campo `perguntas` da partida).
+   - Numa partida de **Múltipla escolha**, o app só sorteia perguntas de múltipla escolha, no Master e no Linear (o Pokémon, modo temático, não tem a opção), e o alto da tela mostra "· Múltipla escolha" ao lado do código. A escolha vale para a partida inteira e é a mesma em todos os aparelhos (campo `perguntas` da partida).
    - Os botões de tema têm a cor do tema, herdada do app antigo, e mostram quantas perguntas ainda não saíram na partida. "Qualquer tema" tem faixas com todas as cores.
    - Um segundo filtro escolhe **com ou sem figura**, **só com figura** ou **só sem figura**. As **perguntas com áudio estão fora do jogo até segunda ordem**: o app as descarta ao carregar o banco, em todos os modos, e esconde o filtro de áudio (**com ou sem áudio**, **só com áudio** ou **sem áudio**). Para liberá-las, basta trocar a constante `AUDIO_NO_JOGO` para `true` no `index.html`.
    - Depois ele toca em **Sortear**, na barra fixa do rodapé. A barra sempre mostra a ação do momento: **Sortear**, **Mostrar resposta** ou **Acertou** e **Errou**.
@@ -1062,6 +1063,7 @@ As metas dos catálogos são estimativas. Os catálogos que reprovam muito (est�
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.83 | 2026-10-27 | Diretrizes novas valem só para o jogo original, e os modos temáticos têm as suas: a partida de Múltipla escolha fica só no Master e no Linear. Sorteio em níveis no jogo original (o Pokémon não muda): subtema e depois pergunta, com chance igual em cada nível, e o tema antes, em "Qualquer tema"; subtemas sem perguntas novas ficam de fora (§15) |
 | 0.82 | 2026-10-27 | App: resumo das regras do jogo na aba Informações, num bloco recolhível (§16) |
 | 0.81 | 2026-10-27 | Linear: dado da sorte, uma mecânica de recuperação. Quem errou as duas últimas perguntas da sua vez tira 3 no dado, que aparece dourado e brilhando; campo `sorte` na pergunta em jogo (§15, §16) |
 | 0.80 | 2026-10-27 | Linear refeito: 32 casas (3 de cada tema, em ordem sorteada por partida pela `semente`, e 8 especiais fixas, uma a cada 4), Início e Chegada fora da trilha e o dado de 1 a 3 do Pokémon. O Pokémon, separado dele, mantém a trilha de 60 casas e passa a ser o primeiro dos **modos temáticos**, com um grupo próprio na tela inicial (§15, §16) |

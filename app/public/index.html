@@ -372,7 +372,7 @@
     <div id="marca" class="marca" aria-hidden="true"></div>
     <p class="lema">Quiz de conhecimentos gerais para jogar em grupo, com as perguntas lidas em voz alta.</p>
     <div class="cartao">
-      <!-- Vale para a partida criada por qualquer um dos botões, inclusive os de "Outros modos" -->
+      <!-- Vale para o Master e o Linear; o Pokémon, modo temático, tem as suas regras -->
       <div id="tipo-perguntas" class="chips tipo-perguntas" role="group" aria-label="Perguntas da nova partida">
         <button type="button" data-tipo="completo" aria-pressed="true">Completo</button>
         <button type="button" data-tipo="multipla" aria-pressed="false">Múltipla escolha</button>
@@ -828,7 +828,8 @@
 
   // Perguntas da nova partida: "completo" (abertas e de múltipla escolha) ou "multipla" (só de múltipla escolha).
   let tipoNovaPartida = "completo";
-  const DESC_TIPO = { completo: "Perguntas abertas e de múltipla escolha.", multipla: "Só perguntas de múltipla escolha." };
+  const DESC_TIPO = { completo: "Perguntas abertas e de múltipla escolha.",
+                      multipla: "Só perguntas de múltipla escolha (no Master e no Linear)." };
   for (const b of $("tipo-perguntas").querySelectorAll("button")) b.onclick = () => {
     tipoNovaPartida = b.dataset.tipo;
     for (const x of $("tipo-perguntas").querySelectorAll("button")) x.setAttribute("aria-pressed", x === b);
@@ -845,7 +846,8 @@
       if (modo === "linear" || modo === "pokemon") dados.modo = modo;
       // Linear: a semente sorteia a ordem dos temas nas casas (linear.js), a mesma em todos os aparelhos.
       if (modo === "linear") dados.semente = Math.floor(Math.random() * 2e9);
-      if (tipoNovaPartida === "multipla") dados.perguntas = "multipla";
+      // A partida só de múltipla escolha é do jogo original; o Pokémon, temático, tem as suas regras.
+      if (tipoNovaPartida === "multipla" && modo !== "pokemon") dados.perguntas = "multipla";
       try {
         // Se o código já existir, a regra recusa (seria uma atualização), e tentamos outro.
         await setDoc(doc(db, "partidas", c), dados);
@@ -1000,8 +1002,8 @@
         <li><strong>Acertou</strong>, o peão avança; <strong>errou</strong>, fica onde está.</li>
         <li>Pergunta <strong>aberta</strong> errada passa ao seguinte da fila, pulando quem lê, até alguém acertar.
           A de <strong>múltipla escolha</strong> não passa.</li>
-        <li>A partida é <strong>Completa</strong> (abertas e múltipla escolha) ou só de <strong>Múltipla escolha</strong>,
-          escolhida ao criá-la.</li>
+        <li>No Master e no Linear, a partida é <strong>Completa</strong> (abertas e múltipla escolha) ou só de
+          <strong>Múltipla escolha</strong>, escolhida ao criá-la.</li>
       </ul>
       <h3>Master</h3>
       <ul>
@@ -1119,7 +1121,21 @@
     return a;
   }
 
-  // Sorteia primeiro entre as perguntas que ainda não saíram na partida. Quando acabam, sorteia entre as
+  // Sorteio em níveis do jogo original (2026-10-27), cada um com chance igual: com "Qualquer tema", primeiro o tema;
+  // depois o subtema; por fim, a pergunta dentro dele. Assim um subtema com muitas perguntas não sai mais que os
+  // outros. O modo Pokémon, temático, tem as suas regras: sorteia com chance igual entre as perguntas da casa.
+  function sortearEmNiveis(lista, tema) {
+    const niveis = ehPokemon() ? [] : [...(tema === "*" ? [p => p.tema] : []), p => p.subtema];
+    for (const chave of niveis) {
+      const grupos = [...new Set(lista.map(chave))];
+      const g = grupos[Math.floor(Math.random() * grupos.length)];
+      lista = lista.filter(p => chave(p) === g);
+    }
+    return lista[Math.floor(Math.random() * lista.length)];
+  }
+
+  // Sorteia primeiro entre as perguntas que ainda não saíram na partida: um subtema cujas perguntas já saíram todas
+  // fica de fora, e o sorteio cai noutro (é o "sortear de novo"). Quando acabam as novas do tema, sorteia entre as
   // que saíram menos vezes, e a pergunta aparece marcada como repetida.
   $("sortear").onclick = async () => {
     $("msg-sorteio").textContent = "";
@@ -1129,7 +1145,7 @@
     if (!todas.length) return ($("msg-sorteio").textContent = "Não há perguntas com este filtro.");
     const menos = Math.min(...todas.map(p => vezes.get(p.id) || 0));
     const candidatas = todas.filter(p => (vezes.get(p.id) || 0) === menos);
-    const p = candidatas[Math.floor(Math.random() * candidatas.length)];
+    const p = sortearEmNiveis(candidatas, temaEscolhido);
     // Quem responde fica sendo o da vez (escolhido à mão ou não), e quem lê é o seguinte na fila.
     const base = jogadores.find(j => j.id === respondente) || vezM();
     const sorte = ehLinear() && !ehPokemon() && Boolean(base) && doisErrosSeguidos(base.id);
@@ -2258,8 +2274,8 @@
   // O modo Pokémon usa a trilha e as regras do Linear; muda só o conjunto de perguntas.
   const ehPokemon = () => partida.modo === "pokemon";
   const ehLinear = () => partida.modo === "linear" || ehPokemon();
-  // Partida de múltipla escolha: o sorteio, em qualquer modo, só usa perguntas de múltipla escolha.
-  const soMultipla = () => partida.perguntas === "multipla";
+  // Partida de múltipla escolha (Master e Linear): o sorteio só usa perguntas de múltipla escolha.
+  const soMultipla = () => partida.perguntas === "multipla" && !ehPokemon();
 
   function aplicarModo() {
     $("regras-master").hidden = ehLinear();
