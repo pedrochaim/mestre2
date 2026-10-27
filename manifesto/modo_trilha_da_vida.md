@@ -1,6 +1,6 @@
 # Modo Trilha da Vida — rascunho
 
-> **Primeira versão no app (2026-10-02)**, a refinar; ver MANIFESTO §16. Segundo modo de jogo do Mestre2, separado do **Modo Master** (o tabuleiro em espiral do MANIFESTO §15), que continua em desenvolvimento como está. Nada deste documento está implementado. Nome provisório.
+> **Protótipo fora do app.** Esteve no app de 2026-10-02 a 2026-10-27; o código daquela versão fica em `prototipos/trilha_da_vida/app/` (ver o README da pasta e MANIFESTO §16). Segundo modo de jogo do Mestre2, separado do **Modo Master** (o tabuleiro em espiral do MANIFESTO §15), que continua em desenvolvimento como está. Nada deste documento está implementado. Nome provisório.
 >
 > As regras de conteúdo (MANIFESTO, Parte I) valem igualmente: o modo muda como as perguntas são usadas, e não as perguntas (princípio 1).
 >

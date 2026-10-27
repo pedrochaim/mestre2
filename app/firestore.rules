@@ -5,13 +5,14 @@ service cloud.firestore {
     // As regras só limitam o formato dos dados.
     match /partidas/{codigo} {
       allow read: if true;
-      // "modo": master, trilha (Trilha da Vida, com a "semente" que gera o mapa), linear ou pokemon (o Linear só com
-      // perguntas de pokémon); partidas sem "modo" são Master.
+      // "modo": master, linear ou pokemon (o Linear só com perguntas de pokémon); partidas sem "modo" são Master. A
+      // Trilha da Vida ("trilha") saiu do app em 2026-10-27: partidas novas dela não são mais aceitas. "perguntas":
+      // "multipla" sorteia só perguntas de múltipla escolha; partidas sem o campo são completas.
       allow create: if codigo.matches('^[A-Z]{4}$')
-                    && request.resource.data.keys().hasOnly(['criada_em', 'modo', 'semente'])
+                    && request.resource.data.keys().hasOnly(['criada_em', 'modo', 'perguntas'])
+                    && (!('perguntas' in request.resource.data) || request.resource.data.perguntas == 'multipla')
                     && request.resource.data.criada_em == request.time
-                    && (!('modo' in request.resource.data) || request.resource.data.modo in ['master', 'trilha', 'linear', 'pokemon'])
-                    && (!('semente' in request.resource.data) || request.resource.data.semente is int);
+                    && (!('modo' in request.resource.data) || request.resource.data.modo in ['master', 'linear', 'pokemon']);
       // "vez" é o id do jogador da vez. "atual" é a pergunta em jogo, para o modo mesa (sem a resposta), ou null.
       // "som" é o último evento de som ({e, n}), que a tela grande toca. "anterior" é a rodada encerrada antes da
       // atual (o mesmo formato de "atual"), que a tela grande pode mostrar de novo.
@@ -25,22 +26,19 @@ service cloud.firestore {
                     && (!('anterior' in request.resource.data) || request.resource.data.anterior == null
                         || (request.resource.data.anterior is map && request.resource.data.anterior.size() <= 12));
 
-      // Master: "pontos" é a casa do peão; "tema" é o tema do jogador no estágio 1.
-      // Trilha da Vida: o estado do jogador fica no mapa "trilha" (posição, profissão, personalidade, mão…).
+      // "pontos" é a casa do peão; "tema" é o tema do jogador no estágio 1 do Master.
       match /jogadores/{id} {
         allow read: if true;
-        allow create: if request.resource.data.keys().hasOnly(['nome', 'pontos', 'tema', 'criado_em', 'trilha'])
+        allow create: if request.resource.data.keys().hasOnly(['nome', 'pontos', 'tema', 'criado_em'])
                       && request.resource.data.nome is string
                       && request.resource.data.nome.size() > 0
                       && request.resource.data.nome.size() <= 30
                       && request.resource.data.pontos == 0
                       && temaValido(request.resource.data)
-                      && trilhaValida(request.resource.data)
                       && request.resource.data.criado_em == request.time;
-        allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['pontos', 'tema', 'trilha'])
+        allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['pontos', 'tema'])
                       && request.resource.data.pontos is int
-                      && temaValido(request.resource.data)
-                      && trilhaValida(request.resource.data);
+                      && temaValido(request.resource.data);
         allow delete: if true;
       }
 
@@ -96,10 +94,6 @@ service cloud.firestore {
 
     function temaValido(dados) {
       return !('tema' in dados) || (dados.tema is string && dados.tema.size() > 0 && dados.tema.size() <= 40);
-    }
-
-    function trilhaValida(dados) {
-      return !('trilha' in dados) || (dados.trilha is map && dados.trilha.size() <= 12);
     }
   }
 }
