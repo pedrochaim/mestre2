@@ -5,11 +5,13 @@ service cloud.firestore {
     // As regras só limitam o formato dos dados.
     match /partidas/{codigo} {
       allow read: if true;
-      // "modo": master, linear ou pokemon (o Linear só com perguntas de pokémon); partidas sem "modo" são Master. A
-      // Trilha da Vida ("trilha") saiu do app em 2026-10-27: partidas novas dela não são mais aceitas. "perguntas":
-      // "multipla" sorteia só perguntas de múltipla escolha; partidas sem o campo são completas.
+      // "modo": master, linear ou pokemon (o primeiro modo temático, só com perguntas de pokémon); partidas sem "modo"
+      // são Master. A Trilha da Vida ("trilha") saiu do app em 2026-10-27: partidas novas dela não são mais aceitas.
+      // "semente" (Linear): sorteia a ordem dos temas nas casas. "perguntas": "multipla" sorteia só perguntas de
+      // múltipla escolha; partidas sem o campo são completas.
       allow create: if codigo.matches('^[A-Z]{4}$')
-                    && request.resource.data.keys().hasOnly(['criada_em', 'modo', 'perguntas'])
+                    && request.resource.data.keys().hasOnly(['criada_em', 'modo', 'semente', 'perguntas'])
+                    && (!('semente' in request.resource.data) || request.resource.data.semente is int)
                     && (!('perguntas' in request.resource.data) || request.resource.data.perguntas == 'multipla')
                     && request.resource.data.criada_em == request.time
                     && (!('modo' in request.resource.data) || request.resource.data.modo in ['master', 'linear', 'pokemon']);

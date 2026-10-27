@@ -6,7 +6,7 @@
 
 ## O que é
 
-O modo Pokémon usa **a trilha do Linear só com perguntas de pokémon**. A trilha de 60 casas e as regras são as do Modo Linear (MANIFESTO §15): a vez, quem lê, o movimento de uma casa por acerto e a chegada. Todas as perguntas saem da coleção `pokemon`, e **a casa dita o teor da pergunta** (seção "Casas temáticas").
+O modo Pokémon é o primeiro dos **modos temáticos** (2026-10-27), separado do Master e do Linear. As regras são as do Modo Linear (MANIFESTO §15): a vez, quem lê, o dado de 1 a 3 e a chegada. A trilha é a de 60 casas que o Linear tinha até 2026-10-27, quando ele passou a ter 32; o Pokémon a manteve. Todas as perguntas saem da coleção `pokemon`, e **a casa dita o teor da pergunta** (seção "Casas temáticas").
 
 ## Decidido pelo autor (2026-10-13)
 
@@ -59,15 +59,15 @@ No tabuleiro do modo, cada casa comum tem uma **casa temática**, que dita o teo
 
 ## Tabuleiro
 
-É a mesma geometria do Linear (a faixa ondulada de 4 fileiras, `app/public/linear.js`), com outro desenho:
+É a geometria do Linear até 2026-10-27 (a faixa ondulada de 4 fileiras, com 60 casas, em `app/public/linear.js`), com outro desenho:
 
 - **Fundo:** grama verde.
 - **Trilha:** um caminho de terra.
 - **Casas comuns:** cada uma tem a cor e o **ícone** da sua casa temática, desenhados em `linear.js` (`ICONES_POKEMON`), com formas genéricas e sem logotipos oficiais: a explosão amarela com "?" (Quem é esse pokémon?), as seis barras de atributos (Cartão de atributos), um console portátil (Jogos e Regiões), uma TV com antena (Anime e Filmes) e uma enciclopédia eletrônica com lente azul (Pokédex). Uma casa sem ícone mostra a sigla.
 - **Legenda:** no canto inferior esquerdo, embaixo da trilha, uma caixa com o ícone e o nome de cada casa (na primeira linha, as de figura e a especial; na segunda, as de texto). Por isso o tabuleiro do modo é mais alto que o do Linear (1600 × 1000, `ALTURA_POKEMON`), e o modo mesa usa essa proporção. A regra do modo, no app, traz a mesma legenda. Nas posições dos temas do Linear, alternam uma casa de figura e uma de texto; as de figura revezam entre ? e ATR, e as de texto entre JOGO, TV e DEX. São 50 casas comuns, 25 de figura (13 "?", 12 ATR) e 25 de texto (9 JOGO, 8 TV, 8 DEX). Até 2026-10-16 as casas eram numeradas, em dois tons de areia, sem tema; no mesmo dia, uma primeira versão teve 8 casas temáticas em ciclo, com Tipos, Evolução e De onde vem o nome?.
-- **Casas especiais:** as mesmas 8 do Linear, escuras, com uma **pokébola** no lugar da ★. A pergunta é de qualquer casa, e as ações delas ainda não foram definidas, como no Linear.
-- **Início e chegada:** os do Linear (casa branca "INÍCIO" e xadrez).
-- **Movimento: o dado de 1 a 3** (2026-10-16). Com cada pergunta, o sorteio rola um dado de 1 a 3, que **vale só para quem recebeu a pergunta**: se acertar, anda esse número de casas; errar não move o peão. Se a pergunta aberta passa adiante e outro jogador acerta, ele anda **uma casa**. No Linear, cada acerto continua valendo uma casa.
+- **Casas especiais:** 8 (casas 6, 13, 20, 27, 34, 41, 48 e 54), escuras, com uma **pokébola** no lugar da ★. A pergunta é de qualquer casa, e as ações delas ainda não foram definidas, como no Linear.
+- **Início e chegada:** a primeira e a última casa da trilha (casa branca "INÍCIO" e xadrez).
+- **Movimento: o dado de 1 a 3** (2026-10-16). Com cada pergunta, o sorteio rola um dado de 1 a 3, que **vale só para quem recebeu a pergunta**: se acertar, anda esse número de casas; errar não move o peão. Se a pergunta aberta passa adiante e outro jogador acerta, ele anda **uma casa**. Desde 2026-10-27, o Linear também usa o dado.
 - **Peões:** como no Linear, cada jogador tem um tema só para a cor do peão.
 
 ## A coleção `pokemon`

@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.79 — 2026-10-27**
+> **Versão preliminar 0.80 — 2026-10-27**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -649,8 +649,8 @@ O Mestre2 terá mais de um modo de jogo, todos sobre o mesmo banco de perguntas.
 | Modo | Situação | Onde está descrito |
 |---|---|---|
 | **Master** | Em uso e em desenvolvimento. É o modo do app hoje | Esta seção (Papéis, Regras do tabuleiro, Desenho do tabuleiro, Definições) e §16 |
-| **Linear** | Protótipo no app (2026-10-02). Uma trilha única de 60 casas em faixa ondulada, com casas de tema e casas especiais | Esta seção (Modo Linear) e §16 |
-| **Pokémon** | No app (2026-10-13). A trilha do Linear só com perguntas de pokémon, num tabuleiro próprio, com casas temáticas que ditam o teor da pergunta | [`modo_pokemon.md`](modo_pokemon.md) |
+| **Linear** | Protótipo no app (2026-10-02; tabuleiro refeito em 2026-10-27). Uma trilha única de 32 casas em faixa ondulada, 3 de cada tema, em ordem sorteada por partida, e 8 casas especiais fixas, com um dado de 1 a 3 | Esta seção (Modo Linear) e §16 |
+| **Pokémon** | No app (2026-10-13). O primeiro dos **modos temáticos**: só perguntas de pokémon, com as regras do Linear numa trilha própria de 60 casas, com casas temáticas que ditam o teor da pergunta | [`modo_pokemon.md`](modo_pokemon.md) |
 | **Trilha da Vida** | Protótipo fora do app: esteve nele de 2026-10-02 a 2026-10-27 e ficou guardado em `prototipos/trilha_da_vida/`. Corrida num mapa vertical no estilo *Slay the Spire*: profissão com dois temas, personalidade, casas "Vá trabalhar", de Ação, de tema, em Branco e de Destino, e uma mão de cartas | [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md) e §16 (Modo Trilha da Vida) |
 
 O que esta seção diz sobre papéis, repetição e sorteio vale para todos os modos, salvo quando o modo disser outra coisa. O que diz sobre o tabuleiro vale para o Modo Master.
@@ -693,17 +693,17 @@ A partida usa **várias pessoas com seus próprios aparelhos**, e o app tem duas
 
 Protótipo, decidido em 2026-10-02 a partir de um esboço do usuário. O que não está aqui ainda não foi decidido.
 
-- **Tabuleiro:** uma **trilha única**, a mesma para todos, com **60 casas** numa faixa ondulada de **4 fileiras**. A faixa vai e volta, e as curvas nas pontas alternam entre a direita e a esquerda. Todas as casas têm o mesmo comprimento, inclusive nas curvas. A primeira casa é o **Início**, branca, no alto à esquerda; a última é a **Chegada**, xadrez, embaixo à esquerda.
-- **Casas de tema:** 50 casas coloridas, com a sigla do tema, na ordem das cores (G › N › AP › CO › CI › EN › E › H), em ciclo. Cada tema aparece 6 ou 7 vezes, e duas casas vizinhas nunca têm o mesmo tema. **A cor da casa do peão é o tema da próxima pergunta.**
-- **Casas especiais (★):** 8, cerca de uma a cada 7 casas (casas 6, 13, 20, 27, 34, 41, 48 e 54). **As ações delas ainda não foram definidas.** Por enquanto, a pergunta nelas, como no Início, é de qualquer tema, e o grupo aplica o efeito à mão.
-- **Movimento:** cada acerto avança **uma casa**; errar não move o peão. Haverá também ações específicas das casas especiais.
-- **Fim:** vence quem chegar primeiro à Chegada (59 acertos, sem contar as ações das casas).
+- **Tabuleiro** (refeito em 2026-10-27; antes, 60 casas): uma **trilha única**, a mesma para todos, com **32 casas** numa faixa ondulada de **4 fileiras**. A faixa vai e volta, e as curvas nas pontas alternam entre a direita e a esquerda. Todas as casas têm o mesmo comprimento, inclusive nas curvas. O **Início**, branco, e a **Chegada**, xadrez, são áreas fora da trilha, à esquerda da primeira e da última fileira, e não contam como casas.
+- **Casas de tema:** 24 casas coloridas, com a sigla do tema, **3 de cada tema**. Cada partida sorteia uma ordem dos 8 temas, que se repete 3 vezes ao longo da trilha: o padrão se mantém, e duas casas vizinhas nunca têm o mesmo tema. A ordem sai da `semente` gravada na partida, a mesma em todos os aparelhos; partidas sem semente, as anteriores a 2026-10-27, usam a ordem das cores (G › N › AP › CO › CI › EN › E › H). **A cor da casa do peão é o tema da próxima pergunta.**
+- **Casas especiais (★):** 8, em **posição fixa**, uma a cada 4 casas (casas 3, 7, 11, 15, 19, 23, 27 e 31). **As ações delas ainda não foram definidas.** Por enquanto, a pergunta nelas, como no Início, é de qualquer tema, e o grupo aplica o efeito à mão.
+- **Movimento: o dado de 1 a 3** (2026-10-27), como no modo Pokémon. Com cada pergunta, o sorteio rola um dado que **vale só para quem recebeu a pergunta**: se acertar, anda esse número de casas; errar não move o peão. Se a pergunta aberta passa adiante e outro jogador acerta, ele anda **uma casa**. Haverá também ações específicas das casas especiais.
+- **Fim:** vence quem chegar primeiro à Chegada, a 33 passos do Início. Numa simulação com 60% de acerto, o vencedor responde certo cerca de 16 perguntas (de 14 a 18) com 2 jogadores, e de 16 a 19 com 4, conforme o tipo de partida.
 - **Peões:** cada jogador recebe um tema só para a **cor do peão**, sorteado como no Master e trocável à mão; no Linear esse tema não muda as perguntas.
-- **Em aberto:** as ações das casas especiais; temas em ciclo fixo ou embaralhados; o nome definitivo do modo.
+- **Em aberto:** as ações das casas especiais; o nome definitivo do modo.
 
 ### Modo Pokémon
 
-A trilha do Linear só com perguntas de pokémon (2026-10-13), com casas temáticas que ditam o teor da pergunta (2026-10-16). Com cada pergunta sai um **dado de 1 a 3**, que diz quantas casas anda quem recebeu a pergunta, se acertar; se ela passa adiante e outro acerta, ele anda uma casa (2026-10-16). As regras, o tabuleiro e a coleção estão em [`modo_pokemon.md`](modo_pokemon.md).
+O primeiro dos **modos temáticos** (2026-10-27): modos de um universo só, com perguntas, tabuleiro e regras próprios, separados do Master e do Linear. Só perguntas de pokémon (2026-10-13), com as regras do Linear numa trilha própria de 60 casas, a que o Linear tinha até 2026-10-27, e casas temáticas que ditam o teor da pergunta (2026-10-16). Com cada pergunta sai um **dado de 1 a 3**, que diz quantas casas anda quem recebeu a pergunta, se acertar; se ela passa adiante e outro acerta, ele anda uma casa (2026-10-16). As regras, o tabuleiro e a coleção estão em [`modo_pokemon.md`](modo_pokemon.md).
 
 ### Definições
 
@@ -752,7 +752,7 @@ Acertos e erros contam só o que foi marcado pelo sorteio. A posição do peão 
 
 ### Modo Linear
 
-Ao criar a partida, há também **Nova partida · Linear (protótipo)**, guardado com o Pokémon no botão **Outros modos** da tela inicial, que grava `modo: "linear"`. O desenho e as casas ficam em `app/public/linear.js`; o resto é o do Master: a aba Sorteio, a posição em `pontos`, os botões − e +, o arrasto do peão (que vai para a casa mais próxima da trilha) e o modo mesa, que mostra o tabuleiro deitado na largura da tela. No Sorteio, tocar num jogador seleciona o tema da casa dele, ou "Qualquer tema" no Início e nas casas ★.
+Ao criar a partida, há também **Nova partida · Linear (protótipo)**, no botão **Outros modos** da tela inicial, que grava `modo: "linear"` e a `semente` que sorteia a ordem dos temas. Abaixo dele, sob o título **Modos temáticos**, fica o Pokémon. O desenho e as casas ficam em `app/public/linear.js`; o resto é o do Master: a aba Sorteio, a posição em `pontos`, os botões − e +, o arrasto do peão (que vai para a casa mais próxima da trilha) e o modo mesa, que mostra o tabuleiro deitado na largura da tela. No Sorteio, tocar num jogador seleciona o tema da casa dele, ou "Qualquer tema" no Início e nas casas ★.
 
 ### Modo Pokémon
 
@@ -793,7 +793,7 @@ As perguntas **não ficam no Firestore**. O script `app/exportar_perguntas.py` c
 
 | Caminho | Campos | Função |
 |---|---|---|
-| `partidas/{codigo}` | `criada_em`, `vez`, `atual`; no Linear e no Pokémon, também `modo`; numa partida de múltipla escolha, `perguntas`; nas antigas da Trilha da Vida, `semente` | A partida. O código é o id do documento. `modo` é `master`, `linear` ou `pokemon` (sem ele, Master; `trilha` nas partidas antigas da Trilha da Vida); `perguntas` é `multipla` numa partida só de múltipla escolha (sem ele, completa); `vez` é o id do jogador da vez. `atual` é a pergunta em jogo, para o modo mesa: `sorteio`, `pergunta` (o id), `opcoes` (as alternativas na ordem da tela de quem lê), `respondente`, `leitor`, `tentaram`, `revelada` (a resposta foi mostrada a todos; o texto dela não vai para o Firestore), `tempo` (o cronômetro: `s`, os segundos, e `n`, que distingue um toque do outro), `audio` (o último comando de quem lê para o áudio da pergunta: `acao`, `tocar` ou `parar`, e `n`) e `fim` (a rodada acabou, e a pergunta continua na tela grande com a resposta, até o próximo sorteio). `som` é o último evento de som (`e`, o evento; `n`, que distingue um do outro). `atual` volta a `null` só quando a pergunta é pulada sem ninguém ter tentado. `anterior`, no mesmo formato, é a rodada encerrada antes da atual: quando sai uma pergunta nova, a rodada encerrada que estava em `atual` passa para `anterior`, para a tela grande poder mostrá-la de novo. Partidas criadas na v0.10 e na v0.11 têm também `tabuleiro`, que não é mais usado |
+| `partidas/{codigo}` | `criada_em`, `vez`, `atual`; no Linear e no Pokémon, também `modo`; no Linear (e nas antigas da Trilha da Vida), `semente`; numa partida de múltipla escolha, `perguntas` | A partida. O código é o id do documento. `modo` é `master`, `linear` ou `pokemon` (sem ele, Master; `trilha` nas partidas antigas da Trilha da Vida); `semente` sorteia a ordem dos temas nas casas do Linear (na Trilha da Vida, gerava o mapa); `perguntas` é `multipla` numa partida só de múltipla escolha (sem ele, completa); `vez` é o id do jogador da vez. `atual` é a pergunta em jogo, para o modo mesa: `sorteio`, `pergunta` (o id), `opcoes` (as alternativas na ordem da tela de quem lê), `respondente`, `leitor`, `tentaram`, `revelada` (a resposta foi mostrada a todos; o texto dela não vai para o Firestore), `tempo` (o cronômetro: `s`, os segundos, e `n`, que distingue um toque do outro), `audio` (o último comando de quem lê para o áudio da pergunta: `acao`, `tocar` ou `parar`, e `n`) e `fim` (a rodada acabou, e a pergunta continua na tela grande com a resposta, até o próximo sorteio). `som` é o último evento de som (`e`, o evento; `n`, que distingue um do outro). `atual` volta a `null` só quando a pergunta é pulada sem ninguém ter tentado. `anterior`, no mesmo formato, é a rodada encerrada antes da atual: quando sai uma pergunta nova, a rodada encerrada que estava em `atual` passa para `anterior`, para a tela grande poder mostrá-la de novo. Partidas criadas na v0.10 e na v0.11 têm também `tabuleiro`, que não é mais usado |
 | `partidas/{codigo}/jogadores/{id}` | `nome`, `pontos`, `tema`, `criado_em`; nas partidas antigas da Trilha, `trilha` | Um documento por jogador. `pontos` é a casa do peão; `tema` é o tema do estágio 1 do Master. Nas partidas antigas da Trilha, o mapa `trilha` guardava o estado do jogador |
 | `partidas/{codigo}/sorteios/{id}` | `pergunta`, `em`, `dado`, `respondente`, `acertou`, `tentativas` | Um registro por sorteio. A mesma pergunta pode ter vários. Quando a pergunta passa adiante, `tentativas` lista cada `{respondente, acertou}`, e `respondente` e `acertou` são os da última. `dado` (modo Pokémon) é o dado de 1 a 3 rolado no sorteio: quantas casas anda quem recebeu a pergunta, se acertar (outro que acerte anda uma) |
 | `avaliacoes/{id do sorteio}` | `pergunta`, `partida`, `dificuldade`, `otima`, `problemas`, `comentario`, `em` | A avaliação de quem leu a pergunta, fora das partidas. `dificuldade` vai de 1 (muito fácil) a 5 (muito difícil), ou `null`; `problemas` é uma lista de códigos fixos (`fora_do_tema`, `resposta_errada`, `mais_de_uma_resposta`, `enunciado_confuso`, `entrega_resposta`, `figura_ruim`, `repetida`, `desatualizada`). Quem leu pode refazê-la, sempre sobre a mesma pergunta; ninguém apaga. O resultado da rodada fica no sorteio de mesmo id |
@@ -811,7 +811,7 @@ As perguntas **não ficam no Firestore**. O script `app/exportar_perguntas.py` c
   - o nome do jogador tem até 30 caracteres, e o jogador começa com 0 ponto;
   - o tema do jogador tem até 40 caracteres;
   - num jogador, só a casa (`pontos`) e o tema podem mudar;
-  - a partida pode ter `modo` (`master`, `linear` ou `pokemon`) e `perguntas` (só `multipla`) na criação, e depois só mudam `vez` (texto de até 40 caracteres), `atual` (`null` ou um mapa de até 12 campos) e `som` (um mapa de até 2 campos);
+  - a partida pode ter `modo` (`master`, `linear` ou `pokemon`), `semente` (inteiro) e `perguntas` (só `multipla`) na criação, e depois só mudam `vez` (texto de até 40 caracteres), `atual` (`null` ou um mapa de até 12 campos) e `som` (um mapa de até 2 campos);
   - um sorteio é criado só com `pergunta` e `em`, e depois só o resultado (`respondente`, `acertou` e `tentativas`, uma lista de até 30) pode ser acrescentado. `usadas` segue a mesma regra, para não quebrar um aparelho que ainda esteja com a versão antiga aberta.
 - Qualquer outra coleção é negada.
 
@@ -1061,6 +1061,7 @@ As metas dos catálogos são estimativas. Os catálogos que reprovam muito (est�
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.80 | 2026-10-27 | Linear refeito: 32 casas (3 de cada tema, em ordem sorteada por partida pela `semente`, e 8 especiais fixas, uma a cada 4), Início e Chegada fora da trilha e o dado de 1 a 3 do Pokémon. O Pokémon, separado dele, mantém a trilha de 60 casas e passa a ser o primeiro dos **modos temáticos**, com um grupo próprio na tela inicial (§15, §16) |
 | 0.79 | 2026-10-27 | Trilha da Vida sai do app e fica como protótipo em `prototipos/trilha_da_vida/` (código da versão integrada em `app/`; jogável no commit `ec2c7c6a`); partidas antigas dela não abrem mais, e as regras do Firestore deixam de aceitar `trilha` e `semente` (§15, §16) |
 | 0.78 | 2026-10-27 | App: ao criar a partida, escolha entre **Completo** e **Múltipla escolha**; esta só sorteia perguntas de múltipla escolha, em qualquer modo (campo `perguntas` da partida, aceito pelas regras do Firestore) (§16) |
 | 0.77 | 2026-10-27 | Âncoras: "prefira âncoras novas" vira "prefira âncoras centrais e conhecidas", com fatos novos, e a tentativa de incluir uma âncora nova a cada 50 perguntas, dispensável se não houver uma conhecida; limites no jogo original de 8 perguntas por âncora (era 5), 3 com figura (era 2) e 3 por lote (era 2); as coleções mantêm os seus (§4, §6, §9, §12, §17) |

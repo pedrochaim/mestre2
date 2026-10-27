@@ -39,21 +39,22 @@
     .resposta { font-size: 1.2rem; font-weight: 700; color: var(--certo); margin: .5rem 0; }
     .repetida { display: inline-block; margin: .3rem 0 0 .3rem; padding: .1rem .6rem; border-radius: 999px;
                 border: 1px solid #f0b429; color: #f0b429; font-size: .8rem; font-weight: 700; }
-    /* Modo Pokémon: o dado de 1 a 3, sorteado com a pergunta, diz quantas casas anda quem acertar. Rola uma vez,
+    /* Linear e Pokémon: o dado de 1 a 3, sorteado com a pergunta, diz quantas casas anda quem acertar. Rola uma vez,
        quando aparece. */
     .dado { display: flex; align-items: center; gap: .55rem; margin: .6rem 0 .2rem; font-weight: 700; }
     .dado svg { width: 2.6rem; height: 2.6rem; flex: none; }
     .dado.rolando svg { animation: rolar .9s cubic-bezier(.2, .8, .3, 1.15) var(--atraso, 0s) both; }
     @keyframes rolar { from { transform: rotate(-660deg) scale(.3); opacity: 0; } to { transform: none; opacity: 1; } }
     @media (prefers-reduced-motion: reduce) { .dado.rolando svg { animation: none; } }
-    /* Na tela grande, o dado fica no canto inferior direito do tabuleiro, na grama livre à direita da legenda, com a
-       mesma altura e o mesmo fundo dela; não ocupa espaço do cartão da pergunta. As medidas são frações da largura do
+    /* Na tela grande, o dado fica no canto inferior direito do tabuleiro, no espaço livre embaixo da trilha (no Pokémon,
+       na grama à direita da legenda, com a mesma altura e o mesmo fundo dela); não ocupa espaço do cartão da pergunta. As medidas são frações da largura do
        tabuleiro (cqw), para acompanhar o tamanho dele. */
     #mesa-tab { position: relative; }
     #mesa.linear #mesa-tab { container-type: inline-size; }
     #mesa-dado { position: absolute; right: 1.5cqw; bottom: 1cqw; height: 7.25cqw; box-sizing: border-box; margin: 0;
                  gap: .6em; padding: 0 1.1em 0 .5em; font-size: 1.6cqw; color: #fff; background: #1f4d1ce6;
                  border: 2px solid #ffffff80; border-radius: 1cqw; pointer-events: none; }
+    #mesa:not(.pokemon) #mesa-dado { background: #2a2a2ae6; }
     #mesa-dado[hidden] { display: none; }
     #mesa-dado svg { width: 3.4em; height: 3.4em; }
     #mesa-dado { max-width: 34cqw; }
@@ -71,6 +72,8 @@
     .chips { display: flex; flex-wrap: wrap; gap: .4rem; margin: .5rem 0; }
     .chips button[aria-pressed="true"] { border-color: var(--acento); background: var(--acento); color: var(--sobre-cor); }
     .tipo-perguntas { margin-top: 0; }
+    .grupo-modos { font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--suave);
+                   margin: 1.1rem 0 .5rem; padding-top: .9rem; border-top: 1px solid var(--linha); }
     .tipo-perguntas button { flex: 1; }
     .tipo-partida { margin-left: .4rem; font-size: .85em; }
     .acoes { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .8rem; }
@@ -382,9 +385,11 @@
     </div>
     <div id="outros-modos" class="cartao" hidden>
       <button id="criar-linear" style="width:100%">Nova partida · Linear (protótipo)</button>
-      <p class="suave" style="margin:.3rem 0 .8rem">Todos na mesma trilha de 60 casas, até a chegada.</p>
+      <p class="suave" style="margin:.3rem 0 .8rem">Todos na mesma trilha de 32 casas, com um dado de 1 a 3.</p>
+      <!-- Modos temáticos: um universo só, com perguntas, tabuleiro e regras próprios. O Pokémon é o primeiro. -->
+      <h2 class="grupo-modos">Modos temáticos</h2>
       <button id="criar-pokemon" style="width:100%">Nova partida · Pokémon</button>
-      <p id="pokemon-desc" class="suave" style="margin:.3rem 0 0">A trilha do Linear com casas temáticas de pokémon.</p>
+      <p id="pokemon-desc" class="suave" style="margin:.3rem 0 0">Uma trilha de 60 casas temáticas de pokémon.</p>
     </div>
     <div id="info-entrada" hidden></div>
   </section>
@@ -497,17 +502,20 @@
         <button id="sons-tabuleiro" style="width:100%;margin-top:.5rem">Ouvir os sons</button>
         <details id="regras-linear" class="regras" hidden>
           <summary>Como se joga</summary>
-          <p id="regras-pokemon" class="suave" hidden><strong>Modo Pokémon:</strong> a trilha e as regras são as do
-            Linear, e todas as perguntas são de pokémon. A casa dita o teor da pergunta, e metade das casas é de figura
+          <p id="regras-pokemon" class="suave" hidden><strong>Modo Pokémon:</strong> as regras são as do Linear, numa
+            trilha de 60 casas, e todas as perguntas são de pokémon. A casa dita o teor da pergunta, e metade das casas é de figura
             (Quem é esse pokémon?, a silhueta, em que a resposta nem sempre é o nome, e o Cartão de atributos); as
             outras são de texto. No Início e nas casas com pokébola, a pergunta é de qualquer casa. Com a pergunta
             sai um dado de 1 a 3, que vale para quem a recebeu: se acertar, anda esse número de casas. Se a pergunta
             aberta passa adiante e outro acerta, ele anda uma casa.</p>
           <p id="legenda-pokemon" class="suave legenda-pokemon" hidden></p>
-          <p class="suave">Protótipo. Todos começam no Início e seguem a mesma trilha de 60 casas até a chegada
-            xadrez. A cor da casa do peão é o tema da próxima pergunta; no Início e nas casas ★ a pergunta é de
-            qualquer tema. Cada acerto avança uma casa; errar não move o peão. As ações das casas ★ ainda serão
-            definidas: por enquanto, o grupo as aplica à mão, com − e + ou arrastando o peão.</p>
+          <p id="regras-linear-trilha" class="suave">Protótipo. Todos começam no Início e seguem a mesma trilha de
+            32 casas, 3 de cada tema e 8 casas ★, até a Chegada. As ★ têm posição fixa; a ordem dos temas é sorteada
+            em cada partida e se repete ao longo da trilha. A cor da casa do peão é o tema da próxima pergunta; no
+            Início e nas casas ★ a pergunta é de qualquer tema. Com a pergunta sai um dado de 1 a 3, que vale para
+            quem a recebeu: se acertar, anda esse número de casas; errar não move o peão. Se a pergunta aberta passa
+            adiante e outro acerta, ele anda uma casa. As ações das casas ★ ainda serão definidas: por enquanto, o
+            grupo as aplica à mão, com − e + ou arrastando o peão.</p>
           <p class="suave">A vez segue a ordem da lista de jogadores, e quem lê é o seguinte da fila. Se quem está
             na vez erra uma pergunta aberta, ela passa ao seguinte, pulando quem lê, até alguém acertar ou todos
             tentarem; a de múltipla escolha não passa. No modo mesa, a pergunta aparece para todos; a resposta, quando quem pergunta a mostra ou quando a rodada acaba.</p>
@@ -678,7 +686,7 @@
   const temPerguntas = tema => tema === "*" ? perguntas.length > 0 : perguntas.some(p => temaDe(p) === tema);
 
   // Última casa do modo: no Linear, a trilha de linear.js; no Master, o centro.
-  const chegadaDoModo = () => ehLinear() ? L.CHEGADA : CHEGADA;
+  const chegadaDoModo = () => ehPokemon() ? L.CHEGADA_POKEMON : ehLinear() ? L.CHEGADA : CHEGADA;
   const casaDe = j => Math.max(0, Math.min(j.pontos, chegadaDoModo()));
 
   // Estágio 2: o anel central tem uma casa por tema, na ordem de temasDoJogo(). Cada jogador entra no anel
@@ -690,7 +698,7 @@
   function temaAtual(j) {
     const p = casaDe(j);
     if (ehPokemon()) return L.casaPokemon(p);
-    if (ehLinear()) return L.temaDaCasa(p);
+    if (ehLinear()) return L.temaDaCasa(p, partida.semente);
     if (p >= CHEGADA) return null;
     if (p === CENTRO) return "*";
     if (p < CASAS_E1) return j.tema;
@@ -700,7 +708,10 @@
 
   function situacao(j) {
     const p = casaDe(j);
-    if (ehLinear()) return p >= L.CHEGADA ? "chegou 🏁" : `casa ${p}/${L.CHEGADA}${L.TIPOS[p] === "especial" ? " · ★ especial" : ""}`;
+    if (ehPokemon()) return p >= L.CHEGADA_POKEMON ? "chegou 🏁"
+      : `casa ${p}/${L.CHEGADA_POKEMON}${L.ehEspecialPokemon(p) ? " · ★ especial" : ""}`;
+    if (ehLinear()) return p >= L.CHEGADA ? "chegou 🏁" : p <= 0 ? "no início"
+      : `casa ${p}/${L.CASAS}${L.ehEspecial(p) ? " · ★ especial" : ""}`;
     if (p >= CHEGADA) return "venceu 🏆";
     if (p === CENTRO) return "centro · pergunta final";
     return p < CASAS_E1 ? `estágio 1 · ${p}/${CASAS_E1}` : `casa ${p - CASAS_E1 + 1}/${CASAS_E2}`;
@@ -722,7 +733,7 @@
     return s;
   }
 
-  // Modo Pokémon: o dado de 1 a 3 sai junto com a pergunta e vale só para quem ela foi feita: se essa pessoa acertar,
+  // Linear e Pokémon: o dado de 1 a 3 sai junto com a pergunta e vale só para quem ela foi feita: se essa pessoa acertar,
   // anda o número do dado. Se a pergunta aberta passa adiante e outro acerta, ele anda uma casa.
   const rolarDado = () => 1 + Math.floor(Math.random() * 3);
   const PONTOS_DADO = { 1: [[50, 50]], 2: [[72, 28], [28, 72]], 3: [[72, 28], [50, 50], [28, 72]] };
@@ -778,7 +789,7 @@
     perguntasMultipla = soMultipla();
     perguntas = (perguntasPokemon ? pokemonDoBanco() : banco.filter(p => !p.exclusiva))
       .filter(p => !perguntasMultipla || p.tipo === "multipla");
-    $("pokemon-desc").textContent = `A trilha do Linear com casas temáticas de pokémon (${numero(pokemonDoBanco().length)} perguntas).`;
+    $("pokemon-desc").textContent = `Uma trilha de 60 casas temáticas de pokémon (${numero(pokemonDoBanco().length)} perguntas).`;
   }
 
   // ---------------------------------------------------------------- entrada
@@ -796,13 +807,16 @@
     $("tipo-desc").textContent = DESC_TIPO[tipoNovaPartida];
   };
 
-  // Partidas sem "modo" são Master, e partidas sem "perguntas" são completas, como as antigas.
+  // Partidas sem "modo" são Master, e partidas sem "perguntas" são completas, como as antigas. O Linear leva a
+  // semente que sorteia a ordem dos temas.
   async function criar(modo) {
     $("erro-entrada").textContent = "";
     for (let tentativa = 0; tentativa < 5; tentativa++) {
       const c = novoCodigo();
       const dados = { criada_em: serverTimestamp() };
       if (modo === "linear" || modo === "pokemon") dados.modo = modo;
+      // Linear: a semente sorteia a ordem dos temas nas casas (linear.js), a mesma em todos os aparelhos.
+      if (modo === "linear") dados.semente = Math.floor(Math.random() * 2e9);
       if (tipoNovaPartida === "multipla") dados.perguntas = "multipla";
       try {
         // Se o código já existir, a regra recusa (seria uma atualização), e tentamos outro.
@@ -1052,7 +1066,7 @@
     const menos = Math.min(...todas.map(p => vezes.get(p.id) || 0));
     const candidatas = todas.filter(p => (vezes.get(p.id) || 0) === menos);
     const p = candidatas[Math.floor(Math.random() * candidatas.length)];
-    const dado = ehPokemon() ? rolarDado() : null;
+    const dado = ehLinear() ? rolarDado() : null;
     $("sortear").disabled = true;
     try {
       const ref = await addDoc(collection(db, "partidas", codigo, "sorteios"),
@@ -1628,7 +1642,7 @@
     // com a aba escondida, o navegador não pinta o padrão que a outra cópia aponta.
     const svg =
       ehPokemon() ? L.svgPokemon(jogadores, casaDe, peaoLinear) :
-      ehLinear() ? L.svgLinear(jogadores, casaDe, CORES, abrev, esc, peaoLinear) : svgTabuleiro();
+      ehLinear() ? L.svgLinear(jogadores, casaDe, CORES, abrev, esc, peaoLinear, partida.semente) : svgTabuleiro();
     $("tabuleiro").innerHTML = svg;
     // Na tela grande, troca só o desenho: o dado (#mesa-dado) fica por cima dele.
     $("mesa-tab").querySelector(":scope > svg")?.remove();
@@ -1662,8 +1676,8 @@
       arrasto = null;
       const p = pontoSvg(svg, e);
       const j = jogadores.find(x => x.id === id);
-      if (ehLinear()) {  // Linear: a casa mais próxima da trilha
-        const casaL = L.casaMaisProxima(p.x, p.y);
+      if (ehLinear()) {  // Linear e Pokémon: a casa mais próxima da trilha (no Linear, também o Início e a Chegada)
+        const casaL = (ehPokemon() ? L.casaMaisProximaPokemon : L.casaMaisProxima)(p.x, p.y);
         if (j && casaL !== null && casaL !== casaDe(j)) updateDoc(doc(db, "partidas", codigo, "jogadores", id), { pontos: casaL });
         return desenharTabuleiros();
       }
@@ -1733,7 +1747,7 @@
     $("mesa-rever").hidden = !partida.anterior;
     $("mesa-rever").textContent = revendo ? "Voltar ao jogo" : "↩ Rodada anterior";
     const p = a && perguntas.find(x => x.id === a.pergunta);
-    desenharDadoMesa(p && ehPokemon() ? a : null);
+    desenharDadoMesa(p && ehLinear() ? a : null);
     const papeis = papeisDe;
     // Sem pergunta em jogo (ou com a rodada já encerrada), a vez seguinte: quem vai ler e quem vai responder.
     const v = vezM();
@@ -2186,13 +2200,15 @@
     $("regras-master").hidden = ehLinear();
     $("regras-linear").hidden = !ehLinear();
     $("regras-pokemon").hidden = $("legenda-pokemon").hidden = !ehPokemon();
+    $("regras-linear-trilha").hidden = ehPokemon();
     $("tipo-partida").hidden = !soMultipla();
     if (perguntasPokemon !== undefined && (perguntasPokemon !== ehPokemon() || perguntasMultipla !== soMultipla())) {
       perguntasDoModo();
       desenharTemas();
     }
     $("mesa").classList.toggle("linear", ehLinear());
-    $("mesa").style.setProperty("--alt-linear", ehPokemon() ? L.ALTURA_POKEMON : 880);
+    $("mesa").classList.toggle("pokemon", ehPokemon());
+    $("mesa").style.setProperty("--alt-linear", ehPokemon() ? L.ALTURA_POKEMON : L.ALTURA_LINEAR);
     $("sortear").disabled = false;
   }
 

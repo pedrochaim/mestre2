@@ -1,26 +1,66 @@
-// Modo Linear (MANIFESTO §15): uma trilha única de 60 casas, numa faixa ondulada de 4 fileiras que vai e volta.
-// O modo Pokémon usa a mesma trilha, com outro desenho (svgPokemon): um caminho de terra na grama, com as casas
-// temáticas do modo no lugar dos temas.
+// Modo Linear (MANIFESTO §15): uma trilha única de 32 casas (3 de cada tema e 8 especiais), numa faixa ondulada de 4
+// fileiras que vai e volta, entre a área de Início e a de Chegada, fora da trilha.
+// O modo Pokémon, o primeiro dos modos temáticos, é separado: tem a sua trilha, de 60 casas (Início e Chegada contados
+// como casas), e o seu desenho (svgPokemon), um caminho de terra na grama com as casas temáticas do modo.
 // Só dados e desenho: a ligação com a tela e o Firestore fica no index.html. A posição do peão é o campo "pontos",
-// como no Master: 0 é o Início e CHEGADA é a última casa.
+// como no Master: 0 é o Início e CHEGADA (ou CHEGADA_POKEMON) é a chegada.
 
 const TEMAS = ["Geografia", "Natureza", "Artes e Pensamento", "Cotidiano", "Ciências", "Entretenimento", "Esportes", "História"];
-export const CASAS = 60;
-export const CHEGADA = CASAS - 1;
-// Casas especiais (★): as ações delas ainda não foram definidas; por enquanto a pergunta é de qualquer tema e o
-// grupo aplica o efeito à mão.
-const ESPECIAIS = new Set([6, 13, 20, 27, 34, 41, 48, 54]);
 
-// Tipo de cada casa: "inicio", "chegada", "especial" ou o nome do tema. Os temas seguem a ordem das cores, em ciclo.
-export const TIPOS = (() => {
-  const tipos = [];
-  for (let c = 0, t = 0; c < CASAS; c++)
-    tipos.push(c === 0 ? "inicio" : c === CHEGADA ? "chegada" : ESPECIAIS.has(c) ? "especial" : TEMAS[t++ % TEMAS.length]);
-  return tipos;
-})();
+// ---------------------------------------------------------------- casas do Linear
 
-// Tema da pergunta na casa c: o tema da casa; "*" (qualquer tema) no Início e nas especiais; null na chegada.
-export const temaDaCasa = c => c >= CHEGADA ? null : TEMAS.includes(TIPOS[c]) ? TIPOS[c] : "*";
+// 32 casas na trilha (posições 1 a 32), mais o Início (0) e a Chegada (33). A cada 4 casas, uma especial (★), em
+// posição fixa, que pergunta de qualquer tema. As outras 24 repetem 3 vezes uma ordem dos 8 temas, sorteada em cada
+// partida pela "semente" gravada nela (a mesma em todos os aparelhos); sem semente, como nas partidas antigas, vale a
+// ordem das cores. Repetir a mesma ordem mantém o padrão e nunca põe dois temas iguais lado a lado.
+export const CASAS = 32;
+export const CHEGADA = CASAS + 1;
+const ESPECIAIS = new Set([3, 7, 11, 15, 19, 23, 27, 31]);
+export const ehEspecial = c => ESPECIAIS.has(c);
+
+// Gerador pseudoaleatório (mulberry32) e embaralhamento reproduzíveis a partir da semente.
+function aleatorio(semente) {
+  let a = semente >>> 0;
+  return () => {
+    a = (a + 0x6D2B79F5) >>> 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+export const ordemDosTemas = semente => {
+  if (!Number.isInteger(semente)) return TEMAS;
+  const r = aleatorio(semente), ordem = [...TEMAS];
+  for (let i = ordem.length - 1; i > 0; i--) {
+    const j = Math.floor(r() * (i + 1));
+    [ordem[i], ordem[j]] = [ordem[j], ordem[i]];
+  }
+  return ordem;
+};
+
+// Tipo de cada posição: "inicio", "chegada", "especial" ou o nome do tema.
+const tiposCache = new Map();
+export function tipos(semente) {
+  if (!tiposCache.has(semente)) {
+    const ordem = ordemDosTemas(semente), lista = ["inicio"];
+    for (let c = 1, t = 0; c <= CASAS; c++) lista.push(ESPECIAIS.has(c) ? "especial" : ordem[t++ % ordem.length]);
+    tiposCache.set(semente, [...lista, "chegada"]);
+  }
+  return tiposCache.get(semente);
+}
+
+// Tema da pergunta na posição c: o tema da casa; "*" (qualquer tema) no Início e nas especiais; null na chegada.
+export const temaDaCasa = (c, semente) => c >= CHEGADA ? null : TEMAS.includes(tipos(semente)[c]) ? tipos(semente)[c] : "*";
+
+// ---------------------------------------------------------------- casas do modo Pokémon
+
+// A trilha antiga do Linear: 60 casas, com o Início na casa 0 e a Chegada na 59, e as especiais a cada 7 casas.
+const CASAS_POKEMON_TRILHA = 60;
+export const CHEGADA_POKEMON = CASAS_POKEMON_TRILHA - 1;
+const ESPECIAIS_POKEMON = new Set([6, 13, 20, 27, 34, 41, 48, 54]);
+const TIPOS_TRILHA_POKEMON = Array.from({ length: CASAS_POKEMON_TRILHA }, (_, c) =>
+  c === 0 ? "inicio" : c === CHEGADA_POKEMON ? "chegada" : ESPECIAIS_POKEMON.has(c) ? "especial" : "comum");
+export const ehEspecialPokemon = c => TIPOS_TRILHA_POKEMON[c] === "especial";
 
 // Modo Pokémon (manifesto/modo_pokemon.md, "Casas temáticas"): a casa dita o teor da pergunta. Os nomes são os do
 // campo "casa" das perguntas, gravado pelo export (casa_pokemon, em pipeline/banco.py). As casas comuns alternam
@@ -38,119 +78,156 @@ const CASAS_TEXTO = ["Jogos e Regiões", "Anime e Filmes", "Pokédex"];
 export const CASAS_POKEMON = Object.keys(CORES_POKEMON);
 const TIPOS_POKEMON = (() => {
   let k = 0;
-  return TIPOS.map(tipo => {
-    if (!TEMAS.includes(tipo)) return tipo;
+  return TIPOS_TRILHA_POKEMON.map(tipo => {
+    if (tipo !== "comum") return tipo;
     const casa = k % 2 ? CASAS_TEXTO[(k >> 1) % CASAS_TEXTO.length] : CASAS_FIGURA[(k >> 1) % CASAS_FIGURA.length];
     k++;
     return casa;
   });
 })();
-export const casaPokemon = c => c >= CHEGADA ? null : CASAS_POKEMON.includes(TIPOS_POKEMON[c]) ? TIPOS_POKEMON[c] : "*";
+export const casaPokemon = c => c >= CHEGADA_POKEMON ? null : CASAS_POKEMON.includes(TIPOS_POKEMON[c]) ? TIPOS_POKEMON[c] : "*";
 
 // ---------------------------------------------------------------- geometria
 
-// Linha do meio da faixa: 4 fileiras onduladas, ligadas por meias-voltas que alternam à direita e à esquerda.
-// A onda some perto das pontas, para a fileira encontrar a curva sem degrau. As casas são cortadas a cada
-// 1/CASAS do comprimento total, de modo que todas têm o mesmo comprimento, inclusive nas curvas.
-const LARGURA = 1600, ALTURA = 880, X0 = 170, X1 = 1430, FAIXA = 116, AMPL = 26;
-const LINHAS = [140, 340, 540, 740];
-const onda = x => {
-  const t = Math.max(0, Math.min(1, (x - X0) / 140, (X1 - x) / 140));
-  return AMPL * Math.sin(2 * Math.PI * (x - X0) / ((X1 - X0) / 4)) * t;
-};
-const PTS = [];
-LINHAS.forEach((y, k) => {
-  const xs = Array.from({ length: 401 }, (_, i) => X0 + (X1 - X0) * i / 400);
-  if (k % 2) xs.reverse();
-  for (const x of xs) PTS.push([x, y + onda(x)]);
-  if (k < LINHAS.length - 1) {
-    const r = (LINHAS[k + 1] - y) / 2, cy = y + r, lado = k % 2 ? -1 : 1, cx = lado === 1 ? X1 : X0;
-    for (let i = 1; i < 80; i++) {
-      const a = -Math.PI / 2 + Math.PI * i / 80;
-      PTS.push([cx + lado * r * Math.cos(a), cy + r * Math.sin(a)]);
+// Linha do meio da faixa: fileiras onduladas, ligadas por meias-voltas que alternam à direita e à esquerda. A onda
+// some perto das pontas, para a fileira encontrar a curva sem degrau. As casas são cortadas a cada 1/casas do
+// comprimento total, de modo que todas têm o mesmo comprimento, inclusive nas curvas.
+function trilha({ casas, linhas, x0, x1, faixa, ampl }) {
+  const onda = x => {
+    const t = Math.max(0, Math.min(1, (x - x0) / 140, (x1 - x) / 140));
+    return ampl * Math.sin(2 * Math.PI * (x - x0) / ((x1 - x0) / 4)) * t;
+  };
+  const pts = [];
+  linhas.forEach((y, k) => {
+    const xs = Array.from({ length: 401 }, (_, i) => x0 + (x1 - x0) * i / 400);
+    if (k % 2) xs.reverse();
+    for (const x of xs) pts.push([x, y + onda(x)]);
+    if (k < linhas.length - 1) {
+      const r = (linhas[k + 1] - y) / 2, cy = y + r, lado = k % 2 ? -1 : 1, cx = lado === 1 ? x1 : x0;
+      for (let i = 1; i < 80; i++) {
+        const a = -Math.PI / 2 + Math.PI * i / 80;
+        pts.push([cx + lado * r * Math.cos(a), cy + r * Math.sin(a)]);
+      }
     }
-  }
-});
-const ACUM = [0];
-for (let i = 1; i < PTS.length; i++) ACUM.push(ACUM[i - 1] + Math.hypot(PTS[i][0] - PTS[i - 1][0], PTS[i][1] - PTS[i - 1][1]));
-const TOTAL = ACUM.at(-1);
-const normal = i => {
-  const [a, b] = [PTS[Math.max(0, i - 1)], PTS[Math.min(PTS.length - 1, i + 1)]];
-  const n = Math.hypot(b[0] - a[0], b[1] - a[1]);
-  return [-(b[1] - a[1]) / n, (b[0] - a[0]) / n];
-};
-// Ponto na faixa: i é o índice na linha do meio; lado vai de -1 a 1 (as bordas).
-const ponto = (i, lado) => { const [nx, ny] = normal(i); return [PTS[i][0] + lado * nx * FAIXA / 2, PTS[i][1] + lado * ny * FAIXA / 2]; };
-const indices = c => {
-  const [a, b] = [TOTAL * c / CASAS - 1e-6, TOTAL * (c + 1) / CASAS + 1e-6];
-  return PTS.map((_, i) => i).filter(i => ACUM[i] >= a && ACUM[i] <= b);
-};
-const IDX = Array.from({ length: CASAS }, (_, c) => indices(c));
-// Centro de cada casa, usado para soltar um peão arrastado na casa mais próxima.
-export const CENTROS = IDX.map(idx => PTS[idx[Math.floor(idx.length / 2)]]);
-
-export function casaMaisProxima(x, y) {
-  let casa = null, dist = Infinity;
-  CENTROS.forEach(([cx, cy], c) => { const d = Math.hypot(x - cx, y - cy); if (d < dist) [casa, dist] = [c, d]; });
-  return dist < 110 ? casa : null;
+  });
+  const acum = [0];
+  for (let i = 1; i < pts.length; i++) acum.push(acum[i - 1] + Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]));
+  const total = acum.at(-1);
+  const normal = i => {
+    const [a, b] = [pts[Math.max(0, i - 1)], pts[Math.min(pts.length - 1, i + 1)]];
+    const n = Math.hypot(b[0] - a[0], b[1] - a[1]);
+    return [-(b[1] - a[1]) / n, (b[0] - a[0]) / n];
+  };
+  // Ponto na faixa: i é o índice na linha do meio; lado vai de -1 a 1 (as bordas).
+  const ponto = (i, lado) => { const [nx, ny] = normal(i); return [pts[i][0] + lado * nx * faixa / 2, pts[i][1] + lado * ny * faixa / 2]; };
+  const idx = Array.from({ length: casas }, (_, c) => {
+    const [a, b] = [total * c / casas - 1e-6, total * (c + 1) / casas + 1e-6];
+    return pts.map((_, i) => i).filter(i => acum[i] >= a && acum[i] <= b);
+  });
+  const centros = idx.map(ix => pts[ix[Math.floor(ix.length / 2)]]);
+  return { pts, idx, centros, ponto, faixa, x0, linhas };
 }
+
+const LARGURA = 1600;
+
+// Linear: casas maiores, e uma margem à esquerda para as áreas de Início e de Chegada, fora da trilha. Embaixo à
+// direita fica espaço livre para o dado no modo mesa.
+export const ALTURA_LINEAR = 960;
+const LIN = trilha({ casas: CASAS, linhas: [120, 330, 540, 750], x0: 300, x1: 1350, faixa: 140, ampl: 22 });
+// As áreas de Início e de Chegada: retângulos à esquerda do começo da primeira fileira e do fim da última.
+const AREA = { x: 40, w: LIN.x0 - 64, h: 176 };
+const areaDe = c => ({ ...AREA, y: (c === 0 ? LIN.linhas[0] : LIN.linhas.at(-1)) - AREA.h / 2 });
+
+// Pokémon: a trilha antiga.
+const ALTURA = 880;
+const POK = trilha({ casas: CASAS_POKEMON_TRILHA, linhas: [140, 340, 540, 740], x0: 170, x1: 1430, faixa: 116, ampl: 26 });
+
+// A posição mais próxima de (x, y), para soltar um peão arrastado; null se estiver longe da trilha.
+function maisProxima(T, x, y, extras = []) {
+  let casa = null, dist = Infinity;
+  T.centros.forEach(([cx, cy], c) => { const d = Math.hypot(x - cx, y - cy); if (d < dist) [casa, dist] = [c, d]; });
+  for (const [c, [cx, cy]] of extras) { const d = Math.hypot(x - cx, y - cy); if (d < dist) [casa, dist] = [c, d]; }
+  return dist < 120 ? casa : null;
+}
+const centroArea = c => { const a = areaDe(c); return [a.x + a.w / 2, a.y + a.h / 2]; };
+// Linear: a casa c da trilha é a posição c + 1; o Início e a Chegada são as áreas.
+export const casaMaisProxima = (x, y) => {
+  const c = maisProxima(LIN, x, y, [[-1, centroArea(0)], [CASAS, centroArea(CHEGADA)]]);
+  return c === null ? null : c + 1;
+};
+export const casaMaisProximaPokemon = (x, y) => maisProxima(POK, x, y);
 
 // ---------------------------------------------------------------- desenho
 
 const f = n => n.toFixed(1);
 const XADREZ = `<pattern id="xadrez" width="20" height="20" patternUnits="userSpaceOnUse"><rect width="20" height="20" fill="#fff"/>
        <rect width="10" height="10" fill="#111"/><rect x="10" y="10" width="10" height="10" fill="#111"/></pattern>`;
-const caminho = cor =>
-  `<path d="M${PTS.map(([x, y]) => `${f(x)} ${f(y)}`).join("L")}" fill="none" stroke="${cor}" stroke-width="${FAIXA + 16}" stroke-linejoin="round"/>`;
-const contornoDaCasa = c => {
-  const idx = IDX[c], borda = [...idx.map(i => ponto(i, 1)), ...[...idx].reverse().map(i => ponto(i, -1))];
+const caminho = (T, cor, pontas = []) => {
+  const pts = [...(pontas[0] ? [pontas[0]] : []), ...T.pts, ...(pontas[1] ? [pontas[1]] : [])];
+  return `<path d="M${pts.map(([x, y]) => `${f(x)} ${f(y)}`).join("L")}" fill="none" stroke="${cor}" stroke-width="${T.faixa + 16}" stroke-linejoin="round"/>`;
+};
+const contornoDaCasa = (T, c) => {
+  const idx = T.idx[c], borda = [...idx.map(i => T.ponto(i, 1)), ...[...idx].reverse().map(i => T.ponto(i, -1))];
   return "M" + borda.map(([x, y]) => `${f(x)} ${f(y)}`).join("L") + "Z";
 };
 const texto = ([x, y], conteudo, tam, cor, contorno) =>
   `<text x="${f(x)}" y="${f(y)}" font-size="${tam}" fill="${cor}" font-weight="800" text-anchor="middle" dominant-baseline="central"${
     contorno ? ` stroke="${contorno}" stroke-width="5" paint-order="stroke"` : ""}>${conteudo}</text>`;
 
-// Peões: sozinho, no meio da casa; dois ou mais, em duas linhas ao longo dela.
-function peoes(jogadores, casaDe, peao) {
-  const partes = [], grupos = new Map();
-  for (const j of jogadores) { const c = casaDe(j); grupos.set(c, [...(grupos.get(c) || []), j]); }
-  for (const [c, js] of grupos) {
-    const idx = IDX[c];
-    const duas = js.length > 1, raio = js.length > 4 ? 19 : duas ? 25 : 32;
-    js.forEach((j, h) => {
-      const porLinha = Math.ceil(js.length / (duas ? 2 : 1));
-      const linha = Math.floor(h / porLinha), k = h % porLinha;
-      const u = (k + 1) / (porLinha + 1);
-      const lado = duas ? (linha ? .45 : -.45) : 0;
-      const [x, y] = ponto(idx[Math.round(u * (idx.length - 1))], lado);
-      partes.push(peao(x, y, raio, j));
-    });
-  }
-  return partes;
+// Peões numa casa da trilha: sozinho, no meio da casa; até "porFila", lado a lado ao longo dela; mais, em duas
+// linhas. As casas do Linear, mais compridas, cabem 3 lado a lado; as do Pokémon, 1.
+function peoesNaCasa(T, idx, js, peao, porFila = 1) {
+  const duas = js.length > porFila, raio = js.length > 4 ? 19 : js.length > 1 ? 25 : 32;
+  return js.map((j, h) => {
+    const porLinha = Math.ceil(js.length / (duas ? 2 : 1));
+    const linha = Math.floor(h / porLinha), k = h % porLinha;
+    const u = (k + 1) / (porLinha + 1);
+    const lado = duas ? (linha ? .45 : -.45) : 0;
+    const [x, y] = T.ponto(idx[Math.round(u * (idx.length - 1))], lado);
+    return peao(x, y, raio, j);
+  });
 }
+// Peões numa área (Início ou Chegada): em grade, abaixo do rótulo.
+function peoesNaArea(a, js, peao) {
+  const cols = Math.min(js.length, 3), lins = Math.ceil(js.length / 3), raio = 26;
+  const topo = a.y + 52, alt = a.h - 62;
+  return js.map((j, h) => {
+    const k = h % 3, l = Math.floor(h / 3);
+    return peao(a.x + a.w * (k + 1) / (cols + 1), topo + alt * (l + 1) / (lins + 1), raio, j);
+  });
+}
+const agrupar = (jogadores, casaDe) => {
+  const grupos = new Map();
+  for (const j of jogadores) { const c = casaDe(j); grupos.set(c, [...(grupos.get(c) || []), j]); }
+  return grupos;
+};
 
-// cores: {tema: [fundo, texto]}; abrev: nome do tema → sigla; peao(x, y, raio, j): o SVG do peão, o mesmo do Master.
-export function svgLinear(jogadores, casaDe, cores, abrev, esc, peao) {
+// cores: {tema: [fundo, texto]}; abrev: nome do tema → sigla; peao(x, y, raio, j): o SVG do peão, o mesmo do Master;
+// semente: a da partida, que define a ordem dos temas.
+export function svgLinear(jogadores, casaDe, cores, abrev, esc, peao, semente) {
+  const tiposDaPartida = tipos(semente);
+  const [ini, fim] = [areaDe(0), areaDe(CHEGADA)];
   const partes = [
     `<defs>${XADREZ}</defs>`,
-    `<rect width="${LARGURA}" height="${ALTURA}" rx="26" fill="#161615"/>`,
-    caminho("#333"),
+    `<rect width="${LARGURA}" height="${ALTURA_LINEAR}" rx="26" fill="#161615"/>`,
+    caminho(LIN, "#333", [[ini.x + ini.w / 2, ini.y + ini.h / 2], [fim.x + fim.w / 2, fim.y + fim.h / 2]]),
+    `<rect x="${ini.x}" y="${f(ini.y)}" width="${ini.w}" height="${ini.h}" rx="18" fill="#f2f2f2" stroke="#000" stroke-width="3"><title>Início · qualquer tema</title></rect>`,
+    texto([ini.x + ini.w / 2, ini.y + 28], "INÍCIO", 22, "#111"),
+    `<rect x="${fim.x}" y="${f(fim.y)}" width="${fim.w}" height="${fim.h}" rx="18" fill="url(#xadrez)" stroke="#000" stroke-width="3"><title>Chegada</title></rect>`,
+    `<rect x="${fim.x + 24}" y="${f(fim.y + 12)}" width="${fim.w - 48}" height="34" rx="10" fill="#111"/>`,
+    texto([fim.x + fim.w / 2, fim.y + 29], "CHEGADA", 22, "#fff"),
   ];
-  IDX.forEach((_, c) => {
-    const d = contornoDaCasa(c);
-    const tipo = TIPOS[c];
-    const [fundo, cor, rotulo, tam, dica] =
-      tipo === "inicio" ? ["#f2f2f2", "#111", "INÍCIO", 19, "Início · qualquer tema"] :
-      tipo === "chegada" ? ["url(#xadrez)", "#111", "", 20, "Chegada"] :
-      tipo === "especial" ? ["#2a2a2a", "#ffd23f", "★", 34, "Casa especial · qualquer tema (ação ainda a definir)"] :
-      [...(cores[tipo] || ["#6b6b66", "#fff"]), esc(abrev(tipo)), 26, esc(tipo)];
-    partes.push(`<path d="${d}" fill="${fundo}" stroke="#000" stroke-width="3"><title>Casa ${c} · ${dica}</title></path>`);
-    if (rotulo) partes.push(texto(CENTROS[c], rotulo, tam, cor));
+  LIN.idx.forEach((_, c) => {
+    const tipo = tiposDaPartida[c + 1];
+    const [fundo, cor, rotulo, tam, dica] = tipo === "especial"
+      ? ["#2a2a2a", "#ffd23f", "★", 40, "Casa especial · qualquer tema (ação ainda a definir)"]
+      : [...(cores[tipo] || ["#6b6b66", "#fff"]), esc(abrev(tipo)), 30, esc(tipo)];
+    partes.push(`<path d="${contornoDaCasa(LIN, c)}" fill="${fundo}" stroke="#000" stroke-width="3"><title>Casa ${c + 1} · ${dica}</title></path>`);
+    partes.push(texto(LIN.centros[c], rotulo, tam, cor));
   });
-  const [ex, ey] = PTS.at(-1);
-  partes.push(texto([X0 + 50, LINHAS[0] - 92], "▼ PARTIDA", 22, "#fff"), texto([ex + 50, ey + 92], "CHEGADA ▲", 22, "#fff"));
-  partes.push(...peoes(jogadores, casaDe, peao));
-  return `<svg viewBox="0 0 ${LARGURA} ${ALTURA}" role="img" aria-label="Tabuleiro linear">${partes.join("")}</svg>`;
+  for (const [c, js] of agrupar(jogadores, casaDe))
+    partes.push(...(c <= 0 ? peoesNaArea(ini, js, peao) : c >= CHEGADA ? peoesNaArea(fim, js, peao) : peoesNaCasa(LIN, LIN.idx[c - 1], js, peao, 3)));
+  return `<svg viewBox="0 0 ${LARGURA} ${ALTURA_LINEAR}" role="img" aria-label="Tabuleiro linear">${partes.join("")}</svg>`;
 }
 
 // Ícones das casas temáticas do modo Pokémon, desenhados aqui (formas genéricas, sem logotipos oficiais), centrados
@@ -204,8 +281,8 @@ const ICONES_POKEMON = {
   },
 };
 
-// O tabuleiro do modo Pokémon é mais alto que o do Linear: embaixo da trilha fica a legenda das casas, no canto
-// inferior esquerdo. O app usa esta altura para dimensionar o tabuleiro no modo mesa.
+// O tabuleiro do modo Pokémon é mais alto que a trilha: embaixo dela fica a legenda das casas, no canto inferior
+// esquerdo. O app usa esta altura para dimensionar o tabuleiro no modo mesa.
 export const ALTURA_POKEMON = ALTURA + 120;
 
 // Legenda das casas, numa caixa no canto inferior esquerdo, a x0 da borda esquerda: na primeira linha, as casas de
@@ -239,7 +316,7 @@ function pokebola([x, y], r) {
     <circle cx="${f(x)}" cy="${f(y)}" r="${f(r * .34)}" fill="#fff" stroke="#111" stroke-width="${w}"/>`;
 }
 
-// Modo Pokémon: a mesma trilha, como um caminho de terra na grama. Cada casa comum tem a cor e o ícone da sua casa
+// Modo Pokémon: a trilha antiga, como um caminho de terra na grama. Cada casa comum tem a cor e o ícone da sua casa
 // temática (CORES_POKEMON, ICONES_POKEMON), e as especiais levam uma pokébola.
 export function svgPokemon(jogadores, casaDe, peao) {
   const TERRA = "#7a5a2e";
@@ -248,9 +325,9 @@ export function svgPokemon(jogadores, casaDe, peao) {
        <path d="M10 20l3-9 3 9M13 20v-4M40 46l3-9 3 9M43 46v-4" stroke="#3d8237" stroke-width="2.5" fill="none" stroke-linecap="round"/>
        <circle cx="32" cy="14" r="2.2" fill="#3d8237"/><circle cx="52" cy="30" r="2.2" fill="#3d8237"/></pattern></defs>`,
     `<rect width="${LARGURA}" height="${ALTURA_POKEMON}" rx="26" fill="url(#grama)"/>`,
-    caminho(TERRA),
+    caminho(POK, TERRA),
   ];
-  IDX.forEach((_, c) => {
+  POK.idx.forEach((_, c) => {
     const tipo = TIPOS_POKEMON[c];
     const [fundo, cor, sigla] = CORES_POKEMON[tipo] || [];
     const [preenchimento, dica] =
@@ -258,16 +335,16 @@ export function svgPokemon(jogadores, casaDe, peao) {
       tipo === "chegada" ? ["url(#xadrez)", "Chegada"] :
       tipo === "especial" ? ["#2a2a2a", "Casa especial · qualquer casa (ação ainda a definir)"] :
       [fundo, tipo];
-    partes.push(`<path d="${contornoDaCasa(c)}" fill="${preenchimento}" stroke="#000" stroke-width="3"><title>Casa ${c} · ${dica}</title></path>`);
-    if (tipo === "inicio") partes.push(texto(CENTROS[c], "INÍCIO", 19, "#111"));
-    else if (tipo === "especial") partes.push(`<g pointer-events="none">${pokebola(CENTROS[c], 30)}</g>`);
-    else if (ICONES_POKEMON[tipo]) partes.push(`<g pointer-events="none">${ICONES_POKEMON[tipo](...CENTROS[c], 30)}</g>`);
-    else if (sigla) partes.push(texto(CENTROS[c], sigla, sigla.length > 1 ? 24 : 40, cor));
+    partes.push(`<path d="${contornoDaCasa(POK, c)}" fill="${preenchimento}" stroke="#000" stroke-width="3"><title>Casa ${c} · ${dica}</title></path>`);
+    if (tipo === "inicio") partes.push(texto(POK.centros[c], "INÍCIO", 19, "#111"));
+    else if (tipo === "especial") partes.push(`<g pointer-events="none">${pokebola(POK.centros[c], 30)}</g>`);
+    else if (ICONES_POKEMON[tipo]) partes.push(`<g pointer-events="none">${ICONES_POKEMON[tipo](...POK.centros[c], 30)}</g>`);
+    else if (sigla) partes.push(texto(POK.centros[c], sigla, sigla.length > 1 ? 24 : 40, cor));
   });
-  const [ex, ey] = PTS.at(-1);
-  partes.push(texto([X0 + 50, LINHAS[0] - 92], "▼ PARTIDA", 22, "#fff", "#2f6b2a"),
+  const [ex, ey] = POK.pts.at(-1);
+  partes.push(texto([POK.x0 + 50, POK.linhas[0] - 92], "▼ PARTIDA", 22, "#fff", "#2f6b2a"),
               texto([ex + 50, ey + 92], "CHEGADA ▲", 22, "#fff", "#2f6b2a"));
   partes.push(legendaPokemon(24));
-  partes.push(...peoes(jogadores, casaDe, peao));
+  for (const [c, js] of agrupar(jogadores, casaDe)) partes.push(...peoesNaCasa(POK, POK.idx[c], js, peao));
   return `<svg viewBox="0 0 ${LARGURA} ${ALTURA_POKEMON}" role="img" aria-label="Tabuleiro do modo Pokémon">${partes.join("")}</svg>`;
 }
