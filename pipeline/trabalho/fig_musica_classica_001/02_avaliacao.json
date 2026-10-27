@@ -1,0 +1,265 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida do violoncelo, de frente e de lado, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de cordas friccionadas é este?",
+      "resposta": "Violoncelo",
+      "distratores": [
+        "Violino",
+        "Contrabaixo",
+        "Viola de arco"
+      ],
+      "ancora": {
+        "nome": "Violoncelo",
+        "descricao": "Instrumento de cordas friccionadas da família do violino, de som médio-grave, tocado sentado.",
+        "variantes": [
+          "Cello"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada inconfundível, vidro sobre base de tijolos, sem texto legível.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Esta sala de concertos foi erguida sobre que tipo de construção antiga?",
+      "resposta": "Um armazém",
+      "distratores": [
+        "Uma fábrica",
+        "Uma estação ferroviária",
+        "Uma igreja"
+      ],
+      "ancora": {
+        "nome": "Elbphilharmonie",
+        "descricao": "Sala de concertos de Hamburgo, na Alemanha, com estrutura de vidro sobre um antigo armazém portuário de tijolos.",
+        "variantes": [
+          "Elphi",
+          "Filarmônica do Elba"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Instrumento inteiro, nítido, com a dobra característica; sem texto.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este instrumento de orquestra é a versão maior e mais grave de qual outro?",
+      "resposta": "Fagote",
+      "distratores": [
+        "Oboé",
+        "Clarinete",
+        "Trombone"
+      ],
+      "ancora": {
+        "nome": "Contrafagote",
+        "descricao": "Instrumento de sopro de palheta dupla que soa uma oitava abaixo do fagote.",
+        "variantes": [
+          "Fagote duplo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A fachada mostra a inscrição legível THEATRO MUNICIPAL, que entrega a resposta; há também pessoas comuns ao fundo."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Edifício icônico em aço, reconhecível; a inscrição na parede é ilegível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica esta sala de concertos?",
+      "resposta": "Los Angeles",
+      "distratores": [
+        "São Francisco",
+        "Chicago",
+        "Nova York"
+      ],
+      "ancora": {
+        "nome": "Walt Disney Concert Hall",
+        "descricao": "Sala de concertos de Los Angeles projetada por Frank Gehry, sede da Filarmônica de Los Angeles.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Viola da gamba clara, com trastes e arco, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento barroco de cordas friccionadas é este?",
+      "resposta": "Viola da gamba",
+      "distratores": [
+        "Violoncelo",
+        "Viola d'amore",
+        "Bandolim"
+      ],
+      "ancora": {
+        "nome": "Viola da gamba",
+        "descricao": "Instrumento de cordas friccionadas, com trastes e tocado entre as pernas, típico do Renascimento e do Barroco.",
+        "variantes": [
+          "Gamba",
+          "Viola de gamba"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Flauta metálica nítida; gravação minúscula ilegível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de sopro de orquestra é este?",
+      "resposta": "Flauta transversal",
+      "distratores": [
+        "Flauta doce",
+        "Clarinete",
+        "Oboé"
+      ],
+      "ancora": {
+        "nome": "Flauta transversal",
+        "descricao": "Instrumento de sopro metálico, tocado de lado, comum nas orquestras.",
+        "variantes": [
+          "Flauta",
+          "Flauta de concerto"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Alaúde renascentista nítido, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de cordas dedilhadas, típico do Renascimento, é este?",
+      "resposta": "Alaúde",
+      "distratores": [
+        "Bandolim",
+        "Harpa",
+        "Violão"
+      ],
+      "ancora": {
+        "nome": "Alaúde",
+        "descricao": "Instrumento europeu de cordas dedilhadas, com corpo em forma de pera e braço curto.",
+        "variantes": [
+          "Lute"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Celesta visível, com teclado e caixa; sem texto. Reconhecimento difícil, então só em múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de teclado é este?",
+      "resposta": "Celesta",
+      "distratores": [
+        "Harmônio",
+        "Cravo",
+        "Glockenspiel"
+      ],
+      "ancora": {
+        "nome": "Celesta",
+        "descricao": "Instrumento de teclado que faz martelos baterem em placas de metal, de som suave e cristalino.",
+        "variantes": [
+          "Celeste"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Trombone de vara nítido, sem texto; imagem pequena, mas legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de metal é este?",
+      "resposta": "Trombone",
+      "distratores": [
+        "Trompete",
+        "Eufônio",
+        "Trompa"
+      ],
+      "ancora": {
+        "nome": "Trombone",
+        "descricao": "Instrumento de metal que muda a nota com uma vara deslizante.",
+        "variantes": [
+          "Trombone de vara"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fachada nítida e reconhecível; o letreiro do banner é minúsculo e ilegível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica esta casa de ópera?",
+      "resposta": "Viena",
+      "distratores": [
+        "Praga",
+        "Budapeste",
+        "Dresden"
+      ],
+      "ancora": {
+        "nome": "Ópera de Viena",
+        "descricao": "Casa de ópera inaugurada em 1869 na Ringstrasse de Viena, na Áustria.",
+        "variantes": [
+          "Ópera Estatal de Viena",
+          "Wiener Staatsoper"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Prédio dourado inconfundível, sem texto que entregue a resposta.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica esta sala de concertos?",
+      "resposta": "Berlim",
+      "distratores": [
+        "Hamburgo",
+        "Viena",
+        "Munique"
+      ],
+      "ancora": {
+        "nome": "Filarmônica de Berlim (sala)",
+        "descricao": "Sala de concertos de Berlim, na Alemanha, sede da Orquestra Filarmônica de Berlim.",
+        "variantes": [
+          "Berliner Philharmonie",
+          "Philharmonie de Berlim"
+        ]
+      }
+    }
+  ]
+}

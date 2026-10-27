@@ -1,0 +1,46 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento de cordas friccionadas é este?",
+        "resposta": "Violoncelo"
+      },
+      "existentes": [
+        {
+          "id": "q06799",
+          "pergunta": "Que instrumento musical é este?",
+          "resposta": "Violoncelo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que instrumento de metal é este?",
+        "resposta": "Trombone"
+      },
+      "existentes": [
+        {
+          "id": "q06800",
+          "pergunta": "Que instrumento musical é este?",
+          "resposta": "Trombone"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do mesmo instrumento (violoncelo) a partir da imagem; o acréscimo 'de cordas friccionadas' só descreve a categoria.",
+      "id_existente": "q06799"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do mesmo instrumento (trombone) a partir da imagem; 'de metal' só descreve a categoria.",
+      "id_existente": "q06800"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Violoncelo",
+      "titulo": "en:Cello",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Flauta transversal",
+      "titulo": "en:Western concert flute",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Clarinete",
+      "titulo": "en:Clarinet",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Trompete",
+      "titulo": "en:Trumpet",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Trombone",
+      "titulo": "en:Trombone",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Flauta doce",
+      "titulo": "en:Recorder (musical instrument)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Xilofone",
+      "titulo": "en:Xylophone",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pratos",
+      "titulo": "en:Cymbal",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tímpanos",
+      "titulo": "en:Timpani",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fagote",
+      "titulo": "en:Bassoon",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alaúde",
+      "titulo": "en:Lute",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Glockenspiel",
+      "titulo": "en:Glockenspiel",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sanfona de roda",
+      "titulo": "en:Hurdy-gurdy",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Celesta",
+      "titulo": "en:Celesta",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Viola da gamba",
+      "titulo": "en:Viola da gamba",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Corne inglês",
+      "titulo": "en:Cor anglais",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Contrafagote",
+      "titulo": "en:Contrabassoon",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Sacabuxa",
+      "titulo": "en:Sackbut",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cromorno",
+      "titulo": "en:Crumhorn",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Teorba",
+      "titulo": "en:Theorbo",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Clavicórdio",
+      "titulo": "en:Clavichord",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Theatro Municipal do Rio de Janeiro",
+      "titulo": "pt:Theatro Municipal do Rio de Janeiro",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ópera de Sydney",
+      "titulo": "en:Sydney Opera House",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Amazonas",
+      "titulo": "en:Teatro Amazonas",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ópera de Viena",
+      "titulo": "en:Vienna State Opera",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Metropolitan Opera House",
+      "titulo": "en:Metropolitan Opera House (Lincoln Center)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Carnegie Hall",
+      "titulo": "en:Carnegie Hall",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Elbphilharmonie",
+      "titulo": "en:Elbphilharmonie",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Royal Albert Hall",
+      "titulo": "en:Royal Albert Hall",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Sala São Paulo",
+      "titulo": "pt:Sala São Paulo",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ópera de Arame",
+      "titulo": "pt:Ópera de Arame",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Mariinsky",
+      "titulo": "en:Mariinsky Theatre",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Walt Disney Concert Hall",
+      "titulo": "en:Walt Disney Concert Hall",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Musikverein",
+      "titulo": "en:Musikverein",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Massimo",
+      "titulo": "en:Teatro Massimo",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ópera Bastilha",
+      "titulo": "en:Opéra Bastille",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Real de Madri",
+      "titulo": "en:Teatro Real",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Palácio da Música Catalã",
+      "titulo": "en:Palau de la Música Catalana",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Gran Teatre del Liceu",
+      "titulo": "en:Gran Teatre del Liceu",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Filarmônica de Berlim (sala)",
+      "titulo": "en:Berliner Philharmonie",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    }
+  ]
+}
