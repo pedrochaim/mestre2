@@ -1,0 +1,189 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pierre Gasly",
+        "descricao": "Piloto francês de Fórmula 1, vencedor do GP da Itália de 2020 pela AlphaTauri.",
+        "variantes": [
+          "Pierre Jean-Jacques Gasly"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "galaxia_do_cata_vento_m101",
+          "nome": "Galáxia do Cata-Vento (M101)",
+          "descricao": "Galáxia espiral vista de frente, na constelação da Ursa Maior, a cerca de 21 milhões de anos-luz da Terra.",
+          "variantes": [
+            "Messier 101",
+            "M101",
+            "NGC 5457",
+            "Pinwheel Galaxy"
+          ]
+        },
+        {
+          "id": "pierre_cardin",
+          "nome": "Pierre Cardin",
+          "descricao": "Estilista francês (1922–2020), conhecido pela moda futurista da era espacial",
+          "variantes": [
+            "Pietro Cardin"
+          ]
+        },
+        {
+          "id": "pre_sal",
+          "nome": "Pré-sal",
+          "descricao": "Camada de rochas sob uma espessa camada de sal no litoral brasileiro, que guarda grandes reservas de petróleo.",
+          "variantes": [
+            "Camada pré-sal",
+            "Pre-salt layer"
+          ]
+        },
+        {
+          "id": "pedra_do_sol_asteca",
+          "nome": "Pedra do Sol asteca",
+          "descricao": "Monólito circular mexica esculpido no início do século dezesseis, exposto no Museu Nacional de Antropologia da Cidade do México.",
+          "variantes": [
+            "Calendário Asteca",
+            "Piedra del Sol",
+            "Pedra do Sol"
+          ]
+        },
+        {
+          "id": "jean_jacques_rousseau",
+          "nome": "Jean-Jacques Rousseau",
+          "descricao": "Filósofo genebrino (1712–1778), autor de O Contrato Social e Emílio.",
+          "variantes": [
+            "Rousseau"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Williams FW11",
+        "descricao": "Carro de Fórmula 1 da Williams, com motor Honda turbo, usado em 1986 por Mansell e Piquet.",
+        "variantes": [
+          "FW11",
+          "Williams FW11B"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "williams_fw14b",
+          "nome": "Williams FW14B",
+          "descricao": "Carro de Fórmula 1 da Williams projetado por Adrian Newey, usado em 1991 e 1992 por Mansell e Patrese.",
+          "variantes": [
+            "Williams FW14",
+            "FW14B"
+          ]
+        },
+        {
+          "id": "williams",
+          "nome": "Williams",
+          "descricao": "Equipe britânica de Fórmula 1 fundada em 1977, pela qual Nelson Piquet foi campeão em 1987 e Nigel Mansell em 1992.",
+          "variantes": [
+            "Williams Racing",
+            "Williams Grand Prix Engineering"
+          ]
+        },
+        {
+          "id": "formula_1",
+          "nome": "Fórmula 1",
+          "descricao": "Principal categoria de monopostos do automobilismo mundial, organizada pela FIA desde 1950.",
+          "variantes": [
+            "Formula One",
+            "F1"
+          ]
+        },
+        {
+          "id": "william_whewell",
+          "nome": "William Whewell",
+          "descricao": "Filósofo e historiador da ciência inglês do século dezenove, professor em Cambridge.",
+          "variantes": []
+        },
+        {
+          "id": "william_wallace",
+          "nome": "William Wallace",
+          "descricao": "Cavaleiro escocês que liderou a resistência contra o domínio inglês no fim do século treze, executado em 1305.",
+          "variantes": [
+            "Sir William Wallace"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Colin Chapman",
+        "descricao": "Engenheiro e construtor inglês, fundador da Lotus Cars e da equipe Team Lotus de Fórmula 1.",
+        "variantes": [
+          "Anthony Colin Bruce Chapman"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "homem_leao_de_hohlenstein_stadel",
+          "nome": "Homem-Leão de Hohlenstein-Stadel",
+          "descricao": "Estatueta paleolítica com corpo humano e cabeça de leão, achada numa caverna alemã.",
+          "variantes": [
+            "Löwenmensch",
+            "Homem-Leão",
+            "Lion-man"
+          ]
+        },
+        {
+          "id": "colin_mcrae",
+          "nome": "Colin McRae",
+          "descricao": "Piloto escocês de rali, campeão mundial de 1995 pela Subaru.",
+          "variantes": [
+            "Colin Steele McRae"
+          ]
+        },
+        {
+          "id": "charlie_chaplin",
+          "nome": "Charlie Chaplin",
+          "descricao": "Ator, diretor e compositor britânico, criador do vagabundo Carlitos no cinema mudo.",
+          "variantes": [
+            "Charles Chaplin",
+            "Carlitos"
+          ]
+        },
+        {
+          "id": "bibendum",
+          "nome": "Bibendum",
+          "descricao": "Mascote da fabricante francesa de pneus Michelin, criado em 1898.",
+          "variantes": [
+            "Boneco da Michelin",
+            "Michelin Man"
+          ]
+        },
+        {
+          "id": "kouign_amann",
+          "nome": "Kouign-amann",
+          "descricao": "Doce bretão de massa folhada com camadas de manteiga e açúcar caramelizado, originário de Douarnenez.",
+          "variantes": [
+            "Kouignamann"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Pierre Gasly; Pierre Cardin é outra pessoa."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "FW11 é um carro distinto do FW14B e da equipe Williams."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Colin Chapman; Colin McRae é outro piloto."
+    }
+  ]
+}

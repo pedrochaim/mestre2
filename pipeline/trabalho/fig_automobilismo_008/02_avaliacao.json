@@ -1,0 +1,119 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Carro com 'AMG', 'PETRONAS' e a estrela da Mercedes visíveis: o texto entrega a equipe."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Retrato de piloto pouco reconhecível pelo rosto; patrocinadores (Parmalat) aparecem na roupa e a identificação é duvidosa."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Só os olhos e o capacete aparecem, com Marlboro em destaque; não dá para reconhecer o piloto e o texto polui."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Capacete de NASCAR com DuPont, Pepsi e outras marcas visíveis; o assunto é genérico e a resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Retrato recente e comum; o piloto não é reconhecível pelo rosto de forma justa."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto minúscula, em baixa resolução; ilegível no celular e rosto não reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública; os textos da roupa (Red Bull, Honda) não dão o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que piloto de Fórmula 1 é este?",
+      "resposta": "Pierre Gasly",
+      "distratores": [
+        "Esteban Ocon",
+        "Alexander Albon",
+        "Lando Norris"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pierre Gasly",
+        "descricao": "Piloto francês de Fórmula 1, vencedor do GP da Itália de 2020 pela AlphaTauri.",
+        "variantes": [
+          "Pierre Jean-Jacques Gasly"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Retrato de idoso sem contexto; o piloto não é reconhecível de forma justa."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Carro inteiro, bem visível e característico; sem o nome da equipe escrito.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que equipe de Fórmula 1 construiu este carro dos anos oitenta?",
+      "resposta": "Williams",
+      "distratores": [
+        "Lotus",
+        "Brabham",
+        "Ligier"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Williams FW11",
+        "descricao": "Carro de Fórmula 1 da Williams, com motor Honda turbo, usado em 1986 por Mansell e Piquet.",
+        "variantes": [
+          "FW11",
+          "Williams FW11B"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A foto mostra a largada de uma corrida da A1 GP; o autódromo não é reconhecível e há placas de patrocinadores."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Placa com 'BATHURST' visível entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato claro em preto e branco, sem texto, de figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que marca de carros esportivos este engenheiro inglês fundou em 1952?",
+      "resposta": "Lotus",
+      "distratores": [
+        "Cooper",
+        "Aston Martin",
+        "Tyrrell"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Colin Chapman",
+        "descricao": "Engenheiro e construtor inglês, fundador da Lotus Cars e da equipe Team Lotus de Fórmula 1.",
+        "variantes": [
+          "Anthony Colin Bruce Chapman"
+        ]
+      }
+    }
+  ]
+}

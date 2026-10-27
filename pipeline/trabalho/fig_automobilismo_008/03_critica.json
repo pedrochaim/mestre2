@@ -1,0 +1,33 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem vazamento. Gasly é o piloto da descrição. Os distratores são pilotos de F1 da mesma geração, e nenhum é o mesmo piloto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a equipe, e 'anos oitenta' ajuda sem entregar. O FW11 é da Williams, segundo os trechos. Os distratores são equipes de F1 da mesma época e nenhum construiu esse carro.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato é confirmado: Chapman fundou a Lotus em 1952. Mas 'fundou em 1952' é uma pista quase exata, que ajuda a responder com a imagem coberta. Tirei o ano. Troquei o distrator Tyrrell, que não é marca de carros esportivos, por Morgan, que é.",
+      "reescrita": {
+        "pergunta": "Que marca de carros esportivos este engenheiro inglês fundou?",
+        "resposta": "Lotus",
+        "distratores": [
+          "Cooper",
+          "Aston Martin",
+          "Morgan"
+        ]
+      }
+    }
+  ]
+}
