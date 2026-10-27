@@ -182,12 +182,16 @@ PISO_SUBTEMA_COLECAO = {}
 DOC_COLECAO = {"pokemon": "modo_pokemon.md"}
 SEM_COTA_ANGULOS = {"pokemon"}
 
-# Saturação por âncora (MANIFESTO §4 e §17): no jogo original, no máximo 5 perguntas por âncora (3 até 2026-10-23), 2 com figura.
+# Saturação por âncora (MANIFESTO §4 e §17): no jogo original, no máximo 8 perguntas por âncora (3 até 2026-10-23, 5 até
+# 2026-10-27), 3 com figura e 3 num mesmo lote; folga para aprofundar as âncoras centrais em vez de buscar obscuras.
 # As exclusivas de uma coleção têm conta própria: contam só as perguntas da coleção, com o limite do documento
 # dela; e as exclusivas não contam na saturação do jogo original, porque uma partida nunca sorteia os dois conjuntos.
-MAX_POR_ANCORA = 5
-MAX_FIGURA_POR_ANCORA = 2
+MAX_POR_ANCORA = 8
+MAX_FIGURA_POR_ANCORA = 3
+MAX_POR_ANCORA_LOTE = 3
 MAX_POR_ANCORA_COLECAO = {"pokemon": 5}
+MAX_FIGURA_POR_ANCORA_COLECAO = {"pokemon": 2}
+MAX_POR_ANCORA_LOTE_COLECAO = {"pokemon": 2}
 
 
 def colecao_exclusiva(origem):
@@ -257,6 +261,14 @@ def limite_por_ancora(origem=None):
     return MAX_POR_ANCORA_COLECAO.get(colecao_exclusiva(origem), MAX_POR_ANCORA)
 
 
+def limite_figura_por_ancora(origem=None):
+    return MAX_FIGURA_POR_ANCORA_COLECAO.get(colecao_exclusiva(origem), MAX_FIGURA_POR_ANCORA)
+
+
+def limite_no_lote(origem=None):
+    return MAX_POR_ANCORA_LOTE_COLECAO.get(colecao_exclusiva(origem), MAX_POR_ANCORA_LOTE)
+
+
 def subtemas_da_colecao(perguntas, colecao):
     """{subtema_colecao: nº de perguntas}, com zero nos subtemas ainda vazios."""
     c = Counter({s: 0 for s in SUBTEMAS_COLECAO.get(colecao, [])})
@@ -305,7 +317,7 @@ def erros_ancora(ancora):
     return [e.message for e in _validador_ancora.iter_errors(ancora)]
 
 
-def avisos_variedade(perguntas, cota_angulos=True):
+def avisos_variedade(perguntas, cota_angulos=True, por_ancora=MAX_POR_ANCORA_LOTE):
     """Regras de variedade de um lote (MANIFESTO §9); sem as cotas de ângulo nas coleções de SEM_COTA_ANGULOS."""
     n = len(perguntas)
     if n == 0:
@@ -321,10 +333,9 @@ def avisos_variedade(perguntas, cota_angulos=True):
         genericos = angulos["identidade"] + angulos["atributo"]
         if genericos / n > 0.30:
             avisos.append(f"identidade + atributo em {genericos}/{n} perguntas (máximo 30%)")
-    por_ancora = Counter(p["ancora"] for p in perguntas)
-    for ancora, qtd in por_ancora.items():
-        if qtd > 2:
-            avisos.append(f"âncora {ancora!r} com {qtd} perguntas no lote (máximo 2)")
+    for ancora, qtd in Counter(p["ancora"] for p in perguntas).items():
+        if qtd > por_ancora:
+            avisos.append(f"âncora {ancora!r} com {qtd} perguntas no lote (máximo {por_ancora})")
     return avisos
 
 

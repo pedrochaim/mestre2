@@ -2,16 +2,16 @@
   "descricao": "Programação até 20 000 perguntas no jogo original (MANIFESTO §17; a de 10 000 foi cumprida). O autopiloto lê este arquivo para escolher o próximo trabalho.",
   "meta": {
     "total": 20000,
-    "fracao_figura": 0.4
+    "fracao_figura": 0.4,
+    "fracao_multipla": 0.5
   },
   "lote_texto": {
-    "quantidade": 50,
-    "multipla": 10
+    "quantidade": 50
   },
   "lote_figura": {
     "quantidade": 12
   },
-  "orientacao_geral": "Público brasileiro, informado mas leigo. Prefira fatos surpreendentes sobre o que todo mundo conhece a detalhes obscuros. Varie épocas, regiões e tipos de âncora (pessoas, lugares, obras, eventos, objetos, conceitos). Evite números que mudam com o tempo, recordes que ainda podem ser batidos, temas ainda em disputa e afirmações de 'único', 'primeiro' ou 'maior' sem fonte clara. Priorize os assuntos centrais e conhecidos do subtema que ainda têm poucas perguntas: uma âncora já usada pode receber outras (até 5 no banco), desde que sobre fatos novos. Não troque fama por raridade.",
+  "orientacao_geral": "Público brasileiro, informado mas leigo. Prefira fatos surpreendentes sobre o que todo mundo conhece a detalhes obscuros. Varie épocas, regiões e tipos de âncora (pessoas, lugares, obras, eventos, objetos, conceitos). Evite números que mudam com o tempo, recordes que ainda podem ser batidos, temas ainda em disputa e afirmações de 'único', 'primeiro' ou 'maior' sem fonte clara. Priorize os assuntos centrais e conhecidos do subtema que ainda têm poucas perguntas: uma âncora já usada pode receber outras (até 8 no banco), desde que sobre fatos novos. Não troque fama por raridade.",
   "angulos_rodizio": [
     [
       "nome",

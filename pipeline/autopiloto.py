@@ -103,13 +103,27 @@ def progresso(banco, plano, canon):
         "catalogos": {c["id"]: (est_fig.get(c["id"], {}).get("registradas", 0), c["meta"]) for c in plano["catalogos"]},
         "total": sum(texto.values()) + sum(figura.values()),
         "total_figura": sum(figura.values()),
+        "total_multipla": sum(p["tipo"] == "multipla" for p in banco.perguntas if not p.get("exclusiva")),
     }
+
+
+def fracao_multipla(banco, plano, tema):
+    """Fração de múltipla escolha do próximo lote do tema: o que falta para a meta de múltipla sobre o que falta no
+    total. Assim cada tema caminha para metade aberta e metade múltipla (MANIFESTO §6, desde 2026-10-27), e um modo
+    só de múltipla escolha encontra perguntas em todos os temas."""
+    alvo = plano["meta"]["fracao_multipla"]
+    meta = plano["temas"][tema]["texto"] + plano["temas"][tema]["figura"]
+    ps = [p for p in banco.perguntas if p["tema"] == tema and not p.get("exclusiva")]
+    m = sum(p["tipo"] == "multipla" for p in ps)
+    falta_m, falta_a = max(0, meta * alvo - m), max(0, meta * (1 - alvo) - (len(ps) - m))
+    return falta_m / (falta_m + falta_a) if falta_m + falta_a else alvo
 
 
 def imprimir_progresso(prog, plano):
     meta_total = plano["meta"]["total"]
     print(f"Banco: {prog['total']} de {meta_total} perguntas ({prog['total_figura']} com figura, meta "
-          f"{round(meta_total * plano['meta']['fracao_figura'])}).")
+          f"{round(meta_total * plano['meta']['fracao_figura'])}; {prog['total_multipla']} de múltipla escolha, meta "
+          f"{round(meta_total * plano['meta']['fracao_multipla'])}).")
     temas = {}
     for (t, s), (n, m) in prog["texto"].items():
         a = temas.setdefault(t, [0, 0])
@@ -185,7 +199,7 @@ def lote_figura_pendente(banco):
     return None
 
 
-def criar_encomenda(tema, subtema, plano):
+def criar_encomenda(tema, subtema, plano, banco):
     dados = ler_json(ENCOMENDAS)
     base = slug(f"{tema}_{subtema}")
     anteriores = [e for e in dados["encomendas"] if e["subtema"] == subtema]
@@ -197,9 +211,11 @@ def criar_encomenda(tema, subtema, plano):
     obs = plano["subtemas"][subtema]["orientacao"] + " " + plano["orientacao_geral"]
     if anteriores:
         obs += (f" Este é o lote {n} do subtema: o banco já tem perguntas sobre ele (veja as listas abaixo). Aprofunde: "
-                "procure âncoras e ângulos ainda não usados, sem cair em detalhes obscuros.")
-    enc = {"id": f"{base}_{n:02d}", "tema": tema, "subtema": subtema, "quantidade": plano["lote_texto"]["quantidade"],
-           "multipla": plano["lote_texto"]["multipla"], "angulos_alvo": rodizio[(n - 1) % len(rodizio)],
+                "procure fatos e ângulos ainda não usados, de preferência sobre as âncoras centrais já cadastradas, "
+                "antes de buscar âncoras novas, e sem cair em detalhes obscuros.")
+    qtd = plano["lote_texto"]["quantidade"]
+    enc = {"id": f"{base}_{n:02d}", "tema": tema, "subtema": subtema, "quantidade": qtd,
+           "multipla": round(qtd * fracao_multipla(banco, plano, tema)), "angulos_alvo": rodizio[(n - 1) % len(rodizio)],
            "observacoes": obs, "autopiloto": True}
     dados["encomendas"].append(enc)
     gravar_json(ENCOMENDAS, dados)
@@ -353,7 +369,7 @@ def main():
                     break
                 tipo, alvo = trabalho
                 if tipo == "texto":
-                    enc = criar_encomenda(alvo[0], alvo[1], plano)
+                    enc = criar_encomenda(alvo[0], alvo[1], plano, banco)
                 else:
                     lote_fig = {"id": figuras.proximo_lote_id(banco, alvo["id"]), "catalogo": alvo["id"]}
                     banco.estado["lote_figura_em_andamento"] = lote_fig
@@ -373,7 +389,8 @@ def main():
                 else:
                     cat = next(c for c in plano["catalogos"] if c["id"] == lote_fig["catalogo"])
                     registradas = figuras.executar_lote(cat, banco, canon, rodar.CONFIG, plano["lote_figura"]["quantidade"],
-                                                        lote_fig["id"])
+                                                        lote_fig["id"],
+                                                        fracao_multipla(banco, plano, cat["destinos"][0][0]))
                     n = len(registradas)
                     banco.estado.pop("lote_figura_em_andamento", None)
                     if n == 0 and not figuras.livres(figuras.carregar_catalogo(cat["id"])):

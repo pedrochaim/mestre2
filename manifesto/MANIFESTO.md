@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.75 — 2026-10-23**
+> **Versão preliminar 0.77 — 2026-10-27**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -111,9 +111,9 @@ Cada âncora é registrada com:
 - **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
 
 **Limites por âncora** (o pipeline descarta o que passar deles):
-- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **3 perguntas por âncora** em cada lote (2 até 2026-10-27), nunca com o mesmo ângulo;
 - no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
-- no máximo **5 perguntas por âncora** no banco inteiro (3 até 2026-10-23), somando texto e figura, e no máximo **2 com figura**. As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
+- no máximo **8 perguntas por âncora** no banco inteiro (3 até 2026-10-23, 5 até 2026-10-27), somando texto e figura, e no máximo **3 com figura** (2 até 2026-10-27). As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
 - uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
 
 **Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
@@ -154,6 +154,7 @@ O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação
 - Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
 - **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
 - **Resposta que é um ano ou uma data: sempre `multipla`.** Quando a resposta é um ano específico ("1969") ou uma data mais detalhada ("15 de novembro de 1889", "2 de fevereiro"), a pergunta é obrigatoriamente de múltipla escolha, com ou sem figura. Os distratores são anos (ou datas) próximos e críveis, no mesmo formato da resposta, nenhum deles também correto. A regra vale só quando **a resposta é o próprio ano ou a data**: século e década ("século dezenove", "década de 1970") e respostas em que o ano identifica outra coisa, como uma edição de Olimpíada ou de Copa ("Londres 2012", "1970, no México"), podem continuar abertas.
+- **Metade aberta, metade múltipla escolha** (desde 2026-10-27). O jogo original busca as duas formas na mesma proporção, em cada tema, para que um modo só de múltipla escolha tenha perguntas de todos os temas. Vale para texto e figura. Cada lote recebe a quantidade de `multipla` que aproxima o seu tema dessa meta (§17), e a pergunta segue a quantidade pedida, salvo quando a outra forma for claramente melhor.
 
 ### Distratores
 
@@ -230,7 +231,7 @@ Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20%
 - num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
 - nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
 - uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
-- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+- no máximo **três perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
 
 **7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
 
@@ -264,7 +265,7 @@ Uma pergunta de qualquer tipo pode ter um **trecho de áudio** (campo `audio`), 
 - **Só áudio livre**, porque o repositório e o site são públicos: domínio público, CC0, CC BY ou CC BY-SA, sem NC nem ND. Gravações comerciais de música popular **não entram**: a composição fica protegida até 70 anos depois da morte do autor, e a gravação, até 70 anos depois de publicada. Na música brasileira antiga, a composição e a gravação precisam estar em domínio público no Brasil: autores mortos há mais de 70 anos (Chiquinha Gonzaga, Ernesto Nazareth, Zequinha de Abreu, Catulo da Paixão Cearense, Carlos Gomes) e gravação publicada há mais de 70 anos. *Pelo Telefone*, de Donga (morto em 1974), por exemplo, fica de fora. Boas fontes: os hinos da Banda da Marinha dos EUA e os sons do Serviço de Pesca e Vida Selvagem dos EUA (obras do governo americano, em domínio público), o Musopen e as gravações antigas da Casa Edison, todos no Wikimedia Commons.
 - **O LLM não ouve áudio.** A pergunta sai dos metadados do arquivo (título, descrição, categorias, origem) e das fontes, e **uma pessoa ouve o trecho** antes de ele entrar no banco, na página que o pipeline gera (§17).
 - **O trecho:** de 6 a 30 segundos, escolhido para ser reconhecível (o tema famoso de uma peça, o começo de um hino, o canto típico de uma ave), com entrada e saída suaves e volume igualado. Nas gravações antigas, o trecho pula o anúncio do locutor, que muitas vezes diz o nome da música.
-- **Saturação:** o áudio conta no limite de 5 perguntas por âncora, e cada âncora tem no máximo 1 pergunta com áudio.
+- **Saturação:** o áudio conta no limite de 8 perguntas por âncora, e cada âncora tem no máximo 1 pergunta com áudio.
 - **Resposta específica e justa:** o nome da música, do país, do animal ou do instrumento. Quando o som não permite distinguir a espécie ou o instrumento exato de outros parecidos (uma coruja de outra, o acordeão do bandoneón), a pergunta é `multipla`, sem distratores que soem igual.
 
 ---
@@ -318,8 +319,9 @@ Toda pergunta precisa passar em **todos** os critérios abaixo:
 - No máximo **25% num mesmo ângulo**.
 - Pelo menos **6 ângulos diferentes**.
 - `identidade` + `atributo` somam no máximo **30%**.
-- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
-- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+- No máximo **3 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras centrais e conhecidas**, mesmo que já tenham perguntas, a âncoras novas e obscuras (desde 2026-10-27; antes, "prefira âncoras novas"). O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para aprofundá-las com fatos e ângulos novos, sem repetir fatos.
+- **Tentar incluir uma âncora nova a cada 50 perguntas**, tão conhecida quanto as centrais, para manter alguma variedade. Se for difícil achar uma assim, o lote fica sem: uma âncora nova obscura não vale a troca.
 
 **No banco, por subtema:**
 - `conexao` + `nome` somam pelo menos **20%**.
@@ -528,6 +530,8 @@ O esquema foi construído a partir do esquema do projeto anterior (`info/pergunt
 | Perguntas com figura passam por crítica e checagem de repetidos (§17) | O redator que escreve também aprovava, sem segunda leitura. Uma figura repetiu o fato de uma pergunta de texto (o inventor da pilha de Volta), com outra data |
 | Metas de catálogo de até 40% do tema, escolhidas pelo déficit relativo (§6, §17) | As metas antigas passavam do teto de 40% (pokémon 58%), e o déficit absoluto fazia os catálogos grandes monopolizarem as sessões |
 | Manifesto dividido em duas partes | O gerador e o crítico recebem só as regras de conteúdo (Parte I), sem o ruído de esquemas, processo e histórico |
+| Âncoras centrais em vez de âncoras novas; limites de 8 por âncora, 3 com figura e 3 por lote (§4, §9) | Em 2026-10-27, nenhuma âncora tinha chegado ao limite de 5, e 80% das 10 188 âncoras tinham uma pergunta só, inclusive 568 das 893 mais famosas (dificuldade 1 ou 2), enquanto 35% das perguntas eram de dificuldade 5. O que empurrava para o obscuro era a orientação "prefira âncoras novas", e não o limite. A orientação foi invertida, e os limites subiram para dar folga quando as âncoras centrais começarem a ser aprofundadas. As coleções mantêm os limites próprios |
+| Metade aberta e metade múltipla escolha, por tema (§6, §17) | Prepara um modo de jogo só de múltipla escolha. Com 20% de múltipla nos lotes de texto, o banco tinha 4 185 múltiplas em 12 784 (33%). A fração de cada lote sai do déficit do tema, como a escolha entre texto e figura, e o banco converge sem conversão das abertas existentes |
 
 ---
 
@@ -909,7 +913,7 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 - **`pipeline/plano.json`:** as metas desta seção, a orientação de cada subtema para as encomendas e os catálogos de figura.
 - **`pipeline/autopiloto.py`:** roda sozinho, fora de qualquer conversa. Escolhe o próximo trabalho pelo **tema com menos perguntas no banco**, somando texto e figura (desde 2026-10-02, para os temas atrasados, como Artes e Pensamento, alcançarem os outros); dentro do tema, texto ou figura pelo que falta mais em relação à meta, o subtema pelo déficit absoluto e o catálogo pelo déficit relativo à sua meta, cria a encomenda, executa, exporta e faz um commit local. **Quando a cota do plano acaba, espera até o horário de liberação informado na mensagem ("resets 6:10pm") e retoma da mesma etapa.** **Ele usa no máximo 95% da sessão de 5 horas** (desde 2026-10-02): ao chegar a esse uso, informado pelo próprio Claude Code a cada chamada, espera a sessão renovar, para deixar uma folga para o uso interativo. Só mensagens de cota ou sobrecarga contam como cota; um tempo limite ou outro erro conta como falha, e três falhas seguidas pausam o subtema ou catálogo. Pausa subtemas que rendem pouco e catálogos esgotados. Para parar, cria-se o arquivo `pipeline/PARAR`. Push e deploy, só com a opção `--publicar`.
 - **`pipeline/figuras.py`:** a etapa de figuras, com curadoria dos catálogos pelo LLM, imagem do Wikidata ou do PokéAPI, avaliação pelo Sonnet, que abre cada imagem, e crítica do texto. No primeiro teste (4 bandeiras), as 4 entraram, a cerca de 4 centavos por pergunta.
-- **Saturação:** no máximo 5 perguntas por âncora no banco inteiro (3 até 2026-10-23) e 2 com figura; o gerador recebe as âncoras já muito usadas do tema; uma pergunta nova sobre âncora que já tem perguntas é comparada com elas pelo LLM.
+- **Saturação:** no máximo 8 perguntas por âncora no banco inteiro (3 até 2026-10-23, 5 até 2026-10-27) e 3 com figura; o gerador recebe as âncoras já muito usadas do tema; uma pergunta nova sobre âncora que já tem perguntas é comparada com elas pelo LLM.
 
 ### Sessões
 
@@ -967,6 +971,12 @@ A meta de 10 000 foi cumprida. A próxima leva o **jogo original** (sem as exclu
 
 **Por tema: 2 500 perguntas cada, com a fração de figura que o assunto permite.** Os temas mais visuais ficam perto de 50% de figuras e os outros, perto de 35%. Dentro do tema, o texto continua dividido pelos pesos dos subtemas (`plano.json`). As figuras não têm meta por subtema: elas seguem os catálogos, que apontam para os subtemas visuais. Por isso, Língua Portuguesa, Marcas, Filosofia e Matemática ganham sobretudo texto.
 
+**Aberta e múltipla escolha: 10 000 de cada** (decidido em 2026-10-27, §6). Em cada tema, a meta é metade de cada tipo: 1 250 abertas e 1 250 múltiplas. Em 2026-10-27, o jogo original tinha 8 599 abertas e 4 185 múltiplas, e faltam cerca de 5 800 múltiplas e 1 400 abertas. O autopiloto calcula, a cada lote, a fração de múltipla que falta ao tema (`fracao_multipla` em `autopiloto.py`; meta em `plano.json`, `meta.fracao_multipla`):
+- **Texto:** a encomenda pede essa fração dos 50 (`multipla` da encomenda). Em 2026-10-27, de 35 (Esportes) a 50 (História, que já passou da meta de abertas).
+- **Figura:** essa fração dos itens recebe `tipo_sugerido: multipla`, primeiro os de nível 2, depois os de nível 3 e por último os de nível 1. Os demais recebem `aberta`.
+
+Com a fração ao redor de 80% nos lotes novos, cada tema chega perto de 50% ao alcançar as 2 500 perguntas. História fica com algumas abertas a mais, porque já tem 1 346. Se for preciso fechar a conta antes, a alternativa é converter abertas em múltiplas, acrescentando distratores, como foi feito com as respostas de ano e data (`converter_datas.py`).
+
 | Tema | Texto hoje → meta | Figura hoje → meta | Figura no fim |
 |---|---|---|---|
 | Geografia | 1 129 → 1 300 (+171) | 502 → 1 200 (+698) | 48% |
@@ -978,7 +988,7 @@ A meta de 10 000 foi cumprida. A próxima leva o **jogo original** (sem as exclu
 | Ciências | 987 → 1 650 (+663) | 339 → 850 (+511) | 34% |
 | História | 1 503 → 1 650 (+147) | 435 → 850 (+415) | 34% |
 
-**Texto:** cerca de 85 lotes de 50, com ~40 aproveitadas por lote, a uns US$ 2 por lote (média desde 15/10): **~US$ 180** e umas 12 horas de execução. Com o limite de 5 perguntas por âncora (§4), a profundidade vem de **fatos novos sobre âncoras conhecidas**, e não de âncoras obscuras. A orientação dos subtemas é revista na sessão 1 nesse sentido, como no mutirão de 2026-10-19 ("não troque fama por raridade"). Subtemas estreitos (Américas Pré-Colombianas, Vôlei, Tênis, Basquete) podem parar antes da meta quando o rendimento cair: o autopiloto já os pausa, e a diferença vai para os subtemas com mais assunto.
+**Texto:** cerca de 85 lotes de 50, com ~40 aproveitadas por lote, a uns US$ 2 por lote (média desde 15/10): **~US$ 180** e umas 12 horas de execução. Com o limite de 8 perguntas por âncora (§4; era 5 quando o plano foi aprovado), a profundidade vem de **fatos novos sobre âncoras conhecidas**, e não de âncoras obscuras. A orientação dos subtemas é revista na sessão 1 nesse sentido, como no mutirão de 2026-10-19 ("não troque fama por raridade"). Subtemas estreitos (Américas Pré-Colombianas, Vôlei, Tênis, Basquete) podem parar antes da meta quando o rendimento cair: o autopiloto já os pausa, e a diferença vai para os subtemas com mais assunto.
 
 **Figura:** cerca de 610 lotes de 12, com ~7,6 aproveitadas por lote, a uns 5,5 centavos por pergunta: **~US$ 260** e umas 12 horas de execução. As metas dos catálogos atuais sobem, e entram 21 catálogos novos, dirigidos aos subtemas visuais que ainda têm poucas figuras. Nenhum catálogo passa de 40% das figuras do seu tema (§6).
 
@@ -1048,6 +1058,8 @@ As metas dos catálogos são estimativas. Os catálogos que reprovam muito (est�
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.77 | 2026-10-27 | Âncoras: "prefira âncoras novas" vira "prefira âncoras centrais e conhecidas", com fatos novos, e a tentativa de incluir uma âncora nova a cada 50 perguntas, dispensável se não houver uma conhecida; limites no jogo original de 8 perguntas por âncora (era 5), 3 com figura (era 2) e 3 por lote (era 2); as coleções mantêm os seus (§4, §6, §9, §12, §17) |
+| 0.76 | 2026-10-27 | Metade aberta e metade múltipla escolha no jogo original, em cada tema (10 000 de cada na meta de 20 000), para preparar um modo só de múltipla escolha: a fração de `multipla` de cada lote de texto e de figura sai do déficit do tema; `plano.json` com `meta.fracao_multipla` 0,5; tipo sugerido nos lotes de figura (§6, §12, §17) |
 | 0.75 | 2026-10-23 | Proposta de programação até 20 000 perguntas no jogo original, com ~40% de figuras: metas por tema (2 500 cada, com fração de figura de 34% a 48%), metas dos catálogos atuais, 21 catálogos novos, custo, sessões e pontos de atenção; `plano.json` com as metas novas, `fracao_figura` 0,4 e orientação de texto para fatos novos sobre âncoras conhecidas (§17) |
 | 0.74 | 2026-10-23 | Proporção de perguntas com figura: até cerca de 50% do banco, como orientação e não como critério rígido (era 25%), com fração livre por subtema, maior nos subtemas mais afeitos a figura; `fracao_figura` do `plano.json` em 0,5. Limite por âncora no banco inteiro sobe de 3 para 5 perguntas, somando texto, figura e áudio; continuam 2 com figura, 1 com áudio e 2 por lote (§4, §6, §14, §17) |
 | 0.73 | 2026-10-19 | Mutirão dos subtemas com poucas perguntas: piso de ~90 perguntas de texto e 20 com figura por subtema, os 8 lotes travados de volta à fila, 13 lotes novos com orientação de priorizar o conhecido e 12 catálogos de figura dirigidos aos subtemas vazios; opção `--catalogos` do autopiloto (§17) |

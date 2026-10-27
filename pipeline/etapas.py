@@ -46,9 +46,9 @@ def _resumo(item):
 # bc.SEM_COTA_ANGULOS (as regras do modo dizem o resto).
 VARIEDADE_LOTE = """- No máximo 25% das perguntas num mesmo ângulo, e pelo menos 6 ângulos diferentes.
 - `identidade` + `atributo` somam no máximo 30%.
-- No máximo 2 perguntas por âncora, e nunca duas com o mesmo ângulo sobre a mesma âncora.
+- No máximo 3 perguntas por âncora, e nunca duas com o mesmo ângulo sobre a mesma âncora.
 - Perguntas do mesmo ângulo não devem repetir o mesmo molde de frase (MANIFESTO §5).
-- Prefira âncoras que ainda **não** aparecem na lista abaixo. Profundidade vem de ângulos novos sobre âncoras conhecidas, e não de âncoras obscuras."""
+- **Prefira âncoras centrais e conhecidas**, mesmo que já apareçam na lista abaixo: elas aceitam novas perguntas, sobre fatos e ângulos ainda não usados. Ainda assim, **tente incluir uma âncora nova a cada 50 perguntas**, tão conhecida quanto as da lista; se não achar uma assim, deixe sem. Profundidade vem de fatos novos sobre assuntos conhecidos, e não de âncoras obscuras."""
 VARIEDADE_SEM_COTA = """- **Sem cota de ângulos:** o lote pode se concentrar nos ângulos que o foco pede (regras do modo, no final).
 - No máximo 2 perguntas por âncora, e nunca duas com o mesmo ângulo sobre a mesma âncora.
 - Perguntas do mesmo ângulo não devem repetir o mesmo molde de frase (MANIFESTO §5).
@@ -102,7 +102,7 @@ def montar_prompt_geracao(enc, banco):
         tema=enc["tema"],
         subtema=enc["subtema"],
         quantidade=quantidade,
-        multipla=enc.get("multipla", round(quantidade * 0.2)),
+        multipla=enc.get("multipla", round(quantidade * 0.5)),
         angulos_alvo=", ".join(enc.get("angulos_alvo", [])) or "nenhum em especial; siga as regras de variedade",
         observacoes=enc.get("observacoes") or "nenhuma",
         subtemas_colecao=_bloco_subtemas_colecao(enc),
@@ -396,7 +396,7 @@ def resolver_ancoras(enc, banco, pasta, config):
     finais = []
     angulos_banco = banco.angulos_por_ancora([p for p in banco.perguntas if bc.conta_na_saturacao(p, enc)])
     total_banco = {k: len(v) for k, v in banco.perguntas_por_ancora(enc).items()}
-    limite = bc.limite_por_ancora(enc)
+    limite, max_lote = bc.limite_por_ancora(enc), bc.limite_no_lote(enc)
     conta = f"na coleção {enc['colecao']}" if bc.colecao_exclusiva(enc) else "no banco inteiro"
     no_lote = {}
     for it in itens:
@@ -416,9 +416,9 @@ def resolver_ancoras(enc, banco, pasta, config):
             continue
 
         angulos_lote = no_lote.setdefault(it["ancora"], [])
-        if len(angulos_lote) >= 2 or it["angulo"] in angulos_lote:
+        if len(angulos_lote) >= max_lote or it["angulo"] in angulos_lote:
             registrar_log(enc["id"], "ancoras", "descartada",
-                          "limite por âncora no lote (máx. 2, sem repetir ângulo)", _resumo(it))
+                          f"limite por âncora no lote (máx. {max_lote}, sem repetir ângulo)", _resumo(it))
             continue
         if angulos_banco[it["ancora"]][it["angulo"]] >= 2:
             registrar_log(enc["id"], "ancoras", "descartada",
@@ -519,7 +519,8 @@ def registrar(enc, banco, canon, pasta):
         registradas.append(final)
         numero += 1
 
-    for aviso in bc.avisos_variedade(registradas, cota_angulos=bc.colecao_exclusiva(enc) not in bc.SEM_COTA_ANGULOS):
+    for aviso in bc.avisos_variedade(registradas, cota_angulos=bc.colecao_exclusiva(enc) not in bc.SEM_COTA_ANGULOS,
+                                    por_ancora=bc.limite_no_lote(enc)):
         registrar_log(enc["id"], "variedade", "aviso", aviso)
 
     banco.estado["concluidas"].append(enc["id"])

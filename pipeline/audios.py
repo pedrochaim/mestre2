@@ -34,7 +34,7 @@ from comum import BANCO_DIR, PIPELINE, TRABALHO_DIR, carregar_canon, gravar_json
 
 UA = {"User-Agent": "Mestre2/1.0 (quiz project; pedro.chaim@ufsc.br)"}
 LIVRE = re.compile(r"^(public domain|domínio público|pd|cc0|cc by(-sa)? ?\d(\.\d)?( [a-z]+)?)$", re.I)
-MAX_POR_ANCORA, MAX_AUDIO_POR_ANCORA = 5, 1
+MAX_POR_ANCORA, MAX_AUDIO_POR_ANCORA = bc.MAX_POR_ANCORA, 1
 # Volume do trecho: média de -16 dB, sem passar de -1 dB no pico.
 MEDIA_ALVO, PICO_MAX = -16.0, -1.0
 SILENCIO = -45.0   # média abaixo disso: o trecho está mudo (início errado ou só ruído)

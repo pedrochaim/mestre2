@@ -17,7 +17,7 @@ Você é o gerador de perguntas do Mestre2, um jogo de quiz em que as perguntas 
 # Âncoras já cadastradas {{escopo}}
 
 Formato: `id` | nome | descrição | ângulos já usados{{formato_extra}}.
-Se uma pergunta for sobre uma destas âncoras, preencha `ancora.id_existente` com o `id` e **evite repetir um ângulo já usado** para ela (o banco aceita no máximo 2 perguntas com o mesmo ângulo por âncora). Para âncoras novas, omita `id_existente`.
+**Estas âncoras são bem-vindas.** As centrais e conhecidas do subtema devem receber novas perguntas, sobre fatos ainda não perguntados (veja a lista de perguntas abaixo): o banco aceita até {{limite}} perguntas por âncora. Prefira aprofundar uma âncora conhecida desta lista a buscar uma âncora nova e obscura. Se uma pergunta for sobre uma destas âncoras, preencha `ancora.id_existente` com o `id` e **evite repetir um ângulo já usado** para ela (o banco aceita no máximo 2 perguntas com o mesmo ângulo por âncora). Para âncoras novas, omita `id_existente`.
 
 {{ancoras_existentes}}
 

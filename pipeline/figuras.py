@@ -46,7 +46,6 @@ REGRA_IMAGEM = ("Só entidades com **imagem boa e de licença livre** na Wikipé
 FAMILIAS = {"o_que_e": "identidade", "quem_fez": "autoria", "onde": "lugar", "quando": "tempo",
             "que_parte": "composicao", "que_tipo": "atributo", "com_o_que_se_liga": "conexao"}
 ALVO_NIVEIS = {1: .4, 2: .4, 3: .2}
-MAX_FIGURA_POR_ANCORA = bc.MAX_FIGURA_POR_ANCORA
 MAX_FAMILIA = .6
 LIVRE = re.compile(r"(CC0|CC[- ]BY|public domain|domínio público|\bPD\b|GFDL|FAL|Free Art)", re.I)
 UA = {"User-Agent": "Mestre2/0.1 (quiz; https://github.com/pedrochaim/mestre2)"}
@@ -615,9 +614,10 @@ def proximo_lote_id(banco, cat_id):
     return f"fig_{cat_id}_{len(feitos) + 1:03d}"
 
 
-def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None):
+def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None, fracao_multipla=None):
     """Roda um lote de figuras de um catálogo e devolve as perguntas registradas. Levanta ErroClaude se o LLM
-    falhar; chamar de novo com o mesmo lote retoma do último passo concluído."""
+    falhar; chamar de novo com o mesmo lote retoma do último passo concluído. Com fracao_multipla, essa fração dos
+    itens recebe o tipo sugerido `multipla`, e o resto `aberta` (MANIFESTO §6)."""
     lote_id = lote_id or proximo_lote_id(banco, cat["id"])
     pasta = TRABALHO_DIR / lote_id
     pasta.mkdir(parents=True, exist_ok=True)
@@ -664,7 +664,7 @@ def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None):
                 if any(bc.silhueta(p) for p in da_colecao.get(id_ancora, [])):
                     ent["status"] = "saturada"
                     continue
-            elif len(ps) >= limite or sum(1 for p in ps if "imagem" in p) >= MAX_FIGURA_POR_ANCORA:
+            elif len(ps) >= limite or sum(1 for p in ps if "imagem" in p) >= bc.limite_figura_por_ancora(cat):
                 ent["status"] = "saturada"
                 continue
             prep, motivo = (_preparar_pokemon(ent, pasta, len(itens) + 1) if cat["imagem"] == "pokeapi"
@@ -681,6 +681,12 @@ def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None):
         gravar_json(catalogo_arquivo(cat["id"]), dados)
         for it, (f, nivel) in zip(itens, _sugerir(cat, est["familias"], est["niveis"], len(itens))):
             it["familia_sugerida"], it["nivel_sugerido"] = f, nivel
+        if fracao_multipla is not None:
+            # A múltipla vai primeiro para o nível 2 (distinguir), que já pede alternativas parecidas, depois para o 3.
+            ordem_tipo = sorted(itens, key=lambda it: {2: 0, 3: 1, 1: 2}[it["nivel_sugerido"]])
+            n_mult = round(len(itens) * fracao_multipla)
+            for i, it in enumerate(ordem_tipo):
+                it["tipo_sugerido"] = "multipla" if i < n_mult else "aberta"
         selecao = {"itens": itens}
         gravar_json(sel_arq, selecao)
     itens = selecao["itens"]
@@ -696,7 +702,7 @@ def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None):
         print("  2. avaliação das imagens…", flush=True)
         enunciado = f"- **Enunciado padrão do nível 1:** \"{cat['enunciado']}\"" if cat.get("enunciado") else ""
         entrada = [{k: it[k] for k in ("indice", "nome", "camada", "destino_sugerido", "familia_sugerida", "nivel_sugerido",
-                                        "imagem", "silhueta", "revelacao", "trecho", "fonte") if k in it} for it in itens]
+                                        "tipo_sugerido", "imagem", "silhueta", "revelacao", "trecho", "fonte") if k in it} for it in itens]
         prompt = preencher(ler_texto(PROMPTS_DIR / "figuras.md"), id=cat["id"], descricao=cat["descricao"],
                            destinos=json.dumps({i: f"{t} › {s}" for i, (t, s) in enumerate(cat["destinos"])}, ensure_ascii=False),
                            familias=", ".join(cat["familias"]), enunciado=enunciado,
@@ -908,7 +914,7 @@ def _registrar(cat, itens, avaliacao, critica, banco, canon, lote_id, est, pasta
         if livre and any(bc.silhueta(p) for p in da_colecao.get(id_ancora, [])):
             registrar_log(lote_id, "figuras", "descartada", f"âncora {id_ancora} já tem silhueta", c["resumo"])
             continue
-        if not livre and (len(ps) >= limite or sum(1 for p in ps if "imagem" in p) >= MAX_FIGURA_POR_ANCORA):
+        if not livre and (len(ps) >= limite or sum(1 for p in ps if "imagem" in p) >= bc.limite_figura_por_ancora(cat)):
             registrar_log(lote_id, "figuras", "descartada", f"âncora {id_ancora} saturada", c["resumo"])
             continue
         marcada = {**c["p"], "imagem": {**c["p"]["imagem"], "revelacao": True}} if c["it"].get("revelacao") else c["p"]
