@@ -1,0 +1,266 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida do tenista em quadra, sem texto que entregue o nome.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país este ex-tenista representou na carreira?",
+      "resposta": "Estados Unidos",
+      "distratores": [
+        "Suécia",
+        "Austrália",
+        "Tchecoslováquia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "John McEnroe",
+        "descricao": "Ex-tenista norte-americano, número 1 do mundo e sete vezes campeão de Grand Slam em simples.",
+        "variantes": [
+          "McEnroe",
+          "John Patrick McEnroe Jr."
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato de meio corpo em quadra de grama, só marca de roupa visível, sem nome.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país esta ex-tenista representou na carreira?",
+      "resposta": "Estados Unidos",
+      "distratores": [
+        "Bélgica",
+        "Alemanha",
+        "Suíça"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jennifer Capriati",
+        "descricao": "Ex-tenista norte-americana, campeã olímpica em 1992 e tricampeã de Grand Slam.",
+        "variantes": [
+          "Capriati"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto com o nome.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que país este tenista representa?",
+      "resposta": "Bulgária",
+      "distratores": [
+        "Sérvia",
+        "Croácia",
+        "Romênia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Grigor Dimitrov",
+        "descricao": "Tenista búlgaro, campeão do ATP Finals de 2017 e ex-número 3 do mundo.",
+        "variantes": [
+          "Dimitrov"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto que entregue a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que torneio de Grand Slam esta tenista venceu em 2021, sem perder nenhum set?",
+      "resposta": "US Open",
+      "distratores": [
+        "Wimbledon",
+        "Roland Garros",
+        "Australian Open"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Emma Raducanu",
+        "descricao": "Tenista britânica, campeã do US Open de 2021.",
+        "variantes": [
+          "Raducanu"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido, só marca de roupa; troquei para família com_o_que_se_liga por render pergunta com resposta única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que torneio de Grand Slam este ex-tenista venceu em 2003?",
+      "resposta": "US Open",
+      "distratores": [
+        "Wimbledon",
+        "Roland Garros",
+        "Australian Open"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Andy Roddick",
+        "descricao": "Ex-tenista norte-americano, número 1 do mundo e campeão do US Open de 2003.",
+        "variantes": [
+          "Roddick",
+          "Andrew Stephen Roddick"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto histórica em preto e branco, sem texto; tenista reconhecível por quem conhece o assunto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que grande quadra australiana leva o nome deste ex-tenista?",
+      "resposta": "Rod Laver Arena",
+      "distratores": [
+        "Margaret Court Arena",
+        "John Cain Arena",
+        "Ken Rosewall Arena"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Rod Laver",
+        "descricao": "Ex-tenista australiano, único homem a vencer o Grand Slam duas vezes, em 1962 e 1969.",
+        "variantes": [
+          "Rodney George Laver"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto que entregue a resposta.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país esta ex-tenista representou na carreira?",
+      "resposta": "Espanha",
+      "distratores": [
+        "Argentina",
+        "Itália",
+        "Portugal"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Arantxa Sánchez Vicario",
+        "descricao": "Ex-tenista espanhola, ex-número 1 do mundo e campeã de quatro Grand Slams em simples.",
+        "variantes": [
+          "Arantxa Sanchez Vicario"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A placa na quadra traz 'C. Moya, (ESP)' e entrega o nome e o país."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto com o nome; pessoas ao fundo estão desfocadas.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país este ex-tenista representou na carreira?",
+      "resposta": "Espanha",
+      "distratores": [
+        "Argentina",
+        "França",
+        "Itália"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "David Ferrer",
+        "descricao": "Ex-tenista espanhol, ex-número 3 do mundo e tricampeão da Copa Davis.",
+        "variantes": [
+          "Ferrer"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida da tenista com troféu, sem texto legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que torneio de Grand Slam esta ex-tenista venceu duas vezes, em 2011 e 2014?",
+      "resposta": "Wimbledon",
+      "distratores": [
+        "US Open",
+        "Roland Garros",
+        "Australian Open"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Petra Kvitová",
+        "descricao": "Ex-tenista tcheca, campeã de Wimbledon em 2011 e 2014.",
+        "variantes": [
+          "Kvitova",
+          "Petra Kvitova"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista aérea clara do complexo com estádio central e dezenas de quadras em meio ao deserto, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que complexo de tênis, em meio ao deserto da Califórnia, é este?",
+      "resposta": "Indian Wells Tennis Garden",
+      "distratores": [
+        "Flushing Meadows",
+        "Melbourne Park",
+        "Foro Itálico"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Indian Wells Tennis Garden",
+        "descricao": "Complexo de tênis em Indian Wells, Califórnia, sede do torneio BNP Paribas Open.",
+        "variantes": [
+          "Indian Wells",
+          "Tennis Garden de Indian Wells"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida em quadra de saibro, sem texto que entregue o nome.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país esta ex-tenista representou na carreira?",
+      "resposta": "Sérvia",
+      "distratores": [
+        "Croácia",
+        "Rússia",
+        "Eslováquia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ana Ivanovic",
+        "descricao": "Ex-tenista sérvia, ex-número 1 do mundo e campeã de Roland Garros em 2008.",
+        "variantes": [
+          "Ana Ivanović"
+        ]
+      }
+    }
+  ]
+}
