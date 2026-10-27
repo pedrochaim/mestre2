@@ -338,6 +338,10 @@
     details.tema-info[open] > summary::after { content: "▾"; }
     details.tema-info .nome-tema { flex: 1; font-weight: 700; }
     details.tema-info .num { font-weight: 700; font-variant-numeric: tabular-nums; }
+    details.regras-jogo { --c: var(--acento); }
+    details.regras-jogo .corpo-tema h3 { font-size: .95rem; margin: .9rem 0 .3rem; }
+    details.regras-jogo .corpo-tema ul { margin: .2rem 0 .4rem; padding-left: 1.2rem; }
+    details.regras-jogo .corpo-tema li { margin: .25rem 0; }
     .corpo-tema { padding: 0 1rem .8rem; }
     .corpo-tema > p { margin: 0 0 .5rem; font-size: .95rem; }
     .contagem { color: var(--suave); font-size: .85rem; }
@@ -984,6 +988,42 @@
     topo.append(totais, el("p", { className: "suave", style: "margin:.7rem 0 0",
       textContent: `${geral.audio ? `${numero(geral.audio)} perguntas com áudio, que toca na tela grande. ` : ""}${lista.length} temas e ${lista.reduce((s, t) => s + t.subtemas.length, 0)} subtemas. Toque num tema para ver a descrição e os subtemas.` }));
 
+    // Resumo das regras (MANIFESTO §15 e §16), recolhido como os temas.
+    const regras = el("details", { className: "tema-info regras-jogo" });
+    const resumoRegras = el("summary");
+    resumoRegras.append(el("span", { className: "nome-tema", textContent: "Regras do jogo" }));
+    const corpoRegras = el("div", { className: "corpo-tema" });
+    corpoRegras.innerHTML = `
+      <p>Em grupo, com as perguntas lidas em voz alta. A cada rodada, o jogador da vez responde e o seguinte da fila
+        lê a pergunta no celular. Quem responde nunca vê o texto, só a figura, quando houver.</p>
+      <ul>
+        <li><strong>Acertou</strong>, o peão avança; <strong>errou</strong>, fica onde está.</li>
+        <li>Pergunta <strong>aberta</strong> errada passa ao seguinte da fila, pulando quem lê, até alguém acertar.
+          A de <strong>múltipla escolha</strong> não passa.</li>
+        <li>A partida é <strong>Completa</strong> (abertas e múltipla escolha) ou só de <strong>Múltipla escolha</strong>,
+          escolhida ao criá-la.</li>
+      </ul>
+      <h3>Master</h3>
+      <ul>
+        <li>Cada jogador tem um tema: primeiro percorre o braço dessa cor; depois, o anel central, onde a cor da casa
+          é o tema da pergunta, até voltar ao seu tema.</li>
+        <li>Cada acerto vale uma casa. No centro vem a pergunta final, de qualquer tema: quem acerta vence.</li>
+      </ul>
+      <h3>Linear</h3>
+      <ul>
+        <li>Uma trilha de 32 casas, a mesma para todos. A cor da casa é o tema da pergunta; nas casas ★, qualquer tema.</li>
+        <li>Com a pergunta sai um dado de 1 a 3: quem a recebeu anda esse número de casas se acertar. Quem acerta
+          depois que ela passou adiante anda uma casa.</li>
+        <li>✨ <strong>Dado da sorte:</strong> quem errou as duas últimas perguntas da sua vez tira 3.</li>
+        <li>Vence quem chega primeiro à Chegada.</li>
+      </ul>
+      <h3>Pokémon (modo temático)</h3>
+      <ul>
+        <li>As regras do Linear numa trilha de 60 casas, só com perguntas de pokémon. A casa diz o tipo de pergunta,
+          e o dado da sorte não vale.</li>
+      </ul>`;
+    regras.append(resumoRegras, corpoRegras);
+
     const blocos = lista.map(t => {
       const doTema = perguntas.filter(p => p.tema === t.tema);
       const c = contar(doTema);
@@ -1019,7 +1059,7 @@
     const sons = Object.values(await carregandoSons).flat();
     const autores = [...new Set(sons.map(s => [s.autor, s.licenca].filter(Boolean).join(", ")).filter(Boolean))];
     if (autores.length && experimental) credito.append(el("br"), `Efeitos sonoros: ${autores.join("; ")}.`);
-    caixa.replaceChildren(topo, ...blocos, credito);
+    caixa.replaceChildren(topo, regras, ...blocos, credito);
   }
 
   desenharInfo($("aba-info"));
