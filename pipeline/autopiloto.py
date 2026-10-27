@@ -107,14 +107,20 @@ def progresso(banco, plano, canon):
     }
 
 
+FOCO_MULTIPLA = False  # --foco-multipla
+
+
 def fracao_multipla(banco, plano, tema):
     """Fração de múltipla escolha do próximo lote do tema: o que falta para a meta de múltipla sobre o que falta no
     total. Assim cada tema caminha para metade aberta e metade múltipla (MANIFESTO §6, desde 2026-10-27), e um modo
-    só de múltipla escolha encontra perguntas em todos os temas."""
+    só de múltipla escolha encontra perguntas em todos os temas. Com --foco-multipla, os lotes do tema saem só de
+    múltipla escolha enquanto ele tiver menos múltiplas que abertas, para chegar a 50/50 já no banco de hoje."""
     alvo = plano["meta"]["fracao_multipla"]
     meta = plano["temas"][tema]["texto"] + plano["temas"][tema]["figura"]
     ps = [p for p in banco.perguntas if p["tema"] == tema and not p.get("exclusiva")]
     m = sum(p["tipo"] == "multipla" for p in ps)
+    if FOCO_MULTIPLA and m < len(ps) - m:
+        return 1.0
     falta_m, falta_a = max(0, meta * alvo - m), max(0, meta * (1 - alvo) - (len(ps) - m))
     return falta_m / (falta_m + falta_a) if falta_m + falta_a else alvo
 
@@ -320,7 +326,11 @@ def main():
     ap.add_argument("--retomar", metavar="LOTE", help="devolve à fila um lote abandonado e tira a pausa da fila dele")
     ap.add_argument("--limite-sessao", type=float, default=95,
                     help="uso máximo da sessão de 5 horas, em %%, antes de esperar a renovação (100 = até a cota acabar)")
+    ap.add_argument("--foco-multipla", action="store_true",
+                    help="lotes só de múltipla escolha nos temas com menos múltiplas que abertas")
     args = ap.parse_args()
+    global FOCO_MULTIPLA
+    FOCO_MULTIPLA = args.foco_multipla
     claude_cli.LIMITE_SESSAO = None if args.limite_sessao >= 100 else args.limite_sessao / 100
     catalogos = set(args.catalogos.split(",")) if args.catalogos else None
     so = "texto" if args.so_texto else "figuras" if args.so_figuras or catalogos else None
@@ -348,7 +358,8 @@ def main():
 
     trava()
     feitos, falhas = 0, {}
-    diario("inicio", pid=os.getpid(), max=args.max, so=so, limite_sessao=claude_cli.LIMITE_SESSAO)
+    diario("inicio", pid=os.getpid(), max=args.max, so=so, limite_sessao=claude_cli.LIMITE_SESSAO,
+           foco_multipla=FOCO_MULTIPLA)
     try:
         while True:
             if PARAR.exists():

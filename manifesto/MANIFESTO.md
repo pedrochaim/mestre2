@@ -980,7 +980,7 @@ A meta de 10 000 foi cumprida. A próxima leva o **jogo original** (sem as exclu
 - **Texto:** a encomenda pede essa fração dos 50 (`multipla` da encomenda). Em 2026-10-27, de 35 (Esportes) a 50 (História, que já passou da meta de abertas).
 - **Figura:** essa fração dos itens recebe `tipo_sugerido: multipla`, primeiro os de nível 2, depois os de nível 3 e por último os de nível 1. Os demais recebem `aberta`.
 
-Com a fração ao redor de 80% nos lotes novos, cada tema chega perto de 50% ao alcançar as 2 500 perguntas. História fica com algumas abertas a mais, porque já tem 1 346. Se for preciso fechar a conta antes, a alternativa é converter abertas em múltiplas, acrescentando distratores, como foi feito com as respostas de ano e data (`converter_datas.py`).
+Com a fração ao redor de 80% nos lotes novos, cada tema chega perto de 50% ao alcançar as 2 500 perguntas. Com `--foco-multipla` (2026-10-27), o autopiloto faz os lotes de um tema só de múltipla escolha enquanto ele tiver menos múltiplas que abertas, para chegar a 50/50 já no banco atual, e depois volta à fração pelo déficit. História fica com algumas abertas a mais, porque já tem 1 346. Se for preciso fechar a conta antes, a alternativa é converter abertas em múltiplas, acrescentando distratores, como foi feito com as respostas de ano e data (`converter_datas.py`).
 
 | Tema | Texto hoje → meta | Figura hoje → meta | Figura no fim |
 |---|---|---|---|
