@@ -1,0 +1,40 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a espécie é nativa do Sudeste Asiático. O enunciado não vaza a resposta e os distratores são regiões plausíveis de outros primatas.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o gorila vive na África central. A pergunta é de nível 1, tem resposta única e os distratores são continentes plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz 'da Rússia', mas os distratores são de outros países (República Tcheca, Itália, França). Dá para acertar por eliminação sem olhar a figura. A idade 'cerca de trinta mil anos' também é imprecisa, porque os trechos falam em 34 mil a 30 mil anos. Reescrevi sem a idade e com distratores russos.",
+      "reescrita": {
+        "pergunta": "Que sítio arqueológico russo do Paleolítico Superior é este?",
+        "resposta": "Sungir",
+        "distratores": [
+          "Kostenki",
+          "Mal'ta",
+          "Caverna de Denisova"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Hylobates lar também se chama gibão-de-mãos-brancas. O enunciado não entrega nada e os distratores são outras espécies de gibão, nenhuma delas correta.",
+      "reescrita": null
+    }
+  ]
+}

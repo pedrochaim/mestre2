@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que espécie de primata é esta?",
+        "resposta": "Gibão-de-mãos-brancas"
+      },
+      "existentes": [
+        {
+          "id": "q05538",
+          "pergunta": "Que primata é este?",
+          "resposta": "Gibão-de-mãos-brancas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q05538",
+      "motivo": "Ambas pedem identificar o mesmo primata (imagem) com a mesma resposta, Gibão-de-mãos-brancas."
+    }
+  ]
+}

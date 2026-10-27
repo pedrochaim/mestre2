@@ -1,0 +1,141 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Diagrama anatômico genérico de esqueleto humano, não é fóssil nem espécie; nenhuma pergunta das famílias permitidas rende bem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de gibão negro de bochechas brancas; pergunta de região é justa.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que região do mundo vive este primata?",
+      "resposta": "Sudeste Asiático",
+      "distratores": [
+        "África Central",
+        "Amazônia",
+        "Madagascar"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gibão-de-bochechas-brancas-do-norte",
+        "descricao": "Espécie de gibão criticamente ameaçada (Nomascus leucogenys), nativa do Sudeste Asiático.",
+        "variantes": [
+          "Nomascus leucogenys",
+          "Northern white-cheeked gibbon"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Prancha com vários painéis rotulados (a a i), barras de escala e reconstruções 3D; não mostra uma entidade clara."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Conjunto heterogêneo de artefatos de várias épocas e tipos, sem resposta única nem época identificável; baixa resolução."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto escura, borrada e atrás de vidro; não permite reconhecer Colo, e um gorila qualquer seria indistinguível."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Ilustração de um primata genérico; a imagem não permite reconhecer o Aegyptopithecus nem dá resposta única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de gorila, claramente reconhecível como grande primata africano.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que continente vive este grande primata?",
+      "resposta": "África",
+      "distratores": [
+        "Ásia",
+        "América do Sul",
+        "Oceania"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gorila-ocidental-das-terras-baixas",
+        "descricao": "Subespécie de gorila (Gorilla gorilla gorilla) da África central, a mais comum em zoológicos.",
+        "variantes": [
+          "Gorilla gorilla gorilla",
+          "Western lowland gorilla"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida do sepultamento coberto de contas, característico e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sítio arqueológico da Rússia é este, com um sepultamento de cerca de trinta mil anos?",
+      "resposta": "Sungir",
+      "distratores": [
+        "Dolní Věstonice",
+        "Arene Candide",
+        "Cro-Magnon"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sungir",
+        "descricao": "Sítio arqueológico do Paleolítico Superior perto de Vladimir, na Rússia, famoso por sepultamentos ricos em contas.",
+        "variantes": [
+          "Sunghir"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem minúscula de um único osso (fêmur) sem contexto; não reconhecível nem legível no celular."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de gibão-de-mãos-brancas, com mãos e anel facial claros.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que espécie de primata é esta?",
+      "resposta": "Gibão-de-mãos-brancas",
+      "distratores": [
+        "Gibão-prateado",
+        "Gibão-de-Müller",
+        "Gibão-de-crista-negra"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gibão-de-mãos-brancas",
+        "descricao": "Gibão ameaçado (Hylobates lar) do Sudeste Asiático, com mãos e pés claros e anel branco no rosto.",
+        "variantes": [
+          "Gibão-lar",
+          "Hylobates lar",
+          "Lar gibbon",
+          "White-handed gibbon"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem mostra um molar de museu (dente denisovano), não o crânio de Harbin; não é possível reconhecer a espécie por um dente, e a resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução; a subespécie não é reconhecível e não fica legível no celular."
+    }
+  ]
+}
