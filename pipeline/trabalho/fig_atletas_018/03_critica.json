@@ -1,0 +1,78 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. Os distratores são atacantes brasileiros críveis e a figura decide a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pelo teste da imagem coberta, só o enunciado já leva à resposta: goleiro brasileiro campeão da Liga dos Campeões de 2023 e clube inglês. A figura virou enfeite. Reescrita como reconhecimento direto.",
+      "reescrita": {
+        "pergunta": "Quem é este goleiro brasileiro?",
+        "resposta": "Ederson",
+        "distratores": [
+          "Alisson",
+          "Weverton",
+          "Bento"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado é impreciso: 'em 2024 e 2025' não confere com os títulos, que são da temporada 2024–25 e de janeiro de 2025. Além disso, o enunciado já entrega a resposta (Barcelona) sem a figura. Reescrita como reconhecimento direto.",
+      "reescrita": {
+        "pergunta": "Quem é este atacante brasileiro?",
+        "resposta": "Raphinha",
+        "distratores": [
+          "Vinícius Júnior",
+          "Richarlison",
+          "Antony"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista da prata olímpica em 2004 e 2008 também descreve Marta e Formiga, que são distratores. Isso fere a resposta única e a regra de que nenhum distrator pode ser correto. Reescrita sem a pista e com distratores da mesma seleção.",
+      "reescrita": {
+        "pergunta": "Quem é esta atacante da seleção brasileira feminina?",
+        "resposta": "Cristiane",
+        "distratores": [
+          "Debinha",
+          "Formiga",
+          "Sissi"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento com pista só de posição e nacionalidade, que não entrega o nome. Os distratores são belgas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado é verdadeiro (Bale saiu do Tottenham em 2013), mas pelo teste da imagem coberta ele se responde sem a figura: jogador galês que deixou um clube londrino em 2013 para a Espanha. Reescrita como reconhecimento.",
+      "reescrita": {
+        "pergunta": "Quem é este jogador galês?",
+        "resposta": "Gareth Bale",
+        "distratores": [
+          "Aaron Ramsey",
+          "Ryan Giggs",
+          "Craig Bellamy"
+        ]
+      }
+    }
+  ]
+}

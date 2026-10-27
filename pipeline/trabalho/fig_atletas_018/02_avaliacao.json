@@ -1,0 +1,172 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem nome visível (só número 19 sem nome).",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é este atacante da seleção brasileira?",
+      "resposta": "Endrick",
+      "distratores": [
+        "Vinícius Júnior",
+        "Rodrygo",
+        "Gabriel Jesus"
+      ],
+      "ancora": {
+        "nome": "Endrick",
+        "descricao": "Atacante brasileiro nascido em 2006, revelado pelo Palmeiras e contratado pelo Real Madrid.",
+        "variantes": [
+          "Endrick Felipe"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Rosto legível com camisa da seleção; a pergunta vai além do nome e a resposta é única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este goleiro brasileiro conquistou a Liga dos Campeões em 2023. Por qual clube inglês?",
+      "resposta": "Manchester City",
+      "distratores": [
+        "Liverpool",
+        "Chelsea",
+        "Arsenal"
+      ],
+      "ancora": {
+        "nome": "Ederson",
+        "descricao": "Goleiro brasileiro, ex-Benfica e Manchester City, que atua na seleção brasileira.",
+        "variantes": [
+          "Ederson Moraes"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "É uma ilustração estilizada, não reconhecível como a atleta; a legenda 'Paris 2024' ainda dá pista de texto."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, camisa 11 sem nome; pergunta de conexão com o clube.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este atacante brasileiro foi campeão espanhol, da Copa do Rei e da Supercopa em 2024 e 2025. Por qual clube?",
+      "resposta": "Barcelona",
+      "distratores": [
+        "Real Madrid",
+        "Atlético de Madrid",
+        "Sevilla"
+      ],
+      "ancora": {
+        "nome": "Raphinha",
+        "descricao": "Atacante brasileiro, jogador do Barcelona e da seleção brasileira, ex-Leeds United.",
+        "variantes": [
+          "Raphael Dias Belloli"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto de ação com a seleção feminina, sem nome visível; figura pública.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esta atacante da seleção brasileira feminina, vice-campeã olímpica em 2004 e 2008?",
+      "resposta": "Cristiane",
+      "distratores": [
+        "Marta",
+        "Formiga",
+        "Sissi"
+      ],
+      "ancora": {
+        "nome": "Cristiane",
+        "descricao": "Atacante brasileira de futebol, medalhista de prata olímpica em 2004 e 2008.",
+        "variantes": [
+          "Cristiane Rozeira"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Retrato de idoso de terno, sem nenhum elemento que permita reconhecer o jogador; não é identificável."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública; sem nome legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é este meio-campista da seleção belga?",
+      "resposta": "Kevin De Bruyne",
+      "distratores": [
+        "Eden Hazard",
+        "Axel Witsel",
+        "Dries Mertens"
+      ],
+      "ancora": {
+        "nome": "Kevin De Bruyne",
+        "descricao": "Meio-campista belga, estrela do Manchester City e da seleção da Bélgica.",
+        "variantes": [
+          "De Bruyne"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Rosto baixo e pouco visível, camisa do Chelsea sem número; jogador não é reconhecível com segurança pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Condutor da tocha olímpica, pouco conhecido, sem elemento que permita reconhecer; texto 'Rio' na camisa."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Texto visível no fundo (CHAVEZ, MGM Grand, Las Vegas, HBO PPV) revela o contexto e a luta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto de coletiva com outras pessoas em volta e microfones com logos; reconhecimento difícil e fraco."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido e reconhecível pelo coque; pergunta sobre o clube anterior, sem entregar pela jaqueta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este jogador galês deixou qual clube londrino em 2013 para jogar na Espanha?",
+      "resposta": "Tottenham Hotspur",
+      "distratores": [
+        "Arsenal",
+        "Chelsea",
+        "West Ham"
+      ],
+      "ancora": {
+        "nome": "Gareth Bale",
+        "descricao": "Ex-jogador galês de futebol, ponta do Tottenham, Real Madrid e da seleção de Gales.",
+        "variantes": [
+          "Bale"
+        ]
+      }
+    }
+  ]
+}
