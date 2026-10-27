@@ -1,0 +1,102 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A foto mostra um gorila qualquer num zoológico; nada permite reconhecer Harambe, e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Retrato de um senhor sem contexto que o identifique; o rosto não é reconhecível pelo público e a pergunta não se sustenta pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Retrato com um filhote de orangotango; a pessoa não é reconhecível e o animal visível entregaria qualquer pergunta sobre o seu campo de estudo."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Fragmento ósseo isolado, sem forma reconhecível; não permite identificar a espécie nem ser distinguido de outros fósseis."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Retrato antigo em preto e branco com assinatura ilegível; a pessoa não é reconhecível pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Escavação com muitas pessoas em primeiro plano e sem traço que identifique o sítio; o local não é reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto de uma área de escavação sem traços característicos, com pessoas ao fundo; o sítio não é reconhecível pela imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Calota craniana vista de ângulo incomum e sem contexto; não é reconhecível e pode ser confundida com outros crânios de Homo erectus."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto da entrada da caverna, sem texto; é uma imagem de aficionado, mas serve a um nível 3 em múltipla escolha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta caverna siberiana, nas montanhas Altai, deu nome a que grupo de hominídeos extintos?",
+      "resposta": "Denisovanos",
+      "distratores": [
+        "Neandertais",
+        "Homo floresiensis",
+        "Homo heidelbergensis"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caverna de Denisova",
+        "descricao": "Caverna nas montanhas Altai, na Sibéria, Rússia, onde foram achados restos do hominídeo de Denisova.",
+        "variantes": [
+          "Denisova Cave",
+          "Caverna Denisova"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Prancha com três vistas do crânio e setas numeradas; é uma figura técnica com marcações e o fóssil não é reconhecível."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto comum de uma senhora sentada, sem contexto; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Crânio da Criança de Taung em duas vistas do mesmo fóssil, fundo preto, sem texto; reconhecível por aficionados e adequado à múltipla escolha com australopitecos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este crânio de criança, achado na África do Sul, pertence a que espécie de australopiteco?",
+      "resposta": "Australopithecus africanus",
+      "distratores": [
+        "Australopithecus afarensis",
+        "Australopithecus sediba",
+        "Paranthropus robustus"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Australopithecus africanus",
+        "descricao": "Espécie extinta de australopiteco da África do Sul, conhecida pela Criança de Taung, cujo crânio aparece na imagem.",
+        "variantes": [
+          "A. africanus",
+          "Criança de Taung"
+        ]
+      }
+    }
+  ]
+}

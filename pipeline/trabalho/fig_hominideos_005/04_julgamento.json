@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Australopithecus africanus",
+        "descricao": "Espécie extinta de australopiteco da África do Sul, conhecida pela Criança de Taung, cujo crânio aparece na imagem.",
+        "variantes": [
+          "A. africanus",
+          "Criança de Taung"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "crianca_de_taung",
+          "nome": "Criança de Taung",
+          "descricao": "Crânio fóssil de um jovem Australopithecus africanus encontrado em Taung, na África do Sul, em 1924.",
+          "variantes": [
+            "Taung Child",
+            "Taung 1",
+            "Bebê de Taung"
+          ]
+        },
+        {
+          "id": "australopithecus_afarensis",
+          "nome": "Australopithecus afarensis",
+          "descricao": "Espécie de hominídeo extinto da África Oriental, que viveu há cerca de 3,9 a 2,9 milhões de anos, à qual pertence o fóssil Lucy.",
+          "variantes": [
+            "A. afarensis"
+          ]
+        },
+        {
+          "id": "leao_o_africano",
+          "nome": "Leão, o Africano",
+          "descricao": "Diplomata e viajante do século dezesseis, autor de uma célebre descrição da África, nascido al-Hasan al-Wazzan.",
+          "variantes": [
+            "Leo Africanus",
+            "Hasan al-Wazzan",
+            "Leão Africano"
+          ]
+        },
+        {
+          "id": "engis_2",
+          "nome": "Engis 2",
+          "descricao": "Crânio parcial de uma criança neandertal achado em 1829 na caverna de Engis, na Bélgica, só reconhecido como neandertal no século vinte.",
+          "variantes": [
+            "Criança de Engis",
+            "Crânio de Engis"
+          ]
+        },
+        {
+          "id": "paranthropus_robustus",
+          "nome": "Paranthropus robustus",
+          "descricao": "Espécie extinta de australopitecino robusto do Pleistoceno inicial da África do Sul, descrita em 1938.",
+          "variantes": [
+            "Australopithecus robustus"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A proposta é a espécie Australopithecus africanus; a candidata Criança de Taung é um fóssil específico (espécime) dessa espécie, entidade distinta. As demais são outras espécies ou pessoas."
+    }
+  ]
+}

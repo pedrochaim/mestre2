@@ -1,0 +1,26 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Teste da imagem coberta falha: 'caverna siberiana nas montanhas Altai' + 'deu nome a grupo de hominídeos' já entrega Denisova/denisovanos sem olhar a figura. Além disso, a foto de uma caverna dificilmente permite reconhecê-la visualmente, e a resposta deriva do nome da própria entidade. Sem conserto limpo.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto (Criança de Taung, A. africanus, descrita em 1924). Mas o distrator Australopithecus sediba também tem crânio de criança (Karabo) achado na África do Sul, e Paranthropus robustus também é sul-africano; o enunciado textual não os exclui. Troquei os distratores por australopitecos de outras regiões e ancorei a pergunta em 1924 (descrição de Dart), sem nomear a espécie.",
+      "reescrita": {
+        "pergunta": "Este crânio, descrito em 1924 por Raymond Dart a partir de um achado na África do Sul, pertence a que espécie de australopiteco?",
+        "resposta": "Australopithecus africanus",
+        "distratores": [
+          "Australopithecus afarensis",
+          "Australopithecus garhi",
+          "Australopithecus anamensis"
+        ]
+      }
+    }
+  ]
+}
