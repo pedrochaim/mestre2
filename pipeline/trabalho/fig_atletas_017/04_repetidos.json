@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Antes de ser campeão no UFC, este lutador brasileiro foi campeão em qual esporte de combate?",
+        "resposta": "Kickboxing"
+      },
+      "existentes": [
+        {
+          "id": "q15059",
+          "pergunta": "Quem é este lutador brasileiro?",
+          "resposta": "Alex Poatan"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Esta lutadora brasileira de MMA, campeã do UFC, é conhecida por qual apelido?",
+        "resposta": "A Leoa"
+      },
+      "existentes": [
+        {
+          "id": "q15056",
+          "pergunta": "Quem é esta lutadora brasileira?",
+          "resposta": "Amanda Nunes"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta a identidade do lutador; a nova pergunta o esporte em que foi campeão antes (kickboxing). Fatos diferentes, e saber o nome não implica responder ao esporte de forma garantida."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A existente pergunta o nome da lutadora; a nova pergunta o apelido dela. São fatos distintos."
+    }
+  ]
+}

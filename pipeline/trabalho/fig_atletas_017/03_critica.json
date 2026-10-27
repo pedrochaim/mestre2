@@ -1,0 +1,91 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam estreia profissional no Corinthians; distratores plausíveis e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Teste da imagem coberta: 'maior artilheiro de um clube inglês' sendo argentino já entrega Agüero e a resposta; a figura vira enfeite. Troquei por um fato que exige reconhecer a pessoa.",
+      "reescrita": {
+        "pergunta": "Antes de ir para a Inglaterra, este atacante argentino jogou em qual clube espanhol?",
+        "resposta": "Atlético de Madrid",
+        "distratores": [
+          "Barcelona",
+          "Valencia",
+          "Sevilla"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido 'Joker' está no trecho; pergunta exige reconhecer o jogador; distratores são apelidos de outros astros da NBA.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Lucarelli (distrator) também é ponteiro campeão olímpico no Rio 2016, e Maurício Souza também foi campeão; distratores corretos. Troquei os distratores por jogadores que não foram campeões no Rio.",
+      "reescrita": {
+        "pergunta": "Quem é este ponteiro da seleção brasileira de vôlei, campeão olímpico no Rio de Janeiro?",
+        "resposta": "Douglas Souza",
+        "distratores": [
+          "Yoandy Leal",
+          "Alan Souza",
+          "Evandro Guerra"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam carreira e título no kickboxing (WGP) antes do UFC; distratores não são títulos dele.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma formação nas categorias de base do Sevilla; sem vazamento; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam canoagem slalom; pergunta depende da figura; distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que Rodrygo foi formado no Santos; distratores plausíveis e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Ser campeã em peso-galo e peso-pena entrega Amanda Nunes sem olhar a figura (feito único). Troquei por pergunta de apelido, que exige reconhecê-la.",
+      "reescrita": {
+        "pergunta": "Esta lutadora brasileira de MMA, campeã do UFC, é conhecida por qual apelido?",
+        "resposta": "A Leoa",
+        "distratores": [
+          "A Tigresa",
+          "A Pantera",
+          "A Onça"
+        ]
+      }
+    }
+  ]
+}

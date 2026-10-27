@@ -1,0 +1,233 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto de rosto, camisa da seleção com número 4 sem nome; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este zagueiro brasileiro começou a carreira profissional em qual clube?",
+      "resposta": "Corinthians",
+      "distratores": [
+        "Santos",
+        "São Paulo",
+        "Flamengo"
+      ],
+      "ancora": {
+        "nome": "Marquinhos",
+        "descricao": "Zagueiro brasileiro, capitão da seleção brasileira, formado no Corinthians e jogador do Paris Saint-Germain.",
+        "variantes": [
+          "Marcos Aoás Corrêa"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Rosto coberto por boné e óculos escuros; não é reconhecível pela imagem e há muitas marcas de patrocinadores."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto de perfil numa praia, sem elementos que permitam reconhecer a surfista; não reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Rosto claro, sem texto que entregue o nome; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este atacante argentino é o maior artilheiro da história de qual clube inglês?",
+      "resposta": "Manchester City",
+      "distratores": [
+        "Manchester United",
+        "Tottenham",
+        "Arsenal"
+      ],
+      "ancora": {
+        "nome": "Sergio Agüero",
+        "descricao": "Ex-atacante argentino, ídolo e maior artilheiro da história do Manchester City.",
+        "variantes": [
+          "Kun Agüero",
+          "Sergio Leonel Agüero del Castillo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida de jogador famoso; só aparece o nome da equipe e o número 15, que não entregam a resposta pedida (apelido).",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Qual é o apelido deste pivô sérvio?",
+      "resposta": "Joker",
+      "distratores": [
+        "Greek Freak",
+        "The Beard",
+        "King James"
+      ],
+      "ancora": {
+        "nome": "Nikola Jokić",
+        "descricao": "Pivô sérvio do Denver Nuggets, três vezes MVP da NBA.",
+        "variantes": [
+          "Nikola Jokic",
+          "Joker"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Jogador com camisa da seleção, número 14 sem nome; reconhecível; outra pessoa ao fundo é secundária.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quem é este ponteiro da seleção brasileira de vôlei, campeão olímpico no Rio de Janeiro?",
+      "resposta": "Douglas Souza",
+      "distratores": [
+        "Lucarelli",
+        "Maurício Souza",
+        "Evandro Guerra"
+      ],
+      "ancora": {
+        "nome": "Douglas Souza",
+        "descricao": "Jogador de vôlei brasileiro, ponteiro, campeão olímpico em 2016.",
+        "variantes": [
+          "Douglas Correia de Souza"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato de corpo inteiro, sem texto com o nome; figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 6,
+      "pergunta": "Antes de ser campeão no UFC, este lutador brasileiro foi campeão em qual esporte de combate?",
+      "resposta": "Kickboxing",
+      "distratores": [
+        "Boxe",
+        "Judô",
+        "Jiu-jítsu"
+      ],
+      "ancora": {
+        "nome": "Alex Pereira",
+        "descricao": "Lutador brasileiro de MMA e ex-kickboxer, campeão do UFC em duas categorias.",
+        "variantes": [
+          "Alex Poatan",
+          "Poatã",
+          "Alex Sandro Silva Pereira"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O macacão traz \"O.PIASTRI\" legível, o que entrega o nome."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Rosto nítido, sem texto; reconhecível pela barba e pelo cabelo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que clube espanhol revelou este zagueiro nas categorias de base?",
+      "resposta": "Sevilla",
+      "distratores": [
+        "Real Betis",
+        "Valencia",
+        "Villarreal"
+      ],
+      "ancora": {
+        "nome": "Sergio Ramos",
+        "descricao": "Zagueiro espanhol, revelado no Sevilla e ídolo do Real Madrid.",
+        "variantes": [
+          "Sergio Ramos García"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Atleta com capacete e caiaque; patrocinador não entrega o nome; a pergunta pede a modalidade.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 5,
+      "pergunta": "Que modalidade olímpica esta atleta pratica?",
+      "resposta": "Canoagem slalom",
+      "distratores": [
+        "Remo",
+        "Canoagem de velocidade",
+        "Triatlo"
+      ],
+      "ancora": {
+        "nome": "Ana Sátila",
+        "descricao": "Canoísta brasileira de slalom, participante de várias Olimpíadas.",
+        "variantes": [
+          "Ana Satila",
+          "Ana Sátila Vieira Vargas"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida do jogador, sem nome na camisa.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que clube brasileiro revelou este atacante?",
+      "resposta": "Santos",
+      "distratores": [
+        "Palmeiras",
+        "São Paulo",
+        "Flamengo"
+      ],
+      "ancora": {
+        "nome": "Rodrygo",
+        "descricao": "Atacante brasileiro revelado no Santos e jogador do Real Madrid.",
+        "variantes": [
+          "Rodrygo Goes",
+          "Rodrygo Silva de Goes"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto de pesagem do UFC, sem o nome dela visível (só parte de outro nome parcial ao fundo).",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 6,
+      "pergunta": "Esta lutadora brasileira foi campeã do UFC no peso-galo e em qual outra categoria?",
+      "resposta": "Peso-pena",
+      "distratores": [
+        "Peso-mosca",
+        "Peso-palha",
+        "Peso-meio-pesado"
+      ],
+      "ancora": {
+        "nome": "Amanda Nunes",
+        "descricao": "Lutadora brasileira de MMA, campeã do UFC nas categorias peso-galo e peso-pena feminino.",
+        "variantes": [
+          "Amanda Lourenço Nunes",
+          "Leoa"
+        ]
+      }
+    }
+  ]
+}
