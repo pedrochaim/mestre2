@@ -1,0 +1,464 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Das quatro Tartarugas Ninja, qual tem o pavio mais curto, sempre esquentada e rebelde, usando faixa vermelha?",
+        "resposta": "Rafael"
+      },
+      "existentes": [
+        {
+          "id": "q08879",
+          "pergunta": "As Tartarugas Ninja, criadas em quadrinhos em 1984, têm nomes de artistas de qual período da história da arte?",
+          "resposta": "Renascimento"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No desenho Os Jetsons, quem é o mais novo dos dois filhos de George e Jane?",
+        "resposta": "Elroy"
+      },
+      "existentes": [
+        {
+          "id": "q01125",
+          "pergunta": "Que estúdio de animação criou tanto Os Flintstones, na Idade da Pedra, quanto Os Jetsons, no futuro?",
+          "resposta": "Hanna-Barbera"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "No Castelo Rá-Tim-Bum, qual personagem é a mais velha de todas, com seis mil anos de idade?",
+        "resposta": "Morgana"
+      },
+      "existentes": [
+        {
+          "id": "q01142",
+          "pergunta": "No Castelo Rá-Tim-Bum, quantos anos tem o aprendiz de feiticeiro Nino?",
+          "resposta": "300 anos"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "No Sítio do Picapau Amarelo, a boneca Emília, que ganhou o dom da fala, foi feita por Tia Nastácia com que material?",
+        "resposta": "Pano"
+      },
+      "existentes": [
+        {
+          "id": "q06033",
+          "pergunta": "Ao se casar com o leitão Rabicó, a boneca Emília, do Sítio do Picapau Amarelo, ganhou que título de nobreza?",
+          "resposta": "Marquesa"
+        },
+        {
+          "id": "q06041",
+          "pergunta": "Nas histórias de Monteiro Lobato, a boneca Emília começou a falar depois de engolir o quê?",
+          "resposta": "Uma pílula do Doutor Caramujo"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Além das anteninhas de vinil, que arma faz parte do equipamento do Chapolin Colorado para bater nos vilões?",
+        "resposta": "Marreta biônica"
+      },
+      "existentes": [
+        {
+          "id": "q04840",
+          "pergunta": "Que ator interpreta o herói de vermelho nesta cena?",
+          "resposta": "Roberto Gómez Bolaños (Chespirito)"
+        },
+        {
+          "id": "q04893",
+          "pergunta": "No nome original do herói, El Chapulín Colorado, a palavra chapulín designa que inseto no espanhol do México?",
+          "resposta": "Gafanhoto"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Na famosa abertura de Friends, os seis amigos aparecem dançando, com guarda-chuvas, dentro de quê?",
+        "resposta": "Uma fonte"
+      },
+      "existentes": [
+        {
+          "id": "q01143",
+          "pergunta": "Quantas temporadas teve a série Friends, encerrada em 2004?",
+          "resposta": "Dez"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em mil novecentos e sessenta e nove, Cid Moreira apresentou a primeira edição do Jornal Nacional ao lado de qual locutor?",
+        "resposta": "Hilton Gomes"
+      },
+      "existentes": [
+        {
+          "id": "q01140",
+          "pergunta": "O Jornal Nacional, da Rede Globo, foi ao ar pela primeira vez em que ano?",
+          "resposta": "1969"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Na família Flintstone, da Idade da Pedra, como se chama a filha de Fred e Wilma?",
+        "resposta": "Pedrita"
+      },
+      "existentes": [
+        {
+          "id": "q09649",
+          "pergunta": "Que estúdio de animação criou este desenho?",
+          "resposta": "Hanna-Barbera"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "No elenco do humorístico Sai de Baixo, gravado com plateia, que ator interpretava o esnobe e falido Caco Antibes?",
+        "resposta": "Miguel Falabella"
+      },
+      "existentes": [
+        {
+          "id": "q04052",
+          "pergunta": "Em que década estreou esta série humorística brasileira?",
+          "resposta": "Década de 1990"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Na casa futurista dos Jetsons, como se chama a empregada, que é um robô de avental?",
+        "resposta": "Rosie"
+      },
+      "existentes": [
+        {
+          "id": "q01125",
+          "pergunta": "Que estúdio de animação criou tanto Os Flintstones, na Idade da Pedra, quanto Os Jetsons, no futuro?",
+          "resposta": "Hanna-Barbera"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em Game of Thrones, que lema da Casa Stark dá título ao primeiro episódio da série?",
+        "resposta": "O inverno está chegando"
+      },
+      "existentes": [
+        {
+          "id": "q01133",
+          "pergunta": "Game of Thrones adapta a saga de livros As Crônicas de Gelo e Fogo, de qual escritor americano?",
+          "resposta": "George R. R. Martin"
+        },
+        {
+          "id": "q01136",
+          "pergunta": "Muitas cenas de Porto Real, a capital de Game of Thrones, foram gravadas em qual cidade murada da Croácia?",
+          "resposta": "Dubrovnik"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Em Os Simpsons, qual é a marca de cerveja que Homer vive bebendo na taverna do Moe?",
+        "resposta": "Duff"
+      },
+      "existentes": [
+        {
+          "id": "q01103",
+          "pergunta": "O pai atrapalhado de Os Simpsons recebeu o nome Homer em homenagem a quem?",
+          "resposta": "Ao pai de Matt Groening"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Por causa de uma lesão no músculo da coxa, que objeto o doutor Gregory House usa o tempo todo para andar?",
+        "resposta": "Uma bengala"
+      },
+      "existentes": [
+        {
+          "id": "q01126",
+          "pergunta": "O genial e ranzinza médico Gregory House, da série House, foi inspirado em qual detetive da literatura?",
+          "resposta": "Sherlock Holmes"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Que guloseima faz o medroso Scooby-Doo aceitar enfrentar fantasmas e monstros?",
+        "resposta": "Biscoito Scooby"
+      },
+      "existentes": [
+        {
+          "id": "q01104",
+          "pergunta": "O nome do cachorro Scooby-Doo foi inspirado num trecho cantado de qual sucesso de Frank Sinatra?",
+          "resposta": "Strangers in the Night"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Leonardo, Rafael, Donatello e Michelangelo, as Tartarugas Ninja, têm nomes de artistas de que período da história da arte?",
+        "resposta": "Renascimento"
+      },
+      "existentes": [
+        {
+          "id": "q08879",
+          "pergunta": "As Tartarugas Ninja, criadas em quadrinhos em 1984, têm nomes de artistas de qual período da história da arte?",
+          "resposta": "Renascimento"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Em Chaves, as crianças chamam a vizinha Dona Clotilde de Bruxa do 71. O que indica esse número no apelido?",
+        "resposta": "O número do apartamento dela"
+      },
+      "existentes": [
+        {
+          "id": "q04181",
+          "pergunta": "Que personagem da vila do Chaves é esta?",
+          "resposta": "Dona Clotilde"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Que jogo de RPG de mesa os meninos de Stranger Things jogam no porão e também inspirou o desenho Caverna do Dragão?",
+        "resposta": "Dungeons & Dragons"
+      },
+      "existentes": [
+        {
+          "id": "q01107",
+          "pergunta": "Antes da estreia em 2016, Stranger Things tinha como título provisório o nome de qual localidade do estado de Nova York?",
+          "resposta": "Montauk"
+        },
+        {
+          "id": "q01141",
+          "pergunta": "A primeira temporada de Stranger Things, com o sumiço do menino Will, se passa em novembro de que ano?",
+          "resposta": "1983"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Que crime põe em movimento a trama de Twin Peaks, a série de mistério de David Lynch de mil novecentos e noventa?",
+        "resposta": "O assassinato de Laura Palmer"
+      },
+      "existentes": [
+        {
+          "id": "q01929",
+          "pergunta": "Em que década estreou a série desta cena?",
+          "resposta": "Anos 1990"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Segundo a música de abertura de Um Maluco no Pedaço, por que a mãe de Will o manda da Filadélfia para Bel-Air?",
+        "resposta": "Ele se meteu numa briga"
+      },
+      "existentes": [
+        {
+          "id": "q01106",
+          "pergunta": "O título original de Um Maluco no Pedaço, The Fresh Prince of Bel-Air, vem do nome artístico que Will Smith usava em qual carreira?",
+          "resposta": "Rapper"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Na vila do seriado Chaves, onde o menino costuma se enfiar para se esconder ou ficar sozinho?",
+        "resposta": "Dentro de um barril"
+      },
+      "existentes": [
+        {
+          "id": "q04837",
+          "pergunta": "De que série de TV é esta cena?",
+          "resposta": "Chaves"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Em que cidadezinha alemã fictícia, cercada de floresta e vizinha de uma usina nuclear, se passa a série Dark?",
+        "resposta": "Winden"
+      },
+      "existentes": [
+        {
+          "id": "q08359",
+          "pergunta": "De que série é esta imagem?",
+          "resposta": "Dark"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Em Chaves, Seu Madruga vive fugindo do Seu Barriga porque está devendo quantos meses de aluguel?",
+        "resposta": "Catorze meses"
+      },
+      "existentes": [
+        {
+          "id": "q04339",
+          "pergunta": "Que ator interpretou este personagem do seriado mexicano?",
+          "resposta": "Ramón Valdés"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Na primeira temporada de Round 6, quantos jogadores endividados entram na disputa pelos jogos mortais?",
+        "resposta": "456"
+      },
+      "existentes": [
+        {
+          "id": "q07199",
+          "pergunta": "Em que ano estreou a primeira temporada da série desta imagem?",
+          "resposta": "2021"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Material da boneca difere de título e do dom da fala."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "id_existente": "q08879",
+      "motivo": "Mesmo fato: período dos artistas que nomeiam as tartarugas."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    }
+  ]
+}

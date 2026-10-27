@@ -1,0 +1,1163 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Ross Geller",
+        "descricao": "Personagem da sitcom Friends, paleontólogo e irmão de Monica, interpretado por David Schwimmer.",
+        "variantes": [
+          "Ross"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ross_Geller"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Em Friends, qual dos seis amigos chega ao fim da série com mais divórcios, três ao todo?",
+      "resposta": "Ross Geller",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ross_Geller"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "The Big Bang Theory",
+        "descricao": "Sitcom americana exibida de 2007 a 2019, sobre um grupo de jovens cientistas de Pasadena, na Califórnia.",
+        "variantes": [
+          "Big Bang: A Teoria"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Big_Bang_Theory"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Entre os quatro amigos cientistas de The Big Bang Theory, qual é o engenheiro que só tem mestrado, sem doutorado, e vive sendo provocado por Sheldon?",
+      "resposta": "Howard Wolowitz",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Howard_Wolowitz"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Teletubbies",
+        "descricao": "Programa infantil britânico da BBC, estreado em 1997, com quatro criaturas coloridas que têm antenas na cabeça.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Teletubbies"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Qual é o maior dos quatro Teletubbies, o roxo que anda com uma bolsa vermelha?",
+      "resposta": "Tinky Winky",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Teletubbies",
+        "https://en.wikipedia.org/wiki/Tinky_Winky"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "As Meninas Superpoderosas",
+        "descricao": "Desenho animado americano do Cartoon Network, estreado em 1998, sobre três irmãs com superpoderes criadas pelo Professor Utônio.",
+        "variantes": [
+          "The Powerpuff Girls"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/As_Meninas_Superpoderosas"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Na turma das Meninas Superpoderosas, qual das três irmãs é a mais durona e briguenta, de cabelo preto e curto?",
+      "resposta": "Docinho",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/As_Meninas_Superpoderosas",
+        "https://en.wikipedia.org/wiki/The_Powerpuff_Girls"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Tartarugas Ninja",
+        "descricao": "Franquia criada em 1984 por Kevin Eastman e Peter Laird, sobre quatro tartarugas mutantes treinadas em artes marciais, famosa pelo desenho animado de 1987.",
+        "variantes": [
+          "Teenage Mutant Ninja Turtles",
+          "As Tartarugas Ninja"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Das quatro Tartarugas Ninja, qual tem o pavio mais curto, sempre esquentada e rebelde, usando faixa vermelha?",
+      "resposta": "Rafael",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Raphael_(Teenage_Mutant_Ninja_Turtles)"
+      ],
+      "distratores": [
+        "Leonardo",
+        "Donatello",
+        "Michelangelo"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "os_jetsons",
+        "nome": "Os Jetsons",
+        "descricao": "Desenho animado americano de 1962 sobre uma família que vive num futuro de carros voadores e robôs.",
+        "variantes": [
+          "The Jetsons"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Jetsons"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "No desenho Os Jetsons, quem é o mais novo dos dois filhos de George e Jane?",
+      "resposta": "Elroy",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Jetsons"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Maggie Simpson",
+        "descricao": "Personagem de Os Simpsons, a filha bebê de Homer e Marge, que quase nunca fala.",
+        "variantes": [
+          "Margaret Simpson"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Maggie_Simpson"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Na família de Os Simpsons, quem é a caçula, o bebê que vive com uma chupeta na boca?",
+      "resposta": "Maggie Simpson",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Maggie_Simpson",
+        "https://en.wikipedia.org/wiki/Maggie_Simpson"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "a_grande_familia_2001",
+        "nome": "A Grande Família (2001)",
+        "descricao": "Série de humor da TV Globo, exibida de 2001 a 2014, sobre uma família do subúrbio carioca.",
+        "variantes": [
+          "A Grande Família"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/A_Grande_Fam%C3%ADlia_(2001)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Na casa de Lineu e Nenê, na série A Grande Família de dois mil e um, quem era o morador mais velho?",
+      "resposta": "Seu Floriano",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/A_Grande_Fam%C3%ADlia_(2001)"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "castelo_ra_tim_bum",
+        "nome": "Castelo Rá-Tim-Bum",
+        "descricao": "Programa infantil da TV Cultura, de 1994, passado num castelo onde vive o aprendiz de feiticeiro Nino.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Castelo_R%C3%A1-Tim-Bum"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "No Castelo Rá-Tim-Bum, qual personagem é a mais velha de todas, com seis mil anos de idade?",
+      "resposta": "Morgana",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Castelo_R%C3%A1-Tim-Bum"
+      ],
+      "distratores": [
+        "Doutor Victor",
+        "Nino",
+        "Celeste"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Emília (personagem)",
+        "descricao": "Boneca falante do Sítio do Picapau Amarelo, criada por Monteiro Lobato e levada várias vezes à televisão.",
+        "variantes": [
+          "Boneca Emília",
+          "Marquesa de Rabicó"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Em%C3%ADlia_(personagem)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No Sítio do Picapau Amarelo, a boneca Emília, que ganhou o dom da fala, foi feita por Tia Nastácia com que material?",
+      "resposta": "Pano",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Em%C3%ADlia_(personagem)"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "chapolin_colorado",
+        "nome": "Chapolin Colorado",
+        "descricao": "Seriado humorístico mexicano de 1973 sobre um atrapalhado super-herói vestido de vermelho.",
+        "variantes": [
+          "El Chapulín Colorado"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Chapolin_Colorado"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Além das anteninhas de vinil, que arma faz parte do equipamento do Chapolin Colorado para bater nos vilões?",
+      "resposta": "Marreta biônica",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Chapolin_Colorado",
+        "https://en.wikipedia.org/wiki/El_Chapul%C3%ADn_Colorado"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "id_existente": "friends",
+        "nome": "Friends",
+        "descricao": "Sitcom americana sobre seis amigos que vivem em Nova York, exibida de 1994 a 2004.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Friends"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na famosa abertura de Friends, os seis amigos aparecem dançando, com guarda-chuvas, dentro de quê?",
+      "resposta": "Uma fonte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Friends",
+        "https://en.wikipedia.org/wiki/I%27ll_Be_There_for_You_(The_Rembrandts_song)"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "jornal_nacional",
+        "nome": "Jornal Nacional",
+        "descricao": "Telejornal noturno da Rede Globo, transmitido em rede nacional.",
+        "variantes": [
+          "JN"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Jornal_Nacional"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Em mil novecentos e sessenta e nove, Cid Moreira apresentou a primeira edição do Jornal Nacional ao lado de qual locutor?",
+      "resposta": "Hilton Gomes",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Jornal_Nacional"
+      ],
+      "distratores": [
+        "Sérgio Chapelin",
+        "Heron Domingues",
+        "Celso Freitas"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "os_flintstones",
+        "nome": "Os Flintstones",
+        "descricao": "Desenho animado americano de 1960 sobre uma família da Idade da Pedra.",
+        "variantes": [
+          "The Flintstones"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Os_Flintstones"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na família Flintstone, da Idade da Pedra, como se chama a filha de Fred e Wilma?",
+      "resposta": "Pedrita",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Os_Flintstones",
+        "https://en.wikipedia.org/wiki/Pebbles_Flintstone"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Teletubbies",
+        "descricao": "Programa infantil britânico da BBC, estreado em 1997, com quatro criaturas coloridas que têm antenas na cabeça.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Teletubbies"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Cada Teletubbie tem uma antena na cabeça e, na barriga, que objeto embutido?",
+      "resposta": "Uma tela de televisão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Teletubbies"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Power Rangers (Mighty Morphin)",
+        "descricao": "Série americana de ação de 1993, Mighty Morphin Power Rangers, sobre adolescentes que viram heróis de uniformes coloridos.",
+        "variantes": [
+          "Mighty Morphin Power Rangers",
+          "Power Rangers"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mighty_Morphin_Power_Rangers"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Nos Power Rangers dos anos noventa, as máquinas dos cinco heróis, inspiradas em dinossauros, se juntam para formar que robô gigante?",
+      "resposta": "Megazord",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mighty_Morphin_Power_Rangers"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "TV Colosso",
+        "descricao": "Programa infantil da TV Globo exibido de 1993 a 1997, passado numa emissora de TV fictícia comandada por bonecos.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/TV_Colosso"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No programa infantil TV Colosso, da Globo nos anos noventa, os bonecos que comandavam a emissora fictícia eram de que animal?",
+      "resposta": "Cachorros",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/TV_Colosso"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "sai_de_baixo",
+        "nome": "Sai de Baixo",
+        "descricao": "Série humorística brasileira da TV Globo, estreada em 1996, passada num apartamento no Largo do Arouche.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Sai_de_Baixo"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No elenco do humorístico Sai de Baixo, gravado com plateia, que ator interpretava o esnobe e falido Caco Antibes?",
+      "resposta": "Miguel Falabella",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Sai_de_Baixo"
+      ],
+      "distratores": [
+        "Luis Gustavo",
+        "Tom Cavalcante",
+        "Marco Nanini"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "os_jetsons",
+        "nome": "Os Jetsons",
+        "descricao": "Desenho animado americano de 1962 sobre uma família que vive num futuro de carros voadores e robôs.",
+        "variantes": [
+          "The Jetsons"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Jetsons"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na casa futurista dos Jetsons, como se chama a empregada, que é um robô de avental?",
+      "resposta": "Rosie",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Jetsons"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "game_of_thrones",
+        "nome": "Game of Thrones",
+        "descricao": "Série de fantasia da HBO, exibida de 2011 a 2019, sobre a disputa pelo Trono de Ferro em Westeros.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Game_of_Thrones"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Game of Thrones, que lema da Casa Stark dá título ao primeiro episódio da série?",
+      "resposta": "O inverno está chegando",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Winter_Is_Coming"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "id_existente": "homer_simpson",
+        "nome": "Homer Simpson",
+        "descricao": "Personagem de Os Simpsons, o pai da família, funcionário da usina nuclear de Springfield.",
+        "variantes": [
+          "Homer Jay Simpson"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Homer_Simpson"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Os Simpsons, qual é a marca de cerveja que Homer vive bebendo na taverna do Moe?",
+      "resposta": "Duff",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Duff_Beer"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Gary, o Caracol",
+        "descricao": "Bicho de estimação de Bob Esponja na série animada Bob Esponja Calça Quadrada, que se comunica miando.",
+        "variantes": [
+          "Gary the Snail",
+          "Gary"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/List_of_SpongeBob_SquarePants_characters"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Gary, o bichinho de estimação de Bob Esponja que mia como um gato, é que tipo de animal?",
+      "resposta": "Caracol",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/List_of_SpongeBob_SquarePants_characters"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Spock",
+        "descricao": "Oficial de ciências meio humano e meio vulcano da nave Enterprise em Jornada nas Estrelas, vivido por Leonard Nimoy.",
+        "variantes": [
+          "Senhor Spock",
+          "Mr. Spock"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Spock"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em Jornada nas Estrelas, o senhor Spock, filho de pai vulcano e mãe humana, tem sangue de que cor?",
+      "resposta": "Verde",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Spock"
+      ],
+      "distratores": [
+        "Azul",
+        "Prateado",
+        "Roxo"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "gregory_house",
+        "nome": "Gregory House",
+        "descricao": "Médico protagonista da série americana House, interpretado por Hugh Laurie.",
+        "variantes": [
+          "Doutor House",
+          "Dr. House"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gregory_House"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Por causa de uma lesão no músculo da coxa, que objeto o doutor Gregory House usa o tempo todo para andar?",
+      "resposta": "Uma bengala",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gregory_House"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Dana Scully",
+        "descricao": "Agente do FBI cética da série Arquivo X, parceira de Fox Mulder, interpretada por Gillian Anderson.",
+        "variantes": [
+          "Scully"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dana_Scully"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Arquivo X, a cética agente Dana Scully, que costuma fazer as autópsias dos casos, é formada em quê?",
+      "resposta": "Medicina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dana_Scully"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Dexter Morgan",
+        "descricao": "Protagonista da série americana Dexter, de 2006, um assassino em série que só mata outros criminosos, vivido por Michael C. Hall.",
+        "variantes": [
+          "Dexter"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dexter_Morgan"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na série Dexter, o assassino em série Dexter Morgan trabalha como perito da polícia de Miami, analisando o quê?",
+      "resposta": "Manchas de sangue",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dexter_Morgan"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "MacGyver (série de 1985)",
+        "descricao": "Série americana de ação exibida de 1985 a 1992, sobre um agente que resolve situações improvisando com objetos comuns.",
+        "variantes": [
+          "MacGyver: Profissão Perigo",
+          "MacGyver"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/MacGyver_(1985_TV_series)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Que ferramenta o agente MacGyver, que evita usar armas de fogo, sempre leva no bolso para seus improvisos?",
+      "resposta": "Canivete suíço",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/MacGyver_(1985_TV_series)"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "ALF",
+        "descricao": "Sitcom americana exibida de 1986 a 1990 sobre um extraterrestre peludo do planeta Melmac que vive escondido com uma família.",
+        "variantes": [
+          "ALF, o ETeimoso"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/ALF_(TV_series)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na série ALF, para desespero da família que o esconde, o extraterrestre peludo do planeta Melmac adora comer que animal?",
+      "resposta": "Gatos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/ALF_(TV_series)"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "scooby_doo",
+        "nome": "Scooby-Doo",
+        "descricao": "Cachorro dinamarquês medroso, personagem-título dos desenhos da Hanna-Barbera criados em 1969.",
+        "variantes": [
+          "Scooby"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Scooby-Doo_(character)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Que guloseima faz o medroso Scooby-Doo aceitar enfrentar fantasmas e monstros?",
+      "resposta": "Biscoito Scooby",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Scooby-Doo_(character)"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Tartarugas Ninja",
+        "descricao": "Franquia criada em 1984 por Kevin Eastman e Peter Laird, sobre quatro tartarugas mutantes treinadas em artes marciais, famosa pelo desenho animado de 1987.",
+        "variantes": [
+          "Teenage Mutant Ninja Turtles",
+          "As Tartarugas Ninja"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Leonardo, Rafael, Donatello e Michelangelo, as Tartarugas Ninja, têm nomes de artistas de que período da história da arte?",
+      "resposta": "Renascimento",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles"
+      ]
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "id_existente": "chaves",
+        "nome": "Chaves",
+        "descricao": "Seriado humorístico mexicano criado por Roberto Gómez Bolaños, sobre um menino que vive numa vila.",
+        "variantes": [
+          "El Chavo del Ocho"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/El_Chavo_del_Ocho"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No México, o seriado Chaves se chama El Chavo del Ocho. O número oito do título se refere a quê?",
+      "resposta": "Ao canal de TV onde estreou",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/El_Chavo_del_Ocho"
+      ]
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Zé Colmeia",
+        "descricao": "Urso de chapéu e gravata dos desenhos da Hanna-Barbera, que vive roubando cestas de piquenique no Parque Jellystone.",
+        "variantes": [
+          "Yogi Bear"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Yogi_Bear"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome original do urso Zé Colmeia, Yogi Bear, faz trocadilho com o apelido de qual astro americano do beisebol?",
+      "resposta": "Yogi Berra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Yogi_Bear"
+      ]
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Malhação",
+        "descricao": "Novela adolescente da TV Globo exibida a partir de 1995, com temporadas renovadas e elencos jovens.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Malha%C3%A7%C3%A3o"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A novela adolescente Malhação, da Globo, ganhou esse título por causa do cenário de suas primeiras temporadas. Que cenário era esse?",
+      "resposta": "Uma academia de ginástica",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Malha%C3%A7%C3%A3o"
+      ]
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "id_existente": "dona_clotilde",
+        "nome": "Dona Clotilde",
+        "descricao": "Vizinha idosa da vila de Chaves, conhecida como a Bruxa do 71.",
+        "variantes": [
+          "La Bruja del 71",
+          "Bruxa do 71"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/List_of_El_Chavo_del_Ocho_characters"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em Chaves, as crianças chamam a vizinha Dona Clotilde de Bruxa do 71. O que indica esse número no apelido?",
+      "resposta": "O número da casa dela",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/List_of_El_Chavo_del_Ocho_characters"
+      ]
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "id_existente": "stranger_things",
+        "nome": "Stranger Things",
+        "descricao": "Série de ficção científica da Netflix, criada pelos irmãos Duffer, ambientada na cidade fictícia de Hawkins, Indiana.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Stranger_Things"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que jogo de RPG de mesa os meninos de Stranger Things jogam no porão e também inspirou o desenho Caverna do Dragão?",
+      "resposta": "Dungeons & Dragons",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stranger_Things",
+        "https://pt.wikipedia.org/wiki/Caverna_do_Drag%C3%A3o"
+      ]
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Jovem Sheldon",
+        "descricao": "Série de comédia americana exibida de 2017 a 2024, Young Sheldon, sobre a infância do gênio Sheldon Cooper no Texas.",
+        "variantes": [
+          "Young Sheldon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Young_Sheldon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A série Jovem Sheldon, de dois mil e dezessete, conta a infância no Texas de um personagem de qual sitcom?",
+      "resposta": "The Big Bang Theory",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Young_Sheldon"
+      ]
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Better Call Saul",
+        "descricao": "Série americana de 2015, criada por Vince Gilligan e Peter Gould, sobre o advogado Jimmy McGill, que se torna Saul Goodman.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Better_Call_Saul"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O advogado trapaceiro Saul Goodman ganhou série própria em dois mil e quinze, depois de aparecer como coadjuvante em qual série?",
+      "resposta": "Breaking Bad",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Better_Call_Saul"
+      ]
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Blackadder",
+        "descricao": "Série de comédia britânica da BBC exibida de 1983 a 1989, com Rowan Atkinson como o anti-herói Edmund Blackadder em várias épocas da história inglesa.",
+        "variantes": [
+          "The Black Adder"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Blackadder"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Antes de Mr. Bean, Rowan Atkinson estrelou que série de humor da BBC, sobre um anti-herói que atravessa várias épocas da história inglesa?",
+      "resposta": "Blackadder",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Blackadder"
+      ]
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Veep",
+        "descricao": "Série de comédia da HBO exibida de 2012 a 2019, sobre a vice-presidente americana fictícia Selina Meyer.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Veep_(TV_series)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que série da HBO deu a Julia Louis-Dreyfus, a Elaine de Seinfeld, o papel de uma vice-presidente dos Estados Unidos?",
+      "resposta": "Veep",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Veep_(TV_series)"
+      ]
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "id_existente": "twin_peaks",
+        "nome": "Twin Peaks",
+        "descricao": "Série de TV de mistério criada por David Lynch e Mark Frost, estreada em 1990.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Twin_Peaks"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Que crime põe em movimento a trama de Twin Peaks, a série de mistério de David Lynch de mil novecentos e noventa?",
+      "resposta": "O assassinato de Laura Palmer",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Twin_Peaks"
+      ]
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Prison Break",
+        "descricao": "Série americana de 2005 sobre o engenheiro Michael Scofield, que planeja uma fuga de dentro de uma penitenciária.",
+        "variantes": [
+          "Prison Break: Em Busca da Verdade"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Prison_Break"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Prison Break, por que o engenheiro Michael Scofield assalta um banco de propósito e se deixa prender?",
+      "resposta": "Para tirar o irmão da prisão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Prison_Break"
+      ]
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Rick Grimes",
+        "descricao": "Protagonista da série The Walking Dead, xerife que lidera um grupo de sobreviventes num mundo de zumbis, vivido por Andrew Lincoln.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rick_Grimes"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No início de The Walking Dead, o xerife Rick Grimes acorda num hospital abandonado. Por que ele estava internado?",
+      "resposta": "Levou um tiro em serviço",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rick_Grimes"
+      ]
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "um_maluco_no_pedaco",
+        "nome": "Um Maluco no Pedaço",
+        "descricao": "Sitcom americana exibida de 1990 a 1996, estrelada por Will Smith como um jovem da Filadélfia que vai morar com os tios ricos em Bel-Air.",
+        "variantes": [
+          "The Fresh Prince of Bel-Air"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Fresh_Prince_of_Bel-Air"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a música de abertura de Um Maluco no Pedaço, por que a mãe de Will o manda da Filadélfia para Bel-Air?",
+      "resposta": "Ele se meteu numa briga",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Fresh_Prince_of_Bel-Air"
+      ]
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "id_existente": "chaves",
+        "nome": "Chaves",
+        "descricao": "Seriado humorístico mexicano criado por Roberto Gómez Bolaños, sobre um menino que vive numa vila.",
+        "variantes": [
+          "El Chavo del Ocho"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Chaves"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Na vila do seriado Chaves, onde o menino costuma se enfiar para se esconder ou ficar sozinho?",
+      "resposta": "Dentro de um barril",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Chaves",
+        "https://en.wikipedia.org/wiki/El_Chavo_del_Ocho"
+      ]
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Xica da Silva (telenovela)",
+        "descricao": "Telenovela da Rede Manchete exibida a partir de 1996, escrita por Walcyr Carrasco e estrelada por Taís Araújo.",
+        "variantes": [
+          "Xica da Silva"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Xica_da_Silva_(telenovela)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A novela Xica da Silva, exibida pela Manchete em mil novecentos e noventa e seis, se passa em que povoado mineiro do século dezoito, centro da extração de diamantes?",
+      "resposta": "Arraial do Tijuco",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Xica_da_Silva_(telenovela)"
+      ],
+      "distratores": [
+        "Vila Rica",
+        "Mariana",
+        "São João del-Rei"
+      ]
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "id_existente": "dark",
+        "nome": "Dark",
+        "descricao": "Série alemã de ficção científica da Netflix, lançada em 2017, sobre viagens no tempo e quatro famílias.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dark_(TV_series)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em que cidadezinha alemã fictícia, cercada de floresta e vizinha de uma usina nuclear, se passa a série Dark?",
+      "resposta": "Winden",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dark_(TV_series)"
+      ]
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "id_existente": "seu_madruga",
+        "nome": "Seu Madruga",
+        "descricao": "Personagem do seriado Chaves, o pai da Chiquinha e vizinho do Chaves, interpretado por Ramón Valdés.",
+        "variantes": [
+          "Don Ramón"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Seu_Madruga"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em Chaves, Seu Madruga vive fugindo do Seu Barriga porque está devendo quantos meses de aluguel?",
+      "resposta": "Catorze meses",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Seu_Madruga"
+      ],
+      "distratores": [
+        "Doze meses",
+        "Dez meses",
+        "Vinte meses"
+      ]
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "id_existente": "round_6",
+        "nome": "Round 6",
+        "descricao": "Série sul-coreana da Netflix sobre centenas de pessoas endividadas que disputam jogos mortais por um prêmio milionário.",
+        "variantes": [
+          "Squid Game"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Squid_Game"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na primeira temporada de Round 6, quantos jogadores endividados entram na disputa pelos jogos mortais?",
+      "resposta": "456",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Squid_Game"
+      ],
+      "distratores": [
+        "300",
+        "365",
+        "500"
+      ]
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "2-5499 Ocupado",
+        "descricao": "Telenovela da TV Excelsior, estrelada por Tarcísio Meira e Glória Menezes, considerada a primeira novela diária da TV brasileira.",
+        "variantes": [
+          "2-5499 Ocupado"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/2-5499_Ocupado"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Com Tarcísio Meira e Glória Menezes, a novela Dois Cinco Quatro Nove Nove Ocupado, da TV Excelsior, a primeira exibida diariamente no Brasil, estreou em que ano?",
+      "resposta": "1963",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/2-5499_Ocupado"
+      ],
+      "distratores": [
+        "1958",
+        "1960",
+        "1966"
+      ]
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "nome": "Malhação",
+        "descricao": "Novela adolescente da TV Globo exibida a partir de 1995, com temporadas renovadas e elencos jovens.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Malha%C3%A7%C3%A3o"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "A novela adolescente Malhação, que lançou muitos atores jovens da Globo, estreou em que ano?",
+      "resposta": "1995",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Malha%C3%A7%C3%A3o"
+      ],
+      "distratores": [
+        "1992",
+        "1998",
+        "2000"
+      ]
+    }
+  ]
+}
