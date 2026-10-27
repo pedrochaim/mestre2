@@ -1,0 +1,222 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Busto grego barbudo em gravura, sem traços que permitam reconhecer Tales entre outros bustos de filósofos; além disso traz assinatura do gravador."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto minúscula e de baixa resolução, ilegível no celular; o retratado não é reconhecível."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato limpo, sem texto, de figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Esta cientista da computação liderou a criação do software de bordo de qual programa espacial americano?",
+      "resposta": "Apollo",
+      "distratores": [
+        "Gemini",
+        "Mercury",
+        "Voyager"
+      ],
+      "ancora": {
+        "nome": "Margaret Hamilton",
+        "descricao": "Cientista da computação americana que dirigiu o desenvolvimento do software de voo do computador de orientação da missão Apollo, no MIT.",
+        "variantes": [
+          "Margaret Elaine Hamilton"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, de figura pública; pergunta de nível 3 sem citar o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Este matemático e físico inglês deu nome a qual figura impossível?",
+      "resposta": "Triângulo de Penrose",
+      "distratores": [
+        "Cubo de Necker",
+        "Fita de Möbius",
+        "Tridente impossível"
+      ],
+      "ancora": {
+        "nome": "Roger Penrose",
+        "descricao": "Matemático, físico matemático e filósofo da ciência inglês, Nobel de Física de 2020, criador do triângulo de Penrose.",
+        "variantes": [
+          "Sir Roger Penrose"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto de palco, a distância, com a pessoa pequena no quadro e faixa com texto parcial ao fundo; pouco legível e pouco reconhecível no celular."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato a óleo conhecido, sem texto legível que entregue o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que unidade do Sistema Internacional leva o nome deste engenheiro militar e físico francês do século dezoito?",
+      "resposta": "Coulomb",
+      "distratores": [
+        "Ampère",
+        "Volt",
+        "Farad"
+      ],
+      "ancora": {
+        "nome": "Charles-Augustin de Coulomb",
+        "descricao": "Oficial, engenheiro e físico francês do século XVIII, descobridor da lei da força eletrostática que leva seu nome.",
+        "variantes": [
+          "Charles Augustin de Coulomb"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, de figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Este empreendedor americano cofundou, em 2015, qual empresa de inteligência artificial?",
+      "resposta": "OpenAI",
+      "distratores": [
+        "Anthropic",
+        "DeepMind",
+        "Mistral AI"
+      ],
+      "ancora": {
+        "nome": "Sam Altman",
+        "descricao": "Empreendedor e investidor americano, cofundador e executivo-chefe da OpenAI.",
+        "variantes": [
+          "Samuel Harris Altman"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato a óleo claro, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Este astrônomo sueco fundou, em 1741, o observatório de qual cidade?",
+      "resposta": "Uppsala",
+      "distratores": [
+        "Estocolmo",
+        "Lund",
+        "Gotemburgo"
+      ],
+      "ancora": {
+        "nome": "Anders Celsius",
+        "descricao": "Astrônomo, físico e matemático sueco do século XVIII que propôs a escala centígrada de temperatura.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto antiga nítida, sem texto; pergunta de nível 3.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 6,
+      "pergunta": "Este zoólogo alemão do século dezenove popularizou na Alemanha as ideias de qual naturalista?",
+      "resposta": "Charles Darwin",
+      "distratores": [
+        "Jean-Baptiste Lamarck",
+        "Alfred Russel Wallace",
+        "Alexander von Humboldt"
+      ],
+      "ancora": {
+        "nome": "Ernst Haeckel",
+        "descricao": "Zoólogo, naturalista e filósofo alemão do século XIX que divulgou o darwinismo e criou termos como ecologia e filo.",
+        "variantes": [
+          "Ernst Heinrich Philipp August Haeckel"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, de figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Este engenheiro cofundou, em 1993, qual empresa de tecnologia?",
+      "resposta": "Nvidia",
+      "distratores": [
+        "AMD",
+        "Intel",
+        "Qualcomm"
+      ],
+      "ancora": {
+        "nome": "Jensen Huang",
+        "descricao": "Engenheiro elétrico e empresário taiwanês-americano, cofundador e executivo-chefe da Nvidia.",
+        "variantes": [
+          "Jen-Hsun Huang"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, de figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em 1964, este físico britânico propôs um mecanismo para explicar a origem de qual propriedade das partículas?",
+      "resposta": "Massa",
+      "distratores": [
+        "Carga elétrica",
+        "Spin",
+        "Meia-vida"
+      ],
+      "ancora": {
+        "nome": "Peter Higgs",
+        "descricao": "Físico teórico britânico, Nobel de Física de 2013, autor da proposta do mecanismo de Higgs e da partícula que leva seu nome.",
+        "variantes": [
+          "Peter Ware Higgs"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Em 1909, o laboratório deste médico alemão descobriu o primeiro medicamento eficaz contra qual doença?",
+      "resposta": "Sífilis",
+      "distratores": [
+        "Tuberculose",
+        "Cólera",
+        "Malária"
+      ],
+      "ancora": {
+        "nome": "Paul Ehrlich",
+        "descricao": "Médico e cientista alemão, Nobel de Medicina de 1908, pioneiro da quimioterapia e descobridor do Salvarsan.",
+        "variantes": []
+      }
+    }
+  ]
+}

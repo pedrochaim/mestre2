@@ -1,0 +1,75 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelos trechos; sem vazamento; distratores plausíveis e do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A escada de Penrose também é uma figura impossível que leva seu nome, então a resposta não é única. A reescrita descreve a figura para fixar o triângulo.",
+      "reescrita": {
+        "pergunta": "Que figura impossível, um triângulo que parece um objeto sólido tridimensional, leva o nome deste matemático e físico inglês?",
+        "resposta": "Triângulo de Penrose",
+        "distratores": [
+          "Cubo de Necker",
+          "Tridente impossível",
+          "Escada de Escher"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A unidade de carga elétrica leva o nome dele (trecho pt). O enunciado não entrega a resposta sem a figura e os distratores são unidades.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cofundação da OpenAI em 2015 confirmada nos trechos; resposta única; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundação do Observatório de Uppsala em 1741 confirmada; distratores são cidades suecas.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que ele popularizou o trabalho de Darwin na Alemanha; distratores são naturalistas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cofundou a Nvidia em 1993 (trecho pt); distratores são empresas de chips.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o artigo de 1964 propôs o mecanismo para a origem da massa; os distratores são propriedades de partículas e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho pt diz que o laboratório dele descobriu o Salvarsan, primeiro tratamento eficaz da sífilis, em 1909; o enunciado não vaza a resposta.",
+      "reescrita": null
+    }
+  ]
+}

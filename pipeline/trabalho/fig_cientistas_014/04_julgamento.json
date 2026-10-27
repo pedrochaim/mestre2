@@ -1,0 +1,467 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Margaret Hamilton",
+        "descricao": "Cientista da computação americana que dirigiu o desenvolvimento do software de voo do computador de orientação da missão Apollo, no MIT.",
+        "variantes": [
+          "Margaret Elaine Hamilton"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maggie_simpson",
+          "nome": "Maggie Simpson",
+          "descricao": "Personagem de Os Simpsons, a filha bebê de Homer e Marge, que quase nunca fala.",
+          "variantes": [
+            "Margaret Simpson"
+          ]
+        },
+        {
+          "id": "lewis_hamilton",
+          "nome": "Lewis Hamilton",
+          "descricao": "Piloto britânico heptacampeão mundial de Fórmula 1.",
+          "variantes": []
+        },
+        {
+          "id": "mark_hamill",
+          "nome": "Mark Hamill",
+          "descricao": "Ator americano, intérprete de Luke Skywalker em Star Wars e dublador de desenhos animados.",
+          "variantes": []
+        },
+        {
+          "id": "maratona",
+          "nome": "Maratona",
+          "descricao": "Corrida de longa distância do atletismo, com percurso oficial de 42,195 quilômetros.",
+          "variantes": [
+            "Marathon"
+          ]
+        },
+        {
+          "id": "maratona_grecia",
+          "nome": "Maratona (Grécia)",
+          "descricao": "Cidade e planície da Ática, na Grécia, onde os atenienses venceram os persas em 490 a.C.",
+          "variantes": [
+            "Marathon",
+            "Marathonas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Roger Penrose",
+        "descricao": "Matemático, físico matemático e filósofo da ciência inglês, Nobel de Física de 2020, criador do triângulo de Penrose.",
+        "variantes": [
+          "Sir Roger Penrose"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roger_federer",
+          "nome": "Roger Federer",
+          "descricao": "Tenista suíço nascido em 1981, ex-número 1 do mundo e campeão de 20 torneios de Grand Slam, aposentado em 2022.",
+          "variantes": [
+            "Federer"
+          ]
+        },
+        {
+          "id": "ladrilhos_de_penrose",
+          "nome": "Ladrilhos de Penrose",
+          "descricao": "Padrão de ladrilhos que cobre o plano sem se repetir periodicamente, criado pelo britânico Roger Penrose nos anos setenta.",
+          "variantes": [
+            "Penrose tiling",
+            "Pavimentação de Penrose"
+          ]
+        },
+        {
+          "id": "ron_dennis",
+          "nome": "Ron Dennis",
+          "descricao": "Empresário britânico, chefe da equipe McLaren de Fórmula 1 de 1981 a 2009.",
+          "variantes": [
+            "Ronald Dennis",
+            "Sir Ron Dennis"
+          ]
+        },
+        {
+          "id": "rogerio_ceni",
+          "nome": "Rogério Ceni",
+          "descricao": "Goleiro e técnico brasileiro, ídolo do São Paulo e goleiro com mais gols na história do futebol.",
+          "variantes": [
+            "Rogério Mücke Ceni"
+          ]
+        },
+        {
+          "id": "os_candangos",
+          "nome": "Os Candangos",
+          "descricao": "Escultura de bronze de Bruno Giorgi, oficialmente chamada Os Guerreiros, na Praça dos Três Poderes, em Brasília.",
+          "variantes": [
+            "Os Guerreiros"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Charles-Augustin de Coulomb",
+        "descricao": "Oficial, engenheiro e físico francês do século XVIII, descobridor da lei da força eletrostática que leva seu nome.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "leatherface",
+          "nome": "Leatherface",
+          "descricao": "Assassino mascarado com uma motosserra, vilão do filme de terror O Massacre da Serra Elétrica, de 1974.",
+          "variantes": [
+            "Cara de Couro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sam Altman",
+        "descricao": "Empreendedor e investidor americano, cofundador e executivo-chefe da OpenAI.",
+        "variantes": [
+          "Samuel Harris Altman"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "misa_amane",
+          "nome": "Misa Amane",
+          "descricao": "Modelo e atriz loira que se torna a segunda Kira em Death Note.",
+          "variantes": [
+            "Misa",
+            "Second Kira"
+          ]
+        },
+        {
+          "id": "samus_aran",
+          "nome": "Samus Aran",
+          "descricao": "Caçadora de recompensas intergaláctica e protagonista da série Metroid.",
+          "variantes": [
+            "Samus"
+          ]
+        },
+        {
+          "id": "sai",
+          "nome": "Sai",
+          "descricao": "Arma metálica de Okinawa com haste central pontiaguda e dois dentes laterais.",
+          "variantes": [
+            "Sai (arma)"
+          ]
+        },
+        {
+          "id": "malta",
+          "nome": "Malta",
+          "descricao": "País insular do Mar Mediterrâneo, ao sul da Sicília, cuja capital é Valeta.",
+          "variantes": [
+            "República de Malta"
+          ]
+        },
+        {
+          "id": "bandeira_de_malta",
+          "nome": "Bandeira de Malta",
+          "descricao": "Bandeira nacional de Malta, metade branca e metade vermelha, com a Cruz de São Jorge no canto.",
+          "variantes": [
+            "Malta",
+            "Bandeira maltesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Anders Celsius",
+        "descricao": "Astrônomo, físico e matemático sueco do século XVIII que propôs a escala centígrada de temperatura.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "escala_celsius",
+          "nome": "Escala Celsius",
+          "descricao": "Escala de temperatura proposta pelo astrônomo sueco Anders Celsius em 1742.",
+          "variantes": [
+            "Grau Celsius",
+            "Escala centígrada",
+            "Celsius",
+            "Graus Celsius"
+          ]
+        },
+        {
+          "id": "andre_vesalio",
+          "nome": "André Vesálio",
+          "descricao": "Anatomista flamengo autor de De humani corporis fabrica, tratado de anatomia humana publicado em 1543.",
+          "variantes": [
+            "Andreas Vesalius",
+            "Vesálio"
+          ]
+        },
+        {
+          "id": "anderson_silva",
+          "nome": "Anderson Silva",
+          "descricao": "Lutador brasileiro de MMA, ex-campeão peso-médio do UFC com o reinado mais longo da história da categoria.",
+          "variantes": [
+            "Anderson da Silva",
+            "Spider"
+          ]
+        },
+        {
+          "id": "andrea_bocelli",
+          "nome": "Andrea Bocelli",
+          "descricao": "Tenor italiano de ópera e música pop, famoso desde 1994.",
+          "variantes": []
+        },
+        {
+          "id": "diners_club",
+          "nome": "Diners Club",
+          "descricao": "Cartão de pagamento lançado nos Estados Unidos em 1950, precursor dos cartões de crédito modernos.",
+          "variantes": [
+            "Diners Club International",
+            "Cartão Diners"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Ernst Haeckel",
+        "descricao": "Zoólogo, naturalista e filósofo alemão do século XIX que divulgou o darwinismo e criou termos como ecologia e filo.",
+        "variantes": [
+          "Ernst Heinrich Philipp August Haeckel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "earthquake",
+          "nome": "Earthquake",
+          "descricao": "Golpe de pokémon do tipo Terrestre, da 1ª geração.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Jensen Huang",
+        "descricao": "Engenheiro elétrico e empresário taiwanês-americano, cofundador e executivo-chefe da Nvidia.",
+        "variantes": [
+          "Jen-Hsun Huang"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "qin_shi_huang",
+          "nome": "Qin Shi Huang",
+          "descricao": "Primeiro imperador da China unificada, fundador da dinastia Qin no século três antes de Cristo.",
+          "variantes": [
+            "Shi Huangdi",
+            "Primeiro Imperador"
+          ]
+        },
+        {
+          "id": "dente_humano",
+          "nome": "Dente humano",
+          "descricao": "Estrutura dura da boca humana, formada por esmalte, dentina e polpa, usada para cortar e mastigar.",
+          "variantes": [
+            "Dente"
+          ]
+        },
+        {
+          "id": "xuanzang",
+          "nome": "Xuanzang",
+          "descricao": "Monge budista chinês do século sete que viajou à Índia em busca de textos sagrados.",
+          "variantes": [
+            "Hsuan-tsang",
+            "Tripitaka"
+          ]
+        },
+        {
+          "id": "jenson_button",
+          "nome": "Jenson Button",
+          "descricao": "Ex-piloto britânico, campeão mundial de Fórmula 1 em 2009 pela Brawn.",
+          "variantes": [
+            "Jenson Alexander Lyons Button"
+          ]
+        },
+        {
+          "id": "homo_sapiens",
+          "nome": "Homo sapiens",
+          "descricao": "Espécie humana moderna, a única do gênero Homo ainda viva.",
+          "variantes": [
+            "Ser humano",
+            "Humano moderno",
+            "Human",
+            "Ser humano moderno"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Peter Higgs",
+        "descricao": "Físico teórico britânico, Nobel de Física de 2013, autor da proposta do mecanismo de Higgs e da partícula que leva seu nome.",
+        "variantes": [
+          "Peter Ware Higgs"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_leao",
+          "nome": "Peixe-leão",
+          "descricao": "Peixe de recife de coral do gênero Pterois, de nadadeiras listradas e espinhos venenosos.",
+          "variantes": [
+            "Pterois volitans",
+            "Lionfish",
+            "Pterois"
+          ]
+        },
+        {
+          "id": "homem_aranha",
+          "nome": "Homem-Aranha",
+          "descricao": "Super-herói da Marvel criado por Stan Lee e Steve Ditko em 1962, identidade de Peter Parker",
+          "variantes": [
+            "Spider-Man",
+            "Peter Parker"
+          ]
+        },
+        {
+          "id": "grande_cisma_do_ocidente",
+          "nome": "Grande Cisma do Ocidente",
+          "descricao": "Crise da Igreja Católica, de 1378 a 1417, em que papas rivais disputaram a autoridade papal.",
+          "variantes": [
+            "Cisma do Ocidente",
+            "Western Schism",
+            "Cisma Papal"
+          ]
+        },
+        {
+          "id": "palacio_de_peterhof",
+          "nome": "Palácio de Peterhof",
+          "descricao": "Conjunto de palácios e jardins com fontes perto de São Petersburgo, na Rússia, mandado construir por Pedro, o Grande.",
+          "variantes": [
+            "Peterhof",
+            "Petergof"
+          ]
+        },
+        {
+          "id": "tigre",
+          "nome": "Tigre",
+          "descricao": "Grande felino asiático do gênero Panthera, de pelagem laranja com listras pretas (Panthera tigris).",
+          "variantes": [
+            "Panthera tigris"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Paul Ehrlich",
+        "descricao": "Médico e cientista alemão, Nobel de Medicina de 1908, pioneiro da quimioterapia e descobridor do Salvarsan.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "paul_erdos",
+          "nome": "Paul Erdős",
+          "descricao": "Matemático húngaro do século vinte, famoso pela enorme quantidade de artigos escritos com colaboradores.",
+          "variantes": [
+            "Erdős Pál"
+          ]
+        },
+        {
+          "id": "paul_dirac",
+          "nome": "Paul Dirac",
+          "descricao": "Físico teórico britânico, Nobel de 1933, fundador da mecânica quântica e da eletrodinâmica quântica.",
+          "variantes": [
+            "Paul Adrien Maurice Dirac"
+          ]
+        },
+        {
+          "id": "azul_da_prussia",
+          "nome": "Azul da prússia",
+          "descricao": "Pigmento azul-escuro de ferrocianeto férrico, obtido por acaso no início do século dezoito.",
+          "variantes": [
+            "Azul de Berlim",
+            "Prussian blue"
+          ]
+        },
+        {
+          "id": "paleolitico",
+          "nome": "Paleolítico",
+          "descricao": "Primeiro e mais longo período da Idade da Pedra, marcado pelas ferramentas de pedra lascada e pelos caçadores-coletores.",
+          "variantes": [
+            "Idade da Pedra Lascada",
+            "Paleolithic"
+          ]
+        },
+        {
+          "id": "grande_esfinge_de_gize",
+          "nome": "Grande Esfinge de Gizé",
+          "descricao": "Estátua colossal de calcário com corpo de leão e cabeça humana, no planalto de Gizé, no Egito",
+          "variantes": [
+            "Great Sphinx of Giza",
+            "Esfinge de Gizé",
+            "Abul-Hol"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Margaret Hamilton."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Ladrilhos de Penrose é a obra, não a pessoa."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Candidata não relacionada."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Sam Altman."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A escala Celsius é distinta da pessoa Anders Celsius."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Candidata não relacionada."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Jensen Huang."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Peter Higgs."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Paul Ehrlich."
+    }
+  ]
+}
