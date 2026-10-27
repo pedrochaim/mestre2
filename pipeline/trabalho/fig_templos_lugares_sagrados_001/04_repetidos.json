@@ -1,0 +1,116 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A que deus grego foi dedicado este templo de Atenas?",
+        "resposta": "Zeus"
+      },
+      "existentes": [
+        {
+          "id": "q08026",
+          "pergunta": "Que imperador romano concluiu a construção deste templo, séculos depois de iniciada?",
+          "resposta": "Adriano"
+        },
+        {
+          "id": "q13890",
+          "pergunta": "Começado no século seis antes de Cristo e só concluído pelo imperador romano Adriano, que templo de Atenas era ainda maior que o Partenon?",
+          "resposta": "Templo de Zeus Olímpico"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país fica este zigurate, construído há cerca de quatro mil anos?",
+        "resposta": "Iraque"
+      },
+      "existentes": [
+        {
+          "id": "q03473",
+          "pergunta": "Em que país fica este zigurate?",
+          "resposta": "Iraque"
+        },
+        {
+          "id": "q14003",
+          "pergunta": "Em que século antes de Cristo foi construída esta estrutura mesopotâmica da Idade do Bronze?",
+          "resposta": "Século vinte e um"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que templo do Sudeste Asiático é este?",
+        "resposta": "Angkor Wat"
+      },
+      "existentes": [
+        {
+          "id": "q00385",
+          "pergunta": "Que templo é este?",
+          "resposta": "Angkor Wat"
+        },
+        {
+          "id": "q02034",
+          "pergunta": "O templo de Angkor Wat, que aparece estampado na bandeira nacional, fica em qual país asiático?",
+          "resposta": "Camboja"
+        },
+        {
+          "id": "q02517",
+          "pergunta": "Que rei khmer mandou construir este templo, no século doze?",
+          "resposta": "Suryavarman II"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que país africano fica esta mesquita feita de barro?",
+        "resposta": "Mali"
+      },
+      "existentes": [
+        {
+          "id": "q04949",
+          "pergunta": "A Grande Mesquita de Djenné, no Mali, é reformada todo ano numa festa popular. De que material ela é feita?",
+          "resposta": "Tijolos de barro"
+        },
+        {
+          "id": "q08109",
+          "pergunta": "Apesar do aspecto medieval, a atual Grande Mesquita de Djenné, no Mali, foi construída em que século?",
+          "resposta": "Século vinte"
+        },
+        {
+          "id": "q11585",
+          "pergunta": "Em que país africano fica esta mesquita de barro?",
+          "resposta": "Mali"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q13890",
+      "motivo": "A resposta 'Templo de Zeus Olímpico' já revela que o templo é dedicado a Zeus; mesmo fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q03473",
+      "motivo": "Mesma pergunta sobre o país do zigurate, mesma resposta Iraque."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q00385",
+      "motivo": "Ambas perguntam qual é o templo, resposta Angkor Wat."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q11585",
+      "motivo": "Mesma pergunta sobre o país da mesquita de barro, resposta Mali."
+    }
+  ]
+}

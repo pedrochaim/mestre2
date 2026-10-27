@@ -1,0 +1,98 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado genérico, sem vazamento; a figura é necessária. Distratores do mesmo tipo e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Templo de Atenas dedicado a Zeus Olímpico confirmado nos trechos; o enunciado não entrega sem a figura (Atenas tem templos de vários deuses). Distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Crucifixo é a cruz com a imagem de Jesus; distratores são cruzes sem corpo, portanto nenhum é correto. Sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zigurate de Ur no Iraque, construído no século XXI a.C. (cerca de quatro mil anos). Distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Templo de Ísis em Philae, hoje em ilha no reservatório do Nilo. Enunciado não entrega a resposta sem a figura; distratores são deusas egípcias críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto sem vazamento; Angkor Wat no Sudeste Asiático; distratores do mesmo tipo e visualmente/culturalmente parecidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mesquita de adobe em Djenné, Mali. Há mesquitas de barro também em outros países do Sahel, então a figura é necessária e a pergunta não se resolve só pelo texto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Réplica de um templo bíblico' num país brasileiro entrega a resposta sem a figura (a réplica do Templo de Salomão é famosa). Tirar a pista.",
+      "reescrita": {
+        "pergunta": "Em que cidade brasileira fica este grande templo religioso?",
+        "resposta": "São Paulo",
+        "distratores": [
+          "Rio de Janeiro",
+          "Belo Horizonte",
+          "Brasília"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado ('objeto de oração budista que se gira com a mão') entrega a resposta e contém 'oração'. Além disso, o distrator 'Moinho de mantras' é praticamente sinônimo de roda de oração.",
+      "reescrita": {
+        "pergunta": "Que objeto ritual budista é este?",
+        "resposta": "Roda de oração",
+        "distratores": [
+          "Tigela cantante",
+          "Sino tibetano",
+          "Mala de contas"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Perguntar quem alcançou a iluminação no local é respondível sem a figura (Buda), o que a torna enfeite. Trocar por pergunta de lugar que exige reconhecer o templo.",
+      "reescrita": {
+        "pergunta": "Em que cidade da Índia fica este templo budista?",
+        "resposta": "Bodh Gaya",
+        "distratores": [
+          "Varanasi",
+          "Rajgir",
+          "Kushinagar"
+        ]
+      }
+    }
+  ]
+}

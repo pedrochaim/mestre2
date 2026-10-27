@@ -1,0 +1,252 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista do santuário com a basílica neogótica e a esplanada, sem texto legível que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que famoso lugar de peregrinação católica é este?",
+      "resposta": "Santuário de Lourdes",
+      "distratores": [
+        "Santuário de Fátima",
+        "Basílica de Aparecida",
+        "Basílica de Lisieux"
+      ],
+      "ancora": {
+        "nome": "Santuário de Lourdes",
+        "descricao": "Santuário mariano católico em Lourdes, nos Pirenéus franceses, ao redor da gruta das aparições de 1858.",
+        "variantes": [
+          "Santuário de Nossa Senhora de Lourdes",
+          "Lourdes"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pessoas comuns aparecem em primeiro plano, bem visíveis, no caminho de entrada."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Colunas coríntias em Atenas, com a Acrópole ao fundo, reconhecíveis e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "A que deus grego foi dedicado este templo de Atenas?",
+      "resposta": "Zeus",
+      "distratores": [
+        "Apolo",
+        "Poseidon",
+        "Hefesto"
+      ],
+      "ancora": {
+        "nome": "Templo de Zeus Olímpico",
+        "descricao": "Colossal templo em ruínas no centro de Atenas, dedicado a Zeus Olímpico e concluído sob o imperador Adriano.",
+        "variantes": [
+          "Olimpieion",
+          "Colunas de Zeus Olímpico"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Grande crucifixo monumental, claro e sem texto; o objeto é inequívoco como crucifixo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que objeto de culto cristão é este?",
+      "resposta": "Crucifixo",
+      "distratores": [
+        "Cruz de Tau",
+        "Cruz copta",
+        "Cruz de Malta"
+      ],
+      "ancora": {
+        "nome": "Crucifixo",
+        "descricao": "Cruz com a imagem de Jesus crucificado, principal símbolo de muitos grupos cristãos, em especial os católicos.",
+        "variantes": [
+          "Cruz com Cristo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Zigurate de tijolos com a escadaria monumental, reconhecível; sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que país fica este zigurate, construído há cerca de quatro mil anos?",
+      "resposta": "Iraque",
+      "distratores": [
+        "Irã",
+        "Síria",
+        "Egito"
+      ],
+      "ancora": {
+        "nome": "Zigurate de Ur",
+        "descricao": "Zigurate neo-sumério construído pelo rei Ur-Nammu na cidade de Ur, perto de Nasíria, no sul do Iraque.",
+        "variantes": [
+          "Grande Zigurate de Ur",
+          "Etemenniguru"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Pilono e colunata do templo egípcio com relevos, sem texto legível; reconhecível como o complexo de Filas.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "A que deusa egípcia foi dedicado este templo, hoje numa ilha do Nilo?",
+      "resposta": "Ísis",
+      "distratores": [
+        "Sekhmet",
+        "Bastet",
+        "Néftis"
+      ],
+      "ancora": {
+        "nome": "Templo de Philae",
+        "descricao": "Complexo de templos egípcios dedicado à deusa Ísis, hoje na ilha de Agilkia, perto de Assuã, no Egito.",
+        "variantes": [
+          "Templo de Filas",
+          "Templo de Ísis em Filas"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto clássica das torres em formato de lótus refletidas no lago, inconfundível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que templo do Sudeste Asiático é este?",
+      "resposta": "Angkor Wat",
+      "distratores": [
+        "Bayon",
+        "Banteay Srei",
+        "Prambanan"
+      ],
+      "ancora": {
+        "nome": "Angkor Wat",
+        "descricao": "Imenso complexo de templos khmer do século doze em Siem Reap, no Camboja, construído como templo hindu e depois budista.",
+        "variantes": [
+          "Angkor Vat"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Apenas uma silhueta distante ao pôr do sol; não é reconhecível e poderia ser qualquer mesquita."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Mesquita de adobe com vigas salientes, característica e sem texto; pessoas ao fundo são pequenas e incidentais.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país africano fica esta mesquita feita de barro?",
+      "resposta": "Mali",
+      "distratores": [
+        "Níger",
+        "Burkina Faso",
+        "Mauritânia"
+      ],
+      "ancora": {
+        "nome": "Grande Mesquita de Djenné",
+        "descricao": "Maior construção de adobe do mundo, mesquita em estilo sudano-saheliano em Djenné, no Mali, com a estrutura atual de 1907.",
+        "variantes": [
+          "Grande Mesquita de Jené",
+          "Great Mosque of Djenné"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada com colunas e portal dourado, sem texto; réplica única e específica do templo bíblico.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade brasileira fica este templo, réplica de um templo bíblico?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Rio de Janeiro",
+        "Belo Horizonte",
+        "Brasília"
+      ],
+      "ancora": {
+        "nome": "Templo de Salomão (São Paulo)",
+        "descricao": "Templo da Igreja Universal do Reino de Deus em São Paulo, construído como réplica do Templo de Salomão de Jerusalém.",
+        "variantes": [
+          "Templo de Salomão da Igreja Universal"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fileira de rodas de oração douradas, claras; o texto é em escrita tibetana e não entrega a resposta; a mão ao lado é incidental.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que objeto de oração budista, que se gira com a mão, é este?",
+      "resposta": "Roda de oração",
+      "distratores": [
+        "Tigela cantante",
+        "Sino tibetano",
+        "Moinho de mantras"
+      ],
+      "ancora": {
+        "nome": "Roda de oração",
+        "descricao": "Cilindro budista, comum no Tibete, que contém mantras e é girado como forma de recitação.",
+        "variantes": [
+          "Roda de mani",
+          "Mani wheel",
+          "Prayer wheel"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Torre piramidal característica, com a figueira ao lado; sem texto; os monges são pequenos e incidentais.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que líder religioso teria alcançado a iluminação no local deste templo indiano?",
+      "resposta": "Buda (Sidarta Gautama)",
+      "distratores": [
+        "Confúcio",
+        "Mahavira",
+        "Lao-Tsé"
+      ],
+      "ancora": {
+        "nome": "Templo Mahabodhi",
+        "descricao": "Templo budista restaurado em Bodh Gaya, na Índia, que marca o local onde Buda teria alcançado a iluminação.",
+        "variantes": [
+          "Templo de Mahabodhi",
+          "Mahabodhi Mahavihara"
+        ]
+      }
+    }
+  ]
+}

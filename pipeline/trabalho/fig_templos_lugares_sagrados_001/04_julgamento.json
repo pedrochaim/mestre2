@@ -1,0 +1,628 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Santuário de Lourdes",
+        "descricao": "Santuário mariano católico em Lourdes, nos Pirenéus franceses, ao redor da gruta das aparições de 1858.",
+        "variantes": [
+          "Santuário de Nossa Senhora de Lourdes",
+          "Lourdes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "delfos",
+          "nome": "Delfos",
+          "descricao": "Antigo santuário grego na encosta do monte Parnaso, sede do oráculo da Pítia e do templo de Apolo.",
+          "variantes": [
+            "Delphi",
+            "Santuário de Delfos",
+            "Oráculo de Delfos"
+          ]
+        },
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        },
+        {
+          "id": "lord_s",
+          "nome": "Lord's",
+          "descricao": "Campo de críquete em St John's Wood, Londres, sede do Marylebone Cricket Club.",
+          "variantes": [
+            "Lord's Cricket Ground"
+          ]
+        },
+        {
+          "id": "cirio_de_nazare",
+          "nome": "Círio de Nazaré",
+          "descricao": "Grande procissão católica em honra de Nossa Senhora de Nazaré realizada em Belém do Pará em outubro.",
+          "variantes": [
+            "Círio de Nossa Senhora de Nazaré"
+          ]
+        },
+        {
+          "id": "santuario_de_cristo_rei",
+          "nome": "Santuário de Cristo Rei",
+          "descricao": "Monumento religioso em Almada, Portugal, de frente para Lisboa, inaugurado em 1959.",
+          "variantes": [
+            "Cristo Rei",
+            "Sanctuary of Christ the King",
+            "Cristo Rei de Almada"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Templo de Zeus Olímpico",
+        "descricao": "Colossal templo em ruínas no centro de Atenas, dedicado a Zeus Olímpico e concluído sob o imperador Adriano.",
+        "variantes": [
+          "Olimpieion",
+          "Colunas de Zeus Olímpico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_zeus_olimpico",
+          "nome": "Templo de Zeus Olímpico",
+          "descricao": "Colossal templo em ruínas no centro de Atenas, concluído no reinado do imperador Adriano.",
+          "variantes": [
+            "Olimpeion",
+            "Olympieion",
+            "Templo de Zeus Olímpico (Atenas)",
+            "Olimpieion",
+            "Temple of Olympian Zeus"
+          ]
+        },
+        {
+          "id": "templo_de_hera_olimpia",
+          "nome": "Templo de Hera (Olímpia)",
+          "descricao": "Antigo templo grego arcaico em Olímpia, onde a chama olímpica é acesa.",
+          "variantes": [
+            "Heraion",
+            "Heréon de Olímpia"
+          ]
+        },
+        {
+          "id": "monte_olimpo_2",
+          "nome": "Monte Olimpo",
+          "descricao": "Montanha mais alta da Grécia, considerada pelos gregos antigos a morada dos deuses olímpicos.",
+          "variantes": [
+            "Olimpo",
+            "Mount Olympus"
+          ]
+        },
+        {
+          "id": "olympia_manet",
+          "nome": "Olympia (Manet)",
+          "descricao": "Pintura de Édouard Manet, de 1863, de uma mulher nua reclinada numa cama, com uma criada; está no Museu d'Orsay.",
+          "variantes": [
+            "Olympia",
+            "Olímpia"
+          ]
+        },
+        {
+          "id": "primeiro_templo_de_jerusalem",
+          "nome": "Primeiro Templo de Jerusalém",
+          "descricao": "Templo judaico erguido em Jerusalém e destruído pelos babilônios no século seis antes de Cristo",
+          "variantes": [
+            "Templo de Salomão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Crucifixo",
+        "descricao": "Cruz com a imagem de Jesus crucificado, principal símbolo de muitos grupos cristãos, em especial os católicos.",
+        "variantes": [
+          "Cruz com Cristo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cruz_da_ordem_de_cristo",
+          "nome": "Cruz da Ordem de Cristo",
+          "descricao": "Cruz vermelha e branca da Ordem de Cristo, símbolo de Portugal associado aos Descobrimentos.",
+          "variantes": [
+            "Cruz de Cristo",
+            "Cruz Portuguesa"
+          ]
+        },
+        {
+          "id": "tiro_esportivo",
+          "nome": "Tiro esportivo",
+          "descricao": "Modalidade de precisão com armas de fogo ou de ar comprimido, aqui pistolas em competição olímpica.",
+          "variantes": [
+            "Tiro",
+            "Tiro com pistola"
+          ]
+        },
+        {
+          "id": "terceira_cruzada",
+          "nome": "Terceira Cruzada",
+          "descricao": "Cruzada de 1189 a 1192 lançada para retomar Jerusalém de Saladino.",
+          "variantes": [
+            "Cruzada dos Reis",
+            "Third Crusade"
+          ]
+        },
+        {
+          "id": "rubidio",
+          "nome": "Rubídio",
+          "descricao": "Elemento químico de número atômico 37, metal alcalino descoberto em 1861 por espectroscopia.",
+          "variantes": [
+            "Rubidium"
+          ]
+        },
+        {
+          "id": "corpus_christi",
+          "nome": "Corpus Christi",
+          "descricao": "Festa católica que celebra a eucaristia, conhecida no Brasil pelos tapetes de rua",
+          "variantes": [
+            "Festa do Corpo de Deus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Zigurate de Ur",
+        "descricao": "Zigurate neo-sumério construído pelo rei Ur-Nammu na cidade de Ur, perto de Nasíria, no sul do Iraque.",
+        "variantes": [
+          "Grande Zigurate de Ur",
+          "Etemenniguru"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "zigurate_de_ur",
+          "nome": "Zigurate de Ur",
+          "descricao": "Grande zigurate sumério do século vinte e um antes de Cristo, construído por Ur-Nammu na antiga cidade de Ur, no sul do Iraque.",
+          "variantes": [
+            "Grande Zigurate de Ur",
+            "Etemenniguru"
+          ]
+        },
+        {
+          "id": "etemenanki",
+          "nome": "Etemenanki",
+          "descricao": "Grande zigurate da Babilônia, dedicado ao deus Marduk.",
+          "variantes": [
+            "Zigurate de Babilônia"
+          ]
+        },
+        {
+          "id": "zigurate",
+          "nome": "Zigurate",
+          "descricao": "Templo mesopotâmico em forma de torre com terraços em degraus.",
+          "variantes": [
+            "Ziggurat"
+          ]
+        },
+        {
+          "id": "estandarte_de_ur",
+          "nome": "Estandarte de Ur",
+          "descricao": "Caixa de madeira suméria decorada com mosaicos de cenas de guerra e de paz, achada em Ur.",
+          "variantes": [
+            "Standard of Ur",
+            "Liras de Ur"
+          ]
+        },
+        {
+          "id": "liras_de_ur",
+          "nome": "Liras de Ur",
+          "descricao": "Instrumentos de corda sumérios, de cerca de 2500 a.C., achados no Cemitério Real de Ur e decorados com cabeças de touro.",
+          "variantes": [
+            "Lyres of Ur",
+            "Lira com cabeça de touro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Templo de Philae",
+        "descricao": "Complexo de templos egípcios dedicado à deusa Ísis, hoje na ilha de Agilkia, perto de Assuã, no Egito.",
+        "variantes": [
+          "Templo de Filas",
+          "Templo de Ísis em Filas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baalbek",
+          "nome": "Baalbek",
+          "descricao": "Cidade e sítio arqueológico romano no Vale do Beca, no Líbano, aqui o Templo de Baco.",
+          "variantes": [
+            "Heliópolis",
+            "Templo de Baco"
+          ]
+        },
+        {
+          "id": "templo_de_edfu",
+          "nome": "Templo de Edfu",
+          "descricao": "Templo dedicado ao deus Hórus na cidade de Edfu, no sul do Egito, um dos mais bem conservados do país",
+          "variantes": [
+            "Templo de Hórus em Edfu",
+            "Temple of Edfu"
+          ]
+        },
+        {
+          "id": "templo_de_hefesto",
+          "nome": "Templo de Hefesto",
+          "descricao": "Templo dórico muito bem preservado, no noroeste da Ágora de Atenas, dedicado a Hefesto.",
+          "variantes": [
+            "Hefesteion",
+            "Teseion"
+          ]
+        },
+        {
+          "id": "primeiro_templo_de_jerusalem",
+          "nome": "Primeiro Templo de Jerusalém",
+          "descricao": "Templo judaico erguido em Jerusalém e destruído pelos babilônios no século seis antes de Cristo",
+          "variantes": [
+            "Templo de Salomão"
+          ]
+        },
+        {
+          "id": "templo_de_artemis",
+          "nome": "Templo de Ártemis",
+          "descricao": "Grande templo grego dedicado à deusa Ártemis na antiga cidade de Éfeso, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Artemísion",
+            "Templo de Diana em Éfeso",
+            "Templo de Ártemis em Éfeso",
+            "Temple of Artemis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Angkor Wat",
+        "descricao": "Imenso complexo de templos khmer do século doze em Siem Reap, no Camboja, construído como templo hindu e depois budista.",
+        "variantes": [
+          "Angkor Vat"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "angkor_wat",
+          "nome": "Angkor Wat",
+          "descricao": "Templo do Império Khmer do século doze, no Camboja.",
+          "variantes": [
+            "Angkor Vat"
+          ]
+        },
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        },
+        {
+          "id": "la_angora",
+          "nome": "Lã angorá",
+          "descricao": "Fibra felpuda e macia tirada do pelo do coelho angorá",
+          "variantes": [
+            "Angorá",
+            "Angora wool"
+          ]
+        },
+        {
+          "id": "agora",
+          "nome": "Ágora",
+          "descricao": "Praça pública central das cidades gregas antigas, lugar de mercado, reunião e vida política.",
+          "variantes": []
+        },
+        {
+          "id": "satoru_iwata",
+          "nome": "Satoru Iwata",
+          "descricao": "Programador japonês da HAL Laboratory que depois presidiu a Nintendo, de 2002 a 2015.",
+          "variantes": [
+            "Iwata Satoru",
+            "Iwata"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Grande Mesquita de Djenné",
+        "descricao": "Maior construção de adobe do mundo, mesquita em estilo sudano-saheliano em Djenné, no Mali, com a estrutura atual de 1907.",
+        "variantes": [
+          "Grande Mesquita de Jené",
+          "Great Mosque of Djenné"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_mesquita_de_djenne",
+          "nome": "Grande Mesquita de Djenné",
+          "descricao": "Mesquita de barro na cidade de Djenné, no Mali, reconstruída em 1907 e Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Great Mosque of Djenné",
+            "Mesquita de Djenné"
+          ]
+        },
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        },
+        {
+          "id": "raul_boesel",
+          "nome": "Raul Boesel",
+          "descricao": "Ex-piloto brasileiro de Fórmula 1, Champ Car e protótipos, campeão mundial de esporte-protótipos em 1987.",
+          "variantes": [
+            "Raul de Mesquita Boesel"
+          ]
+        },
+        {
+          "id": "mesquita_do_profeta",
+          "nome": "Mesquita do Profeta",
+          "descricao": "Mesquita em Medina, Arábia Saudita, segunda mais sagrada do Islã, com a cúpula verde sobre o túmulo de Maomé.",
+          "variantes": [
+            "Al-Masjid an-Nabawi",
+            "Mesquita de Medina"
+          ]
+        },
+        {
+          "id": "buda_gigante_de_leshan",
+          "nome": "Buda Gigante de Leshan",
+          "descricao": "Estátua de Buda de 71 metros esculpida em um penhasco em Leshan, Sichuan, China.",
+          "variantes": [
+            "Grande Buda de Leshan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Templo de Salomão (São Paulo)",
+        "descricao": "Templo da Igreja Universal do Reino de Deus em São Paulo, construído como réplica do Templo de Salomão de Jerusalém.",
+        "variantes": [
+          "Templo de Salomão da Igreja Universal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "primeiro_templo_de_jerusalem",
+          "nome": "Primeiro Templo de Jerusalém",
+          "descricao": "Templo judaico erguido em Jerusalém e destruído pelos babilônios no século seis antes de Cristo",
+          "variantes": [
+            "Templo de Salomão"
+          ]
+        },
+        {
+          "id": "arquipelago_de_sao_pedro_e_sao_paulo",
+          "nome": "Arquipélago de São Pedro e São Paulo",
+          "descricao": "Pequeno grupo de rochedos brasileiros no meio do oceano Atlântico, perto da linha do Equador.",
+          "variantes": [
+            "Penedos de São Pedro e São Paulo",
+            "Rochedos de São Pedro e São Paulo"
+          ]
+        },
+        {
+          "id": "metro_de_sao_paulo",
+          "nome": "Metrô de São Paulo",
+          "descricao": "Sistema de metrô da cidade de São Paulo, o primeiro do Brasil.",
+          "variantes": [
+            "Companhia do Metropolitano de São Paulo"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        },
+        {
+          "id": "morro_de_sao_paulo",
+          "nome": "Morro de São Paulo",
+          "descricao": "Distrito turístico do município de Cairu, na Bahia, na ilha de Tinharé.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Roda de oração",
+        "descricao": "Cilindro budista, comum no Tibete, que contém mantras e é girado como forma de recitação.",
+        "variantes": [
+          "Roda de mani",
+          "Mani wheel",
+          "Prayer wheel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lenda_da_mandioca",
+          "nome": "Lenda da mandioca",
+          "descricao": "Lenda indígena tupi sobre a menina Mani, de cujo túmulo teria brotado a mandioca.",
+          "variantes": [
+            "Lenda de Mani"
+          ]
+        },
+        {
+          "id": "roda_d_agua",
+          "nome": "Roda d'água",
+          "descricao": "Grande roda de madeira com pás ou caçambas que converte a energia da água corrente em força mecânica, usada em moinhos.",
+          "variantes": [
+            "Roda de água",
+            "Roda hidráulica",
+            "Azenha"
+          ]
+        },
+        {
+          "id": "roca_de_fiar",
+          "nome": "Roca de fiar",
+          "descricao": "Equipamento de madeira com roda e fuso para transformar fibras em fio, usado antes da Revolução Industrial.",
+          "variantes": [
+            "Roda de fiar",
+            "Roca",
+            "Spinning wheel"
+          ]
+        },
+        {
+          "id": "london_eye",
+          "nome": "London Eye",
+          "descricao": "Roda-gigante de observação à margem sul do rio Tâmisa, em Londres, inaugurada na virada do milênio.",
+          "variantes": [
+            "Millennium Wheel",
+            "Roda do Milênio"
+          ]
+        },
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda",
+            "Capoeira circle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Templo Mahabodhi",
+        "descricao": "Templo budista restaurado em Bodh Gaya, na Índia, que marca o local onde Buda teria alcançado a iluminação.",
+        "variantes": [
+          "Templo de Mahabodhi",
+          "Mahabodhi Mahavihara"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_debod",
+          "nome": "Templo de Debod",
+          "descricao": "Templo egípcio antigo da Núbia doado pelo Egito à Espanha e remontado num parque de Madri",
+          "variantes": [
+            "Temple of Debod"
+          ]
+        },
+        {
+          "id": "byodo_in",
+          "nome": "Byodo-in",
+          "descricao": "Templo budista do século onze em Uji, perto de Quioto, famoso pelo Pavilhão da Fênix.",
+          "variantes": [
+            "Templo Byodoin"
+          ]
+        },
+        {
+          "id": "baalbek",
+          "nome": "Baalbek",
+          "descricao": "Cidade e sítio arqueológico romano no Vale do Beca, no Líbano, aqui o Templo de Baco.",
+          "variantes": [
+            "Heliópolis",
+            "Templo de Baco"
+          ]
+        },
+        {
+          "id": "primeiro_templo_de_jerusalem",
+          "nome": "Primeiro Templo de Jerusalém",
+          "descricao": "Templo judaico erguido em Jerusalém e destruído pelos babilônios no século seis antes de Cristo",
+          "variantes": [
+            "Templo de Salomão"
+          ]
+        },
+        {
+          "id": "templo_mayor",
+          "nome": "Templo Mayor",
+          "descricao": "Principal templo dos mexicas em Tenochtitlan, cujas ruínas ficam no centro da Cidade do México.",
+          "variantes": [
+            "Huey Teocalli",
+            "Grande Templo de Tenochtitlan"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Lourdes não está entre as candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "templo_de_zeus_olimpico",
+      "motivo": "Mesmo templo em Atenas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Crucifixo não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "zigurate_de_ur",
+      "motivo": "Mesmo zigurate de Ur-Nammu."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Philae não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "angkor_wat",
+      "motivo": "Mesmo templo khmer no Camboja."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "grande_mesquita_de_djenne",
+      "motivo": "Mesma mesquita de Djenné."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Réplica em São Paulo é distinta do templo antigo de Jerusalém."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Roda de oração budista não está entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Mahabodhi não está entre as candidatas."
+    }
+  ]
+}
