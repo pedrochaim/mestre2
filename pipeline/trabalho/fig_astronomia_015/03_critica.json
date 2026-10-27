@@ -1,0 +1,33 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Centaurus A é uma galáxia. O enunciado não dá pista que entregue a resposta e os distratores são de outros tipos de objeto, com até 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'camadas de gás expelidas por uma estrela' define a nebulosa planetária e entrega a resposta sem a figura. Também vale para o distrator 'Remanescente de supernova', que é gás expelido por uma estrela. Troco a pista por uma que ajuda sem entregar: a constelação de Gêmeos, confirmada nos trechos.",
+      "reescrita": {
+        "pergunta": "Esta nebulosa fica na constelação de Gêmeos. Que tipo de nebulosa ela é?",
+        "resposta": "Nebulosa planetária",
+        "distratores": [
+          "Nebulosa de reflexão",
+          "Nebulosa escura",
+          "Remanescente de supernova"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que NGC 4676 é um par de galáxias em fusão com longas caudas de maré. O enunciado não nomeia a entidade e a figura é necessária para separar as Galáxias dos Ratos das Antenas, que também têm caudas. Os distratores são plausíveis e nenhum descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}

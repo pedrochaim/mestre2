@@ -1,0 +1,122 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Retrato de busto com bandeiras; o rosto não é reconhecível pela maioria e as bandeiras tornam a identificação ambígua (outros cosmonautas ou astronautas do mesmo programa)."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem composta famosa, com faixa de poeira e jatos, sem texto. Boa para reconhecer o tipo de objeto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de objeto celeste é este?",
+      "resposta": "Galáxia",
+      "distratores": [
+        "Nebulosa planetária",
+        "Aglomerado globular",
+        "Remanescente de supernova"
+      ],
+      "ancora": {
+        "nome": "Centaurus A",
+        "descricao": "Galáxia ativa na constelação de Centaurus, com faixa escura de poeira e jatos, a rádio-galáxia mais próxima da Terra.",
+        "variantes": [
+          "NGC 5128",
+          "Caldwell 77"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Peça de museu em corte, com placa ao fundo; não dá para garantir que seja o Sputnik 2 e a resposta não é única diante da imagem (modelos de outros satélites soviéticos são parecidos)."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Lua cinzenta e craterada, parecida com Dione, Tétis ou a nossa Lua; não é reconhecível de forma única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Mancha escura num campo de estrelas, sem forma característica reconhecível; difícil demais e legível mal no celular."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem do Hubble de nebulosa com casca dupla, sem texto; o tipo é identificável pela forma.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de nebulosa é esta, formada por camadas de gás expelidas por uma estrela?",
+      "resposta": "Nebulosa planetária",
+      "distratores": [
+        "Nebulosa de reflexão",
+        "Nebulosa escura",
+        "Remanescente de supernova"
+      ],
+      "ancora": {
+        "nome": "Nebulosa do Esquimó",
+        "descricao": "Nebulosa planetária de casca dupla na constelação de Gêmeos, catalogada como NGC 2392.",
+        "variantes": [
+          "NGC 2392",
+          "Nebulosa Cabeça de Palhaço",
+          "Caldwell 39"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Vista aérea de um prédio com cúpulas, pouco reconhecível sem contexto e confundível com outros observatórios ou planetários; tem muitas pessoas pequenas ao fundo."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem do Hubble de duas galáxias em colisão com longas caudas, característica e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que par de galáxias em interação, com longas caudas, é este?",
+      "resposta": "Galáxias dos Ratos",
+      "distratores": [
+        "Galáxias das Antenas",
+        "Quinteto de Stephan",
+        "Galáxia do Girino"
+      ],
+      "ancora": {
+        "nome": "Galáxias dos Ratos",
+        "descricao": "Par de galáxias espirais em fusão na constelação Coma Berenices, com longas caudas de maré, catalogado como NGC 4676.",
+        "variantes": [
+          "NGC 4676",
+          "Mice Galaxies"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Recorte lunar em preto e branco, de baixa resolução e sem forma característica; não é reconhecível."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto pequena e de baixa resolução; o brilho no horizonte pode ser confundido com crepúsculo ou poluição luminosa, e não é legível no celular."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto em preto e branco de cometa, não distinguível de outros cometas; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Lua cinzenta e craterada, parecida com outras luas de Urano, Saturno ou a Lua; não é reconhecível de forma única."
+    }
+  ]
+}

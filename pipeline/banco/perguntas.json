@@ -301875,5 +301875,80 @@
       "autor": "José Braga;Didier Descouens",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q15850",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "centaurus_a",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de objeto celeste é este?",
+    "resposta": "Galáxia",
+    "distratores": [
+      "Nebulosa planetária",
+      "Aglomerado globular",
+      "Remanescente de supernova"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Centaurus_A",
+      "https://pt.wikipedia.org/wiki/NGC_5128"
+    ],
+    "imagem": {
+      "arquivo": "q15850.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:ESO_Centaurus_A_LABOCA.jpg",
+      "autor": "ESO/WFI (Optical); MPIfR/ESO/APEX/A.Weiss et al. (Submillimetre); NASA/CXC/CfA/R.Kraft et al. (X-ray)",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q15851",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "nebulosa_do_esquimo",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Esta nebulosa fica na constelação de Gêmeos. Que tipo de nebulosa ela é?",
+    "resposta": "Nebulosa planetária",
+    "distratores": [
+      "Nebulosa de reflexão",
+      "Nebulosa escura",
+      "Remanescente de supernova"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Eskimo_Nebula",
+      "https://pt.wikipedia.org/wiki/Nebulosa_do_Esquim%C3%B3"
+    ],
+    "imagem": {
+      "arquivo": "q15851.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lion_Nebula_roars_to_life_for_Webb_ESA524574.jpg",
+      "autor": "European Space Agency",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q15852",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "galaxias_dos_ratos",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que par de galáxias em interação, com longas caudas, é este?",
+    "resposta": "Galáxias dos Ratos",
+    "distratores": [
+      "Galáxias das Antenas",
+      "Quinteto de Stephan",
+      "Galáxia do Girino"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mice_Galaxies",
+      "https://pt.wikipedia.org/wiki/NGC_4676"
+    ],
+    "imagem": {
+      "arquivo": "q15852.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:NGC4676.jpg",
+      "autor": "NASA, H. Ford (JHU), G. Illingworth (UCSC/LO), M.Clampin (STScI), G. Hartig (STScI), the ACS Science Team, and ESA",
+      "licenca": "Public domain"
+    }
   }
 ]
