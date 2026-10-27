@@ -1,0 +1,134 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que objeto de escritório é este?",
+        "resposta": "Grampeador"
+      },
+      "existentes": [
+        {
+          "id": "q01618",
+          "pergunta": "Que objeto de escritório, usado para unir folhas de papel, é este?",
+          "resposta": "Grampeador"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que veículo espacial americano é este?",
+        "resposta": "Ônibus espacial"
+      },
+      "existentes": [
+        {
+          "id": "q02402",
+          "pergunta": "Que tipo de nave da NASA é esta?",
+          "resposta": "Ônibus espacial"
+        },
+        {
+          "id": "q03992",
+          "pergunta": "Em que década voou pela primeira vez este veículo espacial americano?",
+          "resposta": "Década de 1980"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Quem inventou este quebra-cabeça?",
+        "resposta": "Ernő Rubik"
+      },
+      "existentes": [
+        {
+          "id": "q00905",
+          "pergunta": "O cubo mágico foi inventado pelo húngaro Ernő Rubik, professor de arquitetura. Em que ano ele criou o primeiro protótipo?",
+          "resposta": "1974"
+        },
+        {
+          "id": "q06444",
+          "pergunta": "Em 1974, que professor húngaro de arquitetura inventou o cubo mágico?",
+          "resposta": "Ernő Rubik"
+        },
+        {
+          "id": "q07330",
+          "pergunta": "No cubo mágico com o esquema de cores padrão, que cor fica na face oposta à branca?",
+          "resposta": "Amarelo"
+        },
+        {
+          "id": "q15701",
+          "pergunta": "Girando as faces de um cubo mágico comum, de três por três, é possível chegar a quantas combinações diferentes?",
+          "resposta": "Cerca de 43 quintilhões"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Quem foi o engenheiro-chefe do programa que construiu este satélite?",
+        "resposta": "Sergei Korolev"
+      },
+      "existentes": [
+        {
+          "id": "q00560",
+          "pergunta": "O primeiro satélite artificial, lançado pelos soviéticos, tem um nome russo que pode ser traduzido como o quê?",
+          "resposta": "Companheiro de viagem"
+        },
+        {
+          "id": "q00593",
+          "pergunta": "Em que ano a União Soviética lançou o Sputnik, o primeiro satélite artificial, dando início à corrida espacial?",
+          "resposta": "1957"
+        },
+        {
+          "id": "q03911",
+          "pergunta": "O lançamento do satélite soviético Sputnik, em 1957, levou os Estados Unidos a criar no ano seguinte qual agência espacial?",
+          "resposta": "Nasa"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que ano este telescópio foi lançado ao espaço?",
+        "resposta": "2021"
+      },
+      "existentes": [
+        {
+          "id": "q06739",
+          "pergunta": "Que telescópio espacial é este?",
+          "resposta": "Telescópio Espacial James Webb"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q01618",
+      "motivo": "Ambas pedem identificar o objeto como grampeador."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q02402",
+      "motivo": "Ambas pedem identificar a imagem como ônibus espacial."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q06444",
+      "motivo": "O inventor do cubo mágico, Ernő Rubik, é a mesma resposta e o mesmo fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "O engenheiro-chefe do programa é um fato diferente de nome, ano ou agência criada."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "O ano de lançamento é um fato diferente da identificação do telescópio."
+    }
+  ]
+}

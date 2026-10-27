@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; distratores do mesmo tipo e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'reutilizável' e 'decolou da Flórida' quase entrega a resposta sem a figura e também descreve Falcon 9/Dragon, que decolam da Flórida e são reutilizáveis, tornando um distrator defensável. Troquei por pista de país e ajustei distratores.",
+      "reescrita": {
+        "pergunta": "Que veículo espacial americano é este?",
+        "resposta": "Ônibus espacial",
+        "distratores": [
+          "Foguete Saturno V",
+          "Cápsula Apollo",
+          "Foguete Atlas V"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia a resposta; distratores são instrumentos parecidos mas distintos do quadrante mostrado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples; notebook e laptop são sinônimos, e o questionador julga com bom senso. Distratores corretos e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inventor confirmado nos trechos (1974, Ernő Rubik); o enunciado não nomeia o objeto nem o inventor; distratores não são inventores do cubo.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos apontam Korolev (Koroliov) como projetista-chefe do R-7 e principal responsável pelo Sputnik; distratores plausíveis e não corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lançamento em 25 de dezembro de 2021 confirmado; enunciado não nomeia o telescópio; distratores são anos próximos e errados.",
+      "reescrita": null
+    }
+  ]
+}

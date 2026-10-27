@@ -1,0 +1,453 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Grampeador",
+        "descricao": "Aparelho mecânico que prende folhas de papel com grampos metálicos.",
+        "variantes": [
+          "Agrafador",
+          "Grampeador de papel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grampeador",
+          "nome": "Grampeador",
+          "descricao": "Dispositivo mecânico que une folhas de papel cravando um grampo metálico e dobrando suas pontas.",
+          "variantes": [
+            "Agrafador",
+            "Stapler"
+          ]
+        },
+        {
+          "id": "gramado",
+          "nome": "Gramado",
+          "descricao": "Município turístico da Serra Gaúcha, no Rio Grande do Sul, conhecido pela arquitetura de influência alemã e italiana.",
+          "variantes": []
+        },
+        {
+          "id": "reco_reco",
+          "nome": "Reco-reco",
+          "descricao": "Instrumento de percussão raspado, de origem africana, usado na música brasileira, aqui no modelo de molas metálicas.",
+          "variantes": [
+            "Raspador",
+            "Caracaxá",
+            "Querequexé"
+          ]
+        },
+        {
+          "id": "ralador",
+          "nome": "Ralador",
+          "descricao": "Utensílio de cozinha com lâmina perfurada usado para ralar alimentos.",
+          "variantes": []
+        },
+        {
+          "id": "grampo_de_cabelo",
+          "nome": "Grampo de cabelo",
+          "descricao": "Pequeno grampo metálico de duas hastes, ondulado, que prende o cabelo no lugar.",
+          "variantes": [
+            "Grampo",
+            "Bobby pin",
+            "Presilha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ônibus espacial",
+        "descricao": "Sistema espacial parcialmente reutilizável da NASA, em operação de 1981 a 2011; na foto, o Discovery em lançamento.",
+        "variantes": [
+          "Space Shuttle",
+          "Space Shuttle Discovery",
+          "Shuttle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "onibus_espacial",
+          "nome": "Ônibus espacial",
+          "descricao": "Sistema espacial parcialmente reutilizável da NASA, operado de 1981 a 2011.",
+          "variantes": [
+            "Space Shuttle",
+            "Space Transportation System",
+            "STS",
+            "Shuttle"
+          ]
+        },
+        {
+          "id": "volante_badminton",
+          "nome": "Volante (badminton)",
+          "descricao": "Peteca de penas usada no badminton.",
+          "variantes": [
+            "Shuttlecock",
+            "Peteca de badminton"
+          ]
+        },
+        {
+          "id": "onibus_espacial_columbia",
+          "nome": "Ônibus espacial Columbia",
+          "descricao": "Primeiro ônibus espacial da NASA a ir ao espaço, em 1981, destruído na reentrada em 2003.",
+          "variantes": [
+            "Space Shuttle Columbia",
+            "Columbia",
+            "OV-102"
+          ]
+        },
+        {
+          "id": "traje_espacial",
+          "nome": "Traje espacial",
+          "descricao": "Roupa pressurizada que protege astronautas do vácuo, da temperatura e da radiação no espaço.",
+          "variantes": [
+            "Roupa espacial",
+            "Escafandro espacial"
+          ]
+        },
+        {
+          "id": "onibus_espacial_enterprise",
+          "nome": "Ônibus espacial Enterprise",
+          "descricao": "Primeiro orbitador do programa de ônibus espaciais da NASA, usado apenas em testes de voo na atmosfera.",
+          "variantes": [
+            "Enterprise",
+            "OV-101",
+            "Space Shuttle Enterprise"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Quadrante",
+        "descricao": "Instrumento com arco de 90 graus usado para medir ângulos, em astronomia e navegação.",
+        "variantes": [
+          "Quadrante astronômico",
+          "Quadrante de prumo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "relogio_de_sol",
+          "nome": "Relógio de sol",
+          "descricao": "Instrumento com um gnômon que projeta sombra sobre um mostrador marcado com horas.",
+          "variantes": [
+            "Quadrante solar"
+          ]
+        },
+        {
+          "id": "quadra_de_grama",
+          "nome": "Quadra de grama",
+          "descricao": "Tipo de quadra de tênis com superfície de grama, a original do lawn tennis.",
+          "variantes": [
+            "Grass court",
+            "Quadra de relva"
+          ]
+        },
+        {
+          "id": "alcorao",
+          "nome": "Alcorão",
+          "descricao": "Livro sagrado do islã, considerado pelos muçulmanos a palavra de Deus revelada a Maomé",
+          "variantes": [
+            "Corão",
+            "Qur'an",
+            "Quran"
+          ]
+        },
+        {
+          "id": "dante_alighieri",
+          "nome": "Dante Alighieri",
+          "descricao": "Poeta florentino, autor da Divina Comédia.",
+          "variantes": [
+            "Dante"
+          ]
+        },
+        {
+          "id": "quadra_de_saibro",
+          "nome": "Quadra de saibro",
+          "descricao": "Quadra de tênis coberta por pó de tijolo, pedra ou xisto triturado, como as de Roland Garros.",
+          "variantes": [
+            "Clay court",
+            "Terre battue"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Notebook",
+        "descricao": "Computador pessoal portátil com tela e teclado articulados em forma de concha.",
+        "variantes": [
+          "Laptop",
+          "Computador portátil"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ventilador",
+          "nome": "Ventilador",
+          "descricao": "Máquina com pás giratórias que produz fluxo de ar; aqui, um modelo portátil de clipe.",
+          "variantes": [
+            "Ventilador portátil",
+            "Fan"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        },
+        {
+          "id": "latao",
+          "nome": "Latão",
+          "descricao": "Liga metálica amarelada de cobre e zinco, usada em instrumentos de sopro, fechaduras e torneiras.",
+          "variantes": []
+        },
+        {
+          "id": "o_castelo_no_ceu",
+          "nome": "O Castelo no Céu",
+          "descricao": "Filme de animação de 1986 de Hayao Miyazaki, também chamado Laputa.",
+          "variantes": [
+            "Laputa: Castle in the Sky",
+            "Tenkū no Shiro Rapyuta",
+            "Laputa",
+            "Castle in the Sky"
+          ]
+        },
+        {
+          "id": "spoink",
+          "nome": "Spoink",
+          "descricao": "Pokémon porco psíquico da terceira geração, que salta sobre uma mola na cauda, número 325 da Pokédex Nacional.",
+          "variantes": [
+            "Baneboo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cubo mágico",
+        "descricao": "Quebra-cabeça tridimensional de cubo com faces coloridas giratórias, inventado em 1974.",
+        "variantes": [
+          "Cubo de Rubik",
+          "Rubik's Cube"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cubo_magico",
+          "nome": "Cubo mágico",
+          "descricao": "Quebra-cabeça tridimensional de faces coloridas giratórias criado pelo húngaro Ernő Rubik.",
+          "variantes": [
+            "Cubo de Rubik",
+            "Rubik's Cube"
+          ]
+        },
+        {
+          "id": "cudo",
+          "nome": "Cudo",
+          "descricao": "Grande antílope de savanas arborizadas (Tragelaphus strepsiceros) do leste e do sul da África, com chifres espiralados.",
+          "variantes": [
+            "Cudo-maior",
+            "Greater kudu",
+            "Tragelaphus strepsiceros"
+          ]
+        },
+        {
+          "id": "quadrado_magico",
+          "nome": "Quadrado mágico",
+          "descricao": "Arranjo quadrado de números em que linhas, colunas e diagonais principais têm a mesma soma.",
+          "variantes": [
+            "Magic square"
+          ]
+        },
+        {
+          "id": "cubo_d_agua",
+          "nome": "Cubo d'Água",
+          "descricao": "Centro Nacional de Natação de Pequim, com fachada de bolhas azuis, construído para os Jogos Olímpicos de 2008.",
+          "variantes": [
+            "Water Cube",
+            "Centro Aquático Nacional de Pequim"
+          ]
+        },
+        {
+          "id": "abrigo_de_cro_magnon",
+          "nome": "Abrigo de Cro-Magnon",
+          "descricao": "Abrigo rochoso em Les Eyzies, onde foram achados em 1868 esqueletos de Homo sapiens que deram nome aos primeiros humanos modernos da Europa.",
+          "variantes": [
+            "Cro-Magnon",
+            "Abri de Cro-Magnon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Sputnik 1",
+        "descricao": "Primeiro satélite artificial da Terra, lançado pela União Soviética em 1957.",
+        "variantes": [
+          "Sputnik",
+          "Спутник-1"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sputnik_1",
+          "nome": "Sputnik 1",
+          "descricao": "Primeiro satélite artificial da Terra, lançado pela União Soviética em 1957.",
+          "variantes": [
+            "Sputnik"
+          ]
+        },
+        {
+          "id": "atlas_vertebra",
+          "nome": "Atlas (vértebra)",
+          "descricao": "Primeira vértebra cervical, que sustenta o crânio.",
+          "variantes": [
+            "Atlas",
+            "C1",
+            "Atlas (anatomy)"
+          ]
+        },
+        {
+          "id": "nebulosa_do_caranguejo",
+          "nome": "Nebulosa do Caranguejo",
+          "descricao": "Remanescente da supernova de 1054, na constelação de Touro, também chamada Messier 1.",
+          "variantes": [
+            "Messier 1",
+            "M1",
+            "NGC 1952",
+            "Crab Nebula"
+          ]
+        },
+        {
+          "id": "formula_1",
+          "nome": "Fórmula 1",
+          "descricao": "Principal categoria de monopostos do automobilismo mundial, organizada pela FIA desde 1950.",
+          "variantes": [
+            "Formula One",
+            "F1"
+          ]
+        },
+        {
+          "id": "blackjack",
+          "nome": "Blackjack",
+          "descricao": "Jogo de cartas de cassino, também chamado vinte e um, em que se tenta somar vinte e um pontos sem passar.",
+          "variantes": [
+            "Vinte e um",
+            "21"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Telescópio Espacial James Webb",
+        "descricao": "Telescópio espacial infravermelho da NASA, com espelho primário de segmentos hexagonais dourados.",
+        "variantes": [
+          "James Webb",
+          "JWST",
+          "Telescópio Webb"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "telescopio_espacial_james_webb",
+          "nome": "Telescópio Espacial James Webb",
+          "descricao": "Telescópio espacial infravermelho da NASA, ESA e CSA, lançado em 2021, com espelho primário de segmentos hexagonais dourados.",
+          "variantes": [
+            "James Webb",
+            "JWST",
+            "Webb"
+          ]
+        },
+        {
+          "id": "telescopio",
+          "nome": "Telescópio",
+          "descricao": "Instrumento óptico que usa lentes ou espelhos para observar objetos distantes.",
+          "variantes": [
+            "Luneta",
+            "Telescope"
+          ]
+        },
+        {
+          "id": "telescopio_espacial_hubble",
+          "nome": "Telescópio Espacial Hubble",
+          "descricao": "Telescópio espacial da NASA e da ESA em órbita baixa da Terra, lançado em 1990.",
+          "variantes": [
+            "Hubble",
+            "HST",
+            "Hubble Space Telescope"
+          ]
+        },
+        {
+          "id": "tubarao",
+          "nome": "Tubarão",
+          "descricao": "Filme de suspense de 1975 dirigido por Steven Spielberg, sobre um tubarão-branco que ataca banhistas.",
+          "variantes": [
+            "Jaws"
+          ]
+        },
+        {
+          "id": "tubarao_romance",
+          "nome": "Tubarão (romance)",
+          "descricao": "Romance americano de 1974 sobre um tubarão-branco que ataca um balneário, base do filme de Steven Spielberg.",
+          "variantes": [
+            "Jaws"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "grampeador",
+      "motivo": "Mesmo objeto: aparelho que prende folhas com grampos; variantes coincidem."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "onibus_espacial",
+      "motivo": "Ambos descrevem o sistema Space Shuttle da NASA (1981–2011); a menção ao Discovery é só da foto."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Quadrante (instrumento de arco de 90°) não é o relógio de sol, apesar da variante 'quadrante solar'."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um computador portátil."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "cubo_magico",
+      "motivo": "Mesmo quebra-cabeça, o Cubo de Rubik."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "sputnik_1",
+      "motivo": "Mesmo satélite, descrição idêntica."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "telescopio_espacial_james_webb",
+      "motivo": "Mesmo telescópio JWST, descrições e variantes coincidem."
+    }
+  ]
+}

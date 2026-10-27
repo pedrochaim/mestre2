@@ -300640,5 +300640,105 @@
       "licenca": "CC BY-SA 2.0"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q15802",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "quadrante",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que instrumento antigo de astronomia e navegação é este?",
+    "resposta": "Quadrante",
+    "distratores": [
+      "Sextante",
+      "Astrolábio",
+      "Octante"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Quadrant_%28instrument%29",
+      "https://pt.wikipedia.org/wiki/Quadrante"
+    ],
+    "imagem": {
+      "arquivo": "q15802.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cuadrante_marino.jpg",
+      "autor": "Tamorlan",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q15803",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "notebook",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de computador é este?",
+    "resposta": "Notebook",
+    "distratores": [
+      "Tablet",
+      "Computador de mesa",
+      "Calculadora gráfica"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Laptop",
+      "https://pt.wikipedia.org/wiki/Laptop"
+    ],
+    "imagem": {
+      "arquivo": "q15803.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lenovo_G500s_laptop-2905.jpg",
+      "autor": "Raimond Spekking",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q15804",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "sputnik_1",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem foi o engenheiro-chefe do programa que construiu este satélite?",
+    "resposta": "Sergei Korolev",
+    "distratores": [
+      "Wernher von Braun",
+      "Konstantin Tsiolkovsky",
+      "Valentin Glushko"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sputnik_1",
+      "https://pt.wikipedia.org/wiki/Sputnik-1"
+    ],
+    "imagem": {
+      "arquivo": "q15804.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sputnik.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15805",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "telescopio_espacial_james_webb",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano este telescópio foi lançado ao espaço?",
+    "resposta": "2021",
+    "distratores": [
+      "2019",
+      "2020",
+      "2022"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope",
+      "https://pt.wikipedia.org/wiki/Telesc%C3%B3pio_Espacial_James_Webb"
+    ],
+    "imagem": {
+      "arquivo": "q15805.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:JWST_spacecraft_model_2.png",
+      "autor": "NASA",
+      "licenca": "Public domain"
+    }
   }
 ]
