@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que serpente é esta?",
+        "resposta": "Periquitamboia"
+      },
+      "existentes": [
+        {
+          "id": "q05995",
+          "pergunta": "Os filhotes desta serpente arborícola sul-americana nascem de que cor?",
+          "resposta": "Vermelho-alaranjado"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação da espécie (provavelmente por imagem). A existente pergunta a cor dos filhotes. São fatos diferentes."
+    }
+  ]
+}

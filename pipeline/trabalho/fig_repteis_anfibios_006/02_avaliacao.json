@@ -1,0 +1,274 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Naja em pose de defesa, imagem clara, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que serpente é esta?",
+      "resposta": "Naja-egípcia",
+      "distratores": [
+        "Cobra-rei",
+        "Mamba-negra",
+        "Naja-indiana"
+      ],
+      "ancora": {
+        "nome": "Naja-egípcia",
+        "descricao": "Naja haje, serpente elapídea venenosa do norte da África.",
+        "variantes": [
+          "Naja haje",
+          "Cobra-egípcia"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Close verde-amarelo entre musgos; os cílios não aparecem e pode ser outra Bothriechis, sem resposta única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Matamatá inconfundível pelo casco rugoso e pescoço achatado com franjas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tartaruga de água doce é esta?",
+      "resposta": "Matamatá",
+      "distratores": [
+        "Tartaruga-de-casca-mole",
+        "Tartaruga-de-orelha-vermelha",
+        "Tartaruga-mordedora"
+      ],
+      "ancora": {
+        "nome": "Matamatá",
+        "descricao": "Chelus fimbriata, cágado amazônico de pescoço lateral, com casco rugoso e cabeça achatada com franjas.",
+        "variantes": [
+          "Mata-mata",
+          "Chelus fimbriata"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Dragão-barbudo com a barba eriçada, bem visível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que lagarto é este?",
+      "resposta": "Dragão-barbudo",
+      "distratores": [
+        "Lagarto-de-gola",
+        "Diabo-espinhoso",
+        "Iguana-verde"
+      ],
+      "ancora": {
+        "nome": "Dragão-barbudo",
+        "descricao": "Pogona vitticeps, lagarto agamídeo australiano com bolsa espinhosa sob o queixo.",
+        "variantes": [
+          "Pogona",
+          "Pogona vitticeps",
+          "Dragão-barbudo-central"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cílios e crista característicos visíveis; assinatura ilegível e sem relação com a resposta, apesar da baixa resolução.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que lagarto é este?",
+      "resposta": "Gecko-de-crista",
+      "distratores": [
+        "Gecko-leopardo",
+        "Tokay",
+        "Camaleão-de-Jackson"
+      ],
+      "ancora": {
+        "nome": "Gecko-de-crista",
+        "descricao": "Correlophus ciliatus, gecko da Nova Caledônia com cristas acima dos olhos.",
+        "variantes": [
+          "Gecko-de-cílios",
+          "Correlophus ciliatus",
+          "Rhacodactylus ciliatus"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Periquitamboia enrodilhada, verde com manchas brancas; com distrator parecido vira nível 2.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que serpente é esta?",
+      "resposta": "Periquitamboia",
+      "distratores": [
+        "Píton-verde-arborícola",
+        "Jiboia",
+        "Sucuri"
+      ],
+      "ancora": {
+        "nome": "Periquitamboia",
+        "descricao": "Corallus caninus, jiboia arborícola verde das florestas da América do Sul.",
+        "variantes": [
+          "Jiboia-esmeralda",
+          "Corallus caninus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Manchas amarelas na cabeça bem visíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que quelônio amazônico é este?",
+      "resposta": "Tracajá",
+      "distratores": [
+        "Tartaruga-de-orelha-vermelha",
+        "Cágado-de-barbicha",
+        "Jabuti-piranga"
+      ],
+      "ancora": {
+        "nome": "Tracajá",
+        "descricao": "Podocnemis unifilis, tartaruga de rio amazônica com manchas amarelas na cabeça.",
+        "variantes": [
+          "Podocnemis unifilis",
+          "Taricaya"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Chifre sobre o olho e chocalho visíveis, claramente Crotalus cerastes.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que serpente de chocalho é esta?",
+      "resposta": "Cascavel-chifruda",
+      "distratores": [
+        "Cascavel-diamante",
+        "Cascavel-de-Mojave",
+        "Cascavel-sul-americana"
+      ],
+      "ancora": {
+        "nome": "Cascavel-chifruda",
+        "descricao": "Crotalus cerastes, víbora de chocalho dos desertos do sudoeste dos EUA, com 'chifres' sobre os olhos.",
+        "variantes": [
+          "Sidewinder",
+          "Crotalus cerastes"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Focinho e nadadeiras característicos, embora de baixa resolução.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tartaruga de água doce é esta?",
+      "resposta": "Tartaruga-de-nariz-de-porco",
+      "distratores": [
+        "Matamatá",
+        "Tartaruga-de-casca-mole",
+        "Tartaruga-verde"
+      ],
+      "ancora": {
+        "nome": "Tartaruga-de-nariz-de-porco",
+        "descricao": "Carettochelys insculpta, tartaruga de nadadeiras e focinho carnudo do norte da Austrália e da Nova Guiné.",
+        "variantes": [
+          "Carettochelys insculpta",
+          "Tartaruga-do-rio-Fly"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Salamandra negra com manchas amarelas, nítida.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que salamandra é esta?",
+      "resposta": "Salamandra-tigre",
+      "distratores": [
+        "Axolote",
+        "Tritão-de-crista",
+        "Salamandra-gigante-japonesa"
+      ],
+      "ancora": {
+        "nome": "Salamandra-tigre",
+        "descricao": "Ambystoma tigrinum, grande salamandra terrestre norte-americana, escura com manchas amarelas.",
+        "variantes": [
+          "Ambystoma tigrinum"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Língua azul visível, mas o gênero Tiliqua inclui outras espécies; a pergunta pelo país, com distratores fora de Tiliqua, é segura.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país vive este lagarto?",
+      "resposta": "Austrália",
+      "distratores": [
+        "Madagascar",
+        "Nova Zelândia",
+        "África do Sul"
+      ],
+      "ancora": {
+        "nome": "Lagarto-de-língua-azul",
+        "descricao": "Lagarto australiano do gênero Tiliqua, da família dos escincídeos, com língua azul.",
+        "variantes": [
+          "Tiliqua",
+          "Blue-tongued skink"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Anfíbio anelado sem membros, reconhecível como cobra-cega.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este animal sem patas é um anfíbio. Que grupo de anfíbios é este?",
+      "resposta": "Cobra-cega",
+      "distratores": [
+        "Salamandra",
+        "Perereca",
+        "Tritão"
+      ],
+      "ancora": {
+        "nome": "Cobra-cega",
+        "descricao": "Siphonops annulatus, anfíbio gimnofiônio sem membros, com anéis claros, da América do Sul.",
+        "variantes": [
+          "Cecília",
+          "Siphonops annulatus"
+        ]
+      }
+    }
+  ]
+}
