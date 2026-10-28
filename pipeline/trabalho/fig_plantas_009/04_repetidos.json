@@ -1,0 +1,84 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta fruta é um híbrido natural entre o pomelo e qual outra fruta cítrica?",
+        "resposta": "Tangerina"
+      },
+      "existentes": [
+        {
+          "id": "q02769",
+          "pergunta": "Esta fruta é um híbrido entre o pomelo e qual outra fruta?",
+          "resposta": "Tangerina"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A floração desta árvore é símbolo informal de qual país?",
+        "resposta": "Japão"
+      },
+      "existentes": [
+        {
+          "id": "q06062",
+          "pergunta": "Em 1912, o prefeito de Tóquio deu de presente milhares de cerejeiras japonesas, hoje uma grande atração turística. Que capital estrangeira recebeu as árvores?",
+          "resposta": "Washington"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A parte arredondada e avermelhada desta hortaliça, que é a mais consumida, é qual órgão da planta?",
+        "resposta": "Raiz"
+      },
+      "existentes": [
+        {
+          "id": "q08080",
+          "pergunta": "Esta raiz pertence à mesma subespécie de uma hortaliça de folhas verdes largas, muito usada em refogados e tortas. Que hortaliça é essa?",
+          "resposta": "Acelga"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que planta trepadeira tropical, nativa do México e muito usada na decoração de interiores, é esta?",
+        "resposta": "Costela-de-adão"
+      },
+      "existentes": [
+        {
+          "id": "q15675",
+          "pergunta": "Que planta de folhas grandes e recortadas é esta?",
+          "resposta": "Costela-de-adão"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: híbrido de pomelo com tangerina; mesma resposta.",
+      "id_existente": "q02769"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Floração como símbolo do Japão é fato diferente de a capital que recebeu as cerejeiras (Washington)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Órgão da planta (raiz) é fato diferente de a hortaliça de mesma subespécie (acelga)."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas identificam a planta como costela-de-adão; mesma resposta e mesmo fato de identificação.",
+      "id_existente": "q15675"
+    }
+  ]
+}

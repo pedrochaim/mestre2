@@ -1,0 +1,262 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pimentão vermelho nítido, fundo branco, sem texto.",
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Botanicamente, esta hortaliça é qual parte da planta?",
+      "resposta": "Fruto",
+      "distratores": [
+        "Raiz",
+        "Folha",
+        "Caule"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pimentão",
+        "descricao": "Fruto de Capsicum annuum do grupo Grossum, hortaliça doce de várias cores.",
+        "variantes": [
+          "Pimentão-doce",
+          "Bell pepper",
+          "Capsicum"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Broto em forma de cone entre folhas; não é claramente reconhecível como gengibre e pode ser outra Zingiberaceae (galanga, gengibre-ornamental)."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Violeta-africana de flores rosa franjadas, bem visível e típica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que planta de vaso, comum em parapeitos de casas, é esta?",
+      "resposta": "Violeta-africana",
+      "distratores": [
+        "Gloxínia",
+        "Begônia",
+        "Primavera"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Violeta-africana",
+        "descricao": "Planta herbácea ornamental de vaso do gênero Saintpaulia (Streptocarpus), nativa da Tanzânia e do Quênia.",
+        "variantes": [
+          "Saintpaulia",
+          "African violet"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Laranja inteira, cortada e gomo, fundo neutro, sem texto.",
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Como se chama a camada branca e esponjosa da casca desta fruta, entre a parte colorida e os gomos?",
+      "resposta": "Albedo",
+      "distratores": [
+        "Flavedo",
+        "Pecíolo",
+        "Endosperma"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Laranja",
+        "descricao": "Fruto cítrico da laranjeira (Citrus × sinensis), híbrido de pomelo e tangerina.",
+        "variantes": [
+          "Laranja-doce",
+          "Sweet orange",
+          "Citrus sinensis"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Flores de cerejeira em close, nítidas, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A floração desta árvore é símbolo informal de qual país?",
+      "resposta": "Japão",
+      "distratores": [
+        "China",
+        "Índia",
+        "Tailândia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cerejeira",
+        "descricao": "Árvore ornamental do gênero Prunus (subgênero Cerasus) cuja floração é a sakura.",
+        "variantes": [
+          "Sakura",
+          "Cerejeira-japonesa",
+          "Cherry blossom"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Árvore-de-josué isolada no deserto, silhueta inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que parque nacional da Califórnia leva o nome desta árvore?",
+      "resposta": "Joshua Tree",
+      "distratores": [
+        "Vale da Morte",
+        "Yosemite",
+        "Sequoia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Árvore-de-josué",
+        "descricao": "Yucca brevifolia, árvore-iúca do deserto de Mojave, no sudoeste dos Estados Unidos.",
+        "variantes": [
+          "Joshua tree",
+          "Yucca brevifolia",
+          "Iúca-de-josué"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Beterrabas com folhas, claras; o texto no elástico é só uma marca e não revela a resposta.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A parte arredondada e avermelhada desta hortaliça, que é a mais consumida, é qual órgão da planta?",
+      "resposta": "Raiz",
+      "distratores": [
+        "Fruto",
+        "Flor",
+        "Semente"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Beterraba",
+        "descricao": "Hortaliça de raiz pivotante avermelhada, Beta vulgaris subsp. vulgaris, grupo Conditiva.",
+        "variantes": [
+          "Beetroot",
+          "Beta vulgaris"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Costela-de-adão com folhas recortadas e furadas, bem característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que planta tropical, de folhas grandes e recortadas, muito usada em decoração de interiores, é esta?",
+      "resposta": "Costela-de-adão",
+      "distratores": [
+        "Jiboia",
+        "Zamioculca",
+        "Filodendro-xanadu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Costela-de-adão",
+        "descricao": "Monstera deliciosa, trepadeira tropical de folhas grandes com cortes e furos, nativa do México e da América Central.",
+        "variantes": [
+          "Monstera",
+          "Monstera deliciosa",
+          "Swiss cheese plant"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Beaucarnea com copa de folhas em tufos e base de tronco rugoso, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta planta ornamental, que não é palmeira de verdade, é nativa de qual país?",
+      "resposta": "México",
+      "distratores": [
+        "Peru",
+        "Brasil",
+        "África do Sul"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pata-de-elefante",
+        "descricao": "Beaucarnea recurvata, planta da família Asparagaceae com tronco dilatado na base e folhas em tufo, nativa do leste do México.",
+        "variantes": [
+          "Beaucarnea recurvata",
+          "Palmeira-de-rabo-de-cavalo",
+          "Ponytail palm"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Palmeira real sem detalhes que a distingam entre Roystonea oleracea e R. regia; resposta não é única."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Espigas de lavanda em close, nítidas.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que região da França é famosa pelos campos desta planta?",
+      "resposta": "Provença",
+      "distratores": [
+        "Normandia",
+        "Bretanha",
+        "Alsácia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lavanda",
+        "descricao": "Planta aromática do gênero Lavandula, da família Lamiaceae, cultivada para óleo essencial e ornamentação.",
+        "variantes": [
+          "Alfazema",
+          "Lavandula",
+          "Lavender"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Edelvais em close, forma estrelada peluda inconfundível.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "As estruturas brancas e peludas em forma de estrela desta flor de montanha são, na verdade, o quê?",
+      "resposta": "Brácteas",
+      "distratores": [
+        "Pétalas",
+        "Sépalas",
+        "Estames"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Edelvais",
+        "descricao": "Leontopodium nivale, flor da família Asteraceae de altas montanhas, coberta de pelos brancos, símbolo dos Alpes.",
+        "variantes": [
+          "Edelweiss",
+          "Leontopodium nivale",
+          "Estrela-do-alpes"
+        ]
+      }
+    }
+  ]
+}

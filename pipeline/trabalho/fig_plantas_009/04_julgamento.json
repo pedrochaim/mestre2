@@ -1,0 +1,651 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pimentão",
+        "descricao": "Fruto de Capsicum annuum do grupo Grossum, hortaliça doce de várias cores.",
+        "variantes": [
+          "Pimentão-doce",
+          "Bell pepper",
+          "Capsicum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pimenta",
+          "nome": "Pimenta",
+          "descricao": "Fruto picante das plantas do gênero Capsicum, como a malagueta e a jalapeño",
+          "variantes": [
+            "Capsicum",
+            "Pimenta-malagueta"
+          ]
+        },
+        {
+          "id": "pimentao",
+          "nome": "Pimentão",
+          "descricao": "Fruto de Capsicum annuum do grupo Grossum, usado como hortaliça, aqui vermelho.",
+          "variantes": [
+            "Pimentão vermelho",
+            "Bell pepper"
+          ]
+        },
+        {
+          "id": "cesio",
+          "nome": "Césio",
+          "descricao": "Elemento químico de símbolo Cs e número atômico 55, metal alcalino dourado que derrete perto da temperatura ambiente.",
+          "variantes": [
+            "Cs",
+            "Cesium",
+            "Caesium"
+          ]
+        },
+        {
+          "id": "papiamento",
+          "nome": "Papiamento",
+          "descricao": "Língua crioula de base ibérica falada nas Antilhas neerlandesas",
+          "variantes": [
+            "Papiamentu",
+            "Papiamentoe"
+          ]
+        },
+        {
+          "id": "pieta_michelangelo",
+          "nome": "Pietà (Michelangelo)",
+          "descricao": "Escultura de mármore de Michelangelo, de 1498-1499, que mostra Maria com Jesus morto no colo, na Basílica de São Pedro.",
+          "variantes": [
+            "Pietà do Vaticano",
+            "La Pietà",
+            "Pietà"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Violeta-africana",
+        "descricao": "Planta herbácea ornamental de vaso do gênero Saintpaulia (Streptocarpus), nativa da Tanzânia e do Quênia.",
+        "variantes": [
+          "Saintpaulia",
+          "African violet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eva_mitocondrial",
+          "nome": "Eva mitocondrial",
+          "descricao": "Ancestral comum mais recente, pela linhagem materna, de todos os seres humanos vivos, identificada pelo DNA mitocondrial.",
+          "variantes": [
+            "Mitochondrial Eve",
+            "Eva africana"
+          ]
+        },
+        {
+          "id": "leao_o_africano",
+          "nome": "Leão, o Africano",
+          "descricao": "Diplomata e viajante do século dezesseis, autor de uma célebre descrição da África, nascido al-Hasan al-Wazzan.",
+          "variantes": [
+            "Leo Africanus",
+            "Hasan al-Wazzan",
+            "Leão Africano"
+          ]
+        },
+        {
+          "id": "sandalia",
+          "nome": "Sandália",
+          "descricao": "Calçado aberto com sola presa ao pé por tiras.",
+          "variantes": [
+            "Sandalia rasteira",
+            "Sandal"
+          ]
+        },
+        {
+          "id": "elefante_africano",
+          "nome": "Elefante-africano",
+          "descricao": "Elefantes do gênero Loxodonta, nativos da África.",
+          "variantes": [
+            "Loxodonta",
+            "African elephant"
+          ]
+        },
+        {
+          "id": "santa_lucia",
+          "nome": "Santa Lúcia",
+          "descricao": "País insular das Pequenas Antilhas, no Caribe, com capital em Castries.",
+          "variantes": [
+            "Saint Lucia",
+            "St. Lucia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Laranja",
+        "descricao": "Fruto cítrico da laranjeira (Citrus × sinensis), híbrido de pomelo e tangerina.",
+        "variantes": [
+          "Laranja-doce",
+          "Sweet orange",
+          "Citrus sinensis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "laranja",
+          "nome": "Laranja",
+          "descricao": "Fruta cítrica Citrus × sinensis, híbrido de pomelo e tangerina, de casca e polpa alaranjadas.",
+          "variantes": [
+            "Laranja-doce",
+            "Citrus sinensis"
+          ]
+        },
+        {
+          "id": "tartaruga_verde",
+          "nome": "Tartaruga-verde",
+          "descricao": "Grande tartaruga-marinha herbívora (Chelonia mydas) de carapaça oliva a marrom.",
+          "variantes": [
+            "Chelonia mydas",
+            "Tartaruga-aruanã",
+            "Aruanã",
+            "Green sea turtle"
+          ]
+        },
+        {
+          "id": "parana_estado",
+          "nome": "Paraná (estado)",
+          "descricao": "Estado da Região Sul do Brasil, com capital em Curitiba.",
+          "variantes": [
+            "Paraná"
+          ]
+        },
+        {
+          "id": "aranha",
+          "nome": "Aranha",
+          "descricao": "Aracnídeos da ordem Araneae, predadores de oito patas que produzem seda.",
+          "variantes": [
+            "Araneae"
+          ]
+        },
+        {
+          "id": "rio_parana",
+          "nome": "Rio Paraná",
+          "descricao": "Grande rio sul-americano formado no Brasil, onde fica a usina de Itaipu, que segue pelo Paraguai e pela Argentina até o rio da Prata.",
+          "variantes": [
+            "Paraná",
+            "Paraná River"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Cerejeira",
+        "descricao": "Árvore ornamental do gênero Prunus (subgênero Cerasus) cuja floração é a sakura.",
+        "variantes": [
+          "Sakura",
+          "Cerejeira-japonesa",
+          "Cherry blossom"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cerejeira_japonesa",
+          "nome": "Cerejeira-japonesa",
+          "descricao": "Árvores ornamentais do gênero Prunus, as sakuras, famosas pela floração na primavera",
+          "variantes": [
+            "Sakura",
+            "Cerejeira ornamental"
+          ]
+        },
+        {
+          "id": "cereja",
+          "nome": "Cereja",
+          "descricao": "Fruta vermelha do gênero Prunus, uma drupe de caroço, como a Prunus avium.",
+          "variantes": [
+            "Cereja-doce",
+            "Prunus avium"
+          ]
+        },
+        {
+          "id": "samurai",
+          "nome": "Samurai",
+          "descricao": "Classe de guerreiros nobres do Japão pré-moderno, a serviço de senhores feudais.",
+          "variantes": [
+            "Samurais",
+            "Bushi"
+          ]
+        },
+        {
+          "id": "shakira",
+          "nome": "Shakira",
+          "descricao": "Cantora e compositora colombiana de pop latino, nascida Shakira Isabel Mebarak Ripoll",
+          "variantes": [
+            "Shakira Mebarak"
+          ]
+        },
+        {
+          "id": "escrita_japonesa",
+          "nome": "Escrita japonesa",
+          "descricao": "Conjunto de sistemas usados para escrever o japonês: kanji, hiragana e katakana.",
+          "variantes": [
+            "Japanese writing system"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Árvore-de-josué",
+        "descricao": "Yucca brevifolia, árvore-iúca do deserto de Mojave, no sudoeste dos Estados Unidos.",
+        "variantes": [
+          "Joshua tree",
+          "Yucca brevifolia",
+          "Iúca-de-josué"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "flamboyant",
+          "nome": "Flamboyant",
+          "descricao": "Delonix regia, árvore ornamental da família Fabaceae, de flores vermelho-alaranjadas, nativa de Madagascar.",
+          "variantes": [
+            "Flamboyan",
+            "Delonix regia",
+            "Árvore-de-fogo"
+          ]
+        },
+        {
+          "id": "arvore_bodhi",
+          "nome": "Árvore Bodhi",
+          "descricao": "Figueira sagrada sob a qual, segundo a tradição budista, Sidarta Gautama alcançou a iluminação.",
+          "variantes": [
+            "Bodhi Tree",
+            "Árvore da Iluminação",
+            "Árvore de Bodhi",
+            "Figueira sagrada"
+          ]
+        },
+        {
+          "id": "eclipse_lunar",
+          "nome": "Eclipse lunar",
+          "descricao": "Fenômeno em que a Terra fica entre o Sol e a Lua, e sua sombra cobre a Lua.",
+          "variantes": [
+            "Eclipse da Lua",
+            "Lua de sangue"
+          ]
+        },
+        {
+          "id": "canal_de_suez",
+          "nome": "Canal de Suez",
+          "descricao": "Canal artificial no Egito que liga o mar Mediterrâneo ao mar Vermelho.",
+          "variantes": [
+            "Suez Canal",
+            "Suez"
+          ]
+        },
+        {
+          "id": "arvore_de_natal",
+          "nome": "Árvore de Natal",
+          "descricao": "Pinheiro, natural ou artificial, enfeitado com luzes e ornamentos durante as festas de fim de ano.",
+          "variantes": [
+            "Pinheirinho de Natal",
+            "Christmas tree"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Beterraba",
+        "descricao": "Hortaliça de raiz pivotante avermelhada, Beta vulgaris subsp. vulgaris, grupo Conditiva.",
+        "variantes": [
+          "Beetroot",
+          "Beta vulgaris"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "beterraba",
+          "nome": "Beterraba",
+          "descricao": "Raiz vermelho-arroxeada da planta Beta vulgaris, consumida como hortaliça.",
+          "variantes": [
+            "Beterraba-vermelha",
+            "Beterraba de mesa"
+          ]
+        },
+        {
+          "id": "acelga",
+          "nome": "Acelga",
+          "descricao": "Hortaliça folhosa (Beta vulgaris subsp. vulgaris) de talos largos, brancos, amarelos ou vermelhos.",
+          "variantes": [
+            "Swiss chard",
+            "Beta vulgaris cicla"
+          ]
+        },
+        {
+          "id": "enterrada",
+          "nome": "Enterrada",
+          "descricao": "Arremesso em que o jogador salta e empurra a bola de cima para baixo dentro do aro.",
+          "variantes": [
+            "Slam dunk",
+            "Dunk"
+          ]
+        },
+        {
+          "id": "bebeto",
+          "nome": "Bebeto",
+          "descricao": "José Roberto Gama de Oliveira, atacante brasileiro campeão mundial em 1994, parceiro de ataque de Romário.",
+          "variantes": [
+            "José Roberto Gama de Oliveira"
+          ]
+        },
+        {
+          "id": "tomilho",
+          "nome": "Tomilho",
+          "descricao": "Erva culinária mediterrânea do gênero Thymus, da família da hortelã, usada seca ou fresca como tempero.",
+          "variantes": [
+            "Thyme",
+            "Thymus vulgaris"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Costela-de-adão",
+        "descricao": "Monstera deliciosa, trepadeira tropical de folhas grandes com cortes e furos, nativa do México e da América Central.",
+        "variantes": [
+          "Monstera",
+          "Monstera deliciosa",
+          "Swiss cheese plant"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "costela_de_adao",
+          "nome": "Costela-de-adão",
+          "descricao": "Planta trepadeira tropical, Monstera deliciosa, de folhas grandes com cortes e furos, muito usada como planta de vaso.",
+          "variantes": [
+            "Monstera",
+            "Monstera deliciosa",
+            "Swiss cheese plant"
+          ]
+        },
+        {
+          "id": "poke_bola",
+          "nome": "Poké Bola",
+          "descricao": "Esfera vermelha e branca usada pelos treinadores para capturar e carregar pokémon.",
+          "variantes": [
+            "Poké Ball",
+            "Pokébola",
+            "Monster Ball"
+          ]
+        },
+        {
+          "id": "ostra",
+          "nome": "Ostra",
+          "descricao": "Molusco bivalve marinho de concha calcificada e irregular, comestível, da superfamília Ostreoidea.",
+          "variantes": [
+            "Ostras"
+          ]
+        },
+        {
+          "id": "apertizacao",
+          "nome": "Apertização",
+          "descricao": "Método de conservar alimentos em recipientes hermeticamente fechados e aquecidos, origem da comida enlatada.",
+          "variantes": [
+            "Conserva",
+            "Enlatamento",
+            "Canning"
+          ]
+        },
+        {
+          "id": "mostarda",
+          "nome": "Mostarda",
+          "descricao": "Condimento feito das sementes da planta da mostarda, em grãos, pó ou pasta.",
+          "variantes": [
+            "Mostarda (condimento)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Pata-de-elefante",
+        "descricao": "Beaucarnea recurvata, planta da família Asparagaceae com tronco dilatado na base e folhas em tufo, nativa do leste do México.",
+        "variantes": [
+          "Beaucarnea recurvata",
+          "Palmeira-de-rabo-de-cavalo",
+          "Ponytail palm"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ave_elefante",
+          "nome": "Ave-elefante",
+          "descricao": "Ave gigante não voadora extinta de Madagascar, da família Aepyornithidae.",
+          "variantes": [
+            "Aepyornis",
+            "Aepyornithidae",
+            "Elephant bird"
+          ]
+        },
+        {
+          "id": "palmeira_imperial",
+          "nome": "Palmeira-imperial",
+          "descricao": "Palmeira alta do gênero Roystonea, de tronco liso e acinzentado, muito usada em jardins e avenidas.",
+          "variantes": [
+            "Roystonea",
+            "Palmeira-real",
+            "Royal palm"
+          ]
+        },
+        {
+          "id": "lata_de_bebida",
+          "nome": "Lata de bebida",
+          "descricao": "Embalagem cilíndrica de alumínio usada para refrigerantes e cervejas.",
+          "variantes": [
+            "Lata de refrigerante",
+            "Lata de alumínio"
+          ]
+        },
+        {
+          "id": "cavalinha",
+          "nome": "Cavalinha",
+          "descricao": "Planta do gênero Equisetum, de caules verdes articulados, que se reproduz por esporos.",
+          "variantes": [
+            "Equisetum",
+            "Rabo-de-cavalo",
+            "Horsetail"
+          ]
+        },
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala",
+            "Potala Palace"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Lavanda",
+        "descricao": "Planta aromática do gênero Lavandula, da família Lamiaceae, cultivada para óleo essencial e ornamentação.",
+        "variantes": [
+          "Alfazema",
+          "Lavandula",
+          "Lavender"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lavender",
+          "nome": "Lavender",
+          "descricao": "Cidade da região de Kanto, nos jogos Pokémon Red e Blue, onde fica a Torre Pokémon, conhecida pela música fúnebre.",
+          "variantes": [
+            "Lavender Town",
+            "Cidade de Lavender"
+          ]
+        },
+        {
+          "id": "savana",
+          "nome": "Savana",
+          "descricao": "Bioma de vegetação rasteira com árvores esparsas, típico de regiões tropicais com estação seca",
+          "variantes": [
+            "Savanna"
+          ]
+        },
+        {
+          "id": "luanda",
+          "nome": "Luanda",
+          "descricao": "Capital de Angola, fundada pelos portugueses em 1576 e ocupada pelos holandeses de 1641 a 1648.",
+          "variantes": [
+            "São Paulo da Assunção de Loanda"
+          ]
+        },
+        {
+          "id": "vingadores",
+          "nome": "Vingadores",
+          "descricao": "Equipe de super-heróis da Marvel criada por Stan Lee e Jack Kirby em 1963",
+          "variantes": [
+            "Avengers"
+          ]
+        },
+        {
+          "id": "libelula",
+          "nome": "Libélula",
+          "descricao": "Insetos voadores da ordem Odonata, de corpo longo, quatro asas e larvas aquáticas.",
+          "variantes": [
+            "Lavadeira",
+            "Odonata",
+            "Jacinta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Edelvais",
+        "descricao": "Leontopodium nivale, flor da família Asteraceae de altas montanhas, coberta de pelos brancos, símbolo dos Alpes.",
+        "variantes": [
+          "Edelweiss",
+          "Leontopodium nivale",
+          "Estrela-do-alpes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sirius",
+          "nome": "Sírius",
+          "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+          "variantes": [
+            "Alfa do Cão Maior",
+            "Estrela do Cão"
+          ]
+        },
+        {
+          "id": "venus",
+          "nome": "Vênus",
+          "descricao": "Segundo planeta a partir do Sol, coberto por uma atmosfera densa de gás carbônico.",
+          "variantes": [
+            "Estrela d'Alva"
+          ]
+        },
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        },
+        {
+          "id": "elvis_presley",
+          "nome": "Elvis Presley",
+          "descricao": "Cantor e ator americano conhecido como o Rei do Rock and Roll.",
+          "variantes": [
+            "Elvis Aaron Presley",
+            "Elvis"
+          ]
+        },
+        {
+          "id": "revolta_dos_males",
+          "nome": "Revolta dos Malês",
+          "descricao": "Levante de africanos escravizados e libertos ocorrido em Salvador, na Bahia, em janeiro de 1835.",
+          "variantes": [
+            "Levante dos Malês"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Existente é pimentão vermelho (variedade/cor específica); proposta é o pimentão em geral de várias cores. Na dúvida, nova."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a violeta-africana."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "laranja",
+      "motivo": "Mesma fruta Citrus × sinensis."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "cerejeira_japonesa",
+      "motivo": "Ambas descrevem as cerejeiras ornamentais sakura, com variante Sakura em comum."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Yucca brevifolia."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "beterraba",
+      "motivo": "Mesma hortaliça, a raiz da beterraba."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "costela_de_adao",
+      "motivo": "Mesma planta, Monstera deliciosa."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Beaucarnea recurvata."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Lavender candidata é a cidade de Pokémon, não a planta."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o edelvais."
+    }
+  ]
+}

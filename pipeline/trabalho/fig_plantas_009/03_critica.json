@@ -1,0 +1,90 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fruto botânico confirmado nos trechos; o enunciado não vaza e os distratores são órgãos incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista (planta de vaso) não entrega o nome; distratores são plantas de vaso parecidas e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Reprovada no teste da imagem coberta: o albedo é o mesmo em qualquer cítrico, então a figura é enfeite. Reescrita exige reconhecer a laranja e usa o fato do trecho (híbrido de pomelo e tangerina).",
+      "reescrita": {
+        "pergunta": "Esta fruta é um híbrido natural entre o pomelo e qual outra fruta cítrica?",
+        "resposta": "Tangerina",
+        "distratores": [
+          "Limão",
+          "Cidra",
+          "Lima"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A sakura como flor símbolo não oficial do Japão é amplamente documentada; o enunciado não nomeia a árvore e os distratores são países asiáticos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Parque Nacional Joshua Tree, na Califórnia, está nos trechos; sem a figura não se sabe de que árvore se fala.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que a beterraba é a raiz (taproot); o enunciado não vaza e os distratores estão errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Folhas grandes e recortadas' é quase uma definição da Monstera e também descreve o filodendro-xanadu (distrator). Troquei a pista por origem e uso, que ajudam sem entregar.",
+      "reescrita": {
+        "pergunta": "Que planta trepadeira tropical, nativa do México e muito usada na decoração de interiores, é esta?",
+        "resposta": "Costela-de-adão",
+        "distratores": [
+          "Jiboia",
+          "Zamioculca",
+          "Filodendro-xanadu"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nativa do México segundo os trechos, e não é palmeira verdadeira. A pista não identifica a planta e os distratores são críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os campos de lavanda da Provença são amplamente documentados. O enunciado não entrega a planta e os distratores são regiões francesas.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É fato amplamente documentado que o que parecem pétalas brancas peludas do edelvais são brácteas. O enunciado não nomeia a flor e os distratores estão incorretos.",
+      "reescrita": null
+    }
+  ]
+}
