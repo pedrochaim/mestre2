@@ -1,0 +1,127 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano foi inaugurada esta ponte?",
+        "resposta": "2008"
+      },
+      "existentes": [
+        {
+          "id": "q08668",
+          "pergunta": "Que rio esta ponte atravessa?",
+          "resposta": "Rio Pinheiros"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que órgão público funcionou neste palácio neogótico durante o Império?",
+        "resposta": "Alfândega"
+      },
+      "existentes": [
+        {
+          "id": "q02224",
+          "pergunta": "O Baile da Ilha Fiscal, na baía de Guanabara, foi a última grande festa do Império. Ele aconteceu poucos dias antes de qual acontecimento?",
+          "resposta": "Proclamação da República"
+        },
+        {
+          "id": "q08435",
+          "pergunta": "Que edifício carioca da época do Império é este?",
+          "resposta": "Palácio da Ilha Fiscal"
+        },
+        {
+          "id": "q14587",
+          "pergunta": "Que ilha da Baía de Guanabara é esta?",
+          "resposta": "Ilha Fiscal"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que ano foi inaugurado este estádio?",
+        "resposta": "1950"
+      },
+      "existentes": [
+        {
+          "id": "q00030",
+          "pergunta": "O Maracanã, no Rio de Janeiro, tem um nome oficial que homenageia qual jornalista esportivo?",
+          "resposta": "Mário Filho"
+        },
+        {
+          "id": "q00524",
+          "pergunta": "Que estádio é este?",
+          "resposta": "Maracanã"
+        },
+        {
+          "id": "q05436",
+          "pergunta": "Inaugurado ainda com obras por terminar, o Estádio do Maracanã, no Rio de Janeiro, foi construído para receber qual Copa do Mundo?",
+          "resposta": "Copa do Mundo de 1950"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Este prédio de Brasília foi projetado por Oscar Niemeyer. Que prédio é este?",
+        "resposta": "Teatro Nacional Cláudio Santoro"
+      },
+      "existentes": [
+        {
+          "id": "q07833",
+          "pergunta": "Projetado por Oscar Niemeyer, o Teatro Nacional Cláudio Santoro, em Brasília, tem a forma de que figura geométrica?",
+          "resposta": "Uma pirâmide sem topo"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que baía esta ponte atravessa?",
+        "resposta": "Baía de Guanabara"
+      },
+      "existentes": [
+        {
+          "id": "q04556",
+          "pergunta": "A ponte Rio-Niterói tem um nome oficial pouco usado, que homenageia um presidente do regime militar. Qual?",
+          "resposta": "Costa e Silva"
+        },
+        {
+          "id": "q05838",
+          "pergunta": "Atravessando a baía de Guanabara por mais de treze quilômetros, a ponte Rio-Niterói foi inaugurada em qual década?",
+          "resposta": "Década de 1970"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ano de inauguração é fato diferente do rio atravessado."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Órgão público que funcionou no palácio é fato diferente de identificar o edifício, a ilha ou o baile."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q05436",
+      "motivo": "Construído para a Copa de 1950 implica inauguração em 1950; quem sabe uma responde a outra."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nova pergunta pede identificar o prédio; existente pergunta a forma geométrica, e dar o nome na existente não é a mesma resposta."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Baía atravessada é fato diferente do nome oficial ou da década de inauguração (a baía aparece só como contexto na existente)."
+    }
+  ]
+}

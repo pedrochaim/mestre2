@@ -1,0 +1,548 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ponte Octavio Frias de Oliveira",
+        "descricao": "Ponte estaiada sobre o Rio Pinheiros, em São Paulo, com torre em forma de X, inaugurada em 2008.",
+        "variantes": [
+          "Ponte Estaiada Octavio Frias de Oliveira",
+          "Ponte Estaiada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_estaiada",
+          "nome": "Ponte Estaiada",
+          "descricao": "Ponte estaiada com torre em forma de X sobre o Rio Pinheiros, em São Paulo, inaugurada em 2008.",
+          "variantes": [
+            "Ponte Octavio Frias de Oliveira",
+            "Ponte Octávio Frias de Oliveira"
+          ]
+        },
+        {
+          "id": "ponte_25_de_abril",
+          "nome": "Ponte 25 de Abril",
+          "descricao": "Ponte pênsil sobre o rio Tejo que liga Lisboa a Almada, inaugurada em 1966.",
+          "variantes": [
+            "Ponte Salazar",
+            "25 de Abril Bridge"
+          ]
+        },
+        {
+          "id": "monte_testaccio",
+          "nome": "Monte Testaccio",
+          "descricao": "Colina artificial de Roma formada por restos de ânforas descartadas na Antiguidade.",
+          "variantes": [
+            "Testaccio",
+            "Monte dos Cacos"
+          ]
+        },
+        {
+          "id": "joao_do_pulo",
+          "nome": "João do Pulo",
+          "descricao": "João Carlos de Oliveira, atleta brasileiro do salto triplo, recordista mundial em 1975.",
+          "variantes": [
+            "João Carlos de Oliveira"
+          ]
+        },
+        {
+          "id": "monte_etna",
+          "nome": "Monte Etna",
+          "descricao": "Vulcão ativo da costa leste da Sicília, na Itália.",
+          "variantes": [
+            "Etna",
+            "Mount Etna",
+            "Mongibello"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ilha Fiscal",
+        "descricao": "Ilha da Baía de Guanabara, no Rio de Janeiro, com palácio neogótico sede da alfândega e palco do último baile do Império.",
+        "variantes": [
+          "Palácio da Ilha Fiscal",
+          "Ilha dos Ratos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_fiscal",
+          "nome": "Ilha Fiscal",
+          "descricao": "Pequena ilha na baía de Guanabara, no Rio de Janeiro, onde fica um castelo neogótico da antiga alfândega.",
+          "variantes": [
+            "Ilha dos Ratos",
+            "Palácio da Ilha Fiscal"
+          ]
+        },
+        {
+          "id": "a_ilha_dos_mortos",
+          "nome": "A Ilha dos Mortos",
+          "descricao": "Pintura simbolista de Arnold Böcklin, em várias versões entre 1880 e 1901.",
+          "variantes": [
+            "Die Toteninsel",
+            "Island of the Dead"
+          ]
+        },
+        {
+          "id": "dia_dos_mortos",
+          "nome": "Dia dos Mortos",
+          "descricao": "Celebração mexicana do início de novembro em que as famílias homenageiam seus mortos com altares e oferendas.",
+          "variantes": [
+            "Día de Muertos",
+            "Día de los Muertos"
+          ]
+        },
+        {
+          "id": "ilha_da_queimada_grande",
+          "nome": "Ilha da Queimada Grande",
+          "descricao": "Ilha no litoral do estado de São Paulo, habitat da jararaca-ilhoa.",
+          "variantes": [
+            "Ilha das Cobras",
+            "Snake Island"
+          ]
+        },
+        {
+          "id": "lagoa_dos_patos",
+          "nome": "Lagoa dos Patos",
+          "descricao": "Grande laguna costeira do Rio Grande do Sul, ligada ao oceano pela barra junto à cidade de Rio Grande.",
+          "variantes": [
+            "Laguna dos Patos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Sessão das Cortes de Lisboa",
+        "descricao": "Pintura histórica de Oscar Pereira da Silva, de 1922, no Museu Paulista, sobre a sessão das Cortes de 9 de maio de 1822.",
+        "variantes": [
+          "Sessão das Cortes de Lisboa (Oscar Pereira da Silva)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "desembarque_de_cabral_em_porto_seguro",
+          "nome": "Desembarque de Cabral em Porto Seguro",
+          "descricao": "Pintura de Oscar Pereira da Silva, de 1900, que mostra o desembarque de Pedro Álvares Cabral em Porto Seguro.",
+          "variantes": [
+            "Desembarque de Pedro Álvares Cabral em Porto Seguro em 1500",
+            "Descoberta do Brasil (Oscar Pereira da Silva)"
+          ]
+        },
+        {
+          "id": "santo_antonio",
+          "nome": "Santo Antônio",
+          "descricao": "Santo Antônio de Lisboa ou de Pádua, frade franciscano celebrado em 13 de junho e conhecido como santo casamenteiro.",
+          "variantes": [
+            "Santo Antônio de Pádua",
+            "Santo Antônio de Lisboa",
+            "Antônio de Lisboa"
+          ]
+        },
+        {
+          "id": "deusa_das_serpentes",
+          "nome": "Deusa das Serpentes",
+          "descricao": "Estatueta minoica de faiança, de cerca de 1600 a.C., achada no palácio de Cnossos, em Creta, de uma mulher segurando serpentes.",
+          "variantes": [
+            "Deusa das serpentes de Cnossos",
+            "Snake Goddess",
+            "Sacerdotisa das Serpentes"
+          ]
+        },
+        {
+          "id": "selecao_sul_coreana_de_futebol",
+          "nome": "Seleção Sul-Coreana de Futebol",
+          "descricao": "Seleção nacional de futebol da Coreia do Sul, semifinalista da Copa do Mundo de 2002, que sediou junto com o Japão.",
+          "variantes": [
+            "Seleção da Coreia do Sul"
+          ]
+        },
+        {
+          "id": "holi",
+          "nome": "Holi",
+          "descricao": "Festa hindu em que as pessoas se cobrem de pós e águas coloridas",
+          "variantes": [
+            "Festival das Cores",
+            "Festa das Cores"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Estádio do Maracanã",
+        "descricao": "Estádio de futebol no Rio de Janeiro, oficialmente Estádio Jornalista Mário Filho, inaugurado em 1950.",
+        "variantes": [
+          "Maracanã",
+          "Estádio Jornalista Mário Filho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        },
+        {
+          "id": "maracanazo",
+          "nome": "Maracanazo",
+          "descricao": "Vitória do Uruguai sobre o Brasil por 2 a 1 no Maracanã, em 16 de julho de 1950, que decidiu a Copa do Mundo daquele ano.",
+          "variantes": [
+            "Maracanaço",
+            "Uruguai 2 x 1 Brasil"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "estadio_do_dragao",
+          "nome": "Estádio do Dragão",
+          "descricao": "Estádio de futebol na cidade do Porto, em Portugal, casa do FC Porto desde 2003.",
+          "variantes": [
+            "Dragão",
+            "Estádio do Dragão do Porto"
+          ]
+        },
+        {
+          "id": "madrassa_sher_dor",
+          "nome": "Madrassa Sher-Dor",
+          "descricao": "Madrassa do século dezessete na Praça Registan, em Samarcanda, Uzbequistão, decorada com leões e sóis em mosaico.",
+          "variantes": [
+            "Samarcanda",
+            "Sher-Dor",
+            "Praça Registan",
+            "Registan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Teatro Nacional Cláudio Santoro",
+        "descricao": "Complexo de teatros em forma de pirâmide truncada em Brasília, projetado por Oscar Niemeyer.",
+        "variantes": [
+          "Teatro Nacional de Brasília"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teatro_nacional_claudio_santoro",
+          "nome": "Teatro Nacional Cláudio Santoro",
+          "descricao": "Teatro de Brasília projetado por Oscar Niemeyer, com fachadas decoradas por Athos Bulcão.",
+          "variantes": [
+            "Teatro Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "estadio_mane_garrincha",
+          "nome": "Estádio Mané Garrincha",
+          "descricao": "Estádio nacional de futebol de Brasília, com fileira de colunas ao redor, reformado para a Copa de 2014.",
+          "variantes": [
+            "Arena BRB Mané Garrincha",
+            "Estádio Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "armas_nacionais_do_brasil",
+          "nome": "Armas Nacionais do Brasil",
+          "descricao": "Brasão de armas oficial da República Federativa do Brasil, um dos quatro símbolos nacionais.",
+          "variantes": [
+            "Brasão de armas do Brasil",
+            "Brasão da República"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "hino_nacional_brasileiro",
+          "nome": "Hino Nacional Brasileiro",
+          "descricao": "Hino oficial do Brasil, com música de Francisco Manuel da Silva e letra de Joaquim Osório Duque-Estrada",
+          "variantes": [
+            "Ouviram do Ipiranga",
+            "Hino do Brasil",
+            "Hino Nacional"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Igreja de São Francisco de Assis (São João del-Rei)",
+        "descricao": "Igreja barroca da Ordem Terceira de São Francisco em São João del-Rei, Minas Gerais, com projeto de Aleijadinho.",
+        "variantes": [
+          "Igreja de São Francisco de São João del-Rei"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "igreja_de_sao_francisco_de_assis_ouro_preto",
+          "nome": "Igreja de São Francisco de Assis (Ouro Preto)",
+          "descricao": "Igreja barroca do século dezoito em Ouro Preto, com projeto atribuído a Aleijadinho.",
+          "variantes": []
+        },
+        {
+          "id": "igreja_de_sao_francisco_de_salvador",
+          "nome": "Igreja de São Francisco de Salvador",
+          "descricao": "Igreja barroca do convento franciscano no centro histórico de Salvador, na Bahia, do século dezoito.",
+          "variantes": [
+            "Igreja e Convento de São Francisco",
+            "Church and Convent of São Francisco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Igreja da Candelária",
+        "descricao": "Igreja católica no centro do Rio de Janeiro, de fachada barroca portuguesa, construída a partir de 1775.",
+        "variantes": [
+          "Igreja de Nossa Senhora da Candelária"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "igreja_anglicana",
+          "nome": "Igreja Anglicana",
+          "descricao": "Igreja da Inglaterra, separada de Roma no reinado de Henrique VIII",
+          "variantes": [
+            "Igreja da Inglaterra",
+            "Church of England"
+          ]
+        },
+        {
+          "id": "cientologia",
+          "nome": "Cientologia",
+          "descricao": "Movimento religioso criado nos Estados Unidos nos anos 1950",
+          "variantes": [
+            "Igreja da Cientologia",
+            "Scientology"
+          ]
+        },
+        {
+          "id": "igrejinha_nossa_senhora_de_fatima",
+          "nome": "Igrejinha Nossa Senhora de Fátima",
+          "descricao": "Primeira igreja católica de alvenaria de Brasília, na quadra 307/308 Sul, inaugurada em 1958.",
+          "variantes": [
+            "Igrejinha da 307/308 Sul",
+            "Igreja Nossa Senhora de Fátima"
+          ]
+        },
+        {
+          "id": "cirio_de_nazare",
+          "nome": "Círio de Nazaré",
+          "descricao": "Grande procissão católica em honra de Nossa Senhora de Nazaré realizada em Belém do Pará em outubro.",
+          "variantes": [
+            "Círio de Nossa Senhora de Nazaré"
+          ]
+        },
+        {
+          "id": "conjunto_moderno_da_pampulha",
+          "nome": "Conjunto Moderno da Pampulha",
+          "descricao": "Conjunto arquitetônico projetado por Oscar Niemeyer nos anos 1940 em torno da lagoa da Pampulha, com a Igreja de São Francisco de Assis.",
+          "variantes": [
+            "Pampulha",
+            "Igreja da Pampulha",
+            "Pampulha Modern Ensemble"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Más Notícias",
+        "descricao": "Pintura de Rodolfo Amoedo, de 1895, de uma mulher sentada numa poltrona, no Museu Nacional de Belas Artes.",
+        "variantes": [
+          "Más Notícias (Rodolfo Amoedo)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maraba_rodolfo_amoedo",
+          "nome": "Marabá (Rodolfo Amoedo)",
+          "descricao": "Pintura a óleo de 1882 de Rodolfo Amoedo, inspirada no poema de Gonçalves Dias.",
+          "variantes": [
+            "Marabá"
+          ]
+        },
+        {
+          "id": "louva_a_deus",
+          "nome": "Louva-a-deus",
+          "descricao": "Inseto predador da ordem Mantodea, com patas dianteiras adaptadas para capturar presas.",
+          "variantes": [
+            "Mantodea",
+            "Mantis",
+            "Mantídeo"
+          ]
+        },
+        {
+          "id": "a_rendicao_de_breda",
+          "nome": "A Rendição de Breda",
+          "descricao": "Pintura de Velázquez de 1634-1635 que mostra a entrega das chaves da cidade holandesa de Breda aos espanhóis.",
+          "variantes": [
+            "A Rendição de Breda (Velázquez)",
+            "As Lanças",
+            "La rendición de Breda",
+            "The Surrender of Breda"
+          ]
+        },
+        {
+          "id": "as_meninas",
+          "nome": "As Meninas",
+          "descricao": "Quadro de Diego Velázquez no Museu do Prado.",
+          "variantes": [
+            "Las Meninas"
+          ]
+        },
+        {
+          "id": "dormideira",
+          "nome": "Dormideira",
+          "descricao": "Mimosa pudica, planta rasteira da família das leguminosas cujas folhas se fecham ao toque.",
+          "variantes": [
+            "Sensitiva",
+            "Mimosa pudica",
+            "Malícia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Ponte Rio–Niterói",
+        "descricao": "Ponte sobre a Baía de Guanabara ligando o Rio de Janeiro a Niterói, inaugurada em 1974.",
+        "variantes": [
+          "Ponte Presidente Costa e Silva"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_rio_niteroi",
+          "nome": "Ponte Rio-Niterói",
+          "descricao": "Ponte sobre a Baía de Guanabara que liga as cidades do Rio de Janeiro e de Niterói, inaugurada em 1974.",
+          "variantes": [
+            "Ponte Presidente Costa e Silva"
+          ]
+        },
+        {
+          "id": "ponto_nemo",
+          "nome": "Ponto Nemo",
+          "descricao": "Polo de inacessibilidade oceânica, o ponto do oceano mais distante de qualquer terra, no Pacífico Sul.",
+          "variantes": [
+            "Point Nemo",
+            "Polo oceânico de inacessibilidade"
+          ]
+        },
+        {
+          "id": "rose_pokemon",
+          "nome": "Rose (Pokémon)",
+          "descricao": "Presidente da Liga Pokémon de Galar e da empresa Macro Cosmos, antagonista de Pokémon Sword e Shield.",
+          "variantes": [
+            "Chairman Rose",
+            "Presidente Rose"
+          ]
+        },
+        {
+          "id": "sistema_de_pontuacao_por_rali",
+          "nome": "Sistema de pontuação por rali",
+          "descricao": "Regra do vôlei em que todo rali vale ponto, independentemente de quem sacou, adotada pela FIVB em 1999.",
+          "variantes": [
+            "Rally point",
+            "Rally scoring",
+            "Ponto direto"
+          ]
+        },
+        {
+          "id": "ponte_luis_i",
+          "nome": "Ponte Luís I",
+          "descricao": "Ponte metálica em arco sobre o rio Douro, ligando o Porto a Vila Nova de Gaia, inaugurada em 1886.",
+          "variantes": [
+            "Ponte Dom Luís I",
+            "Dom Luís I Bridge"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "ponte_estaiada",
+      "motivo": "Mesma ponte estaiada sobre o Rio Pinheiros, com torre em X, inaugurada em 2008."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "ilha_fiscal",
+      "motivo": "Mesma ilha na Baía de Guanabara com palácio neogótico da alfândega."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pintura de Oscar Pereira da Silva sobre as Cortes; nenhuma candidata é essa obra."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "estadio_do_maracana",
+      "motivo": "Mesmo estádio do Maracanã, inaugurado em 1950."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "teatro_nacional_claudio_santoro",
+      "motivo": "Mesmo teatro de Brasília projetado por Niemeyer, com o mesmo nome."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Igreja de São João del-Rei, diferente das de Ouro Preto e Salvador."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Igreja da Candelária no Rio não consta entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Pintura Más Notícias de Amoedo é obra distinta de Marabá e das demais candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "ponte_rio_niteroi",
+      "motivo": "Mesma ponte Rio-Niterói, inaugurada em 1974."
+    }
+  ]
+}

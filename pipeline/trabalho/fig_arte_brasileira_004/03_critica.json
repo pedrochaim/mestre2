@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inaugurada em 10 de maio de 2008, conforme os dois trechos. O enunciado não vaza nada e os distratores são anos próximos e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que a alfândega funcionou no palacete neogótico durante o Império. O enunciado não identifica a ilha, então a figura é necessária. Os distratores são órgãos imperiais plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a pintura retrata a sessão das Cortes de 9 de maio de 1822. Os distratores são fatos de 1822 críveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que o estádio foi inaugurado em 1950. Os distratores são anos plausíveis e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista \"forma de pirâmide truncada\" mais \"Brasília\" e \"Niemeyer\" permite responder sem ver a imagem, então a figura virou enfeite. Remove-se a forma e deixa-se a figura distinguir o prédio entre as obras de Niemeyer.",
+      "reescrita": {
+        "pergunta": "Este prédio de Brasília foi projetado por Oscar Niemeyer. Que prédio é este?",
+        "resposta": "Teatro Nacional Cláudio Santoro",
+        "distratores": [
+          "Museu Nacional da República",
+          "Catedral de Brasília",
+          "Palácio do Itamaraty"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A igreja fica em São João del-Rei e a participação de Aleijadinho consta dos trechos. A atribuição não entrega a cidade, pois Aleijadinho atuou em várias cidades, e a figura distingue a igreja. Os distratores são cidades mineiras plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Igreja barroca\" é impreciso, porque só a fachada é barroca e o interior é neoclássico e neo-renascentista. Há também uma ermida de 1609 no local. Melhor especificar a fachada e o edifício atual, iniciado em 1775.",
+      "reescrita": {
+        "pergunta": "Esta igreja carioca tem fachada barroca portuguesa. Em que século começou a construção do atual edifício?",
+        "resposta": "Século dezoito",
+        "distratores": [
+          "Século dezessete",
+          "Século dezenove",
+          "Século dezesseis"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Más Notícias é de 1895, portanto do século dezenove, e fica no Museu Nacional de Belas Artes. O enunciado não vaza e os distratores são quadros brasileiros do mesmo período.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a ponte atravessa a Baía de Guanabara. O enunciado não entrega a resposta e os distratores são baías fluminenses ou brasileiras plausíveis.",
+      "reescrita": null
+    }
+  ]
+}

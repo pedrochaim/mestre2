@@ -1,0 +1,230 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ponte estaiada icônica, foto noturna nítida; o único texto visível (Hyatt) não entrega a resposta.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi inaugurada esta ponte?",
+      "resposta": "2008",
+      "distratores": [
+        "2005",
+        "2006",
+        "2010"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Ponte Octavio Frias de Oliveira",
+        "descricao": "Ponte estaiada sobre o Rio Pinheiros, em São Paulo, com torre em forma de X, inaugurada em 2008.",
+        "variantes": [
+          "Ponte Estaiada",
+          "Ponte Estaiada Octavio Frias de Oliveira"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Palácio neogótico verde sobre a ilha, inconfundível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que órgão público funcionou neste palácio neogótico durante o Império?",
+      "resposta": "Alfândega",
+      "distratores": [
+        "Casa da Moeda",
+        "Arsenal de Marinha",
+        "Correio Imperial"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Ilha Fiscal",
+        "descricao": "Ilha da Baía de Guanabara, no Rio de Janeiro, com palácio neogótico sede da alfândega e palco do último baile do Império.",
+        "variantes": [
+          "Palácio da Ilha Fiscal",
+          "Ilha dos Ratos"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A fachada mostra em letras grandes 'Estádio Municipal Paulo Machado de Carvalho', texto que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pintura histórica nítida, sem texto relevante; assinatura minúscula não entrega a resposta pedida, que é o acontecimento retratado.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que acontecimento de 1822 esta pintura retrata?",
+      "resposta": "Sessão das Cortes de Lisboa",
+      "distratores": [
+        "Dia do Fico",
+        "Grito do Ipiranga",
+        "Coroação de Pedro Primeiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sessão das Cortes de Lisboa",
+        "descricao": "Pintura histórica de Oscar Pereira da Silva, de 1922, no Museu Paulista, sobre a sessão das Cortes de 9 de maio de 1822.",
+        "variantes": [
+          "Sessão das Cortes de Lisboa (Oscar Pereira da Silva)"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do Maracanã, com o Maracanãzinho ao lado, sem texto; resposta é um ano, logo múltipla.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi inaugurado este estádio?",
+      "resposta": "1950",
+      "distratores": [
+        "1946",
+        "1954",
+        "1958"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Estádio do Maracanã",
+        "descricao": "Estádio de futebol no Rio de Janeiro, oficialmente Estádio Jornalista Mário Filho, inaugurado em 1950.",
+        "variantes": [
+          "Maracanã",
+          "Estádio Jornalista Mário Filho"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Duas pessoas comuns aparecem em primeiro plano na foto; além disso, a autoria da igreja é incerta para uma pergunta quem_fez."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Forma de pirâmide truncada característica; os letreiros nos prédios vizinhos não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prédio de Brasília, projetado por Niemeyer, tem esta forma de pirâmide truncada?",
+      "resposta": "Teatro Nacional Cláudio Santoro",
+      "distratores": [
+        "Museu Nacional da República",
+        "Catedral de Brasília",
+        "Palácio do Itamaraty"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Teatro Nacional Cláudio Santoro",
+        "descricao": "Complexo de teatros em forma de pirâmide truncada em Brasília, projetado por Oscar Niemeyer.",
+        "variantes": [
+          "Teatro Nacional de Brasília"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fachada com torres cilíndricas, típica da igreja de São João del-Rei, sem texto nem pessoas.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade mineira fica esta igreja, com projeto atribuído a Aleijadinho?",
+      "resposta": "São João del-Rei",
+      "distratores": [
+        "Ouro Preto",
+        "Tiradentes",
+        "Congonhas"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Igreja de São Francisco de Assis (São João del-Rei)",
+        "descricao": "Igreja barroca da Ordem Terceira de São Francisco em São João del-Rei, Minas Gerais, com projeto de Aleijadinho.",
+        "variantes": [
+          "Igreja de São Francisco de São João del-Rei"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fachada nítida e reconhecível, sem texto legível nem pessoas em destaque.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que século começou a construção desta igreja barroca?",
+      "resposta": "Século dezoito",
+      "distratores": [
+        "Século dezessete",
+        "Século dezenove",
+        "Século dezesseis"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Igreja da Candelária",
+        "descricao": "Igreja católica no centro do Rio de Janeiro, de fachada barroca portuguesa, construída a partir de 1775.",
+        "variantes": [
+          "Igreja de Nossa Senhora da Candelária"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A imagem é o retrato de um homem, não o sítio; pessoa não identificável com segurança e fora do assunto do item."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pintura nítida de uma mulher sentada; a assinatura é pequena e a pergunta pede o título, não o autor.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que quadro brasileiro do século dezenove é este?",
+      "resposta": "Más Notícias",
+      "distratores": [
+        "Saudade",
+        "Leitura",
+        "Moema"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Más Notícias",
+        "descricao": "Pintura de Rodolfo Amoedo, de 1895, de uma mulher sentada numa poltrona, no Museu Nacional de Belas Artes.",
+        "variantes": [
+          "Más Notícias (Rodolfo Amoedo)"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Ponte longa sobre a baía, inconfundível e sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que baía esta ponte atravessa?",
+      "resposta": "Baía de Guanabara",
+      "distratores": [
+        "Baía de Sepetiba",
+        "Baía de Todos os Santos",
+        "Baía da Ilha Grande"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Ponte Rio–Niterói",
+        "descricao": "Ponte sobre a Baía de Guanabara ligando o Rio de Janeiro a Niterói, inaugurada em 1974.",
+        "variantes": [
+          "Ponte Presidente Costa e Silva",
+          "Ponte Rio-Niterói"
+        ]
+      }
+    }
+  ]
+}
