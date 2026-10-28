@@ -1,0 +1,215 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fragmentos de carvão antracito brilhante, claros e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que rocha é esta?",
+      "resposta": "Carvão mineral",
+      "distratores": [
+        "Obsidiana",
+        "Grafite",
+        "Basalto"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Carvão mineral",
+        "descricao": "Rocha sedimentar combustível, escura, rica em carbono, formada a partir de restos de plantas.",
+        "variantes": [
+          "Carvão",
+          "Hulha",
+          "Antracito"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Etna nevado com fumaça no cume, silhueta reconhecível; distratores vulcânicos plausíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que vulcão europeu é este?",
+      "resposta": "Etna",
+      "distratores": [
+        "Vesúvio",
+        "Estrômboli",
+        "Teide"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Monte Etna",
+        "descricao": "Vulcão ativo na costa leste da Sicília, Itália.",
+        "variantes": [
+          "Etna",
+          "Mount Etna"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Moldavita com textura esculpida e cor verde características, fundo limpo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que material é este?",
+      "resposta": "Moldavita",
+      "distratores": [
+        "Peridoto",
+        "Obsidiana",
+        "Esmeralda"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Moldavita",
+        "descricao": "Vidro natural verde, um tipo de tectito formado por impacto de meteorito há cerca de 15 milhões de anos.",
+        "variantes": [
+          "Vltavín",
+          "Moldavite"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Água turva borbulhando com vapor: pode ser gêiser, poço de lama ou fonte termal; resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pico em forma de dedo, contorno característico; foto um pouco tremida mas legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que pico brasileiro é este?",
+      "resposta": "Dedo de Deus",
+      "distratores": [
+        "Pedra da Gávea",
+        "Pão de Açúcar",
+        "Pedra do Baú"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dedo de Deus",
+        "descricao": "Pico de 1.692 metros na Serra dos Órgãos, no Rio de Janeiro, com forma de dedo apontado para o céu.",
+        "variantes": [
+          "Pico Dedo de Deus"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto no nível do solo no deserto, sem a forma circular visível; a estrutura não é reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista aérea clara da Garganta do Diabo e das quedas, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que cataratas são estas?",
+      "resposta": "Cataratas do Iguaçu",
+      "distratores": [
+        "Cataratas do Niágara",
+        "Cataratas Vitória",
+        "Salto Ángel"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cataratas do Iguaçu",
+        "descricao": "Sistema de quedas do rio Iguaçu na fronteira entre Argentina e Brasil.",
+        "variantes": [
+          "Iguazú Falls",
+          "Cataratas do Iguazú"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Massa lamelar esbranquiçada que poderia ser mica, gipsita ou outro mineral; não reconhecível como talco."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Concreção com fraturas preenchidas em rede, aspecto típico de septária, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de concreção rochosa é esta, cheia de fraturas preenchidas por outro mineral?",
+      "resposta": "Septária",
+      "distratores": [
+        "Geodo",
+        "Rosa-do-deserto",
+        "Nódulo de sílex"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Septária",
+        "descricao": "Concreção sedimentar com rede de fraturas internas preenchidas por minerais como a calcita.",
+        "variantes": [
+          "Nódulo septário",
+          "Septarian nodule"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Parece a fenda tectônica de Þingvellir, não um cânion; resposta ambígua (fenda, rift, desfiladeiro)."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista clássica de Monument Valley, buttes inconfundíveis, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que paisagem dos Estados Unidos é esta?",
+      "resposta": "Monument Valley",
+      "distratores": [
+        "Grand Canyon",
+        "Arches",
+        "Bryce Canyon"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Monument Valley",
+        "descricao": "Região do Planalto do Colorado, entre Arizona e Utah, com grandes buttes de arenito.",
+        "variantes": [
+          "Vale dos Monumentos"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Relevo colorido em faixas, característico de Zhangye Danxia; sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que paisagem colorida da China é esta?",
+      "resposta": "Montanhas Arco-íris de Zhangye",
+      "distratores": [
+        "Zhangjiajie",
+        "Karst de Guilin",
+        "Montanhas Amarelas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Montanhas Arco-íris de Zhangye",
+        "descricao": "Relevo de rochas coloridas no Geoparque Nacional de Zhangye, na província de Gansu, China.",
+        "variantes": [
+          "Zhangye Danxia",
+          "Parque Geológico Nacional Zhangye Danxia"
+        ]
+      }
+    }
+  ]
+}

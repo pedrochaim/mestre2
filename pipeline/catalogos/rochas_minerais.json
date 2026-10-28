@@ -54,7 +54,7 @@
       "titulo": "en:Coal",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Calcário",
@@ -362,7 +362,7 @@
       "titulo": "en:Iguazu Falls",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Madeira petrificada",
@@ -376,7 +376,7 @@
       "titulo": "en:Talc",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Jaspe",
@@ -432,7 +432,7 @@
       "titulo": "pt:Dedo de Deus",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Cânion Itaimbezinho",
@@ -488,14 +488,14 @@
       "titulo": "en:Moldavite",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Septária",
       "titulo": "en:Septarian concretion",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Estromatólito",
@@ -551,7 +551,7 @@
       "titulo": "en:Zhangye National Geopark",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Gruta de Fingal",
@@ -559,6 +559,286 @@
       "camada": 3,
       "destino": 0,
       "status": "usada"
+    },
+    {
+      "nome": "Fóssil",
+      "titulo": "en:Fossil",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caverna",
+      "titulo": "en:Cave",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Duna",
+      "titulo": "en:Dune",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cânion",
+      "titulo": "en:Canyon",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Geleira",
+      "titulo": "en:Glacier",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cratera vulcânica",
+      "titulo": "en:Volcanic crater",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fonte termal",
+      "titulo": "en:Hot spring",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Falésia",
+      "titulo": "en:Cliff",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cristal",
+      "titulo": "en:Crystal",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Salar de Uyuni",
+      "titulo": "en:Salar de Uyuni",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cascalho",
+      "titulo": "en:Gravel",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arco natural",
+      "titulo": "en:Natural arch",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chapada Diamantina",
+      "titulo": "en:Chapada Diamantina National Park",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Amonite",
+      "titulo": "en:Ammonoidea",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Trilobita",
+      "titulo": "en:Trilobite",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Prata nativa",
+      "titulo": "en:Silver",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedra da lua",
+      "titulo": "en:Moonstone (gemstone)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tanzanita",
+      "titulo": "en:Tanzanite",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Quartzo fumê",
+      "titulo": "en:Smoky quartz",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Xisto",
+      "titulo": "en:Schist",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dolina",
+      "titulo": "en:Sinkhole",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fiorde",
+      "titulo": "en:Fjord",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Etna",
+      "titulo": "en:Mount Etna",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Monument Valley",
+      "titulo": "en:Monument Valley",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Parque Florestal de Zhangjiajie",
+      "titulo": "en:Zhangjiajie National Forest Park",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cratera de Darvaza",
+      "titulo": "en:Darvaza gas crater",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chaminé de fada",
+      "titulo": "en:Hoodoo (geology)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Crocoíta",
+      "titulo": "en:Crocoite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bornita",
+      "titulo": "en:Bornite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cianita",
+      "titulo": "en:Kyanite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sodalita",
+      "titulo": "en:Sodalite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Larimar",
+      "titulo": "en:Larimar",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Aragonita",
+      "titulo": "en:Aragonite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Escória vulcânica",
+      "titulo": "en:Scoria",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bomba vulcânica",
+      "titulo": "en:Volcanic bomb",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Helictite",
+      "titulo": "en:Helictite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedras deslizantes",
+      "titulo": "en:Sailing stones",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estrutura de Richat",
+      "titulo": "en:Richat Structure",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Tsingy de Bemaraha",
+      "titulo": "en:Tsingy de Bemaraha National Park",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rochas de Moeraki",
+      "titulo": "en:Moeraki Boulders",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }

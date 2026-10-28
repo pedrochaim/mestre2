@@ -1,0 +1,143 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que rocha é esta?",
+        "resposta": "Carvão mineral"
+      },
+      "existentes": [
+        {
+          "id": "q04143",
+          "pergunta": "O carvão mineral, que alimenta usinas termelétricas, e o diamante das joias são formados principalmente pelo mesmo elemento. Qual?",
+          "resposta": "Carbono"
+        },
+        {
+          "id": "q05489",
+          "pergunta": "Para gerar a mesma quantidade de energia, qual destes combustíveis fósseis lança mais gás carbônico no ar?",
+          "resposta": "Carvão mineral"
+        },
+        {
+          "id": "q11758",
+          "pergunta": "Que material é este?",
+          "resposta": "Carvão"
+        },
+        {
+          "id": "q15479",
+          "pergunta": "Que elemento químico é o principal componente deste material?",
+          "resposta": "Carbono"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que vulcão europeu é este?",
+        "resposta": "Etna"
+      },
+      "existentes": [
+        {
+          "id": "q02219",
+          "pergunta": "O Etna, um dos vulcões mais ativos da Europa, fica em qual ilha do Mediterrâneo?",
+          "resposta": "Sicília"
+        },
+        {
+          "id": "q09643",
+          "pergunta": "Na mitologia grega, as forjas de qual deus ferreiro ficavam debaixo do vulcão Etna, na Sicília?",
+          "resposta": "Hefesto"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que pico brasileiro é este?",
+        "resposta": "Dedo de Deus"
+      },
+      "existentes": [
+        {
+          "id": "q05313",
+          "pergunta": "Em que estado brasileiro fica este pico de granito?",
+          "resposta": "Rio de Janeiro"
+        },
+        {
+          "id": "q06698",
+          "pergunta": "O Dedo de Deus, pico que lembra uma mão apontando para o céu, fica em que serra do estado do Rio de Janeiro?",
+          "resposta": "Serra dos Órgãos"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que cataratas são estas?",
+        "resposta": "Cataratas do Iguaçu"
+      },
+      "existentes": [
+        {
+          "id": "q02064",
+          "pergunta": "Em tupi-guarani, o que significa o nome Iguaçu?",
+          "resposta": "Água grande"
+        },
+        {
+          "id": "q02065",
+          "pergunta": "Que nome tem a queda das Cataratas do Iguaçu, uma fenda longa e estreita que recebe cerca de metade da vazão do rio?",
+          "resposta": "Garganta do Diabo"
+        },
+        {
+          "id": "q06713",
+          "pergunta": "Que explorador espanhol é considerado o primeiro europeu a ver as Cataratas do Iguaçu, no século dezesseis?",
+          "resposta": "Cabeza de Vaca"
+        },
+        {
+          "id": "q15264",
+          "pergunta": "Que cataratas são estas?",
+          "resposta": "Cataratas do Iguaçu"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que paisagem dos Estados Unidos é esta?",
+        "resposta": "Monument Valley"
+      },
+      "existentes": [
+        {
+          "id": "q02093",
+          "pergunta": "Que diretor filmou tantos faroestes no Monument Valley que um mirante do vale ganhou o seu nome?",
+          "resposta": "John Ford"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q11758",
+      "motivo": "Pergunta de identificação por imagem, com resposta equivalente (carvão)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o vulcão pela imagem é um fato diferente de localização ou mitologia."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o pico pela imagem difere de estado ou serra; a pergunta do estado não dá o nome."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q15264",
+      "motivo": "Mesma pergunta de identificação, mesma resposta."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Identificar a paisagem difere do diretor John Ford."
+    }
+  ]
+}

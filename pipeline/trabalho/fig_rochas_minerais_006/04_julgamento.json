@@ -1,0 +1,516 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Carvão mineral",
+        "descricao": "Rocha sedimentar combustível, escura, rica em carbono, formada a partir de restos de plantas.",
+        "variantes": [
+          "Carvão",
+          "Hulha",
+          "Antracito"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carvao_mineral",
+          "nome": "Carvão mineral",
+          "descricao": "Rocha sedimentar combustível formada por restos vegetais soterrados, usada em usinas termelétricas.",
+          "variantes": [
+            "Hulha",
+            "Coal",
+            "Carvão"
+          ]
+        },
+        {
+          "id": "antracito",
+          "nome": "Antracito",
+          "descricao": "Tipo de carvão mineral duro e brilhante, o de maior teor de carbono.",
+          "variantes": [
+            "Antracite"
+          ]
+        },
+        {
+          "id": "hula",
+          "nome": "Hula",
+          "descricao": "Dança tradicional havaiana que expressa canções, com gestos de mãos e adornos de folhas e flores.",
+          "variantes": [
+            "Dança havaiana"
+          ]
+        },
+        {
+          "id": "carvalho",
+          "nome": "Carvalho",
+          "descricao": "Árvore do gênero Quercus, da família das faiáceas, cujo fruto é a bolota.",
+          "variantes": [
+            "Quercus",
+            "Oak"
+          ]
+        },
+        {
+          "id": "cavaquinho",
+          "nome": "Cavaquinho",
+          "descricao": "Pequeno instrumento de cordas de origem portuguesa, essencial no samba e no choro.",
+          "variantes": [
+            "Cavaco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Monte Etna",
+        "descricao": "Vulcão ativo na costa leste da Sicília, Itália.",
+        "variantes": [
+          "Etna",
+          "Mount Etna"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_etna",
+          "nome": "Monte Etna",
+          "descricao": "Vulcão ativo da costa leste da Sicília, na Itália.",
+          "variantes": [
+            "Etna",
+            "Mount Etna",
+            "Mongibello"
+          ]
+        },
+        {
+          "id": "vietna",
+          "nome": "Vietnã",
+          "descricao": "País do Sudeste Asiático com litoral no Mar da China Meridional, capital Hanói.",
+          "variantes": [
+            "Vietnam",
+            "Viet Nam"
+          ]
+        },
+        {
+          "id": "retina",
+          "nome": "Retina",
+          "descricao": "Camada sensível à luz no fundo do olho, onde ficam as células fotorreceptoras.",
+          "variantes": []
+        },
+        {
+          "id": "rena",
+          "nome": "Rena",
+          "descricao": "Cervídeo das regiões árticas e subárticas, espécie Rangifer tarandus.",
+          "variantes": [
+            "Rangifer tarandus",
+            "Caribu",
+            "Reindeer"
+          ]
+        },
+        {
+          "id": "rio_sena",
+          "nome": "Rio Sena",
+          "descricao": "Rio do norte da França que atravessa Paris e deságua no canal da Mancha.",
+          "variantes": [
+            "Sena",
+            "Seine"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Moldavita",
+        "descricao": "Vidro natural verde, um tipo de tectito formado por impacto de meteorito há cerca de 15 milhões de anos.",
+        "variantes": [
+          "Vltavín",
+          "Moldavite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_moldavia",
+          "nome": "Bandeira da Moldávia",
+          "descricao": "Bandeira nacional atual da Moldávia, com três faixas verticais azul, amarela e vermelha e o brasão com a cabeça de auroque.",
+          "variantes": [
+            "Moldávia",
+            "Bandeira da Moldova"
+          ]
+        },
+        {
+          "id": "moldavia",
+          "nome": "Moldávia",
+          "descricao": "País sem litoral do Leste Europeu entre a Romênia e a Ucrânia, com capital em Chisinau.",
+          "variantes": [
+            "Moldova",
+            "República da Moldávia"
+          ]
+        },
+        {
+          "id": "rio_moldava",
+          "nome": "Rio Moldava",
+          "descricao": "Rio mais longo da República Tcheca, que atravessa a cidade de Praga.",
+          "variantes": [
+            "Vltava",
+            "Moldau"
+          ]
+        },
+        {
+          "id": "vitamina",
+          "nome": "Vitamina",
+          "descricao": "Nutriente orgânico necessário em pequenas quantidades para o funcionamento do organismo.",
+          "variantes": [
+            "Vitamin"
+          ]
+        },
+        {
+          "id": "escapula",
+          "nome": "Escápula",
+          "descricao": "Osso plano e triangular da cintura escapular, também chamado de omoplata, que liga o úmero à clavícula.",
+          "variantes": [
+            "Omoplata",
+            "Paleta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Dedo de Deus",
+        "descricao": "Pico de 1.692 metros na Serra dos Órgãos, no Rio de Janeiro, com forma de dedo apontado para o céu.",
+        "variantes": [
+          "Pico Dedo de Deus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dedo_de_deus",
+          "nome": "Dedo de Deus",
+          "descricao": "Pico de granito em forma de dedo na Serra dos Órgãos, em Teresópolis, Rio de Janeiro.",
+          "variantes": [
+            "Pico Dedo de Deus"
+          ]
+        },
+        {
+          "id": "argentina_x_inglaterra_na_copa_de_1986",
+          "nome": "Argentina x Inglaterra na Copa de 1986",
+          "descricao": "Partida da Copa do Mundo de 1986 em que Maradona marcou o gol de mão e o chamado Gol do Século.",
+          "variantes": [
+            "Mão de Deus",
+            "La mano de Dios",
+            "Argentina 2 x 1 Inglaterra"
+          ]
+        },
+        {
+          "id": "cidade_de_deus",
+          "nome": "Cidade de Deus",
+          "descricao": "Filme brasileiro de 2002 dirigido por Fernando Meirelles, sobre jovens numa favela do Rio de Janeiro.",
+          "variantes": [
+            "City of God"
+          ]
+        },
+        {
+          "id": "cidade_de_deus_2",
+          "nome": "Cidade de Deus",
+          "descricao": "Romance de Paulo Lins publicado em 1997, sobre a violência no conjunto habitacional carioca de mesmo nome, adaptado ao cinema em 2002.",
+          "variantes": [
+            "Cidade de Deus (livro)"
+          ]
+        },
+        {
+          "id": "nebulosa_da_helice",
+          "nome": "Nebulosa da Hélice",
+          "descricao": "Nebulosa planetária NGC 7293, em Aquário, uma das mais próximas da Terra.",
+          "variantes": [
+            "Nebulosa de Hélix",
+            "NGC 7293",
+            "Caldwell 63",
+            "Helix Nebula",
+            "Olho de Deus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cataratas do Iguaçu",
+        "descricao": "Sistema de quedas do rio Iguaçu na fronteira entre Argentina e Brasil.",
+        "variantes": [
+          "Iguazú Falls",
+          "Cataratas do Iguazú"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cataratas_do_iguacu",
+          "nome": "Cataratas do Iguaçu",
+          "descricao": "Conjunto de quedas d'água do rio Iguaçu, na fronteira entre o Paraná, no Brasil, e a província argentina de Misiones.",
+          "variantes": [
+            "Iguaçu",
+            "Cataratas del Iguazú",
+            "Iguazu Falls",
+            "Foz do Iguaçu"
+          ]
+        },
+        {
+          "id": "cataratas_do_niagara",
+          "nome": "Cataratas do Niágara",
+          "descricao": "Grupo de três quedas d'água no Rio Niágara, na fronteira entre Ontário e Nova York.",
+          "variantes": [
+            "Niagara Falls"
+          ]
+        },
+        {
+          "id": "gullfoss",
+          "nome": "Gullfoss",
+          "descricao": "Cachoeira no cânion do rio Hvítá, no sudoeste da Islândia, parada do Círculo Dourado.",
+          "variantes": [
+            "Cataratas Douradas",
+            "Golden Falls"
+          ]
+        },
+        {
+          "id": "salto_de_sete_quedas",
+          "nome": "Salto de Sete Quedas",
+          "descricao": "Conjunto de cachoeiras do rio Paraná, na fronteira entre Brasil e Paraguai, submerso em 1982.",
+          "variantes": [
+            "Sete Quedas",
+            "Salto del Guairá",
+            "Guaíra Falls",
+            "Salto de Guaíra",
+            "Saltos del Guairá"
+          ]
+        },
+        {
+          "id": "cataratas_vitoria",
+          "nome": "Cataratas Vitória",
+          "descricao": "Queda d'água do rio Zambeze, na fronteira entre Zâmbia e Zimbábue.",
+          "variantes": [
+            "Victoria Falls",
+            "Mosi-oa-Tunya"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Septária",
+        "descricao": "Concreção sedimentar com rede de fraturas internas preenchidas por minerais como a calcita.",
+        "variantes": [
+          "Nódulo septário",
+          "Septarian nodule"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "choco",
+          "nome": "Choco",
+          "descricao": "Molusco cefalópode do gênero Sepia, de concha interna e bolsa de tinta escura.",
+          "variantes": [
+            "Siba",
+            "Sépia",
+            "Cuttlefish"
+          ]
+        },
+        {
+          "id": "staravia",
+          "nome": "Staravia",
+          "descricao": "Pokémon dos tipos Normal e Voador, número 397 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "serpentario",
+          "nome": "Serpentário",
+          "descricao": "Grande ave de rapina terrestre africana de pernas longas e crista de penas negras (Sagittarius serpentarius).",
+          "variantes": [
+            "Secretário",
+            "Secretário-ave",
+            "Sagittarius serpentarius"
+          ]
+        },
+        {
+          "id": "pitaia",
+          "nome": "Pitaia",
+          "descricao": "Fruta de um cacto do gênero Selenicereus, de casca rosa com escamas, também chamada pitahaya.",
+          "variantes": [
+            "Pitaya",
+            "Fruta-do-dragão",
+            "Dragon fruit"
+          ]
+        },
+        {
+          "id": "servia",
+          "nome": "Sérvia",
+          "descricao": "País sem litoral dos Bálcãs, na Europa Central e Sudeste, com capital em Belgrado.",
+          "variantes": [
+            "Serbia",
+            "República da Sérvia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Monument Valley",
+        "descricao": "Região do Planalto do Colorado, entre Arizona e Utah, com grandes buttes de arenito.",
+        "variantes": [
+          "Vale dos Monumentos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monument_valley",
+          "nome": "Monument Valley",
+          "descricao": "Vale com grandes formações de arenito na fronteira entre Arizona e Utah, nos Estados Unidos, em território navajo.",
+          "variantes": [
+            "Vale dos Monumentos",
+            "Tsé Biiʼ Ndzisgaii"
+          ]
+        },
+        {
+          "id": "cometa_halley",
+          "nome": "Cometa Halley",
+          "descricao": "Cometa periódico visível a olho nu que volta às proximidades da Terra em intervalos regulares.",
+          "variantes": [
+            "Halley",
+            "1P/Halley",
+            "Halley's Comet"
+          ]
+        },
+        {
+          "id": "valsa_do_minuto",
+          "nome": "Valsa do Minuto",
+          "descricao": "Valsa em ré bemol maior, opus sessenta e quatro número um, de Frédéric Chopin.",
+          "variantes": [
+            "Minute Waltz",
+            "Valsa op. 64 nº 1",
+            "Valse du petit chien"
+          ]
+        },
+        {
+          "id": "leao_de_lucerna",
+          "nome": "Leão de Lucerna",
+          "descricao": "Relevo de um leão moribundo esculpido na rocha em Lucerna, na Suíça, em memória dos guardas suíços mortos em 1792.",
+          "variantes": [
+            "Löwendenkmal",
+            "Monumento do Leão"
+          ]
+        },
+        {
+          "id": "vale_de_neander",
+          "nome": "Vale de Neander",
+          "descricao": "Vale do rio Düssel, perto de Düsseldorf, na Alemanha, onde foi achado em 1856 o fóssil que deu nome ao homem de Neandertal.",
+          "variantes": [
+            "Neandertal (vale)",
+            "Neanderthal",
+            "Neandertal valley"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Montanhas Arco-íris de Zhangye",
+        "descricao": "Relevo de rochas coloridas no Geoparque Nacional de Zhangye, na província de Gansu, China.",
+        "variantes": [
+          "Zhangye Danxia",
+          "Parque Geológico Nacional Zhangye Danxia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "parque_florestal_nacional_de_zhangjiajie",
+          "nome": "Parque Florestal Nacional de Zhangjiajie",
+          "descricao": "Parque na província de Hunan, na China, com milhares de pilares de arenito cobertos de vegetação.",
+          "variantes": [
+            "Zhangjiajie",
+            "Zhangjiajie National Forest Park",
+            "Wulingyuan"
+          ]
+        },
+        {
+          "id": "angel_di_maria",
+          "nome": "Ángel Di María",
+          "descricao": "Futebolista argentino, ponta, campeão mundial em 2022, ex-Benfica, Real Madrid e PSG.",
+          "variantes": [
+            "Di Maria",
+            "Fideo"
+          ]
+        },
+        {
+          "id": "chang_an",
+          "nome": "Chang'an",
+          "descricao": "Antiga capital chinesa das dinastias Han e Tang, extremo oriental da Rota da Seda, onde hoje fica Xian.",
+          "variantes": [
+            "Changan"
+          ]
+        },
+        {
+          "id": "floresta_da_tijuca",
+          "nome": "Floresta da Tijuca",
+          "descricao": "Floresta urbana replantada no século dezenove, no maciço da Tijuca, no Rio de Janeiro",
+          "variantes": [
+            "Parque Nacional da Tijuca"
+          ]
+        },
+        {
+          "id": "mar_amarelo",
+          "nome": "Mar Amarelo",
+          "descricao": "Mar do oceano Pacífico entre o leste da China e a península da Coreia.",
+          "variantes": [
+            "Huang Hai"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "carvao_mineral",
+      "motivo": "Mesma rocha sedimentar combustível; nomes e variantes coincidem."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "monte_etna",
+      "motivo": "Mesmo vulcão na Sicília."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Moldavita é um tectito; nenhuma candidata é o mineral (Moldávia, Rio Moldava são outras entidades)."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "dedo_de_deus",
+      "motivo": "Mesmo pico na Serra dos Órgãos, RJ."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "cataratas_do_iguacu",
+      "motivo": "Mesmo sistema de quedas do rio Iguaçu na fronteira Brasil-Argentina."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Septária (concreção) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "monument_valley",
+      "motivo": "Mesma região entre Arizona e Utah."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Zhangye Danxia é diferente de Zhangjiajie (Hunan) e das demais candidatas."
+    }
+  ]
+}

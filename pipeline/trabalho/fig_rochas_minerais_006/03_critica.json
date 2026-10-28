@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de rocha sedimentar combustível; enunciado sem pista, distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etna é vulcão europeu na Sicília; enunciado só dá o grupo, distratores são vulcões críveis e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Moldavita é vidro verde natural; distratores verdes ou vítreos, críveis e errados. Enunciado sem pista.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pico brasileiro reconhecível pela forma; enunciado não vaza e distratores são formações brasileiras críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de cataratas; só a categoria aparece no enunciado e os distratores são quedas famosas, nenhuma correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A descrição 'cheia de fraturas preenchidas por outro mineral' define a septária, então a pista entrega a resposta sem a imagem. Removida a pista.",
+      "reescrita": {
+        "pergunta": "Que tipo de concreção rochosa é esta?",
+        "resposta": "Septária",
+        "distratores": [
+          "Geodo",
+          "Rosa-do-deserto",
+          "Nódulo de sílex"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Paisagem emblemática; enunciado só dá o país e os distratores são paisagens do Sudoeste americano, nenhuma correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rochas coloridas do Geoparque de Zhangye, na China. O enunciado dá só o país e a característica visual. Distratores são paisagens chinesas e nenhum é correto.",
+      "reescrita": null
+    }
+  ]
+}
