@@ -1,0 +1,176 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto informal e de baixa resolução, com aparência de foto pessoal; a atleta não é reconhecível pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A camisa mostra 'Sir Safety Perugia' e a bandeira italiana, o que entrega a resposta das perguntas possíveis (clube e país); o rosto não é reconhecível."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto de ângulo ruim, jogador parcialmente de costas e com a camisa cortada; não é reconhecível, e a única pista é a camisa do time."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida, rosto visível, sem nome na imagem; reconhecimento por múltipla escolha com distratores de pivôs europeus.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quem é este jogador de basquete?",
+      "resposta": "Nikola Jokić",
+      "distratores": [
+        "Joel Embiid",
+        "Nikola Vučević",
+        "Domantas Sabonis"
+      ],
+      "ancora": {
+        "nome": "Nikola Jokić",
+        "descricao": "Pivô sérvio de basquete, três vezes MVP da NBA, jogador do Denver Nuggets.",
+        "variantes": [
+          "Jokic",
+          "Joker"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A placa do ginásio, com 'United Center', aparece legível na imagem e entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida de Tony Parker em ação; a camisa mostra o time mas não o nome nem a resposta numérica.",
+      "nivel": 3,
+      "familia": "com_o_que_se_liga",
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quantos títulos da NBA conquistou este armador francês, todos defendendo um mesmo clube?",
+      "resposta": "Quatro",
+      "distratores": [
+        "Três",
+        "Cinco",
+        "Seis"
+      ],
+      "ancora": {
+        "nome": "Tony Parker",
+        "descricao": "Armador franco-americano de basquete, quatro vezes campeão da NBA pelo San Antonio Spurs.",
+        "variantes": [
+          "William Anthony Parker Jr."
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida e rosto claro; camisa sem nome. Pergunta de conexão com o primo, resposta única.",
+      "nivel": 3,
+      "familia": "com_o_que_se_liga",
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que outro astro da NBA, famoso pelas enterradas, é primo deste jogador e formou dupla com ele em Toronto?",
+      "resposta": "Vince Carter",
+      "distratores": [
+        "Allen Iverson",
+        "Kobe Bryant",
+        "Grant Hill"
+      ],
+      "ancora": {
+        "nome": "Tracy McGrady",
+        "descricao": "Ala-armador americano de basquete, sete vezes All-Star da NBA, famoso pelos tempos em Orlando Magic e Houston Rockets.",
+        "variantes": [
+          "T-Mac",
+          "Tracy Lamar McGrady Jr."
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto; baixa resolução mas legível. Jogador de aficionado, com múltipla escolha.",
+      "nivel": 3,
+      "familia": "com_o_que_se_liga",
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que time da NBA este grande arremessador defendeu durante toda a carreira de dezoito anos?",
+      "resposta": "Indiana Pacers",
+      "distratores": [
+        "Detroit Pistons",
+        "Utah Jazz",
+        "Chicago Bulls"
+      ],
+      "ancora": {
+        "nome": "Reggie Miller",
+        "descricao": "Ex-arremessador americano de basquete que jogou toda a carreira no Indiana Pacers, apelidado de Knick Killer.",
+        "variantes": [
+          "Reginald Wayne Miller"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto; ex-jogador conhecido do público brasileiro. Pergunta sobre o ouro olímpico em múltipla escolha.",
+      "nivel": 1,
+      "familia": "com_o_que_se_liga",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que Olimpíada este ex-jogador brasileiro de vôlei, hoje comentarista, foi campeão olímpico?",
+      "resposta": "Barcelona 1992",
+      "distratores": [
+        "Los Angeles 1984",
+        "Seul 1988",
+        "Atlanta 1996"
+      ],
+      "ancora": {
+        "nome": "Tande",
+        "descricao": "Alexandre Samuel, ex-jogador brasileiro de vôlei, campeão olímpico em Barcelona 1992 e hoje comentarista de TV.",
+        "variantes": [
+          "Alexandre Ramos Samuel",
+          "Alexandre Samuel"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto reconhecível, com o rosto de perfil e camisa de Portland parcial; sem nome. Reconhecimento por múltipla escolha com armadores parecidos.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quem é este armador de basquete?",
+      "resposta": "Damian Lillard",
+      "distratores": [
+        "Stephen Curry",
+        "Kemba Walker",
+        "Kyrie Irving"
+      ],
+      "ancora": {
+        "nome": "Damian Lillard",
+        "descricao": "Armador americano de basquete, estrela do Portland Trail Blazers, conhecido como Dame Time.",
+        "variantes": [
+          "Dame",
+          "Dame Time"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A atleta não é reconhecível pela imagem; só há a camisa de clube e o número, sem outra pista."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem pequena, borrada e de perfil, com o técnico à beira da quadra; ele não é reconhecível."
+    }
+  ]
+}

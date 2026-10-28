@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é este jogador de basquete?",
+        "resposta": "Nikola Jokić"
+      },
+      "existentes": [
+        {
+          "id": "q15764",
+          "pergunta": "Qual é o apelido deste pivô sérvio?",
+          "resposta": "Joker"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede o nome do jogador e a outra pede o apelido (Joker). São fatos diferentes. Saber o apelido não garante saber o nome completo, e a recíproca também vale."
+    }
+  ]
+}

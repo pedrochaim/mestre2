@@ -1,0 +1,62 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem pista; distratores são pivôs/jogadores europeus ou conhecidos, críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quatro títulos (2003, 2005, 2007, 2014) todos com os Spurs, confirmado pelos trechos. O enunciado não permite responder sem reconhecer o jogador; distratores numéricos adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Famoso pelas enterradas' e 'dupla em Toronto' entregam Vince Carter sem a figura. Além disso, os trechos dizem que o parentesco não é de sangue (primo distante), então 'primo' é impreciso. Pista removida e parentesco suavizado.",
+      "reescrita": {
+        "pergunta": "Que astro da NBA, parente deste jogador, foi seu companheiro de time nos Raptors?",
+        "resposta": "Vince Carter",
+        "distratores": [
+          "Allen Iverson",
+          "Kobe Bryant",
+          "Grant Hill"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carreira inteira de 18 anos no Indiana Pacers confirmada; o enunciado não identifica o jogador sem a figura; distratores são times críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Hoje comentarista' é afirmação dependente do tempo e não bem sustentada (o trecho cita reportagens especiais). Removida; ouro em Barcelona 1992 é confirmado.",
+      "reescrita": {
+        "pergunta": "Em que Olimpíada este ex-jogador brasileiro de vôlei conquistou a medalha de ouro?",
+        "resposta": "Barcelona 1992",
+        "distratores": [
+          "Los Angeles 1984",
+          "Seul 1988",
+          "Atlanta 1996"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista no enunciado; distratores armadores atuais críveis.",
+      "reescrita": null
+    }
+  ]
+}
