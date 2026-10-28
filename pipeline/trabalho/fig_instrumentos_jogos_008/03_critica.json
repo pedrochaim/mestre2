@@ -1,0 +1,40 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a tabla é o principal instrumento de percussão da música clássica hindustani desde o século dezoito. O enunciado não nomeia o instrumento nem a tradição. Os distratores são do mesmo tipo e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "As pistas \"de metal\" e \"baqueta\" eliminam os distratores sem olhar a figura (taiko e tímpano não são de metal). \"Baqueta\" também não é o termo preciso, já que o gongo costuma ser tocado com maço. Tirei as pistas e troquei os distratores por percussões de metal parecidas.",
+      "reescrita": {
+        "pergunta": "Que instrumento de percussão é este?",
+        "resposta": "Gongo",
+        "distratores": [
+          "Prato de choque",
+          "Triângulo",
+          "Sino tubular"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O bandolim é um instrumento de cordas dedilhadas da família do alaúde, e o enunciado é verdadeiro e não vaza a resposta. Os distratores são cordofones parecidos e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é direta, de nível 1, e o enunciado não vaza a resposta. Os distratores são peças de xadrez e nenhum é o peão.",
+      "reescrita": null
+    }
+  ]
+}

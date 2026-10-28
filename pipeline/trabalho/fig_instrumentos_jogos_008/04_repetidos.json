@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que peça de xadrez é esta?",
+        "resposta": "Peão"
+      },
+      "existentes": [
+        {
+          "id": "q08377",
+          "pergunta": "Rei, dama, torre, bispo, cavalo e peão: qual dessas peças do xadrez só pode se mover para a frente?",
+          "resposta": "Peão"
+        },
+        {
+          "id": "q08397",
+          "pergunta": "O nome da peça peão, do xadrez, vem de uma palavra latina para o soldado que ia à batalha de que modo?",
+          "resposta": "A pé"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede para identificar a peça (provavelmente por imagem). As existentes tratam do movimento só para a frente e da origem do nome. São fatos diferentes, embora a resposta seja a mesma."
+    }
+  ]
+}

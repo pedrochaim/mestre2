@@ -1,0 +1,139 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O controle mostra 'SONY PlayStation' e 'ANALOG' impressos; o texto entrega a resposta sobre o console."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, e há texto visível (START, INDIECADE, FINISH) e cartazes ao fundo."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto limpa e clara do par de tablas, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este par de tambores é o principal instrumento de percussão de qual tradição musical?",
+      "resposta": "Música clássica hindustani",
+      "distratores": [
+        "Flamenco espanhol",
+        "Gamelão javanês",
+        "Música clássica chinesa"
+      ],
+      "ancora": {
+        "nome": "Tabla",
+        "descricao": "Par de tambores de mão do subcontinente indiano, usado na música clássica hindustani.",
+        "variantes": [
+          "Tablá",
+          "Tabla indiana"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Gongo de metal com baqueta, sem texto, reconhecível; distratores de percussão de formato circular.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que instrumento de percussão, de metal e tocado com uma baqueta, é este?",
+      "resposta": "Gongo",
+      "distratores": [
+        "Tambor taiko",
+        "Tímpano",
+        "Prato de choque"
+      ],
+      "ancora": {
+        "nome": "Gongo",
+        "descricao": "Instrumento de percussão de metal, circular e achatado, de origem no Sudeste Asiático, tocado com baqueta.",
+        "variantes": [
+          "Gong"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O console e o controle trazem 'NINTENDO GAMECUBE' escrito; o texto entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Tabuleiro antigo de madeira com grade densa, peões em forma de pião e um dado; não é reconhecível como hnefatafl e a resposta não é única diante da imagem (pode ser outro jogo antigo)."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Os consoles mostram 'PS2 PlayStation 2' e 'SONY' escritos; o texto entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bandolim de caixa arredondada, bem visível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de cordas dedilhadas é este?",
+      "resposta": "Bandolim",
+      "distratores": [
+        "Cavaquinho",
+        "Alaúde",
+        "Banjo"
+      ],
+      "ancora": {
+        "nome": "Bandolim",
+        "descricao": "Instrumento de cordas dedilhadas da família do alaúde, com oito cordas em quatro ordens e caixa em forma de pera.",
+        "variantes": [
+          "Mandolin",
+          "Mandolino"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O aparelho mostra 'LYNX' e 'ATARI' impressos; o texto entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Peão branco isolado sobre tabuleiro, sem texto, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que peça de xadrez é esta?",
+      "resposta": "Peão",
+      "distratores": [
+        "Bispo",
+        "Torre",
+        "Rei"
+      ],
+      "ancora": {
+        "nome": "Peão (xadrez)",
+        "descricao": "A peça mais numerosa e de menor valor do xadrez, que avança uma casa e captura na diagonal.",
+        "variantes": [
+          "Peão",
+          "Pawn"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A arma mostra 'Nintendo Zapper' e '1985' escritos; o texto entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O instrumento da foto (corpo em forma de pera, cabeça com encaixe em coração, aberturas em S) não lembra uma viola de cocho, que é escavada em tronco inteiriço; não é reconhecível nem inequívoco para a resposta."
+    }
+  ]
+}
