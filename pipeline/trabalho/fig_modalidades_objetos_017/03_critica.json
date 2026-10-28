@@ -1,0 +1,70 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Descrever a prova como arremesso de tronco longo permite responder sem a figura. Tirei a descrição. O fato (prova tradicional escocesa) está no trecho.",
+      "reescrita": {
+        "pergunta": "Em que país europeu nasceu esta prova tradicional?",
+        "resposta": "Escócia",
+        "distratores": [
+          "Irlanda",
+          "País de Gales",
+          "Islândia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Barra com anilhas' descreve a resposta, então a figura vira enfeite. A pergunta é só reconhecimento disfarçado de nível 3. Não há conserto simples sem repetir a pista.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Esta pintura' não está confirmado em 'mostra', que pode ser uma foto. Troquei por redação neutra. O fato (esporte nacional da Suíça) está no trecho.",
+      "reescrita": {
+        "pergunta": "De que país é esta luta folclórica, considerada esporte nacional?",
+        "resposta": "Suíça",
+        "distratores": [
+          "Áustria",
+          "Turquia",
+          "Mongólia"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nível 1 direto, sem vazamento. Os distratores são do mesmo tipo e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Praticada nesta pista preparada' é ambíguo: biatlo e combinado nórdico também usam pistas assim. Deixei o enunciado apontar só para a imagem.",
+      "reescrita": {
+        "pergunta": "Que modalidade olímpica de inverno aparece nesta imagem?",
+        "resposta": "Esqui cross-country",
+        "distratores": [
+          "Esqui alpino",
+          "Salto de esqui",
+          "Snowboard"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 2 com distratores plausíveis, de outros esportes com taco. A figura é necessária e a resposta é única.",
+      "reescrita": null
+    }
+  ]
+}

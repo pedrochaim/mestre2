@@ -1,0 +1,322 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Arremesso de tronco",
+        "descricao": "Prova tradicional dos Jogos das Terras Altas escoceses em que se arremessa um tronco longo e afilado, o caber.",
+        "variantes": [
+          "Caber toss",
+          "Lançamento de tronco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cesta_de_tres_pontos",
+          "nome": "Cesta de três pontos",
+          "descricao": "Arremesso feito de trás de uma linha distante do aro, que vale três pontos.",
+          "variantes": [
+            "Linha de três pontos",
+            "Three-point field goal",
+            "Bola de três",
+            "Arremesso de três pontos"
+          ]
+        },
+        {
+          "id": "lancamento_de_dardo",
+          "nome": "Lançamento de dardo",
+          "descricao": "Prova de atletismo em que se arremessa uma lança o mais longe possível.",
+          "variantes": [
+            "Arremesso de dardo",
+            "Javelin throw",
+            "Dardo"
+          ]
+        },
+        {
+          "id": "arremesso_de_peso",
+          "nome": "Arremesso de peso",
+          "descricao": "Prova do atletismo em que o atleta arremessa uma bola metálica pesada o mais longe possível, a partir de um círculo.",
+          "variantes": [
+            "Lançamento de peso"
+          ]
+        },
+        {
+          "id": "lancamento_de_martelo",
+          "nome": "Lançamento de martelo",
+          "descricao": "Prova de atletismo em que o atleta arremessa uma bola de metal presa por um cabo de aço a uma empunhadura.",
+          "variantes": [
+            "Hammer throw"
+          ]
+        },
+        {
+          "id": "cranio",
+          "nome": "Crânio",
+          "descricao": "Estrutura óssea que envolve e protege o cérebro dos vertebrados.",
+          "variantes": [
+            "Caveira",
+            "Cabeça óssea"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Schwingen",
+        "descricao": "Luta folclórica suíça em que os lutadores usam calções com cinto para aplicar projeções.",
+        "variantes": [
+          "Luta suíça",
+          "Hosenlupf",
+          "Swiss wrestling"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "schwingen",
+          "nome": "Schwingen",
+          "descricao": "Luta folclórica tradicional da Suíça, em que se vence prendendo os ombros do adversário ao chão.",
+          "variantes": [
+            "Luta suíça",
+            "Hosenlupf"
+          ]
+        },
+        {
+          "id": "luta_no_oleo_yagl_gures",
+          "nome": "Luta no óleo (yağlı güreş)",
+          "descricao": "Modalidade de luta tradicional da Turquia, disputada com lutadores untados de óleo e vestindo calças de couro chamadas kisbet.",
+          "variantes": [
+            "Yağlı güreş",
+            "Luta turca no óleo",
+            "Oil wrestling"
+          ]
+        },
+        {
+          "id": "luta_livre_profissional",
+          "nome": "Luta livre profissional",
+          "descricao": "Espetáculo esportivo de combate coreografado, disputado em ringue com cordas, também chamado de wrestling.",
+          "variantes": [
+            "Wrestling",
+            "Pro wrestling",
+            "Luta profissional"
+          ]
+        },
+        {
+          "id": "30_st_mary_axe",
+          "nome": "30 St Mary Axe",
+          "descricao": "Arranha-céu de vidro em forma de projétil, projetado por Norman Foster na City de Londres e concluído em 2003.",
+          "variantes": [
+            "The Gherkin",
+            "O Pepino",
+            "Swiss Re Building",
+            "Gherkin"
+          ]
+        },
+        {
+          "id": "guarda_suica",
+          "nome": "Guarda Suíça",
+          "descricao": "Corpo militar que protege o papa e o Vaticano, formado por soldados suíços",
+          "variantes": [
+            "Guarda Suíça Pontifícia",
+            "Pontifical Swiss Guard"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Apito",
+        "descricao": "Pequeno instrumento de sopro, de metal, que produz som agudo, usado por árbitros.",
+        "variantes": [
+          "Apito de árbitro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "apito",
+          "nome": "Apito",
+          "descricao": "Instrumento pequeno que produz um som agudo ao se soprar uma corrente de ar.",
+          "variantes": [
+            "Apito de latão"
+          ]
+        },
+        {
+          "id": "pitons",
+          "nome": "Pítons",
+          "descricao": "Família de grandes serpentes constritoras e não venenosas (Pythonidae) da África, Ásia e Oceania.",
+          "variantes": [
+            "Pythonidae",
+            "Píton",
+            "Python"
+          ]
+        },
+        {
+          "id": "nado_peito",
+          "nome": "Nado peito",
+          "descricao": "Estilo da natação competitiva em que o nadador fica de bruços e move braços e pernas ao mesmo tempo, com pernada de sapo.",
+          "variantes": [
+            "Peito",
+            "Breaststroke"
+          ]
+        },
+        {
+          "id": "agitos",
+          "nome": "Agitos",
+          "descricao": "Símbolo dos Jogos Paralímpicos, formado por três meias-luas em vermelho, azul e verde.",
+          "variantes": [
+            "Símbolo paralímpico"
+          ]
+        },
+        {
+          "id": "mar_caspio",
+          "nome": "Mar Cáspio",
+          "descricao": "Grande corpo de água salgada sem saída para o oceano, entre a Europa Oriental e a Ásia Central.",
+          "variantes": [
+            "Caspian Sea",
+            "Cáspio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Esqui cross-country",
+        "descricao": "Modalidade de esqui em que o atleta percorre terreno nevado plano ou ondulado, em pistas com sulcos, impulsionado por bastões.",
+        "variantes": [
+          "Esqui de fundo",
+          "Esqui nórdico",
+          "Cross-country skiing"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esqui_cross_country",
+          "nome": "Esqui cross-country",
+          "descricao": "Equipamento de esqui de fundo (esquis, bastões e botas) usado para deslizar em percursos planos na neve.",
+          "variantes": [
+            "Esqui",
+            "Esqui de fundo",
+            "Esqui nórdico"
+          ]
+        },
+        {
+          "id": "equinocio",
+          "nome": "Equinócio",
+          "descricao": "Momento do ano em que o Sol cruza o equador celeste, marcando o início da primavera ou do outono.",
+          "variantes": []
+        },
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        },
+        {
+          "id": "baia_de_fundy",
+          "nome": "Baía de Fundy",
+          "descricao": "Baía da costa atlântica do Canadá, entre as províncias de Nova Brunswick e Nova Escócia.",
+          "variantes": [
+            "Bay of Fundy"
+          ]
+        },
+        {
+          "id": "esqui_aquatico",
+          "nome": "Esqui aquático",
+          "descricao": "Esporte em que o atleta é puxado por um barco ou cabo sobre a água, deslizando sobre esquis.",
+          "variantes": [
+            "Water ski"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Taco de hóquei no gelo",
+        "descricao": "Haste com lâmina curva na ponta, usada no hóquei no gelo para conduzir, passar e chutar o disco.",
+        "variantes": [
+          "Stick de hóquei",
+          "Ice hockey stick"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "disco_de_hoquei",
+          "nome": "Disco de hóquei",
+          "descricao": "Disco de borracha usado no hóquei no gelo.",
+          "variantes": [
+            "Puck"
+          ]
+        },
+        {
+          "id": "hoquei_no_gelo",
+          "nome": "Hóquei no gelo",
+          "descricao": "Esporte coletivo disputado sobre o gelo, com patins e tacos, em que se faz gols com um disco de borracha.",
+          "variantes": [
+            "Hóquei sobre o gelo"
+          ]
+        },
+        {
+          "id": "patinacao_de_velocidade",
+          "nome": "Patinação de velocidade",
+          "descricao": "Modalidade de corrida sobre patins no gelo, disputada em pista oval.",
+          "variantes": [
+            "Patinação de velocidade no gelo",
+            "Speed skating"
+          ]
+        },
+        {
+          "id": "taco_de_criquete",
+          "nome": "Taco de críquete",
+          "descricao": "Taco de madeira de lâmina plana e cabo envolto, usado pelo batedor no críquete.",
+          "variantes": [
+            "Bastão de críquete",
+            "Cricket bat"
+          ]
+        },
+        {
+          "id": "pao_de_queijo",
+          "nome": "Pão de queijo",
+          "descricao": "Quitute brasileiro assado feito de polvilho, ovos, leite e queijo, típico de Minas Gerais",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Caber toss é prova distinta das candidatas (dardo, peso, martelo)."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "schwingen",
+      "motivo": "Mesma luta folclórica suíça, mesmas variantes."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "apito",
+      "motivo": "Mesmo objeto, apito; descrição compatível."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Proposta é a modalidade esportiva; a candidata descreve o equipamento, entidade diferente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Taco de hóquei no gelo é objeto distinto do esporte, do disco e do taco de críquete."
+    }
+  ]
+}

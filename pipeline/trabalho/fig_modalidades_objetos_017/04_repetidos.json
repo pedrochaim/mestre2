@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que país é esta luta folclórica, considerada esporte nacional?",
+        "resposta": "Suíça"
+      },
+      "existentes": [
+        {
+          "id": "q15345",
+          "pergunta": "Que luta folclórica europeia, com golpes de projeção, é mostrada nesta imagem?",
+          "resposta": "Schwingen"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que objeto é este?",
+        "resposta": "Apito"
+      },
+      "existentes": [
+        {
+          "id": "q15857",
+          "pergunta": "Que objeto é este?",
+          "resposta": "Apito"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pede o nome da luta (Schwingen); a nova pede o país (Suíça). Fatos diferentes, embora relacionados à mesma imagem."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q15857",
+      "motivo": "Pergunta e resposta idênticas: 'Que objeto é este?' / Apito."
+    }
+  ]
+}

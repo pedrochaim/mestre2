@@ -1,0 +1,180 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Jogador comum em primeiro plano, com rosto coberto e camisa com textos; não é figura pública."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e pouco nítida para celular; o protetor bucal serve a vários esportes, então a resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "É uma ilustração de um objeto que poderia ser fotografado, e o fundo ciano e o desenho esquemático ficam pouco reconhecíveis."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A lanterna traz gravado 'TOKYO 2020', texto visível que entrega a edição dos Jogos."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, fora de uma festa pública."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "O tronco longo é inconfundível. Os atletas de kilt estão em evento público (Highland Games), longe e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que país europeu nasceu esta prova tradicional, que consiste em arremessar um tronco longo?",
+      "resposta": "Escócia",
+      "distratores": [
+        "Irlanda",
+        "País de Gales",
+        "Islândia"
+      ],
+      "ancora": {
+        "nome": "Arremesso de tronco",
+        "descricao": "Prova tradicional dos Jogos das Terras Altas escoceses em que se arremessa um tronco longo e afilado, o caber.",
+        "variantes": [
+          "Caber toss",
+          "Lançamento de tronco"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Barra com anilhas, nítida. O texto 'ARTIS KG' é só a marca da anilha e não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta barra com anilhas é o equipamento de qual esporte olímpico?",
+      "resposta": "Levantamento de peso",
+      "distratores": [
+        "Ginástica artística",
+        "Remo",
+        "Lançamento de martelo"
+      ],
+      "ancora": {
+        "nome": "Barra de levantamento de peso",
+        "descricao": "Barra de aço com anilhas nas pontas, usada no levantamento de peso e no treino com pesos.",
+        "variantes": [
+          "Barra olímpica",
+          "Barbell",
+          "Halter"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pintura de dois lutadores com calções amarelos de couro e paisagem alpina ao fundo. Assinatura apenas em iniciais, sem texto que entregue a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Esta pintura mostra uma luta folclórica considerada esporte nacional de qual país?",
+      "resposta": "Suíça",
+      "distratores": [
+        "Áustria",
+        "Turquia",
+        "Mongólia"
+      ],
+      "ancora": {
+        "nome": "Schwingen",
+        "descricao": "Luta folclórica suíça em que os lutadores usam calções com cinto para aplicar projeções.",
+        "variantes": [
+          "Luta suíça",
+          "Hosenlupf",
+          "Swiss wrestling"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Apito antigo de latão, nítido, com fundo claro. A gravura de um pássaro e as iniciais não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que objeto é este?",
+      "resposta": "Apito",
+      "distratores": [
+        "Corneta",
+        "Sineta",
+        "Gaita"
+      ],
+      "ancora": {
+        "nome": "Apito",
+        "descricao": "Pequeno instrumento de sopro, de metal, que produz som agudo, usado por árbitros.",
+        "variantes": [
+          "Apito de árbitro"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Pista com sulcos paralelos e um esquiador pequeno e distante, sem texto. A pessoa não está em primeiro plano.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que modalidade olímpica de inverno é praticada nesta pista preparada?",
+      "resposta": "Esqui cross-country",
+      "distratores": [
+        "Esqui alpino",
+        "Salto de esqui",
+        "Snowboard"
+      ],
+      "ancora": {
+        "nome": "Esqui cross-country",
+        "descricao": "Modalidade de esqui em que o atleta percorre terreno nevado plano ou ondulado, em pistas com sulcos, impulsionado por bastões.",
+        "variantes": [
+          "Esqui de fundo",
+          "Esqui nórdico",
+          "Cross-country skiing"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Árbitro em gesto ambíguo, sem pergunta específica possível e sem reconhecimento pela imagem; o escudo traz texto 'FIFA 2012'."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vários tacos de hóquei no gelo alinhados, com lâmina em L característica. As marcas visíveis não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que esporte usa estes tacos?",
+      "resposta": "Hóquei no gelo",
+      "distratores": [
+        "Hóquei em campo",
+        "Lacrosse",
+        "Shinty"
+      ],
+      "ancora": {
+        "nome": "Taco de hóquei no gelo",
+        "descricao": "Haste com lâmina curva na ponta, usada no hóquei no gelo para conduzir, passar e chutar o disco.",
+        "variantes": [
+          "Stick de hóquei",
+          "Ice hockey stick"
+        ]
+      }
+    }
+  ]
+}
