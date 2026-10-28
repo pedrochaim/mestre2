@@ -6,7 +6,7 @@
 
 ## O que é
 
-O modo Pokémon é o primeiro dos **modos temáticos** (2026-10-27), separado do Master e do Linear. As regras são as do Modo Linear (MANIFESTO §15): a vez, quem lê e a chegada. O **dado de 1 a 3**, que o Linear também tinha até 2026-10-28, continua no Pokémon; o bônus de dois erros seguidos e o efeito das casas ★ do Linear não valem aqui. A trilha é a de 60 casas que o Linear tinha até 2026-10-27, quando ele passou a ter 32; o Pokémon a manteve. Todas as perguntas saem da coleção `pokemon`, e **a casa dita o teor da pergunta** (seção "Casas temáticas").
+O modo Pokémon é o primeiro dos **modos temáticos** (2026-10-27), separado do Master e do Linear. As regras são as do Modo Linear (MANIFESTO §15): a vez, quem lê e a chegada, e também o **dado de 1 a 3**; o dado da sorte e o efeito das casas ★ do Linear não valem aqui. A trilha é a de 60 casas que o Linear tinha até 2026-10-27, quando ele passou a ter 32; o Pokémon a manteve. Todas as perguntas saem da coleção `pokemon`, e **a casa dita o teor da pergunta** (seção "Casas temáticas").
 
 ## Decidido pelo autor (2026-10-13)
 
