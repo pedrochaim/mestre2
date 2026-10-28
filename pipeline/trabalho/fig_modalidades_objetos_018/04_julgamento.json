@@ -1,0 +1,385 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Montanhismo",
+        "descricao": "Conjunto de atividades ao ar livre que envolvem a escalada de montanhas, também chamado de alpinismo.",
+        "variantes": [
+          "Alpinismo",
+          "Mountaineering"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jainismo",
+          "nome": "Jainismo",
+          "descricao": "Religião indiana antiga baseada na não violência radical, cujo principal mestre foi Mahavira",
+          "variantes": [
+            "Jainism"
+          ]
+        },
+        {
+          "id": "cinismo_escola_filosofica",
+          "nome": "Cinismo (escola filosófica)",
+          "descricao": "Escola filosófica grega de Antístenes e Diógenes de Sinope, que pregava viver com o mínimo e contra as convenções.",
+          "variantes": [
+            "Cínicos",
+            "Cynicism",
+            "Cinismo",
+            "Escola cínica",
+            "Cinismo (filosofia)"
+          ]
+        },
+        {
+          "id": "daltonismo",
+          "nome": "Daltonismo",
+          "descricao": "Deficiência na percepção de cores, em geral hereditária.",
+          "variantes": [
+            "Discromatopsia",
+            "Color blindness",
+            "Cegueira para cores"
+          ]
+        },
+        {
+          "id": "galvanismo",
+          "nome": "Galvanismo",
+          "descricao": "Contração de músculos provocada por corrente elétrica, estudada por Luigi Galvani no século dezoito.",
+          "variantes": [
+            "Galvanism"
+          ]
+        },
+        {
+          "id": "tupinismos",
+          "nome": "Tupinismos",
+          "descricao": "Palavras do português herdadas da língua tupi, sobretudo no Brasil",
+          "variantes": [
+            "Palavras de origem tupi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Esqui estilo livre",
+        "descricao": "Modalidade de esqui com saltos, giros e manobras, olímpica, incluindo aerials, moguls, slopestyle e big air.",
+        "variantes": [
+          "Freestyle skiing",
+          "Esqui livre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esqui_alpino",
+          "nome": "Esqui alpino",
+          "descricao": "Esporte olímpico de inverno de descida de montanha em esquis, com provas como descida, slalom e supergigante.",
+          "variantes": [
+            "Alpine skiing"
+          ]
+        },
+        {
+          "id": "equipe_flare",
+          "nome": "Equipe Flare",
+          "descricao": "Organização vilã de Pokémon X e Y, da região de Kalos, de uniformes vermelhos, liderada por Lysandre.",
+          "variantes": [
+            "Team Flare"
+          ]
+        },
+        {
+          "id": "esquilo",
+          "nome": "Ésquilo",
+          "descricao": "Dramaturgo ateniense do século cinco a.C., considerado o pai da tragédia grega.",
+          "variantes": [
+            "Aeschylus",
+            "Aiskhylos",
+            "Aischylos"
+          ]
+        },
+        {
+          "id": "tiro_livre",
+          "nome": "Tiro livre",
+          "descricao": "Cobrança de bola parada no futebol concedida após uma infração do adversário.",
+          "variantes": [
+            "Falta",
+            "Free kick"
+          ]
+        },
+        {
+          "id": "rei_sacerdote_de_mohenjo_daro",
+          "nome": "Rei-Sacerdote de Mohenjo-daro",
+          "descricao": "Pequena escultura de esteatita de um homem barbado, encontrada em Mohenjo-daro, símbolo da civilização do Vale do Indo.",
+          "variantes": [
+            "Priest-King",
+            "Rei-Sacerdote",
+            "Sacerdote-Rei"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Classe Star",
+        "descricao": "Veleiro de quilha de regata para duas pessoas, projetado em 1910, classe olímpica de 1932 a 2012.",
+        "variantes": [
+          "Star",
+          "Star (vela)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "citara_indiana",
+          "nome": "Cítara indiana",
+          "descricao": "Instrumento de cordas dedilhadas da música clássica hindustani, com pontes e trastes móveis.",
+          "variantes": [
+            "Sitar",
+            "Cítara"
+          ]
+        },
+        {
+          "id": "ishtar",
+          "nome": "Ishtar",
+          "descricao": "Deusa mesopotâmica do amor, da fertilidade e da guerra, equivalente acádia da suméria Inanna.",
+          "variantes": [
+            "Inanna",
+            "Istar"
+          ]
+        },
+        {
+          "id": "staryu",
+          "nome": "Staryu",
+          "descricao": "Pokémon estrela-do-mar de água da primeira geração, número 120 da Pokédex Nacional.",
+          "variantes": [
+            "Hitodeman"
+          ]
+        },
+        {
+          "id": "starly",
+          "nome": "Starly",
+          "descricao": "Pokémon dos tipos Normal e Voador, número 396 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "turbante",
+          "nome": "Turbante",
+          "descricao": "Cobertura de cabeça feita de tecido enrolado, usada em várias culturas.",
+          "variantes": [
+            "Dastar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Balonismo",
+        "descricao": "Esporte e aventura de voar em balões de ar quente.",
+        "variantes": [
+          "Balão de ar quente",
+          "Hot air ballooning"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "balao_de_ar_quente",
+          "nome": "Balão de ar quente",
+          "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+          "variantes": [
+            "Balão",
+            "Balão aerostático",
+            "Montgolfière",
+            "Hot air balloon"
+          ]
+        },
+        {
+          "id": "daltonismo",
+          "nome": "Daltonismo",
+          "descricao": "Deficiência na percepção de cores, em geral hereditária.",
+          "variantes": [
+            "Discromatopsia",
+            "Color blindness",
+            "Cegueira para cores"
+          ]
+        },
+        {
+          "id": "taco_de_criquete",
+          "nome": "Taco de críquete",
+          "descricao": "Taco de madeira de lâmina plana e cabo envolto, usado pelo batedor no críquete.",
+          "variantes": [
+            "Bastão de críquete",
+            "Cricket bat"
+          ]
+        },
+        {
+          "id": "bola_de_basquete",
+          "nome": "Bola de basquete",
+          "descricao": "Bola esférica alaranjada com gomos pretos usada no basquete.",
+          "variantes": [
+            "Basketball"
+          ]
+        },
+        {
+          "id": "brutalismo",
+          "nome": "Brutalismo",
+          "descricao": "Estilo arquitetônico de meados do século vinte, marcado pelo concreto aparente e formas maciças.",
+          "variantes": [
+            "Arquitetura brutalista",
+            "Brutalist architecture"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Nado costas",
+        "descricao": "Estilo de natação competitiva nadado de barriga para cima, com largada de dentro da água.",
+        "variantes": [
+          "Costas",
+          "Backstroke"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nado_costas",
+          "nome": "Nado costas",
+          "descricao": "Estilo de natação em que o nadador fica de barriga para cima, alternando os braços.",
+          "variantes": [
+            "Costas",
+            "Backstroke"
+          ]
+        },
+        {
+          "id": "costela",
+          "nome": "Costela",
+          "descricao": "Osso longo e curvo que forma a caixa torácica e protege órgãos do tórax.",
+          "variantes": [
+            "Costelas"
+          ]
+        },
+        {
+          "id": "ostra",
+          "nome": "Ostra",
+          "descricao": "Molusco bivalve marinho de concha calcificada e irregular, comestível, da superfamília Ostreoidea.",
+          "variantes": [
+            "Ostras"
+          ]
+        },
+        {
+          "id": "circuito_das_americas",
+          "nome": "Circuito das Américas",
+          "descricao": "Autódromo de Austin, Texas, EUA, sede do GP dos Estados Unidos de Fórmula 1.",
+          "variantes": [
+            "Circuit of the Americas",
+            "COTA"
+          ]
+        },
+        {
+          "id": "lingua_xhosa",
+          "nome": "Língua xhosa",
+          "descricao": "Língua banta da África do Sul, conhecida pelos sons de estalo, língua materna de Nelson Mandela.",
+          "variantes": [
+            "Xhosa",
+            "isiXhosa",
+            "Cosa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Futebol australiano",
+        "descricao": "Esporte de contato entre duas equipes de 18 jogadores num campo oval, com bola oval.",
+        "variantes": [
+          "Futebol de regras australianas",
+          "Australian rules football",
+          "Footy"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "futebol_americano",
+          "nome": "Futebol americano",
+          "descricao": "Esporte coletivo de contato jogado com bola oval em campo com traves e linhas de jardas.",
+          "variantes": [
+            "Gridiron",
+            "Football americano"
+          ]
+        },
+        {
+          "id": "periquito_australiano",
+          "nome": "Periquito-australiano",
+          "descricao": "Melopsittacus undulatus, pequeno papagaio australiano de cauda longa, popular como ave de estimação.",
+          "variantes": [
+            "Budgerigar",
+            "Periquito-comum",
+            "Melopsittacus undulatus"
+          ]
+        },
+        {
+          "id": "futsal",
+          "nome": "Futsal",
+          "descricao": "Variante do futebol jogada em quadra por equipes de cinco jogadores.",
+          "variantes": [
+            "Futebol de salão"
+          ]
+        },
+        {
+          "id": "futebol_total",
+          "nome": "Futebol total",
+          "descricao": "Estilo tático de rodízio constante de posições associado ao Ajax e à seleção da Holanda do início dos anos 1970.",
+          "variantes": [
+            "Total Football",
+            "Totaalvoetbal",
+            "Carrossel Holandês",
+            "Laranja Mecânica"
+          ]
+        },
+        {
+          "id": "futebol_de_areia",
+          "nome": "Futebol de areia",
+          "descricao": "Variante do futebol jogada na areia por duas equipes de cinco jogadores.",
+          "variantes": [
+            "Beach soccer",
+            "Futebol de praia"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é montanhismo/alpinismo."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Esqui estilo livre é modalidade distinta do esqui alpino."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Classe de veleiro Star não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Balonismo é o esporte/atividade; a candidata é a aeronave, entidade diferente."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "nado_costas",
+      "motivo": "Mesmo estilo de natação, mesmo nome e variantes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Futebol australiano é um esporte distinto das candidatas."
+    }
+  ]
+}

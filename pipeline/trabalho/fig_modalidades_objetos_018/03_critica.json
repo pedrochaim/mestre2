@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A UIAA é a federação de clubes alpinos reconhecida pelo COI, segundo o trecho. O enunciado não entrega a resposta e os distratores são críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'arpão' e 'mergulhando' definem a pesca subaquática, então a figura é só enfeite. Tirar essa pista deixaria a pergunta sem sentido.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a modalidade era chamada de 'hot-dogging' no início dos anos 1970. O enunciado não vaza a resposta e os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os dois trechos confirmam que a classe Star foi olímpica de 1932 a 2012. A resposta é um ano e a pergunta é múltipla, com distratores de anos olímpicos próximos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma o propano. Mas 'aeronaves' mantidas no ar por 'queimadores' descreve o balão de ar quente e dispensa a figura. A reescrita tira essa pista.",
+      "reescrita": {
+        "pergunta": "Que combustível alimenta o queimador que fica a bordo deste veículo?",
+        "resposta": "Propano",
+        "distratores": [
+          "Hidrogênio",
+          "Querosene",
+          "Etanol"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o nado costas é o primeiro estilo do revezamento medley. A resposta é única e os distratores são posições possíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os dois trechos confirmam que cada equipe tem 18 jogadores. O enunciado não vaza a resposta e os distratores são números plausíveis.",
+      "reescrita": null
+    }
+  ]
+}

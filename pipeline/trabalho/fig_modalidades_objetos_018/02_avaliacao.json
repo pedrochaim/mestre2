@@ -1,0 +1,198 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Alpinista de costas numa crista de neve, sem texto, claramente montanhismo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que federação internacional reúne os clubes que apoiam quem pratica esta atividade?",
+      "resposta": "UIAA",
+      "distratores": [
+        "FIS",
+        "IFSC",
+        "FAI"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Montanhismo",
+        "descricao": "Conjunto de atividades ao ar livre que envolvem a escalada de montanhas, também chamado de alpinismo.",
+        "variantes": [
+          "Alpinismo",
+          "Mountaineering"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, com rosto visível."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Texto visível (USA Orienteering, Czech Republic) e pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pescador em silhueta, de longe e irreconhecível, com varas de pesca ao lado do mar; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que variante desta atividade é praticada com arpão, geralmente mergulhando?",
+      "resposta": "Pesca subaquática",
+      "distratores": [
+        "Pesca de arrasto",
+        "Pesca com tarrafa",
+        "Pesca com rede"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Pesca esportiva",
+        "descricao": "Pesca feita por lazer, exercício ou competição, em geral com vara, carretel e anzol.",
+        "variantes": [
+          "Pesca desportiva",
+          "Pesca recreativa"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Sequência de manobra aérea de esquiador numa rampa, de costas e pequeno; sem texto legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que nome tinha esta modalidade de esqui no início dos anos mil novecentos e setenta?",
+      "resposta": "Hot-dogging",
+      "distratores": [
+        "Ski-bobbing",
+        "Snow-surfing",
+        "Wedeln"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Esqui estilo livre",
+        "descricao": "Modalidade de esqui com saltos, giros e manobras, olímpica, incluindo aerials, moguls, slopestyle e big air.",
+        "variantes": [
+          "Freestyle skiing",
+          "Esqui livre"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Veleiro de quilha Star em regata, sem texto que entregue a resposta (apenas GER e número de vela).",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Até que ano este barco foi classe olímpica de vela?",
+      "resposta": "2012",
+      "distratores": [
+        "2008",
+        "2016",
+        "2004"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Classe Star",
+        "descricao": "Veleiro de quilha de regata para duas pessoas, projetado em 1910, classe olímpica de 1932 a 2012.",
+        "variantes": [
+          "Star",
+          "Star (vela)"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Dois balões de ar quente em céu azul, sem texto nem pessoas identificáveis.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que combustível alimenta os queimadores que mantêm no ar estas aeronaves?",
+      "resposta": "Propano",
+      "distratores": [
+        "Hidrogênio",
+        "Querosene",
+        "Etanol"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Balonismo",
+        "descricao": "Esporte e aventura de voar em balões de ar quente.",
+        "variantes": [
+          "Balão de ar quente",
+          "Hot air ballooning"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta (ISU Cheerleading Alumni)."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta (Tango, 1978, World Cup Argentina)."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Largada de nado costas numa prova, nadadores de competição, rostos pouco visíveis; só 'ESP' discreto, sem entregar.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que posição este estilo é nadado no revezamento medley?",
+      "resposta": "Primeira",
+      "distratores": [
+        "Segunda",
+        "Terceira",
+        "Quarta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nado costas",
+        "descricao": "Estilo de natação competitiva nadado de barriga para cima, com largada de dentro da água.",
+        "variantes": [
+          "Costas",
+          "Backstroke"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano e texto visível (Human Rights Campaign)."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Disputa de bola em jogo profissional de futebol australiano, bola oval e campo oval característicos; patrocínios não entregam a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Quantos jogadores cada equipe tem em campo nesta modalidade?",
+      "resposta": "18",
+      "distratores": [
+        "15",
+        "13",
+        "11"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Futebol australiano",
+        "descricao": "Esporte de contato entre duas equipes de 18 jogadores num campo oval, com bola oval.",
+        "variantes": [
+          "Futebol de regras australianas",
+          "Australian rules football",
+          "Footy"
+        ]
+      }
+    }
+  ]
+}

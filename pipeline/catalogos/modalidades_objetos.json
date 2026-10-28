@@ -894,7 +894,7 @@
       "titulo": "en:Backstroke",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Corrida de revezamento",
@@ -1230,7 +1230,7 @@
       "titulo": "en:Bodyboarding",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Esqui aquático",
@@ -1580,7 +1580,7 @@
       "titulo": "en:Cheerleading",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Maratona aquática",
@@ -1643,7 +1643,7 @@
       "titulo": "en:Adidas Tango",
       "camada": 3,
       "destino": 3,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Troféu Heisman",
@@ -1686,6 +1686,286 @@
       "camada": 3,
       "destino": 4,
       "status": "reprovada"
+    },
+    {
+      "nome": "Stand up paddle",
+      "titulo": "en:Standup paddleboarding",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rapel",
+      "titulo": "en:Abseiling",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Balonismo",
+      "titulo": "en:Hot air ballooning",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Jet ski",
+      "titulo": "en:Personal watercraft",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Patins em linha",
+      "titulo": "en:Inline skates",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bola suíça",
+      "titulo": "en:Exercise ball",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Supino",
+      "titulo": "en:Bench press",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Embaixadinha",
+      "titulo": "en:Keepie uppie",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Touca de natação",
+      "titulo": "en:Swim cap",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Capacete de ciclismo",
+      "titulo": "en:Bicycle helmet",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Montanhismo",
+      "titulo": "en:Mountaineering",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Pesca esportiva",
+      "titulo": "en:Recreational fishing",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Carrinho (futebol)",
+      "titulo": "en:Tackle (football move)",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Vaquejada",
+      "titulo": "pt:Vaquejada",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Softbol",
+      "titulo": "en:Softball",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Petanca",
+      "titulo": "en:Pétanque",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mergulho livre",
+      "titulo": "en:Freediving",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Escalada em gelo",
+      "titulo": "en:Ice climbing",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Boulder",
+      "titulo": "en:Bouldering",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Basquete 3x3",
+      "titulo": "en:3x3 basketball",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Dança no gelo",
+      "titulo": "en:Ice dance",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Esqui estilo livre",
+      "titulo": "en:Freestyle skiing",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Adidas Fevernova",
+      "titulo": "en:Adidas Fevernova",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Adidas Al Rihla",
+      "titulo": "en:Adidas Al Rihla",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Naginata",
+      "titulo": "en:Naginata",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Kyokushin",
+      "titulo": "en:Kyokushin",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Jiu-jítsu japonês",
+      "titulo": "en:Jujutsu",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Rabona",
+      "titulo": "en:Rabona",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Futebol australiano",
+      "titulo": "en:Australian rules football",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Futebol gaélico",
+      "titulo": "en:Gaelic football",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Korfebol",
+      "titulo": "en:Korfball",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Floorball",
+      "titulo": "en:Floorball",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bandy",
+      "titulo": "en:Bandy",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Biribol",
+      "titulo": "pt:Biribol",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Corrida de orientação",
+      "titulo": "en:Orienteering",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Classe Star",
+      "titulo": "en:Star (keelboat)",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Kusarigama",
+      "titulo": "en:Kusarigama",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Lethwei",
+      "titulo": "en:Lethwei",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Racquetball",
+      "titulo": "en:Racquetball",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Taça Daphne Akhurst",
+      "titulo": "en:Daphne Akhurst Memorial Cup",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
     }
   ]
 }

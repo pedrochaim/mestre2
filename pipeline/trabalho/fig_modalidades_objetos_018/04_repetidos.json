@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que posição este estilo é nadado no revezamento medley?",
+        "resposta": "Primeira"
+      },
+      "existentes": [
+        {
+          "id": "q09052",
+          "pergunta": "Entre os quatro estilos da natação olímpica, qual é o único em que o nadador larga de dentro da água, e não do bloco?",
+          "resposta": "Nado costas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova trata da posição do estilo no revezamento medley; a existente trata de qual estilo larga de dentro da água. São fatos diferentes."
+    }
+  ]
+}
