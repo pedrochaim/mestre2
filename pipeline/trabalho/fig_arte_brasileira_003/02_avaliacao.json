@@ -1,0 +1,232 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Estátua clara, de corpo inteiro, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que escultor fez esta estátua monumental, feita de mosaico?",
+      "resposta": "Júlio Guerra",
+      "distratores": [
+        "Victor Brecheret",
+        "Bruno Giorgi",
+        "Alfredo Ceschiatti"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Estátua de Borba Gato",
+        "descricao": "Monumento ao bandeirante Manoel de Borba Gato, no bairro de Santo Amaro, em São Paulo.",
+        "variantes": [
+          "Monumento a Borba Gato"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O frontão traz o texto 'Theatro José de Alencar', que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Escultura clara, sem texto, forma característica.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que escultor fez esta obra de mármore branco sobre um espelho d'água?",
+      "resposta": "Bruno Giorgi",
+      "distratores": [
+        "Alfredo Ceschiatti",
+        "Victor Brecheret",
+        "Mário Cravo Júnior"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Meteoro (Bruno Giorgi)",
+        "descricao": "Escultura de mármore de Bruno Giorgi, de 1967-1968, no espelho d'água do Palácio Itamaraty, em Brasília.",
+        "variantes": [
+          "Meteoro",
+          "Meteoro do Itamaraty"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Monumento reconhecível, sem texto legível; troquei para quem_fez, mais adequada.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que escultor projetou este monumento, inaugurado no centenário de um acontecimento histórico brasileiro?",
+      "resposta": "Ettore Ximenes",
+      "distratores": [
+        "Victor Brecheret",
+        "Rodolfo Bernardelli",
+        "Bruno Giorgi"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Monumento à Independência do Brasil",
+        "descricao": "Conjunto escultórico em granito e bronze no Parque da Independência, no Ipiranga, em São Paulo.",
+        "variantes": [
+          "Monumento do Ipiranga",
+          "Altar da Pátria"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Torre do elevador e entorno reconhecíveis, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi concluída a construção desta estrutura, que liga a cidade baixa à cidade alta?",
+      "resposta": "1873",
+      "distratores": [
+        "1869",
+        "1878",
+        "1885"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Elevador Lacerda",
+        "descricao": "Elevador urbano de Salvador, na Bahia, que liga a Cidade Baixa à Cidade Alta.",
+        "variantes": [
+          "Elevador Lacerda de Salvador"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fachada de pilares inclinados característica, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto projetou este prédio de concreto aparente?",
+      "resposta": "Affonso Eduardo Reidy",
+      "distratores": [
+        "Oscar Niemeyer",
+        "Lúcio Costa",
+        "Lina Bo Bardi"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Museu de Arte Moderna do Rio de Janeiro",
+        "descricao": "Museu modernista no Parque do Flamengo, no Rio de Janeiro, com estrutura de concreto aparente.",
+        "variantes": [
+          "MAM Rio",
+          "MAM-RJ"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O friso da fachada traz o nome 'Theatro da Paz' legível, o que entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fachada barroca característica, sem texto relevante.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta igreja barroca, com torres revestidas de azulejos?",
+      "resposta": "Salvador",
+      "distratores": [
+        "Olinda",
+        "Ouro Preto",
+        "São Luís"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Igreja e Convento de São Francisco (Salvador)",
+        "descricao": "Conjunto barroco do século XVII ao XVIII, no Centro Histórico de Salvador, na Bahia.",
+        "variantes": [
+          "Igreja de São Francisco de Salvador",
+          "Convento de São Francisco"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fachada com torre do relógio reconhecível; a inscrição citada (ferrovia) não entrega o ano.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi inaugurada esta estação ferroviária paulistana?",
+      "resposta": "1938",
+      "distratores": [
+        "1926",
+        "1932",
+        "1945"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Estação Júlio Prestes",
+        "descricao": "Estação ferroviária no bairro dos Campos Elíseos, em São Paulo, que abriga a Sala São Paulo.",
+        "variantes": [
+          "Estação Julio Prestes",
+          "Sala São Paulo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A placa 'Circolo Italiano' aparece em destaque e entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fachada neoclássica clara, sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que palácio histórico do Rio de Janeiro é este, antigo prédio da Câmara dos Deputados?",
+      "resposta": "Palácio Tiradentes",
+      "distratores": [
+        "Palácio Pedro Ernesto",
+        "Theatro Municipal",
+        "Palácio Monroe"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Palácio Tiradentes",
+        "descricao": "Palácio inaugurado em 1926 no centro do Rio de Janeiro, antigo prédio da Câmara dos Deputados e depois da Assembleia Legislativa do estado.",
+        "variantes": [
+          "Palácio Tiradentes do Rio de Janeiro"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Edifício reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este edifício de estilo eclético, inaugurado em 1929?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Rio de Janeiro",
+        "Belo Horizonte",
+        "Porto Alegre"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Edifício Martinelli",
+        "descricao": "Primeiro arranha-céu do Brasil, de 28 andares, no centro de São Paulo.",
+        "variantes": [
+          "Prédio Martinelli",
+          "Martinelli Building"
+        ]
+      }
+    }
+  ]
+}

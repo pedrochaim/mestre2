@@ -1,0 +1,562 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Estátua de Borba Gato",
+        "descricao": "Monumento ao bandeirante Manoel de Borba Gato, no bairro de Santo Amaro, em São Paulo.",
+        "variantes": [
+          "Monumento a Borba Gato"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monumento_a_washington",
+          "nome": "Monumento a Washington",
+          "descricao": "Obelisco de mármore no National Mall, em Washington, D.C., em homenagem a George Washington, concluído em 1884.",
+          "variantes": [
+            "Washington Monument"
+          ]
+        },
+        {
+          "id": "estatua_de_coatlicue",
+          "nome": "Estátua de Coatlicue",
+          "descricao": "Monumental escultura asteca de pedra da deusa mãe Coatlicue, a da saia de serpentes, no Museu Nacional de Antropologia do México.",
+          "variantes": [
+            "Coatlicue",
+            "Coatlicue Mayor"
+          ]
+        },
+        {
+          "id": "monumento_as_bandeiras",
+          "nome": "Monumento às Bandeiras",
+          "descricao": "Grande escultura de granito de Victor Brecheret, junto ao Parque Ibirapuera, em São Paulo, que homenageia as bandeiras.",
+          "variantes": [
+            "Monumento aos Bandeirantes",
+            "Monumento às Bandeiras de São Paulo"
+          ]
+        },
+        {
+          "id": "monumento_nacional_aos_mortos_da_segunda_guerra_mundial",
+          "nome": "Monumento Nacional aos Mortos da Segunda Guerra Mundial",
+          "descricao": "Monumento no Rio de Janeiro, inaugurado em 1960, que guarda os restos mortais dos pracinhas brasileiros mortos na Itália.",
+          "variantes": [
+            "Monumento aos Pracinhas",
+            "Monumento aos Mortos da Segunda Guerra Mundial"
+          ]
+        },
+        {
+          "id": "monte_ararat",
+          "nome": "Monte Ararat",
+          "descricao": "Vulcão adormecido no leste da Turquia, perto das fronteiras com a Armênia e o Irã.",
+          "variantes": [
+            "Ararat",
+            "Ağrı Dağı",
+            "Mount Ararat"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Meteoro (Bruno Giorgi)",
+        "descricao": "Escultura de mármore de Bruno Giorgi, de 1967-1968, no espelho d'água do Palácio Itamaraty, em Brasília.",
+        "variantes": [
+          "Meteoro",
+          "Meteoro do Itamaraty"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "meteorito_hoba",
+          "nome": "Meteorito Hoba",
+          "descricao": "Grande meteorito de ferro encontrado na Namíbia, o maior bloco único de ferro de origem natural na superfície terrestre.",
+          "variantes": [
+            "Meteorito",
+            "Hoba",
+            "Hoba West"
+          ]
+        },
+        {
+          "id": "meteora",
+          "nome": "Meteora",
+          "descricao": "Conjunto de mosteiros ortodoxos construídos no alto de pilares de rocha, na Tessália",
+          "variantes": []
+        },
+        {
+          "id": "metro",
+          "nome": "Metro",
+          "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito.",
+          "variantes": [
+            "Metro (unidade)",
+            "Metre",
+            "Meter"
+          ]
+        },
+        {
+          "id": "mentor_odisseia",
+          "nome": "Mentor (Odisseia)",
+          "descricao": "Personagem da Odisseia, velho amigo de Ulisses encarregado de cuidar de Telêmaco.",
+          "variantes": [
+            "Mentor"
+          ]
+        },
+        {
+          "id": "metecos",
+          "nome": "Metecos",
+          "descricao": "Estrangeiros livres que residiam em Atenas, pagavam imposto e serviam no exército, mas não tinham direitos políticos.",
+          "variantes": [
+            "Meteco",
+            "Metic",
+            "Métoikos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Monumento à Independência do Brasil",
+        "descricao": "Conjunto escultórico em granito e bronze no Parque da Independência, no Ipiranga, em São Paulo.",
+        "variantes": [
+          "Monumento do Ipiranga",
+          "Altar da Pátria"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monumento_a_independencia_do_brasil",
+          "nome": "Monumento à Independência do Brasil",
+          "descricao": "Conjunto escultórico em granito e bronze no Parque da Independência, em São Paulo, também chamado Altar da Pátria.",
+          "variantes": [
+            "Monumento do Ipiranga",
+            "Altar da Pátria"
+          ]
+        },
+        {
+          "id": "hino_da_independencia_do_brasil",
+          "nome": "Hino da Independência do Brasil",
+          "descricao": "Hino patriótico brasileiro com letra de Evaristo da Veiga, celebrando a independência de 1822.",
+          "variantes": [
+            "Hino da Independência"
+          ]
+        },
+        {
+          "id": "hino_da_independencia_do_brasil_2",
+          "nome": "Hino da Independência do Brasil",
+          "descricao": "Hino patriótico brasileiro com música de Dom Pedro Primeiro, que começa com os versos Já podeis, da Pátria filhos.",
+          "variantes": [
+            "Hino da Independência"
+          ]
+        },
+        {
+          "id": "panteao_da_patria_e_da_liberdade",
+          "nome": "Panteão da Pátria e da Liberdade",
+          "descricao": "Memorial cívico na Praça dos Três Poderes, em Brasília, que homenageia heróis nacionais, Tiradentes e Tancredo Neves.",
+          "variantes": [
+            "Panteão da Pátria e da Liberdade Tancredo Neves",
+            "Panteão da Pátria"
+          ]
+        },
+        {
+          "id": "museu_do_ipiranga",
+          "nome": "Museu do Ipiranga",
+          "descricao": "Museu Paulista da USP, edifício monumental em São Paulo próximo ao local do grito da Independência.",
+          "variantes": [
+            "Museu Paulista",
+            "Museu Paulista da USP"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Elevador Lacerda",
+        "descricao": "Elevador urbano de Salvador, na Bahia, que liga a Cidade Baixa à Cidade Alta.",
+        "variantes": [
+          "Elevador Lacerda de Salvador"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "elevador_lacerda",
+          "nome": "Elevador Lacerda",
+          "descricao": "Elevador público de Salvador que liga a Cidade Baixa à Cidade Alta.",
+          "variantes": [
+            "Elevador Hidráulico da Conceição"
+          ]
+        },
+        {
+          "id": "freio_de_seguranca_do_elevador",
+          "nome": "Freio de segurança do elevador",
+          "descricao": "Mecanismo que trava a cabine do elevador caso o cabo se rompa, demonstrado em 1854 em Nova York.",
+          "variantes": [
+            "Elevador de segurança"
+          ]
+        },
+        {
+          "id": "leao_de_lucerna",
+          "nome": "Leão de Lucerna",
+          "descricao": "Relevo de um leão moribundo esculpido na rocha em Lucerna, na Suíça, em memória dos guardas suíços mortos em 1792.",
+          "variantes": [
+            "Löwendenkmal",
+            "Monumento do Leão"
+          ]
+        },
+        {
+          "id": "ojos_del_salado",
+          "nome": "Ojos del Salado",
+          "descricao": "Vulcão dos Andes na fronteira entre Argentina e Chile, com cerca de 6 900 metros de altitude.",
+          "variantes": [
+            "Nevado Ojos del Salado"
+          ]
+        },
+        {
+          "id": "lavadeira_mascarada",
+          "nome": "Lavadeira-mascarada",
+          "descricao": "Passarinho branco com máscara preta nos olhos (Fluvicola nengeta), comum perto da água.",
+          "variantes": [
+            "Fluvicola nengeta",
+            "Masked water tyrant"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Museu de Arte Moderna do Rio de Janeiro",
+        "descricao": "Museu modernista no Parque do Flamengo, no Rio de Janeiro, com estrutura de concreto aparente.",
+        "variantes": [
+          "MAM Rio",
+          "MAM-RJ"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mario",
+          "nome": "Mario",
+          "descricao": "Personagem encanador da Nintendo, mascote da empresa, criado por Shigeru Miyamoto.",
+          "variantes": [
+            "Super Mario",
+            "Mario Mario",
+            "Jumpman"
+          ]
+        },
+        {
+          "id": "romario",
+          "nome": "Romário",
+          "descricao": "Ex-atacante brasileiro, nascido em 1966, campeão mundial em 1994 e depois político, senador pelo Rio de Janeiro.",
+          "variantes": [
+            "Romário de Souza Faria"
+          ]
+        },
+        {
+          "id": "sambodromo_do_rio_de_janeiro",
+          "nome": "Sambódromo do Rio de Janeiro",
+          "descricao": "Passarela do desfile das escolas de samba no Rio de Janeiro, inaugurada em 1984.",
+          "variantes": [
+            "Sambódromo da Marquês de Sapucaí",
+            "Passarela Professor Darcy Ribeiro",
+            "Sambódromo do Rio",
+            "Passarela do Samba Darcy Ribeiro"
+          ]
+        },
+        {
+          "id": "museu_de_arte_contemporanea_de_niteroi",
+          "nome": "Museu de Arte Contemporânea de Niterói",
+          "descricao": "Museu projetado por Oscar Niemeyer, em forma de disco, sobre um mirante à beira da baía de Guanabara, inaugurado em 1996.",
+          "variantes": [
+            "MAC Niterói",
+            "MAC"
+          ]
+        },
+        {
+          "id": "umami",
+          "nome": "Umami",
+          "descricao": "Quinto gosto básico, associado ao glutamato, identificado por Kikunae Ikeda em 1908.",
+          "variantes": [
+            "Gosto umami"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Igreja e Convento de São Francisco (Salvador)",
+        "descricao": "Conjunto barroco do século XVII ao XVIII, no Centro Histórico de Salvador, na Bahia.",
+        "variantes": [
+          "Igreja de São Francisco de Salvador",
+          "Convento de São Francisco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "igreja_de_sao_francisco_de_salvador",
+          "nome": "Igreja de São Francisco de Salvador",
+          "descricao": "Igreja barroca do convento franciscano no centro histórico de Salvador, na Bahia, do século dezoito.",
+          "variantes": [
+            "Igreja e Convento de São Francisco",
+            "Church and Convent of São Francisco"
+          ]
+        },
+        {
+          "id": "igreja_de_sao_francisco_de_assis_ouro_preto",
+          "nome": "Igreja de São Francisco de Assis (Ouro Preto)",
+          "descricao": "Igreja barroca do século dezoito em Ouro Preto, com projeto atribuído a Aleijadinho.",
+          "variantes": []
+        },
+        {
+          "id": "rio_sao_francisco",
+          "nome": "Rio São Francisco",
+          "descricao": "Rio brasileiro que nasce na Serra da Canastra e deságua no Atlântico entre Alagoas e Sergipe.",
+          "variantes": [
+            "Velho Chico",
+            "São Francisco River"
+          ]
+        },
+        {
+          "id": "carranca",
+          "nome": "Carranca",
+          "descricao": "Escultura de rosto feroz, metade humano e metade animal, colocada na proa das embarcações do rio São Francisco.",
+          "variantes": [
+            "Carrancas do São Francisco"
+          ]
+        },
+        {
+          "id": "sao_francisco",
+          "nome": "São Francisco",
+          "descricao": "Cidade da Califórnia, nos Estados Unidos, ligada à ponte Golden Gate.",
+          "variantes": [
+            "San Francisco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Estação Júlio Prestes",
+        "descricao": "Estação ferroviária no bairro dos Campos Elíseos, em São Paulo, que abriga a Sala São Paulo.",
+        "variantes": [
+          "Sala São Paulo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sao_paulo",
+          "nome": "São Paulo",
+          "descricao": "Capital do estado de São Paulo, cidade fundada em 1554 a partir de um colégio jesuíta.",
+          "variantes": [
+            "São Paulo (cidade)",
+            "Cidade de São Paulo",
+            "Sampa"
+          ]
+        },
+        {
+          "id": "sao_paulo_estado",
+          "nome": "São Paulo (estado)",
+          "descricao": "Estado mais populoso do Brasil, na Região Sudeste.",
+          "variantes": [
+            "São Paulo",
+            "Estado de São Paulo"
+          ]
+        },
+        {
+          "id": "sao_paulo_futebol_clube",
+          "nome": "São Paulo Futebol Clube",
+          "descricao": "Clube de futebol brasileiro sediado na cidade de São Paulo, com sede no Morumbi.",
+          "variantes": [
+            "São Paulo",
+            "São Paulo FC",
+            "Tricolor Paulista"
+          ]
+        },
+        {
+          "id": "bienal_de_sao_paulo",
+          "nome": "Bienal de São Paulo",
+          "descricao": "Exposição internacional de arte realizada a cada dois anos em São Paulo.",
+          "variantes": [
+            "Bienal Internacional de Arte de São Paulo",
+            "São Paulo Art Biennial"
+          ]
+        },
+        {
+          "id": "papa_joao_paulo_ii",
+          "nome": "Papa João Paulo II",
+          "descricao": "Karol Wojtyła, papa polonês de 1978 a 2005.",
+          "variantes": [
+            "João Paulo II",
+            "Karol Wojtyła",
+            "Pope John Paul II"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Palácio Tiradentes",
+        "descricao": "Palácio inaugurado em 1926 no centro do Rio de Janeiro, antigo prédio da Câmara dos Deputados e depois da Assembleia Legislativa do estado.",
+        "variantes": [
+          "Palácio Tiradentes do Rio de Janeiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_de_janeiro",
+          "nome": "Rio de Janeiro",
+          "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+          "variantes": [
+            "São Sebastião do Rio de Janeiro",
+            "Rio"
+          ]
+        },
+        {
+          "id": "tiradentes",
+          "nome": "Tiradentes",
+          "descricao": "Joaquim José da Silva Xavier, alferes e principal mártir da Inconfidência Mineira, executado em 1792.",
+          "variantes": [
+            "Joaquim José da Silva Xavier"
+          ]
+        },
+        {
+          "id": "tiradentes_2",
+          "nome": "Tiradentes",
+          "descricao": "Município histórico de Minas Gerais, antiga São José del Rei, com a Matriz de Santo Antônio.",
+          "variantes": [
+            "São José del Rei"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro_estado",
+          "nome": "Rio de Janeiro (estado)",
+          "descricao": "Estado da Região Sudeste do Brasil, cuja capital é a cidade do Rio de Janeiro.",
+          "variantes": [
+            "Rio de Janeiro",
+            "Estado do Rio de Janeiro",
+            "RJ"
+          ]
+        },
+        {
+          "id": "sao_jorge_no_rio_de_janeiro",
+          "nome": "São Jorge no Rio de Janeiro",
+          "descricao": "Devoção popular carioca ao santo guerreiro São Jorge, celebrado em 23 de abril e sincretizado com um orixá.",
+          "variantes": [
+            "Festa de São Jorge"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Edifício Martinelli",
+        "descricao": "Primeiro arranha-céu do Brasil, de 28 andares, no centro de São Paulo.",
+        "variantes": [
+          "Prédio Martinelli",
+          "Martinelli Building"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "flatiron_building",
+          "nome": "Flatiron Building",
+          "descricao": "Arranha-céu triangular de 1902 na esquina da Quinta Avenida com a Broadway, em Nova York.",
+          "variantes": [
+            "Edifício Flatiron",
+            "Fuller Building"
+          ]
+        },
+        {
+          "id": "edificio_copan",
+          "nome": "Edifício Copan",
+          "descricao": "Edifício residencial sinuoso projetado por Oscar Niemeyer no centro de São Paulo.",
+          "variantes": [
+            "Copan"
+          ]
+        },
+        {
+          "id": "frango_d_agua_azul",
+          "nome": "Frango-d'água-azul",
+          "descricao": "Porphyrio martinica, ave de brejo americana da família Rallidae, de plumagem azul-púrpura e verde, bico vermelho e pernas amarelas.",
+          "variantes": [
+            "Purple gallinule",
+            "Porphyrio martinica",
+            "Frango-de-água-azul"
+          ]
+        },
+        {
+          "id": "empire_state_building",
+          "nome": "Empire State Building",
+          "descricao": "Arranha-céu art déco de 102 andares em Manhattan, Nova York, concluído em 1931.",
+          "variantes": [
+            "Empire State"
+          ]
+        },
+        {
+          "id": "edificio_dakota",
+          "nome": "Edifício Dakota",
+          "descricao": "Prédio residencial do século dezenove no Upper West Side de Manhattan, em frente ao Central Park.",
+          "variantes": [
+            "The Dakota",
+            "Dakota"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Estátua de Borba Gato é distinta das candidatas; Monumento às Bandeiras é outra obra."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Escultura de Bruno Giorgi não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "monumento_a_independencia_do_brasil",
+      "motivo": "Mesmo conjunto escultórico no Parque da Independência, mesmas variantes."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "elevador_lacerda",
+      "motivo": "Mesmo elevador de Salvador ligando Cidade Baixa e Alta."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "MAM Rio não está entre as candidatas; MAC Niterói é outro museu."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "igreja_de_sao_francisco_de_salvador",
+      "motivo": "Mesmo conjunto barroco franciscano em Salvador, variantes coincidem."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Estação Júlio Prestes é um edifício distinto das candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Palácio Tiradentes é um edifício, diferente das candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Edifício Martinelli não está entre as candidatas."
+    }
+  ]
+}

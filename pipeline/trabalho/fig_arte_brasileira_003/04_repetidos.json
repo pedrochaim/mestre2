@@ -1,0 +1,74 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que escultor projetou este monumento, inaugurado no centenário de um acontecimento histórico brasileiro?",
+        "resposta": "Ettore Ximenes"
+      },
+      "existentes": [
+        {
+          "id": "q14592",
+          "pergunta": "Em que ano foi inaugurado este monumento, em São Paulo?",
+          "resposta": "1922"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que ano foi inaugurada a primeira versão desta estrutura, que liga a cidade baixa à cidade alta?",
+        "resposta": "1873"
+      },
+      "existentes": [
+        {
+          "id": "q04541",
+          "pergunta": "Em Salvador, o Elevador Lacerda liga a Cidade Baixa à Cidade Alta. Em que século ele foi inaugurado?",
+          "resposta": "Século dezenove"
+        },
+        {
+          "id": "q05437",
+          "pergunta": "Ligando a Cidade Baixa à Cidade Alta de Salvador, o Elevador Lacerda transportou os primeiros passageiros no reinado de qual imperador?",
+          "resposta": "Dom Pedro II"
+        },
+        {
+          "id": "q14396",
+          "pergunta": "Em que ano foi inaugurado este elevador urbano?",
+          "resposta": "1873"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade brasileira fica esta igreja barroca com convento, erguida entre os séculos dezessete e dezoito?",
+        "resposta": "Salvador"
+      },
+      "existentes": [
+        {
+          "id": "q08468",
+          "pergunta": "No centro histórico de Salvador, a Igreja de São Francisco é famosa pelo interior de talhas de madeira revestidas de quê?",
+          "resposta": "Ouro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o escultor, enquanto a existente pergunta o ano de inauguração; fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Pergunta o ano de inauguração (1873) do mesmo elevador, igual à q14396.",
+      "id_existente": "q14396"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pergunta a cidade da igreja, enquanto a existente trata do revestimento de ouro do interior; fatos diferentes."
+    }
+  ]
+}

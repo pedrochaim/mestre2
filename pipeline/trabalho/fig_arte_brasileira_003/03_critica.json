@@ -1,0 +1,107 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A estátua não é 'feita de mosaico': são os painéis do cubo atrás dela que são em mosaico de pastilhas. A afirmação não é literalmente verdadeira. Troquei por época e lugar, que não entregam a resposta.",
+      "reescrita": {
+        "pergunta": "Em São Paulo, que escultor fez esta estátua monumental, erguida na década de 1960?",
+        "resposta": "Júlio Guerra",
+        "distratores": [
+          "Victor Brecheret",
+          "Bruno Giorgi",
+          "Alfredo Ceschiatti"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro (mármore branco, espelho d'água), sem vazamento, distratores escultores brasileiros críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ximenes esculpiu e projetou o monumento (fontes em inglês dizem 'designed'); inaugurado em 1922, centenário da Independência. Sem vazamento e distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A estrutura atual é de 1930; 1873 é a inauguração da primeira torre. 'Concluída a construção desta estrutura' fica ambíguo diante da foto. Delimitei à primeira versão.",
+      "reescrita": {
+        "pergunta": "Em que ano foi inaugurada a primeira versão desta estrutura, que liga a cidade baixa à cidade alta?",
+        "resposta": "1873",
+        "distratores": [
+          "1869",
+          "1878",
+          "1885"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria de Reidy confirmada; concreto aparente é característica visível; distratores arquitetos modernistas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Torres revestidas de azulejos' não está sustentado: os azulejos citados estão no claustro, não nas torres. Substituí por dado dos trechos (séculos dezessete e dezoito).",
+      "reescrita": {
+        "pergunta": "Em que cidade brasileira fica esta igreja barroca com convento, erguida entre os séculos dezessete e dezoito?",
+        "resposta": "Salvador",
+        "distratores": [
+          "Olinda",
+          "Ouro Preto",
+          "São Luís"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inaugurada em 1938 conforme os trechos; distratores de anos próximos e críveis; múltipla, como exigido para anos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'antigo prédio da Câmara dos Deputados' quase identifica o palácio sem a figura, e o distrator 'Theatro Municipal' não é palácio. Troquei a pista por estilo e data de inauguração e o distrator por outro palácio.",
+      "reescrita": {
+        "pergunta": "Que palácio eclético do centro do Rio de Janeiro, inaugurado em 1926, é este?",
+        "resposta": "Palácio Tiradentes",
+        "distratores": [
+          "Palácio Pedro Ernesto",
+          "Palácio Monroe",
+          "Palácio Gustavo Capanema"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O estilo 'eclético' não consta dos trechos e não é seguro. Substituí por dados confirmados (28 andares, concluído em 1929).",
+      "reescrita": {
+        "pergunta": "Em que cidade fica este edifício de vinte e oito andares, concluído em 1929?",
+        "resposta": "São Paulo",
+        "distratores": [
+          "Rio de Janeiro",
+          "Belo Horizonte",
+          "Porto Alegre"
+        ]
+      }
+    }
+  ]
+}
