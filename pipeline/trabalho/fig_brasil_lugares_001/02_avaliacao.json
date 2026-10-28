@@ -1,0 +1,212 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Vista distante da lagoa entre a vegetação, sem elemento que permita reconhecer o lugar; poderia ser qualquer lagoa costeira."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Picos rochosos característicos da serra, com resposta única razoável.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que estado fica esta paisagem de montanhas?",
+      "resposta": "Rio de Janeiro",
+      "distratores": [
+        "Espírito Santo",
+        "Minas Gerais",
+        "São Paulo"
+      ],
+      "ancora": {
+        "nome": "Parque Nacional da Serra dos Órgãos",
+        "descricao": "Parque nacional no estado do Rio de Janeiro que protege a serra dos Órgãos, onde fica o Dedo de Deus.",
+        "variantes": [
+          "Serra dos Órgãos"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A placa com o texto 'Congresso Nacional' aparece na imagem e entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Baía com ilhotas e morros sem marco distintivo; não é reconhecível como Ilha Grande de forma única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Cânion de paredões que se confunde com o vizinho Itaimbezinho e outros cânions de Aparados da Serra; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Dunas brancas com lagoas verdes, imagem inconfundível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que estado fica este parque nacional de dunas e lagoas?",
+      "resposta": "Maranhão",
+      "distratores": [
+        "Piauí",
+        "Ceará",
+        "Rio Grande do Norte"
+      ],
+      "ancora": {
+        "nome": "Lençóis Maranhenses",
+        "descricao": "Parque nacional no Maranhão, com campos de dunas de areia branca e lagoas de água da chuva.",
+        "variantes": [
+          "Parque Nacional dos Lençóis Maranhenses"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fachada curva com brises horizontais, característica do Copan; sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que edifício é este?",
+      "resposta": "Edifício Copan",
+      "distratores": [
+        "Edifício JK",
+        "Edifício Niemeyer",
+        "Edifício Itália"
+      ],
+      "ancora": {
+        "nome": "Edifício Copan",
+        "descricao": "Edifício residencial de formas onduladas projetado por Oscar Niemeyer no centro de São Paulo.",
+        "variantes": [
+          "Copan"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fachada barroca com torres redondas, reconhecível e sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta igreja?",
+      "resposta": "Ouro Preto",
+      "distratores": [
+        "Mariana",
+        "Tiradentes",
+        "Congonhas"
+      ],
+      "ancora": {
+        "nome": "Igreja de São Francisco de Assis de Ouro Preto",
+        "descricao": "Igreja rococó de Ouro Preto, em Minas Gerais, projetada por Aleijadinho.",
+        "variantes": [
+          "Igreja de São Francisco de Assis",
+          "São Francisco de Assis (Ouro Preto)"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista aérea com o Congresso e a Esplanada, reconhecível como Brasília; sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que cidade brasileira é esta, vista do alto?",
+      "resposta": "Brasília",
+      "distratores": [
+        "Goiânia",
+        "Belo Horizonte",
+        "Palmas"
+      ],
+      "ancora": {
+        "nome": "Plano Piloto de Brasília",
+        "descricao": "Área central planejada de Brasília, com o Eixo Monumental, a Esplanada dos Ministérios e o Congresso Nacional.",
+        "variantes": [
+          "Brasília",
+          "Esplanada dos Ministérios"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Escultura monumental em granito, inconfundível e sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que monumento é este?",
+      "resposta": "Monumento às Bandeiras",
+      "distratores": [
+        "Monumento à Independência",
+        "Monumento aos Pracinhas",
+        "Monumento aos Imigrantes"
+      ],
+      "ancora": {
+        "nome": "Monumento às Bandeiras",
+        "descricao": "Escultura em granito de Victor Brecheret na entrada do Parque Ibirapuera, em São Paulo.",
+        "variantes": [
+          "Monumento às Bandeiras de Brecheret"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Catedral de colunas curvas, inconfundível; o pequeno bloco com pichação é ilegível.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta catedral?",
+      "resposta": "Brasília",
+      "distratores": [
+        "Goiânia",
+        "Belo Horizonte",
+        "Curitiba"
+      ],
+      "ancora": {
+        "nome": "Catedral de Brasília",
+        "descricao": "Catedral metropolitana de Brasília, projetada por Oscar Niemeyer, com colunas de concreto curvas em forma de hiperboloide.",
+        "variantes": [
+          "Catedral Metropolitana de Brasília",
+          "Catedral Metropolitana Nossa Senhora Aparecida"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Palácio de estilo normando, com fachada reconhecível; o letreiro do Sesc não revela a resposta.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tratado interamericano de 1947 foi assinado neste prédio?",
+      "resposta": "Tratado do Rio (TIAR)",
+      "distratores": [
+        "Tratado de Petrópolis",
+        "Tratado de Assunção",
+        "Tratado de Montevidéu"
+      ],
+      "ancora": {
+        "nome": "Palácio Quitandinha",
+        "descricao": "Antigo hotel-cassino de luxo em Petrópolis, no Rio de Janeiro, de estilo normando.",
+        "variantes": [
+          "Quitandinha",
+          "Hotel Quitandinha"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que estado fica esta paisagem?",
+        "resposta": "Maranhão"
+      },
+      "existentes": [
+        {
+          "id": "q02075",
+          "pergunta": "Em parte do ano, surgem lagoas azuis entre as dunas dos Lençóis Maranhenses. De onde vem essa água?",
+          "resposta": "Da chuva"
+        },
+        {
+          "id": "q09209",
+          "pergunta": "Apesar das dunas de areia a perder de vista, os Lençóis Maranhenses não são considerados um deserto. Por quê?",
+          "resposta": "Chove muito na região"
+        },
+        {
+          "id": "q14218",
+          "pergunta": "Em que estado brasileiro fica esta paisagem de dunas e lagoas?",
+          "resposta": "Maranhão"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que edifício é este?",
+        "resposta": "Edifício Copan"
+      },
+      "existentes": [
+        {
+          "id": "q03962",
+          "pergunta": "Em que cidade brasileira fica o Edifício Copan, prédio residencial em forma de onda projetado por Oscar Niemeyer?",
+          "resposta": "São Paulo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade fica esta igreja?",
+        "resposta": "Ouro Preto"
+      },
+      "existentes": [
+        {
+          "id": "q03186",
+          "pergunta": "Que pintor mineiro, parceiro de Aleijadinho, pintou o forro da Igreja de São Francisco de Assis, em Ouro Preto?",
+          "resposta": "Mestre Ataíde"
+        },
+        {
+          "id": "q14598",
+          "pergunta": "Quem projetou esta igreja mineira do século dezoito?",
+          "resposta": "Aleijadinho (Antônio Francisco Lisboa)"
+        },
+        {
+          "id": "q16269",
+          "pergunta": "Que igreja barroca mineira é esta?",
+          "resposta": "São Francisco de Assis, Ouro Preto"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que monumento é este?",
+        "resposta": "Monumento às Bandeiras"
+      },
+      "existentes": [
+        {
+          "id": "q03964",
+          "pergunta": "Que escultor, que expôs na Semana de Arte Moderna de 1922, criou o Monumento às Bandeiras, de granito, junto ao Parque Ibirapuera?",
+          "resposta": "Victor Brecheret"
+        },
+        {
+          "id": "q03965",
+          "pergunta": "Por causa das figuras que fazem força para arrastar uma canoa, o Monumento às Bandeiras, em São Paulo, ganhou que apelido popular?",
+          "resposta": "Empurra-empurra"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que cidade fica esta catedral?",
+        "resposta": "Brasília"
+      },
+      "existentes": [
+        {
+          "id": "q04694",
+          "pergunta": "Que arquiteto projetou esta catedral?",
+          "resposta": "Oscar Niemeyer"
+        },
+        {
+          "id": "q07513",
+          "pergunta": "Na entrada da Catedral de Brasília, quatro grandes estátuas de bronze de Alfredo Ceschiatti representam que personagens bíblicos?",
+          "resposta": "Os quatro evangelistas"
+        },
+        {
+          "id": "q07529",
+          "pergunta": "A Catedral de Brasília, de Niemeyer, lembra mãos erguidas ao céu. Quantas colunas curvas de concreto formam sua estrutura?",
+          "resposta": "Dezesseis"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q14218",
+      "motivo": "Ambas perguntam o estado da paisagem; resposta Maranhão."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q03962",
+      "motivo": "Saber que o Copan fica em São Paulo e identificar o edifício são fatos distintos, mas a nova pergunta é identificação do edifício, cuja resposta já consta no enunciado da existente; porém o fato perguntado (nome) não é o mesmo da cidade."
+    }
+  ]
+}

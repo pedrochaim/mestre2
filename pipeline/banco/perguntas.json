@@ -315615,5 +315615,155 @@
       "licenca": "CC BY-SA 3.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q16435",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "parque_nacional_da_serra_dos_orgaos",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que estado fica esta paisagem de montanhas?",
+    "resposta": "Rio de Janeiro",
+    "distratores": [
+      "Espírito Santo",
+      "Minas Gerais",
+      "São Paulo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Serra_dos_%C3%93rg%C3%A3os_National_Park",
+      "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_dos_%C3%93rg%C3%A3os"
+    ],
+    "imagem": {
+      "arquivo": "q16435.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Amanhecer_no_Hercules_--.jpg",
+      "autor": "Carlos Perez Couto",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q16436",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "igreja_de_sao_francisco_de_assis_ouro_preto",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade fica esta igreja?",
+    "resposta": "Ouro Preto",
+    "distratores": [
+      "Mariana",
+      "Tiradentes",
+      "Congonhas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Church_of_Saint_Francis_of_Assisi_%28Ouro_Preto%29",
+      "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Francisco_de_Assis_%28Ouro_Preto%29"
+    ],
+    "imagem": {
+      "arquivo": "q16436.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:SFrancisOuroPreto-CCBY.jpg",
+      "autor": "Sarah and Iain",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q16437",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "plano_piloto_de_brasilia_2",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Que cidade brasileira é esta?",
+    "resposta": "Brasília",
+    "distratores": [
+      "Goiânia",
+      "Belo Horizonte",
+      "Palmas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pra%C3%A7a_dos_Tr%C3%AAs_Poderes",
+      "https://pt.wikipedia.org/wiki/Pra%C3%A7a_dos_Tr%C3%AAs_Poderes"
+    ],
+    "imagem": {
+      "arquivo": "q16437.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Fotos_produzidas_pelo_Senado_(36736219051).jpg",
+      "autor": "Senado Federal",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q16438",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "monumento_as_bandeiras",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que monumento é este?",
+    "resposta": "Monumento às Bandeiras",
+    "distratores": [
+      "Monumento à Independência",
+      "Monumento aos Pracinhas",
+      "Monumento aos Imigrantes"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Monument_to_the_Bandeiras",
+      "https://pt.wikipedia.org/wiki/Monumento_%C3%A0s_Bandeiras"
+    ],
+    "imagem": {
+      "arquivo": "q16438.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Monumento_às_Bandeiras_01.jpg",
+      "autor": "Dornicke (Lucas B. Salles)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q16439",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "catedral_de_brasilia",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade fica esta catedral?",
+    "resposta": "Brasília",
+    "distratores": [
+      "Goiânia",
+      "Belo Horizonte",
+      "Curitiba"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cathedral_of_Bras%C3%ADlia",
+      "https://pt.wikipedia.org/wiki/Catedral_Metropolitana_de_Bras%C3%ADlia"
+    ],
+    "imagem": {
+      "arquivo": "q16439.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Brasilia_Catedral_08_2005_03.jpg",
+      "autor": "Mariordo (Mario Roberto Durán Ortiz)",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q16440",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "palacio_quitandinha",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade do estado do Rio de Janeiro fica este antigo hotel-cassino?",
+    "resposta": "Petrópolis",
+    "distratores": [
+      "Teresópolis",
+      "Nova Friburgo",
+      "Angra dos Reis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pal%C3%A1cio_Quitandinha",
+      "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_Quitandinha"
+    ],
+    "imagem": {
+      "arquivo": "q16440.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Palácio_Quitandinha,_Petropolis.jpg",
+      "autor": "Wilfredor",
+      "licenca": "CC0"
+    }
   }
 ]

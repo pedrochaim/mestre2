@@ -1,0 +1,84 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o parque fica no Rio de Janeiro. O enunciado não vaza a resposta e os distratores são estados vizinhos, críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'parque nacional de dunas e lagoas' identifica os Lençóis Maranhenses sem olhar a figura e entrega o estado. Pelo teste da imagem coberta, a figura virou enfeite. Reescrita sem a pista.",
+      "reescrita": {
+        "pergunta": "Em que estado fica esta paisagem?",
+        "resposta": "Maranhão",
+        "distratores": [
+          "Piauí",
+          "Ceará",
+          "Rio Grande do Norte"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é neutro e a resposta vem do reconhecimento da figura. Os distratores são edifícios plausíveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a igreja fica em Ouro Preto. O enunciado não vaza, e os distratores são cidades mineiras históricas e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Vista do alto' não está confirmado para esta foto, só a descrição da área central planejada. O enunciado precisa ser verdadeiro para a imagem específica, então a expressão sai.",
+      "reescrita": {
+        "pergunta": "Que cidade brasileira é esta?",
+        "resposta": "Brasília",
+        "distratores": [
+          "Goiânia",
+          "Belo Horizonte",
+          "Palmas"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O reconhecimento vem só da figura, e a resposta é única. Os distratores são monumentos brasileiros plausíveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a catedral fica em Brasília. O enunciado não vaza e os distratores são cidades brasileiras com catedrais conhecidas, mas erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Tratado interamericano de 1947' pode ser respondido sem a figura, pois o TIAR ou Tratado do Rio é conhecido. A resposta também varia entre nomes. Reescrita para o ângulo lugar, com fato confirmado pelos trechos.",
+      "reescrita": {
+        "pergunta": "Em que cidade do estado do Rio de Janeiro fica este antigo hotel-cassino?",
+        "resposta": "Petrópolis",
+        "distratores": [
+          "Teresópolis",
+          "Nova Friburgo",
+          "Angra dos Reis"
+        ]
+      }
+    }
+  ]
+}
