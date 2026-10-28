@@ -1,0 +1,551 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cilindro",
+        "descricao": "Sólido geométrico com duas bases circulares paralelas e superfície lateral curva.",
+        "variantes": [
+          "Cilindro circular reto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_kilimanjaro",
+          "nome": "Monte Kilimanjaro",
+          "descricao": "Montanha isolada no nordeste da Tanzânia, o ponto mais alto da África.",
+          "variantes": [
+            "Kilimanjaro",
+            "Kilimandjaro",
+            "Quilimanjaro"
+          ]
+        },
+        {
+          "id": "cilindro_de_ciro",
+          "nome": "Cilindro de Ciro",
+          "descricao": "Cilindro de argila do século seis antes de Cristo com texto cuneiforme em nome de Ciro, o Grande, sobre a tomada da Babilônia.",
+          "variantes": [
+            "Cyrus Cylinder"
+          ]
+        },
+        {
+          "id": "melindrosa",
+          "nome": "Melindrosa",
+          "descricao": "Jovem moderna de cabelo curto e vestido reto, símbolo da moda e dos costumes do pós-Primeira Guerra",
+          "variantes": [
+            "Flapper"
+          ]
+        },
+        {
+          "id": "violino",
+          "nome": "Violino",
+          "descricao": "Instrumento de cordas friccionadas com arco, o menor e mais agudo da família do violino.",
+          "variantes": [
+            "Rabeca"
+          ]
+        },
+        {
+          "id": "corindon",
+          "nome": "Coríndon",
+          "descricao": "Mineral de óxido de alumínio, muito duro, cujas variedades coloridas são o rubi e a safira.",
+          "variantes": [
+            "Corindo",
+            "Corundum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Parábola",
+        "descricao": "Curva plana simétrica em forma de U, definida pelos pontos equidistantes de um foco e de uma reta diretriz.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "antena_parabolica",
+          "nome": "Antena parabólica",
+          "descricao": "Antena em forma de prato que recebe ou transmite sinais de rádio de ou para satélites de comunicação.",
+          "variantes": [
+            "Parabólica",
+            "Satellite dish",
+            "Prato de satélite"
+          ]
+        },
+        {
+          "id": "carambola",
+          "nome": "Carambola",
+          "descricao": "Fruto amarelo da caramboleira (Averrhoa carambola), cujo corte transversal tem forma de estrela.",
+          "variantes": [
+            "Star fruit",
+            "Averrhoa carambola"
+          ]
+        },
+        {
+          "id": "guarda_chuva",
+          "nome": "Guarda-chuva",
+          "descricao": "Cobertura dobrável sustentada por varetas e um cabo, usada para proteger da chuva ou do sol.",
+          "variantes": [
+            "Sombrinha",
+            "Umbrella",
+            "Parasol"
+          ]
+        },
+        {
+          "id": "lago_paranoa",
+          "nome": "Lago Paranoá",
+          "descricao": "Lago artificial de Brasília, formado pelo represamento do rio Paranoá.",
+          "variantes": [
+            "Paranoá"
+          ]
+        },
+        {
+          "id": "paraiba",
+          "nome": "Paraíba",
+          "descricao": "Estado do Nordeste brasileiro, cuja capital é João Pessoa.",
+          "variantes": [
+            "Estado da Paraíba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Icosaedro truncado",
+        "descricao": "Sólido arquimediano com 12 faces pentagonais e 20 hexagonais, o formato da bola de futebol clássica.",
+        "variantes": [
+          "Truncated icosahedron"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "icosaedro",
+          "nome": "Icosaedro",
+          "descricao": "Poliedro regular de vinte faces triangulares equiláteras, trinta arestas e doze vértices.",
+          "variantes": [
+            "Icosaedro regular",
+            "Regular icosahedron"
+          ]
+        },
+        {
+          "id": "corredor_dos_tornados",
+          "nome": "Corredor dos Tornados",
+          "descricao": "Região das Grandes Planícies dos Estados Unidos com alta frequência de tornados",
+          "variantes": [
+            "Tornado Alley"
+          ]
+        },
+        {
+          "id": "construcao",
+          "nome": "Construção",
+          "descricao": "Canção de Chico Buarque lançada em 1971, sobre a morte de um operário.",
+          "variantes": []
+        },
+        {
+          "id": "drone",
+          "nome": "Drone",
+          "descricao": "Aeronave sem piloto a bordo, autônoma ou controlada remotamente; aqui, um modelo militar de grande porte.",
+          "variantes": [
+            "Veículo aéreo não tripulado",
+            "VANT",
+            "UAV"
+          ]
+        },
+        {
+          "id": "arco_do_triunfo_de_paris",
+          "nome": "Arco do Triunfo de Paris",
+          "descricao": "Arco monumental na Praça Charles de Gaulle, no alto da Champs-Élysées, encomendado por Napoleão.",
+          "variantes": [
+            "Arc de Triomphe",
+            "Arco do Triunfo",
+            "Arc de Triomphe de l'Étoile"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Hexágono",
+        "descricao": "Polígono de seis lados e seis vértices.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "esfagno",
+          "nome": "Esfagno",
+          "descricao": "Gênero de musgos Sphagnum que formam as turfeiras.",
+          "variantes": [
+            "Sphagnum",
+            "Musgo-de-turfa"
+          ]
+        },
+        {
+          "id": "argonio",
+          "nome": "Argônio",
+          "descricao": "Elemento químico gasoso de número atômico 18, um gás nobre que forma cerca de um por cento do ar.",
+          "variantes": [
+            "Árgon",
+            "Argon"
+          ]
+        },
+        {
+          "id": "shelgon",
+          "nome": "Shelgon",
+          "descricao": "Pokémon do tipo Dragão, número 372 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "templo_de_hera_olimpia",
+          "nome": "Templo de Hera (Olímpia)",
+          "descricao": "Antigo templo grego arcaico em Olímpia, onde a chama olímpica é acesa.",
+          "variantes": [
+            "Heraion",
+            "Heréon de Olímpia"
+          ]
+        },
+        {
+          "id": "escavalier",
+          "nome": "Escavalier",
+          "descricao": "Pokémon dos tipos Inseto e Aço da quinta geração, um cavaleiro de armadura, evolução de Karrablast.",
+          "variantes": [
+            "Chevargo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Tetraedro",
+        "descricao": "Poliedro de quatro faces triangulares, seis arestas e quatro vértices.",
+        "variantes": [
+          "Pirâmide triangular"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "prisma",
+          "nome": "Prisma",
+          "descricao": "Elemento óptico transparente de superfícies planas, como o prisma triangular que dispersa a luz branca em um espectro.",
+          "variantes": [
+            "Prisma óptico",
+            "Prisma triangular"
+          ]
+        },
+        {
+          "id": "copa_do_mundo_fifa_de_1994",
+          "nome": "Copa do Mundo FIFA de 1994",
+          "descricao": "Copa do Mundo de futebol disputada nos Estados Unidos e vencida pelo Brasil, seu quarto título.",
+          "variantes": [
+            "Copa de 1994",
+            "Tetra"
+          ]
+        },
+        {
+          "id": "piramide_de_cestio",
+          "nome": "Pirâmide de Céstio",
+          "descricao": "Pirâmide romana funerária de Caio Céstio, junto à Porta San Paolo, em Roma.",
+          "variantes": [
+            "Pirâmide de Caio Céstio",
+            "Piramide Cestia"
+          ]
+        },
+        {
+          "id": "piramide_curvada",
+          "nome": "Pirâmide Curvada",
+          "descricao": "Pirâmide do faraó Seneferu, da IV dinastia, na necrópole de Dahshur, com a inclinação alterada na parte alta.",
+          "variantes": [
+            "Pirâmide Romboidal",
+            "Pirâmide Inclinada",
+            "Bent Pyramid"
+          ]
+        },
+        {
+          "id": "terere",
+          "nome": "Tereré",
+          "descricao": "Infusão de erva-mate preparada com água gelada, tradicional no Paraguai e no Centro-Oeste brasileiro",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Usina nuclear de Zaporíjia",
+        "descricao": "Maior usina nuclear da Europa, com seis reatores VVER-1000, em Enerhodar, no sudeste da Ucrânia.",
+        "variantes": [
+          "Zaporizhzhia Nuclear Power Plant",
+          "Central nuclear de Zaporíjia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "central_nuclear_almirante_alvaro_alberto",
+          "nome": "Central Nuclear Almirante Álvaro Alberto",
+          "descricao": "Complexo de usinas nucleares de Angra dos Reis, no estado do Rio de Janeiro.",
+          "variantes": [
+            "Usinas de Angra",
+            "Angra 1 e Angra 2",
+            "Central Nuclear de Angra"
+          ]
+        },
+        {
+          "id": "calder_hall",
+          "nome": "Calder Hall",
+          "descricao": "Usina nuclear do complexo de Sellafield, na Inglaterra, uma das primeiras a fornecer eletricidade em escala comercial.",
+          "variantes": [
+            "Usina nuclear de Calder Hall"
+          ]
+        },
+        {
+          "id": "angra_1",
+          "nome": "Angra 1",
+          "descricao": "Primeira usina nuclear brasileira, unidade da central de Angra dos Reis, construída com tecnologia americana.",
+          "variantes": [
+            "Usina Nuclear Angra 1"
+          ]
+        },
+        {
+          "id": "angra_2",
+          "nome": "Angra 2",
+          "descricao": "Segunda usina nuclear brasileira, unidade da central de Angra dos Reis, em operação desde 2000.",
+          "variantes": [
+            "Usina Nuclear Angra 2"
+          ]
+        },
+        {
+          "id": "acidente_nuclear_de_chernobyl",
+          "nome": "Acidente nuclear de Chernobyl",
+          "descricao": "Explosão do reator 4 da usina nuclear de Chernobyl, na então União Soviética, em abril de 1986.",
+          "variantes": [
+            "Desastre de Chernobyl",
+            "Chernobyl disaster",
+            "Acidente nuclear de Chernobil",
+            "Chernobyl"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Usina de Itaipu",
+        "descricao": "Usina hidrelétrica binacional no rio Paraná, na fronteira entre Brasil e Paraguai.",
+        "variantes": [
+          "Itaipu Binacional",
+          "Hidrelétrica de Itaipu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "usina_de_itaipu",
+          "nome": "Usina de Itaipu",
+          "descricao": "Usina hidrelétrica binacional de Brasil e Paraguai, no rio Paraná.",
+          "variantes": [
+            "Itaipu",
+            "Itaipu Binacional",
+            "Itaipu Dam",
+            "Usina Hidrelétrica de Itaipu"
+          ]
+        },
+        {
+          "id": "simbolo_da_raiz_quadrada",
+          "nome": "Símbolo da raiz quadrada",
+          "descricao": "Símbolo matemático em forma de visto alongado que indica a extração de uma raiz.",
+          "variantes": [
+            "Radical",
+            "Sinal de raiz"
+          ]
+        },
+        {
+          "id": "usina_hidreletrica_reversivel",
+          "nome": "Usina hidrelétrica reversível",
+          "descricao": "Usina com dois reservatórios em alturas diferentes que armazena energia bombeando água para cima e a gera deixando-a descer.",
+          "variantes": [
+            "Hidrelétrica de bombeamento",
+            "Pumped storage"
+          ]
+        },
+        {
+          "id": "sinal_de_igual",
+          "nome": "Sinal de igual",
+          "descricao": "Símbolo matemático formado por dois traços paralelos, que indica igualdade.",
+          "variantes": [
+            "Sinal de igualdade",
+            "Equals sign"
+          ]
+        },
+        {
+          "id": "ruinas_de_alph",
+          "nome": "Ruínas de Alph",
+          "descricao": "Ruínas antigas da região de Johto, nos jogos Pokémon Gold e Silver, com câmaras de painéis de pedra e inscrições misteriosas.",
+          "variantes": [
+            "Ruins of Alph"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Sorobã",
+        "descricao": "Ábaco japonês com uma conta acima e quatro abaixo em cada haste, derivado do suanpan chinês.",
+        "variantes": [
+          "Soroban",
+          "Ábaco japonês"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abaco",
+          "nome": "Ábaco",
+          "descricao": "Instrumento manual de cálculo formado por uma moldura com hastes e contas deslizantes.",
+          "variantes": [
+            "Abacus",
+            "Soroban",
+            "Schoty"
+          ]
+        },
+        {
+          "id": "macaco_japones",
+          "nome": "Macaco-japonês",
+          "descricao": "Macaco do Velho Mundo, Macaca fuscata, nativo do Japão e conhecido como macaco-da-neve.",
+          "variantes": [
+            "Macaca fuscata",
+            "Macaco-da-neve",
+            "Nihonzaru"
+          ]
+        },
+        {
+          "id": "fugu",
+          "nome": "Fugu",
+          "descricao": "Prato japonês de baiacu, peixe que contém uma toxina mortal e exige preparo especializado.",
+          "variantes": [
+            "Baiacu japonês"
+          ]
+        },
+        {
+          "id": "tabi",
+          "nome": "Tabi",
+          "descricao": "Meia tradicional japonesa com o dedão separado dos outros dedos, usada com calçados de tiras.",
+          "variantes": [
+            "Tabi japonês"
+          ]
+        },
+        {
+          "id": "swoobat",
+          "nome": "Swoobat",
+          "descricao": "Pokémon dos tipos Psíquico e Voador, número 528 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Dodecaedro romano",
+        "descricao": "Pequeno objeto oco de liga de cobre, com doze faces pentagonais furadas, de uso desconhecido, dos séculos II a IV.",
+        "variantes": [
+          "Dodecaedro galo-romano",
+          "Roman dodecahedron"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "calendario_romano",
+          "nome": "Calendário romano",
+          "descricao": "Sistema de contagem do tempo usado na Roma Antiga antes da reforma juliana.",
+          "variantes": [
+            "Roman calendar"
+          ]
+        },
+        {
+          "id": "dodecaedro",
+          "nome": "Dodecaedro",
+          "descricao": "Poliedro regular de doze faces pentagonais, um dos sólidos de Platão.",
+          "variantes": [
+            "Dodecaedro regular"
+          ]
+        },
+        {
+          "id": "forum_romano",
+          "nome": "Fórum Romano",
+          "descricao": "Praça cercada por ruínas de edifícios públicos, centro da vida da Roma antiga, entre o Palatino e o Capitólio.",
+          "variantes": [
+            "Foro Romano",
+            "Forum Romanum"
+          ]
+        },
+        {
+          "id": "helix_pomatia",
+          "nome": "Helix pomatia",
+          "descricao": "Caracol terrestre europeu grande, o tradicional escargot da culinária francesa.",
+          "variantes": [
+            "Caracol-de-borgonha",
+            "Escargot de Bourgogne",
+            "Caracol-romano"
+          ]
+        },
+        {
+          "id": "aqueduto_romano",
+          "nome": "Aqueduto romano",
+          "descricao": "Canal construído pelos romanos para levar água de fontes distantes até as cidades.",
+          "variantes": [
+            "Roman aqueduct"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Sólido geométrico; o Cilindro de Ciro é um artefato distinto."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Curva matemática; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Icosaedro truncado é diferente do icosaedro regular."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o polígono hexágono."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Tetraedro não corresponde a nenhuma candidata (prisma triangular é outra coisa)."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Usina de Zaporíjia é distinta das candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "usina_de_itaipu",
+      "motivo": "Mesma usina hidrelétrica binacional no rio Paraná."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Sorobã é um tipo específico de ábaco, distinto do ábaco genérico."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Dodecaedro romano é um artefato, diferente do sólido geométrico dodecaedro."
+    }
+  ]
+}

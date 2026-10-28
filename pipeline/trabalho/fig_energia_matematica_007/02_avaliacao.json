@@ -1,0 +1,263 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Diagrama limpo de cilindro; só as letras r e h, que não entregam o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sólido geométrico é este?",
+      "resposta": "Cilindro",
+      "distratores": [
+        "Cone",
+        "Esfera",
+        "Pirâmide"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Cilindro",
+        "descricao": "Sólido geométrico com duas bases circulares paralelas e superfície lateral curva.",
+        "variantes": [
+          "Cilindro circular reto"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Curva em U com foco e diretriz, sem texto; reconhecível e única.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que curva é esta?",
+      "resposta": "Parábola",
+      "distratores": [
+        "Hipérbole",
+        "Elipse",
+        "Catenária"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Parábola",
+        "descricao": "Curva plana simétrica em forma de U, definida pelos pontos equidistantes de um foco e de uma reta diretriz.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida da tabuleta cuneiforme, sem texto legível ao público; reconhecível por aficionados, em múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tabuleta de argila matemática é esta?",
+      "resposta": "Plimpton 322",
+      "distratores": [
+        "YBC 7289",
+        "Tabuleta do Dilúvio",
+        "Tabuleta de Ea-nasir"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Plimpton 322",
+        "descricao": "Tabuleta de argila babilônica de cerca de 1800 a.C. com uma tabela em cuneiforme ligada a ternas pitagóricas.",
+        "variantes": [
+          "Plimpton 322 tablet"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A foto mostra aparas de grama numa caixa; não deixa claro que é compostagem e pode ser confundida com feno ou lixo vegetal."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Poliedro com hexágonos e pentágonos claramente visíveis, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que sólido arquimediano é este?",
+      "resposta": "Icosaedro truncado",
+      "distratores": [
+        "Dodecaedro truncado",
+        "Cubo truncado",
+        "Icosidodecaedro"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Icosaedro truncado",
+        "descricao": "Sólido arquimediano com 12 faces pentagonais e 20 hexagonais, o formato da bola de futebol clássica.",
+        "variantes": [
+          "Truncated icosahedron"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Hiperboloide de uma folha com eixos, sem texto; forma inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "As torres de resfriamento de usinas têm o formato desta superfície. Qual é ela?",
+      "resposta": "Hiperboloide",
+      "distratores": [
+        "Paraboloide",
+        "Elipsoide",
+        "Toro"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Hiperboloide",
+        "descricao": "Superfície quádrica gerada, por exemplo, ao girar uma hipérbole em torno de um de seus eixos.",
+        "variantes": [
+          "Hiperboloide de uma folha",
+          "Hiperboloide de revolução"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Polígono simples de seis vértices, claro e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que polígono é este?",
+      "resposta": "Hexágono",
+      "distratores": [
+        "Pentágono",
+        "Heptágono",
+        "Octógono"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Hexágono",
+        "descricao": "Polígono de seis lados e seis vértices.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Sólido de quatro faces triangulares, claro e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que sólido geométrico é este?",
+      "resposta": "Tetraedro",
+      "distratores": [
+        "Octaedro",
+        "Cubo",
+        "Icosaedro"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Tetraedro",
+        "descricao": "Poliedro de quatro faces triangulares, seis arestas e quatro vértices.",
+        "variantes": [
+          "Pirâmide triangular"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fileira de seis edifícios de reatores à beira do reservatório, com torre de resfriamento; sem texto. Reconhecimento difícil, por isso múltipla.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que usina nuclear europeia é esta?",
+      "resposta": "Usina nuclear de Zaporíjia",
+      "distratores": [
+        "Usina de Chernobyl",
+        "Usina de Fukushima Daiichi",
+        "Usina de Angra"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Usina nuclear de Zaporíjia",
+        "descricao": "Maior usina nuclear da Europa, com seis reatores VVER-1000, em Enerhodar, no sudeste da Ucrânia.",
+        "variantes": [
+          "Zaporizhzhia Nuclear Power Plant",
+          "Central nuclear de Zaporíjia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do vertedouro e da barragem de Itaipu, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que país, além do Brasil, é sócio desta usina?",
+      "resposta": "Paraguai",
+      "distratores": [
+        "Argentina",
+        "Uruguai",
+        "Bolívia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Usina de Itaipu",
+        "descricao": "Usina hidrelétrica binacional no rio Paraná, na fronteira entre Brasil e Paraguai.",
+        "variantes": [
+          "Itaipu Binacional",
+          "Hidrelétrica de Itaipu"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ábaco com uma conta acima e quatro abaixo, típico do sorobã; só uma mão anônima aparece.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de cálculo é este?",
+      "resposta": "Sorobã",
+      "distratores": [
+        "Suanpan",
+        "Schoty",
+        "Ábaco romano"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Sorobã",
+        "descricao": "Ábaco japonês com uma conta acima e quatro abaixo em cada haste, derivado do suanpan chinês.",
+        "variantes": [
+          "Soroban",
+          "Ábaco japonês"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Objeto metálico de doze faces pentagonais com furos e nódulos, inconfundível; só um número de inventário discreto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que misterioso objeto romano de bronze é este?",
+      "resposta": "Dodecaedro romano",
+      "distratores": [
+        "Esfera armilar",
+        "Dado romano",
+        "Pião romano"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Dodecaedro romano",
+        "descricao": "Pequeno objeto oco de liga de cobre, com doze faces pentagonais furadas, de uso desconhecido, dos séculos II a IV.",
+        "variantes": [
+          "Dodecaedro galo-romano",
+          "Roman dodecahedron"
+        ]
+      }
+    }
+  ]
+}

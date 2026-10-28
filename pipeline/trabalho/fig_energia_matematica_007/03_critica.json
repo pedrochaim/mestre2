@@ -1,0 +1,89 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta direta, sem vazamento; distratores são sólidos críveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem pista; distratores são curvas parecidas e plausíveis, nenhuma correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tabuleta babilônica de argila matemática confirmada nos trechos; distratores são outras tabuletas, mas só YBC 7289 também é matemática e é claramente distinta.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sólido arquimediano é verdade segundo os trechos; distratores também são arquimedianos e não descrevem a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A pista das torres de resfriamento entrega a resposta sem olhar a figura (teste da imagem coberta) e é imprecisa: nem todas as torres de resfriamento são hiperboloides. Não há conserto simples sem vazar.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta; distratores são polígonos próximos e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta; distratores são outros sólidos platônicos, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz 'europeia', então Fukushima e Angra são eliminados sem olhar a figura; distratores precisam ser usinas europeias.",
+      "reescrita": {
+        "pergunta": "Que usina nuclear europeia é esta?",
+        "resposta": "Usina nuclear de Zaporíjia",
+        "distratores": [
+          "Usina de Chernobyl",
+          "Usina de Gravelines",
+          "Usina de Kursk"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem a figura não se responde; o Paraguai é o outro país da binacional segundo os trechos; distratores são vizinhos plausíveis e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não entrega; distratores (suanpan, schoty, ábaco romano) são ábacos distintos e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam objeto oco de liga de cobre, de uso desconhecido, de contexto romano; o enunciado não nomeia a forma, e a imagem é necessária para identificar.",
+      "reescrita": null
+    }
+  ]
+}

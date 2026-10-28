@@ -1,0 +1,41 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que país, além do Brasil, é sócio desta usina?",
+        "resposta": "Paraguai"
+      },
+      "existentes": [
+        {
+          "id": "q02166",
+          "pergunta": "A usina de Itaipu, no rio Paraná, começou a gerar energia em que década do século vinte?",
+          "resposta": "Anos 1980"
+        },
+        {
+          "id": "q02415",
+          "pergunta": "Que famoso conjunto de cachoeiras do rio Paraná desapareceu em 1982, coberto pelas águas do lago da usina de Itaipu?",
+          "resposta": "Salto de Sete Quedas"
+        },
+        {
+          "id": "q02416",
+          "pergunta": "A usina hidrelétrica de Itaipu, no rio Paraná, é dividida meio a meio entre o Brasil e qual país vizinho?",
+          "resposta": "Paraguai"
+        },
+        {
+          "id": "q15437",
+          "pergunta": "Que usina hidrelétrica sul-americana é esta?",
+          "resposta": "Itaipu"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q02416",
+      "motivo": "Ambas perguntam o país sócio de Itaipu junto com o Brasil: Paraguai."
+    }
+  ]
+}
