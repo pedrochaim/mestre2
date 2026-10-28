@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que casa de espetáculos brasileira é esta?",
+        "resposta": "Ópera de Arame"
+      },
+      "existentes": [
+        {
+          "id": "q02035",
+          "pergunta": "Em qual capital brasileira fica a Ópera de Arame, teatro de tubos de aço erguido numa antiga pedreira?",
+          "resposta": "Curitiba"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar o nome da casa de espetáculos (provavelmente por imagem); a existente pergunta a cidade (Curitiba), dando o nome. Fatos diferentes."
+    }
+  ]
+}

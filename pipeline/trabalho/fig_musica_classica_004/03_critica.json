@@ -1,0 +1,69 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado afirma 'mulher pintada neste vaso grego', mas 'mostra' só descreve o instrumento. A afirmação não está confirmada para esta imagem e pode ser falsa. Reescrevi a pergunta sobre o instrumento, sem a cena do vaso.",
+      "reescrita": {
+        "pergunta": "Que instrumento de cordas dedilhadas, usado na Grécia antiga, é este?",
+        "resposta": "Lira",
+        "distratores": [
+          "Harpa",
+          "Alaúde",
+          "Saltério"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é de reconhecimento, curta e sem vazamento. Os distratores são casas de espetáculo brasileiras e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o Palácio da Música Catalã fica em Barcelona. O enunciado não vaza a resposta e os distratores são cidades espanholas e portuguesas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o harmônio era usado em igrejas e em casas, e o século dezenove é documentado. O enunciado não nomeia o instrumento e os distratores são instrumentos de teclado distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Corpo sinuoso' e 'seis furos' descrevem o serpentão, então dá para responder sem olhar a figura, e 'sinuoso' lembra a serpente do nome. Troquei por uma pista de época e de registro grave, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que instrumento de sopro grave, surgido no Renascimento, é este?",
+        "resposta": "Serpentão",
+        "distratores": [
+          "Fagote",
+          "Oficlide",
+          "Corne inglês"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o Teatro Nacional fica em Munique, na Alemanha. O enunciado não vaza a resposta e os distratores são cidades alemãs com ópera, nenhuma delas correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta de reconhecimento é curta e não vaza a resposta. Os distratores são outros tambores, nenhum deles correto.",
+      "reescrita": null
+    }
+  ]
+}

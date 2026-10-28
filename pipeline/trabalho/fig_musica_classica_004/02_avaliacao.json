@@ -1,0 +1,195 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mulher tocando lira em vaso grego; inscrições em grego não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de cordas toca a mulher pintada neste vaso grego?",
+      "resposta": "Lira",
+      "distratores": [
+        "Harpa",
+        "Alaúde",
+        "Saltério"
+      ],
+      "ancora": {
+        "nome": "Lira",
+        "descricao": "Instrumento de cordas dedilhadas da Grécia antiga, com dois braços ligados por uma travessa.",
+        "variantes": [
+          "Lyra"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Interior de estrutura tubular metálica característica, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que casa de espetáculos brasileira é esta?",
+      "resposta": "Ópera de Arame",
+      "distratores": [
+        "Teatro Amazonas",
+        "Sala São Paulo",
+        "Theatro Municipal"
+      ],
+      "ancora": {
+        "nome": "Ópera de Arame",
+        "descricao": "Teatro de estrutura metálica tubular e cobertura transparente, em Curitiba, inaugurado em 1992.",
+        "variantes": [
+          "Teatro Ópera de Arame"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fachada modernista inconfundível, sem texto legível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica esta casa de concertos?",
+      "resposta": "Barcelona",
+      "distratores": [
+        "Madri",
+        "Valência",
+        "Lisboa"
+      ],
+      "ancora": {
+        "nome": "Palácio da Música Catalã",
+        "descricao": "Sala de concertos modernista de Barcelona, projetada por Lluís Domènech i Montaner e inaugurada em 1908.",
+        "variantes": [
+          "Palau de la Música Catalana"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto borrada de instrumento de bambu que poderia ser outro xilofone; resposta não é única nem reconhecível."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A fachada traz o nome 'Theatro São Pedro' escrito, entregando a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A fachada traz 'Theatro Pedro II' escrito, entregando a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Gravura com legendas em inglês 'Deff—Tambourine' e 'Castanets', além de mostrar dois assuntos."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Órgão de palheta com pedais de fole, bem visível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de teclado, comum em igrejas e casas do século dezenove, é este?",
+      "resposta": "Harmônio (órgão de palheta)",
+      "distratores": [
+        "Cravo",
+        "Órgão de tubos",
+        "Piano vertical"
+      ],
+      "ancora": {
+        "nome": "Harmônio",
+        "descricao": "Órgão de palheta livre acionado por foles de pedal, popular em igrejas e lares no século dezenove.",
+        "variantes": [
+          "Órgão de palheta",
+          "Pump organ",
+          "Reed organ"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Serpentão em fundo branco, forma sinuosa inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento antigo de sopro, de corpo sinuoso e seis furos, é este?",
+      "resposta": "Serpentão",
+      "distratores": [
+        "Fagote",
+        "Oficlide",
+        "Corne inglês"
+      ],
+      "ancora": {
+        "nome": "Serpentão",
+        "descricao": "Instrumento de sopro grave de madeira revestida de couro, em forma sinuosa, antepassado da tuba.",
+        "variantes": [
+          "Serpent"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O bumbo mostra a marca 'YAMAHA' em letras grandes, além de pessoas ao fundo."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fachada neoclássica clara da ópera de Munique, sem texto legível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade alemã fica esta casa de ópera?",
+      "resposta": "Munique",
+      "distratores": [
+        "Berlim",
+        "Dresden",
+        "Hamburgo"
+      ],
+      "ancora": {
+        "nome": "Teatro Nacional de Munique",
+        "descricao": "Casa de ópera neoclássica na Max-Joseph-Platz, sede da Ópera Estatal da Baviera.",
+        "variantes": [
+          "Nationaltheater München",
+          "National Theatre Munich"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Caixa-clara com esteira, nítida e sem texto legível.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de tambor é este?",
+      "resposta": "Caixa-clara",
+      "distratores": [
+        "Tom-tom",
+        "Surdo",
+        "Tambor tenor"
+      ],
+      "ancora": {
+        "nome": "Caixa-clara",
+        "descricao": "Tambor de pele dupla com esteira de fios que produz som seco, usado em orquestras e bandas.",
+        "variantes": [
+          "Caixa",
+          "Snare drum",
+          "Tarol"
+        ]
+      }
+    }
+  ]
+}
