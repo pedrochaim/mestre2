@@ -1,0 +1,245 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é este jogador?",
+      "resposta": "Gabriel Jesus",
+      "distratores": [
+        "Richarlison",
+        "Gabriel Barbosa",
+        "Roberto Firmino"
+      ],
+      "ancora": {
+        "nome": "Gabriel Jesus",
+        "descricao": "Atacante brasileiro de futebol, campeão olímpico em 2016, que jogou no Palmeiras, Manchester City e Arsenal.",
+        "variantes": [
+          "Gabriel Fernando de Jesus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem nome visível; o fundo tem só publicidade genérica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 5,
+      "pergunta": "Que ginasta brasileira é esta?",
+      "resposta": "Jade Barbosa",
+      "distratores": [
+        "Daiane dos Santos",
+        "Daniele Hypólito",
+        "Flávia Saraiva"
+      ],
+      "ancora": {
+        "nome": "Jade Barbosa",
+        "descricao": "Ginasta artística brasileira, medalhista de bronze nos Jogos Olímpicos de 2024 por equipe.",
+        "variantes": [
+          "Jade Fernandes Barbosa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato em entrevista coletiva, só logos de patrocinadores, sem nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que clube inglês este ex-meio-campista defendeu de 1998 a 2015?",
+      "resposta": "Liverpool",
+      "distratores": [
+        "Manchester United",
+        "Chelsea",
+        "Everton"
+      ],
+      "ancora": {
+        "nome": "Steven Gerrard",
+        "descricao": "Ex-meio-campista inglês, ídolo e capitão do Liverpool e da seleção inglesa, depois treinador.",
+        "variantes": [
+          "Steven George Gerrard"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato claro com o agasalho do Uruguai; o escudo não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é este meia uruguaio?",
+      "resposta": "Giorgian de Arrascaeta",
+      "distratores": [
+        "Nicolás de la Cruz",
+        "Federico Valverde",
+        "Lucas Torreira"
+      ],
+      "ancora": {
+        "nome": "Giorgian de Arrascaeta",
+        "descricao": "Meia-atacante uruguaio do Flamengo e da seleção do Uruguai.",
+        "variantes": [
+          "Arrascaeta",
+          "Giorgian Daniel de Arrascaeta Benedetti"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução, com rosto pequeno e logos parciais; a surfista não é reconhecível pela imagem e não fica legível num celular."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato claro; o texto visível é só patrocínio e fabricante, sem nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é este atacante?",
+      "resposta": "Mario Balotelli",
+      "distratores": [
+        "Romelu Lukaku",
+        "Paul Pogba",
+        "Daniel Sturridge"
+      ],
+      "ancora": {
+        "nome": "Mario Balotelli",
+        "descricao": "Atacante italiano que jogou na Inter de Milão, Manchester City e Milan.",
+        "variantes": [
+          "Mario Barwuah Balotelli"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto de jogo com camisa dos Celtics e número 0, sem nome; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Em que universidade americana este jogador atuou antes de chegar à NBA?",
+      "resposta": "Duke",
+      "distratores": [
+        "Kentucky",
+        "North Carolina",
+        "Kansas"
+      ],
+      "ancora": {
+        "nome": "Jayson Tatum",
+        "descricao": "Ala americano do Boston Celtics, campeão da NBA em 2024.",
+        "variantes": [
+          "Jayson Christopher Tatum"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Piloto pouco conhecido, sem elemento que o torne reconhecível pelo rosto; há pessoas desconhecidas ao fundo."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido; o microfone traz só a marca da emissora.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que clube alemão este ex-goleiro defendeu de 1994 até o fim da carreira, em 2008?",
+      "resposta": "Bayern de Munique",
+      "distratores": [
+        "Borussia Dortmund",
+        "Schalke 04",
+        "Bayer Leverkusen"
+      ],
+      "ancora": {
+        "nome": "Oliver Kahn",
+        "descricao": "Ex-goleiro alemão, ídolo do Bayern de Munique e da seleção da Alemanha.",
+        "variantes": [
+          "Oliver Rolf Kahn"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto de jogo clara; só marcas esportivas visíveis.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Em que torneio de Grand Slam este tenista grego chegou à final em 2021?",
+      "resposta": "Roland Garros",
+      "distratores": [
+        "Wimbledon",
+        "Aberto dos Estados Unidos",
+        "Aberto da Austrália"
+      ],
+      "ancora": {
+        "nome": "Stefanos Tsitsipas",
+        "descricao": "Tenista grego, ex-número 3 do mundo e campeão do ATP Finals de 2019.",
+        "variantes": [
+          "Stéfanos Tsitsipás"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto de golfista em ação, rosto visível; só marca esportiva no boné.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Em que torneio importante este golfista norte-irlandês venceu seu primeiro major, em 2011?",
+      "resposta": "U.S. Open",
+      "distratores": [
+        "Masters de Augusta",
+        "Campeonato da PGA",
+        "The Open"
+      ],
+      "ancora": {
+        "nome": "Rory McIlroy",
+        "descricao": "Golfista norte-irlandês, seis vezes campeão de torneios major.",
+        "variantes": [
+          "Rory Daniel McIlroy"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é este jogador brasileiro?",
+      "resposta": "Lucas Moura",
+      "distratores": [
+        "Willian",
+        "Philippe Coutinho",
+        "Bernard"
+      ],
+      "ancora": {
+        "nome": "Lucas Moura",
+        "descricao": "Atacante brasileiro que jogou no São Paulo, Paris Saint-Germain e Tottenham.",
+        "variantes": [
+          "Lucas Rodrigues Moura da Silva"
+        ]
+      }
+    }
+  ]
+}

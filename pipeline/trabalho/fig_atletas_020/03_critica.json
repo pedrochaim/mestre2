@@ -1,0 +1,106 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista no enunciado. Distratores são atacantes brasileiros críveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem pista que entregue a resposta. Distratores são ginastas brasileiras críveis. A pergunta não trata de medalha, então o fato de Flávia Saraiva também ter sido bronze em 2024 não a invalida.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'meio-campista inglês, 1998 a 2015' basta para chegar à resposta, então a figura virou enfeite. Passa a pedir o reconhecimento do jogador.",
+      "reescrita": {
+        "pergunta": "Quem é este ex-meio-campista inglês?",
+        "resposta": "Steven Gerrard",
+        "distratores": [
+          "Frank Lampard",
+          "Paul Scholes",
+          "David Beckham"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento sem vazamento. Distratores são meias uruguaios críveis, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta sem pista que entregue a resposta. Distratores são nomes críveis e nenhum é correto. Pogba é meia, mas a diferença é pequena.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É preciso reconhecer o jogador para responder. A universidade (Duke) está nos trechos. Kentucky e North Carolina são distratores bons, porque ele os considerou antes de se decidir.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'goleiro alemão, 1994 a 2008' leva ao Bayern por conhecimento do clube, sem olhar a figura. Passa a pedir o reconhecimento do goleiro.",
+      "reescrita": {
+        "pergunta": "Quem é este ex-goleiro alemão?",
+        "resposta": "Oliver Kahn",
+        "distratores": [
+          "Manuel Neuer",
+          "Jens Lehmann",
+          "Bodo Illgner"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Tenista grego' somado a 'final em 2021' entrega Roland Garros sem a figura. Sem a nacionalidade, o jogador só é identificado pela imagem. O trecho confirma a final de 2021 em Roland Garros, perdida para Djokovic.",
+      "reescrita": {
+        "pergunta": "Este tenista chegou à final de um Grand Slam em 2021. Em qual torneio?",
+        "resposta": "Roland Garros",
+        "distratores": [
+          "Wimbledon",
+          "Aberto dos Estados Unidos",
+          "Aberto da Austrália"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Nacionalidade, 'primeiro major' e o ano 2011 entregam o U.S. Open sem a figura. O enunciado também repete 'torneio importante' e 'major'. Os dados foram retirados para a figura ser necessária.",
+      "reescrita": {
+        "pergunta": "Em que torneio este golfista conquistou o seu primeiro major?",
+        "resposta": "U.S. Open",
+        "distratores": [
+          "Masters de Augusta",
+          "Campeonato da PGA",
+          "The Open"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento sem pista. Distratores são jogadores brasileiros da mesma geração e nenhum é correto.",
+      "reescrita": null
+    }
+  ]
+}
