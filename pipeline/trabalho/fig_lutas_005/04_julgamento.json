@@ -1,0 +1,132 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Luta no óleo (yağlı güreş)",
+        "descricao": "Modalidade de luta tradicional da Turquia, disputada com lutadores untados de óleo e vestindo calças de couro chamadas kisbet.",
+        "variantes": [
+          "Yağlı güreş",
+          "Luta turca no óleo",
+          "Oil wrestling"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "luta_livre_profissional",
+          "nome": "Luta livre profissional",
+          "descricao": "Espetáculo esportivo de combate coreografado, disputado em ringue com cordas, também chamado de wrestling.",
+          "variantes": [
+            "Wrestling",
+            "Pro wrestling",
+            "Luta profissional"
+          ]
+        },
+        {
+          "id": "uigures",
+          "nome": "Uigures",
+          "descricao": "Povo de língua túrquica e maioria muçulmana da Ásia Central.",
+          "variantes": [
+            "Uygures",
+            "Uyghurs"
+          ]
+        },
+        {
+          "id": "galo_gaules",
+          "nome": "Galo gaulês",
+          "descricao": "Galo usado como símbolo nacional da França.",
+          "variantes": [
+            "Coq gaulois",
+            "Galo francês"
+          ]
+        },
+        {
+          "id": "restinga",
+          "nome": "Restinga",
+          "descricao": "Ecossistema costeiro de vegetação estabelecida em substrato arenoso sujeito a influência marinha.",
+          "variantes": []
+        },
+        {
+          "id": "luta_greco_romana",
+          "nome": "Luta greco-romana",
+          "descricao": "Estilo de luta olímpica em que é proibido agarrar o adversário abaixo da cintura.",
+          "variantes": [
+            "Greco-Roman wrestling",
+            "Luta francesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cinturão de campeão",
+        "descricao": "Grande cinturão ornamentado entregue como prêmio ao campeão em esportes de combate como boxe, MMA e luta livre profissional.",
+        "variantes": [
+          "Cinturão",
+          "Championship belt",
+          "Cinto de campeão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cinto",
+          "nome": "Cinto",
+          "descricao": "Faixa flexível de couro ou tecido, com fivela, usada na cintura para prender a roupa ou como adorno.",
+          "variantes": [
+            "Cinta",
+            "Cinturão"
+          ]
+        },
+        {
+          "id": "centuria",
+          "nome": "Centúria",
+          "descricao": "Unidade do exército romano comandada por um centurião.",
+          "variantes": []
+        },
+        {
+          "id": "centauro",
+          "nome": "Centauro",
+          "descricao": "Criatura da mitologia grega com tronco humano e corpo de cavalo.",
+          "variantes": [
+            "Centaur",
+            "Hipocentauro"
+          ]
+        },
+        {
+          "id": "circulo_de_fogo_do_pacifico",
+          "nome": "Círculo de Fogo do Pacífico",
+          "descricao": "Faixa de intensa atividade vulcânica e sísmica que contorna as bordas de um oceano.",
+          "variantes": [
+            "Anel de Fogo",
+            "Cinturão de Fogo",
+            "Ring of Fire",
+            "Cinturão de Fogo do Pacífico",
+            "Anel de Fogo do Pacífico"
+          ]
+        },
+        {
+          "id": "faixa_preta",
+          "nome": "Faixa preta",
+          "descricao": "Faixa de cor preta que indica o grau de proficiência mais alto em muitas artes marciais, como judô e karatê.",
+          "variantes": [
+            "Cinturão preto",
+            "Black belt"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Yağlı güreş é uma modalidade turca específica; nenhuma candidata é a mesma (luta livre profissional e greco-romana são distintas)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cinturão de campeão é um prêmio esportivo, diferente de cinto comum (acessório), faixa preta (grau) ou Cinturão de Fogo."
+    }
+  ]
+}

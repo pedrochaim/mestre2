@@ -302657,5 +302657,55 @@
       "licenca": "CC BY-SA 2.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q15880",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "luta_no_oleo_yagl_gures",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de luta tradicional da Turquia é esta?",
+    "resposta": "Luta no óleo",
+    "distratores": [
+      "Luta greco-romana",
+      "Kushti indiano",
+      "Glima islandesa"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oil_wrestling",
+      "https://pt.wikipedia.org/wiki/Ya%C4%9Fl%C4%B1_g%C3%BCre%C5%9F"
+    ],
+    "imagem": {
+      "arquivo": "q15880.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Yagli_gures3.JPG",
+      "autor": "Math34 (Wikimedia Commons)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q15881",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "cinturao_de_campeao",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que objeto é este?",
+    "resposta": "Cinturão de campeão",
+    "distratores": [
+      "Cinto de levantamento de peso",
+      "Faixa de judô",
+      "Cinto de utilidades"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Championship_belt",
+      "https://pt.wikipedia.org/wiki/Cintur%C3%A3o_de_campe%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q15881.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Quake_Pro_League_Season_1_Kickoff_-_48.jpg",
+      "autor": "QuakeCon",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]

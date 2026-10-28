@@ -1,0 +1,34 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista das calças de couro quase entrega a resposta (teste da imagem coberta) e o couro também aparece no karakucak. Troquei por país, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que tipo de luta tradicional da Turquia é esta?",
+        "resposta": "Luta no óleo",
+        "distratores": [
+          "Luta greco-romana",
+          "Kushti indiano",
+          "Glima islandesa"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Erguido no alto' não está confirmado para esta foto, já que 'mostra' não descreve o cinturão erguido. Removi a afirmação. Troquei também o distrator fraco 'Protetor de cintura'.",
+      "reescrita": {
+        "pergunta": "Que objeto é este?",
+        "resposta": "Cinturão de campeão",
+        "distratores": [
+          "Cinto de levantamento de peso",
+          "Faixa de judô",
+          "Cinto de utilidades"
+        ]
+      }
+    }
+  ]
+}

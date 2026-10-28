@@ -1,0 +1,104 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Retrato casual com gorro e jaqueta, sem traço do personagem; só fãs reconheceriam, e a pergunta de tipo não se sustenta pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Treino de kickboxing numa academia com várias pessoas; nada identifica a savate com segurança (resposta não é única) e há pessoas comuns."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Lutadores com kisbet de couro escuro e untados, em gramado: cena típica da luta no óleo turca, num festival público.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de luta é esta, em que os lutadores usam calças de couro?",
+      "resposta": "Luta no óleo",
+      "distratores": [
+        "Luta greco-romana",
+        "Kushti indiano",
+        "Glima islandesa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Luta no óleo (yağlı güreş)",
+        "descricao": "Modalidade de luta tradicional da Turquia, disputada com lutadores untados de óleo e vestindo calças de couro chamadas kisbet.",
+        "variantes": [
+          "Yağlı güreş",
+          "Luta turca no óleo",
+          "Oil wrestling"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Imagem minúscula (cerca de 120 px) e de baixa definição; não fica legível num celular e pode ser confundida com uma moldeira dentária."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Mostra um monumento com várias estátuas (em Salvador), não o Mestre Bimba individualmente; a entidade não é clara e a resposta não é única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Retrato com logotipos UFC visíveis e sem traço distintivo; a atleta não é reconhecível pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Pesagem com banners e patrocinadores em texto; o lutador não é reconhecível só pela imagem e há outras pessoas em cena."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A camiseta traz o nome \"Ken Shamrock's Lions Den\", que entrega a resposta; há também militares ao fundo."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto casual de baixa qualidade, com pessoa ao lado; o lutador não é reconhecível pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Retrato de rosto de terno, sem elemento do esporte; a identificação depende só do rosto e a pergunta de tipo não se apoia na imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto casual e pequena, de baixa qualidade; o lutador não é reconhecível pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cinturão de campeão de luta erguido, em foco, sem rosto de pessoa; o objeto é claro, e o texto e o número 2020 não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que objeto é este, erguido no alto?",
+      "resposta": "Cinturão de campeão",
+      "distratores": [
+        "Cinto de levantamento de peso",
+        "Faixa de judô",
+        "Protetor de cintura"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cinturão de campeão",
+        "descricao": "Grande cinturão ornamentado entregue como prêmio ao campeão em esportes de combate como boxe, MMA e luta livre profissional.",
+        "variantes": [
+          "Cinturão",
+          "Championship belt",
+          "Cinto de campeão"
+        ]
+      }
+    }
+  ]
+}
