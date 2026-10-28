@@ -1,0 +1,89 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento; distratores sul-americanos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Capital da Etiópia confirmada nos trechos; enunciado não vaza e distratores são capitais africanas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Melanésia confirmada pelo trecho. O distrator 'Austrália' é um país, não uma região como os demais; troquei por 'Australásia'.",
+      "reescrita": {
+        "pergunta": "Em que região da Oceania fica o país deste brasão?",
+        "resposta": "Melanésia",
+        "distratores": [
+          "Polinésia",
+          "Micronésia",
+          "Australásia"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tirana é a capital, segundo os trechos; distratores são capitais balcânicas vizinhas.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento direto; distratores europeus com brasões de leões, críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sófia é a capital da Bulgária, conforme os trechos; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Três leões passantes dourados em campo vermelho são as armas da Inglaterra; enunciado sem vazamento e distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bucareste é a capital da Romênia, conforme os trechos; distratores são capitais vizinhas.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento direto do brasão de Luxemburgo; distratores vizinhos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento direto; distratores da região, críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ulã Bator é a capital da Mongólia, conforme os trechos; distratores são capitais da Ásia Central.",
+      "reescrita": null
+    }
+  ]
+}

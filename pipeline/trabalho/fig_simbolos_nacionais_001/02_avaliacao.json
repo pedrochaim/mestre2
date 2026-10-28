@@ -1,0 +1,262 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Brasão marcante com condor e bandeiras; o lema 'Libertad y Orden' não traz o nome do país.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Colômbia",
+      "distratores": [
+        "Equador",
+        "Venezuela",
+        "Bolívia"
+      ],
+      "ancora": {
+        "nome": "Brasão da Colômbia",
+        "descricao": "Brasão de armas da República da Colômbia, com um condor, cornucópias e bandeiras tricolores.",
+        "variantes": [
+          "Escudo de Colombia"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Emblema de estrela amarela sobre círculo azul, limpo e sem texto; reconhecível para quem conhece o país.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é a capital do país deste brasão?",
+      "resposta": "Adis Abeba",
+      "distratores": [
+        "Nairóbi",
+        "Cartum",
+        "Asmara"
+      ],
+      "ancora": {
+        "nome": "Emblema da Etiópia",
+        "descricao": "Emblema nacional da Etiópia, uma estrela amarela com raios sobre um círculo azul.",
+        "variantes": [
+          "Brasão da Etiópia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Brasão marcante com canoa, leão e dois guerreiros; o lema está em fijiano e não nomeia o país.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que região da Oceania fica o país deste brasão?",
+      "resposta": "Melanésia",
+      "distratores": [
+        "Polinésia",
+        "Micronésia",
+        "Austrália"
+      ],
+      "ancora": {
+        "nome": "Brasão de Fiji",
+        "descricao": "Brasão de armas da República de Fiji, com um leão, cana-de-açúcar, coqueiro, pomba e banana, sustentado por dois guerreiros.",
+        "variantes": [
+          "Brasão das Ilhas Fiji"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Águia negra de duas cabeças sobre fundo vermelho, com elmo; muito característico e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é a capital do país deste brasão?",
+      "resposta": "Tirana",
+      "distratores": [
+        "Skopje",
+        "Podgorica",
+        "Sarajevo"
+      ],
+      "ancora": {
+        "nome": "Brasão da Albânia",
+        "descricao": "Brasão de armas da Albânia, uma águia negra de duas cabeças sobre fundo vermelho, com o elmo de Skanderbeg.",
+        "variantes": [
+          "Emblema da Albânia"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Leão coroado com machado sobre escudo vermelho; marcante e sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Noruega",
+      "distratores": [
+        "Dinamarca",
+        "Suécia",
+        "Países Baixos"
+      ],
+      "ancora": {
+        "nome": "Brasão da Noruega",
+        "descricao": "Brasão de armas da Noruega, um leão dourado coroado com machado sobre escudo vermelho.",
+        "variantes": [
+          "Brasão do Reino da Noruega"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Brasão com leões, coroa e ramos de carvalho; o lema em cirílico não nomeia o país.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é a capital do país deste brasão?",
+      "resposta": "Sófia",
+      "distratores": [
+        "Bucareste",
+        "Belgrado",
+        "Skopje"
+      ],
+      "ancora": {
+        "nome": "Brasão da Bulgária",
+        "descricao": "Brasão de armas da Bulgária, com um leão dourado coroado sobre escudo vermelho, dois leões sustentando-o e ramos de carvalho.",
+        "variantes": [
+          "Emblema da Bulgária"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Escudo vermelho com três leões dourados, sem texto; emblema clássico da Inglaterra.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Inglaterra",
+      "distratores": [
+        "Escócia",
+        "Dinamarca",
+        "Irlanda"
+      ],
+      "ancora": {
+        "nome": "Brasão da Inglaterra",
+        "descricao": "Brasão de armas da Inglaterra, um escudo vermelho com três leões dourados passantes.",
+        "variantes": [
+          "Três leões da Inglaterra"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Águia dourada coroada com cruz, espada e maça, sem texto; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é a capital do país deste brasão?",
+      "resposta": "Bucareste",
+      "distratores": [
+        "Sófia",
+        "Budapeste",
+        "Chisinau"
+      ],
+      "ancora": {
+        "nome": "Brasão da Romênia",
+        "descricao": "Brasão de armas da Romênia, uma águia dourada coroada que segura espada e maça, com escudo de cinco brasões regionais.",
+        "variantes": [
+          "Armas da Romênia"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Brasão com leão vermelho sobre listras azuis e brancas, sem nome do país.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Luxemburgo",
+      "distratores": [
+        "Bélgica",
+        "Países Baixos",
+        "Áustria"
+      ],
+      "ancora": {
+        "nome": "Brasão de Luxemburgo",
+        "descricao": "Brasão de armas do Grão-Ducado de Luxemburgo, com leão vermelho sobre listras azuis e brancas, sustentado por dois leões sob manto e coroa.",
+        "variantes": [
+          "Armas do Grão-Ducado de Luxemburgo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "É a versão escocesa das armas reais, com 'Nemo me impune lacessit' e 'In Defens'; a resposta não é única entre Reino Unido e Escócia."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Brasão com harpia, bandeiras e escudo; o lema em latim não nomeia o país.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Panamá",
+      "distratores": [
+        "Colômbia",
+        "Costa Rica",
+        "Equador"
+      ],
+      "ancora": {
+        "nome": "Brasão do Panamá",
+        "descricao": "Brasão de armas do Panamá, com uma harpia, bandeiras e um escudo dividido em cinco campos.",
+        "variantes": [
+          "Escudo de Panamá"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Emblema com símbolo Soyombo e cavalo, sem texto; muito característico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é a capital do país deste brasão?",
+      "resposta": "Ulan Bator",
+      "distratores": [
+        "Astana",
+        "Bisqueque",
+        "Taskent"
+      ],
+      "ancora": {
+        "nome": "Brasão da Mongólia",
+        "descricao": "Brasão de armas da Mongólia, com o símbolo Soyombo e um cavalo alado sobre fundo azul, cercado por um aro dourado.",
+        "variantes": [
+          "Emblema da Mongólia"
+        ]
+      }
+    }
+  ]
+}
