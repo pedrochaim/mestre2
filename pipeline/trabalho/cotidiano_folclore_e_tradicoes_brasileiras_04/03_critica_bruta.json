@@ -1,0 +1,422 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As sete ondas estão na página de Iemanjá e o enunciado é preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Festa de 2 de fevereiro em Porto Alegre ligada a Nossa Senhora dos Navegantes, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "O trecho dá a origem como 'Mãe dos Nove Céus', e 'mãe de nove filhos' é interpretação concorrente, então a resposta fica ambígua.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os distratores espada e arco e flecha também são objetos de Oxum segundo a fonte, então a resposta deixa de ser única.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "multipla",
+        "pergunta": "Vaidosa e ligada ao ouro, a orixá Oxum costuma ser representada segurando qual objeto?",
+        "resposta": "Um espelho",
+        "distratores": [
+          "Uma lança",
+          "Um machado duplo",
+          "Um cajado"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Oxum"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Crença popular bem documentada: sete anos no bambu e depois setenta e sete de vida.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A fonte em português não existe e a em inglês não traz a lenda; o fato é conhecido, então troco a fonte.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "Antes de virar sereia, Iara era uma guerreira indígena. Segundo a lenda, por que o próprio pai a jogou no rio?",
+        "resposta": "Ela matou os irmãos",
+        "distratores": [
+          "Fugiu com um pescador",
+          "Desobedeceu ao pajé",
+          "Roubou o fogo sagrado"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Iara_(folclore)",
+          "https://en.wikipedia.org/wiki/Iara_(mythology)"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Meia-noite de sexta-feira confirmada pela fonte e pelo texto de Simões Lopes Neto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A fonte não mostra o fato, as versões variam (freio, sangue, ferradura) e o distrator ferradura também é de ferro.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A origem do mito no fogo-fátuo está nas duas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Campina Grande e Caruaru disputam o título de maior São João do mundo, fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta está no nome do santo (Antônio de Pádua), então a pergunta é fácil demais e pouco interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os cinco sotaques tradicionais do Maranhão (matraca, zabumba, orquestra, costa de mão e baixada) são amplamente documentados, ainda que a fonte não os mostre.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O festival vai de sexta a domingo, ou seja, três noites.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Caprichoso tem estrela azul e branca na testa e o Garantido, coração.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Adeus à carne' é etimologia popular, não apoiada por filólogos; o enunciado precisa dizer isso e ficou confuso.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Segundo uma explicação popular, a palavra carnaval vem do latim carne vale, ligada ao jejum da Quaresma. Qual seria o significado dessa expressão?",
+        "resposta": "Adeus à carne",
+        "distratores": [
+          "Festa dos carros",
+          "Dança do povo",
+          "Banquete dos deuses"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Carnaval",
+          "https://en.wikipedia.org/wiki/Carnival"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A terça de carnaval cai 47 dias antes da Páscoa, e os distratores são próximos e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A versão da Escola Normal, contada por Ismael Silva, está na fonte, e o enunciado diz 'conta-se'.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Galo da Madrugada sai no sábado de carnaval, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte dá 1931 e não 1932, o enunciado quase entrega a resposta pelo horário e uma das fontes não existe.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trio surgiu com a adição do triolim tocado por um terceiro músico.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O cortejo sai da Igreja da Conceição da Praia, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A corda puxa a berlinda no Círio, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Círio é no segundo domingo de outubro.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O caruru dos sete meninos é uma tradição baiana bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cimarrón significa puro, selvagem ou bravio, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A fonte não mostra o fato e a Chama Crioula não é exatamente a origem da Semana Farroupilha; o enunciado é impreciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Virgem Maria, madrinha do menino, está diante dele no formigueiro.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Abayomi significa 'encontro precioso' em iorubá, fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sete moças virgens chamadas Maria, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jaci é a Lua na lenda, e Guaraci, distrator, é o Sol.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Raul Bopp publicou Cobra Norato em 1931 e nasceu no Rio Grande do Sul.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Callado nasceu em Niterói, então 'carioca' é impreciso; retiro o adjetivo.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Que escritor brasileiro publicou, em 1967, o romance Quarup, cujo título vem do ritual funerário dos povos do Alto Xingu?",
+        "resposta": "Antonio Callado",
+        "distratores": [
+          "Darcy Ribeiro",
+          "Jorge Amado",
+          "Guimarães Rosa"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Antonio_Callado",
+          "https://pt.wikipedia.org/wiki/Kuarup"
+        ]
+      }
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A trama de Macunaíma gira em torno do resgate do muiraquitã.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mulher Rendeira é atribuída a Lampião e ficou famosa em O Cangaceiro.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cangaço vem de canga, peça de madeira que prende bois, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A versão dos tiros que iluminavam a noite é a mais contada, e o enunciado diz 'segundo a versão mais contada'.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Padim Ciço é o apelido devocional, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pinduca, o 'Rei do Carimbó', popularizou o gênero nos anos 1970.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cerol é cola com vidro moído usada na linha da pipa.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte dá 1845 e a resposta, 1846; a fonte em português não existe e a resposta vazaria a palavra 'folclore'.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato é do folclore porto-riquenho, fora do subtema Folclore e Tradições Brasileiras.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carmen Miranda popularizou a baiana, e a gravação de Caymmi está na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A viola tem dez cordas em cinco pares.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quatro jangadeiros saíram de Fortaleza em 1941 rumo ao Rio.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Código Penal de 1890 criminalizou a capoeira.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O dobrão é a moeda ou pedra encostada na corda do berimbau.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Leandro Gomes de Barros, paraibano morto em 1918, é considerado o primeiro cordelista.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Suassuna se inspirou em folhetos de cordel, como O testamento do cachorro.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte só diz que Borges desenhou a capa, não que ilustrou o livro, e a fonte em inglês não existe.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Que escritor uruguaio teve o livro As Palavras Andantes com capa desenhada pelo xilogravurista pernambucano J. Borges?",
+        "resposta": "Eduardo Galeano",
+        "distratores": [
+          "Mario Benedetti",
+          "Jorge Luis Borges",
+          "Juan Carlos Onetti"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/J._Borges"
+        ]
+      }
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mestre Vitalino viveu no Alto do Moura, hoje cheio de ateliês.",
+      "reescrita": null
+    }
+  ]
+}

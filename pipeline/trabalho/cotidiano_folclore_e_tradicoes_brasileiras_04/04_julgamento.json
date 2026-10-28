@@ -1,0 +1,71 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cobra Norato (poema)",
+        "descricao": "Poema modernista de Raul Bopp, publicado em 1931, inspirado na lenda amazônica da Cobra Grande e de Honorato.",
+        "variantes": [
+          "Cobra Norato",
+          "Cobra Honorato"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santa_cruz",
+          "nome": "Santa Cruz",
+          "descricao": "Santa Cruz Futebol Clube, clube brasileiro de Recife, Pernambuco.",
+          "variantes": [
+            "Santa Cruz Futebol Clube",
+            "Cobra Coral",
+            "Tricolor do Arruda"
+          ]
+        },
+        {
+          "id": "cobre",
+          "nome": "Cobre",
+          "descricao": "Elemento químico de símbolo Cu e número atômico 29, metal avermelhado condutor de calor e eletricidade.",
+          "variantes": [
+            "Cu",
+            "Cobre nativo",
+            "Cuprum"
+          ]
+        },
+        {
+          "id": "cobre_nativo",
+          "nome": "Cobre nativo",
+          "descricao": "Cobre metálico que ocorre naturalmente como mineral, em massas ou cristais dendríticos alaranjados.",
+          "variantes": [
+            "Native copper",
+            "Cobre"
+          ]
+        },
+        {
+          "id": "cobra_real",
+          "nome": "Cobra-real",
+          "descricao": "Maior serpente venenosa do mundo (Ophiophagus hannah), nativa do sul e sudeste da Ásia.",
+          "variantes": [
+            "Ophiophagus hannah",
+            "King cobra"
+          ]
+        },
+        {
+          "id": "bandeira_da_coreia_do_norte",
+          "nome": "Bandeira da Coreia do Norte",
+          "descricao": "Bandeira nacional da Coreia do Norte, com faixas azuis, vermelha e um disco branco com estrela vermelha.",
+          "variantes": [
+            "Coreia do Norte",
+            "Bandeira norte-coreana"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A proposta é um poema de Raul Bopp; nenhuma candidata é essa obra (são clube, elemento químico, serpente e bandeira)."
+    }
+  ]
+}
