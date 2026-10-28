@@ -1,0 +1,92 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a lagoa sediou remo e canoagem em 2016. O enunciado não vaza a resposta e os distratores são edições olímpicas plausíveis, nenhuma delas correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Milhares de colunas de calcário' é quase uma definição de pináculos e entrega o nome. A pista precisa sair, deixando só o país e o estado.",
+      "reescrita": {
+        "pergunta": "Esta paisagem fica no Parque Nacional Nambung, na Austrália Ocidental. Que deserto é este?",
+        "resposta": "Deserto dos Pináculos",
+        "distratores": [
+          "Deserto de Gibson",
+          "Deserto de Simpson",
+          "Grande Deserto Arenoso"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a cratera arde desde 1971 no meio do deserto de Karakum. A pergunta exige reconhecer a imagem e os distratores são desertos asiáticos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado afirma 'imagem de satélite', o que não consta em `mostra`. 'Cercado de vulcões' também serve aos lagos da Nicarágua, que são distratores. Os distratores passam a ser lagos da Guatemala.",
+      "reescrita": {
+        "pergunta": "Este lago fica nas terras altas da Guatemala. Que lago é este?",
+        "resposta": "Lago Atitlán",
+        "distratores": [
+          "Lago Amatitlán",
+          "Lago Izabal",
+          "Lago Petén Itzá"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Grande sistema de recifes visto do espaço' basta para responder sem a figura. A pista sai do enunciado.",
+      "reescrita": {
+        "pergunta": "Em que país fica este conjunto de recifes de coral?",
+        "resposta": "Austrália",
+        "distratores": [
+          "Belize",
+          "Indonésia",
+          "Egito"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Um dos cinco lagos' junto a uma montanha entrega o Fuji sem a imagem, que ainda por cima mostra o Fuji. Não há reescrita simples que dê um nível 3 justo.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado só diz 'formação marinha circular', sem vazar o nome. Os distratores são outros buracos azuis, do mesmo tipo e visualmente distintos do de Belize.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que é a montanha mais fotografada do país, e não 'do mundo'. A 'forma de pirâmide' também não está nos trechos. Troquei as duas afirmações por um dado confirmado (463 m).",
+      "reescrita": {
+        "pergunta": "Esta montanha de quatrocentos e sessenta e três metros de altura fica em que país?",
+        "resposta": "Islândia",
+        "distratores": [
+          "Noruega",
+          "Ilhas Faroé",
+          "Escócia"
+        ]
+      }
+    }
+  ]
+}

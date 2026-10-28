@@ -1,0 +1,99 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta lagoa recebeu as provas de remo e canoagem de qual edição dos Jogos Olímpicos?",
+        "resposta": "Rio 2016"
+      },
+      "existentes": [
+        {
+          "id": "q07127",
+          "pergunta": "Que lagoa é esta?",
+          "resposta": "Lagoa Rodrigo de Freitas"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Esta cratera em chamas, que arde desde 1971, fica no meio de qual deserto?",
+        "resposta": "Karakum"
+      },
+      "existentes": [
+        {
+          "id": "q09213",
+          "pergunta": "A cratera de Darvaza, no deserto do Turcomenistão, ganhou o apelido de Porta do Inferno por causa das chamas que saem dela. O que queima ali?",
+          "resposta": "Gás natural"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que país fica este conjunto de recifes de coral?",
+        "resposta": "Austrália"
+      },
+      "existentes": [
+        {
+          "id": "q03867",
+          "pergunta": "Que formação natural marinha é esta?",
+          "resposta": "Grande Barreira de Coral"
+        },
+        {
+          "id": "q05643",
+          "pergunta": "A Grande Barreira de Coral, o maior sistema de recifes do mundo, se estende ao longo da costa de que estado australiano?",
+          "resposta": "Queensland"
+        },
+        {
+          "id": "q14264",
+          "pergunta": "Em que país fica este conjunto de recifes visto do espaço?",
+          "resposta": "Austrália"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que formação marinha circular é esta, vista do alto?",
+        "resposta": "Grande Buraco Azul"
+      },
+      "existentes": [
+        {
+          "id": "q11828",
+          "pergunta": "Que formação marinha circular, na costa de Belize, vista de cima, é esta?",
+          "resposta": "Grande Buraco Azul"
+        },
+        {
+          "id": "q14262",
+          "pergunta": "Em que país da América Central fica esta formação circular?",
+          "resposta": "Belize"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre os Jogos Olímpicos sediados na lagoa, fato diferente da identificação da lagoa."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o deserto onde fica a cratera; a existente pergunta o que queima ali."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q14264",
+      "motivo": "Mesma pergunta sobre o país dos recifes, com resposta Austrália."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q11828",
+      "motivo": "Ambas pedem a identificação da formação circular marinha, Grande Buraco Azul."
+    }
+  ]
+}

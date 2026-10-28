@@ -1,0 +1,452 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Lagoa Rodrigo de Freitas",
+        "descricao": "Lagoa de águas salobras na Zona Sul da cidade do Rio de Janeiro, entre Ipanema, Leblon e a Gávea.",
+        "variantes": [
+          "Lagoa",
+          "Rodrigo de Freitas Lagoon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lagoa_rodrigo_de_freitas",
+          "nome": "Lagoa Rodrigo de Freitas",
+          "descricao": "Lagoa na Zona Sul do Rio de Janeiro, ligada ao Atlântico por um canal.",
+          "variantes": [
+            "Lagoa"
+          ]
+        },
+        {
+          "id": "alagoas",
+          "nome": "Alagoas",
+          "descricao": "Estado brasileiro do litoral da Região Nordeste, com capital em Maceió.",
+          "variantes": [
+            "Estado de Alagoas"
+          ]
+        },
+        {
+          "id": "lagosta",
+          "nome": "Lagosta",
+          "descricao": "Crustáceo decápode marinho de corpo alongado e cauda musculosa, muito apreciado na culinária.",
+          "variantes": [
+            "Lobster"
+          ]
+        },
+        {
+          "id": "lagosta_2",
+          "nome": "Lagosta",
+          "descricao": "Crustáceo decápode da família Nephropidae, de corpo longo e primeiro par de patas com grandes pinças.",
+          "variantes": [
+            "Lavagante",
+            "Homarus gammarus"
+          ]
+        },
+        {
+          "id": "lagosta_3",
+          "nome": "Lagosta",
+          "descricao": "Crustáceo decápode marinho da família Nephropidae, de corpo alongado e grandes pinças, como a lagosta-europeia.",
+          "variantes": [
+            "Lavagante",
+            "Lagosta-europeia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Deserto dos Pináculos",
+        "descricao": "Campo de milhares de colunas de calcário no Parque Nacional Nambung, perto de Cervantes, na Austrália Ocidental.",
+        "variantes": [
+          "The Pinnacles",
+          "Pináculos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "as_fiandeiras_velazquez",
+          "nome": "As Fiandeiras (Velázquez)",
+          "descricao": "Pintura de Diego Velázquez, de cerca de 1657, que mostra mulheres fiando numa oficina de tapeçaria e, ao fundo, a fábula de Aracne.",
+          "variantes": [
+            "Las Hilanderas",
+            "A Fábula de Aracne",
+            "The Spinners"
+          ]
+        },
+        {
+          "id": "o_principe",
+          "nome": "O Príncipe",
+          "descricao": "Tratado político de Nicolau Maquiavel, escrito por volta de 1513.",
+          "variantes": [
+            "Il Principe",
+            "The Prince"
+          ]
+        },
+        {
+          "id": "os_incriveis",
+          "nome": "Os Incríveis",
+          "descricao": "Animação da Pixar de 2004 sobre uma família de super-heróis obrigada a viver no anonimato.",
+          "variantes": [
+            "The Incredibles"
+          ]
+        },
+        {
+          "id": "bigorna",
+          "nome": "Bigorna",
+          "descricao": "Ossículo do ouvido médio que recebe as vibrações do martelo e as transmite ao estribo.",
+          "variantes": [
+            "Incus",
+            "Osso bigorna"
+          ]
+        },
+        {
+          "id": "monte_pinatubo",
+          "nome": "Monte Pinatubo",
+          "descricao": "Estratovulcão na ilha de Luzon, nas Filipinas, cuja erupção de 1991 esfriou o clima global.",
+          "variantes": [
+            "Pinatubo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cratera de Darvaza",
+        "descricao": "Cratera de gás natural em chamas desde 1971, perto da vila de Darvaza, no Turcomenistão, conhecida como Porta do Inferno.",
+        "variantes": [
+          "Porta do Inferno",
+          "Darvaza gas crater",
+          "Gates of Hell"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cratera_de_darvaza",
+          "nome": "Cratera de Darvaza",
+          "descricao": "Cratera de gás em chamas no deserto de Caracum, no Turcomenistão, apelidada de Porta do Inferno.",
+          "variantes": [
+            "Porta do Inferno",
+            "Darvaza gas crater",
+            "Darweze"
+          ]
+        },
+        {
+          "id": "a_porta_do_inferno",
+          "nome": "A Porta do Inferno",
+          "descricao": "Grupo escultórico monumental em bronze de Auguste Rodin, inspirado no Inferno de Dante.",
+          "variantes": [
+            "La Porte de l'Enfer",
+            "The Gates of Hell"
+          ]
+        },
+        {
+          "id": "gregorio_de_matos",
+          "nome": "Gregório de Matos",
+          "descricao": "Poeta barroco baiano do século dezessete, famoso por sua poesia satírica.",
+          "variantes": [
+            "Gregório de Matos e Guerra",
+            "Boca do Inferno"
+          ]
+        },
+        {
+          "id": "centro_de_lancamento_da_barreira_do_inferno",
+          "nome": "Centro de Lançamento da Barreira do Inferno",
+          "descricao": "Base brasileira de lançamento de foguetes inaugurada em 1965 em Parnamirim, perto de Natal.",
+          "variantes": [
+            "Barreira do Inferno",
+            "CLBI"
+          ]
+        },
+        {
+          "id": "porta_do_sol_de_tiwanaku",
+          "nome": "Porta do Sol de Tiwanaku",
+          "descricao": "Portal monolítico esculpido pela cultura Tiwanaku, perto do Lago Titicaca, na Bolívia.",
+          "variantes": [
+            "Porta do Sol",
+            "Puerta del Sol",
+            "Gateway of the Sun"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Lago Atitlán",
+        "descricao": "Lago vulcânico nas terras altas da Guatemala, o mais profundo da América Central.",
+        "variantes": [
+          "Lago de Atitlán",
+          "Lake Atitlán"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea",
+            "Lago de Aral"
+          ]
+        },
+        {
+          "id": "lago_de_lava",
+          "nome": "Lago de lava",
+          "descricao": "Grande volume de lava fundida contido numa cratera ou depressão de um vulcão.",
+          "variantes": [
+            "Lava lake"
+          ]
+        },
+        {
+          "id": "lago_de_genebra",
+          "nome": "Lago de Genebra",
+          "descricao": "Grande lago alpino na fronteira entre a Suíça e a França, às margens do qual fica a cidade de Genebra.",
+          "variantes": [
+            "Lago Léman",
+            "Lago Lemano",
+            "Lake Geneva",
+            "Lac Léman"
+          ]
+        },
+        {
+          "id": "lago_titicaca",
+          "nome": "Lago Titicaca",
+          "descricao": "Grande lago de altitude nos Andes, na fronteira entre o Peru e a Bolívia.",
+          "variantes": [
+            "Titicaca",
+            "Lake Titicaca"
+          ]
+        },
+        {
+          "id": "hamsa",
+          "nome": "Hamsa",
+          "descricao": "Amuleto em forma de mão aberta, popular no Oriente Médio e no Norte da África contra o mau-olhado.",
+          "variantes": [
+            "Mão de Fátima",
+            "Khamsa",
+            "Mão de Miriam"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Grande Barreira de Coral",
+        "descricao": "Maior sistema de recifes de coral do mundo, no Mar de Coral, ao largo de Queensland, na Austrália.",
+        "variantes": [
+          "Great Barrier Reef",
+          "Grande Barreira de Corais"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_barreira_de_coral",
+          "nome": "Grande Barreira de Coral",
+          "descricao": "Maior sistema de recifes de coral do mundo, no Mar de Coral, na costa de Queensland, Austrália.",
+          "variantes": [
+            "Great Barrier Reef"
+          ]
+        },
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        },
+        {
+          "id": "a_torre_de_babel_bruegel",
+          "nome": "A Torre de Babel (Bruegel)",
+          "descricao": "Pintura a óleo de Pieter Bruegel, o Velho, de 1563, em Viena, que mostra a construção da torre bíblica.",
+          "variantes": [
+            "Grande Torre de Babel",
+            "The Tower of Babel",
+            "Torre de Babel de Viena"
+          ]
+        },
+        {
+          "id": "grande_cratera_de_paldea",
+          "nome": "Grande Cratera de Paldea",
+          "descricao": "Enorme cratera no centro da região de Paldea, nos jogos Pokémon Scarlet e Violet.",
+          "variantes": [
+            "Great Crater of Paldea"
+          ]
+        },
+        {
+          "id": "bandeira_de_portugal",
+          "nome": "Bandeira de Portugal",
+          "descricao": "Bandeira nacional de Portugal, verde e vermelha com a esfera armilar e o escudo português.",
+          "variantes": [
+            "Bandeira portuguesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Grande Buraco Azul",
+        "descricao": "Grande sumidouro marinho circular no atol Lighthouse Reef, ao largo de Belize.",
+        "variantes": [
+          "Great Blue Hole"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_buraco_azul",
+          "nome": "Grande Buraco Azul",
+          "descricao": "Grande dolina marinha circular no Lighthouse Reef, na costa de Belize.",
+          "variantes": [
+            "Great Blue Hole",
+            "Blue Hole de Belize"
+          ]
+        },
+        {
+          "id": "big_ben",
+          "nome": "Big Ben",
+          "descricao": "Grande sino da torre do relógio do Palácio de Westminster, em Londres; o apelido se estende à própria torre.",
+          "variantes": [
+            "Elizabeth Tower",
+            "Torre Elizabeth",
+            "Great Bell"
+          ]
+        },
+        {
+          "id": "bandeira_azul",
+          "nome": "Bandeira azul",
+          "descricao": "Bandeira de sinalização do automobilismo mostrada a um piloto que está para ser alcançado por um carro mais rápido.",
+          "variantes": [
+            "Blue flag"
+          ]
+        },
+        {
+          "id": "frango_d_agua_azul",
+          "nome": "Frango-d'água-azul",
+          "descricao": "Porphyrio martinica, ave de brejo americana da família Rallidae, de plumagem azul-púrpura e verde, bico vermelho e pernas amarelas.",
+          "variantes": [
+            "Purple gallinule",
+            "Porphyrio martinica",
+            "Frango-de-água-azul"
+          ]
+        },
+        {
+          "id": "arau_gigante",
+          "nome": "Arau-gigante",
+          "descricao": "Ave marinha não voadora do Atlântico Norte (Pinguinus impennis), extinta em 1844.",
+          "variantes": [
+            "Pinguinus impennis",
+            "Great auk",
+            "Grande arau"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Kirkjufell",
+        "descricao": "Montanha de 463 metros na costa norte da península de Snæfellsnes, na Islândia, junto à cidade de Grundarfjörður.",
+        "variantes": [
+          "Kirkjufellsfoss",
+          "Monte da Igreja"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_aerea",
+          "nome": "Ponte aérea",
+          "descricao": "Jogada de basquete em que um jogador lança a bola perto do aro e um companheiro a pega no ar e a enterra.",
+          "variantes": [
+            "Alley-oop"
+          ]
+        },
+        {
+          "id": "eiger",
+          "nome": "Eiger",
+          "descricao": "Montanha de 3.967 metros dos Alpes Berneses, na Suíça, famosa por sua imponente face norte.",
+          "variantes": [
+            "Monte Eiger"
+          ]
+        },
+        {
+          "id": "tower_bridge",
+          "nome": "Tower Bridge",
+          "descricao": "Ponte levadiça e pênsil sobre o rio Tâmisa, em Londres, com duas torres de estilo neogótico, ao lado da Torre de Londres.",
+          "variantes": [
+            "Ponte da Torre"
+          ]
+        },
+        {
+          "id": "monte_ararat",
+          "nome": "Monte Ararat",
+          "descricao": "Vulcão adormecido no leste da Turquia, perto das fronteiras com a Armênia e o Irã.",
+          "variantes": [
+            "Ararat",
+            "Ağrı Dağı",
+            "Mount Ararat"
+          ]
+        },
+        {
+          "id": "michel_de_montaigne",
+          "nome": "Michel de Montaigne",
+          "descricao": "Filósofo e escritor francês do Renascimento (1533–1592), autor dos Ensaios.",
+          "variantes": [
+            "Montaigne"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "lagoa_rodrigo_de_freitas",
+      "motivo": "Mesma lagoa na Zona Sul do Rio."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o deserto dos Pináculos."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "cratera_de_darvaza",
+      "motivo": "Mesma cratera de gás no Turcomenistão, a Porta do Inferno."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Lago Atitlán não consta entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "grande_barreira_de_coral",
+      "motivo": "Mesmo sistema de recifes na Austrália."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "grande_buraco_azul",
+      "motivo": "Mesma dolina marinha em Lighthouse Reef, Belize."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Kirkjufell."
+    }
+  ]
+}

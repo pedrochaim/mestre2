@@ -1,0 +1,216 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea clara e inconfundível da lagoa, com a Zona Sul e as ilhas Cagarras ao fundo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Esta lagoa recebeu as provas de remo e canoagem de qual edição dos Jogos Olímpicos?",
+      "resposta": "Rio 2016",
+      "distratores": [
+        "Londres 2012",
+        "Pequim 2008",
+        "Atenas 2004"
+      ],
+      "ancora": {
+        "nome": "Lagoa Rodrigo de Freitas",
+        "descricao": "Lagoa de águas salobras na Zona Sul da cidade do Rio de Janeiro, entre Ipanema, Leblon e a Gávea.",
+        "variantes": [
+          "Lagoa",
+          "Rodrigo de Freitas Lagoon"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto aérea enevoada de um maciço nevado; não há feição que permita reconhecer o Olimpo e distingui-lo de outras montanhas."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Pilares de calcário amarelo no deserto, inconfundíveis e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que deserto australiano, com milhares de colunas de calcário, é este?",
+      "resposta": "Deserto dos Pináculos",
+      "distratores": [
+        "Deserto de Gibson",
+        "Deserto de Simpson",
+        "Grande Deserto Arenoso"
+      ],
+      "ancora": {
+        "nome": "Deserto dos Pináculos",
+        "descricao": "Campo de milhares de colunas de calcário no Parque Nacional Nambung, perto de Cervantes, na Austrália Ocidental.",
+        "variantes": [
+          "The Pinnacles",
+          "Pináculos"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cratera em chamas inconfundível; a pessoa à esquerda é pequena, de lado, e não está em primeiro plano de destaque.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta cratera em chamas, que arde desde 1971, fica no meio de qual deserto?",
+      "resposta": "Karakum",
+      "distratores": [
+        "Kyzylkum",
+        "Gobi",
+        "Taklamakan"
+      ],
+      "ancora": {
+        "nome": "Cratera de Darvaza",
+        "descricao": "Cratera de gás natural em chamas desde 1971, perto da vila de Darvaza, no Turcomenistão, conhecida como Porta do Inferno.",
+        "variantes": [
+          "Porta do Inferno",
+          "Darvaza gas crater",
+          "Gates of Hell"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem de satélite do lago com vulcão na margem; reconhecível pelo contorno e pelos vulcões, e viável em múltipla escolha com distratores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que lago, cercado de vulcões, aparece nesta imagem de satélite?",
+      "resposta": "Lago Atitlán",
+      "distratores": [
+        "Lago Amatitlán",
+        "Lago Nicarágua",
+        "Lago Managua"
+      ],
+      "ancora": {
+        "nome": "Lago Atitlán",
+        "descricao": "Lago vulcânico nas terras altas da Guatemala, o mais profundo da América Central.",
+        "variantes": [
+          "Lago de Atitlán",
+          "Lake Atitlán"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com recifes ao longo de costa continental; reconhecível em múltipla escolha.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país fica este grande sistema de recifes visto do espaço?",
+      "resposta": "Austrália",
+      "distratores": [
+        "Belize",
+        "Indonésia",
+        "Egito"
+      ],
+      "ancora": {
+        "nome": "Grande Barreira de Coral",
+        "descricao": "Maior sistema de recifes de coral do mundo, no Mar de Coral, ao largo de Queensland, na Austrália.",
+        "variantes": [
+          "Great Barrier Reef",
+          "Grande Barreira de Corais"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Vale florestado genérico, sem feição que permita reconhecer a Chapada dos Veadeiros e distingui-la de outros vales do Cerrado."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Imagem de satélite de cordilheira com lago turquesa; o Lago Abraham não é reconhecível pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Lago alpino genérico; a imagem não permite distinguir de outros lagos dos Alpes nem fixar o país com segurança."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "O Monte Fuji é reconhecível sobre o lago; a pergunta é pelo vínculo do lago com a montanha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este lago japonês é um dos cinco lagos aos pés de qual montanha?",
+      "resposta": "Monte Fuji",
+      "distratores": [
+        "Monte Aso",
+        "Monte Ontake",
+        "Monte Asama"
+      ],
+      "ancora": {
+        "nome": "Lago Kawaguchi",
+        "descricao": "Lago no sul da província de Yamanashi, no Japão, um dos Cinco Lagos do Fuji, com vista para o Monte Fuji.",
+        "variantes": [
+          "Kawaguchiko",
+          "Lake Kawaguchi"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Sumidouro circular em atol, inconfundível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que formação marinha circular é esta, vista do alto?",
+      "resposta": "Grande Buraco Azul",
+      "distratores": [
+        "Poço de Dean",
+        "Buraco Azul de Dahab",
+        "Buraco do Dragão"
+      ],
+      "ancora": {
+        "nome": "Grande Buraco Azul",
+        "descricao": "Grande sumidouro marinho circular no atol Lighthouse Reef, ao largo de Belize.",
+        "variantes": [
+          "Great Blue Hole"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Montanha piramidal com a cachoeira Kirkjufellsfoss, bastante característica e sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país fica esta montanha em forma de pirâmide, uma das mais fotografadas do mundo?",
+      "resposta": "Islândia",
+      "distratores": [
+        "Noruega",
+        "Ilhas Faroé",
+        "Escócia"
+      ],
+      "ancora": {
+        "nome": "Kirkjufell",
+        "descricao": "Montanha de 463 metros na costa norte da península de Snæfellsnes, na Islândia, junto à cidade de Grundarfjörður.",
+        "variantes": [
+          "Kirkjufellsfoss",
+          "Monte da Igreja"
+        ]
+      }
+    }
+  ]
+}
