@@ -1,0 +1,433 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelas fontes, enunciado preciso e distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem croata de gravata confirmada nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Smoking vem do smoking jacket usado para fumar; fonte sustenta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Salto stiletto leva o nome do punhal italiano; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Sneaker vem de andar sem fazer barulho, fato amplamente documentado, embora os trechos não o mostrem.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Coturno usado por atores trágicos, confirmado em Buskin.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte do Wikcionário inexistente; mantém só a fonte válida da Wikipédia.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O nome da estampa de bolinhas chamada poá vem do francês pois. O que essa palavra francesa significa?",
+        "resposta": "Ervilha",
+        "distratores": [
+          "Moeda",
+          "Gota",
+          "Botão"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Polka_dot"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte em inglês data a escolha em 1920, não 1921; remove o ano do enunciado.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Coco Chanel escolheu um perfume entre amostras numeradas do perfumista Ernest Beaux. Por que ele se chama Chanel número cinco?",
+        "resposta": "Era a quinta amostra",
+        "distratores": [
+          "Tinha cinco flores",
+          "Custava cinco francos",
+          "Quinto ano da grife"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Chanel_No._5"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do quilate na semente de alfarroba confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chuck Taylor foi jogador de basquete e divulgador do tênis; fonte sustenta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A crinolina original era um tecido de crina com algodão ou linho, não uma armação; enunciado corrigido.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "A crinolina deve seu nome a um tecido rígido que misturava algodão ou linho com os pelos de qual animal?",
+        "resposta": "Cavalo",
+        "distratores": [
+          "Cabra",
+          "Camelo",
+          "Boi"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Crinoline"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome ligado à cidade marroquina de Fez; pergunta boa e distrator Turquia é armadilha justa.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chapéu-coco em Carlitos e nos detetives Dupond e Dupont, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Jacqueline Kennedy e o pillbox na posse de 1961 são fatos bem documentados.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cartola de Lincoln, Tio Sam e mágicos; boa conexão.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Che com boina na foto de Korda é fato amplamente conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gorros dos Smurfs no estilo do barrete frígio, símbolo de liberdade; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A luva branca brilhante de Michael Jackson nos anos oitenta é fato notório.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Armani e Richard Gere em Gigolô Americano, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Worth vestiu a imperatriz Eugênia; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marlon Brando em O Selvagem com jaqueta perfecto, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Resposta de Marilyn Monroe sobre Chanel nº 5 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Theodore Roosevelt fotografado com panamá em 1906, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Tradição das 21 listras, uma por vitória de Napoleão, é amplamente citada e o enunciado a trata como tradição.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Modelo 1460 com oito ilhoses, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Partiu em 1835 e chegou em 1837, cerca de dois anos.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A idade da descoberta varia entre 13 e 14 anos conforme a fonte; resposta não é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ten-gallon hat confirmado na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Grão de cevada vale um terço de polegada, base da numeração inglesa.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quilate igual a 200 mg, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Tradição das cem maneiras de preparar ovos é amplamente documentada e o enunciado a trata como tradição.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dezoito de vinte e quatro equivale a 75 por cento; fonte sustenta.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chapéu-coco projetado para guarda-caças a cavalo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ideia do velcro veio dos carrapichos no pelo do cão.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dress Act de 1746 após o levante jacobita, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tradição da veia ligada ao coração, sustentada pela fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O nome aviador entrega a resposta (pilotos); vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chapéu-panamá é fabricado no Equador, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Rebites vieram em 1873, depois da corrida do ouro; enunciado impreciso. Reformulado com a fundação em 1853.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Em 1853, em plena corrida do ouro, Levi Strauss abriu a empresa que popularizou o jeans. Em qual cidade americana?",
+        "resposta": "São Francisco",
+        "distratores": [
+          "Los Angeles",
+          "Sacramento",
+          "Denver"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Levi_Strauss_%26_Co.",
+          "https://en.wikipedia.org/wiki/Levi_Strauss"
+        ]
+      }
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gabrielle Chanel aprendeu a costurar no orfanato do convento de Aubazine.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lagerfeld nasceu em Hamburgo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Louis Cartier criou o relógio para Santos Dumont em 1904, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rainha Vitória e o vestido branco de 1840, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sidney Paget ilustrou Holmes na Strand; fonte confirma que Doyle não nomeia o deerstalker.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os sapatinhos eram cobertos de lantejoulas vermelhas, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Musselina é material admitido para tutus segundo a fonte, distrator defensável; trocada por organza.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "A saia rígida e horizontal do tutu clássico de balé é feita de várias camadas de qual tecido?",
+        "resposta": "Tule",
+        "distratores": [
+          "Cetim",
+          "Veludo",
+          "Organza"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Tutu_(clothing)"
+        ]
+      }
+    },
+    {
+      "indice": 47,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte fala em escassez de materiais, não especificamente de couro; enunciado ajustado.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "Com a escassez de materiais depois da Segunda Guerra, a Gucci lançou em 1947 uma bolsa com alça de qual material, que virou clássico da grife?",
+        "resposta": "Bambu",
+        "distratores": [
+          "Vime",
+          "Cortiça",
+          "Marfim"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Gucci"
+        ]
+      }
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Modelo 1460 lançado em 1º de abril de 1960, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Met Gala ocorre tradicionalmente na primeira segunda-feira de maio; fonte confirma maio.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Prada (1913) é anterior a Gucci (1921), Fendi (1925) e Armani (1975).",
+      "reescrita": null
+    }
+  ]
+}

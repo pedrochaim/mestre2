@@ -1,0 +1,1293 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "biquini",
+        "nome": "Biquíni",
+        "descricao": "Traje de banho feminino de duas peças lançado pelo francês Louis Réard em 1946.",
+        "variantes": [
+          "Bikini"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bikini"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em 1946, Louis Réard deu ao seu traje de duas peças o nome de um atol do Pacífico. O que os Estados Unidos faziam lá naquele ano?",
+      "resposta": "Testes com bombas atômicas",
+      "distratores": [
+        "Treinos de submarinos",
+        "Pesquisas sobre corais",
+        "Construção de uma base"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bikini",
+        "https://en.wikipedia.org/wiki/Bikini_Atoll"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "gravata",
+        "nome": "Gravata",
+        "descricao": "Peça de tecido usada amarrada ao pescoço, sob o colarinho da camisa.",
+        "variantes": [
+          "Necktie",
+          "Cravate"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Necktie"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra gravata vem do francês cravate, termo ligado a mercenários que usavam lenços no pescoço no século dezessete. De que povo eram eles?",
+      "resposta": "Croatas",
+      "distratores": [
+        "Suíços",
+        "Escoceses",
+        "Húngaros"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Necktie",
+        "https://en.wikipedia.org/wiki/Cravat_(early)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "smoking",
+        "nome": "Smoking",
+        "descricao": "Traje masculino de gala com lapelas de cetim, chamado tuxedo nos Estados Unidos",
+        "variantes": [
+          "Tuxedo",
+          "Dinner jacket"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tuxedo"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em português e em francês, o traje de gala masculino se chama smoking porque descende de um paletó que os cavalheiros usavam para quê?",
+      "resposta": "Para fumar",
+      "distratores": [
+        "Para jantar",
+        "Para dançar",
+        "Para cavalgar"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tuxedo",
+        "https://en.wikipedia.org/wiki/Smoking_jacket"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "salto_alto",
+        "nome": "Salto alto",
+        "descricao": "Calçado com o calcanhar elevado em relação à ponta do pé",
+        "variantes": [
+          "High heels"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/High-heeled_shoe"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em inglês, o salto agulha se chama stiletto, o mesmo nome de qual objeto de origem italiana?",
+      "resposta": "Um punhal fino",
+      "distratores": [
+        "Um alfinete",
+        "Um prego",
+        "Um florete"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stiletto_heel",
+        "https://en.wikipedia.org/wiki/Stiletto"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tenis",
+        "nome": "Tênis",
+        "descricao": "Calçado esportivo e casual, de solado de borracha e cadarço, aqui um par de lona.",
+        "variantes": [
+          "Sneaker",
+          "Sapatilha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sneakers"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Nos Estados Unidos, o tênis ganhou o apelido de sneaker por causa de algo que a sola de borracha permitia fazer. O quê?",
+      "resposta": "Andar sem fazer barulho",
+      "distratores": [
+        "Correr na chuva",
+        "Pular mais alto",
+        "Andar na areia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sneakers"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "coturno",
+        "nome": "Coturno",
+        "descricao": "Bota militar de couro, com cano alto e cadarço, projetada para soldados em combate.",
+        "variantes": [
+          "Buskin",
+          "Kothornos"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Coturno"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome coturno vem de uma bota de sola alta usada, no teatro da Grécia Antiga, por quais artistas?",
+      "resposta": "Atores de tragédia",
+      "distratores": [
+        "Atores de comédia",
+        "Cantores do coro",
+        "Músicos de flauta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Buskin",
+        "https://pt.wikipedia.org/wiki/Coturno"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "poa",
+        "nome": "Poá",
+        "descricao": "Estampa de círculos cheios do mesmo tamanho, espaçados regularmente.",
+        "variantes": [
+          "Bolinhas",
+          "Polka dot"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Polka_dot"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome da estampa de bolinhas chamada poá vem do francês pois. O que essa palavra francesa significa?",
+      "resposta": "Ervilha",
+      "distratores": [
+        "Moeda",
+        "Gota",
+        "Botão"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Polka_dot",
+        "https://pt.wiktionary.org/wiki/po%C3%A1"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Chanel nº 5",
+        "descricao": "Perfume feminino da grife Chanel, criado pelo perfumista Ernest Beaux e lançado em 1921.",
+        "variantes": [
+          "Chanel No. 5",
+          "Chanel número cinco"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chanel_No._5"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em 1921, Coco Chanel escolheu um perfume entre amostras numeradas do perfumista Ernest Beaux. Por que ele se chama Chanel número cinco?",
+      "resposta": "Era a quinta amostra",
+      "distratores": [
+        "Tinha cinco flores",
+        "Custava cinco francos",
+        "Quinto ano da grife"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chanel_No._5"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Quilate (unidade de peso)",
+        "descricao": "Unidade de massa usada para pesar diamantes e outras pedras preciosas, igual a 200 miligramas.",
+        "variantes": [
+          "Carat",
+          "Quilate métrico"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Carat_(mass)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O quilate, unidade de peso das pedras preciosas, tem nome derivado das sementes de qual árvore, usadas antigamente como contrapeso nas balanças?",
+      "resposta": "Alfarrobeira",
+      "distratores": [
+        "Oliveira",
+        "Tamareira",
+        "Romãzeira"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carat_(mass)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "converse_all_star",
+        "nome": "Converse All Star",
+        "descricao": "Modelo de tênis de lona da Converse, criado para o basquete no início do século vinte.",
+        "variantes": [
+          "Chuck Taylor All-Star",
+          "Chuck Taylor"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chuck_Taylor_All-Stars"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O tênis Converse All Star também leva o nome de Chuck Taylor, que o divulgou pelos Estados Unidos a partir dos anos vinte. Quem era ele?",
+      "resposta": "Jogador de basquete",
+      "distratores": [
+        "Fundador da Converse",
+        "Químico da borracha",
+        "Jogador de beisebol"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chuck_Taylor_(salesman)",
+        "https://en.wikipedia.org/wiki/Chuck_Taylor_All-Stars"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "crinolina",
+        "nome": "Crinolina",
+        "descricao": "Armação rígida de aros usada sob as saias para deixá-las amplas e rodadas",
+        "variantes": [
+          "Crinoline"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Crinoline"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A crinolina deve seu nome ao tecido rígido da armação original, que misturava linho com os pelos de qual animal?",
+      "resposta": "Cavalo",
+      "distratores": [
+        "Cabra",
+        "Camelo",
+        "Boi"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Crinoline"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "fez",
+        "nome": "Fez",
+        "descricao": "Chapéu de feltro cilíndrico, sem aba, geralmente vermelho com borla preta, símbolo do Império Otomano.",
+        "variantes": [
+          "Tarbuche"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fez_(hat)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O chapéu fez, cilíndrico e vermelho, símbolo do Império Otomano, leva o nome de uma cidade de qual país?",
+      "resposta": "Marrocos",
+      "distratores": [
+        "Turquia",
+        "Egito",
+        "Tunísia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fez_(hat)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "chapeu_coco",
+        "nome": "Chapéu-coco",
+        "descricao": "Chapéu de feltro duro com copa arredondada, criado em Londres em 1849.",
+        "variantes": [
+          "Bowler hat",
+          "Chapéu de coco"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bowler_hat"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que chapéu era marca registrada tanto de Carlitos, personagem de Charlie Chaplin, quanto dos detetives Dupond e Dupont, das aventuras de Tintim?",
+      "resposta": "Chapéu-coco",
+      "distratores": [
+        "Cartola",
+        "Chapéu-palheta",
+        "Fedora"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bowler_hat",
+        "https://en.wikipedia.org/wiki/Thomson_and_Thompson"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "chapeu_pillbox",
+        "nome": "Chapéu pillbox",
+        "descricao": "Chapéu pequeno de copa plana, lados retos e sem aba, que lembra uma caixa de comprimidos.",
+        "variantes": [
+          "Pillbox hat"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pillbox_hat"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "No início dos anos sessenta, qual primeira-dama americana transformou o chapéu pillbox em moda, usando um na posse do marido?",
+      "resposta": "Jacqueline Kennedy",
+      "distratores": [
+        "Eleanor Roosevelt",
+        "Mamie Eisenhower",
+        "Nancy Reagan"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pillbox_hat"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cartola_2",
+        "nome": "Cartola",
+        "descricao": "Chapéu alto de copa reta e aba curta, tradicionalmente preto, usado com trajes formais ocidentais.",
+        "variantes": [
+          "Top hat"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Top_hat"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O que o presidente Abraham Lincoln, o Tio Sam e os mágicos que tiram coelhos do chapéu costumam ter em comum na cabeça?",
+      "resposta": "Cartola",
+      "distratores": [
+        "Chapéu-coco",
+        "Tricórnio",
+        "Chapéu de caubói"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Top_hat",
+        "https://en.wikipedia.org/wiki/Uncle_Sam"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "boina",
+        "nome": "Boina",
+        "descricao": "Chapéu macio, redondo e de copa plana, em lã ou feltro, associado ao País Basco e à França.",
+        "variantes": [
+          "Beret"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Beret"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Na foto Guerrillero Heroico, de Alberto Korda, uma das imagens mais reproduzidas do século vinte, Che Guevara aparece com qual chapéu?",
+      "resposta": "Boina",
+      "distratores": [
+        "Quepe",
+        "Chapéu de palha",
+        "Gorro de lã"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Guerrillero_Heroico"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "barrete_frigio",
+        "nome": "Barrete frígio",
+        "descricao": "Gorro cônico macio com a ponta dobrada para a frente, usado na Antiguidade e depois símbolo de liberdade na Revolução Francesa.",
+        "variantes": [
+          "Phrygian cap"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Phrygian_cap"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Os gorros brancos dos Smurfs, personagens do belga Peyo, imitam qual chapéu, que virou símbolo da liberdade na Revolução Francesa?",
+      "resposta": "Barrete frígio",
+      "distratores": [
+        "Boina basca",
+        "Bicorne",
+        "Fez"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Phrygian_cap",
+        "https://en.wikipedia.org/wiki/The_Smurfs"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "luva",
+        "nome": "Luva",
+        "descricao": "Peça de vestuário que cobre a mão, com compartimentos separados para cada dedo.",
+        "variantes": [
+          "Glove"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Glove"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Nos anos oitenta, qual cantor americano fez de uma única luva branca, coberta de brilhos, uma de suas marcas registradas?",
+      "resposta": "Michael Jackson",
+      "distratores": [
+        "Prince",
+        "Lionel Richie",
+        "Stevie Wonder"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Michael_Jackson",
+        "https://en.wikipedia.org/wiki/Motown_25:_Yesterday,_Today,_Forever"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "giorgio_armani",
+        "nome": "Giorgio Armani",
+        "descricao": "Estilista italiano nascido em 1934, fundador da grife Armani em Milão",
+        "variantes": [
+          "Armani"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Giorgio_Armani"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 1980, o filme Gigolô Americano ajudou a projetar Giorgio Armani nos Estados Unidos com os ternos vestidos por qual ator?",
+      "resposta": "Richard Gere",
+      "distratores": [
+        "John Travolta",
+        "Robert Redford",
+        "Al Pacino"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Giorgio_Armani",
+        "https://en.wikipedia.org/wiki/American_Gigolo"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "charles_frederick_worth",
+        "nome": "Charles Frederick Worth",
+        "descricao": "Costureiro do século dezenove radicado em Paris, considerado o pai da alta-costura",
+        "variantes": [
+          "Worth"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Charles_Frederick_Worth"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "No Segundo Império francês, o costureiro Charles Frederick Worth ficou famoso vestindo qual imperatriz, esposa de Napoleão terceiro?",
+      "resposta": "Eugênia de Montijo",
+      "distratores": [
+        "Josefina",
+        "Maria Luísa",
+        "Sissi"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Charles_Frederick_Worth"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Jaqueta perfecto",
+        "descricao": "Jaqueta de couro de motociclista com zíper na diagonal, criada pela americana Schott em 1928.",
+        "variantes": [
+          "Perfecto",
+          "Jaqueta de motociclista"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Perfecto_motorcycle_jacket"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "No filme O Selvagem, de 1953, qual ator transformou a jaqueta de couro de motociclista em símbolo da juventude rebelde?",
+      "resposta": "Marlon Brando",
+      "distratores": [
+        "James Dean",
+        "Elvis Presley",
+        "Steve McQueen"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Perfecto_motorcycle_jacket",
+        "https://en.wikipedia.org/wiki/The_Wild_One"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Chanel nº 5",
+        "descricao": "Perfume feminino da grife Chanel, criado pelo perfumista Ernest Beaux e lançado em 1921.",
+        "variantes": [
+          "Chanel No. 5",
+          "Chanel número cinco"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chanel_No._5"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Qual atriz de Hollywood, perguntada sobre o que vestia para dormir, respondeu que usava apenas algumas gotas de Chanel número cinco?",
+      "resposta": "Marilyn Monroe",
+      "distratores": [
+        "Audrey Hepburn",
+        "Grace Kelly",
+        "Elizabeth Taylor"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chanel_No._5"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Chapéu-panamá",
+        "descricao": "Chapéu de palha trançada com fibras da palmeira toquilla, fabricado tradicionalmente no Equador.",
+        "variantes": [
+          "Panama hat",
+          "Chapéu panamá",
+          "Sombrero de paja toquilla"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Panama_hat"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O chapéu-panamá ganhou ainda mais fama depois que qual presidente americano foi fotografado com ele, em 1906, visitando as obras do canal?",
+      "resposta": "Theodore Roosevelt",
+      "distratores": [
+        "Franklin Roosevelt",
+        "Woodrow Wilson",
+        "William Taft"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Panama_hat"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Camisa listrada bretã",
+        "descricao": "Camisa de malha com listras horizontais azuis e brancas, adotada pela marinha francesa em 1858 e popularizada na moda por Coco Chanel.",
+        "variantes": [
+          "Marinière",
+          "Breton shirt",
+          "Camisa marinheira"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Breton_shirt"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Segundo uma tradição famosa, a camisa listrada dos marinheiros franceses tinha uma listra para cada vitória de Napoleão. Quantas listras eram?",
+      "resposta": "Vinte e uma",
+      "distratores": [
+        "Doze",
+        "Quinze",
+        "Trinta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Breton_shirt"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "dr_martens",
+        "nome": "Dr. Martens",
+        "descricao": "Marca de botas de couro com sola de amortecimento de ar, criada pelo médico alemão Klaus Märtens",
+        "variantes": [
+          "Doc Martens",
+          "Docs"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dr._Martens"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O modelo clássico de bota da Dr. Martens, de couro preto e costura amarela na sola, tem quantos pares de ilhoses para o cadarço?",
+      "resposta": "Oito",
+      "distratores": [
+        "Seis",
+        "Dez",
+        "Catorze"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dr._Martens"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "louis_vuitton",
+        "nome": "Louis Vuitton",
+        "descricao": "Fabricante francês de malas (1821–1892), fundador da grife que leva seu nome",
+        "variantes": [
+          "LV"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Louis_Vuitton_(designer)"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Aos treze anos, Louis Vuitton saiu de sua aldeia no leste da França e foi a pé até Paris. Quanto tempo durou a viagem?",
+      "resposta": "Cerca de dois anos",
+      "distratores": [
+        "Duas semanas",
+        "Dois meses",
+        "Seis meses"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Louis_Vuitton_(designer)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "gisele_bundchen",
+        "nome": "Gisele Bündchen",
+        "descricao": "Supermodelo brasileira nascida em 1980 em Horizontina",
+        "variantes": [
+          "Gisele Bundchen"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gisele_B%C3%BCndchen"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A gaúcha Gisele Bündchen foi descoberta por uma agência de modelos num shopping de São Paulo. Quantos anos ela tinha?",
+      "resposta": "Catorze",
+      "distratores": [
+        "Onze",
+        "Dezesseis",
+        "Dezoito"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gisele_B%C3%BCndchen",
+        "https://pt.wikipedia.org/wiki/Gisele_B%C3%BCndchen"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "chapeu_de_cauboi",
+        "nome": "Chapéu de caubói",
+        "descricao": "Chapéu de copa alta e aba larga associado aos vaqueiros do oeste americano",
+        "variantes": [
+          "Cowboy hat",
+          "Stetson"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cowboy_hat"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Nos Estados Unidos, o chapéu de caubói de copa bem alta ganhou um apelido exagerado: chapéu de quantos galões?",
+      "resposta": "Dez",
+      "distratores": [
+        "Cinco",
+        "Vinte",
+        "Cem"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ten-gallon_hat"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "numeracao_inglesa_de_calcados",
+        "nome": "Numeração inglesa de calçados",
+        "descricao": "Sistema de tamanhos de sapato usado no Reino Unido, baseado na antiga unidade barleycorn",
+        "variantes": [
+          "UK shoe size"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Shoe_size"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A numeração inglesa de calçados se baseia no grão de cevada, antiga medida de comprimento. Quantos desses grãos formam uma polegada?",
+      "resposta": "Três",
+      "distratores": [
+        "Dois",
+        "Quatro",
+        "Doze"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Barleycorn_(unit)",
+        "https://en.wikipedia.org/wiki/Shoe_size"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Quilate (unidade de peso)",
+        "descricao": "Unidade de massa usada para pesar diamantes e outras pedras preciosas, igual a 200 miligramas.",
+        "variantes": [
+          "Carat",
+          "Quilate métrico"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Carat_(mass)"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Usado para pesar diamantes e outras pedras preciosas, um quilate equivale a quantos miligramas?",
+      "resposta": "Duzentos",
+      "distratores": [
+        "Cem",
+        "Quinhentos",
+        "Mil"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carat_(mass)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Toque blanche",
+        "descricao": "Chapéu alto, branco e pregueado, usado tradicionalmente por chefs de cozinha.",
+        "variantes": [
+          "Toque",
+          "Chapéu de chef",
+          "Chapéu de cozinheiro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Toque"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Segundo a tradição, o chapéu alto e branco dos chefs de cozinha tinha uma prega para cada maneira de preparar ovos. Quantas eram?",
+      "resposta": "Cem",
+      "distratores": [
+        "Doze",
+        "Trinta",
+        "Cinquenta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Toque"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Quilate (pureza do ouro)",
+        "descricao": "Medida da proporção de ouro puro numa liga, em que vinte e quatro quilates correspondem ao ouro puro.",
+        "variantes": [
+          "Karat",
+          "Quilatagem"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fineness"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Uma joia de ouro dezoito quilates tem que proporção de ouro puro em sua liga?",
+      "resposta": "Três quartos",
+      "distratores": [
+        "Metade",
+        "Dois terços",
+        "Nove décimos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fineness"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "chapeu_coco",
+        "nome": "Chapéu-coco",
+        "descricao": "Chapéu de feltro duro com copa arredondada, criado em Londres em 1849.",
+        "variantes": [
+          "Bowler hat",
+          "Chapéu de coco"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bowler_hat"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O chapéu-coco foi encomendado a chapeleiros de Londres, em 1849, para proteger contra galhos baixos a cabeça de quem?",
+      "resposta": "Guarda-caças a cavalo",
+      "distratores": [
+        "Cocheiros de carruagem",
+        "Mineiros de carvão",
+        "Policiais de Londres"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bowler_hat"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "velcro",
+        "nome": "Velcro",
+        "descricao": "Sistema de fecho de gancho e argola inventado pelo engenheiro suíço George de Mestral.",
+        "variantes": [
+          "Hook-and-loop fastener"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hook-and-loop_fastener"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O engenheiro suíço George de Mestral teve a ideia do velcro ao voltar de um passeio e examinar o que grudara no pelo de seu cachorro. O quê?",
+      "resposta": "Carrapichos",
+      "distratores": [
+        "Pulgas",
+        "Teias de aranha",
+        "Lama seca"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hook-and-loop_fastener",
+        "https://en.wikipedia.org/wiki/George_de_Mestral"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "kilt",
+        "nome": "Kilt",
+        "descricao": "Peça de vestuário tradicional escocesa, semelhante a uma saia até o joelho, de lã em padrão tartan e com pregas.",
+        "variantes": [
+          "Saia escocesa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kilt"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Depois do fracasso de qual revolta, em 1746, a Grã-Bretanha proibiu o uso do kilt e do tartan nas Terras Altas da Escócia?",
+      "resposta": "Levante jacobita",
+      "distratores": [
+        "Guerra das Rosas",
+        "Guerra Civil Inglesa",
+        "Revolta irlandesa"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dress_Act_1746"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Aliança de casamento",
+        "descricao": "Anel, em geral de metal precioso, trocado pelos noivos como símbolo do casamento.",
+        "variantes": [
+          "Wedding ring",
+          "Aliança"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wedding_ring"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Segundo uma antiga tradição, a aliança vai no anelar esquerdo porque uma veia ligaria esse dedo diretamente a qual órgão?",
+      "resposta": "Coração",
+      "distratores": [
+        "Cérebro",
+        "Fígado",
+        "Pulmões"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wedding_ring"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Óculos aviador",
+        "descricao": "Modelo de óculos escuros de lentes em forma de gota e armação metálica fina, lançado pela Ray-Ban nos anos trinta.",
+        "variantes": [
+          "Aviator sunglasses",
+          "Ray-Ban Aviator"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aviator_sunglasses"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Os óculos escuros Ray-Ban Aviador foram criados nos anos trinta, nos Estados Unidos, para proteger os olhos de quem?",
+      "resposta": "Pilotos militares",
+      "distratores": [
+        "Esquiadores",
+        "Pilotos de corrida",
+        "Marinheiros"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aviator_sunglasses",
+        "https://en.wikipedia.org/wiki/Ray-Ban"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Chapéu-panamá",
+        "descricao": "Chapéu de palha trançada com fibras da palmeira toquilla, fabricado tradicionalmente no Equador.",
+        "variantes": [
+          "Panama hat",
+          "Chapéu panamá",
+          "Sombrero de paja toquilla"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Panama_hat"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Apesar do nome, em qual país é tradicionalmente fabricado o chapéu-panamá, trançado com a palha de uma palmeira local?",
+      "resposta": "Equador",
+      "distratores": [
+        "Colômbia",
+        "Peru",
+        "Cuba"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Panama_hat"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "jeans",
+        "nome": "Jeans",
+        "descricao": "Calça de tecido de algodão resistente, geralmente azul, popularizada pela Levi Strauss & Co.",
+        "variantes": [
+          "Calça jeans",
+          "Blue jeans"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jeans"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "As primeiras calças de rebites da Levi Strauss eram vendidas a trabalhadores da corrida do ouro. Em qual cidade americana ficava a empresa?",
+      "resposta": "São Francisco",
+      "distratores": [
+        "Los Angeles",
+        "Sacramento",
+        "Denver"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Levi_Strauss_%26_Co.",
+        "https://en.wikipedia.org/wiki/Levi_Strauss"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "coco_chanel",
+        "nome": "Coco Chanel",
+        "descricao": "Estilista francesa Gabrielle Chanel, fundadora da grife Chanel",
+        "variantes": [
+          "Gabrielle Chanel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Coco_Chanel"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Depois da morte da mãe, em que lugar a menina Gabrielle Chanel passou a adolescência e aprendeu a costurar?",
+      "resposta": "Num orfanato de freiras",
+      "distratores": [
+        "Num ateliê parisiense",
+        "Numa fábrica têxtil",
+        "Num internato inglês"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Coco_Chanel"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "karl_lagerfeld",
+        "nome": "Karl Lagerfeld",
+        "descricao": "Estilista alemão (1933–2019), diretor criativo da Chanel e da Fendi",
+        "variantes": [
+          "Lagerfeld"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Karl_Lagerfeld"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Karl Lagerfeld, que comandou a criação da Chanel por mais de trinta anos, nasceu em qual cidade alemã?",
+      "resposta": "Hamburgo",
+      "distratores": [
+        "Berlim",
+        "Munique",
+        "Colônia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Karl_Lagerfeld"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Relógio Santos, da Cartier",
+        "descricao": "Relógio de pulso criado por Louis Cartier em 1904 para o aviador brasileiro Alberto Santos Dumont.",
+        "variantes": [
+          "Cartier Santos",
+          "Santos-Dumont watch"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Louis_Cartier"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1904, qual joalheiro parisiense criou um relógio de pulso para que seu amigo Santos Dumont pudesse ver as horas enquanto pilotava?",
+      "resposta": "Louis Cartier",
+      "distratores": [
+        "Hans Wilsdorf",
+        "Frédéric Boucheron",
+        "Alfred Van Cleef"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Louis_Cartier",
+        "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vestido de noiva branco",
+        "descricao": "Tradição ocidental de a noiva se casar de branco, difundida a partir do casamento da rainha Vitória em 1840.",
+        "variantes": [
+          "White wedding dress",
+          "Vestido de noiva"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/White_wedding"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1840, qual monarca ajudou a popularizar o vestido de noiva branco ao se casar com um vestido de cetim branco e renda?",
+      "resposta": "Rainha Vitória",
+      "distratores": [
+        "Maria Antonieta",
+        "Imperatriz Leopoldina",
+        "Maria segunda de Portugal"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wedding_dress_of_Queen_Victoria",
+        "https://en.wikipedia.org/wiki/White_wedding"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "deerstalker",
+        "nome": "Deerstalker",
+        "descricao": "Boné inglês de caça, em geral de tecido xadrez, com duas abas à frente e atrás e protetores de orelha, associado a Sherlock Holmes.",
+        "variantes": [
+          "Chapéu de caçador de veados"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Deerstalker"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Os contos de Conan Doyle nunca usam a palavra deerstalker. Qual ilustrador da revista The Strand fixou a imagem de Sherlock Holmes com esse chapéu?",
+      "resposta": "Sidney Paget",
+      "distratores": [
+        "Arthur Rackham",
+        "Gustave Doré",
+        "John Tenniel"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Deerstalker",
+        "https://en.wikipedia.org/wiki/Sidney_Paget"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sapatinhos_de_rubi",
+        "nome": "Sapatinhos de rubi",
+        "descricao": "Sapatos mágicos vermelhos usados por Dorothy, personagem de Judy Garland, no filme O Mágico de Oz, de 1939.",
+        "variantes": [
+          "Ruby slippers"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ruby_slippers"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No filme O Mágico de Oz, de 1939, os sapatinhos de rubi de Dorothy eram cobertos de quê?",
+      "resposta": "Lantejoulas vermelhas",
+      "distratores": [
+        "Rubis verdadeiros",
+        "Vidro vermelho",
+        "Veludo vermelho"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ruby_slippers"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tutu",
+        "nome": "Tutu",
+        "descricao": "Traje de balé clássico com corpete e saia de tule, rígida e horizontal no modelo clássico.",
+        "variantes": [
+          "Tutu de balé"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tutu_(clothing)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A saia rígida e horizontal do tutu clássico de balé é feita de várias camadas de qual tecido?",
+      "resposta": "Tule",
+      "distratores": [
+        "Cetim",
+        "Veludo",
+        "Musselina"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tutu_(clothing)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "guccio_gucci",
+        "nome": "Guccio Gucci",
+        "descricao": "Empresário italiano que fundou a grife Gucci em Florença, em 1921",
+        "variantes": [
+          "Gucci"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Guccio_Gucci"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Com a falta de couro depois da Segunda Guerra, a Gucci lançou em 1947 uma bolsa com alça de qual material, que virou clássico da grife?",
+      "resposta": "Bambu",
+      "distratores": [
+        "Vime",
+        "Cortiça",
+        "Marfim"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gucci"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "dr_martens",
+        "nome": "Dr. Martens",
+        "descricao": "Marca de botas de couro com sola de amortecimento de ar, criada pelo médico alemão Klaus Märtens",
+        "variantes": [
+          "Doc Martens",
+          "Docs"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dr._Martens"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O modelo clássico de bota da Dr. Martens se chama 1460 por causa da data em que foi lançado. Que data é essa?",
+      "resposta": "1º de abril de 1960",
+      "distratores": [
+        "14 de junho de 1960",
+        "4 de janeiro de 1960",
+        "1º de abril de 1946"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dr._Martens"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Met Gala",
+        "descricao": "Baile beneficente anual de moda do Instituto do Figurino do Metropolitan Museum of Art, em Nova York.",
+        "variantes": [
+          "Met Ball",
+          "Costume Institute Gala"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Met_Gala"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O Met Gala, baile beneficente de moda realizado em Nova York, acontece tradicionalmente em que dia do ano?",
+      "resposta": "Primeira segunda-feira de maio",
+      "distratores": [
+        "Último sábado de outubro",
+        "Primeira sexta de dezembro",
+        "Segundo domingo de fevereiro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Met_Gala"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Prada",
+        "descricao": "Grife italiana de moda de luxo fundada por Mario Prada em Milão, em 1913.",
+        "variantes": [
+          "Prada S.p.A."
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Prada"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre estas grifes italianas de luxo, qual foi fundada primeiro?",
+      "resposta": "Prada",
+      "distratores": [
+        "Gucci",
+        "Fendi",
+        "Armani"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Prada",
+        "https://en.wikipedia.org/wiki/Gucci",
+        "https://en.wikipedia.org/wiki/Fendi",
+        "https://en.wikipedia.org/wiki/Armani"
+      ]
+    }
+  ]
+}

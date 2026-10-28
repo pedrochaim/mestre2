@@ -1,0 +1,815 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1946, Louis Réard deu ao seu traje de duas peças o nome de um atol do Pacífico. O que os Estados Unidos faziam lá naquele ano?",
+        "resposta": "Testes com bombas atômicas"
+      },
+      "existentes": [
+        {
+          "id": "q00873",
+          "pergunta": "O biquíni recebeu o nome de um atol do Oceano Pacífico que tinha virado notícia em 1946. O que os Estados Unidos faziam lá?",
+          "resposta": "Testes nucleares"
+        },
+        {
+          "id": "q04077",
+          "pergunta": "Em julho de 1946, numa piscina de Paris, qual engenheiro francês apresentou o traje de banho de duas peças chamado biquíni?",
+          "resposta": "Louis Réard"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A palavra gravata vem do francês cravate, termo ligado a mercenários que usavam lenços no pescoço no século dezessete. De que povo eram eles?",
+        "resposta": "Croatas"
+      },
+      "existentes": [
+        {
+          "id": "q00874",
+          "pergunta": "A palavra gravata vem do francês e lembra os lenços de pescoço usados, no século dezessete, por mercenários de qual povo?",
+          "resposta": "Croatas"
+        },
+        {
+          "id": "q16248",
+          "pergunta": "Que acessório do vestuário masculino é este?",
+          "resposta": "Gravata"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em português e em francês, o traje de gala masculino se chama smoking porque descende de um paletó que os cavalheiros usavam para quê?",
+        "resposta": "Para fumar"
+      },
+      "existentes": [
+        {
+          "id": "q00951",
+          "pergunta": "Nos Estados Unidos, o smoking é chamado de tuxedo por causa de um clube de campo em qual estado americano?",
+          "resposta": "Nova York"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em inglês, o salto agulha se chama stiletto, o mesmo nome de qual objeto de origem italiana?",
+        "resposta": "Um punhal fino"
+      },
+      "existentes": [
+        {
+          "id": "q00939",
+          "pergunta": "Os saltos altos surgiram nas botas de cavaleiros persas. Para que servia o salto nesses calçados?",
+          "resposta": "Firmar os pés nos estribos"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Nos Estados Unidos, o tênis ganhou o apelido de sneaker por causa de algo que a sola de borracha permitia fazer. O quê?",
+        "resposta": "Andar sem fazer barulho"
+      },
+      "existentes": [
+        {
+          "id": "q03723",
+          "pergunta": "Que calçado é este?",
+          "resposta": "Tênis"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O nome coturno vem de uma bota de sola alta usada, no teatro da Grécia Antiga, por quais artistas?",
+        "resposta": "Atores de tragédia"
+      },
+      "existentes": [
+        {
+          "id": "q15201",
+          "pergunta": "Que tipo de calçado é este?",
+          "resposta": "Coturno"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O nome da estampa de bolinhas chamada poá vem do francês pois. O que essa palavra francesa significa?",
+        "resposta": "Ervilha"
+      },
+      "existentes": [
+        {
+          "id": "q14957",
+          "pergunta": "Que nome tem esta estampa?",
+          "resposta": "Poá (bolinhas)"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O tênis Converse All Star também leva o nome de Chuck Taylor, que o divulgou pelos Estados Unidos a partir dos anos vinte. Quem era ele?",
+        "resposta": "Jogador de basquete"
+      },
+      "existentes": [
+        {
+          "id": "q01767",
+          "pergunta": "O tênis All Star, da Converse, traz no tornozelo a assinatura de qual jogador e vendedor da marca?",
+          "resposta": "Chuck Taylor"
+        },
+        {
+          "id": "q07727",
+          "pergunta": "O tênis de lona Converse All Star foi criado originalmente para a prática de qual esporte?",
+          "resposta": "Basquete"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "A crinolina deve seu nome a um tecido rígido que misturava algodão ou linho com os pelos de qual animal?",
+        "resposta": "Cavalo"
+      },
+      "existentes": [
+        {
+          "id": "q04073",
+          "pergunta": "A crinolina, armação de aros que deixava as saias femininas enormes e rodadas, foi moda em qual século?",
+          "resposta": "Século dezenove"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O chapéu fez, cilíndrico e vermelho, símbolo do Império Otomano, leva o nome de uma cidade de qual país?",
+        "resposta": "Marrocos"
+      },
+      "existentes": [
+        {
+          "id": "q14250",
+          "pergunta": "Que chapéu é este?",
+          "resposta": "Fez"
+        },
+        {
+          "id": "q15001",
+          "pergunta": "Depois de 1826, o exército modernizado de um império passou a usar este chapéu como parte do uniforme. De que império se trata?",
+          "resposta": "Império Otomano"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Que chapéu era marca registrada tanto de Carlitos, personagem de Charlie Chaplin, quanto dos detetives Dupond e Dupont, das aventuras de Tintim?",
+        "resposta": "Chapéu-coco"
+      },
+      "existentes": [
+        {
+          "id": "q01616",
+          "pergunta": "Este chapéu de feltro duro, de copa arredondada, foi criado em meados do século dezenove em que cidade?",
+          "resposta": "Londres"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "No início dos anos sessenta, qual primeira-dama americana transformou o chapéu pillbox em moda, usando um na posse do marido?",
+        "resposta": "Jacqueline Kennedy"
+      },
+      "existentes": [
+        {
+          "id": "q14927",
+          "pergunta": "Que chapéu feminino, pequeno e de lados retos, é este?",
+          "resposta": "Chapéu pillbox"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O que o presidente Abraham Lincoln, o Tio Sam e os mágicos que tiram coelhos do chapéu costumam ter em comum na cabeça?",
+        "resposta": "Cartola"
+      },
+      "existentes": [
+        {
+          "id": "q01351",
+          "pergunta": "Que chapéu de copa cilíndrica e aba curta, usado com fraque ou casaca em ocasiões solenes, é este?",
+          "resposta": "Cartola"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Na foto Guerrillero Heroico, de Alberto Korda, uma das imagens mais reproduzidas do século vinte, Che Guevara aparece com qual chapéu?",
+        "resposta": "Boina"
+      },
+      "existentes": [
+        {
+          "id": "q01154",
+          "pergunta": "Que peça de cabeça é esta?",
+          "resposta": "Boina"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Os gorros brancos dos Smurfs, personagens do belga Peyo, imitam qual chapéu, que virou símbolo da liberdade na Revolução Francesa?",
+        "resposta": "Barrete frígio"
+      },
+      "existentes": [
+        {
+          "id": "q15052",
+          "pergunta": "Que tipo de gorro é este, usado pela figura da imagem?",
+          "resposta": "Barrete frígio"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Nos anos oitenta, qual cantor americano fez de uma única luva branca, coberta de brilhos, uma de suas marcas registradas?",
+        "resposta": "Michael Jackson"
+      },
+      "existentes": [
+        {
+          "id": "q08089",
+          "pergunta": "Que peça de vestuário é esta?",
+          "resposta": "Luva"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Em 1980, o filme Gigolô Americano ajudou a projetar Giorgio Armani nos Estados Unidos com os ternos vestidos por qual ator?",
+        "resposta": "Richard Gere"
+      },
+      "existentes": [
+        {
+          "id": "q07731",
+          "pergunta": "Antes de entrar no mundo da moda, o italiano Giorgio Armani chegou a cursar qual faculdade?",
+          "resposta": "Medicina"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "No Segundo Império francês, o costureiro Charles Frederick Worth ficou famoso vestindo qual imperatriz, esposa de Napoleão terceiro?",
+        "resposta": "Eugênia de Montijo"
+      },
+      "existentes": [
+        {
+          "id": "q04063",
+          "pergunta": "Considerado o pai da alta-costura parisiense, o costureiro Charles Frederick Worth era natural de qual país?",
+          "resposta": "Inglaterra"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "O chapéu-panamá ganhou ainda mais fama depois que qual presidente americano foi fotografado com ele, em 1906, visitando as obras do canal?",
+        "resposta": "Theodore Roosevelt"
+      },
+      "existentes": [
+        {
+          "id": "q00908",
+          "pergunta": "Apesar do nome, o chapéu-panamá é tradicionalmente fabricado em qual país?",
+          "resposta": "Equador"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "O modelo clássico de bota da Dr. Martens, de couro preto e costura amarela na sola, tem quantos pares de ilhoses para o cadarço?",
+        "resposta": "Oito"
+      },
+      "existentes": [
+        {
+          "id": "q04091",
+          "pergunta": "O médico alemão Klaus Märtens inventou a sola acolchoada das botas Dr. Martens para aliviar qual problema que ele próprio tinha?",
+          "resposta": "Tornozelo machucado ao esquiar"
+        },
+        {
+          "id": "q07056",
+          "pergunta": "As botas Dr. Martens, símbolo do punk britânico, nasceram de uma sola acolchoada criada por um médico de qual país?",
+          "resposta": "Alemanha"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Aos treze anos, Louis Vuitton saiu de sua aldeia no leste da França e foi a pé até Paris. Quanto tempo durou a viagem?",
+        "resposta": "Cerca de dois anos"
+      },
+      "existentes": [
+        {
+          "id": "q07748",
+          "pergunta": "No século dezenove, Louis Vuitton fez fama com baús de tampa plana, em vez das tampas arredondadas comuns na época. Qual era a vantagem?",
+          "resposta": "Podiam ser empilhados"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Nos Estados Unidos, o chapéu de caubói de copa bem alta ganhou um apelido exagerado: chapéu de quantos galões?",
+        "resposta": "Dez"
+      },
+      "existentes": [
+        {
+          "id": "q04081",
+          "pergunta": "Qual chapeleiro americano do século dezenove criou o chapéu de aba larga que se tornou o clássico chapéu de caubói?",
+          "resposta": "John B. Stetson"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "A numeração inglesa de calçados se baseia no grão de cevada, antiga medida de comprimento. Quantos desses grãos formam uma polegada?",
+        "resposta": "Três"
+      },
+      "existentes": [
+        {
+          "id": "q07730",
+          "pergunta": "Na numeração inglesa de calçados, a diferença entre um número e o seguinte equivale ao comprimento de qual grão?",
+          "resposta": "Grão de cevada"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Uma joia de ouro dezoito quilates tem que proporção de ouro puro em sua liga?",
+        "resposta": "Três quartos"
+      },
+      "existentes": [
+        {
+          "id": "q09451",
+          "pergunta": "Na joalheria, o ouro puro, sem mistura de outros metais, corresponde a quantos quilates?",
+          "resposta": "Vinte e quatro"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "O chapéu-coco foi encomendado a chapeleiros de Londres, em 1849, para proteger contra galhos baixos a cabeça de quem?",
+        "resposta": "Guarda-caças a cavalo"
+      },
+      "existentes": [
+        {
+          "id": "q01616",
+          "pergunta": "Este chapéu de feltro duro, de copa arredondada, foi criado em meados do século dezenove em que cidade?",
+          "resposta": "Londres"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "O engenheiro suíço George de Mestral teve a ideia do velcro ao voltar de um passeio e examinar o que grudara no pelo de seu cachorro. O quê?",
+        "resposta": "Carrapichos"
+      },
+      "existentes": [
+        {
+          "id": "q00882",
+          "pergunta": "O suíço George de Mestral teve a ideia do velcro depois de um passeio, ao examinar o que tinha grudado no pelo do seu cachorro. O que era?",
+          "resposta": "Carrapichos de bardana"
+        },
+        {
+          "id": "q00933",
+          "pergunta": "O nome velcro junta duas palavras francesas: velours, que significa veludo, e qual outra, que significa gancho?",
+          "resposta": "Crochet"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Depois do fracasso de qual revolta, em 1746, a Grã-Bretanha proibiu o uso do kilt e do tartan nas Terras Altas da Escócia?",
+        "resposta": "Levante jacobita"
+      },
+      "existentes": [
+        {
+          "id": "q01350",
+          "pergunta": "Esta peça de lã xadrez, de pregas atrás, é traje tradicional masculino de qual país?",
+          "resposta": "Escócia"
+        },
+        {
+          "id": "q14956",
+          "pergunta": "Que peça de vestuário é esta?",
+          "resposta": "Kilt (saia escocesa)"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Segundo uma antiga tradição, a aliança vai no anelar esquerdo porque uma veia ligaria esse dedo diretamente a qual órgão?",
+        "resposta": "Coração"
+      },
+      "existentes": [
+        {
+          "id": "q15709",
+          "pergunta": "Segundo uma crença antiga, a aliança vai no dedo anelar esquerdo porque dali sairia uma veia ligada direto a qual órgão?",
+          "resposta": "Coração"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Apesar do nome, em qual país é tradicionalmente fabricado o chapéu-panamá, trançado com a palha de uma palmeira local?",
+        "resposta": "Equador"
+      },
+      "existentes": [
+        {
+          "id": "q00908",
+          "pergunta": "Apesar do nome, o chapéu-panamá é tradicionalmente fabricado em qual país?",
+          "resposta": "Equador"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Em 1853, em plena corrida do ouro, Levi Strauss abriu a empresa que popularizou o jeans. Em qual cidade americana?",
+        "resposta": "São Francisco"
+      },
+      "existentes": [
+        {
+          "id": "q00927",
+          "pergunta": "A palavra jeans vem do nome em francês de qual cidade italiana, de onde saía um tecido resistente usado por marinheiros?",
+          "resposta": "Gênova"
+        },
+        {
+          "id": "q00928",
+          "pergunta": "Em 1873, o alfaiate Jacob Davis e qual comerciante patentearam a calça de trabalho reforçada com rebites de metal?",
+          "resposta": "Levi Strauss"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Depois da morte da mãe, em que lugar a menina Gabrielle Chanel passou a adolescência e aprendeu a costurar?",
+        "resposta": "Num orfanato de freiras"
+      },
+      "existentes": [
+        {
+          "id": "q00931",
+          "pergunta": "Antes da moda, Gabrielle Chanel ganhou o apelido Coco quando trabalhava em que ofício, na cidade francesa de Moulins?",
+          "resposta": "Cantora de cabaré"
+        },
+        {
+          "id": "q07749",
+          "pergunta": "Nos anos vinte, Coco Chanel ajudou a pôr na moda algo que antes era visto como marca de quem trabalhava ao ar livre. O quê?",
+          "resposta": "A pele bronzeada"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Karl Lagerfeld, que comandou a criação da Chanel por mais de trinta anos, nasceu em qual cidade alemã?",
+        "resposta": "Hamburgo"
+      },
+      "existentes": [
+        {
+          "id": "q07742",
+          "pergunta": "Num concurso de moda do Secretariado Internacional da Lã, nos anos cinquenta, Karl Lagerfeld venceu e fez amizade com outro vencedor, futuro estilista francês. Quem?",
+          "resposta": "Yves Saint Laurent"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Em 1904, qual joalheiro parisiense criou um relógio de pulso para que seu amigo Santos Dumont pudesse ver as horas enquanto pilotava?",
+        "resposta": "Louis Cartier"
+      },
+      "existentes": [
+        {
+          "id": "q00895",
+          "pergunta": "Em 1904, o joalheiro Louis Cartier criou um relógio de pulso para um amigo brasileiro ver as horas sem largar os comandos da aeronave. Quem era?",
+          "resposta": "Santos-Dumont"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Em 1840, qual monarca ajudou a popularizar o vestido de noiva branco ao se casar com um vestido de cetim branco e renda?",
+        "resposta": "Rainha Vitória"
+      },
+      "existentes": [
+        {
+          "id": "q00817",
+          "pergunta": "O vestido de noiva branco virou moda no Ocidente depois que qual rainha se casou de branco, em 1840?",
+          "resposta": "Rainha Vitória"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Os contos de Conan Doyle nunca usam a palavra deerstalker. Qual ilustrador da revista The Strand fixou a imagem de Sherlock Holmes com esse chapéu?",
+        "resposta": "Sidney Paget"
+      },
+      "existentes": [
+        {
+          "id": "q01355",
+          "pergunta": "Que tipo de chapéu xadrez, com abas nas orelhas, é este, famoso como símbolo dos detetives?",
+          "resposta": "Deerstalker (chapéu de caçador de veados)"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "No filme O Mágico de Oz, de 1939, os sapatinhos de rubi de Dorothy eram cobertos de quê?",
+        "resposta": "Lantejoulas vermelhas"
+      },
+      "existentes": [
+        {
+          "id": "q01058",
+          "pergunta": "No livro original, os sapatos mágicos de Dorothy são prateados. Por que viraram vermelhos no filme O Mágico de Oz, de 1939?",
+          "resposta": "Para aproveitar o Technicolor"
+        },
+        {
+          "id": "q07729",
+          "pergunta": "No livro O Mágico de Oz, de 1900, de que cor eram os sapatos mágicos de Dorothy, que ficaram vermelhos no filme de 1939?",
+          "resposta": "Prateados"
+        },
+        {
+          "id": "q09257",
+          "pergunta": "Para voltar para casa, no Kansas, quantas vezes Dorothy bate os calcanhares dos sapatinhos de rubi?",
+          "resposta": "Três"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "A saia rígida e horizontal do tutu clássico de balé é feita de várias camadas de qual tecido?",
+        "resposta": "Tule"
+      },
+      "existentes": [
+        {
+          "id": "q15158",
+          "pergunta": "Que traje de balé é este?",
+          "resposta": "Tutu"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Com a escassez de materiais depois da Segunda Guerra, a Gucci lançou em 1947 uma bolsa com alça de qual material, que virou clássico da grife?",
+        "resposta": "Bambu"
+      },
+      "existentes": [
+        {
+          "id": "q00952",
+          "pergunta": "Guccio Gucci se inspirou nas malas de luxo dos hóspedes ricos de qual hotel de Londres, onde trabalhou na juventude?",
+          "resposta": "Hotel Savoy"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "O modelo clássico de bota da Dr. Martens se chama 1460 por causa da data em que foi lançado. Que data é essa?",
+        "resposta": "1º de abril de 1960"
+      },
+      "existentes": [
+        {
+          "id": "q04091",
+          "pergunta": "O médico alemão Klaus Märtens inventou a sola acolchoada das botas Dr. Martens para aliviar qual problema que ele próprio tinha?",
+          "resposta": "Tornozelo machucado ao esquiar"
+        },
+        {
+          "id": "q07056",
+          "pergunta": "As botas Dr. Martens, símbolo do punk britânico, nasceram de uma sola acolchoada criada por um médico de qual país?",
+          "resposta": "Alemanha"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q00873",
+      "motivo": "Mesmo fato: testes nucleares dos EUA em Bikini em 1946."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q00874",
+      "motivo": "Mesma pergunta: mercenários croatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Origem do smoking (para fumar) difere do nome tuxedo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Stiletto vs. função do salto persa: fatos diferentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Origem do apelido sneaker, não identificação da imagem."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Origem do nome coturno, diferente de identificar a imagem."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Significado de pois, diferente de nome da estampa."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Quem era Chuck Taylor (jogador de basquete) é fato distinto; q01767 já dá 'jogador' mas pergunta o nome, e q07727 o esporte de criação."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Origem do nome vs. século da moda."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "País da cidade que dá nome ao fez, fato diferente."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Personagens associados ao chapéu-coco vs. cidade de criação."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Jacqueline Kennedy não é o objeto da existente."
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "id_existente": "q01351",
+      "motivo": "Ambas têm como resposta a cartola, identificação do mesmo chapéu."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Che Guevara e a boina vs. identificação visual; contexto diferente, mas resposta igual de uma imagem; na dúvida nova."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Smurfs e barrete frígio vs. identificação visual; na dúvida nova."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Fato sobre Michael Jackson, não identificação da luva."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Ator dos ternos vs. faculdade de Armani."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Imperatriz vestida vs. país natal de Worth."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Presidente fotografado vs. país de fabricação."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Número de ilhoses é fato distinto."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Viagem a pé até Paris vs. baús de tampa plana."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Apelido dez galões vs. criador do chapéu."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Grãos por polegada vs. grão que define a diferença de numeração."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Proporção do ouro 18k vs. quilates do ouro puro."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Para quem foi encomendado vs. cidade de criação."
+    },
+    {
+      "caso": 26,
+      "decisao": "repete",
+      "id_existente": "q00882",
+      "motivo": "Mesmo fato: o que grudou no pelo do cachorro."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Proibição do kilt após 1746 é fato diferente."
+    },
+    {
+      "caso": 28,
+      "decisao": "repete",
+      "id_existente": "q15709",
+      "motivo": "Mesma pergunta, mesma resposta."
+    },
+    {
+      "caso": 29,
+      "decisao": "repete",
+      "id_existente": "q00908",
+      "motivo": "Mesmo fato: país de fabricação do chapéu-panamá."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Cidade da empresa de Levi Strauss é fato distinto."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Adolescência no orfanato é fato diferente."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Cidade natal vs. concurso de moda."
+    },
+    {
+      "caso": 33,
+      "decisao": "repete",
+      "id_existente": "q00895",
+      "motivo": "Mesmo fato: relógio de Cartier para Santos Dumont; resposta e pergunta inversas."
+    },
+    {
+      "caso": 34,
+      "decisao": "repete",
+      "id_existente": "q00817",
+      "motivo": "Mesmo fato: Rainha Vitória e vestido branco em 1840."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Ilustrador Sidney Paget vs. identificação do chapéu."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Material dos sapatos é fato diferente."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Tecido do tutu vs. identificação."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Bolsa de bambu vs. hotel Savoy."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Data de lançamento do modelo é fato distinto."
+    }
+  ]
+}
