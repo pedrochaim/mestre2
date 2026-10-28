@@ -1,0 +1,246 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Pessoa comum aparece em primeiro plano segurando o peixe."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Concha única em cinco vistas, fundo preto, sem texto; reconhecível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "O molusco que vive nesta concha, comum em pradarias de capim-marinho do Caribe, se alimenta principalmente de quê?",
+      "resposta": "Algas e plantas marinhas",
+      "distratores": [
+        "Pequenos peixes",
+        "Corais vivos",
+        "Esponjas do fundo"
+      ],
+      "ancora": {
+        "nome": "Búzio-rainha",
+        "descricao": "Grande caramujo marinho do Caribe (Aliger gigas), da família Strombidae.",
+        "variantes": [
+          "Concha-rainha",
+          "Aliger gigas",
+          "Lobatus gigas",
+          "Strombus gigas",
+          "Queen conch"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Colônia bioluminescente nítida sobre fundo escuro, forma inconfundível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que organismo marinho, formado por uma colônia de pequenos indivíduos, é este?",
+      "resposta": "Pirossomo",
+      "distratores": [
+        "Salpa",
+        "Água-viva",
+        "Lesma-do-mar"
+      ],
+      "ancora": {
+        "nome": "Pirossomo",
+        "descricao": "Tunicado colonial flutuante e bioluminescente da família Pyrosomatidae.",
+        "variantes": [
+          "Pyrosoma",
+          "Pirossoma",
+          "Pyrosome"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Imagem pequena, borrada e de baixa resolução; o robalo não é distinguível de outros peixes alongados num celular."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto aérea clara de narval com a presa visível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cetáceo do Ártico é este?",
+      "resposta": "Narval",
+      "distratores": [
+        "Beluga",
+        "Cachalote",
+        "Baleia-franca"
+      ],
+      "ancora": {
+        "nome": "Narval",
+        "descricao": "Cetáceo dentado do Ártico (Monodon monoceros), cujos machos têm uma longa presa espiralada.",
+        "variantes": [
+          "Monodon monoceros",
+          "Baleia-unicórnio"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Crinoide de braços plumosos bem nítido; a imagem mostra um crinoide sem haste, então a âncora é o grupo Crinoidea.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este animal marinho de braços plumosos é parente próximo de qual destes?",
+      "resposta": "Estrela-do-mar",
+      "distratores": [
+        "Coral-mole",
+        "Anêmona-do-mar",
+        "Esponja-do-mar"
+      ],
+      "ancora": {
+        "nome": "Crinoide",
+        "descricao": "Equinodermo marinho da classe Crinoidea, de braços plumosos, que inclui lírios-do-mar e estrelas-pluma.",
+        "variantes": [
+          "Crinoidea",
+          "Estrela-pluma",
+          "Lírio-do-mar",
+          "Comatulídeo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Golfinho-comum não é distinguível de outros golfinhos pela foto; resposta específica não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida, colorido e mancha da coroa visíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peixe de recife do Atlântico, de cores azul e amarela, é este?",
+      "resposta": "Peixe-anjo-rainha",
+      "distratores": [
+        "Peixe-anjo-francês",
+        "Peixe-borboleta-listrado",
+        "Peixe-cirurgião-azul"
+      ],
+      "ancora": {
+        "nome": "Peixe-anjo-rainha",
+        "descricao": "Peixe-anjo de recifes do Atlântico ocidental (Holacanthus ciliaris), azul e amarelo, com uma mancha em forma de coroa na testa.",
+        "variantes": [
+          "Holacanthus ciliaris",
+          "Queen angelfish",
+          "Peixe-anjo-azul"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Espécime nítido com pinças peludas inconfundíveis; a escala de 5 cm não revela a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que crustáceo de águas profundas, de pinças cobertas por pelos, é este?",
+      "resposta": "Caranguejo-yeti",
+      "distratores": [
+        "Caranguejo-eremita",
+        "Caranguejo-aranha-gigante",
+        "Lagosta-espinhosa"
+      ],
+      "ancora": {
+        "nome": "Caranguejo-yeti",
+        "descricao": "Crustáceo de águas profundas do Pacífico Sul (Kiwa hirsuta), com pinças cobertas de cerdas semelhantes a pelos.",
+        "variantes": [
+          "Kiwa hirsuta",
+          "Lagosta-yeti",
+          "Yeti crab"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de urso-polar, inconfundível.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Apesar de andar sobre o gelo, este animal é considerado que tipo de mamífero?",
+      "resposta": "Mamífero marinho",
+      "distratores": [
+        "Mamífero voador",
+        "Mamífero insetívoro",
+        "Mamífero marsupial"
+      ],
+      "ancora": {
+        "nome": "Urso-polar",
+        "descricao": "Grande urso do Ártico (Ursus maritimus), de pelagem branca, considerado mamífero marinho.",
+        "variantes": [
+          "Ursus maritimus",
+          "Urso-branco",
+          "Polar bear"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Tubarão com pontas brancas e peixes-piloto nítidos; a pergunta aponta para os peixes que o acompanham.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que peixes listrados nadam junto a este tubarão, aproveitando a sua proteção?",
+      "resposta": "Peixes-piloto",
+      "distratores": [
+        "Sargentinhos",
+        "Peixes-palhaço",
+        "Peixes-borboleta"
+      ],
+      "ancora": {
+        "nome": "Tubarão-galha-branca-oceânico",
+        "descricao": "Grande tubarão pelágico de águas tropicais (Carcharhinus longimanus), de nadadeiras arredondadas com pontas brancas.",
+        "variantes": [
+          "Carcharhinus longimanus",
+          "Oceanic whitetip shark",
+          "Tubarão-de-pontas-brancas-oceânico"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida e colorida da moreia-fita, forma característica.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que grupo de peixes alongados faz parte este animal de recife?",
+      "resposta": "Moreias",
+      "distratores": [
+        "Peixes-agulha",
+        "Peixes-cachimbo",
+        "Peixes-trombeta"
+      ],
+      "ancora": {
+        "nome": "Moreia-fita",
+        "descricao": "Moreia do Indo-Pacífico (Rhinomuraena quaesita), de corpo fino e azul com focinho amarelo e narinas em forma de folha.",
+        "variantes": [
+          "Rhinomuraena quaesita",
+          "Enguia-fita",
+          "Ribbon eel"
+        ]
+      }
+    }
+  ]
+}

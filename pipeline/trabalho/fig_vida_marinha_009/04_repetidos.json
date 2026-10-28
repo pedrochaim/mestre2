@@ -1,0 +1,78 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que cetáceo do Ártico é este?",
+        "resposta": "Narval"
+      },
+      "existentes": [
+        {
+          "id": "q00284",
+          "pergunta": "O que parece um chifre em espiral na cabeça do narval é, na verdade, qual parte do corpo?",
+          "resposta": "Um dente"
+        },
+        {
+          "id": "q02532",
+          "pergunta": "O nome narval vem do nórdico antigo e alude à pele acinzentada e manchada do animal. Com o que esse nome o compara?",
+          "resposta": "Cadáver"
+        },
+        {
+          "id": "q05673",
+          "pergunta": "Na Europa medieval, as presas em espiral do narval eram muito procuradas por se acreditar que fossem chifres de que animal lendário?",
+          "resposta": "Unicórnio"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que crustáceo de águas profundas é este?",
+        "resposta": "Caranguejo-yeti"
+      },
+      "existentes": [
+        {
+          "id": "q04823",
+          "pergunta": "Descoberto em 2005 perto de fontes hidrotermais do Pacífico, um crustáceo de garras cobertas de pelos claros ganhou o apelido de que criatura lendária do Himalaia?",
+          "resposta": "Yeti"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Apesar de andar sobre o gelo, este animal é considerado que tipo de mamífero?",
+        "resposta": "Mamífero marinho"
+      },
+      "existentes": [
+        {
+          "id": "q00264",
+          "pergunta": "Por baixo do pelo que parece branco, qual é a cor da pele do urso-polar?",
+          "resposta": "Preta"
+        },
+        {
+          "id": "q02861",
+          "pergunta": "Por que, na natureza, ursos-polares nunca caçam pinguins?",
+          "resposta": "Vivem em polos opostos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do animal (narval); as existentes perguntam sobre dente, origem do nome e lenda do unicórnio, fatos distintos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome do crustáceo (caranguejo-yeti); a existente pergunta qual criatura lendária deu o apelido, resposta Yeti. Fatos diferentes, embora relacionados."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Classificação como mamífero marinho é um fato diferente da cor da pele ou da ausência de caça a pinguins."
+    }
+  ]
+}

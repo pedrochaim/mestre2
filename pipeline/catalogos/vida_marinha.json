@@ -117,7 +117,7 @@
       "titulo": "en:Narwhal",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Tubarão-baleia",
@@ -565,7 +565,7 @@
       "titulo": "en:Polar bear",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Pinguim-imperador",
@@ -712,7 +712,7 @@
       "titulo": "en:Queen conch",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Lagosta-sapateira",
@@ -796,7 +796,7 @@
       "titulo": "en:Crinoid",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Lebre-do-mar",
@@ -836,6 +836,286 @@
     {
       "nome": "Peixe-trombeta",
       "titulo": "en:Aulostomus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Craca",
+      "titulo": "en:Barnacle",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Foca-harpa",
+      "titulo": "en:Harp seal",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Papagaio-do-mar",
+      "titulo": "en:Atlantic puffin",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Peixe-agulha",
+      "titulo": "en:Needlefish",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Tubarão-azul",
+      "titulo": "en:Blue shark",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tubarão-cabeça-chata",
+      "titulo": "en:Bull shark",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tartaruga-oliva",
+      "titulo": "en:Olive ridley sea turtle",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cavala",
+      "titulo": "en:Atlantic mackerel",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Robalo",
+      "titulo": "en:Common snook",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Fragata",
+      "titulo": "en:Magnificent frigatebird",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Golfinho-comum",
+      "titulo": "en:Common dolphin",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Tubarão-lambaru",
+      "titulo": "en:Nurse shark",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Baleia-minke",
+      "titulo": "en:Common minke whale",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Baleia-da-groenlândia",
+      "titulo": "en:Bowhead whale",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Baleia-piloto",
+      "titulo": "en:Long-finned pilot whale",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Golfinho-de-commerson",
+      "titulo": "en:Commerson's dolphin",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pinguim-africano",
+      "titulo": "en:African penguin",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pinguim-saltador-da-rocha",
+      "titulo": "en:Rockhopper penguin",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cirurgião-amarelo",
+      "titulo": "en:Yellow tang",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Peixe-anjo-rainha",
+      "titulo": "en:Queen angelfish",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Sargentinho",
+      "titulo": "en:Sergeant major (fish)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tubarão-galha-branca-oceânico",
+      "titulo": "en:Oceanic whitetip shark",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Estrela-coroa-de-espinhos",
+      "titulo": "en:Crown-of-thorns starfish",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Leque-do-mar",
+      "titulo": "en:Gorgonia ventalina",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Serpente-marinha-listrada",
+      "titulo": "en:Yellow-lipped sea krait",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Golfinho-de-risso",
+      "titulo": "en:Risso's dolphin",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Falsa-orca",
+      "titulo": "en:False killer whale",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Baleia-bicuda-de-cuvier",
+      "titulo": "en:Cuvier's beaked whale",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Peixe-picasso",
+      "titulo": "en:Lagoon triggerfish",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tubarão-boca-grande",
+      "titulo": "en:Megamouth shark",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Quimera",
+      "titulo": "en:Chimaera",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Moreia-fita",
+      "titulo": "en:Ribbon eel",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Choco-flamejante",
+      "titulo": "en:Flamboyant cuttlefish",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Camarão-arlequim",
+      "titulo": "en:Harlequin shrimp",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caranguejo-yeti",
+      "titulo": "en:Kiwa hirsuta",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Verme-tubular-gigante",
+      "titulo": "en:Riftia pachyptila",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Verme-árvore-de-natal",
+      "titulo": "en:Spirobranchus giganteus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pirossomo",
+      "titulo": "en:Pyrosome",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Ctenóforo",
+      "titulo": "en:Ctenophora",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Água-viva-ovo-frito",
+      "titulo": "en:Cotylorhiza tuberculata",
       "camada": 3,
       "destino": 0,
       "status": "nova"

@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A pista 'pradarias de capim-marinho' aponta para uma dieta vegetal e deixa a pergunta respondível sem a figura. A dieta herbívora (algas, capim-marinho e detritos) é bem documentada, embora não conste nos trechos. Reescrita sem a pista.",
+      "reescrita": {
+        "pergunta": "O molusco que vive nesta concha caribenha se alimenta principalmente de quê?",
+        "resposta": "Algas e plantas marinhas",
+        "distratores": [
+          "Pequenos peixes",
+          "Corais vivos",
+          "Esponjas do fundo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista da colônia ajuda sem entregar o nome. Os distratores são plausíveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta de reconhecimento é direta e a pista 'cetáceo do Ártico' não entrega o nome. Os distratores são cetáceos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que os crinoides são equinodermos, como as estrelas-do-mar. Os distratores são de outros filos. O enunciado não nomeia o animal.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma as cores azul e amarela e o Atlântico ocidental. Os distratores são peixes de recife parecidos, e a figura decide.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pinças cobertas por pelos' descreve a resposta e responde à pergunta sem a figura. Reescrita sem essa pista.",
+      "reescrita": {
+        "pergunta": "Que crustáceo de águas profundas é este?",
+        "resposta": "Caranguejo-yeti",
+        "distratores": [
+          "Caranguejo-eremita",
+          "Caranguejo-aranha-gigante",
+          "Lagosta-espinhosa"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português diz que o urso-polar é frequentemente considerado mamífero marinho. Essa classificação é amplamente documentada. Os distratores são claramente errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "'Peixes listrados que acompanham tubarão em busca de proteção' leva ao peixe-piloto sem olhar a figura, que vira enfeite. O fato não está nos trechos, e rêmoras e outros peixes também acompanham tubarões. Não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a moreia-fita é uma moreia da família Muraenidae. A pista 'alongados' não entrega o grupo. Os distratores são peixes alongados que não são moreias.",
+      "reescrita": null
+    }
+  ]
+}
