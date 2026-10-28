@@ -1,0 +1,613 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bolinha de gude",
+        "descricao": "Pequena esfera de vidro, argila ou aço usada em jogos e brincadeiras infantis.",
+        "variantes": [
+          "Bola de gude",
+          "Berlinde",
+          "Gude",
+          "Marble"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bolinha_de_gude",
+          "nome": "Bolinha de gude",
+          "descricao": "Pequena esfera de vidro usada em jogos infantis.",
+          "variantes": [
+            "Bola de gude",
+            "Berlinde",
+            "Bolita",
+            "Búlica"
+          ]
+        },
+        {
+          "id": "berlim",
+          "nome": "Berlim",
+          "descricao": "Capital da Alemanha, vista com a torre de TV, o Reichstag e o Portão de Brandemburgo.",
+          "variantes": [
+            "Berlin"
+          ]
+        },
+        {
+          "id": "bola_de_golfe",
+          "nome": "Bola de golfe",
+          "descricao": "Pequena bola com covinhas na superfície usada no golfe.",
+          "variantes": [
+            "Golf ball"
+          ]
+        },
+        {
+          "id": "mare",
+          "nome": "Maré",
+          "descricao": "Subida e descida periódica do nível do mar ao longo do dia.",
+          "variantes": [
+            "Marés"
+          ]
+        },
+        {
+          "id": "berna",
+          "nome": "Berna",
+          "descricao": "Cidade suíça que funciona como sede do governo federal da Suíça.",
+          "variantes": [
+            "Bern",
+            "Berne"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Crokinole",
+        "descricao": "Jogo de habilidade em tabuleiro circular no qual se disparam discos com o dedo, de provável origem canadense.",
+        "variantes": [
+          "Crokinole board"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "crokinole",
+          "nome": "Crokinole",
+          "descricao": "Jogo de destreza em tabuleiro circular de madeira com furo central, em que se lançam discos com o dedo.",
+          "variantes": []
+        },
+        {
+          "id": "crinolina",
+          "nome": "Crinolina",
+          "descricao": "Armação rígida de aros usada sob as saias para deixá-las amplas e rodadas",
+          "variantes": [
+            "Crinoline",
+            "Saia-balão"
+          ]
+        },
+        {
+          "id": "crinoide",
+          "nome": "Crinoide",
+          "descricao": "Equinodermo marinho da classe Crinoidea, de braços plumosos, que inclui lírios-do-mar e estrelas-pluma.",
+          "variantes": [
+            "Lírio-do-mar",
+            "Crinoidea",
+            "Estrela-pluma",
+            "Comatulídeo"
+          ]
+        },
+        {
+          "id": "cookie_com_gotas_de_chocolate",
+          "nome": "Cookie com gotas de chocolate",
+          "descricao": "Biscoito americano com pedaços de chocolate, criado nos anos 1930 no restaurante Toll House, em Massachusetts.",
+          "variantes": [
+            "Chocolate chip cookie",
+            "Toll House cookie",
+            "Cookie"
+          ]
+        },
+        {
+          "id": "kitesurfe",
+          "nome": "Kitesurfe",
+          "descricao": "Esporte em que o praticante é puxado sobre a água por uma grande pipa de tração, de pé numa prancha.",
+          "variantes": [
+            "Kiteboarding",
+            "Kitesurf",
+            "Kiteboard"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Jogo da forca",
+        "descricao": "Jogo de adivinhação de palavras, letra por letra, em que cada erro completa o desenho de um enforcado.",
+        "variantes": [
+          "Forca",
+          "Hangman"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "orca",
+          "nome": "Orca",
+          "descricao": "Cetáceo dentado preto e branco, o maior membro da família dos golfinhos oceânicos (Orcinus orca).",
+          "variantes": [
+            "Baleia-assassina",
+            "Orcinus orca",
+            "Killer whale"
+          ]
+        },
+        {
+          "id": "foca",
+          "nome": "Foca",
+          "descricao": "Mamífero marinho pinípede da família Phocidae, sem orelhas externas; na imagem, um filhote de pelagem branca.",
+          "variantes": [
+            "Focas",
+            "Foca verdadeira"
+          ]
+        },
+        {
+          "id": "jogo_da_onca",
+          "nome": "Jogo da onça",
+          "descricao": "Jogo de tabuleiro de origem indígena brasileira em que uma onça enfrenta um grupo de cachorros que tenta encurralá-la.",
+          "variantes": [
+            "Adugo"
+          ]
+        },
+        {
+          "id": "chang_an",
+          "nome": "Chang'an",
+          "descricao": "Antiga capital chinesa das dinastias Han e Tang, extremo oriental da Rota da Seda, onde hoje fica Xian.",
+          "variantes": [
+            "Changan"
+          ]
+        },
+        {
+          "id": "hanuman",
+          "nome": "Hanuman",
+          "descricao": "Divindade hindu, devoto e aliado de Rama no épico Ramayana",
+          "variantes": [
+            "Hanumã"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pachinko",
+        "descricao": "Máquina de jogo mecânica de origem japonesa, com bolinhas de aço, usada em fliperamas e apostas.",
+        "variantes": [
+          "Pachinko machine",
+          "パチンコ"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estatua_de_hachiko",
+          "nome": "Estátua de Hachiko",
+          "descricao": "Estátua de bronze do cão akita Hachiko, diante da estação de Shibuya, em Tóquio.",
+          "variantes": [
+            "Hachikō",
+            "Hachiko"
+          ]
+        },
+        {
+          "id": "maquina_oculta",
+          "nome": "Máquina Oculta",
+          "descricao": "Item dos jogos Pokémon que ensinava golpes usados também fora das batalhas, como Surf e Força, para abrir caminho pelo mapa.",
+          "variantes": [
+            "MO",
+            "HM",
+            "Hidden Machine"
+          ]
+        },
+        {
+          "id": "cappuccino",
+          "nome": "Cappuccino",
+          "descricao": "Bebida italiana de café espresso com leite vaporizado e espuma de leite",
+          "variantes": [
+            "Capuccino",
+            "Capuchino"
+          ]
+        },
+        {
+          "id": "al_pacino",
+          "nome": "Al Pacino",
+          "descricao": "Ator norte-americano de O Poderoso Chefão e Scarface.",
+          "variantes": [
+            "Alfredo James Pacino"
+          ]
+        },
+        {
+          "id": "pachisi",
+          "nome": "Pachisi",
+          "descricao": "Jogo de tabuleiro tradicional da Índia, em forma de cruz, ancestral do ludo.",
+          "variantes": [
+            "Parchís",
+            "Chaupar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Tarô Visconti-Sforza",
+        "descricao": "Conjunto de baralhos de tarô italianos do século quinze, encomendados pelos duques de Milão Visconti e Sforza.",
+        "variantes": [
+          "Baralhos Visconti-Sforza",
+          "Visconti–Sforza Tarot"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lago_vitoria",
+          "nome": "Lago Vitória",
+          "descricao": "Maior lago da África, dividido entre Uganda, Quênia e Tanzânia.",
+          "variantes": [
+            "Lake Victoria",
+            "Lago Victoria",
+            "Nyanza"
+          ]
+        },
+        {
+          "id": "batalhas_do_isonzo",
+          "nome": "Batalhas do Isonzo",
+          "descricao": "Série de batalhas travadas entre a Itália e a Áustria-Hungria junto ao rio Isonzo, de 1915 a 1917.",
+          "variantes": [
+            "Battles of the Isonzo",
+            "Batalhas do Soča"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Palavras cruzadas",
+        "descricao": "Passatempo de grade com casas brancas e pretas em que se preenchem palavras cruzadas a partir de dicas.",
+        "variantes": [
+          "Cruzadinha",
+          "Crossword"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "scrabble",
+          "nome": "Scrabble",
+          "descricao": "Jogo de tabuleiro de formar palavras com peças de letras, criado pelo arquiteto americano Alfred Butts.",
+          "variantes": [
+            "Palavras Cruzadas"
+          ]
+        },
+        {
+          "id": "dama_xadrez",
+          "nome": "Dama (xadrez)",
+          "descricao": "Peça mais poderosa do xadrez, que se move em linha reta e na diagonal por quantas casas quiser, também chamada rainha.",
+          "variantes": [
+            "Rainha (xadrez)",
+            "Queen",
+            "Rainha"
+          ]
+        },
+        {
+          "id": "abelha_rainha",
+          "nome": "Abelha-rainha",
+          "descricao": "Fêmea fértil e reprodutora de uma colônia de abelhas-europeias.",
+          "variantes": [
+            "Rainha",
+            "Queen bee"
+          ]
+        },
+        {
+          "id": "dama_carta_de_baralho",
+          "nome": "Dama (carta de baralho)",
+          "descricao": "Carta de baralho francês com figura de rainha, entre o rei e o valete.",
+          "variantes": [
+            "Rainha",
+            "Queen",
+            "Q"
+          ]
+        },
+        {
+          "id": "tesourinha",
+          "nome": "Tesourinha",
+          "descricao": "Inseto da ordem Dermaptera, com pinças no fim do abdômen.",
+          "variantes": [
+            "Lacrainha",
+            "Dermáptero",
+            "Earwig"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Relógio de xadrez",
+        "descricao": "Aparelho com dois relógios e botões alternados que controla o tempo de cada jogador em partidas.",
+        "variantes": [
+          "Relógio de jogo",
+          "Chess clock"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ampulheta",
+          "nome": "Ampulheta",
+          "descricao": "Instrumento de medir o tempo com dois bulbos de vidro ligados por um gargalo estreito, por onde escorre areia.",
+          "variantes": [
+            "Relógio de areia",
+            "Hourglass"
+          ]
+        },
+        {
+          "id": "relogio_de_bolso",
+          "nome": "Relógio de bolso",
+          "descricao": "Relógio portátil com corrente, carregado no bolso em vez de usado no pulso.",
+          "variantes": [
+            "Relógio de pulso",
+            "Relógio de algibeira"
+          ]
+        },
+        {
+          "id": "relogio_de_sol",
+          "nome": "Relógio de sol",
+          "descricao": "Instrumento com um gnômon que projeta sombra sobre um mostrador marcado com horas.",
+          "variantes": [
+            "Quadrante solar"
+          ]
+        },
+        {
+          "id": "johto",
+          "nome": "Johto",
+          "descricao": "Região fictícia dos jogos Pokémon Gold e Silver, da segunda geração, vizinha de Kanto.",
+          "variantes": [
+            "Região de Johto"
+          ]
+        },
+        {
+          "id": "clepsidra",
+          "nome": "Clepsidra",
+          "descricao": "Relógio de água usado na Grécia Antiga, entre outras funções, para marcar o tempo dos discursos nos tribunais de Atenas.",
+          "variantes": [
+            "Relógio de água",
+            "Clepsydra",
+            "Water clock"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Pyraminx",
+        "descricao": "Quebra-cabeça em forma de tetraedro regular, no estilo do Cubo de Rubik, criado por Uwe Mèffert.",
+        "variantes": [
+          "Pirâmide mágica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piramides_de_gize",
+          "nome": "Pirâmides de Gizé",
+          "descricao": "Conjunto de três grandes pirâmides do Egito Antigo no planalto de Gizé, perto do Cairo.",
+          "variantes": [
+            "Complexo de Gizé",
+            "Giza pyramid complex",
+            "Pirâmides de Giza"
+          ]
+        },
+        {
+          "id": "piramide_curvada",
+          "nome": "Pirâmide Curvada",
+          "descricao": "Pirâmide do faraó Seneferu, da IV dinastia, na necrópole de Dahshur, com a inclinação alterada na parte alta.",
+          "variantes": [
+            "Pirâmide Romboidal",
+            "Pirâmide Inclinada",
+            "Bent Pyramid"
+          ]
+        },
+        {
+          "id": "panoramix",
+          "nome": "Panoramix",
+          "descricao": "Druida da aldeia gaulesa dos quadrinhos de Asterix, criador da poção mágica.",
+          "variantes": [
+            "Getafix",
+            "Magigamix"
+          ]
+        },
+        {
+          "id": "tetraedro",
+          "nome": "Tetraedro",
+          "descricao": "Poliedro de quatro faces triangulares, seis arestas e quatro vértices.",
+          "variantes": [
+            "Pirâmide triangular"
+          ]
+        },
+        {
+          "id": "textos_das_piramides",
+          "nome": "Textos das Pirâmides",
+          "descricao": "Conjunto de fórmulas religiosas gravadas nas paredes internas de pirâmides do fim do Antigo Império para garantir a vida eterna do rei",
+          "variantes": [
+            "Pyramid Texts"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Damas chinesas",
+        "descricao": "Jogo de tabuleiro em forma de estrela de seis pontas, de origem alemã, em que se levam as peças ao canto oposto.",
+        "variantes": [
+          "Chinese checkers",
+          "Sternhalma"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "damas_chinesas",
+          "nome": "Damas chinesas",
+          "descricao": "Jogo de tabuleiro estratégico em forma de estrela de seis pontas, variação do Halma, de origem alemã.",
+          "variantes": [
+            "Chinese checkers",
+            "Sternhalma"
+          ]
+        },
+        {
+          "id": "damas_inglesas",
+          "nome": "Damas inglesas",
+          "descricao": "Variante do jogo de damas jogada em tabuleiro de oito por oito, em que a dama anda uma casa por vez, resolvida por computador em 2007.",
+          "variantes": [
+            "Checkers",
+            "English draughts"
+          ]
+        },
+        {
+          "id": "dragao_chines",
+          "nome": "Dragão chinês",
+          "descricao": "Criatura lendária da mitologia chinesa, serpentina com quatro patas, símbolo de poder e controle das águas.",
+          "variantes": [
+            "Long",
+            "Loong"
+          ]
+        },
+        {
+          "id": "saturnalia_tupiniquim",
+          "nome": "Saturnalia tupiniquim",
+          "descricao": "Dinossauro primitivo do Triássico encontrado no Rio Grande do Sul e descrito em 1999.",
+          "variantes": [
+            "Saturnalia"
+          ]
+        },
+        {
+          "id": "saturnalia",
+          "nome": "Saturnália",
+          "descricao": "Festa romana em honra do deus Saturno, com banquetes, presentes e inversão de papéis entre senhores e escravos.",
+          "variantes": [
+            "Saturnais"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Alquerque",
+        "descricao": "Jogo de tabuleiro antigo de capturas, de provável origem no Oriente Médio, considerado ancestral das damas.",
+        "variantes": [
+          "Al-qirkat",
+          "Alquerque de doze"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cairo",
+          "nome": "Cairo",
+          "descricao": "Capital do Egito, às margens do rio Nilo, fundada no século dez pela dinastia fatímida.",
+          "variantes": [
+            "O Cairo",
+            "Al-Qahira"
+          ]
+        },
+        {
+          "id": "reco_reco",
+          "nome": "Reco-reco",
+          "descricao": "Instrumento de percussão raspado, de origem africana, usado na música brasileira, aqui no modelo de molas metálicas.",
+          "variantes": [
+            "Raspador",
+            "Caracaxá",
+            "Querequexé"
+          ]
+        },
+        {
+          "id": "quero_quero",
+          "nome": "Quero-quero",
+          "descricao": "Vanellus chilensis, ave pernalta comum na América do Sul, de olhos vermelhos e pernas vermelhas.",
+          "variantes": [
+            "Southern lapwing",
+            "Tero",
+            "Vanellus chilensis"
+          ]
+        },
+        {
+          "id": "leque",
+          "nome": "Leque",
+          "descricao": "Objeto de mão, plano e largo, agitado para criar fluxo de ar e refrescar.",
+          "variantes": [
+            "Abano",
+            "Leque de mão"
+          ]
+        },
+        {
+          "id": "al_baqara",
+          "nome": "Al-Baqara",
+          "descricao": "Segunda sura do Alcorão, cujo nome significa A Vaca",
+          "variantes": [
+            "Al-Baqarah",
+            "Surata da Vaca",
+            "A Vaca"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "bolinha_de_gude",
+      "motivo": "Mesma entidade: bolinha de gude, mesmas variantes e descrição."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "crokinole",
+      "motivo": "Mesmo jogo Crokinole."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Jogo da forca não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pachinko é diferente de Pachisi e das demais candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o tarô Visconti-Sforza."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Palavras cruzadas (passatempo de grade) difere do Scrabble, jogo de tabuleiro, apesar do nome em variante."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Relógio de xadrez não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Pyraminx é um quebra-cabeça, distinto do tetraedro e das pirâmides."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "damas_chinesas",
+      "motivo": "Mesmo jogo, mesmas variantes e descrição."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Alquerque não está entre as candidatas."
+    }
+  ]
+}

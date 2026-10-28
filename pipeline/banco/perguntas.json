@@ -319615,5 +319615,205 @@
       "autor": "Carsten Steger",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q16601",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "jogo_da_forca",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que jogo de papel e lápis é este?",
+    "resposta": "Jogo da forca",
+    "distratores": [
+      "Adedonha",
+      "Jogo da velha",
+      "Batalha naval"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hangman_%28game%29",
+      "https://pt.wikipedia.org/wiki/Jogo_da_forca"
+    ],
+    "imagem": {
+      "arquivo": "q16601.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hangman_game.jpg",
+      "autor": "McGeddon",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q16602",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "pachinko",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "De que país vem esta máquina de jogo?",
+    "resposta": "Japão",
+    "distratores": [
+      "China",
+      "Coreia do Sul",
+      "Taiwan"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pachinko",
+      "https://pt.wikipedia.org/wiki/Pachinko"
+    ],
+    "imagem": {
+      "arquivo": "q16602.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:1970's_pachinko_machine_(3714670178).jpg",
+      "autor": "Gilgongo",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q16603",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "taro_visconti_sforza",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "De que tarô renascentista é esta carta?",
+    "resposta": "Tarô Visconti-Sforza",
+    "distratores": [
+      "Tarô de Marselha",
+      "Tarô Rider-Waite",
+      "Tarô Thoth"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Visconti%E2%80%93Sforza_Tarot",
+      "https://pt.wikipedia.org/wiki/Baralhos_Visconti-Sforza"
+    ],
+    "imagem": {
+      "arquivo": "q16603.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Die_Hoffnung,_Karte_aus_dem_Cary-Yale-Tarocchi.jpg",
+      "autor": "Bembo, Bonifacio, c. 1445.",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q16604",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "palavras_cruzadas",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que jornal americano popularizou este passatempo na década de 1910?",
+    "resposta": "New York World",
+    "distratores": [
+      "Chicago Tribune",
+      "Washington Post",
+      "Boston Globe"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crossword",
+      "https://pt.wikipedia.org/wiki/Palavras_cruzadas"
+    ],
+    "imagem": {
+      "arquivo": "q16604.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:American_crossword.png",
+      "autor": "User:MeekMark",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q16605",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "relogio_de_xadrez",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade foi o torneio de 1883 em que este aparelho foi usado pela primeira vez?",
+    "resposta": "Londres",
+    "distratores": [
+      "Paris",
+      "Viena",
+      "Nova York"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chess_clock",
+      "https://pt.wikipedia.org/wiki/Rel%C3%B3gio_de_xadrez"
+    ],
+    "imagem": {
+      "arquivo": "q16605.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:SchachuhrLudwigsburg.jpg",
+      "autor": "Mussklprozz",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q16606",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "pyraminx",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este quebra-cabeça em forma de pirâmide foi feito no estilo de qual brinquedo húngaro?",
+    "resposta": "Cubo de Rubik",
+    "distratores": [
+      "Torre de Hanói",
+      "Cubo Soma",
+      "Tangram"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pyraminx",
+      "https://pt.wikipedia.org/wiki/Pyraminx"
+    ],
+    "imagem": {
+      "arquivo": "q16606.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pyraminx_turn_cubemeister_com.jpg",
+      "autor": "cubemeister.com",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q16607",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "damas_chinesas",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "De que país é a origem deste jogo?",
+    "resposta": "Alemanha",
+    "distratores": [
+      "China",
+      "Japão",
+      "Índia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chinese_checkers",
+      "https://pt.wikipedia.org/wiki/Damas_chinesas"
+    ],
+    "imagem": {
+      "arquivo": "q16607.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Halma-Spielfeld.jpg",
+      "autor": "The original uploader was Splattne at German Wikipedia.",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q16608",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "alquerque",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "De que região do mundo se acredita que este jogo se originou?",
+    "resposta": "Oriente Médio",
+    "distratores": [
+      "Extremo Oriente",
+      "África Subsaariana",
+      "Escandinávia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alquerque",
+      "https://pt.wikipedia.org/wiki/Alquerque"
+    ],
+    "imagem": {
+      "arquivo": "q16608.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Alquerque_in_Libro_de_los_juegos.jpg",
+      "autor": "Alfonso X of Castile and Leon",
+      "licenca": "Public domain"
+    }
   }
 ]

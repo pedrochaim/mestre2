@@ -1,0 +1,273 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de bolinhas de gude, sem texto. Onde não rende pergunta boa; usei o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que objetos são estes?",
+      "resposta": "Bolinhas de gude",
+      "distratores": [
+        "Contas de colar",
+        "Bolas de bilhar",
+        "Pedras de gamão"
+      ],
+      "ancora": {
+        "nome": "Bolinha de gude",
+        "descricao": "Pequena esfera de vidro, argila ou aço usada em jogos e brincadeiras infantis.",
+        "variantes": [
+          "Bola de gude",
+          "Berlinde",
+          "Gude",
+          "Marble"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ilustração limpa de oito tabuleiros empilhados, típica de xadrez tridimensional; as letras gregas não entregam a resposta. Onde não se aplica, usei o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que variante do xadrez é esta, com tabuleiros empilhados?",
+      "resposta": "Xadrez tridimensional",
+      "distratores": [
+        "Xadrez de Fischer",
+        "Xadrez relâmpago",
+        "Xadrez chinês"
+      ],
+      "ancora": {
+        "nome": "Xadrez tridimensional",
+        "descricao": "Família de variantes do xadrez jogadas em vários tabuleiros empilhados.",
+        "variantes": [
+          "Xadrez 3D",
+          "Three-dimensional chess"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto clara do tabuleiro circular com pinos e discos. O texto ao fundo (Labyrinth, Blokus) não entrega a resposta. Origem é incerta, então usei o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que jogo de lançar discos com o dedo é este?",
+      "resposta": "Crokinole",
+      "distratores": [
+        "Carrom",
+        "Shuffleboard",
+        "Pinball"
+      ],
+      "ancora": {
+        "nome": "Crokinole",
+        "descricao": "Jogo de habilidade em tabuleiro circular no qual se disparam discos com o dedo, de provável origem canadense.",
+        "variantes": [
+          "Crokinole board"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Desenho à mão claro de forca com lacunas e letras; o texto parcial não entrega o nome do jogo. Onde não se aplica, usei o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que jogo de papel e lápis é este?",
+      "resposta": "Jogo da forca",
+      "distratores": [
+        "Adedonha",
+        "Jogo da velha",
+        "Batalha naval"
+      ],
+      "ancora": {
+        "nome": "Jogo da forca",
+        "descricao": "Jogo de adivinhação de palavras, letra por letra, em que cada erro completa o desenho de um enforcado.",
+        "variantes": [
+          "Forca",
+          "Hangman"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Máquina de pachinko antiga, bem visível. A marca Heiwa aparece, mas não entrega a resposta. Usei onde, mais natural que conexão.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país vem esta máquina de jogo?",
+      "resposta": "Japão",
+      "distratores": [
+        "China",
+        "Coreia do Sul",
+        "Taiwan"
+      ],
+      "ancora": {
+        "nome": "Pachinko",
+        "descricao": "Máquina de jogo mecânica de origem japonesa, com bolinhas de aço, usada em fliperamas e apostas.",
+        "variantes": [
+          "Pachinko machine",
+          "パチンコ"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Carta antiga com fundo dourado e estilo renascentista italiano, legível e sem texto. Reconhecimento de baralho pede múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que tarô renascentista é esta carta?",
+      "resposta": "Tarô Visconti-Sforza",
+      "distratores": [
+        "Tarô de Marselha",
+        "Tarô Rider-Waite",
+        "Tarô Thoth"
+      ],
+      "ancora": {
+        "nome": "Tarô Visconti-Sforza",
+        "descricao": "Conjunto de baralhos de tarô italianos do século quinze, encomendados pelos duques de Milão Visconti e Sforza.",
+        "variantes": [
+          "Baralhos Visconti-Sforza",
+          "Visconti–Sforza Tarot"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Grade de palavras cruzadas vazia, numerada, clara e sem texto que entregue a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que jornal americano popularizou este passatempo na década de 1910?",
+      "resposta": "New York World",
+      "distratores": [
+        "Chicago Tribune",
+        "Washington Post",
+        "Boston Globe"
+      ],
+      "ancora": {
+        "nome": "Palavras cruzadas",
+        "descricao": "Passatempo de grade com casas brancas e pretas em que se preenchem palavras cruzadas a partir de dicas.",
+        "variantes": [
+          "Cruzadinha",
+          "Crossword"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Relógio duplo antigo, nítido, sem texto que entregue a resposta. O enunciado não nomeia o objeto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade foi o torneio de 1883 em que este aparelho passou a ser usado amplamente?",
+      "resposta": "Londres",
+      "distratores": [
+        "Paris",
+        "Viena",
+        "Nova York"
+      ],
+      "ancora": {
+        "nome": "Relógio de xadrez",
+        "descricao": "Aparelho com dois relógios e botões alternados que controla o tempo de cada jogador em partidas.",
+        "variantes": [
+          "Relógio de jogo",
+          "Chess clock"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida do Pyraminx, pirâmide com faces coloridas, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este quebra-cabeça em forma de pirâmide foi feito no estilo de qual brinquedo húngaro?",
+      "resposta": "Cubo de Rubik",
+      "distratores": [
+        "Torre de Hanói",
+        "Cubo Soma",
+        "Tangram"
+      ],
+      "ancora": {
+        "nome": "Pyraminx",
+        "descricao": "Quebra-cabeça em forma de tetraedro regular, no estilo do Cubo de Rubik, criado por Uwe Mèffert.",
+        "variantes": [
+          "Pirâmide mágica"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto clara de tabuleiro em estrela com peões coloridos, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é a origem deste jogo?",
+      "resposta": "Alemanha",
+      "distratores": [
+        "China",
+        "Japão",
+        "Índia"
+      ],
+      "ancora": {
+        "nome": "Damas chinesas",
+        "descricao": "Jogo de tabuleiro em forma de estrela de seis pontas, de origem alemã, em que se levam as peças ao canto oposto.",
+        "variantes": [
+          "Chinese checkers",
+          "Sternhalma"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Montagem das cartas dos arcanos maiores com texto visível (nomes das cartas). Montagens só valem sem texto."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Miniatura medieval do Libro de los juegos que mostra o alquerque com tabuleiro legível e sem texto. Pessoas são figuras históricas pintadas.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que região do mundo se acredita que este jogo se originou?",
+      "resposta": "Oriente Médio",
+      "distratores": [
+        "Extremo Oriente",
+        "África Subsaariana",
+        "Escandinávia"
+      ],
+      "ancora": {
+        "nome": "Alquerque",
+        "descricao": "Jogo de tabuleiro antigo de capturas, de provável origem no Oriente Médio, considerado ancestral das damas.",
+        "variantes": [
+          "Al-qirkat",
+          "Alquerque de doze"
+        ]
+      }
+    }
+  ]
+}

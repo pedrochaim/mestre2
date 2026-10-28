@@ -1,0 +1,97 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; distratores plausíveis e distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'tabuleiros empilhados' entrega 'tridimensional'; além disso há várias variantes 3D (Raumschach, Tri-D), então a resposta não é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Carrom também é jogo de discos lançados com o dedo, então um distrator é defensável. A pista deve distinguir sem entregar.",
+      "reescrita": {
+        "pergunta": "Que jogo de habilidade em tabuleiro circular, de provável origem canadense, é este?",
+        "resposta": "Crokinole",
+        "distratores": [
+          "Carrom",
+          "Shuffleboard",
+          "Bagatelle"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista verdadeira, que não entrega a resposta; a figura distingue entre os jogos de papel e lápis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem japonesa confirmada; a figura é necessária e a pergunta não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os distratores são tarôs de outras épocas e estilos; o enunciado é verdadeiro e não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o New York World popularizou as palavras cruzadas na década de 1910; os distratores são críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que o relógio foi usado pela primeira vez em Londres, em 1883. 'Amplamente' não está sustentado, então a pergunta passa a usar 'pela primeira vez'.",
+      "reescrita": {
+        "pergunta": "Em que cidade foi o torneio de 1883 em que este aparelho foi usado pela primeira vez?",
+        "resposta": "Londres",
+        "distratores": [
+          "Paris",
+          "Viena",
+          "Nova York"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o Pyraminx é no estilo do Cubo de Rubik, criado por Ernő Rubik, húngaro; os distratores são quebra-cabeças de outras origens.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem alemã confirmada; 'China' é um distrator crível por causa do nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A origem no Oriente Médio é apresentada como provável, e o enunciado diz 'se acredita'. Os distratores são regiões distintas.",
+      "reescrita": null
+    }
+  ]
+}
