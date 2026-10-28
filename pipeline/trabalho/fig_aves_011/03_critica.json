@@ -1,0 +1,104 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos dizem que gaivotas são mais próximas das gaivinas/trinta-réis, na mesma família Laridae. Distratores são de outras famílias.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação direta, sem vazamento. Distratores são gansos parecidos e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A espécie é cracídeo grande do Brasil, e o enunciado não entrega o nome. Distratores são outros cracídeos brasileiros.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que os beija-flores são restritos às Américas. Resposta única e distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz 'estados', que é parte da resposta 'Estados Unidos' (vazamento) e ainda elimina o Canadá. O fato (sete estados dos EUA) está no trecho. Reescrito sem a palavra.",
+      "reescrita": {
+        "pergunta": "Esta ave é a ave oficial de sete unidades federativas, mais do que qualquer outra espécie. De qual país?",
+        "resposta": "Estados Unidos",
+        "distratores": [
+          "Canadá",
+          "México",
+          "Brasil"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português confirma que a jacutinga habita a Mata Atlântica. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação direta. A resposta é a família popular, e 'Andorinhão' é um distrator de outra família.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a espécie vive na América do Sul. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o carão se alimenta principalmente de caracóis e moluscos. Os distratores são plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a espécie é nativa das Américas e foi domesticada. O enunciado não entrega o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Parente de' é vago: pardal, pombo e tucano também são aves aparentadas. Restringir à família deixa uma resposta única (Corvidae).",
+      "reescrita": {
+        "pergunta": "Esta ave pertence à mesma família de qual destas?",
+        "resposta": "Corvo",
+        "distratores": [
+          "Pombo",
+          "Pardal",
+          "Tucano"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação direta. Os distratores são pinguins de penacho parecidos e nenhum descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}

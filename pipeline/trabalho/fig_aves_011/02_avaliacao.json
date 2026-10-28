@@ -1,0 +1,300 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Gaivota nítida e reconhecível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta ave marinha é parente próxima de qual destas?",
+      "resposta": "Trinta-réis",
+      "distratores": [
+        "Albatroz",
+        "Pelicano",
+        "Biguá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gaivota",
+        "descricao": "Ave marinha da subfamília Larinae, da família Laridae, geralmente cinza e branca, com pés palmados.",
+        "variantes": [
+          "Gaivotas"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ganso-do-canadá bem visível, cabeça preta e bochecha branca.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Ganso-do-canadá",
+      "distratores": [
+        "Ganso-de-faces-brancas",
+        "Ganso-havaiano",
+        "Ganso-do-egito"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ganso-do-canadá",
+        "descricao": "Ganso grande, de cabeça e pescoço pretos e bochechas brancas, nativo da América do Norte (Branta canadensis).",
+        "variantes": [
+          "Branta canadensis",
+          "Canada goose"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Mutum fêmea de corpo inteiro, com penacho e plumagem barrada; distratores não crácidos de aparência bem distinta, exceto jacutinga.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave brasileira de grande porte é esta?",
+      "resposta": "Mutum-de-penacho",
+      "distratores": [
+        "Jacutinga",
+        "Aracuã",
+        "Jacuguaçu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mutum-de-penacho",
+        "descricao": "Ave da família Cracidae (Crax fasciolata), presente no Cerrado e no Pantanal; na foto, uma fêmea de plumagem barrada.",
+        "variantes": [
+          "Crax fasciolata",
+          "Mutum-do-sul",
+          "Bare-faced curassow"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Beija-flor em voo, nítido; a pergunta vale para o grupo todo.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta ave só existe naturalmente em qual parte do mundo?",
+      "resposta": "Américas",
+      "distratores": [
+        "África",
+        "Sul da Ásia",
+        "Oceania"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Beija-flor",
+        "descricao": "Ave minúscula da família Trochilidae, de bico fino e voo pairado, nativa das Américas.",
+        "variantes": [
+          "Colibri",
+          "Pica-flor",
+          "Trochilidae"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Casal de cardeais-do-norte, macho e fêmea da mesma espécie, imagem clara.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta ave é o símbolo oficial de vários estados de qual país?",
+      "resposta": "Estados Unidos",
+      "distratores": [
+        "Canadá",
+        "México",
+        "Brasil"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cardeal-do-norte",
+        "descricao": "Ave canora de crista, o macho vermelho, nativa do leste da América do Norte (Cardinalis cardinalis).",
+        "variantes": [
+          "Cardinalis cardinalis",
+          "Northern cardinal",
+          "Cardeal-vermelho"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Jacutinga nítida, com topete branco e papo vermelho.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que bioma brasileiro vive esta ave?",
+      "resposta": "Mata Atlântica",
+      "distratores": [
+        "Cerrado",
+        "Pantanal",
+        "Caatinga"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jacutinga",
+        "descricao": "Ave da família Cracidae (Pipile jacutinga) de topete branco e papo vermelho, das florestas da Mata Atlântica.",
+        "variantes": [
+          "Pipile jacutinga",
+          "Black-fronted piping guan"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Andorinha-das-chaminés nítida, de perfil, com cauda bifurcada característica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Andorinha",
+      "distratores": [
+        "Andorinhão",
+        "Bacurau",
+        "Papa-moscas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Andorinha",
+        "descricao": "Ave passeriforme da família Hirundinidae; na foto, a andorinha-das-chaminés (Hirundo rustica), de dorso azul e cauda longa bifurcada.",
+        "variantes": [
+          "Andorinha-das-chaminés",
+          "Hirundo rustica",
+          "Barn swallow"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Curicaca nítida, com bico longo curvo e pescoço castanho.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que continente vive esta ave?",
+      "resposta": "América do Sul",
+      "distratores": [
+        "África",
+        "Ásia",
+        "Oceania"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Curicaca",
+        "descricao": "Ibis grande de bico longo e curvo, de campos abertos da América do Sul (Theristicus caudatus).",
+        "variantes": [
+          "Theristicus caudatus",
+          "Curicaca-real",
+          "Buff-necked ibis"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Carão em pouso com asas abertas, bem visível e reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta ave de brejos se alimenta principalmente de que tipo de animal?",
+      "resposta": "Caramujos",
+      "distratores": [
+        "Peixes",
+        "Insetos",
+        "Sapos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Carão",
+        "descricao": "Ave pernalta de áreas alagadas das Américas (Aramus guarauna), única da família Aramidae, que come caramujos.",
+        "variantes": [
+          "Aramus guarauna",
+          "Limpkin",
+          "Carão-do-pantanal"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Pato-do-mato escuro, com carúnculas vermelhas, nítido na água.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este pato, hoje criado em várias partes do mundo, é nativo de qual região?",
+      "resposta": "Américas",
+      "distratores": [
+        "África",
+        "Sul da Ásia",
+        "Oceania"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pato-do-mato",
+        "descricao": "Pato grande de carúnculas vermelhas na face, nativo das Américas e domesticado (Cairina moschata).",
+        "variantes": [
+          "Cairina moschata",
+          "Pato-almiscarado",
+          "Muscovy duck"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pega-rabuda nítida, de perfil, com plumagem preta e branca e cauda longa.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta ave é parente de qual destas?",
+      "resposta": "Corvo",
+      "distratores": [
+        "Pombo",
+        "Pardal",
+        "Tucano"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pega-rabuda",
+        "descricao": "Ave preta e branca de cauda longa da família dos corvídeos, comum na Eurásia (Pica pica).",
+        "variantes": [
+          "Pica pica",
+          "Pega-comum",
+          "Eurasian magpie"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pinguim-saltador nítido, com sobrancelhas amarelas, bico vermelho e olho vermelho.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pinguim é este?",
+      "resposta": "Pinguim-saltador-da-rocha",
+      "distratores": [
+        "Pinguim-macaroni",
+        "Pinguim-real",
+        "Pinguim-de-fiordland"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pinguim-saltador-da-rocha",
+        "descricao": "Pinguim de topete amarelo e olhos vermelhos das águas subantárticas da América do Sul (Eudyptes chrysocome).",
+        "variantes": [
+          "Eudyptes chrysocome",
+          "Western rockhopper penguin",
+          "Pinguim-de-penacho-amarelo"
+        ]
+      }
+    }
+  ]
+}
