@@ -1,0 +1,376 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Catedral Metropolitana do Rio de Janeiro",
+        "descricao": "Catedral católica em forma de cone, sede da Arquidiocese do Rio de Janeiro, dedicada a São Sebastião.",
+        "variantes": [
+          "Catedral de São Sebastião do Rio de Janeiro",
+          "Catedral de São Sebastião"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_metropolitana_do_rio_de_janeiro",
+          "nome": "Catedral Metropolitana do Rio de Janeiro",
+          "descricao": "Catedral cônica de concreto, sede da Arquidiocese do Rio de Janeiro, dedicada a São Sebastião.",
+          "variantes": [
+            "Catedral de São Sebastião do Rio de Janeiro",
+            "Catedral de São Sebastião"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_basilio",
+          "nome": "Catedral de São Basílio",
+          "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+          "variantes": [
+            "Catedral de São Basílio, o Bem-Aventurado",
+            "Catedral da Intercessão",
+            "Catedral Pokrovsky",
+            "Saint Basil's Cathedral"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro",
+          "nome": "Rio de Janeiro",
+          "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+          "variantes": [
+            "São Sebastião do Rio de Janeiro",
+            "Rio"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Auditório Ibirapuera",
+        "descricao": "Auditório de concertos no Parque Ibirapuera, em São Paulo, de formas brancas e marquise vermelha.",
+        "variantes": [
+          "Auditório do Ibirapuera",
+          "Auditório Oscar Niemeyer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "museu_oscar_niemeyer",
+          "nome": "Museu Oscar Niemeyer",
+          "descricao": "Museu de artes visuais, arquitetura e design em Curitiba, conhecido como Museu do Olho.",
+          "variantes": [
+            "Museu do Olho",
+            "MON"
+          ]
+        },
+        {
+          "id": "bandeira_do_iraque",
+          "nome": "Bandeira do Iraque",
+          "descricao": "Bandeira nacional do Iraque, com listras vermelha, branca e preta e inscrição árabe verde.",
+          "variantes": [
+            "Iraque",
+            "Bandeira iraquiana"
+          ]
+        },
+        {
+          "id": "diretorio_dos_indios",
+          "nome": "Diretório dos Índios",
+          "descricao": "Lei portuguesa do século dezoito que regulou os aldeamentos indígenas e impôs o português no Brasil",
+          "variantes": [
+            "Diretório Pombalino"
+          ]
+        },
+        {
+          "id": "bandeira_do_zimbabue",
+          "nome": "Bandeira do Zimbábue",
+          "descricao": "Bandeira atual do Zimbábue: listras horizontais com triângulo branco, estrela vermelha e o Pássaro do Zimbábue.",
+          "variantes": [
+            "Zimbábue",
+            "Bandeira zimbabuana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Santuário Dom Bosco",
+        "descricao": "Igreja católica de Brasília, na Asa Sul, famosa por seus vitrais e dedicada a São João Bosco.",
+        "variantes": [
+          "Santuário São João Bosco",
+          "Igreja Dom Bosco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        },
+        {
+          "id": "delfos",
+          "nome": "Delfos",
+          "descricao": "Antigo santuário grego na encosta do monte Parnaso, sede do oráculo da Pítia e do templo de Apolo.",
+          "variantes": [
+            "Delphi",
+            "Santuário de Delfos",
+            "Oráculo de Delfos"
+          ]
+        },
+        {
+          "id": "canario",
+          "nome": "Canário",
+          "descricao": "Pequeno passarinho amarelo (Serinus canaria), nativo das Ilhas Canárias, Açores e Madeira, criado como ave de gaiola no mundo todo.",
+          "variantes": [
+            "Canário-doméstico",
+            "Canário-do-reino",
+            "Serinus canaria"
+          ]
+        },
+        {
+          "id": "igreja_do_santo_sepulcro",
+          "nome": "Igreja do Santo Sepulcro",
+          "descricao": "Igreja de Jerusalém erguida sobre os locais tradicionais da crucificação e do túmulo de Jesus",
+          "variantes": [
+            "Basílica do Santo Sepulcro"
+          ]
+        },
+        {
+          "id": "joao_bosco",
+          "nome": "João Bosco",
+          "descricao": "Cantor, compositor e violonista brasileiro de MPB nascido em 1946, parceiro de Aldir Blanc.",
+          "variantes": [
+            "João Bosco de Freitas Mucci"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Torre de TV de Brasília",
+        "descricao": "Torre de transmissão de rádio e TV de 224 metros no Eixo Monumental de Brasília, com mirante.",
+        "variantes": [
+          "Torre de Televisão de Brasília"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_de_tv_de_berlim",
+          "nome": "Torre de TV de Berlim",
+          "descricao": "Torre de televisão com uma esfera no alto, na Alexanderplatz, construída pela Alemanha Oriental e inaugurada em 1969.",
+          "variantes": [
+            "Fernsehturm Berlin",
+            "Fernsehturm"
+          ]
+        },
+        {
+          "id": "destilacao_fracionada_do_petroleo",
+          "nome": "Destilação fracionada do petróleo",
+          "descricao": "Processo das refinarias que separa o petróleo em frações, como gás, gasolina, querosene, diesel e resíduos pesados, numa torre de destilação.",
+          "variantes": [
+            "Refino do petróleo",
+            "Torre de destilação"
+          ]
+        },
+        {
+          "id": "linha_de_transmissao",
+          "nome": "Linha de transmissão",
+          "descricao": "Linha aérea de condutores suspensos por torres que leva energia elétrica por longas distâncias.",
+          "variantes": [
+            "Torre de transmissão",
+            "Linha de alta tensão",
+            "Torre de alta tensão"
+          ]
+        },
+        {
+          "id": "raquete_de_beach_tennis",
+          "nome": "Raquete de beach tennis",
+          "descricao": "Raquete sem cordas, perfurada, de material composto, usada no beach tennis.",
+          "variantes": [
+            "Beach tennis",
+            "Raquete de tênis de praia"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Amolação Interrompida",
+        "descricao": "Pintura de 1894 de Almeida Júnior que mostra um caipira com um machado, interrompido na amolação.",
+        "variantes": [
+          "Amolação Interrompida (Almeida Júnior)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "almeida_junior",
+          "nome": "Almeida Júnior",
+          "descricao": "Pintor paulista José Ferraz de Almeida Júnior, autor de Caipira Picando Fumo, que viveu de 1850 a 1899.",
+          "variantes": [
+            "José Ferraz de Almeida Júnior"
+          ]
+        },
+        {
+          "id": "nado_artistico",
+          "nome": "Nado artístico",
+          "descricao": "Esporte aquático em que nadadoras executam coreografias sincronizadas ao som de música.",
+          "variantes": [
+            "Natação sincronizada",
+            "Nado sincronizado"
+          ]
+        },
+        {
+          "id": "museu_de_arte_contemporanea_de_niteroi",
+          "nome": "Museu de Arte Contemporânea de Niterói",
+          "descricao": "Museu projetado por Oscar Niemeyer, em forma de disco, sobre um mirante à beira da baía de Guanabara, inaugurado em 1996.",
+          "variantes": [
+            "MAC Niterói",
+            "MAC"
+          ]
+        },
+        {
+          "id": "linguas_indo_europeias",
+          "nome": "Línguas indo-europeias",
+          "descricao": "Família de línguas que inclui as românicas, germânicas, eslavas, o grego, o persa e as línguas do norte da Índia.",
+          "variantes": [
+            "Família indo-europeia",
+            "Indo-European languages"
+          ]
+        },
+        {
+          "id": "reacao_termidoriana",
+          "nome": "Reação Termidoriana",
+          "descricao": "Golpe de julho de 1794 que derrubou Robespierre e encerrou o período do Terror na Revolução Francesa.",
+          "variantes": [
+            "Golpe do 9 Termidor",
+            "Thermidorian Reaction"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Panteão da Pátria e da Liberdade",
+        "descricao": "Memorial cívico na Praça dos Três Poderes, em Brasília, que homenageia heróis nacionais, Tiradentes e Tancredo Neves.",
+        "variantes": [
+          "Panteão da Pátria e da Liberdade Tancredo Neves",
+          "Panteão da Pátria"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "panteao_de_paris",
+          "nome": "Panteão de Paris",
+          "descricao": "Edifício neoclássico no Quartier Latin, em Paris, que guarda os restos de grandes personalidades francesas.",
+          "variantes": [
+            "Panthéon",
+            "Panteão"
+          ]
+        },
+        {
+          "id": "monumento_a_independencia_do_brasil",
+          "nome": "Monumento à Independência do Brasil",
+          "descricao": "Conjunto escultórico em granito e bronze no Parque da Independência, em São Paulo, também chamado Altar da Pátria.",
+          "variantes": [
+            "Monumento do Ipiranga",
+            "Altar da Pátria"
+          ]
+        },
+        {
+          "id": "anschluss",
+          "nome": "Anschluss",
+          "descricao": "Anexação da Áustria pela Alemanha nazista, em março de 1938.",
+          "variantes": [
+            "Anexação da Áustria"
+          ]
+        },
+        {
+          "id": "ano_da_africa",
+          "nome": "Ano da África",
+          "descricao": "O ano de 1960, em que dezessete países africanos se tornaram independentes.",
+          "variantes": [
+            "Year of Africa"
+          ]
+        },
+        {
+          "id": "bandeira_da_austria",
+          "nome": "Bandeira da Áustria",
+          "descricao": "Bandeira nacional atual da Áustria, com três faixas horizontais iguais vermelha, branca e vermelha.",
+          "variantes": [
+            "Áustria",
+            "Bandeira austríaca"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "catedral_metropolitana_do_rio_de_janeiro",
+      "motivo": "Mesmo nome, variantes e descrição: catedral cônica do Rio dedicada a São Sebastião."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Auditório Ibirapuera em São Paulo não corresponde a nenhuma candidata; o Museu Oscar Niemeyer fica em Curitiba."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Igreja de Brasília dedicada a Dom Bosco é distinta de todas as candidatas; João Bosco é o cantor."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Torre de TV de Brasília é diferente da de Berlim e das demais candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A pintura é uma obra distinta do pintor Almeida Júnior."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Memorial em Brasília diferente do Panteão de Paris e do Monumento à Independência em São Paulo."
+    }
+  ]
+}

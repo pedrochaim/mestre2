@@ -1,0 +1,161 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Pessoas comuns da plateia em primeiro plano e imagem de multidão/desfile; o prédio quase não se vê."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Catedral cônica inconfundível, sem texto; boa para múltipla com distratores parecidos. Não é obra de Niemeyer, por isso a pergunta é 'o que é'.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que catedral é esta?",
+      "resposta": "Catedral Metropolitana do Rio de Janeiro",
+      "distratores": [
+        "Catedral de Brasília",
+        "Catedral de Maringá",
+        "Catedral da Sé"
+      ],
+      "ancora": {
+        "nome": "Catedral Metropolitana do Rio de Janeiro",
+        "descricao": "Catedral católica em forma de cone, sede da Arquidiocese do Rio de Janeiro, dedicada a São Sebastião.",
+        "variantes": [
+          "Catedral de São Sebastião do Rio de Janeiro",
+          "Catedral de São Sebastião"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Marquise vermelha e rampa branca reconhecíveis, sem texto. Pergunta pelo arquiteto, pois o ano de inauguração é ambíguo (projeto de 1951, obra de 2005).",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que arquiteto projetou esta construção?",
+      "resposta": "Oscar Niemeyer",
+      "distratores": [
+        "Lúcio Costa",
+        "Paulo Mendes da Rocha",
+        "Affonso Eduardo Reidy"
+      ],
+      "ancora": {
+        "nome": "Auditório Ibirapuera",
+        "descricao": "Auditório de concertos no Parque Ibirapuera, em São Paulo, de formas brancas e marquise vermelha.",
+        "variantes": [
+          "Auditório do Ibirapuera",
+          "Auditório Oscar Niemeyer"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada de arcos ogivais característica, sem texto legível; reconhecível como monumento de Brasília. Autor (Carlos Alberto Naves) seria arbitrário; pergunto pela cidade.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica esta igreja de arcos altos?",
+      "resposta": "Brasília",
+      "distratores": [
+        "Belo Horizonte",
+        "Goiânia",
+        "Curitiba"
+      ],
+      "ancora": {
+        "nome": "Santuário Dom Bosco",
+        "descricao": "Igreja católica de Brasília, na Asa Sul, famosa por seus vitrais e dedicada a São João Bosco.",
+        "variantes": [
+          "Santuário São João Bosco",
+          "Igreja Dom Bosco"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Torre com plataforma de mirante inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que torre é esta?",
+      "resposta": "Torre de TV de Brasília",
+      "distratores": [
+        "Torre Panorâmica de Curitiba",
+        "Torre Eiffel",
+        "Torre Latino-Americana"
+      ],
+      "ancora": {
+        "nome": "Torre de TV de Brasília",
+        "descricao": "Torre de transmissão de rádio e TV de 224 metros no Eixo Monumental de Brasília, com mirante.",
+        "variantes": [
+          "Torre de Televisão de Brasília"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Pintura de Almeida Júnior em domínio público, clara, sem texto; a pergunta pelo museu exige reconhecer a obra.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que museu fica este quadro?",
+      "resposta": "Pinacoteca do Estado de São Paulo",
+      "distratores": [
+        "Museu Nacional de Belas Artes",
+        "MASP",
+        "Museu Paulista"
+      ],
+      "ancora": {
+        "nome": "Amolação Interrompida",
+        "descricao": "Pintura de 1894 de Almeida Júnior que mostra um caipira com um machado, interrompido na amolação.",
+        "variantes": [
+          "Amolação Interrompida (Almeida Júnior)"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Mostra o Panteão com o vitral da pomba e a pira ao lado, ambos parte do conjunto; reconhecível. Resposta de ano em múltipla.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que ano foi inaugurado este memorial de Brasília?",
+      "resposta": "1986",
+      "distratores": [
+        "1983",
+        "1985",
+        "1988"
+      ],
+      "ancora": {
+        "nome": "Panteão da Pátria e da Liberdade",
+        "descricao": "Memorial cívico na Praça dos Três Poderes, em Brasília, que homenageia heróis nacionais, Tiradentes e Tancredo Neves.",
+        "variantes": [
+          "Panteão da Pátria e da Liberdade Tancredo Neves",
+          "Panteão da Pátria"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A placa 'Palácio da Justiça' está legível no canto da imagem e entrega o nome do prédio."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A foto parece mostrar o Palácio da Alvorada (colunas curvas em toda a fachada, espelho d'água, sem rampa), e não o Planalto; resposta não é segura."
+    }
+  ]
+}

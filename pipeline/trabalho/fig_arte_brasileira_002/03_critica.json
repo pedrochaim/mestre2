@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pista; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Niemeyer concebeu o auditório. Os distratores são arquitetos brasileiros críveis e nenhum projetou o auditório.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Arcos altos' não aparece nos trechos e não se sabe se vale para esta foto. Removi a afirmação e mantive só a cidade.",
+      "reescrita": {
+        "pergunta": "Em que cidade fica esta igreja católica?",
+        "resposta": "Brasília",
+        "distratores": [
+          "Belo Horizonte",
+          "Goiânia",
+          "Curitiba"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. Os distratores são torres reais e diferentes.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a obra está na Pinacoteca do Estado de São Paulo, para onde foi transferida do Museu Paulista em 1905. Hoje o Museu Paulista não a abriga, então o distrator é errado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inaugurado em 7 de setembro de 1986. O ano é resposta de múltipla escolha, como exige o manifesto. Os distratores são anos próximos e errados, e 1985 foi só a pedra fundamental.",
+      "reescrita": null
+    }
+  ]
+}

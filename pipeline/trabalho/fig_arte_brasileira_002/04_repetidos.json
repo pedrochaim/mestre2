@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que catedral é esta?",
+        "resposta": "Catedral Metropolitana do Rio de Janeiro"
+      },
+      "existentes": [
+        {
+          "id": "q14588",
+          "pergunta": "A que santo é dedicada esta catedral?",
+          "resposta": "São Sebastião"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação da catedral (nome); a existente pede o santo padroeiro. Fatos diferentes, e saber um não leva necessariamente ao outro."
+    }
+  ]
+}
