@@ -1,0 +1,225 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Cobra de padrão avermelhado em foto de cor apagada; pode ser confundida com outras cobras-ratos e com a cabeça-de-cobre, então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Crocodiliano de focinho fino em recinto de zoológico; pode ser confundido com o crocodilo-de-focinho-fino africano e com outros gaviais, então a espécie não é inequívoca pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cobra preta com faixa amarela lateral e cauda manchada, característica e legível.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que cobra marinha, encontrada aqui na areia de uma praia, é esta?",
+      "resposta": "Cobra-do-mar-de-barriga-amarela",
+      "distratores": [
+        "Cobra-do-mar-listrada",
+        "Cobra-coral-verdadeira",
+        "Cobra-do-mar-de-Belcher"
+      ],
+      "ancora": {
+        "nome": "Cobra-do-mar-de-barriga-amarela",
+        "descricao": "Cobra marinha extremamente venenosa (Hydrophis platurus), de dorso preto e ventre amarelo, que vive em oceanos tropicais.",
+        "variantes": [
+          "Cobra-do-mar-pelágio",
+          "Hydrophis platurus",
+          "Pelamis platura"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Tartaruga de água doce de casco grande e liso e cabeça robusta, reconhecível; foto nítida.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tartaruga de água doce norte-americana é esta?",
+      "resposta": "Tartaruga-mordedora",
+      "distratores": [
+        "Tartaruga-aligátor",
+        "Tartaruga-de-caixa",
+        "Tartaruga-pintada"
+      ],
+      "ancora": {
+        "nome": "Tartaruga-mordedora",
+        "descricao": "Grande tartaruga de água doce norte-americana (Chelydra serpentina), de mandíbulas potentes em forma de bico.",
+        "variantes": [
+          "Tartaruga-mordedora-comum",
+          "Chelydra serpentina",
+          "Common snapping turtle"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Camaleão com três chifres na cabeça, inconfundível; foto nítida.",
+      "nivel": 3,
+      "familia": "onde",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que região do mundo é nativo este camaleão de três chifres?",
+      "resposta": "África Oriental",
+      "distratores": [
+        "Madagascar",
+        "África Ocidental",
+        "Sudeste Asiático"
+      ],
+      "ancora": {
+        "nome": "Camaleão-de-jackson",
+        "descricao": "Camaleão de três chifres (Trioceros jacksonii), nativo da África Oriental e introduzido no Havaí, na Flórida e na Califórnia.",
+        "variantes": [
+          "Camaleão-de-três-chifres",
+          "Trioceros jacksonii",
+          "Jackson's chameleon"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Iguana de tons azulados no pescoço e na cabeça sobre cascalho, legível e característica.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que iguana ameaçada de extinção é esta?",
+      "resposta": "Iguana-azul",
+      "distratores": [
+        "Iguana-verde",
+        "Iguana-marinha",
+        "Iguana-rinoceronte"
+      ],
+      "ancora": {
+        "nome": "Iguana-azul",
+        "descricao": "Iguana ameaçada (Cyclura lewisi), endêmica da ilha de Grand Cayman, de tons azul-acinzentados.",
+        "variantes": [
+          "Iguana-azul-de-Grand-Cayman",
+          "Cyclura lewisi",
+          "Blue iguana"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto de um grande crocodiliano sem escala nem contexto; pode ser confundido com o crocodilo-do-nilo e outros crocodilos de focinho largo, então a espécie não é única pela imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cobra escura e robusta sobre areia avermelhada, foto nítida e legível.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que cobra australiana de veneno potente é esta?",
+      "resposta": "Taipan-do-interior",
+      "distratores": [
+        "Taipan-costeiro",
+        "Cobra-marrom-oriental",
+        "Cobra-negra-de-barriga-vermelha"
+      ],
+      "ancora": {
+        "nome": "Taipan-do-interior",
+        "descricao": "Cobra australiana (Oxyuranus microlepidotus) considerada a mais venenosa do mundo, das regiões semiáridas do centro-leste do país.",
+        "variantes": [
+          "Taipan-ocidental",
+          "Cobra-feroz",
+          "Oxyuranus microlepidotus",
+          "Inland taipan"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Rã com focinho pontudo e dorso em forma de folha seca, característica e legível.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que rã sul-americana, com focinho pontudo e aparência de folha seca, é esta?",
+      "resposta": "Rã-de-darwin",
+      "distratores": [
+        "Rã-touro",
+        "Sapo-de-chifres",
+        "Sapo-parteiro"
+      ],
+      "ancora": {
+        "nome": "Rã-de-darwin",
+        "descricao": "Rã chilena (Rhinoderma darwinii), cujo macho choca os girinos no saco vocal.",
+        "variantes": [
+          "Rhinoderma darwinii",
+          "Darwin's frog",
+          "Sapo-de-darwin"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Tartaruga marinha em praia, nítida; a pergunta vale para as duas ridleys, mas a resposta é única.",
+      "nivel": 3,
+      "familia": "que_tipo",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Milhares de fêmeas desta tartaruga marinha desovam juntas numa mesma praia. Que nome tem esse fenômeno?",
+      "resposta": "Arribada",
+      "distratores": [
+        "Piracema",
+        "Transumância",
+        "Berçário"
+      ],
+      "ancora": {
+        "nome": "Tartaruga-oliva",
+        "descricao": "Tartaruga marinha pequena (Lepidochelys olivacea), abundante nos oceanos tropicais e conhecida pelas desovas em massa.",
+        "variantes": [
+          "Tartaruga-olivácea",
+          "Lepidochelys olivacea",
+          "Olive ridley sea turtle"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Sapo verde e preto com ventre alaranjado visível, legível; a mão ao fundo é só apoio, sem pessoa identificável.",
+      "nivel": 1,
+      "familia": "onde",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que parte do mundo vive este sapo de ventre colorido?",
+      "resposta": "Nordeste da Ásia",
+      "distratores": [
+        "Amazônia",
+        "África Central",
+        "Austrália"
+      ],
+      "ancora": {
+        "nome": "Sapo-de-barriga-de-fogo",
+        "descricao": "Pequeno anfíbio semiaquático (Bombina orientalis), verde e preto por cima e vermelho por baixo, do nordeste da Ásia.",
+        "variantes": [
+          "Sapo-de-barriga-de-fogo-oriental",
+          "Bombina orientalis",
+          "Oriental fire-bellied toad"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "É uma ilustração antiga com duas vistas do animal; a política só admite ilustração para o que não pode ser fotografado, e a imagem mostra o animal em duas posições."
+    }
+  ]
+}

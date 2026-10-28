@@ -1,0 +1,465 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cobra-do-mar-de-barriga-amarela",
+        "descricao": "Cobra marinha extremamente venenosa (Hydrophis platurus), de dorso preto e ventre amarelo, que vive em oceanos tropicais.",
+        "variantes": [
+          "Cobra-do-mar-pelágio",
+          "Hydrophis platurus",
+          "Pelamis platura"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arara_caninde",
+          "nome": "Arara-canindé",
+          "descricao": "Grande arara (Ara ararauna) de dorso azul, barriga amarelo-alaranjada, garganta preta e face branca listrada.",
+          "variantes": [
+            "Arara-azul-e-amarela",
+            "Arara-de-barriga-amarela",
+            "Blue-and-yellow macaw",
+            "Ara ararauna"
+          ]
+        },
+        {
+          "id": "cobra_palavra_inglesa",
+          "nome": "Cobra (palavra inglesa)",
+          "descricao": "Palavra que o inglês e outras línguas tomaram do português para designar as najas",
+          "variantes": [
+            "Cobra de capelo"
+          ]
+        },
+        {
+          "id": "caninana",
+          "nome": "Caninana",
+          "descricao": "Serpente não peçonhenta Spilotes pullatus, preta com manchas amarelas, do Neotrópico.",
+          "variantes": [
+            "Spilotes pullatus",
+            "Cobra-papagaio",
+            "Caninana-do-brejo"
+          ]
+        },
+        {
+          "id": "sucre",
+          "nome": "Sucre",
+          "descricao": "Cidade boliviana que é a capital constitucional da Bolívia.",
+          "variantes": [
+            "La Plata",
+            "Chuquisaca"
+          ]
+        },
+        {
+          "id": "bico_do_papagaio",
+          "nome": "Bico do Papagaio",
+          "descricao": "Região do extremo norte do Tocantins, entre os rios Araguaia e Tocantins, na divisa com o Pará e o Maranhão.",
+          "variantes": [
+            "Microrregião do Bico do Papagaio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tartaruga-mordedora",
+        "descricao": "Grande tartaruga de água doce norte-americana (Chelydra serpentina), de mandíbulas potentes em forma de bico.",
+        "variantes": [
+          "Tartaruga-mordedora-comum",
+          "Chelydra serpentina",
+          "Common snapping turtle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tartaruga_verde",
+          "nome": "Tartaruga-verde",
+          "descricao": "Grande tartaruga-marinha herbívora (Chelonia mydas) de carapaça oliva a marrom.",
+          "variantes": [
+            "Chelonia mydas",
+            "Tartaruga-aruanã",
+            "Aruanã",
+            "Green sea turtle"
+          ]
+        },
+        {
+          "id": "tartaruga_de_couro",
+          "nome": "Tartaruga-de-couro",
+          "descricao": "Maior tartaruga marinha viva (Dermochelys coriacea), de casco coberto por pele coriácea em vez de placas duras.",
+          "variantes": [
+            "Tartaruga-gigante",
+            "Dermochelys coriacea",
+            "Leatherback"
+          ]
+        },
+        {
+          "id": "tartarugas_marinhas",
+          "nome": "Tartarugas-marinhas",
+          "descricao": "Grupo de répteis marinhos da superfamília Chelonioidea, com sete espécies vivas.",
+          "variantes": [
+            "Chelonioidea",
+            "Sea turtles"
+          ]
+        },
+        {
+          "id": "tartaruga_de_nariz_de_porco",
+          "nome": "Tartaruga-de-nariz-de-porco",
+          "descricao": "Carettochelys insculpta, tartaruga de nadadeiras e focinho carnudo do norte da Austrália e da Nova Guiné.",
+          "variantes": [
+            "Carettochelys insculpta",
+            "Tartaruga-do-rio-Fly"
+          ]
+        },
+        {
+          "id": "tartaruga_de_pente",
+          "nome": "Tartaruga-de-pente",
+          "descricao": "Tartaruga marinha tropical (Eretmochelys imbricata) com bico afilado e casco de bordas serrilhadas.",
+          "variantes": [
+            "Hawksbill sea turtle",
+            "Eretmochelys imbricata"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Camaleão-de-jackson",
+        "descricao": "Camaleão de três chifres (Trioceros jacksonii), nativo da África Oriental e introduzido no Havaí, na Flórida e na Califórnia.",
+        "variantes": [
+          "Camaleão-de-três-chifres",
+          "Trioceros jacksonii",
+          "Jackson's chameleon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kino",
+          "nome": "Kino",
+          "descricao": "Fruto espinhoso de Cucumis metuliferus, nativo da África, de polpa verde gelatinosa e casca alaranjada quando maduro.",
+          "variantes": [
+            "Kiwano",
+            "Melão-de-chifres",
+            "Pepino-africano"
+          ]
+        },
+        {
+          "id": "camara_de_nuvens",
+          "nome": "Câmara de nuvens",
+          "descricao": "Detector de partículas ionizantes com vapor supersaturado, criado por Charles Wilson em 1911.",
+          "variantes": [
+            "Câmara de Wilson"
+          ]
+        },
+        {
+          "id": "malhacao_de_judas",
+          "nome": "Malhação de Judas",
+          "descricao": "Costume popular de surrar e queimar um boneco que representa Judas Iscariotes durante a Semana Santa.",
+          "variantes": [
+            "Queima do Judas",
+            "Malhar o Judas"
+          ]
+        },
+        {
+          "id": "camaleao_do_iemen",
+          "nome": "Camaleão-do-iêmen",
+          "descricao": "Camaleão Chamaeleo calyptratus, com capacete alto na cabeça, nativo do Iêmen e da Arábia Saudita.",
+          "variantes": [
+            "Camaleão",
+            "Camaleão-velado",
+            "Chamaeleo calyptratus"
+          ]
+        },
+        {
+          "id": "batalha_de_alcacer_quibir",
+          "nome": "Batalha de Alcácer-Quibir",
+          "descricao": "Batalha de 1578 no Marrocos, em que o exército português foi derrotado e o rei Dom Sebastião desapareceu.",
+          "variantes": [
+            "Batalha dos Três Reis",
+            "Battle of Alcácer Quibir"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Iguana-azul",
+        "descricao": "Iguana ameaçada (Cyclura lewisi), endêmica da ilha de Grand Cayman, de tons azul-acinzentados.",
+        "variantes": [
+          "Iguana-azul-de-Grand-Cayman",
+          "Cyclura lewisi",
+          "Blue iguana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gruta_azul_de_capri",
+          "nome": "Gruta Azul de Capri",
+          "descricao": "Caverna marinha na costa da ilha de Capri, no sul da Itália, cuja água brilha em azul pela luz que entra por baixo d'água.",
+          "variantes": [
+            "Gruta Azul",
+            "Grotta Azzurra",
+            "Blue Grotto"
+          ]
+        },
+        {
+          "id": "gnu",
+          "nome": "Gnu",
+          "descricao": "Grande antílope africano de ombros largos, barba e listras no pescoço, o gnu-azul (Connochaetes taurinus).",
+          "variantes": [
+            "Gnu-azul",
+            "Gnu-de-cauda-preta",
+            "Connochaetes taurinus"
+          ]
+        },
+        {
+          "id": "gralha_azul",
+          "nome": "Gralha-azul",
+          "descricao": "Ave da família dos corvos (Cyanocorax caeruleus), de plumagem azul e cabeça preta, das matas de araucária do Sul do Brasil.",
+          "variantes": [
+            "Cyanocorax caeruleus"
+          ]
+        },
+        {
+          "id": "rio_iguacu",
+          "nome": "Rio Iguaçu",
+          "descricao": "Rio do Paraná que forma as Cataratas do Iguaçu e deságua no rio Paraná, na Tríplice Fronteira.",
+          "variantes": [
+            "Iguaçu",
+            "Iguazú",
+            "Iguazu River"
+          ]
+        },
+        {
+          "id": "iguana",
+          "nome": "Iguana",
+          "descricao": "Lagarto arborícola e herbívoro (Iguana iguana), comum da América tropical, também chamado iguana-verde.",
+          "variantes": [
+            "Iguana-verde",
+            "Green iguana",
+            "Iguana iguana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Taipan-do-interior",
+        "descricao": "Cobra australiana (Oxyuranus microlepidotus) considerada a mais venenosa do mundo, das regiões semiáridas do centro-leste do país.",
+        "variantes": [
+          "Taipan-ocidental",
+          "Cobra-feroz",
+          "Oxyuranus microlepidotus",
+          "Inland taipan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "samoa",
+          "nome": "Samoa",
+          "descricao": "País insular da Polinésia, no Pacífico Sul, cuja capital é Apia.",
+          "variantes": [
+            "Estado Independente de Samoa",
+            "Samoa Ocidental"
+          ]
+        },
+        {
+          "id": "herpes_zoster",
+          "nome": "Herpes-zóster",
+          "descricao": "Doença de pele dolorosa, popularmente chamada de cobreiro, causada pela reativação do vírus da catapora.",
+          "variantes": [
+            "Cobreiro",
+            "Zona",
+            "Shingles"
+          ]
+        },
+        {
+          "id": "coroa_de_ferro_da_lombardia",
+          "nome": "Coroa de Ferro da Lombardia",
+          "descricao": "Coroa-relicário medieval de ouro e gemas, guardada na catedral de Monza, usada na coroação de reis da Itália.",
+          "variantes": [
+            "Coroa de Ferro",
+            "Corona Ferrea",
+            "Iron Crown of Lombardy"
+          ]
+        },
+        {
+          "id": "frente_ocidental",
+          "nome": "Frente Ocidental",
+          "descricao": "Principal teatro de guerra terrestre da Primeira Guerra Mundial na Europa Ocidental, marcado por uma longa linha de trincheiras entre Alemanha e Aliados.",
+          "variantes": [
+            "Western Front",
+            "Front Ocidental"
+          ]
+        },
+        {
+          "id": "cobra_norato_poema",
+          "nome": "Cobra Norato (poema)",
+          "descricao": "Poema modernista de Raul Bopp, publicado em 1931, inspirado na lenda amazônica da Cobra Grande e de Honorato.",
+          "variantes": [
+            "Cobra Norato",
+            "Cobra Honorato"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Rã-de-darwin",
+        "descricao": "Rã chilena (Rhinoderma darwinii), cujo macho choca os girinos no saco vocal.",
+        "variantes": [
+          "Rhinoderma darwinii",
+          "Darwin's frog",
+          "Sapo-de-darwin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "para_darwin",
+          "nome": "Para Darwin",
+          "descricao": "Livro de 1864 de Fritz Müller que defendeu a teoria da evolução com estudos de crustáceos de Santa Catarina.",
+          "variantes": [
+            "Für Darwin",
+            "Facts and Arguments for Darwin"
+          ]
+        },
+        {
+          "id": "johanna",
+          "nome": "Johanna",
+          "descricao": "Mãe de Dawn na série Diamante e Pérola do anime Pokémon, moradora de Twinleaf, em Sinnoh.",
+          "variantes": [
+            "Mãe de Dawn"
+          ]
+        },
+        {
+          "id": "esboco_da_arvore_evolutiva_de_darwin",
+          "nome": "Esboço da árvore evolutiva de Darwin",
+          "descricao": "Diagrama em forma de árvore desenhado por Charles Darwin em 1837 no seu Caderno B, sobre a transmutação das espécies.",
+          "variantes": [
+            "I think",
+            "Árvore da vida de Darwin",
+            "Caderno B de Darwin"
+          ]
+        },
+        {
+          "id": "tuberculo_de_darwin",
+          "nome": "Tubérculo de Darwin",
+          "descricao": "Pequena saliência presente em algumas pessoas, que Charles Darwin interpretou como vestígio herdado de ancestrais.",
+          "variantes": [
+            "Darwin's tubercle"
+          ]
+        },
+        {
+          "id": "ventos_alisios",
+          "nome": "Ventos alísios",
+          "descricao": "Ventos constantes que sopram dos trópicos em direção ao equador",
+          "variantes": [
+            "Alísios",
+            "Trade winds"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Sapo-de-barriga-de-fogo",
+        "descricao": "Pequeno anfíbio semiaquático (Bombina orientalis), verde e preto por cima e vermelho por baixo, do nordeste da Ásia.",
+        "variantes": [
+          "Sapo-de-barriga-de-fogo-oriental",
+          "Bombina orientalis",
+          "Oriental fire-bellied toad"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "opabinia",
+          "nome": "Opabinia",
+          "descricao": "Artrópode marinho extinto do Cambriano Médio do Folhelho de Burgess, com cinco olhos e uma probóscide com garra.",
+          "variantes": [
+            "Opabinia regalis"
+          ]
+        },
+        {
+          "id": "pomerano",
+          "nome": "Pomerano",
+          "descricao": "Variedade do baixo-alemão da antiga Pomerânia, mantida por descendentes de imigrantes no Espírito Santo e no Sul do Brasil.",
+          "variantes": [
+            "Pomerano oriental",
+            "East Pomeranian",
+            "Língua pomerana"
+          ]
+        },
+        {
+          "id": "formiga_lava_pes",
+          "nome": "Formiga-lava-pés",
+          "descricao": "Formiga-de-fogo (Solenopsis invicta) de picada ardida, nativa da América do Sul e invasora em outros continentes.",
+          "variantes": [
+            "Solenopsis invicta",
+            "formiga-de-fogo",
+            "red imported fire ant"
+          ]
+        },
+        {
+          "id": "poulaine",
+          "nome": "Poulaine",
+          "descricao": "Sapato medieval europeu de bico longo e pontudo, moda nos séculos quatorze e quinze",
+          "variantes": [
+            "Crakow",
+            "Sapato de bico de proa"
+          ]
+        },
+        {
+          "id": "a_guerra_do_fogo",
+          "nome": "A Guerra do Fogo",
+          "descricao": "Filme franco-canadense de 1981, dirigido por Jean-Jacques Annaud, sobre tribos de humanos pré-históricos em busca do fogo.",
+          "variantes": [
+            "La Guerre du feu",
+            "Quest for Fire"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a cobra-do-mar Hydrophis platurus."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Tartaruga-mordedora de água doce não está entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Camaleão-de-jackson é espécie distinta do camaleão-do-iêmen."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Iguana-azul (Cyclura lewisi) difere da iguana-verde e das demais candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Taipan-do-interior não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Rã-de-darwin é uma espécie; as candidatas são outras entidades."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Sapo Bombina orientalis não consta entre as candidatas."
+    }
+  ]
+}

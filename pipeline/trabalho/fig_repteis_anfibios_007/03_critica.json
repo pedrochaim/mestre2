@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Encontrada aqui na areia de uma praia' não consta em 'mostra' e pode ser falso para a foto. 'Cobra-coral-verdadeira' não é cobra marinha, então é distrator fraco. O nome em português mais usado é 'cobra-do-mar-pelágio', e isso pede uma observação na resposta.",
+      "reescrita": {
+        "pergunta": "Que cobra marinha extremamente venenosa, de oceanos tropicais, é esta?",
+        "resposta": "Cobra-do-mar-de-barriga-amarela (cobra-do-mar-pelágio)",
+        "distratores": [
+          "Cobra-do-mar-listrada",
+          "Cobra-do-mar-oliva",
+          "Cobra-do-mar-de-Belcher"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro e sem vazamento. A figura é necessária e os distratores são do mesmo tipo, críveis e errados para esta imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'De três chifres' quase nomeia a espécie (camaleão-de-três-chifres), então dá para responder sem a figura. Tirar a pista e deixar só 'camaleão' faz a figura contar.",
+      "reescrita": {
+        "pergunta": "De que região do mundo é nativo este camaleão?",
+        "resposta": "África Oriental",
+        "distratores": [
+          "Madagascar",
+          "África Ocidental",
+          "Sudeste Asiático"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro, sem vazamento (não traz 'azul'). Resposta única, e os distratores são iguanas críveis que não correspondem à imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dá para responder só olhando a figura, e o enunciado não entrega a resposta. O veneno potente é confirmado pelos trechos. Os distratores são parecidos e errados para a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Focinho pontudo e aparência de folha seca descrevem bem a espécie, sem entregar o nome. Rã sul-americana (Chile e Argentina) é verdadeiro. Os distratores são críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: o enunciado já descreve a desova em massa de milhares de fêmeas, então 'arribada' sai sem olhar a figura. O próprio trecho diz que a tartaruga-de-kemp também faz arribadas. Trocar a pista não resolve sem mudar a pergunta toda.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É preciso reconhecer a espécie para chegar à região, porque o gênero Bombina também ocorre na Europa. O enunciado não entrega a resposta, e o trecho confirma o nordeste da Ásia. Os distratores não são defensáveis.",
+      "reescrita": null
+    }
+  ]
+}
