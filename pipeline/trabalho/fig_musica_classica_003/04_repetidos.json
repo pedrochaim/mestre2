@@ -1,0 +1,46 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta foto mostra, em vários tamanhos, um instrumento de sopro da família das madeiras. Que instrumento é este?",
+        "resposta": "Clarinete"
+      },
+      "existentes": [
+        {
+          "id": "q09190",
+          "pergunta": "Que instrumento de sopro da família das madeiras é este?",
+          "resposta": "Clarinete"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade italiana fica este anfiteatro romano, que recebe temporadas de ópera no verão?",
+        "resposta": "Verona"
+      },
+      "existentes": [
+        {
+          "id": "q06054",
+          "pergunta": "Em que cidade italiana fica este anfiteatro romano?",
+          "resposta": "Verona"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta (instrumento de sopro da família das madeiras na foto) com resposta Clarinete.",
+      "id_existente": "q09190"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: cidade italiana do anfiteatro romano, Verona; o detalhe da ópera é só contexto.",
+      "id_existente": "q06054"
+    }
+  ]
+}

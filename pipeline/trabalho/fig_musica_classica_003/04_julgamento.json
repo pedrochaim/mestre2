@@ -1,0 +1,557 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Clarinete",
+        "descricao": "Instrumento de sopro da família das madeiras, de palheta simples e tubo quase cilíndrico.",
+        "variantes": [
+          "Clarineta",
+          "Clarinet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "clarinete",
+          "nome": "Clarinete",
+          "descricao": "Instrumento de sopro de palheta simples, da família das madeiras, com tubo quase cilíndrico.",
+          "variantes": [
+            "Clarinet"
+          ]
+        },
+        {
+          "id": "diantha",
+          "nome": "Diantha",
+          "descricao": "Campeã da Liga Pokémon de Kalos nos jogos Pokémon X e Y, dona de um Gardevoir.",
+          "variantes": [
+            "Carnet"
+          ]
+        },
+        {
+          "id": "carmim",
+          "nome": "Carmim",
+          "descricao": "Corante vermelho natural, também chamado ácido carmínico ou cochonilha, usado em alimentos e cosméticos.",
+          "variantes": [
+            "carmine",
+            "corante de cochonilha",
+            "E120",
+            "Cochonilha",
+            "Ácido carmínico"
+          ]
+        },
+        {
+          "id": "eta_carinae",
+          "nome": "Eta Carinae",
+          "descricao": "Sistema estelar massivo na constelação da Carena, cercado pela Nebulosa do Homúnculo, formada na Grande Erupção do século dezenove.",
+          "variantes": [
+            "η Carinae",
+            "Eta Argus"
+          ]
+        },
+        {
+          "id": "planeta",
+          "nome": "Planeta",
+          "descricao": "Corpo celeste que orbita uma estrela, tem massa para ser quase esférico e domina a vizinhança da sua órbita.",
+          "variantes": [
+            "Planet"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Sanfona de roda",
+        "descricao": "Instrumento de cordas friccionadas por uma roda girada com manivela e tocado por teclas.",
+        "variantes": [
+          "Hurdy-gurdy",
+          "Viela de roda",
+          "Sanfona"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sanfona",
+          "nome": "Sanfona",
+          "descricao": "Instrumento de fole com palhetas livres, com teclado ou botões na mão direita e baixos na esquerda.",
+          "variantes": [
+            "Acordeão",
+            "Acordeom"
+          ]
+        },
+        {
+          "id": "samba_de_roda",
+          "nome": "Samba de roda",
+          "descricao": "Manifestação de música, dança e poesia afro-brasileira da Bahia, proclamada patrimônio da humanidade pela Unesco.",
+          "variantes": [
+            "Samba de roda do Recôncavo Baiano"
+          ]
+        },
+        {
+          "id": "cafona",
+          "nome": "Cafona",
+          "descricao": "Adjetivo brasileiro para algo de mau gosto ou brega, vindo do italiano cafone",
+          "variantes": []
+        },
+        {
+          "id": "viola",
+          "nome": "Viola",
+          "descricao": "Instrumento de cordas friccionadas com arco, um pouco maior e mais grave que o violino, tocado apoiado no ombro.",
+          "variantes": [
+            "Viola de arco",
+            "Viola d'arco"
+          ]
+        },
+        {
+          "id": "swanna",
+          "nome": "Swanna",
+          "descricao": "Pokémon dos tipos Água e Voador, número 581 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Teatro Massimo",
+        "descricao": "Casa de ópera de Palermo, na Sicília, a maior da Itália.",
+        "variantes": [
+          "Teatro Massimo Vittorio Emanuele",
+          "Teatro Massimo de Palermo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "terno_zhongshan",
+          "nome": "Terno Zhongshan",
+          "descricao": "Traje chinês de túnica com gola fechada, conhecido no Ocidente como terno Mao",
+          "variantes": [
+            "Terno Mao",
+            "Zhongshan suit",
+            "Mao suit"
+          ]
+        },
+        {
+          "id": "teatro_no",
+          "nome": "Teatro nô",
+          "descricao": "Forma clássica de teatro musical japonês, com atores mascarados e movimentos lentos, desenvolvida por Kan'ami e Zeami.",
+          "variantes": [
+            "Nô",
+            "Noh",
+            "Nō"
+          ]
+        },
+        {
+          "id": "teatro_amazonas",
+          "nome": "Teatro Amazonas",
+          "descricao": "Casa de ópera de Manaus inaugurada em 1896.",
+          "variantes": [
+            "Amazon Theatre",
+            "Teatro Amazonas de Manaus"
+          ]
+        },
+        {
+          "id": "teatro_olimpico_de_vicenza",
+          "nome": "Teatro Olímpico de Vicenza",
+          "descricao": "Teatro coberto renascentista de Vicenza, na Itália, projetado por Andrea Palladio e inaugurado em 1585.",
+          "variantes": [
+            "Teatro Olimpico",
+            "Teatro Olímpico"
+          ]
+        },
+        {
+          "id": "theatro_jose_de_alencar",
+          "nome": "Theatro José de Alencar",
+          "descricao": "Teatro histórico de Fortaleza, inaugurado em 1910, com estrutura metálica importada da Escócia.",
+          "variantes": [
+            "Teatro José de Alencar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Vibrafone",
+        "descricao": "Instrumento de percussão de barras metálicas afinadas sobre tubos ressoadores com discos giratórios.",
+        "variantes": [
+          "Vibraharpa",
+          "Vibraphone"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "iphone",
+          "nome": "iPhone",
+          "descricao": "Linha de smartphones da Apple, apresentada por Steve Jobs em 2007.",
+          "variantes": []
+        },
+        {
+          "id": "vibranium",
+          "nome": "Vibranium",
+          "descricao": "Metal fictício dos quadrinhos da Marvel, encontrado sobretudo no país africano de Wakanda",
+          "variantes": [
+            "Vibrânio"
+          ]
+        },
+        {
+          "id": "vibrava",
+          "nome": "Vibrava",
+          "descricao": "Pokémon dos tipos Terrestre e Dragão, número 329 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "gramofone",
+          "nome": "Gramofone",
+          "descricao": "Aparelho de reprodução de som com discos planos, patenteado por Emile Berliner em 1887.",
+          "variantes": [
+            "Gramophone"
+          ]
+        },
+        {
+          "id": "bronze",
+          "nome": "Bronze",
+          "descricao": "Liga metálica que deu nome à Idade do Bronze.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Arena de Verona",
+        "descricao": "Anfiteatro romano bem conservado em Verona, na Itália, que abriga temporadas de ópera.",
+        "variantes": [
+          "Verona Arena",
+          "Arena di Verona",
+          "Anfiteatro de Verona"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arena_de_verona",
+          "nome": "Arena de Verona",
+          "descricao": "Anfiteatro romano muito bem conservado, no centro de Verona, na Itália, usado para óperas e shows.",
+          "variantes": [
+            "Verona Arena",
+            "Arena di Verona"
+          ]
+        },
+        {
+          "id": "anfiteatro_de_el_djem",
+          "nome": "Anfiteatro de El Djem",
+          "descricao": "Anfiteatro romano oval na cidade de El Djem, antiga Thysdrus, na Tunísia.",
+          "variantes": [
+            "Anfiteatro de El Jem",
+            "Amphitheatre of El Jem",
+            "Thysdrus"
+          ]
+        },
+        {
+          "id": "panteao_de_roma",
+          "nome": "Panteão de Roma",
+          "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+          "variantes": [
+            "Panteão",
+            "Pantheon",
+            "Pantheon, Rome"
+          ]
+        },
+        {
+          "id": "rod_laver_arena",
+          "nome": "Rod Laver Arena",
+          "descricao": "Quadra central do Aberto da Austrália, no complexo Melbourne Park, em Melbourne.",
+          "variantes": [
+            "Arena Rod Laver"
+          ]
+        },
+        {
+          "id": "carnaval_de_veneza",
+          "nome": "Carnaval de Veneza",
+          "descricao": "Festival anual de Veneza, na Itália, famoso por suas máscaras e fantasias elaboradas.",
+          "variantes": [
+            "Carnevale di Venezia",
+            "Carnival of Venice"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Teatro dos Estados (Praga)",
+        "descricao": "Teatro histórico neoclássico de Praga, na República Tcheca, ligado ao Teatro Nacional.",
+        "variantes": [
+          "Estates Theatre",
+          "Stavovské divadlo",
+          "Teatro Estates"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eastgate_centre",
+          "nome": "Eastgate Centre",
+          "descricao": "Centro comercial e de escritórios em Harare, no Zimbábue, com ventilação inspirada nos cupinzeiros.",
+          "variantes": [
+            "Eastgate Centre, Harare"
+          ]
+        },
+        {
+          "id": "teatro_de_revista",
+          "nome": "Teatro de revista",
+          "descricao": "Gênero teatral de música, dança e humor satírico, muito popular no Rio de Janeiro do fim do século dezenove a meados do século vinte.",
+          "variantes": [
+            "Revista (teatro)",
+            "Revista de ano"
+          ]
+        },
+        {
+          "id": "terceiro_estado",
+          "nome": "Terceiro Estado",
+          "descricao": "Ordem da sociedade francesa do Antigo Regime que reunia todos os que não eram clero nem nobreza.",
+          "variantes": [
+            "Tiers état",
+            "Third Estate"
+          ]
+        },
+        {
+          "id": "as_quatro_estacoes",
+          "nome": "As Quatro Estações",
+          "descricao": "Conjunto de quatro concertos para violino de Antonio Vivaldi, publicado em 1725.",
+          "variantes": [
+            "Le quattro stagioni",
+            "The Four Seasons"
+          ]
+        },
+        {
+          "id": "aspendos",
+          "nome": "Aspendos",
+          "descricao": "Antiga cidade greco-romana na província de Antalya, na Turquia, famosa pelo teatro romano bem conservado.",
+          "variantes": [
+            "Aspendus",
+            "Teatro de Aspendos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Flauta doce",
+        "descricao": "Instrumento de sopro de bisel, com orifício para o polegar e sete para os dedos.",
+        "variantes": [
+          "Recorder",
+          "Flauta de bisel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "agua_doce",
+          "nome": "Água doce",
+          "descricao": "Água com baixa concentração de sais, presente em geleiras, aquíferos, rios e lagos.",
+          "variantes": []
+        },
+        {
+          "id": "luva_de_beisebol",
+          "nome": "Luva de beisebol",
+          "descricao": "Luva de couro usada para apanhar a bola no beisebol.",
+          "variantes": []
+        },
+        {
+          "id": "flauta_transversal",
+          "nome": "Flauta transversal",
+          "descricao": "Instrumento de sopro metálico, tocado de lado, comum nas orquestras.",
+          "variantes": [
+            "Flauta",
+            "Flauta de concerto"
+          ]
+        },
+        {
+          "id": "ordem_dorica",
+          "nome": "Ordem dórica",
+          "descricao": "Ordem arquitetônica clássica grega de colunas sem base e capitel liso, usada no Partenon.",
+          "variantes": [
+            "Dórico",
+            "Doric order",
+            "Ordem dórica grega"
+          ]
+        },
+        {
+          "id": "fruta_do_conde",
+          "nome": "Fruta-do-conde",
+          "descricao": "Fruto da Annona squamosa, de casca com saliências arredondadas e polpa doce.",
+          "variantes": [
+            "Pinha",
+            "Ata",
+            "Annona squamosa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Ópera de Oslo",
+        "descricao": "Casa da Ópera e Balé Nacional da Noruega, edifício de mármore branco à beira do fiorde de Oslo.",
+        "variantes": [
+          "Oslo Opera House",
+          "Operahuset"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "royal_opera_house",
+          "nome": "Royal Opera House",
+          "descricao": "Teatro de ópera e balé no bairro de Covent Garden, em Londres, sede da Royal Opera e do Royal Ballet.",
+          "variantes": [
+            "Covent Garden",
+            "Royal Ballet and Opera"
+          ]
+        },
+        {
+          "id": "opera_de_sydney",
+          "nome": "Ópera de Sydney",
+          "descricao": "Casa de espetáculos com cobertura em forma de velas no porto de Sydney, na Austrália.",
+          "variantes": [
+            "Sydney Opera House"
+          ]
+        },
+        {
+          "id": "opera_de_arame",
+          "nome": "Ópera de Arame",
+          "descricao": "Teatro de estrutura tubular de aço e cobertura transparente, cercado por um lago, numa antiga pedreira.",
+          "variantes": [
+            "Wire Opera House",
+            "Teatro Ópera de Arame"
+          ]
+        },
+        {
+          "id": "porta_do_sol_de_tiwanaku",
+          "nome": "Porta do Sol de Tiwanaku",
+          "descricao": "Portal monolítico esculpido pela cultura Tiwanaku, perto do Lago Titicaca, na Bolívia.",
+          "variantes": [
+            "Porta do Sol",
+            "Puerta del Sol",
+            "Gateway of the Sun"
+          ]
+        },
+        {
+          "id": "pedra_do_sol_asteca",
+          "nome": "Pedra do Sol asteca",
+          "descricao": "Monólito circular mexica esculpido no início do século dezesseis, exposto no Museu Nacional de Antropologia da Cidade do México.",
+          "variantes": [
+            "Calendário Asteca",
+            "Piedra del Sol",
+            "Pedra do Sol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Sinos tubulares",
+        "descricao": "Instrumento de percussão formado por tubos de metal afinados, golpeados com martelo, que imita sinos de igreja.",
+        "variantes": [
+          "Tubular bells",
+          "Carrilhão de orquestra",
+          "Chimes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "glockenspiel",
+          "nome": "Glockenspiel",
+          "descricao": "Instrumento de percussão de barras de metal afinadas, dispostas como um teclado e tocadas com baquetas.",
+          "variantes": [
+            "Carrilhão de orquestra",
+            "Metalofone"
+          ]
+        },
+        {
+          "id": "quimera",
+          "nome": "Quimera",
+          "descricao": "Monstro da mitologia grega que cuspia fogo, morto pelo herói Belerofonte.",
+          "variantes": [
+            "Chimera"
+          ]
+        },
+        {
+          "id": "arquimedes",
+          "nome": "Arquimedes",
+          "descricao": "Matemático, físico e inventor grego de Siracusa, do século três antes de Cristo, autor do princípio do empuxo.",
+          "variantes": [
+            "Arquimedes de Siracusa",
+            "Archimedes"
+          ]
+        },
+        {
+          "id": "bandeira_do_chile",
+          "nome": "Bandeira do Chile",
+          "descricao": "Bandeira nacional do Chile, com quadrado azul com estrela branca, faixa branca e faixa vermelha.",
+          "variantes": [
+            "Chile",
+            "La Estrella Solitaria"
+          ]
+        },
+        {
+          "id": "chess_musical",
+          "nome": "Chess (musical)",
+          "descricao": "Musical de 1984 sobre um duelo de xadrez entre um americano e um soviético durante a Guerra Fria.",
+          "variantes": [
+            "Chess"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "clarinete",
+      "motivo": "Mesmo instrumento, descrições equivalentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Sanfona de roda (hurdy-gurdy) é diferente da sanfona/acordeão."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Teatro Massimo de Palermo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Vibrafone não está entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "arena_de_verona",
+      "motivo": "Mesmo anfiteatro romano de Verona."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Teatro dos Estados de Praga não consta nas candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Flauta doce é diferente da flauta transversal."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Ópera de Oslo é distinta das outras casas de ópera."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Sinos tubulares diferem do glockenspiel, apesar da variante em comum."
+    }
+  ]
+}

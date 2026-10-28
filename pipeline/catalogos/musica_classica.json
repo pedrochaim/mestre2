@@ -19,7 +19,7 @@
       "titulo": "en:Clarinet",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Trompete",
@@ -40,7 +40,7 @@
       "titulo": "en:Recorder (musical instrument)",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Xilofone",
@@ -89,7 +89,7 @@
       "titulo": "en:Hurdy-gurdy",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Celesta",
@@ -243,7 +243,7 @@
       "titulo": "en:Teatro Massimo",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Ópera Bastilha",
@@ -257,7 +257,7 @@
       "titulo": "en:Teatro Real",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Palácio da Música Catalã",
@@ -279,6 +279,286 @@
       "camada": 3,
       "destino": 1,
       "status": "usada"
+    },
+    {
+      "nome": "Triângulo",
+      "titulo": "en:Triangle (musical instrument)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Castanholas",
+      "titulo": "en:Castanets",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gongo",
+      "titulo": "en:Gong",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caixa-clara",
+      "titulo": "en:Snare drum",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Marimba",
+      "titulo": "en:Marimba",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pandeireta",
+      "titulo": "en:Tambourine",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bumbo",
+      "titulo": "en:Bass drum",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lira",
+      "titulo": "en:Lyre",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vibrafone",
+      "titulo": "en:Vibraphone",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Sinos tubulares",
+      "titulo": "en:Tubular bells",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Clarone",
+      "titulo": "en:Bass clarinet",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cornetim",
+      "titulo": "en:Cornet",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Bombardino",
+      "titulo": "en:Euphonium",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Harmônio",
+      "titulo": "en:Pump organ",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Concertgebouw",
+      "titulo": "en:Concertgebouw",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Címbalo húngaro",
+      "titulo": "en:Cimbalom",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Serpentão",
+      "titulo": "en:Serpent (instrument)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Corneto",
+      "titulo": "en:Cornett",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Charamela",
+      "titulo": "en:Shawm",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Viola d'amore",
+      "titulo": "en:Viola d'amore",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Órgão portativo",
+      "titulo": "en:Portative organ",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gewandhaus de Leipzig",
+      "titulo": "en:Gewandhaus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena de Verona",
+      "titulo": "en:Verona Arena",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Teatro Castro Alves",
+      "titulo": "pt:Teatro Castro Alves",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ópera de Oslo",
+      "titulo": "en:Oslo Opera House",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Palácio de Belas Artes (Cidade do México)",
+      "titulo": "en:Palacio de Bellas Artes",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro de Santa Isabel",
+      "titulo": "pt:Teatro de Santa Isabel",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Theatro São Pedro (Porto Alegre)",
+      "titulo": "pt:Theatro São Pedro (Porto Alegre)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Centro Nacional de Artes Cênicas de Pequim",
+      "titulo": "en:National Centre for the Performing Arts (China)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Nacional de Praga",
+      "titulo": "en:National Theatre (Prague)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Kennedy Center",
+      "titulo": "en:John F. Kennedy Center for the Performing Arts",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ópera de Dubai",
+      "titulo": "en:Dubai Opera",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Solís",
+      "titulo": "en:Solís Theatre",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Teatro Arthur Azevedo",
+      "titulo": "pt:Teatro Arthur Azevedo",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Theatro Pedro II",
+      "titulo": "pt:Theatro Pedro II",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Nacional de Munique",
+      "titulo": "en:National Theatre Munich",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ópera Estatal de Berlim",
+      "titulo": "en:Berlin State Opera",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro dos Estados (Praga)",
+      "titulo": "en:Estates Theatre",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Ópera Estatal Húngara",
+      "titulo": "en:Hungarian State Opera",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ópera Margravial de Bayreuth",
+      "titulo": "en:Margravial Opera House",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
     }
   ]
 }

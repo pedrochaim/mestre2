@@ -1,0 +1,258 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto limpa de uma família de clarinetes de vários tamanhos, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Estes instrumentos de sopro, de vários tamanhos, formam uma mesma família. Qual é ela?",
+      "resposta": "Clarinete",
+      "distratores": [
+        "Oboé",
+        "Fagote",
+        "Saxofone"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Clarinete",
+        "descricao": "Instrumento de sopro da família das madeiras, de palheta simples e tubo quase cilíndrico.",
+        "variantes": [
+          "Clarineta",
+          "Clarinet"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Sanfona de roda ricamente decorada, reconhecível pela caixa de teclas e pela roda; sem texto. 'Onde' não rende pergunta única, então troquei para 'o que é'.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de cordas antigo, com teclas e caixa em forma de pera, é este?",
+      "resposta": "Sanfona de roda",
+      "distratores": [
+        "Alaúde",
+        "Saltério",
+        "Bandolim"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sanfona de roda",
+        "descricao": "Instrumento de cordas friccionadas por uma roda girada com manivela e tocado por teclas.",
+        "variantes": [
+          "Hurdy-gurdy",
+          "Viela de roda",
+          "Sanfona"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fachada clara do Teatro Massimo, sem texto legível; pessoas pequenas ao fundo, em local público.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que casa de ópera italiana, a maior do país, é esta?",
+      "resposta": "Teatro Massimo",
+      "distratores": [
+        "Teatro alla Scala",
+        "La Fenice",
+        "Teatro San Carlo"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Teatro Massimo",
+        "descricao": "Casa de ópera de Palermo, na Sicília, a maior da Itália.",
+        "variantes": [
+          "Teatro Massimo Vittorio Emanuele",
+          "Teatro Massimo de Palermo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Dois vibrafones visíveis, com barras metálicas e tubos ressoadores; foto simples, sem texto que entregue a resposta.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de percussão, de barras metálicas, é este?",
+      "resposta": "Vibrafone",
+      "distratores": [
+        "Marimba",
+        "Xilofone",
+        "Glockenspiel"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Vibrafone",
+        "descricao": "Instrumento de percussão de barras metálicas afinadas sobre tubos ressoadores com discos giratórios.",
+        "variantes": [
+          "Vibraharpa",
+          "Vibraphone"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cornetim prateado nítido, sem texto relevante. 'Onde' não serve; troquei para 'o que é' com distratores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de metal, de três pistos, é este?",
+      "resposta": "Cornetim",
+      "distratores": [
+        "Trompete",
+        "Flugelhorn",
+        "Trompa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cornetim",
+        "descricao": "Instrumento de metal de três pistos, parecido com o trompete, de tubo cônico e som mais suave.",
+        "variantes": [
+          "Corneta",
+          "Cornet"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Os estandartes da fachada trazem 'Teatro Real' e o logotipo TR escritos, o que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arena de Verona bem visível; os letreiros pequenos ('Arena shop') não entregam a resposta sobre o tipo de construção; pessoas só como passantes ao fundo.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta construção romana recebe temporadas de ópera no verão desde 1913. Que tipo de edifício antigo é?",
+      "resposta": "Anfiteatro",
+      "distratores": [
+        "Teatro",
+        "Circo",
+        "Basílica"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Arena de Verona",
+        "descricao": "Anfiteatro romano bem conservado em Verona, na Itália, que abriga temporadas de ópera.",
+        "variantes": [
+          "Verona Arena",
+          "Arena di Verona",
+          "Anfiteatro de Verona"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fachada neoclássica nítida; placas e faixa ilegíveis. Boa para múltipla escolha.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade europeia fica este teatro neoclássico?",
+      "resposta": "Praga",
+      "distratores": [
+        "Viena",
+        "Budapeste",
+        "Salzburgo"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Teatro dos Estados (Praga)",
+        "descricao": "Teatro histórico neoclássico de Praga, na República Tcheca, ligado ao Teatro Nacional.",
+        "variantes": [
+          "Estates Theatre",
+          "Stavovské divadlo",
+          "Teatro Estates"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Duas flautas doces (marfim e madeira) em destaque em vitrine de museu; violinos ao fundo, mas o enunciado delimita o primeiro plano.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de sopro aparece em destaque nesta foto, em marfim e em madeira?",
+      "resposta": "Flauta doce",
+      "distratores": [
+        "Flauta transversal",
+        "Oboé",
+        "Clarinete"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Flauta doce",
+        "descricao": "Instrumento de sopro de bisel, com orifício para o polegar e sete para os dedos.",
+        "variantes": [
+          "Recorder",
+          "Flauta de bisel"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Ópera de Oslo muito característica, sem texto. Troquei para 'onde' com distratores nórdicos.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta casa de ópera, que parece sair da água?",
+      "resposta": "Noruega",
+      "distratores": [
+        "Suécia",
+        "Dinamarca",
+        "Finlândia"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Ópera de Oslo",
+        "descricao": "Casa da Ópera e Balé Nacional da Noruega, edifício de mármore branco à beira do fiorde de Oslo.",
+        "variantes": [
+          "Oslo Opera House",
+          "Operahuset"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A fachada traz 'TEATRO SOLIS' escrito, o que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Sinos tubulares nítidos; a marca pequena e os cartazes ao fundo não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de percussão da orquestra, feito de tubos de metal pendurados, é este?",
+      "resposta": "Sinos tubulares",
+      "distratores": [
+        "Vibrafone",
+        "Glockenspiel",
+        "Triângulo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sinos tubulares",
+        "descricao": "Instrumento de percussão formado por tubos de metal afinados, golpeados com martelo, que imita sinos de igreja.",
+        "variantes": [
+          "Tubular bells",
+          "Carrilhão de orquestra",
+          "Chimes"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Qual é ela?' com resposta 'Clarinete' é confuso: a família também poderia ser 'madeiras'. Reformulado para pedir o instrumento.",
+      "reescrita": {
+        "pergunta": "Esta foto mostra, em vários tamanhos, um instrumento de sopro da família das madeiras. Que instrumento é este?",
+        "resposta": "Clarinete",
+        "distratores": [
+          "Oboé",
+          "Fagote",
+          "Saxofone"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Caixa em forma de pera' não é confirmada pelos trechos, que citam formatos de guitarra e de alaúde, e 'teclas' abre espaço para cravo ou clavicórdio. Troquei por uma pista segura (trovadores e músicos de rua).",
+      "reescrita": {
+        "pergunta": "Que instrumento de cordas antigo, tocado por trovadores e músicos de rua na Europa, é este?",
+        "resposta": "Sanfona de roda",
+        "distratores": [
+          "Alaúde",
+          "Saltério",
+          "Bandolim"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'A maior casa de ópera da Itália' basta para responder sem olhar a figura. Troquei por um fato dos trechos que não entrega a resposta.",
+      "reescrita": {
+        "pergunta": "Esta casa de ópera italiana foi inaugurada em 1897 com Falstaff, de Verdi. Que teatro é este?",
+        "resposta": "Teatro Massimo",
+        "distratores": [
+          "Teatro alla Scala",
+          "La Fenice",
+          "Teatro San Carlo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto, sem vazamento, e a imagem distingue o vibrafone dos distratores (tubos ressoadores).",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Três pistos' vale também para trompete e flugelhorn. Cornetim e trompete são difíceis de distinguir numa foto, então a resposta única não se sustenta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Construção romana com ópera no verão desde 1913' identifica a Arena sem a figura, e a resposta 'anfiteatro' fica trivial. Passei a pedir a cidade, sem citar Verona.",
+      "reescrita": {
+        "pergunta": "Em que cidade italiana fica este anfiteatro romano, que recebe temporadas de ópera no verão?",
+        "resposta": "Verona",
+        "distratores": [
+          "Nápoles",
+          "Florença",
+          "Turim"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta curta, sem vazamento, com resposta confirmada pelos trechos e distratores de mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Em marfim e em madeira' é uma afirmação sobre a foto que não consta em 'mostra' e não pode ser verificada. Troquei por uma pista segura.",
+      "reescrita": {
+        "pergunta": "Que instrumento de sopro da família das madeiras, muito presente na música barroca, é este?",
+        "resposta": "Flauta doce",
+        "distratores": [
+          "Flauta transversal",
+          "Oboé",
+          "Clarinete"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Parece sair da água' é uma descrição subjetiva, e a Ópera de Copenhague, na Dinamarca, também fica à beira d'água. Troquei por uma pista segura (mármore branco, país nórdico).",
+      "reescrita": {
+        "pergunta": "Em que país nórdico fica esta casa de ópera de mármore branco?",
+        "resposta": "Noruega",
+        "distratores": [
+          "Suécia",
+          "Dinamarca",
+          "Finlândia"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Tubos de metal' é palavra próxima de 'tubulares' (vazamento), e descrever o instrumento pela sua composição entrega a resposta. Troquei por um fato de repertório dos trechos.",
+      "reescrita": {
+        "pergunta": "Este instrumento de percussão imita sinos de igreja e aparece na Abertura 1812, de Tchaikovsky. Qual é ele?",
+        "resposta": "Sinos tubulares",
+        "distratores": [
+          "Vibrafone",
+          "Glockenspiel",
+          "Triângulo"
+        ]
+      }
+    }
+  ]
+}
