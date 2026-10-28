@@ -1,0 +1,127 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tepui da América do Sul é este?",
+        "resposta": "Monte Roraima"
+      },
+      "existentes": [
+        {
+          "id": "q02088",
+          "pergunta": "Acredita-se que o Monte Roraima inspirou um romance de 1912 sobre dinossauros num planalto isolado. Quem escreveu esse livro?",
+          "resposta": "Arthur Conan Doyle"
+        },
+        {
+          "id": "q02089",
+          "pergunta": "O Monte Roraima fica na fronteira entre o Brasil, a Venezuela e qual outro país?",
+          "resposta": "Guiana"
+        },
+        {
+          "id": "q08822",
+          "pergunta": "O Monte Roraima, na fronteira do Brasil com a Venezuela e a Guiana, é um tepui. Qual é o formato típico desse tipo de montanha?",
+          "resposta": "Topo plano, como uma mesa"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade fica este mercado histórico?",
+        "resposta": "São Paulo"
+      },
+      "existentes": [
+        {
+          "id": "q14513",
+          "pergunta": "Em que cidade brasileira fica este mercado?",
+          "resposta": "São Paulo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que palácio de Brasília é este?",
+        "resposta": "Palácio do Itamaraty"
+      },
+      "existentes": [
+        {
+          "id": "q09123",
+          "pergunta": "Em Brasília, o Palácio Itamaraty, projetado por Niemeyer e cercado por um espelho d'água, também é conhecido por que outro nome?",
+          "resposta": "Palácio dos Arcos"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que cidade fica esta torre de transmissão?",
+        "resposta": "Brasília"
+      },
+      "existentes": [
+        {
+          "id": "q15877",
+          "pergunta": "Que torre é esta?",
+          "resposta": "Torre de TV de Brasília"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que estado brasileiro ficam estas quedas-d'água?",
+        "resposta": "Paraná"
+      },
+      "existentes": [
+        {
+          "id": "q02064",
+          "pergunta": "Em tupi-guarani, o que significa o nome Iguaçu?",
+          "resposta": "Água grande"
+        },
+        {
+          "id": "q02065",
+          "pergunta": "Que nome tem a queda das Cataratas do Iguaçu, uma fenda longa e estreita que recebe cerca de metade da vazão do rio?",
+          "resposta": "Garganta do Diabo"
+        },
+        {
+          "id": "q06713",
+          "pergunta": "Que explorador espanhol é considerado o primeiro europeu a ver as Cataratas do Iguaçu, no século dezesseis?",
+          "resposta": "Cabeza de Vaca"
+        },
+        {
+          "id": "q15264",
+          "pergunta": "Que cataratas são estas?",
+          "resposta": "Cataratas do Iguaçu"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o tepui pela imagem é um fato diferente dos existentes (autor, fronteira, formato)."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre a cidade do mercado, mesma resposta: São Paulo.",
+      "id_existente": "q14513"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o palácio pelo nome é diferente de perguntar o outro nome dele (Palácio dos Arcos); a pergunta existente já revela o nome Itamaraty, mas o fato perguntado é outro."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Cidade da torre é fato diferente de identificar o nome da torre, embora a resposta de uma sugira a outra, na dúvida nova."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Estado onde ficam as cataratas é fato diferente de identificá-las, do significado do nome, da Garganta do Diabo ou do explorador."
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A fachada mostra a inscrição 'THEATRO MUNICIPAL', que entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ponte estaiada com a orla e o horizonte de Natal, reconhecível em múltipla escolha.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que capital nordestina fica esta ponte estaiada?",
+      "resposta": "Natal",
+      "distratores": [
+        "Fortaleza",
+        "Recife",
+        "João Pessoa"
+      ],
+      "ancora": {
+        "nome": "Ponte Newton Navarro",
+        "descricao": "Ponte estaiada sobre o Rio Potengi, em Natal, Rio Grande do Norte.",
+        "variantes": [
+          "Ponte de Todos",
+          "Newton Navarro Bridge"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fachada característica de Niemeyer, sem texto, reconhecível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que praça da capital federal fica este prédio?",
+      "resposta": "Praça dos Três Poderes",
+      "distratores": [
+        "Praça do Buriti",
+        "Praça do Cruzeiro",
+        "Praça Municipal"
+      ],
+      "ancora": {
+        "nome": "Palácio do Planalto",
+        "descricao": "Sede do governo federal e local de trabalho do presidente do Brasil, em Brasília, projetado por Oscar Niemeyer.",
+        "variantes": [
+          "Planalto"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Tepui de topo plano inconfundível; múltipla com distratores de montanhas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que montanha de topo plano é esta, na divisa do Brasil com outros países?",
+      "resposta": "Monte Roraima",
+      "distratores": [
+        "Auyán-tepui",
+        "Pico da Neblina",
+        "Monte Duida"
+      ],
+      "ancora": {
+        "nome": "Monte Roraima",
+        "descricao": "Tepui de topo plano na junção entre Brasil, Venezuela e Guiana.",
+        "variantes": [
+          "Roraima",
+          "Mount Roraima",
+          "Tepui Roraima"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida da ponte estaiada sobre o rio, sem texto; distratores de pontes estaiadas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que ponte estaiada brasileira é esta?",
+      "resposta": "Ponte Rio Negro",
+      "distratores": [
+        "Ponte Newton Navarro",
+        "Ponte Octavio Frias de Oliveira",
+        "Ponte JK"
+      ],
+      "ancora": {
+        "nome": "Ponte Rio Negro",
+        "descricao": "Ponte estaiada sobre o Rio Negro que liga Manaus a Iranduba, no Amazonas.",
+        "variantes": [
+          "Ponte Jornalista Phelippe Daou",
+          "Rio Negro Bridge"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vista noturna da avenida entre arranha-céus, sem texto; aceitável em múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que avenida de São Paulo é esta?",
+      "resposta": "Avenida Paulista",
+      "distratores": [
+        "Avenida Faria Lima",
+        "Avenida Rebouças",
+        "Avenida Vinte e Três de Maio"
+      ],
+      "ancora": {
+        "nome": "Avenida Paulista",
+        "descricao": "Importante avenida da cidade de São Paulo, centro financeiro e cultural.",
+        "variantes": [
+          "Paulista",
+          "Paulista Avenue"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "É uma montagem de várias vistas e edifícios diferentes, com um horizonte de prédios modernos que não identifica a cidade."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fachada e cúpulas características do Mercadão, sem texto legível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica este mercado histórico?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Rio de Janeiro",
+        "Curitiba",
+        "Porto Alegre"
+      ],
+      "ancora": {
+        "nome": "Mercado Municipal de São Paulo",
+        "descricao": "Mercado público histórico no centro de São Paulo, inaugurado em 1933.",
+        "variantes": [
+          "Mercadão",
+          "Mercado Municipal Paulistano"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Arcadas e espelho d'água inconfundíveis; distratores de outros palácios de Niemeyer.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que palácio de Brasília é este?",
+      "resposta": "Palácio do Itamaraty",
+      "distratores": [
+        "Palácio da Alvorada",
+        "Palácio do Planalto",
+        "Palácio da Justiça"
+      ],
+      "ancora": {
+        "nome": "Palácio do Itamaraty",
+        "descricao": "Sede do Ministério das Relações Exteriores do Brasil, em Brasília, projetado por Oscar Niemeyer.",
+        "variantes": [
+          "Palácio dos Arcos",
+          "Itamaraty"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Torre inconfundível com mirante em plataforma, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica esta torre de transmissão?",
+      "resposta": "Brasília",
+      "distratores": [
+        "São Paulo",
+        "Goiânia",
+        "Curitiba"
+      ],
+      "ancora": {
+        "nome": "Torre de TV de Brasília",
+        "descricao": "Torre de transmissão de rádio e TV com mirante, no Eixo Monumental de Brasília.",
+        "variantes": [
+          "Torre de Televisão de Brasília",
+          "Brasília TV Tower"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista aérea característica da Garganta do Diabo e do conjunto de quedas.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que estado brasileiro ficam estas quedas-d'água?",
+      "resposta": "Paraná",
+      "distratores": [
+        "Santa Catarina",
+        "Rio Grande do Sul",
+        "Mato Grosso do Sul"
+      ],
+      "ancora": {
+        "nome": "Cataratas do Iguaçu",
+        "descricao": "Conjunto de quedas-d'água do Rio Iguaçu, na divisa entre Brasil e Argentina.",
+        "variantes": [
+          "Cataratas do Iguazú",
+          "Iguazu Falls",
+          "Foz do Iguaçu"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Praia genérica com dunas e uma jangada, sem elemento que permita reconhecer Canoa Quebrada; muito parecida com outras praias cearenses."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos. O enunciado não nomeia a ponte nem a cidade, e os distratores são capitais nordestinas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o palácio fica na Praça dos Três Poderes. O enunciado não entrega a resposta, e os distratores são praças reais de Brasília com no máximo 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Topo plano' mais 'divisa do Brasil' quase identifica o Roraima sem a figura. Outras montanhas de topo plano ficam na região, como o Wei-Assipu. Tirei a pista de fronteira e troquei o Pico da Neblina, que não tem topo plano, por um tepui visualmente parecido.",
+      "reescrita": {
+        "pergunta": "Que tepui da América do Sul é este?",
+        "resposta": "Monte Roraima",
+        "distratores": [
+          "Auyán-tepui",
+          "Kukenán-tepui",
+          "Monte Duida"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta e a resposta estão corretas. O distrator 'Ponte Octavio Frias de Oliveira' tem 5 palavras, acima do limite de 4.",
+      "reescrita": {
+        "pergunta": "Que ponte estaiada brasileira é esta?",
+        "resposta": "Ponte Rio Negro",
+        "distratores": [
+          "Ponte Newton Navarro",
+          "Ponte Octavio Frias",
+          "Ponte JK"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Avenida Vinte e Três de Maio' tem 6 palavras, acima do limite de 4. Troquei por uma avenida de nome curto.",
+      "reescrita": {
+        "pergunta": "Que avenida de São Paulo é esta?",
+        "resposta": "Avenida Paulista",
+        "distratores": [
+          "Avenida Faria Lima",
+          "Avenida Rebouças",
+          "Avenida Ipiranga"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o mercado fica em São Paulo. O enunciado não nomeia o mercado, e os distratores são capitais críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o Itamaraty fica em Brasília. Os distratores são palácios reais de Brasília, nenhum deles correto, e o enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a torre fica em Brasília. O enunciado não vaza a resposta, e os distratores são cidades críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que as Cataratas do Iguaçu ficam no Paraná. O enunciado não vaza a resposta, e os distratores são estados do Sul e Centro-Oeste, nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}
