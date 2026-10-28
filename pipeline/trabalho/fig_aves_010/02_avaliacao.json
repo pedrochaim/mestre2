@@ -1,0 +1,302 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de papagaio-cinzento em voo, cauda vermelha visível; reconhecível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que continente esta ave vive naturalmente?",
+      "resposta": "África",
+      "distratores": [
+        "América do Sul",
+        "Ásia",
+        "Oceania"
+      ],
+      "ancora": {
+        "nome": "Papagaio-cinzento",
+        "descricao": "Papagaio africano de plumagem cinza e cauda vermelha, Psittacus erithacus, famoso pela inteligência e pela imitação da fala.",
+        "variantes": [
+          "Papagaio-cinzento-do-congo",
+          "Papagaio-cinzento-africano",
+          "Psittacus erithacus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bico e faixa ocular vermelhos, plumagem finamente barrada; reconhecível e imagem limpa.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta pequena ave, muito criada em gaiolas, é nativa de qual continente?",
+      "resposta": "África",
+      "distratores": [
+        "Ásia",
+        "Oceania",
+        "América do Sul"
+      ],
+      "ancora": {
+        "nome": "Bico-de-lacre",
+        "descricao": "Pequeno passeriforme estrildídeo de bico vermelho e plumagem cinza-parda barrada, Estrilda astrild, nativo da África subsaariana.",
+        "variantes": [
+          "Bico-de-lacre-comum",
+          "Common waxbill",
+          "Estrilda astrild"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida, chapim-azul inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta pequena ave europeia disputa ninhos e comida com qual ave maior da mesma família?",
+      "resposta": "Chapim-real",
+      "distratores": [
+        "Chapim-preto",
+        "Chapim-de-poupa",
+        "Chapim-carvoeiro"
+      ],
+      "ancora": {
+        "nome": "Chapim-azul",
+        "descricao": "Pequena ave europeia da família Paridae, de plumagem azul e amarela, Cyanistes caeruleus.",
+        "variantes": [
+          "Eurasian blue tit",
+          "Cyanistes caeruleus"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cabeça e garganta vermelhas, dorso cinza e ventre branco; nítida e reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que região do Brasil esta ave é originária?",
+      "resposta": "Nordeste",
+      "distratores": [
+        "Sul",
+        "Sudeste",
+        "Norte"
+      ],
+      "ancora": {
+        "nome": "Galo-de-campina",
+        "descricao": "Ave tanagrídea de cabeça e garganta vermelhas, Paroaria dominicana, endêmica do Brasil e típica da Caatinga.",
+        "variantes": [
+          "Cardeal-do-nordeste",
+          "Red-cowled cardinal",
+          "Paroaria dominicana"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Macho de pato-carolino nítido e inconfundível; família o_que_e rende pergunta melhor que a sugerida.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ave é esta?",
+      "resposta": "Pato-carolino",
+      "distratores": [
+        "Pato-mandarim",
+        "Pato-do-mato",
+        "Marreca-toicinho"
+      ],
+      "ancora": {
+        "nome": "Pato-carolino",
+        "descricao": "Pato norte-americano de colorido vistoso, Aix sponsa, que pousa em árvores.",
+        "variantes": [
+          "Wood duck",
+          "Carolina duck",
+          "Aix sponsa"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Trinca-ferro nítido, reconhecível com atenção; múltipla com saltadores parecidos. Pergunta de lugar não rende resposta única (ocorre em vários países).",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ave canora é esta?",
+      "resposta": "Trinca-ferro",
+      "distratores": [
+        "Bico-de-pimenta",
+        "Bico-grosso",
+        "Batuqueiro"
+      ],
+      "ancora": {
+        "nome": "Trinca-ferro",
+        "descricao": "Ave canora tanagrídea de dorso verde-oliva, cabeça cinza e bico forte, Saltator similis.",
+        "variantes": [
+          "Trinca-ferro-verdadeiro",
+          "Green-winged saltator",
+          "Saltator similis"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Dois cisnes da mesma espécie, pescoço preto e bico vermelho, claros.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta é a maior ave da família dos patos, gansos e cisnes nativa de qual continente?",
+      "resposta": "América do Sul",
+      "distratores": [
+        "América do Norte",
+        "África",
+        "Oceania"
+      ],
+      "ancora": {
+        "nome": "Cisne-de-pescoço-preto",
+        "descricao": "Cisne sul-americano de pescoço preto e bico vermelho com carúncula, Cygnus melancoryphus.",
+        "variantes": [
+          "Black-necked swan",
+          "Cygnus melancoryphus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Galah nítida, plumagem rosa e cinza inconfundível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país esta ave é nativa?",
+      "resposta": "Austrália",
+      "distratores": [
+        "Nova Zelândia",
+        "Indonésia",
+        "África do Sul"
+      ],
+      "ancora": {
+        "nome": "Cacatua-rosa",
+        "descricao": "Cacatua australiana de peito rosa, dorso cinza e topete branco, Eolophus roseicapilla.",
+        "variantes": [
+          "Galah",
+          "Cacatua-galah",
+          "Eolophus roseicapilla"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Duas marrecas da mesma espécie, bico rosa e ventre preto, claras; múltipla com marrecas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ave aquática, de pernas e bico rosados, é esta?",
+      "resposta": "Marreca-cabocla",
+      "distratores": [
+        "Irerê",
+        "Marreca-caneleira",
+        "Marreca-toicinho"
+      ],
+      "ancora": {
+        "nome": "Marreca-cabocla",
+        "descricao": "Marreca arborícola de bico rosa e ventre preto, Dendrocygna autumnalis.",
+        "variantes": [
+          "Asa-branca",
+          "Black-bellied whistling duck",
+          "Dendrocygna autumnalis"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Corvo-comum nítido, bico grosso e garganta eriçada; múltipla com aves negras parecidas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ave negra é esta?",
+      "resposta": "Corvo",
+      "distratores": [
+        "Gralha-preta",
+        "Anu-preto",
+        "Urubu"
+      ],
+      "ancora": {
+        "nome": "Corvo",
+        "descricao": "Grande ave negra da família dos corvídeos, Corvus corax, a mais difundida no Hemisfério Norte.",
+        "variantes": [
+          "Corvo-comum",
+          "Common raven",
+          "Corvus corax"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Casal de diamante-mandarim nítido (macho e fêmea), reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que pequena ave, popular em gaiolas, é esta?",
+      "resposta": "Diamante-mandarim",
+      "distratores": [
+        "Diamante-de-gould",
+        "Bico-de-lacre",
+        "Peito-celeste"
+      ],
+      "ancora": {
+        "nome": "Mandarim",
+        "descricao": "Pequeno pássaro estrildídeo australiano de bico laranja, macho com bochechas castanhas e peito listrado, Taeniopygia guttata.",
+        "variantes": [
+          "Diamante-mandarim",
+          "Zebra finch",
+          "Taeniopygia guttata"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Gralha de crista preta e azul, nítida e reconhecível; múltipla entre gralhas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que gralha de topete preto e azul é esta?",
+      "resposta": "Gralha-picaça",
+      "distratores": [
+        "Gralha-azul",
+        "Gralha-cancã",
+        "Gralha-do-campo"
+      ],
+      "ancora": {
+        "nome": "Gralha-picaça",
+        "descricao": "Corvídeo sul-americano de crista negra aveludada, dorso azul e ventre creme, Cyanocorax chrysops.",
+        "variantes": [
+          "Gralha-de-crista-negra",
+          "Plush-crested jay",
+          "Cyanocorax chrysops"
+        ]
+      }
+    }
+  ]
+}

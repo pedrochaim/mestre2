@@ -1,0 +1,112 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nativo da África confirmado nos trechos; enunciado não entrega a resposta nem o nome da ave; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nativo da África subsaariana e popular em cativeiro, conforme os trechos. A pista não identifica a ave sozinha.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É amplamente documentado que o chapim-real, maior, disputa ninhos e comida com o chapim-azul. Os distratores são menores ou de porte parecido, e o enunciado não nomeia a ave nem dá pista que a entregue.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ocorre em quase todo o Nordeste, na Caatinga, e é endêmica do Brasil. O enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento. Os distratores são patos críveis e diferentes da resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Trinca-ferro é o nome popular de Saltator similis (trecho). A pista 'canora' não entrega a ave, e os distratores são aves de bico forte parecidas.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato é sustentado (maior ave aquática nativa da América do Sul), mas a redação é ambígua para voz e pode ser lida como 'a maior do mundo'. Reescrita mais clara.",
+      "reescrita": {
+        "pergunta": "Entre os patos, gansos e cisnes nativos de um continente, esta ave é a maior. Que continente é esse?",
+        "resposta": "América do Sul",
+        "distratores": [
+          "América do Norte",
+          "África",
+          "Oceania"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Espécie endêmica da Austrália; nível 1 direto, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "O trecho em português descreve bico e pés vermelhos, não rosados, o que torna a pista imprecisa. Troquei por pista segura (comum na Amazônia brasileira), que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que marreca, comum na Amazônia brasileira, é esta?",
+        "resposta": "Marreca-cabocla",
+        "distratores": [
+          "Irerê",
+          "Marreca-caneleira",
+          "Marreca-toicinho"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento; 'ave negra' não entrega a resposta, e os distratores também são aves negras.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zebra finch é um animal de estimação popular e criado em gaiolas, segundo o trecho. A pista não entrega o nome, e os distratores são pássaros de gaiola parecidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Topete preto e azul' também descreve a gralha-azul, e o trecho em português diz que a gralha-picaça também é conhecida como cancã, o que torna esse distrator defensável. Troquei a pista e os distratores.",
+      "reescrita": {
+        "pergunta": "Que gralha do sul da América do Sul, de crista negra aveludada, é esta?",
+        "resposta": "Gralha-picaça",
+        "distratores": [
+          "Gralha-azul",
+          "Gralha-do-campo",
+          "Gralha-de-nuca-azul"
+        ]
+      }
+    }
+  ]
+}
