@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A que grupo de animais pertence este ser marinho?",
+        "resposta": "Equinodermos"
+      },
+      "existentes": [
+        {
+          "id": "q04110",
+          "pergunta": "Que animal marinho é este?",
+          "resposta": "Estrela-do-mar"
+        },
+        {
+          "id": "q09585",
+          "pergunta": "Para comer um mexilhão, a estrela-do-mar força a concha a abrir uma fresta. O que ela faz então com o próprio estômago?",
+          "resposta": "Põe para fora do corpo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o grupo taxonômico (equinodermos); a existente q04110 pede identificar o animal (estrela-do-mar). Fatos diferentes, e saber um não leva ao outro."
+    }
+  ]
+}

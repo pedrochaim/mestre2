@@ -1,0 +1,84 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Rocha em camadas numa paisagem; não se reconhece como calcário pela imagem, resposta não é única (poderia ser arenito, etc.)."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A amostra parece uma rocha granular clara, sem a textura espumosa típica da pedra-pomes; não é reconhecível como tal."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Cristais alaranjados parecidos com granada (item 9), wulfenita etc.; resposta não é única só pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Pedreira com máquinas; não mostra o mármore de forma reconhecível, poderia ser calcário ou outra rocha clara."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Cristal translúcido que pode ser confundido com calcita, quartzo ou outros; não identificável como gipsita."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Estrela-do-mar nítida, claramente reconhecível; pergunta de grupo zoológico exige reconhecer o animal.",
+      "destino": 2,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A que grupo de animais pertence este ser marinho?",
+      "resposta": "Equinodermos",
+      "distratores": [
+        "Moluscos",
+        "Crustáceos",
+        "Cnidários"
+      ],
+      "ancora": {
+        "nome": "Estrela-do-mar",
+        "descricao": "Equinodermo da classe Asteroidea, de corpo em forma de estrela, geralmente com cinco braços.",
+        "variantes": [
+          "Estrela-do-mar-real",
+          "Asteroidea",
+          "Asteroide marinho"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem microscópica de baixa resolução e pouco característica; difícil de reconhecer como rotífero e ilegível no celular."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Diagrama cheio de texto, com legendas e título que entregam a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Cristais alaranjados parecidos com vanadinita e outros minerais; resposta não é única pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Fragmento metálico cinza sem traço distintivo; não dá para reconhecer o antimônio pela imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Montagem de duas imagens (foto de pessoa comum em primeiro plano e desenho anatômico com texto manuscrito); não mostra uma única entidade clara."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Pedra pequena na mão de uma pessoa, sem forma reconhecível como jaspe; pessoa em primeiro plano e resposta não única."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Estrela-do-mar",
+        "descricao": "Equinodermo da classe Asteroidea, de corpo em forma de estrela, geralmente com cinco braços.",
+        "variantes": [
+          "Estrela-do-mar-real",
+          "Asteroidea",
+          "Asteroide marinho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        },
+        {
+          "id": "ceres",
+          "nome": "Ceres",
+          "descricao": "Planeta anão do cinturão de asteroides entre Marte e Júpiter, com manchas brilhantes na cratera Occator.",
+          "variantes": [
+            "Asteroide",
+            "Ceres (planeta anão)",
+            "1 Ceres"
+          ]
+        },
+        {
+          "id": "asteroide",
+          "nome": "Asteroide",
+          "descricao": "Pequeno corpo rochoso ou metálico que orbita o Sol, concentrado sobretudo no cinturão entre Marte e Júpiter.",
+          "variantes": []
+        },
+        {
+          "id": "sirius",
+          "nome": "Sírius",
+          "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+          "variantes": [
+            "Alfa do Cão Maior",
+            "Estrela do Cão"
+          ]
+        },
+        {
+          "id": "estrela_polar",
+          "nome": "Estrela Polar",
+          "descricao": "Estrela muito próxima do polo norte celeste, usada há séculos para indicar o norte.",
+          "variantes": [
+            "Polaris",
+            "Alfa da Ursa Menor"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "estrela_do_mar",
+      "motivo": "Mesma entidade: equinodermo da classe Asteroidea, com cinco braços; descrições equivalentes."
+    }
+  ]
+}
