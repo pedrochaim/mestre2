@@ -1,0 +1,77 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Invenção em 1929 por Van de Graaff confirmada no trecho. O enunciado não nomeia o aparelho, e os distratores são plausíveis e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que William Addis é tido como autor da primeira escova produzida em massa, em 1780, na Inglaterra. Não há vazamento e os distratores são críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos situam o primeiro modelo em 2001 (a data exata varia entre eles). A pergunta é múltipla, como exige a regra para anos, e os distratores são anos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado entrega a resposta no teste da imagem coberta, pois 'Long Island, 1901, sinais sem fio' identifica a torre de Tesla. Além disso, 'projetou' é impreciso, já que o trecho em português atribui o projeto da estrutura a W.D. Crow. Troquei a pista por uma que ajuda sem entregar e usei o verbo 'idealizou'.",
+      "reescrita": {
+        "pergunta": "Esta torre foi demolida em 1917, nos Estados Unidos. Que inventor idealizou o projeto?",
+        "resposta": "Nikola Tesla",
+        "distratores": [
+          "Guglielmo Marconi",
+          "Thomas Edison",
+          "George Westinghouse"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho situa a patente de Judson em 1893 e diz que o 'clasp locker' estreou na Feira Mundial de Chicago de 1893, então o ano 1892 é impreciso. O 'desenho original deste fecho' também é discutível, porque o zíper moderno é de Sundbäck. Reescrevi com o fato do trecho.",
+      "reescrita": {
+        "pergunta": "Que inventor americano apresentou uma versão primitiva deste fecho na Feira Mundial de Chicago, em 1893?",
+        "resposta": "Whitcomb L. Judson",
+        "distratores": [
+          "Isaac Singer",
+          "Levi Strauss",
+          "Walter Hunt"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O fenacistoscópio foi inventado por volta de 1832, o que é amplamente documentado. Os trechos o situam em torno de 1830–1831. Os distratores são décadas críveis e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A imagem coberta ainda permite responder: 'motor elétrico, 1821, cientista inglês' leva direto a Faraday. Os distratores também são fracos, pois Ampère não é inglês e Tesla é de outra época. Reescrevi para um passo de conhecimento após reconhecer o motor, com base no trecho sobre o fio mergulhado em mercúrio.",
+      "reescrita": {
+        "pergunta": "No experimento original que demonstrou o princípio deste motor, em que metal líquido mergulhava o fio?",
+        "resposta": "Mercúrio",
+        "distratores": [
+          "Gálio",
+          "Sódio",
+          "Estanho"
+        ]
+      }
+    }
+  ]
+}

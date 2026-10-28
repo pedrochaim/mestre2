@@ -1,0 +1,68 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem inventou, em 1929, este aparelho de eletricidade estática?",
+        "resposta": "Robert J. Van de Graaff"
+      },
+      "existentes": [
+        {
+          "id": "q14864",
+          "pergunta": "Esta máquina de esfera metálica foi concebida por seu inventor como fonte de energia para que tipo de equipamento de pesquisa?",
+          "resposta": "Acelerador de partículas"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que inglês começou a produzir em massa este objeto, por volta de 1780?",
+        "resposta": "William Addis"
+      },
+      "existentes": [
+        {
+          "id": "q00907",
+          "pergunta": "Por volta de 1780, o inglês William Addis teve a ideia de fazer uma escova de dentes com osso e cerdas. Onde ele estava?",
+          "resposta": "Na prisão"
+        },
+        {
+          "id": "q04520",
+          "pergunta": "Antes do náilon, que chegou no fim dos anos trinta, as cerdas das escovas de dentes eram feitas, em geral, com pelos de qual animal?",
+          "resposta": "Porco (ou javali)"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que inventor americano apresentou uma versão primitiva deste fecho na Feira Mundial de Chicago, em 1893?",
+        "resposta": "Whitcomb L. Judson"
+      },
+      "existentes": [
+        {
+          "id": "q00932",
+          "pergunta": "Em 1923, a fabricante de pneus Goodrich criou o nome zipper ao usar o fecho deslizante em que tipo de calçado?",
+          "resposta": "Galochas de borracha"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Inventor é um fato diferente da finalidade do aparelho."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede quem produziu em massa (Addis); a existente pergunta onde ele estava (prisão). A resposta de uma não revela a outra."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Inventor da versão primitiva em 1893 difere da origem do nome zipper em 1923."
+    }
+  ]
+}

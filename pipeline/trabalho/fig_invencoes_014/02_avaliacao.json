@@ -1,0 +1,196 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Campo de antenas de ondas curtas: a imagem não mostra com clareza 'o rádio' e a invenção do rádio não tem autor único (Marconi, Tesla, Popov), então a resposta não seria única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Gerador de Van de Graaff didático, bem reconhecível, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Quem inventou, em 1929, este aparelho de eletricidade estática?",
+      "resposta": "Robert J. Van de Graaff",
+      "distratores": [
+        "Nikola Tesla",
+        "Michael Faraday",
+        "James Wimshurst"
+      ],
+      "ancora": {
+        "nome": "Gerador de Van de Graaff",
+        "descricao": "Gerador eletrostático que acumula carga numa esfera metálica oca por meio de uma correia móvel.",
+        "variantes": [
+          "Van de Graaff generator"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O mostrador traz texto em russo ('umidade relativa do ar') que entrega a resposta, além de marca e ano."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Três escovas de dentes modernas, claras; a marca 'Jordan' aparece mas não entrega a resposta.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que inglês começou a produzir em massa este objeto, por volta de 1780?",
+      "resposta": "William Addis",
+      "distratores": [
+        "Wallace Carothers",
+        "Josiah Wedgwood",
+        "Samuel Colgate"
+      ],
+      "ancora": {
+        "nome": "Escova de dentes",
+        "descricao": "Escova com cerdas montadas num cabo, usada para limpar dentes, gengivas e língua.",
+        "variantes": [
+          "Toothbrush",
+          "Escova dental"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Quatro modelos da linha iPod num só fundo branco, sem texto que entregue; assunto único (a linha iPod).",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que ano foi lançada a primeira versão deste aparelho?",
+      "resposta": "2001",
+      "distratores": [
+        "1999",
+        "2003",
+        "2005"
+      ],
+      "ancora": {
+        "nome": "iPod",
+        "descricao": "Linha de tocadores de mídia portáteis da Apple, lançada em 2001 e encerrada em 2022.",
+        "variantes": [
+          "Apple iPod"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida e característica da torre com cúpula e do prédio de tijolos.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem projetou esta torre, construída em Long Island em 1901 para transmitir sinais sem fio?",
+      "resposta": "Nikola Tesla",
+      "distratores": [
+        "Guglielmo Marconi",
+        "Thomas Edison",
+        "George Westinghouse"
+      ],
+      "ancora": {
+        "nome": "Torre Wardenclyffe",
+        "descricao": "Estação experimental de transmissão sem fio construída em Shoreham, Nova York, entre 1901 e 1902, e demolida em 1917.",
+        "variantes": [
+          "Wardenclyffe Tower",
+          "Torre Tesla"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Três zíperes claros e reconhecíveis; as letras nos cursores são minúsculas e não entregam a resposta.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que inventor americano de Chicago patenteou, em 1892, o desenho original deste fecho?",
+      "resposta": "Whitcomb L. Judson",
+      "distratores": [
+        "Isaac Singer",
+        "Levi Strauss",
+        "Walter Hunt"
+      ],
+      "ancora": {
+        "nome": "Zíper",
+        "descricao": "Fecho de dois lados de dentes que se encaixam, usado em roupas, malas e barracas.",
+        "variantes": [
+          "Zip",
+          "Fecho ecler",
+          "Zipper"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Megafone elétrico moderno; a invenção do megafone tem autoria disputada (Morland, Kircher), então a resposta não seria única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Disco de fenacistoscópio com menino em sequência de movimento, característico; textos ilegíveis.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que década foi inventado este aparelho de animação?",
+      "resposta": "Década de 1830",
+      "distratores": [
+        "Década de 1810",
+        "Década de 1850",
+        "Década de 1870"
+      ],
+      "ancora": {
+        "nome": "Fenacistoscópio",
+        "descricao": "Disco giratório com fendas e imagens em sequência que cria a ilusão de movimento, inventado por Joseph Plateau e Simon Stampfer.",
+        "variantes": [
+          "Phenakistoscope",
+          "Fenaquistoscópio",
+          "Fenacistiscópio"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A autoria do secador de cabelo é disputada (Godefroy, Kazanjian), e a marca Electrolux/Toshiba aparece no aparelho."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A palavra 'Tamagotchi' está escrita na carcaça e entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Montagem clássica do motor homopolar (pilha, parafuso, ímã e fio); só aparecem mãos, e a resposta é única.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que cientista inglês demonstrou, em 1821, o princípio deste motor elétrico simples?",
+      "resposta": "Michael Faraday",
+      "distratores": [
+        "Nikola Tesla",
+        "Joseph Henry",
+        "André-Marie Ampère"
+      ],
+      "ancora": {
+        "nome": "Motor homopolar",
+        "descricao": "Motor elétrico de corrente contínua com dois polos magnéticos, sem comutador, em que um condutor gira num campo magnético fixo.",
+        "variantes": [
+          "Homopolar motor"
+        ]
+      }
+    }
+  ]
+}
