@@ -1,0 +1,124 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Etiqueta na peça mostra a palavra 'Jamón'; além disso é um pernil espanhol inteiro, não o presunto em geral."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Frutos pequenos e verdes entre folhas, foto de baixa resolução; macadâmia não é reconhecível pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Vagens verdes no meio da folhagem, sem detalhe que permita reconhecer o ingá com segurança; confundível com outras leguminosas."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Placas com preço e nomes ('Linguiça calabresa defumada', 'Linguiça portuguesa') entregam a resposta, e há várias linguiças diferentes."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Queijo branco fresco, confundível com outros queijos frescos; resposta não é única pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Talos vermelhos com folhas grandes e onduladas, bem reconhecíveis; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que hortaliça, da qual se comem os talos, é esta?",
+      "resposta": "Ruibarbo",
+      "distratores": [
+        "Aipo",
+        "Beterraba",
+        "Acelga"
+      ],
+      "ancora": {
+        "nome": "Ruibarbo",
+        "descricao": "Planta do gênero Rheum, de cujos talos carnudos se fazem tortas e geleias; as folhas são tóxicas.",
+        "variantes": [
+          "Rheum rhabarbarum",
+          "Rhubarb"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Bloco amarelo em papel alumínio é indistinguível da manteiga; a resposta não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Planta com umbelas amarelas, confundível com endro e outras apiáceas; erva-doce e funcho são nomes ambíguos."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O pote traz texto visível ('Hot pepper paste, fermented', coreano) que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Xícara coberta de creme batido com canela; creme bem visível. Letras na xícara não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que cobertura de creme de leite batido é esta sobre a bebida?",
+      "resposta": "Chantili",
+      "distratores": [
+        "Merengue",
+        "Marshmallow",
+        "Espuma de leite"
+      ],
+      "ancora": {
+        "nome": "Chantili",
+        "descricao": "Creme de leite fresco batido até ficar leve e firme, geralmente adoçado e aromatizado com baunilha.",
+        "variantes": [
+          "Chantilly",
+          "Creme chantilly",
+          "Chantili",
+          "Creme de leite batido"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fruto verde, redondo e coberto de espinhos macios, com folhas lobadas características, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fruta tropical, que depois de cozida lembra pão, é esta?",
+      "resposta": "Fruta-pão",
+      "distratores": [
+        "Jaca",
+        "Graviola",
+        "Durião"
+      ],
+      "ancora": {
+        "nome": "Fruta-pão",
+        "descricao": "Fruto da árvore Artocarpus altilis, da família das amoreiras, comido cozido como alimento básico em regiões tropicais.",
+        "variantes": [
+          "Árvore-do-pão",
+          "Breadfruit",
+          "Artocarpus altilis"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Pasta marrom em tigela branca, confundível com outras pastas fermentadas ou com pasta de amendoim; não reconhecível pela imagem."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que só os talos do ruibarbo são comestíveis e que ele é usado como hortaliça. A pista dos talos não entrega a resposta, porque aipo e acelga também têm talos comestíveis. A imagem é que decide. Os distratores são do mesmo tipo e nenhum descreve a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento. \"Creme de leite batido\" é a própria definição de chantili, então dá para responder sem ver a figura. Reescrevi sem a definição e mantive só a pista de que é uma cobertura sobre a bebida.",
+      "reescrita": {
+        "pergunta": "Que cobertura cremosa e branca, geralmente adoçada, está sobre a bebida nesta figura?",
+        "resposta": "Chantili",
+        "distratores": [
+          "Merengue",
+          "Marshmallow",
+          "Espuma de leite"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento. O enunciado diz \"lembra pão\", e a resposta é \"fruta-pão\", então a palavra derivada entrega o nome. Reescrevi com uma pista de origem e uso, que ajuda sem entregar. Os trechos sustentam o alimento básico, o cozimento e a origem no Pacífico.",
+      "reescrita": {
+        "pergunta": "Que fruto, de origem no Pacífico e comido cozido como alimento básico em regiões tropicais, é este?",
+        "resposta": "Fruta-pão",
+        "distratores": [
+          "Jaca",
+          "Graviola",
+          "Durião"
+        ]
+      }
+    }
+  ]
+}

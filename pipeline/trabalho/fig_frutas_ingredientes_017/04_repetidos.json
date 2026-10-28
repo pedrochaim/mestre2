@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fruto, de origem no Pacífico e comido cozido como alimento básico em regiões tropicais, é este?",
+        "resposta": "Fruta-pão"
+      },
+      "existentes": [
+        {
+          "id": "q06088",
+          "pergunta": "O famoso motim no navio Bounty, em 1789, aconteceu numa viagem para levar mudas de qual planta do Taiti até o Caribe?",
+          "resposta": "Fruta-pão"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede identificar a fruta-pão pela descrição (origem no Pacífico, alimento básico cozido). A existente pergunta qual planta o Bounty transportava. Os fatos são diferentes, embora a resposta seja a mesma."
+    }
+  ]
+}
