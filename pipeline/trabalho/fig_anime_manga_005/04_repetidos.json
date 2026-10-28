@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem desenhou o mangá em que aparece este personagem?",
+        "resposta": "Takeshi Obata"
+      },
+      "existentes": [
+        {
+          "id": "q15421",
+          "pergunta": "Qual é o nome do shinigami que acompanha este personagem?",
+          "resposta": "Ryuk"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre o desenhista do mangá (Takeshi Obata); a existente é sobre o shinigami acompanhante (Ryuk). São fatos diferentes."
+    }
+  ]
+}

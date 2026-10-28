@@ -1,0 +1,96 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Obata é o desenhista de Death Note (trechos). Enunciado não vaza e distratores são mangakás que não fizeram a obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem pista no enunciado; distratores são personagens da mesma obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nakaba Suzuki escreveu e ilustrou Nanatsu no Taizai; distratores são autores de outros mangás.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Anko Mitarashi não é sannin, então o distrator é eliminável pelo próprio enunciado. Só existem três sannin, então não há como ter três distratores sannin. Troquei a formulação e o distrator.",
+      "reescrita": {
+        "pergunta": "Quem treinou esta personagem como ninja médica?",
+        "resposta": "Tsunade",
+        "distratores": [
+          "Jiraiya",
+          "Orochimaru",
+          "Kakashi Hatake"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Naoko Takeuchi criou Sailor Moon (trechos); distratores são mangakás plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Edward é o irmão mais velho de Alphonse (trechos); distratores não são irmãos dele.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; distratores são personagens femininas da franquia.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pain lidera a Akatsuki (trechos). O enunciado não entrega a resposta, e os distratores são grupos de Naruto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Shinji é o único filho de Gendo (trechos); distratores são outros personagens de Evangelion.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; distratores parecidos (parentes e colega) e nenhum deles está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hideaki Anno foi o diretor de Neon Genesis Evangelion (trechos); distratores são diretores de anime.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Makima recruta Denji, o protagonista de Chainsaw Man (trechos). A palavra 'protagonista' torna a resposta única.",
+      "reescrita": null
+    }
+  ]
+}

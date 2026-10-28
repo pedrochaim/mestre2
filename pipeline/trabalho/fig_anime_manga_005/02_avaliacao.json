@@ -1,0 +1,290 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arte clara de Light Yagami, sem texto; reconhecível.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem desenhou o mangá em que aparece este personagem?",
+      "resposta": "Takeshi Obata",
+      "distratores": [
+        "Hirohiko Araki",
+        "Yoshihiro Togashi",
+        "Tite Kubo"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Light Yagami",
+        "descricao": "Estudante protagonista de Death Note que usa o caderno para eliminar criminosos como Kira.",
+        "variantes": [
+          "Raito Yagami",
+          "Kira"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Corpo inteiro, sozinho, máscara de javali e duas espadas cruzadas dão contorno característico; silhueta reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Inosuke Hashibira",
+      "distratores": [
+        "Zenitsu Agatsuma",
+        "Genya Shinazugawa",
+        "Giyu Tomioka"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Inosuke Hashibira",
+        "descricao": "Caçador de demônios de Demon Slayer que usa máscara de javali e duas espadas serrilhadas.",
+        "variantes": [
+          "Inosuke"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Arte clara de Meliodas; a silhueta é uma mancha (casaco e braços atrás da cabeça), então usa a imagem colorida.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem criou o mangá em que aparece este personagem?",
+      "resposta": "Nakaba Suzuki",
+      "distratores": [
+        "Hiro Mashima",
+        "Eiichiro Oda",
+        "Masashi Kishimoto"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Meliodas",
+        "descricao": "Líder dos Sete Pecados Capitais e protagonista de Nanatsu no Taizai, o Pecado da Ira do Dragão.",
+        "variantes": [
+          "Meliodas, o Pecado da Ira do Dragão"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Close da Sakura em cena de Naruto, sem texto; cabelo rosa e olhos verdes a identificam.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Qual lendário sannin treinou esta personagem?",
+      "resposta": "Tsunade",
+      "distratores": [
+        "Jiraiya",
+        "Orochimaru",
+        "Anko Mitarashi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sakura Haruno",
+        "descricao": "Kunoichi de Konoha, integrante do Time 7 e ninja médica em Naruto.",
+        "variantes": [
+          "Sakura Uchiha"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Arte de mangá de Rei Hino de uniforme, sem texto; a silhueta é de uma garota de cabelo longo genérica, então usa a imagem colorida.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem criou o mangá em que aparece esta personagem?",
+      "resposta": "Naoko Takeuchi",
+      "distratores": [
+        "Rumiko Takahashi",
+        "Hiromu Arakawa",
+        "Ai Yazawa"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Sailor Mars",
+        "descricao": "Rei Hino, guardiã de Marte e sacerdotisa de santuário em Sailor Moon.",
+        "variantes": [
+          "Rei Hino",
+          "Sailor Marte"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Armadura inconfundível de Alphonse, sem texto; Edward só aparece em parte, ao fundo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Como se chama o irmão mais velho deste personagem?",
+      "resposta": "Edward Elric",
+      "distratores": [
+        "Roy Mustang",
+        "Maes Hughes",
+        "Van Hohenheim"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alphonse Elric",
+        "descricao": "Alquimista de Fullmetal Alchemist cuja alma está presa a uma grande armadura de ferro.",
+        "variantes": [
+          "Al",
+          "Alphonse"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cena de Dragon Ball com Chichi cozinhando, sem texto; reconhecível pelo penteado e roupas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta personagem?",
+      "resposta": "Chichi",
+      "distratores": [
+        "Bulma",
+        "Videl",
+        "Lunch"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chichi",
+        "descricao": "Princesa da Montanha Fogo, esposa de Goku e mãe de Gohan e Goten em Dragon Ball.",
+        "variantes": [
+          "Chi-Chi"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Arte limpa de Pain com capa da Akatsuki; a silhueta é só um manto, confundível com outros membros, então usa a colorida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A que organização criminosa pertence este personagem?",
+      "resposta": "Akatsuki",
+      "distratores": [
+        "Equipe Taka",
+        "Raiz",
+        "Sete Espadachins da Névoa"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Pain",
+        "descricao": "Líder da Akatsuki em Naruto, identidade adotada por Nagato.",
+        "variantes": [
+          "Pein",
+          "Nagato"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Gendo com a mão sobre os óculos, pose marcante, sem texto; a silhueta é um homem de terno genérico, então usa a colorida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Como se chama o filho deste personagem?",
+      "resposta": "Shinji Ikari",
+      "distratores": [
+        "Kaworu Nagisa",
+        "Toji Suzuhara",
+        "Kensuke Aida"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Gendo Ikari",
+        "descricao": "Comandante da NERV e pai de Shinji em Neon Genesis Evangelion.",
+        "variantes": [
+          "Comandante Ikari"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Close em mangá preto e branco, sem texto; reconhecível pelo traço, embora com cabelo longo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Eren Yeager",
+      "distratores": [
+        "Grisha Yeager",
+        "Zeke Yeager",
+        "Jean Kirstein"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Eren Yeager",
+        "descricao": "Protagonista de Attack on Titan (Shingeki no Kyojin), membro do Corpo de Exploração.",
+        "variantes": [
+          "Eren Jaeger"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Arte oficial de Rei Ayanami com ataduras, sem texto; a silhueta é genérica, então usa a colorida.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que diretor criou o anime em que aparece esta personagem?",
+      "resposta": "Hideaki Anno",
+      "distratores": [
+        "Hayao Miyazaki",
+        "Satoshi Kon",
+        "Shinichiro Watanabe"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Rei Ayanami",
+        "descricao": "Primeira Criança e piloto da Unidade 00 em Neon Genesis Evangelion.",
+        "variantes": [
+          "Ayanami Rei"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arte oficial limpa de Makima, sem texto; a silhueta é de mulher de pé genérica, então usa a colorida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que protagonista esta personagem recruta para sua equipe?",
+      "resposta": "Denji",
+      "distratores": [
+        "Aki Hayakawa",
+        "Kobeni Higashiyama",
+        "Yuji Itadori"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Makima",
+        "descricao": "Caçadora de demônios da Segurança Pública e principal antagonista de Chainsaw Man.",
+        "variantes": []
+      }
+    }
+  ]
+}
