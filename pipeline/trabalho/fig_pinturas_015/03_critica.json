@@ -1,0 +1,144 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hermitage confirmado nos trechos; enunciado não entrega a resposta; distratores plausíveis e do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pintura de 1892 feita no Taiti' já aponta para Gauguin e, daí, para o pós-impressionismo; a imagem coberta não faz falta. Passa a pedir o pintor, que depende de reconhecer a obra.",
+      "reescrita": {
+        "pergunta": "Que pintor francês pós-impressionista fez esta pintura de 1892?",
+        "resposta": "Paul Gauguin",
+        "distratores": [
+          "Vincent van Gogh",
+          "Georges Seurat",
+          "Paul Cézanne"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Turner, inglês, pintura de 1812; fatos corretos. O enunciado não identifica sozinho o pintor e os distratores são ingleses críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Imperador fuzilado' basta para responder sem ver a figura (teste da imagem coberta). Reescrita pede o país onde ocorreu a execução, um passo além do reconhecimento.",
+      "reescrita": {
+        "pergunta": "Esta pintura de Manet, feita no fim da década de 1860, mostra uma execução por fuzilamento. Em que país ela aconteceu?",
+        "resposta": "México",
+        "distratores": [
+          "Espanha",
+          "França",
+          "Áustria"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Obra simbolista' de pintor brasileiro já aponta Visconti, e 'pombas' não está na descrição nem nos trechos. Troca-se a pista por época e lugar de produção, que estão nos trechos.",
+      "reescrita": {
+        "pergunta": "Que pintor brasileiro fez, em Paris, em 1898, esta obra?",
+        "resposta": "Eliseu Visconti",
+        "distratores": [
+          "Almeida Júnior",
+          "Pedro Américo",
+          "Rodolfo Amoedo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caravaggio é descrito como mestre barroco; o enunciado não entrega a resposta e os distratores são estilos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Citar Grünewald praticamente nomeia o retábulo, sua obra-mestra; a figura vira enfeite. Removido o nome do pintor; França confirmada nos trechos.",
+      "reescrita": {
+        "pergunta": "Este retábulo do início do século dezesseis está hoje em um museu de que país?",
+        "resposta": "França",
+        "distratores": [
+          "Alemanha",
+          "Suíça",
+          "Áustria"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pintor anglo-holandês' mais banquete romano entrega Alma-Tadema sem ver a figura. Tirada a pista de nacionalidade e de pétalas; a data de 1888 ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que pintor do século dezenove fez, em 1888, esta cena de um banquete romano?",
+        "resposta": "Lawrence Alma-Tadema",
+        "distratores": [
+          "Frederic Leighton",
+          "John William Waterhouse",
+          "Edward Poynter"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Botticelli, italiano do Renascimento, confirmado nos trechos; a pista de cena alegórica não entrega o autor; distratores do mesmo período.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Citar Gauguin já entrega o Taiti (teste da imagem coberta). Passa a perguntar o pintor, a partir da data e do que a figura mostra.",
+      "reescrita": {
+        "pergunta": "Que pintor francês fez, em 1899, esta pintura de duas mulheres seminuas, uma delas com flores?",
+        "resposta": "Paul Gauguin",
+        "distratores": [
+          "Henri Matisse",
+          "Paul Signac",
+          "Henri Rousseau"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que Leonardo pintou o anjo ajoelhado à esquerda; o enunciado não o nomeia e os distratores eram do ateliê, mas não pintaram o anjo.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pintura alemã do início do século dezenove' leva quase direto a Romantismo, sem olhar a figura. Passa a pedir o pintor, que exige reconhecer a obra.",
+      "reescrita": {
+        "pergunta": "Que pintor alemão do início do século dezenove fez esta pintura?",
+        "resposta": "Caspar David Friedrich",
+        "distratores": [
+          "Philipp Otto Runge",
+          "Carl Gustav Carus",
+          "Carl Blechen"
+        ]
+      }
+    }
+  ]
+}

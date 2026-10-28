@@ -1,0 +1,631 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Madona Litta",
+        "descricao": "Pintura de fins do século quinze atribuída a Leonardo da Vinci, que mostra a Virgem amamentando o Menino.",
+        "variantes": [
+          "Madonna Litta",
+          "Madona Lita"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mona_lisa",
+          "nome": "Mona Lisa",
+          "descricao": "Retrato pintado por Leonardo da Vinci no início do século dezesseis.",
+          "variantes": [
+            "Gioconda",
+            "La Gioconda",
+            "A Gioconda",
+            "La Joconde"
+          ]
+        },
+        {
+          "id": "madona_sistina",
+          "nome": "Madona Sistina",
+          "descricao": "Pintura a óleo de Rafael, de cerca de 1513, que mostra a Virgem com o Menino entre São Sisto e Santa Bárbara; está em Dresden.",
+          "variantes": [
+            "Madonna di San Sisto",
+            "Sistine Madonna",
+            "Madona de São Sisto"
+          ]
+        },
+        {
+          "id": "madonna",
+          "nome": "Madonna",
+          "descricao": "Cantora, compositora e atriz americana conhecida como a Rainha do Pop.",
+          "variantes": [
+            "Madonna Louise Ciccone"
+          ]
+        },
+        {
+          "id": "mauna_loa",
+          "nome": "Mauna Loa",
+          "descricao": "Vulcão em escudo ativo na ilha do Havaí, nos Estados Unidos.",
+          "variantes": []
+        },
+        {
+          "id": "anitta",
+          "nome": "Anitta",
+          "descricao": "Larissa de Macedo Machado, cantora carioca de funk e pop.",
+          "variantes": [
+            "Larissa de Macedo Machado"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Quando Você Vai se Casar? (Gauguin)",
+        "descricao": "Pintura a óleo de 1892 de Paul Gauguin com duas mulheres taitianas.",
+        "variantes": [
+          "Nafea Faa Ipoipo",
+          "When Will You Marry?",
+          "Quando te maries-tu?"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_quarto_em_arles",
+          "nome": "O Quarto em Arles",
+          "descricao": "Pintura de Vincent van Gogh, de 1888, do seu quarto na Casa Amarela, com cama amarela, cadeiras e janela verde.",
+          "variantes": [
+            "Bedroom in Arles",
+            "La Chambre à Arles",
+            "O Quarto de Van Gogh em Arles",
+            "Quarto em Arles"
+          ]
+        },
+        {
+          "id": "the_isle_of_armor",
+          "nome": "The Isle of Armor",
+          "descricao": "Primeira parte da expansão de Pokémon Sword e Shield, ambientada numa ilha de Galar onde o jogador treina num dojo com o lendário Kubfu.",
+          "variantes": [
+            "Ilha da Armadura"
+          ]
+        },
+        {
+          "id": "quaternios",
+          "nome": "Quatérnios",
+          "descricao": "Sistema de números que estende os números complexos, descrito pelo matemático irlandês William Rowan Hamilton em 1843.",
+          "variantes": [
+            "Quaterniões",
+            "Quaternions"
+          ]
+        },
+        {
+          "id": "mu_de_aries",
+          "nome": "Mu de Áries",
+          "descricao": "Cavaleiro de Ouro de Áries na obra Os Cavaleiros do Zodíaco.",
+          "variantes": [
+            "Aries Mu",
+            "Mu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Tempestade de Neve: Aníbal Atravessando os Alpes (Turner)",
+        "descricao": "Pintura a óleo de 1812 de Turner que mostra o exército de Aníbal numa tempestade nos Alpes.",
+        "variantes": [
+          "Snow Storm: Hannibal and his Army Crossing the Alps",
+          "Tempestade de Neve: Aníbal e o seu Exército a Atravessar os Alpes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "travessia_dos_alpes_por_anibal",
+          "nome": "Travessia dos Alpes por Aníbal",
+          "descricao": "Marcha do exército cartaginês de Aníbal, com elefantes, através dos Alpes para invadir a Itália na Segunda Guerra Púnica.",
+          "variantes": [
+            "Hannibal's crossing of the Alps"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "A Execução do Imperador Maximiliano (Manet)",
+        "descricao": "Série de pinturas de Édouard Manet, de 1867 a 1869, sobre o fuzilamento de Maximiliano I do México.",
+        "variantes": [
+          "The Execution of Emperor Maximilian",
+          "A Execução de Maximiliano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "galeoes_de_manila",
+          "nome": "Galeões de Manila",
+          "descricao": "Navios espanhóis que, de 1565 a 1815, cruzavam o Pacífico entre as Filipinas e a Nova Espanha levando prata e mercadorias asiáticas.",
+          "variantes": [
+            "Galeão de Manila",
+            "Nau da China",
+            "Manila galleon"
+          ]
+        },
+        {
+          "id": "a_criacao_de_adao",
+          "nome": "A Criação de Adão",
+          "descricao": "Afresco de Michelangelo no teto da Capela Sistina.",
+          "variantes": []
+        },
+        {
+          "id": "a_redencao_de_cam",
+          "nome": "A Redenção de Cam",
+          "descricao": "Pintura a óleo de 1895 de Modesto Brocos sobre o branqueamento da população brasileira.",
+          "variantes": [
+            "Ham's Redemption",
+            "A Redenção de Can"
+          ]
+        },
+        {
+          "id": "coroa_imperial_do_sacro_imperio_romano_germanico",
+          "nome": "Coroa Imperial do Sacro Império Romano-Germânico",
+          "descricao": "Coroa octogonal de ouro e pedras usada na coroação dos imperadores do Sacro Império, hoje no Tesouro Imperial em Viena.",
+          "variantes": [
+            "Reichskrone",
+            "Coroa do Imperador Romano-Germânico"
+          ]
+        },
+        {
+          "id": "arco_instrumento_musical",
+          "nome": "Arco (instrumento musical)",
+          "descricao": "Vara de madeira com fios esticados usada para friccionar as cordas do violino, da viola, do violoncelo e do contrabaixo.",
+          "variantes": [
+            "Arco de violino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Gioventù (Eliseu Visconti)",
+        "descricao": "Pintura simbolista de 1898 de Eliseu Visconti, no Museu Nacional de Belas Artes do Rio de Janeiro.",
+        "variantes": [
+          "Gioventu",
+          "Juventude"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esporte_clube_juventude",
+          "nome": "Esporte Clube Juventude",
+          "descricao": "Clube de futebol brasileiro sediado em Caxias do Sul, no Rio Grande do Sul.",
+          "variantes": [
+            "Juventude",
+            "Ju",
+            "EC Juventude"
+          ]
+        },
+        {
+          "id": "juventus",
+          "nome": "Juventus",
+          "descricao": "Juventus Football Club, clube de futebol de Turim fundado em 1897.",
+          "variantes": [
+            "Juventus Football Club",
+            "Juve",
+            "Velha Senhora",
+            "Vecchia Signora"
+          ]
+        },
+        {
+          "id": "giovane_gavio",
+          "nome": "Giovane Gávio",
+          "descricao": "Ex-jogador e técnico brasileiro de vôlei, campeão olímpico em Barcelona 1992.",
+          "variantes": [
+            "Giovane",
+            "Giovane Farinazzo Gavio"
+          ]
+        },
+        {
+          "id": "allianz_stadium_turim",
+          "nome": "Allianz Stadium (Turim)",
+          "descricao": "Estádio de futebol da Juventus, em Turim, na Itália, inaugurado em 2011.",
+          "variantes": [
+            "Juventus Stadium",
+            "Allianz Stadium"
+          ]
+        },
+        {
+          "id": "entrudo",
+          "nome": "Entrudo",
+          "descricao": "Festa popular de origem portuguesa, antecessora do carnaval brasileiro, em que se atiravam água, farinha e limões de cheiro.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "A Incredulidade de São Tomé (Caravaggio)",
+        "descricao": "Pintura de Caravaggio, de cerca de 1601, em que o apóstolo Tomé toca a ferida de Cristo.",
+        "variantes": [
+          "The Incredulity of Saint Thomas",
+          "A Incredulidade de Tomé"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_cidade_de_deus",
+          "nome": "A Cidade de Deus",
+          "descricao": "Obra de Santo Agostinho escrita no início do século cinco, em defesa do cristianismo após o saque de Roma.",
+          "variantes": [
+            "De Civitate Dei",
+            "The City of God"
+          ]
+        },
+        {
+          "id": "mafia_jogo",
+          "nome": "Máfia (jogo)",
+          "descricao": "Jogo de festa de dedução social em que uma vila tenta descobrir os assassinos escondidos entre os jogadores, criado em 1986.",
+          "variantes": [
+            "Mafia",
+            "Cidade dorme"
+          ]
+        },
+        {
+          "id": "medusa_caravaggio",
+          "nome": "Medusa (Caravaggio)",
+          "descricao": "Pintura de Caravaggio, feita em um escudo, que mostra a cabeça decepada da Medusa; está na Galeria Uffizi, em Florença.",
+          "variantes": [
+            "Medusa de Caravaggio",
+            "Escudo com a cabeça da Medusa"
+          ]
+        },
+        {
+          "id": "veilstone",
+          "nome": "Veilstone",
+          "descricao": "Cidade da região de Sinnoh, nos jogos Pokémon Diamond e Pearl, escavada na rocha, com loja de departamentos e o quartel da Equipe Galáctica.",
+          "variantes": [
+            "Veilstone City",
+            "Cidade de Veilstone"
+          ]
+        },
+        {
+          "id": "grande_incendio_de_roma",
+          "nome": "Grande Incêndio de Roma",
+          "descricao": "Incêndio que destruiu grande parte de Roma no ano 64, durante o governo de Nero.",
+          "variantes": [
+            "Incêndio de Roma",
+            "Great Fire of Rome"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Retábulo de Isenheim",
+        "descricao": "Retábulo pintado por Matthias Grünewald entre 1512 e 1516, hoje no Museu Unterlinden, em Colmar.",
+        "variantes": [
+          "Retábulo de Issenheim",
+          "Isenheim Altarpiece"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_da_helice",
+          "nome": "Nebulosa da Hélice",
+          "descricao": "Nebulosa planetária NGC 7293, em Aquário, uma das mais próximas da Terra.",
+          "variantes": [
+            "Nebulosa de Hélix",
+            "NGC 7293",
+            "Caldwell 63",
+            "Helix Nebula",
+            "Olho de Deus"
+          ]
+        },
+        {
+          "id": "estadio_de_twickenham",
+          "nome": "Estádio de Twickenham",
+          "descricao": "Estádio nacional de rúgbi da Inglaterra, em Twickenham, Londres, pertencente à Rugby Football Union.",
+          "variantes": [
+            "Twickenham Stadium",
+            "Twickenham"
+          ]
+        },
+        {
+          "id": "portao_de_menin",
+          "nome": "Portão de Menin",
+          "descricao": "Memorial de guerra na cidade belga de Ypres dedicado aos soldados britânicos e da Comunidade Britânica desaparecidos na Primeira Guerra Mundial.",
+          "variantes": [
+            "Menin Gate",
+            "Menenpoort"
+          ]
+        },
+        {
+          "id": "hisui",
+          "nome": "Hisui",
+          "descricao": "Antiga região do jogo Pokémon Legends: Arceus, que corresponde a Sinnoh muitos anos antes dos jogos Diamond e Pearl.",
+          "variantes": [
+            "Região de Hisui"
+          ]
+        },
+        {
+          "id": "retrato_do_papa_inocencio_x",
+          "nome": "Retrato do Papa Inocêncio X",
+          "descricao": "Retrato a óleo de Diego Velázquez, de cerca de 1650, do papa Inocêncio X, na Galleria Doria Pamphilj, em Roma.",
+          "variantes": [
+            "Portrait of Innocent X",
+            "Retrato de Inocêncio X"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "As Rosas de Heliogábalo (Alma-Tadema)",
+        "descricao": "Pintura de 1888 de Lawrence Alma-Tadema que mostra um banquete do imperador romano Heliogábalo com chuva de pétalas.",
+        "variantes": [
+          "The Roses of Heliogabalus",
+          "As Rosas de Elagábalo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "as_bodas_de_figaro",
+          "nome": "As Bodas de Fígaro",
+          "descricao": "Ópera cômica de Mozart, de 1786, com libreto de Lorenzo Da Ponte.",
+          "variantes": [
+            "Le nozze di Figaro",
+            "The Marriage of Figaro"
+          ]
+        },
+        {
+          "id": "a_porta_do_inferno",
+          "nome": "A Porta do Inferno",
+          "descricao": "Grupo escultórico monumental em bronze de Auguste Rodin, inspirado no Inferno de Dante.",
+          "variantes": [
+            "La Porte de l'Enfer",
+            "The Gates of Hell"
+          ]
+        },
+        {
+          "id": "o_silencio_dos_inocentes",
+          "nome": "O Silêncio dos Inocentes",
+          "descricao": "Thriller de 1991 dirigido por Jonathan Demme, com Hannibal Lecter e Clarice Starling.",
+          "variantes": [
+            "The Silence of the Lambs"
+          ]
+        },
+        {
+          "id": "les_demoiselles_d_avignon",
+          "nome": "Les Demoiselles d'Avignon",
+          "descricao": "Quadro de Pablo Picasso com cinco mulheres nuas de formas angulosas, considerado precursor do cubismo; está no MoMA, em Nova York.",
+          "variantes": [
+            "As Senhoritas de Avignon",
+            "As Moças de Avignon"
+          ]
+        },
+        {
+          "id": "as_carta_de_baralho",
+          "nome": "Ás (carta de baralho)",
+          "descricao": "Carta de baralho com um único símbolo de naipe, aqui os quatro ases do baralho francês.",
+          "variantes": [
+            "Ás",
+            "Ace"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "A Calúnia de Apeles (Botticelli)",
+        "descricao": "Pintura em têmpera de Botticelli, de cerca de 1494, baseada numa obra perdida de Apeles; está nos Uffizi.",
+        "variantes": [
+          "Calumny of Apelles",
+          "A Calúnia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lua",
+          "nome": "Lua",
+          "descricao": "Único satélite natural da Terra.",
+          "variantes": [
+            "A Lua",
+            "Moon"
+          ]
+        },
+        {
+          "id": "teatro_alla_scala",
+          "nome": "Teatro alla Scala",
+          "descricao": "Casa de ópera de Milão, na Itália, inaugurada em 1778.",
+          "variantes": [
+            "La Scala",
+            "Scala de Milão"
+          ]
+        },
+        {
+          "id": "pascal_unidade",
+          "nome": "Pascal (unidade)",
+          "descricao": "Unidade de pressão do Sistema Internacional de Unidades.",
+          "variantes": [
+            "Pa",
+            "Pascal"
+          ]
+        },
+        {
+          "id": "toga_candida",
+          "nome": "Toga cândida",
+          "descricao": "Toga branqueada com giz que os romanos usavam ao disputar um cargo público.",
+          "variantes": []
+        },
+        {
+          "id": "pascalina",
+          "nome": "Pascalina",
+          "descricao": "Calculadora mecânica de rodas inventada por Blaise Pascal em 1642.",
+          "variantes": [
+            "Máquina de Pascal",
+            "Calculadora de Pascal",
+            "Pascaline"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Duas Mulheres Taitianas (Gauguin)",
+        "descricao": "Pintura de 1899 de Paul Gauguin com duas mulheres seminuas, uma com flores de manga, no Metropolitan Museum.",
+        "variantes": [
+          "Two Tahitian Women",
+          "Duas Taitianas com Flores de Manga"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mulheres_taitianas_na_praia",
+          "nome": "Mulheres Taitianas na Praia",
+          "descricao": "Quadro de Paul Gauguin de 1891.",
+          "variantes": []
+        },
+        {
+          "id": "rapto_das_sabinas",
+          "nome": "Rapto das Sabinas",
+          "descricao": "Episódio lendário dos primeiros anos de Roma em que os homens de Rômulo raptaram mulheres do povo sabino.",
+          "variantes": [
+            "Rapto das mulheres sabinas",
+            "The Rape of the Sabine Women"
+          ]
+        },
+        {
+          "id": "toto_wolff",
+          "nome": "Toto Wolff",
+          "descricao": "Dirigente austríaco de automobilismo, chefe e coproprietário da equipe Mercedes de Fórmula 1.",
+          "variantes": [
+            "Torger Christian Wolff"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "O Batismo de Cristo (Verrocchio e Leonardo)",
+        "descricao": "Pintura de cerca de 1475 do ateliê de Verrocchio, com participação do jovem Leonardo, nos Uffizi.",
+        "variantes": [
+          "The Baptism of Christ",
+          "Batismo de Cristo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_flagelacao_de_cristo_piero_della_francesca",
+          "nome": "A Flagelação de Cristo (Piero della Francesca)",
+          "descricao": "Pintura em painel de Piero della Francesca, de cerca de 1459–1460, em Urbino, com a flagelação de Cristo ao fundo e três figuras em primeiro plano.",
+          "variantes": [
+            "Flagelação de Cristo",
+            "The Flagellation of Christ",
+            "La Flagellazione"
+          ]
+        },
+        {
+          "id": "lamentacao_sobre_o_cristo_morto_mantegna",
+          "nome": "Lamentação sobre o Cristo Morto (Mantegna)",
+          "descricao": "Pintura de Andrea Mantegna, do século quinze, com o corpo de Cristo em escorço sobre uma laje, velado por três figuras, na Pinacoteca de Brera.",
+          "variantes": [
+            "O Cristo Morto",
+            "Lamentation of Christ",
+            "Cristo Morto de Mantegna",
+            "Lamentação de Cristo"
+          ]
+        },
+        {
+          "id": "santuario_de_cristo_rei",
+          "nome": "Santuário de Cristo Rei",
+          "descricao": "Monumento religioso em Almada, Portugal, de frente para Lisboa, inaugurado em 1959.",
+          "variantes": [
+            "Cristo Rei",
+            "Sanctuary of Christ the King",
+            "Cristo Rei de Almada"
+          ]
+        },
+        {
+          "id": "montecristo",
+          "nome": "Montecristo",
+          "descricao": "Pequena ilha italiana do arquipélago Toscano, no mar Tirreno, hoje reserva natural.",
+          "variantes": [
+            "Ilha de Montecristo",
+            "Monte Cristo"
+          ]
+        },
+        {
+          "id": "ordem_de_cristo",
+          "nome": "Ordem de Cristo",
+          "descricao": "Ordem militar portuguesa criada em 1319 para receber os bens e membros dos templários em Portugal.",
+          "variantes": [
+            "Ordem Militar de Cristo",
+            "Order of Christ"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Madona Litta não consta entre as candidatas; Mona Lisa e Madona Sistina são outras obras."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pintura de Gauguin sem correspondente nas candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pintura de Turner é diferente do evento histórico da travessia dos Alpes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Série de Manet sem correspondente nas candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Pintura de Visconti diferente de clubes e outras entidades."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Pintura diferente da Medusa de Caravaggio; sem correspondente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Retábulo de Isenheim sem correspondente nas candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Pintura de Alma-Tadema sem correspondente."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Pintura de Botticelli sem correspondente."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Pintura de 1899 é distinta de Mulheres Taitianas na Praia (1891)."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Batismo de Cristo sem correspondente nas candidatas."
+    }
+  ]
+}

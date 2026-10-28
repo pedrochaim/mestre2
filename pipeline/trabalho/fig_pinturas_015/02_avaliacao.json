@@ -1,0 +1,293 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, obra reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que museu fica este quadro de Madona com o Menino?",
+      "resposta": "Hermitage",
+      "distratores": [
+        "Louvre",
+        "Galeria Uffizi",
+        "Museu do Prado"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Madona Litta",
+        "descricao": "Pintura de fins do século quinze atribuída a Leonardo da Vinci, que mostra a Virgem amamentando o Menino.",
+        "variantes": [
+          "Madonna Litta",
+          "Madona Lita"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Obra clara; a assinatura é minúscula e a pergunta sobre estilo não é entregue por ela.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta pintura de 1892, feita no Taiti, pertence a que movimento artístico?",
+      "resposta": "Pós-impressionismo",
+      "distratores": [
+        "Impressionismo",
+        "Fauvismo",
+        "Realismo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Quando Você Vai se Casar? (Gauguin)",
+        "descricao": "Pintura a óleo de 1892 de Paul Gauguin com duas mulheres taitianas.",
+        "variantes": [
+          "Nafea Faa Ipoipo",
+          "When Will You Marry?",
+          "Quando te maries-tu?"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; estilo inconfundível.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que pintor inglês do século dezenove fez esta tempestade de neve nas montanhas?",
+      "resposta": "J. M. W. Turner",
+      "distratores": [
+        "John Constable",
+        "Thomas Gainsborough",
+        "William Blake"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tempestade de Neve: Aníbal Atravessando os Alpes (Turner)",
+        "descricao": "Pintura a óleo de 1812 de Turner que mostra o exército de Aníbal numa tempestade nos Alpes.",
+        "variantes": [
+          "Snow Storm: Hannibal and his Army Crossing the Alps",
+          "Tempestade de Neve: Aníbal e o seu Exército a Atravessar os Alpes"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem clara; a assinatura é pequena e não entrega a resposta pedida (o imperador).",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que imperador está sendo fuzilado nesta pintura?",
+      "resposta": "Maximiliano do México",
+      "distratores": [
+        "Napoleão III",
+        "Francisco José I",
+        "Nicolau II"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Execução do Imperador Maximiliano (Manet)",
+        "descricao": "Série de pinturas de Édouard Manet, de 1867 a 1869, sobre o fuzilamento de Maximiliano I do México.",
+        "variantes": [
+          "The Execution of Emperor Maximilian",
+          "A Execução de Maximiliano"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem clara; assinatura apenas iniciais, quase ilegível. Resposta única com múltipla escolha.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor brasileiro fez esta obra simbolista, de uma jovem com pombas?",
+      "resposta": "Eliseu Visconti",
+      "distratores": [
+        "Almeida Júnior",
+        "Pedro Américo",
+        "Rodolfo Amoedo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gioventù (Eliseu Visconti)",
+        "descricao": "Pintura simbolista de 1898 de Eliseu Visconti, no Museu Nacional de Belas Artes do Rio de Janeiro.",
+        "variantes": [
+          "Gioventu",
+          "Juventude"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, contraste de luz típico.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta pintura de cerca de 1601 pertence a que estilo artístico?",
+      "resposta": "Barroco",
+      "distratores": [
+        "Renascimento",
+        "Rococó",
+        "Romantismo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Incredulidade de São Tomé (Caravaggio)",
+        "descricao": "Pintura de Caravaggio, de cerca de 1601, em que o apóstolo Tomé toca a ferida de Cristo.",
+        "variantes": [
+          "The Incredulity of Saint Thomas",
+          "A Incredulidade de Tomé"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem clara do retábulo; texto mínimo (INRI) não entrega a resposta.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este retábulo, obra do pintor alemão Grünewald, está hoje em que país?",
+      "resposta": "França",
+      "distratores": [
+        "Alemanha",
+        "Suíça",
+        "Áustria"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Retábulo de Isenheim",
+        "descricao": "Retábulo pintado por Matthias Grünewald entre 1512 e 1516, hoje no Museu Unterlinden, em Colmar.",
+        "variantes": [
+          "Retábulo de Issenheim",
+          "Isenheim Altarpiece"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, estilo inconfundível.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor anglo-holandês do século dezenove fez esta cena de banquete romano coberto de pétalas?",
+      "resposta": "Lawrence Alma-Tadema",
+      "distratores": [
+        "Frederic Leighton",
+        "John William Waterhouse",
+        "Edward Poynter"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "As Rosas de Heliogábalo (Alma-Tadema)",
+        "descricao": "Pintura de 1888 de Lawrence Alma-Tadema que mostra um banquete do imperador romano Heliogábalo com chuva de pétalas.",
+        "variantes": [
+          "The Roses of Heliogabalus",
+          "As Rosas de Elagábalo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; obra renascentista reconhecível.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor italiano do Renascimento fez este quadro de cena alegórica num pórtico?",
+      "resposta": "Sandro Botticelli",
+      "distratores": [
+        "Domenico Ghirlandaio",
+        "Filippo Lippi",
+        "Andrea Mantegna"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Calúnia de Apeles (Botticelli)",
+        "descricao": "Pintura em têmpera de Botticelli, de cerca de 1494, baseada numa obra perdida de Apeles; está nos Uffizi.",
+        "variantes": [
+          "Calumny of Apelles",
+          "A Calúnia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem clara; assinatura minúscula não entrega a ilha.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ilha do Pacífico Gauguin retratou estas duas mulheres com flores de manga?",
+      "resposta": "Taiti",
+      "distratores": [
+        "Havaí",
+        "Samoa",
+        "Fiji"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Duas Mulheres Taitianas (Gauguin)",
+        "descricao": "Pintura de 1899 de Paul Gauguin com duas mulheres seminuas, uma com flores de manga, no Metropolitan Museum.",
+        "variantes": [
+          "Two Tahitian Women",
+          "Duas Taitianas com Flores de Manga"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Imagem clara; fita com texto latino não entrega a resposta.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que jovem aprendiz de ateliê renascentista pintou o anjo ajoelhado mais à esquerda neste quadro?",
+      "resposta": "Leonardo da Vinci",
+      "distratores": [
+        "Sandro Botticelli",
+        "Pietro Perugino",
+        "Lorenzo di Credi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Batismo de Cristo (Verrocchio e Leonardo)",
+        "descricao": "Pintura de cerca de 1475 do ateliê de Verrocchio, com participação do jovem Leonardo, nos Uffizi.",
+        "variantes": [
+          "The Baptism of Christ",
+          "Batismo de Cristo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, atmosfera romântica característica.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta pintura alemã do início do século dezenove pertence a que movimento artístico?",
+      "resposta": "Romantismo",
+      "distratores": [
+        "Neoclassicismo",
+        "Realismo",
+        "Rococó"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dois Homens Contemplando a Lua (Friedrich)",
+        "descricao": "Pintura de Caspar David Friedrich, de 1819–1820, com dois homens diante da lua crescente.",
+        "variantes": [
+          "Two Men Contemplating the Moon",
+          "Zwei Männer in Betrachtung des Mondes"
+        ]
+      }
+    }
+  ]
+}
