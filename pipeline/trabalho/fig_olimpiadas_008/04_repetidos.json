@@ -1,0 +1,36 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que modalidade olímpica esta estátua grega antiga representa?",
+        "resposta": "Lançamento de disco"
+      },
+      "existentes": [
+        {
+          "id": "q02525",
+          "pergunta": "Que famosa escultura da Grécia antiga, conhecida por cópias romanas, é esta?",
+          "resposta": "Discóbolo"
+        },
+        {
+          "id": "q03231",
+          "pergunta": "Que escultor grego do século cinco antes de Cristo criou o Discóbolo, a estátua do atleta prestes a lançar o disco?",
+          "resposta": "Míron"
+        },
+        {
+          "id": "q04279",
+          "pergunta": "Que prova do atletismo esta estátua grega antiga retrata?",
+          "resposta": "Lançamento de disco"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q04279",
+      "motivo": "Mesma pergunta com outras palavras: a estátua retrata o lançamento de disco; mesma resposta."
+    }
+  ]
+}

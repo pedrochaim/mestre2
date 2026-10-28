@@ -1,0 +1,83 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Estátua do Discóbolo sobre fundo liso, sem texto, reconhecível e legível; o disco é visível mas a pergunta sobre o esporte representado é justa.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que modalidade olímpica esta estátua grega antiga representa?",
+      "resposta": "Lançamento de disco",
+      "distratores": [
+        "Lançamento de dardo",
+        "Arremesso de peso",
+        "Lançamento de martelo"
+      ],
+      "ancora": {
+        "nome": "Discóbolo de Míron",
+        "descricao": "Famosa escultura grega do século quinto antes de Cristo, do escultor Míron, que representa um atleta no momento de lançar o disco.",
+        "variantes": [
+          "Discobolus",
+          "Discóbolo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Retrato de jogador identificável só pelo rosto; camisa 10 e patrocinador não bastam para resposta única e o rosto não é reconhecível pela maioria."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Há texto que entrega a resposta (Marit nos bastões) e a atleta só se reconhece pelo rosto."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Retrato aproximado, só o rosto, sem contexto esportivo; não é reconhecível de forma justa."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Retrato de rosto com roupa de patrocinadores; só reconhecível pelo rosto, sem resposta justa."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Imagem larga e distante, com várias equipes e textos (países, patrocinador); a prova poderia ser confundida com 4x400 e a figura não é clara no celular."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Retrato de rosto em evento, sem pista esportiva; só reconhecível pelo rosto."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto antiga em preto e branco, só o rosto; atleta pouco reconhecível pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma competição de bombeiros, e não um pódio; não corresponde à entidade."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Retrato em preto e branco, só o rosto, sem contexto; não é reconhecível de forma justa."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Várias jogadoras em primeiro plano e texto (BRASIL); não está claro quem é Janeth Arcain, resposta não única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Jogo amateur com pessoas comuns em primeiro plano, texto nas camisas e não é uma partida olímpica reconhecível de 3x3."
+    }
+  ]
+}

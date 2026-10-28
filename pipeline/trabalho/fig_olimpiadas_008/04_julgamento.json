@@ -1,0 +1,72 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Discóbolo de Míron",
+        "descricao": "Famosa escultura grega do século quinto antes de Cristo, do escultor Míron, que representa um atleta no momento de lançar o disco.",
+        "variantes": [
+          "Lançamento de disco",
+          "Discobolus",
+          "Discóbolo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "discobolo",
+          "nome": "Discóbolo",
+          "descricao": "Escultura grega de Míron, do século cinco a.C., que mostra um atleta lançando o disco, conhecida por cópias romanas.",
+          "variantes": [
+            "Discóbolo de Míron",
+            "Discobolus",
+            "Lançador de disco"
+          ]
+        },
+        {
+          "id": "arremesso_de_peso",
+          "nome": "Arremesso de peso",
+          "descricao": "Prova do atletismo em que o atleta arremessa uma bola metálica pesada o mais longe possível, a partir de um círculo.",
+          "variantes": [
+            "Lançamento de peso"
+          ]
+        },
+        {
+          "id": "lancamento_de_dardo",
+          "nome": "Lançamento de dardo",
+          "descricao": "Prova de atletismo em que se arremessa uma lança o mais longe possível.",
+          "variantes": [
+            "Arremesso de dardo",
+            "Javelin throw",
+            "Dardo"
+          ]
+        },
+        {
+          "id": "lancamento_de_martelo",
+          "nome": "Lançamento de martelo",
+          "descricao": "Prova de atletismo em que o atleta arremessa uma bola de metal presa por um cabo de aço a uma empunhadura.",
+          "variantes": [
+            "Hammer throw"
+          ]
+        },
+        {
+          "id": "julgamento_de_scopes",
+          "nome": "Julgamento de Scopes",
+          "descricao": "Processo judicial de 1925, em Dayton, Tennessee, contra o professor John Scopes por ensinar a evolução humana numa escola pública.",
+          "variantes": [
+            "Scopes trial",
+            "Julgamento do Macaco",
+            "Scopes Monkey Trial"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "discobolo",
+      "motivo": "Ambas descrevem a escultura grega de Míron do século V a.C. que representa um atleta lançando o disco; nomes e variantes coincidem."
+    }
+  ]
+}
