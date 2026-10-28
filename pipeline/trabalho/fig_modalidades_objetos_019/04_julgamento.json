@@ -1,0 +1,323 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Stand up paddle",
+        "descricao": "Esporte aquático em que a pessoa rema em pé sobre uma prancha, derivado do surfe.",
+        "variantes": [
+          "SUP",
+          "Standup paddleboarding",
+          "Remo em pé"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estupa",
+          "nome": "Estupa",
+          "descricao": "Monumento budista em forma de cúpula, como a Grande Estupa de Sanchi, na Índia.",
+          "variantes": [
+            "Stupa"
+          ]
+        },
+        {
+          "id": "elmo_de_cavaleiro_great_helm",
+          "nome": "Elmo de cavaleiro (great helm)",
+          "descricao": "Elmo cilíndrico fechado usado por cavaleiros europeus entre os séculos doze e quatorze.",
+          "variantes": [
+            "Great helm",
+            "Heaume",
+            "Elmo de pote"
+          ]
+        },
+        {
+          "id": "circuito_de_spa_francorchamps",
+          "nome": "Circuito de Spa-Francorchamps",
+          "descricao": "Circuito nas Ardenas, na Bélgica.",
+          "variantes": [
+            "Spa-Francorchamps",
+            "Spa"
+          ]
+        },
+        {
+          "id": "sol",
+          "nome": "Sol",
+          "descricao": "Estrela no centro do Sistema Solar.",
+          "variantes": [
+            "O Sol",
+            "Sun"
+          ]
+        },
+        {
+          "id": "volkswagen_sp2",
+          "nome": "Volkswagen SP2",
+          "descricao": "Esportivo fabricado pela Volkswagen do Brasil de 1972 a 1975, baseado no chassi do Volkswagen Tipo 3.",
+          "variantes": [
+            "SP2",
+            "VW SP2"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Wingsuit",
+        "descricao": "Voo em queda livre com um traje que tem membranas de tecido entre braços, tronco e pernas.",
+        "variantes": [
+          "Wingsuit flying",
+          "Traje de asas",
+          "Voo de wingsuit"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "traje_de_flamenca",
+          "nome": "Traje de flamenca",
+          "descricao": "Vestido de babados usado pelas mulheres nas feiras da Andaluzia, na Espanha.",
+          "variantes": [
+            "Traje de gitana",
+            "Vestido de flamenca"
+          ]
+        },
+        {
+          "id": "inuites",
+          "nome": "Inuítes",
+          "descricao": "Povos indígenas das regiões árticas do Canadá, da Groenlândia e do Alasca, antes chamados de esquimós.",
+          "variantes": [
+            "Inuit",
+            "Inuíte"
+          ]
+        },
+        {
+          "id": "inukshuk",
+          "nome": "Inukshuk",
+          "descricao": "Marco de pedras empilhadas construído pelos inuítes no Ártico norte-americano.",
+          "variantes": [
+            "Inuksuk",
+            "Inuksuit"
+          ]
+        },
+        {
+          "id": "traje_de_luces",
+          "nome": "Traje de luces",
+          "descricao": "Traje bordado com fios de ouro ou prata usado pelos toureiros espanhóis na arena.",
+          "variantes": [
+            "Traje de luzes",
+            "Roupa de toureiro"
+          ]
+        },
+        {
+          "id": "ingenuity",
+          "nome": "Ingenuity",
+          "descricao": "Helicóptero autônomo da NASA que voou em Marte entre 2021 e 2024, levado pelo rover Perseverance.",
+          "variantes": [
+            "Ginny",
+            "Mars Helicopter Ingenuity"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Capacete de ciclismo",
+        "descricao": "Capacete ventilado que protege a cabeça do ciclista em quedas e colisões.",
+        "variantes": [
+          "Capacete ciclístico",
+          "Capacete de bicicleta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "elmo_corintio",
+          "nome": "Elmo coríntio",
+          "descricao": "Elmo grego de bronze que cobre toda a cabeça e o pescoço, com fendas para olhos e boca, que leva o nome da cidade de Corinto.",
+          "variantes": [
+            "Corinthian helmet",
+            "Capacete coríntio"
+          ]
+        },
+        {
+          "id": "stahlhelm",
+          "nome": "Stahlhelm",
+          "descricao": "Capacete de aço alemão adotado a partir da Primeira Guerra Mundial.",
+          "variantes": [
+            "Stahlhelm (capacete alemão)",
+            "Capacete de aço alemão"
+          ]
+        },
+        {
+          "id": "ladroes_de_bicicleta",
+          "nome": "Ladrões de Bicicleta",
+          "descricao": "Filme neorrealista italiano de 1948, dirigido por Vittorio De Sica, sobre um operário cuja bicicleta é roubada.",
+          "variantes": [
+            "Ladri di biciclette",
+            "Ladrão de Bicicletas"
+          ]
+        },
+        {
+          "id": "kopi_luwak",
+          "nome": "Kopi luwak",
+          "descricao": "Café da Indonésia feito com grãos parcialmente digeridos pela civeta-das-palmeiras.",
+          "variantes": [
+            "Café de civeta",
+            "Civet coffee"
+          ]
+        },
+        {
+          "id": "capacete_colonial",
+          "nome": "Capacete colonial",
+          "descricao": "Capacete leve coberto de tecido, feito de sholapith, usado por militares e exploradores nos trópicos.",
+          "variantes": [
+            "Pith helmet",
+            "Capacete de safári",
+            "Salacot"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mergulho livre",
+        "descricao": "Mergulho feito só com a respiração presa, sem aparelho de respiração.",
+        "variantes": [
+          "Freediving",
+          "Apneia",
+          "Mergulho em apneia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "serrilha_das_moedas",
+          "nome": "Serrilha das moedas",
+          "descricao": "Ranhuras na borda das moedas, adotadas para proteger moedas de metal precioso.",
+          "variantes": [
+            "Reeding"
+          ]
+        },
+        {
+          "id": "bocio",
+          "nome": "Bócio",
+          "descricao": "Aumento de volume da glândula tireoide, visível no pescoço.",
+          "variantes": [
+            "Papeira",
+            "Goitre",
+            "Goiter"
+          ]
+        },
+        {
+          "id": "pangeia",
+          "nome": "Pangeia",
+          "descricao": "Supercontinente que reuniu quase todas as terras emersas no fim da Era Paleozoica e no início da Mesozoica.",
+          "variantes": [
+            "Pangea",
+            "Pangaea"
+          ]
+        },
+        {
+          "id": "saltos_ornamentais",
+          "nome": "Saltos ornamentais",
+          "descricao": "Esporte aquático olímpico em que o atleta salta de um trampolim ou plataforma executando acrobacias antes de entrar na água.",
+          "variantes": [
+            "Diving"
+          ]
+        },
+        {
+          "id": "apofis",
+          "nome": "Apófis",
+          "descricao": "Serpente gigante da mitologia egípcia que encarnava o caos e atacava todas as noites a barca do deus-sol Rá",
+          "variantes": [
+            "Apep",
+            "Apepi",
+            "Apophis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Jet ski",
+        "descricao": "Pequeno veículo aquático motorizado em que o piloto fica sentado ou em pé sobre o casco.",
+        "variantes": [
+          "Moto aquática",
+          "Veículo aquático pessoal",
+          "Jetski"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "polo_aquatico",
+          "nome": "Polo aquático",
+          "descricao": "Esporte coletivo disputado na piscina, com gols nas extremidades.",
+          "variantes": []
+        },
+        {
+          "id": "jet_li",
+          "nome": "Jet Li",
+          "descricao": "Artista marcial e ator chinês nascido em 1963, especialista em wushu e astro do cinema de ação.",
+          "variantes": [
+            "Li Lianjie",
+            "Jet Li Lianjie"
+          ]
+        },
+        {
+          "id": "thermus_aquaticus",
+          "nome": "Thermus aquaticus",
+          "descricao": "Bactéria termófila descoberta nas fontes termais de Yellowstone, origem da enzima Taq polimerase.",
+          "variantes": [
+            "T. aquaticus",
+            "Taq"
+          ]
+        },
+        {
+          "id": "musica_aquatica",
+          "nome": "Música Aquática",
+          "descricao": "Coleção de suítes orquestrais de Georg Friedrich Händel, estreada em 1717 num passeio de barco do rei Jorge I.",
+          "variantes": [
+            "Water Music"
+          ]
+        },
+        {
+          "id": "aranha_mergulhadora",
+          "nome": "Aranha-mergulhadora",
+          "descricao": "Aranha europeia e asiática (Argyroneta aquatica) que vive quase toda a vida debaixo d'água.",
+          "variantes": [
+            "Argyroneta aquatica",
+            "Diving bell spider",
+            "Aranha-de-sino"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o esporte stand up paddle."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o wingsuit."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é capacete de ciclismo; o capacete colonial é outro objeto."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Mergulho livre (apneia) é diferente de saltos ornamentais e das demais candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a moto aquática."
+    }
+  ]
+}

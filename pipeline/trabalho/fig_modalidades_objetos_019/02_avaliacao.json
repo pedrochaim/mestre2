@@ -1,0 +1,163 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Aula de academia com várias pessoas comuns em primeiro plano; a imagem não destaca só a bola."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano; as bolas são pequenas e podem ser confundidas com bocha ou bolas de bocce."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Lutadores comuns em primeiro plano; a cena é indistinguível de muay thai, então a resposta não é única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Praticante de costas e anônimo, com prancha e remo bem visíveis; sem texto.",
+      "pergunta": "Em que arquipélago esta modalidade aquática tem raízes modernas?",
+      "resposta": "Havaí",
+      "tipo": "multipla",
+      "distratores": [
+        "Taiti",
+        "Fiji",
+        "Samoa"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "ancora": {
+        "nome": "Stand up paddle",
+        "descricao": "Esporte aquático em que a pessoa rema em pé sobre uma prancha, derivado do surfe.",
+        "variantes": [
+          "SUP",
+          "Standup paddleboarding",
+          "Remo em pé"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Voo em wingsuit com o traje de asas bem visível, sem texto; fundo de montanhas.",
+      "pergunta": "Que modalidade é esta?",
+      "resposta": "Voo de wingsuit",
+      "tipo": "multipla",
+      "distratores": [
+        "Parapente",
+        "Asa-delta",
+        "Paramotor"
+      ],
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Wingsuit",
+        "descricao": "Voo em queda livre com um traje que tem membranas de tecido entre braços, tronco e pernas.",
+        "variantes": [
+          "Wingsuit flying",
+          "Traje de asas",
+          "Voo de wingsuit"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O troféu traz 'Bledisloe Cup' gravado e faixas com o nome ao fundo, o que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Capacete isolado em fundo branco, claro; a marca visível não entrega o esporte.",
+      "pergunta": "Para que esporte é feito este capacete?",
+      "resposta": "Ciclismo",
+      "tipo": "multipla",
+      "distratores": [
+        "Escalada",
+        "Hipismo",
+        "Esqui"
+      ],
+      "familia": "que_tipo",
+      "nivel": 1,
+      "destino": 1,
+      "ancora": {
+        "nome": "Capacete de ciclismo",
+        "descricao": "Capacete ventilado que protege a cabeça do ciclista em quedas e colisões.",
+        "variantes": [
+          "Capacete ciclístico",
+          "Capacete de bicicleta"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Mergulhador de máscara descendo ao longo de um cabo, sem cilindro; imagem clara e sem texto.",
+      "pergunta": "Que esporte aquático é este?",
+      "resposta": "Mergulho livre",
+      "tipo": "multipla",
+      "distratores": [
+        "Mergulho autônomo",
+        "Mergulho técnico",
+        "Mergulho de saturação"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Mergulho livre",
+        "descricao": "Mergulho feito só com a respiração presa, sem aparelho de respiração.",
+        "variantes": [
+          "Freediving",
+          "Apneia",
+          "Mergulho em apneia"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Nome 'KAPANEN', número e patrocinadores visíveis nas camisas e nas placas; há também jogadores identificáveis."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Moto aquática em movimento, bem visível e sem texto que entregue a resposta.",
+      "pergunta": "Que veículo aquático é este?",
+      "resposta": "Jet ski (moto aquática)",
+      "tipo": "multipla",
+      "distratores": [
+        "Lancha",
+        "Aerobarco",
+        "Bote inflável"
+      ],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "ancora": {
+        "nome": "Jet ski",
+        "descricao": "Pequeno veículo aquático motorizado em que o piloto fica sentado ou em pé sobre o casco.",
+        "variantes": [
+          "Moto aquática",
+          "Veículo aquático pessoal",
+          "Jetski"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Imagem de baixa qualidade, com pessoa comum em primeiro plano; o praticante parece estar sentado, o que confunde com kneeboard e outras variantes."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução, com pessoas comuns cortadas em primeiro plano; mostra trajes de miko, sem contexto de artes marciais."
+    }
+  ]
+}
