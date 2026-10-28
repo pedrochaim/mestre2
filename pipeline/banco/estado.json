@@ -875,9 +875,10 @@
     "fig_energia_matematica_007",
     "fig_frutas_ingredientes_017",
     "fig_dinossauros_005",
-    "fig_lutas_007"
+    "fig_lutas_007",
+    "fig_objetos_trajes_013"
   ],
-  "maior_id": 16305,
+  "maior_id": 16311,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -945,16 +946,17 @@
     },
     "objetos_trajes": {
       "familias": {
-        "o_que_e": 69,
+        "o_que_e": 74,
         "com_o_que_se_liga": 15,
-        "onde": 8
+        "onde": 8,
+        "que_tipo": 1
       },
       "niveis": {
-        "1": 44,
+        "1": 45,
         "3": 9,
-        "2": 39
+        "2": 44
       },
-      "registradas": 92
+      "registradas": 98
     },
     "retratos_historicos": {
       "familias": {

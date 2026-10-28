@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que aparelho doméstico é este?",
+        "resposta": "Máquina de costura"
+      },
+      "existentes": [
+        {
+          "id": "q07636",
+          "pergunta": "Em que século surgiu a primeira máquina deste tipo?",
+          "resposta": "Século dezoito"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do aparelho (máquina de costura); a existente pergunta o século da primeira máquina. Fatos diferentes, e acertar uma não leva a responder a outra."
+    }
+  ]
+}

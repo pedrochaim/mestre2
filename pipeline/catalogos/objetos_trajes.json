@@ -803,7 +803,7 @@
       "titulo": "en:Bolo tie",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Calçadeira",
@@ -1006,7 +1006,7 @@
       "titulo": "en:Fly swatter",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Cortador de unha",
@@ -1034,7 +1034,7 @@
       "titulo": "en:Agbada",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Sarafan",
@@ -1119,6 +1119,286 @@
       "camada": 3,
       "destino": 0,
       "status": "usada"
+    },
+    {
+      "nome": "Faca",
+      "titulo": "en:Knife",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Frigideira",
+      "titulo": "en:Frying pan",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Chave",
+      "titulo": "en:Key (lock)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ventilador",
+      "titulo": "en:Mechanical fan",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mamadeira",
+      "titulo": "en:Baby bottle",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pasta de dente",
+      "titulo": "en:Toothpaste",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Toalha",
+      "titulo": "en:Towel",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Carteira",
+      "titulo": "en:Wallet",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Bolsa",
+      "titulo": "en:Handbag",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Chuteira",
+      "titulo": "en:Football boot",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Secador de cabelo",
+      "titulo": "en:Hair dryer",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Máquina de costura",
+      "titulo": "en:Sewing machine",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Lancheira",
+      "titulo": "en:Lunchbox",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Espremedor de alho",
+      "titulo": "en:Garlic press",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Batedor de ovos (fouet)",
+      "titulo": "en:Whisk",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Descascador de legumes",
+      "titulo": "en:Peeler",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Moedor de carne",
+      "titulo": "en:Meat grinder",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Telefone de disco",
+      "titulo": "en:Rotary dial",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Agulha de tricô",
+      "titulo": "en:Knitting needle",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Bobes",
+      "titulo": "en:Hair roller",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Navalha",
+      "titulo": "en:Straight razor",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pincel de barbear",
+      "titulo": "en:Shaving brush",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cardigã",
+      "titulo": "en:Cardigan (sweater)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Parca",
+      "titulo": "en:Parka",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Chapéu bucket",
+      "titulo": "en:Bucket hat",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Yukata",
+      "titulo": "en:Yukata",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Salwar kameez",
+      "titulo": "en:Shalwar kameez",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Bindi",
+      "titulo": "en:Bindi",
+      "camada": 2,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Sgian-dubh",
+      "titulo": "en:Sgian-dubh",
+      "camada": 3,
+      "destino": 2,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Tam o' shanter",
+      "titulo": "en:Tam o' shanter (cap)",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Agal",
+      "titulo": "en:Agal (accessory)",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Kufi",
+      "titulo": "en:Kufi",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Gele",
+      "titulo": "en:Gele (head tie)",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Pollera",
+      "titulo": "en:Pollera",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Vyshyvanka",
+      "titulo": "en:Vyshyvanka",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Sherwani",
+      "titulo": "en:Sherwani",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Tagelmust",
+      "titulo": "en:Tagelmust",
+      "camada": 3,
+      "destino": 2,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Songkok",
+      "titulo": "en:Songkok",
+      "camada": 3,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Gancho de abotoar",
+      "titulo": "en:Buttonhook",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cortador de ovo",
+      "titulo": "en:Egg slicer",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }

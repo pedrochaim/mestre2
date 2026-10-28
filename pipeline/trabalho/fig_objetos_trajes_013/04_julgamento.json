@@ -1,0 +1,379 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Frigideira",
+        "descricao": "Utensílio de cozinha de fundo plano, bordas baixas e cabo longo, usado para fritar e dourar alimentos.",
+        "variantes": [
+          "Frypan",
+          "Skillet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "farigiraf",
+          "nome": "Farigiraf",
+          "descricao": "Pokémon dos tipos Normal e Psíquico, número 981 da Pokédex Nacional.",
+          "variantes": [
+            "Rikikirin"
+          ]
+        },
+        {
+          "id": "kilt",
+          "nome": "Kilt",
+          "descricao": "Peça de vestuário tradicional escocesa, semelhante a uma saia até o joelho, de lã em padrão tartan e com pregas.",
+          "variantes": [
+            "Kilt escocês",
+            "Saiote escocês"
+          ]
+        },
+        {
+          "id": "freya",
+          "nome": "Freya",
+          "descricao": "Deusa nórdica do amor, da beleza e da fertilidade.",
+          "variantes": [
+            "Freyja",
+            "Freia"
+          ]
+        },
+        {
+          "id": "brigadeiro",
+          "nome": "Brigadeiro",
+          "descricao": "Doce brasileiro de leite condensado, chocolate e manteiga, enrolado em bolinhas e coberto de granulado",
+          "variantes": [
+            "Brigadeiro (doce)",
+            "Negrinho"
+          ]
+        },
+        {
+          "id": "dormideira",
+          "nome": "Dormideira",
+          "descricao": "Mimosa pudica, planta rasteira da família das leguminosas cujas folhas se fecham ao toque.",
+          "variantes": [
+            "Sensitiva",
+            "Mimosa pudica",
+            "Malícia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Máquina de costura",
+        "descricao": "Máquina que une tecidos e outros materiais com linha, usada em casa ou na indústria de roupas.",
+        "variantes": [
+          "Sewing machine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maquina_de_costura",
+          "nome": "Máquina de costura",
+          "descricao": "Máquina que une tecidos com linha, considerada inventada por Thomas Saint em 1790.",
+          "variantes": []
+        },
+        {
+          "id": "snag_machine",
+          "nome": "Snag Machine",
+          "descricao": "Aparelho preso ao braço do protagonista de Pokémon Colosseum e Pokémon XD, usado para capturar pokémon de outros treinadores.",
+          "variantes": [
+            "Máquina Snag"
+          ]
+        },
+        {
+          "id": "draisiana",
+          "nome": "Draisiana",
+          "descricao": "Veículo de duas rodas movido com os pés no chão, criado pelo alemão Karl Drais em 1817, ancestral da bicicleta.",
+          "variantes": [
+            "Dandy horse",
+            "Laufmaschine",
+            "Máquina de correr"
+          ]
+        },
+        {
+          "id": "mecanismo_de_anticitera",
+          "nome": "Mecanismo de Anticítera",
+          "descricao": "Antigo aparelho grego de engrenagens, encontrado num naufrágio perto da ilha de Anticítera, usado para prever posições astronômicas.",
+          "variantes": [
+            "Máquina de Anticítera",
+            "Antikythera mechanism"
+          ]
+        },
+        {
+          "id": "fita_metrica",
+          "nome": "Fita métrica",
+          "descricao": "Fita flexível com marcações usada para medir comprimentos, comum na costura.",
+          "variantes": [
+            "Trena de costura",
+            "Metro de costureira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Agulha de tricô",
+        "descricao": "Haste longa de ponta afilada usada para formar pontos e produzir tecido de tricô à mão.",
+        "variantes": [
+          "Agulhas de tricô",
+          "Knitting needle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aguas_de_marco",
+          "nome": "Águas de Março",
+          "descricao": "Canção brasileira de 1972 que lista imagens como pau, pedra e fim do caminho.",
+          "variantes": [
+            "Waters of March"
+          ]
+        },
+        {
+          "id": "agua_de_coco",
+          "nome": "Água de coco",
+          "descricao": "Líquido claro do interior do coco verde, consumido como bebida.",
+          "variantes": [
+            "Coconut water",
+            "Água de coco verde"
+          ]
+        },
+        {
+          "id": "muralhas_de_troia",
+          "nome": "Muralhas de Troia",
+          "descricao": "Muralhas lendárias da cidade de Troia, erguidas segundo o mito por deuses a serviço do rei Laomedonte.",
+          "variantes": []
+        },
+        {
+          "id": "agulhas_de_cleopatra",
+          "nome": "Agulhas de Cleópatra",
+          "descricao": "Obeliscos egípcios do reinado de Tutmés III, originalmente em Heliópolis, reerguidos em Londres e em Nova York no século dezenove",
+          "variantes": [
+            "Cleopatra's Needle",
+            "Agulha de Cleópatra"
+          ]
+        },
+        {
+          "id": "betelgeuse",
+          "nome": "Betelgeuse",
+          "descricao": "Estrela supergigante vermelha da constelação de Órion, que marca o ombro do caçador.",
+          "variantes": [
+            "Alfa de Órion",
+            "Betelgeuze"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Parca",
+        "descricao": "Casaco longo de frio com capuz forrado de pelo, de origem inuíte.",
+        "variantes": [
+          "Parka"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "moiras",
+          "nome": "Moiras",
+          "descricao": "Três deusas gregas do destino que fiavam, mediam e cortavam o fio da vida de cada mortal.",
+          "variantes": [
+            "Moirai",
+            "Parcas"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "paca",
+          "nome": "Paca",
+          "descricao": "Roedor noturno das florestas da América tropical (Cuniculus paca), de pelagem escura com fileiras de manchas brancas.",
+          "variantes": [
+            "Cuniculus paca",
+            "Lowland paca"
+          ]
+        },
+        {
+          "id": "bandeira_do_para",
+          "nome": "Bandeira do Pará",
+          "descricao": "Bandeira do estado brasileiro do Pará, com faixa diagonal branca e estrela azul sobre fundo vermelho.",
+          "variantes": [
+            "Pará"
+          ]
+        },
+        {
+          "id": "futbol_club_barcelona",
+          "nome": "Futbol Club Barcelona",
+          "descricao": "Clube de futebol da cidade de Barcelona, na Espanha, fundado em 1899.",
+          "variantes": [
+            "Barcelona",
+            "Barça",
+            "FC Barcelona"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Secador de cabelo",
+        "descricao": "Aparelho elétrico portátil que sopra ar quente para secar e modelar os cabelos.",
+        "variantes": [
+          "Hair dryer",
+          "Blow dryer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "escova_de_cabelo",
+          "nome": "Escova de cabelo",
+          "descricao": "Escova com cerdas usada para pentear e desembaraçar os cabelos.",
+          "variantes": [
+            "Escova de cabelos"
+          ]
+        },
+        {
+          "id": "grampo_de_cabelo",
+          "nome": "Grampo de cabelo",
+          "descricao": "Pequeno grampo metálico de duas hastes, ondulado, que prende o cabelo no lugar.",
+          "variantes": [
+            "Grampo",
+            "Bobby pin",
+            "Presilha"
+          ]
+        },
+        {
+          "id": "homem_mascarado_pokemon_adventures",
+          "nome": "Homem Mascarado (Pokémon Adventures)",
+          "descricao": "Vilão mascarado do arco de Gold, Silver e Crystal do mangá Pokémon Adventures, que sequestra crianças e rouba pokémon em Johto.",
+          "variantes": [
+            "Masked Man",
+            "Mascarado de Gelo",
+            "Kamen no Otoko"
+          ]
+        },
+        {
+          "id": "cobra_palavra_inglesa",
+          "nome": "Cobra (palavra inglesa)",
+          "descricao": "Palavra que o inglês e outras línguas tomaram do português para designar as najas",
+          "variantes": [
+            "Cobra de capelo"
+          ]
+        },
+        {
+          "id": "leao_de_belfort",
+          "nome": "Leão de Belfort",
+          "descricao": "Grande escultura de um leão em arenito vermelho, aos pés da cidadela de Belfort, na França, obra de Frédéric Auguste Bartholdi.",
+          "variantes": [
+            "Lion de Belfort",
+            "Lion of Belfort"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Mata-moscas",
+        "descricao": "Utensílio de cabo longo com uma palheta de plástico perfurada, usado para matar insetos voadores.",
+        "variantes": [
+          "Fly swatter",
+          "Mata-mosca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "amanita_muscaria",
+          "nome": "Amanita muscaria",
+          "descricao": "Cogumelo venenoso de chapéu vermelho com pintas brancas, típico das ilustrações de contos de fadas",
+          "variantes": [
+            "Agário-das-moscas",
+            "Mata-moscas",
+            "Fly agaric"
+          ]
+        },
+        {
+          "id": "dioneia",
+          "nome": "Dioneia",
+          "descricao": "Planta carnívora Dionaea muscipula, que captura insetos com folhas em forma de armadilha",
+          "variantes": [
+            "Dionaea muscipula",
+            "papa-moscas",
+            "Venus flytrap"
+          ]
+        },
+        {
+          "id": "mata_dos_cocais",
+          "nome": "Mata dos Cocais",
+          "descricao": "Formação vegetal de transição entre Amazônia, Cerrado e Caatinga, dominada por palmeiras como o babaçu e a carnaúba",
+          "variantes": [
+            "Zona dos Cocais"
+          ]
+        },
+        {
+          "id": "matamata",
+          "nome": "Matamatá",
+          "descricao": "Chelus fimbriata, cágado amazônico de pescoço lateral, com casco rugoso e cabeça achatada com franjas.",
+          "variantes": [
+            "Mata-mata",
+            "Chelus fimbriata"
+          ]
+        },
+        {
+          "id": "maitaca_verde",
+          "nome": "Maitaca-verde",
+          "descricao": "Papagaio Pionus maximiliani, de cabeça escura com penas escamadas, presente no Brasil, Bolívia, Argentina e Paraguai.",
+          "variantes": [
+            "Maritaca",
+            "Maitaca",
+            "Pionus maximiliani",
+            "Scaly-headed parrot"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é uma frigideira."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "maquina_de_costura",
+      "motivo": "Mesmo objeto: máquina de costura que une tecidos com linha."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Agulha de tricô é diferente dos obeliscos Agulhas de Cleópatra e das demais candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Parca (casaco) difere das Parcas mitológicas (Moiras) e das outras candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Secador de cabelo é um aparelho distinto de escova ou grampo de cabelo."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Utensílio mata-moscas é diferente do cogumelo Amanita muscaria, que só compartilha o nome."
+    }
+  ]
+}

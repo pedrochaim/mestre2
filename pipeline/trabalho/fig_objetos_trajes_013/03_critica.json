@@ -1,0 +1,62 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado genérico, sem vazamento; distratores do mesmo tipo e nenhum correto para uma frigideira.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Overloque industrial' é um tipo de máquina de costura, então é defensável como resposta. Troquei por distrator claramente errado.",
+      "reescrita": {
+        "pergunta": "Que aparelho doméstico é este?",
+        "resposta": "Máquina de costura",
+        "distratores": [
+          "Máquina de escrever",
+          "Máquina de tricô",
+          "Ferro de passar"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Varetas de bambu' pode estar certo, pois agulhas de tricô modernas são feitas de bambu. Além disso, o plural não bate com o item em 'mostra', que está no singular.",
+      "reescrita": {
+        "pergunta": "Que ferramenta de artesanato é esta?",
+        "resposta": "Agulha de tricô",
+        "distratores": [
+          "Agulha de crochê",
+          "Agulha de costura",
+          "Palito chinês"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento; distratores são casacos distintos e plausíveis, e nenhum descreve a parca.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado genérico, sem vazamento; distratores plausíveis e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem vazamento; distratores parecidos visualmente (palheta/raquete) e nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}

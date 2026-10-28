@@ -1,0 +1,176 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Frigideira de aço clara, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que utensílio de cozinha é este?",
+      "resposta": "Frigideira",
+      "distratores": [
+        "Wok",
+        "Caçarola",
+        "Assadeira"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Frigideira",
+        "descricao": "Utensílio de cozinha de fundo plano, bordas baixas e cabo longo, usado para fritar e dourar alimentos.",
+        "variantes": [
+          "Frypan",
+          "Skillet"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Mostra três utensílios diferentes juntos, e o da esquerda, largo, parece mais um fatiador; a resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "É um retrato antigo de uma pessoa não identificada, em primeiro plano; o songkok não é o foco e a pessoa não é figura pública reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Máquina de costura clara, de perfil. A marca visível não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aparelho doméstico é este?",
+      "resposta": "Máquina de costura",
+      "distratores": [
+        "Máquina de escrever",
+        "Máquina de tricô",
+        "Overloque industrial"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Máquina de costura",
+        "descricao": "Máquina que une tecidos e outros materiais com linha, usada em casa ou na indústria de roupas.",
+        "variantes": [
+          "Sewing machine"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Conjunto de agulhas de tricô (retas, circular e de pontas duplas) sobre fundo verde liso, de um único tipo de objeto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ferramentas de artesanato com fio são estas?",
+      "resposta": "Agulhas de tricô",
+      "distratores": [
+        "Agulhas de crochê",
+        "Agulhas de costura",
+        "Varetas de bambu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Agulha de tricô",
+        "descricao": "Haste longa de ponta afilada usada para formar pontos e produzir tecido de tricô à mão.",
+        "variantes": [
+          "Agulhas de tricô",
+          "Knitting needle"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Vários recipientes antigos e diferentes, difíceis de reconhecer como lancheiras e que lembram latas de leite ou panelas; a resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Parca verde com capuz de pelo, em fundo branco, bem legível.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de casaco de frio é este?",
+      "resposta": "Parca",
+      "distratores": [
+        "Casaco pea coat",
+        "Capa de chuva",
+        "Jaqueta bomber"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Parca",
+        "descricao": "Casaco longo de frio com capuz forrado de pelo, de origem inuíte.",
+        "variantes": [
+          "Parka"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Aparece uma carteira de motorista com foto e nome de uma pessoa comum, além de textos legíveis."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "É um retrato em primeiro plano de uma pessoa comum, e o bindi é um detalhe pequeno."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Secador de cabelo claro e reconhecível. A marca e os textos visíveis não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aparelho elétrico de uso pessoal é este?",
+      "resposta": "Secador de cabelo",
+      "distratores": [
+        "Chapinha",
+        "Aspirador portátil",
+        "Aquecedor de ambiente"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Secador de cabelo",
+        "descricao": "Aparelho elétrico portátil que sopra ar quente para secar e modelar os cabelos.",
+        "variantes": [
+          "Hair dryer",
+          "Blow dryer"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Mata-moscas vermelho de plástico, sozinho, bem visível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que utensílio doméstico é este?",
+      "resposta": "Mata-moscas",
+      "distratores": [
+        "Raquete de pingue-pongue",
+        "Peneira de cozinha",
+        "Espátula de plástico"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mata-moscas",
+        "descricao": "Utensílio de cabo longo com uma palheta de plástico perfurada, usado para matar insetos voadores.",
+        "variantes": [
+          "Fly swatter",
+          "Mata-mosca"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "É um desenho a nanquim, e a regra só aceita ilustração para o que não pode ser fotografado; a gravata bolo pode."
+    }
+  ]
+}
