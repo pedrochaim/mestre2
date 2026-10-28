@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é este narrador esportivo?",
+        "resposta": "Galvão Bueno"
+      },
+      "existentes": [
+        {
+          "id": "q15326",
+          "pergunta": "Que narrador esportivo brasileiro é este?",
+          "resposta": "Galvão Bueno"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q15326",
+      "motivo": "Ambas pedem a identificação da mesma pessoa (narrador esportivo, imagem) com a mesma resposta, Galvão Bueno."
+    }
+  ]
+}

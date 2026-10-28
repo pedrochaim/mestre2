@@ -1,0 +1,246 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida do cantor, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é este cantor sertanejo?",
+      "resposta": "Leonardo",
+      "distratores": [
+        "Zezé Di Camargo",
+        "Chitãozinho",
+        "Daniel"
+      ],
+      "ancora": {
+        "nome": "Leonardo",
+        "descricao": "Cantor sertanejo brasileiro, ex-integrante da dupla Leandro & Leonardo.",
+        "variantes": [
+          "Emival Eterno da Costa"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco nítido, sem texto; reconhecível pelo boné e pelo rosto.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quem é este cantor, compositor e ator americano, nascido em 1949?",
+      "resposta": "Tom Waits",
+      "distratores": [
+        "Bob Dylan",
+        "Leonard Cohen",
+        "Nick Cave"
+      ],
+      "ancora": {
+        "nome": "Tom Waits",
+        "descricao": "Cantor, compositor e ator americano de voz grave e rouca, nascido em 1949.",
+        "variantes": [
+          "Thomas Alan Waits"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida; o crachá traz só o nome de um evento, que não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Quem é este narrador esportivo?",
+      "resposta": "Galvão Bueno",
+      "distratores": [
+        "Cléber Machado",
+        "Luciano do Valle",
+        "Silvio Luiz"
+      ],
+      "ancora": {
+        "nome": "Galvão Bueno",
+        "descricao": "Narrador e comentarista esportivo brasileiro da TV Globo.",
+        "variantes": [
+          "Carlos Eduardo dos Santos Galvão Bueno"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Quem é este ator americano?",
+      "resposta": "Robert De Niro",
+      "distratores": [
+        "Al Pacino",
+        "Harvey Keitel",
+        "Joe Pesci"
+      ],
+      "ancora": {
+        "nome": "Robert De Niro",
+        "descricao": "Ator e produtor americano, vencedor de dois Oscars.",
+        "variantes": [
+          "Robert Anthony De Niro"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida, cabelo roxo característico, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que grupo musical brasileiro esta cantora integrou nos anos setenta?",
+      "resposta": "Novos Baianos",
+      "distratores": [
+        "Os Mutantes",
+        "Secos & Molhados",
+        "A Cor do Som"
+      ],
+      "ancora": {
+        "nome": "Baby do Brasil",
+        "descricao": "Cantora, compositora e pastora brasileira, ex-integrante dos Novos Baianos.",
+        "variantes": [
+          "Baby Consuelo",
+          "Bernadete Dinorah de Carvalho Cidade"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido; só aparece um '#S' parcial ao fundo, que não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quem é esta cantora e atriz americana?",
+      "resposta": "Jennifer Lopez",
+      "distratores": [
+        "Shakira",
+        "Mariah Carey",
+        "Eva Longoria"
+      ],
+      "ancora": {
+        "nome": "Jennifer Lopez",
+        "descricao": "Cantora, atriz e dançarina americana conhecida como J.Lo.",
+        "variantes": [
+          "J.Lo",
+          "Jennifer Lynn Lopez"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que lendária atriz de Hollywood esta atriz interpretou em O Aviador, papel que lhe rendeu um Oscar?",
+      "resposta": "Katharine Hepburn",
+      "distratores": [
+        "Audrey Hepburn",
+        "Greta Garbo",
+        "Bette Davis"
+      ],
+      "ancora": {
+        "nome": "Cate Blanchett",
+        "descricao": "Atriz e produtora australiana, vencedora de dois Oscars.",
+        "variantes": [
+          "Catherine Élise Blanchett"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Imagem pequena, recortada e granulada, com o rosto em close; a artista não é reconhecível com segurança."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Figura pública em foto de evento, sem texto; rosto visível, embora a foto seja de baixa resolução.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Em que emissora esta apresentadora estreou em programas infantis, aos doze anos?",
+      "resposta": "Rede Manchete",
+      "distratores": [
+        "SBT",
+        "Rede Globo",
+        "Rede Record"
+      ],
+      "ancora": {
+        "nome": "Angélica",
+        "descricao": "Apresentadora, atriz e cantora brasileira, nascida em Santo André em 1973.",
+        "variantes": [
+          "Angélica Ksyvickis Huck"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Quem é esta atriz americana?",
+      "resposta": "Jennifer Aniston",
+      "distratores": [
+        "Courteney Cox",
+        "Lisa Kudrow",
+        "Reese Witherspoon"
+      ],
+      "ancora": {
+        "nome": "Jennifer Aniston",
+        "descricao": "Atriz americana, conhecida pela série Friends.",
+        "variantes": [
+          "Jennifer Joanna Aniston"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Imagem minúscula, escura e de baixa resolução; não fica legível nem reconhecível num celular."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Quem é esta apresentadora que começou como cantora nos anos quarenta e depois foi para o rádio e a televisão?",
+      "resposta": "Hebe Camargo",
+      "distratores": [
+        "Nair Bello",
+        "Dercy Gonçalves",
+        "Marília Pêra"
+      ],
+      "ancora": {
+        "nome": "Hebe Camargo",
+        "descricao": "Apresentadora, cantora e atriz brasileira, chamada de Rainha da Televisão Brasileira.",
+        "variantes": [
+          "Hebe Maria Monteiro de Camargo Ravagnani"
+        ]
+      }
+    }
+  ]
+}
