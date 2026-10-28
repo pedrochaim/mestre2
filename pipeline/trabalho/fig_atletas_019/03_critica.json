@@ -1,0 +1,93 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado só pede reconhecimento; McEnroe é americano e os distratores são tenistas americanos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Bayern, 2014 e 2024 junto de 'alemão' permitem responder sem ver a figura. Troquei por um fato que só se alcança depois de reconhecer o jogador (seis títulos da Liga dos Campeões, segundo o trecho em português).",
+      "reescrita": {
+        "pergunta": "Quantas vezes este meio-campista alemão foi campeão da Liga dos Campeões?",
+        "resposta": "Seis",
+        "distratores": [
+          "Quatro",
+          "Cinco",
+          "Sete"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; distratores são nadadores brasileiros críveis e nenhum é a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Sair do Manchester United em 2012 para um clube italiano é um feito único e entrega Pogba, então a figura vira enfeite. Reescrevi sem essa pista.",
+      "reescrita": {
+        "pergunta": "Este meio-campista francês defendeu qual clube italiano?",
+        "resposta": "Juventus",
+        "distratores": [
+          "Milan",
+          "Inter de Milão",
+          "Roma"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Cinco Tours seguidos é o feito único de Induráin, então o enunciado se responde sem a figura. Troquei por um fato que exige reconhecê-lo (nasceu em Villava, Navarra).",
+      "reescrita": {
+        "pergunta": "Em que comunidade autônoma da Espanha nasceu este ciclista?",
+        "resposta": "Navarra",
+        "distratores": [
+          "Catalunha",
+          "Aragão",
+          "País Basco"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Boca Juniors, 2005 e 2006 e clube brasileiro dão pistas demais. Tevez só jogou no Corinthians no Brasil, então a pergunta fica simples e a resposta continua única.",
+      "reescrita": {
+        "pergunta": "Este atacante argentino jogou em qual clube brasileiro?",
+        "resposta": "Corinthians",
+        "distratores": [
+          "Palmeiras",
+          "São Paulo",
+          "Santos"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Criar uma competição em 2022 sendo ex-zagueiro espanhol entrega Piqué e a resposta sai sem a figura. Troquei por um fato que exige reconhecê-lo (a maior parte da carreira no Barcelona, de 2008 a 2022).",
+      "reescrita": {
+        "pergunta": "Em que clube este ex-zagueiro espanhol passou a maior parte da carreira?",
+        "resposta": "Barcelona",
+        "distratores": [
+          "Real Madrid",
+          "Valencia",
+          "Sevilla"
+        ]
+      }
+    }
+  ]
+}

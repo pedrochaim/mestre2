@@ -1,0 +1,189 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Crachá com o nome Saunders e outro lutador visível; induz a resposta errada e a foto não é nítida o bastante para reconhecer só pelo rosto."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto de ação de figura pública, sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que tenista americano é este?",
+      "resposta": "John McEnroe",
+      "distratores": [
+        "Jimmy Connors",
+        "Andre Agassi",
+        "Pete Sampras"
+      ],
+      "ancora": {
+        "nome": "John McEnroe",
+        "descricao": "Ex-tenista americano, número 1 do mundo em simples e duplas, conhecido pelo temperamento em quadra.",
+        "variantes": [
+          "John Patrick McEnroe Jr."
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto; pergunta de nível 3 sobre clube após reconhecer.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Depois do Bayern, este meio-campista alemão jogou dez anos, de 2014 a 2024, em que clube?",
+      "resposta": "Real Madrid",
+      "distratores": [
+        "Barcelona",
+        "Juventus",
+        "Manchester City"
+      ],
+      "ancora": {
+        "nome": "Toni Kroos",
+        "descricao": "Ex-meio-campista alemão, campeão do mundo em 2014 e pentacampeão da Liga dos Campeões pelo Real Madrid.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Figura pública sorridente com medalha, sem nome visível; reconhecimento razoável.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 5,
+      "pergunta": "Que nadador brasileiro é este?",
+      "resposta": "Thiago Pereira",
+      "distratores": [
+        "César Cielo",
+        "Bruno Fratus",
+        "Gustavo Borges"
+      ],
+      "ancora": {
+        "nome": "Thiago Pereira",
+        "descricao": "Nadador brasileiro de medley, medalhista de prata nos 400 metros medley nos Jogos de Londres 2012.",
+        "variantes": [
+          "Thiago Machado Vilela Pereira"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Imagem pequena e de baixa resolução; o atleta não é reconhecível pelo rosto e só há a jaqueta do Brasil."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto; pergunta sobre clube italiano.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este meio-campista francês deixou o Manchester United em 2012 para jogar em qual clube italiano?",
+      "resposta": "Juventus",
+      "distratores": [
+        "Milan",
+        "Inter de Milão",
+        "Roma"
+      ],
+      "ancora": {
+        "nome": "Paul Pogba",
+        "descricao": "Meio-campista francês, campeão do mundo em 2018, ex-Manchester United e Juventus.",
+        "variantes": [
+          "Paul Labile Pogba"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato de coletiva, sem nome legível; camisa Banesto não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Quantas vezes seguidas este ciclista espanhol venceu o Tour de France?",
+      "resposta": "Cinco",
+      "distratores": [
+        "Três",
+        "Quatro",
+        "Seis"
+      ],
+      "ancora": {
+        "nome": "Miguel Induráin",
+        "descricao": "Ciclista espanhol, vencedor de cinco Tours de France consecutivos, de 1991 a 1995.",
+        "variantes": [
+          "Miguel Indurain"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto de jogo com camisa da Argentina; número sem nome não entrega.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este atacante argentino, depois do Boca Juniors, jogou em 2005 e 2006 em qual clube brasileiro?",
+      "resposta": "Corinthians",
+      "distratores": [
+        "Palmeiras",
+        "São Paulo",
+        "Santos"
+      ],
+      "ancora": {
+        "nome": "Carlos Tevez",
+        "descricao": "Atacante argentino, ex-Boca Juniors, Corinthians, Manchester United e Manchester City.",
+        "variantes": [
+          "Carlitos Tevez",
+          "Carlos Alberto Tevez"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A plaquinha à frente dela mostra o nome 'Cris Cyborg', o que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que competição este ex-zagueiro espanhol criou em 2022?",
+      "resposta": "Kings League",
+      "distratores": [
+        "Baller League",
+        "Liga das Estrelas",
+        "Super League"
+      ],
+      "ancora": {
+        "nome": "Gerard Piqué",
+        "descricao": "Ex-zagueiro espanhol do Barcelona e da seleção da Espanha, fundador da Kings League.",
+        "variantes": [
+          "Gerard Pique"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Há dois nadadores na foto, e não é claro qual é Fernando Scherer; a resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto minúscula e de baixa resolução, tipo foto de elenco; o atleta não é reconhecível."
+    }
+  ]
+}

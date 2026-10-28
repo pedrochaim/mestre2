@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tenista americano é este?",
+        "resposta": "John McEnroe"
+      },
+      "existentes": [
+        {
+          "id": "q15791",
+          "pergunta": "Que país este ex-tenista representou na carreira?",
+          "resposta": "Estados Unidos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identidade do tenista (John McEnroe); a existente pede o país que ele representou. São fatos diferentes, e saber o país não leva a identificar a pessoa."
+    }
+  ]
+}
