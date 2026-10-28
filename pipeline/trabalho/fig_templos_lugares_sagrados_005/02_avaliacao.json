@@ -1,0 +1,260 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Dois postes totêmicos nítidos, sem texto, sem pessoas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de monumento entalhado em madeira, típico de povos indígenas da costa noroeste da América do Norte, é este?",
+      "resposta": "Poste totêmico",
+      "distratores": [
+        "Obelisco",
+        "Menir",
+        "Estela maia"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Totem",
+        "descricao": "Poste monumental entalhado em madeira, típico dos povos indígenas da costa noroeste do Pacífico na América do Norte.",
+        "variantes": [
+          "Poste totêmico",
+          "Totem pole"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada frontal nítida e reconhecível; só duas pessoas minúsculas na porta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que igreja barroca mineira é esta?",
+      "resposta": "Igreja de São Francisco de Assis, em Ouro Preto",
+      "distratores": [
+        "Igreja do Carmo de Ouro Preto",
+        "Matriz de Santo Antônio",
+        "Bom Jesus de Matosinhos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Igreja de São Francisco de Assis (Ouro Preto)",
+        "descricao": "Igreja católica barroco-rococó de Ouro Preto, Minas Gerais, com fachada projetada por Aleijadinho.",
+        "variantes": [
+          "São Francisco de Assis de Ouro Preto"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fachada de empena de tijolos característica, sem texto que entregue; pessoas pequenas e incidentais.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sinagoga medieval europeia é esta?",
+      "resposta": "Sinagoga Velha-Nova",
+      "distratores": [
+        "Sinagoga Maisel",
+        "Sinagoga Pinkas",
+        "Sinagoga Alta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sinagoga Velha-Nova de Praga",
+        "descricao": "Sinagoga gótica de 1270 no bairro de Josefov, em Praga, a mais antiga ainda em uso na Europa.",
+        "variantes": [
+          "Staronová synagoga",
+          "Altneuschul",
+          "Old New Synagogue"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Símbolo claro, sem texto; resposta sobre o deus associado.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que deus egípcio é associado a este símbolo de proteção e cura?",
+      "resposta": "Hórus",
+      "distratores": [
+        "Anúbis",
+        "Ptah",
+        "Sobek"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Olho de Hórus",
+        "descricao": "Símbolo do Egito Antigo de proteção, cura e bem-estar, ligado ao mito do deus Hórus e de Set.",
+        "variantes": [
+          "Wedjat",
+          "Udjat",
+          "Eye of Horus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto de uma montanha árida sem traços que permitam reconhecer o Monte Sinai; há outras candidatas e a resposta não é única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano (rapaz e criança) e camiseta com texto; contexto não é festa pública."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Objeto isolado e nítido; texto em hebraico e símbolos não entregam o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta peça de vestuário é usada por homens de qual religião?",
+      "resposta": "Judaísmo",
+      "distratores": [
+        "Budismo",
+        "Hinduísmo",
+        "Xintoísmo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Quipá",
+        "descricao": "Pequeno gorro sem aba usado por judeus para cobrir a cabeça, sobretudo durante a oração.",
+        "variantes": [
+          "Kipá",
+          "Kippah",
+          "Yarmulke",
+          "Solidéu judaico"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Torii na água inconfundível; placa pequena ilegível; sem pessoas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que santuário xintoísta japonês tem este portal?",
+      "resposta": "Santuário de Itsukushima",
+      "distratores": [
+        "Fushimi Inari",
+        "Santuário Meiji",
+        "Santuário de Ise"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Santuário de Itsukushima",
+        "descricao": "Santuário xintoísta na ilha de Miyajima, no Japão, famoso pelo torii que parece flutuar na água.",
+        "variantes": [
+          "Itsukushima",
+          "Miyajima",
+          "Itsukushima Shrine"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto histórica em preto e branco, ruínas bem visíveis do templo dórico.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que região da Grécia fica este templo dórico dedicado a Apolo?",
+      "resposta": "Peloponeso",
+      "distratores": [
+        "Ática",
+        "Beócia",
+        "Tessália"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Templo de Apolo Epicuro",
+        "descricao": "Templo dórico do século cinco antes de Cristo em Bassas, na Arcádia, no Peloponeso, Grécia.",
+        "variantes": [
+          "Templo de Apolo em Bassas",
+          "Templo de Bassae",
+          "Temple of Apollo Epicurius"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida e inconfundível da praça com colunata e obelisco.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta praça fica diante de qual basílica?",
+      "resposta": "Basílica de São Pedro",
+      "distratores": [
+        "Basílica de São João de Latrão",
+        "Basílica de Santa Maria Maior",
+        "São Paulo Fora dos Muros"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Praça de São Pedro",
+        "descricao": "Grande praça elíptica com colunata de Bernini e obelisco egípcio, diante da Basílica de São Pedro, no Vaticano.",
+        "variantes": [
+          "Piazza San Pietro",
+          "St. Peter's Square"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Edifício circular moderno nítido; frase pequena na fachada não nomeia o templo; pessoas de costas, pequenas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que basílica mariana moderna é esta?",
+      "resposta": "Basílica de Nossa Senhora de Guadalupe",
+      "distratores": [
+        "Basílica de Aparecida",
+        "Santuário de Fátima",
+        "Basílica de Lourdes"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Basílica de Nossa Senhora de Guadalupe",
+        "descricao": "Basílica circular moderna ao pé do morro de Tepeyac, na Cidade do México, um dos santuários mais visitados do mundo.",
+        "variantes": [
+          "Basílica de Santa María de Guadalupe",
+          "Nova Basílica de Guadalupe"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pirâmide maia nítida, sem texto nem pessoas.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta pirâmide maia?",
+      "resposta": "Guatemala",
+      "distratores": [
+        "México",
+        "Belize",
+        "Honduras"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Templo I de Tikal",
+        "descricao": "Pirâmide-templo maia de cerca de 732 d.C. na Grande Praça de Tikal, na Guatemala, também chamada Templo do Grande Jaguar.",
+        "variantes": [
+          "Templo do Grande Jaguar",
+          "Templo de Ah Cacao",
+          "Tikal Temple I"
+        ]
+      }
+    }
+  ]
+}

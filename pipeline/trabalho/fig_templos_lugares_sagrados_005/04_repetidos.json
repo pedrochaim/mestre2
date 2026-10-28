@@ -1,0 +1,125 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Como se chama este tipo de monumento?",
+        "resposta": "Poste totêmico"
+      },
+      "existentes": [
+        {
+          "id": "q14171",
+          "pergunta": "Estes postes esculpidos em madeira são tradição de povos de que região da América do Norte?",
+          "resposta": "Costa Noroeste do Pacífico"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que igreja barroca mineira é esta?",
+        "resposta": "São Francisco de Assis, Ouro Preto"
+      },
+      "existentes": [
+        {
+          "id": "q03186",
+          "pergunta": "Que pintor mineiro, parceiro de Aleijadinho, pintou o forro da Igreja de São Francisco de Assis, em Ouro Preto?",
+          "resposta": "Mestre Ataíde"
+        },
+        {
+          "id": "q14598",
+          "pergunta": "Quem projetou esta igreja mineira do século dezoito?",
+          "resposta": "Aleijadinho (Antônio Francisco Lisboa)"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Na mitologia egípcia, que deus rival arrancou o olho do deus ligado a este símbolo?",
+        "resposta": "Set"
+      },
+      "existentes": [
+        {
+          "id": "q14297",
+          "pergunta": "Que símbolo do Egito antigo é este?",
+          "resposta": "Olho de Hórus"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Esta peça de vestuário é usada por homens de qual religião?",
+        "resposta": "Judaísmo"
+      },
+      "existentes": [
+        {
+          "id": "q06938",
+          "pergunta": "Como se chama este tipo de chapéu sem aba?",
+          "resposta": "Quipá"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que santuário xintoísta japonês tem este portal?",
+        "resposta": "Santuário de Itsukushima"
+      },
+      "existentes": [
+        {
+          "id": "q07664",
+          "pergunta": "O portal torii que parece flutuar sobre o mar, no santuário de Itsukushima, fica numa ilha perto de que grande cidade japonesa?",
+          "resposta": "Hiroshima"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Esta praça fica diante de qual basílica?",
+        "resposta": "Basílica de São Pedro"
+      },
+      "existentes": [
+        {
+          "id": "q08474",
+          "pergunta": "No Vaticano, a colunata que parece abraçar a Praça de São Pedro foi projetada por qual artista barroco italiano?",
+          "resposta": "Gian Lorenzo Bernini"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nome do monumento vs. região de origem da tradição: fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a igreja é diferente de quem pintou o forro ou projetou; a resposta não decorre das outras."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o mito de Set arrancar o olho, não sobre o nome do símbolo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Religião que usa a peça é fato distinto do nome da peça."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nome do santuário vs. cidade perto da ilha: fatos diferentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Basílica diante da praça é diferente de quem projetou a colunata."
+    }
+  ]
+}

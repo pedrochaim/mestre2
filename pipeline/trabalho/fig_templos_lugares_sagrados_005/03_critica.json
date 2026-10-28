@@ -1,0 +1,106 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado descreve a resposta (monumento de madeira entalhado, costa noroeste): dá para responder sem a figura. Tirar a descrição e deixar a imagem reconhecer.",
+      "reescrita": {
+        "pergunta": "Como se chama este tipo de monumento?",
+        "resposta": "Poste totêmico",
+        "distratores": [
+          "Obelisco",
+          "Menir",
+          "Estela maia"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distratores e resposta passam de 4 palavras ('Igreja do Carmo de Ouro Preto'). Encurtar. Fato sustentado pelos trechos.",
+      "reescrita": {
+        "pergunta": "Que igreja barroca mineira é esta?",
+        "resposta": "São Francisco de Assis, Ouro Preto",
+        "distratores": [
+          "Igreja do Carmo",
+          "Matriz do Pilar",
+          "Bom Jesus de Matosinhos"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento, resposta única e distratores plausíveis, de sinagogas de Praga, com até 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta original só pede o nome do símbolo (Hórus) e é ambígua com o Olho de Rá. Reescrita para o nível 3: o passo de conhecimento é o mito, em que Set arranca o olho de Hórus, e o enunciado não nomeia Hórus.",
+      "reescrita": {
+        "pergunta": "Na mitologia egípcia, que deus rival arrancou o olho do deus ligado a este símbolo?",
+        "resposta": "Set",
+        "distratores": [
+          "Anúbis",
+          "Osíris",
+          "Sobek"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quipá é peça tradicional judaica; enunciado sem vazamento, distratores da mesma categoria e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta correta e sem vazamento. Distratores são santuários xintoístas, alguns também com torii, e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O templo de Bassas fica na Arcádia, no Peloponeso (Pausânias o situa entre os templos do Peloponeso). Distratores são regiões gregas, nenhuma correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distratores com mais de 4 palavras. Resposta correta segundo os trechos.",
+      "reescrita": {
+        "pergunta": "Esta praça fica diante de qual basílica?",
+        "resposta": "Basílica de São Pedro",
+        "distratores": [
+          "São João de Latrão",
+          "Santa Maria Maior",
+          "São Paulo Extramuros"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Basílica moderna ao pé do Tepeyac; enunciado sem vazamento e distratores marianos de até 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tikal fica na Guatemala; pergunta direta, sem vazamento, com distratores plausíveis da região maia.",
+      "reescrita": null
+    }
+  ]
+}
