@@ -383,7 +383,7 @@
       "titulo": "en:Toto Wolff",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Sébastien Loeb",
@@ -404,7 +404,7 @@
       "titulo": "en:Ferrari 250 GTO",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Circuito de Barcelona-Catalunha",
@@ -523,7 +523,7 @@
       "titulo": "en:Lancia Stratos",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Mercedes-Benz 300 SLR",
@@ -810,7 +810,7 @@
       "titulo": "en:Jaguar D-Type",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Peugeot 205 T16",
@@ -836,6 +836,286 @@
     {
       "nome": "Circuito de Sepang",
       "titulo": "en:Sepang International Circuit",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Autorama",
+      "titulo": "en:Slot car",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Carrinho de rolimã",
+      "titulo": "pt:Carrinho de rolimã",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Burnout",
+      "titulo": "en:Burnout (vehicle)",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Aerofólio",
+      "titulo": "en:Spoiler (car)",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Grid de largada",
+      "titulo": "en:Starting grid",
+      "camada": 1,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Ferrari F1-2000",
+      "titulo": "en:Ferrari F1-2000",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Williams FW16",
+      "titulo": "en:Williams FW16",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brawn BGP 001",
+      "titulo": "en:Brawn BGP 001",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Benetton",
+      "titulo": "en:Benetton Formula",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jordan Grand Prix",
+      "titulo": "en:Jordan Grand Prix",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Danica Patrick",
+      "titulo": "en:Danica Patrick",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lance Stroll",
+      "titulo": "en:Lance Stroll",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ken Block",
+      "titulo": "en:Ken Block",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Rally dos Sertões",
+      "titulo": "pt:Rally dos Sertões",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chicane",
+      "titulo": "en:Chicane",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jeff Gordon",
+      "titulo": "en:Jeff Gordon",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bugatti Type 35",
+      "titulo": "en:Bugatti Type 35",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Simulador de corrida",
+      "titulo": "en:Sim racing",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ricardo Zonta",
+      "titulo": "en:Ricardo Zonta",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedro Paulo Diniz",
+      "titulo": "en:Pedro Diniz",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alexander Albon",
+      "titulo": "en:Alexander Albon",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Giancarlo Fisichella",
+      "titulo": "en:Giancarlo Fisichella",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lotus 98T",
+      "titulo": "en:Lotus 98T",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Toleman TG184",
+      "titulo": "en:Toleman TG184",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "McLaren MP4/8",
+      "titulo": "en:McLaren MP4/8",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brabham BT49",
+      "titulo": "en:Brabham BT49",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ferrari F2008",
+      "titulo": "en:Ferrari F2008",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Red Bull RB6",
+      "titulo": "en:Red Bull RB6",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mercedes W07",
+      "titulo": "en:Mercedes AMG F1 W07 Hybrid",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Benetton B194",
+      "titulo": "en:Benetton B194",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Eddie Jordan",
+      "titulo": "en:Eddie Jordan",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jimmie Johnson",
+      "titulo": "en:Jimmie Johnson",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Luciano Burti",
+      "titulo": "en:Luciano Burti",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Antônio Pizzonia",
+      "titulo": "en:Antônio Pizzonia",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Felipe Drugovich",
+      "titulo": "en:Felipe Drugovich",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Scott Dixon",
+      "titulo": "en:Scott Dixon",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alex Palou",
+      "titulo": "en:Álex Palou",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dario Franchitti",
+      "titulo": "en:Dario Franchitti",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Michael Andretti",
+      "titulo": "en:Michael Andretti",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Thierry Boutsen",
+      "titulo": "en:Thierry Boutsen",
       "camada": 3,
       "destino": 0,
       "status": "nova"

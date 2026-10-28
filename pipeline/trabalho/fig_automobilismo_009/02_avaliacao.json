@@ -1,0 +1,195 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pista de autorama clara, sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que brinquedo de corrida é este, com carrinhos guiados por um sulco na pista?",
+      "resposta": "Autorama",
+      "distratores": [
+        "Kart",
+        "Carrinho de rolimã",
+        "Pista de Hot Wheels"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Autorama",
+        "descricao": "Brinquedo e hobby de corrida de carrinhos elétricos em miniatura guiados por um sulco na pista (slot car).",
+        "variantes": [
+          "Slot car",
+          "Slot racing"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Carro amarelo de F1 reconhecível pela pintura; nenhum texto diz o nome da equipe.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que equipe de Fórmula 1 é este carro amarelo?",
+      "resposta": "Jordan",
+      "distratores": [
+        "Minardi",
+        "Arrows",
+        "Benetton"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jordan Grand Prix",
+        "descricao": "Equipe de Fórmula 1 irlandesa fundada por Eddie Jordan, que competiu de 1991 a 2005.",
+        "variantes": [
+          "Jordan",
+          "Jordan F1"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O nome 'Felipe Drugovich' está escrito na gola da camisa, entregando a resposta; foto de webcam."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Texto visível ('Piloto - Bill Wrigley') e o veículo é um carro de ladeira aerodinâmico, não um rolimã típico; resposta ambígua."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto de rosto de figura pública, sem nome escrito; apenas logos de patrocinadores.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que piloto americano de rali e das acrobacias com carros é este?",
+      "resposta": "Ken Block",
+      "distratores": [
+        "Travis Pastrana",
+        "Colin McRae",
+        "Dale Earnhardt Jr."
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ken Block",
+        "descricao": "Piloto americano de rali, cofundador da DC Shoes e da Hoonigan, morto em 2023.",
+        "variantes": [
+          "Kenneth Paul Block"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto de perfil, de baixa qualidade; só os patrocinadores da jaqueta sugerem a equipe, e o piloto não é reconhecível com resposta única."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A placa dianteira mostra '250 GTO', o que entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Carro em primeiro plano, silhueta característica em cunha, sem texto que entregue.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que carro italiano de rali, campeão mundial três anos seguidos, é este?",
+      "resposta": "Lancia Stratos",
+      "distratores": [
+        "Alpine A110",
+        "De Tomaso Pantera",
+        "Ferrari Dino"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lancia Stratos",
+        "descricao": "Carro esportivo de motor central da Lancia, projetado para ralis, tricampeão mundial de 1974 a 1976.",
+        "variantes": [
+          "Lancia Stratos HF",
+          "Stratos"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem clara da manobra, com muita fumaça; texto visível não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que manobra, com o carro parado e os pneus girando em fumaça, é esta?",
+      "resposta": "Burnout",
+      "distratores": [
+        "Drift",
+        "Cavalo de pau",
+        "Aquaplanagem"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Burnout",
+        "descricao": "Manobra em que o veículo fica parado com as rodas girando, aquecendo os pneus até soltarem fumaça.",
+        "variantes": [
+          "Fritada de pneu",
+          "Borrachão",
+          "Peel out"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem texto que entregue o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que equipe de Fórmula 1 este dirigente austríaco comanda desde 2013?",
+      "resposta": "Mercedes",
+      "distratores": [
+        "Red Bull",
+        "Ferrari",
+        "McLaren"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Toto Wolff",
+        "descricao": "Dirigente austríaco de automobilismo, chefe e coproprietário da equipe Mercedes de Fórmula 1.",
+        "variantes": [
+          "Torger Christian Wolff"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Jaguar D-Type reconhecível pela carenagem e pela aleta; o emblema não entrega a corrida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que corrida de resistência este carro foi projetado para vencer?",
+      "resposta": "24 Horas de Le Mans",
+      "distratores": [
+        "Mil Milhas",
+        "Targa Florio",
+        "12 Horas de Sebring"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jaguar D-Type",
+        "descricao": "Carro esportivo de corrida da Jaguar, produzido de 1954 a 1957 e vencedor de Le Mans em 1955, 1956 e 1957.",
+        "variantes": [
+          "D-Type"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A imagem mostra um carro inteiro (Ford Sierra RS Cosworth), não o aerofólio isolado; resposta ambígua e placa e texto visíveis."
+    }
+  ]
+}
