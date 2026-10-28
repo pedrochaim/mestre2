@@ -1,0 +1,306 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Choco de frente, bem visível, com barbatanas e braços reconhecíveis.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este animal pertence a que classe de moluscos?",
+      "resposta": "Cefalópodes",
+      "distratores": [
+        "Bivalves",
+        "Gastrópodes",
+        "Escafópodes"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Choco",
+        "descricao": "Molusco cefalópode marinho da família Sepiidae, com concha interna chamada osso-de-choco.",
+        "variantes": [
+          "Sepia",
+          "Cuttlefish",
+          "Siba"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Caranguejo-aranha-gigante nítido, fundo preto, pernas longas inconfundíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que caranguejo é este?",
+      "resposta": "Caranguejo-aranha-gigante",
+      "distratores": [
+        "Caranguejo-real",
+        "Caranguejo-das-neves",
+        "Caranguejo-eremita"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caranguejo-aranha-gigante",
+        "descricao": "Caranguejo marinho japonês Macrocheira kaempferi, com a maior envergadura de pernas entre os artrópodes.",
+        "variantes": [
+          "Caranguejo-aranha-japonês",
+          "Macrocheira kaempferi",
+          "Taka-ashi-gani"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Besouro-tigre em foto nítida; a escala de 5 mm não entrega a resposta.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que besouro predador é este?",
+      "resposta": "Besouro-tigre",
+      "distratores": [
+        "Besouro-bombardeiro",
+        "Besouro-rinoceronte",
+        "Escaravelho-sagrado"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Besouro-tigre",
+        "descricao": "Besouro predador veloz da família Cicindelidae, comum em areias e solos abertos.",
+        "variantes": [
+          "Cicindelídeo",
+          "Tiger beetle",
+          "Cicindela"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Estrela-do-mar colorida, nítida, na beira da praia.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A que grupo de animais pertence este?",
+      "resposta": "Equinodermos",
+      "distratores": [
+        "Cnidários",
+        "Moluscos",
+        "Anelídeos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estrela-do-mar",
+        "descricao": "Equinodermo marinho da classe Asteroidea, em geral com cinco braços ao redor de um disco central.",
+        "variantes": [
+          "Asteroide",
+          "Starfish",
+          "Estrela-do-mar-real"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Garra assimétrica enorme de chama-maré macho, bem característica, apesar da baixa resolução.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que caranguejo é este, de uma garra muito maior que a outra?",
+      "resposta": "Chama-maré",
+      "distratores": [
+        "Aratu",
+        "Guaiamum",
+        "Siri-azul"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chama-maré",
+        "descricao": "Caranguejo semiterrestre do gênero Uca, cujo macho tem uma garra muito maior que a outra.",
+        "variantes": [
+          "Caranguejo-violinista",
+          "Fiddler crab",
+          "Uca",
+          "Caranguejo-chama-maré"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Crisopídeo de asas rendadas e antenas longas, foto nítida.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que inseto de asas transparentes é este?",
+      "resposta": "Crisopídeo (crisopa)",
+      "distratores": [
+        "Libélula",
+        "Efêmera",
+        "Formiga-leão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Crisopídeo",
+        "descricao": "Inseto verde da família Chrysopidae, ordem Neuroptera, de asas transparentes com nervuras finas.",
+        "variantes": [
+          "Crisopa",
+          "Crisopídeos",
+          "Green lacewing",
+          "Bicho-lixeiro"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Ostra aberta, com brânquias e concha irregular, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que molusco bivalve é este, aberto ao meio?",
+      "resposta": "Ostra",
+      "distratores": [
+        "Mexilhão",
+        "Vieira",
+        "Berbigão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ostra",
+        "descricao": "Molusco bivalve marinho de concha calcária irregular, muito consumido como iguaria.",
+        "variantes": [
+          "Ostras",
+          "Oyster"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vieira de valvas abertas, com olhos azuis na borda, característica marcante.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que molusco bivalve é este?",
+      "resposta": "Vieira",
+      "distratores": [
+        "Ostra",
+        "Mexilhão",
+        "Berbigão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Vieira",
+        "descricao": "Molusco bivalve marinho da família Pectinidae, com pequenos olhos na borda do manto e capaz de nadar.",
+        "variantes": [
+          "Scallop",
+          "Pectinídeo",
+          "Vieiras"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Inseto de pernas traseiras raptoriais, na verdade um Bittacidae (mosca-pendente), da ordem Mecoptera; a pergunta de ordem vale para a imagem. Âncora ajustada.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este inseto pertence a que ordem?",
+      "resposta": "Mecópteros",
+      "distratores": [
+        "Dípteros",
+        "Neurópteros",
+        "Odonatos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mosca-pendente",
+        "descricao": "Inseto da família Bittacidae, ordem Mecoptera, de pernas longas que pendura-se em plantas para caçar.",
+        "variantes": [
+          "Bittacidae",
+          "Hangingfly",
+          "Mosca-escorpião"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Caranguejo-fantasma de olhos em hastes na praia, nítido; imagem mostra espécie específica, não caranguejo genérico, então a pergunta pede o nome popular.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que caranguejo de praia, de olhos em hastes, é este?",
+      "resposta": "Maria-farinha (caranguejo-fantasma)",
+      "distratores": [
+        "Guaiamum",
+        "Aratu",
+        "Siri-azul"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Maria-farinha",
+        "descricao": "Caranguejo de praia do gênero Ocypode, de olhos em hastes e hábitos noturnos, que vive em tocas na areia.",
+        "variantes": [
+          "Caranguejo-fantasma",
+          "Ghost crab",
+          "Ocypode",
+          "Caranguejo-de-praia"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bicudo-do-algodoeiro de focinho alongado sobre o capulho de algodão, nítido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que besouro de focinho comprido é este, sobre a planta que ataca?",
+      "resposta": "Bicudo-do-algodoeiro",
+      "distratores": [
+        "Gorgulho-do-milho",
+        "Gorgulho-do-arroz",
+        "Bicudo-da-cana"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bicudo-do-algodoeiro",
+        "descricao": "Besouro Anthonomus grandis, da família Curculionidae, grave praga do algodão.",
+        "variantes": [
+          "Boll weevil",
+          "Anthonomus grandis",
+          "Bicudo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Polvo-dumbo em águas profundas, com barbatanas em forma de orelha, nítido.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que polvo de águas profundas é este?",
+      "resposta": "Polvo-dumbo",
+      "distratores": [
+        "Polvo-comum",
+        "Polvo-de-anéis-azuis",
+        "Polvo-mimético"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Polvo-dumbo",
+        "descricao": "Polvo de profundidade do gênero Grimpoteuthis, com duas barbatanas em forma de orelha.",
+        "variantes": [
+          "Dumbo octopus",
+          "Grimpoteuthis",
+          "Polvo-dumbo"
+        ]
+      }
+    }
+  ]
+}

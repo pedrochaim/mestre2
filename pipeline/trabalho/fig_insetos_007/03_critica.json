@@ -1,0 +1,104 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Choco é da classe Cephalopoda, confirmado no trecho. Enunciado não vaza e os distratores são outras classes de moluscos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direto. A resposta bate com o trecho, que dá 'caranguejo-aranha-gigante' como nome comum. Os distratores são outros caranguejos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Besouro-tigre é predador, como diz o trecho. Enunciado sem vazamento, distratores do mesmo tipo e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A estrela-do-mar é um equinoderme, confirmado nos trechos. O enunciado não nomeia o animal e os distratores são filos distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A garra muito maior que a outra é a característica mais famosa do chama-maré, então a pista entrega a resposta com a imagem coberta. Troquei pelo habitat, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que caranguejo de manguezais e praias protegidas é este?",
+        "resposta": "Chama-maré",
+        "distratores": [
+          "Aratu",
+          "Guaiamum",
+          "Siri-azul"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Crisopídeos têm asas translúcidas e são neurópteros, segundo o trecho. A pista não entrega a resposta e os distratores são insetos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A ostra é um bivalve marinho. A pista 'aberto ao meio' descreve a foto sem entregar a resposta, e os distratores são outros bivalves.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vieira é bivalve da família Pectinidae. Enunciado sem vazamento e distratores bivalves críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos colocam Bittacidae em Mecoptera. Os distratores são outras ordens de insetos e nenhum deles está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Maria-farinha é nome comum do caranguejo-fantasma (Ocypode), e o trecho cita o gênero. A pista sobre a praia ajuda sem entregar a resposta, e os distratores são outros caranguejos brasileiros.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Sobre a planta que ataca' afirma algo da foto que 'mostra' não confirma, e sugere o algodão. Troquei por uma pista neutra de praga agrícola.",
+      "reescrita": {
+        "pergunta": "Que besouro de focinho comprido, grave praga agrícola, é este?",
+        "resposta": "Bicudo-do-algodoeiro",
+        "distratores": [
+          "Gorgulho-do-milho",
+          "Gorgulho-do-arroz",
+          "Bicudo-da-cana"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O polvo-dumbo vive em águas profundas, segundo os trechos. A pista não entrega o nome e os distratores são polvos plausíveis.",
+      "reescrita": null
+    }
+  ]
+}

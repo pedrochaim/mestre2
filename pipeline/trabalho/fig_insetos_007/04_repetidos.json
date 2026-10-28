@@ -1,0 +1,180 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este animal pertence a que classe de moluscos?",
+        "resposta": "Cefalópodes"
+      },
+      "existentes": [
+        {
+          "id": "q02553",
+          "pergunta": "A cor sépia, típica de fotografias antigas, tem o nome do gênero de um molusco cuja tinta servia de pigmento. Que molusco é esse?",
+          "resposta": "Choco"
+        },
+        {
+          "id": "q09580",
+          "pergunta": "O osso de siba, pendurado nas gaiolas de passarinhos, não é um osso de verdade. Que parte do choco ele é?",
+          "resposta": "A concha interna"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que caranguejo é este?",
+        "resposta": "Caranguejo-aranha-gigante"
+      },
+      "existentes": [
+        {
+          "id": "q09570",
+          "pergunta": "Com patas finas que podem medir quase quatro metros de ponta a ponta, que caranguejo das águas do Japão tem a maior envergadura entre os artrópodes?",
+          "resposta": "Caranguejo-aranha-japonês"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A que grupo de animais pertence este?",
+        "resposta": "Equinodermos"
+      },
+      "existentes": [
+        {
+          "id": "q04110",
+          "pergunta": "Que animal marinho é este?",
+          "resposta": "Estrela-do-mar"
+        },
+        {
+          "id": "q09585",
+          "pergunta": "Para comer um mexilhão, a estrela-do-mar força a concha a abrir uma fresta. O que ela faz então com o próprio estômago?",
+          "resposta": "Põe para fora do corpo"
+        },
+        {
+          "id": "q15861",
+          "pergunta": "A que grupo de animais pertence este ser marinho?",
+          "resposta": "Equinodermos"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que caranguejo de manguezais e praias protegidas é este?",
+        "resposta": "Chama-maré"
+      },
+      "existentes": [
+        {
+          "id": "q14445",
+          "pergunta": "Que caranguejo que vive no manguezal é este?",
+          "resposta": "Caranguejo-violinista (chama-maré)"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que molusco bivalve é este, aberto ao meio?",
+        "resposta": "Ostra"
+      },
+      "existentes": [
+        {
+          "id": "q07423",
+          "pergunta": "Que molusco bivalve comestível é este?",
+          "resposta": "Ostra"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que molusco bivalve é este?",
+        "resposta": "Vieira"
+      },
+      "existentes": [
+        {
+          "id": "q05512",
+          "pergunta": "Que molusco de duas conchas é este?",
+          "resposta": "Vieira"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que caranguejo de praia, de olhos em hastes, é este?",
+        "resposta": "Maria-farinha (caranguejo-fantasma)"
+      },
+      "existentes": [
+        {
+          "id": "q05508",
+          "pergunta": "Que caranguejo da areia das praias é este?",
+          "resposta": "Caranguejo-fantasma"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Que polvo de águas profundas é este?",
+        "resposta": "Polvo-dumbo"
+      },
+      "existentes": [
+        {
+          "id": "q05509",
+          "pergunta": "Que polvo é este?",
+          "resposta": "Polvo-dumbo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta a classe do molusco (cefalópodes); as existentes tratam da cor sépia e do osso de siba, fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q09570",
+      "motivo": "Ambas pedem a identificação do caranguejo-aranha gigante/japonês."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q15861",
+      "motivo": "Mesma pergunta sobre o grupo de animais, com a mesma resposta: equinodermos."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q14445",
+      "motivo": "Ambas pedem a identificação do chama-maré/caranguejo-violinista do manguezal."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "id_existente": "q07423",
+      "motivo": "Ambas pedem a identificação da ostra, o molusco bivalve."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q05512",
+      "motivo": "Ambas pedem a identificação da vieira, o molusco bivalve."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "id_existente": "q05508",
+      "motivo": "Ambas pedem a identificação do caranguejo-fantasma (maria-farinha)."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "id_existente": "q05509",
+      "motivo": "Ambas pedem a identificação do polvo-dumbo."
+    }
+  ]
+}

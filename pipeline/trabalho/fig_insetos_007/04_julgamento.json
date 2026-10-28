@@ -1,0 +1,778 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Choco",
+        "descricao": "Molusco cefalópode marinho da família Sepiidae, com concha interna chamada osso-de-choco.",
+        "variantes": [
+          "Sepia",
+          "Cuttlefish",
+          "Siba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "choco",
+          "nome": "Choco",
+          "descricao": "Molusco cefalópode do gênero Sepia, de concha interna e bolsa de tinta escura.",
+          "variantes": [
+            "Siba",
+            "Sépia",
+            "Cuttlefish"
+          ]
+        },
+        {
+          "id": "simba",
+          "nome": "Simba",
+          "descricao": "Leão protagonista da animação O Rei Leão, da Disney, filho de Mufasa.",
+          "variantes": []
+        },
+        {
+          "id": "espiga",
+          "nome": "Espiga",
+          "descricao": "Estrela mais brilhante da constelação de Virgem.",
+          "variantes": [
+            "Spica",
+            "Alfa da Virgem",
+            "Alpha Virginis",
+            "Espiga (estrela)",
+            "Alfa Virginis"
+          ]
+        },
+        {
+          "id": "seiya_de_pegaso",
+          "nome": "Seiya de Pégaso",
+          "descricao": "Cavaleiro de Bronze de Atena e protagonista de Os Cavaleiros do Zodíaco (Saint Seiya).",
+          "variantes": [
+            "Seiya",
+            "Pegasus Seiya"
+          ]
+        },
+        {
+          "id": "septaria",
+          "nome": "Septária",
+          "descricao": "Concreção sedimentar com rede de fraturas internas preenchidas por minerais como a calcita.",
+          "variantes": [
+            "Nódulo septário",
+            "Septarian nodule"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Caranguejo-aranha-gigante",
+        "descricao": "Caranguejo marinho japonês Macrocheira kaempferi, com a maior envergadura de pernas entre os artrópodes.",
+        "variantes": [
+          "Caranguejo-aranha-japonês",
+          "Macrocheira kaempferi",
+          "Taka-ashi-gani"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caranguejo_aranha_japones",
+          "nome": "Caranguejo-aranha-japonês",
+          "descricao": "Caranguejo marinho das águas do Japão (Macrocheira kaempferi), de patas longas e finas.",
+          "variantes": [
+            "Caranguejo-aranha-gigante",
+            "Macrocheira kaempferi",
+            "Japanese spider crab"
+          ]
+        },
+        {
+          "id": "saguaro",
+          "nome": "Saguaro",
+          "descricao": "Cacto colunar gigante, Carnegiea gigantea, de braços erguidos, típico do sudoeste dos Estados Unidos e do noroeste do México.",
+          "variantes": [
+            "Carnegiea gigantea"
+          ]
+        },
+        {
+          "id": "caranguejo_fantasma",
+          "nome": "Caranguejo-fantasma",
+          "descricao": "Caranguejo de praia do gênero Ocypode, de olhos em hastes longas, que vive na areia.",
+          "variantes": [
+            "Caranguejo",
+            "Maria-farinha",
+            "Ocypode"
+          ]
+        },
+        {
+          "id": "cerejeira_japonesa",
+          "nome": "Cerejeira-japonesa",
+          "descricao": "Árvores ornamentais do gênero Prunus, as sakuras, famosas pela floração na primavera",
+          "variantes": [
+            "Sakura",
+            "Cerejeira ornamental"
+          ]
+        },
+        {
+          "id": "arau_gigante",
+          "nome": "Arau-gigante",
+          "descricao": "Ave marinha não voadora do Atlântico Norte (Pinguinus impennis), extinta em 1844.",
+          "variantes": [
+            "Pinguinus impennis",
+            "Great auk",
+            "Grande arau"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Besouro-tigre",
+        "descricao": "Besouro predador veloz da família Cicindelidae, comum em areias e solos abertos.",
+        "variantes": [
+          "Cicindelídeo",
+          "Tiger beetle",
+          "Cicindela"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "besouro_tita",
+          "nome": "Besouro-titã",
+          "descricao": "Besouro cerambicídeo neotropical (Titanus giganteus), um dos maiores insetos conhecidos.",
+          "variantes": [
+            "Titanus giganteus",
+            "titan beetle"
+          ]
+        },
+        {
+          "id": "besouro_girafa",
+          "nome": "Besouro-girafa",
+          "descricao": "Pequeno gorgulho endêmico de Madagascar (Trachelophorus giraffa), com élitros vermelhos e pescoço alongado nos machos.",
+          "variantes": [
+            "Gorgulho-girafa",
+            "Giraffe weevil",
+            "Trachelophorus giraffa"
+          ]
+        },
+        {
+          "id": "cigarra",
+          "nome": "Cigarra",
+          "descricao": "Insetos da superfamília Cicadoidea, cujos machos produzem um canto alto e cujas ninfas vivem sob a terra.",
+          "variantes": [
+            "Cicadoidea",
+            "cicada"
+          ]
+        },
+        {
+          "id": "joaninha",
+          "nome": "Joaninha",
+          "descricao": "Besouros da família Coccinellidae, pequenos, arredondados e geralmente vermelhos com pintas pretas.",
+          "variantes": [
+            "Coccinellidae",
+            "ladybird",
+            "ladybug"
+          ]
+        },
+        {
+          "id": "besouro",
+          "nome": "Besouro",
+          "descricao": "Insetos da ordem Coleoptera, com o primeiro par de asas endurecido em forma de estojo.",
+          "variantes": [
+            "Coleoptera",
+            "coleóptero",
+            "beetle",
+            "Coleópteros"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Estrela-do-mar",
+        "descricao": "Equinodermo marinho da classe Asteroidea, em geral com cinco braços ao redor de um disco central.",
+        "variantes": [
+          "Asteroide",
+          "Starfish",
+          "Estrela-do-mar-real"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        },
+        {
+          "id": "ceres",
+          "nome": "Ceres",
+          "descricao": "Planeta anão do cinturão de asteroides entre Marte e Júpiter, com manchas brilhantes na cratera Occator.",
+          "variantes": [
+            "Asteroide",
+            "Ceres (planeta anão)",
+            "1 Ceres"
+          ]
+        },
+        {
+          "id": "asteroide",
+          "nome": "Asteroide",
+          "descricao": "Pequeno corpo rochoso ou metálico que orbita o Sol, concentrado sobretudo no cinturão entre Marte e Júpiter.",
+          "variantes": []
+        },
+        {
+          "id": "sirius",
+          "nome": "Sírius",
+          "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+          "variantes": [
+            "Alfa do Cão Maior",
+            "Estrela do Cão"
+          ]
+        },
+        {
+          "id": "ida_asteroide",
+          "nome": "Ida (asteroide)",
+          "descricao": "Asteroide 243 Ida, da família Koronis do cinturão de asteroides, o primeiro encontrado com um satélite natural, fotografado pela sonda Galileo em 1993.",
+          "variantes": [
+            "243 Ida",
+            "Ida"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Chama-maré",
+        "descricao": "Caranguejo semiterrestre do gênero Uca, cujo macho tem uma garra muito maior que a outra.",
+        "variantes": [
+          "Caranguejo-violinista",
+          "Fiddler crab",
+          "Uca",
+          "Caranguejo-chama-maré"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caranguejo_violinista",
+          "nome": "Caranguejo-violinista",
+          "descricao": "Caranguejo do gênero Uca, cujos machos têm uma garra enorme.",
+          "variantes": [
+            "Uca",
+            "Fiddler crab",
+            "Chama-maré"
+          ]
+        },
+        {
+          "id": "cuca",
+          "nome": "Cuca",
+          "descricao": "Bruxa do folclore brasileiro que pega crianças desobedientes, popularizada pelo Sítio do Picapau Amarelo.",
+          "variantes": [
+            "Coca"
+          ]
+        },
+        {
+          "id": "suica",
+          "nome": "Suíça",
+          "descricao": "País sem litoral da Europa Central, confederação de 26 cantões.",
+          "variantes": [
+            "Confederação Suíça",
+            "Switzerland"
+          ]
+        },
+        {
+          "id": "cuica",
+          "nome": "Cuíca",
+          "descricao": "Tambor de fricção usado no samba, com uma vareta presa ao centro do couro.",
+          "variantes": []
+        },
+        {
+          "id": "volkswagen_fusca",
+          "nome": "Volkswagen Fusca",
+          "descricao": "Carro compacto de motor traseiro da Volkswagen, projetado na Alemanha nos anos trinta e conhecido mundialmente como Beetle.",
+          "variantes": [
+            "Fusca",
+            "Volkswagen Beetle",
+            "Volkswagen Käfer",
+            "Volkswagen Tipo 1",
+            "Fusquinha",
+            "Käfer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Crisopídeo",
+        "descricao": "Inseto verde da família Chrysopidae, ordem Neuroptera, de asas transparentes com nervuras finas.",
+        "variantes": [
+          "Crisopa",
+          "Crisopídeos",
+          "Green lacewing",
+          "Bicho-lixeiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "crinoide",
+          "nome": "Crinoide",
+          "descricao": "Equinodermo marinho da classe Crinoidea, de braços plumosos, que inclui lírios-do-mar e estrelas-pluma.",
+          "variantes": [
+            "Lírio-do-mar",
+            "Crinoidea",
+            "Estrela-pluma",
+            "Comatulídeo"
+          ]
+        },
+        {
+          "id": "crispr_cas9",
+          "nome": "CRISPR-Cas9",
+          "descricao": "Técnica de edição genética conhecida como tesoura genética.",
+          "variantes": [
+            "CRISPR",
+            "Edição genética CRISPR"
+          ]
+        },
+        {
+          "id": "lanterna_verde",
+          "nome": "Lanterna Verde",
+          "descricao": "Super-herói da DC Comics que usa um anel de poder; na versão clássica, o piloto Hal Jordan",
+          "variantes": [
+            "Green Lantern",
+            "Hal Jordan"
+          ]
+        },
+        {
+          "id": "cabeca_de_cuia",
+          "nome": "Cabeça de Cuia",
+          "descricao": "Lenda piauiense do pescador Crispim, amaldiçoado a vagar pelos rios de Teresina com a cabeça enorme.",
+          "variantes": [
+            "Crispim"
+          ]
+        },
+        {
+          "id": "corsola",
+          "nome": "Corsola",
+          "descricao": "Pokémon coral da segunda geração, que tem uma forma regional do tipo Fantasma em Galar.",
+          "variantes": [
+            "Sunnygo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ostra",
+        "descricao": "Molusco bivalve marinho de concha calcária irregular, muito consumido como iguaria.",
+        "variantes": [
+          "Ostras",
+          "Oyster"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ostra",
+          "nome": "Ostra",
+          "descricao": "Molusco bivalve marinho de concha calcificada e irregular, comestível, da superfamília Ostreoidea.",
+          "variantes": [
+            "Ostras"
+          ]
+        },
+        {
+          "id": "cloyster",
+          "nome": "Cloyster",
+          "descricao": "Pokémon dos tipos Água e Gelo, número 91 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "nado_costas",
+          "nome": "Nado costas",
+          "descricao": "Estilo de natação em que o nadador fica de barriga para cima, alternando os braços.",
+          "variantes": [
+            "Costas",
+            "Backstroke"
+          ]
+        },
+        {
+          "id": "coelho_da_pascoa",
+          "nome": "Coelho da Páscoa",
+          "descricao": "Figura folclórica de um coelho que traz ou esconde ovos para as crianças na Páscoa.",
+          "variantes": [
+            "Easter Bunny",
+            "Osterhase"
+          ]
+        },
+        {
+          "id": "pokemon_omega_ruby_e_alpha_sapphire",
+          "nome": "Pokémon Omega Ruby e Alpha Sapphire",
+          "descricao": "Recriações de Pokémon Ruby e Sapphire para o Nintendo 3DS, ambientadas na região de Hoenn.",
+          "variantes": [
+            "ORAS"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Vieira",
+        "descricao": "Molusco bivalve marinho da família Pectinidae, com pequenos olhos na borda do manto e capaz de nadar.",
+        "variantes": [
+          "Scallop",
+          "Pectinídeo",
+          "Vieiras"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vieira",
+          "nome": "Vieira",
+          "descricao": "Molusco bivalve marinho da família Pectinidae, com muitos olhos pequenos na borda do manto.",
+          "variantes": [
+            "Scallop",
+            "Pectinidae"
+          ]
+        },
+        {
+          "id": "caliope",
+          "nome": "Calíope",
+          "descricao": "Musa grega da poesia épica e da eloquência, mãe de Orfeu em algumas versões.",
+          "variantes": [
+            "Calliope",
+            "Kalliope"
+          ]
+        },
+        {
+          "id": "cranio",
+          "nome": "Crânio",
+          "descricao": "Estrutura óssea que envolve e protege o cérebro dos vertebrados.",
+          "variantes": [
+            "Caveira",
+            "Cabeça óssea"
+          ]
+        },
+        {
+          "id": "agave_americana",
+          "nome": "Agave-americana",
+          "descricao": "Planta suculenta Agave americana, que floresce uma única vez depois de muitos anos e então morre",
+          "variantes": [
+            "Planta-do-século",
+            "Piteira"
+          ]
+        },
+        {
+          "id": "dias_da_semana_em_portugues",
+          "nome": "Dias da semana em português",
+          "descricao": "Os nomes dos dias da semana na língua portuguesa, numerados como feiras em vez de dedicados a deuses",
+          "variantes": [
+            "Feiras"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Mosca-pendente",
+        "descricao": "Inseto da família Bittacidae, ordem Mecoptera, de pernas longas que pendura-se em plantas para caçar.",
+        "variantes": [
+          "Mosca-escorpião",
+          "Bittacidae",
+          "Hangingfly"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "escorpiao",
+          "nome": "Escorpião",
+          "descricao": "Aracnídeos predadores da ordem Scorpiones, com pinças e cauda terminada em ferrão venenoso.",
+          "variantes": [
+            "Scorpiones",
+            "lacrau"
+          ]
+        },
+        {
+          "id": "pseudoescorpiao",
+          "nome": "Pseudoescorpião",
+          "descricao": "Aracnídeo minúsculo da ordem Pseudoscorpiones, com pedipalpos em pinça e sem cauda nem ferrão.",
+          "variantes": [
+            "Falso escorpião",
+            "Escorpião-de-livro",
+            "Pseudoscorpiones"
+          ]
+        },
+        {
+          "id": "antares",
+          "nome": "Antares",
+          "descricao": "Estrela supergigante vermelha, a mais brilhante da constelação de Escorpião.",
+          "variantes": [
+            "Alfa do Escorpião"
+          ]
+        },
+        {
+          "id": "escova_de_dentes",
+          "nome": "Escova de dentes",
+          "descricao": "Utensílio de higiene bucal com cerdas presas a um cabo, produzido em massa desde o século dezoito.",
+          "variantes": [
+            "Toothbrush"
+          ]
+        },
+        {
+          "id": "itaca",
+          "nome": "Ítaca",
+          "descricao": "Ilha grega do mar Jônico, apresentada na Odisseia como o reino de Ulisses.",
+          "variantes": [
+            "Ithaca",
+            "Ithaki"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Maria-farinha",
+        "descricao": "Caranguejo de praia do gênero Ocypode, de olhos em hastes e hábitos noturnos, que vive em tocas na areia.",
+        "variantes": [
+          "Caranguejo",
+          "Caranguejo-fantasma",
+          "Ghost crab",
+          "Ocypode",
+          "Caranguejo-de-praia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caranguejo_fantasma",
+          "nome": "Caranguejo-fantasma",
+          "descricao": "Caranguejo de praia do gênero Ocypode, de olhos em hastes longas, que vive na areia.",
+          "variantes": [
+            "Caranguejo",
+            "Maria-farinha",
+            "Ocypode"
+          ]
+        },
+        {
+          "id": "caranguejo",
+          "nome": "Caranguejo",
+          "descricao": "Crustáceo decápode da infraordem Brachyura, de carapaça larga e cauda curta dobrada sob o corpo.",
+          "variantes": [
+            "Brachyura",
+            "Crab"
+          ]
+        },
+        {
+          "id": "maria_maria",
+          "nome": "Maria, Maria",
+          "descricao": "Canção de Milton Nascimento e Fernando Brant, lançada em disco em 1978.",
+          "variantes": []
+        },
+        {
+          "id": "caranguejo_yeti",
+          "nome": "Caranguejo-yeti",
+          "descricao": "Crustáceo das fontes hidrotermais do Pacífico Sul, Kiwa hirsuta, com garras cobertas de cerdas claras.",
+          "variantes": [
+            "Kiwa hirsuta",
+            "Yeti crab"
+          ]
+        },
+        {
+          "id": "maria_rita",
+          "nome": "Maria Rita",
+          "descricao": "Cantora brasileira de MPB e samba, filha de Elis Regina.",
+          "variantes": [
+            "Maria Rita Camargo Mariano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Bicudo-do-algodoeiro",
+        "descricao": "Besouro Anthonomus grandis, da família Curculionidae, grave praga do algodão.",
+        "variantes": [
+          "Boll weevil",
+          "Anthonomus grandis",
+          "Bicudo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cudo",
+          "nome": "Cudo",
+          "descricao": "Grande antílope de savanas arborizadas (Tragelaphus strepsiceros) do leste e do sul da África, com chifres espiralados.",
+          "variantes": [
+            "Cudo-maior",
+            "Greater kudu",
+            "Tragelaphus strepsiceros"
+          ]
+        },
+        {
+          "id": "cluedo",
+          "nome": "Cluedo",
+          "descricao": "Jogo de tabuleiro britânico de investigação de assassinato, lançado no Brasil como Detetive.",
+          "variantes": [
+            "Clue",
+            "Detetive"
+          ]
+        },
+        {
+          "id": "baiacu",
+          "nome": "Baiacu",
+          "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+          "variantes": [
+            "Peixe-balão",
+            "Tetraodontidae",
+            "Fugu"
+          ]
+        },
+        {
+          "id": "antonio_stradivari",
+          "nome": "Antonio Stradivari",
+          "descricao": "Luthier italiano (c. 1644–1737), fabricante dos violinos conhecidos como Stradivarius.",
+          "variantes": [
+            "Stradivarius",
+            "Antonius Stradivarius"
+          ]
+        },
+        {
+          "id": "antoni_gaudi",
+          "nome": "Antoni Gaudí",
+          "descricao": "Arquiteto catalão, 1852-1926, autor da Sagrada Família, da Casa Batlló e do Parque Güell, em Barcelona.",
+          "variantes": [
+            "Gaudí",
+            "Antoni Gaudí i Cornet"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Polvo-dumbo",
+        "descricao": "Polvo de profundidade do gênero Grimpoteuthis, com duas barbatanas em forma de orelha.",
+        "variantes": [
+          "Dumbo octopus",
+          "Grimpoteuthis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "polvo_dumbo",
+          "nome": "Polvo-dumbo",
+          "descricao": "Polvo de águas profundas do gênero Grimpoteuthis, com duas nadadeiras em forma de orelha.",
+          "variantes": [
+            "Grimpoteuthis",
+            "Dumbo octopus"
+          ]
+        },
+        {
+          "id": "lula_gigante",
+          "nome": "Lula-gigante",
+          "descricao": "Grande cefalópode de águas profundas do gênero Architeuthis.",
+          "variantes": [
+            "Architeuthis",
+            "Giant squid"
+          ]
+        },
+        {
+          "id": "olodum",
+          "nome": "Olodum",
+          "descricao": "Bloco afro e grupo percussivo de Salvador, criado em 1979.",
+          "variantes": []
+        },
+        {
+          "id": "polvo",
+          "nome": "Polvo",
+          "descricao": "Molusco cefalópode marinho de oito braços e corpo mole, do gênero Octopus e afins.",
+          "variantes": [
+            "Octopus"
+          ]
+        },
+        {
+          "id": "polvo_mimetico",
+          "nome": "Polvo-mimético",
+          "descricao": "Polvo do Indo-Pacífico, Thaumoctopus mimicus, capaz de imitar outros animais marinhos.",
+          "variantes": [
+            "Thaumoctopus mimicus",
+            "Mimic octopus"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "choco",
+      "motivo": "Mesmo molusco Sepia/choco, descrições e variantes coincidem."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "caranguejo_aranha_japones",
+      "motivo": "Mesma espécie Macrocheira kaempferi; nome é variante da candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Besouro-tigre (Cicindelidae) não consta entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "estrela_do_mar",
+      "motivo": "Mesma classe Asteroidea, mesmo nome e descrição."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "caranguejo_violinista",
+      "motivo": "Chama-maré é o mesmo caranguejo do gênero Uca, listado como variante."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Crisopídeo (Chrysopidae) não consta entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "ostra",
+      "motivo": "Mesmo molusco bivalve, ostra."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "vieira",
+      "motivo": "Mesma família Pectinidae, vieira/scallop."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Mosca-pendente (Bittacidae) é um inseto distinto; escorpião e pseudoescorpião são aracnídeos."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "caranguejo_fantasma",
+      "motivo": "Maria-farinha é o caranguejo-fantasma Ocypode, listado como variante."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Bicudo-do-algodoeiro não consta entre as candidatas."
+    },
+    {
+      "caso": 12,
+      "decisao": "mesma",
+      "id_existente": "polvo_dumbo",
+      "motivo": "Mesmo polvo Grimpoteuthis."
+    }
+  ]
+}

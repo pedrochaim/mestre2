@@ -306561,5 +306561,129 @@
       "autor": "Σπάρτακος",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q16052",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "choco",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este animal pertence a que classe de moluscos?",
+    "resposta": "Cefalópodes",
+    "distratores": [
+      "Bivalves",
+      "Gastrópodes",
+      "Escafópodes"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cuttlefish"
+    ],
+    "imagem": {
+      "arquivo": "q16052.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sepia1.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q16053",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "besouro_tigre",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que besouro predador é este?",
+    "resposta": "Besouro-tigre",
+    "distratores": [
+      "Besouro-bombardeiro",
+      "Besouro-rinoceronte",
+      "Escaravelho-sagrado"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tiger_beetle",
+      "https://pt.wikipedia.org/wiki/Cicindel%C3%ADneos"
+    ],
+    "imagem": {
+      "arquivo": "q16053.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lophyra_sp_Tiger_beetle_edit1.jpg",
+      "autor": "Muhammad Mahdi Karim",
+      "licenca": "GFDL 1.2"
+    }
+  },
+  {
+    "id": "q16054",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "crisopideo",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que inseto de asas transparentes é este?",
+    "resposta": "Crisopídeo (crisopa)",
+    "distratores": [
+      "Libélula",
+      "Efêmera",
+      "Formiga-leão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chrysopidae",
+      "https://pt.wikipedia.org/wiki/Crisop%C3%ADdeos"
+    ],
+    "imagem": {
+      "arquivo": "q16054.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Chrysopidae_01_(MK).jpg",
+      "autor": "Mathias Krumbholz",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q16055",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "mosca_pendente",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Este inseto pertence a que ordem?",
+    "resposta": "Mecópteros",
+    "distratores": [
+      "Dípteros",
+      "Neurópteros",
+      "Odonatos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mecoptera",
+      "https://pt.wikipedia.org/wiki/Mec%C3%B3pteros"
+    ],
+    "imagem": {
+      "arquivo": "q16055.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bittacidae_fg1.jpg",
+      "autor": "Fritz Geller-Grimm",
+      "licenca": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "id": "q16056",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "bicudo_do_algodoeiro",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que besouro de focinho comprido, grave praga agrícola, é este?",
+    "resposta": "Bicudo-do-algodoeiro",
+    "distratores": [
+      "Gorgulho-do-milho",
+      "Gorgulho-do-arroz",
+      "Bicudo-da-cana"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Boll_weevil",
+      "https://pt.wikipedia.org/wiki/Bicudo-do-algodoeiro"
+    ],
+    "imagem": {
+      "arquivo": "q16056.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Boll_weevil.jpg",
+      "autor": "Agricultural Research Service, United States Department of Agriculture.",
+      "licenca": "Public domain"
+    }
   }
 ]
