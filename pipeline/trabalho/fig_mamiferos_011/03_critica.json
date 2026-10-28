@@ -1,0 +1,96 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome tatu-peba confirmado pelos trechos; enunciado sem vazamento; distratores são outros tatus sul-americanos, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pelagem longa confirmada pelos trechos. A pista não entrega a resposta, porque bisão e boi-almiscarado também têm pelagem longa. Distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nativo da Índia e do Nepal, segundo o trecho. A pista dos chifres espiralados não identifica sozinha (o cudo também os tem). Nenhum distrator é país de ocorrência.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A mula é usada como animal de carga, segundo os trechos. A pista não entrega a resposta, porque jumento e cavalo também são animais de carga. A imagem diferencia os três.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O ocelote é americano e o enunciado diz 'africano', então o distrator se elimina sem olhar a figura. Troquei por um felino africano de manchas.",
+      "reescrita": {
+        "pergunta": "Que felino africano é este?",
+        "resposta": "Serval",
+        "distratores": [
+          "Caracal",
+          "Guepardo",
+          "Leopardo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pithecia pithecia é o parauacu(-de-cara-branca), confirmado pelos trechos. Enunciado sem vazamento. Distratores são primatas sul-americanos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O hamster-sírio é um roedor de estimação, segundo os trechos. Enunciado sem vazamento. Distratores são roedores de estimação distinguíveis pela imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que a vicunha é tida como ancestral da alpaca. A lhama descende do guanaco, então não é resposta correta. A pergunta exige reconhecer a vicunha, e não o guanaco.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É um cervo-almiscarado, segundo os trechos. 'Presas longas' não entrega o nome sozinho (o muntjac também as tem). Resposta no nível do grupo é aceitável para a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Procyon lotor é nativo da América do Norte, segundo o trecho. Distratores são outros mamíferos de porte parecido, e nenhum deles descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Antílope africano do gênero Oryx, confirmado pelos trechos. Distratores são antílopes africanos distintos visualmente.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Protelo (Proteles cristatus) confirmado pelos trechos. Enunciado curto, sem pista que entregue o nome. Distratores são carnívoros africanos listrados ou parecidos.",
+      "reescrita": null
+    }
+  ]
+}

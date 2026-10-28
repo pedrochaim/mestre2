@@ -1,0 +1,766 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tatu-peba",
+        "descricao": "Tatu sul-americano da espécie Euphractus sexcinctus, de carapaça amarelada com seis bandas móveis.",
+        "variantes": [
+          "Tatupeba",
+          "Tatu-peludo",
+          "Tatu-amarelo",
+          "Euphractus sexcinctus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mar_amarelo",
+          "nome": "Mar Amarelo",
+          "descricao": "Mar do oceano Pacífico entre o leste da China e a península da Coreia.",
+          "variantes": [
+            "Huang Hai"
+          ]
+        },
+        {
+          "id": "tatu_bola",
+          "nome": "Tatu-bola",
+          "descricao": "Tatu sul-americano que se enrola em bola, gênero Tolypeutes.",
+          "variantes": [
+            "Tolypeutes"
+          ]
+        },
+        {
+          "id": "tatuzinho_de_jardim",
+          "nome": "Tatuzinho-de-jardim",
+          "descricao": "Pequeno crustáceo terrestre da ordem Isopoda que se enrola em bola quando ameaçado.",
+          "variantes": [
+            "tatu-bola-de-jardim",
+            "Armadillidium vulgare",
+            "isópode terrestre",
+            "woodlouse",
+            "pill bug",
+            "Tatu-bola",
+            "Bicho-de-conta"
+          ]
+        },
+        {
+          "id": "cartoes_amarelo_e_vermelho",
+          "nome": "Cartões amarelo e vermelho",
+          "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+          "variantes": [
+            "Cartão amarelo",
+            "Cartão vermelho",
+            "Penalty card"
+          ]
+        },
+        {
+          "id": "caja",
+          "nome": "Cajá",
+          "descricao": "Fruto da cajazeira (Spondias mombin), amarelo, de polpa fina e azedinha, comum no Nordeste do Brasil.",
+          "variantes": [
+            "Taperebá",
+            "Cajá-mirim",
+            "Spondias mombin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Iaque",
+        "descricao": "Bovino domesticado de pelagem longa das montanhas da Ásia central, Bos grunniens.",
+        "variantes": [
+          "Yak",
+          "Bos grunniens"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "iraque",
+          "nome": "Iraque",
+          "descricao": "País da Ásia Ocidental, na antiga Mesopotâmia, com capital em Bagdá.",
+          "variantes": [
+            "República do Iraque"
+          ]
+        },
+        {
+          "id": "bandeira_do_iraque",
+          "nome": "Bandeira do Iraque",
+          "descricao": "Bandeira nacional do Iraque, com listras vermelha, branca e preta e inscrição árabe verde.",
+          "variantes": [
+            "Iraque",
+            "Bandeira iraquiana"
+          ]
+        },
+        {
+          "id": "caiaque",
+          "nome": "Caiaque",
+          "descricao": "Pequena embarcação estreita, propulsionada por remo de pá dupla, de origem inuíte.",
+          "variantes": [
+            "Kayak",
+            "Qajaq"
+          ]
+        },
+        {
+          "id": "saque",
+          "nome": "Saquê",
+          "descricao": "Bebida alcoólica tradicional do Japão, obtida pela fermentação do arroz polido.",
+          "variantes": [
+            "Sake",
+            "Nihonshu"
+          ]
+        },
+        {
+          "id": "jaqueline_carvalho",
+          "nome": "Jaqueline Carvalho",
+          "descricao": "Ex-jogadora brasileira de vôlei, campeã olímpica com a seleção em Pequim 2008 e Londres 2012.",
+          "variantes": [
+            "Jaqueline Maria Pereira de Carvalho",
+            "Jaque"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Antílope-negro",
+        "descricao": "Antílope de porte médio, nativo da Índia e do Nepal, cujo macho tem pelagem escura e chifres espiralados, Antilope cervicapra.",
+        "variantes": [
+          "Blackbuck",
+          "Antilope cervicapra",
+          "Antílope-cervicapra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sanji",
+          "nome": "Sanji",
+          "descricao": "Cozinheiro dos Piratas do Chapéu de Palha em One Piece, conhecido como Pé Negro.",
+          "variantes": [
+            "Sanji Pé Negro",
+            "Vinsmoke Sanji",
+            "Black Leg Sanji"
+          ]
+        },
+        {
+          "id": "blackjack",
+          "nome": "Blackjack",
+          "descricao": "Jogo de cartas de cassino, também chamado vinte e um, em que se tenta somar vinte e um pontos sem passar.",
+          "variantes": [
+            "Vinte e um",
+            "21"
+          ]
+        },
+        {
+          "id": "cranio_negro",
+          "nome": "Crânio Negro",
+          "descricao": "Crânio fóssil de Paranthropus aethiopicus com cerca de 2,5 milhões de anos, achado em 1985 a oeste do lago Turkana, no Quênia.",
+          "variantes": [
+            "Black Skull",
+            "KNM WT 17000"
+          ]
+        },
+        {
+          "id": "black_jack",
+          "nome": "Black Jack",
+          "descricao": "Mangá de Osamu Tezuka sobre um cirurgião genial que opera sem licença.",
+          "variantes": [
+            "Black Jack (mangá)"
+          ]
+        },
+        {
+          "id": "leonidas_da_silva",
+          "nome": "Leônidas da Silva",
+          "descricao": "Atacante brasileiro dos anos 1930 e 1940, artilheiro da Copa do Mundo de 1938.",
+          "variantes": [
+            "Leônidas",
+            "Diamante Negro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mula",
+        "descricao": "Animal híbrido de jumento com égua, usado como animal de carga.",
+        "variantes": [
+          "Mulo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mula",
+          "nome": "Mula",
+          "descricao": "Animal híbrido resultante do cruzamento de um jumento com uma égua.",
+          "variantes": [
+            "Mulo",
+            "Mule"
+          ]
+        },
+        {
+          "id": "limulo",
+          "nome": "Límulo",
+          "descricao": "Artrópode marinho da família Limulidae, conhecido como caranguejo-ferradura, de carapaça em forma de ferradura e sangue azul.",
+          "variantes": [
+            "caranguejo-ferradura",
+            "horseshoe crab",
+            "Limulus polyphemus"
+          ]
+        },
+        {
+          "id": "murilo_endres",
+          "nome": "Murilo Endres",
+          "descricao": "Ponta brasileiro de vôlei, bicampeão mundial e duas vezes medalhista de prata olímpico.",
+          "variantes": [
+            "Murilo"
+          ]
+        },
+        {
+          "id": "cumulo",
+          "nome": "Cúmulo",
+          "descricao": "Nuvem baixa de base plana e topo em forma de couve-flor, de aspecto algodoado.",
+          "variantes": [
+            "Cumulus"
+          ]
+        },
+        {
+          "id": "lula",
+          "nome": "Lula",
+          "descricao": "Molusco cefalópode marinho de corpo alongado, com oito braços e dois tentáculos.",
+          "variantes": [
+            "Squid",
+            "Calamar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Serval",
+        "descricao": "Pequeno felino africano de pernas longas, orelhas grandes e pelagem dourada manchada de preto, Leptailurus serval.",
+        "variantes": [
+          "Leptailurus serval"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "servia",
+          "nome": "Sérvia",
+          "descricao": "País sem litoral dos Bálcãs, na Europa Central e Sudeste, com capital em Belgrado.",
+          "variantes": [
+            "Serbia",
+            "República da Sérvia"
+          ]
+        },
+        {
+          "id": "saque_tenis",
+          "nome": "Saque (tênis)",
+          "descricao": "Golpe que inicia cada ponto no tênis, executado lançando a bola ao ar e golpeando-a com a raquete.",
+          "variantes": [
+            "Serviço",
+            "Serve"
+          ]
+        },
+        {
+          "id": "apertizacao",
+          "nome": "Apertização",
+          "descricao": "Método de conservar alimentos em recipientes hermeticamente fechados e aquecidos, origem da comida enlatada.",
+          "variantes": [
+            "Conserva",
+            "Enlatamento",
+            "Canning"
+          ]
+        },
+        {
+          "id": "narval",
+          "nome": "Narval",
+          "descricao": "Cetáceo do Ártico com uma longa presa em espiral, espécie Monodon monoceros.",
+          "variantes": [
+            "Monodon monoceros",
+            "Narwhal",
+            "Unicórnio-do-mar"
+          ]
+        },
+        {
+          "id": "banda_eva",
+          "nome": "Banda Eva",
+          "descricao": "Banda baiana de axé music surgida do bloco de carnaval Eva, em Salvador.",
+          "variantes": [
+            "Eva"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Parauacu",
+        "descricao": "Macaco sul-americano de pelagem escura e rosto claro, Pithecia pithecia.",
+        "variantes": [
+          "Parauacu-de-cara-branca",
+          "Macaco-voador",
+          "White-faced saki",
+          "Pithecia pithecia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "macaco_dourado_de_nariz_arrebitado",
+          "nome": "Macaco-dourado-de-nariz-arrebitado",
+          "descricao": "Macaco do Velho Mundo (Rhinopithecus roxellana) das florestas montanhosas do centro e sudoeste da China.",
+          "variantes": [
+            "Macaco-dourado",
+            "Rhinopithecus roxellana",
+            "Golden snub-nosed monkey"
+          ]
+        },
+        {
+          "id": "rio_paraguai",
+          "nome": "Rio Paraguai",
+          "descricao": "Rio sul-americano que nasce em Mato Grosso, atravessa o Pantanal e deságua no rio Paraná.",
+          "variantes": [
+            "Paraguai",
+            "Paraguay River",
+            "Río Paraguay"
+          ]
+        },
+        {
+          "id": "paraguai",
+          "nome": "Paraguai",
+          "descricao": "País sem litoral da América do Sul, com capital em Assunção.",
+          "variantes": [
+            "Paraguay",
+            "República do Paraguai"
+          ]
+        },
+        {
+          "id": "frisbee",
+          "nome": "Frisbee",
+          "descricao": "Disco voador de plástico usado em brincadeiras de arremesso, popularizado pela empresa Wham-O.",
+          "variantes": [
+            "Disco voador",
+            "Frisbi"
+          ]
+        },
+        {
+          "id": "macaco_louco",
+          "nome": "Macaco Louco",
+          "descricao": "Macaco de cérebro grande, capa roxa e fala redundante, principal vilão de As Meninas Superpoderosas.",
+          "variantes": [
+            "Mojo Jojo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Hamster",
+        "descricao": "Roedor de estimação da espécie Mesocricetus auratus, o hamster-sírio ou dourado.",
+        "variantes": [
+          "Hamster-sírio",
+          "Hamster-dourado",
+          "Mesocricetus auratus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "halter",
+          "nome": "Halter",
+          "descricao": "Equipamento de musculação com duas anilhas ligadas por uma barra curta, usado com uma mão.",
+          "variantes": [
+            "Haltere",
+            "Dumbbell"
+          ]
+        },
+        {
+          "id": "namaste",
+          "nome": "Namastê",
+          "descricao": "Saudação respeitosa indiana feita com as palmas das mãos unidas diante do peito.",
+          "variantes": []
+        },
+        {
+          "id": "asterix",
+          "nome": "Asterix",
+          "descricao": "Guerreiro gaulês baixinho criado por René Goscinny e Albert Uderzo em 1959",
+          "variantes": []
+        },
+        {
+          "id": "napster",
+          "nome": "Napster",
+          "descricao": "Serviço pioneiro de compartilhamento de músicas pela internet, lançado em 1999 por Shawn Fanning.",
+          "variantes": []
+        },
+        {
+          "id": "haunter",
+          "nome": "Haunter",
+          "descricao": "Pokémon fantasma gasoso com mãos flutuantes, forma intermediária entre Gastly e Gengar, número 93 da Pokédex Nacional.",
+          "variantes": [
+            "Ghost"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Vicunha",
+        "descricao": "Camelídeo selvagem dos Andes, Lama vicugna, ancestral da alpaca e de lã finíssima.",
+        "variantes": [
+          "Vicuña",
+          "Lama vicugna"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vicunha",
+          "nome": "Vicunha",
+          "descricao": "Camelídeo selvagem dos Andes, parente da lhama, cuja lã é rara e caríssima",
+          "variantes": [
+            "Vicuña",
+            "Vicunha andina"
+          ]
+        },
+        {
+          "id": "avicena",
+          "nome": "Avicena",
+          "descricao": "Filósofo e médico persa (c. 980–1037), autor do Cânone da Medicina, nascido perto de Bucara.",
+          "variantes": [
+            "Ibn Sina",
+            "Avicenna"
+          ]
+        },
+        {
+          "id": "unha",
+          "nome": "Unha",
+          "descricao": "Placa dura e córnea que recobre a ponta dos dedos humanos.",
+          "variantes": [
+            "Unhas"
+          ]
+        },
+        {
+          "id": "idun",
+          "nome": "Idun",
+          "descricao": "Deusa nórdica que guarda os frutos que mantêm os deuses jovens.",
+          "variantes": [
+            "Iðunn",
+            "Idunn",
+            "Iduna"
+          ]
+        },
+        {
+          "id": "vesicula_biliar",
+          "nome": "Vesícula biliar",
+          "descricao": "Pequena bolsa sob o fígado que armazena a bile.",
+          "variantes": [
+            "Vesícula"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Cervo-almiscarado-siberiano",
+        "descricao": "Pequeno ruminante sem chifres, com presas, das florestas montanhosas do nordeste da Ásia, Moschus moschiferus.",
+        "variantes": [
+          "Veado-almiscareiro",
+          "Siberian musk deer",
+          "Moschus moschiferus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cervo_do_pantanal",
+          "nome": "Cervo-do-pantanal",
+          "descricao": "Maior cervo da América do Sul, Blastocerus dichotomus, de áreas alagadas.",
+          "variantes": [
+            "Blastocerus dichotomus",
+            "Veado-galheiro"
+          ]
+        },
+        {
+          "id": "boi_almiscarado",
+          "nome": "Boi-almiscarado",
+          "descricao": "Mamífero ungulado da família Bovidae, nativo do Ártico, de pelagem longa e densa (Ovibos moschatus).",
+          "variantes": [
+            "Muskox",
+            "Ovibos moschatus"
+          ]
+        },
+        {
+          "id": "vagao_de_compiegne",
+          "nome": "Vagão de Compiègne",
+          "descricao": "Vagão-restaurante ferroviário na floresta de Compiègne onde foram assinados o armistício de 1918 e o armistício franco-alemão de 1940.",
+          "variantes": [
+            "Vagão do Armistício",
+            "Compiègne Wagon"
+          ]
+        },
+        {
+          "id": "melao",
+          "nome": "Melão",
+          "descricao": "Fruta de casca lisa ou rendada da espécie Cucumis melo, da família das cucurbitáceas.",
+          "variantes": [
+            "Melão-amarelo",
+            "Cantaloupe"
+          ]
+        },
+        {
+          "id": "quiabo",
+          "nome": "Quiabo",
+          "descricao": "Abelmoschus esculentus, planta da família das malváceas cujo fruto verde é comido como hortaliça.",
+          "variantes": [
+            "Okra",
+            "Abelmoschus esculentus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Guaxinim",
+        "descricao": "Mamífero procionídeo norte-americano com máscara facial e cauda anelada, Procyon lotor.",
+        "variantes": [
+          "Racum",
+          "Mão-pelada",
+          "Raccoon",
+          "Procyon lotor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_negro",
+          "nome": "Rio Negro",
+          "descricao": "Rio de águas escuras da Amazônia, principal afluente da margem esquerda do Amazonas, que passa por Manaus.",
+          "variantes": [
+            "Rio Negro (Amazonas)",
+            "Rio Negro do Amazonas",
+            "Guainía",
+            "Negro River"
+          ]
+        },
+        {
+          "id": "dracon",
+          "nome": "Drácon",
+          "descricao": "Legislador ateniense do século sete a.C., autor do primeiro código escrito de leis de Atenas.",
+          "variantes": [
+            "Draco",
+            "Drakon"
+          ]
+        },
+        {
+          "id": "cogumelo_veu_de_noiva",
+          "nome": "Cogumelo-véu-de-noiva",
+          "descricao": "Fungo Phallus indusiatus, da família Phallaceae, com chapéu alveolado e uma saia rendada branca, o indúsio.",
+          "variantes": [
+            "Véu-de-noiva",
+            "Phallus indusiatus",
+            "Dictyophora indusiata",
+            "Dama-velada"
+          ]
+        },
+        {
+          "id": "rum",
+          "nome": "Rum",
+          "descricao": "Bebida destilada de origem caribenha feita do melaço ou do caldo da cana-de-açúcar.",
+          "variantes": [
+            "Ron"
+          ]
+        },
+        {
+          "id": "associacao_crista_de_mocos",
+          "nome": "Associação Cristã de Moços",
+          "descricao": "Organização cristã internacional voltada aos jovens, fundada em Londres em 1844 e conhecida em inglês como YMCA.",
+          "variantes": [
+            "ACM",
+            "YMCA",
+            "Young Men's Christian Association"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Órix",
+        "descricao": "Grande antílope de chifres longos e retos dos desertos do sul da África, Oryx gazella.",
+        "variantes": [
+          "Órix-do-cabo",
+          "Gemsbok",
+          "Oryx gazella"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "onix",
+          "nome": "Onix",
+          "descricao": "Pokémon dos tipos Pedra e Terra, número 95 da Pokédex Nacional.",
+          "variantes": [
+            "Iwark"
+          ]
+        },
+        {
+          "id": "alga_nori",
+          "nome": "Alga nori",
+          "descricao": "Alga vermelha seca em folhas finas, usada na culinária japonesa para enrolar sushi.",
+          "variantes": [
+            "Nori",
+            "Pyropia"
+          ]
+        },
+        {
+          "id": "arraial_do_cabo",
+          "nome": "Arraial do Cabo",
+          "descricao": "Município da Região dos Lagos, no litoral do Rio de Janeiro, conhecido pelas águas claras e frias.",
+          "variantes": []
+        },
+        {
+          "id": "o_rei_do_gado",
+          "nome": "O Rei do Gado",
+          "descricao": "Telenovela da Rede Globo exibida em 1996 e 1997, sobre disputas entre famílias de fazendeiros.",
+          "variantes": []
+        },
+        {
+          "id": "lampiao",
+          "nome": "Lampião",
+          "descricao": "Virgulino Ferreira da Silva, o mais famoso líder do cangaço no sertão nordestino, morto em 1938.",
+          "variantes": [
+            "Virgulino Ferreira da Silva",
+            "Rei do Cangaço"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Protelo",
+        "descricao": "Pequena hiena insetívora do leste e sul da África, que come cupins, Proteles cristatus.",
+        "variantes": [
+          "Lobo-da-terra",
+          "Aardwolf",
+          "Proteles cristatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "otelo",
+          "nome": "Otelo",
+          "descricao": "Tragédia de William Shakespeare sobre um general mouro a serviço de Veneza, levado ao ciúme contra a esposa Desdêmona.",
+          "variantes": [
+            "Othello",
+            "Otelo, o Mouro de Veneza"
+          ]
+        },
+        {
+          "id": "porco_da_terra",
+          "nome": "Porco-da-terra",
+          "descricao": "Mamífero africano escavador e noturno (Orycteropus afer) que come formigas e cupins.",
+          "variantes": [
+            "Porco-formigueiro",
+            "Aardvark",
+            "Orycteropus afer"
+          ]
+        },
+        {
+          "id": "nucleo_da_terra",
+          "nome": "Núcleo da Terra",
+          "descricao": "Parte mais interna do planeta, formada por um núcleo externo líquido e um núcleo interno sólido.",
+          "variantes": [
+            "Núcleo terrestre",
+            "Earth's core"
+          ]
+        },
+        {
+          "id": "galo_da_serra",
+          "nome": "Galo-da-serra",
+          "descricao": "Cotinga macho de plumagem laranja viva e crista em meia-lua (Rupicola rupicola), das florestas do nordeste da América do Sul.",
+          "variantes": [
+            "Galo-da-serra-guianense",
+            "Guianan cock-of-the-rock",
+            "Rupicola rupicola"
+          ]
+        },
+        {
+          "id": "grande_otelo",
+          "nome": "Grande Otelo",
+          "descricao": "Ator, comediante, cantor e compositor brasileiro nascido em Uberlândia, parceiro de Oscarito no cinema.",
+          "variantes": [
+            "Sebastião Bernardes de Souza Prata",
+            "Othelo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Tatu-peba é espécie distinta de tatu-bola e das demais."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Iaque é um bovino; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Antílope-negro não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "mula",
+      "motivo": "Mesmo híbrido de jumento com égua."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Serval é um felino; candidatas são outras entidades."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Parauacu é um macaco sul-americano distinto das candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Hamster não tem candidata equivalente."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "vicunha",
+      "motivo": "Mesmo camelídeo andino de lã fina."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Cervo-almiscarado é espécie diferente do boi-almiscarado e do cervo-do-pantanal."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Guaxinim não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Órix é um antílope; candidatas são outras entidades."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Protelo é distinto do porco-da-terra (aardvark) e das demais."
+    }
+  ]
+}

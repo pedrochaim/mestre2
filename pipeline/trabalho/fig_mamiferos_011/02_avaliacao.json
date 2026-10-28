@@ -1,0 +1,301 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clara do tatu de frente, carapaça amarelada com bandas visíveis.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de tatu sul-americano é este?",
+      "resposta": "Tatu-peba",
+      "distratores": [
+        "Tatu-galinha",
+        "Tatu-bola",
+        "Tatu-canastra"
+      ],
+      "ancora": {
+        "nome": "Tatu-peba",
+        "descricao": "Tatu sul-americano da espécie Euphractus sexcinctus, de carapaça amarelada com seis bandas móveis.",
+        "variantes": [
+          "Tatupeba",
+          "Tatu-peludo",
+          "Tatu-amarelo",
+          "Euphractus sexcinctus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Iaque de perfil, pelagem longa e chifres, inconfundível.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que bovino de pelagem longa é este?",
+      "resposta": "Iaque",
+      "distratores": [
+        "Bisão-americano",
+        "Boi-almiscarado",
+        "Búfalo-d'água"
+      ],
+      "ancora": {
+        "nome": "Iaque",
+        "descricao": "Bovino domesticado de pelagem longa das montanhas da Ásia central, Bos grunniens.",
+        "variantes": [
+          "Yak",
+          "Bos grunniens"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Macho de antílope-negro correndo, chifres espiralados e coloração característica.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este antílope de chifres espiralados é nativo de qual destes países?",
+      "resposta": "Índia",
+      "distratores": [
+        "Quênia",
+        "Mongólia",
+        "Indonésia"
+      ],
+      "ancora": {
+        "nome": "Antílope-negro",
+        "descricao": "Antílope de porte médio, nativo da Índia e do Nepal, cujo macho tem pelagem escura e chifres espiralados, Antilope cervicapra.",
+        "variantes": [
+          "Blackbuck",
+          "Antilope cervicapra",
+          "Antílope-cervicapra"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Mula de carga, orelhas longas e corpo de cavalo, reconhecível; ambiente sem texto.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que animal de carga é este?",
+      "resposta": "Mula",
+      "distratores": [
+        "Jumento",
+        "Cavalo",
+        "Onagro"
+      ],
+      "ancora": {
+        "nome": "Mula",
+        "descricao": "Animal híbrido de jumento com égua, usado como animal de carga.",
+        "variantes": [
+          "Mulo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Serval de perfil, manchas e orelhas grandes bem visíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que felino africano é este?",
+      "resposta": "Serval",
+      "distratores": [
+        "Caracal",
+        "Guepardo",
+        "Ocelote"
+      ],
+      "ancora": {
+        "nome": "Serval",
+        "descricao": "Pequeno felino africano de pernas longas, orelhas grandes e pelagem dourada manchada de preto, Leptailurus serval.",
+        "variantes": [
+          "Leptailurus serval"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido, rosto branco emoldurado por pelagem negra, característico.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que macaco sul-americano é este?",
+      "resposta": "Parauacu-de-cara-branca",
+      "distratores": [
+        "Uacari-vermelho",
+        "Cuxiú-preto",
+        "Macaco-prego"
+      ],
+      "ancora": {
+        "nome": "Parauacu",
+        "descricao": "Macaco sul-americano de pelagem escura e rosto claro, Pithecia pithecia.",
+        "variantes": [
+          "Parauacu-de-cara-branca",
+          "Macaco-voador",
+          "White-faced saki",
+          "Pithecia pithecia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Hamster dourado nítido sobre maravalha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que roedor de estimação é este?",
+      "resposta": "Hamster-sírio",
+      "distratores": [
+        "Gerbil",
+        "Hamster-anão-russo",
+        "Porquinho-da-índia"
+      ],
+      "ancora": {
+        "nome": "Hamster",
+        "descricao": "Roedor de estimação da espécie Mesocricetus auratus, o hamster-sírio ou dourado.",
+        "variantes": [
+          "Hamster-sírio",
+          "Hamster-dourado",
+          "Mesocricetus auratus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vicunha de perfil, pelagem clara e peito branco, boa visibilidade.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este camelídeo selvagem dos Andes é o ancestral de qual animal doméstico?",
+      "resposta": "Alpaca",
+      "distratores": [
+        "Lhama",
+        "Camelo",
+        "Cabra"
+      ],
+      "ancora": {
+        "nome": "Vicunha",
+        "descricao": "Camelídeo selvagem dos Andes, Lama vicugna, ancestral da alpaca e de lã finíssima.",
+        "variantes": [
+          "Vicuña",
+          "Lama vicugna"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido com presas visíveis, característico do cervo-almiscarado.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que animal asiático de presas longas é este?",
+      "resposta": "Cervo-almiscarado",
+      "distratores": [
+        "Muntjac",
+        "Corço",
+        "Cervo-vermelho"
+      ],
+      "ancora": {
+        "nome": "Cervo-almiscarado-siberiano",
+        "descricao": "Pequeno ruminante sem chifres, com presas, das florestas montanhosas do nordeste da Ásia, Moschus moschiferus.",
+        "variantes": [
+          "Veado-almiscareiro",
+          "Siberian musk deer",
+          "Moschus moschiferus"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Guaxinim nítido, máscara facial e cauda anelada.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mamífero norte-americano é este?",
+      "resposta": "Guaxinim",
+      "distratores": [
+        "Quati",
+        "Cangambá",
+        "Texugo"
+      ],
+      "ancora": {
+        "nome": "Guaxinim",
+        "descricao": "Mamífero procionídeo norte-americano com máscara facial e cauda anelada, Procyon lotor.",
+        "variantes": [
+          "Racum",
+          "Mão-pelada",
+          "Raccoon",
+          "Procyon lotor"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Órix de frente, marcações faciais e chifres retos, bem reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que antílope africano é este?",
+      "resposta": "Órix",
+      "distratores": [
+        "Cudo-maior",
+        "Impala",
+        "Gnu"
+      ],
+      "ancora": {
+        "nome": "Órix",
+        "descricao": "Grande antílope de chifres longos e retos dos desertos do sul da África, Oryx gazella.",
+        "variantes": [
+          "Órix-do-cabo",
+          "Gemsbok",
+          "Oryx gazella"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Protelo nítido, listras e orelhas grandes; hiena-listrada como distrator exige atenção, mas há diferenças visíveis (focinho fino, porte).",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal é este?",
+      "resposta": "Protelo",
+      "distratores": [
+        "Hiena-listrada",
+        "Chacal-listrado",
+        "Civeta"
+      ],
+      "ancora": {
+        "nome": "Protelo",
+        "descricao": "Pequena hiena insetívora do leste e sul da África, que come cupins, Proteles cristatus.",
+        "variantes": [
+          "Lobo-da-terra",
+          "Aardwolf",
+          "Proteles cristatus"
+        ]
+      }
+    }
+  ]
+}

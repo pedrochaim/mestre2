@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que animal de carga é este?",
+        "resposta": "Mula"
+      },
+      "existentes": [
+        {
+          "id": "q03842",
+          "pergunta": "Por que a mula, filha de jumento com égua, é quase sempre estéril?",
+          "resposta": "Os cromossomos dos pais não formam pares"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Este camelídeo selvagem dos Andes é o ancestral de qual animal doméstico?",
+        "resposta": "Alpaca"
+      },
+      "existentes": [
+        {
+          "id": "q07714",
+          "pergunta": "Entre estes camelídeos dos Andes, qual fornece a lã mais fina?",
+          "resposta": "Vicunha"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do animal (mula) a partir de imagem; a existente pergunta por que a mula é estéril. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta de qual animal doméstico a vicunha é ancestral (alpaca); a existente pergunta qual camelídeo fornece a lã mais fina (vicunha). Fatos diferentes."
+    }
+  ]
+}
