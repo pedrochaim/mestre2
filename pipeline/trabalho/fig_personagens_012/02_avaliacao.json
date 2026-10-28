@@ -1,0 +1,197 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Olaf bem visível, sem texto, reconhecível; fundo colorido, então sem silhueta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é este personagem?",
+      "resposta": "Olaf",
+      "distratores": [
+        "Frosty",
+        "Sven",
+        "Baymax"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Olaf",
+        "descricao": "Boneco de neve falante e animado criado por Elsa na franquia Frozen, da Disney.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma ceifadora genérica de óculos escuros ao lado de uma lápide, que não corresponde à Dona Morte da Turma da Mônica; resposta não confiável."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Gru de corpo inteiro, claro, sem texto. A silhueta perde a cabeça e o cachecol e não é reconhecível, então usa a imagem colorida.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estúdio de animação criou este personagem?",
+      "resposta": "Illumination",
+      "distratores": [
+        "DreamWorks",
+        "Pixar",
+        "Blue Sky Studios"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Gru",
+        "descricao": "Ex-supervilão de careca e cachecol listrado, protagonista da franquia Meu Malvado Favorito.",
+        "variantes": [
+          "Felonius Gru",
+          "Felonious Gru"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A imagem é o logotipo da tira, com o nome Hägar e o autor escritos; o texto entrega a resposta e o personagem não aparece com clareza."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O desenho estilizado em preto e branco, com capuz e sem as tranças, não identifica Wandinha com segurança e pode ser confundido com outra personagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Rei Ayanami de corpo inteiro, com curativos que a distinguem, sem texto. A silhueta é um contorno genérico de colegial e não é reconhecível, então usa a imagem colorida.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta personagem?",
+      "resposta": "Rei Ayanami",
+      "distratores": [
+        "Asuka Langley",
+        "Misato Katsuragi",
+        "Ritsuko Akagi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Rei Ayanami",
+        "descricao": "Primeira Criança e piloto da Evangelion Unidade 00 no anime Neon Genesis Evangelion.",
+        "variantes": [
+          "Ayanami Rei"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Malévola claramente visível, sem texto; o corvo ao lado não atrapalha. Fundo presente, então sem silhueta.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estúdio de animação criou esta vilã?",
+      "resposta": "Disney",
+      "distratores": [
+        "DreamWorks",
+        "Warner Bros.",
+        "Illumination"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Malévola",
+        "descricao": "Fada das trevas, vilã do filme de animação A Bela Adormecida, da Disney, de 1959.",
+        "variantes": [
+          "Maleficent"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Rengoku sozinho, de corpo inteiro, com capa de chamas e cabelo e espada característicos; a silhueta é reconhecível pela forma.",
+      "usar_silhueta": true,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estilo de respiração este caçador de demônios usa?",
+      "resposta": "Respiração das Chamas",
+      "distratores": [
+        "Respiração da Água",
+        "Respiração do Trovão",
+        "Respiração do Vento"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Kyojuro Rengoku",
+        "descricao": "Hashira das Chamas do Corpo de Caçadores de Demônios, em Demon Slayer: Kimetsu no Yaiba.",
+        "variantes": [
+          "Kyojuro Rengoku",
+          "Rengoku Kyōjurō",
+          "Rengoku"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cavaleiro de ouro de corpo inteiro, sem texto, armadura característica. Sem arquivo de silhueta, usa a imagem colorida. A pergunta é pela casa, que vale também para o irmão Kanon, então a resposta é única.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este cavaleiro de ouro de Os Cavaleiros do Zodíaco guarda a casa de que signo?",
+      "resposta": "Gêmeos",
+      "distratores": [
+        "Áries",
+        "Escorpião",
+        "Capricórnio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Saga de Gêmeos",
+        "descricao": "Cavaleiro de ouro da constelação de Gêmeos em Os Cavaleiros do Zodíaco (Saint Seiya).",
+        "variantes": [
+          "Gemini Saga",
+          "Saga de Gémeos"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Scrat nítido, com a bolota, sem texto. A silhueta é uma mancha sem forma característica, então usa a imagem colorida.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estúdio de animação criou este personagem?",
+      "resposta": "Blue Sky Studios",
+      "distratores": [
+        "DreamWorks",
+        "Illumination",
+        "Pixar"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Scrat",
+        "descricao": "Esquilo-dente-de-sabre obcecado por uma bolota, personagem da franquia A Era do Gelo.",
+        "variantes": [
+          "Scrat o esquilo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem é uma foto de uma pessoa (o cartunista Henfil), e não do personagem Zeferino; não mostra a entidade."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto antiga em preto e branco de duas pessoas fantasiadas, sem o porco Rabicó reconhecível; imagem ambígua e de baixa qualidade."
+    }
+  ]
+}

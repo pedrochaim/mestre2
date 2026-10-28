@@ -1,0 +1,428 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Olaf",
+        "descricao": "Boneco de neve falante e animado criado por Elsa na franquia Frozen, da Disney.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "esfera",
+          "nome": "Esfera",
+          "descricao": "Sólido geométrico formado por todos os pontos do espaço a uma mesma distância de um ponto central.",
+          "variantes": [
+            "Bola"
+          ]
+        },
+        {
+          "id": "coala",
+          "nome": "Coala",
+          "descricao": "Marsupial arborícola australiano, espécie Phascolarctos cinereus.",
+          "variantes": [
+            "Phascolarctos cinereus",
+            "Koala"
+          ]
+        },
+        {
+          "id": "oxala_interjeicao",
+          "nome": "Oxalá (interjeição)",
+          "descricao": "Interjeição portuguesa que exprime desejo, de origem árabe",
+          "variantes": [
+            "Ojalá",
+            "Inshallah"
+          ]
+        },
+        {
+          "id": "rio_volga",
+          "nome": "Rio Volga",
+          "descricao": "Rio da Rússia europeia, o mais longo da Europa.",
+          "variantes": [
+            "Volga"
+          ]
+        },
+        {
+          "id": "chevrolet_opala",
+          "nome": "Chevrolet Opala",
+          "descricao": "Automóvel médio produzido pela General Motors do Brasil de 1968 a 1992, derivado do Opel Rekord.",
+          "variantes": [
+            "Opala",
+            "Opala Especial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Gru",
+        "descricao": "Ex-supervilão de careca e cachecol listrado, protagonista da franquia Meu Malvado Favorito.",
+        "variantes": [
+          "Felonius Gru",
+          "Felonious Gru"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "garum",
+          "nome": "Garum",
+          "descricao": "Molho fermentado muito usado na culinária da Roma antiga.",
+          "variantes": [
+            "Liquamen"
+          ]
+        },
+        {
+          "id": "grogu",
+          "nome": "Grogu",
+          "descricao": "Pequeno foundling sensível à Força, da mesma espécie de Yoda, protegido de Din Djarin em The Mandalorian.",
+          "variantes": [
+            "O Menino",
+            "The Child",
+            "Baby Yoda",
+            "Din Grogu"
+          ]
+        },
+        {
+          "id": "carl_friedrich_gauss",
+          "nome": "Carl Friedrich Gauss",
+          "descricao": "Matemático, astrônomo e físico alemão, o príncipe dos matemáticos.",
+          "variantes": [
+            "Johann Carl Friedrich Gauss",
+            "Gauß",
+            "Gauss"
+          ]
+        },
+        {
+          "id": "gnu",
+          "nome": "Gnu",
+          "descricao": "Grande antílope africano de ombros largos, barba e listras no pescoço, o gnu-azul (Connochaetes taurinus).",
+          "variantes": [
+            "Gnu-azul",
+            "Gnu-de-cauda-preta",
+            "Connochaetes taurinus"
+          ]
+        },
+        {
+          "id": "interface_grafica_do_usuario",
+          "nome": "Interface gráfica do usuário",
+          "descricao": "Forma de interagir com o computador por meio de janelas, ícones e um ponteiro controlado pelo mouse.",
+          "variantes": [
+            "GUI",
+            "Interface gráfica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Rei Ayanami",
+        "descricao": "Primeira Criança e piloto da Evangelion Unidade 00 no anime Neon Genesis Evangelion.",
+        "variantes": [
+          "Ayanami Rei"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rei_ayanami",
+          "nome": "Rei Ayanami",
+          "descricao": "Primeira Criança e piloto da Unidade 00 em Neon Genesis Evangelion.",
+          "variantes": [
+            "Ayanami Rei"
+          ]
+        },
+        {
+          "id": "light_yagami",
+          "nome": "Light Yagami",
+          "descricao": "Estudante prodígio, protagonista de Death Note, que usa o caderno da morte para eliminar criminosos como Kira.",
+          "variantes": [
+            "Yagami Raito",
+            "Kira",
+            "Light"
+          ]
+        },
+        {
+          "id": "ninguem_se_banha_duas_vezes_no_mesmo_rio",
+          "nome": "Ninguém se banha duas vezes no mesmo rio",
+          "descricao": "Ideia atribuída ao filósofo pré-socrático Heráclito de Éfeso sobre a mudança constante das coisas.",
+          "variantes": [
+            "Panta rhei",
+            "Tudo flui"
+          ]
+        },
+        {
+          "id": "rio_parana",
+          "nome": "Rio Paraná",
+          "descricao": "Grande rio sul-americano formado no Brasil, onde fica a usina de Itaipu, que segue pelo Paraguai e pela Argentina até o rio da Prata.",
+          "variantes": [
+            "Paraná",
+            "Paraná River"
+          ]
+        },
+        {
+          "id": "tamandua_mirim",
+          "nome": "Tamanduá-mirim",
+          "descricao": "Tamanduá sul-americano de porte médio, com uma mancha escura em forma de colete (Tamandua tetradactyla).",
+          "variantes": [
+            "Tamandua tetradactyla",
+            "Tamanduá-de-colete"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Malévola",
+        "descricao": "Fada das trevas, vilã do filme de animação A Bela Adormecida, da Disney, de 1959.",
+        "variantes": [
+          "Maleficent"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alola",
+          "nome": "Alola",
+          "descricao": "Região tropical formada por ilhas, cenário dos jogos Pokémon Sun e Moon, da sétima geração.",
+          "variantes": [
+            "Região de Alola"
+          ]
+        },
+        {
+          "id": "maloca",
+          "nome": "Maloca",
+          "descricao": "Grande cabana comunitária de madeira e palha usada por povos indígenas da região amazônica.",
+          "variantes": []
+        },
+        {
+          "id": "amanda_nunes",
+          "nome": "Amanda Nunes",
+          "descricao": "Lutadora brasileira de MMA, campeã do UFC em duas categorias.",
+          "variantes": [
+            "Leoa",
+            "A Leoa"
+          ]
+        },
+        {
+          "id": "alfabeto_hebraico",
+          "nome": "Alfabeto hebraico",
+          "descricao": "Sistema de escrita usado no hebraico, no iídiche e em outras línguas judaicas.",
+          "variantes": [
+            "Hebrew alphabet",
+            "Alefbet"
+          ]
+        },
+        {
+          "id": "megaevolucao",
+          "nome": "Megaevolução",
+          "descricao": "Transformação temporária de certos pokémon em batalha, introduzida em Pokémon X e Y, ativada por uma Mega Pedra.",
+          "variantes": [
+            "Mega Evolution",
+            "Mega Evolução"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Kyojuro Rengoku",
+        "descricao": "Hashira das Chamas do Corpo de Caçadores de Demônios, em Demon Slayer: Kimetsu no Yaiba.",
+        "variantes": [
+          "Rengoku Kyōjurō",
+          "Rengoku"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "goku",
+          "nome": "Goku",
+          "descricao": "Protagonista de Dragon Ball, criado por Akira Toriyama.",
+          "variantes": [
+            "Son Goku",
+            "Kakarotto",
+            "Kakaroto"
+          ]
+        },
+        {
+          "id": "luge",
+          "nome": "Luge",
+          "descricao": "Esporte olímpico de inverno em que o atleta desce deitado de costas, com os pés à frente, num pequeno trenó.",
+          "variantes": [
+            "Luge de pista natural",
+            "Trenó"
+          ]
+        },
+        {
+          "id": "regirock",
+          "nome": "Regirock",
+          "descricao": "Pokémon do tipo Pedra, número 377 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "kenny_anime",
+          "nome": "Kenny (anime)",
+          "descricao": "Coordenador pokémon de Sinnoh, amigo de infância de Dawn no anime Pokémon, dono de um Prinplup.",
+          "variantes": [
+            "Kenny",
+            "Kengo"
+          ]
+        },
+        {
+          "id": "regua",
+          "nome": "Régua",
+          "descricao": "Instrumento rígido com marcações usado para medir comprimentos e traçar linhas retas.",
+          "variantes": [
+            "Régua graduada",
+            "Escala"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Saga de Gêmeos",
+        "descricao": "Cavaleiro de ouro da constelação de Gêmeos em Os Cavaleiros do Zodíaco (Saint Seiya).",
+        "variantes": [
+          "Gemini Saga"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "minissaia",
+          "nome": "Minissaia",
+          "descricao": "Saia muito curta, bem acima dos joelhos, popularizada na Londres dos anos 1960",
+          "variantes": [
+            "Miniskirt",
+            "Mini-saia"
+          ]
+        },
+        {
+          "id": "escala_de_mohs",
+          "nome": "Escala de Mohs",
+          "descricao": "Escala de dureza de minerais de um a dez, criada pelo mineralogista alemão Friedrich Mohs em 1812.",
+          "variantes": [
+            "Mohs scale"
+          ]
+        },
+        {
+          "id": "shaka_de_virgem",
+          "nome": "Shaka de Virgem",
+          "descricao": "Cavaleiro de ouro da constelação de Virgem em Os Cavaleiros do Zodíaco.",
+          "variantes": [
+            "Shaka",
+            "Virgo Shaka"
+          ]
+        },
+        {
+          "id": "mascara_de_agamenon",
+          "nome": "Máscara de Agamenon",
+          "descricao": "Máscara funerária de ouro encontrada em Micenas em 1876.",
+          "variantes": [
+            "Mask of Agamemnon"
+          ]
+        },
+        {
+          "id": "simbolo_do_infinito",
+          "nome": "Símbolo do infinito",
+          "descricao": "Símbolo matemático em forma de oito deitado, que representa o infinito.",
+          "variantes": [
+            "Lemniscata",
+            "Infinity symbol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Scrat",
+        "descricao": "Esquilo-dente-de-sabre obcecado por uma bolota, personagem da franquia A Era do Gelo.",
+        "variantes": [
+          "Scrat o esquilo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "scrafty",
+          "nome": "Scrafty",
+          "descricao": "Pokémon dos tipos Sombrio e Lutador, número 560 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "quilate_unidade_de_peso",
+          "nome": "Quilate (unidade de peso)",
+          "descricao": "Unidade de massa usada para pesar diamantes e outras pedras preciosas, igual a 200 miligramas.",
+          "variantes": [
+            "Carat",
+            "Quilate métrico"
+          ]
+        },
+        {
+          "id": "socrates",
+          "nome": "Sócrates",
+          "descricao": "Sócrates Brasileiro Sampaio de Souza Vieira de Oliveira, meia do Corinthians e capitão da seleção brasileira na Copa de 1982.",
+          "variantes": [
+            "Doutor Sócrates",
+            "Magrão"
+          ]
+        },
+        {
+          "id": "socrates_2",
+          "nome": "Sócrates",
+          "descricao": "Filósofo grego de Atenas (c. 470–399 a.C.), mestre de Platão, retratado aqui em busto de mármore.",
+          "variantes": []
+        },
+        {
+          "id": "tubo_de_raios_catodicos",
+          "nome": "Tubo de raios catódicos",
+          "descricao": "Tubo de vácuo com canhão de elétrons que forma imagens numa tela fosforescente.",
+          "variantes": [
+            "CRT",
+            "Cathode ray tube"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Olaf não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Gru não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "rei_ayanami",
+      "motivo": "Mesma personagem, mesma descrição e variantes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Malévola não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Rengoku não está entre as candidatas; Goku é outro personagem."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Saga de Gêmeos é diferente de Shaka de Virgem e das demais candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Scrat não corresponde a nenhuma candidata."
+    }
+  ]
+}

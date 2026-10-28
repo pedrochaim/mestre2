@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é esta personagem?",
+        "resposta": "Rei Ayanami"
+      },
+      "existentes": [
+        {
+          "id": "q16036",
+          "pergunta": "Que diretor criou o anime em que aparece esta personagem?",
+          "resposta": "Hideaki Anno"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identidade da personagem; a existente pede o diretor do anime. São fatos diferentes, e saber um não leva ao outro."
+    }
+  ]
+}
