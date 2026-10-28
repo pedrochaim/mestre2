@@ -1,0 +1,33 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que Parmigiano é o adjetivo de Parma. O enunciado não nomeia o queijo nem a cidade, e a figura é necessária para saber de qual queijo se trata. Os distratores são cidades da mesma região e nenhum dá nome ao queijo.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de reconhecimento direta, sem pista no enunciado. Os distratores são ervas mediterrâneas parecidas e críveis, e nenhum deles descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado ('origem asiática, muito usada na culinária japonesa') elimina sozinho os distratores, que não são asiáticos, e quase entrega a resposta sem a figura. Reescrevi com uma pista só de região e com distratores cítricos do Leste Asiático, para que a figura decida.",
+      "reescrita": {
+        "pergunta": "Que fruta cítrica do Leste Asiático é esta?",
+        "resposta": "Yuzu",
+        "distratores": [
+          "Sudachi",
+          "Kabosu",
+          "Calamansi"
+        ]
+      }
+    }
+  ]
+}

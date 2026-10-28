@@ -1,0 +1,194 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Parmesão",
+        "descricao": "Queijo italiano duro e granuloso de leite de vaca (Parmigiano Reggiano), curado por pelo menos doze meses.",
+        "variantes": [
+          "Parmigiano Reggiano",
+          "Parmesan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pac_man",
+          "nome": "Pac-Man",
+          "descricao": "Jogo de fliperama da Namco lançado em 1980, em que uma bola amarela come pastilhas num labirinto.",
+          "variantes": [
+            "Puck-Man",
+            "Pacman"
+          ]
+        },
+        {
+          "id": "carmen_opera",
+          "nome": "Carmen (ópera)",
+          "descricao": "Ópera de Georges Bizet, estreada em Paris em 1875, sobre uma cigana sedutora.",
+          "variantes": [
+            "Carmen"
+          ]
+        },
+        {
+          "id": "parana_estado",
+          "nome": "Paraná (estado)",
+          "descricao": "Estado da Região Sul do Brasil, com capital em Curitiba.",
+          "variantes": [
+            "Paraná"
+          ]
+        },
+        {
+          "id": "rio_parana",
+          "nome": "Rio Paraná",
+          "descricao": "Grande rio sul-americano formado no Brasil, onde fica a usina de Itaipu, que segue pelo Paraguai e pela Argentina até o rio da Prata.",
+          "variantes": [
+            "Paraná",
+            "Paraná River"
+          ]
+        },
+        {
+          "id": "giorgio_armani",
+          "nome": "Giorgio Armani",
+          "descricao": "Estilista italiano nascido em 1934, fundador da grife Armani em Milão",
+          "variantes": [
+            "Armani"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tomilho",
+        "descricao": "Erva culinária mediterrânea do gênero Thymus, da família da hortelã, usada seca ou fresca como tempero.",
+        "variantes": [
+          "Thyme",
+          "Thymus vulgaris"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "milho",
+          "nome": "Milho",
+          "descricao": "Gramínea alta Zea mays, domesticada no México, cultivada pelos grãos.",
+          "variantes": [
+            "Zea mays",
+            "Maize",
+            "Maís"
+          ]
+        },
+        {
+          "id": "rio_tamisa",
+          "nome": "Rio Tâmisa",
+          "descricao": "Rio da Inglaterra que atravessa Londres e Oxford e deságua no mar do Norte.",
+          "variantes": [
+            "Tâmisa",
+            "River Thames",
+            "Thames"
+          ]
+        },
+        {
+          "id": "esquilo_vermelho",
+          "nome": "Esquilo-vermelho",
+          "descricao": "Esquilo arborícola da espécie Sciurus vulgaris, de pelagem ruiva, comum na Eurásia.",
+          "variantes": [
+            "Esquilo-vermelho-eurasiático",
+            "Sciurus vulgaris"
+          ]
+        },
+        {
+          "id": "oito_mil",
+          "nome": "Oito mil",
+          "descricao": "Grupo das montanhas com mais de oito mil metros de altitude, todas no Himalaia e no Caracórum.",
+          "variantes": [
+            "Eight-thousander",
+            "Montanhas de oito mil metros"
+          ]
+        },
+        {
+          "id": "milu",
+          "nome": "Milu",
+          "descricao": "Fox terrier branco, cão companheiro de Tintim nos quadrinhos de Hergé",
+          "variantes": [
+            "Milou",
+            "Snowy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Yuzu",
+        "descricao": "Fruta cítrica aromática de origem chinesa, cultivada sobretudo no leste da Ásia (Citrus × junos).",
+        "variantes": [
+          "Citrus junos",
+          "Citrus × junos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "laranja",
+          "nome": "Laranja",
+          "descricao": "Fruta cítrica Citrus × sinensis, híbrido de pomelo e tangerina, de casca e polpa alaranjadas.",
+          "variantes": [
+            "Laranja-doce",
+            "Citrus sinensis"
+          ]
+        },
+        {
+          "id": "vinicius_junior",
+          "nome": "Vinícius Júnior",
+          "descricao": "Atacante brasileiro do Real Madrid e da seleção, revelado pelo Flamengo.",
+          "variantes": [
+            "Vinícius José Paixão de Oliveira Júnior",
+            "Vini Jr."
+          ]
+        },
+        {
+          "id": "cat_stevens",
+          "nome": "Cat Stevens",
+          "descricao": "Cantor e compositor britânico de folk, que depois adotou o nome Yusuf Islam",
+          "variantes": [
+            "Yusuf Islam",
+            "Yusuf"
+          ]
+        },
+        {
+          "id": "tres_joias",
+          "nome": "Três Joias",
+          "descricao": "Os três refúgios do budismo: o Buda, o Dharma e a Sangha",
+          "variantes": [
+            "Três Refúgios",
+            "Triratna",
+            "Três Tesouros"
+          ]
+        },
+        {
+          "id": "citrino",
+          "nome": "Citrino",
+          "descricao": "Gema amarela a alaranjada, variedade do quartzo.",
+          "variantes": [
+            "Citrine"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é queijo; nomes apenas parecidos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Tomilho é uma erva; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Yuzu é uma fruta cítrica distinta da laranja e das demais candidatas."
+    }
+  ]
+}

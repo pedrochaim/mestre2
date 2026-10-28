@@ -303556,5 +303556,80 @@
       "autor": "YubYub41",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q15915",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "parmesao",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este queijo italiano duro tem nome ligado a uma cidade. Que cidade é essa?",
+    "resposta": "Parma",
+    "distratores": [
+      "Modena",
+      "Milão",
+      "Florença"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Parmesan",
+      "https://pt.wikipedia.org/wiki/Parmes%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q15915.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Parmigiano_reggiano_piece.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15916",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "tomilho",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que erva aromática é esta?",
+    "resposta": "Tomilho",
+    "distratores": [
+      "Orégano",
+      "Manjerona",
+      "Alecrim"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thyme",
+      "https://pt.wikipedia.org/wiki/Tomilho"
+    ],
+    "imagem": {
+      "arquivo": "q15916.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Thyme-Bundle.jpg",
+      "autor": "Evan-Amos",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q15917",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "yuzu",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que fruta cítrica do Leste Asiático é esta?",
+    "resposta": "Yuzu",
+    "distratores": [
+      "Sudachi",
+      "Kabosu",
+      "Calamansi"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yuzu",
+      "https://pt.wikipedia.org/wiki/Yuzu"
+    ],
+    "imagem": {
+      "arquivo": "q15917.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Yuzu_oranges_(6459456959).jpg",
+      "autor": "Nikita from Russian Federation",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]

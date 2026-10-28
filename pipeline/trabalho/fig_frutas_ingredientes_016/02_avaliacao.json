@@ -1,0 +1,121 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Pó branco de perto, sem contexto: pode ser açúcar, sal ou amido; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cunha de queijo duro granuloso com casca pontilhada, característica; o texto da casca é parcial e pouco legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este queijo italiano duro tem nome ligado a uma cidade. Que cidade é essa?",
+      "resposta": "Parma",
+      "distratores": [
+        "Modena",
+        "Milão",
+        "Florença"
+      ],
+      "ancora": {
+        "nome": "Parmesão",
+        "descricao": "Queijo italiano duro e granuloso de leite de vaca (Parmigiano Reggiano), curado por pelo menos doze meses.",
+        "variantes": [
+          "Parmigiano Reggiano",
+          "Parmesan"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Maço de ramos de tomilho em fundo branco, nítido e legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que erva aromática é esta?",
+      "resposta": "Tomilho",
+      "distratores": [
+        "Orégano",
+        "Manjerona",
+        "Alecrim"
+      ],
+      "ancora": {
+        "nome": "Tomilho",
+        "descricao": "Erva culinária mediterrânea do gênero Thymus, da família da hortelã, usada seca ou fresca como tempero.",
+        "variantes": [
+          "Thyme",
+          "Thymus vulgaris"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Pasta marrom-clara cremosa em close: pode ser outra pasta de oleaginosas, doce de leite ou similar; resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pimentas verdes de formato incomum, que não lembram a dedo-de-moça típica; a entidade não é reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Copo de líquido branco sendo servido, indistinguível de leite; há ainda texto cirílico na embalagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Bifes grelhados em travessa, sem o capa de gordura característica; o corte não é reconhecível."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O rótulo mostra texto legível ('Balsamico Modena') que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Planta com raízes tuberosas sujas de terra, facilmente confundida com batata-doce ou mandioca; não reconhecível."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A embalagem traz texto legível ('Mortadella Bologna'), que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Garrafa de líquido âmbar que poderia ser mel, melado ou outro xarope; resposta não única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Frutos cítricos amarelos e arredondados de casca rugosa no pé, nítidos; o distrator precisa ser de cítricos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fruta cítrica de origem asiática, muito usada na culinária japonesa, é esta?",
+      "resposta": "Yuzu",
+      "distratores": [
+        "Limão-siciliano",
+        "Toranja",
+        "Bergamota"
+      ],
+      "ancora": {
+        "nome": "Yuzu",
+        "descricao": "Fruta cítrica aromática de origem chinesa, cultivada sobretudo no leste da Ásia (Citrus × junos).",
+        "variantes": [
+          "Citrus junos",
+          "Citrus × junos"
+        ]
+      }
+    }
+  ]
+}
