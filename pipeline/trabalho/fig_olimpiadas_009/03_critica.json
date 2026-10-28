@@ -1,0 +1,26 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia o atleta nem entrega o país. Os trechos confirmam que Hanyu é japonês e foi campeão olímpico. Os distratores são do mesmo tipo e plausíveis, e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta Vela está confirmada nos trechos. O distrator Windsurfe é problemático: na vela olímpica o windsurfe sempre foi disputado como classe de vela e usa só o vento. Pode ser defendido como correto ou confundir. Troquei-o por uma modalidade olímpica aquática distinta.",
+      "reescrita": {
+        "pergunta": "Que modalidade olímpica é esta?",
+        "resposta": "Vela",
+        "distratores": [
+          "Remo",
+          "Canoagem",
+          "Surfe"
+        ]
+      }
+    }
+  ]
+}

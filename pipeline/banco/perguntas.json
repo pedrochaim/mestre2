@@ -305831,5 +305831,55 @@
       "autor": "Walter Siegmund",
       "licenca": "CC BY 2.5"
     }
+  },
+  {
+    "id": "q16024",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "yuzuru_hanyu",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Que país este patinador artístico representou nos Jogos Olímpicos?",
+    "resposta": "Japão",
+    "distratores": [
+      "China",
+      "Coreia do Sul",
+      "Rússia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yuzuru_Hanyu",
+      "https://pt.wikipedia.org/wiki/Yuzuru_Hanyu"
+    ],
+    "imagem": {
+      "arquivo": "q16024.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hanyu_-_2018_Olympics_(cropped).jpg",
+      "autor": "David W. Carmichael",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q16025",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "vela_2",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que modalidade olímpica é esta?",
+    "resposta": "Vela",
+    "distratores": [
+      "Remo",
+      "Canoagem",
+      "Surfe"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sailing_%28sport%29",
+      "https://pt.wikipedia.org/wiki/Vela_%28desporto%29"
+    ],
+    "imagem": {
+      "arquivo": "q16025.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:SEIKO_CUP_2017_-_13.05.2017.jpg",
+      "autor": "Aleksandr Abrosimov",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

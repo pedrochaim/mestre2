@@ -1,0 +1,102 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Camisa mostra Lakers e número 24, o que entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato sem texto de figura pública; pergunta de país sem pista que entregue.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país este patinador artístico representou nos Jogos Olímpicos?",
+      "resposta": "Japão",
+      "distratores": [
+        "China",
+        "Coreia do Sul",
+        "Rússia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Yuzuru Hanyu",
+        "descricao": "Patinador artístico japonês, bicampeão olímpico individual masculino em 2014 e 2018.",
+        "variantes": [
+          "Hanyu Yuzuru",
+          "羽生結弦"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Fundo e medalha trazem Paris 2024, Omega e outros textos; entregam a edição e o contexto."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Retrato de rosto sem contexto esportivo; a pessoa não é reconhecível pela imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Montagem com quatro ginastas diferentes em aparelhos diferentes, sem entidade única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Cena pode ser confundida com beisebol, e aparecem atletas universitárias comuns em primeiro plano."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Camisa traz Kenya e o sobrenome Rudisha; o texto entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A camisa traz Golden State, que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto antiga de rosto sem contexto; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A camisa traz Kansas City e o número 23, e a cena não rende uma pergunta limpa sobre o beisebol."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Regata de veleiros nítida, sem texto relevante; reconhecível no celular.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que modalidade olímpica é esta?",
+      "resposta": "Vela",
+      "distratores": [
+        "Windsurfe",
+        "Canoagem",
+        "Remo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Vela",
+        "descricao": "Esporte de competição em que barcos movidos pelo vento disputam regatas, modalidade olímpica.",
+        "variantes": [
+          "Iatismo",
+          "Vela (esporte)"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Idoso num teleférico de esqui; a pessoa não é reconhecível pela imagem."
+    }
+  ]
+}

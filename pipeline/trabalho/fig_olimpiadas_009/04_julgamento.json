@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Vela",
+        "descricao": "Esporte de competição em que barcos movidos pelo vento disputam regatas, modalidade olímpica.",
+        "variantes": [
+          "Iatismo",
+          "Vela (esporte)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vela",
+          "nome": "Vela",
+          "descricao": "Pavio embutido em cera ou outra substância sólida inflamável, usado para iluminar.",
+          "variantes": [
+            "Candle"
+          ]
+        },
+        {
+          "id": "avela",
+          "nome": "Avelã",
+          "descricao": "Fruto da aveleira (Corylus avellana), fruto seco usado em doces e pastas de chocolate.",
+          "variantes": [
+            "Avelã comum",
+            "Hazelnut"
+          ]
+        },
+        {
+          "id": "very_large_array",
+          "nome": "Very Large Array",
+          "descricao": "Observatório de radioastronomia com 27 antenas de 25 metros no Novo México, EUA.",
+          "variantes": [
+            "VLA",
+            "Karl G. Jansky Very Large Array"
+          ]
+        },
+        {
+          "id": "kart",
+          "nome": "Kart",
+          "descricao": "Pequeno veículo de competição de chassi tubular e motor simples, usado no kartismo.",
+          "variantes": [
+            "Go-kart",
+            "Kartismo"
+          ]
+        },
+        {
+          "id": "ovelha",
+          "nome": "Ovelha",
+          "descricao": "Ruminante doméstico da espécie Ovis aries, criado por lã, carne e leite.",
+          "variantes": [
+            "Ovis aries",
+            "Carneiro",
+            "Ovino"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A proposta é o esporte de vela (iatismo); a candidata 'Vela' é o objeto de cera para iluminação, entidade diferente. Demais candidatas não correspondem."
+    }
+  ]
+}
