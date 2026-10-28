@@ -1,0 +1,276 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pepino-do-mar com tentáculos ramificados, claro; estrela e ouriço aparecem ao fundo mas o foco é nítido.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este animal marinho pertence ao mesmo grupo de qual destes?",
+      "resposta": "Ouriço-do-mar",
+      "distratores": [
+        "Água-viva",
+        "Polvo",
+        "Esponja-do-mar"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pepino-do-mar",
+        "descricao": "Equinodermo marinho da classe Holothuroidea, de corpo alongado e coriáceo.",
+        "variantes": [
+          "Holotúria",
+          "Holothuroidea"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Caranguejo-dos-coqueiros nítido, de cima, com coco; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que animal é este?",
+      "resposta": "Caranguejo-dos-coqueiros",
+      "distratores": [
+        "Caranguejo-eremita",
+        "Caranguejo-real",
+        "Siri-azul"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caranguejo-dos-coqueiros",
+        "descricao": "Maior artrópode terrestre, um caranguejo-eremita gigante (Birgus latro) das ilhas do Índico e do Pacífico.",
+        "variantes": [
+          "Caranguejo-ladrão",
+          "Birgus latro"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Aranha de teia dourada fêmea, nítida e característica.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "A teia circular desta aranha é famosa por ter qual cor?",
+      "resposta": "Dourada",
+      "distratores": [
+        "Prateada",
+        "Vermelha",
+        "Azulada"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Aranha-de-teia-dourada",
+        "descricao": "Aranha tecelã de teia orbicular (Trichonephila clavipes), das Américas, de grande fêmea e seda dourada.",
+        "variantes": [
+          "Trichonephila clavipes",
+          "Nephila clavipes",
+          "Aranha-banana"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Crustáceo de grandes pinças nítido, subaquático.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que crustáceo de grandes pinças é este?",
+      "resposta": "Lagosta (lavagante)",
+      "distratores": [
+        "Lagostim",
+        "Camarão-gigante",
+        "Caranguejo-aranha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lagosta",
+        "descricao": "Crustáceo decápode da família Nephropidae, de corpo longo e primeiro par de patas com grandes pinças.",
+        "variantes": [
+          "Lavagante",
+          "Homarus gammarus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Krill em fundo preto, nítido e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este pequeno crustáceo antártico é o alimento principal de qual destes gigantes?",
+      "resposta": "Baleia-azul",
+      "distratores": [
+        "Orca",
+        "Tubarão-branco",
+        "Cachalote"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Krill",
+        "descricao": "Pequeno crustáceo planctônico (Euphausia superba) que forma enormes enxames nas águas antárticas.",
+        "variantes": [
+          "Krill-antártico",
+          "Euphausia superba"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "É uma ilustração científica antiga; ilustração só vale para o que não pode ser fotografado, e a lula-vampira tem fotos."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Recife de coral nítido e reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que grupo de animais forma estas estruturas coloridas do fundo do mar?",
+      "resposta": "Cnidários",
+      "distratores": [
+        "Moluscos",
+        "Esponjas",
+        "Equinodermos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Coral",
+        "descricao": "Invertebrado marinho colonial da classe Anthozoa, formador de recifes tropicais.",
+        "variantes": [
+          "Corais",
+          "Recife de coral"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Aranha-lobo vista de cima sobre fundo branco, olhos grandes visíveis; reconhecível entre aranhas caçadoras.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aranha é esta?",
+      "resposta": "Aranha-lobo",
+      "distratores": [
+        "Aranha-pescadora",
+        "Aranha-de-funil",
+        "Aranha-caranguejo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Aranha-lobo",
+        "descricao": "Aranha caçadora da família Lycosidae, que em geral não faz teia e carrega o saco de ovos preso às fiandeiras.",
+        "variantes": [
+          "Licosídeos",
+          "Lycosidae"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Mosca-ladra nítida em macro, com presa; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que mosca predadora, que ataca outros insetos em pleno voo, é esta?",
+      "resposta": "Mosca-ladra",
+      "distratores": [
+        "Mosca-das-frutas",
+        "Mosca-varejeira",
+        "Mosca-doméstica"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mosca-ladra",
+        "descricao": "Mosca predadora da família Asilidae, robusta e cerdosa, que caça outros insetos em emboscada.",
+        "variantes": [
+          "Asilídeos",
+          "Mosca-assassina",
+          "Asilidae"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Joaninha nítida, reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este inseto pertence a qual grupo?",
+      "resposta": "Besouros",
+      "distratores": [
+        "Percevejos",
+        "Vespas",
+        "Moscas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Joaninha",
+        "descricao": "Pequeno besouro da família Coccinellidae, de corpo oval e abaulado, geralmente vermelho com pintas pretas.",
+        "variantes": [
+          "Coccinellidae",
+          "Joaninhas"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Mamangava dourada de olhos verdes, nítida; reconhecível como abelha grande de madeira.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta abelha grande costuma cavar o ninho em que material?",
+      "resposta": "Madeira",
+      "distratores": [
+        "Barro",
+        "Pedra",
+        "Folhas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mamangava",
+        "descricao": "Abelha grande do gênero Xylocopa, que escava o ninho em madeira seca ou bambu.",
+        "variantes": [
+          "Abelha-carpinteira",
+          "Xylocopa"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Formigas-pote-de-mel com abdomens inchados, distintivas e nítidas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de formiga é esta?",
+      "resposta": "Formiga-pote-de-mel",
+      "distratores": [
+        "Formiga-cortadeira",
+        "Formiga-de-fogo",
+        "Formiga-correição"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Formiga-pote-de-mel",
+        "descricao": "Formiga cujas operárias repletas armazenam alimento líquido no abdômen enormemente inchado.",
+        "variantes": [
+          "Formiga-de-mel",
+          "Honeypot ant",
+          "Myrmecocystus"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pepino-do-mar é equinodermo; ouriço-do-mar também. Nenhum distrator é equinodermo. O enunciado não nomeia o animal.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que o caranguejo-dos-coqueiros é um caranguejo-eremita gigante, então o distrator 'Caranguejo-eremita' também é defensável. Troquei por um distrator claramente errado.",
+      "reescrita": {
+        "pergunta": "Que animal é este?",
+        "resposta": "Caranguejo-dos-coqueiros",
+        "distratores": [
+          "Caranguejo-violinista",
+          "Caranguejo-real",
+          "Siri-azul"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta 'dourada' é ambígua: a Wikipédia em português chama a espécie de aranha-de-teia-amarela, e a em inglês só fala de brilho dourado em certa luz. Além disso, a cor da teia aparece na própria imagem, então a pergunta é fraca e não tem conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia diz que os nefropídeos incluem lavagantes e lagostins marinhos, então 'Lagostim' também é defensável. Troquei o distrator por um crustáceo sem grandes pinças.",
+      "reescrita": {
+        "pergunta": "Que crustáceo de grandes pinças é este?",
+        "resposta": "Lagosta (lavagante)",
+        "distratores": [
+          "Cavaquinha",
+          "Camarão-gigante",
+          "Caranguejo-aranha"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Pequeno crustáceo antártico' mais 'gigantes' permite chegar à baleia-azul sem ver a figura, que vira enfeite. Que a baleia-azul se alimenta de krill é amplamente documentado, mas os trechos não dizem isso. Tirei a pista do enunciado.",
+      "reescrita": {
+        "pergunta": "Este animal marinho é o principal alimento de qual destes gigantes?",
+        "resposta": "Baleia-azul",
+        "distratores": [
+          "Orca",
+          "Tubarão-branco",
+          "Cachalote"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Corais são cnidários, como diz o trecho. O enunciado não nomeia o grupo e os distratores são de outros filos, nenhum correto para essa imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação direta de aranha-lobo. Os distratores são tipos de aranha críveis e nenhum descreve a imagem. O enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mosca predadora que ataca insetos em pleno voo' é uma definição que entrega a mosca-ladra sem a imagem, e o trecho confirma esse hábito. Tirei a pista e deixei só o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que mosca é esta?",
+        "resposta": "Mosca-ladra",
+        "distratores": [
+          "Mosca-das-frutas",
+          "Mosca-varejeira",
+          "Mosca-doméstica"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Joaninhas são besouros (Coleoptera), como diz o trecho. O enunciado não nomeia o inseto e os distratores são outras ordens.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Xylocopa escava o ninho em madeira seca ou bambu. 'Abelha grande' não entrega a resposta e os distratores são plausíveis, mas errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação direta da formiga-pote-de-mel. O enunciado é neutro e os distratores são tipos de formiga críveis, nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}

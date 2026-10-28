@@ -1,0 +1,78 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este animal marinho pertence ao mesmo grupo de qual destes?",
+        "resposta": "Ouriço-do-mar"
+      },
+      "existentes": [
+        {
+          "id": "q05505",
+          "pergunta": "Que animal marinho do fundo do mar é este?",
+          "resposta": "Pepino-do-mar"
+        },
+        {
+          "id": "q09589",
+          "pergunta": "Para se defender, o pepino-do-mar pode lançar para fora do corpo algo que depois volta a crescer. O que ele expulsa?",
+          "resposta": "Os órgãos internos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que grupo de animais forma estas estruturas coloridas do fundo do mar?",
+        "resposta": "Cnidários"
+      },
+      "existentes": [
+        {
+          "id": "q02555",
+          "pergunta": "Corais, anêmonas-do-mar e águas-vivas pertencem ao mesmo grande grupo de animais com células urticantes. Que filo é esse?",
+          "resposta": "Cnidários"
+        },
+        {
+          "id": "q09198",
+          "pergunta": "Muitos corais devem suas cores e boa parte do alimento a algas microscópicas que vivem dentro de seus tecidos. Como se chamam essas algas?",
+          "resposta": "Zooxantelas"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Este inseto pertence a qual grupo?",
+        "resposta": "Besouros"
+      },
+      "existentes": [
+        {
+          "id": "q02586",
+          "pergunta": "Em inglês, a joaninha é chamada de ladybird. A senhora homenageada nesse nome é qual figura religiosa?",
+          "resposta": "Virgem Maria"
+        },
+        {
+          "id": "q02627",
+          "pergunta": "Agricultores costumam ver as joaninhas como aliadas porque elas devoram grandes quantidades de qual praga?",
+          "resposta": "Pulgões"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o grupo (equinodermos) com resposta ouriço-do-mar; as existentes pedem a identificação do pepino-do-mar e a defesa; fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas têm como resposta o grupo Cnidários para corais; saber uma permite responder a outra."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Classificação da joaninha como besouro é um fato diferente do nome em inglês ou da presa que ela come."
+    }
+  ]
+}
