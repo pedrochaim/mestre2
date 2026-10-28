@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é este sambista?",
+        "resposta": "Martinho da Vila"
+      },
+      "existentes": [
+        {
+          "id": "q15072",
+          "pergunta": "Que cantor e compositor brasileiro é este?",
+          "resposta": "Martinho da Vila"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q15072",
+      "motivo": "Ambas pedem a identidade da pessoa na imagem, com a mesma resposta (Martinho da Vila)."
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública cantando, sem texto; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este cantor sertanejo é o autor de qual grande sucesso internacional?",
+      "resposta": "Ai Se Eu Te Pego",
+      "distratores": [
+        "Balada Boa",
+        "Camarote",
+        "Evidências"
+      ],
+      "ancora": {
+        "nome": "Michel Teló",
+        "descricao": "Cantor e compositor sertanejo brasileiro, autor de Ai Se Eu Te Pego.",
+        "variantes": [
+          "Michel Teló Camargo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto antiga em preto e branco, de corpo inteiro e baixa nitidez; a cantora não é reconhecível pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Percussionista tocando o berimbau, bem visível; a imagem sustenta a pergunta sobre o instrumento.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento este percussionista pernambucano toca na foto?",
+      "resposta": "Berimbau",
+      "distratores": [
+        "Cuíca",
+        "Zabumba",
+        "Cavaquinho"
+      ],
+      "ancora": {
+        "nome": "Naná Vasconcelos",
+        "descricao": "Percussionista, cantor e tocador de berimbau pernambucano, conhecido por trabalhos com Pat Metheny e Milton Nascimento.",
+        "variantes": [
+          "Juvenal de Holanda Vasconcelos"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Com que banda de família este cantor nordestino começou a carreira profissional?",
+      "resposta": "Garota Safada",
+      "distratores": [
+        "Aviões do Forró",
+        "Calcinha Preta",
+        "Forró no Escuro"
+      ],
+      "ancora": {
+        "nome": "Wesley Safadão",
+        "descricao": "Cantor brasileiro de forró e piseiro, que começou na banda Garota Safada.",
+        "variantes": [
+          "Wesley Oliveira da Silva"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; os elementos ao fundo não trazem texto legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta cantora e compositora de pop rock é a intérprete de qual sucesso?",
+      "resposta": "Quem de Nós Dois",
+      "distratores": [
+        "Mania de Você",
+        "Esquadros",
+        "Cais"
+      ],
+      "ancora": {
+        "nome": "Ana Carolina",
+        "descricao": "Cantora e compositora brasileira de pop rock e MPB, nascida em 1974.",
+        "variantes": [
+          "Ana Carolina Sousa"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco de cantora cantando, sem texto; reconhecimento de aficionado, adequado à múltipla escolha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que percussionista brasileiro é o marido desta cantora de jazz?",
+      "resposta": "Airto Moreira",
+      "distratores": [
+        "Naná Vasconcelos",
+        "Hermeto Pascoal",
+        "Egberto Gismonti"
+      ],
+      "ancora": {
+        "nome": "Flora Purim",
+        "descricao": "Cantora brasileira de jazz fusion, conhecida por integrar o Return to Forever.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto de show com a dupla, sem texto; figuras públicas.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que sucesso de 1991 foi lançado por esta dupla sertaneja de irmãos?",
+      "resposta": "É o Amor",
+      "distratores": [
+        "Evidências",
+        "Pense em Mim",
+        "Telefone Mudo"
+      ],
+      "ancora": {
+        "nome": "Zezé Di Camargo & Luciano",
+        "descricao": "Dupla sertaneja brasileira formada pelos irmãos Zezé e Luciano, nascidos em Pirenópolis, Goiás.",
+        "variantes": [
+          "Zezé Di Camargo e Luciano"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que banda de rock este músico foi baixista e um dos vocalistas?",
+      "resposta": "Titãs",
+      "distratores": [
+        "Paralamas do Sucesso",
+        "Barão Vermelho",
+        "Legião Urbana"
+      ],
+      "ancora": {
+        "nome": "Nando Reis",
+        "descricao": "Músico, compositor e produtor brasileiro, ex-baixista dos Titãs.",
+        "variantes": [
+          "José Fernando Gomes dos Reis"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Retrato antigo, de baixa resolução, com assinatura visível no canto; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é este sambista?",
+      "resposta": "Martinho da Vila",
+      "distratores": [
+        "Zeca Pagodinho",
+        "Paulinho da Viola",
+        "Jorge Aragão"
+      ],
+      "ancora": {
+        "nome": "Martinho da Vila",
+        "descricao": "Cantor, compositor e percussionista brasileiro, pioneiro do samba e da MPB, nascido em 1938.",
+        "variantes": [
+          "Martinho José Ferreira"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto de show nítida de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que álbum de 2011 deu fama mundial a este rapper paulistano?",
+      "resposta": "Nó na Orelha",
+      "distratores": [
+        "Sobrevivendo no Inferno",
+        "Boa Esperança",
+        "Cores e Valores"
+      ],
+      "ancora": {
+        "nome": "Criolo",
+        "descricao": "Rapper, cantor e compositor paulistano, autor do álbum Nó na Orelha.",
+        "variantes": [
+          "Kleber Cavalcante Gomes",
+          "Criolo Doido"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto antiga, pequena e em preto e branco, de rosto pouco distintivo; não é reconhecível pela imagem."
+    }
+  ]
+}
