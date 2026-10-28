@@ -1,0 +1,119 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este mineral rosado é um carbonato de qual metal?",
+        "resposta": "Manganês"
+      },
+      "existentes": [
+        {
+          "id": "q13992",
+          "pergunta": "Que mineral rosa é este?",
+          "resposta": "Rodocrosita"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que material fibroso é este, visto ao microscópio eletrônico?",
+        "resposta": "Amianto"
+      },
+      "existentes": [
+        {
+          "id": "q08826",
+          "pergunta": "Desde a Antiguidade, os panos tecidos com amianto, um mineral fibroso, impressionavam por qual propriedade?",
+          "resposta": "Não pegavam fogo"
+        },
+        {
+          "id": "q08981",
+          "pergunta": "O amianto, comum em telhas e caixas-d'água, foi proibido no Brasil porque suas fibras, quando inaladas, causam doenças em que órgão?",
+          "resposta": "Pulmões"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que peixe é este?",
+        "resposta": "Celacanto"
+      },
+      "existentes": [
+        {
+          "id": "q02560",
+          "pergunta": "Em 1938, um celacanto, peixe que se julgava extinto havia milhões de anos, foi pescado na costa de que país?",
+          "resposta": "África do Sul"
+        },
+        {
+          "id": "q02561",
+          "pergunta": "Antes de ser encontrado vivo, o celacanto era conhecido só por fósseis. Os cientistas achavam que ele tinha sumido na mesma época que quais animais famosos?",
+          "resposta": "Dinossauros"
+        },
+        {
+          "id": "q04114",
+          "pergunta": "Que peixe raro de águas profundas é este?",
+          "resposta": "Celacanto"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que mineral é este?",
+        "resposta": "Quartzo rosa"
+      },
+      "existentes": [
+        {
+          "id": "q13991",
+          "pergunta": "Que pedra é esta?",
+          "resposta": "Quartzo rosa"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que órgão do sistema digestório aparece destacado em rosa nesta figura?",
+        "resposta": "Esôfago"
+      },
+      "existentes": [
+        {
+          "id": "q14857",
+          "pergunta": "Que órgão do sistema digestório aparece destacado em rosa neste esquema?",
+          "resposta": "Esôfago"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pede o nome do mineral; a nova pede o metal do carbonato (manganês), outro fato, embora a resposta da existente seja o nome do mineral."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "As existentes tratam de resistência ao fogo e de doenças pulmonares; a nova pede a identificação do material em imagem."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do mesmo peixe em imagem, com resposta Celacanto.",
+      "id_existente": "q04114"
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação da mesma pedra em imagem, com resposta Quartzo rosa.",
+      "id_existente": "q13991"
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta, com enunciado quase igual e mesma resposta (esôfago destacado em rosa).",
+      "id_existente": "q14857"
+    }
+  ]
+}

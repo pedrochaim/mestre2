@@ -1,0 +1,550 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Rodocrosita",
+        "descricao": "Mineral de carbonato de manganês (MnCO3), de cor rosa a vermelho-rosada, com cristais romboédricos.",
+        "variantes": [
+          "Rhodochrosite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rodocrosita",
+          "nome": "Rodocrosita",
+          "descricao": "Carbonato de manganês (MnCO3) de cor rosa a vermelha, de cristais romboédricos.",
+          "variantes": [
+            "Rhodochrosite"
+          ]
+        },
+        {
+          "id": "ardosia",
+          "nome": "Ardósia",
+          "descricao": "Rocha metamórfica de grão fino que se parte em placas, usada em pisos, telhados e antigas lousas.",
+          "variantes": []
+        },
+        {
+          "id": "nado_costas",
+          "nome": "Nado costas",
+          "descricao": "Estilo de natação em que o nadador fica de barriga para cima, alternando os braços.",
+          "variantes": [
+            "Costas",
+            "Backstroke"
+          ]
+        },
+        {
+          "id": "rondonia",
+          "nome": "Rondônia",
+          "descricao": "Estado da Região Norte do Brasil, na fronteira com a Bolívia, com capital em Porto Velho.",
+          "variantes": []
+        },
+        {
+          "id": "oxossi",
+          "nome": "Oxóssi",
+          "descricao": "Orixá caçador, ligado às matas e à fartura, cultuado no candomblé e na umbanda",
+          "variantes": [
+            "Ochosi",
+            "Ọ̀ṣọ́ọ̀sì"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Maxila",
+        "descricao": "Osso da mandíbula superior fixa, formado pela fusão de dois ossos maxilares, que inclui o palato duro.",
+        "variantes": [
+          "Osso maxilar",
+          "Maxilar superior"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mandibula",
+          "nome": "Mandíbula",
+          "descricao": "Osso móvel da parte inferior do rosto, que sustenta os dentes de baixo.",
+          "variantes": [
+            "Maxilar inferior",
+            "Queixada"
+          ]
+        },
+        {
+          "id": "japamala",
+          "nome": "Japamala",
+          "descricao": "Cordão de contas usado para contar orações e mantras no hinduísmo e no budismo",
+          "variantes": [
+            "Mala",
+            "Japa mala"
+          ]
+        },
+        {
+          "id": "maguila",
+          "nome": "Maguila",
+          "descricao": "José Adílson Rodrigues dos Santos, boxeador brasileiro dos pesos-pesados, campeão WBF, conhecido como Maguila.",
+          "variantes": [
+            "Adílson Rodrigues",
+            "José Adílson Rodrigues dos Santos"
+          ]
+        },
+        {
+          "id": "lago_superior",
+          "nome": "Lago Superior",
+          "descricao": "Um dos cinco Grandes Lagos da América do Norte, na fronteira entre os Estados Unidos e o Canadá.",
+          "variantes": [
+            "Lake Superior",
+            "Superior"
+          ]
+        },
+        {
+          "id": "ac_milan",
+          "nome": "AC Milan",
+          "descricao": "Associazione Calcio Milan, clube de futebol de Milão, na Itália, fundado em 1899.",
+          "variantes": [
+            "Milan",
+            "Associazione Calcio Milan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Dioptásio",
+        "descricao": "Mineral verde-esmeralda, ciclossilicato de cobre, de cristais hexagonais terminados em romboedros.",
+        "variantes": [
+          "Dioptase"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "diapasao",
+          "nome": "Diapasão",
+          "descricao": "Ressonador acústico em forma de garfo de duas hastes que emite uma nota pura constante.",
+          "variantes": [
+            "Tuning fork"
+          ]
+        },
+        {
+          "id": "dioniso",
+          "nome": "Dioniso",
+          "descricao": "Deus grego do vinho, das festas e do teatro, filho de Zeus e da mortal Sêmele.",
+          "variantes": [
+            "Dionísio",
+            "Baco",
+            "Dionysus"
+          ]
+        },
+        {
+          "id": "tarsio",
+          "nome": "Társio",
+          "descricao": "Pequeno primata noturno do Sudeste Asiático, de olhos enormes, família Tarsiidae.",
+          "variantes": [
+            "Tarsier"
+          ]
+        },
+        {
+          "id": "hippopotas",
+          "nome": "Hippopotas",
+          "descricao": "Pokémon do tipo Terrestre, número 449 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "ludismo",
+          "nome": "Ludismo",
+          "descricao": "Movimento de operários têxteis ingleses que destruíam máquinas no início do século dezenove, em protesto contra a mecanização.",
+          "variantes": [
+            "Luditas",
+            "Luddites"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Amianto",
+        "descricao": "Grupo de minerais silicatos fibrosos, resistentes ao fogo, tóxicos e cancerígenos.",
+        "variantes": [
+          "Asbesto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "amianto",
+          "nome": "Amianto",
+          "descricao": "Grupo de minerais fibrosos, também chamado asbesto, usado em telhas e isolantes e associado ao câncer.",
+          "variantes": [
+            "Asbesto"
+          ]
+        },
+        {
+          "id": "manto_terrestre",
+          "nome": "Manto terrestre",
+          "descricao": "Camada da Terra situada entre a crosta e o núcleo, formada por rocha quente e lentamente deformável.",
+          "variantes": [
+            "Manto da Terra",
+            "Manto"
+          ]
+        },
+        {
+          "id": "caminito",
+          "nome": "Caminito",
+          "descricao": "Rua-museu de casas coloridas de chapa e madeira em Buenos Aires, ligada à história do tango.",
+          "variantes": [
+            "El Caminito"
+          ]
+        },
+        {
+          "id": "yamato",
+          "nome": "Yamato",
+          "descricao": "Encouraçado da Marinha Imperial Japonesa, navio líder de sua classe, afundado em abril de 1945.",
+          "variantes": [
+            "Encouraçado Yamato",
+            "Couraçado Yamato"
+          ]
+        },
+        {
+          "id": "badminton",
+          "nome": "Badminton",
+          "descricao": "Esporte olímpico de raquete em que se rebate uma peteca sobre uma rede.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Celacanto",
+        "descricao": "Peixe de nadadeiras lobadas do grupo Actinistia, do gênero vivo Latimeria, antes tido como extinto.",
+        "variantes": [
+          "Coelacanto",
+          "Latimeria",
+          "Coelacanth"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "celacanto",
+          "nome": "Celacanto",
+          "descricao": "Peixe de nadadeiras lobadas do gênero Latimeria, conhecido antes só por fósseis.",
+          "variantes": [
+            "Latimeria",
+            "Coelacanth"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "estados_unidos",
+          "nome": "Estados Unidos",
+          "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+          "variantes": [
+            "Estados Unidos da América",
+            "EUA",
+            "América"
+          ]
+        },
+        {
+          "id": "bateria",
+          "nome": "Bateria",
+          "descricao": "Instrumento musical de percussão formado por tambores e pratos tocados por um único músico.",
+          "variantes": [
+            "Bateria acústica",
+            "Drum kit"
+          ]
+        },
+        {
+          "id": "bateria_de_escola_de_samba",
+          "nome": "Bateria de escola de samba",
+          "descricao": "Conjunto de percussionistas que dá o ritmo do desfile de uma escola de samba.",
+          "variantes": [
+            "Bateria"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Quartzo rosa",
+        "descricao": "Variedade rosa e translúcida de quartzo, de hábito maciço.",
+        "variantes": [
+          "Rose quartz"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quartzo_rosa",
+          "nome": "Quartzo rosa",
+          "descricao": "Variedade rosa, translúcida e maciça de quartzo, usada em lapidação.",
+          "variantes": [
+            "Rose quartz"
+          ]
+        },
+        {
+          "id": "quartzo",
+          "nome": "Quartzo",
+          "descricao": "Mineral de dióxido de silício (SiO2), o segundo mais comum da litosfera terrestre.",
+          "variantes": [
+            "Cristal de rocha",
+            "Quartz"
+          ]
+        },
+        {
+          "id": "tubarao_raposa",
+          "nome": "Tubarão-raposa",
+          "descricao": "Tubarão do gênero Alopias, de cauda quase tão longa quanto o resto do corpo.",
+          "variantes": [
+            "Alopias",
+            "Thresher shark",
+            "Tubarão-rabarraposa"
+          ]
+        },
+        {
+          "id": "resgate_de_atahualpa",
+          "nome": "Resgate de Atahualpa",
+          "descricao": "Grande quantidade de ouro e prata reunida pelos incas em Cajamarca, em 1532 e 1533, para libertar Atahualpa, preso por Pizarro.",
+          "variantes": [
+            "Quarto do Resgate",
+            "Cuarto del Rescate"
+          ]
+        },
+        {
+          "id": "o_quarto_em_arles",
+          "nome": "O Quarto em Arles",
+          "descricao": "Pintura de Vincent van Gogh, de 1888, do seu quarto na Casa Amarela, com cama amarela, cadeiras e janela verde.",
+          "variantes": [
+            "Bedroom in Arles",
+            "La Chambre à Arles",
+            "O Quarto de Van Gogh em Arles",
+            "Quarto em Arles"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Linfócito",
+        "descricao": "Tipo de glóbulo branco do sistema imunológico, que inclui células T, B e NK.",
+        "variantes": [
+          "Linfócito T",
+          "Lymphocyte"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pinoquio",
+          "nome": "Pinóquio",
+          "descricao": "Boneco de madeira cujo nariz cresce quando mente, criado pelo italiano Carlo Collodi em 1883.",
+          "variantes": [
+            "Pinocchio",
+            "As Aventuras de Pinóquio"
+          ]
+        },
+        {
+          "id": "pinoquio_filme_de_1940",
+          "nome": "Pinóquio (filme de 1940)",
+          "descricao": "Segundo longa-metragem de animação da Disney, sobre o boneco de madeira cujo nariz cresce quando mente.",
+          "variantes": [
+            "Pinocchio"
+          ]
+        },
+        {
+          "id": "equinocio",
+          "nome": "Equinócio",
+          "descricao": "Momento do ano em que o Sol cruza o equador celeste, marcando o início da primavera ou do outono.",
+          "variantes": []
+        },
+        {
+          "id": "hemacia",
+          "nome": "Hemácia",
+          "descricao": "Célula do sangue em forma de disco bicôncavo que transporta oxigênio por meio da hemoglobina.",
+          "variantes": [
+            "Glóbulo vermelho",
+            "Eritrócito"
+          ]
+        },
+        {
+          "id": "plebiscito",
+          "nome": "Plebiscito",
+          "descricao": "Na Roma antiga, decisão votada pela assembleia dos plebeus; hoje, consulta popular direta.",
+          "variantes": [
+            "Plebiscitum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Esôfago",
+        "descricao": "Tubo fibromuscular que leva o alimento da faringe ao estômago.",
+        "variantes": [
+          "Oesophagus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esofago",
+          "nome": "Esôfago",
+          "descricao": "Tubo muscular que leva o alimento da faringe ao estômago.",
+          "variantes": [
+            "Oesophagus"
+          ]
+        },
+        {
+          "id": "esfagno",
+          "nome": "Esfagno",
+          "descricao": "Gênero de musgos Sphagnum que formam as turfeiras.",
+          "variantes": [
+            "Sphagnum",
+            "Musgo-de-turfa"
+          ]
+        },
+        {
+          "id": "bacteriofago",
+          "nome": "Bacteriófago",
+          "descricao": "Vírus que infecta e se replica dentro de bactérias, com cabeça icosaédrica e cauda.",
+          "variantes": [
+            "Fago",
+            "Phage",
+            "Bacteriophage"
+          ]
+        },
+        {
+          "id": "fofao",
+          "nome": "Fofão",
+          "descricao": "Levantadora brasileira de vôlei, campeã olímpica em Pequim 2008.",
+          "variantes": [
+            "Hélia Souza",
+            "Hélia Rogério de Souza Pinto"
+          ]
+        },
+        {
+          "id": "fagote",
+          "nome": "Fagote",
+          "descricao": "Instrumento de sopro da família das madeiras, de palheta dupla, com tubo longo dobrado e registro grave.",
+          "variantes": [
+            "Fagot",
+            "Bassoon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Realgar",
+        "descricao": "Mineral sulfeto de arsênio (As4S4) de cor vermelho-alaranjada, de cristais monoclínicos.",
+        "variantes": [
+          "Rubi de arsênico",
+          "Rejalgar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "agar_agar",
+          "nome": "Ágar-ágar",
+          "descricao": "Substância gelatinosa extraída de algas vermelhas, usada em culinária e como meio de cultura em laboratórios.",
+          "variantes": [
+            "Ágar",
+            "Agar"
+          ]
+        },
+        {
+          "id": "alga",
+          "nome": "Alga",
+          "descricao": "Grupo diverso de organismos fotossintetizantes, em geral aquáticos, que exclui as plantas terrestres.",
+          "variantes": [
+            "Algas"
+          ]
+        },
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        },
+        {
+          "id": "ralador",
+          "nome": "Ralador",
+          "descricao": "Utensílio de cozinha com lâmina perfurada usado para ralar alimentos.",
+          "variantes": []
+        },
+        {
+          "id": "regador",
+          "nome": "Regador",
+          "descricao": "Recipiente portátil com alça e bico usado para regar plantas.",
+          "variantes": [
+            "Regadora"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "rodocrosita",
+      "motivo": "Mesmo mineral, MnCO3 rosa."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Maxila é o osso superior; mandíbula é o inferior, entidade distinta."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Dioptásio é um mineral de cobre; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "amianto",
+      "motivo": "Mesmo grupo de minerais fibrosos, asbesto."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "celacanto",
+      "motivo": "Mesmo peixe, gênero Latimeria."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "quartzo_rosa",
+      "motivo": "Mesma variedade rosa de quartzo."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Linfócito é um tipo de glóbulo branco; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "esofago",
+      "motivo": "Mesmo órgão, tubo do alimento da faringe ao estômago."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Realgar é um mineral de sulfeto de arsênio; nenhuma candidata corresponde."
+    }
+  ]
+}
