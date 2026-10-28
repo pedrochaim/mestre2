@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a cachupa é considerada o prato nacional de Cabo Verde. O enunciado não vaza a resposta e os distratores são países lusófonos africanos que não estão corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é neutro e a imagem mostra mingau de aveia. Os distratores são preparações distintas, e nenhum é mingau de aveia.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o steak tartare é um prato francês de carne crua. 'Origem francesa' não entrega o nome, e os distratores são pratos de carne crua ou de carne com ovo que se distinguem da figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O salame é um embutido fermentado e curado. A categoria 'embutido curado' não identifica a resposta sozinha, e a imagem mostra um salame fatiado, diferente dos distratores.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O nattō é um alimento japonês de soja fermentada. Os distratores também são alimentos japoneses de soja, mas visualmente distintos e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O brigadeiro não é doce frito, então é um distrator pouco crível para 'doce frito'. Troquei por rabanada, que é um doce frito.",
+      "reescrita": {
+        "pergunta": "Que doce frito é este?",
+        "resposta": "Bolinho de chuva",
+        "distratores": [
+          "Sonho",
+          "Churros",
+          "Rabanada"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o nasi goreng é um prato de arroz frito do Sudeste Asiático com molho de soja adocicado, servido com ovo. O enunciado não vaza a resposta, e os distratores são pratos de outras origens ou de outro tipo, e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que moules-frites é o prato nacional da Bélgica. O enunciado não vaza a resposta, e os distratores são países europeus vizinhos que não estão corretos.",
+      "reescrita": null
+    }
+  ]
+}

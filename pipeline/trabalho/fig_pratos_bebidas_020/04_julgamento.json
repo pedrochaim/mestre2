@@ -1,0 +1,507 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cachupa",
+        "descricao": "Ensopado cozido lentamente de milho, feijão e carnes, considerado prato nacional de Cabo Verde.",
+        "variantes": [
+          "Katxupa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ketchup",
+          "nome": "Ketchup",
+          "descricao": "Molho agridoce de tomate usado em lanches e batatas fritas.",
+          "variantes": [
+            "Catchup",
+            "Catsup"
+          ]
+        },
+        {
+          "id": "cachaca",
+          "nome": "Cachaça",
+          "descricao": "Aguardente brasileira destilada do caldo de cana-de-açúcar fermentado",
+          "variantes": [
+            "Pinga",
+            "Aguardente de cana"
+          ]
+        },
+        {
+          "id": "pachisi",
+          "nome": "Pachisi",
+          "descricao": "Jogo de tabuleiro tradicional da Índia, em forma de cruz, ancestral do ludo.",
+          "variantes": [
+            "Parchís",
+            "Chaupar"
+          ]
+        },
+        {
+          "id": "captcha",
+          "nome": "CAPTCHA",
+          "descricao": "Teste automático usado em sites para distinguir pessoas de programas, como digitar letras distorcidas.",
+          "variantes": []
+        },
+        {
+          "id": "chupeta",
+          "nome": "Chupeta",
+          "descricao": "Bico de silicone ou borracha dado a bebês para sugar e acalmá-los.",
+          "variantes": [
+            "Chupeta de bebê",
+            "Pacifier"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mingau",
+        "descricao": "Preparação semissólida de cereais cozidos em leite ou água, aqui de aveia com leite.",
+        "variantes": [
+          "Porridge",
+          "Papa de aveia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "papado_de_avignon",
+          "nome": "Papado de Avignon",
+          "descricao": "Período em que os papas residiram em Avignon, no sul da França, em vez de Roma",
+          "variantes": [
+            "Papado de Avinhão",
+            "Cativeiro de Avignon",
+            "Avignon Papacy",
+            "Cativeiro Babilônico da Igreja"
+          ]
+        },
+        {
+          "id": "pride_fighting_championships",
+          "nome": "Pride Fighting Championships",
+          "descricao": "Organização japonesa de MMA que promoveu grandes eventos entre 1997 e 2007.",
+          "variantes": [
+            "Pride FC",
+            "Pride"
+          ]
+        },
+        {
+          "id": "cachaca",
+          "nome": "Cachaça",
+          "descricao": "Aguardente brasileira destilada do caldo de cana-de-açúcar fermentado",
+          "variantes": [
+            "Pinga",
+            "Aguardente de cana"
+          ]
+        },
+        {
+          "id": "manga",
+          "nome": "Manga",
+          "descricao": "Fruta tropical da mangueira (Mangifera indica), de origem no sul da Ásia.",
+          "variantes": [
+            "Mango",
+            "Mangifera indica",
+            "mangueira"
+          ]
+        },
+        {
+          "id": "minun",
+          "nome": "Minun",
+          "descricao": "Pokémon do tipo Elétrico, número 312 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Steak tartare",
+        "descricao": "Prato francês de carne bovina crua moída, servido com gema de ovo, cebola e picles.",
+        "variantes": [
+          "Bife tártaro",
+          "Steak tartar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sepak_takraw",
+          "nome": "Sepak takraw",
+          "descricao": "Esporte do Sudeste Asiático, parecido com o vôlei, jogado com os pés e uma bola de vime.",
+          "variantes": [
+            "Futevôlei asiático"
+          ]
+        },
+        {
+          "id": "mestre_kame",
+          "nome": "Mestre Kame",
+          "descricao": "Velho eremita mestre de artes marciais de Dragon Ball, que vive na Kame House e criou o Kamehameha.",
+          "variantes": [
+            "Kame Sennin",
+            "Muten Roshi",
+            "Mestre Tartaruga",
+            "Master Roshi"
+          ]
+        },
+        {
+          "id": "take_that",
+          "nome": "Take That",
+          "descricao": "Boy band britânica formada em Manchester em 1990",
+          "variantes": []
+        },
+        {
+          "id": "tartarugas_marinhas",
+          "nome": "Tartarugas-marinhas",
+          "descricao": "Grupo de répteis marinhos da superfamília Chelonioidea, com sete espécies vivas.",
+          "variantes": [
+            "Chelonioidea",
+            "Sea turtles"
+          ]
+        },
+        {
+          "id": "stakataka",
+          "nome": "Stakataka",
+          "descricao": "Pokémon dos tipos Pedra e Aço, número 805 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Salame",
+        "descricao": "Embutido de carne, em geral suína, fermentado e curado ao ar, aqui inteiro e fatiado.",
+        "variantes": [
+          "Salami"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "samis",
+          "nome": "Sámis",
+          "descricao": "Povo indígena do norte da Escandinávia e da península de Kola, tradicionalmente criador de renas.",
+          "variantes": [
+            "Sami",
+            "Lapões",
+            "Saami"
+          ]
+        },
+        {
+          "id": "salamence",
+          "nome": "Salamence",
+          "descricao": "Pokémon dragão dos tipos Dragão e Voador da terceira geração, número 373 da Pokédex Nacional.",
+          "variantes": [
+            "Salamence (Pokémon)"
+          ]
+        },
+        {
+          "id": "saladino",
+          "nome": "Saladino",
+          "descricao": "Sultão curdo do Egito e da Síria no século doze, fundador da dinastia aiúbida e adversário dos cruzados.",
+          "variantes": [
+            "Salah ad-Din",
+            "Saladin",
+            "Salah al-Din Yusuf ibn Ayyub"
+          ]
+        },
+        {
+          "id": "lamen",
+          "nome": "Lámen",
+          "descricao": "Prato japonês de macarrão de trigo em caldo quente, com coberturas como chāshū, nori e narutomaki.",
+          "variantes": [
+            "Ramen",
+            "Rámen"
+          ]
+        },
+        {
+          "id": "isla",
+          "nome": "Islã",
+          "descricao": "Religião monoteísta fundada por Maomé na Arábia no século sete",
+          "variantes": [
+            "Islão",
+            "Islamismo",
+            "Islam"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Nattō",
+        "descricao": "Alimento japonês de soja fermentada com Bacillus subtilis, de textura pegajosa e filamentosa.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "otan",
+          "nome": "OTAN",
+          "descricao": "Organização do Tratado do Atlântico Norte, aliança militar ocidental criada em 1949 durante a Guerra Fria.",
+          "variantes": [
+            "Organização do Tratado do Atlântico Norte",
+            "NATO"
+          ]
+        },
+        {
+          "id": "xatu",
+          "nome": "Xatu",
+          "descricao": "Pokémon dos tipos Psíquico e Voador, número 178 da Pokédex Nacional.",
+          "variantes": [
+            "Natio"
+          ]
+        },
+        {
+          "id": "naruto_uzumaki",
+          "nome": "Naruto Uzumaki",
+          "descricao": "Protagonista do mangá e anime Naruto, ninja de Konoha com o Nove Caudas selado nele.",
+          "variantes": [
+            "Uzumaki Naruto",
+            "Naruto"
+          ]
+        },
+        {
+          "id": "george_s_patton",
+          "nome": "George S. Patton",
+          "descricao": "General do Exército dos Estados Unidos que comandou o Sétimo e o Terceiro Exércitos na Segunda Guerra Mundial.",
+          "variantes": [
+            "George Smith Patton Jr.",
+            "Patton"
+          ]
+        },
+        {
+          "id": "cateto",
+          "nome": "Cateto",
+          "descricao": "Pecari de colar das Américas (Dicotyles tajacu), mamífero da família Tayassuidae.",
+          "variantes": [
+            "Caititu",
+            "Javelina",
+            "Pecari-de-colar",
+            "Dicotyles tajacu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Bolinho de chuva",
+        "descricao": "Doce frito de massa de farinha, ovos e leite, polvilhado com açúcar e canela.",
+        "variantes": [
+          "Bolinho de chuva com açúcar e canela"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "almondega",
+          "nome": "Almôndega",
+          "descricao": "Bolinho de carne moída, de forma esférica, cozido em molho ou frito.",
+          "variantes": [
+            "Almôndegas",
+            "Bolinho de carne"
+          ]
+        },
+        {
+          "id": "bolinho_de_bacalhau",
+          "nome": "Bolinho de bacalhau",
+          "descricao": "Petisco português frito feito de bacalhau, batata, ovos e salsa.",
+          "variantes": [
+            "Pastel de bacalhau",
+            "Bolinhos de bacalhau"
+          ]
+        },
+        {
+          "id": "xiaolongbao",
+          "nome": "Xiaolongbao",
+          "descricao": "Pequeno bolinho chinês recheado e com caldo, cozido no vapor em cesta de bambu.",
+          "variantes": [
+            "Bolinho de sopa",
+            "Soup dumpling"
+          ]
+        },
+        {
+          "id": "takoyaki",
+          "nome": "Takoyaki",
+          "descricao": "Bolinhas japonesas de massa recheadas com polvo, cobertas com molho, maionese e bonito seco.",
+          "variantes": [
+            "Bolinho de polvo"
+          ]
+        },
+        {
+          "id": "bolinha_de_gude",
+          "nome": "Bolinha de gude",
+          "descricao": "Pequena esfera de vidro usada em jogos infantis.",
+          "variantes": [
+            "Bola de gude",
+            "Berlinde",
+            "Bolita",
+            "Búlica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Nasi goreng",
+        "descricao": "Prato do Sudeste Asiático de arroz frito com molho de soja adocicado, servido aqui com ovo frito.",
+        "variantes": [
+          "Arroz frito indonésio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ginasio_da_grecia_antiga",
+          "nome": "Ginásio da Grécia Antiga",
+          "descricao": "Local de treino físico dos atletas na Grécia Antiga, origem da palavra ginásio.",
+          "variantes": [
+            "Gymnasion",
+            "Gymnasium",
+            "Ginásio (Grécia Antiga)",
+            "Ginásio grego"
+          ]
+        },
+        {
+          "id": "primarina",
+          "nome": "Primarina",
+          "descricao": "Pokémon dos tipos Água e Fada, número 730 da Pokédex Nacional.",
+          "variantes": [
+            "Ashirene"
+          ]
+        },
+        {
+          "id": "pancracio",
+          "nome": "Pancrácio",
+          "descricao": "Esporte de combate dos Jogos Olímpicos da Grécia Antiga, quase sem restrições de golpes.",
+          "variantes": [
+            "Pankration",
+            "Pancrátio",
+            "Pancrátion",
+            "Pancrácio grego"
+          ]
+        },
+        {
+          "id": "amazonas_mitologia",
+          "nome": "Amazonas (mitologia)",
+          "descricao": "Povo lendário de mulheres guerreiras da mitologia grega.",
+          "variantes": [
+            "Amazons",
+            "Amazonas gregas"
+          ]
+        },
+        {
+          "id": "laranja_de_umbigo",
+          "nome": "Laranja-de-umbigo",
+          "descricao": "Variedade de laranja sem sementes, com um segundo fruto rudimentar na ponta, surgida no Brasil",
+          "variantes": [
+            "Laranja-baía",
+            "Laranja-da-baía",
+            "Washington navel",
+            "Navel orange"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Mexilhões com fritas",
+        "descricao": "Prato de mexilhões cozidos servidos com batatas fritas, originário do norte da França e da Bélgica.",
+        "variantes": [
+          "Moules-frites",
+          "Moules et frites"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taca_jules_rimet",
+          "nome": "Taça Jules Rimet",
+          "descricao": "Troféu da Copa do Mundo FIFA entre 1930 e 1970, entregue em definitivo ao Brasil e roubado no Rio de Janeiro em 1983.",
+          "variantes": [
+            "Jules Rimet",
+            "Copa Jules Rimet",
+            "Jules Rimet Trophy",
+            "Vitória"
+          ]
+        },
+        {
+          "id": "montes_de_feno_monet",
+          "nome": "Montes de Feno (Monet)",
+          "descricao": "Série de pinturas impressionistas de Claude Monet, iniciada em 1890, com montes de feno em Giverny sob luzes variadas.",
+          "variantes": [
+            "Les Meules",
+            "Haystacks",
+            "Meules de Feno",
+            "Pilhas de Feno"
+          ]
+        },
+        {
+          "id": "romulo_e_remo",
+          "nome": "Rômulo e Remo",
+          "descricao": "Irmãos gêmeos da lenda da fundação de Roma, amamentados por uma loba.",
+          "variantes": [
+            "Romulus e Remus"
+          ]
+        },
+        {
+          "id": "paquinha",
+          "nome": "Paquinha",
+          "descricao": "Inseto escavador da família Gryllotalpidae, ortóptero de patas dianteiras em forma de pá.",
+          "variantes": [
+            "Grilo-toupeira",
+            "Gryllotalpidae",
+            "mole cricket"
+          ]
+        },
+        {
+          "id": "fish_and_chips",
+          "nome": "Fish and chips",
+          "descricao": "Prato britânico de peixe empanado e frito servido com batatas fritas.",
+          "variantes": [
+            "Peixe com batatas fritas"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o prato cabo-verdiano."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é mingau."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é steak tartare."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é salame."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é nattō."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é bolinho de chuva."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é nasi goreng."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Fish and chips é prato diferente; nenhuma candidata é moules-frites."
+    }
+  ]
+}

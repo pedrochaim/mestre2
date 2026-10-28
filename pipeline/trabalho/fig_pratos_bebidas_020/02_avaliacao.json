@@ -1,0 +1,211 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Placas visíveis 'UNSALTED BUTTER' e 'SALTED BUTTER' (e rótulo 'Beurre Échiré') entregam a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Bolo fofo em forma de aro, pouco distintivo; pode ser chiffon cake ou outro bolo de massa leve, resposta não única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Prato com milho, feijão, morcela, repolho e mandioca; reconhecível o bastante para múltipla escolha.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Este prato é considerado o prato nacional de que país?",
+      "resposta": "Cabo Verde",
+      "distratores": [
+        "Angola",
+        "Guiné-Bissau",
+        "Moçambique"
+      ],
+      "ancora": {
+        "nome": "Cachupa",
+        "descricao": "Ensopado cozido lentamente de milho, feijão e carnes, considerado prato nacional de Cabo Verde.",
+        "variantes": [
+          "Katxupa"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Mingau de aveia com leite, claro e legível.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que preparação é esta?",
+      "resposta": "Mingau de aveia",
+      "distratores": [
+        "Arroz-doce",
+        "Canjica",
+        "Creme de milho"
+      ],
+      "ancora": {
+        "nome": "Mingau",
+        "descricao": "Preparação semissólida de cereais cozidos em leite ou água, aqui de aveia com leite.",
+        "variantes": [
+          "Porridge",
+          "Papa de aveia"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Carne crua moída com gema, cebola, picles e cebolinha, característico do steak tartare.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que prato de origem francesa é este?",
+      "resposta": "Steak tartare",
+      "distratores": [
+        "Carpaccio",
+        "Kibe cru",
+        "Bife à cavalo"
+      ],
+      "ancora": {
+        "nome": "Steak tartare",
+        "descricao": "Prato francês de carne bovina crua moída, servido com gema de ovo, cebola e picles.",
+        "variantes": [
+          "Bife tártaro",
+          "Steak tartar"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A embalagem mostra 'Lait de poule' e 'Québon', texto que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Salame inteiro e fatiado, imagem limpa e clara.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que embutido curado é este?",
+      "resposta": "Salame",
+      "distratores": [
+        "Mortadela",
+        "Presunto cru",
+        "Linguiça calabresa"
+      ],
+      "ancora": {
+        "nome": "Salame",
+        "descricao": "Embutido de carne, em geral suína, fermentado e curado ao ar, aqui inteiro e fatiado.",
+        "variantes": [
+          "Salami"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Arroz amarelo com ovo e coentro, sem frango visível; pode ser outro arroz com açafrão, resposta não única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Grãos de soja fermentados com fios pegajosos, bem característicos.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que alimento japonês é este?",
+      "resposta": "Nattō",
+      "distratores": [
+        "Missô",
+        "Tofu",
+        "Edamame"
+      ],
+      "ancora": {
+        "nome": "Nattō",
+        "descricao": "Alimento japonês de soja fermentada com Bacillus subtilis, de textura pegajosa e filamentosa.",
+        "variantes": [
+          "Natto"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bolinhos fritos passados em açúcar e canela, típicos; um braço aparece ao fundo, sem rosto.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que doce frito é este?",
+      "resposta": "Bolinho de chuva",
+      "distratores": [
+        "Sonho",
+        "Churros",
+        "Brigadeiro"
+      ],
+      "ancora": {
+        "nome": "Bolinho de chuva",
+        "descricao": "Doce frito de massa de farinha, ovos e leite, polvilhado com açúcar e canela.",
+        "variantes": [
+          "Bolinho de chuva com açúcar e canela"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Arroz frito com ovo frito, krupuk, picles e molho, reconhecível como nasi goreng.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que prato do Sudeste Asiático é este?",
+      "resposta": "Nasi goreng",
+      "distratores": [
+        "Arroz cantonês",
+        "Pad thai",
+        "Bibimbap"
+      ],
+      "ancora": {
+        "nome": "Nasi goreng",
+        "descricao": "Prato do Sudeste Asiático de arroz frito com molho de soja adocicado, servido aqui com ovo frito.",
+        "variantes": [
+          "Arroz frito indonésio"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Panela de mexilhões com batatas fritas ao lado, clara e legível.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Este prato é considerado o prato nacional de que país?",
+      "resposta": "Bélgica",
+      "distratores": [
+        "Holanda",
+        "Alemanha",
+        "Dinamarca"
+      ],
+      "ancora": {
+        "nome": "Mexilhões com fritas",
+        "descricao": "Prato de mexilhões cozidos servidos com batatas fritas, originário do norte da França e da Bélgica.",
+        "variantes": [
+          "Moules-frites",
+          "Moules et frites"
+        ]
+      }
+    }
+  ]
+}
