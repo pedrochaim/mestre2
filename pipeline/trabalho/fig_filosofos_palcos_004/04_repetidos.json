@@ -1,0 +1,79 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade fica esta casa de ópera?",
+        "resposta": "Viena"
+      },
+      "existentes": [
+        {
+          "id": "q15789",
+          "pergunta": "Em que cidade fica esta casa de ópera?",
+          "resposta": "Viena"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade brasileira fica este teatro?",
+        "resposta": "Manaus"
+      },
+      "existentes": [
+        {
+          "id": "q00388",
+          "pergunta": "Que teatro é este?",
+          "resposta": "Teatro Amazonas"
+        },
+        {
+          "id": "q02417",
+          "pergunta": "O luxuoso Teatro Amazonas, em Manaus, foi erguido no fim do século dezenove com a riqueza de que produto da floresta?",
+          "resposta": "Borracha"
+        },
+        {
+          "id": "q07521",
+          "pergunta": "Inaugurado em 1896, no auge da borracha, o Teatro Amazonas, em Manaus, tem a cúpula coberta de telhas pintadas com as cores de quê?",
+          "resposta": "Da bandeira do Brasil"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que casa de ópera à beira de uma baía é esta?",
+        "resposta": "Ópera de Sydney"
+      },
+      "existentes": [
+        {
+          "id": "q02028",
+          "pergunta": "A Ópera de Sydney, com suas cascas brancas em forma de velas, foi projetada por qual arquiteto dinamarquês?",
+          "resposta": "Jørn Utzon"
+        },
+        {
+          "id": "q15908",
+          "pergunta": "Em que cidade fica esta casa de ópera?",
+          "resposta": "Sydney"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q15789",
+      "motivo": "Pergunta e resposta idênticas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A cidade do Teatro Amazonas não é perguntada nas existentes; elas tratam do nome do teatro, da borracha e da cúpula. Fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pergunta identifica a casa de ópera (Ópera de Sydney) por imagem; as existentes perguntam o arquiteto e a cidade (Sydney), fatos diferentes. A resposta da nova é o nome do edifício, não a cidade."
+    }
+  ]
+}

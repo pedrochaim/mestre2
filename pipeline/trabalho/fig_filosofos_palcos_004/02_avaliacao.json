@@ -1,0 +1,212 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Busto romano famoso, sem texto, reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é este romano retratado no busto?",
+      "resposta": "Cícero",
+      "distratores": [
+        "Sêneca",
+        "Catão",
+        "Júlio César"
+      ],
+      "ancora": {
+        "nome": "Cícero",
+        "descricao": "Marco Túlio Cícero, orador, político e filósofo romano do século I a.C.",
+        "variantes": [
+          "Marco Túlio Cícero",
+          "Cicero"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada clara e reconhecível; o texto do banner é minúsculo e ilegível no celular.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta casa de ópera?",
+      "resposta": "Viena",
+      "distratores": [
+        "Budapeste",
+        "Praga",
+        "Munique"
+      ],
+      "ancora": {
+        "nome": "Ópera Estatal de Viena",
+        "descricao": "Casa de ópera neorrenascentista inaugurada em 1869 na Ringstrasse, em Viena.",
+        "variantes": [
+          "Wiener Staatsoper",
+          "Ópera de Viena"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico sem texto; filósofo de aficionado, adequado para múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que filósofo alemão do século dezenove, ligado aos jovens hegelianos, é este?",
+      "resposta": "Ludwig Feuerbach",
+      "distratores": [
+        "Arthur Schopenhauer",
+        "Karl Marx",
+        "Friedrich Nietzsche"
+      ],
+      "ancora": {
+        "nome": "Ludwig Feuerbach",
+        "descricao": "Filósofo alemão (1804–1872), jovem hegeliano autor de A Essência do Cristianismo.",
+        "variantes": [
+          "Feuerbach"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada característica, sem texto que entregue a resposta.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade brasileira fica este teatro?",
+      "resposta": "Manaus",
+      "distratores": [
+        "Belém",
+        "Rio de Janeiro",
+        "São Luís"
+      ],
+      "ancora": {
+        "nome": "Teatro Amazonas",
+        "descricao": "Casa de ópera inaugurada em 1896 em Manaus, símbolo do ciclo da borracha.",
+        "variantes": [
+          "Amazon Theatre"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Busto sem texto, identificável como Zenão.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este busto retrata um filósofo grego. Que escola ele fundou em Atenas?",
+      "resposta": "Estoicismo",
+      "distratores": [
+        "Epicurismo",
+        "Ceticismo",
+        "Cinismo"
+      ],
+      "ancora": {
+        "nome": "Zenão de Cítio",
+        "descricao": "Filósofo helenístico (c. 334–262 a.C.), natural de Cítio, no Chipre, fundador do estoicismo.",
+        "variantes": [
+          "Zeno of Citium",
+          "Zenão, o Estoico"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A legenda 'Pantalone (1550)' está visível e entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O letreiro 'MOULIN ROUGE' está visível na fachada e entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Barraca de fantoches de praia sem texto, com os dois bonecos visíveis.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Neste teatro de fantoches inglês, como se chama o boneco de gorro vermelho à esquerda?",
+      "resposta": "Punch",
+      "distratores": [
+        "Guignol",
+        "Arlequim",
+        "Pierrô"
+      ],
+      "ancora": {
+        "nome": "Punch e Judy",
+        "descricao": "Tradicional espetáculo inglês de fantoches com o Sr. Punch e sua esposa Judy.",
+        "variantes": [
+          "Punch and Judy",
+          "Mr Punch"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Gravura de retrato sem texto; filósofo de aficionado, em múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que filósofo alemão do idealismo é este?",
+      "resposta": "Johann Gottlieb Fichte",
+      "distratores": [
+        "Georg Hegel",
+        "Friedrich Schelling",
+        "Arthur Schopenhauer"
+      ],
+      "ancora": {
+        "nome": "Johann Gottlieb Fichte",
+        "descricao": "Filósofo alemão (1762–1814), figura fundadora do idealismo alemão.",
+        "variantes": [
+          "Fichte"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Edifício icônico, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que casa de ópera à beira de uma baía é esta?",
+      "resposta": "Ópera de Sydney",
+      "distratores": [
+        "Ópera de Oslo",
+        "Walt Disney Concert Hall",
+        "Ópera de Viena"
+      ],
+      "ancora": {
+        "nome": "Ópera de Sydney",
+        "descricao": "Centro de artes cênicas em Sydney, na Austrália, projetado por Jørn Utzon e inaugurado em 1973.",
+        "variantes": [
+          "Sydney Opera House"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A foto antiga traz legenda visível com 'Teatro Guaíra' e 'Curitiba', que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A inscrição 'IOAN PICVS MIRANDVLA' no topo do quadro entrega o nome."
+    }
+  ]
+}
