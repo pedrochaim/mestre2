@@ -1,0 +1,210 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Saia vermelha com babado, clara, sem texto; imagem pequena, mas legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que peça de roupa é esta?",
+      "resposta": "Saia",
+      "distratores": [
+        "Bermuda",
+        "Calça",
+        "Macacão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Saia",
+        "descricao": "Peça de vestuário que cobre o corpo da cintura para baixo, sem separar as pernas.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, de óculos escuros; o chapéu é só parte da foto."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Tecido em zigue-zague quebrado, padrão nítido e sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que padrão de tecido é este, muito usado em ternos e casacos de lã?",
+      "resposta": "Espinha de peixe",
+      "distratores": [
+        "Pied de poule",
+        "Xadrez tartan",
+        "Príncipe de Gales"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Espinha de peixe",
+        "descricao": "Padrão de tecido em sarja com trama em V quebrado, que lembra o esqueleto de um peixe.",
+        "variantes": [
+          "Herringbone",
+          "Sarja quebrada"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Anel com entalhe em pedra, foto em preto e branco, nítido e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de joia é esta?",
+      "resposta": "Anel",
+      "distratores": [
+        "Brinco",
+        "Pulseira",
+        "Broche"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Anel",
+        "descricao": "Aro de metal usado no dedo como adorno, com um entalhe numa pedra oval.",
+        "variantes": [
+          "Anel de sinete"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Tecido ikat exposto em vitrine, sem forma de peça vestida; não dá para reconhecer um sarongue e a resposta não é única (pano, tecido ikat)."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Chapéu com listras pretas e claras e trançado típico, sem texto, reconhecível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "De que país é símbolo este chapéu tradicional de palha trançada?",
+      "resposta": "Colômbia",
+      "distratores": [
+        "Equador",
+        "Peru",
+        "Venezuela"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sombrero vueltiao",
+        "descricao": "Chapéu tradicional de palha trançada em listras pretas e claras, do povo indígena Zenú, da Colômbia.",
+        "variantes": [
+          "Sombrero volteado",
+          "Chapéu vueltiao"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Par de botas pretas de cano alto, nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de calçado é este?",
+      "resposta": "Bota",
+      "distratores": [
+        "Sandália",
+        "Mocassim",
+        "Sapatilha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bota",
+        "descricao": "Calçado que cobre o pé e o tornozelo, aqui um par de botas pretas de cano alto em couro.",
+        "variantes": [
+          "Botas"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fecho de ouro em forma de anel aberto com alfinete, nítido e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de joia, que prende roupas, é esta?",
+      "resposta": "Broche",
+      "distratores": [
+        "Colar",
+        "Tiara",
+        "Brinco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Broche",
+        "descricao": "Joia de ouro com alfinete, usada para prender peças de roupa, de estilo celta antigo.",
+        "variantes": [
+          "Fíbula",
+          "Brooch"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Calça justa esportiva masculina com marca visível; pode ser legging, calça de corrida ou meia-calça, resposta não única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Mulher comum em primeiro plano, com camiseta de texto visível."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Tiara de diamantes em vitrine, nítida e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que joia de cabeça é esta?",
+      "resposta": "Tiara",
+      "distratores": [
+        "Gargantilha",
+        "Presilha",
+        "Pingente"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tiara",
+        "descricao": "Adorno de cabeça semicircular cravejado de diamantes, em exposição.",
+        "variantes": [
+          "Diadema"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Par de abotoaduras douradas com esmalte azul, nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que acessório de camisa é este?",
+      "resposta": "Abotoadura",
+      "distratores": [
+        "Prendedor de gravata",
+        "Alfinete de lapela",
+        "Fivela de cinto"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Abotoadura",
+        "descricao": "Par de joias douradas com esmalte azul, usadas para fechar os punhos de camisas sociais.",
+        "variantes": [
+          "Abotoaduras",
+          "Cufflinks"
+        ]
+      }
+    }
+  ]
+}

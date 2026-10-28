@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro, resposta única, distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma o padrão em V quebrado, em geral de lã. O enunciado não nomeia nem entrega a resposta. Os distratores são padrões parecidos, e a figura decide.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento simples, sem vazamento, com distratores válidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o chapéu é símbolo nacional da Colômbia (Lei 908 de 2004). O enunciado não nomeia o chapéu nem entrega o país, e a figura é necessária. Os distratores são países andinos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista e sem vazamento. Os distratores são calçados claramente diferentes.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A pista \"que prende roupas\" descreve a função da resposta. Os distratores (colar, tiara, brinco) não prendem roupas, então dá para responder sem ver a figura. É preciso tirar a pista.",
+      "reescrita": {
+        "pergunta": "Que tipo de joia é esta?",
+        "resposta": "Broche",
+        "distratores": [
+          "Colar",
+          "Tiara",
+          "Brinco"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "\"Joia de cabeça\" é só uma categoria, e o distrator Presilha também é de cabeça, então a pista não entrega a resposta. A figura continua necessária e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a abotoadura fecha os punhos da camisa. O enunciado não entrega a resposta, e os distratores são acessórios masculinos plausíveis que não descrevem a imagem.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que país é símbolo este chapéu tradicional de palha trançada?",
+        "resposta": "Colômbia"
+      },
+      "existentes": [
+        {
+          "id": "q03725",
+          "pergunta": "De que país é símbolo este chapéu tradicional?",
+          "resposta": "Colômbia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q03725",
+      "motivo": "Mesmo fato: o chapéu tradicional é símbolo da Colômbia; a nova só acrescenta o detalhe da palha trançada."
+    }
+  ]
+}

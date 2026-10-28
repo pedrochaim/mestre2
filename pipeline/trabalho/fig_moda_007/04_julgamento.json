@@ -1,0 +1,502 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Saia",
+        "descricao": "Peça de vestuário que cobre o corpo da cintura para baixo, sem separar as pernas.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "saiga",
+          "nome": "Saiga",
+          "descricao": "Antílope das estepes eurasiáticas com focinho inchado e flexível (Saiga tatarica).",
+          "variantes": [
+            "Antílope-saiga",
+            "Saiga tatarica"
+          ]
+        },
+        {
+          "id": "sadia",
+          "nome": "Sadia",
+          "descricao": "Empresa brasileira de alimentos fundada em 1944 por Attilio Fontana em Concórdia, Santa Catarina.",
+          "variantes": [
+            "Sadia S.A."
+          ]
+        },
+        {
+          "id": "sabia_laranjeira",
+          "nome": "Sabiá-laranjeira",
+          "descricao": "Ave canora (Turdus rufiventris), ave nacional do Brasil, de ventre alaranjado.",
+          "variantes": [
+            "Sabiá",
+            "Turdus rufiventris"
+          ]
+        },
+        {
+          "id": "sai",
+          "nome": "Sai",
+          "descricao": "Arma metálica de Okinawa com haste central pontiaguda e dois dentes laterais.",
+          "variantes": [
+            "Sai (arma)"
+          ]
+        },
+        {
+          "id": "safira",
+          "nome": "Safira",
+          "descricao": "Gema, geralmente azul, que é uma variedade do mineral corindo.",
+          "variantes": [
+            "Sapphire"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Espinha de peixe",
+        "descricao": "Padrão de tecido em sarja com trama em V quebrado, que lembra o esqueleto de um peixe.",
+        "variantes": [
+          "Herringbone",
+          "Sarja quebrada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hering",
+          "nome": "Hering",
+          "descricao": "Empresa têxtil brasileira fundada em 1880 em Blumenau pelos irmãos alemães Hermann e Bruno Hering.",
+          "variantes": [
+            "Cia. Hering",
+            "Companhia Hering"
+          ]
+        },
+        {
+          "id": "vespa_de_papel",
+          "nome": "Vespa-de-papel",
+          "descricao": "Vespas sociais, como as do gênero Polistes, que constroem ninhos de material parecido com papel.",
+          "variantes": [
+            "Polistes",
+            "paper wasp",
+            "marimbondo-de-papel"
+          ]
+        },
+        {
+          "id": "skara_brae",
+          "nome": "Skara Brae",
+          "descricao": "Aldeia neolítica de pedra nas ilhas Órcadas, na Escócia.",
+          "variantes": []
+        },
+        {
+          "id": "paraquedas",
+          "nome": "Paraquedas",
+          "descricao": "Dispositivo que freia a descida de um objeto ou pessoa pela atmosfera, aqui sustentando uma cápsula espacial.",
+          "variantes": []
+        },
+        {
+          "id": "estadio_serra_dourada",
+          "nome": "Estádio Serra Dourada",
+          "descricao": "Estádio de futebol inaugurado em 1975 em Goiânia, Goiás, projetado por Paulo Mendes da Rocha.",
+          "variantes": [
+            "Serra Dourada",
+            "Estádio Mané Garrincha de Goiânia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Anel",
+        "descricao": "Aro de metal usado no dedo como adorno, com um entalhe numa pedra oval.",
+        "variantes": [
+          "Anel de sinete"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dedo_anelar",
+          "nome": "Dedo anelar",
+          "descricao": "Quarto dedo da mão, onde tradicionalmente se usa a aliança de noivado ou de casamento.",
+          "variantes": [
+            "Anelar",
+            "Ring finger"
+          ]
+        },
+        {
+          "id": "georg_friedrich_handel",
+          "nome": "Georg Friedrich Händel",
+          "descricao": "Compositor barroco alemão naturalizado inglês (1685–1759), autor do Messias.",
+          "variantes": [
+            "Handel",
+            "Händel",
+            "George Frideric Handel"
+          ]
+        },
+        {
+          "id": "canela",
+          "nome": "Canela",
+          "descricao": "Especiaria aromática obtida da casca interna de árvores do gênero Cinnamomum.",
+          "variantes": [
+            "Canela-do-ceilão",
+            "Cinnamomum"
+          ]
+        },
+        {
+          "id": "anabel_anime",
+          "nome": "Anabel (anime)",
+          "descricao": "Cérebro da Frente de Batalha que comanda a Torre de Batalha no anime Pokémon, dona de um Espeon.",
+          "variantes": [
+            "Anabel",
+            "Lila",
+            "Salon Maiden"
+          ]
+        },
+        {
+          "id": "sahel",
+          "nome": "Sahel",
+          "descricao": "Faixa semiárida da África que se estende de leste a oeste logo ao sul do Deserto do Saara",
+          "variantes": [
+            "Sael"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sombrero vueltiao",
+        "descricao": "Chapéu tradicional de palha trançada em listras pretas e claras, do povo indígena Zenú, da Colômbia.",
+        "variantes": [
+          "Sombrero volteado",
+          "Chapéu vueltiao"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sombrero_vueltiao",
+          "nome": "Sombrero vueltiao",
+          "descricao": "Chapéu tradicional trançado em listras, originário do povo indígena Zenú, da Colômbia.",
+          "variantes": [
+            "Chapéu vueltiao"
+          ]
+        },
+        {
+          "id": "chapeu_coco",
+          "nome": "Chapéu-coco",
+          "descricao": "Chapéu de feltro duro com copa arredondada, criado em Londres em 1849.",
+          "variantes": [
+            "Bowler hat",
+            "Derby",
+            "Chapéu-melão"
+          ]
+        },
+        {
+          "id": "cartola_2",
+          "nome": "Cartola",
+          "descricao": "Chapéu alto de copa reta e aba curta, tradicionalmente preto, usado com trajes formais ocidentais.",
+          "variantes": [
+            "Cartola (chapéu)",
+            "Top hat",
+            "Chapéu alto"
+          ]
+        },
+        {
+          "id": "chapeu_de_cauboi",
+          "nome": "Chapéu de caubói",
+          "descricao": "Chapéu de copa alta e aba larga associado aos vaqueiros do oeste americano",
+          "variantes": [
+            "Cowboy hat",
+            "Chapéu Stetson"
+          ]
+        },
+        {
+          "id": "chapeu_palheta",
+          "nome": "Chapéu-palheta",
+          "descricao": "Chapéu de palha rígida, copa e aba planas, com fita, usado no verão.",
+          "variantes": [
+            "Canotier",
+            "Boater"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Bota",
+        "descricao": "Calçado que cobre o pé e o tornozelo, aqui um par de botas pretas de cano alto em couro.",
+        "variantes": [
+          "Botas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bolinha_de_gude",
+          "nome": "Bolinha de gude",
+          "descricao": "Pequena esfera de vidro usada em jogos infantis.",
+          "variantes": [
+            "Bola de gude",
+            "Berlinde",
+            "Bolita",
+            "Búlica"
+          ]
+        },
+        {
+          "id": "boleadeira",
+          "nome": "Boleadeira",
+          "descricao": "Arma de caça formada por pesos nas pontas de cordas ligadas, arremessada para enredar as pernas dos animais, típica dos gaúchos.",
+          "variantes": [
+            "Boleadora",
+            "Bolas"
+          ]
+        },
+        {
+          "id": "boca_juniors",
+          "nome": "Boca Juniors",
+          "descricao": "Club Atlético Boca Juniors, clube de futebol de Buenos Aires fundado em 1905 no bairro de La Boca.",
+          "variantes": [
+            "Club Atlético Boca Juniors",
+            "Boca",
+            "Xeneizes"
+          ]
+        },
+        {
+          "id": "boto_cor_de_rosa",
+          "nome": "Boto-cor-de-rosa",
+          "descricao": "Golfinho de água doce das bacias do Amazonas e do Orinoco, espécie Inia geoffrensis.",
+          "variantes": [
+            "Boto",
+            "Inia geoffrensis",
+            "Amazon river dolphin",
+            "Boto-vermelho"
+          ]
+        },
+        {
+          "id": "bts",
+          "nome": "BTS",
+          "descricao": "Grupo sul-coreano de K-pop formado em Seul em 2013",
+          "variantes": [
+            "Bangtan Boys",
+            "Bangtan Sonyeondan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Broche",
+        "descricao": "Joia de ouro com alfinete, usada para prender peças de roupa, de estilo celta antigo.",
+        "variantes": [
+          "Fíbula",
+          "Brooch"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fibula",
+          "nome": "Fíbula",
+          "descricao": "Osso fino e longo na face lateral da perna, ao lado da tíbia.",
+          "variantes": [
+            "Perônio"
+          ]
+        },
+        {
+          "id": "borscht",
+          "nome": "Borscht",
+          "descricao": "Sopa azeda da Europa Oriental, em geral vermelha por causa da beterraba.",
+          "variantes": [
+            "Borsch",
+            "Bortsch",
+            "Borche"
+          ]
+        },
+        {
+          "id": "boliche",
+          "nome": "Boliche",
+          "descricao": "Boliche de dez pinos, jogo em que se rola uma bola pesada por uma pista para derrubar dez pinos.",
+          "variantes": [
+            "Ten-pin bowling",
+            "Bowling"
+          ]
+        },
+        {
+          "id": "filas",
+          "nome": "Filas",
+          "descricao": "Ilha do Nilo, perto de Assuã, famosa pelo complexo de templos dedicado à deusa Ísis",
+          "variantes": [
+            "Philae",
+            "Filae",
+            "Ilha de Filas"
+          ]
+        },
+        {
+          "id": "bromo",
+          "nome": "Bromo",
+          "descricao": "Elemento químico de número atômico 35, um halogênio que é líquido castanho-avermelhado em temperatura ambiente.",
+          "variantes": [
+            "Bromine"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Tiara",
+        "descricao": "Adorno de cabeça semicircular cravejado de diamantes, em exposição.",
+        "variantes": [
+          "Diadema"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "santorini",
+          "nome": "Santorini",
+          "descricao": "Ilha vulcânica grega das Cíclades, no mar Egeu, formada ao redor de uma caldeira.",
+          "variantes": [
+            "Thira",
+            "Thera",
+            "Tera"
+          ]
+        },
+        {
+          "id": "tarzan",
+          "nome": "Tarzan",
+          "descricao": "Personagem criado por Edgar Rice Burroughs em 1912, menino inglês criado por macacos na África.",
+          "variantes": [
+            "Tarzã",
+            "Lorde Greystoke"
+          ]
+        },
+        {
+          "id": "taranto",
+          "nome": "Taranto",
+          "descricao": "Cidade do sul da Itália fundada no século oito a.C. por colonos gregos com o nome de Taras.",
+          "variantes": [
+            "Taras",
+            "Tarento"
+          ]
+        },
+        {
+          "id": "xadrez_tartan",
+          "nome": "Xadrez tartan",
+          "descricao": "Padrão de tecido de listras horizontais e verticais cruzadas em várias cores, tradicional da Escócia.",
+          "variantes": [
+            "Tartã",
+            "Tartan",
+            "Plaid"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Abotoadura",
+        "descricao": "Par de joias douradas com esmalte azul, usadas para fechar os punhos de camisas sociais.",
+        "variantes": [
+          "Abotoaduras",
+          "Cufflinks"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "falinks",
+          "nome": "Falinks",
+          "descricao": "Pokémon do tipo Lutador, número 870 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "macguffin",
+          "nome": "MacGuffin",
+          "descricao": "Recurso narrativo: objeto ou objetivo que move a trama, mas pouco importa em si mesmo.",
+          "variantes": [
+            "McGuffin"
+          ]
+        },
+        {
+          "id": "abobora",
+          "nome": "Abóbora",
+          "descricao": "Fruto de plantas do gênero Cucurbita, de formas e cores variadas.",
+          "variantes": [
+            "Jerimum",
+            "Pumpkin"
+          ]
+        },
+        {
+          "id": "brontossauro",
+          "nome": "Brontossauro",
+          "descricao": "Gênero de dinossauro saurópode de pescoço longo do Jurássico Superior da América do Norte, batizado em 1879.",
+          "variantes": [
+            "Brontosaurus"
+          ]
+        },
+        {
+          "id": "weezing",
+          "nome": "Weezing",
+          "descricao": "Pokémon de tipo Veneno, número 110 da Pokédex Nacional, evolução de Koffing, formado por duas esferas de gás.",
+          "variantes": [
+            "Matadora",
+            "Matadogas"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Saia (vestuário) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Padrão de tecido espinha de peixe; candidatas são entidades distintas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Anel (joia) é diferente do dedo anelar e das demais."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "sombrero_vueltiao",
+      "motivo": "Mesmo chapéu Zenú da Colômbia, descrições compatíveis."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Bota (calçado) não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Broche/fíbula como joia celta; a candidata Fíbula é o osso, entidade diferente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Tiara (adorno) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Abotoadura não corresponde a nenhuma candidata."
+    }
+  ]
+}
