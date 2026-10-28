@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, distratores do mesmo grupo e visualmente distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fica em Manhattan, Nova York, tanto o Met atual quanto o anterior. Resposta única e distratores corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Bronze e latão são ligas de cobre e poderiam ser defendidos como corretos. Troquei por metais sem relação com o cobre.",
+      "reescrita": {
+        "pergunta": "Depois de reconhecer estes instrumentos de percussão, diga: de que metal é feita tradicionalmente a bacia deles?",
+        "resposta": "Cobre",
+        "distratores": [
+          "Ferro",
+          "Alumínio",
+          "Aço"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista \"ancestral do trombone\" entrega a resposta sem a figura. Troquei por época e família. Substituí o serpentão, que não é de metal, por um distrator de metal.",
+      "reescrita": {
+        "pergunta": "Este instrumento de metal era muito usado no Renascimento e no Barroco. Qual é o nome dele?",
+        "resposta": "Sacabuxa",
+        "distratores": [
+          "Trompete natural",
+          "Oficleide",
+          "Trompa natural"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A figura permite distinguir o glockenspiel dos outros teclados de percussão. Os distratores são críveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A tangente é uma lâmina de metal, como dizem os trechos. O enunciado não nomeia o instrumento. Os distratores são plausíveis, e o martelo não é de metal nem se aplica ao clavicórdio.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples. Os distratores são percussão metálica ou de outro tipo, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A sala circular com cúpula é reconhecível. Os distratores são salas de concerto críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não vaza a resposta. Os distratores são cidades australianas e neozelandesas críveis.",
+      "reescrita": null
+    }
+  ]
+}

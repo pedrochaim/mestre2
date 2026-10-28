@@ -1,0 +1,569 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Trompete",
+        "descricao": "Instrumento de sopro da família dos metais, com três pistos, afinado em si bemol.",
+        "variantes": [
+          "Trumpet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "trompete",
+          "nome": "Trompete",
+          "descricao": "Instrumento de sopro da família dos metais, com três válvulas e som agudo e brilhante.",
+          "variantes": [
+            "Trumpet"
+          ]
+        },
+        {
+          "id": "prometeu",
+          "nome": "Prometeu",
+          "descricao": "Titã grego que roubou o fogo dos deuses para dá-lo aos humanos.",
+          "variantes": [
+            "Prometheus"
+          ]
+        },
+        {
+          "id": "tomate",
+          "nome": "Tomate",
+          "descricao": "Fruto do tomateiro (Solanum lycopersicum), consumido como hortaliça.",
+          "variantes": [
+            "Tomate-cereja",
+            "Tomato",
+            "Solanum lycopersicum"
+          ]
+        },
+        {
+          "id": "trompa",
+          "nome": "Trompa",
+          "descricao": "Instrumento de metal de tubo enrolado em espiral, com grande campânula e válvulas rotativas.",
+          "variantes": [
+            "Trompa francesa",
+            "French horn"
+          ]
+        },
+        {
+          "id": "barometro",
+          "nome": "Barômetro",
+          "descricao": "Instrumento científico que mede a pressão atmosférica, usado na previsão do tempo.",
+          "variantes": [
+            "Barometer",
+            "Barômetro de mercúrio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Metropolitan Opera House",
+        "descricao": "Casa de ópera do Lincoln Center, em Manhattan, inaugurada em 1966.",
+        "variantes": [
+          "Met",
+          "The Met",
+          "Metropolitan Opera"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gol_baliza",
+          "nome": "Gol (baliza)",
+          "descricao": "Armação formada por duas traves e um travessão onde a bola deve entrar para valer um gol no futebol.",
+          "variantes": [
+            "Baliza",
+            "Meta",
+            "Goal"
+          ]
+        },
+        {
+          "id": "mato_grosso",
+          "nome": "Mato Grosso",
+          "descricao": "Estado da região Centro-Oeste do Brasil, terceiro maior em área, cuja capital é Cuiabá.",
+          "variantes": [
+            "MT"
+          ]
+        },
+        {
+          "id": "maquina_tecnica",
+          "nome": "Máquina Técnica",
+          "descricao": "Item dos jogos Pokémon que ensina um golpe a um pokémon, conhecido pela sigla MT.",
+          "variantes": [
+            "MT",
+            "TM",
+            "Technical Machine"
+          ]
+        },
+        {
+          "id": "metro_de_londres",
+          "nome": "Metrô de Londres",
+          "descricao": "Sistema de metrô de Londres, aberto em 1863 com a Metropolitan Railway.",
+          "variantes": [
+            "London Underground",
+            "The Tube",
+            "Metropolitan Railway",
+            "Tube"
+          ]
+        },
+        {
+          "id": "a_tempestade_giorgione",
+          "nome": "A Tempestade (Giorgione)",
+          "descricao": "Pintura renascentista de Giorgione, de cerca de 1506-1508, com um soldado, uma mulher amamentando e um raio sobre uma paisagem, na Galleria dell'Accademia de Veneza.",
+          "variantes": [
+            "La Tempesta",
+            "The Tempest",
+            "A Tempestade"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Tímpanos",
+        "descricao": "Instrumentos de percussão de orquestra, tambores em forma de caldeirão com pele esticada, afináveis.",
+        "variantes": [
+          "Tímpano",
+          "Timpani",
+          "Kettledrums"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "timpano",
+          "nome": "Tímpano",
+          "descricao": "Instrumento de percussão de orquestra, um tambor em forma de bacia com membrana, afinável, tocado com baquetas.",
+          "variantes": [
+            "Tímpanos",
+            "Timpani",
+            "Timbales de orquestra"
+          ]
+        },
+        {
+          "id": "corinthians",
+          "nome": "Corinthians",
+          "descricao": "Sport Club Corinthians Paulista, clube de futebol de São Paulo fundado em 1910.",
+          "variantes": [
+            "Sport Club Corinthians Paulista",
+            "Timão",
+            "SC Corinthians"
+          ]
+        },
+        {
+          "id": "timao",
+          "nome": "Timão",
+          "descricao": "Personagem tagarela de O Rei Leão, da Disney, inseparável amigo do javali Pumba.",
+          "variantes": [
+            "Timon"
+          ]
+        },
+        {
+          "id": "rms_titanic",
+          "nome": "RMS Titanic",
+          "descricao": "Transatlântico britânico da White Star Line que afundou em 1912 após colidir com um iceberg.",
+          "variantes": [
+            "Titanic"
+          ]
+        },
+        {
+          "id": "titanic",
+          "nome": "Titanic",
+          "descricao": "Filme de 1997 dirigido por James Cameron, sobre um romance a bordo do transatlântico que naufragou em 1912.",
+          "variantes": [
+            "Titanic (1997)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sacabuxa",
+        "descricao": "Antigo instrumento de metal com vara deslizante, ancestral do trombone, usado no Renascimento e no Barroco.",
+        "variantes": [
+          "Sackbut",
+          "Sacabuche"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sackboy",
+          "nome": "Sackboy",
+          "descricao": "Personagem de pano tricotado, protagonista da série de jogos LittleBigPlanet.",
+          "variantes": [
+            "Sackperson"
+          ]
+        },
+        {
+          "id": "sanduiche",
+          "nome": "Sanduíche",
+          "descricao": "Alimento feito com recheio entre duas fatias de pão, nome tirado de um título nobre inglês",
+          "variantes": [
+            "Sanduba",
+            "Sandes",
+            "Sandwich",
+            "Sanduche"
+          ]
+        },
+        {
+          "id": "acabou_chorare",
+          "nome": "Acabou Chorare",
+          "descricao": "Álbum dos Novos Baianos lançado em 1972.",
+          "variantes": []
+        },
+        {
+          "id": "monte_caburai",
+          "nome": "Monte Caburaí",
+          "descricao": "Monte em Roraima, na fronteira com a Guiana, ponto extremo norte do Brasil.",
+          "variantes": [
+            "Caburaí"
+          ]
+        },
+        {
+          "id": "caverna_de_lascaux",
+          "nome": "Caverna de Lascaux",
+          "descricao": "Caverna no sudoeste da França com pinturas rupestres de animais feitas há cerca de dezessete mil anos.",
+          "variantes": [
+            "Lascaux",
+            "Grotte de Lascaux"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Glockenspiel",
+        "descricao": "Instrumento de percussão de barras de metal afinadas, dispostas como um teclado e tocadas com baquetas.",
+        "variantes": [
+          "Carrilhão de orquestra",
+          "Metalofone"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "megalodonte",
+          "nome": "Megalodonte",
+          "descricao": "Espécie extinta de tubarão gigante que viveu entre o Mioceno e o Plioceno.",
+          "variantes": [
+            "Otodus megalodon",
+            "Megalodon",
+            "Carcharocles megalodon"
+          ]
+        },
+        {
+          "id": "teremim",
+          "nome": "Teremim",
+          "descricao": "Instrumento eletrônico tocado sem contato físico, pelo movimento das mãos perto de duas antenas, criado por Léon Theremin.",
+          "variantes": [
+            "Theremin",
+            "Teremin",
+            "Eterofone"
+          ]
+        },
+        {
+          "id": "metamorfoses_ovidio",
+          "nome": "Metamorfoses (Ovídio)",
+          "descricao": "Poema narrativo latino de Ovídio que reúne mitos de transformação.",
+          "variantes": [
+            "Metamorphoses",
+            "Metamorfoses"
+          ]
+        },
+        {
+          "id": "metano",
+          "nome": "Metano",
+          "descricao": "Gás inflamável formado por um carbono e quatro hidrogênios, principal componente do gás natural.",
+          "variantes": [
+            "Methane",
+            "CH4"
+          ]
+        },
+        {
+          "id": "ilha_de_paqueta",
+          "nome": "Ilha de Paquetá",
+          "descricao": "Ilha da baía de Guanabara, bairro da cidade do Rio de Janeiro, onde não circulam carros.",
+          "variantes": [
+            "Paquetá"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Clavicórdio",
+        "descricao": "Instrumento de teclado retangular cujas cordas são percutidas por lâminas de metal chamadas tangentes.",
+        "variantes": [
+          "Clavichord"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "minas_de_laurio",
+          "nome": "Minas de Láurio",
+          "descricao": "Minas de prata da Ática, ao sul de Atenas, cuja riqueza financiou a frota ateniense no século cinco a.C.",
+          "variantes": [
+            "Laurium",
+            "Lavrio",
+            "Láurion"
+          ]
+        },
+        {
+          "id": "victorinox",
+          "nome": "Victorinox",
+          "descricao": "Empresa suíça fabricante do canivete suíço, fundada por Karl Elsener em 1884.",
+          "variantes": []
+        },
+        {
+          "id": "lago_vitoria",
+          "nome": "Lago Vitória",
+          "descricao": "Maior lago da África, dividido entre Uganda, Quênia e Tanzânia.",
+          "variantes": [
+            "Lake Victoria",
+            "Lago Victoria",
+            "Nyanza"
+          ]
+        },
+        {
+          "id": "cravo_da_india",
+          "nome": "Cravo-da-índia",
+          "descricao": "Botão floral seco da árvore Syzygium aromaticum, usado como tempero",
+          "variantes": [
+            "Syzygium aromaticum",
+            "cravinho",
+            "clove"
+          ]
+        },
+        {
+          "id": "cao_domestico",
+          "nome": "Cão doméstico",
+          "descricao": "Canídeo domesticado pelo ser humano, classificado como Canis familiaris ou Canis lupus familiaris.",
+          "variantes": [
+            "Cachorro",
+            "Canis lupus familiaris",
+            "Dog"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Pratos",
+        "descricao": "Instrumento de percussão formado por discos de liga de cobre, tocados em par ou sobre suporte.",
+        "variantes": [
+          "Prato",
+          "Címbalos",
+          "Cymbals"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mouse",
+          "nome": "Mouse",
+          "descricao": "Dispositivo apontador manual usado para controlar o cursor na tela de um computador.",
+          "variantes": [
+            "Computer mouse",
+            "Rato"
+          ]
+        },
+        {
+          "id": "emerson_fittipaldi",
+          "nome": "Emerson Fittipaldi",
+          "descricao": "Piloto brasileiro bicampeão mundial de Fórmula 1, em 1972 e 1974, e bicampeão das 500 Milhas de Indianápolis.",
+          "variantes": [
+            "Emmo",
+            "Emerson",
+            "Rato"
+          ]
+        },
+        {
+          "id": "patmos",
+          "nome": "Patmos",
+          "descricao": "Pequena ilha grega do arquipélago do Dodecaneso, no mar Egeu.",
+          "variantes": []
+        },
+        {
+          "id": "pashtuns",
+          "nome": "Pashtuns",
+          "descricao": "Povo iraniano oriental que vive no Afeganistão e no noroeste do Paquistão e fala o pashto.",
+          "variantes": [
+            "Pachtuns",
+            "Pastós",
+            "Patanes"
+          ]
+        },
+        {
+          "id": "kratos",
+          "nome": "Kratos",
+          "descricao": "Ex-general espartano e semideus, protagonista da série de jogos God of War.",
+          "variantes": [
+            "Fantasma de Esparta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Royal Albert Hall",
+        "descricao": "Sala de concertos circular com cúpula em South Kensington, Londres, inaugurada em 1871.",
+        "variantes": [
+          "Albert Hall"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "calder_hall",
+          "nome": "Calder Hall",
+          "descricao": "Usina nuclear do complexo de Sellafield, na Inglaterra, uma das primeiras a fornecer eletricidade em escala comercial.",
+          "variantes": [
+            "Usina nuclear de Calder Hall"
+          ]
+        },
+        {
+          "id": "albert_luthuli",
+          "nome": "Albert Luthuli",
+          "descricao": "Presidente do Congresso Nacional Africano e líder antiapartheid sul-africano, laureado com o Nobel da Paz de 1960.",
+          "variantes": [
+            "Albert Lutuli",
+            "Albert John Luthuli"
+          ]
+        },
+        {
+          "id": "albert_camus",
+          "nome": "Albert Camus",
+          "descricao": "Escritor e filósofo francês nascido na Argélia (1913–1960), autor de O Estrangeiro e O Mito de Sísifo.",
+          "variantes": [
+            "Camus"
+          ]
+        },
+        {
+          "id": "albert_sabin",
+          "nome": "Albert Sabin",
+          "descricao": "Médico pesquisador polonês-americano que desenvolveu a vacina oral contra a poliomielite.",
+          "variantes": [
+            "Albert Bruce Sabin"
+          ]
+        },
+        {
+          "id": "era_aberta",
+          "nome": "Era Aberta",
+          "descricao": "Período do tênis iniciado em 1968, em que profissionais e amadores passaram a competir nos mesmos torneios.",
+          "variantes": [
+            "Open Era"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Ópera de Sydney",
+        "descricao": "Centro de artes cênicas de cobertura em velas, projetado por Jørn Utzon, no porto de Sydney.",
+        "variantes": [
+          "Sydney Opera House"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "opera_de_sydney",
+          "nome": "Ópera de Sydney",
+          "descricao": "Casa de espetáculos com cobertura em forma de velas no porto de Sydney, na Austrália.",
+          "variantes": [
+            "Sydney Opera House"
+          ]
+        },
+        {
+          "id": "opera_de_arame",
+          "nome": "Ópera de Arame",
+          "descricao": "Teatro de estrutura tubular de aço e cobertura transparente, cercado por um lago, numa antiga pedreira.",
+          "variantes": [
+            "Wire Opera House",
+            "Teatro Ópera de Arame"
+          ]
+        },
+        {
+          "id": "royal_opera_house",
+          "nome": "Royal Opera House",
+          "descricao": "Teatro de ópera e balé no bairro de Covent Garden, em Londres, sede da Royal Opera e do Royal Ballet.",
+          "variantes": [
+            "Covent Garden",
+            "Royal Ballet and Opera"
+          ]
+        },
+        {
+          "id": "opera_garnier",
+          "nome": "Ópera Garnier",
+          "descricao": "Teatro de ópera de Paris, projetado por Charles Garnier e inaugurado em 1875.",
+          "variantes": [
+            "Palais Garnier",
+            "Ópera de Paris"
+          ]
+        },
+        {
+          "id": "opera_de_viena",
+          "nome": "Ópera de Viena",
+          "descricao": "Casa de ópera inaugurada em 1869 na Ringstrasse de Viena, na Áustria.",
+          "variantes": [
+            "Ópera Estatal de Viena",
+            "Wiener Staatsoper"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "trompete",
+      "motivo": "Mesmo instrumento, trompete de metal com três válvulas/pistos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Metropolitan Opera House de Nova York."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "timpano",
+      "motivo": "Mesmo instrumento de percussão de orquestra (tímpano/timpani)."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Sacabuxa é um instrumento antigo; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Glockenspiel não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Clavicórdio não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Pratos (instrumento) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Royal Albert Hall não está entre as candidatas; Calder Hall e outras são entidades diferentes."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "opera_de_sydney",
+      "motivo": "Mesma casa de espetáculos no porto de Sydney, com cobertura em velas."
+    }
+  ]
+}

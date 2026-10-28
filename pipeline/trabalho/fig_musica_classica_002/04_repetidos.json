@@ -1,0 +1,65 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento de metal é este?",
+        "resposta": "Trompete"
+      },
+      "existentes": [
+        {
+          "id": "q09187",
+          "pergunta": "Que instrumento de metal é este?",
+          "resposta": "Trompete"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Depois de reconhecer estes instrumentos de percussão, diga: de que metal é feita tradicionalmente a bacia deles?",
+        "resposta": "Cobre"
+      },
+      "existentes": [
+        {
+          "id": "q05755",
+          "pergunta": "De que metal é tradicionalmente feito o corpo destes instrumentos de orquestra?",
+          "resposta": "Cobre"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade fica esta casa de ópera?",
+        "resposta": "Sydney"
+      },
+      "existentes": [
+        {
+          "id": "q02028",
+          "pergunta": "A Ópera de Sydney, com suas cascas brancas em forma de velas, foi projetada por qual arquiteto dinamarquês?",
+          "resposta": "Jørn Utzon"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e resposta: instrumento Trompete.",
+      "id_existente": "q09187"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o metal (cobre) dos instrumentos de percussão/orquestra mostrados; mesmo fato.",
+      "id_existente": "q05755"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cidade da casa de ópera é fato diferente do arquiteto projetista."
+    }
+  ]
+}

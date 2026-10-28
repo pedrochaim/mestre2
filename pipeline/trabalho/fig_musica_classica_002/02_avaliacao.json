@@ -1,0 +1,234 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Trompete isolado, nítido e inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de metal é este?",
+      "resposta": "Trompete",
+      "distratores": [
+        "Trombone",
+        "Tuba",
+        "Trompa"
+      ],
+      "ancora": {
+        "nome": "Trompete",
+        "descricao": "Instrumento de sopro da família dos metais, com três pistos, afinado em si bemol.",
+        "variantes": [
+          "Trumpet"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada icônica do Met; o cartaz 'Aida' não entrega cidade nem nome.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica esta casa de ópera?",
+      "resposta": "Nova York",
+      "distratores": [
+        "Chicago",
+        "Boston",
+        "Filadélfia"
+      ],
+      "ancora": {
+        "nome": "Metropolitan Opera House",
+        "descricao": "Casa de ópera do Lincoln Center, em Manhattan, inaugurada em 1966.",
+        "variantes": [
+          "Met",
+          "The Met",
+          "Metropolitan Opera"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A fachada traz o letreiro 'Teatre del Liceu', que entrega o nome."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Tímpanos de cobre bem visíveis; pergunta de nível 3 sobre o material.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que metal é feita tradicionalmente a bacia destes instrumentos de percussão da orquestra?",
+      "resposta": "Cobre",
+      "distratores": [
+        "Bronze",
+        "Latão",
+        "Aço"
+      ],
+      "ancora": {
+        "nome": "Tímpanos",
+        "descricao": "Instrumentos de percussão de orquestra, tambores em forma de caldeirão com pele esticada, afináveis.",
+        "variantes": [
+          "Tímpano",
+          "Timpani",
+          "Kettledrums"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O cartaz na fachada tem texto em russo com o nome do teatro (Мариинского театра)."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Sacabuxas (trombones antigos) em foto razoável; a pista 'ancestral do trombone' não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento antigo, ancestral do trombone, é este?",
+      "resposta": "Sacabuxa",
+      "distratores": [
+        "Trompete natural",
+        "Serpentão",
+        "Trompa natural"
+      ],
+      "ancora": {
+        "nome": "Sacabuxa",
+        "descricao": "Antigo instrumento de metal com vara deslizante, ancestral do trombone, usado no Renascimento e no Barroco.",
+        "variantes": [
+          "Sackbut",
+          "Sacabuche"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Instrumento de barras de madeira em contexto de rua, que também poderia ser marimba ou balafom; resposta não única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Glockenspiel de barras metálicas em foto limpa.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de percussão é este?",
+      "resposta": "Glockenspiel",
+      "distratores": [
+        "Xilofone",
+        "Marimba",
+        "Vibrafone"
+      ],
+      "ancora": {
+        "nome": "Glockenspiel",
+        "descricao": "Instrumento de percussão de barras de metal afinadas, dispostas como um teclado e tocadas com baquetas.",
+        "variantes": [
+          "Carrilhão de orquestra",
+          "Metalofone"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Clavicórdio retangular de tampa aberta, bem reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Neste instrumento de teclado antigo, que pequena peça de metal bate nas cordas para produzir o som?",
+      "resposta": "Tangente",
+      "distratores": [
+        "Martelo",
+        "Palheta",
+        "Pena"
+      ],
+      "ancora": {
+        "nome": "Clavicórdio",
+        "descricao": "Instrumento de teclado retangular cujas cordas são percutidas por lâminas de metal chamadas tangentes.",
+        "variantes": [
+          "Clavichord"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Pratos nítidos, sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de percussão é este?",
+      "resposta": "Pratos",
+      "distratores": [
+        "Gongo",
+        "Triângulo",
+        "Castanholas"
+      ],
+      "ancora": {
+        "nome": "Pratos",
+        "descricao": "Instrumento de percussão formado por discos de liga de cobre, tocados em par ou sobre suporte.",
+        "variantes": [
+          "Prato",
+          "Címbalos",
+          "Cymbals"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Rotunda inconfundível ao entardecer, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que sala de concertos é esta?",
+      "resposta": "Royal Albert Hall",
+      "distratores": [
+        "Carnegie Hall",
+        "Royal Festival Hall",
+        "Musikverein"
+      ],
+      "ancora": {
+        "nome": "Royal Albert Hall",
+        "descricao": "Sala de concertos circular com cúpula em South Kensington, Londres, inaugurada em 1871.",
+        "variantes": [
+          "Albert Hall"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista clássica das velas da Ópera de Sydney, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica esta casa de ópera?",
+      "resposta": "Sydney",
+      "distratores": [
+        "Melbourne",
+        "Brisbane",
+        "Auckland"
+      ],
+      "ancora": {
+        "nome": "Ópera de Sydney",
+        "descricao": "Centro de artes cênicas de cobertura em velas, projetado por Jørn Utzon, no porto de Sydney.",
+        "variantes": [
+          "Sydney Opera House"
+        ]
+      }
+    }
+  ]
+}
