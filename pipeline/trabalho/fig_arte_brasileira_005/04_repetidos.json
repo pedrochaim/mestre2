@@ -1,0 +1,31 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem projetou esta estação ferroviária?",
+        "resposta": "Charles Henry Driver"
+      },
+      "existentes": [
+        {
+          "id": "q09299",
+          "pergunta": "Que arquiteto britânico projetou esta estação ferroviária paulistana, construída entre 1895 e 1901?",
+          "resposta": "Charles Henry Driver"
+        },
+        {
+          "id": "q09520",
+          "pergunta": "De que nacionalidade era o arquiteto que projetou esta estação ferroviária?",
+          "resposta": "Britânico"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q09299",
+      "motivo": "Ambas perguntam quem projetou a estação ferroviária; a resposta é a mesma (Charles Henry Driver)."
+    }
+  ]
+}

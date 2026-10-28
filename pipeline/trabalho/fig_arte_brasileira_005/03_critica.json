@@ -1,0 +1,99 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria de Caringi confirmada nos trechos. O enunciado não vaza nada e os distratores são escultores brasileiros críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inauguração em 27 de junho de 1947, confirmada nos trechos. Os distratores são anos críveis e o enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Um distrator tem cinco palavras (Igreja do Carmo de Olinda), acima do limite de quatro. Mosteiro de São Bento não é uma catedral e é ambíguo, porque há mais de um com esse nome.",
+      "reescrita": {
+        "pergunta": "Que igreja é esta?",
+        "resposta": "Catedral Basílica de Salvador",
+        "distratores": [
+          "Catedral de Mariana",
+          "Basílica de Nazaré",
+          "Igreja da Candelária"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'formas curvas' aponta para Niemeyer, o arquiteto das curvas. No teste da imagem coberta, a figura vira enfeite. A pista foi trocada pela cidade.",
+      "reescrita": {
+        "pergunta": "Que arquiteto projetou este edifício residencial de Belo Horizonte?",
+        "resposta": "Oscar Niemeyer",
+        "distratores": [
+          "Lúcio Costa",
+          "Lina Bo Bardi",
+          "Affonso Eduardo Reidy"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos atribuem o projeto a Charles Henry Driver. Os distratores são arquitetos ligados à Luz ou à época, mas nenhum projetou a estação construída.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está correto (Praça Tiradentes, Rio de Janeiro). São Paulo é um distrator arriscado, porque lá também há um monumento a D. Pedro I a cavalo (Ipiranga). Troquei por uma cidade sem monumento equestre desse tipo.",
+      "reescrita": {
+        "pergunta": "Em que cidade fica este monumento equestre?",
+        "resposta": "Rio de Janeiro",
+        "distratores": [
+          "Recife",
+          "Salvador",
+          "Porto Alegre"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'formato de casco de barco' e 'Ruy Ohtake' identificam o hotel sem a imagem. O ano 2002 está nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que ano foi inaugurado este hotel paulistano?",
+        "resposta": "2002",
+        "distratores": [
+          "2000",
+          "2004",
+          "2006"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam os nomes Obelisco de São Paulo e Obelisco do Ibirapuera. O enunciado não vaza e os distratores são monumentos do mesmo tipo, com até quatro palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A catedral neogótica fica em Petrópolis, como confirmam os trechos. O enunciado não vaza e os distratores são cidades críveis.",
+      "reescrita": null
+    }
+  ]
+}

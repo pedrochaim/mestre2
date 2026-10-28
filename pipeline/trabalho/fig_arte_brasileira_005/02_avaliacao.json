@@ -1,0 +1,237 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Estátua de bronze sozinha, bem visível e reconhecível, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quem esculpiu esta estátua?",
+      "resposta": "Antônio Caringi",
+      "distratores": [
+        "Victor Brecheret",
+        "Rodolfo Bernardelli",
+        "Mestre Valentim"
+      ],
+      "ancora": {
+        "nome": "Estátua do Laçador",
+        "descricao": "Monumento em bronze ao gaúcho pilchado, símbolo oficial de Porto Alegre, obra do escultor Antônio Caringi.",
+        "variantes": [
+          "Monumento ao Laçador",
+          "O Laçador"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Arranha-céu art déco característico, nítido e sem texto; ano de inauguração (1947) bem documentado.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que ano foi inaugurado este arranha-céu paulistano?",
+      "resposta": "1947",
+      "distratores": [
+        "1939",
+        "1943",
+        "1952"
+      ],
+      "ancora": {
+        "nome": "Edifício Altino Arantes",
+        "descricao": "Arranha-céu art déco no centro de São Paulo, sede do antigo Banespa, também chamado Banespão.",
+        "variantes": [
+          "Banespão",
+          "Edifício Banespa",
+          "Altino Arantes Building"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Vista aérea do estádio em obras, oval genérico que pode ser confundido com outros estádios; autoria obscura e imagem pouco reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada frontal nítida, maneirista, sem texto legível; reconhecível por quem conhece Salvador, com múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que igreja é esta?",
+      "resposta": "Catedral Basílica de Salvador",
+      "distratores": [
+        "Catedral de Mariana",
+        "Igreja do Carmo de Olinda",
+        "Mosteiro de São Bento"
+      ],
+      "ancora": {
+        "nome": "Catedral Basílica de Salvador",
+        "descricao": "Antiga igreja do colégio dos jesuítas, de estilo maneirista, catedral primacial de Salvador, na Bahia.",
+        "variantes": [
+          "Catedral-Basílica Primacial de São Salvador",
+          "Catedral Primacial do Brasil",
+          "Igreja do Colégio dos Jesuítas"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Prédio curvilíneo característico de Niemeyer, sem texto que entregue a resposta (só um letreiro pequeno de outra marca); pergunta de autoria em vez de ano, mais firme.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que arquiteto projetou este edifício de formas curvas?",
+      "resposta": "Oscar Niemeyer",
+      "distratores": [
+        "Lúcio Costa",
+        "Lina Bo Bardi",
+        "Affonso Eduardo Reidy"
+      ],
+      "ancora": {
+        "nome": "Edifício Niemeyer (Belo Horizonte)",
+        "descricao": "Edifício residencial de varandas onduladas na Praça da Liberdade, em Belo Horizonte, projetado por Oscar Niemeyer.",
+        "variantes": [
+          "Edifício Niemeyer",
+          "Niemeyer Building"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Estação nítida e característica, com torre do relógio; a placa do museu só aponta o local, não o arquiteto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quem projetou esta estação ferroviária?",
+      "resposta": "Charles Henry Driver",
+      "distratores": [
+        "Ramos de Azevedo",
+        "Victor Dubugras",
+        "Joseph Paxton"
+      ],
+      "ancora": {
+        "nome": "Estação da Luz",
+        "descricao": "Estação ferroviária de 1901 no bairro da Luz, em São Paulo, que abriga o Museu da Língua Portuguesa.",
+        "variantes": [
+          "Luz Station",
+          "Estação Luz"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Igreja barroca mineira com fachada pouco distintiva, facilmente confundida com outras igrejas de Ouro Preto; pessoas ao fundo; resposta não única pela imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Monumento equestre com grupo escultórico na base, nítido e sem texto; pergunta de lugar justa em múltipla.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica este monumento equestre?",
+      "resposta": "Rio de Janeiro",
+      "distratores": [
+        "São Paulo",
+        "Salvador",
+        "Porto Alegre"
+      ],
+      "ancora": {
+        "nome": "Estátua equestre de D. Pedro I",
+        "descricao": "Monumento de bronze a D. Pedro I a cavalo, na Praça Tiradentes, no centro do Rio de Janeiro, primeira escultura pública do país.",
+        "variantes": [
+          "Monumento a D. Pedro I",
+          "Estátua equestre de Dom Pedro I"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Prédio em forma de arco invertido com janelas circulares, inconfundível e sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que ano foi inaugurado este hotel de formato de casco de barco, projetado por Ruy Ohtake?",
+      "resposta": "2002",
+      "distratores": [
+        "2000",
+        "2004",
+        "2006"
+      ],
+      "ancora": {
+        "nome": "Hotel Unique",
+        "descricao": "Hotel em forma de arco invertido, projetado por Ruy Ohtake, no bairro dos Jardins, em São Paulo.",
+        "variantes": [
+          "Unique Hotel"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto de um gramado com árvores, sem nenhum elemento que permita reconhecer o parque; imagem genérica."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Obelisco alto de mármore com relevos, nítido, sem texto legível; distratores de outros obeliscos famosos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que monumento é este?",
+      "resposta": "Obelisco do Ibirapuera",
+      "distratores": [
+        "Obelisco de Buenos Aires",
+        "Monumento a Washington",
+        "Agulha de Cleópatra"
+      ],
+      "ancora": {
+        "nome": "Obelisco de São Paulo",
+        "descricao": "Monumento de 72 metros no Parque Ibirapuera, em São Paulo, símbolo da Revolução Constitucionalista de 1932.",
+        "variantes": [
+          "Obelisco do Ibirapuera",
+          "Obelisco Mausoléu aos Heróis de 32",
+          "Obelisk of São Paulo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Catedral neogótica com a torre de flecha bem visível, sem texto; a bandeira do Brasil é só detalhe.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica esta catedral neogótica?",
+      "resposta": "Petrópolis",
+      "distratores": [
+        "Curitiba",
+        "Nova Friburgo",
+        "Juiz de Fora"
+      ],
+      "ancora": {
+        "nome": "Catedral de Petrópolis",
+        "descricao": "Catedral neogótica de São Pedro de Alcântara, com torre em flecha, em Petrópolis, no estado do Rio de Janeiro.",
+        "variantes": [
+          "Catedral de São Pedro de Alcântara",
+          "Cathedral of Petrópolis"
+        ]
+      }
+    }
+  ]
+}

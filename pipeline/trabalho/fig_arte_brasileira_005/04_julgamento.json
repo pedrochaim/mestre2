@@ -1,0 +1,569 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Estátua do Laçador",
+        "descricao": "Monumento em bronze ao gaúcho pilchado, símbolo oficial de Porto Alegre, obra do escultor Antônio Caringi.",
+        "variantes": [
+          "Laçador",
+          "Monumento ao Laçador",
+          "O Laçador"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "leao_de_lucerna",
+          "nome": "Leão de Lucerna",
+          "descricao": "Relevo de um leão moribundo esculpido na rocha em Lucerna, na Suíça, em memória dos guardas suíços mortos em 1792.",
+          "variantes": [
+            "Löwendenkmal",
+            "Monumento do Leão"
+          ]
+        },
+        {
+          "id": "tangara",
+          "nome": "Tangará",
+          "descricao": "Pequena ave azul de cabeça preta e coroa vermelha (Chiroxiphia caudata), macho dançarino da Mata Atlântica.",
+          "variantes": [
+            "Tesourinha-da-mata",
+            "Dançador",
+            "Chiroxiphia caudata"
+          ]
+        },
+        {
+          "id": "calcadeira",
+          "nome": "Calçadeira",
+          "descricao": "Utensílio de cabo longo e ponta curva usado para ajudar o calcanhar a entrar no sapato.",
+          "variantes": [
+            "Calçador",
+            "Shoehorn"
+          ]
+        },
+        {
+          "id": "monumento_nacional_aos_mortos_da_segunda_guerra_mundial",
+          "nome": "Monumento Nacional aos Mortos da Segunda Guerra Mundial",
+          "descricao": "Monumento no Rio de Janeiro, inaugurado em 1960, que guarda os restos mortais dos pracinhas brasileiros mortos na Itália.",
+          "variantes": [
+            "Monumento aos Pracinhas",
+            "Monumento aos Mortos da Segunda Guerra Mundial"
+          ]
+        },
+        {
+          "id": "goma_laca",
+          "nome": "Goma-laca",
+          "descricao": "Resina secretada pela cochonilha-da-laca, usada como verniz e na fabricação de antigos discos de gramofone.",
+          "variantes": [
+            "Shellac",
+            "Laca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Edifício Altino Arantes",
+        "descricao": "Arranha-céu art déco no centro de São Paulo, sede do antigo Banespa, também chamado Banespão.",
+        "variantes": [
+          "Edifício Altino Arantes (Banespa)",
+          "Banespão",
+          "Edifício Banespa",
+          "Altino Arantes Building"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "edificio_copan",
+          "nome": "Edifício Copan",
+          "descricao": "Edifício residencial sinuoso projetado por Oscar Niemeyer no centro de São Paulo.",
+          "variantes": [
+            "Copan"
+          ]
+        },
+        {
+          "id": "sansao",
+          "nome": "Sansão",
+          "descricao": "Coelhinho de pelúcia azul da Mônica, na Turma da Mônica, usado por ela para dar coelhadas.",
+          "variantes": [
+            "Sansão da Mônica"
+          ]
+        },
+        {
+          "id": "edificio_dakota",
+          "nome": "Edifício Dakota",
+          "descricao": "Prédio residencial do século dezenove no Upper West Side de Manhattan, em frente ao Central Park.",
+          "variantes": [
+            "The Dakota",
+            "Dakota"
+          ]
+        },
+        {
+          "id": "edificio_martinelli",
+          "nome": "Edifício Martinelli",
+          "descricao": "Primeiro arranha-céu do Brasil, de 28 andares, no centro de São Paulo.",
+          "variantes": [
+            "Prédio Martinelli",
+            "Martinelli Building"
+          ]
+        },
+        {
+          "id": "panteao_de_roma",
+          "nome": "Panteão de Roma",
+          "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+          "variantes": [
+            "Panteão",
+            "Pantheon",
+            "Pantheon, Rome"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Catedral Basílica de Salvador",
+        "descricao": "Antiga igreja do colégio dos jesuítas, de estilo maneirista, catedral primacial de Salvador, na Bahia.",
+        "variantes": [
+          "Catedral-Basílica Primacial de São Salvador",
+          "Catedral Primacial do Brasil",
+          "Igreja do Colégio dos Jesuítas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_imperio_do_brasil",
+          "nome": "Bandeira do Império do Brasil",
+          "descricao": "Bandeira usada pelo Brasil de 1822 a 1889, verde com losango amarelo e o brasão imperial.",
+          "variantes": [
+            "Bandeira imperial do Brasil",
+            "Bandeira imperial"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "shindo_renmei",
+          "nome": "Shindo Renmei",
+          "descricao": "Organização de imigrantes japoneses no Brasil que, após 1945, atacou compatriotas que reconheciam a derrota do Japão.",
+          "variantes": [
+            "Liga do Caminho dos Súditos"
+          ]
+        },
+        {
+          "id": "dom_pedro_ii",
+          "nome": "Dom Pedro II",
+          "descricao": "Segundo e último imperador do Brasil, que reinou de 1831 a 1889.",
+          "variantes": [
+            "Pedro II do Brasil",
+            "Pedro de Alcântara",
+            "Pedro Segundo"
+          ]
+        },
+        {
+          "id": "carnaval",
+          "nome": "Carnaval",
+          "descricao": "Festa popular brasileira que precede a Quaresma, com desfiles de escolas de samba e blocos.",
+          "variantes": [
+            "Carnaval do Brasil"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Edifício Niemeyer (Belo Horizonte)",
+        "descricao": "Edifício residencial de varandas onduladas na Praça da Liberdade, em Belo Horizonte, projetado por Oscar Niemeyer.",
+        "variantes": [
+          "Edifício Niemeyer",
+          "Niemeyer Building"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "edificio_chrysler",
+          "nome": "Edifício Chrysler",
+          "descricao": "Arranha-céu de Manhattan, em Nova York, concluído em 1930, com coroa de arcos de aço inoxidável.",
+          "variantes": [
+            "Chrysler Building"
+          ]
+        },
+        {
+          "id": "flatiron_building",
+          "nome": "Flatiron Building",
+          "descricao": "Arranha-céu triangular de 1902 na esquina da Quinta Avenida com a Broadway, em Nova York.",
+          "variantes": [
+            "Edifício Flatiron",
+            "Fuller Building"
+          ]
+        },
+        {
+          "id": "empire_state_building",
+          "nome": "Empire State Building",
+          "descricao": "Arranha-céu art déco de 102 andares em Manhattan, Nova York, concluído em 1931.",
+          "variantes": [
+            "Empire State"
+          ]
+        },
+        {
+          "id": "30_st_mary_axe",
+          "nome": "30 St Mary Axe",
+          "descricao": "Arranha-céu de vidro em forma de projétil, projetado por Norman Foster na City de Londres e concluído em 2003.",
+          "variantes": [
+            "The Gherkin",
+            "O Pepino",
+            "Swiss Re Building",
+            "Gherkin"
+          ]
+        },
+        {
+          "id": "edificio_copan",
+          "nome": "Edifício Copan",
+          "descricao": "Edifício residencial sinuoso projetado por Oscar Niemeyer no centro de São Paulo.",
+          "variantes": [
+            "Copan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Estação da Luz",
+        "descricao": "Estação ferroviária de 1901 no bairro da Luz, em São Paulo, que abriga o Museu da Língua Portuguesa.",
+        "variantes": [
+          "Luz Station",
+          "Estação Luz"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estacao_da_luz",
+          "nome": "Estação da Luz",
+          "descricao": "Estação ferroviária no bairro da Luz, em São Paulo, construída entre 1895 e 1901 para a São Paulo Railway.",
+          "variantes": [
+            "Luz Station",
+            "Estação Luz"
+          ]
+        },
+        {
+          "id": "refracao",
+          "nome": "Refração",
+          "descricao": "Mudança de direção da luz ao passar de um meio para outro, como do ar para a água.",
+          "variantes": [
+            "Refração da luz",
+            "Refraction"
+          ]
+        },
+        {
+          "id": "via_sacra",
+          "nome": "Via-Sacra",
+          "descricao": "Devoção cristã que percorre as etapas do caminho de Jesus até a crucificação",
+          "variantes": [
+            "Via Crucis",
+            "Estações da Cruz"
+          ]
+        },
+        {
+          "id": "hanukkah",
+          "nome": "Hanukkah",
+          "descricao": "Festa judaica de oito dias em que se acendem as velas de um candelabro de nove braços.",
+          "variantes": [
+            "Chanucá",
+            "Hanucá",
+            "Chanukah",
+            "Festa das Luzes"
+          ]
+        },
+        {
+          "id": "dispersao_da_luz",
+          "nome": "Dispersão da luz",
+          "descricao": "Separação da luz branca em suas cores ao atravessar um meio como o vidro de um prisma, porque cada cor se desvia de um jeito.",
+          "variantes": [
+            "Dispersão óptica",
+            "Dispersion (optics)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Estátua equestre de D. Pedro I",
+        "descricao": "Monumento de bronze a D. Pedro I a cavalo, na Praça Tiradentes, no centro do Rio de Janeiro, primeira escultura pública do país.",
+        "variantes": [
+          "Monumento a D. Pedro I",
+          "Estátua equestre de Dom Pedro I"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estatua_equestre_de_gattamelata",
+          "nome": "Estátua equestre de Gattamelata",
+          "descricao": "Estátua equestre em bronze do condottiere Gattamelata, feita por Donatello em 1453, na Piazza del Santo, em Pádua.",
+          "variantes": [
+            "Gattamelata",
+            "Monumento equestre a Gattamelata"
+          ]
+        },
+        {
+          "id": "monumento_as_bandeiras",
+          "nome": "Monumento às Bandeiras",
+          "descricao": "Grande escultura de granito de Victor Brecheret, junto ao Parque Ibirapuera, em São Paulo, que homenageia as bandeiras.",
+          "variantes": [
+            "Monumento aos Bandeirantes",
+            "Monumento às Bandeiras de São Paulo"
+          ]
+        },
+        {
+          "id": "leao_de_lucerna",
+          "nome": "Leão de Lucerna",
+          "descricao": "Relevo de um leão moribundo esculpido na rocha em Lucerna, na Suíça, em memória dos guardas suíços mortos em 1792.",
+          "variantes": [
+            "Löwendenkmal",
+            "Monumento do Leão"
+          ]
+        },
+        {
+          "id": "monumento_nacional_aos_mortos_da_segunda_guerra_mundial",
+          "nome": "Monumento Nacional aos Mortos da Segunda Guerra Mundial",
+          "descricao": "Monumento no Rio de Janeiro, inaugurado em 1960, que guarda os restos mortais dos pracinhas brasileiros mortos na Itália.",
+          "variantes": [
+            "Monumento aos Pracinhas",
+            "Monumento aos Mortos da Segunda Guerra Mundial"
+          ]
+        },
+        {
+          "id": "monumento_a_independencia_do_brasil",
+          "nome": "Monumento à Independência do Brasil",
+          "descricao": "Conjunto escultórico em granito e bronze no Parque da Independência, em São Paulo, também chamado Altar da Pátria.",
+          "variantes": [
+            "Monumento do Ipiranga",
+            "Altar da Pátria"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Hotel Unique",
+        "descricao": "Hotel em forma de arco invertido, projetado por Ruy Ohtake, no bairro dos Jardins, em São Paulo.",
+        "variantes": [
+          "Unique Hotel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eunice_foote",
+          "nome": "Eunice Foote",
+          "descricao": "Cientista e ativista americana do século dezenove que estudou o aquecimento de gases expostos ao Sol.",
+          "variantes": [
+            "Eunice Newton Foote"
+          ]
+        },
+        {
+          "id": "acordo_de_munique",
+          "nome": "Acordo de Munique",
+          "descricao": "Acordo assinado em setembro de 1938 por Alemanha, Reino Unido, França e Itália, que cedeu à Alemanha parte do território da Tchecoslováquia.",
+          "variantes": [
+            "Pacto de Munique",
+            "Acordos de Munique"
+          ]
+        },
+        {
+          "id": "tesla_unidade",
+          "nome": "Tesla (unidade)",
+          "descricao": "Unidade de densidade de fluxo magnético do Sistema Internacional, nomeada em honra a Nikola Tesla.",
+          "variantes": [
+            "Tesla (unit)",
+            "T"
+          ]
+        },
+        {
+          "id": "abertura_de_guilherme_tell",
+          "nome": "Abertura de Guilherme Tell",
+          "descricao": "Abertura da ópera Guilherme Tell, de Gioachino Rossini, de 1829.",
+          "variantes": [
+            "William Tell Overture",
+            "Guillaume Tell"
+          ]
+        },
+        {
+          "id": "holger_rune",
+          "nome": "Holger Rune",
+          "descricao": "Tenista profissional dinamarquês, campeão do Masters de Paris em 2022.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Obelisco de São Paulo",
+        "descricao": "Monumento de 72 metros no Parque Ibirapuera, em São Paulo, símbolo da Revolução Constitucionalista de 1932.",
+        "variantes": [
+          "Obelisco do Ibirapuera",
+          "Obelisco Mausoléu aos Heróis de 32",
+          "Obelisk of São Paulo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bienal_de_sao_paulo",
+          "nome": "Bienal de São Paulo",
+          "descricao": "Exposição internacional de arte realizada a cada dois anos em São Paulo.",
+          "variantes": [
+            "Bienal Internacional de Arte de São Paulo",
+            "São Paulo Art Biennial"
+          ]
+        },
+        {
+          "id": "sao_paulo_estado",
+          "nome": "São Paulo (estado)",
+          "descricao": "Estado mais populoso do Brasil, na Região Sudeste.",
+          "variantes": [
+            "São Paulo",
+            "Estado de São Paulo"
+          ]
+        },
+        {
+          "id": "conversao_de_paulo",
+          "nome": "Conversão de Paulo",
+          "descricao": "Episódio em que Saulo de Tarso se converteu ao cristianismo no caminho de Damasco, celebrado em 25 de janeiro",
+          "variantes": [
+            "Conversão de São Paulo",
+            "Conversão de Paulo de Tarso"
+          ]
+        },
+        {
+          "id": "metro_de_sao_paulo",
+          "nome": "Metrô de São Paulo",
+          "descricao": "Sistema de metrô da cidade de São Paulo, o primeiro do Brasil.",
+          "variantes": [
+            "Companhia do Metropolitano de São Paulo"
+          ]
+        },
+        {
+          "id": "morro_de_sao_paulo",
+          "nome": "Morro de São Paulo",
+          "descricao": "Distrito turístico do município de Cairu, na Bahia, na ilha de Tinharé.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Catedral de Petrópolis",
+        "descricao": "Catedral neogótica de São Pedro de Alcântara, com torre em flecha, em Petrópolis, no estado do Rio de Janeiro.",
+        "variantes": [
+          "Catedral de São Pedro de Alcântara",
+          "Cathedral of Petrópolis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tratado_de_petropolis",
+          "nome": "Tratado de Petrópolis",
+          "descricao": "Acordo assinado em 1903 entre Brasil e Bolívia que incorporou o território do Acre ao Brasil.",
+          "variantes": []
+        },
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        },
+        {
+          "id": "catedral_de_rouen_monet",
+          "nome": "Catedral de Rouen (Monet)",
+          "descricao": "Série de pinturas de Claude Monet, dos anos 1890, da fachada da Catedral de Ruão em diferentes luzes.",
+          "variantes": [
+            "Catedral de Ruão",
+            "Rouen Cathedral",
+            "Série Catedral de Rouen"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_santiago_de_compostela",
+          "nome": "Catedral de Santiago de Compostela",
+          "descricao": "Catedral da Galícia, na Espanha, destino final do Caminho de Santiago",
+          "variantes": [
+            "Catedral de Compostela",
+            "Santiago de Compostela Cathedral"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a estátua do Laçador."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Edifício Altino Arantes não está entre as candidatas; Martinelli é outro prédio."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Catedral de Salvador não está entre as candidatas; a de Brasília é outra."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Edifício Niemeyer de BH é diferente do Copan, em São Paulo."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "estacao_da_luz",
+      "motivo": "Mesma estação ferroviária da Luz em São Paulo, com os mesmos nomes alternativos."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Estátua equestre de D. Pedro I no Rio não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Hotel Unique não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "O Obelisco não está entre as candidatas; as outras são entidades diferentes."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Catedral de Petrópolis não está entre as candidatas."
+    }
+  ]
+}
