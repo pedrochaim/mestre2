@@ -1,0 +1,97 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem pista que entregue; distratores do mesmo tipo e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem vazamento; distratores são peixes de recife plausíveis e visualmente distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve o comportamento e pergunta pelo sentido do nome, então dá para responder sem a figura (ela vira enfeite). Além disso, 'floresta' ou 'pomar' poderiam ser defendidos. Melhor pedir o reconhecimento do peixe.",
+      "reescrita": {
+        "pergunta": "Que peixe marinho, que vive em colônias de tocas na areia, é este?",
+        "resposta": "Enguia-de-jardim",
+        "distratores": [
+          "Moreia",
+          "Congro",
+          "Peixe-agulha"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; 'grandes pinças' ajuda sem entregar; distratores corretos e do mesmo grupo.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A figura distingue o tubarão-frade do tubarão-baleia; os trechos confirmam o nome. Enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores são aves marinhas plausíveis; enunciado ajuda sem entregar.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta: 'proteger o abdome mole... ocupa abrigo' descreve o caranguejo-ermitão e entrega a resposta (concha). Além disso, o trecho diz que algumas espécies usam pedra ou madeira, o que enfraquece um distrator. Melhor pedir o reconhecimento do animal.",
+      "reescrita": {
+        "pergunta": "Que crustáceo marinho é este?",
+        "resposta": "Caranguejo-ermitão",
+        "distratores": [
+          "Siri",
+          "Tatuíra",
+          "Caranguejo-violinista"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista 'manchas arroxeadas' ajuda sem entregar e bate com a imagem descrita; distratores são camarões de recife.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta não é única: o trecho em português chama a espécie de 'sarda e cavala', e no Brasil 'cavala' costuma designar outro peixe. O bonito, um escombrídeo, também gera dúvida. Na dúvida, descartar.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento nível 1; a descrição do enunciado bate com os trechos; distratores plausíveis, distinguíveis na imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado situa o grupo e o local sem entregar o nome; distratores são águas-vivas conhecidas, distinguíveis pela imagem.",
+      "reescrita": null
+    }
+  ]
+}

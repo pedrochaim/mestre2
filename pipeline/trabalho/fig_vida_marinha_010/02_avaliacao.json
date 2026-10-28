@@ -1,0 +1,278 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Macho com bolsa gular vermelha inflada, inconfundível e nítido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave marinha tropical é esta?",
+      "resposta": "Fragata",
+      "distratores": [
+        "Albatroz",
+        "Pelicano",
+        "Atobá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fragata",
+        "descricao": "Ave marinha tropical da família Fregatidae, de asas longas e cauda bifurcada; o macho infla uma bolsa gular vermelha.",
+        "variantes": [
+          "Rabiforcado",
+          "Rabiforcado-magnífico",
+          "Fragata-magnífica"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Peixe-papagaio colorido, de perfil, nítido e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que peixe de recife de coral é este?",
+      "resposta": "Peixe-papagaio",
+      "distratores": [
+        "Peixe-anjo",
+        "Peixe-borboleta",
+        "Peixe-palhaço"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Peixe-papagaio",
+        "descricao": "Peixe de recife de coral da subfamília Scarinae, de boca em forma de bico e cores vivas.",
+        "variantes": [
+          "Budião",
+          "Escarídeo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Enguias-de-jardim saindo da areia, comportamento característico e imagem nítida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "O nome comum destes peixes compara suas colônias, com as cabeças saindo da areia, a que tipo de espaço?",
+      "resposta": "Jardim",
+      "distratores": [
+        "Floresta",
+        "Pomar",
+        "Pântano"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Enguia-de-jardim",
+        "descricao": "Peixe semelhante a enguia da subfamília Heterocongrinae, que vive em colônias em tocas na areia com a cabeça para fora.",
+        "variantes": [
+          "Garden eel",
+          "Enguia-jardineira"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Crustáceo com grandes pinças, nítido; é o tipo de lagosta com pinças (também chamada lavagante).",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que crustáceo marinho, de grandes pinças, é este?",
+      "resposta": "Lagosta",
+      "distratores": [
+        "Siri",
+        "Camarão-rosa",
+        "Caranguejo-aranha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lagosta",
+        "descricao": "Crustáceo decápode marinho da família Nephropidae, de corpo alongado e grandes pinças, como a lagosta-europeia.",
+        "variantes": [
+          "Lavagante",
+          "Lagosta-europeia"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A placa visível na imagem diz 'Rockhopper Penguin, South Atlantic', entregando a resposta; além disso é um esqueleto de museu, pouco reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Tubarão-frade com a boca aberta filtrando, nítido e inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tubarão gigante é este?",
+      "resposta": "Tubarão-frade",
+      "distratores": [
+        "Tubarão-baleia",
+        "Tubarão-martelo",
+        "Tubarão-branco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tubarão-frade",
+        "descricao": "Tubarão gigante que se alimenta filtrando plâncton, Cetorhinus maximus, segundo maior peixe vivo.",
+        "variantes": [
+          "Tubarão-peregrino",
+          "Basking shark"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Papagaio-do-mar de perfil, bico colorido característico, imagem nítida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave marinha de bico colorido é esta?",
+      "resposta": "Papagaio-do-mar",
+      "distratores": [
+        "Torda-mergulheira",
+        "Airo",
+        "Pinguim"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Papagaio-do-mar",
+        "descricao": "Ave marinha do Atlântico Norte da família dos alcídeos, Fratercula arctica, de bico alto e colorido.",
+        "variantes": [
+          "Fradinho",
+          "Puffin",
+          "Papagaio-do-mar-do-atlântico"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Caranguejo-ermitão dentro de concha, nítido; a anêmona na concha não confunde.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Para proteger o abdome mole, este crustáceo ocupa que tipo de abrigo?",
+      "resposta": "Concha de caracol",
+      "distratores": [
+        "Carapaça de siri",
+        "Esponja seca",
+        "Pedra oca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caranguejo-ermitão",
+        "descricao": "Crustáceo decápode da superfamília Paguroidea que ocupa conchas vazias para proteger o abdome.",
+        "variantes": [
+          "Ermitão",
+          "Paguro"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Camarão-arlequim nítido, padrão de manchas inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que camarão de recife, de manchas arroxeadas, é este?",
+      "resposta": "Camarão-arlequim",
+      "distratores": [
+        "Camarão-pistola",
+        "Camarão-limpador",
+        "Camarão-mantis"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Camarão-arlequim",
+        "descricao": "Camarão de recifes de coral, Hymenocera picta, de corpo claro com manchas arroxeadas, que se alimenta de estrelas-do-mar.",
+        "variantes": [
+          "Hymenocera picta",
+          "Harlequin shrimp"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Peixe em fundo preto, listras onduladas no dorso e sem manchas no ventre, nítido.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peixe marinho é este, de dorso listrado em ondas?",
+      "resposta": "Cavala",
+      "distratores": [
+        "Sardinha",
+        "Arenque",
+        "Bonito"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cavala",
+        "descricao": "Peixe marinho do Atlântico Norte, Scomber scombrus, de dorso azul-esverdeado com listras onduladas escuras.",
+        "variantes": [
+          "Cavala-do-atlântico",
+          "Atlantic mackerel",
+          "Sarda"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Tainha prateada de perfil, legível apesar da resolução baixa.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que peixe prateado, comum em estuários e litorais, é este?",
+      "resposta": "Tainha",
+      "distratores": [
+        "Robalo",
+        "Sardinha",
+        "Corvina"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tainha",
+        "descricao": "Peixe costeiro prateado da família Mugilidae, Mugil cephalus, comum em estuários e litorais.",
+        "variantes": [
+          "Mugil cephalus",
+          "Muge",
+          "Striped mullet"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Água-viva-ovo-frito nítida e inconfundível sobre fundo azul.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que água-viva do Mediterrâneo é esta?",
+      "resposta": "Água-viva-ovo-frito",
+      "distratores": [
+        "Água-viva-lua",
+        "Água-viva-juba-de-leão",
+        "Água-viva-bússola"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Água-viva-ovo-frito",
+        "descricao": "Água-viva do Mediterrâneo, Cotylorhiza tuberculata, cujo sino lembra um ovo frito.",
+        "variantes": [
+          "Cotylorhiza tuberculata",
+          "Água-viva-do-mediterrâneo",
+          "Fried egg jellyfish"
+        ]
+      }
+    }
+  ]
+}

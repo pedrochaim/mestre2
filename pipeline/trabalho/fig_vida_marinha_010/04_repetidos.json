@@ -1,0 +1,107 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ave marinha tropical é esta?",
+        "resposta": "Fragata"
+      },
+      "existentes": [
+        {
+          "id": "q11519",
+          "pergunta": "Que ave marinha tropical é esta?",
+          "resposta": "Tesourão"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que peixe de recife de coral é este?",
+        "resposta": "Peixe-papagaio"
+      },
+      "existentes": [
+        {
+          "id": "q09588",
+          "pergunta": "À noite, muitos peixes-papagaio dormem envoltos em algo que eles mesmos produzem e que os protege de parasitas. O que é?",
+          "resposta": "Um casulo de muco"
+        },
+        {
+          "id": "q09601",
+          "pergunta": "Nos recifes tropicais, o peixe-papagaio rói corais e algas com seu bico duro. O que ele produz em grande quantidade ao digerir esse material?",
+          "resposta": "Areia branca"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que tubarão gigante é este?",
+        "resposta": "Tubarão-frade"
+      },
+      "existentes": [
+        {
+          "id": "q09568",
+          "pergunta": "Também filtrador de plâncton, que tubarão gigante dos mares temperados é o segundo maior peixe vivo, atrás apenas do tubarão-baleia?",
+          "resposta": "Tubarão-peregrino"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que ave marinha de bico colorido é esta?",
+        "resposta": "Papagaio-do-mar"
+      },
+      "existentes": [
+        {
+          "id": "q14488",
+          "pergunta": "Em qual destes países esta ave marinha se reproduz?",
+          "resposta": "Islândia"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que crustáceo marinho é este?",
+        "resposta": "Caranguejo-ermitão"
+      },
+      "existentes": [
+        {
+          "id": "q15108",
+          "pergunta": "Que crustáceo é este?",
+          "resposta": "Caranguejo-ermitão"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Perguntas de identificação por imagem com respostas diferentes (Fragata vs Tesourão); fatos distintos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificação da espécie por imagem difere dos fatos sobre muco noturno e produção de areia."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Tubarão-frade é diferente do tubarão-peregrino; respostas e fatos distintos."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar a ave é diferente de saber onde ela se reproduz."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "id_existente": "q15108",
+      "motivo": "Mesma identificação por imagem com a mesma resposta (Caranguejo-ermitão)."
+    }
+  ]
+}
