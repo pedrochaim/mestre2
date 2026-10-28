@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pergunta nível 1 com 'guerreiro japonês... de armadura e espada' praticamente entrega a resposta (teste da imagem coberta) e o distrator 'Monge guerreiro' e 'Ashigaru' ficam fracos; além disso a 'espada' só vale se visível. Remover pista de espada/armadura e manter país/época. Samurai é a classe de guerreiros japoneses, mas ainda é pista forte; usa-se só 'Japão feudal' como contexto e a figura distingue.",
+      "reescrita": {
+        "pergunta": "Que tipo de guerreiro do Japão feudal aparece nesta figura?",
+        "resposta": "Samurai",
+        "distratores": [
+          "Ninja",
+          "Ashigaru",
+          "Monge guerreiro"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A âncora é Rey Mysterio, mas a pergunta pede o estilo de luta pela máscara; a pergunta fica sem depender da figura (dá para responder só com 'máscaras tradicionalmente' = lucha libre) e a resposta sai do enunciado. Figura vira enfeite.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O enunciado apenas descreve 'collant preto' e 'cena de ringue', sem nenhuma pista; o reconhecimento depende de uma pessoa específica numa cena de ringue, e o collant preto é detalhe que não se pode confirmar a partir de 'mostra'. Pouco confiável, e o André é muito reconhecível apenas se a foto for clara; a descrição do traje não é verificável.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz 'mestre de wing chun' e a resposta Ip Man é verdadeira, mas a pergunta nível 2 deve distinguir o ator; 'série de filmes' é correto. A pergunta é boa, porém 'wing chun' somado a 'série de filmes' permite responder sem a figura (Ip Man é o filme famoso), e os distratores são de outros artistas marciais de kung fu, não necessariamente de wing chun, o que torna 'mestre de wing chun' uma pista que só Ip Man satisfaz. Ajustar para ocultar a pista e manter o reconhecimento do ator.",
+      "reescrita": {
+        "pergunta": "Que grande mestre de artes marciais chinês este ator interpretou em filmes lançados entre 2008 e 2019?",
+        "resposta": "Ip Man",
+        "distratores": [
+          "Wong Fei-hung",
+          "Huo Yuanjia",
+          "Fong Sai-yuk"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A pergunta pede o apelido do boxeador, mas a resposta 'Canelo' é o nome pelo qual ele é conhecido; sem a figura, 'boxeador mexicano' com apelido não identifica nada. O problema é que a resposta é o apelido, e a pergunta é um reconhecimento disfarçado, com distratores que são apelidos de outros boxeadores mexicanos (Chocolatito é nicaraguense, o que o entrega). Sem conserto simples.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de guerreiro do Japão feudal aparece nesta figura?",
+        "resposta": "Samurai"
+      },
+      "existentes": [
+        {
+          "id": "q03353",
+          "pergunta": "A palavra samurai vem de um antigo verbo japonês. O que esse verbo significava?",
+          "resposta": "Servir"
+        },
+        {
+          "id": "q07672",
+          "pergunta": "Em que era da história japonesa, iniciada em 1868, os samurais perderam seus privilégios e deixaram de existir como classe?",
+          "resposta": "Era Meiji"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede identificar o tipo de guerreiro (samurai) a partir de uma figura; as existentes tratam da etimologia da palavra e do fim da classe na Era Meiji, fatos diferentes."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Samurai",
+        "descricao": "Membro da classe guerreira profissional do Japão pré-industrial, a serviço dos senhores feudais.",
+        "variantes": [
+          "Bushi",
+          "Samurais"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "samurai",
+          "nome": "Samurai",
+          "descricao": "Classe de guerreiros nobres do Japão pré-moderno, a serviço de senhores feudais.",
+          "variantes": [
+            "Samurais",
+            "Bushi"
+          ]
+        },
+        {
+          "id": "rurouni_kenshin",
+          "nome": "Rurouni Kenshin",
+          "descricao": "Mangá e anime de Nobuhiro Watsuki, exibido no Brasil como Samurai X.",
+          "variantes": [
+            "Samurai X"
+          ]
+        },
+        {
+          "id": "saturnalia",
+          "nome": "Saturnália",
+          "descricao": "Festa romana em honra do deus Saturno, com banquetes, presentes e inversão de papéis entre senhores e escravos.",
+          "variantes": [
+            "Saturnais"
+          ]
+        },
+        {
+          "id": "sushi",
+          "nome": "Sushi",
+          "descricao": "Prato japonês de arroz temperado com vinagre combinado a frutos do mar, vegetais ou ovas.",
+          "variantes": [
+            "Sushis",
+            "Nigiri",
+            "Gunkan"
+          ]
+        },
+        {
+          "id": "hitmonlee",
+          "nome": "Hitmonlee",
+          "descricao": "Pokémon lutador da primeira geração, número 106 da Pokédex Nacional, conhecido pelos chutes, evolução do Tyrogue.",
+          "variantes": [
+            "Sawamura"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Donnie Yen",
+        "descricao": "Ator, artista marcial e diretor de ação de Hong Kong, conhecido por interpretar Ip Man.",
+        "variantes": [
+          "Yen Chi-tan",
+          "Chen Zhidan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chan_chan",
+          "nome": "Chan Chan",
+          "descricao": "Grande cidade de adobe no litoral norte do Peru, perto de Trujillo, antiga capital do reino Chimu.",
+          "variantes": []
+        },
+        {
+          "id": "tenochtitlan",
+          "nome": "Tenochtitlan",
+          "descricao": "Capital dos astecas mexicas, erguida numa ilha do lago Texcoco, onde hoje fica a Cidade do México.",
+          "variantes": [
+            "México-Tenochtitlan"
+          ]
+        },
+        {
+          "id": "el_capitan",
+          "nome": "El Capitan",
+          "descricao": "Monólito de granito de cerca de 900 metros no Vale de Yosemite, na Califórnia, famoso pela escalada.",
+          "variantes": []
+        },
+        {
+          "id": "o_terceiro_homem",
+          "nome": "O Terceiro Homem",
+          "descricao": "Filme britânico de 1949 dirigido por Carol Reed, ambientado na Viena do pós-guerra, com Orson Welles.",
+          "variantes": [
+            "The Third Man"
+          ]
+        },
+        {
+          "id": "bonnie",
+          "nome": "Bonnie",
+          "descricao": "Irmã caçula de Clemont, que acompanha Ash pela região de Kalos na série Pokémon XY.",
+          "variantes": [
+            "Bonnie (anime)",
+            "Eureka"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "samurai",
+      "motivo": "Ambas descrevem a classe guerreira do Japão feudal, com as mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o ator Donnie Yen; as candidatas são entidades sem relação."
+    }
+  ]
+}

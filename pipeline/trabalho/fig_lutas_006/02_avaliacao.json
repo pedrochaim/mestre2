@@ -1,0 +1,159 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto histórica de domínio público, um guerreiro de armadura e katana, claro e sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que guerreiro japonês é este, de armadura e espada?",
+      "resposta": "Samurai",
+      "distratores": [
+        "Ninja",
+        "Ashigaru",
+        "Monge guerreiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Samurai",
+        "descricao": "Membro da classe guerreira profissional do Japão pré-industrial, a serviço dos senhores feudais.",
+        "variantes": [
+          "Bushi",
+          "Samurais"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Figura pública com máscara de lucha libre, bem visível; o texto do fundo (Comic-Con) não entrega a resposta.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estilo de luta usa tradicionalmente máscaras como esta?",
+      "resposta": "Lucha libre",
+      "distratores": [
+        "Sumô",
+        "Capoeira",
+        "Luta greco-romana"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Rey Mysterio",
+        "descricao": "Lutador profissional americano de lucha libre e WWE, conhecido pela máscara.",
+        "variantes": [
+          "Óscar Gutiérrez",
+          "Rey Misterio Jr."
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto de atleta em técnica de luta com cinto, pouco reconhecível; o estilo não é único diante da imagem (outras lutas com pegadas de cinto) e há texto parcial na camisa."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Mostra militares comuns em treino, pessoas comuns em primeiro plano; a chave também não é inequívoca (armlock, kimura ou outra)."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Figura pública reconhecível, sem texto; há outro lutador na cena, então o enunciado indica quem é o alvo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é o lutador em pé, de collant preto, nesta cena de ringue?",
+      "resposta": "André, o Gigante",
+      "distratores": [
+        "Hulk Hogan",
+        "The Undertaker",
+        "Big Show"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "André, o Gigante",
+        "descricao": "Lutador profissional francês de wrestling, conhecido pelo enorme tamanho e apelidado de Oitava Maravilha do Mundo.",
+        "variantes": [
+          "André the Giant",
+          "André René Roussimoff"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Atletas anônimos em competição (pessoas comuns), e a imagem não distingue com certeza luta livre de outros estilos de wrestling."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "É só o nome escrito em caracteres chineses: o texto é a própria resposta e a imagem não mostra a arte marcial."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Pictograma abstrato de uma figura com bastões, não reconhecível como eskrima e sem resposta única."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Grupo de pessoas comuns praticando em um ginásio, sem figuras públicas, e a imagem de baixa qualidade não distingue o tai chi com certeza."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública, sem texto; a pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mestre de wing chun este ator interpretou numa série de filmes?",
+      "resposta": "Ip Man",
+      "distratores": [
+        "Wong Fei-hung",
+        "Huo Yuanjia",
+        "Fong Sai-yuk"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Donnie Yen",
+        "descricao": "Ator, artista marcial e diretor de ação de Hong Kong, conhecido por interpretar Ip Man.",
+        "variantes": [
+          "Yen Chi-tan",
+          "Chen Zhidan"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Praticante comum em um evento, sem ser figura pública nem brincante de festa pública; a imagem também não separa com certeza iaido de outras artes de espada."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública; o texto do fundo (MGM Grand, Chavez) não nomeia o boxeador, e a pergunta é pelo apelido.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que apelido este boxeador mexicano usa no ringue?",
+      "resposta": "Canelo",
+      "distratores": [
+        "Chocolatito",
+        "Terrible",
+        "Gallo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Canelo Álvarez",
+        "descricao": "Boxeador profissional mexicano, campeão mundial em quatro categorias e primeiro campeão absoluto dos supermédios.",
+        "variantes": [
+          "Saúl Álvarez",
+          "Santos Saúl Álvarez Barragán"
+        ]
+      }
+    }
+  ]
+}
