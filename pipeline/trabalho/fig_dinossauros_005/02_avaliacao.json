@@ -1,0 +1,244 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ilustração clara de anquilossaurídeo com clava na cauda; resposta (Cretáceo) vale para a imagem.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que período geológico viveu este dinossauro blindado?",
+      "resposta": "Cretáceo",
+      "distratores": [
+        "Jurássico",
+        "Triássico",
+        "Carbonífero"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Anquilossauro",
+        "descricao": "Dinossauro blindado do fim do Cretáceo, com clava na cauda, da América do Norte (Ankylosaurus magniventris).",
+        "variantes": [
+          "Ankylosaurus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ilustração clara, probóscideo com presas na mandíbula inferior curvadas para baixo; a assinatura do artista não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que parente extinto dos elefantes é este, de presas curvadas para baixo?",
+      "resposta": "Deinotério",
+      "distratores": [
+        "Gonfotério",
+        "Estegodonte",
+        "Mamute-lanoso"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Deinotério",
+        "descricao": "Gênero extinto de proboscídeo gigante do Mioceno ao Pleistoceno, com presas só na mandíbula inferior.",
+        "variantes": [
+          "Deinotherium"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Braços e garras fósseis famosos, bem visíveis e característicos, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que dinossauro gigante da Mongólia são estes braços fósseis?",
+      "resposta": "Deinoqueiro",
+      "distratores": [
+        "Gigantoraptor",
+        "Megaraptor",
+        "Utahraptor"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Deinoqueiro",
+        "descricao": "Grande ornitomimossauro do Cretáceo Superior da Mongólia, conhecido primeiro pelos enormes braços (Deinocheirus mirificus).",
+        "variantes": [
+          "Deinocheirus"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Esqueleto montado de réptil marinho de crânio longo e nadadeiras, sem texto legível.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de réptil marinho extinto é este esqueleto?",
+      "resposta": "Plesiossauro",
+      "distratores": [
+        "Ictiossauro",
+        "Mossauro",
+        "Pterossauro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Liopleurodonte",
+        "descricao": "Plesiossauro pliossaurídeo carnívoro do Jurássico Médio e Superior da Europa (Liopleurodon ferox).",
+        "variantes": [
+          "Liopleurodon"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Esqueleto montado com crista e bico característicos, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que dinossauro com crista óssea na cabeça é este esqueleto?",
+      "resposta": "Protoceratops",
+      "distratores": [
+        "Triceratops",
+        "Psitacossauro",
+        "Estiracossauro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Protoceratops",
+        "descricao": "Pequeno dinossauro ceratopsiano do Cretáceo Superior da Ásia, com crista óssea e bico.",
+        "variantes": [
+          "Protoceratops andrewsi"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Esqueleto de cetáceo primitivo não reconhecível com segurança como Ambulocetus; pode ser confundido com outros arqueocetos."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Esqueleto montado de terópode com osteodermos no dorso; pergunta sobre o grupo é válida mesmo com outro esqueleto ao fundo.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "A que grupo de dinossauros pertence este esqueleto de predador bípede?",
+      "resposta": "Terópodes",
+      "distratores": [
+        "Saurópodes",
+        "Ceratopsídeos",
+        "Estegossauros"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ceratossauro",
+        "descricao": "Dinossauro terópode carnívoro do Jurássico Superior da América do Norte e Europa, com chifre nasal (Ceratosaurus).",
+        "variantes": [
+          "Ceratosaurus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Reconstrução clara de tiranossaurídeo; a resposta sobre o período vale mesmo se confundido com parentes.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que período geológico viveu este dinossauro predador de braços curtos?",
+      "resposta": "Cretáceo",
+      "distratores": [
+        "Jurássico",
+        "Triássico",
+        "Permiano"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Albertossauro",
+        "descricao": "Grande dinossauro tiranossaurídeo do Cretáceo Superior de Alberta, Canadá (Albertosaurus sarcophagus).",
+        "variantes": [
+          "Albertosaurus"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Diagrama esquemático em duas vistas, com assinatura do autor; pouco legível no celular e resposta temporal ambígua (Carbonífero ao Permiano)."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Ilustração clara, com crânio em domo característico.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este dinossauro de crânio em domo viveu no fim de qual período geológico?",
+      "resposta": "Cretáceo",
+      "distratores": [
+        "Jurássico",
+        "Triássico",
+        "Permiano"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Paquicefalossauro",
+        "descricao": "Dinossauro bípede de crânio espessado em domo, do fim do Cretáceo da América do Norte (Pachycephalosaurus wyomingensis).",
+        "variantes": [
+          "Pachycephalosaurus"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Reconstrução nítida de pterossauro gigante de pescoço longo e bico pontudo, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que réptil voador extinto, de pescoço longo e bico pontudo, é este?",
+      "resposta": "Quetzalcoatlus",
+      "distratores": [
+        "Pteranodonte",
+        "Tapejara",
+        "Tropeognato"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Quetzalcoatlus",
+        "descricao": "Pterossauro azdarquídeo gigante do Cretáceo Superior da América do Norte, um dos maiores animais voadores conhecidos.",
+        "variantes": [
+          "Quetzalcoatlus northropi"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Esqueleto montado com mandíbula inferior em forma de pá, bem característico; a época vale para parentes próximos também.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que época geológica viveu este animal de mandíbula em forma de pá?",
+      "resposta": "Mioceno",
+      "distratores": [
+        "Eoceno",
+        "Oligoceno",
+        "Plioceno"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Platibelodonte",
+        "descricao": "Proboscídeo extinto do Mioceno da Ásia e do Cáucaso, com mandíbula inferior achatada em forma de pá (Platybelodon).",
+        "variantes": [
+          "Platybelodon"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cretáceo confirmado pelos trechos; sem vazamento, distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Presas curvadas para baixo' é a marca famosa do gênero; o enunciado quase entrega a resposta. Trocar pela época, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que parente extinto dos elefantes, que viveu no Mioceno, é este?",
+        "resposta": "Deinotério",
+        "distratores": [
+          "Gonfotério",
+          "Estegodonte",
+          "Mamute-lanoso"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Não há garantia de que a imagem mostre só os braços fósseis; o enunciado pode ser falso para a foto. Usar enunciado neutro com época e país.",
+      "reescrita": {
+        "pergunta": "Que dinossauro gigante do Cretáceo da Mongólia é este?",
+        "resposta": "Deinoqueiro",
+        "distratores": [
+          "Gigantoraptor",
+          "Megaraptor",
+          "Utahraptor"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Resposta ambígua: Liopleurodon é um pliosaurídeo, e a Wikipédia em português o distingue dos plesiossauros de pescoço longo. 'Esqueleto' também não está confirmado em mostra.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Esqueleto' não é confirmado por mostra, e 'crista óssea' vale para vários ceratopsianos. Acrescentar continente e época para distinguir dos distratores.",
+      "reescrita": {
+        "pergunta": "Que pequeno dinossauro com crista óssea na cabeça, do Cretáceo da Ásia, é este?",
+        "resposta": "Protoceratops",
+        "distratores": [
+          "Triceratops",
+          "Psitacossauro",
+          "Estiracossauro"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Predador bípede' já leva a terópodes sem ver a figura, que vira enfeite. 'Esqueleto' também não está confirmado. Pedir o reconhecimento do dinossauro.",
+      "reescrita": {
+        "pergunta": "Que dinossauro predador do Jurássico Superior é este?",
+        "resposta": "Ceratossauro",
+        "distratores": [
+          "Alossauro",
+          "Torvossauro",
+          "Dilofossauro"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cretáceo confirmado; 'braços curtos' é verdadeiro e não entrega a resposta; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Crânio em domo' praticamente nomeia o grupo e o torna respondível sem a figura. Retirar a pista.",
+      "reescrita": {
+        "pergunta": "Este dinossauro bípede da América do Norte viveu no fim de qual período geológico?",
+        "resposta": "Cretáceo",
+        "distratores": [
+          "Jurássico",
+          "Triássico",
+          "Permiano"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista de pescoço longo e bico pontudo não entrega o gênero; distratores são pterossauros críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mioceno confirmado pelos trechos; distratores são épocas vizinhas e erradas.",
+      "reescrita": null
+    }
+  ]
+}

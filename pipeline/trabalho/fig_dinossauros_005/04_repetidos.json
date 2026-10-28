@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que período geológico viveu este dinossauro blindado?",
+        "resposta": "Cretáceo"
+      },
+      "existentes": [
+        {
+          "id": "q08354",
+          "pergunta": "O anquilossauro, herbívoro coberto de placas ósseas, tinha na ponta da cauda que arma de defesa?",
+          "resposta": "Clava óssea"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que réptil voador extinto, de pescoço longo e bico pontudo, é este?",
+        "resposta": "Quetzalcoatlus"
+      },
+      "existentes": [
+        {
+          "id": "q08336",
+          "pergunta": "Segundo seu descritor, o nome do pterossauro gigante Quetzalcoatlus vem de uma serpente emplumada divina de que povo mexicano?",
+          "resposta": "Astecas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Período geológico do anquilossauro é um fato diferente da arma na cauda."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o animal como Quetzalcoatlus é diferente de saber a origem do nome (astecas)."
+    }
+  ]
+}
