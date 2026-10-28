@@ -1,0 +1,70 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a resposta (estrelas viram riscos) e repete a palavra 'estrelas'; a figura vira enfeite. Reescrita pede a causa, sem entregar a pista.",
+      "reescrita": {
+        "pergunta": "Que movimento da Terra explica os riscos de luz que aparecem nesta fotografia de longa exposição do céu noturno?",
+        "resposta": "Rotação da Terra",
+        "distratores": [
+          "Translação ao redor do Sol",
+          "Precessão do eixo",
+          "Órbita da Lua"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta, sem vazamento; 'Voyager' cobre as duas sondas gêmeas e os distratores são sondas da NASA plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Não nomeia o telescópio; exige reconhecê-lo e saber que era infravermelho, confirmado nos trechos. Distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Vista do alto' é uma afirmação não confirmada pela descrição da imagem. Removida.",
+      "reescrita": {
+        "pergunta": "Que tipo de instalação espacial é esta, onde está um ônibus espacial?",
+        "resposta": "Plataforma de lançamento",
+        "distratores": [
+          "Prédio de montagem",
+          "Centro de controle",
+          "Pista de pouso"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'O primeiro pouso em um asteroide' entrega a resposta sem olhar a figura. Trocada por dados dos trechos (exploração de 1998 a 2001) que só ajudam.",
+      "reescrita": {
+        "pergunta": "Que sonda explorou este asteroide próximo da Terra entre 1998 e 2001?",
+        "resposta": "NEAR Shoemaker",
+        "distratores": [
+          "Hayabusa",
+          "Dawn",
+          "Rosetta"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A sonda não é nomeada; o nome do físico está nos trechos. Distratores são cientistas do mesmo tipo e nenhum é correto.",
+      "reescrita": null
+    }
+  ]
+}

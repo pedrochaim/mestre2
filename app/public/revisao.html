@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="color-scheme" content="dark">
+  <meta name="robots" content="noindex">
+  <title>Mestre2 · Revisão</title>
+  <style>
+    /* As cores e os botões do app (index.html). */
+    :root { color-scheme: dark;
+            --fundo: #000; --texto: #ecebe6; --suave: #9b9a94; --linha: #2c2c29; --cartao: #111110;
+            --acento: #7c9cf5; --certo: #4cc485; --errado: #f07a64; --sobre-cor: #000; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--fundo); color: var(--texto); font: 17px/1.45 system-ui, sans-serif; }
+    main { max-width: 560px; margin: 0 auto; padding: 16px; }
+    h1 { font-size: 1.4rem; margin: .5rem 0 .2rem; }
+    a { color: var(--acento); }
+    button { font: inherit; color: inherit; background: var(--cartao); border: 1px solid var(--linha); border-radius: 10px;
+             padding: .6rem 1rem; cursor: pointer; }
+    .suave { color: var(--suave); font-size: .9rem; }
+    .cartao { background: var(--cartao); border: 1px solid var(--linha); border-radius: 14px; padding: 1rem; margin: 1rem 0; }
+    .cartao.feita { opacity: .55; }
+    .cartao.feita:focus-within, .cartao.feita:hover { opacity: 1; }
+    .meta { display: flex; justify-content: space-between; gap: .5rem; color: var(--suave); font-size: .82rem; }
+    .selo { color: var(--certo); font-weight: 600; white-space: nowrap; }
+    .pergunta { font-size: 1.1rem; margin: .5rem 0; }
+    .figura img { width: 100%; max-height: 42vh; object-fit: contain; background: #000; border-radius: 10px; display: block; cursor: zoom-in; }
+    .resposta { font-size: 1.1rem; font-weight: 700; color: var(--certo); margin: .3rem 0; }
+    .opcoes { list-style: none; padding: 0; margin: .3rem 0; }
+    .opcoes li { padding: .15rem 0; }
+    .opcoes li.certa { color: var(--certo); font-weight: 700; }
+    .opcoes li.certa::before { content: "✓ "; }
+    .opcoes li:not(.certa)::before { content: "· "; color: var(--suave); }
+    .ancora, .fontes { font-size: .85rem; color: var(--suave); margin: .4rem 0 0; overflow-wrap: anywhere; }
+    .por-que { width: 100%; margin-top: .6rem; background: none; color: var(--suave); font-size: .85rem; padding: .4rem; }
+    .motivo { font-size: .88rem; color: var(--suave); border-left: 3px solid var(--linha); padding: .2rem .6rem; margin: .4rem 0 0; }
+    .avaliar { margin: .8rem 0 0; padding: .7rem .9rem; border: 1px solid var(--linha); border-radius: 10px; }
+    .avaliar h3 { font-size: .78rem; font-weight: 400; color: var(--suave); text-transform: uppercase; letter-spacing: .05em;
+                  margin: .7rem 0 .35rem; }
+    .avaliar h3:first-child { margin-top: 0; }
+    .chips { display: flex; flex-wrap: wrap; gap: .4rem; margin: 0; }
+    .chips button { padding: .35rem .7rem; font-size: .9rem; }
+    .chips button[aria-pressed="true"] { border-color: var(--acento); background: var(--acento); color: var(--sobre-cor); }
+    .chips button.ok[aria-pressed="true"] { border-color: var(--certo); background: var(--certo); }
+    .niveis { display: grid; grid-template-columns: repeat(5, 1fr); gap: .3rem; }
+    .niveis button { padding: .45rem .1rem; font-size: .78rem; line-height: 1.2; }
+    textarea { width: 100%; min-height: 3.2rem; resize: vertical; background: var(--cartao); color: inherit;
+               border: 1px solid var(--linha); border-radius: 8px; padding: .5rem; font: inherit; font-size: .95rem; }
+    .estado { color: var(--suave); font-size: .8rem; margin: .4rem 0 0; min-height: 1.1em; }
+    #tela-cheia { position: fixed; inset: 0; background: #000; display: flex; align-items: center; justify-content: center;
+                  cursor: zoom-out; z-index: 10; }
+    #tela-cheia img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Revisão</h1>
+  <p id="resumo" class="suave">Carregando…</p>
+  <div id="lista"></div>
+</main>
+<div id="tela-cheia" hidden><img alt=""></div>
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js";
+  import { getFirestore, doc, getDoc, setDoc, serverTimestamp }
+    from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
+
+  const db = getFirestore(initializeApp({
+    apiKey: "AIzaSyDOxFK6-2MaySIpb5oDeLQJha3V1_6Aw7I",
+    authDomain: "mestre2-626dd.firebaseapp.com",
+    projectId: "mestre2-626dd",
+    storageBucket: "mestre2-626dd.firebasestorage.app",
+    messagingSenderId: "450189916006",
+    appId: "1:450189916006:web:92357b7ab1998d0dc0faa7",
+  }));
+
+  // A fila do dia, montada por pipeline/revisao.py: as perguntas que a triagem achou suspeitas e as de controle,
+  // misturadas. Cada avaliação vai para "avaliacoes/rev-<id>", com os campos do painel do app e partida "REVISAO".
+  const NIVEIS = ["Muito fácil", "Fácil", "Média", "Difícil", "Muito difícil"];
+  const PROBLEMAS = { resposta_errada: "Resposta errada ou discutível", mais_de_uma_resposta: "Mais de uma resposta",
+                      entrega_resposta: "Entrega a resposta", enunciado_confuso: "Enunciado confuso",
+                      fora_do_tema: "Fora do tema ou subtema", desatualizada: "Desatualizada", figura_ruim: "Figura ruim",
+                      repetida: "Repetida" };
+  const $ = id => document.getElementById(id);
+  const el = (tag, props = {}, ...filhos) => { const e = Object.assign(document.createElement(tag), props); e.append(...filhos); return e; };
+
+  let partida = "REVISAO";
+  let total = 0;
+  const feitas = new Set();
+  const resumo = () => {
+    $("resumo").textContent = total ? `${feitas.size} de ${total} avaliadas` : "Nenhuma pergunta na fila.";
+  };
+
+  function cartao(p, salva) {
+    const id = "rev-" + p.id;
+    const dados = salva ? { dificuldade: salva.dificuldade ?? null, otima: !!salva.otima, problemas: salva.problemas || [],
+                            comentario: salva.comentario || "" }
+                        : { dificuldade: null, otima: false, problemas: [], comentario: "" };
+    const caixa = el("div", { className: "cartao" });
+    const selo = el("span", { className: "selo" });
+    const marcar = () => {
+      caixa.classList.toggle("feita", feitas.has(p.id));
+      selo.textContent = feitas.has(p.id) ? "avaliada ✓" : "";
+      resumo();
+    };
+    if (salva) feitas.add(p.id);
+
+    // A pergunta como o jogo a mostra, já com a resposta.
+    caixa.append(el("div", { className: "meta" },
+      el("span", { textContent: `${p.tema} › ${p.subtema} · ${p.id}` }), selo));
+    if (p.imagem) {
+      const img = el("img", { src: "img/" + p.imagem.arquivo, alt: "", loading: "lazy" });
+      img.onclick = () => { $("tela-cheia").querySelector("img").src = img.src; $("tela-cheia").hidden = false; };
+      caixa.append(el("div", { className: "figura" }, img));
+    }
+    caixa.append(el("p", { className: "pergunta", textContent: p.pergunta }));
+    if (p.tipo === "multipla") {
+      const opcoes = [p.resposta, ...(p.distratores || [])].map(o => el("li", { textContent: o, className: o === p.resposta ? "certa" : "" }));
+      caixa.append(el("ul", { className: "opcoes" }, ...opcoes));
+    } else {
+      caixa.append(el("p", { className: "resposta", textContent: p.resposta }));
+    }
+    if (p.ancora) caixa.append(el("p", { className: "ancora", textContent: `Âncora: ${p.ancora.nome} — ${p.ancora.descricao}` }));
+    if (p.fonte?.length) {
+      const fontes = el("p", { className: "fontes" }, "Fontes: ");
+      p.fonte.forEach((u, i) => fontes.append(...(i ? [" · "] : []), el("a", { href: u, target: "_blank", rel: "noopener",
+        textContent: decodeURIComponent(u.replace(/^https?:\/\/(www\.)?/, "")) })));
+      caixa.append(fontes);
+    }
+
+    // Avaliação: os mesmos campos do painel do app, mais "Sem problema", que grava a avaliação sem nada marcado.
+    const estado = el("p", { className: "estado" });
+    const salvar = () => {
+      estado.textContent = "Salvando…";
+      setDoc(doc(db, "avaliacoes", id), { pergunta: p.id, partida, ...dados, em: serverTimestamp() })
+        .then(() => { estado.textContent = "Avaliação salva ✓"; feitas.add(p.id); marcar(); atualizar(); })
+        .catch(e => { estado.textContent = "Não salvou: " + e.message; });
+    };
+    const chip = (texto, aoTocar, classe = "") => {
+      const b = el("button", { textContent: texto, className: classe });
+      b.onclick = () => { aoTocar(); salvar(); };
+      return b;
+    };
+    const ok = chip("✓ Sem problema", () => { dados.problemas = []; }, "ok");
+    const problemas = Object.entries(PROBLEMAS).filter(([c]) => c !== "figura_ruim" || p.imagem).map(([c, texto]) =>
+      [c, chip(texto, () => {
+        dados.problemas = dados.problemas.includes(c) ? dados.problemas.filter(x => x !== c) : [...dados.problemas, c];
+      })]);
+    const otima = chip("⭐ Ótima pergunta", () => { dados.otima = !dados.otima; });
+    const niveis = NIVEIS.map((n, i) => chip(n, () => { dados.dificuldade = dados.dificuldade === i + 1 ? null : i + 1; }));
+    const atualizar = () => {
+      ok.setAttribute("aria-pressed", String(feitas.has(p.id) && !dados.problemas.length));
+      for (const [c, b] of problemas) b.setAttribute("aria-pressed", String(dados.problemas.includes(c)));
+      otima.setAttribute("aria-pressed", String(dados.otima));
+      niveis.forEach((b, i) => b.setAttribute("aria-pressed", String(dados.dificuldade === i + 1)));
+    };
+    const comentario = el("textarea", { maxLength: 500, placeholder: "Comentário (opcional): por exemplo, qual seria a resposta certa",
+                                        value: dados.comentario });
+    let espera = null;
+    comentario.oninput = () => { dados.comentario = comentario.value; clearTimeout(espera); espera = setTimeout(salvar, 1200); };
+    caixa.append(el("div", { className: "avaliar" },
+      el("h3", { textContent: "Veredito" }), el("div", { className: "chips" }, ok, ...problemas.map(([, b]) => b)),
+      el("h3", { textContent: "Comentário" }), comentario,
+      el("h3", { textContent: "Gostou?" }), el("div", { className: "chips" }, otima),
+      el("h3", { textContent: "Dificuldade" }), el("div", { className: "chips niveis" }, ...niveis),
+      estado));
+
+    // Por que entrou na fila: escondido, para não influenciar o veredito.
+    const r = p.revisao || {};
+    const motivo = el("p", { className: "motivo", hidden: true,
+      textContent: r.origem === "controle" ? "Sorteada para controle, sem filtro."
+        + (r.nota >= 2 ? ` A triagem também desconfiou (nota ${r.nota}, ${PROBLEMAS[r.problema] || r.problema}): ${r.motivo}` : "")
+        : `Triagem: nota ${r.nota} de 3 · ${PROBLEMAS[r.problema] || r.problema}. ${r.motivo}` });
+    const porQue = el("button", { className: "por-que", textContent: "Por que esta pergunta?" });
+    porQue.onclick = () => { motivo.hidden = !motivo.hidden; };
+    caixa.append(porQue, motivo);
+
+    atualizar();
+    marcar();
+    return caixa;
+  }
+
+  $("tela-cheia").onclick = () => { $("tela-cheia").hidden = true; };
+
+  try {
+    const fila = await (await fetch("revisao.json", { cache: "no-store" })).json();
+    partida = fila.partida || partida;
+    total = fila.perguntas.length;
+    const salvas = await Promise.all(fila.perguntas.map(p =>
+      getDoc(doc(db, "avaliacoes", "rev-" + p.id)).then(s => s.exists() ? s.data() : null).catch(() => null)));
+    $("lista").append(...fila.perguntas.map((p, i) => cartao(p, salvas[i])));
+    resumo();
+    if (fila.gerada) $("resumo").title = "Fila montada em " + fila.gerada.replace("T", " ");
+  } catch (e) {
+    $("resumo").textContent = "Não carregou a fila: " + e.message;
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Pôr do sol e nascer do sol são indistinguíveis na foto; a resposta não é única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Rastros de estrelas claros, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de fotografia do céu noturno é esta, em que as estrelas viram riscos?",
+      "resposta": "Rastros de estrelas",
+      "distratores": [
+        "Chuva de meteoros",
+        "Panorama da Via Láctea",
+        "Aurora austral"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Rastro de estrelas",
+        "descricao": "Fotografia de longa exposição que registra o movimento aparente das estrelas no céu causado pela rotação da Terra.",
+        "variantes": [
+          "Trilha de estrelas",
+          "Star trail"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Galáxia espiral genérica; não é reconhecível com unicidade pela imagem (muitas espirais parecidas)."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Aparece o texto 'СОЮЗ' na nave e a imagem mostra a nave Soyuz completa, não apenas uma cápsula; ambígua e com texto visível."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O retrato traz a inscrição 'Dr Halley', que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Mostra uma metade da Lua; a cratera Tycho é um detalhe pequeno, e o enunciado não consegue apontar sem ambiguidade para ela."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Mostra Stephen Hawking com nome no crachá, site e logotipos visíveis, além de pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Ilustração clara da sonda; Voyager 1 e 2 são idênticas, então a pergunta pede o programa.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sonda da NASA é esta?",
+      "resposta": "Voyager",
+      "distratores": [
+        "Pioneer",
+        "Galileo",
+        "Cassini"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Voyager 2",
+        "descricao": "Sonda espacial da NASA lançada em 1977, única a visitar Urano e Netuno; ilustração da sonda do programa Voyager.",
+        "variantes": [
+          "Voyager",
+          "Sonda Voyager"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Ilustração nítida do Spitzer, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de radiação este telescópio espacial observava?",
+      "resposta": "Infravermelho",
+      "distratores": [
+        "Raios X",
+        "Ultravioleta",
+        "Ondas de rádio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Telescópio Espacial Spitzer",
+        "descricao": "Telescópio espacial infravermelho da NASA ativo entre 2003 e 2020.",
+        "variantes": [
+          "Spitzer",
+          "Spitzer Space Telescope",
+          "SIRTF"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista aérea clara de plataforma de lançamento com ônibus espacial, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de instalação espacial é esta, vista do alto?",
+      "resposta": "Plataforma de lançamento",
+      "distratores": [
+        "Prédio de montagem",
+        "Centro de controle",
+        "Pista de pouso"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Plataforma de lançamento",
+        "descricao": "Instalação terrestre da qual um foguete ou veículo espacial é lançado verticalmente; aqui, uma plataforma com um ônibus espacial.",
+        "variantes": [
+          "Launch pad",
+          "Rampa de lançamento"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ilustração distinta com escudo térmico, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta sonda da NASA leva o nome de qual físico?",
+      "resposta": "Eugene Parker",
+      "distratores": [
+        "Edwin Hubble",
+        "Carl Sagan",
+        "James Van Allen"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sonda Solar Parker",
+        "descricao": "Sonda da NASA lançada em 2018 para observar a coroa do Sol, batizada em homenagem ao físico Eugene Parker.",
+        "variantes": [
+          "Parker Solar Probe",
+          "Solar Probe Plus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Seis vistas do mesmo asteroide, sem texto; forma alongada característica.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que sonda pousou neste asteroide, o primeiro pouso em um asteroide?",
+      "resposta": "NEAR Shoemaker",
+      "distratores": [
+        "Hayabusa",
+        "Dawn",
+        "Rosetta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Eros (asteroide)",
+        "descricao": "Asteroide alongado 433 Eros, próximo da Terra, explorado pela sonda NEAR Shoemaker.",
+        "variantes": [
+          "433 Eros",
+          "Eros"
+        ]
+      }
+    }
+  ]
+}

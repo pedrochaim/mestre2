@@ -310668,5 +310668,155 @@
       "licenca": "CC BY-SA 2.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q16222",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "rastro_de_estrelas",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que movimento da Terra explica os riscos de luz que aparecem nesta fotografia de longa exposição do céu noturno?",
+    "resposta": "Rotação da Terra",
+    "distratores": [
+      "Translação ao redor do Sol",
+      "Precessão do eixo",
+      "Órbita da Lua"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Star_trail",
+      "https://pt.wikipedia.org/wiki/Trilha_de_estrelas"
+    ],
+    "imagem": {
+      "arquivo": "q16222.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2012-03-14_21-42-55-file-etoiles-14f-2min-3d.jpg",
+      "autor": "Thomas Bresson",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q16223",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "voyager_2",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que sonda da NASA é esta?",
+    "resposta": "Voyager",
+    "distratores": [
+      "Pioneer",
+      "Galileo",
+      "Cassini"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Voyager_2",
+      "https://pt.wikipedia.org/wiki/Voyager_2"
+    ],
+    "imagem": {
+      "arquivo": "q16223.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft.jpg",
+      "autor": "NASA/JPL",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q16224",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "telescopio_espacial_spitzer",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de radiação este telescópio espacial observava?",
+    "resposta": "Infravermelho",
+    "distratores": [
+      "Raios X",
+      "Ultravioleta",
+      "Ondas de rádio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spitzer_Space_Telescope",
+      "https://pt.wikipedia.org/wiki/Telesc%C3%B3pio_espacial_Spitzer"
+    ],
+    "imagem": {
+      "arquivo": "q16224.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Spitzer_space_telescope.jpg",
+      "autor": "NASA/JPL-Caltech",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q16225",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "plataforma_de_lancamento",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de instalação espacial é esta, onde está um ônibus espacial?",
+    "resposta": "Plataforma de lançamento",
+    "distratores": [
+      "Prédio de montagem",
+      "Centro de controle",
+      "Pista de pouso"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Launch_pad",
+      "https://pt.wikipedia.org/wiki/Plataforma_de_lan%C3%A7amento"
+    ],
+    "imagem": {
+      "arquivo": "q16225.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stspad39baerial.jpg",
+      "autor": "NASA/Richard Clark",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q16226",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "sonda_solar_parker",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Esta sonda da NASA leva o nome de qual físico?",
+    "resposta": "Eugene Parker",
+    "distratores": [
+      "Edwin Hubble",
+      "Carl Sagan",
+      "James Van Allen"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Parker_Solar_Probe",
+      "https://pt.wikipedia.org/wiki/Parker_Solar_Probe"
+    ],
+    "imagem": {
+      "arquivo": "q16226.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Parker_Solar_Probe.jpg",
+      "autor": "NASA/Johns Hopkins APL/Steve Gribben",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q16227",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "eros_asteroide",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que sonda explorou este asteroide próximo da Terra entre 1998 e 2001?",
+    "resposta": "NEAR Shoemaker",
+    "distratores": [
+      "Hayabusa",
+      "Dawn",
+      "Rosetta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/433_Eros",
+      "https://pt.wikipedia.org/wiki/433_Eros"
+    ],
+    "imagem": {
+      "arquivo": "q16227.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:PIA02475_Eros'_Bland_Butterscotch_Colors.jpg",
+      "autor": "NASA/JPL/JHUAPL",
+      "licenca": "Public domain"
+    }
   }
 ]

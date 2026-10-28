@@ -65,6 +65,13 @@ def main():
     print(f"{len(avaliacoes)} avaliações gravadas em pipeline/banco/avaliacoes.json.")
     if not avaliacoes:
         return
+    # As da revisão (revisao.html) têm relatório próprio: python pipeline/revisao.py --relatorio.
+    revisao = [a for a in avaliacoes if a.get("partida") == "REVISAO"]
+    avaliacoes = [a for a in avaliacoes if a.get("partida") != "REVISAO"]
+    if revisao:
+        print(f"{len(revisao)} da revisão, fora deste relatório (python pipeline/revisao.py --relatorio).")
+    if not avaliacoes:
+        return
     # Avaliação sem nada marcado (quem lê desmarcou tudo) não diz nada e fica fora do relatório.
     vazias = [a for a in avaliacoes if not (a.get("dificuldade") or a.get("otima") or a.get("problemas") or a.get("comentario"))]
     avaliacoes = [a for a in avaliacoes if a not in vazias]

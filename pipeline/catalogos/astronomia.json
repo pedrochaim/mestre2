@@ -978,7 +978,7 @@
       "titulo": "en:Edmond Halley",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Nebulosa da Águia",
@@ -1363,7 +1363,7 @@
       "titulo": "en:433 Eros",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Reia (lua)",
@@ -1384,7 +1384,7 @@
       "titulo": "en:Tycho (lunar crater)",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Luz zodiacal",
@@ -1399,6 +1399,286 @@
       "camada": 3,
       "destino": 0,
       "status": "usada"
+    },
+    {
+      "nome": "Pôr do sol",
+      "titulo": "en:Sunset",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Nascer do sol",
+      "titulo": "en:Sunrise",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Céu noturno",
+      "titulo": "en:Night sky",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cápsula espacial",
+      "titulo": "en:Space capsule",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lançamento de foguete",
+      "titulo": "en:Rocket launch",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sonda espacial",
+      "titulo": "en:Space probe",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estação espacial",
+      "titulo": "en:Space station",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bandeira dos EUA na Lua",
+      "titulo": "en:Lunar Flag Assembly",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Radiotelescópio",
+      "titulo": "en:Radio telescope",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Imponderabilidade (gravidade zero)",
+      "titulo": "en:Weightlessness",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Satélite de comunicações",
+      "titulo": "en:Communications satellite",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Plataforma de lançamento",
+      "titulo": "en:Launch pad",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Voyager 2",
+      "titulo": "en:Voyager 2",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Apollo 8",
+      "titulo": "en:Apollo 8",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Christa McAuliffe",
+      "titulo": "en:Christa McAuliffe",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chris Hadfield",
+      "titulo": "en:Chris Hadfield",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Katherine Johnson",
+      "titulo": "en:Katherine Johnson",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Christiaan Huygens",
+      "titulo": "en:Christiaan Huygens",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Coração de Plutão (Tombaugh Regio)",
+      "titulo": "en:Tombaugh Regio",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Proeminência solar",
+      "titulo": "en:Solar prominence",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Halo solar",
+      "titulo": "en:22° halo",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sol da meia-noite",
+      "titulo": "en:Midnight sun",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rastro de estrelas",
+      "titulo": "en:Star trail",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Sonda Solar Parker",
+      "titulo": "en:Parker Solar Probe",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "VLS-1",
+      "titulo": "en:VLS-1",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pioneer 10",
+      "titulo": "en:Pioneer 10",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pã (lua de Saturno)",
+      "titulo": "en:Pan (moon)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dimorphos",
+      "titulo": "en:Dimorphos",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Galáxia do Girassol",
+      "titulo": "en:Sunflower Galaxy",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cruz de Einstein",
+      "titulo": "en:Einstein Cross",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Aglomerado da Bala",
+      "titulo": "en:Bullet Cluster",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nebulosa do Retângulo Vermelho",
+      "titulo": "en:Red Rectangle Nebula",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nebulosa da Ampulheta",
+      "titulo": "en:Hourglass Nebula",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "V838 Monocerotis",
+      "titulo": "en:V838 Monocerotis",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Objeto de Hanny",
+      "titulo": "en:Hanny's Voorwerp",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Philae",
+      "titulo": "en:Philae (spacecraft)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Telescópio Espacial Spitzer",
+      "titulo": "en:Spitzer Space Telescope",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Raio verde",
+      "titulo": "en:Green flash",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Clyde Tombaugh",
+      "titulo": "en:Clyde Tombaugh",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Messier 87",
+      "titulo": "en:Messier 87",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }
