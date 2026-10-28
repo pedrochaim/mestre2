@@ -6,3 +6,6 @@ app/.firebase/
 
 # Chave da API do TMDB (o repositório é público)
 pipeline/tmdb_chave.txt
+
+# Instante do último deploy, gravado a cada publicação (app/versao.js)
+app/public/versao.json

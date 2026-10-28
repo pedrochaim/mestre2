@@ -1,6 +1,9 @@
 {
   "hosting": {
     "public": "public",
+    "predeploy": [
+      "node versao.js"
+    ],
     "ignore": [
       "firebase.json",
       "**/.*"

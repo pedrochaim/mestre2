@@ -39,20 +39,18 @@
     .resposta { font-size: 1.2rem; font-weight: 700; color: var(--certo); margin: .5rem 0; }
     .repetida { display: inline-block; margin: .3rem 0 0 .3rem; padding: .1rem .6rem; border-radius: 999px;
                 border: 1px solid #f0b429; color: #f0b429; font-size: .8rem; font-weight: 700; }
-    /* Linear e Pokémon: o dado de 1 a 3, sorteado com a pergunta, diz quantas casas anda quem acertar. Rola uma vez,
-       quando aparece. */
+    /* Pokémon: o dado de 1 a 3, sorteado com a pergunta, diz quantas casas anda quem acertar. Rola uma vez,
+       quando aparece. O Linear não tem dado desde 2026-10-28: mostra só os avisos de bônus e de casa ★ (.bonus). */
     .dado { display: flex; align-items: center; gap: .55rem; margin: .6rem 0 .2rem; font-weight: 700; }
     .dado svg { width: 2.6rem; height: 2.6rem; flex: none; }
     .dado.rolando svg { animation: rolar .9s cubic-bezier(.2, .8, .3, 1.15) var(--atraso, 0s) both; }
     @keyframes rolar { from { transform: rotate(-660deg) scale(.3); opacity: 0; } to { transform: none; opacity: 1; } }
     @media (prefers-reduced-motion: reduce) { .dado.rolando svg { animation: none; } }
-    /* Dado da sorte (só no Linear): depois de dois erros seguidos, o dado sai 3, dourado e brilhando. */
-    .dado .brilho { animation: brilho 1.1s ease-in-out infinite alternate; }
-    @keyframes brilho { from { filter: drop-shadow(0 0 2px #ffd23f); }
-                        to { filter: drop-shadow(0 0 12px #ffd23f) drop-shadow(0 0 4px #fff8d6); } }
-    @media (prefers-reduced-motion: reduce) { .dado .brilho { animation: none; filter: drop-shadow(0 0 8px #ffd23f); } }
+    /* Linear: depois de dois erros seguidos, o acerto vale 2 casas (aviso dourado); na casa ★, o aviso do efeito dela. */
+    .bonus { margin: .6rem 0 .2rem; padding: .45rem .7rem; border: 1px solid var(--linha); border-radius: 12px; font-weight: 700; }
+    .bonus.sorte { color: #ffd23f; border-color: #ffd23f; box-shadow: 0 0 16px #ffd23f55; }
+    .bonus.especial { border-color: var(--acento); }
     .dado .sorte { color: #ffd23f; }
-    .dado.com-sorte { border: 1px solid #ffd23f; border-radius: 12px; padding: .45rem .7rem; box-shadow: 0 0 16px #ffd23f55; }
     #mesa-dado.com-sorte { border-color: #ffd23f; box-shadow: 0 0 1.4cqw #ffd23f99; }
     /* Na tela grande, o dado fica no canto inferior direito do tabuleiro, no espaço livre embaixo da trilha (no Pokémon,
        na grama à direita da legenda, com a mesma altura e o mesmo fundo dela); não ocupa espaço do cartão da pergunta. As medidas são frações da largura do
@@ -397,7 +395,7 @@
     </div>
     <div id="outros-modos" class="cartao" hidden>
       <button id="criar-linear" style="width:100%">Nova partida · Linear (protótipo)</button>
-      <p class="suave" style="margin:.3rem 0 .8rem">Todos na mesma trilha de 32 casas, com um dado de 1 a 3.</p>
+      <p class="suave" style="margin:.3rem 0 .8rem">Todos na mesma trilha de 32 casas; cada acerto, uma casa.</p>
       <!-- Modos temáticos: um universo só, com perguntas, tabuleiro e regras próprios. O Pokémon é o primeiro. -->
       <h2 class="grupo-modos">Modos temáticos</h2>
       <button id="criar-pokemon" style="width:100%">Nova partida · Pokémon</button>
@@ -524,11 +522,10 @@
           <p id="regras-linear-trilha" class="suave">Protótipo. Todos começam no Início e seguem a mesma trilha de
             32 casas, 3 de cada tema e 8 casas ★, até a Chegada. As ★ têm posição fixa; a ordem dos temas é sorteada
             em cada partida e se repete ao longo da trilha. A cor da casa do peão é o tema da próxima pergunta; no
-            Início e nas casas ★ a pergunta é de qualquer tema. Com a pergunta sai um dado de 1 a 3, que vale para
-            quem a recebeu: se acertar, anda esse número de casas; errar não move o peão. Se a pergunta aberta passa
-            adiante e outro acerta, ele anda uma casa. ✨ Dado da sorte: quem errou as duas últimas perguntas da sua vez
-            tira 3. As ações das casas ★ ainda serão definidas: por enquanto, o
-            grupo as aplica à mão, com − e + ou arrastando o peão.</p>
+            Início e nas casas ★ a pergunta é de qualquer tema. Cada acerto vale uma casa; errar não move o peão.
+            ✨ Quem errou as duas últimas perguntas da sua vez anda 2 casas no próximo acerto. ★ Na casa especial,
+            se quem está nela acerta, todos os que estão à frente dele voltam uma casa. Se a pergunta aberta passa
+            adiante e outro acerta, ele anda uma casa, sem bônus nem efeito da casa ★.</p>
           <p class="suave">A vez segue a ordem da lista de jogadores, e quem lê é o seguinte da fila. Se quem está
             na vez erra uma pergunta aberta, ela passa ao seguinte, pulando quem lê, até alguém acertar ou todos
             tentarem; a de múltipla escolha não passa. No modo mesa, a pergunta aparece para todos; a resposta, quando quem pergunta a mostra ou quando a rodada acaba.</p>
@@ -746,17 +743,17 @@
     return s;
   }
 
-  // Linear e Pokémon: o dado de 1 a 3 sai junto com a pergunta e vale só para quem ela foi feita: se essa pessoa acertar,
-  // anda o número do dado. Se a pergunta aberta passa adiante e outro acerta, ele anda uma casa.
+  // Pokémon: o dado de 1 a 3 sai junto com a pergunta e vale só para quem ela foi feita: se essa pessoa acertar,
+  // anda o número do dado. Se a pergunta aberta passa adiante e outro acerta, ele anda uma casa. O Linear não tem dado
+  // desde 2026-10-28: o campo "dado" dele é 2 no bônus de dois erros seguidos (com "sorte") e não existe nos outros.
   const rolarDado = () => 1 + Math.floor(Math.random() * 3);
   const PONTOS_DADO = { 1: [[50, 50]], 2: [[72, 28], [28, 72]], 3: [[72, 28], [50, 50], [28, 72]] };
-  const svgDado = (n, sorte = false) => `<svg viewBox="-8 -8 116 116" role="img" aria-label="Dado${sorte ? " da sorte" : ""}: ${n}">
-    <g${sorte ? ' class="brilho"' : ""}><rect x="6" y="6" width="88" height="88" rx="20" fill="${sorte ? "#fff3b8" : "#fff"}"
-    stroke="${sorte ? "#d99a00" : "#2a3a8c"}" stroke-width="6"/>${PONTOS_DADO[n].map(([x, y]) =>
+  const svgDado = n => `<svg viewBox="-8 -8 116 116" role="img" aria-label="Dado: ${n}">
+    <g><rect x="6" y="6" width="88" height="88" rx="20" fill="#fff" stroke="#2a3a8c" stroke-width="6"/>${PONTOS_DADO[n].map(([x, y]) =>
       `<circle cx="${x}" cy="${y}" r="10" fill="#e3350d"/>`).join("")}</g></svg>`;
-  // Dado da sorte (só no Linear, decidido em 2026-10-27): quem errou as duas últimas perguntas que recebeu na sua vez
-  // tira 3 no dado. Contam os sorteios com resultado, na ordem em que saíram, em que o jogador foi o primeiro a
-  // responder; os pulados sem pontuar não contam. Depois de um acerto, a conta recomeça.
+  // Bônus do Linear (2026-10-28; antes, o dado da sorte, que saía 3): quem errou as duas últimas perguntas que recebeu
+  // na sua vez anda 2 casas no próximo acerto. Contam os sorteios com resultado, na ordem em que saíram, em que o
+  // jogador foi o primeiro a responder; os pulados sem pontuar não contam. Depois de um acerto, a conta recomeça.
   const primeiraTentativa = r => r.tentativas?.[0] || (r.respondente ? r : null);
   function doisErrosSeguidos(id) {
     const meus = sorteios.filter(r => r.em && primeiraTentativa(r)?.respondente === id)
@@ -764,16 +761,33 @@
     return meus.length === 2 && meus.every(r => primeiraTentativa(r).acertou === false);
   }
   const casas = n => `${n} ${n === 1 ? "casa" : "casas"}`;
-  // Quantas casas anda quem acertar: o dado, se for quem recebeu a pergunta (original); uma casa, se for outro.
+  // Quantas casas anda quem acertar: o dado (no Linear, o bônus), se for quem recebeu a pergunta (original); uma casa,
+  // se for outro.
   const passosDe = (dado, original, quem) => dado && quem === original ? dado : 1;
-  // Cartão do Sorteio: o dado, que rola quando aparece, e o texto, que muda quando a pergunta passa adiante.
+  // Casa ★ do Linear (2026-10-28): se quem recebeu a pergunta numa casa especial acerta, os jogadores que estavam à
+  // frente dele voltam uma casa. Só vale para ele: quem acerta depois de a pergunta passar adiante anda uma casa.
+  const linearSemDado = () => ehLinear() && !ehPokemon();
+  const naEspecial = id => { const j = jogadores.find(x => x.id === id); return linearSemDado() && Boolean(j) && L.ehEspecial(casaDe(j)); };
+  // Cartão do Sorteio: o dado, que rola quando aparece, e o texto, que muda quando a pergunta passa adiante. No Linear,
+  // em vez do dado, os avisos do bônus e da casa ★.
   function desenharDadoAtual(rolar = false) {
     const caixa = $("atual-dado"), dado = atual?.dado;
+    const original = atual && (atual.tentativas[0]?.respondente || respondente);
+    if (atual && linearSemDado()) {
+      const nome = original ? nomeDe(original) : "quem recebeu a pergunta";
+      const avisos = [];
+      if (atual.sorte) avisos.push(el("p", { className: "bonus sorte", textContent: `✨ Dois erros seguidos: se ${nome} acertar, anda 2 casas`
+        + (atual.tentativas.length ? " · os outros, 1 casa." : ".") }));
+      if (original && naEspecial(original)) avisos.push(el("p", { className: "bonus especial",
+        textContent: `★ Casa especial: se ${nome} acertar, quem está à frente volta 1 casa.` }));
+      caixa.replaceChildren(...avisos);
+      $("acertou").textContent = `Acertou (+${passosDe(dado, original, respondente)})`;
+      return;
+    }
     if (!dado) return caixa.replaceChildren();
-    const original = atual.tentativas[0]?.respondente || respondente;
     if (rolar || !caixa.firstChild) {
-      const bloco = el("div", { className: "dado" + (rolar ? " rolando" : "") + (atual.sorte ? " com-sorte" : "") });
-      bloco.innerHTML = svgDado(dado, atual.sorte);
+      const bloco = el("div", { className: "dado" + (rolar ? " rolando" : "") });
+      bloco.innerHTML = svgDado(dado);
       bloco.append(el("span"));
       caixa.replaceChildren(bloco);
     }
@@ -781,7 +795,6 @@
     texto.textContent = original
       ? `Se ${nomeDe(original)} acertar, anda ${casas(dado)}${atual.tentativas.length ? " · os outros, 1 casa" : ""}`
       : `Quem acertar anda ${casas(dado)}`;
-    if (atual.sorte) texto.prepend(el("strong", { className: "sorte", textContent: "✨ Dado da sorte: dois erros seguidos, sai 3. " }));
     $("acertou").textContent = `Acertou (+${passosDe(dado, original, respondente)})`;
   }
   // Tela grande: o dado da pergunta à vista ("a", ou null), no canto do tabuleiro, com o nome de quem recebeu a
@@ -790,17 +803,29 @@
   let dadoVisto = null;  // {sorteio, desde}: o sorteio cujo dado a tela grande já rolou, e quando começou
   function desenharDadoMesa(a) {
     const caixa = $("mesa-dado");
+    if (a && linearSemDado()) {
+      // Linear: no lugar do dado, o bônus e, com a rodada em jogo, o efeito da casa ★ de quem recebeu a pergunta.
+      const original = a.tentaram?.[0] || a.respondente;
+      const nome = original ? esc(nomeDe(original)) : "";
+      const especial = !a.fim && original && naEspecial(original);
+      caixa.hidden = !a.sorte && !especial;
+      caixa.classList.remove("rolando");
+      caixa.classList.toggle("com-sorte", Boolean(a.sorte));
+      caixa.innerHTML = `<span>${a.sorte ? `<small class="sorte">✨ Dois erros seguidos${nome ? `: ${nome}` : ""}</small><strong>2 casas</strong>` : ""}`
+        + `${especial ? `<small>★ Casa especial: se acertar</small><strong>${a.sorte ? "e " : ""}os da frente voltam 1</strong>` : ""}</span>`;
+      return;
+    }
     caixa.hidden = !a?.dado;
     if (caixa.hidden) return;
     if (!revendo && dadoVisto?.sorteio !== a.sorteio) dadoVisto = { sorteio: a.sorteio, desde: Date.now() };
     const passou = revendo ? Infinity : Date.now() - dadoVisto.desde;
     caixa.classList.toggle("rolando", passou < 900);
-    caixa.classList.toggle("com-sorte", Boolean(a.sorte));
+    caixa.classList.remove("com-sorte");
     caixa.style.setProperty("--atraso", `-${passou < 900 ? passou : 0}ms`);
     // Quem recebeu a pergunta: o primeiro que tentou ou, se ninguém errou, quem responde.
     const original = a.tentaram?.[0] || a.respondente;
     const nome = original ? esc(nomeDe(original)) : "";
-    caixa.innerHTML = `${svgDado(a.dado, a.sorte)}<span>${a.sorte ? '<small class="sorte">✨ Dado da sorte</small>' : ""}`
+    caixa.innerHTML = `${svgDado(a.dado)}<span>`
       + `<small>${nome ? `Se ${nome} acertar, anda` : "Quem acertar anda"}</small>`
       + `<strong>${casas(a.dado)}</strong>${a.tentaram?.length ? "<small>Os outros: 1 casa</small>" : ""}</span>`;
   }
@@ -950,6 +975,8 @@
 
   // Temas e subtemas na ordem canônica, com as descrições (gerado pelo exportar_perguntas.py).
   const carregandoTemas = fetch("temas.json", { cache: "no-cache" }).then(r => r.json()).catch(() => []);
+  // Instante do último deploy, gravado pelo gancho predeploy (app/versao.js).
+  const carregandoVersao = fetch("versao.json", { cache: "no-cache" }).then(r => r.json()).catch(() => null);
   // Sons do modo mesa (seção sons), também creditados aqui.
   const carregandoSons = fetch("sons/sons.json", { cache: "no-cache" }).then(r => r.json()).catch(() => ({}));
 
@@ -989,6 +1016,12 @@
     const topo = el("div", { className: "cartao" });
     topo.append(totais, el("p", { className: "suave", style: "margin:.7rem 0 0",
       textContent: `${geral.audio ? `${numero(geral.audio)} perguntas com áudio, que toca na tela grande. ` : ""}${lista.length} temas e ${lista.reduce((s, t) => s + t.subtemas.length, 0)} subtemas. Toque num tema para ver a descrição e os subtemas.` }));
+    const versao = await carregandoVersao;
+    const publicada = versao?.publicada ? new Date(versao.publicada) : null;
+    if (publicada && !isNaN(publicada)) {
+      topo.append(el("p", { className: "suave", style: "margin:.4rem 0 0",
+        textContent: `Versão publicada em ${publicada.toLocaleDateString("pt-BR")} às ${publicada.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" })}.` }));
+    }
 
     // Resumo das regras (MANIFESTO §15 e §16), recolhido como os temas.
     const regras = el("details", { className: "tema-info regras-jogo" });
@@ -1014,15 +1047,17 @@
       <h3>Linear</h3>
       <ul>
         <li>Uma trilha de 32 casas, a mesma para todos. A cor da casa é o tema da pergunta; nas casas ★, qualquer tema.</li>
-        <li>Com a pergunta sai um dado de 1 a 3: quem a recebeu anda esse número de casas se acertar. Quem acerta
-          depois que ela passou adiante anda uma casa.</li>
-        <li>✨ <strong>Dado da sorte:</strong> quem errou as duas últimas perguntas da sua vez tira 3.</li>
+        <li>Cada acerto vale uma casa; errar não move o peão.</li>
+        <li>✨ Quem errou as duas últimas perguntas da sua vez anda <strong>2 casas</strong> no próximo acerto.</li>
+        <li>★ <strong>Casa especial:</strong> se quem está nela acerta, todos os que estão à frente dele voltam uma casa.</li>
+        <li>Quem acerta depois que a pergunta passou adiante anda uma casa, sem bônus nem efeito da casa ★.</li>
         <li>Vence quem chega primeiro à Chegada.</li>
       </ul>
       <h3>Pokémon (modo temático)</h3>
       <ul>
-        <li>As regras do Linear numa trilha de 60 casas, só com perguntas de pokémon. A casa diz o tipo de pergunta,
-          e o dado da sorte não vale.</li>
+        <li>Uma trilha de 60 casas, só com perguntas de pokémon. A casa diz o tipo de pergunta.</li>
+        <li>Com a pergunta sai um dado de 1 a 3: quem a recebeu anda esse número de casas se acertar. Quem acerta
+          depois que ela passou adiante anda uma casa.</li>
       </ul>`;
     regras.append(resumoRegras, corpoRegras);
 
@@ -1148,8 +1183,9 @@
     const p = sortearEmNiveis(candidatas, temaEscolhido);
     // Quem responde fica sendo o da vez (escolhido à mão ou não), e quem lê é o seguinte na fila.
     const base = jogadores.find(j => j.id === respondente) || vezM();
-    const sorte = ehLinear() && !ehPokemon() && Boolean(base) && doisErrosSeguidos(base.id);
-    const dado = sorte ? 3 : ehLinear() ? rolarDado() : null;
+    // Linear: sem dado; depois de dois erros seguidos, o acerto vale 2 ("dado" 2, com "sorte"). Pokémon: o dado de 1 a 3.
+    const sorte = linearSemDado() && Boolean(base) && doisErrosSeguidos(base.id);
+    const dado = sorte ? 2 : ehPokemon() ? rolarDado() : null;
     $("sortear").disabled = true;
     try {
       const ref = await addDoc(collection(db, "partidas", codigo, "sorteios"),
@@ -1183,8 +1219,8 @@
     $("barra-resultado").hidden = !revelado;
   }
 
-  // "sorteio" é o id do registro deste sorteio; "antes" é quantas vezes a pergunta já tinha saído; "dado", no Linear
-  // e no Pokémon, quantas casas anda quem acertar; "sorte", se é o dado da sorte do Linear.
+  // "sorteio" é o id do registro deste sorteio; "antes" é quantas vezes a pergunta já tinha saído; "dado", no Pokémon,
+  // quantas casas anda quem acertar (no Linear, 2 no bônus); "sorte", se é o bônus de dois erros seguidos do Linear.
   function mostrar(p, sorteio, antes, dado = null, sorte = false) {
     atual = { ...p, sorteio, opcoes: p.tipo === "multipla" ? embaralhar([p.resposta, ...(p.distratores || [])]) : null,
               tentativas: [], publica: false, tempo: null, dado, sorte };
@@ -1449,14 +1485,19 @@
     publicarAtual("erro");
   }
 
-  // Fecha a rodada: grava as tentativas, avança o peão de quem acertou (uma casa; no modo Pokémon, o dado, se for
-  // quem recebeu a pergunta) e passa a vez ao seguinte do da vez.
+  // Fecha a rodada: grava as tentativas, avança o peão de quem acertou (uma casa; no modo Pokémon, o dado, e no Linear,
+  // o bônus, se for quem recebeu a pergunta), aplica a casa ★ do Linear e passa a vez ao seguinte do da vez.
   async function encerrar(tentativas) {
     const ultima = tentativas[tentativas.length - 1];
-    const passos = passosDe(atual.dado, tentativas[0].respondente, ultima.respondente);
+    const original = tentativas[0].respondente;
+    const passos = passosDe(atual.dado, original, ultima.respondente);
     const batch = writeBatch(db);
     batch.update(doc(db, "partidas", codigo, "sorteios", atual.sorteio), { ...ultima, tentativas });
     if (ultima.acertou) batch.update(doc(db, "partidas", codigo, "jogadores", ultima.respondente), { pontos: increment(passos) });
+    const dono = jogadores.find(j => j.id === original);
+    const recuam = ultima.acertou && ultima.respondente === original && naEspecial(original)
+      ? jogadores.filter(j => j.id !== original && casaDe(j) > casaDe(dono) && casaDe(j) < chegadaDoModo()) : [];
+    for (const j of recuam) batch.update(doc(db, "partidas", codigo, "jogadores", j.id), { pontos: increment(-1) });
     const base = jogadores.find(j => j.id === atual.base);
     const quem = jogadores.find(j => j.id === ultima.respondente);
     const som = !ultima.acertou ? "erro" : quem && casaDe(quem) + passos >= chegadaDoModo() ? "vitoria" : "acerto";
@@ -1465,6 +1506,8 @@
     try {
       await batch.commit();
       fecharPergunta();
+      if (recuam.length) $("msg-sorteio").textContent = `★ Casa especial: ${recuam.map(j => j.nome).join(", ")} `
+        + `${recuam.length === 1 ? "voltou" : "voltaram"} 1 casa.`;
     } catch (e) {
       $("msg-sorteio").textContent = "Erro ao registrar: " + e.message;
     }
