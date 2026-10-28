@@ -1,0 +1,189 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Orangotango-de-bornéu",
+        "descricao": "Espécie de orangotango (Pongo pygmaeus) endêmica da ilha de Bornéu.",
+        "variantes": [
+          "Pongo pygmaeus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "orangotango",
+          "nome": "Orangotango",
+          "descricao": "Grandes primatas de pelagem avermelhada do gênero Pongo, nativos de Bornéu e Sumatra.",
+          "variantes": [
+            "Pongo",
+            "Orangutan",
+            "Orangutã"
+          ]
+        },
+        {
+          "id": "ponte_pegasus",
+          "nome": "Ponte Pegasus",
+          "descricao": "Ponte levadiça sobre o Canal de Caen, na Normandia, tomada por tropas aerotransportadas britânicas na madrugada do Dia D.",
+          "variantes": [
+            "Pegasus Bridge",
+            "Ponte de Bénouville"
+          ]
+        },
+        {
+          "id": "estadio_santiago_bernabeu",
+          "nome": "Estádio Santiago Bernabéu",
+          "descricao": "Estádio do Real Madrid, na capital espanhola, inaugurado em 1947.",
+          "variantes": [
+            "Santiago Bernabéu",
+            "Bernabéu"
+          ]
+        },
+        {
+          "id": "pokemon_go_plus",
+          "nome": "Pokémon Go Plus+",
+          "descricao": "Acessório em forma de Poké Bola lançado em 2023, que se conecta ao celular para capturar pokémon e registrar o sono.",
+          "variantes": []
+        },
+        {
+          "id": "helix_pomatia",
+          "nome": "Helix pomatia",
+          "descricao": "Caracol terrestre europeu grande, o tradicional escargot da culinária francesa.",
+          "variantes": [
+            "Caracol-de-borgonha",
+            "Escargot de Bourgogne",
+            "Caracol-romano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Orangotango-de-sumatra",
+        "descricao": "Espécie de orangotango (Pongo abelii) encontrada apenas no norte da ilha de Sumatra.",
+        "variantes": [
+          "Pongo abelii"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "orangotango",
+          "nome": "Orangotango",
+          "descricao": "Grandes primatas de pelagem avermelhada do gênero Pongo, nativos de Bornéu e Sumatra.",
+          "variantes": [
+            "Pongo",
+            "Orangutan",
+            "Orangutã"
+          ]
+        },
+        {
+          "id": "paolo_maldini",
+          "nome": "Paolo Maldini",
+          "descricao": "Ex-zagueiro e lateral italiano que passou toda a carreira no Milan e na seleção da Itália.",
+          "variantes": [
+            "Maldini"
+          ]
+        },
+        {
+          "id": "hexagono_de_saturno",
+          "nome": "Hexágono de Saturno",
+          "descricao": "Padrão de nuvens aproximadamente hexagonal e persistente em torno do polo norte do planeta Saturno.",
+          "variantes": [
+            "Hexágono polar de Saturno",
+            "Saturn's hexagon"
+          ]
+        },
+        {
+          "id": "francisco_jose_do_nascimento",
+          "nome": "Francisco José do Nascimento",
+          "descricao": "Jangadeiro cearense que liderou em 1881 a greve dos jangadeiros contra o embarque de escravizados em Fortaleza.",
+          "variantes": [
+            "Dragão do Mar",
+            "Chico da Matilde"
+          ]
+        },
+        {
+          "id": "torta_de_maca",
+          "nome": "Torta de maçã",
+          "descricao": "Torta de frutas cujo recheio principal é maçã, com massa quebradiça embaixo e em cima.",
+          "variantes": [
+            "Apple pie"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Miguelón (Crânio 5 de Atapuerca)",
+        "descricao": "Crânio muito bem preservado de hominínio da Sima de los Huesos, em Atapuerca, Espanha, de cerca de 430 mil anos.",
+        "variantes": [
+          "Miguelón",
+          "Crânio 5",
+          "Crânio 5 de Atapuerca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cranio",
+          "nome": "Crânio",
+          "descricao": "Estrutura óssea que envolve e protege o cérebro dos vertebrados.",
+          "variantes": [
+            "Caveira",
+            "Cabeça óssea"
+          ]
+        },
+        {
+          "id": "cranidos",
+          "nome": "Cranidos",
+          "descricao": "Pokémon do tipo Pedra, número 408 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "knm_er_1470",
+          "nome": "KNM-ER 1470",
+          "descricao": "Crânio fóssil de cerca de dois milhões de anos, achado em Koobi Fora, no Quênia, e tipo de Homo rudolfensis.",
+          "variantes": [
+            "Crânio 1470",
+            "Homo rudolfensis"
+          ]
+        },
+        {
+          "id": "cranios_de_paracas",
+          "nome": "Crânios de Paracas",
+          "descricao": "Crânios alongados encontrados nos sítios da cultura Paracas, no litoral sul do Peru.",
+          "variantes": [
+            "Paracas skulls"
+          ]
+        },
+        {
+          "id": "raio_x",
+          "nome": "Raio X",
+          "descricao": "Radiação eletromagnética de alta energia usada em radiografias.",
+          "variantes": [
+            "Raios X",
+            "Raios Röntgen",
+            "X-ray"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Espécie específica (Pongo pygmaeus) é distinta do gênero/grupo genérico Orangotango."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Espécie específica (Pongo abelii) é distinta do gênero genérico Orangotango."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Fóssil específico de Atapuerca; nenhuma candidata é o mesmo crânio."
+    }
+  ]
+}

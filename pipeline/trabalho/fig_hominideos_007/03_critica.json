@@ -1,0 +1,40 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia a espécie; 'grande primata asiático' só ajuda a restringir. Fato sustentado pelos trechos. Distratores plausíveis, do mesmo tipo e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta falha: o enunciado já dá espécie e país, e a resposta (Lago Turkana) vale para praticamente qualquer fóssil de H. ergaster no Quênia. A figura é enfeite, e a pergunta não exige reconhecer o crânio.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os distratores Gorila-ocidental e Chimpanzé-comum não são asiáticos, e o enunciado já diz 'asiático', então eliminam-se sozinhos. Troquei por alternativas críveis e asiáticas, evitando o orangotango-de-tapanuli, que é visualmente quase indistinguível.",
+      "reescrita": {
+        "pergunta": "Que espécie de grande primata asiático é este?",
+        "resposta": "Orangotango-de-sumatra",
+        "distratores": [
+          "Orangotango-de-bornéu",
+          "Gibão-de-mãos-brancas",
+          "Siamango"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Miguelón tem cerca de 430 mil anos e vem da Sima de los Huesos, em Atapuerca. O enunciado não nomeia o crânio nem o sítio. Os distratores são outros sítios reais de Atapuerca, curtos e do mesmo tipo.",
+      "reescrita": null
+    }
+  ]
+}

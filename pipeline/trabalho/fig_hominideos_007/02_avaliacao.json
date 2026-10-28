@@ -1,0 +1,140 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Macho adulto com grandes discos faciais, pelagem escura e face larga, típico de bornéu; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que espécie de grande primata asiático é este?",
+      "resposta": "Orangotango-de-bornéu",
+      "distratores": [
+        "Orangotango-de-sumatra",
+        "Orangotango-de-tapanuli",
+        "Gibão-de-mãos-brancas"
+      ],
+      "ancora": {
+        "nome": "Orangotango-de-bornéu",
+        "descricao": "Espécie de orangotango (Pongo pygmaeus) endêmica da ilha de Bornéu.",
+        "variantes": [
+          "Pongo pygmaeus",
+          "Orangotango de Bornéu"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano; imagem não mostra com clareza a caverna nem permite reconhecê-la."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "É um crânio de canídeo, não humano nem de hominídeo; não corresponde ao assunto."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Osso pequeno e desfocado, sem forma reconhecível; resposta não única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Crânio de museu em vista frontal, sem texto, nítido.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este crânio fóssil de Homo ergaster foi achado no Quênia, perto de que lago?",
+      "resposta": "Lago Turkana",
+      "distratores": [
+        "Lago Vitória",
+        "Lago Tanganica",
+        "Lago Malawi"
+      ],
+      "ancora": {
+        "nome": "KNM-ER 3733",
+        "descricao": "Crânio quase completo de Homo ergaster (ou Homo erectus africano) achado em 1975 em Koobi Fora, Quênia.",
+        "variantes": [
+          "KNM ER 3733"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Macho com discos faciais, pelagem laranja longa e barba, típico de sumatra; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que espécie de grande primata asiático é este?",
+      "resposta": "Orangotango-de-sumatra",
+      "distratores": [
+        "Orangotango-de-bornéu",
+        "Gorila-ocidental",
+        "Chimpanzé-comum"
+      ],
+      "ancora": {
+        "nome": "Orangotango-de-sumatra",
+        "descricao": "Espécie de orangotango (Pongo abelii) encontrada apenas no norte da ilha de Sumatra.",
+        "variantes": [
+          "Pongo abelii",
+          "Orangotango de Sumatra"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Placas legíveis na vitrine citam Grimaldi e Homo sapiens sapiens, entregando a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Ponta de bronze genérica, sem época nem origem reconhecíveis; resposta não única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Crânio bem conservado, nítido, fundo preto, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este crânio de cerca de 430 mil anos foi achado em que sítio da Serra de Atapuerca, na Espanha?",
+      "resposta": "Sima de los Huesos",
+      "distratores": [
+        "Gran Dolina",
+        "Sima del Elefante",
+        "Galería del Sílex"
+      ],
+      "ancora": {
+        "nome": "Miguelón (Crânio 5 de Atapuerca)",
+        "descricao": "Crânio muito bem preservado de hominínio da Sima de los Huesos, em Atapuerca, Espanha, de cerca de 430 mil anos.",
+        "variantes": [
+          "Miguelón",
+          "Crânio 5",
+          "Crânio 5 de Atapuerca"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Abrigo rochoso genérico, sem traços que permitam reconhecê-lo; resposta não única."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Etiqueta com o nome da espécie visível; além disso, é um amonite, fora do tema."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Placa legível com o nome Lufengpithecus lufengensis entrega a resposta."
+    }
+  ]
+}
