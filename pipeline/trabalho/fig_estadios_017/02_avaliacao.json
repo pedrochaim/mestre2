@@ -1,0 +1,159 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: 'Aston Villa Football Club' na fachada e 'Aston' na arquibancada."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O letreiro 'Chase Center' aparece em destaque na fachada e entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Aparecem logotipos do US Open e patrocinadores, e a quadra é parecida com a do Arthur Ashe, então a resposta não é única. Há ainda público comum em primeiro plano."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada do domo, sem texto, reconhecível e única.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que estádio é este?",
+      "resposta": "Astrodome",
+      "distratores": [
+        "Superdome",
+        "Silverdome",
+        "Kingdome"
+      ],
+      "ancora": {
+        "nome": "Astrodome",
+        "descricao": "Estádio coberto em formato de domo em Houston, Texas, inaugurado em 1965.",
+        "variantes": [
+          "Houston Astrodome",
+          "Reliant Astrodome"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A imagem mostra só a torcida e o gramado, sem elemento que identifique o estádio. A placa com o nome é ilegível no celular e o estádio é confundível com outros de torcida rubro-negra."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Arquibancada colorida característica, sem texto relevante, reconhecível para quem conhece o estádio.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que estádio brasileiro é este, de arquibancadas multicoloridas?",
+      "resposta": "Kleber Andrade",
+      "distratores": [
+        "Serra Dourada",
+        "Mangueirão",
+        "Arena Pantanal"
+      ],
+      "ancora": {
+        "nome": "Estádio Kleber Andrade",
+        "descricao": "Estádio de futebol em Cariacica, no Espírito Santo, com arquibancadas de cadeiras coloridas.",
+        "variantes": [
+          "Estádio Estadual Kleber José de Andrade",
+          "Kleberão"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Reta dos boxes de Interlagos, reconhecível, sem texto que entregue a resposta.",
+      "nivel": 3,
+      "familia": "com_o_que_se_liga",
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que piloto de Fórmula 1 dá nome a este autódromo?",
+      "resposta": "José Carlos Pace",
+      "distratores": [
+        "Ayrton Senna",
+        "Nelson Piquet",
+        "Emerson Fittipaldi"
+      ],
+      "ancora": {
+        "nome": "Autódromo de Interlagos",
+        "descricao": "Circuito de automobilismo em São Paulo, sede do Grande Prêmio do Brasil de Fórmula 1.",
+        "variantes": [
+          "Interlagos",
+          "Autódromo José Carlos Pace"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Marca d'água/assinatura '© Stefano Delfrate 2022' visível na imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Letreiros 'Estadio Atahualpa' e 'Concentración Deportiva de Pichincha' visíveis entregam a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "As letras 'PSV' nas arquibancadas entregam a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista aérea distintiva, sem texto legível, resposta única.",
+      "nivel": 1,
+      "familia": "onde",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que capital sul-americana fica este estádio?",
+      "resposta": "Lima",
+      "distratores": [
+        "Quito",
+        "Bogotá",
+        "La Paz"
+      ],
+      "ancora": {
+        "nome": "Estádio Nacional do Peru",
+        "descricao": "Estádio nacional multiuso de Lima, Peru, inaugurado em 1952.",
+        "variantes": [
+          "Estadio Nacional del Perú",
+          "Coloso de José Díaz"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Trampolim com torre de observação inconfundível, sem texto relevante.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que instalação esportiva é esta, palco de provas olímpicas de inverno?",
+      "resposta": "Trampolim de Bergisel",
+      "distratores": [
+        "Trampolim de Holmenkollen",
+        "Trampolim de Planica",
+        "Trampolim de Garmisch"
+      ],
+      "ancora": {
+        "nome": "Trampolim de Bergisel",
+        "descricao": "Trampolim de salto de esqui em Innsbruck, Áustria, projetado por Zaha Hadid.",
+        "variantes": [
+          "Bergiselschanze",
+          "Bergisel Ski Jump"
+        ]
+      }
+    }
+  ]
+}

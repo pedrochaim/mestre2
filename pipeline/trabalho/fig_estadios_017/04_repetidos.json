@@ -1,0 +1,55 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que piloto de Fórmula 1 dá nome a este autódromo?",
+        "resposta": "José Carlos Pace"
+      },
+      "existentes": [
+        {
+          "id": "q00548",
+          "pergunta": "Que circuito de Fórmula 1 é este?",
+          "resposta": "Interlagos"
+        },
+        {
+          "id": "q01560",
+          "pergunta": "O Autódromo de Interlagos leva oficialmente o nome de qual piloto brasileiro, morto num acidente aéreo em 1977?",
+          "resposta": "José Carlos Pace"
+        },
+        {
+          "id": "q01561",
+          "pergunta": "O autódromo de Interlagos fica entre quais duas grandes represas da cidade de São Paulo?",
+          "resposta": "Guarapiranga e Billings"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que instalação esportiva é esta, palco de provas olímpicas de inverno?",
+        "resposta": "Trampolim de Bergisel"
+      },
+      "existentes": [
+        {
+          "id": "q15199",
+          "pergunta": "Em que cidade austríaca fica este trampolim de saltos de esqui?",
+          "resposta": "Innsbruck"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q01560",
+      "motivo": "Ambas perguntam o piloto que dá nome ao autódromo de Interlagos; resposta José Carlos Pace."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Uma pergunta identifica a instalação (trampolim de Bergisel); a existente pergunta a cidade (Innsbruck). Fatos diferentes."
+    }
+  ]
+}
