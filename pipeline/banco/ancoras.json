@@ -80991,7 +80991,9 @@
     "descricao": "Tipo de bateria recarregável usada em celulares, notebooks e carros elétricos, cujo desenvolvimento ganhou o Nobel de Química de 2019.",
     "variantes": [
       "Bateria de lítio",
-      "Bateria de íons de lítio"
+      "Bateria de íons de lítio",
+      "Bateria de íon de lítio",
+      "Li-ion"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Lithium-ion_battery"
@@ -183866,7 +183868,8 @@
     "descricao": "Série de telefones celulares portáteis da Motorola, lançada comercialmente em 1984, apelidada de tijolão.",
     "variantes": [
       "DynaTAC 8000X",
-      "Motorola DynaTAC 8000"
+      "Motorola DynaTAC 8000",
+      "Tijolão"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/DynaTAC",
@@ -185056,7 +185059,8 @@
     "variantes": [
       "SIM card",
       "Chip do celular",
-      "Subscriber identity module"
+      "Subscriber identity module",
+      "Chip de celular"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/SIM_card",
@@ -200798,6 +200802,147 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Gerard_Piqu%C3%A9",
       "https://pt.wikipedia.org/wiki/Gerard_Piqu%C3%A9"
+    ]
+  },
+  {
+    "id": "blu_ray",
+    "nome": "Blu-ray",
+    "descricao": "Formato de disco óptico digital de alta capacidade, sucessor do DVD, lançado em 2006.",
+    "variantes": [
+      "Blu-ray Disc",
+      "BD"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Blu-ray"
+    ]
+  },
+  {
+    "id": "nfc",
+    "nome": "NFC",
+    "descricao": "Tecnologia de comunicação sem fio por aproximação, de alcance de poucos centímetros, usada em pagamentos com celular e cartão.",
+    "variantes": [
+      "Near-field communication",
+      "Comunicação por campo de proximidade"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Near-field_communication"
+    ]
+  },
+  {
+    "id": "unix",
+    "nome": "Unix",
+    "descricao": "Sistema operacional criado no fim dos anos 1960 nos Laboratórios Bell, base de muitos sistemas atuais.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Unix"
+    ]
+  },
+  {
+    "id": "memoria_ram",
+    "nome": "Memória RAM",
+    "descricao": "Memória de acesso aleatório do computador, que guarda temporariamente os dados em uso e os perde ao ser desligada.",
+    "variantes": [
+      "RAM",
+      "Memória de acesso aleatório"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Random-access_memory"
+    ]
+  },
+  {
+    "id": "pixel",
+    "nome": "Pixel",
+    "descricao": "Menor elemento de uma imagem digital ou de uma tela.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pixel"
+    ]
+  },
+  {
+    "id": "sistema_hexadecimal",
+    "nome": "Sistema hexadecimal",
+    "descricao": "Sistema de numeração de base dezesseis, muito usado na computação.",
+    "variantes": [
+      "Hexadecimal",
+      "Base 16"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hexadecimal"
+    ]
+  },
+  {
+    "id": "maquina_analitica",
+    "nome": "Máquina analítica",
+    "descricao": "Computador mecânico de uso geral projetado por Charles Babbage no século dezenove, nunca concluído.",
+    "variantes": [
+      "Analytical Engine"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Analytical_engine"
+    ]
+  },
+  {
+    "id": "nokia_3310",
+    "nome": "Nokia 3310",
+    "descricao": "Celular da Nokia lançado em 2000, famoso pela resistência e pela bateria duradoura.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nokia_3310"
+    ]
+  },
+  {
+    "id": "macintosh",
+    "nome": "Macintosh",
+    "descricao": "Linha de computadores pessoais da Apple, lançada em 1984.",
+    "variantes": [
+      "Mac"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mac_(computer)"
+    ]
+  },
+  {
+    "id": "youtube",
+    "nome": "YouTube",
+    "descricao": "Site de compartilhamento de vídeos criado em 2005 nos Estados Unidos e comprado pelo Google em 2006.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/YouTube"
+    ]
+  },
+  {
+    "id": "bliss_fotografia",
+    "nome": "Bliss (fotografia)",
+    "descricao": "Fotografia de uma colina verde sob céu azul, usada como papel de parede padrão do Windows XP.",
+    "variantes": [
+      "Bliss",
+      "Colina do Windows XP"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bliss_(image)"
+    ]
+  },
+  {
+    "id": "wikipedia",
+    "nome": "Wikipédia",
+    "descricao": "Enciclopédia on-line livre e colaborativa lançada em 2001.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Wikipedia"
+    ]
+  },
+  {
+    "id": "iphone",
+    "nome": "iPhone",
+    "descricao": "Linha de smartphones da Apple, apresentada por Steve Jobs em 2007.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/IPhone"
+    ]
+  },
+  {
+    "id": "javascript",
+    "nome": "JavaScript",
+    "descricao": "Linguagem de programação criada em 1995 por Brendan Eich, na Netscape, usada para dar interatividade às páginas da web.",
+    "variantes": [
+      "JS"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/JavaScript"
     ]
   }
 ]

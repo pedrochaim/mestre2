@@ -1,0 +1,727 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Qual destas empresas de tecnologia tem a origem mais antiga?",
+        "resposta": "Nokia"
+      },
+      "existentes": [
+        {
+          "id": "q03468",
+          "pergunta": "Antes de fabricar celulares, a finlandesa Nokia nasceu em 1865 como uma fábrica de quê?",
+          "resposta": "Celulose"
+        },
+        {
+          "id": "q06786",
+          "pergunta": "O famoso toque dos celulares Nokia foi tirado de uma valsa para violão de qual compositor espanhol?",
+          "resposta": "Francisco Tárrega"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Dos formatos de cartão SIM que se encaixam no celular, qual é o menor?",
+        "resposta": "Nano-SIM"
+      },
+      "existentes": [
+        {
+          "id": "q14896",
+          "pergunta": "Que cartão de chip é este, mostrado aqui em três tamanhos diferentes?",
+          "resposta": "Cartão SIM"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Qual destes computadores pioneiros ficou pronto antes dos outros?",
+        "resposta": "Z3, de Konrad Zuse"
+      },
+      "existentes": [
+        {
+          "id": "q06789",
+          "pergunta": "O Z3, computador programável concluído pelo alemão Konrad Zuse em 1941, teve qual destino em 1943?",
+          "resposta": "Foi destruído num bombardeio"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em ordem de lançamento, qual destes aparelhos da Apple veio antes dos outros?",
+        "resposta": "iPod"
+      },
+      "existentes": [
+        {
+          "id": "q15897",
+          "pergunta": "Em que ano foi lançada a primeira versão deste aparelho?",
+          "resposta": "2001"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em vez de chips, o ENIAC, concluído em 1945, fazia seus cálculos com cerca de dezoito mil peças de quê?",
+        "resposta": "Válvulas eletrônicas"
+      },
+      "existentes": [
+        {
+          "id": "q03462",
+          "pergunta": "O ENIAC, um dos primeiros computadores eletrônicos, concluído nos Estados Unidos em 1945, pesava aproximadamente quanto?",
+          "resposta": "Cerca de 27 toneladas"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O símbolo do Bluetooth junta as iniciais do rei Haroldo Dente-Azul escritas em qual tipo de alfabeto?",
+        "resposta": "Runas nórdicas"
+      },
+      "existentes": [
+        {
+          "id": "q00871",
+          "pergunta": "O nome Bluetooth homenageia um rei do século dez, apelidado de Dente Azul, que uniu as tribos de qual país?",
+          "resposta": "Dinamarca"
+        },
+        {
+          "id": "q06778",
+          "pergunta": "O nome da tecnologia sem fio Bluetooth homenageia qual rei viquingue do século dez?",
+          "resposta": "Haroldo Dente-Azul"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Na máquina Enigma, que conjunto de discos giratórios embaralhava as letras e avançava quando se apertavam as teclas?",
+        "resposta": "Rotores"
+      },
+      "existentes": [
+        {
+          "id": "q02121",
+          "pergunta": "Que engenheiro alemão inventou esta máquina, no início do século vinte?",
+          "resposta": "Arthur Scherbius"
+        },
+        {
+          "id": "q03622",
+          "pergunta": "Que máquina alemã da Segunda Guerra Mundial é esta?",
+          "resposta": "Enigma"
+        },
+        {
+          "id": "q06764",
+          "pergunta": "Durante a Segunda Guerra, em que propriedade inglesa Alan Turing e outros especialistas trabalhavam para decifrar as mensagens da máquina Enigma?",
+          "resposta": "Bletchley Park"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O mecanismo de Anticítera, calculador astronômico achado num naufrágio, é formado por dezenas de engrenagens de qual metal?",
+        "resposta": "Bronze"
+      },
+      "existentes": [
+        {
+          "id": "q03245",
+          "pergunta": "Achado em 1901 num naufrágio grego, o mecanismo de Anticítera, cheio de engrenagens de bronze, servia para quê?",
+          "resposta": "Prever posições dos astros e eclipses"
+        },
+        {
+          "id": "q03460",
+          "pergunta": "O mecanismo de Anticítera, um calculador astronômico de engrenagens achado num naufrágio, foi construído em que época?",
+          "resposta": "Grécia Antiga"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "No código Morse, a letra E, a mais usada da língua inglesa, é representada por quê?",
+        "resposta": "Um único ponto"
+      },
+      "existentes": [
+        {
+          "id": "q14253",
+          "pergunta": "Que código é este?",
+          "resposta": "Código Morse"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "As baterias recarregáveis da maioria dos celulares e notebooks funcionam com íons de qual metal?",
+        "resposta": "Lítio"
+      },
+      "existentes": [
+        {
+          "id": "q05484",
+          "pergunta": "Premiadas com o Nobel de Química de 2019, as baterias recarregáveis de celulares e carros elétricos levam o nome de que metal leve?",
+          "resposta": "Lítio"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Que animal é o mascote do sistema Linux, um personagem chamado Tux?",
+        "resposta": "Pinguim"
+      },
+      "existentes": [
+        {
+          "id": "q03457",
+          "pergunta": "Linus Torvalds começou a criar o Linux em 1991, quando era estudante universitário em qual país?",
+          "resposta": "Finlândia"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Até 2019, as versões do sistema Android recebiam apelidos de quê, em ordem alfabética?",
+        "resposta": "Doces e sobremesas"
+      },
+      "existentes": [
+        {
+          "id": "q03449",
+          "pergunta": "O sistema Android, dos celulares, é construído sobre o núcleo de qual sistema operacional livre?",
+          "resposta": "Linux"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Até 2015, as fotos publicadas no Instagram eram obrigadas a ter qual formato?",
+        "resposta": "Quadrado"
+      },
+      "existentes": [
+        {
+          "id": "q06759",
+          "pergunta": "Que engenheiro nascido em São Paulo fundou o Instagram em 2010, ao lado do americano Kevin Systrom?",
+          "resposta": "Mike Krieger"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Em 2021, o Banco da Inglaterra lançou uma cédula com o rosto de Alan Turing. De qual valor?",
+        "resposta": "Cinquenta libras"
+      },
+      "existentes": [
+        {
+          "id": "q01039",
+          "pergunta": "Quem é este matemático inglês, considerado o pai da ciência da computação teórica?",
+          "resposta": "Alan Turing"
+        },
+        {
+          "id": "q03435",
+          "pergunta": "Em 1952, o matemático Alan Turing foi condenado pela Justiça britânica por relação com outro homem. Que crime constava da condenação?",
+          "resposta": "Atentado ao pudor"
+        },
+        {
+          "id": "q05767",
+          "pergunta": "Durante a guerra, o matemático Alan Turing ajudou a decifrar os códigos alemães trabalhando em qual propriedade secreta inglesa?",
+          "resposta": "Bletchley Park"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Muito antes dos videogames, quando foi fundada em 1889, a Nintendo fabricava qual produto?",
+        "resposta": "Cartas de baralho hanafuda"
+      },
+      "existentes": [
+        {
+          "id": "q01345",
+          "pergunta": "Em qual cidade japonesa, antiga capital imperial, a Nintendo foi fundada e mantém sua sede até hoje?",
+          "resposta": "Quioto"
+        },
+        {
+          "id": "q01346",
+          "pergunta": "Quando foi fundada, em 1889, muito antes dos videogames, a Nintendo fabricava qual produto?",
+          "resposta": "Cartas de baralho hanafuda"
+        },
+        {
+          "id": "q06798",
+          "pergunta": "Qual destas empresas de eletrônicos e videogames foi fundada primeiro?",
+          "resposta": "Nintendo"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Nos resistores tradicionais, pequenos componentes eletrônicos, o valor da resistência costuma vir indicado de que forma?",
+        "resposta": "Por faixas coloridas"
+      },
+      "existentes": [
+        {
+          "id": "q14908",
+          "pergunta": "Que componente eletrônico é este?",
+          "resposta": "Resistor"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "O passarinho azul do logotipo do Twitter se chamava Larry, em homenagem a qual astro do basquete?",
+        "resposta": "Larry Bird"
+      },
+      "existentes": [
+        {
+          "id": "q03439",
+          "pergunta": "O limite original de cento e quarenta caracteres das mensagens do Twitter foi definido para que cada uma coubesse em quê?",
+          "resposta": "Numa mensagem SMS"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "O nome Microsoft surgiu da junção de quais duas palavras?",
+        "resposta": "Microcomputador e software"
+      },
+      "existentes": [
+        {
+          "id": "q03450",
+          "pergunta": "O primeiro produto da Microsoft, em 1975, foi uma versão da linguagem Basic para qual microcomputador?",
+          "resposta": "Altair 8800"
+        },
+        {
+          "id": "q06768",
+          "pergunta": "Antes de se mudar para a região de Seattle, a Microsoft foi fundada em 1975 em qual cidade do Novo México?",
+          "resposta": "Albuquerque"
+        },
+        {
+          "id": "q11908",
+          "pergunta": "Qual destas empresas de tecnologia foi fundada primeiro?",
+          "resposta": "Microsoft"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "O nome Wi-Fi foi criado por uma agência de marketing como trocadilho com qual termo do mundo dos aparelhos de som?",
+        "resposta": "Hi-fi, alta fidelidade"
+      },
+      "existentes": [
+        {
+          "id": "q00894",
+          "pergunta": "Que atriz de Hollywood coinventou, durante a Segunda Guerra, uma técnica de salto de frequência que mais tarde inspirou o Wi-Fi e o Bluetooth?",
+          "resposta": "Hedy Lamarr"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "O nome da rede social que foi febre no Brasil nos anos dois mil e era do Google homenageia quem?",
+        "resposta": "Seu criador, Orkut Büyükkökten"
+      },
+      "existentes": [
+        {
+          "id": "q06773",
+          "pergunta": "A rede social Orkut, que foi febre entre os brasileiros nos anos dois mil, foi desativada pelo Google em que ano?",
+          "resposta": "2014"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Na sigla QR Code, as letras QR vêm de duas palavras inglesas que significam o quê?",
+        "resposta": "Resposta rápida"
+      },
+      "existentes": [
+        {
+          "id": "q06788",
+          "pergunta": "O QR Code foi criado em 1994 por uma empresa japonesa com qual objetivo inicial?",
+          "resposta": "Rastrear peças de automóveis"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Uma das primeiras clientes da HP, a Disney, comprou osciladores de áudio da empresa para preparar o som de qual filme?",
+        "resposta": "Fantasia"
+      },
+      "existentes": [
+        {
+          "id": "q06763",
+          "pergunta": "Em 1939, Bill Hewlett e David Packard fundaram a HP numa garagem que hoje é considerada o berço do Vale do Silício. Em qual cidade californiana?",
+          "resposta": "Palo Alto"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Norman Woodland teve a ideia do código de barras ao esticar, na areia de uma praia, os sinais de qual código?",
+        "resposta": "Código Morse"
+      },
+      "existentes": [
+        {
+          "id": "q00893",
+          "pergunta": "Norman Woodland teve a ideia do código de barras na areia de uma praia de Miami, esticando para baixo os sinais de outro código. Qual?",
+          "resposta": "Código Morse"
+        },
+        {
+          "id": "q06775",
+          "pergunta": "A primeira compra com leitura de código de barras num caixa de supermercado americano foi um pacote de chiclete, em Ohio. Em que ano?",
+          "resposta": "1974"
+        },
+        {
+          "id": "q15702",
+          "pergunta": "Nos códigos de barras dos supermercados, os produtos registrados no Brasil costumam ter números que começam com qual sequência?",
+          "resposta": "789"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "O guatemalteco Luis von Ahn, um dos criadores do captcha, fundou depois qual aplicativo de ensino de idiomas?",
+        "resposta": "Duolingo"
+      },
+      "existentes": [
+        {
+          "id": "q03432",
+          "pergunta": "A sigla em inglês dos testes captcha, aqueles de digitar letras distorcidas, inclui o nome de qual cientista da computação?",
+          "resposta": "Alan Turing"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "O comercial 1984, que lançou o Macintosh no Super Bowl, faz referência ao romance de qual escritor britânico?",
+        "resposta": "George Orwell"
+      },
+      "existentes": [
+        {
+          "id": "q06757",
+          "pergunta": "Que cineasta, diretor de Alien e Blade Runner, dirigiu o famoso comercial de lançamento do Macintosh exibido no Super Bowl de 1984?",
+          "resposta": "Ridley Scott"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Em que universidade americana o Google nasceu, como projeto de doutorado de Larry Page e Sergey Brin?",
+        "resposta": "Universidade Stanford"
+      },
+      "existentes": [
+        {
+          "id": "q03426",
+          "pergunta": "O nome Google é uma brincadeira com um termo matemático que designa qual número?",
+          "resposta": "Googol, um seguido de cem zeros"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Em 2016, o conjunto original de emojis, criado para a operadora japonesa NTT Docomo, entrou no acervo de qual museu?",
+        "resposta": "MoMA, em Nova York"
+      },
+      "existentes": [
+        {
+          "id": "q00878",
+          "pergunta": "Apesar da semelhança, a palavra emoji não tem relação com emoção. Ela junta duas palavras japonesas que significam o quê?",
+          "resposta": "Imagem e caractere"
+        },
+        {
+          "id": "q03428",
+          "pergunta": "Apesar de lembrar a palavra emoção, o termo emoji vem de qual língua?",
+          "resposta": "Japonês"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "O transistor foi criado em 1947 por três físicos que depois dividiram um Nobel. Qual destes era um deles?",
+        "resposta": "William Shockley"
+      },
+      "existentes": [
+        {
+          "id": "q02113",
+          "pergunta": "Que componente eletrônico aparece nesta foto, em vários formatos?",
+          "resposta": "Transistor"
+        },
+        {
+          "id": "q03446",
+          "pergunta": "O transistor foi inventado em 1947 num laboratório americano cujo nome remete a qual inventor escocês?",
+          "resposta": "Alexander Graham Bell"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Em 1973, que engenheiro da Motorola fez a primeira ligação de um celular portátil, numa rua de Nova York?",
+        "resposta": "Martin Cooper"
+      },
+      "existentes": [
+        {
+          "id": "q14828",
+          "pergunta": "Que modelo de celular da Motorola é este?",
+          "resposta": "DynaTAC"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Segundo uma história famosa, a duração de cerca de setenta e quatro minutos do CD foi escolhida para caber inteira qual obra?",
+        "resposta": "Nona Sinfonia de Beethoven"
+      },
+      "existentes": [
+        {
+          "id": "q06754",
+          "pergunta": "Lançado comercialmente em 1982, o CD foi desenvolvido pela japonesa Sony em parceria com qual empresa holandesa?",
+          "resposta": "Philips"
+        },
+        {
+          "id": "q15714",
+          "pergunta": "O CD de música começou a ser vendido no Japão, e um dos primeiros títulos foi um disco de Billy Joel. Em que ano?",
+          "resposta": "1982"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Blaise Pascal criou sua calculadora mecânica, a pascalina, para ajudar o pai em qual trabalho?",
+        "resposta": "Cálculo de impostos"
+      },
+      "existentes": [
+        {
+          "id": "q01680",
+          "pergunta": "Que calculadora mecânica do século dezessete, de rodas giratórias, é esta?",
+          "resposta": "Pascalina"
+        },
+        {
+          "id": "q03317",
+          "pergunta": "Ainda jovem, Blaise Pascal construiu uma calculadora mecânica, a pascalina. Que trabalho do pai ela devia facilitar?",
+          "resposta": "Cálculo de impostos"
+        },
+        {
+          "id": "q04509",
+          "pergunta": "Ainda jovem, para ajudar o pai, que era cobrador de impostos, que pensador francês do século dezessete construiu uma calculadora mecânica?",
+          "resposta": "Blaise Pascal"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Em que ano a Sony lançou o Walkman, o toca-fitas portátil que popularizou ouvir música com fones na rua?",
+        "resposta": "1979"
+      },
+      "existentes": [
+        {
+          "id": "q04501",
+          "pergunta": "Muita gente associa o Walkman aos anos oitenta, mas a Sony lançou o tocador de fitas portátil antes. Em que ano?",
+          "resposta": "1979"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "O Intel 4004, de 1971, primeiro microprocessador comercial, tinha cerca de quantos transistores?",
+        "resposta": "Cerca de 2.300"
+      },
+      "existentes": [
+        {
+          "id": "q06790",
+          "pergunta": "O Intel 4004, de 1971, primeiro microprocessador comercial, foi encomendado por uma empresa japonesa para equipar qual tipo de aparelho?",
+          "resposta": "Calculadoras"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Comparação de origem mais antiga; fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Menor formato vs identificar cartão SIM."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Qual ficou pronto antes vs destino em 1943."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Comparação de lançamento entre aparelhos; fato diferente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Válvulas vs peso."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Alfabeto do símbolo é outro fato."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Rotores não perguntados antes."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Metal das engrenagens; o enunciado existente já cita bronze mas pergunta a função; fato diferente."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Representação da letra E é outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Existente pergunta o metal pelo nome das baterias com Nobel; mesmo fato (lítio nas baterias)."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Mascote vs país de Torvalds."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Apelidos vs núcleo Linux."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Formato das fotos vs fundador."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Cédula é outro fato."
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "id_existente": "q01346",
+      "motivo": "Mesma pergunta sobre produto de 1889."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Indicação da resistência vs identificar componente."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Nome do passarinho vs limite de caracteres."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Origem do nome é outro fato."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Origem do nome Wi-Fi vs Hedy Lamarr."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Origem do nome vs desativação."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Significado da sigla vs objetivo inicial."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Cliente Disney vs cidade."
+    },
+    {
+      "caso": 23,
+      "decisao": "repete",
+      "id_existente": "q00893",
+      "motivo": "Mesmo fato: código Morse na areia."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Duolingo vs sigla captcha."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Referência a Orwell vs diretor."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Universidade vs origem do nome."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Museu vs etimologia."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Inventores vs laboratório."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Engenheiro da primeira ligação vs identificar modelo."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Duração do CD vs outros fatos."
+    },
+    {
+      "caso": 31,
+      "decisao": "repete",
+      "id_existente": "q03317",
+      "motivo": "Mesmo fato: trabalho do pai (impostos)."
+    },
+    {
+      "caso": 32,
+      "decisao": "repete",
+      "id_existente": "q04501",
+      "motivo": "Mesmo ano de lançamento do Walkman."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Número de transistores vs encomenda."
+    }
+  ]
+}

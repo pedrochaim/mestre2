@@ -1,0 +1,1230 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "orkut",
+        "nome": "Orkut",
+        "descricao": "Rede social do Google lançada em 2004, extremamente popular no Brasil.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Orkut"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes sites, muito populares no Brasil nos anos dois mil, foi o primeiro a entrar no ar?",
+      "resposta": "Orkut",
+      "distratores": [
+        "Facebook",
+        "YouTube",
+        "Twitter"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Orkut",
+        "https://en.wikipedia.org/wiki/Facebook",
+        "https://en.wikipedia.org/wiki/YouTube"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "nokia",
+        "nome": "Nokia",
+        "descricao": "Empresa finlandesa de telecomunicações, fundada em 1865, famosa pelos seus telefones celulares.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nokia"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas empresas de tecnologia tem a origem mais antiga?",
+      "resposta": "Nokia",
+      "distratores": [
+        "IBM",
+        "Samsung",
+        "Sony"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nokia",
+        "https://en.wikipedia.org/wiki/IBM",
+        "https://en.wikipedia.org/wiki/Samsung",
+        "https://en.wikipedia.org/wiki/Sony"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cartao_sim",
+        "nome": "Cartão SIM",
+        "descricao": "Cartão com chip que armazena a identidade do assinante de telefonia móvel.",
+        "variantes": [
+          "SIM card",
+          "Chip de celular"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/SIM_card"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Dos formatos de cartão SIM que se encaixam no celular, qual é o menor?",
+      "resposta": "Nano-SIM",
+      "distratores": [
+        "Micro-SIM",
+        "Mini-SIM",
+        "SIM de tamanho completo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/SIM_card"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Blu-ray",
+        "descricao": "Formato de disco óptico digital de alta capacidade, sucessor do DVD, lançado em 2006.",
+        "variantes": [
+          "Blu-ray Disc",
+          "BD"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Blu-ray"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Num disco de uma só camada, qual destas mídias ópticas tem a maior capacidade?",
+      "resposta": "Blu-ray",
+      "distratores": [
+        "DVD",
+        "CD",
+        "MiniDisc"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Blu-ray",
+        "https://en.wikipedia.org/wiki/DVD"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "z3",
+        "nome": "Z3",
+        "descricao": "Computador eletromecânico programável concluído pelo engenheiro alemão Konrad Zuse em 1941.",
+        "variantes": [
+          "Zuse Z3"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Z3_(computer)"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes computadores pioneiros ficou pronto antes dos outros?",
+      "resposta": "Z3, de Konrad Zuse",
+      "distratores": [
+        "Colossus",
+        "ENIAC",
+        "UNIVAC I"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Z3_(computer)",
+        "https://en.wikipedia.org/wiki/Colossus_computer",
+        "https://en.wikipedia.org/wiki/ENIAC",
+        "https://en.wikipedia.org/wiki/UNIVAC_I"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ipod",
+        "nome": "iPod",
+        "descricao": "Linha de tocadores de mídia portáteis da Apple, lançada em 2001 e encerrada em 2022.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/IPod"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Em ordem de lançamento, qual destes aparelhos da Apple veio antes dos outros?",
+      "resposta": "iPod",
+      "distratores": [
+        "iPhone",
+        "iPad",
+        "Apple Watch"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/IPod",
+        "https://en.wikipedia.org/wiki/IPhone",
+        "https://en.wikipedia.org/wiki/IPad",
+        "https://en.wikipedia.org/wiki/Apple_Watch"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "NFC",
+        "descricao": "Tecnologia de comunicação sem fio por aproximação, de alcance de poucos centímetros, usada em pagamentos com celular e cartão.",
+        "variantes": [
+          "Near-field communication",
+          "Comunicação por campo de proximidade"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Near-field_communication"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "No celular, qual destas tecnologias sem fio funciona na menor distância, a poucos centímetros?",
+      "resposta": "NFC",
+      "distratores": [
+        "Bluetooth",
+        "Wi-Fi",
+        "4G"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Near-field_communication",
+        "https://en.wikipedia.org/wiki/Bluetooth"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Unix",
+        "descricao": "Sistema operacional criado no fim dos anos 1960 nos Laboratórios Bell, base de muitos sistemas atuais.",
+        "variantes": [
+          "UNIX"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Unix"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre estes sistemas operacionais, qual é o veterano, nascido ainda no fim dos anos sessenta?",
+      "resposta": "Unix",
+      "distratores": [
+        "MS-DOS",
+        "Windows",
+        "Linux"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Unix",
+        "https://en.wikipedia.org/wiki/MS-DOS"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Byte",
+        "descricao": "Unidade de informação digital formada por oito bits, base das medidas de armazenamento como megabyte e gigabyte.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Byte"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas unidades de armazenamento de dados equivale à maior quantidade?",
+      "resposta": "Petabyte",
+      "distratores": [
+        "Terabyte",
+        "Gigabyte",
+        "Megabyte"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Byte",
+        "https://en.wikipedia.org/wiki/Metric_prefix"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Memória RAM",
+        "descricao": "Memória de acesso aleatório do computador, que guarda temporariamente os dados em uso e os perde ao ser desligada.",
+        "variantes": [
+          "RAM",
+          "Memória de acesso aleatório"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Random-access_memory"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes componentes do computador esquece tudo o que guarda quando a energia é cortada?",
+      "resposta": "Memória RAM",
+      "distratores": [
+        "Disco rígido",
+        "SSD",
+        "Pen drive"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Random-access_memory",
+        "https://en.wikipedia.org/wiki/Volatile_memory"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pixel",
+        "descricao": "Menor elemento de uma imagem digital ou de uma tela.",
+        "variantes": [
+          "Píxel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pixel"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na maioria das telas coloridas, cada pixel é formado por pontinhos de quais três cores?",
+      "resposta": "Vermelho, verde e azul",
+      "distratores": [
+        "Vermelho, amarelo e azul",
+        "Ciano, magenta e amarelo",
+        "Vermelho, verde e amarelo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pixel",
+        "https://en.wikipedia.org/wiki/RGB_color_model"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "eniac",
+        "nome": "ENIAC",
+        "descricao": "Computador eletrônico digital de uso geral construído nos Estados Unidos e concluído em 1945.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/ENIAC"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Em vez de chips, o ENIAC, concluído em 1945, fazia seus cálculos com cerca de dezoito mil peças de quê?",
+      "resposta": "Válvulas eletrônicas",
+      "distratores": [
+        "Transistores",
+        "Engrenagens",
+        "Ímãs de ferrite"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/ENIAC"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sistema hexadecimal",
+        "descricao": "Sistema de numeração de base dezesseis, muito usado na computação.",
+        "variantes": [
+          "Hexadecimal",
+          "Base 16"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hexadecimal"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Além dos algarismos de zero a nove, que símbolos o sistema hexadecimal usa para chegar a dezesseis dígitos?",
+      "resposta": "Letras de A a F",
+      "distratores": [
+        "Letras de A a E",
+        "Letras de A a G",
+        "Letras gregas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hexadecimal"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Máquina analítica",
+        "descricao": "Computador mecânico de uso geral projetado por Charles Babbage no século dezenove, nunca concluído.",
+        "variantes": [
+          "Analytical Engine"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Analytical_engine"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na máquina analítica de Charles Babbage, a parte que fazia as contas, equivalente ao processador, tinha que nome?",
+      "resposta": "Moinho",
+      "distratores": [
+        "Armazém",
+        "Tear",
+        "Engenho"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Analytical_engine"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bluetooth",
+        "nome": "Bluetooth",
+        "descricao": "Padrão de comunicação sem fio de curto alcance entre aparelhos eletrônicos, criado nos anos noventa.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bluetooth"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O símbolo do Bluetooth junta as iniciais do rei Haroldo Dente-Azul escritas em qual tipo de alfabeto?",
+      "resposta": "Runas nórdicas",
+      "distratores": [
+        "Alfabeto grego",
+        "Hieróglifos egípcios",
+        "Alfabeto cirílico"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bluetooth"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "maquina_enigma",
+        "nome": "Máquina Enigma",
+        "descricao": "Máquina eletromecânica de cifrar com rotores, usada pelos militares alemães na Segunda Guerra Mundial.",
+        "variantes": [
+          "Enigma"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Enigma_machine"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Que peças giratórias da máquina Enigma mudavam de posição a cada tecla, trocando o embaralhamento das letras?",
+      "resposta": "Rotores",
+      "distratores": [
+        "Válvulas",
+        "Bobinas",
+        "Pistões"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Enigma_machine"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mecanismo_de_anticitera",
+        "nome": "Mecanismo de Anticítera",
+        "descricao": "Antigo aparelho grego de engrenagens, encontrado num naufrágio perto da ilha de Anticítera, usado para prever posições astronômicas.",
+        "variantes": [
+          "Máquina de Anticítera"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Antikythera_mechanism"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O mecanismo de Anticítera, calculador astronômico achado num naufrágio, é formado por dezenas de engrenagens de qual metal?",
+      "resposta": "Bronze",
+      "distratores": [
+        "Ferro",
+        "Ouro",
+        "Prata"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Antikythera_mechanism"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Nokia 3310",
+        "descricao": "Celular da Nokia lançado em 2000, famoso pela resistência e pela bateria duradoura.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nokia_3310"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Que jogo eletrônico vinha instalado no celular Nokia 3310, lançado em 2000?",
+      "resposta": "Snake, o jogo da cobrinha",
+      "distratores": [
+        "Tetris",
+        "Pac-Man",
+        "Pong"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nokia_3310",
+        "https://en.wikipedia.org/wiki/Snake_(video_game_genre)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Código Morse",
+        "descricao": "Sistema de representação de letras e números por sinais curtos e longos, pontos e traços, criado para o telégrafo.",
+        "variantes": [
+          "Morse"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Morse_code"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No código Morse, a letra E, a mais usada da língua inglesa, é representada por quê?",
+      "resposta": "Um único ponto",
+      "distratores": [
+        "Um único traço",
+        "Dois pontos",
+        "Um ponto e um traço"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Morse_code"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bateria de íon de lítio",
+        "descricao": "Tipo de bateria recarregável usada em celulares, notebooks e carros elétricos.",
+        "variantes": [
+          "Bateria de íons de lítio",
+          "Li-ion"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lithium-ion_battery"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "As baterias recarregáveis de celulares e notebooks usam, em geral, íons de qual metal leve?",
+      "resposta": "Lítio",
+      "distratores": [
+        "Níquel",
+        "Chumbo",
+        "Cádmio"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lithium-ion_battery"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "linux",
+        "nome": "Linux",
+        "descricao": "Núcleo de sistema operacional livre criado por Linus Torvalds em 1991.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Linux"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Que animal é o mascote do sistema Linux, um personagem chamado Tux?",
+      "resposta": "Pinguim",
+      "distratores": [
+        "Raposa",
+        "Coruja",
+        "Tartaruga"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tux_(mascot)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "android",
+        "nome": "Android",
+        "descricao": "Sistema operacional para celulares e tablets desenvolvido pelo Google.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Android_(operating_system)"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Até 2019, as versões do sistema Android recebiam apelidos de quê, em ordem alfabética?",
+      "resposta": "Doces e sobremesas",
+      "distratores": [
+        "Planetas",
+        "Animais",
+        "Cidades americanas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Android_version_history"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "instagram",
+        "nome": "Instagram",
+        "descricao": "Rede social de compartilhamento de fotos e vídeos lançada em 2010.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Instagram"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Até 2015, as fotos publicadas no Instagram eram obrigadas a ter qual formato?",
+      "resposta": "Quadrado",
+      "distratores": [
+        "Circular",
+        "Panorâmico",
+        "Vertical"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Instagram"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "alan_turing",
+        "nome": "Alan Turing",
+        "descricao": "Matemático e lógico inglês (1912–1954), pai da ciência da computação teórica.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alan_Turing"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em 2021, o Banco da Inglaterra lançou uma cédula com o rosto de Alan Turing. De qual valor?",
+      "resposta": "Cinquenta libras",
+      "distratores": [
+        "Cinco libras",
+        "Dez libras",
+        "Vinte libras"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bank_of_England_%C2%A350_note",
+        "https://en.wikipedia.org/wiki/Alan_Turing"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "nintendo",
+        "nome": "Nintendo",
+        "descricao": "Empresa japonesa de videogames fundada em 1889, criadora de Mario e Zelda.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nintendo"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Muito antes dos videogames, quando foi fundada em 1889, a Nintendo fabricava qual produto?",
+      "resposta": "Cartas de baralho hanafuda",
+      "distratores": [
+        "Brinquedos de madeira",
+        "Relógios de pulso",
+        "Máquinas de costura"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nintendo",
+        "https://en.wikipedia.org/wiki/Hanafuda"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "resistor",
+        "nome": "Resistor",
+        "descricao": "Componente eletrônico passivo de dois terminais que oferece resistência à passagem da corrente elétrica.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Resistor"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Nos resistores tradicionais, pequenos componentes eletrônicos, o valor da resistência costuma vir indicado de que forma?",
+      "resposta": "Por faixas coloridas",
+      "distratores": [
+        "Por furos na carcaça",
+        "Pelo formato da peça",
+        "Pelo tamanho dos terminais"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Electronic_color_code",
+        "https://en.wikipedia.org/wiki/Resistor"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ada_lovelace",
+        "nome": "Ada Lovelace",
+        "descricao": "Matemática inglesa (1815–1852), considerada a primeira programadora de computadores.",
+        "variantes": [
+          "Augusta Ada King"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ada_Lovelace"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Ada Lovelace, considerada a primeira programadora da história, era filha de qual poeta romântico inglês?",
+      "resposta": "Lord Byron",
+      "distratores": [
+        "Percy Shelley",
+        "John Keats",
+        "William Wordsworth"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ada_Lovelace"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "twitter",
+        "nome": "Twitter",
+        "descricao": "Rede social de mensagens curtas criada em 2006 nos Estados Unidos.",
+        "variantes": [
+          "X"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Twitter"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O passarinho azul do logotipo do Twitter se chamava Larry, em homenagem a qual astro do basquete?",
+      "resposta": "Larry Bird",
+      "distratores": [
+        "Magic Johnson",
+        "Michael Jordan",
+        "Kareem Abdul-Jabbar"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Twitter"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "microsoft",
+        "nome": "Microsoft",
+        "descricao": "Empresa americana de software fundada em 1975 por Bill Gates e Paul Allen.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Microsoft"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome Microsoft surgiu da junção de quais duas palavras?",
+      "resposta": "Microcomputador e software",
+      "distratores": [
+        "Microchip e software",
+        "Microfone e software",
+        "Microeletrônica e software"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Microsoft"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Wi-Fi",
+        "descricao": "Família de padrões de rede local sem fio usada para conectar aparelhos à internet.",
+        "variantes": [
+          "Wifi",
+          "WiFi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wi-Fi"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome Wi-Fi foi criado por uma agência de marketing como trocadilho com qual termo do mundo dos aparelhos de som?",
+      "resposta": "Hi-fi, alta fidelidade",
+      "distratores": [
+        "Estéreo",
+        "Dolby",
+        "Walkman"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wi-Fi"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Macintosh",
+        "descricao": "Linha de computadores pessoais da Apple, lançada em 1984.",
+        "variantes": [
+          "Mac"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mac_(computer)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome Macintosh, do computador da Apple lançado em 1984, vem de quê?",
+      "resposta": "Uma variedade de maçã",
+      "distratores": [
+        "Uma cidade escocesa",
+        "Um engenheiro da Apple",
+        "Uma capa de chuva"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mac_(computer)",
+        "https://en.wikipedia.org/wiki/Macintosh_128K"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "orkut",
+        "nome": "Orkut",
+        "descricao": "Rede social do Google lançada em 2004, extremamente popular no Brasil.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Orkut"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A rede social Orkut, febre no Brasil nos anos dois mil, recebeu o nome de quem?",
+      "resposta": "Seu criador, um engenheiro turco",
+      "distratores": [
+        "Um bairro de Istambul",
+        "Uma deusa turca",
+        "Uma ave asiática"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Orkut",
+        "https://en.wikipedia.org/wiki/Orkut_B%C3%BCy%C3%BCkk%C3%B6kten"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "qr_code",
+        "nome": "QR Code",
+        "descricao": "Código de barras bidimensional, em forma de quadrado, criado em 1994 pela japonesa Denso Wave.",
+        "variantes": [
+          "Código QR"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/QR_code"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Na sigla QR Code, as letras QR vêm de duas palavras inglesas que significam o quê?",
+      "resposta": "Resposta rápida",
+      "distratores": [
+        "Código rápido",
+        "Quadrado de registro",
+        "Leitura de qualidade"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/QR_code"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "hewlett_packard",
+        "nome": "Hewlett-Packard",
+        "descricao": "Empresa americana de tecnologia fundada em 1939 por Bill Hewlett e David Packard.",
+        "variantes": [
+          "HP"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hewlett-Packard"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Uma das primeiras clientes da HP, a Disney, comprou osciladores de áudio da empresa para preparar o som de qual filme?",
+      "resposta": "Fantasia",
+      "distratores": [
+        "Branca de Neve",
+        "Pinóquio",
+        "Dumbo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hewlett-Packard"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "codigo_de_barras",
+        "nome": "Código de barras",
+        "descricao": "Representação de dados em barras paralelas lidas por scanners, criada por Norman Joseph Woodland e Bernard Silver.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Barcode"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Norman Woodland teve a ideia do código de barras ao esticar, na areia de uma praia, os sinais de qual código?",
+      "resposta": "Código Morse",
+      "distratores": [
+        "Braille",
+        "Código binário",
+        "Alfabeto semafórico"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Barcode",
+        "https://en.wikipedia.org/wiki/Norman_Joseph_Woodland"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "YouTube",
+        "descricao": "Site de compartilhamento de vídeos criado em 2005 nos Estados Unidos e comprado pelo Google em 2006.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/YouTube"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Os três fundadores do YouTube, criado em 2005, tinham sido colegas de trabalho em qual empresa?",
+      "resposta": "PayPal",
+      "distratores": [
+        "Google",
+        "Yahoo",
+        "eBay"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/YouTube"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "captcha",
+        "nome": "CAPTCHA",
+        "descricao": "Teste automático usado em sites para distinguir pessoas de programas, como digitar letras distorcidas.",
+        "variantes": [
+          "Captcha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/CAPTCHA"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O guatemalteco Luis von Ahn, um dos criadores do captcha, fundou depois qual aplicativo de ensino de idiomas?",
+      "resposta": "Duolingo",
+      "distratores": [
+        "Babbel",
+        "Rosetta Stone",
+        "Busuu"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Luis_von_Ahn"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "1984_comercial_da_apple",
+        "nome": "1984 (comercial da Apple)",
+        "descricao": "Comercial de televisão que apresentou o computador Macintosh, exibido no Super Bowl de 1984.",
+        "variantes": [
+          "1984 (advertisement)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1984_(advertisement)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O comercial 1984, que lançou o Macintosh no Super Bowl, faz referência ao romance de qual escritor britânico?",
+      "resposta": "George Orwell",
+      "distratores": [
+        "Aldous Huxley",
+        "H. G. Wells",
+        "Anthony Burgess"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1984_(advertisement)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bliss (fotografia)",
+        "descricao": "Fotografia de uma colina verde sob céu azul, usada como papel de parede padrão do Windows XP.",
+        "variantes": [
+          "Bliss",
+          "Colina do Windows XP"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bliss_(image)"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A famosa foto de uma colina verde sob céu azul, papel de parede padrão do Windows XP, foi tirada em que lugar?",
+      "resposta": "Califórnia, nos Estados Unidos",
+      "distratores": [
+        "Irlanda",
+        "Nova Zelândia",
+        "Suíça"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bliss_(image)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "google",
+        "nome": "Google",
+        "descricao": "Empresa americana de tecnologia fundada em 1998 por Larry Page e Sergey Brin, dona do buscador de mesmo nome.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Google"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em que universidade americana o Google nasceu, como projeto de doutorado de Larry Page e Sergey Brin?",
+      "resposta": "Universidade Stanford",
+      "distratores": [
+        "Universidade Harvard",
+        "MIT",
+        "Universidade da Califórnia, Berkeley"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Google"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "emoji",
+        "nome": "Emoji",
+        "descricao": "Pictogramas usados em mensagens digitais, surgidos nos celulares japoneses no fim dos anos noventa.",
+        "variantes": [
+          "Emojis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Emoji"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 2016, o conjunto original de emojis, criado para a operadora japonesa NTT Docomo, entrou no acervo de qual museu?",
+      "resposta": "MoMA, em Nova York",
+      "distratores": [
+        "Museu Britânico",
+        "Museu do Louvre",
+        "Museu Guggenheim"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Emoji"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "transistor",
+        "nome": "Transistor",
+        "descricao": "Dispositivo semicondutor usado para amplificar ou chavear sinais elétricos, bloco básico da eletrônica moderna.",
+        "variantes": [
+          "Transístor"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Transistor"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "O transistor foi criado em 1947 por três físicos que depois dividiram um Nobel. Qual destes era um deles?",
+      "resposta": "William Shockley",
+      "distratores": [
+        "Jack Kilby",
+        "Robert Noyce",
+        "Gordon Moore"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Transistor",
+        "https://en.wikipedia.org/wiki/William_Shockley"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Wikipédia",
+        "descricao": "Enciclopédia on-line livre e colaborativa lançada em 2001.",
+        "variantes": [
+          "Wikipedia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wikipedia"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Ao lado de Larry Sanger, que empresário americano fundou a Wikipédia em 2001?",
+      "resposta": "Jimmy Wales",
+      "distratores": [
+        "Ward Cunningham",
+        "Larry Page",
+        "Jack Dorsey"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wikipedia",
+        "https://en.wikipedia.org/wiki/Jimmy_Wales"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "motorola_dynatac",
+        "nome": "Motorola DynaTAC",
+        "descricao": "Série de telefones celulares portáteis da Motorola, lançada comercialmente em 1984, apelidada de tijolão.",
+        "variantes": [
+          "Tijolão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Motorola_DynaTAC"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1973, que engenheiro da Motorola fez a primeira ligação de um celular portátil, numa rua de Nova York?",
+      "resposta": "Martin Cooper",
+      "distratores": [
+        "Joel Engel",
+        "Robert Noyce",
+        "Ray Tomlinson"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Motorola_DynaTAC",
+        "https://en.wikipedia.org/wiki/Martin_Cooper_(inventor)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cd",
+        "nome": "CD",
+        "descricao": "Disco óptico digital para gravar áudio e dados, lançado comercialmente em 1982.",
+        "variantes": [
+          "Compact disc",
+          "Disco compacto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Compact_disc"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Segundo uma história famosa, a duração de cerca de setenta e quatro minutos do CD foi escolhida para caber inteira qual obra?",
+      "resposta": "Nona Sinfonia de Beethoven",
+      "distratores": [
+        "As Quatro Estações",
+        "Réquiem de Mozart",
+        "Messias de Händel"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Compact_disc"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pascalina",
+        "nome": "Pascalina",
+        "descricao": "Calculadora mecânica de rodas inventada por Blaise Pascal em 1642.",
+        "variantes": [
+          "Calculadora de Pascal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pascal%27s_calculator"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Blaise Pascal criou sua calculadora mecânica, a pascalina, para ajudar o pai em qual trabalho?",
+      "resposta": "Cálculo de impostos",
+      "distratores": [
+        "Navegação marítima",
+        "Comércio de tecidos",
+        "Engenharia militar"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pascal%27s_calculator"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "iPhone",
+        "descricao": "Linha de smartphones da Apple, apresentada por Steve Jobs em 2007.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/IPhone"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que ano Steve Jobs apresentou o primeiro iPhone, num evento em São Francisco?",
+      "resposta": "2007",
+      "distratores": [
+        "2005",
+        "2006",
+        "2008"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/IPhone_(1st_generation)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Walkman",
+        "descricao": "Linha de tocadores portáteis da Sony, iniciada com um toca-fitas com fones de ouvido.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Walkman"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que ano a Sony lançou o Walkman, o toca-fitas portátil que popularizou ouvir música com fones na rua?",
+      "resposta": "1979",
+      "distratores": [
+        "1975",
+        "1982",
+        "1985"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Walkman"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "intel_4004",
+        "nome": "Intel 4004",
+        "descricao": "Microprocessador de quatro bits lançado pela Intel em 1971.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Intel_4004"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O Intel 4004, de 1971, primeiro microprocessador comercial, tinha cerca de quantos transistores?",
+      "resposta": "Cerca de 2.300",
+      "distratores": [
+        "Cerca de 230",
+        "Cerca de 23 mil",
+        "Cerca de 2,3 milhões"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Intel_4004"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "JavaScript",
+        "descricao": "Linguagem de programação criada em 1995 por Brendan Eich, na Netscape, usada para dar interatividade às páginas da web.",
+        "variantes": [
+          "JS"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/JavaScript"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em 1995, o programador Brendan Eich escreveu a primeira versão da linguagem JavaScript em cerca de quanto tempo?",
+      "resposta": "Dez dias",
+      "distratores": [
+        "Três meses",
+        "Seis meses",
+        "Dois anos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brendan_Eich",
+        "https://en.wikipedia.org/wiki/JavaScript"
+      ]
+    }
+  ]
+}

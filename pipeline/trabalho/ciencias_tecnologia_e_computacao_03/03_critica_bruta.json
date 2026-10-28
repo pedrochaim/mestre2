@@ -1,0 +1,397 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Facebook não era muito popular no Brasil nos anos dois mil e entrou no ar onze dias depois do Orkut; premissa falha e fato fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nokia (1865) é claramente a mais antiga; distratores críveis e fato verificável.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nano-SIM é o menor formato de cartão físico, sustentado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Blu-ray de 25 GB supera DVD, CD e MiniDisc; correta e sem ambiguidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Z3 (1941) precede Colossus, ENIAC e UNIVAC I.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "iPod (2001) veio antes de iPhone, iPad e Apple Watch.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "NFC opera a cerca de 4 cm, bem menos que as demais.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Unix começou em 1969; os outros são posteriores.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fato trivial (petabyte é o maior nome da lista), sem graça nem profundidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "RAM é volátil; os outros três guardam dados sem energia.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pixel de tela colorida é composto por pontos vermelho, verde e azul.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "ENIAC tinha cerca de 18 mil válvulas, conforme a fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hexadecimal usa as letras A a F para os valores 10 a 15.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O moinho (mill) era a unidade de cálculo; 'armazém' é um bom distrator.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O logotipo funde runas do Futhark Jovem, iniciais de Harald.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Nem todos os rotores giravam a cada tecla e os distratores (válvulas, bobinas, pistões) não eram críveis; melhor aberta e precisa.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Na máquina Enigma, que conjunto de discos giratórios embaralhava as letras e avançava quando se apertavam as teclas?",
+        "resposta": "Rotores",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Enigma_machine"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As engrenagens do mecanismo eram de bronze.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O 3310 trazia quatro jogos, então a pergunta original tinha mais de uma resposta defensável; perguntar a versão da cobrinha resolve.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "O Nokia 3310, lançado em 2000, vinha com um jogo da cobrinha. Qual era a versão?",
+        "resposta": "Snake II",
+        "distratores": [
+          "Snake EX",
+          "Snake III",
+          "Snake Xenzia"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Nokia_3310"
+        ]
+      }
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "E é um único ponto no Morse; distratores são códigos de outras letras.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O adjetivo 'leve' entrega a resposta, pois os distratores são metais pesados.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "As baterias recarregáveis da maioria dos celulares e notebooks funcionam com íons de qual metal?",
+        "resposta": "Lítio",
+        "distratores": [
+          "Níquel",
+          "Chumbo",
+          "Cádmio"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Lithium-ion_battery"
+        ]
+      }
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tux é um pinguim, mascote oficial do Linux.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nomes de doces em ordem alfabética até o Android 9, abandonados em 2019.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Instagram limitava as fotos ao formato quadrado até 2015; a fonte confirma a limitação original.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A nota de £50 com Turing entrou em circulação em 2021.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nintendo fabricava cartas hanafuda desde 1889.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Resistores tradicionais usam código de cores em faixas.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ada Lovelace era filha legítima de Lord Byron.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O pássaro 'Larry the Bird' foi nomeado por Larry Bird.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Microsoft vem de microcomputer e software, fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Wi-Fi foi escolhido pela Interbrand por soar como Hi-Fi.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O nome vem da maçã McIntosh; distrator da capa de chuva é bom.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta e distratores eram de categorias desencontradas e pouco críveis; melhor aberta com o nome do criador.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome da rede social que foi febre no Brasil nos anos dois mil e era do Google homenageia quem?",
+        "resposta": "Seu criador, Orkut Büyükkökten",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Orkut",
+          "https://en.wikipedia.org/wiki/Orkut_B%C3%BCy%C3%BCkk%C3%B6kten"
+        ]
+      }
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "QR significa quick response, resposta rápida.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Disney comprou osciladores HP 200B para Fantasia; distratores são filmes da mesma época.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Woodland desenhou pontos e traços do Morse na areia da praia.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os três fundadores eram ex-funcionários do PayPal.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Luis von Ahn cofundou o Duolingo e criou o reCAPTCHA.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O comercial referencia o romance de George Orwell.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bliss foi fotografada na Califórnia, perto da divisa dos condados de Napa e Sonoma.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Page e Brin criaram o Google como pesquisa de doutorado em Stanford.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O MoMA adquiriu o conjunto original de emojis da NTT DoCoMo em 2016.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Shockley foi um dos três inventores e dividiu o Nobel de 1956.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jimmy Wales cofundou a Wikipédia com Larry Sanger.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Martin Cooper fez a primeira ligação em 1973 na Sexta Avenida; Joel Engel é um distrator esperto.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte registra a capacidade definida para caber a Nona de Beethoven; a pergunta diz 'segundo uma história famosa'.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pascal criou a máquina por causa do trabalho do pai com impostos.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jobs apresentou o iPhone em 9 de janeiro de 2007 em São Francisco.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Walkman lançado em 1979.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O 4004 tinha 2.300 transistores.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português indica protótipo em dez dias em 1995.",
+      "reescrita": null
+    }
+  ]
+}
