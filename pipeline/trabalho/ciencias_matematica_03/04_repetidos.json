@@ -1,0 +1,936 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Entre os cinco sólidos de Platão, qual tem o maior número de faces?",
+        "resposta": "Icosaedro"
+      },
+      "existentes": [
+        {
+          "id": "q14076",
+          "pergunta": "Que sólido de Platão é este?",
+          "resposta": "Icosaedro"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O icosaedro tem vinte faces, mas só doze vértices. Que sólido de Platão supera todos os outros em vértices, com vinte ao todo?",
+        "resposta": "Dodecaedro"
+      },
+      "existentes": [
+        {
+          "id": "q14045",
+          "pergunta": "Que poliedro regular é este?",
+          "resposta": "Dodecaedro"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Entre os polígonos regulares capazes de cobrir sozinhos um piso, sem frestas nem sobreposições, qual tem mais lados?",
+        "resposta": "Hexágono"
+      },
+      "existentes": [
+        {
+          "id": "q16287",
+          "pergunta": "Que polígono é este?",
+          "resposta": "Hexágono"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Georg Cantor mostrou que alguns infinitos são maiores que outros. Qual destes conjuntos de números é o maior?",
+        "resposta": "Números reais"
+      },
+      "existentes": [
+        {
+          "id": "q07182",
+          "pergunta": "Que teoria matemática este matemático alemão ajudou a criar?",
+          "resposta": "Teoria dos conjuntos"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Alguns números parecem primos, mas escondem divisores. Qual destes é realmente um número primo?",
+        "resposta": "Noventa e sete"
+      },
+      "existentes": [
+        {
+          "id": "q03340",
+          "pergunta": "Qual é o único número primo que é par?",
+          "resposta": "Dois"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Por volta de trezentos antes de Cristo, que matemático grego demonstrou que os números primos são infinitos?",
+        "resposta": "Euclides"
+      },
+      "existentes": [
+        {
+          "id": "q03340",
+          "pergunta": "Qual é o único número primo que é par?",
+          "resposta": "Dois"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Dos cinco postulados que abrem Os Elementos, de Euclides, o quinto, o mais polêmico de todos, trata de quê?",
+        "resposta": "Retas paralelas"
+      },
+      "existentes": [
+        {
+          "id": "q03233",
+          "pergunta": "Que matemático de Alexandria escreveu Os Elementos, obra usada no ensino de geometria por mais de dois mil anos?",
+          "resposta": "Euclides"
+        },
+        {
+          "id": "q03338",
+          "pergunta": "Em quantos livros se divide Os Elementos, a obra de geometria escrita por Euclides?",
+          "resposta": "Treze"
+        },
+        {
+          "id": "q07793",
+          "pergunta": "Desde a primeira impressão, em 1482, Os Elementos, de Euclides, teria tido mais edições do que qualquer outro livro, com exceção de qual?",
+          "resposta": "A Bíblia"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "No quadrado mágico de três por três, montado com os números de um a nove, que número ocupa sempre a casa do centro?",
+        "resposta": "Cinco"
+      },
+      "existentes": [
+        {
+          "id": "q14067",
+          "pergunta": "Que nome se dá a este tipo de arranjo de números?",
+          "resposta": "Quadrado mágico"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "A bola de futebol clássica, de gomos pretos e brancos, tem doze gomos pentagonais. Que formato têm os outros vinte gomos?",
+        "resposta": "Hexágonos"
+      },
+      "existentes": [
+        {
+          "id": "q16286",
+          "pergunta": "Que sólido arquimediano é este?",
+          "resposta": "Icosaedro truncado"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Os dois eixos perpendiculares do plano cartesiano o dividem em quatro regiões. Como se chama cada uma delas?",
+        "resposta": "Quadrante"
+      },
+      "existentes": [
+        {
+          "id": "q03299",
+          "pergunta": "O plano cartesiano, com seus eixos x e y, tem esse nome por causa da forma latina do nome de qual pensador francês?",
+          "resposta": "René Descartes"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Arquimedes pediu que seu túmulo trouxesse o desenho de uma esfera dentro de que outro sólido, ligado à descoberta de que mais se orgulhava?",
+        "resposta": "Cilindro"
+      },
+      "existentes": [
+        {
+          "id": "q02988",
+          "pergunta": "O que significa eureka, a palavra grega que Arquimedes teria gritado ao sair do banho?",
+          "resposta": "Encontrei"
+        },
+        {
+          "id": "q03219",
+          "pergunta": "Em 212 antes de Cristo, durante a tomada de Siracusa pelos romanos, como morreu o matemático Arquimedes?",
+          "resposta": "Morto por um soldado romano"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Arquimedes teria saído pelas ruas gritando eureka depois de achar, durante o banho, a solução de um problema sobre que objeto do rei?",
+        "resposta": "Uma coroa"
+      },
+      "existentes": [
+        {
+          "id": "q02988",
+          "pergunta": "O que significa eureka, a palavra grega que Arquimedes teria gritado ao sair do banho?",
+          "resposta": "Encontrei"
+        },
+        {
+          "id": "q03219",
+          "pergunta": "Em 212 antes de Cristo, durante a tomada de Siracusa pelos romanos, como morreu o matemático Arquimedes?",
+          "resposta": "Morto por um soldado romano"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O número mil setecentos e vinte e nove é a soma de um ao cubo com doze ao cubo, e também de nove ao cubo com qual outro cubo?",
+        "resposta": "Dez ao cubo"
+      },
+      "existentes": [
+        {
+          "id": "q03303",
+          "pergunta": "Por causa de uma conversa entre Hardy e Ramanujan, o número mil setecentos e vinte e nove ganhou o apelido de número de que veículo?",
+          "resposta": "Táxi"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Além dos algarismos de um a nove, que sinal o Liber Abaci, de Fibonacci, apresentou aos europeus em 1202?",
+        "resposta": "O zero"
+      },
+      "existentes": [
+        {
+          "id": "q03333",
+          "pergunta": "Em que século Fibonacci publicou o Liber Abaci, livro que ajudou a difundir os algarismos indo-arábicos na Europa?",
+          "resposta": "Século treze"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Entre as regras atribuídas à escola de Pitágoras, uma das mais curiosas proibia comer que alimento?",
+        "resposta": "Favas"
+      },
+      "existentes": [
+        {
+          "id": "q03237",
+          "pergunta": "Em que cidade da Magna Grécia, no sul da atual Itália, Pitágoras fundou sua comunidade de seguidores?",
+          "resposta": "Crotona"
+        },
+        {
+          "id": "q03332",
+          "pergunta": "Entre os gregos Pitágoras, Euclides e Arquimedes, qual nasceu primeiro?",
+          "resposta": "Pitágoras"
+        },
+        {
+          "id": "q03745",
+          "pergunta": "Segundo uma lenda, Pitágoras foi alcançado pelos inimigos porque se recusou a atravessar uma plantação de quê?",
+          "resposta": "Favas"
+        },
+        {
+          "id": "q15206",
+          "pergunta": "Que filósofo e matemático grego da Antiguidade é retratado neste busto?",
+          "resposta": "Pitágoras"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Nascido na ilha de Samos, Pitágoras fundou sua escola em Crotona, uma colônia grega no sul de que atual país?",
+        "resposta": "Itália"
+      },
+      "existentes": [
+        {
+          "id": "q03237",
+          "pergunta": "Em que cidade da Magna Grécia, no sul da atual Itália, Pitágoras fundou sua comunidade de seguidores?",
+          "resposta": "Crotona"
+        },
+        {
+          "id": "q03332",
+          "pergunta": "Entre os gregos Pitágoras, Euclides e Arquimedes, qual nasceu primeiro?",
+          "resposta": "Pitágoras"
+        },
+        {
+          "id": "q03745",
+          "pergunta": "Segundo uma lenda, Pitágoras foi alcançado pelos inimigos porque se recusou a atravessar uma plantação de quê?",
+          "resposta": "Favas"
+        },
+        {
+          "id": "q15206",
+          "pergunta": "Que filósofo e matemático grego da Antiguidade é retratado neste busto?",
+          "resposta": "Pitágoras"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Que número, essencial na matemática de hoje, ficou sem símbolo próprio no sistema de algarismos romanos?",
+        "resposta": "Zero"
+      },
+      "existentes": [
+        {
+          "id": "q05363",
+          "pergunta": "Nos algarismos romanos, que número é representado pela letra D?",
+          "resposta": "Quinhentos"
+        },
+        {
+          "id": "q07796",
+          "pergunta": "Nos mostradores de relógio com algarismos romanos, o número quatro costuma aparecer escrito de que forma pouco usual?",
+          "resposta": "Com quatro letras I"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Sem usar traços ou sinais extras, qual é o maior número que se consegue escrever com os algarismos romanos tradicionais?",
+        "resposta": "3.999"
+      },
+      "existentes": [
+        {
+          "id": "q05363",
+          "pergunta": "Nos algarismos romanos, que número é representado pela letra D?",
+          "resposta": "Quinhentos"
+        },
+        {
+          "id": "q07796",
+          "pergunta": "Nos mostradores de relógio com algarismos romanos, o número quatro costuma aparecer escrito de que forma pouco usual?",
+          "resposta": "Com quatro letras I"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Desde Arquimedes, que fração simples é usada como uma boa aproximação de pi?",
+        "resposta": "Vinte e dois sétimos"
+      },
+      "existentes": [
+        {
+          "id": "q03296",
+          "pergunta": "A letra grega pi foi escolhida para a razão entre a circunferência e o diâmetro por ser a inicial de que palavra grega?",
+          "resposta": "Perímetro (ou periferia)"
+        },
+        {
+          "id": "q07790",
+          "pergunta": "Na Bíblia, a descrição de um grande tanque redondo do templo de Salomão dá a entender que pi vale quanto?",
+          "resposta": "Três"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Ao assinar como Malba Tahan, o professor carioca Júlio César de Mello e Souza se apresentava como um escritor de que origem?",
+        "resposta": "Árabe"
+      },
+      "existentes": [
+        {
+          "id": "q03331",
+          "pergunta": "O Dia Nacional da Matemática, no Brasil, celebra o nascimento de Malba Tahan, autor de O Homem que Calculava. Em que data é comemorado?",
+          "resposta": "Seis de maio"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Em 2015, além do Nobel de Economia que já tinha, John Nash recebeu que prêmio norueguês, um dos mais importantes da matemática?",
+        "resposta": "Prêmio Abel"
+      },
+      "existentes": [
+        {
+          "id": "q03321",
+          "pergunta": "John Nash, retratado no filme Uma Mente Brilhante, ganhou o Nobel de Economia em 1994 por seus trabalhos em qual área?",
+          "resposta": "Teoria dos jogos"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "O número de Erdős mede a distância de um pesquisador até o húngaro Paul Erdős. Essa distância é contada por meio de quê?",
+        "resposta": "Artigos escritos em parceria"
+      },
+      "existentes": [
+        {
+          "id": "q07782",
+          "pergunta": "O húngaro Paul Erdős chamava as crianças pelo nome de que letra grega, usada pelos matemáticos para quantidades bem pequenas?",
+          "resposta": "Épsilon"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Na matemática, o zero é classificado como que tipo de número, quanto à paridade?",
+        "resposta": "Par"
+      },
+      "existentes": [
+        {
+          "id": "q03294",
+          "pergunta": "A palavra zero vem de um termo árabe que também deu origem à palavra cifra. O que significa esse termo árabe?",
+          "resposta": "Vazio"
+        },
+        {
+          "id": "q03325",
+          "pergunta": "Que matemático indiano do século sete escreveu regras para fazer contas com o zero?",
+          "resposta": "Brahmagupta"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Dividindo um termo da sequência de Fibonacci pelo anterior, o resultado chega cada vez mais perto de que número famoso?",
+        "resposta": "Razão áurea"
+      },
+      "existentes": [
+        {
+          "id": "q07787",
+          "pergunta": "No Liber Abaci, a sequência de Fibonacci aparece num problema sobre a reprodução de que animal?",
+          "resposta": "Coelho"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "O Dia do Pi coincide com o nascimento de Einstein e também com a morte de que físico britânico, em 2018?",
+        "resposta": "Stephen Hawking"
+      },
+      "existentes": [
+        {
+          "id": "q03308",
+          "pergunta": "O Dia do Pi, comemorado em catorze de março, coincide com o aniversário de nascimento de qual físico famoso?",
+          "resposta": "Albert Einstein"
+        },
+        {
+          "id": "q07758",
+          "pergunta": "O Dia do Pi foi celebrado pela primeira vez em 1988, num museu de ciências de que cidade americana?",
+          "resposta": "São Francisco"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "A escala Richter, dos terremotos, e a escala de pH, da acidez, se baseiam na mesma ferramenta matemática. Qual?",
+        "resposta": "Logaritmo"
+      },
+      "existentes": [
+        {
+          "id": "q03323",
+          "pergunta": "Que matemático escocês publicou, em 1614, a obra que apresentou os logaritmos ao mundo?",
+          "resposta": "John Napier"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Antes do euro, o retrato de Gauss e a curva em forma de sino estampavam qual cédula alemã?",
+        "resposta": "Nota de dez marcos"
+      },
+      "existentes": [
+        {
+          "id": "q00865",
+          "pergunta": "Que unidade de medida do campo magnético leva o nome deste matemático alemão?",
+          "resposta": "Gauss"
+        },
+        {
+          "id": "q03304",
+          "pergunta": "Pela grandeza de sua obra, o alemão Carl Friedrich Gauss ganhou que apelido ligado à nobreza?",
+          "resposta": "Príncipe dos matemáticos"
+        },
+        {
+          "id": "q07789",
+          "pergunta": "Em 1796, Gauss mostrou como construir só com régua e compasso um polígono regular que os gregos não sabiam fazer. Quantos lados ele tem?",
+          "resposta": "Dezessete"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Conta-se que o menino Gauss somou em instantes todos os números de um a cem, para espanto do professor. Que resultado ele obteve?",
+        "resposta": "5.050"
+      },
+      "existentes": [
+        {
+          "id": "q00865",
+          "pergunta": "Que unidade de medida do campo magnético leva o nome deste matemático alemão?",
+          "resposta": "Gauss"
+        },
+        {
+          "id": "q03304",
+          "pergunta": "Pela grandeza de sua obra, o alemão Carl Friedrich Gauss ganhou que apelido ligado à nobreza?",
+          "resposta": "Príncipe dos matemáticos"
+        },
+        {
+          "id": "q07789",
+          "pergunta": "Em 1796, Gauss mostrou como construir só com régua e compasso um polígono regular que os gregos não sabiam fazer. Quantos lados ele tem?",
+          "resposta": "Dezessete"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Pintando de preto só os números ímpares do triângulo de Pascal, surge aos poucos que figura fractal famosa?",
+        "resposta": "Triângulo de Sierpinski"
+      },
+      "existentes": [
+        {
+          "id": "q14061",
+          "pergunta": "Que figura matemática é esta?",
+          "resposta": "Triângulo de Sierpinski"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "No diálogo Timeu, Platão associou cada poliedro regular a um elemento da natureza. Que elemento ficou com o cubo?",
+        "resposta": "Terra"
+      },
+      "existentes": [
+        {
+          "id": "q14046",
+          "pergunta": "Que nome tem este conjunto de sólidos?",
+          "resposta": "Sólidos de Platão"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "O nome googol, dado ao um seguido de cem zeros, foi sugerido ao matemático americano Edward Kasner por quem?",
+        "resposta": "Seu sobrinho de nove anos"
+      },
+      "existentes": [
+        {
+          "id": "q03307",
+          "pergunta": "Que gigante da internet tirou o nome, com a grafia modificada, do googol, o número um seguido de cem zeros?",
+          "resposta": "Google"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "O símbolo do infinito, parecido com um oito deitado, lembra uma curva cujo nome vem de uma palavra antiga para fita. Que nome?",
+        "resposta": "Lemniscata"
+      },
+      "existentes": [
+        {
+          "id": "q03324",
+          "pergunta": "Que matemático inglês introduziu, em 1655, o símbolo do infinito, parecido com um oito deitado?",
+          "resposta": "John Wallis"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "O número e, base dos logaritmos naturais, também é chamado de constante de que matemático escocês?",
+        "resposta": "John Napier"
+      },
+      "existentes": [
+        {
+          "id": "q07783",
+          "pergunta": "Em 1683, o suíço Jacob Bernoulli chegou à constante que hoje chamamos de número e ao estudar que assunto financeiro?",
+          "resposta": "Juros compostos"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "O papiro Rhind, texto de matemática do antigo Egito copiado pelo escriba Ahmes, deve seu nome a quem?",
+        "resposta": "Antiquário escocês que o comprou"
+      },
+      "existentes": [
+        {
+          "id": "q03336",
+          "pergunta": "Em que museu de Londres está guardada a maior parte do papiro Rhind, importante texto de matemática do antigo Egito?",
+          "resposta": "Museu Britânico"
+        },
+        {
+          "id": "q13647",
+          "pergunta": "O papiro Rhind, manual de matemática do Egito Antigo, calcula a área do círculo de um jeito que equivale a usar qual valor para pi?",
+          "resposta": "Cerca de 3,16"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Na Torre de Hanói com apenas três discos, qual é o menor número de movimentos necessário para resolver o quebra-cabeça?",
+        "resposta": "Sete"
+      },
+      "existentes": [
+        {
+          "id": "q06442",
+          "pergunta": "Apesar do nome asiático, o quebra-cabeça Torre de Hanói foi criado em 1883 por um matemático de qual país?",
+          "resposta": "França"
+        },
+        {
+          "id": "q07772",
+          "pergunta": "Em 1883, que matemático francês inventou o quebra-cabeça Torre de Hanói, com discos que passam de uma haste para outra?",
+          "resposta": "Édouard Lucas"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Segundo a lenda divulgada com a Torre de Hanói, o que aconteceria quando monges terminassem de mover sessenta e quatro discos de ouro?",
+        "resposta": "O fim do mundo"
+      },
+      "existentes": [
+        {
+          "id": "q06442",
+          "pergunta": "Apesar do nome asiático, o quebra-cabeça Torre de Hanói foi criado em 1883 por um matemático de qual país?",
+          "resposta": "França"
+        },
+        {
+          "id": "q07772",
+          "pergunta": "Em 1883, que matemático francês inventou o quebra-cabeça Torre de Hanói, com discos que passam de uma haste para outra?",
+          "resposta": "Édouard Lucas"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "No quadrado mágico de quatro por quatro da gravura Melencolia I, de Dürer, quanto dá a soma de cada linha, coluna e diagonal?",
+        "resposta": "Trinta e quatro"
+      },
+      "existentes": [
+        {
+          "id": "q06480",
+          "pergunta": "Que técnica de gravura Albrecht Dürer usou nesta obra de 1514?",
+          "resposta": "Gravura a buril"
+        },
+        {
+          "id": "q07766",
+          "pergunta": "Na gravura Melencolia I, de Albrecht Dürer, um quadrado mágico mostra na linha de baixo o ano em que a obra foi feita. Que ano?",
+          "resposta": "1514"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Nos últimos anos de vida, Leonhard Euler continuou produzindo muito, mas passou a ditar seus trabalhos a assistentes. Por quê?",
+        "resposta": "Tinha ficado cego"
+      },
+      "existentes": [
+        {
+          "id": "q00867",
+          "pergunta": "Que matemático suíço é este?",
+          "resposta": "Leonhard Euler"
+        },
+        {
+          "id": "q07754",
+          "pergunta": "O suíço Leonhard Euler passou boa parte da vida trabalhando para a Academia de Ciências da Rússia. Em que cidade ele morreu, em 1783?",
+          "resposta": "São Petersburgo"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "O que acontece quando se corta uma faixa de Möbius bem no meio, ao longo de todo o seu comprimento?",
+        "resposta": "Vira uma só fita maior"
+      },
+      "existentes": [
+        {
+          "id": "q03310",
+          "pergunta": "Que símbolo de três setas, desenhado em 1970 por um estudante americano, foi inspirado na faixa de Möbius?",
+          "resposta": "Símbolo da reciclagem"
+        },
+        {
+          "id": "q03337",
+          "pergunta": "Quantas faces tem a faixa de Möbius, uma fita que recebe meia torção antes de ter as pontas coladas?",
+          "resposta": "Uma"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "Em 1665 e 1666, Isaac Newton desenvolveu boa parte do cálculo em casa, porque a Universidade de Cambridge tinha fechado. Por causa de quê?",
+        "resposta": "Uma epidemia de peste"
+      },
+      "existentes": [
+        {
+          "id": "q03295",
+          "pergunta": "A palavra cálculo vem do latim e designava, na origem, um pequeno objeto usado para contar. Que objeto era esse?",
+          "resposta": "Pedrinha"
+        },
+        {
+          "id": "q07768",
+          "pergunta": "No século dezessete, Isaac Newton disputou a criação do cálculo com um pensador alemão que o desenvolveu de forma independente. Quem?",
+          "resposta": "Gottfried Wilhelm Leibniz"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "O sudoku moderno teria sido criado por um arquiteto aposentado e publicado em 1979 numa revista de que país?",
+        "resposta": "Estados Unidos"
+      },
+      "existentes": [
+        {
+          "id": "q14066",
+          "pergunta": "De que idioma vem o nome deste passatempo de lógica?",
+          "resposta": "Japonês"
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "nova": {
+        "pergunta": "Os algarismos de zero a nove chegaram à Europa trazidos pelos árabes, mas surgiram originalmente em que atual país?",
+        "resposta": "Índia"
+      },
+      "existentes": [
+        {
+          "id": "q03306",
+          "pergunta": "As palavras algarismo e algoritmo vêm, ambas, do nome de qual matemático persa do século nove?",
+          "resposta": "Al-Khwarizmi"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta de imagem vs. fato sobre número de faces."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Fato sobre vértices, diferente de identificar imagem."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ladrilhamento vs. identificar polígono."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Conjunto maior, não teoria criada."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Infinitude dos primos é outro fato."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Quinto postulado é fato distinto."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Número central, não nome do arranjo."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Formato dos gomos da bola, fato diferente."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nome das regiões vs. origem do nome."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Túmulo de Arquimedes é fato novo."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Contexto da coroa, não significado de eureka."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Decomposição em cubos, não o apelido táxi."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Zero vs. século de publicação."
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "id_existente": "q03745",
+      "motivo": "Ambas tratam do tabu das favas de Pitágoras."
+    },
+    {
+      "caso": 16,
+      "decisao": "repete",
+      "id_existente": "q03237",
+      "motivo": "Crotona no sul da Itália, mesmo fato."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Ausência de zero é fato distinto."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Maior número romano é fato distinto."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Aproximação 22/7 é fato distinto."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Pseudônimo árabe vs. data."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Prêmio Abel vs. Nobel."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Número de Erdős vs. apelido."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Paridade do zero é novo."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Razão áurea vs. coelhos."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Morte de Hawking é outro fato."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Aplicação do logaritmo vs. Napier."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Cédula alemã é fato novo."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Soma de 1 a 100 é novo."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Relação com Pascal vs. imagem."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Elemento do cubo, não nome do conjunto."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Quem sugeriu o nome vs. empresa."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Nome da curva vs. autor do símbolo."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Constante de Napier vs. Bernoulli."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Origem do nome, outro fato."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Movimentos mínimos é novo."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Lenda é fato distinto."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Soma mágica é novo."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Cegueira de Euler é novo."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Corte da faixa é novo."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Peste e Cambridge é novo."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "País da publicação vs. idioma do nome."
+    },
+    {
+      "caso": 42,
+      "decisao": "nova",
+      "motivo": "Origem dos algarismos vs. etimologia."
+    }
+  ]
+}

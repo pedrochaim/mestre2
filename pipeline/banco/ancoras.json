@@ -49846,7 +49846,8 @@
     "descricao": "Ramo da matemática que estuda derivadas e integrais, também chamado cálculo diferencial e integral.",
     "variantes": [
       "Cálculo diferencial e integral",
-      "Calculus"
+      "Calculus",
+      "Cálculo infinitesimal"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Calculus"
@@ -49993,7 +49994,8 @@
     "descricao": "Número natural conhecido como número de Hardy-Ramanujan, o menor que é soma de dois cubos de duas maneiras diferentes.",
     "variantes": [
       "Número de Hardy-Ramanujan",
-      "Mil setecentos e vinte e nove"
+      "Mil setecentos e vinte e nove",
+      "Número do táxi"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/1729_(number)"
@@ -50029,7 +50031,8 @@
     "descricao": "Cada um dos símbolos usados para escrever números, de zero a nove.",
     "variantes": [
       "Dígito",
-      "Algarismos"
+      "Algarismos",
+      "Algarismos indo-arábicos"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Algarismo"
@@ -50256,7 +50259,8 @@
     "nome": "Logaritmo",
     "descricao": "Operação matemática inversa da exponenciação.",
     "variantes": [
-      "Logaritmos"
+      "Logaritmos",
+      "Log"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Logarithm"
@@ -50415,7 +50419,8 @@
     "descricao": "Papiro egípcio com problemas de matemática, copiado pelo escriba Ahmes por volta de 1550 antes de Cristo.",
     "variantes": [
       "Papiro de Ahmes",
-      "Rhind Mathematical Papyrus"
+      "Rhind Mathematical Papyrus",
+      "Papiro de Rhind"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Rhind_Mathematical_Papyrus"
@@ -50452,7 +50457,8 @@
     "descricao": "Número natural maior que um que só é divisível por um e por ele mesmo.",
     "variantes": [
       "Números primos",
-      "Prime number"
+      "Prime number",
+      "Primo"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Prime_number"
@@ -93868,7 +93874,8 @@
     "nome": "Torre de Hanói",
     "descricao": "Quebra-cabeça matemático de discos de tamanhos diferentes que devem ser movidos entre três hastes, criado em 1883.",
     "variantes": [
-      "Tower of Hanoi"
+      "Tower of Hanoi",
+      "Torre de Brahma"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Tower_of_Hanoi"
@@ -111368,7 +111375,8 @@
     "descricao": "Sequência numérica em que cada termo é a soma dos dois anteriores, apresentada na Europa por Fibonacci no Liber Abaci.",
     "variantes": [
       "Fibonacci sequence",
-      "Números de Fibonacci"
+      "Números de Fibonacci",
+      "Série de Fibonacci"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci",
@@ -172225,7 +172233,8 @@
     "descricao": "Fractal com a forma de um triângulo equilátero, subdividido recursivamente em triângulos menores.",
     "variantes": [
       "Gaxeta de Sierpinski",
-      "Peneira de Sierpinski"
+      "Peneira de Sierpinski",
+      "Junta de Sierpinski"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle",
@@ -204776,7 +204785,10 @@
       "wikidata": "Q37555",
       "pt": 798,
       "en": 14022
-    }
+    },
+    "variantes": [
+      "Hexágono regular"
+    ]
   },
   {
     "id": "tetraedro",
@@ -205347,5 +205359,91 @@
       "pt": 788,
       "en": 94
     }
+  },
+  {
+    "id": "cubo",
+    "nome": "Cubo",
+    "descricao": "Sólido geométrico de seis faces quadradas iguais, doze arestas e oito vértices, um dos sólidos de Platão.",
+    "variantes": [
+      "Hexaedro regular",
+      "Hexaedro"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Cubo",
+      "https://en.wikipedia.org/wiki/Cube"
+    ]
+  },
+  {
+    "id": "circulo",
+    "nome": "Círculo",
+    "descricao": "Figura plana formada por todos os pontos que estão a uma mesma distância de um ponto central.",
+    "variantes": [
+      "Circunferência"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/C%C3%ADrculo",
+      "https://en.wikipedia.org/wiki/Circle"
+    ]
+  },
+  {
+    "id": "esfera",
+    "nome": "Esfera",
+    "descricao": "Sólido geométrico formado por todos os pontos do espaço a uma mesma distância de um ponto central.",
+    "variantes": [
+      "Bola"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Esfera",
+      "https://en.wikipedia.org/wiki/Sphere"
+    ]
+  },
+  {
+    "id": "identidade_de_euler",
+    "nome": "Identidade de Euler",
+    "descricao": "Igualdade matemática segundo a qual e elevado a i vezes pi, mais um, é igual a zero.",
+    "variantes": [
+      "Fórmula de Euler",
+      "Euler's identity"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Identidade_de_Euler",
+      "https://en.wikipedia.org/wiki/Euler%27s_identity"
+    ]
+  },
+  {
+    "id": "hotel_de_hilbert",
+    "nome": "Hotel de Hilbert",
+    "descricao": "Experimento mental proposto por David Hilbert sobre um hotel com infinitos quartos, que ilustra propriedades curiosas do infinito.",
+    "variantes": [
+      "Paradoxo do Grande Hotel de Hilbert",
+      "Hotel infinito de Hilbert"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel"
+    ]
+  },
+  {
+    "id": "sinal_de_mais",
+    "nome": "Sinal de mais",
+    "descricao": "Símbolo matemático em forma de cruz que indica a adição e os números positivos.",
+    "variantes": [
+      "Sinal de adição",
+      "Sinal positivo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Plus_and_minus_signs"
+    ]
+  },
+  {
+    "id": "relacao_de_euler",
+    "nome": "Relação de Euler",
+    "descricao": "Fórmula segundo a qual, num poliedro convexo, o número de vértices menos o de arestas mais o de faces é igual a dois.",
+    "variantes": [
+      "Fórmula de Euler para poliedros",
+      "Característica de Euler"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Euler_characteristic"
+    ]
   }
 ]

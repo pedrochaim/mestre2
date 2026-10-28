@@ -1,0 +1,515 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cubo",
+        "descricao": "Sólido geométrico de seis faces quadradas iguais, doze arestas e oito vértices, um dos sólidos de Platão.",
+        "variantes": [
+          "Hexaedro regular",
+          "Hexaedro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dodecaedro",
+          "nome": "Dodecaedro",
+          "descricao": "Poliedro regular de doze faces pentagonais, um dos sólidos de Platão.",
+          "variantes": [
+            "Dodecaedro regular"
+          ]
+        },
+        {
+          "id": "cubone",
+          "nome": "Cubone",
+          "descricao": "Pokémon do tipo Terra, número 104 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "chumbo",
+          "nome": "Chumbo",
+          "descricao": "Elemento químico metálico de número atômico 82, pesado e maleável, usado pelos romanos em encanamentos.",
+          "variantes": [
+            "Lead",
+            "Plumbum"
+          ]
+        },
+        {
+          "id": "ulna",
+          "nome": "Ulna",
+          "descricao": "Osso longo do antebraço, do lado do dedo mínimo, paralelo ao rádio.",
+          "variantes": [
+            "Cúbito",
+            "Osso ulnar"
+          ]
+        },
+        {
+          "id": "icosaedro",
+          "nome": "Icosaedro",
+          "descricao": "Poliedro regular de vinte faces triangulares equiláteras, trinta arestas e doze vértices.",
+          "variantes": [
+            "Icosaedro regular",
+            "Regular icosahedron"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Círculo",
+        "descricao": "Figura plana formada por todos os pontos que estão a uma mesma distância de um ponto central.",
+        "variantes": [
+          "Circunferência"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "penny_farthing",
+          "nome": "Penny-farthing",
+          "descricao": "Biciclo do século dezenove com roda dianteira enorme e roda traseira pequena.",
+          "variantes": [
+            "Biciclo",
+            "High wheeler",
+            "Grand-bi"
+          ]
+        },
+        {
+          "id": "calculo",
+          "nome": "Cálculo",
+          "descricao": "Ramo da matemática que estuda derivadas e integrais, também chamado cálculo diferencial e integral.",
+          "variantes": [
+            "Cálculo diferencial e integral",
+            "Calculus"
+          ]
+        },
+        {
+          "id": "ciclope",
+          "nome": "Ciclope",
+          "descricao": "Gigante de um olho só da mitologia grega, como Polifemo na Odisseia.",
+          "variantes": [
+            "Ciclopes",
+            "Cyclops",
+            "Polifemo"
+          ]
+        },
+        {
+          "id": "ciclismo_de_estrada",
+          "nome": "Ciclismo de estrada",
+          "descricao": "Modalidade de ciclismo competitivo disputada em ruas e estradas, com chegada em pelotão.",
+          "variantes": [
+            "Ciclismo",
+            "Ciclismo de rua",
+            "Road bicycle racing"
+          ]
+        },
+        {
+          "id": "rublo",
+          "nome": "Rublo",
+          "descricao": "Unidade monetária da Rússia e de outros países do antigo espaço russo.",
+          "variantes": [
+            "Ruble",
+            "Rouble"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Esfera",
+        "descricao": "Sólido geométrico formado por todos os pontos do espaço a uma mesma distância de um ponto central.",
+        "variantes": [
+          "Bola"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ebola",
+          "nome": "Ebola",
+          "descricao": "Vírus que causa febre hemorrágica grave, identificado em 1976 e batizado com o nome de um rio africano.",
+          "variantes": [
+            "Vírus ebola",
+            "Ebolavírus"
+          ]
+        },
+        {
+          "id": "boleadeira",
+          "nome": "Boleadeira",
+          "descricao": "Arma de caça formada por pesos nas pontas de cordas ligadas, arremessada para enredar as pernas dos animais, típica dos gaúchos.",
+          "variantes": [
+            "Boleadora",
+            "Bolas"
+          ]
+        },
+        {
+          "id": "cebolinha",
+          "nome": "Cebolinha",
+          "descricao": "Menino de cinco fios de cabelo que troca o R pelo L, rival da Mônica na Turma da Mônica.",
+          "variantes": [
+            "Cebola",
+            "Cebolácio Júnior Menezes da Silva"
+          ]
+        },
+        {
+          "id": "bolinha_de_gude",
+          "nome": "Bolinha de gude",
+          "descricao": "Pequena esfera de vidro usada em jogos infantis.",
+          "variantes": [
+            "Bola de gude",
+            "Berlinde",
+            "Bolita",
+            "Búlica"
+          ]
+        },
+        {
+          "id": "cebola",
+          "nome": "Cebola",
+          "descricao": "Planta Allium cepa, hortaliça de bulbo muito usada na culinária e em aulas de microscopia.",
+          "variantes": [
+            "Allium cepa",
+            "Onion"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Identidade de Euler",
+        "descricao": "Igualdade matemática segundo a qual e elevado a i vezes pi, mais um, é igual a zero.",
+        "variantes": [
+          "Fórmula de Euler",
+          "Euler's identity"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "formiga_pote_de_mel",
+          "nome": "Formiga-pote-de-mel",
+          "descricao": "Formiga cujas operárias repletas armazenam alimento líquido no abdômen enormemente inchado.",
+          "variantes": [
+            "Formiga-de-mel",
+            "Honeypot ant",
+            "Myrmecocystus"
+          ]
+        },
+        {
+          "id": "formula_e",
+          "nome": "Fórmula E",
+          "descricao": "Campeonato mundial de monopostos elétricos organizado pela FIA, disputado desde 2014.",
+          "variantes": [
+            "Campeonato Mundial de Fórmula E"
+          ]
+        },
+        {
+          "id": "dente_de_leao",
+          "nome": "Dente-de-leão",
+          "descricao": "Planta do gênero Taraxacum, de capítulo amarelo que depois vira bola de sementes.",
+          "variantes": [
+            "Taraxaco",
+            "Taraxacum",
+            "Dandelion"
+          ]
+        },
+        {
+          "id": "formula_de_bhaskara",
+          "nome": "Fórmula de Bhaskara",
+          "descricao": "Nome dado no Brasil à fórmula que resolve equações do segundo grau.",
+          "variantes": [
+            "Fórmula quadrática",
+            "Fórmula resolutiva"
+          ]
+        },
+        {
+          "id": "formula_1",
+          "nome": "Fórmula 1",
+          "descricao": "Principal categoria de monopostos do automobilismo mundial, organizada pela FIA desde 1950.",
+          "variantes": [
+            "Formula One",
+            "F1"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Hotel de Hilbert",
+        "descricao": "Experimento mental proposto por David Hilbert sobre um hotel com infinitos quartos, que ilustra propriedades curiosas do infinito.",
+        "variantes": [
+          "Paradoxo do Grande Hotel de Hilbert",
+          "Hotel infinito de Hilbert"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "homo_heidelbergensis",
+          "nome": "Homo heidelbergensis",
+          "descricao": "Espécie humana extinta descrita a partir de uma mandíbula achada em 1907 em Mauer, na Alemanha.",
+          "variantes": [
+            "Homem de Heidelberg"
+          ]
+        },
+        {
+          "id": "problemas_de_hilbert",
+          "nome": "Problemas de Hilbert",
+          "descricao": "Lista de vinte e três problemas de matemática apresentada por David Hilbert num congresso em Paris.",
+          "variantes": [
+            "Hilbert's problems"
+          ]
+        },
+        {
+          "id": "templo_de_philae",
+          "nome": "Templo de Philae",
+          "descricao": "Complexo de templos egípcios dedicado à deusa Ísis, hoje na ilha de Agilkia, perto de Assuã, no Egito.",
+          "variantes": [
+            "Templo de Filas",
+            "Templo de Ísis em Filas"
+          ]
+        },
+        {
+          "id": "tales_de_mileto",
+          "nome": "Tales de Mileto",
+          "descricao": "Filósofo grego pré-socrático (c. 624–546 a.C.), considerado pela tradição um dos Sete Sábios da Grécia.",
+          "variantes": [
+            "Thales of Miletus",
+            "Tales",
+            "Thales"
+          ]
+        },
+        {
+          "id": "ponte_de_rialto",
+          "nome": "Ponte de Rialto",
+          "descricao": "Ponte de pedra em arco sobre o Grande Canal de Veneza, concluída no fim do século dezesseis.",
+          "variantes": [
+            "Ponte di Rialto",
+            "Rialto Bridge"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Arquimedes",
+        "descricao": "Matemático, físico e inventor grego do século três antes de Cristo, nascido em Siracusa, na Sicília.",
+        "variantes": [
+          "Arquimedes de Siracusa",
+          "Archimedes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arquimedes",
+          "nome": "Arquimedes",
+          "descricao": "Matemático, físico e inventor grego de Siracusa, do século três antes de Cristo, autor do princípio do empuxo.",
+          "variantes": [
+            "Arquimedes de Siracusa",
+            "Archimedes"
+          ]
+        },
+        {
+          "id": "arquimedes_pensativo",
+          "nome": "Arquimedes Pensativo",
+          "descricao": "Pintura de Domenico Fetti que retrata o matemático grego Arquimedes de Siracusa em meditação.",
+          "variantes": [
+            "Arquimedes",
+            "Archimedes Thoughtful"
+          ]
+        },
+        {
+          "id": "parafuso_de_arquimedes",
+          "nome": "Parafuso de Arquimedes",
+          "descricao": "Máquina hidráulica formada por um cilindro com uma hélice interna, usada para elevar água.",
+          "variantes": [
+            "Parafuso hidráulico",
+            "Archimedes' screw"
+          ]
+        },
+        {
+          "id": "sinos_tubulares",
+          "nome": "Sinos tubulares",
+          "descricao": "Instrumento de percussão formado por tubos de metal afinados, golpeados com martelo, que imita sinos de igreja.",
+          "variantes": [
+            "Tubular bells",
+            "Carrilhão de orquestra",
+            "Chimes"
+          ]
+        },
+        {
+          "id": "ganimedes",
+          "nome": "Ganimedes",
+          "descricao": "Lua de Júpiter descoberta por Galileu em 1610.",
+          "variantes": [
+            "Ganymede"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Sinal de mais",
+        "descricao": "Símbolo matemático em forma de cruz que indica a adição e os números positivos.",
+        "variantes": [
+          "Sinal de adição",
+          "Sinal positivo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "simbolo_da_raiz_quadrada",
+          "nome": "Símbolo da raiz quadrada",
+          "descricao": "Símbolo matemático em forma de visto alongado que indica a extração de uma raiz.",
+          "variantes": [
+            "Radical",
+            "Sinal de raiz"
+          ]
+        },
+        {
+          "id": "semaforo",
+          "nome": "Semáforo",
+          "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres; o primeiro foi instalado em Londres em 1868.",
+          "variantes": [
+            "Sinal de trânsito",
+            "Farol",
+            "Sinaleiro",
+            "Traffic light",
+            "Sinaleira"
+          ]
+        },
+        {
+          "id": "sol_de_maio",
+          "nome": "Sol de Maio",
+          "descricao": "Sol dourado com rosto humano, emblema nacional que aparece nas bandeiras da Argentina e do Uruguai.",
+          "variantes": [
+            "Sol de Mayo",
+            "Sun of May"
+          ]
+        },
+        {
+          "id": "sinal_de_igual",
+          "nome": "Sinal de igual",
+          "descricao": "Símbolo matemático formado por dois traços paralelos, que indica igualdade.",
+          "variantes": [
+            "Sinal de igualdade",
+            "Equals sign"
+          ]
+        },
+        {
+          "id": "usina_de_itaipu",
+          "nome": "Usina de Itaipu",
+          "descricao": "Usina hidrelétrica binacional de Brasil e Paraguai, no rio Paraná.",
+          "variantes": [
+            "Itaipu",
+            "Itaipu Binacional",
+            "Itaipu Dam",
+            "Usina Hidrelétrica de Itaipu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Relação de Euler",
+        "descricao": "Fórmula segundo a qual, num poliedro convexo, o número de vértices menos o de arestas mais o de faces é igual a dois.",
+        "variantes": [
+          "Fórmula de Euler para poliedros",
+          "Característica de Euler"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "numero_e",
+          "nome": "Número e",
+          "descricao": "Constante matemática aproximadamente igual a dois vírgula setenta e um, base dos logaritmos naturais, também chamada número de Euler.",
+          "variantes": [
+            "Número de Euler",
+            "Constante de Napier",
+            "e"
+          ]
+        },
+        {
+          "id": "placa_de_petri",
+          "nome": "Placa de Petri",
+          "descricao": "Recipiente raso, transparente e com tampa, usado em laboratório para cultivar células e microrganismos.",
+          "variantes": [
+            "Placa de cultura",
+            "Petri dish"
+          ]
+        },
+        {
+          "id": "revolucao_de_veludo",
+          "nome": "Revolução de Veludo",
+          "descricao": "Revolução pacífica de novembro e dezembro de 1989 que encerrou o regime comunista na Tchecoslováquia.",
+          "variantes": [
+            "Velvet Revolution",
+            "Revolução Gentil"
+          ]
+        },
+        {
+          "id": "revolucao_de_fevereiro",
+          "nome": "Revolução de Fevereiro",
+          "descricao": "Revolução russa de 1917 que derrubou o tsar Nicolau II, começada em Petrogrado com protestos e greves.",
+          "variantes": [
+            "February Revolution",
+            "Revolução de Fevereiro de 1917"
+          ]
+        },
+        {
+          "id": "cabelo_de_pele",
+          "nome": "Cabelo de Pele",
+          "descricao": "Fios finos de vidro vulcânico formados quando gotas de lava são esticadas pelo vento, comuns no Havaí.",
+          "variantes": [
+            "Pele's hair"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cubo não corresponde a nenhuma candidata; dodecaedro e icosaedro são outros sólidos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o círculo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Esfera geométrica; bolinha de gude é um objeto distinto."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identidade de Euler não está entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Hotel de Hilbert é distinto dos Problemas de Hilbert e demais candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "arquimedes",
+      "motivo": "Mesmo matemático de Siracusa, mesmas variantes e descrição compatível."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Sinal de mais é diferente do sinal de igual e dos outros símbolos."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Relação de Euler para poliedros difere do número e, também chamado número de Euler."
+    }
+  ]
+}

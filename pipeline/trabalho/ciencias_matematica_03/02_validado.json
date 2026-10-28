@@ -1,0 +1,1447 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "icosaedro",
+        "nome": "Icosaedro",
+        "descricao": "Poliedro regular de vinte faces triangulares equiláteras, trinta arestas e doze vértices.",
+        "variantes": [
+          "Icosaedro regular"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Icosaedro"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre os cinco sólidos de Platão, qual tem o maior número de faces?",
+      "resposta": "Icosaedro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Platonic_solid",
+        "https://pt.wikipedia.org/wiki/Icosaedro"
+      ],
+      "distratores": [
+        "Dodecaedro",
+        "Octaedro",
+        "Cubo"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "dodecaedro",
+        "nome": "Dodecaedro",
+        "descricao": "Poliedro regular de doze faces pentagonais, um dos sólidos de Platão.",
+        "variantes": [
+          "Dodecaedro regular"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Dodecaedro"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "O icosaedro tem vinte faces, mas só doze vértices. Que sólido de Platão supera todos os outros em vértices, com vinte ao todo?",
+      "resposta": "Dodecaedro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Regular_dodecahedron",
+        "https://en.wikipedia.org/wiki/Platonic_solid"
+      ],
+      "distratores": [
+        "Octaedro",
+        "Cubo",
+        "Tetraedro"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Cubo",
+        "descricao": "Sólido geométrico de seis faces quadradas iguais, doze arestas e oito vértices, um dos sólidos de Platão.",
+        "variantes": [
+          "Hexaedro regular",
+          "Hexaedro"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cubo",
+          "https://en.wikipedia.org/wiki/Cube"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Empilhando cópias iguais de um mesmo sólido de Platão, qual deles é o único capaz de preencher o espaço sem deixar vãos?",
+      "resposta": "Cubo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cubic_honeycomb"
+      ],
+      "distratores": [
+        "Tetraedro",
+        "Octaedro",
+        "Dodecaedro"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "hexagono",
+        "nome": "Hexágono",
+        "descricao": "Polígono de seis lados e seis vértices.",
+        "variantes": [
+          "Hexágono regular"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Hex%C3%A1gono"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre os polígonos regulares capazes de cobrir sozinhos um piso, sem frestas nem sobreposições, qual tem mais lados?",
+      "resposta": "Hexágono",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Euclidean_tilings_by_convex_regular_polygons",
+        "https://en.wikipedia.org/wiki/Hexagonal_tiling"
+      ],
+      "distratores": [
+        "Pentágono",
+        "Octógono",
+        "Decágono"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Círculo",
+        "descricao": "Figura plana formada por todos os pontos que estão a uma mesma distância de um ponto central.",
+        "variantes": [
+          "Circunferência"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/C%C3%ADrculo",
+          "https://en.wikipedia.org/wiki/Circle"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Com um barbante de comprimento fixo, que figura plana você deve formar para cercar a maior área possível?",
+      "resposta": "Círculo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Isoperimetric_inequality"
+      ],
+      "distratores": [
+        "Quadrado",
+        "Hexágono regular",
+        "Triângulo equilátero"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Esfera",
+        "descricao": "Sólido geométrico formado por todos os pontos do espaço a uma mesma distância de um ponto central.",
+        "variantes": [
+          "Bola"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Esfera",
+          "https://en.wikipedia.org/wiki/Sphere"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Bolhas de sabão tendem a ficar redondas porque, para um mesmo volume, uma forma tem a menor superfície possível. Qual?",
+      "resposta": "Esfera",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Soap_bubble",
+        "https://en.wikipedia.org/wiki/Isoperimetric_inequality"
+      ],
+      "distratores": [
+        "Cubo",
+        "Cilindro",
+        "Tetraedro"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "georg_cantor",
+        "nome": "Georg Cantor",
+        "descricao": "Matemático alemão (1845–1918), criador da teoria dos conjuntos.",
+        "variantes": [
+          "Georg Ferdinand Ludwig Philipp Cantor"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Georg_Cantor"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Georg Cantor mostrou que alguns infinitos são maiores que outros. Qual destes conjuntos de números é o maior?",
+      "resposta": "Números reais",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument",
+        "https://en.wikipedia.org/wiki/Georg_Cantor"
+      ],
+      "distratores": [
+        "Números naturais",
+        "Números inteiros",
+        "Números pares"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "numero_primo",
+        "nome": "Número primo",
+        "descricao": "Número natural maior que um que só é divisível por um e por ele mesmo.",
+        "variantes": [
+          "Primo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/N%C3%BAmero_primo"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Alguns números parecem primos, mas escondem divisores. Qual destes é realmente um número primo?",
+      "resposta": "Noventa e sete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/List_of_prime_numbers",
+        "https://pt.wikipedia.org/wiki/N%C3%BAmero_primo"
+      ],
+      "distratores": [
+        "Cinquenta e um",
+        "Cinquenta e sete",
+        "Noventa e um"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "numero_primo",
+        "nome": "Número primo",
+        "descricao": "Número natural maior que um que só é divisível por um e por ele mesmo.",
+        "variantes": [
+          "Primo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/N%C3%BAmero_primo"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Por volta de trezentos antes de Cristo, que matemático grego demonstrou que os números primos são infinitos?",
+      "resposta": "Euclides",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Euclid%27s_theorem"
+      ],
+      "distratores": [
+        "Pitágoras",
+        "Arquimedes",
+        "Eratóstenes"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "os_elementos",
+        "nome": "Os Elementos",
+        "descricao": "Tratado de matemática em treze livros escrito em Alexandria por volta de 300 a.C.",
+        "variantes": [
+          "Elementos de Euclides"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Os_Elementos"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Dos cinco postulados que abrem Os Elementos, de Euclides, o quinto, o mais polêmico de todos, trata de quê?",
+      "resposta": "Retas paralelas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Parallel_postulate",
+        "https://en.wikipedia.org/wiki/Euclid%27s_Elements"
+      ],
+      "distratores": [
+        "Ângulos retos",
+        "Círculos",
+        "Triângulos semelhantes"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "quadrado_magico",
+        "nome": "Quadrado mágico",
+        "descricao": "Arranjo quadrado de números em que linhas, colunas e diagonais principais têm a mesma soma.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Quadrado_m%C3%A1gico"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No quadrado mágico de três por três, montado com os números de um a nove, que número ocupa sempre a casa do centro?",
+      "resposta": "Cinco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lo_Shu_Square",
+        "https://en.wikipedia.org/wiki/Magic_square"
+      ],
+      "distratores": [
+        "Um",
+        "Quatro",
+        "Nove"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "id_existente": "triangulo_de_pascal",
+        "nome": "Triângulo de Pascal",
+        "descricao": "Arranjo triangular dos coeficientes binomiais, em que cada número é a soma dos dois acima dele.",
+        "variantes": [
+          "Triângulo de Tartaglia",
+          "Triângulo de Yang Hui"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Tri%C3%A2ngulo_de_Pascal"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No triângulo de Pascal, cada número é a soma dos dois acima dele. Que número aparece nas duas pontas de todas as linhas?",
+      "resposta": "Um",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Tri%C3%A2ngulo_de_Pascal",
+        "https://en.wikipedia.org/wiki/Pascal%27s_triangle"
+      ],
+      "distratores": [
+        "Zero",
+        "Dois",
+        "Três"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "icosaedro_truncado",
+        "nome": "Icosaedro truncado",
+        "descricao": "Sólido arquimediano com 12 faces pentagonais e 20 hexagonais, o formato da bola de futebol clássica.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Truncated_icosahedron"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A bola de futebol clássica, de gomos pretos e brancos, tem doze gomos pentagonais. Que formato têm os outros vinte gomos?",
+      "resposta": "Hexágonos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Truncated_icosahedron"
+      ],
+      "distratores": [
+        "Quadrados",
+        "Triângulos",
+        "Octógonos"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Identidade de Euler",
+        "descricao": "Igualdade matemática segundo a qual e elevado a i vezes pi, mais um, é igual a zero.",
+        "variantes": [
+          "Fórmula de Euler",
+          "Euler's identity"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Identidade_de_Euler",
+          "https://en.wikipedia.org/wiki/Euler%27s_identity"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A identidade de Euler, muitas vezes chamada de a fórmula mais bonita da matemática, reúne o número e, a unidade imaginária, pi, o um e que outro número?",
+      "resposta": "Zero",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Euler%27s_identity"
+      ],
+      "distratores": [
+        "Dois",
+        "Razão áurea",
+        "Infinito"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "plano_cartesiano",
+        "nome": "Plano cartesiano",
+        "descricao": "Sistema de coordenadas formado por dois eixos perpendiculares, usado para localizar pontos no plano.",
+        "variantes": [
+          "Sistema de coordenadas cartesiano"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cartesian_coordinate_system"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Os dois eixos perpendiculares do plano cartesiano o dividem em quatro regiões. Como se chama cada uma delas?",
+      "resposta": "Quadrante",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cartesian_coordinate_system",
+        "https://en.wikipedia.org/wiki/Quadrant_(plane_geometry)"
+      ],
+      "distratores": [
+        "Octante",
+        "Setor",
+        "Semiplano"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Hotel de Hilbert",
+        "descricao": "Experimento mental proposto por David Hilbert sobre um hotel com infinitos quartos, que ilustra propriedades curiosas do infinito.",
+        "variantes": [
+          "Paradoxo do Grande Hotel de Hilbert",
+          "Hotel infinito de Hilbert"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "No paradoxo do Hotel de Hilbert, o hotel está lotado, mas sempre consegue receber mais um hóspede. Por quê?",
+      "resposta": "Tem infinitos quartos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel"
+      ],
+      "distratores": [
+        "Os quartos são duplos",
+        "Sempre alguém vai embora",
+        "Há quartos de reserva"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Arquimedes",
+        "descricao": "Matemático, físico e inventor grego do século três antes de Cristo, nascido em Siracusa, na Sicília.",
+        "variantes": [
+          "Arquimedes de Siracusa",
+          "Archimedes"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Arquimedes",
+          "https://en.wikipedia.org/wiki/Archimedes"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Arquimedes pediu que seu túmulo trouxesse o desenho de uma esfera dentro de que outro sólido, ligado à descoberta de que mais se orgulhava?",
+      "resposta": "Cilindro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Archimedes",
+        "https://en.wikipedia.org/wiki/On_the_Sphere_and_Cylinder"
+      ],
+      "distratores": [
+        "Cubo",
+        "Cone",
+        "Pirâmide"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Arquimedes",
+        "descricao": "Matemático, físico e inventor grego do século três antes de Cristo, nascido em Siracusa, na Sicília.",
+        "variantes": [
+          "Arquimedes de Siracusa",
+          "Archimedes"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Arquimedes",
+          "https://en.wikipedia.org/wiki/Archimedes"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Arquimedes teria saído pelas ruas gritando eureka depois de achar, durante o banho, a solução de um problema sobre que objeto do rei?",
+      "resposta": "Uma coroa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eureka_(word)",
+        "https://en.wikipedia.org/wiki/Archimedes"
+      ],
+      "distratores": [
+        "Um trono",
+        "Um navio",
+        "Uma espada"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "1729_numero",
+        "nome": "1729 (número)",
+        "descricao": "Número natural conhecido como número de Hardy-Ramanujan, o menor que é soma de dois cubos de duas maneiras diferentes.",
+        "variantes": [
+          "Número de Hardy-Ramanujan",
+          "Número do táxi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1729_(number)"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O número mil setecentos e vinte e nove é a soma de um ao cubo com doze ao cubo, e também de nove ao cubo com qual outro cubo?",
+      "resposta": "Dez ao cubo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1729_(number)"
+      ],
+      "distratores": [
+        "Onze ao cubo",
+        "Oito ao cubo",
+        "Sete ao cubo"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "liber_abaci",
+        "nome": "Liber Abaci",
+        "descricao": "Livro de aritmética escrito por Fibonacci, publicado em 1202.",
+        "variantes": [
+          "Livro do Ábaco",
+          "Liber Abbaci"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Liber_Abaci"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Além dos algarismos de um a nove, que sinal o Liber Abaci, de Fibonacci, apresentou aos europeus em 1202?",
+      "resposta": "O zero",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Liber_Abaci"
+      ],
+      "distratores": [
+        "Sinal de mais",
+        "Sinal de igual",
+        "Vírgula decimal"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "id_existente": "pitagoras",
+        "nome": "Pitágoras",
+        "descricao": "Filósofo e matemático grego do século seis a.C., nascido em Samos, fundador da escola pitagórica.",
+        "variantes": [
+          "Pitágoras de Samos",
+          "Pythagoras"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pit%C3%A1goras"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Entre as regras atribuídas à escola de Pitágoras, uma das mais curiosas proibia comer que alimento?",
+      "resposta": "Favas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pythagoreanism",
+        "https://en.wikipedia.org/wiki/Pythagoras"
+      ],
+      "distratores": [
+        "Pão",
+        "Azeitonas",
+        "Figos"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "pitagoras",
+        "nome": "Pitágoras",
+        "descricao": "Filósofo e matemático grego do século seis a.C., nascido em Samos, fundador da escola pitagórica.",
+        "variantes": [
+          "Pitágoras de Samos",
+          "Pythagoras"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pit%C3%A1goras"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Nascido na ilha de Samos, Pitágoras fundou sua escola em Crotona, uma colônia grega no sul de que atual país?",
+      "resposta": "Itália",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pythagoras",
+        "https://en.wikipedia.org/wiki/Crotone"
+      ],
+      "distratores": [
+        "Grécia",
+        "Turquia",
+        "Egito"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "id_existente": "algarismos_romanos",
+        "nome": "Algarismos romanos",
+        "descricao": "Sistema de numeração da Roma antiga que usa letras como I, V, X, L, C, D e M.",
+        "variantes": [
+          "Numeração romana",
+          "Números romanos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Roman_numerals"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Que número, essencial na matemática de hoje, ficou sem símbolo próprio no sistema de algarismos romanos?",
+      "resposta": "Zero",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Roman_numerals"
+      ],
+      "distratores": [
+        "Mil",
+        "Quinhentos",
+        "Cinquenta"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "algarismos_romanos",
+        "nome": "Algarismos romanos",
+        "descricao": "Sistema de numeração da Roma antiga que usa letras como I, V, X, L, C, D e M.",
+        "variantes": [
+          "Numeração romana",
+          "Números romanos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Roman_numerals"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Sem usar traços ou sinais extras, qual é o maior número que se consegue escrever com os algarismos romanos tradicionais?",
+      "resposta": "3.999",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Roman_numerals"
+      ],
+      "distratores": [
+        "999",
+        "4.999",
+        "9.999"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "id_existente": "pi",
+        "nome": "Pi",
+        "descricao": "Constante matemática igual à razão entre a circunferência e o diâmetro de um círculo.",
+        "variantes": [
+          "π",
+          "Número pi"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pi"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Desde Arquimedes, que fração simples é usada como uma boa aproximação de pi?",
+      "resposta": "Vinte e dois sétimos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Approximations_of_%CF%80",
+        "https://en.wikipedia.org/wiki/Pi"
+      ],
+      "distratores": [
+        "Dezenove sextos",
+        "Dez terços",
+        "Sete meios"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "malba_tahan",
+        "nome": "Malba Tahan",
+        "descricao": "Pseudônimo do professor brasileiro Júlio César de Mello e Souza, autor de O Homem que Calculava.",
+        "variantes": [
+          "Júlio César de Mello e Souza"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Malba_Tahan"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Ao assinar como Malba Tahan, o professor carioca Júlio César de Mello e Souza se apresentava como um escritor de que origem?",
+      "resposta": "Árabe",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Malba_Tahan"
+      ],
+      "distratores": [
+        "Persa",
+        "Indiana",
+        "Turca"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "id_existente": "john_nash",
+        "nome": "John Nash",
+        "descricao": "Matemático americano do século vinte, retratado no filme Uma Mente Brilhante.",
+        "variantes": [
+          "John Forbes Nash Jr."
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/John_Forbes_Nash_Jr."
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em 2015, além do Nobel de Economia que já tinha, John Nash recebeu que prêmio norueguês, um dos mais importantes da matemática?",
+      "resposta": "Prêmio Abel",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/John_Forbes_Nash_Jr.",
+        "https://en.wikipedia.org/wiki/Abel_Prize"
+      ],
+      "distratores": [
+        "Medalha Fields",
+        "Prêmio Wolf",
+        "Prêmio Shaw"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "paul_erdos",
+        "nome": "Paul Erdős",
+        "descricao": "Matemático húngaro do século vinte, famoso pela enorme quantidade de artigos escritos com colaboradores.",
+        "variantes": [
+          "Erdős Pál",
+          "Paul Erdos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "O número de Erdős mede a distância de um pesquisador até o húngaro Paul Erdős. Essa distância é contada por meio de quê?",
+      "resposta": "Artigos escritos em parceria",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Erd%C5%91s_number"
+      ],
+      "distratores": [
+        "Citações em livros",
+        "Aulas assistidas",
+        "Cartas trocadas"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "zero",
+        "nome": "Zero",
+        "descricao": "O número zero e o algarismo que o representa.",
+        "variantes": [
+          "0"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/0"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Pela definição usada na matemática, o zero é um número par, ímpar ou nenhum dos dois?",
+      "resposta": "Par",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Parity_of_zero"
+      ],
+      "distratores": [
+        "Ímpar",
+        "Nenhum dos dois",
+        "Par e ímpar"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "sequencia_de_fibonacci",
+        "nome": "Sequência de Fibonacci",
+        "descricao": "Sequência numérica em que cada termo é a soma dos dois anteriores, apresentada na Europa por Fibonacci no Liber Abaci.",
+        "variantes": [
+          "Série de Fibonacci",
+          "Números de Fibonacci"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Dividindo um termo da sequência de Fibonacci pelo anterior, o resultado chega cada vez mais perto de que número famoso?",
+      "resposta": "Razão áurea",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fibonacci_sequence",
+        "https://en.wikipedia.org/wiki/Golden_ratio"
+      ],
+      "distratores": [
+        "Pi",
+        "Número e",
+        "Raiz de dois"
+      ]
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "id_existente": "dia_do_pi",
+        "nome": "Dia do Pi",
+        "descricao": "Data comemorativa da constante pi, celebrada em catorze de março.",
+        "variantes": [
+          "Pi Day"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pi_Day"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O Dia do Pi coincide com o nascimento de Einstein e também com a morte de que físico britânico, em 2018?",
+      "resposta": "Stephen Hawking",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pi_Day",
+        "https://en.wikipedia.org/wiki/Stephen_Hawking"
+      ],
+      "distratores": [
+        "Peter Higgs",
+        "Roger Penrose",
+        "Paul Dirac"
+      ]
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "id_existente": "logaritmo",
+        "nome": "Logaritmo",
+        "descricao": "Operação matemática inversa da exponenciação.",
+        "variantes": [
+          "Log"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Logaritmo"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "A escala Richter, dos terremotos, e a escala de pH, da acidez, se baseiam na mesma ferramenta matemática. Qual?",
+      "resposta": "Logaritmo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Logarithmic_scale",
+        "https://en.wikipedia.org/wiki/Logarithm"
+      ],
+      "distratores": [
+        "Porcentagem",
+        "Média aritmética",
+        "Raiz quadrada"
+      ]
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "id_existente": "carl_friedrich_gauss",
+        "nome": "Carl Friedrich Gauss",
+        "descricao": "Matemático, astrônomo e físico alemão, o príncipe dos matemáticos.",
+        "variantes": [
+          "Johann Carl Friedrich Gauss",
+          "Gauß"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Antes do euro, o retrato de Gauss e a curva em forma de sino estampavam qual cédula alemã?",
+      "resposta": "Nota de dez marcos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss"
+      ],
+      "distratores": [
+        "Nota de cinco marcos",
+        "Nota de vinte marcos",
+        "Nota de cem marcos"
+      ]
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "id_existente": "carl_friedrich_gauss",
+        "nome": "Carl Friedrich Gauss",
+        "descricao": "Matemático, astrônomo e físico alemão, o príncipe dos matemáticos.",
+        "variantes": [
+          "Johann Carl Friedrich Gauss",
+          "Gauß"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Conta-se que o menino Gauss somou em instantes todos os números de um a cem, para espanto do professor. Que resultado ele obteve?",
+      "resposta": "5.050",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss",
+        "https://en.wikipedia.org/wiki/Triangular_number"
+      ],
+      "distratores": [
+        "5.000",
+        "5.100",
+        "10.100"
+      ]
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "id_existente": "triangulo_de_sierpinski",
+        "nome": "Triângulo de Sierpinski",
+        "descricao": "Fractal com a forma de um triângulo equilátero, subdividido recursivamente em triângulos menores.",
+        "variantes": [
+          "Triângulo de Sierpiński",
+          "Junta de Sierpinski"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Pintando de preto só os números ímpares do triângulo de Pascal, surge aos poucos que figura fractal famosa?",
+      "resposta": "Triângulo de Sierpinski",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle"
+      ],
+      "distratores": [
+        "Conjunto de Mandelbrot",
+        "Floco de neve de Koch",
+        "Esponja de Menger"
+      ]
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "id_existente": "solidos_de_platao",
+        "nome": "Sólidos de Platão",
+        "descricao": "Os cinco poliedros regulares convexos: tetraedro, cubo, octaedro, dodecaedro e icosaedro.",
+        "variantes": [
+          "Poliedros de Platão",
+          "Sólidos platônicos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Platonic_solid"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "No diálogo Timeu, Platão associou cada poliedro regular a um elemento da natureza. Que elemento ficou com o cubo?",
+      "resposta": "Terra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Platonic_solid"
+      ],
+      "distratores": [
+        "Fogo",
+        "Água",
+        "Ar"
+      ]
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "googol",
+        "nome": "Googol",
+        "descricao": "Nome do número formado pelo algarismo um seguido de cem zeros.",
+        "variantes": [
+          "Gugol"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Googol"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome googol, dado ao um seguido de cem zeros, foi sugerido ao matemático americano Edward Kasner por quem?",
+      "resposta": "Seu sobrinho de nove anos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Googol"
+      ],
+      "distratores": [
+        "Um aluno dele",
+        "Sua esposa",
+        "Um colega físico"
+      ]
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "id_existente": "simbolo_do_infinito",
+        "nome": "Símbolo do infinito",
+        "descricao": "Símbolo matemático em forma de oito deitado, que representa o infinito.",
+        "variantes": [
+          "Lemniscata"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Infinity_symbol"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O símbolo do infinito, parecido com um oito deitado, tem a forma de uma curva cujo nome vem da palavra latina para fita. Que nome?",
+      "resposta": "Lemniscata",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Infinity_symbol",
+        "https://en.wikipedia.org/wiki/Lemniscate"
+      ],
+      "distratores": [
+        "Hipérbole",
+        "Cicloide",
+        "Espiral"
+      ]
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Sinal de mais",
+        "descricao": "Símbolo matemático em forma de cruz que indica a adição e os números positivos.",
+        "variantes": [
+          "Sinal de adição",
+          "Sinal positivo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Plus_and_minus_signs"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O sinal de mais, usado na adição, teria surgido como abreviação de qual palavrinha latina, que significa e?",
+      "resposta": "Et",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Plus_and_minus_signs"
+      ],
+      "distratores": [
+        "Cum",
+        "Ad",
+        "Sic"
+      ]
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "id_existente": "numero_e",
+        "nome": "Número e",
+        "descricao": "Constante matemática aproximadamente igual a dois vírgula setenta e um, base dos logaritmos naturais, também chamada número de Euler.",
+        "variantes": [
+          "Número de Euler",
+          "Constante de Napier"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/E_(mathematical_constant)"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O número e, base dos logaritmos naturais, também é chamado de constante de que matemático escocês?",
+      "resposta": "John Napier",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/E_(mathematical_constant)"
+      ],
+      "distratores": [
+        "James Gregory",
+        "Colin Maclaurin",
+        "James Stirling"
+      ]
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "id_existente": "papiro_rhind",
+        "nome": "Papiro Rhind",
+        "descricao": "Papiro egípcio com problemas de matemática, copiado pelo escriba Ahmes por volta de 1550 antes de Cristo.",
+        "variantes": [
+          "Papiro de Ahmes",
+          "Papiro de Rhind"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rhind_Mathematical_Papyrus"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O papiro Rhind, texto de matemática do antigo Egito copiado pelo escriba Ahmes, deve seu nome a quem?",
+      "resposta": "Antiquário escocês que o comprou",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rhind_Mathematical_Papyrus"
+      ],
+      "distratores": [
+        "Faraó da época",
+        "Templo onde foi achado",
+        "Seu primeiro tradutor"
+      ]
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "torre_de_hanoi",
+        "nome": "Torre de Hanói",
+        "descricao": "Quebra-cabeça matemático de discos de tamanhos diferentes que devem ser movidos entre três hastes, criado em 1883.",
+        "variantes": [
+          "Torre de Hanoi",
+          "Torre de Brahma"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tower_of_Hanoi"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na Torre de Hanói com apenas três discos, qual é o menor número de movimentos necessário para resolver o quebra-cabeça?",
+      "resposta": "Sete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tower_of_Hanoi"
+      ],
+      "distratores": [
+        "Cinco",
+        "Seis",
+        "Nove"
+      ]
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "torre_de_hanoi",
+        "nome": "Torre de Hanói",
+        "descricao": "Quebra-cabeça matemático de discos de tamanhos diferentes que devem ser movidos entre três hastes, criado em 1883.",
+        "variantes": [
+          "Torre de Hanoi",
+          "Torre de Brahma"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tower_of_Hanoi"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Segundo a lenda divulgada com a Torre de Hanói, o que aconteceria quando monges terminassem de mover sessenta e quatro discos de ouro?",
+      "resposta": "O fim do mundo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tower_of_Hanoi"
+      ],
+      "distratores": [
+        "Um eclipse total",
+        "Uma era de paz",
+        "A volta dos deuses"
+      ]
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "id_existente": "melencolia_i",
+        "nome": "Melencolia I",
+        "descricao": "Gravura em metal de 1514 de Albrecht Dürer, com figura alada e pensativa cercada de ferramentas e símbolos.",
+        "variantes": [
+          "Melancolia I"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Melencolia_I"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No quadrado mágico de quatro por quatro da gravura Melencolia I, de Dürer, quanto dá a soma de cada linha, coluna e diagonal?",
+      "resposta": "Trinta e quatro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Melencolia_I"
+      ],
+      "distratores": [
+        "Trinta",
+        "Trinta e dois",
+        "Trinta e seis"
+      ]
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Relação de Euler",
+        "descricao": "Fórmula segundo a qual, num poliedro convexo, o número de vértices menos o de arestas mais o de faces é igual a dois.",
+        "variantes": [
+          "Fórmula de Euler para poliedros",
+          "Característica de Euler"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Euler_characteristic"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na relação de Euler para poliedros convexos, o número de vértices menos o de arestas mais o de faces dá sempre quanto?",
+      "resposta": "Dois",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Euler_characteristic"
+      ],
+      "distratores": [
+        "Zero",
+        "Um",
+        "Quatro"
+      ]
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "id_existente": "leonhard_euler",
+        "nome": "Leonhard Euler",
+        "descricao": "Matemático e físico suíço do século dezoito, fundador da teoria dos grafos.",
+        "variantes": [
+          "Euler"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Leonhard_Euler"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Nos últimos anos de vida, Leonhard Euler continuou produzindo muito, mas passou a ditar seus trabalhos a assistentes. Por quê?",
+      "resposta": "Tinha ficado cego",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Leonhard_Euler"
+      ],
+      "distratores": [
+        "Mãos paralisadas",
+        "Não escrevia russo",
+        "Estava preso"
+      ]
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "id_existente": "faixa_de_mobius",
+        "nome": "Faixa de Möbius",
+        "descricao": "Superfície obtida ao colar as pontas de uma fita depois de meia torção, com uma só face.",
+        "variantes": [
+          "Fita de Möbius",
+          "Banda de Möbius"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/M%C3%B6bius_strip"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O que acontece quando se corta uma faixa de Möbius bem no meio, ao longo de todo o seu comprimento?",
+      "resposta": "Vira uma só fita maior",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/M%C3%B6bius_strip"
+      ],
+      "distratores": [
+        "Duas fitas separadas",
+        "Duas fitas entrelaçadas",
+        "Três fitas menores"
+      ]
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "id_existente": "calculo",
+        "nome": "Cálculo",
+        "descricao": "Ramo da matemática que estuda derivadas e integrais, também chamado cálculo diferencial e integral.",
+        "variantes": [
+          "Cálculo diferencial e integral",
+          "Cálculo infinitesimal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/History_of_calculus"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 1665 e 1666, Isaac Newton desenvolveu boa parte do cálculo em casa, porque a Universidade de Cambridge tinha fechado. Por causa de quê?",
+      "resposta": "Uma epidemia de peste",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Isaac_Newton",
+        "https://en.wikipedia.org/wiki/Great_Plague_of_London"
+      ],
+      "distratores": [
+        "Um grande incêndio",
+        "Uma guerra civil",
+        "Uma enchente"
+      ]
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "id_existente": "sudoku",
+        "nome": "Sudoku",
+        "descricao": "Quebra-cabeça de lógica de preencher uma grade 9x9 com dígitos de 1 a 9 sem repetir em linhas, colunas e blocos 3x3.",
+        "variantes": [
+          "Number Place"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sudoku"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Antes de virar mania no Japão, o sudoku moderno foi criado nos anos setenta por um arquiteto e publicado numa revista de que país?",
+      "resposta": "Estados Unidos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sudoku"
+      ],
+      "distratores": [
+        "Japão",
+        "Reino Unido",
+        "Canadá"
+      ]
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "id_existente": "algarismo",
+        "nome": "Algarismo",
+        "descricao": "Cada um dos símbolos usados para escrever números, de zero a nove.",
+        "variantes": [
+          "Algarismos indo-arábicos",
+          "Dígito"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Matemática",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Os algarismos de zero a nove chegaram à Europa trazidos pelos árabes, mas surgiram originalmente em que atual país?",
+      "resposta": "Índia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system"
+      ],
+      "distratores": [
+        "Egito",
+        "China",
+        "Grécia"
+      ]
+    }
+  ]
+}
