@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não entrega a resposta, fato confirmado nos trechos, distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A palavra 'redução' já entrega 'jesuítas' sem a figura (imagem coberta). Troquei por pergunta de lugar que exige reconhecer as ruínas.",
+      "reescrita": {
+        "pergunta": "Estas ruínas históricas ficam em qual estado brasileiro?",
+        "resposta": "Rio Grande do Sul",
+        "distratores": [
+          "Santa Catarina",
+          "Paraná",
+          "Mato Grosso do Sul"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento; pista 'litoral nordestino' ajuda sem entregar; distratores são praias nordestinas parecidas.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Morro de São Paulo fica em Cairu, Bahia; o farol existe; a pista não entrega o estado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o Pátio do Colégio marca o local de fundação de São Paulo; o enunciado não nomeia a cidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Projeto de Oscar Niemeyer confirmado nos trechos; distratores são arquitetos brasileiros críveis e nenhum projetou o memorial.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos situam a caatinga no interior do Nordeste; distratores são outras regiões e o enunciado não entrega a resposta.",
+      "reescrita": null
+    }
+  ]
+}

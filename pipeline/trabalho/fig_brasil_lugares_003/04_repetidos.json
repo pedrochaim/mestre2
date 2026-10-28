@@ -1,0 +1,112 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Estas ruínas históricas ficam em qual estado brasileiro?",
+        "resposta": "Rio Grande do Sul"
+      },
+      "existentes": [
+        {
+          "id": "q04704",
+          "pergunta": "Em que estado brasileiro ficam estas ruínas de uma antiga missão do século dezoito?",
+          "resposta": "Rio Grande do Sul"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que estado brasileiro fica esta praia, com um farol no alto do morro?",
+        "resposta": "Bahia"
+      },
+      "existentes": [
+        {
+          "id": "q14238",
+          "pergunta": "Esta vila turística baiana, com farol no alto do morro, fica em que ilha?",
+          "resposta": "Ilha de Tinharé"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Este conjunto marca o local de fundação de qual grande cidade brasileira?",
+        "resposta": "São Paulo"
+      },
+      "existentes": [
+        {
+          "id": "q00172",
+          "pergunta": "Em que ano os jesuítas fundaram o colégio que deu origem à cidade de São Paulo?",
+          "resposta": "1554"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que arquiteto projetou este conjunto de edifícios?",
+        "resposta": "Oscar Niemeyer"
+      },
+      "existentes": [
+        {
+          "id": "q15679",
+          "pergunta": "Que conjunto arquitetônico paulistano, projetado por Oscar Niemeyer, é este?",
+          "resposta": "Memorial da América Latina"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que região do Brasil fica este bioma?",
+        "resposta": "Nordeste"
+      },
+      "existentes": [
+        {
+          "id": "q02256",
+          "pergunta": "Caatinga, nome do bioma do sertão nordestino, vem do tupi e descreve a paisagem na seca. O que esse nome significa?",
+          "resposta": "Mata branca"
+        },
+        {
+          "id": "q02257",
+          "pergunta": "Qual bioma brasileiro existe apenas dentro do território do Brasil?",
+          "resposta": "Caatinga"
+        },
+        {
+          "id": "q08691",
+          "pergunta": "Que cacto da Caatinga, de grandes flores brancas, tem a florada vista pelo sertanejo como sinal de que a chuva vai chegar?",
+          "resposta": "Mandacaru"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o estado das ruínas (Rio Grande do Sul); mesmo fato.",
+      "id_existente": "q04704"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Uma pergunta o estado (Bahia), a outra a ilha onde fica a vila; fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Uma pergunta qual cidade foi fundada no local; a outra o ano de fundação do colégio. Fatos diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A nova pergunta o arquiteto (Niemeyer), a existente o nome do conjunto, embora cite o arquiteto no enunciado; a resposta de uma é dada na outra, mas o fato perguntado é diferente. Na dúvida, nova."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Região do bioma não é perguntada em nenhuma existente; fatos diferentes (significado do nome, endemismo, cacto)."
+    }
+  ]
+}

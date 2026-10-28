@@ -47,7 +47,7 @@
       "titulo": "en:Ibirapuera Park",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Museu de Arte Contemporânea de Niterói",
@@ -96,7 +96,7 @@
       "titulo": "pt:Farol da Barra",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Edifício Copan",
@@ -152,7 +152,7 @@
       "titulo": "en:Church of Saint Francis of Assisi (Belo Horizonte)",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Real Gabinete Português de Leitura",
@@ -173,7 +173,7 @@
       "titulo": "pt:Sítio Arqueológico de São Miguel Arcanjo",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Canoa Quebrada",
@@ -286,6 +286,286 @@
       "camada": 3,
       "destino": 1,
       "status": "usada"
+    },
+    {
+      "nome": "Pantanal",
+      "titulo": "en:Pantanal",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Floresta Amazônica",
+      "titulo": "en:Amazon rainforest",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Rio Amazonas",
+      "titulo": "en:Amazon River",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Basílica do Senhor do Bonfim",
+      "titulo": "pt:Basílica do Senhor do Bonfim",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Esplanada dos Ministérios",
+      "titulo": "en:Esplanada dos Ministérios",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rocinha",
+      "titulo": "en:Rocinha",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio do Morumbi",
+      "titulo": "en:Morumbi Stadium",
+      "camada": 1,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Morro Dois Irmãos",
+      "titulo": "pt:Morro Dois Irmãos",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Copacabana Palace",
+      "titulo": "en:Copacabana Palace",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pátio do Colégio",
+      "titulo": "en:Pátio do Colégio",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Jardim Botânico do Rio de Janeiro",
+      "titulo": "en:Rio de Janeiro Botanical Garden",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Caatinga",
+      "titulo": "en:Caatinga",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Igreja da Candelária",
+      "titulo": "en:Candelária Church",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Viaduto do Chá",
+      "titulo": "en:Viaduto do Chá",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Edifício Itália",
+      "titulo": "en:Edifício Itália",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Praia da Pipa",
+      "titulo": "pt:Praia da Pipa",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Cascata do Caracol",
+      "titulo": "pt:Cascata do Caracol",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Theatro da Paz",
+      "titulo": "en:Theatro da Paz",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Morro de São Paulo",
+      "titulo": "en:Morro de São Paulo",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Arquipélago de Abrolhos",
+      "titulo": "en:Abrolhos Marine National Park",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Maragogi",
+      "titulo": "en:Maragogi",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Campos do Jordão",
+      "titulo": "en:Campos do Jordão",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Búzios",
+      "titulo": "en:Armação dos Búzios",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Memorial da América Latina",
+      "titulo": "en:Latin America Memorial",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Pinacoteca do Estado de São Paulo",
+      "titulo": "en:Pinacoteca do Estado de São Paulo",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Museu Nacional",
+      "titulo": "en:National Museum of Brazil",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Inhotim",
+      "titulo": "en:Inhotim",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Edifício Martinelli",
+      "titulo": "en:Martinelli Building",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Usina do Gasômetro",
+      "titulo": "en:Usina do Gasômetro",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Theatro José de Alencar",
+      "titulo": "pt:Theatro José de Alencar",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Estação das Docas",
+      "titulo": "pt:Estação das Docas",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mercado Adolpho Lisboa",
+      "titulo": "pt:Mercado Municipal Adolpho Lisboa",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Arquipélago de Anavilhanas",
+      "titulo": "en:Anavilhanas National Park",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fortaleza de São José de Macapá",
+      "titulo": "en:Fortaleza de São José de Macapá",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Real Forte Príncipe da Beira",
+      "titulo": "en:Real Forte Príncipe da Beira",
+      "camada": 3,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Estrada de Ferro Madeira-Mamoré",
+      "titulo": "en:Madeira-Mamoré Railroad",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedra do Baú",
+      "titulo": "pt:Pedra do Baú",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha de Paquetá",
+      "titulo": "en:Paquetá Island",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Instituto Ricardo Brennand",
+      "titulo": "en:Ricardo Brennand Institute",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Parque Nacional de Sete Cidades",
+      "titulo": "en:Sete Cidades National Park",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }

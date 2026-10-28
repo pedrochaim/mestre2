@@ -1,0 +1,194 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea com lago, marquise e pavilhões, reconhecível; sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta vista aérea mostra um grande parque de qual cidade?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Rio de Janeiro",
+        "Belo Horizonte",
+        "Curitiba"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Parque Ibirapuera",
+        "descricao": "Parque urbano de 158 hectares em São Paulo, inaugurado em 1954 e o mais visitado da América do Sul.",
+        "variantes": [
+          "Ibirapuera",
+          "Ibirapuera Park"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Só muralha baixa e gramado; sem traço distintivo, não reconhecível nem única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fachada icônica em arenito vermelho, sem texto nem pessoas.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Estas ruínas são de uma antiga redução fundada por qual ordem religiosa?",
+      "resposta": "Jesuítas",
+      "distratores": [
+        "Franciscanos",
+        "Beneditinos",
+        "Carmelitas"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Ruínas de São Miguel das Missões",
+        "descricao": "Remanescentes da redução jesuítica de São Miguel Arcanjo, um dos Sete Povos das Missões, no noroeste do Rio Grande do Sul.",
+        "variantes": [
+          "Sítio Arqueológico de São Miguel Arcanjo",
+          "São Miguel Arcanjo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Placa com 'Adolpho Lisboa' legível entrega a resposta e há pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vila e falésias sobre o mar, característica da Pipa; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que praia do litoral nordestino é esta?",
+      "resposta": "Praia da Pipa",
+      "distratores": [
+        "Jericoacoara",
+        "Porto de Galinhas",
+        "Canoa Quebrada"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Praia da Pipa",
+        "descricao": "Famosa praia de Tibau do Sul, no litoral sul do Rio Grande do Norte, a cerca de 85 km de Natal.",
+        "variantes": [
+          "Praia de Pipa",
+          "Pipa"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Banner 'Resto das Docas' visível e fotografia sem elemento único que identifique o lugar com clareza."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Dossel de floresta tropical genérico; pode ser confundido com outras florestas, resposta não única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Morro com farol e praia, característico; sem texto nem pessoas.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que estado brasileiro fica esta praia, com um farol no alto do morro?",
+      "resposta": "Bahia",
+      "distratores": [
+        "Sergipe",
+        "Pernambuco",
+        "Alagoas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Morro de São Paulo",
+        "descricao": "Vila turística da ilha de Tinharé, no município de Cairu, Bahia, com praias numeradas e farol no morro.",
+        "variantes": [
+          "Morro de Sao Paulo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Casarão jesuítico branco e torre reconhecíveis; só uma plaquinha pequena 'museu anchieta' e pessoas distantes.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este conjunto marca o local de fundação de qual grande cidade brasileira?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Rio de Janeiro",
+        "Salvador",
+        "Belo Horizonte"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Pátio do Colégio",
+        "descricao": "Igreja e colégio jesuítas no centro de São Paulo, que marcam o local de fundação da cidade em 1554.",
+        "variantes": [
+          "Pateo do Collegio",
+          "Páteo do Colégio"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Praça com a mão vermelha, pórtico e cúpulas, reconhecível; sem texto legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto projetou este conjunto de edifícios?",
+      "resposta": "Oscar Niemeyer",
+      "distratores": [
+        "Lúcio Costa",
+        "Paulo Mendes da Rocha",
+        "Vilanova Artigas"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Memorial da América Latina",
+        "descricao": "Complexo cultural e político em São Paulo, inaugurado em 1989, projetado por Oscar Niemeyer.",
+        "variantes": [
+          "Latin America Memorial"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O nome 'Theatro José de Alencar' aparece escrito na fachada e entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Mata seca de arbustos sem folhas, típica da Caatinga; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que região do Brasil fica este bioma?",
+      "resposta": "Nordeste",
+      "distratores": [
+        "Centro-Oeste",
+        "Sul",
+        "Norte"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caatinga",
+        "descricao": "Bioma de vegetação semiárida de arbustos espinhosos e cactos, no interior do Nordeste brasileiro.",
+        "variantes": [
+          "Mata Branca"
+        ]
+      }
+    }
+  ]
+}

@@ -320051,5 +320051,155 @@
       "licenca": "CC BY-SA 4.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q16617",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "parque_ibirapuera",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Esta vista aérea mostra um grande parque de qual cidade?",
+    "resposta": "São Paulo",
+    "distratores": [
+      "Rio de Janeiro",
+      "Belo Horizonte",
+      "Curitiba"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ibirapuera_Park",
+      "https://pt.wikipedia.org/wiki/Parque_Ibirapuera"
+    ],
+    "imagem": {
+      "arquivo": "q16617.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Parque_do_ibirapuera_visto_do_céu.jpg",
+      "autor": "Fernando Stankuns",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q16618",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "praia_da_pipa",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que praia do litoral nordestino é esta?",
+    "resposta": "Praia da Pipa",
+    "distratores": [
+      "Jericoacoara",
+      "Porto de Galinhas",
+      "Canoa Quebrada"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Praia_de_Pipa",
+      "https://en.wikipedia.org/wiki/Pipa_Beach"
+    ],
+    "imagem": {
+      "arquivo": "q16618.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:PipaBeachView.JPG",
+      "autor": "Bjørn Christian Tørrissen",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q16619",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "morro_de_sao_paulo",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que estado brasileiro fica esta praia, com um farol no alto do morro?",
+    "resposta": "Bahia",
+    "distratores": [
+      "Sergipe",
+      "Pernambuco",
+      "Alagoas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Morro_de_S%C3%A3o_Paulo",
+      "https://pt.wikipedia.org/wiki/Morro_de_S%C3%A3o_Paulo"
+    ],
+    "imagem": {
+      "arquivo": "q16619.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:FarolMorroSaoPaulo.jpg",
+      "autor": "Leonardo Pallotta",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q16620",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "patio_do_colegio",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este conjunto marca o local de fundação de qual grande cidade brasileira?",
+    "resposta": "São Paulo",
+    "distratores": [
+      "Rio de Janeiro",
+      "Salvador",
+      "Belo Horizonte"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/P%C3%A1tio_do_Col%C3%A9gio",
+      "https://pt.wikipedia.org/wiki/P%C3%A1tio_do_Col%C3%A9gio"
+    ],
+    "imagem": {
+      "arquivo": "q16620.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pátio_do_Colégio_01.JPG",
+      "autor": "Dornicke (2008)",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q16621",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "memorial_da_america_latina",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que arquiteto projetou este conjunto de edifícios?",
+    "resposta": "Oscar Niemeyer",
+    "distratores": [
+      "Lúcio Costa",
+      "Paulo Mendes da Rocha",
+      "Vilanova Artigas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Latin_America_Memorial",
+      "https://pt.wikipedia.org/wiki/Memorial_da_Am%C3%A9rica_Latina"
+    ],
+    "imagem": {
+      "arquivo": "q16621.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Memorial_da_América_Latina,_vista_geral.jpg",
+      "autor": "Dornicke",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q16622",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "caatinga",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que região do Brasil fica este bioma?",
+    "resposta": "Nordeste",
+    "distratores": [
+      "Centro-Oeste",
+      "Sul",
+      "Norte"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Caatinga",
+      "https://pt.wikipedia.org/wiki/Caatinga"
+    ],
+    "imagem": {
+      "arquivo": "q16622.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Caatinga_-_Sítio_Gravatá_dos_Velez,_Queimadas_-_PB_.2.jpg",
+      "autor": "Trigueiro martins",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]
