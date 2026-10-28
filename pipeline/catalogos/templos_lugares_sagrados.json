@@ -5,7 +5,7 @@
       "titulo": "en:Stonehenge",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Templos de Abu Simbel",
@@ -19,7 +19,7 @@
       "titulo": "en:El Castillo, Chichen Itza",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Basílica de Aparecida",
@@ -173,7 +173,7 @@
       "titulo": "en:Tōdai-ji",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Templo de Zeus Olímpico",
@@ -222,7 +222,7 @@
       "titulo": "en:Templo Mayor",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Templo de Baco (Baalbek)",
@@ -271,13 +271,293 @@
       "titulo": "en:Dohány Street Synagogue",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Tefilin",
       "titulo": "en:Tefillin",
       "camada": 3,
       "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Capela Sistina",
+      "titulo": "en:Sistine Chapel",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Praça de São Pedro",
+      "titulo": "en:St. Peter's Square",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Abadia de Westminster",
+      "titulo": "en:Westminster Abbey",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Catedral de Colônia",
+      "titulo": "en:Cologne Cathedral",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Catedral da Sé de São Paulo",
+      "titulo": "pt:Catedral da Sé de São Paulo",
+      "camada": 1,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Catedral de São Basílio",
+      "titulo": "en:Saint Basil's Cathedral",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mont-Saint-Michel",
+      "titulo": "en:Mont-Saint-Michel",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ankh",
+      "titulo": "en:Ankh",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Olho de Hórus",
+      "titulo": "en:Eye of Horus",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo de Luxor",
+      "titulo": "en:Luxor Temple",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cnossos",
+      "titulo": "en:Knossos",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Totem",
+      "titulo": "en:Totem pole",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Escaravelho egípcio",
+      "titulo": "en:Scarab (artifact)",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Basílica de São Marcos",
+      "titulo": "en:St Mark's Basilica",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Basílica de Nossa Senhora de Guadalupe",
+      "titulo": "en:Basilica of Our Lady of Guadalupe",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mesquita Hassan II",
+      "titulo": "en:Hassan II Mosque",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ghats de Varanasi",
+      "titulo": "en:Ghats in Varanasi",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Sinai",
+      "titulo": "en:Mount Sinai",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Igreja de São Francisco de Assis (Ouro Preto)",
+      "titulo": "pt:Igreja de São Francisco de Assis (Ouro Preto)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Catedral Metropolitana do Rio de Janeiro",
+      "titulo": "pt:Catedral Metropolitana de São Sebastião",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo de Dendera",
+      "titulo": "en:Dendera Temple complex",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo de Kom Ombo",
+      "titulo": "en:Kom Ombo Temple",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo de Atena Nice",
+      "titulo": "en:Temple of Athena Nike",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo de Apolo em Delfos",
+      "titulo": "en:Temple of Apollo (Delphi)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo de Vesta",
+      "titulo": "en:Temple of Vesta",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pirâmide da Lua",
+      "titulo": "en:Pyramid of the Moon",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Kailash",
+      "titulo": "en:Mount Kailash",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Mesquita Sheikh Lotfollah",
+      "titulo": "en:Sheikh Lotfollah Mosque",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mosteiro de Rila",
+      "titulo": "en:Rila Monastery",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Mosteiro de Taktsang (Ninho do Tigre)",
+      "titulo": "en:Paro Taktsang",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mesquita-Catedral de Córdoba",
+      "titulo": "en:Mosque–Cathedral of Córdoba",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Santuário de Ise",
+      "titulo": "en:Ise Grand Shrine",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Sinagoga Velha-Nova de Praga",
+      "titulo": "en:Old New Synagogue",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hallgrímskirkja",
+      "titulo": "en:Hallgrímskirkja",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo de Hera em Olímpia",
+      "titulo": "en:Temple of Hera, Olympia",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo de Apolo Epicuro",
+      "titulo": "en:Temple of Apollo Epikourios",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo das Inscrições",
+      "titulo": "en:Temple of the Inscriptions",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo I de Tikal",
+      "titulo": "en:Tikal Temple I",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Kalasasaya",
+      "titulo": "en:Kalasasaya",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo de Saturno",
+      "titulo": "en:Temple of Saturn",
+      "camada": 3,
+      "destino": 1,
       "status": "nova"
     }
   ]

@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. Os distratores são pirâmides mesoamericanas críveis e nenhum deles está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que Ganesha também reside em Kailash com Shiva, então ele é um distrator discutível. Troquei por Indra, que não tem ligação com a montanha.",
+      "reescrita": {
+        "pergunta": "Esta montanha sagrada é considerada, no hinduísmo, a morada de qual deus?",
+        "resposta": "Shiva",
+        "distratores": [
+          "Vishnu",
+          "Brahma",
+          "Indra"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. Os distratores são sinagogas europeias plausíveis (a de Praga também é neomourisca) e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está no trecho em pt (avenida alinhada ao sol nascente do primeiro dia do verão). O distrator 'Dia mais curto do ano' é o solstício de inverno, que também costuma ser associado ao monumento, e fica defensável. Troquei por um distrator claramente errado.",
+      "reescrita": {
+        "pergunta": "Este monumento pré-histórico tem um eixo alinhado ao nascer do sol em qual momento do ano?",
+        "resposta": "Solstício de verão",
+        "distratores": [
+          "Equinócio de outono",
+          "Equinócio de primavera",
+          "Dia de Ano-Novo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Colônia fica no Reno, fato amplamente documentado. O enunciado não nomeia a catedral e os distratores são rios europeus plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o Grande Salão do Buda abriga a estátua de Vairocana. Os distratores são outros budas, errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. Os distratores são mosteiros ortodoxos dos Bálcãs e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A abadia fica em Londres, como confirmam os trechos. O enunciado não a nomeia e os distratores são capitais britânicas e irlandesa plausíveis.",
+      "reescrita": null
+    }
+  ]
+}

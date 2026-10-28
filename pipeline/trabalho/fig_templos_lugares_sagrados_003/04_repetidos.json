@@ -1,0 +1,156 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que templo mesoamericano é este?",
+        "resposta": "Templo de Kukulcán (El Castillo)"
+      },
+      "existentes": [
+        {
+          "id": "q03520",
+          "pergunta": "Somando as quatro escadarias e o degrau da plataforma do topo, quantos degraus tem a pirâmide de Kukulcán, em Chichén Itzá?",
+          "resposta": "365"
+        },
+        {
+          "id": "q03521",
+          "pergunta": "Nos equinócios, a luz do fim da tarde na escadaria da pirâmide de Kukulcán cria a ilusão de que animal descendo?",
+          "resposta": "Serpente"
+        },
+        {
+          "id": "q04692",
+          "pergunta": "Em que país fica esta pirâmide em degraus?",
+          "resposta": "México"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Esta montanha sagrada é considerada, no hinduísmo, a morada de qual deus?",
+        "resposta": "Shiva"
+      },
+      "existentes": [
+        {
+          "id": "q02341",
+          "pergunta": "Em que país fica esta montanha, sagrada para hindus e budistas?",
+          "resposta": "China"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Este monumento pré-histórico tem um eixo alinhado ao nascer do sol em qual momento do ano?",
+        "resposta": "Solstício de verão"
+      },
+      "existentes": [
+        {
+          "id": "q00381",
+          "pergunta": "Que monumento é este?",
+          "resposta": "Stonehenge"
+        },
+        {
+          "id": "q03114",
+          "pergunta": "As chamadas pedras azuis de Stonehenge, as menores do monumento, foram trazidas de colinas de que região do Reino Unido?",
+          "resposta": "País de Gales"
+        },
+        {
+          "id": "q07517",
+          "pergunta": "Na Inglaterra, o eixo principal do círculo de pedras de Stonehenge está alinhado com o nascer do sol em que data especial do ano?",
+          "resposta": "Solstício de verão"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Esta catedral gótica de duas torres fica à margem de qual rio?",
+        "resposta": "Reno"
+      },
+      "existentes": [
+        {
+          "id": "q03973",
+          "pergunta": "Iniciada em 1248, a Catedral de Colônia, na Alemanha, ficou séculos inacabada. Em que século foi finalmente concluída?",
+          "resposta": "Século dezenove"
+        },
+        {
+          "id": "q08671",
+          "pergunta": "Que catedral gótica alemã é esta?",
+          "resposta": "Catedral de Colônia"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Este salão de um templo budista japonês abriga uma enorme estátua de qual Buda?",
+        "resposta": "Buda Vairocana"
+      },
+      "existentes": [
+        {
+          "id": "q07663",
+          "pergunta": "O templo Todai-ji, com seu enorme Buda de bronze, fica em que antiga capital japonesa, famosa pelos cervos soltos nas ruas?",
+          "resposta": "Nara"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que cidade fica esta abadia?",
+        "resposta": "Londres"
+      },
+      "existentes": [
+        {
+          "id": "q06292",
+          "pergunta": "Em que ano o primeiro rei normando da Inglaterra foi coroado nesta igreja de Londres?",
+          "resposta": "1066"
+        },
+        {
+          "id": "q08574",
+          "pergunta": "Que igreja inglesa é esta?",
+          "resposta": "Abadia de Westminster"
+        },
+        {
+          "id": "q13196",
+          "pergunta": "No século onze, que rei anglo-saxão, mais tarde canonizado, mandou erguer a grande igreja que deu origem à Abadia de Westminster?",
+          "resposta": "Eduardo, o Confessor"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o templo é fato diferente de degraus, serpente ou país (a pergunta de país não identifica o nome)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Divindade hindu da montanha difere do país onde fica."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: alinhamento do eixo ao nascer do sol no solstício de verão.",
+      "id_existente": "q07517"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Rio à margem da catedral é fato distinto de século de conclusão ou nome."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Buda da estátua é fato diferente da cidade onde fica o templo."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Cidade da abadia é fato distinto; a existente sobre coroação pergunta o ano, embora mencione Londres no enunciado."
+    }
+  ]
+}

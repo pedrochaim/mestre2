@@ -1,0 +1,503 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Templo de Kukulcán (Chichén Itzá)",
+        "descricao": "Pirâmide escalonada maia no centro do sítio arqueológico de Chichén Itzá, em Yucatán, no México.",
+        "variantes": [
+          "El Castillo",
+          "Castillo de Chichén Itzá",
+          "Pirâmide de Kukulcán"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chichen_itza",
+          "nome": "Chichén Itzá",
+          "descricao": "Cidade maia na península de Iucatã, no México, com a pirâmide de Kukulcán.",
+          "variantes": [
+            "Pirâmide de Kukulcán",
+            "El Castillo"
+          ]
+        },
+        {
+          "id": "piramide_de_kukulcan",
+          "nome": "Pirâmide de Kukulcán",
+          "descricao": "Pirâmide escalonada no centro de Chichén Itzá, no México, também chamada El Castillo.",
+          "variantes": [
+            "El Castillo",
+            "Templo de Kukulcán"
+          ]
+        },
+        {
+          "id": "grande_piramide_de_gize",
+          "nome": "Grande Pirâmide de Gizé",
+          "descricao": "Maior das pirâmides egípcias de Gizé, tumba do faraó Quéops da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Quéops",
+            "Pirâmide de Khufu",
+            "Great Pyramid of Giza"
+          ]
+        },
+        {
+          "id": "grande_piramide_de_cholula",
+          "nome": "Grande Pirâmide de Cholula",
+          "descricao": "Enorme pirâmide pré-colombiana no estado mexicano de Puebla, hoje coberta de terra e com uma igreja no topo.",
+          "variantes": [
+            "Pirâmide de Cholula",
+            "Tlachihualtépetl"
+          ]
+        },
+        {
+          "id": "piramide_de_quefren",
+          "nome": "Pirâmide de Quéfren",
+          "descricao": "Segunda maior pirâmide de Gizé, túmulo do faraó Quéfren da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Khafre",
+            "Pyramid of Khafre",
+            "Pirâmide de Chefren"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Monte Kailash",
+        "descricao": "Montanha de 6.638 metros no Tibete, sagrada para o bon, o budismo, o hinduísmo e o jainismo.",
+        "variantes": [
+          "Kailash",
+          "Monte Kailasa",
+          "Kang Rinpoche"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_kailash",
+          "nome": "Monte Kailash",
+          "descricao": "Montanha sagrada de 6.638 metros no oeste do Planalto Tibetano, na China.",
+          "variantes": [
+            "Kailash",
+            "Monte Kailasa"
+          ]
+        },
+        {
+          "id": "mancala",
+          "nome": "Mancala",
+          "descricao": "Família de jogos de tabuleiro para dois jogadores, com sementes ou pedras distribuídas em covas.",
+          "variantes": [
+            "Kalah",
+            "Manqala"
+          ]
+        },
+        {
+          "id": "monte_alban",
+          "nome": "Monte Albán",
+          "descricao": "Sítio arqueológico zapoteca no vale de Oaxaca, México.",
+          "variantes": []
+        },
+        {
+          "id": "aegislash",
+          "nome": "Aegislash",
+          "descricao": "Pokémon dos tipos Aço e Fantasma da sexta geração, uma espada com escudo, evolução final de Honedge.",
+          "variantes": [
+            "Gilgard"
+          ]
+        },
+        {
+          "id": "air_slash",
+          "nome": "Air Slash",
+          "descricao": "Golpe de pokémon do tipo Voador, da 4ª geração.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Sinagoga da Rua Dohány",
+        "descricao": "Grande Sinagoga de Budapeste, na Hungria, a maior da Europa, em estilo neomourisco.",
+        "variantes": [
+          "Grande Sinagoga de Budapeste",
+          "Dohány utcai zsinagóga",
+          "Sinagoga de Dohány"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "parlamento_hungaro",
+          "nome": "Parlamento Húngaro",
+          "descricao": "Sede da Assembleia Nacional da Hungria, edifício neogótico às margens do Danúbio, em Budapeste.",
+          "variantes": [
+            "Parlamento de Budapeste",
+            "Országház"
+          ]
+        },
+        {
+          "id": "sindrome_de_down",
+          "nome": "Síndrome de Down",
+          "descricao": "Condição genética causada por uma cópia extra do cromossomo 21.",
+          "variantes": [
+            "Trissomia do 21",
+            "Down syndrome"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_djenne",
+          "nome": "Grande Mesquita de Djenné",
+          "descricao": "Mesquita de barro na cidade de Djenné, no Mali, reconstruída em 1907 e Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Great Mosque of Djenné",
+            "Mesquita de Djenné"
+          ]
+        },
+        {
+          "id": "grande_esfinge_de_gize",
+          "nome": "Grande Esfinge de Gizé",
+          "descricao": "Estátua colossal de calcário com corpo de leão e cabeça humana, no planalto de Gizé, no Egito",
+          "variantes": [
+            "Great Sphinx of Giza",
+            "Esfinge de Gizé",
+            "Abul-Hol"
+          ]
+        },
+        {
+          "id": "pagode_shwedagon",
+          "nome": "Pagode Shwedagon",
+          "descricao": "Estupa dourada, o pagode budista mais sagrado de Mianmar, em Yangon.",
+          "variantes": [
+            "Shwedagon Pagoda",
+            "Pagode Dourado",
+            "Grande Pagode Dagon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Stonehenge",
+        "descricao": "Monumento megalítico pré-histórico na planície de Salisbury, em Wiltshire, na Inglaterra.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "stonehenge",
+          "nome": "Stonehenge",
+          "descricao": "Monumento pré-histórico de grandes pedras em círculo, na Inglaterra.",
+          "variantes": []
+        },
+        {
+          "id": "stone_edge",
+          "nome": "Stone Edge",
+          "descricao": "Golpe de pokémon do tipo Pedra, da 4ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "stonehenge_do_amapa",
+          "nome": "Stonehenge do Amapá",
+          "descricao": "Parque Arqueológico do Solstício, sítio de megálitos em Calçoene, no litoral norte do Amapá.",
+          "variantes": [
+            "Parque Arqueológico do Solstício",
+            "Observatório Astronômico de Calçoene",
+            "Stonehenge brasileiro"
+          ]
+        },
+        {
+          "id": "stephen_king",
+          "nome": "Stephen King",
+          "descricao": "Escritor americano conhecido por romances de terror, como Carrie e O Iluminado.",
+          "variantes": [
+            "Stephen Edwin King"
+          ]
+        },
+        {
+          "id": "serengeti",
+          "nome": "Serengeti",
+          "descricao": "Região de savanas no norte da Tanzânia e no sudoeste do Quênia, famosa pela migração de grandes manadas",
+          "variantes": [
+            "Serengueti"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Catedral de Colônia",
+        "descricao": "Catedral católica gótica de duas torres em Colônia, na Alemanha, Patrimônio Mundial desde 1996.",
+        "variantes": [
+          "Kölner Dom"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_lincoln",
+          "nome": "Catedral de Lincoln",
+          "descricao": "Catedral gótica da cidade de Lincoln, na Inglaterra, cuja torre central foi concluída por volta de 1311.",
+          "variantes": [
+            "Lincoln Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_florenca",
+          "nome": "Catedral de Florença",
+          "descricao": "Catedral de Santa Maria del Fiore, em Florença, com grande cúpula renascentista.",
+          "variantes": [
+            "Santa Maria del Fiore",
+            "Duomo de Florença",
+            "Florence Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_cantuaria",
+          "nome": "Catedral de Cantuária",
+          "descricao": "Catedral da arquidiocese anglicana em Cantuária (Kent), na Inglaterra, sede espiritual da Igreja da Inglaterra.",
+          "variantes": [
+            "Catedral de Canterbury",
+            "Canterbury Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_santiago_de_compostela",
+          "nome": "Catedral de Santiago de Compostela",
+          "descricao": "Catedral da Galícia, na Espanha, destino final do Caminho de Santiago",
+          "variantes": [
+            "Catedral de Compostela",
+            "Santiago de Compostela Cathedral"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tōdai-ji",
+        "descricao": "Complexo de templos budistas em Nara, no Japão, com o Grande Salão do Buda.",
+        "variantes": [
+          "Todaiji",
+          "Templo Todai-ji",
+          "Grande Templo do Leste"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "todai_ji",
+          "nome": "Todai-ji",
+          "descricao": "Templo budista japonês do século oito que abriga uma gigantesca estátua de bronze de Buda.",
+          "variantes": [
+            "Templo Todaiji"
+          ]
+        },
+        {
+          "id": "peste_negra",
+          "nome": "Peste Negra",
+          "descricao": "Pandemia de peste bubônica que devastou a Europa, a Ásia e o Norte da África em meados do século quatorze.",
+          "variantes": [
+            "Grande Peste",
+            "Black Death",
+            "Morte Negra"
+          ]
+        },
+        {
+          "id": "templo_mayor",
+          "nome": "Templo Mayor",
+          "descricao": "Principal templo dos mexicas em Tenochtitlan, cujas ruínas ficam no centro da Cidade do México.",
+          "variantes": [
+            "Huey Teocalli",
+            "Grande Templo de Tenochtitlan"
+          ]
+        },
+        {
+          "id": "byodo_in",
+          "nome": "Byodo-in",
+          "descricao": "Templo budista do século onze em Uji, perto de Quioto, famoso pelo Pavilhão da Fênix.",
+          "variantes": [
+            "Templo Byodoin"
+          ]
+        },
+        {
+          "id": "yokozuna",
+          "nome": "Yokozuna",
+          "descricao": "Posto mais alto da hierarquia dos lutadores profissionais de sumô.",
+          "variantes": [
+            "Grande campeão do sumô"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Mosteiro de Rila",
+        "descricao": "Maior mosteiro ortodoxo da Bulgária, nas montanhas de Rila, fundado no século dez.",
+        "variantes": [
+          "Mosteiro de São João de Rila",
+          "Rila Monastery",
+          "Rilski manastir"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monstro_de_gila",
+          "nome": "Monstro-de-gila",
+          "descricao": "Lagarto venenoso (Heloderma suspectum) do sudoeste dos Estados Unidos e noroeste do México.",
+          "variantes": [
+            "Gila monster",
+            "Heloderma suspectum"
+          ]
+        },
+        {
+          "id": "mosteiro_do_escorial",
+          "nome": "Mosteiro do Escorial",
+          "descricao": "Complexo de mosteiro e palácio real mandado erguer por Filipe II da Espanha no século dezesseis.",
+          "variantes": [
+            "El Escorial",
+            "Real Sitio de San Lorenzo de El Escorial"
+          ]
+        },
+        {
+          "id": "mosteiro_da_batalha",
+          "nome": "Mosteiro da Batalha",
+          "descricao": "Mosteiro gótico dominicano na vila da Batalha, em Portugal, mandado erguer por Dom João Primeiro.",
+          "variantes": [
+            "Mosteiro de Santa Maria da Vitória",
+            "Batalha Monastery"
+          ]
+        },
+        {
+          "id": "mosteiro_dos_jeronimos",
+          "nome": "Mosteiro dos Jerónimos",
+          "descricao": "Mosteiro manuelino em Belém, Lisboa, ligado às viagens de Vasco da Gama.",
+          "variantes": [
+            "Mosteiro de Santa Maria de Belém"
+          ]
+        },
+        {
+          "id": "marisa_monte",
+          "nome": "Marisa Monte",
+          "descricao": "Cantora, compositora e produtora brasileira de MPB e samba, nascida em 1967.",
+          "variantes": [
+            "Marisa de Azevedo Monte"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Abadia de Westminster",
+        "descricao": "Igreja anglicana gótica em Westminster, Londres, local de coroação dos monarcas britânicos.",
+        "variantes": [
+          "Westminster Abbey",
+          "Igreja Colegiada de São Pedro em Westminster"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abadia_de_westminster",
+          "nome": "Abadia de Westminster",
+          "descricao": "Igreja anglicana gótica em Westminster, Londres, local das coroações dos monarcas ingleses.",
+          "variantes": [
+            "Westminster Abbey"
+          ]
+        },
+        {
+          "id": "o_parlamento_de_londres",
+          "nome": "O Parlamento de Londres",
+          "descricao": "Série de pinturas impressionistas de Claude Monet (1900-1901) que mostra o Palácio de Westminster, sede do Parlamento britânico, visto do Tâmisa.",
+          "variantes": [
+            "O Parlamento de Londres (Monet)",
+            "Houses of Parliament",
+            "Parlamento de Londres, Efeito de Neblina",
+            "Palácio de Westminster"
+          ]
+        },
+        {
+          "id": "bandeira_de_essuatini",
+          "nome": "Bandeira de Essuatíni",
+          "descricao": "Bandeira nacional atual de Essuatíni, antiga Suazilândia, com faixas azul, amarela e vermelha e um escudo nguni com lanças.",
+          "variantes": [
+            "Essuatíni",
+            "Bandeira da Suazilândia",
+            "Bandeira de Eswatini"
+          ]
+        },
+        {
+          "id": "bandeira_de_minas_gerais",
+          "nome": "Bandeira de Minas Gerais",
+          "descricao": "Bandeira do estado de Minas Gerais, branca com triângulo vermelho e o lema Libertas quae sera tamen.",
+          "variantes": [
+            "Bandeira mineira"
+          ]
+        },
+        {
+          "id": "geladeira_de_einstein",
+          "nome": "Geladeira de Einstein",
+          "descricao": "Refrigerador sem partes móveis patenteado por Albert Einstein e Leó Szilárd em 1930.",
+          "variantes": [
+            "Refrigerador Einstein-Szilárd"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "piramide_de_kukulcan",
+      "motivo": "Mesma pirâmide de Chichén Itzá (El Castillo); a cidade é entidade distinta."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "monte_kailash",
+      "motivo": "Mesma montanha de 6.638 m no Tibete."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Sinagoga da Rua Dohány."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "stonehenge",
+      "motivo": "Mesmo monumento megalítico na Inglaterra."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_colonia",
+      "motivo": "Mesma catedral de Colônia, Kölner Dom."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "todai_ji",
+      "motivo": "Mesmo templo budista Tōdai-ji em Nara."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Mosteiro de Rila."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "abadia_de_westminster",
+      "motivo": "Mesma igreja, Abadia de Westminster."
+    }
+  ]
+}

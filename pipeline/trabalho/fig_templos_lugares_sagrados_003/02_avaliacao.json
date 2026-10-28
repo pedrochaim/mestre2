@@ -1,0 +1,218 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pirâmide escalonada de Chichén Itzá, foto nítida e inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que templo mesoamericano é este?",
+      "resposta": "Templo de Kukulcán (El Castillo)",
+      "distratores": [
+        "Pirâmide do Sol",
+        "Templo das Inscrições",
+        "Templo do Grande Jaguar"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Templo de Kukulcán (Chichén Itzá)",
+        "descricao": "Pirâmide escalonada maia no centro do sítio arqueológico de Chichén Itzá, em Yucatán, no México.",
+        "variantes": [
+          "El Castillo",
+          "Castillo de Chichén Itzá",
+          "Pirâmide de Kukulcán"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Face da montanha nítida e característica, sem texto, sem pessoas.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta montanha sagrada é considerada, no hinduísmo, a morada de qual deus?",
+      "resposta": "Shiva",
+      "distratores": [
+        "Vishnu",
+        "Brahma",
+        "Ganesha"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Monte Kailash",
+        "descricao": "Montanha de 6.638 metros no Tibete, sagrada para o bon, o budismo, o hinduísmo e o jainismo.",
+        "variantes": [
+          "Kailash",
+          "Monte Kailasa",
+          "Kang Rinpoche"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fachada com torres de cúpula e listras em estilo mourisco, reconhecível; pessoas pequenas e incidentais, placa do carro ilegível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sinagoga é esta?",
+      "resposta": "Sinagoga da Rua Dohány (Budapeste)",
+      "distratores": [
+        "Nova Sinagoga de Berlim",
+        "Sinagoga Espanhola de Praga",
+        "Grande Sinagoga de Roma"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sinagoga da Rua Dohány",
+        "descricao": "Grande Sinagoga de Budapeste, na Hungria, a maior da Europa, em estilo neomourisco.",
+        "variantes": [
+          "Grande Sinagoga de Budapeste",
+          "Dohány utcai zsinagóga",
+          "Sinagoga de Dohány"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Círculo de megálitos em foto clara, inconfundível, sem texto nem pessoas.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este monumento pré-histórico está alinhado ao nascer do sol em qual momento do ano?",
+      "resposta": "Solstício de verão",
+      "distratores": [
+        "Equinócio de outono",
+        "Equinócio de primavera",
+        "Dia mais curto do ano"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Stonehenge",
+        "descricao": "Monumento megalítico pré-histórico na planície de Salisbury, em Wiltshire, na Inglaterra.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Apenas silhueta do minarete ao pôr do sol; não é reconhecível com segurança e pode ser confundida com outras mesquitas."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Vista aérea de ruínas misturadas a prédios modernos e a um museu; o Templo Mayor não é reconhecível pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, de forma proeminente, na praça diante da basílica."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Escadaria, torii e mata; muitos santuários xintoístas se parecem, então a resposta não é única pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Catedral gótica de duas torres, em vista aérea nítida, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta catedral gótica de duas torres fica à margem de qual rio?",
+      "resposta": "Reno",
+      "distratores": [
+        "Danúbio",
+        "Elba",
+        "Sena"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Catedral de Colônia",
+        "descricao": "Catedral católica gótica de duas torres em Colônia, na Alemanha, Patrimônio Mundial desde 1996.",
+        "variantes": [
+          "Kölner Dom",
+          "Catedral de Colónia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada do Grande Salão do Buda, nítida e característica; pessoas pequenas e incidentais.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este salão de um templo budista japonês abriga uma enorme estátua de qual Buda?",
+      "resposta": "Buda Vairocana",
+      "distratores": [
+        "Buda Amitabha",
+        "Buda Shakyamuni",
+        "Buda Maitreya"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tōdai-ji",
+        "descricao": "Complexo de templos budistas em Nara, no Japão, com o Grande Salão do Buda.",
+        "variantes": [
+          "Todaiji",
+          "Templo Todai-ji",
+          "Grande Templo do Leste"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pátio e arcadas listradas em preto e branco, característicos; pessoas pequenas e incidentais.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mosteiro ortodoxo é este?",
+      "resposta": "Mosteiro de Rila",
+      "distratores": [
+        "Mosteiro de Bachkovo",
+        "Mosteiro de Sucevița",
+        "Mosteiro de Hilandar"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mosteiro de Rila",
+        "descricao": "Maior mosteiro ortodoxo da Bulgária, nas montanhas de Rila, fundado no século dez.",
+        "variantes": [
+          "Mosteiro de São João de Rila",
+          "Rila Monastery",
+          "Rilski manastir"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fachada oeste gótica com duas torres, nítida e reconhecível; só veículos na rua, sem texto que entregue.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta abadia?",
+      "resposta": "Londres",
+      "distratores": [
+        "Edimburgo",
+        "Dublin",
+        "Cardiff"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Abadia de Westminster",
+        "descricao": "Igreja anglicana gótica em Westminster, Londres, local de coroação dos monarcas britânicos.",
+        "variantes": [
+          "Westminster Abbey",
+          "Igreja Colegiada de São Pedro em Westminster"
+        ]
+      }
+    }
+  ]
+}
