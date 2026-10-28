@@ -1,0 +1,86 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado (goleiro brasileiro, três pênaltis, final contra a Juventus) identifica Dida e dá o ano sem a figura. Reescrita sem essa pista, pedindo o ano da primeira Liga dos Campeões (2002–03, final em 2003).",
+      "reescrita": {
+        "pergunta": "Em que ano este goleiro brasileiro conquistou pela primeira vez a Liga dos Campeões?",
+        "resposta": "2003",
+        "distratores": [
+          "2002",
+          "2004",
+          "2005"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Joshua ganhou o ouro nos superpesados, não nos pesos pesados. O enunciado era impreciso. Corrigido para superpesados.",
+      "reescrita": {
+        "pergunta": "Este pugilista britânico foi campeão olímpico dos superpesados em que edição dos Jogos?",
+        "resposta": "Londres 2012",
+        "distratores": [
+          "Pequim 2008",
+          "Atenas 2004",
+          "Rio 2016"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A pergunta usa 'hoje', que não resiste ao tempo. Há vários ex-jogadores comentaristas e apresentadores (Casagrande, Edmundo), então a resposta não é única. Uma pista mais específica entregaria a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Grande rival' é subjetivo, e o trecho cita também Aaron Peirsol como rival. Reescrita com fato objetivo, apoiado no trecho: Phelps ficou com o ouro e Lochte com a prata nos 200 m medley em Atenas 2004.",
+      "reescrita": {
+        "pergunta": "Quem venceu este nadador americano na final dos duzentos metros medley nos Jogos de Atenas, em 2004?",
+        "resposta": "Michael Phelps",
+        "distratores": [
+          "Aaron Peirsol",
+          "Ian Thorpe",
+          "Mark Spitz"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos não confirmam que ele venceu duas Copas da UEFA seguidas. A pergunta também se responde só pelo enunciado (Sevilla, bicampeão da Copa da UEFA). Reescrita com fato do trecho: vice-artilheiro atrás de Güiza em 2007–08.",
+      "reescrita": {
+        "pergunta": "Este atacante brasileiro foi vice-artilheiro do Campeonato Espanhol, atrás de Daniel Güiza, em que temporada?",
+        "resposta": "2007-08",
+        "distratores": [
+          "2006-07",
+          "2008-09",
+          "2009-10"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A Batalha dos Sexos de 1973 contra Riggs responde a pergunta sem a figura. Reescrita com outro fato: o centro de tênis do US Open leva o nome dela.",
+      "reescrita": {
+        "pergunta": "Que torneio de tênis é disputado no centro nacional que leva o nome desta tenista americana?",
+        "resposta": "US Open",
+        "distratores": [
+          "Wimbledon",
+          "Roland Garros",
+          "Aberto da Austrália"
+        ]
+      }
+    }
+  ]
+}

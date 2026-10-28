@@ -1,0 +1,175 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido do goleiro, sem texto que entregue o nome; pergunta de nível 3 sobre a final de 2003.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este goleiro brasileiro defendeu três pênaltis na final da Liga dos Campeões contra a Juventus?",
+      "resposta": "2003",
+      "distratores": [
+        "2002",
+        "2004",
+        "2005"
+      ],
+      "ancora": {
+        "nome": "Dida",
+        "descricao": "Nélson de Jesus Silva, ex-goleiro brasileiro que defendeu o Milan por dez anos.",
+        "variantes": [
+          "Nélson de Jesus Silva"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública, sem texto que entregue o nome.",
+      "destino": 6,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este pugilista britânico foi campeão olímpico dos pesos pesados em que Olimpíada?",
+      "resposta": "Londres 2012",
+      "distratores": [
+        "Pequim 2008",
+        "Atenas 2004",
+        "Rio 2016"
+      ],
+      "ancora": {
+        "nome": "Anthony Joshua",
+        "descricao": "Pugilista britânico, campeão olímpico em 2012 e campeão mundial dos pesos pesados.",
+        "variantes": [
+          "AJ",
+          "Anthony Oluwafemi Olaseni Joshua"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Quadro de vídeo de selfie, de baixa qualidade e muito próximo; o lutador não é reconhecível com segurança."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto de perfil, em treino, sem elementos que permitam reconhecer o jogador; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Outra pessoa aparece em segundo plano e o jogador não é reconhecível pela imagem, então a resposta não é única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto de uma luta distante, com figuras minúsculas; o lutador não é identificável e o texto London 2012 aparece na cena."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem nome visível; reconhecível pelo público brasileiro.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este ex-meia brasileiro, hoje comentarista e apresentador de TV?",
+      "resposta": "Neto (Craque Neto)",
+      "distratores": [
+        "Casagrande",
+        "Edmundo",
+        "Renato Gaúcho"
+      ],
+      "ancora": {
+        "nome": "Neto",
+        "descricao": "José Ferreira Neto, ex-meia brasileiro e comentarista esportivo, conhecido como Craque Neto.",
+        "variantes": [
+          "Craque Neto",
+          "José Ferreira Neto"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Nadador nítido, com a medalha de Londres; sem nome visível.",
+      "destino": 5,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Qual outro nadador americano foi o grande rival deste atleta nas piscinas olímpicas?",
+      "resposta": "Michael Phelps",
+      "distratores": [
+        "Mark Spitz",
+        "Ian Thorpe",
+        "Caeleb Dressel"
+      ],
+      "ancora": {
+        "nome": "Ryan Lochte",
+        "descricao": "Nadador americano, medalhista olímpico 12 vezes.",
+        "variantes": [
+          "Ryan Steven Lochte"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto borrada e de baixa resolução; o tenista não é reconhecível."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto que entregue o nome; pergunta de nível 3 sobre o Sevilla.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Por qual clube espanhol este atacante brasileiro venceu duas Copas da UEFA seguidas?",
+      "resposta": "Sevilla",
+      "distratores": [
+        "Valencia",
+        "Villarreal",
+        "Atlético de Madrid"
+      ],
+      "ancora": {
+        "nome": "Luís Fabiano",
+        "descricao": "Luís Fabiano Clemente, ex-atacante brasileiro de São Paulo, Sevilla e seleção brasileira.",
+        "variantes": [
+          "Luis Fabiano",
+          "Luís Fabiano Clemente"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; o fundo do Sundance não entrega a resposta.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em 1973, esta tenista americana venceu a famosa Batalha dos Sexos contra qual ex-campeão?",
+      "resposta": "Bobby Riggs",
+      "distratores": [
+        "Jimmy Connors",
+        "Rod Laver",
+        "Arthur Ashe"
+      ],
+      "ancora": {
+        "nome": "Billie Jean King",
+        "descricao": "Ex-tenista americana, número 1 do mundo, com 39 títulos de Grand Slam.",
+        "variantes": [
+          "Billie Jean Moffitt King"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução; não fica legível no celular e a atleta não é reconhecível."
+    }
+  ]
+}
