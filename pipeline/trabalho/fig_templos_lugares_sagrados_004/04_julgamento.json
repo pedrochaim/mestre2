@@ -1,0 +1,494 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Escaravelho egípcio",
+        "descricao": "Amuleto e selo do Egito Antigo em forma de besouro, associado ao deus Khepri e ao renascimento.",
+        "variantes": [
+          "Escaravelho",
+          "Scarab",
+          "Escaravelho sagrado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "escaravelho_sagrado",
+          "nome": "Escaravelho sagrado",
+          "descricao": "Besouro rola-bosta venerado no Egito Antigo como símbolo do deus Quépri e usado em amuletos",
+          "variantes": [
+            "Scarab",
+            "Quépri",
+            "Khepri",
+            "Scarabaeus sacer",
+            "escaravelho"
+          ]
+        },
+        {
+          "id": "rola_bosta",
+          "nome": "Rola-bosta",
+          "descricao": "Besouros escarabeídeos que se alimentam de fezes e as moldam em bolas para rolar e enterrar.",
+          "variantes": [
+            "besouro-rola-bosta",
+            "dung beetle",
+            "escaravelho"
+          ]
+        },
+        {
+          "id": "caranguejo",
+          "nome": "Caranguejo",
+          "descricao": "Crustáceo decápode da infraordem Brachyura, de carapaça larga e cauda curta dobrada sob o corpo.",
+          "variantes": [
+            "Brachyura",
+            "Crab"
+          ]
+        },
+        {
+          "id": "scar",
+          "nome": "Scar",
+          "descricao": "Leão vilão, irmão de Mufasa, no filme O Rei Leão, da Disney (1994).",
+          "variantes": [
+            "Scar, o leão"
+          ]
+        },
+        {
+          "id": "caravela",
+          "nome": "Caravela",
+          "descricao": "Embarcação a vela leve usada por portugueses e espanhóis nas Grandes Navegações dos séculos quinze e dezesseis.",
+          "variantes": [
+            "Caravel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Templo de Poseidon em Sunião",
+        "descricao": "Templo grego dórico do século cinco a.C. no cabo Sunião, na Grécia, dedicado a Poseidon.",
+        "variantes": [
+          "Templo de Poseidon",
+          "Cabo Sunião",
+          "Sounion"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cebola",
+          "nome": "Cebola",
+          "descricao": "Planta Allium cepa, hortaliça de bulbo muito usada na culinária e em aulas de microscopia.",
+          "variantes": [
+            "Allium cepa",
+            "Onion"
+          ]
+        },
+        {
+          "id": "templo_de_edfu",
+          "nome": "Templo de Edfu",
+          "descricao": "Templo dedicado ao deus Hórus na cidade de Edfu, no sul do Egito, um dos mais bem conservados do país",
+          "variantes": [
+            "Templo de Hórus em Edfu",
+            "Temple of Edfu"
+          ]
+        },
+        {
+          "id": "templo_de_debod",
+          "nome": "Templo de Debod",
+          "descricao": "Templo egípcio antigo da Núbia doado pelo Egito à Espanha e remontado num parque de Madri",
+          "variantes": [
+            "Temple of Debod"
+          ]
+        },
+        {
+          "id": "pokemon_theme",
+          "nome": "Pokémon Theme",
+          "descricao": "Primeira abertura da versão americana do anime Pokémon, que começa com os versos I wanna be the very best.",
+          "variantes": [
+            "Tema de Pokémon",
+            "Gotta Catch 'Em All (canção)"
+          ]
+        },
+        {
+          "id": "shonen",
+          "nome": "Shōnen",
+          "descricao": "Categoria de mangá e anime voltada ao público masculino jovem, como Dragon Ball e Naruto.",
+          "variantes": [
+            "Shounen",
+            "少年"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mesquita Sheikh Lotfollah",
+        "descricao": "Mesquita xiita safávida do século dezessete na praça Naqsh-e Jahan, em Isfahan, no Irã.",
+        "variantes": [
+          "Mesquita Sheikh Lutfullah",
+          "Masjed-e Sheykh Lotfollah"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mosteiro de Taktsang (Ninho do Tigre)",
+        "descricao": "Mosteiro budista vajrayana construído num penhasco do vale de Paro, no Butão.",
+        "variantes": [
+          "Paro Taktsang",
+          "Ninho do Tigre",
+          "Tiger's Nest",
+          "Takshang"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_nacional_de_pequim",
+          "nome": "Estádio Nacional de Pequim",
+          "descricao": "Estádio olímpico de 2008, apelidado de Ninho de Pássaro.",
+          "variantes": [
+            "Ninho de Pássaro",
+            "Bird's Nest"
+          ]
+        },
+        {
+          "id": "olho_de_tigre",
+          "nome": "Olho-de-tigre",
+          "descricao": "Pedra do grupo do quartzo, dourada a marrom, com brilho sedoso (chatoyance).",
+          "variantes": [
+            "Tiger's eye"
+          ]
+        },
+        {
+          "id": "ninho_da_aguia",
+          "nome": "Ninho da Águia",
+          "descricao": "Casa de montanha no pico Kehlstein, perto de Berchtesgaden, na Alemanha, concluída em 1938 para o Partido Nazista.",
+          "variantes": [
+            "Kehlsteinhaus",
+            "Eagle's Nest"
+          ]
+        },
+        {
+          "id": "terceiro_estado",
+          "nome": "Terceiro Estado",
+          "descricao": "Ordem da sociedade francesa do Antigo Regime que reunia todos os que não eram clero nem nobreza.",
+          "variantes": [
+            "Tiers état",
+            "Third Estate"
+          ]
+        },
+        {
+          "id": "xango",
+          "nome": "Xangô",
+          "descricao": "Orixá da justiça, dos raios e do trovão, cultuado no candomblé e em outras religiões afro-brasileiras",
+          "variantes": [
+            "Shango",
+            "Changó",
+            "Sàngó"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cnossos",
+        "descricao": "Sítio arqueológico e palácio minoico em Creta, na Grécia, ligado ao mito do Minotauro.",
+        "variantes": [
+          "Knossos",
+          "Palácio de Cnossos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_de_cnossos",
+          "nome": "Palácio de Cnossos",
+          "descricao": "Grande complexo palaciano da Idade do Bronze em Creta, centro da civilização minoica.",
+          "variantes": [
+            "Cnossos",
+            "Knossos",
+            "Cnosso"
+          ]
+        },
+        {
+          "id": "palacio_itamaraty",
+          "nome": "Palácio Itamaraty",
+          "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+          "variantes": [
+            "Palácio dos Arcos",
+            "Itamaraty"
+          ]
+        },
+        {
+          "id": "palacio_de_cristal",
+          "nome": "Palácio de Cristal",
+          "descricao": "Grande edifício de ferro e vidro construído em Londres para a Grande Exposição de 1851, destruído por um incêndio em 1936.",
+          "variantes": [
+            "The Crystal Palace",
+            "Crystal Palace"
+          ]
+        },
+        {
+          "id": "palacio_de_inverno",
+          "nome": "Palácio de Inverno",
+          "descricao": "Palácio barroco em São Petersburgo, residência oficial dos imperadores russos e hoje parte do Museu Hermitage.",
+          "variantes": [
+            "Winter Palace",
+            "Palácio de Inverno de São Petersburgo"
+          ]
+        },
+        {
+          "id": "confissoes_santo_agostinho",
+          "nome": "Confissões (Santo Agostinho)",
+          "descricao": "Obra autobiográfica de Santo Agostinho, escrita por volta do ano 400, que narra sua conversão ao cristianismo.",
+          "variantes": [
+            "Confessiones",
+            "Confissões"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Uluru",
+        "descricao": "Monólito de arenito no centro da Austrália, sagrado para os aborígenes anangu.",
+        "variantes": [
+          "Ayers Rock",
+          "Rocha de Ayers"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "uluru",
+          "nome": "Uluru",
+          "descricao": "Grande monólito de arenito no centro da Austrália, sagrado para o povo aborígene Anangu.",
+          "variantes": [
+            "Ayers Rock",
+            "Uluru / Ayers Rock"
+          ]
+        },
+        {
+          "id": "rosca_de_reyes",
+          "nome": "Rosca de Reyes",
+          "descricao": "Pão doce em forma de coroa que os mexicanos comem no Dia de Reis, seis de janeiro.",
+          "variantes": [
+            "Roscón de Reyes"
+          ]
+        },
+        {
+          "id": "roca_de_fiar",
+          "nome": "Roca de fiar",
+          "descricao": "Equipamento de madeira com roda e fuso para transformar fibras em fio, usado antes da Revolução Industrial.",
+          "variantes": [
+            "Roda de fiar",
+            "Roca",
+            "Spinning wheel"
+          ]
+        },
+        {
+          "id": "enxofre",
+          "nome": "Enxofre",
+          "descricao": "Elemento químico de símbolo S e número atômico 16, sólido amarelo.",
+          "variantes": [
+            "Enxofre nativo",
+            "Sulfur"
+          ]
+        },
+        {
+          "id": "bubble_tea",
+          "nome": "Bubble tea",
+          "descricao": "Bebida à base de chá, leite e pérolas de tapioca, originada em Taiwan.",
+          "variantes": [
+            "Chá de bolhas",
+            "Boba tea",
+            "Chá de pérolas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Mesquita-Catedral de Córdoba",
+        "descricao": "Antiga grande mesquita de Córdoba, na Andaluzia, transformada em catedral católica.",
+        "variantes": [
+          "Mezquita de Córdoba",
+          "Mesquita de Córdova",
+          "Grande Mesquita de Córdoba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_meca",
+          "nome": "Grande Mesquita de Meca",
+          "descricao": "Masjid al-Haram, a mais sagrada mesquita do Islã, que envolve a Caaba em Meca, na Arábia Saudita.",
+          "variantes": [
+            "Masjid al-Haram",
+            "Mesquita Sagrada",
+            "Al-Masjid al-Haram"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_djenne",
+          "nome": "Grande Mesquita de Djenné",
+          "descricao": "Mesquita de barro na cidade de Djenné, no Mali, reconstruída em 1907 e Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Great Mosque of Djenné",
+            "Mesquita de Djenné"
+          ]
+        },
+        {
+          "id": "mesquita_do_profeta",
+          "nome": "Mesquita do Profeta",
+          "descricao": "Mesquita em Medina, Arábia Saudita, segunda mais sagrada do Islã, com a cúpula verde sobre o túmulo de Maomé.",
+          "variantes": [
+            "Al-Masjid an-Nabawi",
+            "Mesquita de Medina"
+          ]
+        },
+        {
+          "id": "grande_barreira_de_coral",
+          "nome": "Grande Barreira de Coral",
+          "descricao": "Maior sistema de recifes de coral do mundo, no Mar de Coral, na costa de Queensland, Austrália.",
+          "variantes": [
+            "Great Barrier Reef"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Templo de Atena Nice",
+        "descricao": "Pequeno templo jônico do século cinco a.C. na Acrópole de Atenas, dedicado a Atena Nice.",
+        "variantes": [
+          "Templo de Atena Nike",
+          "Temple of Athena Nike"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_karnak",
+          "nome": "Templo de Karnak",
+          "descricao": "Vasto complexo de templos dedicado sobretudo ao deus Amon, na antiga Tebas, atual Luxor",
+          "variantes": [
+            "Karnak",
+            "Ipet-isut"
+          ]
+        },
+        {
+          "id": "templo_de_artemis",
+          "nome": "Templo de Ártemis",
+          "descricao": "Grande templo grego dedicado à deusa Ártemis na antiga cidade de Éfeso, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Artemísion",
+            "Templo de Diana em Éfeso",
+            "Templo de Ártemis em Éfeso",
+            "Temple of Artemis"
+          ]
+        },
+        {
+          "id": "baalbek",
+          "nome": "Baalbek",
+          "descricao": "Cidade e sítio arqueológico romano no Vale do Beca, no Líbano, aqui o Templo de Baco.",
+          "variantes": [
+            "Heliópolis",
+            "Templo de Baco"
+          ]
+        },
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        },
+        {
+          "id": "voto_de_minerva",
+          "nome": "Voto de Minerva",
+          "descricao": "Expressão para o voto que desempata uma votação",
+          "variantes": [
+            "Voto de Atena"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "escaravelho_sagrado",
+      "motivo": "Mesmo escaravelho egípcio ligado a Khepri, usado em amuletos; variantes coincidem."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o templo de Poseidon em Sunião."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Mesquita de Isfahan, diferente da de Córdoba."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Mosteiro no Butão; candidatas são outras entidades."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "palacio_de_cnossos",
+      "motivo": "Mesmo sítio/palácio minoico de Cnossos em Creta."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "uluru",
+      "motivo": "Mesmo monólito Uluru/Ayers Rock."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "mesquita_catedral_de_cordoba",
+      "motivo": "Mesma mesquita-catedral de Córdoba."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Templo de Atena Nice não está entre as candidatas."
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Escaravelho de faiança azul sobre fundo branco, sem texto, forma inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Com que deus egípcio, ligado ao nascer do sol e ao renascimento, este amuleto em forma de besouro era associado?",
+      "resposta": "Khepri",
+      "distratores": [
+        "Anúbis",
+        "Thoth",
+        "Sobek"
+      ],
+      "ancora": {
+        "nome": "Escaravelho egípcio",
+        "descricao": "Amuleto e selo do Egito Antigo em forma de besouro, associado ao deus Khepri e ao renascimento.",
+        "variantes": [
+          "Escaravelho",
+          "Scarab",
+          "Escaravelho sagrado"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida do templo de Sunião, colunas dóricas reconhecíveis; a placa de proibido não tem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "A que deus grego, senhor do mar, era dedicado este templo?",
+      "resposta": "Poseidon",
+      "distratores": [
+        "Zeus",
+        "Apolo",
+        "Hefesto"
+      ],
+      "ancora": {
+        "nome": "Templo de Poseidon em Sunião",
+        "descricao": "Templo grego dórico do século cinco a.C. no cabo Sunião, na Grécia, dedicado a Poseidon.",
+        "variantes": [
+          "Templo de Poseidon",
+          "Cabo Sunião",
+          "Sounion"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cúpula e portal azulejados característicos; texto persa nos toldos não entrega a resposta.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade do Irã fica esta mesquita de cúpula ornamentada?",
+      "resposta": "Isfahan",
+      "distratores": [
+        "Xiraz",
+        "Teerã",
+        "Mashhad"
+      ],
+      "ancora": {
+        "nome": "Mesquita Sheikh Lotfollah",
+        "descricao": "Mesquita xiita safávida do século dezessete na praça Naqsh-e Jahan, em Isfahan, no Irã.",
+        "variantes": [
+          "Mesquita Sheikh Lutfullah",
+          "Masjed-e Sheykh Lotfollah"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Peregrinos comuns em primeiro plano, incluindo mulher ajoelhada, e faixa com texto no palco."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano (banhistas e meninos) e cena genérica de margem de rio, pouco reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida e inconfundível do mosteiro no penhasco, sem texto nem pessoas em destaque.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que mestre budista é lembrado por ter meditado numa caverna deste mosteiro?",
+      "resposta": "Padmasambhava",
+      "distratores": [
+        "Milarepa",
+        "Atisha",
+        "Tsongkhapa"
+      ],
+      "ancora": {
+        "nome": "Mosteiro de Taktsang (Ninho do Tigre)",
+        "descricao": "Mosteiro budista vajrayana construído num penhasco do vale de Paro, no Butão.",
+        "variantes": [
+          "Paro Taktsang",
+          "Ninho do Tigre",
+          "Tiger's Nest",
+          "Takshang"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Entrada norte restaurada de Cnossos com colunas vermelhas e afresco do touro; reconhecível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que rei lendário deu nome à civilização que construiu este palácio?",
+      "resposta": "Minos",
+      "distratores": [
+        "Teseu",
+        "Príamo",
+        "Agamêmnon"
+      ],
+      "ancora": {
+        "nome": "Cnossos",
+        "descricao": "Sítio arqueológico e palácio minoico em Creta, na Grécia, ligado ao mito do Minotauro.",
+        "variantes": [
+          "Knossos",
+          "Palácio de Cnossos"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Monólito alaranjado inconfundível, sem texto nem pessoas.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país fica este monólito de arenito vermelho?",
+      "resposta": "Austrália",
+      "distratores": [
+        "Namíbia",
+        "Estados Unidos",
+        "África do Sul"
+      ],
+      "ancora": {
+        "nome": "Uluru",
+        "descricao": "Monólito de arenito no centro da Austrália, sagrado para os aborígenes anangu.",
+        "variantes": [
+          "Ayers Rock",
+          "Rocha de Ayers"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida com torre sineira, pátio de laranjeiras e telhados característicos; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que emir ordenou a construção original deste edifício, em 785?",
+      "resposta": "Abderramão I",
+      "distratores": [
+        "Saladino",
+        "Harune Arraxide",
+        "Maomé Segundo"
+      ],
+      "ancora": {
+        "nome": "Mesquita-Catedral de Córdoba",
+        "descricao": "Antiga grande mesquita de Córdoba, na Andaluzia, transformada em catedral católica.",
+        "variantes": [
+          "Mezquita de Córdoba",
+          "Mesquita de Córdova",
+          "Grande Mesquita de Córdoba"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Placa legível na base da foto traz 'Intercession Cathedral (St. Basil's)', entregando a resposta; precisaria de recorte."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida do pequeno templo jônico, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que sítio arqueológico fica este pequeno templo jônico?",
+      "resposta": "Acrópole de Atenas",
+      "distratores": [
+        "Sunião",
+        "Delfos",
+        "Olímpia"
+      ],
+      "ancora": {
+        "nome": "Templo de Atena Nice",
+        "descricao": "Pequeno templo jônico do século cinco a.C. na Acrópole de Atenas, dedicado a Atena Nice.",
+        "variantes": [
+          "Templo de Atena Nike",
+          "Temple of Athena Nike"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Ruínas com poucas colunas dóricas isoladas, sem traços que permitam reconhecer o Heraion entre outros sítios gregos; resposta não única diante da imagem."
+    }
+  ]
+}

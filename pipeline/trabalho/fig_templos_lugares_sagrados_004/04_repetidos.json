@@ -1,0 +1,102 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Com que deus egípcio este objeto era associado?",
+        "resposta": "Khepri"
+      },
+      "existentes": [
+        {
+          "id": "q00070",
+          "pergunta": "No Egito Antigo, o escaravelho era sagrado porque seu hábito de rolar bolas de esterco lembrava o movimento de qual astro pelo céu?",
+          "resposta": "O Sol"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que ilha grega fica este sítio arqueológico?",
+        "resposta": "Creta"
+      },
+      "existentes": [
+        {
+          "id": "q03105",
+          "pergunta": "O labiríntico palácio de Cnossos, em Creta, é associado a qual monstro da mitologia grega, preso num labirinto?",
+          "resposta": "Minotauro"
+        },
+        {
+          "id": "q09527",
+          "pergunta": "No início do século vinte, que arqueólogo britânico escavou o palácio de Cnossos, em Creta, e deu o nome de minoica àquela civilização?",
+          "resposta": "Arthur Evans"
+        },
+        {
+          "id": "q13855",
+          "pergunta": "Na Creta da Idade do Bronze, qual era o maior dos palácios da civilização minoica?",
+          "resposta": "Cnossos"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que país fica esta formação rochosa sagrada?",
+        "resposta": "Austrália"
+      },
+      "existentes": [
+        {
+          "id": "q02068",
+          "pergunta": "Antes de adotar oficialmente o nome aborígene Uluru, o grande monólito australiano era conhecido por qual nome inglês?",
+          "resposta": "Ayers Rock"
+        },
+        {
+          "id": "q06703",
+          "pergunta": "Por respeito ao povo Anangu, para quem a rocha é sagrada, a escalada do Uluru foi proibida em que ano?",
+          "resposta": "2019"
+        },
+        {
+          "id": "q08833",
+          "pergunta": "O que dá ao Uluru, o grande monólito no centro da Austrália, a sua cor avermelhada?",
+          "resposta": "Óxido de ferro"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que emir ordenou a construção original deste edifício?",
+        "resposta": "Abderramão I"
+      },
+      "existentes": [
+        {
+          "id": "q03477",
+          "pergunta": "Em que cidade espanhola fica este edifício?",
+          "resposta": "Córdoba"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta a divindade associada (Khepri), fato diferente do astro (Sol) da existente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Localização do sítio em Creta não é perguntada pelas existentes; a ilha aparece apenas como contexto, e responder a elas não exige saber que o sítio fica em Creta como fato central."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "País onde fica a formação é fato diferente de nome antigo, ano da proibição ou cor."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Fundador do edifício é fato diferente da cidade onde fica."
+    }
+  ]
+}
