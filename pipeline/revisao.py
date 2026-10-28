@@ -37,7 +37,8 @@ from comum import (
 CANDIDATAS = 100     # perguntas triadas por dia
 POR_CHAMADA = 50     # perguntas por chamada à triagem (o crítico também lê lotes de 50 com trechos)
 SUSPEITAS = 10       # as de nota mais alta que entram na fila
-NOTA_MINIMA = 2      # nota de suspeita mínima para entrar na fila
+NOTA_MINIMA = 2      # nota a partir da qual a pergunta conta como suspeita no relatório
+NOTA_COMPLETAR = 1   # se faltarem suspeitas, a fila se completa com as de nota 1 (na 1ª triagem, só 4 de 100 tiveram 2)
 CONTROLE = 5         # sorteadas sem filtro entre as candidatas
 MAX_PENDENTES = 45   # fila acumulada (três dias) a partir da qual não há triagem nova
 PARTIDA = "REVISAO"  # o campo "partida" das avaliações feitas em revisao.html
@@ -112,7 +113,7 @@ def montar_fila(forcar=False):
             controle = random.sample(candidatas, min(CONTROLE, len(candidatas)))
             ids_controle = {p["id"] for p in controle}
             suspeitas = sorted((p for p in candidatas if p["id"] not in ids_controle
-                                and notas.get(p["id"], {}).get("nota", 0) >= NOTA_MINIMA),
+                                and notas.get(p["id"], {}).get("nota", 0) >= NOTA_COMPLETAR),
                                key=lambda p: -notas[p["id"]]["nota"])[:SUSPEITAS]
             novas = ([{"id": p["id"], "data": hoje, "origem": "suspeita", **notas[p["id"]]} for p in suspeitas]
                      + [{"id": p["id"], "data": hoje, "origem": "controle", **notas.get(p["id"], {})} for p in controle])

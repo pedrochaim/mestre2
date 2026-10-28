@@ -1,0 +1,238 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Camisa vermelha, calção azul e meias brancas, bem característica da seleção chilena.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que seleção sul-americana é este uniforme?",
+      "resposta": "Chile",
+      "distratores": [
+        "Colômbia",
+        "Uruguai",
+        "Bolívia"
+      ],
+      "ancora": {
+        "nome": "Seleção Chilena de Futebol",
+        "descricao": "Seleção masculina de futebol do Chile, apelidada La Roja.",
+        "variantes": [
+          "Chile",
+          "La Roja"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Listras pretas e brancas com detalhes azul-claros, uniforme marcante; múltipla com distratores de outras cores.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que time inglês é este uniforme?",
+      "resposta": "Newcastle United",
+      "distratores": [
+        "Everton",
+        "Chelsea",
+        "Aston Villa"
+      ],
+      "ancora": {
+        "nome": "Newcastle United",
+        "descricao": "Clube de futebol de Newcastle upon Tyne, Inglaterra, que joga no St. James' Park.",
+        "variantes": [
+          "Newcastle",
+          "Newcastle United Football Club",
+          "Magpies"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Camisa branca com faixa vermelha horizontal e calção vermelho, razoavelmente reconhecível; múltipla com distratores de outras cores.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que time brasileiro é este uniforme?",
+      "resposta": "CRB",
+      "distratores": [
+        "CSA",
+        "Ceará",
+        "Confiança"
+      ],
+      "ancora": {
+        "nome": "CRB",
+        "descricao": "Clube de Regatas Brasil, clube de futebol de Maceió, Alagoas.",
+        "variantes": [
+          "Clube de Regatas Brasil",
+          "Galo de Campina"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Listras vermelhas e brancas com calção azul, típico da Albirroja; o enunciado fixa 'seleção' para evitar confusão com clubes parecidos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que seleção sul-americana é este uniforme?",
+      "resposta": "Paraguai",
+      "distratores": [
+        "Equador",
+        "Uruguai",
+        "Colômbia"
+      ],
+      "ancora": {
+        "nome": "Seleção Paraguaia de Futebol",
+        "descricao": "Seleção masculina de futebol do Paraguai, apelidada La Albirroja.",
+        "variantes": [
+          "Paraguai",
+          "La Albirroja"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Camisa vermelha com mangas brancas, calção branco; inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que time inglês é este uniforme?",
+      "resposta": "Arsenal",
+      "distratores": [
+        "Chelsea",
+        "Tottenham",
+        "Everton"
+      ],
+      "ancora": {
+        "nome": "Arsenal",
+        "descricao": "Clube de futebol de Islington, norte de Londres, Inglaterra.",
+        "variantes": [
+          "Arsenal Football Club",
+          "Gunners"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Listras vermelhas e brancas com calção branco servem a muitos clubes (Sporting Gijón, Sunderland, Athletic, outros brasileiros); resposta não única diante da imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Listras vermelhas e brancas com calção azul-marinho; com a pista 'mexicano' e distratores mexicanos fica justo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que time mexicano é este uniforme?",
+      "resposta": "Chivas Guadalajara",
+      "distratores": [
+        "Club América",
+        "Cruz Azul",
+        "Pumas UNAM"
+      ],
+      "ancora": {
+        "nome": "Chivas Guadalajara",
+        "descricao": "Clube de futebol de Guadalajara, Jalisco, México, que só escala jogadores mexicanos ou descendentes.",
+        "variantes": [
+          "Chivas",
+          "Club Deportivo Guadalajara",
+          "Guadalajara"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Camisa amarela com calção azul-marinho, marcante; pergunta de estádio vai além do reconhecimento.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "O clube mexicano deste uniforme manda seus jogos em que estádio?",
+      "resposta": "Estádio Azteca",
+      "distratores": [
+        "Estádio Jalisco",
+        "Estádio Olímpico Universitário",
+        "Estádio BBVA"
+      ],
+      "ancora": {
+        "nome": "Club América",
+        "descricao": "Clube de futebol da Cidade do México, apelidado Las Águilas, que joga no Estadio Azteca.",
+        "variantes": [
+          "América",
+          "Club de Fútbol América",
+          "Las Águilas"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Camisa meio vermelha, meio azul com calção branco lembra outros clubes (Crystal Palace, entre outros) e não representa claramente o tricolor do Paraná; resposta não única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Camisa branca com faixa diagonal vermelha, muito característica; o enunciado fixa 'seleção'.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é esta seleção?",
+      "resposta": "Peru",
+      "distratores": [
+        "Bolívia",
+        "Equador",
+        "Uruguai"
+      ],
+      "ancora": {
+        "nome": "Seleção Peruana de Futebol",
+        "descricao": "Seleção masculina de futebol do Peru, apelidada La Bicolor.",
+        "variantes": [
+          "Peru",
+          "La Bicolor"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Listras azuis e brancas; com a pista 'catarinense' a pergunta sobre o rival é única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é o grande rival do clube catarinense deste uniforme?",
+      "resposta": "Figueirense",
+      "distratores": [
+        "Joinville",
+        "Criciúma",
+        "Chapecoense"
+      ],
+      "ancora": {
+        "nome": "Avaí",
+        "descricao": "Avaí Futebol Clube, clube de futebol de Florianópolis, Santa Catarina, que joga na Ressacada.",
+        "variantes": [
+          "Avaí Futebol Clube",
+          "Avaí FC"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Listras verticais pretas e vermelhas com calção branco são comuns a vários clubes; resposta não única diante da imagem."
+    }
+  ]
+}

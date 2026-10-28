@@ -310818,5 +310818,230 @@
       "autor": "NASA/JPL/JHUAPL",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q16228",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "selecao_chilena_de_futebol",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "De que seleção sul-americana é este uniforme?",
+    "resposta": "Chile",
+    "distratores": [
+      "Colômbia",
+      "Uruguai",
+      "Bolívia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chile_national_football_team",
+      "https://pt.wikipedia.org/wiki/Sele%C3%A7%C3%A3o_Chilena_de_Futebol"
+    ],
+    "imagem": {
+      "arquivo": "q16228.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kit_body_chl26hA.png",
+      "autor": "WikipedyjniAK",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q16229",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "newcastle_united",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "De que time inglês é este uniforme?",
+    "resposta": "Newcastle United",
+    "distratores": [
+      "Everton",
+      "Chelsea",
+      "Aston Villa"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Newcastle_United_F.C.",
+      "https://pt.wikipedia.org/wiki/Newcastle_United_Football_Club"
+    ],
+    "imagem": {
+      "arquivo": "q16229.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kit_body_newcastle2627h.png",
+      "autor": "WikipedyjniAK",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q16230",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "crb",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "De que time brasileiro é este uniforme?",
+    "resposta": "CRB",
+    "distratores": [
+      "CSA",
+      "Ceará",
+      "Confiança"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Clube_de_Regatas_Brasil",
+      "https://pt.wikipedia.org/wiki/Clube_de_Regatas_Brasil"
+    ],
+    "imagem": {
+      "arquivo": "q16230.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kit_body_crb26h.png",
+      "autor": "JonasBR",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q16231",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "selecao_paraguaia_de_futebol",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "De que seleção sul-americana é este uniforme?",
+    "resposta": "Paraguai",
+    "distratores": [
+      "Equador",
+      "Uruguai",
+      "Colômbia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paraguay_national_football_team",
+      "https://pt.wikipedia.org/wiki/Sele%C3%A7%C3%A3o_Paraguaia_de_Futebol"
+    ],
+    "imagem": {
+      "arquivo": "q16231.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kit_body_par26h.png",
+      "autor": "WikipedyjniAK",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q16232",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "arsenal",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "De que time inglês é este uniforme?",
+    "resposta": "Arsenal",
+    "distratores": [
+      "Chelsea",
+      "Tottenham",
+      "Everton"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Arsenal_F.C.",
+      "https://pt.wikipedia.org/wiki/Arsenal_Football_Club"
+    ],
+    "imagem": {
+      "arquivo": "q16232.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kit_body_arsenal2627hA.png",
+      "autor": "WikipedyjniAK",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q16233",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "chivas_guadalajara",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "De que time mexicano é este uniforme?",
+    "resposta": "Chivas Guadalajara",
+    "distratores": [
+      "Club América",
+      "Cruz Azul",
+      "Pumas UNAM"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/C.D._Guadalajara",
+      "https://pt.wikipedia.org/wiki/Club_Deportivo_Guadalajara"
+    ],
+    "imagem": {
+      "arquivo": "q16233.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kit_body_chivas2627h.png",
+      "autor": "WikipedyjniAK",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q16234",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "club_america",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Qual estádio é a casa histórica do clube mexicano deste uniforme?",
+    "resposta": "Estádio Azteca",
+    "distratores": [
+      "Estádio Jalisco",
+      "Estádio BBVA",
+      "Estádio Universitario"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Club_Am%C3%A9rica",
+      "https://pt.wikipedia.org/wiki/Club_de_F%C3%BAtbol_Am%C3%A9rica"
+    ],
+    "imagem": {
+      "arquivo": "q16234.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kit_body_clubamerica2627h.png",
+      "autor": "El chivista 197207",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q16235",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "selecao_peruana_de_futebol",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "De que país é esta seleção?",
+    "resposta": "Peru",
+    "distratores": [
+      "Bolívia",
+      "Equador",
+      "Uruguai"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Peru_national_football_team",
+      "https://pt.wikipedia.org/wiki/Sele%C3%A7%C3%A3o_Peruana_de_Futebol"
+    ],
+    "imagem": {
+      "arquivo": "q16235.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kit_body_per26h.png",
+      "autor": "IBryanDP",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q16236",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "avai",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Qual é o grande rival do clube catarinense deste uniforme?",
+    "resposta": "Figueirense",
+    "distratores": [
+      "Joinville",
+      "Criciúma",
+      "Chapecoense"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ava%C3%AD_FC",
+      "https://pt.wikipedia.org/wiki/Ava%C3%AD_Futebol_Clube"
+    ],
+    "imagem": {
+      "arquivo": "q16236.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kit_body_avai26h.png",
+      "autor": "JonasBR",
+      "licenca": "CC0"
+    }
   }
 ]

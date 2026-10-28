@@ -1,0 +1,588 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Seleção Chilena de Futebol",
+        "descricao": "Seleção masculina de futebol do Chile, apelidada La Roja.",
+        "variantes": [
+          "Chile",
+          "La Roja"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_chile",
+          "nome": "Bandeira do Chile",
+          "descricao": "Bandeira nacional do Chile, com quadrado azul com estrela branca, faixa branca e faixa vermelha.",
+          "variantes": [
+            "Chile",
+            "La Estrella Solitaria"
+          ]
+        },
+        {
+          "id": "chile",
+          "nome": "Chile",
+          "descricao": "País longo e estreito da América do Sul, entre os Andes e o Oceano Pacífico, com capital em Santiago.",
+          "variantes": [
+            "República do Chile"
+          ]
+        },
+        {
+          "id": "selecao_espanhola_de_futebol",
+          "nome": "Seleção Espanhola de Futebol",
+          "descricao": "Seleção nacional masculina de futebol da Espanha, apelidada de La Roja.",
+          "variantes": [
+            "Espanha",
+            "La Roja",
+            "La Furia Roja"
+          ]
+        },
+        {
+          "id": "selecao_inglesa_de_futebol",
+          "nome": "Seleção Inglesa de Futebol",
+          "descricao": "Seleção nacional masculina de futebol da Inglaterra.",
+          "variantes": [
+            "Inglaterra",
+            "Three Lions",
+            "Seleção da Inglaterra"
+          ]
+        },
+        {
+          "id": "selecao_alema_de_futebol",
+          "nome": "Seleção Alemã de Futebol",
+          "descricao": "Equipe nacional masculina de futebol da Alemanha, de camisa branca com detalhes nas cores da bandeira.",
+          "variantes": [
+            "Alemanha",
+            "Seleção da Alemanha",
+            "Die Mannschaft"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Newcastle United",
+        "descricao": "Clube de futebol de Newcastle upon Tyne, Inglaterra, que joga no St. James' Park.",
+        "variantes": [
+          "Newcastle",
+          "Newcastle United Football Club",
+          "Magpies"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nestle",
+          "nome": "Nestlé",
+          "descricao": "Empresa suíça de alimentos fundada por Henri Nestlé no século dezenove.",
+          "variantes": []
+        },
+        {
+          "id": "castelo_de_n",
+          "nome": "Castelo de N",
+          "descricao": "Castelo da Equipe Plasma em Pokémon Black e White, onde acontece o confronto final da história.",
+          "variantes": [
+            "N's Castle"
+          ]
+        },
+        {
+          "id": "milho",
+          "nome": "Milho",
+          "descricao": "Gramínea alta Zea mays, domesticada no México, cultivada pelos grãos.",
+          "variantes": [
+            "Zea mays",
+            "Maize",
+            "Maís"
+          ]
+        },
+        {
+          "id": "magos",
+          "nome": "Magos",
+          "descricao": "Sacerdotes do zoroastrismo na Pérsia antiga, cujo nome deu origem à palavra mago.",
+          "variantes": [
+            "Magi",
+            "Magos persas"
+          ]
+        },
+        {
+          "id": "gaita_de_fole",
+          "nome": "Gaita de fole",
+          "descricao": "Instrumento de sopro com palhetas alimentadas por uma bolsa de ar, típico da Escócia.",
+          "variantes": [
+            "Gaita escocesa",
+            "Bagpipe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "CRB",
+        "descricao": "Clube de Regatas Brasil, clube de futebol de Maceió, Alagoas.",
+        "variantes": [
+          "Clube de Regatas Brasil",
+          "Galo de Campina"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "galo_de_campina",
+          "nome": "Galo-de-campina",
+          "descricao": "Ave tanagrídea de cabeça e garganta vermelhas, Paroaria dominicana, endêmica do Brasil e típica da Caatinga.",
+          "variantes": [
+            "Cardeal-do-nordeste",
+            "Red-cowled cardinal",
+            "Paroaria dominicana"
+          ]
+        },
+        {
+          "id": "caranguejo",
+          "nome": "Caranguejo",
+          "descricao": "Crustáceo decápode da infraordem Brachyura, de carapaça larga e cauda curta dobrada sob o corpo.",
+          "variantes": [
+            "Brachyura",
+            "Crab"
+          ]
+        },
+        {
+          "id": "caldo_de_cana",
+          "nome": "Caldo de cana",
+          "descricao": "Bebida feita do líquido extraído da cana-de-açúcar prensada.",
+          "variantes": [
+            "Garapa"
+          ]
+        },
+        {
+          "id": "vagao_de_compiegne",
+          "nome": "Vagão de Compiègne",
+          "descricao": "Vagão-restaurante ferroviário na floresta de Compiègne onde foram assinados o armistício de 1918 e o armistício franco-alemão de 1940.",
+          "variantes": [
+            "Vagão do Armistício",
+            "Compiègne Wagon"
+          ]
+        },
+        {
+          "id": "gato_de_areia",
+          "nome": "Gato-de-areia",
+          "descricao": "Pequeno felino selvagem (Felis margarita) dos desertos arenosos e pedregosos da África e da Ásia.",
+          "variantes": [
+            "Gato-do-deserto",
+            "Felis margarita",
+            "Sand cat"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Seleção Paraguaia de Futebol",
+        "descricao": "Seleção masculina de futebol do Paraguai, apelidada La Albirroja.",
+        "variantes": [
+          "Paraguai",
+          "La Albirroja"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_paraguai",
+          "nome": "Rio Paraguai",
+          "descricao": "Rio sul-americano que nasce em Mato Grosso, atravessa o Pantanal e deságua no rio Paraná.",
+          "variantes": [
+            "Paraguai",
+            "Paraguay River",
+            "Río Paraguay"
+          ]
+        },
+        {
+          "id": "paraguai",
+          "nome": "Paraguai",
+          "descricao": "País sem litoral da América do Sul, com capital em Assunção.",
+          "variantes": [
+            "Paraguay",
+            "República do Paraguai"
+          ]
+        },
+        {
+          "id": "selecao_uruguaia_de_futebol",
+          "nome": "Seleção Uruguaia de Futebol",
+          "descricao": "Seleção nacional de futebol do Uruguai, campeã mundial em 1930 e 1950.",
+          "variantes": [
+            "Celeste Olímpica",
+            "Uruguay national football team"
+          ]
+        },
+        {
+          "id": "selecao_argentina_de_futebol",
+          "nome": "Seleção Argentina de Futebol",
+          "descricao": "Seleção masculina de futebol da Argentina, a Albiceleste.",
+          "variantes": [
+            "Argentina",
+            "Albiceleste"
+          ]
+        },
+        {
+          "id": "selecao_marroquina_de_futebol",
+          "nome": "Seleção Marroquina de Futebol",
+          "descricao": "Seleção nacional de futebol do Marrocos, semifinalista da Copa do Mundo de 2022.",
+          "variantes": [
+            "Seleção do Marrocos",
+            "Leões do Atlas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Arsenal",
+        "descricao": "Clube de futebol de Islington, norte de Londres, Inglaterra.",
+        "variantes": [
+          "Arsenal Football Club",
+          "Gunners"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arsenal",
+          "nome": "Arsenal",
+          "descricao": "Arsenal Football Club, clube de futebol de Londres fundado em 1886 no bairro de Woolwich.",
+          "variantes": [
+            "Arsenal FC",
+            "Arsenal F.C."
+          ]
+        },
+        {
+          "id": "guinness",
+          "nome": "Guinness",
+          "descricao": "Cerveja escura irlandesa produzida desde o século dezoito na cervejaria de St. James's Gate, em Dublin.",
+          "variantes": [
+            "Guinness Stout"
+          ]
+        },
+        {
+          "id": "real_madrid",
+          "nome": "Real Madrid",
+          "descricao": "Real Madrid Club de Fútbol, clube de futebol da capital espanhola fundado em 1902.",
+          "variantes": [
+            "Real Madrid Club de Fútbol",
+            "Real Madrid CF",
+            "Madrid Football Club"
+          ]
+        },
+        {
+          "id": "celtic_football_club",
+          "nome": "Celtic Football Club",
+          "descricao": "Clube de futebol de Glasgow, na Escócia, fundado em 1887, de camisa com listras horizontais verdes e brancas.",
+          "variantes": [
+            "Celtic",
+            "Celtic FC",
+            "Celtic de Glasgow"
+          ]
+        },
+        {
+          "id": "sheffield_fc",
+          "nome": "Sheffield FC",
+          "descricao": "Clube de futebol inglês fundado em 1857 em Sheffield, reconhecido pela FIFA como o mais antigo do mundo.",
+          "variantes": [
+            "Sheffield Football Club",
+            "Sheffield F.C."
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Chivas Guadalajara",
+        "descricao": "Clube de futebol de Guadalajara, Jalisco, México, que só escala jogadores mexicanos ou descendentes.",
+        "variantes": [
+          "Chivas",
+          "Club Deportivo Guadalajara",
+          "Guadalajara"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "guepardo",
+          "nome": "Guepardo",
+          "descricao": "Felino de pelagem amarelada com manchas sólidas e o animal terrestre mais veloz (Acinonyx jubatus).",
+          "variantes": [
+            "Chita",
+            "Acinonyx jubatus"
+          ]
+        },
+        {
+          "id": "china",
+          "nome": "China",
+          "descricao": "País da Ásia Oriental, oficialmente República Popular da China, cuja capital é Pequim.",
+          "variantes": [
+            "República Popular da China",
+            "RPC"
+          ]
+        },
+        {
+          "id": "chita",
+          "nome": "Chita",
+          "descricao": "Tecido barato de algodão com estampas florais coloridas, tradicional no Brasil",
+          "variantes": [
+            "Chitão",
+            "Chintz"
+          ]
+        },
+        {
+          "id": "shiva",
+          "nome": "Shiva",
+          "descricao": "Divindade hindu, o destruidor e transformador da Trimúrti",
+          "variantes": [
+            "Xiva",
+            "Siva"
+          ]
+        },
+        {
+          "id": "hifa",
+          "nome": "Hifa",
+          "descricao": "Estrutura filamentosa e ramificada dos fungos, cujo conjunto forma o micélio.",
+          "variantes": [
+            "Hifas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Club América",
+        "descricao": "Clube de futebol da Cidade do México, apelidado Las Águilas, que joga no Estadio Azteca.",
+        "variantes": [
+          "América",
+          "Club de Fútbol América",
+          "Las Águilas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estados_unidos",
+          "nome": "Estados Unidos",
+          "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+          "variantes": [
+            "Estados Unidos da América",
+            "EUA",
+            "América"
+          ]
+        },
+        {
+          "id": "tangerina",
+          "nome": "Tangerina",
+          "descricao": "Fruta cítrica pequena de casca solta, Citrus reticulata.",
+          "variantes": [
+            "Mexerica",
+            "Bergamota",
+            "Mandarina",
+            "Citrus reticulata"
+          ]
+        },
+        {
+          "id": "sinfonia_heroica",
+          "nome": "Sinfonia Heroica",
+          "descricao": "Terceira Sinfonia de Ludwig van Beethoven, de 1804, originalmente ligada a Napoleão.",
+          "variantes": [
+            "Sinfonia nº 3 de Beethoven",
+            "Eroica",
+            "Sinfonia n.º 3 de Beethoven",
+            "Terceira Sinfonia"
+          ]
+        },
+        {
+          "id": "ovelha_merino",
+          "nome": "Ovelha merino",
+          "descricao": "Raça de ovelha originária da Espanha, criada pela lã fina e macia",
+          "variantes": [
+            "Merino",
+            "Merina"
+          ]
+        },
+        {
+          "id": "ameixa",
+          "nome": "Ameixa",
+          "descricao": "Fruto de árvores do gênero Prunus, uma drupa de polpa suculenta, que seca vira ameixa-seca.",
+          "variantes": [
+            "Plum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Seleção Peruana de Futebol",
+        "descricao": "Seleção masculina de futebol do Peru, apelidada La Bicolor.",
+        "variantes": [
+          "Peru",
+          "La Bicolor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_peru",
+          "nome": "Bandeira do Peru",
+          "descricao": "Bandeira nacional atual do Peru, com três faixas verticais vermelha, branca e vermelha.",
+          "variantes": [
+            "Peru",
+            "Bandeira peruana"
+          ]
+        },
+        {
+          "id": "peru",
+          "nome": "Peru",
+          "descricao": "Ave galiforme domesticada (Meleagris gallopavo), nativa da América do Norte, tradicional nas ceias de fim de ano.",
+          "variantes": [
+            "Peru-doméstico",
+            "Meleagris gallopavo"
+          ]
+        },
+        {
+          "id": "selecao_uruguaia_de_futebol",
+          "nome": "Seleção Uruguaia de Futebol",
+          "descricao": "Seleção nacional de futebol do Uruguai, campeã mundial em 1930 e 1950.",
+          "variantes": [
+            "Celeste Olímpica",
+            "Uruguay national football team"
+          ]
+        },
+        {
+          "id": "selecao_mexicana_de_futebol",
+          "nome": "Seleção Mexicana de Futebol",
+          "descricao": "Seleção nacional masculina de futebol do México.",
+          "variantes": [
+            "México",
+            "El Tri",
+            "Seleção do México"
+          ]
+        },
+        {
+          "id": "selecao_francesa_de_futebol",
+          "nome": "Seleção Francesa de Futebol",
+          "descricao": "Equipe nacional masculina de futebol da França, conhecida como Les Bleus.",
+          "variantes": [
+            "França",
+            "Les Bleus",
+            "Seleção da França"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Avaí",
+        "descricao": "Avaí Futebol Clube, clube de futebol de Florianópolis, Santa Catarina, que joga na Ressacada.",
+        "variantes": [
+          "Avaí Futebol Clube",
+          "Avaí FC"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arquipelago_do_havai",
+          "nome": "Arquipélago do Havaí",
+          "descricao": "Cadeia de ilhas vulcânicas no centro do oceano Pacífico, que forma um estado dos Estados Unidos.",
+          "variantes": [
+            "Havaí",
+            "Hawaii",
+            "Ilhas Havaianas"
+          ]
+        },
+        {
+          "id": "javali",
+          "nome": "Javali",
+          "descricao": "Suíno selvagem (Sus scrofa) nativo da Eurásia e do norte da África, ancestral do porco doméstico.",
+          "variantes": [
+            "Javali-europeu",
+            "Sus scrofa"
+          ]
+        },
+        {
+          "id": "santos_futebol_clube",
+          "nome": "Santos Futebol Clube",
+          "descricao": "Clube de futebol da cidade de Santos, São Paulo, fundado em 1912 e onde Pelé fez carreira.",
+          "variantes": [
+            "Santos",
+            "Santos FC",
+            "Peixe"
+          ]
+        },
+        {
+          "id": "sao_paulo_futebol_clube",
+          "nome": "São Paulo Futebol Clube",
+          "descricao": "Clube de futebol brasileiro sediado na cidade de São Paulo, com sede no Morumbi.",
+          "variantes": [
+            "São Paulo",
+            "São Paulo FC",
+            "Tricolor Paulista"
+          ]
+        },
+        {
+          "id": "santa_cruz",
+          "nome": "Santa Cruz",
+          "descricao": "Santa Cruz Futebol Clube, clube brasileiro de Recife, Pernambuco.",
+          "variantes": [
+            "Santa Cruz Futebol Clube",
+            "Cobra Coral",
+            "Tricolor do Arruda"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Seleção chilena não está entre as candidatas; país, bandeira e seleção espanhola são diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o clube Newcastle United."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "CRB é clube de futebol; Galo-de-campina candidata é uma ave."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Seleção paraguaia é distinta do país e do rio."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "arsenal",
+      "motivo": "Ambos são o Arsenal Football Club de Londres."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o clube Chivas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Club América é clube mexicano; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Seleção peruana é distinta da bandeira, da ave e de outras seleções."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Avaí FC não está entre as candidatas."
+    }
+  ]
+}

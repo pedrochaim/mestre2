@@ -1,0 +1,416 @@
+{
+  "gerada": "2026-10-28T07:00:01",
+  "partida": "REVISAO",
+  "perguntas": [
+    {
+      "id": "q07363",
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "tipo": "multipla",
+      "pergunta": "Quem é este cantor de ópera?",
+      "resposta": "Plácido Domingo",
+      "distratores": [
+        "Luciano Pavarotti",
+        "José Carreras",
+        "Andrea Bocelli"
+      ],
+      "imagem": {
+        "arquivo": "q07363.jpg",
+        "origem": "https://commons.wikimedia.org/wiki/File:Concierto_de_Plácido_Domingo_con_motivo_del_Año_Jubilar_Mariano_(7-06-2019)_01.jpg",
+        "autor": "Fotografías - archimadrid.es",
+        "licenca": "CC BY-SA 2.0"
+      },
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pl%C3%A1cido_Domingo",
+        "https://pt.wikipedia.org/wiki/Pl%C3%A1cido_Domingo"
+      ],
+      "dificuldade": 4,
+      "ancora": {
+        "nome": "Plácido Domingo",
+        "descricao": "Cantor de ópera, regente e administrador espanhol nascido em 1941."
+      },
+      "revisao": {
+        "data": "2026-10-28",
+        "origem": "controle",
+        "nota": 0,
+        "problema": "nenhum",
+        "motivo": ""
+      }
+    },
+    {
+      "id": "q00796",
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "tipo": "multipla",
+      "pergunta": "Qual é a letra mais frequente nos textos escritos em português?",
+      "resposta": "A",
+      "distratores": [
+        "E",
+        "O",
+        "S"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Letter_frequency"
+      ],
+      "dificuldade": 4,
+      "ancora": {
+        "nome": "Frequência de letras",
+        "descricao": "Medida de quantas vezes cada letra aparece nos textos de uma língua"
+      },
+      "revisao": {
+        "data": "2026-10-28",
+        "origem": "suspeita",
+        "nota": 1,
+        "problema": "resposta_errada",
+        "motivo": "Trecho em pt lista AEOSR, mas varia por corpus; A costuma liderar, ligeiramente discutível."
+      }
+    },
+    {
+      "id": "q02865",
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "tipo": "aberta",
+      "pergunta": "As figueiras dependem de um inseto minúsculo que entra no fruto para botar ovos e, de quebra, poliniza as flores. Que inseto é esse?",
+      "resposta": "Vespa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fig_wasp"
+      ],
+      "dificuldade": 4,
+      "ancora": {
+        "nome": "Vespa-do-figo",
+        "descricao": "Grupo de vespas minúsculas que polinizam as figueiras numa relação de mutualismo obrigatório."
+      },
+      "revisao": {
+        "data": "2026-10-28",
+        "origem": "controle",
+        "nota": 1,
+        "problema": "enunciado_confuso",
+        "motivo": "Resposta 'Vespa' é genérica; o fruto da figueira é um sicônio e a pergunta é vaga sobre a espécie."
+      }
+    },
+    {
+      "id": "q01475",
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "tipo": "aberta",
+      "pergunta": "Qual membro do Quarteto Fantástico é o irmão mais novo da Mulher Invisível?",
+      "resposta": "Tocha Humana",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fantastic_Four",
+        "https://en.wikipedia.org/wiki/Invisible_Woman"
+      ],
+      "dificuldade": 3,
+      "ancora": {
+        "nome": "Quarteto Fantástico",
+        "descricao": "Equipe de super-heróis da Marvel criada por Stan Lee e Jack Kirby em 1961"
+      },
+      "revisao": {
+        "data": "2026-10-28",
+        "origem": "suspeita",
+        "nota": 1,
+        "problema": "nenhum",
+        "motivo": "Trechos não mostram o parentesco explicitamente, mas Johnny Storm é irmão mais novo de Sue."
+      }
+    },
+    {
+      "id": "q13191",
+      "tema": "História",
+      "subtema": "Idade Média",
+      "tipo": "aberta",
+      "pergunta": "Entre 1309 e 1377, os papas deixaram Roma e passaram a viver em que cidade do sul da França?",
+      "resposta": "Avignon (Avinhão)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Avignon_Papacy"
+      ],
+      "dificuldade": 4,
+      "ancora": {
+        "nome": "Papado de Avignon",
+        "descricao": "Período em que os papas residiram em Avignon, no sul da França, em vez de Roma"
+      },
+      "revisao": {
+        "data": "2026-10-28",
+        "origem": "suspeita",
+        "nota": 1,
+        "problema": "nenhum",
+        "motivo": "Fonte inglesa diz 1309-1376 e a portuguesa 1377; o intervalo do enunciado é aceitável, mas há pequena divergência."
+      }
+    },
+    {
+      "id": "q00223",
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "tipo": "aberta",
+      "pergunta": "Que princesa portuguesa, ao se casar com o rei Carlos Segundo, popularizou o hábito de tomar chá na corte inglesa?",
+      "resposta": "Catarina de Bragança",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Catherine_of_Braganza",
+        "https://en.wikipedia.org/wiki/Tea_in_the_United_Kingdom"
+      ],
+      "dificuldade": 5,
+      "ancora": {
+        "nome": "Chá na Grã-Bretanha",
+        "descricao": "Hábito britânico de beber chá, que se tornou um símbolo cultural do país"
+      },
+      "revisao": {
+        "data": "2026-10-28",
+        "origem": "suspeita",
+        "nota": 1,
+        "problema": "resposta_errada",
+        "motivo": "A atribuição do chá a Catarina é tradicional, mas historiadores a contestam parcialmente."
+      }
+    },
+    {
+      "id": "q04317",
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "tipo": "aberta",
+      "pergunta": "Do ponto de vista das placas tectônicas, o que o Grande Vale do Rift, na África, e a Islândia têm em comum?",
+      "resposta": "Ali as placas se afastam",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/East_African_Rift",
+        "https://en.wikipedia.org/wiki/Geology_of_Iceland"
+      ],
+      "dificuldade": 4,
+      "ancora": {
+        "nome": "Grande Vale do Rift",
+        "descricao": "Sistema de fendas tectônicas que corta o leste da África, onde o continente está se partindo."
+      },
+      "revisao": {
+        "data": "2026-10-28",
+        "origem": "suspeita",
+        "nota": 1,
+        "problema": "enunciado_confuso",
+        "motivo": "Resposta vaga ('as placas se afastam'); Rift africano é rifte continental, ok mas enunciado genérico."
+      }
+    },
+    {
+      "id": "q14112",
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "tipo": "multipla",
+      "pergunta": "Que deus egípcio é este?",
+      "resposta": "Sobek",
+      "distratores": [
+        "Anúbis",
+        "Hórus",
+        "Khnum"
+      ],
+      "imagem": {
+        "arquivo": "q14112.jpg",
+        "origem": "https://commons.wikimedia.org/wiki/File:Sobek.svg",
+        "autor": "Jeff Dahl",
+        "licenca": "CC BY-SA 4.0"
+      },
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sobek",
+        "https://pt.wikipedia.org/wiki/Sobeque"
+      ],
+      "dificuldade": 5,
+      "ancora": {
+        "nome": "Sobek",
+        "descricao": "Deus egípcio com cabeça de crocodilo, ligado ao Nilo, à fertilidade e ao poder do faraó."
+      },
+      "revisao": {
+        "data": "2026-10-28",
+        "origem": "suspeita",
+        "nota": 1,
+        "problema": "figura_ruim",
+        "motivo": "Arquivo é um SVG (desenho), não foto; aceitável para deus mitológico."
+      }
+    },
+    {
+      "id": "q02093",
+      "tema": "Geografia",
+      "subtema": "Relevo e Maravilhas Naturais",
+      "tipo": "multipla",
+      "pergunta": "Que diretor filmou tantos faroestes no Monument Valley que um mirante do vale ganhou o seu nome?",
+      "resposta": "John Ford",
+      "distratores": [
+        "Sergio Leone",
+        "Howard Hawks",
+        "Sam Peckinpah"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Monument_Valley"
+      ],
+      "dificuldade": 5,
+      "ancora": {
+        "nome": "Monument Valley",
+        "descricao": "Vale com grandes formações de arenito na fronteira entre Arizona e Utah, nos Estados Unidos, em território navajo."
+      },
+      "revisao": {
+        "data": "2026-10-28",
+        "origem": "suspeita",
+        "nota": 2,
+        "problema": "resposta_errada",
+        "motivo": "O mirante John Ford Point é real, mas o trecho não o confirma; o enunciado afirma isso sem sustentação na fonte."
+      }
+    },
+    {
+      "id": "q09446",
+      "tema": "Ciências",
+      "subtema": "Química",
+      "tipo": "aberta",
+      "pergunta": "Por que uma maçã cortada fica escura depois de alguns minutos exposta?",
+      "resposta": "Reage com o oxigênio do ar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Food_browning"
+      ],
+      "dificuldade": 5,
+      "ancora": {
+        "nome": "Escurecimento enzimático",
+        "descricao": "Reação química em que frutas e legumes cortados, como maçã e banana, escurecem em contato com o ar."
+      },
+      "revisao": {
+        "data": "2026-10-28",
+        "origem": "suspeita",
+        "nota": 2,
+        "problema": "resposta_errada",
+        "motivo": "A causa real é a enzima polifenol oxidase oxidando fenóis em contato com o oxigênio; a resposta é incompleta e a fonte não confirma."
+      }
+    },
+    {
+      "id": "q11436",
+      "tema": "Entretenimento",
+      "subtema": "Música Brasileira",
+      "tipo": "multipla",
+      "pergunta": "Na formação clássica dos anos oitenta, com Arnaldo Antunes e Nando Reis, quantos integrantes tinham os Titãs?",
+      "resposta": "Oito",
+      "distratores": [
+        "Seis",
+        "Sete",
+        "Nove"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Titãs_(banda)"
+      ],
+      "dificuldade": 3,
+      "ancora": {
+        "nome": "Titãs",
+        "descricao": "Banda de rock paulistana formada em 1982, autora de Sonífera Ilha e Comida."
+      },
+      "revisao": {
+        "data": "2026-10-28",
+        "origem": "suspeita",
+        "nota": 2,
+        "problema": "resposta_errada",
+        "motivo": "A formação clássica dos anos 80 com Arnaldo e Nando tinha 8 (sem Ciro Pessoa e André Jung), mas é discutível; a fonte lista nove na formação inicial."
+      }
+    },
+    {
+      "id": "q01214",
+      "tema": "Entretenimento",
+      "subtema": "Música Brasileira",
+      "tipo": "aberta",
+      "pergunta": "Quando narrava futebol no rádio, o compositor Ary Barroso anunciava os gols tocando qual instrumento?",
+      "resposta": "Gaita de boca",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ary_Barroso",
+        "https://en.wikipedia.org/wiki/Ary_Barroso"
+      ],
+      "dificuldade": 4,
+      "ancora": {
+        "nome": "Ary Barroso",
+        "descricao": "Compositor mineiro de Aquarela do Brasil, também locutor esportivo de rádio."
+      },
+      "revisao": {
+        "data": "2026-10-28",
+        "origem": "suspeita",
+        "nota": 2,
+        "problema": "resposta_errada",
+        "motivo": "Os trechos não mencionam a gaita de boca; é fato conhecido, mas o enunciado sem fonte o confirma. A grafia 'gaita' também é ambígua."
+      }
+    },
+    {
+      "id": "q04010",
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "tipo": "multipla",
+      "pergunta": "Antes chamado Paquistão Oriental, Bangladesh conquistou a independência numa guerra em que ano?",
+      "resposta": "1971",
+      "distratores": [
+        "1973",
+        "1976",
+        "1980"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bangladesh_Liberation_War"
+      ],
+      "dificuldade": 2,
+      "ancora": {
+        "nome": "Bangladesh",
+        "descricao": "País do sul da Ásia, antes chamado Paquistão Oriental, com capital em Daca."
+      },
+      "revisao": {
+        "data": "2026-10-28",
+        "origem": "controle",
+        "nota": 0,
+        "problema": "nenhum",
+        "motivo": ""
+      }
+    },
+    {
+      "id": "q14828",
+      "tema": "Ciências",
+      "subtema": "Tecnologia e Computação",
+      "tipo": "multipla",
+      "pergunta": "Que modelo de celular da Motorola é este?",
+      "resposta": "DynaTAC",
+      "distratores": [
+        "MicroTAC",
+        "StarTAC",
+        "Razr V3"
+      ],
+      "imagem": {
+        "arquivo": "q14828.jpg",
+        "origem": "https://commons.wikimedia.org/wiki/File:DynaTAC8000X.jpg",
+        "autor": "Redrum0486",
+        "licenca": "CC BY-SA 3.0"
+      },
+      "fonte": [
+        "https://en.wikipedia.org/wiki/DynaTAC",
+        "https://pt.wikipedia.org/wiki/Motorola_DynaTAC"
+      ],
+      "dificuldade": 5,
+      "ancora": {
+        "nome": "Motorola DynaTAC",
+        "descricao": "Série de telefones celulares portáteis da Motorola, lançada comercialmente em 1984, apelidada de tijolão."
+      },
+      "revisao": {
+        "data": "2026-10-28",
+        "origem": "controle",
+        "nota": 0,
+        "problema": "nenhum",
+        "motivo": ""
+      }
+    },
+    {
+      "id": "q09612",
+      "tema": "Geografia",
+      "subtema": "Relevo e Maravilhas Naturais",
+      "tipo": "multipla",
+      "pergunta": "Nenhuma montanha do Reino Unido passa de mil e quatrocentos metros. Qual é a mais alta delas?",
+      "resposta": "Ben Nevis",
+      "distratores": [
+        "Snowdon",
+        "Scafell Pike",
+        "Ben Macdui"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ben_Nevis"
+      ],
+      "dificuldade": 5,
+      "ancora": {
+        "nome": "Ben Nevis",
+        "descricao": "Montanha das Terras Altas da Escócia, perto de Fort William, o ponto mais alto do Reino Unido."
+      },
+      "revisao": {
+        "data": "2026-10-28",
+        "origem": "controle",
+        "nota": 0,
+        "problema": "nenhum",
+        "motivo": ""
+      }
+    }
+  ]
+}

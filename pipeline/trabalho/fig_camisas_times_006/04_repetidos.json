@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que time inglês é este uniforme?",
+        "resposta": "Arsenal"
+      },
+      "existentes": [
+        {
+          "id": "q00739",
+          "pergunta": "O Arsenal, de Londres, tem esse nome porque foi fundado em 1886 por operários de que tipo de lugar?",
+          "resposta": "Uma fábrica de armamentos"
+        },
+        {
+          "id": "q09322",
+          "pergunta": "Na temporada de 2003 e 2004, o Arsenal foi campeão inglês sem perder nenhuma partida. Quantos jogos ele disputou nessa liga?",
+          "resposta": "Trinta e oito"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede identificar o time pelo uniforme (Arsenal). As existentes tratam da origem do nome/fundação e do número de jogos na temporada 2003/04; são fatos diferentes."
+    }
+  ]
+}
