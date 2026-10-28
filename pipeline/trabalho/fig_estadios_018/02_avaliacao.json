@@ -1,0 +1,200 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Panorama com 'FIFA World Cup Qatar 2022' escrito no gramado e na faixa, entregando a resposta; muitas pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista aérea com arquibancadas listradas de zebra, inconfundível e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que edição da Copa do Mundo foi usado este estádio?",
+      "resposta": "2010, na África do Sul",
+      "distratores": [
+        "2002, na Coreia e Japão",
+        "2006, na Alemanha",
+        "2014, no Brasil"
+      ],
+      "ancora": {
+        "nome": "Estádio Mbombela",
+        "descricao": "Estádio de futebol e rúgbi em Mbombela, província de Mpumalanga, na África do Sul, sede da Copa do Mundo de 2010.",
+        "variantes": [
+          "Mbombela Stadium",
+          "Estádio de Nelspruit"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Arquibancada com listras azuis e vermelhas características, sem texto que entregue o clube; resposta única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que clube argentino manda seus jogos neste estádio?",
+      "resposta": "San Lorenzo",
+      "distratores": [
+        "Boca Juniors",
+        "River Plate",
+        "Racing Club"
+      ],
+      "ancora": {
+        "nome": "Estádio Pedro Bidegain (Nuevo Gasómetro)",
+        "descricao": "Estádio de futebol do bairro de Flores, em Buenos Aires, casa do San Lorenzo.",
+        "variantes": [
+          "Nuevo Gasómetro",
+          "Estadio Pedro Bidegain"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Domo prateado e gramado deslizante característicos, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que clube de futebol japonês manda seus jogos neste estádio?",
+      "resposta": "Consadole Sapporo",
+      "distratores": [
+        "Kashima Antlers",
+        "Urawa Red Diamonds",
+        "Vissel Kobe"
+      ],
+      "ancora": {
+        "nome": "Sapporo Dome",
+        "descricao": "Estádio coberto em Sapporo, Hokkaido, Japão, sede de jogos da Copa de 2002 e casa do Consadole Sapporo.",
+        "variantes": [
+          "Daiwa House Premist Dome",
+          "Estádio Sapporo Dome"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Velódromo de Londres reconhecível pelo telhado curvo e fachada de madeira, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que edição dos Jogos Olímpicos foi usado este velódromo?",
+      "resposta": "Londres 2012",
+      "distratores": [
+        "Pequim 2008",
+        "Atenas 2004",
+        "Rio 2016"
+      ],
+      "ancora": {
+        "nome": "Lee Valley VeloPark",
+        "descricao": "Centro de ciclismo com velódromo e pista de BMX no Parque Olímpico Rainha Elizabeth, em Londres, usado nos Jogos de 2012.",
+        "variantes": [
+          "Velódromo de Londres",
+          "London Velodrome"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fachada com colunata histórica e estrutura circular, sem texto que entregue a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que clube russo manda seus jogos neste estádio?",
+      "resposta": "Ural Ecaterimburgo",
+      "distratores": [
+        "Spartak Moscou",
+        "Zenit São Petersburgo",
+        "Rubin Kazan"
+      ],
+      "ancora": {
+        "nome": "Ekaterinburg Arena",
+        "descricao": "Estádio de futebol em Ecaterimburgo, Rússia, sede da Copa do Mundo de 2018 e casa do FC Ural.",
+        "variantes": [
+          "Estádio Central de Ecaterimburgo",
+          "Central Stadium Yekaterinburg",
+          "Yekaterinburg Arena"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto histórica de baixa resolução, estádio pouco reconhecível e multidão de pessoas comuns; resposta não é segura diante da imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista aérea com teto de membrana branca característico, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que clube alemão manda seus jogos neste estádio?",
+      "resposta": "Hamburgo",
+      "distratores": [
+        "Werder Bremen",
+        "Hannover 96",
+        "Holstein Kiel"
+      ],
+      "ancora": {
+        "nome": "Volksparkstadion",
+        "descricao": "Estádio de futebol em Hamburgo, Alemanha, casa do Hamburger SV e sede da Copa de 2006 e da Euro 2024.",
+        "variantes": [
+          "Volksparkstadion Hamburgo",
+          "Imtech Arena",
+          "HSH Nordbank Arena"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A palavra 'CRUCIBLE' aparece na fachada, entregando a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista aérea do domo com estrutura triangular inconfundível, sem texto legível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país fica este estádio, sede de jogos da Copa do Mundo de 2018?",
+      "resposta": "Rússia",
+      "distratores": [
+        "Cazaquistão",
+        "Ucrânia",
+        "Bielorrússia"
+      ],
+      "ancora": {
+        "nome": "Samara Arena",
+        "descricao": "Estádio de futebol em Samara, Rússia, sede da Copa do Mundo de 2018 e casa do Krylia Sovetov.",
+        "variantes": [
+          "Solidarnost Samara Arena",
+          "Cosmos Arena",
+          "Estádio Samara"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto de uma partida em que o estádio não é reconhecível; faixas com texto e resposta não única diante da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Faixas com logotipo e texto do FC Seoul e em coreano entregam a resposta; a imagem mostra só parte do estádio."
+    }
+  ]
+}

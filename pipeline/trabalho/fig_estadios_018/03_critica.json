@@ -1,0 +1,77 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto (um dos 10 estádios da Copa de 2010). Resposta e distrator com mais de 4 palavras. Encurtados.",
+      "reescrita": {
+        "pergunta": "Em que edição da Copa do Mundo foi usado este estádio?",
+        "resposta": "2010, África do Sul",
+        "distratores": [
+          "2002, Coreia e Japão",
+          "2006, Alemanha",
+          "2014, Brasil"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "San Lorenzo é o clube do estádio, confirmado nos trechos. Sem vazamento, e os distratores são clubes argentinos críveis que não jogam lá.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado restringe a pergunta ao futebol, então o Nippon-Ham Fighters (beisebol) não conflita. O Consadole Sapporo é o mandante. Sem vazamento, e os distratores são adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O velódromo foi usado nos Jogos de 2012, conforme os trechos. Resposta única, distratores do mesmo tipo e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Ural é o mandante, conforme o trecho. O Rubin Kazan só jogou lá como visitante. Sem vazamento, distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Hamburger SV é o mandante. A resposta 'Hamburgo' é o nome da cidade, e não do clube. Trocada pelo nome do clube.",
+      "reescrita": {
+        "pergunta": "Que clube alemão manda seus jogos neste estádio?",
+        "resposta": "Hamburger SV",
+        "distratores": [
+          "Werder Bremen",
+          "Hannover 96",
+          "Holstein Kiel"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A menção à Copa do Mundo de 2018 entrega a resposta (Rússia) sem olhar a figura. Pista removida.",
+      "reescrita": {
+        "pergunta": "Em que país fica este estádio de futebol?",
+        "resposta": "Rússia",
+        "distratores": [
+          "Cazaquistão",
+          "Ucrânia",
+          "Bielorrússia"
+        ]
+      }
+    }
+  ]
+}
