@@ -1,0 +1,704 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Vênus de Milo",
+        "descricao": "Escultura grega helenística em mármore da deusa Afrodite, sem os braços, exposta no Louvre.",
+        "variantes": [
+          "Afrodite de Milos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "venus_de_milo",
+          "nome": "Vênus de Milo",
+          "descricao": "Estátua grega de mármore no Louvre.",
+          "variantes": [
+            "Afrodite de Milo",
+            "Afrodite de Milos"
+          ]
+        },
+        {
+          "id": "venus_de_urbino",
+          "nome": "Vênus de Urbino",
+          "descricao": "Quadro de Ticiano de 1538, na Galeria Uffizi.",
+          "variantes": []
+        },
+        {
+          "id": "venus_de_willendorf",
+          "nome": "Vênus de Willendorf",
+          "descricao": "Estatueta paleolítica de uma figura feminina, esculpida em calcário.",
+          "variantes": [
+            "Venus of Willendorf",
+            "Mulher de Willendorf"
+          ]
+        },
+        {
+          "id": "tales_de_mileto",
+          "nome": "Tales de Mileto",
+          "descricao": "Filósofo grego pré-socrático (c. 624–546 a.C.), considerado pela tradição um dos Sete Sábios da Grécia.",
+          "variantes": [
+            "Thales of Miletus",
+            "Tales",
+            "Thales"
+          ]
+        },
+        {
+          "id": "venus_ao_espelho",
+          "nome": "Vênus ao Espelho",
+          "descricao": "Pintura de Diego Velázquez, de cerca de 1647 a 1651, com Vênus nua de costas olhando-se num espelho segurado por Cupido, na National Gallery de Londres.",
+          "variantes": [
+            "Rokeby Venus",
+            "Vênus de Rokeby",
+            "A Toilette de Vênus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bes",
+        "descricao": "Divindade anã e barbuda do Egito Antigo, protetora do lar, das mães e das crianças.",
+        "variantes": [
+          "Bisu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bidu",
+          "nome": "Bidu",
+          "descricao": "Cachorrinho azul criado por Mauricio de Sousa, seu primeiro personagem publicado",
+          "variantes": []
+        },
+        {
+          "id": "programa_cbers",
+          "nome": "Programa CBERS",
+          "descricao": "Programa de satélites de observação da Terra desenvolvidos em conjunto por Brasil e China, com o primeiro lançado em 1999.",
+          "variantes": [
+            "CBERS",
+            "Satélite Sino-Brasileiro de Recursos Terrestres"
+          ]
+        },
+        {
+          "id": "boeres",
+          "nome": "Bôeres",
+          "descricao": "Descendentes dos colonos de língua holandesa que se estabeleceram na região do Cabo, na África do Sul, a partir do século dezessete.",
+          "variantes": [
+            "Boers"
+          ]
+        },
+        {
+          "id": "abiu",
+          "nome": "Abiu",
+          "descricao": "Fruto amarelo do abieiro (Pouteria caimito), de polpa branca e gelatinosa, nativo da Amazônia.",
+          "variantes": [
+            "Caimito",
+            "Abieiro",
+            "Pouteria caimito"
+          ]
+        },
+        {
+          "id": "jon_jones",
+          "nome": "Jon Jones",
+          "descricao": "Lutador americano de MMA, campeão dos meio-pesados e dos pesados do UFC.",
+          "variantes": [
+            "Jonathan Dwight Jones",
+            "Bones"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Sereia",
+        "descricao": "Criatura do folclore com cabeça e tronco de mulher e cauda de peixe.",
+        "variantes": [
+          "Mermaid"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "usagi_tsukino",
+          "nome": "Usagi Tsukino",
+          "descricao": "Heroína de Sailor Moon, chamada Serena na dublagem brasileira dos anos noventa.",
+          "variantes": [
+            "Serena",
+            "Sailor Moon (personagem)",
+            "Bunny"
+          ]
+        },
+        {
+          "id": "servia",
+          "nome": "Sérvia",
+          "descricao": "País sem litoral dos Bálcãs, na Europa Central e Sudeste, com capital em Belgrado.",
+          "variantes": [
+            "Serbia",
+            "República da Sérvia"
+          ]
+        },
+        {
+          "id": "serena",
+          "nome": "Serena",
+          "descricao": "Companheira de viagem de Ash na série Pokémon XY, de Kalos, que sonha em ser artista pokémon.",
+          "variantes": [
+            "Serena (anime)"
+          ]
+        },
+        {
+          "id": "sirenios",
+          "nome": "Sirênios",
+          "descricao": "Ordem de mamíferos aquáticos herbívoros que inclui peixes-bois e dugongos.",
+          "variantes": [
+            "Sirenia",
+            "Sirênia"
+          ]
+        },
+        {
+          "id": "seriema",
+          "nome": "Seriema",
+          "descricao": "Ave terrestre predadora (Cariama cristata), de pernas e bico vermelhos e topete de penas eriçadas, dos campos da América do Sul.",
+          "variantes": [
+            "Seriema-de-perna-vermelha",
+            "Siriema",
+            "Red-legged seriema",
+            "Cariama cristata"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mitra (chapéu episcopal)",
+        "descricao": "Chapéu cerimonial pontiagudo usado por bispos e certos abades no cristianismo.",
+        "variantes": [
+          "Mitra episcopal",
+          "Mitre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "metro",
+          "nome": "Metro",
+          "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito.",
+          "variantes": [
+            "Metro (unidade)",
+            "Metre",
+            "Meter"
+          ]
+        },
+        {
+          "id": "estacao_espacial_mir",
+          "nome": "Estação Espacial Mir",
+          "descricao": "Estação espacial modular soviética e depois russa, operada em órbita baixa de 1986 a 2001.",
+          "variantes": [
+            "Mir",
+            "Estação Mir"
+          ]
+        },
+        {
+          "id": "bocio",
+          "nome": "Bócio",
+          "descricao": "Aumento de volume da glândula tireoide, visível no pescoço.",
+          "variantes": [
+            "Papeira",
+            "Goitre",
+            "Goiter"
+          ]
+        },
+        {
+          "id": "miragem",
+          "nome": "Miragem",
+          "descricao": "Fenômeno óptico em que o ar aquecido desvia a luz e cria imagens deslocadas, como falsas poças no asfalto.",
+          "variantes": [
+            "Mirage"
+          ]
+        },
+        {
+          "id": "mihrab",
+          "nome": "Mihrab",
+          "descricao": "Nicho na parede de uma mesquita voltado para Meca",
+          "variantes": [
+            "Mirabe",
+            "Mihrabe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Nossa Senhora de Vladimir",
+        "descricao": "Ícone bizantino do século doze da Virgem com o Menino, tipo Eleousa, venerado na Rússia.",
+        "variantes": [
+          "Teótoco de Vladimir",
+          "Virgem de Vladimir"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_notre_dame_de_paris",
+          "nome": "Catedral de Notre-Dame de Paris",
+          "descricao": "Catedral gótica medieval na Île de la Cité, em Paris.",
+          "variantes": [
+            "Notre-Dame",
+            "Notre Dame de Paris",
+            "Nossa Senhora de Paris"
+          ]
+        },
+        {
+          "id": "igrejinha_nossa_senhora_de_fatima",
+          "nome": "Igrejinha Nossa Senhora de Fátima",
+          "descricao": "Primeira igreja católica de alvenaria de Brasília, na quadra 307/308 Sul, inaugurada em 1958.",
+          "variantes": [
+            "Igrejinha da 307/308 Sul",
+            "Igreja Nossa Senhora de Fátima"
+          ]
+        },
+        {
+          "id": "maria_mae_de_jesus",
+          "nome": "Maria, mãe de Jesus",
+          "descricao": "Mãe de Jesus, venerada no cristianismo e no islã",
+          "variantes": [
+            "Virgem Maria",
+            "Nossa Senhora",
+            "Maryam"
+          ]
+        },
+        {
+          "id": "florianopolis",
+          "nome": "Florianópolis",
+          "descricao": "Capital do estado de Santa Catarina, situada em grande parte na Ilha de Santa Catarina.",
+          "variantes": [
+            "Desterro",
+            "Nossa Senhora do Desterro",
+            "Floripa"
+          ]
+        },
+        {
+          "id": "cirio_de_nazare",
+          "nome": "Círio de Nazaré",
+          "descricao": "Grande procissão católica em honra de Nossa Senhora de Nazaré realizada em Belém do Pará em outubro.",
+          "variantes": [
+            "Círio de Nossa Senhora de Nazaré"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Catedral de São Basílio",
+        "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída no século dezesseis.",
+        "variantes": [
+          "Catedral de Vasily, o Bem-Aventurado",
+          "Catedral da Intercessão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_sao_basilio",
+          "nome": "Catedral de São Basílio",
+          "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+          "variantes": [
+            "Catedral de São Basílio, o Bem-Aventurado",
+            "Catedral da Intercessão",
+            "Catedral Pokrovsky",
+            "Saint Basil's Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_metropolitana_do_rio_de_janeiro",
+          "nome": "Catedral Metropolitana do Rio de Janeiro",
+          "descricao": "Catedral cônica de concreto, sede da Arquidiocese do Rio de Janeiro, dedicada a São Sebastião.",
+          "variantes": [
+            "Catedral de São Sebastião do Rio de Janeiro",
+            "Catedral de São Sebastião"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "catedral_da_se_de_sao_paulo",
+          "nome": "Catedral da Sé de São Paulo",
+          "descricao": "Catedral metropolitana neogótica com cúpula renascentista, na Praça da Sé, em São Paulo.",
+          "variantes": [
+            "Catedral Metropolitana de São Paulo",
+            "Catedral da Sé"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Máscara de Agamenon",
+        "descricao": "Máscara funerária de ouro da Idade do Bronze achada por Schliemann em Micenas, em 1876.",
+        "variantes": [
+          "Máscara de Agamémnon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mascara_de_agamenon",
+          "nome": "Máscara de Agamenon",
+          "descricao": "Máscara funerária de ouro encontrada em Micenas em 1876.",
+          "variantes": [
+            "Mask of Agamemnon"
+          ]
+        },
+        {
+          "id": "mascara_de_tutancamon",
+          "nome": "Máscara de Tutancâmon",
+          "descricao": "Máscara funerária de ouro com incrustações que cobria o rosto da múmia de Tutancâmon, hoje no Egito",
+          "variantes": [
+            "Mask of Tutankhamun",
+            "Máscara funerária de Tutancâmon"
+          ]
+        },
+        {
+          "id": "homem_mascarado_pokemon_adventures",
+          "nome": "Homem Mascarado (Pokémon Adventures)",
+          "descricao": "Vilão mascarado do arco de Gold, Silver e Crystal do mangá Pokémon Adventures, que sequestra crianças e rouba pokémon em Johto.",
+          "variantes": [
+            "Masked Man",
+            "Mascarado de Gelo",
+            "Kamen no Otoko"
+          ]
+        },
+        {
+          "id": "mascara_de_warka",
+          "nome": "Máscara de Warka",
+          "descricao": "Rosto feminino de mármore branco, de cerca de 3100 a.C., encontrado em Uruk e hoje no Museu Nacional do Iraque.",
+          "variantes": [
+            "Dama de Uruk",
+            "Mask of Warka"
+          ]
+        },
+        {
+          "id": "tesouro_de_atreu",
+          "nome": "Tesouro de Atreu",
+          "descricao": "Grande tumba tholos micênica, de cerca de 1300 a 1250 a.C., em Micenas, na Grécia.",
+          "variantes": [
+            "Túmulo de Agamêmnon",
+            "Treasury of Atreus",
+            "Túmulo de Agamenon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Leda e o cisne",
+        "descricao": "Tema da mitologia grega em que Zeus, transformado em cisne, seduz Leda, rainha de Esparta.",
+        "variantes": [
+          "Leda and the Swan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_velho_e_o_mar",
+          "nome": "O Velho e o Mar",
+          "descricao": "Novela de Ernest Hemingway, de 1952, sobre um velho pescador que luta com um enorme marlim.",
+          "variantes": [
+            "The Old Man and the Sea"
+          ]
+        },
+        {
+          "id": "lisbela_e_o_prisioneiro",
+          "nome": "Lisbela e o Prisioneiro",
+          "descricao": "Filme brasileiro de 2003 dirigido por Guel Arraes, com Selton Mello e Débora Falabella.",
+          "variantes": [
+            "Lisbela and the Prisoner"
+          ]
+        },
+        {
+          "id": "hilas_e_as_ninfas",
+          "nome": "Hilas e as Ninfas",
+          "descricao": "Pintura de 1896 de John William Waterhouse que mostra o jovem Hilas sendo atraído por ninfas da água, na Manchester Art Gallery.",
+          "variantes": [
+            "Hylas and the Nymphs"
+          ]
+        },
+        {
+          "id": "a_bela_e_a_fera_filme_de_1991",
+          "nome": "A Bela e a Fera (filme de 1991)",
+          "descricao": "Animação da Disney de 1991 sobre Bela, uma jovem que vive no castelo de uma fera enfeitiçada.",
+          "variantes": [
+            "Beauty and the Beast"
+          ]
+        },
+        {
+          "id": "hyoga",
+          "nome": "Hyoga",
+          "descricao": "Cavaleiro de bronze russo de Os Cavaleiros do Zodíaco, mestre dos golpes de gelo.",
+          "variantes": [
+            "Cygnus Hyoga",
+            "Hyoga de Cisne"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "A Última Ceia",
+        "descricao": "Pintura mural de Leonardo da Vinci, de cerca de 1495 a 1498, no convento de Santa Maria delle Grazie.",
+        "variantes": [
+          "O Cenáculo",
+          "L'Ultima Cena"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_ultima_ceia",
+          "nome": "A Última Ceia",
+          "descricao": "Pintura mural de Leonardo da Vinci em Milão.",
+          "variantes": [
+            "The Last Supper",
+            "Il Cenacolo",
+            "L'Ultima Cena"
+          ]
+        },
+        {
+          "id": "calculo",
+          "nome": "Cálculo",
+          "descricao": "Ramo da matemática que estuda derivadas e integrais, também chamado cálculo diferencial e integral.",
+          "variantes": [
+            "Cálculo diferencial e integral",
+            "Calculus",
+            "Cálculo infinitesimal"
+          ]
+        },
+        {
+          "id": "limao",
+          "nome": "Limão",
+          "descricao": "Fruto cítrico verde e ácido, aqui o limão taiti (Citrus × latifolia), usado como tempero e em bebidas.",
+          "variantes": [
+            "Limão-taiti",
+            "Lima ácida",
+            "Lime"
+          ]
+        },
+        {
+          "id": "monoculo",
+          "nome": "Monóculo",
+          "descricao": "Lente circular corretiva usada em um só olho, presa pela órbita e por um cordão.",
+          "variantes": [
+            "Monocle"
+          ]
+        },
+        {
+          "id": "centauro",
+          "nome": "Centauro",
+          "descricao": "Criatura da mitologia grega com tronco humano e corpo de cavalo.",
+          "variantes": [
+            "Centaur",
+            "Hipocentauro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Ichthys",
+        "descricao": "Símbolo cristão formado por dois arcos que se cruzam, como o perfil de um peixe.",
+        "variantes": [
+          "Peixe de Jesus",
+          "Ictus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tito",
+          "nome": "Tito",
+          "descricao": "Imperador romano de 79 a 81, filho de Vespasiano, da dinastia flávia.",
+          "variantes": [
+            "Titus",
+            "Tito Flávio Vespasiano"
+          ]
+        },
+        {
+          "id": "bigorna",
+          "nome": "Bigorna",
+          "descricao": "Ossículo do ouvido médio que recebe as vibrações do martelo e as transmite ao estribo.",
+          "variantes": [
+            "Incus",
+            "Osso bigorna"
+          ]
+        },
+        {
+          "id": "ictiossauro",
+          "nome": "Ictiossauro",
+          "descricao": "Grupo extinto de répteis marinhos da Era Mesozoica, com corpo hidrodinâmico semelhante ao de golfinhos.",
+          "variantes": [
+            "Ichthyosauria",
+            "Ictiossauros",
+            "Ichthyosaur"
+          ]
+        },
+        {
+          "id": "tornassol",
+          "nome": "Tornassol",
+          "descricao": "Corante extraído de líquens, usado em papel indicador que muda de cor conforme a acidez.",
+          "variantes": [
+            "Papel de tornassol",
+            "Litmus"
+          ]
+        },
+        {
+          "id": "icaro",
+          "nome": "Ícaro",
+          "descricao": "Filho de Dédalo que fugiu de Creta voando com asas artificiais e caiu no mar.",
+          "variantes": [
+            "Icarus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Roda de oração",
+        "descricao": "Cilindro giratório com mantras, usado no budismo tibetano.",
+        "variantes": [
+          "Roda de mani",
+          "Prayer wheel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roda_de_oracao",
+          "nome": "Roda de oração",
+          "descricao": "Cilindro budista, comum no Tibete, que contém mantras e é girado como forma de recitação.",
+          "variantes": [
+            "Roda de mani",
+            "Mani wheel",
+            "Prayer wheel"
+          ]
+        },
+        {
+          "id": "lenda_da_mandioca",
+          "nome": "Lenda da mandioca",
+          "descricao": "Lenda indígena tupi sobre a menina Mani, de cujo túmulo teria brotado a mandioca.",
+          "variantes": [
+            "Lenda de Mani"
+          ]
+        },
+        {
+          "id": "roda_d_agua",
+          "nome": "Roda d'água",
+          "descricao": "Grande roda de madeira com pás ou caçambas que converte a energia da água corrente em força mecânica, usada em moinhos.",
+          "variantes": [
+            "Roda de água",
+            "Roda hidráulica",
+            "Azenha"
+          ]
+        },
+        {
+          "id": "roca_de_fiar",
+          "nome": "Roca de fiar",
+          "descricao": "Equipamento de madeira com roda e fuso para transformar fibras em fio, usado antes da Revolução Industrial.",
+          "variantes": [
+            "Roda de fiar",
+            "Roca",
+            "Spinning wheel"
+          ]
+        },
+        {
+          "id": "london_eye",
+          "nome": "London Eye",
+          "descricao": "Roda-gigante de observação à margem sul do rio Tâmisa, em Londres, inaugurada na virada do milênio.",
+          "variantes": [
+            "Millennium Wheel",
+            "Roda do Milênio"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "venus_de_milo",
+      "motivo": "Mesma escultura grega no Louvre."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Divindade egípcia Bes; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Sereia folclórica; sirênios são ordem de mamíferos, diferente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Mitra episcopal; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Ícone de Vladimir é obra específica; Maria e outras são entidades diferentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_sao_basilio",
+      "motivo": "Mesma catedral na Praça Vermelha."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "mascara_de_agamenon",
+      "motivo": "Mesma máscara funerária de Micenas, 1876."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Tema mitológico Leda e o cisne; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "a_ultima_ceia",
+      "motivo": "Mesma pintura mural de Leonardo da Vinci."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Símbolo cristão do peixe; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "roda_de_oracao",
+      "motivo": "Mesmo objeto budista tibetano."
+    }
+  ]
+}

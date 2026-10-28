@@ -229,7 +229,7 @@
       "titulo": "en:Ichthys",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Khanda",
@@ -257,7 +257,7 @@
       "titulo": "en:Prayer wheel",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Shofar",
@@ -285,7 +285,7 @@
       "titulo": "en:Venus de Milo",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "O Nascimento de Vênus",
@@ -376,7 +376,7 @@
       "titulo": "en:Leda and the Swan",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Tritão",
@@ -432,7 +432,7 @@
       "titulo": "en:The Last Supper (Leonardo)",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "A Criação de Adão",
@@ -556,6 +556,286 @@
     {
       "nome": "Ostensório",
       "titulo": "en:Monstrance",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Saci",
+      "titulo": "pt:Saci",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sereia",
+      "titulo": "en:Mermaid",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Dragão europeu",
+      "titulo": "en:European dragon",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lobisomem",
+      "titulo": "en:Werewolf",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Helena de Troia",
+      "titulo": "en:Helen of Troy",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Máscara de Agamenon",
+      "titulo": "en:Mask of Agamemnon",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Lamassu",
+      "titulo": "en:Lamassu",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedra do Sol asteca",
+      "titulo": "en:Aztec sun stone",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jasão",
+      "titulo": "en:Jason",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Eneias",
+      "titulo": "en:Aeneas",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Leões guardiões chineses",
+      "titulo": "en:Chinese guardian lions",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Penélope",
+      "titulo": "en:Penelope",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Set",
+      "titulo": "en:Set (deity)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Taweret",
+      "titulo": "en:Taweret",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bes",
+      "titulo": "en:Bes",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Heimdall",
+      "titulo": "en:Heimdall",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Raijin",
+      "titulo": "en:Raijin",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Belerofonte",
+      "titulo": "en:Bellerophon",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cila",
+      "titulo": "en:Scylla",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Buda",
+      "titulo": "en:Gautama Buddha",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "São Jorge e o dragão",
+      "titulo": "en:Saint George and the Dragon",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Capela Sistina",
+      "titulo": "en:Sistine Chapel",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Catedral de São Basílio",
+      "titulo": "en:Saint Basil's Cathedral",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Presépio",
+      "titulo": "en:Nativity scene",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Davi de Michelangelo",
+      "titulo": "en:David (Michelangelo)",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Iemanjá",
+      "titulo": "en:Yemọja",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mont-Saint-Michel",
+      "titulo": "en:Mont-Saint-Michel",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Catedral da Sé de São Paulo",
+      "titulo": "en:São Paulo Cathedral",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Moisés de Michelangelo",
+      "titulo": "en:Moses (Michelangelo)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Igreja do Senhor do Bonfim",
+      "titulo": "en:Church of Our Lord of Bonfim",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Santuário de Fátima",
+      "titulo": "en:Sanctuary of Fátima",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Grande Buda de Kamakura",
+      "titulo": "en:Kōtoku-in",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mitra (chapéu episcopal)",
+      "titulo": "en:Mitre",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Bandeiras de oração",
+      "titulo": "en:Prayer flag",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Vishnu",
+      "titulo": "en:Vishnu",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Kali",
+      "titulo": "en:Kali",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Santuário do Bom Jesus de Matosinhos",
+      "titulo": "en:Sanctuary of Bom Jesus de Matosinhos",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo do Buda de Esmeralda",
+      "titulo": "en:Wat Phra Kaew",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estupa de Sanchi",
+      "titulo": "en:Sanchi",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Nossa Senhora de Vladimir",
+      "titulo": "en:Theotokos of Vladimir",
       "camada": 3,
       "destino": 1,
       "status": "usada"

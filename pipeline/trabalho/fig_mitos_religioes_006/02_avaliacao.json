@@ -1,0 +1,269 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Escultura clara, sem texto, reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que museu europeu fica esta escultura grega?",
+      "resposta": "Louvre",
+      "distratores": [
+        "Museu do Prado",
+        "Museu Britânico",
+        "Galeria Uffizi"
+      ],
+      "ancora": {
+        "nome": "Vênus de Milo",
+        "descricao": "Escultura grega helenística em mármore da deusa Afrodite, sem os braços, exposta no Louvre.",
+        "variantes": [
+          "Afrodite de Milos",
+          "Venus de Milo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Cena de vaso com duas figuras sem atributos claros; não se identifica Helena com segurança, resposta não única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Estatueta de Bes nítida, sem texto, reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que civilização antiga é este deus protetor?",
+      "resposta": "Egito Antigo",
+      "distratores": [
+        "Mesopotâmia",
+        "Civilização minoica",
+        "Império Hitita"
+      ],
+      "ancora": {
+        "nome": "Bes",
+        "descricao": "Divindade anã e barbuda do Egito Antigo, protetora do lar, das mães e das crianças.",
+        "variantes": [
+          "Bisu"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pintura de Waterhouse com sereia clara, sem texto legível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que criatura mitológica é esta?",
+      "resposta": "Sereia",
+      "distratores": [
+        "Harpia",
+        "Górgona",
+        "Quimera"
+      ],
+      "ancora": {
+        "nome": "Sereia",
+        "descricao": "Criatura do folclore com cabeça e tronco de mulher e cauda de peixe.",
+        "variantes": [
+          "Mermaid"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Mitra bordada nítida, sem texto, reconhecível pela forma.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peça litúrgica é esta?",
+      "resposta": "Mitra",
+      "distratores": [
+        "Solidéu",
+        "Tiara",
+        "Casula"
+      ],
+      "ancora": {
+        "nome": "Mitra (chapéu episcopal)",
+        "descricao": "Chapéu cerimonial pontiagudo usado por bispos e certos abades no cristianismo.",
+        "variantes": [
+          "Mitra episcopal",
+          "Mitre"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ícone reconhecível, sem texto latino que entregue a resposta.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Para que cidade este ícone foi levado em 1395, para protegê-la de uma invasão de Tamerlão?",
+      "resposta": "Moscou",
+      "distratores": [
+        "São Petersburgo",
+        "Kiev",
+        "Novgorod"
+      ],
+      "ancora": {
+        "nome": "Nossa Senhora de Vladimir",
+        "descricao": "Ícone bizantino do século doze da Virgem com o Menino, tipo Eleousa, venerado na Rússia.",
+        "variantes": [
+          "Teótoco de Vladimir",
+          "Virgem de Vladimir"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Catedral inconfundível; placa pequena ao pé não revela a cidade.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta catedral ortodoxa?",
+      "resposta": "Moscou",
+      "distratores": [
+        "São Petersburgo",
+        "Kiev",
+        "Novgorod"
+      ],
+      "ancora": {
+        "nome": "Catedral de São Basílio",
+        "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída no século dezesseis.",
+        "variantes": [
+          "Catedral de Vasily, o Bem-Aventurado",
+          "Catedral da Intercessão"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Máscara de ouro nítida, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que antiga cidade grega foi encontrada esta máscara funerária de ouro?",
+      "resposta": "Micenas",
+      "distratores": [
+        "Esparta",
+        "Tebas",
+        "Corinto"
+      ],
+      "ancora": {
+        "nome": "Máscara de Agamenon",
+        "descricao": "Máscara funerária de ouro da Idade do Bronze achada por Schliemann em Micenas, em 1876.",
+        "variantes": [
+          "Máscara de Agamémnon"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pintura de Leda e o cisne clara, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que famosa personagem da Guerra de Troia era filha de Zeus com a mulher desta cena?",
+      "resposta": "Helena de Troia",
+      "distratores": [
+        "Andrômaca",
+        "Cassandra",
+        "Penélope"
+      ],
+      "ancora": {
+        "nome": "Leda e o cisne",
+        "descricao": "Tema da mitologia grega em que Zeus, transformado em cisne, seduz Leda, rainha de Esparta.",
+        "variantes": [
+          "Leda and the Swan"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Obra inteira, clara, sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade italiana fica esta pintura mural, feita na parede de um antigo refeitório?",
+      "resposta": "Milão",
+      "distratores": [
+        "Florença",
+        "Roma",
+        "Veneza"
+      ],
+      "ancora": {
+        "nome": "A Última Ceia",
+        "descricao": "Pintura mural de Leonardo da Vinci, de cerca de 1495 a 1498, no convento de Santa Maria delle Grazie.",
+        "variantes": [
+          "O Cenáculo",
+          "L'Ultima Cena"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Símbolo claro, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que religião é este símbolo?",
+      "resposta": "Cristianismo",
+      "distratores": [
+        "Budismo",
+        "Islamismo",
+        "Hinduísmo"
+      ],
+      "ancora": {
+        "nome": "Ichthys",
+        "descricao": "Símbolo cristão formado por dois arcos que se cruzam, como o perfil de um peixe.",
+        "variantes": [
+          "Peixe de Jesus",
+          "Ictus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Rodas de oração nítidas; escrita tibetana não entrega a resposta.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que religião se usam estas rodas, giradas pelos fiéis?",
+      "resposta": "Budismo",
+      "distratores": [
+        "Jainismo",
+        "Xintoísmo",
+        "Siquismo"
+      ],
+      "ancora": {
+        "nome": "Roda de oração",
+        "descricao": "Cilindro giratório com mantras, usado no budismo tibetano.",
+        "variantes": [
+          "Roda de mani",
+          "Prayer wheel"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que museu europeu fica esta escultura grega?",
+        "resposta": "Louvre"
+      },
+      "existentes": [
+        {
+          "id": "q00460",
+          "pergunta": "Qual é o nome desta estátua?",
+          "resposta": "Vênus de Milo"
+        },
+        {
+          "id": "q03195",
+          "pergunta": "A Vênus de Milo foi desenterrada numa ilha do mar Egeu e levada para a França em que século?",
+          "resposta": "Século dezenove"
+        },
+        {
+          "id": "q03236",
+          "pergunta": "Encontrada em 1820 por um camponês numa ilha grega, a estátua Vênus de Milo é exposta em que museu de Paris?",
+          "resposta": "Museu do Louvre"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade fica esta catedral ortodoxa?",
+        "resposta": "Moscou"
+      },
+      "existentes": [
+        {
+          "id": "q03471",
+          "pergunta": "Em que século foi construída esta catedral?",
+          "resposta": "Século dezesseis"
+        },
+        {
+          "id": "q03967",
+          "pergunta": "Que czar mandou erguer a Catedral de São Basílio, na Praça Vermelha, para celebrar a conquista da cidade de Kazan?",
+          "resposta": "Ivan, o Terrível"
+        },
+        {
+          "id": "q06684",
+          "pergunta": "Em que cidade fica esta catedral?",
+          "resposta": "Moscou"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que antiga cidade grega foi encontrada esta máscara funerária de ouro?",
+        "resposta": "Micenas"
+      },
+      "existentes": [
+        {
+          "id": "q03107",
+          "pergunta": "Em Micenas, uma máscara funerária de ouro recebeu o nome de qual rei lendário, embora seja séculos mais antiga que a época dele?",
+          "resposta": "Agamenon"
+        },
+        {
+          "id": "q03108",
+          "pergunta": "Que arqueólogo alemão, também famoso por escavar Troia, encontrou em 1876 a máscara de ouro chamada Máscara de Agamenon?",
+          "resposta": "Heinrich Schliemann"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que cidade italiana fica esta pintura mural, feita na parede de um antigo refeitório?",
+        "resposta": "Milão"
+      },
+      "existentes": [
+        {
+          "id": "q00413",
+          "pergunta": "Qual é o nome desta pintura?",
+          "resposta": "A Última Ceia"
+        },
+        {
+          "id": "q03045",
+          "pergunta": "A Última Ceia, de Leonardo da Vinci, começou a descascar poucos anos depois de pronta. Por quê?",
+          "resposta": "Foi pintada na parede seca, e não em afresco"
+        },
+        {
+          "id": "q06559",
+          "pergunta": "A Última Ceia, de Leonardo da Vinci, foi pintada no fim de que século?",
+          "resposta": "Século quinze"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que religião se usam estas rodas, giradas pelos fiéis?",
+        "resposta": "Budismo"
+      },
+      "existentes": [
+        {
+          "id": "q15821",
+          "pergunta": "Que objeto ritual budista é este?",
+          "resposta": "Roda de oração"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q03236",
+      "motivo": "Ambas perguntam em que museu (Louvre) fica a Vênus de Milo."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q06684",
+      "motivo": "Mesma pergunta: cidade da catedral, resposta Moscou."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O local de descoberta (Micenas) não é perguntado nas existentes; as outras perguntam o rei do nome e o arqueólogo. Em q03107 Micenas aparece no enunciado, mas o fato é outro."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A cidade onde fica a pintura (Milão) é um fato diferente de nome, técnica e século."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A religião onde se usam as rodas é um fato diferente do nome do objeto, embora o enunciado de q15821 mencione budista."
+    }
+  ]
+}
