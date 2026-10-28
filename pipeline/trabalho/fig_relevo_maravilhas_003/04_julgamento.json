@@ -1,0 +1,188 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Vulcão Mayon",
+        "descricao": "Estratovulcão ativo na província de Albay, nas Filipinas, famoso pelo cone simétrico.",
+        "variantes": [
+          "Monte Mayon",
+          "Mayon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maionese",
+          "nome": "Maionese",
+          "descricao": "Molho cremoso emulsionado de óleo, gema de ovo e ácido (vinagre ou limão).",
+          "variantes": [
+            "Mayonnaise",
+            "Mayo"
+          ]
+        },
+        {
+          "id": "viscose",
+          "nome": "Viscose",
+          "descricao": "Fibra têxtil artificial produzida a partir de celulose, também chamada raiom",
+          "variantes": [
+            "Raiom",
+            "Rayon",
+            "Seda artificial"
+          ]
+        },
+        {
+          "id": "monte_athos",
+          "nome": "Monte Athos",
+          "descricao": "Península do norte da Grécia ocupada por uma comunidade de mosteiros ortodoxos",
+          "variantes": [
+            "Monte Atos",
+            "Mount Athos",
+            "Montanha Sagrada"
+          ]
+        },
+        {
+          "id": "mt_moon",
+          "nome": "Mt. Moon",
+          "descricao": "Montanha com cavernas entre Pewter e Cerulean, em Kanto, nos jogos Pokémon Red e Blue, famosa pelos Clefairy e pelos fósseis.",
+          "variantes": [
+            "Monte Lua",
+            "Mount Moon"
+          ]
+        },
+        {
+          "id": "museu_oscar_niemeyer",
+          "nome": "Museu Oscar Niemeyer",
+          "descricao": "Museu de artes visuais, arquitetura e design em Curitiba, conhecido como Museu do Olho.",
+          "variantes": [
+            "Museu do Olho",
+            "MON"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Lago Powell",
+        "descricao": "Reservatório no rio Colorado, em Utah e Arizona, formado pela barragem de Glen Canyon.",
+        "variantes": [
+          "Lake Powell"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "poco_de_drake",
+          "nome": "Poço de Drake",
+          "descricao": "Poço de petróleo perfurado por Edwin Drake em 1859, perto de Titusville, nos Estados Unidos.",
+          "variantes": [
+            "Drake Well"
+          ]
+        },
+        {
+          "id": "george_orwell",
+          "nome": "George Orwell",
+          "descricao": "Escritor britânico (1903–1950), autor de 1984 e A Revolução dos Bichos.",
+          "variantes": [
+            "Eric Arthur Blair"
+          ]
+        },
+        {
+          "id": "lago_peyto",
+          "nome": "Lago Peyto",
+          "descricao": "Lago glacial de cor turquesa no Parque Nacional Banff, em Alberta, Canadá.",
+          "variantes": [
+            "Peyto Lake"
+          ]
+        },
+        {
+          "id": "lago_louise",
+          "nome": "Lago Louise",
+          "descricao": "Lago glacial no Parque Nacional Banff, em Alberta, Canadá.",
+          "variantes": [
+            "Lake Louise"
+          ]
+        },
+        {
+          "id": "lei_pele",
+          "nome": "Lei Pelé",
+          "descricao": "Lei brasileira do esporte, sancionada em 1998, que previu o fim do passe dos jogadores de futebol.",
+          "variantes": [
+            "Lei 9.615"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Königssee",
+        "descricao": "Lago natural alpino na Baviera, Alemanha, no Parque Nacional de Berchtesgaden.",
+        "variantes": [
+          "Lago do Rei"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dia_do_rei",
+          "nome": "Dia do Rei",
+          "descricao": "Feriado nacional dos Países Baixos em homenagem ao aniversário do monarca.",
+          "variantes": [
+            "Koningsdag",
+            "King's Day"
+          ]
+        },
+        {
+          "id": "lago_da_furia",
+          "nome": "Lago da Fúria",
+          "descricao": "Lago da região de Johto, nos jogos Pokémon Gold e Silver, onde aparece um Gyarados vermelho.",
+          "variantes": [
+            "Lake of Rage"
+          ]
+        },
+        {
+          "id": "joao_do_rio",
+          "nome": "João do Rio",
+          "descricao": "Pseudônimo do jornalista e cronista carioca Paulo Barreto (1881–1921), autor de A Alma Encantadora das Ruas.",
+          "variantes": [
+            "Paulo Barreto",
+            "João Paulo Emílio Cristóvão dos Santos Coelho Barreto"
+          ]
+        },
+        {
+          "id": "lago_de_braies",
+          "nome": "Lago de Braies",
+          "descricao": "Lago alpino nas Dolomitas de Prags, no Tirol do Sul, Itália, conhecido como Pérola dos Alpes.",
+          "variantes": [
+            "Pragser Wildsee",
+            "Lago di Braies"
+          ]
+        },
+        {
+          "id": "lago_erie",
+          "nome": "Lago Erie",
+          "descricao": "Um dos cinco Grandes Lagos da América do Norte, na fronteira entre os Estados Unidos e o Canadá, às margens do qual fica Cleveland.",
+          "variantes": [
+            "Lake Erie"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o vulcão Mayon; são entidades distintas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Lago Powell; Peyto e Louise são outros lagos."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Königssee é um lago na Baviera; Braies fica na Itália, outras candidatas não correspondem."
+    }
+  ]
+}

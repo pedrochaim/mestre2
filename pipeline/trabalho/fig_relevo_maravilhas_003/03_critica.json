@@ -1,0 +1,41 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Cone quase perfeito\" é o epíteto famoso do Mayon e, com \"filipino\", permite responder sem a figura. Pista removida; distratores trocados por vulcões filipinos, mais críveis que Fuji e Merapi.",
+      "reescrita": {
+        "pergunta": "Que vulcão das Filipinas é este?",
+        "resposta": "Vulcão Mayon",
+        "distratores": [
+          "Vulcão Taal",
+          "Monte Pinatubo",
+          "Monte Apo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Enunciado verdadeiro. As rochas avermelhadas ajudam sem identificar, porque o oeste dos EUA tem outros lagos assim. Distratores do mesmo tipo e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado é correto e não vaza a resposta. O distrator Hallstatt fica na Áustria e contradiz \"lago alemão\", então é descartável por exclusão. Foi trocado por um lago alpino alemão.",
+      "reescrita": {
+        "pergunta": "Que lago alemão, encaixado entre paredões de rocha nos Alpes, é este?",
+        "resposta": "Königssee",
+        "distratores": [
+          "Lago Walchensee",
+          "Lago Eibsee",
+          "Lago Constança"
+        ]
+      }
+    }
+  ]
+}

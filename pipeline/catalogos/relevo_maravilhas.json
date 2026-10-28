@@ -257,7 +257,7 @@
       "titulo": "en:Lake Powell",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Lago Kawaguchi",
@@ -271,7 +271,7 @@
       "titulo": "en:Königssee",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Lago Abraham",
@@ -279,6 +279,286 @@
       "camada": 3,
       "destino": 1,
       "status": "reprovada"
+    },
+    {
+      "nome": "Morro do Careca",
+      "titulo": "pt:Morro do Careca",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cânion do Xingó",
+      "titulo": "pt:Cânion do Xingó",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Serra da Capivara",
+      "titulo": "en:Serra da Capivara National Park",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Meteora",
+      "titulo": "en:Meteora",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cratera de Ngorongoro",
+      "titulo": "en:Ngorongoro Crater",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sigiriya",
+      "titulo": "en:Sigiriya",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Parque Nacional de Zion",
+      "titulo": "en:Zion National Park",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cataratas do Reno",
+      "titulo": "en:Rhine Falls",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cachoeira de Yosemite",
+      "titulo": "en:Yosemite Falls",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Rainier",
+      "titulo": "en:Mount Rainier",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vulcão Mayon",
+      "titulo": "en:Mayon",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Colinas de Chocolate",
+      "titulo": "en:Chocolate Hills",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tsingy de Bemaraha",
+      "titulo": "en:Tsingy de Bemaraha National Park",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Kata Tjuta",
+      "titulo": "en:Kata Tjuta",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "The Wave",
+      "titulo": "en:The Wave (Arizona)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Montanhas coloridas de Zhangye Danxia",
+      "titulo": "en:Zhangye National Geopark",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Geleira de Aletsch",
+      "titulo": "en:Aletsch Glacier",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cavernas de Mármore",
+      "titulo": "en:Marble Caves",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caverna de Postojna",
+      "titulo": "en:Postojna Cave",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cerro Torre",
+      "titulo": "en:Cerro Torre",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mar Cáspio",
+      "titulo": "en:Caspian Sea",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio Xingu",
+      "titulo": "en:Xingu River",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio Eufrates",
+      "titulo": "en:Euphrates",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Rio Tigre",
+      "titulo": "en:Tigris",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Rio Colorado",
+      "titulo": "en:Colorado River",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio Araguaia",
+      "titulo": "en:Araguaia River",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Rio Uruguai",
+      "titulo": "en:Uruguay River",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Rio Orinoco",
+      "titulo": "en:Orinoco",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lago Ontário",
+      "titulo": "en:Lake Ontario",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio São Lourenço",
+      "titulo": "en:Saint Lawrence River",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio Elba",
+      "titulo": "en:Elbe",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Represa Billings",
+      "titulo": "pt:Represa Billings",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lago Maggiore",
+      "titulo": "en:Lake Maggiore",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lago Malawi",
+      "titulo": "en:Lake Malawi",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Kivu",
+      "titulo": "en:Lake Kivu",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Toba",
+      "titulo": "en:Lake Toba",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Wakatipu",
+      "titulo": "en:Lake Wakatipu",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago de Lucerna",
+      "titulo": "en:Lake Lucerne",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lago Ohrid",
+      "titulo": "en:Lake Ohrid",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Issyk-Kul",
+      "titulo": "en:Issyk-Kul",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
     }
   ]
 }

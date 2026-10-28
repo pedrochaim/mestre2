@@ -1,0 +1,120 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Paisagem plana e genérica de águas rasas; nada permite reconhecer o Eufrates."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Rio num vale florestal sem elemento inconfundível; poderia ser muitos outros rios, resposta não única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto enevoada, de lago alpino genérico; não permite reconhecer o Lago de Lucerna."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Meandro de rio sem marca distintiva; o Tigre não é reconhecível."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Balsa em lago alpino genérico, com nome da embarcação visível; o Lago Maggiore não é reconhecível pela paisagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cone vulcânico simétrico com pluma de fumaça, característico do Mayon.",
+      "tipo": "multipla",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "destino": 0,
+      "pergunta": "Que vulcão filipino, famoso pelo cone quase perfeito, é este?",
+      "resposta": "Vulcão Mayon",
+      "distratores": [
+        "Monte Fuji",
+        "Vulcão Taal",
+        "Monte Merapi"
+      ],
+      "ancora": {
+        "nome": "Vulcão Mayon",
+        "descricao": "Estratovulcão ativo na província de Albay, nas Filipinas, famoso pelo cone simétrico.",
+        "variantes": [
+          "Monte Mayon",
+          "Mayon"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Reservatório entre morros florestados, genérico; o Rio Uruguai não é reconhecível."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Vista de cidade com ponte; só especialistas reconheceriam Ciudad Bolívar e o Orinoco, difícil demais."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Rochas de arenito avermelhado, lago azul e barcos-casa típicos do Lago Powell; sem texto que entregue a resposta.",
+      "tipo": "multipla",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "destino": 1,
+      "pergunta": "Que lago do oeste dos Estados Unidos, cercado por rochas avermelhadas, é este?",
+      "resposta": "Lago Powell",
+      "distratores": [
+        "Lago Mead",
+        "Lago Tahoe",
+        "Lago Havasu"
+      ],
+      "ancora": {
+        "nome": "Lago Powell",
+        "descricao": "Reservatório no rio Colorado, em Utah e Arizona, formado pela barragem de Glen Canyon.",
+        "variantes": [
+          "Lake Powell"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Árvore isolada na água; não identifica o Rio Araguaia."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Vista aérea de um reservatório genérico; a Represa Billings não é reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista aérea do lago estreito e profundo entre paredões rochosos, muito característica do Königssee.",
+      "tipo": "multipla",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "destino": 1,
+      "pergunta": "Que lago alemão, encaixado entre paredões de rocha nos Alpes, é este?",
+      "resposta": "Königssee",
+      "distratores": [
+        "Lago Walchensee",
+        "Lago Hallstatt",
+        "Lago Constança"
+      ],
+      "ancora": {
+        "nome": "Königssee",
+        "descricao": "Lago natural alpino na Baviera, Alemanha, no Parque Nacional de Berchtesgaden.",
+        "variantes": [
+          "Lago do Rei",
+          "Konigssee"
+        ]
+      }
+    }
+  ]
+}
