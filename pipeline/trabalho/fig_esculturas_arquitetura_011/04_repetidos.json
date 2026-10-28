@@ -1,0 +1,240 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que estádio brasileiro é este?",
+        "resposta": "Maracanã"
+      },
+      "existentes": [
+        {
+          "id": "q00030",
+          "pergunta": "O Maracanã, no Rio de Janeiro, tem um nome oficial que homenageia qual jornalista esportivo?",
+          "resposta": "Mário Filho"
+        },
+        {
+          "id": "q00524",
+          "pergunta": "Que estádio é este?",
+          "resposta": "Maracanã"
+        },
+        {
+          "id": "q05436",
+          "pergunta": "Inaugurado ainda com obras por terminar, o Estádio do Maracanã, no Rio de Janeiro, foi construído para receber qual Copa do Mundo?",
+          "resposta": "Copa do Mundo de 1950"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que torre é esta?",
+        "resposta": "Torre CN"
+      },
+      "existentes": [
+        {
+          "id": "q14586",
+          "pergunta": "Que torre é esta?",
+          "resposta": "CN Tower"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que escultor grego criou o original, em bronze, desta estátua?",
+        "resposta": "Policleto"
+      },
+      "existentes": [
+        {
+          "id": "q14327",
+          "pergunta": "Que arma o guerreiro desta estátua segurava apoiada no ombro esquerdo no original em bronze?",
+          "resposta": "Uma lança"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que cidade grega abriga esta antiga cidadela sobre uma colina rochosa?",
+        "resposta": "Atenas"
+      },
+      "existentes": [
+        {
+          "id": "q03244",
+          "pergunta": "Que construção monumental, com colunas e alas laterais, servia de portão de entrada à Acrópole de Atenas?",
+          "resposta": "Os Propileus"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que estilo arquitetônico caracteriza este arranha-céu?",
+        "resposta": "Art Déco"
+      },
+      "existentes": [
+        {
+          "id": "q07524",
+          "pergunta": "O Edifício Chrysler, em Nova York, e o Cristo Redentor, no Rio, ambos do início dos anos trinta, são ícones de que estilo?",
+          "resposta": "Art déco"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que santuário grego foi encontrada esta estátua de bronze do século quinto antes de Cristo?",
+        "resposta": "Delfos"
+      },
+      "existentes": [
+        {
+          "id": "q14296",
+          "pergunta": "Que estátua de bronze da Grécia antiga é esta?",
+          "resposta": "Auriga de Delfos"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que baía esta ponte atravessa?",
+        "resposta": "Baía de Guanabara"
+      },
+      "existentes": [
+        {
+          "id": "q04556",
+          "pergunta": "A ponte Rio-Niterói tem um nome oficial pouco usado, que homenageia um presidente do regime militar. Qual?",
+          "resposta": "Costa e Silva"
+        },
+        {
+          "id": "q05838",
+          "pergunta": "Atravessando a baía de Guanabara por mais de treze quilômetros, a ponte Rio-Niterói foi inaugurada em qual década?",
+          "resposta": "Década de 1970"
+        },
+        {
+          "id": "q16088",
+          "pergunta": "Que baía esta ponte atravessa?",
+          "resposta": "Baía de Guanabara"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em que museu fica esta escultura grega?",
+        "resposta": "Louvre"
+      },
+      "existentes": [
+        {
+          "id": "q03184",
+          "pergunta": "O que a escultura Vitória de Samotrácia, no Louvre, tem em comum com uma famosa marca esportiva americana?",
+          "resposta": "A deusa Nike"
+        },
+        {
+          "id": "q09561",
+          "pergunta": "A Vitória de Samotrácia, estátua alada exposta no Louvre, foi esculpida pousando sobre que tipo de base?",
+          "resposta": "A proa de um navio"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Que imperador mogol mandou construir este monumento?",
+        "resposta": "Shah Jahan"
+      },
+      "existentes": [
+        {
+          "id": "q02014",
+          "pergunta": "O imperador mogol Shah Jahan mandou construir o Taj Mahal para abrigar o túmulo de quem?",
+          "resposta": "Sua esposa Mumtaz Mahal"
+        },
+        {
+          "id": "q02041",
+          "pergunta": "Ao redor do mausoléu de mármore do Taj Mahal, quantos minaretes se erguem?",
+          "resposta": "Quatro"
+        },
+        {
+          "id": "q03878",
+          "pergunta": "Que monumento de mármore branco é este?",
+          "resposta": "Taj Mahal"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Que arquiteto projetou esta catedral em forma de cone?",
+        "resposta": "Edgar Fonseca"
+      },
+      "existentes": [
+        {
+          "id": "q14588",
+          "pergunta": "A que santo é dedicada esta catedral?",
+          "resposta": "São Sebastião"
+        },
+        {
+          "id": "q15874",
+          "pergunta": "Que catedral é esta?",
+          "resposta": "Catedral Metropolitana do Rio de Janeiro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q00524",
+      "motivo": "Mesma pergunta de identificar o estádio, resposta Maracanã."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q14586",
+      "motivo": "Identificar a mesma torre, resposta equivalente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Autor da estátua é fato diferente da arma segurada."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Cidade da cidadela difere do fato sobre os Propileus."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o estilo de um arranha-céu específico; a existente trata de dois edifícios, e não é claro que seja o mesmo fato."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Local de achado difere do nome da estátua."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "id_existente": "q16088",
+      "motivo": "Mesma pergunta e resposta."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Museu onde fica a escultura é fato diferente dos existentes (que citam o Louvre só no enunciado)."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "id_existente": "q02014",
+      "motivo": "Ambas têm Shah Jahan como construtor do Taj Mahal."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Arquiteto é fato diferente do santo ou do nome da catedral."
+    }
+  ]
+}

@@ -1,0 +1,773 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Maracanã",
+        "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado em 1950 para a Copa do Mundo, oficialmente Estádio Jornalista Mário Filho.",
+        "variantes": [
+          "Estádio do Maracanã",
+          "Estádio Jornalista Mário Filho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        },
+        {
+          "id": "maracanazo",
+          "nome": "Maracanazo",
+          "descricao": "Vitória do Uruguai sobre o Brasil por 2 a 1 no Maracanã, em 16 de julho de 1950, que decidiu a Copa do Mundo daquele ano.",
+          "variantes": [
+            "Maracanaço",
+            "Uruguai 2 x 1 Brasil"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "estadio_do_dragao",
+          "nome": "Estádio do Dragão",
+          "descricao": "Estádio de futebol na cidade do Porto, em Portugal, casa do FC Porto desde 2003.",
+          "variantes": [
+            "Dragão",
+            "Estádio do Dragão do Porto"
+          ]
+        },
+        {
+          "id": "madrassa_sher_dor",
+          "nome": "Madrassa Sher-Dor",
+          "descricao": "Madrassa do século dezessete na Praça Registan, em Samarcanda, Uzbequistão, decorada com leões e sóis em mosaico.",
+          "variantes": [
+            "Samarcanda",
+            "Sher-Dor",
+            "Praça Registan",
+            "Registan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Torre CN",
+        "descricao": "Torre de comunicação e observação de 553 metros em Toronto, no Canadá, concluída em 1976.",
+        "variantes": [
+          "CN Tower",
+          "Tour CN"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cn_tower",
+          "nome": "CN Tower",
+          "descricao": "Torre de comunicações e observação de 553 metros em Toronto, Canadá.",
+          "variantes": [
+            "Torre CN"
+          ]
+        },
+        {
+          "id": "torre_queimada",
+          "nome": "Torre Queimada",
+          "descricao": "Torre em ruínas da cidade de Ecruteak, em Johto, nos jogos Pokémon Gold e Silver, antiga Torre de Bronze destruída por um incêndio.",
+          "variantes": [
+            "Burned Tower",
+            "Torre de Bronze",
+            "Brass Tower"
+          ]
+        },
+        {
+          "id": "abridor_de_latas",
+          "nome": "Abridor de latas",
+          "descricao": "Utensílio de cozinha usado para abrir latas de conserva.",
+          "variantes": [
+            "Can opener",
+            "Abre-latas"
+          ]
+        },
+        {
+          "id": "torre_pokemon",
+          "nome": "Torre Pokémon",
+          "descricao": "Torre que serve de cemitério de pokémon, assombrada por fantasmas, nos jogos Pokémon Red e Blue.",
+          "variantes": [
+            "Pokémon Tower"
+          ]
+        },
+        {
+          "id": "ancient_power",
+          "nome": "Ancient Power",
+          "descricao": "Golpe de pokémon do tipo Pedra, da 2ª geração.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Doríforo",
+        "descricao": "Escultura grega clássica de Policleto, o 'portador de lança', conhecida por cópias romanas em mármore.",
+        "variantes": [
+          "Doryphoros",
+          "Portador de lança",
+          "Doríforo de Policleto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "doriforo",
+          "nome": "Doríforo",
+          "descricao": "Escultura grega de Policleto, de cerca de 440 a.C., que mostra um guerreiro nu em contrapposto com uma lança, conhecida por cópias romanas em mármore.",
+          "variantes": [
+            "Doryphoros",
+            "Portador da lança"
+          ]
+        },
+        {
+          "id": "esponja_do_mar",
+          "nome": "Esponja-do-mar",
+          "descricao": "Animal marinho filtrador do filo Porifera, aqui uma esponja-barril gigante num recife.",
+          "variantes": [
+            "Esponja",
+            "Porífero",
+            "Porifera"
+          ]
+        },
+        {
+          "id": "drifloon",
+          "nome": "Drifloon",
+          "descricao": "Pokémon fantasma e voador em forma de balão, número 425 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "oricorio",
+          "nome": "Oricorio",
+          "descricao": "Pokémon ave dançarina da sétima geração, número 741 da Pokédex Nacional, com quatro estilos de dança.",
+          "variantes": []
+        },
+        {
+          "id": "apontador",
+          "nome": "Apontador",
+          "descricao": "Pequena ferramenta com lâmina para afiar a ponta de lápis de madeira.",
+          "variantes": [
+            "Apontador de lápis",
+            "Apara-lápis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Acrópole de Atenas",
+        "descricao": "Cidadela antiga sobre uma colina rochosa em Atenas, na Grécia, onde fica o Partenon.",
+        "variantes": [
+          "Acrópole",
+          "Acropolis of Athens"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "acropole_de_atenas",
+          "nome": "Acrópole de Atenas",
+          "descricao": "Colina fortificada de Atenas onde ficam o Partenon, o Erecteion e outros monumentos do século cinco a.C.",
+          "variantes": [
+            "Acropolis of Athens"
+          ]
+        },
+        {
+          "id": "a_escola_de_atenas",
+          "nome": "A Escola de Atenas",
+          "descricao": "Afresco de Rafael nos Palácios do Vaticano.",
+          "variantes": [
+            "The School of Athens",
+            "Scuola di Atene",
+            "Escola de Atenas"
+          ]
+        },
+        {
+          "id": "necropole_de_varna",
+          "nome": "Necrópole de Varna",
+          "descricao": "Cemitério pré-histórico do quinto milênio antes de Cristo, perto de Varna, com antigos objetos de ouro.",
+          "variantes": [
+            "Varna Necropolis"
+          ]
+        },
+        {
+          "id": "liceu_aristoteles",
+          "nome": "Liceu (Aristóteles)",
+          "descricao": "Escola fundada por Aristóteles em Atenas, em 335 a.C., num bosque nos arredores da cidade.",
+          "variantes": [
+            "Liceu de Atenas",
+            "Lyceum"
+          ]
+        },
+        {
+          "id": "peste_de_atenas",
+          "nome": "Peste de Atenas",
+          "descricao": "Epidemia que devastou Atenas a partir de 430 a.C., no início da Guerra do Peloponeso, descrita por Tucídides.",
+          "variantes": [
+            "Praga de Atenas",
+            "Plague of Athens"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Chrysler Building",
+        "descricao": "Arranha-céu Art Déco de 319 metros em Manhattan, Nova York, concluído em 1930.",
+        "variantes": [
+          "Edifício Chrysler"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "edificio_chrysler",
+          "nome": "Edifício Chrysler",
+          "descricao": "Arranha-céu de Manhattan, em Nova York, concluído em 1930, com coroa de arcos de aço inoxidável.",
+          "variantes": [
+            "Chrysler Building"
+          ]
+        },
+        {
+          "id": "flatiron_building",
+          "nome": "Flatiron Building",
+          "descricao": "Arranha-céu triangular de 1902 na esquina da Quinta Avenida com a Broadway, em Nova York.",
+          "variantes": [
+            "Edifício Flatiron",
+            "Fuller Building"
+          ]
+        },
+        {
+          "id": "edificio_niemeyer_belo_horizonte",
+          "nome": "Edifício Niemeyer (Belo Horizonte)",
+          "descricao": "Edifício residencial de varandas onduladas na Praça da Liberdade, em Belo Horizonte, projetado por Oscar Niemeyer.",
+          "variantes": [
+            "Edifício Niemeyer",
+            "Niemeyer Building"
+          ]
+        },
+        {
+          "id": "30_st_mary_axe",
+          "nome": "30 St Mary Axe",
+          "descricao": "Arranha-céu de vidro em forma de projétil, projetado por Norman Foster na City de Londres e concluído em 2003.",
+          "variantes": [
+            "The Gherkin",
+            "O Pepino",
+            "Swiss Re Building",
+            "Gherkin"
+          ]
+        },
+        {
+          "id": "edificio_copan",
+          "nome": "Edifício Copan",
+          "descricao": "Edifício residencial sinuoso projetado por Oscar Niemeyer no centro de São Paulo.",
+          "variantes": [
+            "Copan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Auriga de Delfos",
+        "descricao": "Estátua grega de bronze de cerca de 470 a.C., um condutor de carro vitorioso, achada no santuário de Apolo em Delfos.",
+        "variantes": [
+          "Heníoco",
+          "Charioteer of Delphi",
+          "Cocheiro de Delfos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "auriga_de_delfos",
+          "nome": "Auriga de Delfos",
+          "descricao": "Estátua grega de bronze, de cerca de 470 a.C., de um condutor de carro vencedor dos Jogos Píticos, achada em Delfos.",
+          "variantes": [
+            "Charioteer of Delphi",
+            "Heníoco",
+            "Aurigo de Delfos"
+          ]
+        },
+        {
+          "id": "liga_de_delos",
+          "nome": "Liga de Delos",
+          "descricao": "Aliança de cidades gregas liderada por Atenas, criada em 478 a.C. contra o Império Persa.",
+          "variantes": [
+            "Confederação de Delos",
+            "Delian League"
+          ]
+        },
+        {
+          "id": "delfos",
+          "nome": "Delfos",
+          "descricao": "Antigo santuário grego na encosta do monte Parnaso, sede do oráculo da Pítia e do templo de Apolo.",
+          "variantes": [
+            "Delphi",
+            "Santuário de Delfos",
+            "Oráculo de Delfos"
+          ]
+        },
+        {
+          "id": "delos",
+          "nome": "Delos",
+          "descricao": "Pequena ilha grega das Cíclades, grande santuário de Apolo na Antiguidade e primeira sede da Liga de Delos.",
+          "variantes": [
+            "Ilha de Delos",
+            "Dílos"
+          ]
+        },
+        {
+          "id": "oraculo_de_delfos",
+          "nome": "Oráculo de Delfos",
+          "descricao": "Santuário de Apolo em Delfos, na Grécia, onde a sacerdotisa Pítia dava respostas proféticas.",
+          "variantes": [
+            "Pítia",
+            "Delphi Oracle",
+            "Delfos",
+            "Oráculo de Delphi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ponte Rio-Niterói",
+        "descricao": "Ponte de vigas em caixão de 13 km sobre a Baía de Guanabara, ligando Rio de Janeiro e Niterói, inaugurada em 1974.",
+        "variantes": [
+          "Ponte Presidente Costa e Silva",
+          "Rio–Niterói Bridge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_rio_niteroi",
+          "nome": "Ponte Rio-Niterói",
+          "descricao": "Ponte sobre a Baía de Guanabara que liga as cidades do Rio de Janeiro e de Niterói, inaugurada em 1974.",
+          "variantes": [
+            "Ponte Presidente Costa e Silva"
+          ]
+        },
+        {
+          "id": "ponte_rio_negro",
+          "nome": "Ponte Rio Negro",
+          "descricao": "Ponte estaiada sobre o Rio Negro que liga Manaus a Iranduba, no Amazonas.",
+          "variantes": [
+            "Ponte Jornalista Phelippe Daou",
+            "Rio Negro Bridge"
+          ]
+        },
+        {
+          "id": "ponto_nemo",
+          "nome": "Ponto Nemo",
+          "descricao": "Polo de inacessibilidade oceânica, o ponto do oceano mais distante de qualquer terra, no Pacífico Sul.",
+          "variantes": [
+            "Point Nemo",
+            "Polo oceânico de inacessibilidade"
+          ]
+        },
+        {
+          "id": "tower_bridge",
+          "nome": "Tower Bridge",
+          "descricao": "Ponte levadiça e pênsil sobre o rio Tâmisa, em Londres, com duas torres de estilo neogótico, ao lado da Torre de Londres.",
+          "variantes": [
+            "Ponte da Torre"
+          ]
+        },
+        {
+          "id": "pontes_de_corda_incas",
+          "nome": "Pontes de corda incas",
+          "descricao": "Pontes suspensas de fibras vegetais trançadas usadas na rede de estradas incas, como a de Q'eswachaka, ainda refeita todo ano no Peru.",
+          "variantes": [
+            "Q'eswachaka",
+            "Queshuachaca",
+            "Inca rope bridge"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Vitória de Samotrácia",
+        "descricao": "Escultura helenística de mármore da deusa Nike sobre uma proa de navio, de cerca de 190 a.C., exposta no Louvre.",
+        "variantes": [
+          "Nike de Samotrácia",
+          "Winged Victory of Samothrace"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vitoria_de_samotracia",
+          "nome": "Vitória de Samotrácia",
+          "descricao": "Escultura grega helenística de mármore de uma deusa alada, exposta no Louvre.",
+          "variantes": [
+            "Nike de Samotrácia",
+            "Winged Victory of Samothrace"
+          ]
+        },
+        {
+          "id": "torta_de_maca",
+          "nome": "Torta de maçã",
+          "descricao": "Torta de frutas cujo recheio principal é maçã, com massa quebradiça embaixo e em cima.",
+          "variantes": [
+            "Apple pie"
+          ]
+        },
+        {
+          "id": "hipotese_gaia",
+          "nome": "Hipótese Gaia",
+          "descricao": "Hipótese segundo a qual os seres vivos e o ambiente da Terra formam um sistema que se autorregula.",
+          "variantes": [
+            "Hipótese de Gaia",
+            "Teoria de Gaia",
+            "Gaia hypothesis"
+          ]
+        },
+        {
+          "id": "pitagoras",
+          "nome": "Pitágoras",
+          "descricao": "Filósofo e matemático grego do século seis a.C., nascido em Samos, fundador da escola pitagórica.",
+          "variantes": [
+            "Pythagoras",
+            "Pitágoras de Samos"
+          ]
+        },
+        {
+          "id": "giorgian_de_arrascaeta",
+          "nome": "Giorgian de Arrascaeta",
+          "descricao": "Meia-atacante uruguaio do Flamengo e da seleção do Uruguai.",
+          "variantes": [
+            "Arrascaeta",
+            "Giorgian Daniel de Arrascaeta Benedetti"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Estátua equestre de Marco Aurélio",
+        "descricao": "Estátua romana de bronze do imperador Marco Aurélio a cavalo, exposta nos Museus Capitolinos, em Roma.",
+        "variantes": [
+          "Equus Marci Aurelii",
+          "Estátua de Marco Aurélio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estatua_equestre_de_d_pedro_i",
+          "nome": "Estátua equestre de D. Pedro I",
+          "descricao": "Monumento de bronze a D. Pedro I a cavalo, na Praça Tiradentes, no centro do Rio de Janeiro, primeira escultura pública do país.",
+          "variantes": [
+            "Monumento a D. Pedro I",
+            "Estátua equestre de Dom Pedro I"
+          ]
+        },
+        {
+          "id": "meditacoes_marco_aurelio",
+          "nome": "Meditações (Marco Aurélio)",
+          "descricao": "Série de anotações pessoais de filosofia estoica escritas pelo imperador Marco Aurélio.",
+          "variantes": [
+            "Meditações",
+            "Meditations",
+            "Ta eis heauton",
+            "Meditações de Marco Aurélio"
+          ]
+        },
+        {
+          "id": "estatua_de_coatlicue",
+          "nome": "Estátua de Coatlicue",
+          "descricao": "Monumental escultura asteca de pedra da deusa mãe Coatlicue, a da saia de serpentes, no Museu Nacional de Antropologia do México.",
+          "variantes": [
+            "Coatlicue",
+            "Coatlicue Mayor"
+          ]
+        },
+        {
+          "id": "estatua_equestre_de_gattamelata",
+          "nome": "Estátua equestre de Gattamelata",
+          "descricao": "Estátua equestre em bronze do condottiere Gattamelata, feita por Donatello em 1453, na Piazza del Santo, em Pádua.",
+          "variantes": [
+            "Gattamelata",
+            "Monumento equestre a Gattamelata"
+          ]
+        },
+        {
+          "id": "marco_aurelio",
+          "nome": "Marco Aurélio",
+          "descricao": "Imperador romano e filósofo estoico (121–180), autor das Meditações.",
+          "variantes": [
+            "Marcus Aurelius"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Taj Mahal",
+        "descricao": "Mausoléu de mármore branco em Agra, na Índia, encomendado em 1631 por Shah Jahan para sua esposa Mumtaz Mahal.",
+        "variantes": [
+          "Taj Mahal de Agra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taj_mahal",
+          "nome": "Taj Mahal",
+          "descricao": "Mausoléu de mármore branco em Agra, na Índia, construído no século dezessete.",
+          "variantes": [
+            "Tadj Mahal"
+          ]
+        },
+        {
+          "id": "tamal",
+          "nome": "Tamal",
+          "descricao": "Prato mesoamericano de massa de milho nixtamalizado, cozido no vapor em palha de milho ou folha de bananeira.",
+          "variantes": [
+            "Tamale",
+            "Tamales"
+          ]
+        },
+        {
+          "id": "moca_iemen",
+          "nome": "Moca (Iêmen)",
+          "descricao": "Cidade portuária no mar Vermelho, no Iêmen, antigo centro de exportação de café que deu nome ao café moca.",
+          "variantes": [
+            "Mocha",
+            "Mokha",
+            "Al-Makha"
+          ]
+        },
+        {
+          "id": "abolicao_da_escravidao_no_ceara",
+          "nome": "Abolição da escravidão no Ceará",
+          "descricao": "Libertação dos escravizados na província do Ceará, decretada em 25 de março de 1884.",
+          "variantes": [
+            "Data Magna do Ceará"
+          ]
+        },
+        {
+          "id": "tampinha_de_garrafa",
+          "nome": "Tampinha de garrafa",
+          "descricao": "Tampa metálica de bordas onduladas para garrafas, a crown cork, patenteada por William Painter em 1892.",
+          "variantes": [
+            "Crown cork",
+            "Tampa coroa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Catedral Metropolitana do Rio de Janeiro",
+        "descricao": "Catedral católica de São Sebastião, de forma cônica, sede da Arquidiocese do Rio de Janeiro.",
+        "variantes": [
+          "Catedral de São Sebastião do Rio de Janeiro",
+          "Catedral de São Sebastião"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_metropolitana_do_rio_de_janeiro",
+          "nome": "Catedral Metropolitana do Rio de Janeiro",
+          "descricao": "Catedral cônica de concreto, sede da Arquidiocese do Rio de Janeiro, dedicada a São Sebastião.",
+          "variantes": [
+            "Catedral de São Sebastião do Rio de Janeiro",
+            "Catedral de São Sebastião"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_basilio",
+          "nome": "Catedral de São Basílio",
+          "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+          "variantes": [
+            "Catedral de São Basílio, o Bem-Aventurado",
+            "Catedral da Intercessão",
+            "Catedral Pokrovsky",
+            "Saint Basil's Cathedral"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro",
+          "nome": "Rio de Janeiro",
+          "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+          "variantes": [
+            "São Sebastião do Rio de Janeiro",
+            "Rio"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Baldaquino de São Pedro",
+        "descricao": "Dossel monumental de bronze de Bernini sobre o altar-mor da Basílica de São Pedro, no Vaticano, feito de 1623 a 1634.",
+        "variantes": [
+          "Baldacchino di San Pietro",
+          "Baldaquino de Bernini",
+          "St. Peter's Baldachin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "basilica_de_sao_pedro",
+          "nome": "Basílica de São Pedro",
+          "descricao": "Basílica renascentista no Vaticano, com grande cúpula, principal templo da Igreja Católica.",
+          "variantes": [
+            "St. Peter's Basilica",
+            "Basílica de São Pedro do Vaticano",
+            "São Pedro do Vaticano"
+          ]
+        },
+        {
+          "id": "praca_de_sao_pedro",
+          "nome": "Praça de São Pedro",
+          "descricao": "Grande praça diante da Basílica de São Pedro, no Vaticano, cercada por uma colunata em semicírculo.",
+          "variantes": [
+            "Piazza San Pietro",
+            "St. Peter's Square"
+          ]
+        },
+        {
+          "id": "bloqueio_de_berlim",
+          "nome": "Bloqueio de Berlim",
+          "descricao": "Bloqueio soviético das vias terrestres para Berlim Ocidental, de junho de 1948 a maio de 1949, uma das primeiras crises da Guerra Fria.",
+          "variantes": [
+            "Berlin Blockade"
+          ]
+        },
+        {
+          "id": "pierre_de_coubertin",
+          "nome": "Pierre de Coubertin",
+          "descricao": "Pedagogo francês, fundador do Comitê Olímpico Internacional e idealizador dos Jogos Olímpicos modernos.",
+          "variantes": [
+            "Barão de Coubertin",
+            "Pierre de Frédy"
+          ]
+        },
+        {
+          "id": "estadio_krestovsky",
+          "nome": "Estádio Krestovsky",
+          "descricao": "Estádio de teto retrátil na ilha Krestovsky, em São Petersburgo, Rússia, casa do Zenit e sede da Copa de 2018.",
+          "variantes": [
+            "Krestovsky Stadium",
+            "Gazprom Arena",
+            "Estádio de São Petersburgo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "estadio_do_maracana",
+      "motivo": "Mesmo estádio do Rio, mesmos nomes alternativos."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "cn_tower",
+      "motivo": "Mesma torre de Toronto, 553 m."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "doriforo",
+      "motivo": "Mesma escultura de Policleto."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "acropole_de_atenas",
+      "motivo": "Mesma colina fortificada de Atenas com o Partenon."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "edificio_chrysler",
+      "motivo": "Mesmo arranha-céu de Manhattan de 1930."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "auriga_de_delfos",
+      "motivo": "Mesma estátua de bronze de cerca de 470 a.C."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "ponte_rio_niteroi",
+      "motivo": "Mesma ponte sobre a Baía de Guanabara, inaugurada em 1974."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "vitoria_de_samotracia",
+      "motivo": "Mesma escultura do Louvre, com as mesmas variantes."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a estátua equestre; Marco Aurélio é a pessoa e Meditações é a obra."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "taj_mahal",
+      "motivo": "Mesmo mausoléu em Agra."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "catedral_metropolitana_do_rio_de_janeiro",
+      "motivo": "Mesma catedral cônica de São Sebastião no Rio."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "O baldaquino é parte da Basílica, não a própria basílica; é uma obra distinta."
+    }
+  ]
+}

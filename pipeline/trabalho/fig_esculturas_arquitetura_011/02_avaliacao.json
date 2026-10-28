@@ -1,0 +1,293 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida e sem texto; o teto branco e o Maracanãzinho ao fundo permitem reconhecer. A pergunta de tipo seria trivial, então passa para o nome do estádio.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que estádio brasileiro é este?",
+      "resposta": "Maracanã",
+      "distratores": [
+        "Mineirão",
+        "Morumbi",
+        "Mané Garrincha"
+      ],
+      "ancora": {
+        "nome": "Maracanã",
+        "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado em 1950 para a Copa do Mundo, oficialmente Estádio Jornalista Mário Filho.",
+        "variantes": [
+          "Estádio do Maracanã",
+          "Estádio Jornalista Mário Filho"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Torre inteira, nítida e icônica. O letreiro pequeno 'Rogers Centre' está no prédio do fundo e não nomeia a torre.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que torre é esta?",
+      "resposta": "Torre CN",
+      "distratores": [
+        "Space Needle",
+        "Sky Tower",
+        "Torre de Tóquio"
+      ],
+      "ancora": {
+        "nome": "Torre CN",
+        "descricao": "Torre de comunicação e observação de 553 metros em Toronto, no Canadá, concluída em 1976.",
+        "variantes": [
+          "CN Tower",
+          "Tour CN"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cópia romana em mármore bem fotografada, de corpo inteiro e sem texto. Reconhecível, e o autor é uma boa pergunta.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que escultor grego criou o original, em bronze, desta estátua?",
+      "resposta": "Policleto",
+      "distratores": [
+        "Fídias",
+        "Míron",
+        "Lisipo"
+      ],
+      "ancora": {
+        "nome": "Doríforo",
+        "descricao": "Escultura grega clássica de Policleto, o 'portador de lança', conhecida por cópias romanas em mármore.",
+        "variantes": [
+          "Doryphoros",
+          "Portador de lança",
+          "Doríforo de Policleto"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista clara da colina com o Partenon e sem texto. A pergunta evita nomear a colina e a cidade.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que estadista do século quinto antes de Cristo impulsionou a construção dos monumentos deste conjunto?",
+      "resposta": "Péricles",
+      "distratores": [
+        "Sólon",
+        "Clístenes",
+        "Temístocles"
+      ],
+      "ancora": {
+        "nome": "Acrópole de Atenas",
+        "descricao": "Cidadela antiga sobre uma colina rochosa em Atenas, na Grécia, onde fica o Partenon.",
+        "variantes": [
+          "Acrópole",
+          "Acropolis of Athens"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Torre nítida, com a coroa característica e sem texto. O estilo é um passo a mais depois de reconhecer.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que estilo arquitetônico caracteriza este arranha-céu?",
+      "resposta": "Art Déco",
+      "distratores": [
+        "Neogótico",
+        "Beaux-Arts",
+        "Art Nouveau"
+      ],
+      "ancora": {
+        "nome": "Chrysler Building",
+        "descricao": "Arranha-céu Art Déco de 319 metros em Manhattan, Nova York, concluído em 1930.",
+        "variantes": [
+          "Edifício Chrysler"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Detalhe nítido do busto, sem texto, e a estátua é reconhecível. A autoria é incerta, então a pergunta é sobre o local.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que santuário grego foi dedicada esta estátua de bronze de um condutor de carro?",
+      "resposta": "Delfos",
+      "distratores": [
+        "Olímpia",
+        "Dodona",
+        "Epidauro"
+      ],
+      "ancora": {
+        "nome": "Auriga de Delfos",
+        "descricao": "Estátua grega de bronze de cerca de 470 a.C., um condutor de carro vitorioso, achada no santuário de Apolo em Delfos.",
+        "variantes": [
+          "Heníoco",
+          "Charioteer of Delphi",
+          "Cocheiro de Delfos"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "A ponte é longa e reconhecível, sem texto. A pergunta sobre a baía vai além do nome, e o tipo de viga seria técnico demais.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que baía esta ponte atravessa?",
+      "resposta": "Baía de Guanabara",
+      "distratores": [
+        "Baía de Todos os Santos",
+        "Baía de Sepetiba",
+        "Baía de Paranaguá"
+      ],
+      "ancora": {
+        "nome": "Ponte Rio-Niterói",
+        "descricao": "Ponte de vigas em caixão de 13 km sobre a Baía de Guanabara, ligando Rio de Janeiro e Niterói, inaugurada em 1974.",
+        "variantes": [
+          "Ponte Presidente Costa e Silva",
+          "Rio–Niterói Bridge"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Estátua com a proa de navio, nítida e sem texto. O autor é desconhecido, então a pergunta é sobre o museu.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que museu fica esta escultura grega?",
+      "resposta": "Louvre",
+      "distratores": [
+        "Museu Britânico",
+        "Museus Vaticanos",
+        "Museu Arqueológico de Atenas"
+      ],
+      "ancora": {
+        "nome": "Vitória de Samotrácia",
+        "descricao": "Escultura helenística de mármore da deusa Nike sobre uma proa de navio, de cerca de 190 a.C., exposta no Louvre.",
+        "variantes": [
+          "Nike de Samotrácia",
+          "Winged Victory of Samothrace"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Estátua equestre nítida, bem iluminada e sem texto visível. Pergunto quem é o retratado, que é o que a imagem permite reconhecer.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que imperador romano é retratado nesta estátua equestre de bronze?",
+      "resposta": "Marco Aurélio",
+      "distratores": [
+        "Augusto",
+        "Trajano",
+        "Constantino"
+      ],
+      "ancora": {
+        "nome": "Estátua equestre de Marco Aurélio",
+        "descricao": "Estátua romana de bronze do imperador Marco Aurélio a cavalo, exposta nos Museus Capitolinos, em Roma.",
+        "variantes": [
+          "Equus Marci Aurelii",
+          "Estátua de Marco Aurélio"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada frontal clássica, nítida e sem texto. A pergunta sobre o mandante vai além do nome e o enunciado não revela a função.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que imperador mogol mandou construir este monumento?",
+      "resposta": "Shah Jahan",
+      "distratores": [
+        "Akbar",
+        "Babur",
+        "Aurangzeb"
+      ],
+      "ancora": {
+        "nome": "Taj Mahal",
+        "descricao": "Mausoléu de mármore branco em Agra, na Índia, encomendado em 1631 por Shah Jahan para sua esposa Mumtaz Mahal.",
+        "variantes": [
+          "Taj Mahal de Agra"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Forma cônica inconfundível, sem texto, com o campanário ao lado. A pessoa ao fundo é pequena e incidental.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que arquiteto projetou esta catedral em forma de cone?",
+      "resposta": "Edgar Fonseca",
+      "distratores": [
+        "Oscar Niemeyer",
+        "Lúcio Costa",
+        "Affonso Eduardo Reidy"
+      ],
+      "ancora": {
+        "nome": "Catedral Metropolitana do Rio de Janeiro",
+        "descricao": "Catedral católica de São Sebastião, de forma cônica, sede da Arquidiocese do Rio de Janeiro.",
+        "variantes": [
+          "Catedral de São Sebastião do Rio de Janeiro",
+          "Catedral de São Sebastião"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Colunas torcidas e dossel de bronze reconhecíveis. As inscrições em latim ao fundo não entregam a resposta. O estilo é um passo a mais.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que estilo artístico caracteriza esta obra de bronze sob a cúpula de uma basílica?",
+      "resposta": "Barroco",
+      "distratores": [
+        "Renascentista",
+        "Rococó",
+        "Neoclássico"
+      ],
+      "ancora": {
+        "nome": "Baldaquino de São Pedro",
+        "descricao": "Dossel monumental de bronze de Bernini sobre o altar-mor da Basílica de São Pedro, no Vaticano, feito de 1623 a 1634.",
+        "variantes": [
+          "Baldacchino di San Pietro",
+          "Baldaquino de Bernini",
+          "St. Peter's Baldachin"
+        ]
+      }
+    }
+  ]
+}

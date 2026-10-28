@@ -1,0 +1,112 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; distratores do mesmo tipo e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento simples, sem pista; distratores são torres críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Original em bronze de Policleto confirmado nos trechos; enunciado não nomeia a obra; distratores são escultores gregos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado dá para responder sem a imagem: 'estadista do século quinto que impulsionou monumentos' entrega Péricles pelo palpite. A figura vira enfeite. Troquei por pergunta de lugar, que exige reconhecer a cidadela.",
+      "reescrita": {
+        "pergunta": "Que cidade grega abriga esta antiga cidadela sobre uma colina rochosa?",
+        "resposta": "Atenas",
+        "distratores": [
+          "Esparta",
+          "Corinto",
+          "Tebas"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Art Déco confirmado nos trechos; o enunciado não entrega a resposta; distratores são estilos erráveis e nenhum descreve o prédio.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Estátua de bronze de um condutor de carro' descreve a obra e, sem a imagem, já identifica o Auriga de Delfos. Removi a pista e usei a época, que ajuda sem entregar. O trecho confirma que a estátua foi encontrada no santuário de Delfos.",
+      "reescrita": {
+        "pergunta": "Em que santuário grego foi encontrada esta estátua de bronze do século quinto antes de Cristo?",
+        "resposta": "Delfos",
+        "distratores": [
+          "Olímpia",
+          "Dodona",
+          "Epidauro"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Baía de Todos os Santos' tem cinco palavras, acima do limite de quatro. Troquei por outra baía fluminense crível. A resposta é confirmada pelos trechos.",
+      "reescrita": {
+        "pergunta": "Que baía esta ponte atravessa?",
+        "resposta": "Baía de Guanabara",
+        "distratores": [
+          "Baía de Sepetiba",
+          "Baía da Ilha Grande",
+          "Baía de Paranaguá"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Louvre confirmado pelos trechos; distratores são museus críveis, com no máximo quatro palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marco Aurélio confirmado nos trechos. Constantino é distrator crível, por causa da confusão histórica, mas não está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Shah Jahan, quinto imperador mogol, confirmado nos trechos; enunciado sem vazamento; distratores são outros imperadores mogóis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Projeto de Edgar de Oliveira da Fonseca e forma cônica confirmados nos trechos; o enunciado não entrega o arquiteto; distratores são arquitetos brasileiros críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos descrevem a obra como barroca; o enunciado não nomeia a obra; distratores são estilos errados.",
+      "reescrita": null
+    }
+  ]
+}
