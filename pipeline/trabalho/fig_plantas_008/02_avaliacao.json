@@ -1,0 +1,270 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Prancha botânica sem texto, com ramo, flor, fruto e sementes de limoeiro; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fruta cítrica aparece nesta ilustração botânica?",
+      "resposta": "Limão",
+      "distratores": [
+        "Laranja",
+        "Toranja",
+        "Tangerina"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Limão",
+        "descricao": "Fruto amarelo e azedo do limoeiro (Citrus × limon), árvore da família das rutáceas.",
+        "variantes": [
+          "Limão-siciliano",
+          "Citrus limon"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fatias e frutos de carambola em prato, bem nítidos e reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Carambola",
+      "distratores": [
+        "Pitanga",
+        "Cambuci",
+        "Pitaia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Carambola",
+        "descricao": "Fruto amarelo da Averrhoa carambola, com cinco gomos que formam uma estrela quando cortado.",
+        "variantes": [
+          "Star fruit",
+          "Averrhoa carambola"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Touceira de cavalinha com caules articulados e estróbilos; reconhecível, em múltipla escolha com distratores distintos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que planta é esta, de caules verdes articulados e sem flores?",
+      "resposta": "Cavalinha",
+      "distratores": [
+        "Samambaia",
+        "Bambu",
+        "Capim-limão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cavalinha",
+        "descricao": "Planta do gênero Equisetum, de caules articulados que se reproduz por esporos.",
+        "variantes": [
+          "Equisetum",
+          "Rabo-de-cavalo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Goiaba inteira e cortada com folhas, clara.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Goiaba",
+      "distratores": [
+        "Araçá",
+        "Pera",
+        "Maçã"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Goiaba",
+        "descricao": "Fruto da goiabeira (Psidium guajava), de casca verde-clara e polpa com muitas sementes.",
+        "variantes": [
+          "Psidium guajava"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Folhas variegadas características da jiboia, nítidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que planta ornamental trepadeira tem estas folhas?",
+      "resposta": "Jiboia",
+      "distratores": [
+        "Filodendro",
+        "Costela-de-adão",
+        "Comigo-ninguém-pode"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jiboia",
+        "descricao": "Trepadeira Epipremnum aureum, da família das aráceas, de folhas verdes manchadas de amarelo, comum como planta de casa.",
+        "variantes": [
+          "Epipremnum aureum",
+          "Pothos"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Campo de cactos colunares com braços, típico do saguaro, com montanhas ao fundo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cacto gigante do deserto de Sonora é este?",
+      "resposta": "Saguaro",
+      "distratores": [
+        "Mandacaru",
+        "Xique-xique",
+        "Cacto-órgão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Saguaro",
+        "descricao": "Cacto colunar gigante (Carnegiea gigantea) do deserto de Sonora, no Arizona e no México.",
+        "variantes": [
+          "Carnegiea gigantea"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Só aparece uma flor de Ipomoea, muito parecida com a de outras glórias-da-manhã; a batata-doce não é reconhecível e a resposta não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vagens peludas abertas com grãos amarelos, típicas da soja.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que planta tem estas vagens com grãos?",
+      "resposta": "Soja",
+      "distratores": [
+        "Feijão",
+        "Ervilha",
+        "Amendoim"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Soja",
+        "descricao": "Leguminosa Glycine max, cultivada pelos grãos ricos em proteína e óleo.",
+        "variantes": [
+          "Glycine max"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Nepenthes com urna e rosetas de folhas visíveis.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que gênero de planta carnívora, com folhas em forma de jarro, é este?",
+      "resposta": "Nepenthes",
+      "distratores": [
+        "Sarracênia",
+        "Dioneia",
+        "Drosera"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nepenthes",
+        "descricao": "Gênero de plantas carnívoras trepadeiras dos trópicos do Velho Mundo, de folhas modificadas em urnas.",
+        "variantes": [
+          "Planta-jarro tropical",
+          "Monkey cup"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Trevo de quatro folhas nítido no centro.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Segundo a tradição, o que esta folha rara traz a quem a encontra?",
+      "resposta": "Boa sorte",
+      "distratores": [
+        "Longa vida",
+        "Chuva",
+        "Fertilidade"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Trevo-de-quatro-folhas",
+        "descricao": "Mutação rara do trevo com quatro folíolos em vez de três, tida como amuleto de sorte.",
+        "variantes": [
+          "Trevo de quatro folhas",
+          "Four-leaf clover"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Folha lobada de Acer bem nítida.",
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que árvore é esta folha?",
+      "resposta": "Bordo",
+      "distratores": [
+        "Plátano",
+        "Videira",
+        "Álamo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bordo",
+        "descricao": "Árvore do gênero Acer, de folhas palmadas e frutos alados, de cuja seiva se faz xarope.",
+        "variantes": [
+          "Acer",
+          "Maple"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Avenca bem visível no centro, com folíolos em leque.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que samambaia de folíolos delicados em leque é esta?",
+      "resposta": "Avenca",
+      "distratores": [
+        "Xaxim",
+        "Polipódio",
+        "Samambaia-americana"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Avenca",
+        "descricao": "Samambaia do gênero Adiantum, de folhas delicadas que repelem a água.",
+        "variantes": [
+          "Adiantum",
+          "Maidenhair fern"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fruta é esta?",
+        "resposta": "Carambola"
+      },
+      "existentes": [
+        {
+          "id": "q14647",
+          "pergunta": "Que fruta é esta?",
+          "resposta": "Carambola"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que planta é esta?",
+        "resposta": "Cavalinha"
+      },
+      "existentes": [
+        {
+          "id": "q15671",
+          "pergunta": "Que planta é esta?",
+          "resposta": "Cavalinha"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que cacto colunar gigante é este?",
+        "resposta": "Saguaro"
+      },
+      "existentes": [
+        {
+          "id": "q04808",
+          "pergunta": "O saguaro, cacto gigante de braços erguidos que virou símbolo dos filmes de faroeste, é nativo de que deserto norte-americano?",
+          "resposta": "Deserto de Sonora"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e resposta (identificar a carambola pela imagem).",
+      "id_existente": "q14647"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e resposta (identificar a cavalinha pela imagem).",
+      "id_existente": "q15671"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome do cacto (saguaro); a existente pergunta o deserto onde ele é nativo, fato diferente."
+    }
+  ]
+}

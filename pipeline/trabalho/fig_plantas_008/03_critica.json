@@ -1,0 +1,129 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Ilustração botânica' não consta de 'mostra' e pode ser falso para esta imagem. Basta perguntar pela fruta cítrica.",
+      "reescrita": {
+        "pergunta": "Que fruta cítrica é esta?",
+        "resposta": "Limão",
+        "distratores": [
+          "Laranja",
+          "Toranja",
+          "Tangerina"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. Distratores são frutas críveis e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Caules articulados e sem flores' é quase uma definição da cavalinha, então a figura vira enfeite. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Que planta é esta?",
+        "resposta": "Cavalinha",
+        "distratores": [
+          "Samambaia",
+          "Bambu",
+          "Capim-limão"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples, resposta única. Distratores são frutas críveis e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista (ornamental, trepadeira) não entrega a resposta. Filodendro e os outros distratores são plantas de casa parecidas e não estão corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cacto gigante do deserto de Sonora' permite responder sem a figura. Tirei o deserto e deixei só o aspecto.",
+      "reescrita": {
+        "pergunta": "Que cacto colunar gigante é este?",
+        "resposta": "Saguaro",
+        "distratores": [
+          "Mandacaru",
+          "Xique-xique",
+          "Cacto-órgão"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A figura é necessária para distinguir as vagens de soja das de feijão, ervilha ou amendoim. Resposta única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Folhas em forma de jarro' também descreve a Sarracênia, que é distrator e estaria correto. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Que gênero de planta carnívora é este?",
+        "resposta": "Nepenthes",
+        "distratores": [
+          "Sarracênia",
+          "Dioneia",
+          "Drosera"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Dá para responder 'boa sorte' só com o enunciado ('folha rara', 'segundo a tradição'). A figura é enfeite e não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Plátano' é distrator problemático: o plátano-bastardo é um bordo e as folhas são parecidas. 'Videira' não é árvore. Troquei os distratores.",
+      "reescrita": {
+        "pergunta": "De que árvore é esta folha?",
+        "resposta": "Bordo",
+        "distratores": [
+          "Carvalho",
+          "Álamo",
+          "Castanheiro"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Folíolos delicados em leque' é quase uma definição da avenca e entrega a resposta. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Que samambaia é esta?",
+        "resposta": "Avenca",
+        "distratores": [
+          "Xaxim",
+          "Polipódio",
+          "Samambaia-americana"
+        ]
+      }
+    }
+  ]
+}

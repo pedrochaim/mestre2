@@ -1,0 +1,628 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Limão",
+        "descricao": "Fruto amarelo e azedo do limoeiro (Citrus × limon), árvore da família das rutáceas.",
+        "variantes": [
+          "Limão-siciliano",
+          "Citrus limon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "limao",
+          "nome": "Limão",
+          "descricao": "Fruto cítrico verde e ácido, aqui o limão taiti (Citrus × latifolia), usado como tempero e em bebidas.",
+          "variantes": [
+            "Limão-taiti",
+            "Lima ácida",
+            "Lime"
+          ]
+        },
+        {
+          "id": "lima",
+          "nome": "Lima",
+          "descricao": "Capital e maior cidade do Peru, fundada em 1535.",
+          "variantes": [
+            "Cidade dos Reis",
+            "Ciudad de los Reyes"
+          ]
+        },
+        {
+          "id": "corinthians",
+          "nome": "Corinthians",
+          "descricao": "Sport Club Corinthians Paulista, clube de futebol de São Paulo fundado em 1910.",
+          "variantes": [
+            "Sport Club Corinthians Paulista",
+            "Timão",
+            "SC Corinthians"
+          ]
+        },
+        {
+          "id": "clima",
+          "nome": "Clima",
+          "descricao": "Conjunto das condições atmosféricas típicas de uma região ao longo de muitos anos",
+          "variantes": [
+            "Climate"
+          ]
+        },
+        {
+          "id": "timao",
+          "nome": "Timão",
+          "descricao": "Personagem tagarela de O Rei Leão, da Disney, inseparável amigo do javali Pumba.",
+          "variantes": [
+            "Timon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Carambola",
+        "descricao": "Fruto amarelo da Averrhoa carambola, com cinco gomos que formam uma estrela quando cortado.",
+        "variantes": [
+          "Star fruit",
+          "Averrhoa carambola"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carambola",
+          "nome": "Carambola",
+          "descricao": "Fruto amarelo da caramboleira (Averrhoa carambola), cujo corte transversal tem forma de estrela.",
+          "variantes": [
+            "Star fruit",
+            "Averrhoa carambola"
+          ]
+        },
+        {
+          "id": "cardamomo",
+          "nome": "Cardamomo",
+          "descricao": "Especiaria feita das sementes de plantas dos gêneros Elettaria e Amomum, da família do gengibre.",
+          "variantes": [
+            "Cardamomo-verde",
+            "Cardamona"
+          ]
+        },
+        {
+          "id": "carimbo",
+          "nome": "Carimbó",
+          "descricao": "Ritmo e dança de roda de origem indígena e africana típicos do Pará.",
+          "variantes": []
+        },
+        {
+          "id": "cartola",
+          "nome": "Cartola",
+          "descricao": "Angenor de Oliveira, sambista carioca, fundador da Estação Primeira de Mangueira.",
+          "variantes": [
+            "Angenor de Oliveira"
+          ]
+        },
+        {
+          "id": "cartola_2",
+          "nome": "Cartola",
+          "descricao": "Chapéu alto de copa reta e aba curta, tradicionalmente preto, usado com trajes formais ocidentais.",
+          "variantes": [
+            "Cartola (chapéu)",
+            "Top hat",
+            "Chapéu alto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cavalinha",
+        "descricao": "Planta do gênero Equisetum, de caules articulados que se reproduz por esporos.",
+        "variantes": [
+          "Equisetum",
+          "Rabo-de-cavalo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cavalinha",
+          "nome": "Cavalinha",
+          "descricao": "Planta do gênero Equisetum, de caules verdes articulados, que se reproduz por esporos.",
+          "variantes": [
+            "Equisetum",
+            "Rabo-de-cavalo",
+            "Horsetail"
+          ]
+        },
+        {
+          "id": "carvanha",
+          "nome": "Carvanha",
+          "descricao": "Pokémon dos tipos Água e Sombrio, número 318 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "avalanche",
+          "nome": "Avalanche",
+          "descricao": "Fluxo rápido de neve encosta abaixo em montanhas.",
+          "variantes": [
+            "Avalancha"
+          ]
+        },
+        {
+          "id": "aracy_de_carvalho",
+          "nome": "Aracy de Carvalho",
+          "descricao": "Funcionária do consulado brasileiro em Hamburgo que ajudou judeus a fugir do nazismo, reconhecida como Justa entre as Nações.",
+          "variantes": [
+            "Aracy de Carvalho Guimarães Rosa",
+            "Anjo de Hamburgo"
+          ]
+        },
+        {
+          "id": "requiem",
+          "nome": "Réquiem",
+          "descricao": "Missa católica pelos mortos, cujo texto latino começa com as palavras Requiem aeternam, musicada por muitos compositores.",
+          "variantes": [
+            "Missa de réquiem",
+            "Missa pro defunctis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Goiaba",
+        "descricao": "Fruto da goiabeira (Psidium guajava), de casca verde-clara e polpa com muitas sementes.",
+        "variantes": [
+          "Psidium guajava"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "giba",
+          "nome": "Giba",
+          "descricao": "Ex-ponteiro brasileiro de vôlei, campeão olímpico em 2004 e capitão da seleção.",
+          "variantes": [
+            "Gilberto Amauri de Godoy Filho"
+          ]
+        },
+        {
+          "id": "goiania",
+          "nome": "Goiânia",
+          "descricao": "Capital do estado de Goiás, cidade planejada que substituiu a Cidade de Goiás como sede do governo.",
+          "variantes": []
+        },
+        {
+          "id": "gamba",
+          "nome": "Gambá",
+          "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+          "variantes": [
+            "Didelphis",
+            "Saruê",
+            "Opossum",
+            "Timbu"
+          ]
+        },
+        {
+          "id": "goias",
+          "nome": "Goiás",
+          "descricao": "Estado brasileiro da região Centro-Oeste que cerca o Distrito Federal, com capital em Goiânia.",
+          "variantes": [
+            "Estado de Goiás"
+          ]
+        },
+        {
+          "id": "gibao_de_couro",
+          "nome": "Gibão de couro",
+          "descricao": "Casaco de couro do vaqueiro nordestino, usado com chapéu e perneiras do mesmo material",
+          "variantes": [
+            "Roupa de couro do vaqueiro",
+            "Gibão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Jiboia",
+        "descricao": "Trepadeira Epipremnum aureum, da família das aráceas, de folhas verdes manchadas de amarelo, comum como planta de casa.",
+        "variantes": [
+          "Epipremnum aureum",
+          "Pothos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jiboia",
+          "nome": "Jiboia",
+          "descricao": "Serpente constritora não venenosa da América tropical, Boa constrictor.",
+          "variantes": [
+            "Jiboia-constritora",
+            "Boa constrictor"
+          ]
+        },
+        {
+          "id": "cerro_rico_de_potosi",
+          "nome": "Cerro Rico de Potosí",
+          "descricao": "Montanha rica em prata nos Andes, explorada pelos espanhóis a partir de 1545, que enriqueceu o Império Espanhol.",
+          "variantes": [
+            "Cerro Rico",
+            "Potosí"
+          ]
+        },
+        {
+          "id": "porto",
+          "nome": "Porto",
+          "descricao": "Segunda maior cidade de Portugal, na foz do rio Douro.",
+          "variantes": []
+        },
+        {
+          "id": "boina",
+          "nome": "Boina",
+          "descricao": "Chapéu macio, redondo e de copa plana, em lã ou feltro, associado ao País Basco e à França.",
+          "variantes": [
+            "Beret",
+            "Béret",
+            "Txapela"
+          ]
+        },
+        {
+          "id": "vinho_do_porto",
+          "nome": "Vinho do Porto",
+          "descricao": "Vinho licoroso português produzido no vale do Douro e envelhecido em Vila Nova de Gaia.",
+          "variantes": [
+            "Porto",
+            "Port wine"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Saguaro",
+        "descricao": "Cacto colunar gigante (Carnegiea gigantea) do deserto de Sonora, no Arizona e no México.",
+        "variantes": [
+          "Carnegiea gigantea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "saguaro",
+          "nome": "Saguaro",
+          "descricao": "Cacto colunar gigante, Carnegiea gigantea, de braços erguidos, típico do sudoeste dos Estados Unidos e do noroeste do México.",
+          "variantes": [
+            "Carnegiea gigantea"
+          ]
+        },
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        },
+        {
+          "id": "caranguejo_ermitao",
+          "nome": "Caranguejo-ermitão",
+          "descricao": "Crustáceo decápode que protege o abdome mole numa concha vazia de caracol.",
+          "variantes": [
+            "Paguro",
+            "Hermit crab"
+          ]
+        },
+        {
+          "id": "megaterio",
+          "nome": "Megatério",
+          "descricao": "Gênero extinto de preguiça-terrestre gigante que viveu na América do Sul até o fim do Pleistoceno.",
+          "variantes": [
+            "Megatherium",
+            "Preguiça-gigante"
+          ]
+        },
+        {
+          "id": "arau_gigante",
+          "nome": "Arau-gigante",
+          "descricao": "Ave marinha não voadora do Atlântico Norte (Pinguinus impennis), extinta em 1844.",
+          "variantes": [
+            "Pinguinus impennis",
+            "Great auk",
+            "Grande arau"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Soja",
+        "descricao": "Leguminosa Glycine max, cultivada pelos grãos ricos em proteína e óleo.",
+        "variantes": [
+          "Glycine max"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "agua_com_gas",
+          "nome": "Água com gás",
+          "descricao": "Água em que se dissolveu gás carbônico sob pressão, base dos refrigerantes.",
+          "variantes": [
+            "Água gaseificada",
+            "Soda",
+            "Carbonated water",
+            "Água carbonatada"
+          ]
+        },
+        {
+          "id": "holocausto",
+          "nome": "Holocausto",
+          "descricao": "Genocídio de cerca de seis milhões de judeus europeus promovido pela Alemanha nazista e seus colaboradores.",
+          "variantes": [
+            "Shoá",
+            "Shoah"
+          ]
+        },
+        {
+          "id": "esponja_do_mar",
+          "nome": "Esponja-do-mar",
+          "descricao": "Animal marinho filtrador do filo Porifera, aqui uma esponja-barril gigante num recife.",
+          "variantes": [
+            "Esponja",
+            "Porífero",
+            "Porifera"
+          ]
+        },
+        {
+          "id": "samoa",
+          "nome": "Samoa",
+          "descricao": "País insular da Polinésia, no Pacífico Sul, cuja capital é Apia.",
+          "variantes": [
+            "Estado Independente de Samoa",
+            "Samoa Ocidental"
+          ]
+        },
+        {
+          "id": "festa_junina",
+          "nome": "Festa junina",
+          "descricao": "Conjunto de festas populares de junho no Brasil em homenagem a Santo Antônio, São João e São Pedro.",
+          "variantes": [
+            "Festas juninas",
+            "São João",
+            "Festa joanina",
+            "Festa de São João"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Nepenthes",
+        "descricao": "Gênero de plantas carnívoras trepadeiras dos trópicos do Velho Mundo, de folhas modificadas em urnas.",
+        "variantes": [
+          "Planta-jarro tropical",
+          "Monkey cup"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "planta_jarro",
+          "nome": "Planta-jarro",
+          "descricao": "Planta carnívora tropical do gênero Nepenthes, com folhas modificadas em urnas que capturam insetos.",
+          "variantes": [
+            "Nepenthes",
+            "Planta-jarro tropical"
+          ]
+        },
+        {
+          "id": "serpentes",
+          "nome": "Serpentes",
+          "descricao": "Subordem de répteis escamados sem patas (Serpentes), que inclui todas as cobras.",
+          "variantes": [
+            "Cobras",
+            "Ofídios",
+            "Snakes"
+          ]
+        },
+        {
+          "id": "sarracenia",
+          "nome": "Sarracênia",
+          "descricao": "Gênero Sarracenia de plantas carnívoras norte-americanas de folhas em forma de jarro.",
+          "variantes": [
+            "Planta-jarro"
+          ]
+        },
+        {
+          "id": "pente",
+          "nome": "Pente",
+          "descricao": "Objeto com uma fileira de dentes usado para desembaraçar, limpar ou pentear o cabelo.",
+          "variantes": [
+            "Comb"
+          ]
+        },
+        {
+          "id": "copa_stanley",
+          "nome": "Copa Stanley",
+          "descricao": "Troféu da liga norte-americana de hóquei no gelo, a NHL.",
+          "variantes": [
+            "Stanley Cup"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Bordo",
+        "descricao": "Árvore do gênero Acer, de folhas palmadas e frutos alados, de cuja seiva se faz xarope.",
+        "variantes": [
+          "Acer",
+          "Maple"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "as_carta_de_baralho",
+          "nome": "Ás (carta de baralho)",
+          "descricao": "Carta de baralho com um único símbolo de naipe, aqui os quatro ases do baralho francês.",
+          "variantes": [
+            "Ás",
+            "Ace"
+          ]
+        },
+        {
+          "id": "portgas_d_ace",
+          "nome": "Portgas D. Ace",
+          "descricao": "Pirata de One Piece, irmão adotivo de Luffy, comandante da 2ª divisão dos Piratas de Barba Branca e usuário da Fruta Mera Mera.",
+          "variantes": [
+            "Ace",
+            "Punho de Fogo",
+            "Fire Fist Ace"
+          ]
+        },
+        {
+          "id": "cancer",
+          "nome": "Câncer",
+          "descricao": "Grupo de doenças marcadas pelo crescimento descontrolado de células.",
+          "variantes": [
+            "Cancro",
+            "Neoplasia maligna"
+          ]
+        },
+        {
+          "id": "maca",
+          "nome": "Maçã",
+          "descricao": "Fruto da macieira (Malus domestica), cultivado no mundo todo.",
+          "variantes": [
+            "Apple"
+          ]
+        },
+        {
+          "id": "apple",
+          "nome": "Apple",
+          "descricao": "Empresa americana de tecnologia fundada em 1976, fabricante do Macintosh e do iPhone.",
+          "variantes": [
+            "Apple Inc.",
+            "Apple Computer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Avenca",
+        "descricao": "Samambaia do gênero Adiantum, de folhas delicadas que repelem a água.",
+        "variantes": [
+          "Adiantum",
+          "Maidenhair fern"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "avicena",
+          "nome": "Avicena",
+          "descricao": "Filósofo e médico persa (c. 980–1037), autor do Cânone da Medicina, nascido perto de Bucara.",
+          "variantes": [
+            "Ibn Sina",
+            "Avicenna"
+          ]
+        },
+        {
+          "id": "avental",
+          "nome": "Avental",
+          "descricao": "Peça que cobre a frente do corpo sobre a roupa; aqui, um avental tradicional bordado em ponto cruz.",
+          "variantes": [
+            "Apron"
+          ]
+        },
+        {
+          "id": "avela",
+          "nome": "Avelã",
+          "descricao": "Fruto da aveleira (Corylus avellana), fruto seco usado em doces e pastas de chocolate.",
+          "variantes": [
+            "Avelã comum",
+            "Hazelnut"
+          ]
+        },
+        {
+          "id": "arven",
+          "nome": "Arven",
+          "descricao": "Aluno da academia de Paldea em Pokémon Scarlet e Violet, cozinheiro e filho do professor da região.",
+          "variantes": [
+            "Pepper"
+          ]
+        },
+        {
+          "id": "atena",
+          "nome": "Atena",
+          "descricao": "Deusa grega da sabedoria, da estratégia na guerra e dos ofícios, padroeira de Atenas.",
+          "variantes": [
+            "Palas Atena",
+            "Minerva",
+            "Athena"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Limão-siciliano (Citrus × limon) é diferente do limão taiti da candidata; espécies distintas."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "carambola",
+      "motivo": "Mesmo fruto, Averrhoa carambola."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "cavalinha",
+      "motivo": "Mesma planta, gênero Equisetum."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a goiaba (fruta)."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Planta trepadeira, não a serpente Boa constrictor."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "saguaro",
+      "motivo": "Mesmo cacto Carnegiea gigantea."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a soja."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nepenthes é um gênero específico; 'Planta-jarro' é um nome popular que abrange também Sarracenia, então não é exatamente a mesma entidade; na dúvida, nova."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a árvore bordo."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a avenca."
+    }
+  ]
+}
