@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que acessório do vestuário masculino é este?",
+        "resposta": "Gravata"
+      },
+      "existentes": [
+        {
+          "id": "q00874",
+          "pergunta": "A palavra gravata vem do francês e lembra os lenços de pescoço usados, no século dezessete, por mercenários de qual povo?",
+          "resposta": "Croatas"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que país é esta forma tradicional de ópera?",
+        "resposta": "China"
+      },
+      "existentes": [
+        {
+          "id": "q07828",
+          "pergunta": "Na ópera de Pequim, a cor da maquiagem revela o caráter do personagem. O que costuma indicar um rosto pintado de branco?",
+          "resposta": "Um vilão traiçoeiro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome do acessório (gravata) a partir de imagem; a existente pergunta a origem do termo (croatas). Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta o país da ópera de Pequim; a existente pergunta o significado da cor branca na maquiagem. Fatos diferentes."
+    }
+  ]
+}

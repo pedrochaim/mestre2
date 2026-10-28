@@ -1,0 +1,215 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Chinelo de dedo nítido, sem texto nem pessoas; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que calçado é este?",
+      "resposta": "Chinelo de dedo",
+      "distratores": [
+        "Alpargata",
+        "Tamanco",
+        "Sapatilha"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Chinelo de dedo",
+        "descricao": "Calçado leve e aberto, preso ao pé por uma tira em Y que passa entre o primeiro e o segundo dedos.",
+        "variantes": [
+          "Havaiana",
+          "Flip-flop",
+          "Chinelo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto em preto e branco de uma modelo comum em primeiro plano; a pessoa domina a imagem e o adorno fica pouco claro."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Pintura de Goya em domínio público, com arena, touro e cavalo; cena inequívoca de tourada.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que espetáculo tradicional esta pintura retrata?",
+      "resposta": "Tourada",
+      "distratores": [
+        "Rodeio",
+        "Corrida de cavalos",
+        "Luta de gladiadores"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tourada",
+        "descricao": "Espetáculo em que um toureiro enfrenta um touro numa arena, tradicional na Espanha, em Portugal e em outros países.",
+        "variantes": [
+          "Corrida de touros",
+          "Tauromaquia"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Aparecem pessoas comuns em primeiro plano, de costas, e o ponto de vista dificulta reconhecer a peça como uma camisa."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto histórica colorida à mão de um homem com o penteado bem visível. A legenda SAMURAI no canto não entrega 'chonmage'; pode ser recortada.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que penteado tradicional japonês é este?",
+      "resposta": "Chonmage",
+      "distratores": [
+        "Trança manchu",
+        "Moicano",
+        "Shimada"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Chonmage",
+        "descricao": "Penteado masculino tradicional japonês, com o alto da cabeça raspado e o cabelo preso num pequeno coque dobrado, associado aos samurais e hoje aos lutadores de sumô.",
+        "variantes": [
+          "Chonmague",
+          "Topknot japonês"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Gravata prateada em terno, foto limpa, sem texto nem pessoas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que peça do vestuário formal, usada no pescoço, é esta?",
+      "resposta": "Gravata",
+      "distratores": [
+        "Gravata-borboleta",
+        "Echarpe",
+        "Cachecol"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Gravata",
+        "descricao": "Peça de vestuário formal, em tecido, atada ao pescoço sob o colarinho e caída sobre o peito.",
+        "variantes": [
+          "Necktie"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Mulheres comuns de costas em primeiro plano, e o local não é identificável; a foto também não deixa a resposta única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Meias de Natal penduradas na lareira; os nomes bordados não entregam a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Segundo a tradição, quem enche de presentes estes objetos pendurados na lareira?",
+      "resposta": "Papai Noel",
+      "distratores": [
+        "Coelho da Páscoa",
+        "Fada do Dente",
+        "São Valentim"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Meia de Natal",
+        "descricao": "Meia ou bolsa em forma de meia, pendurada na lareira na véspera de Natal para receber pequenos presentes.",
+        "variantes": [
+          "Christmas stocking",
+          "Meia natalina"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Espetáculo no palco com figurinos característicos; só artistas em cena em primeiro plano, e a plateia aparece pequena e de costas.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta forma tradicional de ópera?",
+      "resposta": "China",
+      "distratores": [
+        "Japão",
+        "Coreia do Sul",
+        "Vietnã"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ópera de Pequim",
+        "descricao": "Principal forma de ópera chinesa, que combina música, canto, mímica, artes marciais, dança e acrobacia.",
+        "variantes": [
+          "Jingju",
+          "Ópera de Beijing"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Dois cavaleiros de traje charro numa charreada pública, nítidos. A bandeira do México não entrega o nome do traje.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cavaleiro tradicional é este?",
+      "resposta": "Charro",
+      "distratores": [
+        "Gaúcho",
+        "Vaqueiro",
+        "Huaso"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Charro",
+        "descricao": "Cavaleiro tradicional mexicano que pratica a charreada, com traje próprio de montaria e sombrero de abas largas.",
+        "variantes": [
+          "Charro mexicano"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Várias pessoas comuns em primeiro plano, fantasiadas de personagens de obras diferentes (Zelda, Inuyasha, Vampire Knight), e a resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Prova de arremesso de peso sobre a barra, em evento público, com atleta de kilt. A marca na camisa não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tradicional competição de força, com provas como esta, é esta?",
+      "resposta": "Highland Games",
+      "distratores": [
+        "Jogos Gaélicos",
+        "Jogos Celtas",
+        "Festival Eisteddfod"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Highland Games",
+        "descricao": "Competição escocesa de força, com provas como o arremesso de peso sobre a barra e o lançamento do tronco, além de gaita de foles e dança.",
+        "variantes": [
+          "Jogos das Terras Altas",
+          "Highland Gathering"
+        ]
+      }
+    }
+  ]
+}

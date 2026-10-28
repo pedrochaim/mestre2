@@ -1,0 +1,511 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Chinelo de dedo",
+        "descricao": "Calçado leve e aberto, preso ao pé por uma tira em Y que passa entre o primeiro e o segundo dedos.",
+        "variantes": [
+          "Havaiana",
+          "Flip-flop",
+          "Chinelo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "havaianas",
+          "nome": "Havaianas",
+          "descricao": "Marca brasileira de sandálias de borracha lançada em 1962 pela Alpargatas.",
+          "variantes": [
+            "Sandálias Havaianas"
+          ]
+        },
+        {
+          "id": "polichinelo",
+          "nome": "Polichinelo",
+          "descricao": "Personagem clássico da commedia dell'arte, de origem napolitana, com meia-máscara negra, traje branco e chapéu cônico.",
+          "variantes": [
+            "Pulcinella",
+            "Polichinelle"
+          ]
+        },
+        {
+          "id": "arquipelago_do_havai",
+          "nome": "Arquipélago do Havaí",
+          "descricao": "Cadeia de ilhas vulcânicas no centro do oceano Pacífico, que forma um estado dos Estados Unidos.",
+          "variantes": [
+            "Havaí",
+            "Hawaii",
+            "Ilhas Havaianas"
+          ]
+        },
+        {
+          "id": "ramayana",
+          "nome": "Ramayana",
+          "descricao": "Poema épico da Índia antiga, em sânscrito, sobre o príncipe Rama e o resgate de sua esposa Sita.",
+          "variantes": [
+            "Ramaiana"
+          ]
+        },
+        {
+          "id": "pantufa",
+          "nome": "Pantufa",
+          "descricao": "Calçado leve e fechado na frente, feito para usar dentro de casa.",
+          "variantes": [
+            "Chinelo de quarto",
+            "Chinelo de casa",
+            "Slipper"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tourada",
+        "descricao": "Espetáculo em que um toureiro enfrenta um touro numa arena, tradicional na Espanha, em Portugal e em outros países.",
+        "variantes": [
+          "Corrida de touros",
+          "Tauromaquia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "motovelocidade",
+          "nome": "Motovelocidade",
+          "descricao": "Modalidade de corrida de motocicletas em circuitos de asfalto.",
+          "variantes": [
+            "Motociclismo de velocidade",
+            "Corrida de motos",
+            "MotoGP"
+          ]
+        },
+        {
+          "id": "turquia",
+          "nome": "Turquia",
+          "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+          "variantes": [
+            "Türkiye",
+            "República da Turquia",
+            "Turkey"
+          ]
+        },
+        {
+          "id": "corrida_de_cavalos",
+          "nome": "Corrida de cavalos",
+          "descricao": "Esporte em que cavalos montados por jóqueis disputam quem é o mais rápido numa distância determinada.",
+          "variantes": [
+            "Turfe",
+            "Hipismo de corrida"
+          ]
+        },
+        {
+          "id": "leatherface",
+          "nome": "Leatherface",
+          "descricao": "Assassino mascarado com uma motosserra, vilão do filme de terror O Massacre da Serra Elétrica, de 1974.",
+          "variantes": [
+            "Cara de Couro"
+          ]
+        },
+        {
+          "id": "tora",
+          "nome": "Torá",
+          "descricao": "Conjunto dos cinco primeiros livros da Bíblia hebraica, base da lei judaica",
+          "variantes": [
+            "Torah"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Chonmage",
+        "descricao": "Penteado masculino tradicional japonês, com o alto da cabeça raspado e o cabelo preso num pequeno coque dobrado, associado aos samurais e hoje aos lutadores de sumô.",
+        "variantes": [
+          "Chonmague",
+          "Topknot japonês"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "clone",
+          "nome": "Clone",
+          "descricao": "Organismo ou célula geneticamente idêntico a outro, obtido por reprodução assexuada ou por clonagem.",
+          "variantes": [
+            "Clonagem",
+            "Cloning"
+          ]
+        },
+        {
+          "id": "champanhe",
+          "nome": "Champanhe",
+          "descricao": "Vinho espumante produzido na região de Champagne, na França",
+          "variantes": [
+            "Champagne",
+            "Champanha"
+          ]
+        },
+        {
+          "id": "rio_mekong",
+          "nome": "Rio Mekong",
+          "descricao": "Grande rio do Sudeste Asiático que nasce no planalto do Tibete e deságua no mar da China Meridional.",
+          "variantes": [
+            "Mekong",
+            "Mecongue"
+          ]
+        },
+        {
+          "id": "aconcagua",
+          "nome": "Aconcágua",
+          "descricao": "Montanha dos Andes na província argentina de Mendoza, o ponto mais alto das Américas.",
+          "variantes": [
+            "Cerro Aconcagua"
+          ]
+        },
+        {
+          "id": "manguezal",
+          "nome": "Manguezal",
+          "descricao": "Ecossistema costeiro de árvores adaptadas à água salobra, na foz de rios em regiões tropicais",
+          "variantes": [
+            "Mangue",
+            "Mangrove"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Gravata",
+        "descricao": "Peça de vestuário formal, em tecido, atada ao pescoço sob o colarinho e caída sobre o peito.",
+        "variantes": [
+          "Necktie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gravata",
+          "nome": "Gravata",
+          "descricao": "Peça de tecido usada amarrada ao pescoço, sob o colarinho da camisa.",
+          "variantes": [
+            "Necktie",
+            "Cravate",
+            "Cravat"
+          ]
+        },
+        {
+          "id": "bromelia",
+          "nome": "Bromélia",
+          "descricao": "Planta da família Bromeliaceae, muitas vezes epífita, cujas folhas em roseta acumulam água.",
+          "variantes": [
+            "Bromeliaceae",
+            "Gravatá"
+          ]
+        },
+        {
+          "id": "avatar",
+          "nome": "Avatar",
+          "descricao": "No hinduísmo, a encarnação ou manifestação de uma divindade na Terra",
+          "variantes": [
+            "Avatara"
+          ]
+        },
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        },
+        {
+          "id": "grafite",
+          "nome": "Grafite",
+          "descricao": "Mineral formado por carbono em camadas, macio e escuro, usado na ponta dos lápis.",
+          "variantes": [
+            "Grafita",
+            "Graphite"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Meia de Natal",
+        "descricao": "Meia ou bolsa em forma de meia, pendurada na lareira na véspera de Natal para receber pequenos presentes.",
+        "variantes": [
+          "Christmas stocking",
+          "Meia natalina"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mercado_de_natal",
+          "nome": "Mercado de Natal",
+          "descricao": "Feira de rua típica do Advento, nascida na Europa de língua alemã, com barracas de artesanato, doces e enfeites.",
+          "variantes": [
+            "Christmas market",
+            "Christkindlmarkt"
+          ]
+        },
+        {
+          "id": "meia_de_nailon",
+          "nome": "Meia de náilon",
+          "descricao": "Meia feminina fina feita de náilon, lançada pela DuPont nos Estados Unidos",
+          "variantes": [
+            "Meias de nylon",
+            "Nylons"
+          ]
+        },
+        {
+          "id": "tregua_de_natal",
+          "nome": "Trégua de Natal",
+          "descricao": "Série de cessar-fogos informais entre soldados britânicos e alemães na Frente Ocidental no Natal de 1914.",
+          "variantes": [
+            "Christmas truce",
+            "Trégua de Natal de 1914"
+          ]
+        },
+        {
+          "id": "peru_assado",
+          "nome": "Peru assado",
+          "descricao": "Peru inteiro assado no forno, prato tradicional de festas nos Estados Unidos e no Brasil.",
+          "variantes": [
+            "Peru de Natal"
+          ]
+        },
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea",
+            "Lago de Aral"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Ópera de Pequim",
+        "descricao": "Principal forma de ópera chinesa, que combina música, canto, mímica, artes marciais, dança e acrobacia.",
+        "variantes": [
+          "Jingju",
+          "Ópera de Beijing"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "opera_de_pequim",
+          "nome": "Ópera de Pequim",
+          "descricao": "Forma tradicional de teatro musical chinês, que combina canto, mímica, acrobacia e maquiagem facial simbólica.",
+          "variantes": [
+            "Peking opera",
+            "Jingju",
+            "Ópera de Beijing"
+          ]
+        },
+        {
+          "id": "homem_de_pequim",
+          "nome": "Homem de Pequim",
+          "descricao": "Fósseis de Homo erectus encontrados em Zhoukoudian, perto de Pequim, na China, nas décadas de 1920 e 1930.",
+          "variantes": [
+            "Peking Man",
+            "Sinanthropus pekinensis",
+            "Homo erectus pekinensis"
+          ]
+        },
+        {
+          "id": "opera_garnier",
+          "nome": "Ópera Garnier",
+          "descricao": "Teatro de ópera de Paris, projetado por Charles Garnier e inaugurado em 1875.",
+          "variantes": [
+            "Palais Garnier",
+            "Ópera de Paris"
+          ]
+        },
+        {
+          "id": "pato_de_pequim",
+          "nome": "Pato de Pequim",
+          "descricao": "Prato chinês de pato laqueado e assado, de pele crocante, servido com panquecas finas.",
+          "variantes": [
+            "Pato laqueado de Pequim",
+            "Peking duck"
+          ]
+        },
+        {
+          "id": "opera_de_viena",
+          "nome": "Ópera de Viena",
+          "descricao": "Casa de ópera inaugurada em 1869 na Ringstrasse de Viena, na Áustria.",
+          "variantes": [
+            "Ópera Estatal de Viena",
+            "Wiener Staatsoper"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Charro",
+        "descricao": "Cavaleiro tradicional mexicano que pratica a charreada, com traje próprio de montaria e sombrero de abas largas.",
+        "variantes": [
+          "Charro mexicano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "churros",
+          "nome": "Churros",
+          "descricao": "Massa frita em formato de bastão sulcado, polvilhada de açúcar e canela, de origem ibérica.",
+          "variantes": [
+            "Churro"
+          ]
+        },
+        {
+          "id": "caronte",
+          "nome": "Caronte",
+          "descricao": "Maior lua de Plutão, de superfície cinzenta com um polo avermelhado, fotografada pela sonda New Horizons.",
+          "variantes": [
+            "Charon",
+            "Plutão I"
+          ]
+        },
+        {
+          "id": "caronte_2",
+          "nome": "Caronte",
+          "descricao": "Personagem da mitologia grega que levava as almas dos mortos através do rio do mundo inferior.",
+          "variantes": [
+            "Charon",
+            "Caron"
+          ]
+        },
+        {
+          "id": "carrom",
+          "nome": "Carrom",
+          "descricao": "Jogo de mesa de origem indiana em que os jogadores lançam discos com os dedos para as caçapas dos cantos do tabuleiro.",
+          "variantes": [
+            "Carrom board"
+          ]
+        },
+        {
+          "id": "chimarrao",
+          "nome": "Chimarrão",
+          "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+          "variantes": [
+            "Mate",
+            "Mate amargo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Highland Games",
+        "descricao": "Competição escocesa de força, com provas como o arremesso de peso sobre a barra e o lançamento do tronco, além de gaita de foles e dança.",
+        "variantes": [
+          "Jogos das Terras Altas",
+          "Highland Gathering"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hering",
+          "nome": "Hering",
+          "descricao": "Empresa têxtil brasileira fundada em 1880 em Blumenau pelos irmãos alemães Hermann e Bruno Hering.",
+          "variantes": [
+            "Cia. Hering",
+            "Companhia Hering"
+          ]
+        },
+        {
+          "id": "lingua_islandesa",
+          "nome": "Língua islandesa",
+          "descricao": "Língua germânica do ramo nórdico, oficial na Islândia.",
+          "variantes": [
+            "Islandês"
+          ]
+        },
+        {
+          "id": "biface",
+          "nome": "Biface",
+          "descricao": "Ferramenta pré-histórica de pedra lascada nas duas faces, em forma de amêndoa, típica do Acheulense.",
+          "variantes": [
+            "Machado de mão",
+            "Hand axe",
+            "Handaxe"
+          ]
+        },
+        {
+          "id": "partida_da_opera",
+          "nome": "Partida da Ópera",
+          "descricao": "Célebre partida de xadrez vencida pelo americano Paul Morphy em 1858, jogada num camarote de teatro durante uma ópera.",
+          "variantes": [
+            "Opera Game",
+            "Jogo da Ópera"
+          ]
+        },
+        {
+          "id": "protelo",
+          "nome": "Protelo",
+          "descricao": "Pequena hiena insetívora do leste e sul da África, que come cupins, Proteles cristatus.",
+          "variantes": [
+            "Lobo-da-terra",
+            "Aardwolf",
+            "Proteles cristatus"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Chinelo de dedo é o tipo de calçado; Havaianas é uma marca, e pantufa é outro calçado."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é tourada."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o penteado chonmage."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "gravata",
+      "motivo": "Mesma peça de vestuário (necktie)."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Meia de Natal é um objeto distinto das candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "opera_de_pequim",
+      "motivo": "Mesma forma de ópera chinesa (Jingju)."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Charro é o cavaleiro mexicano; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é os Highland Games."
+    }
+  ]
+}
