@@ -1,0 +1,120 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ano 1633 confirmado nos trechos. O enunciado não identifica a obra sem a imagem, e os distratores são anos críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 1801 está correta: foi concluído no verão de 1801. Mas 'Goya' junto de 'retrato de grupo de uma família real' identifica a obra sem a imagem. Retirei a pista da família real.",
+      "reescrita": {
+        "pergunta": "Em que ano o pintor espanhol Goya concluiu este retrato de grupo?",
+        "resposta": "1801",
+        "distratores": [
+          "1798",
+          "1803",
+          "1805"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos situam a obra no Suprematismo russo. O enunciado não entrega a resposta, e o Construtivismo é um distrator crível porque também é russo, mas é outro movimento.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Caravaggio' com 'jogadores de cartas' entrega o quadro sem a imagem. Além disso, 'Os Jogadores de Cartas' é de Cézanne, não de Caravaggio, e por isso é um distrator fraco.",
+      "reescrita": {
+        "pergunta": "Que quadro de Caravaggio, pintado por volta de 1596, é este?",
+        "resposta": "Os Trapaceiros",
+        "distratores": [
+          "A Cartomante",
+          "O Tocador de Alaúde",
+          "Baco Doente"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português confirma que hoje se admite que o quadro trata do mito de Aracne. O enunciado não nomeia o mito, e os distratores são mitos gregos errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Matisse' basta para chegar a 'Fauvismo', então a figura vira enfeite. Além disso, a classificação desta obra como fauvista é discutível: os trechos a apresentam como resposta ao Fauvismo, e a técnica é em parte pontilhista.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Friedrich é o pintor romântico alemão por excelência, então a resposta sai só do nome. A figura é enfeite, e não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A resposta é o título da obra de Repin e o enunciado não a revela. Todos os distratores são quadros de Repin, e nenhum corresponde à cena.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a flagelação no fundo e as três figuras em primeiro plano, à direita. O enunciado não entrega a resposta, e os distratores são outros episódios da Paixão.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O ano 1800 é confirmado no trecho. O enunciado não identifica a obra, e os distratores são anos próximos e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia em português usa 'Dança em Bougival', não 'Baile em Bougival'. A resposta precisa seguir o título consagrado. Os distratores são as obras irmãs de Renoir, a imagem as distingue, e o enunciado se mantém.",
+      "reescrita": {
+        "pergunta": "Qual é o nome deste quadro de Renoir, que mostra um casal dançando?",
+        "resposta": "Dança em Bougival",
+        "distratores": [
+          "Dança na Cidade",
+          "Dança no Campo",
+          "Almoço dos Remadores"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Vermeer' com 'globo celeste' aponta para O Astrônomo sem a imagem, e o ofício descrito entrega a resposta. Troquei por uma pista neutra que ainda deixa 'O Geógrafo' como distrator visualmente parecido.",
+      "reescrita": {
+        "pergunta": "Que quadro de Vermeer, que mostra um estudioso em seu gabinete, é este?",
+        "resposta": "O Astrônomo",
+        "distratores": [
+          "O Geógrafo",
+          "A Leiteira",
+          "A Rendeira"
+        ]
+      }
+    }
+  ]
+}
