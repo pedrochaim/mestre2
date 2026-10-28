@@ -5293,7 +5293,8 @@
     "nome": "Berimbau",
     "descricao": "Instrumento de corda de arco e cabaça que comanda o ritmo da roda de capoeira.",
     "variantes": [
-      "Berimbau de barriga"
+      "Berimbau de barriga",
+      "Gunga"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Berimbau",
@@ -30033,7 +30034,10 @@
       "wikidata": "Q273768",
       "pt": 1871,
       "en": 933
-    }
+    },
+    "variantes": [
+      "Galo de Ouro"
+    ]
   },
   {
     "id": "mitsuyo_maeda",
@@ -30091,7 +30095,8 @@
     "descricao": "Código de regras publicado na Inglaterra em 1867 que deu origem ao boxe moderno com luvas.",
     "variantes": [
       "Marquess of Queensberry Rules",
-      "Regras de Queensberry"
+      "Regras de Queensberry",
+      "Queensberry Rules"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Marquess_of_Queensberry_Rules"
@@ -64990,7 +64995,8 @@
     "nome": "Bō",
     "descricao": "Bastão longo de cerca de um metro e oitenta usado em artes marciais de Okinawa e do Japão.",
     "variantes": [
-      "Rokushakubō"
+      "Rokushakubō",
+      "Bastão bo"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/B%C5%8D",
@@ -95469,7 +95475,8 @@
     "nome": "José Aldo",
     "descricao": "Lutador brasileiro de MMA, primeiro campeão peso-pena do UFC.",
     "variantes": [
-      "José Aldo da Silva Oliveira Júnior"
+      "José Aldo da Silva Oliveira Júnior",
+      "Scarface"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Jos%C3%A9_Aldo",
@@ -96657,7 +96664,8 @@
     "descricao": "Estilo de luta olímpica em que é proibido agarrar o adversário abaixo da cintura.",
     "variantes": [
       "Greco-Roman wrestling",
-      "Luta francesa"
+      "Luta francesa",
+      "Greco-romana"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Greco-Roman_wrestling",
@@ -97043,7 +97051,8 @@
     "nome": "Sambo",
     "descricao": "Arte marcial e esporte de combate criado na União Soviética nos anos 1920 e 1930.",
     "variantes": [
-      "Sambo soviético"
+      "Sambo soviético",
+      "Sambo de combate"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Sambo_(martial_art)"
@@ -187656,7 +187665,8 @@
     "nome": "Amanda Nunes",
     "descricao": "Lutadora brasileira de MMA, campeã do UFC em duas categorias.",
     "variantes": [
-      "Leoa"
+      "Leoa",
+      "A Leoa"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Amanda_Nunes",
@@ -206695,6 +206705,75 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/European_mole",
       "https://pt.wikipedia.org/wiki/Toupeira-europeia"
+    ]
+  },
+  {
+    "id": "peso_cruzador",
+    "nome": "Peso-cruzador",
+    "descricao": "Categoria do boxe profissional acima dos meio-pesados e abaixo dos pesos-pesados, com limite de cerca de noventa quilos.",
+    "variantes": [
+      "Cruiserweight",
+      "Cruzador"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cruiserweight_(boxing)"
+    ]
+  },
+  {
+    "id": "judogi",
+    "nome": "Judogi",
+    "descricao": "Uniforme de treino e competição do judô, formado por casaco, calça e faixa.",
+    "variantes": [
+      "Quimono de judô",
+      "Kimono de judô"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Judogi"
+    ]
+  },
+  {
+    "id": "dohyo",
+    "nome": "Dohyō",
+    "descricao": "Arena circular de argila em que se disputam as lutas de sumô.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dohy%C5%8D"
+    ]
+  },
+  {
+    "id": "tai_chi_chuan",
+    "nome": "Tai chi chuan",
+    "descricao": "Arte marcial chinesa praticada sobretudo como exercício de movimentos suaves e encadeados.",
+    "variantes": [
+      "Tai chi",
+      "Taiji",
+      "Taijiquan"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tai_chi",
+      "https://pt.wikipedia.org/wiki/Tai_chi_chuan"
+    ]
+  },
+  {
+    "id": "thrilla_in_manila",
+    "nome": "Thrilla in Manila",
+    "descricao": "Terceira e última luta entre Muhammad Ali e Joe Frazier, pelo título dos pesos-pesados, disputada em 1975.",
+    "variantes": [
+      "Thrilla em Manila"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Thrilla_in_Manila"
+    ]
+  },
+  {
+    "id": "vitali_klitschko",
+    "nome": "Vitali Klitschko",
+    "descricao": "Ex-boxeador ucraniano, campeão mundial dos pesos-pesados e irmão mais velho de Wladimir Klitschko, que entrou para a política.",
+    "variantes": [
+      "Vitaly Klitschko",
+      "Vitali Klychko"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Vitali_Klitschko"
     ]
   }
 ]

@@ -1,0 +1,879 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Logo abaixo do yokozuna, qual destes postos do sumô profissional é o mais alto?",
+        "resposta": "Ozeki"
+      },
+      "existentes": [
+        {
+          "id": "q01945",
+          "pergunta": "O título de yokozuna, o mais alto do sumô, deve o nome a que objeto amarrado à cintura do campeão?",
+          "resposta": "Uma corda"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual destas modalidades de combate já fazia parte dos Jogos Olímpicos de Atenas, em 1896?",
+        "resposta": "Luta greco-romana"
+      },
+      "existentes": [
+        {
+          "id": "q06637",
+          "pergunta": "Apesar do nome, a luta greco-romana, que proíbe agarrar abaixo da cintura, foi organizada no século dezenove em que país?",
+          "resposta": "França"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Na roda de capoeira tocam até três berimbaus. Como se chama o de som mais grave?",
+        "resposta": "Gunga (ou berra-boi)"
+      },
+      "existentes": [
+        {
+          "id": "q00341",
+          "pergunta": "No berimbau, que comanda o ritmo da roda de capoeira, que fruto seco e oco serve de caixa de ressonância?",
+          "resposta": "Cabaça"
+        },
+        {
+          "id": "q04164",
+          "pergunta": "Que instrumento musical é este?",
+          "resposta": "Berimbau"
+        },
+        {
+          "id": "q05256",
+          "pergunta": "Na roda de capoeira tocam três berimbaus: gunga, médio e viola. Qual deles, de cabaça maior, tem o som mais grave?",
+          "resposta": "Gunga"
+        },
+        {
+          "id": "q16003",
+          "pergunta": "Para mudar o som do berimbau, o tocador encosta no arame uma moeda ou uma pedra lisa. Como se chama essa peça?",
+          "resposta": "Dobrão"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "No jiu-jítsu brasileiro, qual destas faixas de adulto indica o lutador mais graduado?",
+        "resposta": "Marrom"
+      },
+      "existentes": [
+        {
+          "id": "q01964",
+          "pergunta": "Apesar do nome, o jiu-jítsu brasileiro deriva diretamente de que outra arte marcial japonesa, trazida ao país no começo do século vinte?",
+          "resposta": "Judô"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Até os Jogos de Paris, em 2024, que modalidade tinha dado mais medalhas olímpicas ao Brasil?",
+        "resposta": "Judô"
+      },
+      "existentes": [
+        {
+          "id": "q01939",
+          "pergunta": "O que significa, ao pé da letra, o nome japonês da arte marcial judô?",
+          "resposta": "Caminho suave"
+        },
+        {
+          "id": "q01940",
+          "pergunta": "Em 1882, ao abrir o Instituto Kodokan em Tóquio, que educador japonês fundou o judô?",
+          "resposta": "Jigoro Kano"
+        },
+        {
+          "id": "q15045",
+          "pergunta": "Que esporte olímpico é este?",
+          "resposta": "Judô"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Entre estas armas tradicionais das artes marciais de Okinawa, qual é a mais comprida?",
+        "resposta": "Bō"
+      },
+      "existentes": [
+        {
+          "id": "q04345",
+          "pergunta": "Que arma das artes marciais é esta?",
+          "resposta": "Bō"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Qual destes lutadores brasileiros chegou a ter, ao mesmo tempo, dois cinturões de campeão do UFC?",
+        "resposta": "Amanda Nunes"
+      },
+      "existentes": [
+        {
+          "id": "q15056",
+          "pergunta": "Quem é esta lutadora brasileira?",
+          "resposta": "Amanda Nunes"
+        },
+        {
+          "id": "q15770",
+          "pergunta": "Esta lutadora brasileira de MMA, campeã do UFC, é conhecida por qual apelido?",
+          "resposta": "A Leoa"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Qual destes boxeadores brasileiros foi o primeiro a conquistar um título mundial no boxe profissional?",
+        "resposta": "Éder Jofre"
+      },
+      "existentes": [
+        {
+          "id": "q01946",
+          "pergunta": "Campeão mundial dos pesos-galo e dos pesos-pena, o paulistano Éder Jofre ficou eternizado por que apelido?",
+          "resposta": "Galo de Ouro"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Além do berimbau e do pandeiro, que tambor alto, de origem africana, costuma fazer parte da bateria da roda de capoeira?",
+        "resposta": "Atabaque"
+      },
+      "existentes": [
+        {
+          "id": "q01974",
+          "pergunta": "A capoeira virou crime no Código Penal criado logo após a Proclamação da República. De que ano é esse código?",
+          "resposta": "1890"
+        },
+        {
+          "id": "q04699",
+          "pergunta": "Que manifestação afro-brasileira, que mistura luta, dança e música, é esta?",
+          "resposta": "Capoeira"
+        },
+        {
+          "id": "q05248",
+          "pergunta": "Antes de dar nome à luta afro-brasileira, a palavra capoeira, de origem tupi, designava que tipo de terreno?",
+          "resposta": "Mato ralo, já cortado"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Na katana, a espada dos samurais, como se chama a guarda de metal, geralmente redonda, que fica entre a lâmina e o cabo?",
+        "resposta": "Tsuba"
+      },
+      "existentes": [
+        {
+          "id": "q15577",
+          "pergunta": "Que espada japonesa é esta?",
+          "resposta": "Katana"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "No filme Rocky, de 1976, que ator interpretou o campeão Apollo Creed, adversário de Rocky Balboa?",
+        "resposta": "Carl Weathers"
+      },
+      "existentes": [
+        {
+          "id": "q01927",
+          "pergunta": "Que ator interpreta o boxeador desta imagem?",
+          "resposta": "Sylvester Stallone"
+        },
+        {
+          "id": "q01962",
+          "pergunta": "Sylvester Stallone escreveu o roteiro de Rocky em poucos dias, logo depois de assistir a que luta de 1975 pelo título dos pesos-pesados?",
+          "resposta": "Muhammad Ali contra Chuck Wepner"
+        },
+        {
+          "id": "q06846",
+          "pergunta": "Na cena de treino mais famosa de Rocky, o lutador sobe correndo a escadaria de qual museu americano?",
+          "resposta": "Museu de Arte da Filadélfia"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "No filme Karatê Kid, de 1984, que ator interpretou o Sr. Miyagi, papel que lhe rendeu uma indicação ao Oscar?",
+        "resposta": "Pat Morita"
+      },
+      "existentes": [
+        {
+          "id": "q01973",
+          "pergunta": "No filme Karatê Kid, de 1984, o Sr. Miyagi treina Daniel mandando-o fazer que tarefa repetitiva nos carros?",
+          "resposta": "Passar e tirar cera"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Em Tóquio, o caratê olímpico teve provas de luta, o kumite, e de que outra modalidade, com sequências de golpes contra adversários imaginários?",
+        "resposta": "Kata"
+      },
+      "existentes": [
+        {
+          "id": "q06647",
+          "pergunta": "O caratê estreou no programa olímpico nos Jogos que foram adiados por causa da pandemia. Que edição foi essa?",
+          "resposta": "Tóquio 2020"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "No jiu-jítsu, como se chama a posição em que o lutador, de costas no chão, controla o adversário envolvendo-o com as pernas?",
+        "resposta": "Guarda"
+      },
+      "existentes": [
+        {
+          "id": "q01964",
+          "pergunta": "Apesar do nome, o jiu-jítsu brasileiro deriva diretamente de que outra arte marcial japonesa, trazida ao país no começo do século vinte?",
+          "resposta": "Judô"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Publicadas em 1867, as regras do Marquês de Queensberry tornaram obrigatório no boxe o uso de quê?",
+        "resposta": "Luvas"
+      },
+      "existentes": [
+        {
+          "id": "q01952",
+          "pergunta": "As regras do boxe moderno, publicadas em Londres em 1867, levam o nome de que nobre britânico?",
+          "resposta": "Marquês de Queensberry"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "No sumô profissional, um lutador de cem quilos pode enfrentar outro de duzentos. Que característica do esporte permite isso?",
+        "resposta": "Não há categorias de peso"
+      },
+      "existentes": [
+        {
+          "id": "q00517",
+          "pergunta": "Que esporte é este?",
+          "resposta": "Sumô"
+        },
+        {
+          "id": "q01954",
+          "pergunta": "Antes de cada combate de sumô, por que os lutadores atiram sal sobre a arena?",
+          "resposta": "Para purificá-la"
+        },
+        {
+          "id": "q06675",
+          "pergunta": "Nas lutas oficiais de sumô, como se chama a faixa de tecido amarrada na cintura do lutador?",
+          "resposta": "Mawashi"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Descrevendo seu estilo de luta, Muhammad Ali dizia que flutuava como uma borboleta e picava como que inseto?",
+        "resposta": "Abelha"
+      },
+      "existentes": [
+        {
+          "id": "q00539",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Muhammad Ali"
+        },
+        {
+          "id": "q01955",
+          "pergunta": "Aos doze anos, em Louisville, o futuro Muhammad Ali foi parar numa academia de boxe depois de que incidente?",
+          "resposta": "O roubo de sua bicicleta"
+        },
+        {
+          "id": "q06639",
+          "pergunta": "Ainda com o nome de Cassius Clay, Muhammad Ali ganhou a medalha de ouro olímpica em 1960, nos Jogos de que cidade?",
+          "resposta": "Roma"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Bruce Lee ficou famoso por um soco devastador dado com o punho quase encostado no alvo. Que nome esse golpe ganhou?",
+        "resposta": "Soco de uma polegada"
+      },
+      "existentes": [
+        {
+          "id": "q01980",
+          "pergunta": "Astro do cinema de Hong Kong, Bruce Lee nasceu em 1940 em que cidade americana?",
+          "resposta": "São Francisco"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "No caratê, como se chama o grito curto e forte que o lutador solta no momento de aplicar um golpe?",
+        "resposta": "Kiai"
+      },
+      "existentes": [
+        {
+          "id": "q01941",
+          "pergunta": "Traduzido do japonês, o nome da arte marcial caratê quer dizer o quê?",
+          "resposta": "Mão vazia"
+        },
+        {
+          "id": "q01942",
+          "pergunta": "O caratê nasceu em que ilha, sede do antigo Reino de Ryukyu e hoje parte do Japão?",
+          "resposta": "Okinawa"
+        },
+        {
+          "id": "q15620",
+          "pergunta": "Que modalidade de luta é esta?",
+          "resposta": "Caratê"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Ronda Rousey venceu a maioria de suas lutas no MMA com que finalização, trazida da sua carreira no judô?",
+        "resposta": "Chave de braço"
+      },
+      "existentes": [
+        {
+          "id": "q01970",
+          "pergunta": "Antes de virar estrela do UFC, a americana Ronda Rousey ganhou medalha olímpica em que esporte?",
+          "resposta": "Judô"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Lançado em 1980, o filme Touro Indomável foi rodado de um jeito incomum para a época. Qual?",
+        "resposta": "Em preto e branco"
+      },
+      "existentes": [
+        {
+          "id": "q06658",
+          "pergunta": "Quem dirigiu Touro Indomável, filme de 1980 sobre o boxeador Jake LaMotta?",
+          "resposta": "Martin Scorsese"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Que movimento de flexibilidade virou marca registrada de Jean-Claude Van Damme, repetido até num comercial de 2013 entre dois caminhões em movimento?",
+        "resposta": "Espacate"
+      },
+      "existentes": [
+        {
+          "id": "q06667",
+          "pergunta": "Por causa da sua cidade natal, o astro de filmes de luta Jean-Claude Van Damme ganhou que apelido?",
+          "resposta": "Músculos de Bruxelas"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Em 1986, ao nocautear Trevor Berbick, Mike Tyson tornou-se campeão mundial dos pesos-pesados com quantos anos de idade?",
+        "resposta": "Vinte anos"
+      },
+      "existentes": [
+        {
+          "id": "q02571",
+          "pergunta": "Quem é este ex-lutador de boxe?",
+          "resposta": "Mike Tyson"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Khabib Nurmagomedov aposentou-se invicto no MMA profissional. Com quantas vitórias ele encerrou a carreira?",
+        "resposta": "29"
+      },
+      "existentes": [
+        {
+          "id": "q09284",
+          "pergunta": "Que lutador russo de artes marciais mistas é este?",
+          "resposta": "Khabib Nurmagomedov"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Em dezembro de 2015, José Aldo perdeu o cinturão dos penas para Conor McGregor num nocaute que durou quantos segundos?",
+        "resposta": "Treze segundos"
+      },
+      "existentes": [
+        {
+          "id": "q06547",
+          "pergunta": "Em que categoria de peso este lutador brasileiro foi campeão do UFC?",
+          "resposta": "Peso-pena"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "O primeiro UFC, em 1993, foi um torneio eliminatório numa só noite. Quantos lutadores disputaram o torneio?",
+        "resposta": "Oito"
+      },
+      "existentes": [
+        {
+          "id": "q01959",
+          "pergunta": "O primeiro evento do UFC, em 1993, foi organizado para tirar que dúvida entre praticantes de lutas?",
+          "resposta": "Qual arte marcial era a mais eficaz"
+        },
+        {
+          "id": "q01960",
+          "pergunta": "Finalizando adversários bem mais pesados, que brasileiro foi o campeão do primeiro UFC, em 1993?",
+          "resposta": "Royce Gracie"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "O apelido Poatan, do lutador Alex Pereira, vem de uma língua indígena brasileira. O que ele significa?",
+        "resposta": "Mãos de pedra"
+      },
+      "existentes": [
+        {
+          "id": "q15059",
+          "pergunta": "Quem é este lutador brasileiro?",
+          "resposta": "Alex Poatan"
+        },
+        {
+          "id": "q15766",
+          "pergunta": "Antes de ser campeão no UFC, este lutador brasileiro foi campeão em qual esporte de combate?",
+          "resposta": "Kickboxing"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Ao se juntar à Nação do Islã, em 1964, o novo campeão dos pesos-pesados usou por pouco tempo que nome, antes de adotar Muhammad Ali?",
+        "resposta": "Cassius X"
+      },
+      "existentes": [
+        {
+          "id": "q00539",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Muhammad Ali"
+        },
+        {
+          "id": "q01955",
+          "pergunta": "Aos doze anos, em Louisville, o futuro Muhammad Ali foi parar numa academia de boxe depois de que incidente?",
+          "resposta": "O roubo de sua bicicleta"
+        },
+        {
+          "id": "q06639",
+          "pergunta": "Ainda com o nome de Cassius Clay, Muhammad Ali ganhou a medalha de ouro olímpica em 1960, nos Jogos de que cidade?",
+          "resposta": "Roma"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "No MMA, Anderson Silva ficou conhecido por que apelido em inglês, ligado a um animal?",
+        "resposta": "Spider"
+      },
+      "existentes": [
+        {
+          "id": "q02572",
+          "pergunta": "Que lutador brasileiro de MMA é este?",
+          "resposta": "Anderson Silva"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Primeiro boxeador a derrotar Muhammad Ali como profissional, o americano Frazier era conhecido por que apelido?",
+        "resposta": "Smokin' Joe"
+      },
+      "existentes": [
+        {
+          "id": "q15055",
+          "pergunta": "Este boxeador norte-americano, campeão olímpico em 1964, ficou famoso por uma trilogia de lutas contra que outro campeão dos pesos-pesados?",
+          "resposta": "Muhammad Ali"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Depois de perder para Jimmy Young, em 1977, George Foreman largou o boxe por dez anos. A que ele passou a se dedicar?",
+        "resposta": "Pregar como pastor"
+      },
+      "existentes": [
+        {
+          "id": "q01967",
+          "pergunta": "O boxeador George Foreman deu o próprio nome, George, a quantos de seus filhos homens?",
+          "resposta": "Cinco"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Em 1968, George Foreman comemorou o ouro olímpico agitando uma bandeirinha americana no ringue. Em que cidade isso aconteceu?",
+        "resposta": "Cidade do México"
+      },
+      "existentes": [
+        {
+          "id": "q01967",
+          "pergunta": "O boxeador George Foreman deu o próprio nome, George, a quantos de seus filhos homens?",
+          "resposta": "Cinco"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Nas Tartarugas Ninja, Rafael luta com um par de armas de Okinawa, de metal e com três pontas. Que armas são essas?",
+        "resposta": "Sai"
+      },
+      "existentes": [
+        {
+          "id": "q04586",
+          "pergunta": "Que arma tradicional de artes marciais de Okinawa é esta?",
+          "resposta": "Sai"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Antes de brilharem no MMA, os russos Fedor Emelianenko e Khabib Nurmagomedov foram campeões mundiais de que luta?",
+        "resposta": "Sambo"
+      },
+      "existentes": [
+        {
+          "id": "q06662",
+          "pergunta": "O nome sambo, luta criada na União Soviética, é uma abreviação russa que quer dizer o quê?",
+          "resposta": "Autodefesa sem armas"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Em 2017, Floyd Mayweather chegou à quinquagésima vitória e encerrou a carreira profissional vencendo, numa luta de boxe, que astro do MMA?",
+        "resposta": "Conor McGregor"
+      },
+      "existentes": [
+        {
+          "id": "q05969",
+          "pergunta": "Que boxeador americano é este?",
+          "resposta": "Floyd Mayweather"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "No fim do século dezenove, que mestre japonês começou a dar faixa preta aos alunos mais graduados, costume depois copiado por outras lutas?",
+        "resposta": "Jigoro Kano"
+      },
+      "existentes": [
+        {
+          "id": "q05592",
+          "pergunta": "Que faixa das artes marciais, usada no judô e no karatê, é esta?",
+          "resposta": "Faixa preta"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Nos Jogos de Barcelona, em 1992, que judoca paulista conquistou o segundo ouro olímpico da história do judô brasileiro?",
+        "resposta": "Rogério Sampaio"
+      },
+      "existentes": [
+        {
+          "id": "q06652",
+          "pergunta": "Em que edição dos Jogos Olímpicos as mulheres passaram a disputar medalhas oficiais no judô?",
+          "resposta": "Barcelona 1992"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Que mestre baiano criou a capoeira regional, mais rápida e objetiva, com um método de ensino próprio e uma das primeiras academias do país?",
+        "resposta": "Mestre Bimba"
+      },
+      "existentes": [
+        {
+          "id": "q00336",
+          "pergunta": "Nos anos de 1930, em Salvador, que mestre criou a capoeira regional, de método de ensino próprio?",
+          "resposta": "Mestre Bimba"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "Em que ano Anderson Silva conquistou o cinturão dos médios do UFC, nocauteando o americano Rich Franklin?",
+        "resposta": "2006"
+      },
+      "existentes": [
+        {
+          "id": "q02572",
+          "pergunta": "Que lutador brasileiro de MMA é este?",
+          "resposta": "Anderson Silva"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "Já com o mal de Parkinson, Muhammad Ali emocionou o mundo ao acender a pira dos Jogos Olímpicos de Atlanta. Em que ano?",
+        "resposta": "1996"
+      },
+      "existentes": [
+        {
+          "id": "q00539",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Muhammad Ali"
+        },
+        {
+          "id": "q01955",
+          "pergunta": "Aos doze anos, em Louisville, o futuro Muhammad Ali foi parar numa academia de boxe depois de que incidente?",
+          "resposta": "O roubo de sua bicicleta"
+        },
+        {
+          "id": "q06639",
+          "pergunta": "Ainda com o nome de Cassius Clay, Muhammad Ali ganhou a medalha de ouro olímpica em 1960, nos Jogos de que cidade?",
+          "resposta": "Roma"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Posto ozeki vs. origem do nome yokozuna."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Olimpíadas 1896 vs. país de organização."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: gunga é o berimbau mais grave.",
+      "id_existente": "q05256"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Faixas vs. origem do jiu-jítsu."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Medalhas do Brasil, fato diferente."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Arma mais comprida vs. identificar imagem; fato diferente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Dois cinturões simultâneos é fato diferente."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Primeiro título mundial vs. apelido."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Atabaque não coberto."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Tsuba vs. identificar katana."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Ator de Apollo Creed é novo."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Ator vs. tarefa de treino."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Kata vs. edição de estreia."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Guarda não coberto."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Luvas vs. nome do nobre."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Sem categorias de peso é novo."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Frase da abelha é novo."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Soco de uma polegada vs. local de nascimento."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Kiai é novo."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Finalização vs. esporte olímpico."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Preto e branco vs. diretor."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Espacate vs. apelido."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Idade do título é novo."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Número de vitórias é novo."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Duração do nocaute vs. categoria."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Número de lutadores é novo."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Significado do apelido é novo."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Cassius X é novo."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Apelido Spider não coberto."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Apelido de Frazier é novo."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Pós-aposentadoria vs. nome dos filhos."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Cidade do ouro olímpico é novo."
+    },
+    {
+      "caso": 33,
+      "decisao": "repete",
+      "motivo": "Ambas têm resposta sai, arma de Okinawa de três pontas.",
+      "id_existente": "q04586"
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Luta de origem vs. significado do nome."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Último adversário é novo."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Quem criou faixa preta vs. identificar faixa."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Ouro de Sampaio vs. judô feminino."
+    },
+    {
+      "caso": 38,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Mestre Bimba criou a capoeira regional.",
+      "id_existente": "q00336"
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Ano do cinturão é novo."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Pira em Atlanta é novo."
+    }
+  ]
+}

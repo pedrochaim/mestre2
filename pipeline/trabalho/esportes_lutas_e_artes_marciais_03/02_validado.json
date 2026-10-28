@@ -1,0 +1,1422 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "yokozuna",
+        "nome": "Yokozuna",
+        "descricao": "Posto mais alto da hierarquia dos lutadores profissionais de sumô.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Yokozuna"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Logo abaixo do yokozuna, qual destes postos do sumô profissional é o mais alto?",
+      "resposta": "Ozeki",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Makuuchi",
+        "https://en.wikipedia.org/wiki/Yokozuna"
+      ],
+      "distratores": [
+        "Sekiwake",
+        "Komusubi",
+        "Maegashira"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "luta_greco_romana",
+        "nome": "Luta greco-romana",
+        "descricao": "Estilo de luta olímpica em que é proibido agarrar o adversário abaixo da cintura.",
+        "variantes": [
+          "Greco-romana"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Greco-Roman_wrestling"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas modalidades de combate está há mais tempo no programa dos Jogos Olímpicos modernos, presente desde Atenas, em 1896?",
+      "resposta": "Luta greco-romana",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wrestling_at_the_1896_Summer_Olympics",
+        "https://en.wikipedia.org/wiki/Greco-Roman_wrestling"
+      ],
+      "distratores": [
+        "Boxe",
+        "Judô",
+        "Taekwondo"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Berimbau",
+        "descricao": "Instrumento musical de corda percutida, formado por arco de madeira, arame e cabaça, que comanda a roda de capoeira.",
+        "variantes": [
+          "Gunga",
+          "Berimbau de barriga"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Berimbau",
+          "https://en.wikipedia.org/wiki/Berimbau"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Na roda de capoeira tocam três berimbaus. Como se chama o de som mais grave, com a maior cabaça?",
+      "resposta": "Gunga",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Berimbau",
+        "https://pt.wikipedia.org/wiki/Berimbau"
+      ],
+      "distratores": [
+        "Viola",
+        "Médio",
+        "Caxixi"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Peso-cruzador",
+        "descricao": "Categoria do boxe profissional acima dos meio-pesados e abaixo dos pesos-pesados, com limite de cerca de noventa quilos.",
+        "variantes": [
+          "Cruiserweight",
+          "Cruzador"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cruiserweight_(boxing)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "No boxe profissional, qual destas categorias tem o limite de peso mais alto?",
+      "resposta": "Peso-cruzador",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cruiserweight_(boxing)"
+      ],
+      "distratores": [
+        "Meio-pesado",
+        "Supermédio",
+        "Médio"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "jiu_jitsu_brasileiro",
+        "nome": "Jiu-jítsu brasileiro",
+        "descricao": "Arte marcial de luta no chão desenvolvida no Brasil pela família Gracie.",
+        "variantes": [
+          "BJJ",
+          "Gracie jiu-jitsu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "No jiu-jítsu brasileiro, qual destas faixas de adulto indica o lutador mais graduado?",
+      "resposta": "Marrom",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu_ranking_system"
+      ],
+      "distratores": [
+        "Roxa",
+        "Azul",
+        "Branca"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "judo",
+        "nome": "Judô",
+        "descricao": "Arte marcial e esporte olímpico japonês criado por Jigoro Kano no fim do século dezenove.",
+        "variantes": [
+          "Judo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Jud%C3%B4"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Até os Jogos de Paris, em 2024, que modalidade tinha dado mais medalhas olímpicas ao Brasil?",
+      "resposta": "Judô",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazil_at_the_Olympics",
+        "https://pt.wikipedia.org/wiki/Brasil_nos_Jogos_Ol%C3%ADmpicos"
+      ],
+      "distratores": [
+        "Vela",
+        "Atletismo",
+        "Natação"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "bo",
+        "nome": "Bō",
+        "descricao": "Bastão longo de cerca de um metro e oitenta usado em artes marciais de Okinawa e do Japão.",
+        "variantes": [
+          "Bo",
+          "Bastão bo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/B%C5%8D"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre estas armas tradicionais das artes marciais de Okinawa, qual é a mais comprida?",
+      "resposta": "Bō",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/B%C5%8D",
+        "https://en.wikipedia.org/wiki/Okinawan_kobud%C5%8D"
+      ],
+      "distratores": [
+        "Sai",
+        "Tonfa",
+        "Nunchaku"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "amanda_nunes",
+        "nome": "Amanda Nunes",
+        "descricao": "Lutadora brasileira de MMA, campeã do UFC em duas categorias.",
+        "variantes": [
+          "A Leoa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Amanda_Nunes"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes lutadores brasileiros chegou a ter, ao mesmo tempo, dois cinturões de campeão do UFC?",
+      "resposta": "Amanda Nunes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Amanda_Nunes",
+        "https://en.wikipedia.org/wiki/Alex_Pereira"
+      ],
+      "distratores": [
+        "José Aldo",
+        "Anderson Silva",
+        "Alex Poatan"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "eder_jofre",
+        "nome": "Éder Jofre",
+        "descricao": "Boxeador paulistano, campeão mundial dos pesos-galo e dos pesos-pena.",
+        "variantes": [
+          "Galo de Ouro"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/%C3%89der_Jofre",
+          "https://en.wikipedia.org/wiki/%C3%89der_Jofre"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes boxeadores brasileiros foi o primeiro a conquistar um título mundial no boxe profissional?",
+      "resposta": "Éder Jofre",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/%C3%89der_Jofre",
+        "https://en.wikipedia.org/wiki/%C3%89der_Jofre"
+      ],
+      "distratores": [
+        "Maguila",
+        "Popó Freitas",
+        "Miguel de Oliveira"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "capoeira",
+        "nome": "Capoeira",
+        "descricao": "Arte marcial afro-brasileira que combina luta, dança, música e acrobacia.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Capoeira"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Além do berimbau e do pandeiro, que tambor alto, de origem africana, costuma fazer parte da bateria da roda de capoeira?",
+      "resposta": "Atabaque",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Capoeira",
+        "https://en.wikipedia.org/wiki/Atabaque"
+      ],
+      "distratores": [
+        "Surdo",
+        "Cuíca",
+        "Tamborim"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "ringue_de_boxe",
+        "nome": "Ringue de boxe",
+        "descricao": "Espaço quadrado cercado por cordas onde se disputam as lutas de boxe.",
+        "variantes": [
+          "Ringue"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Boxing_ring"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No ringue de boxe, os cantos dos lutadores são o vermelho e o azul. De que cor costumam ser os outros dois, chamados neutros?",
+      "resposta": "Brancos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Boxing_ring"
+      ],
+      "distratores": [
+        "Pretos",
+        "Amarelos",
+        "Verdes"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "id_existente": "katana",
+        "nome": "Katana",
+        "descricao": "Espada japonesa de lâmina curva e um só gume, usada pelos samurais.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Katana"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na katana, a espada dos samurais, como se chama a guarda de metal, geralmente redonda, que fica entre a lâmina e o cabo?",
+      "resposta": "Tsuba",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tsuba",
+        "https://en.wikipedia.org/wiki/Katana"
+      ],
+      "distratores": [
+        "Saya",
+        "Tsuka",
+        "Kissaki"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "rocky_um_lutador",
+        "nome": "Rocky, um Lutador",
+        "descricao": "Filme de boxe de 1976 sobre o pugilista Rocky Balboa, da Filadélfia.",
+        "variantes": [
+          "Rocky"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rocky"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No filme Rocky, de 1976, que ator interpretou o campeão Apollo Creed, adversário de Rocky Balboa?",
+      "resposta": "Carl Weathers",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rocky",
+        "https://en.wikipedia.org/wiki/Carl_Weathers"
+      ],
+      "distratores": [
+        "Mr. T",
+        "Dolph Lundgren",
+        "Burt Young"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "karate_kid",
+        "nome": "Karatê Kid",
+        "descricao": "Filme americano de 1984 sobre o jovem Daniel e seu mestre de caratê, o Sr. Miyagi.",
+        "variantes": [
+          "The Karate Kid",
+          "Karatê Kid: A Hora da Verdade"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Karate_Kid"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No filme Karatê Kid, de 1984, que ator interpretou o Sr. Miyagi, papel que lhe rendeu uma indicação ao Oscar?",
+      "resposta": "Pat Morita",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Karate_Kid",
+        "https://en.wikipedia.org/wiki/Pat_Morita"
+      ],
+      "distratores": [
+        "Ralph Macchio",
+        "Mako",
+        "Jackie Chan"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "carate_nos_jogos_olimpicos_de_2020",
+        "nome": "Caratê nos Jogos Olímpicos de 2020",
+        "descricao": "Estreia do caratê no programa olímpico, nos Jogos de Tóquio, realizados em 2021.",
+        "variantes": [
+          "Karate at the 2020 Summer Olympics"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Karate_at_the_2020_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Em Tóquio, o caratê olímpico teve provas de luta, o kumite, e de que outra modalidade, com sequências de golpes contra adversários imaginários?",
+      "resposta": "Kata",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Karate_at_the_2020_Summer_Olympics"
+      ],
+      "distratores": [
+        "Kihon",
+        "Randori",
+        "Tameshiwari"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "jiu_jitsu_brasileiro",
+        "nome": "Jiu-jítsu brasileiro",
+        "descricao": "Arte marcial de luta no chão desenvolvida no Brasil pela família Gracie.",
+        "variantes": [
+          "BJJ",
+          "Gracie jiu-jitsu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No jiu-jítsu, como se chama a posição em que o lutador, de costas no chão, controla o adversário envolvendo-o com as pernas?",
+      "resposta": "Guarda",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Guard_(grappling)",
+        "https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu"
+      ],
+      "distratores": [
+        "Montada",
+        "Cem quilos",
+        "Raspagem"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "regras_do_marques_de_queensberry",
+        "nome": "Regras do Marquês de Queensberry",
+        "descricao": "Código de regras publicado na Inglaterra em 1867 que deu origem ao boxe moderno com luvas.",
+        "variantes": [
+          "Queensberry Rules"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Marquess_of_Queensberry_Rules"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Publicadas em 1867, as regras do Marquês de Queensberry tornaram obrigatório no boxe o uso de quê?",
+      "resposta": "Luvas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Marquess_of_Queensberry_Rules"
+      ],
+      "distratores": [
+        "Protetor bucal",
+        "Capacete",
+        "Bandagens"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Judogi",
+        "descricao": "Uniforme de treino e competição do judô, formado por casaco, calça e faixa.",
+        "variantes": [
+          "Quimono de judô",
+          "Kimono de judô"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Judogi"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No judô e no caratê, a faixa que fecha o quimono e indica a graduação do lutador tem que nome japonês?",
+      "resposta": "Obi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Obi_(martial_arts)",
+        "https://en.wikipedia.org/wiki/Judogi"
+      ],
+      "distratores": [
+        "Gi",
+        "Hakama",
+        "Dan"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Dohyō",
+        "descricao": "Arena circular de argila em que se disputam as lutas de sumô.",
+        "variantes": [
+          "Dohyo",
+          "Dohyô"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dohy%C5%8D"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O dohyô, arena circular do sumô, tem a borda marcada por fardos parcialmente enterrados de que material?",
+      "resposta": "Palha de arroz",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dohy%C5%8D"
+      ],
+      "distratores": [
+        "Bambu trançado",
+        "Corda de cânhamo",
+        "Madeira de cedro"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "sumo",
+        "nome": "Sumô",
+        "descricao": "Luta tradicional japonesa em que se tenta tirar o adversário do círculo.",
+        "variantes": [
+          "Sumo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sumo"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "No sumô profissional, um lutador de cem quilos pode enfrentar outro de duzentos. Que característica do esporte permite isso?",
+      "resposta": "Não há categorias de peso",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sumo"
+      ],
+      "distratores": [
+        "Divisão só por altura",
+        "Lutas por equipes",
+        "Handicap de pontos"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "id_existente": "muhammad_ali",
+        "nome": "Muhammad Ali",
+        "descricao": "Boxeador americano, campeão mundial dos pesos-pesados.",
+        "variantes": [
+          "Cassius Clay"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Muhammad_Ali"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Descrevendo seu estilo de luta, Muhammad Ali dizia que flutuava como uma borboleta e picava como que inseto?",
+      "resposta": "Abelha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Muhammad_Ali"
+      ],
+      "distratores": [
+        "Vespa",
+        "Mosquito",
+        "Formiga"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "bruce_lee",
+        "nome": "Bruce Lee",
+        "descricao": "Ator e artista marcial sino-americano, astro do cinema de ação de Hong Kong nos anos 1970.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bruce_Lee"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Bruce Lee ficou famoso por um soco devastador dado com o punho quase encostado no alvo. Que nome esse golpe ganhou?",
+      "resposta": "Soco de uma polegada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/One-inch_punch"
+      ],
+      "distratores": [
+        "Soco do dragão",
+        "Punho de ferro",
+        "Golpe da palma"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "id_existente": "carate",
+        "nome": "Caratê",
+        "descricao": "Arte marcial de golpes de mãos e pés surgida em Okinawa, hoje parte do Japão.",
+        "variantes": [
+          "Karatê",
+          "Karate"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Karate"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "No caratê, como se chama o grito curto e forte que o lutador solta no momento de aplicar um golpe?",
+      "resposta": "Kiai",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kiai"
+      ],
+      "distratores": [
+        "Osu",
+        "Hajime",
+        "Rei"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "ronda_rousey",
+        "nome": "Ronda Rousey",
+        "descricao": "Lutadora americana, primeira campeã feminina do UFC e medalhista olímpica.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ronda_Rousey"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Ronda Rousey venceu a maioria de suas lutas no MMA com que finalização, trazida da sua carreira no judô?",
+      "resposta": "Chave de braço",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ronda_Rousey"
+      ],
+      "distratores": [
+        "Mata-leão",
+        "Guilhotina",
+        "Triângulo"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "id_existente": "touro_indomavel",
+        "nome": "Touro Indomável",
+        "descricao": "Filme americano de 1980 sobre o boxeador Jake LaMotta, estrelado por Robert De Niro.",
+        "variantes": [
+          "Raging Bull"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Raging_Bull"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Lançado em 1980, o filme Touro Indomável foi rodado de um jeito incomum para a época. Qual?",
+      "resposta": "Em preto e branco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Raging_Bull"
+      ],
+      "distratores": [
+        "Sem nenhum diálogo",
+        "Em plano-sequência",
+        "Em três dimensões"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "jean_claude_van_damme",
+        "nome": "Jean-Claude Van Damme",
+        "descricao": "Ator e artista marcial belga, astro de filmes de ação como O Grande Dragão Branco.",
+        "variantes": [
+          "Van Damme"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jean-Claude_Van_Damme"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Que movimento de flexibilidade virou marca registrada de Jean-Claude Van Damme, repetido até num comercial de 2013 entre dois caminhões em movimento?",
+      "resposta": "Espacate",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jean-Claude_Van_Damme"
+      ],
+      "distratores": [
+        "Mortal para trás",
+        "Ponte",
+        "Chute giratório"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Tai chi chuan",
+        "descricao": "Arte marcial chinesa praticada sobretudo como exercício de movimentos suaves e encadeados.",
+        "variantes": [
+          "Tai chi",
+          "Taiji",
+          "Taijiquan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tai_chi",
+          "https://pt.wikipedia.org/wiki/Tai_chi_chuan"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "O tai chi chuan, arte marcial chinesa muito praticada em parques, é conhecido por que característica dos seus movimentos?",
+      "resposta": "Lentos e contínuos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tai_chi"
+      ],
+      "distratores": [
+        "Rápidos e explosivos",
+        "Saltos acrobáticos",
+        "Golpes com armas"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "mike_tyson",
+        "nome": "Mike Tyson",
+        "descricao": "Ex-boxeador americano dos pesos-pesados, campeão mundial indiscutível de 1987 a 1990.",
+        "variantes": [
+          "Iron Mike"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mike_Tyson"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em 1986, ao nocautear Trevor Berbick, Mike Tyson tornou-se campeão mundial dos pesos-pesados com quantos anos de idade?",
+      "resposta": "Vinte anos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mike_Tyson"
+      ],
+      "distratores": [
+        "Dezoito anos",
+        "Vinte e dois anos",
+        "Vinte e quatro anos"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "khabib_nurmagomedov",
+        "nome": "Khabib Nurmagomedov",
+        "descricao": "Lutador russo do Daguestão de MMA, campeão peso-leve do UFC, aposentado invicto.",
+        "variantes": [
+          "Khabib"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Khabib Nurmagomedov aposentou-se invicto no MMA profissional. Com quantas vitórias ele encerrou a carreira?",
+      "resposta": "29",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov"
+      ],
+      "distratores": [
+        "25",
+        "27",
+        "33"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "jose_aldo",
+        "nome": "José Aldo",
+        "descricao": "Lutador brasileiro de MMA, primeiro campeão peso-pena do UFC.",
+        "variantes": [
+          "Scarface"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jos%C3%A9_Aldo"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em dezembro de 2015, José Aldo perdeu o cinturão dos penas para Conor McGregor num nocaute que durou quantos segundos?",
+      "resposta": "Treze segundos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/UFC_194",
+        "https://en.wikipedia.org/wiki/Jos%C3%A9_Aldo"
+      ],
+      "distratores": [
+        "Oito segundos",
+        "Vinte e sete segundos",
+        "Quarenta e cinco segundos"
+      ]
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "id_existente": "ufc_1",
+        "nome": "UFC 1",
+        "descricao": "Primeiro evento do Ultimate Fighting Championship, realizado em Denver em novembro de 1993.",
+        "variantes": [
+          "UFC 1: The Beginning"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/UFC_1"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O primeiro UFC, em 1993, foi um torneio eliminatório numa só noite. Quantos lutadores disputaram o torneio?",
+      "resposta": "Oito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/UFC_1"
+      ],
+      "distratores": [
+        "Quatro",
+        "Doze",
+        "Dezesseis"
+      ]
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "id_existente": "alex_poatan_alex_pereira",
+        "nome": "Alex Poatan (Alex Pereira)",
+        "descricao": "Lutador brasileiro de MMA e ex-kickboxer, campeão do UFC em duas categorias.",
+        "variantes": [
+          "Alex Pereira",
+          "Poatan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alex_Pereira"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O apelido Poatan, do lutador Alex Pereira, vem de uma língua indígena brasileira. O que ele significa?",
+      "resposta": "Mãos de pedra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alex_Pereira"
+      ],
+      "distratores": [
+        "Punho de fogo",
+        "Guerreiro da mata",
+        "Olho de onça"
+      ]
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "id_existente": "muhammad_ali",
+        "nome": "Muhammad Ali",
+        "descricao": "Boxeador americano, campeão mundial dos pesos-pesados.",
+        "variantes": [
+          "Cassius Clay"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Muhammad_Ali"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Ao se juntar à Nação do Islã, em 1964, o novo campeão dos pesos-pesados usou por pouco tempo que nome, antes de adotar Muhammad Ali?",
+      "resposta": "Cassius X",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Muhammad_Ali"
+      ],
+      "distratores": [
+        "Malcolm Ali",
+        "Clay X",
+        "Muhammad Clay"
+      ]
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "id_existente": "anderson_silva",
+        "nome": "Anderson Silva",
+        "descricao": "Lutador brasileiro de MMA, ex-campeão peso-médio do UFC com o reinado mais longo da história da categoria.",
+        "variantes": [
+          "Spider"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Anderson_Silva"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "No MMA, Anderson Silva ficou conhecido por que apelido em inglês, ligado a um animal?",
+      "resposta": "Spider",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Anderson_Silva"
+      ],
+      "distratores": [
+        "Tiger",
+        "Scorpion",
+        "Cobra"
+      ]
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "id_existente": "joe_frazier",
+        "nome": "Joe Frazier",
+        "descricao": "Boxeador norte-americano, campeão olímpico em 1964 e campeão dos pesos-pesados, o primeiro a vencer Muhammad Ali.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Joe_Frazier"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Primeiro boxeador a derrotar Muhammad Ali como profissional, o americano Frazier era conhecido por que apelido?",
+      "resposta": "Smokin' Joe",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Joe_Frazier"
+      ],
+      "distratores": [
+        "Iron Joe",
+        "Big Joe",
+        "Brown Bomber"
+      ]
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Judogi",
+        "descricao": "Uniforme de treino e competição do judô, formado por casaco, calça e faixa.",
+        "variantes": [
+          "Quimono de judô",
+          "Kimono de judô"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Judogi"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Nas grandes competições de judô, um dos lutadores veste quimono azul em vez de branco. Qual é o motivo?",
+      "resposta": "Distinguir os dois judocas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Judogi"
+      ],
+      "distratores": [
+        "Indicar o favorito",
+        "Indicar o mais graduado",
+        "Homenagear o Japão"
+      ]
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "jose_aldo",
+        "nome": "José Aldo",
+        "descricao": "Lutador brasileiro de MMA, primeiro campeão peso-pena do UFC.",
+        "variantes": [
+          "Scarface"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jos%C3%A9_Aldo"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O lutador José Aldo tem no rosto uma cicatriz que carrega desde bebê. O que a causou?",
+      "resposta": "Queda numa churrasqueira",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jos%C3%A9_Aldo"
+      ],
+      "distratores": [
+        "Briga de rua",
+        "Mordida de cachorro",
+        "Acidente de bicicleta"
+      ]
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "id_existente": "george_foreman",
+        "nome": "George Foreman",
+        "descricao": "Boxeador americano, campeão olímpico em 1968 e duas vezes campeão mundial dos pesos-pesados.",
+        "variantes": [
+          "Big George"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/George_Foreman"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Depois de perder para Jimmy Young, em 1977, George Foreman largou o boxe por dez anos. A que ele passou a se dedicar?",
+      "resposta": "Pregar como pastor",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/George_Foreman"
+      ],
+      "distratores": [
+        "Treinar jovens boxeadores",
+        "Carreira de ator",
+        "Vender grelhas elétricas"
+      ]
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Thrilla in Manila",
+        "descricao": "Terceira e última luta entre Muhammad Ali e Joe Frazier, pelo título dos pesos-pesados, disputada em 1975.",
+        "variantes": [
+          "Thrilla em Manila"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Thrilla_in_Manila"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1975, a terceira e última luta entre Muhammad Ali e Joe Frazier foi disputada em que país asiático?",
+      "resposta": "Filipinas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Thrilla_in_Manila"
+      ],
+      "distratores": [
+        "Japão",
+        "Indonésia",
+        "Tailândia"
+      ]
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Vitali Klitschko",
+        "descricao": "Ex-boxeador ucraniano, campeão mundial dos pesos-pesados e irmão mais velho de Wladimir Klitschko, que entrou para a política.",
+        "variantes": [
+          "Vitaly Klitschko",
+          "Vitali Klychko"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vitali_Klitschko"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Ex-campeão dos pesos-pesados e irmão de Wladimir, o boxeador Vitali Klitschko foi eleito em 2014 prefeito de que cidade?",
+      "resposta": "Kiev",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vitali_Klitschko"
+      ],
+      "distratores": [
+        "Lviv",
+        "Odessa",
+        "Kharkiv"
+      ]
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "id_existente": "george_foreman",
+        "nome": "George Foreman",
+        "descricao": "Boxeador americano, campeão olímpico em 1968 e duas vezes campeão mundial dos pesos-pesados.",
+        "variantes": [
+          "Big George"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/George_Foreman"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1968, George Foreman comemorou o ouro olímpico agitando uma bandeirinha americana no ringue. Em que cidade isso aconteceu?",
+      "resposta": "Cidade do México",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/George_Foreman"
+      ],
+      "distratores": [
+        "Tóquio",
+        "Munique",
+        "Roma"
+      ]
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "sai",
+        "nome": "Sai",
+        "descricao": "Arma metálica de Okinawa com haste central pontiaguda e dois dentes laterais.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sai_(weapon)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Nas Tartarugas Ninja, Rafael luta com um par de armas de Okinawa, de metal e com três pontas. Que armas são essas?",
+      "resposta": "Sai",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Raphael_(Teenage_Mutant_Ninja_Turtles)",
+        "https://en.wikipedia.org/wiki/Sai_(weapon)"
+      ],
+      "distratores": [
+        "Tonfa",
+        "Kama",
+        "Nunchaku"
+      ]
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "sambo",
+        "nome": "Sambo",
+        "descricao": "Arte marcial e esporte de combate criado na União Soviética nos anos 1920 e 1930.",
+        "variantes": [
+          "Sambo de combate"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sambo_(martial_art)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Antes de brilharem no MMA, os russos Fedor Emelianenko e Khabib Nurmagomedov foram campeões mundiais de que luta?",
+      "resposta": "Sambo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fedor_Emelianenko",
+        "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov"
+      ],
+      "distratores": [
+        "Judô",
+        "Luta greco-romana",
+        "Kickboxing"
+      ]
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "id_existente": "floyd_mayweather",
+        "nome": "Floyd Mayweather",
+        "descricao": "Boxeador americano invicto, com 50 vitórias e campeão mundial em cinco categorias de peso.",
+        "variantes": [
+          "Floyd Mayweather Jr."
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Floyd_Mayweather_Jr."
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 2017, Floyd Mayweather chegou à quinquagésima vitória e encerrou a carreira profissional vencendo, numa luta de boxe, que astro do MMA?",
+      "resposta": "Conor McGregor",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Floyd_Mayweather_Jr._vs._Conor_McGregor"
+      ],
+      "distratores": [
+        "Khabib Nurmagomedov",
+        "Anderson Silva",
+        "Jon Jones"
+      ]
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "id_existente": "rodrigo_minotauro",
+        "nome": "Rodrigo Minotauro",
+        "descricao": "Lutador baiano de MMA, ex-campeão dos pesos-pesados do Pride e do UFC.",
+        "variantes": [
+          "Antônio Rodrigo Nogueira",
+          "Minotauro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ant%C3%B4nio_Rodrigo_Nogueira"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Rodrigo Minotauro tem um irmão gêmeo que também fez carreira no MMA. Por que apelido esse irmão ficou conhecido?",
+      "resposta": "Minotouro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ant%C3%B4nio_Rog%C3%A9rio_Nogueira",
+        "https://en.wikipedia.org/wiki/Ant%C3%B4nio_Rodrigo_Nogueira"
+      ],
+      "distratores": [
+        "Centauro",
+        "Toureiro",
+        "Bisão"
+      ]
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "id_existente": "faixa_preta",
+        "nome": "Faixa preta",
+        "descricao": "Faixa de cor preta que indica o grau de proficiência mais alto em muitas artes marciais, como judô e karatê.",
+        "variantes": [
+          "Black belt"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Black_belt_(martial_arts)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "No fim do século dezenove, que mestre japonês começou a dar faixa preta aos alunos mais graduados, costume depois copiado por outras lutas?",
+      "resposta": "Jigoro Kano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Black_belt_(martial_arts)",
+        "https://en.wikipedia.org/wiki/Dan_(rank)"
+      ],
+      "distratores": [
+        "Gichin Funakoshi",
+        "Morihei Ueshiba",
+        "Mitsuyo Maeda"
+      ]
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "id_existente": "judo_nos_jogos_olimpicos_de_1992",
+        "nome": "Judô nos Jogos Olímpicos de 1992",
+        "descricao": "Torneio de judô dos Jogos de Barcelona, primeiro com provas femininas valendo medalha.",
+        "variantes": [
+          "Judo at the 1992 Summer Olympics"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Judo_at_the_1992_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Nos Jogos de Barcelona, em 1992, que judoca paulista conquistou o segundo ouro olímpico da história do judô brasileiro?",
+      "resposta": "Rogério Sampaio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rog%C3%A9rio_Sampaio",
+        "https://en.wikipedia.org/wiki/Judo_at_the_1992_Summer_Olympics"
+      ],
+      "distratores": [
+        "Aurélio Miguel",
+        "Tiago Camilo",
+        "Flávio Canto"
+      ]
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Capoeira regional",
+        "descricao": "Estilo de capoeira criado na Bahia por Mestre Bimba, com método de ensino sistematizado.",
+        "variantes": [
+          "Luta Regional Baiana"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mestre_Bimba",
+          "https://en.wikipedia.org/wiki/Capoeira"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que mestre baiano criou a capoeira regional, mais rápida e objetiva, com um método de ensino próprio e uma das primeiras academias do país?",
+      "resposta": "Mestre Bimba",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mestre_Bimba",
+        "https://pt.wikipedia.org/wiki/Mestre_Bimba"
+      ],
+      "distratores": [
+        "Mestre Pastinha",
+        "Mestre Suassuna",
+        "Mestre João Grande"
+      ]
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "id_existente": "anderson_silva",
+        "nome": "Anderson Silva",
+        "descricao": "Lutador brasileiro de MMA, ex-campeão peso-médio do UFC com o reinado mais longo da história da categoria.",
+        "variantes": [
+          "Spider"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Anderson_Silva"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que ano Anderson Silva conquistou o cinturão dos médios do UFC, nocauteando o americano Rich Franklin?",
+      "resposta": "2006",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Anderson_Silva",
+        "https://en.wikipedia.org/wiki/UFC_64"
+      ],
+      "distratores": [
+        "2004",
+        "2008",
+        "2010"
+      ]
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "id_existente": "muhammad_ali",
+        "nome": "Muhammad Ali",
+        "descricao": "Boxeador americano, campeão mundial dos pesos-pesados.",
+        "variantes": [
+          "Cassius Clay"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Muhammad_Ali"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Já com o mal de Parkinson, Muhammad Ali emocionou o mundo ao acender a pira dos Jogos Olímpicos de Atlanta. Em que ano?",
+      "resposta": "1996",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Muhammad_Ali",
+        "https://en.wikipedia.org/wiki/1996_Summer_Olympics"
+      ],
+      "distratores": [
+        "1992",
+        "2000",
+        "1988"
+      ]
+    }
+  ]
+}

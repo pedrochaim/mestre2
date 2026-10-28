@@ -1,0 +1,377 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ozeki está logo abaixo do yokozuna, como mostram os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A luta não esteve em 1900, então 'presente desde 1896' é impreciso. Basta perguntar quem estava em Atenas 1896.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Qual destas modalidades de combate já fazia parte dos Jogos Olímpicos de Atenas, em 1896?",
+        "resposta": "Luta greco-romana",
+        "distratores": [
+          "Boxe",
+          "Judô",
+          "Taekwondo"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Wrestling_at_the_1896_Summer_Olympics",
+          "https://en.wikipedia.org/wiki/Greco-Roman_wrestling"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Caxixi não é berimbau, e os outros dois tipos já são as outras alternativas; fica melhor como aberta.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "aberta",
+        "pergunta": "Na roda de capoeira tocam até três berimbaus. Como se chama o de som mais grave?",
+        "resposta": "Gunga (ou berra-boi)",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Berimbau",
+          "https://pt.wikipedia.org/wiki/Berimbau"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Peso-cruzador fica acima de meio-pesado, supermédio e médio; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marrom é a graduação mais alta abaixo da preta, e as outras são inferiores.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O judô é o esporte com mais medalhas do Brasil (28), segundo a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O bō tem cerca de 1,82 m, mais que sai, tonfa e nunchaku.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Amanda Nunes defendeu os dois cinturões simultaneamente; os distratores nunca os tiveram ao mesmo tempo.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Éder Jofre foi o primeiro campeão mundial brasileiro, e os outros vieram depois ou nunca foram campeões.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O atabaque faz parte da bateria da capoeira, e os distratores são de outro contexto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A fonte não sustenta a cor dos cantos neutros, e a prática varia.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tsuba é a guarda da katana; os distratores são outras partes.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carl Weathers interpretou Apollo Creed, como mostram os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pat Morita foi indicado ao Oscar pelo papel de Miyagi.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kumite e kata foram as duas disciplinas do caratê em Tóquio.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A definição de guarda confere com o enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As regras de Queensberry foram as primeiras a exigir luvas.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Obi é a faixa de graduação, e os distratores são termos plausíveis e distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O dohyō é delimitado por fardos de palha de arroz parcialmente enterrados.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia em português diz que não há divisão por peso no sumô profissional.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "'Flutua como borboleta, pica como abelha' é a frase célebre de Ali.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O soco de uma polegada foi popularizado por Bruce Lee, como mostra a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kiai é o grito curto dado ao aplicar um golpe.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Rousey venceu as 9 lutas por finalização com chave de braço, entre as 12 vitórias.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia em português confirma que Touro Indomável foi filmado em preto e branco.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O espacate de Van Damme, incluindo o comercial da Volvo de 2013 entre dois caminhões, é amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As formas do tai chi têm movimentos lentos e contínuos, como mostram as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tyson tinha 20 anos e 4 meses ao vencer Berbick.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Khabib encerrou a carreira com 29 vitórias e nenhuma derrota.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O nocaute no UFC 194 durou 13 segundos.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O UFC 1 teve formato de torneio de oito lutadores.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Poatan significa 'mãos de pedra' em tupi, segundo a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Clay passou a Cassius X antes de adotar Muhammad Ali.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O apelido Spider (aranha) de Anderson Silva está confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Frazier é conhecido como Smokin' Joe e foi o primeiro a vencer Ali.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Um lutador de cada luta usa judogi azul e o outro branco, para diferenciá-los.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Nenhum trecho sustenta a origem da cicatriz e não tenho certeza do fato.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Após a derrota para Young, Foreman virou pastor, como mostram os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A luta foi disputada em Quezon City, nas Filipinas.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Klitschko é prefeito de Kiev desde 2014.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O ouro olímpico de Foreman foi na Cidade do México, em 1968.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os sai são a arma de assinatura de Raphael e têm três pontas.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fedor e Khabib foram campeões mundiais de sambo de combate.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mayweather venceu McGregor em 2017 e chegou a 50 vitórias.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Minotouro soa quase igual a Minotauro, que está no enunciado: vazamento e confusão em voz alta.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kano adotou a faixa preta para os yūdansha em 1886.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rogério Sampaio, de Santos, ganhou o segundo ouro do judô brasileiro em Barcelona 1992.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mestre Bimba criou a capoeira regional.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Silva nocauteou Franklin no UFC 64, em 2006.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ali acendeu a pira olímpica em Atlanta, em 1996.",
+      "reescrita": null
+    }
+  ]
+}
