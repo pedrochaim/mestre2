@@ -1,0 +1,78 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade este tenista conquistou o ouro olímpico na prova de simples?",
+        "resposta": "Pequim"
+      },
+      "existentes": [
+        {
+          "id": "q01901",
+          "pergunta": "Em qual ilha espanhola do Mediterrâneo nasceu Rafael Nadal?",
+          "resposta": "Maiorca"
+        },
+        {
+          "id": "q01915",
+          "pergunta": "Ao se aposentar, em 2024, Rafael Nadal somava quantos títulos de simples em Roland Garros?",
+          "resposta": "Catorze"
+        },
+        {
+          "id": "q04488",
+          "pergunta": "Em que cidade da Espanha nasceu este tenista?",
+          "resposta": "Manacor"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que ano este estádio australiano sediou a cerimônia de abertura de uma Olimpíada de verão?",
+        "resposta": "1956"
+      },
+      "existentes": [
+        {
+          "id": "q02699",
+          "pergunta": "Que estádio australiano é este?",
+          "resposta": "Melbourne Cricket Ground"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Quem é esta tenista norte-americana?",
+        "resposta": "Serena Williams"
+      },
+      "existentes": [
+        {
+          "id": "q01917",
+          "pergunta": "Em 2017, Serena Williams venceu o Aberto da Austrália numa condição surpreendente, só revelada meses depois. Qual?",
+          "resposta": "Estava grávida"
+        },
+        {
+          "id": "q04203",
+          "pergunta": "Esta tenista americana conquistou quantos títulos de simples de Grand Slam?",
+          "resposta": "23"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cidade do ouro olímpico é fato diferente de local de nascimento, títulos em Roland Garros."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Ano da cerimônia de abertura olímpica difere da identificação do estádio."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar a tenista (nome) é diferente de condição em 2017 ou número de títulos; a resposta não é dada pelas existentes."
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Rafael Nadal",
+        "descricao": "Tenista espanhol, campeão olímpico de simples em 2008 e de duplas em 2016.",
+        "variantes": [
+          "Rafa Nadal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rafael_nadal",
+          "nome": "Rafael Nadal",
+          "descricao": "Tenista espanhol nascido em 1986, aposentado em 2024, campeão de 22 Grand Slams.",
+          "variantes": [
+            "Rafa Nadal"
+          ]
+        },
+        {
+          "id": "rabanada",
+          "nome": "Rabanada",
+          "descricao": "Fatia de pão embebida em leite e ovos, frita e passada em açúcar e canela.",
+          "variantes": [
+            "Fatia dourada",
+            "Torrada francesa",
+            "French toast"
+          ]
+        },
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        },
+        {
+          "id": "rafael_sanzio",
+          "nome": "Rafael Sanzio",
+          "descricao": "Pintor e arquiteto do Alto Renascimento italiano (1483–1520), autor de A Escola de Atenas.",
+          "variantes": [
+            "Rafael",
+            "Raffaello Sanzio",
+            "Raphael"
+          ]
+        },
+        {
+          "id": "rapazes_do_natal",
+          "nome": "Rapazes do Natal",
+          "descricao": "Duendes travessos do folclore islandês que visitam as crianças, um por noite, antes do Natal.",
+          "variantes": [
+            "Yule Lads",
+            "Jólasveinar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Melbourne Cricket Ground",
+        "descricao": "Grande estádio de críquete e futebol australiano em Melbourne, sede da Olimpíada de 1956.",
+        "variantes": [
+          "MCG",
+          "Estádio de Críquete de Melbourne"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "melbourne_cricket_ground",
+          "nome": "Melbourne Cricket Ground",
+          "descricao": "Estádio multiuso em Melbourne, Austrália, sede da final da AFL e do Boxing Day Test.",
+          "variantes": [
+            "MCG",
+            "Estádio Melbourne Cricket Ground"
+          ]
+        },
+        {
+          "id": "minas_gerais",
+          "nome": "Minas Gerais",
+          "descricao": "Estado da Região Sudeste do Brasil, com capital em Belo Horizonte.",
+          "variantes": [
+            "MG"
+          ]
+        },
+        {
+          "id": "lord_s",
+          "nome": "Lord's",
+          "descricao": "Campo de críquete em St John's Wood, Londres, sede do Marylebone Cricket Club.",
+          "variantes": [
+            "Lord's Cricket Ground"
+          ]
+        },
+        {
+          "id": "sydney_cricket_ground",
+          "nome": "Sydney Cricket Ground",
+          "descricao": "Estádio de críquete e futebol australiano no bairro de Moore Park, em Sydney, Austrália.",
+          "variantes": [
+            "SCG"
+          ]
+        },
+        {
+          "id": "o_clube_do_mickey",
+          "nome": "O Clube do Mickey",
+          "descricao": "Programa infantil de variedades da Disney exibido de 1989 a 1994 com o título The All-New Mickey Mouse Club",
+          "variantes": [
+            "The All-New Mickey Mouse Club",
+            "MMC"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Serena Williams",
+        "descricao": "Tenista norte-americana, vencedora de 23 títulos de Grand Slam e ouro olímpico.",
+        "variantes": [
+          "Serena Jameka Williams"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "serena_williams",
+          "nome": "Serena Williams",
+          "descricao": "Tenista americana nascida em 1981, campeã de 23 Grand Slams em simples na Era Aberta.",
+          "variantes": []
+        },
+        {
+          "id": "venus_williams",
+          "nome": "Venus Williams",
+          "descricao": "Tenista americana, número 1 do mundo e campeã de sete torneios de Grand Slam em simples.",
+          "variantes": [
+            "Venus Ebony Star Williams"
+          ]
+        },
+        {
+          "id": "ellie_the_last_of_us",
+          "nome": "Ellie (The Last of Us)",
+          "descricao": "Jovem imune ao fungo Cordyceps, protagonista da série de jogos The Last of Us.",
+          "variantes": [
+            "Ellie Williams"
+          ]
+        },
+        {
+          "id": "tennessee_williams",
+          "nome": "Tennessee Williams",
+          "descricao": "Dramaturgo americano (1911–1983), autor de Um Bonde Chamado Desejo.",
+          "variantes": [
+            "Thomas Lanier Williams III"
+          ]
+        },
+        {
+          "id": "williams",
+          "nome": "Williams",
+          "descricao": "Equipe britânica de Fórmula 1 fundada em 1977, pela qual Nelson Piquet foi campeão em 1987 e Nigel Mansell em 1992.",
+          "variantes": [
+            "Williams Racing",
+            "Williams Grand Prix Engineering"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Arthur Zanetti",
+        "descricao": "Ginasta brasileiro, campeão olímpico nas argolas em Londres 2012 e prata no Rio 2016.",
+        "variantes": [
+          "Arthur Nabarrete Zanetti"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arthur_ashe",
+          "nome": "Arthur Ashe",
+          "descricao": "Tenista americano (1943-1993), campeão do US Open em 1968 e de Wimbledon em 1975.",
+          "variantes": []
+        },
+        {
+          "id": "estadio_arthur_ashe",
+          "nome": "Estádio Arthur Ashe",
+          "descricao": "Quadra principal do US Open, no complexo de Flushing Meadows, em Nova York, inaugurada em 1997.",
+          "variantes": [
+            "Arthur Ashe Stadium"
+          ]
+        },
+        {
+          "id": "arthur_nory",
+          "nome": "Arthur Nory",
+          "descricao": "Ginasta artístico brasileiro, medalhista de bronze olímpico no solo em 2016 e campeão mundial da barra fixa em 2019.",
+          "variantes": [
+            "Arthur Nory Mariano",
+            "Arthur Mariano"
+          ]
+        },
+        {
+          "id": "mario_andretti",
+          "nome": "Mario Andretti",
+          "descricao": "Ex-piloto ítalo-americano, campeão mundial de Fórmula 1 em 1978 e vencedor da Indy 500.",
+          "variantes": [
+            "Andretti"
+          ]
+        },
+        {
+          "id": "zico",
+          "nome": "Zico",
+          "descricao": "Arthur Antunes Coimbra, meia brasileiro ídolo do Flamengo e da seleção nos anos 1970 e 1980.",
+          "variantes": [
+            "Arthur Antunes Coimbra",
+            "Galinho de Quintino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Tênis",
+        "descricao": "Esporte de raquete jogado sobre uma rede, individualmente ou em duplas.",
+        "variantes": [
+          "Tênis de campo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tenis",
+          "nome": "Tênis",
+          "descricao": "Calçado esportivo e casual, de solado de borracha e cadarço, aqui um par de lona.",
+          "variantes": [
+            "Sneakers",
+            "Tênis de lona"
+          ]
+        },
+        {
+          "id": "sapatilha_de_atletismo",
+          "nome": "Sapatilha de atletismo",
+          "descricao": "Calçado leve com cravos metálicos na sola, usado por atletas em provas de pista.",
+          "variantes": [
+            "Sapatilha de corrida com pregos",
+            "Track spikes",
+            "Tênis de atletismo"
+          ]
+        },
+        {
+          "id": "tenis_de_mesa",
+          "nome": "Tênis de mesa",
+          "descricao": "Esporte de raquete jogado sobre uma mesa com rede, com bola leve e oca.",
+          "variantes": [
+            "Ping-pong",
+            "Pingue-pongue"
+          ]
+        },
+        {
+          "id": "simon_jogo",
+          "nome": "Simon (jogo)",
+          "descricao": "Brinquedo eletrônico de memória com quatro botões coloridos que acendem em sequência, lançado em 1978.",
+          "variantes": [
+            "Simon",
+            "Genius"
+          ]
+        },
+        {
+          "id": "tetris",
+          "nome": "Tetris",
+          "descricao": "Jogo de quebra-cabeça com peças que caem, criado pelo russo Alexey Pajitnov em 1984.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "rafael_nadal",
+      "motivo": "Mesmo tenista espanhol Rafael Nadal."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "melbourne_cricket_ground",
+      "motivo": "Mesmo estádio MCG em Melbourne."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "serena_williams",
+      "motivo": "Mesma tenista americana com 23 Grand Slams."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Arthur Zanetti é ginasta de argolas, distinto de Arthur Nory e das demais candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Proposta é o esporte; candidata 'tenis' é o calçado."
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; o texto parcial 'ADRID' e o logo não entregam a resposta.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade este tenista conquistou o ouro olímpico na prova de simples?",
+      "resposta": "Pequim",
+      "distratores": [
+        "Atenas",
+        "Londres",
+        "Sydney"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Rafael Nadal",
+        "descricao": "Tenista espanhol, campeão olímpico de simples em 2008 e de duplas em 2016.",
+        "variantes": [
+          "Rafa Nadal"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Retrato de rosto sem contexto esportivo; a pessoa não é reconhecível pela imagem e há texto cortado ao fundo."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto antiga em preto e branco, de rosto; pouco reconhecível para o público, resposta não garantida pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Aparece 'Barce...' na quadra, que entrega a cidade da pergunta 'onde'; várias pessoas em cena e nenhuma entidade única clara."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto casual de rosto, em local aleatório; a atleta não é reconhecível pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Sequência de um único esquiador em salto com manobra, sem texto que entregue a resposta; modalidade reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que modalidade olímpica de esqui, com saltos e manobras no ar, é esta?",
+      "resposta": "Esqui estilo livre",
+      "distratores": [
+        "Salto de esqui",
+        "Esqui alpino",
+        "Combinada nórdica"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Esqui estilo livre",
+        "descricao": "Disciplina de esqui com manobras aéreas, obstáculos e rampas, presente nos Jogos Olímpicos de Inverno.",
+        "variantes": [
+          "Freestyle skiing",
+          "Freeski"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Cena de jogo genérica entre seleções, sem relação com a pergunta 'onde'; reconhecer o futebol é trivial e não rende pergunta olímpica."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Panorama do estádio, sem texto que entregue a resposta; forma oval e arquibancadas reconhecíveis, e só ele recebeu os Jogos de 1956.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este estádio australiano recebeu os Jogos Olímpicos de verão?",
+      "resposta": "1956",
+      "distratores": [
+        "1948",
+        "1952",
+        "1960"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Melbourne Cricket Ground",
+        "descricao": "Grande estádio de críquete e futebol australiano em Melbourne, sede da Olimpíada de 1956.",
+        "variantes": [
+          "MCG",
+          "Estádio de Críquete de Melbourne"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta tenista norte-americana?",
+      "resposta": "Serena Williams",
+      "distratores": [
+        "Venus Williams",
+        "Naomi Osaka",
+        "Coco Gauff"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Serena Williams",
+        "descricao": "Tenista norte-americana, vencedora de 23 títulos de Grand Slam e ouro olímpico.",
+        "variantes": [
+          "Serena Jameka Williams"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, com medalha de prata de 2016; o enunciado pergunta pelo ouro de 2012, fato distinto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade este ginasta brasileiro conquistou o ouro olímpico nas argolas?",
+      "resposta": "Londres",
+      "distratores": [
+        "Pequim",
+        "Rio de Janeiro",
+        "Atenas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Arthur Zanetti",
+        "descricao": "Ginasta brasileiro, campeão olímpico nas argolas em Londres 2012 e prata no Rio 2016.",
+        "variantes": [
+          "Arthur Nabarrete Zanetti"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fachada nítida e característica, com cúpula e pilares em X; os cartazes não entregam a resposta.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este ginásio de Roma recebeu provas de basquete de uma Olimpíada?",
+      "resposta": "1960",
+      "distratores": [
+        "1952",
+        "1956",
+        "1964"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Palazzetto dello Sport",
+        "descricao": "Ginásio coberto de cúpula de concreto em Roma, construído para os Jogos Olímpicos de 1960.",
+        "variantes": [
+          "PalaFlaminio",
+          "PalaTiziano"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Jogador em quadra de grama com rede e raquete; modalidade clara, e a marca discreta não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que esporte olímpico de raquete é este, jogado numa quadra de grama?",
+      "resposta": "Tênis",
+      "distratores": [
+        "Squash",
+        "Badminton",
+        "Tênis de mesa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tênis",
+        "descricao": "Esporte de raquete jogado sobre uma rede, individualmente ou em duplas.",
+        "variantes": [
+          "Tênis de campo"
+        ]
+      }
+    }
+  ]
+}

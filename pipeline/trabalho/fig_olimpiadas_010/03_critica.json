@@ -1,0 +1,77 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pt.wikipedia confirma ouro em simples em Pequim 2008. O enunciado especifica simples (a segunda medalha foi em duplas no Rio), então a resposta é única, e a figura é necessária para saber quem é. Distratores são cidades-sede plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A pista \"saltos e manobras no ar\" descreve a resposta, e o enunciado traz \"esqui\", palavra derivada da resposta. O salto de esqui, um dos distratores, também tem saltos no ar, então a resposta não é única. A disciplina também inclui provas sem saltos, como o ski cross. Sem conserto limpo.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O MCG também foi subsede do futebol em Sydney 2000 (pt.wikipedia), então \"recebeu os Jogos\" tem duas respostas defensáveis. Delimitar à cerimônia de abertura, que só ocorreu lá em 1956, resolve.",
+      "reescrita": {
+        "pergunta": "Em que ano este estádio australiano sediou a cerimônia de abertura de uma Olimpíada de verão?",
+        "resposta": "1956",
+        "distratores": [
+          "1948",
+          "1952",
+          "1960"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de identidade com figura. \"Tenista norte-americana\" ajuda sem entregar, e os distratores são tenistas norte-americanas (ou, no caso de Naomi Osaka, quase) críveis. A resposta é única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: \"ginasta brasileiro, ouro olímpico nas argolas\" leva direto a Zanetti e a Londres, então a figura é enfeite. Reescrita sem nacionalidade nem feito, sobre um fato dos trechos (oitavo lugar na final das argolas em Tóquio).",
+      "reescrita": {
+        "pergunta": "Nos Jogos de Tóquio, em que colocação este ginasta terminou a final das argolas?",
+        "resposta": "Oitavo lugar",
+        "distratores": [
+          "Quarto lugar",
+          "Sexto lugar",
+          "Segundo lugar"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Teste da imagem coberta: \"ginásio de Roma\" e \"Olimpíada\" bastam para responder 1960 (Roma sediou os Jogos só nesse ano). A figura virou enfeite. Os trechos também não dizem explicitamente que o basquete olímpico foi disputado ali.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Raquete\" e \"grama\" entregam o tênis sem a figura. Além disso, um distrator (\"Tênis de mesa\") contém a palavra da resposta. A reescrita tira a pista de grama e usa distratores visualmente próximos.",
+      "reescrita": {
+        "pergunta": "Que esporte de raquete, presente nos Jogos Olímpicos, é este?",
+        "resposta": "Tênis",
+        "distratores": [
+          "Squash",
+          "Badminton",
+          "Pádel"
+        ]
+      }
+    }
+  ]
+}
