@@ -1,0 +1,177 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem nome visível; escudo parcial na camisa não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em 2007, este atacante espanhol deixou o Atlético de Madrid e foi para qual clube da Premier League?",
+      "resposta": "Liverpool",
+      "distratores": [
+        "Everton",
+        "Arsenal",
+        "Tottenham"
+      ],
+      "ancora": {
+        "nome": "Fernando Torres",
+        "descricao": "Ex-atacante espanhol conhecido como El Niño, que jogou no Atlético de Madrid, Liverpool e Chelsea.",
+        "variantes": [
+          "El Niño",
+          "Fernando José Torres Sanz"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto de ação em baixa resolução, com a jogadora de lado e só o número 14; não é reconhecível pela imagem, e há outras atletas em primeiro plano."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido; os patrocinadores na roupa não entregam o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este ex-jogador de vôlei da seleção brasileira conquistou a medalha de ouro olímpica em qual edição dos Jogos?",
+      "resposta": "Atenas 2004",
+      "distratores": [
+        "Sydney 2000",
+        "Pequim 2008",
+        "Atlanta 1996"
+      ],
+      "ancora": {
+        "nome": "Nalbert",
+        "descricao": "Ex-jogador brasileiro de vôlei, ponta, campeão olímpico em 2004.",
+        "variantes": [
+          "Nalbert Bitencourt",
+          "Nalbert Tavares Bitencourt"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido com a camisa da Inglaterra, sem texto com nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é este meio-campista da seleção inglesa?",
+      "resposta": "Jude Bellingham",
+      "distratores": [
+        "Phil Foden",
+        "Declan Rice",
+        "Bukayo Saka"
+      ],
+      "ancora": {
+        "nome": "Jude Bellingham",
+        "descricao": "Meio-campista inglês do Real Madrid e da seleção da Inglaterra, ex-Borussia Dortmund.",
+        "variantes": [
+          "Jude Victor William Bellingham"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rosto nítido, com viseira e camisa dos Chiefs, sem nome visível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Antes de entrar na NFL, este quarterback jogou futebol americano universitário por qual time?",
+      "resposta": "Texas Tech Red Raiders",
+      "distratores": [
+        "Oklahoma Sooners",
+        "Baylor Bears",
+        "Texas A&M Aggies"
+      ],
+      "ancora": {
+        "nome": "Patrick Mahomes",
+        "descricao": "Quarterback norte-americano do Kansas City Chiefs, na NFL, tricampeão do Super Bowl.",
+        "variantes": [
+          "Patrick Lavon Mahomes II"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O nome do piloto aparece escrito no carro e o número 12 também ajuda a identificá-lo; há outras pessoas na cena."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem de coletiva de imprensa, de baixa qualidade e com rosto pouco nítido; reconhecimento incerto."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido com a camisa da seleção, só o número 10, sem nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quem é esta jogadora de vôlei da seleção brasileira?",
+      "resposta": "Gabi Guimarães",
+      "distratores": [
+        "Natália Pereira",
+        "Tandara Caixeta",
+        "Rosamaria Montibeller"
+      ],
+      "ancora": {
+        "nome": "Gabi Guimarães",
+        "descricao": "Jogadora brasileira de vôlei, ponta, medalhista olímpica em Tóquio 2020 e Paris 2024.",
+        "variantes": [
+          "Gabriela Guimarães",
+          "Gabriela Braga Guimarães",
+          "Gabi"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto de terno em corredor, com outras pessoas ao fundo; nada na imagem permite reconhecer o lutador com segurança."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O boné cobre boa parte do rosto, que está baixo e superexposto; reconhecimento duvidoso, e a marca Canon é pista indireta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Retrato sem elemento que identifique o atleta, pouco reconhecível para o público; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido; a palavra Jamaica indica só o país, sem entregar o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 5,
+      "pergunta": "Quem é esta velocista jamaicana?",
+      "resposta": "Shelly-Ann Fraser-Pryce",
+      "distratores": [
+        "Elaine Thompson-Herah",
+        "Shericka Jackson",
+        "Veronica Campbell-Brown"
+      ],
+      "ancora": {
+        "nome": "Shelly-Ann Fraser-Pryce",
+        "descricao": "Velocista jamaicana, bicampeã olímpica dos 100 metros e cinco vezes campeã mundial.",
+        "variantes": [
+          "Shelly-Ann Fraser",
+          "Fraser-Pryce"
+        ]
+      }
+    }
+  ]
+}

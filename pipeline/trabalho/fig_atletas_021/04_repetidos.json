@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é esta jogadora de vôlei da seleção brasileira?",
+        "resposta": "Gabi Guimarães"
+      },
+      "existentes": [
+        {
+          "id": "q13952",
+          "pergunta": "Em que Olimpíada esta jogadora brasileira de vôlei ganhou uma medalha de bronze?",
+          "resposta": "Paris 2024"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quem é esta velocista jamaicana?",
+        "resposta": "Shelly-Ann Fraser-Pryce"
+      },
+      "existentes": [
+        {
+          "id": "q15200",
+          "pergunta": "Em que cidade esta velocista conquistou seu primeiro ouro olímpico nos cem metros?",
+          "resposta": "Pequim"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identidade da jogadora (imagem); a existente pergunta em qual Olimpíada ela ganhou bronze. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome da velocista; a existente pergunta a cidade do primeiro ouro olímpico. Fatos diferentes."
+    }
+  ]
+}
