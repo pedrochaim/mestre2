@@ -316522,5 +316522,180 @@
       "licenca": "Public domain"
     },
     "dificuldade": 2
+  },
+  {
+    "id": "q16470",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "macaco_rhesus",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este macaco do Velho Mundo é nativo de qual continente?",
+    "resposta": "Ásia",
+    "distratores": [
+      "África",
+      "América do Sul",
+      "Oceania"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rhesus_macaque",
+      "https://pt.wikipedia.org/wiki/Macaca_mulatta"
+    ],
+    "imagem": {
+      "arquivo": "q16470.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Female_and_juvenile_rhesus_macaque_at_Galtaji,_Jaipur,_Rajasthan,_India.jpg",
+      "autor": "Yann Forget",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q16471",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "jupara",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este mamífero noturno das florestas tropicais americanas é parente próximo de qual destes animais?",
+    "resposta": "Quati",
+    "distratores": [
+      "Lêmure",
+      "Gambá",
+      "Furão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kinkajou",
+      "https://pt.wikipedia.org/wiki/Jupar%C3%A1"
+    ],
+    "imagem": {
+      "arquivo": "q16471.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Potos_flavus_(8973438737).jpg",
+      "autor": "Dick Culbert from Gibsons, B.C., Canada",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q16472",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "gazela_de_thomson",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que gazela africana é esta?",
+    "resposta": "Gazela-de-thomson",
+    "distratores": [
+      "Gazela-de-grant",
+      "Gazela-de-soemmerring",
+      "Gazela-dorcas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thomson%27s_gazelle",
+      "https://pt.wikipedia.org/wiki/Gazela-de-thomson"
+    ],
+    "imagem": {
+      "arquivo": "q16472.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gacela_de_Thomson_(Eudorcas_thomsonii),_parque_nacional_de_Amboseli,_Kenia,_2024-05-23,_DD_11.jpg",
+      "autor": "Diego Delso",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q16473",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "mabeco",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que animal africano é este?",
+    "resposta": "Mabeco",
+    "distratores": [
+      "Hiena-malhada",
+      "Chacal-de-dorso-preto",
+      "Lobo-etíope"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/African_wild_dog",
+      "https://pt.wikipedia.org/wiki/Mabeco"
+    ],
+    "imagem": {
+      "arquivo": "q16473.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lycaon_pictus_(Temminck,_1820).jpg",
+      "autor": "Michael Gäbler",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q16474",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "colugo",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Este mamífero planador do Sudeste Asiático é parente próximo de qual grupo?",
+    "resposta": "Primatas",
+    "distratores": [
+      "Morcegos",
+      "Roedores",
+      "Marsupiais"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sunda_flying_lemur",
+      "https://pt.wikipedia.org/wiki/Galeopterus_variegatus"
+    ],
+    "imagem": {
+      "arquivo": "q16474.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kaguaani_02.jpg",
+      "autor": "Nina Holopainen",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q16475",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "binturong",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que região do mundo vive este mamífero arborícola de cauda preênsil?",
+    "resposta": "Sudeste Asiático",
+    "distratores": [
+      "Madagascar",
+      "América Central",
+      "África Ocidental"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Binturong",
+      "https://pt.wikipedia.org/wiki/Arctictis_binturong"
+    ],
+    "imagem": {
+      "arquivo": "q16475.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Binturong_in_Overloon.jpg",
+      "autor": "Tassilo Rau",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q16476",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "toupeira",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que animal escavador é este?",
+    "resposta": "Toupeira",
+    "distratores": [
+      "Musaranho",
+      "Desmana",
+      "Ouriço"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/European_mole",
+      "https://pt.wikipedia.org/wiki/Toupeira-europeia"
+    ],
+    "imagem": {
+      "arquivo": "q16476.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Talpa_europaea_MHNT.jpg",
+      "autor": "Didier Descouens",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

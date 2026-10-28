@@ -1,0 +1,73 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este mamífero noturno das florestas tropicais americanas é parente próximo de qual destes animais?",
+        "resposta": "Quati"
+      },
+      "existentes": [
+        {
+          "id": "q06907",
+          "pergunta": "Que mamífero arborícola e noturno das florestas tropicais americanas é este?",
+          "resposta": "Jupará"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual é o único outro cetáceo vivo da família deste animal?",
+        "resposta": "Narval"
+      },
+      "existentes": [
+        {
+          "id": "q04116",
+          "pergunta": "Que outro cetáceo do Ártico forma, com o animal desta foto, uma família de apenas duas espécies?",
+          "resposta": "Narval"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Esta baleia migra todo inverno para a costa de qual estado brasileiro, para reproduzir?",
+        "resposta": "Santa Catarina"
+      },
+      "existentes": [
+        {
+          "id": "q05647",
+          "pergunta": "Todo inverno, a baleia-franca-austral vem ao litoral brasileiro para ter filhotes. Em que estado fica a área de proteção ambiental criada para ela?",
+          "resposta": "Santa Catarina"
+        },
+        {
+          "id": "q05671",
+          "pergunta": "Em inglês, a baleia-franca é a right whale, a baleia certa para caçar. Entre as vantagens para os baleeiros, o corpo dela fazia o quê depois de morta?",
+          "resposta": "Boiava"
+        },
+        {
+          "id": "q09115",
+          "pergunta": "Como se chamam as manchas ásperas na cabeça desta baleia?",
+          "resposta": "Calosidades"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o parente próximo (quati); a existente pede a identidade do animal (jupará). Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam qual é o outro cetáceo da família de duas espécies, e a resposta é narval."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas têm como resposta Santa Catarina, o estado onde a baleia-franca vem se reproduzir no inverno. A existente q05647 pergunta pelo estado da APA criada para ela, o que é o mesmo fato."
+    }
+  ]
+}

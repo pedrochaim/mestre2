@@ -1,0 +1,97 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: o enunciado sobre o fator sanguíneo derivado do nome do macaco entrega a resposta (Rh/rhesus) sem olhar a figura. Os distratores também não são 'fatores'. Reescrita pede o continente de origem, fato dos trechos.",
+      "reescrita": {
+        "pergunta": "Este macaco do Velho Mundo é nativo de qual continente?",
+        "resposta": "Ásia",
+        "distratores": [
+          "África",
+          "América do Sul",
+          "Oceania"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Placeholder inexistente para manter índices.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam o jupará como parente de olingos, quatis e guaxinins. Os distratores não são procionídeos e o enunciado não entrega o animal.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta está correta e confirmada. O distrator Impala não é uma gazela e fica pouco crível numa pergunta sobre 'gazela'. Troquei por uma gazela parecida.",
+      "reescrita": {
+        "pergunta": "Que gazela africana é esta?",
+        "resposta": "Gazela-de-thomson",
+        "distratores": [
+          "Gazela-de-grant",
+          "Gazela-de-soemmerring",
+          "Gazela-dorcas"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta, sem pista que entregue a resposta. Os distratores são carnívoros africanos de aparência manchada ou parecida.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É amplamente documentado que os colugos (Dermoptera) são o grupo irmão dos primatas. O enunciado não nomeia o animal e os distratores são plausíveis, mas errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a família Monodontidae tem só a beluga e o narval. O enunciado não entrega o animal e os distratores são cetáceos de outras famílias.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Os distratores (Sudeste Asiático, África Central, Madagascar) são triviais para quem sabe que macacos de cauda preênsil são americanos. O gênero Ateles também ocorre na América do Sul, então 'região' deixa a pergunta frágil e sem conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Santa Catarina concentra a reprodução da baleia-franca de junho a novembro. Sem a figura, o enunciado poderia sugerir a jubarte, então a figura é necessária. Os distratores são estados plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o binturong é do Sudeste Asiático. A figura é necessária porque o jupará, também arborícola e de cauda preênsil, vive na América Central. Os distratores são regiões plausíveis e erradas para a espécie.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento simples. 'Escavador' ajuda sem entregar, e os distratores são pequenos mamíferos parecidos que não são toupeiras.",
+      "reescrita": null
+    }
+  ]
+}

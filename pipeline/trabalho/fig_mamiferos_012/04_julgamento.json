@@ -1,0 +1,591 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Macaco-rhesus",
+        "descricao": "Macaco do Velho Mundo (Macaca mulatta), nativo da Ásia, de pelagem marrom-acinzentada e face rosada.",
+        "variantes": [
+          "Macaca mulatta",
+          "Rhesus macaque",
+          "Macaco-resos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "macaco_prego",
+          "nome": "Macaco-prego",
+          "descricao": "Primata sul-americano do gênero Sapajus, de topete escuro, como o Sapajus apella.",
+          "variantes": [
+            "Sapajus apella",
+            "Macaco-prego-das-guianas"
+          ]
+        },
+        {
+          "id": "macaco_japones",
+          "nome": "Macaco-japonês",
+          "descricao": "Macaco do Velho Mundo, Macaca fuscata, nativo do Japão e conhecido como macaco-da-neve.",
+          "variantes": [
+            "Macaca fuscata",
+            "Macaco-da-neve",
+            "Nihonzaru"
+          ]
+        },
+        {
+          "id": "fator_rh",
+          "nome": "Fator Rh",
+          "descricao": "Antígeno das hemácias que define se o sangue é Rh positivo ou negativo.",
+          "variantes": [
+            "Sistema Rh",
+            "Fator Rhesus"
+          ]
+        },
+        {
+          "id": "matamata",
+          "nome": "Matamatá",
+          "descricao": "Chelus fimbriata, cágado amazônico de pescoço lateral, com casco rugoso e cabeça achatada com franjas.",
+          "variantes": [
+            "Mata-mata",
+            "Chelus fimbriata"
+          ]
+        },
+        {
+          "id": "macaco_dourado_de_nariz_arrebitado",
+          "nome": "Macaco-dourado-de-nariz-arrebitado",
+          "descricao": "Macaco do Velho Mundo (Rhinopithecus roxellana) das florestas montanhosas do centro e sudoeste da China.",
+          "variantes": [
+            "Macaco-dourado",
+            "Rhinopithecus roxellana",
+            "Golden snub-nosed monkey"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Jupará",
+        "descricao": "Mamífero arborícola e noturno da família Procyonidae (Potos flavus), das florestas tropicais da América Central e do Sul.",
+        "variantes": [
+          "Jupará-de-cauda-preênsil (Kinkaju)",
+          "Kinkajou",
+          "Jupará-de-cauda-preênsil",
+          "Potos flavus",
+          "Macaco-da-noite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jupara",
+          "nome": "Jupará",
+          "descricao": "Mamífero arborícola e noturno da família dos procionídeos, da espécie Potos flavus.",
+          "variantes": [
+            "Potos flavus",
+            "Macaco-da-noite",
+            "Kinkajou"
+          ]
+        },
+        {
+          "id": "macaco_japones",
+          "nome": "Macaco-japonês",
+          "descricao": "Macaco do Velho Mundo, Macaca fuscata, nativo do Japão e conhecido como macaco-da-neve.",
+          "variantes": [
+            "Macaca fuscata",
+            "Macaco-da-neve",
+            "Nihonzaru"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "bandeira_do_para",
+          "nome": "Bandeira do Pará",
+          "descricao": "Bandeira do estado brasileiro do Pará, com faixa diagonal branca e estrela azul sobre fundo vermelho.",
+          "variantes": [
+            "Pará"
+          ]
+        },
+        {
+          "id": "falcoes_da_noite",
+          "nome": "Falcões da Noite",
+          "descricao": "Pintura americana de 1942 que mostra fregueses numa lanchonete iluminada de esquina, de madrugada.",
+          "variantes": [
+            "Nighthawks",
+            "Notívagos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Gazela-de-thomson",
+        "descricao": "Pequena gazela da África Oriental (Eudorcas thomsonii), com faixa escura no flanco.",
+        "variantes": [
+          "Eudorcas thomsonii",
+          "Tommie",
+          "Thomson's gazelle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "toile_de_jouy",
+          "nome": "Toile de Jouy",
+          "descricao": "Estampa têxtil de origem francesa, com cenas pastorais em um só tom sobre fundo claro.",
+          "variantes": [
+            "Toile",
+            "Tela de Jouy"
+          ]
+        },
+        {
+          "id": "george_paget_thomson",
+          "nome": "George Paget Thomson",
+          "descricao": "Físico britânico (1892–1975), filho de J. J. Thomson, Nobel de Física de 1937 pela difração de elétrons.",
+          "variantes": [
+            "G. P. Thomson"
+          ]
+        },
+        {
+          "id": "padrao_de_widmanstatten",
+          "nome": "Padrão de Widmanstätten",
+          "descricao": "Figura de longas lâminas de ferro e níquel vista em meteoritos de ferro octaedritos.",
+          "variantes": [
+            "Estrutura de Thomson",
+            "Figuras de Widmanstätten"
+          ]
+        },
+        {
+          "id": "erwin_rommel",
+          "nome": "Erwin Rommel",
+          "descricao": "Marechal de campo alemão que comandou as forças do Eixo no norte da África na Segunda Guerra Mundial.",
+          "variantes": [
+            "Rommel"
+          ]
+        },
+        {
+          "id": "tom_ze",
+          "nome": "Tom Zé",
+          "descricao": "Antônio José Santana Martins, cantor e compositor baiano ligado à Tropicália.",
+          "variantes": [
+            "Antônio José Santana Martins"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mabeco",
+        "descricao": "Canídeo selvagem da África subsaariana (Lycaon pictus), de pelagem manchada em preto, amarelo e branco.",
+        "variantes": [
+          "Cão-selvagem-africano",
+          "Cão-pintado",
+          "Licaão",
+          "Lycaon pictus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        },
+        {
+          "id": "macau",
+          "nome": "Macau",
+          "descricao": "Região administrativa especial da China, antiga possessão portuguesa",
+          "variantes": [
+            "Macao"
+          ]
+        },
+        {
+          "id": "abaco",
+          "nome": "Ábaco",
+          "descricao": "Instrumento manual de cálculo formado por uma moldura com hastes e contas deslizantes.",
+          "variantes": [
+            "Abacus",
+            "Soroban",
+            "Schoty"
+          ]
+        },
+        {
+          "id": "cacau",
+          "nome": "Cacau",
+          "descricao": "Árvore Theobroma cacao, cujas sementes são a matéria-prima do chocolate",
+          "variantes": [
+            "Theobroma cacao",
+            "cacaueiro",
+            "cacao"
+          ]
+        },
+        {
+          "id": "latao",
+          "nome": "Latão",
+          "descricao": "Liga metálica amarelada de cobre e zinco, usada em instrumentos de sopro, fechaduras e torneiras.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Colugo",
+        "descricao": "Mamífero planador arborícola do Sudeste Asiático (Galeopterus variegatus), também chamado lêmure-voador.",
+        "variantes": [
+          "Lêmure-voador",
+          "Galeopterus variegatus",
+          "Sunda flying lemur"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "congada",
+          "nome": "Congada",
+          "descricao": "Manifestação afro-brasileira de cortejo, dança e música que encena a coroação do Rei do Congo.",
+          "variantes": [
+            "Congado",
+            "Congo"
+          ]
+        },
+        {
+          "id": "rio_congo",
+          "nome": "Rio Congo",
+          "descricao": "Grande rio da África Central que deságua no oceano Atlântico, entre Angola e a República Democrática do Congo.",
+          "variantes": [
+            "Congo",
+            "Rio Zaire",
+            "Congo River"
+          ]
+        },
+        {
+          "id": "colon_costarriquenho",
+          "nome": "Colón costarriquenho",
+          "descricao": "Moeda oficial da Costa Rica.",
+          "variantes": [
+            "Colón",
+            "Colón da Costa Rica"
+          ]
+        },
+        {
+          "id": "peixe_voador",
+          "nome": "Peixe-voador",
+          "descricao": "Peixe marinho da família Exocoetidae, que plana sobre a água com nadadeiras peitorais alongadas.",
+          "variantes": [
+            "Exocoetidae",
+            "Flying fish"
+          ]
+        },
+        {
+          "id": "bartolomeu_de_gusmao",
+          "nome": "Bartolomeu de Gusmão",
+          "descricao": "Padre e inventor nascido em Santos, no Brasil colonial, que demonstrou um pequeno balão de ar quente em Lisboa em 1709.",
+          "variantes": [
+            "Bartolomeu Lourenço de Gusmão",
+            "Padre Voador"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Beluga",
+        "descricao": "Cetáceo branco do Ártico (Delphinapterus leucas), sem nadadeira dorsal.",
+        "variantes": [
+          "Baleia-branca",
+          "Delphinapterus leucas",
+          "Beluga whale"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "beluga",
+          "nome": "Beluga",
+          "descricao": "Baleia-branca ártica, Delphinapterus leucas, cetáceo sem nadadeira dorsal e com testa bulbosa.",
+          "variantes": [
+            "Baleia-branca",
+            "Delphinapterus leucas",
+            "Beluga whale"
+          ]
+        },
+        {
+          "id": "baleia_franca_austral",
+          "nome": "Baleia-franca-austral",
+          "descricao": "Grande baleia de barbatanas (Eubalaena australis) do Hemisfério Sul, de cabeça com calosidades, que se reproduz no litoral sul do Brasil.",
+          "variantes": [
+            "Eubalaena australis",
+            "Baleia-franca",
+            "Southern right whale"
+          ]
+        },
+        {
+          "id": "baleia_azul",
+          "nome": "Baleia-azul",
+          "descricao": "Cetáceo gigante da espécie Balaenoptera musculus.",
+          "variantes": [
+            "Balaenoptera musculus",
+            "Blue whale"
+          ]
+        },
+        {
+          "id": "barba_branca",
+          "nome": "Barba Branca",
+          "descricao": "Edward Newgate, lendário capitão pirata dos Piratas do Barba Branca em One Piece, um dos Quatro Imperadores.",
+          "variantes": [
+            "Edward Newgate",
+            "Whitebeard"
+          ]
+        },
+        {
+          "id": "asa_branca",
+          "nome": "Asa Branca",
+          "descricao": "Toada de baião lançada por Luiz Gonzaga em 1947, sobre a seca no sertão.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Baleia-franca-austral",
+        "descricao": "Grande baleia de barbatanas do Hemisfério Sul (Eubalaena australis), com calosidades brancas na cabeça e sem nadadeira dorsal.",
+        "variantes": [
+          "Eubalaena australis",
+          "Southern right whale",
+          "Baleia-franca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baleia_franca_austral",
+          "nome": "Baleia-franca-austral",
+          "descricao": "Grande baleia de barbatanas (Eubalaena australis) do Hemisfério Sul, de cabeça com calosidades, que se reproduz no litoral sul do Brasil.",
+          "variantes": [
+            "Eubalaena australis",
+            "Baleia-franca",
+            "Southern right whale"
+          ]
+        },
+        {
+          "id": "beluga",
+          "nome": "Beluga",
+          "descricao": "Baleia-branca ártica, Delphinapterus leucas, cetáceo sem nadadeira dorsal e com testa bulbosa.",
+          "variantes": [
+            "Baleia-branca",
+            "Delphinapterus leucas",
+            "Beluga whale"
+          ]
+        },
+        {
+          "id": "baleia_comum",
+          "nome": "Baleia-comum",
+          "descricao": "Baleia de barbatanas esguia e veloz (Balaenoptera physalus), o segundo maior animal vivo.",
+          "variantes": [
+            "Baleia-fin",
+            "Rorqual-comum",
+            "Balaenoptera physalus",
+            "Fin whale"
+          ]
+        },
+        {
+          "id": "bandeira_da_franca",
+          "nome": "Bandeira da França",
+          "descricao": "Bandeira tricolor de faixas verticais azul, branca e vermelha, adotada durante a Revolução Francesa.",
+          "variantes": [
+            "Tricolor francesa",
+            "Flag of France"
+          ]
+        },
+        {
+          "id": "lingua_franca",
+          "nome": "Língua franca",
+          "descricao": "Língua usada para a comunicação entre falantes de idiomas diferentes; o termo vem de um falar de comércio do Mediterrâneo.",
+          "variantes": [
+            "Língua franca mediterrânea"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Binturong",
+        "descricao": "Viverrídeo arborícola do Sul e Sudeste da Ásia (Arctictis binturong), de pelagem escura e cauda preênsil.",
+        "variantes": [
+          "Arctictis binturong",
+          "Gato-urso",
+          "Bearcat"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "futbol_club_barcelona",
+          "nome": "Futbol Club Barcelona",
+          "descricao": "Clube de futebol da cidade de Barcelona, na Espanha, fundado em 1899.",
+          "variantes": [
+            "Barcelona",
+            "Barça",
+            "FC Barcelona"
+          ]
+        },
+        {
+          "id": "gato_mourisco",
+          "nome": "Gato-mourisco",
+          "descricao": "Pequeno felino selvagem americano de corpo alongado e pelagem uniforme (Herpailurus yagouaroundi).",
+          "variantes": [
+            "Jaguarundi",
+            "Herpailurus yagouaroundi"
+          ]
+        },
+        {
+          "id": "barata",
+          "nome": "Barata",
+          "descricao": "Inseto da ordem Blattodea, de corpo achatado e hábitos noturnos, alguns deles pragas domésticas.",
+          "variantes": [
+            "Blattodea",
+            "Cockroach"
+          ]
+        },
+        {
+          "id": "grafico_de_barras",
+          "nome": "Gráfico de barras",
+          "descricao": "Gráfico que mostra dados categóricos por meio de barras retangulares de altura proporcional aos valores.",
+          "variantes": [
+            "Gráfico de colunas",
+            "Bar chart"
+          ]
+        },
+        {
+          "id": "gato_preto",
+          "nome": "Gato preto",
+          "descricao": "Gato de pelagem preta, objeto de superstições opostas em diferentes países.",
+          "variantes": [
+            "Black cat"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Toupeira",
+        "descricao": "Pequeno mamífero escavador europeu (Talpa europaea), de pelagem escura e patas dianteiras largas.",
+        "variantes": [
+          "Toupeira-europeia",
+          "Talpa europaea",
+          "European mole"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "enguia_europeia",
+          "nome": "Enguia-europeia",
+          "descricao": "Peixe serpentiforme (Anguilla anguilla) que vive em rios europeus e migra ao oceano para desovar.",
+          "variantes": [
+            "Anguilla anguilla",
+            "European eel",
+            "Enguia"
+          ]
+        },
+        {
+          "id": "opera",
+          "nome": "Ópera",
+          "descricao": "Gênero de teatro inteiramente cantado, com orquestra, surgido na Itália.",
+          "variantes": []
+        },
+        {
+          "id": "lebre_europeia",
+          "nome": "Lebre-europeia",
+          "descricao": "Espécie de lebre (Lepus europaeus) nativa da Europa e partes da Ásia, também chamada lebre-comum.",
+          "variantes": [
+            "Lebre-comum",
+            "Lepus europaeus",
+            "European hare",
+            "Brown hare"
+          ]
+        },
+        {
+          "id": "bandeira_da_europa",
+          "nome": "Bandeira da Europa",
+          "descricao": "Bandeira do Conselho da Europa e da União Europeia, azul com um círculo de doze estrelas douradas.",
+          "variantes": [
+            "Bandeira da União Europeia",
+            "Bandeira europeia"
+          ]
+        },
+        {
+          "id": "pisco_de_peito_ruivo",
+          "nome": "Pisco-de-peito-ruivo",
+          "descricao": "Pequena ave europeia de peito e rosto alaranjados, Erithacus rubecula.",
+          "variantes": [
+            "Erithacus rubecula",
+            "European robin",
+            "Robin"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Macaca mulatta não corresponde a nenhuma candidata; macaco-japonês é outra espécie e Fator Rh é conceito distinto."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "jupara",
+      "motivo": "Mesma espécie Potos flavus, mesmas variantes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Gazela-de-thomson não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Mabeco (Lycaon pictus) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Colugo não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "beluga",
+      "motivo": "Mesma espécie Delphinapterus leucas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "baleia_franca_austral",
+      "motivo": "Mesma espécie Eubalaena australis."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Binturong não corresponde a nenhuma candidata; gato-mourisco é outra espécie."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Toupeira europeia não corresponde a nenhuma candidata."
+    }
+  ]
+}

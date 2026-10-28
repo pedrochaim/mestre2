@@ -1,0 +1,266 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fêmea com filhote, face rosada e pelagem típicas; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "O nome deste macaco deu origem à sigla de qual fator do sangue?",
+      "resposta": "Fator Rh",
+      "distratores": [
+        "Sistema ABO",
+        "Sistema Kell",
+        "Sistema Duffy"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Macaco-rhesus",
+        "descricao": "Macaco do Velho Mundo (Macaca mulatta), nativo da Ásia, de pelagem marrom-acinzentada e face rosada.",
+        "variantes": [
+          "Macaca mulatta",
+          "Rhesus macaque",
+          "Macaco-resos"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto antiga e desfocada de apenas a cabeça com cracas; poderia ser confundida com outras baleias (franca, jubarte). Resposta não única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Rosto e garras nítidos; a escrita no apoio de madeira não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este mamífero noturno das florestas tropicais americanas é parente próximo de qual destes animais?",
+      "resposta": "Quati",
+      "distratores": [
+        "Lêmure",
+        "Gambá",
+        "Furão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jupará",
+        "descricao": "Mamífero arborícola e noturno da família Procyonidae (Potos flavus), das florestas tropicais da América Central e do Sul.",
+        "variantes": [
+          "Kinkajou",
+          "Jupará-de-cauda-preênsil",
+          "Potos flavus",
+          "Macaco-da-noite"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida, com a faixa escura lateral e os chifres anelados; distratores parecidos disponíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que gazela africana é esta?",
+      "resposta": "Gazela-de-thomson",
+      "distratores": [
+        "Gazela-de-grant",
+        "Impala",
+        "Gazela-de-soemmerring"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gazela-de-thomson",
+        "descricao": "Pequena gazela da África Oriental (Eudorcas thomsonii), com faixa escura no flanco.",
+        "variantes": [
+          "Eudorcas thomsonii",
+          "Tommie",
+          "Thomson's gazelle"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pelagem manchada e orelhas grandes inconfundíveis; foto nítida de corpo inteiro.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal africano é este?",
+      "resposta": "Mabeco",
+      "distratores": [
+        "Hiena-malhada",
+        "Chacal-de-dorso-preto",
+        "Lobo-etíope"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mabeco",
+        "descricao": "Canídeo selvagem da África subsaariana (Lycaon pictus), de pelagem manchada em preto, amarelo e branco.",
+        "variantes": [
+          "Cão-selvagem-africano",
+          "Cão-pintado",
+          "Licaão",
+          "Lycaon pictus"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Colugo agarrado ao tronco, membrana visível; forma característica.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este mamífero planador do Sudeste Asiático é parente próximo de qual grupo?",
+      "resposta": "Primatas",
+      "distratores": [
+        "Morcegos",
+        "Roedores",
+        "Marsupiais"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Colugo",
+        "descricao": "Mamífero planador arborícola do Sudeste Asiático (Galeopterus variegatus), também chamado lêmure-voador.",
+        "variantes": [
+          "Lêmure-voador",
+          "Galeopterus variegatus",
+          "Sunda flying lemur"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto frontal clara, corpo branco e melão evidente; inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Qual é o único outro cetáceo vivo da família deste animal?",
+      "resposta": "Narval",
+      "distratores": [
+        "Orca",
+        "Boto-cor-de-rosa",
+        "Golfinho-nariz-de-garrafa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Beluga",
+        "descricao": "Cetáceo branco do Ártico (Delphinapterus leucas), sem nadadeira dorsal.",
+        "variantes": [
+          "Baleia-branca",
+          "Delphinapterus leucas",
+          "Beluga whale"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Macaco-aranha nítido, mãos pretas, braços longos; reconhecível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que região do mundo vive este macaco de cauda preênsil e braços longos?",
+      "resposta": "América Central",
+      "distratores": [
+        "Sudeste Asiático",
+        "África Central",
+        "Madagascar"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Macaco-aranha",
+        "descricao": "Macaco do Novo Mundo (Ateles geoffroyi), de braços longos e cauda preênsil, da América Central.",
+        "variantes": [
+          "Macaco-aranha-de-geoffroy",
+          "Ateles geoffroyi",
+          "Geoffroy's spider monkey"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto de um procionídeo anelado que pode ser o guaxinim comum (Procyon lotor); indistinguível do mão-pelada pela imagem, resposta não única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cabeça com calosidades típicas de baleia-franca; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta baleia migra todo inverno para a costa de qual estado brasileiro, para reproduzir?",
+      "resposta": "Santa Catarina",
+      "distratores": [
+        "Bahia",
+        "Ceará",
+        "Espírito Santo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Baleia-franca-austral",
+        "descricao": "Grande baleia de barbatanas do Hemisfério Sul (Eubalaena australis), com calosidades brancas na cabeça e sem nadadeira dorsal.",
+        "variantes": [
+          "Eubalaena australis",
+          "Southern right whale",
+          "Baleia-franca"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida, pelagem escura e cauda longa e peluda; reconhecível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que região do mundo vive este mamífero arborícola de cauda preênsil?",
+      "resposta": "Sudeste Asiático",
+      "distratores": [
+        "Madagascar",
+        "América Central",
+        "África Ocidental"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Binturong",
+        "descricao": "Viverrídeo arborícola do Sul e Sudeste da Ásia (Arctictis binturong), de pelagem escura e cauda preênsil.",
+        "variantes": [
+          "Arctictis binturong",
+          "Gato-urso",
+          "Bearcat"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Exemplar nítido em fundo branco, patas dianteiras largas; a escala de 1 cm não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que animal escavador é este?",
+      "resposta": "Toupeira",
+      "distratores": [
+        "Musaranho",
+        "Desmana",
+        "Ouriço"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Toupeira",
+        "descricao": "Pequeno mamífero escavador europeu (Talpa europaea), de pelagem escura e patas dianteiras largas.",
+        "variantes": [
+          "Toupeira-europeia",
+          "Talpa europaea",
+          "European mole"
+        ]
+      }
+    }
+  ]
+}
