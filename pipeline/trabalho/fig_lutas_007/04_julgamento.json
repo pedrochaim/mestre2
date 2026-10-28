@@ -1,0 +1,111 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ninja",
+        "descricao": "Espião e infiltrador do Japão pré-moderno, também chamado shinobi, tradicionalmente retratado de preto e encapuzado.",
+        "variantes": [
+          "Shinobi",
+          "Shinobi no mono"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ninjask",
+          "nome": "Ninjask",
+          "descricao": "Pokémon dos tipos Inseto e Voador, número 291 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "greninja",
+          "nome": "Greninja",
+          "descricao": "Pokémon dos tipos Água e Sombrio, número 658 da Pokédex Nacional.",
+          "variantes": [
+            "Gekkouga"
+          ]
+        },
+        {
+          "id": "shinai",
+          "nome": "Shinai",
+          "descricao": "Espada de treino e competição usada no kendô, a esgrima japonesa.",
+          "variantes": [
+            "Espada de bambu do kendô"
+          ]
+        },
+        {
+          "id": "xintoismo",
+          "nome": "Xintoísmo",
+          "descricao": "Religião tradicional do Japão, centrada no culto aos kami",
+          "variantes": [
+            "Xintô",
+            "Shinto",
+            "Shintoísmo"
+          ]
+        },
+        {
+          "id": "paul",
+          "nome": "Paul",
+          "descricao": "Treinador frio e exigente, rival de Ash Ketchum na série Diamante e Pérola do anime Pokémon, chamado Shinji no Japão.",
+          "variantes": [
+            "Shinji"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Max Schmeling",
+        "descricao": "Boxeador alemão, campeão mundial dos pesos pesados entre 1930 e 1932, que enfrentou Joe Louis em 1936 e 1938.",
+        "variantes": [
+          "Maximilian Adolph Otto Siegfried Schmeling"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "joe_louis_contra_max_schmeling",
+          "nome": "Joe Louis contra Max Schmeling",
+          "descricao": "Revanche de boxe de 1938, em Nova York, entre o americano Joe Louis e o alemão Max Schmeling.",
+          "variantes": [
+            "Joe Louis vs. Max Schmeling",
+            "Louis–Schmeling"
+          ]
+        },
+        {
+          "id": "max_e_os_felinos",
+          "nome": "Max e os Felinos",
+          "descricao": "Novela de Moacyr Scliar publicada em 1981, sobre um jovem que divide um bote com um felino após um naufrágio.",
+          "variantes": []
+        },
+        {
+          "id": "hering",
+          "nome": "Hering",
+          "descricao": "Empresa têxtil brasileira fundada em 1880 em Blumenau pelos irmãos alemães Hermann e Bruno Hering.",
+          "variantes": [
+            "Cia. Hering",
+            "Companhia Hering"
+          ]
+        },
+        {
+          "id": "mad_men",
+          "nome": "Mad Men",
+          "descricao": "Série dramática americana exibida de 2007 a 2015, sobre publicitários de uma agência de Nova York nos anos sessenta.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o ninja histórico; são Pokémon, espada, religião e personagem."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A candidata é a luta Louis–Schmeling de 1938, um evento, não o boxeador."
+    }
+  ]
+}

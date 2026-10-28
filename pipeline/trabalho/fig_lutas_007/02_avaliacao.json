@@ -1,0 +1,101 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Figura clássica, toda de preto com capuz e máscara, reconhecível como ninja; rosto quase todo coberto, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que guerreiro do Japão feudal, famoso por espionagem e infiltração, costuma ser retratado vestido assim?",
+      "resposta": "Ninja",
+      "distratores": [
+        "Samurai",
+        "Ronin",
+        "Sumotori"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ninja",
+        "descricao": "Espião e infiltrador do Japão pré-moderno, também chamado shinobi, tradicionalmente retratado de preto e encapuzado.",
+        "variantes": [
+          "Shinobi",
+          "Shinobi no mono"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto casual de um homem com camisa de clube e patrocinadores (Caixa, MRV); o lutador não é reconhecível pelo rosto e a camisa confunde a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato histórico nítido de boxeador com luvas, sem texto que identifique; figura pública. Reconhecimento difícil, então a pergunta vai além do nome com múltipla escolha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em 1936 e em 1938, este boxeador alemão enfrentou qual campeão americano em lutas de repercussão mundial?",
+      "resposta": "Joe Louis",
+      "distratores": [
+        "Jack Dempsey",
+        "Rocky Marciano",
+        "Joe Frazier"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Max Schmeling",
+        "descricao": "Boxeador alemão, campeão mundial dos pesos pesados entre 1930 e 1932, que enfrentou Joe Louis em 1936 e 1938.",
+        "variantes": [
+          "Maximilian Adolph Otto Siegfried Schmeling"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "As etiquetas da faixa trazem a palavra JUDOGI e 'Approved' da federação, o que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto casual de rosto sorridente com óculos escuros, entre pessoas em segundo plano; o lutador não é reconhecível pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto histórica granulada, cortada e escura; a pessoa não é reconhecível e a cena não identifica a resposta com unicidade."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Uniforme branco liso sobre fundo cinza, sem faixa nem marca distintiva; pode ser confundido com judogi, taekwondo ou outro uniforme, então a resposta não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A placa com os ideogramas 少林寺 sobre a porta entrega o nome do mosteiro, e a imagem não permite recortá-la de forma limpa."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto histórica em preto e branco de lutador com cinturão; sem elementos que o tornem reconhecível pelo público, e a resposta não fica única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Mostra pessoas comuns em primeiro plano (estudantes) e uma plateia de pessoas comuns, o que o regulamento proíbe."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A legenda em japonês no canto inferior (宮本武蔵座像) traz o nome de Musashi, entregando a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto antiga de um homem de terno, sem nenhum elemento que o relacione a artes marciais; não é reconhecível pela imagem."
+    }
+  ]
+}

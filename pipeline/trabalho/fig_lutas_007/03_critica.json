@@ -1,0 +1,34 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado vaza: 'espionagem e infiltração' é a definição de ninja, então dá para responder com a imagem coberta. Tirei essa pista e deixei só o Japão feudal.",
+      "reescrita": {
+        "pergunta": "Que tipo de personagem do Japão feudal costuma ser retratado vestido assim?",
+        "resposta": "Ninja",
+        "distratores": [
+          "Samurai",
+          "Ronin",
+          "Sumotori"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os confrontos de 1936 e 1938 contra Joe Louis são famosos e entregam a resposta sem a figura. Além disso, 'campeão americano' é impreciso: em 1936 Louis ainda não era campeão. Troquei por uma pista do campeonato mundial dele nos anos trinta e pedi só 'boxeador americano'.",
+      "reescrita": {
+        "pergunta": "Este boxeador alemão foi campeão mundial dos pesos pesados no início dos anos trinta. Que boxeador americano ele enfrentou em duas lutas de repercussão mundial?",
+        "resposta": "Joe Louis",
+        "distratores": [
+          "Jack Dempsey",
+          "Rocky Marciano",
+          "Joe Frazier"
+        ]
+      }
+    }
+  ]
+}
