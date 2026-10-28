@@ -877,9 +877,10 @@
     "fig_dinossauros_005",
     "fig_lutas_007",
     "fig_objetos_trajes_013",
-    "fig_atletas_022"
+    "fig_atletas_022",
+    "fig_relevo_maravilhas_001"
   ],
-  "maior_id": 16316,
+  "maior_id": 16324,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1727,6 +1728,19 @@
         "2": 15
       },
       "registradas": 39
+    },
+    "relevo_maravilhas": {
+      "familias": {
+        "o_que_e": 3,
+        "onde": 4,
+        "com_o_que_se_liga": 1
+      },
+      "niveis": {
+        "1": 4,
+        "2": 3,
+        "3": 1
+      },
+      "registradas": 8
     }
   },
   "rendimento": {

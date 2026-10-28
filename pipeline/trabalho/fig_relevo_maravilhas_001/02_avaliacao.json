@@ -1,0 +1,233 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Panorama aéreo com o Morro do Pico e as praias, reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que arquipélago brasileiro aparece nesta foto?",
+      "resposta": "Fernando de Noronha",
+      "distratores": [
+        "Abrolhos",
+        "Atol das Rocas",
+        "Fernando de Trindade"
+      ],
+      "ancora": {
+        "nome": "Fernando de Noronha",
+        "descricao": "Arquipélago vulcânico do Oceano Atlântico pertencente a Pernambuco, Brasil, com o Morro do Pico.",
+        "variantes": [
+          "Arquipélago de Fernando de Noronha"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Rio entre morros cársticos típicos de Guilin, reconhecível.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país corre este rio, cercado por colinas de calcário?",
+      "resposta": "China",
+      "distratores": [
+        "Vietnã",
+        "Tailândia",
+        "Laos"
+      ],
+      "ancora": {
+        "nome": "Rio Li",
+        "descricao": "Rio do nordeste de Guangxi, China, famoso pelas colinas cársticas que o margeiam, perto de Guilin.",
+        "variantes": [
+          "Li Jiang",
+          "Rio Lijiang"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem parece mostrar o cânion Itaimbezinho, e não o Fortaleza; a identificação não é segura, portanto a resposta não é única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Ponte de Rialto e palácios à margem tornam o Grande Canal reconhecível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que canal é este, com a famosa ponte ao fundo?",
+      "resposta": "Grande Canal",
+      "distratores": [
+        "Canal da Giudecca",
+        "Canal de Cannaregio",
+        "Canal Rio Novo"
+      ],
+      "ancora": {
+        "nome": "Grande Canal de Veneza",
+        "descricao": "Principal canal de Veneza, Itália, com formato de S invertido, cruzado pela Ponte de Rialto.",
+        "variantes": [
+          "Canal Grande",
+          "Canalazzo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Lago esverdeado sob paredões dolomíticos; reconhecível para quem conhece, com múltipla escolha.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este lago de águas verde-azuladas entre montanhas?",
+      "resposta": "Itália",
+      "distratores": [
+        "Áustria",
+        "Suíça",
+        "Eslovênia"
+      ],
+      "ancora": {
+        "nome": "Lago de Braies",
+        "descricao": "Lago alpino nas Dolomitas de Prags, no Tirol do Sul, Itália, conhecido como Pérola dos Alpes.",
+        "variantes": [
+          "Pragser Wildsee",
+          "Lago di Braies"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Lago de água leitosa com o Monte Cook ao fundo; a pergunta é pelo lago.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que lago neozelandês de águas azul-claras é este?",
+      "resposta": "Lago Pukaki",
+      "distratores": [
+        "Lago Tekapo",
+        "Lago Wakatipu",
+        "Lago Wanaka"
+      ],
+      "ancora": {
+        "nome": "Lago Pukaki",
+        "descricao": "Maior dos três lagos alpinos ao norte da bacia Mackenzie, na Ilha Sul da Nova Zelândia, com vista para o Monte Cook.",
+        "variantes": [
+          "Lake Pukaki",
+          "Pūkaki"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem de satélite em falsas cores, sem forma reconhecível para o público; o vulcão não é identificável."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pico nevado com vale glacial ao fundo, reconhecível como Aoraki/Monte Cook; pergunta de nível 3 sobre a cordilheira.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A que cordilheira pertence esta montanha, a mais alta do seu país?",
+      "resposta": "Alpes do Sul",
+      "distratores": [
+        "Andes Patagônicos",
+        "Montanhas Rochosas",
+        "Alpes Japoneses"
+      ],
+      "ancora": {
+        "nome": "Monte Cook (Aoraki)",
+        "descricao": "Montanha mais alta da Nova Zelândia, com 3724 metros, nos Alpes do Sul da Ilha Sul.",
+        "variantes": [
+          "Aoraki",
+          "Mount Cook",
+          "Aoraki / Mount Cook"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto de água, céu e nascer do sol sem nenhum elemento que permita reconhecer o lago."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Formação de arenito em forma de taça, característica de Vila Velha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que parque estadual paranaense abriga esta formação de arenito?",
+      "resposta": "Parque Estadual de Vila Velha",
+      "distratores": [
+        "Parque do Guartelá",
+        "Parque Estadual do Cerrado",
+        "Parque do Monge"
+      ],
+      "ancora": {
+        "nome": "Vila Velha (Paraná)",
+        "descricao": "Parque Estadual de Vila Velha, sítio geológico em Ponta Grossa, Paraná, com colunas de arenito como a Taça.",
+        "variantes": [
+          "Parque Estadual de Vila Velha",
+          "Taça de Vila Velha"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Paredão de gnaisse característico da Pedra do Baú, na Mantiqueira.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que estado fica este paredão de rocha, conhecido por escaladas?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Minas Gerais",
+        "Rio de Janeiro",
+        "Espírito Santo"
+      ],
+      "ancora": {
+        "nome": "Pedra do Baú",
+        "descricao": "Conjunto de rochas gnáissicas da Serra da Mantiqueira em São Bento do Sapucaí, São Paulo, popular para escalada.",
+        "variantes": [
+          "Complexo do Baú"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Eclusas do Canal do Panamá com torre e rebocador; a pergunta pede um fato após reconhecer.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que dois oceanos este canal liga?",
+      "resposta": "Atlântico e Pacífico",
+      "distratores": [
+        "Atlântico e Índico",
+        "Pacífico e Índico",
+        "Atlântico e Ártico"
+      ],
+      "ancora": {
+        "nome": "Canal do Panamá",
+        "descricao": "Via navegável artificial de 82 km no Panamá, com eclusas, que liga o Atlântico (mar do Caribe) ao Pacífico.",
+        "variantes": [
+          "Panama Canal"
+        ]
+      }
+    }
+  ]
+}

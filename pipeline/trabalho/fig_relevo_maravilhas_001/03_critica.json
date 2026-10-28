@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distrator 'Fernando de Trindade' é inventado e repete 'Fernando de', denunciando a resposta. Atol das Rocas é atol, não arquipélago. Troquei por arquipélagos brasileiros reais.",
+      "reescrita": {
+        "pergunta": "Que arquipélago brasileiro aparece nesta foto?",
+        "resposta": "Fernando de Noronha",
+        "distratores": [
+          "Abrolhos",
+          "Trindade e Martim Vaz",
+          "São Pedro e São Paulo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A China está nos trechos. Colinas cársticas são amplamente documentadas. A pista não entrega o rio. Os distratores são plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Não há garantia de que a ponte apareça na foto, então o enunciado pode ser falso para a imagem. 'Famosa ponte' também é pista desnecessária (a Ponte dos Suspiros é famosa e fica em outro canal). Simplifiquei para o reconhecimento direto.",
+      "reescrita": {
+        "pergunta": "Que canal de Veneza é este?",
+        "resposta": "Grande Canal",
+        "distratores": [
+          "Canal da Giudecca",
+          "Canal de Cannaregio",
+          "Canal Rio Novo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O lago fica no Tirol do Sul, Itália (trecho). A pista não identifica o lago. Os distratores são países alpinos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O lago neozelandês está confirmado nos trechos. A cor azul-clara é descrição genérica que não entrega o nome. Os distratores são lagos reais e parecidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam: montanha mais alta da Nova Zelândia, nos Alpes do Sul. O enunciado não nomeia o país nem a montanha. Os distratores são cordilheiras plausíveis e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O parque, o estado e o arenito estão nos trechos. A Taça é exclusiva de Vila Velha. Os distratores são parques estaduais paranaenses reais, com até 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Pedra do Baú fica em São Bento do Sapucaí, SP, e é conhecida por escalada (trecho). A pista não entrega a formação. Os distratores são estados vizinhos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O canal liga o Atlântico ao Pacífico (trechos). A figura é necessária para saber de que canal se trata. Os distratores são pares de oceanos plausíveis e errados.",
+      "reescrita": null
+    }
+  ]
+}

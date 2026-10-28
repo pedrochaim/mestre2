@@ -1,0 +1,89 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que arquipélago brasileiro aparece nesta foto?",
+        "resposta": "Fernando de Noronha"
+      },
+      "existentes": [
+        {
+          "id": "q02190",
+          "pergunta": "O arquipélago de Fernando de Noronha leva o nome de um comerciante de Lisboa que, no início do século dezesseis, arrendou da Coroa o comércio de qual madeira?",
+          "resposta": "Pau-brasil"
+        },
+        {
+          "id": "q02426",
+          "pergunta": "O arquipélago de Fernando de Noronha fica mais perto de Natal, mas pertence a qual estado brasileiro?",
+          "resposta": "Pernambuco"
+        },
+        {
+          "id": "q02427",
+          "pergunta": "Quantas ilhas, ilhotas e rochedos formam o arquipélago de Fernando de Noronha?",
+          "resposta": "Vinte e uma"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que parque estadual paranaense abriga esta formação de arenito?",
+        "resposta": "Parque Estadual de Vila Velha"
+      },
+      "existentes": [
+        {
+          "id": "q04407",
+          "pergunta": "Que parque brasileiro de rochas esculpidas pela erosão é este?",
+          "resposta": "Vila Velha"
+        },
+        {
+          "id": "q05187",
+          "pergunta": "Os blocos de arenito esculpidos pela chuva e pelo vento do Parque Estadual de Vila Velha, como a famosa Taça, ficam em qual estado brasileiro?",
+          "resposta": "Paraná"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que dois oceanos este canal liga?",
+        "resposta": "Atlântico e Pacífico"
+      },
+      "existentes": [
+        {
+          "id": "q02205",
+          "pergunta": "Por que os navios precisam subir por eclusas para atravessar o canal do Panamá?",
+          "resposta": "Para cruzar um lago elevado"
+        },
+        {
+          "id": "q02223",
+          "pergunta": "O canal do Panamá foi inaugurado no mesmo ano em que começou qual grande conflito mundial?",
+          "resposta": "Primeira Guerra Mundial"
+        },
+        {
+          "id": "q09371",
+          "pergunta": "Por causa da curva do istmo, qual ponta do Canal do Panamá fica mais a leste: a do Atlântico ou a do Pacífico?",
+          "resposta": "A do Pacífico"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta identifica o arquipélago pela foto; as existentes tratam de origem do nome, estado e número de ilhas, fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q04407",
+      "motivo": "Ambas pedem a identificação do parque de Vila Velha a partir da imagem das rochas de arenito."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Os oceanos ligados pelo canal são um fato distinto de eclusas, ano de inauguração ou posição das pontas."
+    }
+  ]
+}
