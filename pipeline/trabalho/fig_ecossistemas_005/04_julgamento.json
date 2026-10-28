@@ -1,0 +1,707 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tornado",
+        "descricao": "Coluna de ar em rotação rápida que se estende de uma nuvem de tempestade até o solo.",
+        "variantes": [
+          "Twister"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tornado",
+          "nome": "Tornado",
+          "descricao": "Coluna de ar em rotação violenta que se estende de uma nuvem de tempestade até o solo",
+          "variantes": []
+        },
+        {
+          "id": "twitter",
+          "nome": "Twitter",
+          "descricao": "Rede social de mensagens curtas criada em 2006 nos Estados Unidos.",
+          "variantes": [
+            "X"
+          ]
+        },
+        {
+          "id": "tornadus",
+          "nome": "Tornadus",
+          "descricao": "Pokémon do tipo Voador, número 641 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "tornassol",
+          "nome": "Tornassol",
+          "descricao": "Corante extraído de líquens, usado em papel indicador que muda de cor conforme a acidez.",
+          "variantes": [
+            "Papel de tornassol",
+            "Litmus"
+          ]
+        },
+        {
+          "id": "tora",
+          "nome": "Torá",
+          "descricao": "Conjunto dos cinco primeiros livros da Bíblia hebraica, base da lei judaica",
+          "variantes": [
+            "Torah"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Dolina",
+        "descricao": "Depressão ou buraco no terreno causado pelo colapso ou dissolução de rochas, típica de regiões cársticas.",
+        "variantes": [
+          "Sinkhole",
+          "Abismo cárstico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mandolina_utensilio",
+          "nome": "Mandolina (utensílio)",
+          "descricao": "Utensílio de cozinha com lâmina fixa numa base, usado para fatiar legumes em lâminas finas.",
+          "variantes": [
+            "Mandolina",
+            "Mandoline",
+            "Fatiador de legumes"
+          ]
+        },
+        {
+          "id": "golfinho",
+          "nome": "Golfinho",
+          "descricao": "Cetáceos com dentes da família Delphinidae, como o golfinho-nariz-de-garrafa.",
+          "variantes": [
+            "Delphinidae",
+            "Dolphin",
+            "Golfinhos"
+          ]
+        },
+        {
+          "id": "polaina",
+          "nome": "Polaina",
+          "descricao": "Acessório de feltro ou couro que cobre o peito do pé e o tornozelo, preso por botões.",
+          "variantes": [
+            "Spats",
+            "Polainas"
+          ]
+        },
+        {
+          "id": "boina",
+          "nome": "Boina",
+          "descricao": "Chapéu macio, redondo e de copa plana, em lã ou feltro, associado ao País Basco e à França.",
+          "variantes": [
+            "Beret",
+            "Béret",
+            "Txapela"
+          ]
+        },
+        {
+          "id": "rio_danubio",
+          "nome": "Rio Danúbio",
+          "descricao": "Rio da Europa Central e Oriental que nasce na Alemanha e deságua no mar Negro.",
+          "variantes": [
+            "Danúbio",
+            "Danube",
+            "Donau"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cogumelo bioluminescente",
+        "descricao": "Cogumelo do gênero Mycena que emite luz verde pálida por bioluminescência, como Mycena chlorophos.",
+        "variantes": [
+          "Mycena chlorophos",
+          "Cogumelo fantasma"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caranguejo_fantasma",
+          "nome": "Caranguejo-fantasma",
+          "descricao": "Caranguejo de praia do gênero Ocypode, de olhos em hastes longas, que vive na areia.",
+          "variantes": [
+            "Caranguejo",
+            "Maria-farinha",
+            "Ocypode"
+          ]
+        },
+        {
+          "id": "bioluminescencia",
+          "nome": "Bioluminescência",
+          "descricao": "Produção de luz por seres vivos, como vaga-lumes e muitos animais marinhos, por meio de uma reação química.",
+          "variantes": [
+            "Bioluminescence"
+          ]
+        },
+        {
+          "id": "cogumelo_gaiola",
+          "nome": "Cogumelo-gaiola",
+          "descricao": "Clathrus ruber, fungo da família Phallaceae com corpo frutífero vermelho em forma de rede esférica.",
+          "variantes": [
+            "Clathrus ruber",
+            "Cesto-vermelho"
+          ]
+        },
+        {
+          "id": "shiitake",
+          "nome": "Shiitake",
+          "descricao": "Cogumelo comestível marrom do Leste Asiático, Lentinula edodes.",
+          "variantes": [
+            "Lentinula edodes",
+            "Cogumelo shitake"
+          ]
+        },
+        {
+          "id": "champignon",
+          "nome": "Champignon",
+          "descricao": "Cogumelo cultivado branco, Agaricus bisporus, o mais consumido no mundo.",
+          "variantes": [
+            "Champignon de Paris",
+            "Agaricus bisporus",
+            "Cogumelo-de-paris"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Champignon",
+        "descricao": "Cogumelo comestível branco cultivado, Agaricus bisporus, também chamado champignon de Paris.",
+        "variantes": [
+          "Champignon de Paris",
+          "Agaricus bisporus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "champignon",
+          "nome": "Champignon",
+          "descricao": "Cogumelo cultivado branco, Agaricus bisporus, o mais consumido no mundo.",
+          "variantes": [
+            "Champignon de Paris",
+            "Agaricus bisporus",
+            "Cogumelo-de-paris"
+          ]
+        },
+        {
+          "id": "canhao_de_paris",
+          "nome": "Canhão de Paris",
+          "descricao": "Canhão alemão de longuíssimo alcance usado em 1918 para bombardear Paris a partir de posições muito distantes da cidade.",
+          "variantes": [
+            "Paris-Geschütz",
+            "Paris Gun",
+            "Kaiser-Wilhelm-Geschütz"
+          ]
+        },
+        {
+          "id": "champanhe",
+          "nome": "Champanhe",
+          "descricao": "Vinho espumante produzido na região de Champagne, na França",
+          "variantes": [
+            "Champagne",
+            "Champanha"
+          ]
+        },
+        {
+          "id": "chopine",
+          "nome": "Chopine",
+          "descricao": "Sapato feminino de plataforma altíssima usado na Europa entre os séculos quinze e dezessete",
+          "variantes": [
+            "Chopines",
+            "Chapins"
+          ]
+        },
+        {
+          "id": "panteao_de_paris",
+          "nome": "Panteão de Paris",
+          "descricao": "Edifício neoclássico no Quartier Latin, em Paris, que guarda os restos de grandes personalidades francesas.",
+          "variantes": [
+            "Panthéon",
+            "Panteão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Barba-de-velho",
+        "descricao": "Bromélia epífita (Tillandsia usneoides) que pende em longos filamentos acinzentados das árvores.",
+        "variantes": [
+          "Tillandsia usneoides",
+          "Barba-de-pau",
+          "Musgo-espanhol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barao_de_maua",
+          "nome": "Barão de Mauá",
+          "descricao": "Irineu Evangelista de Sousa, empresário, banqueiro e industrial brasileiro do Império, barão e depois visconde de Mauá.",
+          "variantes": [
+            "Visconde de Mauá",
+            "Irineu Evangelista de Sousa"
+          ]
+        },
+        {
+          "id": "bandeira_de_palau",
+          "nome": "Bandeira de Palau",
+          "descricao": "Bandeira nacional de Palau, com um disco amarelo deslocado sobre fundo azul-celeste.",
+          "variantes": [
+            "Palau",
+            "Bandeira palauana"
+          ]
+        },
+        {
+          "id": "lingua_espanhola",
+          "nome": "Língua espanhola",
+          "descricao": "Língua românica originada em Castela, oficial na Espanha e em boa parte da América Latina",
+          "variantes": [
+            "Espanhol",
+            "Castelhano"
+          ]
+        },
+        {
+          "id": "cavalo_de_pau_bomba_de_petroleo",
+          "nome": "Cavalo de pau (bomba de petróleo)",
+          "descricao": "Equipamento de superfície que aciona a bomba de vareta de sucção para elevar petróleo de poços terrestres.",
+          "variantes": [
+            "Bomba de petróleo",
+            "Pumpjack",
+            "Cavalo-de-pau",
+            "Bomba de vareta de sucção"
+          ]
+        },
+        {
+          "id": "barata_d_agua",
+          "nome": "Barata-d'água",
+          "descricao": "Inseto hemíptero aquático da família Belostomatidae, predador de água doce, cujo macho carrega os ovos nas costas.",
+          "variantes": [
+            "Belostomatidae",
+            "Giant water bug",
+            "Baratão-d'água"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cogumelo-ostra",
+        "descricao": "Cogumelo comestível Pleurotus ostreatus, em forma de concha, que cresce em troncos.",
+        "variantes": [
+          "Pleurotus ostreatus",
+          "Hiratake"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "shiitake",
+          "nome": "Shiitake",
+          "descricao": "Cogumelo comestível marrom do Leste Asiático, Lentinula edodes.",
+          "variantes": [
+            "Lentinula edodes",
+            "Cogumelo shitake"
+          ]
+        },
+        {
+          "id": "st_kilda",
+          "nome": "St Kilda",
+          "descricao": "Arquipélago remoto a oeste das Hébridas Exteriores, na Escócia, com Hirta como maior ilha.",
+          "variantes": [
+            "Saint Kilda",
+            "Hirta"
+          ]
+        },
+        {
+          "id": "cogumelo_gaiola",
+          "nome": "Cogumelo-gaiola",
+          "descricao": "Clathrus ruber, fungo da família Phallaceae com corpo frutífero vermelho em forma de rede esférica.",
+          "variantes": [
+            "Clathrus ruber",
+            "Cesto-vermelho"
+          ]
+        },
+        {
+          "id": "hinata_hyuga",
+          "nome": "Hinata Hyuga",
+          "descricao": "Kunoichi de Konoha do clã Hyuga, da Equipe 8, em Naruto.",
+          "variantes": [
+            "Hinata"
+          ]
+        },
+        {
+          "id": "hipatia",
+          "nome": "Hipátia",
+          "descricao": "Filósofa, astrônoma e matemática de Alexandria, assassinada no ano 415.",
+          "variantes": [
+            "Hipátia de Alexandria",
+            "Hypatia",
+            "Hipácia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Sargaço",
+        "descricao": "Alga marrom do gênero Sargassum, com vesículas de ar, que forma massas flutuantes no oceano.",
+        "variantes": [
+          "Sargassum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sargao_da_acadia",
+          "nome": "Sargão da Acádia",
+          "descricao": "Rei mesopotâmico do século vinte e quatro antes de Cristo, fundador do Império Acádio.",
+          "variantes": [
+            "Sargão I",
+            "Sargon of Akkad"
+          ]
+        },
+        {
+          "id": "espartaco",
+          "nome": "Espártaco",
+          "descricao": "Gladiador trácio que liderou a maior revolta de escravos contra Roma, entre 73 e 71 antes de Cristo.",
+          "variantes": [
+            "Spartacus"
+          ]
+        },
+        {
+          "id": "cangaco",
+          "nome": "Cangaço",
+          "descricao": "Fenômeno de banditismo social do sertão do Nordeste brasileiro, entre fins do século dezenove e começo do vinte, com bandos de cangaceiros de chapéu de couro.",
+          "variantes": [
+            "Cangaceiros"
+          ]
+        },
+        {
+          "id": "capacete_colonial",
+          "nome": "Capacete colonial",
+          "descricao": "Capacete leve coberto de tecido, feito de sholapith, usado por militares e exploradores nos trópicos.",
+          "variantes": [
+            "Pith helmet",
+            "Capacete de safári",
+            "Salacot"
+          ]
+        },
+        {
+          "id": "farao",
+          "nome": "Faraó",
+          "descricao": "Título dado pelos historiadores modernos aos reis do Egito Antigo",
+          "variantes": [
+            "Pharaoh",
+            "Per-aa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Arco-íris",
+        "descricao": "Fenômeno óptico em arco multicolorido causado pela refração e reflexão da luz em gotas de água.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "arco_iris",
+          "nome": "Arco-íris",
+          "descricao": "Fenômeno óptico em que a luz do Sol, refratada e refletida em gotas de chuva, forma um arco colorido no céu.",
+          "variantes": [
+            "Arco-celeste",
+            "Rainbow"
+          ]
+        },
+        {
+          "id": "cano_cristales",
+          "nome": "Caño Cristales",
+          "descricao": "Rio da serra de La Macarena, na Colômbia, conhecido como rio de cinco cores.",
+          "variantes": [
+            "Rio de Cinco Cores",
+            "Rio Arco-Íris"
+          ]
+        },
+        {
+          "id": "loris_arco_iris",
+          "nome": "Lóris-arco-íris",
+          "descricao": "Papagaio australiano (Trichoglossus moluccanus) de cabeça azul, peito laranja e dorso verde.",
+          "variantes": [
+            "Lóris-molucano",
+            "Trichoglossus moluccanus",
+            "Rainbow lorikeet"
+          ]
+        },
+        {
+          "id": "rainbow_cloud_pokemon_snap",
+          "nome": "Rainbow Cloud (Pokémon Snap)",
+          "descricao": "Fase final e secreta de Pokémon Snap, uma nuvem de arco-íris onde Todd fotografa o mítico Mew.",
+          "variantes": [
+            "Rainbow Cloud",
+            "Nuvem Arco-Íris"
+          ]
+        },
+        {
+          "id": "escargot",
+          "nome": "Escargot",
+          "descricao": "Prato de caracóis terrestres comestíveis, servidos com manteiga de ervas.",
+          "variantes": [
+            "Caracóis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Ninfeia",
+        "descricao": "Planta aquática do gênero Nymphaea, de flores vistosas e folhas flutuantes.",
+        "variantes": [
+          "Nymphaea",
+          "Nenúfar",
+          "Lírio-d'água"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ninfeias_monet",
+          "nome": "Ninfeias (Monet)",
+          "descricao": "Série de quadros de Claude Monet com o lago de seu jardim em Giverny.",
+          "variantes": [
+            "Water Lilies",
+            "Nymphéas"
+          ]
+        },
+        {
+          "id": "tardigrado",
+          "nome": "Tardígrado",
+          "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas.",
+          "variantes": [
+            "Tardigrada",
+            "water bear",
+            "Urso-d'água"
+          ]
+        },
+        {
+          "id": "roda_d_agua",
+          "nome": "Roda d'água",
+          "descricao": "Grande roda de madeira com pás ou caçambas que converte a energia da água corrente em força mecânica, usada em moinhos.",
+          "variantes": [
+            "Roda de água",
+            "Roda hidráulica",
+            "Azenha"
+          ]
+        },
+        {
+          "id": "lixa",
+          "nome": "Lixa",
+          "descricao": "Papel ou tecido coberto de grãos abrasivos usado para desbastar e alisar superfícies.",
+          "variantes": [
+            "Lixa d'água",
+            "Papel de lixa"
+          ]
+        },
+        {
+          "id": "copo_de_leite",
+          "nome": "Copo-de-leite",
+          "descricao": "Zantedeschia aethiopica, planta de origem sul-africana com espata branca em forma de funil.",
+          "variantes": [
+            "Zantedeschia aethiopica",
+            "Lírio-de-calla",
+            "Calla"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Nuvem mammatus",
+        "descricao": "Formação de bolsas pendentes sob a base de uma nuvem, tipicamente um cumulonimbus.",
+        "variantes": [
+          "Mamma",
+          "Mammatocumulus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nuvem_mammatus",
+          "nome": "Nuvem mammatus",
+          "descricao": "Formação de bolsas arredondadas penduradas na base de uma nuvem, em geral um cumulonimbo.",
+          "variantes": [
+            "Mammatus",
+            "Mamma"
+          ]
+        },
+        {
+          "id": "mamao",
+          "nome": "Mamão",
+          "descricao": "Fruta tropical alaranjada da Carica papaya, com muitas sementes pretas no centro.",
+          "variantes": [
+            "Papaia",
+            "Carica papaya"
+          ]
+        },
+        {
+          "id": "altocumulo",
+          "nome": "Altocúmulo",
+          "descricao": "Gênero de nuvem de altitude média formada por massas globulares ou rolos em camadas.",
+          "variantes": [
+            "Altocumulus"
+          ]
+        },
+        {
+          "id": "maome",
+          "nome": "Maomé",
+          "descricao": "Profeta do islã, nascido em Meca",
+          "variantes": [
+            "Muhammad",
+            "Mohammed"
+          ]
+        },
+        {
+          "id": "setsubun",
+          "nome": "Setsubun",
+          "descricao": "Festa japonesa da véspera do início da primavera no calendário tradicional, em que se espantam os demônios.",
+          "variantes": [
+            "Mamemaki"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Papagaio-do-mar",
+        "descricao": "Ave marinha do Atlântico Norte (Fratercula arctica) de bico colorido e pés laranja.",
+        "variantes": [
+          "Fradinho",
+          "Atlantic puffin",
+          "Fratercula arctica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "papagaio_do_mar",
+          "nome": "Papagaio-do-mar",
+          "descricao": "Ave marinha de bico colorido triangular do Atlântico Norte, Fratercula arctica.",
+          "variantes": [
+            "Fratercula arctica",
+            "Atlantic puffin",
+            "Fradinho",
+            "Puffin"
+          ]
+        },
+        {
+          "id": "feijao_fradinho",
+          "nome": "Feijão-fradinho",
+          "descricao": "Feijão claro com uma mancha preta no hilo, subespécie do feijão-caupi (Vigna unguiculata).",
+          "variantes": [
+            "Fradinho",
+            "Feijão-de-olho-preto",
+            "Black-eyed pea"
+          ]
+        },
+        {
+          "id": "rayssa_leal",
+          "nome": "Rayssa Leal",
+          "descricao": "Skatista brasileira, medalhista olímpica no skate street, conhecida como Fadinha.",
+          "variantes": [
+            "Fadinha",
+            "Rayssa Leal Mendes"
+          ]
+        },
+        {
+          "id": "francisco_jose_do_nascimento",
+          "nome": "Francisco José do Nascimento",
+          "descricao": "Jangadeiro cearense que liderou em 1881 a greve dos jangadeiros contra o embarque de escravizados em Fortaleza.",
+          "variantes": [
+            "Dragão do Mar",
+            "Chico da Matilde"
+          ]
+        },
+        {
+          "id": "pepino_do_mar",
+          "nome": "Pepino-do-mar",
+          "descricao": "Equinoderma da classe Holothuroidea, de corpo alongado e pele coriácea, que vive no fundo do mar.",
+          "variantes": [
+            "Holotúria",
+            "Holothuroidea"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "tornado",
+      "motivo": "Mesmo fenômeno meteorológico."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata descreve dolina."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cogumelo Mycena bioluminescente é distinto das candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "champignon",
+      "motivo": "Mesmo cogumelo Agaricus bisporus."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Tillandsia usneoides não consta nas candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Pleurotus ostreatus é espécie diferente das candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Alga sargaço não consta nas candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "arco_iris",
+      "motivo": "Mesmo fenômeno óptico."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "A planta é distinta da série de quadros de Monet."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "nuvem_mammatus",
+      "motivo": "Mesma formação de nuvem."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "papagaio_do_mar",
+      "motivo": "Mesma ave Fratercula arctica."
+    }
+  ]
+}

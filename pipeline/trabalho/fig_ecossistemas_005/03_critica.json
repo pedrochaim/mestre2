@@ -1,0 +1,97 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português confirma que a tromba-d'água é o tornado que se desenvolve sobre corpos d'água. O enunciado não nomeia a entidade e os distratores são do mesmo tipo e não estão corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Aberta pelo colapso do terreno' define a dolina e dá a resposta sem a figura. Também é impreciso, porque a dolina pode se formar só por dissolução da rocha. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Que tipo de formação geológica é esta?",
+        "resposta": "Dolina",
+        "distratores": [
+          "Cratera vulcânica",
+          "Gruta marinha",
+          "Caldeira glacial"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que Mycena chlorophos cresce em restos de madeira, como galhos caídos e pecíolos em decomposição. 'Brilham no escuro' só descreve o que se vê, não entrega a resposta, e os distratores são plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. O champignon é identificado nos trechos como o Agaricus bisporus, e os distratores são cogumelos comestíveis visualmente distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O trecho confirma que a planta é da família Bromeliaceae, e é amplamente documentado que o abacaxi também é. Banana, maracujá e uva são de outras famílias. O enunciado não nomeia a planta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O cogumelo-ostra é comestível e lenhícola, como dizem os trechos. A pista 'cresce em troncos' não entrega a resposta, e a figura distingue o cogumelo-ostra do shiitake e dos outros distratores.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pequenas bolinhas de flutuação' também descreve o Fucus (distrator), que tem vesículas de ar. A pista não distingue a resposta, e só a figura deve fazer isso. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Que alga marinha é esta?",
+        "resposta": "Sargaço",
+        "distratores": [
+          "Kelp gigante",
+          "Alface-do-mar",
+          "Fucus"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta, sem vazamento. O arco-íris é descrito como fenômeno óptico no céu, e os distratores são fenômenos ópticos ou atmosféricos que dá para distinguir na imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A ninfeia é da família Nymphaeaceae, como confirma o trecho, e é amplamente documentado que a vitória-régia também. Aguapé, lótus-sagrado e alface-d'água são de outras famílias. O enunciado não nomeia a planta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de mammatus, sem vazamento. Os distratores são outros tipos de nuvem e nenhum deles está certo.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho dá Fratercula arctica como papagaio-do-mar, ave marinha do Atlântico Norte. A pergunta não vaza a resposta, e os distratores são aves marinhas plausíveis e erradas.",
+      "reescrita": null
+    }
+  ]
+}

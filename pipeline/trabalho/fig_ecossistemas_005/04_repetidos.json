@@ -1,0 +1,116 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quando um fenômeno como este se forma sobre a água, que nome ele recebe?",
+        "resposta": "Tromba-d'água"
+      },
+      "existentes": [
+        {
+          "id": "q08709",
+          "pergunta": "A palavra tornado vem do espanhol tronada, influenciada pelo verbo tornar. O que significa tronada?",
+          "resposta": "Trovoada"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que cogumelo comestível é este?",
+        "resposta": "Champignon"
+      },
+      "existentes": [
+        {
+          "id": "q14664",
+          "pergunta": "Que cogumelo é este?",
+          "resposta": "Champignon"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que fenômeno óptico do céu é este?",
+        "resposta": "Arco-íris"
+      },
+      "existentes": [
+        {
+          "id": "q02993",
+          "pergunta": "Isaac Newton dividiu as cores do arco-íris em sete, acrescentando o laranja e o anil, por analogia com quê?",
+          "resposta": "As sete notas musicais"
+        },
+        {
+          "id": "q14161",
+          "pergunta": "Que fenômeno óptico aparece no céu desta foto?",
+          "resposta": "Arco-íris"
+        },
+        {
+          "id": "q15539",
+          "pergunta": "Às vezes aparece um segundo arco-íris, mais fraco, por fora do principal. O que acontece com a ordem das cores nele?",
+          "resposta": "Fica invertida"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que formação de nuvens é esta?",
+        "resposta": "Mammatus"
+      },
+      "existentes": [
+        {
+          "id": "q14222",
+          "pergunta": "Que formação de nuvem é esta, vista de baixo?",
+          "resposta": "Nuvem mammatus"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que ave marinha é esta?",
+        "resposta": "Papagaio-do-mar"
+      },
+      "existentes": [
+        {
+          "id": "q14488",
+          "pergunta": "Em qual destes países esta ave marinha se reproduz?",
+          "resposta": "Islândia"
+        },
+        {
+          "id": "q16258",
+          "pergunta": "Que ave marinha de bico colorido é esta?",
+          "resposta": "Papagaio-do-mar"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o nome do tornado sobre a água, fato diferente da etimologia de tornado."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesma identificação do champignon pela imagem."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "q14161 pergunta o mesmo: identificar o arco-íris na foto."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesma identificação de nuvens mammatus."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "q16258 pede a identificação do papagaio-do-mar, mesma resposta."
+    }
+  ]
+}

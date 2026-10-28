@@ -1,0 +1,273 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Tornado nítido, sem texto, resposta única.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Quando um fenômeno como este se forma sobre a água, que nome ele recebe?",
+      "resposta": "Tromba-d'água",
+      "distratores": [
+        "Ciclone tropical",
+        "Redemoinho de poeira",
+        "Furacão"
+      ],
+      "ancora": {
+        "nome": "Tornado",
+        "descricao": "Coluna de ar em rotação rápida que se estende de uma nuvem de tempestade até o solo.",
+        "variantes": [
+          "Twister"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Dolina com lagoa azul, reconhecível; pessoas pequenas e ao fundo.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de formação geológica é esta, aberta pelo colapso do terreno?",
+      "resposta": "Dolina",
+      "distratores": [
+        "Cratera vulcânica",
+        "Gruta marinha",
+        "Caldeira glacial"
+      ],
+      "ancora": {
+        "nome": "Dolina",
+        "descricao": "Depressão ou buraco no terreno causado pelo colapso ou dissolução de rochas, típica de regiões cársticas.",
+        "variantes": [
+          "Sinkhole",
+          "Abismo cárstico"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cogumelos verdes luminescentes, nítidos, sem texto; pergunta genérica sobre substrato é válida.",
+      "destino": 2,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Estes cogumelos brilham no escuro. Em que material costumam crescer nas florestas?",
+      "resposta": "Madeira em decomposição",
+      "distratores": [
+        "Esterco de animais",
+        "Solo arenoso",
+        "Folhas vivas"
+      ],
+      "ancora": {
+        "nome": "Cogumelo bioluminescente",
+        "descricao": "Cogumelo do gênero Mycena que emite luz verde pálida por bioluminescência, como Mycena chlorophos.",
+        "variantes": [
+          "Mycena chlorophos",
+          "Cogumelo fantasma"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Champignons brancos, inteiros e cortado, claros e sem texto.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cogumelo comestível é este?",
+      "resposta": "Champignon",
+      "distratores": [
+        "Shiitake",
+        "Shimeji",
+        "Cogumelo-ostra"
+      ],
+      "ancora": {
+        "nome": "Champignon",
+        "descricao": "Cogumelo comestível branco cultivado, Agaricus bisporus, também chamado champignon de Paris.",
+        "variantes": [
+          "Champignon de Paris",
+          "Agaricus bisporus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Barba-de-velho pendurada em árvores, característica e sem texto.",
+      "destino": 2,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta planta que pende dos galhos pertence à mesma família de que fruta?",
+      "resposta": "Abacaxi",
+      "distratores": [
+        "Banana",
+        "Maracujá",
+        "Uva"
+      ],
+      "ancora": {
+        "nome": "Barba-de-velho",
+        "descricao": "Bromélia epífita (Tillandsia usneoides) que pende em longos filamentos acinzentados das árvores.",
+        "variantes": [
+          "Tillandsia usneoides",
+          "Barba-de-pau",
+          "Musgo-espanhol"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Ilustração litográfica com várias anêmonas e assinatura visível; não é foto de uma única entidade."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cogumelo-ostra em tronco, muito característico, sem texto.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cogumelo comestível, que cresce em troncos de árvores, é este?",
+      "resposta": "Cogumelo-ostra",
+      "distratores": [
+        "Orelha-de-pau",
+        "Shiitake",
+        "Cogumelo-do-sol"
+      ],
+      "ancora": {
+        "nome": "Cogumelo-ostra",
+        "descricao": "Cogumelo comestível Pleurotus ostreatus, em forma de concha, que cresce em troncos.",
+        "variantes": [
+          "Pleurotus ostreatus",
+          "Hiratake"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Sargaço com vesículas flutuadoras, claro e sem texto.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que alga marinha, com pequenas bolinhas de flutuação, é esta?",
+      "resposta": "Sargaço",
+      "distratores": [
+        "Kelp gigante",
+        "Alface-do-mar",
+        "Fucus"
+      ],
+      "ancora": {
+        "nome": "Sargaço",
+        "descricao": "Alga marrom do gênero Sargassum, com vesículas de ar, que forma massas flutuantes no oceano.",
+        "variantes": [
+          "Sargassum"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Arco-íris nítido sobre rua; placa da loja não entrega a resposta; pessoa distante.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno óptico do céu é este?",
+      "resposta": "Arco-íris",
+      "distratores": [
+        "Halo solar",
+        "Parélio",
+        "Aurora boreal"
+      ],
+      "ancora": {
+        "nome": "Arco-íris",
+        "descricao": "Fenômeno óptico em arco multicolorido causado pela refração e reflexão da luz em gotas de água.",
+        "variantes": [
+          "Arco-iris"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Ninfeia em close, nítida e sem texto.",
+      "destino": 2,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta flor aquática pertence à mesma família de que planta aquática da Amazônia?",
+      "resposta": "Vitória-régia",
+      "distratores": [
+        "Aguapé",
+        "Lótus-sagrado",
+        "Alface-d'água"
+      ],
+      "ancora": {
+        "nome": "Ninfeia",
+        "descricao": "Planta aquática do gênero Nymphaea, de flores vistosas e folhas flutuantes.",
+        "variantes": [
+          "Nymphaea",
+          "Nenúfar",
+          "Lírio-d'água"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Nuvem com bolsas pendentes bem característica, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que formação de nuvens é esta?",
+      "resposta": "Mammatus",
+      "distratores": [
+        "Nuvem lenticular",
+        "Nuvem arco",
+        "Cirrocúmulo"
+      ],
+      "ancora": {
+        "nome": "Nuvem mammatus",
+        "descricao": "Formação de bolsas pendentes sob a base de uma nuvem, tipicamente um cumulonimbus.",
+        "variantes": [
+          "Mamma",
+          "Mammatocumulus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Papagaio-do-mar nítido, inconfundível, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave marinha é esta?",
+      "resposta": "Papagaio-do-mar",
+      "distratores": [
+        "Torda-mergulheira",
+        "Airo-comum",
+        "Pinguim-de-magalhães"
+      ],
+      "ancora": {
+        "nome": "Papagaio-do-mar",
+        "descricao": "Ave marinha do Atlântico Norte (Fratercula arctica) de bico colorido e pés laranja.",
+        "variantes": [
+          "Fradinho",
+          "Atlantic puffin",
+          "Fratercula arctica"
+        ]
+      }
+    }
+  ]
+}
