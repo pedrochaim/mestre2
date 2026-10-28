@@ -1,0 +1,180 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Massa de alga verde bem visível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que tipo de organismo forma esta massa verde sobre a água?",
+      "resposta": "Alga",
+      "distratores": [
+        "Musgo",
+        "Líquen",
+        "Samambaia"
+      ],
+      "ancora": {
+        "nome": "Alga",
+        "descricao": "Grupo diverso de organismos fotossintetizantes, em geral aquáticos, que exclui as plantas terrestres.",
+        "variantes": [
+          "Algas"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Montagem de três tecidos com legendas em texto que entregam a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem traz texto com o nome Chlamydomonas na barra inferior, que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Placas de Petri claras, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que recipiente de laboratório é este?",
+      "resposta": "Placa de Petri",
+      "distratores": [
+        "Béquer",
+        "Tubo de ensaio",
+        "Erlenmeyer"
+      ],
+      "ancora": {
+        "nome": "Placa de Petri",
+        "descricao": "Recipiente raso, transparente e com tampa, usado em laboratório para cultivar células e microrganismos.",
+        "variantes": [
+          "Placa de cultura",
+          "Petri dish"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Corte histológico desfocado, com ponteiro preto; não permite identificar com segurança um brônquio em vez de traqueia ou outra via aérea."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Estromatólitos de Shark Bay em águas rasas, formas características, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que formações são estas, em águas rasas do litoral?",
+      "resposta": "Estromatólitos",
+      "distratores": [
+        "Recifes de coral",
+        "Rochas vulcânicas",
+        "Pedras de manganês"
+      ],
+      "ancora": {
+        "nome": "Estromatólito",
+        "descricao": "Formação sedimentar em camadas construída por micro-organismos fotossintetizantes, como cianobactérias.",
+        "variantes": [
+          "Estromatólitos",
+          "Estromatolito"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto de baixa resolução e borrada de lábios de uma pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Corte histológico com pregas ramificadas da mucosa, característico da tuba uterina, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este corte ao microscópio mostra qual órgão do aparelho reprodutor feminino?",
+      "resposta": "Tuba uterina",
+      "distratores": [
+        "Útero",
+        "Ovário",
+        "Vagina"
+      ],
+      "ancora": {
+        "nome": "Tuba uterina",
+        "descricao": "Órgão tubular pareado que liga o ovário ao útero, em corte histológico com mucosa muito pregueada.",
+        "variantes": [
+          "Trompa de Falópio",
+          "Tuba de Falópio",
+          "Trompa uterina"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Ilustração de Gray cheia de legendas em texto, incluindo o nome do músculo."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cogumelo vermelho com pintas brancas, inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que cogumelo é este?",
+      "resposta": "Amanita-muscária",
+      "distratores": [
+        "Amanita-verde",
+        "Cogumelo-de-paris",
+        "Cantarelo"
+      ],
+      "ancora": {
+        "nome": "Amanita muscaria",
+        "descricao": "Cogumelo venenoso de chapéu vermelho com verrugas brancas, do gênero Amanita.",
+        "variantes": [
+          "Amanita-muscária",
+          "Agário-das-moscas",
+          "Mata-moscas",
+          "Fly agaric"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Bastonetes corados numa célula epitelial não permitem distinguir o lactobacilo de outras bactérias em bastão; resposta não única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Micrografia eletrônica de varredura de casal de esquistossomos, forma característica, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que verme parasita é este, visto ao microscópio eletrônico?",
+      "resposta": "Esquistossomo",
+      "distratores": [
+        "Tênia",
+        "Lombriga",
+        "Ancilóstomo"
+      ],
+      "ancora": {
+        "nome": "Esquistossomo",
+        "descricao": "Verme trematódeo parasita do gênero Schistosoma, com machos e fêmeas separados, vivendo nas veias do ser humano.",
+        "variantes": [
+          "Schistosoma mansoni",
+          "Schistosoma"
+        ]
+      }
+    }
+  ]
+}

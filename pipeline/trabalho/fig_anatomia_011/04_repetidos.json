@@ -1,0 +1,56 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que formações rochosas são estas?",
+        "resposta": "Estromatólitos"
+      },
+      "existentes": [
+        {
+          "id": "q13994",
+          "pergunta": "Estas estruturas laminadas guardam alguns dos vestígios de vida mais antigos conhecidos. Que tipo de micro-organismo as constrói, sobretudo?",
+          "resposta": "Cianobactérias"
+        },
+        {
+          "id": "q14152",
+          "pergunta": "Que formações rochosas aparecem nesta água rasa?",
+          "resposta": "Estromatólitos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que cogumelo é este?",
+        "resposta": "Amanita-muscária"
+      },
+      "existentes": [
+        {
+          "id": "q06082",
+          "pergunta": "O nome popular do cogumelo vermelho de pintas brancas, em várias línguas europeias, provavelmente vem do uso caseiro dele como veneno contra qual inseto?",
+          "resposta": "Mosca"
+        },
+        {
+          "id": "q14947",
+          "pergunta": "Que cogumelo é este?",
+          "resposta": "Amanita muscaria (agário-das-moscas)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q14152",
+      "motivo": "Ambas pedem a identificação das formações como estromatólitos, com resposta idêntica."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q14947",
+      "motivo": "Mesma pergunta de identificação do cogumelo, com a mesma resposta (Amanita muscaria)."
+    }
+  ]
+}

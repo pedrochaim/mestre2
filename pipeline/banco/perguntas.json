@@ -302387,5 +302387,105 @@
       "autor": "Profmauri",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q15870",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "alga",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de organismo é este?",
+    "resposta": "Alga",
+    "distratores": [
+      "Musgo",
+      "Líquen",
+      "Samambaia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Algae",
+      "https://pt.wikipedia.org/wiki/Alga"
+    ],
+    "imagem": {
+      "arquivo": "q15870.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ulva_intestinalis_saumâtre_wimmereux_juillet_2016_Lamiot_A.jpg",
+      "autor": "Lamiot",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q15871",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "placa_de_petri",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que recipiente de laboratório é este?",
+    "resposta": "Placa de Petri",
+    "distratores": [
+      "Béquer",
+      "Tubo de ensaio",
+      "Erlenmeyer"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Petri_dish",
+      "https://pt.wikipedia.org/wiki/Placa_de_Petri"
+    ],
+    "imagem": {
+      "arquivo": "q15871.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Agar_plates_different_types.jpg",
+      "autor": "Lilly_M",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q15872",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "tuba_uterina",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Este corte ao microscópio mostra qual órgão do aparelho reprodutor feminino?",
+    "resposta": "Tuba uterina",
+    "distratores": [
+      "Útero",
+      "Ovário",
+      "Vagina"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fallopian_tube",
+      "https://pt.wikipedia.org/wiki/Trompas_de_Fal%C3%B3pio"
+    ],
+    "imagem": {
+      "arquivo": "q15872.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Normal_Fallopian_Tube,_Human.jpg",
+      "autor": "Ed Uthman, MD",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q15873",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "esquistossomo",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que verme parasita é este, visto ao microscópio eletrônico?",
+    "resposta": "Esquistossomo",
+    "distratores": [
+      "Tênia",
+      "Lombriga",
+      "Ancilóstomo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Schistosoma_mansoni",
+      "https://pt.wikipedia.org/wiki/Esquistossomo"
+    ],
+    "imagem": {
+      "arquivo": "q15873.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Schistosoma_mansoni2.jpg",
+      "autor": "The original uploader was Waisberg at English Wikipedia.",
+      "licenca": "Public domain"
+    }
   }
 ]

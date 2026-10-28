@@ -1,0 +1,62 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'sobre a água' é pista que, com distratores terrestres (musgo, samambaia), entrega a resposta sem a figura; massa verde na água também pode ser planta aquática. Enunciado deve só pedir o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que tipo de organismo é este?",
+        "resposta": "Alga",
+        "distratores": [
+          "Musgo",
+          "Líquen",
+          "Samambaia"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento; distratores do mesmo tipo e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'em águas rasas do litoral' não é garantido para esta foto (pode ser lago) e acrescenta pista; 'Pedras de manganês' é distrator fraco.",
+      "reescrita": {
+        "pergunta": "Que formações rochosas são estas?",
+        "resposta": "Estromatólitos",
+        "distratores": [
+          "Recifes de coral",
+          "Rochas vulcânicas",
+          "Dunas fossilizadas"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 2 adequado: distingue órgãos do aparelho reprodutor em corte histológico; distratores do mesmo tipo, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; distratores do mesmo tipo (cogumelos), nenhum correto para a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de parasita; sem vazamento; distratores são outros vermes parasitas, nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}
