@@ -1,0 +1,242 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cenário do banco de jardim, sem texto, reconhecível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que programa humorístico de TV é este cenário?",
+      "resposta": "A Praça É Nossa",
+      "distratores": [
+        "Escolinha do Professor Raimundo",
+        "Zorra Total",
+        "Os Trapalhões"
+      ],
+      "ancora": {
+        "nome": "A Praça É Nossa",
+        "descricao": "Programa humorístico brasileiro de TV, estreado em 1987, ambientado em uma praça com um banco.",
+        "variantes": [
+          "A Praça é Nossa"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Cena de casal em época, sem elementos que permitam reconhecer a novela com segurança; resposta pouco única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Close em preto e branco do protagonista, sem texto; reconhecível para quem conhece o clássico.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que filme japonês é esta cena?",
+      "resposta": "Viver (Ikiru)",
+      "distratores": [
+        "Rashomon",
+        "Os Sete Samurais",
+        "Viagem a Tóquio"
+      ],
+      "ancora": {
+        "nome": "Viver (Ikiru)",
+        "descricao": "Filme japonês de 1952 dirigido por Akira Kurosawa sobre um burocrata que descobre ter câncer.",
+        "variantes": [
+          "Ikiru",
+          "生きる"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Piloto com jato, sem texto que entregue o ator; cena emblemática.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que ator interpreta o piloto desta cena?",
+      "resposta": "Tom Cruise",
+      "distratores": [
+        "Val Kilmer",
+        "Kevin Costner",
+        "Patrick Swayze"
+      ],
+      "ancora": {
+        "nome": "Top Gun: Ases Indomáveis",
+        "descricao": "Filme de ação de 1986 sobre pilotos de caça da escola naval, com o piloto Maverick.",
+        "variantes": [
+          "Top Gun"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rabecão verde na estrada, sem texto; imagem típica da série.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que série é esta cena?",
+      "resposta": "A Sete Palmos",
+      "distratores": [
+        "Família Soprano",
+        "Breaking Bad",
+        "Lost"
+      ],
+      "ancora": {
+        "nome": "A Sete Palmos",
+        "descricao": "Série americana de 2001 sobre uma família que administra uma casa funerária.",
+        "variantes": [
+          "Six Feet Under"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Montagem de uma única obra, sem texto, emblemática e reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que filme natalino é esta cena?",
+      "resposta": "Esqueceram de Mim",
+      "distratores": [
+        "Gremlins",
+        "Dennis, o Pimentinha",
+        "Os Goonies"
+      ],
+      "ancora": {
+        "nome": "Esqueceram de Mim",
+        "descricao": "Comédia americana de 1990 sobre o menino Kevin, esquecido em casa no Natal.",
+        "variantes": [
+          "Home Alone"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Close do protagonista, sem texto; reconhecível pelo ator.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que ator interpreta o rapaz desta cena de um filme brasileiro de 2001?",
+      "resposta": "Rodrigo Santoro",
+      "distratores": [
+        "Selton Mello",
+        "Wagner Moura",
+        "Lázaro Ramos"
+      ],
+      "ancora": {
+        "nome": "Abril Despedaçado",
+        "descricao": "Filme brasileiro de 2001, dirigido por Walter Salles, sobre duas famílias em guerra no sertão.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Cena escura, personagem não reconhecível e resposta não única diante da imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cena famosa da lanchonete com o elenco, sem texto que revele o ano.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi lançado o filme desta cena?",
+      "resposta": "2012",
+      "distratores": [
+        "2010",
+        "2011",
+        "2013"
+      ],
+      "ancora": {
+        "nome": "Os Vingadores",
+        "descricao": "Filme de super-heróis da Marvel lançado em 2012, com a equipe reunida contra Loki.",
+        "variantes": [
+          "The Avengers",
+          "Vingadores"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Casal de época em campo, sem texto; reconhecível para o público de novelas.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que novela brasileira é esta cena?",
+      "resposta": "Terra Nostra",
+      "distratores": [
+        "Esperança",
+        "Alma Gêmea",
+        "Éramos Seis"
+      ],
+      "ancora": {
+        "nome": "Terra Nostra",
+        "descricao": "Novela brasileira da TV Globo, de 1999, sobre imigrantes italianos no Brasil.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Dois personagens da série, sem texto.",
+      "destino": 1,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Nesta cena de uma série sobre médicos militares na Guerra da Coreia, que ator interpreta o homem à direita?",
+      "resposta": "Alan Alda",
+      "distratores": [
+        "Donald Sutherland",
+        "Elliott Gould",
+        "Wayne Rogers"
+      ],
+      "ancora": {
+        "nome": "M*A*S*H",
+        "descricao": "Série de TV americana de 1972 sobre médicos de um hospital militar na Guerra da Coreia.",
+        "variantes": [
+          "MASH"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cena emblemática do casal, sem texto.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi lançado o filme desta cena?",
+      "resposta": "1990",
+      "distratores": [
+        "1988",
+        "1989",
+        "1992"
+      ],
+      "ancora": {
+        "nome": "Uma Linda Mulher",
+        "descricao": "Comédia romântica americana de 1990 com Richard Gere e Julia Roberts.",
+        "variantes": [
+          "Pretty Woman"
+        ]
+      }
+    }
+  ]
+}
