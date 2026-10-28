@@ -834,6 +834,18 @@ Todos os comandos rodam na pasta `app/`. O CLI do Firebase é usado via `npx`, s
 - Depois de publicar, as **regras novas levam cerca de 1 minuto** para valer. Nesse intervalo, o app pode dar erro de permissão.
 - A página e o `perguntas.json` são servidos **sem cache** (`firebase.json`), para que uma publicação apareça na hora. As imagens usam o cache padrão de 1 hora.
 
+### Revisão (2026-10-28)
+
+Todo dia, o autor revisa à mão uma fila curta de perguntas do banco, em `revisao.html` (fora das abas do app, sem link a partir delas). A fila é montada pelo `python pipeline/revisao.py`:
+
+1. **Triagem:** sorteia 100 perguntas publicadas do jogo original (as exclusivas das coleções e as com áudio ficam de fora) que ainda não passaram por ela, baixa os trechos das fontes (`fontes.py`, como na crítica, §11) e pede ao Sonnet, sem web e em lotes de 50, uma **nota de suspeita** de 0 a 3 para cada uma, com o código do problema provável (os mesmos do painel de avaliação) e um motivo curto (`prompts/triar_revisao.md`). Ele não vê as figuras: julga pelo nome do arquivo de origem.
+2. **Fila:** entram as 10 perguntas de nota mais alta (2 ou mais; se faltarem, completa com as de nota 1: na primeira triagem, só 4 de 100 tiveram nota 2) e 5 **de controle**, sorteadas entre as 100 sem olhar a nota. O controle estima a taxa de problemas do banco e mostra quanto a triagem deixa passar. As duas vão misturadas e sem rótulo; o motivo da escolha fica escondido atrás de **Por que esta pergunta?**, para não influenciar o veredito.
+3. **Pendentes:** pergunta ainda não avaliada continua na fila dos dias seguintes. Com 45 ou mais pendentes, não há triagem nova, para não gastar cota com uma fila que ninguém lê.
+
+Cada cartão mostra a pergunta com a resposta (na múltipla, as opções com a certa marcada), a âncora, as fontes e o painel de avaliação do app, mais **✓ Sem problema**, que grava a avaliação sem nada marcado. A avaliação vai para `avaliacoes/rev-<id da pergunta>`, com `partida` `"REVISAO"`: as regras do Firestore não mudam. O `avaliacoes.py` deixa essas avaliações fora do relatório dele, e o `python pipeline/revisao.py --relatorio` mostra o resultado da revisão: a taxa de problemas no controle, com intervalo de 95%, o acerto da triagem por código e as perguntas com problema, para corrigir.
+
+O histórico fica em `pipeline/banco/revisao.json` (`triadas`: a nota de cada pergunta triada; `fila`: as que entraram na fila, com a origem), e a fila publicada, em `app/public/revisao.json`. O `pipeline/revisao_agendada.ps1 -Agendar` cria a tarefa agendada do Windows "Mestre2 - revisao", que roda todo dia às 7h, monta a fila e publica o hosting (`--publicar`); a saída vai para `pipeline/log/revisao_saida.txt`. **A tarefa fica desativada e só é ligada com permissão explícita do autor** (`Enable-ScheduledTask -TaskName "Mestre2 - revisao"`). Como o deploy publica a pasta `app/public` inteira, ele leva junto as perguntas que o autopiloto já exportou e ainda não publicou.
+
 ---
 
 ## 17. Programação até 10 000 perguntas
@@ -1063,6 +1075,7 @@ As metas dos catálogos são estimativas. Os catálogos que reprovam muito (est�
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.84 | 2026-10-28 | Revisão diária pelo autor: triagem de 100 perguntas por dia pelo Sonnet com os trechos das fontes, fila de até 10 suspeitas e 5 de controle em `revisao.html`, avaliações em `avaliacoes/rev-<id>` (partida `REVISAO`), relatório com a taxa de problemas do banco e o acerto da triagem; tarefa agendada do Windows (§16) |
 | 0.83 | 2026-10-27 | Diretrizes novas valem só para o jogo original, e os modos temáticos têm as suas: a partida de Múltipla escolha fica só no Master e no Linear. Sorteio em níveis no jogo original (o Pokémon não muda): subtema e depois pergunta, com chance igual em cada nível, e o tema antes, em "Qualquer tema"; subtemas sem perguntas novas ficam de fora (§15) |
 | 0.82 | 2026-10-27 | App: resumo das regras do jogo na aba Informações, num bloco recolhível (§16) |
 | 0.81 | 2026-10-27 | Linear: dado da sorte, uma mecânica de recuperação. Quem errou as duas últimas perguntas da sua vez tira 3 no dado, que aparece dourado e brilhando; campo `sorte` na pergunta em jogo (§15, §16) |
