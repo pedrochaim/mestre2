@@ -1,0 +1,737 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Nintendo 64",
+        "descricao": "Console de mesa da Nintendo, de cartuchos, lançado em 1996, famoso por Super Mario 64.",
+        "variantes": [
+          "N64"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nintendo",
+          "nome": "Nintendo",
+          "descricao": "Empresa japonesa de videogames fundada em 1889, criadora de Mario e Zelda.",
+          "variantes": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Koppai"
+          ]
+        },
+        {
+          "id": "nintendo_switch",
+          "nome": "Nintendo Switch",
+          "descricao": "Console de videogame híbrido da Nintendo, lançado em 2017, que funciona como portátil ou conectado à TV.",
+          "variantes": [
+            "Switch"
+          ]
+        },
+        {
+          "id": "game_boy",
+          "nome": "Game Boy",
+          "descricao": "Videogame portátil da Nintendo lançado em 1989.",
+          "variantes": [
+            "Nintendo Game Boy"
+          ]
+        },
+        {
+          "id": "einstenio",
+          "nome": "Einstênio",
+          "descricao": "Elemento químico sintético de número atômico 99, batizado em homenagem a Albert Einstein.",
+          "variantes": [
+            "Einsteinium",
+            "Einstênio (elemento químico)"
+          ]
+        },
+        {
+          "id": "lintel_24_de_yaxchilan",
+          "nome": "Lintel 24 de Yaxchilán",
+          "descricao": "Relevo maia em calcário, de cerca de 723-726 d.C., de Yaxchilán, hoje no Museu Britânico, que mostra um governante e sua consorte num ritual de sangria.",
+          "variantes": [
+            "Lintel 24",
+            "Yaxchilan Lintel 24",
+            "Verga 24 de Yaxchilán"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Nintendo Switch",
+        "descricao": "Console híbrido da Nintendo, que funciona ligado à TV e como portátil, lançado em 2017.",
+        "variantes": [
+          "Switch"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nintendo_switch",
+          "nome": "Nintendo Switch",
+          "descricao": "Console de videogame híbrido da Nintendo, lançado em 2017, que funciona como portátil ou conectado à TV.",
+          "variantes": [
+            "Switch"
+          ]
+        },
+        {
+          "id": "stitch",
+          "nome": "Stitch",
+          "descricao": "Experimento 626, criatura azul alienígena do filme Lilo & Stitch, da Disney.",
+          "variantes": [
+            "Experimento 626"
+          ]
+        },
+        {
+          "id": "swift",
+          "nome": "Swift",
+          "descricao": "Golpe de pokémon do tipo Normal, da 1ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "sanduiche",
+          "nome": "Sanduíche",
+          "descricao": "Alimento feito com recheio entre duas fatias de pão, nome tirado de um título nobre inglês",
+          "variantes": [
+            "Sanduba",
+            "Sandes",
+            "Sandwich",
+            "Sanduche"
+          ]
+        },
+        {
+          "id": "nintendo",
+          "nome": "Nintendo",
+          "descricao": "Empresa japonesa de videogames fundada em 1889, criadora de Mario e Zelda.",
+          "variantes": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Koppai"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Super Nintendo",
+        "descricao": "Console de dezesseis bits da Nintendo, chamado Super Famicom no Japão, lançado em 1990.",
+        "variantes": [
+          "Super Famicom",
+          "SNES",
+          "Super Nintendo Entertainment System"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "serpentes",
+          "nome": "Serpentes",
+          "descricao": "Subordem de répteis escamados sem patas (Serpentes), que inclui todas as cobras.",
+          "variantes": [
+            "Cobras",
+            "Ofídios",
+            "Snakes"
+          ]
+        },
+        {
+          "id": "sanduiche",
+          "nome": "Sanduíche",
+          "descricao": "Alimento feito com recheio entre duas fatias de pão, nome tirado de um título nobre inglês",
+          "variantes": [
+            "Sanduba",
+            "Sandes",
+            "Sandwich",
+            "Sanduche"
+          ]
+        },
+        {
+          "id": "mario",
+          "nome": "Mario",
+          "descricao": "Personagem encanador da Nintendo, mascote da empresa, criado por Shigeru Miyamoto.",
+          "variantes": [
+            "Super Mario",
+            "Mario Mario",
+            "Jumpman"
+          ]
+        },
+        {
+          "id": "sans",
+          "nome": "Sans",
+          "descricao": "Esqueleto preguiçoso e brincalhão, personagem importante do jogo Undertale.",
+          "variantes": []
+        },
+        {
+          "id": "superflorada_do_deserto",
+          "nome": "Superflorada do deserto",
+          "descricao": "Fenômeno raro em que sementes dormentes de flores silvestres do deserto germinam e florescem ao mesmo tempo após uma estação muito chuvosa.",
+          "variantes": [
+            "Superbloom",
+            "Super floração"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Resident Evil (jogo de 1996)",
+        "descricao": "Primeiro jogo da série de terror Resident Evil, da Capcom, passado numa mansão infestada de zumbis.",
+        "variantes": [
+          "Biohazard"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "resident_evil_4",
+          "nome": "Resident Evil 4",
+          "descricao": "Jogo de ação e terror da Capcom lançado em 2005, estrelado pelo agente Leon S. Kennedy.",
+          "variantes": [
+            "Biohazard 4"
+          ]
+        },
+        {
+          "id": "blizzard",
+          "nome": "Blizzard",
+          "descricao": "Golpe de pokémon do tipo Gelo, da 1ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "charizard",
+          "nome": "Charizard",
+          "descricao": "Pokémon dos tipos Fogo e Voador, número 6 da Pokédex Nacional.",
+          "variantes": [
+            "Lizardon"
+          ]
+        },
+        {
+          "id": "bilhar_americano",
+          "nome": "Bilhar americano",
+          "descricao": "Grupo de jogos de taco (pool) disputados em mesa com seis caçapas e bolas numeradas, como o eight-ball e o nine-ball.",
+          "variantes": [
+            "Sinuca",
+            "Pool",
+            "Bilhar"
+          ]
+        },
+        {
+          "id": "charizard_2",
+          "nome": "Charizard",
+          "descricao": "Pokémon de fogo e voador, evolução final de Charmander, aqui em sua forma Mega Charizard X.",
+          "variantes": [
+            "Mega Charizard X",
+            "Lizardon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "The Legend of Zelda: Ocarina of Time",
+        "descricao": "Jogo da série Zelda para Nintendo 64, lançado em 1998, primeira aventura de Link em três dimensões.",
+        "variantes": [
+          "Ocarina of Time"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "the_legend_of_zelda_jogo_de_1986",
+          "nome": "The Legend of Zelda (jogo de 1986)",
+          "descricao": "Primeiro jogo da série Zelda, da Nintendo, lançado em 1986, estrelado pelo herói Link.",
+          "variantes": [
+            "The Legend of Zelda",
+            "Zelda no Densetsu"
+          ]
+        },
+        {
+          "id": "a_lenda_de_dratini_episodio",
+          "nome": "A Lenda de Dratini (episódio)",
+          "descricao": "Episódio da primeira temporada do anime Pokémon em que Ash procura um Dratini na Zona Safári, nunca exibido nos Estados Unidos.",
+          "variantes": [
+            "The Legend of Dratini",
+            "Episódio 35 de Pokémon"
+          ]
+        },
+        {
+          "id": "circulo_de_fogo_do_pacifico",
+          "nome": "Círculo de Fogo do Pacífico",
+          "descricao": "Faixa de intensa atividade vulcânica e sísmica que contorna as bordas de um oceano.",
+          "variantes": [
+            "Anel de Fogo",
+            "Cinturão de Fogo",
+            "Ring of Fire",
+            "Cinturão de Fogo do Pacífico",
+            "Anel de Fogo do Pacífico"
+          ]
+        },
+        {
+          "id": "quarenta_rugidores",
+          "nome": "Quarenta rugidores",
+          "descricao": "Faixa de fortes ventos de oeste do hemisfério sul, conhecida dos navegadores",
+          "variantes": [
+            "Roaring Forties",
+            "Quarenta bramidores"
+          ]
+        },
+        {
+          "id": "carnaval_de_binche",
+          "nome": "Carnaval de Binche",
+          "descricao": "Carnaval tradicional em que mascarados chamados Gilles dançam com chapéus de plumas e atiram laranjas.",
+          "variantes": [
+            "Carnival of Binche"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Fortnite",
+        "descricao": "Jogo online da Epic Games, lançado em 2017, famoso pelo modo battle royale.",
+        "variantes": [
+          "Fortnite Battle Royale"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fluorita",
+          "nome": "Fluorita",
+          "descricao": "Mineral de fluoreto de cálcio (CaF2), de dureza 4 na escala de Mohs, que forma cristais cúbicos coloridos.",
+          "variantes": [
+            "Fluorspar",
+            "Espatoflúor",
+            "Fluorite",
+            "Espato-flúor"
+          ]
+        },
+        {
+          "id": "nefertiti",
+          "nome": "Nefertiti",
+          "descricao": "Rainha egípcia da 18ª dinastia, grande esposa real do faraó Akhenaton, retratada no famoso busto de Berlim.",
+          "variantes": [
+            "Nefertite",
+            "Nefertari Nefertiti"
+          ]
+        },
+        {
+          "id": "amonite",
+          "nome": "Amonite",
+          "descricao": "Grupo extinto de moluscos cefalópodes marinhos de concha em espiral, muito comuns como fósseis.",
+          "variantes": [
+            "Amonoide",
+            "Ammonoidea",
+            "Ammonite"
+          ]
+        },
+        {
+          "id": "fortran",
+          "nome": "Fortran",
+          "descricao": "Linguagem de programação desenvolvida pela IBM nos anos 1950, voltada a cálculos científicos.",
+          "variantes": []
+        },
+        {
+          "id": "granito",
+          "nome": "Granito",
+          "descricao": "Rocha ígnea intrusiva de grão grosso, formada pelo resfriamento lento do magma no interior da crosta.",
+          "variantes": [
+            "Granite"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Angry Birds",
+        "descricao": "Jogo de celular do estúdio finlandês Rovio, em que pássaros são lançados com estilingue contra porcos verdes.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "larry_bird",
+          "nome": "Larry Bird",
+          "descricao": "Ala americano do Boston Celtics, três vezes campeão da NBA nos anos 1980.",
+          "variantes": [
+            "Larry Legend",
+            "Larry Joe Bird"
+          ]
+        },
+        {
+          "id": "the_yardbirds",
+          "nome": "The Yardbirds",
+          "descricao": "Banda britânica de rock e blues dos anos sessenta, formada em Londres",
+          "variantes": [
+            "Yardbirds"
+          ]
+        },
+        {
+          "id": "aves_lendarias_de_kanto",
+          "nome": "Aves lendárias de Kanto",
+          "descricao": "Trio de pokémon lendários da primeira geração formado por Articuno, Zapdos e Moltres.",
+          "variantes": [
+            "Pássaros lendários",
+            "Legendary birds"
+          ]
+        },
+        {
+          "id": "logotipo_do_twitter",
+          "nome": "Logotipo do Twitter",
+          "descricao": "O passarinho azul que foi o símbolo da rede social Twitter até 2023.",
+          "variantes": [
+            "Larry the Bird",
+            "Passarinho do Twitter"
+          ]
+        },
+        {
+          "id": "ilhas_canarias",
+          "nome": "Ilhas Canárias",
+          "descricao": "Arquipélago espanhol no oceano Atlântico, diante da costa do Marrocos e do Saara Ocidental.",
+          "variantes": [
+            "Canárias",
+            "Canary Islands",
+            "Islas Canarias"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Breakout",
+        "descricao": "Jogo de fliperama da Atari, de 1976, em que uma bolinha rebatida por uma raquete derruba fileiras de tijolos.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "breaking",
+          "nome": "Breaking",
+          "descricao": "Dança de rua surgida no hip-hop do Bronx, em Nova York, disputada como modalidade olímpica.",
+          "variantes": [
+            "Breakdance",
+            "Break"
+          ]
+        },
+        {
+          "id": "pokemon_break",
+          "nome": "Pokémon BREAK",
+          "descricao": "Tipo de carta da era X e Y do card game Pokémon, impressa na horizontal e colocada sobre o pokémon que evolui.",
+          "variantes": [
+            "BREAK",
+            "Evolução BREAK"
+          ]
+        },
+        {
+          "id": "raikou",
+          "nome": "Raikou",
+          "descricao": "Pokémon do tipo Elétrico, número 243 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "baku",
+          "nome": "Baku",
+          "descricao": "Capital e maior cidade do Azerbaijão, na península de Absheron.",
+          "variantes": [
+            "Bacu",
+            "Baki"
+          ]
+        },
+        {
+          "id": "fruta_pao",
+          "nome": "Fruta-pão",
+          "descricao": "Fruto da árvore Artocarpus altilis, originária do Pacífico, rico em amido",
+          "variantes": [
+            "Artocarpus altilis",
+            "Breadfruit"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "The Witcher (série de jogos)",
+        "descricao": "Série de jogos de RPG do estúdio polonês CD Projekt, protagonizada pelo caçador de monstros Geralt de Rívia.",
+        "variantes": [
+          "The Witcher",
+          "Wiedźmin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_pifaro_manet",
+          "nome": "O Pífaro (Manet)",
+          "descricao": "Pintura de 1866 de Édouard Manet que mostra um jovem tocador de pífaro uniformizado, no Museu d'Orsay.",
+          "variantes": [
+            "O Pífaro",
+            "The Fifer",
+            "O Jovem Flautista"
+          ]
+        },
+        {
+          "id": "o_semeador_millet",
+          "nome": "O Semeador (Millet)",
+          "descricao": "Pintura a óleo de Jean-François Millet (1850) de um camponês semeando, no Museu de Belas Artes de Boston.",
+          "variantes": [
+            "The Sower",
+            "Le Semeur"
+          ]
+        },
+        {
+          "id": "justiceiro",
+          "nome": "Justiceiro",
+          "descricao": "Frank Castle, anti-herói da Marvel que combate o crime com armas e usa uma caveira no peito",
+          "variantes": [
+            "The Punisher",
+            "Frank Castle"
+          ]
+        },
+        {
+          "id": "tex_willer",
+          "nome": "Tex Willer",
+          "descricao": "Caubói ranger protagonista de uma longeva série de faroeste em quadrinhos, criada em 1948",
+          "variantes": [
+            "Tex"
+          ]
+        },
+        {
+          "id": "maquina_de_escrever",
+          "nome": "Máquina de escrever",
+          "descricao": "Máquina mecânica com teclas que imprime caracteres no papel por meio de uma fita de tinta.",
+          "variantes": [
+            "Typewriter"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Wii",
+        "descricao": "Console de mesa da Nintendo lançado em 2006, famoso pelos controles com sensor de movimento.",
+        "variantes": [
+          "Nintendo Wii"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "wi_fi",
+          "nome": "Wi-Fi",
+          "descricao": "Família de padrões de rede local sem fio usada para conectar aparelhos à internet.",
+          "variantes": [
+            "Wifi",
+            "Wireless"
+          ]
+        },
+        {
+          "id": "wiki",
+          "nome": "Wiki",
+          "descricao": "Tipo de site cujo conteúdo pode ser editado coletivamente pelos próprios usuários, como a Wikipédia.",
+          "variantes": [
+            "WikiWikiWeb"
+          ]
+        },
+        {
+          "id": "nintendo_switch",
+          "nome": "Nintendo Switch",
+          "descricao": "Console de videogame híbrido da Nintendo, lançado em 2017, que funciona como portátil ou conectado à TV.",
+          "variantes": [
+            "Switch"
+          ]
+        },
+        {
+          "id": "nintendo",
+          "nome": "Nintendo",
+          "descricao": "Empresa japonesa de videogames fundada em 1889, criadora de Mario e Zelda.",
+          "variantes": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Koppai"
+          ]
+        },
+        {
+          "id": "go",
+          "nome": "Go",
+          "descricao": "Jogo de tabuleiro de estratégia para dois, em que pedras pretas e brancas são postas nas interseções para cercar território.",
+          "variantes": [
+            "Weiqi",
+            "Baduk"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Bowser",
+        "descricao": "Rei dos Koopas, tartaruga gigante e principal vilão da franquia Mario, da Nintendo.",
+        "variantes": [
+          "King Koopa",
+          "Kuppa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bowser_jr",
+          "nome": "Bowser Jr.",
+          "descricao": "Filho de Bowser e príncipe dos Koopas, vilão recorrente da franquia Mario.",
+          "variantes": [
+            "Junior",
+            "Bowser Junior"
+          ]
+        },
+        {
+          "id": "rei_boo",
+          "nome": "Rei Boo",
+          "descricao": "Líder dos fantasmas Boo e principal vilão da série Luigi's Mansion.",
+          "variantes": [
+            "King Boo"
+          ]
+        },
+        {
+          "id": "king_k_rool",
+          "nome": "King K. Rool",
+          "descricao": "Rei crocodilo de coroa dourada, principal vilão da série Donkey Kong.",
+          "variantes": [
+            "K. Rool"
+          ]
+        },
+        {
+          "id": "quipa",
+          "nome": "Quipá",
+          "descricao": "Pequeno chapéu redondo sem aba usado por judeus para cobrir a cabeça.",
+          "variantes": [
+            "Kippah",
+            "Yarmulke",
+            "Kipá"
+          ]
+        },
+        {
+          "id": "opera_de_pequim",
+          "nome": "Ópera de Pequim",
+          "descricao": "Forma tradicional de teatro musical chinês, que combina canto, mímica, acrobacia e maquiagem facial simbólica.",
+          "variantes": [
+            "Peking opera",
+            "Jingju",
+            "Ópera de Beijing"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Halo: Combat Evolved",
+        "descricao": "Primeiro jogo da série de tiro Halo, da Bungie, lançado em 2001 e estrelado pelo soldado Master Chief.",
+        "variantes": [
+          "Halo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "halo",
+          "nome": "Halo",
+          "descricao": "Arco de proteção de titânio instalado sobre o cockpit dos carros de Fórmula 1 para proteger a cabeça do piloto.",
+          "variantes": [
+            "Halo de proteção"
+          ]
+        },
+        {
+          "id": "halo_solar",
+          "nome": "Halo solar",
+          "descricao": "Anel luminoso em torno do Sol, produzido pela luz ao atravessar cristais de gelo na atmosfera.",
+          "variantes": [
+            "Halo",
+            "Halo de 22 graus"
+          ]
+        },
+        {
+          "id": "hal_9000",
+          "nome": "HAL 9000",
+          "descricao": "Computador fictício com inteligência artificial do filme 2001: Uma Odisseia no Espaço, de 1968.",
+          "variantes": [
+            "HAL"
+          ]
+        },
+        {
+          "id": "baia_de_ha_long",
+          "nome": "Baía de Ha Long",
+          "descricao": "Baía do norte do Vietnã com milhares de ilhotas e torres de calcário que saem do mar.",
+          "variantes": [
+            "Ha Long Bay",
+            "Hạ Long",
+            "Halong"
+          ]
+        },
+        {
+          "id": "alho",
+          "nome": "Alho",
+          "descricao": "Planta bulbosa Allium sativum, cujos bulbos de dentes são usados como tempero.",
+          "variantes": [
+            "Allium sativum"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nintendo 64 é um console distinto; nenhuma candidata o descreve."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "nintendo_switch",
+      "motivo": "Mesmo console híbrido da Nintendo de 2017."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Super Nintendo é um console; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Resident Evil de 1996 é o primeiro jogo, diferente de Resident Evil 4."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Ocarina of Time é um jogo distinto, ausente nas candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Fortnite não aparece nas candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Angry Birds não aparece nas candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Breakout é um jogo de fliperama; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "A série The Witcher não aparece nas candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "O Wii é um console diferente do Switch e da empresa Nintendo."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Bowser é distinto de Bowser Jr., seu filho."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Halo: Combat Evolved é um jogo; as candidatas Halo são outras entidades."
+    }
+  ]
+}

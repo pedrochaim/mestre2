@@ -1,0 +1,816 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A Atari, empresa de Nolan Bushnell que popularizou os videogames nos anos setenta, foi fundada em qual estado americano?",
+        "resposta": "Califórnia"
+      },
+      "existentes": [
+        {
+          "id": "q01309",
+          "pergunta": "O nome Atari, escolhido para a empresa americana de videogames, vem de um termo de qual jogo de tabuleiro asiático?",
+          "resposta": "Go"
+        },
+        {
+          "id": "q07408",
+          "pergunta": "Antes de fundar a Apple, o jovem Steve Jobs foi contratado como técnico, em 1974, por qual empresa de videogames?",
+          "resposta": "Atari"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Antes de se mudar para o Japão, a Sega nasceu em 1940 como Standard Games, uma empresa de máquinas de diversão. Em que cidade?",
+        "resposta": "Honolulu"
+      },
+      "existentes": [
+        {
+          "id": "q01301",
+          "pergunta": "O nome Sega, usado desde 1954 numa máquina caça-níquel, é abreviação de qual expressão em inglês?",
+          "resposta": "Service Games"
+        },
+        {
+          "id": "q01302",
+          "pergunta": "Nos anos oitenta e noventa, que empresa brasileira foi a parceira da Sega no país, fabricando aqui o Master System e o Mega Drive?",
+          "resposta": "Tectoy"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Depois do fracasso comercial do Dreamcast, a Sega anunciou que deixaria de fabricar consoles e passaria a só produzir jogos. Em que ano?",
+        "resposta": "2001"
+      },
+      "existentes": [
+        {
+          "id": "q01301",
+          "pergunta": "O nome Sega, usado desde 1954 numa máquina caça-níquel, é abreviação de qual expressão em inglês?",
+          "resposta": "Service Games"
+        },
+        {
+          "id": "q01302",
+          "pergunta": "Nos anos oitenta e noventa, que empresa brasileira foi a parceira da Sega no país, fabricando aqui o Master System e o Mega Drive?",
+          "resposta": "Tectoy"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Além do preço baixo, que vantagem ajudou o Game Boy, de tela esverdeada, a vencer portáteis coloridos e mais potentes, como o Atari Lynx e o Game Gear?",
+        "resposta": "Pilhas duravam muito mais"
+      },
+      "existentes": [
+        {
+          "id": "q01339",
+          "pergunta": "Que engenheiro da Nintendo, também criador do Game and Watch, liderou o desenvolvimento do Game Boy?",
+          "resposta": "Gunpei Yokoi"
+        },
+        {
+          "id": "q01340",
+          "pergunta": "No lançamento americano do Game Boy, em 1989, que jogo de peças que caem vinha dentro da caixa do aparelho?",
+          "resposta": "Tetris"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Fora do Japão, em que país o Mega Drive fez tanto sucesso que seguiu sendo fabricado e vendido, em novas versões, até o século vinte e um?",
+        "resposta": "Brasil"
+      },
+      "existentes": [
+        {
+          "id": "q07389",
+          "pergunta": "O Mega Drive, console de dezesseis bits da Sega, chegou às lojas japonesas em que ano?",
+          "resposta": "1988"
+        },
+        {
+          "id": "q07398",
+          "pergunta": "Por causa de uma disputa de marca, o Mega Drive da Sega foi vendido nos Estados Unidos com qual nome?",
+          "resposta": "Genesis"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "No primeiro jogo de Sonic, de 1991, como se chama a primeira fase da aventura?",
+        "resposta": "Green Hill Zone"
+      },
+      "existentes": [
+        {
+          "id": "q07391",
+          "pergunta": "O ouriço azul Sonic estreou em seu primeiro jogo, no Mega Drive, em que ano?",
+          "resposta": "1991"
+        },
+        {
+          "id": "q07403",
+          "pergunta": "Por que a Sega escolheu o azul como a cor do seu mascote, o ouriço Sonic?",
+          "resposta": "Para combinar com o logotipo da Sega"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que artista da Sega desenhou o visual de Sonic, criado ao lado do programador Yuji Naka?",
+        "resposta": "Naoto Ohshima"
+      },
+      "existentes": [
+        {
+          "id": "q07391",
+          "pergunta": "O ouriço azul Sonic estreou em seu primeiro jogo, no Mega Drive, em que ano?",
+          "resposta": "1991"
+        },
+        {
+          "id": "q07403",
+          "pergunta": "Por que a Sega escolheu o azul como a cor do seu mascote, o ouriço Sonic?",
+          "resposta": "Para combinar com o logotipo da Sega"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Kirby, o herói rosado da Nintendo, vive em Dream Land. Em que planeta fica essa terra?",
+        "resposta": "Pop Star"
+      },
+      "existentes": [
+        {
+          "id": "q07385",
+          "pergunta": "Que designer japonês criou Kirby, a bolinha rosa da Nintendo, e depois a série de luta Super Smash Bros.?",
+          "resposta": "Masahiro Sakurai"
+        },
+        {
+          "id": "q07397",
+          "pergunta": "Kirby foi nomeado em parte em homenagem ao advogado John Kirby, que defendeu a Nintendo quando a Universal alegou que qual jogo infringia direitos de King Kong?",
+          "resposta": "Donkey Kong"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em Half-Life, o cientista Gordon Freeman sobrevive a um desastre numa instalação de pesquisas secreta no Novo México. Como ela se chama?",
+        "resposta": "Black Mesa"
+      },
+      "existentes": [
+        {
+          "id": "q07383",
+          "pergunta": "Que empresa americana criou o jogo de tiro Half-Life, em 1998, e depois a loja digital de jogos Steam?",
+          "resposta": "Valve"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em Metal Gear Solid, de 1998, Solid Snake se infiltra numa base de armas nucleares numa ilha de qual estado americano?",
+        "resposta": "Alasca"
+      },
+      "existentes": [
+        {
+          "id": "q01338",
+          "pergunta": "Que designer japonês criou a série de espionagem Metal Gear, estrelada pelo soldado Snake?",
+          "resposta": "Hideo Kojima"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O estado fictício de GTA San Andreas tem três cidades, inspiradas em Los Angeles, São Francisco e qual outra cidade americana?",
+        "resposta": "Las Vegas"
+      },
+      "existentes": [
+        {
+          "id": "q07396",
+          "pergunta": "GTA San Andreas, de 2004, conta a volta de CJ à sua cidade natal em qual década do século vinte?",
+          "resposta": "Década de 1990"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "No primeiro Assassin's Creed, Altaïr caça seus alvos em três grandes cidades do Oriente Médio: Jerusalém, Acre e qual outra?",
+        "resposta": "Damasco"
+      },
+      "existentes": [
+        {
+          "id": "q07388",
+          "pergunta": "O primeiro Assassin's Creed, de 2007, leva o jogador à Terra Santa durante qual cruzada?",
+          "resposta": "Terceira Cruzada"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Crash Bandicoot, o mascote laranja do primeiro PlayStation, vive num arquipélago fictício perto da costa de qual país?",
+        "resposta": "Austrália"
+      },
+      "existentes": [
+        {
+          "id": "q07386",
+          "pergunta": "Crash Bandicoot, estrela do primeiro PlayStation, foi criado pelo mesmo estúdio de The Last of Us. Que estúdio é esse?",
+          "resposta": "Naughty Dog"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Em Five Nights at Freddy's, de 2014, o jogador é vigia noturno e enfrenta o urso Freddy e outros animatrônicos em que tipo de estabelecimento?",
+        "resposta": "Pizzaria"
+      },
+      "existentes": [
+        {
+          "id": "q15588",
+          "pergunta": "Quem criou o jogo de terror em que este personagem estreou?",
+          "resposta": "Scott Cawthon"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Tetris foi criado por Alexey Pajitnov num centro de computação da Academia de Ciências, em Moscou, ainda na União Soviética. Em que ano?",
+        "resposta": "1984"
+      },
+      "existentes": [
+        {
+          "id": "q01310",
+          "pergunta": "No Tetris, cada peça é formada por quatro quadradinhos. Quantos formatos diferentes de peça existem no jogo?",
+          "resposta": "Sete"
+        },
+        {
+          "id": "q07372",
+          "pergunta": "Em 1984, Alexey Pajitnov criou o Tetris num centro de computação da Academia de Ciências soviética, em qual cidade?",
+          "resposta": "Moscou"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "O nome Tetris junta o prefixo grego tetra, das peças de quatro quadrados, com o nome de qual esporte favorito do seu criador?",
+        "resposta": "Tênis"
+      },
+      "existentes": [
+        {
+          "id": "q01310",
+          "pergunta": "No Tetris, cada peça é formada por quatro quadradinhos. Quantos formatos diferentes de peça existem no jogo?",
+          "resposta": "Sete"
+        },
+        {
+          "id": "q07372",
+          "pergunta": "Em 1984, Alexey Pajitnov criou o Tetris num centro de computação da Academia de Ciências soviética, em qual cidade?",
+          "resposta": "Moscou"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "A Microsoft comprou a Mojang, o estúdio sueco criador de Minecraft, por cerca de dois bilhões e meio de dólares. Em que ano?",
+        "resposta": "2014"
+      },
+      "existentes": [
+        {
+          "id": "q01333",
+          "pergunta": "Desde 2014, o que o Minecraft e o sistema Windows têm em comum?",
+          "resposta": "Pertencem à Microsoft"
+        },
+        {
+          "id": "q01334",
+          "pergunta": "Lançado em 2009, o Minecraft foi criado por qual programador sueco?",
+          "resposta": "Markus Persson, o Notch"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "O Nintendo Switch, console que se encaixa na TV e também vira portátil, foi lançado em que ano?",
+        "resposta": "2017"
+      },
+      "existentes": [
+        {
+          "id": "q15081",
+          "pergunta": "Este console da Nintendo sucedeu qual outro console da própria empresa?",
+          "resposta": "Wii U"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Pong, sucesso da Atari em 1972, nasceu como exercício de treinamento passado por Nolan Bushnell a um engenheiro novato. Quem era ele?",
+        "resposta": "Allan Alcorn"
+      },
+      "existentes": [
+        {
+          "id": "q01348",
+          "pergunta": "Em que ano a Atari lançou Pong, o fliperama de tênis de mesa que popularizou os videogames?",
+          "resposta": "1972"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Pouco depois de instalado na Califórnia, o primeiro protótipo de Pong parou de funcionar. Qual era o problema?",
+        "resposta": "Moedas demais no cofre"
+      },
+      "existentes": [
+        {
+          "id": "q01348",
+          "pergunta": "Em que ano a Atari lançou Pong, o fliperama de tênis de mesa que popularizou os videogames?",
+          "resposta": "1972"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Pong foi inspirado num jogo de tênis de mesa de um console anterior, cuja fabricante depois processou a Atari. Que console era esse?",
+        "resposta": "Magnavox Odyssey"
+      },
+      "existentes": [
+        {
+          "id": "q01348",
+          "pergunta": "Em que ano a Atari lançou Pong, o fliperama de tênis de mesa que popularizou os videogames?",
+          "resposta": "1972"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "A Nintendo foi fundada em Quioto, em 1889, como fabricante de cartas de baralho. Quem foi o seu fundador?",
+        "resposta": "Fusajiro Yamauchi"
+      },
+      "existentes": [
+        {
+          "id": "q01345",
+          "pergunta": "Em qual cidade japonesa, antiga capital imperial, a Nintendo foi fundada e mantém sua sede até hoje?",
+          "resposta": "Quioto"
+        },
+        {
+          "id": "q01346",
+          "pergunta": "Quando foi fundada, em 1889, muito antes dos videogames, a Nintendo fabricava qual produto?",
+          "resposta": "Cartas de baralho hanafuda"
+        },
+        {
+          "id": "q06798",
+          "pergunta": "Qual destas empresas de eletrônicos e videogames foi fundada primeiro?",
+          "resposta": "Nintendo"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "O nome japonês Nintendo costuma ser traduzido como deixar a sorte a cargo de quem?",
+        "resposta": "Do céu"
+      },
+      "existentes": [
+        {
+          "id": "q01345",
+          "pergunta": "Em qual cidade japonesa, antiga capital imperial, a Nintendo foi fundada e mantém sua sede até hoje?",
+          "resposta": "Quioto"
+        },
+        {
+          "id": "q01346",
+          "pergunta": "Quando foi fundada, em 1889, muito antes dos videogames, a Nintendo fabricava qual produto?",
+          "resposta": "Cartas de baralho hanafuda"
+        },
+        {
+          "id": "q06798",
+          "pergunta": "Qual destas empresas de eletrônicos e videogames foi fundada primeiro?",
+          "resposta": "Nintendo"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Que engenheiro da Sony, chamado de pai do PlayStation, convenceu a empresa a entrar no mercado de videogames?",
+        "resposta": "Ken Kutaragi"
+      },
+      "existentes": [
+        {
+          "id": "q01328",
+          "pergunta": "O PlayStation nasceu de um leitor de CD que a Sony desenvolvia em parceria com qual empresa, até o acordo ser desfeito?",
+          "resposta": "Nintendo"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Que jovem designer da Nintendo criou o fliperama Donkey Kong, de 1981, seu primeiro grande sucesso?",
+        "resposta": "Shigeru Miyamoto"
+      },
+      "existentes": [
+        {
+          "id": "q01326",
+          "pergunta": "O fliperama Donkey Kong foi criado depois que a Nintendo não conseguiu a licença de qual personagem de desenho animado?",
+          "resposta": "Popeye"
+        },
+        {
+          "id": "q01327",
+          "pergunta": "No fliperama Donkey Kong, de 1981, qual era a profissão do personagem que depois ficou conhecido como Mario, antes de virar encanador?",
+          "resposta": "Carpinteiro"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Mortal Kombat, de 1992, foi criado pelo artista John Tobias e por qual programador, que seguiu por décadas à frente da série?",
+        "resposta": "Ed Boon"
+      },
+      "existentes": [
+        {
+          "id": "q01324",
+          "pergunta": "A polêmica sobre a violência de Mortal Kombat no Congresso americano levou à criação, em 1994, de qual órgão?",
+          "resposta": "ESRB, de classificação etária de jogos"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Que designer britânico da Core Design foi um dos criadores de Lara Croft, a arqueóloga de Tomb Raider, em meados dos anos noventa?",
+        "resposta": "Toby Gard"
+      },
+      "existentes": [
+        {
+          "id": "q07377",
+          "pergunta": "Lara Croft, a arqueóloga aventureira da série Tomb Raider, foi criada como aristocrata de qual nacionalidade?",
+          "resposta": "Britânica (inglesa)"
+        },
+        {
+          "id": "q07399",
+          "pergunta": "Na criação de Tomb Raider, a heroína tinha um nome de sonoridade latina, depois trocado por um mais britânico. Qual era o nome original?",
+          "resposta": "Laura Cruz"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Que estúdio escocês, criador do jogo Lemmings, desenvolveu o primeiro Grand Theft Auto, de 1997?",
+        "resposta": "DMA Design (hoje Rockstar North)"
+      },
+      "existentes": [
+        {
+          "id": "q01313",
+          "pergunta": "Nos Estados Unidos, a expressão jurídica que dá nome à série Grand Theft Auto designa qual crime?",
+          "resposta": "Roubo de veículo"
+        },
+        {
+          "id": "q01314",
+          "pergunta": "Embora se passe em cidades americanas, a série Grand Theft Auto nasceu num estúdio de qual país do Reino Unido?",
+          "resposta": "Escócia"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Quando chegou às lojas americanas, em 1977, o console que ficou famoso como Atari 2600 tinha outro nome. Qual era?",
+        "resposta": "Video Computer System"
+      },
+      "existentes": [
+        {
+          "id": "q07390",
+          "pergunta": "O Atari 2600, console de cartuchos que levou os videogames para dentro de casa, foi lançado nos Estados Unidos em que ano?",
+          "resposta": "1977"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "No Japão, Pac-Man saiu com outro nome, trocado nos Estados Unidos por medo de que vândalos alterassem uma letra nos fliperamas. Que nome era esse?",
+        "resposta": "Puck-Man"
+      },
+      "existentes": [
+        {
+          "id": "q01317",
+          "pergunta": "No Japão, o jogo se chamava Puck-Man. Por que o nome mudou para Pac-Man ao chegar aos fliperamas americanos?",
+          "resposta": "Medo de vândalos trocarem o P por F"
+        },
+        {
+          "id": "q07379",
+          "pergunta": "Que designer japonês da Namco criou o Pac-Man, a bola amarela que come pastilhas num labirinto?",
+          "resposta": "Toru Iwatani"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Os combos de Street Fighter II, em que golpes encadeados não deixam o adversário reagir, surgiram de que maneira?",
+        "resposta": "Falha descoberta por acaso"
+      },
+      "existentes": [
+        {
+          "id": "q07414",
+          "pergunta": "No fliperama Street Fighter 2 original, de 1991, quantos lutadores o jogador podia escolher?",
+          "resposta": "Oito"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Qual destes personagens estava entre os oito lutadores que podiam ser escolhidos no Street Fighter II original, de 1991?",
+        "resposta": "Dhalsim"
+      },
+      "existentes": [
+        {
+          "id": "q07414",
+          "pergunta": "No fliperama Street Fighter 2 original, de 1991, quantos lutadores o jogador podia escolher?",
+          "resposta": "Oito"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "O Código Konami, sequência de setas e botões, ficou famoso no Nintendinho por dar trinta vidas ao jogador em qual jogo de tiro?",
+        "resposta": "Contra"
+      },
+      "existentes": [
+        {
+          "id": "q01320",
+          "pergunta": "Ao adaptar Gradius para o Nintendinho, em 1986, por que o programador Kazuhisa Hashimoto criou o famoso Código Konami?",
+          "resposta": "Achava o jogo difícil demais"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Para enfeitar seus gráficos simples, o Magnavox Odyssey, de 1972, vinha com películas plásticas coloridas que o jogador prendia onde?",
+        "resposta": "Na tela da TV"
+      },
+      "existentes": [
+        {
+          "id": "q07387",
+          "pergunta": "Que engenheiro, chamado de pai dos videogames, criou o Magnavox Odyssey, primeiro console doméstico, lançado em 1972?",
+          "resposta": "Ralph Baer"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "No fliperama Donkey Kong, de 1981, antes de virar o famoso encanador, que profissão tinha Mario?",
+        "resposta": "Carpinteiro"
+      },
+      "existentes": [
+        {
+          "id": "q01303",
+          "pergunta": "O encanador da Nintendo ganhou o nome de Mario em homenagem a um empresário americano. Que relação esse homem tinha com a Nintendo?",
+          "resposta": "Era o locador do armazém da empresa"
+        },
+        {
+          "id": "q01304",
+          "pergunta": "Que limitação técnica dos gráficos de 1981 explica o fato de Mario usar boné?",
+          "resposta": "Era difícil desenhar e animar cabelo"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Em The Sims, os personagens conversam numa língua inventada, sem palavras reconhecíveis. Como se chama essa língua?",
+        "resposta": "Simlish"
+      },
+      "existentes": [
+        {
+          "id": "q07384",
+          "pergunta": "Que designer americano, criador de SimCity, também idealizou o jogo The Sims, lançado em 2000?",
+          "resposta": "Will Wright"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Em Super Mario Bros., de 1985, quantos mundos Mario atravessa até resgatar a princesa no castelo final?",
+        "resposta": "Oito"
+      },
+      "existentes": [
+        {
+          "id": "q01341",
+          "pergunta": "Quem compôs a famosa música tema de Super Mario Bros., um dos temas mais conhecidos dos videogames?",
+          "resposta": "Koji Kondo"
+        },
+        {
+          "id": "q01342",
+          "pergunta": "Super Mario Bros., clássico do Nintendinho, foi lançado no Japão em que ano?",
+          "resposta": "1985"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Estado de fundação é fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cidade de origem é fato novo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ano do fim dos consoles é novo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Vantagem do Game Boy é fato novo."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "País de sucesso é fato novo."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Primeira fase é fato novo."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Artista criador é fato novo."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Planeta de Kirby é fato novo."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Instalação é fato novo."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Local do jogo é fato novo."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Terceira cidade é fato novo."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Terceira cidade é fato novo."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "País do arquipélago é fato novo."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Tipo de estabelecimento é fato diferente do criador."
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "id_existente": "q07372",
+      "motivo": "Ano de criação do Tetris já consta no enunciado de q07372 (1984)."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Origem do nome é fato novo."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Ano da compra pela Microsoft é fato diferente; q01333 só diz que pertence à Microsoft desde 2014, mas a pergunta é outra."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Ano de lançamento é diferente do console antecessor."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Engenheiro de Pong é fato novo."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Problema do protótipo é fato novo."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Console inspirador é fato novo."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Fundador é fato novo."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Significado do nome é fato novo."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Engenheiro é fato novo."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Criador do Donkey Kong é fato novo."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Programador criador é fato novo."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Designer de Lara Croft é fato novo."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Nome do estúdio é fato diferente do país."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Nome original do console é fato novo."
+    },
+    {
+      "caso": 30,
+      "decisao": "repete",
+      "id_existente": "q01317",
+      "motivo": "Nome japonês Puck-Man já é dado em q01317, mesmo fato."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Origem dos combos é fato novo."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Identidade de um lutador é fato diferente da contagem."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Jogo do código dos trinta vidas é fato novo."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Uso das películas é fato novo."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Nenhuma existente trata da profissão de Mario."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Língua do jogo é fato novo."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Número de mundos é fato novo."
+    }
+  ]
+}

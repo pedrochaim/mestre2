@@ -1,0 +1,2598 @@
+Você é o gerador de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta. Siga-as à risca.
+
+# Encomenda
+
+- **Tema:** Entretenimento
+- **Subtema:** Jogos Eletrônicos
+- **Quantidade:** gere exatamente 50 perguntas.
+- **Tipos:** 50 do tipo `multipla` (com exatamente 3 `distratores`) e as demais do tipo `aberta` (sem o campo `distratores`). Pergunta cuja resposta é um ano ou uma data é **sempre** `multipla` (MANIFESTO §6), mesmo que passe da conta acima.
+- **Ângulos a priorizar:** lugar, tempo, autoria
+- **Observações:** Franquias, personagens, consoles, empresas e história dos videogames, de várias épocas. Público brasileiro, informado mas leigo. Prefira fatos surpreendentes sobre o que todo mundo conhece a detalhes obscuros. Varie épocas, regiões e tipos de âncora (pessoas, lugares, obras, eventos, objetos, conceitos). Evite números que mudam com o tempo, recordes que ainda podem ser batidos, temas ainda em disputa e afirmações de 'único', 'primeiro' ou 'maior' sem fonte clara. Priorize os assuntos centrais e conhecidos do subtema que ainda têm poucas perguntas: uma âncora já usada pode receber outras (até 8 no banco), desde que sobre fatos novos. Não troque fama por raridade. Este é o lote 50 do subtema: o banco já tem perguntas sobre ele (veja as listas abaixo). Aprofunde: procure fatos e ângulos ainda não usados, de preferência sobre as âncoras centrais já cadastradas, antes de buscar âncoras novas, e sem cair em detalhes obscuros.
+
+
+# Regras de variedade deste lote
+
+- No máximo 25% das perguntas num mesmo ângulo, e pelo menos 6 ângulos diferentes.
+- `identidade` + `atributo` somam no máximo 30%.
+- No máximo 3 perguntas por âncora, e nunca duas com o mesmo ângulo sobre a mesma âncora.
+- Perguntas do mesmo ângulo não devem repetir o mesmo molde de frase (MANIFESTO §5).
+- **Prefira âncoras centrais e conhecidas**, mesmo que já apareçam na lista abaixo: elas aceitam novas perguntas, sobre fatos e ângulos ainda não usados. Ainda assim, **tente incluir uma âncora nova a cada 50 perguntas**, tão conhecida quanto as da lista; se não achar uma assim, deixe sem. Profundidade vem de fatos novos sobre assuntos conhecidos, e não de âncoras obscuras.
+
+# Âncoras já cadastradas neste subtema
+
+Formato: `id` | nome | descrição | ângulos já usados.
+**Estas âncoras são bem-vindas.** As centrais e conhecidas do subtema devem receber novas perguntas, sobre fatos ainda não perguntados (veja a lista de perguntas abaixo): o banco aceita até 8 perguntas por âncora. Prefira aprofundar uma âncora conhecida desta lista a buscar uma âncora nova e obscura. Se uma pergunta for sobre uma destas âncoras, preencha `ancora.id_existente` com o `id` e **evite repetir um ângulo já usado** para ela (o banco aceita no máximo 2 perguntas com o mesmo ângulo por âncora). Para âncoras novas, omita `id_existente`.
+
+- `a_ascensao_de_darkrai` | A Ascensão de Darkrai | Décimo filme da franquia Pokémon, de 2007, em que Darkrai protege a cidade de Alamos de uma batalha entre lendários. | ângulos: composicao, lugar
+- `a_lenda_de_dratini_episodio` | A Lenda de Dratini (episódio) | Episódio da primeira temporada do anime Pokémon em que Ash procura um Dratini na Zona Safári, nunca exibido nos Estados Unidos. | ângulos: causa
+- `abomasnow` | Abomasnow | Pokémon do tipo Planta/Gelo da quarta geração, número 460 da Pokédex Nacional, evolução de Snover. | ângulos: identidade, nome
+- `abra` | Abra | Pokémon psíquico da primeira geração, número 63 da Pokédex Nacional. | ângulos: identidade
+- `absol` | Absol | Pokémon do tipo Sombrio, número 359 da Pokédex Nacional. | ângulos: causa, identidade
+- `academia_blueberry` | Academia Blueberry | Escola de intercâmbio da expansão The Indigo Disk, de Pokémon Scarlet e Violet, famosa pelo Terário subaquático. | ângulos: lugar
+- `academia_naranja_e_uva` | Academia Naranja e Uva | Escola de Paldea onde estuda o protagonista de Pokémon Scarlet e Violet, com nome diferente em cada versão. | ângulos: nome
+- `acampamento_pokemon` | Acampamento Pokémon | Recurso de Pokémon Sword e Shield em que o jogador monta uma barraca, brinca e cozinha com seus pokémon. | ângulos: atributo
+- `accelgor` | Accelgor | Pokémon do tipo Inseto, número 617 da Pokédex Nacional. | ângulos: conexao, identidade
+- `acrobatics` | Acrobatics | Golpe de pokémon do tipo Voador, da 5ª geração. | ângulos: identidade
+- `aegislash` | Aegislash | Pokémon dos tipos Aço e Fantasma da sexta geração, uma espada com escudo, evolução final de Honedge. | ângulos: atributo, composicao, identidade
+- `aerial_ace` | Aerial Ace | Golpe de pokémon do tipo Voador, da 3ª geração. | ângulos: identidade
+- `aerodactyl` | Aerodactyl | Pokémon fóssil do tipo Pedra/Voador, número 142 da Pokédex Nacional. | ângulos: identidade
+- `agatha` | Agatha | Treinadora idosa especialista em pokémon fantasmas, membro da Elite dos Quatro de Kanto em Pokémon Red e Blue. | ângulos: conexao
+- `agente_47` | Agente 47 | Assassino profissional careca de terno e gravata vermelha, protagonista da série Hitman. | ângulos: identidade
+- `aggron` | Aggron | Pokémon do tipo Aço/Pedra da terceira geração, número 306 da Pokédex Nacional, evolução final de Aron. | ângulos: identidade
+- `aipom` | Aipom | Pokémon do tipo Normal, número 190 da Pokédex Nacional. | ângulos: atributo, identidade
+- `air_slash` | Air Slash | Golpe de pokémon do tipo Voador, da 4ª geração. | ângulos: identidade
+- `akala` | Akala | Segunda ilha da região de Alola, nos jogos Pokémon Sun e Moon, comandada pela kahuna Olivia. | ângulos: conexao
+- `alain` | Alain | Treinador rival de Ash na série XY do anime Pokémon, que o vence na final da Liga de Kalos. | ângulos: composicao
+- `alakazam` | Alakazam | Pokémon do tipo Psíquico, número 65 da Pokédex Nacional. | ângulos: identidade
+- `albert_wesker` | Albert Wesker | Ex-capitão da S.T.A.R.S. e principal vilão da série de jogos Resident Evil. | ângulos: conexao
+- `alcremie` | Alcremie | Pokémon do tipo Fada da oitava geração, em forma de doce de creme, evolução de Milcery. | ângulos: atributo, causa, identidade
+- `alder` | Alder | Campeão da Liga Pokémon de Unova nos jogos Pokémon Black e White, treinador andarilho de cabelo ruivo. | ângulos: autoria, composicao
+- `alex_kidd` | Alex Kidd | Príncipe macaco de macacão vermelho, protagonista da série Alex Kidd e segundo mascote da Sega. | ângulos: autoria
+- `allister` | Allister | Menino mascarado, líder do ginásio de tipo Fantasma de Stow-on-Side em Pokémon Shield, na região de Galar. | ângulos: identidade
+- `alola` | Alola | Região tropical formada por ilhas, cenário dos jogos Pokémon Sun e Moon, da sétima geração. | ângulos: lugar, nome, numero
+- `alomomola` | Alomomola | Pokémon do tipo Água, número 594 da Pokédex Nacional. | ângulos: identidade, lugar
+- `aloy` | Aloy | Protagonista da série de jogos Horizon, caçadora da tribo Nora. | ângulos: conexao
+- `altaria` | Altaria | Pokémon dos tipos Dragão e Voador, número 334 da Pokédex Nacional. | ângulos: atributo, identidade
+- `alva` | Alva | Vilão do filme Volcanion e a Maravilha Mecânica, de 2016, que tenta se apoderar de um pokémon artificial. | ângulos: conexao
+- `amaura` | Amaura | Pokémon dos tipos Pedra e Gelo, número 698 da Pokédex Nacional. | ângulos: lugar
+- `ambar_antigo` | Âmbar Antigo | Pedaço de âmbar dos jogos Pokémon que, levado a um laboratório, revive o pokémon fóssil Aerodactyl. | ângulos: lugar
+- `ambipom` | Ambipom | Pokémon do tipo Normal, número 424 da Pokédex Nacional. | ângulos: conexao, identidade
+- `amethio` | Amethio | Integrante dos Exploradores, grupo vilão da série Pokémon Horizontes, que persegue Liko com seu Ceruledge. | ângulos: identidade
+- `amoonguss` | Amoonguss | Pokémon dos tipos Planta e Venenoso, número 591 da Pokédex Nacional. | ângulos: identidade, lugar
+- `ampharos` | Ampharos | Pokémon do tipo Elétrico da segunda geração, número 181 da Pokédex Nacional, de pescoço longo e esfera na cauda. | ângulos: atributo, identidade, nome
+- `amy_rose` | Amy Rose | Ouriça rosa da série Sonic the Hedgehog, apaixonada por Sonic e dona de um martelo. | ângulos: identidade
+- `anabel_anime` | Anabel (anime) | Cérebro da Frente de Batalha que comanda a Torre de Batalha no anime Pokémon, dona de um Espeon. | ângulos: identidade
+- `ancient_mew` | Ancient Mew | Carta promocional de Mew, escrita numa língua inventada, distribuída nos cinemas americanos que exibiam o filme Pokémon 2000. | ângulos: identidade
+- `ancient_power` | Ancient Power | Golpe de pokémon do tipo Pedra, da 2ª geração. | ângulos: identidade
+- `annihilape` | Annihilape | Pokémon dos tipos Lutador e Fantasma, número 979 da Pokédex Nacional. | ângulos: conexao
+- `anorith` | Anorith | Pokémon dos tipos Pedra e Inseto, número 347 da Pokédex Nacional. | ângulos: identidade
+- `appletun` | Appletun | Pokémon dos tipos Planta e Dragão, número 842 da Pokédex Nacional. | ângulos: identidade
+- `applin` | Applin | Pokémon do tipo Planta e Dragão da oitava geração, uma larva dentro de uma maçã, número 840 da Pokédex Nacional. | ângulos: causa, identidade
+- `araquanid` | Araquanid | Pokémon dos tipos Água e Inseto, número 752 da Pokédex Nacional. | ângulos: conexao, identidade
+- `arbok` | Arbok | Pokémon do tipo Venenoso, número 24 da Pokédex Nacional. | ângulos: identidade, lugar
+- `arboliva` | Arboliva | Pokémon dos tipos Planta e Normal, número 930 da Pokédex Nacional. | ângulos: identidade, lugar
+- `arcanine` | Arcanine | Pokémon do tipo Fogo, número 59 da Pokédex Nacional. | ângulos: conexao, identidade
+- `arceus` | Arceus | Pokémon mítico do tipo Normal da quarta geração, que segundo a mitologia de Sinnoh criou o universo. | ângulos: autoria, causa, identidade, lugar
+- `arceus_e_a_joia_da_vida` | Arceus e a Joia da Vida | Décimo segundo filme da franquia Pokémon, de 2009, em que Arceus busca vingança contra os humanos e Ash viaja ao passado. | ângulos: composicao, lugar
+- `archaludon` | Archaludon | Pokémon dos tipos Aço e Dragão, número 1018 da Pokédex Nacional. | ângulos: conexao, identidade
+- `archen` | Archen | Pokémon dos tipos Pedra e Voador, número 566 da Pokédex Nacional. | ângulos: atributo
+- `archeops` | Archeops | Pokémon dos tipos Pedra e Voador, número 567 da Pokédex Nacional. | ângulos: identidade
+- `archer` | Archer | Executivo da Equipe Rocket que comanda o grupo na ausência de Giovanni em Pokémon HeartGold e SoulSilver. | ângulos: identidade
+- `arctibax` | Arctibax | Pokémon do tipo Dragão/Gelo da nona geração, número 997 da Pokédex Nacional, evolução intermediária de Frigibax. | ângulos: identidade
+- `arctovish` | Arctovish | Pokémon dos tipos Água e Gelo, número 883 da Pokédex Nacional. | ângulos: identidade, lugar
+- `arctozolt` | Arctozolt | Pokémon dos tipos Elétrico e Gelo, número 881 da Pokédex Nacional. | ângulos: identidade, lugar
+- `area_selvagem` | Área Selvagem | Grande área aberta de Pokémon Sword e Shield, no centro de Galar, com câmera livre, clima variável e batalhas Max Raid. | ângulos: causa
+- `ariados` | Ariados | Pokémon dos tipos Inseto e Venenoso, número 168 da Pokédex Nacional. | ângulos: conexao, identidade
+- `arma_suprema` | Arma suprema | Máquina construída há três mil anos pelo rei AZ, em Pokémon X e Y, que a Equipe Flare quer disparar contra o mundo. | ângulos: composicao, lugar
+- `armaldo` | Armaldo | Pokémon dos tipos Pedra e Inseto, número 348 da Pokédex Nacional. | ângulos: conexao, identidade
+- `armarouge` | Armarouge | Pokémon dos tipos Fogo e Psíquico, número 936 da Pokédex Nacional. | ângulos: conexao
+- `aromatisse` | Aromatisse | Pokémon do tipo Fada, número 683 da Pokédex Nacional. | ângulos: conexao, identidade
+- `aron` | Aron | Pokémon do tipo Aço/Pedra da terceira geração, número 304 da Pokédex Nacional. | ângulos: atributo, identidade
+- `arrokuda` | Arrokuda | Pokémon do tipo Água da oitava geração, número 846 da Pokédex Nacional, um peixe-agulha que evolui para Barraskewda. | ângulos: conexao
+- `articuno` | Articuno | Pokémon dos tipos Gelo e Voador, número 144 da Pokédex Nacional. | ângulos: atributo, identidade
+- `arven` | Arven | Aluno da academia de Paldea em Pokémon Scarlet e Violet, cozinheiro e filho do professor da região. | ângulos: causa
+- `ash_ketchum` | Ash Ketchum | Treinador protagonista do anime Pokémon, chamado Satoshi no Japão. | ângulos: causa, nome
+- `assassin_s_creed_jogo_de_2007` | Assassin's Creed (jogo de 2007) | Primeiro jogo da série Assassin's Creed, da Ubisoft, lançado em 2007 e protagonizado por Altaïr. | ângulos: tempo
+- `assurance` | Assurance | Golpe de pokémon do tipo Sombrio, da 4ª geração. | ângulos: identidade
+- `atari` | Atari | Empresa americana pioneira dos videogames, fundada em 1972 por Nolan Bushnell e Ted Dabney. | ângulos: conexao, nome
+- `atari_2600` | Atari 2600 | Console doméstico de cartuchos da Atari, lançado nos Estados Unidos no fim dos anos setenta. | ângulos: tempo
+- `audino` | Audino | Pokémon do tipo Normal, número 531 da Pokédex Nacional. | ângulos: identidade
+- `aurorus` | Aurorus | Pokémon dos tipos Pedra e Gelo, número 699 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `avalugg` | Avalugg | Pokémon do tipo Gelo, número 713 da Pokédex Nacional. | ângulos: conexao, identidade
+- `aves_lendarias_de_kanto` | Aves lendárias de Kanto | Trio de pokémon lendários da primeira geração formado por Articuno, Zapdos e Moltres. | ângulos: composicao, nome
+- `axew` | Axew | Pokémon de tipo Dragão, número 610 da Pokédex Nacional, da quinta geração, que evolui para Fraxure. | ângulos: identidade
+- `axew_de_iris` | Axew de Iris | Axew parceiro de Iris na série Preto e Branco do anime Pokémon. | ângulos: lugar
+- `az` | AZ | Gigante de Pokémon X e Y, antigo rei de Kalos que há três mil anos construiu a arma suprema. | ângulos: causa
+- `azalea` | Azalea | Cidade da região de Johto, nos jogos Pokémon Gold e Silver, onde fica o ginásio de tipo Inseto e o Poço Slowpoke. | ângulos: conexao
+- `azelf` | Azelf | Pokémon do tipo Psíquico, número 482 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `azumarill` | Azumarill | Pokémon dos tipos Água e Fada, número 184 da Pokédex Nacional. | ângulos: atributo, identidade
+- `azurill` | Azurill | Pokémon dos tipos Normal e Fada, número 298 da Pokédex Nacional. | ângulos: lugar
+- `bagon` | Bagon | Pokémon do tipo Dragão, número 371 da Pokédex Nacional. | ângulos: conexao, identidade
+- `balao_de_pikachu_da_macy_s` | Balão de Pikachu da Macy's | Balão gigante de Pikachu que desfila no tradicional desfile de Ação de Graças da loja Macy's, em Nova York. | ângulos: tempo
+- `baltoy` | Baltoy | Pokémon de terra e psíquico em forma de boneco de argila giratório, número 343 da Pokédex Nacional. | ângulos: identidade
+- `banco_card_game_pokemon` | Banco (card game Pokémon) | Área da mesa no card game Pokémon onde ficam os pokémon do jogador que não estão na posição ativa. | ângulos: numero
+- `banette` | Banette | Pokémon do tipo Fantasma, número 354 da Pokédex Nacional. | ângulos: causa, identidade
+- `banjo_2` | Banjo | Urso pardo de bermuda amarela e mochila azul, protagonista da série Banjo-Kazooie da Rareware. | ângulos: identidade
+- `baralho_do_card_game_pokemon` | Baralho do card game Pokémon | Conjunto de sessenta cartas que cada jogador monta para disputar uma partida padrão do card game Pokémon. | ângulos: numero
+- `barbaracle` | Barbaracle | Pokémon dos tipos Pedra e Água, número 689 da Pokédex Nacional. | ângulos: conexao, identidade
+- `barboach` | Barboach | Pokémon dos tipos Água e Terrestre, número 339 da Pokédex Nacional. | ângulos: atributo
+- `barraskewda` | Barraskewda | Pokémon do tipo Água, número 847 da Pokédex Nacional. | ângulos: conexao, identidade
+- `basculegion` | Basculegion | Pokémon dos tipos Água e Fantasma, número 902 da Pokédex Nacional. | ângulos: identidade
+- `basculin` | Basculin | Pokémon do tipo Água, número 550 da Pokédex Nacional. | ângulos: identidade
+- `base_secreta` | Base secreta | Esconderijo que o jogador abre em árvores, arbustos ou paredes de pedra e decora com móveis em Pokémon Ruby, Sapphire e Emerald. | ângulos: identidade
+- `base_set` | Base Set | Primeira coleção do card game Pokémon, lançada no Japão em 1996 e em inglês em 1999, famosa pelo Charizard holográfico. | ângulos: autoria, numero
+- `bastiodon` | Bastiodon | Pokémon dos tipos Pedra e Aço, número 411 da Pokédex Nacional. | ângulos: conexao, identidade
+- `batalha_de_rotacao` | Batalha de rotação | Formato de batalha introduzido em Pokémon Black e White em que cada lado põe três pokémon em campo, mas só o da frente ataca, podendo ser trocado girando a formação. | ângulos: identidade
+- `batalha_dupla` | Batalha dupla | Formato de batalha dos jogos Pokémon em que cada lado usa dois pokémon ao mesmo tempo. | ângulos: tempo
+- `batalha_max_raid` | Batalha Max Raid | Batalha de Pokémon Sword e Shield, iniciada em tocas da Área Selvagem, em que até quatro treinadores enfrentam juntos um pokémon em Dynamax. | ângulos: identidade
+- `battle_chateau` | Battle Château | Castelo de batalhas da região de Kalos, nos jogos Pokémon X e Y, onde os treinadores sobem de posto a cada vitória. | ângulos: atributo
+- `baxcalibur` | Baxcalibur | Pokémon dos tipos Dragão e Gelo, número 998 da Pokédex Nacional. | ângulos: conexao, identidade
+- `bayleef` | Bayleef | Pokémon do tipo Planta número 153 da Pokédex Nacional, evolução de Chikorita. | ângulos: conexao
+- `bayleef_de_ash` | Bayleef de Ash | Pokémon de Ash Ketchum no anime Pokémon, capturada como Chikorita em Johto, conhecida pelo enorme carinho pelo treinador. | ângulos: identidade
+- `beartic` | Beartic | Pokémon do tipo Gelo, número 614 da Pokédex Nacional. | ângulos: atributo, identidade
+- `beautifly` | Beautifly | Pokémon dos tipos Inseto e Voador, número 267 da Pokédex Nacional. | ângulos: conexao, identidade
+- `beedrill` | Beedrill | Pokémon vespa do tipo Inseto e Veneno, número 15 da Pokédex Nacional, evolução final de Weedle. | ângulos: conexao, identidade
+- `beheeyem` | Beheeyem | Pokémon do tipo Psíquico, número 606 da Pokédex Nacional. | ângulos: atributo
+- `beldum` | Beldum | Pokémon dos tipos Aço e Psíquico, número 374 da Pokédex Nacional. | ângulos: conexao
+- `bellibolt` | Bellibolt | Pokémon do tipo Elétrico, número 939 da Pokédex Nacional. | ângulos: identidade
+- `bellossom` | Bellossom | Pokémon do tipo Planta, número 182 da Pokédex Nacional. | ângulos: conexao, identidade
+- `bellsprout` | Bellsprout | Pokémon planta/veneno da primeira geração, número 69 da Pokédex Nacional, que evolui para Weepinbell. | ângulos: conexao, identidade
+- `bergmite` | Bergmite | Pokémon do tipo Gelo, número 712 da Pokédex Nacional. | ângulos: conexao, identidade
+- `bewear` | Bewear | Pokémon dos tipos Normal e Lutador, número 760 da Pokédex Nacional. | ângulos: conexao, identidade
+- `bianca_pokemon_herois` | Bianca (Pokémon Heróis) | Menina de Altomare no filme Pokémon Heróis, neta do guardião Lorenzo, cuja aparência Latias copia para se disfarçar. | ângulos: identidade
+- `bibarel` | Bibarel | Pokémon dos tipos Normal e Água, número 400 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `bicicleta_pokemon` | Bicicleta (Pokémon) | Meio de transporte do jogador nos jogos Pokémon, que permite andar mais rápido que a pé. | ângulos: numero
+- `bidoof` | Bidoof | Pokémon Normal da quarta geração, parecido com um castor, número 399 da Pokédex Nacional. | ângulos: identidade
+- `binacle` | Binacle | Pokémon craca em uma rocha dos tipos Pedra e Água, número 688 da Pokédex Nacional. | ângulos: identidade
+- `bioshock` | BioShock | Jogo de tiro em primeira pessoa lançado em 2007, ambientado na cidade fictícia de Rapture. | ângulos: lugar
+- `bisharp` | Bisharp | Pokémon dos tipos Sombrio e Aço, número 625 da Pokédex Nacional. | ângulos: conexao
+- `bite` | Bite | Golpe de pokémon do tipo Sombrio, da 1ª geração. | ângulos: identidade
+- `blacephalon` | Blacephalon | Pokémon dos tipos Fogo e Fantasma, número 806 da Pokédex Nacional. | ângulos: identidade
+- `blaine` | Blaine | Líder do ginásio de tipo Fogo da ilha Cinnabar, em Kanto, nos jogos Pokémon, famoso pelos enigmas. | ângulos: causa
+- `blanka` | Blanka | Lutador de pele verde da série Street Fighter, da Capcom, que solta descargas elétricas. | ângulos: lugar
+- `blastoise` | Blastoise | Pokémon do tipo Água, número 9 da Pokédex Nacional. | ângulos: conexao, identidade
+- `blaziken` | Blaziken | Pokémon dos tipos Fogo e Lutador, número 257 da Pokédex Nacional. | ângulos: identidade
+- `blipbug` | Blipbug | Pokémon do tipo Inseto, número 824 da Pokédex Nacional. | ângulos: lugar
+- `blissey` | Blissey | Pokémon do tipo Normal, número 242 da Pokédex Nacional. | ângulos: identidade, lugar
+- `blitzle` | Blitzle | Pokémon do tipo Elétrico, número 522 da Pokédex Nacional. | ângulos: identidade
+- `blizzard` | Blizzard | Golpe de pokémon do tipo Gelo, da 1ª geração. | ângulos: identidade
+- `blue_rival` | Blue (rival) | Rival do protagonista e neto do Professor Carvalho nos jogos Pokémon Red, Green e Blue, chamado Green no Japão. | ângulos: identidade, lugar, nome
+- `body_press` | Body Press | Golpe de pokémon do tipo Lutador, da 8ª geração. | ângulos: identidade
+- `body_slam` | Body Slam | Golpe de pokémon do tipo Normal, da 1ª geração. | ângulos: identidade
+- `bolas_de_apricorn` | Bolas de Apricorn | Poké Bolas especiais feitas à mão a partir de frutos chamados Apricorn, nos jogos Pokémon Gold e Silver. | ângulos: autoria
+- `boldore` | Boldore | Pokémon do tipo Pedra, número 525 da Pokédex Nacional. | ângulos: identidade
+- `boltund` | Boltund | Pokémon do tipo Elétrico, número 836 da Pokédex Nacional. | ângulos: identidade
+- `bombirdier` | Bombirdier | Pokémon ave do tipo Voador e Sombrio da nona geração, número 962 da Pokédex Nacional. | ângulos: conexao, identidade
+- `bonnie` | Bonnie | Irmã caçula de Clemont, que acompanha Ash pela região de Kalos na série Pokémon XY. | ângulos: atributo
+- `bonsly` | Bonsly | Pokémon do tipo Pedra, número 438 da Pokédex Nacional. | ângulos: causa, lugar, nome
+- `bordao_equipe_rocket_decolando_de_novo` | Bordão Equipe Rocket decolando de novo | Frase gritada por Jessie, James e Meowth no anime Pokémon quando são derrotados e lançados pelos ares. | ângulos: identidade
+- `bouffalant` | Bouffalant | Pokémon do tipo Normal, número 626 da Pokédex Nacional. | ângulos: identidade, lugar
+- `bounsweet` | Bounsweet | Pokémon fruta do tipo Planta da sétima geração, número 761 da Pokédex Nacional. | ângulos: identidade
+- `bowser_jr` | Bowser Jr. | Filho de Bowser e príncipe dos Koopas, vilão recorrente da franquia Mario. | ângulos: identidade
+- `braixen` | Braixen | Pokémon fogo da sexta geração, número 654 da Pokédex Nacional, forma intermediária entre Fennekin e Delphox, que carrega um galho na cauda. | ângulos: conexao, identidade
+- `brambleghast` | Brambleghast | Pokémon dos tipos Planta e Fantasma, número 947 da Pokédex Nacional. | ângulos: atributo
+- `bramblin` | Bramblin | Pokémon do tipo Planta/Fantasma da nona geração, número 946 da Pokédex Nacional, um arbusto seco que rola como erva-de-bola. | ângulos: conexao, identidade
+- `brandon` | Brandon | Rei da Pirâmide, o último cérebro da Frente de Batalha enfrentado por Ash no anime Pokémon. | ângulos: composicao
+- `braviary` | Braviary | Pokémon dos tipos Normal e Voador, número 628 da Pokédex Nacional. | ângulos: identidade
+- `brawly` | Brawly | Líder surfista do ginásio de tipo Lutador de Dewford, em Hoenn, nos jogos Pokémon Ruby, Sapphire e Emerald. | ângulos: lugar
+- `breloom` | Breloom | Pokémon dos tipos Planta e Lutador, número 286 da Pokédex Nacional. | ângulos: conexao, identidade
+- `brick_break` | Brick Break | Golpe de pokémon do tipo Lutador, da 3ª geração. | ângulos: identidade
+- `brionne` | Brionne | Pokémon do tipo Água, número 729 da Pokédex Nacional. | ângulos: atributo
+- `brock` | Brock | Líder de ginásio do tipo Pedra nos jogos Pokémon e companheiro de viagem de Ash no anime. | ângulos: causa, lugar, nome
+- `bronzong` | Bronzong | Pokémon dos tipos Aço e Psíquico, número 437 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `bronzor` | Bronzor | Pokémon em forma de disco de bronze dos tipos Aço e Psíquico, número 436 da Pokédex Nacional. | ângulos: conexao
+- `bruno` | Bruno | Treinador especialista em pokémon lutadores, membro da Elite dos Quatro de Kanto em Pokémon Red e Blue e de Johto em Gold e Silver. | ângulos: composicao
+- `brutal_swing` | Brutal Swing | Golpe de pokémon do tipo Sombrio, da 7ª geração. | ângulos: identidade
+- `brute_bonnet` | Brute Bonnet | Pokémon dos tipos Planta e Sombrio, número 986 da Pokédex Nacional. | ângulos: atributo, identidade
+- `bruxish` | Bruxish | Pokémon dos tipos Água e Psíquico, número 779 da Pokédex Nacional. | ângulos: identidade, lugar, nome
+- `budew` | Budew | Pokémon dos tipos Planta e Venenoso, número 406 da Pokédex Nacional. | ângulos: identidade
+- `bugsy` | Bugsy | Jovem líder do ginásio de tipo Inseto de Azalea, em Johto, nos jogos Pokémon Gold e Silver. | ângulos: composicao
+- `buizel` | Buizel | Pokémon do tipo Água da quarta geração, número 418 da Pokédex Nacional, uma doninha marinha de duas caudas. | ângulos: identidade
+- `buizel_de_ash` | Buizel de Ash | Buizel de Ash Ketchum no anime Pokémon, que pertencia a Dawn e passou para Ash numa troca em Sinnoh. | ângulos: conexao
+- `bulbasaur` | Bulbasaur | Pokémon dos tipos Planta e Veneno, número 1 da Pokédex Nacional. | ângulos: identidade, nome
+- `bulbasaur_de_ash` | Bulbasaur de Ash | Bulbasaur de Ash Ketchum no anime Pokémon, que vivia num vilarejo escondido de pokémon abandonados antes de seguir o treinador. | ângulos: atributo
+- `bulldoze` | Bulldoze | Golpe de pokémon do tipo Terrestre, da 5ª geração. | ângulos: identidade
+- `bullet_seed` | Bullet Seed | Golpe de pokémon do tipo Planta, da 3ª geração. | ângulos: identidade
+- `buneary` | Buneary | Pokémon do tipo Normal, número 427 da Pokédex Nacional. | ângulos: atributo
+- `buneary_de_dawn` | Buneary de Dawn | Buneary de Dawn no anime Pokémon, capturada em Sinnoh, conhecida pela paixão pelo Pikachu de Ash. | ângulos: identidade
+- `bunnelby` | Bunnelby | Pokémon do tipo Normal, número 659 da Pokédex Nacional. | ângulos: conexao
+- `burmy` | Burmy | Pokémon do tipo Inseto, número 412 da Pokédex Nacional. | ângulos: causa, identidade
+- `butterfree` | Butterfree | Pokémon borboleta do tipo Inseto e Voador da primeira geração, número 12 da Pokédex Nacional. | ângulos: causa, conexao, identidade
+- `buzzwole` | Buzzwole | Pokémon dos tipos Inseto e Lutador, número 794 da Pokédex Nacional. | ângulos: atributo, identidade
+- `cabo_link_do_game_boy` | Cabo Link do Game Boy | Cabo acessório que conecta dois aparelhos Game Boy, usado para trocar pokémon e batalhar nos primeiros jogos. | ângulos: causa
+- `cacnea` | Cacnea | Pokémon cacto de tipo planta da terceira geração, número 331 da Pokédex Nacional. | ângulos: identidade
+- `cacturne` | Cacturne | Pokémon dos tipos Planta e Sombrio, número 332 da Pokédex Nacional. | ângulos: atributo
+- `call_of_duty_jogo_de_2003` | Call of Duty (jogo de 2003) | Primeiro jogo da série de tiro Call of Duty, desenvolvido pela Infinity Ward e lançado em 2003. | ângulos: tempo
+- `calyrex` | Calyrex | Pokémon dos tipos Psíquico e Planta, número 898 da Pokédex Nacional. | ângulos: atributo, composicao, identidade
+- `camara_selada` | Câmara Selada | Câmara submarina de Hoenn, em Pokémon Ruby, Sapphire e Emerald, cujas inscrições guiam o jogador até Regirock, Regice e Registeel. | ângulos: atributo, composicao
+- `cameron_anime` | Cameron (anime) | Treinador distraído de Unova, rival de Ash na série Preto e Branco do anime Pokémon, dono de um Riolu. | ângulos: identidade
+- `camerupt` | Camerupt | Pokémon dos tipos Fogo e Terrestre, número 323 da Pokédex Nacional. | ângulos: identidade, nome
+- `campeonato_mundial_de_pokemon` | Campeonato Mundial de Pokémon | Torneio anual oficial da The Pokémon Company que reúne os melhores jogadores do mundo no card game, nos jogos principais e em outros jogos da franquia. | ângulos: composicao, lugar, tempo
+- `capitao_olimar` | Capitão Olimar | Pequeno astronauta de capacete de vidro, protagonista da série Pikmin. | ângulos: identidade
+- `capitao_stern` | Capitão Stern | Oceanógrafo de Slateport, em Hoenn, nos jogos Pokémon Ruby, Sapphire e Emerald, dono do submarino roubado pelos vilões. | ângulos: identidade
+- `capsakid` | Capsakid | Pokémon do tipo Planta, número 951 da Pokédex Nacional. | ângulos: lugar
+- `capsula_do_tempo` | Cápsula do Tempo | Máquina dos Centros Pokémon em Pokémon Gold, Silver e Crystal que permite trocar pokémon com os jogos da primeira geração. | ângulos: conexao
+- `captain_falcon` | Captain Falcon | Piloto e caçador de recompensas de capacete vermelho, protagonista da série de corrida F-Zero. | ângulos: autoria
+- `capture_styler` | Capture Styler | Aparelho usado pelos guardas da série Pokémon Ranger para riscar círculos em volta dos pokémon selvagens e acalmá-los. | ângulos: identidade
+- `carbink` | Carbink | Pokémon dos tipos Pedra e Fada, número 703 da Pokédex Nacional. | ângulos: identidade, lugar
+- `carkol` | Carkol | Pokémon dos tipos Pedra e Fogo, número 838 da Pokédex Nacional. | ângulos: conexao
+- `carnivine` | Carnivine | Pokémon do tipo Planta, número 455 da Pokédex Nacional. | ângulos: identidade, lugar
+- `carnivine_de_james` | Carnivine de James | Carnivine que pertence a James, da Equipe Rocket, na série Diamante e Pérola do anime Pokémon. | ângulos: conexao
+- `carracosta` | Carracosta | Pokémon dos tipos Água e Pedra, número 565 da Pokédex Nacional. | ângulos: identidade
+- `carta_de_energia_card_game_pokemon` | Carta de Energia (card game Pokémon) | Tipo de carta do card game Pokémon ligada aos pokémon para pagar o custo dos ataques. | ângulos: numero
+- `cartas_gold_star` | Cartas Gold Star | Cartas raríssimas da era EX do card game Pokémon, com pokémon de cor rara e uma estrela ao lado do nome. | ângulos: identidade
+- `carvanha` | Carvanha | Pokémon dos tipos Água e Sombrio, número 318 da Pokédex Nacional. | ângulos: lugar
+- `cascoon` | Cascoon | Pokémon do tipo Inseto, número 268 da Pokédex Nacional. | ângulos: conexao
+- `castelia` | Castelia | Grande cidade portuária de arranha-céus da região de Unova, nos jogos Pokémon Black e White. | ângulos: lugar
+- `castelo_de_n` | Castelo de N | Castelo da Equipe Plasma em Pokémon Black e White, onde acontece o confronto final da história. | ângulos: lugar
+- `castform` | Castform | Pokémon do clima, tipo Normal na forma normal, da terceira geração, número 351 da Pokédex Nacional. | ângulos: identidade, lugar
+- `caterpie` | Caterpie | Pokémon lagarta do tipo Inseto, número 10 da Pokédex Nacional. | ângulos: identidade
+- `caterpie_de_ash` | Caterpie de Ash | Caterpie capturado por Ash Ketchum logo no início da primeira temporada do anime Pokémon, que depois evolui até Butterfree. | ângulos: tempo
+- `cd_projekt` | CD Projekt | Empresa de jogos com sede em Varsóvia, criadora das séries The Witcher e Cyberpunk. | ângulos: conexao
+- `celadon` | Celadon | Grande cidade da região de Kanto, nos jogos Pokémon Red e Blue, com loja de departamentos e o ginásio de tipo Planta de Erika. | ângulos: conexao
+- `celebi` | Celebi | Pokémon mítico dos tipos Psíquico e Planta da segunda geração, que viaja no tempo e protege as florestas. | ângulos: causa, conexao, identidade, lugar
+- `celebrations_colecao` | Celebrations (coleção) | Coleção comemorativa dos 25 anos de Pokémon, lançada em 2021, com reimpressões de cartas clássicas do card game. | ângulos: identidade
+- `celesteela` | Celesteela | Pokémon dos tipos Aço e Voador, número 797 da Pokédex Nacional. | ângulos: conexao, identidade, lugar
+- `centiskorch` | Centiskorch | Pokémon dos tipos Fogo e Inseto, número 851 da Pokédex Nacional. | ângulos: identidade, lugar
+- `ceruledge` | Ceruledge | Pokémon dos tipos Fogo e Fantasma, número 937 da Pokédex Nacional. | ângulos: atributo
+- `cetitan` | Cetitan | Pokémon do tipo Gelo, número 975 da Pokédex Nacional. | ângulos: conexao
+- `cetoddle` | Cetoddle | Pokémon do tipo Gelo, número 974 da Pokédex Nacional. | ângulos: identidade
+- `chandelure` | Chandelure | Pokémon dos tipos Fantasma e Fogo, número 609 da Pokédex Nacional. | ângulos: identidade, nome
+- `chansey` | Chansey | Pokémon do tipo Normal, número 113 da Pokédex Nacional. | ângulos: identidade
+- `charcadet` | Charcadet | Pokémon do tipo Fogo, número 935 da Pokédex Nacional. | ângulos: conexao, lugar
+- `charge_beam` | Charge Beam | Golpe de pokémon do tipo Elétrico, da 4ª geração. | ângulos: identidade
+- `charizard` | Charizard | Pokémon dos tipos Fogo e Voador, número 6 da Pokédex Nacional. | ângulos: causa, conexao, identidade, nome
+- `charizard_holografico_do_base_set` | Charizard holográfico do Base Set | Carta holográfica de Charizard da primeira coleção do card game Pokémon, uma das mais cobiçadas pelos colecionadores. | ângulos: autoria
+- `charjabug` | Charjabug | Pokémon dos tipos Inseto e Elétrico, número 737 da Pokédex Nacional. | ângulos: causa, conexao, identidade
+- `charmander` | Charmander | Pokémon do tipo Fogo, número 4 da Pokédex Nacional. | ângulos: atributo, causa, identidade, nome
+- `charmeleon` | Charmeleon | Pokémon de fogo, forma intermediária de Charmander, número 5 da Pokédex Nacional. | ângulos: conexao, identidade
+- `chatot` | Chatot | Pokémon pássaro de tipo normal e voador da quarta geração, com cauda em forma de nota musical, número 441 da Pokédex Nacional. | ângulos: atributo, identidade
+- `cheren_e_bianca` | Cheren e Bianca | Amigos de infância e rivais do protagonista em Pokémon Black e White, da região de Unova. | ângulos: nome
+- `cherrim` | Cherrim | Pokémon do tipo Planta, número 421 da Pokédex Nacional. | ângulos: atributo, identidade
+- `cherubi` | Cherubi | Pokémon do tipo Planta, número 420 da Pokédex Nacional. | ângulos: identidade
+- `chesnaught` | Chesnaught | Pokémon dos tipos Planta e Lutador, número 652 da Pokédex Nacional. | ângulos: identidade, lugar
+- `chespin` | Chespin | Pokémon do tipo Planta, número 650 da Pokédex Nacional. | ângulos: conexao, identidade
+- `chewtle` | Chewtle | Pokémon do tipo Água, número 833 da Pokédex Nacional. | ângulos: conexao
+- `chi_yu` | Chi-Yu | Pokémon dos tipos Sombrio e Fogo, número 1004 da Pokédex Nacional. | ângulos: identidade
+- `chien_pao` | Chien-Pao | Pokémon dos tipos Sombrio e Gelo, número 1002 da Pokédex Nacional. | ângulos: identidade
+- `chikorita` | Chikorita | Pokémon do tipo Planta, número 152 da Pokédex Nacional. | ângulos: identidade
+- `chilling_water` | Chilling Water | Golpe de pokémon do tipo Água, da 9ª geração. | ângulos: identidade
+- `chimchar` | Chimchar | Pokémon do tipo Fogo, número 390 da Pokédex Nacional. | ângulos: atributo, conexao
+- `chimecho` | Chimecho | Pokémon do tipo Psíquico, número 358 da Pokédex Nacional. | ângulos: identidade, lugar
+- `chinchou` | Chinchou | Pokémon dos tipos Água e Elétrico, número 170 da Pokédex Nacional. | ângulos: identidade
+- `chingling` | Chingling | Pokémon psíquico bebê da quarta geração, número 433 da Pokédex Nacional. | ângulos: conexao
+- `chun_li` | Chun-Li | Lutadora chinesa de vestido azul, principal personagem feminina da série Street Fighter. | ângulos: identidade
+- `ciclo_de_dia_e_noite_em_pokemon` | Ciclo de dia e noite em Pokémon | Mecânica introduzida em Pokémon Gold e Silver em que um relógio real faz o dia e a noite se alternarem no jogo. | ângulos: numero
+- `cilan` | Cilan | Líder de ginásio de Striaton e conhecedor pokémon, companheiro de viagem de Ash em Unova no anime. | ângulos: conexao, nome
+- `cinccino` | Cinccino | Pokémon do tipo Normal, número 573 da Pokédex Nacional. | ângulos: atributo, identidade
+- `cinderace` | Cinderace | Pokémon do tipo Fogo, número 815 da Pokédex Nacional. | ângulos: atributo, conexao
+- `cla_perola` | Clã Pérola | Um dos dois clãs rivais da região de Hisui em Pokémon Legends: Arceus, adversário do Clã Diamante. | ângulos: atributo
+- `clair` | Clair | Líder do ginásio de tipo Dragão de Blackthorn, em Johto, nos jogos Pokémon Gold e Silver. | ângulos: conexao
+- `clamperl` | Clamperl | Pokémon do tipo Água, número 366 da Pokédex Nacional. | ângulos: conexao, identidade
+- `clauncher` | Clauncher | Pokémon do tipo Água, número 692 da Pokédex Nacional. | ângulos: conexao, identidade
+- `clavell` | Clavell | Diretor da academia de Paldea em Pokémon Scarlet e Violet. | ângulos: nome
+- `clawitzer` | Clawitzer | Pokémon do tipo Água, número 693 da Pokédex Nacional. | ângulos: conexao, identidade, lugar
+- `claydol` | Claydol | Pokémon dos tipos Terrestre e Psíquico, número 344 da Pokédex Nacional. | ângulos: conexao, identidade
+- `clefable` | Clefable | Pokémon do tipo Fada, número 36 da Pokédex Nacional. | ângulos: conexao, identidade
+- `clefairy` | Clefairy | Pokémon do tipo Fada, número 35 da Pokédex Nacional. | ângulos: conexao, identidade
+- `cleffa` | Cleffa | Pokémon do tipo Fada, número 173 da Pokédex Nacional. | ângulos: identidade
+- `clima_nas_batalhas_pokemon` | Clima nas batalhas Pokémon | Mecânica dos jogos Pokémon em que condições como chuva, sol forte e tempestade de areia alteram os efeitos das batalhas. | ângulos: tempo
+- `clobbopus` | Clobbopus | Pokémon do tipo Lutador, número 852 da Pokédex Nacional. | ângulos: identidade
+- `clodsire` | Clodsire | Pokémon dos tipos Venenoso e Terrestre, número 980 da Pokédex Nacional. | ângulos: identidade, lugar
+- `cloud_strife` | Cloud Strife | Ex-SOLDIER mercenário de cabelos loiros espetados, protagonista de Final Fantasy VII. | ângulos: identidade
+- `cloyster` | Cloyster | Pokémon dos tipos Água e Gelo, número 91 da Pokédex Nacional. | ângulos: identidade, lugar
+- `coalossal` | Coalossal | Pokémon dos tipos Pedra e Fogo, número 839 da Pokédex Nacional. | ângulos: atributo
+- `cobalion` | Cobalion | Pokémon dos tipos Aço e Lutador, número 638 da Pokédex Nacional. | ângulos: atributo, identidade
+- `codigo_konami` | Código Konami | Sequência de botões usada como truque em jogos da Konami, criada por Kazuhisa Hashimoto. | ângulos: causa
+- `cofagrigus` | Cofagrigus | Pokémon do tipo Fantasma, número 563 da Pokédex Nacional. | ângulos: conexao, identidade
+- `colaboracao_entre_pokemon_e_o_museu_van_gogh` | Colaboração entre Pokémon e o Museu Van Gogh | Parceria de 2023 entre a The Pokémon Company e o Museu Van Gogh, de Amsterdã, que incluiu uma carta de Pikachu com chapéu de feltro cinza. | ângulos: conexao
+- `colress` | Colress | Cientista de Pokémon Black 2 e White 2 que aparece como chefe da nova Equipe Plasma, obcecado pelo potencial dos pokémon. | ângulos: identidade
+- `coluna_lanca` | Coluna Lança | Ruínas antigas no topo do Monte Coronet, em Sinnoh, onde Cyrus tenta dominar Dialga e Palkia nos jogos Pokémon Diamond, Pearl e Platinum. | ângulos: lugar
+- `comandantes_da_equipe_galactica` | Comandantes da Equipe Galáctica | Mars, Jupiter e Saturn, os comandantes que servem Cyrus na Equipe Galáctica em Pokémon Diamond, Pearl e Platinum. | ângulos: conexao
+- `combee` | Combee | Pokémon abelha dos tipos Inseto e Voador, formado por três favos, número 415 da Pokédex Nacional. | ângulos: identidade
+- `combusken` | Combusken | Pokémon do tipo Fogo/Lutador da terceira geração, evolução do Torchic, número 256 da Pokédex Nacional. | ângulos: identidade
+- `comfey` | Comfey | Pokémon do tipo Fada, número 764 da Pokédex Nacional. | ângulos: conexao, identidade, lugar
+- `concurso_de_captura_de_insetos` | Concurso de Captura de Insetos | Competição de Pokémon Gold, Silver e Crystal, realizada no Parque Nacional de Johto, em que os participantes capturam pokémon inseto. | ângulos: tempo
+- `condicoes_especiais_card_game_pokemon` | Condições Especiais (card game Pokémon) | Estados do card game Pokémon, como Adormecido, Confuso e Paralisado, marcados pela posição da carta na mesa. | ângulos: atributo
+- `conferencia_vertress` | Conferência Vertress | Torneio da Liga Pokémon de Unova no anime Pokémon, disputado por Ash na série Preto e Branco. | ângulos: autoria
+- `conkeldurr` | Conkeldurr | Pokémon do tipo Lutador, número 534 da Pokédex Nacional. | ângulos: atributo, identidade
+- `copperajah` | Copperajah | Pokémon do tipo Aço, número 879 da Pokédex Nacional. | ângulos: identidade, lugar, nome
+- `corphish` | Corphish | Pokémon lagostim do tipo Água, número 341 da Pokédex Nacional, da terceira geração. | ângulos: identidade
+- `corrente_vermelha` | Corrente Vermelha | Objeto criado por Cyrus em Pokémon Diamond, Pearl e Platinum para controlar os lendários Dialga e Palkia. | ângulos: composicao
+- `corsola` | Corsola | Pokémon coral da segunda geração, que tem uma forma regional do tipo Fantasma em Galar. | ângulos: causa, conexao, identidade
+- `corviknight` | Corviknight | Pokémon do tipo Voador/Aço da oitava geração, número 823 da Pokédex Nacional, um corvo gigante de armadura. | ângulos: conexao, identidade
+- `corvisquire` | Corvisquire | Pokémon do tipo Voador, número 822 da Pokédex Nacional. | ângulos: conexao
+- `cosmoem` | Cosmoem | Pokémon do tipo Psíquico, número 790 da Pokédex Nacional. | ângulos: atributo, identidade
+- `cosmog` | Cosmog | Pokémon lendário do tipo Psíquico da sétima geração, uma pequena nuvem cósmica que evolui até Solgaleo ou Lunala. | ângulos: atributo, identidade, nome
+- `cottonee` | Cottonee | Pokémon planta e fada da quinta geração, uma bola de algodão, número 546 da Pokédex Nacional. | ângulos: conexao
+- `covet` | Covet | Golpe de pokémon do tipo Normal, da 3ª geração. | ângulos: identidade
+- `crabominable` | Crabominable | Pokémon dos tipos Lutador e Gelo, número 740 da Pokédex Nacional. | ângulos: conexao, identidade
+- `crabrawler` | Crabrawler | Pokémon do tipo Lutador, número 739 da Pokédex Nacional. | ângulos: conexao, lugar
+- `cradily` | Cradily | Pokémon dos tipos Pedra e Planta, número 346 da Pokédex Nacional. | ângulos: atributo, lugar
+- `cramorant` | Cramorant | Pokémon dos tipos Voador e Água, número 845 da Pokédex Nacional. | ângulos: atributo, identidade
+- `cranidos` | Cranidos | Pokémon do tipo Pedra, número 408 da Pokédex Nacional. | ângulos: lugar
+- `crash_bandicoot` | Crash Bandicoot | Série de jogos de plataforma iniciada em 1996 no primeiro PlayStation, estrelada por um marsupial laranja. | ângulos: autoria
+- `crasher_wake` | Crasher Wake | Líder do ginásio de tipo Água de Pastoria, em Sinnoh, nos jogos Pokémon Diamond, Pearl e Platinum, vestido de lutador mascarado. | ângulos: identidade
+- `crawdaunt` | Crawdaunt | Pokémon dos tipos Água e Sombrio, número 342 da Pokédex Nacional. | ângulos: conexao, identidade
+- `creatures` | Creatures | Empresa japonesa de jogos coproprietária da marca Pokémon, responsável pelo card game e por jogos derivados como Detetive Pikachu. | ângulos: autoria
+- `creche_pokemon` | Creche Pokémon | Estabelecimento dos jogos Pokémon onde um casal de idosos cuida dos pokémon do jogador e onde surgem os ovos. | ângulos: lugar
+- `creeper` | Creeper | Criatura verde que explode ao se aproximar do jogador no jogo Minecraft. | ângulos: causa
+- `cresselia` | Cresselia | Pokémon do tipo Psíquico, número 488 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `croagunk` | Croagunk | Pokémon dos tipos Venenoso e Lutador, número 453 da Pokédex Nacional. | ângulos: conexao
+- `croagunk_de_brock` | Croagunk de Brock | Croagunk que pertence a Brock na série Diamante e Pérola do anime Pokémon. | ângulos: identidade
+- `crobat` | Crobat | Pokémon dos tipos Venenoso e Voador, número 169 da Pokédex Nacional. | ângulos: identidade, lugar
+- `crocalor` | Crocalor | Pokémon do tipo Fogo, número 910 da Pokédex Nacional. | ângulos: lugar
+- `croconaw` | Croconaw | Pokémon crocodilo do tipo água, número 159 da Pokédex Nacional, evolução do Totodile. | ângulos: identidade
+- `crunch` | Crunch | Golpe de pokémon do tipo Sombrio, da 2ª geração. | ângulos: identidade
+- `crustle` | Crustle | Pokémon dos tipos Inseto e Pedra, número 558 da Pokédex Nacional. | ângulos: identidade
+- `cryogonal` | Cryogonal | Pokémon do tipo Gelo, número 615 da Pokédex Nacional. | ângulos: atributo, identidade
+- `cubchoo` | Cubchoo | Pokémon do tipo Gelo, número 613 da Pokédex Nacional. | ângulos: causa, identidade
+- `cubone` | Cubone | Pokémon do tipo Terra, número 104 da Pokédex Nacional. | ângulos: causa, conexao, identidade
+- `cufant` | Cufant | Pokémon elefante de cobre do tipo Aço da oitava geração, número 878 da Pokédex Nacional. | ângulos: identidade
+- `cursola` | Cursola | Pokémon do tipo Fantasma, número 864 da Pokédex Nacional. | ângulos: lugar
+- `cut` | Cut | Golpe de pokémon do tipo Normal, da 1ª geração. | ângulos: identidade
+- `cutiefly` | Cutiefly | Pokémon dos tipos Inseto e Fada, número 742 da Pokédex Nacional. | ângulos: identidade
+- `cyclizar` | Cyclizar | Pokémon dos tipos Dragão e Normal, número 967 da Pokédex Nacional. | ângulos: atributo
+- `cyndaquil` | Cyndaquil | Pokémon do tipo Fogo, número 155 da Pokédex Nacional. | ângulos: conexao, identidade
+- `cynthia` | Cynthia | Campeã da Liga Pokémon de Sinnoh nos jogos Diamond, Pearl e Platinum. | ângulos: composicao, lugar
+- `cyrus` | Cyrus | Chefe da Equipe Galáctica, vilão dos jogos Pokémon Diamond, Pearl e Platinum, da região de Sinnoh. | ângulos: causa
+- `dachsbun` | Dachsbun | Pokémon do tipo Fada, número 927 da Pokédex Nacional. | ângulos: causa, conexao, identidade
+- `dark_pulse` | Dark Pulse | Golpe de pokémon do tipo Sombrio, da 4ª geração. | ângulos: identidade
+- `darkrai` | Darkrai | Pokémon do tipo Sombrio, número 491 da Pokédex Nacional. | ângulos: atributo, identidade
+- `darmanitan` | Darmanitan | Pokémon do tipo Fogo da quinta geração, evolução de Darumaka, que entra num modo de meditação. | ângulos: identidade, nome
+- `dartrix` | Dartrix | Pokémon do tipo Planta/Voador da sétima geração, número 723 da Pokédex Nacional, uma coruja que evolui de Rowlet. | ângulos: identidade
+- `darumaka` | Darumaka | Pokémon do tipo Fogo, número 554 da Pokédex Nacional. | ângulos: lugar
+- `dawn` | Dawn | Coordenadora pokémon, companheira de viagem de Ash na série Diamante e Pérola do anime, chamada Hikari no Japão. | ângulos: nome
+- `dazzling_gleam` | Dazzling Gleam | Golpe de pokémon do tipo Fada, da 6ª geração. | ângulos: identidade
+- `decidueye` | Decidueye | Pokémon dos tipos Planta e Fantasma, número 724 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `dedenne` | Dedenne | Pokémon rato elétrico e de fada da sexta geração, número 702 da Pokédex Nacional. | ângulos: atributo, identidade
+- `deerling` | Deerling | Pokémon cervo dos tipos Normal e Planta da quinta geração, que evolui para Sawsbuck e tem formas sazonais. | ângulos: atributo, identidade
+- `deino` | Deino | Pokémon dos tipos Sombrio e Dragão, número 633 da Pokédex Nacional. | ângulos: atributo
+- `delcatty` | Delcatty | Pokémon normal da terceira geração, número 301 da Pokédex Nacional, evolução do Skitty. | ângulos: atributo, conexao, identidade
+- `delibird` | Delibird | Pokémon dos tipos Gelo e Voador, número 225 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `delphox` | Delphox | Pokémon dos tipos Fogo e Psíquico, número 655 da Pokédex Nacional. | ângulos: identidade, lugar
+- `denno_senshi_porygon` | Dennō Senshi Porygon | Episódio de 1997 do anime Pokémon que provocou convulsões em centenas de crianças no Japão. | ângulos: numero
+- `deoxys` | Deoxys | Pokémon mítico do tipo Psíquico da terceira geração, um alienígena que muda de forma. | ângulos: composicao, identidade, lugar, nome
+- `desafio_das_ilhas` | Desafio das Ilhas | Jornada de Pokémon Sun e Moon que substitui os ginásios, com provas em cada ilha da região de Alola. | ângulos: composicao
+- `detetive_pikachu_filme` | Detetive Pikachu (filme) | Filme de 2019 baseado na franquia Pokémon, em que um Pikachu falante investiga um mistério. | ângulos: comparacao, conexao, identidade, lugar
+- `detetive_pikachu_jogo` | Detetive Pikachu (jogo) | Jogo de aventura e investigação para Nintendo 3DS, lançado no Japão em 2016 e no Ocidente em 2018, que inspirou o filme de 2019. | ângulos: atributo, autoria
+- `dewgong` | Dewgong | Pokémon dos tipos Água e Gelo, número 87 da Pokédex Nacional. | ângulos: conexao, identidade
+- `dewott` | Dewott | Pokémon do tipo Água da quinta geração, número 502 da Pokédex Nacional, evolução de Oshawott. | ângulos: identidade
+- `dewpider` | Dewpider | Pokémon dos tipos Água e Inseto, número 751 da Pokédex Nacional. | ângulos: lugar
+- `dexter_pokedex_de_ash` | Dexter (Pokédex de Ash) | Pokédex falante que Ash recebe do Professor Carvalho no primeiro episódio do anime, chamada Dexter na dublagem americana. | ângulos: nome
+- `dhelmise` | Dhelmise | Pokémon dos tipos Fantasma e Planta, número 781 da Pokédex Nacional. | ângulos: identidade, lugar
+- `dia_do_pokemon` | Dia do Pokémon | Data comemorativa anual da franquia Pokémon, aniversário do lançamento dos primeiros jogos no Japão, usada para grandes anúncios. | ângulos: tempo
+- `dialga` | Dialga | Pokémon dos tipos Aço e Dragão, número 483 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `diancie` | Diancie | Pokémon mítico dos tipos Pedra e Fada da sexta geração, a princesa das joias, estrela do filme Diancie e o Casulo da Destruição. | ângulos: conexao, identidade
+- `diancie_e_o_casulo_da_destruicao` | Diancie e o Casulo da Destruição | Décimo sétimo filme da franquia Pokémon, de 2014, em que a princesa Diancie busca salvar seu reino de joias. | ângulos: causa, composicao
+- `diantha` | Diantha | Campeã da Liga Pokémon de Kalos nos jogos Pokémon X e Y, dona de um Gardevoir. | ângulos: atributo
+- `diddy_kong` | Diddy Kong | Macaco de boné vermelho, sobrinho e parceiro de Donkey Kong, criado pela Rare. | ângulos: autoria
+- `dig` | Dig | Golpe de pokémon do tipo Terrestre, da 1ª geração. | ângulos: identidade
+- `diggersby` | Diggersby | Pokémon dos tipos Normal e Terrestre, número 660 da Pokédex Nacional. | ângulos: conexao, identidade
+- `diglett` | Diglett | Pokémon do tipo Terra, número 50 da Pokédex Nacional, que vive enterrado e mostra só a cabeça. | ângulos: atributo, identidade
+- `dipplin` | Dipplin | Pokémon dos tipos Planta e Dragão, número 1011 da Pokédex Nacional. | ângulos: atributo
+- `ditto` | Ditto | Pokémon do tipo Normal, número 132 da Pokédex Nacional. | ângulos: causa, identidade, lugar, nome
+- `dive` | Dive | Golpe de pokémon do tipo Água, da 3ª geração. | ângulos: identidade
+- `divisao_fisico_especial` | Divisão físico-especial | Mudança introduzida em Pokémon Diamond e Pearl que passou a definir a categoria física ou especial de cada golpe individualmente. | ângulos: causa, tempo
+- `dodrio` | Dodrio | Pokémon dos tipos Normal e Voador, número 85 da Pokédex Nacional. | ângulos: conexao, identidade
+- `doduo` | Doduo | Pokémon dos tipos Normal e Voador, número 84 da Pokédex Nacional. | ângulos: conexao, identidade
+- `dojo_de_luta_de_saffron` | Dojo de Luta de Saffron | Dojo de lutadores ao lado do ginásio de Saffron, em Kanto, nos jogos Pokémon Red e Blue, que dá um pokémon de prêmio a quem vence seu mestre. | ângulos: composicao
+- `dolliv` | Dolliv | Pokémon dos tipos Planta e Normal, número 929 da Pokédex Nacional. | ângulos: conexao
+- `dondozo` | Dondozo | Pokémon do tipo Água, número 977 da Pokédex Nacional. | ângulos: atributo, identidade
+- `donkey_kong` | Donkey Kong | Gorila forte de gravata vermelha, personagem da franquia Mario e protagonista da série Donkey Kong Country. | ângulos: conexao
+- `donkey_kong_jogo_de_1981` | Donkey Kong (jogo de 1981) | Fliperama da Nintendo de 1981 em que um gorila sequestra uma moça e marca a estreia de Mario. | ângulos: atributo, causa
+- `donphan` | Donphan | Pokémon do tipo Terrestre, número 232 da Pokédex Nacional. | ângulos: identidade, lugar
+- `doom_jogo_de_1993` | Doom (jogo de 1993) | Jogo de tiro em primeira pessoa lançado em 1993, em que um soldado enfrenta demônios em bases em Marte. | ângulos: autoria
+- `dot` | Dot | Personagem da série Pokémon Horizontes, menina reservada que vive a bordo do dirigível dos aventureiros e faz vídeos na internet. | ângulos: nome
+- `dottler` | Dottler | Pokémon dos tipos Inseto e Psíquico, número 825 da Pokédex Nacional. | ângulos: atributo
+- `doublade` | Doublade | Pokémon dos tipos Aço e Fantasma, número 680 da Pokédex Nacional. | ângulos: atributo
+- `double_edge` | Double-Edge | Golpe de pokémon do tipo Normal, da 1ª geração. | ângulos: identidade
+- `doutor_eggman` | Doutor Eggman | Cientista vilão da série Sonic, da Sega, também chamado Doutor Robotnik. | ângulos: conexao
+- `dracovish` | Dracovish | Pokémon dos tipos Água e Dragão, número 882 da Pokédex Nacional. | ângulos: atributo, causa, identidade
+- `dracozolt` | Dracozolt | Pokémon dos tipos Elétrico e Dragão, número 880 da Pokédex Nacional. | ângulos: identidade
+- `dragalge` | Dragalge | Pokémon dos tipos Venenoso e Dragão, número 691 da Pokédex Nacional. | ângulos: conexao, identidade
+- `dragapult` | Dragapult | Pokémon dos tipos Dragão e Fantasma, número 887 da Pokédex Nacional. | ângulos: composicao, conexao
+- `dragonair` | Dragonair | Pokémon serpentino de tipo Dragão, número 148 da Pokédex Nacional, forma intermediária entre Dratini e Dragonite. | ângulos: identidade
+- `dragonite` | Dragonite | Pokémon dos tipos Dragão e Voador, número 149 da Pokédex Nacional. | ângulos: atributo, identidade
+- `drain_punch` | Drain Punch | Golpe de pokémon do tipo Lutador, da 4ª geração. | ângulos: identidade
+- `drake` | Drake | Velho marinheiro especialista em pokémon dragão, último membro da Elite dos Quatro de Hoenn nos jogos Pokémon Ruby, Sapphire e Emerald. | ângulos: composicao
+- `drakloak` | Drakloak | Pokémon dos tipos Dragão e Fantasma, número 886 da Pokédex Nacional. | ângulos: lugar
+- `drampa` | Drampa | Pokémon dos tipos Normal e Dragão, número 780 da Pokédex Nacional. | ângulos: atributo, causa, identidade
+- `drapion` | Drapion | Pokémon dos tipos Venenoso e Sombrio, número 452 da Pokédex Nacional. | ângulos: identidade, lugar
+- `dratini` | Dratini | Pokémon do tipo Dragão, número 147 da Pokédex Nacional, de corpo serpentino azul. | ângulos: identidade
+- `dream_eater` | Dream Eater | Golpe de pokémon do tipo Psíquico, da 1ª geração. | ângulos: identidade
+- `drednaw` | Drednaw | Pokémon dos tipos Água e Pedra, número 834 da Pokédex Nacional. | ângulos: conexao, identidade
+- `dreepy` | Dreepy | Pokémon fantasma e dragão da oitava geração, número 885 da Pokédex Nacional, primeira forma da linha de Dragapult. | ângulos: identidade
+- `drew_anime` | Drew (anime) | Coordenador pokémon rival de May no anime Pokémon, dono de um Roselia. | ângulos: identidade
+- `drifblim` | Drifblim | Pokémon dos tipos Fantasma e Voador, número 426 da Pokédex Nacional. | ângulos: conexao, identidade
+- `drifloon` | Drifloon | Pokémon fantasma e voador em forma de balão, número 425 da Pokédex Nacional. | ângulos: atributo, identidade
+- `drilbur` | Drilbur | Pokémon do tipo Terra da quinta geração, uma toupeira com grandes garras, número 529 da Pokédex Nacional. | ângulos: conexao
+- `drizzile` | Drizzile | Pokémon do tipo Água, número 817 da Pokédex Nacional. | ângulos: lugar
+- `drowzee` | Drowzee | Pokémon do tipo Psíquico, número 96 da Pokédex Nacional. | ângulos: conexao, identidade, lugar
+- `druddigon` | Druddigon | Pokémon do tipo Dragão da quinta geração, número 621 da Pokédex Nacional. | ângulos: identidade
+- `dubwool` | Dubwool | Pokémon do tipo Normal, número 832 da Pokédex Nacional. | ângulos: identidade, lugar
+- `ducklett` | Ducklett | Pokémon dos tipos Água e Voador, número 580 da Pokédex Nacional. | ângulos: lugar
+- `dudunsparce` | Dudunsparce | Pokémon do tipo Normal, número 982 da Pokédex Nacional. | ângulos: identidade
+- `dugtrio` | Dugtrio | Pokémon do tipo Terrestre, número 51 da Pokédex Nacional. | ângulos: identidade, lugar
+- `dunsparce` | Dunsparce | Pokémon da segunda geração com corpo de serpente alada e cauda em broca, número 206 da Pokédex Nacional. | ângulos: identidade
+- `duosion` | Duosion | Pokémon do tipo Psíquico, número 578 da Pokédex Nacional. | ângulos: atributo
+- `duraludon` | Duraludon | Pokémon dos tipos Aço e Dragão, número 884 da Pokédex Nacional. | ângulos: atributo, identidade
+- `durant` | Durant | Pokémon dos tipos Inseto e Aço, número 632 da Pokédex Nacional. | ângulos: identidade
+- `dusclops` | Dusclops | Pokémon do tipo Fantasma, número 356 da Pokédex Nacional. | ângulos: conexao
+- `dusknoir` | Dusknoir | Pokémon do tipo Fantasma, número 477 da Pokédex Nacional. | ângulos: identidade, lugar
+- `duskull` | Duskull | Pokémon do tipo Fantasma, número 355 da Pokédex Nacional. | ângulos: identidade
+- `dustox` | Dustox | Pokémon dos tipos Inseto e Venenoso, número 269 da Pokédex Nacional. | ângulos: atributo
+- `dustox_de_jessie` | Dustox de Jessie | Dustox de Jessie, da Equipe Rocket, no anime Pokémon, que evoluiu de um Wurmple capturado em Hoenn. | ângulos: identidade
+- `dwebble` | Dwebble | Pokémon dos tipos Inseto e Pedra, número 557 da Pokédex Nacional. | ângulos: conexao
+- `dynamax` | Dynamax | Fenômeno dos jogos Pokémon Sword e Shield que faz os pokémon crescerem até ficar gigantes durante as batalhas na região de Galar. | ângulos: causa, numero
+- `dynamic_punch` | Dynamic Punch | Golpe de pokémon do tipo Lutador, da 2ª geração. | ângulos: identidade
+- `e_honda` | E. Honda | Lutador de sumô da série de jogos de luta Street Fighter, da Capcom. | ângulos: conexao
+- `e_t_jogo_da_atari` | E.T. (jogo da Atari) | Jogo de 1982 da Atari para o Atari 2600, baseado no filme E.T., o Extraterrestre, famoso pelo fracasso. | ângulos: causa
+- `earth_power` | Earth Power | Golpe de pokémon do tipo Terrestre, da 4ª geração. | ângulos: identidade
+- `earthquake` | Earthquake | Golpe de pokémon do tipo Terrestre, da 1ª geração. | ângulos: identidade
+- `echoed_voice` | Echoed Voice | Golpe de pokémon do tipo Normal, da 5ª geração. | ângulos: identidade
+- `ecruteak` | Ecruteak | Cidade da região de Johto, nos jogos Pokémon Gold e Silver, conhecida pelas torres antigas e pelas dançarinas de quimono. | ângulos: lugar
+- `eelektrik` | Eelektrik | Pokémon do tipo Elétrico, número 603 da Pokédex Nacional. | ângulos: identidade
+- `eelektross` | Eelektross | Pokémon do tipo Elétrico, número 604 da Pokédex Nacional. | ângulos: conexao
+- `eevee` | Eevee | Pokémon do tipo Normal, número 133 da Pokédex Nacional. | ângulos: atributo, causa, identidade, lugar, nome
+- `eevee_parceiro` | Eevee parceiro | Eevee especial que acompanha o jogador em Pokémon Let's Go, Eevee!, que não evolui e aprende golpes exclusivos. | ângulos: conexao
+- `eiscue` | Eiscue | Pokémon pinguim do tipo Gelo da oitava geração, da região de Galar, com a habilidade Ice Face. | ângulos: composicao, identidade
+- `ekans` | Ekans | Pokémon cobra do tipo veneno, número 23 da Pokédex Nacional. | ângulos: identidade, nome
+- `eldegoss` | Eldegoss | Pokémon do tipo Planta, número 830 da Pokédex Nacional. | ângulos: identidade, lugar
+- `electabuzz` | Electabuzz | Pokémon elétrico de listras e antenas, número 125 da Pokédex Nacional, evolução de Elekid. | ângulos: atributo, conexao
+- `electivire` | Electivire | Pokémon do tipo Elétrico, número 466 da Pokédex Nacional. | ângulos: conexao, identidade
+- `electric_cancao_de_katy_perry` | Electric (canção de Katy Perry) | Canção lançada em 2021 pela cantora Katy Perry como parte do projeto musical dos 25 anos de Pokémon, com clipe ao lado de Pikachu. | ângulos: autoria
+- `electrike` | Electrike | Pokémon do tipo Elétrico, número 309 da Pokédex Nacional. | ângulos: atributo
+- `electrode` | Electrode | Pokémon do tipo Elétrico, número 101 da Pokédex Nacional. | ângulos: conexao, identidade
+- `elekid` | Elekid | Pokémon do tipo Elétrico, número 239 da Pokédex Nacional. | ângulos: atributo
+- `elesa` | Elesa | Líder do ginásio de tipo Elétrico de Nimbasa, em Unova, nos jogos Pokémon Black e White, também conhecida como modelo. | ângulos: atributo
+- `elgyem` | Elgyem | Pokémon do tipo Psíquico da quinta geração, número 605 da Pokédex Nacional, de cabeça grande inspirada em alienígenas. | ângulos: conexao, identidade, nome
+- `elite_dos_quatro` | Elite dos Quatro | Grupo de quatro treinadores de elite que o jogador enfrenta antes do campeão na Liga Pokémon de cada região. | ângulos: nome
+- `elite_dos_quatro_de_kanto` | Elite dos Quatro de Kanto | Grupo de quatro treinadores de elite que o jogador enfrenta no Platô Indigo, no fim de Pokémon Red e Blue. | ângulos: composicao
+- `elite_dos_quatro_de_unova` | Elite dos Quatro de Unova | Grupo de quatro treinadores de elite, Shauntal, Grimsley, Caitlin e Marshal, enfrentados na Liga Pokémon de Unova em Black e White. | ângulos: atributo
+- `ellie_the_last_of_us` | Ellie (The Last of Us) | Jovem imune ao fungo Cordyceps, protagonista da série de jogos The Last of Us. | ângulos: identidade
+- `emboar` | Emboar | Pokémon dos tipos Fogo e Lutador, número 500 da Pokédex Nacional. | ângulos: conexao, identidade
+- `emolga` | Emolga | Pokémon dos tipos Elétrico e Voador, número 587 da Pokédex Nacional. | ângulos: identidade, lugar
+- `empoleon` | Empoleon | Pokémon dos tipos Água e Aço, número 395 da Pokédex Nacional. | ângulos: conexao, identidade
+- `enamorus` | Enamorus | Pokémon dos tipos Fada e Voador, número 905 da Pokédex Nacional. | ângulos: identidade
+- `encomenda_do_professor_carvalho` | Encomenda do Professor Carvalho | Pacote que o jogador busca e entrega ao Professor Carvalho no início de Pokémon Red e Blue, antes de receber a Pokédex. | ângulos: lugar
+- `encontro_em_horda` | Encontro em horda | Tipo de batalha introduzido em Pokémon X e Y em que vários pokémon selvagens aparecem juntos contra o jogador. | ângulos: numero
+- `enderman` | Enderman | Criatura alta e preta do jogo Minecraft que teletransporta e pega blocos. | ângulos: autoria
+- `energy_ball` | Energy Ball | Golpe de pokémon do tipo Planta, da 4ª geração. | ângulos: identidade
+- `enfermeira_joy` | Enfermeira Joy | Enfermeira dos Centros Pokémon no anime, que aparece em quase todas as cidades com a mesma aparência. | ângulos: atributo
+- `entei` | Entei | Pokémon do tipo Fogo, número 244 da Pokédex Nacional. | ângulos: identidade, lugar, nome
+- `enterro_dos_cartuchos_da_atari` | Enterro dos cartuchos da Atari | Descarte em massa de cartuchos e consoles da Atari num aterro sanitário, em 1983, incluindo cópias do jogo E.T. | ângulos: lugar
+- `equipe_aqua` | Equipe Aqua | Organização vilã de Pokémon Ruby, Sapphire e Emerald que quer despertar Kyogre para expandir os mares. | ângulos: autoria, lugar
+- `equipe_flare` | Equipe Flare | Organização vilã de Pokémon X e Y, da região de Kalos, de uniformes vermelhos, liderada por Lysandre. | ângulos: autoria, causa, composicao
+- `equipe_galactica` | Equipe Galáctica | Organização vilã de Pokémon Diamond, Pearl e Platinum, liderada por Cyrus, que quer usar Dialga e Palkia para criar um novo mundo. | ângulos: lugar, tempo
+- `equipe_go_rocket` | Equipe GO Rocket | Versão da Equipe Rocket no jogo Pokémon Go, cujos recrutas e líderes usam pokémon sombrios que o jogador pode resgatar e purificar. | ângulos: conexao
+- `equipe_magma` | Equipe Magma | Organização vilã de Pokémon Ruby, Sapphire e Emerald, liderada por Maxie, que quer despertar Groudon. | ângulos: causa
+- `equipe_plasma` | Equipe Plasma | Organização vilã de Pokémon Black e White, da região de Unova, que tem N como rei e Ghetsis como verdadeiro líder. | ângulos: atributo, autoria, causa
+- `equipe_rainbow_rocket` | Equipe Rainbow Rocket | Organização vilã de Pokémon Ultra Sun e Ultra Moon, em que Giovanni reúne os chefes de outras equipes vilãs vindos de mundos paralelos. | ângulos: identidade
+- `equipe_rocket` | Equipe Rocket | Organização criminosa da franquia Pokémon, representada no anime pela dupla Jessie e James e pelo Meowth falante. | ângulos: atributo, composicao, lugar, nome
+- `equipe_skull` | Equipe Skull | Gangue de Pokémon Sun e Moon, da região de Alola, formada por jovens rebeldes que se vestem de preto e branco. | ângulos: autoria, conexao, lugar
+- `equipe_star` | Equipe Star | Grupo de alunos rebeldes da Academia de Paldea, em Pokémon Scarlet e Violet, dividido em esquadrões com bases próprias. | ângulos: autoria, causa, nome
+- `equipe_yell` | Equipe Yell | Grupo de torcedores barulhentos de Pokémon Sword e Shield, da região de Galar, que atrapalha o jogador. | ângulos: conexao
+- `equipes_de_pokemon_go` | Equipes de Pokémon Go | As três equipes, Mystic, Valor e Instinct, entre as quais os jogadores de Pokémon Go se dividem para disputar ginásios. | ângulos: atributo, composicao
+- `erika` | Erika | Líder do ginásio de tipo Planta de Celadon, em Kanto, nos jogos Pokémon. | ângulos: nome
+- `escavalier` | Escavalier | Pokémon dos tipos Inseto e Aço da quinta geração, um cavaleiro de armadura, evolução de Karrablast. | ângulos: composicao, identidade
+- `escola_pokemon_de_alola` | Escola Pokémon de Alola | Escola do anime Pokémon Sol e Lua onde Ash estuda com Lillie, Kiawe, Lana, Mallow e Sophocles, sob o Professor Kukui. | ângulos: lugar
+- `esmeraldas_do_caos` | Esmeraldas do Caos | Joias mágicas da série Sonic, da Sega, que dão poderes a quem as reúne. | ângulos: numero
+- `espadachins_da_justica` | Espadachins da Justiça | Grupo de pokémon lendários de Unova formado por Cobalion, Terrakion e Virizion, ao qual se junta o mítico Keldeo. | ângulos: causa
+- `espathra` | Espathra | Pokémon do tipo Psíquico, número 956 da Pokédex Nacional. | ângulos: identidade
+- `espeon` | Espeon | Pokémon do tipo Psíquico, número 196 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `espurr` | Espurr | Pokémon do tipo Psíquico, número 677 da Pokédex Nacional. | ângulos: causa, lugar
+- `estacao_global_de_trocas` | Estação Global de Trocas | Serviço dos jogos Pokémon, criado em Diamond e Pearl, que permite trocar pokémon pela internet com jogadores do mundo todo. | ângulos: lugar
+- `estacoes_do_ano_em_pokemon_black_e_white` | Estações do ano em Pokémon Black e White | Mecânica de Pokémon Black e White em que primavera, verão, outono e inverno se alternam no jogo, mudando paisagens e pokémon. | ângulos: numero
+- `eternatus` | Eternatus | Pokémon dos tipos Venenoso e Dragão, número 890 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `everstone` | Everstone | Item dos jogos Pokémon que, segurado por um pokémon, impede sua evolução. | ângulos: identidade
+- `evolucao_por_troca` | Evolução por troca | Método de evolução dos jogos Pokémon em que certos pokémon só evoluem ao serem trocados com outro jogador. | ângulos: conexao
+- `excadrill` | Excadrill | Pokémon dos tipos Terrestre e Aço, número 530 da Pokédex Nacional. | ângulos: conexao
+- `exeggcute` | Exeggcute | Pokémon dos tipos Planta e Psíquico, número 102 da Pokédex Nacional. | ângulos: atributo, identidade
+- `exeggutor` | Exeggutor | Pokémon palmeira da primeira geração, evolução de Exeggcute, que tem uma forma regional em Alola. | ângulos: atributo, conexao, identidade
+- `expansion_pass_de_sword_e_shield` | Expansion Pass de Sword e Shield | Conteúdo pago baixável de Pokémon Sword e Shield, formado por The Isle of Armor e The Crown Tundra, lançado no lugar de uma terceira versão. | ângulos: identidade
+- `expedition_base_set_colecao` | Expedition Base Set (coleção) | Primeira coleção da série e-Card do card game Pokémon, lançada em 2002, com cartas compatíveis com o e-Reader. | ângulos: atributo
+- `exploud` | Exploud | Pokémon do tipo Normal, número 295 da Pokédex Nacional. | ângulos: atributo, identidade
+- `ezio_auditore` | Ezio Auditore | Nobre italiano renascentista, protagonista de Assassin's Creed II e de suas continuações, da Ubisoft. | ângulos: lugar
+- `fabio_lucindo` | Fábio Lucindo | Dublador brasileiro, voz de Ash Ketchum na versão brasileira do anime Pokémon. | ângulos: conexao
+- `falinks` | Falinks | Pokémon do tipo Lutador, número 870 da Pokédex Nacional. | ângulos: atributo
+- `falkner` | Falkner | Líder do ginásio de tipo Voador de Violet, o primeiro de Johto, nos jogos Pokémon Gold e Silver. | ângulos: lugar
+- `fantasmas_de_pac_man` | Fantasmas de Pac-Man | Os quatro fantasmas que perseguem o protagonista no jogo Pac-Man, de 1980. | ângulos: composicao
+- `farfetch_d` | Farfetch’d | Pokémon de tipo Normal/Voador, número 83 da Pokédex Nacional, um pato selvagem que carrega um talo de alho-poró. | ângulos: causa, composicao, conexao, identidade
+- `farigiraf` | Farigiraf | Pokémon dos tipos Normal e Psíquico, número 981 da Pokédex Nacional. | ângulos: conexao
+- `fase_de_johto_do_anime_pokemon` | Fase de Johto do anime Pokémon | Parte do anime Pokémon em que Ash viaja pela região de Johto com Misty e Brock, iniciada com a temporada Johto Journeys. | ângulos: tempo
+- `fearow` | Fearow | Pokémon dos tipos Normal e Voador, número 22 da Pokédex Nacional. | ângulos: conexao, identidade
+- `feebas` | Feebas | Pokémon peixe do tipo Água da terceira geração, considerado feio, que evolui para Milotic. | ângulos: causa, identidade
+- `fennekin` | Fennekin | Pokémon do tipo Fogo, número 653 da Pokédex Nacional. | ângulos: conexao, identidade
+- `fenomeno_illumina` | Fenômeno Illumina | Fenômeno de New Pokémon Snap em que certos pokémon da região de Lental brilham com uma luz misteriosa. | ângulos: identidade
+- `feraligatr` | Feraligatr | Pokémon do tipo Água, número 160 da Pokédex Nacional. | ângulos: identidade, lugar
+- `feras_lendarias_de_johto` | Feras lendárias de Johto | Trio de pokémon lendários da segunda geração, formado por Raikou, Entei e Suicune, ressuscitados por Ho-Oh. | ângulos: composicao
+- `ferroseed` | Ferroseed | Pokémon dos tipos Planta e Aço, número 597 da Pokédex Nacional. | ângulos: conexao
+- `ferrothorn` | Ferrothorn | Pokémon dos tipos Planta e Aço, número 598 da Pokédex Nacional. | ângulos: identidade, lugar
+- `fezandipiti` | Fezandipiti | Pokémon dos tipos Venenoso e Fada, número 1016 da Pokédex Nacional. | ângulos: atributo, identidade
+- `fidough` | Fidough | Pokémon do tipo Fada, número 926 da Pokédex Nacional. | ângulos: atributo
+- `final_fantasy` | Final Fantasy | Série japonesa de jogos de RPG iniciada em 1987 pela Square. | ângulos: autoria, conexao
+- `finizen` | Finizen | Pokémon do tipo Água, número 963 da Pokédex Nacional. | ângulos: identidade
+- `finneon` | Finneon | Pokémon do tipo Água, número 456 da Pokédex Nacional. | ângulos: conexao
+- `fire_blast` | Fire Blast | Golpe de pokémon do tipo Fogo, da 1ª geração. | ângulos: identidade
+- `fire_punch` | Fire Punch | Golpe de pokémon do tipo Fogo, da 1ª geração. | ângulos: identidade
+- `flaaffy` | Flaaffy | Pokémon elétrico da segunda geração, número 180 da Pokédex Nacional, forma intermediária entre Mareep e Ampharos. | ângulos: identidade
+- `flabebe` | Flabébé | Pokémon do tipo Fada, número 669 da Pokédex Nacional. | ângulos: atributo, identidade
+- `flamethrower` | Flamethrower | Golpe de pokémon do tipo Fogo, da 1ª geração. | ângulos: identidade
+- `flamigo` | Flamigo | Pokémon dos tipos Voador e Lutador, número 973 da Pokédex Nacional. | ângulos: identidade
+- `flannery` | Flannery | Líder do ginásio de tipo Fogo de Lavaridge, em Hoenn, nos jogos Pokémon Ruby e Sapphire. | ângulos: lugar
+- `flapple` | Flapple | Pokémon dos tipos Planta e Dragão, número 841 da Pokédex Nacional. | ângulos: identidade, lugar
+- `flappy_bird` | Flappy Bird | Jogo para celular de 2013, criado pelo vietnamita Dong Nguyen, em que um passarinho voa entre canos. | ângulos: causa
+- `flareon` | Flareon | Pokémon do tipo fogo, número 136 da Pokédex Nacional, evolução do Eevee. | ângulos: atributo, conexao, identidade
+- `fletchinder` | Fletchinder | Pokémon dos tipos Fogo e Voador, número 662 da Pokédex Nacional. | ângulos: conexao, identidade
+- `fletchling` | Fletchling | Pokémon passarinho de tipo normal e voador da sexta geração, número 661 da Pokédex Nacional. | ângulos: identidade
+- `flint` | Flint | Membro da Elite dos Quatro de Sinnoh especialista em pokémon de fogo, nos jogos Pokémon Diamond, Pearl e Platinum. | ângulos: conexao
+- `flittle` | Flittle | Pokémon do tipo Psíquico, número 955 da Pokédex Nacional. | ângulos: atributo
+- `floatzel` | Floatzel | Pokémon do tipo Água, número 419 da Pokédex Nacional. | ângulos: conexao, identidade, lugar
+- `floette` | Floette | Pokémon do tipo Fada, número 670 da Pokédex Nacional. | ângulos: atributo, identidade
+- `floragato` | Floragato | Pokémon gato do tipo Planta, número 907 da Pokédex Nacional, evolução de Sprigatito. | ângulos: identidade
+- `florges` | Florges | Pokémon do tipo Fada, número 671 da Pokédex Nacional. | ângulos: conexao, identidade
+- `flutter_mane` | Flutter Mane | Pokémon dos tipos Fantasma e Fada, número 987 da Pokédex Nacional. | ângulos: identidade
+- `flygon` | Flygon | Pokémon dos tipos Terrestre e Dragão, número 330 da Pokédex Nacional. | ângulos: conexao, identidade
+- `focus_blast` | Focus Blast | Golpe de pokémon do tipo Lutador, da 4ª geração. | ângulos: identidade
+- `focus_punch` | Focus Punch | Golpe de pokémon do tipo Lutador, da 3ª geração. | ângulos: identidade
+- `fomantis` | Fomantis | Pokémon do tipo Planta, número 753 da Pokédex Nacional. | ângulos: lugar
+- `foongus` | Foongus | Pokémon cogumelo dos tipos Planta e Veneno da quinta geração, que evolui para Amoonguss. | ângulos: conexao, identidade
+- `forma_regional` | Forma regional | Variação de um pokémon já conhecido adaptada ao ambiente de outra região, com aparência e às vezes tipo diferentes, como as formas de Alola e de Galar. | ângulos: tempo
+- `forretress` | Forretress | Pokémon dos tipos Inseto e Aço, número 205 da Pokédex Nacional. | ângulos: conexao, identidade
+- `fortree` | Fortree | Cidade da região de Hoenn, nos jogos Pokémon Ruby e Sapphire, com casas no alto das árvores e o ginásio de tipo Voador de Winona. | ângulos: identidade
+- `fossil_colecao` | Fossil (coleção) | Terceira coleção do card game Pokémon lançada em inglês, em 1999, com Aerodactyl, Ditto e as aves lendárias de Kanto. | ângulos: identidade
+- `foul_play` | Foul Play | Golpe de pokémon do tipo Sombrio, da 5ª geração. | ângulos: identidade
+- `fox_mccloud` | Fox McCloud | Raposa antropomórfica, piloto da nave Arwing e líder da equipe Star Fox. | ângulos: conexao
+- `fraxure` | Fraxure | Pokémon do tipo Dragão, número 611 da Pokédex Nacional. | ângulos: lugar
+- `freddy_fazbear` | Freddy Fazbear | Urso animatrônico antagonista título da série de jogos de terror Five Nights at Freddy's. | ângulos: autoria
+- `frente_de_batalha_anime` | Frente de Batalha (anime) | Conjunto de instalações de batalha, comandadas por sete cérebros, que Ash desafia depois de Hoenn no anime Pokémon. | ângulos: lugar
+- `frente_de_batalha_de_hoenn` | Frente de Batalha de Hoenn | Complexo de instalações de batalha pós-jogo de Pokémon Emerald, na região de Hoenn. | ângulos: numero
+- `friede` | Friede | Professor pokémon e líder dos aventureiros Rising Volt Tacklers na série Pokémon Horizontes. | ângulos: conexao
+- `frigibax` | Frigibax | Pokémon dos tipos Dragão e Gelo, número 996 da Pokédex Nacional. | ângulos: atributo
+- `frillish` | Frillish | Pokémon dos tipos Água e Fantasma, número 592 da Pokédex Nacional. | ângulos: identidade
+- `froakie` | Froakie | Pokémon do tipo Água, número 656 da Pokédex Nacional. | ângulos: identidade, lugar
+- `frogadier` | Frogadier | Pokémon água da sexta geração, número 657 da Pokédex Nacional, forma intermediária entre Froakie e Greninja. | ângulos: identidade
+- `froslass` | Froslass | Pokémon dos tipos Gelo e Fantasma da quarta geração, evolução da fêmea de Snorunt. | ângulos: atributo, conexao, identidade
+- `frosmoth` | Frosmoth | Pokémon dos tipos Gelo e Inseto, número 873 da Pokédex Nacional. | ângulos: conexao, identidade
+- `fuecoco` | Fuecoco | Pokémon inicial do tipo Fogo da nona geração, número 909 da Pokédex Nacional. | ângulos: conexao
+- `furfrou` | Furfrou | Pokémon do tipo Normal, número 676 da Pokédex Nacional, cão de pelagem de poodle que pode ser aparado em vários estilos. | ângulos: identidade
+- `furret` | Furret | Pokémon do tipo Normal, número 162 da Pokédex Nacional. | ângulos: conexao, identidade
+- `fury_cutter` | Fury Cutter | Golpe de pokémon do tipo Inseto, da 2ª geração. | ângulos: identidade
+- `gabite` | Gabite | Pokémon do tipo Dragão/Terra da quarta geração, número 444 da Pokédex Nacional. | ângulos: identidade
+- `galar` | Galar | Região fictícia dos jogos Pokémon Sword e Shield, da oitava geração, inspirada na Grã-Bretanha. | ângulos: lugar
+- `galaxy_expedition_team` | Galaxy Expedition Team | Grupo de pesquisa da Vila Jubilife, em Pokémon Legends: Arceus, encarregado de estudar os pokémon de Hisui e criar a primeira Pokédex. | ângulos: identidade
+- `gallade` | Gallade | Pokémon do tipo Psíquico/Lutador da quarta geração, número 475 da Pokédex Nacional, evolução de Kirlia. | ângulos: identidade
+- `galvantula` | Galvantula | Pokémon dos tipos Inseto e Elétrico, número 596 da Pokédex Nacional. | ângulos: atributo, identidade
+- `game_boy` | Game Boy | Videogame portátil da Nintendo lançado em 1989. | ângulos: autoria, composicao
+- `game_freak` | Game Freak | Estúdio japonês fundado por Satoshi Tajiri, responsável pelos jogos principais da série Pokémon. | ângulos: atributo, composicao
+- `garbodor` | Garbodor | Pokémon do tipo Venenoso, número 569 da Pokédex Nacional. | ângulos: identidade
+- `garchomp` | Garchomp | Pokémon dos tipos Dragão e Terra, número 445 da Pokédex Nacional. | ângulos: conexao, identidade
+- `gardevoir` | Gardevoir | Pokémon dos tipos Psíquico e Fada, número 282 da Pokédex Nacional. | ângulos: conexao, identidade, nome
+- `garganacl` | Garganacl | Pokémon do tipo Pedra, número 934 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `gary_carvalho` | Gary Carvalho | Neto do Professor Carvalho e rival de Ash Ketchum no anime Pokémon, chamado Shigeru no Japão. | ângulos: composicao, nome
+- `gastly` | Gastly | Pokémon dos tipos Fantasma e Venenoso, número 92 da Pokédex Nacional. | ângulos: conexao
+- `gastrodon` | Gastrodon | Pokémon dos tipos Água e Terrestre, número 423 da Pokédex Nacional. | ângulos: atributo, identidade
+- `geeta` | Geeta | Campeã e presidente da Liga Pokémon de Paldea nos jogos Pokémon Scarlet e Violet. | ângulos: atributo
+- `genesect` | Genesect | Pokémon mítico dos tipos Inseto e Aço da quinta geração, um inseto pré-histórico modificado pela Equipe Plasma. | ângulos: composicao, conexao, identidade
+- `genesect_e_a_lenda_revelada` | Genesect e a Lenda Revelada | Décimo sexto filme da franquia Pokémon, de 2013, em que um bando de Genesect invade uma metrópole e enfrenta um Mewtwo. | ângulos: atributo, lugar
+- `genetic_apex` | Genetic Apex | Primeira coleção de cartas do Pokémon Trading Card Game Pocket, lançada em 2024 em três pacotes diferentes. | ângulos: composicao
+- `gengar` | Gengar | Pokémon dos tipos Fantasma e Veneno, número 94 da Pokédex Nacional. | ângulos: atributo, conexao, identidade, nome
+- `geodude` | Geodude | Pokémon dos tipos Pedra e Terra, número 74 da Pokédex Nacional. | ângulos: identidade
+- `geosenge` | Geosenge | Cidadezinha da região de Kalos, nos jogos Pokémon X e Y, cercada de pedras antigas, sob a qual está escondida a arma suprema. | ângulos: lugar
+- `ghetsis` | Ghetsis | Verdadeiro líder da Equipe Plasma em Pokémon Black e White e em Black 2 e White 2, pai adotivo de N. | ângulos: causa
+- `gholdengo` | Gholdengo | Pokémon dourado dos tipos Aço e Fantasma da nona geração, evolução de Gimmighoul. | ângulos: atributo, composicao, conexao, identidade
+- `ghost_of_tsushima` | Ghost of Tsushima | Jogo de ação da Sucker Punch lançado em 2020, protagonizado pelo samurai Jin Sakai. | ângulos: lugar
+- `gibeon` | Gibeon | Líder do grupo vilão dos Exploradores na série Pokémon Horizontes. | ângulos: identidade
+- `gible` | Gible | Pokémon tubarão terrestre dos tipos Dragão e Terrestre, número 443 da Pokédex Nacional. | ângulos: identidade
+- `giga_drain` | Giga Drain | Golpe de pokémon do tipo Planta, da 2ª geração. | ângulos: identidade
+- `giga_impact` | Giga Impact | Golpe de pokémon do tipo Normal, da 4ª geração. | ângulos: identidade
+- `gigalith` | Gigalith | Pokémon do tipo Pedra, número 526 da Pokédex Nacional. | ângulos: conexao, identidade
+- `gigantamax` | Gigantamax | Variação do Dynamax de Pokémon Sword e Shield em que certos pokémon, além de crescer, ganham uma aparência especial. | ângulos: identidade
+- `gimmighoul` | Gimmighoul | Pokémon do tipo Fantasma da nona geração, que vive dentro de um baú e evolui para Gholdengo. | ângulos: identidade, numero
+- `ginasio_de_striaton` | Ginásio de Striaton | Primeiro ginásio de Pokémon Black e White, comandado pelos irmãos Cilan, Chili e Cress, especialistas em Planta, Fogo e Água. | ângulos: causa
+- `giovanni` | Giovanni | Chefe da Equipe Rocket nos jogos e no anime Pokémon. | ângulos: atributo, causa, identidade, lugar
+- `girafarig` | Girafarig | Pokémon dos tipos Normal e Psíquico, número 203 da Pokédex Nacional. | ângulos: lugar
+- `giratina` | Giratina | Pokémon lendário dos tipos Fantasma e Dragão da quarta geração, mascote de Pokémon Platinum. | ângulos: atributo, causa, identidade, lugar
+- `giratina_e_o_guerreiro_dos_ceus` | Giratina e o Guerreiro dos Céus | Décimo primeiro filme da franquia Pokémon, de 2008, em que Ash ajuda o mítico Shaymin e enfrenta o caçador Zero. | ângulos: lugar
+- `glaceon` | Glaceon | Pokémon do tipo Gelo, número 471 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `gladion` | Gladion | Treinador de Alola, rival de Ash na série Sol e Lua do anime e adversário dele na final da Liga de Alola. | ângulos: conexao
+- `glalie` | Glalie | Pokémon do tipo Gelo, número 362 da Pokédex Nacional, de cabeça de gelo com chifres, evolução de Snorunt. | ângulos: identidade
+- `glameow` | Glameow | Pokémon do tipo Normal, número 431 da Pokédex Nacional. | ângulos: conexao, identidade
+- `glastrier` | Glastrier | Pokémon do tipo Gelo, número 896 da Pokédex Nacional. | ângulos: atributo, identidade
+- `gligar` | Gligar | Pokémon escorpião voador do tipo Terra/Voador, número 207 da Pokédex Nacional, da segunda geração. | ângulos: identidade
+- `glimmet` | Glimmet | Pokémon dos tipos Pedra e Venenoso, número 969 da Pokédex Nacional. | ângulos: lugar
+- `glimmora` | Glimmora | Pokémon dos tipos Pedra e Venenoso, número 970 da Pokédex Nacional. | ângulos: conexao
+- `gliscor` | Gliscor | Pokémon dos tipos Terrestre e Voador, número 472 da Pokédex Nacional. | ângulos: conexao, identidade
+- `gloom` | Gloom | Pokémon de planta e veneno, número 44 da Pokédex Nacional, evolução de Oddish. | ângulos: atributo, identidade
+- `gogoat` | Gogoat | Pokémon do tipo Planta, número 673 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `goh` | Goh | Companheiro de Ash na série Jornadas Pokémon, pesquisador do Laboratório Cerise que quer capturar todos os pokémon. | ângulos: atributo
+- `golbat` | Golbat | Pokémon morcego dos tipos Venenoso e Voador, número 42 da Pokédex Nacional, evolução de Zubat. | ângulos: identidade
+- `gold_pokemon_adventures` | Gold (Pokémon Adventures) | Protagonista esquentado do arco de Gold, Silver e Crystal do mangá Pokémon Adventures, criado em New Bark, em Johto. | ângulos: atributo
+- `goldeen` | Goldeen | Pokémon do tipo Água, número 118 da Pokédex Nacional. | ângulos: atributo, identidade
+- `golduck` | Golduck | Pokémon de água, número 55 da Pokédex Nacional, evolução de Psyduck. | ângulos: atributo, identidade
+- `golem` | Golem | Pokémon dos tipos Pedra e Terrestre, número 76 da Pokédex Nacional. | ângulos: conexao, identidade
+- `golett` | Golett | Pokémon dos tipos Terrestre e Fantasma, número 622 da Pokédex Nacional. | ângulos: identidade
+- `golisopod` | Golisopod | Pokémon dos tipos Inseto e Água, número 768 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `golurk` | Golurk | Pokémon dos tipos Terrestre e Fantasma, número 623 da Pokédex Nacional. | ângulos: identidade
+- `goodra` | Goodra | Pokémon do tipo Dragão, número 706 da Pokédex Nacional. | ângulos: conexao, identidade
+- `goomba` | Goomba | Inimigo marrom em forma de cogumelo, o mais comum da franquia Mario. | ângulos: identidade
+- `goomy` | Goomy | Pokémon dragão lesma da sexta geração, número 704 da Pokédex Nacional. | ângulos: conexao
+- `gorebyss` | Gorebyss | Pokémon do tipo Água, número 368 da Pokédex Nacional. | ângulos: conexao, identidade
+- `gossifleur` | Gossifleur | Pokémon do tipo Planta, número 829 da Pokédex Nacional. | ângulos: conexao
+- `gotcha_clipe` | GOTCHA! (clipe) | Clipe animado de 2020 que relembra as aventuras dos jogos Pokémon, embalado pela música Acacia. | ângulos: autoria
+- `gothita` | Gothita | Pokémon do tipo Psíquico, número 574 da Pokédex Nacional. | ângulos: lugar
+- `gothitelle` | Gothitelle | Pokémon do tipo Psíquico, número 576 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `gothorita` | Gothorita | Pokémon do tipo Psíquico da quinta geração, número 575 da Pokédex Nacional, evolução intermediária de Gothita. | ângulos: identidade
+- `gotta_catch_em_all` | Gotta Catch 'Em All | Slogan em inglês da franquia Pokémon, presente na primeira abertura americana do anime, adaptado no Brasil como Temos que pegar. | ângulos: nome
+- `gotta_catch_ya_later_episodio` | Gotta Catch Ya Later! (episódio) | Episódio do anime Pokémon que encerra a fase de Johto, em que Misty e Brock se separam de Ash. | ângulos: causa, tempo
+- `gouging_fire` | Gouging Fire | Pokémon dos tipos Fogo e Dragão, número 1020 da Pokédex Nacional. | ângulos: identidade
+- `gourgeist` | Gourgeist | Pokémon dos tipos Fantasma e Planta, número 711 da Pokédex Nacional. | ângulos: causa, identidade
+- `grace` | Grace | Mãe do protagonista em Pokémon X e Y, que mora em Vaniville, na região de Kalos. | ângulos: atributo
+- `grafaiai` | Grafaiai | Pokémon dos tipos Venenoso e Normal, número 945 da Pokédex Nacional. | ângulos: causa, conexao, identidade
+- `granbull` | Granbull | Pokémon do tipo Fada, número 210 da Pokédex Nacional. | ângulos: conexao, identidade
+- `grand_theft_auto` | Grand Theft Auto | Série de jogos de mundo aberto da Rockstar Games, iniciada em 1997. | ângulos: lugar, nome
+- `grand_theft_auto_san_andreas` | Grand Theft Auto: San Andreas | Jogo de mundo aberto da Rockstar Games lançado em 2004, protagonizado por Carl Johnson, o CJ. | ângulos: tempo
+- `grand_theft_auto_vice_city` | Grand Theft Auto: Vice City | Jogo da Rockstar Games de 2002, ambientado numa cidade fictícia nos anos oitenta. | ângulos: lugar
+- `grande_cratera_de_paldea` | Grande Cratera de Paldea | Enorme cratera no centro da região de Paldea, nos jogos Pokémon Scarlet e Violet. | ângulos: composicao
+- `grande_festival` | Grande Festival | Torneio final dos concursos pokémon de cada região no anime Pokémon, disputado por coordenadores como May e Dawn. | ângulos: numero
+- `grapploct` | Grapploct | Pokémon do tipo Lutador, número 853 da Pokédex Nacional. | ângulos: identidade
+- `graveler` | Graveler | Pokémon dos tipos Pedra e Terrestre, número 75 da Pokédex Nacional. | ângulos: atributo, conexao
+- `great_tusk` | Great Tusk | Pokémon dos tipos Terrestre e Lutador, número 984 da Pokédex Nacional. | ângulos: identidade
+- `greavard` | Greavard | Pokémon do tipo Fantasma, número 971 da Pokédex Nacional. | ângulos: conexao
+- `greedent` | Greedent | Pokémon do tipo Normal, número 820 da Pokédex Nacional. | ângulos: atributo, identidade
+- `greninja` | Greninja | Pokémon dos tipos Água e Sombrio, número 658 da Pokédex Nacional. | ângulos: causa, conexao, identidade, nome
+- `greninja_de_ash` | Greninja de Ash | Greninja de Ash Ketchum no anime Pokémon, inicial de Kalos que se transforma graças ao vínculo com o treinador. | ângulos: atributo
+- `grimer` | Grimer | Pokémon do tipo Venenoso, número 88 da Pokédex Nacional. | ângulos: identidade, lugar
+- `grimmsnarl` | Grimmsnarl | Pokémon dos tipos Sombrio e Fada, número 861 da Pokédex Nacional. | ângulos: conexao, identidade
+- `grookey` | Grookey | Pokémon do tipo Planta, número 810 da Pokédex Nacional. | ângulos: lugar
+- `grotle` | Grotle | Pokémon do tipo Planta, número 388 da Pokédex Nacional. | ângulos: identidade
+- `groudon` | Groudon | Pokémon lendário do tipo Terra da terceira geração, mascote de Pokémon Ruby, rival de Kyogre. | ângulos: atributo, conexao, identidade
+- `grovyle` | Grovyle | Pokémon do tipo planta, número 253 da Pokédex Nacional, evolução do Treecko. | ângulos: identidade
+- `grovyle_mystery_dungeon` | Grovyle (Mystery Dungeon) | Personagem de Pokémon Mystery Dungeon: Explorers of Time e Explorers of Darkness, procurado por roubar as Time Gears. | ângulos: tempo
+- `growlithe` | Growlithe | Pokémon do tipo Fogo, número 58 da Pokédex Nacional, o Pokémon Cachorrinho. | ângulos: conexao, identidade
+- `grubbin` | Grubbin | Pokémon do tipo Inseto, número 736 da Pokédex Nacional. | ângulos: identidade
+- `grumpig` | Grumpig | Pokémon do tipo Psíquico, número 326 da Pokédex Nacional. | ângulos: conexao, identidade
+- `grusha` | Grusha | Líder do ginásio de tipo Gelo de Paldea, ex-atleta de snowboard, nos jogos Pokémon Scarlet e Violet. | ângulos: lugar
+- `guilda_de_wigglytuff` | Guilda de Wigglytuff | Guilda de exploradores comandada por Wigglytuff em Pokémon Mystery Dungeon: Explorers of Time e Explorers of Darkness. | ângulos: composicao
+- `gulpin` | Gulpin | Pokémon do tipo Venenoso, número 316 da Pokédex Nacional. | ângulos: composicao, conexao, identidade
+- `gumshoos` | Gumshoos | Pokémon do tipo Normal, número 735 da Pokédex Nacional. | ângulos: identidade, lugar
+- `gurdurr` | Gurdurr | Pokémon do tipo Lutador, número 533 da Pokédex Nacional. | ângulos: atributo
+- `guzma` | Guzma | Chefe da Equipe Skull em Pokémon Sun e Moon, treinador especialista em pokémon inseto. | ângulos: composicao
+- `guzzlord` | Guzzlord | Pokémon dos tipos Sombrio e Dragão, número 799 da Pokédex Nacional. | ângulos: identidade
+- `gyarados` | Gyarados | Pokémon dos tipos Água e Voador, número 130 da Pokédex Nacional. | ângulos: atributo, causa, conexao, identidade
+- `gyarados_de_james` | Gyarados de James | Pokémon de James, da Equipe Rocket, no anime Pokémon, comprado como Magikarp a bordo do navio S.S. Anne. | ângulos: identidade
+- `gym_heroes_colecao` | Gym Heroes (coleção) | Coleção do card game Pokémon de 2000 que estreou as cartas de pokémon pertencentes a líderes de ginásio de Kanto. | ângulos: identidade
+- `habilidade_oculta` | Habilidade oculta | Habilidade rara de pokémon, diferente das habilidades comuns da espécie, introduzida em Pokémon Black e White. | ângulos: identidade
+- `habilidade_pokemon` | Habilidade (Pokémon) | Efeito passivo próprio de cada pokémon nas batalhas, como Intimidate ou Levitate, introduzido nos jogos da terceira geração. | ângulos: tempo
+- `hakamo_o` | Hakamo-o | Pokémon dos tipos Dragão e Lutador, número 783 da Pokédex Nacional. | ângulos: conexao, identidade
+- `hala` | Hala | Kahuna da ilha Melemele, em Alola, especialista em pokémon lutadores nos jogos Pokémon Sun e Moon. | ângulos: conexao
+- `half_life` | Half-Life | Jogo de tiro em primeira pessoa lançado em 1998, protagonizado pelo cientista Gordon Freeman. | ângulos: autoria
+- `happiny` | Happiny | Pokémon do tipo Normal, número 440 da Pokédex Nacional. | ângulos: atributo, conexao
+- `hariyama` | Hariyama | Pokémon do tipo Lutador, número 297 da Pokédex Nacional. | ângulos: identidade, lugar
+- `harrison` | Harrison | Treinador de Hoenn que elimina Ash do torneio da Liga de Johto, a Conferência Prata, no anime Pokémon. | ângulos: composicao
+- `hatenna` | Hatenna | Pokémon do tipo Psíquico, número 856 da Pokédex Nacional. | ângulos: lugar
+- `hatterene` | Hatterene | Pokémon dos tipos Psíquico e Fada, número 858 da Pokédex Nacional. | ângulos: conexao, identidade
+- `hattrem` | Hattrem | Pokémon do tipo Psíquico, número 857 da Pokédex Nacional. | ângulos: conexao
+- `hau` | Hau | Rival e amigo do jogador em Pokémon Sun e Moon, neto do kahuna Hala. | ângulos: atributo
+- `hau_oli` | Hau'oli | Maior cidade da região de Alola, na ilha Melemele, nos jogos Pokémon Sun e Moon. | ângulos: lugar
+- `haunter` | Haunter | Pokémon fantasma gasoso com mãos flutuantes, forma intermediária entre Gastly e Gengar, número 93 da Pokédex Nacional. | ângulos: causa, conexao, identidade
+- `hawlucha` | Hawlucha | Pokémon dos tipos Lutador e Voador, número 701 da Pokédex Nacional. | ângulos: identidade, lugar
+- `haxorus` | Haxorus | Pokémon do tipo Dragão, número 612 da Pokédex Nacional. | ângulos: conexao, identidade
+- `headbutt` | Headbutt | Golpe de pokémon do tipo Normal, da 1ª geração. | ângulos: identidade
+- `heat_wave` | Heat Wave | Golpe de pokémon do tipo Fogo, da 3ª geração. | ângulos: identidade
+- `heatmor` | Heatmor | Pokémon do tipo Fogo, número 631 da Pokédex Nacional. | ângulos: atributo, identidade
+- `heatran` | Heatran | Pokémon dos tipos Fogo e Aço, número 485 da Pokédex Nacional. | ângulos: identidade, lugar
+- `heihachi_mishima` | Heihachi Mishima | Patriarca da família Mishima e um dos principais personagens da série de jogos de luta Tekken. | ângulos: conexao
+- `heliolisk` | Heliolisk | Pokémon dos tipos Elétrico e Normal, número 695 da Pokédex Nacional. | ângulos: conexao, identidade
+- `helioptile` | Helioptile | Pokémon do tipo Elétrico/Normal da sexta geração, número 694 da Pokédex Nacional, inspirado no lagarto-de-gola. | ângulos: identidade
+- `heracross` | Heracross | Pokémon inseto/lutador da segunda geração, número 214 da Pokédex Nacional, com um grande chifre na cabeça. | ângulos: identidade
+- `heracross_de_ash` | Heracross de Ash | Heracross de Ash Ketchum no anime Pokémon, primeiro pokémon que ele capturou em Johto. | ângulos: identidade
+- `herdier` | Herdier | Pokémon do tipo Normal, número 507 da Pokédex Nacional. | ângulos: atributo
+- `hey_you_pikachu` | Hey You, Pikachu! | Jogo de 1998 para Nintendo 64 em que o jogador convive com um Pikachu e conversa com ele por comandos de voz. | ângulos: composicao
+- `hippopotas` | Hippopotas | Pokémon do tipo Terrestre, número 449 da Pokédex Nacional. | ângulos: atributo
+- `hippowdon` | Hippowdon | Pokémon do tipo Terrestre, número 450 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `hisui` | Hisui | Antiga região do jogo Pokémon Legends: Arceus, que corresponde a Sinnoh muitos anos antes dos jogos Diamond e Pearl. | ângulos: nome
+- `hitmonchan` | Hitmonchan | Pokémon lutador do tipo Lutador, de número 107 da Pokédex Nacional, que usa luvas de boxe. | ângulos: atributo, identidade, nome
+- `hitmonlee` | Hitmonlee | Pokémon lutador da primeira geração, número 106 da Pokédex Nacional, conhecido pelos chutes, evolução do Tyrogue. | ângulos: conexao, identidade, nome
+- `hitmontop` | Hitmontop | Pokémon do tipo Lutador, número 237 da Pokédex Nacional. | ângulos: identidade, lugar
+- `ho_oh` | Ho-Oh | Pokémon dos tipos Fogo e Voador, número 250 da Pokédex Nacional. | ângulos: causa, conexao, identidade, lugar, nome, tempo
+- `hoenn` | Hoenn | Região fictícia dos jogos Pokémon Ruby, Sapphire e Emerald, da terceira geração. | ângulos: lugar
+- `homem_mascarado_pokemon_adventures` | Homem Mascarado (Pokémon Adventures) | Vilão mascarado do arco de Gold, Silver e Crystal do mangá Pokémon Adventures, que sequestra crianças e rouba pokémon em Johto. | ângulos: identidade
+- `honchkrow` | Honchkrow | Pokémon dos tipos Sombrio e Voador, número 430 da Pokédex Nacional. | ângulos: atributo, identidade
+- `honedge` | Honedge | Pokémon espada do tipo Aço e Fantasma, número 679 da Pokédex Nacional, da sexta geração. | ângulos: atributo, identidade
+- `hoopa` | Hoopa | Pokémon dos tipos Psíquico e Fantasma, número 720 da Pokédex Nacional. | ângulos: atributo, conexao, identidade, lugar
+- `hoopa_e_o_duelo_lendario` | Hoopa e o Duelo Lendário | Décimo oitavo filme da franquia Pokémon, de 2015, estrelado pelo mítico Hoopa, que convoca lendários por meio de anéis. | ângulos: causa, lugar
+- `hoothoot` | Hoothoot | Pokémon coruja de tipo normal e voador da segunda geração, número 163 da Pokédex Nacional. | ângulos: atributo, identidade
+- `hop` | Hop | Rival e amigo do jogador em Pokémon Sword e Shield, da região de Galar. | ângulos: conexao
+- `hoppip` | Hoppip | Pokémon dos tipos Planta e Voador, número 187 da Pokédex Nacional. | ângulos: identidade
+- `horsea` | Horsea | Pokémon do tipo Água, número 116 da Pokédex Nacional. | ângulos: conexao, identidade
+- `houndoom` | Houndoom | Pokémon dos tipos Sombrio e Fogo da segunda geração, número 229 da Pokédex Nacional. | ângulos: atributo, identidade
+- `houndour` | Houndour | Pokémon do tipo Sombrio/Fogo da segunda geração, número 228 da Pokédex Nacional, parecido com um cão. | ângulos: identidade
+- `houndstone` | Houndstone | Pokémon do tipo Fantasma, número 972 da Pokédex Nacional. | ângulos: lugar
+- `huntail` | Huntail | Pokémon do tipo Água, número 367 da Pokédex Nacional. | ângulos: conexao, identidade, lugar
+- `hunter_j` | Hunter J | Caçadora de pokémon sem escrúpulos da série Diamante e Pérola do anime, que rouba pokémon para vendê-los a clientes. | ângulos: identidade
+- `hydrapple` | Hydrapple | Pokémon dos tipos Planta e Dragão, número 1019 da Pokédex Nacional. | ângulos: atributo
+- `hydreigon` | Hydreigon | Pokémon dos tipos Sombrio e Dragão, número 635 da Pokédex Nacional. | ângulos: conexao, identidade
+- `hydro_pump` | Hydro Pump | Golpe de pokémon do tipo Água, da 1ª geração. | ângulos: identidade
+- `hyper_beam` | Hyper Beam | Golpe de pokémon do tipo Normal, da 1ª geração. | ângulos: identidade
+- `hypno` | Hypno | Pokémon de tipo Psíquico, número 97 da Pokédex Nacional, que carrega um pêndulo e evolui de Drowzee. | ângulos: identidade, lugar
+- `ice_beam` | Ice Beam | Golpe de pokémon do tipo Gelo, da 1ª geração. | ângulos: identidade
+- `ice_punch` | Ice Punch | Golpe de pokémon do tipo Gelo, da 1ª geração. | ângulos: identidade
+- `icy_wind` | Icy Wind | Golpe de pokémon do tipo Gelo, da 2ª geração. | ângulos: identidade
+- `igglybuff` | Igglybuff | Pokémon bebê dos tipos Normal e Fada da segunda geração, forma anterior de Jigglypuff. | ângulos: atributo, identidade
+- `ikue_otani` | Ikue Ōtani | Dubladora japonesa que dá voz ao Pikachu de Ash no anime Pokémon. | ângulos: identidade
+- `ilha_cinnabar` | Ilha Cinnabar | Ilha vulcânica ao sul de Kanto, nos jogos Pokémon, onde fica o ginásio de tipo Fogo de Blaine e o laboratório que revive fósseis. | ângulos: causa
+- `ilha_pinkan` | Ilha Pinkan | Ilha das Ilhas Laranja, no anime Pokémon, reserva protegida onde os pokémon selvagens são cor-de-rosa. | ângulos: causa
+- `ilhas_laranja` | Ilhas Laranja | Arquipélago exclusivo do anime Pokémon, visitado por Ash depois de Kanto, onde ele vence a Liga Laranja. | ângulos: nome
+- `ilhas_seafoam` | Ilhas Seafoam | Arquipélago de cavernas geladas ao sul de Kanto, nos jogos Pokémon Red e Blue. | ângulos: composicao
+- `ilhas_sevii` | Ilhas Sevii | Arquipélago perto de Kanto, explorado depois da Liga em Pokémon FireRed e LeafGreen. | ângulos: nome
+- `illumise` | Illumise | Pokémon do tipo Inseto, número 314 da Pokédex Nacional. | ângulos: identidade, lugar
+- `impidimp` | Impidimp | Pokémon dos tipos Sombrio e Fada, número 859 da Pokédex Nacional. | ângulos: identidade
+- `incinerate` | Incinerate | Golpe de pokémon do tipo Fogo, da 5ª geração. | ângulos: identidade
+- `incineroar` | Incineroar | Pokémon dos tipos Fogo e Sombrio, número 727 da Pokédex Nacional. | ângulos: conexao, identidade
+- `indeedee` | Indeedee | Pokémon dos tipos Psíquico e Normal, número 876 da Pokédex Nacional. | ângulos: identidade
+- `infernape` | Infernape | Pokémon macaco do tipo Fogo e Lutador da quarta geração, número 392 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `infernape_de_ash` | Infernape de Ash | Infernape de Ash Ketchum no anime Pokémon, que pertencia a Paul como Chimchar antes de ser libertado e ir para Ash. | ângulos: identidade
+- `ingress` | Ingress | Jogo de realidade aumentada para celular lançado pela Niantic antes de Pokémon Go, em que os jogadores disputam portais em lugares reais. | ângulos: identidade
+- `iniciais_de_pokemon_legends_arceus` | Iniciais de Pokémon Legends: Arceus | Os três pokémon iniciais oferecidos ao jogador no jogo Pokémon Legends: Arceus, na antiga região de Hisui. | ângulos: composicao
+- `inkay` | Inkay | Pokémon do tipo Sombrio/Psíquico da sexta geração, número 686 da Pokédex Nacional, inspirado em uma lula. | ângulos: identidade
+- `inteleon` | Inteleon | Pokémon do tipo Água, número 818 da Pokédex Nacional. | ângulos: identidade
+- `iris_2` | Iris | Treinadora especialista em dragões, companheira de Ash em Unova no anime e campeã da Liga de Unova em Pokémon Black 2 e White 2. | ângulos: atributo, tempo
+- `irmaos_pichu` | Irmãos Pichu | Dupla de irmãos Pichu travessos que estreou no curta Pikachu & Pichu, exibido nos cinemas antes de Pokémon 3: O Filme. | ângulos: identidade
+- `irmas_sensacionais` | Irmãs Sensacionais | Irmãs mais velhas de Misty, Daisy, Violet e Lily, que cuidam do ginásio de Cerulean no anime Pokémon. | ângulos: numero
+- `iron_boulder` | Iron Boulder | Pokémon dos tipos Pedra e Psíquico, número 1022 da Pokédex Nacional. | ângulos: identidade
+- `iron_bundle` | Iron Bundle | Pokémon dos tipos Gelo e Água, número 991 da Pokédex Nacional. | ângulos: identidade
+- `iron_crown` | Iron Crown | Pokémon dos tipos Aço e Psíquico, número 1023 da Pokédex Nacional. | ângulos: identidade
+- `iron_hands` | Iron Hands | Pokémon dos tipos Lutador e Elétrico, número 992 da Pokédex Nacional. | ângulos: atributo
+- `iron_head` | Iron Head | Golpe de pokémon do tipo Aço, da 4ª geração. | ângulos: identidade
+- `iron_jugulis` | Iron Jugulis | Pokémon dos tipos Sombrio e Voador, número 993 da Pokédex Nacional. | ângulos: identidade
+- `iron_leaves` | Iron Leaves | Pokémon dos tipos Planta e Psíquico, número 1010 da Pokédex Nacional. | ângulos: atributo, identidade
+- `iron_moth` | Iron Moth | Pokémon dos tipos Fogo e Venenoso, número 994 da Pokédex Nacional. | ângulos: identidade
+- `iron_tail` | Iron Tail | Golpe de pokémon do tipo Aço, da 2ª geração. | ângulos: identidade
+- `iron_thorns` | Iron Thorns | Pokémon dos tipos Pedra e Elétrico, número 995 da Pokédex Nacional. | ângulos: identidade, lugar
+- `iron_treads` | Iron Treads | Pokémon dos tipos Terrestre e Aço, número 990 da Pokédex Nacional. | ângulos: lugar
+- `iron_valiant` | Iron Valiant | Pokémon dos tipos Fada e Lutador, número 1006 da Pokédex Nacional. | ângulos: identidade
+- `item_segurado_pokemon` | Item segurado (Pokémon) | Mecânica dos jogos Pokémon em que o pokémon carrega um item, como uma fruta, que age durante a batalha, introduzida na segunda geração. | ângulos: tempo
+- `ivysaur` | Ivysaur | Pokémon planta e veneno, número 2 da Pokédex Nacional, evolução do Bulbasaur. | ângulos: atributo, identidade
+- `jack_walker` | Jack Walker | Pokémon Ranger do filme Pokémon Ranger e o Templo do Mar, que protege o ovo de Manaphy infiltrado num grupo do Povo da Água. | ângulos: identidade
+- `james_equipe_rocket` | James (Equipe Rocket) | Integrante da Equipe Rocket no anime Pokémon, parceiro de Jessie e Meowth, chamado Kojiro no Japão. | ângulos: atributo, causa
+- `jangmo_o` | Jangmo-o | Pokémon do tipo Dragão da sétima geração, número 782 da Pokédex Nacional, que evolui para Hakamo-o. | ângulos: identidade
+- `janine` | Janine | Líder do ginásio de tipo Venenoso de Fuchsia nos jogos Pokémon Gold, Silver e Crystal, ninja como o pai. | ângulos: conexao
+- `jasmine` | Jasmine | Líder do ginásio de tipo Aço de Olivine, em Johto, nos jogos Pokémon Gold e Silver. | ângulos: causa
+- `jellicent` | Jellicent | Pokémon dos tipos Água e Fantasma, número 593 da Pokédex Nacional. | ângulos: identidade
+- `jessie_e_james` | Jessie e James | Dupla de vilões da Equipe Rocket no anime Pokémon, que persegue Ash ao lado do Meowth falante. | ângulos: lugar, nome
+- `jessie_equipe_rocket` | Jessie (Equipe Rocket) | Integrante da Equipe Rocket no anime Pokémon, parceira de James e Meowth, chamada Musashi no Japão. | ângulos: conexao, nome
+- `jigglypuff` | Jigglypuff | Pokémon dos tipos Normal e Fada, número 39 da Pokédex Nacional. | ângulos: causa, identidade, nome
+- `jill_valentine` | Jill Valentine | Agente da série de jogos de terror Resident Evil, sobrevivente do desastre de Raccoon City. | ângulos: autoria
+- `jirachi` | Jirachi | Pokémon mítico dos tipos Aço e Psíquico da terceira geração, que realiza desejos e estrela o sexto filme da franquia. | ângulos: atributo, conexao, identidade, lugar, numero
+- `jirachi_realizador_de_desejos` | Jirachi: Realizador de Desejos | Sexto filme da franquia Pokémon, de 2003, em que Ash e seus amigos protegem o mítico Jirachi durante um festival. | ângulos: composicao, tempo
+- `joel` | Joel | Protagonista do jogo The Last of Us, da Naughty Dog, e da série de TV baseada nele. | ângulos: conexao
+- `johanna` | Johanna | Mãe de Dawn na série Diamante e Pérola do anime Pokémon, moradora de Twinleaf, em Sinnoh. | ângulos: conexao
+- `johto` | Johto | Região fictícia dos jogos Pokémon Gold e Silver, da segunda geração, vizinha de Kanto. | ângulos: lugar
+- `jolteon` | Jolteon | Pokémon do tipo Elétrico, evolução do Eevee, número 135 da Pokédex Nacional. | ângulos: identidade, lugar
+- `joltik` | Joltik | Pokémon dos tipos Inseto e Elétrico, número 595 da Pokédex Nacional. | ângulos: atributo, conexao
+- `jornadas_pokemon` | Jornadas Pokémon | Série do anime Pokémon, exibida a partir de 2019, em que Ash e Goh trabalham no Laboratório Cerise e viajam por todas as regiões. | ângulos: tempo
+- `juan` | Juan | Líder do ginásio de tipo Água de Sootopolis em Pokémon Emerald, antigo mestre de Wallace. | ângulos: conexao
+- `jumpluff` | Jumpluff | Pokémon dos tipos Planta e Voador, número 189 da Pokédex Nacional. | ângulos: conexao, identidade
+- `jungle_colecao` | Jungle (coleção) | Segunda coleção do card game Pokémon lançada em inglês, em 1999, com pokémon como Scyther, Kangaskhan e Snorlax. | ângulos: identidade
+- `junichi_masuda` | Junichi Masuda | Compositor, programador e diretor japonês da Game Freak, autor da trilha sonora dos primeiros jogos Pokémon. | ângulos: identidade
+- `jynx` | Jynx | Pokémon humanoide dos tipos Gelo e Psíquico, de número 124 da Pokédex Nacional. | ângulos: atributo, causa, identidade
+- `kabuto` | Kabuto | Pokémon fóssil do tipo Pedra e Água, de número 140 da Pokédex Nacional, parecido com um caranguejo-ferradura. | ângulos: atributo, conexao, identidade
+- `kabutops` | Kabutops | Pokémon dos tipos Pedra e Água, número 141 da Pokédex Nacional. | ângulos: conexao, identidade
+- `kadabra` | Kadabra | Pokémon psíquico, número 64 da Pokédex Nacional, evolução do Abra. | ângulos: causa, identidade
+- `kahili` | Kahili | Treinadora especialista em pokémon voadores e golfista, membro da Elite dos Quatro de Alola nos jogos Pokémon Sun e Moon. | ângulos: atributo
+- `kahuna_pokemon` | Kahuna (Pokémon) | Título dos chefes e treinadores mais fortes de cada ilha da região de Alola, nos jogos Pokémon Sun e Moon. | ângulos: nome
+- `kakuna` | Kakuna | Pokémon dos tipos Inseto e Venenoso, número 14 da Pokédex Nacional. | ângulos: conexao, identidade
+- `kalos` | Kalos | Região fictícia dos jogos Pokémon X e Y, da sexta geração, cuja capital é a cidade de Lumiose. | ângulos: lugar, nome
+- `kamek` | Kamek | Magikoopa idoso, conselheiro de Bowser e arqui-inimigo de Yoshi na série Mario. | ângulos: identidade
+- `kangaskhan` | Kangaskhan | Pokémon do tipo Normal, número 115 da Pokédex Nacional, que lembra uma canguru. | ângulos: atributo, identidade
+- `kanto` | Kanto | Região fictícia dos primeiros jogos Pokémon, Red, Green e Blue, onde começa a jornada de Ash no anime. | ângulos: nome
+- `karen` | Karen | Treinadora da Elite dos Quatro de Johto nos jogos Pokémon Gold, Silver e Crystal, última a ser enfrentada antes do campeão. | ângulos: atributo
+- `karrablast` | Karrablast | Pokémon do tipo Inseto, número 588 da Pokédex Nacional. | ângulos: atributo
+- `kartana` | Kartana | Pokémon dos tipos Planta e Aço, número 798 da Pokédex Nacional. | ângulos: composicao, identidade
+- `kecleon` | Kecleon | Pokémon camaleão que muda de cor, da terceira geração, número 352 da Pokédex Nacional. | ângulos: atributo, identidade
+- `keldeo` | Keldeo | Pokémon mítico dos tipos Água e Lutador da quinta geração, o jovem que se junta aos Espadachins da Justiça. | ângulos: atributo, causa, conexao, identidade
+- `ken_sugimori` | Ken Sugimori | Ilustrador e designer japonês da Game Freak, responsável pela arte dos primeiros jogos Pokémon. | ângulos: identidade
+- `kenny_anime` | Kenny (anime) | Coordenador pokémon de Sinnoh, amigo de infância de Dawn no anime Pokémon, dono de um Prinplup. | ângulos: nome
+- `kilowattrel` | Kilowattrel | Pokémon dos tipos Elétrico e Voador, número 941 da Pokédex Nacional. | ângulos: conexao
+- `king_k_rool` | King K. Rool | Rei crocodilo de coroa dourada, principal vilão da série Donkey Kong. | ângulos: conexao
+- `kingambit` | Kingambit | Pokémon dos tipos Sombrio e Aço, número 983 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `kingdra` | Kingdra | Pokémon dos tipos Água e Dragão, número 230 da Pokédex Nacional. | ângulos: conexao, identidade
+- `kingler` | Kingler | Pokémon caranguejo de tipo água, número 99 da Pokédex Nacional, evolução de Krabby. | ângulos: atributo, identidade
+- `kingler_de_ash` | Kingler de Ash | Kingler de Ash Ketchum no anime Pokémon, capturado como Krabby em Kanto e evoluído durante a Liga Índigo. | ângulos: causa
+- `kirby` | Kirby | Personagem rosa e redondo da Nintendo, que engole inimigos, estreante em 1992 num jogo da HAL Laboratory. | ângulos: autoria, nome
+- `kirlia` | Kirlia | Pokémon dançarino do tipo Psíquico e Fada, de número 281 da Pokédex Nacional, forma intermediária entre Ralts e Gardevoir. | ângulos: identidade
+- `kitakami` | Kitakami | Terra rural de arrozais, montanhas e festivais visitada pelo jogador na expansão The Teal Mask, de Pokémon Scarlet e Violet. | ângulos: lugar
+- `klang` | Klang | Pokémon do tipo Aço, número 600 da Pokédex Nacional. | ângulos: identidade
+- `klawf` | Klawf | Pokémon do tipo Pedra, número 950 da Pokédex Nacional. | ângulos: identidade
+- `kleavor` | Kleavor | Pokémon dos tipos Inseto e Pedra, número 900 da Pokédex Nacional. | ângulos: identidade
+- `klefki` | Klefki | Pokémon aço e fada da sexta geração, um chaveiro com chaves, número 707 da Pokédex Nacional. | ângulos: atributo, identidade
+- `klink` | Klink | Pokémon do tipo Aço, número 599 da Pokédex Nacional. | ângulos: atributo
+- `klinklang` | Klinklang | Pokémon do tipo Aço, número 601 da Pokédex Nacional. | ângulos: identidade
+- `knock_off` | Knock Off | Golpe de pokémon do tipo Sombrio, da 3ª geração. | ângulos: identidade
+- `knuckles` | Knuckles | Personagem vermelho da série Sonic, da Sega, guardião da Esmeralda Mestra, rival e depois aliado de Sonic. | ângulos: atributo
+- `koffing` | Koffing | Pokémon do tipo Venenoso da primeira geração, número 109 da Pokédex Nacional. | ângulos: identidade
+- `koga` | Koga | Líder ninja do ginásio de tipo Venenoso de Fuchsia, em Kanto, nos jogos Pokémon Red e Blue, e depois membro da Elite dos Quatro de Johto. | ângulos: atributo
+- `komala` | Komala | Pokémon do tipo Normal, número 775 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `kommo_o` | Kommo-o | Pokémon dos tipos Dragão e Lutador, número 784 da Pokédex Nacional. | ângulos: conexao, identidade
+- `koopa_troopa` | Koopa Troopa | Inimigo tartaruga comum da franquia Mario que se esconde no casco quando pisoteado. | ângulos: identidade
+- `koraidon` | Koraidon | Pokémon dos tipos Lutador e Dragão, número 1007 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `korrina` | Korrina | Líder do ginásio de tipo Lutador de Shalour, em Kalos, nos jogos Pokémon X e Y, que anda de patins. | ângulos: composicao
+- `krabby` | Krabby | Pokémon do tipo Água, número 98 da Pokédex Nacional. | ângulos: identidade, lugar
+- `kratos` | Kratos | Ex-general espartano e semideus, protagonista da série de jogos God of War. | ângulos: identidade
+- `kricketot` | Kricketot | Pokémon do tipo Inseto, número 401 da Pokédex Nacional. | ângulos: conexao
+- `kricketune` | Kricketune | Pokémon inseto da quarta geração, número 402 da Pokédex Nacional, evolução do Kricketot, com aparência de grilo maestro. | ângulos: conexao, identidade
+- `krokorok` | Krokorok | Pokémon dos tipos Terrestre e Sombrio, número 552 da Pokédex Nacional. | ângulos: conexao
+- `krookodile` | Krookodile | Pokémon dos tipos Terrestre e Sombrio, número 553 da Pokédex Nacional. | ângulos: lugar
+- `krookodile_de_ash` | Krookodile de Ash | Krookodile de Ash Ketchum no anime Pokémon, capturado em Unova como Sandile e evoluído até a forma final. | ângulos: atributo
+- `kubfu` | Kubfu | Pokémon do tipo Lutador, número 891 da Pokédex Nacional. | ângulos: atributo, identidade
+- `kyogre` | Kyogre | Pokémon lendário do tipo Água da terceira geração, número 382 da Pokédex Nacional. | ângulos: atributo, causa, identidade, lugar
+- `kyurem` | Kyurem | Pokémon lendário dos tipos Dragão e Gelo da quinta geração, que pode se fundir a Reshiram ou Zekrom. | ângulos: atributo, composicao, conexao, identidade, lugar
+- `kyurem_contra_o_espadachim_da_justica` | Kyurem Contra o Espadachim da Justiça | Décimo quinto filme da franquia Pokémon, de 2012, em que o mítico Keldeo desafia o lendário Kyurem. | ângulos: tempo
+- `laboratorio_cerise` | Laboratório Cerise | Laboratório de pesquisa do Professor Cerise, no anime Jornadas Pokémon, onde Ash e Goh trabalham como pesquisadores. | ângulos: lugar
+- `lago_da_furia` | Lago da Fúria | Lago da região de Johto, nos jogos Pokémon Gold e Silver, onde aparece um Gyarados vermelho. | ângulos: causa
+- `lairon` | Lairon | Pokémon dos tipos Aço e Pedra, número 305 da Pokédex Nacional. | ângulos: conexao
+- `lampent` | Lampent | Pokémon dos tipos Fantasma e Fogo, número 608 da Pokédex Nacional. | ângulos: lugar
+- `lancamento_de_pokemon_go_no_brasil` | Lançamento de Pokémon Go no Brasil | Chegada do jogo Pokémon Go ao Brasil, em 3 de agosto de 2016, semanas depois da estreia nos Estados Unidos. | ângulos: tempo
+- `lance` | Lance | Treinador especialista em pokémon dragão, último membro da Elite dos Quatro em Red e Blue e campeão da Liga em Gold e Silver. | ângulos: composicao, identidade, lugar
+- `landorus` | Landorus | Pokémon dos tipos Terrestre e Voador, número 645 da Pokédex Nacional. | ângulos: identidade
+- `lanturn` | Lanturn | Pokémon dos tipos Água e Elétrico, número 171 da Pokédex Nacional. | ângulos: conexao, identidade
+- `lapras` | Lapras | Pokémon dos tipos Água e Gelo, número 131 da Pokédex Nacional. | ângulos: atributo, causa, conexao, identidade, lugar
+- `lapras_de_ash` | Lapras de Ash | Lapras que acompanha Ash Ketchum nas Ilhas Laranja, no anime Pokémon, carregando o grupo pelo mar entre as ilhas. | ângulos: causa
+- `lara_croft` | Lara Croft | Arqueóloga aventureira, protagonista da série de jogos Tomb Raider, criada em 1996 pela Core Design. | ângulos: atributo, nome
+- `lara_croft_tomb_raider` | Lara Croft: Tomb Raider | Filme de 2001 baseado na série de jogos Tomb Raider. | ângulos: conexao
+- `larry` | Larry | Líder do ginásio de tipo Normal de Medali e membro da Elite dos Quatro de Paldea, nos jogos Pokémon Scarlet e Violet. | ângulos: atributo
+- `larvesta` | Larvesta | Pokémon larva dos tipos Inseto e Fogo da quinta geração, número 636 da Pokédex Nacional. | ângulos: identidade
+- `larvitar` | Larvitar | Pokémon do tipo Pedra e Terra, número 246 da Pokédex Nacional, forma inicial da linha de Tyranitar. | ângulos: atributo, identidade
+- `latias` | Latias | Pokémon lendário do tipo Dragão e Psíquico, número 380 da Pokédex Nacional, irmã de Latios. | ângulos: atributo, identidade
+- `latios` | Latios | Pokémon lendário do tipo Dragão e Psíquico, número 381 da Pokédex Nacional, irmão de Latias. | ângulos: identidade
+- `lavender` | Lavender | Cidade da região de Kanto, nos jogos Pokémon Red e Blue, onde fica a Torre Pokémon, conhecida pela música fúnebre. | ângulos: identidade
+- `leafeon` | Leafeon | Pokémon do tipo Planta, número 470 da Pokédex Nacional. | ângulos: identidade, lugar
+- `leavanny` | Leavanny | Pokémon dos tipos Inseto e Planta, número 542 da Pokédex Nacional. | ângulos: conexao, identidade
+- `lechonk` | Lechonk | Pokémon do tipo Normal da nona geração, um porquinho, número 915 da Pokédex Nacional. | ângulos: identidade
+- `ledian` | Ledian | Pokémon joaninha de tipo Inseto/Voador, número 166 da Pokédex Nacional, evolução de Ledyba. | ângulos: identidade, lugar
+- `ledyba` | Ledyba | Pokémon dos tipos Inseto e Voador, número 165 da Pokédex Nacional. | ângulos: lugar
+- `legendary_collection_colecao` | Legendary Collection (coleção) | Coleção de reimpressões do card game Pokémon lançada em 2002, que estreou as cartas de brilho invertido. | ângulos: identidade
+- `lema_da_equipe_rocket` | Lema da Equipe Rocket | Fala de apresentação recitada por Jessie, James e Meowth no anime Pokémon sempre que entram em cena. | ângulos: composicao
+- `leon` | Leon | Campeão da Liga Pokémon de Galar nos jogos Sword e Shield, adversário de Ash na final do Mundial no anime Jornadas Pokémon. | ângulos: composicao, tempo
+- `leon_s_kennedy` | Leon S. Kennedy | Agente federal da série Resident Evil, sobrevivente de Raccoon City e protagonista de Resident Evil 4. | ângulos: conexao
+- `lickilicky` | Lickilicky | Pokémon do tipo Normal, número 463 da Pokédex Nacional. | ângulos: identidade, lugar
+- `lickitung` | Lickitung | Pokémon do tipo Normal, número 108 da Pokédex Nacional. | ângulos: identidade, lugar
+- `liepard` | Liepard | Pokémon do tipo Sombrio, número 510 da Pokédex Nacional. | ângulos: conexao, identidade
+- `liga_indigo_anime` | Liga Índigo (anime) | Torneio do Platô Índigo, em Kanto, disputado por Ash no fim da primeira temporada do anime Pokémon. | ângulos: causa
+- `liga_pokemon_de_alola` | Liga Pokémon de Alola | Liga Pokémon criada na região de Alola durante a história de Pokémon Sun e Moon, no topo do Monte Lanakila. | ângulos: autoria
+- `liko` | Liko | Protagonista da série Pokémon Horizontes, ao lado de Roy, menina de Paldea dona de um pingente misterioso. | ângulos: composicao
+- `lileep` | Lileep | Pokémon dos tipos Pedra e Planta, número 345 da Pokédex Nacional. | ângulos: conexao, lugar
+- `lillie` | Lillie | Colega de Ash na Escola Pokémon de Alola, na série Sol e Lua do anime, irmã de Gladion e filha de Lusamine. | ângulos: nome
+- `lilligant` | Lilligant | Pokémon do tipo Planta, número 549 da Pokédex Nacional. | ângulos: lugar
+- `lillipup` | Lillipup | Pokémon filhote de cão do tipo Normal da quinta geração, número 506 da Pokédex Nacional, que evolui para Herdier. | ângulos: conexao
+- `link` | Link | Jovem espadachim de roupa verde, protagonista da série de jogos The Legend of Zelda. | ângulos: conexao
+- `linking_cord` | Linking Cord | Item de Pokémon Legends: Arceus que faz evoluir os pokémon que antes só evoluíam por troca. | ângulos: identidade
+- `linoone` | Linoone | Pokémon do tipo Normal, número 264 da Pokédex Nacional. | ângulos: identidade
+- `liquidation` | Liquidation | Golpe de pokémon do tipo Água, da 7ª geração. | ângulos: identidade
+- `lisia` | Lisia | Estrela dos concursos pokémon em Omega Ruby e Alpha Sapphire, que apresenta o jogador aos Concursos Espetaculares. | ângulos: conexao
+- `litleo` | Litleo | Pokémon dos tipos Fogo e Normal, número 667 da Pokédex Nacional. | ângulos: conexao, lugar
+- `litten` | Litten | Pokémon gatinho do tipo Fogo, inicial de Alola, número 725 da Pokédex Nacional. | ângulos: identidade
+- `litwick` | Litwick | Pokémon vela do tipo Fantasma/Fogo da quinta geração, número 607 da Pokédex Nacional. | ângulos: causa, conexao
+- `liu_kang` | Liu Kang | Monge Shaolin e campeão do torneio, protagonista da série de jogos de luta Mortal Kombat. | ângulos: conexao
+- `lokix` | Lokix | Pokémon dos tipos Inseto e Sombrio, número 920 da Pokédex Nacional. | ângulos: lugar
+- `lombre` | Lombre | Pokémon Água e Planta da terceira geração, evolução de Lotad, número 271 da Pokédex Nacional. | ângulos: conexao
+- `looker` | Looker | Agente da Polícia Internacional que aparece em vários jogos Pokémon, a partir de Platinum, investigando organizações criminosas. | ângulos: identidade
+- `lopunny` | Lopunny | Pokémon coelho do tipo Normal da quarta geração, número 428 da Pokédex Nacional, evolução de Buneary. | ângulos: identidade
+- `lorelei_2` | Lorelei | Treinadora especialista em pokémon de gelo, membro da Elite dos Quatro de Kanto em Pokémon Red e Blue. | ângulos: nome
+- `lotad` | Lotad | Pokémon dos tipos Água e Planta, número 270 da Pokédex Nacional. | ângulos: conexao, identidade
+- `loudred` | Loudred | Pokémon do tipo Normal, número 294 da Pokédex Nacional. | ângulos: conexao
+- `low_sweep` | Low Sweep | Golpe de pokémon do tipo Lutador, da 5ª geração. | ângulos: identidade
+- `lt_surge` | Lt. Surge | Líder do ginásio do tipo Elétrico da cidade de Vermilion, em Kanto, nos jogos e no anime Pokémon. | ângulos: causa, lugar, nome
+- `lucario` | Lucario | Pokémon dos tipos Lutador e Aço, número 448 da Pokédex Nacional. | ângulos: atributo, identidade
+- `lucario_e_o_misterio_de_mew` | Lucario e o Mistério de Mew | Oitavo filme da franquia Pokémon, de 2005, em que Ash conhece um Lucario ligado ao antigo cavaleiro Aaron. | ângulos: causa, lugar, tempo
+- `lucian` | Lucian | Treinador especialista em pokémon psíquicos, membro da Elite dos Quatro de Sinnoh nos jogos Pokémon Diamond, Pearl e Platinum. | ângulos: identidade
+- `ludicolo` | Ludicolo | Pokémon dos tipos Água e Planta, número 272 da Pokédex Nacional. | ângulos: atributo, causa, conexao, identidade
+- `lugia` | Lugia | Pokémon dos tipos Psíquico e Voador, número 249 da Pokédex Nacional. | ângulos: atributo, causa, identidade, lugar
+- `luigi` | Luigi | Irmão gêmeo de Mario nos jogos da Nintendo, de roupa verde. | ângulos: causa, nome
+- `lumineon` | Lumineon | Pokémon do tipo Água, número 457 da Pokédex Nacional. | ângulos: identidade, lugar
+- `lumiose` | Lumiose | Grande cidade no centro da região de Kalos, nos jogos Pokémon X e Y, inspirada em Paris e marcada pela Torre Prisma. | ângulos: nome
+- `lunala` | Lunala | Pokémon lendário dos tipos Psíquico e Fantasma da sétima geração, mascote de Pokémon Moon. | ângulos: conexao, identidade
+- `lunatone` | Lunatone | Pokémon dos tipos Pedra e Psíquico, número 337 da Pokédex Nacional. | ângulos: identidade, lugar
+- `lurantis` | Lurantis | Pokémon do tipo Planta, número 754 da Pokédex Nacional. | ângulos: identidade, lugar
+- `lusamine` | Lusamine | Presidente da Fundação Aether nos jogos Pokémon Sun e Moon, obcecada pelas Ultracriaturas. | ângulos: composicao, conexao
+- `luvdisc` | Luvdisc | Pokémon do tipo Água, número 370 da Pokédex Nacional. | ângulos: identidade, lugar
+- `luxio` | Luxio | Pokémon do tipo Elétrico, forma intermediária de Shinx, número 404 da Pokédex Nacional. | ângulos: conexao
+- `luxray` | Luxray | Pokémon do tipo Elétrico, número 405 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `lycanroc` | Lycanroc | Pokémon do tipo Pedra, número 745 da Pokédex Nacional, evolução de Rockruff, em forma de lobo. | ângulos: causa, identidade
+- `lysandre_anime` | Lysandre (anime) | Líder da Equipe Flare na série XY do anime Pokémon, antagonista principal da temporada XYZ. | ângulos: conexao
+- `m_bison` | M. Bison | Vilão da série Street Fighter, da Capcom, líder da organização Shadaloo. | ângulos: causa
+- `mabosstiff` | Mabosstiff | Pokémon do tipo Sombrio, número 943 da Pokédex Nacional. | ângulos: identidade, lugar
+- `machamp` | Machamp | Pokémon do tipo Lutador, número 68 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `machoke` | Machoke | Pokémon do tipo Lutador, número 67 da Pokédex Nacional. | ângulos: atributo, identidade
+- `machop` | Machop | Pokémon do tipo Lutador, número 66 da Pokédex Nacional, da primeira geração. | ângulos: atributo, identidade
+- `magby` | Magby | Pokémon do tipo Fogo, número 240 da Pokédex Nacional. | ângulos: conexao, identidade
+- `magcargo` | Magcargo | Pokémon dos tipos Fogo e Pedra, número 219 da Pokédex Nacional. | ângulos: conexao, identidade
+- `magearna` | Magearna | Pokémon mítico dos tipos Aço e Fada da sétima geração, um pokémon artificial construído por humanos. | ângulos: identidade, lugar, numero
+- `magikarp` | Magikarp | Pokémon do tipo Água, número 129 da Pokédex Nacional. | ângulos: atributo, identidade
+- `magmar` | Magmar | Pokémon do tipo Fogo, número 126 da Pokédex Nacional. | ângulos: identidade
+- `magmortar` | Magmortar | Pokémon do tipo Fogo, número 467 da Pokédex Nacional. | ângulos: conexao, identidade
+- `magnavox_odyssey` | Magnavox Odyssey | Primeiro console de videogame doméstico comercial, lançado em 1972 pela Magnavox. | ângulos: autoria
+- `magnemite` | Magnemite | Pokémon do tipo Elétrico/Aço, número 81 da Pokédex Nacional, uma esfera com ímãs e parafusos. | ângulos: atributo, identidade
+- `magneton` | Magneton | Pokémon dos tipos Elétrico e Aço, número 82 da Pokédex Nacional. | ângulos: conexao, identidade
+- `magnezone` | Magnezone | Pokémon dos tipos Elétrico e Aço da quarta geração, evolução de Magneton. | ângulos: identidade, lugar
+- `makuhita` | Makuhita | Pokémon do tipo Lutador, número 296 da Pokédex Nacional. | ângulos: identidade
+- `malamar` | Malamar | Pokémon lula dos tipos Sombrio e Psíquico da sexta geração, evolução de Inkay. | ângulos: causa, identidade, lugar
+- `mamoswine` | Mamoswine | Pokémon dos tipos Gelo e Terrestre, número 473 da Pokédex Nacional. | ângulos: identidade, lugar, nome
+- `manaphy` | Manaphy | Pokémon mítico do tipo Água da quarta geração, o príncipe do mar, estrela do nono filme da franquia. | ângulos: atributo, conexao, identidade
+- `mandibuzz` | Mandibuzz | Pokémon dos tipos Sombrio e Voador, número 630 da Pokédex Nacional. | ângulos: identidade, lugar
+- `manectric` | Manectric | Pokémon do tipo Elétrico, número 310 da Pokédex Nacional. | ângulos: identidade
+- `mankey` | Mankey | Pokémon do tipo Lutador, número 56 da Pokédex Nacional. | ângulos: identidade, lugar
+- `mantine` | Mantine | Pokémon dos tipos Água e Voador, número 226 da Pokédex Nacional. | ângulos: conexao, identidade, lugar
+- `mantyke` | Mantyke | Pokémon dos tipos Água e Voador, número 458 da Pokédex Nacional. | ângulos: conexao, identidade
+- `maquina_oculta` | Máquina Oculta | Item dos jogos Pokémon que ensinava golpes usados também fora das batalhas, como Surf e Força, para abrir caminho pelo mapa. | ângulos: composicao, tempo
+- `maquina_tecnica` | Máquina Técnica | Item dos jogos Pokémon que ensina um golpe a um pokémon, conhecido pela sigla MT. | ângulos: composicao, tempo
+- `maractus` | Maractus | Pokémon do tipo Planta, número 556 da Pokédex Nacional. | ângulos: atributo, nome
+- `marcus_fenix` | Marcus Fenix | Sargento da Coalizão dos Governos Ordenados e protagonista da série Gears of War. | ângulos: conexao
+- `mareanie` | Mareanie | Pokémon venenoso e aquático de estrela-do-mar com espinhos, número 747 da Pokédex Nacional. | ângulos: atributo, conexao
+- `mareep` | Mareep | Pokémon ovelha do tipo Elétrico, número 179 da Pokédex Nacional. | ângulos: conexao
+- `marill` | Marill | Pokémon rato aquático do tipo Água/Fada da segunda geração, número 183 da Pokédex Nacional. | ângulos: conexao
+- `mario` | Mario | Personagem encanador da Nintendo, mascote da empresa, criado por Shigeru Miyamoto. | ângulos: causa, nome
+- `mario_sonic` | Mario & Sonic | Série de jogos esportivos que reúne os personagens da Nintendo e da Sega, iniciada em 2007. | ângulos: conexao
+- `marowak` | Marowak | Pokémon do tipo Terrestre, número 105 da Pokédex Nacional. | ângulos: conexao, identidade, lugar
+- `marshadow` | Marshadow | Pokémon dos tipos Lutador e Fantasma, número 802 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `marshal` | Marshal | Treinador especialista em pokémon lutadores, membro da Elite dos Quatro de Unova nos jogos Pokémon Black e White. | ângulos: conexao
+- `marshtomp` | Marshtomp | Pokémon anfíbio de água e terra da terceira geração, forma intermediária entre Mudkip e Swampert, número 259 da Pokédex Nacional. | ângulos: identidade
+- `mascarado_de_ferro` | Mascarado de Ferro | Vilão do quarto filme da franquia Pokémon, um agente da Equipe Rocket de máscara de ferro que caça Celebi. | ângulos: atributo
+- `maschiff` | Maschiff | Pokémon do tipo Sombrio, número 942 da Pokédex Nacional. | ângulos: lugar
+- `masquerain` | Masquerain | Pokémon dos tipos Inseto e Voador, número 284 da Pokédex Nacional. | ângulos: conexao, identidade, lugar
+- `master_ball` | Master Ball | Poké Bola roxa marcada com a letra M, a mais poderosa dos jogos Pokémon, fabricada pela Silph. | ângulos: atributo, lugar
+- `master_chief` | Master Chief | Master Chief Petty Officer John-117, soldado Spartan e protagonista da série de jogos Halo. | ângulos: autoria
+- `master_class_de_kalos` | Master Class de Kalos | Grande torneio dos Pokémon Showcases no anime Pokémon XYZ, que decide o título de Rainha de Kalos, disputado por Serena. | ângulos: autoria
+- `matori` | Matori | Secretária de Giovanni na Equipe Rocket nas séries Sol e Lua e Jornadas do anime Pokémon. | ângulos: identidade
+- `maushold` | Maushold | Pokémon do tipo Normal, número 925 da Pokédex Nacional. | ângulos: identidade
+- `mawile` | Mawile | Pokémon do tipo Aço/Fada da terceira geração, número 303 da Pokédex Nacional, com uma grande mandíbula na cabeça. | ângulos: identidade
+- `max_payne_3` | Max Payne 3 | Jogo de tiro da Rockstar Games lançado em 2012, terceiro da série do policial Max Payne. | ângulos: lugar
+- `may_anime` | May (anime) | Companheira de viagem de Ash na série Pokémon Advanced, filha do líder de ginásio Norman, chamada Haruka no Japão. | ângulos: conexao
+- `medicham` | Medicham | Pokémon dos tipos Lutador e Psíquico, número 308 da Pokédex Nacional. | ângulos: identidade
+- `meditite` | Meditite | Pokémon dos tipos Lutador e Psíquico, número 307 da Pokédex Nacional. | ângulos: atributo
+- `mega_charizard_x` | Mega Charizard X | Uma das duas megaevoluções de Charizard, introduzida em Pokémon X e Y, de corpo negro e chamas azuis. | ângulos: atributo
+- `mega_drive` | Mega Drive | Console de videogame de dezesseis bits da Sega, lançado no Japão no fim dos anos oitenta. | ângulos: nome, tempo
+- `mega_kick` | Mega Kick | Golpe de pokémon do tipo Normal, da 1ª geração. | ângulos: identidade
+- `mega_man` | Mega Man | Robô protagonista da série de jogos da Capcom iniciada em 1987, chamado Rockman no Japão. | ângulos: nome
+- `mega_punch` | Mega Punch | Golpe de pokémon do tipo Normal, da 1ª geração. | ângulos: identidade
+- `megaevolucao` | Megaevolução | Transformação temporária de certos pokémon em batalha, introduzida em Pokémon X e Y, ativada por uma Mega Pedra. | ângulos: composicao, numero
+- `meganium` | Meganium | Pokémon do tipo Planta, número 154 da Pokédex Nacional. | ângulos: atributo, identidade
+- `melanie_anime` | Melanie (anime) | Moça do anime Pokémon que cuida de pokémon abandonados num vilarejo escondido de Kanto, protegido pelo Bulbasaur que depois segue Ash. | ângulos: identidade
+- `melmetal` | Melmetal | Pokémon do tipo Aço, número 809 da Pokédex Nacional. | ângulos: atributo, identidade
+- `melody_pokemon_2000` | Melody (Pokémon 2000) | Moça da ilha Shamouti no filme Pokémon 2000, escolhida para o festival da ilha, que toca a canção ligada a Lugia. | ângulos: identidade
+- `meloetta` | Meloetta | Pokémon dos tipos Normal e Psíquico, número 648 da Pokédex Nacional. | ângulos: atributo, identidade
+- `melony` | Melony | Líder do ginásio de tipo Gelo de Circhester em Pokémon Shield, na região de Galar. | ângulos: conexao
+- `meltan` | Meltan | Pokémon do tipo Aço, número 808 da Pokédex Nacional. | ângulos: conexao, identidade, lugar
+- `meowscarada` | Meowscarada | Pokémon dos tipos Planta e Sombrio, número 908 da Pokédex Nacional. | ângulos: atributo, conexao
+- `meowstic` | Meowstic | Pokémon gato do tipo Psíquico da sexta geração, número 678 da Pokédex Nacional. | ângulos: conexao, identidade
+- `meowth` | Meowth | Pokémon do tipo Normal, número 52 da Pokédex Nacional. | ângulos: atributo, causa, conexao, identidade
+- `meowth_da_equipe_rocket` | Meowth da Equipe Rocket | Meowth falante que integra a Equipe Rocket ao lado de Jessie e James no anime Pokémon. | ângulos: atributo
+- `mesprit` | Mesprit | Pokémon do tipo Psíquico, número 481 da Pokédex Nacional. | ângulos: identidade
+- `mestres_oito` | Mestres Oito | Torneio final do Campeonato Mundial de Coroação no anime Jornadas Pokémon, disputado pelos oito melhores treinadores do mundo. | ângulos: lugar
+- `metagross` | Metagross | Pokémon dos tipos Aço e Psíquico, número 376 da Pokédex Nacional. | ângulos: identidade, numero
+- `metal_gear` | Metal Gear | Série de jogos de espionagem e infiltração da Konami, iniciada em 1987. | ângulos: autoria
+- `metang` | Metang | Pokémon dos tipos Aço e Psíquico, número 375 da Pokédex Nacional. | ângulos: conexao
+- `metapod` | Metapod | Pokémon casulo verde da primeira geração, evolução de Caterpie, número 11 da Pokédex Nacional. | ângulos: atributo, identidade
+- `metodo_masuda` | Método Masuda | Técnica de criação dos jogos Pokémon, desde Diamond e Pearl, em que cruzar pokémon de jogos de idiomas diferentes aumenta a chance de filhotes brilhantes. | ângulos: nome
+- `mew` | Mew | Pokémon do tipo Psíquico, número 151 da Pokédex Nacional. | ângulos: autoria, conexao, identidade, lugar
+- `mewtwo` | Mewtwo | Pokémon do tipo Psíquico, número 150 da Pokédex Nacional. | ângulos: atributo, autoria, identidade, lugar
+- `mewtwo_contra_ataca_evolucao` | Mewtwo Contra-Ataca: Evolução | Vigésimo segundo filme da franquia Pokémon, refilmagem em computação gráfica do primeiro filme, Mewtwo Contra-Ataca. | ângulos: tempo
+- `mewtwo_returns` | Mewtwo Returns | Especial de TV do anime Pokémon, de 2000, continuação do primeiro filme, em que Mewtwo vive escondido com outros clones. | ângulos: conexao
+- `midna` | Midna | Habitante do Reino do Crepúsculo e parceira de Link em The Legend of Zelda: Twilight Princess. | ângulos: conexao
+- `mienfoo` | Mienfoo | Pokémon do tipo Lutador, número 619 da Pokédex Nacional. | ângulos: atributo
+- `mienshao` | Mienshao | Pokémon do tipo Lutador, número 620 da Pokédex Nacional. | ângulos: conexao, identidade
+- `mightyena` | Mightyena | Pokémon lobo de tipo sombrio da terceira geração, evolução de Poochyena, número 262 da Pokédex Nacional. | ângulos: identidade
+- `milcery` | Milcery | Pokémon do tipo Fada, número 868 da Pokédex Nacional. | ângulos: identidade
+- `milotic` | Milotic | Pokémon do tipo Água da terceira geração, evolução de Feebas, número 350 da Pokédex Nacional. | ângulos: conexao, identidade
+- `miltank` | Miltank | Pokémon do tipo Normal, número 241 da Pokédex Nacional. | ângulos: atributo, identidade
+- `mime_jr` | Mime Jr. | Pokémon dos tipos Psíquico e Fada, número 439 da Pokédex Nacional. | ângulos: identidade
+- `mimikyu` | Mimikyu | Pokémon dos tipos Fantasma e Fada, número 778 da Pokédex Nacional. | ângulos: atributo, causa, conexao, identidade
+- `mimikyu_de_jessie` | Mimikyu de Jessie | Mimikyu que pertence a Jessie, da Equipe Rocket, na série Sol e Lua do anime Pokémon, inimigo declarado do Pikachu de Ash. | ângulos: identidade
+- `minccino` | Minccino | Pokémon do tipo Normal, número 572 da Pokédex Nacional. | ângulos: atributo
+- `minecraft` | Minecraft | Jogo de construção com blocos criado pelo sueco Markus Persson e lançado em 2009. | ângulos: autoria, conexao
+- `minior` | Minior | Pokémon dos tipos Pedra e Voador, número 774 da Pokédex Nacional. | ângulos: identidade
+- `minun` | Minun | Pokémon do tipo Elétrico, número 312 da Pokédex Nacional. | ângulos: identidade, lugar
+- `miraidon` | Miraidon | Pokémon dos tipos Elétrico e Dragão, número 1008 da Pokédex Nacional. | ângulos: identidade, lugar, nome
+- `misdreavus` | Misdreavus | Pokémon fantasma do tipo Fantasma da segunda geração, número 200 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `mismagius` | Mismagius | Pokémon do tipo Fantasma, número 429 da Pokédex Nacional. | ângulos: identidade, lugar
+- `missingno` | MissingNo. | Pokémon defeituoso, fruto de uma falha de programação, encontrado nos jogos Pokémon Red e Blue. | ângulos: causa, nome
+- `misty` | Misty | Líder de ginásio do tipo Água de Cerulean, nos jogos, e companheira de viagem de Ash no início do anime Pokémon. | ângulos: atributo, causa, nome
+- `mobile_adapter_gb` | Mobile Adapter GB | Acessório lançado só no Japão que conectava o Game Boy Color a redes de telefonia móvel, usado por Pokémon Crystal. | ângulos: atributo
+- `moltres` | Moltres | Pokémon lendário ave de fogo da primeira geração, número 146 da Pokédex Nacional. | ângulos: atributo, comparacao, identidade, lugar
+- `monferno` | Monferno | Pokémon macaco de fogo e lutador, número 391 da Pokédex Nacional, evolução do Chimchar. | ângulos: identidade
+- `monte_chimney` | Monte Chimney | Vulcão no centro da região de Hoenn, nos jogos Pokémon Ruby, Sapphire e Emerald, palco de um confronto com a Equipe Magma. | ângulos: causa
+- `monte_pyre` | Monte Pyre | Montanha da região de Hoenn, nos jogos Pokémon Ruby e Sapphire, que serve de cemitério de pokémon e guarda as orbes de Groudon e Kyogre. | ângulos: conexao
+- `morelull` | Morelull | Pokémon dos tipos Planta e Fada, número 755 da Pokédex Nacional. | ângulos: identidade
+- `morgrem` | Morgrem | Pokémon dos tipos Sombrio e Fada, número 860 da Pokédex Nacional. | ângulos: conexao
+- `morpeko` | Morpeko | Pokémon dos tipos Elétrico e Sombrio, número 877 da Pokédex Nacional. | ângulos: atributo, identidade
+- `mortal_kombat` | Mortal Kombat | Jogo de luta de 1992, da Midway, famoso pela violência e pelos golpes finais chamados fatalities. | ângulos: causa
+- `morty` | Morty | Líder do ginásio de tipo Fantasma de Ecruteak, em Johto, nos jogos Pokémon Gold e Silver. | ângulos: lugar
+- `mossdeep` | Mossdeep | Cidade-ilha da região de Hoenn, nos jogos Pokémon Ruby e Sapphire, onde fica um centro espacial e o ginásio psíquico de Tate e Liza. | ângulos: identidade
+- `mothim` | Mothim | Pokémon dos tipos Inseto e Voador, número 414 da Pokédex Nacional. | ângulos: identidade, lugar
+- `movimento_z` | Movimento Z | Golpe superpoderoso dos jogos Pokémon Sun e Moon, usado uma vez por batalha com a ajuda de um Cristal Z. | ângulos: atributo
+- `mr_mime` | Mr. Mime | Pokémon do tipo Psíquico/Fada da primeira geração, número 122 da Pokédex Nacional, um mímico que cria paredes invisíveis. | ângulos: atributo, identidade
+- `mr_mime_de_delia` | Mr. Mime de Delia | Mr. Mime que vive com Delia Ketchum, mãe de Ash, em Pallet, no anime Pokémon, e ajuda nas tarefas da casa. | ângulos: identidade
+- `mr_rime` | Mr. Rime | Pokémon dos tipos Gelo e Psíquico, número 866 da Pokédex Nacional. | ângulos: atributo
+- `mt_moon` | Mt. Moon | Montanha com cavernas entre Pewter e Cerulean, em Kanto, nos jogos Pokémon Red e Blue, famosa pelos Clefairy e pelos fósseis. | ângulos: composicao
+- `mud_shot` | Mud Shot | Golpe de pokémon do tipo Terrestre, da 3ª geração. | ângulos: identidade
+- `mud_slap` | Mud-Slap | Golpe de pokémon do tipo Terrestre, da 2ª geração. | ângulos: identidade
+- `mudbray` | Mudbray | Pokémon burro do tipo Terrestre da sétima geração, número 749 da Pokédex Nacional. | ângulos: identidade
+- `mudkip` | Mudkip | Pokémon do tipo Água, número 258 da Pokédex Nacional. | ângulos: comparacao, identidade
+- `mudsdale` | Mudsdale | Pokémon do tipo Terrestre, número 750 da Pokédex Nacional. | ângulos: identidade, lugar
+- `muk` | Muk | Pokémon de lodo venenoso da primeira geração, evolução de Grimer, número 89 da Pokédex Nacional. | ângulos: atributo, identidade
+- `muk_de_ash` | Muk de Ash | Muk de Ash Ketchum no anime Pokémon, que vive no laboratório do Professor Carvalho em Pallet. | ângulos: identidade
+- `munchlax` | Munchlax | Pokémon do tipo Normal, número 446 da Pokédex Nacional. | ângulos: causa, conexao
+- `munkidori` | Munkidori | Pokémon dos tipos Venenoso e Psíquico, número 1015 da Pokédex Nacional. | ângulos: atributo
+- `munna` | Munna | Pokémon do tipo Psíquico, número 517 da Pokédex Nacional. | ângulos: atributo
+- `murkrow` | Murkrow | Pokémon dos tipos Sombrio e Voador, número 198 da Pokédex Nacional. | ângulos: causa, conexao
+- `museu_de_nacrene` | Museu de Nacrene | Museu da cidade de Nacrene, em Unova, nos jogos Pokémon Black e White, que abriga o ginásio de Lenora. | ângulos: composicao
+- `musharna` | Musharna | Pokémon do tipo Psíquico, número 518 da Pokédex Nacional. | ângulos: atributo
+- `musical_pokemon` | Musical Pokémon | Atração de Pokémon Black e White em que o jogador enfeita seus pokémon com acessórios para se apresentarem num palco. | ângulos: lugar
+- `mustard` | Mustard | Velho mestre do dojo da Ilha da Armadura, na expansão The Isle of Armor de Pokémon Sword e Shield, que treina o jogador e Kubfu. | ângulos: atributo
+- `n` | N | Rei da Equipe Plasma em Pokémon Black e White, jovem criado entre pokémon e manipulado por Ghetsis. | ângulos: atributo, conexao, nome
+- `nacli` | Nacli | Pokémon do tipo Pedra da nona geração, um pequeno bloco de sal de Paldea que evolui para Naclstack e Garganacl. | ângulos: atributo, nome
+- `naclstack` | Naclstack | Pokémon do tipo Pedra, número 933 da Pokédex Nacional. | ângulos: identidade
+- `naganadel` | Naganadel | Pokémon dos tipos Venenoso e Dragão, número 804 da Pokédex Nacional. | ângulos: identidade, lugar
+- `nanab_berry` | Nanab Berry | Fruta dos jogos Pokémon, também presente em Pokémon Go, onde acalma o pokémon selvagem durante a captura. | ângulos: nome
+- `nanu` | Nanu | Kahuna da ilha Ula'ula e policial nos jogos Pokémon Sun e Moon, especialista em pokémon sombrios. | ângulos: identidade
+- `natu` | Natu | Pokémon pássaro psíquico e voador, número 177 da Pokédex Nacional. | ângulos: conexao, identidade
+- `natureza_pokemon` | Natureza (Pokémon) | Traço de personalidade de cada pokémon, introduzido em Ruby e Sapphire, que aumenta um atributo e diminui outro. | ângulos: numero
+- `necrozma` | Necrozma | Pokémon do tipo Psíquico, número 800 da Pokédex Nacional. | ângulos: causa, identidade
+- `neo_genesis_colecao` | Neo Genesis (coleção) | Primeira coleção do card game Pokémon com os pokémon de Johto, lançada em inglês em 2000. | ângulos: identidade
+- `new_pokemon_snap` | New Pokémon Snap | Jogo de fotografia de pokémon para Nintendo Switch, continuação de Pokémon Snap, desenvolvido pela Bandai Namco Studios. | ângulos: lugar, tempo
+- `nickit` | Nickit | Pokémon do tipo Sombrio, número 827 da Pokédex Nacional. | ângulos: atributo
+- `nidoking` | Nidoking | Pokémon dos tipos Venenoso e Terrestre, número 34 da Pokédex Nacional. | ângulos: conexao, identidade
+- `nidoqueen` | Nidoqueen | Pokémon dos tipos Venenoso e Terrestre, número 31 da Pokédex Nacional. | ângulos: conexao, identidade
+- `nidoran_femea` | Nidoran fêmea | Pokémon do tipo Venenoso, número 29 da Pokédex Nacional. | ângulos: atributo, identidade
+- `nidoran_macho` | Nidoran macho | Pokémon do tipo Venenoso, número 32 da Pokédex Nacional. | ângulos: atributo, identidade
+- `nidorina` | Nidorina | Pokémon do tipo Venenoso, número 30 da Pokédex Nacional. | ângulos: conexao, identidade
+- `nidorino` | Nidorino | Pokémon do tipo Venenoso, número 33 da Pokédex Nacional. | ângulos: identidade, lugar
+- `nihilego` | Nihilego | Pokémon dos tipos Pedra e Venenoso, número 793 da Pokédex Nacional. | ângulos: identidade, lugar
+- `nincada` | Nincada | Pokémon do tipo Inseto/Terra da terceira geração, número 290 da Pokédex Nacional. | ângulos: causa, identidade
+- `ninetales` | Ninetales | Pokémon do tipo Fogo, número 38 da Pokédex Nacional. | ângulos: causa, conexao, identidade, lugar
+- `ninjask` | Ninjask | Pokémon dos tipos Inseto e Voador, número 291 da Pokédex Nacional. | ângulos: identidade, lugar
+- `nintendo` | Nintendo | Empresa japonesa de videogames fundada em 1889, criadora de Mario e Zelda. | ângulos: atributo, lugar
+- `noctowl` | Noctowl | Pokémon dos tipos Normal e Voador, número 164 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `noibat` | Noibat | Pokémon dos tipos Voador e Dragão, número 714 da Pokédex Nacional. | ângulos: conexao, identidade
+- `noivern` | Noivern | Pokémon dos tipos Voador e Dragão, número 715 da Pokédex Nacional. | ângulos: atributo, identidade
+- `norman` | Norman | Líder do ginásio de Petalburg, na região de Hoenn, nos jogos e no anime Pokémon. | ângulos: conexao
+- `nosepass` | Nosepass | Pokémon do tipo Pedra da terceira geração, de nariz enorme que aponta sempre para o norte. | ângulos: atributo, lugar
+- `numel` | Numel | Pokémon dos tipos Fogo e Terrestre, número 322 da Pokédex Nacional. | ângulos: identidade
+- `nuzleaf` | Nuzleaf | Pokémon dos tipos Planta e Sombrio, número 274 da Pokédex Nacional. | ângulos: lugar
+- `nymble` | Nymble | Pokémon do tipo Inseto, número 919 da Pokédex Nacional. | ângulos: identidade
+- `obstagoon` | Obstagoon | Pokémon dos tipos Sombrio e Normal, número 862 da Pokédex Nacional. | ângulos: conexao, identidade
+- `octillery` | Octillery | Pokémon do tipo Água, número 224 da Pokédex Nacional. | ângulos: identidade, lugar
+- `oddish` | Oddish | Pokémon do tipo Planta e Veneno com folhas na cabeça, número 43 da Pokédex Nacional. | ângulos: conexao, identidade
+- `oficial_jenny` | Oficial Jenny | Policial do anime Pokémon que aparece em quase todas as cidades, sempre com a mesma aparência. | ângulos: atributo, conexao, nome
+- `ogerpon` | Ogerpon | Pokémon lendário do tipo Planta da nona geração, uma pequena ogra mascarada de Kitakami, estrela da expansão The Teal Mask. | ângulos: causa, conexao, identidade
+- `oinkologne` | Oinkologne | Pokémon do tipo Normal, número 916 da Pokédex Nacional. | ângulos: identidade
+- `okidogi` | Okidogi | Pokémon dos tipos Venenoso e Lutador, número 1014 da Pokédex Nacional. | ângulos: identidade
+- `old_chateau` | Old Chateau | Mansão abandonada e assombrada na floresta de Eterna, em Sinnoh, nos jogos Pokémon Diamond, Pearl e Platinum. | ângulos: composicao
+- `oleana` | Oleana | Secretária do presidente Rose na empresa Macro Cosmos, em Pokémon Sword e Shield. | ângulos: identidade
+- `olivia` | Olivia | Kahuna especialista em pokémon de pedra nos jogos Pokémon Sun e Moon, membro da Elite dos Quatro de Alola. | ângulos: lugar
+- `omanyte` | Omanyte | Pokémon dos tipos Pedra e Água, número 138 da Pokédex Nacional. | ângulos: conexao, identidade
+- `omastar` | Omastar | Pokémon dos tipos Pedra e Água, número 139 da Pokédex Nacional. | ângulos: identidade, lugar
+- `onix` | Onix | Pokémon dos tipos Pedra e Terra, número 95 da Pokédex Nacional. | ângulos: causa, conexao
+- `opelucid` | Opelucid | Cidade da região de Unova, nos jogos Pokémon Black e White, cujo visual muda conforme a versão do jogo. | ângulos: atributo
+- `oranguru` | Oranguru | Pokémon dos tipos Normal e Psíquico, número 765 da Pokédex Nacional. | ângulos: atributo, identidade
+- `orbeetle` | Orbeetle | Pokémon dos tipos Inseto e Psíquico, número 826 da Pokédex Nacional. | ângulos: conexao, identidade
+- `oricorio` | Oricorio | Pokémon ave dançarina da sétima geração, número 741 da Pokédex Nacional, com quatro estilos de dança. | ângulos: atributo, composicao, identidade
+- `orthworm` | Orthworm | Pokémon do tipo Aço, número 968 da Pokédex Nacional. | ângulos: atributo
+- `oshawott` | Oshawott | Pokémon inicial do tipo Água da região de Unova, uma lontra com vieira na barriga, número 501 da Pokédex Nacional. | ângulos: identidade
+- `outrage` | Outrage | Golpe de pokémon do tipo Dragão, da 2ª geração. | ângulos: identidade
+- `overqwil` | Overqwil | Pokémon dos tipos Sombrio e Venenoso, número 904 da Pokédex Nacional. | ângulos: conexao, identidade
+- `ovo_misterioso` | Ovo Misterioso | Ovo que Mr. Pokémon entrega ao jogador no início de Pokémon Gold, Silver e Crystal para ser levado ao Professor Elm. | ângulos: composicao
+- `ovo_pokemon` | Ovo Pokémon | Ovo de onde nascem filhotes de pokémon nos jogos da série principal, desde Gold e Silver, obtido por criação. | ângulos: lugar
+- `pac_man` | Pac-Man | Jogo de fliperama da Namco lançado em 1980, em que uma bola amarela come pastilhas num labirinto. | ângulos: autoria, causa
+- `pachirisu` | Pachirisu | Pokémon esquilo do tipo Elétrico, número 417 da Pokédex Nacional, da quarta geração. | ângulos: atributo, identidade
+- `pacifidlog` | Pacifidlog | Pequena cidade no meio do mar da região de Hoenn, nos jogos Pokémon Ruby e Sapphire. | ângulos: atributo
+- `pal_park` | Pal Park | Parque de Sinnoh, em Pokémon Diamond, Pearl e Platinum, que recebe pokémon transferidos dos jogos de Game Boy Advance. | ângulos: conexao
+- `palacio_parfum` | Palácio Parfum | Palácio luxuoso com grandes jardins na região de Kalos, nos jogos Pokémon X e Y. | ângulos: lugar
+- `palafin` | Palafin | Pokémon do tipo Água, número 964 da Pokédex Nacional. | ângulos: atributo, identidade
+- `paldea` | Paldea | Região fictícia dos jogos Pokémon Scarlet e Violet, da nona geração. | ângulos: lugar
+- `palkia` | Palkia | Pokémon dos tipos Água e Dragão, número 484 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `palossand` | Palossand | Pokémon dos tipos Fantasma e Terrestre, número 770 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `palpitoad` | Palpitoad | Pokémon dos tipos Água e Terrestre, número 536 da Pokédex Nacional. | ângulos: lugar
+- `pancham` | Pancham | Pokémon do tipo Lutador, número 674 da Pokédex Nacional. | ângulos: causa, conexao, identidade
+- `pangoro` | Pangoro | Pokémon dos tipos Lutador e Sombrio, número 675 da Pokédex Nacional. | ângulos: conexao, identidade
+- `panpour` | Panpour | Pokémon do tipo Água, número 515 da Pokédex Nacional. | ângulos: conexao
+- `pansage` | Pansage | Pokémon do tipo Planta, número 511 da Pokédex Nacional. | ângulos: lugar
+- `pansear` | Pansear | Pokémon do tipo Fogo, número 513 da Pokédex Nacional. | ângulos: conexao
+- `paras` | Paras | Pokémon dos tipos Inseto e Planta, número 46 da Pokédex Nacional. | ângulos: conexao, identidade
+- `parasect` | Parasect | Pokémon dos tipos Inseto e Planta, número 47 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `passimian` | Passimian | Pokémon do tipo Lutador, número 766 da Pokédex Nacional. | ângulos: identidade
+- `patrat` | Patrat | Pokémon do tipo Normal, número 504 da Pokédex Nacional. | ângulos: identidade
+- `paul` | Paul | Treinador frio e exigente, rival de Ash Ketchum na série Diamante e Pérola do anime Pokémon, chamado Shinji no Japão. | ângulos: causa, conexao
+- `pawmi` | Pawmi | Pokémon do tipo Elétrico, número 921 da Pokédex Nacional. | ângulos: conexao
+- `pawmo` | Pawmo | Pokémon dos tipos Elétrico e Lutador, número 922 da Pokédex Nacional. | ângulos: atributo
+- `pawmot` | Pawmot | Pokémon dos tipos Elétrico e Lutador, número 923 da Pokédex Nacional. | ângulos: identidade
+- `pawniard` | Pawniard | Pokémon do tipo Sombrio e Aço, número 624 da Pokédex Nacional, que evolui para Bisharp. | ângulos: identidade
+- `payback` | Payback | Golpe de pokémon do tipo Sombrio, da 4ª geração. | ângulos: identidade
+- `pecha_berry` | Pecha Berry | Fruta rosada dos jogos Pokémon que cura o envenenamento do pokémon que a come. | ângulos: nome
+- `pecharunt` | Pecharunt | Pokémon dos tipos Venenoso e Fantasma, número 1025 da Pokédex Nacional. | ângulos: identidade
+- `pedra_da_agua` | Pedra da Água | Pedra evolutiva azul dos jogos Pokémon que faz evoluir pokémon como Staryu, Shellder, Poliwhirl e Eevee. | ângulos: conexao
+- `pedra_da_lua` | Pedra da Lua | Pedra evolutiva dos jogos Pokémon que faz evoluir pokémon como Clefairy, Jigglypuff, Nidorino e Nidorina. | ângulos: conexao
+- `pedra_evolutiva` | Pedra evolutiva | Categoria de itens dos jogos Pokémon, como as pedras do Fogo, da Água e do Trovão, que fazem certos pokémon evoluir na hora. | ângulos: lugar
+- `pelipper` | Pelipper | Pokémon dos tipos Água e Voador, número 279 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `peony` | Peony | Aventureiro exagerado que acompanha o jogador na expansão The Crown Tundra, de Pokémon Sword e Shield. | ângulos: conexao
+- `perrserker` | Perrserker | Pokémon do tipo Aço, número 863 da Pokédex Nacional. | ângulos: identidade, lugar
+- `persian` | Persian | Pokémon felino de tipo Normal, número 53 da Pokédex Nacional, evolução de Meowth. | ângulos: atributo, identidade
+- `personalizacao_do_treinador` | Personalização do treinador | Recurso dos jogos Pokémon que permite trocar roupas, acessórios e penteado do protagonista. | ângulos: tempo
+- `petilil` | Petilil | Pokémon do tipo Planta, número 548 da Pokédex Nacional. | ângulos: atributo
+- `phanpy` | Phanpy | Pokémon do tipo Terrestre, número 231 da Pokédex Nacional. | ângulos: identidade
+- `phantom_pokemon` | Phantom (Pokémon) | Pirata vilão do filme Pokémon Ranger e o Templo do Mar, que caça Manaphy e o tesouro do templo. | ângulos: causa
+- `phantump` | Phantump | Pokémon dos tipos Fantasma e Planta, número 708 da Pokédex Nacional. | ângulos: causa, conexao, identidade
+- `pheromosa` | Pheromosa | Pokémon dos tipos Inseto e Lutador, número 795 da Pokédex Nacional. | ângulos: identidade
+- `phione` | Phione | Pokémon do tipo Água, número 489 da Pokédex Nacional. | ângulos: atributo, identidade
+- `phoebe` | Phoebe | Treinadora especialista em pokémon fantasmas, membro da Elite dos Quatro de Hoenn nos jogos Pokémon Ruby, Sapphire e Emerald. | ângulos: lugar
+- `pichu` | Pichu | Pokémon do tipo Elétrico, número 172 da Pokédex Nacional. | ângulos: conexao
+- `pidgeot` | Pidgeot | Pokémon ave do tipo Normal e Voador, número 18 da Pokédex Nacional, evolução final de Pidgey. | ângulos: causa, identidade
+- `pidgeotto` | Pidgeotto | Pokémon ave do tipo Normal/Voador da primeira geração, número 17 da Pokédex Nacional. | ângulos: conexao
+- `pidgey` | Pidgey | Pokémon pássaro dos tipos Normal/Voador da primeira geração, número 16 da Pokédex Nacional. | ângulos: identidade
+- `pidove` | Pidove | Pokémon dos tipos Normal e Voador, número 519 da Pokédex Nacional. | ângulos: atributo
+- `piers` | Piers | Líder do ginásio de tipo Sombrio de Spikemuth, em Galar, cantor de rock, nos jogos Pokémon Sword e Shield. | ângulos: conexao
+- `pignite` | Pignite | Pokémon porco de fogo e lutador da quinta geração, evolução de Tepig, número 499 da Pokédex Nacional. | ângulos: identidade
+- `pikachu` | Pikachu | Pokémon do tipo Elétrico, número 25 da Pokédex Nacional. | ângulos: identidade, nome
+- `pikachu_de_ash` | Pikachu de Ash | Pikachu parceiro de Ash Ketchum no anime Pokémon, recebido do Professor Carvalho no primeiro episódio. | ângulos: atributo, causa, nome
+- `pikachu_illustrator` | Pikachu Illustrator | Carta promocional rara do card game Pokémon, distribuída no Japão no fim dos anos noventa, considerada uma das cartas mais caras do mundo. | ângulos: autoria, causa
+- `pikachu_s_goodbye_episodio` | Pikachu's Goodbye (episódio) | Episódio da primeira temporada do anime Pokémon em que Ash pensa em deixar Pikachu numa floresta com um bando de Pikachu selvagens. | ângulos: causa
+- `pikachu_s_rescue_adventure` | Pikachu's Rescue Adventure | Curta de animação estrelado por Pikachu e outros pokémon numa selva, exibido nos cinemas junto com o segundo filme da franquia. | ângulos: conexao
+- `pikipek` | Pikipek | Pokémon dos tipos Normal e Voador, número 731 da Pokédex Nacional. | ângulos: lugar
+- `piloswine` | Piloswine | Pokémon dos tipos Gelo e Terrestre, número 221 da Pokédex Nacional. | ângulos: identidade
+- `pincurchin` | Pincurchin | Pokémon do tipo Elétrico, número 871 da Pokédex Nacional. | ângulos: identidade
+- `pineco` | Pineco | Pokémon do tipo Inseto, número 204 da Pokédex Nacional. | ângulos: atributo
+- `pingente_de_liko` | Pingente de Liko | Pingente misterioso da protagonista Liko na série Pokémon Horizontes, cobiçado pelo grupo dos Exploradores. | ângulos: identidade
+- `pinsir` | Pinsir | Pokémon inseto da primeira geração, parecido com um besouro de pinças grandes, número 127 da Pokédex Nacional. | ângulos: identidade
+- `piplup` | Piplup | Pokémon do tipo Água, número 393 da Pokédex Nacional. | ângulos: conexao
+- `platinum_pokemon_adventures` | Platinum (Pokémon Adventures) | Platinum Berlitz, moça rica que protagoniza o arco de Diamond e Pearl do mangá Pokémon Adventures ao lado de Diamond e Pearl. | ângulos: causa
+- `plato_indigo` | Platô Índigo | Planalto na região de Kanto onde fica a Liga Pokémon enfrentada pelo jogador em Red e Blue e em Gold e Silver. | ângulos: lugar
+- `play_pokemon` | Play! Pokémon | Programa oficial da The Pokémon Company que organiza ligas, torneios e campeonatos de card game e videogames Pokémon. | ângulos: identidade
+- `play_rough` | Play Rough | Golpe de pokémon do tipo Fada, da 6ª geração. | ângulos: identidade
+- `playstation` | PlayStation | Primeiro console de videogame da Sony, lançado em 1994. | ângulos: causa
+- `plumeria` | Plumeria | Administradora da Equipe Skull em Pokémon Sun e Moon, especialista em pokémon venenosos. | ângulos: identidade
+- `plusle` | Plusle | Pokémon do tipo Elétrico, número 311 da Pokédex Nacional. | ângulos: identidade, lugar
+- `pocket_monsters_manga` | Pocket Monsters (mangá) | Mangá de humor publicado na revista CoroCoro Comic a partir de 1996, em que Red viaja com um Pikachu e um Clefairy falante. | ângulos: autoria
+- `pocket_pikachu` | Pocket Pikachu | Bichinho virtual com contador de passos lançado pela Nintendo em 1998, em que o dono cuida de um Pikachu. | ângulos: causa
+- `poffin` | Poffin | Doce dos jogos Pokémon Diamond, Pearl e Platinum, feito com frutas e dado aos pokémon para melhorar suas condições nos concursos. | ângulos: conexao
+- `poipole` | Poipole | Pokémon do tipo Venenoso, número 803 da Pokédex Nacional. | ângulos: conexao
+- `poison_jab` | Poison Jab | Golpe de pokémon do tipo Venenoso, da 4ª geração. | ângulos: identidade
+- `poke_ball_plus` | Poké Ball Plus | Controle da Nintendo em forma de Poké Bola, lançado em 2018 para o Nintendo Switch, que pode guardar um pokémon. | ângulos: tempo
+- `poke_bola` | Poké Bola | Esfera vermelha e branca usada pelos treinadores para capturar e carregar pokémon. | ângulos: nome
+- `poke_flauta` | Poké Flauta | Item dos jogos Pokémon que toca uma melodia capaz de acordar pokémon adormecidos, como os Snorlax que bloqueiam o caminho em Kanto. | ângulos: conexao, lugar
+- `poke_radar` | Poké Radar | Aparelho estreante em Pokémon Diamond e Pearl que faz a grama alta tremer para revelar pokémon e permite encadear encontros com a mesma espécie. | ângulos: identidade
+- `poke_ride` | Poké Ride | Recurso de Pokémon Sun e Moon que substitui as Máquinas Ocultas, permitindo chamar pokémon para montar e atravessar obstáculos. | ângulos: identidade
+- `pokeblock` | Pokéblock | Doce dos jogos Pokémon Ruby, Sapphire e Emerald dado aos pokémon para melhorar suas condições nos concursos. | ângulos: composicao
+- `pokedex` | Pokédex | Enciclopédia eletrônica dos jogos e do anime Pokémon, que registra os dados dos pokémon vistos e capturados. | ângulos: causa, nome
+- `pokedex_de_kalos` | Pokédex de Kalos | Pokédex regional dos jogos Pokémon X e Y, que registra os pokémon encontrados na região de Kalos. | ângulos: composicao
+- `pokegear` | Pokégear | Aparelho multifuncional do jogador em Pokémon Gold, Silver e Crystal e nos remakes HeartGold e SoulSilver. | ângulos: composicao
+- `pokemon` | Pokémon | Franquia japonesa de jogos, anime e cartas criada por Satoshi Tajiri e lançada em 1996. | ângulos: causa, nome, tempo
+- `pokemon_2000` | Pokémon 2000 | Segundo filme da franquia Pokémon, em que Ash ajuda o lendário Lugia a salvar o mundo, conhecido no Brasil como Pokémon 2000: O Poder de Um. | ângulos: causa, composicao, lugar, tempo
+- `pokemon_3_o_filme` | Pokémon 3: O Filme | Terceiro filme da franquia Pokémon, de 2000, em que os Unown criam um mundo de cristal ao redor da menina Molly e de um Entei ilusório. | ângulos: causa, composicao, lugar
+- `pokemon_4ever` | Pokémon 4Ever | Quarto filme da franquia Pokémon, de 2001, em que o mítico Celebi traz do passado o menino Sammy e é caçado pelo Mascarado de Ferro. | ângulos: composicao
+- `pokemon_advanced_anime` | Pokémon Advanced (anime) | Série do anime Pokémon em que Ash viaja pela região de Hoenn com May, Max e Brock, chamada Advanced Generation no Japão. | ângulos: tempo
+- `pokemon_adventures` | Pokémon Adventures | Mangá japonês baseado nos jogos Pokémon, publicado desde 1997, com protagonistas que levam os nomes das versões dos jogos, como Red e Blue. | ângulos: autoria, nome
+- `pokemon_aim_to_be_a_pokemon_master` | Pokémon: Aim to Be a Pokémon Master | Minissérie de 2023 do anime Pokémon que encerra a história de Ash depois do título mundial, chamada no Japão Mezase Pokémon Master. | ângulos: composicao, tempo
+- `pokemon_alfa` | Pokémon Alfa | Pokémon selvagens maiores, mais fortes e agressivos que os comuns, introduzidos em Pokémon Legends: Arceus. | ângulos: atributo
+- `pokemon_amie` | Pokémon-Amie | Recurso de Pokémon X e Y em que o jogador acaricia, alimenta e brinca com seus pokémon para aumentar a afeição deles. | ângulos: nome
+- `pokemon_anime` | Pokémon (anime) | Série de animação japonesa baseada na franquia Pokémon, protagonizada por Ash e Pikachu até 2023. | ângulos: autoria, lugar, tempo
+- `pokemon_black_2_e_white_2` | Pokémon Black 2 e White 2 | Par de jogos Pokémon da quinta geração para Nintendo DS, continuação direta de Black e White, ambientado em Unova. | ângulos: numero, tempo
+- `pokemon_black_e_white` | Pokémon Black e White | Par de jogos Pokémon da quinta geração, lançado em 2010 para o Nintendo DS e ambientado na região de Unova. | ângulos: atributo, comparacao, tempo
+- `pokemon_blue_versao_japonesa` | Pokémon Blue (versão japonesa) | Edição especial japonesa de 1996 dos primeiros jogos Pokémon, com gráficos revistos, vendida inicialmente por encomenda pela revista CoroCoro Comic. | ângulos: atributo
+- `pokemon_break` | Pokémon BREAK | Tipo de carta da era X e Y do card game Pokémon, impressa na horizontal e colocada sobre o pokémon que evolui. | ângulos: identidade
+- `pokemon_brilhante` | Pokémon brilhante | Variação rara de cor de um pokémon, introduzida em Pokémon Gold e Silver, cobiçada por colecionadores. | ângulos: lugar, numero
+- `pokemon_brilliant_diamond_e_shining_pearl` | Pokémon Brilliant Diamond e Shining Pearl | Recriações de Pokémon Diamond e Pearl para o Nintendo Switch, lançadas em 2021 e ambientadas na região de Sinnoh. | ângulos: autoria, tempo
+- `pokemon_center_loja` | Pokémon Center (loja) | Rede de lojas oficiais dedicadas só a produtos da franquia Pokémon, aberta primeiro em Tóquio. | ângulos: lugar, tempo
+- `pokemon_challenge_do_google_maps` | Pokémon Challenge do Google Maps | Brincadeira de primeiro de abril de 2014, feita pelo Google com a The Pokémon Company, que inspirou a criação de Pokémon Go. | ângulos: lugar
+- `pokemon_colosseum` | Pokémon Colosseum | Jogo de RPG Pokémon para GameCube, desenvolvido pela Genius Sonority e ambientado na região desértica de Orre. | ângulos: composicao, lugar, tempo
+- `pokemon_concierge` | Pokémon Concierge | Série da Netflix de 2023 sobre Haru, uma moça que trabalha num resort para pokémon. | ângulos: atributo, autoria, composicao
+- `pokemon_conquest` | Pokémon Conquest | Jogo de estratégia de 2012 para Nintendo DS, que leva os pokémon ao Japão feudal dos senhores da guerra. | ângulos: conexao
+- `pokemon_crystal` | Pokémon Crystal | Versão especial de Pokémon Gold e Silver, lançada em 2000 para Game Boy Color, com o lendário Suicune em destaque. | ângulos: atributo
+- `pokemon_diamante_e_perola_anime` | Pokémon Diamante e Pérola (anime) | Série do anime Pokémon em que Ash viaja pela região de Sinnoh com Dawn e Brock. | ângulos: tempo
+- `pokemon_diamond_e_pearl` | Pokémon Diamond e Pearl | Par de jogos Pokémon da quarta geração, para Nintendo DS, ambientado na região de Sinnoh. | ângulos: conexao, tempo
+- `pokemon_emerald` | Pokémon Emerald | Versão especial de Pokémon Ruby e Sapphire para Game Boy Advance, com o lendário Rayquaza na capa. | ângulos: tempo
+- `pokemon_estampas_ilustradas` | Pokémon Estampas Ilustradas | Card game colecionável oficial da franquia Pokémon, lançado no Japão em 1996. | ângulos: composicao, conexao, numero, tempo
+- `pokemon_eu_escolho_voce_episodio` | Pokémon, Eu Escolho Você! (episódio) | Primeiro episódio do anime Pokémon, exibido em 1997, em que Ash recebe Pikachu do Professor Carvalho. | ângulos: composicao
+- `pokemon_eu_escolho_voce_filme` | Pokémon: Eu Escolho Você! (filme) | Vigésimo filme da franquia Pokémon, de 2017, que recria o começo da jornada de Ash e Pikachu. | ângulos: composicao, conexao
+- `pokemon_evolutions` | Pokémon Evolutions | Série curta de animação lançada no YouTube em 2021, com um episódio para cada região dos jogos, de Kanto a Galar. | ângulos: causa, tempo
+- `pokemon_exclusivos_de_versao` | Pokémon exclusivos de versão | Pokémon que só podem ser capturados numa das versões de um par de jogos Pokémon, como Red e Blue. | ângulos: causa
+- `pokemon_firered_e_leafgreen` | Pokémon FireRed e LeafGreen | Recriações de Pokémon Red e Green para o Game Boy Advance, ambientadas na região de Kanto. | ângulos: composicao, tempo
+- `pokemon_generations` | Pokémon Generations | Série de episódios curtos lançada no YouTube que revisita momentos marcantes dos jogos das seis primeiras regiões Pokémon. | ângulos: numero, tempo
+- `pokemon_go` | Pokémon Go | Jogo de realidade aumentada para celular da Niantic, em que o jogador captura pokémon andando pelas ruas. | ângulos: autoria, causa, tempo
+- `pokemon_go_fest_2017` | Pokémon Go Fest 2017 | Primeiro festival presencial do jogo Pokémon Go, realizado em julho de 2017 em Chicago e marcado por falhas de conexão. | ângulos: lugar
+- `pokemon_go_plus` | Pokémon Go Plus+ | Acessório em forma de Poké Bola lançado em 2023, que se conecta ao celular para capturar pokémon e registrar o sono. | ângulos: conexao
+- `pokemon_gold_e_silver` | Pokémon Gold e Silver | Par de jogos Pokémon da segunda geração, lançado para Game Boy Color e ambientado na região de Johto. | ângulos: lugar, numero, tempo
+- `pokemon_gx` | Pokémon GX | Tipo de carta da era Sun e Moon do card game Pokémon, com um ataque GX especial. | ângulos: numero
+- `pokemon_heartgold_e_soulsilver` | Pokémon HeartGold e SoulSilver | Recriações de Pokémon Gold e Silver para o Nintendo DS, ambientadas nas regiões de Johto e Kanto. | ângulos: conexao, tempo
+- `pokemon_herois` | Pokémon Heróis | Quinto filme da franquia Pokémon, de 2002, estrelado pelos lendários Latios e Latias. | ângulos: causa, lugar, tempo
+- `pokemon_hisuian_snow` | Pokémon: Hisuian Snow | Minissérie curta de animação lançada no YouTube, ambientada na antiga região de Hisui do jogo Pokémon Legends: Arceus. | ângulos: autoria, tempo
+- `pokemon_home` | Pokémon HOME | Serviço na nuvem da The Pokémon Company, para Nintendo Switch e celular, que guarda e transfere pokémon entre vários jogos. | ângulos: tempo
+- `pokemon_horizontes` | Pokémon Horizontes | Série do anime Pokémon iniciada em 2023, a primeira série principal sem Ash e seu Pikachu como protagonistas. | ângulos: composicao, tempo
+- `pokemon_jet` | Pokémon Jet | Aviões de passageiros pintados com pokémon, operados por uma companhia aérea japonesa desde 1998. | ângulos: autoria
+- `pokemon_legends_arceus` | Pokémon Legends: Arceus | Jogo Pokémon de 2022 para o Nintendo Switch, ambientado na antiga região de Hisui. | ângulos: composicao, conexao, tempo
+- `pokemon_legends_z_a` | Pokémon Legends: Z-A | Jogo Pokémon de 2025, para Nintendo Switch e Switch 2, ambientado na cidade de Lumiose, na região de Kalos. | ângulos: atributo, lugar, tempo
+- `pokemon_let_s_go_pikachu_e_let_s_go_eevee` | Pokémon Let's Go, Pikachu! e Let's Go, Eevee! | Par de jogos da série principal Pokémon para o Nintendo Switch, recriações de Pokémon Yellow ambientadas em Kanto. | ângulos: conexao, tempo
+- `pokemon_lv_x` | Pokémon LV.X | Tipo de carta da era Diamond e Pearl do card game Pokémon, colocada por cima do pokémon ativo de mesmo nome. | ângulos: identidade
+- `pokemon_masters` | Pokémon Masters | Jogo para celular da DeNA, lançado em 2019, em que treinadores famosos da franquia batalham ao lado de seus pokémon. | ângulos: lugar
+- `pokemon_mini` | Pokémon Mini | Pequeno console portátil da Nintendo, com tela monocromática e jogos só de pokémon, lançado no início dos anos dois mil. | ângulos: tempo
+- `pokemon_mystery_dungeon` | Pokémon Mystery Dungeon | Série de jogos derivados de Pokémon, com masmorras geradas ao acaso, em que um humano vive como pokémon. | ângulos: autoria, causa, tempo
+- `pokemon_mystery_dungeon_explorers_of_time_e_explorers_of_darkness` | Pokémon Mystery Dungeon: Explorers of Time e Explorers of Darkness | Par de jogos da série Pokémon Mystery Dungeon lançado em 2007 para Nintendo DS, em que o herói entra numa guilda de exploradores. | ângulos: composicao
+- `pokemon_mystery_dungeon_red_rescue_team_e_blue_rescue_team` | Pokémon Mystery Dungeon: Red Rescue Team e Blue Rescue Team | Par de jogos que inaugurou a série Pokémon Mystery Dungeon, lançado em 2005 no Japão, em que o herói integra uma equipe de resgate. | ângulos: atributo, composicao
+- `pokemon_mystery_dungeon_rescue_team_dx` | Pokémon Mystery Dungeon: Rescue Team DX | Remake para Nintendo Switch dos primeiros jogos Pokémon Mystery Dungeon, Red e Blue Rescue Team. | ângulos: tempo
+- `pokemon_o_destino_de_deoxys` | Pokémon: O Destino de Deoxys | Sétimo filme da franquia Pokémon, de 2004, em que o alienígena Deoxys enfrenta Rayquaza numa cidade tecnológica. | ângulos: lugar, tempo
+- `pokemon_o_filme` | Pokémon: O Filme | Primeiro filme da franquia Pokémon, em que Ash e Pikachu enfrentam o clone Mewtwo, lançado no Japão no fim dos anos noventa. | ângulos: causa, composicao, lugar, tempo
+- `pokemon_o_poder_de_todos` | Pokémon: O Poder de Todos | Vigésimo primeiro filme da franquia Pokémon, de 2018, passado durante o Festival do Vento de Fula City. | ângulos: composicao, conexao, tempo
+- `pokemon_omega_ruby_e_alpha_sapphire` | Pokémon Omega Ruby e Alpha Sapphire | Recriações de Pokémon Ruby e Sapphire para o Nintendo 3DS, ambientadas na região de Hoenn. | ângulos: tempo
+- `pokemon_origins` | Pokémon Origins | Minissérie de anime de 2013 que adapta a jornada de Red nos jogos Pokémon Red e Green, em vez de seguir Ash. | ângulos: atributo, numero, tempo
+- `pokemon_paradoxo` | Pokémon Paradoxo | Versões antigas ou futuristas de pokémon conhecidos que vivem na Área Zero, no fundo da Grande Cratera de Paldea, em Pokémon Scarlet e Violet. | ângulos: causa
+- `pokemon_pinball` | Pokémon Pinball | Jogo de fliperama virtual com pokémon, lançado em 1999 para o Game Boy Color, em que a bolinha é uma Poké Bola. | ângulos: atributo
+- `pokemon_platinum` | Pokémon Platinum | Versão especial de Pokémon Diamond e Pearl para Nintendo DS, ambientada em Sinnoh, com o lendário Giratina na capa. | ângulos: tempo
+- `pokemon_preto_e_branco_anime` | Pokémon Preto e Branco (anime) | Série do anime Pokémon em que Ash viaja pela região de Unova com Iris e Cilan. | ângulos: nome, tempo
+- `pokemon_quest` | Pokémon Quest | Jogo gratuito de 2018 para Nintendo Switch e celulares, em que os pokémon exploram a Ilha Tumblecube. | ângulos: atributo
+- `pokemon_radiant` | Pokémon Radiant | Cartas da era Sword e Shield do card game Pokémon que mostram pokémon brilhantes, com limite de uma por baralho. | ângulos: numero
+- `pokemon_ranger` | Pokémon Ranger | Jogo derivado da franquia Pokémon, lançado em 2006 para Nintendo DS, em que o jogador é um guarda florestal que acalma pokémon selvagens. | ângulos: atributo, causa, conexao, lugar
+- `pokemon_ranger_e_o_templo_do_mar` | Pokémon Ranger e o Templo do Mar | Nono filme da franquia Pokémon, de 2006, em que Ash e seus amigos acompanham o nascimento do mítico Manaphy. | ângulos: composicao
+- `pokemon_ranger_shadows_of_almia` | Pokémon Ranger: Shadows of Almia | Segundo jogo da série Pokémon Ranger, para Nintendo DS, ambientado na região de Almia. | ângulos: tempo
+- `pokemon_red_e_blue` | Pokémon Red e Blue | Primeiros jogos Pokémon lançados no Ocidente, para o Game Boy, versões internacionais de Red e Green. | ângulos: autoria, composicao, tempo
+- `pokemon_red_e_green` | Pokémon Red e Green | Primeiros jogos da série Pokémon, lançados no Japão em 1996 para o Game Boy, que deram origem a Red e Blue no Ocidente. | ângulos: nome, numero
+- `pokemon_ruby_e_sapphire` | Pokémon Ruby e Sapphire | Par de jogos Pokémon da terceira geração, para Game Boy Advance, ambientado na região de Hoenn. | ângulos: tempo
+- `pokemon_scarlet_e_violet` | Pokémon Scarlet e Violet | Par de jogos Pokémon da nona geração para o Nintendo Switch, ambientado na região de Paldea, com mundo aberto. | ângulos: composicao, tempo
+- `pokemon_scent_sation_episodio` | Pokémon Scent-sation! (episódio) | Episódio da primeira temporada do anime Pokémon em que Ash disputa a insígnia de Erika, no ginásio de Celadon. | ângulos: atributo
+- `pokemon_sleep` | Pokémon Sleep | Aplicativo da franquia Pokémon, lançado em 2023, que mede o sono do jogador e o transforma em jogo. | ângulos: composicao, lugar
+- `pokemon_smile` | Pokémon Smile | Aplicativo gratuito da franquia Pokémon lançado em 2020, voltado para crianças, que usa a câmera do celular. | ângulos: causa
+- `pokemon_snap` | Pokémon Snap | Jogo de 1999 para Nintendo 64 em que o fotógrafo Todd Snap registra pokémon numa ilha, percorrida num veículo sobre trilhos. | ângulos: atributo, autoria, composicao, lugar, tempo
+- `pokemon_sol_e_lua_anime` | Pokémon Sol e Lua (anime) | Série do anime Pokémon em que Ash estuda numa escola da região de Alola e vence a Liga de Alola. | ângulos: tempo
+- `pokemon_stadium` | Pokémon Stadium | Jogo de batalhas Pokémon em 3D para Nintendo 64, que permitia usar pokémon dos jogos de Game Boy. | ângulos: composicao, tempo
+- `pokemon_sun_e_moon` | Pokémon Sun e Moon | Par de jogos Pokémon da sétima geração, para Nintendo 3DS, ambientado na região tropical de Alola. | ângulos: numero, tempo
+- `pokemon_sword_e_shield` | Pokémon Sword e Shield | Par de jogos Pokémon da oitava geração, lançado em 2019 para o Nintendo Switch e ambientado na região de Galar. | ângulos: atributo, causa, lugar, tempo
+- `pokemon_theme` | Pokémon Theme | Primeira abertura da versão americana do anime Pokémon, que começa com os versos I wanna be the very best. | ângulos: autoria
+- `pokemon_tita` | Pokémon Titã | Pokémon gigantes de Pokémon Scarlet e Violet, enfrentados pelo jogador com Arven na história do Caminho das Lendas. | ângulos: causa
+- `pokemon_totem` | Pokémon Totem | Pokémon maior que o normal, envolto numa aura, enfrentado no fim das provas do Desafio das Ilhas em Pokémon Sun e Moon. | ângulos: identidade
+- `pokemon_trading_card_game_jogo_de_game_boy_color` | Pokémon Trading Card Game (jogo de Game Boy Color) | Jogo de 1998 para Game Boy Color que adapta o card game Pokémon, chamado Pokémon Card GB no Japão. | ângulos: composicao, tempo
+- `pokemon_trading_card_game_pocket` | Pokémon Trading Card Game Pocket | Versão para celular do card game Pokémon, lançada em 2024, com abertura diária de pacotes e cartas digitais. | ângulos: autoria, composicao, numero, tempo
+- `pokemon_twilight_wings` | Pokémon: Twilight Wings | Série curta de animação lançada no YouTube, ambientada na região de Galar dos jogos Sword e Shield. | ângulos: autoria, tempo
+- `pokemon_ultra_sun_e_ultra_moon` | Pokémon Ultra Sun e Ultra Moon | Versões ampliadas de Pokémon Sun e Moon para Nintendo 3DS, com nova história na região de Alola centrada em Necrozma. | ângulos: composicao, tempo
+- `pokemon_unite` | Pokémon Unite | Jogo de batalhas em equipe da franquia Pokémon, lançado em 2021, desenvolvido pelo TiMi Studio Group. | ângulos: autoria, lugar, numero
+- `pokemon_vgc` | Pokémon VGC | Circuito competitivo oficial dos jogos principais de Pokémon, disputado em batalhas duplas e encerrado no Campeonato Mundial. | ângulos: nome
+- `pokemon_vmax` | Pokémon VMAX | Tipo de carta da era Sword e Shield do card game Pokémon que representa pokémon em Dynamax ou Gigantamax. | ângulos: numero
+- `pokemon_world_tournament` | Pokémon World Tournament | Instalação de batalhas da cidade de Driftveil, em Pokémon Black 2 e White 2, onde o jogador enfrenta líderes de ginásio e campeões de todas as regiões. | ângulos: identidade
+- `pokemon_x_e_y` | Pokémon X e Y | Par de jogos Pokémon da sexta geração, lançado em 2013 para o Nintendo 3DS e ambientado na região de Kalos. | ângulos: atributo, composicao, identidade, tempo
+- `pokemon_xd_gale_of_darkness` | Pokémon XD: Gale of Darkness | Jogo de RPG Pokémon de 2005 para GameCube, continuação de Pokémon Colosseum, ambientado na região de Orre. | ângulos: composicao
+- `pokemon_xy_anime` | Pokémon XY (anime) | Série do anime Pokémon em que Ash viaja pela região de Kalos com Serena, Clemont e Bonnie, exibida no Japão a partir de 2013. | ângulos: tempo
+- `pokemon_xyz_anime` | Pokémon XYZ (anime) | Terceira e última temporada da série de Kalos do anime Pokémon, em que Ash disputa a Liga de Kalos. | ângulos: nome
+- `pokemon_yellow` | Pokémon Yellow | Versão especial de Pokémon Red e Blue, para Game Boy, inspirada no anime, em que o inicial é um Pikachu que segue o jogador. | ângulos: composicao, conexao, tempo
+- `pokenav` | PokéNav | Aparelho do jogador em Pokémon Ruby, Sapphire e Emerald, com mapa de Hoenn e registro de treinadores. | ângulos: autoria
+- `pokerus` | Pokérus | Vírus raro e benéfico dos jogos Pokémon, introduzido em Gold e Silver, que faz os pokémon se fortalecerem mais rápido. | ângulos: identidade
+- `poketch` | Pokétch | Aparelho de pulso com aplicativos usado pelo jogador em Pokémon Diamond, Pearl e Platinum. | ângulos: nome
+- `pokewalker` | Pokéwalker | Acessório em forma de Poké Bola que acompanhava Pokémon HeartGold e SoulSilver e deixava o jogador levar um pokémon para passear. | ângulos: atributo
+- `pokken_tournament` | Pokkén Tournament | Jogo de luta da franquia Pokémon, lançado em 2015, que mistura Pokémon com a jogabilidade de Tekken. | ângulos: autoria, composicao
+- `politoed` | Politoed | Pokémon sapo do tipo Água da segunda geração, evolução de Poliwhirl obtida por troca. | ângulos: atributo, conexao, identidade
+- `poliwag` | Poliwag | Pokémon do tipo Água, número 60 da Pokédex Nacional. | ângulos: atributo, composicao, identidade
+- `poliwhirl` | Poliwhirl | Pokémon do tipo Água da primeira geração, número 61 da Pokédex Nacional, forma intermediária entre Poliwag e Poliwrath ou Politoed. | ângulos: conexao, identidade
+- `poliwrath` | Poliwrath | Pokémon dos tipos Água e Lutador, número 62 da Pokédex Nacional. | ângulos: identidade, lugar
+- `poltchageist` | Poltchageist | Pokémon dos tipos Planta e Fantasma, número 1012 da Pokédex Nacional. | ângulos: identidade
+- `polteageist` | Polteageist | Pokémon do tipo Fantasma, número 855 da Pokédex Nacional. | ângulos: conexao, identidade
+- `pong` | Pong | Jogo de fliperama da Atari que simula tênis de mesa, lançado em 1972. | ângulos: tempo
+- `ponyta` | Ponyta | Pokémon do tipo Fogo da primeira geração, um pônei de crina e cauda em chamas, número 77 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `poochyena` | Poochyena | Pokémon do tipo Sombrio, número 261 da Pokédex Nacional. | ângulos: atributo
+- `popplio` | Popplio | Pokémon do tipo Água, número 728 da Pokédex Nacional. | ângulos: comparacao, conexao, identidade
+- `poppy` | Poppy | Menina especialista em pokémon de aço, membro da Elite dos Quatro de Paldea nos jogos Pokémon Scarlet e Violet. | ângulos: identidade
+- `porygon` | Porygon | Pokémon do tipo Normal, número 137 da Pokédex Nacional. | ângulos: atributo, causa, identidade
+- `porygon2` | Porygon2 | Pokémon do tipo Normal, número 233 da Pokédex Nacional. | ângulos: atributo
+- `porygon_z` | Porygon-Z | Pokémon do tipo Normal, número 474 da Pokédex Nacional. | ângulos: conexao, identidade
+- `power_up_punch` | Power-Up Punch | Golpe de pokémon do tipo Lutador, da 6ª geração. | ângulos: identidade
+- `premier_ball` | Premier Ball | Poké Bola toda branca com faixa vermelha, dada de brinde nas lojas dos jogos Pokémon desde a terceira geração. | ângulos: causa
+- `presente_misterioso` | Presente Misterioso | Recurso dos jogos Pokémon, criado em Gold e Silver, para receber presentes como itens e pokémon de evento. | ângulos: atributo
+- `prima_anime` | Prima (anime) | Integrante da Elite dos Quatro de Kanto que Ash conhece nas Ilhas Laranja, no anime Pokémon. | ângulos: conexao
+- `primal_dialga` | Primal Dialga | Forma enlouquecida de Dialga que é o grande antagonista de Pokémon Mystery Dungeon: Explorers of Time e Explorers of Darkness. | ângulos: identidade
+- `primarina` | Primarina | Pokémon dos tipos Água e Fada, número 730 da Pokédex Nacional. | ângulos: atributo, conexao, identidade, nome
+- `primeape` | Primeape | Pokémon do tipo Lutador, número 57 da Pokédex Nacional. | ângulos: causa, conexao, identidade
+- `princesa_peach` | Princesa Peach | Princesa dos jogos da série Super Mario, da Nintendo, frequentemente sequestrada por Bowser. | ângulos: lugar, nome
+- `princesa_zelda` | Princesa Zelda | Princesa do reino de Hyrule na série The Legend of Zelda, da Nintendo. | ângulos: nome
+- `prinplup` | Prinplup | Pokémon de tipo Água, número 394 da Pokédex Nacional, forma intermediária entre Piplup e Empoleon. | ângulos: identidade
+- `probopass` | Probopass | Pokémon dos tipos Pedra e Aço, número 476 da Pokédex Nacional. | ângulos: identidade, lugar
+- `professor_birch` | Professor Birch | Professor pokémon da região de Hoenn, que entrega o inicial ao jogador nos jogos Pokémon Ruby e Sapphire. | ângulos: conexao
+- `professor_carvalho` | Professor Carvalho | Pesquisador pokémon de Kanto, que entrega o primeiro pokémon ao jogador nos jogos Red e Blue e a Ash no anime. | ângulos: conexao, nome
+- `professor_elm` | Professor Elm | Professor pokémon da região de Johto, que entrega o inicial ao jogador em Pokémon Gold e Silver. | ângulos: conexao
+- `professor_kukui` | Professor Kukui | Professor pokémon da região de Alola, que entrega o inicial ao jogador em Pokémon Sun e Moon. | ângulos: atributo
+- `professor_rowan` | Professor Rowan | Professor pokémon da região de Sinnoh, que entrega o inicial ao jogador em Pokémon Diamond, Pearl e Platinum. | ângulos: causa
+- `professor_sycamore` | Professor Sycamore | Professor pokémon da região de Kalos, que entrega o inicial ao jogador em Pokémon X e Y. | ângulos: atributo, lugar
+- `professor_willow` | Professor Willow | Professor pokémon do jogo Pokémon Go, que recebe o jogador e pede ajuda nas suas pesquisas. | ângulos: identidade
+- `professora_ivy` | Professora Ivy | Pesquisadora pokémon da ilha Valencia, nas Ilhas Laranja, no anime Pokémon, que estuda as variações regionais dos pokémon. | ângulos: conexao
+- `professora_juniper` | Professora Juniper | Professora pokémon da região de Unova, que entrega o inicial ao jogador em Pokémon Black e White. | ângulos: identidade
+- `psychic` | Psychic | Golpe de pokémon do tipo Psíquico, da 1ª geração. | ângulos: identidade
+- `psyduck` | Psyduck | Pokémon do tipo Água, número 54 da Pokédex Nacional. | ângulos: atributo, causa, identidade
+- `pumpkaboo` | Pumpkaboo | Pokémon abóbora fantasma dos tipos Fantasma e Planta, de número 710 da Pokédex Nacional. | ângulos: identidade
+- `pupitar` | Pupitar | Pokémon dos tipos Pedra e Terrestre, número 247 da Pokédex Nacional. | ângulos: identidade
+- `purrloin` | Purrloin | Pokémon do tipo Sombrio, número 509 da Pokédex Nacional, gato travesso que evolui para Liepard. | ângulos: identidade, nome
+- `purugly` | Purugly | Pokémon do tipo Normal, número 432 da Pokédex Nacional. | ângulos: conexao, identidade
+- `pyramid_head` | Pyramid Head | Monstro de capacete piramidal vermelho e grande faca da série de terror Silent Hill. | ângulos: identidade
+- `pyroar` | Pyroar | Pokémon dos tipos Fogo e Normal, número 668 da Pokédex Nacional. | ângulos: identidade
+- `pyukumuku` | Pyukumuku | Pokémon pepino-do-mar do tipo Água, de número 771 da Pokédex Nacional, introduzido na sétima geração. | ângulos: atributo, identidade
+- `quagsire` | Quagsire | Pokémon dos tipos Água e Terrestre, número 195 da Pokédex Nacional. | ângulos: conexao, identidade
+- `quaquaval` | Quaquaval | Pokémon dos tipos Água e Lutador, número 914 da Pokédex Nacional. | ângulos: conexao, identidade
+- `quaxly` | Quaxly | Pokémon do tipo Água, número 912 da Pokédex Nacional. | ângulos: atributo
+- `quaxwell` | Quaxwell | Pokémon do tipo Água, número 913 da Pokédex Nacional. | ângulos: identidade
+- `quick_attack` | Quick Attack | Golpe de pokémon do tipo Normal, da 1ª geração. | ângulos: identidade
+- `quilava` | Quilava | Pokémon do tipo Fogo da segunda geração, evolução do Cyndaquil, número 156 da Pokédex Nacional. | ângulos: identidade
+- `quilladin` | Quilladin | Pokémon de tipo Planta, número 651 da Pokédex Nacional, forma intermediária entre Chespin e Chesnaught. | ângulos: atributo, conexao, identidade
+- `qwilfish` | Qwilfish | Pokémon baiacu de água e veneno da segunda geração, número 211 da Pokédex Nacional. | ângulos: conexao
+- `r_o_b` | R.O.B. | Robô de brinquedo da Nintendo, acessório do NES/Famicom lançado em 1985, compatível com Gyromite e Stack-Up. | ângulos: conexao
+- `raboot` | Raboot | Pokémon do tipo Fogo da oitava geração, número 814 da Pokédex Nacional. | ângulos: identidade
+- `rabsca` | Rabsca | Pokémon dos tipos Inseto e Psíquico, número 954 da Pokédex Nacional. | ângulos: conexao, lugar
+- `rage` | Rage | Golpe de pokémon do tipo Normal, da 1ª geração. | ângulos: identidade
+- `raging_bolt` | Raging Bolt | Pokémon dos tipos Elétrico e Dragão, número 1021 da Pokédex Nacional. | ângulos: atributo
+- `raichu` | Raichu | Pokémon do tipo Elétrico, evolução de Pikachu, número 26 da Pokédex Nacional. | ângulos: atributo, identidade, nome
+- `raiden_mortal_kombat` | Raiden (Mortal Kombat) | Deus do trovão e protetor da Terra na série de jogos de luta Mortal Kombat. | ângulos: identidade
+- `raihan` | Raihan | Líder do ginásio de tipo Dragão de Hammerlocke, em Galar, nos jogos Pokémon Sword e Shield. | ângulos: conexao
+- `raikou` | Raikou | Pokémon do tipo Elétrico, número 243 da Pokédex Nacional. | ângulos: atributo, comparacao, identidade
+- `rainbow_cloud_pokemon_snap` | Rainbow Cloud (Pokémon Snap) | Fase final e secreta de Pokémon Snap, uma nuvem de arco-íris onde Todd fotografa o mítico Mew. | ângulos: composicao
+- `ralts` | Ralts | Pokémon do tipo Psíquico e Fada, número 280 da Pokédex Nacional, da terceira geração. | ângulos: identidade
+- `rampardos` | Rampardos | Pokémon do tipo Pedra, número 409 da Pokédex Nacional. | ângulos: conexao, identidade
+- `rapidash` | Rapidash | Pokémon do tipo Fogo, número 78 da Pokédex Nacional. | ângulos: conexao, identidade
+- `raticate` | Raticate | Pokémon do tipo Normal, número 20 da Pokédex Nacional. | ângulos: identidade, lugar
+- `rattata` | Rattata | Pokémon rato do tipo Normal da primeira geração, número 19 da Pokédex Nacional. | ângulos: conexao, identidade
+- `rayman` | Rayman | Personagem sem braços e pernas, de cabelo loiro, protagonista da série de jogos Rayman. | ângulos: autoria
+- `rayquaza` | Rayquaza | Pokémon dos tipos Dragão e Voador, número 384 da Pokédex Nacional. | ângulos: atributo, causa, identidade, lugar
+- `red_pokemon_adventures` | Red (Pokémon Adventures) | Protagonista do primeiro arco do mangá Pokémon Adventures, treinador de Pallet que enfrenta a Equipe Rocket em Kanto. | ângulos: composicao
+- `red_treinador` | Red (treinador) | Protagonista silencioso dos jogos Pokémon Red, Green e Blue, que reaparece como desafio final na segunda geração. | ângulos: conexao, lugar
+- `regice` | Regice | Pokémon do tipo Gelo, número 378 da Pokédex Nacional. | ângulos: identidade, lugar
+- `regidrago` | Regidrago | Pokémon do tipo Dragão, número 895 da Pokédex Nacional. | ângulos: identidade, lugar
+- `regieleki` | Regieleki | Pokémon do tipo Elétrico, número 894 da Pokédex Nacional. | ângulos: atributo, identidade
+- `regigigas` | Regigigas | Pokémon do tipo Normal, número 486 da Pokédex Nacional. | ângulos: atributo, conexao, identidade, lugar, numero
+- `regirock` | Regirock | Pokémon do tipo Pedra, número 377 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `registeel` | Registeel | Pokémon do tipo Aço, número 379 da Pokédex Nacional. | ângulos: identidade
+- `regressao_primitiva` | Regressão Primitiva | Transformação de Groudon e Kyogre em suas formas ancestrais, introduzida em Pokémon Omega Ruby e Alpha Sapphire. | ângulos: causa
+- `rei_boo` | Rei Boo | Líder dos fantasmas Boo e principal vilão da série Luigi's Mansion. | ângulos: conexao
+- `rei_dedede` | Rei Dedede | Rei autoproclamado de Dream Land e grande rival de Kirby. | ângulos: identidade
+- `relicanth` | Relicanth | Pokémon dos tipos Água e Pedra, número 369 da Pokédex Nacional. | ângulos: identidade, lugar
+- `rellor` | Rellor | Pokémon do tipo Inseto, número 953 da Pokédex Nacional. | ângulos: identidade
+- `remoraid` | Remoraid | Pokémon do tipo Água, número 223 da Pokédex Nacional. | ângulos: atributo
+- `reshiram` | Reshiram | Pokémon lendário dos tipos Dragão e Fogo da quinta geração, mascote de Pokémon Black, símbolo da verdade. | ângulos: atributo, causa, identidade
+- `resident_evil_4` | Resident Evil 4 | Jogo de ação e terror da Capcom lançado em 2005, estrelado pelo agente Leon S. Kennedy. | ângulos: lugar
+- `retaliate` | Retaliate | Golpe de pokémon do tipo Normal, da 5ª geração. | ângulos: identidade
+- `reuniclus` | Reuniclus | Pokémon do tipo Psíquico, número 579 da Pokédex Nacional. | ângulos: lugar
+- `revavroom` | Revavroom | Pokémon dos tipos Aço e Venenoso, número 966 da Pokédex Nacional. | ângulos: atributo
+- `rhydon` | Rhydon | Pokémon dos tipos Terra e Pedra da primeira geração, com um chifre em forma de broca, evolução de Rhyhorn. | ângulos: conexao, identidade, tempo
+- `rhyhorn` | Rhyhorn | Pokémon dos tipos Terrestre e Pedra, número 111 da Pokédex Nacional. | ângulos: atributo, identidade
+- `rhyperior` | Rhyperior | Pokémon dos tipos Terrestre e Pedra, número 464 da Pokédex Nacional. | ângulos: conexao, identidade
+- `ribombee` | Ribombee | Pokémon dos tipos Inseto e Fada, número 743 da Pokédex Nacional. | ângulos: conexao, identidade
+- `rica_matsumoto` | Rica Matsumoto | Dubladora e cantora japonesa, voz de Ash Ketchum na versão original do anime Pokémon. | ângulos: conexao
+- `ridley` | Ridley | Dragão espacial, chefe recorrente da série Metroid e arqui-inimigo de Samus Aran. | ângulos: conexao
+- `rillaboom` | Rillaboom | Pokémon do tipo Planta, número 812 da Pokédex Nacional. | ângulos: conexao, identidade
+- `riolu` | Riolu | Pokémon do tipo Lutador da quarta geração, forma anterior de Lucario, número 447 da Pokédex Nacional. | ângulos: identidade
+- `rising_volt_tacklers` | Rising Volt Tacklers | Grupo de aventureiros da série Pokémon Horizontes, liderado por Friede e com o Capitão Pikachu, ao qual se juntam Liko e Roy. | ângulos: lugar
+- `roaring_moon` | Roaring Moon | Pokémon dos tipos Dragão e Sombrio, número 1005 da Pokédex Nacional. | ângulos: identidade
+- `roark` | Roark | Líder do ginásio de tipo Pedra de Oreburgh, primeiro ginásio de Sinnoh nos jogos Pokémon Diamond e Pearl. | ângulos: conexao
+- `rock_slide` | Rock Slide | Golpe de pokémon do tipo Pedra, da 1ª geração. | ângulos: identidade
+- `rock_smash` | Rock Smash | Golpe de pokémon do tipo Lutador, da 2ª geração. | ângulos: identidade
+- `rock_tomb` | Rock Tomb | Golpe de pokémon do tipo Pedra, da 3ª geração. | ângulos: identidade
+- `rockruff` | Rockruff | Pokémon do tipo Pedra da sétima geração, número 744 da Pokédex Nacional. | ângulos: identidade
+- `roggenrola` | Roggenrola | Pokémon do tipo Pedra, número 524 da Pokédex Nacional. | ângulos: lugar
+- `rollout` | Rollout | Golpe de pokémon do tipo Pedra, da 2ª geração. | ângulos: identidade
+- `rolycoly` | Rolycoly | Pokémon do tipo Pedra, número 837 da Pokédex Nacional. | ângulos: identidade
+- `rookidee` | Rookidee | Pokémon do tipo Voador, número 821 da Pokédex Nacional. | ângulos: conexao
+- `rosalina` | Rosalina | Princesa guardiã do cosmos e mãe adotiva dos Lumas na série Mario. | ângulos: conexao
+- `rose_pokemon` | Rose (Pokémon) | Presidente da Liga Pokémon de Galar e da empresa Macro Cosmos, antagonista de Pokémon Sword e Shield. | ângulos: causa
+- `roselia` | Roselia | Pokémon dos tipos Planta e Venenoso, número 315 da Pokédex Nacional. | ângulos: identidade
+- `roserade` | Roserade | Pokémon dos tipos Planta e Venenoso, número 407 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `rotom` | Rotom | Pokémon dos tipos Elétrico e Fantasma da quarta geração, que entra em aparelhos e muda de forma. | ângulos: composicao, identidade, nome
+- `rotom_dex` | Rotom Dex | Pokédex falante de Pokémon Sun e Moon, habitada por um Rotom, que dá dicas e mostra o mapa ao jogador. | ângulos: composicao
+- `round` | Round | Golpe de pokémon do tipo Normal, da 5ª geração. | ângulos: identidade
+- `rowlet` | Rowlet | Pokémon dos tipos Planta e Voador, número 722 da Pokédex Nacional. | ângulos: atributo
+- `rowlet_de_ash` | Rowlet de Ash | Rowlet de Ash Ketchum no anime Pokémon, capturado na região de Alola na série Sol e Lua. | ângulos: atributo, tempo
+- `roxanne` | Roxanne | Líder do ginásio de tipo Pedra de Rustboro, o primeiro de Hoenn, nos jogos Pokémon Ruby, Sapphire e Emerald. | ângulos: lugar
+- `roy` | Roy | Protagonista da série Pokémon Horizontes, ao lado de Liko, menino de uma ilha que sonha com aventuras. | ângulos: atributo
+- `royal_mascarado` | Royal Mascarado | Lutador mascarado de batalhas reais da série Sol e Lua do anime Pokémon, parceiro de um Incineroar, identidade secreta de um personagem de Alola. | ângulos: identidade
+- `rufflet` | Rufflet | Pokémon dos tipos Normal e Voador, número 627 da Pokédex Nacional. | ângulos: atributo
+- `rui_pokemon_colosseum` | Rui (Pokémon Colosseum) | Moça que acompanha o protagonista Wes em Pokémon Colosseum e consegue enxergar a aura dos pokémon sombrios. | ângulos: identidade
+- `ruinas_de_alph` | Ruínas de Alph | Ruínas antigas da região de Johto, nos jogos Pokémon Gold e Silver, com câmaras de painéis de pedra e inscrições misteriosas. | ângulos: composicao
+- `runerigus` | Runerigus | Pokémon dos tipos Terrestre e Fantasma, número 867 da Pokédex Nacional. | ângulos: conexao, identidade
+- `ryu` | Ryu | Lutador de artes marciais e protagonista emblemático da série Street Fighter. | ângulos: autoria
+- `s_s_anne` | S.S. Anne | Navio de cruzeiro luxuoso dos jogos Pokémon Red e Blue, cheio de treinadores, onde o capitão dá ao jogador o golpe Corte. | ângulos: lugar
+- `sabios_da_equipe_plasma` | Sábios da Equipe Plasma | Conselho de sábios que governa a Equipe Plasma em Pokémon Black e White, do qual faz parte Ghetsis. | ângulos: numero
+- `sableye` | Sableye | Pokémon dos tipos Sombrio e Fantasma, número 302 da Pokédex Nacional. | ângulos: atributo, identidade
+- `sabrina` | Sabrina | Líder do ginásio de tipo Psíquico de Saffron, em Kanto, nos jogos e no anime Pokémon. | ângulos: causa, lugar
+- `sackboy` | Sackboy | Personagem de pano tricotado, protagonista da série de jogos LittleBigPlanet. | ângulos: identidade
+- `sada_e_turo` | Sada e Turo | Professores pokémon de Paldea: Sada aparece em Pokémon Scarlet e Turo em Pokémon Violet. | ângulos: atributo, nome
+- `saffron` | Saffron | Grande cidade no centro da região de Kanto, nos jogos Pokémon Red e Blue, sede da Silph e do ginásio psíquico de Sabrina. | ângulos: causa, lugar
+- `salamence` | Salamence | Pokémon dragão dos tipos Dragão e Voador da terceira geração, número 373 da Pokédex Nacional. | ângulos: identidade
+- `salandit` | Salandit | Pokémon lagarto de veneno e fogo da sétima geração, número 757 da Pokédex Nacional. | ângulos: conexao, identidade
+- `salazzle` | Salazzle | Pokémon dos tipos Venenoso e Fogo, número 758 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `sammy_pokemon_4ever` | Sammy (Pokémon 4Ever) | Menino do quarto filme da franquia Pokémon, trazido do passado pelo mítico Celebi, que é a versão jovem de um personagem famoso. | ângulos: identidade
+- `samson_carvalho` | Samson Carvalho | Diretor da Escola Pokémon de Alola na série Sol e Lua do anime Pokémon, famoso pelos trocadilhos com nomes de pokémon. | ângulos: conexao
+- `samurott` | Samurott | Pokémon do tipo Água, número 503 da Pokédex Nacional. | ângulos: conexao, identidade
+- `samus_aran` | Samus Aran | Caçadora de recompensas intergaláctica e protagonista da série Metroid. | ângulos: conexao
+- `sandaconda` | Sandaconda | Pokémon do tipo Terrestre, número 844 da Pokédex Nacional. | ângulos: identidade, lugar
+- `sandile` | Sandile | Pokémon do tipo Terra/Sombrio da quinta geração, número 551 da Pokédex Nacional. | ângulos: identidade
+- `sandshrew` | Sandshrew | Pokémon do tipo Terra da primeira geração, número 27 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `sandslash` | Sandslash | Pokémon do tipo Terrestre, número 28 da Pokédex Nacional. | ângulos: conexao, identidade
+- `sandy_shocks` | Sandy Shocks | Pokémon dos tipos Elétrico e Terrestre, número 989 da Pokédex Nacional. | ângulos: identidade
+- `sandygast` | Sandygast | Pokémon dos tipos Fantasma e Terrestre, número 769 da Pokédex Nacional. | ângulos: causa, conexao
+- `sans` | Sans | Esqueleto preguiçoso e brincalhão, personagem importante do jogo Undertale. | ângulos: conexao
+- `sapphire_pokemon_adventures` | Sapphire (Pokémon Adventures) | Protagonista selvagem do arco de Ruby e Sapphire do mangá Pokémon Adventures, criada na natureza de Hoenn. | ângulos: atributo
+- `satoru_iwata` | Satoru Iwata | Programador japonês da HAL Laboratory que depois presidiu a Nintendo, de 2002 a 2015. | ângulos: autoria
+- `satoshi_tajiri` | Satoshi Tajiri | Criador japonês da franquia Pokémon e fundador da Game Freak. | ângulos: conexao, nome
+- `sawk` | Sawk | Pokémon do tipo Lutador, número 539 da Pokédex Nacional. | ângulos: identidade
+- `sawsbuck` | Sawsbuck | Pokémon dos tipos Normal e Planta, número 586 da Pokédex Nacional. | ângulos: identidade
+- `scald` | Scald | Golpe de pokémon do tipo Água, da 5ª geração. | ângulos: identidade
+- `scatterbug` | Scatterbug | Pokémon do tipo Inseto, número 664 da Pokédex Nacional. | ângulos: atributo
+- `sceptile` | Sceptile | Pokémon de planta da terceira geração, número 254 da Pokédex Nacional, evolução final de Treecko. | ângulos: identidade
+- `scizor` | Scizor | Pokémon inseto e aço, número 212 da Pokédex Nacional, evolução de Scyther. | ângulos: conexao, identidade
+- `scolipede` | Scolipede | Pokémon dos tipos Inseto e Venenoso, número 545 da Pokédex Nacional. | ângulos: conexao, identidade
+- `scorbunny` | Scorbunny | Pokémon do tipo Fogo, número 813 da Pokédex Nacional. | ângulos: atributo
+- `scorpion` | Scorpion | Ninja amarelo de fogo da série de jogos de luta Mortal Kombat. | ângulos: identidade
+- `scovillain` | Scovillain | Pokémon dos tipos Planta e Fogo, número 952 da Pokédex Nacional. | ângulos: conexao, identidade
+- `scrafty` | Scrafty | Pokémon dos tipos Sombrio e Lutador, número 560 da Pokédex Nacional. | ângulos: conexao, identidade
+- `scraggy` | Scraggy | Pokémon dos tipos Sombrio e Lutador, número 559 da Pokédex Nacional. | ângulos: lugar
+- `scream_tail` | Scream Tail | Pokémon dos tipos Fada e Psíquico, número 985 da Pokédex Nacional. | ângulos: identidade
+- `scyther` | Scyther | Pokémon mantis dos tipos Inseto e Voador, número 123 da Pokédex Nacional. | ângulos: conexao, identidade
+- `seadra` | Seadra | Pokémon do tipo Água, número 117 da Pokédex Nacional. | ângulos: conexao, identidade
+- `seaking` | Seaking | Pokémon do tipo Água, número 119 da Pokédex Nacional. | ângulos: conexao, identidade
+- `sealeo` | Sealeo | Pokémon dos tipos Gelo e Água, número 364 da Pokédex Nacional. | ângulos: lugar
+- `seattle_mariners` | Seattle Mariners | Time de beisebol da cidade americana de Seattle, da liga MLB. | ângulos: conexao
+- `seed_bomb` | Seed Bomb | Golpe de pokémon do tipo Planta, da 4ª geração. | ângulos: identidade
+- `seedot` | Seedot | Pokémon do tipo Planta, número 273 da Pokédex Nacional. | ângulos: identidade
+- `seel` | Seel | Pokémon do tipo Água, número 86 da Pokédex Nacional. | ângulos: atributo, conexao
+- `sega` | Sega | Empresa japonesa de videogames, criadora do Mega Drive e do Sonic. | ângulos: conexao, nome
+- `segredos_da_selva` | Segredos da Selva | Vigésimo terceiro filme da franquia Pokémon, de 2020, sobre Koko, um menino criado por um Zarude na floresta. | ângulos: causa
+- `seismitoad` | Seismitoad | Pokémon dos tipos Água e Terrestre, número 537 da Pokédex Nacional. | ângulos: identidade, lugar
+- `sentret` | Sentret | Pokémon do tipo Normal, número 161 da Pokédex Nacional. | ângulos: identidade, lugar
+- `sephiroth` | Sephiroth | Ex-SOLDIER de cabelos prateados e katana longa, principal vilão de Final Fantasy VII. | ângulos: identidade
+- `serena` | Serena | Companheira de viagem de Ash na série Pokémon XY, de Kalos, que sonha em ser artista pokémon. | ângulos: lugar
+- `serperior` | Serperior | Pokémon do tipo Planta, número 497 da Pokédex Nacional. | ângulos: conexao, identidade
+- `servine` | Servine | Pokémon do tipo Planta, número 496 da Pokédex Nacional. | ângulos: conexao
+- `seviper` | Seviper | Pokémon do tipo Venenoso, número 336 da Pokédex Nacional. | ângulos: atributo, lugar
+- `sewaddle` | Sewaddle | Pokémon dos tipos Inseto e Planta, número 540 da Pokédex Nacional. | ângulos: atributo
+- `shadow_ball` | Shadow Ball | Golpe de pokémon do tipo Fantasma, da 2ª geração. | ângulos: identidade
+- `shadow_claw` | Shadow Claw | Golpe de pokémon do tipo Fantasma, da 4ª geração. | ângulos: identidade
+- `shadow_the_hedgehog` | Shadow the Hedgehog | Ouriço preto de listras vermelhas, rival de Sonic na série Sonic the Hedgehog. | ângulos: identidade
+- `shao_kahn` | Shao Kahn | Imperador tirano do Outworld, vilão principal da série de jogos de luta Mortal Kombat. | ângulos: conexao
+- `sharpedo` | Sharpedo | Pokémon tubarão dos tipos Água e Sombrio da terceira geração, número 319 da Pokédex Nacional. | ângulos: conexao, identidade, nome
+- `shaymin` | Shaymin | Pokémon lendário do tipo Planta da quarta geração, número 492 da Pokédex Nacional, na forma Terrestre. | ângulos: atributo, identidade
+- `shedinja` | Shedinja | Pokémon dos tipos Inseto e Fantasma, número 292 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `shelgon` | Shelgon | Pokémon do tipo Dragão, número 372 da Pokédex Nacional. | ângulos: atributo
+- `shellder` | Shellder | Pokémon do tipo Água, número 90 da Pokédex Nacional. | ângulos: identidade, lugar
+- `shellos` | Shellos | Pokémon do tipo Água, número 422 da Pokédex Nacional. | ângulos: atributo, lugar
+- `shelmet` | Shelmet | Pokémon do tipo Inseto, número 616 da Pokédex Nacional. | ângulos: atributo
+- `shieldon` | Shieldon | Pokémon dos tipos Pedra e Aço, número 410 da Pokédex Nacional. | ângulos: atributo
+- `shiftry` | Shiftry | Pokémon dos tipos Planta e Sombrio, número 275 da Pokédex Nacional. | ângulos: conexao, identidade
+- `shiinotic` | Shiinotic | Pokémon dos tipos Planta e Fada, número 756 da Pokédex Nacional. | ângulos: conexao, identidade
+- `shinx` | Shinx | Pokémon filhote de leão do tipo Elétrico, número 403 da Pokédex Nacional, da quarta geração. | ângulos: identidade
+- `shiny_charm` | Shiny Charm | Item estreante em Pokémon Black 2 e White 2, dado a quem completa a Pokédex Nacional, que aumenta a chance de encontrar pokémon brilhantes. | ângulos: identidade
+- `shock_wave` | Shock Wave | Golpe de pokémon do tipo Elétrico, da 3ª geração. | ângulos: identidade
+- `shroodle` | Shroodle | Pokémon dos tipos Venenoso e Normal, número 944 da Pokédex Nacional. | ângulos: identidade
+- `shroomish` | Shroomish | Pokémon do tipo Planta, número 285 da Pokédex Nacional. | ângulos: lugar
+- `shuckle` | Shuckle | Pokémon inseto e pedra da segunda geração, que guarda bagas em seu casco, número 213 da Pokédex Nacional. | ângulos: atributo, causa, identidade
+- `shuppet` | Shuppet | Pokémon do tipo Fantasma, número 353 da Pokédex Nacional. | ângulos: lugar
+- `sigilyph` | Sigilyph | Pokémon Psíquico e Voador inspirado em hieróglifos, número 561 da Pokédex Nacional. | ângulos: conexao, identidade
+- `signal_beam` | Signal Beam | Golpe de pokémon do tipo Inseto, da 3ª geração. | ângulos: identidade
+- `silcoon` | Silcoon | Pokémon do tipo Inseto, número 266 da Pokédex Nacional. | ângulos: identidade
+- `silicobra` | Silicobra | Pokémon do tipo Terrestre, número 843 da Pokédex Nacional. | ângulos: lugar
+- `silph` | Silph | Empresa da cidade de Saffron, em Kanto, fabricante de Poké Bolas e outros itens nos jogos Pokémon. | ângulos: causa
+- `silph_scope` | Silph Scope | Item de Pokémon Red, Blue e Yellow que permite identificar os fantasmas da Torre Pokémon, em Lavender. | ângulos: identidade
+- `silvally` | Silvally | Pokémon do tipo Normal, número 773 da Pokédex Nacional. | ângulos: atributo, conexao, identidade, lugar
+- `silver_rival` | Silver (rival) | Rival ruivo do protagonista nos jogos Pokémon Gold, Silver e Crystal, que rouba um pokémon inicial do laboratório. | ângulos: conexao
+- `simipour` | Simipour | Pokémon do tipo Água, número 516 da Pokédex Nacional. | ângulos: identidade, lugar
+- `simisage` | Simisage | Pokémon do tipo Planta, número 512 da Pokédex Nacional. | ângulos: conexao
+- `simisear` | Simisear | Pokémon do tipo Fogo, número 514 da Pokédex Nacional. | ângulos: conexao
+- `simon_belmont` | Simon Belmont | Caçador de vampiros com chicote, herói da série Castlevania. | ângulos: autoria
+- `sinistcha` | Sinistcha | Pokémon dos tipos Planta e Fantasma, número 1013 da Pokédex Nacional. | ângulos: atributo
+- `sinistea` | Sinistea | Pokémon fantasma em forma de xícara de chá, número 854 da Pokédex Nacional, da oitava geração. | ângulos: causa, identidade
+- `sinnoh` | Sinnoh | Região fictícia dos jogos Pokémon Diamond, Pearl e Platinum, da quarta geração. | ângulos: lugar
+- `sirfetch_d` | Sirfetch’d | Pokémon do tipo Lutador, número 865 da Pokédex Nacional. | ângulos: conexao, identidade
+- `sistema_de_armazenamento_pokemon` | Sistema de Armazenamento Pokémon | Sistema de computador dos jogos Pokémon que guarda os pokémon que não cabem na equipe, criado por Bill nos primeiros jogos. | ângulos: autoria
+- `sizzlipede` | Sizzlipede | Pokémon centopeia do tipo Fogo e Inseto, número 850 da Pokédex Nacional, da oitava geração. | ângulos: conexao
+- `skarmory` | Skarmory | Pokémon do tipo Aço/Voador da segunda geração, número 227 da Pokédex Nacional, uma ave com asas de lâminas metálicas. | ângulos: atributo, identidade
+- `skeledirge` | Skeledirge | Pokémon dos tipos Fogo e Fantasma, número 911 da Pokédex Nacional. | ângulos: conexao, identidade
+- `skiddo` | Skiddo | Pokémon do tipo Planta, número 672 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `skiploom` | Skiploom | Pokémon dos tipos Planta e Voador, número 188 da Pokédex Nacional. | ângulos: atributo
+- `skitty` | Skitty | Pokémon do tipo Normal, número 300 da Pokédex Nacional. | ângulos: identidade
+- `skorupi` | Skorupi | Pokémon escorpião do tipo Veneno/Inseto, número 451 da Pokédex Nacional, da quarta geração. | ângulos: identidade
+- `skrelp` | Skrelp | Pokémon dos tipos Venenoso e Água, número 690 da Pokédex Nacional. | ângulos: conexao, identidade
+- `skuntank` | Skuntank | Pokémon gambá de tipo Veneno/Sombrio, número 435 da Pokédex Nacional, evolução de Stunky. | ângulos: identidade
+- `skwovet` | Skwovet | Pokémon do tipo Normal, número 819 da Pokédex Nacional. | ângulos: conexao
+- `sky_battle` | Sky Battle | Formato de batalha de Pokémon X e Y em que só podem lutar pokémon voadores ou com a habilidade de levitar. | ângulos: identidade
+- `slaking` | Slaking | Pokémon do tipo Normal, número 289 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `slakoth` | Slakoth | Pokémon do tipo Normal, número 287 da Pokédex Nacional. | ângulos: conexao, numero
+- `sliggoo` | Sliggoo | Pokémon do tipo Dragão, número 705 da Pokédex Nacional. | ângulos: causa, identidade, lugar
+- `slither_wing` | Slither Wing | Pokémon dos tipos Inseto e Lutador, número 988 da Pokédex Nacional. | ângulos: identidade
+- `slowbro` | Slowbro | Pokémon dos tipos Água e Psíquico da primeira geração, um Slowpoke com um Shellder mordendo a cauda, número 80 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `slowking` | Slowking | Pokémon dos tipos Água e Psíquico, número 199 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `slowpoke` | Slowpoke | Pokémon da Água/Psíquico de primeira geração, número 79 da Pokédex Nacional, rosado e de cauda longa. | ângulos: atributo, causa, conexao, identidade
+- `sludge_bomb` | Sludge Bomb | Golpe de pokémon do tipo Venenoso, da 2ª geração. | ângulos: identidade
+- `slugma` | Slugma | Pokémon do tipo Fogo, número 218 da Pokédex Nacional. | ângulos: conexao, identidade
+- `slumbering_weald` | Slumbering Weald | Floresta enevoada e proibida da região de Galar, em Pokémon Sword e Shield, ligada aos lendários Zacian e Zamazenta. | ângulos: identidade
+- `slurpuff` | Slurpuff | Pokémon do tipo Fada, número 685 da Pokédex Nacional. | ângulos: identidade, lugar
+- `sly_cooper` | Sly Cooper | Guaxinim ladrão de boina azul e bengala em gancho, protagonista da série Sly Cooper. | ângulos: conexao
+- `smack_down` | Smack Down | Golpe de pokémon do tipo Pedra, da 5ª geração. | ângulos: identidade
+- `smeargle` | Smeargle | Pokémon do tipo Normal, número 235 da Pokédex Nacional. | ângulos: atributo, identidade, lugar, nome
+- `smoliv` | Smoliv | Pokémon dos tipos Planta e Normal, número 928 da Pokédex Nacional. | ângulos: conexao
+- `smoochum` | Smoochum | Pokémon dos tipos Gelo e Psíquico, número 238 da Pokédex Nacional. | ângulos: conexao
+- `snag_machine` | Snag Machine | Aparelho preso ao braço do protagonista de Pokémon Colosseum e Pokémon XD, usado para capturar pokémon de outros treinadores. | ângulos: identidade
+- `sneasel` | Sneasel | Pokémon de garras afiadas do tipo Sombrio/Gelo, número 215 da Pokédex Nacional, da segunda geração. | ângulos: identidade
+- `sneasler` | Sneasler | Pokémon dos tipos Lutador e Venenoso, número 903 da Pokédex Nacional. | ângulos: atributo
+- `snivy` | Snivy | Pokémon inicial do tipo Planta da quinta geração, número 495 da Pokédex Nacional. | ângulos: conexao
+- `snom` | Snom | Pokémon dos tipos Gelo e Inseto, número 872 da Pokédex Nacional. | ângulos: atributo
+- `snore` | Snore | Golpe de pokémon do tipo Normal, da 2ª geração. | ângulos: identidade
+- `snorlax` | Snorlax | Pokémon do tipo Normal, número 143 da Pokédex Nacional. | ângulos: atributo, conexao, identidade, nome
+- `snorunt` | Snorunt | Pokémon do tipo Gelo, número 361 da Pokédex Nacional. | ângulos: lugar
+- `snover` | Snover | Pokémon dos tipos Planta e Gelo, número 459 da Pokédex Nacional. | ângulos: conexao, identidade
+- `snubbull` | Snubbull | Pokémon do tipo Fada, número 209 da Pokédex Nacional. | ângulos: conexao, identidade
+- `sobble` | Sobble | Pokémon do tipo Água, número 816 da Pokédex Nacional. | ângulos: atributo, identidade
+- `solgaleo` | Solgaleo | Pokémon dos tipos Psíquico e Aço, número 791 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `solosis` | Solosis | Pokémon do tipo Psíquico, número 577 da Pokédex Nacional. | ângulos: conexao
+- `solrock` | Solrock | Pokémon dos tipos Pedra e Psíquico, número 338 da Pokédex Nacional. | ângulos: identidade, lugar
+- `sonia` | Sonia | Pesquisadora de Pokémon Sword e Shield, amiga de infância de Leon, que se torna professora da região de Galar. | ângulos: conexao
+- `sonic` | Sonic | Ouriço azul supersônico, mascote da Sega e protagonista da série Sonic the Hedgehog. | ângulos: causa, tempo
+- `sootopolis` | Sootopolis | Cidade da região de Hoenn, nos jogos Pokémon Ruby e Sapphire, cercada de paredões de rocha e acessível por mergulho ou voo. | ângulos: atributo
+- `space_invaders` | Space Invaders | Jogo de fliperama japonês de 1978, da Taito, em que o jogador atira em alienígenas que descem pela tela. | ângulos: autoria, causa
+- `spark` | Spark | Líder da equipe Instinct, a equipe amarela do jogo Pokémon Go. | ângulos: identidade
+- `spearow` | Spearow | Pokémon dos tipos Normal e Voador, número 21 da Pokédex Nacional. | ângulos: atributo, identidade
+- `spectrier` | Spectrier | Pokémon do tipo Fantasma, número 897 da Pokédex Nacional. | ângulos: identidade, lugar
+- `spewpa` | Spewpa | Pokémon do tipo Inseto, número 665 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `spheal` | Spheal | Pokémon gelo e água da terceira geração, uma bola com focinho de foca, número 363 da Pokédex Nacional. | ângulos: identidade
+- `spidops` | Spidops | Pokémon do tipo Inseto, número 918 da Pokédex Nacional. | ângulos: lugar
+- `spinarak` | Spinarak | Pokémon dos tipos Inseto e Venenoso, número 167 da Pokédex Nacional. | ângulos: atributo
+- `spinda` | Spinda | Pokémon do tipo Normal número 327 da Pokédex Nacional, panda de olhos em espiral. | ângulos: atributo, identidade
+- `spiritomb` | Spiritomb | Pokémon dos tipos Fantasma e Sombrio da quarta geração, preso a uma pedra chamada Odd Keystone. | ângulos: atributo, identidade, numero
+- `spoink` | Spoink | Pokémon porco psíquico da terceira geração, que salta sobre uma mola na cauda, número 325 da Pokédex Nacional. | ângulos: causa, identidade
+- `sprigatito` | Sprigatito | Pokémon do tipo Planta, número 906 da Pokédex Nacional. | ângulos: lugar, nome
+- `spritzee` | Spritzee | Pokémon do tipo Fada da sexta geração, número 682 da Pokédex Nacional. | ângulos: atributo, identidade
+- `squawkabilly` | Squawkabilly | Pokémon dos tipos Normal e Voador, número 931 da Pokédex Nacional. | ângulos: identidade
+- `squirtle` | Squirtle | Pokémon do tipo Água, número 7 da Pokédex Nacional. | ângulos: identidade, nome
+- `squirtle_de_ash` | Squirtle de Ash | Squirtle que pertence a Ash Ketchum no anime Pokémon, antigo líder do Esquadrão Squirtle. | ângulos: tempo
+- `squishy` | Squishy | Núcleo do lendário Zygarde cuidado por Bonnie na série Pokémon XY, uma pequena criatura verde. | ângulos: nome
+- `stakataka` | Stakataka | Pokémon dos tipos Pedra e Aço, número 805 da Pokédex Nacional. | ângulos: identidade
+- `stantler` | Stantler | Pokémon do tipo Normal, número 234 da Pokédex Nacional. | ângulos: atributo
+- `staraptor` | Staraptor | Pokémon dos tipos Normal e Voador, número 398 da Pokédex Nacional. | ângulos: conexao, identidade
+- `staravia` | Staravia | Pokémon dos tipos Normal e Voador, número 397 da Pokédex Nacional. | ângulos: lugar
+- `starly` | Starly | Pokémon dos tipos Normal e Voador, número 396 da Pokédex Nacional. | ângulos: identidade
+- `starly_de_ash` | Starly de Ash | Starly de Ash Ketchum no anime Pokémon, capturado em Sinnoh, que evolui para Staravia e depois para Staraptor. | ângulos: tempo
+- `starmie` | Starmie | Pokémon de água e psíquico, número 121 da Pokédex Nacional, evolução de Staryu. | ângulos: conexao, identidade
+- `staryu` | Staryu | Pokémon estrela-do-mar de água da primeira geração, número 120 da Pokédex Nacional. | ângulos: atributo, identidade
+- `steelix` | Steelix | Pokémon do tipo Aço e Terra número 208 da Pokédex Nacional, evolução de Onix. | ângulos: identidade
+- `steenee` | Steenee | Pokémon do tipo Planta, número 762 da Pokédex Nacional. | ângulos: atributo
+- `steve_minecraft` | Steve (Minecraft) | Skin padrão do jogador em Minecraft, de camisa azul-turquesa e calça azul. | ângulos: identidade
+- `steven_stone` | Steven Stone | Campeão da Liga Pokémon de Hoenn nos jogos Ruby e Sapphire, colecionador de pedras raras. | ângulos: composicao, conexao
+- `stomping_tantrum` | Stomping Tantrum | Golpe de pokémon do tipo Terrestre, da 7ª geração. | ângulos: identidade
+- `stone_edge` | Stone Edge | Golpe de pokémon do tipo Pedra, da 4ª geração. | ângulos: identidade
+- `stonjourner` | Stonjourner | Pokémon do tipo Pedra, número 874 da Pokédex Nacional. | ângulos: identidade, lugar
+- `stored_power` | Stored Power | Golpe de pokémon do tipo Psíquico, da 5ª geração. | ângulos: identidade
+- `stoutland` | Stoutland | Pokémon do tipo Normal, número 508 da Pokédex Nacional. | ângulos: identidade
+- `stow_on_side` | Stow-on-Side | Cidade da região de Galar, nos jogos Pokémon Sword e Shield, com um mural antigo e o ginásio de Bea ou de Allister. | ângulos: nome
+- `street_fighter_ii` | Street Fighter II | Jogo de luta da Capcom lançado nos fliperamas em 1991, que popularizou o gênero. | ângulos: numero
+- `strength` | Strength | Golpe de pokémon do tipo Normal, da 1ª geração. | ângulos: identidade
+- `struggle` | Struggle | Golpe dos jogos Pokémon usado automaticamente quando o pokémon não tem mais pontos de poder em nenhum golpe, e que fere o próprio usuário. | ângulos: identidade
+- `stufful` | Stufful | Pokémon dos tipos Normal e Lutador, número 759 da Pokédex Nacional. | ângulos: atributo
+- `stunfisk` | Stunfisk | Pokémon dos tipos Terrestre e Elétrico, número 618 da Pokédex Nacional. | ângulos: identidade
+- `stunky` | Stunky | Pokémon dos tipos Venenoso e Sombrio, número 434 da Pokédex Nacional. | ângulos: lugar
+- `sub_zero` | Sub-Zero | Ninja de roupa azul que controla o gelo, da série de jogos de luta Mortal Kombat. | ângulos: identidade
+- `sucker_punch` | Sucker Punch | Golpe de pokémon do tipo Sombrio, da 4ª geração. | ângulos: identidade
+- `sudowoodo` | Sudowoodo | Pokémon do tipo Pedra da segunda geração, número 185 da Pokédex Nacional, que imita uma árvore. | ângulos: atributo, conexao, identidade, nome
+- `suicune` | Suicune | Pokémon do tipo Água, número 245 da Pokédex Nacional. | ângulos: conexao, identidade, lugar
+- `sunflora` | Sunflora | Pokémon do tipo Planta, número 192 da Pokédex Nacional. | ângulos: conexao, identidade
+- `sunkern` | Sunkern | Pokémon do tipo Planta, número 191 da Pokédex Nacional. | ângulos: conexao, identidade
+- `super_mario_bros` | Super Mario Bros. | Jogo de plataforma da Nintendo lançado em 1985 para o NES, o Nintendinho. | ângulos: autoria, tempo
+- `supercell` | Supercell | Estúdio de jogos para celular com sede em Helsinque, criador de Clash of Clans. | ângulos: conexao
+- `superpower` | Superpower | Golpe de pokémon do tipo Lutador, da 3ª geração. | ângulos: identidade
+- `surf` | Surf | Golpe de pokémon do tipo Água, da 1ª geração. | ângulos: identidade
+- `surskit` | Surskit | Pokémon dos tipos Inseto e Água, número 283 da Pokédex Nacional. | ângulos: identidade
+- `swablu` | Swablu | Pokémon passarinho de asas de algodão do tipo Normal/Voador, número 333 da Pokédex Nacional, da terceira geração. | ângulos: identidade
+- `swadloon` | Swadloon | Pokémon crisálida dos tipos Inseto e Planta da quinta geração, número 541 da Pokédex Nacional. | ângulos: identidade
+- `swalot` | Swalot | Pokémon do tipo Venenoso, número 317 da Pokédex Nacional. | ângulos: conexao, identidade
+- `swampert` | Swampert | Pokémon inicial final dos tipos Água e Terra da região de Hoenn, evolução de Marshtomp, número 260 da Pokédex Nacional. | ângulos: conexao, identidade
+- `swanna` | Swanna | Pokémon dos tipos Água e Voador, número 581 da Pokédex Nacional. | ângulos: conexao, identidade, lugar
+- `swellow` | Swellow | Pokémon dos tipos Normal e Voador, número 277 da Pokédex Nacional. | ângulos: conexao, identidade
+- `swift` | Swift | Golpe de pokémon do tipo Normal, da 1ª geração. | ângulos: identidade
+- `swinub` | Swinub | Pokémon dos tipos Gelo e Terrestre, número 220 da Pokédex Nacional. | ângulos: conexao, identidade
+- `swirlix` | Swirlix | Pokémon do tipo Fada, número 684 da Pokédex Nacional. | ângulos: identidade, lugar
+- `swoobat` | Swoobat | Pokémon dos tipos Psíquico e Voador, número 528 da Pokédex Nacional. | ângulos: identidade
+- `sylveon` | Sylveon | Pokémon do tipo Fada, número 700 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `tadbulb` | Tadbulb | Pokémon do tipo Elétrico, número 938 da Pokédex Nacional. | ângulos: conexao
+- `tag_team_card_game` | TAG TEAM (card game) | Tipo de carta da era Sun e Moon do card game Pokémon que reúne dois ou mais pokémon numa única carta GX. | ângulos: identidade
+- `taillow` | Taillow | Pokémon dos tipos Normal e Voador, número 276 da Pokédex Nacional. | ângulos: conexao, identidade
+- `tails` | Tails | Raposa de duas caudas, parceira de Sonic nos jogos da Sega. | ângulos: nome
+- `take_down` | Take Down | Golpe de pokémon do tipo Normal, da 1ª geração. | ângulos: identidade
+- `talonflame` | Talonflame | Pokémon dos tipos Fogo e Voador, número 663 da Pokédex Nacional. | ângulos: atributo, identidade
+- `tamagotchi` | Tamagotchi | Bichinho virtual eletrônico em forma de ovo, criado pela empresa japonesa Bandai. | ângulos: nome
+- `tandemaus` | Tandemaus | Pokémon do tipo Normal, número 924 da Pokédex Nacional. | ângulos: atributo
+- `tangela` | Tangela | Pokémon do tipo Planta, número 114 da Pokédex Nacional. | ângulos: conexao, identidade, lugar
+- `tangrowth` | Tangrowth | Pokémon do tipo Planta, número 465 da Pokédex Nacional. | ângulos: conexao, identidade
+- `tapu_bulu` | Tapu Bulu | Pokémon dos tipos Planta e Fada, número 787 da Pokédex Nacional. | ângulos: identidade
+- `tapu_fini` | Tapu Fini | Pokémon dos tipos Água e Fada, número 788 da Pokédex Nacional. | ângulos: identidade, lugar
+- `tapu_koko` | Tapu Koko | Pokémon dos tipos Elétrico e Fada, número 785 da Pokédex Nacional. | ângulos: autoria, identidade
+- `tapu_lele` | Tapu Lele | Pokémon dos tipos Psíquico e Fada, número 786 da Pokédex Nacional. | ângulos: identidade
+- `tarountula` | Tarountula | Pokémon aranha de tipo inseto da nona geração, número 917 da Pokédex Nacional. | ângulos: identidade
+- `tate_e_liza` | Tate e Liza | Gêmeos que lideram juntos o ginásio de tipo Psíquico de Mossdeep, em Hoenn, nos jogos Pokémon Ruby e Sapphire. | ângulos: composicao
+- `tatsugiri` | Tatsugiri | Pokémon dos tipos Dragão e Água, número 978 da Pokédex Nacional. | ângulos: atributo, identidade
+- `tauros` | Tauros | Pokémon touro do tipo Normal da primeira geração, número 128 da Pokédex Nacional. | ângulos: composicao, identidade, numero
+- `tazos_de_pokemon` | Tazos de Pokémon | Discos colecionáveis com pokémon distribuídos em pacotes de salgadinho, que viraram febre entre as crianças brasileiras no começo dos anos dois mil. | ângulos: autoria
+- `team_rocket_colecao` | Team Rocket (coleção) | Coleção do card game Pokémon lançada em inglês em 2000, que estreou as cartas de pokémon malvados da Equipe Rocket. | ângulos: atributo
+- `teddiursa` | Teddiursa | Pokémon do tipo Normal, número 216 da Pokédex Nacional. | ângulos: causa, identidade
+- `tentacool` | Tentacool | Pokémon do tipo Água/Veneno da primeira geração, número 72 da Pokédex Nacional. | ângulos: identidade
+- `tentacruel` | Tentacruel | Pokémon dos tipos Água e Venenoso, número 73 da Pokédex Nacional. | ângulos: conexao, identidade
+- `tepig` | Tepig | Pokémon do tipo Fogo, número 498 da Pokédex Nacional. | ângulos: atributo
+- `tepig_de_ash` | Tepig de Ash | Tepig de Ash Ketchum no anime Pokémon, encontrado em Unova, que evolui para Pignite. | ângulos: causa
+- `terapagos` | Terapagos | Pokémon do tipo Normal, número 1024 da Pokédex Nacional. | ângulos: atributo
+- `terastal` | Terastal | Fenômeno dos jogos Pokémon Scarlet e Violet que faz o pokémon brilhar como cristal durante a batalha. | ângulos: atributo, conexao
+- `teratipo` | Teratipo | Tipo que um pokémon assume ao terastalizar em Pokémon Scarlet e Violet, que pode ser diferente dos seus tipos normais. | ângulos: atributo
+- `terrakion` | Terrakion | Pokémon dos tipos Pedra e Lutador, número 639 da Pokédex Nacional. | ângulos: identidade, lugar
+- `tetris` | Tetris | Jogo de quebra-cabeça com peças que caem, criado pelo russo Alexey Pajitnov em 1984. | ângulos: lugar, numero
+- `the_battle_of_the_badge_episodio` | The Battle of the Badge (episódio) | Episódio da primeira temporada do anime Pokémon em que Ash conquista a Insígnia Terra no ginásio de Viridian. | ângulos: composicao
+- `the_electric_tale_of_pikachu` | The Electric Tale of Pikachu | Mangá que reconta de forma livre o início do anime Pokémon, com Ash, Misty e Brock, publicado no fim dos anos noventa. | ângulos: autoria
+- `the_isle_of_armor` | The Isle of Armor | Primeira parte da expansão de Pokémon Sword e Shield, ambientada numa ilha de Galar onde o jogador treina num dojo com o lendário Kubfu. | ângulos: tempo
+- `the_legend_of_thunder` | The Legend of Thunder! | Especial de TV do anime Pokémon, passado em Johto, protagonizado pelos treinadores Jimmy e Marina em vez de Ash. | ângulos: composicao
+- `the_legend_of_zelda_jogo_de_1986` | The Legend of Zelda (jogo de 1986) | Primeiro jogo da série Zelda, da Nintendo, lançado em 1986, estrelado pelo herói Link. | ângulos: autoria, tempo
+- `the_pokemon_company` | The Pokémon Company | Empresa japonesa criada em 1998 para administrar a marca Pokémon, com participação da Nintendo, da Game Freak e da Creatures. | ângulos: composicao, nome
+- `the_sims` | The Sims | Jogo de simulação de vida lançado em 2000 pela Maxis, em que o jogador controla pessoas virtuais. | ângulos: autoria
+- `the_teal_mask` | The Teal Mask | Primeira parte da expansão de Pokémon Scarlet e Violet, em que o jogador viaja à terra de Kitakami e conhece Ogerpon. | ângulos: tempo
+- `thief` | Thief | Golpe de pokémon do tipo Sombrio, da 2ª geração. | ângulos: identidade
+- `thievul` | Thievul | Pokémon do tipo Sombrio, número 828 da Pokédex Nacional. | ângulos: identidade
+- `throat_chop` | Throat Chop | Golpe de pokémon do tipo Sombrio, da 7ª geração. | ângulos: identidade
+- `throh` | Throh | Pokémon do tipo Lutador, número 538 da Pokédex Nacional. | ângulos: identidade
+- `thunder` | Thunder | Golpe de pokémon do tipo Elétrico, da 1ª geração. | ângulos: identidade
+- `thunder_punch` | Thunder Punch | Golpe de pokémon do tipo Elétrico, da 1ª geração. | ângulos: identidade
+- `thunderbolt` | Thunderbolt | Golpe de pokémon do tipo Elétrico, da 1ª geração. | ângulos: identidade
+- `thundurus` | Thundurus | Pokémon dos tipos Elétrico e Voador, número 642 da Pokédex Nacional. | ângulos: conexao, identidade
+- `thwackey` | Thwackey | Pokémon de planta da oitava geração, número 811 da Pokédex Nacional, evolução de Grookey. | ângulos: identidade
+- `timburr` | Timburr | Pokémon do tipo Lutador, número 532 da Pokédex Nacional. | ângulos: identidade
+- `ting_lu` | Ting-Lu | Pokémon dos tipos Sombrio e Terrestre, número 1003 da Pokédex Nacional. | ângulos: identidade, lugar
+- `tinkatink` | Tinkatink | Pokémon de fada e aço da nona geração que carrega um martelo, número 957 da Pokédex Nacional. | ângulos: conexao
+- `tinkaton` | Tinkaton | Pokémon dos tipos Fada e Aço, número 959 da Pokédex Nacional. | ângulos: atributo, conexao
+- `tinkatuff` | Tinkatuff | Pokémon dos tipos Fada e Aço, número 958 da Pokédex Nacional. | ângulos: lugar
+- `tipo_aco` | Tipo Aço | Tipo elemental de pokémon e golpes, resistente a muitos outros tipos, introduzido na segunda geração. | ângulos: tempo
+- `tipo_estelar` | Tipo Estelar | Teratipo especial introduzido na expansão The Indigo Disk, de Pokémon Scarlet e Violet, ligado ao lendário Terapagos. | ângulos: identidade
+- `tipo_fada` | Tipo Fada | Tipo elemental de pokémon e golpes introduzido na sexta geração, em Pokémon X e Y. | ângulos: causa
+- `tipo_fada_card_game` | Tipo Fada (card game) | Tipo de pokémon e de energia do card game Pokémon, criado na era X e Y e abolido na era Sword e Shield. | ângulos: causa
+- `tipo_sombrio` | Tipo Sombrio | Tipo elemental de pokémon e golpes introduzido na segunda geração, em Pokémon Gold e Silver. | ângulos: causa
+- `tipos_de_pokemon` | Tipos de pokémon | Sistema de tipos elementais, como Fogo, Água e Planta, que define forças e fraquezas dos pokémon e dos golpes nas batalhas. | ângulos: numero
+- `tirtouga` | Tirtouga | Pokémon dos tipos Água e Pedra, número 564 da Pokédex Nacional. | ângulos: lugar
+- `toad` | Toad | Habitante do Reino dos Cogumelos de cabeça de cogumelo branca com manchas vermelhas, atendente da Princesa Peach. | ângulos: conexao
+- `tobias` | Tobias | Treinador misterioso que elimina Ash da Liga de Sinnoh no anime Pokémon, dono de pokémon lendários e míticos. | ângulos: composicao
+- `todd_snap` | Todd Snap | Fotógrafo de pokémon que aparece no anime Pokémon ao lado de Ash e é o protagonista do jogo Pokémon Snap. | ângulos: conexao
+- `toedscool` | Toedscool | Pokémon dos tipos Terrestre e Planta, número 948 da Pokédex Nacional. | ângulos: atributo
+- `toedscruel` | Toedscruel | Pokémon dos tipos Terrestre e Planta, número 949 da Pokédex Nacional. | ângulos: conexao
+- `togedemaru` | Togedemaru | Pokémon dos tipos Elétrico e Aço, número 777 da Pokédex Nacional. | ângulos: identidade, lugar
+- `togedemaru_de_sophocles` | Togedemaru de Sophocles | Togedemaru parceiro de Sophocles na série Sol e Lua do anime Pokémon. | ângulos: identidade
+- `togekiss` | Togekiss | Pokémon dos tipos Fada e Voador, número 468 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `togepi` | Togepi | Pokémon do tipo Fada, número 175 da Pokédex Nacional. | ângulos: conexao
+- `togepi_de_misty` | Togepi de Misty | Togepi que nasce de um ovo encontrado por Ash no anime Pokémon e passa a viver no colo de Misty. | ângulos: causa
+- `togetic` | Togetic | Pokémon do tipo Fada/Voador da segunda geração, evolução de Togepi, número 176 da Pokédex Nacional. | ângulos: identidade
+- `torchic` | Torchic | Pokémon do tipo Fogo, número 255 da Pokédex Nacional. | ângulos: conexao
+- `torkoal` | Torkoal | Pokémon do tipo Fogo, número 324 da Pokédex Nacional. | ângulos: atributo, identidade
+- `tornadus` | Tornadus | Pokémon do tipo Voador, número 641 da Pokédex Nacional. | ângulos: identidade
+- `torracat` | Torracat | Pokémon do tipo Fogo, número 726 da Pokédex Nacional. | ângulos: conexao, identidade
+- `torre_de_radio_de_goldenrod` | Torre de Rádio de Goldenrod | Prédio da emissora de rádio de Goldenrod, em Johto, invadido pela Equipe Rocket em Pokémon Gold e Silver. | ângulos: causa
+- `torre_pokemon` | Torre Pokémon | Torre que serve de cemitério de pokémon, assombrada por fantasmas, nos jogos Pokémon Red e Blue. | ângulos: lugar
+- `torre_prisma` | Torre Prisma | Torre no centro da cidade de Lumiose, em Pokémon X e Y, que abriga o ginásio de tipo Elétrico de Clemont. | ângulos: conexao
+- `torre_queimada` | Torre Queimada | Torre em ruínas da cidade de Ecruteak, em Johto, nos jogos Pokémon Gold e Silver, antiga Torre de Bronze destruída por um incêndio. | ângulos: causa
+- `torre_sprout` | Torre Sprout | Torre de madeira da cidade de Violet, em Johto, onde monges treinam, nos jogos Pokémon Gold e Silver. | ângulos: nome
+- `torterra` | Torterra | Pokémon dos tipos Planta e Terrestre, número 389 da Pokédex Nacional. | ângulos: conexao, identidade, lugar
+- `totodile` | Totodile | Pokémon do tipo Água, número 158 da Pokédex Nacional. | ângulos: identidade
+- `toucannon` | Toucannon | Pokémon tucano de normal e voador da sétima geração, evolução de Trumbeak, número 733 da Pokédex Nacional. | ângulos: conexao, identidade
+- `tower_of_mastery` | Tower of Mastery | Torre da cidade de Shalour, em Kalos, nos jogos Pokémon X e Y, ligada aos segredos da megaevolução. | ângulos: lugar
+- `toxapex` | Toxapex | Pokémon dos tipos Venenoso e Água, número 748 da Pokédex Nacional. | ângulos: identidade, lugar
+- `toxel` | Toxel | Pokémon bebê de tipo Elétrico/Veneno, número 848 da Pokédex Nacional, da oitava geração. | ângulos: causa, conexao
+- `toxicroak` | Toxicroak | Pokémon dos tipos Venenoso e Lutador, número 454 da Pokédex Nacional. | ângulos: conexao, identidade, lugar
+- `toxtricity` | Toxtricity | Pokémon dos tipos Elétrico e Venenoso da oitava geração, número 849 da Pokédex Nacional. | ângulos: atributo, identidade
+- `tracey_sketchit` | Tracey Sketchit | Observador pokémon que viaja com Ash nas Ilhas Laranja e depois vira assistente do Professor Carvalho no anime Pokémon. | ângulos: nome
+- `trailblaze` | Trailblaze | Golpe de pokémon do tipo Planta, da 9ª geração. | ângulos: identidade
+- `tranquill` | Tranquill | Pokémon dos tipos Normal e Voador, número 520 da Pokédex Nacional. | ângulos: conexao
+- `trapinch` | Trapinch | Pokémon do tipo Terrestre, número 328 da Pokédex Nacional. | ângulos: atributo, conexao
+- `tree_of_beginning` | Tree of Beginning | Árvore gigantesca do filme Lucario e o Mistério de Mew, onde vive o mítico Mew, protegida por um sistema de defesa próprio. | ângulos: identidade
+- `treecko` | Treecko | Pokémon inicial do tipo Planta da terceira geração, número 252 da Pokédex Nacional. | ângulos: identidade
+- `treecko_de_ash` | Treecko de Ash | Treecko de Ash Ketchum no anime Pokémon, inicial de Hoenn que evolui para Grovyle e depois para Sceptile. | ângulos: identidade, tempo
+- `tres_leais` | Três Leais | Trio de pokémon venenosos da expansão The Teal Mask, de Scarlet e Violet, formado por Okidogi, Munkidori e Fezandipiti. | ângulos: conexao
+- `trevenant` | Trevenant | Pokémon dos tipos Fantasma e Planta, número 709 da Pokédex Nacional. | ângulos: conexao, identidade, lugar
+- `trevor_philips` | Trevor Philips | Um dos três protagonistas de Grand Theft Auto V. | ângulos: autoria
+- `triforca` | Triforça | Relíquia sagrada formada por três triângulos dourados na série The Legend of Zelda. | ângulos: composicao
+- `trio_da_criacao` | Trio da criação | Trio de pokémon lendários de Sinnoh formado por Dialga, Palkia e Giratina, ligados ao tempo, ao espaço e ao mundo paralelo. | ângulos: conexao
+- `trio_do_clima_de_hoenn` | Trio do clima de Hoenn | Trio de lendários da terceira geração formado por Groudon, Kyogre e Rayquaza, senhores da terra, do mar e do céu. | ângulos: conexao
+- `trio_dos_lagos` | Trio dos lagos | Trio de pokémon lendários de Sinnoh, formado por Uxie, Mesprit e Azelf, que habitam três grandes lagos. | ângulos: composicao
+- `tropius` | Tropius | Pokémon dos tipos Planta e Voador, número 357 da Pokédex Nacional. | ângulos: identidade
+- `trubbish` | Trubbish | Pokémon venenoso em forma de saco de lixo, número 568 da Pokédex Nacional. | ângulos: causa, identidade
+- `trumbeak` | Trumbeak | Pokémon dos tipos Normal e Voador, número 732 da Pokédex Nacional. | ângulos: atributo
+- `tsareena` | Tsareena | Pokémon do tipo Planta, número 763 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `turffield` | Turffield | Vilarejo rural da região de Galar, nos jogos Pokémon Sword e Shield, onde fica o ginásio de Planta de Milo e um grande desenho antigo num morro. | ângulos: lugar
+- `turtonator` | Turtonator | Pokémon dos tipos Fogo e Dragão, número 776 da Pokédex Nacional. | ângulos: identidade
+- `turtwig` | Turtwig | Pokémon do tipo Planta, número 387 da Pokédex Nacional. | ângulos: identidade
+- `tympole` | Tympole | Pokémon do tipo Água, número 535 da Pokédex Nacional. | ângulos: identidade
+- `tynamo` | Tynamo | Pokémon do tipo Elétrico, número 602 da Pokédex Nacional. | ângulos: atributo
+- `type_null` | Type: Null | Pokémon do tipo Normal, número 772 da Pokédex Nacional. | ângulos: atributo, causa, conexao, identidade
+- `typhlosion` | Typhlosion | Pokémon do tipo Fogo da segunda geração, evolução final de Cyndaquil, número 157 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `tyranitar` | Tyranitar | Pokémon dos tipos Pedra e Sombrio, número 248 da Pokédex Nacional. | ângulos: conexao, identidade
+- `tyrantrum` | Tyrantrum | Pokémon dos tipos Pedra e Dragão, número 697 da Pokédex Nacional. | ângulos: identidade, lugar
+- `tyrogue` | Tyrogue | Pokémon do tipo Lutador, número 236 da Pokédex Nacional. | ângulos: identidade, lugar
+- `tyrunt` | Tyrunt | Pokémon dos tipos Pedra e Dragão, número 696 da Pokédex Nacional. | ângulos: conexao, identidade
+- `tyson` | Tyson | Treinador dono de um Meowth de botas e chapéu, que elimina Ash e vence a Liga de Hoenn no anime Pokémon. | ângulos: conexao
+- `u_turn` | U-turn | Golpe de pokémon do tipo Inseto, da 4ª geração. | ângulos: identidade
+- `ubisoft` | Ubisoft | Empresa francesa de jogos eletrônicos fundada em 1986 pelos irmãos Guillemot, criadora de Assassin's Creed e Rayman. | ângulos: lugar
+- `ultracriaturas` | Ultracriaturas | Pokémon misteriosos de Pokémon Sun e Moon, como Nihilego e Buzzwole, vindos de outra dimensão por fendas chamadas Ultra Wormholes. | ângulos: lugar
+- `umbreon` | Umbreon | Pokémon do tipo Sombrio, número 197 da Pokédex Nacional. | ângulos: atributo, conexao, identidade, nome
+- `underground_sinnoh` | Underground (Sinnoh) | Enorme rede de túneis sob a região de Sinnoh, em Pokémon Diamond, Pearl e Platinum, onde o jogador cava fósseis e monta sua base secreta. | ângulos: identidade
+- `unfezant` | Unfezant | Pokémon dos tipos Normal e Voador, número 521 da Pokédex Nacional. | ângulos: identidade, lugar
+- `unova` | Unova | Região fictícia dos jogos Pokémon Black e White, da quinta geração. | ângulos: comparacao, lugar
+- `unown` | Unown | Pokémon psíquico da segunda geração em forma de letra, com uma forma para cada símbolo do alfabeto. | ângulos: composicao, conexao, identidade, lugar
+- `ursaluna` | Ursaluna | Pokémon dos tipos Terrestre e Normal, número 901 da Pokédex Nacional. | ângulos: conexao, identidade
+- `ursaluna_bloodmoon` | Ursaluna Bloodmoon | Forma especial de Ursaluna, dos tipos Terrestre e Normal, de pelagem escura e olho vermelho, encontrada em Kitakami em Pokémon Scarlet e Violet. | ângulos: conexao
+- `ursaring` | Ursaring | Pokémon do tipo Normal, número 217 da Pokédex Nacional. | ângulos: causa, conexao, identidade
+- `urshifu` | Urshifu | Pokémon lendário do tipo Lutador da oitava geração, evolução de Kubfu, introduzido na expansão The Isle of Armor. | ângulos: atributo, causa, identidade
+- `uxie` | Uxie | Pokémon lendário do tipo Psíquico da quarta geração, o ser do conhecimento, que vive no Lago Acuity, em Sinnoh. | ângulos: atributo, causa, identidade, lugar
+- `valerie` | Valerie | Líder do ginásio de tipo Fada de Laverre, em Kalos, nos jogos Pokémon X e Y. | ângulos: identidade
+- `vanillish` | Vanillish | Pokémon do tipo Gelo, número 583 da Pokédex Nacional. | ângulos: conexao
+- `vanillite` | Vanillite | Pokémon do tipo Gelo, número 582 da Pokédex Nacional. | ângulos: atributo, identidade
+- `vanilluxe` | Vanilluxe | Pokémon do tipo Gelo, número 584 da Pokédex Nacional. | ângulos: identidade
+- `vaporeon` | Vaporeon | Evolução do Eevee do tipo Água, de primeira geração, número 134 da Pokédex Nacional. | ângulos: conexao, identidade
+- `vara_de_pesca_pokemon` | Vara de pesca (Pokémon) | Item dos jogos Pokémon usado para fisgar pokémon aquáticos, com modelos de qualidades diferentes. | ângulos: composicao
+- `varoom` | Varoom | Pokémon dos tipos Aço e Venenoso, número 965 da Pokédex Nacional. | ângulos: conexao, identidade
+- `vault_boy` | Vault Boy | Mascote da corporação fictícia Vault-Tec e símbolo da série de jogos Fallout. | ângulos: conexao
+- `veilstone` | Veilstone | Cidade da região de Sinnoh, nos jogos Pokémon Diamond e Pearl, escavada na rocha, com loja de departamentos e o quartel da Equipe Galáctica. | ângulos: atributo
+- `veluza` | Veluza | Pokémon dos tipos Água e Psíquico, número 976 da Pokédex Nacional. | ângulos: lugar
+- `vendedor_de_magikarp` | Vendedor de Magikarp | Personagem dos jogos Pokémon Red, Blue e Yellow que, num Centro Pokémon perto do Mt. Moon, vende um Magikarp ao jogador como se fosse um grande negócio. | ângulos: numero
+- `venipede` | Venipede | Pokémon dos tipos Inseto e Venenoso, número 543 da Pokédex Nacional. | ângulos: identidade
+- `venomoth` | Venomoth | Pokémon dos tipos Inseto e Venenoso, número 49 da Pokédex Nacional. | ângulos: conexao, identidade
+- `venonat` | Venonat | Pokémon dos tipos Inseto e Venenoso, número 48 da Pokédex Nacional. | ângulos: atributo, identidade
+- `venusaur` | Venusaur | Pokémon dos tipos Planta e Veneno, número 3 da Pokédex Nacional. | ângulos: identidade
+- `vermilion` | Vermilion | Cidade portuária da região de Kanto, nos jogos Pokémon Red e Blue, onde fica o ginásio elétrico do Tenente Surge. | ângulos: conexao
+- `versao_brasileira_do_anime_pokemon` | Versão brasileira do anime Pokémon | Exibição dublada em português do anime Pokémon no Brasil, que estreou na TV aberta no fim dos anos noventa. | ângulos: atributo, lugar, tempo
+- `vespiquen` | Vespiquen | Pokémon dos tipos Inseto e Voador, número 416 da Pokédex Nacional. | ângulos: atributo, conexao, identidade
+- `vibrava` | Vibrava | Pokémon dos tipos Terrestre e Dragão, número 329 da Pokédex Nacional. | ângulos: identidade
+- `victini` | Victini | Pokémon dos tipos Psíquico e Fogo, número 494 da Pokédex Nacional. | ângulos: atributo, identidade
+- `victini_e_reshiram_victini_e_zekrom` | Victini e Reshiram / Victini e Zekrom | Décimo quarto filme da franquia Pokémon, de 2011, lançado em duas versões estreladas pelo mítico Victini. | ângulos: composicao
+- `victreebel` | Victreebel | Pokémon dos tipos Planta e Venenoso, número 71 da Pokédex Nacional. | ângulos: conexao, identidade
+- `victreebel_de_james` | Victreebel de James | Pokémon planta do tipo Planta e Veneno que pertencia a James, da Equipe Rocket, no anime Pokémon. | ângulos: atributo
+- `vigoroth` | Vigoroth | Pokémon do tipo Normal, número 288 da Pokédex Nacional. | ângulos: atributo
+- `vikavolt` | Vikavolt | Pokémon dos tipos Inseto e Elétrico, número 738 da Pokédex Nacional. | ângulos: conexao, identidade
+- `vileplume` | Vileplume | Pokémon dos tipos Planta e Venenoso, número 45 da Pokédex Nacional. | ângulos: identidade, lugar, nome
+- `viola_2` | Viola | Fotógrafa e líder do ginásio de tipo Inseto de Santalune, o primeiro de Kalos, nos jogos Pokémon X e Y. | ângulos: conexao
+- `virizion` | Virizion | Pokémon dos tipos Planta e Lutador, número 640 da Pokédex Nacional. | ângulos: identidade, lugar
+- `vivillon` | Vivillon | Pokémon dos tipos Inseto e Voador, número 666 da Pokédex Nacional. | ângulos: atributo, causa, conexao, identidade
+- `volbeat` | Volbeat | Pokémon do tipo Inseto da terceira geração, número 313 da Pokédex Nacional, um vagalume que se comunica com a luz do abdome. | ângulos: conexao, identidade
+- `volcanion` | Volcanion | Pokémon dos tipos Fogo e Água, número 721 da Pokédex Nacional. | ângulos: atributo, identidade
+- `volcanion_e_a_maravilha_mecanica` | Volcanion e a Maravilha Mecânica | Décimo nono filme da franquia Pokémon, de 2016, em que Ash fica preso ao mítico Volcanion e enfrenta o vilão Alva, que cobiça Magearna. | ângulos: lugar
+- `volcarona` | Volcarona | Pokémon dos tipos Inseto e Fogo, número 637 da Pokédex Nacional. | ângulos: identidade, lugar
+- `volkner` | Volkner | Líder do ginásio de tipo Elétrico de Sunyshore, o último de Sinnoh, nos jogos Pokémon Diamond, Pearl e Platinum. | ângulos: causa
+- `volo` | Volo | Mercador simpático de Pokémon Legends: Arceus, membro da Guilda Ginkgo, que se revela antagonista no fim do jogo. | ângulos: conexao
+- `volt_tackle` | Volt Tackle | Golpe elétrico exclusivo da linha evolutiva de Pikachu, introduzido na terceira geração e famoso no anime com o Pikachu de Ash. | ângulos: atributo, causa
+- `voltorb` | Voltorb | Pokémon do tipo Elétrico, número 100 da Pokédex Nacional. | ângulos: conexao, identidade
+- `voltorb_flip` | Voltorb Flip | Minijogo de cartas do cassino de Goldenrod e Celadon em Pokémon HeartGold e SoulSilver, que substituiu as máquinas caça-níqueis fora do Japão. | ângulos: identidade
+- `vullaby` | Vullaby | Pokémon dos tipos Sombrio e Voador, número 629 da Pokédex Nacional. | ângulos: atributo
+- `vulpix` | Vulpix | Pokémon raposa de fogo da primeira geração, número 37 da Pokédex Nacional. | ângulos: atributo, identidade, nome
+- `wailmer` | Wailmer | Pokémon do tipo Água, número 320 da Pokédex Nacional. | ângulos: conexao
+- `wailord` | Wailord | Pokémon baleia do tipo Água da terceira geração, evolução de Wailmer, número 321 da Pokédex Nacional. | ângulos: atributo, identidade
+- `walking_wake` | Walking Wake | Pokémon dos tipos Água e Dragão, número 1009 da Pokédex Nacional. | ângulos: atributo, conexao
+- `wallace` | Wallace | Líder do ginásio de tipo Água de Sootopolis em Ruby e Sapphire e campeão da Liga de Hoenn em Pokémon Emerald. | ângulos: composicao
+- `wally` | Wally | Menino de Hoenn, rival do jogador em Pokémon Ruby, Sapphire e Emerald, que captura um Ralts com a ajuda do protagonista. | ângulos: causa
+- `walrein` | Walrein | Pokémon dos tipos Gelo e Água, número 365 da Pokédex Nacional. | ângulos: conexao, identidade
+- `waluigi` | Waluigi | Rival de Luigi e parceiro de Wario na franquia Mario, de roupa roxa e chapéu com a letra L invertida. | ângulos: autoria
+- `wario` | Wario | Personagem da Nintendo, rival ganancioso de Mario, de roupa amarela e roxa. | ângulos: nome
+- `wartortle` | Wartortle | Pokémon tartaruga de água da primeira geração, evolução de Squirtle, número 8 da Pokédex Nacional. | ângulos: identidade
+- `watchog` | Watchog | Pokémon do tipo Normal, número 505 da Pokédex Nacional. | ângulos: conexao, identidade
+- `water_gun` | Water Gun | Golpe de pokémon do tipo Água, da 1ª geração. | ângulos: identidade
+- `water_pulse` | Water Pulse | Golpe de pokémon do tipo Água, da 3ª geração. | ângulos: identidade
+- `waterfall` | Waterfall | Golpe de pokémon do tipo Água, da 1ª geração. | ângulos: identidade
+- `wattrel` | Wattrel | Pokémon dos tipos Elétrico e Voador, número 940 da Pokédex Nacional. | ângulos: atributo
+- `wattson` | Wattson | Velho líder do ginásio de tipo Elétrico de Mauville, em Hoenn, nos jogos Pokémon Ruby, Sapphire e Emerald, famoso pela risada. | ângulos: identidade
+- `weavile` | Weavile | Pokémon dos tipos Sombrio e Gelo, número 461 da Pokédex Nacional. | ângulos: identidade, lugar
+- `weedle` | Weedle | Pokémon dos tipos Inseto e Venenoso, número 13 da Pokédex Nacional. | ângulos: atributo, identidade
+- `weepinbell` | Weepinbell | Pokémon dos tipos Planta e Venenoso, número 70 da Pokédex Nacional. | ângulos: identidade, lugar
+- `weezing` | Weezing | Pokémon de tipo Veneno, número 110 da Pokédex Nacional, evolução de Koffing, formado por duas esferas de gás. | ângulos: atributo, causa, identidade
+- `whimsicott` | Whimsicott | Pokémon dos tipos Planta e Fada, número 547 da Pokédex Nacional. | ângulos: atributo, identidade
+- `whirlipede` | Whirlipede | Pokémon do tipo Inseto e Venenoso, número 544 da Pokédex Nacional, forma intermediária entre Venipede e Scolipede. | ângulos: identidade
+- `whirlpool` | Whirlpool | Golpe de pokémon do tipo Água, da 2ª geração. | ângulos: identidade
+- `whiscash` | Whiscash | Pokémon dos tipos Água e Terrestre, número 340 da Pokédex Nacional. | ângulos: causa, conexao, identidade
+- `whismur` | Whismur | Pokémon do tipo Normal, número 293 da Pokédex Nacional. | ângulos: atributo
+- `white_pokemon_adventures` | White (Pokémon Adventures) | Protagonista do arco de Black e White do mangá Pokémon Adventures, ao lado de Black. | ângulos: atributo
+- `whitney` | Whitney | Líder de ginásio do tipo Normal da cidade de Goldenrod, nos jogos Pokémon Gold e Silver. | ângulos: composicao
+- `wigglytuff` | Wigglytuff | Pokémon dos tipos Normal e Fada, número 40 da Pokédex Nacional. | ângulos: identidade, lugar
+- `wiglett` | Wiglett | Pokémon do tipo Água da nona geração, uma enguia-de-jardim de Paldea, parecida com Diglett, que evolui para Wugtrio. | ângulos: identidade
+- `will` | Will | Treinador mascarado especialista em pokémon psíquicos, primeiro membro da Elite dos Quatro de Johto em Pokémon Gold e Silver. | ângulos: identidade
+- `wimpod` | Wimpod | Pokémon do tipo Inseto/Água da sétima geração, que evolui para Golisopod, número 767 da Pokédex Nacional. | ângulos: conexao
+- `wingull` | Wingull | Pokémon dos tipos Água e Voador, número 278 da Pokédex Nacional. | ângulos: identidade
+- `wishiwashi` | Wishiwashi | Pokémon do tipo Água, número 746 da Pokédex Nacional. | ângulos: identidade
+- `wo_chien` | Wo-Chien | Pokémon dos tipos Sombrio e Planta, número 1001 da Pokédex Nacional. | ângulos: identidade
+- `wobbuffet` | Wobbuffet | Pokémon do tipo Psíquico, número 202 da Pokédex Nacional. | ângulos: conexao, identidade, lugar
+- `wonder_boy_in_monster_land` | Wonder Boy in Monster Land | Jogo de ação e aventura da Sega e Westone, adaptado no Brasil pela Tectoy como Mônica no Castelo do Dragão. | ângulos: composicao
+- `wonder_pick` | Wonder Pick | Recurso do Pokémon Trading Card Game Pocket que permite escolher às cegas uma carta de um pacote aberto por outro jogador. | ângulos: identidade
+- `wonder_trade` | Wonder Trade | Recurso online criado em Pokémon X e Y que troca, às cegas, um pokémon do jogador com o de um desconhecido. | ângulos: nome
+- `woobat` | Woobat | Pokémon dos tipos Psíquico e Voador, número 527 da Pokédex Nacional. | ângulos: atributo, conexao
+- `wooloo` | Wooloo | Pokémon ovelha do tipo Normal da oitava geração, número 831 da Pokédex Nacional. | ângulos: atributo, identidade
+- `wooper` | Wooper | Pokémon anfíbio do tipo Água e Terra, número 194 da Pokédex Nacional, da segunda geração. | ângulos: identidade
+- `wormadam` | Wormadam | Pokémon dos tipos Inseto e Planta, número 413 da Pokédex Nacional. | ângulos: identidade
+- `wugtrio` | Wugtrio | Pokémon do tipo Água, número 961 da Pokédex Nacional. | ângulos: lugar
+- `wurmple` | Wurmple | Pokémon do tipo Inseto, número 265 da Pokédex Nacional. | ângulos: atributo
+- `wynaut` | Wynaut | Pokémon do tipo Psíquico, número 360 da Pokédex Nacional. | ângulos: conexao, identidade
+- `wyndon` | Wyndon | Metrópole do sul da região de Galar, nos jogos Pokémon Sword e Shield, onde acontece a final do torneio da Liga. | ângulos: lugar
+- `wyrdeer` | Wyrdeer | Pokémon dos tipos Normal e Psíquico, número 899 da Pokédex Nacional. | ângulos: conexao, identidade
+- `xatu` | Xatu | Pokémon dos tipos Psíquico e Voador, número 178 da Pokédex Nacional. | ângulos: conexao, identidade
+- `xbox` | Xbox | Primeiro console de videogame da Microsoft, lançado no início dos anos dois mil. | ângulos: tempo
+- `xerneas` | Xerneas | Pokémon lendário do tipo Fada da sexta geração, um cervo de chifres coloridos, mascote de Pokémon X. | ângulos: atributo, identidade, nome
+- `xurkitree` | Xurkitree | Pokémon do tipo Elétrico, número 796 da Pokédex Nacional. | ângulos: identidade
+- `yamask` | Yamask | Pokémon do tipo Fantasma da quinta geração, um espírito que carrega uma máscara, que evolui para Cofagrigus. | ângulos: composicao, lugar
+- `yamper` | Yamper | Pokémon do tipo Elétrico da oitava geração, um cãozinho corgi com cauda em forma de raio, número 835 da Pokédex Nacional. | ângulos: identidade
+- `yanma` | Yanma | Pokémon dos tipos Inseto e Voador, número 193 da Pokédex Nacional. | ângulos: identidade
+- `yanmega` | Yanmega | Pokémon dos tipos Inseto e Voador, número 469 da Pokédex Nacional. | ângulos: conexao, identidade
+- `yellow_pokemon_adventures` | Yellow (Pokémon Adventures) | Protagonista do segundo arco do mangá Pokémon Adventures, vinda da Floresta de Viridian, capaz de curar pokémon e ler seus pensamentos. | ângulos: identidade
+- `yoshi` | Yoshi | Dinossauro verde aliado de Mario, da franquia Super Mario. | ângulos: identidade
+- `yungoos` | Yungoos | Pokémon do tipo Normal, número 734 da Pokédex Nacional. | ângulos: causa, conexao, identidade
+- `yveltal` | Yveltal | Pokémon dos tipos Sombrio e Voador, número 717 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `zacian` | Zacian | Pokémon do tipo Fada, número 888 da Pokédex Nacional. | ângulos: atributo, causa, identidade, lugar
+- `zamazenta` | Zamazenta | Pokémon do tipo Lutador, número 889 da Pokédex Nacional. | ângulos: conexao, identidade
+- `zangief` | Zangief | Lutador de luta livre da série Street Fighter, da Capcom, estreante em Street Fighter II. | ângulos: lugar
+- `zangoose` | Zangoose | Pokémon do tipo Normal, número 335 da Pokédex Nacional. | ângulos: conexao, identidade, lugar
+- `zapdos` | Zapdos | Pokémon lendário ave do tipo Elétrico e Voador, de número 145 da Pokédex Nacional. | ângulos: atributo, identidade, lugar
+- `zarude` | Zarude | Pokémon dos tipos Sombrio e Planta, número 893 da Pokédex Nacional. | ângulos: identidade
+- `zebstrika` | Zebstrika | Pokémon do tipo Elétrico, número 523 da Pokédex Nacional. | ângulos: identidade
+- `zekrom` | Zekrom | Pokémon dos tipos Dragão e Elétrico, número 644 da Pokédex Nacional. | ângulos: atributo, identidade
+- `zen_headbutt` | Zen Headbutt | Golpe de pokémon do tipo Psíquico, da 4ª geração. | ângulos: identidade
+- `zeraora` | Zeraora | Pokémon do tipo Elétrico, número 807 da Pokédex Nacional. | ângulos: identidade
+- `zero_one` | Zero-One | Veículo automático em que Todd Snap percorre a Ilha Pokémon no jogo Pokémon Snap, de Nintendo 64. | ângulos: identidade
+- `zero_pokemon` | Zero (Pokémon) | Vilão do filme Giratina e o Guerreiro dos Céus, caçador que persegue Giratina. | ângulos: causa
+- `zigzagoon` | Zigzagoon | Pokémon do tipo Normal da terceira geração, número 263 da Pokédex Nacional. | ângulos: conexao, identidade
+- `zinnia` | Zinnia | Guardiã de um antigo povo de Hoenn que protagoniza o Episódio Delta de Pokémon Omega Ruby e Alpha Sapphire. | ângulos: identidade
+- `zona_safari_de_kanto` | Zona Safári de Kanto | Área de captura dos jogos Pokémon Red e Blue em que o jogador atira iscas e pedras nos pokémon em vez de batalhar. | ângulos: causa, lugar
+- `zoroark` | Zoroark | Pokémon do tipo Sombrio, número 571 da Pokédex Nacional. | ângulos: atributo, identidade
+- `zoroark_o_mestre_das_ilusoes` | Zoroark: O Mestre das Ilusões | Décimo terceiro filme da franquia Pokémon, de 2010, em que Zoroark tenta resgatar Zorua e salvar a cidade de Crown City. | ângulos: composicao, conexao
+- `zorua` | Zorua | Pokémon do tipo Sombrio, número 570 da Pokédex Nacional. | ângulos: conexao
+- `zubat` | Zubat | Pokémon morcego de veneno e voador da primeira geração, número 41 da Pokédex Nacional. | ângulos: conexao, identidade
+- `zweilous` | Zweilous | Pokémon dos tipos Sombrio e Dragão, número 634 da Pokédex Nacional. | ângulos: atributo, nome
+- `zygarde` | Zygarde | Pokémon lendário do tipo Dragão/Terra da sexta geração, número 718 da Pokédex Nacional. | ângulos: atributo, composicao, identidade, lugar
+
+# Perguntas já existentes neste subtema
+
+Não repita estes fatos, nem com outras palavras:
+
+- A vela Litwick acende sua chama e finge servir de guia para quem está perdido. Segundo a Pokédex, o que ela faz com quem a segue? → Suga a energia vital
+- Que peixe de Unova, segundo a Pokédex, abraça os pokémon feridos com as nadadeiras e cura as feridas deles com uma membrana especial? → Alomomola
+- Segundo a Pokédex, o lutador Conkeldurr, que empunha dois grandes pilares, teria ensinado aos humanos, há mais de dois mil anos, a fazer o quê? → Concreto
+- Que inseto de Unova, segundo a Pokédex, costura roupas de folhas com a seda da boca para os pokémon pequenos que encontra? → Leavanny
+- O tamanduá Heatmor transforma o ar em fogo e usa as chamas como língua. Segundo a Pokédex, que pokémon de armadura de aço ele derrete e come? → Durant
+- Segundo a Pokédex, as damas da realeza de antigamente levavam um Spritzee consigo no lugar de qual produto? → Perfume
+- O roedor Dedenne, de Kalos, suga eletricidade com a cauda e a dispara pelos bigodes. Segundo a Pokédex, de onde ele tira essa energia? → Tomadas das casas e usinas
+- Segundo velhas histórias contadas pela Pokédex, Phantump é um toco de árvore apodrecido possuído pelo espírito de quem? → Uma criança perdida na floresta
+- A abóbora fantasma Gourgeist canta com voz sinistra pelas ruas nas noites de lua nova. Segundo a Pokédex, o que acontece com quem ouve essa canção? → Fica amaldiçoado
+- Espurr parece um gatinho inofensivo, mas vive com as orelhas dobradas sobre o órgão da cabeça. Segundo a Pokédex, por quê? → Para conter seu poder psíquico
+- Que pokémon de gelo de Kalos, segundo a Pokédex, parece um porta-aviões de gelo quando pequenos pokémon se amontoam nas suas costas? → Avalugg
+- Segundo a Pokédex de Sun, por que quem sai para acampar fica grato de ter um Charjabug por perto? → Ele armazena eletricidade
+- Sandygast é um montinho de areia fantasma das praias de Alola. Segundo a Pokédex, o que acontece com quem enfia a mão na boca dele? → Passa a ser controlado por ele
+- O pepino-do-mar Pyukumuku é tão comum nas praias de Alola que, segundo a Pokédex, existe até um trabalho temporário ligado a ele. Que trabalho é esse? → Jogá-los de volta ao mar
+- O velho dragão Drampa vive no alto das montanhas de Alola. Segundo a Pokédex, por que ele às vezes desce até as cidades? → Para brincar com as crianças
+- Segundo a Pokédex, Mareanie, a estrela-do-mar venenosa de Alola, adora se alimentar de pedaços do corpo de qual pokémon? → Corsola
+- Segundo a Pokédex, a lã encaracolada de Wooloo amortece tão bem que ele poderia fazer o quê e levantar-se sem nenhum ferimento? → Cair de um penhasco
+- Segundo a Pokédex, a faminta ave Cramorant engole inteira sua presa preferida, mas às vezes se engana de pokémon. Que presa é essa? → Arrokuda
+- Quando Toxtricity parece tocar guitarra, na verdade está arranhando as saliências do próprio peito. Segundo a Pokédex, para quê? → Para gerar eletricidade
+- Segundo a Pokédex, o pequeno fantasma Sinistea teria nascido quando um espírito solitário se apossou de quê? → Uma xícara de chá frio esquecida
+- Com pernas e mandíbulas poderosas, Dracovish foi o maior predador do seu tempo. Segundo a Pokédex, o que o levou à extinção? → Caçou demais as próprias presas
+- Quando se assusta, Sobble chora. Segundo a Pokédex, suas lágrimas fazem os atacantes chorar com a força química de cem unidades de qual alimento? → Cebola
+- Segundo a Pokédex, por que o cachorro Dachsbun é tão valorizado pelas vilas de agricultores de Paldea? → Seu aroma ajuda o trigo a crescer
+- O macaco Grafaiai pinta desenhos nas árvores com saliva venenosa nos dedos. Segundo a Pokédex de Scarlet, o que define a cor dessa saliva? → O que ele come
+- Segundo a Pokédex, o gigante Dondozo é guloso, mas péssimo para conseguir comida. Com qual pequeno pokémon ele se une para caçar? → Tatsugiri
+- Segundo a Pokédex, Tinkaton rebate pedras para o céu com seu martelo, mirando em qual pokémon que passa voando? → Corviknight
+- Shedinja, a casca fantasma que surge na evolução de Nincada, tem a habilidade exclusiva Wonder Guard. Que golpes de ataque conseguem feri-lo? → Só os supereficazes
+- Slaking, o gigante preguiçoso de Hoenn, é fortíssimo, mas sua habilidade, Truant, cobra um preço alto nas batalhas. Que preço é esse? → Só age a cada dois turnos
+- Segundo a Pokédex, o bicho-preguiça Slakoth se mexe tão pouco que quase não precisa comer. Quanto tempo por dia ele passa deitado à toa? → Mais de vinte horas
+- Em Sun e Moon, um Greninja especial tem a habilidade Battle Bond e muda de forma depois de derrotar um adversário. Essa forma leva o nome de qual treinador? → Ash
+- O que a habilidade Protean, de Greninja, e a habilidade Libero, do coelho Cinderace, fazem com o pokémon logo antes de ele atacar? → Mudam seu tipo para o do golpe
+- Graças à habilidade exclusiva Disguise, Mimikyu evita o dano da primeira pancada que leva numa batalha. O que se estraga no lugar dele? → O pano que imita Pikachu
+- A coruja Hoothoot começa a piar todo dia exatamente no mesmo horário. Segundo a Pokédex, o que um órgão especial do seu corpo acompanha? → A rotação da Terra
+- Munna, de Unova, se alimenta dos sonhos de pessoas e de pokémon. Segundo a Pokédex, o que ele solta no ar quando come um sonho agradável? → Uma névoa cor-de-rosa
+- Gulpin consegue engolir de uma vez algo do seu próprio tamanho. Segundo a Pokédex, quase todo o corpo dele é formado por qual órgão? → Estômago
+- O cabrito Skiddo, de Kalos, não precisa comer se tiver sol e água. Segundo a Pokédex de Y, de onde ele tira energia? → Das folhas das costas
+- Aron forma o corpo de aço comendo o minério de ferro que cava nas montanhas. Segundo a Pokédex, que construções humanas ele às vezes devora, causando estragos? → Pontes e trilhos de trem
+- A aranha Joltik, de Unova, não consegue gerar eletricidade própria. Segundo a Pokédex, como ela obtém a energia de que precisa? → Suga a estática de pokémon maiores
+- Numa batalha em dupla, a habilidade Commander faz Tatsugiri se esconder dentro do seu parceiro Dondozo para comandá-lo. Em que parte do corpo dele? → Na boca
+- O golfinho Palafin começa a batalha na fraca Forma Zero. Graças à habilidade Zero to Hero, o que ele precisa fazer para virar a Forma Herói? → Sair de campo e voltar
+- A ave Oricorio tem a habilidade Dancer. Como ela reage quando outro pokémon, aliado ou adversário, usa um golpe de dança na batalha? → Copia a dança na hora
+- Apesar da pose de guerreiro, Golisopod tem a habilidade Emergency Exit. O que ela o faz fazer quando sua vida cai abaixo da metade? → Sai de campo
+- O bebê Happiny, que um dia vira Chansey, carrega com todo o cuidado uma pedra branca e redonda na bolsinha. Segundo a Pokédex, o que ele acha que ela é? → Um ovo
+- O fantasma Sableye vive no fundo das cavernas e cava o chão com as garras afiadas. Segundo a Pokédex, do que ele se alimenta? → Pedras preciosas
+- O ursinho Cubchoo vive com o nariz escorrendo e sempre funga a meleca de volta. Segundo a Pokédex, por que ele faz isso? → É a matéria-prima dos seus golpes
+- O bebê Toxel, de Galar, evolui em Toxtricity na Forma Amped ou na Forma Low Key. O que decide qual das duas surge? → A natureza dele
+- Em Scarlet e Violet, o que Pawmo, Rellor e Bramblin precisam fazer para evoluir? → Andar mil passos no modo Let's Go
+- Na quarta geração, Tangela, Yanma e Piloswine ganharam novas evoluções. O que os três precisam ter para evoluir em Tangrowth, Yanmega e Mamoswine? → Saber o golpe Ancient Power
+- Por causa da habilidade exclusiva Slow Start, o colosso Regigigas começa cada batalha lento e enfraquecido. Por quantos turnos dura esse começo arrastado? → Cinco turnos
+- Cherrim, de Sinnoh, costuma ficar fechado como um botão roxo. Com a habilidade Flower Gift, que condição do tempo faz suas pétalas cor-de-rosa se abrirem? → Sol forte
+- Segundo a Pokédex, o colosso de aço Metagross resolve cálculos difíceis mais depressa que um supercomputador. Quantos cérebros ele tem? → Quatro
+- A ostra Clamperl evolui ao ser trocada, e o item que ela segura decide o resultado. Que item a transforma em Gorebyss? → Deep Sea Scale
+- Em Sun e Moon, o caranguejo boxeador Crabrawler só evolui em Crabominable se subir de nível num lugar específico de Alola. Que lugar é esse? → Mount Lanakila
+- Segundo a Pokédex, os vaga-lumes Volbeat desenham figuras no céu noturno com a luz da cauda, atraídos pelo perfume doce de qual pokémon? → Illumise
+- Segundo a Pokédex de Sword, o esquilo guloso Greedent enfia tantas berries num lugar do corpo que elas vivem caindo, sem que ele perceba. Onde? → Na cauda
+- No anime, qual destes pokémon foi o primeiro que Ash capturou com uma Poké Bola? → Caterpie
+- A fase de Johto do anime, em que Ash ganha Chikorita, Cyndaquil e Totodile, estreou na televisão japonesa em que ano? → 1999
+- O episódio em que Misty e Brock se despedem de Ash, encerrando a fase de Johto, foi ao ar no Japão em que ano? → 2002
+- No fim da fase de Johto, depois de anos de viagem, por que Misty deixa de acompanhar Ash? → Para cuidar do ginásio de Cerulean
+- No fim da viagem pelas Ilhas Laranja, Ash se despede do Lapras que levava o grupo pelo mar. Por que ele o liberta? → Para ele voltar à sua família
+- Que moça cuidava de pokémon abandonados num vilarejo escondido de Kanto, ajudada pelo Bulbasaur que depois partiu com Ash? → Melanie
+- Num episódio do anime, o Bulbasaur de Ash chega a um jardim misterioso cheio de pokémon da sua espécie, numa grande cerimônia. O que ele se recusa a fazer lá? → Evoluir para Ivysaur
+- Assim que foi capturado, o Krabby de Ash desapareceu da Poké Bola e foi parar no laboratório do Professor Carvalho. Por quê? → Ash já tinha seis pokémon
+- Que pokémon venenoso de Ash, que mora no laboratório de Pallet, adora se jogar em cima do Professor Carvalho para abraçá-lo? → Muk
+- Em Johto, que pokémon de Ash, apaixonado pelo treinador, evoluiu e continuou se jogando sobre ele para abraçá-lo, mesmo grande demais para isso? → Bayleef
+- Em Johto, que pokémon inseto de Ash vivia tentando sugar a seiva do bulbo nas costas do Bulbasaur? → Heracross
+- No anime, quando o Pikachu de Ash diz Pika Pi, a quem ele está se referindo? → Ao próprio Ash
+- Ash é proibido de entrar no ginásio de Erika, em Celadon, por ter zombado dos perfumes da loja dela. Como ele consegue voltar lá? → Disfarçado de menina
+- No anime, Giovanni não está no ginásio de Viridian quando Ash vai disputar sua oitava insígnia de Kanto. Quem Ash enfrenta lá, no lugar dele? → Jessie e James
+- O Togepi do anime nasceu de um ovo encontrado por Ash, mas passou a tratar Misty como mãe. Por quê? → Ela foi a primeira que ele viu
+- Numa reserva das Ilhas Laranja, os pokémon selvagens são todos cor-de-rosa. O que os deixa dessa cor? → Comer frutas Pinkan
+- Nas Ilhas Laranja, Ash conhece Prima, integrante da Elite dos Quatro de Kanto. A qual treinadora dos jogos ela corresponde? → Lorelei
+- No começo das Ilhas Laranja, um companheiro de Ash decide ficar no laboratório da Professora Ivy, na ilha Valencia. Quem? → Brock
+- O fotógrafo Todd, que encontra Ash no anime em busca da foto perfeita, também é o protagonista de qual jogo para Nintendo 64? → Pokémon Snap
+- No torneio da Liga de Johto, o treinador Harrison elimina Ash com um pokémon de fogo que derrota o Charizard dele na última luta. Que pokémon é esse? → Blaziken
+- No torneio da Liga de Johto, Ash finalmente vence Gary numa luta decidida pelo Charizard dele contra qual pokémon do rival? → Blastoise
+- No quarto filme, Ash conhece Sammy, um menino trazido do passado pelo mítico Celebi. Que personagem famoso esse menino se torna quando cresce? → Professor Carvalho
+- A fase de Hoenn do anime, em que Ash viaja com May, Max e Brock, estreou na televisão japonesa em que ano? → 2002
+- A série Diamante e Pérola, em que Ash percorre Sinnoh ao lado de Dawn e Brock, estreou na televisão japonesa em que ano? → 2006
+- O filme Jirachi: Realizador de Desejos, primeiro longa da fase de Hoenn, estreou nos cinemas japoneses em que ano? → 2003
+- No filme Jirachi: Realizador de Desejos, o pequeno mítico desperta e cria uma amizade especial com um dos companheiros de Ash. Com qual deles? → Max
+- No filme Pokémon Ranger e o Templo do Mar, o mítico Manaphy sai do ovo e passa a tratar como mãe qual companheira de Ash? → May
+- Em Hoenn, que pokémon inicial de Ash vivia com um raminho preso no canto da boca, mantido até depois de evoluir? → Treecko
+- No anime, qual destes pokémon iniciais entrou primeiro para a equipe de Ash? → Treecko
+- Nos concursos de Hoenn, que coordenador rival de May, dono de um Roselia, costuma presenteá-la com uma rosa? → Drew
+- Em Hoenn, Jessie, da Equipe Rocket, sonhava com um Beautifly, mas o Wurmple dela acabou evoluindo para outra mariposa. Qual? → Dustox
+- Nos jogos, a Frente de Batalha fica em Hoenn. No anime, em que região Ash enfrenta os sete cérebros da Frente? → Kanto
+- Que cérebro da Frente de Batalha, dona de um Espeon, se comunica com os pokémon por telepatia e se encanta por Ash? → Anabel
+- Em Sinnoh, Ash e Dawn trocam pokémon, já que um deles preferia concursos e o outro, batalhas. Ash recebe o Buizel. Que pokémon Dawn recebe em troca? → Aipom
+- Antes mesmo de ganhar Turtwig, Ash já tinha feito sua primeira captura em Sinnoh. Que pokémon foi esse? → Starly
+- Em Veilstone, o gentil criador de pokémon Reggie cuida dos pokémon que Paul não leva na viagem. Que parentesco ele tem com Paul? → Irmão mais velho
+- Na Liga de Sinnoh, Ash enfim vence Paul. Que pokémon dele, com a habilidade Blaze ativada, derrota o Electivire do rival na última luta? → Infernape
+- Kenny, amigo de infância de Dawn, insiste em chamá-la por um apelido dos tempos de jardim de infância, que ela detesta. Que apelido é esse? → Dee Dee
+- Que pokémon coelha de Dawn é apaixonada pelo Pikachu de Ash e vive corando perto dele? → Buneary
+- Em Sinnoh, Jessie, da Equipe Rocket, ou Team Rocket, entra disfarçada nos concursos pokémon e chega a ganhar fitas. Com que nome falso ela se apresenta? → Jessilina (Jessilee)
+- Em Sinnoh, que caçadora de pokémon, a bordo de uma nave, transforma suas presas em pedra com um aparelho no braço para vendê-las? → Hunter J
+- Na Conferência Vertress, a Liga de Unova do anime, que treinador distraído e esquecido elimina Ash nas quartas de final? → Cameron
+- Em Unova, o pokémon de Ash que começou como Sandile e chegou a Krookodile tem um acessório que virou sua marca registrada. Qual? → Óculos escuros
+- Em Unova, Ash encontra um Tepig faminto e machucado, amarrado a um poste. Por que o antigo treinador o deixou ali? → Achava o Tepig fraco
+- A série XY, em que Ash viaja por Kalos com Serena, Clemont e Bonnie, estreou na televisão japonesa em que ano? → 2013
+- A série Sol e Lua, em que Ash se muda para Alola e vai estudar numa escola pokémon, estreou na televisão japonesa em que ano? → 2016
+- Jornadas Pokémon, a série em que Ash e Goh viram pesquisadores e passeiam por todas as regiões, estreou no Japão em que ano? → 2019
+- Depois de virar campeão mundial, Ash ganhou uma minissérie de despedida, em que volta a viajar com velhos amigos. Ela estreou no Japão em que ano? → 2023
+- Na minissérie que encerra a história de Ash, exibida depois do título mundial, ele volta a viajar com quais dois companheiros do começo do anime? → Misty e Brock
+- Em Alola, qual destes pokémon foi o primeiro a ser capturado por Ash? → Rowlet
+- Em Sol e Lua, o Rowlet de Ash passa boa parte do tempo dormindo. Onde ele costuma tirar seus cochilos? → Dentro da mochila de Ash
+- Em XYZ, Serena chega à final da Master Class, o grande torneio das artistas pokémon. Quem vence e mantém o título de Rainha de Kalos? → Aria
+- Em Horizontes, que jovem dos Exploradores, dono de um Ceruledge, vive perseguindo Liko para tomar o pingente dela? → Amethio
+- No fim da série de Kalos, Serena se despede de Ash para seguir a carreira de artista em outra região. Para qual região ela parte? → Hoenn
+- Quando o Greninja de Ash se transforma e fica parecido com o treinador, os dois ficam ligados durante a batalha. O que Ash passa a sentir? → A dor dos golpes que Greninja leva
+- Bonnie, a irmã caçula de Clemont, vive abordando as moças que encontra pelo caminho em Kalos. O que ela costuma pedir a elas? → Que se casem com o irmão dela
+- Em XY, Bonnie cuida de uma pequena criatura verde que é, na verdade, um núcleo do lendário Zygarde. Que apelido carinhoso ela dá a ele? → Squishy
+- Em Sol e Lua, Lillie cuida de um ovo de Vulpix de Alola até ele nascer. Que nome ela dá ao Vulpix? → Snowy
+- Na escola de Alola, que pokémon redondo e espinhento, elétrico e de aço, é o parceiro inseparável de Sophocles? → Togedemaru
+- Em Horizontes, que pokémon inicial de fogo de Paldea, um crocodilinho guloso, vira o parceiro de Roy? → Fuecoco
+- No lema da Equipe Rocket, ou Team Rocket, Jessie e James prometem denunciar os males de quais duas coisas, ao contrário do que faria um herói? → Da verdade e do amor
+- Toda vez que são derrotados e lançados pelos ares, Jessie, James e Meowth gritam que a Equipe Rocket, ou Team Rocket, está fazendo o quê de novo? → Decolando (blasting off)
+- Para perseguir Ash pelos céus, o trio da Equipe Rocket, ou Team Rocket, costuma usar um balão. Que formato ele tem? → A cabeça de Meowth
+- Nos primeiros episódios, o rosto de Giovanni quase não aparecia, mas sim o pokémon gato no seu colo, que desperta o ciúme de Meowth. Que pokémon é esse? → Persian
+- James, da Equipe Rocket, ou Team Rocket, guarda com orgulho e muito carinho uma coleção curiosa. O que ele coleciona? → Tampinhas de garrafa
+- A mãe de Jessie, Miyamoto, também era agente da Equipe Rocket, ou Team Rocket. Ela desapareceu durante a busca por qual pokémon mítico? → Mew
+- Na série Sol e Lua, que pokémon fantasma de Jessie guarda um ódio profundo do Pikachu de Ash e vive querendo derrotá-lo? → Mimikyu
+- Nas séries Sol e Lua e Jornadas, que secretária de Giovanni, de óculos e jeito severo, despreza Jessie, James e Meowth? → Matori
+- Em Kanto, a Enfermeira Joy trabalha ao lado de uma Chansey. Nos Centros Pokémon de Unova, que pokémon ocupa esse lugar? → Audino
+- Em Kanto, a Oficial Jenny costuma patrulhar ao lado de um cão policial farejador, do tipo Fogo. Que pokémon é esse? → Growlithe
+- No Japão, o ator Unshō Ishizuka dublou o Professor Carvalho por cerca de vinte anos. Que outro papel ele fazia no mesmo anime? → O narrador
+- Na casa de Ash, em Pallet, que pokémon ajuda Delia, a mãe dele, a varrer, lavar roupa e cuidar das tarefas domésticas? → Mr. Mime
+- Na dublagem americana, a Pokédex falante que Ash recebe do Professor Carvalho ganhou um nome próprio. Que nome é esse? → Dexter
+- No quarto filme de Pokémon, um caçador de máscara de ferro captura Celebi com uma Poké Bola especial, que o torna maligno. Que bola é essa? → Dark Ball
+- No filme Giratina e o Cavaleiro do Céu, o caçador Zero usa uma máquina para sugar de Giratina qual habilidade? → Viajar entre os dois mundos
+- Em XYZ, Lysandre, líder da Equipe Flare, ou Team Flare, toma o controle de qual lendário de Kalos para espalhar destruição por Lumiose? → Zygarde
+- Em Pokémon Horizontes, quem é o líder misterioso dos Exploradores, o grupo que persegue Liko para tomar o seu pingente? → Gibeon
+- No segundo episódio do anime, Ash enfrenta Jessie, James e Meowth pela primeira vez, quando eles atacam qual lugar da cidade de Viridian? → O Centro Pokémon
+- No anime, Meowth fala a língua dos humanos e também entende a dos pokémon. Que papel isso o leva a fazer muitas vezes, até para Ash? → Intérprete
+- No filme Pokémon Ranger e o Templo do Mar, que tesouro guardado no templo submerso o pirata Phantom quer roubar a qualquer custo? → A coroa do mar (Sea Crown)
+- No filme Volcanion e a Maravilha Mecânica, o vilão Alva quer usar o poder de qual pokémon artificial, a maravilha mecânica do título? → Magearna
+- No especial Mewtwo Returns, Mewtwo vive escondido com outros clones numa montanha isolada. Que vilão sai à caça dele? → Giovanni
+- No navio S.S. Anne, um vendedor convence James, da Equipe Rocket, a gastar todas as economias num pokémon que prometia render fortuna. Que pokémon ele compra? → Magikarp
+- No fim do primeiro filme, Ash vira pedra ao se jogar entre os ataques de Mew e Mewtwo. O que o traz de volta à vida? → As lágrimas dos pokémon
+- Na abertura do primeiro filme Pokémon, que cientista comanda o laboratório onde Mewtwo é criado, com dinheiro de Giovanni? → Doutor Fuji
+- Pokémon 2000 se passa na ilha Shamouti, onde uma lenda anuncia a chegada de um Escolhido. Em que arquipélago do anime fica essa ilha? → Ilhas Laranja (Orange Islands)
+- Em Pokémon 2000, que moça da ilha Shamouti, a donzela do festival, toca a canção do festival que revive o lendário Lugia? → Melody
+- Em Pokémon 3, os Unown cobrem de cristal a mansão da menina Molly e boa parte da cidade em volta. Como se chama essa cidade? → Greenfield
+- Além do mítico Celebi, que fera lendária de Johto, ligada às águas puras, aparece em Pokémon 4Ever? → Suicune
+- Em Pokémon Heróis, Latias passeia por Altomare disfarçada de humana. Ela copia a aparência de qual menina, neta do curador do museu, Lorenzo? → Bianca
+- No fim de Pokémon Heróis, Latios dá a própria vida para salvar a cidade de Altomare. Em que objeto ele se transforma? → Uma nova Soul Dew
+- Em O Destino de Deoxys, Rayquaza e o alienígena se enfrentam numa cidade de alta tecnologia, patrulhada por robôs de blocos. Como se chama essa cidade? → LaRousse
+- Em Lucario e o Mistério de Mew, o mítico Mew vive dentro de uma árvore gigantesca, cheia de cristais, que ataca os intrusos. Como ela se chama? → Tree of Beginning
+- Em Pokémon Ranger e o Templo do Mar, que personagem, disfarçado de tripulante do pirata Phantom, rouba o ovo de Manaphy? → Jack Walker
+- A Ascensão de Darkrai se passa numa cidade famosa por duas torres gêmeas e um grande jardim. Que cidade é essa? → Alamos
+- O filme em que Arceus quer se vingar da humanidade se passa numa cidade de ruínas antigas de Sinnoh. Como ela se chama? → Michina
+- No filme Arceus e a Joia da Vida, que lendário leva Ash e seus amigos ao passado para desfazer a traição contra Arceus? → Dialga
+- Em Diancie e o Casulo da Destruição, o diamante que sustenta o reino de Diancie está se apagando. Que lendário de Kalos ela procura para conseguir criar um novo? → Xerneas
+- O filme Hoopa e o Duelo Lendário se passa numa cidade do deserto, palco do confronto entre os lendários convocados. Que cidade é essa? → Dahara
+- Volcanion e a Maravilha Mecânica se passa num reino de engrenagens onde a Magearna foi construída, séculos atrás. Como se chama esse reino? → Azoth
+- No filme Eu Escolho Você, que recria o começo da jornada, Misty e Brock não acompanham Ash. Ele viaja com Verity e com qual outro novo companheiro? → Sorrel
+- Em O Poder de Todos, que pokémon mítico elétrico, de garras afiadas, vive escondido na floresta perto da cidade e desconfia dos humanos? → Zeraora
+- No filme Segredos da Selva, que pokémon mítico, um macaco dos tipos Sombrio e Planta, encontra o bebê Koko e o cria como filho? → Zarude
+- No filme Detetive Pikachu, o desfecho revela de quem é a mente presa no Pikachu falante que ajuda o jovem Tim. Quem é? → Harry Goodman
+- Antes de Satoshi Yamamoto assumir os desenhos, quem ilustrou os primeiros volumes do mangá Pokémon Adventures? → Mato
+- No mangá Pokémon Adventures, antes de receber um Bulbasaur do Professor Carvalho, ou Professor Oak, Red já tinha um pokémon. Qual foi o primeiro pokémon dele? → Poliwag
+- No mangá Pokémon Adventures, que protagonista da Floresta de Viridian esconde debaixo de um chapéu de palha que é menina e cura pokémon com as mãos? → Yellow
+- No mangá Pokémon Adventures, o esquentado Gold não arremessa as Poké Bolas com a mão. Com que objeto ele as lança? → Um taco de sinuca
+- No arco de Yellow do mangá Pokémon Adventures, que mestre dos dragões comanda a Elite dos Quatro num plano para livrar o mundo dos humanos? → Lance
+- No arco de Gold, Silver e Crystal de Pokémon Adventures, o vilão de máscara que rouba pokémon é, na verdade, qual líder de ginásio de Johto? → Pryce
+- No mangá Pokémon Adventures, a selvagem Sapphire, rival de Ruby, é filha de qual personagem de Hoenn? → Professor Birch
+- Que mangaká criou Pocket Monsters, o mangá de humor da revista CoroCoro em que Red viaja com um Pikachu e um Clefairy desbocado? → Kosaku Anakubo
+- O mangá The Electric Tale of Pikachu, que recontava o começo do anime com Ash, Misty e Brock, foi desenhado por quem? → Toshihiro Ono
+- Diferente do anime de Ash, a minissérie Pokémon Origins resume a jornada de Red em poucos episódios. Quantos episódios ela tem? → Quatro
+- No último episódio de Pokémon Origins, contra Mewtwo, o Charizard de Red assume qual forma, que acabava de estrear nos jogos X e Y? → Mega Charizard X
+- Pokémon Generations, série de episódios curtos no YouTube que revisitava momentos de cada região dos jogos, foi lançada em que ano? → 2016
+- Pokémon Generations percorre as regiões de Kanto a Kalos em episódios de poucos minutos cada. Quantos episódios a série tem ao todo? → Dezoito
+- Que estúdio japonês de animação, o mesmo do filme Penguin Highway, produziu Twilight Wings, a série curta de Pokémon ambientada em Galar? → Studio Colorido
+- Lançada no YouTube para acompanhar Sword e Shield, a série curta Twilight Wings, sobre o dia a dia de Galar, estreou em que ano? → 2020
+- Em Pokémon Evolutions, cada episódio revisita uma região dos jogos, de Kanto a Galar. Que comemoração da franquia essa série celebrava? → Os 25 anos de Pokémon
+- Qual destas séries curtas de Pokémon, baseadas nos jogos, foi lançada por último? → Pokémon Evolutions
+- Que estúdio, conhecido pelas primeiras temporadas de Attack on Titan, animou Hisuian Snow, a série curta de Pokémon ambientada em Hisui? → Wit Studio
+- A minissérie Hisuian Snow, ambientada na antiga região do jogo Legends: Arceus, chegou ao canal oficial de Pokémon no YouTube em que ano? → 2022
+- Que estúdio japonês de stop-motion, criador do mascote Domo-kun, produziu a série Pokémon Concierge? → Dwarf Studios
+- Em Pokémon Concierge, Haru começa a trabalhar num resort de pokémon e cria um laço especial com um pokémon ansioso e sempre nervoso. Qual? → Psyduck
+- Num curta exibido antes do terceiro filme de Pokémon, Pikachu se perde numa cidade grande e é ajudado por dois irmãos travessos. Que pokémon são eles? → Pichu
+- O curta Pikachu's Rescue Adventure, em que Pikachu e outros pokémon vivem uma aventura numa selva, era exibido nos cinemas antes de qual filme? → Pokémon 2000
+- No especial de TV The Legend of Thunder, passado em Johto, os jovens treinadores Jimmy e Marina tentam proteger qual fera lendária? → Raikou
+- Os nomes Ash, Misty e Brock, no lugar de Satoshi, Kasumi e Takeshi, revelam de onde partiu a dublagem brasileira do anime. Que versão serviu de base? → A versão americana
+- Que banda de rock japonesa canta Acacia, música do clipe animado GOTCHA!, de 2020, que relembra as aventuras dos jogos Pokémon? → Bump of Chicken
+- Em Pokémon Go, que professor dá as boas-vindas ao jogador, ensina a capturar pokémon e pede ajuda nas suas pesquisas? → Professor Willow
+- Em Pokémon Go, cada equipe tem um líder. Que rapaz de cabelo loiro e espetado comanda a Instinct, a equipe amarela? → Spark
+- O que a Equipe GO Rocket, ou Team GO Rocket, de Pokémon Go, e a organização Cipher, de Pokémon Colosseum, têm em comum? → Usam pokémon sombrios
+- Em Pokémon Colosseum, Wes captura os pokémon sombrios dos treinadores inimigos com um aparelho preso ao braço. Como se chama esse aparelho? → Snag Machine
+- Em Pokémon Colosseum, que moça acompanha Wes pela região de Orre e tem o dom de enxergar a aura sombria dos pokémon? → Rui
+- Pokémon Colosseum, o RPG de GameCube passado na região de Orre, chegou às lojas japonesas em que ano? → 2003
+- Pokémon Stadium, o jogo de batalhas em 3D do Nintendo 64 que vinha com o Transfer Pak, chegou aos Estados Unidos em que ano? → 2000
+- Em Pokémon Snap, de Nintendo 64, quem examina as fotografias tiradas por Todd e dá uma nota a cada uma? → Professor Carvalho (Professor Oak)
+- Qual destes jogos derivados de Pokémon foi lançado primeiro? → Pokémon Snap
+- Na última fase de Pokémon Snap, uma nuvem de arco-íris, Todd fotografa um pokémon mítico protegido por uma bolha. Que pokémon é esse? → Mew
+- Em Pokémon Snap, de Nintendo 64, Todd percorre a ilha num carrinho automático que segue sozinho o percurso. Como se chama esse veículo? → Zero-One
+- Em New Pokémon Snap, certos pokémon das ilhas de Lental brilham com uma luz misteriosa. Como se chama esse fenômeno estudado pelo Professor Mirror? → Illumina
+- Em Pokémon Mystery Dungeon: Explorers of Time, o Grovyle procurado por roubar as Time Gears não é da época dos heróis. De que época ele vem? → Do futuro
+- Em Explorers of Time, o colapso da Temporal Tower corrompeu o lendário que a guardava e o transformou num tirano. Que pokémon é esse? → Dialga
+- Na guilda de exploradores de Wigglytuff, em Explorers of Time, que papagaio mandão é o braço direito do mestre e dá ordens aos aprendizes? → Chatot
+- Em Red e Blue Rescue Team, conta a lenda que um humano agarrou a cauda de Ninetales. Que pokémon parceiro dele recebeu a maldição no seu lugar? → Gardevoir
+- Rescue Team DX, o remake dos primeiros Pokémon Mystery Dungeon para o Nintendo Switch, foi lançado em que ano? → 2020
+- Em Pokémon Ranger, como se chama o aparelho com que o guarda risca círculos em volta dos pokémon selvagens para acalmá-los? → Capture Styler
+- No primeiro Pokémon Ranger, o parceiro do herói é um Minun ou uma Plusle. O que decide qual dos dois o acompanha? → O gênero do protagonista
+- Pokémon Ranger: Shadows of Almia, a primeira continuação do jogo dos guardas pokémon, saiu no Japão em que ano? → 2008
+- Em Pokémon Unite, os treinadores disputam partidas numa ilha cuja energia misteriosa é usada para marcar pontos. Como ela se chama? → Ilha Aeos (Aeos Island)
+- Em Pokémon Sleep, o jogador começa observando um Snorlax gigante numa ilha tranquila, a primeira da aventura. Que ilha é essa? → Greengrass Isle
+- Genetic Apex, a primeira coleção do TCG Pocket, vinha em três pacotes com pokémon diferentes na capa: Charizard, Pikachu e qual outro? → Mewtwo
+- O TCG Pocket, versão para celular do card game Pokémon, com pacotes gratuitos todos os dias, foi lançado em que ano? → 2024
+- Diferente do card game tradicional, o baralho do TCG Pocket não leva um tipo de carta, que surge automaticamente a cada turno. Qual? → Cartas de energia
+- No TCG Pocket, um recurso deixa o jogador escolher, às cegas, uma carta de um pacote que outro jogador acabou de abrir. Como ele se chama? → Wonder Pick
+- Em 1999, a segunda coleção do card game lançada em inglês reuniu pokémon de florestas e campos, como Scyther, Kangaskhan e Snorlax. Como ela se chama? → Jungle
+- Qual coleção do card game, de 1999, trouxe Aerodactyl, Ditto e as três aves lendárias de Kanto em cartas holográficas? → Fossil
+- Na coleção Team Rocket, de 2000, apareceram versões malvadas de pokémon como Charizard e Blastoise. Que palavra inglesa vinha antes do nome deles? → Dark
+- Em 2000, o card game estreou cartas de pokémon dos líderes de ginásio de Kanto, como Brock e Misty, numa coleção depois seguida por Gym Challenge. Qual era ela? → Gym Heroes
+- Os tipos Aço e Sombrio estrearam nos jogos Gold e Silver. Que coleção do card game criou as primeiras energias desses dois tipos? → Neo Genesis
+- Em 2002, uma coleção de reimpressões do card game estreou as cartas de brilho invertido, em que brilha a moldura e não a ilustração. Que coleção é essa? → Legendary Collection
+- Na coleção Expedition, de 2002, as cartas traziam tiras de código na borda, que podiam ser lidas por qual acessório do Game Boy Advance? → e-Reader
+- Nos cinemas americanos, quem ia ver Pokémon 2000 ganhava uma carta promocional de Mew, com textos numa escrita inventada. Por que nome essa carta ficou conhecida? → Ancient Mew
+- Na era EX do card game, raríssimas cartas mostravam pokémon brilhantes, de cor rara, com uma estrela ao lado do nome. Como os colecionadores as chamam? → Gold Star
+- Na era Diamond e Pearl do card game, um tipo de carta era posto por cima do pokémon ativo de mesmo nome, como uma evolução extra. Como ele se chama? → Pokémon LV.X (Level X)
+- Que tipo de carta da era X e Y, impressa na horizontal e com fundo dourado, era colocada por cima do pokémon que evoluía? → Pokémon BREAK
+- Os pokémon GX, da era Sun e Moon do card game, tinham ataques GX poderosíssimos. Quantos ataques desses o jogador podia usar em toda a partida? → Apenas um
+- Na era Sun e Moon do card game, que tipo de carta reunia dois pokémon numa só, como Pikachu e Zekrom ou Eevee e Snorlax? → TAG TEAM
+- No card game, quando um pokémon VMAX, a forma Dynamax da era Sword e Shield, é nocauteado, quantas cartas de prêmio o adversário pega? → Três
+- Na era Sword e Shield do card game, as cartas de pokémon Radiant mostram pokémon brilhantes e poderosos. Quantas delas um baralho pode ter? → Uma
+- O tipo Fada ganhou energia própria no card game na era X e Y, mas foi abolido em Sword e Shield. Para que tipo os pokémon fada passaram? → Psíquico
+- No começo de uma partida do card game Pokémon, depois de embaralhar, cada jogador compra quantas cartas para formar a mão inicial? → Sete
+- No card game, o baralho mistura três grandes tipos de carta. Além de Pokémon e Energia, qual é o terceiro, que inclui Itens, Apoiadores e Estádios? → Treinador (Trainer)
+- No card game, além do pokémon ativo, quantos pokémon um jogador pode manter no Banco, ou Bench, esperando a vez de lutar? → Cinco
+- Pela regra básica do card game, quantas cartas de energia da mão o jogador pode ligar aos seus pokémon a cada turno? → Uma
+- Num baralho de sessenta cartas do card game Pokémon, quantas cópias com o mesmo nome o jogador pode incluir, sem contar as energias básicas? → Quatro
+- No card game Pokémon, quando a carta do pokémon ativo fica virada de cabeça para baixo na mesa, em que condição especial ele está? → Confuso (Confused)
+- A carta Pikachu Illustrator, prêmio de um concurso de ilustração da revista CoroCoro, traz um Pikachu desenhado por qual ilustradora japonesa? → Atsuko Nishida
+- O Campeonato Mundial de Pokémon, que no começo reunia só jogadores do card game, foi disputado pela primeira vez em que ano? → 2004
+- No Campeonato Mundial de Pokémon, os jogadores se dividem por idade em Júnior, Sênior e qual outra categoria, a dos mais velhos? → Masters
+- Como se chama o programa oficial da The Pokémon Company que organiza ligas, torneios e campeonatos do card game e dos videogames da franquia? → Play! Pokémon
+- No jogo Pokémon Trading Card Game, de Game Boy Color, o objetivo final é ganhar quatro cartas lendárias: as três aves de Kanto e qual outro pokémon? → Dragonite
+- Pokémon Trading Card Game, a adaptação do card game para o Game Boy Color, foi lançada no Japão em que ano? → 1998
+- Para os 25 anos de Pokémon, em 2021, que coleção do card game reimprimiu cartas clássicas, como o Charizard holográfico do Base Set? → Celebrations
+- Em Red e Blue, o ginásio do ninja Koga, em Fuchsia, esconde um truque para atrapalhar quem tenta chegar até ele. Que truque é esse? → Paredes invisíveis
+- Em Red e Blue, Bruno, o lutador da Elite dos Quatro de Kanto, leva no time dois exemplares de um pokémon de pedra. Qual? → Onix
+- Em Gold e Silver, o campeão Lance leva no time três exemplares do mesmo dragão. Que pokémon é esse? → Dragonite
+- Em Gold e Silver, o primeiro adversário da Elite dos Quatro de Johto é um treinador mascarado que usa pokémon psíquicos. Qual é o nome dele? → Will
+- Em Gold e Silver, qual pokémon é o mais forte do time de Bugsy, o jovem líder de insetos de Azalea? → Scyther
+- Em Gold e Silver, Falkner, especialista em pokémon voadores, é o primeiro líder de ginásio de Johto. Em que cidade ele espera os desafiantes? → Violet
+- Em Ruby e Sapphire, a primeira insígnia de Hoenn é disputada com Roxanne, especialista em pokémon de pedra. Onde fica o ginásio dela? → Rustboro
+- Brawly, o lutador de Hoenn apaixonado por surfe, recebe os desafiantes num ginásio escuro, numa ilha pequena. Que ilha é essa? → Dewford
+- Em Ruby e Sapphire, que velho líder elétrico, de risada escandalosa, comanda o ginásio de Mauville? → Wattson
+- Drake, o velho marinheiro que fecha a Elite dos Quatro de Hoenn, tem qual dragão como pokémon mais forte? → Salamence
+- Phoebe, a especialista em fantasmas da Elite dos Quatro de Hoenn, conta que treinou numa montanha que serve de cemitério de pokémon. Que montanha é essa? → Mt. Pyre
+- Em Ruby e Sapphire, qual pokémon dos tipos Aço e Psíquico é o ás de Steven Stone, o campeão de Hoenn? → Metagross
+- Em Diamond e Pearl, o ginásio de água de Pastoria é comandado por um homem fantasiado de lutador mascarado de luta livre. Como ele se chama? → Crasher Wake
+- Em Diamond e Pearl, Volkner, o líder elétrico de Sunyshore, anda entediado e sem vontade de batalhar. Por quê? → Não encontra desafiantes fortes
+- Em Diamond e Pearl, que especialista em psíquicos da Elite dos Quatro de Sinnoh está sempre com o nariz enfiado num livro quando o desafiante chega? → Lucian
+- Em Black e White, para chegar até Elesa, a líder elétrica de Nimbasa, o jogador atravessa o ginásio a bordo de quê? → Montanhas-russas
+- Marshal, o lutador da Elite dos Quatro de Unova, é discípulo de um treinador famoso da região. Que campeão é esse? → Alder
+- Em Black e White, quando o jogador finalmente enfrenta Alder, o campeão de Unova, qual pokémon é o ás do time dele? → Volcarona
+- Em X e Y, o tipo Fada estreou com uma líder de ginásio só dele, na cidade de Laverre. Quem é ela? → Valerie
+- Viola, a fotógrafa que lidera o ginásio de insetos de Santalune, em Kalos, é irmã de qual jornalista que ajuda o jogador? → Alexa
+- Em Sun e Moon, Olivia, a kahuna especialista em pokémon de pedra, é a chefe de qual ilha de Alola? → Akala
+- Em Sun e Moon, a ilha de Ula'ula tem como kahuna um policial desanimado, especialista em pokémon sombrios. Qual é o nome dele? → Nanu
+- Kahili, a especialista em pokémon voadores da Elite dos Quatro de Alola, também é uma estrela de qual esporte? → Golfe
+- Em Pokémon Sword, o ginásio de Stow-on-Side é da lutadora Bea. Em Shield, quem o comanda, com pokémon fantasmas? → Allister
+- Em Galar, Gordie, o líder de pedra de Circhester em Sword, e Melony, a líder de gelo da mesma cidade em Shield, têm que parentesco? → Ela é mãe dele
+- Raihan, o líder de dragões de Hammerlocke, em Sword e Shield, se apresenta como eterno rival de qual treinador de Galar? → Leon
+- Em Scarlet e Violet, a Elite dos Quatro de Paldea tem uma integrante bem pequena, especialista em aço e dona de um Tinkaton. Quem é ela? → Poppy
+- Em Scarlet e Violet, Geeta, a campeã que testa o jogador no fim da Liga de Paldea, ocupa também qual cargo? → Presidente da Liga Pokémon
+- Em Red e Blue, um fantasma bloqueia a subida da Torre Pokémon. Ele é o espírito de uma mãe morta pela Equipe Rocket, ou Team Rocket. De que pokémon? → Marowak
+- Em Red e Blue, que aparelho, tomado de Giovanni no esconderijo de Celadon, permite enxergar os fantasmas da Torre Pokémon? → Silph Scope
+- Em Red e Blue, depois de perder para o jogador no ginásio de Viridian, que decisão Giovanni anuncia? → Dissolver a Equipe Rocket
+- Em HeartGold e SoulSilver, com Giovanni desaparecido, qual executivo assume o comando da Equipe Rocket, ou Team Rocket? → Archer
+- Em Ruby e Sapphire, os vilões roubam um submarino em Slateport para chegar ao lendário. A qual pesquisador do museu oceanográfico ele pertence? → Capitão Stern
+- Em Diamond e Pearl, a Equipe Galáctica, ou Team Galactic, detona uma bomba que seca um lago de Sinnoh para capturar Azelf. Que lago é esse? → Lake Valor
+- Que agente da Polícia Internacional investiga a Equipe Galáctica em Platinum e volta em Sun e Moon atrás das Ultracriaturas? → Looker
+- Em Black 2 e White 2, a Equipe Plasma, ou Team Plasma, tenta usar o poder do lendário Kyurem sobre Unova. Para fazer o quê? → Congelar grandes partes de Unova
+- Em Black e White, a Equipe Plasma invade o museu de Nacrene e rouba uma peça que acredita estar ligada a um dragão lendário. Que peça? → Um crânio de dragão (Dragon Skull)
+- Em Pokémon Black, o jogador fica com Reshiram. Que dragão lendário fica ao lado de N, o rei da Equipe Plasma? → Zekrom
+- Em Black 2 e White 2, que cientista, obcecado em despertar todo o potencial dos pokémon, trabalha com a nova Equipe Plasma, ou Team Plasma? → Colress
+- Em Black e White, por trás do discurso de libertar os pokémon, qual é o verdadeiro plano de Ghetsis? → Ser o único a ter pokémon
+- Em X e Y, para disparar a arma definitiva, ou ultimate weapon, a Equipe Flare, ou Team Flare, precisa da energia de qual pokémon? → Xerneas ou Yveltal, o lendário do jogo
+- Em Sun e Moon, a Equipe Skull, ou Team Skull, parece só uma gangue de rua, mas trabalha em segredo para qual organização de Alola? → Fundação Aether (Aether Foundation)
+- Que treinadora de pokémon venenosos, tratada como irmã mais velha pelos membros, é o braço direito de Guzma na Equipe Skull? → Plumeria
+- Em Sun e Moon, qual pokémon é o ás do time de Guzma, o chefe da Equipe Skull? → Golisopod
+- Em Sword e Shield, que secretária fiel ajuda o presidente Rose no plano que acaba despertando Eternatus? → Oleana
+- Em Scarlet e Violet, a Equipe Star nasceu de um grupo de alunos da academia de Paldea. Contra o que eles se uniram no começo? → O bullying que sofriam
+- No começo de Diamond e Pearl, o jogador abre a maleta esquecida pelo professor Rowan, à beira de um lago, e escolhe um pokémon. Por que precisa usá-lo na hora? → Para enfrentar Starly selvagens que atacam
+- No clímax de Sun e Moon, já no Ultra Espaço, Lusamine se funde com qual Ultracriatura, a sua grande obsessão? → Nihilego
+- Em Sword e Shield, logo no começo, o jogador e Hop entram numa floresta enevoada e proibida, onde surge um lobo lendário. Que floresta é essa? → Slumbering Weald
+- No fim de Scarlet e Violet, na Área Zero, o jogador descobre que o professor que o guiava não é humano. O que ele é? → Um robô com inteligência artificial
+- Em Legends: Arceus, logo depois de cair do céu em Hisui, o jogador entra para qual grupo da Vila Jubilife, encarregado de criar a primeira Pokédex? → Galaxy Expedition Team
+- Em Red e Blue, depois de vencer a Elite dos Quatro, o jogador descobre que o campeão de Kanto é um velho conhecido. Quem é ele? → O rival, neto do Professor Carvalho
+- No Episódio Delta de Omega Ruby e Alpha Sapphire, que guardiã de um antigo povo de Hoenn quer invocar Rayquaza para deter um meteoro? → Zinnia
+- Pokémon Platinum, a versão especial de Diamond e Pearl com Giratina na capa, foi lançado no Japão em que ano? → 2008
+- O mapa de Kanto se inspira na região japonesa de mesmo nome. Saffron, a metrópole no centro desse mapa, corresponde a qual cidade real? → Tóquio
+- Em Red e Blue, guardas com sede bloqueiam os portões de Saffron. O que o jogador precisa entregar a eles para conseguir passar? → Uma bebida (água, refrigerante ou limonada)
+- Em Red e Blue, ao lado do ginásio de Saffron, quem vence o dojo de luta escolhe um prêmio: Hitmonlee ou qual outro pokémon? → Hitmonchan
+- Em Red e Blue, Moltres, a ave lendária de fogo, espera o jogador em qual lugar de Kanto, o último caminho antes do Platô Índigo? → Victory Road
+- Em Red e Blue, o jogador ganha um Eevee de presente no último andar de um prédio residencial. Em que cidade de Kanto fica esse prédio? → Celadon
+- Em Red e Blue, o diretor da Zona Safári de Fuchsia dá ao jogador a Máquina Oculta de Força, ou Strength, se ele achar algo que o diretor perdeu. O quê? → A dentadura de ouro (Gold Teeth)
+- Em Pokémon Gold, com a Rainbow Wing em mãos, o jogador sobe ao topo de qual torre de Ecruteak para enfrentar o lendário Ho-Oh? → Tin Tower
+- A Liga Pokémon de Red e Blue e a de Gold e Silver acontecem no mesmo lugar de Kanto. Que lugar é esse? → Platô Índigo (Indigo Plateau)
+- Em Ruby e Sapphire, que cidade-ilha de Hoenn, sede de um centro espacial, se inspira em Tanegashima, a ilha japonesa de onde partem foguetes? → Mossdeep
+- Em Ruby e Sapphire, em que cidade de Hoenn as casas ficam no alto das árvores, ligadas por pontes de madeira? → Fortree
+- No meio do mar de Hoenn, a pequena cidade de Pacifidlog não tem chão firme. Sobre o que ela é construída? → Troncos flutuantes
+- Em Ruby e Sapphire, o jogador ganha Castform de presente depois de expulsar os vilões de um centro de pesquisas da Rota 119. Que lugar é esse? → Weather Institute
+- Veilstone, a cidade de Sinnoh escavada na rocha, exibe enormes pedras espalhadas pela cidade. Segundo os moradores, o que são essas pedras? → Meteoritos que caíram do céu
+- Em Diamond e Pearl, numa mansão abandonada na floresta de Eterna, o fantasma Rotom aparece à noite quando o jogador examina qual aparelho? → A televisão
+- Em Black e White, em que ruínas antigas, quase soterradas pela areia do deserto de Unova, o jogador encontra uma Volcarona no andar mais fundo? → Relic Castle
+- Em X e Y, as fileiras de pedras antigas da cidadezinha de Geosenge, em Kalos, se inspiram em qual sítio pré-histórico francês? → Alinhamentos de Carnac
+- Em X e Y, a Tower of Mastery, a torre da cidade de Shalour ligada aos segredos da megaevolução, lembra qual abadia francesa erguida sobre um rochedo? → Monte Saint-Michel
+- No Battle Château de Kalos, em X e Y, os treinadores sobem de posto conforme vencem batalhas. Que tipo de título eles recebem? → Títulos de nobreza
+- Em X e Y, Mewtwo se esconde numa caverna perto de um refúgio de pokémon que fugiram de maus-tratos humanos. Que lugar de Kalos é esse? → Pokémon Village
+- O que os nomes das quatro ilhas principais de Alola, Melemele, Akala, Ula'ula e Poni, têm em comum? → São nomes de cores em havaiano
+- Hau'oli, a maior cidade de Alola, com prédios, lojas e praia na ilha Melemele, se inspira em qual cidade havaiana? → Honolulu
+- Em Sword e Shield, perto de Turffield, um desenho gigantesco e antigo cobre a encosta de um morro. Que tipo de monumento britânico ele imita? → Figuras de giz em colinas
+- O nome de Stow-on-Side, a cidade de Galar do mural antigo, brinca com o de qual cidadezinha inglesa da região dos Cotswolds? → Stow-on-the-Wold
+- Em Sword e Shield, o jogador enfrenta Eternatus no alto da torre de uma usina de energia. Em que cidade de Galar fica essa usina? → Hammerlocke
+- Em Scarlet e Violet, Grusha, ex-atleta de snowboard e líder do ginásio de Gelo, recebe os desafiantes no alto de qual montanha de Paldea? → Glaseado
+- Habilidades como Intimidate e Levitate, efeitos passivos que cada pokémon leva para as batalhas, estrearam em qual par de jogos da série principal? → Ruby e Sapphire
+- A possibilidade de um pokémon segurar um item na batalha, como uma fruta que ele come sozinho quando a vida cai, estreou em qual par de jogos? → Gold e Silver
+- As formas regionais, versões de pokémon antigos adaptadas ao ambiente de outra região, estrearam em qual par de jogos? → Sun e Moon
+- Brilliant Diamond e Shining Pearl, que levaram a região de Sinnoh de volta, agora ao Nintendo Switch, chegaram às lojas em que ano? → 2021
+- The Isle of Armor, a primeira parte da expansão de Sword e Shield, em que o jogador treina num dojo com Kubfu, foi lançada em que ano? → 2020
+- Qual destas novidades de batalha estreou primeiro nos jogos principais de Pokémon? → Divisão físico-especial
+- Em Ruby e Sapphire, um golpe especial abre um esconderijo numa árvore, num arbusto ou numa parede de pedra, que o jogador decora com móveis e bonecos. Como ele se chama? → Base secreta (Secret Base)
+- Em Diamond e Pearl, um enorme labirinto de túneis se espalha debaixo de Sinnoh, onde o jogador cava fósseis e monta sua base. Como esse lugar se chama? → Underground
+- Black e White estrearam as batalhas triplas e outro formato, em que três pokémon ficam em campo, mas só o da frente ataca e pode ser trocado a cada turno. Qual? → Batalha de rotação (Rotation Battle)
+- Em Black 2 e White 2, numa instalação da cidade de Driftveil, o jogador pode enfrentar líderes de ginásio e campeões de todas as regiões anteriores. Como ela se chama? → Pokémon World Tournament
+- Que item, estreante em Black 2 e White 2 e entregue a quem completa a Pokédex Nacional, aumenta a chance de encontrar pokémon de cores raras? → Shiny Charm
+- Qual par de jogos da série principal foi o primeiro a trocar os pokémon desenhados em duas dimensões por modelos em 3D nas batalhas? → X e Y
+- Em X e Y, alguns treinadores de Kalos desafiam o jogador num formato em que só podem lutar pokémon que voam ou levitam. Como se chama esse tipo de batalha? → Sky Battle
+- Em Omega Ruby, ao tocar a Flauta Eon, o jogador sobrevoa toda a região de Hoenn nas costas de um dragão lendário. Que pokémon é esse? → Latios
+- No fim das provas de Sun e Moon, o jogador enfrenta um pokémon maior que o normal, envolto numa aura, que chama aliados para a luta. Como esse pokémon é chamado? → Pokémon Totem (Totem Pokémon)
+- Em Sun e Moon, sem as Máquinas Ocultas, o jogador chama Lapras, Tauros ou Charizard para atravessar o mar, quebrar pedras e voar. Como se chama esse recurso? → Poké Ride
+- Em Sword e Shield, alguns pokémon gigantes também mudam de aparência, como Pikachu, que volta a ficar gorducho como nos anos noventa. Como se chama essa forma especial? → Gigantamax
+- Na Área Selvagem de Sword e Shield, colunas de luz saem de tocas no chão, e ali até quatro treinadores se unem contra um pokémon gigante. Como se chamam essas batalhas? → Batalhas Max Raid (Max Raid Battles)
+- Antes mesmo do lançamento, Sword e Shield provocaram entre os fãs uma polêmica apelidada de Dexit. Qual foi o motivo da revolta? → Nem todos os pokémon estariam no jogo
+- Em Legends: Arceus, pokémon que antes só evoluíam por troca, como Machoke e Haunter, evoluem usando qual item? → Linking Cord
+- Ao terastalizar em Scarlet e Violet, o pokémon ganha na cabeça uma coroa de cristal, de formato variado. O que o formato dessa coroa indica? → O Teratipo do pokémon
+- Em Diamond e Pearl, um aparelho faz a grama alta tremer para revelar pokémon escondidos e permite encadear encontros com a mesma espécie. Como ele se chama? → Poké Radar
+- No Japão, a versão Blue saiu meses depois de Red e Green, ainda em 1996, mas não chegou logo às lojas. Como ela era vendida no começo? → Por encomenda, pela revista CoroCoro
+- Que pokémon morcego de quatro asas, apresentado em Gold e Silver, surge quando um Golbat muito apegado ao treinador sobe de nível? → Crobat
+- Em vez da tradicional terceira versão, como Platinum e Emerald, Sword e Shield ganharam conteúdo novo de outra forma, pela primeira vez na série. Qual? → Expansões pagas baixáveis (Expansion Pass)
+- Quem é esse personagem? → Steve
+- Que empresa britânica criou este personagem? → Rare
+- Que herói é o arqui-inimigo deste personagem? → Luigi
+- Quem é esse personagem? → Sub-Zero
+- Quem é esse personagem? → Amy Rose
+- De que série de jogos é protagonista esta personagem? → Horizon
+- Quem é esse personagem? → Yoshi
+- Que designer de jogos criou este personagem? → Michel Ancel
+- Que inspetora de polícia persegue este personagem? → Carmelita Fox
+- Quem é esta personagem? → Chun-Li
+- Quem é esse personagem? → Shadow the Hedgehog
+- De que série de jogos é protagonista este sargento? → Gears of War
+- Que estúdio criou este personagem, que estreou em 2001? → Bungie
+- Quem é esse personagem? → Cloud Strife
+- De que série de jogos é este herói? → The Legend of Zelda
+- De que série de jogos é este personagem? → Star Fox
+- Quem é este personagem? → Kratos
+- Que empresa criou este personagem, que estreou em 1990? → Nintendo
+- Que herói enfrentou este personagem no jogo de arcade de 1981 em que ele estreou? → Mario (então chamado Jumpman)
+- Em que jogo de luta este lutador estreou? → Street Fighter II
+- Que empresa criou a série de terror em que esta personagem estreou? → Capcom
+- Que heroína é a maior inimiga deste vilão? → Samus Aran
+- Que estúdio sueco criou o jogo em que esta criatura estreou? → Mojang Studios
+- De que série de jogos de luta este tirano é o chefe final? → Mortal Kombat
+- Que tipo de criatura da série Mario é este personagem? → Magikoopa
+- Quem é esse personagem? → Scorpion
+- Em que jogo do Mario esta personagem estreou? → Super Mario Galaxy
+- Qual destes lutadores é filho deste personagem? → Kazuya Mishima
+- Quem é esse personagem? → Rei Dedede
+- Em que cidade fictícia este personagem sobreviveu a um desastre como policial? → Raccoon City
+- Quem é esse personagem? → Pyramid Head
+- De que série de jogos de luta é este personagem? → Mortal Kombat
+- Que dublador deu voz a este personagem na estreia dele, em Mario Tennis? → Charles Martinet
+- Quem é esse personagem? → Sephiroth
+- Que empresa criou este personagem? → Sega
+- Quem é esta personagem? → Ellie
+- Que empresa criou a série de jogos deste personagem? → Konami
+- A que princesa este personagem serve como atendente? → Princesa Peach
+- Quem é este personagem? → Agente 47
+- Qual é o nome deste personagem? → Banjo
+- Que inimigo da série Mario é este? → Goomba
+- Que povo este vilão governa? → Kremlings
+- De que planeta vem este astronauta? → Hocotate
+- Quem criou o jogo de terror em que este personagem estreou? → Scott Cawthon
+- Qual personagem da franquia Mario é este? → Bowser Jr.
+- Este mascote simboliza qual série de jogos? → Fallout
+- Que inimigo clássico da franquia Mario é este? → Koopa Troopa
+- Em que unidade de elite este vilão era capitão antes de trair os colegas? → S.T.A.R.S.
+- Que herói esta personagem acompanha em sua aventura? → Link
+- Qual destes personagens de Mortal Kombat é este? → Raiden
+- Que ator deu voz e movimentos a este personagem de Grand Theft Auto cinco? → Steven Ogg
+- Quem é o irmão mais novo deste personagem? → Papyrus
+- Que empresa criou a série de jogos de luta deste personagem? → Capcom
+- Que série de jogos tem esta personagem como protagonista? → Metroid
+- Qual é o nome deste mascote de jogos? → Sackboy
+- Lançado em 1985 como acessório na América do Norte, este robô de brinquedo funcionava com qual console da Nintendo? → Nintendo Entertainment System (NES)
+
+# Âncoras já muito usadas em outros subtemas deste tema
+
+Estas entidades já têm várias perguntas no banco, em outros subtemas (o número entre parênteses). **Não as use como âncora**: o banco aceita no máximo 8 perguntas por âncora, somando todos os temas. Procure outras entidades.
+
+(nenhuma)
+
+# Formato de cada pergunta
+
+- `ancora`: a entidade sobre a qual está o fato perguntado (MANIFESTO §4). Informe `nome` (forma preferida em português), `descricao` (uma frase que identifica a entidade sem ambiguidade), `variantes` (outras grafias e nomes; pode ser lista vazia) e `fontes` (URLs sobre a entidade).
+- `angulo`: complete "a resposta é ___ da âncora" (MANIFESTO §5). Quando mais de um ângulo servir, use o mais específico.
+- `pergunta`, `resposta` e `distratores`: siga o MANIFESTO §6 e §7.
+- `fonte`: URLs que sustentam **o fato perguntado**.
+
+**Sobre as URLs:** você não tem acesso à internet nesta etapa. Cite apenas páginas que você tem alta confiança de que existem, de preferência artigos da Wikipédia em português ou em inglês, ou da Britannica. Um verificador vai abrir cada URL depois, e perguntas com fontes inválidas serão descartadas.
+
+Não inclua `id`, `tema` nem `subtema`: o sistema preenche esses campos.
+
+Antes de responder, revise cada pergunta contra os critérios de qualidade do MANIFESTO §8 e descarte ou reescreva as que falharem.
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.83 — 2026-10-27**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 e até 20 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+> - [`modo_pokemon.md`](modo_pokemon.md): o modo Pokémon e a coleção de perguntas de pokémon (§6, §15, §16, §17)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Dificuldade percebida** (2026-10-12): no app, quem lê pode avaliar a pergunta em cinco níveis, de muito fácil a muito difícil (§16, "Avaliação"). Essa avaliação poderá mudar o campo `dificuldade`, como **informação adicional à popularidade**, e não no lugar dela. **Por enquanto só é registrada:** não altera o campo, e a dificuldade, estimada ou percebida, **não orienta a criação de perguntas**. A ideia é coletar dados antes de decidir como usá-los.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **3 perguntas por âncora** em cada lote (2 até 2026-10-27), nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **8 perguntas por âncora** no banco inteiro (3 até 2026-10-23, 5 até 2026-10-27), somando texto e figura, e no máximo **3 com figura** (2 até 2026-10-27). As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+- **Resposta que é um ano ou uma data: sempre `multipla`.** Quando a resposta é um ano específico ("1969") ou uma data mais detalhada ("15 de novembro de 1889", "2 de fevereiro"), a pergunta é obrigatoriamente de múltipla escolha, com ou sem figura. Os distratores são anos (ou datas) próximos e críveis, no mesmo formato da resposta, nenhum deles também correto. A regra vale só quando **a resposta é o próprio ano ou a data**: século e década ("século dezenove", "década de 1970") e respostas em que o ano identifica outra coisa, como uma edição de Olimpíada ou de Copa ("Londres 2012", "1970, no México"), podem continuar abertas.
+- **Metade aberta, metade múltipla escolha** (desde 2026-10-27). O jogo original busca as duas formas na mesma proporção, em cada tema, para que um modo só de múltipla escolha tenha perguntas de todos os temas. Vale para texto e figura. Cada lote recebe a quantidade de `multipla` que aproxima o seu tema dessa meta (§17), e a pergunta segue a quantidade pedida, salvo quando a outra forma for claramente melhor.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **três perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+### Coleções
+
+Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um modo de jogo próprio (decidido em 2026-10-13). Cada coleção tem um documento próprio com as diretrizes dela; a única até agora é a de **pokémon**, do modo Pokémon, em [`modo_pokemon.md`](modo_pokemon.md).
+
+- A pergunta da coleção tem o campo `colecao`. O modo da coleção sorteia só as perguntas dela, de qualquer tema.
+- **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master e Linear).
+- **Subtema da coleção** (campo `subtema_colecao`): uma coleção pode ter subtemas próprios, definidos no documento dela, que dividem as perguntas dentro do modo. Eles não substituem tema e subtema, e a lista canônica (§3) não muda. A folga para sobreposição entre eles também é definida no documento da coleção.
+- As perguntas da coleção seguem esta Parte I: tema e subtema, âncora, fontes, redação e critérios. Podem ser com ou sem figura.
+- **Regras de conteúdo próprias:** o documento de uma coleção pode ter regras de conteúdo para as exclusivas dela, que partem desta Parte I e prevalecem sobre ela onde divergirem. Nos lotes exclusivos, o gerador e o crítico recebem esta Parte I e, depois dela, essas regras.
+- **Saturação das exclusivas:** é contada só dentro da coleção, com o limite definido no documento dela, e as exclusivas não contam na saturação do jogo original, porque uma partida nunca sorteia os dois conjuntos.
+- As exclusivas não contam nas metas do jogo original (§17), e o autopiloto não as produz: os lotes delas são rodados à mão.
+
+### Perguntas com áudio
+
+Uma pergunta de qualquer tipo pode ter um **trecho de áudio** (campo `audio`), decidido em 2026-10-12. O questionador lê o enunciado e manda o trecho tocar **na tela grande** (modo mesa), para todos ouvirem; o celular de quem lê não toca o som. **Até segunda ordem, as perguntas com áudio ficam fora do jogo:** o app não as sorteia em nenhum modo (§16), enquanto os trechos são revistos.
+
+- **De reconhecimento**, como as figuras: a pergunta pede para reconhecer o que se ouve ("De que país é este hino nacional?", "Que música é esta?", "Que animal faz este som?", "Que instrumento é este?", "De que compositor é esta peça?"). O enunciado nunca diz o que toca; pode trazer uma pista que ajude sem entregar ("Que ave do Cerrado…").
+- **Categorias:** hinos nacionais (Geografia › Bandeiras e Símbolos); música clássica e ópera (Artes e Pensamento › Música Clássica, Teatro e Ópera); música brasileira antiga (Entretenimento › Música Brasileira); sons de animais (Natureza, no subtema do bicho); instrumentos (Música Clássica, Música Brasileira ou Música Internacional, conforme o instrumento).
+- **Só áudio livre**, porque o repositório e o site são públicos: domínio público, CC0, CC BY ou CC BY-SA, sem NC nem ND. Gravações comerciais de música popular **não entram**: a composição fica protegida até 70 anos depois da morte do autor, e a gravação, até 70 anos depois de publicada. Na música brasileira antiga, a composição e a gravação precisam estar em domínio público no Brasil: autores mortos há mais de 70 anos (Chiquinha Gonzaga, Ernesto Nazareth, Zequinha de Abreu, Catulo da Paixão Cearense, Carlos Gomes) e gravação publicada há mais de 70 anos. *Pelo Telefone*, de Donga (morto em 1974), por exemplo, fica de fora. Boas fontes: os hinos da Banda da Marinha dos EUA e os sons do Serviço de Pesca e Vida Selvagem dos EUA (obras do governo americano, em domínio público), o Musopen e as gravações antigas da Casa Edison, todos no Wikimedia Commons.
+- **O LLM não ouve áudio.** A pergunta sai dos metadados do arquivo (título, descrição, categorias, origem) e das fontes, e **uma pessoa ouve o trecho** antes de ele entrar no banco, na página que o pipeline gera (§17).
+- **O trecho:** de 6 a 30 segundos, escolhido para ser reconhecível (o tema famoso de uma peça, o começo de um hino, o canto típico de uma ave), com entrada e saída suaves e volume igualado. Nas gravações antigas, o trecho pula o anúncio do locutor, que muitas vezes diz o nome da música.
+- **Saturação:** o áudio conta no limite de 8 perguntas por âncora, e cada âncora tem no máximo 1 pergunta com áudio.
+- **Resposta específica e justa:** o nome da música, do país, do animal ou do instrumento. Quando o som não permite distinguir a espécie ou o instrumento exato de outros parecidos (uma coruja de outra, o acordeão do bandoneón), a pergunta é `multipla`, sem distratores que soem igual.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **3 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras centrais e conhecidas**, mesmo que já tenham perguntas, a âncoras novas e obscuras (desde 2026-10-27; antes, "prefira âncoras novas"). O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para aprofundá-las com fatos e ângulos novos, sem repetir fatos.
+- **Tentar incluir uma âncora nova a cada 50 perguntas**, tão conhecida quanto as centrais, para manter alguma variedade. Se for difícil achar uma assim, o lote fica sem: uma âncora nova obscura não vale a troca.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

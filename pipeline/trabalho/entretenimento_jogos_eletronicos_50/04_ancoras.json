@@ -1,0 +1,1569 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "atari",
+        "nome": "Atari",
+        "descricao": "Empresa americana pioneira dos videogames, fundada em 1972 por Nolan Bushnell e Ted Dabney.",
+        "variantes": [
+          "Atari, Inc."
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Atari,_Inc."
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A Atari, empresa de Nolan Bushnell que popularizou os videogames nos anos setenta, foi fundada em qual estado americano?",
+      "resposta": "Califórnia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Atari,_Inc."
+      ],
+      "distratores": [
+        "Nova York",
+        "Texas",
+        "Massachusetts"
+      ],
+      "ancora": "atari"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "sega",
+        "nome": "Sega",
+        "descricao": "Empresa japonesa de videogames, criadora do Mega Drive e do Sonic.",
+        "variantes": [
+          "SEGA"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sega"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Antes de se mudar para o Japão, a Sega nasceu em 1940 como Standard Games, uma empresa de máquinas de diversão. Em que cidade?",
+      "resposta": "Honolulu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sega"
+      ],
+      "distratores": [
+        "Los Angeles",
+        "São Francisco",
+        "Seattle"
+      ],
+      "ancora": "sega"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "sega",
+        "nome": "Sega",
+        "descricao": "Empresa japonesa de videogames, criadora do Mega Drive e do Sonic.",
+        "variantes": [
+          "SEGA"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sega"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Depois do fracasso comercial do Dreamcast, a Sega anunciou que deixaria de fabricar consoles e passaria a só produzir jogos. Em que ano?",
+      "resposta": "2001",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dreamcast",
+        "https://en.wikipedia.org/wiki/Sega"
+      ],
+      "distratores": [
+        "1998",
+        "2003",
+        "2005"
+      ],
+      "ancora": "sega"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "game_boy",
+        "nome": "Game Boy",
+        "descricao": "Videogame portátil da Nintendo lançado em 1989.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Game_Boy"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Além do preço baixo, que vantagem ajudou o Game Boy, de tela esverdeada, a vencer portáteis coloridos e mais potentes, como o Atari Lynx e o Game Gear?",
+      "resposta": "Pilhas duravam muito mais",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Game_Boy"
+      ],
+      "distratores": [
+        "Tela bem maior",
+        "Gráficos mais detalhados",
+        "Mais botões no controle"
+      ],
+      "ancora": "game_boy"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "mega_drive",
+        "nome": "Mega Drive",
+        "descricao": "Console de videogame de dezesseis bits da Sega, lançado no Japão no fim dos anos oitenta.",
+        "variantes": [
+          "Sega Genesis",
+          "Genesis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sega_Genesis",
+          "https://pt.wikipedia.org/wiki/Mega_Drive"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Fora do Japão, em que país o Mega Drive fez tanto sucesso que seguiu sendo fabricado e vendido, em novas versões, até o século vinte e um?",
+      "resposta": "Brasil",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sega_Genesis",
+        "https://pt.wikipedia.org/wiki/Mega_Drive"
+      ],
+      "distratores": [
+        "México",
+        "Argentina",
+        "Coreia do Sul"
+      ],
+      "ancora": "mega_drive"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "sonic",
+        "nome": "Sonic",
+        "descricao": "Ouriço azul supersônico, mascote da Sega e protagonista da série Sonic the Hedgehog.",
+        "variantes": [
+          "Sonic the Hedgehog"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "No primeiro jogo de Sonic, de 1991, como se chama a primeira fase da aventura?",
+      "resposta": "Green Hill Zone",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game)"
+      ],
+      "distratores": [
+        "Emerald Hill Zone",
+        "Chemical Plant Zone",
+        "Angel Island Zone"
+      ],
+      "ancora": "sonic"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "sonic",
+        "nome": "Sonic",
+        "descricao": "Ouriço azul supersônico, mascote da Sega e protagonista da série Sonic the Hedgehog.",
+        "variantes": [
+          "Sonic the Hedgehog"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que artista da Sega desenhou o visual de Sonic, criado ao lado do programador Yuji Naka?",
+      "resposta": "Naoto Ohshima",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)"
+      ],
+      "distratores": [
+        "Akira Toriyama",
+        "Yoshitaka Amano",
+        "Ken Sugimori"
+      ],
+      "ancora": "sonic"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "kirby",
+        "nome": "Kirby",
+        "descricao": "Personagem rosa e redondo da Nintendo, que engole inimigos, estreante em 1992 num jogo da HAL Laboratory.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kirby_(character)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Kirby, o herói rosado da Nintendo, vive em Dream Land. Em que planeta fica essa terra?",
+      "resposta": "Pop Star",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kirby_(character)"
+      ],
+      "distratores": [
+        "Zebes",
+        "Corneria",
+        "Hocotate"
+      ],
+      "ancora": "kirby"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "half_life",
+        "nome": "Half-Life",
+        "descricao": "Jogo de tiro em primeira pessoa lançado em 1998, protagonizado pelo cientista Gordon Freeman.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Half-Life_(video_game)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Half-Life, o cientista Gordon Freeman sobrevive a um desastre numa instalação de pesquisas secreta no Novo México. Como ela se chama?",
+      "resposta": "Black Mesa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Half-Life_(video_game)"
+      ],
+      "distratores": [
+        "Aperture Science",
+        "City 17",
+        "Rapture"
+      ],
+      "ancora": "half_life"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "metal_gear",
+        "nome": "Metal Gear",
+        "descricao": "Série de jogos de espionagem e infiltração da Konami, iniciada em 1987.",
+        "variantes": [
+          "Metal Gear Solid"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Metal_Gear"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Metal Gear Solid, de 1998, Solid Snake se infiltra numa base de armas nucleares numa ilha de qual estado americano?",
+      "resposta": "Alasca",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Metal_Gear_Solid_(1998_video_game)"
+      ],
+      "distratores": [
+        "Havaí",
+        "Nevada",
+        "Texas"
+      ],
+      "ancora": "metal_gear"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "id_existente": "grand_theft_auto_san_andreas",
+        "nome": "Grand Theft Auto: San Andreas",
+        "descricao": "Jogo de mundo aberto da Rockstar Games lançado em 2004, protagonizado por Carl Johnson, o CJ.",
+        "variantes": [
+          "GTA San Andreas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O estado fictício de GTA San Andreas tem três cidades, inspiradas em Los Angeles, São Francisco e qual outra cidade americana?",
+      "resposta": "Las Vegas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas"
+      ],
+      "distratores": [
+        "Miami",
+        "Nova York",
+        "Chicago"
+      ],
+      "ancora": "grand_theft_auto_san_andreas"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "assassin_s_creed_jogo_de_2007",
+        "nome": "Assassin's Creed (jogo de 2007)",
+        "descricao": "Primeiro jogo da série Assassin's Creed, da Ubisoft, lançado em 2007 e protagonizado por Altaïr.",
+        "variantes": [
+          "Assassin's Creed"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Assassin%27s_Creed_(video_game)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "No primeiro Assassin's Creed, Altaïr caça seus alvos em três grandes cidades do Oriente Médio: Jerusalém, Acre e qual outra?",
+      "resposta": "Damasco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Assassin%27s_Creed_(video_game)"
+      ],
+      "distratores": [
+        "Constantinopla",
+        "Cairo",
+        "Bagdá"
+      ],
+      "ancora": "assassin_s_creed_jogo_de_2007"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "crash_bandicoot",
+        "nome": "Crash Bandicoot",
+        "descricao": "Série de jogos de plataforma iniciada em 1996 no primeiro PlayStation, estrelada por um marsupial laranja.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Crash_Bandicoot"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Crash Bandicoot, o mascote laranja do primeiro PlayStation, vive num arquipélago fictício perto da costa de qual país?",
+      "resposta": "Austrália",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Crash_Bandicoot_(character)"
+      ],
+      "distratores": [
+        "Nova Zelândia",
+        "Indonésia",
+        "Madagascar"
+      ],
+      "ancora": "crash_bandicoot"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "freddy_fazbear",
+        "nome": "Freddy Fazbear",
+        "descricao": "Urso animatrônico antagonista título da série de jogos de terror Five Nights at Freddy's.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Five_Nights_at_Freddy%27s"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Five Nights at Freddy's, de 2014, o jogador é vigia noturno e enfrenta o urso Freddy e outros animatrônicos em que tipo de estabelecimento?",
+      "resposta": "Pizzaria",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Five_Nights_at_Freddy%27s_(video_game)"
+      ],
+      "distratores": [
+        "Parque de diversões",
+        "Fábrica de brinquedos",
+        "Shopping center"
+      ],
+      "ancora": "freddy_fazbear"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "tetris",
+        "nome": "Tetris",
+        "descricao": "Jogo de quebra-cabeça com peças que caem, criado pelo russo Alexey Pajitnov em 1984.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tetris"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome Tetris junta o prefixo grego tetra, das peças de quatro quadrados, com o nome de qual esporte favorito do seu criador?",
+      "resposta": "Tênis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tetris"
+      ],
+      "distratores": [
+        "Xadrez",
+        "Críquete",
+        "Basquete"
+      ],
+      "ancora": "tetris"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "minecraft",
+        "nome": "Minecraft",
+        "descricao": "Jogo de construção com blocos criado pelo sueco Markus Persson e lançado em 2009.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Minecraft"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "A Microsoft comprou a Mojang, o estúdio sueco criador de Minecraft, por cerca de dois bilhões e meio de dólares. Em que ano?",
+      "resposta": "2014",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mojang_Studios",
+        "https://en.wikipedia.org/wiki/Minecraft"
+      ],
+      "distratores": [
+        "2011",
+        "2016",
+        "2019"
+      ],
+      "ancora": "minecraft"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Nintendo 64",
+        "descricao": "Console de mesa da Nintendo, de cartuchos, lançado em 1996, famoso por Super Mario 64.",
+        "variantes": [
+          "N64"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nintendo_64"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O Nintendo 64, que estreou junto com Super Mario 64, chegou às lojas japonesas em que ano?",
+      "resposta": "1996",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nintendo_64"
+      ],
+      "distratores": [
+        "1994",
+        "1998",
+        "1999"
+      ],
+      "ancora": "nintendo_64"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Nintendo 64",
+        "descricao": "Console de mesa da Nintendo, de cartuchos, lançado em 1996, famoso por Super Mario 64.",
+        "variantes": [
+          "N64"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nintendo_64"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Final Fantasy VII, que a Square planejava fazer para a Nintendo, acabou saindo no PlayStation. Que limitação do Nintendo 64 pesou nessa decisão?",
+      "resposta": "Cartuchos com pouco espaço",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Final_Fantasy_VII"
+      ],
+      "distratores": [
+        "Processador muito lento",
+        "Gráficos sem 3D",
+        "Controle sem analógico"
+      ],
+      "ancora": "nintendo_64"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Nintendo Switch",
+        "descricao": "Console híbrido da Nintendo, que funciona ligado à TV e como portátil, lançado em 2017.",
+        "variantes": [
+          "Switch"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nintendo_Switch"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O Nintendo Switch, console que se encaixa na TV e também vira portátil, foi lançado em que ano?",
+      "resposta": "2017",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nintendo_Switch"
+      ],
+      "distratores": [
+        "2015",
+        "2016",
+        "2019"
+      ],
+      "ancora": "nintendo_switch"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Super Nintendo",
+        "descricao": "Console de dezesseis bits da Nintendo, chamado Super Famicom no Japão, lançado em 1990.",
+        "variantes": [
+          "Super Famicom",
+          "SNES",
+          "Super Nintendo Entertainment System"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O Super Nintendo, chamado Super Famicom no Japão e grande rival do Mega Drive, chegou às lojas japonesas em que ano?",
+      "resposta": "1990",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System"
+      ],
+      "distratores": [
+        "1988",
+        "1992",
+        "1993"
+      ],
+      "ancora": "super_nintendo"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Resident Evil (jogo de 1996)",
+        "descricao": "Primeiro jogo da série de terror Resident Evil, da Capcom, passado numa mansão infestada de zumbis.",
+        "variantes": [
+          "Biohazard"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Resident_Evil_(1996_video_game)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O primeiro Resident Evil, da Capcom, que popularizou o termo survival horror numa mansão infestada de zumbis, foi lançado em que ano?",
+      "resposta": "1996",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Resident_Evil_(1996_video_game)"
+      ],
+      "distratores": [
+        "1993",
+        "1998",
+        "2000"
+      ],
+      "ancora": "resident_evil_jogo_de_1996"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "The Legend of Zelda: Ocarina of Time",
+        "descricao": "Jogo da série Zelda para Nintendo 64, lançado em 1998, primeira aventura de Link em três dimensões.",
+        "variantes": [
+          "Ocarina of Time"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "The Legend of Zelda: Ocarina of Time, primeira aventura de Link em três dimensões, para o Nintendo 64, foi lançado em que ano?",
+      "resposta": "1998",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time"
+      ],
+      "distratores": [
+        "1996",
+        "2000",
+        "2002"
+      ],
+      "ancora": "the_legend_of_zelda_ocarina_of_time"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Fortnite",
+        "descricao": "Jogo online da Epic Games, lançado em 2017, famoso pelo modo battle royale.",
+        "variantes": [
+          "Fortnite Battle Royale"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fortnite"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Fortnite, o jogo da Epic Games que virou febre com o modo battle royale e suas dancinhas, foi lançado em que ano?",
+      "resposta": "2017",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fortnite"
+      ],
+      "distratores": [
+        "2014",
+        "2015",
+        "2019"
+      ],
+      "ancora": "fortnite"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Angry Birds",
+        "descricao": "Jogo de celular do estúdio finlandês Rovio, em que pássaros são lançados com estilingue contra porcos verdes.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Angry_Birds_(video_game)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Angry Birds, o jogo de celular em que pássaros são lançados com um estilingue contra porcos verdes, foi lançado em que ano?",
+      "resposta": "2009",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Angry_Birds_(video_game)"
+      ],
+      "distratores": [
+        "2007",
+        "2011",
+        "2013"
+      ],
+      "ancora": "angry_birds"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "id_existente": "pong",
+        "nome": "Pong",
+        "descricao": "Jogo de fliperama da Atari que simula tênis de mesa, lançado em 1972.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pong"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Pong, sucesso da Atari em 1972, nasceu como exercício de treinamento passado por Nolan Bushnell a um engenheiro novato. Quem era ele?",
+      "resposta": "Allan Alcorn",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pong",
+        "https://en.wikipedia.org/wiki/Allan_Alcorn"
+      ],
+      "distratores": [
+        "Ralph Baer",
+        "Ted Dabney",
+        "Steve Jobs"
+      ],
+      "ancora": "pong"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "pong",
+        "nome": "Pong",
+        "descricao": "Jogo de fliperama da Atari que simula tênis de mesa, lançado em 1972.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pong"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Pouco depois de instalado na Califórnia, o primeiro protótipo de Pong parou de funcionar. Qual era o problema?",
+      "resposta": "Moedas demais no cofre",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pong"
+      ],
+      "distratores": [
+        "Tela queimada",
+        "Fio desligado",
+        "Botão quebrado"
+      ],
+      "ancora": "pong"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "pong",
+        "nome": "Pong",
+        "descricao": "Jogo de fliperama da Atari que simula tênis de mesa, lançado em 1972.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pong"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Pong foi inspirado num jogo de tênis de mesa de um console anterior, cuja fabricante depois processou a Atari. Que console era esse?",
+      "resposta": "Magnavox Odyssey",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pong",
+        "https://en.wikipedia.org/wiki/Magnavox_Odyssey"
+      ],
+      "distratores": [
+        "Atari 2600",
+        "ColecoVision",
+        "Intellivision"
+      ],
+      "ancora": "pong"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Breakout",
+        "descricao": "Jogo de fliperama da Atari, de 1976, em que uma bolinha rebatida por uma raquete derruba fileiras de tijolos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Breakout_(video_game)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Breakout, jogo da Atari de 1976 em que uma bolinha derruba tijolos, teve o protótipo feito por Steve Jobs e qual amigo dele?",
+      "resposta": "Steve Wozniak",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Breakout_(video_game)"
+      ],
+      "distratores": [
+        "Bill Gates",
+        "Paul Allen",
+        "Nolan Bushnell"
+      ],
+      "ancora": "breakout"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "id_existente": "nintendo",
+        "nome": "Nintendo",
+        "descricao": "Empresa japonesa de videogames fundada em 1889, criadora de Mario e Zelda.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nintendo"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "A Nintendo foi fundada em Quioto, em 1889, como fabricante de cartas de baralho. Quem foi o seu fundador?",
+      "resposta": "Fusajiro Yamauchi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nintendo",
+        "https://en.wikipedia.org/wiki/Fusajiro_Yamauchi"
+      ],
+      "distratores": [
+        "Hiroshi Yamauchi",
+        "Gunpei Yokoi",
+        "Satoru Iwata"
+      ],
+      "ancora": "nintendo"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "id_existente": "nintendo",
+        "nome": "Nintendo",
+        "descricao": "Empresa japonesa de videogames fundada em 1889, criadora de Mario e Zelda.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nintendo"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome japonês Nintendo costuma ser traduzido como deixar a sorte a cargo de quem?",
+      "resposta": "Do céu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nintendo"
+      ],
+      "distratores": [
+        "Do jogador",
+        "Dos ancestrais",
+        "Do imperador"
+      ],
+      "ancora": "nintendo"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "id_existente": "playstation",
+        "nome": "PlayStation",
+        "descricao": "Primeiro console de videogame da Sony, lançado em 1994.",
+        "variantes": [
+          "PS1",
+          "PSX"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/PlayStation_(console)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que engenheiro da Sony, chamado de pai do PlayStation, convenceu a empresa a entrar no mercado de videogames?",
+      "resposta": "Ken Kutaragi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ken_Kutaragi",
+        "https://en.wikipedia.org/wiki/PlayStation_(console)"
+      ],
+      "distratores": [
+        "Akio Morita",
+        "Kaz Hirai",
+        "Shuhei Yoshida"
+      ],
+      "ancora": "playstation"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "id_existente": "donkey_kong_jogo_de_1981",
+        "nome": "Donkey Kong (jogo de 1981)",
+        "descricao": "Fliperama da Nintendo de 1981 em que um gorila sequestra uma moça e marca a estreia de Mario.",
+        "variantes": [
+          "Donkey Kong"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Donkey_Kong_(video_game)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que jovem designer da Nintendo criou o fliperama Donkey Kong, de 1981, seu primeiro grande sucesso?",
+      "resposta": "Shigeru Miyamoto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Donkey_Kong_(1981_video_game)",
+        "https://en.wikipedia.org/wiki/Shigeru_Miyamoto"
+      ],
+      "distratores": [
+        "Toru Iwatani",
+        "Hideo Kojima",
+        "Yuji Naka"
+      ],
+      "ancora": "donkey_kong_jogo_de_1981"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "id_existente": "mortal_kombat",
+        "nome": "Mortal Kombat",
+        "descricao": "Jogo de luta de 1992, da Midway, famoso pela violência e pelos golpes finais chamados fatalities.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mortal_Kombat_(1992_video_game)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Mortal Kombat, de 1992, foi criado pelo artista John Tobias e por qual programador, que seguiu por décadas à frente da série?",
+      "resposta": "Ed Boon",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mortal_Kombat_(1992_video_game)",
+        "https://en.wikipedia.org/wiki/Ed_Boon"
+      ],
+      "distratores": [
+        "John Romero",
+        "John Carmack",
+        "Eugene Jarvis"
+      ],
+      "ancora": "mortal_kombat"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "id_existente": "lara_croft",
+        "nome": "Lara Croft",
+        "descricao": "Arqueóloga aventureira, protagonista da série de jogos Tomb Raider, criada em 1996 pela Core Design.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lara_Croft"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que designer britânico da Core Design foi um dos criadores de Lara Croft, a arqueóloga de Tomb Raider, em meados dos anos noventa?",
+      "resposta": "Toby Gard",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lara_Croft",
+        "https://en.wikipedia.org/wiki/Toby_Gard"
+      ],
+      "distratores": [
+        "Peter Molyneux",
+        "Will Wright",
+        "Michel Ancel"
+      ],
+      "ancora": "lara_croft"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "grand_theft_auto",
+        "nome": "Grand Theft Auto",
+        "descricao": "Série de jogos de mundo aberto da Rockstar Games, iniciada em 1997.",
+        "variantes": [
+          "GTA"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Grand_Theft_Auto"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que estúdio escocês, criador do jogo Lemmings, desenvolveu o primeiro Grand Theft Auto, de 1997?",
+      "resposta": "DMA Design (hoje Rockstar North)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Grand_Theft_Auto_(video_game)",
+        "https://en.wikipedia.org/wiki/Rockstar_North"
+      ],
+      "distratores": [
+        "Rare",
+        "Codemasters",
+        "Team17"
+      ],
+      "ancora": "grand_theft_auto"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "The Witcher (série de jogos)",
+        "descricao": "Série de jogos de RPG do estúdio polonês CD Projekt, protagonizada pelo caçador de monstros Geralt de Rívia.",
+        "variantes": [
+          "The Witcher",
+          "Wiedźmin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Witcher_(video_game)",
+          "https://en.wikipedia.org/wiki/The_Witcher"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "A série de jogos The Witcher, da CD Projekt, com o caçador de monstros Geralt de Rívia, adapta livros de qual escritor polonês?",
+      "resposta": "Andrzej Sapkowski",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Andrzej_Sapkowski",
+        "https://en.wikipedia.org/wiki/The_Witcher_(video_game)"
+      ],
+      "distratores": [
+        "Stanisław Lem",
+        "Olga Tokarczuk",
+        "Witold Gombrowicz"
+      ],
+      "ancora": "the_witcher_serie_de_jogos"
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "id_existente": "atari_2600",
+        "nome": "Atari 2600",
+        "descricao": "Console doméstico de cartuchos da Atari, lançado nos Estados Unidos no fim dos anos setenta.",
+        "variantes": [
+          "Atari VCS"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Atari_2600"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Quando chegou às lojas americanas, em 1977, o console que ficou famoso como Atari 2600 tinha outro nome. Qual era?",
+      "resposta": "Video Computer System",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Atari_2600"
+      ],
+      "distratores": [
+        "Atari Jaguar",
+        "Atari Lynx",
+        "Home Pong"
+      ],
+      "ancora": "atari_2600"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Wii",
+        "descricao": "Console de mesa da Nintendo lançado em 2006, famoso pelos controles com sensor de movimento.",
+        "variantes": [
+          "Nintendo Wii"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wii"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Antes de ser batizado de Wii, o console da Nintendo de controles com sensor de movimento era conhecido por qual codinome?",
+      "resposta": "Revolution",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wii"
+      ],
+      "distratores": [
+        "Dolphin",
+        "Project Reality",
+        "NX"
+      ],
+      "ancora": "wii"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Bowser",
+        "descricao": "Rei dos Koopas, tartaruga gigante e principal vilão da franquia Mario, da Nintendo.",
+        "variantes": [
+          "King Koopa",
+          "Kuppa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bowser_(character)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "No Japão, o vilão Bowser se chama Kuppa, nome derivado de qual prato da culinária coreana?",
+      "resposta": "Gukbap",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bowser_(character)"
+      ],
+      "distratores": [
+        "Bibimbap",
+        "Bulgogi",
+        "Kimchi"
+      ],
+      "ancora": "bowser"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "street_fighter_ii",
+        "nome": "Street Fighter II",
+        "descricao": "Jogo de luta da Capcom lançado nos fliperamas em 1991, que popularizou o gênero.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Street_Fighter_II"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Os combos de Street Fighter II, em que golpes encadeados não deixam o adversário reagir, surgiram de que maneira?",
+      "resposta": "Falha descoberta por acaso",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Street_Fighter_II",
+        "https://en.wikipedia.org/wiki/Combo_(video_games)"
+      ],
+      "distratores": [
+        "Pedido dos jogadores",
+        "Regra de um torneio",
+        "Cópia de Mortal Kombat"
+      ],
+      "ancora": "street_fighter_ii"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "id_existente": "street_fighter_ii",
+        "nome": "Street Fighter II",
+        "descricao": "Jogo de luta da Capcom lançado nos fliperamas em 1991, que popularizou o gênero.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Street_Fighter_II"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes personagens estava entre os oito lutadores que podiam ser escolhidos no Street Fighter II original, de 1991?",
+      "resposta": "Dhalsim",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Street_Fighter_II"
+      ],
+      "distratores": [
+        "Cammy",
+        "Dee Jay",
+        "Akuma"
+      ],
+      "ancora": "street_fighter_ii"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "id_existente": "codigo_konami",
+        "nome": "Código Konami",
+        "descricao": "Sequência de botões usada como truque em jogos da Konami, criada por Kazuhisa Hashimoto.",
+        "variantes": [
+          "Konami Code"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Konami_Code"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O Código Konami, sequência de setas e botões, ficou famoso no Nintendinho por dar trinta vidas ao jogador em qual jogo de tiro?",
+      "resposta": "Contra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Konami_Code"
+      ],
+      "distratores": [
+        "Gradius",
+        "Ikari Warriors",
+        "1942"
+      ],
+      "ancora": "codigo_konami"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Halo: Combat Evolved",
+        "descricao": "Primeiro jogo da série de tiro Halo, da Bungie, lançado em 2001 e estrelado pelo soldado Master Chief.",
+        "variantes": [
+          "Halo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Halo:_Combat_Evolved"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Halo, o jogo de tiro do soldado Master Chief, foi lançado em 2001 junto com qual console, do qual virou o carro-chefe?",
+      "resposta": "Xbox",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Halo:_Combat_Evolved"
+      ],
+      "distratores": [
+        "PlayStation 2",
+        "GameCube",
+        "Dreamcast"
+      ],
+      "ancora": "halo_combat_evolved"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "id_existente": "magnavox_odyssey",
+        "nome": "Magnavox Odyssey",
+        "descricao": "Primeiro console de videogame doméstico comercial, lançado em 1972 pela Magnavox.",
+        "variantes": [
+          "Odyssey"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Magnavox_Odyssey"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Para enfeitar seus gráficos simples, o Magnavox Odyssey, de 1972, vinha com películas plásticas coloridas que o jogador prendia onde?",
+      "resposta": "Na tela da TV",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Magnavox_Odyssey"
+      ],
+      "distratores": [
+        "No controle",
+        "No cartão de jogo",
+        "Na parede da sala"
+      ],
+      "ancora": "magnavox_odyssey"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "id_existente": "mario",
+        "nome": "Mario",
+        "descricao": "Personagem encanador da Nintendo, mascote da empresa, criado por Shigeru Miyamoto.",
+        "variantes": [
+          "Super Mario",
+          "Jumpman"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mario"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "No fliperama Donkey Kong, de 1981, antes de virar o famoso encanador, que profissão tinha Mario?",
+      "resposta": "Carpinteiro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mario"
+      ],
+      "distratores": [
+        "Pedreiro",
+        "Eletricista",
+        "Pintor"
+      ],
+      "ancora": "mario"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "id_existente": "the_sims",
+        "nome": "The Sims",
+        "descricao": "Jogo de simulação de vida lançado em 2000 pela Maxis, em que o jogador controla pessoas virtuais.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Sims_(video_game)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em The Sims, os personagens conversam numa língua inventada, sem palavras reconhecíveis. Como se chama essa língua?",
+      "resposta": "Simlish",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Simlish"
+      ],
+      "distratores": [
+        "Plumbob",
+        "Simoleon",
+        "Sim-Speak"
+      ],
+      "ancora": "the_sims"
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "id_existente": "super_mario_bros",
+        "nome": "Super Mario Bros.",
+        "descricao": "Jogo de plataforma da Nintendo lançado em 1985 para o NES, o Nintendinho.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Super_Mario_Bros."
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em Super Mario Bros., de 1985, quantos mundos Mario atravessa até resgatar a princesa no castelo final?",
+      "resposta": "Oito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Super_Mario_Bros."
+      ],
+      "distratores": [
+        "Seis",
+        "Dez",
+        "Doze"
+      ],
+      "ancora": "super_mario_bros"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "nintendo_64",
+      "nome": "Nintendo 64",
+      "descricao": "Console de mesa da Nintendo, de cartuchos, lançado em 1996, famoso por Super Mario 64.",
+      "variantes": [
+        "N64"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Nintendo_64"
+      ]
+    },
+    {
+      "id": "super_nintendo",
+      "nome": "Super Nintendo",
+      "descricao": "Console de dezesseis bits da Nintendo, chamado Super Famicom no Japão, lançado em 1990.",
+      "variantes": [
+        "Super Famicom",
+        "SNES",
+        "Super Nintendo Entertainment System"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System"
+      ]
+    },
+    {
+      "id": "resident_evil_jogo_de_1996",
+      "nome": "Resident Evil (jogo de 1996)",
+      "descricao": "Primeiro jogo da série de terror Resident Evil, da Capcom, passado numa mansão infestada de zumbis.",
+      "variantes": [
+        "Biohazard"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Resident_Evil_(1996_video_game)"
+      ]
+    },
+    {
+      "id": "the_legend_of_zelda_ocarina_of_time",
+      "nome": "The Legend of Zelda: Ocarina of Time",
+      "descricao": "Jogo da série Zelda para Nintendo 64, lançado em 1998, primeira aventura de Link em três dimensões.",
+      "variantes": [
+        "Ocarina of Time"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time"
+      ]
+    },
+    {
+      "id": "fortnite",
+      "nome": "Fortnite",
+      "descricao": "Jogo online da Epic Games, lançado em 2017, famoso pelo modo battle royale.",
+      "variantes": [
+        "Fortnite Battle Royale"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Fortnite"
+      ]
+    },
+    {
+      "id": "angry_birds",
+      "nome": "Angry Birds",
+      "descricao": "Jogo de celular do estúdio finlandês Rovio, em que pássaros são lançados com estilingue contra porcos verdes.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Angry_Birds_(video_game)"
+      ]
+    },
+    {
+      "id": "breakout",
+      "nome": "Breakout",
+      "descricao": "Jogo de fliperama da Atari, de 1976, em que uma bolinha rebatida por uma raquete derruba fileiras de tijolos.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Breakout_(video_game)"
+      ]
+    },
+    {
+      "id": "the_witcher_serie_de_jogos",
+      "nome": "The Witcher (série de jogos)",
+      "descricao": "Série de jogos de RPG do estúdio polonês CD Projekt, protagonizada pelo caçador de monstros Geralt de Rívia.",
+      "variantes": [
+        "The Witcher",
+        "Wiedźmin"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/The_Witcher_(video_game)",
+        "https://en.wikipedia.org/wiki/The_Witcher"
+      ]
+    },
+    {
+      "id": "wii",
+      "nome": "Wii",
+      "descricao": "Console de mesa da Nintendo lançado em 2006, famoso pelos controles com sensor de movimento.",
+      "variantes": [
+        "Nintendo Wii"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Wii"
+      ]
+    },
+    {
+      "id": "bowser",
+      "nome": "Bowser",
+      "descricao": "Rei dos Koopas, tartaruga gigante e principal vilão da franquia Mario, da Nintendo.",
+      "variantes": [
+        "King Koopa",
+        "Kuppa"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Bowser_(character)"
+      ]
+    },
+    {
+      "id": "halo_combat_evolved",
+      "nome": "Halo: Combat Evolved",
+      "descricao": "Primeiro jogo da série de tiro Halo, da Bungie, lançado em 2001 e estrelado pelo soldado Master Chief.",
+      "variantes": [
+        "Halo"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Halo:_Combat_Evolved"
+      ]
+    }
+  ],
+  "variantes": {
+    "atari": [
+      "Atari",
+      "Atari, Inc."
+    ],
+    "sega": [
+      "Sega",
+      "SEGA"
+    ],
+    "game_boy": [
+      "Game Boy"
+    ],
+    "mega_drive": [
+      "Mega Drive",
+      "Sega Genesis",
+      "Genesis"
+    ],
+    "sonic": [
+      "Sonic",
+      "Sonic the Hedgehog"
+    ],
+    "kirby": [
+      "Kirby"
+    ],
+    "half_life": [
+      "Half-Life"
+    ],
+    "metal_gear": [
+      "Metal Gear",
+      "Metal Gear Solid"
+    ],
+    "grand_theft_auto_san_andreas": [
+      "Grand Theft Auto: San Andreas",
+      "GTA San Andreas"
+    ],
+    "assassin_s_creed_jogo_de_2007": [
+      "Assassin's Creed (jogo de 2007)",
+      "Assassin's Creed"
+    ],
+    "crash_bandicoot": [
+      "Crash Bandicoot"
+    ],
+    "freddy_fazbear": [
+      "Freddy Fazbear"
+    ],
+    "tetris": [
+      "Tetris"
+    ],
+    "minecraft": [
+      "Minecraft"
+    ],
+    "pong": [
+      "Pong"
+    ],
+    "nintendo": [
+      "Nintendo"
+    ],
+    "playstation": [
+      "PlayStation",
+      "PS1",
+      "PSX"
+    ],
+    "donkey_kong_jogo_de_1981": [
+      "Donkey Kong (jogo de 1981)",
+      "Donkey Kong"
+    ],
+    "mortal_kombat": [
+      "Mortal Kombat"
+    ],
+    "lara_croft": [
+      "Lara Croft"
+    ],
+    "grand_theft_auto": [
+      "Grand Theft Auto",
+      "GTA"
+    ],
+    "atari_2600": [
+      "Atari 2600",
+      "Atari VCS"
+    ],
+    "pac_man": [
+      "Pac-Man",
+      "Puck-Man"
+    ],
+    "street_fighter_ii": [
+      "Street Fighter II"
+    ],
+    "codigo_konami": [
+      "Código Konami",
+      "Konami Code"
+    ],
+    "magnavox_odyssey": [
+      "Magnavox Odyssey",
+      "Odyssey"
+    ],
+    "mario": [
+      "Mario",
+      "Super Mario",
+      "Jumpman"
+    ],
+    "the_sims": [
+      "The Sims"
+    ],
+    "super_mario_bros": [
+      "Super Mario Bros."
+    ],
+    "nintendo_switch": [
+      "Nintendo Switch",
+      "Switch"
+    ]
+  }
+}
