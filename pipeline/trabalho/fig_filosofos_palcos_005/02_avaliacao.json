@@ -1,0 +1,229 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Escultura de Buda sentado (Sarnath), sem texto, clara e reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que religião nasceu dos ensinamentos do homem representado nesta escultura?",
+      "resposta": "Budismo",
+      "distratores": [
+        "Hinduísmo",
+        "Jainismo",
+        "Siquismo"
+      ],
+      "ancora": {
+        "nome": "Buda (Sidarta Gautama)",
+        "descricao": "Sidarta Gautama, mestre indiano do século seis ou cinco antes de Cristo, fundador do budismo.",
+        "variantes": [
+          "Sidarta Gautama",
+          "Siddhartha Gautama",
+          "O Buda"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada de pedra do Odeão de Herodes Ático, sem texto, nítida; cidade reconhecível pela forma.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica este teatro antigo?",
+      "resposta": "Atenas",
+      "distratores": [
+        "Roma",
+        "Pompeia",
+        "Siracusa"
+      ],
+      "ancora": {
+        "nome": "Odeão de Herodes Ático",
+        "descricao": "Teatro de pedra do ano 161 na encosta sudoeste da Acrópole de Atenas.",
+        "variantes": [
+          "Herodeion",
+          "Odeon de Herodes Atticus"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fachada rosa neoclássica nítida, sem texto; pergunta sustentada pelo trecho.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que abolicionista fez campanha neste teatro?",
+      "resposta": "Joaquim Nabuco",
+      "distratores": [
+        "José do Patrocínio",
+        "Luís Gama",
+        "André Rebouças"
+      ],
+      "ancora": {
+        "nome": "Teatro de Santa Isabel",
+        "descricao": "Teatro neoclássico do século dezenove no Recife, Pernambuco.",
+        "variantes": [
+          "Teatro Santa Isabel"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Marionetes de fios visíveis, de um único espetáculo; o texto parcial no fundo não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que tipo de boneco de teatro é este?",
+      "resposta": "Marionete",
+      "distratores": [
+        "Fantoche",
+        "Boneco de vara",
+        "Bunraku"
+      ],
+      "ancora": {
+        "nome": "Marionete",
+        "descricao": "Boneco de teatro controlado por fios ou cordas a partir de cima.",
+        "variantes": [
+          "Marioneta",
+          "Boneco de fios"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro de William James; a assinatura é da fotógrafa e não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que corrente filosófica americana foi popularizada por este pensador?",
+      "resposta": "Pragmatismo",
+      "distratores": [
+        "Utilitarismo",
+        "Positivismo",
+        "Existencialismo"
+      ],
+      "ancora": {
+        "nome": "William James",
+        "descricao": "Filósofo e psicólogo americano (1842-1910), considerado o pai da psicologia americana.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A gravura traz o nome ZHNΩN gravado no pedestal, o que entrega a resposta, além de código de acervo e legendas."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Afresco de Rafael, obra única, sem texto, bem legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que papa encomendou este afresco para decorar salas do Vaticano?",
+      "resposta": "Júlio II",
+      "distratores": [
+        "Leão X",
+        "Alexandre VI",
+        "Sisto IV"
+      ],
+      "ancora": {
+        "nome": "A Escola de Atenas",
+        "descricao": "Afresco de Rafael (1509-1511) no Palácio Apostólico, no Vaticano, com filósofos da Antiguidade.",
+        "variantes": [
+          "Scuola di Atene",
+          "The School of Athens"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Edifício moderno icônico à beira d'água, sem texto, reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica esta casa de ópera?",
+      "resposta": "Oslo",
+      "distratores": [
+        "Copenhague",
+        "Estocolmo",
+        "Helsinque"
+      ],
+      "ancora": {
+        "nome": "Ópera de Oslo",
+        "descricao": "Casa nacional de ópera e balé da Noruega, de mármore branco, no fiorde de Oslo.",
+        "variantes": [
+          "Operahuset",
+          "Oslo Opera House"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem minúscula, em baixa resolução e preto e branco, de retrato duvidoso; não é reconhecível nem legível no celular."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Ilustração de crianças fazendo sombra de mão (coelho), não mostra teatro de sombras com bonecos; assunto ambíguo e pouco reconhecível."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato a óleo claro, sem texto, de figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que obra de 1792 foi escrita por esta pensadora inglesa?",
+      "resposta": "Reivindicação dos Direitos da Mulher",
+      "distratores": [
+        "Frankenstein",
+        "O Contrato Social",
+        "Orgulho e Preconceito"
+      ],
+      "ancora": {
+        "nome": "Mary Wollstonecraft",
+        "descricao": "Escritora e filósofa inglesa (1759-1797), pioneira do feminismo.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do teatro romano bem conservado, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que país fica este teatro romano?",
+      "resposta": "Turquia",
+      "distratores": [
+        "Grécia",
+        "Itália",
+        "Líbia"
+      ],
+      "ancora": {
+        "nome": "Teatro de Aspendos",
+        "descricao": "Teatro romano bem conservado da antiga cidade de Aspendos, perto de Antália, na Turquia.",
+        "variantes": [
+          "Aspendus",
+          "Teatro de Aspendo"
+        ]
+      }
+    }
+  ]
+}

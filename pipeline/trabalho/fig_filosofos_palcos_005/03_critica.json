@@ -1,0 +1,75 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos (Buda fundou o budismo). Enunciado não nomeia a figura; distratores são religiões indianas plausíveis e nenhuma é correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma que o Odeão fica em Atenas. Enunciado não vaza e os distratores são cidades com teatros antigos, nenhuma correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho da Wikipédia diz que o teatro foi palco da campanha abolicionista de Joaquim Nabuco. O enunciado não nomeia o teatro. Os distratores são abolicionistas de outros lugares, sem apoio de que tenham feito campanha ali.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho em português trata fantoche e marionete como sinônimos, então \"Fantoche\" é defensável como resposta. \"Bunraku\" é um gênero de teatro, não um tipo de boneco da mesma categoria. Troquei os distratores por tipos de boneco claramente distintos.",
+      "reescrita": {
+        "pergunta": "Que tipo de boneco de teatro, controlado por fios a partir de cima, é este?",
+        "resposta": "Marionete",
+        "distratores": [
+          "Boneco de luva",
+          "Boneco de vara",
+          "Boneco de sombra"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos mostram James como grande defensor do pragmatismo, com a obra Pragmatismo (1907). \"Popularizada\" é literalmente correto. Os distratores não são correntes dele.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em inglês confirma que o afresco foi encomendado pelo papa Júlio II para decorar as salas do Palácio Apostólico. O enunciado não nomeia a obra. Os distratores são papas da época, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos situam a Ópera no centro de Oslo, no fiorde. A resposta não aparece no enunciado e os distratores são capitais nórdicas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma Reivindicação dos Direitos da Mulher (1792) como obra de Wollstonecraft. É resposta única para 1792 e os distratores são obras de outras autoras ou autores, nenhum correto. A resposta tem cinco palavras e os distratores têm no máximo quatro.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Aspendos fica na província de Antália, na Turquia, e que o teatro é romano. O enunciado não vaza e os distratores são países com teatros romanos, nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}

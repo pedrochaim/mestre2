@@ -1,0 +1,534 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Buda (Sidarta Gautama)",
+        "descricao": "Sidarta Gautama, mestre indiano do século seis ou cinco antes de Cristo, fundador do budismo.",
+        "variantes": [
+          "Sidarta Gautama",
+          "Siddhartha Gautama",
+          "O Buda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "buda",
+          "nome": "Buda",
+          "descricao": "Sidarta Gautama, mestre espiritual da Índia antiga e fundador do budismo.",
+          "variantes": [
+            "Sidarta Gautama",
+            "Siddhartha Gautama",
+            "Buddha",
+            "Gautama Buda",
+            "Buda Gautama",
+            "Buda Shakyamuni"
+          ]
+        },
+        {
+          "id": "budai",
+          "nome": "Budai",
+          "descricao": "Monge budista lendário, gordo e sorridente, popularmente chamado no Ocidente de Buda gordo ou Buda sorridente.",
+          "variantes": [
+            "Buda sorridente",
+            "Buda gordo",
+            "Hotei"
+          ]
+        },
+        {
+          "id": "mao_de_buda",
+          "nome": "Mão-de-buda",
+          "descricao": "Variedade de cidra (Citrus medica var. sarcodactylis) cujo fruto se divide em partes como dedos.",
+          "variantes": [
+            "Cidra-digitada",
+            "Buddha's hand",
+            "Citrus medica var. sarcodactylis"
+          ]
+        },
+        {
+          "id": "bumba_meu_boi",
+          "nome": "Bumba meu boi",
+          "descricao": "Folguedo popular brasileiro, muito forte no Maranhão, que encena a morte e a ressurreição de um boi.",
+          "variantes": [
+            "Boi-bumbá"
+          ]
+        },
+        {
+          "id": "io",
+          "nome": "Io",
+          "descricao": "Lua de Júpiter, a mais interna das quatro descobertas por Galileu.",
+          "variantes": [
+            "Io (lua)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Odeão de Herodes Ático",
+        "descricao": "Teatro de pedra do ano 161 na encosta sudoeste da Acrópole de Atenas.",
+        "variantes": [
+          "Herodeion",
+          "Odeon de Herodes Atticus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "heroina",
+          "nome": "Heroína",
+          "descricao": "Droga opioide derivada da morfina, a diacetilmorfina, comercializada originalmente como medicamento.",
+          "variantes": [
+            "Diacetilmorfina",
+            "Diamorfina",
+            "Heroin"
+          ]
+        },
+        {
+          "id": "templo_de_hera_olimpia",
+          "nome": "Templo de Hera (Olímpia)",
+          "descricao": "Antigo templo grego arcaico em Olímpia, onde a chama olímpica é acesa.",
+          "variantes": [
+            "Heraion",
+            "Heréon de Olímpia"
+          ]
+        },
+        {
+          "id": "hiperion",
+          "nome": "Hipérion",
+          "descricao": "Lua de Saturno de forma irregular, rotação caótica e aparência de esponja.",
+          "variantes": [
+            "Hyperion",
+            "Saturno VII"
+          ]
+        },
+        {
+          "id": "herodoto",
+          "nome": "Heródoto",
+          "descricao": "Historiador grego do século cinco a.C., nascido em Halicarnasso, autor das Histórias sobre as Guerras Médicas.",
+          "variantes": [
+            "Herodotus"
+          ]
+        },
+        {
+          "id": "teremim",
+          "nome": "Teremim",
+          "descricao": "Instrumento eletrônico tocado sem contato físico, pelo movimento das mãos perto de duas antenas, criado por Léon Theremin.",
+          "variantes": [
+            "Theremin",
+            "Teremin",
+            "Eterofone"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Teatro de Santa Isabel",
+        "descricao": "Teatro neoclássico do século dezenove no Recife, Pernambuco.",
+        "variantes": [
+          "Teatro Santa Isabel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teatro_alla_scala",
+          "nome": "Teatro alla Scala",
+          "descricao": "Casa de ópera de Milão, na Itália, inaugurada em 1778.",
+          "variantes": [
+            "La Scala",
+            "Scala de Milão"
+          ]
+        },
+        {
+          "id": "mosteiro_dos_jeronimos",
+          "nome": "Mosteiro dos Jerónimos",
+          "descricao": "Mosteiro manuelino em Belém, Lisboa, ligado às viagens de Vasco da Gama.",
+          "variantes": [
+            "Mosteiro de Santa Maria de Belém"
+          ]
+        },
+        {
+          "id": "teatro_di_san_carlo",
+          "nome": "Teatro di San Carlo",
+          "descricao": "Casa de ópera de Nápoles, na Itália, inaugurada em 1737.",
+          "variantes": [
+            "Teatro San Carlo",
+            "Teatro de São Carlos de Nápoles"
+          ]
+        },
+        {
+          "id": "gateway_arch",
+          "nome": "Gateway Arch",
+          "descricao": "Arco monumental de aço inoxidável à beira do rio Mississippi, nos Estados Unidos, símbolo da expansão para o Oeste.",
+          "variantes": [
+            "Arco Gateway",
+            "Arco de Saint Louis"
+          ]
+        },
+        {
+          "id": "teatro_de_revista",
+          "nome": "Teatro de revista",
+          "descricao": "Gênero teatral de música, dança e humor satírico, muito popular no Rio de Janeiro do fim do século dezenove a meados do século vinte.",
+          "variantes": [
+            "Revista (teatro)",
+            "Revista de ano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Marionete",
+        "descricao": "Boneco de teatro controlado por fios ou cordas a partir de cima.",
+        "variantes": [
+          "Marioneta",
+          "Boneco de fios"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maionese",
+          "nome": "Maionese",
+          "descricao": "Molho cremoso emulsionado de óleo, gema de ovo e ácido (vinagre ou limão).",
+          "variantes": [
+            "Mayonnaise",
+            "Mayo"
+          ]
+        },
+        {
+          "id": "juno_moneta",
+          "nome": "Juno Moneta",
+          "descricao": "Epíteto da deusa Juno, em cujo templo no Capitólio funcionava a casa da moeda de Roma.",
+          "variantes": [
+            "Moneta"
+          ]
+        },
+        {
+          "id": "mintonette",
+          "nome": "Mintonette",
+          "descricao": "Nome original dado por William G. Morgan, em 1895, ao jogo que viria a ser o vôlei.",
+          "variantes": [
+            "Minonette"
+          ]
+        },
+        {
+          "id": "clarinete",
+          "nome": "Clarinete",
+          "descricao": "Instrumento de sopro de palheta simples, da família das madeiras, com tubo quase cilíndrico.",
+          "variantes": [
+            "Clarinet"
+          ]
+        },
+        {
+          "id": "camisa_listrada_breta",
+          "nome": "Camisa listrada bretã",
+          "descricao": "Camisa de malha com listras horizontais azuis e brancas, adotada pela marinha francesa em 1858 e popularizada na moda por Coco Chanel.",
+          "variantes": [
+            "Marinière",
+            "Breton shirt",
+            "Camisa marinheira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "William James",
+        "descricao": "Filósofo e psicólogo americano (1842-1910), considerado o pai da psicologia americana.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "willem_dafoe",
+          "nome": "Willem Dafoe",
+          "descricao": "Ator americano indicado quatro vezes ao Oscar, nascido em Appleton, Wisconsin.",
+          "variantes": [
+            "William James Dafoe"
+          ]
+        },
+        {
+          "id": "william_addis",
+          "nome": "William Addis",
+          "descricao": "Empresário inglês do século dezoito que criou um modelo de escova de dentes produzido em série.",
+          "variantes": []
+        },
+        {
+          "id": "williams",
+          "nome": "Williams",
+          "descricao": "Equipe britânica de Fórmula 1 fundada em 1977, pela qual Nelson Piquet foi campeão em 1987 e Nigel Mansell em 1992.",
+          "variantes": [
+            "Williams Racing",
+            "Williams Grand Prix Engineering"
+          ]
+        },
+        {
+          "id": "william_thomson_lorde_kelvin",
+          "nome": "William Thomson (Lorde Kelvin)",
+          "descricao": "Físico britânico do século dezenove, nascido em Belfast e professor em Glasgow, que dá nome à escala Kelvin.",
+          "variantes": [
+            "Lord Kelvin",
+            "Lorde Kelvin",
+            "William Thomson"
+          ]
+        },
+        {
+          "id": "william_wallace",
+          "nome": "William Wallace",
+          "descricao": "Cavaleiro escocês que liderou a resistência contra o domínio inglês no fim do século treze, executado em 1305.",
+          "variantes": [
+            "Sir William Wallace"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "A Escola de Atenas",
+        "descricao": "Afresco de Rafael (1509-1511) no Palácio Apostólico, no Vaticano, com filósofos da Antiguidade.",
+        "variantes": [
+          "Scuola di Atene",
+          "The School of Athens"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_escola_de_atenas",
+          "nome": "A Escola de Atenas",
+          "descricao": "Afresco de Rafael nos Palácios do Vaticano.",
+          "variantes": [
+            "The School of Athens",
+            "Scuola di Atene",
+            "Escola de Atenas"
+          ]
+        },
+        {
+          "id": "acropole_de_atenas",
+          "nome": "Acrópole de Atenas",
+          "descricao": "Colina fortificada de Atenas onde ficam o Partenon, o Erecteion e outros monumentos do século cinco a.C.",
+          "variantes": [
+            "Acropolis of Athens"
+          ]
+        },
+        {
+          "id": "tetradracma_ateniense",
+          "nome": "Tetradracma ateniense",
+          "descricao": "Moeda de prata de Atenas, da época clássica, com a cabeça de Atena de um lado e uma coruja do outro.",
+          "variantes": [
+            "Coruja de Atenas",
+            "Athenian tetradrachm"
+          ]
+        },
+        {
+          "id": "escola_de_samba",
+          "nome": "Escola de samba",
+          "descricao": "Agremiação carnavalesca brasileira que desfila com enredo, alas, bateria, mestre-sala e porta-bandeira.",
+          "variantes": []
+        },
+        {
+          "id": "peste_de_atenas",
+          "nome": "Peste de Atenas",
+          "descricao": "Epidemia que devastou Atenas a partir de 430 a.C., no início da Guerra do Peloponeso, descrita por Tucídides.",
+          "variantes": [
+            "Praga de Atenas",
+            "Plague of Athens"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ópera de Oslo",
+        "descricao": "Casa nacional de ópera e balé da Noruega, de mármore branco, no fiorde de Oslo.",
+        "variantes": [
+          "Operahuset",
+          "Oslo Opera House"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "opera_de_oslo",
+          "nome": "Ópera de Oslo",
+          "descricao": "Casa da Ópera e Balé Nacional da Noruega, edifício de mármore branco à beira do fiorde de Oslo.",
+          "variantes": [
+            "Oslo Opera House",
+            "Operahuset"
+          ]
+        },
+        {
+          "id": "royal_opera_house",
+          "nome": "Royal Opera House",
+          "descricao": "Teatro de ópera e balé no bairro de Covent Garden, em Londres, sede da Royal Opera e do Royal Ballet.",
+          "variantes": [
+            "Covent Garden",
+            "Royal Ballet and Opera"
+          ]
+        },
+        {
+          "id": "opera_de_sydney",
+          "nome": "Ópera de Sydney",
+          "descricao": "Casa de espetáculos com cobertura em forma de velas no porto de Sydney, na Austrália.",
+          "variantes": [
+            "Sydney Opera House"
+          ]
+        },
+        {
+          "id": "opera_de_arame",
+          "nome": "Ópera de Arame",
+          "descricao": "Teatro de estrutura tubular de aço e cobertura transparente, cercado por um lago, numa antiga pedreira.",
+          "variantes": [
+            "Wire Opera House",
+            "Teatro Ópera de Arame"
+          ]
+        },
+        {
+          "id": "porta_do_sol_de_tiwanaku",
+          "nome": "Porta do Sol de Tiwanaku",
+          "descricao": "Portal monolítico esculpido pela cultura Tiwanaku, perto do Lago Titicaca, na Bolívia.",
+          "variantes": [
+            "Porta do Sol",
+            "Puerta del Sol",
+            "Gateway of the Sun"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Mary Wollstonecraft",
+        "descricao": "Escritora e filósofa inglesa (1759-1797), pioneira do feminismo.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "mary_wollstonecraft",
+          "nome": "Mary Wollstonecraft",
+          "descricao": "Escritora e filósofa inglesa (1759–1797), autora de Reivindicação dos Direitos da Mulher.",
+          "variantes": []
+        },
+        {
+          "id": "mary_shelley",
+          "nome": "Mary Shelley",
+          "descricao": "Escritora inglesa, autora de Frankenstein.",
+          "variantes": [
+            "Mary Wollstonecraft Shelley",
+            "Mary Godwin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Teatro de Aspendos",
+        "descricao": "Teatro romano bem conservado da antiga cidade de Aspendos, perto de Antália, na Turquia.",
+        "variantes": [
+          "Aspendus",
+          "Teatro de Aspendo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aspendos",
+          "nome": "Aspendos",
+          "descricao": "Antiga cidade greco-romana na província de Antalya, na Turquia, famosa pelo teatro romano bem conservado.",
+          "variantes": [
+            "Aspendus",
+            "Teatro de Aspendos"
+          ]
+        },
+        {
+          "id": "mamulengo",
+          "nome": "Mamulengo",
+          "descricao": "Teatro popular de bonecos de luva e vara do Nordeste, especialmente de Pernambuco.",
+          "variantes": [
+            "Teatro de mamulengo"
+          ]
+        },
+        {
+          "id": "teatro_de_pompeu",
+          "nome": "Teatro de Pompeu",
+          "descricao": "Primeiro teatro permanente de pedra de Roma, inaugurado em 55 antes de Cristo.",
+          "variantes": [
+            "Theatre of Pompey"
+          ]
+        },
+        {
+          "id": "teatro_de_arte_de_moscou",
+          "nome": "Teatro de Arte de Moscou",
+          "descricao": "Companhia teatral russa fundada em 1898 por Stanislavski e Nemirovitch-Dantchenko.",
+          "variantes": [
+            "Moscow Art Theatre",
+            "MKhAT"
+          ]
+        },
+        {
+          "id": "teatro_de_dionisio",
+          "nome": "Teatro de Dionísio",
+          "descricao": "Antigo teatro grego na encosta sul da Acrópole de Atenas, onde se realizavam as Dionísias da cidade.",
+          "variantes": [
+            "Teatro de Dioniso",
+            "Theatre of Dionysus"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "buda",
+      "motivo": "Ambos são Sidarta Gautama, fundador do budismo."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Odeão de Herodes Ático."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Teatro de Santa Isabel do Recife não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Marionete não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "William James, filósofo e psicólogo, não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "a_escola_de_atenas",
+      "motivo": "Mesmo afresco de Rafael no Vaticano."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "opera_de_oslo",
+      "motivo": "Mesma casa de ópera de Oslo."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "mary_wollstonecraft",
+      "motivo": "Mesma escritora e filósofa (1759-1797)."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "A candidata Aspendos é a cidade; o teatro é uma parte dela, portanto entidade distinta."
+    }
+  ]
+}

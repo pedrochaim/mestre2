@@ -1,0 +1,97 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que religião nasceu dos ensinamentos do homem representado nesta escultura?",
+        "resposta": "Budismo"
+      },
+      "existentes": [
+        {
+          "id": "q03348",
+          "pergunta": "O título Buda, dado a Sidarta Gautama, significa o quê em sânscrito?",
+          "resposta": "O Desperto"
+        },
+        {
+          "id": "q03349",
+          "pergunta": "Sidarta Gautama, o Buda, nasceu em Lumbini. Em que país atual fica esse lugar?",
+          "resposta": "Nepal"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que papa encomendou este afresco para decorar salas do Vaticano?",
+        "resposta": "Júlio II"
+      },
+      "existentes": [
+        {
+          "id": "q00433",
+          "pergunta": "Quem pintou este afresco?",
+          "resposta": "Rafael"
+        },
+        {
+          "id": "q03057",
+          "pergunta": "No afresco A Escola de Atenas, Rafael teria dado ao filósofo Platão o rosto de que outro artista?",
+          "resposta": "Leonardo da Vinci"
+        },
+        {
+          "id": "q06566",
+          "pergunta": "Enquanto Rafael pintava A Escola de Atenas no Vaticano, entre 1509 e 1511, que obra famosa Michelangelo pintava ali perto?",
+          "resposta": "O teto da Capela Sistina"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade fica esta casa de ópera?",
+        "resposta": "Oslo"
+      },
+      "existentes": [
+        {
+          "id": "q16140",
+          "pergunta": "Em que país nórdico fica esta casa de ópera de mármore branco?",
+          "resposta": "Noruega"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que obra de 1792 foi escrita por esta pensadora inglesa?",
+        "resposta": "Reivindicação dos Direitos da Mulher"
+      },
+      "existentes": [
+        {
+          "id": "q02959",
+          "pergunta": "A pioneira feminista Mary Wollstonecraft, autora de Reivindicação dos Direitos da Mulher, era o que da autora de Frankenstein?",
+          "resposta": "Mãe"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Religião originada do Buda é fato distinto do significado do título ou do local de nascimento."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O papa que encomendou o afresco é um fato diferente do autor, do rosto de Platão ou da obra de Michelangelo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cidade (Oslo) e país (Noruega) são fatos distintos; saber o país não leva à cidade."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A obra de 1792 é fato diferente do parentesco com a autora de Frankenstein, embora a existente cite o título na pergunta."
+    }
+  ]
+}
