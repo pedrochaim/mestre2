@@ -1,0 +1,77 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido Dr. J confirmado nos trechos; o enunciado não identifica o jogador e os distratores são apelidos críveis de outros astros.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tatum jogou em Duke, segundo os trechos. O enunciado não entrega nada e os distratores são universidades críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carmelo Anthony foi campeão nacional como calouro por Syracuse em 2003, como dizem os trechos. O enunciado não identifica o jogador.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Armador do Utah Jazz' com 'parceiro de longa data' quase permite responder sem a figura. 'Linha de frente' também é impreciso, pois Stockton era armador. Troquei por uma formulação que depende da figura. Os trechos sustentam a dupla Stockton e Malone.",
+      "reescrita": {
+        "pergunta": "Quem foi o companheiro de time de longa data deste jogador, com quem ele formou uma das maiores duplas da história da liga?",
+        "resposta": "Karl Malone",
+        "distratores": [
+          "Scottie Pippen",
+          "Charles Barkley",
+          "Patrick Ewing"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Que apelido' admite outras respostas defensáveis, como AD, e em português o mais popular é Monocelha. Em múltipla escolha, 'qual destes' deixa a resposta única. The Brow está no trecho em inglês.",
+      "reescrita": {
+        "pergunta": "Qual destes é um apelido deste jogador da NBA?",
+        "resposta": "The Brow",
+        "distratores": [
+          "The Beard",
+          "The Process",
+          "Greek Freak"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Camaronês' e 'deu a si mesmo' entregam o apelido The Process sem a figura, que vira enfeite. Removi as pistas. O trecho confirma o apelido.",
+      "reescrita": {
+        "pergunta": "Qual destes é o apelido deste pivô da NBA?",
+        "resposta": "The Process",
+        "distratores": [
+          "The Brow",
+          "The Joker",
+          "The Beard"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Taurasi ganhou três títulos nacionais seguidos por UConn. O enunciado não identifica a jogadora e os distratores são universidades críveis.",
+      "reescrita": null
+    }
+  ]
+}

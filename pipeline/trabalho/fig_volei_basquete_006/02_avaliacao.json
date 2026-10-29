@@ -1,0 +1,185 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto com a camisa do Seattle Storm, time que não marcou a carreira dela; reconhecimento só pelo número e a pergunta ficaria ambígua."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Close do rosto, sem contexto. A jogadora não é reconhecível pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, de figura pública. Apelido famoso rende boa pergunta sem entregar.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que apelido ficou famoso para este craque do basquete americano?",
+      "resposta": "Dr. J",
+      "distratores": [
+        "Air",
+        "Magic",
+        "Iceman"
+      ],
+      "ancora": {
+        "nome": "Julius Erving",
+        "descricao": "Ex-jogador americano de basquete, estrela da ABA e da NBA, conhecido como Dr. J.",
+        "variantes": [
+          "Dr. J"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto de ação nítida; o texto Celtics não entrega o nome nem a universidade.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Por qual universidade jogou este atleta antes de chegar à NBA?",
+      "resposta": "Duke",
+      "distratores": [
+        "Kentucky",
+        "Kansas",
+        "Syracuse"
+      ],
+      "ancora": {
+        "nome": "Jayson Tatum",
+        "descricao": "Ala americano de basquete do Boston Celtics, campeão da NBA em 2024.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública; a camisa dos Lakers não entrega o nome nem a universidade.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Por qual universidade este astro da NBA foi campeão nacional logo no primeiro ano?",
+      "resposta": "Syracuse",
+      "distratores": [
+        "Duke",
+        "Kentucky",
+        "Kansas"
+      ],
+      "ancora": {
+        "nome": "Carmelo Anthony",
+        "descricao": "Ex-ala americano de basquete, dez vezes All-Star da NBA, conhecido como Melo.",
+        "variantes": [
+          "Melo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido e sem texto de figura pública; a pergunta exige um passo além do reconhecimento.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quem foi o parceiro de longa data deste armador na linha de frente do Utah Jazz?",
+      "resposta": "Karl Malone",
+      "distratores": [
+        "Scottie Pippen",
+        "Charles Barkley",
+        "Patrick Ewing"
+      ],
+      "ancora": {
+        "nome": "John Stockton",
+        "descricao": "Ex-armador americano de basquete que jogou toda a carreira no Utah Jazz.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem antiga, granulada e de baixa qualidade; não fica legível nem reconhecível no celular."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida; a sobrancelha é característica e o texto Lakers Basketball não entrega o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que apelido tem este pivô e ala-pivô da NBA?",
+      "resposta": "The Brow",
+      "distratores": [
+        "The Beard",
+        "The Process",
+        "Greek Freak"
+      ],
+      "ancora": {
+        "nome": "Anthony Davis",
+        "descricao": "Ala-pivô americano de basquete da NBA, apelidado The Brow.",
+        "variantes": [
+          "AD",
+          "The Brow"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Jogadora com a camisa do Brasil, mas pouco reconhecível pelo rosto. As perguntas possíveis (ouro olímpico) têm risco de ambiguidade."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Pessoa em meio a uma multidão, de camisa amarela, sem indício de vôlei. Não é reconhecível e há outras pessoas em primeiro plano."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida e sem texto que entregue a resposta; o apelido só se alcança depois de reconhecer o jogador.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que apelido este pivô camaronês da NBA deu a si mesmo?",
+      "resposta": "The Process",
+      "distratores": [
+        "The Brow",
+        "The Joker",
+        "The Beard"
+      ],
+      "ancora": {
+        "nome": "Joel Embiid",
+        "descricao": "Pivô camaronês-americano de basquete do Philadelphia 76ers, MVP da NBA em 2023.",
+        "variantes": [
+          "The Process"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública; a camisa de Phoenix não entrega a universidade.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Por qual universidade esta jogadora conquistou três títulos nacionais seguidos?",
+      "resposta": "UConn",
+      "distratores": [
+        "Tennessee",
+        "Stanford",
+        "Louisiana State"
+      ],
+      "ancora": {
+        "nome": "Diana Taurasi",
+        "descricao": "Ex-armadora americana de basquete, maior pontuadora da história da WNBA, jogou no Phoenix Mercury.",
+        "variantes": []
+      }
+    }
+  ]
+}

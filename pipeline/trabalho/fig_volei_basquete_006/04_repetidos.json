@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Por qual universidade jogou este atleta antes de chegar à NBA?",
+        "resposta": "Duke"
+      },
+      "existentes": [
+        {
+          "id": "q16076",
+          "pergunta": "Em que universidade americana este jogador atuou antes de chegar à NBA?",
+          "resposta": "Duke"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual destes é o apelido deste pivô da NBA?",
+        "resposta": "The Process"
+      },
+      "existentes": [
+        {
+          "id": "q15668",
+          "pergunta": "Em que universidade americana este pivô jogou um ano antes de ir para a NBA?",
+          "resposta": "Kansas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a universidade do jogador antes da NBA, com a mesma resposta (Duke).",
+      "id_existente": "q16076"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre o apelido do pivô; a existente é sobre a universidade. São fatos diferentes."
+    }
+  ]
+}
