@@ -323443,5 +323443,130 @@
       "licenca": "CC BY-SA 2.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q16760",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "telescopio_espacial_kepler",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que telescópio espacial da NASA é este?",
+    "resposta": "Kepler",
+    "distratores": [
+      "Spitzer",
+      "Hubble",
+      "Chandra"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kepler_space_telescope",
+      "https://pt.wikipedia.org/wiki/Telesc%C3%B3pio_Espacial_Kepler"
+    ],
+    "imagem": {
+      "arquivo": "q16760.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kepler_Space_Telescope_spacecraft_model_2.png",
+      "autor": "NASA",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q16761",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "halo_solar",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que fenômeno óptico da atmosfera forma este anel em volta do Sol ou da Lua?",
+    "resposta": "Halo de 22 graus",
+    "distratores": [
+      "Arco-íris lunar",
+      "Pilar de luz",
+      "Aurora boreal"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/22%C2%B0_halo",
+      "https://pt.wikipedia.org/wiki/Halo_de_22%C2%B0"
+    ],
+    "imagem": {
+      "arquivo": "q16761.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:22°_Moon_halo.jpg",
+      "autor": "Juris Seņņikovs",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q16762",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "pa_lua_de_saturno",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que lua de Saturno é esta?",
+    "resposta": "Pã",
+    "distratores": [
+      "Atlas",
+      "Prometeu",
+      "Pandora"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pan_%28moon%29",
+      "https://pt.wikipedia.org/wiki/P%C3%A3_%28sat%C3%A9lite%29"
+    ],
+    "imagem": {
+      "arquivo": "q16762.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:PIA21436.jpg",
+      "autor": "NASA, Matúš Motlo",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q16763",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "nebulosa_da_ampulheta",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que nebulosa planetária é esta?",
+    "resposta": "Nebulosa da Ampulheta",
+    "distratores": [
+      "Nebulosa do Anel",
+      "Nebulosa da Hélice",
+      "Nebulosa do Olho de Gato"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Engraved_Hourglass_Nebula",
+      "https://pt.wikipedia.org/wiki/Nebulosa_da_Ampulheta"
+    ],
+    "imagem": {
+      "arquivo": "q16763.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:MyCn18-crop.png",
+      "autor": "NASA, R. Sahai, J. Trauger (JPL), and The WFPC2 Science Team",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q16764",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "katherine_johnson",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Um filme de dois mil e dezessete, baseado em livro, conta a história desta matemática e de duas colegas. Que filme é esse?",
+    "resposta": "Estrelas Além do Tempo",
+    "distratores": [
+      "Apollo 13",
+      "Gravidade",
+      "O Primeiro Homem"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Katherine_Johnson",
+      "https://pt.wikipedia.org/wiki/Katherine_Johnson"
+    ],
+    "imagem": {
+      "arquivo": "q16764.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Katherine_Johnson_1983.jpg",
+      "autor": "NASA",
+      "licenca": "Public domain"
+    }
   }
 ]

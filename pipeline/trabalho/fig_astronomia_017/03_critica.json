@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; enunciado não vaza; distratores são outros telescópios espaciais da NASA, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado afirma que o anel é em volta da Lua, mas a descrição da figura diz Sol ou Lua; pode não ser verdadeiro para esta foto. Neutralizei o astro e simplifiquei a resposta, sem parênteses.",
+      "reescrita": {
+        "pergunta": "Que fenômeno óptico da atmosfera forma este anel em volta do Sol ou da Lua?",
+        "resposta": "Halo de 22 graus",
+        "distratores": [
+          "Arco-íris lunar",
+          "Pilar de luz",
+          "Aurora boreal"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; distratores são luas de Saturno críveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado só diz nebulosa planetária; resposta vem do reconhecimento. Distratores são outras nebulosas planetárias famosas.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta: 'calculou trajetórias de voos tripulados' já aponta para a NASA sem olhar a figura, e o fato pedido não exige reconhecê-la. Reescrita pede um passo além do reconhecimento (o filme sobre ela), apoiado no trecho em português.",
+      "reescrita": {
+        "pergunta": "Um filme de dois mil e dezessete, baseado em livro, conta a história desta matemática e de duas colegas. Que filme é esse?",
+        "resposta": "Estrelas Além do Tempo",
+        "distratores": [
+          "Apollo 13",
+          "Gravidade",
+          "O Primeiro Homem"
+        ]
+      }
+    }
+  ]
+}

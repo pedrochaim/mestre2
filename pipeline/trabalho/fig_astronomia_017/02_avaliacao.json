@@ -1,0 +1,159 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A foto mostra uma nave sem identificação clara, com técnicos em cena. A resposta 'sonda espacial' não é única, porque a nave também poderia ser chamada de satélite."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "A imagem é uma ilustração limpa, com o espelho dourado e os painéis solares do Kepler, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que telescópio espacial da NASA é este?",
+      "resposta": "Kepler",
+      "distratores": [
+        "Spitzer",
+        "Hubble",
+        "Chandra"
+      ],
+      "ancora": {
+        "nome": "Telescópio Espacial Kepler",
+        "descricao": "Telescópio espacial da NASA lançado em 2009 para descobrir planetas do tamanho da Terra em torno de outras estrelas.",
+        "variantes": [
+          "Kepler",
+          "Kepler space telescope"
+        ]
+      },
+      "destino": 0
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem é um ponto brilhante com um pontinho ao lado, sem forma reconhecível. A entidade não se reconhece por ela."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "A foto mostra com clareza o anel ao redor da Lua, que é um halo lunar. É a mesma ocorrência de halo de 22 graus, e a imagem é diferente do halo solar do nome do item. Não há texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno óptico da atmosfera forma este anel em volta da Lua?",
+      "resposta": "Halo (halo de 22 graus)",
+      "distratores": [
+        "Arco-íris lunar",
+        "Pilar de luz",
+        "Aurora boreal"
+      ],
+      "ancora": {
+        "nome": "Halo de 22 graus",
+        "descricao": "Fenômeno óptico atmosférico em que a luz do Sol ou da Lua é refratada por cristais de gelo, formando um anel de cerca de 22 graus de raio.",
+        "variantes": [
+          "Halo lunar",
+          "Halo solar",
+          "Halo de 22°"
+        ]
+      },
+      "destino": 0
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "A imagem da Cassini mostra a lua Pan com a crista equatorial, sobre fundo preto e sem texto. É um assunto de aficionado, e a múltipla escolha deixa a pergunta justa.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que lua de Saturno é esta?",
+      "resposta": "Pã",
+      "distratores": [
+        "Atlas",
+        "Prometeu",
+        "Pandora"
+      ],
+      "ancora": {
+        "nome": "Pã (lua de Saturno)",
+        "descricao": "Pequena lua de Saturno que orbita na Divisão de Encke, no anel A.",
+        "variantes": [
+          "Pan",
+          "Saturno XVIII"
+        ]
+      },
+      "destino": 0
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "É um diagrama com texto visível (AFSATCOM SYSTEM), que mostra aviões, caminhão e outras coisas."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "É um pôr do sol comum sobre um lago. Nada na imagem permite reconhecer o sol da meia-noite, e a resposta não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O retrato é pequeno, de baixa resolução e em perfil. Não dá para reconhecer a pessoa num celular."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "É um céu noturno genérico, com estrelas, nuvens e brilho no horizonte. Não há uma entidade única nem uma resposta específica."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O traje traz a etiqueta 'HADFIELD' legível, que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "A imagem do Hubble mostra com clareza a nebulosa em forma de ampulheta, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que nebulosa planetária é esta?",
+      "resposta": "Nebulosa da Ampulheta",
+      "distratores": [
+        "Nebulosa do Anel",
+        "Nebulosa da Hélice",
+        "Nebulosa do Olho de Gato"
+      ],
+      "ancora": {
+        "nome": "Nebulosa da Ampulheta",
+        "descricao": "Nebulosa planetária jovem (MyCn 18) na constelação da Mosca, com formato de ampulheta.",
+        "variantes": [
+          "Engraved Hourglass Nebula",
+          "MyCn 18"
+        ]
+      },
+      "destino": 0
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "É um retrato em preto e branco de uma figura pública, sem texto. A pergunta vai além do nome, pela agência para a qual ela trabalhou.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Para que agência espacial trabalhou esta matemática, que calculou trajetórias de voos tripulados?",
+      "resposta": "NASA",
+      "distratores": [
+        "ESA",
+        "Roscosmos",
+        "JAXA"
+      ],
+      "ancora": {
+        "nome": "Katherine Johnson",
+        "descricao": "Matemática americana da NASA cujos cálculos de órbita foram essenciais para os primeiros voos espaciais tripulados dos EUA.",
+        "variantes": [
+          "Creola Katherine Johnson"
+        ]
+      },
+      "destino": 0
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fenômeno óptico da atmosfera forma este anel em volta do Sol ou da Lua?",
+        "resposta": "Halo de 22 graus"
+      },
+      "existentes": [
+        {
+          "id": "q14148",
+          "pergunta": "Que fenômeno óptico é este, visto junto ao Sol?",
+          "resposta": "Halo solar"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Um filme de dois mil e dezessete, baseado em livro, conta a história desta matemática e de duas colegas. Que filme é esse?",
+        "resposta": "Estrelas Além do Tempo"
+      },
+      "existentes": [
+        {
+          "id": "q06796",
+          "pergunta": "Que matemática afro-americana da NASA, retratada no filme Estrelas Além do Tempo, verificou os cálculos da trajetória do voo orbital de John Glenn?",
+          "resposta": "Katherine Johnson"
+        },
+        {
+          "id": "q07767",
+          "pergunta": "A matemática Katherine Johnson, da NASA, conferiu os cálculos do voo de John Glenn, o primeiro americano a orbitar a Terra. Em que década?",
+          "resposta": "Anos sessenta"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pede o fenômeno visto junto ao Sol (halo solar); a nova pede o halo de 22 graus em volta do Sol ou da Lua. As respostas são diferentes e a âncora da imagem pode ser outra, então trata-se de fatos distintos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta o título do filme de 2017. As existentes pedem o nome da matemática e a década do voo, então quem acertasse uma delas não saberia necessariamente responder a nova."
+    }
+  ]
+}
