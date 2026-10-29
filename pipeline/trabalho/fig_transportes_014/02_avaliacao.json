@@ -1,0 +1,196 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retroescavadeira clara; a marca CAT visível não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que máquina de obras, com uma pá na frente e um braço escavador atrás, é esta?",
+      "resposta": "Retroescavadeira",
+      "distratores": [
+        "Escavadeira hidráulica",
+        "Pá-carregadeira",
+        "Motoniveladora"
+      ],
+      "ancora": {
+        "nome": "Retroescavadeira",
+        "descricao": "Máquina de obras com carregadeira frontal e braço escavador traseiro, montada sobre um chassi de trator.",
+        "variantes": [
+          "Backhoe loader",
+          "Retro"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A imagem é apenas o logotipo com o nome Trabant escrito, sem o veículo; o texto entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O helicóptero tem texto visível (Bell Helicopter no tanque e a matrícula D-HELO) que entrega ou compromete a identificação do fabricante e do modelo."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Aparecem as inscrições Toyota, Hilux e Hilux Travo Overland no carro e na placa de exposição, o que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Táxi preto londrino clássico, bem visível. O emblema Austin é minúsculo e a placa não entrega o ano.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que ano começou a produção deste táxi preto, símbolo de Londres?",
+      "resposta": "1958",
+      "distratores": [
+        "1948",
+        "1953",
+        "1963"
+      ],
+      "ancora": {
+        "nome": "Táxi preto de Londres (Austin FX4)",
+        "descricao": "Táxi tradicional de Londres (hackney carriage) produzido a partir de 1958, modelo Austin FX4.",
+        "variantes": [
+          "Austin FX4",
+          "London taxi",
+          "Black cab"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Texto visível na foto (ВАЗ 2121 NIVA no para-brisa e na placa frontal) entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Caiaque de corredeira com remo de pá dupla, reconhecível. A marca no casco é pouco legível e não entrega a resposta; o caiaquista está de capacete e quase escondido.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de embarcação, movida por um remo de duas pás, é esta?",
+      "resposta": "Caiaque",
+      "distratores": [
+        "Canoa canadense",
+        "Bote de rafting",
+        "Prancha de remo"
+      ],
+      "ancora": {
+        "nome": "Caiaque",
+        "descricao": "Pequena embarcação estreita movida a remo de pá dupla, com convés fechado e cockpit para o remador.",
+        "variantes": [
+          "Kayak"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida do encouraçado em alto-mar, sem texto, com silhueta característica da torre de comando. Pode ser confundido com o irmão Musashi, mas a pergunta sobre o estaleiro de construção separa os dois.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este encouraçado japonês da Segunda Guerra Mundial foi construído em qual arsenal ou estaleiro?",
+      "resposta": "Arsenal naval de Kure",
+      "distratores": [
+        "Estaleiro de Nagasaki",
+        "Arsenal de Yokosuka",
+        "Arsenal de Sasebo"
+      ],
+      "ancora": {
+        "nome": "Encouraçado Yamato",
+        "descricao": "Encouraçado da Marinha Imperial Japonesa, lançado antes da Segunda Guerra Mundial e o mais pesadamente armado já construído.",
+        "variantes": [
+          "Yamato",
+          "Couraçado Yamato"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A placa de exposição com Honda Dream CB750 Four está visível e entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Sedã branco sem texto legível, com o emblema Toyota (símbolo, não texto) na grade. A pergunta indica o carro branco para não confundir com o vermelho ao fundo.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que empresa fabrica este sedã branco, o modelo de carro mais vendido da história?",
+      "resposta": "Toyota",
+      "distratores": [
+        "Honda",
+        "Nissan",
+        "Mazda"
+      ],
+      "ancora": {
+        "nome": "Toyota Corolla",
+        "descricao": "Série de carros compactos da Toyota, produzida desde 1966 e o nome de automóvel mais vendido da história.",
+        "variantes": [
+          "Corolla"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Superesportivo preto de perfil inconfundível, sem texto legível.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que piloto de corridas francês deu o nome a este superesportivo?",
+      "resposta": "Pierre Veyron",
+      "distratores": [
+        "Louis Chiron",
+        "Jean-Pierre Wimille",
+        "Robert Benoist"
+      ],
+      "ancora": {
+        "nome": "Bugatti Veyron",
+        "descricao": "Superesportivo de motor central produzido pela Bugatti em Molsheim, na França, a partir dos anos 2000.",
+        "variantes": [
+          "Veyron",
+          "Bugatti Veyron EB 16.4"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Jato quadrimotor nítido. O texto Ecuatoriana Jet Cargo é da companhia aérea e não entrega o fabricante nem o modelo.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fabricante construiu este jato quadrimotor de carga, dos primórdios da era a jato?",
+      "resposta": "Boeing",
+      "distratores": [
+        "Douglas",
+        "Lockheed",
+        "Vickers"
+      ],
+      "ancora": {
+        "nome": "Boeing 707",
+        "descricao": "Avião a jato quadrimotor de longo alcance da Boeing, voou pela primeira vez em 1957 e abriu a era dos jatos comerciais.",
+        "variantes": [
+          "707",
+          "Boeing 707-320C"
+        ]
+      }
+    }
+  ]
+}

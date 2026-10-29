@@ -1,0 +1,438 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Retroescavadeira",
+        "descricao": "Máquina de obras com carregadeira frontal e braço escavador traseiro, montada sobre um chassi de trator.",
+        "variantes": [
+          "Backhoe loader",
+          "Retro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "metro",
+          "nome": "Metro",
+          "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito.",
+          "variantes": [
+            "Metro (unidade)",
+            "Metre",
+            "Meter"
+          ]
+        },
+        {
+          "id": "retiario",
+          "nome": "Retiário",
+          "descricao": "Tipo de gladiador romano que lutava quase sem armadura, armado de tridente e rede.",
+          "variantes": [
+            "Retiarius"
+          ]
+        },
+        {
+          "id": "barometro",
+          "nome": "Barômetro",
+          "descricao": "Instrumento científico que mede a pressão atmosférica, usado na previsão do tempo.",
+          "variantes": [
+            "Barometer",
+            "Barômetro de mercúrio"
+          ]
+        },
+        {
+          "id": "trio_eletrico",
+          "nome": "Trio elétrico",
+          "descricao": "Caminhão com equipamento de som e músicos que arrasta foliões no carnaval, criado em Salvador.",
+          "variantes": [
+            "Fobica",
+            "Trio eléctrico",
+            "Trio"
+          ]
+        },
+        {
+          "id": "estribo",
+          "nome": "Estribo",
+          "descricao": "Ossículo do ouvido médio que transmite vibrações à orelha interna.",
+          "variantes": [
+            "Stapes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Táxi preto de Londres (Austin FX4)",
+        "descricao": "Táxi tradicional de Londres (hackney carriage) produzido a partir de 1958, modelo Austin FX4.",
+        "variantes": [
+          "Austin FX4",
+          "London taxi",
+          "Black cab"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gato_preto",
+          "nome": "Gato preto",
+          "descricao": "Gato de pelagem preta, objeto de superstições opostas em diferentes países.",
+          "variantes": [
+            "Black cat"
+          ]
+        },
+        {
+          "id": "kobe_bryant",
+          "nome": "Kobe Bryant",
+          "descricao": "Ala-armador americano que jogou toda a carreira na NBA pelo Los Angeles Lakers, de 1996 a 2016.",
+          "variantes": [
+            "Kobe Bean Bryant",
+            "Black Mamba",
+            "Kobe"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_londres",
+          "nome": "Estádio Olímpico de Londres",
+          "descricao": "Estádio do Parque Olímpico Rainha Elizabeth, em Stratford, Londres, construído para os Jogos de 2012 e hoje casa do West Ham United.",
+          "variantes": [
+            "Estádio de Londres",
+            "London Stadium",
+            "Olympic Stadium de Londres"
+          ]
+        },
+        {
+          "id": "caixa_preta",
+          "nome": "Caixa-preta",
+          "descricao": "Gravador de dados e de voz da cabine instalado em aviões para investigar acidentes.",
+          "variantes": [
+            "Registrador de voo",
+            "Flight recorder",
+            "Black box"
+          ]
+        },
+        {
+          "id": "cha_preto",
+          "nome": "Chá preto",
+          "descricao": "Tipo de chá feito das folhas da Camellia sinensis submetidas a oxidação completa antes da secagem.",
+          "variantes": [
+            "Black tea"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Caiaque",
+        "descricao": "Pequena embarcação estreita movida a remo de pá dupla, com convés fechado e cockpit para o remador.",
+        "variantes": [
+          "Kayak"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caiaque",
+          "nome": "Caiaque",
+          "descricao": "Pequena embarcação estreita, propulsionada por remo de pá dupla, de origem inuíte.",
+          "variantes": [
+            "Kayak",
+            "Qajaq"
+          ]
+        },
+        {
+          "id": "iaque",
+          "nome": "Iaque",
+          "descricao": "Bovino domesticado de pelagem longa das montanhas da Ásia central, Bos grunniens.",
+          "variantes": [
+            "Yak",
+            "Bos grunniens"
+          ]
+        },
+        {
+          "id": "cortada",
+          "nome": "Cortada",
+          "descricao": "Ataque do vôlei em que o jogador salta e golpeia a bola de cima para baixo na quadra adversária.",
+          "variantes": [
+            "Ataque",
+            "Spike",
+            "Bomba"
+          ]
+        },
+        {
+          "id": "iraque",
+          "nome": "Iraque",
+          "descricao": "País da Ásia Ocidental, na antiga Mesopotâmia, com capital em Bagdá.",
+          "variantes": [
+            "República do Iraque"
+          ]
+        },
+        {
+          "id": "bandeira_do_iraque",
+          "nome": "Bandeira do Iraque",
+          "descricao": "Bandeira nacional do Iraque, com listras vermelha, branca e preta e inscrição árabe verde.",
+          "variantes": [
+            "Iraque",
+            "Bandeira iraquiana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Encouraçado Yamato",
+        "descricao": "Encouraçado da Marinha Imperial Japonesa, lançado antes da Segunda Guerra Mundial e o mais pesadamente armado já construído.",
+        "variantes": [
+          "Yamato",
+          "Couraçado Yamato"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "yamato",
+          "nome": "Yamato",
+          "descricao": "Encouraçado da Marinha Imperial Japonesa, navio líder de sua classe, afundado em abril de 1945.",
+          "variantes": [
+            "Encouraçado Yamato",
+            "Couraçado Yamato"
+          ]
+        },
+        {
+          "id": "isoroku_yamamoto",
+          "nome": "Isoroku Yamamoto",
+          "descricao": "Almirante da Marinha Imperial Japonesa, comandante da Frota Combinada, morto em 1943.",
+          "variantes": [
+            "Yamamoto"
+          ]
+        },
+        {
+          "id": "amianto",
+          "nome": "Amianto",
+          "descricao": "Grupo de minerais fibrosos, também chamado asbesto, usado em telhas e isolantes e associado ao câncer.",
+          "variantes": [
+            "Asbesto"
+          ]
+        },
+        {
+          "id": "encouracado_bismarck",
+          "nome": "Encouraçado Bismarck",
+          "descricao": "Encouraçado da Kriegsmarine alemã lançado em 1939 e afundado em 1941 após a operação Rheinübung.",
+          "variantes": [
+            "Bismarck",
+            "German battleship Bismarck"
+          ]
+        },
+        {
+          "id": "coracao_humano",
+          "nome": "Coração humano",
+          "descricao": "Órgão muscular do tórax que bombeia o sangue por todo o corpo.",
+          "variantes": [
+            "Coração"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Toyota Corolla",
+        "descricao": "Série de carros compactos da Toyota, produzida desde 1966 e o nome de automóvel mais vendido da história.",
+        "variantes": [
+          "Corolla"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "new_look",
+          "nome": "New Look",
+          "descricao": "Primeira coleção de Christian Dior, de 1947, com cintura marcada e saias amplas",
+          "variantes": [
+            "Corolle"
+          ]
+        },
+        {
+          "id": "corsola",
+          "nome": "Corsola",
+          "descricao": "Pokémon coral da segunda geração, que tem uma forma regional do tipo Fantasma em Galar.",
+          "variantes": [
+            "Sunnygo"
+          ]
+        },
+        {
+          "id": "clorofila",
+          "nome": "Clorofila",
+          "descricao": "Pigmento das plantas e algas que capta a luz para a fotossíntese.",
+          "variantes": [
+            "Chlorophyll"
+          ]
+        },
+        {
+          "id": "cartola",
+          "nome": "Cartola",
+          "descricao": "Angenor de Oliveira, sambista carioca, fundador da Estação Primeira de Mangueira.",
+          "variantes": [
+            "Angenor de Oliveira"
+          ]
+        },
+        {
+          "id": "cartola_2",
+          "nome": "Cartola",
+          "descricao": "Chapéu alto de copa reta e aba curta, tradicionalmente preto, usado com trajes formais ocidentais.",
+          "variantes": [
+            "Cartola (chapéu)",
+            "Top hat",
+            "Chapéu alto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Bugatti Veyron",
+        "descricao": "Superesportivo de motor central produzido pela Bugatti em Molsheim, na França, a partir dos anos 2000.",
+        "variantes": [
+          "Veyron",
+          "Bugatti Veyron EB 16.4"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "allen_iverson",
+          "nome": "Allen Iverson",
+          "descricao": "Ex-armador e ala-armador americano da NBA, MVP em 2001 pelo Philadelphia 76ers.",
+          "variantes": [
+            "Iverson",
+            "A.I."
+          ]
+        },
+        {
+          "id": "lord_byron",
+          "nome": "Lord Byron",
+          "descricao": "Poeta romântico inglês (1788–1824), autor de Don Juan e A Peregrinação de Childe Harold.",
+          "variantes": [
+            "George Gordon Byron",
+            "Byron"
+          ]
+        },
+        {
+          "id": "palmeiras",
+          "nome": "Palmeiras",
+          "descricao": "Sociedade Esportiva Palmeiras, clube de futebol de São Paulo fundado em 1914 por imigrantes italianos.",
+          "variantes": [
+            "Sociedade Esportiva Palmeiras",
+            "Verdão",
+            "Palestra Itália"
+          ]
+        },
+        {
+          "id": "velcro",
+          "nome": "Velcro",
+          "descricao": "Sistema de fecho de gancho e argola inventado pelo engenheiro suíço George de Mestral.",
+          "variantes": [
+            "Fecho de gancho e argola",
+            "Hook-and-loop fastener",
+            "Fecho de contato",
+            "Hook-and-loop"
+          ]
+        },
+        {
+          "id": "heroina",
+          "nome": "Heroína",
+          "descricao": "Droga opioide derivada da morfina, a diacetilmorfina, comercializada originalmente como medicamento.",
+          "variantes": [
+            "Diacetilmorfina",
+            "Diamorfina",
+            "Heroin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Boeing 707",
+        "descricao": "Avião a jato quadrimotor de longo alcance da Boeing, voou pela primeira vez em 1957 e abriu a era dos jatos comerciais.",
+        "variantes": [
+          "707",
+          "Boeing 707-320C"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boeing_747",
+          "nome": "Boeing 747",
+          "descricao": "Avião a jato de grande porte da Boeing, com uma corcunda característica na parte dianteira.",
+          "variantes": [
+            "Jumbo",
+            "Jumbo Jet"
+          ]
+        },
+        {
+          "id": "b_29_superfortress",
+          "nome": "B-29 Superfortress",
+          "descricao": "Bombardeiro pesado quadrimotor americano da Boeing, usado na Segunda Guerra Mundial, que lançou as bombas atômicas sobre o Japão.",
+          "variantes": [
+            "Boeing B-29",
+            "B-29",
+            "Superfortaleza"
+          ]
+        },
+        {
+          "id": "james_bond",
+          "nome": "James Bond",
+          "descricao": "Agente secreto britânico de código 007, criado pelo escritor Ian Fleming e levado ao cinema a partir de 1962.",
+          "variantes": [
+            "007",
+            "Agente 007"
+          ]
+        },
+        {
+          "id": "boxing_day",
+          "nome": "Boxing Day",
+          "descricao": "Feriado de 26 de dezembro no Reino Unido e em outros países da Comunidade Britânica.",
+          "variantes": [
+            "Dia de Santo Estêvão"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é retroescavadeira."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o táxi de Londres."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "caiaque",
+      "motivo": "Mesma embarcação, caiaque."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "yamato",
+      "motivo": "Mesmo encouraçado Yamato da Marinha Imperial Japonesa."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Toyota Corolla."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Bugatti Veyron."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Boeing 707 é distinto do 747 e do B-29."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de embarcação a remo é esta?",
+        "resposta": "Caiaque"
+      },
+      "existentes": [
+        {
+          "id": "q14166",
+          "pergunta": "Esta embarcação nasceu entre que povo do Ártico?",
+          "resposta": "Inuítes"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Este encouraçado japonês da Segunda Guerra Mundial foi construído em qual arsenal ou estaleiro?",
+        "resposta": "Arsenal naval de Kure"
+      },
+      "existentes": [
+        {
+          "id": "q13377",
+          "pergunta": "Afundado em abril de 1945 a caminho de Okinawa, que encouraçado japonês foi, com o irmão Musashi, o mais pesado já construído?",
+          "resposta": "Yamato"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede o tipo de embarcação (caiaque); a outra, o povo de origem (inuítes). Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede o estaleiro de construção; a existente pede o nome do encouraçado, afundado em 1945. Fatos diferentes."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a máquina (pá na frente, braço escavador atrás), que é a definição de retroescavadeira; reprova no teste da imagem coberta.",
+      "reescrita": {
+        "pergunta": "Que máquina de obras, muito usada em construções urbanas, é esta?",
+        "resposta": "Retroescavadeira",
+        "distratores": [
+          "Escavadeira hidráulica",
+          "Pá-carregadeira",
+          "Motoniveladora"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Produção do FX4 a partir de 1958 confirmada. Ano em múltipla escolha, distratores plausíveis (1948 é o início do FX3). O enunciado não nomeia o modelo.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Remo de duas pás' é a característica que define o caiaque e distingue da canoa; entrega a resposta sem olhar a figura.",
+      "reescrita": {
+        "pergunta": "Que tipo de embarcação a remo é esta?",
+        "resposta": "Caiaque",
+        "distratores": [
+          "Canoa canadense",
+          "Bote de rafting",
+          "Prancha de remo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Yamato foi construído no Arsenal Naval de Kure, segundo os dois trechos. O enunciado não identifica o navio sem a figura, e os distratores são arsenais e estaleiros japoneses plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'O modelo de carro mais vendido da história' identifica o Corolla e, portanto, a Toyota sem a imagem. É preciso tirar essa pista.",
+      "reescrita": {
+        "pergunta": "Que empresa japonesa fabrica este sedã branco?",
+        "resposta": "Toyota",
+        "distratores": [
+          "Honda",
+          "Nissan",
+          "Mazda"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o nome homenageia Pierre Veyron, piloto. O enunciado não traz o nome e não responde sem a figura. Wimille foi co-piloto, não o homenageado, então o distrator não está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'De carga' pode não valer para esta foto, já que o 707 é principalmente de passageiros. Lockheed é um distrator fraco, pois não fez jato quadrimotor desse tipo. Trocado por de Havilland (Comet).",
+      "reescrita": {
+        "pergunta": "Que fabricante construiu este jato quadrimotor dos primórdios da era a jato?",
+        "resposta": "Boeing",
+        "distratores": [
+          "Douglas",
+          "de Havilland",
+          "Vickers"
+        ]
+      }
+    }
+  ]
+}

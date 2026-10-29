@@ -617,7 +617,7 @@
 <script type="module">
   import { initializeApp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js";
   import { getFirestore, collection, doc, getDoc, setDoc, addDoc, updateDoc, deleteDoc, onSnapshot,
-           query, orderBy, writeBatch, serverTimestamp, increment }
+           query, orderBy, where, getDocs, writeBatch, serverTimestamp, increment, Timestamp }
     from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
 
   import * as L from "./linear.js";
@@ -898,6 +898,7 @@
     $("entrada").hidden = true;
     $("jogo").hidden = false;
     await carregando;
+    carregarRecentes(c);
 
     const base = doc(db, "partidas", c);
     ultimoSom = undefined;
@@ -946,6 +947,7 @@
     desligar.forEach(f => f());
     desligar = [];
     codigo = null; atual = null; respondente = null; jogadores = []; sorteios = []; legado = []; vezes = new Map(); resultados = [];
+    recentes = new Map();
     partida = {}; ultimaLida = null; aplicarModo(); desenharMesa(); desenharAnterior();
     history.replaceState(null, "", location.pathname);
     $("atual").hidden = true;
@@ -1206,7 +1208,34 @@
     const subtemas = [...new Set(lista.map(p => p.subtema))];
     const menor = Math.min(...subtemas.map(usoDe));
     const s = umDe(subtemas.filter(x => usoDe(x) === menor));
-    return umDe(lista.filter(p => p.subtema === s));
+    return maisFresca(lista.filter(p => p.subtema === s));
+  }
+
+  // Memória entre partidas (2026-10-28, só no jogo original): as perguntas que saíram em outras partidas criadas nos
+  // últimos DIAS_MEMORIA dias (de qualquer grupo, já que não há login), com o instante da última vez. Dentro do
+  // subtema sorteado, ganha uma pergunta que não saiu nelas; se todas saíram, a que saiu há mais tempo. Lida uma vez,
+  // ao entrar na partida; até chegar, o sorteio segue sem ela.
+  const DIAS_MEMORIA = 30;
+  let recentes = new Map();  // id da pergunta → instante (ms) em que saiu pela última vez noutra partida
+  async function carregarRecentes(c) {
+    try {
+      const desde = Timestamp.fromMillis(Date.now() - DIAS_MEMORIA * 864e5);
+      const outras = (await getDocs(query(collection(db, "partidas"), where("criada_em", ">=", desde))))
+        .docs.filter(d => d.id !== c && d.data().modo !== "pokemon");
+      const listas = await Promise.all(outras.map(d => getDocs(collection(db, "partidas", d.id, "sorteios")).catch(() => null)));
+      const mapa = new Map();
+      for (const s of listas.flatMap(l => l ? l.docs : [])) {
+        const { pergunta, em } = s.data(), ms = em?.toMillis?.() ?? 0;
+        if (pergunta && ms >= (mapa.get(pergunta) ?? -1)) mapa.set(pergunta, ms);
+      }
+      if (codigo === c) recentes = mapa;
+    } catch { /* sem a memória, o sorteio continua só com as regras da partida */ }
+  }
+  function maisFresca(lista) {
+    const frescas = lista.filter(p => !recentes.has(p.id));
+    if (frescas.length) return umDe(frescas);
+    const maisAntiga = Math.min(...lista.map(p => recentes.get(p.id)));
+    return umDe(lista.filter(p => recentes.get(p.id) === maisAntiga));
   }
 
   // Jogo original (2026-10-28): uma pergunta nunca se repete na partida, em nenhum aparelho; quando as do tema (com o
