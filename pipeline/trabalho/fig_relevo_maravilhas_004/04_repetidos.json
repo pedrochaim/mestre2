@@ -1,0 +1,92 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este arco de arenito fica num parque nacional do Nordeste brasileiro. Pelo que esse parque é mundialmente conhecido?",
+        "resposta": "Arte rupestre pré-histórica"
+      },
+      "existentes": [
+        {
+          "id": "q02430",
+          "pergunta": "Em que estado fica o Parque Nacional da Serra da Capivara, famoso por suas pinturas rupestres pré-históricas?",
+          "resposta": "Piauí"
+        },
+        {
+          "id": "q03083",
+          "pergunta": "Que arqueóloga brasileira liderou as pesquisas e a luta pela criação do Parque Nacional da Serra da Capivara?",
+          "resposta": "Niède Guidon"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Esta imagem de satélite mostra um grande mar. Qual destes países tem costa nele?",
+        "resposta": "Azerbaijão"
+      },
+      "existentes": [
+        {
+          "id": "q02230",
+          "pergunta": "Apesar de ser chamado de mar, qual corpo de água entre a Europa e a Ásia é considerado o maior lago do mundo?",
+          "resposta": "Mar Cáspio"
+        },
+        {
+          "id": "q13231",
+          "pergunta": "O famoso caviar do mar Cáspio é feito com as ovas de qual peixe?",
+          "resposta": "Esturjão"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que país ficam estas agulhas de calcário afiadas, que formam uma floresta de pedra?",
+        "resposta": "Madagascar"
+      },
+      "existentes": [
+        {
+          "id": "q14178",
+          "pergunta": "Que paisagem rochosa de Madagascar é esta?",
+          "resposta": "Tsingy"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que região da Grécia fica este conjunto rochoso?",
+        "resposta": "Tessália"
+      },
+      "existentes": [
+        {
+          "id": "q09494",
+          "pergunta": "Em que país ficam os mosteiros ortodoxos de Meteora, construídos no alto de enormes pilares de rocha?",
+          "resposta": "Grécia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta pelo que o parque é conhecido (arte rupestre); as existentes perguntam o estado (Piauí) e a arqueóloga. Embora o enunciado da existente cite as pinturas, a resposta dela é o estado, então fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta qual país tem costa no Cáspio, fato diferente de ser o maior lago ou do caviar."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Uma pergunta o país (Madagascar), a outra o nome da paisagem (Tsingy); a existente já revela Madagascar no enunciado, mas o fato perguntado é distinto."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pergunta a região (Tessália), enquanto a existente pergunta o país (Grécia)."
+    }
+  ]
+}

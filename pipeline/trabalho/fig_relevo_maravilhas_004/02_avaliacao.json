@@ -1,0 +1,197 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arco de arenito (Pedra Furada) reconhecível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este arco de arenito fica num parque nacional do Nordeste brasileiro. Pelo que esse parque é mundialmente conhecido?",
+      "resposta": "Arte rupestre pré-histórica",
+      "distratores": [
+        "Fósseis de dinossauros",
+        "Ruínas jesuíticas",
+        "Cavernas de cristal"
+      ],
+      "ancora": {
+        "nome": "Serra da Capivara",
+        "descricao": "Parque nacional no Piauí, com a maior concentração de sítios pré-históricos das Américas e formações de arenito como a Pedra Furada.",
+        "variantes": [
+          "Parque Nacional Serra da Capivara",
+          "Pedra Furada"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Queda alta de granito, claramente a Yosemite Falls, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta cachoeira americana despenca de uma parede de granito em que cadeia de montanhas?",
+      "resposta": "Sierra Nevada",
+      "distratores": [
+        "Montanhas Rochosas",
+        "Apalaches",
+        "Cascades"
+      ],
+      "ancora": {
+        "nome": "Cachoeira de Yosemite",
+        "descricao": "Cachoeira mais alta do Parque Nacional de Yosemite, na Califórnia, nos Estados Unidos.",
+        "variantes": [
+          "Yosemite Falls",
+          "Cataratas de Yosemite"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Praia de lago genérica, sem traços que permitam reconhecer o Lago Malawi."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com o contorno inconfundível do Mar Cáspio, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este é o maior corpo de água fechado do planeta, visto do espaço. Qual destes países tem costa nele?",
+      "resposta": "Azerbaijão",
+      "distratores": [
+        "Geórgia",
+        "Armênia",
+        "Turquia"
+      ],
+      "ancora": {
+        "nome": "Mar Cáspio",
+        "descricao": "Maior corpo de água interior do mundo, entre a Europa e a Ásia, banhado por Rússia, Cazaquistão, Turcomenistão, Irã e Azerbaijão.",
+        "variantes": [
+          "Mar Cáspio",
+          "Caspian Sea"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Lago alpino com pinheiros e montanhas ao fundo; nada permite reconhecer o Lago Tahoe com resposta única."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Floresta de pináculos de calcário, muito característica, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país ficam estas agulhas de calcário afiadas, que formam uma floresta de pedra?",
+      "resposta": "Madagascar",
+      "distratores": [
+        "Tanzânia",
+        "Namíbia",
+        "Moçambique"
+      ],
+      "ancora": {
+        "nome": "Tsingy de Bemaraha",
+        "descricao": "Floresta de pináculos de calcário no Parque Nacional Tsingy de Bemaraha, no noroeste de Madagascar.",
+        "variantes": [
+          "Tsingy de Bemaraha",
+          "Grande Tsingy"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pilares de rocha com mosteiro no topo, inconfundível Meteora, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Estes pilares de pedra, com mosteiros no topo, ficam em que região da Grécia?",
+      "resposta": "Tessália",
+      "distratores": [
+        "Macedônia",
+        "Épiro",
+        "Peloponeso"
+      ],
+      "ancora": {
+        "nome": "Meteora",
+        "descricao": "Formação de pilares rochosos na Tessália, Grécia, com mosteiros ortodoxos no topo.",
+        "variantes": [
+          "Metéora",
+          "Meteora"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Vista aérea de um rio largo cercado de floresta; não permite reconhecer o Xingu."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Panorama largo de rio com cidade; sem elementos que identifiquem o São Lourenço com segurança."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Mitre Peak sobre o fiorde, muito reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país fica este fiorde de pico nevado?",
+      "resposta": "Nova Zelândia",
+      "distratores": [
+        "Noruega",
+        "Chile",
+        "Islândia"
+      ],
+      "ancora": {
+        "nome": "Milford Sound",
+        "descricao": "Fiorde no sudoeste da Ilha Sul da Nova Zelândia, dominado pelo Mitre Peak, no Parque Nacional de Fiordland.",
+        "variantes": [
+          "Piopiotahi",
+          "Milford Sound"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Grand Canyon com o rio visível no fundo, sem texto; âncora é o rio que o escavou.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "O rio que corre no fundo deste cânion americano termina perto de que golfo?",
+      "resposta": "Golfo da Califórnia",
+      "distratores": [
+        "Golfo do México",
+        "Golfo do Alasca",
+        "Golfo de Tehuantepec"
+      ],
+      "ancora": {
+        "nome": "Rio Colorado",
+        "descricao": "Rio do sudoeste dos Estados Unidos e norte do México que atravessa o Grand Canyon.",
+        "variantes": [
+          "Colorado River",
+          "Río Colorado"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O barco anfíbio traz o endereço www.jokulsarlon.is, que entrega a resposta."
+    }
+  ]
+}

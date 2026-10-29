@@ -1,0 +1,77 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia o parque nem entrega a resposta; a figura é necessária para identificá-lo. O trecho sustenta arte rupestre como principal atrativo. Os distratores são do mesmo tipo e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos situam a cachoeira na Sierra Nevada e o granito de Yosemite é bem documentado. O enunciado não nomeia a cachoeira. Os distratores são cadeias americanas plausíveis e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Maior corpo de água fechado do planeta' define o Cáspio, então a figura vira enfeite. Basta tirar a definição. O fato do Azerbaijão está nos trechos, e Geórgia, Armênia e Turquia não têm costa no Cáspio.",
+      "reescrita": {
+        "pergunta": "Esta imagem de satélite mostra um grande mar. Qual destes países tem costa nele?",
+        "resposta": "Azerbaijão",
+        "distratores": [
+          "Geórgia",
+          "Armênia",
+          "Turquia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a formação sem nomear o país, e a figura identifica o local. O trecho confirma as agulhas de calcário em Madagascar. Os distratores são países africanos plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pilares de pedra com mosteiros no topo' identifica Meteora sem olhar a imagem, então a figura é enfeite. Tirar a descrição mantém a resposta Tessália, confirmada nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que região da Grécia fica este conjunto rochoso?",
+        "resposta": "Tessália",
+        "distratores": [
+          "Macedônia",
+          "Épiro",
+          "Peloponeso"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'De pico nevado' pode ser falso para esta foto, porque o Mitre Peak muitas vezes aparece sem neve. Remover a afirmação não altera a resposta nem os distratores, que são países com fiordes.",
+      "reescrita": {
+        "pergunta": "Em que país fica este fiorde?",
+        "resposta": "Nova Zelândia",
+        "distratores": [
+          "Noruega",
+          "Chile",
+          "Islândia"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o Colorado atravessa o Grand Canyon e desemboca no Golfo da Califórnia. 'Termina perto de' é uma formulação segura. Os distratores são golfos errados.",
+      "reescrita": null
+    }
+  ]
+}
