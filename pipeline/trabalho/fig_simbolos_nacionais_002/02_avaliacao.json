@@ -1,0 +1,287 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Brasão marcante, sem texto, resposta única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este brasão é de um país cuja capital é qual cidade?",
+      "resposta": "Zagreb",
+      "distratores": [
+        "Belgrado",
+        "Liubliana",
+        "Sarajevo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Croácia",
+        "descricao": "Brasão de armas da República da Croácia, com escudo em xadrez vermelho e branco e coroa de cinco brasões menores.",
+        "variantes": [
+          "Armas da Croácia",
+          "Grb Hrvatske"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Pomba com ramo de oliveira, reconhecível; o ano não nomeia o país.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Chipre",
+      "distratores": [
+        "Malta",
+        "Grécia",
+        "Líbano"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão do Chipre",
+        "descricao": "Brasão de armas da República de Chipre, com pomba carregando ramo de oliveira sobre escudo laranja e ramos de oliveira.",
+        "variantes": [
+          "Armas de Chipre",
+          "Brasão de Chipre"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Três torres e a coroa são característicos; o lema Libertas não nomeia o país.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este brasão é de um país totalmente cercado por qual outro país?",
+      "resposta": "Itália",
+      "distratores": [
+        "França",
+        "Suíça",
+        "Áustria"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão de San Marino",
+        "descricao": "Brasão de armas da República de San Marino, com três torres sobre três montes, coroa e o lema Libertas.",
+        "variantes": [
+          "Armas de San Marino"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Chaves cruzadas e tiara, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Dentro de que cidade fica o Estado deste brasão?",
+      "resposta": "Roma",
+      "distratores": [
+        "Milão",
+        "Florença",
+        "Nápoles"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão do Vaticano",
+        "descricao": "Brasão da Cidade do Vaticano, com tiara papal e duas chaves cruzadas sobre escudo vermelho.",
+        "variantes": [
+          "Armas do Vaticano",
+          "Brasão da Santa Sé"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Três leões azuis e corações, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este brasão é de um país cuja capital é qual cidade?",
+      "resposta": "Copenhague",
+      "distratores": [
+        "Estocolmo",
+        "Oslo",
+        "Helsinque"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Dinamarca",
+        "descricao": "Brasão de armas do Reino da Dinamarca, com três leões azuis coroados e nove corações vermelhos sobre fundo dourado.",
+        "variantes": [
+          "Armas da Dinamarca"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Coroa de Santo Estêvão e cruz dupla, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Hungria",
+      "distratores": [
+        "Eslováquia",
+        "Sérvia",
+        "Polônia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Hungria",
+        "descricao": "Brasão de armas da Hungria, com a Santa Coroa, listras vermelhas e brancas e cruz dupla sobre três montes.",
+        "variantes": [
+          "Armas da Hungria"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Garuda inconfundível; o lema em javanês antigo não nomeia o país.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este brasão é de um país formado por milhares de ilhas. Qual é a ilha mais populosa dele?",
+      "resposta": "Java",
+      "distratores": [
+        "Sumatra",
+        "Bornéu",
+        "Sulawesi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Indonésia",
+        "descricao": "Brasão de armas da Indonésia, com a ave mitológica Garuda e escudo com cinco símbolos do Pancasila.",
+        "variantes": [
+          "Garuda Pancasila",
+          "Armas da Indonésia"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Águia, leão e monte Ararate, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Armênia",
+      "distratores": [
+        "Geórgia",
+        "Albânia",
+        "Sérvia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Armênia",
+        "descricao": "Brasão de armas da Armênia, com águia e leão sustentando escudo com o monte Ararate.",
+        "variantes": [
+          "Armas da Armênia"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pássaro de Zimbábue, cudos e estrela; texto é só lema, não nomeia o país.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país deste brasão?",
+      "resposta": "Harare",
+      "distratores": [
+        "Bulawayo",
+        "Lusaka",
+        "Maputo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão do Zimbábue",
+        "descricao": "Brasão de armas do Zimbábue, com dois cudos, o pássaro de pedra sobre estrela vermelha e o lema Unity, Freedom, Work.",
+        "variantes": [
+          "Armas do Zimbábue",
+          "Brasão do Zimbabwe"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Águia negra sobre escudo dourado, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Alemanha",
+      "distratores": [
+        "Áustria",
+        "Polônia",
+        "Rússia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Alemanha",
+        "descricao": "Brasão de armas da República Federal da Alemanha, com águia negra de garras vermelhas sobre escudo dourado.",
+        "variantes": [
+          "Armas da Alemanha",
+          "Bundesadler"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Frades com espadas e losangos, marcante; lema em latim não nomeia o país.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este brasão é de um país que faz fronteira por terra apenas com qual outro país?",
+      "resposta": "França",
+      "distratores": [
+        "Itália",
+        "Espanha",
+        "Suíça"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão de Mônaco",
+        "descricao": "Brasão de armas do Principado de Mônaco, com escudo de losangos vermelhos e brancos sustentado por dois frades armados de espada.",
+        "variantes": [
+          "Armas de Mônaco",
+          "Brasão de Monaco"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Estrela de oito pontas com chama, carvalho e trigo; sem texto, razoavelmente distintivo.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este brasão é de um país banhado por qual mar?",
+      "resposta": "Mar Cáspio",
+      "distratores": [
+        "Mar Negro",
+        "Mar Aral",
+        "Mar Vermelho"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão do Azerbaijão",
+        "descricao": "Brasão de armas do Azerbaijão, com escudo circular nas cores da bandeira, estrela de oito pontas com chama, ramo de carvalho e espiga de trigo.",
+        "variantes": [
+          "Armas do Azerbaijão"
+        ]
+      }
+    }
+  ]
+}
