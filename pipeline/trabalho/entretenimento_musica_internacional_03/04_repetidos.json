@@ -1,0 +1,655 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Dos quatro Beatles da formação clássica, quem era o mais velho?",
+        "resposta": "Ringo Starr"
+      },
+      "existentes": [
+        {
+          "id": "q07864",
+          "pergunta": "No início dos anos sessenta, antes da fama, os Beatles passaram longas temporadas tocando em clubes de que cidade alemã?",
+          "resposta": "Hamburgo"
+        },
+        {
+          "id": "q07865",
+          "pergunta": "O nome The Beatles faz um trocadilho com a palavra beat, batida, e com o nome em inglês de que inseto?",
+          "resposta": "Besouro"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Antes de Ringo Starr entrar nos Beatles, em 1962, quem era o baterista da banda?",
+        "resposta": "Pete Best"
+      },
+      "existentes": [
+        {
+          "id": "q07864",
+          "pergunta": "No início dos anos sessenta, antes da fama, os Beatles passaram longas temporadas tocando em clubes de que cidade alemã?",
+          "resposta": "Hamburgo"
+        },
+        {
+          "id": "q07865",
+          "pergunta": "O nome The Beatles faz um trocadilho com a palavra beat, batida, e com o nome em inglês de que inseto?",
+          "resposta": "Besouro"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em abril de que ano Paul McCartney anunciou publicamente que deixava os Beatles, marcando o fim da banda?",
+        "resposta": "1970"
+      },
+      "existentes": [
+        {
+          "id": "q07864",
+          "pergunta": "No início dos anos sessenta, antes da fama, os Beatles passaram longas temporadas tocando em clubes de que cidade alemã?",
+          "resposta": "Hamburgo"
+        },
+        {
+          "id": "q07865",
+          "pergunta": "O nome The Beatles faz um trocadilho com a palavra beat, batida, e com o nome em inglês de que inseto?",
+          "resposta": "Besouro"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "No fim dos anos sessenta, quando os Jackson 5 estouraram na Motown, quem era o irmão mais novo do grupo?",
+        "resposta": "Michael Jackson"
+      },
+      "existentes": [
+        {
+          "id": "q01253",
+          "pergunta": "Em 1984, durante a gravação de um comercial da Pepsi, o cabelo de Michael Jackson pegou fogo. O que causou o acidente?",
+          "resposta": "Fogos pirotécnicos"
+        },
+        {
+          "id": "q07884",
+          "pergunta": "Michael Jackson morreu semanas antes de estrear em Londres a série de shows This Is It. Em que ano?",
+          "resposta": "2009"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em 1983, no especial de TV Motown 25, Michael Jackson apresentou que passo de dança em que parece deslizar para trás?",
+        "resposta": "Moonwalk"
+      },
+      "existentes": [
+        {
+          "id": "q01253",
+          "pergunta": "Em 1984, durante a gravação de um comercial da Pepsi, o cabelo de Michael Jackson pegou fogo. O que causou o acidente?",
+          "resposta": "Fogos pirotécnicos"
+        },
+        {
+          "id": "q07884",
+          "pergunta": "Michael Jackson morreu semanas antes de estrear em Londres a série de shows This Is It. Em que ano?",
+          "resposta": "2009"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Quando as Spice Girls estouraram com Wannabe, em 1996, qual delas, com apenas vinte anos, era a caçula do grupo?",
+        "resposta": "Emma Bunton"
+      },
+      "existentes": [
+        {
+          "id": "q07906",
+          "pergunta": "Nas Spice Girls, que integrante tinha o apelido de Posh Spice e depois se casou com um astro do futebol inglês?",
+          "resposta": "Victoria Beckham"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que fundador e primeiro líder do Pink Floyd deixou a banda em 1968, afetado por problemas de saúde mental?",
+        "resposta": "Syd Barrett"
+      },
+      "existentes": [
+        {
+          "id": "q01241",
+          "pergunta": "O nome Pink Floyd junta os prenomes de dois músicos americanos pouco conhecidos. De que gênero musical eles eram?",
+          "resposta": "Blues"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Que integrante do Led Zeppelin morreu em 1980, levando os outros três a encerrar a banda?",
+        "resposta": "John Bonham"
+      },
+      "existentes": [
+        {
+          "id": "q01240",
+          "pergunta": "O nome Led Zeppelin vem de uma piada de que a banda afundaria como um balão feito de que material?",
+          "resposta": "Chumbo"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Na faixa-título do álbum Thriller, de Michael Jackson, a narração assustadora e a risada final são de que astro do cinema de terror?",
+        "resposta": "Vincent Price"
+      },
+      "existentes": [
+        {
+          "id": "q01280",
+          "pergunta": "Em que ano foi lançado o álbum Thriller, de Michael Jackson?",
+          "resposta": "1982"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "A cultura hip hop costuma ser descrita por quatro elementos: o rap, o DJ, o breakdance e qual arte visual?",
+        "resposta": "Grafite"
+      },
+      "existentes": [
+        {
+          "id": "q07880",
+          "pergunta": "O hip hop nasceu em festas de bairro do Bronx, em Nova York, animadas por DJs como Kool Herc. Em que década?",
+          "resposta": "Anos setenta"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "No Live Aid, que cantor se apresentou em Londres e, horas depois, na Filadélfia, cruzando o Atlântico de Concorde?",
+        "resposta": "Phil Collins"
+      },
+      "existentes": [
+        {
+          "id": "q01255",
+          "pergunta": "Em 1985, os shows do Live Aid, em Londres e na Filadélfia, foram organizados para arrecadar dinheiro contra que tragédia?",
+          "resposta": "A fome na Etiópia"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Que integrante do AC/DC ficou famoso por se apresentar vestido de uniforme escolar, com bermuda, gravata e boné?",
+        "resposta": "Angus Young"
+      },
+      "existentes": [
+        {
+          "id": "q07872",
+          "pergunta": "A banda AC/DC, dos irmãos Malcolm e Angus Young, nascidos na Escócia, foi formada em 1973 em que país?",
+          "resposta": "Austrália"
+        },
+        {
+          "id": "q07873",
+          "pergunta": "O nome AC/DC, que indica corrente alternada e corrente contínua, foi visto pela irmã dos fundadores na traseira de que aparelho doméstico?",
+          "resposta": "Máquina de costura"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Bob Marley era seguidor de que movimento religioso surgido na Jamaica nos anos trinta?",
+        "resposta": "Rastafári"
+      },
+      "existentes": [
+        {
+          "id": "q01282",
+          "pergunta": "Bob Marley morreu em 1981, vítima de câncer. Com que idade?",
+          "resposta": "36 anos"
+        },
+        {
+          "id": "q07868",
+          "pergunta": "Em 1981, ao voltar de um tratamento contra o câncer na Alemanha, Bob Marley morreu num hospital de que cidade americana?",
+          "resposta": "Miami"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Antes de migrar para o pop, Taylor Swift começou a carreira em que gênero musical?",
+        "resposta": "Country"
+      },
+      "existentes": [
+        {
+          "id": "q07807",
+          "pergunta": "Quem é esta cantora americana?",
+          "resposta": "Taylor Swift"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Na premiação VMA de 2010, Lady Gaga causou polêmica com um vestido feito de quê?",
+        "resposta": "Carne crua"
+      },
+      "existentes": [
+        {
+          "id": "q01243",
+          "pergunta": "O nome artístico Lady Gaga foi inspirado na canção Radio Ga Ga. De que banda é essa canção?",
+          "resposta": "Queen"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Para tocar violão e soprar ao mesmo tempo, Bob Dylan usava um suporte no pescoço que segurava que instrumento?",
+        "resposta": "Gaita"
+      },
+      "existentes": [
+        {
+          "id": "q01254",
+          "pergunta": "Em 1965, no Festival Folk de Newport, Bob Dylan foi vaiado por parte do público. O que ele fez para provocar isso?",
+          "resposta": "Tocou com guitarra elétrica"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Por herança da família do pai, de origem libanesa, Shakira incorpora em seus shows que dança?",
+        "resposta": "Dança do ventre"
+      },
+      "existentes": [
+        {
+          "id": "q07871",
+          "pergunta": "A cantora Shakira nasceu em 1977 em que cidade do litoral caribenho da Colômbia?",
+          "resposta": "Barranquilla"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Na cerimônia do Oscar de 2001, Björk chamou atenção com um vestido que imitava que ave?",
+        "resposta": "Cisne"
+      },
+      "existentes": [
+        {
+          "id": "q07875",
+          "pergunta": "A cantora Björk, que começou a carreira internacional no grupo The Sugarcubes, é natural de que país nórdico?",
+          "resposta": "Islândia"
+        },
+        {
+          "id": "q11747",
+          "pergunta": "Esta cantora foi vocalista de qual banda islandesa de rock, que se separou em 1992?",
+          "resposta": "The Sugarcubes"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "O baixo Höfner, usado por Paul McCartney nos tempos dos Beatles, tem o corpo no formato de que instrumento?",
+        "resposta": "Violino"
+      },
+      "existentes": [
+        {
+          "id": "q02775",
+          "pergunta": "Quem é este músico inglês?",
+          "resposta": "Paul McCartney"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Os títulos numéricos dos álbuns de Adele, como 19, 21 e 25, se referem a quê?",
+        "resposta": "A idade dela na época"
+      },
+      "existentes": [
+        {
+          "id": "q05266",
+          "pergunta": "Qual é o título do segundo álbum de estúdio desta cantora, lançado em 2011?",
+          "resposta": "21"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "O apelido Satchmo, de Louis Armstrong, vem de uma brincadeira com que parte do corpo dele?",
+        "resposta": "A boca"
+      },
+      "existentes": [
+        {
+          "id": "q07910",
+          "pergunta": "Além da voz rouca de What a Wonderful World, Louis Armstrong era um virtuose de que instrumento de sopro?",
+          "resposta": "Trompete"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Ray Charles nasceu Ray Charles Robinson e deixou de usar o sobrenome para não ser confundido com que boxeador?",
+        "resposta": "Sugar Ray Robinson"
+      },
+      "existentes": [
+        {
+          "id": "q07899",
+          "pergunta": "Ray Charles e Stevie Wonder, gigantes da soul americana, têm em comum uma condição física desde a infância. Qual?",
+          "resposta": "Cegueira"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Em 2008, Beyoncé lançou um álbum com o nome de seu alter ego de palco, mais ousado. Como se chama esse alter ego?",
+        "resposta": "Sasha Fierce"
+      },
+      "existentes": [
+        {
+          "id": "q11742",
+          "pergunta": "De qual grupo feminino esta cantora foi a vocalista principal no fim dos anos noventa?",
+          "resposta": "Destiny's Child"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Em 1994, Elton John compôs, com letras de Tim Rice, as canções de que animação da Disney?",
+        "resposta": "O Rei Leão"
+      },
+      "existentes": [
+        {
+          "id": "q05272",
+          "pergunta": "Quem é este cantor e pianista?",
+          "resposta": "Elton John"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Lady Gaga ganhou o Oscar de canção original com Shallow, que canta com Bradley Cooper. De que filme é essa canção?",
+        "resposta": "Nasce uma Estrela"
+      },
+      "existentes": [
+        {
+          "id": "q01243",
+          "pergunta": "O nome artístico Lady Gaga foi inspirado na canção Radio Ga Ga. De que banda é essa canção?",
+          "resposta": "Queen"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Em 2013, Adele ganhou o Oscar de canção original com o tema de que filme de James Bond?",
+        "resposta": "007 Operação Skyfall"
+      },
+      "existentes": [
+        {
+          "id": "q05266",
+          "pergunta": "Qual é o título do segundo álbum de estúdio desta cantora, lançado em 2011?",
+          "resposta": "21"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "No filme O Guarda-Costas, de 1992, Whitney Houston contracenou com que ator, no papel do seu segurança?",
+        "resposta": "Kevin Costner"
+      },
+      "existentes": [
+        {
+          "id": "q07881",
+          "pergunta": "Whitney Houston morreu em fevereiro de 2012, num hotel de Beverly Hills, na véspera de que grande premiação da música?",
+          "resposta": "Grammy"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Em 1957, no programa de Ed Sullivan, por que Elvis Presley foi filmado só da cintura para cima?",
+        "resposta": "Rebolado considerado indecente"
+      },
+      "existentes": [
+        {
+          "id": "q01822",
+          "pergunta": "Em 1954, este cantor lançou seu primeiro disco por uma pequena gravadora de Memphis. Qual?",
+          "resposta": "Sun Records"
+        },
+        {
+          "id": "q06673",
+          "pergunta": "Que arte marcial o cantor Elvis Presley começou a praticar a sério quando servia o exército na Alemanha, chegando à faixa preta?",
+          "resposta": "Caratê"
+        },
+        {
+          "id": "q07866",
+          "pergunta": "Durante o serviço militar, no fim dos anos cinquenta, Elvis Presley conheceu a futura esposa, Priscilla, em que país?",
+          "resposta": "Alemanha Ocidental"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Apesar do nome, o Festival de Woodstock não aconteceu na cidade de Woodstock, mas numa fazenda de que cidade de Nova York?",
+        "resposta": "Bethel"
+      },
+      "existentes": [
+        {
+          "id": "q01279",
+          "pergunta": "O festival de Woodstock aconteceu no mesmo verão de que feito histórico da corrida espacial?",
+          "resposta": "Chegada do homem à Lua"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Elvis Presley morreu em Graceland, sua mansão em Memphis, em agosto de que ano?",
+        "resposta": "1977"
+      },
+      "existentes": [
+        {
+          "id": "q01822",
+          "pergunta": "Em 1954, este cantor lançou seu primeiro disco por uma pequena gravadora de Memphis. Qual?",
+          "resposta": "Sun Records"
+        },
+        {
+          "id": "q06673",
+          "pergunta": "Que arte marcial o cantor Elvis Presley começou a praticar a sério quando servia o exército na Alemanha, chegando à faixa preta?",
+          "resposta": "Caratê"
+        },
+        {
+          "id": "q07866",
+          "pergunta": "Durante o serviço militar, no fim dos anos cinquenta, Elvis Presley conheceu a futura esposa, Priscilla, em que país?",
+          "resposta": "Alemanha Ocidental"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Que estilista francês criou o famoso corpete com sutiã em forma de cone usado por Madonna na turnê Blond Ambition, de 1990?",
+        "resposta": "Jean Paul Gaultier"
+      },
+      "existentes": [
+        {
+          "id": "q01828",
+          "pergunta": "Como se chama o álbum de estreia, de 1983, desta cantora?",
+          "resposta": "Madonna"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    }
+  ]
+}

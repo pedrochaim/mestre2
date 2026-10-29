@@ -1,0 +1,1358 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "the_beatles",
+        "nome": "The Beatles",
+        "descricao": "Banda de rock britânica formada em Liverpool em 1960 por John Lennon, Paul McCartney, George Harrison e, depois, Ringo Starr",
+        "variantes": [
+          "Beatles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Beatles"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Dos quatro Beatles da formação clássica, quem era o mais velho?",
+      "resposta": "Ringo Starr",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ringo_Starr",
+        "https://en.wikipedia.org/wiki/John_Lennon"
+      ],
+      "distratores": [
+        "John Lennon",
+        "Paul McCartney",
+        "George Harrison"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "the_beatles",
+        "nome": "The Beatles",
+        "descricao": "Banda de rock britânica formada em Liverpool em 1960 por John Lennon, Paul McCartney, George Harrison e, depois, Ringo Starr",
+        "variantes": [
+          "Beatles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Beatles"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Antes de Ringo Starr entrar nos Beatles, em 1962, quem era o baterista da banda?",
+      "resposta": "Pete Best",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pete_Best"
+      ],
+      "distratores": [
+        "Stuart Sutcliffe",
+        "Charlie Watts",
+        "Keith Moon"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "the_beatles",
+        "nome": "The Beatles",
+        "descricao": "Banda de rock britânica formada em Liverpool em 1960 por John Lennon, Paul McCartney, George Harrison e, depois, Ringo Starr",
+        "variantes": [
+          "Beatles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Beatles"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em abril de que ano Paul McCartney anunciou publicamente que deixava os Beatles, marcando o fim da banda?",
+      "resposta": "1970",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Breakup_of_the_Beatles"
+      ],
+      "distratores": [
+        "1968",
+        "1969",
+        "1971"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "michael_jackson",
+        "nome": "Michael Jackson",
+        "descricao": "Cantor e dançarino americano conhecido como Rei do Pop",
+        "variantes": [
+          "MJ"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Michael_Jackson"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "No fim dos anos sessenta, quando os Jackson 5 estouraram na Motown, quem era o irmão mais novo do grupo?",
+      "resposta": "Michael Jackson",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Jackson_5"
+      ],
+      "distratores": [
+        "Jermaine Jackson",
+        "Marlon Jackson",
+        "Tito Jackson"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "michael_jackson",
+        "nome": "Michael Jackson",
+        "descricao": "Cantor e dançarino americano conhecido como Rei do Pop",
+        "variantes": [
+          "MJ"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Michael_Jackson"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em 1983, no especial de TV Motown 25, Michael Jackson apresentou que passo de dança em que parece deslizar para trás?",
+      "resposta": "Moonwalk",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Moonwalk_(dance)"
+      ],
+      "distratores": [
+        "Robô",
+        "Running man",
+        "Twist"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "spice_girls",
+        "nome": "Spice Girls",
+        "descricao": "Grupo pop feminino britânico formado em 1994, de Wannabe",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Spice_Girls"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Quando as Spice Girls estouraram com Wannabe, em 1996, qual delas, com apenas vinte anos, era a caçula do grupo?",
+      "resposta": "Emma Bunton",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Emma_Bunton",
+        "https://en.wikipedia.org/wiki/Spice_Girls"
+      ],
+      "distratores": [
+        "Melanie Chisholm",
+        "Melanie Brown",
+        "Geri Halliwell"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Bee Gees",
+        "descricao": "Grupo pop formado pelos irmãos Barry, Robin e Maurice Gibb, astros da era disco",
+        "variantes": [
+          "The Bee Gees"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bee_Gees"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre os três irmãos Gibb que formavam os Bee Gees, qual era o primogênito?",
+      "resposta": "Barry Gibb",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Barry_Gibb",
+        "https://en.wikipedia.org/wiki/Bee_Gees"
+      ],
+      "distratores": [
+        "Robin Gibb",
+        "Maurice Gibb",
+        "Andy Gibb"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Queen",
+        "descricao": "Banda de rock britânica formada em Londres em 1970, de Freddie Mercury e Brian May",
+        "variantes": [
+          "Queen (banda)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Queen_(band)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Na formação clássica do Queen, qual integrante nasceu por último?",
+      "resposta": "John Deacon",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/John_Deacon",
+        "https://en.wikipedia.org/wiki/Roger_Taylor_(Queen_drummer)"
+      ],
+      "distratores": [
+        "Roger Taylor",
+        "Brian May",
+        "Freddie Mercury"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "violino",
+        "nome": "Violino",
+        "descricao": "Instrumento de cordas friccionadas com arco, o menor e mais agudo da família do violino.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Violino"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Das quatro cordas do violino, qual é a de som mais grave?",
+      "resposta": "Sol",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Violino",
+        "https://en.wikipedia.org/wiki/Violin"
+      ],
+      "distratores": [
+        "Ré",
+        "Lá",
+        "Mi"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "violino",
+        "nome": "Violino",
+        "descricao": "Instrumento de cordas friccionadas com arco, o menor e mais agudo da família do violino.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Violino"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O arco do violino é tradicionalmente encordoado com pelos da crina de que animal?",
+      "resposta": "Cavalo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bow_(music)"
+      ],
+      "distratores": [
+        "Cabra",
+        "Camelo",
+        "Boi"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "The Rolling Stones",
+        "descricao": "Banda de rock britânica formada em Londres em 1962, de Mick Jagger e Keith Richards",
+        "variantes": [
+          "Rolling Stones",
+          "Os Rolling Stones"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Rolling_Stones"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Que fundador dos Rolling Stones foi encontrado morto na piscina de casa em 1969, semanas depois de deixar a banda?",
+      "resposta": "Brian Jones",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brian_Jones"
+      ],
+      "distratores": [
+        "Charlie Watts",
+        "Bill Wyman",
+        "Ronnie Wood"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "The Rolling Stones",
+        "descricao": "Banda de rock britânica formada em Londres em 1962, de Mick Jagger e Keith Richards",
+        "variantes": [
+          "Rolling Stones",
+          "Os Rolling Stones"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Rolling_Stones"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Os Rolling Stones tiraram o nome de uma canção de que bluesman americano?",
+      "resposta": "Muddy Waters",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Rolling_Stones",
+        "https://en.wikipedia.org/wiki/Rollin%27_Stone"
+      ],
+      "distratores": [
+        "B.B. King",
+        "Robert Johnson",
+        "Howlin' Wolf"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "The Rolling Stones",
+        "descricao": "Banda de rock britânica formada em Londres em 1962, de Mick Jagger e Keith Richards",
+        "variantes": [
+          "Rolling Stones",
+          "Os Rolling Stones"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Rolling_Stones"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 1963, o segundo single dos Rolling Stones, I Wanna Be Your Man, foi composto por dois integrantes de que outra banda britânica?",
+      "resposta": "The Beatles",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/I_Wanna_Be_Your_Man"
+      ],
+      "distratores": [
+        "The Kinks",
+        "The Who",
+        "The Animals"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "pink_floyd",
+        "nome": "Pink Floyd",
+        "descricao": "Banda britânica de rock progressivo formada em Londres em 1965",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pink_Floyd"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Que fundador e primeiro líder do Pink Floyd deixou a banda em 1968, afetado por problemas de saúde mental?",
+      "resposta": "Syd Barrett",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Syd_Barrett"
+      ],
+      "distratores": [
+        "Roger Waters",
+        "David Gilmour",
+        "Richard Wright"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "led_zeppelin",
+        "nome": "Led Zeppelin",
+        "descricao": "Banda britânica de hard rock formada em 1968 por Jimmy Page, Robert Plant, John Paul Jones e John Bonham",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Led_Zeppelin"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Que integrante do Led Zeppelin morreu em 1980, levando os outros três a encerrar a banda?",
+      "resposta": "John Bonham",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/John_Bonham",
+        "https://en.wikipedia.org/wiki/Led_Zeppelin"
+      ],
+      "distratores": [
+        "Jimmy Page",
+        "Robert Plant",
+        "John Paul Jones"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "The Doors",
+        "descricao": "Banda de rock americana formada em Los Angeles em 1965, liderada pelo vocalista Jim Morrison",
+        "variantes": [
+          "Doors"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Doors"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A banda The Doors não tinha baixista fixo. Quem fazia as linhas de baixo nos shows?",
+      "resposta": "Tecladista Ray Manzarek",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ray_Manzarek",
+        "https://en.wikipedia.org/wiki/The_Doors"
+      ],
+      "distratores": [
+        "Guitarrista Robby Krieger",
+        "Baterista John Densmore",
+        "Vocalista Jim Morrison"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "thriller",
+        "nome": "Thriller",
+        "descricao": "Álbum de Michael Jackson produzido por Quincy Jones",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Thriller_(album)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na faixa-título do álbum Thriller, de Michael Jackson, a narração assustadora e a risada final são de que astro do cinema de terror?",
+      "resposta": "Vincent Price",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Thriller_(song)"
+      ],
+      "distratores": [
+        "Christopher Lee",
+        "Boris Karloff",
+        "Peter Cushing"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Abbey Road",
+        "descricao": "Álbum dos Beatles lançado em 1969, com a capa da banda atravessando uma faixa de pedestres em Londres",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Abbey_Road"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na famosa capa de Abbey Road, com os Beatles atravessando a faixa de pedestres, qual deles aparece descalço?",
+      "resposta": "Paul McCartney",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Abbey_Road"
+      ],
+      "distratores": [
+        "John Lennon",
+        "George Harrison",
+        "Ringo Starr"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "hip_hop",
+        "nome": "Hip hop",
+        "descricao": "Gênero musical e movimento cultural surgido entre jovens negros e latinos do Bronx, em Nova York",
+        "variantes": [
+          "Hip-hop"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hip_hop"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A cultura hip hop costuma ser descrita por quatro elementos: o rap, o DJ, o breakdance e qual arte visual?",
+      "resposta": "Grafite",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hip_hop"
+      ],
+      "distratores": [
+        "Tatuagem",
+        "Fotografia",
+        "Pintura corporal"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "live_aid",
+        "nome": "Live Aid",
+        "descricao": "Megashow beneficente realizado em 13 de julho de 1985 em Londres e na Filadélfia",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Live_Aid"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No Live Aid, que cantor se apresentou em Londres e, horas depois, na Filadélfia, cruzando o Atlântico de Concorde?",
+      "resposta": "Phil Collins",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Live_Aid"
+      ],
+      "distratores": [
+        "Sting",
+        "Elton John",
+        "Bono"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Beat It",
+        "descricao": "Canção de Michael Jackson do álbum Thriller, lançada como single em 1983",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Beat_It"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Que guitarrista de hard rock gravou, sem cobrar nada, o solo de guitarra de Beat It, de Michael Jackson?",
+      "resposta": "Eddie Van Halen",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Beat_It"
+      ],
+      "distratores": [
+        "Slash",
+        "Jimmy Page",
+        "Steve Vai"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "ac_dc",
+        "nome": "AC/DC",
+        "descricao": "Banda de hard rock fundada em 1973 pelos irmãos Malcolm e Angus Young",
+        "variantes": [
+          "ACDC"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/AC/DC"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Que integrante do AC/DC ficou famoso por se apresentar vestido de uniforme escolar, com bermuda, gravata e boné?",
+      "resposta": "Angus Young",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Angus_Young"
+      ],
+      "distratores": [
+        "Malcolm Young",
+        "Bon Scott",
+        "Brian Johnson"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "id_existente": "bob_marley",
+        "nome": "Bob Marley",
+        "descricao": "Cantor e compositor jamaicano de reggae, líder dos Wailers",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bob_Marley"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Bob Marley era seguidor de que movimento religioso surgido na Jamaica nos anos trinta?",
+      "resposta": "Rastafári",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bob_Marley"
+      ],
+      "distratores": [
+        "Vodu",
+        "Candomblé",
+        "Santeria"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "taylor_swift",
+        "nome": "Taylor Swift",
+        "descricao": "Cantora e compositora americana, autora de 1989 e Fearless.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Taylor_Swift"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Antes de migrar para o pop, Taylor Swift começou a carreira em que gênero musical?",
+      "resposta": "Country",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Taylor_Swift"
+      ],
+      "distratores": [
+        "Gospel",
+        "R&B",
+        "Rock alternativo"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "id_existente": "lady_gaga",
+        "nome": "Lady Gaga",
+        "descricao": "Cantora e atriz americana, nascida Stefani Germanotta",
+        "variantes": [
+          "Stefani Germanotta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lady_Gaga"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Na premiação VMA de 2010, Lady Gaga causou polêmica com um vestido feito de quê?",
+      "resposta": "Carne crua",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Meat_dress_of_Lady_Gaga"
+      ],
+      "distratores": [
+        "Papel reciclado",
+        "Bolhas de plástico",
+        "Folhas de alface"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "bob_dylan",
+        "nome": "Bob Dylan",
+        "descricao": "Cantor e compositor americano de folk e rock, nascido Robert Zimmerman",
+        "variantes": [
+          "Robert Zimmerman"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bob_Dylan"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Para tocar violão e soprar ao mesmo tempo, Bob Dylan usava um suporte no pescoço que segurava que instrumento?",
+      "resposta": "Gaita",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bob_Dylan",
+        "https://en.wikipedia.org/wiki/Harmonica"
+      ],
+      "distratores": [
+        "Flauta doce",
+        "Kazoo",
+        "Ocarina"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "id_existente": "shakira",
+        "nome": "Shakira",
+        "descricao": "Cantora e compositora colombiana de pop latino, nascida Shakira Isabel Mebarak Ripoll",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Shakira"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Por herança da família do pai, de origem libanesa, Shakira incorpora em seus shows que dança?",
+      "resposta": "Dança do ventre",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shakira"
+      ],
+      "distratores": [
+        "Flamenco",
+        "Tango",
+        "Salsa"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "bjork",
+        "nome": "Björk",
+        "descricao": "Cantora e compositora islandesa, ex-vocalista do grupo The Sugarcubes",
+        "variantes": [
+          "Bjork"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bj%C3%B6rk"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Na cerimônia do Oscar de 2001, Björk chamou atenção com um vestido que imitava que ave?",
+      "resposta": "Cisne",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Swan_dress"
+      ],
+      "distratores": [
+        "Pavão",
+        "Flamingo",
+        "Coruja"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "paul_mccartney",
+        "nome": "Paul McCartney",
+        "descricao": "Músico e compositor inglês, baixista e vocalista dos Beatles.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paul_McCartney"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "O baixo Höfner, usado por Paul McCartney nos tempos dos Beatles, tem o corpo no formato de que instrumento?",
+      "resposta": "Violino",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/H%C3%B6fner_500/1"
+      ],
+      "distratores": [
+        "Violão",
+        "Bandolim",
+        "Alaúde"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "adele",
+        "nome": "Adele",
+        "descricao": "Cantora e compositora britânica, autora dos álbuns 19, 21 e 25.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Adele"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Os títulos numéricos dos álbuns de Adele, como 19, 21 e 25, se referem a quê?",
+      "resposta": "A idade dela na época",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Adele"
+      ],
+      "distratores": [
+        "Número de faixas",
+        "Anos de lançamento",
+        "Endereços em Londres"
+      ]
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Ringo Starr",
+        "descricao": "Músico inglês, baterista dos Beatles, nascido Richard Starkey",
+        "variantes": [
+          "Richard Starkey"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ringo_Starr"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O apelido Ringo, adotado pelo baterista Richard Starkey, veio do hábito de usar o quê?",
+      "resposta": "Anéis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ringo_Starr"
+      ],
+      "distratores": [
+        "Chapéus de caubói",
+        "Óculos escuros",
+        "Relógios"
+      ]
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "id_existente": "louis_armstrong",
+        "nome": "Louis Armstrong",
+        "descricao": "Músico e cantor americano de jazz, nascido em Nova Orleans, intérprete de What a Wonderful World",
+        "variantes": [
+          "Satchmo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Louis_Armstrong"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O apelido Satchmo, de Louis Armstrong, vem de uma brincadeira com que parte do corpo dele?",
+      "resposta": "A boca",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Louis_Armstrong"
+      ],
+      "distratores": [
+        "O nariz",
+        "As orelhas",
+        "As mãos"
+      ]
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "id_existente": "ray_charles",
+        "nome": "Ray Charles",
+        "descricao": "Cantor e pianista americano, pioneiro da soul music",
+        "variantes": [
+          "Ray Charles Robinson"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ray_Charles"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Ray Charles nasceu Ray Charles Robinson e deixou de usar o sobrenome para não ser confundido com que boxeador?",
+      "resposta": "Sugar Ray Robinson",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ray_Charles"
+      ],
+      "distratores": [
+        "Muhammad Ali",
+        "Joe Louis",
+        "Rocky Marciano"
+      ]
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "David Bowie",
+        "descricao": "Cantor, compositor e ator britânico, criador do personagem Ziggy Stardust, morto em 2016",
+        "variantes": [
+          "David Jones",
+          "David Robert Jones"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/David_Bowie"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "David Bowie nasceu David Jones e trocou de nome para não ser confundido com o cantor de que banda?",
+      "resposta": "The Monkees",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/David_Bowie"
+      ],
+      "distratores": [
+        "The Kinks",
+        "The Hollies",
+        "The Animals"
+      ]
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "id_existente": "beyonce",
+        "nome": "Beyoncé",
+        "descricao": "Cantora, compositora e atriz americana, ex-vocalista do Destiny's Child.",
+        "variantes": [
+          "Beyonce",
+          "Beyoncé Knowles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Beyonc%C3%A9"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em 2008, Beyoncé lançou um álbum com o nome de seu alter ego de palco, mais ousado. Como se chama esse alter ego?",
+      "resposta": "Sasha Fierce",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/I_Am..._Sasha_Fierce"
+      ],
+      "distratores": [
+        "Roxy Lane",
+        "Mrs. Carter",
+        "Diva Storm"
+      ]
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "id_existente": "elton_john",
+        "nome": "Elton John",
+        "descricao": "Cantor, compositor e pianista britânico, nascido Reginald Dwight.",
+        "variantes": [
+          "Reginald Dwight"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Elton_John"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 1994, Elton John compôs, com letras de Tim Rice, as canções de que animação da Disney?",
+      "resposta": "O Rei Leão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Lion_King",
+        "https://en.wikipedia.org/wiki/Can_You_Feel_the_Love_Tonight"
+      ],
+      "distratores": [
+        "Aladdin",
+        "Pocahontas",
+        "A Bela e a Fera"
+      ]
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "lady_gaga",
+        "nome": "Lady Gaga",
+        "descricao": "Cantora e atriz americana, nascida Stefani Germanotta",
+        "variantes": [
+          "Stefani Germanotta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lady_Gaga"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Lady Gaga ganhou o Oscar de canção original com Shallow, que canta com Bradley Cooper. De que filme é essa canção?",
+      "resposta": "Nasce uma Estrela",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shallow_(Lady_Gaga_and_Bradley_Cooper_song)"
+      ],
+      "distratores": [
+        "Casa Gucci",
+        "Bohemian Rhapsody",
+        "Rocketman"
+      ]
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "id_existente": "adele",
+        "nome": "Adele",
+        "descricao": "Cantora e compositora britânica, autora dos álbuns 19, 21 e 25.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Adele"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 2013, Adele ganhou o Oscar de canção original com o tema de que filme de James Bond?",
+      "resposta": "007 Operação Skyfall",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Skyfall_(Adele_song)"
+      ],
+      "distratores": [
+        "007 Contra Spectre",
+        "Cassino Royale",
+        "Quantum of Solace"
+      ]
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "id_existente": "whitney_houston",
+        "nome": "Whitney Houston",
+        "descricao": "Cantora e atriz americana, estrela de O Guarda-Costas, morta em 2012",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Whitney_Houston"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "No filme O Guarda-Costas, de 1992, Whitney Houston contracenou com que ator, no papel do seu segurança?",
+      "resposta": "Kevin Costner",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Bodyguard_(1992_film)"
+      ],
+      "distratores": [
+        "Mel Gibson",
+        "Harrison Ford",
+        "Richard Gere"
+      ]
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "David Bowie",
+        "descricao": "Cantor, compositor e ator britânico, criador do personagem Ziggy Stardust, morto em 2016",
+        "variantes": [
+          "David Jones",
+          "David Robert Jones"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/David_Bowie"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Os olhos de David Bowie pareciam ter cores diferentes porque uma pupila ficou sempre dilatada. O que causou isso?",
+      "resposta": "Um soco na adolescência",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/David_Bowie"
+      ],
+      "distratores": [
+        "Uma doença congênita",
+        "Um acidente de carro",
+        "Uma queimadura no palco"
+      ]
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "id_existente": "elvis_presley",
+        "nome": "Elvis Presley",
+        "descricao": "Cantor e ator americano conhecido como o Rei do Rock and Roll.",
+        "variantes": [
+          "Elvis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Elvis_Presley"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 1957, no programa de Ed Sullivan, por que Elvis Presley foi filmado só da cintura para cima?",
+      "resposta": "Rebolado considerado indecente",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Elvis_Presley"
+      ],
+      "distratores": [
+        "Calça rasgada no palco",
+        "Machucou a perna",
+        "Exigência do empresário"
+      ]
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Wind of Change",
+        "descricao": "Balada da banda alemã Scorpions, do álbum Crazy World, de 1990",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wind_of_Change_(Scorpions_song)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "A balada Wind of Change, sucesso da banda alemã Scorpions no início dos anos noventa, foi inspirada em que processo histórico?",
+      "resposta": "O fim da Guerra Fria",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wind_of_Change_(Scorpions_song)"
+      ],
+      "distratores": [
+        "A Guerra do Golfo",
+        "O fim do apartheid",
+        "A Guerra das Malvinas"
+      ]
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Zombie",
+        "descricao": "Canção da banda irlandesa The Cranberries lançada em 1994",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Zombie_(The_Cranberries_song)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "A canção Zombie, da banda irlandesa The Cranberries, foi escrita como protesto depois de que acontecimento?",
+      "resposta": "Um atentado do IRA",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Zombie_(The_Cranberries_song)"
+      ],
+      "distratores": [
+        "A Guerra do Golfo",
+        "O desastre de Chernobyl",
+        "A fome na Etiópia"
+      ]
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Jazz",
+        "descricao": "Gênero musical surgido entre afro-americanos no sul dos Estados Unidos no início do século vinte",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jazz"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "No início do século vinte, o jazz nasceu em que cidade americana, perto da foz do rio Mississippi?",
+      "resposta": "Nova Orleans",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jazz"
+      ],
+      "distratores": [
+        "Chicago",
+        "Memphis",
+        "Saint Louis"
+      ]
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Fado",
+        "descricao": "Gênero musical português de canto melancólico, acompanhado pela guitarra portuguesa",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fado"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Além do fado de Lisboa, que cidade portuguesa tem uma tradição própria de fado, cantado por estudantes universitários de capa preta?",
+      "resposta": "Coimbra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fado"
+      ],
+      "distratores": [
+        "Porto",
+        "Braga",
+        "Évora"
+      ]
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "id_existente": "festival_de_woodstock",
+        "nome": "Festival de Woodstock",
+        "descricao": "Festival de música realizado em agosto de 1969 numa fazenda em Bethel, no estado de Nova York",
+        "variantes": [
+          "Woodstock"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Woodstock"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Apesar do nome, o Festival de Woodstock não aconteceu na cidade de Woodstock, mas numa fazenda de que cidade de Nova York?",
+      "resposta": "Bethel",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Woodstock"
+      ],
+      "distratores": [
+        "Albany",
+        "Saugerties",
+        "Ithaca"
+      ]
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "id_existente": "elvis_presley",
+        "nome": "Elvis Presley",
+        "descricao": "Cantor e ator americano conhecido como o Rei do Rock and Roll.",
+        "variantes": [
+          "Elvis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Elvis_Presley"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Elvis Presley morreu em Graceland, sua mansão em Memphis, em agosto de que ano?",
+      "resposta": "1977",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Elvis_Presley"
+      ],
+      "distratores": [
+        "1975",
+        "1979",
+        "1981"
+      ]
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Imagine",
+        "descricao": "Canção de John Lennon lançada no álbum homônimo de 1971",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Imagine_(John_Lennon_song)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Imagine, o hino pacifista de John Lennon gravado depois do fim dos Beatles, foi lançada em que ano?",
+      "resposta": "1971",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Imagine_(John_Lennon_song)"
+      ],
+      "distratores": [
+        "1969",
+        "1973",
+        "1975"
+      ]
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "id_existente": "piano_de_cauda",
+        "nome": "Piano de cauda",
+        "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Grand_piano"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Somando as brancas e as pretas, quantas teclas tem um piano de cauda moderno padrão?",
+      "resposta": "88",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Piano"
+      ],
+      "distratores": [
+        "72",
+        "76",
+        "92"
+      ]
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "id_existente": "madonna",
+        "nome": "Madonna",
+        "descricao": "Cantora, compositora e atriz americana conhecida como a Rainha do Pop.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Madonna"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que estilista francês criou o famoso corpete com sutiã em forma de cone usado por Madonna na turnê Blond Ambition, de 1990?",
+      "resposta": "Jean Paul Gaultier",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Blond_Ambition_World_Tour"
+      ],
+      "distratores": [
+        "Thierry Mugler",
+        "Yves Saint Laurent",
+        "Christian Lacroix"
+      ]
+    }
+  ]
+}

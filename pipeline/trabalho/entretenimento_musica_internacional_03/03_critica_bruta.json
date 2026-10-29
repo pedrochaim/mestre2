@@ -1,0 +1,396 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ringo (julho de 1940) é mais velho que Lennon (outubro de 1940); pergunta precisa e distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pete Best foi o baterista até 1962; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Comunicado de McCartney em 10 de abril de 1970; ano em múltipla escolha, como exigido.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Michael (1958) era o caçula dos Jackson 5 na época; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Moonwalk em Motown 25, 1983, confirmado; enunciado sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Emma Bunton, nascida em janeiro de 1976, era a mais jovem e tinha vinte anos em 1996.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Andy Gibb como distrator é descartado pelo próprio enunciado ('três irmãos'); precisa de enunciado coerente com os quatro irmãos.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Dos quatro irmãos Gibb homens, os três dos Bee Gees e o caçula Andy, quem era o mais velho?",
+        "resposta": "Barry Gibb",
+        "distratores": [
+          "Robin Gibb",
+          "Maurice Gibb",
+          "Andy Gibb"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Barry_Gibb",
+          "https://en.wikipedia.org/wiki/Bee_Gees"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Deacon (1951) nasceu depois de Taylor, May e Mercury.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Instrumento de música clássica, mal classificado em Música Internacional.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fora do subtema e com verbo 'encordoado' impreciso para o arco.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Brian Jones, fundador, achado na piscina em julho de 1969, semanas após sair da banda.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte em desambiguação; trocar por páginas que sustentam o fato (pt confirma Muddy Waters).",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Os Rolling Stones tiraram o nome de uma canção de que bluesman americano?",
+        "resposta": "Muddy Waters",
+        "distratores": [
+          "B.B. King",
+          "Robert Johnson",
+          "Howlin' Wolf"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/The_Rolling_Stones",
+          "https://en.wikipedia.org/wiki/The_Rolling_Stones"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "I Wanna Be Your Man é de Lennon e McCartney; bom ângulo de conexão.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Syd Barrett saiu em abril de 1968 em meio a problemas mentais.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Morte de Bonham em 1980 encerrou o Led Zeppelin.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta e distratores trazem o instrumento junto do nome; deve ser só o nome da pessoa.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "A banda The Doors não tinha baixista fixo. Quem tocava as linhas de baixo nos shows, num teclado?",
+        "resposta": "Ray Manzarek",
+        "distratores": [
+          "Robby Krieger",
+          "John Densmore",
+          "Jim Morrison"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Ray_Manzarek",
+          "https://en.wikipedia.org/wiki/The_Doors"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vincent Price narra e ri em Thriller; distratores do mesmo gênero.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Só Paul McCartney está descalço na capa de Abbey Road; fato famoso.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os quatro elementos do hip hop incluem o grafite.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Phil Collins tocou em Wembley e na Filadélfia, indo de Concorde.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Eddie Van Halen gravou o solo de Beat It de graça.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Angus Young e o uniforme escolar, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marley era rastafári, movimento surgido na Jamaica nos anos trinta.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Taylor Swift começou no country.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vestido de carne crua no VMA de 2010.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Dylan usava suporte de gaita no pescoço; fato muito conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dança do ventre ligada à herança libanesa, segundo a Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vestido de cisne no Oscar de 2001 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Höfner 500/1 é o 'Violin Bass'.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os títulos dos álbuns de Adele referem-se à idade dela.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome Ringo vem dos anéis que usava, segundo a Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Satchmo vem de 'satchelmouth', alusão à boca grande; amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sobrenome cortado para evitar confusão com Sugar Ray Robinson.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Confusão com Davy Jones, dos Monkees, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sasha Fierce é o alter ego, título do álbum de 2008.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Elton John e Tim Rice fizeram as canções de O Rei Leão (1994).",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Shallow é de A Star Is Born e ganhou o Oscar.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Skyfall ganhou o Oscar na cerimônia de 2013.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kevin Costner foi o guarda-costas em O Guarda-Costas.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Soco de George Underwood na adolescência causou a pupila dilatada; bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Em 1957 Elvis foi filmado da cintura para cima por causa do rebolado; episódio famoso.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Wind of Change foi inspirada pelo fim da Guerra Fria.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zombie foi escrita após o atentado do IRA em Warrington.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jazz nasceu em Nova Orleans.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fado de Coimbra, ligado à universidade e ao traje acadêmico.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Woodstock ocorreu em Bethel, a cerca de 95 km da cidade de Woodstock.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Elvis morreu em agosto de 1977 em Graceland; ano em múltipla escolha.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Imagine é de 1971; ano em múltipla escolha.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Instrumento de música clássica fora do subtema e fato trivial.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jean Paul Gaultier desenhou os figurinos e o corpete cônico da Blond Ambition.",
+      "reescrita": null
+    }
+  ]
+}

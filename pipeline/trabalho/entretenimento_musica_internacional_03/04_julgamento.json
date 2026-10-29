@@ -1,0 +1,776 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bee Gees",
+        "descricao": "Grupo pop formado pelos irmãos Barry, Robin e Maurice Gibb, astros da era disco",
+        "variantes": [
+          "The Bee Gees"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "the_beatles",
+          "nome": "The Beatles",
+          "descricao": "Banda de rock britânica formada em Liverpool em 1960 por John Lennon, Paul McCartney, George Harrison e, depois, Ringo Starr",
+          "variantes": [
+            "Beatles",
+            "Os Beatles"
+          ]
+        },
+        {
+          "id": "betelgeuse",
+          "nome": "Betelgeuse",
+          "descricao": "Estrela supergigante vermelha da constelação de Órion, que marca o ombro do caçador.",
+          "variantes": [
+            "Alfa de Órion",
+            "Betelgeuze"
+          ]
+        },
+        {
+          "id": "tebas",
+          "nome": "Tebas",
+          "descricao": "Antiga cidade do Alto Egito, capital no Novo Império, onde hoje fica Luxor",
+          "variantes": [
+            "Tebas (Egito)",
+            "Uaset",
+            "Waset",
+            "Thebes"
+          ]
+        },
+        {
+          "id": "os_vingadores",
+          "nome": "Os Vingadores",
+          "descricao": "Filme de super-heróis da Marvel lançado em 2012, com a equipe reunida contra Loki.",
+          "variantes": [
+            "The Avengers",
+            "Vingadores"
+          ]
+        },
+        {
+          "id": "os_tres_tenores",
+          "nome": "Os Três Tenores",
+          "descricao": "Trio formado pelos tenores Luciano Pavarotti, Plácido Domingo e José Carreras, que se apresentou em grandes concertos a partir de 1990.",
+          "variantes": [
+            "The Three Tenors"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Queen",
+        "descricao": "Banda de rock britânica formada em Londres em 1970, de Freddie Mercury e Brian May",
+        "variantes": [
+          "Queen (banda)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dama_xadrez",
+          "nome": "Dama (xadrez)",
+          "descricao": "Peça mais poderosa do xadrez, que se move em linha reta e na diagonal por quantas casas quiser, também chamada rainha.",
+          "variantes": [
+            "Rainha (xadrez)",
+            "Queen",
+            "Rainha"
+          ]
+        },
+        {
+          "id": "dama_carta_de_baralho",
+          "nome": "Dama (carta de baralho)",
+          "descricao": "Carta de baralho francês com figura de rainha, entre o rei e o valete.",
+          "variantes": [
+            "Rainha",
+            "Queen",
+            "Q"
+          ]
+        },
+        {
+          "id": "queens",
+          "nome": "Queens",
+          "descricao": "Um dos cinco distritos da cidade de Nova York, a leste de Manhattan, na ilha de Long Island.",
+          "variantes": [
+            "Borough of Queens"
+          ]
+        },
+        {
+          "id": "clementina_de_jesus",
+          "nome": "Clementina de Jesus",
+          "descricao": "Cantora fluminense de samba e cantos de tradição afro-brasileira, que estreou nos palcos já idosa, nos anos 1960.",
+          "variantes": [
+            "Quelé"
+          ]
+        },
+        {
+          "id": "quepe",
+          "nome": "Quepe",
+          "descricao": "Boné militar de topo circular plano e pala, associado aos uniformes franceses e à Guerra Civil americana.",
+          "variantes": [
+            "Képi",
+            "Kepi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "The Rolling Stones",
+        "descricao": "Banda de rock britânica formada em Londres em 1962, de Mick Jagger e Keith Richards",
+        "variantes": [
+          "Rolling Stones",
+          "Os Rolling Stones"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pedras_de_jelling",
+          "nome": "Pedras de Jelling",
+          "descricao": "Duas grandes pedras rúnicas do século dez em Jelling, na Dinamarca, erguidas pelo rei Gorm e por seu filho Harald Dente Azul.",
+          "variantes": [
+            "Jelling stones",
+            "Pedras rúnicas de Jelling"
+          ]
+        },
+        {
+          "id": "os_flintstones",
+          "nome": "Os Flintstones",
+          "descricao": "Desenho animado americano de 1960 sobre uma família da Idade da Pedra.",
+          "variantes": [
+            "The Flintstones"
+          ]
+        },
+        {
+          "id": "pedras_deslizantes_do_vale_da_morte",
+          "nome": "Pedras deslizantes do Vale da Morte",
+          "descricao": "Rochas que se deslocam sozinhas e deixam rastros no leito seco de Racetrack Playa, no Vale da Morte, na Califórnia.",
+          "variantes": [
+            "Sailing stones",
+            "Pedras velejadoras",
+            "Pedras de Racetrack Playa",
+            "Pedras deslizantes",
+            "Pedras andantes"
+          ]
+        },
+        {
+          "id": "pedra_do_inga",
+          "nome": "Pedra do Ingá",
+          "descricao": "Rocha na Paraíba coberta de gravuras pré-históricas, também chamada Itacoatiara do Ingá.",
+          "variantes": [
+            "Itacoatiara do Ingá",
+            "Ingá Stone"
+          ]
+        },
+        {
+          "id": "trolltunga",
+          "nome": "Trolltunga",
+          "descricao": "Formação rochosa que se projeta horizontalmente a cerca de 700 metros acima do lago Ringedalsvatnet, na Noruega.",
+          "variantes": [
+            "Língua do Troll",
+            "Troll Tongue"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "The Doors",
+        "descricao": "Banda de rock americana formada em Los Angeles em 1965, liderada pelo vocalista Jim Morrison",
+        "variantes": [
+          "Doors"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "valentino_rossi",
+          "nome": "Valentino Rossi",
+          "descricao": "Piloto italiano de motovelocidade, nove vezes campeão mundial de Grand Prix.",
+          "variantes": [
+            "O Doutor",
+            "The Doctor",
+            "Vale"
+          ]
+        },
+        {
+          "id": "o_cao_goya",
+          "nome": "O Cão (Goya)",
+          "descricao": "Pintura negra de Francisco de Goya, no Museu do Prado, com a cabeça de um cão olhando para cima.",
+          "variantes": [
+            "El Perro",
+            "The Dog",
+            "Cão semi-submerso"
+          ]
+        },
+        {
+          "id": "drs",
+          "nome": "DRS",
+          "descricao": "Sistema de redução de arrasto usado na Fórmula 1 entre 2011 e 2025, que abria uma aba da asa traseira para facilitar ultrapassagens.",
+          "variantes": [
+            "Drag Reduction System",
+            "Sistema de redução de arrasto",
+            "Asa móvel"
+          ]
+        },
+        {
+          "id": "jerry_west",
+          "nome": "Jerry West",
+          "descricao": "Armador americano que jogou toda a carreira na NBA pelo Los Angeles Lakers, nos anos 1960 e 1970.",
+          "variantes": [
+            "The Logo",
+            "Mr. Clutch"
+          ]
+        },
+        {
+          "id": "dennis_rodman",
+          "nome": "Dennis Rodman",
+          "descricao": "Ala-pivô americano, especialista em rebotes, campeão da NBA com o Detroit Pistons e o Chicago Bulls.",
+          "variantes": [
+            "The Worm",
+            "Rodman"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Abbey Road",
+        "descricao": "Álbum dos Beatles lançado em 1969, com a capa da banda atravessando uma faixa de pedestres em Londres",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "bilby",
+          "nome": "Bilby",
+          "descricao": "Marsupial australiano noturno de orelhas longas (Macrotis lagotis), que vive em tocas.",
+          "variantes": [
+            "Bilby-grande",
+            "Coelho-bandicoot",
+            "Macrotis lagotis",
+            "Greater bilby"
+          ]
+        },
+        {
+          "id": "grogu",
+          "nome": "Grogu",
+          "descricao": "Pequeno foundling sensível à Força, da mesma espécie de Yoda, protegido de Din Djarin em The Mandalorian.",
+          "variantes": [
+            "O Menino",
+            "The Child",
+            "Baby Yoda",
+            "Din Grogu"
+          ]
+        },
+        {
+          "id": "samba_de_roda",
+          "nome": "Samba de roda",
+          "descricao": "Manifestação de música, dança e poesia afro-brasileira da Bahia, proclamada patrimônio da humanidade pela Unesco.",
+          "variantes": [
+            "Samba de roda do Recôncavo Baiano"
+          ]
+        },
+        {
+          "id": "estrada_real_persa",
+          "nome": "Estrada Real Persa",
+          "descricao": "Estrada construída no Império Aquemênida, ligando Susa a Sardes, percorrida por mensageiros a cavalo.",
+          "variantes": [
+            "Estrada Real",
+            "Royal Road"
+          ]
+        },
+        {
+          "id": "jambo",
+          "nome": "Jambo",
+          "descricao": "Fruta vermelha e brilhante de árvore tropical do gênero Syzygium, como o jambo-vermelho (Syzygium malaccense).",
+          "variantes": [
+            "Jambo-vermelho",
+            "Jambo-rosa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Beat It",
+        "descricao": "Canção de Michael Jackson do álbum Thriller, lançada como single em 1983",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "bastet",
+          "nome": "Bastet",
+          "descricao": "Deusa egípcia protetora do lar, cultuada sobretudo na cidade de Bubástis",
+          "variantes": [
+            "Bast",
+            "Bastit"
+          ]
+        },
+        {
+          "id": "beartic",
+          "nome": "Beartic",
+          "descricao": "Pokémon do tipo Gelo, número 614 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "hematita",
+          "nome": "Hematita",
+          "descricao": "Mineral de óxido de ferro (Fe2O3), importante minério de ferro, de cor cinza metálica a vermelha.",
+          "variantes": [
+            "Hematite"
+          ]
+        },
+        {
+          "id": "bartitsu",
+          "nome": "Bartitsu",
+          "descricao": "Método de defesa pessoal criado na Inglaterra por volta de 1900, citado como baritsu nas histórias de Sherlock Holmes.",
+          "variantes": [
+            "Baritsu"
+          ]
+        },
+        {
+          "id": "hepatite",
+          "nome": "Hepatite",
+          "descricao": "Inflamação do fígado, causada em geral por vírus, álcool ou medicamentos.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ringo Starr",
+        "descricao": "Músico inglês, baterista dos Beatles, nascido Richard Starkey",
+        "variantes": [
+          "Richard Starkey"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "richard_leakey",
+          "nome": "Richard Leakey",
+          "descricao": "Paleoantropólogo e conservacionista queniano, líder de expedições no lago Turkana.",
+          "variantes": [
+            "Richard Erskine Frere Leakey"
+          ]
+        },
+        {
+          "id": "cartas_gold_star",
+          "nome": "Cartas Gold Star",
+          "descricao": "Cartas raríssimas da era EX do card game Pokémon, com pokémon de cor rara e uma estrela ao lado do nome.",
+          "variantes": [
+            "Gold Star",
+            "Pokémon Star",
+            "Pokémon ☆"
+          ]
+        },
+        {
+          "id": "aneis_de_saturno",
+          "nome": "Anéis de Saturno",
+          "descricao": "Sistema de anéis planetários que circunda Saturno, o mais extenso do Sistema Solar.",
+          "variantes": [
+            "Rings of Saturn"
+          ]
+        },
+        {
+          "id": "richard_wagner",
+          "nome": "Richard Wagner",
+          "descricao": "Compositor alemão romântico (1813–1883), autor de dramas musicais como O Anel do Nibelungo.",
+          "variantes": [
+            "Wilhelm Richard Wagner",
+            "Wagner"
+          ]
+        },
+        {
+          "id": "kaka",
+          "nome": "Kaká",
+          "descricao": "Ricardo Izecson dos Santos Leite, meia brasileiro do São Paulo, do Milan e do Real Madrid, campeão mundial em 2002.",
+          "variantes": [
+            "Ricardo Kaká",
+            "Ricardo Izecson dos Santos Leite"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "David Bowie",
+        "descricao": "Cantor, compositor e ator britânico, criador do personagem Ziggy Stardust, morto em 2016",
+        "variantes": [
+          "David Jones",
+          "David Robert Jones"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "david_beckham",
+          "nome": "David Beckham",
+          "descricao": "Ex-futebolista inglês, meio-campista conhecido pelas bolas paradas, de Manchester United, Real Madrid e LA Galaxy.",
+          "variantes": [
+            "Beckham",
+            "David Robert Joseph Beckham"
+          ]
+        },
+        {
+          "id": "tabi",
+          "nome": "Tabi",
+          "descricao": "Meia tradicional japonesa com o dedão separado dos outros dedos, usada com calçados de tiras.",
+          "variantes": [
+            "Tabi japonês"
+          ]
+        },
+        {
+          "id": "david_hilbert",
+          "nome": "David Hilbert",
+          "descricao": "Matemático alemão que apresentou em 1900 uma lista de problemas que orientou a matemática do século vinte.",
+          "variantes": [
+            "Hilbert"
+          ]
+        },
+        {
+          "id": "david_hume",
+          "nome": "David Hume",
+          "descricao": "Filósofo empirista escocês do século dezoito, autor de Tratado da Natureza Humana.",
+          "variantes": []
+        },
+        {
+          "id": "wasabi",
+          "nome": "Wasabi",
+          "descricao": "Condimento japonês verde e picante feito do rizoma da planta Eutrema japonicum, servido com sushi.",
+          "variantes": [
+            "Raiz-forte japonesa",
+            "Eutrema japonicum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Wind of Change",
+        "descricao": "Balada da banda alemã Scorpions, do álbum Crazy World, de 1990",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "desafio_das_ilhas",
+          "nome": "Desafio das Ilhas",
+          "descricao": "Jornada de Pokémon Sun e Moon que substitui os ginásios, com provas em cada ilha da região de Alola.",
+          "variantes": [
+            "Island Challenge"
+          ]
+        },
+        {
+          "id": "castelo_de_windsor",
+          "nome": "Castelo de Windsor",
+          "descricao": "Residência real inglesa em Windsor, Berkshire, construída no século onze após a conquista normanda.",
+          "variantes": [
+            "Windsor Castle"
+          ]
+        },
+        {
+          "id": "desastre_do_onibus_espacial_challenger",
+          "nome": "Desastre do ônibus espacial Challenger",
+          "descricao": "Explosão do ônibus espacial Challenger logo após o lançamento, em janeiro de 1986, nos Estados Unidos.",
+          "variantes": [
+            "Space Shuttle Challenger disaster",
+            "Acidente do Challenger",
+            "Desastre do Challenger"
+          ]
+        },
+        {
+          "id": "reino_do_congo",
+          "nome": "Reino do Congo",
+          "descricao": "Reino da África Central, nos atuais Angola, República do Congo e República Democrática do Congo, aliado de Portugal a partir do fim do século quinze.",
+          "variantes": [
+            "Kingdom of Kongo",
+            "Reino do Kongo"
+          ]
+        },
+        {
+          "id": "mulheres_de_argel",
+          "nome": "Mulheres de Argel",
+          "descricao": "Pintura de Eugène Delacroix, de 1834, que mostra mulheres num aposento em Argel, com um narguilé.",
+          "variantes": [
+            "Mulheres de Argel (Delacroix)",
+            "Mulheres de Argel em seu apartamento",
+            "Femmes d'Alger dans leur appartement",
+            "Women of Algiers"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Zombie",
+        "descricao": "Canção da banda irlandesa The Cranberries lançada em 1994",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "zumbi_dos_palmares",
+          "nome": "Zumbi dos Palmares",
+          "descricao": "Último líder do Quilombo dos Palmares, morto em 1695.",
+          "variantes": [
+            "Zumbi"
+          ]
+        },
+        {
+          "id": "kombi",
+          "nome": "Kombi",
+          "descricao": "Furgão da Volkswagen, também chamado Volkswagen Type 2, fabricado no Brasil de 1957 a 2013.",
+          "variantes": [
+            "Volkswagen Kombi",
+            "Volkswagen Type 2",
+            "Transporter",
+            "Volkswagen Transporter"
+          ]
+        },
+        {
+          "id": "bombe",
+          "nome": "Bombe",
+          "descricao": "Dispositivo eletromecânico britânico usado em Bletchley Park para decifrar mensagens da máquina Enigma na Segunda Guerra Mundial.",
+          "variantes": [
+            "Bomba eletromecânica",
+            "Bombe britânica"
+          ]
+        },
+        {
+          "id": "mobile",
+          "nome": "Móbile",
+          "descricao": "Tipo de escultura cinética suspensa, com peças equilibradas que se movem com o ar, criada por Alexander Calder.",
+          "variantes": []
+        },
+        {
+          "id": "lombre",
+          "nome": "Lombre",
+          "descricao": "Pokémon Água e Planta da terceira geração, evolução de Lotad, número 271 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Jazz",
+        "descricao": "Gênero musical surgido entre afro-americanos no sul dos Estados Unidos no início do século vinte",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "utah_jazz",
+          "nome": "Utah Jazz",
+          "descricao": "Franquia da NBA sediada em Salt Lake City, fundada em 1974 em Nova Orleans.",
+          "variantes": [
+            "Jazz",
+            "New Orleans Jazz"
+          ]
+        },
+        {
+          "id": "jacuzzi",
+          "nome": "Jacuzzi",
+          "descricao": "Empresa fundada por irmãos imigrantes italianos nos Estados Unidos, cujo nome virou sinônimo de banheira de hidromassagem.",
+          "variantes": [
+            "Banheira de hidromassagem"
+          ]
+        },
+        {
+          "id": "az",
+          "nome": "AZ",
+          "descricao": "Gigante de Pokémon X e Y, antigo rei de Kalos que há três mil anos construiu a arma suprema.",
+          "variantes": []
+        },
+        {
+          "id": "cazuza",
+          "nome": "Cazuza",
+          "descricao": "Agenor de Miranda Araújo Neto, cantor e compositor carioca, ex-vocalista do Barão Vermelho, morto em 1990.",
+          "variantes": [
+            "Agenor de Miranda Araújo Neto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Fado",
+        "descricao": "Gênero musical português de canto melancólico, acompanhado pela guitarra portuguesa",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "figado",
+          "nome": "Fígado",
+          "descricao": "Órgão do abdome que processa nutrientes, produz bile e filtra substâncias do sangue.",
+          "variantes": [
+            "Liver"
+          ]
+        },
+        {
+          "id": "cerimonia_do_cha_japonesa",
+          "nome": "Cerimônia do chá japonesa",
+          "descricao": "Ritual tradicional japonês de preparo e serviço do chá, ligado ao zen-budismo.",
+          "variantes": [
+            "Chanoyu",
+            "Chadō",
+            "Sadō"
+          ]
+        },
+        {
+          "id": "dado",
+          "nome": "Dado",
+          "descricao": "Pequeno cubo com faces numeradas de um a seis, usado para sortear números em jogos.",
+          "variantes": [
+            "Dice",
+            "Dado de seis faces"
+          ]
+        },
+        {
+          "id": "bacteriofago",
+          "nome": "Bacteriófago",
+          "descricao": "Vírus que infecta e se replica dentro de bactérias, com cabeça icosaédrica e cauda.",
+          "variantes": [
+            "Fago",
+            "Phage",
+            "Bacteriophage"
+          ]
+        },
+        {
+          "id": "farao",
+          "nome": "Faraó",
+          "descricao": "Título dado pelos historiadores modernos aos reis do Egito Antigo",
+          "variantes": [
+            "Pharaoh",
+            "Per-aa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Imagine",
+        "descricao": "Canção de John Lennon lançada no álbum homônimo de 1971",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "tajine",
+          "nome": "Tajine",
+          "descricao": "Panela de barro com tampa cônica e o ensopado marroquino preparado nela.",
+          "variantes": [
+            "Tagine",
+            "Tagin"
+          ]
+        },
+        {
+          "id": "ima",
+          "nome": "Ímã",
+          "descricao": "Objeto que produz um campo magnético e atrai materiais ferromagnéticos; aqui, um ímã em barra com polos marcados.",
+          "variantes": [
+            "Magneto",
+            "Magnete",
+            "Magnet"
+          ]
+        },
+        {
+          "id": "magos",
+          "nome": "Magos",
+          "descricao": "Sacerdotes do zoroastrismo na Pérsia antiga, cujo nome deu origem à palavra mago.",
+          "variantes": [
+            "Magi",
+            "Magos persas"
+          ]
+        },
+        {
+          "id": "magneto",
+          "nome": "Magneto",
+          "descricao": "Vilão mutante da Marvel, de capacete vermelho e roxo, que controla o magnetismo.",
+          "variantes": [
+            "Erik Lehnsherr",
+            "Erik Magnus Lensherr"
+          ]
+        },
+        {
+          "id": "mantine",
+          "nome": "Mantine",
+          "descricao": "Pokémon dos tipos Água e Voador, número 226 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é os Bee Gees."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Candidatas são peças, distrito etc., não a banda."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a banda."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a banda The Doors."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o álbum."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a canção."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Ringo Starr."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é David Bowie."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a canção."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a canção."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Utah Jazz é time da NBA, não o gênero musical."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o gênero fado."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a canção."
+    }
+  ]
+}
