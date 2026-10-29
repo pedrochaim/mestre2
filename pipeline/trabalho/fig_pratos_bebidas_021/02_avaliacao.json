@@ -1,0 +1,158 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Massa branca num prato, sem traços distintivos; pode ser labneh, muçarela, creme ou coalhada. Resposta não única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O letreiro grego na imagem entrega o país, e o prato pode ser confundido com döner ou shawarma."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Cubos pálidos junto a uma geleia alaranjada, em close. O prato não é reconhecível e a imagem mistura dois alimentos."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Metades de ovo cozido, nítidas e legíveis. A pergunta é simples, mas a figura é necessária.",
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Como se chama a parte amarela no centro destas metades?",
+      "resposta": "Gema",
+      "distratores": [
+        "Clara",
+        "Calaza",
+        "Casca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ovo cozido",
+        "descricao": "Ovo de galinha cozido com a casca em água fervente, com a gema e a clara solidificadas.",
+        "variantes": [
+          "Ovo duro",
+          "Ovo cozido duro"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Repolho fatiado num garfo; pode ser repolho cru ou salada de repolho, e não há como reconhecer o chucrute."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Tamagoyaki em fatias, com rabanete ralado, bem reconhecível e sem texto. Pergunta sobre o país de origem.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país vem este omelete enrolado em camadas?",
+      "resposta": "Japão",
+      "distratores": [
+        "China",
+        "Tailândia",
+        "Vietnã"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tamagoyaki",
+        "descricao": "Omelete japonês feito enrolando camadas de ovo batido frito numa frigideira retangular.",
+        "variantes": [
+          "Tamagoyaki japonês",
+          "Omelete japonês"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cupcakes de chocolate com cobertura em espiral e forminha de papel, nítidos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que doce é este?",
+      "resposta": "Cupcake",
+      "distratores": [
+        "Muffin",
+        "Brownie",
+        "Madeleine"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cupcake",
+        "descricao": "Bolinho individual assado em forminha de papel, coberto com glacê ou chantilly.",
+        "variantes": [
+          "Bolinho de copinho"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto escura e de baixa qualidade, com batata e queijo esfarelado. A enchilada não é reconhecível."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Mostra só a vinagreira refogada com cebola, sem arroz. Não é reconhecível como arroz de cuxá."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bloco seco de macarrão ondulado, característico e bem visível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que alimento é este?",
+      "resposta": "Macarrão instantâneo",
+      "distratores": [
+        "Espaguete",
+        "Talharim",
+        "Cabelo de anjo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Macarrão instantâneo",
+        "descricao": "Macarrão vendido pré-cozido e seco em bloco, pronto após imersão em água fervente.",
+        "variantes": [
+          "Miojo",
+          "Lámen instantâneo",
+          "Ramen instantâneo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pão torrado com tomate picado e rúcula, claro e legível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que entrada italiana é esta?",
+      "resposta": "Bruschetta",
+      "distratores": [
+        "Panzanella",
+        "Focaccia",
+        "Pissaladière"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bruschetta",
+        "descricao": "Entrada italiana de pão grelhado, em geral coberto com tomate, alho e azeite.",
+        "variantes": [
+          "Brusqueta"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Corte de embutido escuro, que pode ser confundido com outras morcelas, morcillas ou salames."
+    }
+  ]
+}

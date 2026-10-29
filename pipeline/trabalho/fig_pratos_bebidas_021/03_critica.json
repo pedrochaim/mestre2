@@ -1,0 +1,47 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Teste da imagem coberta: 'parte amarela no centro' do ovo já entrega 'gema' sem olhar a figura; a figura virou enfeite e não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Omelete enrolado em camadas' é a definição do tamagoyaki e entrega o Japão sem a figura. Troca por descrição genérica, deixando a imagem decidir.",
+      "reescrita": {
+        "pergunta": "De que país vem este prato feito com ovos?",
+        "resposta": "Japão",
+        "distratores": [
+          "China",
+          "Tailândia",
+          "Vietnã"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem vazamento; distratores do mesmo tipo e plausíveis, nenhum correto para a imagem de um bolinho com cobertura.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Bloco de macarrão seco pode parecer ninho de talharim ou cabelo de anjo na foto; distratores também são macarrão, então a resposta única diante da imagem não é garantida.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bruschetta é antepasto italiano; 'entrada italiana' só indica a categoria, sem entregar o nome. Distratores do mesmo tipo (comidas italianas ou de pão) e nenhum descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}

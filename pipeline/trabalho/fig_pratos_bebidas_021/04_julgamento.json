@@ -1,0 +1,191 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tamagoyaki",
+        "descricao": "Omelete japonês feito enrolando camadas de ovo batido frito numa frigideira retangular.",
+        "variantes": [
+          "Tamagoyaki japonês",
+          "Omelete japonês"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "takoyaki",
+          "nome": "Takoyaki",
+          "descricao": "Bolinhas japonesas de massa recheadas com polvo, cobertas com molho, maionese e bonito seco.",
+          "variantes": [
+            "Bolinho de polvo"
+          ]
+        },
+        {
+          "id": "iene",
+          "nome": "Iene",
+          "descricao": "Moeda oficial do Japão.",
+          "variantes": [
+            "Yen",
+            "Iene japonês"
+          ]
+        },
+        {
+          "id": "tamagotchi",
+          "nome": "Tamagotchi",
+          "descricao": "Bichinho virtual eletrônico em forma de ovo, criado pela empresa japonesa Bandai.",
+          "variantes": [
+            "Bichinho virtual",
+            "Tamagochi"
+          ]
+        },
+        {
+          "id": "tabi",
+          "nome": "Tabi",
+          "descricao": "Meia tradicional japonesa com o dedão separado dos outros dedos, usada com calçados de tiras.",
+          "variantes": [
+            "Tabi japonês"
+          ]
+        },
+        {
+          "id": "soroba",
+          "nome": "Sorobã",
+          "descricao": "Ábaco japonês com uma conta acima e quatro abaixo em cada haste, derivado do suanpan chinês.",
+          "variantes": [
+            "Soroban",
+            "Ábaco japonês"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cupcake",
+        "descricao": "Bolinho individual assado em forminha de papel, coberto com glacê ou chantilly.",
+        "variantes": [
+          "Bolinho de copinho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "xiaolongbao",
+          "nome": "Xiaolongbao",
+          "descricao": "Pequeno bolinho chinês recheado e com caldo, cozido no vapor em cesta de bambu.",
+          "variantes": [
+            "Bolinho de sopa",
+            "Soup dumpling"
+          ]
+        },
+        {
+          "id": "takoyaki",
+          "nome": "Takoyaki",
+          "descricao": "Bolinhas japonesas de massa recheadas com polvo, cobertas com molho, maionese e bonito seco.",
+          "variantes": [
+            "Bolinho de polvo"
+          ]
+        },
+        {
+          "id": "almondega",
+          "nome": "Almôndega",
+          "descricao": "Bolinho de carne moída, de forma esférica, cozido em molho ou frito.",
+          "variantes": [
+            "Almôndegas",
+            "Bolinho de carne"
+          ]
+        },
+        {
+          "id": "bolinho_de_chuva",
+          "nome": "Bolinho de chuva",
+          "descricao": "Doce frito de massa de farinha, ovos e leite, polvilhado com açúcar e canela.",
+          "variantes": [
+            "Bolinho de chuva com açúcar e canela"
+          ]
+        },
+        {
+          "id": "cuca",
+          "nome": "Cuca",
+          "descricao": "Bruxa do folclore brasileiro que pega crianças desobedientes, popularizada pelo Sítio do Picapau Amarelo.",
+          "variantes": [
+            "Coca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bruschetta",
+        "descricao": "Entrada italiana de pão grelhado, em geral coberto com tomate, alho e azeite.",
+        "variantes": [
+          "Brusqueta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "borscht",
+          "nome": "Borscht",
+          "descricao": "Sopa azeda da Europa Oriental, em geral vermelha por causa da beterraba.",
+          "variantes": [
+            "Borsch",
+            "Bortsch",
+            "Borche"
+          ]
+        },
+        {
+          "id": "uisque",
+          "nome": "Uísque",
+          "descricao": "Bebida destilada de cereais maltados e envelhecida em barris, tradicional da Escócia e da Irlanda",
+          "variantes": [
+            "Whisky",
+            "Whiskey"
+          ]
+        },
+        {
+          "id": "truco",
+          "nome": "Truco",
+          "descricao": "Jogo de cartas de blefe, muito popular no Brasil, jogado com baralho sem oitos, noves e dez.",
+          "variantes": [
+            "Truco mineiro",
+            "Truco paulista",
+            "Truque"
+          ]
+        },
+        {
+          "id": "nikita_khrushchov",
+          "nome": "Nikita Khrushchov",
+          "descricao": "Líder da União Soviética de 1953 a 1964, que denunciou Stálin e presidiu a crise dos mísseis de Cuba.",
+          "variantes": [
+            "Nikita Khrushchev",
+            "Kruschev"
+          ]
+        },
+        {
+          "id": "uruk",
+          "nome": "Uruk",
+          "descricao": "Antiga cidade suméria da Baixa Mesopotâmia, onde surgiram alguns dos primeiros registros escritos.",
+          "variantes": [
+            "Erech",
+            "Warka",
+            "Uruque"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Tamagoyaki é um omelete; nenhuma candidata é o mesmo prato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cupcake não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Bruschetta não corresponde a nenhuma candidata."
+    }
+  ]
+}
