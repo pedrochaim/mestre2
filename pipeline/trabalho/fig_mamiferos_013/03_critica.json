@@ -1,0 +1,82 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, resposta única, distratores do mesmo tipo e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Tarpã, cavalo selvagem extinto das estepes eurasiáticas, é um distrator defensável para 'cavalo selvagem da Ásia Central'. Troquei por um cavalo asselvajado que não é da Ásia Central.",
+      "reescrita": {
+        "pergunta": "Que cavalo selvagem da Ásia Central é este?",
+        "resposta": "Cavalo-de-przewalski",
+        "distratores": [
+          "Brumby",
+          "Mustangue",
+          "Cavalo-islandês"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O siamang é o maior gibão. Distratores são outros primatas e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O zebu é gado com corcova de gordura. Os distratores são bovinos que não são zebu.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem vazamento, resposta única. Distratores são calitriquídeos reais e distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento da irara. Distratores são mamíferos neotropicais críveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A espécie ocorre na América do Norte. O enunciado não entrega a resposta e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que a espécie é nativa da Coreia e da China. Os distratores estão errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que o mamute-lanoso divergiu do mamute-das-estepes há cerca de 800 mil anos na Sibéria. O enunciado não nomeia o animal.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Colobo é um macaco africano preto e branco. Os distratores são outros macacos africanos e nenhum é correto.",
+      "reescrita": null
+    }
+  ]
+}

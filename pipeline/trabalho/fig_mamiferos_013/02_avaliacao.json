@@ -1,0 +1,263 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Lebre branca na tundra, reconhecível; pergunta de identificação com distratores de lebres parecidas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que lebre é esta?",
+      "resposta": "Lebre-ártica",
+      "distratores": [
+        "Lebre-europeia",
+        "Lebre-americana",
+        "Lebre-do-cabo"
+      ],
+      "ancora": {
+        "nome": "Lebre-ártica",
+        "descricao": "Espécie de lebre (Lepus arcticus) adaptada à tundra e ao frio extremo do Ártico.",
+        "variantes": [
+          "Lepus arcticus",
+          "Arctic hare"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cavalo de pelagem clara, focinho branco e crina curta ereta, característico; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que cavalo selvagem da Ásia Central é este?",
+      "resposta": "Cavalo-de-przewalski",
+      "distratores": [
+        "Tarpã",
+        "Mustangue",
+        "Cavalo-islandês"
+      ],
+      "ancora": {
+        "nome": "Cavalo-de-przewalski",
+        "descricao": "Cavalo selvagem raro (Equus ferus przewalskii), nativo das estepes da Ásia Central.",
+        "variantes": [
+          "Takhi",
+          "Cavalo selvagem mongol",
+          "Equus przewalskii"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Gibão negro de corpo inteiro, braços longos, bem visível; pergunta pelo grupo, pois outros gibões negros são parecidos.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de primata é este?",
+      "resposta": "Gibão",
+      "distratores": [
+        "Orangotango",
+        "Mandril",
+        "Colobo"
+      ],
+      "ancora": {
+        "nome": "Siamang",
+        "descricao": "Maior gibão (Symphalangus syndactylus), de pelagem negra, nativo de florestas da Indonésia, Malásia e Tailândia.",
+        "variantes": [
+          "Symphalangus syndactylus",
+          "Siamango"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Boi com corcova e barbela evidentes, típico zebu; sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de gado é este?",
+      "resposta": "Zebu",
+      "distratores": [
+        "Iaque",
+        "Gaur",
+        "Búfalo-d'água"
+      ],
+      "ancora": {
+        "nome": "Zebu",
+        "descricao": "Gado doméstico de origem sul-asiática (Bos indicus), com corcova de gordura nos ombros.",
+        "variantes": [
+          "Bos indicus",
+          "Gado zebuíno",
+          "Boi de corcova"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Crista branca característica, foto nítida e inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que primata é este?",
+      "resposta": "Sagui-cabeça-de-algodão",
+      "distratores": [
+        "Sagui-imperador",
+        "Mico-leão-dourado",
+        "Sagui-de-tufo-preto"
+      ],
+      "ancora": {
+        "nome": "Sagui-cabeça-de-algodão",
+        "descricao": "Pequeno primata colombiano (Saguinus oedipus) com longa crista branca da testa aos ombros.",
+        "variantes": [
+          "Saguim-cabeça-de-algodão",
+          "Saguinus oedipus",
+          "Cotton-top tamarin"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Irara bem visível, corpo escuro, cabeça marrom e mancha clara na garganta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que mamífero é este?",
+      "resposta": "Irara",
+      "distratores": [
+        "Jaguarundi",
+        "Furão-grande",
+        "Quati"
+      ],
+      "ancora": {
+        "nome": "Irara",
+        "descricao": "Mustelídeo onívoro das Américas (Eira barbara), de corpo escuro e mancha clara no peito.",
+        "variantes": [
+          "Eira barbara",
+          "Tayra",
+          "Papa-mel"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Doninha-fedorenta listrada reconhecível pelo padrão preto e branco; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que continente vive naturalmente esta espécie?",
+      "resposta": "América do Norte",
+      "distratores": [
+        "Europa",
+        "Ásia",
+        "África"
+      ],
+      "ancora": {
+        "nome": "Zorrilho-listrado",
+        "descricao": "Doninha-fedorenta (Mephitis mephitis) de listras brancas nas costas, comum na América do Norte.",
+        "variantes": [
+          "Doninha-fedorenta",
+          "Gambá-listrado",
+          "Mephitis mephitis",
+          "Striped skunk"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Lontra em close, de aparência igual a outras lontras de rio; espécie não distinguível pela imagem, resposta não única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cervo sem chifres e com presas visíveis, reconhecível; pergunta de nível 3 sobre origem.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta espécie de cervo é nativa de quais países?",
+      "resposta": "Coreia e China",
+      "distratores": [
+        "Índia e Nepal",
+        "Japão e Rússia",
+        "Mongólia e Cazaquistão"
+      ],
+      "ancora": {
+        "nome": "Cervo-aquático-chinês",
+        "descricao": "Pequeno cervo (Hydropotes inermis) sem chifres, com presas, nativo da Coreia e da China.",
+        "variantes": [
+          "Hydropotes inermis",
+          "Cervo-d'água",
+          "Water deer"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Modelo de museu muito realista e inconfundível, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este animal extinto começou a se diferenciar de seus ancestrais há cerca de oitocentos mil anos. Em que região?",
+      "resposta": "Sibéria",
+      "distratores": [
+        "Patagônia",
+        "Saara",
+        "Himalaia"
+      ],
+      "ancora": {
+        "nome": "Mamute-lanoso",
+        "descricao": "Espécie extinta de mamute (Mammuthus primigenius) da Era do Gelo, coberta de pelos longos e com grandes presas curvas.",
+        "variantes": [
+          "Mamute",
+          "Mammuthus primigenius",
+          "Woolly mammoth"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Colobo preto e branco com filhote, nítido; pergunta pelo grupo.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de macaco africano é este?",
+      "resposta": "Colobo",
+      "distratores": [
+        "Babuíno",
+        "Mandril",
+        "Mangabei"
+      ],
+      "ancora": {
+        "nome": "Colobo",
+        "descricao": "Macaco africano de pelagem preta e branca (gênero Colobus), como o guereza.",
+        "variantes": [
+          "Colobus",
+          "Guereza",
+          "Colobo-preto-e-branco"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A gravura traz texto visível que entrega a resposta (legenda com 'Caa'ing Whale (Globicephalus melas)')."
+    }
+  ]
+}

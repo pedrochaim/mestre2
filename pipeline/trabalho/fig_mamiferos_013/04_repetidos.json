@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de primata é este?",
+        "resposta": "Gibão"
+      },
+      "existentes": [
+        {
+          "id": "q15147",
+          "pergunta": "Que gibão do Sudeste Asiático é este?",
+          "resposta": "Siamang"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Este animal extinto começou a se diferenciar de seus ancestrais há cerca de oitocentos mil anos. Em que região?",
+        "resposta": "Sibéria"
+      },
+      "existentes": [
+        {
+          "id": "q02752",
+          "pergunta": "Os últimos mamutes-lanosos sobreviveram até cerca de quatro mil anos atrás numa ilha isolada do Oceano Ártico. Que ilha era essa?",
+          "resposta": "Ilha de Wrangel"
+        },
+        {
+          "id": "q13955",
+          "pergunta": "Que animal extinto da Era do Gelo é este?",
+          "resposta": "Mamute-lanoso"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o tipo de primata (gibão) a partir de uma imagem; a existente pede a espécie específica (siamang). Fatos diferentes, e a imagem pode ser de outro animal."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre a região onde o animal começou a se diferenciar (Sibéria). As existentes tratam da ilha onde os últimos mamutes viveram e da identificação do mamute-lanoso. Fatos diferentes."
+    }
+  ]
+}
