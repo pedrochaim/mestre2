@@ -1,0 +1,70 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que arquiteto italiano projetou este palácio paulistano?",
+        "resposta": "Tommaso Gaudenzio Bezzi"
+      },
+      "existentes": [
+        {
+          "id": "q01924",
+          "pergunta": "Que arquiteto italiano projetou este edifício, construído no fim do século dezenove?",
+          "resposta": "Tommaso Gaudenzio Bezzi"
+        },
+        {
+          "id": "q08667",
+          "pergunta": "Que pintor é autor da obra mais famosa do acervo deste museu?",
+          "resposta": "Pedro Américo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que prédio colonial do centro do Rio de Janeiro é este?",
+        "resposta": "Paço Imperial"
+      },
+      "existentes": [
+        {
+          "id": "q16727",
+          "pergunta": "Que edifício histórico é este?",
+          "resposta": "Paço Imperial"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que parque do Rio de Janeiro, à beira da baía de Guanabara, fica este monumento?",
+        "resposta": "Aterro do Flamengo"
+      },
+      "existentes": [
+        {
+          "id": "q05770",
+          "pergunta": "Os restos dos pracinhas mortos na Itália, antes enterrados em Pistoia, foram trazidos para um monumento em qual grande parque do Rio de Janeiro?",
+          "resposta": "Aterro do Flamengo (Parque Eduardo Gomes)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o arquiteto italiano que projetou o mesmo edifício; resposta idêntica.",
+      "id_existente": "q01924"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do mesmo edifício (Paço Imperial) a partir da imagem.",
+      "id_existente": "q16727"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A existente pergunta o parque onde foi transferido o monumento aos pracinhas; a nova pede o parque de um monumento mostrado na imagem. Fatos distintos e sem certeza de ser o mesmo monumento."
+    }
+  ]
+}

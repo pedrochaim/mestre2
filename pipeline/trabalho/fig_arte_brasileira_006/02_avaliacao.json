@@ -1,0 +1,233 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fachada clara e reconhecível, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto italiano projetou este palácio paulistano?",
+      "resposta": "Tommaso Gaudenzio Bezzi",
+      "distratores": [
+        "Victor Dubugras",
+        "Grandjean de Montigny",
+        "Giancarlo Gasperini"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Museu Paulista (Museu do Ipiranga)",
+        "descricao": "Museu de história da USP, em São Paulo, instalado no edifício-monumento à Independência, no bairro do Ipiranga.",
+        "variantes": [
+          "Museu do Ipiranga",
+          "Museu Paulista da USP"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Edifício pouco reconhecível por este ângulo, com a inscrição parcial 'Museu de Arte' visível, e a data de inauguração é ambígua."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O viaduto divide a cena com um grande edifício ao fundo, que domina a imagem. Há dois assuntos e a resposta fica ambígua."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Casarão colonial caiado, reconhecível. Os banners trazem só o nome de uma exposição, sem entregar a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prédio colonial do centro do Rio de Janeiro é este?",
+      "resposta": "Paço Imperial",
+      "distratores": [
+        "Casa França-Brasil",
+        "Palácio Tiradentes",
+        "Palácio Gustavo Capanema"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Paço Imperial",
+        "descricao": "Antigo palácio colonial e imperial na Praça XV de Novembro, no centro do Rio de Janeiro.",
+        "variantes": [
+          "Paço Real",
+          "Palácio dos Vice-Reis"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Panorama pictórico claro, sem legenda. A assinatura é minúscula e ilegível no celular.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem pintou este panorama de uma cidade inundada no fim do século dezenove?",
+      "resposta": "Benedito Calixto",
+      "distratores": [
+        "Almeida Júnior",
+        "Pedro Américo",
+        "Eliseu Visconti"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Inundação da Várzea do Carmo (Benedito Calixto)",
+        "descricao": "Pintura a óleo de Benedito Calixto, de 1892, que mostra a cheia do Tamanduateí no centro de São Paulo.",
+        "variantes": [
+          "Inundação da Várzea do Carmo",
+          "Várzea do Carmo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Monumento claro, com a torre e a escultura dos três pracinhas. O letreiro ao fundo não entrega a resposta.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que parque do Rio de Janeiro fica este monumento aos soldados brasileiros da Segunda Guerra?",
+      "resposta": "Aterro do Flamengo",
+      "distratores": [
+        "Parque Lage",
+        "Quinta da Boa Vista",
+        "Campo de Santana"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Monumento aos Pracinhas",
+        "descricao": "Monumento nacional aos mortos da Segunda Guerra Mundial, no Parque do Flamengo, no Rio de Janeiro.",
+        "variantes": [
+          "Monumento Nacional aos Mortos da Segunda Guerra Mundial",
+          "Monumento aos Mortos da Segunda Guerra"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pintura nítida de moça com flores num trigal. A assinatura é pequena e a pergunta pede o título, não o autor.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que pintura impressionista brasileira é esta?",
+      "resposta": "Moça no Trigal",
+      "distratores": [
+        "Gioventù",
+        "O Violeiro",
+        "Maternidade"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Moça no Trigal (Eliseu Visconti)",
+        "descricao": "Pintura impressionista de Eliseu Visconti que mostra uma moça com flores num campo de trigo, exposta antes como Pão e Flores.",
+        "variantes": [
+          "Moça no trigal",
+          "Pão e Flores"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Igreja rococó nítida, sem texto, num cenário de casario colonial.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade mineira fica esta igreja rococó?",
+      "resposta": "Ouro Preto",
+      "distratores": [
+        "Mariana",
+        "Sabará",
+        "Diamantina"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Igreja de Nossa Senhora do Carmo (Ouro Preto)",
+        "descricao": "Igreja rococó do século dezoito em Ouro Preto, Minas Gerais, tombada pelo IPHAN.",
+        "variantes": [
+          "Igreja do Carmo de Ouro Preto"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Há texto visível na fachada ('Alfândega 52', 'CFB 25') que entrega ou sugere a identidade do edifício."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada curva azul característica, parcialmente coberta por folhagem mas ainda reconhecível. Sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto modernista carioca projetou este conjunto residencial?",
+      "resposta": "Affonso Eduardo Reidy",
+      "distratores": [
+        "Oscar Niemeyer",
+        "Lúcio Costa",
+        "Sérgio Bernardes"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Conjunto Pedregulho",
+        "descricao": "Conjunto residencial modernista de Affonso Eduardo Reidy, no bairro de Benfica, no Rio de Janeiro.",
+        "variantes": [
+          "Conjunto Residencial Prefeito Mendes de Moraes",
+          "Pedregulho"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do prédio eclético, sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prédio do centro do Rio de Janeiro é este?",
+      "resposta": "Biblioteca Nacional",
+      "distratores": [
+        "Theatro Municipal",
+        "Museu Nacional de Belas Artes",
+        "Real Gabinete Português de Leitura"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Biblioteca Nacional do Brasil",
+        "descricao": "Maior biblioteca da América Latina, em prédio eclético na Cinelândia, no Rio de Janeiro.",
+        "variantes": [
+          "Biblioteca Nacional",
+          "Fundação Biblioteca Nacional"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fachada frontal clara do palácio, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este palácio do governo estadual?",
+      "resposta": "Belo Horizonte",
+      "distratores": [
+        "Ouro Preto",
+        "Juiz de Fora",
+        "Diamantina"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Palácio da Liberdade",
+        "descricao": "Palácio histórico do governo de Minas Gerais, na Praça da Liberdade, em Belo Horizonte.",
+        "variantes": [
+          "Palácio Presidencial"
+        ]
+      }
+    }
+  ]
+}

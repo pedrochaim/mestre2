@@ -1,0 +1,564 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Museu Paulista (Museu do Ipiranga)",
+        "descricao": "Museu de história da USP, em São Paulo, instalado no edifício-monumento à Independência, no bairro do Ipiranga.",
+        "variantes": [
+          "Museu do Ipiranga",
+          "Museu Paulista da USP"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "museu_do_ipiranga",
+          "nome": "Museu do Ipiranga",
+          "descricao": "Museu Paulista da USP, edifício monumental em São Paulo próximo ao local do grito da Independência.",
+          "variantes": [
+            "Museu Paulista",
+            "Museu Paulista da USP"
+          ]
+        },
+        {
+          "id": "monumento_a_independencia_do_brasil",
+          "nome": "Monumento à Independência do Brasil",
+          "descricao": "Conjunto escultórico em granito e bronze no Parque da Independência, em São Paulo, também chamado Altar da Pátria.",
+          "variantes": [
+            "Monumento do Ipiranga",
+            "Altar da Pátria"
+          ]
+        },
+        {
+          "id": "museu_do_amanha",
+          "nome": "Museu do Amanhã",
+          "descricao": "Museu de ciências projetado por Santiago Calatrava no Píer Mauá, no Rio de Janeiro, aberto em 2015.",
+          "variantes": [
+            "Museum of Tomorrow"
+          ]
+        },
+        {
+          "id": "riacho_do_ipiranga",
+          "nome": "Riacho do Ipiranga",
+          "descricao": "Curso d'água de São Paulo às margens do qual Dom Pedro proclamou a Independência do Brasil em 1822.",
+          "variantes": [
+            "Ribeirão do Ipiranga",
+            "Rio Ipiranga",
+            "Ipiranga",
+            "Córrego do Ipiranga"
+          ]
+        },
+        {
+          "id": "hino_nacional_brasileiro",
+          "nome": "Hino Nacional Brasileiro",
+          "descricao": "Hino oficial do Brasil, com música de Francisco Manuel da Silva e letra de Joaquim Osório Duque-Estrada",
+          "variantes": [
+            "Ouviram do Ipiranga",
+            "Hino do Brasil",
+            "Hino Nacional"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Paço Imperial",
+        "descricao": "Antigo palácio colonial e imperial na Praça XV de Novembro, no centro do Rio de Janeiro.",
+        "variantes": [
+          "Paço Real",
+          "Palácio dos Vice-Reis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paco_imperial",
+          "nome": "Paço Imperial",
+          "descricao": "Edifício colonial do século dezoito na Praça XV, no Rio de Janeiro, sede do governo colonial e residência real.",
+          "variantes": [
+            "Paço Real",
+            "Palácio dos Vice-Reis",
+            "Paço de São Cristóvão"
+          ]
+        },
+        {
+          "id": "pato_real",
+          "nome": "Pato-real",
+          "descricao": "Pato selvagem Anas platyrhynchos, o macho de cabeça verde, ancestral da maioria dos patos domésticos.",
+          "variantes": [
+            "Mallard",
+            "Anas platyrhynchos"
+          ]
+        },
+        {
+          "id": "plano_real",
+          "nome": "Plano Real",
+          "descricao": "Programa de estabilização econômica lançado no Brasil em 1993 e 1994, que criou a moeda real e controlou a hiperinflação.",
+          "variantes": []
+        },
+        {
+          "id": "topazio_imperial",
+          "nome": "Topázio imperial",
+          "descricao": "Variedade de topázio de cor alaranjada a rosada, típica de Minas Gerais.",
+          "variantes": [
+            "Imperial topaz"
+          ]
+        },
+        {
+          "id": "topazio",
+          "nome": "Topázio",
+          "descricao": "Mineral silicato de alumínio e flúor usado como gema, em cristais prismáticos de cor amarelo-alaranjada ou incolor.",
+          "variantes": [
+            "Topázio imperial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Inundação da Várzea do Carmo (Benedito Calixto)",
+        "descricao": "Pintura a óleo de Benedito Calixto, de 1892, que mostra a cheia do Tamanduateí no centro de São Paulo.",
+        "variantes": [
+          "Inundação da Várzea do Carmo",
+          "Várzea do Carmo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fundacao_de_sao_vicente_benedito_calixto",
+          "nome": "Fundação de São Vicente (Benedito Calixto)",
+          "descricao": "Pintura a óleo de 1900 de Benedito Calixto sobre a ocupação de São Vicente, no Museu Paulista.",
+          "variantes": [
+            "Fundação de São Vicente"
+          ]
+        },
+        {
+          "id": "arte_rupestre_do_vale_do_coa",
+          "nome": "Arte rupestre do Vale do Côa",
+          "descricao": "Conjunto de gravuras paleolíticas ao ar livre no vale do rio Côa, no norte de Portugal.",
+          "variantes": [
+            "Gravuras do Côa",
+            "Vale do Côa"
+          ]
+        },
+        {
+          "id": "sirius",
+          "nome": "Sírius",
+          "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+          "variantes": [
+            "Alfa do Cão Maior",
+            "Estrela do Cão"
+          ]
+        },
+        {
+          "id": "proclamacao_da_republica_benedito_calixto",
+          "nome": "Proclamação da República (Benedito Calixto)",
+          "descricao": "Pintura a óleo de 1893 de Benedito Calixto que retrata a Proclamação da República do Brasil, com Deodoro da Fonseca ao centro.",
+          "variantes": [
+            "Proclamação da República",
+            "Proclamação da República de Benedito Calixto"
+          ]
+        },
+        {
+          "id": "arraial_do_cabo",
+          "nome": "Arraial do Cabo",
+          "descricao": "Município da Região dos Lagos, no litoral do Rio de Janeiro, conhecido pelas águas claras e frias.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Monumento aos Pracinhas",
+        "descricao": "Monumento nacional aos mortos da Segunda Guerra Mundial, no Parque do Flamengo, no Rio de Janeiro.",
+        "variantes": [
+          "Monumento Nacional aos Mortos da Segunda Guerra Mundial",
+          "Monumento aos Mortos da Segunda Guerra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monumento_nacional_aos_mortos_da_segunda_guerra_mundial",
+          "nome": "Monumento Nacional aos Mortos da Segunda Guerra Mundial",
+          "descricao": "Monumento no Rio de Janeiro, inaugurado em 1960, que guarda os restos mortais dos pracinhas brasileiros mortos na Itália.",
+          "variantes": [
+            "Monumento aos Pracinhas",
+            "Monumento aos Mortos da Segunda Guerra Mundial"
+          ]
+        },
+        {
+          "id": "monumento_a_independencia_do_brasil",
+          "nome": "Monumento à Independência do Brasil",
+          "descricao": "Conjunto escultórico em granito e bronze no Parque da Independência, em São Paulo, também chamado Altar da Pátria.",
+          "variantes": [
+            "Monumento do Ipiranga",
+            "Altar da Pátria"
+          ]
+        },
+        {
+          "id": "estatua_do_lacador",
+          "nome": "Estátua do Laçador",
+          "descricao": "Monumento em bronze ao gaúcho pilchado, símbolo oficial de Porto Alegre, obra do escultor Antônio Caringi.",
+          "variantes": [
+            "Laçador",
+            "Monumento ao Laçador",
+            "O Laçador"
+          ]
+        },
+        {
+          "id": "monumento_as_bandeiras",
+          "nome": "Monumento às Bandeiras",
+          "descricao": "Grande escultura de granito de Victor Brecheret, junto ao Parque Ibirapuera, em São Paulo, que homenageia as bandeiras.",
+          "variantes": [
+            "Monumento aos Bandeirantes",
+            "Monumento às Bandeiras de São Paulo"
+          ]
+        },
+        {
+          "id": "baixas_da_segunda_guerra_mundial",
+          "nome": "Baixas da Segunda Guerra Mundial",
+          "descricao": "Conjunto das mortes militares e civis causadas pela Segunda Guerra Mundial, estimadas entre 70 e 85 milhões.",
+          "variantes": [
+            "Mortos na Segunda Guerra Mundial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Moça no Trigal (Eliseu Visconti)",
+        "descricao": "Pintura impressionista de Eliseu Visconti que mostra uma moça com flores num campo de trigo, exposta antes como Pão e Flores.",
+        "variantes": [
+          "Moça no trigal",
+          "Pão e Flores"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "homo_floresiensis",
+          "nome": "Homo floresiensis",
+          "descricao": "Espécie humana extinta, de baixa estatura, descoberta em 2003 na caverna Liang Bua, na ilha de Flores, Indonésia.",
+          "variantes": [
+            "Homem de Flores",
+            "Hobbit"
+          ]
+        },
+        {
+          "id": "hanafuda",
+          "nome": "Hanafuda",
+          "descricao": "Baralho tradicional japonês com ilustrações de flores, plantas e animais dos doze meses do ano.",
+          "variantes": [
+            "Cartas de flores"
+          ]
+        },
+        {
+          "id": "gioventu_eliseu_visconti",
+          "nome": "Gioventù (Eliseu Visconti)",
+          "descricao": "Pintura simbolista de 1898 de Eliseu Visconti, no Museu Nacional de Belas Artes do Rio de Janeiro.",
+          "variantes": [
+            "Gioventu",
+            "Juventude"
+          ]
+        },
+        {
+          "id": "pao_frances",
+          "nome": "Pão francês",
+          "descricao": "Pão de sal de casca crocante e miolo macio, o mais consumido no café da manhã brasileiro",
+          "variantes": [
+            "Cacetinho",
+            "Pão de sal",
+            "Carioquinha"
+          ]
+        },
+        {
+          "id": "relogio_de_flores",
+          "nome": "Relógio de flores",
+          "descricao": "Jardim proposto por Lineu em que cada espécie de flor se abriria ou fecharia numa hora diferente do dia",
+          "variantes": [
+            "Horologium florae",
+            "Relógio floral de Lineu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Igreja de Nossa Senhora do Carmo (Ouro Preto)",
+        "descricao": "Igreja rococó do século dezoito em Ouro Preto, Minas Gerais, tombada pelo IPHAN.",
+        "variantes": [
+          "Igreja do Carmo de Ouro Preto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "igreja_da_candelaria",
+          "nome": "Igreja da Candelária",
+          "descricao": "Igreja católica no centro do Rio de Janeiro, de fachada barroca portuguesa, construída a partir de 1775.",
+          "variantes": [
+            "Igreja de Nossa Senhora da Candelária"
+          ]
+        },
+        {
+          "id": "igreja_de_sao_francisco_de_assis_ouro_preto",
+          "nome": "Igreja de São Francisco de Assis (Ouro Preto)",
+          "descricao": "Igreja barroca do século dezoito em Ouro Preto, com projeto atribuído a Aleijadinho.",
+          "variantes": []
+        },
+        {
+          "id": "igrejinha_nossa_senhora_de_fatima",
+          "nome": "Igrejinha Nossa Senhora de Fátima",
+          "descricao": "Primeira igreja católica de alvenaria de Brasília, na quadra 307/308 Sul, inaugurada em 1958.",
+          "variantes": [
+            "Igrejinha da 307/308 Sul",
+            "Igreja Nossa Senhora de Fátima"
+          ]
+        },
+        {
+          "id": "irmandade_da_boa_morte",
+          "nome": "Irmandade da Boa Morte",
+          "descricao": "Confraria religiosa baiana formada por mulheres negras, que realiza todo mês de agosto a Festa da Boa Morte.",
+          "variantes": [
+            "Festa da Boa Morte",
+            "Irmandade de Nossa Senhora da Boa Morte"
+          ]
+        },
+        {
+          "id": "casa_da_opera_de_ouro_preto",
+          "nome": "Casa da Ópera de Ouro Preto",
+          "descricao": "Teatro colonial de Ouro Preto, em Minas Gerais, inaugurado em 1770, hoje Teatro Municipal da cidade.",
+          "variantes": [
+            "Casa da Ópera de Vila Rica",
+            "Teatro Municipal de Ouro Preto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Conjunto Pedregulho",
+        "descricao": "Conjunto residencial modernista de Affonso Eduardo Reidy, no bairro de Benfica, no Rio de Janeiro.",
+        "variantes": [
+          "Conjunto Residencial Prefeito Mendes de Moraes",
+          "Pedregulho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pendulo",
+          "nome": "Pêndulo",
+          "descricao": "Corpo suspenso por um fio ou haste que oscila sob a ação da gravidade, base dos relógios de pêndulo.",
+          "variantes": [
+            "Pendulum",
+            "Pêndulo simples"
+          ]
+        },
+        {
+          "id": "dom_pedro_ii",
+          "nome": "Dom Pedro II",
+          "descricao": "Segundo e último imperador do Brasil, que reinou de 1831 a 1889.",
+          "variantes": [
+            "Pedro II do Brasil",
+            "Pedro de Alcântara",
+            "Pedro Segundo"
+          ]
+        },
+        {
+          "id": "pato_mergulhao",
+          "nome": "Pato-mergulhão",
+          "descricao": "Pato brasileiro criticamente ameaçado (Mergus octosetaceus) de rios de águas limpas do Cerrado.",
+          "variantes": [
+            "Mergus octosetaceus",
+            "Brazilian merganser"
+          ]
+        },
+        {
+          "id": "red_treinador",
+          "nome": "Red (treinador)",
+          "descricao": "Protagonista silencioso dos jogos Pokémon Red, Green e Blue, que reaparece como desafio final na segunda geração.",
+          "variantes": [
+            "Red",
+            "Vermelho"
+          ]
+        },
+        {
+          "id": "conjunto_de_julia",
+          "nome": "Conjunto de Julia",
+          "descricao": "Conjunto fractal da dinâmica complexa, definido pela iteração de uma função no plano complexo.",
+          "variantes": [
+            "Julia set",
+            "Fractal de Julia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Biblioteca Nacional do Brasil",
+        "descricao": "Maior biblioteca da América Latina, em prédio eclético na Cinelândia, no Rio de Janeiro.",
+        "variantes": [
+          "Biblioteca Nacional",
+          "Fundação Biblioteca Nacional"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teatro_nacional_claudio_santoro",
+          "nome": "Teatro Nacional Cláudio Santoro",
+          "descricao": "Teatro de Brasília projetado por Oscar Niemeyer, com fachadas decoradas por Athos Bulcão.",
+          "variantes": [
+            "Teatro Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "simbolos_nacionais_do_brasil",
+          "nome": "Símbolos nacionais do Brasil",
+          "descricao": "Os quatro símbolos oficiais da República Federativa do Brasil definidos pela Lei 5.700 de 1971.",
+          "variantes": [
+            "Símbolos Nacionais"
+          ]
+        },
+        {
+          "id": "armas_nacionais_do_brasil",
+          "nome": "Armas Nacionais do Brasil",
+          "descricao": "Brasão de armas oficial da República Federativa do Brasil, um dos quatro símbolos nacionais.",
+          "variantes": [
+            "Brasão de armas do Brasil",
+            "Brasão da República"
+          ]
+        },
+        {
+          "id": "estadio_mane_garrincha",
+          "nome": "Estádio Mané Garrincha",
+          "descricao": "Estádio nacional de futebol de Brasília, com fileira de colunas ao redor, reformado para a Copa de 2014.",
+          "variantes": [
+            "Arena BRB Mané Garrincha",
+            "Estádio Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "hino_nacional_brasileiro",
+          "nome": "Hino Nacional Brasileiro",
+          "descricao": "Hino oficial do Brasil, com música de Francisco Manuel da Silva e letra de Joaquim Osório Duque-Estrada",
+          "variantes": [
+            "Ouviram do Ipiranga",
+            "Hino do Brasil",
+            "Hino Nacional"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Palácio da Liberdade",
+        "descricao": "Palácio histórico do governo de Minas Gerais, na Praça da Liberdade, em Belo Horizonte.",
+        "variantes": [
+          "Palácio Presidencial"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hino_a_liberdade",
+          "nome": "Hino à Liberdade",
+          "descricao": "Hino nacional da Grécia e de Chipre, baseado num poema de Dionysios Solomos de 1823.",
+          "variantes": [
+            "Hymn to Liberty",
+            "Ýmnos eis tin Eleftherían"
+          ]
+        },
+        {
+          "id": "palacio_da_alvorada",
+          "nome": "Palácio da Alvorada",
+          "descricao": "Palácio projetado por Oscar Niemeyer em Brasília, à beira do lago Paranoá, residência oficial do presidente da República.",
+          "variantes": [
+            "Alvorada"
+          ]
+        },
+        {
+          "id": "estatua_da_liberdade",
+          "nome": "Estátua da Liberdade",
+          "descricao": "Estátua de cobre presenteada pela França, na Ilha da Liberdade, em Nova York.",
+          "variantes": [
+            "Statue of Liberty",
+            "A Liberdade Iluminando o Mundo",
+            "Liberdade Iluminando o Mundo"
+          ]
+        },
+        {
+          "id": "palacio_da_pena",
+          "nome": "Palácio da Pena",
+          "descricao": "Palácio romântico do século dezenove no alto da serra de Sintra, em Portugal.",
+          "variantes": [
+            "Pena Palace",
+            "Palácio Nacional da Pena"
+          ]
+        },
+        {
+          "id": "palacio_de_cristal",
+          "nome": "Palácio de Cristal",
+          "descricao": "Grande edifício de ferro e vidro construído em Londres para a Grande Exposição de 1851, destruído por um incêndio em 1936.",
+          "variantes": [
+            "The Crystal Palace",
+            "Crystal Palace"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "museu_do_ipiranga",
+      "motivo": "Mesmo museu: Museu Paulista da USP / Museu do Ipiranga."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "paco_imperial",
+      "motivo": "Mesmo edifício na Praça XV, Rio, com mesmas variantes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pintura diferente; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "monumento_nacional_aos_mortos_da_segunda_guerra_mundial",
+      "motivo": "Mesmo monumento no Rio, também chamado Monumento aos Pracinhas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Pintura Moça no Trigal não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Igreja do Carmo de Ouro Preto é distinta das candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Conjunto Pedregulho."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Biblioteca Nacional."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Palácio da Liberdade de Belo Horizonte."
+    }
+  ]
+}
