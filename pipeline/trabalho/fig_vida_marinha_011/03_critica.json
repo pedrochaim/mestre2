@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz que o tubarão sobe rios, o que entrega 'água doce' (vazamento). Os outros fatos do trecho, como o rio Amazonas a 3.700 km do mar, só dariam pergunta se a pista identificasse sozinha a espécie. Sem conserto limpo, descarto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português diz que se alimenta de pequenos peixes e lulas. O enunciado não identifica o tubarão, a resposta é única entre os moluscos e os distratores são moluscos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista das antenas em placas largas é a característica que define a lagosta-sapateira e a descreve, então a figura vira enfeite. Basta tirar a pista e perguntar só o que é, como nível 1.",
+      "reescrita": {
+        "pergunta": "Que crustáceo marinho é este?",
+        "resposta": "Lagosta-sapateira",
+        "distratores": [
+          "Lagosta-espinhosa",
+          "Lagosta-peluda",
+          "Camarão-mantis"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma o apelido 'Picasso triggerfish' ou 'Picassofish'. O enunciado não nomeia o peixe nem a resposta, e a figura é necessária para reconhecê-lo. Os distratores são artistas de mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tubarão-lambaru e tubarão-lixa são o mesmo animal (Ginglymostoma cirratum), e o trecho o descreve como sedentário e de fundo. A pista é fraca, então a figura é necessária. Os distratores são tubarões críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é neutro e a figura é necessária. O trecho confirma que é um peixe de recife muito comum em aquários. Os distratores são peixes amarelos ou do mesmo grupo, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a espécie e a descrição visual não basta para identificá-la sem a figura. O trecho confirma um poliqueta de recifes de coral com radíolos em espiral. Os distratores são invertebrados marinhos críveis.",
+      "reescrita": null
+    }
+  ]
+}

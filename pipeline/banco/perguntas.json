@@ -324188,5 +324188,128 @@
       "https://pt.wikipedia.org/wiki/Português_brasileiro",
       "https://en.wikipedia.org/wiki/Brazilian_Portuguese"
     ]
+  },
+  {
+    "id": "q16798",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "tubarao_azul",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Além de pequenos peixes, que molusco é um dos principais alimentos deste tubarão?",
+    "resposta": "Lula",
+    "distratores": [
+      "Ostra",
+      "Mexilhão",
+      "Caracol-do-mar"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Blue_shark",
+      "https://pt.wikipedia.org/wiki/Tubar%C3%A3o-azul"
+    ],
+    "imagem": {
+      "arquivo": "q16798.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tiburón_azul_(Prionace_glauca),_canal_Fayal-Pico,_islas_Azores,_Portugal,_2020-07-27,_DD_28.jpg",
+      "autor": "Diego Delso",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q16799",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "lagosta_sapateira",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que crustáceo marinho é este?",
+    "resposta": "Lagosta-sapateira",
+    "distratores": [
+      "Lagosta-espinhosa",
+      "Lagosta-peluda",
+      "Camarão-mantis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Slipper_lobster",
+      "https://pt.wikipedia.org/wiki/Scyllaridae"
+    ],
+    "imagem": {
+      "arquivo": "q16799.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Scyllarides_latus.jpg",
+      "autor": "Peterkoelbl",
+      "licenca": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "id": "q16800",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "peixe_picasso",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este peixe de recife tem como apelido o nome de qual artista famoso?",
+    "resposta": "Picasso",
+    "distratores": [
+      "Dalí",
+      "Matisse",
+      "Van Gogh"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lagoon_triggerfish"
+    ],
+    "imagem": {
+      "arquivo": "q16800.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Picasso.triggerfish.arp.jpg",
+      "autor": "Arpingstone",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q16801",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "cirurgiao_amarelo",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que peixe de recife e de aquário é este?",
+    "resposta": "Cirurgião-amarelo",
+    "distratores": [
+      "Cirurgião-azul",
+      "Peixe-borboleta-limão",
+      "Peixe-anjo-amarelo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yellow_tang",
+      "https://pt.wikipedia.org/wiki/Zebrasoma_flavescens"
+    ],
+    "imagem": {
+      "arquivo": "q16801.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Zebrasoma_flavescens_Luc_Viatour.jpg",
+      "autor": "Luc Viatour",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q16802",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "verme_arvore_de_natal",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que animal marinho é este, com tufos em espiral sobre o coral?",
+    "resposta": "Verme-árvore-de-natal",
+    "distratores": [
+      "Lírio-do-mar",
+      "Anêmona-do-mar",
+      "Esponja-tubular"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spirobranchus_giganteus"
+    ],
+    "imagem": {
+      "arquivo": "q16802.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Spirobranchus_giganteus_(Red_and_white_christmas_tree_worm).jpg",
+      "autor": "Nhobgood Nick Hobgood",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

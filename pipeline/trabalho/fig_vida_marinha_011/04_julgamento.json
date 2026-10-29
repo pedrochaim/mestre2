@@ -1,0 +1,410 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tubarão-azul",
+        "descricao": "Tubarão-azul (Prionace glauca), tubarão cestídeo de oceano aberto, de corpo esguio e peitorais longas.",
+        "variantes": [
+          "Cação-azul",
+          "Prionace glauca",
+          "Blue shark"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pavao",
+          "nome": "Pavão",
+          "descricao": "Pavão-azul, ave originária do subcontinente indiano, cujo macho tem longa cauda com ocelos.",
+          "variantes": [
+            "Pavão-azul",
+            "Pavão-indiano",
+            "Pavo cristatus"
+          ]
+        },
+        {
+          "id": "tubarao_baleia",
+          "nome": "Tubarão-baleia",
+          "descricao": "Grande tubarão filtrador (Rhincodon typus) de pele pintada, que se alimenta de plâncton.",
+          "variantes": [
+            "Rhincodon typus",
+            "Whale shark"
+          ]
+        },
+        {
+          "id": "dragao_azul",
+          "nome": "Dragão-azul",
+          "descricao": "Lesma-do-mar pelágica Glaucus atlanticus, azul e prateada, que flutua de cabeça para baixo na superfície.",
+          "variantes": [
+            "Glaucus atlanticus",
+            "Dragão-azul-do-mar",
+            "Anjo-azul"
+          ]
+        },
+        {
+          "id": "tubarao_lixa",
+          "nome": "Tubarão-lixa",
+          "descricao": "Tubarão Ginglymostoma cirratum, de hábitos de fundo e com barbilhões, do Atlântico e Pacífico oriental.",
+          "variantes": [
+            "Ginglymostoma cirratum",
+            "Nurse shark"
+          ]
+        },
+        {
+          "id": "tubarao_anjo",
+          "nome": "Tubarão-anjo",
+          "descricao": "Tubarão de corpo achatado do gênero Squatina, que vive no fundo arenoso e lembra uma raia.",
+          "variantes": [
+            "Anjo-do-mar",
+            "Squatina",
+            "Angel shark"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Lagosta-sapateira",
+        "descricao": "Lagosta-sapateira, crustáceo da família Scyllaridae com antenas achatadas em forma de placas.",
+        "variantes": [
+          "Cigarra-do-mar",
+          "Slipper lobster",
+          "Scyllaridae"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_papagaio",
+          "nome": "Peixe-papagaio",
+          "descricao": "Peixe de recife tropical, de cores vivas e dentes fundidos em forma de bico, que se alimenta raspando corais e algas.",
+          "variantes": [
+            "Budião",
+            "Parrotfish",
+            "Scaridae"
+          ]
+        },
+        {
+          "id": "lagosta_3",
+          "nome": "Lagosta",
+          "descricao": "Crustáceo decápode marinho da família Nephropidae, de corpo alongado e grandes pinças, como a lagosta-europeia.",
+          "variantes": [
+            "Lavagante",
+            "Lagosta-europeia"
+          ]
+        },
+        {
+          "id": "lagosta_thermidor",
+          "nome": "Lagosta Thermidor",
+          "descricao": "Prato francês de carne de lagosta em molho cremoso de vinho, servida na carapaça e gratinada.",
+          "variantes": [
+            "Lobster Thermidor",
+            "Lagosta à Thermidor"
+          ]
+        },
+        {
+          "id": "grilo",
+          "nome": "Grilo",
+          "descricao": "Inseto ortóptero de corpo cilíndrico e antenas longas, cujos machos cantam esfregando as asas.",
+          "variantes": [
+            "Gryllidae",
+            "Grylloidea",
+            "cricket"
+          ]
+        },
+        {
+          "id": "brisa_maritima",
+          "nome": "Brisa marítima",
+          "descricao": "Vento local que alterna entre o mar e a terra ao longo do dia por causa da diferença de aquecimento entre eles",
+          "variantes": [
+            "Brisa terrestre",
+            "Sea breeze",
+            "Brisa do mar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Peixe-picasso",
+        "descricao": "Peixe-picasso (Rhinecanthus aculeatus), peixe-porco do Indo-Pacífico de padrão colorido listrado.",
+        "variantes": [
+          "Peixe-gatilho-picasso",
+          "Lagoon triggerfish",
+          "Rhinecanthus aculeatus",
+          "Peixe-porco-picasso"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_pescador_abissal",
+          "nome": "Peixe-pescador abissal",
+          "descricao": "Peixe das profundezas da subordem Ceratioidei, cuja fêmea tem uma isca luminosa na cabeça.",
+          "variantes": [
+            "Peixe-diabo",
+            "Ceratioidei",
+            "Deep-sea anglerfish"
+          ]
+        },
+        {
+          "id": "linguado",
+          "nome": "Linguado",
+          "descricao": "Peixe chato marinho que vive deitado no fundo, com os dois olhos do mesmo lado da cabeça.",
+          "variantes": [
+            "Peixe chato",
+            "Flatfish"
+          ]
+        },
+        {
+          "id": "peixe_pescador",
+          "nome": "Peixe-pescador",
+          "descricao": "Peixes da ordem Lophiiformes, muitos de águas profundas, que atraem presas com uma isca na cabeça.",
+          "variantes": [
+            "Tamboril",
+            "Anglerfish",
+            "Lophiiformes"
+          ]
+        },
+        {
+          "id": "peixe_lua",
+          "nome": "Peixe-lua",
+          "descricao": "Grande peixe oceânico de corpo achatado e arredondado (Mola mola), um dos peixes ósseos mais pesados.",
+          "variantes": [
+            "Mola mola",
+            "Ocean sunfish",
+            "Peixe-sol"
+          ]
+        },
+        {
+          "id": "remora",
+          "nome": "Rêmora",
+          "descricao": "Peixe marinho que se fixa a tubarões e outros animais grandes por uma ventosa na cabeça.",
+          "variantes": [
+            "Peixe-piolho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Tubarão-lambaru",
+        "descricao": "Tubarão-lambaru (Ginglymostoma cirratum), tubarão de fundo com barbilhões no focinho.",
+        "variantes": [
+          "Tubarão-lixa",
+          "Nurse shark",
+          "Ginglymostoma cirratum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubarao_lixa",
+          "nome": "Tubarão-lixa",
+          "descricao": "Tubarão Ginglymostoma cirratum, de hábitos de fundo e com barbilhões, do Atlântico e Pacífico oriental.",
+          "variantes": [
+            "Ginglymostoma cirratum",
+            "Nurse shark"
+          ]
+        },
+        {
+          "id": "tubarao_baleia",
+          "nome": "Tubarão-baleia",
+          "descricao": "Grande tubarão filtrador (Rhincodon typus) de pele pintada, que se alimenta de plâncton.",
+          "variantes": [
+            "Rhincodon typus",
+            "Whale shark"
+          ]
+        },
+        {
+          "id": "tubarao_duende",
+          "nome": "Tubarão-duende",
+          "descricao": "Raro tubarão de águas profundas, Mitsukurina owstoni, de focinho longo e achatado e mandíbulas protráteis.",
+          "variantes": [
+            "Mitsukurina owstoni",
+            "Goblin shark",
+            "Tubarão-goblin"
+          ]
+        },
+        {
+          "id": "tubarao_anjo",
+          "nome": "Tubarão-anjo",
+          "descricao": "Tubarão de corpo achatado do gênero Squatina, que vive no fundo arenoso e lembra uma raia.",
+          "variantes": [
+            "Anjo-do-mar",
+            "Squatina",
+            "Angel shark"
+          ]
+        },
+        {
+          "id": "tubarao_mako",
+          "nome": "Tubarão-mako",
+          "descricao": "Isurus oxyrinchus, grande tubarão-cavala de corpo fusiforme, o mais rápido entre os tubarões conhecidos.",
+          "variantes": [
+            "Mako",
+            "Tubarão-anequim",
+            "Isurus oxyrinchus",
+            "Shortfin mako"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cirurgião-amarelo",
+        "descricao": "Cirurgião-amarelo (Zebrasoma flavescens), peixe-cirurgião amarelo vivo do Pacífico, comum em aquários.",
+        "variantes": [
+          "Zebrasoma flavescens",
+          "Yellow tang",
+          "Peixe-cirurgião-amarelo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cirurgiao_patela",
+          "nome": "Cirurgião-patela",
+          "descricao": "Peixe-cirurgião azul do Indo-Pacífico (Paracanthurus hepatus), de cauda amarela, popular em aquários.",
+          "variantes": [
+            "Cirurgião-patela (Dory)",
+            "Paracanthurus hepatus",
+            "Blue tang",
+            "Dory",
+            "Peixe-cirurgião-azul"
+          ]
+        },
+        {
+          "id": "estrela_amarela",
+          "nome": "Estrela amarela",
+          "descricao": "Distintivo em forma de estrela de seis pontas que os judeus eram obrigados a usar na Alemanha nazista e na Europa ocupada.",
+          "variantes": [
+            "Estrela de Davi amarela",
+            "Judenstern",
+            "Distintivo judaico",
+            "Yellow badge"
+          ]
+        },
+        {
+          "id": "cartoes_amarelo_e_vermelho",
+          "nome": "Cartões amarelo e vermelho",
+          "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+          "variantes": [
+            "Cartão amarelo",
+            "Cartão vermelho",
+            "Penalty card"
+          ]
+        },
+        {
+          "id": "escorpiao_amarelo",
+          "nome": "Escorpião-amarelo",
+          "descricao": "Escorpião brasileiro (Tityus serrulatus), de veneno perigoso e comum em áreas urbanas.",
+          "variantes": [
+            "Tityus serrulatus"
+          ]
+        },
+        {
+          "id": "peixe_cofre_amarelo",
+          "nome": "Peixe-cofre-amarelo",
+          "descricao": "Peixe de recife (Ostracion cubicum) de corpo em forma de caixa, amarelo com pintas escuras.",
+          "variantes": [
+            "Ostracion cubicum",
+            "Yellow boxfish",
+            "Peixe-cofre"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Verme-árvore-de-natal",
+        "descricao": "Verme-árvore-de-natal (Spirobranchus giganteus), poliqueta de recifes de coral com tufos em espiral.",
+        "variantes": [
+          "Spirobranchus giganteus",
+          "Christmas tree worm"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arvore_de_natal",
+          "nome": "Árvore de Natal",
+          "descricao": "Pinheiro, natural ou artificial, enfeitado com luzes e ornamentos durante as festas de fim de ano.",
+          "variantes": [
+            "Pinheirinho de Natal",
+            "Christmas tree"
+          ]
+        },
+        {
+          "id": "tregua_de_natal",
+          "nome": "Trégua de Natal",
+          "descricao": "Série de cessar-fogos informais entre soldados britânicos e alemães na Frente Ocidental no Natal de 1914.",
+          "variantes": [
+            "Christmas truce",
+            "Trégua de Natal de 1914"
+          ]
+        },
+        {
+          "id": "besouro_tita",
+          "nome": "Besouro-titã",
+          "descricao": "Besouro cerambicídeo neotropical (Titanus giganteus), um dos maiores insetos conhecidos.",
+          "variantes": [
+            "Titanus giganteus",
+            "titan beetle"
+          ]
+        },
+        {
+          "id": "raposa_voadora_indiana",
+          "nome": "Raposa-voadora-indiana",
+          "descricao": "Grande morcego frugívoro (Pteropus medius) nativo do subcontinente indiano.",
+          "variantes": [
+            "Raposa-voadora",
+            "Pteropus medius",
+            "Pteropus giganteus",
+            "Morcego-frugívoro-indiano"
+          ]
+        },
+        {
+          "id": "christmas_cracker",
+          "nome": "Christmas cracker",
+          "descricao": "Tubo de papel enfeitado, típico da ceia de Natal britânica, que estoura quando duas pessoas o puxam e revela pequenos brindes.",
+          "variantes": [
+            "Cracker de Natal"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Prionace glauca é espécie distinta de todas as candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Scyllaridae (lagosta-sapateira) é família diferente de Nephropidae (lagosta)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Rhinecanthus aculeatus é um baliste, diferente das candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "tubarao_lixa",
+      "motivo": "Mesma espécie, Ginglymostoma cirratum; lambaru e lixa são nomes populares dela."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Zebrasoma flavescens é espécie diferente de Paracanthurus hepatus e das demais."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Spirobranchus giganteus é um verme poliqueta, sem candidata equivalente."
+    }
+  ]
+}

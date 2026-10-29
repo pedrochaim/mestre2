@@ -1,0 +1,205 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clara de tubarão robusto, reconhecível; pergunta de nível 3 sobre a tolerância à água doce.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Além da salgada, que tipo de água este tubarão tolera, chegando a subir rios?",
+      "resposta": "Água doce",
+      "distratores": [
+        "Águas polares",
+        "Águas abissais",
+        "Águas ácidas"
+      ],
+      "ancora": {
+        "nome": "Tubarão-cabeça-chata",
+        "descricao": "Tubarão-cabeça-chata (Carcharhinus leucas), tubarão cestídeo costeiro que tolera água doce e sobe rios.",
+        "variantes": [
+          "Tubarão-touro",
+          "Cação-cabeça-chata",
+          "Bull shark",
+          "Tubarão-do-Zambeze"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "É uma ilustração antiga, não foto; a espécie pode ser fotografada. Além disso, é parecida com outros rorquais."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem de modelo de museu atrás de vidro, com reflexos, cartazes e pessoas ao fundo; ruim no celular e não é o animal vivo."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida, com as longas nadadeiras peitorais características do tubarão-azul.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Além de pequenos peixes, que molusco é um dos principais alimentos deste tubarão?",
+      "resposta": "Lula",
+      "distratores": [
+        "Ostra",
+        "Mexilhão",
+        "Caracol-do-mar"
+      ],
+      "ancora": {
+        "nome": "Tubarão-azul",
+        "descricao": "Tubarão-azul (Prionace glauca), tubarão cestídeo de oceano aberto, de corpo esguio e peitorais longas.",
+        "variantes": [
+          "Cação-azul",
+          "Prionace glauca",
+          "Blue shark"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto clara, com as antenas achatadas em placa características.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que crustáceo é este, que tem as antenas em forma de placas largas?",
+      "resposta": "Lagosta-sapateira",
+      "distratores": [
+        "Lagosta-espinhosa",
+        "Lagosta-peluda",
+        "Camarão-mantis"
+      ],
+      "ancora": {
+        "nome": "Lagosta-sapateira",
+        "descricao": "Lagosta-sapateira, crustáceo da família Scyllaridae com antenas achatadas em forma de placas.",
+        "variantes": [
+          "Cigarra-do-mar",
+          "Slipper lobster",
+          "Scyllaridae"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Peixe amarelo e fino, sem a cauda visível; pode ser confundido com o peixe-corneta (Fistularia), então a resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Prancha de Haeckel com várias figuras, incluindo um caranguejo; é ilustração, não foto, e uma montagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O animal coberto de espinhos finos não lembra a bolacha-da-praia típica, e não é reconhecível; resposta pouco segura."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida, com padrão de cores inconfundível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este peixe de recife tem como apelido o nome de qual artista famoso?",
+      "resposta": "Picasso",
+      "distratores": [
+        "Dalí",
+        "Matisse",
+        "Van Gogh"
+      ],
+      "ancora": {
+        "nome": "Peixe-picasso",
+        "descricao": "Peixe-picasso (Rhinecanthus aculeatus), peixe-porco do Indo-Pacífico de padrão colorido listrado.",
+        "variantes": [
+          "Peixe-gatilho-picasso",
+          "Lagoon triggerfish",
+          "Rhinecanthus aculeatus",
+          "Peixe-porco-picasso"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto clara, com tubarão no fundo e barbilhões visíveis no focinho.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tubarão é este, que descansa no fundo do mar?",
+      "resposta": "Tubarão-lambaru (tubarão-lixa)",
+      "distratores": [
+        "Tubarão-limão",
+        "Tubarão-tapete",
+        "Tubarão-tigre"
+      ],
+      "ancora": {
+        "nome": "Tubarão-lambaru",
+        "descricao": "Tubarão-lambaru (Ginglymostoma cirratum), tubarão de fundo com barbilhões no focinho.",
+        "variantes": [
+          "Tubarão-lixa",
+          "Nurse shark",
+          "Ginglymostoma cirratum"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto limpa, em fundo preto, de peixe amarelo inconfundível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peixe de recife e de aquário é este?",
+      "resposta": "Cirurgião-amarelo",
+      "distratores": [
+        "Cirurgião-azul",
+        "Peixe-borboleta-limão",
+        "Peixe-anjo-amarelo"
+      ],
+      "ancora": {
+        "nome": "Cirurgião-amarelo",
+        "descricao": "Cirurgião-amarelo (Zebrasoma flavescens), peixe-cirurgião amarelo vivo do Pacífico, comum em aquários.",
+        "variantes": [
+          "Zebrasoma flavescens",
+          "Yellow tang",
+          "Peixe-cirurgião-amarelo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida dos tufos em espiral sobre coral, característicos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que animal marinho é este, com tufos em espiral sobre o coral?",
+      "resposta": "Verme-árvore-de-natal",
+      "distratores": [
+        "Lírio-do-mar",
+        "Anêmona-do-mar",
+        "Esponja-tubular"
+      ],
+      "ancora": {
+        "nome": "Verme-árvore-de-natal",
+        "descricao": "Verme-árvore-de-natal (Spirobranchus giganteus), poliqueta de recifes de coral com tufos em espiral.",
+        "variantes": [
+          "Spirobranchus giganteus",
+          "Christmas tree worm"
+        ]
+      }
+    }
+  ]
+}

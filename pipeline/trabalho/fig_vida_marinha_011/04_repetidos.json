@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tubarão é este, que descansa no fundo do mar?",
+        "resposta": "Tubarão-lambaru (tubarão-lixa)"
+      },
+      "existentes": [
+        {
+          "id": "q15269",
+          "pergunta": "Que tubarão é este?",
+          "resposta": "Tubarão-lixa"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam qual é o tubarão mostrado (tubarão-lixa/lambaru); mesma identificação, a nova só acrescenta detalhe de descanso.",
+      "id_existente": "q15269"
+    }
+  ]
+}
