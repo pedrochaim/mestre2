@@ -1,0 +1,70 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "'Sorveteria' deriva da resposta (sorvete) e entrega a pista; 'cesta' e 'ainda vazio' não são confirmáveis; 'Canudo de wafer' e 'Cestinha de biscoito' são defensáveis. Sem conserto limpo.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Sopa gratinada com croutons' descreve a sopa de cebola francesa e permite responder sem a figura. Tirar a pista.",
+      "reescrita": {
+        "pergunta": "De que país é este prato clássico?",
+        "resposta": "França",
+        "distratores": [
+          "Suíça",
+          "Bélgica",
+          "Itália"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta curta, sem pista; o prato é peruano segundo os trechos; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento relevante; a figura é necessária para distinguir o preparo; distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Chapa de ferro' é pista forte de fajita e não consta em 'mostra', logo não se garante que valha para esta foto. Usar apenas 'tex-mex', que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que prato tex-mex é este?",
+        "resposta": "Fajita",
+        "distratores": [
+          "Burrito",
+          "Enchilada",
+          "Chili con carne"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Doce árabe com camada de queijo' identifica o knafeh sem a figura, e o pistache por cima não consta em 'mostra'. Deixar só 'doce árabe'.",
+      "reescrita": {
+        "pergunta": "Que doce árabe é este?",
+        "resposta": "Knafeh",
+        "distratores": [
+          "Baklava",
+          "Basbousa",
+          "Qatayef"
+        ]
+      }
+    }
+  ]
+}

@@ -322813,5 +322813,129 @@
       "autor": "Cid Costa Neto",
       "licenca": "CC BY 2.5"
     }
+  },
+  {
+    "id": "q16736",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "sopa_de_cebola",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "De que país é este prato clássico?",
+    "resposta": "França",
+    "distratores": [
+      "Suíça",
+      "Bélgica",
+      "Itália"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/French_onion_soup",
+      "https://pt.wikipedia.org/wiki/Sopa_de_cebola"
+    ],
+    "imagem": {
+      "arquivo": "q16736.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Soupe_à_l'oignon_01.JPG",
+      "autor": "Arnaud 25",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q16737",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "lomo_saltado",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "De que país é este prato?",
+    "resposta": "Peru",
+    "distratores": [
+      "Equador",
+      "Chile",
+      "Colômbia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lomo_saltado"
+    ],
+    "imagem": {
+      "arquivo": "q16737.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lomo-saltado-perudelights.jpg",
+      "autor": "WikiHes",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q16738",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "ovos_mexidos",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que preparo de ovos é este, em primeiro plano?",
+    "resposta": "Ovos mexidos",
+    "distratores": [
+      "Omelete",
+      "Ovos pochê",
+      "Ovos estrelados"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Scrambled_eggs",
+      "https://pt.wikipedia.org/wiki/Ovos_mexidos"
+    ],
+    "imagem": {
+      "arquivo": "q16738.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Scrambed_eggs.jpg",
+      "autor": "Takeaway",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q16739",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "fajita",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que prato tex-mex é este?",
+    "resposta": "Fajita",
+    "distratores": [
+      "Burrito",
+      "Enchilada",
+      "Chili con carne"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fajita",
+      "https://pt.wikipedia.org/wiki/Fajita"
+    ],
+    "imagem": {
+      "arquivo": "q16739.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flickr_elisart_324248450--Beef_and_chicken_fajitas.jpg",
+      "autor": "Elisa Arteaga from Caracas, Venezuela",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q16740",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "knafeh",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que doce árabe é este?",
+    "resposta": "Knafeh",
+    "distratores": [
+      "Baklava",
+      "Basbousa",
+      "Qatayef"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Knafeh",
+      "https://pt.wikipedia.org/wiki/Knafe"
+    ],
+    "imagem": {
+      "arquivo": "q16740.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Künefe.jpg",
+      "autor": "elif ayse",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]

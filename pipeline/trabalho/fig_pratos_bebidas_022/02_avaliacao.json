@@ -1,0 +1,176 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Casquinhas de wafer empilhadas, reconhecíveis, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que item de sorveteria, ainda vazio, aparece nesta cesta?",
+      "resposta": "Casquinha de sorvete",
+      "distratores": [
+        "Cone de pizza",
+        "Cestinha de biscoito",
+        "Canudo de wafer"
+      ],
+      "ancora": {
+        "nome": "Casquinha de sorvete",
+        "descricao": "Cone crocante de massa tipo wafer usado para servir sorvete.",
+        "variantes": [
+          "Cone de sorvete",
+          "Casquinha"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Sopa gratinada com croutons em ramequim, típica; aceitável com múltipla escolha.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é este prato clássico, uma sopa gratinada com croutons?",
+      "resposta": "França",
+      "distratores": [
+        "Suíça",
+        "Bélgica",
+        "Itália"
+      ],
+      "ancora": {
+        "nome": "Sopa de cebola",
+        "descricao": "Sopa francesa de cebolas refogadas em caldo, servida gratinada com pão e queijo.",
+        "variantes": [
+          "Sopa de cebola francesa",
+          "Soupe à l'oignon"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Prato claro: carne em tiras, cebola roxa, tomate, batata frita e arroz.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é este prato?",
+      "resposta": "Peru",
+      "distratores": [
+        "Equador",
+        "Chile",
+        "Colômbia"
+      ],
+      "ancora": {
+        "nome": "Lomo saltado",
+        "descricao": "Salteado peruano de tiras de carne bovina com cebola, tomate e batata frita, servido com arroz.",
+        "variantes": [
+          "Lomito saltado"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A imagem mostra um embutido curado com mofo branco, parecido com salame; não é reconhecível como linguiça."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Bebida de café com leite numa tigela; não se distingue de capuccino ou flat white, resposta não única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Queijo de casca branca que se confunde com brie; sem rótulo ou contexto que o identifique."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Ovos mexidos em primeiro plano, claros e legíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que preparo de ovos é este, em primeiro plano?",
+      "resposta": "Ovos mexidos",
+      "distratores": [
+        "Omelete",
+        "Ovos pochê",
+        "Ovos estrelados"
+      ],
+      "ancora": {
+        "nome": "Ovos mexidos",
+        "descricao": "Prato de ovos batidos e cozidos mexendo, formando pequenos coágulos macios.",
+        "variantes": [
+          "Ovo mexido"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Chapa fumegante com carne grelhada, frango, cebola e pimentão, característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que prato é este, servido numa chapa de ferro?",
+      "resposta": "Fajita",
+      "distratores": [
+        "Burrito",
+        "Enchilada",
+        "Chili con carne"
+      ],
+      "ancora": {
+        "nome": "Fajita",
+        "descricao": "Prato tex-mex de tiras de carne grelhada com cebola e pimentão, servido com tortilhas.",
+        "variantes": [
+          "Fajitas"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Bebida âmbar com gelo e casca de laranja; não distingue de uísque com gelo, resposta não única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Geladeira com muitas bebidas e marcas visíveis; imagem de vários assuntos com texto que entrega marcas."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Rótulo 'Dry Gin' visível entrega a resposta e o copo é ambíguo (água com gás e limão)."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fatia de doce com queijo e pistache, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que doce árabe, com camada de queijo e pistache por cima, é este?",
+      "resposta": "Knafeh",
+      "distratores": [
+        "Baklava",
+        "Basbousa",
+        "Qatayef"
+      ],
+      "ancora": {
+        "nome": "Knafeh",
+        "descricao": "Sobremesa árabe de massa kadayif com queijo, embebida em calda de açúcar.",
+        "variantes": [
+          "Kunafa",
+          "Knafe",
+          "Kanafeh"
+        ]
+      }
+    }
+  ]
+}
