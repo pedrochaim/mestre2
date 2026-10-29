@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento científico é este?",
+        "resposta": "Sismógrafo"
+      },
+      "existentes": [
+        {
+          "id": "q04494",
+          "pergunta": "Que instrumento científico é este?",
+          "resposta": "Sismógrafo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q04494",
+      "motivo": "Pergunta e resposta idênticas (identificar o sismógrafo na imagem)."
+    }
+  ]
+}

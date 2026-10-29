@@ -1,0 +1,118 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Aparece o texto PLAYSTATION 3 e PS3 no console, que entrega a resposta; além disso, mostra dois modelos."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O nome XBOX aparece escrito no console e no controle."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto de um chip sem identificação, de baixa resolução; não dá para reconhecer o processador nem datá-lo com resposta única."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O nome Nintendo Zapper está impresso na pistola."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Anemômetro de conchas nítido, sem texto, reconhecível.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que instrumento meteorológico é este?",
+      "resposta": "Anemômetro",
+      "distratores": [
+        "Barômetro",
+        "Higrômetro",
+        "Pluviômetro"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Anemômetro",
+        "descricao": "Instrumento que mede a velocidade do vento, aqui o modelo de conchas.",
+        "variantes": [
+          "Anemometro de conchas"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O controle traz SONY e PlayStation escritos, que entregam a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Nintendo 3DS azul, sem marca nem nome visível, reconhecível pelo formato e pelo botão deslizante; pergunta de ano em múltipla escolha.",
+      "tipo": "multipla",
+      "familia": "quando",
+      "nivel": 3,
+      "pergunta": "Em que ano este console portátil de duas telas chegou ao mercado?",
+      "resposta": "2011",
+      "distratores": [
+        "2009",
+        "2010",
+        "2012"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nintendo 3DS",
+        "descricao": "Console portátil dobrável de duas telas da Nintendo, com imagens 3D sem óculos, lançado em 2011.",
+        "variantes": [
+          "3DS"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Sismógrafo de tambor com registro em papel, reconhecível; o texto visível é só de fabricante e não entrega a resposta.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que instrumento é este, que registra tremores da Terra num rolo de papel?",
+      "resposta": "Sismógrafo",
+      "distratores": [
+        "Barógrafo",
+        "Gravímetro",
+        "Magnetômetro"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Sismógrafo",
+        "descricao": "Instrumento que registra o movimento do solo causado por terremotos, aqui um modelo portátil de tambor de papel.",
+        "variantes": [
+          "Sismômetro"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O nome GAME BOY ADVANCE está escrito abaixo da tela."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O nome Wii está escrito no controle."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O nome Commodore VIC 20 está escrito na parte de cima do computador."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução, com uma copiadora genérica num cômodo comum; pouco nítida num celular e fácil de confundir com outra máquina de escritório."
+    }
+  ]
+}

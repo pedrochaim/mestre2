@@ -1,0 +1,33 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado genérico (só diz 'meteorológico'), sem vazamento; a figura é necessária. Distratores do mesmo tipo e plausíveis, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ano 2011 confirmado pelos trechos (lançado em 2011). O enunciado não nomeia o console. 'Duas telas' também descreve o DS, então a figura é necessária. Resposta é ano e a pergunta é multipla; distratores são anos próximos e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a função do instrumento ('registra tremores da Terra'), então dá para responder sem a figura. Retirei a pista e mantive os distratores, que são instrumentos de registro ou medição parecidos.",
+      "reescrita": {
+        "pergunta": "Que instrumento científico é este?",
+        "resposta": "Sismógrafo",
+        "distratores": [
+          "Barógrafo",
+          "Gravímetro",
+          "Magnetômetro"
+        ]
+      }
+    }
+  ]
+}

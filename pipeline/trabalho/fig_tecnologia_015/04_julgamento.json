@@ -1,0 +1,191 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Anemômetro",
+        "descricao": "Instrumento que mede a velocidade do vento, aqui o modelo de conchas.",
+        "variantes": [
+          "Anemometro de conchas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aritmometro",
+          "nome": "Aritmômetro",
+          "descricao": "Calculadora mecânica patenteada na França em 1820 por Thomas de Colmar, a primeira produzida comercialmente com sucesso.",
+          "variantes": [
+            "Arithmomètre",
+            "Arithmometer"
+          ]
+        },
+        {
+          "id": "barometro",
+          "nome": "Barômetro",
+          "descricao": "Instrumento científico que mede a pressão atmosférica, usado na previsão do tempo.",
+          "variantes": [
+            "Barometer",
+            "Barômetro de mercúrio"
+          ]
+        },
+        {
+          "id": "nilometro",
+          "nome": "Nilômetro",
+          "descricao": "Estrutura graduada à beira do Nilo usada no Egito para medir a altura da cheia anual",
+          "variantes": [
+            "Nilometer"
+          ]
+        },
+        {
+          "id": "sismografo",
+          "nome": "Sismógrafo",
+          "descricao": "Instrumento que registra em papel ou meio digital o movimento do solo causado por terremotos.",
+          "variantes": [
+            "Sismômetro",
+            "Seismograph",
+            "Seismometer"
+          ]
+        },
+        {
+          "id": "micrometro",
+          "nome": "Micrômetro",
+          "descricao": "Instrumento de medição de precisão que usa um parafuso calibrado para medir pequenas dimensões.",
+          "variantes": [
+            "Micrômetro de parafuso",
+            "Palmer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Nintendo 3DS",
+        "descricao": "Console portátil dobrável de duas telas da Nintendo, com imagens 3D sem óculos, lançado em 2011.",
+        "variantes": [
+          "3DS"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nintendo",
+          "nome": "Nintendo",
+          "descricao": "Empresa japonesa de videogames fundada em 1889, criadora de Mario e Zelda.",
+          "variantes": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Koppai"
+          ]
+        },
+        {
+          "id": "nintendo_64",
+          "nome": "Nintendo 64",
+          "descricao": "Console de mesa da Nintendo, de cartuchos, lançado em 1996, famoso por Super Mario 64.",
+          "variantes": [
+            "N64"
+          ]
+        },
+        {
+          "id": "wii",
+          "nome": "Wii",
+          "descricao": "Console de mesa da Nintendo lançado em 2006, famoso pelos controles com sensor de movimento.",
+          "variantes": [
+            "Nintendo Wii"
+          ]
+        },
+        {
+          "id": "nintendo_switch",
+          "nome": "Nintendo Switch",
+          "descricao": "Console de videogame híbrido da Nintendo, lançado em 2017, que funciona como portátil ou conectado à TV.",
+          "variantes": [
+            "Switch"
+          ]
+        },
+        {
+          "id": "tres_erres",
+          "nome": "Três erres",
+          "descricao": "Princípio de gestão de resíduos que ordena as ações reduzir, reutilizar e reciclar.",
+          "variantes": [
+            "3Rs",
+            "Reduzir, reutilizar e reciclar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Sismógrafo",
+        "descricao": "Instrumento que registra o movimento do solo causado por terremotos, aqui um modelo portátil de tambor de papel.",
+        "variantes": [
+          "Sismômetro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sismografo",
+          "nome": "Sismógrafo",
+          "descricao": "Instrumento que registra em papel ou meio digital o movimento do solo causado por terremotos.",
+          "variantes": [
+            "Sismômetro",
+            "Seismograph",
+            "Seismometer"
+          ]
+        },
+        {
+          "id": "esfigmomanometro",
+          "nome": "Esfigmomanômetro",
+          "descricao": "Aparelho com braçadeira inflável usado para medir a pressão arterial.",
+          "variantes": [
+            "Aparelho de pressão",
+            "Medidor de pressão arterial",
+            "Tensiômetro"
+          ]
+        },
+        {
+          "id": "aritmometro",
+          "nome": "Aritmômetro",
+          "descricao": "Calculadora mecânica patenteada na França em 1820 por Thomas de Colmar, a primeira produzida comercialmente com sucesso.",
+          "variantes": [
+            "Arithmomètre",
+            "Arithmometer"
+          ]
+        },
+        {
+          "id": "nilometro",
+          "nome": "Nilômetro",
+          "descricao": "Estrutura graduada à beira do Nilo usada no Egito para medir a altura da cheia anual",
+          "variantes": [
+            "Nilometer"
+          ]
+        },
+        {
+          "id": "micrometro",
+          "nome": "Micrômetro",
+          "descricao": "Instrumento de medição de precisão que usa um parafuso calibrado para medir pequenas dimensões.",
+          "variantes": [
+            "Micrômetro de parafuso",
+            "Palmer"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Anemômetro mede velocidade do vento; nenhuma candidata é o mesmo instrumento."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nintendo 3DS é um console portátil distinto das candidatas (Nintendo empresa, N64, Wii, Switch)."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "sismografo",
+      "motivo": "Mesmo instrumento que registra movimento do solo em terremotos; o modelo portátil é só detalhe, nome e variantes coincidem."
+    }
+  ]
+}

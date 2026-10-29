@@ -1209,7 +1209,7 @@
       "titulo": "en:Central processing unit",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Disjuntor",
@@ -1307,7 +1307,7 @@
       "titulo": "pt:Patinho Feio (computador)",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Computador Atanasoff-Berry",
@@ -1398,6 +1398,286 @@
       "titulo": "en:Submarine communications cable",
       "camada": 3,
       "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Monitor de computador",
+      "titulo": "en:Computer monitor",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Roteador sem fio",
+      "titulo": "en:Wireless router",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fotocopiadora",
+      "titulo": "en:Photocopier",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Filmadora",
+      "titulo": "en:Camcorder",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Master System",
+      "titulo": "en:Master System",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "PlayStation 3",
+      "titulo": "en:PlayStation 3",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "PlayStation 4",
+      "titulo": "en:PlayStation 4",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Game Boy Advance",
+      "titulo": "en:Game Boy Advance",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "DualShock",
+      "titulo": "en:DualShock",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "AirPods",
+      "titulo": "en:AirPods",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alto-falante",
+      "titulo": "en:Loudspeaker",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bola de plasma",
+      "titulo": "en:Plasma globe",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mola maluca (Slinky)",
+      "titulo": "en:Slinky",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Impressora a laser",
+      "titulo": "en:Laser printing",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Scanner de mesa",
+      "titulo": "en:Image scanner",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Calculadora gráfica",
+      "titulo": "en:Graphing calculator",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Projetor de cinema",
+      "titulo": "en:Movie projector",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "PlayStation Portable (PSP)",
+      "titulo": "en:PlayStation Portable",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nintendo 3DS",
+      "titulo": "en:Nintendo 3DS",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Xbox",
+      "titulo": "en:Xbox (console)",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Wii Remote",
+      "titulo": "en:Wii Remote",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Zapper (pistola do Nintendinho)",
+      "titulo": "en:NES Zapper",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Google Glass",
+      "titulo": "en:Google Glass",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "iBook",
+      "titulo": "en:iBook",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Diodo",
+      "titulo": "en:Diode",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lâmpada de lava",
+      "titulo": "en:Lava lamp",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Câmara escura",
+      "titulo": "en:Camera obscura",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Daguerreótipo",
+      "titulo": "en:Daguerreotype",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Kodak Brownie",
+      "titulo": "en:Brownie (camera)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Power Glove",
+      "titulo": "en:Power Glove",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Atari Lynx",
+      "titulo": "en:Atari Lynx",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Commodore VIC-20",
+      "titulo": "en:VIC-20",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Teclado Model M",
+      "titulo": "en:Model M keyboard",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sensor CCD",
+      "titulo": "en:Charge-coupled device",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Odyssey²",
+      "titulo": "en:Magnavox Odyssey 2",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Motor Stirling",
+      "titulo": "en:Stirling engine",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Termômetro de Galileu",
+      "titulo": "en:Galileo thermometer",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Sismógrafo",
+      "titulo": "en:Seismometer",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Anemômetro",
+      "titulo": "en:Anemometer",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Dínamo",
+      "titulo": "en:Dynamo",
+      "camada": 3,
+      "destino": 1,
       "status": "nova"
     }
   ]
