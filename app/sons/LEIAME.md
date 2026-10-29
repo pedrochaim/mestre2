@@ -34,6 +34,7 @@ Pastas que começam com `_` nunca vão para o site.
 | `tempo_acabando` | Cada um dos últimos 5 segundos do cronômetro |
 | `tempo_esgotado` | O cronômetro chegou a zero |
 | `vitoria` | O acerto levou o jogador à chegada |
+| `fanfarra` | Na casa ★ do Linear, logo antes do `volta_casa`: toca primeiro a fanfarra, depois o peido |
 | `volta_casa` | Na casa ★ do Linear, o acerto fez os jogadores à frente voltarem uma casa (no lugar de `acerto`) |
 
 A lista oficial é o `acoes.json`. Quando uma ação tem mais de um som, o app sorteia um a cada vez.

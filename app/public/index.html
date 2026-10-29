@@ -2158,14 +2158,21 @@
         .then(b => audio.decodeAudioData(b)).catch(() => null)));
   }
 
+  // Eventos que tocam outro som antes, em sequência: na casa ★ do Linear, a fanfarra e depois o peido (volta_casa).
+  const SOM_ANTES = { volta_casa: "fanfarra" };
   async function tocar(ev) {
     if (!experimental || !somLigado || !audio || $("mesa").hidden || !buffers[ev]) return;
     const opcoes = (await buffers[ev]).filter(Boolean);
     if (!opcoes.length) return;
-    const fonte = audio.createBufferSource();
-    fonte.buffer = opcoes[Math.floor(Math.random() * opcoes.length)];
-    fonte.connect(audio.destination);
-    fonte.start();
+    const antes = buffers[SOM_ANTES[ev]] ? (await buffers[SOM_ANTES[ev]]).filter(Boolean) : [];
+    let quando = audio.currentTime;
+    for (const buffer of [...(antes.length ? [umDe(antes)] : []), umDe(opcoes)]) {
+      const fonte = audio.createBufferSource();
+      fonte.buffer = buffer;
+      fonte.connect(audio.destination);
+      fonte.start(quando);
+      quando += buffer.duration + 0.15;  // uma pausa curta entre os dois
+    }
   }
 
   function marcarSom() { $("mesa-som").textContent = somLigado ? "🔊" : "🔇"; }
