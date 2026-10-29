@@ -1,0 +1,618 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em dezembro de 1990, em que cidade foi assinado o acordo que unificou a ortografia dos países de língua portuguesa?",
+        "resposta": "Lisboa"
+      },
+      "existentes": [
+        {
+          "id": "q00770",
+          "pergunta": "Que sinal gráfico, usado em palavras como linguiça e pinguim, deixou de ser usado nas palavras portuguesas no Brasil por causa do Acordo Ortográfico de 1990?",
+          "resposta": "Trema"
+        },
+        {
+          "id": "q00790",
+          "pergunta": "O Acordo Ortográfico de 1990 reincorporou ao alfabeto as letras k, w e y. Com quantas letras o alfabeto português ficou?",
+          "resposta": "26"
+        },
+        {
+          "id": "q04760",
+          "pergunta": "O novo acordo ortográfico começou a valer no Brasil em 2009, com um período de transição. Em que ano ele se tornou obrigatório?",
+          "resposta": "2016"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O Timor-Leste só aderiu ao Acordo Ortográfico depois de independente. Quantos países assinaram o acordo original, em 1990?",
+        "resposta": "Sete"
+      },
+      "existentes": [
+        {
+          "id": "q00770",
+          "pergunta": "Que sinal gráfico, usado em palavras como linguiça e pinguim, deixou de ser usado nas palavras portuguesas no Brasil por causa do Acordo Ortográfico de 1990?",
+          "resposta": "Trema"
+        },
+        {
+          "id": "q00790",
+          "pergunta": "O Acordo Ortográfico de 1990 reincorporou ao alfabeto as letras k, w e y. Com quantas letras o alfabeto português ficou?",
+          "resposta": "26"
+        },
+        {
+          "id": "q04760",
+          "pergunta": "O novo acordo ortográfico começou a valer no Brasil em 2009, com um período de transição. Em que ano ele se tornou obrigatório?",
+          "resposta": "2016"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A música do Hino Nacional é do século dezenove, mas a letra de Osório Duque-Estrada só se tornou oficial em qual ano?",
+        "resposta": "1922"
+      },
+      "existentes": [
+        {
+          "id": "q00764",
+          "pergunta": "No Hino Nacional brasileiro, no verso sobre o lábaro que ostentas estrelado, a palavra lábaro significa o quê?",
+          "resposta": "Bandeira"
+        },
+        {
+          "id": "q00793",
+          "pergunta": "Na frase que abre o Hino Nacional brasileiro, quem ouviu o brado retumbante de um povo heroico?",
+          "resposta": "As margens plácidas do Ipiranga"
+        },
+        {
+          "id": "q02350",
+          "pergunta": "Que compositor carioca do século dezenove criou a melodia do Hino Nacional Brasileiro?",
+          "resposta": "Francisco Manuel da Silva"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "No Hino Nacional, o Brasil é chamado de impávido colosso. O que significa a palavra impávido?",
+        "resposta": "Destemido"
+      },
+      "existentes": [
+        {
+          "id": "q00764",
+          "pergunta": "No Hino Nacional brasileiro, no verso sobre o lábaro que ostentas estrelado, a palavra lábaro significa o quê?",
+          "resposta": "Bandeira"
+        },
+        {
+          "id": "q00793",
+          "pergunta": "Na frase que abre o Hino Nacional brasileiro, quem ouviu o brado retumbante de um povo heroico?",
+          "resposta": "As margens plácidas do Ipiranga"
+        },
+        {
+          "id": "q02350",
+          "pergunta": "Que compositor carioca do século dezenove criou a melodia do Hino Nacional Brasileiro?",
+          "resposta": "Francisco Manuel da Silva"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Na escrita dos copistas medievais, o til nasceu como uma versão em miniatura de qual letra, escrita sobre a vogal para poupar espaço?",
+        "resposta": "N"
+      },
+      "existentes": [
+        {
+          "id": "q08509",
+          "pergunta": "Em palavras como mãe, pão e limões, que característica do som da vogal o til indica?",
+          "resposta": "Nasalização"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Além do português, qual destas línguas usa hoje o cê-cedilha na sua escrita?",
+        "resposta": "Francês"
+      },
+      "existentes": [
+        {
+          "id": "q00758",
+          "pergunta": "O nome cedilha vem do espanhol antigo e significa pequena versão de qual letra?",
+          "resposta": "Z"
+        },
+        {
+          "id": "q08511",
+          "pergunta": "Que letra do português nunca começa uma palavra e nunca aparece antes de e ou i?",
+          "resposta": "Cê-cedilha"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Antes de virar símbolo do e-mail, a arroba já era uma unidade de peso, ainda usada para gado. Ela equivale a cerca de quantos quilos?",
+        "resposta": "Quinze"
+      },
+      "existentes": [
+        {
+          "id": "q00759",
+          "pergunta": "Muito antes do e-mail, arroba já era o nome de uma unidade de medida, usada até hoje na venda de gado. O que ela mede?",
+          "resposta": "Peso"
+        },
+        {
+          "id": "q04517",
+          "pergunta": "Em português, o símbolo dos endereços de e-mail tem o mesmo nome de uma antiga unidade de peso, usada até hoje para pesar gado. Que nome é esse?",
+          "resposta": "Arroba"
+        },
+        {
+          "id": "q15713",
+          "pergunta": "O engenheiro americano Ray Tomlinson escolheu a arroba para os endereços ao enviar o primeiro e-mail entre computadores da rede Arpanet. Em que ano?",
+          "resposta": "1971"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "A palavra ônibus vem do latim omnibus, usado no século dezenove para carruagens coletivas na França. O que significa omnibus?",
+        "resposta": "Para todos"
+      },
+      "existentes": [
+        {
+          "id": "q00975",
+          "pergunta": "A palavra ônibus vem do latim omnibus. O que ela quer dizer?",
+          "resposta": "Para todos"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O arquipélago dos Açores tem o nome de uma ave que os navegadores portugueses pensaram ter visto por lá. Que tipo de ave?",
+        "resposta": "Ave de rapina"
+      },
+      "existentes": [
+        {
+          "id": "q05866",
+          "pergunta": "O arquipélago português dos Açores, no meio do Atlântico Norte, é formado por quantas ilhas principais?",
+          "resposta": "Nove"
+        },
+        {
+          "id": "q13223",
+          "pergunta": "O ponto mais alto de Portugal é uma montanha vulcânica numa das ilhas dos Açores. Que ilha é essa?",
+          "resposta": "Ilha do Pico"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "No Rio Grande do Sul, como se chama a fruta que os paulistas costumam chamar de mexerica?",
+        "resposta": "Bergamota"
+      },
+      "existentes": [
+        {
+          "id": "q14666",
+          "pergunta": "Que fruta cítrica é esta?",
+          "resposta": "Tangerina"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "As palavras algarismo e algoritmo vêm do nome do mesmo sábio medieval. Quem foi ele?",
+        "resposta": "Al-Khwarizmi"
+      },
+      "existentes": [
+        {
+          "id": "q03306",
+          "pergunta": "As palavras algarismo e algoritmo vêm, ambas, do nome de qual matemático persa do século nove?",
+          "resposta": "Al-Khwarizmi"
+        },
+        {
+          "id": "q16371",
+          "pergunta": "Os algarismos de zero a nove chegaram à Europa trazidos pelos árabes, mas surgiram originalmente em que atual país?",
+          "resposta": "Índia"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "O biquíni, lançado em 1946, ganhou o nome de um atol do Pacífico que estava nas notícias da época. Por quê?",
+        "resposta": "Testes de bombas atômicas"
+      },
+      "existentes": [
+        {
+          "id": "q00873",
+          "pergunta": "O biquíni recebeu o nome de um atol do Oceano Pacífico que tinha virado notícia em 1946. O que os Estados Unidos faziam lá?",
+          "resposta": "Testes nucleares"
+        },
+        {
+          "id": "q04077",
+          "pergunta": "Em julho de 1946, numa piscina de Paris, qual engenheiro francês apresentou o traje de banho de duas peças chamado biquíni?",
+          "resposta": "Louis Réard"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O mirandês, língua reconhecida no nordeste de Portugal, pertence ao mesmo ramo de qual língua falada na Espanha?",
+        "resposta": "Asturiano"
+      },
+      "existentes": [
+        {
+          "id": "q04786",
+          "pergunta": "Que língua, falada perto da fronteira com a Espanha, foi reconhecida oficialmente em Portugal em 1999?",
+          "resposta": "Mirandês"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "O kasutera, bolo levado ao Japão pelos portugueses no século dezesseis, tem nome derivado de qual região da Península Ibérica?",
+        "resposta": "Castela"
+      },
+      "existentes": [
+        {
+          "id": "q06132",
+          "pergunta": "O kasutera, bolo japonês parecido com o pão de ló e levado pelos portugueses no século dezesseis, tem nome derivado de qual antigo reino ibérico?",
+          "resposta": "Castela"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "O que as palavras caçula, moleque e quitanda têm em comum na sua origem?",
+        "resposta": "Vêm do quimbundo"
+      },
+      "existentes": [
+        {
+          "id": "q13105",
+          "pergunta": "Caçula, moleque e quitanda chegaram ao português do Brasil por meio de qual língua banta de Angola?",
+          "resposta": "Quimbundo"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "O bairro carioca de Copacabana herdou o nome de uma santa venerada às margens de qual lago dos Andes?",
+        "resposta": "Titicaca"
+      },
+      "existentes": [
+        {
+          "id": "q01999",
+          "pergunta": "O bairro carioca de Copacabana herdou o nome de uma santa venerada às margens de qual lago sul-americano?",
+          "resposta": "Lago Titicaca"
+        },
+        {
+          "id": "q02408",
+          "pergunta": "O bairro carioca de Copacabana herdou o nome de uma capela dedicada a uma santa padroeira de qual país vizinho?",
+          "resposta": "Bolívia"
+        },
+        {
+          "id": "q04537",
+          "pergunta": "Na ampliação da orla de Copacabana, nos anos 1970, que paisagista foi convidado a modernizar o desenho do calçadão de pedra portuguesa?",
+          "resposta": "Roberto Burle Marx"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Os imortais da Academia Brasileira de Letras ocupam cadeiras vitalícias. Quantas cadeiras a Academia tem?",
+        "resposta": "Quarenta"
+      },
+      "existentes": [
+        {
+          "id": "q04770",
+          "pergunta": "Fundada em 1897 para cultivar a língua e a literatura, a Academia Brasileira de Letras teve qual escritor como seu primeiro presidente?",
+          "resposta": "Machado de Assis"
+        },
+        {
+          "id": "q06031",
+          "pergunta": "A sede da Academia Brasileira de Letras, doada pela França, é uma réplica de um palacete do parque de Versalhes e leva o mesmo nome. Qual?",
+          "resposta": "Petit Trianon"
+        },
+        {
+          "id": "q06046",
+          "pergunta": "Seguindo o modelo da Academia Francesa, a Academia Brasileira de Letras tem quantas cadeiras de membros efetivos?",
+          "resposta": "Quarenta"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "A sede da Academia Brasileira de Letras, no Rio, é uma cópia do Petit Trianon, um pequeno palácio francês. Onde fica o original?",
+        "resposta": "Versalhes"
+      },
+      "existentes": [
+        {
+          "id": "q04770",
+          "pergunta": "Fundada em 1897 para cultivar a língua e a literatura, a Academia Brasileira de Letras teve qual escritor como seu primeiro presidente?",
+          "resposta": "Machado de Assis"
+        },
+        {
+          "id": "q06031",
+          "pergunta": "A sede da Academia Brasileira de Letras, doada pela França, é uma réplica de um palacete do parque de Versalhes e leva o mesmo nome. Qual?",
+          "resposta": "Petit Trianon"
+        },
+        {
+          "id": "q06046",
+          "pergunta": "Seguindo o modelo da Academia Francesa, a Academia Brasileira de Letras tem quantas cadeiras de membros efetivos?",
+          "resposta": "Quarenta"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "O jogo do bicho, que inspirou expressões populares como dar zebra, tem quantos animais na sua lista?",
+        "resposta": "Vinte e cinco"
+      },
+      "existentes": [
+        {
+          "id": "q01517",
+          "pergunta": "Em 1892, o Barão de Drummond criou o jogo do bicho no Rio de Janeiro. Qual era o objetivo original dele?",
+          "resposta": "Arrecadar dinheiro para seu zoológico"
+        },
+        {
+          "id": "q01533",
+          "pergunta": "Do avestruz à vaca, quantos animais formam a tabela do jogo do bicho?",
+          "resposta": "Vinte e cinco"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "A palavra jeans vem do nome que os franceses davam a uma cidade italiana de onde vinha o tecido. Que cidade é essa?",
+        "resposta": "Gênova"
+      },
+      "existentes": [
+        {
+          "id": "q00927",
+          "pergunta": "A palavra jeans vem do nome em francês de qual cidade italiana, de onde saía um tecido resistente usado por marinheiros?",
+          "resposta": "Gênova"
+        },
+        {
+          "id": "q00928",
+          "pergunta": "Em 1873, o alfaiate Jacob Davis e qual comerciante patentearam a calça de trabalho reforçada com rebites de metal?",
+          "resposta": "Levi Strauss"
+        },
+        {
+          "id": "q16411",
+          "pergunta": "Em 1853, em plena corrida do ouro, Levi Strauss abriu a empresa que popularizou o jeans. Em qual cidade americana?",
+          "resposta": "São Francisco"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Depois de mais de quatro séculos sob administração portuguesa, Macau foi devolvida à China em qual ano?",
+        "resposta": "1999"
+      },
+      "existentes": [
+        {
+          "id": "q00779",
+          "pergunta": "Em que região administrativa especial da China o português é língua oficial ao lado do chinês?",
+          "resposta": "Macau"
+        },
+        {
+          "id": "q03919",
+          "pergunta": "O que Macau e Hong Kong têm em comum no fim do século vinte?",
+          "resposta": "Foram devolvidos à China"
+        },
+        {
+          "id": "q07565",
+          "pergunta": "Depois de mais de quatro séculos de presença portuguesa, Macau passou à soberania da China em que ano?",
+          "resposta": "1999"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Em 2019, que cantor e compositor brasileiro, também autor de romances, recebeu o Prêmio Camões?",
+        "resposta": "Chico Buarque"
+      },
+      "existentes": [
+        {
+          "id": "q04771",
+          "pergunta": "O Prêmio Camões, o mais importante prêmio literário da língua portuguesa, foi criado em 1988 pelos governos de quais dois países?",
+          "resposta": "Brasil e Portugal"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Qual destas palavras da cozinha portuguesa veio do árabe?",
+        "resposta": "Azeite"
+      },
+      "existentes": [
+        {
+          "id": "q00777",
+          "pergunta": "Alface, algodão e almofada começam com al por herança do artigo definido de qual língua?",
+          "resposta": "Árabe"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "A mesóclise, que põe o pronome no meio do verbo, como em dar-te-ei, só é possível em quais tempos verbais?",
+        "resposta": "Os dois futuros"
+      },
+      "existentes": [
+        {
+          "id": "q04788",
+          "pergunta": "Como se chama a colocação do pronome no meio do verbo, como em dar-te-ei ou far-se-á?",
+          "resposta": "Mesóclise"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "No século dezesseis, navegadores portugueses chamaram de Ilha Formosa uma ilha da Ásia, nome usado no Ocidente por muito tempo. Que ilha é essa?",
+        "resposta": "Taiwan"
+      },
+      "existentes": [
+        {
+          "id": "q05849",
+          "pergunta": "No século dezesseis, encantados com sua paisagem, navegadores portugueses deram qual nome à ilha de Taiwan?",
+          "resposta": "Ilha Formosa"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Local da assinatura é fato distinto."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Número de países signatários é outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ano da oficialização da letra é fato diferente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Significado de impávido difere de lábaro."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Origem do til difere da função de nasalização."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Uso em outra língua é fato diferente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Equivalência em quilos não é perguntada nas existentes."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "id_existente": "q00975",
+      "motivo": "Mesmo significado de omnibus."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Origem do nome é fato distinto."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nome regional da fruta; existente é identificação por imagem."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "id_existente": "q03306",
+      "motivo": "Mesma pergunta e resposta."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "id_existente": "q00873",
+      "motivo": "Ambas perguntam o motivo do nome: testes nucleares no atol."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Parentesco linguístico é outro fato."
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "id_existente": "q06132",
+      "motivo": "Mesma pergunta e resposta."
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "id_existente": "q13105",
+      "motivo": "Mesmo fato: origem quimbundo."
+    },
+    {
+      "caso": 16,
+      "decisao": "repete",
+      "id_existente": "q01999",
+      "motivo": "Mesma pergunta, lago Titicaca."
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "id_existente": "q06046",
+      "motivo": "Número de cadeiras, mesma resposta."
+    },
+    {
+      "caso": 18,
+      "decisao": "repete",
+      "id_existente": "q06031",
+      "motivo": "Existente já indica réplica de palacete de Versalhes; mesmo fato."
+    },
+    {
+      "caso": 19,
+      "decisao": "repete",
+      "id_existente": "q01533",
+      "motivo": "Número de animais do jogo do bicho."
+    },
+    {
+      "caso": 20,
+      "decisao": "repete",
+      "id_existente": "q00927",
+      "motivo": "Mesma pergunta, Gênova."
+    },
+    {
+      "caso": 21,
+      "decisao": "repete",
+      "id_existente": "q07565",
+      "motivo": "Ano da devolução de Macau, mesmo fato."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Vencedor de 2019 é fato diferente da criação do prêmio."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Palavra específica de origem árabe é fato diferente."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Tempos verbais da mesóclise diferem do nome."
+    },
+    {
+      "caso": 25,
+      "decisao": "repete",
+      "id_existente": "q05849",
+      "motivo": "Mesma associação Formosa–Taiwan em direção inversa."
+    }
+  ]
+}

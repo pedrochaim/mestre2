@@ -1,0 +1,462 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Assinado em Lisboa em 16 de dezembro de 1990, como dizem as duas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que sete países lusófonos assinaram em 1990; Timor-Leste aderiu em 2004.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A letra foi oficializada em 1922; a música é de 1831. Distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Impávido quer dizer destemido; a fonte do Wiktionary ficou inacessível, mas o fato é bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O til nasceu como um n pequeno sobre a vogal, e as fontes sustentam isso. Há ressalva menor: às vezes era um m.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O francês usa o ç. Espanhol, italiano e romeno não usam o cê-cedilha.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A arroba vale 15 kg no Brasil e em Portugal, como mostram as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Terra sem males' aparece na fonte como etimologia alternativa e ficava defensável. Troquei por um distrator claramente errado.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Pindorama, nome de origem tupi muitas vezes usado para se referir ao Brasil, significa o quê?",
+        "resposta": "Terra das palmeiras",
+        "distratores": [
+          "Terra do sol",
+          "Terra dos rios",
+          "Terra das araras"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Pindorama"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A etimologia de carioca é disputada; 'casa de branco' é a tese tradicional, mas não há resposta única de 'mais aceita'.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A afirmação de que o termo foi 'pintado' nas carruagens não é sustentada pela fonte. Reformulei sem essa imprecisão.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "A palavra ônibus vem do latim omnibus, usado no século dezenove para carruagens coletivas na França. O que significa omnibus?",
+        "resposta": "Para todos",
+        "distratores": [
+          "Carro grande",
+          "Muitas rodas",
+          "Caminho comum"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Bus",
+          "https://pt.wikipedia.org/wiki/Ônibus"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tripalium é descrito como instrumento de tortura no Wiktionary.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A origem 'brasa' é só uma entre várias hipóteses (a outra vem de brésil/verzino). Os distratores também seriam defensáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Os distratores eram de outra categoria (mamíferos e répteis), o que entregava a resposta. Troquei por tipos de ave.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O arquipélago dos Açores tem o nome de uma ave que os navegadores portugueses pensaram ter visto por lá. Que tipo de ave?",
+        "resposta": "Ave de rapina",
+        "distratores": [
+          "Ave marinha",
+          "Ave canora",
+          "Ave pernalta"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Açores",
+          "https://en.wikipedia.org/wiki/Azores"
+        ]
+      }
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Shah significa rei em persa, como diz a Wikipédia.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Al-Gharb significa 'o oeste', como diz a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bergamota é o nome da tangerina no Rio Grande do Sul, como diz a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Como o enunciado já nega a origem portuguesa, a resposta saía por eliminação. Passei a perguntar o sentido original de arigatai.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "A palavra japonesa arigatô, que usamos para agradecer, vem de um adjetivo antigo. Que sentido ele tinha?",
+        "resposta": "Raro, precioso",
+        "distratores": [
+          "Devido",
+          "Humilde",
+          "Sagrado"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/List_of_Japanese_words_of_Portuguese_origin"
+        ]
+      }
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Algarismo e algoritmo vêm de Al-Khwarizmi, como mostram as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O nome vem do atol de Bikini, onde os EUA testaram bombas nucleares dias antes do lançamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O mirandês é asturo-leonês, e o asturiano é a única opção correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 'uma ave' era genérica demais. Pedi a ave específica (papagaio), e a fonte sustenta isso.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "O estádio do Maracanã herdou o nome de um rio carioca, cujo nome tupi significa qual ave?",
+        "resposta": "Papagaio",
+        "distratores": [
+          "Tucano",
+          "Garça",
+          "Beija-flor"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Rio_Maracanã",
+          "https://pt.wikipedia.org/wiki/Estádio_do_Maracanã"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Castella vem de 'bolo de Castela', como dizem as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Caçula, moleque e quitanda são de origem quimbunda. A fonte pt estava inexistente, então a troquei por outra.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "O que as palavras caçula, moleque e quitanda têm em comum na sua origem?",
+        "resposta": "Vêm do quimbundo",
+        "distratores": [
+          "Vêm do tupi",
+          "Vêm do árabe",
+          "Vêm do iorubá"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Língua_quimbundo",
+          "https://en.wikipedia.org/wiki/Kimbundu_language"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Catedral vem de cátedra (trono do bispo), e kathedra é a origem de 'chair'.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A devoção veio de Copacabana, às margens do Titicaca.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A ABL tem quarenta cadeiras.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Petit Trianon original fica em Versalhes.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O bilião europeu vale 10 elevado a 12, ou seja, doze zeros.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resma tem 500 folhas. A fonte em inglês estava inexistente e foi retirada.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Nas papelarias, o papel de escritório é vendido em resmas. Quantas folhas tem uma resma?",
+        "resposta": "Quinhentas",
+        "distratores": [
+          "Cem",
+          "Duzentas e cinquenta",
+          "Mil"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Resma"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lustro é um período de cinco anos, ligado ao censo e à purificação romanos.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Sesquicentenário significa 150 anos, fato bem estabelecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "As bodas de diamante já foram 75 anos e hoje são 60; a fonte registra as duas, então a resposta é ambígua.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O jogo do bicho tem 25 animais, e a origem de 'dar zebra' está nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gênes, nome francês de Gênova, é apontado como origem de jeans.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jean Nicot foi embaixador em Portugal.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vasco da Gama batizou a costa de Natal em 1497, na atual África do Sul.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Silhouette ficou famoso pelas medidas de austeridade econômica.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A Wikipédia diz que 'achavam que era um rio' é uma explicação duvidosa, pois na época não se distinguia rio de baía.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Deus confundiu as línguas dos construtores, segundo Gênesis 11.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O h inicial se conserva por etimologia, como diz a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Macau foi devolvida à China em 20 de dezembro de 1999.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte dá 1755 (elaboração) e 1758 (publicação), não 1757; o ano é ambíguo.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chico Buarque venceu o Prêmio Camões de 2019.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A frase é atribuída a Júlio César na travessia do Rubicão, e o enunciado diz 'teria dito'.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A frase é atribuída a Andy Warhol, e o enunciado diz 'atribuída'.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Azeite vem do árabe zayt; vinho, pão e queijo vêm do latim.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Vara de porcos é o coletivo consagrado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A mesóclise só ocorre no futuro do presente e no futuro do pretérito.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O português brasileiro mantém estar + gerúndio, ao contrário do estar a + infinitivo europeu.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Formosa é Taiwan, como diz a Wikipédia. A fonte 'Names of Taiwan' estava inexistente e foi retirada.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "multipla",
+        "pergunta": "No século dezesseis, navegadores portugueses chamaram de Ilha Formosa uma ilha da Ásia, nome usado no Ocidente por muito tempo. Que ilha é essa?",
+        "resposta": "Taiwan",
+        "distratores": [
+          "Sri Lanka",
+          "Hainan",
+          "Okinawa"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Taiwan"
+        ]
+      }
+    }
+  ]
+}
