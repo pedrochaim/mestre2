@@ -131,6 +131,10 @@
     #mesa-botoes button { background: #000c; color: #fff; border-color: #444; opacity: .45; transition: opacity .2s;
                           min-width: 44px; min-height: 44px; padding: .3rem .8rem; }
     #mesa-botoes button:hover, #mesa-botoes button:focus-visible { opacity: 1; }
+    /* Duração da partida, ao lado dos botões; para, dourada, quando o primeiro peão chega ao fim. */
+    #mesa-duracao { align-self: center; background: #000c; color: #fff; border: 1px solid #444; border-radius: 10px;
+                    padding: .3rem .8rem; font-variant-numeric: tabular-nums; opacity: .8; }
+    #mesa-duracao.parado { color: #f5c542; border-color: #f5c542; opacity: 1; }
     /* Modo mesa com pergunta: o tabuleiro de um lado e, do outro, o cartão da pergunta e a fila de jogadores
        (empilhados com a tela em pé), com letras grandes para serem lidas de longe, como numa projeção. */
     #mesa-lado { flex: 1; min-width: 0; min-height: 0; align-self: stretch; display: flex; flex-direction: column;
@@ -583,6 +587,7 @@
     <button id="mesa-fechar" title="Sair do modo mesa">×</button>
     <button id="mesa-rever" title="Mostrar de novo a rodada anterior" hidden>↩ Rodada anterior</button>
     <button id="mesa-som" title="Ligar ou desligar o som" hidden>🔊</button>
+    <span id="mesa-duracao" title="Duração da partida" hidden></span>
   </div>
 </div>
 
@@ -1102,6 +1107,39 @@
     if (abrir && !$("info-entrada").childElementCount) desenharInfo($("info-entrada"));
   };
 
+  // ---------------------------------------------------------------- duração da partida
+
+  // Conta do primeiro sorteio ("inicio", gravado na partida; nas partidas anteriores a 2026-10-28, o primeiro registro
+  // de sorteio) até o primeiro peão chegar ao fim ("fim" e "duracao", em segundos, também na partida). A tela grande
+  // mostra a contagem, que para nesse momento.
+  const msDe = t => t?.toMillis?.() ?? null;
+  function inicioDaPartida() {
+    if (msDe(partida.inicio)) return msDe(partida.inicio);
+    const ems = [...legado, ...sorteios].map(r => msDe(r.em)).filter(Boolean);
+    return ems.length ? Math.min(...ems) : null;
+  }
+  const fimDaPartida = () => ({ fim: serverTimestamp(),
+    duracao: Math.max(0, Math.round((Date.now() - (inicioDaPartida() ?? Date.now())) / 1000)) });
+  // Peão levado ao fim à mão (+ ou arrasto): grava o fim. Pelo sorteio, o fim vai junto com o encerramento da rodada.
+  function conferirChegada(casa) {
+    if (codigo && casa >= chegadaDoModo() && !partida.fim && inicioDaPartida())
+      updateDoc(doc(db, "partidas", codigo), fimDaPartida()).catch(() => {});
+  }
+  const formatarDuracao = s => {
+    const h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60), seg = String(s % 60).padStart(2, "0");
+    return h ? `${h}:${String(m).padStart(2, "0")}:${seg}` : `${m}:${seg}`;
+  };
+  function desenharDuracao() {
+    const caixa = $("mesa-duracao"), inicio = inicioDaPartida();
+    caixa.hidden = $("mesa").hidden || !codigo || !inicio;
+    if (caixa.hidden) return;
+    const parado = Number.isInteger(partida.duracao);
+    const s = parado ? partida.duracao : Math.max(0, Math.floor((Date.now() - inicio) / 1000));
+    caixa.textContent = `⏱ ${formatarDuracao(s)}${parado ? " 🏁" : ""}`;
+    caixa.classList.toggle("parado", parado);
+  }
+  setInterval(desenharDuracao, 1000);
+
   // ---------------------------------------------------------------- sorteio
 
   // Perguntas do tema com os filtros de figura e de áudio; "restantes" são as que ainda não saíram na partida.
@@ -1190,10 +1228,12 @@
     const base = jogadores.find(j => j.id === respondente) || vezM();
     const sorte = soLinear() && Boolean(base) && doisErrosSeguidos(base.id);
     const dado = sorte ? 3 : ehLinear() ? rolarDado() : null;
+    const primeiro = !partida.inicio && !sorteios.length && !legado.length;
     $("sortear").disabled = true;
     try {
       const ref = await addDoc(collection(db, "partidas", codigo, "sorteios"),
                                { pergunta: p.id, em: serverTimestamp(), ...(dado ? { dado } : {}) });
+      if (primeiro) updateDoc(doc(db, "partidas", codigo), { inicio: serverTimestamp() }).catch(() => {});
       mostrar(p, ref.id, menos, dado, sorte);  // "menos" foi lido antes de gravar: o registro novo já entrou em "vezes"
       if (base) {
         respondente = base.id;
@@ -1508,7 +1548,8 @@
     const som = !ultima.acertou ? "erro" : quem && casaDe(quem) + passos >= chegadaDoModo() ? "vitoria"
       : recuam.length ? "volta_casa" : "acerto";
     batch.update(doc(db, "partidas", codigo), { atual: atualEncerrada(tentativas), som: evento(som),
-                                                ...(base ? { vez: (proximoM(base) || base).id } : {}) });
+                                                ...(base ? { vez: (proximoM(base) || base).id } : {}),
+                                                ...(som === "vitoria" && !partida.fim ? fimDaPartida() : {}) });
     try {
       await batch.commit();
       fecharPergunta();
@@ -1808,7 +1849,10 @@
       const j = jogadores.find(x => x.id === id);
       if (ehLinear()) {  // Linear e Pokémon: a casa mais próxima da trilha (no Linear, também o Início e a Chegada)
         const casaL = (ehPokemon() ? L.casaMaisProximaPokemon : L.casaMaisProxima)(p.x, p.y);
-        if (j && casaL !== null && casaL !== casaDe(j)) updateDoc(doc(db, "partidas", codigo, "jogadores", id), { pontos: casaL });
+        if (j && casaL !== null && casaL !== casaDe(j)) {
+          updateDoc(doc(db, "partidas", codigo, "jogadores", id), { pontos: casaL });
+          conferirChegada(casaL);
+        }
         return desenharTabuleiros();
       }
       let casa = null, dist = Infinity;
@@ -1816,8 +1860,10 @@
         const d = Math.hypot(p.x - x, p.y - y);
         if (d < dist) [casa, dist] = [k, d];
       });
-      if (casa !== null && dist < 90 && casa !== casaDe(j))
+      if (casa !== null && dist < 90 && casa !== casaDe(j)) {
         updateDoc(doc(db, "partidas", codigo, "jogadores", id), { pontos: casa });
+        conferirChegada(casa);
+      }
       desenharTabuleiros();
     });
     caixa.addEventListener("pointercancel", () => { arrasto = null; desenharTabuleiros(); });
@@ -2136,6 +2182,7 @@
     $("mesa").hidden = false;
     prepararSom();
     ajustarMesa();
+    desenharDuracao();
     try { await $("mesa").requestFullscreen?.(); } catch {}
     try { mesaAcesa = await navigator.wakeLock?.request("screen"); } catch {}
   };
@@ -2218,7 +2265,7 @@
       const mais = el("button", { className: "ajuste", textContent: "+", title: "Avançar uma casa", disabled: p >= chegadaDoModo() });
       const tirar = el("button", { className: "ajuste", textContent: "×", title: "Remover jogador" });
       menos.onclick = () => updateDoc(ref, { pontos: increment(-1) });
-      mais.onclick = () => updateDoc(ref, { pontos: increment(1) });
+      mais.onclick = () => { updateDoc(ref, { pontos: increment(1) }); conferirChegada(p + 1); };
       tirar.onclick = () => confirm(`Remover ${j.nome} da partida?`) && deleteDoc(ref);
       const li = el("li");
       pintar(li, j.tema);

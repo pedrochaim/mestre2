@@ -18,7 +18,16 @@ service cloud.firestore {
       // "vez" é o id do jogador da vez. "atual" é a pergunta em jogo, para o modo mesa (sem a resposta), ou null.
       // "som" é o último evento de som ({e, n}), que a tela grande toca. "anterior" é a rodada encerrada antes da
       // atual (o mesmo formato de "atual"), que a tela grande pode mostrar de novo.
-      allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['vez', 'atual', 'som', 'anterior'])
+      // Duração da partida (2026-10-28): "inicio" é gravado uma vez, no primeiro sorteio; "fim" quando o primeiro peão
+      // chega à última casa, com "duracao" em segundos (até 7 dias).
+      allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['vez', 'atual', 'som', 'anterior', 'inicio', 'fim', 'duracao'])
+                    && (!('inicio' in request.resource.data.diff(resource.data).affectedKeys())
+                        || (!('inicio' in resource.data) && request.resource.data.inicio == request.time))
+                    && (!('fim' in request.resource.data.diff(resource.data).affectedKeys())
+                        || request.resource.data.fim == request.time)
+                    && (!('duracao' in request.resource.data.diff(resource.data).affectedKeys())
+                        || (request.resource.data.duracao is int && request.resource.data.duracao >= 0
+                            && request.resource.data.duracao <= 604800))
                     && (!('som' in request.resource.data)
                         || (request.resource.data.som is map && request.resource.data.som.size() <= 2))
                     && (!('vez' in request.resource.data)
