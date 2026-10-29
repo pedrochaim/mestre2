@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o jalapeño é mais largo e geralmente mais brando que o serrano. Mas os distratores também são defensáveis: habanero, tabasco e malagueta são mais ardidos e mais estreitos que o jalapeño. Troquei-os por pimentas mais brandas, para as quais a afirmação é falsa.",
+      "reescrita": {
+        "pergunta": "Esta pimenta é mais larga e geralmente mais branda que qual outra pimenta parecida?",
+        "resposta": "Serrano",
+        "distratores": [
+          "Poblano",
+          "Anaheim",
+          "Pimentão"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem vazamento. A resposta é única e os distratores são folhas verdes plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o radicchio é uma forma cultivada de chicória. O enunciado não vaza a resposta e os distratores são hortaliças roxas ou vermelhas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O pepperoni é uma variedade de salame (o trecho cita as variedades napolitanas que originaram o pepperoni americano), então é um distrator defensável como correto. Troquei-o por outro embutido.",
+      "reescrita": {
+        "pergunta": "Que embutido é este?",
+        "resposta": "Salame",
+        "distratores": [
+          "Mortadela",
+          "Chouriço",
+          "Salsicha"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que são sementes comestíveis de pinheiros (Pinus). O enunciado não nomeia a entidade, e os distratores são árvores de frutos secos que não são pinheiros.",
+      "reescrita": null
+    }
+  ]
+}

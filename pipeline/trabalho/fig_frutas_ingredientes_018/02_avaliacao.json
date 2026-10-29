@@ -1,0 +1,160 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem mostra frutos do mar empanados e fritos com mandioca e salada, não torresmo; não corresponde à entidade."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Duas pimentas verdes, brilhantes e largas, reconhecíveis como jalapeño, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta pimenta é mais larga e geralmente mais branda que qual outra pimenta parecida?",
+      "resposta": "Serrano",
+      "distratores": [
+        "Habanero",
+        "Tabasco",
+        "Malagueta"
+      ],
+      "ancora": {
+        "nome": "Jalapeño",
+        "descricao": "Pimenta de porte médio da espécie Capsicum annuum, geralmente consumida ainda verde, típica da culinária mexicana.",
+        "variantes": [
+          "Pimenta-jalapenho",
+          "Jalapeno"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Mostra apenas a árvore inteira num parque, sem frutos nem detalhe; não é reconhecível como jatobá."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Pó dourado num pratinho que pode ser farinha, farofa pronta ou outro tempero; resposta não única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Folhas e talos de agrião em close, sem texto; reconhecível pelas folhas arredondadas e brilhantes.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que folha é esta?",
+      "resposta": "Agrião",
+      "distratores": [
+        "Rúcula",
+        "Espinafre",
+        "Almeirão"
+      ],
+      "ancora": {
+        "nome": "Agrião",
+        "descricao": "Planta aquática da família das brassicáceas (Nasturtium officinale), consumida como folha de sabor picante.",
+        "variantes": [
+          "Agrião-d'água",
+          "Watercress"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Pés de radicchio na horta, com o miolo roxo de nervuras brancas, claramente reconhecíveis.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta hortaliça é uma forma cultivada de que planta?",
+      "resposta": "Chicória",
+      "distratores": [
+        "Repolho roxo",
+        "Alface",
+        "Beterraba"
+      ],
+      "ancora": {
+        "nome": "Radicchio",
+        "descricao": "Forma cultivada de chicória de folhas vermelhas com nervuras brancas, usada na culinária italiana.",
+        "variantes": [
+          "Radite",
+          "Chicória-vermelha"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Salame inteiro e fatiado sobre fundo branco, sem texto, bem reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que embutido é este?",
+      "resposta": "Salame",
+      "distratores": [
+        "Mortadela",
+        "Pepperoni",
+        "Chouriço"
+      ],
+      "ancora": {
+        "nome": "Salame",
+        "descricao": "Embutido de carne, tipicamente suína, fermentado e curado ao ar.",
+        "variantes": [
+          "Salami"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Fatia de queijo amarelado num prato, com palito; pode ser confundida com muçarela, queijo minas ou outros; resposta não única."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Fruto verde-amarelado grande que pode ser confundido com limão ou limão-siciliano; a cidra não é reconhecível com segurança."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Cristais translúcidos sobre fundo preto, que podem ser açúcar cristal, gelo ou outro mineral; resposta não única."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Mostra só a árvore inteira, sem nozes nem folhas em detalhe; não é reconhecível como pecã."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pinoles claros e alongados num prato branco, sem texto, reconhecíveis.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Estas sementes comestíveis vêm de que tipo de árvore?",
+      "resposta": "Pinheiro",
+      "distratores": [
+        "Castanheira",
+        "Amendoeira",
+        "Cajueiro"
+      ],
+      "ancora": {
+        "nome": "Pinoli",
+        "descricao": "Sementes comestíveis de pinheiros do gênero Pinus, usadas na culinária, como no pesto.",
+        "variantes": [
+          "Pinole",
+          "Pinhão-manso-europeu",
+          "Pine nut",
+          "Pignoli"
+        ]
+      }
+    }
+  ]
+}

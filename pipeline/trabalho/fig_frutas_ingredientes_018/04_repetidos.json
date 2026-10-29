@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que embutido é este?",
+        "resposta": "Salame"
+      },
+      "existentes": [
+        {
+          "id": "q16217",
+          "pergunta": "Que embutido curado é este?",
+          "resposta": "Salame"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q16217",
+      "motivo": "Ambas pedem identificar o mesmo embutido (salame) a partir da imagem; mesmo fato e mesma resposta."
+    }
+  ]
+}
