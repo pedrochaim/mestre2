@@ -1126,7 +1126,8 @@
     $("temas").replaceChildren(...["*", ...temas.filter(temPerguntas)].map(t => {
       const b = document.createElement("button");
       const novas = restantes(t).length;
-      b.textContent = `${t === "*" ? (ehPokemon() ? "Pokémon" : "Qualquer tema") : t} ${novas || !doFiltro(t).length ? `(${novas})` : "(só repetidas)"}`;
+      // Pokémon: "(só repetidas)" quando as novas acabam. No jogo original, que não repete, o número chega a 0.
+      b.textContent = `${t === "*" ? (ehPokemon() ? "Pokémon" : "Qualquer tema") : t} ${novas || !doFiltro(t).length || !ehPokemon() ? `(${novas})` : "(só repetidas)"}`;
       b.classList.toggle("qualquer", t === "*");
       b.setAttribute("aria-pressed", t === temaEscolhido);
       pintar(b, t);
@@ -1144,22 +1145,35 @@
     return a;
   }
 
-  // Sorteio em níveis do jogo original (2026-10-27), cada um com chance igual: com "Qualquer tema", primeiro o tema;
-  // depois o subtema; por fim, a pergunta dentro dele. Assim um subtema com muitas perguntas não sai mais que os
-  // outros. O modo Pokémon, temático, tem as suas regras: sorteia com chance igual entre as perguntas da casa.
-  function sortearEmNiveis(lista, tema) {
-    const niveis = ehPokemon() ? [] : [...(tema === "*" ? [p => p.tema] : []), p => p.subtema];
-    for (const chave of niveis) {
-      const grupos = [...new Set(lista.map(chave))];
-      const g = grupos[Math.floor(Math.random() * grupos.length)];
-      lista = lista.filter(p => chave(p) === g);
+  const umDe = lista => lista[Math.floor(Math.random() * lista.length)];
+  // Sorteios de cada subtema na partida ("tema › subtema" → quantos), pelas perguntas que já saíram.
+  function usoDosSubtemas() {
+    const porId = new Map(banco.map(p => [p.id, p])), uso = new Map();
+    for (const [id, n] of vezes) {
+      const p = porId.get(id);
+      if (p) uso.set(`${p.tema} › ${p.subtema}`, (uso.get(`${p.tema} › ${p.subtema}`) || 0) + n);
     }
-    return lista[Math.floor(Math.random() * lista.length)];
+    return uso;
+  }
+  // Sorteio do jogo original (Master e Linear), em níveis: com "Qualquer tema", primeiro o tema, com chance igual
+  // (2026-10-27); depois o subtema; por fim, a pergunta dentro dele, com chance igual. O subtema sai entre os do tema
+  // que menos saíram na partida (2026-10-28): nenhum se repete antes de todos saírem, e então começa outra volta.
+  // Só concorrem subtemas com perguntas que ainda não saíram e passam no filtro de figura; os outros ficam de fora.
+  function sortearEmNiveis(lista, tema) {
+    if (tema === "*") {
+      const t = umDe([...new Set(lista.map(p => p.tema))]);
+      lista = lista.filter(p => p.tema === t);
+    }
+    const uso = usoDosSubtemas(), usoDe = s => uso.get(`${lista[0].tema} › ${s}`) || 0;
+    const subtemas = [...new Set(lista.map(p => p.subtema))];
+    const menor = Math.min(...subtemas.map(usoDe));
+    const s = umDe(subtemas.filter(x => usoDe(x) === menor));
+    return umDe(lista.filter(p => p.subtema === s));
   }
 
-  // Sorteia primeiro entre as perguntas que ainda não saíram na partida: um subtema cujas perguntas já saíram todas
-  // fica de fora, e o sorteio cai noutro (é o "sortear de novo"). Quando acabam as novas do tema, sorteia entre as
-  // que saíram menos vezes, e a pergunta aparece marcada como repetida.
+  // Jogo original (2026-10-28): uma pergunta nunca se repete na partida, em nenhum aparelho; quando as do tema (com o
+  // filtro) acabam, o sorteio avisa e não sorteia. O modo Pokémon, temático, tem as suas regras: sorteia com chance
+  // igual entre as perguntas da casa que saíram menos vezes, e repete, marcada, quando as novas acabam.
   $("sortear").onclick = async () => {
     $("msg-sorteio").textContent = "";
     if (temaEscolhido !== "*" && !temPerguntas(temaEscolhido))
@@ -1168,7 +1182,10 @@
     if (!todas.length) return ($("msg-sorteio").textContent = "Não há perguntas com este filtro.");
     const menos = Math.min(...todas.map(p => vezes.get(p.id) || 0));
     const candidatas = todas.filter(p => (vezes.get(p.id) || 0) === menos);
-    const p = sortearEmNiveis(candidatas, temaEscolhido);
+    if (!ehPokemon() && menos > 0)
+      return ($("msg-sorteio").textContent = `As perguntas ${temaEscolhido === "*" ? "" : `de ${temaEscolhido} `}`
+        + `${$("figura").value === "todas" ? "" : "com este filtro "}já saíram todas nesta partida. Escolha outro tema ou mude o filtro.`);
+    const p = ehPokemon() ? umDe(candidatas) : sortearEmNiveis(candidatas, temaEscolhido);
     // Quem responde fica sendo o da vez (escolhido à mão ou não), e quem lê é o seguinte na fila.
     const base = jogadores.find(j => j.id === respondente) || vezM();
     const sorte = soLinear() && Boolean(base) && doisErrosSeguidos(base.id);
