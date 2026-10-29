@@ -1,0 +1,140 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano (homem de camisa amarela e outros na escadaria); foto pouco limpa."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O nome THEATRO DA PAZ está legível no frontão e entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A foto mostra só uma igreja numa praça; não permite reconhecer a cidade de Pirenópolis de forma única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada nítida, sem texto, igreja reconhecível; boa para múltipla com igrejas coloniais do Rio.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que igreja é esta?",
+      "resposta": "Igreja da Candelária",
+      "distratores": [
+        "Igreja da Glória",
+        "Mosteiro de São Bento",
+        "Igreja do Carmo"
+      ],
+      "ancora": {
+        "nome": "Igreja da Candelária",
+        "descricao": "Igreja católica barroca e neoclássica do centro do Rio de Janeiro, construída a partir de 1775.",
+        "variantes": [
+          "Igreja de Nossa Senhora da Candelária",
+          "Candelária Church"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Prédio de tijolos aparentes com chafariz, sem texto, reconhecível para quem conhece; múltipla com museus paulistanos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que museu paulistano é este?",
+      "resposta": "Pinacoteca do Estado de São Paulo",
+      "distratores": [
+        "Museu Paulista",
+        "Museu de Arte de São Paulo",
+        "Museu da Língua Portuguesa"
+      ],
+      "ancora": {
+        "nome": "Pinacoteca do Estado de São Paulo",
+        "descricao": "Museu de artes visuais de arte brasileira, no edifício de tijolos aparentes do bairro da Luz, em São Paulo.",
+        "variantes": [
+          "Pinacoteca de São Paulo",
+          "Pinacoteca Luz"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Casarão colonial da Praça XV sem texto que entregue o nome (as faixas falam de uma exposição); reconhecível por quem conhece o centro do Rio.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que edifício histórico é este?",
+      "resposta": "Paço Imperial",
+      "distratores": [
+        "Casa França-Brasil",
+        "Palácio Tiradentes",
+        "Museu Histórico Nacional"
+      ],
+      "ancora": {
+        "nome": "Paço Imperial",
+        "descricao": "Edifício colonial do século dezoito na Praça XV, no Rio de Janeiro, sede do governo colonial e residência real.",
+        "variantes": [
+          "Paço Real",
+          "Palácio dos Vice-Reis",
+          "Paço de São Cristóvão"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O nome COPACABANA PALACE está escrito na fachada e entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Montagem com várias cenas e placa com o nome da cidade visível."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Vista genérica de baía com casas; a ilha não é reconhecível de forma única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista clássica com a Pedra da Gávea ao fundo e sem texto; reconhecível, resposta única.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que favela carioca é esta?",
+      "resposta": "Rocinha",
+      "distratores": [
+        "Vidigal",
+        "Cidade de Deus",
+        "Complexo do Alemão"
+      ],
+      "ancora": {
+        "nome": "Rocinha",
+        "descricao": "Favela da Zona Sul do Rio de Janeiro entre São Conrado e Gávea, a mais populosa da cidade.",
+        "variantes": [
+          "Favela da Rocinha"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Trecho de rio largo na floresta, sem elementos que o distingam de outros rios amazônicos; resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Enseada genérica; não há elemento que permita reconhecer Búzios de forma única."
+    }
+  ]
+}

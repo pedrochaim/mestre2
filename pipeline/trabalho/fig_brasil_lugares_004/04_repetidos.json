@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que igreja é esta?",
+        "resposta": "Igreja da Candelária"
+      },
+      "existentes": [
+        {
+          "id": "q16086",
+          "pergunta": "Esta igreja carioca tem fachada barroca portuguesa. Em que século começou a construção do atual edifício?",
+          "resposta": "Século dezoito"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação da igreja (Candelária); a existente pergunta o século da construção. São fatos diferentes."
+    }
+  ]
+}

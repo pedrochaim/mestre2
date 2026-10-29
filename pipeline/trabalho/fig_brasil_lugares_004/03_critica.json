@@ -1,0 +1,40 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto, sem vazamento. Distratores são igrejas e mosteiros do Rio, com até 4 palavras e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Museu de Arte de São Paulo' tem 5 palavras, acima do limite de 4. Troquei por 'Museu de Arte Moderna', também paulistano e crível. O resto está correto.",
+      "reescrita": {
+        "pergunta": "Que museu paulistano é este?",
+        "resposta": "Pinacoteca do Estado de São Paulo",
+        "distratores": [
+          "Museu Paulista",
+          "Museu de Arte Moderna",
+          "Museu da Língua Portuguesa"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Os distratores são edifícios históricos do centro do Rio, curtos e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento, e a resposta é única diante de `mostra`. Os distratores são favelas cariocas críveis e curtas.",
+      "reescrita": null
+    }
+  ]
+}
