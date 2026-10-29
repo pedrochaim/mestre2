@@ -1,0 +1,202 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Uma pessoa aparece em primeiro plano, no centro da imagem. Ela não é figura pública."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A mão segurando a pedra domina a foto. A amostra é pequena, rolada e molhada, e não permite reconhecer o jaspe com segurança."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Lâminas azuis de cianita sobre matriz clara, bem nítidas e características.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "pergunta": "Que mineral é este?",
+      "resposta": "Cianita",
+      "distratores": [
+        "Sodalita",
+        "Azurita",
+        "Lazulita"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cianita",
+        "descricao": "Mineral silicato de alumínio tipicamente azul, em cristais alongados, indicador de metamorfismo de alta pressão.",
+        "variantes": [
+          "Distênio",
+          "Kyanite",
+          "Cianite"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Colunas de calcita crescendo a partir do piso da caverna, claramente estalagmites.",
+      "nivel": 2,
+      "familia": "que_tipo",
+      "tipo": "multipla",
+      "pergunta": "Que tipo de formação de caverna é esta?",
+      "resposta": "Estalagmite",
+      "distratores": [
+        "Estalactite",
+        "Helictite",
+        "Pérola de caverna"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estalagmite",
+        "descricao": "Formação rochosa que cresce do chão de uma caverna pelo acúmulo de material gotejado do teto.",
+        "variantes": [
+          "Stalagmite"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pilares de arenito cobertos de vegetação e neblina, típicos de Zhangjiajie, sem texto na imagem.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "pergunta": "Que parque nacional chinês é este?",
+      "resposta": "Parque Florestal de Zhangjiajie",
+      "distratores": [
+        "Huangshan",
+        "Guilin",
+        "Jiuzhaigou"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Parque Florestal de Zhangjiajie",
+        "descricao": "Parque florestal nacional da província de Hunan, na China, famoso por seus pilares de arenito, parte da área cênica de Wulingyuan.",
+        "variantes": [
+          "Zhangjiajie",
+          "Parque Nacional de Zhangjiajie",
+          "Zhangjiajie National Forest Park"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "É uma pedra cinzenta sobre cinzas, sem forma ou textura que a distinga de qualquer outra rocha. Não se reconhece como bomba vulcânica."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A etiqueta visível traz o nome da espécie e o termo ammonit, o que entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cristais prismáticos de quartzo translúcido marrom-acinzentado, com bom contraste sobre fundo preto.",
+      "nivel": 2,
+      "familia": "que_tipo",
+      "tipo": "multipla",
+      "pergunta": "Que variedade de quartzo é esta?",
+      "resposta": "Quartzo fumê",
+      "distratores": [
+        "Citrino",
+        "Ametista",
+        "Quartzo rosa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Quartzo fumê",
+        "descricao": "Variedade translúcida de quartzo, de cor marrom a preta, usada como gema e peça de coleção.",
+        "variantes": [
+          "Quartzo fumado",
+          "Smoky quartz"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A pedra azul com veios brancos pode ser confundida com lazurita ou lápis-lazúli, e a resposta não é única só pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Duna de areia com ondulações e céu azul, imagem clara e legível, sem texto.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "pergunta": "Que forma de relevo é esta?",
+      "resposta": "Duna",
+      "distratores": [
+        "Yardang",
+        "Hoodoo",
+        "Cuesta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Duna",
+        "descricao": "Forma de relevo composta de areia movida pelo vento ou pela água, em monte, crista ou colina.",
+        "variantes": [
+          "Duna de areia",
+          "Dune"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cratera em chamas inconfundível, sem texto. A pessoa à esquerda é pequena e secundária.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "pergunta": "Que cratera é esta?",
+      "resposta": "Cratera de Darvaza (Porta do Inferno)",
+      "distratores": [
+        "Erta Ale",
+        "Cratera de Udachnaya",
+        "Cratera Meteor"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cratera de Darvaza",
+        "descricao": "Campo de gás natural em chamas desde 1971, que colapsou numa cratera no deserto de Karakum, no Turcomenistão.",
+        "variantes": [
+          "Porta do Inferno",
+          "Portões do Inferno",
+          "Darvaza gas crater",
+          "Door to Hell"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pedra isolada com uma longa trilha no leito seco e rachado do lago, típica de Racetrack Playa.",
+      "nivel": 3,
+      "familia": "que_tipo",
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno geológico a trilha atrás desta pedra revela?",
+      "resposta": "Pedras deslizantes",
+      "distratores": [
+        "Pavimento desértico",
+        "Pedra errática",
+        "Hoodoo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pedras deslizantes",
+        "descricao": "Fenômeno em que rochas se movem e deixam trilhas em leitos secos de lagos, como em Racetrack Playa, no Vale da Morte.",
+        "variantes": [
+          "Rochas deslizantes",
+          "Pedras andantes",
+          "Sailing stones",
+          "Rochas de Racetrack Playa"
+        ]
+      }
+    }
+  ]
+}

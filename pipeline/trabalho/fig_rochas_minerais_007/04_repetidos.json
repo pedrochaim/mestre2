@@ -1,0 +1,114 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que mineral é este?",
+        "resposta": "Cianita"
+      },
+      "existentes": [
+        {
+          "id": "q11760",
+          "pergunta": "Que mineral é este?",
+          "resposta": "Cianita"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que parque nacional chinês é este?",
+        "resposta": "Parque Florestal de Zhangjiajie"
+      },
+      "existentes": [
+        {
+          "id": "q02092",
+          "pergunta": "Os pilares de pedra do parque de Zhangjiajie, na China, inspiraram as montanhas flutuantes de qual filme de James Cameron?",
+          "resposta": "Avatar"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que forma de relevo é esta?",
+        "resposta": "Duna"
+      },
+      "existentes": [
+        {
+          "id": "q14149",
+          "pergunta": "Que forma de relevo é esta?",
+          "resposta": "Duna"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que cratera é esta?",
+        "resposta": "Cratera de Darvaza (Porta do Inferno)"
+      },
+      "existentes": [
+        {
+          "id": "q09213",
+          "pergunta": "A cratera de Darvaza, no deserto do Turcomenistão, ganhou o apelido de Porta do Inferno por causa das chamas que saem dela. O que queima ali?",
+          "resposta": "Gás natural"
+        },
+        {
+          "id": "q16583",
+          "pergunta": "Esta cratera em chamas, que arde desde 1971, fica no meio de qual deserto?",
+          "resposta": "Karakum"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Esta pedra se move e deixa um rastro no chão de um lago seco. Em que parque nacional americano ela fica?",
+        "resposta": "Vale da Morte"
+      },
+      "existentes": [
+        {
+          "id": "q02086",
+          "pergunta": "No Vale da Morte, na Califórnia, pedras deixam rastros ao deslizar sozinhas. O vento as move por meio de finas placas de quê?",
+          "resposta": "Gelo"
+        },
+        {
+          "id": "q14235",
+          "pergunta": "Em que parque nacional dos Estados Unidos fica o lugar mais famoso deste fenômeno?",
+          "resposta": "Parque Nacional do Vale da Morte"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e resposta (cianita).",
+      "id_existente": "q11760"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nova pede identificar o parque; a existente pergunta o filme inspirado. Fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e resposta (duna).",
+      "id_existente": "q14149"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nova pede identificar a cratera pela imagem; existentes perguntam o que queima e o deserto onde fica."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam em que parque nacional fica o fenômeno das pedras deslizantes: Vale da Morte.",
+      "id_existente": "q14235"
+    }
+  ]
+}

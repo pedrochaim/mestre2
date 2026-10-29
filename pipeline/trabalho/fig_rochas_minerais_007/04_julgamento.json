@@ -1,0 +1,461 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cianita",
+        "descricao": "Mineral silicato de alumínio tipicamente azul, em cristais alongados, indicador de metamorfismo de alta pressão.",
+        "variantes": [
+          "Distênio",
+          "Kyanite",
+          "Cianite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cianita",
+          "nome": "Cianita",
+          "descricao": "Mineral silicato de alumínio, tipicamente azul, em cristais laminares, presente em rochas metamórficas.",
+          "variantes": [
+            "Cianite",
+            "Distênio"
+          ]
+        },
+        {
+          "id": "cinto",
+          "nome": "Cinto",
+          "descricao": "Faixa flexível de couro ou tecido, com fivela, usada na cintura para prender a roupa ou como adorno.",
+          "variantes": [
+            "Cinta",
+            "Cinturão"
+          ]
+        },
+        {
+          "id": "einstenio",
+          "nome": "Einstênio",
+          "descricao": "Elemento químico sintético de número atômico 99, batizado em homenagem a Albert Einstein.",
+          "variantes": [
+            "Einsteinium",
+            "Einstênio (elemento químico)"
+          ]
+        },
+        {
+          "id": "cigana",
+          "nome": "Cigana",
+          "descricao": "Ave da Amazônia e do Orinoco (Opisthocomus hoazin), de crista eriçada e olho vermelho, que fermenta folhas no sistema digestivo.",
+          "variantes": [
+            "Jacu-cigano",
+            "Hoatzin",
+            "Opisthocomus hoazin",
+            "Hoazin"
+          ]
+        },
+        {
+          "id": "anitta",
+          "nome": "Anitta",
+          "descricao": "Larissa de Macedo Machado, cantora carioca de funk e pop.",
+          "variantes": [
+            "Larissa de Macedo Machado"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Estalagmite",
+        "descricao": "Formação rochosa que cresce do chão de uma caverna pelo acúmulo de material gotejado do teto.",
+        "variantes": [
+          "Stalagmite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estalactite",
+          "nome": "Estalactite",
+          "descricao": "Formação mineral que pende do teto de cavernas, depositada pela água que goteja.",
+          "variantes": [
+            "Stalactite"
+          ]
+        },
+        {
+          "id": "salame",
+          "nome": "Salame",
+          "descricao": "Embutido de carne, em geral suína, fermentado e curado ao ar, aqui inteiro e fatiado.",
+          "variantes": [
+            "Salami"
+          ]
+        },
+        {
+          "id": "petalita",
+          "nome": "Petalita",
+          "descricao": "Mineral de silicato de lítio e alumínio, descrito por José Bonifácio na ilha sueca de Utö por volta de 1800.",
+          "variantes": [
+            "Petalite",
+            "Castorita"
+          ]
+        },
+        {
+          "id": "afogamento_xadrez",
+          "nome": "Afogamento (xadrez)",
+          "descricao": "Situação do xadrez em que o jogador da vez não está em xeque mas não tem nenhum lance legal.",
+          "variantes": [
+            "Stalemate",
+            "Rei afogado"
+          ]
+        },
+        {
+          "id": "starmie",
+          "nome": "Starmie",
+          "descricao": "Pokémon de água e psíquico, número 121 da Pokédex Nacional, evolução de Staryu.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Parque Florestal de Zhangjiajie",
+        "descricao": "Parque florestal nacional da província de Hunan, na China, famoso por seus pilares de arenito, parte da área cênica de Wulingyuan.",
+        "variantes": [
+          "Zhangjiajie",
+          "Parque Nacional de Zhangjiajie",
+          "Zhangjiajie National Forest Park"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "parque_florestal_nacional_de_zhangjiajie",
+          "nome": "Parque Florestal Nacional de Zhangjiajie",
+          "descricao": "Parque na província de Hunan, na China, com milhares de pilares de arenito cobertos de vegetação.",
+          "variantes": [
+            "Zhangjiajie",
+            "Zhangjiajie National Forest Park",
+            "Wulingyuan"
+          ]
+        },
+        {
+          "id": "parque_nacional_do_itatiaia",
+          "nome": "Parque Nacional do Itatiaia",
+          "descricao": "Parque nacional criado em 1937 entre os estados do Rio de Janeiro e de Minas Gerais.",
+          "variantes": [
+            "Itatiaia"
+          ]
+        },
+        {
+          "id": "parque_indigena_do_xingu",
+          "nome": "Parque Indígena do Xingu",
+          "descricao": "Terra indígena no norte de Mato Grosso, criada em 1961 como Parque Nacional do Xingu.",
+          "variantes": [
+            "Parque Nacional do Xingu",
+            "Território Indígena do Xingu",
+            "Parque do Xingu"
+          ]
+        },
+        {
+          "id": "parque_nacional_de_yosemite",
+          "nome": "Parque Nacional de Yosemite",
+          "descricao": "Parque nacional na Serra Nevada da Califórnia, famoso por paredões de granito e cachoeiras.",
+          "variantes": [
+            "Yosemite",
+            "Yosemite National Park"
+          ]
+        },
+        {
+          "id": "white_sands",
+          "nome": "White Sands",
+          "descricao": "Parque nacional no Novo México, Estados Unidos, com um enorme campo de dunas brancas.",
+          "variantes": [
+            "White Sands National Park",
+            "Parque Nacional de White Sands"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Quartzo fumê",
+        "descricao": "Variedade translúcida de quartzo, de cor marrom a preta, usada como gema e peça de coleção.",
+        "variantes": [
+          "Quartzo fumado",
+          "Smoky quartz"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quartzo",
+          "nome": "Quartzo",
+          "descricao": "Mineral de dióxido de silício (SiO2), o segundo mais comum da litosfera terrestre.",
+          "variantes": [
+            "Cristal de rocha",
+            "Quartz"
+          ]
+        },
+        {
+          "id": "quartzo_rosa",
+          "nome": "Quartzo rosa",
+          "descricao": "Variedade rosa, translúcida e maciça de quartzo, usada em lapidação.",
+          "variantes": [
+            "Rose quartz"
+          ]
+        },
+        {
+          "id": "rub_al_khali",
+          "nome": "Rub al-Khali",
+          "descricao": "Imenso deserto de areia do sul da Península Arábica",
+          "variantes": [
+            "Empty Quarter",
+            "Quarteirão Vazio",
+            "Quarto Vazio"
+          ]
+        },
+        {
+          "id": "cristal_de_rocha",
+          "nome": "Cristal de rocha",
+          "descricao": "Quartzo incolor e transparente, conhecido desde a Antiguidade.",
+          "variantes": [
+            "Quartzo hialino",
+            "Rock crystal"
+          ]
+        },
+        {
+          "id": "o_quarto_em_arles",
+          "nome": "O Quarto em Arles",
+          "descricao": "Pintura de Vincent van Gogh, de 1888, do seu quarto na Casa Amarela, com cama amarela, cadeiras e janela verde.",
+          "variantes": [
+            "Bedroom in Arles",
+            "La Chambre à Arles",
+            "O Quarto de Van Gogh em Arles",
+            "Quarto em Arles"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Duna",
+        "descricao": "Forma de relevo composta de areia movida pelo vento ou pela água, em monte, crista ou colina.",
+        "variantes": [
+          "Duna de areia",
+          "Dune"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "duna",
+          "nome": "Duna",
+          "descricao": "Elevação de areia acumulada e moldada pelo vento ou pela água, comum em desertos.",
+          "variantes": [
+            "Dunas",
+            "Duna de areia"
+          ]
+        },
+        {
+          "id": "dunga",
+          "nome": "Dunga",
+          "descricao": "Ex-volante e técnico brasileiro, capitão da seleção campeã do mundo em 1994.",
+          "variantes": [
+            "Carlos Caetano Bledorn Verri"
+          ]
+        },
+        {
+          "id": "idun",
+          "nome": "Idun",
+          "descricao": "Deusa nórdica que guarda os frutos que mantêm os deuses jovens.",
+          "variantes": [
+            "Iðunn",
+            "Idunn",
+            "Iduna"
+          ]
+        },
+        {
+          "id": "dna",
+          "nome": "DNA",
+          "descricao": "Molécula que carrega as informações genéticas dos seres vivos.",
+          "variantes": [
+            "ADN",
+            "Ácido desoxirribonucleico"
+          ]
+        },
+        {
+          "id": "gato_de_areia",
+          "nome": "Gato-de-areia",
+          "descricao": "Pequeno felino selvagem (Felis margarita) dos desertos arenosos e pedregosos da África e da Ásia.",
+          "variantes": [
+            "Gato-do-deserto",
+            "Felis margarita",
+            "Sand cat"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cratera de Darvaza",
+        "descricao": "Campo de gás natural em chamas desde 1971, que colapsou numa cratera no deserto de Karakum, no Turcomenistão.",
+        "variantes": [
+          "Porta do Inferno",
+          "Portões do Inferno",
+          "Darvaza gas crater",
+          "Door to Hell"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cratera_de_darvaza",
+          "nome": "Cratera de Darvaza",
+          "descricao": "Cratera de gás em chamas no deserto de Caracum, no Turcomenistão, apelidada de Porta do Inferno.",
+          "variantes": [
+            "Porta do Inferno",
+            "Darvaza gas crater",
+            "Darweze"
+          ]
+        },
+        {
+          "id": "a_porta_do_inferno",
+          "nome": "A Porta do Inferno",
+          "descricao": "Grupo escultórico monumental em bronze de Auguste Rodin, inspirado no Inferno de Dante.",
+          "variantes": [
+            "La Porte de l'Enfer",
+            "The Gates of Hell"
+          ]
+        },
+        {
+          "id": "gregorio_de_matos",
+          "nome": "Gregório de Matos",
+          "descricao": "Poeta barroco baiano do século dezessete, famoso por sua poesia satírica.",
+          "variantes": [
+            "Gregório de Matos e Guerra",
+            "Boca do Inferno"
+          ]
+        },
+        {
+          "id": "centro_de_lancamento_da_barreira_do_inferno",
+          "nome": "Centro de Lançamento da Barreira do Inferno",
+          "descricao": "Base brasileira de lançamento de foguetes inaugurada em 1965 em Parnamirim, perto de Natal.",
+          "variantes": [
+            "Barreira do Inferno",
+            "CLBI"
+          ]
+        },
+        {
+          "id": "porta_do_sol_de_tiwanaku",
+          "nome": "Porta do Sol de Tiwanaku",
+          "descricao": "Portal monolítico esculpido pela cultura Tiwanaku, perto do Lago Titicaca, na Bolívia.",
+          "variantes": [
+            "Porta do Sol",
+            "Puerta del Sol",
+            "Gateway of the Sun"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Pedras deslizantes",
+        "descricao": "Fenômeno em que rochas se movem e deixam trilhas em leitos secos de lagos, como em Racetrack Playa, no Vale da Morte.",
+        "variantes": [
+          "Rochas deslizantes",
+          "Pedras andantes",
+          "Sailing stones",
+          "Rochas de Racetrack Playa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pedras_deslizantes_do_vale_da_morte",
+          "nome": "Pedras deslizantes do Vale da Morte",
+          "descricao": "Rochas que se deslocam sozinhas e deixam rastros no leito seco de Racetrack Playa, no Vale da Morte, na Califórnia.",
+          "variantes": [
+            "Sailing stones",
+            "Pedras velejadoras",
+            "Pedras de Racetrack Playa",
+            "Pedras deslizantes",
+            "Pedras andantes"
+          ]
+        },
+        {
+          "id": "pedras_de_jelling",
+          "nome": "Pedras de Jelling",
+          "descricao": "Duas grandes pedras rúnicas do século dez em Jelling, na Dinamarca, erguidas pelo rei Gorm e por seu filho Harald Dente Azul.",
+          "variantes": [
+            "Jelling stones",
+            "Pedras rúnicas de Jelling"
+          ]
+        },
+        {
+          "id": "the_rolling_stones",
+          "nome": "The Rolling Stones",
+          "descricao": "Banda de rock britânica formada em Londres em 1962, de Mick Jagger e Keith Richards",
+          "variantes": [
+            "Rolling Stones",
+            "Os Rolling Stones"
+          ]
+        },
+        {
+          "id": "pedra_do_inga",
+          "nome": "Pedra do Ingá",
+          "descricao": "Rocha na Paraíba coberta de gravuras pré-históricas, também chamada Itacoatiara do Ingá.",
+          "variantes": [
+            "Itacoatiara do Ingá",
+            "Ingá Stone"
+          ]
+        },
+        {
+          "id": "os_flintstones",
+          "nome": "Os Flintstones",
+          "descricao": "Desenho animado americano de 1960 sobre uma família da Idade da Pedra.",
+          "variantes": [
+            "The Flintstones"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "cianita",
+      "motivo": "Mesmo mineral silicato de alumínio azul (cianita/distênio)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Estalagmite cresce do chão; estalactite pende do teto, entidades distintas."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "parque_florestal_nacional_de_zhangjiajie",
+      "motivo": "Mesmo parque em Hunan com pilares de arenito."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Quartzo fumê é variedade distinta de quartzo, quartzo rosa e cristal de rocha."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "duna",
+      "motivo": "Mesmo conceito geomorfológico de duna de areia."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "cratera_de_darvaza",
+      "motivo": "Mesma cratera de gás em chamas no Turcomenistão."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "pedras_deslizantes_do_vale_da_morte",
+      "motivo": "Mesmo fenômeno em Racetrack Playa, Vale da Morte."
+    }
+  ]
+}

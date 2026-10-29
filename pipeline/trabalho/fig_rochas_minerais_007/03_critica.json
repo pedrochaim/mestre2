@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro, resposta única; distratores são minerais azuis críveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza; distratores são outras formações de caverna e nenhum descreve uma estalagmite.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Parque nacional chinês de pilares de arenito, em Hunan, confirmado nos trechos. O enunciado não vaza e os distratores são lugares chineses críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quartzo fumê é uma variedade marrom a preta. Os distratores são outras variedades de quartzo de cor diferente.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto; distratores são formas de relevo eólicas ou erosivas distintas de duna.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cratera em chamas, conhecida como Porta do Inferno, confirmada nos trechos. O enunciado não vaza e os distratores são crateras ou vulcões distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado entrega a resposta: 'trilha atrás desta pedra' descreve o fenômeno, e a resposta repete 'pedra'. Os distratores não são fenômenos que deixam trilha. A reescrita pergunta o parque onde isso ocorre, fato dos trechos.",
+      "reescrita": {
+        "pergunta": "Esta pedra se move e deixa um rastro no chão de um lago seco. Em que parque nacional americano ela fica?",
+        "resposta": "Vale da Morte",
+        "distratores": [
+          "Yosemite",
+          "Joshua Tree",
+          "Grand Canyon"
+        ]
+      }
+    }
+  ]
+}
