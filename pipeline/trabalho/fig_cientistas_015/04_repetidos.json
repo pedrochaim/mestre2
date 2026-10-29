@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que engenheiro francês do século dezenove é este?",
+        "resposta": "Gustave Eiffel"
+      },
+      "existentes": [
+        {
+          "id": "q09125",
+          "pergunta": "Que engenheiro francês construiu a estrutura de ferro interna da Estátua da Liberdade e, poucos anos depois, ergueu uma torre de ferro em Paris?",
+          "resposta": "Gustave Eiffel"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que pensador italiano do século dezesseis é este?",
+        "resposta": "Giordano Bruno"
+      },
+      "existentes": [
+        {
+          "id": "q04730",
+          "pergunta": "O filósofo Giordano Bruno, que defendia um universo infinito com muitos mundos, foi queimado pela Inquisição em Roma em que ano?",
+          "resposta": "1600"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede só a identificação do engenheiro, sem os feitos citados na existente (estrutura da Estátua da Liberdade e a torre). Na dúvida, nova."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do pensador. A existente pergunta o ano da execução, que é outro fato."
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Gravura clara, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 5,
+      "pergunta": "Que engenheiro francês do século dezenove é este?",
+      "resposta": "Gustave Eiffel",
+      "distratores": [
+        "Ferdinand de Lesseps",
+        "Henri Giffard",
+        "Marc Seguin"
+      ],
+      "ancora": {
+        "nome": "Gustave Eiffel",
+        "descricao": "Engenheiro civil francês, construtor da Torre Eiffel.",
+        "variantes": [
+          "Alexandre Gustave Eiffel"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A inscrição no canto inferior direito traz o nome e a data de morte (The Hon. Rob. Boyle, Ob. 30 Dec 1691) e entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto antiga nítida; só há um número (1891), que não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que médico alemão do século dezenove é este?",
+      "resposta": "Rudolf Virchow",
+      "distratores": [
+        "Robert Koch",
+        "Paul Ehrlich",
+        "Hermann von Helmholtz"
+      ],
+      "ancora": {
+        "nome": "Rudolf Virchow",
+        "descricao": "Médico, patologista e político alemão, chamado de pai da patologia moderna.",
+        "variantes": [
+          "Rudolf Ludwig Carl Virchow"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Que empresário e programador americano é este?",
+      "resposta": "Paul Allen",
+      "distratores": [
+        "Steve Wozniak",
+        "Steve Ballmer",
+        "Larry Ellison"
+      ],
+      "ancora": {
+        "nome": "Paul Allen",
+        "descricao": "Empresário e programador americano, cofundador da Microsoft com Bill Gates.",
+        "variantes": [
+          "Paul Gardner Allen"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este físico francês ficou famoso pela descoberta de qual fenômeno?",
+      "resposta": "Radioatividade",
+      "distratores": [
+        "Raios X",
+        "Efeito fotoelétrico",
+        "Radiação cósmica"
+      ],
+      "ancora": {
+        "nome": "Henri Becquerel",
+        "descricao": "Físico francês que descobriu a radioatividade e dividiu o Nobel de Física de 1903 com os Curie.",
+        "variantes": [
+          "Antoine Henri Becquerel"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto pequena, mas legível, em preto e branco, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Que matemático e engenheiro americano do século vinte é este?",
+      "resposta": "Claude Shannon",
+      "distratores": [
+        "John von Neumann",
+        "Norbert Wiener",
+        "Vannevar Bush"
+      ],
+      "ancora": {
+        "nome": "Claude Shannon",
+        "descricao": "Matemático e engenheiro elétrico americano, pai da teoria da informação.",
+        "variantes": [
+          "Claude Elwood Shannon"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Que empresa de tecnologia este cientista da computação cofundou?",
+      "resposta": "Google",
+      "distratores": [
+        "Yahoo",
+        "Amazon",
+        "Facebook"
+      ],
+      "ancora": {
+        "nome": "Sergey Brin",
+        "descricao": "Cientista da computação e empresário americano nascido na Rússia, cofundador do Google com Larry Page.",
+        "variantes": [
+          "Sergey Mikhailovich Brin",
+          "Serguei Brin"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que médico e cientista canadense é este?",
+      "resposta": "Frederick Banting",
+      "distratores": [
+        "Charles Best",
+        "Norman Bethune",
+        "Wilder Penfield"
+      ],
+      "ancora": {
+        "nome": "Frederick Banting",
+        "descricao": "Médico canadense que co-descobriu a insulina e ganhou o Nobel de Medicina de 1923.",
+        "variantes": [
+          "Sir Frederick Grant Banting"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato colorido claro, sem texto. Família trocada para o_que_e, que rende melhor pergunta nesta imagem.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que matemático ítalo-francês do século dezoito é este?",
+      "resposta": "Joseph-Louis Lagrange",
+      "distratores": [
+        "Pierre-Simon Laplace",
+        "Adrien-Marie Legendre",
+        "Joseph Fourier"
+      ],
+      "ancora": {
+        "nome": "Joseph-Louis Lagrange",
+        "descricao": "Matemático e astrônomo ítalo-francês autor da Mecânica Analítica.",
+        "variantes": [
+          "Giuseppe Luigi Lagrangia",
+          "Lagrange"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que universidade americana este físico brasileiro é professor?",
+      "resposta": "Dartmouth College",
+      "distratores": [
+        "Harvard",
+        "Princeton",
+        "Universidade Stanford"
+      ],
+      "ancora": {
+        "nome": "Marcelo Gleiser",
+        "descricao": "Físico e astrônomo brasileiro, professor no Dartmouth College e divulgador científico.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Gravura clara, sem texto. Família trocada para o_que_e, mais adequada ao nível 1.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Que pensador italiano do século dezesseis é este?",
+      "resposta": "Giordano Bruno",
+      "distratores": [
+        "Galileu Galilei",
+        "Tommaso Campanella",
+        "Pico della Mirandola"
+      ],
+      "ancora": {
+        "nome": "Giordano Bruno",
+        "descricao": "Filósofo, frade e cosmólogo italiano queimado pela Inquisição em 1600.",
+        "variantes": [
+          "Filippo Bruno"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Litografia legível, sem texto. Família trocada para com_o_que_se_liga, adequada ao nível 3.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Este matemático francês foi pioneiro em qual ramo da matemática?",
+      "resposta": "Análise complexa",
+      "distratores": [
+        "Teoria dos conjuntos",
+        "Geometria projetiva",
+        "Teoria dos grafos"
+      ],
+      "ancora": {
+        "nome": "Augustin-Louis Cauchy",
+        "descricao": "Matemático francês do século dezenove, fundador da análise real rigorosa e pioneiro da análise complexa.",
+        "variantes": [
+          "Cauchy",
+          "Barão Cauchy"
+        ]
+      }
+    }
+  ]
+}

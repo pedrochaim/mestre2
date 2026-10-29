@@ -1,0 +1,605 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Gustave Eiffel",
+        "descricao": "Engenheiro civil francês, construtor da Torre Eiffel.",
+        "variantes": [
+          "Alexandre Gustave Eiffel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gustave_eiffel",
+          "nome": "Gustave Eiffel",
+          "descricao": "Engenheiro francês, 1832-1923, cuja empresa construiu a torre de ferro do Campo de Marte, em Paris.",
+          "variantes": [
+            "Alexandre Gustave Eiffel"
+          ]
+        },
+        {
+          "id": "torre_eiffel",
+          "nome": "Torre Eiffel",
+          "descricao": "Torre de ferro forjado no Campo de Marte, em Paris, inaugurada em 1889.",
+          "variantes": [
+            "Tour Eiffel",
+            "Eiffel Tower"
+          ]
+        },
+        {
+          "id": "alexandre_dumas",
+          "nome": "Alexandre Dumas",
+          "descricao": "Romancista e dramaturgo francês do século dezenove, também chamado Dumas pai.",
+          "variantes": [
+            "Alexandre Dumas pai"
+          ]
+        },
+        {
+          "id": "tande",
+          "nome": "Tande",
+          "descricao": "Alexandre Samuel, ex-jogador brasileiro de vôlei, campeão olímpico em Barcelona 1992 e hoje comentarista de TV.",
+          "variantes": [
+            "Alexandre Ramos Samuel",
+            "Alexandre Samuel"
+          ]
+        },
+        {
+          "id": "alexandre_pushkin",
+          "nome": "Alexandre Pushkin",
+          "descricao": "Poeta e romancista russo do Romantismo, autor de Eugênio Onêguin.",
+          "variantes": [
+            "Aleksandr Pushkin",
+            "Alexander Pushkin",
+            "Aleksandr Púchkin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Paul Allen",
+        "descricao": "Empresário e programador americano, cofundador da Microsoft com Bill Gates.",
+        "variantes": [
+          "Paul Gardner Allen"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bono",
+          "nome": "Bono",
+          "descricao": "Cantor irlandês, vocalista da banda U2, nascido Paul Hewson",
+          "variantes": [
+            "Paul Hewson",
+            "Bono Vox"
+          ]
+        },
+        {
+          "id": "magic_paula",
+          "nome": "Magic Paula",
+          "descricao": "Maria Paula Gonçalves da Silva, armadora brasileira campeã mundial de basquete em 1994.",
+          "variantes": [
+            "Paula",
+            "Maria Paula Gonçalves da Silva"
+          ]
+        },
+        {
+          "id": "paulo_leminski",
+          "nome": "Paulo Leminski",
+          "descricao": "Poeta curitibano (1944–1989), conhecido por seus haicais e poemas curtos.",
+          "variantes": []
+        },
+        {
+          "id": "atena",
+          "nome": "Atena",
+          "descricao": "Deusa grega da sabedoria, da estratégia na guerra e dos ofícios, padroeira de Atenas.",
+          "variantes": [
+            "Palas Atena",
+            "Minerva",
+            "Athena"
+          ]
+        },
+        {
+          "id": "galeoes_de_manila",
+          "nome": "Galeões de Manila",
+          "descricao": "Navios espanhóis que, de 1565 a 1815, cruzavam o Pacífico entre as Filipinas e a Nova Espanha levando prata e mercadorias asiáticas.",
+          "variantes": [
+            "Galeão de Manila",
+            "Nau da China",
+            "Manila galleon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Henri Becquerel",
+        "descricao": "Físico francês que descobriu a radioatividade e dividiu o Nobel de Física de 1903 com os Curie.",
+        "variantes": [
+          "Antoine Henri Becquerel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "edmond_becquerel",
+          "nome": "Edmond Becquerel",
+          "descricao": "Físico francês do século dezenove que descobriu o efeito fotovoltaico em 1839, pai de Henri Becquerel.",
+          "variantes": [
+            "Alexandre-Edmond Becquerel"
+          ]
+        },
+        {
+          "id": "bellini",
+          "nome": "Bellini",
+          "descricao": "Coquetel italiano de prosecco com purê de pêssego, criado no Harry's Bar, em Veneza.",
+          "variantes": [
+            "Bellini (coquetel)"
+          ]
+        },
+        {
+          "id": "henri_bergson",
+          "nome": "Henri Bergson",
+          "descricao": "Filósofo francês (1859–1941), autor de A Evolução Criadora, Nobel de Literatura de 1927.",
+          "variantes": [
+            "Henri-Louis Bergson"
+          ]
+        },
+        {
+          "id": "antoine_de_saint_exupery",
+          "nome": "Antoine de Saint-Exupéry",
+          "descricao": "Escritor e aviador francês, autor de O Pequeno Príncipe (1900–1944).",
+          "variantes": [
+            "Saint-Exupéry"
+          ]
+        },
+        {
+          "id": "henri_poincare",
+          "nome": "Henri Poincaré",
+          "descricao": "Matemático, físico teórico e filósofo da ciência francês, pioneiro da teoria do caos.",
+          "variantes": [
+            "Jules Henri Poincaré",
+            "Poincare"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Claude Shannon",
+        "descricao": "Matemático e engenheiro elétrico americano, pai da teoria da informação.",
+        "variantes": [
+          "Claude Elwood Shannon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "claude_monet",
+          "nome": "Claude Monet",
+          "descricao": "Pintor impressionista francês, autor de Impressão, Nascer do Sol e da série das Ninfeias, que viveu de 1840 a 1926.",
+          "variantes": [
+            "Oscar-Claude Monet",
+            "Monet"
+          ]
+        },
+        {
+          "id": "cesariao",
+          "nome": "Cesarião",
+          "descricao": "Ptolomeu Quinze, filho de Cleópatra Sétima e de Júlio César, corregente do Egito morto em 30 antes de Cristo",
+          "variantes": [
+            "Ptolomeu XV",
+            "Caesarion",
+            "Ptolomeu XV Cesarião"
+          ]
+        },
+        {
+          "id": "danone",
+          "nome": "Danone",
+          "descricao": "Empresa de alimentos e laticínios fundada por Isaac Carasso em 1919, hoje sediada na França.",
+          "variantes": [
+            "Groupe Danone",
+            "Dannon"
+          ]
+        },
+        {
+          "id": "pagode_shwedagon",
+          "nome": "Pagode Shwedagon",
+          "descricao": "Estupa dourada, o pagode budista mais sagrado de Mianmar, em Yangon.",
+          "variantes": [
+            "Shwedagon Pagoda",
+            "Pagode Dourado",
+            "Grande Pagode Dagon"
+          ]
+        },
+        {
+          "id": "coluna_de_nelson",
+          "nome": "Coluna de Nelson",
+          "descricao": "Coluna monumental no centro da Trafalgar Square, em Londres, em homenagem ao almirante Horatio Nelson.",
+          "variantes": [
+            "Nelson's Column"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Sergey Brin",
+        "descricao": "Cientista da computação e empresário americano nascido na Rússia, cofundador do Google com Larry Page.",
+        "variantes": [
+          "Sergey Mikhailovich Brin",
+          "Serguei Brin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "serguei_bubka",
+          "nome": "Serguei Bubka",
+          "descricao": "Ex-atleta ucraniano do salto com vara, campeão olímpico em 1988 e recordista mundial 35 vezes.",
+          "variantes": [
+            "Sergey Bubka",
+            "Serhiy Bubka"
+          ]
+        },
+        {
+          "id": "seringueira",
+          "nome": "Seringueira",
+          "descricao": "Árvore amazônica Hevea brasiliensis, cujo látex é a principal fonte de borracha natural",
+          "variantes": [
+            "Hevea brasiliensis",
+            "árvore-da-borracha",
+            "rubber tree"
+          ]
+        },
+        {
+          "id": "sergei_korolev",
+          "nome": "Sergei Korolev",
+          "descricao": "Engenheiro soviético de foguetes que liderou o programa espacial da União Soviética nos primeiros anos da corrida espacial.",
+          "variantes": [
+            "Sergei Koroliov",
+            "Sergey Korolyov"
+          ]
+        },
+        {
+          "id": "sergei_rachmaninoff",
+          "nome": "Sergei Rachmaninoff",
+          "descricao": "Compositor, pianista e regente russo do final do Romantismo.",
+          "variantes": [
+            "Rachmaninov",
+            "Rachmáninov"
+          ]
+        },
+        {
+          "id": "primavera_de_praga",
+          "nome": "Primavera de Praga",
+          "descricao": "Período de reformas liberalizantes na Tchecoslováquia, interrompido pela invasão do Pacto de Varsóvia em agosto de 1968.",
+          "variantes": [
+            "Prague Spring"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Frederick Banting",
+        "descricao": "Médico canadense que co-descobriu a insulina e ganhou o Nobel de Medicina de 1923.",
+        "variantes": [
+          "Sir Frederick Grant Banting"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "frederico_barba_ruiva",
+          "nome": "Frederico Barba-Ruiva",
+          "descricao": "Frederico Primeiro, imperador do Sacro Império Romano-Germânico no século doze, morto durante a Terceira Cruzada.",
+          "variantes": [
+            "Frederico I",
+            "Frederick Barbarossa",
+            "Barbarossa"
+          ]
+        },
+        {
+          "id": "frederic_chopin",
+          "nome": "Frédéric Chopin",
+          "descricao": "Compositor e pianista polonês do romantismo (1810–1849), que viveu e morreu em Paris.",
+          "variantes": [
+            "Chopin",
+            "Fryderyk Chopin"
+          ]
+        },
+        {
+          "id": "frederico_o_grande",
+          "nome": "Frederico, o Grande",
+          "descricao": "Rei da Prússia de 1740 a 1786, Frederico II.",
+          "variantes": [
+            "Frederico II da Prússia",
+            "Frederick the Great"
+          ]
+        },
+        {
+          "id": "carl_lewis",
+          "nome": "Carl Lewis",
+          "descricao": "Atleta americano, campeão de quatro provas nos Jogos de Los Angeles 1984.",
+          "variantes": [
+            "Frederick Carlton Lewis"
+          ]
+        },
+        {
+          "id": "fred_lorz",
+          "nome": "Fred Lorz",
+          "descricao": "Corredor americano que cruzou a chegada em primeiro na maratona olímpica de Saint Louis 1904 e foi desclassificado.",
+          "variantes": [
+            "Frederick Lorz"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Joseph-Louis Lagrange",
+        "descricao": "Matemático e astrônomo ítalo-francês autor da Mecânica Analítica.",
+        "variantes": [
+          "Giuseppe Luigi Lagrangia",
+          "Lagrange"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_grande",
+          "nome": "Ilha Grande",
+          "descricao": "Ilha do município de Angra dos Reis, no litoral sul do estado do Rio de Janeiro.",
+          "variantes": [
+            "Ilha Grande de Angra dos Reis"
+          ]
+        },
+        {
+          "id": "rio_ganges",
+          "nome": "Rio Ganges",
+          "descricao": "Rio sagrado do hinduísmo, que nasce no Himalaia e atravessa o norte da Índia até Bangladesh.",
+          "variantes": [
+            "Ganges",
+            "Ganga"
+          ]
+        },
+        {
+          "id": "pokemon_ranger",
+          "nome": "Pokémon Ranger",
+          "descricao": "Jogo derivado da franquia Pokémon, lançado em 2006 para Nintendo DS, em que o jogador é um guarda florestal que acalma pokémon selvagens.",
+          "variantes": [
+            "Ranger"
+          ]
+        },
+        {
+          "id": "aracne",
+          "nome": "Aracne",
+          "descricao": "Tecelã da mitologia grega transformada em aranha por Atena.",
+          "variantes": [
+            "Arachne"
+          ]
+        },
+        {
+          "id": "newgrange",
+          "nome": "Newgrange",
+          "descricao": "Túmulo de corredor neolítico no vale do rio Boyne, na Irlanda.",
+          "variantes": [
+            "Brú na Bóinne"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Marcelo Gleiser",
+        "descricao": "Físico e astrônomo brasileiro, professor no Dartmouth College e divulgador científico.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "marcelo_gastaldi",
+          "nome": "Marcelo Gastaldi",
+          "descricao": "Dublador e diretor de dublagem brasileiro, voz clássica de Chaves e Chapolin.",
+          "variantes": []
+        },
+        {
+          "id": "foice_e_martelo",
+          "nome": "Foice e martelo",
+          "descricao": "Símbolo comunista que representa a união entre operários e camponeses, criado em 1918 e adotado na Rússia soviética.",
+          "variantes": [
+            "Martelo e foice",
+            "Hammer and sickle"
+          ]
+        },
+        {
+          "id": "marcelo_melo",
+          "nome": "Marcelo Melo",
+          "descricao": "Tenista brasileiro de duplas, ex-número 1 do mundo e campeão de Roland Garros 2015 e Wimbledon 2017.",
+          "variantes": [
+            "Marcelo Pinheiro Davi de Melo"
+          ]
+        },
+        {
+          "id": "marcelinho_huertas",
+          "nome": "Marcelinho Huertas",
+          "descricao": "Armador brasileiro de basquete, ex-Los Angeles Lakers e capitão do Tenerife.",
+          "variantes": [
+            "Marcelo Huertas",
+            "Marcelo Tieppo Huertas"
+          ]
+        },
+        {
+          "id": "carl_lewis",
+          "nome": "Carl Lewis",
+          "descricao": "Atleta americano, campeão de quatro provas nos Jogos de Los Angeles 1984.",
+          "variantes": [
+            "Frederick Carlton Lewis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Giordano Bruno",
+        "descricao": "Filósofo, frade e cosmólogo italiano queimado pela Inquisição em 1600.",
+        "variantes": [
+          "Filippo Bruno"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "giordano_bruno",
+          "nome": "Giordano Bruno",
+          "descricao": "Filósofo e frade italiano (1548–1600), defensor de um universo infinito, queimado pela Inquisição em Roma.",
+          "variantes": [
+            "Bruno"
+          ]
+        },
+        {
+          "id": "air_jordan",
+          "nome": "Air Jordan",
+          "descricao": "Linha de tênis e roupas esportivas criada para Michael Jordan, lançada em 1985.",
+          "variantes": [
+            "Jordan Brand",
+            "Air Jordan 1"
+          ]
+        },
+        {
+          "id": "ouro_branco",
+          "nome": "Ouro branco",
+          "descricao": "Liga de ouro com metais claros usada em joalheria, de cor prateada",
+          "variantes": [
+            "White gold"
+          ]
+        },
+        {
+          "id": "vinho",
+          "nome": "Vinho",
+          "descricao": "Bebida alcoólica feita da fermentação do suco de uva.",
+          "variantes": [
+            "Vinho tinto",
+            "Vinho branco"
+          ]
+        },
+        {
+          "id": "grande_banho_de_mohenjo_daro",
+          "nome": "Grande Banho de Mohenjo-daro",
+          "descricao": "Grande tanque de tijolos da cidade de Mohenjo-daro, da civilização do Vale do Indo, provavelmente usado em rituais de purificação.",
+          "variantes": [
+            "Grande Banho",
+            "Great Bath"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Augustin-Louis Cauchy",
+        "descricao": "Matemático francês do século dezenove, fundador da análise real rigorosa e pioneiro da análise complexa.",
+        "variantes": [
+          "Cauchy",
+          "Barão Cauchy"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cartucho",
+          "nome": "Cartucho",
+          "descricao": "Contorno oval que envolve os nomes reais nos hieróglifos egípcios",
+          "variantes": [
+            "Cartouche",
+            "Shenu"
+          ]
+        },
+        {
+          "id": "cappuccino",
+          "nome": "Cappuccino",
+          "descricao": "Bebida italiana de café espresso com leite vaporizado e espuma de leite",
+          "variantes": [
+            "Capuccino",
+            "Capuchino"
+          ]
+        },
+        {
+          "id": "gaucho",
+          "nome": "Gaúcho",
+          "descricao": "Cavaleiro e peão de gado tradicional dos pampas do Brasil, da Argentina e do Uruguai, símbolo folclórico regional.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_do_rio_grande_do_sul",
+          "nome": "Bandeira do Rio Grande do Sul",
+          "descricao": "Bandeira do estado do Rio Grande do Sul, com faixas diagonais verde, vermelha e amarela e o brasão estadual.",
+          "variantes": [
+            "Bandeira gaúcha"
+          ]
+        },
+        {
+          "id": "clauncher",
+          "nome": "Clauncher",
+          "descricao": "Pokémon do tipo Água, número 692 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "gustave_eiffel",
+      "motivo": "Mesmo engenheiro francês construtor da torre."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Paul Allen, cofundador da Microsoft, não consta entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Henri Becquerel é filho de Edmond, entidade distinta; nenhuma candidata é ele."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Claude Shannon não está entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Sergey Brin não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Frederick Banting não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Lagrange não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Marcelo Gleiser não está entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "giordano_bruno",
+      "motivo": "Mesmo filósofo italiano queimado pela Inquisição em 1600."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Cauchy não está entre as candidatas."
+    }
+  ]
+}
