@@ -1,0 +1,440 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Monte Rushmore",
+        "descricao": "Monumento nacional nas Black Hills, Dakota do Sul, com quatro cabeças de presidentes americanos esculpidas no granito.",
+        "variantes": [
+          "Mount Rushmore",
+          "Memorial Nacional do Monte Rushmore"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_rushmore",
+          "nome": "Monte Rushmore",
+          "descricao": "Memorial nacional dos Estados Unidos com os rostos de quatro presidentes esculpidos na rocha de uma montanha.",
+          "variantes": [
+            "Mount Rushmore",
+            "Memorial Nacional do Monte Rushmore"
+          ]
+        },
+        {
+          "id": "monte_ngauruhoe",
+          "nome": "Monte Ngauruhoe",
+          "descricao": "Cone vulcânico ativo no Parque Nacional de Tongariro, na Ilha Norte da Nova Zelândia.",
+          "variantes": [
+            "Ngauruhoe"
+          ]
+        },
+        {
+          "id": "monte_bromo",
+          "nome": "Monte Bromo",
+          "descricao": "Vulcão ativo da montanhas Tengger, em Java Oriental, Indonésia.",
+          "variantes": [
+            "Bromo",
+            "Gunung Bromo"
+          ]
+        },
+        {
+          "id": "sapatilha_de_ponta",
+          "nome": "Sapatilha de ponta",
+          "descricao": "Sapatilha de ballet com ponta reforçada, que permite dançar sobre a ponta dos pés.",
+          "variantes": [
+            "Sapatilha de ballet",
+            "Pointe shoe"
+          ]
+        },
+        {
+          "id": "montecristo",
+          "nome": "Montecristo",
+          "descricao": "Pequena ilha italiana do arquipélago Toscano, no mar Tirreno, hoje reserva natural.",
+          "variantes": [
+            "Ilha de Montecristo",
+            "Monte Cristo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Parque Nacional de Zion",
+        "descricao": "Parque nacional no sudoeste de Utah, nos Estados Unidos, conhecido pelo Zion Canyon.",
+        "variantes": [
+          "Zion National Park",
+          "Zion Canyon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "parque_indigena_do_xingu",
+          "nome": "Parque Indígena do Xingu",
+          "descricao": "Terra indígena no norte de Mato Grosso, criada em 1961 como Parque Nacional do Xingu.",
+          "variantes": [
+            "Parque Nacional do Xingu",
+            "Território Indígena do Xingu",
+            "Parque do Xingu"
+          ]
+        },
+        {
+          "id": "parque_nacional_de_yosemite",
+          "nome": "Parque Nacional de Yosemite",
+          "descricao": "Parque nacional na Serra Nevada da Califórnia, famoso por paredões de granito e cachoeiras.",
+          "variantes": [
+            "Yosemite",
+            "Yosemite National Park"
+          ]
+        },
+        {
+          "id": "parque_nacional_de_yellowstone",
+          "nome": "Parque Nacional de Yellowstone",
+          "descricao": "Parque nacional nos Estados Unidos, sobre um grande sistema vulcânico, famoso por gêiseres e fontes termais.",
+          "variantes": [
+            "Yellowstone National Park",
+            "Yellowstone"
+          ]
+        },
+        {
+          "id": "white_sands",
+          "nome": "White Sands",
+          "descricao": "Parque nacional no Novo México, Estados Unidos, com um enorme campo de dunas brancas.",
+          "variantes": [
+            "White Sands National Park",
+            "Parque Nacional de White Sands"
+          ]
+        },
+        {
+          "id": "floresta_da_tijuca",
+          "nome": "Floresta da Tijuca",
+          "descricao": "Floresta urbana replantada no século dezenove, no maciço da Tijuca, no Rio de Janeiro",
+          "variantes": [
+            "Parque Nacional da Tijuca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Chapada Diamantina",
+        "descricao": "Região de serras e morros tabulares no centro da Bahia, com parque nacional.",
+        "variantes": [
+          "Parque Nacional da Chapada Diamantina",
+          "Morro do Pai Inácio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chapada_diamantina",
+          "nome": "Chapada Diamantina",
+          "descricao": "Região montanhosa do estado da Bahia, na porção norte da Serra do Espinhaço.",
+          "variantes": []
+        },
+        {
+          "id": "morro_do_pai_inacio",
+          "nome": "Morro do Pai Inácio",
+          "descricao": "Elevação de topo plano no município de Palmeiras, na Chapada Diamantina, Bahia.",
+          "variantes": [
+            "Pai Inácio"
+          ]
+        },
+        {
+          "id": "chapada_dos_guimaraes",
+          "nome": "Chapada dos Guimarães",
+          "descricao": "Planalto de paredões e cachoeiras em Mato Grosso, protegido por um parque nacional.",
+          "variantes": [
+            "Parque Nacional da Chapada dos Guimarães"
+          ]
+        },
+        {
+          "id": "coroa_imperial_do_brasil",
+          "nome": "Coroa Imperial do Brasil",
+          "descricao": "Coroa de ouro, diamantes e pérolas feita para Dom Pedro II, segundo imperador do Brasil.",
+          "variantes": [
+            "Coroa de Dom Pedro II",
+            "Coroa Diamantina"
+          ]
+        },
+        {
+          "id": "chapada_dos_veadeiros",
+          "nome": "Chapada dos Veadeiros",
+          "descricao": "Planalto de cerrado com cânions e cachoeiras, protegido por um parque nacional, no nordeste de Goiás.",
+          "variantes": [
+            "Parque Nacional da Chapada dos Veadeiros"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Geleira de Aletsch",
+        "descricao": "Maior geleira dos Alpes, no cantão suíço de Valais.",
+        "variantes": [
+          "Aletschgletscher",
+          "Glaciar de Aletsch",
+          "Grande Geleira de Aletsch"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_nevoeiro_de_londres",
+          "nome": "Grande Nevoeiro de Londres",
+          "descricao": "Episódio de poluição atmosférica que cobriu Londres em dezembro de 1952 e causou milhares de mortes.",
+          "variantes": [
+            "Great Smog of London",
+            "Grande Smog de 1952",
+            "Grande Nevoeiro de 1952",
+            "Great Smog"
+          ]
+        },
+        {
+          "id": "buda_gigante_de_leshan",
+          "nome": "Buda Gigante de Leshan",
+          "descricao": "Estátua de Buda de 71 metros esculpida em um penhasco em Leshan, Sichuan, China.",
+          "variantes": [
+            "Grande Buda de Leshan"
+          ]
+        },
+        {
+          "id": "grande_barreira_de_coral",
+          "nome": "Grande Barreira de Coral",
+          "descricao": "Maior sistema de recifes de coral do mundo, no Mar de Coral, na costa de Queensland, Austrália.",
+          "variantes": [
+            "Great Barrier Reef"
+          ]
+        },
+        {
+          "id": "grande_cratera_de_paldea",
+          "nome": "Grande Cratera de Paldea",
+          "descricao": "Enorme cratera no centro da região de Paldea, nos jogos Pokémon Scarlet e Violet.",
+          "variantes": [
+            "Great Crater of Paldea"
+          ]
+        },
+        {
+          "id": "kingler_de_ash",
+          "nome": "Kingler de Ash",
+          "descricao": "Kingler de Ash Ketchum no anime Pokémon, capturado como Krabby em Kanto e evoluído durante a Liga Índigo.",
+          "variantes": [
+            "Ash's Kingler",
+            "Krabby de Ash"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Canais de Amsterdã",
+        "descricao": "Rede de canais concêntricos do século dezessete que cortam o centro histórico de Amsterdã.",
+        "variantes": [
+          "Grachtengordel",
+          "Canais de Amesterdão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ajax",
+          "nome": "Ajax",
+          "descricao": "AFC Ajax, clube de futebol de Amsterdã, na Holanda, fundado em 1900.",
+          "variantes": [
+            "AFC Ajax",
+            "Ajax de Amsterdã"
+          ]
+        },
+        {
+          "id": "nova_amsterda",
+          "nome": "Nova Amsterdã",
+          "descricao": "Povoado colonial holandês na ilha de Manhattan, capital da Nova Holanda, tomado pelos ingleses em 1664.",
+          "variantes": [
+            "Nova Amsterdam",
+            "New Amsterdam",
+            "Nieuw Amsterdam"
+          ]
+        },
+        {
+          "id": "canario_da_terra",
+          "nome": "Canário-da-terra",
+          "descricao": "Pequena ave amarela com o alto da cabeça alaranjado, comum em áreas abertas da América do Sul e não aparentada ao canário.",
+          "variantes": [
+            "Canário-da-terra-verdadeiro",
+            "Sicalis flaveola",
+            "Saffron finch"
+          ]
+        },
+        {
+          "id": "cartas_de_amarna",
+          "nome": "Cartas de Amarna",
+          "descricao": "Arquivo de tabuletas de argila com a correspondência diplomática dos faraós com reis do Oriente Próximo, achado em Amarna",
+          "variantes": [
+            "Amarna letters",
+            "Correspondência de Amarna"
+          ]
+        },
+        {
+          "id": "cavaleiros_de_atena",
+          "nome": "Cavaleiros de Atena",
+          "descricao": "Guerreiros de armadura que protegem a deusa Atena em Os Cavaleiros do Zodíaco, divididos em bronze, prata e ouro.",
+          "variantes": [
+            "Saints"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cataratas Havasu",
+        "descricao": "Cachoeira de água turquesa no Havasu Creek, dentro do Grand Canyon, no Arizona.",
+        "variantes": [
+          "Havasu Falls"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gullfoss",
+          "nome": "Gullfoss",
+          "descricao": "Cachoeira no cânion do rio Hvítá, no sudoeste da Islândia, parada do Círculo Dourado.",
+          "variantes": [
+            "Cataratas Douradas",
+            "Golden Falls"
+          ]
+        },
+        {
+          "id": "fallas_de_valencia",
+          "nome": "Fallas de Valência",
+          "descricao": "Festa de março em Valência, na Espanha, que termina com a queima de grandes esculturas satíricas.",
+          "variantes": [
+            "Falles",
+            "Las Fallas"
+          ]
+        },
+        {
+          "id": "cataratas_kaieteur",
+          "nome": "Cataratas Kaieteur",
+          "descricao": "Queda d'água de 226 metros no Rio Potaro, no Parque Nacional Kaieteur, na Guiana.",
+          "variantes": [
+            "Kaieteur Falls",
+            "Cataratas de Kaieteur"
+          ]
+        },
+        {
+          "id": "cataratas_do_iguacu",
+          "nome": "Cataratas do Iguaçu",
+          "descricao": "Conjunto de quedas d'água do rio Iguaçu, na fronteira entre o Paraná, no Brasil, e a província argentina de Misiones.",
+          "variantes": [
+            "Iguaçu",
+            "Cataratas del Iguazú",
+            "Iguazu Falls",
+            "Foz do Iguaçu"
+          ]
+        },
+        {
+          "id": "cataratas_vitoria",
+          "nome": "Cataratas Vitória",
+          "descricao": "Queda d'água do rio Zambeze, na fronteira entre Zâmbia e Zimbábue.",
+          "variantes": [
+            "Victoria Falls",
+            "Mosi-oa-Tunya"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Monte Kinabalu",
+        "descricao": "Montanha mais alta da Malásia, de 4.095 metros, em Sabah, na ilha de Bornéu.",
+        "variantes": [
+          "Gunung Kinabalu",
+          "Mount Kinabalu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_kailash",
+          "nome": "Monte Kailash",
+          "descricao": "Montanha sagrada de 6.638 metros no oeste do Planalto Tibetano, na China.",
+          "variantes": [
+            "Kailash",
+            "Monte Kailasa"
+          ]
+        },
+        {
+          "id": "monte_alban",
+          "nome": "Monte Albán",
+          "descricao": "Sítio arqueológico zapoteca no vale de Oaxaca, México.",
+          "variantes": []
+        },
+        {
+          "id": "monte_pinatubo",
+          "nome": "Monte Pinatubo",
+          "descricao": "Estratovulcão na ilha de Luzon, nas Filipinas, cuja erupção de 1991 esfriou o clima global.",
+          "variantes": [
+            "Pinatubo"
+          ]
+        },
+        {
+          "id": "denali",
+          "nome": "Denali",
+          "descricao": "Montanha mais alta da América do Norte, na Cordilheira do Alasca.",
+          "variantes": [
+            "Monte McKinley",
+            "Mount McKinley"
+          ]
+        },
+        {
+          "id": "mt_moon",
+          "nome": "Mt. Moon",
+          "descricao": "Montanha com cavernas entre Pewter e Cerulean, em Kanto, nos jogos Pokémon Red e Blue, famosa pelos Clefairy e pelos fósseis.",
+          "variantes": [
+            "Monte Lua",
+            "Mount Moon"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "monte_rushmore",
+      "motivo": "Mesmo memorial nacional com quatro presidentes esculpidos; nome e variantes idênticos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Parque Nacional de Zion; Yosemite, Yellowstone e White Sands são outros parques."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "chapada_diamantina",
+      "motivo": "Mesma região montanhosa da Bahia; a variante Morro do Pai Inácio é apenas uma parte, mas a entidade principal é a mesma."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Geleira de Aletsch."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde aos canais de Amsterdã; Nova Amsterdã e o Ajax são entidades diferentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Havasu Falls; são outras cachoeiras."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Monte Kinabalu; são outras montanhas."
+    }
+  ]
+}

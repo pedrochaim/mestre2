@@ -1,0 +1,197 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Monumento inconfundível, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que estado dos Estados Unidos fica este monumento esculpido na montanha?",
+      "resposta": "Dakota do Sul",
+      "distratores": [
+        "Montana",
+        "Wyoming",
+        "Nebraska"
+      ],
+      "ancora": {
+        "nome": "Monte Rushmore",
+        "descricao": "Monumento nacional nas Black Hills, Dakota do Sul, com quatro cabeças de presidentes americanos esculpidas no granito.",
+        "variantes": [
+          "Mount Rushmore",
+          "Memorial Nacional do Monte Rushmore"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vale com paredões avermelhados e rio, reconhecível em múltipla escolha com distratores de parques vizinhos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que parque nacional americano, de paredões avermelhados, é este?",
+      "resposta": "Zion",
+      "distratores": [
+        "Bryce Canyon",
+        "Arches",
+        "Capitol Reef"
+      ],
+      "ancora": {
+        "nome": "Parque Nacional de Zion",
+        "descricao": "Parque nacional no sudoeste de Utah, nos Estados Unidos, conhecido pelo Zion Canyon.",
+        "variantes": [
+          "Zion National Park",
+          "Zion Canyon"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Queda alta e estreita parecida com outras cachoeiras de serra brasileiras (como a da Fumaça); resposta não é única pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Morro de topo plano com sempre-vivas, típico da Chapada Diamantina; múltipla escolha deixa justo.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que estado brasileiro fica esta paisagem de morro de topo plano e flores de campo?",
+      "resposta": "Bahia",
+      "distratores": [
+        "Minas Gerais",
+        "Goiás",
+        "Mato Grosso"
+      ],
+      "ancora": {
+        "nome": "Chapada Diamantina",
+        "descricao": "Região de serras e morros tabulares no centro da Bahia, com parque nacional.",
+        "variantes": [
+          "Parque Nacional da Chapada Diamantina",
+          "Morro do Pai Inácio"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano e paisagem pouco distintiva."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Geleira em curva com faixas de morena, nos Alpes; reconhecível com distratores alpinos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Qual é esta imensa geleira dos Alpes suíços?",
+      "resposta": "Geleira de Aletsch",
+      "distratores": [
+        "Mer de Glace",
+        "Geleira Gorner",
+        "Pasterze"
+      ],
+      "ancora": {
+        "nome": "Geleira de Aletsch",
+        "descricao": "Maior geleira dos Alpes, no cantão suíço de Valais.",
+        "variantes": [
+          "Aletschgletscher",
+          "Glaciar de Aletsch",
+          "Grande Geleira de Aletsch"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista aérea com o desenho característico dos canais concêntricos e casas estreitas.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cidade europeia, cortada por canais em semicírculos, é esta vista do alto?",
+      "resposta": "Amsterdã",
+      "distratores": [
+        "Bruges",
+        "Copenhague",
+        "Estocolmo"
+      ],
+      "ancora": {
+        "nome": "Canais de Amsterdã",
+        "descricao": "Rede de canais concêntricos do século dezessete que cortam o centro histórico de Amsterdã.",
+        "variantes": [
+          "Grachtengordel",
+          "Canais de Amesterdão"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cachoeira com rocha vermelha e água turquesa, característica.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que famoso cânion americano fica esta cachoeira de água turquesa?",
+      "resposta": "Grand Canyon",
+      "distratores": [
+        "Bryce Canyon",
+        "Antelope Canyon",
+        "Cânion de Zion"
+      ],
+      "ancora": {
+        "nome": "Cataratas Havasu",
+        "descricao": "Cachoeira de água turquesa no Havasu Creek, dentro do Grand Canyon, no Arizona.",
+        "variantes": [
+          "Havasu Falls"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cume granítico serrilhado reconhecível em múltipla escolha.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ilha fica esta montanha de cume granítico serrilhado, a mais alta do seu país?",
+      "resposta": "Bornéu",
+      "distratores": [
+        "Sumatra",
+        "Java",
+        "Celebes"
+      ],
+      "ancora": {
+        "nome": "Monte Kinabalu",
+        "descricao": "Montanha mais alta da Malásia, de 4.095 metros, em Sabah, na ilha de Bornéu.",
+        "variantes": [
+          "Gunung Kinabalu",
+          "Mount Kinabalu"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto de colinas verdes genéricas, sem a serra e suas curvas; lugar não reconhecível."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Língua de geleira distante e genérica, confundível com outras geleiras islandesas."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Lago turquesa confundível com Pukaki e Ōhau; resposta não é única."
+    }
+  ]
+}

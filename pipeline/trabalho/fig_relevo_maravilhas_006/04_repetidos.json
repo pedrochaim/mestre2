@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que estado dos Estados Unidos fica este monumento esculpido na montanha?",
+        "resposta": "Dakota do Sul"
+      },
+      "existentes": [
+        {
+          "id": "q03959",
+          "pergunta": "Os rostos de quatro presidentes americanos esculpidos na rocha do Monte Rushmore ficam em que estado dos Estados Unidos?",
+          "resposta": "Dakota do Sul"
+        },
+        {
+          "id": "q05452",
+          "pergunta": "Além de Washington, Jefferson e Lincoln, qual presidente americano tem o rosto esculpido na rocha do Monte Rushmore?",
+          "resposta": "Theodore Roosevelt"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que estado brasileiro fica esta região de serras e morros de topo plano?",
+        "resposta": "Bahia"
+      },
+      "existentes": [
+        {
+          "id": "q02333",
+          "pergunta": "Que região montanhosa brasileira é esta?",
+          "resposta": "Chapada Diamantina"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o estado onde fica o Monte Rushmore, com resposta Dakota do Sul."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A existente pergunta qual é a região (nome); a nova pergunta o estado onde fica, que é outro fato."
+    }
+  ]
+}
