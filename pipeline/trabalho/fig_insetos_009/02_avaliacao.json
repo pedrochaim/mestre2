@@ -1,0 +1,181 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Micrografia de escólex de tênia corada; sem escala nem contexto, não dá para afirmar a espécie (Taenia solium ou outra), então a resposta sobre o hospedeiro não é única diante da imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida e inconfundível dos anéis azuis.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este animal marinho, de pintas azuis, pertence a que grupo?",
+      "resposta": "Polvo",
+      "distratores": [
+        "Lula",
+        "Choco",
+        "Náutilo"
+      ],
+      "ancora": {
+        "nome": "Polvo-de-anéis-azuis",
+        "descricao": "Pequeno polvo venenoso do gênero Hapalochlaena, do Pacífico e do Índico, com anéis azuis sobre a pele amarelada.",
+        "variantes": [
+          "Hapalochlaena",
+          "Blue-ringed octopus"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto macro de uma abelha escura sem características que permitam reconhecer a espécie Trigona spinipes; pode ser confundida com outras abelhas sem ferrão."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Imagem pequena (300 px) de um nematódeo branco com régua; a espécie não é reconhecível pela imagem e a resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Abelhas sobre favos de cria; a espécie Melipona scutellaris não é identificável pela imagem e pode ser confundida com outras abelhas sem ferrão."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida e reconhecível do dragão-azul.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que animal marinho é este?",
+      "resposta": "Dragão-azul",
+      "distratores": [
+        "Caravela-portuguesa",
+        "Anêmona-do-mar",
+        "Peixe-leão"
+      ],
+      "ancora": {
+        "nome": "Dragão-azul",
+        "descricao": "Pequena lesma-do-mar pelágica azul e prateada, Glaucus atlanticus, que flutua na superfície do oceano.",
+        "variantes": [
+          "Glaucus atlanticus",
+          "Lesma-do-mar-azul",
+          "Dragão-azul-do-mar"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida da mariposa-bruxa com asas abertas; reconhecível como mariposa.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de inseto é este, de asas largas e cores discretas?",
+      "resposta": "Mariposa",
+      "distratores": [
+        "Borboleta",
+        "Libélula",
+        "Vespa"
+      ],
+      "ancora": {
+        "nome": "Mariposa-bruxa",
+        "descricao": "Grande mariposa noturna escura, Ascalapha odorata, que ocorre do sul dos Estados Unidos ao Brasil.",
+        "variantes": [
+          "Ascalapha odorata",
+          "Black witch"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida de água-viva grande de cor alaranjada, compatível com a juba-de-leão.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta água-viva gigante vive sobretudo em mares de que temperatura?",
+      "resposta": "Frios",
+      "distratores": [
+        "Tropicais",
+        "Equatoriais",
+        "Mornos"
+      ],
+      "ancora": {
+        "nome": "Água-viva-juba-de-leão",
+        "descricao": "Grande água-viva Cyanea capillata, de águas frias do Ártico, do Atlântico Norte e do Pacífico Norte, com sino alaranjado e tentáculos longos.",
+        "variantes": [
+          "Cyanea capillata",
+          "Lion's mane jellyfish"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Espécime de museu com etiquetas e código; a asa-de-pássaro-rainha-alexandra pode ser confundida com outras Ornithoptera, então a resposta não é única pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de aglomerado de mexilhões, reconhecíveis como bivalves.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Os moluscos em maior número nesta foto, de conchas escuras, pertencem a que grupo?",
+      "resposta": "Bivalves",
+      "distratores": [
+        "Gastrópodes",
+        "Cefalópodes",
+        "Escafópodes"
+      ],
+      "ancora": {
+        "nome": "Mexilhão",
+        "descricao": "Molusco bivalve marinho da família Mytilidae, de concha escura e alongada, que vive fixo às rochas do entremarés.",
+        "variantes": [
+          "Mussel",
+          "Mytilidae"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Prancha de Haeckel com várias formas, incluindo um caranguejo parasitado no centro; muita coisa diferente e confusa para um celular."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida de um crinoide de vida livre (estrela-pena), reconhecível pelos braços plumosos; a âncora é o grupo Crinoides, e não o lírio-do-mar com haste.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que equinodermo marinho é este, de braços plumosos?",
+      "resposta": "Crinoide (estrela-pena)",
+      "distratores": [
+        "Ofiuro",
+        "Ouriço-do-mar",
+        "Pepino-do-mar"
+      ],
+      "ancora": {
+        "nome": "Crinoides",
+        "descricao": "Classe Crinoidea de equinodermos marinhos de braços plumosos, que inclui os lírios-do-mar e as estrelas-pena.",
+        "variantes": [
+          "Crinoidea",
+          "Estrela-pena",
+          "Feather star",
+          "Lírio-do-mar"
+        ]
+      }
+    }
+  ]
+}

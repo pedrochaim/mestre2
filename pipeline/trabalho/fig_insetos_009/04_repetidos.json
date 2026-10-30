@@ -1,0 +1,106 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de cefalópode marinho é este, pequeno e de pele amarelada?",
+        "resposta": "Polvo"
+      },
+      "existentes": [
+        {
+          "id": "q05672",
+          "pergunta": "O pequeno polvo-de-anéis-azuis e o baiacu, peixe do prato japonês fugu, carregam o mesmo veneno potente. Que veneno é esse?",
+          "resposta": "Tetrodotoxina"
+        },
+        {
+          "id": "q09113",
+          "pergunta": "Que animal marinho é este?",
+          "resposta": "Polvo-de-anéis-azuis"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que animal marinho é este?",
+        "resposta": "Dragão-azul"
+      },
+      "existentes": [
+        {
+          "id": "q07422",
+          "pergunta": "Que tipo de animal é este, que flutua na superfície do mar?",
+          "resposta": "Lesma-do-mar"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Esta água-viva gigante vive sobretudo em mares de que temperatura?",
+        "resposta": "Frios"
+      },
+      "existentes": [
+        {
+          "id": "q15674",
+          "pergunta": "Que medusa é esta?",
+          "resposta": "Juba-de-leão"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Os moluscos em maior número nesta foto, de conchas escuras, pertencem a que grupo?",
+        "resposta": "Bivalves"
+      },
+      "existentes": [
+        {
+          "id": "q07416",
+          "pergunta": "Que molusco bivalve, preso às rochas da costa, é este?",
+          "resposta": "Mexilhão"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que classe de equinodermos marinhos é esta?",
+        "resposta": "Crinoides"
+      },
+      "existentes": [
+        {
+          "id": "q15865",
+          "pergunta": "Este animal marinho de braços plumosos é parente próximo de qual destes?",
+          "resposta": "Estrela-do-mar"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar um polvo amarelado numa imagem é diferente de identificar o polvo-de-anéis-azuis ou do veneno."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Imagens de animais diferentes (dragão-azul e lesma-do-mar genérica); respostas distintas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A temperatura do mar onde vive é um fato diferente da identificação da medusa."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Grupo dos moluscos da foto é diferente de identificar o mexilhão."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Classe crinoides é diferente de qual animal é parente próximo (estrela-do-mar)."
+    }
+  ]
+}

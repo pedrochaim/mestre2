@@ -579,7 +579,7 @@
       "titulo": "en:Mussel",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Siri-azul",
@@ -691,7 +691,7 @@
       "titulo": "en:Blue-ringed octopus",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Lula-gigante",
@@ -740,7 +740,7 @@
       "titulo": "en:Barnacle",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Amblipígio",
@@ -803,7 +803,7 @@
       "titulo": "en:Glaucus atlanticus",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Lula-vampira",
@@ -839,6 +839,286 @@
       "camada": 3,
       "destino": 0,
       "status": "usada"
+    },
+    {
+      "nome": "Mosca-varejeira",
+      "titulo": "en:Calliphoridae",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lombriga",
+      "titulo": "en:Ascaris lumbricoides",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Solitária",
+      "titulo": "en:Taenia solium",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ácaro",
+      "titulo": "en:Mite",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caranguejo-uçá",
+      "titulo": "en:Ucides cordatus",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Maria-farinha",
+      "titulo": "en:Ghost crab",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mariposa-bruxa",
+      "titulo": "en:Ascalapha odorata",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Gorgulho",
+      "titulo": "en:Weevil",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lagostim",
+      "titulo": "en:Crayfish",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mosquito-palha",
+      "titulo": "en:Phlebotominae",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Guaiamum",
+      "titulo": "en:Cardisoma guanhumi",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Planária",
+      "titulo": "en:Planarian",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Borboleta-rabo-de-andorinha",
+      "titulo": "en:Papilio machaon",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Borboleta-pavão",
+      "titulo": "en:Aglais io",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Escorpião-imperador",
+      "titulo": "en:Emperor scorpion",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tarântula-golias",
+      "titulo": "en:Goliath birdeater",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estrela-do-mar-coroa-de-espinhos",
+      "titulo": "en:Crown-of-thorns starfish",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Água-viva-juba-de-leão",
+      "titulo": "en:Lion's mane jellyfish",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Marisco-gigante",
+      "titulo": "en:Giant clam",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Búzio",
+      "titulo": "en:Cowry",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Concha-rainha",
+      "titulo": "en:Queen conch",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Artêmia",
+      "titulo": "en:Artemia",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Borboleta-da-couve",
+      "titulo": "en:Pieris brassicae",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Uruçu",
+      "titulo": "en:Melipona scutellaris",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Aranha-teia-de-funil-de-sydney",
+      "titulo": "en:Sydney funnel-web spider",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Polvo-mimético",
+      "titulo": "en:Mimic octopus",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arapuá",
+      "titulo": "en:Trigona spinipes",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Vespa-caçadora-de-tarântulas",
+      "titulo": "en:Tarantula hawk",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Aranha-de-espinhos",
+      "titulo": "en:Gasteracantha cancriformis",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Aranha-vespa",
+      "titulo": "en:Argiope bruennichi",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mariposa-cometa",
+      "titulo": "en:Comet moth",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Borboleta-asa-de-pássaro-rainha-alexandra",
+      "titulo": "en:Queen Alexandra's birdwing",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mosca-de-olhos-pedunculados",
+      "titulo": "en:Stalk-eyed fly",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Weta",
+      "titulo": "en:Weta",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Formiga-feiticeira",
+      "titulo": "en:Mutillidae",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Abelha-das-orquídeas",
+      "titulo": "en:Euglossini",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Verme-árvore-de-natal",
+      "titulo": "en:Spirobranchus giganteus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lírio-do-mar",
+      "titulo": "en:Crinoid",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Ofiúro",
+      "titulo": "en:Brittle star",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Argonauta",
+      "titulo": "en:Argonaut (animal)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }

@@ -1,0 +1,70 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Que grupo\" é ambíguo: cefalópodes ou moluscos também seriam defensáveis. Pedir o tipo de cefalópode deixa a resposta única, e os distratores seguem válidos.",
+      "reescrita": {
+        "pergunta": "Que tipo de cefalópode marinho é este, pequeno e de pele amarelada?",
+        "resposta": "Polvo",
+        "distratores": [
+          "Lula",
+          "Choco",
+          "Náutilo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pista no enunciado. O nome comum está nos trechos e os distratores são do mesmo tipo e não estão corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta \"Mariposa\" é uma categoria genérica, e a figura mostra uma espécie. A reescrita pede a espécie, com pista de região e porte que ajuda sem entregar o nome.",
+      "reescrita": {
+        "pergunta": "Que grande mariposa escura, que vai do sul dos Estados Unidos ao Brasil, é esta?",
+        "resposta": "Mariposa-bruxa",
+        "distratores": [
+          "Mariposa-lua",
+          "Mariposa-atlas",
+          "Esfinge-caveira"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a espécie vive em águas frias boreais e árticas. A figura é necessária para reconhecer o animal e os distratores são plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mexilhões são bivalves, o que os trechos confirmam. Os distratores são outras classes de moluscos. A afirmação sobre a foto (mexilhões em maior número) segue o que consta em `mostra`.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Braços plumosos\" entrega a resposta (estrela-pena). O parêntese também pode não valer para a foto, caso o crinoide tenha pedúnculo.",
+      "reescrita": {
+        "pergunta": "Que classe de equinodermos marinhos é esta?",
+        "resposta": "Crinoides",
+        "distratores": [
+          "Ofiuros",
+          "Ouriços-do-mar",
+          "Pepinos-do-mar"
+        ]
+      }
+    }
+  ]
+}
