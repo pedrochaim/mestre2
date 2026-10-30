@@ -1,0 +1,323 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Lagoa da Pampulha",
+        "descricao": "Lagoa artificial em Belo Horizonte, Minas Gerais, com conjunto arquitetônico projetado por Oscar Niemeyer.",
+        "variantes": [
+          "Pampulha",
+          "Lago da Pampulha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "conjunto_moderno_da_pampulha",
+          "nome": "Conjunto Moderno da Pampulha",
+          "descricao": "Conjunto arquitetônico projetado por Oscar Niemeyer nos anos 1940 em torno da lagoa da Pampulha, com a Igreja de São Francisco de Assis.",
+          "variantes": [
+            "Pampulha",
+            "Igreja da Pampulha",
+            "Pampulha Modern Ensemble"
+          ]
+        },
+        {
+          "id": "lagoa_da_pampulha",
+          "nome": "Lagoa da Pampulha",
+          "descricao": "Lagoa artificial de Belo Horizonte, cercada pelo conjunto arquitetônico moderno da Pampulha.",
+          "variantes": [
+            "Lago da Pampulha",
+            "Pampulha"
+          ]
+        },
+        {
+          "id": "ampulheta",
+          "nome": "Ampulheta",
+          "descricao": "Instrumento de medir o tempo com dois bulbos de vidro ligados por um gargalo estreito, por onde escorre areia.",
+          "variantes": [
+            "Relógio de areia",
+            "Hourglass"
+          ]
+        },
+        {
+          "id": "papoula",
+          "nome": "Papoula",
+          "descricao": "Papaver rhoeas, planta anual de flores vermelhas comum em campos agrícolas.",
+          "variantes": [
+            "Papoila",
+            "Papaver rhoeas",
+            "Papoula-comum"
+          ]
+        },
+        {
+          "id": "magic_paula",
+          "nome": "Magic Paula",
+          "descricao": "Maria Paula Gonçalves da Silva, armadora brasileira campeã mundial de basquete em 1994.",
+          "variantes": [
+            "Paula",
+            "Maria Paula Gonçalves da Silva"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Parque do Flamengo",
+        "descricao": "Grande parque público à beira da Baía de Guanabara, no bairro do Flamengo, Rio de Janeiro.",
+        "variantes": [
+          "Aterro do Flamengo",
+          "Parque Eduardo Gomes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "parque_do_flamengo",
+          "nome": "Parque do Flamengo",
+          "descricao": "Grande parque construído sobre aterro à beira da baía de Guanabara, no Rio de Janeiro, inaugurado nos anos 1960.",
+          "variantes": [
+            "Aterro do Flamengo",
+            "Flamengo Park"
+          ]
+        },
+        {
+          "id": "pal_park",
+          "nome": "Pal Park",
+          "descricao": "Parque de Sinnoh, em Pokémon Diamond, Pearl e Platinum, que recebe pokémon transferidos dos jogos de Game Boy Advance.",
+          "variantes": [
+            "Parque Amigo"
+          ]
+        },
+        {
+          "id": "parque_indigena_do_xingu",
+          "nome": "Parque Indígena do Xingu",
+          "descricao": "Terra indígena no norte de Mato Grosso, criada em 1961 como Parque Nacional do Xingu.",
+          "variantes": [
+            "Parque Nacional do Xingu",
+            "Território Indígena do Xingu",
+            "Parque do Xingu"
+          ]
+        },
+        {
+          "id": "mamulengo",
+          "nome": "Mamulengo",
+          "descricao": "Teatro popular de bonecos de luva e vara do Nordeste, especialmente de Pernambuco.",
+          "variantes": [
+            "Teatro de mamulengo"
+          ]
+        },
+        {
+          "id": "flamengo",
+          "nome": "Flamengo",
+          "descricao": "Clube de Regatas do Flamengo, clube carioca fundado em 1895.",
+          "variantes": [
+            "Clube de Regatas do Flamengo",
+            "CR Flamengo",
+            "Mengão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Usina do Gasômetro",
+        "descricao": "Antiga usina termelétrica de Porto Alegre, hoje centro cultural, às margens do Guaíba.",
+        "variantes": [
+          "Gasômetro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barometro",
+          "nome": "Barômetro",
+          "descricao": "Instrumento científico que mede a pressão atmosférica, usado na previsão do tempo.",
+          "variantes": [
+            "Barometer",
+            "Barômetro de mercúrio"
+          ]
+        },
+        {
+          "id": "estadio_pedro_bidegain_nuevo_gasometro",
+          "nome": "Estádio Pedro Bidegain (Nuevo Gasómetro)",
+          "descricao": "Estádio de futebol do bairro de Flores, em Buenos Aires, casa do San Lorenzo.",
+          "variantes": [
+            "Nuevo Gasómetro",
+            "Estadio Pedro Bidegain"
+          ]
+        },
+        {
+          "id": "sismografo",
+          "nome": "Sismógrafo",
+          "descricao": "Instrumento que registra em papel ou meio digital o movimento do solo causado por terremotos.",
+          "variantes": [
+            "Sismômetro",
+            "Seismograph",
+            "Seismometer"
+          ]
+        },
+        {
+          "id": "anemometro",
+          "nome": "Anemômetro",
+          "descricao": "Instrumento que mede a velocidade do vento, aqui o modelo de conchas.",
+          "variantes": [
+            "Anemometro de conchas"
+          ]
+        },
+        {
+          "id": "astronauta",
+          "nome": "Astronauta",
+          "descricao": "Astronauta Pereira, herói espacial brasileiro da Turma da Mônica, de Mauricio de Sousa.",
+          "variantes": [
+            "Astronauta (Turma da Mônica)",
+            "Astronauta Pereira",
+            "Astro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Museu de Arte Contemporânea de Niterói",
+        "descricao": "Museu projetado por Oscar Niemeyer em forma de disco, em Niterói, Rio de Janeiro.",
+        "variantes": [
+          "MAC Niterói",
+          "MAC"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "museu_de_arte_contemporanea_de_niteroi",
+          "nome": "Museu de Arte Contemporânea de Niterói",
+          "descricao": "Museu projetado por Oscar Niemeyer, em forma de disco, sobre um mirante à beira da baía de Guanabara, inaugurado em 1996.",
+          "variantes": [
+            "MAC Niterói",
+            "MAC"
+          ]
+        },
+        {
+          "id": "mackintosh",
+          "nome": "Mackintosh",
+          "descricao": "Capa de chuva de tecido impermeabilizado criada pelo escocês Charles Macintosh no século dezenove",
+          "variantes": [
+            "Macintosh",
+            "Mac"
+          ]
+        },
+        {
+          "id": "macintosh",
+          "nome": "Macintosh",
+          "descricao": "Linha de computadores pessoais da Apple, lançada em 1984.",
+          "variantes": [
+            "Mac"
+          ]
+        },
+        {
+          "id": "maca",
+          "nome": "Maçã",
+          "descricao": "Fruto da macieira (Malus domestica), cultivado no mundo todo.",
+          "variantes": [
+            "Apple"
+          ]
+        },
+        {
+          "id": "maranhao",
+          "nome": "Maranhão",
+          "descricao": "Estado do Nordeste do Brasil, cuja capital é São Luís.",
+          "variantes": [
+            "MA"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Forte de Copacabana",
+        "descricao": "Fortificação militar na ponta sul da praia de Copacabana, no Rio de Janeiro.",
+        "variantes": [
+          "Forte de Copacabana e Museu Histórico do Exército"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "revolta_dos_18_do_forte_de_copacabana",
+          "nome": "Revolta dos 18 do Forte de Copacabana",
+          "descricao": "Primeira revolta do movimento tenentista, ocorrida no Rio de Janeiro em 5 de julho de 1922.",
+          "variantes": [
+            "Os 18 do Forte",
+            "Revolta do Forte de Copacabana"
+          ]
+        },
+        {
+          "id": "calcadao_de_copacabana",
+          "nome": "Calçadão de Copacabana",
+          "descricao": "Calçada à beira-mar da praia de Copacabana, no Rio de Janeiro, com desenho de ondas em pedra portuguesa.",
+          "variantes": [
+            "Calçadão da Avenida Atlântica"
+          ]
+        },
+        {
+          "id": "copacabana",
+          "nome": "Copacabana",
+          "descricao": "Bairro da zona sul do Rio de Janeiro, famoso pela praia e pela Avenida Atlântica.",
+          "variantes": [
+            "Copacabana (Rio de Janeiro)",
+            "Copacabana (bairro)"
+          ]
+        },
+        {
+          "id": "paineira",
+          "nome": "Paineira",
+          "descricao": "Árvore decídua sul-americana Ceiba speciosa, de flores rosadas e tronco bojudo com espinhos.",
+          "variantes": [
+            "Ceiba speciosa",
+            "Barriguda",
+            "Paina-rosa",
+            "Árvore-de-paina"
+          ]
+        },
+        {
+          "id": "pave",
+          "nome": "Pavê",
+          "descricao": "Sobremesa gelada brasileira em camadas de biscoito ou bolo e creme, de inspiração francesa.",
+          "variantes": [
+            "Torta de bolacha",
+            "Pavê de doce de leite"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "lagoa_da_pampulha",
+      "motivo": "Mesma lagoa artificial de Belo Horizonte; o conjunto moderno é entidade distinta."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "parque_do_flamengo",
+      "motivo": "Mesmo parque/aterro à beira da baía de Guanabara no Rio."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Usina do Gasômetro de Porto Alegre não consta entre as candidatas; o Nuevo Gasómetro é estádio em Buenos Aires."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "museu_de_arte_contemporanea_de_niteroi",
+      "motivo": "Mesmo museu de Niemeyer em Niterói."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "O Forte de Copacabana não está cadastrado; a revolta, o bairro e o calçadão são entidades diferentes."
+    }
+  ]
+}

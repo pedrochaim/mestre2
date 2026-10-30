@@ -1,0 +1,157 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Panorama de praça com prédios variados e pessoas; nenhum elemento permite reconhecer o Vale do Anhangabaú com resposta única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto clara da igreja da Pampulha à margem da lagoa; pergunta de conexão sem texto na imagem.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que arquiteto projetou o conjunto de monumentos construído às margens desta lagoa?",
+      "resposta": "Oscar Niemeyer",
+      "distratores": [
+        "Lúcio Costa",
+        "Affonso Eduardo Reidy",
+        "Paulo Mendes da Rocha"
+      ],
+      "ancora": {
+        "nome": "Lagoa da Pampulha",
+        "descricao": "Lagoa artificial em Belo Horizonte, Minas Gerais, com conjunto arquitetônico projetado por Oscar Niemeyer.",
+        "variantes": [
+          "Pampulha",
+          "Lago da Pampulha"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, ocupando boa parte da imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista aérea do Aterro com a baía e o Pão de Açúcar ao fundo; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que paisagista assinou o projeto paisagístico deste parque, em primeiro plano à beira da baía?",
+      "resposta": "Roberto Burle Marx",
+      "distratores": [
+        "Fernando Chacel",
+        "Luiz Emygdio de Mello Filho",
+        "Lúcio Costa"
+      ],
+      "ancora": {
+        "nome": "Parque do Flamengo",
+        "descricao": "Grande parque público à beira da Baía de Guanabara, no bairro do Flamengo, Rio de Janeiro.",
+        "variantes": [
+          "Aterro do Flamengo",
+          "Parque Eduardo Gomes"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Placa 'Circolo Italiano' e bandeiras da Itália visíveis entregam a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Prédio com chaminé alta bem reconhecível às margens do Guaíba; o letreiro 'Usina CEEE' é pequeno e não revela a cidade.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica este prédio de chaminé alta, à beira da água?",
+      "resposta": "Porto Alegre",
+      "distratores": [
+        "Pelotas",
+        "Florianópolis",
+        "Curitiba"
+      ],
+      "ancora": {
+        "nome": "Usina do Gasômetro",
+        "descricao": "Antiga usina termelétrica de Porto Alegre, hoje centro cultural, às margens do Guaíba.",
+        "variantes": [
+          "Gasômetro"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Forma de disco inconfundível, sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que museu é este?",
+      "resposta": "Museu de Arte Contemporânea de Niterói",
+      "distratores": [
+        "Museu Oscar Niemeyer",
+        "Museu do Amanhã",
+        "Museu de Arte Moderna"
+      ],
+      "ancora": {
+        "nome": "Museu de Arte Contemporânea de Niterói",
+        "descricao": "Museu projetado por Oscar Niemeyer em forma de disco, em Niterói, Rio de Janeiro.",
+        "variantes": [
+          "MAC Niterói",
+          "MAC"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma anêmona com camarão, que não permite reconhecer o arquipélago de Abrolhos."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Torres e fontes sem elemento claramente identificável; reconhecimento do Parque Tanguá é incerto."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista aérea com o forte na ponta da praia, inconfundível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que construção é esta, na ponta da praia?",
+      "resposta": "Forte de Copacabana",
+      "distratores": [
+        "Forte de Santa Cruz",
+        "Forte de São João",
+        "Forte de Duque de Caxias"
+      ],
+      "ancora": {
+        "nome": "Forte de Copacabana",
+        "descricao": "Fortificação militar na ponta sul da praia de Copacabana, no Rio de Janeiro.",
+        "variantes": [
+          "Forte de Copacabana e Museu Histórico do Exército"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Fachada traz o nome 'Real Gabinete Portuguez de Leitura' escrito, entregando a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A imagem mostra a Pedra da Gávea e picos na mata; a Floresta da Tijuca não é identificável com resposta única."
+    }
+  ]
+}

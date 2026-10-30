@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos (conjunto de Pampulha por Niemeyer). O enunciado não nomeia a lagoa nem a resposta, e os distratores são arquitetos brasileiros críveis, nenhum autor do conjunto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Burle Marx está nos trechos como autor do projeto paisagístico. Fernando Chacel e Luiz Emygdio de Mello Filho colaboraram com ele no parque, então são distratores defensáveis. Troquei-os por paisagistas sem ligação com o parque.",
+      "reescrita": {
+        "pergunta": "Que paisagista assinou o projeto paisagístico deste parque, em primeiro plano à beira da baía?",
+        "resposta": "Roberto Burle Marx",
+        "distratores": [
+          "Auguste Glaziou",
+          "Rosa Kliass",
+          "Lúcio Costa"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A localização em Porto Alegre, a chaminé e a beira do Guaíba estão nos trechos. O enunciado não entrega a cidade e os distratores são capitais ou cidades do Sul, nenhuma correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento nível 1 sem vazamento. A resposta é única e os distratores são museus brasileiros de arquitetura ou de nome parecidos, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O Forte de Copacabana está na ponta da praia (trechos). Mas o Forte Duque de Caxias fica na outra ponta, no Leme, e também cabe em 'na ponta da praia', então o distrator é defensável. Troquei-o por um forte de outra cidade.",
+      "reescrita": {
+        "pergunta": "Que construção é esta, na ponta da praia?",
+        "resposta": "Forte de Copacabana",
+        "distratores": [
+          "Forte de Santa Cruz",
+          "Forte de São João",
+          "Forte Defensor Perpétuo"
+        ]
+      }
+    }
+  ]
+}

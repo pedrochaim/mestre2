@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que arquiteto projetou o conjunto de monumentos construído às margens desta lagoa?",
+        "resposta": "Oscar Niemeyer"
+      },
+      "existentes": [
+        {
+          "id": "q09176",
+          "pergunta": "Nos anos 1940, que arquiteto projetou a igreja, o cassino e outros prédios modernos à beira da lagoa da Pampulha, em Belo Horizonte?",
+          "resposta": "Oscar Niemeyer"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que paisagista assinou o projeto paisagístico deste parque, em primeiro plano à beira da baía?",
+        "resposta": "Roberto Burle Marx"
+      },
+      "existentes": [
+        {
+          "id": "q07526",
+          "pergunta": "O paisagismo do Aterro do Flamengo e os mosaicos do calçadão de Copacabana, nos anos setenta, têm a assinatura de que paisagista?",
+          "resposta": "Roberto Burle Marx"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que museu é este?",
+        "resposta": "Museu de Arte Contemporânea de Niterói"
+      },
+      "existentes": [
+        {
+          "id": "q03958",
+          "pergunta": "Com vista para a baía de Guanabara, o museu de arte contemporânea de Niemeyer em forma de disco voador fica em que cidade?",
+          "resposta": "Niterói"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam quem foi o arquiteto (Niemeyer) dos monumentos da lagoa da Pampulha."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o paisagista (Burle Marx) do projeto paisagístico do parque/Aterro do Flamengo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome do museu; a existente pede a cidade onde fica. São fatos diferentes."
+    }
+  ]
+}
