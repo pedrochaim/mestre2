@@ -1,0 +1,195 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ilustração limpa, sem texto, exercício reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este exercício é um dos três levantamentos de qual modalidade esportiva?",
+      "resposta": "Powerlifting",
+      "distratores": [
+        "Halterofilia olímpica",
+        "Fisiculturismo",
+        "Crossfit"
+      ],
+      "ancora": {
+        "nome": "Supino",
+        "descricao": "Exercício de musculação em que se empurra uma barra para cima deitado num banco horizontal.",
+        "variantes": [
+          "Supino reto",
+          "Bench press"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto clara de escalada em gelo, sem texto que entregue; rosto quase coberto pelo capacete.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Esta modalidade nasceu como um ramo de qual outra prática esportiva?",
+      "resposta": "Alpinismo",
+      "distratores": [
+        "Esqui alpino",
+        "Rapel",
+        "Trilha em montanha"
+      ],
+      "ancora": {
+        "nome": "Escalada em gelo",
+        "descricao": "Modalidade de escalada em que se sobem cachoeiras congeladas e paredes de gelo com piquetas e crampons.",
+        "variantes": [
+          "Ice climbing",
+          "Escalada no gelo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, pouco legível no celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Jogador profissional prestes a repor a bola com as mãos acima da cabeça; sem texto que entregue.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que reposição de bola do futebol é esta?",
+      "resposta": "Arremesso lateral",
+      "distratores": [
+        "Tiro de meta",
+        "Escanteio",
+        "Bola ao chão"
+      ],
+      "ancora": {
+        "nome": "Lateral (arremesso lateral)",
+        "descricao": "Reposição de bola no futebol feita com as mãos quando a bola cruza inteira a linha lateral.",
+        "variantes": [
+          "Lateral",
+          "Arremesso lateral",
+          "Throw-in"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida de wicket de críquete; o texto da marca não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que esporte este conjunto de três estacas com duas travessas é derrubado pela bola para eliminar o rebatedor?",
+      "resposta": "Críquete",
+      "distratores": [
+        "Croquet",
+        "Beisebol",
+        "Hóquei sobre grama"
+      ],
+      "ancora": {
+        "nome": "Wicket",
+        "descricao": "Conjunto de três estacas e duas travessas guardado pelo rebatedor no críquete.",
+        "variantes": [
+          "Wicket de críquete",
+          "Stumps"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Moto de cross em salto numa pista ao ar livre, claramente motocross; piloto de capacete.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que modalidade de motociclismo é esta?",
+      "resposta": "Motocross",
+      "distratores": [
+        "Enduro",
+        "Trial",
+        "Speedway"
+      ],
+      "ancora": {
+        "nome": "Motocross",
+        "descricao": "Corrida de motos em circuito fechado de terra com obstáculos e saltos.",
+        "variantes": [
+          "MX"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arma isolada em fundo branco, sem texto, reconhecível pela lâmina curva em haste longa.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que arma japonesa de haste é esta?",
+      "resposta": "Naginata",
+      "distratores": [
+        "Yari",
+        "Kusarigama",
+        "Bō"
+      ],
+      "ancora": {
+        "nome": "Naginata",
+        "descricao": "Arma japonesa de haste longa com lâmina curva, usada por samurais e, hoje, em arte marcial.",
+        "variantes": [
+          "Naginata japonesa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto de aquecimento em que não é claro que o gesto seja uma rabona; resposta não única diante da imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A bola traz escrito 'Al Rihla' e 'FIFA World Cup Qatar 2022', entregando a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto antiga de lutador comum, com texto na camisa; a modalidade não é reconhecível pela imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, de rosto visível."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Troféu dourado em forma de bola, reconhecível; a placa nomeia jogador e ano, não o prêmio.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que prêmio individual do futebol é este troféu?",
+      "resposta": "Bola de Ouro",
+      "distratores": [
+        "Chuteira de Ouro",
+        "Melhor do Mundo da FIFA",
+        "Prêmio Puskás"
+      ],
+      "ancora": {
+        "nome": "Bola de Ouro",
+        "descricao": "Prêmio anual da revista France Football ao melhor jogador de futebol da temporada, o Ballon d'Or.",
+        "variantes": [
+          "Ballon d'Or"
+        ]
+      }
+    }
+  ]
+}

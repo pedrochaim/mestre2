@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que prêmio individual do futebol é este troféu?",
+        "resposta": "Bola de Ouro (Ballon d'Or)"
+      },
+      "existentes": [
+        {
+          "id": "q09353",
+          "pergunta": "A Bola de Ouro, criada em 1956, passou a aceitar jogadores não europeus que atuavam em clubes da Europa a partir de qual ano?",
+          "resposta": "1995"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do troféu (Bola de Ouro); a existente pede o ano em que passou a aceitar não europeus (1995). Fatos diferentes."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o supino é um dos três levantamentos do powerlifting. O enunciado não nomeia o exercício. Os distratores são esportes do mesmo tipo e nenhum usa o supino como levantamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que a escalada em gelo se desenvolveu como parte do alpinismo (alpine climbing). O enunciado não entrega a resposta e os distratores são críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma o nome e a função do arremesso lateral. O enunciado é curto e não nomeia a resposta. Os distratores são outras reposições de bola e estão errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Na imagem coberta dá para responder só pelo enunciado: três estacas, duas travessas e rebatedor eliminado pela bola descrevem o críquete. A figura vira enfeite. A reescrita tira a descrição e mantém a pergunta de reconhecimento.",
+      "reescrita": {
+        "pergunta": "Em que esporte se usa este conjunto de estacas?",
+        "resposta": "Críquete",
+        "distratores": [
+          "Croquet",
+          "Beisebol",
+          "Hóquei sobre grama"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho descreve o motocross como corrida off-road em circuito fechado. O enunciado só pede o reconhecimento e os distratores são outras modalidades de motociclismo, todas erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a naginata é uma arma de haste japonesa. O enunciado não a nomeia. Yari, kusarigama e bō são armas japonesas diferentes e não descrevem a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Bola de Ouro\" também é o nome do prêmio de melhor jogador da Copa do Mundo, que também é um prêmio individual do futebol, e isso torna a resposta ambígua. A reescrita acrescenta o nome original à resposta para marcar o prêmio da revista France Football.",
+      "reescrita": {
+        "pergunta": "Que prêmio individual do futebol é este troféu?",
+        "resposta": "Bola de Ouro (Ballon d'Or)",
+        "distratores": [
+          "Chuteira de Ouro",
+          "Melhor do Mundo da FIFA",
+          "Prêmio Puskás"
+        ]
+      }
+    }
+  ]
+}
