@@ -55,6 +55,17 @@ VARIEDADE_SEM_COTA = """- **Sem cota de ângulos:** o lote pode se concentrar no
 - Uma âncora da lista abaixo pode receber perguntas até o limite, desde que sobre fatos novos. Profundidade vem de fatos novos sobre assuntos conhecidos, e não de assuntos obscuros."""
 
 
+def _regra_anos(enc):
+    """Teto de respostas de ano (MANIFESTO §9), só no jogo original. O número pedido ao gerador desconta as ~20%
+    que a crítica costuma tirar, para que o corte do registro (bc.cortar_anos) quase nunca precise agir."""
+    if enc.get("exclusiva"):
+        return ""
+    n = int(enc["quantidade"] * bc.MAX_FRACAO_ANO * 0.8)
+    return (f"\n- **No máximo {n} perguntas cuja resposta é um ano específico** (\"1969\", \"800 a.C.\"), somando abertas "
+            f"e múltiplas: o lote não passa de {bc.MAX_FRACAO_ANO:.0%} delas, e o que passar é descartado. Para pedir a "
+            "época, prefira o século, a década ou a ordem entre dois fatos.")
+
+
 def montar_prompt_geracao(enc, banco):
     colecao = bc.colecao_exclusiva(enc)
     limite = bc.limite_por_ancora(enc)
@@ -106,7 +117,7 @@ def montar_prompt_geracao(enc, banco):
         angulos_alvo=", ".join(enc.get("angulos_alvo", [])) or "nenhum em especial; siga as regras de variedade",
         observacoes=enc.get("observacoes") or "nenhuma",
         subtemas_colecao=_bloco_subtemas_colecao(enc),
-        regras_variedade=VARIEDADE_SEM_COTA if colecao in bc.SEM_COTA_ANGULOS else VARIEDADE_LOTE,
+        regras_variedade=VARIEDADE_SEM_COTA if colecao in bc.SEM_COTA_ANGULOS else VARIEDADE_LOTE + _regra_anos(enc),
         escopo=escopo,
         formato_extra=f" | perguntas da âncora na coleção (máximo {limite})" if colecao else "",
         limite=limite,
@@ -499,9 +510,16 @@ def registrar(enc, banco, canon, pasta):
         if id_ativo:
             banco.acrescentar_variantes(id_ativo, nomes)
 
+    itens = dados["itens"]
+    if not enc.get("exclusiva"):
+        itens, cortados = bc.cortar_anos(itens)
+        for it in cortados:
+            registrar_log(enc["id"], "registrar", "descartada",
+                          f"passa do teto de {bc.MAX_FRACAO_ANO:.0%} de respostas de ano no lote", _resumo(it))
+
     numero = banco.proximo_numero()
     registradas = []
-    for it in dados["itens"]:
+    for it in itens:
         ancora = renomear.get(it["ancora"], it["ancora"])
         final = forma_final(it, f"q{numero:05d}", ancora)
         # Coleção temática (MANIFESTO §6): a encomenda marca todas as suas perguntas; "exclusiva" as tira do jogo original.

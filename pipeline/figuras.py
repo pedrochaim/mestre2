@@ -706,6 +706,10 @@ def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None, fracao
         prompt = preencher(ler_texto(PROMPTS_DIR / "figuras.md"), id=cat["id"], descricao=cat["descricao"],
                            destinos=json.dumps({i: f"{t} › {s}" for i, (t, s) in enumerate(cat["destinos"])}, ensure_ascii=False),
                            familias=", ".join(cat["familias"]), enunciado=enunciado,
+                           regra_anos="" if cat.get("exclusiva") else
+                           (f" no máximo **{bc.MAX_ANO_LOTE_FIGURA}** pergunta do lote com resposta que é um ano "
+                            "específico (MANIFESTO §9); o que passar é descartado. Para pedir a época, prefira o século "
+                            "ou a década;"),
                            itens=json.dumps(entrada, ensure_ascii=False, indent=2), manifesto=_manifesto(cat))
         c = config["figuras"]
         claude_cli.contexto.update(encomenda=lote_id, etapa="figuras")
@@ -933,7 +937,15 @@ def _registrar(cat, itens, avaliacao, critica, banco, canon, lote_id, est, pasta
                                                           banco, para_checar, pasta, config)}
         prontos = [c for c in prontos if c["indice"] in ficam]
 
-    # d) gravação
+    # d) teto de respostas de ano (MANIFESTO §9), só no jogo original; a entidade cortada volta ao catálogo
+    if not cat.get("exclusiva"):
+        prontos, cortados = bc.cortar_anos(prontos, bc.MAX_ANO_LOTE_FIGURA, chave=lambda c: c["p"])
+        for c in cortados:
+            registrar_log(lote_id, "figuras", "descartada", "passa do teto de respostas de ano no lote", c["resumo"])
+            if c["ent"]:
+                c["ent"]["status"] = "nova"
+
+    # e) gravação
     numero = banco.proximo_numero()
     registradas = []
     for c in prontos:

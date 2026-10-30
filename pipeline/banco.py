@@ -1,6 +1,7 @@
 """Banco de perguntas e cadastro de âncoras: leitura, consultas, validação e busca."""
 
 import difflib
+import re
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -267,6 +268,35 @@ def limite_figura_por_ancora(origem=None):
 
 def limite_no_lote(origem=None):
     return MAX_POR_ANCORA_LOTE_COLECAO.get(colecao_exclusiva(origem), MAX_POR_ANCORA_LOTE)
+
+
+# Teto de respostas que são um ano específico (MANIFESTO §9, desde 2026-10-30), só no jogo original: no máximo 9% das
+# perguntas de um lote de texto, somando abertas e múltiplas, e no máximo uma num lote de figuras (12 itens).
+MAX_FRACAO_ANO = 0.09
+MAX_ANO_LOTE_FIGURA = 1
+_RESPOSTA_ANO = re.compile(r"(em\s+|no\s+ano\s+de\s+)?\d{1,4}(\s*(a\.?\s?C\.?|d\.?\s?C\.?))?\.?", re.I)
+
+
+def resposta_ano(pergunta):
+    """A resposta é um ano específico ("1969", "800 a.C."), e não uma quantidade: só algarismos, com o ângulo
+    `tempo` ou um enunciado que fala em ano."""
+    return bool(_RESPOSTA_ANO.fullmatch(str(pergunta.get("resposta", "")).strip())) and (
+        pergunta.get("angulo") == "tempo" or re.search(r"\bano\b", pergunta.get("pergunta", ""), re.I) is not None)
+
+
+def anos_permitidos(outros):
+    """Quantas respostas de ano cabem num lote com `outros` perguntas de outro tipo sem passar de MAX_FRACAO_ANO."""
+    return int(round(outros * MAX_FRACAO_ANO / (1 - MAX_FRACAO_ANO), 9))
+
+
+def cortar_anos(itens, maximo=None, chave=lambda x: x):
+    """Separa (ficam, cortados) os itens com resposta de ano que passam do teto: `maximo`, ou, sem ele, o que cabe
+    em MAX_FRACAO_ANO do lote. Ficam os primeiros da lista."""
+    anos = [x for x in itens if resposta_ano(chave(x))]
+    if maximo is None:
+        maximo = anos_permitidos(len(itens) - len(anos))
+    cortados = {id(x) for x in anos[maximo:]}
+    return [x for x in itens if id(x) not in cortados], [x for x in itens if id(x) in cortados]
 
 
 def subtemas_da_colecao(perguntas, colecao):

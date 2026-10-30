@@ -1,0 +1,300 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato escuro mas reconhecível; sem texto. Data incerta (1513-1516), então troquei para autoria.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que gênio do Renascimento italiano pintou este quadro?",
+      "resposta": "Leonardo da Vinci",
+      "distratores": [
+        "Michelangelo",
+        "Rafael Sanzio",
+        "Ticiano"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "São João Batista (Leonardo)",
+        "descricao": "Pintura a óleo de Leonardo da Vinci, hoje no Louvre, que mostra são João Batista apontando para o alto.",
+        "variantes": [
+          "Saint John the Baptist",
+          "São João Batista de Leonardo da Vinci"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Obra emblemática do fauvismo, clara no celular. A assinatura entrega o autor, então a pergunta é sobre o ano.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi pintado este retrato que escandalizou o público de Paris pelas cores?",
+      "resposta": "1905",
+      "distratores": [
+        "1899",
+        "1901",
+        "1908"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mulher com Chapéu (Matisse)",
+        "descricao": "Retrato de Amélie Matisse pintado por Henri Matisse em 1905, obra marcante do fauvismo.",
+        "variantes": [
+          "A Senhora Matisse",
+          "Woman with a Hat",
+          "La femme au chapeau"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto. Data aproximada (1657-1659), então troquei para autoria, com pintores holandeses parecidos como distratores.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que pintor holandês do século dezessete pintou este quadro?",
+      "resposta": "Johannes Vermeer",
+      "distratores": [
+        "Pieter de Hooch",
+        "Rembrandt",
+        "Frans Hals"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Moça Lendo uma Carta à Janela (Vermeer)",
+        "descricao": "Pintura de Johannes Vermeer, na Gemäldegalerie de Dresden, que mostra uma jovem lendo uma carta diante de uma janela aberta.",
+        "variantes": [
+          "Girl Reading a Letter at an Open Window",
+          "Mulher lendo uma carta à janela"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, retrato famoso de figuras históricas. Troquei para autoria porque o estilo é reconhecível entre os pintores ingleses.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que pintor inglês do século dezoito pintou este retrato de um casal no campo?",
+      "resposta": "Thomas Gainsborough",
+      "distratores": [
+        "Joshua Reynolds",
+        "John Constable",
+        "William Hogarth"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sr. e Sra. Andrews (Gainsborough)",
+        "descricao": "Retrato a óleo de cerca de 1750, de Thomas Gainsborough, que mostra um casal de proprietários rurais numa paisagem; fica na National Gallery de Londres.",
+        "variantes": [
+          "Mr and Mrs Andrews",
+          "Senhor e Senhora Andrews"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto que entregue a resposta. Pergunta pelo ano de conclusão.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi concluído este quadro, hoje em Londres, que mostra Jesus ressuscitado numa estalagem?",
+      "resposta": "1601",
+      "distratores": [
+        "1595",
+        "1598",
+        "1604"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Ceia em Emaús (Caravaggio, Londres)",
+        "descricao": "Pintura barroca de Caravaggio concluída em 1601, na National Gallery de Londres, que mostra Jesus ressuscitado revelando-se aos discípulos em Emaús.",
+        "variantes": [
+          "Supper at Emmaus",
+          "A Ceia de Emaús"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem nítida, sem texto legível. Autoria com pintores flamengos parecidos como distratores.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor flamengo do século quinze pintou esta obra, hoje no Museu do Prado?",
+      "resposta": "Rogier van der Weyden",
+      "distratores": [
+        "Jan van Eyck",
+        "Hans Memling",
+        "Hieronymus Bosch"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Descida da Cruz (Van der Weyden)",
+        "descricao": "Pintura em painel de Rogier van der Weyden, de cerca de 1435, no Museu do Prado, que mostra Cristo sendo baixado da cruz.",
+        "variantes": [
+          "The Descent from the Cross",
+          "A Deposição da Cruz",
+          "Deposição de Cristo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto. A pergunta é pelo ano do acontecimento retratado.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano ocorreu o levante de Madri contra os franceses, retratado neste quadro?",
+      "resposta": "1808",
+      "distratores": [
+        "1805",
+        "1810",
+        "1812"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Dois de Maio de 1808 (Goya)",
+        "descricao": "Pintura de Francisco Goya, de 1814, que retrata o levante popular de Madri contra a ocupação francesa, com a carga dos mamelucos.",
+        "variantes": [
+          "A Carga dos Mamelucos",
+          "El 2 de mayo de 1808 en Madrid",
+          "The Second of May 1808"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem clara, assinatura quase ilegível. Pergunta de estilo sem nomear o assunto.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A que movimento artístico pertence este grande quadro francês de 1824?",
+      "resposta": "Romantismo",
+      "distratores": [
+        "Neoclassicismo",
+        "Realismo",
+        "Impressionismo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Massacre de Quios (Delacroix)",
+        "descricao": "Pintura de Eugène Delacroix, de 1824, que retrata o massacre da população grega da ilha de Quios pelas tropas otomanas em 1822.",
+        "variantes": [
+          "Cenas dos massacres de Quios",
+          "Massacre of Chios",
+          "O Massacre de Quio"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem clara; a assinatura de Monet está no canto, mas a pergunta é pelo ano, que ela não entrega.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi pintado este jardim à beira-mar?",
+      "resposta": "1867",
+      "distratores": [
+        "1862",
+        "1872",
+        "1877"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jardim em Sainte-Adresse (Monet)",
+        "descricao": "Pintura de Claude Monet, de 1867, que mostra uma família num terraço com jardim diante do mar em Sainte-Adresse, na Normandia; fica no Metropolitan Museum of Art.",
+        "variantes": [
+          "Garden at Sainte-Adresse",
+          "A Terraço em Sainte-Adresse",
+          "La terrasse à Sainte-Adresse"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto. Pergunta de estilo (nível 3) sem nomear a obra.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A que estilo artístico, do fim do século dezesseis, pertence este quadro espanhol?",
+      "resposta": "Maneirismo",
+      "distratores": [
+        "Barroco",
+        "Rococó",
+        "Romantismo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Enterro do Conde de Orgaz (El Greco)",
+        "descricao": "Pintura de El Greco, de 1586, na igreja de Santo Tomé, em Toledo, dividida em uma parte celeste e outra terrestre.",
+        "variantes": [
+          "The Burial of the Count of Orgaz",
+          "El Entierro del Conde de Orgaz",
+          "Enterro do Conde de Orgaz"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Imagem clara. A assinatura \"I V Meer\" é minúscula e ilegível no celular, mas evitei perguntar o autor e perguntei o museu.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que museu de Amsterdam fica este quadro de uma rua holandesa do século dezessete?",
+      "resposta": "Rijksmuseum",
+      "distratores": [
+        "Museu Van Gogh",
+        "Stedelijk Museum",
+        "Rembrandthuis"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Ruazinha (Vermeer)",
+        "descricao": "Pintura de Johannes Vermeer, de cerca de 1657-1658, que mostra a fachada de casas de tijolo numa rua de cidade holandesa; fica no Rijksmuseum.",
+        "variantes": [
+          "The Little Street",
+          "Het Straatje",
+          "A Pequena Rua",
+          "Vista de Casas em Delft"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto. Obra inacabada de aspecto distintivo, com distratores que também são obras de Leonardo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que obra inacabada de Leonardo da Vinci, feita em Florença, é esta?",
+      "resposta": "A Adoração dos Magos",
+      "distratores": [
+        "A Virgem das Rochas",
+        "A Anunciação",
+        "A Última Ceia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Adoração dos Magos (Leonardo)",
+        "descricao": "Pintura inacabada de Leonardo da Vinci, encomendada em 1481 pelos monges de San Donato in Scopeto e hoje na Galeria Uffizi, em Florença.",
+        "variantes": [
+          "Adoration of the Magi",
+          "Adoração dos Reis Magos"
+        ]
+      }
+    }
+  ]
+}

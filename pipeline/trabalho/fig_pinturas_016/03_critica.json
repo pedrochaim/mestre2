@@ -1,0 +1,96 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria confirmada nos trechos; sem vazamento e distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "1905 confirmado; o escândalo em Paris consta nos trechos; distratores são anos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vermeer confirmado; distratores são pintores holandeses do século dezessete.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gainsborough confirmado, retrato de cerca de 1750; distratores ingleses que não pintaram a obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "1601 e a versão de Londres confirmados; a menção a Londres distingue da versão de Milão (1606).",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria, Prado e século quinze confirmados; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Sem a imagem, 'levante de Madri contra os franceses' já entrega 1808, então a figura vira enfeite. A pergunta passa a ser sobre o ano em que Goya pintou o quadro (1814, amplamente documentado), com 1808 como distrator crível.",
+      "reescrita": {
+        "pergunta": "Em que ano Goya terminou esta pintura de um levante popular em Madri?",
+        "resposta": "1814",
+        "distratores": [
+          "1808",
+          "1810",
+          "1820"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Romantismo é a classificação amplamente documentada de Delacroix; o enunciado não entrega a resposta e os distratores são movimentos erróneos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Verão de 1867 confirmado no trecho; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho em português descreve a obra como maneirista; 1586 confere com o fim do século dezesseis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rijksmuseum de Amsterdam confirmado; distratores são museus de Amsterdam.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Obra inacabada, encomendada em Florença; os distratores são obras de Leonardo concluídas, e a figura distingue a obra de outras inacabadas.",
+      "reescrita": null
+    }
+  ]
+}
