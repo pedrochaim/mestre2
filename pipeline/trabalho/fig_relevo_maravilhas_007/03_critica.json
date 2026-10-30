@@ -1,0 +1,63 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rio Yangtzé confirmado nos trechos; enunciado não nomeia a represa e distratores são rios chineses/asiáticos críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado (Golfo Sarônico). \"Grego\" ajuda a identificar o canal sem a figura; removido, deixando o reconhecimento para a imagem.",
+      "reescrita": {
+        "pergunta": "Este canal artificial liga o mar Jônico a qual golfo do mar Egeu?",
+        "resposta": "Golfo Sarônico",
+        "distratores": [
+          "Golfo de Salônica",
+          "Golfo Argólico",
+          "Golfo de Patras"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Forma cônica quase perfeita\" é pista famosa do Arenal (e \"quase perfeita\" não está literalmente nos trechos); a figura vira enfeite. Basta o país.",
+      "reescrita": {
+        "pergunta": "Que vulcão da Costa Rica é este?",
+        "resposta": "Vulcão Arenal",
+        "distratores": [
+          "Vulcão Irazú",
+          "Vulcão Poás",
+          "Vulcão Turrialba"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jungfrau nos Alpes Berneses, Suíça; enunciado só dá o país/cadeia, distratores (Eiger, Mönch, Matterhorn) são montanhas suíças parecidas e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"O mais alto do seu estado\" entrega a resposta pelo teste da imagem coberta, e o distrator Pico da Bandeira também é o mais alto do seu estado (Espírito Santo), logo também correto. Troca por pista de região e distratores da mesma serra.",
+      "reescrita": {
+        "pergunta": "Que pico da serra da Mantiqueira é este?",
+        "resposta": "Pico das Agulhas Negras",
+        "distratores": [
+          "Pedra da Mina",
+          "Pico dos Marins",
+          "Pico do Itaguaré"
+        ]
+      }
+    }
+  ]
+}

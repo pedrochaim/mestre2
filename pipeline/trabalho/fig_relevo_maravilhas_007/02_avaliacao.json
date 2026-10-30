@@ -1,0 +1,157 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Vista aérea de áreas alagadas genéricas; não dá para reconhecer o Pantanal com resposta única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A imagem mostra deserto e rochas no chão, não o anel característico da Estrutura de Richat; não é reconhecível."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Lago entre montanhas sem traço distintivo; muitos lagos alpinos se parecem, resposta não única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Barragem com guindastes vermelhos característicos, sem texto.",
+      "pergunta": "Em que rio fica esta grande represa hidrelétrica?",
+      "resposta": "Rio Yangtzé",
+      "tipo": "multipla",
+      "distratores": [
+        "Rio Amarelo",
+        "Rio Mekong",
+        "Rio Amur"
+      ],
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 1,
+      "ancora": {
+        "nome": "Represa das Três Gargantas",
+        "descricao": "Barragem hidrelétrica no rio Yangtzé, em Yichang, província de Hubei, China, a maior usina do mundo em capacidade instalada.",
+        "variantes": [
+          "Hidrelétrica das Três Gargantas",
+          "Three Gorges Dam"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Canal de paredes verticais, retilíneo, inconfundível, sem texto.",
+      "pergunta": "Este canal grego liga o mar Jônico a qual golfo do mar Egeu?",
+      "resposta": "Golfo Sarônico",
+      "tipo": "multipla",
+      "distratores": [
+        "Golfo de Salônica",
+        "Golfo Argólico",
+        "Golfo de Patras"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "ancora": {
+        "nome": "Canal de Corinto",
+        "descricao": "Canal artificial na Grécia, concluído em 1893, que corta o istmo de Corinto e separa o Peloponeso do continente.",
+        "variantes": [
+          "Corinth Canal",
+          "Canal de Corinto"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vulcão de cone perfeito, sem texto, reconhecível.",
+      "pergunta": "Que vulcão costarriquenho, de forma cônica quase perfeita, é este?",
+      "resposta": "Vulcão Arenal",
+      "tipo": "multipla",
+      "distratores": [
+        "Vulcão Irazú",
+        "Vulcão Poás",
+        "Vulcão Turrialba"
+      ],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Vulcão Arenal",
+        "descricao": "Estratovulcão cônico e ativo no noroeste da Costa Rica, na região de La Fortuna.",
+        "variantes": [
+          "Volcán Arenal",
+          "Arenal Volcano"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A imagem de satélite traz texto visível com 'Suez Canal, Egypt', que entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pico nevado de perfil característico, sem texto.",
+      "pergunta": "Que montanha dos Alpes suíços é esta?",
+      "resposta": "Jungfrau",
+      "tipo": "multipla",
+      "distratores": [
+        "Eiger",
+        "Matterhorn",
+        "Mönch"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Jungfrau",
+        "descricao": "Montanha de 4.158 m nos Alpes Berneses, na Suíça, entre os cantões de Berna e Valais.",
+        "variantes": [
+          "Jungfrau (montanha)"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Paisagem de lago ao entardecer com vulcões ao fundo; não permite reconhecer o Lago Kivu com segurança (parece outro lago da região dos Virunga)."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Pessoa comum em destaque no centro da imagem, em primeiro plano."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Maciço rochoso de cumes recortados, sem texto, característico do Itatiaia.",
+      "pergunta": "Que pico brasileiro, o mais alto do seu estado, é este?",
+      "resposta": "Pico das Agulhas Negras",
+      "tipo": "multipla",
+      "distratores": [
+        "Pico das Prateleiras",
+        "Pico da Bandeira",
+        "Pedra do Sino"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Pico das Agulhas Negras",
+        "descricao": "Pico de 2.790 m na serra da Mantiqueira, no Parque Nacional do Itatiaia, ponto culminante do estado do Rio de Janeiro.",
+        "variantes": [
+          "Agulhas Negras"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Vista distante e vaga de uma planície entre encostas; não permite reconhecer a cratera de Ngorongoro."
+    }
+  ]
+}

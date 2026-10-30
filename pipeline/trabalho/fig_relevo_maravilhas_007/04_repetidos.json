@@ -1,0 +1,70 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que rio fica esta grande represa hidrelétrica?",
+        "resposta": "Rio Yangtzé"
+      },
+      "existentes": [
+        {
+          "id": "q04153",
+          "pergunta": "A gigantesca usina hidrelétrica chinesa de Três Gargantas represa as águas de que rio?",
+          "resposta": "Yangtzé"
+        },
+        {
+          "id": "q15040",
+          "pergunta": "Que usina hidrelétrica é esta?",
+          "resposta": "Três Gargantas"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Este canal artificial liga o mar Jônico a qual golfo do mar Egeu?",
+        "resposta": "Golfo Sarônico"
+      },
+      "existentes": [
+        {
+          "id": "q05844",
+          "pergunta": "Que imperador romano mandou começar, no século primeiro, a escavação de um canal no istmo de Corinto, na Grécia, obra só concluída em 1893?",
+          "resposta": "Nero"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que pico da serra da Mantiqueira é este?",
+        "resposta": "Pico das Agulhas Negras"
+      },
+      "existentes": [
+        {
+          "id": "q07987",
+          "pergunta": "No Parque Nacional do Itatiaia, qual pico é o ponto mais alto do estado do Rio de Janeiro?",
+          "resposta": "Pico das Agulhas Negras"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q04153",
+      "motivo": "Ambas perguntam o rio represado pela usina de Três Gargantas (Yangtzé)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre o golfo ligado pelo canal; a existente trata do imperador que iniciou a obra. Fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q07987",
+      "motivo": "Ambas têm como resposta o Pico das Agulhas Negras, e quem soubesse uma saberia a outra."
+    }
+  ]
+}
