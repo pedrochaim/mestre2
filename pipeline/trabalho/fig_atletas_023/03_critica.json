@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento; 'meio-campista' não entrega o nome. Distratores são meio-campistas brasileiros críveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; 'zagueiro brasileiro' só delimita o grupo. Distratores são zagueiros brasileiros críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O feito único (seis ouros nos X Games, brasileira) permite identificá-la só pelo enunciado, e 'X Games' já aponta para o skate. A figura virou enfeite. Troquei a pista por outra que ajuda sem entregar, apoiada nos trechos.",
+      "reescrita": {
+        "pergunta": "Esta brasileira nasceu em São Paulo e, aos catorze anos, mudou-se para Los Angeles, onde se profissionalizou. Em que esporte?",
+        "resposta": "Skate",
+        "distratores": [
+          "Surfe",
+          "BMX",
+          "Snowboard"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Usyk foi ouro em Londres 2012 nos pesados (91 kg), fato amplamente documentado. O enunciado sozinho é ambíguo (Lomachenko também foi ouro ucraniano em 2012), então a figura é necessária. Distratores são categorias do boxe e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; 'ginasta brasileira' só delimita o grupo. Distratores são ginastas brasileiras críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Atacante' distingue de outros Freds, como o meio-campista, sem entregar o nome. Distratores são atacantes brasileiros críveis.",
+      "reescrita": null
+    }
+  ]
+}

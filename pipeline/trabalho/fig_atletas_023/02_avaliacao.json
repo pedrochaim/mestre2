@@ -1,0 +1,173 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Rosto nítido, camisa 20 da seleção sem nome; figura pública reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que meio-campista é este?",
+      "resposta": "Lucas Paquetá",
+      "distratores": [
+        "Bruno Guimarães",
+        "Philippe Coutinho",
+        "Casemiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lucas Paquetá",
+        "descricao": "Meio-campista brasileiro, ex-Flamengo, Milan, Lyon e West Ham.",
+        "variantes": [
+          "Paquetá"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto amadora de um senhor em evento; sem contexto que permita reconhecer o jogador pela imagem, resposta não é reconhecível."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cabelo cacheado característico, rosto nítido, escudo do Chelsea sem nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que zagueiro brasileiro é este?",
+      "resposta": "David Luiz",
+      "distratores": [
+        "Thiago Silva",
+        "Marquinhos",
+        "Dante"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "David Luiz",
+        "descricao": "Zagueiro brasileiro que jogou no Benfica, Chelsea, PSG e Arsenal.",
+        "variantes": [
+          "David Luiz Moreira Marinho"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O número de peito traz 'Bekele' escrito, entregando a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rosto nítido, cabelo rosa e tatuagens característicos; sem texto que revele o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta brasileira conquistou seis medalhas de ouro nos X Games. Em que esporte?",
+      "resposta": "Skate",
+      "distratores": [
+        "Surfe",
+        "BMX",
+        "Snowboard"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Letícia Bufoni",
+        "descricao": "Skatista de street brasileira, seis vezes campeã dos X Games.",
+        "variantes": [
+          "Leticia Bufoni"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto desfocada e girada, rosto coberto por capacete; o atleta não é reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Rosto nítido e característico; texto parcial do fundo não revela o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este boxeador ucraniano foi campeão olímpico em Londres 2012. Em que categoria?",
+      "resposta": "Peso pesado",
+      "distratores": [
+        "Meio-pesado",
+        "Super-pesado",
+        "Peso médio"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Oleksandr Usyk",
+        "descricao": "Boxeador ucraniano, campeão olímpico em 2012 e campeão mundial dos pesos-cruzador e pesados.",
+        "variantes": [
+          "Usyk",
+          "Oleksandr Usik"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Ginasta em primeiro plano, rosto nítido, uniforme do Brasil sem nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ginasta brasileira é esta?",
+      "resposta": "Daniele Hypólito",
+      "distratores": [
+        "Daiane dos Santos",
+        "Jade Barbosa",
+        "Flávia Saraiva"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Daniele Hypólito",
+        "descricao": "Ginasta brasileira que disputou cinco Olimpíadas, de 2000 a 2016.",
+        "variantes": [
+          "Daniele Hipólito"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Rosto coberto pelo capacete; só o número 4 e patrocinadores aparecem, não dá para reconhecer o piloto."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto antiga e pequena, com camisa listrada e patrocinador; jogador não reconhecível pela imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Retrato com patrocinadores ao fundo; atleta pouco conhecido e sem traço que permita reconhecê-lo."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Rosto nítido, camisa 9 da seleção sem nome, chuteira de prata do artilheiro.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que atacante é este?",
+      "resposta": "Fred",
+      "distratores": [
+        "Jô",
+        "Luís Fabiano",
+        "Leandro Damião"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fred",
+        "descricao": "Atacante brasileiro (Frederico Chaves Guedes), ídolo do Fluminense e da seleção.",
+        "variantes": [
+          "Frederico Chaves Guedes"
+        ]
+      }
+    }
+  ]
+}
