@@ -1,0 +1,82 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta duna do litoral nordestino fica no extremo sul de qual praia?",
+        "resposta": "Ponta Negra"
+      },
+      "existentes": [
+        {
+          "id": "q07125",
+          "pergunta": "Em que cidade fica esta duna?",
+          "resposta": "Natal"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que morro da Chapada Diamantina é este?",
+        "resposta": "Morro do Pai Inácio"
+      },
+      "existentes": [
+        {
+          "id": "q02338",
+          "pergunta": "Em que estado brasileiro fica este morro?",
+          "resposta": "Bahia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que estado brasileiro fica esta cachoeira?",
+        "resposta": "Minas Gerais"
+      },
+      "existentes": [
+        {
+          "id": "q09514",
+          "pergunta": "Esta cachoeira de queda livre altíssima é a mais alta de qual estado brasileiro?",
+          "resposta": "Minas Gerais"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que paisagem de montanhas coloridas e listradas é esta?",
+        "resposta": "Zhangye Danxia"
+      },
+      "existentes": [
+        {
+          "id": "q15914",
+          "pergunta": "Que paisagem colorida da China é esta?",
+          "resposta": "Montanhas Arco-íris de Zhangye"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a praia em que a duna fica, fato diferente da cidade (Natal)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o nome do morro é diferente de saber o estado onde fica."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas têm como resposta o estado da cachoeira, Minas Gerais; saber uma levaria a acertar a outra."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação da mesma paisagem de montanhas coloridas de Zhangye Danxia."
+    }
+  ]
+}

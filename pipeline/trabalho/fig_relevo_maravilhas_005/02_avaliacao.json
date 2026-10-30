@@ -1,0 +1,210 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Duna reconhecível, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta duna, símbolo turístico de Natal, fica no extremo sul de qual praia?",
+      "resposta": "Ponta Negra",
+      "distratores": [
+        "Genipabu",
+        "Praia do Meio",
+        "Pirangi"
+      ],
+      "ancora": {
+        "nome": "Morro do Careca",
+        "descricao": "Duna de cerca de 107 metros no extremo sul da Praia de Ponta Negra, em Natal (RN).",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Morro de topo tabular com perfil característico.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que morro da Chapada Diamantina é este?",
+      "resposta": "Morro do Pai Inácio",
+      "distratores": [
+        "Morro do Chapéu",
+        "Morro do Camelo",
+        "Pico do Barbado"
+      ],
+      "ancora": {
+        "nome": "Morro do Pai Inácio",
+        "descricao": "Elevação na Chapada Diamantina, em Palmeiras (BA), tombada como paisagem.",
+        "variantes": [
+          "Pai Inácio"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Queda alta e paredão característicos, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que estado brasileiro fica esta cachoeira?",
+      "resposta": "Minas Gerais",
+      "distratores": [
+        "Bahia",
+        "Goiás",
+        "Espírito Santo"
+      ],
+      "ancora": {
+        "nome": "Cachoeira do Tabuleiro",
+        "descricao": "Queda-d'água de 273 metros na serra do Espinhaço, em Conceição do Mato Dentro (MG).",
+        "variantes": [
+          "Tabuleiro"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto de detalhe da superfície alaranjada com névoa, sem a vista icônica; pode ser confundida com outras fontes de Yellowstone."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Montanhas listradas coloridas muito características.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que paisagem de montanhas coloridas e listradas é esta?",
+      "resposta": "Zhangye Danxia",
+      "distratores": [
+        "Vinicunca",
+        "Painted Hills",
+        "Cânion do Antílope"
+      ],
+      "ancora": {
+        "nome": "Zhangye Danxia",
+        "descricao": "Geoparque de relevo colorido em arenito, em Zhangye, província de Gansu, China.",
+        "variantes": [
+          "Parque Geológico Nacional de Zhangye",
+          "Montanhas Arco-Íris da China"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Enseada genérica com ciprestes; não permite reconhecer o Lago de Garda diante de lagos italianos parecidos."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Agulha de granito característica, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este pico da Patagônia fica a oeste de qual outra montanha famosa?",
+      "resposta": "Fitz Roy",
+      "distratores": [
+        "Aconcágua",
+        "Monte Tronador",
+        "Cerro Paine Grande"
+      ],
+      "ancora": {
+        "nome": "Cerro Torre",
+        "descricao": "Pico de granito de 3128 metros na fronteira entre Argentina e Chile, na Patagônia.",
+        "variantes": [
+          "Cerro Torre (Patagônia)"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Lagoa genérica com banhistas em primeiro plano; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem de satélite de um lago escuro sem referências; difícil distinguir do Prespa ou de outros lagos."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Rocha monolítica característica, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "No século cinco, o rei Kashyapa fez o palácio no alto desta rocha. Que animal tinha o portal gigante na encosta?",
+      "resposta": "Leão",
+      "distratores": [
+        "Elefante",
+        "Tigre",
+        "Cobra"
+      ],
+      "ancora": {
+        "nome": "Sigiriya",
+        "descricao": "Antiga fortaleza sobre uma coluna de granito de cerca de 180 metros, no Sri Lanka.",
+        "variantes": [
+          "Sinhagiri",
+          "Rocha do Leão"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Forma do lago entre cadeias nevadas é reconhecível para um aficionado; múltipla escolha ajuda.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que lago de montanha é este, visto do espaço?",
+      "resposta": "Lago Issyk-Kul",
+      "distratores": [
+        "Lago Baikal",
+        "Lago Balkhash",
+        "Lago Titicaca"
+      ],
+      "ancora": {
+        "nome": "Lago Issyk-Kul",
+        "descricao": "Lago salino endorreico nas montanhas Tian Shan, no leste do Quirguistão.",
+        "variantes": [
+          "Issyk-Kul",
+          "Ysyk-Köl"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Queda larga com ponte e castelo reconhecíveis, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta cachoeira, a mais potente da Europa?",
+      "resposta": "Suíça",
+      "distratores": [
+        "Alemanha",
+        "Áustria",
+        "Noruega"
+      ],
+      "ancora": {
+        "nome": "Cataratas do Reno",
+        "descricao": "Cachoeira no Alto Reno, na Suíça, entre os cantões de Schaffhausen e Zurique.",
+        "variantes": [
+          "Rheinfall",
+          "Rhine Falls"
+        ]
+      }
+    }
+  ]
+}

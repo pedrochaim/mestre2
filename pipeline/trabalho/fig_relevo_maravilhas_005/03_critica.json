@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos, mas 'símbolo turístico de Natal' permite identificar a duna e responder sem a figura. Troca por pista mais vaga (Nordeste).",
+      "reescrita": {
+        "pergunta": "Esta duna do litoral nordestino fica no extremo sul de qual praia?",
+        "resposta": "Ponta Negra",
+        "distratores": [
+          "Genipabu",
+          "Praia do Meio",
+          "Pirangi"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta, sem vazamento. Os distratores são plausíveis e nenhum deles é a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estado confirmado no trecho (Conceição do Mato Dentro, Minas Gerais). O enunciado não entrega a resposta e os distratores são estados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento com distratores visualmente parecidos (paisagens coloridas e listradas). O enunciado não nomeia a entidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o Cerro Torre fica a oeste do Fitz Roy. O enunciado não vaza a resposta e os distratores não são corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O rei Kashyapa e o palácio sobre a rocha identificam Sigiriya ('Rocha do Leão') sem a figura. Tirar as pistas ainda deixa a pergunta respondível por um apelido famoso. Sem conserto limpo, descarta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. 'Lago de montanha' ajuda sem entregar, e os distratores são lagos grandes.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato é verdadeiro (trecho), mas 'a mais potente da Europa' é um epíteto famoso que entrega a cachoeira sem a figura. Remove a pista.",
+      "reescrita": {
+        "pergunta": "Em que país europeu fica esta cachoeira?",
+        "resposta": "Suíça",
+        "distratores": [
+          "Alemanha",
+          "Áustria",
+          "Noruega"
+        ]
+      }
+    }
+  ]
+}

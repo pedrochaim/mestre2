@@ -1,0 +1,435 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Morro do Careca",
+        "descricao": "Duna de cerca de 107 metros no extremo sul da Praia de Ponta Negra, em Natal (RN).",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "morro_do_careca",
+          "nome": "Morro do Careca",
+          "descricao": "Duna de cerca de 107 metros na Praia de Ponta Negra, em Natal, Rio Grande do Norte.",
+          "variantes": [
+            "Morro do Careca de Ponta Negra"
+          ]
+        },
+        {
+          "id": "corcovado",
+          "nome": "Corcovado",
+          "descricao": "Morro granítico de 710 metros na Floresta da Tijuca, no Rio de Janeiro, com a estátua do Cristo Redentor.",
+          "variantes": [
+            "Morro do Corcovado"
+          ]
+        },
+        {
+          "id": "doutrina_monroe",
+          "nome": "Doutrina Monroe",
+          "descricao": "Política externa anunciada em 1823 pelo presidente americano James Monroe contra a interferência europeia nas Américas.",
+          "variantes": [
+            "Monroe Doctrine"
+          ]
+        },
+        {
+          "id": "pao_de_acucar",
+          "nome": "Pão de Açúcar",
+          "descricao": "Morro de granito na entrada da Baía de Guanabara, no Rio de Janeiro, ligado ao Morro da Urca por um teleférico.",
+          "variantes": [
+            "Morro do Pão de Açúcar",
+            "Sugarloaf Mountain"
+          ]
+        },
+        {
+          "id": "memorias_do_carcere",
+          "nome": "Memórias do Cárcere",
+          "descricao": "Livro de memórias de Graciliano Ramos sobre sua prisão política a partir de 1936, durante o governo Vargas.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Morro do Pai Inácio",
+        "descricao": "Elevação na Chapada Diamantina, em Palmeiras (BA), tombada como paisagem.",
+        "variantes": [
+          "Pai Inácio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "morro_do_pai_inacio",
+          "nome": "Morro do Pai Inácio",
+          "descricao": "Elevação de topo plano no município de Palmeiras, na Chapada Diamantina, Bahia.",
+          "variantes": [
+            "Pai Inácio"
+          ]
+        },
+        {
+          "id": "pancracio",
+          "nome": "Pancrácio",
+          "descricao": "Esporte de combate dos Jogos Olímpicos da Grécia Antiga, quase sem restrições de golpes.",
+          "variantes": [
+            "Pankration",
+            "Pancrátio",
+            "Pancrátion",
+            "Pancrácio grego"
+          ]
+        },
+        {
+          "id": "padre_cicero",
+          "nome": "Padre Cícero",
+          "descricao": "Cícero Romão Batista, sacerdote cearense venerado pela religiosidade popular nordestina e alvo de grandes romarias.",
+          "variantes": [
+            "Padim Ciço",
+            "Cícero Romão Batista"
+          ]
+        },
+        {
+          "id": "bandeira_do_pais_basco",
+          "nome": "Bandeira do País Basco",
+          "descricao": "Ikurriña, bandeira da comunidade autônoma do País Basco, com cruz branca e verde sobre fundo vermelho.",
+          "variantes": [
+            "País Basco",
+            "Ikurriña",
+            "Euskadi"
+          ]
+        },
+        {
+          "id": "pao_de_acucar",
+          "nome": "Pão de Açúcar",
+          "descricao": "Morro de granito na entrada da Baía de Guanabara, no Rio de Janeiro, ligado ao Morro da Urca por um teleférico.",
+          "variantes": [
+            "Morro do Pão de Açúcar",
+            "Sugarloaf Mountain"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cachoeira do Tabuleiro",
+        "descricao": "Queda-d'água de 273 metros na serra do Espinhaço, em Conceição do Mato Dentro (MG).",
+        "variantes": [
+          "Tabuleiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cachoeira_do_tabuleiro",
+          "nome": "Cachoeira do Tabuleiro",
+          "descricao": "Queda-d'água de 273 metros na serra do Espinhaço, em Conceição do Mato Dentro, Minas Gerais.",
+          "variantes": [
+            "Tabuleiro"
+          ]
+        },
+        {
+          "id": "tabule",
+          "nome": "Tabule",
+          "descricao": "Salada levantina de salsa picada, trigo bulgur, tomate, hortelã e cebola.",
+          "variantes": [
+            "Tabbouleh",
+            "Tabouli"
+          ]
+        },
+        {
+          "id": "tabuleiro_ouija",
+          "nome": "Tabuleiro Ouija",
+          "descricao": "Tabuleiro com letras, números e palavras sim e não, usado com um indicador móvel em sessões espíritas.",
+          "variantes": [
+            "Ouija",
+            "Tábua Ouija",
+            "Tabuleiro espírita",
+            "Talking board"
+          ]
+        },
+        {
+          "id": "abiu",
+          "nome": "Abiu",
+          "descricao": "Fruto amarelo do abieiro (Pouteria caimito), de polpa branca e gelatinosa, nativo da Amazônia.",
+          "variantes": [
+            "Caimito",
+            "Abieiro",
+            "Pouteria caimito"
+          ]
+        },
+        {
+          "id": "cachoeira_de_sangue",
+          "nome": "Cachoeira de Sangue",
+          "descricao": "Afloramento de água salgada avermelhada na geleira Taylor, nos Vales Secos de McMurdo, na Antártida.",
+          "variantes": [
+            "Blood Falls"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Zhangye Danxia",
+        "descricao": "Geoparque de relevo colorido em arenito, em Zhangye, província de Gansu, China.",
+        "variantes": [
+          "Montanhas coloridas de Zhangye Danxia",
+          "Parque Geológico Nacional de Zhangye",
+          "Montanhas Arco-Íris da China"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "montanhas_arco_iris_de_zhangye",
+          "nome": "Montanhas Arco-íris de Zhangye",
+          "descricao": "Relevo de rochas coloridas no Geoparque Nacional de Zhangye, na província de Gansu, China.",
+          "variantes": [
+            "Zhangye Danxia",
+            "Parque Geológico Nacional Zhangye Danxia"
+          ]
+        },
+        {
+          "id": "parque_florestal_nacional_de_zhangjiajie",
+          "nome": "Parque Florestal Nacional de Zhangjiajie",
+          "descricao": "Parque na província de Hunan, na China, com milhares de pilares de arenito cobertos de vegetação.",
+          "variantes": [
+            "Zhangjiajie",
+            "Zhangjiajie National Forest Park",
+            "Wulingyuan"
+          ]
+        },
+        {
+          "id": "parque_indigena_do_xingu",
+          "nome": "Parque Indígena do Xingu",
+          "descricao": "Terra indígena no norte de Mato Grosso, criada em 1961 como Parque Nacional do Xingu.",
+          "variantes": [
+            "Parque Nacional do Xingu",
+            "Território Indígena do Xingu",
+            "Parque do Xingu"
+          ]
+        },
+        {
+          "id": "parque_nacional_de_yosemite",
+          "nome": "Parque Nacional de Yosemite",
+          "descricao": "Parque nacional na Serra Nevada da Califórnia, famoso por paredões de granito e cachoeiras.",
+          "variantes": [
+            "Yosemite",
+            "Yosemite National Park"
+          ]
+        },
+        {
+          "id": "white_sands",
+          "nome": "White Sands",
+          "descricao": "Parque nacional no Novo México, Estados Unidos, com um enorme campo de dunas brancas.",
+          "variantes": [
+            "White Sands National Park",
+            "Parque Nacional de White Sands"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cerro Torre",
+        "descricao": "Pico de granito de 3128 metros na fronteira entre Argentina e Chile, na Patagônia.",
+        "variantes": [
+          "Cerro Torre (Patagônia)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "deserto_da_patagonia",
+          "nome": "Deserto da Patagônia",
+          "descricao": "Deserto frio do sul da Argentina, a leste da Cordilheira dos Andes",
+          "variantes": [
+            "Patagonian Desert",
+            "Estepe patagônica"
+          ]
+        },
+        {
+          "id": "cervo_do_pantanal",
+          "nome": "Cervo-do-pantanal",
+          "descricao": "Maior cervo da América do Sul, Blastocerus dichotomus, de áreas alagadas.",
+          "variantes": [
+            "Blastocerus dichotomus",
+            "Veado-galheiro"
+          ]
+        },
+        {
+          "id": "cerro_rico_de_potosi",
+          "nome": "Cerro Rico de Potosí",
+          "descricao": "Montanha rica em prata nos Andes, explorada pelos espanhóis a partir de 1545, que enriqueceu o Império Espanhol.",
+          "variantes": [
+            "Cerro Rico",
+            "Potosí"
+          ]
+        },
+        {
+          "id": "monte_fitz_roy",
+          "nome": "Monte Fitz Roy",
+          "descricao": "Montanha de granito na Patagônia, na fronteira entre Argentina e Chile, perto de El Chaltén.",
+          "variantes": [
+            "Cerro Chaltén",
+            "Cerro Fitz Roy",
+            "Fitz Roy"
+          ]
+        },
+        {
+          "id": "ferrothorn",
+          "nome": "Ferrothorn",
+          "descricao": "Pokémon dos tipos Planta e Aço, número 598 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Lago Issyk-Kul",
+        "descricao": "Lago salino endorreico nas montanhas Tian Shan, no leste do Quirguistão.",
+        "variantes": [
+          "Issyk-Kul",
+          "Ysyk-Köl"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cenote_ik_kil",
+          "nome": "Cenote Ik Kil",
+          "descricao": "Cenote aberto ao público perto de Chichén Itzá, em Yucatán, México.",
+          "variantes": [
+            "Ik Kil"
+          ]
+        },
+        {
+          "id": "lago_baikal",
+          "nome": "Lago Baikal",
+          "descricao": "Lago de água doce no sul da Sibéria, na Rússia, o mais profundo do mundo.",
+          "variantes": [
+            "Baikal",
+            "Baical",
+            "Lake Baikal"
+          ]
+        },
+        {
+          "id": "lago_ness",
+          "nome": "Lago Ness",
+          "descricao": "Grande lago de água doce nas Terras Altas da Escócia, famoso pela lenda do monstro de Nessie.",
+          "variantes": [
+            "Loch Ness"
+          ]
+        },
+        {
+          "id": "lago_inle",
+          "nome": "Lago Inle",
+          "descricao": "Lago de água doce no estado de Shan, em Mianmar, famoso por suas aldeias sobre palafitas e jardins flutuantes.",
+          "variantes": [
+            "Inle Lake",
+            "Inlay"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Cataratas do Reno",
+        "descricao": "Cachoeira no Alto Reno, na Suíça, entre os cantões de Schaffhausen e Zurique.",
+        "variantes": [
+          "Rheinfall",
+          "Rhine Falls"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cataratas_do_niagara",
+          "nome": "Cataratas do Niágara",
+          "descricao": "Grupo de três quedas d'água no Rio Niágara, na fronteira entre Ontário e Nova York.",
+          "variantes": [
+            "Niagara Falls"
+          ]
+        },
+        {
+          "id": "gullfoss",
+          "nome": "Gullfoss",
+          "descricao": "Cachoeira no cânion do rio Hvítá, no sudoeste da Islândia, parada do Círculo Dourado.",
+          "variantes": [
+            "Cataratas Douradas",
+            "Golden Falls"
+          ]
+        },
+        {
+          "id": "salto_angel",
+          "nome": "Salto Ángel",
+          "descricao": "Queda d'água que despenca de um tepui no Parque Nacional Canaima, na Venezuela.",
+          "variantes": [
+            "Angel Falls",
+            "Kerepakupai Merú"
+          ]
+        },
+        {
+          "id": "canario",
+          "nome": "Canário",
+          "descricao": "Pequeno passarinho amarelo (Serinus canaria), nativo das Ilhas Canárias, Açores e Madeira, criado como ave de gaiola no mundo todo.",
+          "variantes": [
+            "Canário-doméstico",
+            "Canário-do-reino",
+            "Serinus canaria"
+          ]
+        },
+        {
+          "id": "cataratas_do_iguacu",
+          "nome": "Cataratas do Iguaçu",
+          "descricao": "Conjunto de quedas d'água do rio Iguaçu, na fronteira entre o Paraná, no Brasil, e a província argentina de Misiones.",
+          "variantes": [
+            "Iguaçu",
+            "Cataratas del Iguazú",
+            "Iguazu Falls",
+            "Foz do Iguaçu"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "morro_do_careca",
+      "motivo": "Mesma duna de Ponta Negra, Natal."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "morro_do_pai_inacio",
+      "motivo": "Mesma elevação em Palmeiras, Chapada Diamantina."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "cachoeira_do_tabuleiro",
+      "motivo": "Mesma queda-d'água de 273 m em Conceição do Mato Dentro."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "montanhas_arco_iris_de_zhangye",
+      "motivo": "Zhangye Danxia é a mesma formação/geoparque em Gansu, com variante coincidente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Cerro Torre é um pico diferente do Fitz Roy; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Lago Issyk-Kul."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Cataratas do Reno não consta entre as candidatas; as outras são quedas diferentes."
+    }
+  ]
+}
