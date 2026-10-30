@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este poeta brasileiro escreveu o manifesto de qual movimento de vanguarda?",
+        "resposta": "Neoconcretismo"
+      },
+      "existentes": [
+        {
+          "id": "q11685",
+          "pergunta": "O poeta maranhense autor do Poema Sujo usava um pseudônimo. Qual era o seu nome de nascimento?",
+          "resposta": "José Ribamar Ferreira"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade italiana nasceu este violinista virtuose do século dezenove?",
+        "resposta": "Gênova"
+      },
+      "existentes": [
+        {
+          "id": "q08781",
+          "pergunta": "O virtuosismo assombroso do violinista italiano Niccolò Paganini alimentou, em sua época, qual boato sobre ele?",
+          "resposta": "Que fez pacto com o diabo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Manifesto do neoconcretismo é fato diferente do nome de nascimento de Ferreira Gullar."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cidade natal de Paganini é fato diferente do boato do pacto com o diabo."
+    }
+  ]
+}

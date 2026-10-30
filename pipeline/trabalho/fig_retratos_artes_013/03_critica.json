@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos (Era uma vez no Oeste é trilha de Morricone). Distratores de outros compositores, curtos e errados. Sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O ano 1959 junto com 'movimento de vanguarda brasileiro' permite chutar Neoconcretismo sem olhar a figura. Tirei o ano e pedi o manifesto, o que exige reconhecer o poeta. O manifesto de 1959 é confirmado nos trechos.",
+      "reescrita": {
+        "pergunta": "Este poeta brasileiro escreveu o manifesto de qual movimento de vanguarda?",
+        "resposta": "Neoconcretismo",
+        "distratores": [
+          "Concretismo",
+          "Tropicalismo",
+          "Modernismo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quadros de uma Exposição é confirmado como obra de Mussorgsky. Os distratores são obras de Rimsky-Korsakov, Prokofiev e Stravinsky. Sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direto (nível 1). O enunciado não entrega nada. Os distratores são escritores britânicos da mesma época. A afirmação 'britânico' está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Rachmaninoff e a Rapsódia sobre um Tema de Paganini é muito famoso, então dá para responder sem a figura. Troquei por um fato que só se alcança depois de reconhecer o músico. O pt.wikipedia confirma que ele nasceu em Gênova.",
+      "reescrita": {
+        "pergunta": "Em que cidade italiana nasceu este violinista virtuose do século dezenove?",
+        "resposta": "Gênova",
+        "distratores": [
+          "Turim",
+          "Veneza",
+          "Nápoles"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Germinal é confirmado como romance de Zola. Os distratores são romances de Hugo, Flaubert e Stendhal. Sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento. Os trechos mostram que Rimbaud produziu sua obra poética dos quinze aos vinte anos, o que combina com 'retratado na juventude'. Os distratores são poetas franceses simbolistas ou próximos dele.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sherlock Holmes é confirmado como criação de Conan Doyle. Os distratores são detetives de outros autores (Christie, Chesterton, Chandler). Sem vazamento.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato livre, sem texto que entregue (só a faixa 'Orange' do crachá). Rosto reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Qual destes filmes tem a trilha sonora composta por este músico italiano?",
+      "resposta": "Era Uma Vez no Oeste",
+      "distratores": [
+        "O Poderoso Chefão",
+        "A Vida é Bela",
+        "Gladiador"
+      ],
+      "ancora": {
+        "nome": "Ennio Morricone",
+        "descricao": "Compositor italiano de trilhas de cinema, autor da música dos faroestes de Sergio Leone.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco, sem texto, de figura pública; rosto nítido.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que movimento de vanguarda foi fundado em 1959 com a participação decisiva deste poeta brasileiro?",
+      "resposta": "Neoconcretismo",
+      "distratores": [
+        "Concretismo",
+        "Tropicalismo",
+        "Modernismo"
+      ],
+      "ancora": {
+        "nome": "Ferreira Gullar",
+        "descricao": "Poeta, dramaturgo e crítico de arte maranhense, um dos fundadores do movimento neoconcreto.",
+        "variantes": [
+          "José Ribamar Ferreira"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fotografia antiga bem conhecida, sem texto; figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Qual destas obras foi composta por este músico russo?",
+      "resposta": "Quadros de uma Exposição",
+      "distratores": [
+        "Scheherazade",
+        "Pedro e o Lobo",
+        "A Sagração da Primavera"
+      ],
+      "ancora": {
+        "nome": "Modest Mussorgsky",
+        "descricao": "Compositor russo do Grupo dos Cinco, autor de Boris Godunov e Quadros de uma Exposição.",
+        "variantes": [
+          "Modest Mussórgski",
+          "Modest Musorgsky"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico clássico, sem texto, imagem nítida.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que escritor britânico é este?",
+      "resposta": "Rudyard Kipling",
+      "distratores": [
+        "Thomas Hardy",
+        "H. G. Wells",
+        "Joseph Conrad"
+      ],
+      "ancora": {
+        "nome": "Rudyard Kipling",
+        "descricao": "Escritor e poeta inglês nascido na Índia, autor de O Livro da Selva e do poema Se.",
+        "variantes": [
+          "Joseph Rudyard Kipling"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Desenho célebre de Ingres, com violino; a assinatura do desenhista não entrega o retratado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que compositor russo escreveu uma famosa rapsódia sobre um tema deste músico italiano?",
+      "resposta": "Sergei Rachmaninoff",
+      "distratores": [
+        "Piotr Tchaikovsky",
+        "Sergei Prokofiev",
+        "Igor Stravinsky"
+      ],
+      "ancora": {
+        "nome": "Niccolò Paganini",
+        "descricao": "Violinista virtuose e compositor italiano do século dezenove, autor dos 24 Caprichos.",
+        "variantes": [
+          "Nicolò Paganini"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Compositor pouco conhecido, rosto não reconhecível pela imagem; resposta não seria justa."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico nítido, com boina e pincenê característicos, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Qual destes romances foi escrito por este autor francês?",
+      "resposta": "Germinal",
+      "distratores": [
+        "Os Miseráveis",
+        "Madame Bovary",
+        "O Vermelho e o Negro"
+      ],
+      "ancora": {
+        "nome": "Émile Zola",
+        "descricao": "Romancista francês, principal nome do naturalismo e autor de Germinal e do artigo J'Accuse.",
+        "variantes": [
+          "Emile Zola"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fotografia célebre do poeta adolescente, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que poeta francês é este, retratado na juventude?",
+      "resposta": "Arthur Rimbaud",
+      "distratores": [
+        "Paul Verlaine",
+        "Charles Baudelaire",
+        "Stéphane Mallarmé"
+      ],
+      "ancora": {
+        "nome": "Arthur Rimbaud",
+        "descricao": "Poeta francês do século dezenove, autor de Iluminações e Uma Temporada no Inferno.",
+        "variantes": [
+          "Jean Nicolas Arthur Rimbaud"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Marca d'água 'agência senado' visível e rosto pouco reconhecível."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico antigo, nítido e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Qual destes detetives de ficção foi criado por este escritor britânico?",
+      "resposta": "Sherlock Holmes",
+      "distratores": [
+        "Hercule Poirot",
+        "Padre Brown",
+        "Philip Marlowe"
+      ],
+      "ancora": {
+        "nome": "Arthur Conan Doyle",
+        "descricao": "Escritor e médico britânico, criador do detetive Sherlock Holmes.",
+        "variantes": [
+          "Sir Arthur Conan Doyle"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução; ilegível no celular e rosto não reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Retrato pintado genérico de homem de peruca do século dezessete; não reconhecível pela imagem."
+    }
+  ]
+}

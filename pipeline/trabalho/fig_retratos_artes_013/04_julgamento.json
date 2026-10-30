@@ -1,0 +1,392 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ennio Morricone",
+        "descricao": "Compositor italiano de trilhas de cinema, autor da música dos faroestes de Sergio Leone.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "jim_morrison",
+          "nome": "Jim Morrison",
+          "descricao": "Cantor e poeta americano, vocalista da banda The Doors, morto em Paris em 1971",
+          "variantes": [
+            "James Douglas Morrison"
+          ]
+        },
+        {
+          "id": "ensaios_montaigne",
+          "nome": "Ensaios (Montaigne)",
+          "descricao": "Coletânea de textos de Michel de Montaigne publicada a partir de 1580, que deu nome ao gênero ensaio.",
+          "variantes": [
+            "Essais",
+            "Os Ensaios"
+          ]
+        },
+        {
+          "id": "idolo_mourisco",
+          "nome": "Ídolo-mourisco",
+          "descricao": "Peixe de recife indo-pacífico (Zanclus cornutus) de faixas pretas e amarelas e barbatana dorsal em filamento.",
+          "variantes": [
+            "Zanclus cornutus",
+            "Peixe-ídolo"
+          ]
+        },
+        {
+          "id": "belo_horizonte",
+          "nome": "Belo Horizonte",
+          "descricao": "Capital do estado de Minas Gerais, cidade planejada inaugurada em 1897.",
+          "variantes": [
+            "BH"
+          ]
+        },
+        {
+          "id": "sonic",
+          "nome": "Sonic",
+          "descricao": "Ouriço azul supersônico, mascote da Sega e protagonista da série Sonic the Hedgehog.",
+          "variantes": [
+            "Sonic the Hedgehog",
+            "Sonic, o Ouriço"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ferreira Gullar",
+        "descricao": "Poeta, dramaturgo e crítico de arte maranhense, um dos fundadores do movimento neoconcreto.",
+        "variantes": [
+          "José Ribamar Ferreira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ferreira_gullar",
+          "nome": "Ferreira Gullar",
+          "descricao": "Poeta, crítico e dramaturgo maranhense (1930–2016), autor do Poema Sujo.",
+          "variantes": [
+            "José Ribamar Ferreira"
+          ]
+        },
+        {
+          "id": "bia_ferreira",
+          "nome": "Bia Ferreira",
+          "descricao": "Boxeadora brasileira, prata em Tóquio 2020 e bronze em Paris 2024 nos 60 kg.",
+          "variantes": [
+            "Beatriz Ferreira",
+            "Beatriz Iasmin Soares Ferreira"
+          ]
+        },
+        {
+          "id": "bibi_ferreira",
+          "nome": "Bibi Ferreira",
+          "descricao": "Atriz, cantora e diretora brasileira (1922–2019), filha do ator Procópio Ferreira.",
+          "variantes": [
+            "Abigail Izquierdo Ferreira"
+          ]
+        },
+        {
+          "id": "bebeto",
+          "nome": "Bebeto",
+          "descricao": "José Roberto Gama de Oliveira, atacante brasileiro campeão mundial em 1994, parceiro de ataque de Romário.",
+          "variantes": [
+            "José Roberto Gama de Oliveira"
+          ]
+        },
+        {
+          "id": "teoria_celular",
+          "nome": "Teoria celular",
+          "descricao": "Teoria biológica segundo a qual todos os seres vivos são formados por células, formulada no século dezenove.",
+          "variantes": [
+            "Cell theory"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Rudyard Kipling",
+        "descricao": "Escritor e poeta inglês nascido na Índia, autor de O Livro da Selva e do poema Se.",
+        "variantes": [
+          "Joseph Rudyard Kipling"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "joseph_ignace_guillotin",
+          "nome": "Joseph-Ignace Guillotin",
+          "descricao": "Francês do século dezoito cujo nome foi dado à guilhotina, após ele propor um método de execução menos cruel.",
+          "variantes": [
+            "Joseph Guillotin"
+          ]
+        },
+        {
+          "id": "josef_stalin",
+          "nome": "Josef Stálin",
+          "descricao": "Ditador da União Soviética de 1922 a 1953, líder soviético na Segunda Guerra Mundial.",
+          "variantes": [
+            "Joseph Stalin",
+            "Iosif Stálin",
+            "Stalin",
+            "Iosif Djugachvili"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Niccolò Paganini",
+        "descricao": "Violinista virtuose e compositor italiano do século dezenove, autor dos 24 Caprichos.",
+        "variantes": [
+          "Nicolò Paganini"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "niccolo_paganini",
+          "nome": "Niccolò Paganini",
+          "descricao": "Violinista virtuose e compositor italiano (1782–1840), autor dos 24 Caprichos para violino solo.",
+          "variantes": [
+            "Paganini"
+          ]
+        },
+        {
+          "id": "bico_do_papagaio",
+          "nome": "Bico do Papagaio",
+          "descricao": "Região do extremo norte do Tocantins, entre os rios Araguaia e Tocantins, na divisa com o Pará e o Maranhão.",
+          "variantes": [
+            "Microrregião do Bico do Papagaio"
+          ]
+        },
+        {
+          "id": "nicolau_ii_da_russia",
+          "nome": "Nicolau II da Rússia",
+          "descricao": "Último imperador da Rússia, que abdicou em 1917 durante a Revolução Russa.",
+          "variantes": [
+            "Nicolau II",
+            "Nicholas II",
+            "Czar Nicolau II"
+          ]
+        },
+        {
+          "id": "nicolau_maquiavel",
+          "nome": "Nicolau Maquiavel",
+          "descricao": "Pensador político e diplomata florentino (1469–1527), autor de O Príncipe.",
+          "variantes": [
+            "Niccolò Machiavelli",
+            "Maquiavel"
+          ]
+        },
+        {
+          "id": "anu_preto",
+          "nome": "Anu-preto",
+          "descricao": "Ave da família dos cucos (Crotophaga ani), de plumagem preta, bico alto e cauda longa, comum no Brasil.",
+          "variantes": [
+            "Crotophaga ani",
+            "Smooth-billed ani"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Émile Zola",
+        "descricao": "Romancista francês, principal nome do naturalismo e autor de Germinal e do artigo J'Accuse.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "mil_folhas",
+          "nome": "Mil-folhas",
+          "descricao": "Doce francês de camadas de massa folhada intercaladas com creme de confeiteiro.",
+          "variantes": [
+            "Mille-feuille",
+            "Napoleão",
+            "Vanilla slice"
+          ]
+        },
+        {
+          "id": "peixe_bolha",
+          "nome": "Peixe-bolha",
+          "descricao": "Peixe de águas profundas, Psychrolutes marcidus, que vive na costa da Austrália e da Nova Zelândia.",
+          "variantes": [
+            "Psychrolutes marcidus",
+            "Blobfish"
+          ]
+        },
+        {
+          "id": "malevola",
+          "nome": "Malévola",
+          "descricao": "Fada das trevas, vilã do filme de animação A Bela Adormecida, da Disney, de 1959.",
+          "variantes": [
+            "Maleficent"
+          ]
+        },
+        {
+          "id": "emil_zatopek",
+          "nome": "Emil Zátopek",
+          "descricao": "Fundista tcheco, campeão dos 5 mil, dos 10 mil metros e da maratona em Helsinque 1952.",
+          "variantes": []
+        },
+        {
+          "id": "mille_miglia",
+          "nome": "Mille Miglia",
+          "descricao": "Corrida italiana de longa distância em estradas abertas, disputada de 1927 a 1957, depois revivida como prova de carros clássicos.",
+          "variantes": [
+            "Mil Milhas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Arthur Rimbaud",
+        "descricao": "Poeta francês do século dezenove, autor de Iluminações e Uma Temporada no Inferno.",
+        "variantes": [
+          "Jean Nicolas Arthur Rimbaud"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arthur_nory",
+          "nome": "Arthur Nory",
+          "descricao": "Ginasta artístico brasileiro, medalhista de bronze olímpico no solo em 2016 e campeão mundial da barra fixa em 2019.",
+          "variantes": [
+            "Arthur Nory Mariano",
+            "Arthur Mariano"
+          ]
+        },
+        {
+          "id": "arthur_ashe",
+          "nome": "Arthur Ashe",
+          "descricao": "Tenista americano (1943-1993), campeão do US Open em 1968 e de Wimbledon em 1975.",
+          "variantes": []
+        },
+        {
+          "id": "ahura_mazda",
+          "nome": "Ahura Mazda",
+          "descricao": "Deus supremo do zoroastrismo, a religião da Pérsia antiga.",
+          "variantes": [
+            "Ormuz",
+            "Ormazd",
+            "Ahuramazda"
+          ]
+        },
+        {
+          "id": "aquaman",
+          "nome": "Aquaman",
+          "descricao": "Super-herói da DC Comics que vive no mar e se comunica com as criaturas marinhas",
+          "variantes": [
+            "Arthur Curry"
+          ]
+        },
+        {
+          "id": "zico",
+          "nome": "Zico",
+          "descricao": "Arthur Antunes Coimbra, meia brasileiro ídolo do Flamengo e da seleção nos anos 1970 e 1980.",
+          "variantes": [
+            "Arthur Antunes Coimbra",
+            "Galinho de Quintino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Arthur Conan Doyle",
+        "descricao": "Escritor e médico britânico, criador do detetive Sherlock Holmes.",
+        "variantes": [
+          "Sir Arthur Conan Doyle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arthur_schopenhauer",
+          "nome": "Arthur Schopenhauer",
+          "descricao": "Filósofo alemão (1788–1860), autor de O Mundo como Vontade e Representação.",
+          "variantes": [
+            "Schopenhauer"
+          ]
+        },
+        {
+          "id": "arthur_nory",
+          "nome": "Arthur Nory",
+          "descricao": "Ginasta artístico brasileiro, medalhista de bronze olímpico no solo em 2016 e campeão mundial da barra fixa em 2019.",
+          "variantes": [
+            "Arthur Nory Mariano",
+            "Arthur Mariano"
+          ]
+        },
+        {
+          "id": "arthur_zanetti",
+          "nome": "Arthur Zanetti",
+          "descricao": "Ginasta brasileiro, campeão olímpico nas argolas em Londres 2012 e prata no Rio 2016.",
+          "variantes": [
+            "Arthur Nabarrete Zanetti"
+          ]
+        },
+        {
+          "id": "arthur_ashe",
+          "nome": "Arthur Ashe",
+          "descricao": "Tenista americano (1943-1993), campeão do US Open em 1968 e de Wimbledon em 1975.",
+          "variantes": []
+        },
+        {
+          "id": "aquaman",
+          "nome": "Aquaman",
+          "descricao": "Super-herói da DC Comics que vive no mar e se comunica com as criaturas marinhas",
+          "variantes": [
+            "Arthur Curry"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Ennio Morricone."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "ferreira_gullar",
+      "motivo": "Mesmo poeta maranhense, mesmas variantes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Kipling."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "niccolo_paganini",
+      "motivo": "Mesmo violinista e compositor, autor dos 24 Caprichos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Zola."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Rimbaud."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Conan Doyle."
+    }
+  ]
+}
