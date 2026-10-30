@@ -1,0 +1,138 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Quatro molares extraídos em vistas diferentes; não fica claro que sejam sisos nem que a resposta seja única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Ilustração com legendas em inglês (Head, Neck, Manubrium...) que entregam a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Corpo de frutificação isolado, sem contexto; o fungo não é reconhecível pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto de boca com dentes desalinhados; o canino não está claramente destacado e a resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Microscopia eletrônica de bactérias espiraladas, nítida e sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta bactéria em forma de espiral causa qual doença?",
+      "resposta": "Leptospirose",
+      "distratores": [
+        "Cólera",
+        "Tétano",
+        "Tuberculose"
+      ],
+      "ancora": {
+        "nome": "Leptospira",
+        "descricao": "Gênero de bactérias espiroquetas, entre elas a causadora da leptospirose.",
+        "variantes": [
+          "Leptospira interrogans"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cromossomo gigante com bandeamento característico, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de cromossomo gigante, com bandas transversais, é este?",
+      "resposta": "Cromossomo politênico",
+      "distratores": [
+        "Cromossomo bacteriano",
+        "Cromossomo sexual",
+        "Cromossomo mitocondrial"
+      ],
+      "ancora": {
+        "nome": "Cromossomo politênico",
+        "descricao": "Cromossomo gigante com milhares de fitas de DNA, típico de glândulas salivares de moscas.",
+        "variantes": [
+          "Cromossomo politênico de Drosophila"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Rosto de pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto de microscopia nítida e característica, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pequeno crustáceo de água doce, visto ao microscópio, é este?",
+      "resposta": "Dáfnia",
+      "distratores": [
+        "Artêmia",
+        "Cíclope",
+        "Krill"
+      ],
+      "ancora": {
+        "nome": "Dáfnia",
+        "descricao": "Gênero de pequenos crustáceos planctônicos de água doce, chamados pulgas-d'água.",
+        "variantes": [
+          "Daphnia",
+          "pulga-d'água"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Colônia de algas em forma de guarda-chuva, nítida e sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que alga marinha de uma única célula gigante é esta?",
+      "resposta": "Acetabularia",
+      "distratores": [
+        "Halimeda",
+        "Caulerpa",
+        "Penicillus"
+      ],
+      "ancora": {
+        "nome": "Acetabularia",
+        "descricao": "Gênero de algas verdes unicelulares gigantes, com forma de guarda-chuva.",
+        "variantes": [
+          "Acetabulária",
+          "taça-de-sereia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto clínica de boca de pessoa comum; a gengiva divide a cena com dentes e mucosa, e a resposta não é única."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Ilustração com legendas em inglês (Optic Nerve, Chiasma...) que entregam a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Corte de microscopia eletrônica com muitas estruturas celulares; o vírus não é reconhecível."
+    }
+  ]
+}

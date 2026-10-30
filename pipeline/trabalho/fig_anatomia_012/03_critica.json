@@ -1,0 +1,48 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Várias bactérias espiraladas causam doenças conhecidas (Treponema, Borrelia, Campylobacter), então a resposta não é única. O gênero também inclui espécies não patogênicas. Qualquer pista que restringisse a pergunta a Leptospira entregaria a resposta sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Gigante com bandas transversais' define o cromossomo politênico, então a figura vira enfeite. Os distratores (bacteriano, sexual, mitocondrial) não são gigantes e são eliminados só pelo enunciado. A reescrita tira a definição, mantém uma pista de grupo e usa distratores parecidos.",
+      "reescrita": {
+        "pergunta": "Que tipo de cromossomo, estudado em células de larvas de mosca, é este?",
+        "resposta": "Cromossomo politênico",
+        "distratores": [
+          "Cromossomo plumoso",
+          "Cromossomo metafásico",
+          "Cromossomo acrocêntrico"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado dá só o grupo (crustáceo pequeno de água doce), sem entregar a espécie. Os distratores são crustáceos pequenos e críveis, e a imagem os distingue da dáfnia. Os trechos sustentam a descrição.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Caulerpa também é uma alga de célula única gigante, então um distrator descreve o enunciado. Reescrevi sem essa pista, usando só 'alga verde subtropical' (dos trechos). Os distratores ficam visualmente parecidos e não são Acetabularia.",
+      "reescrita": {
+        "pergunta": "Que alga verde marinha, típica de águas subtropicais, é esta?",
+        "resposta": "Acetabularia",
+        "distratores": [
+          "Halimeda",
+          "Penicillus",
+          "Ulva"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cromossomo politênico",
+        "descricao": "Cromossomo gigante com milhares de fitas de DNA, típico de glândulas salivares de moscas.",
+        "variantes": [
+          "Cromossomo politênico de Drosophila"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cromossomo_x",
+          "nome": "Cromossomo X",
+          "descricao": "Cromossomo sexual presente em duas cópias nas fêmeas de mamíferos e em uma cópia nos machos.",
+          "variantes": [
+            "X chromosome"
+          ]
+        },
+        {
+          "id": "cromossomo_21",
+          "nome": "Cromossomo 21",
+          "descricao": "Um dos 23 pares de cromossomos humanos, o menor deles em tamanho.",
+          "variantes": [
+            "Cromossomo 21 humano",
+            "Chromosome 21"
+          ]
+        },
+        {
+          "id": "cromossomo",
+          "nome": "Cromossomo",
+          "descricao": "Estrutura do núcleo celular formada por DNA e proteínas, que carrega os genes.",
+          "variantes": [
+            "Cromossoma",
+            "Chromosome"
+          ]
+        },
+        {
+          "id": "urutau",
+          "nome": "Urutau",
+          "descricao": "Ave noturna Nyctibius griseus, de plumagem camuflada que imita um toco de árvore, de olhos grandes amarelos.",
+          "variantes": [
+            "Urutau-comum",
+            "Mãe-da-lua",
+            "Common potoo",
+            "Nyctibius griseus"
+          ]
+        },
+        {
+          "id": "cromossomos_humanos",
+          "nome": "Cromossomos humanos",
+          "descricao": "Estruturas do núcleo celular que organizam o DNA humano.",
+          "variantes": [
+            "Cariótipo humano",
+            "Human chromosomes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Dáfnia",
+        "descricao": "Gênero de pequenos crustáceos planctônicos de água doce, chamados pulgas-d'água.",
+        "variantes": [
+          "Daphnia",
+          "pulga-d'água"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gota_d_agua_peca",
+          "nome": "Gota d'Água (peça)",
+          "descricao": "Peça de Chico Buarque e Paulo Pontes, de 1975, ambientada num conjunto habitacional do Rio de Janeiro.",
+          "variantes": [
+            "Gota d'Água"
+          ]
+        },
+        {
+          "id": "lixa",
+          "nome": "Lixa",
+          "descricao": "Papel ou tecido coberto de grãos abrasivos usado para desbastar e alisar superfícies.",
+          "variantes": [
+            "Lixa d'água",
+            "Papel de lixa"
+          ]
+        },
+        {
+          "id": "dafne",
+          "nome": "Dafne",
+          "descricao": "Ninfa da mitologia grega perseguida por Apolo e transformada em árvore.",
+          "variantes": [
+            "Daphne"
+          ]
+        },
+        {
+          "id": "mergulho_livre",
+          "nome": "Mergulho livre",
+          "descricao": "Mergulho feito só com a respiração presa, sem aparelho de respiração.",
+          "variantes": [
+            "Freediving",
+            "Apneia",
+            "Mergulho em apneia"
+          ]
+        },
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Acetabularia",
+        "descricao": "Gênero de algas verdes unicelulares gigantes, com forma de guarda-chuva.",
+        "variantes": [
+          "taça-de-sereia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taca_de_dioniso_de_exequias",
+          "nome": "Taça de Dioniso de Exéquias",
+          "descricao": "Kílix ateniense de figuras negras de cerca de 540–530 a.C., obra de Exéquias, com Dioniso num barco cercado de golfinhos.",
+          "variantes": [
+            "Taça de Dionísio",
+            "Dionysus Cup",
+            "Taça de Exéquias"
+          ]
+        },
+        {
+          "id": "deserto_do_atacama",
+          "nome": "Deserto do Atacama",
+          "descricao": "Deserto costeiro no norte do Chile, entre o Oceano Pacífico e os Andes, um dos lugares mais secos do planeta.",
+          "variantes": [
+            "Atacama",
+            "Atacama Desert"
+          ]
+        },
+        {
+          "id": "placa_de_petri",
+          "nome": "Placa de Petri",
+          "descricao": "Recipiente raso, transparente e com tampa, usado em laboratório para cultivar células e microrganismos.",
+          "variantes": [
+            "Placa de cultura",
+            "Petri dish"
+          ]
+        },
+        {
+          "id": "batalha_de_queroneia",
+          "nome": "Batalha de Queroneia",
+          "descricao": "Batalha de 338 a.C. em que a Macedônia derrotou Atenas e Tebas, impondo seu domínio sobre a Grécia.",
+          "variantes": [
+            "Batalha de Queroneia (338 a.C.)",
+            "Battle of Chaeronea"
+          ]
+        },
+        {
+          "id": "bandeira_da_bulgaria",
+          "nome": "Bandeira da Bulgária",
+          "descricao": "Bandeira da Bulgária, tricolor horizontal branco, verde e vermelho.",
+          "variantes": [
+            "Bulgária"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cromossomo politênico é um tipo específico de cromossomo gigante; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Dáfnia é um gênero de crustáceos; as candidatas são entidades não relacionadas (Dafne é mitologia)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Acetabularia é um gênero de algas; nenhuma candidata corresponde."
+    }
+  ]
+}
