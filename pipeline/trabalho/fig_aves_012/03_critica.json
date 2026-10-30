@@ -1,0 +1,104 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Azulinho' é, segundo o trecho da Wikipédia, outro nome do próprio azulão, então também seria correto. Troquei por outra ave canora.",
+      "reescrita": {
+        "pergunta": "Que ave é esta?",
+        "resposta": "Azulão",
+        "distratores": [
+          "Trinca-ferro",
+          "Sanhaço-cinzento",
+          "Tiziu"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento, resposta única e distratores críveis de aves de rapina parecidas.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pista que entregue a resposta. Os distratores são do mesmo grupo.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É amplamente documentado que o cisne-mudo é a ave nacional da Dinamarca. O enunciado não nomeia a ave e exige reconhecê-la. Os distratores são países nórdicos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Com 'australiana' no enunciado, dá para eliminar os distratores (rolieiro europeu, calau, coruja-buraqueira) sem olhar a figura. Troquei por aves australianas.",
+      "reescrita": {
+        "pergunta": "Que ave australiana é esta?",
+        "resposta": "Cucaburra",
+        "distratores": [
+          "Ave-lira",
+          "Casuar",
+          "Cacatua-de-crista-amarela"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a espécie inverna na África tropical. O enunciado não entrega a ave e os distratores são continentes.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A resposta é específica (a espécie, entre os agapórnis) e está sustentada pelos trechos. Os distratores são outros psitacídeos de estimação.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É comportamento amplamente documentado: o abutre-do-egito lança pedras contra ovos de avestruz (Thouless 1989, citado nos trechos). O enunciado não entrega a ave e os distratores são objetos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto da espécie. Os distratores são outras garças e o savacu, todos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento sem vazamento. Os distratores são outros gaviões brasileiros, nenhum deles correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. Os distratores são outros pássaros do gênero Sporophila, nenhum deles correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a espécie vive na Mata Atlântica. O enunciado não nomeia a ave e os distratores são biomas brasileiros.",
+      "reescrita": null
+    }
+  ]
+}

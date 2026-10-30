@@ -1,0 +1,781 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Azulão",
+        "descricao": "Ave canora azul-escura da família Cardinalidae (Cyanoloxia brissonii), de América do Sul.",
+        "variantes": [
+          "Cyanoloxia brissonii",
+          "Ultramarine grosbeak"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "blue_rival",
+          "nome": "Blue (rival)",
+          "descricao": "Rival do protagonista e neto do Professor Carvalho nos jogos Pokémon Red, Green e Blue, chamado Green no Japão.",
+          "variantes": [
+            "Blue",
+            "Green",
+            "Azul",
+            "Gary"
+          ]
+        },
+        {
+          "id": "azulejo",
+          "nome": "Azulejo",
+          "descricao": "Placa cerâmica fina, vidrada e muitas vezes pintada, usada para revestir paredes, tradicional em Portugal e no Brasil.",
+          "variantes": []
+        },
+        {
+          "id": "magic_paula",
+          "nome": "Magic Paula",
+          "descricao": "Maria Paula Gonçalves da Silva, armadora brasileira campeã mundial de basquete em 1994.",
+          "variantes": [
+            "Paula",
+            "Maria Paula Gonçalves da Silva"
+          ]
+        },
+        {
+          "id": "balao_de_ar_quente",
+          "nome": "Balão de ar quente",
+          "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+          "variantes": [
+            "Balão",
+            "Balão aerostático",
+            "Montgolfière",
+            "Hot air balloon"
+          ]
+        },
+        {
+          "id": "fulonica",
+          "nome": "Fulônica",
+          "descricao": "Lavanderia e oficina de tratamento de tecidos da Roma antiga, como as encontradas em Pompeia.",
+          "variantes": [
+            "Fullonica",
+            "Fulão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Carrapateiro",
+        "descricao": "Ave de rapina falconídea de cabeça amarelada (Daptrius chimachima), da América do Sul e Central.",
+        "variantes": [
+          "Daptrius chimachima",
+          "Yellow-headed caracara",
+          "Gavião-carrapateiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mamona",
+          "nome": "Mamona",
+          "descricao": "Planta Ricinus communis, de cujas sementes se extrai o óleo de rícino",
+          "variantes": [
+            "Ricinus communis",
+            "rícino",
+            "carrapateira",
+            "castor bean"
+          ]
+        },
+        {
+          "id": "carrapato",
+          "nome": "Carrapato",
+          "descricao": "Aracnídeo parasita da ordem Ixodida, que se alimenta de sangue de mamíferos, aves e outros vertebrados.",
+          "variantes": [
+            "Ixodida",
+            "Ixodes"
+          ]
+        },
+        {
+          "id": "cravo",
+          "nome": "Cravo",
+          "descricao": "Flor ornamental Dianthus caryophyllus, diferente do tempero cravo-da-índia",
+          "variantes": [
+            "Dianthus caryophyllus",
+            "Craveiro"
+          ]
+        },
+        {
+          "id": "ovelha",
+          "nome": "Ovelha",
+          "descricao": "Ruminante doméstico da espécie Ovis aries, criado por lã, carne e leite.",
+          "variantes": [
+            "Ovis aries",
+            "Carneiro",
+            "Ovino"
+          ]
+        },
+        {
+          "id": "calipateira",
+          "nome": "Calipateira",
+          "descricao": "Mulher de Rodes que, segundo Pausânias, entrou disfarçada de treinador nos Jogos de Olímpia para ver o filho competir.",
+          "variantes": [
+            "Kallipateira",
+            "Ferenice de Rodes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Gavião-caramujeiro",
+        "descricao": "Ave de rapina (Rostrhamus sociabilis) que se alimenta de caramujos, de áreas alagadas das Américas.",
+        "variantes": [
+          "Rostrhamus sociabilis",
+          "Snail kite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kunta_kinte",
+          "nome": "Kunta Kinte",
+          "descricao": "Africano escravizado retratado por Alex Haley no livro Raízes, de 1976, como seu antepassado.",
+          "variantes": [
+            "Kunta Kinteh"
+          ]
+        },
+        {
+          "id": "alecrim",
+          "nome": "Alecrim",
+          "descricao": "Arbusto aromático mediterrâneo de folhas finas em forma de agulha (Salvia rosmarinus), usado como tempero.",
+          "variantes": [
+            "Rosmarinus officinalis",
+            "Salvia rosmarinus"
+          ]
+        },
+        {
+          "id": "sabia_laranjeira",
+          "nome": "Sabiá-laranjeira",
+          "descricao": "Ave canora (Turdus rufiventris), ave nacional do Brasil, de ventre alaranjado.",
+          "variantes": [
+            "Sabiá",
+            "Turdus rufiventris"
+          ]
+        },
+        {
+          "id": "cascao",
+          "nome": "Cascão",
+          "descricao": "Menino sujinho, de cabelo preto e que não gosta de banho, da Turma da Mônica.",
+          "variantes": [
+            "Cascão Araújo"
+          ]
+        },
+        {
+          "id": "sailor_mars",
+          "nome": "Sailor Mars",
+          "descricao": "Rei Hino, guardiã de Marte e sacerdotisa de santuário em Sailor Moon.",
+          "variantes": [
+            "Rei Hino",
+            "Sailor Marte"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Cisne-branco",
+        "descricao": "Cisne de plumagem branca e bico laranja (Cygnus olor), nativo da Europa e Ásia.",
+        "variantes": [
+          "Cygnus olor",
+          "Mute swan",
+          "Cisne-mudo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "humberto_de_alencar_castelo_branco",
+          "nome": "Humberto de Alencar Castelo Branco",
+          "descricao": "Militar brasileiro, oficial da FEB na Itália, que foi o primeiro presidente do regime militar, de 1964 a 1967.",
+          "variantes": [
+            "Castelo Branco",
+            "Castello Branco"
+          ]
+        },
+        {
+          "id": "vinho",
+          "nome": "Vinho",
+          "descricao": "Bebida alcoólica feita da fermentação do suco de uva.",
+          "variantes": [
+            "Vinho tinto",
+            "Vinho branco"
+          ]
+        },
+        {
+          "id": "mont_blanc",
+          "nome": "Mont Blanc",
+          "descricao": "Montanha mais alta dos Alpes, no maciço do Mont Blanc, na fronteira entre França e Itália.",
+          "variantes": [
+            "Monte Branco",
+            "Monte Bianco"
+          ]
+        },
+        {
+          "id": "white_day",
+          "nome": "White Day",
+          "descricao": "Data japonesa em que os homens retribuem os presentes recebidos no Dia dos Namorados.",
+          "variantes": [
+            "Dia Branco",
+            "Howaito Dē"
+          ]
+        },
+        {
+          "id": "anu_branco",
+          "nome": "Anu-branco",
+          "descricao": "Ave gregária da família dos cuculídeos, de topete e cauda longa, de campos abertos da América do Sul.",
+          "variantes": [
+            "Guira guira",
+            "Guira cuckoo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cucaburra",
+        "descricao": "Grande ave da família dos martins-pescadores (Dacelo novaeguineae), conhecida pelo canto que lembra uma risada, da Austrália.",
+        "variantes": [
+          "Cucaburra-grande",
+          "Dacelo novaeguineae",
+          "Laughing kookaburra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boiuna",
+          "nome": "Boiuna",
+          "descricao": "Monstro do folclore amazônico, serpente gigantesca e escura que vive nos rios, também chamada Cobra Grande.",
+          "variantes": [
+            "Cobra Grande"
+          ]
+        },
+        {
+          "id": "monte_caburai",
+          "nome": "Monte Caburaí",
+          "descricao": "Monte em Roraima, na fronteira com a Guiana, ponto extremo norte do Brasil.",
+          "variantes": [
+            "Caburaí"
+          ]
+        },
+        {
+          "id": "chupa_cabra",
+          "nome": "Chupa-cabra",
+          "descricao": "Criatura lendária (críptido) das Américas, supostamente sugadora de sangue de animais de criação, retratada como réptil com espinhos nas costas.",
+          "variantes": [
+            "Chupacabra",
+            "Chupacabras"
+          ]
+        },
+        {
+          "id": "cabra",
+          "nome": "Cabra",
+          "descricao": "Cabra-doméstica, Capra hircus, mamífero criado para leite, carne e pele.",
+          "variantes": [
+            "Bode",
+            "Cabra-doméstica",
+            "Capra hircus"
+          ]
+        },
+        {
+          "id": "grande_canal_de_veneza",
+          "nome": "Grande Canal de Veneza",
+          "descricao": "Principal canal de Veneza, Itália, com formato de S invertido, cruzado pela Ponte de Rialto.",
+          "variantes": [
+            "Canal Grande",
+            "Canalazzo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Abelharuco-europeu",
+        "descricao": "Ave colorida da família Meropidae (Merops apiaster) que come abelhas e vespas, migratória entre Europa e África.",
+        "variantes": [
+          "Merops apiaster",
+          "European bee-eater"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abelha",
+          "nome": "Abelha",
+          "descricao": "Abelha-europeia (Apis mellifera), inseto social produtor de mel e polinizador.",
+          "variantes": [
+            "Abelha-europeia",
+            "Apis mellifera",
+            "abelha-melífera"
+          ]
+        },
+        {
+          "id": "coelho",
+          "nome": "Coelho",
+          "descricao": "Coelho-europeu, Oryctolagus cuniculus, pequeno lagomorfo que cava tocas.",
+          "variantes": [
+            "Coelho-europeu",
+            "Oryctolagus cuniculus"
+          ]
+        },
+        {
+          "id": "enguia_europeia",
+          "nome": "Enguia-europeia",
+          "descricao": "Peixe serpentiforme (Anguilla anguilla) que vive em rios europeus e migra ao oceano para desovar.",
+          "variantes": [
+            "Anguilla anguilla",
+            "European eel",
+            "Enguia"
+          ]
+        },
+        {
+          "id": "eros_asteroide",
+          "nome": "Eros (asteroide)",
+          "descricao": "Asteroide alongado 433 Eros, próximo da Terra, explorado pela sonda NEAR Shoemaker.",
+          "variantes": [
+            "433 Eros",
+            "Eros"
+          ]
+        },
+        {
+          "id": "texugo_europeu",
+          "nome": "Texugo-europeu",
+          "descricao": "Mustelídeo noturno (Meles meles) da Europa e Ásia, de rosto listrado em preto e branco.",
+          "variantes": [
+            "Meles meles",
+            "Texugo-eurasiático"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Agapórnis",
+        "descricao": "Pequeno papagaio africano (Agapornis roseicollis) de rosto rosado e corpo verde, popular como ave de estimação.",
+        "variantes": [
+          "Inseparável",
+          "Agapornis roseicollis",
+          "Rosy-faced lovebird"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ave_elefante",
+          "nome": "Ave-elefante",
+          "descricao": "Ave gigante não voadora extinta de Madagascar, da família Aepyornithidae.",
+          "variantes": [
+            "Aepyornis",
+            "Aepyornithidae",
+            "Elephant bird"
+          ]
+        },
+        {
+          "id": "israel",
+          "nome": "Israel",
+          "descricao": "País do Oriente Médio, na costa leste do Mediterrâneo.",
+          "variantes": [
+            "Estado de Israel"
+          ]
+        },
+        {
+          "id": "caravela",
+          "nome": "Caravela",
+          "descricao": "Embarcação a vela leve usada por portugueses e espanhóis nas Grandes Navegações dos séculos quinze e dezesseis.",
+          "variantes": [
+            "Caravel"
+          ]
+        },
+        {
+          "id": "vespa_do_figo",
+          "nome": "Vespa-do-figo",
+          "descricao": "Grupo de vespas minúsculas que polinizam as figueiras numa relação de mutualismo obrigatório.",
+          "variantes": [
+            "Fig wasp",
+            "Agaonidae"
+          ]
+        },
+        {
+          "id": "algarismo",
+          "nome": "Algarismo",
+          "descricao": "Cada um dos símbolos usados para escrever números, de zero a nove.",
+          "variantes": [
+            "Dígito",
+            "Algarismos",
+            "Algarismos indo-arábicos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Abutre-do-egito",
+        "descricao": "Pequeno abutre do Velho Mundo (Neophron percnopterus), de cabeça amarela quando adulto.",
+        "variantes": [
+          "Neophron percnopterus",
+          "Egyptian vulture",
+          "Urubu-do-egito"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "azul_egipcio",
+          "nome": "Azul egípcio",
+          "descricao": "Pigmento azul artificial de silicato de cálcio e cobre, fabricado e usado na pintura do Egito Antigo",
+          "variantes": [
+            "Egyptian blue",
+            "Azul do Egito"
+          ]
+        },
+        {
+          "id": "alto_egito",
+          "nome": "Alto Egito",
+          "descricao": "Metade sul do Egito Antigo, ao longo do vale do Nilo, em oposição ao Baixo Egito, no norte",
+          "variantes": [
+            "Upper Egypt"
+          ]
+        },
+        {
+          "id": "urubu_rei",
+          "nome": "Urubu-rei",
+          "descricao": "Grande urubu das Américas, de plumagem branca e preta e cabeça nua colorida.",
+          "variantes": [
+            "Sarcoramphus papa",
+            "King vulture"
+          ]
+        },
+        {
+          "id": "pragas_do_egito",
+          "nome": "Pragas do Egito",
+          "descricao": "As dez calamidades que, segundo o livro bíblico do Êxodo, Deus enviou ao Egito para libertar os hebreus.",
+          "variantes": [
+            "Dez pragas do Egito",
+            "Plagues of Egypt",
+            "Dez pragas"
+          ]
+        },
+        {
+          "id": "calendario_egipcio",
+          "nome": "Calendário egípcio",
+          "descricao": "Calendário civil solar do Egito Antigo, com doze meses de trinta dias e dias extras no fim do ano",
+          "variantes": [
+            "Egyptian calendar",
+            "Calendário civil egípcio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Garça-real",
+        "descricao": "Garça branca de boné preto e bico azul-claro (Pilherodius pileatus), do neotrópico.",
+        "variantes": [
+          "Pilherodius pileatus",
+          "Capped heron"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marcha_real",
+          "nome": "Marcha Real",
+          "descricao": "Hino nacional da Espanha, uma das mais antigas marchas usadas como hino na Europa.",
+          "variantes": [
+            "Marcha Granadera",
+            "Hino da Espanha"
+          ]
+        },
+        {
+          "id": "gaviao_real",
+          "nome": "Gavião-real",
+          "descricao": "Grande águia neotropical (Harpia harpyja), a maior ave de rapina de sua área de distribuição, das florestas tropicais de baixada.",
+          "variantes": [
+            "Harpia",
+            "Harpy eagle",
+            "Harpia harpyja"
+          ]
+        },
+        {
+          "id": "cabo_horn",
+          "nome": "Cabo Horn",
+          "descricao": "Promontório da ilha Hornos, no Chile, considerado o extremo sul da América do Sul.",
+          "variantes": [
+            "Cape Horn",
+            "Cabo de Hornos"
+          ]
+        },
+        {
+          "id": "paco_imperial",
+          "nome": "Paço Imperial",
+          "descricao": "Edifício colonial do século dezoito na Praça XV, no Rio de Janeiro, sede do governo colonial e residência real.",
+          "variantes": [
+            "Paço Real",
+            "Palácio dos Vice-Reis",
+            "Paço de São Cristóvão"
+          ]
+        },
+        {
+          "id": "federico_garcia_lorca",
+          "nome": "Federico García Lorca",
+          "descricao": "Poeta e dramaturgo espanhol (1898–1936), autor de Bodas de Sangue.",
+          "variantes": [
+            "García Lorca",
+            "Lorca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Gavião-carijó",
+        "descricao": "Pequena ave de rapina comum nas Américas (Rupornis magnirostris), de peito barrado.",
+        "variantes": [
+          "Rupornis magnirostris",
+          "Roadside hawk",
+          "Gavião-pega-pinto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gaviao_real",
+          "nome": "Gavião-real",
+          "descricao": "Grande águia neotropical (Harpia harpyja), a maior ave de rapina de sua área de distribuição, das florestas tropicais de baixada.",
+          "variantes": [
+            "Harpia",
+            "Harpy eagle",
+            "Harpia harpyja"
+          ]
+        },
+        {
+          "id": "cavalo_marinho",
+          "nome": "Cavalo-marinho",
+          "descricao": "Pequeno peixe marinho do gênero Hippocampus, de cabeça parecida com a de um cavalo.",
+          "variantes": [
+            "Hippocampus",
+            "Seahorse"
+          ]
+        },
+        {
+          "id": "gato_tricolor",
+          "nome": "Gato tricolor",
+          "descricao": "Gato doméstico com pelagem de três cores, branca, preta e laranja.",
+          "variantes": [
+            "Gato cálico",
+            "Calico cat"
+          ]
+        },
+        {
+          "id": "gaviao_de_penacho",
+          "nome": "Gavião-de-penacho",
+          "descricao": "Gavião-águia das Américas tropicais, Spizaetus ornatus, de pescoço ruivo e crista negra.",
+          "variantes": [
+            "Ornate hawk-eagle",
+            "Spizaetus ornatus"
+          ]
+        },
+        {
+          "id": "galaxia_do_charuto",
+          "nome": "Galáxia do Charuto",
+          "descricao": "Galáxia starburst na Ursa Maior, também chamada Messier 82, membro do Grupo M81.",
+          "variantes": [
+            "Messier 82",
+            "M82",
+            "NGC 3034",
+            "Cigar Galaxy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Curió",
+        "descricao": "Pássaro canoro (Sporophila angolensis) de cabeça preta e ventre castanho, da América do Sul.",
+        "variantes": [
+          "Sporophila angolensis",
+          "Chestnut-bellied seed finch"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "buzio_cauri",
+          "nome": "Búzio-cauri",
+          "descricao": "Concha de pequenos moluscos do oceano Índico, usada como moeda em várias regiões da África.",
+          "variantes": [
+            "Cauri",
+            "Cowrie",
+            "Búzio"
+          ]
+        },
+        {
+          "id": "cerio",
+          "nome": "Cério",
+          "descricao": "Elemento químico do grupo das terras raras, de número atômico cinquenta e oito, descoberto em 1803.",
+          "variantes": [
+            "Cerium"
+          ]
+        },
+        {
+          "id": "mercurio",
+          "nome": "Mercúrio",
+          "descricao": "Elemento químico de número atômico 80, metal prateado que é líquido em temperatura ambiente.",
+          "variantes": [
+            "Mercúrio (elemento químico)",
+            "Hidrargírio"
+          ]
+        },
+        {
+          "id": "hermes_2",
+          "nome": "Hermes",
+          "descricao": "Deus grego mensageiro do Olimpo, protetor dos viajantes, dos comerciantes e dos ladrões.",
+          "variantes": [
+            "Mercúrio"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro",
+          "nome": "Rio de Janeiro",
+          "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+          "variantes": [
+            "São Sebastião do Rio de Janeiro",
+            "Rio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Araçari-banana",
+        "descricao": "Pequeno tucano amarelo-esverdeado (Pteroglossus bailloni), da Mata Atlântica.",
+        "variantes": [
+          "Pteroglossus bailloni",
+          "Saffron toucanet",
+          "Tucaninho-banana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "banana_cavendish",
+          "nome": "Banana Cavendish",
+          "descricao": "Grupo de cultivares de banana de mesa, conhecido no Brasil como nanica, propagado por clonagem.",
+          "variantes": [
+            "Banana-nanica",
+            "Cavendish banana"
+          ]
+        },
+        {
+          "id": "morango",
+          "nome": "Morango",
+          "descricao": "Fruto do morangueiro, Fragaria × ananassa, um pseudofruto com aquênios na superfície",
+          "variantes": [
+            "Fragaria",
+            "morangueiro",
+            "strawberry",
+            "Fragaria × ananassa"
+          ]
+        },
+        {
+          "id": "araucaria",
+          "nome": "Araucária",
+          "descricao": "Árvore Araucaria angustifolia, o pinheiro-do-paraná, típica do Sul do Brasil",
+          "variantes": [
+            "Araucaria angustifolia",
+            "pinheiro-do-paraná",
+            "pinheiro-brasileiro"
+          ]
+        },
+        {
+          "id": "aranha_armadeira",
+          "nome": "Aranha-armadeira",
+          "descricao": "Aranhas sul-americanas do gênero Phoneutria, errantes e de veneno potente, comuns no Brasil.",
+          "variantes": [
+            "Phoneutria",
+            "armadeira",
+            "aranha-de-bananeira"
+          ]
+        },
+        {
+          "id": "caninana",
+          "nome": "Caninana",
+          "descricao": "Serpente não peçonhenta Spilotes pullatus, preta com manchas amarelas, do Neotrópico.",
+          "variantes": [
+            "Spilotes pullatus",
+            "Cobra-papagaio",
+            "Caninana-do-brejo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ave Cyanoloxia brissonii; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Ave de rapina; candidatas são carrapato, planta etc., distintas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ave Rostrhamus sociabilis sem candidata equivalente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Cygnus olor não consta nas candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Cucaburra sem candidata equivalente."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Merops apiaster é distinto das candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Agapornis sem candidata equivalente."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Neophron percnopterus distinto das candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Pilherodius pileatus; gavião-real é outra espécie."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Rupornis magnirostris distinto de outros gaviões."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Sporophila angolensis sem candidata equivalente."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Pteroglossus bailloni sem candidata equivalente."
+    }
+  ]
+}

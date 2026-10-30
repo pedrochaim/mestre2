@@ -1,0 +1,299 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de azulão macho, reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que ave é esta?",
+      "tipo": "multipla",
+      "resposta": "Azulão",
+      "distratores": [
+        "Azulinho",
+        "Sanhaço-cinzento",
+        "Tiziu"
+      ],
+      "ancora": {
+        "nome": "Azulão",
+        "descricao": "Ave canora azul-escura da família Cardinalidae (Cyanoloxia brissonii), de América do Sul.",
+        "variantes": [
+          "Cyanoloxia brissonii",
+          "Ultramarine grosbeak"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida e característica do carrapateiro.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que ave de rapina é esta?",
+      "tipo": "multipla",
+      "resposta": "Carrapateiro",
+      "distratores": [
+        "Carcará",
+        "Falcão-de-coleira",
+        "Gavião-carijó"
+      ],
+      "ancora": {
+        "nome": "Carrapateiro",
+        "descricao": "Ave de rapina falconídea de cabeça amarelada (Daptrius chimachima), da América do Sul e Central.",
+        "variantes": [
+          "Daptrius chimachima",
+          "Yellow-headed caracara",
+          "Gavião-carrapateiro"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Macho escuro com olho vermelho e pernas laranja, reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que ave de rapina é esta?",
+      "tipo": "multipla",
+      "resposta": "Gavião-caramujeiro",
+      "distratores": [
+        "Gavião-preto",
+        "Gavião-belo",
+        "Gavião-pombo-pequeno"
+      ],
+      "ancora": {
+        "nome": "Gavião-caramujeiro",
+        "descricao": "Ave de rapina (Rostrhamus sociabilis) que se alimenta de caramujos, de áreas alagadas das Américas.",
+        "variantes": [
+          "Rostrhamus sociabilis",
+          "Snail kite"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cisne-branco claro, com bico laranja e protuberância; fato sobre ave nacional documentado.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Que país tem esta ave como ave nacional?",
+      "tipo": "multipla",
+      "resposta": "Dinamarca",
+      "distratores": [
+        "Finlândia",
+        "Noruega",
+        "Islândia"
+      ],
+      "ancora": {
+        "nome": "Cisne-branco",
+        "descricao": "Cisne de plumagem branca e bico laranja (Cygnus olor), nativo da Europa e Ásia.",
+        "variantes": [
+          "Cygnus olor",
+          "Mute swan",
+          "Cisne-mudo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida de cucaburra, bem reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que ave australiana é esta?",
+      "tipo": "multipla",
+      "resposta": "Cucaburra",
+      "distratores": [
+        "Rolieiro-europeu",
+        "Calau-de-bico-vermelho",
+        "Coruja-buraqueira"
+      ],
+      "ancora": {
+        "nome": "Cucaburra",
+        "descricao": "Grande ave da família dos martins-pescadores (Dacelo novaeguineae), conhecida pelo canto que lembra uma risada, da Austrália.",
+        "variantes": [
+          "Cucaburra-grande",
+          "Dacelo novaeguineae",
+          "Laughing kookaburra"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Dois abelharucos nítidos e coloridos; pergunta sobre migração sustentada pelo trecho.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "pergunta": "Em que continente esta ave migratória passa o inverno?",
+      "tipo": "multipla",
+      "resposta": "África",
+      "distratores": [
+        "Ásia",
+        "América do Sul",
+        "Oceania"
+      ],
+      "ancora": {
+        "nome": "Abelharuco-europeu",
+        "descricao": "Ave colorida da família Meropidae (Merops apiaster) que come abelhas e vespas, migratória entre Europa e África.",
+        "variantes": [
+          "Merops apiaster",
+          "European bee-eater"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Agapórnis em voo, cabeça rosada e corpo verde, reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que ave é esta?",
+      "tipo": "multipla",
+      "resposta": "Agapórnis-de-faces-rosadas",
+      "distratores": [
+        "Periquito-australiano",
+        "Caturrita",
+        "Periquito-de-colar"
+      ],
+      "ancora": {
+        "nome": "Agapórnis",
+        "descricao": "Pequeno papagaio africano (Agapornis roseicollis) de rosto rosado e corpo verde, popular como ave de estimação.",
+        "variantes": [
+          "Inseparável",
+          "Agapornis roseicollis",
+          "Rosy-faced lovebird"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Adulto e jovem da mesma espécie, cabeça amarela do adulto reconhecível; fato do uso de pedra documentado.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Que objeto esta ave usa para quebrar ovos grandes?",
+      "tipo": "multipla",
+      "resposta": "Uma pedra",
+      "distratores": [
+        "Um osso",
+        "Uma concha",
+        "Um fruto duro"
+      ],
+      "ancora": {
+        "nome": "Abutre-do-egito",
+        "descricao": "Pequeno abutre do Velho Mundo (Neophron percnopterus), de cabeça amarela quando adulto.",
+        "variantes": [
+          "Neophron percnopterus",
+          "Egyptian vulture",
+          "Urubu-do-egito"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Garça com boné preto e bico azulado visível, ainda que imagem pequena.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que ave é esta?",
+      "tipo": "multipla",
+      "resposta": "Garça-real",
+      "distratores": [
+        "Garça-branca-grande",
+        "Garça-vaqueira",
+        "Savacu-de-coroa"
+      ],
+      "ancora": {
+        "nome": "Garça-real",
+        "descricao": "Garça branca de boné preto e bico azul-claro (Pilherodius pileatus), do neotrópico.",
+        "variantes": [
+          "Pilherodius pileatus",
+          "Capped heron"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Gavião-carijó nítido, com peito barrado e pernas laranja.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que ave de rapina é esta?",
+      "tipo": "multipla",
+      "resposta": "Gavião-carijó",
+      "distratores": [
+        "Gavião-asa-de-telha",
+        "Gavião-pombo-pequeno",
+        "Gavião-de-rabo-branco"
+      ],
+      "ancora": {
+        "nome": "Gavião-carijó",
+        "descricao": "Pequena ave de rapina comum nas Américas (Rupornis magnirostris), de peito barrado.",
+        "variantes": [
+          "Rupornis magnirostris",
+          "Roadside hawk",
+          "Gavião-pega-pinto"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Curió macho com cabeça preta e ventre castanho, reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que ave é esta?",
+      "tipo": "multipla",
+      "resposta": "Curió",
+      "distratores": [
+        "Bicudo",
+        "Bigodinho",
+        "Caboclinho"
+      ],
+      "ancora": {
+        "nome": "Curió",
+        "descricao": "Pássaro canoro (Sporophila angolensis) de cabeça preta e ventre castanho, da América do Sul.",
+        "variantes": [
+          "Sporophila angolensis",
+          "Chestnut-bellied seed finch"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Araçari-banana nítido, cores típicas; bioma sustentado pelo trecho.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "pergunta": "Em que bioma brasileiro vive esta ave?",
+      "tipo": "multipla",
+      "resposta": "Mata Atlântica",
+      "distratores": [
+        "Amazônia",
+        "Cerrado",
+        "Pantanal"
+      ],
+      "ancora": {
+        "nome": "Araçari-banana",
+        "descricao": "Pequeno tucano amarelo-esverdeado (Pteroglossus bailloni), da Mata Atlântica.",
+        "variantes": [
+          "Pteroglossus bailloni",
+          "Saffron toucanet",
+          "Tucaninho-banana"
+        ]
+      }
+    }
+  ]
+}
