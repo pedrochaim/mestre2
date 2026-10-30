@@ -1,0 +1,232 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que estádio é este?",
+        "resposta": "Estádio de Wembley"
+      },
+      "existentes": [
+        {
+          "id": "q00528",
+          "pergunta": "Que estádio é este?",
+          "resposta": "Wembley"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país ficam estas ruínas antigas?",
+        "resposta": "Irã"
+      },
+      "existentes": [
+        {
+          "id": "q01922",
+          "pergunta": "Que império construiu este complexo de ruínas?",
+          "resposta": "Império Aquemênida"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade fica esta torre de treliça, concluída em 1958?",
+        "resposta": "Tóquio"
+      },
+      "existentes": [
+        {
+          "id": "q05446",
+          "pergunta": "Pintada de branco e laranja, a estrutura de aço inaugurada em 1958 como cartão-postal de Tóquio foi inspirada em qual monumento europeu?",
+          "resposta": "Torre Eiffel"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que templo egípcio é este?",
+        "resposta": "Templo de Luxor"
+      },
+      "existentes": [
+        {
+          "id": "q06287",
+          "pergunta": "Em que cidade do Egito fica este templo?",
+          "resposta": "Luxor"
+        },
+        {
+          "id": "q13657",
+          "pergunta": "Dentro do Templo de Luxor, erguido para os deuses de Tebas, funciona há séculos, sobre as ruínas antigas, um templo de outra religião. Qual?",
+          "resposta": "Uma mesquita"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que país fica este anfiteatro romano?",
+        "resposta": "Tunísia"
+      },
+      "existentes": [
+        {
+          "id": "q14594",
+          "pergunta": "Em que país fica este anfiteatro romano?",
+          "resposta": "Tunísia"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que museu brasileiro é este?",
+        "resposta": "Museu do Ipiranga"
+      },
+      "existentes": [
+        {
+          "id": "q01924",
+          "pergunta": "Que arquiteto italiano projetou este edifício, construído no fim do século dezenove?",
+          "resposta": "Tommaso Gaudenzio Bezzi"
+        },
+        {
+          "id": "q08667",
+          "pergunta": "Que pintor é autor da obra mais famosa do acervo deste museu?",
+          "resposta": "Pedro Américo"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que arquiteto projetou esta catedral inglesa?",
+        "resposta": "Christopher Wren"
+      },
+      "existentes": [
+        {
+          "id": "q11608",
+          "pergunta": "Reconstruída depois do Grande Incêndio de 1666, a Catedral de São Paulo, em Londres, foi projetada por qual arquiteto?",
+          "resposta": "Christopher Wren"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Que templo grego é este?",
+        "resposta": "Partenon"
+      },
+      "existentes": [
+        {
+          "id": "q02454",
+          "pergunta": "Em que século antes de Cristo foi construído este templo de Atenas?",
+          "resposta": "Quinto século a.C."
+        },
+        {
+          "id": "q03170",
+          "pergunta": "O nome Partenon vem de um título da deusa Atena. O que esse título significa?",
+          "resposta": "Virgem"
+        },
+        {
+          "id": "q03220",
+          "pergunta": "Em 1687, quando os venezianos cercaram Atenas, uma explosão destruiu boa parte do Partenon. O que os otomanos guardavam lá dentro?",
+          "resposta": "Pólvora"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Quem mandou construir este palácio, no século dezenove?",
+        "resposta": "Dom Fernando II"
+      },
+      "existentes": [
+        {
+          "id": "q07968",
+          "pergunta": "Que palácio é este?",
+          "resposta": "Palácio da Pena"
+        },
+        {
+          "id": "q08023",
+          "pergunta": "Quem mandou construir este palácio romântico no alto de uma colina, no século dezenove?",
+          "resposta": "Fernando II (rei consorte de Portugal)"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em que país fica esta antiga cidade do século quinze?",
+        "resposta": "Peru"
+      },
+      "existentes": [
+        {
+          "id": "q00382",
+          "pergunta": "Que sítio arqueológico é este?",
+          "resposta": "Machu Picchu"
+        },
+        {
+          "id": "q03485",
+          "pergunta": "Em quíchua, o que significa machu, a primeira parte do nome Machu Picchu?",
+          "resposta": "Velho"
+        },
+        {
+          "id": "q03486",
+          "pergunta": "No século quinze, Machu Picchu foi construída como propriedade de que imperador inca?",
+          "resposta": "Pachacútec"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e mesma resposta (Wembley)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "País das ruínas é fato diferente do império construtor."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cidade da torre difere do monumento que a inspirou; o enunciado existente já revela Tóquio mas pergunta outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Identificar o templo como Luxor equivale a saber a cidade/nome do templo na pergunta existente q06287 (mesmo fato de identificação)."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Pergunta e resposta idênticas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Identificar o museu é fato diferente do arquiteto ou do pintor."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o arquiteto da Catedral de São Paulo: Christopher Wren."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Identificação do templo é diferente do século, significado do nome ou da pólvora."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: quem mandou construir o palácio no século XIX, Fernando II.",
+      "id_existente": "q08023"
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "País onde fica é fato diferente de nome, significado ou imperador."
+    }
+  ]
+}

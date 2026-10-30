@@ -1,0 +1,105 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta, sem pista; distratores são estádios críveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Capital cerimonial' é a definição da entidade e quase entrega Persépolis (e logo o Irã) sem a figura. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Em que país ficam estas ruínas antigas?",
+        "resposta": "Irã",
+        "distratores": [
+          "Iraque",
+          "Turquia",
+          "Egito"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pelo teste da imagem coberta, 'torre de treliça inspirada em outra torre famosa' já leva à Torre Eiffel, e os distratores nem são torres de treliça. Passei a perguntar a cidade, que exige reconhecer a torre.",
+      "reescrita": {
+        "pergunta": "Em que cidade fica esta torre de treliça, concluída em 1958?",
+        "resposta": "Tóquio",
+        "distratores": [
+          "Seul",
+          "Xangai",
+          "Singapura"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A imagem mostra pilone, obelisco e colossos, o que distingue Luxor de Karnak. Enunciado sem pista e distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tunísia confirmada nos trechos. A figura é necessária, porque há anfiteatros romanos em vários países, e os distratores são plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; distratores são museus brasileiros críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam Christopher Wren como autor do projeto. Inigo Jones só fez uma restauração anterior, então não é resposta correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a deusa, e a estátua é cópia romana. O nome grego Ártemis aparece no trecho, e os distratores são deusas gregas.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de um emblema; distratores são templos gregos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam Fernando II como mandante do palácio no século dezenove. O enunciado não vaza a resposta e os distratores são monarcas portugueses.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cidadela nas montanhas' mais a escolha de distratores mesoamericanos permitia acertar Inca sem a figura. Passei a perguntar o país.",
+      "reescrita": {
+        "pergunta": "Em que país fica esta antiga cidade do século quinze?",
+        "resposta": "Peru",
+        "distratores": [
+          "Bolívia",
+          "Equador",
+          "Colômbia"
+        ]
+      }
+    }
+  ]
+}

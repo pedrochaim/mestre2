@@ -1,0 +1,271 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea inconfundível do estádio com o arco; sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que estádio é este?",
+      "resposta": "Estádio de Wembley",
+      "distratores": [
+        "Allianz Arena",
+        "Millennium Stadium",
+        "Stade de France"
+      ],
+      "ancora": {
+        "nome": "Estádio de Wembley",
+        "descricao": "Estádio nacional de futebol da Inglaterra, em Londres, inaugurado em 2007 com um grande arco metálico.",
+        "variantes": [
+          "Wembley Stadium",
+          "Wembley"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A fachada traz a inscrição 'Real Gabinete Portuguez de Leitura', que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Portão de Todas as Nações e colunas reconhecíveis; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país ficam estas ruínas de uma antiga capital cerimonial?",
+      "resposta": "Irã",
+      "distratores": [
+        "Iraque",
+        "Turquia",
+        "Egito"
+      ],
+      "ancora": {
+        "nome": "Persépolis",
+        "descricao": "Capital cerimonial do Império Aquemênida, cujas ruínas ficam na província de Fars, no Irã.",
+        "variantes": [
+          "Persepolis",
+          "Takht-e Jamshid"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Torre laranja e branca inconfundível; sem texto.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta torre de treliça metálica foi inspirada em qual outra torre famosa?",
+      "resposta": "Torre Eiffel",
+      "distratores": [
+        "Torre de Pisa",
+        "Big Ben",
+        "Torre CN"
+      ],
+      "ancora": {
+        "nome": "Torre de Tóquio",
+        "descricao": "Torre de comunicações e observação de treliça laranja e branca em Minato, Tóquio, concluída em 1958.",
+        "variantes": [
+          "Tokyo Tower",
+          "Torre de Tokyo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pilone com obelisco e colossos de Ramsés II, característico do Templo de Luxor.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que templo egípcio é este?",
+      "resposta": "Templo de Luxor",
+      "distratores": [
+        "Templo de Karnak",
+        "Templo de Abu Simbel",
+        "Templo de Edfu"
+      ],
+      "ancora": {
+        "nome": "Templo de Luxor",
+        "descricao": "Grande complexo de templo do Egito Antigo na margem leste do Nilo, em Luxor, com pilone, obelisco e colossos.",
+        "variantes": [
+          "Luxor Temple"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Anfiteatro romano bem visível; sem texto; parecido com o Coliseu, mas pergunta por país evita ambiguidade.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país fica este anfiteatro romano?",
+      "resposta": "Tunísia",
+      "distratores": [
+        "Itália",
+        "Argélia",
+        "Líbia"
+      ],
+      "ancora": {
+        "nome": "Anfiteatro de El Djem",
+        "descricao": "Anfiteatro romano oval em El Djem, antiga Thysdrus, na Tunísia, Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Anfiteatro de El Jem",
+          "Amphitheatre of El Jem"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fachada amarela e jardins reconhecíveis; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que museu brasileiro é este?",
+      "resposta": "Museu do Ipiranga",
+      "distratores": [
+        "Museu Nacional",
+        "Museu Histórico Nacional",
+        "Pinacoteca de São Paulo"
+      ],
+      "ancora": {
+        "nome": "Museu do Ipiranga",
+        "descricao": "Museu Paulista da USP, edifício-monumento no Parque da Independência, em São Paulo.",
+        "variantes": [
+          "Museu Paulista",
+          "Museu Paulista da USP"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cúpula e torres reconhecíveis; sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que arquiteto projetou esta catedral inglesa?",
+      "resposta": "Christopher Wren",
+      "distratores": [
+        "Inigo Jones",
+        "Nicholas Hawksmoor",
+        "John Vanbrugh"
+      ],
+      "ancora": {
+        "nome": "Catedral de São Paulo (Londres)",
+        "descricao": "Catedral anglicana barroca de cúpula alta na colina de Ludgate, em Londres, concluída em 1710.",
+        "variantes": [
+          "St Paul's Cathedral",
+          "Catedral de St Paul"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Estátua da Diana de Versalhes (com cervo e aljava), no Louvre; sem texto.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Esta estátua romana representa uma deusa que os gregos chamavam de que nome?",
+      "resposta": "Ártemis",
+      "distratores": [
+        "Atena",
+        "Afrodite",
+        "Hera"
+      ],
+      "ancora": {
+        "nome": "Diana de Versalhes",
+        "descricao": "Estátua romana em mármore da deusa Diana com uma corça, cópia de original grego, no Louvre.",
+        "variantes": [
+          "Diana of Versailles",
+          "Ártemis, deusa da caça",
+          "Diana com a corça"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Partenon clássico, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que templo grego é este?",
+      "resposta": "Partenon",
+      "distratores": [
+        "Erecteion",
+        "Templo de Hefesto",
+        "Templo de Poseidon"
+      ],
+      "ancora": {
+        "nome": "Partenon",
+        "descricao": "Templo dórico dedicado a Atena na Acrópole de Atenas, construído no século cinco a.C.",
+        "variantes": [
+          "Parthenon"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Palácio colorido sobre colina, inconfundível; sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem mandou construir este palácio, no século dezenove?",
+      "resposta": "Dom Fernando II",
+      "distratores": [
+        "Dom Manuel I",
+        "Dom João V",
+        "Dom Pedro V"
+      ],
+      "ancora": {
+        "nome": "Palácio da Pena",
+        "descricao": "Palácio romântico colorido no alto da serra de Sintra, em Portugal, do século dezenove.",
+        "variantes": [
+          "Palácio Nacional da Pena",
+          "Pena Palace"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista clássica de Machu Picchu com Huayna Picchu; sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que civilização construiu esta cidadela nas montanhas?",
+      "resposta": "Inca",
+      "distratores": [
+        "Maia",
+        "Asteca",
+        "Olmeca"
+      ],
+      "ancora": {
+        "nome": "Machu Picchu",
+        "descricao": "Cidadela inca do século quinze na cordilheira oriental dos Andes, no sul do Peru.",
+        "variantes": [
+          "Machupicchu"
+        ]
+      }
+    }
+  ]
+}
