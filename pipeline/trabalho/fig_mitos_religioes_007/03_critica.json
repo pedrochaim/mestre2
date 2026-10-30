@@ -1,0 +1,91 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Neogótica e início em 1913 confirmados nos trechos; o enunciado não nomeia a catedral e a figura é necessária para identificá-la. Distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estátua de bronze ao ar livre em Kamakura, Japão, confirmada. O enunciado não entrega a resposta e os distratores são críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Congonhas, Minas Gerais, e o modelo de 'sacro monte' confirmados. O enunciado não entrega o estado e os distratores são coerentes.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Montagem natalina de pequenas figuras' é uma definição do presépio, então a figura virou enfeite. Reescrita no nível 3, sobre a atribuição do primeiro presépio sazonal, que consta no trecho.",
+      "reescrita": {
+        "pergunta": "A quem se atribui a criação do primeiro desses presépios sazonais, descrita por São Boaventura por volta de mil duzentos e sessenta?",
+        "resposta": "São Francisco de Assis",
+        "distratores": [
+          "Santo Antônio",
+          "São Nicolau",
+          "São Bento"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Encomendada em 1505 pelo papa Júlio II para o seu túmulo, conforme os trechos. Resposta única e distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Taweret é a deusa protetora do parto, conforme os trechos. O enunciado não entrega o nome e os distratores são de outra natureza.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado afirma que a imagem é uma pintura, e isso não está garantido em 'mostra', que descreve apenas a lenda. Troco por 'cena' para ficar verdadeiro para qualquer suporte.",
+      "reescrita": {
+        "pergunta": "Que santo soldado aparece nesta cena, enfrentando um dragão?",
+        "resposta": "São Jorge",
+        "distratores": [
+          "São Sebastião",
+          "Santo Antônio",
+          "São Francisco"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Santuário em Fátima, Portugal, confirmado. O enunciado não entrega o país e os distratores são plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta define o gopuram, então dá para responder sem ver a figura, e a imagem mostra o templo, não só a torre. Reescrita pergunta o estado onde fica o templo, com Madurai em Tamil Nadu confirmada nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que estado do sul da Índia fica este templo hindu?",
+        "resposta": "Tamil Nadu",
+        "distratores": [
+          "Kerala",
+          "Karnataka",
+          "Andhra Pradesh"
+        ]
+      }
+    }
+  ]
+}

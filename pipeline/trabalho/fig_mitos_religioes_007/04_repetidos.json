@@ -1,0 +1,148 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta catedral neogótica, cuja construção começou em 1913, fica em que cidade?",
+        "resposta": "São Paulo"
+      },
+      "existentes": [
+        {
+          "id": "q09518",
+          "pergunta": "Em que cidade brasileira fica esta catedral neogótica?",
+          "resposta": "São Paulo"
+        },
+        {
+          "id": "q14550",
+          "pergunta": "Que estilo arquitetônico predomina nesta catedral, com suas duas torres de agulhas?",
+          "resposta": "Neogótico"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país fica esta grande estátua de bronze ao ar livre?",
+        "resposta": "Japão"
+      },
+      "existentes": [
+        {
+          "id": "q08577",
+          "pergunta": "Que estátua monumental japonesa do século treze, ao ar livre, é esta?",
+          "resposta": "Grande Buda de Kamakura"
+        },
+        {
+          "id": "q14597",
+          "pergunta": "Em que país fica esta enorme estátua de bronze de Buda?",
+          "resposta": "Japão"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que estado brasileiro fica este santuário barroco, no alto de uma colina?",
+        "resposta": "Minas Gerais"
+      },
+      "existentes": [
+        {
+          "id": "q03476",
+          "pergunta": "Que santuário barroco de Minas Gerais é este?",
+          "resposta": "Santuário do Bom Jesus de Matosinhos"
+        },
+        {
+          "id": "q05424",
+          "pergunta": "No adro do Santuário do Bom Jesus de Matosinhos, em Congonhas, os doze profetas de pedra-sabão foram esculpidos por qual artista?",
+          "resposta": "Aleijadinho"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A quem se atribui a criação do primeiro desses presépios sazonais, descrita por São Boaventura por volta de mil duzentos e sessenta?",
+        "resposta": "São Francisco de Assis"
+      },
+      "existentes": [
+        {
+          "id": "q00111",
+          "pergunta": "Em 1223, na aldeia italiana de Greccio, que santo montou o que é considerado o primeiro presépio de Natal?",
+          "resposta": "São Francisco de Assis"
+        },
+        {
+          "id": "q14988",
+          "pergunta": "Que montagem tradicional de Natal é esta?",
+          "resposta": "Presépio"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Esta escultura de Michelangelo foi encomendada para o túmulo de qual papa?",
+        "resposta": "Júlio II"
+      },
+      "existentes": [
+        {
+          "id": "q02518",
+          "pergunta": "Em que basílica de Roma fica esta escultura de Michelangelo?",
+          "resposta": "San Pietro in Vincoli"
+        },
+        {
+          "id": "q03176",
+          "pergunta": "Por que o Moisés de Michelangelo, em Roma, tem dois chifres na cabeça?",
+          "resposta": "Tradução latina da Bíblia"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Esta deusa do Egito antigo protegia as mulheres em qual situação?",
+        "resposta": "Parto"
+      },
+      "existentes": [
+        {
+          "id": "q13624",
+          "pergunta": "Tauéret, deusa protetora das grávidas e dos partos, tinha patas de leão e dorso de crocodilo. E qual animal formava seu corpo e sua cabeça?",
+          "resposta": "Hipopótamo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q09518",
+      "motivo": "Ambas perguntam a cidade da catedral; resposta São Paulo."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q14597",
+      "motivo": "Ambas perguntam o país da estátua de bronze; resposta Japão."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O estado do santuário é fato diferente do nome do santuário ou do autor dos profetas; embora o nome revele Minas Gerais, não pergunta o mesmo fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q00111",
+      "motivo": "Ambas perguntam quem criou o primeiro presépio: São Francisco de Assis."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Papa do túmulo é fato diferente de localização e dos chifres."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "A existente pergunta o animal do corpo; a nova, a situação protegida (parto), que a existente já informa no enunciado, mas o fato perguntado é outro."
+    }
+  ]
+}

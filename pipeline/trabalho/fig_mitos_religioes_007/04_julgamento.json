@@ -1,0 +1,578 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Catedral da Sé de São Paulo",
+        "descricao": "Catedral metropolitana neogótica da Arquidiocese de São Paulo, na Praça da Sé.",
+        "variantes": [
+          "Catedral Metropolitana de São Paulo",
+          "Sé de São Paulo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_da_se_de_sao_paulo",
+          "nome": "Catedral da Sé de São Paulo",
+          "descricao": "Catedral metropolitana neogótica com cúpula renascentista, na Praça da Sé, em São Paulo.",
+          "variantes": [
+            "Catedral Metropolitana de São Paulo",
+            "Catedral da Sé"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        },
+        {
+          "id": "metro_de_sao_paulo",
+          "nome": "Metrô de São Paulo",
+          "descricao": "Sistema de metrô da cidade de São Paulo, o primeiro do Brasil.",
+          "variantes": [
+            "Companhia do Metropolitano de São Paulo"
+          ]
+        },
+        {
+          "id": "sao_paulo",
+          "nome": "São Paulo",
+          "descricao": "Capital do estado de São Paulo, cidade fundada em 1554 a partir de um colégio jesuíta.",
+          "variantes": [
+            "São Paulo (cidade)",
+            "Cidade de São Paulo",
+            "Sampa"
+          ]
+        },
+        {
+          "id": "bienal_de_sao_paulo",
+          "nome": "Bienal de São Paulo",
+          "descricao": "Exposição internacional de arte realizada a cada dois anos em São Paulo.",
+          "variantes": [
+            "Bienal Internacional de Arte de São Paulo",
+            "São Paulo Art Biennial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Grande Buda de Kamakura",
+        "descricao": "Estátua monumental de bronze de Amitābha no templo Kōtoku-in, em Kamakura, Japão.",
+        "variantes": [
+          "Kamakura Daibutsu",
+          "Daibutsu de Kamakura"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_buda_de_kamakura",
+          "nome": "Grande Buda de Kamakura",
+          "descricao": "Estátua monumental de bronze de Amitabha no templo Kōtoku-in, em Kamakura, Japão.",
+          "variantes": [
+            "Kamakura Daibutsu",
+            "Daibutsu de Kamakura"
+          ]
+        },
+        {
+          "id": "buda_gigante_de_leshan",
+          "nome": "Buda Gigante de Leshan",
+          "descricao": "Estátua de Buda de 71 metros esculpida em um penhasco em Leshan, Sichuan, China.",
+          "variantes": [
+            "Grande Buda de Leshan"
+          ]
+        },
+        {
+          "id": "a_grande_onda_de_kanagawa",
+          "nome": "A Grande Onda de Kanagawa",
+          "descricao": "Xilogravura de Katsushika Hokusai, de cerca de 1831.",
+          "variantes": [
+            "The Great Wave off Kanagawa"
+          ]
+        },
+        {
+          "id": "grande_buraco_de_kimberley",
+          "nome": "Grande Buraco de Kimberley",
+          "descricao": "Antiga mina de diamantes a céu aberto, escavada em grande parte à mão no século dezenove na cidade de Kimberley.",
+          "variantes": [
+            "Big Hole",
+            "Kimberley Mine"
+          ]
+        },
+        {
+          "id": "mandibula_de_mauer",
+          "nome": "Mandíbula de Mauer",
+          "descricao": "Mandíbula Mauer 1, achada em 1907 numa pedreira de areia em Mauer e espécime-tipo do Homo heidelbergensis.",
+          "variantes": [
+            "Mauer 1",
+            "Homo heidelbergensis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Santuário do Bom Jesus de Matosinhos",
+        "descricao": "Basílica barroca do século dezoito em Congonhas, Minas Gerais, Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Santuário de Congonhas",
+          "Bom Jesus de Congonhas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santuario_do_bom_jesus_de_congonhas",
+          "nome": "Santuário do Bom Jesus de Congonhas",
+          "descricao": "Santuário barroco do século dezoito em Congonhas, Minas Gerais, com os profetas esculpidos por Aleijadinho.",
+          "variantes": [
+            "Santuário do Bom Jesus de Matosinhos",
+            "Basílica do Bom Jesus de Matosinhos",
+            "Santuário de Congonhas"
+          ]
+        },
+        {
+          "id": "os_doze_profetas_aleijadinho",
+          "nome": "Os Doze Profetas (Aleijadinho)",
+          "descricao": "Conjunto de doze estátuas de pedra-sabão de Aleijadinho no adro do Santuário do Bom Jesus de Matosinhos, em Minas Gerais.",
+          "variantes": [
+            "Profetas de Congonhas"
+          ]
+        },
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        },
+        {
+          "id": "delfos",
+          "nome": "Delfos",
+          "descricao": "Antigo santuário grego na encosta do monte Parnaso, sede do oráculo da Pítia e do templo de Apolo.",
+          "variantes": [
+            "Delphi",
+            "Santuário de Delfos",
+            "Oráculo de Delfos"
+          ]
+        },
+        {
+          "id": "santuario_de_lourdes",
+          "nome": "Santuário de Lourdes",
+          "descricao": "Santuário mariano católico em Lourdes, nos Pirenéus franceses, ao redor da gruta das aparições de 1858.",
+          "variantes": [
+            "Santuário de Nossa Senhora de Lourdes",
+            "Lourdes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Presépio",
+        "descricao": "Representação em figuras do nascimento de Jesus, exibida no período do Natal.",
+        "variantes": [
+          "Manjedoura",
+          "Cena da Natividade"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "presepio",
+          "nome": "Presépio",
+          "descricao": "Representação do nascimento de Jesus, com a manjedoura, Maria, José e animais, tradicional no Natal.",
+          "variantes": [
+            "Presépio de Natal",
+            "Nativity scene",
+            "Manjedoura",
+            "Cena da Natividade"
+          ]
+        },
+        {
+          "id": "basilica_da_natividade",
+          "nome": "Basílica da Natividade",
+          "descricao": "Igreja cristã erguida sobre a gruta onde a tradição situa o nascimento de Jesus",
+          "variantes": [
+            "Igreja da Natividade"
+          ]
+        },
+        {
+          "id": "meganeura",
+          "nome": "Meganeura",
+          "descricao": "Gênero extinto de insetos gigantes aparentados às libélulas, com mais de sessenta centímetros de envergadura.",
+          "variantes": [
+            "Meganeura monyi"
+          ]
+        },
+        {
+          "id": "mantela_dourada",
+          "nome": "Mantela-dourada",
+          "descricao": "Pequena rã terrestre amarelo-alaranjada (Mantella aurantiaca), endêmica de uma área restrita de Madagascar.",
+          "variantes": [
+            "Mantella aurantiaca",
+            "Golden mantella"
+          ]
+        },
+        {
+          "id": "pepino",
+          "nome": "Pepino",
+          "descricao": "Fruto cilíndrico de Cucumis sativus, usado como hortaliça em saladas e conservas.",
+          "variantes": [
+            "Cucumis sativus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Moisés de Michelangelo",
+        "descricao": "Escultura em mármore de Michelangelo, de cerca de 1513 a 1515, na basílica de San Pietro in Vincoli, em Roma.",
+        "variantes": [
+          "Moisés",
+          "Mosè"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "moises_michelangelo",
+          "nome": "Moisés (Michelangelo)",
+          "descricao": "Escultura de mármore de Michelangelo, na Basílica de San Pietro in Vincoli, em Roma, feita para o túmulo do papa Júlio II.",
+          "variantes": [
+            "Moisés de Michelangelo",
+            "Moses"
+          ]
+        },
+        {
+          "id": "alce",
+          "nome": "Alce",
+          "descricao": "Maior espécie de cervo do mundo, de chifres espalmados, que vive nas florestas do Hemisfério Norte (Alces alces).",
+          "variantes": [
+            "Alces alces",
+            "Moose",
+            "Elk"
+          ]
+        },
+        {
+          "id": "mouse",
+          "nome": "Mouse",
+          "descricao": "Dispositivo apontador manual usado para controlar o cursor na tela de um computador.",
+          "variantes": [
+            "Computer mouse",
+            "Rato"
+          ]
+        },
+        {
+          "id": "kebara_2",
+          "nome": "Kebara 2",
+          "descricao": "Esqueleto parcial de um Neandertal adulto, com cerca de 60 mil anos, achado em 1983 na caverna de Kebara, no monte Carmelo, em Israel.",
+          "variantes": [
+            "Moshe",
+            "Neandertal de Kebara"
+          ]
+        },
+        {
+          "id": "codigo_morse",
+          "nome": "Código Morse",
+          "descricao": "Sistema que codifica letras e números em sequências de pontos e traços, usado na telegrafia.",
+          "variantes": [
+            "Morse",
+            "Alfabeto Morse"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Taweret",
+        "descricao": "Deusa egípcia protetora do parto e da fertilidade, representada como hipopótamo fêmea com traços de leoa e crocodilo.",
+        "variantes": [
+          "Tuéris",
+          "Taurt",
+          "Thoéris"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taueret",
+          "nome": "Tauéret",
+          "descricao": "Deusa egípcia protetora das grávidas e dos partos, com corpo de hipopótamo, patas de leão e dorso de crocodilo",
+          "variantes": [
+            "Taweret",
+            "Tueris",
+            "Taurt"
+          ]
+        },
+        {
+          "id": "tetris",
+          "nome": "Tetris",
+          "descricao": "Jogo de quebra-cabeça com peças que caem, criado pelo russo Alexey Pajitnov em 1984.",
+          "variantes": []
+        },
+        {
+          "id": "taro",
+          "nome": "Tarô",
+          "descricao": "Baralho com arcanos ilustrados surgido na Itália no século quinze, hoje associado à adivinhação.",
+          "variantes": [
+            "Tarot",
+            "Tarocchi"
+          ]
+        },
+        {
+          "id": "xadrez_tartan",
+          "nome": "Xadrez tartan",
+          "descricao": "Padrão de tecido de listras horizontais e verticais cruzadas em várias cores, tradicional da Escócia.",
+          "variantes": [
+            "Tartã",
+            "Tartan",
+            "Plaid"
+          ]
+        },
+        {
+          "id": "peixe_leao",
+          "nome": "Peixe-leão",
+          "descricao": "Peixe de recife de coral do gênero Pterois, de nadadeiras listradas e espinhos venenosos.",
+          "variantes": [
+            "Pterois volitans",
+            "Lionfish",
+            "Pterois"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "São Jorge e o dragão",
+        "descricao": "Lenda cristã em que o soldado São Jorge mata um dragão e salva uma princesa.",
+        "variantes": [
+          "São Jorge",
+          "Saint George and the Dragon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_tigre_e_o_dragao",
+          "nome": "O Tigre e o Dragão",
+          "descricao": "Filme de artes marciais de 2000, falado em mandarim, vencedor do Oscar de filme estrangeiro.",
+          "variantes": [
+            "Crouching Tiger, Hidden Dragon"
+          ]
+        },
+        {
+          "id": "seu_jorge",
+          "nome": "Seu Jorge",
+          "descricao": "Cantor, compositor e ator brasileiro de samba pop, conhecido por Cidade de Deus.",
+          "variantes": [
+            "Jorge Mário da Silva"
+          ]
+        },
+        {
+          "id": "cosme_e_damiao",
+          "nome": "Cosme e Damião",
+          "descricao": "Santos gêmeos médicos do cristianismo, cuja festa popular no Brasil inclui a distribuição de doces às crianças.",
+          "variantes": [
+            "São Cosme e São Damião"
+          ]
+        },
+        {
+          "id": "festa_junina",
+          "nome": "Festa junina",
+          "descricao": "Conjunto de festas populares de junho no Brasil em homenagem a Santo Antônio, São João e São Pedro.",
+          "variantes": [
+            "Festas juninas",
+            "São João",
+            "Festa joanina",
+            "Festa de São João"
+          ]
+        },
+        {
+          "id": "gustavo_borges",
+          "nome": "Gustavo Borges",
+          "descricao": "Nadador brasileiro, medalhista olímpico em 1992, 1996 e 2000.",
+          "variantes": [
+            "Gustavo França Borges"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Santuário de Fátima",
+        "descricao": "Conjunto de edifícios católicos em Fátima, Portugal, dedicado às aparições marianas de 1917.",
+        "variantes": [
+          "Santuário de Nossa Senhora de Fátima",
+          "Cova da Iria"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santuario_de_lourdes",
+          "nome": "Santuário de Lourdes",
+          "descricao": "Santuário mariano católico em Lourdes, nos Pirenéus franceses, ao redor da gruta das aparições de 1858.",
+          "variantes": [
+            "Santuário de Nossa Senhora de Lourdes",
+            "Lourdes"
+          ]
+        },
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        },
+        {
+          "id": "santuario_de_itsukushima",
+          "nome": "Santuário de Itsukushima",
+          "descricao": "Santuário xintoísta na ilha de Miyajima, no Japão, famoso pelo grande portal torii erguido sobre o mar.",
+          "variantes": [
+            "Itsukushima-jinja",
+            "Miyajima"
+          ]
+        },
+        {
+          "id": "cirio_de_nazare",
+          "nome": "Círio de Nazaré",
+          "descricao": "Grande procissão católica em honra de Nossa Senhora de Nazaré realizada em Belém do Pará em outubro.",
+          "variantes": [
+            "Círio de Nossa Senhora de Nazaré"
+          ]
+        },
+        {
+          "id": "igrejinha_nossa_senhora_de_fatima",
+          "nome": "Igrejinha Nossa Senhora de Fátima",
+          "descricao": "Primeira igreja católica de alvenaria de Brasília, na quadra 307/308 Sul, inaugurada em 1958.",
+          "variantes": [
+            "Igrejinha da 307/308 Sul",
+            "Igreja Nossa Senhora de Fátima"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Templo de Meenakshi",
+        "descricao": "Templo hindu histórico em Madurai, Tamil Nadu, Índia, dedicado a Meenakshi e Sundareswarar.",
+        "variantes": [
+          "Meenakshi Amman",
+          "Templo Meenakshi Sundareswarar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_karnak",
+          "nome": "Templo de Karnak",
+          "descricao": "Vasto complexo de templos dedicado sobretudo ao deus Amon, na antiga Tebas, atual Luxor",
+          "variantes": [
+            "Karnak",
+            "Ipet-isut"
+          ]
+        },
+        {
+          "id": "templo_mahabodhi",
+          "nome": "Templo Mahabodhi",
+          "descricao": "Templo budista restaurado em Bodh Gaya, na Índia, que marca o local onde Buda teria alcançado a iluminação.",
+          "variantes": [
+            "Templo de Mahabodhi",
+            "Mahabodhi Mahavihara"
+          ]
+        },
+        {
+          "id": "templo_de_hefesto",
+          "nome": "Templo de Hefesto",
+          "descricao": "Templo dórico muito bem preservado, no noroeste da Ágora de Atenas, dedicado a Hefesto.",
+          "variantes": [
+            "Hefesteion",
+            "Teseion"
+          ]
+        },
+        {
+          "id": "templo_de_atena_nice",
+          "nome": "Templo de Atena Nice",
+          "descricao": "Pequeno templo jônico do século cinco a.C. na Acrópole de Atenas, dedicado a Atena Nice.",
+          "variantes": [
+            "Templo de Atena Nike",
+            "Temple of Athena Nike"
+          ]
+        },
+        {
+          "id": "templo_de_philae",
+          "nome": "Templo de Philae",
+          "descricao": "Complexo de templos egípcios dedicado à deusa Ísis, hoje na ilha de Agilkia, perto de Assuã, no Egito.",
+          "variantes": [
+            "Templo de Filas",
+            "Templo de Ísis em Filas"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "catedral_da_se_de_sao_paulo",
+      "motivo": "Mesma catedral neogótica na Praça da Sé."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "grande_buda_de_kamakura",
+      "motivo": "Mesma estátua no Kōtoku-in."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "santuario_do_bom_jesus_de_congonhas",
+      "motivo": "Mesmo santuário em Congonhas, listado como variante."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "presepio",
+      "motivo": "Mesma representação natalina da natividade."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "moises_michelangelo",
+      "motivo": "Mesma escultura em San Pietro in Vincoli."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "taueret",
+      "motivo": "Mesma deusa egípcia hipopótamo, com variantes coincidentes."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Lenda de São Jorge e o dragão não consta entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Santuário de Fátima é distinto de Lourdes e das demais candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Templo de Meenakshi em Madurai não consta entre as candidatas."
+    }
+  ]
+}

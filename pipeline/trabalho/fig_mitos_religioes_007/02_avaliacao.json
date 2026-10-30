@@ -1,0 +1,236 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fachada neogótica clara, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Esta catedral neogótica, cuja construção começou em 1913, fica em que cidade?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Rio de Janeiro",
+        "Belo Horizonte",
+        "Curitiba"
+      ],
+      "ancora": {
+        "nome": "Catedral da Sé de São Paulo",
+        "descricao": "Catedral metropolitana neogótica da Arquidiocese de São Paulo, na Praça da Sé.",
+        "variantes": [
+          "Catedral Metropolitana de São Paulo",
+          "Sé de São Paulo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Estátua monumental de bronze, clara e inconfundível, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que país fica esta grande estátua de bronze ao ar livre?",
+      "resposta": "Japão",
+      "distratores": [
+        "China",
+        "Coreia do Sul",
+        "Tailândia"
+      ],
+      "ancora": {
+        "nome": "Grande Buda de Kamakura",
+        "descricao": "Estátua monumental de bronze de Amitābha no templo Kōtoku-in, em Kamakura, Japão.",
+        "variantes": [
+          "Kamakura Daibutsu",
+          "Daibutsu de Kamakura"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Santuário no alto da colina com capelas brancas, reconhecível o bastante em múltipla escolha; sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que estado brasileiro fica este santuário barroco, no alto de uma colina?",
+      "resposta": "Minas Gerais",
+      "distratores": [
+        "Bahia",
+        "Pernambuco",
+        "Rio de Janeiro"
+      ],
+      "ancora": {
+        "nome": "Santuário do Bom Jesus de Matosinhos",
+        "descricao": "Basílica barroca do século dezoito em Congonhas, Minas Gerais, Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Santuário de Congonhas",
+          "Bom Jesus de Congonhas"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Presépio claro, sem texto nem pessoas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Como se chama esta montagem natalina de pequenas figuras?",
+      "resposta": "Presépio",
+      "distratores": [
+        "Oratório",
+        "Relicário",
+        "Tríptico"
+      ],
+      "ancora": {
+        "nome": "Presépio",
+        "descricao": "Representação em figuras do nascimento de Jesus, exibida no período do Natal.",
+        "variantes": [
+          "Manjedoura",
+          "Cena da Natividade"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Escultura famosa, nítida, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Esta escultura de Michelangelo foi encomendada para o túmulo de qual papa?",
+      "resposta": "Júlio II",
+      "distratores": [
+        "Leão X",
+        "Alexandre VI",
+        "Sisto IV"
+      ],
+      "ancora": {
+        "nome": "Moisés de Michelangelo",
+        "descricao": "Escultura em mármore de Michelangelo, de cerca de 1513 a 1515, na basílica de San Pietro in Vincoli, em Roma.",
+        "variantes": [
+          "Moisés",
+          "Mosè"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ilustração nítida da deusa, de perfil, com atributos característicos; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta deusa do Egito antigo protegia as mulheres em qual situação?",
+      "resposta": "Parto",
+      "distratores": [
+        "Guerra",
+        "Colheita",
+        "Viagem"
+      ],
+      "ancora": {
+        "nome": "Taweret",
+        "descricao": "Deusa egípcia protetora do parto e da fertilidade, representada como hipopótamo fêmea com traços de leoa e crocodilo.",
+        "variantes": [
+          "Tuéris",
+          "Taurt",
+          "Thoéris"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pintura clara de um santo de armadura matando um dragão, com cruz vermelha no escudo; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que santo é retratado nesta pintura?",
+      "resposta": "São Jorge",
+      "distratores": [
+        "São Sebastião",
+        "Santo Antônio",
+        "São Francisco"
+      ],
+      "ancora": {
+        "nome": "São Jorge e o dragão",
+        "descricao": "Lenda cristã em que o soldado São Jorge mata um dragão e salva uma princesa.",
+        "variantes": [
+          "São Jorge",
+          "Saint George and the Dragon"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Esplanada e basílica reconhecíveis, sem texto legível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que país fica este santuário católico de peregrinação?",
+      "resposta": "Portugal",
+      "distratores": [
+        "Espanha",
+        "França",
+        "Itália"
+      ],
+      "ancora": {
+        "nome": "Santuário de Fátima",
+        "descricao": "Conjunto de edifícios católicos em Fátima, Portugal, dedicado às aparições marianas de 1917.",
+        "variantes": [
+          "Santuário de Nossa Senhora de Fátima",
+          "Cova da Iria"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A placa na base da escultura mostra 'PENELOPE?', entregando a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A placa na fonte mostra 'YEMỌJA', entregando a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O relevo mostra várias figuras e não permite reconhecer Jasão com segurança, então a resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Gopuram nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Como se chama este tipo de torre monumental que marca a entrada de templos hindus do sul da Índia?",
+      "resposta": "Gopuram",
+      "distratores": [
+        "Shikhara",
+        "Estupa",
+        "Pagode"
+      ],
+      "ancora": {
+        "nome": "Templo de Meenakshi",
+        "descricao": "Templo hindu histórico em Madurai, Tamil Nadu, Índia, dedicado a Meenakshi e Sundareswarar.",
+        "variantes": [
+          "Meenakshi Amman",
+          "Templo Meenakshi Sundareswarar"
+        ]
+      }
+    }
+  ]
+}
