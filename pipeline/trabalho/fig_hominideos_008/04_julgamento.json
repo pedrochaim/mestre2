@@ -1,0 +1,71 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Vênus de Brassempouy",
+        "descricao": "Estatueta fragmentária de marfim do Paleolítico Superior, com cerca de 25 mil anos, achada na caverna de Brassempouy.",
+        "variantes": [
+          "Dama de Brassempouy",
+          "Dama do Capuz"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "venus_de_brassempouy",
+          "nome": "Vênus de Brassempouy",
+          "descricao": "Fragmento de estatueta de marfim do Paleolítico superior, achado em 1894 em Brassempouy, na França.",
+          "variantes": [
+            "Dama de Brassempouy",
+            "Dama do Capuz",
+            "Venus of Brassempouy"
+          ]
+        },
+        {
+          "id": "venus_de_laussel",
+          "nome": "Vênus de Laussel",
+          "descricao": "Baixo-relevo gravettiano em calcário, de uma mulher nua segurando um chifre, achado em Laussel, na Dordonha, França.",
+          "variantes": [
+            "Venus of Laussel",
+            "Vênus do Chifre",
+            "Dama do Chifre"
+          ]
+        },
+        {
+          "id": "venus_de_milo",
+          "nome": "Vênus de Milo",
+          "descricao": "Estátua grega de mármore no Louvre.",
+          "variantes": [
+            "Afrodite de Milo",
+            "Afrodite de Milos"
+          ]
+        },
+        {
+          "id": "tenis_2",
+          "nome": "Tênis",
+          "descricao": "Esporte de raquete jogado sobre uma rede, individualmente ou em duplas.",
+          "variantes": [
+            "Tênis de campo"
+          ]
+        },
+        {
+          "id": "mascara_de_warka",
+          "nome": "Máscara de Warka",
+          "descricao": "Rosto feminino de mármore branco, de cerca de 3100 a.C., encontrado em Uruk e hoje no Museu Nacional do Iraque.",
+          "variantes": [
+            "Dama de Uruk",
+            "Mask of Warka"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "venus_de_brassempouy",
+      "motivo": "Mesma estatueta de marfim do Paleolítico Superior de Brassempouy, com mesmas variantes (Dama de Brassempouy, Dama do Capuz)."
+    }
+  ]
+}

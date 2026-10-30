@@ -1,0 +1,101 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Montagem com várias espécies de primatas diferentes; não há um único assunto."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Gorila genérico; a subespécie do rio Cross não é reconhecível pela imagem e se confunde com outros gorilas."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Desenho de contorno com fragmentos ósseos; não é reconhecível nem legível no celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto de figura pública com o chimpanzé famoso; pergunta de conexão com o dono, resposta única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que astro da música foi dono do chimpanzé que aparece nesta foto?",
+      "resposta": "Michael Jackson",
+      "distratores": [
+        "Prince",
+        "Elvis Presley",
+        "Freddie Mercury"
+      ],
+      "ancora": {
+        "nome": "Bubbles, o chimpanzé de Michael Jackson",
+        "descricao": "Chimpanzé que foi animal de estimação do cantor Michael Jackson nos anos 1980.",
+        "variantes": [
+          "Bubbles"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Crânio sem traço que permita reconhecer o homem de Tepexpan; resposta não única diante da imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Estátua de gorila genérica, com pessoas comuns ao fundo; não identifica Guy com clareza."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Crânio sem traços que o distingam de outros fósseis; não reconhecível como Oase."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Orangotango não distinguível das outras espécies de orangotango pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto de uma senhora com medalha, pessoa não reconhecível pela imagem; resposta não sustentada visualmente."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Crânio sem traços que permitam reconhecer o fóssil de Florisbad entre outros parecidos."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Peça de marfim reconhecível, sem texto, legível; pergunta de lugar com distratores plausíveis.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país foi encontrada esta antiga estatueta de marfim?",
+      "resposta": "França",
+      "distratores": [
+        "Áustria",
+        "Itália",
+        "Alemanha"
+      ],
+      "ancora": {
+        "nome": "Vênus de Brassempouy",
+        "descricao": "Estatueta fragmentária de marfim do Paleolítico Superior, com cerca de 25 mil anos, achada na caverna de Brassempouy.",
+        "variantes": [
+          "Dama de Brassempouy",
+          "Dama do Capuz"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Múmia envolta em esteiras, sem traços reconhecíveis; resposta não única diante da imagem."
+    }
+  ]
+}

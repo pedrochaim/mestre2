@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que país foi encontrada esta antiga estatueta de marfim?",
+        "resposta": "França"
+      },
+      "existentes": [
+        {
+          "id": "q13996",
+          "pergunta": "Esta cabeça de marfim, uma das mais antigas representações realistas de um rosto humano, tem cerca de quantos anos?",
+          "resposta": "25 mil anos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta é sobre o país onde foi encontrada a estatueta; a outra, sobre a idade da cabeça de marfim. Fatos diferentes."
+    }
+  ]
+}
