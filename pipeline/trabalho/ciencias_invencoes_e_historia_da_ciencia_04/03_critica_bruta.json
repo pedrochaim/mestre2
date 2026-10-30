@@ -1,0 +1,526 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mais de mil' se sobrepõe ao distrator 'Mais de cinco mil' e 'lâmpada de longa duração' é impreciso; fato correto (1.093 patentes).",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Famoso pela lâmpada incandescente e pelo fonógrafo, Thomas Edison registrou nos Estados Unidos cerca de quantas patentes?",
+        "resposta": "Cerca de 1.100",
+        "distratores": [
+          "Cerca de 300",
+          "Cerca de 3.000",
+          "Cerca de 5.000"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Thomas_Edison"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado (Bíblia de 42 linhas), distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "220 metros em 12 de novembro de 1906, confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Existe braille de oito pontos, então 'até quantos' é ambíguo; especificar o sistema original de Louis Braille.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "No sistema original criado por Louis Braille, cada letra é formada numa pequena célula em relevo. Quantos pontos cabem nessa célula?",
+        "resposta": "Seis",
+        "distratores": [
+          "Quatro",
+          "Oito",
+          "Nove"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Braille",
+          "https://en.wikipedia.org/wiki/Braille"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quatro antenas, esfera polida; sustentado pela Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "18 segmentos hexagonais, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cerca de 106 km entre Mannheim e Pforzheim; 'cerca de 100' é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto (25 minutos), mas distratores fracos e desproporcionais.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Em novembro de 1783, dois homens fizeram em Paris o primeiro voo tripulado livre, num balão dos irmãos Montgolfier. Cerca de quanto tempo ele durou?",
+        "resposta": "25 minutos",
+        "distratores": [
+          "Dez minutos",
+          "Uma hora",
+          "Três horas"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Montgolfier_brothers"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "355 patentes, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas o ângulo 'numero' está errado; a relação é de conexão entre Franklin e a cédula.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "O rosto do inventor do para-raios, Benjamin Franklin, estampa a cédula americana de que valor?",
+        "resposta": "Cem dólares",
+        "distratores": [
+          "Um dólar",
+          "Vinte dólares",
+          "Cinquenta dólares"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/United_States_one-hundred-dollar_bill"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Literalmente, o nome homenageia Bell via 'bel'; o decibel é a décima parte do bel.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O decibel é a décima parte de uma unidade chamada bel. Esse nome homenageia que inventor?",
+        "resposta": "Alexander Graham Bell",
+        "distratores": [
+          "Thomas Edison",
+          "Heinrich Hertz",
+          "Emile Berliner"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Decibel"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome vem do teste acoplado ao dirigível nº 14; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Velours + crochet, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Eastman gostava da letra K; a Wikipédia em português confirma a letra.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lumière significa 'luz'; fato certo e a pergunta é simples mas válida.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Marca registrada' não é mostrada nas fontes; usar o que é sustentado (nome vindo da B. F. Goodrich em 1923).",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O nome zíper vem de 1923, quando a fabricante americana B. F. Goodrich usou o fecho num novo produto. Qual?",
+        "resposta": "Galochas de borracha",
+        "distratores": [
+          "Pneus de bicicleta",
+          "Luvas de couro",
+          "Bolsas femininas"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Zipper"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Stêthos = peito; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Asimov cunhou 'robotics' em 'Liar!', maio de 1941.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sputnik = companheiro de viagem, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dýnamis = força/poder, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Louis Cartier criou o relógio para Santos-Dumont.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fragmentos do Flyer foram na bolsa pessoal de Neil Armstrong na Apollo 11.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estátua da Liberdade, com estrutura baseada em desenhos de Eiffel; distratores aceitáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Barbier, capitão, criou a escrita noturna para soldados se comunicarem em silêncio; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Dom Pedro II, aos 14 anos, adquiriu um daguerreótipo em 1840; bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Goodyear (1800–1860), empresa fundada em 1898, vulcanização.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato é a origem do nome Tefal; ângulo correto é 'nome' e o enunciado fica mais preciso.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "A marca francesa de panelas Tefal, criada nos anos cinquenta, tem nome que junta teflon e que metal?",
+        "resposta": "Alumínio",
+        "distratores": [
+          "Aço",
+          "Ferro",
+          "Cobre"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Tefal"
+        ]
+      }
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carta de Newton a Hooke em 1675/76.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Kepler encontrou Tycho em Benátky, perto de Praga, em 1600; 'em Praga' é impreciso.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Em 1600, Johannes Kepler foi trabalhar como assistente de que astrônomo dinamarquês, cujas observações precisas usaria para formular suas leis?",
+        "resposta": "Tycho Brahe",
+        "distratores": [
+          "Galileu Galilei",
+          "Nicolau Copérnico",
+          "Giordano Bruno"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Johannes_Kepler"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Prensa de Gutenberg baseada nas prensas de vinho.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pólvora como subproduto da busca pelo elixir da vida.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pai fabricante de arreios e selas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Barra de chocolate derretida no bolso de Spencer.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Art Fry usou o adesivo para marcar o hinário.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Carrier em 1902 resolveu o problema de umidade na gráfica Sackett-Wilhelms.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto (explosão em janeiro de 1869), mas um distrator tem redação estranha e dois são parecidos.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "Instalado em dezembro de 1868, o primeiro semáforo de Londres, movido a gás, durou pouco. Por que ele foi abandonado poucas semanas depois?",
+        "resposta": "Explodiu, ferindo o policial",
+        "distratores": [
+          "A luz ofuscava cocheiros",
+          "Assustava os cavalos",
+          "Faltou gás"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Traffic_light"
+        ]
+      }
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O governo francês buscava conservar comida para exército e marinha; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Folha de estanho no cilindro, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Liga de chumbo, estanho e antimônio, sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mètre des Archives, barra de platina de 1799.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fontes não sustentam; o museu expõe também polegar, indicador e dente, então 'dedo médio' não é resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas a fonte de Smiljan é página de desambiguação; manter só a de Tesla.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Nikola Tesla, filho de sérvios, nasceu em 1856 numa aldeia do Império Austríaco que hoje pertence a que país?",
+        "resposta": "Croácia",
+        "distratores": [
+          "Sérvia",
+          "Hungria",
+          "Bósnia"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Nikola_Tesla"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fordlândia às margens do Tapajós.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Recife também teve hangar de zepelins; especificar a Base Aérea de Santa Cruz elimina a ambiguidade.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "O hangar da Base Aérea de Santa Cruz, construído nos anos trinta para receber os zepelins alemães, fica em que cidade?",
+        "resposta": "Rio de Janeiro",
+        "distratores": [
+          "Recife",
+          "Salvador",
+          "São Paulo"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Hangar_do_Zeppelin",
+          "https://pt.wikipedia.org/wiki/Base_A%C3%A9rea_de_Santa_Cruz"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Raios X descobertos em 1895, mesmo ano das sessões dos Lumière.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Lançamento nacional foi em 1980, e 'década de 1980' é ambíguo; perguntar o ano em múltipla escolha.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "A cola fraca do post-it foi criada em 1968, mas os bloquinhos só foram lançados em todos os Estados Unidos em que ano?",
+        "resposta": "1980",
+        "distratores": [
+          "1975",
+          "1977",
+          "1984"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Post-it_Note"
+        ]
+      }
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bell sugeriu 'ahoy', Edison 'hello'; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Colher que aponta para o sul, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O relato vem de Gassendi (1654), não 'da época'; ajustar a atribuição.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "multipla",
+        "pergunta": "Segundo uma história contada por Gassendi, o astrônomo Tycho Brahe tinha um animal de estimação que morreu depois de beber cerveja e cair de uma escada. Que animal?",
+        "resposta": "Um alce",
+        "distratores": [
+          "Um urso",
+          "Um macaco",
+          "Um papagaio"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Tycho_Brahe",
+          "https://en.wikipedia.org/wiki/Tycho_Brahe"
+        ]
+      }
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "John Harrison, carpinteiro e relojoeiro autodidata, inventor do cronômetro marinho.",
+      "reescrita": null
+    }
+  ]
+}
