@@ -1,0 +1,665 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Sucuri-amarela",
+        "descricao": "Serpente constritora do sul da América do Sul (Eunectes notaeus), menor que a sucuri-verde.",
+        "variantes": [
+          "Sucuri-do-Paraguai",
+          "Eunectes notaeus",
+          "Yellow anaconda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_paraguai",
+          "nome": "Rio Paraguai",
+          "descricao": "Rio sul-americano que nasce em Mato Grosso, atravessa o Pantanal e deságua no rio Paraná.",
+          "variantes": [
+            "Paraguai",
+            "Paraguay River",
+            "Río Paraguay"
+          ]
+        },
+        {
+          "id": "guerra_do_paraguai",
+          "nome": "Guerra do Paraguai",
+          "descricao": "Guerra travada entre 1864 e 1870 entre o Paraguai e a Tríplice Aliança, formada por Brasil, Argentina e Uruguai.",
+          "variantes": [
+            "Guerra da Tríplice Aliança",
+            "Grande Guerra"
+          ]
+        },
+        {
+          "id": "sucuri_verde",
+          "nome": "Sucuri-verde",
+          "descricao": "Grande serpente constritora (Eunectes murinus) de rios e pântanos da América do Sul.",
+          "variantes": [
+            "Sucuri",
+            "Anaconda-verde",
+            "Eunectes murinus"
+          ]
+        },
+        {
+          "id": "rio_amarelo",
+          "nome": "Rio Amarelo",
+          "descricao": "Segundo rio mais longo da China, que corre pelo norte do país até o mar de Bohai.",
+          "variantes": [
+            "Huang He",
+            "Hwang Ho",
+            "Yellow River",
+            "Rio Huang"
+          ]
+        },
+        {
+          "id": "paraguai",
+          "nome": "Paraguai",
+          "descricao": "País sem litoral da América do Sul, com capital em Assunção.",
+          "variantes": [
+            "Paraguay",
+            "República do Paraguai"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tartaruga-leopardo",
+        "descricao": "Grande tartaruga terrestre das savanas africanas (Stigmochelys pardalis).",
+        "variantes": [
+          "Stigmochelys pardalis",
+          "Leopard tortoise"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tartaruga_verde",
+          "nome": "Tartaruga-verde",
+          "descricao": "Grande tartaruga-marinha herbívora (Chelonia mydas) de carapaça oliva a marrom.",
+          "variantes": [
+            "Chelonia mydas",
+            "Tartaruga-aruanã",
+            "Aruanã",
+            "Green sea turtle"
+          ]
+        },
+        {
+          "id": "tartaruga_de_couro",
+          "nome": "Tartaruga-de-couro",
+          "descricao": "Maior tartaruga marinha viva (Dermochelys coriacea), de casco coberto por pele coriácea em vez de placas duras.",
+          "variantes": [
+            "Tartaruga-gigante",
+            "Dermochelys coriacea",
+            "Leatherback"
+          ]
+        },
+        {
+          "id": "tartaruga_mordedora",
+          "nome": "Tartaruga-mordedora",
+          "descricao": "Grande tartaruga de água doce norte-americana (Chelydra serpentina), de mandíbulas potentes em forma de bico.",
+          "variantes": [
+            "Tartaruga-mordedora-comum",
+            "Chelydra serpentina",
+            "Common snapping turtle"
+          ]
+        },
+        {
+          "id": "tartaruga_de_galapagos",
+          "nome": "Tartaruga-de-galápagos",
+          "descricao": "Maior espécie de jabuti vivo (Chelonoidis niger), nativa de ilhas do arquipélago de Galápagos, no Equador.",
+          "variantes": [
+            "Tartaruga-gigante-de-galápagos",
+            "Galápagos tortoise",
+            "Chelonoidis niger"
+          ]
+        },
+        {
+          "id": "jabuti_piranga",
+          "nome": "Jabuti-piranga",
+          "descricao": "Espécie de jabuti (Chelonoidis carbonarius) do norte da América do Sul, com patas de escamas vermelhas ou alaranjadas.",
+          "variantes": [
+            "Jabuti",
+            "Red-footed tortoise",
+            "Chelonoidis carbonarius"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Iguana-terrestre-de-galápagos",
+        "descricao": "Grande lagarto iguanídeo endêmico das Ilhas Galápagos (Conolophus subcristatus).",
+        "variantes": [
+          "Conolophus subcristatus",
+          "Galápagos land iguana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilhas_galapagos",
+          "nome": "Ilhas Galápagos",
+          "descricao": "Arquipélago vulcânico do Equador, no oceano Pacífico, famoso por sua fauna única.",
+          "variantes": [
+            "Galápagos",
+            "Arquipélago de Colón",
+            "Galapagos Islands"
+          ]
+        },
+        {
+          "id": "pinguim_de_galapagos",
+          "nome": "Pinguim-de-galápagos",
+          "descricao": "Pinguim Spheniscus mendiculus, endêmico do arquipélago de Galápagos, no Equador.",
+          "variantes": [
+            "Spheniscus mendiculus",
+            "Galápagos penguin"
+          ]
+        },
+        {
+          "id": "gecko_de_crista",
+          "nome": "Gecko-de-crista",
+          "descricao": "Correlophus ciliatus, gecko da Nova Caledônia com cristas acima dos olhos.",
+          "variantes": [
+            "Gecko-de-cílios",
+            "Correlophus ciliatus",
+            "Rhacodactylus ciliatus"
+          ]
+        },
+        {
+          "id": "ponto_quente_de_galapagos",
+          "nome": "Ponto quente de Galápagos",
+          "descricao": "Ponto quente vulcânico no Pacífico oriental responsável pela formação das ilhas Galápagos.",
+          "variantes": [
+            "Hotspot de Galápagos",
+            "Galápagos hotspot"
+          ]
+        },
+        {
+          "id": "tartaruga_de_galapagos",
+          "nome": "Tartaruga-de-galápagos",
+          "descricao": "Maior espécie de jabuti vivo (Chelonoidis niger), nativa de ilhas do arquipélago de Galápagos, no Equador.",
+          "variantes": [
+            "Tartaruga-gigante-de-galápagos",
+            "Galápagos tortoise",
+            "Chelonoidis niger"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mamba-verde",
+        "descricao": "Serpente arborícola e peçonhenta do leste da África (Dendroaspis angusticeps).",
+        "variantes": [
+          "Mamba-verde-oriental",
+          "Dendroaspis angusticeps",
+          "Eastern green mamba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cabo_verde",
+          "nome": "Cabo Verde",
+          "descricao": "País insular africano de língua portuguesa, no oceano Atlântico, a oeste do Senegal.",
+          "variantes": [
+            "Cape Verde"
+          ]
+        },
+        {
+          "id": "bandeira_de_cabo_verde",
+          "nome": "Bandeira de Cabo Verde",
+          "descricao": "Bandeira nacional de Cabo Verde, azul com faixas branca e vermelha e um círculo de dez estrelas amarelas.",
+          "variantes": [
+            "Cabo Verde",
+            "Bandeira cabo-verdiana"
+          ]
+        },
+        {
+          "id": "mesa_verde",
+          "nome": "Mesa Verde",
+          "descricao": "Conjunto de moradias de pedra construídas sob penhascos pelos antigos povos pueblo, hoje parque nacional nos Estados Unidos.",
+          "variantes": [
+            "Mesa Verde National Park",
+            "Parque Nacional de Mesa Verde"
+          ]
+        },
+        {
+          "id": "maitaca_verde",
+          "nome": "Maitaca-verde",
+          "descricao": "Papagaio Pionus maximiliani, de cabeça escura com penas escamadas, presente no Brasil, Bolívia, Argentina e Paraguai.",
+          "variantes": [
+            "Maritaca",
+            "Maitaca",
+            "Pionus maximiliani",
+            "Scaly-headed parrot"
+          ]
+        },
+        {
+          "id": "mamba_negra",
+          "nome": "Mamba-negra",
+          "descricao": "Serpente peçonhenta africana (Dendroaspis polylepis), longa e veloz, de pele cinza ou oliva.",
+          "variantes": [
+            "Mamba-preta",
+            "Dendroaspis polylepis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Jacuraru",
+        "descricao": "Grande lagarto semiaquático da Amazônia, de escamas em quilha (Dracaena guianensis).",
+        "variantes": [
+          "Lagarto-jacaré",
+          "Dracaena guianensis",
+          "Northern caiman lizard"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bacurau",
+          "nome": "Bacurau",
+          "descricao": "Filme brasileiro de 2019 dirigido por Kleber Mendonça Filho e Juliano Dornelles, premiado em Cannes.",
+          "variantes": [
+            "Bacurau (filme)"
+          ]
+        },
+        {
+          "id": "curau",
+          "nome": "Curau",
+          "descricao": "Creme doce de milho verde ralado cozido com leite e açúcar, típico das festas juninas.",
+          "variantes": [
+            "Canjica (no Nordeste)"
+          ]
+        },
+        {
+          "id": "lagarto_de_gola",
+          "nome": "Lagarto-de-gola",
+          "descricao": "Lagarto Chlamydosaurus kingii, de grande membrana no pescoço, nativo do norte da Austrália e sul da Nova Guiné.",
+          "variantes": [
+            "Lagarto-de-colar",
+            "Dragão-de-gola",
+            "Chlamydosaurus kingii"
+          ]
+        },
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        },
+        {
+          "id": "tuiuiu",
+          "nome": "Tuiuiú",
+          "descricao": "Grande cegonha (Jabiru mycteria) de plumagem branca, cabeça e pescoço pretos com colar vermelho, ave-símbolo do Pantanal.",
+          "variantes": [
+            "Jaburu",
+            "Jabiru",
+            "Jabiru mycteria"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tartaruga-radiada",
+        "descricao": "Tartaruga terrestre de Madagascar com casco de raios amarelos (Astrochelys radiata).",
+        "variantes": [
+          "Astrochelys radiata",
+          "Radiated tortoise"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tartaruga_verde",
+          "nome": "Tartaruga-verde",
+          "descricao": "Grande tartaruga-marinha herbívora (Chelonia mydas) de carapaça oliva a marrom.",
+          "variantes": [
+            "Chelonia mydas",
+            "Tartaruga-aruanã",
+            "Aruanã",
+            "Green sea turtle"
+          ]
+        },
+        {
+          "id": "jabuti_piranga",
+          "nome": "Jabuti-piranga",
+          "descricao": "Espécie de jabuti (Chelonoidis carbonarius) do norte da América do Sul, com patas de escamas vermelhas ou alaranjadas.",
+          "variantes": [
+            "Jabuti",
+            "Red-footed tortoise",
+            "Chelonoidis carbonarius"
+          ]
+        },
+        {
+          "id": "tartaruga_cabecuda",
+          "nome": "Tartaruga-cabeçuda",
+          "descricao": "Tartaruga-marinha (Caretta caretta) de cabeça grande, comum no litoral brasileiro.",
+          "variantes": [
+            "Caretta caretta",
+            "Loggerhead"
+          ]
+        },
+        {
+          "id": "tartaruga_estrelada_indiana",
+          "nome": "Tartaruga-estrelada-indiana",
+          "descricao": "Tartaruga terrestre do sul da Ásia com casco de padrão estrelado, Geochelone elegans.",
+          "variantes": [
+            "Geochelone elegans",
+            "Indian star tortoise"
+          ]
+        },
+        {
+          "id": "tartaruga_gigante_de_aldabra",
+          "nome": "Tartaruga-gigante-de-aldabra",
+          "descricao": "Jabuti gigante (Aldabrachelys gigantea) do atol de Aldabra, nas Seicheles.",
+          "variantes": [
+            "Aldabrachelys gigantea",
+            "Aldabra giant tortoise",
+            "Jabuti-gigante-de-aldabra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Lagartixa-tokay",
+        "descricao": "Gecko arborícola noturno de manchas laranja, nativo do sul e sudeste da Ásia (Gekko gecko).",
+        "variantes": [
+          "Tokay",
+          "Gekko gecko",
+          "Tokay gecko"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "toquio",
+          "nome": "Tóquio",
+          "descricao": "Capital e cidade mais populosa do Japão, vista com os arranha-céus de Shinjuku.",
+          "variantes": [
+            "Tokyo",
+            "Edo"
+          ]
+        },
+        {
+          "id": "lagartixa",
+          "nome": "Lagartixa",
+          "descricao": "Pequeno lagarto da família dos gecos, capaz de andar em paredes e tetos.",
+          "variantes": [
+            "Geco",
+            "Gecko",
+            "Lagartixa-de-parede",
+            "Gekkonidae"
+          ]
+        },
+        {
+          "id": "oca",
+          "nome": "Oca",
+          "descricao": "Habitação coletiva tradicional de povos indígenas do Brasil, de estrutura de madeira coberta de palha.",
+          "variantes": [
+            "Oka"
+          ]
+        },
+        {
+          "id": "gelo_seco",
+          "nome": "Gelo seco",
+          "descricao": "Dióxido de carbono em estado sólido, que sublima direto para gás e é usado como refrigerante.",
+          "variantes": [
+            "Dióxido de carbono sólido",
+            "CO2 sólido",
+            "Dry ice"
+          ]
+        },
+        {
+          "id": "toga",
+          "nome": "Toga",
+          "descricao": "Manto de lã enrolado ao corpo, traje característico dos cidadãos da Roma Antiga",
+          "variantes": [
+            "Toga romana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Tartaruga-de-orelha-vermelha",
+        "descricao": "Tartaruga aquática de mancha vermelha na cabeça, nativa do sul dos EUA e norte do México (Trachemys scripta elegans).",
+        "variantes": [
+          "Trachemys scripta elegans",
+          "Red-eared slider"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "red_red_wine",
+          "nome": "Red Red Wine",
+          "descricao": "Canção lançada em 1967 e transformada em sucesso de reggae pelo UB40 em 1983",
+          "variantes": []
+        },
+        {
+          "id": "perereca_de_olhos_vermelhos",
+          "nome": "Perereca-de-olhos-vermelhos",
+          "descricao": "Perereca arborícola Agalychnis callidryas, verde com olhos vermelhos, da América Central e noroeste da América do Sul.",
+          "variantes": [
+            "Rã-de-olhos-vermelhos",
+            "Agalychnis callidryas"
+          ]
+        },
+        {
+          "id": "groselha",
+          "nome": "Groselha",
+          "descricao": "Pequeno fruto vermelho, translúcido, em cachos, do arbusto Ribes rubrum.",
+          "variantes": [
+            "Groselha-vermelha",
+            "Redcurrant"
+          ]
+        },
+        {
+          "id": "tartaruga_de_pente",
+          "nome": "Tartaruga-de-pente",
+          "descricao": "Tartaruga marinha tropical (Eretmochelys imbricata) com bico afilado e casco de bordas serrilhadas.",
+          "variantes": [
+            "Hawksbill sea turtle",
+            "Eretmochelys imbricata"
+          ]
+        },
+        {
+          "id": "tartaruga_de_couro",
+          "nome": "Tartaruga-de-couro",
+          "descricao": "Maior tartaruga marinha viva (Dermochelys coriacea), de casco coberto por pele coriácea em vez de placas duras.",
+          "variantes": [
+            "Tartaruga-gigante",
+            "Dermochelys coriacea",
+            "Leatherback"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Tartaruga-de-esporas-africana",
+        "descricao": "Grande tartaruga terrestre do Sahel e sul do Saara (Centrochelys sulcata).",
+        "variantes": [
+          "Centrochelys sulcata",
+          "Sulcata",
+          "African spurred tortoise"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tartaruga_de_nariz_de_porco",
+          "nome": "Tartaruga-de-nariz-de-porco",
+          "descricao": "Carettochelys insculpta, tartaruga de nadadeiras e focinho carnudo do norte da Austrália e da Nova Guiné.",
+          "variantes": [
+            "Carettochelys insculpta",
+            "Tartaruga-do-rio-Fly"
+          ]
+        },
+        {
+          "id": "vulgata",
+          "nome": "Vulgata",
+          "descricao": "Tradução latina da Bíblia feita no fim do século quatro, adotada como texto oficial da Igreja Católica",
+          "variantes": [
+            "Vulgata Latina"
+          ]
+        },
+        {
+          "id": "ibis_sagrado",
+          "nome": "Íbis-sagrado",
+          "descricao": "Ave pernalta africana Threskiornis aethiopicus, de corpo branco e cabeça e bico negros.",
+          "variantes": [
+            "Íbis-sagrado-africano",
+            "African sacred ibis",
+            "Threskiornis aethiopicus"
+          ]
+        },
+        {
+          "id": "tartaruga_estrelada_indiana",
+          "nome": "Tartaruga-estrelada-indiana",
+          "descricao": "Tartaruga terrestre do sul da Ásia com casco de padrão estrelado, Geochelone elegans.",
+          "variantes": [
+            "Geochelone elegans",
+            "Indian star tortoise"
+          ]
+        },
+        {
+          "id": "suricato",
+          "nome": "Suricato",
+          "descricao": "Pequeno mangusto social do sul da África, de rosto com manchas escuras ao redor dos olhos (Suricata suricatta).",
+          "variantes": [
+            "Suricata suricatta",
+            "Meerkat",
+            "Suricate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Tartaruga-aligátor",
+        "descricao": "Grande tartaruga de água doce dos Estados Unidos, de casco com três cristas (Macrochelys temminckii).",
+        "variantes": [
+          "Macrochelys temminckii",
+          "Alligator snapping turtle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tartaruga_de_couro",
+          "nome": "Tartaruga-de-couro",
+          "descricao": "Maior tartaruga marinha viva (Dermochelys coriacea), de casco coberto por pele coriácea em vez de placas duras.",
+          "variantes": [
+            "Tartaruga-gigante",
+            "Dermochelys coriacea",
+            "Leatherback"
+          ]
+        },
+        {
+          "id": "tartaruga_mordedora",
+          "nome": "Tartaruga-mordedora",
+          "descricao": "Grande tartaruga de água doce norte-americana (Chelydra serpentina), de mandíbulas potentes em forma de bico.",
+          "variantes": [
+            "Tartaruga-mordedora-comum",
+            "Chelydra serpentina",
+            "Common snapping turtle"
+          ]
+        },
+        {
+          "id": "tartaruga_verde",
+          "nome": "Tartaruga-verde",
+          "descricao": "Grande tartaruga-marinha herbívora (Chelonia mydas) de carapaça oliva a marrom.",
+          "variantes": [
+            "Chelonia mydas",
+            "Tartaruga-aruanã",
+            "Aruanã",
+            "Green sea turtle"
+          ]
+        },
+        {
+          "id": "tartarugas_marinhas",
+          "nome": "Tartarugas-marinhas",
+          "descricao": "Grupo de répteis marinhos da superfamília Chelonioidea, com sete espécies vivas.",
+          "variantes": [
+            "Chelonioidea",
+            "Sea turtles"
+          ]
+        },
+        {
+          "id": "tartaruga_de_galapagos",
+          "nome": "Tartaruga-de-galápagos",
+          "descricao": "Maior espécie de jabuti vivo (Chelonoidis niger), nativa de ilhas do arquipélago de Galápagos, no Equador.",
+          "variantes": [
+            "Tartaruga-gigante-de-galápagos",
+            "Galápagos tortoise",
+            "Chelonoidis niger"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Eunectes notaeus é espécie distinta da sucuri-verde e dos demais."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Stigmochelys pardalis não consta entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Iguana terrestre é espécie distinta das candidatas de Galápagos."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Dendroaspis angusticeps difere da mamba-negra."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Dracaena guianensis não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Astrochelys radiata é espécie distinta."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Gekko gecko é espécie específica; Lagartixa é o grupo genérico."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Trachemys scripta elegans não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Centrochelys sulcata não está entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Macrochelys temminckii é distinta da tartaruga-mordedora (Chelydra)."
+    }
+  ]
+}

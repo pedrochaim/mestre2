@@ -1,0 +1,259 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Sucuri de padrão amarelado e manchas escuras, bem visível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que serpente sul-americana é esta?",
+      "resposta": "Sucuri-amarela",
+      "distratores": [
+        "Sucuri-verde",
+        "Jiboia-constritora",
+        "Píton-reticulada"
+      ],
+      "ancora": {
+        "nome": "Sucuri-amarela",
+        "descricao": "Serpente constritora do sul da América do Sul (Eunectes notaeus), menor que a sucuri-verde.",
+        "variantes": [
+          "Sucuri-do-Paraguai",
+          "Eunectes notaeus",
+          "Yellow anaconda"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Casco com padrão de leopardo claro e nítido.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que continente vive, na natureza, este quelônio?",
+      "resposta": "África",
+      "distratores": [
+        "Ásia",
+        "América do Sul",
+        "Oceania"
+      ],
+      "ancora": {
+        "nome": "Tartaruga-leopardo",
+        "descricao": "Grande tartaruga terrestre das savanas africanas (Stigmochelys pardalis).",
+        "variantes": [
+          "Stigmochelys pardalis",
+          "Leopard tortoise"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto subaquática em baixa nitidez; cabeça e marcas diagnósticas não ficam claras, e pode ser confundida com outros cágados de pescoço lateral."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cabeça amarela de iguana-terrestre em close, nítida, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que arquipélago vive este lagarto?",
+      "resposta": "Galápagos",
+      "distratores": [
+        "Ilhas Fiji",
+        "Seicheles",
+        "Ilhas Canárias"
+      ],
+      "ancora": {
+        "nome": "Iguana-terrestre-de-galápagos",
+        "descricao": "Grande lagarto iguanídeo endêmico das Ilhas Galápagos (Conolophus subcristatus).",
+        "variantes": [
+          "Conolophus subcristatus",
+          "Galápagos land iguana"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Serpente verde esguia e lisa, reconhecível como mamba-verde.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que continente vive, na natureza, esta serpente?",
+      "resposta": "África",
+      "distratores": [
+        "Ásia",
+        "América do Sul",
+        "Oceania"
+      ],
+      "ancora": {
+        "nome": "Mamba-verde",
+        "descricao": "Serpente arborícola e peçonhenta do leste da África (Dendroaspis angusticeps).",
+        "variantes": [
+          "Mamba-verde-oriental",
+          "Dendroaspis angusticeps",
+          "Eastern green mamba"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Jacuraru nítido, cabeça marrom e escamas em quilha características.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que lagarto é este?",
+      "resposta": "Jacuraru",
+      "distratores": [
+        "Teiú",
+        "Iguana-verde",
+        "Lagarto-monitor-do-Nilo"
+      ],
+      "ancora": {
+        "nome": "Jacuraru",
+        "descricao": "Grande lagarto semiaquático da Amazônia, de escamas em quilha (Dracaena guianensis).",
+        "variantes": [
+          "Lagarto-jacaré",
+          "Dracaena guianensis",
+          "Northern caiman lizard"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Casco com raios amarelos radiais, inconfundível e bem visível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tartaruga é esta?",
+      "resposta": "Tartaruga-radiada",
+      "distratores": [
+        "Tartaruga-estrelada-indiana",
+        "Tartaruga-leopardo",
+        "Jabuti-piranga"
+      ],
+      "ancora": {
+        "nome": "Tartaruga-radiada",
+        "descricao": "Tartaruga terrestre de Madagascar com casco de raios amarelos (Astrochelys radiata).",
+        "variantes": [
+          "Astrochelys radiata",
+          "Radiated tortoise"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tokay em close, manchas laranja sobre azul-acinzentado, inconfundível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que continente é nativa esta lagartixa?",
+      "resposta": "Ásia",
+      "distratores": [
+        "África",
+        "América do Sul",
+        "Europa"
+      ],
+      "ancora": {
+        "nome": "Lagartixa-tokay",
+        "descricao": "Gecko arborícola noturno de manchas laranja, nativo do sul e sudeste da Ásia (Gekko gecko).",
+        "variantes": [
+          "Tokay",
+          "Gekko gecko",
+          "Tokay gecko"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Rã marrom escura e pouco distintiva, facilmente confundida com outras Leptodactylus; resposta não é única diante da foto."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Mancha vermelha lateral na cabeça bem visível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que continente é nativa esta tartaruga?",
+      "resposta": "América do Norte",
+      "distratores": [
+        "América do Sul",
+        "Ásia",
+        "Europa"
+      ],
+      "ancora": {
+        "nome": "Tartaruga-de-orelha-vermelha",
+        "descricao": "Tartaruga aquática de mancha vermelha na cabeça, nativa do sul dos EUA e norte do México (Trachemys scripta elegans).",
+        "variantes": [
+          "Trachemys scripta elegans",
+          "Red-eared slider"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Grande tartaruga terrestre de casco areia, com patas dianteiras de grandes escamas esporadas; nítida.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tartaruga é esta?",
+      "resposta": "Tartaruga-de-esporas-africana",
+      "distratores": [
+        "Tartaruga-leopardo",
+        "Tartaruga-radiada",
+        "Jabuti-piranga"
+      ],
+      "ancora": {
+        "nome": "Tartaruga-de-esporas-africana",
+        "descricao": "Grande tartaruga terrestre do Sahel e sul do Saara (Centrochelys sulcata).",
+        "variantes": [
+          "Centrochelys sulcata",
+          "Sulcata",
+          "African spurred tortoise"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Casco com cristas e cabeça pontiaguda, característicos; boa nitidez.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tartaruga de água doce é esta?",
+      "resposta": "Tartaruga-aligátor",
+      "distratores": [
+        "Tartaruga-mordedora",
+        "Matamatá",
+        "Tartaruga-de-casco-mole"
+      ],
+      "ancora": {
+        "nome": "Tartaruga-aligátor",
+        "descricao": "Grande tartaruga de água doce dos Estados Unidos, de casco com três cristas (Macrochelys temminckii).",
+        "variantes": [
+          "Macrochelys temminckii",
+          "Alligator snapping turtle"
+        ]
+      }
+    }
+  ]
+}
