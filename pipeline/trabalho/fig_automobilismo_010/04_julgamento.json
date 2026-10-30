@@ -1,0 +1,465 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ferrari F1-2000",
+        "descricao": "Carro de Fórmula 1 da Ferrari que disputou a temporada de 2000.",
+        "variantes": [
+          "Ferrari F2000",
+          "F1-2000"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ferrari_f2004",
+          "nome": "Ferrari F2004",
+          "descricao": "Carro de Fórmula 1 da Scuderia Ferrari usado na temporada de 2004, com o qual Michael Schumacher conquistou seu sétimo título.",
+          "variantes": [
+            "F2004"
+          ]
+        },
+        {
+          "id": "ferrari_f2002",
+          "nome": "Ferrari F2002",
+          "descricao": "Carro de Fórmula 1 da Ferrari usado na temporada de 2002, com o qual Michael Schumacher foi campeão.",
+          "variantes": [
+            "F2002"
+          ]
+        },
+        {
+          "id": "ferrari_f40",
+          "nome": "Ferrari F40",
+          "descricao": "Esportivo de motor central da Ferrari, criado para celebrar os quarenta anos da marca e produzido a partir de 1987.",
+          "variantes": [
+            "F40"
+          ]
+        },
+        {
+          "id": "ferrari",
+          "nome": "Ferrari",
+          "descricao": "Fabricante italiana de carros esportivos fundada por Enzo Ferrari, com o símbolo do cavalo empinado.",
+          "variantes": [
+            "Scuderia Ferrari"
+          ]
+        },
+        {
+          "id": "atari_2600",
+          "nome": "Atari 2600",
+          "descricao": "Console doméstico de cartuchos da Atari, lançado nos Estados Unidos no fim dos anos setenta.",
+          "variantes": [
+            "Atari VCS",
+            "Video Computer System"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Williams FW16",
+        "descricao": "Carro de Fórmula 1 da Williams, projetado por Adrian Newey, usado na temporada de 1994.",
+        "variantes": [
+          "FW16"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "williams_fw14b",
+          "nome": "Williams FW14B",
+          "descricao": "Carro de Fórmula 1 da Williams projetado por Adrian Newey, usado em 1991 e 1992 por Mansell e Patrese.",
+          "variantes": [
+            "Williams FW14",
+            "FW14B"
+          ]
+        },
+        {
+          "id": "williams_fw11",
+          "nome": "Williams FW11",
+          "descricao": "Carro de Fórmula 1 da Williams, com motor Honda turbo, usado em 1986 por Mansell e Piquet.",
+          "variantes": [
+            "FW11",
+            "Williams FW11B"
+          ]
+        },
+        {
+          "id": "williams",
+          "nome": "Williams",
+          "descricao": "Equipe britânica de Fórmula 1 fundada em 1977, pela qual Nelson Piquet foi campeão em 1987 e Nigel Mansell em 1992.",
+          "variantes": [
+            "Williams Racing",
+            "Williams Grand Prix Engineering"
+          ]
+        },
+        {
+          "id": "f_16_fighting_falcon",
+          "nome": "F-16 Fighting Falcon",
+          "descricao": "Caça americano monomotor supersônico multifunção, desenvolvido pela General Dynamics a partir de 1974 e produzido hoje pela Lockheed Martin.",
+          "variantes": [
+            "F-16",
+            "General Dynamics F-16",
+            "Viper"
+          ]
+        },
+        {
+          "id": "mercedes_benz_w196",
+          "nome": "Mercedes-Benz W196",
+          "descricao": "Carro de Fórmula 1 da Mercedes-Benz usado em 1954 e 1955, pilotado por Fangio e Stirling Moss.",
+          "variantes": [
+            "W196",
+            "Mercedes W196"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Porsche 956",
+        "descricao": "Protótipo de corridas de resistência do Grupo C construído pela Porsche em 1982.",
+        "variantes": [
+          "956"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "porsche_911",
+          "nome": "Porsche 911",
+          "descricao": "Carro esportivo da fabricante alemã Porsche, produzido desde 1964, com motor traseiro.",
+          "variantes": [
+            "Nove-onze"
+          ]
+        },
+        {
+          "id": "porsche_917",
+          "nome": "Porsche 917",
+          "descricao": "Protótipo de corrida da Porsche, com motor de doze cilindros, vencedor das 24 Horas de Le Mans de 1970 e 1971.",
+          "variantes": [
+            "917"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Danica Patrick",
+        "descricao": "Piloto americana que correu na IndyCar e na Nascar.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "mulher_maravilha",
+          "nome": "Mulher-Maravilha",
+          "descricao": "Heroína amazona da DC Comics, também conhecida como Diana Prince.",
+          "variantes": [
+            "Wonder Woman",
+            "Diana Prince"
+          ]
+        },
+        {
+          "id": "patrick_estrela",
+          "nome": "Patrick Estrela",
+          "descricao": "Estrela-do-mar rosa, melhor amigo de Bob Esponja na série animada Bob Esponja Calça Quadrada.",
+          "variantes": [
+            "Patrick Star",
+            "Patrick"
+          ]
+        },
+        {
+          "id": "mecanica_quantica",
+          "nome": "Mecânica quântica",
+          "descricao": "Teoria física que descreve o comportamento da matéria e da energia na escala dos átomos e das partículas subatômicas.",
+          "variantes": [
+            "Física quântica",
+            "Quantum mechanics"
+          ]
+        },
+        {
+          "id": "ganesha",
+          "nome": "Ganesha",
+          "descricao": "Deus hindu com cabeça de elefante, ligado à sabedoria e à remoção de obstáculos",
+          "variantes": [
+            "Ganesh",
+            "Ganapati"
+          ]
+        },
+        {
+          "id": "bandeira_da_austria",
+          "nome": "Bandeira da Áustria",
+          "descricao": "Bandeira nacional atual da Áustria, com três faixas horizontais iguais vermelha, branca e vermelha.",
+          "variantes": [
+            "Áustria",
+            "Bandeira austríaca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Circuito de Marina Bay",
+        "descricao": "Circuito de rua de Cingapura que recebe o Grande Prêmio de Cingapura de Fórmula 1.",
+        "variantes": [
+          "Marina Bay Street Circuit",
+          "Circuito Urbano de Marina Bay"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "circuito_de_monaco",
+          "nome": "Circuito de Mônaco",
+          "descricao": "Circuito de rua de Monte Carlo, em Mônaco.",
+          "variantes": [
+            "Circuit de Monaco"
+          ]
+        },
+        {
+          "id": "circuito_de_pescara",
+          "nome": "Circuito de Pescara",
+          "descricao": "Circuito de estradas públicas em Pescara, na Itália, que recebeu o Grande Prêmio de Pescara de Fórmula 1 em 1957.",
+          "variantes": [
+            "Pescara Circuit",
+            "Circuito di Pescara"
+          ]
+        },
+        {
+          "id": "circuito_de_la_sarthe",
+          "nome": "Circuito de la Sarthe",
+          "descricao": "Circuito de Le Mans, na França, que mistura estradas públicas e trechos permanentes e recebe as 24 Horas de Le Mans.",
+          "variantes": [
+            "Circuit de la Sarthe",
+            "Circuito de Le Mans"
+          ]
+        },
+        {
+          "id": "circuito_gilles_villeneuve",
+          "nome": "Circuito Gilles Villeneuve",
+          "descricao": "Circuito de rua da Ilha Notre-Dame, em Montreal, sede do Grande Prêmio do Canadá.",
+          "variantes": [
+            "Circuit Gilles Villeneuve",
+            "Circuito de Montreal"
+          ]
+        },
+        {
+          "id": "circuito_das_americas",
+          "nome": "Circuito das Américas",
+          "descricao": "Autódromo de Austin, Texas, EUA, sede do GP dos Estados Unidos de Fórmula 1.",
+          "variantes": [
+            "Circuit of the Americas",
+            "COTA"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Jeff Gordon",
+        "descricao": "Piloto americano de Nascar, quatro vezes campeão da Cup Series, que correu pela Hendrick Motorsports.",
+        "variantes": [
+          "Jeffery Michael Gordon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "michael_jordan",
+          "nome": "Michael Jordan",
+          "descricao": "Jogador americano de basquete, seis vezes campeão da NBA pelo Chicago Bulls.",
+          "variantes": [
+            "MJ",
+            "Air Jordan"
+          ]
+        },
+        {
+          "id": "fat_man_bomba_de_nagasaki",
+          "nome": "Fat Man (bomba de Nagasaki)",
+          "descricao": "Bomba atômica de plutônio lançada pelos Estados Unidos sobre Nagasaki em 9 de agosto de 1945.",
+          "variantes": [
+            "Fat Man",
+            "Homem Gordo",
+            "Mark III"
+          ]
+        },
+        {
+          "id": "mike_tyson",
+          "nome": "Mike Tyson",
+          "descricao": "Ex-boxeador americano dos pesos-pesados, campeão mundial indiscutível de 1987 a 1990.",
+          "variantes": [
+            "Michael Gerard Tyson",
+            "Iron Mike"
+          ]
+        },
+        {
+          "id": "ozzy_osbourne",
+          "nome": "Ozzy Osbourne",
+          "descricao": "Cantor britânico de heavy metal, vocalista do Black Sabbath e depois artista solo.",
+          "variantes": [
+            "John Michael Osbourne",
+            "Príncipe das Trevas"
+          ]
+        },
+        {
+          "id": "megalodonte",
+          "nome": "Megalodonte",
+          "descricao": "Espécie extinta de tubarão gigante que viveu entre o Mioceno e o Plioceno.",
+          "variantes": [
+            "Otodus megalodon",
+            "Megalodon",
+            "Carcharocles megalodon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Lotus 97T",
+        "descricao": "Carro de Fórmula 1 da Team Lotus usado na temporada de 1985.",
+        "variantes": [
+          "97T"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lotus_72",
+          "nome": "Lotus 72",
+          "descricao": "Carro de Fórmula 1 da Lotus, usado de 1970 a 1975, com o qual Emerson Fittipaldi foi campeão mundial em 1972.",
+          "variantes": [
+            "Lotus 72D"
+          ]
+        },
+        {
+          "id": "lotus_79",
+          "nome": "Lotus 79",
+          "descricao": "Carro de Fórmula 1 da Lotus de 1978, o primeiro a explorar plenamente o efeito solo, campeão com Mario Andretti.",
+          "variantes": [
+            "Lotus Type 79"
+          ]
+        },
+        {
+          "id": "lotus",
+          "nome": "Lotus",
+          "descricao": "Equipe britânica de Fórmula 1 fundada por Colin Chapman, que competiu de 1958 a 1994.",
+          "variantes": [
+            "Team Lotus"
+          ]
+        },
+        {
+          "id": "lotus_2",
+          "nome": "Lótus",
+          "descricao": "Planta aquática Nelumbo nucifera, da família Nelumbonaceae, de grandes flores rosadas, sagrada no hinduísmo e no budismo.",
+          "variantes": [
+            "Flor-de-lótus",
+            "Lótus-sagrado",
+            "Nelumbo nucifera"
+          ]
+        },
+        {
+          "id": "porsche_917",
+          "nome": "Porsche 917",
+          "descricao": "Protótipo de corrida da Porsche, com motor de doze cilindros, vencedor das 24 Horas de Le Mans de 1970 e 1971.",
+          "variantes": [
+            "917"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Red Bull Ring",
+        "descricao": "Circuito de automobilismo em Spielberg, na Áustria, sede do Grande Prêmio da Áustria.",
+        "variantes": [
+          "A1-Ring",
+          "Österreichring"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "red_bull",
+          "nome": "Red Bull",
+          "descricao": "Bebida energética austríaca lançada em 1987 por Dietrich Mateschitz.",
+          "variantes": []
+        },
+        {
+          "id": "althing",
+          "nome": "Althing",
+          "descricao": "Assembleia nacional da Islândia, criada pelos colonos nórdicos em 930 em Þingvellir.",
+          "variantes": [
+            "Alþingi",
+            "Althingi"
+          ]
+        },
+        {
+          "id": "hering",
+          "nome": "Hering",
+          "descricao": "Empresa têxtil brasileira fundada em 1880 em Blumenau pelos irmãos alemães Hermann e Bruno Hering.",
+          "variantes": [
+            "Cia. Hering",
+            "Companhia Hering"
+          ]
+        },
+        {
+          "id": "alan_turing",
+          "nome": "Alan Turing",
+          "descricao": "Matemático e lógico inglês (1912–1954), pai da ciência da computação teórica.",
+          "variantes": [
+            "Alan Mathison Turing"
+          ]
+        },
+        {
+          "id": "queima_de_sutias",
+          "nome": "Queima de sutiãs",
+          "descricao": "Expressão nascida do protesto feminista contra o concurso Miss América de 1968, em Atlantic City",
+          "variantes": [
+            "Bra-burning",
+            "Queima dos sutiãs"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Carro de 2000 distinto de F2004, F2002 e demais candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "FW16 de 1994 é diferente do FW14B e outros."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Porsche 956 é modelo distinto do 911 e 917."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Piloto Danica Patrick não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Circuito de Cingapura não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Jeff Gordon, piloto da Nascar, não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Lotus 97T é carro específico de 1985, distinto de 72, 79 e da equipe."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Circuito Red Bull Ring é distinto da bebida Red Bull e das demais candidatas."
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Carro vermelho de F1 nítido, sem o nome do modelo escrito; reconhecível como Ferrari de 2000.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Com este carro, que piloto foi campeão mundial de Fórmula 1 em 2000?",
+      "resposta": "Michael Schumacher",
+      "distratores": [
+        "Mika Häkkinen",
+        "David Coulthard",
+        "Rubens Barrichello"
+      ],
+      "ancora": {
+        "nome": "Ferrari F1-2000",
+        "descricao": "Carro de Fórmula 1 da Ferrari que disputou a temporada de 2000.",
+        "variantes": [
+          "Ferrari F2000",
+          "F1-2000"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Retrato de um homem idoso sem contexto que permita reconhecê-lo; pouco reconhecível pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Williams azul e branco da Rothmans, bem visível e legível; sem o nome do modelo na imagem.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que piloto brasileiro dirigiu este modelo de carro na última corrida da carreira, em 1994?",
+      "resposta": "Ayrton Senna",
+      "distratores": [
+        "Nelson Piquet",
+        "Rubens Barrichello",
+        "Emerson Fittipaldi"
+      ],
+      "ancora": {
+        "nome": "Williams FW16",
+        "descricao": "Carro de Fórmula 1 da Williams, projetado por Adrian Newey, usado na temporada de 1994.",
+        "variantes": [
+          "FW16"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Protótipo do Grupo C nítido; sem o nome Porsche escrito. Pergunta pela fabricante.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fabricante construiu este protótipo de corrida do Grupo C?",
+      "resposta": "Porsche",
+      "distratores": [
+        "Jaguar",
+        "Mercedes-Benz",
+        "Lancia"
+      ],
+      "ancora": {
+        "nome": "Porsche 956",
+        "descricao": "Protótipo de corridas de resistência do Grupo C construído pela Porsche em 1982.",
+        "variantes": [
+          "956"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto de grupo com dezenas de pessoas, incluindo mecânicos anônimos, e texto de patrocinadores; sem uma única entidade clara."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Retrato em preto e branco sem contexto suficiente; o macacão Ferrari não distingue o piloto de seus companheiros, então a resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esta piloto?",
+      "resposta": "Danica Patrick",
+      "distratores": [
+        "Simona de Silvestro",
+        "Sarah Fisher",
+        "Milka Duno"
+      ],
+      "ancora": {
+        "nome": "Danica Patrick",
+        "descricao": "Piloto americana que correu na IndyCar e na Nascar.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Boxes e pista pintada com as cores típicas do circuito de Singapura; sem texto que entregue a resposta.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade fica este circuito de rua, visto a partir da área dos boxes?",
+      "resposta": "Cingapura",
+      "distratores": [
+        "Abu Dhabi",
+        "Melbourne",
+        "Baku"
+      ],
+      "ancora": {
+        "nome": "Circuito de Marina Bay",
+        "descricao": "Circuito de rua de Cingapura que recebe o Grande Prêmio de Cingapura de Fórmula 1.",
+        "variantes": [
+          "Marina Bay Street Circuit",
+          "Circuito Urbano de Marina Bay"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, só com logotipo de emissora no microfone; pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Por que equipe este piloto americano correu em tempo integral na Nascar Cup, de 1993 a 2015?",
+      "resposta": "Hendrick Motorsports",
+      "distratores": [
+        "Joe Gibbs Racing",
+        "Richard Childress Racing",
+        "Roush Fenway Racing"
+      ],
+      "ancora": {
+        "nome": "Jeff Gordon",
+        "descricao": "Piloto americano de Nascar, quatro vezes campeão da Cup Series, que correu pela Hendrick Motorsports.",
+        "variantes": [
+          "Jeffery Michael Gordon"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Carro preto e dourado nítido; o nome Lotus não aparece legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que equipe de Fórmula 1 usava esta pintura preta e dourada nos anos oitenta?",
+      "resposta": "Lotus",
+      "distratores": [
+        "Brabham",
+        "Tyrrell",
+        "McLaren"
+      ],
+      "ancora": {
+        "nome": "Lotus 97T",
+        "descricao": "Carro de Fórmula 1 da Team Lotus usado na temporada de 1985.",
+        "variantes": [
+          "97T"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Largada com zebras nas cores da bandeira austríaca; sem o nome do circuito na imagem.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que empresa comprou este circuito austríaco e o reconstruiu, reabrindo-o em 2011?",
+      "resposta": "Red Bull",
+      "distratores": [
+        "Pirelli",
+        "Petronas",
+        "Monster Energy"
+      ],
+      "ancora": {
+        "nome": "Red Bull Ring",
+        "descricao": "Circuito de automobilismo em Spielberg, na Áustria, sede do Grande Prêmio da Áustria.",
+        "variantes": [
+          "A1-Ring",
+          "Österreichring"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Vários letreiros Petronas visíveis entregam o país e o circuito."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O ano 2000 no enunciado permite responder sem a figura (campeão de 2000). Reescrita pede um fato que exige reconhecer o carro, com apoio nos trechos (jejum de 21 anos).",
+      "reescrita": {
+        "pergunta": "Este carro deu à sua equipe o primeiro título de pilotos depois de um jejum. Quantos anos durou esse jejum?",
+        "resposta": "Vinte e um anos",
+        "distratores": [
+          "Dezesseis anos",
+          "Vinte e cinco anos",
+          "Doze anos"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: piloto brasileiro com última corrida em 1994 é Senna sem olhar a figura. Reescrita pergunta o projetista, confirmado nos trechos.",
+      "reescrita": {
+        "pergunta": "Que engenheiro britânico projetou este carro de Fórmula 1?",
+        "resposta": "Adrian Newey",
+        "distratores": [
+          "Ross Brawn",
+          "Gordon Murray",
+          "John Barnard"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Exige reconhecer o carro; fabricante confirmado nos trechos; distratores plausíveis e nenhum construiu o 956.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta, sem pista; distratores são outras pilotas de IndyCar, do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A frase 'visto a partir da área dos boxes' não é confirmada pela descrição da foto e é desnecessária. Troquei um distrator (Abu Dhabi não tem circuito de rua) por outra cidade de circuito de rua.",
+      "reescrita": {
+        "pergunta": "Em que cidade fica este circuito de rua de Fórmula 1?",
+        "resposta": "Cingapura",
+        "distratores": [
+          "Baku",
+          "Melbourne",
+          "Jidá"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto (Hendrick Motorsports), mas há erro de redação ('Por que equipe'). Reformulado para a voz, sem citar o nome do piloto.",
+      "reescrita": {
+        "pergunta": "Este piloto americano correu na Nascar Cup em tempo integral de 1993 a 2015, sempre pela mesma equipe. Qual?",
+        "resposta": "Hendrick Motorsports",
+        "distratores": [
+          "Joe Gibbs Racing",
+          "Richard Childress Racing",
+          "Roush Fenway Racing"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pintura preta e dourada nos anos oitenta entrega a Lotus sem olhar a figura, então a imagem vira enfeite. Reescrita pede a equipe que construiu o carro, que exige reconhecê-lo.",
+      "reescrita": {
+        "pergunta": "Que equipe britânica de Fórmula 1 construiu este carro, usado na temporada de 1985?",
+        "resposta": "Lotus",
+        "distratores": [
+          "Brabham",
+          "Tyrrell",
+          "McLaren"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: circuito austríaco reaberto em 2011 após compra aponta para a Red Bull sem a figura, e a resposta é o nome do circuito. Reescrita pede o nome anterior do circuito, dado nos trechos.",
+      "reescrita": {
+        "pergunta": "Entre 1997 e 2003, este circuito austríaco recebeu o Grande Prêmio da Áustria com outro nome. Que nome era esse?",
+        "resposta": "A1-Ring",
+        "distratores": [
+          "Österreichring",
+          "Salzburgring",
+          "Zeltweg Ring"
+        ]
+      }
+    }
+  ]
+}
