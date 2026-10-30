@@ -1,0 +1,87 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que empresário de origem italiana mandou construir este arranha-céu do centro de São Paulo?",
+        "resposta": "Giuseppe Martinelli"
+      },
+      "existentes": [
+        {
+          "id": "q16015",
+          "pergunta": "Em que cidade fica este edifício de vinte e oito andares, concluído em 1929?",
+          "resposta": "São Paulo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que formação rochosa da Serra da Mantiqueira é esta, famosa pela escalada?",
+        "resposta": "Pedra do Baú"
+      },
+      "existentes": [
+        {
+          "id": "q16323",
+          "pergunta": "Em que estado fica este paredão de rocha, conhecido por escaladas?",
+          "resposta": "São Paulo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que acontecimento do século dezenove este monumento paulistano celebra?",
+        "resposta": "Independência do Brasil"
+      },
+      "existentes": [
+        {
+          "id": "q14592",
+          "pergunta": "Em que ano foi inaugurado este monumento, em São Paulo?",
+          "resposta": "1922"
+        },
+        {
+          "id": "q16010",
+          "pergunta": "Que escultor projetou este monumento, inaugurado no centenário de um acontecimento histórico brasileiro?",
+          "resposta": "Ettore Ximenes"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que estádio é este?",
+        "resposta": "Estádio Beira-Rio"
+      },
+      "existentes": [
+        {
+          "id": "q04458",
+          "pergunta": "Em que cidade fica este estádio, que foi sede da Copa do Mundo de 2014?",
+          "resposta": "Porto Alegre"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Quem construiu é um fato diferente da cidade onde fica."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nome da formação é diferente do estado onde fica."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O acontecimento celebrado é um fato distinto do ano de inauguração e do escultor. Saber o escultor ou o ano não leva necessariamente a essa resposta."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar o estádio é diferente de dizer a cidade onde fica."
+    }
+  ]
+}

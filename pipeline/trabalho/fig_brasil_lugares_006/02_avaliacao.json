@@ -1,0 +1,217 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Vista genérica de duna e praia, sem elemento que permita reconhecer Genipabu com segurança."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ponte em arco reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Esta ponte sobre o Rio Paraná liga o Paraguai a que cidade brasileira?",
+      "resposta": "Foz do Iguaçu",
+      "distratores": [
+        "Guaíra",
+        "Ponta Porã",
+        "Corumbá"
+      ],
+      "ancora": {
+        "nome": "Ponte da Amizade",
+        "descricao": "Ponte em arco sobre o Rio Paraná que liga Foz do Iguaçu (Brasil) a Ciudad del Este (Paraguai).",
+        "variantes": [
+          "Ponte Internacional da Amizade",
+          "Puente de la Amistad"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Palácio rosa nítido e característico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que imperador usava este palácio como residência de verão?",
+      "resposta": "Dom Pedro II",
+      "distratores": [
+        "Dom Pedro I",
+        "Dom João VI",
+        "Dom Manuel I"
+      ],
+      "ancora": {
+        "nome": "Museu Imperial",
+        "descricao": "Museu em Petrópolis (RJ), instalado no antigo palácio de verão de Dom Pedro II.",
+        "variantes": [
+          "Palácio Imperial de Petrópolis",
+          "Museu Imperial de Petrópolis"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Edifício dominante e reconhecível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que empresário de origem italiana mandou construir este edifício, inaugurado em 1929?",
+      "resposta": "Giuseppe Martinelli",
+      "distratores": [
+        "Francesco Matarazzo",
+        "Rodolfo Crespi",
+        "Antônio Prado"
+      ],
+      "ancora": {
+        "nome": "Edifício Martinelli",
+        "descricao": "Arranha-céu de 28 andares no centro de São Paulo, o primeiro do Brasil, concluído em 1929.",
+        "variantes": [
+          "Martinelli Building",
+          "Prédio Martinelli"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pedra do Arpoador vista do alto, característica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que ponto do Rio de Janeiro é esta pedra entre duas praias famosas?",
+      "resposta": "Arpoador",
+      "distratores": [
+        "Pedra da Gávea",
+        "Morro Dois Irmãos",
+        "Ilha Fiscal"
+      ],
+      "ancora": {
+        "nome": "Arpoador",
+        "descricao": "Pequena península rochosa entre as praias de Ipanema e Copacabana, no Rio de Janeiro.",
+        "variantes": [
+          "Pedra do Arpoador",
+          "Praia do Arpoador"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Vista aérea de mata, lago e telhados; não é reconhecível como Inhotim."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Paredão de rocha característico, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que formação rochosa da Serra da Mantiqueira é esta, famosa pela escalada?",
+      "resposta": "Pedra do Baú",
+      "distratores": [
+        "Pedra da Gávea",
+        "Pedra Azul",
+        "Pedra do Sino"
+      ],
+      "ancora": {
+        "nome": "Pedra do Baú",
+        "descricao": "Formação rochosa da Serra da Mantiqueira em São Bento do Sapucaí (SP), usada para escalada.",
+        "variantes": [
+          "Complexo do Baú",
+          "Complexo da Pedra do Baú"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Monumento nítido e característico, sem texto legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que acontecimento do século dezenove este monumento paulistano celebra?",
+      "resposta": "Independência do Brasil",
+      "distratores": [
+        "Proclamação da República",
+        "Abolição da Escravatura",
+        "Inconfidência Mineira"
+      ],
+      "ancora": {
+        "nome": "Monumento à Independência do Brasil",
+        "descricao": "Conjunto escultórico em granito e bronze no Parque da Independência, em São Paulo, inaugurado em 1922.",
+        "variantes": [
+          "Monumento do Ipiranga",
+          "Altar da Pátria"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Vista genérica de mar e casas, sem elementos que identifiquem Maragogi."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Interior do estádio com o anel de luz do teto característico.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que estádio é este?",
+      "resposta": "Estádio Beira-Rio",
+      "distratores": [
+        "Arena do Grêmio",
+        "Mineirão",
+        "Maracanã"
+      ],
+      "ancora": {
+        "nome": "Estádio Beira-Rio",
+        "descricao": "Estádio de futebol em Porto Alegre, casa do Sport Club Internacional, às margens do Guaíba.",
+        "variantes": [
+          "Beira-Rio",
+          "Gigante da Beira-Rio",
+          "Estádio José Pinheiro Borda"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Convento branco sobre rocha, característico.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que estado brasileiro fica este santuário, construído no alto de um penhasco?",
+      "resposta": "Espírito Santo",
+      "distratores": [
+        "Rio de Janeiro",
+        "Bahia",
+        "Pernambuco"
+      ],
+      "ancora": {
+        "nome": "Convento da Penha",
+        "descricao": "Santuário mariano do século dezesseis, no alto de um penhasco em Vila Velha (ES).",
+        "variantes": [
+          "Santuário da Penha",
+          "Penha Convent"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto histórica com pessoas comuns, código de arquivo e letreiro parcial no vagão; lugar não identificável pela imagem."
+    }
+  ]
+}

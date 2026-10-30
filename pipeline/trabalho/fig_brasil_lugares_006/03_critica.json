@@ -1,0 +1,84 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a ponte liga Foz do Iguaçu a Ciudad del Este sobre o Paraná. O enunciado não nomeia a ponte, e os distratores são cidades de fronteira ou rio plausíveis, nenhuma delas correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está nos trechos. O problema são os distratores: Dom Manuel I foi rei de Portugal e não imperador, e o enunciado diz \"imperador\". Isso torna a alternativa inverossímil, e o Brasil teve só dois imperadores. Ampliei para \"governante\" e troquei os distratores por nomes plausíveis do mesmo tipo.",
+      "reescrita": {
+        "pergunta": "Que governante do Brasil usava este palácio como residência de verão?",
+        "resposta": "Dom Pedro II",
+        "distratores": [
+          "Dom Pedro I",
+          "Dom João VI",
+          "Deodoro da Fonseca"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O pt.wikipedia dá o término em 1934, e o en.wikipedia dá 1929. A data \"inaugurado em 1929\" no enunciado é arriscada, e a pergunta funciona sem ela. Antônio Prado também não é de origem italiana, então é um distrator fraco, e o troquei.",
+      "reescrita": {
+        "pergunta": "Que empresário de origem italiana mandou construir este arranha-céu do centro de São Paulo?",
+        "resposta": "Giuseppe Martinelli",
+        "distratores": [
+          "Francesco Matarazzo",
+          "Rodolfo Crespi",
+          "Alexandre Siciliano"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o Arpoador como península rochosa entre Ipanema e Copacabana. O enunciado não o nomeia, e os distratores são outros pontos cariocas, nenhum deles entre duas praias.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma a Pedra do Baú na Serra da Mantiqueira e a escalada como atividade. O enunciado não nomeia a formação, e os distratores estão fora da Mantiqueira.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A Inconfidência Mineira foi em 1789, século dezoito, e o enunciado já pede \"século dezenove\". Esse distrator se elimina pelo próprio enunciado. Troquei por um acontecimento do século dezenove.",
+      "reescrita": {
+        "pergunta": "Que acontecimento do século dezenove este monumento paulistano celebra?",
+        "resposta": "Independência do Brasil",
+        "distratores": [
+          "Proclamação da República",
+          "Abolição da Escravatura",
+          "Chegada da Corte portuguesa"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o estádio, às margens do Guaíba e casa do Internacional. O enunciado não vaza a resposta, e os distratores são estádios brasileiros conhecidos, nenhum deles correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o Convento da Penha em Vila Velha, no Espírito Santo, no alto de um penhasco. O enunciado não nomeia o convento nem o estado, e os distratores são estados plausíveis.",
+      "reescrita": null
+    }
+  ]
+}
