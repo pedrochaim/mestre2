@@ -1,0 +1,47 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento, sem vazamento; cobrindo a imagem não dá para responder. Distratores do mesmo tipo (combatentes antigos) e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ouro olímpico em Tóquio no boxe confirmado nos trechos. O enunciado sozinho não define o esporte, porque brasileiros ganharam ouro em Tóquio em vários esportes. Distratores são lutas em que o Brasil não ganhou ouro em Tóquio.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português confirma o ouro de Riner em Londres 2012, no judô. O enunciado é literalmente verdadeiro e não nomeia a entidade. Distratores são modalidades de luta em que ele não foi campeão.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o boneco de madeira (mu ren zhuang) é equipamento de treino das artes marciais chinesas. A pista 'artes marciais chinesas' não entrega a resposta. Distratores plausíveis e distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado define a resposta (faixa de pano nas mãos que protege mão e pulso), então dá para responder com a imagem coberta. Reescrito sem a definição. 'Luva de boxe' como distrator podia aparecer na foto, então foi trocado.",
+      "reescrita": {
+        "pergunta": "Como se chama este equipamento de proteção enrolado nas mãos do lutador?",
+        "resposta": "Bandagem",
+        "distratores": [
+          "Protetor bucal",
+          "Capacete",
+          "Caneleira"
+        ]
+      }
+    }
+  ]
+}

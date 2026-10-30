@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que modalidade este francês foi campeão olímpico em Londres 2012?",
+        "resposta": "Judô"
+      },
+      "existentes": [
+        {
+          "id": "q15197",
+          "pergunta": "Em que ano este atleta conquistou seu primeiro ouro olímpico?",
+          "resposta": "2012"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a modalidade (judô); a existente pede o ano do primeiro ouro. Fatos diferentes, e saber um não leva ao outro."
+    }
+  ]
+}
