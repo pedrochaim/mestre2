@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que leguminosa, nativa do leste da Ásia, é esta?",
+        "resposta": "Soja"
+      },
+      "existentes": [
+        {
+          "id": "q16020",
+          "pergunta": "Que planta tem estas vagens com grãos?",
+          "resposta": "Soja"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q16020",
+      "motivo": "Ambas são perguntas com imagem cuja resposta é identificar a soja; saber uma levaria a saber a outra."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Leguminosa' é redundante, mas o problema é que 'vista ainda na planta' é pista inócua; porém o enunciado dá a categoria sem entregar. Distratores incluem ervilha e grão-de-bico, plantas visualmente distintas, ok. Ajuste mínimo: manter leguminosa, que é a categoria, e tirar 'vista ainda na planta', que pode ser falso para esta foto específica (não sabemos se mostra planta ou vagens).",
+      "reescrita": {
+        "pergunta": "Que leguminosa, nativa do leste da Ásia, é esta?",
+        "resposta": "Soja",
+        "distratores": [
+          "Feijão-fradinho",
+          "Ervilha",
+          "Grão-de-bico"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O noni tem casca com protuberâncias/olhos, mas distratores como graviola e jaca também têm casca saliente, tornando a pista ambígua; além disso, 'fruta tropical' é vaga e a imagem pode ser confundida. Na dúvida, descartar.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Fruta do Cerrado' é pista que ajuda, mas o pequi e o cajuí também são do Cerrado, e a graviola é anonácea parecida; o araticum é também chamado marolo, e o distrator pequi/cajuí são frutas do Cerrado, mas visualmente distintas, então a resposta é única pela imagem. O problema: distratores Pequi e Cajuí também são 'do Cerrado', mas o enunciado não diz que só uma é; é a imagem que decide, o que é aceitável. Reescrever para família anonácea e distratores visualmente parecidos.",
+      "reescrita": {
+        "pergunta": "Que fruta do Cerrado brasileiro, de casca rugosa e polpa cremosa, é esta?",
+        "resposta": "Araticum",
+        "distratores": [
+          "Graviola",
+          "Fruta-do-conde",
+          "Cajá-manga"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Tofu é de origem chinesa (trecho). Mas os distratores queijo minas, ricota e pudim são brancos e de origem não chinesa; o enunciado, porém, diz 'de origem chinesa', pista que ajuda sem entregar. Distratores 'Pudim de leite' pouco parecido; troquem por alimentos asiáticos/brancos em bloco.",
+      "reescrita": {
+        "pergunta": "Que alimento branco, em bloco, de origem chinesa, é este?",
+        "resposta": "Tofu",
+        "distratores": [
+          "Queijo minas",
+          "Ricota",
+          "Queijo coalho"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Shimeji é cogumelo de chapéu marrom em tufos, mas o enoki também cresce em tufos, o que torna o enunciado e o distrator Enoki defensáveis. A resposta deixa de ser única. Troque o distrator por um que não cresça em tufos.",
+      "reescrita": {
+        "pergunta": "Que cogumelo comestível, de chapéu marrom e muito usado na culinária japonesa, é este?",
+        "resposta": "Shimeji",
+        "distratores": [
+          "Shiitake",
+          "Portobello",
+          "Champignon"
+        ]
+      }
+    }
+  ]
+}

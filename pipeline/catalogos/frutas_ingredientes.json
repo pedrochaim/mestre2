@@ -985,7 +985,7 @@
       "titulo": "en:Tofu",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Quinoa",
@@ -1503,7 +1503,7 @@
       "titulo": "pt:Azeite de dendê",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Fubá",
@@ -1524,7 +1524,7 @@
       "titulo": "en:Gorgonzola",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Brie",
@@ -1615,7 +1615,7 @@
       "titulo": "pt:Tucupi",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Missô",
@@ -1664,7 +1664,7 @@
       "titulo": "en:Hypsizygus tessellatus",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Taioba",
@@ -1676,6 +1676,286 @@
     {
       "nome": "Pimenta habanero",
       "titulo": "en:Habanero",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Queijo minas",
+      "titulo": "pt:Queijo minas",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Farinha de mandioca",
+      "titulo": "pt:Farinha de mandioca",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Polvilho",
+      "titulo": "pt:Polvilho",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Creme de leite",
+      "titulo": "en:Cream",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Leite em pó",
+      "titulo": "en:Powdered milk",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Coco ralado",
+      "titulo": "en:Desiccated coconut",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chocolate granulado",
+      "titulo": "en:Sprinkles",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cebola roxa",
+      "titulo": "en:Red onion",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tomate-cereja",
+      "titulo": "en:Cherry tomato",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vinagre",
+      "titulo": "en:Vinegar",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Soja",
+      "titulo": "en:Soybean",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Camomila",
+      "titulo": "en:Matricaria chamomilla",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lima-da-pérsia",
+      "titulo": "en:Citrus limetta",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cajá-manga",
+      "titulo": "en:Spondias dulcis",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Melão-de-são-caetano",
+      "titulo": "en:Momordica charantia",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Castanha portuguesa",
+      "titulo": "en:Sweet chestnut",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pimenta-de-cheiro",
+      "titulo": "pt:Pimenta-de-cheiro",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hibisco",
+      "titulo": "en:Roselle (plant)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pimenta-caiena",
+      "titulo": "en:Cayenne pepper",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Linhaça",
+      "titulo": "en:Flax",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Semente de girassol",
+      "titulo": "en:Sunflower seed",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Broto de feijão",
+      "titulo": "en:Bean sprout",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Edamame",
+      "titulo": "en:Edamame",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cevada",
+      "titulo": "en:Barley",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Melaço",
+      "titulo": "en:Molasses",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Banha",
+      "titulo": "en:Lard",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Curry",
+      "titulo": "en:Curry powder",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cagaita",
+      "titulo": "en:Eugenia dysenterica",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Araticum",
+      "titulo": "en:Annona crassiflora",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Pitomba",
+      "titulo": "en:Talisia esculenta",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Biribá",
+      "titulo": "en:Annona mucosa",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bilimbi",
+      "titulo": "en:Averrhoa bilimbi",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Noni",
+      "titulo": "en:Morinda citrifolia",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Tamarillo",
+      "titulo": "en:Tamarillo",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cherimoia",
+      "titulo": "en:Cherimoya",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jujuba",
+      "titulo": "en:Jujube",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Galanga",
+      "titulo": "en:Galangal",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Macis",
+      "titulo": "en:Mace (spice)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estragão",
+      "titulo": "en:Tarragon",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alfarroba",
+      "titulo": "en:Carob",
       "camada": 3,
       "destino": 0,
       "status": "nova"

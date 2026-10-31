@@ -1,0 +1,160 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vagens abertas de soja com grãos amarelos, nítidas e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que leguminosa é esta, vista ainda na planta?",
+      "resposta": "Soja",
+      "distratores": [
+        "Feijão-fradinho",
+        "Ervilha",
+        "Grão-de-bico"
+      ],
+      "ancora": {
+        "nome": "Soja",
+        "descricao": "Leguminosa Glycine max, nativa do leste da Ásia, cultivada pelo grão rico em proteína e óleo.",
+        "variantes": [
+          "Soybean",
+          "Glycine max"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pessoas comuns (mãos e rosto) em primeiro plano, e o óleo vermelho em uma bacia não é inequívoco como azeite de dendê."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Frutos de noni verdes, com a superfície característica, bem visíveis na árvore.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fruta tropical, de casca cheia de saliências, é esta?",
+      "resposta": "Noni",
+      "distratores": [
+        "Graviola",
+        "Jaca",
+        "Pitaia"
+      ],
+      "ancora": {
+        "nome": "Noni",
+        "descricao": "Fruto da árvore Morinda citrifolia, da família do café, nativa do Sudeste Asiático e da Australásia.",
+        "variantes": [
+          "Morinda citrifolia",
+          "Amora-indiana"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Montinho de pó branco pode ser farinha, açúcar ou outro pó; a resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O rótulo e a embalagem trazem o nome Gorgonzola, o que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fruto rugoso do araticum no pé, no Cerrado; reconhecível pela casca com placas marrons.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fruta do Cerrado é esta?",
+      "resposta": "Araticum",
+      "distratores": [
+        "Graviola",
+        "Cajuí",
+        "Pequi"
+      ],
+      "ancora": {
+        "nome": "Araticum",
+        "descricao": "Fruto de Annona crassiflora, árvore do Cerrado brasileiro da família das anonáceas.",
+        "variantes": [
+          "Marolo",
+          "Araticum-cortiça",
+          "Annona crassiflora"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Queijo branco liso num prato; pode ser confundido com ricota, queijo fresco ou coalho, sem resposta única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Uma pimenta vermelha isolada não permite distinguir a caiena de outras pimentas vermelhas."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Garrafas de líquido amarelo numa feira parecem suco; o tucupi não é reconhecível, e há letreiros visíveis."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Pessoa socando massa branca num pilão; não é reconhecível como farinha de mandioca e há pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bloco branco de tofu num prato azul, nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que alimento, de origem chinesa, é este?",
+      "resposta": "Tofu",
+      "distratores": [
+        "Queijo minas",
+        "Pudim de leite",
+        "Ricota"
+      ],
+      "ancora": {
+        "nome": "Tofu",
+        "descricao": "Alimento feito de leite de soja coagulado e prensado em blocos brancos, de origem chinesa.",
+        "variantes": [
+          "Queijo de soja",
+          "Bean curd"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Touceira de shimeji marrom com chapéus texturizados, em fundo branco, nítida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que cogumelo comestível, que cresce em tufos, é este?",
+      "resposta": "Shimeji",
+      "distratores": [
+        "Shiitake",
+        "Enoki",
+        "Champignon"
+      ],
+      "ancora": {
+        "nome": "Shimeji",
+        "descricao": "Cogumelo comestível Hypsizygus tessulatus, de chapéu marrom e pé branco, cultivado em tufos.",
+        "variantes": [
+          "Hypsizygus tessulatus",
+          "Buna-shimeji"
+        ]
+      }
+    }
+  ]
+}
