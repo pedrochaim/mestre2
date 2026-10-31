@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que animal das profundezas, que vive em fontes hidrotermais, é este?",
+        "resposta": "Verme-tubular-gigante"
+      },
+      "existentes": [
+        {
+          "id": "q02874",
+          "pergunta": "O verme-tubular-gigante adulto, das fontes hidrotermais, não tem boca nem intestino. Quem fabrica o alimento dentro do corpo dele?",
+          "resposta": "Bactérias simbióticas"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que peixe de recife é este?",
+        "resposta": "Peixe-anjo-imperador"
+      },
+      "existentes": [
+        {
+          "id": "q15103",
+          "pergunta": "Que peixe de recife é este?",
+          "resposta": "Peixe-anjo-imperador"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do animal (verme-tubular-gigante); a existente pergunta quem produz o alimento dentro dele (bactérias simbióticas). Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e mesma resposta (peixe-anjo-imperador)."
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A tartaruga na areia não permite distinguir com segurança a tartaruga-oliva de outras tartarugas marinhas parecidas, como a tartaruga-de-kemp. A resposta não é única diante da imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "O peixe-machado é bem visível e inconfundível, com corpo translúcido e em forma de lâmina. A foto é nítida e não tem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "O nome deste peixe de águas profundas lembra qual ferramenta?",
+      "resposta": "Machado",
+      "distratores": [
+        "Martelo",
+        "Serra",
+        "Foice"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Peixe-machado",
+        "descricao": "Pequeno peixe de águas profundas da subfamília Sternoptychinae, de corpo achatado e translúcido, com fotóforos ventrais.",
+        "variantes": [
+          "Peixe-machado-marinho",
+          "Marine hatchetfish"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A foto mostra um polvo, mas a espécie não é identificável por ela. O polvo-gigante-do-pacífico se confunde com outros polvos grandes, então a resposta não é única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "A foto mostra um ctenóforo, translúcido e luminoso sobre fundo preto, com as fileiras de cílios visíveis. Dá para reconhecê-lo como um grupo de animais.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este animal marinho gelatinoso lembra uma água-viva, mas não é. A que grupo ele pertence?",
+      "resposta": "Ctenóforos",
+      "distratores": [
+        "Cnidários",
+        "Esponjas",
+        "Salpas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ctenóforo",
+        "descricao": "Animal marinho gelatinoso do filo Ctenophora, que nada com fileiras de cílios em forma de pente.",
+        "variantes": [
+          "Ctenophora",
+          "Água-viva-de-pente",
+          "Comb jelly"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A imagem tem resolução muito baixa (300x200) e mostra um cardume de peixes prateados. As sardinhas se confundem com arenques e anchovas, e a imagem não é legível no celular."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "A estrela-coroa-de-espinhos é inconfundível pela forma e pelos espinhos, e a imagem é nítida e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta estrela-do-mar coberta de espinhos venenosos se alimenta principalmente de quê?",
+      "resposta": "Pólipos de coral",
+      "distratores": [
+        "Algas marinhas",
+        "Esponjas",
+        "Mexilhões"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estrela-coroa-de-espinhos",
+        "descricao": "Grande estrela-do-mar do Indo-Pacífico (Acanthaster planci), coberta de espinhos venenosos, que se alimenta de corais.",
+        "variantes": [
+          "Acanthaster planci",
+          "Crown-of-thorns starfish"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "A foto mostra vermes tubulares gigantes, com tubos brancos e plumas vermelhas ao redor de uma fonte hidrotermal. A imagem é escura, mas o assunto é reconhecível. Os distratores são animais de aparência parecida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal das profundezas, que vive em fontes hidrotermais, é este?",
+      "resposta": "Verme-tubular-gigante",
+      "distratores": [
+        "Lírio-do-mar",
+        "Anêmona-do-mar",
+        "Craca-gigante"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Verme-tubular-gigante",
+        "descricao": "Verme poliqueta (Riftia pachyptila) que vive em tubos brancos com plumas vermelhas junto a fontes hidrotermais do fundo do mar.",
+        "variantes": [
+          "Riftia pachyptila",
+          "Giant tubeworm"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O padrão de manchas escuras irregulares e o rosto escuro podem ser de uma foca-de-capuz, e não só de uma foca-harpa. A resposta não é única diante da imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "A cobra-marinha de listras pretas e brancas, com focinho amarelo, é bem visível e nítida. A pergunta sobre a alimentação vale para as cobras-marinhas do gênero Laticauda, então não depende de separar a espécie.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta serpente marinha de veneno potente caça principalmente o quê?",
+      "resposta": "Enguias",
+      "distratores": [
+        "Camarões",
+        "Lulas",
+        "Caranguejos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Serpente-marinha-listrada",
+        "descricao": "Cobra marinha venenosa (Laticauda colubrina), de listras pretas e azuladas e focinho amarelo, que caça no mar e volta à terra para descansar e se reproduzir.",
+        "variantes": [
+          "Laticauda colubrina",
+          "Cobra-marinha-de-lábios-amarelos",
+          "Yellow-lipped sea krait"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A imagem é minúscula e mostra só uma nadadeira dorsal e parte do dorso sobre a água. Não dá para reconhecer o golfinho-de-risso, e a imagem não é legível no celular."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "O peixe-anjo-imperador tem um padrão de listras azuis e amarelas inconfundível, e a foto é nítida e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peixe de recife é este?",
+      "resposta": "Peixe-anjo-imperador",
+      "distratores": [
+        "Peixe-anjo-rainha",
+        "Peixe-anjo-francês",
+        "Peixe-anjo-de-koran"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Peixe-anjo-imperador",
+        "descricao": "Peixe de recife do Indo-Pacífico (Pomacanthus imperator), de listras amarelas sobre corpo azul e máscara azul no rosto.",
+        "variantes": [
+          "Pomacanthus imperator",
+          "Emperor angelfish"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "O pinguim-africano aparece nítido, com a faixa preta no peito e a mancha rosada acima do olho. A pergunta pede para distingui-lo de pinguins parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que espécie de pinguim é esta?",
+      "resposta": "Pinguim-africano",
+      "distratores": [
+        "Pinguim-de-magalhães",
+        "Pinguim-de-humboldt",
+        "Pinguim-de-galápagos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pinguim-africano",
+        "descricao": "Pinguim do sul da África (Spheniscus demersus), de faixa preta no peito, máscara facial preta e mancha rosada acima dos olhos.",
+        "variantes": [
+          "Spheniscus demersus",
+          "Pinguim-do-cabo",
+          "African penguin"
+        ]
+      }
+    }
+  ]
+}
