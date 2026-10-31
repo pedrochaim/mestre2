@@ -1,0 +1,48 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o AS Monaco é o clube anfitrião. O enunciado não nomeia o estádio e não dá para responder sem a figura. Os distratores são clubes franceses críveis e nenhum manda jogos ali.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os trechos confirmam a construção para a Exposição Universal de 1900. O uso em Olimpíada (esgrima e taekwondo em Paris 2024) é amplamente documentado. O enunciado não nomeia o edifício e a figura decide a resposta. Os distratores são edifícios parisienses do mesmo tipo, e nenhum foi construído para exposição e usado em Olimpíada.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista \"entre um lago e o oceano\" não aparece nos trechos e não é literalmente verificável. Não ajuda a distinguir, só arrisca imprecisão. A cidade (Gqeberha, antiga Port Elizabeth) está confirmada nos trechos. Os distratores são outras cidades-sede da Copa de 2010, o que é bom.",
+      "reescrita": {
+        "pergunta": "Em que cidade sul-africana, sede de jogos da Copa do Mundo de 2010, fica este estádio?",
+        "resposta": "Gqeberha (antiga Port Elizabeth)",
+        "distratores": [
+          "Cidade do Cabo",
+          "Durban",
+          "Joanesburgo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o nome do circuito em homenagem a Enzo e Dino Ferrari. Porém \"fundador de equipe de corridas\" mais \"autódromo italiano\" entrega Enzo Ferrari sem olhar a figura. Reescrevi com uma pista que ajuda a distinguir sem identificar sozinha.",
+      "reescrita": {
+        "pergunta": "Este autódromo italiano leva o nome de um pai e de seu filho Dino. Quem é o pai?",
+        "resposta": "Enzo Ferrari",
+        "distratores": [
+          "Ferruccio Lamborghini",
+          "Bruce McLaren",
+          "Colin Chapman"
+        ]
+      }
+    }
+  ]
+}

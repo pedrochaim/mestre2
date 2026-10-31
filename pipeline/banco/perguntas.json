@@ -337504,5 +337504,80 @@
       "autor": "Gustave Doré",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q17366",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "stade_louis_ii",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que clube de futebol manda seus jogos neste estádio?",
+    "resposta": "AS Monaco",
+    "distratores": [
+      "OGC Nice",
+      "Olympique de Marseille",
+      "Olympique Lyonnais"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stade_Louis_II",
+      "https://pt.wikipedia.org/wiki/Stade_Louis_II"
+    ],
+    "imagem": {
+      "arquivo": "q17366.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Monaco_Stade_Louis-II_1.jpg",
+      "autor": "Валерий Дед",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q17367",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "grand_palais",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que edifício de Paris, construído para uma exposição universal e usado em uma Olimpíada, é este?",
+    "resposta": "Grand Palais",
+    "distratores": [
+      "Palais Garnier",
+      "Gare du Nord",
+      "Hôtel des Invalides"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Grand_Palais",
+      "https://pt.wikipedia.org/wiki/Grand_Palais"
+    ],
+    "imagem": {
+      "arquivo": "q17367.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Grand_and_Petit_Palais_from_the_Eiffel_Tower,_Paris_June_2014.jpg",
+      "autor": "daryl_mitchell from Saskatoon, Saskatchewan, Canada",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q17368",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_nelson_mandela_bay",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade sul-africana, sede de jogos da Copa do Mundo de 2010, fica este estádio?",
+    "resposta": "Gqeberha (antiga Port Elizabeth)",
+    "distratores": [
+      "Cidade do Cabo",
+      "Durban",
+      "Joanesburgo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nelson_Mandela_Bay_Stadium",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Nelson_Mandela_Bay"
+    ],
+    "imagem": {
+      "arquivo": "q17368.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_Stadium_in_Port_Elizabeth.jpg",
+      "autor": "Ngrund",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]

@@ -1,0 +1,31 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este autódromo italiano leva o nome de um pai e de seu filho Dino. Quem é o pai?",
+        "resposta": "Enzo Ferrari"
+      },
+      "existentes": [
+        {
+          "id": "q01602",
+          "pergunta": "Em que curva do autódromo de Ímola Ayrton Senna sofreu o acidente fatal de 1994?",
+          "resposta": "Tamburello"
+        },
+        {
+          "id": "q11555",
+          "pergunta": "O autódromo de Ímola homenageia Enzo Ferrari e também o filho dele, morto aos vinte e quatro anos. Como esse filho era chamado?",
+          "resposta": "Dino"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q11555",
+      "motivo": "Ambas tratam do autódromo que homenageia Enzo Ferrari e o filho Dino; só muda a direção (pai vs. filho)."
+    }
+  ]
+}

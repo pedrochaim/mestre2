@@ -1,0 +1,139 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Fairway com golfista de costas; sem marco distintivo, não dá para reconhecer o Augusta National, e há pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Arcos e coberturas características do estádio visíveis, sem nome legível.",
+      "pergunta": "Que clube de futebol manda seus jogos neste estádio?",
+      "tipo": "multipla",
+      "resposta": "AS Monaco",
+      "distratores": [
+        "OGC Nice",
+        "Olympique de Marseille",
+        "Olympique Lyonnais"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Stade Louis II",
+        "descricao": "Estádio de futebol e atletismo no bairro de Fontvieille, em Mônaco, casa do AS Monaco.",
+        "variantes": [
+          "Estádio Louis II",
+          "Stade Louis-II"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Estádio genérico, de arquibancadas azuis, sem traço que permita reconhecer o Curuzu; patrocinadores legíveis nas placas."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O nome LE MANS está escrito no asfalto da pista e entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "As arquibancadas trazem a palavra FENER em letras visíveis, o que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Torcedores em primeiro plano ocupam a imagem e o estádio não é reconhecível pela foto."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista aérea com os tetos de vidro e ferro, inconfundível; sem texto.",
+      "pergunta": "Que edifício de Paris, construído para uma exposição universal e usado em uma Olimpíada, é este?",
+      "tipo": "multipla",
+      "resposta": "Grand Palais",
+      "distratores": [
+        "Palais Garnier",
+        "Gare du Nord",
+        "Hôtel des Invalides"
+      ],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "ancora": {
+        "nome": "Grand Palais",
+        "descricao": "Salão de exposições e museu de Paris, com grande cúpula de vidro e ferro, construído para a Exposição Universal de 1900.",
+        "variantes": [
+          "Grand Palais des Champs-Élysées"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista aérea com a cobertura branca em pétalas, à beira de um lago e do oceano; sem texto.",
+      "pergunta": "Em que cidade sul-africana fica este estádio de Copa do Mundo, entre um lago e o oceano?",
+      "tipo": "multipla",
+      "resposta": "Gqeberha (antiga Port Elizabeth)",
+      "distratores": [
+        "Cidade do Cabo",
+        "Durban",
+        "Joanesburgo"
+      ],
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio Nelson Mandela Bay",
+        "descricao": "Estádio de futebol e rúgbi em Gqeberha, na África do Sul, sede de jogos da Copa do Mundo de 2010.",
+        "variantes": [
+          "Nelson Mandela Bay Stadium"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O nome ESTADIO HAILE PINHEIRO aparece escrito no estádio, entregando a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Reta dos boxes com a torre de controle com o emblema da Ferrari, característica de Imola; sem nome legível.",
+      "pergunta": "Que fundador de equipe de corridas dá nome a este autódromo italiano?",
+      "tipo": "multipla",
+      "resposta": "Enzo Ferrari",
+      "distratores": [
+        "Ferruccio Lamborghini",
+        "Bruce McLaren",
+        "Colin Chapman"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 2,
+      "ancora": {
+        "nome": "Autódromo de Imola",
+        "descricao": "Circuito de corridas em Imola, na Itália, oficialmente Autodromo Internazionale Enzo e Dino Ferrari, antigo palco do Grande Prêmio de San Marino.",
+        "variantes": [
+          "Autodromo Enzo e Dino Ferrari",
+          "Circuito de Imola",
+          "Imola Circuit"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Campo de críquete com arquibancada curva genérica; não é reconhecível como The Oval pelo público e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Estádio de críquete visto de dentro, sem traço distintivo que permita reconhecer o Wankhede; o placar mostra apenas texto de uma partida."
+    }
+  ]
+}
