@@ -1,0 +1,281 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Montagem de uma única obra, sem texto, com o ator reconhecível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que ator interpreta, nesta imagem, tanto o pai de cabelo escuro quanto a senhora de óculos com a vassoura?",
+      "resposta": "Robin Williams",
+      "distratores": [
+        "Steve Martin",
+        "Eddie Murphy",
+        "Michael Keaton"
+      ],
+      "ancora": {
+        "nome": "Uma Babá Quase Perfeita",
+        "descricao": "Comédia americana de 1993 em que um pai se disfarça de babá escocesa para ficar perto dos filhos.",
+        "variantes": [
+          "Mrs. Doubtfire"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cena nítida, sem texto, de ambientação inconfundível.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que emissora de TV americana produziu esta minissérie?",
+      "resposta": "HBO",
+      "distratores": [
+        "Netflix",
+        "Showtime",
+        "AMC"
+      ],
+      "ancora": {
+        "nome": "Chernobyl (minissérie)",
+        "descricao": "Minissérie de 2019 sobre o desastre nuclear de Chernobyl, de 1986.",
+        "variantes": [
+          "Chernobyl",
+          "Chernobil"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cena sem texto, em preto e branco, com a atriz do filme; reconhecimento difícil, por isso múltipla escolha.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Quem dirigiu este filme francês em preto e branco?",
+      "resposta": "Alain Resnais",
+      "distratores": [
+        "François Truffaut",
+        "Jean-Luc Godard",
+        "Louis Malle"
+      ],
+      "ancora": {
+        "nome": "Hiroshima, Meu Amor",
+        "descricao": "Filme franco-japonês de 1959 dirigido por Alain Resnais, sobre um romance entre uma atriz francesa e um arquiteto japonês.",
+        "variantes": [
+          "Hiroshima mon amour"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem de divulgação sem texto, com a protagonista reconhecível.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que atriz interpreta a personagem principal desta série?",
+      "resposta": "Jenna Ortega",
+      "distratores": [
+        "Millie Bobby Brown",
+        "Sadie Sink",
+        "Anya Taylor-Joy"
+      ],
+      "ancora": {
+        "nome": "Wandinha",
+        "descricao": "Série de 2022 da Netflix sobre Wandinha Addams na Escola Nunca Mais.",
+        "variantes": [
+          "Wednesday"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "A nave Endurance e o buraco de minhoca são marcantes e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que filme é esta cena?",
+      "resposta": "Interestelar",
+      "distratores": [
+        "Gravidade",
+        "Perdido em Marte",
+        "Prometheus"
+      ],
+      "ancora": {
+        "nome": "Interestelar",
+        "descricao": "Ficção científica de 2014, dirigida por Christopher Nolan, sobre astronautas em busca de um novo lar para a humanidade.",
+        "variantes": [
+          "Interstellar"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cena com espelhos, sem texto que entregue a resposta (a placa de vidente não identifica o filme).",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que compositor assinou a trilha sonora deste filme francês dos anos sessenta?",
+      "resposta": "Michel Legrand",
+      "distratores": [
+        "Georges Delerue",
+        "Francis Lai",
+        "Maurice Jarre"
+      ],
+      "ancora": {
+        "nome": "Cléo das 5 às 7",
+        "descricao": "Filme francês de 1962 dirigido por Agnès Varda, sobre uma cantora que espera o resultado de um exame.",
+        "variantes": [
+          "Cléo de 5 à 7",
+          "Cleo from 5 to 7"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Montagem do elenco de uma única obra, sem texto.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que dupla de irmãos dirigiu o filme com estes heróis?",
+      "resposta": "Irmãos Russo",
+      "distratores": [
+        "Irmãos Coen",
+        "Irmãos Wachowski",
+        "Irmãos Safdie"
+      ],
+      "ancora": {
+        "nome": "Vingadores: Ultimato",
+        "descricao": "Filme de super-heróis de 2019 da Marvel, dirigido pelos irmãos Russo.",
+        "variantes": [
+          "Avengers: Endgame"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem de divulgação sem texto, com os dois protagonistas.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que série é esta imagem?",
+      "resposta": "The Last of Us",
+      "distratores": [
+        "The Walking Dead",
+        "Station Eleven",
+        "Sweet Tooth"
+      ],
+      "ancora": {
+        "nome": "The Last of Us (série)",
+        "descricao": "Série de 2023 da HBO, baseada no jogo, sobre Joel e Ellie num mundo pós-apocalíptico.",
+        "variantes": [
+          "The Last of Us"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cena icônica e sem texto, de reconhecimento difícil, em múltipla escolha.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem dirigiu este filme soviético?",
+      "resposta": "Andrei Tarkovski",
+      "distratores": [
+        "Serguei Eisenstein",
+        "Andrei Konchalovsky",
+        "Elem Klimov"
+      ],
+      "ancora": {
+        "nome": "Stalker",
+        "descricao": "Filme soviético de 1979 dirigido por Andrei Tarkovski, sobre a Zona e um quarto que realiza desejos.",
+        "variantes": [
+          "Сталкер"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Arte sem texto do herói com o traje desta versão; a década é única.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que década estreou este filme do herói?",
+      "resposta": "Década de 2000",
+      "distratores": [
+        "Década de 1980",
+        "Década de 1990",
+        "Década de 2010"
+      ],
+      "ancora": {
+        "nome": "Homem-Aranha (filme de 2002)",
+        "descricao": "Filme de super-herói de 2002, dirigido por Sam Raimi, com Tobey Maguire.",
+        "variantes": [
+          "Spider-Man"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cena de casamento de novela brasileira, sem texto legível que entregue a resposta.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que atriz interpreta a noiva desta cena de novela?",
+      "resposta": "Adriana Esteves",
+      "distratores": [
+        "Débora Falabella",
+        "Cláudia Raia",
+        "Giovanna Antonelli"
+      ],
+      "ancora": {
+        "nome": "O Cravo e a Rosa",
+        "descricao": "Novela brasileira da TV Globo, de 2000, inspirada em A Megera Domada, com Petruchio e Catarina.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arte de uma única obra, sem texto, com vários personagens reconhecíveis.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Quem dirigiu este filme de ficção científica de 1980?",
+      "resposta": "Irvin Kershner",
+      "distratores": [
+        "George Lucas",
+        "Richard Marquand",
+        "Steven Spielberg"
+      ],
+      "ancora": {
+        "nome": "Star Wars: O Império Contra-Ataca",
+        "descricao": "Segundo filme lançado da saga Star Wars, de 1980, dirigido por Irvin Kershner.",
+        "variantes": [
+          "Guerra nas Estrelas: O Império Contra-Ataca",
+          "The Empire Strikes Back"
+        ]
+      }
+    }
+  ]
+}

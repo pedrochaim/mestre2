@@ -1,0 +1,112 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Não dá para garantir que uma única imagem mostre o pai e a senhora de óculos com a vassoura, e a descrição dos dois papéis entrega a premissa do filme. A reescrita pergunta pelo protagonista, sem depender do que aparece na cena.",
+      "reescrita": {
+        "pergunta": "Que ator americano é o protagonista deste filme de comédia de 1993?",
+        "resposta": "Robin Williams",
+        "distratores": [
+          "Steve Martin",
+          "Eddie Murphy",
+          "Michael Keaton"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A série foi produzida pela HBO nos Estados Unidos, segundo o trecho. O enunciado diz \"americana\", então a resposta é única. Cobrindo a imagem, não dá para responder.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos descrevem o filme como franco-japonês, e \"em preto e branco\" não está nos trechos. Troquei por uma afirmação sustentada, o ano de 1959.",
+      "reescrita": {
+        "pergunta": "Quem dirigiu este filme de 1959?",
+        "resposta": "Alain Resnais",
+        "distratores": [
+          "François Truffaut",
+          "Jean-Luc Godard",
+          "Louis Malle"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jenna Ortega faz a protagonista, segundo os trechos. O enunciado não vaza a resposta, e os distratores são atrizes jovens e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento de nível 1. O enunciado não vaza a resposta, e os distratores são ficções científicas espaciais parecidas.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Michel Legrand compôs a trilha, segundo o trecho. Cobrindo a imagem, o enunciado não permite responder. Os distratores são compositores de cinema franceses ou da mesma época.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os irmãos Russo dirigiram Ultimato, segundo o trecho. O enunciado não nomeia o filme, e os distratores são outras duplas de irmãos cineastas.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento de nível 1. O enunciado não vaza a resposta, e os distratores são séries pós-apocalípticas parecidas.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tarkovski dirigiu Stalker, segundo o trecho. O enunciado não permite responder sem a imagem, e os distratores são diretores soviéticos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O filme é de 2002, o que cai na década de 2000, segundo o trecho. A trilogia inteira estreou nessa década, então a resposta não muda se o respondente confundir os filmes. Os distratores são outras décadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"A noiva desta cena\" afirma algo sobre a imagem que não está confirmado, porque `mostra` não diz que é um casamento, e poderia apontar outra personagem. A reescrita pergunta pela protagonista da novela.",
+      "reescrita": {
+        "pergunta": "Que atriz interpreta a protagonista desta novela brasileira de 2000?",
+        "resposta": "Adriana Esteves",
+        "distratores": [
+          "Débora Falabella",
+          "Cláudia Raia",
+          "Giovanna Antonelli"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Irvin Kershner dirigiu o filme, de 1980, segundo o trecho. O enunciado não permite responder sem a imagem. Lucas dirigiu apenas o filme de 1977, então nenhum distrator também está correto.",
+      "reescrita": null
+    }
+  ]
+}
