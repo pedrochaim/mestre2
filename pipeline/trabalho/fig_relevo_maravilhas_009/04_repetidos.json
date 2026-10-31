@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que país fica esta caverna?",
+        "resposta": "Vietnã"
+      },
+      "existentes": [
+        {
+          "id": "q02869",
+          "pergunta": "A caverna Son Doong, tão grande que tem floresta e até nuvens próprias lá dentro, fica em que país?",
+          "resposta": "Vietnã"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que deserto da Ásia é este?",
+        "resposta": "Gobi"
+      },
+      "existentes": [
+        {
+          "id": "q02291",
+          "pergunta": "O Deserto de Gobi se estende pela Mongólia e por que outro país?",
+          "resposta": "China"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q02869",
+      "motivo": "Ambas perguntam o país da caverna Son Doong (Vietnã)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome do deserto (identificação por imagem); a existente pergunta o outro país que o Gobi abrange (China). Fatos diferentes."
+    }
+  ]
+}

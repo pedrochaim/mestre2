@@ -1,0 +1,213 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O letreiro do barco traz em tailandês o nome do rio (Chao Phraya); além disso, o rio aparece pouco distintivo, com o Wat Arun como destaque."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cachoeira em forma de ferradura, bem característica.",
+      "pergunta": "Em que país fica esta cachoeira?",
+      "tipo": "multipla",
+      "resposta": "Islândia",
+      "distratores": [
+        "Noruega",
+        "Canadá",
+        "Nova Zelândia"
+      ],
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Goðafoss",
+        "descricao": "Cachoeira em forma de ferradura no rio Skjálfandafljót, no norte da Islândia.",
+        "variantes": [
+          "Godafoss",
+          "Cachoeira dos Deuses"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução, com queda larga e genérica, sem traço que permita reconhecer Paulo Afonso entre outras cachoeiras."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Paredões calcários e água turquesa genéricos, confundíveis com Krabi, Halong e outros; resposta não única diante da imagem. Há também pessoas no barco."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Abertura de dolina com luz e musgo, característica de Son Doong; pessoas minúsculas e de costas, sem destaque.",
+      "pergunta": "Em que país fica esta caverna?",
+      "tipo": "multipla",
+      "resposta": "Vietnã",
+      "distratores": [
+        "Tailândia",
+        "Camboja",
+        "China"
+      ],
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Caverna Son Doong",
+        "descricao": "Caverna no Parque Nacional Phong Nha–Kẻ Bàng, no Vietnã, a maior do mundo em volume.",
+        "variantes": [
+          "Hang Sơn Đoòng",
+          "Son Doong"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Vale verde genérico, sem traço que permita reconhecer o Cânion Guartelá; resposta não única diante da imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Lago com hortênsias e araucárias ao fundo, pedalinho; sem texto e sem pessoas em destaque.",
+      "pergunta": "Em que cidade gaúcha fica este lago?",
+      "tipo": "multipla",
+      "resposta": "Gramado",
+      "distratores": [
+        "Canela",
+        "Nova Petrópolis",
+        "Bento Gonçalves"
+      ],
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Lago Negro (Gramado)",
+        "descricao": "Lago artificial em Gramado, no Rio Grande do Sul, cercado por hortênsias e árvores.",
+        "variantes": [
+          "Lago Negro"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Queda fina diante de colunas de basalto, bem característica.",
+      "pergunta": "Que tipo de rocha forma as paredes ao redor desta cachoeira?",
+      "tipo": "multipla",
+      "resposta": "Basalto",
+      "distratores": [
+        "Granito",
+        "Arenito",
+        "Calcário"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Svartifoss",
+        "descricao": "Cachoeira no Parque Nacional Vatnajökull, na Islândia, cercada por colunas de basalto.",
+        "variantes": [
+          "Cachoeira Negra"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Lago de cratera turquesa com outro lago escuro ao fundo, típico do Kelimutu.",
+      "pergunta": "Que vulcão da Indonésia é este?",
+      "tipo": "multipla",
+      "resposta": "Kelimutu",
+      "distratores": [
+        "Ijen",
+        "Bromo",
+        "Rinjani"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Kelimutu",
+        "descricao": "Vulcão da ilha de Flores, na Indonésia, com três lagos de cratera que mudam de cor.",
+        "variantes": [
+          "Monte Kelimutu"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Dunas com camelos bactrianos, compatíveis com as dunas do Gobi; sem texto. Pessoas minúsculas e de costas.",
+      "pergunta": "Que deserto da Ásia é este?",
+      "tipo": "multipla",
+      "resposta": "Gobi",
+      "distratores": [
+        "Thar",
+        "Rub al-Khali",
+        "Karakum"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Deserto de Gobi",
+        "descricao": "Grande deserto frio do sul da Mongólia e do norte da China.",
+        "variantes": [
+          "Gobi",
+          "Deserto do Gobi"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Dois rochedos no mar, com vegetação mediterrânea, característicos de Capri.",
+      "pergunta": "Em que ilha italiana ficam estes rochedos?",
+      "tipo": "multipla",
+      "resposta": "Capri",
+      "distratores": [
+        "Ischia",
+        "Elba",
+        "Procida"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Faraglioni de Capri",
+        "descricao": "Rochedos que emergem do mar junto à ilha de Capri, na Itália.",
+        "variantes": [
+          "Faraglioni",
+          "Rochedos de Capri"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Parede de granito em forma de onda, inconfundível.",
+      "pergunta": "Que formação rochosa é esta?",
+      "tipo": "multipla",
+      "resposta": "Wave Rock",
+      "distratores": [
+        "Uluru",
+        "Antelope Canyon",
+        "The Wave"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Wave Rock",
+        "descricao": "Formação de granito em forma de onda, em Hyden, na Austrália Ocidental.",
+        "variantes": [
+          "Hyden Rock",
+          "Katter Kich"
+        ]
+      }
+    }
+  ]
+}
