@@ -1,0 +1,105 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Calliphoridae pertence à ordem Diptera (trechos). Enunciado não vaza; distratores são ordens de insetos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento; enunciado sem pista; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Larvas assentam e se enterram em corais (trecho); enunciado não nomeia o animal; distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ácaros são aracnídeos (trechos); distratores são outros grupos de artrópodes, sem ambiguidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'que devasta recifes' entrega a resposta (corais) no teste da imagem coberta. Troquei por pista que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "De que se alimenta este animal marinho de espinhos venenosos, típico do Indo-Pacífico?",
+        "resposta": "Pólipos de coral",
+        "distratores": [
+          "Algas pardas",
+          "Esponjas",
+          "Plâncton"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Guaiamum é caranguejo terrestre do litoral brasileiro, amplamente documentado; distratores são outros caranguejos/siris e a imagem azulada distingue.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zooxantelas no manto fornecem a maior parte da nutrição (trecho). Distratores são microrganismos fotossintetizantes que não são a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A descrição (cabeça alongada, falsos olhos) quase identifica o inseto sem a figura e os distratores se eliminam por ela. Troquei a pista por 'parente das cigarras' e ajustei os distratores.",
+      "reescrita": {
+        "pergunta": "Que inseto neotropical, parente das cigarras, é este?",
+        "resposta": "Jequitiranaboia",
+        "distratores": [
+          "Cigarra-gigante",
+          "Cigarrinha-das-pastagens",
+          "Maria-fedida"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lesmas são moluscos gastrópodes (trecho); distratores são outros filos de corpo mole.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aliger gigas é nativa do Mar do Caribe (trechos); distratores são mares fora da região.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Estrela-cesto é um ofiuroide, então é defensável como resposta; troquei o distrator por um equinoderma de outra classe.",
+      "reescrita": {
+        "pergunta": "Que animal marinho de braços finos e flexíveis é este?",
+        "resposta": "Ofiúro",
+        "distratores": [
+          "Pepino-do-mar",
+          "Lírio-do-mar",
+          "Bolacha-da-praia"
+        ]
+      }
+    }
+  ]
+}

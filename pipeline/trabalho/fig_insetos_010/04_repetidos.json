@@ -1,0 +1,101 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este verme marinho de penachos coloridos costuma viver preso a que tipo de organismo?",
+        "resposta": "Corais"
+      },
+      "existentes": [
+        {
+          "id": "q16802",
+          "pergunta": "Que animal marinho é este, com tufos em espiral sobre o coral?",
+          "resposta": "Verme-árvore-de-natal"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que se alimenta este animal marinho de espinhos venenosos, típico do Indo-Pacífico?",
+        "resposta": "Pólipos de coral"
+      },
+      "existentes": [
+        {
+          "id": "q17068",
+          "pergunta": "Esta estrela-do-mar coberta de espinhos venenosos se alimenta principalmente de quê?",
+          "resposta": "Pólipos de coral"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que caranguejo terrestre dos manguezais e restingas do litoral brasileiro é este?",
+        "resposta": "Guaiamum"
+      },
+      "existentes": [
+        {
+          "id": "q15474",
+          "pergunta": "Que caranguejo terrestre das regiões costeiras do Atlântico americano é este?",
+          "resposta": "Guaiamum"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que mar tropical vive o caramujo que produziu esta concha?",
+        "resposta": "Mar do Caribe"
+      },
+      "existentes": [
+        {
+          "id": "q15862",
+          "pergunta": "O molusco que vive nesta concha caribenha se alimenta principalmente de quê?",
+          "resposta": "Algas e plantas marinhas"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que animal marinho de braços finos e flexíveis é este?",
+        "resposta": "Ofiúro"
+      },
+      "existentes": [
+        {
+          "id": "q15475",
+          "pergunta": "Que equinoderma é este?",
+          "resposta": "Ofiúro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nova pergunta o hábitat/substrato (corais); a existente pede a identificação do animal. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a dieta da estrela-do-mar coroa-de-espinhos: pólipos de coral."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do mesmo caranguejo (guaiamum) com a mesma resposta."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Uma pergunta o mar onde vive; a outra, a alimentação. Fatos diferentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do mesmo animal (ofiúro) a partir da imagem."
+    }
+  ]
+}

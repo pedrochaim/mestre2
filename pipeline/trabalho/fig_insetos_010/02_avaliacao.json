@@ -1,0 +1,281 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mosca metálica verde nítida, sozinha.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A que ordem de insetos pertence este animal?",
+      "resposta": "Dípteros",
+      "distratores": [
+        "Coleópteros",
+        "Himenópteros",
+        "Lepidópteros"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mosca-varejeira",
+        "descricao": "Inseto díptero da família Calliphoridae, de corpo verde ou azul metálico.",
+        "variantes": [
+          "Califorídeos",
+          "Mosca-varejeira-verde",
+          "Calliphoridae"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Borboleta-coruja de asas abertas, ocelos característicos; só a escala de 1 cm aparece, sem entregar nada.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que borboleta é esta?",
+      "resposta": "Borboleta-coruja",
+      "distratores": [
+        "Borboleta-folha",
+        "Borboleta-monarca",
+        "Mariposa-atlas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Borboleta-coruja",
+        "descricao": "Borboleta grande do gênero Caligo, das florestas neotropicais, com grandes ocelos nas asas que lembram olhos de coruja.",
+        "variantes": [
+          "Caligo",
+          "Owl butterfly"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Dois vermes-árvore-de-natal nítidos sobre coral.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este verme marinho de penachos coloridos costuma viver preso a que tipo de organismo?",
+      "resposta": "Corais",
+      "distratores": [
+        "Esponjas",
+        "Algas pardas",
+        "Mexilhões"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Verme-árvore-de-natal",
+        "descricao": "Poliqueta Spirobranchus giganteus, de penachos coloridos em espiral, que vive em recifes de coral.",
+        "variantes": [
+          "Spirobranchus giganteus",
+          "Christmas tree worm"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Micrografia eletrônica de um ácaro, escala sem texto que entregue a resposta.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A que grupo de animais pertence este ser minúsculo?",
+      "resposta": "Aracnídeos",
+      "distratores": [
+        "Insetos",
+        "Crustáceos",
+        "Miriápodes"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ácaro",
+        "descricao": "Pequeno aracnídeo de oito patas, geralmente com menos de um milímetro.",
+        "variantes": [
+          "Acari",
+          "Mite"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Estrela-do-mar coroa-de-espinhos, espinhos característicos bem visíveis.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que se alimenta este animal marinho espinhoso, que devasta recifes?",
+      "resposta": "Pólipos de coral",
+      "distratores": [
+        "Algas pardas",
+        "Esponjas",
+        "Plâncton"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estrela-do-mar-coroa-de-espinhos",
+        "descricao": "Grande estrela-do-mar venenosa e espinhosa, Acanthaster planci, que se alimenta de corais.",
+        "variantes": [
+          "Acanthaster planci",
+          "Coroa-de-espinhos"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Montagem com seis espécies diferentes de solífugos; mostra várias coisas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla"
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Caranguejo terrestre de carapaça azulada e grande quela, nítido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que caranguejo terrestre dos manguezais e restingas do litoral brasileiro é este?",
+      "resposta": "Guaiamum",
+      "distratores": [
+        "Uçá",
+        "Aratu",
+        "Siri-azul"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Guaiamum",
+        "descricao": "Caranguejo terrestre Cardisoma guanhumi, azulado, que vive em manguezais e áreas costeiras do Atlântico americano.",
+        "variantes": [
+          "Guaiamu",
+          "Cardisoma guanhumi",
+          "Caranguejo-azul-terrestre"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Manto listrado de marisco-gigante nítido em recife.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este molusco de recife ganha parte do alimento de seres microscópicos que vivem no seu manto. Que seres são esses?",
+      "resposta": "Zooxantelas",
+      "distratores": [
+        "Diatomáceas",
+        "Cianobactérias",
+        "Euglenas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Marisco-gigante",
+        "descricao": "Molusco bivalve do gênero Tridacna, o maior bivalve vivo, dos recifes do Indo-Pacífico.",
+        "variantes": [
+          "Tridacna",
+          "Ostra-gigante",
+          "Giant clam"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Jequitiranaboia de asas abertas com ocelos e cabeça alongada característica.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que inseto neotropical, de cabeça alongada e asas com falsos olhos, é este?",
+      "resposta": "Jequitiranaboia",
+      "distratores": [
+        "Cigarra-gigante",
+        "Gafanhoto-folha",
+        "Mariposa-atlas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jequitiranaboia",
+        "descricao": "Cigarrinha neotropical Fulgora laternaria, de cabeça alongada e asas posteriores com ocelos.",
+        "variantes": [
+          "Fulgora laternaria",
+          "Cigarra-lanterna",
+          "Lantern fly"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Lesma escura com sola laranja, nítida.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "A que grupo de animais pertence este bicho de corpo mole?",
+      "resposta": "Moluscos",
+      "distratores": [
+        "Anelídeos",
+        "Platelmintos",
+        "Nematódeos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lesma",
+        "descricao": "Molusco gastrópode terrestre sem concha aparente.",
+        "variantes": [
+          "Slug"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Várias vistas da mesma concha de concha-rainha, um único objeto, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que mar tropical vive o caramujo que produziu esta concha?",
+      "resposta": "Mar do Caribe",
+      "distratores": [
+        "Mar Vermelho",
+        "Mar Mediterrâneo",
+        "Mar da China"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Concha-rainha",
+        "descricao": "Grande caramujo marinho Aliger gigas, de concha com lábio rosado, nativo do Caribe e do Atlântico noroeste tropical.",
+        "variantes": [
+          "Aliger gigas",
+          "Strombus gigas",
+          "Queen conch"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Ofiúro nítido, disco central e braços finos espinhosos reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que animal marinho de braços finos e flexíveis é este?",
+      "resposta": "Ofiúro",
+      "distratores": [
+        "Estrela-cesto",
+        "Lírio-do-mar",
+        "Bolacha-da-praia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ofiúro",
+        "descricao": "Equinoderma da classe Ophiuroidea, em forma de estrela com braços finos e articulados.",
+        "variantes": [
+          "Estrela-serpente",
+          "Ofiuroide",
+          "Brittle star"
+        ]
+      }
+    }
+  ]
+}
