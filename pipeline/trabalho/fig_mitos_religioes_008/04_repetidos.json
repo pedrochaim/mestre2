@@ -1,0 +1,155 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que região da França fica este lugar?",
+        "resposta": "Normandia"
+      },
+      "existentes": [
+        {
+          "id": "q02448",
+          "pergunta": "Em que região da França fica este monte fortificado, cercado pelas marés?",
+          "resposta": "Normandia"
+        },
+        {
+          "id": "q05310",
+          "pergunta": "Que lugar da França, com uma abadia no alto, é este?",
+          "resposta": "Monte Saint-Michel"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Como se chama esta cobertura de cabeça cristã?",
+        "resposta": "Mitra"
+      },
+      "existentes": [
+        {
+          "id": "q16374",
+          "pergunta": "Que peça litúrgica é esta?",
+          "resposta": "Mitra"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade fica esta escultura circular de pedra, hoje exposta num museu?",
+        "resposta": "Cidade do México"
+      },
+      "existentes": [
+        {
+          "id": "q03620",
+          "pergunta": "Que escultura asteca é esta?",
+          "resposta": "Pedra do Sol"
+        },
+        {
+          "id": "q08585",
+          "pergunta": "Enterrada depois da conquista espanhola, a Pedra do Sol asteca foi reencontrada na praça central da Cidade do México em que século?",
+          "resposta": "Século dezoito (em 1790)"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que cidade fica esta basílica?",
+        "resposta": "Barcelona"
+      },
+      "existentes": [
+        {
+          "id": "q02037",
+          "pergunta": "Em Barcelona, as obras da basílica da Sagrada Família começaram em qual século?",
+          "resposta": "Século dezenove"
+        },
+        {
+          "id": "q02519",
+          "pergunta": "Em que cidade fica esta basílica?",
+          "resposta": "Barcelona"
+        },
+        {
+          "id": "q03193",
+          "pergunta": "Em que ano foi lançada a pedra fundamental da Sagrada Família, em Barcelona?",
+          "resposta": "1882"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que cordilheira estas bandeiras coloridas são tradicionalmente penduradas?",
+        "resposta": "Himalaia"
+      },
+      "existentes": [
+        {
+          "id": "q15088",
+          "pergunta": "Em que cadeia de montanhas é tradicional pendurar estas bandeiras?",
+          "resposta": "Himalaia"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que grande basílica católica é esta?",
+        "resposta": "Basílica de São Pedro"
+      },
+      "existentes": [
+        {
+          "id": "q03969",
+          "pergunta": "Já com mais de setenta anos, que artista renascentista foi nomeado arquiteto da Basílica de São Pedro e projetou sua enorme cúpula?",
+          "resposta": "Michelangelo"
+        },
+        {
+          "id": "q07512",
+          "pergunta": "Sob a cúpula da Basílica de São Pedro, que grande estrutura de bronze com colunas torcidas, obra de Bernini, cobre o altar-mor?",
+          "resposta": "Baldaquino"
+        },
+        {
+          "id": "q07969",
+          "pergunta": "Que basílica é esta?",
+          "resposta": "Basílica de São Pedro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: região da França do Monte Saint-Michel, resposta Normandia.",
+      "id_existente": "q02448"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar a imagem como Mitra.",
+      "id_existente": "q16374"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cidade onde a Pedra do Sol está exposta é fato diferente de identificá-la ou do século da redescoberta."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Pergunta idêntica à q02519.",
+      "id_existente": "q02519"
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: cordilheira onde se penduram as bandeiras, Himalaia.",
+      "id_existente": "q15088"
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar a imagem como Basílica de São Pedro.",
+      "id_existente": "q07969"
+    }
+  ]
+}

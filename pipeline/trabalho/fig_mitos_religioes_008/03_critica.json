@@ -1,0 +1,107 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Monte com abadia, cercado pelas marés' descreve o próprio lugar: cobrindo a imagem, dá para responder. Basta pedir a região a partir da figura.",
+      "reescrita": {
+        "pergunta": "Em que região da França fica este lugar?",
+        "resposta": "Normandia",
+        "distratores": [
+          "Bretanha",
+          "Provença",
+          "Aquitânia"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Peça cerimonial usada na cabeça por bispos' é a definição da mitra, então a figura vira enfeite. Além disso, bispos também usam solidéu, o que torna um distrator defensável.",
+      "reescrita": {
+        "pergunta": "Como se chama esta cobertura de cabeça cristã?",
+        "resposta": "Mitra",
+        "distratores": [
+          "Solidéu",
+          "Camauro",
+          "Barrete"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a escultura nem a entrega. A resposta está nos trechos, e os distratores são cidades de civilizações pré-colombianas ou da América Latina.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Ainda em construção' é pista que quase entrega a Sagrada Família e não resiste ao tempo, porque a obra deve terminar. O enunciado fica melhor sem ela.",
+      "reescrita": {
+        "pergunta": "Em que cidade fica esta basílica?",
+        "resposta": "Barcelona",
+        "distratores": [
+          "Madri",
+          "Valência",
+          "Sevilha"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Neste vaso' não é confirmado por 'mostra', e a imagem pode não ser um vaso. Perseu, um dos distratores, aparece montado em Pégaso na tradição posterior (o trecho cita a troca), então a resposta fica menos única.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A figura é enfeite: o enigma decifrado por Édipo já leva à resposta sem ver a imagem. A Grande Esfinge é egípcia, e a esfinge do mito grego é outra criatura (alada, de rosto feminino), então 'criatura como esta' é impreciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem a imagem o enunciado não identifica nada. O trecho sustenta o Himalaia, e os distratores são cordilheiras plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Não é certo que esta foto específica mostre Shiva sob os pés da deusa. Reescrita como iconografia típica, que o trecho sustenta (Dakshinakali com o pé sobre Shiva).",
+      "reescrita": {
+        "pergunta": "Que deus hindu costuma ser representado sob os pés desta deusa?",
+        "resposta": "Shiva",
+        "distratores": [
+          "Vishnu",
+          "Brahma",
+          "Ganesha"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Basílica de Roma' é impreciso: a Basílica de São Pedro fica na Cidade do Vaticano, um enclave dentro de Roma.",
+      "reescrita": {
+        "pergunta": "Que grande basílica católica é esta?",
+        "resposta": "Basílica de São Pedro",
+        "distratores": [
+          "São João de Latrão",
+          "São Paulo Fora dos Muros",
+          "Santa Maria Maior"
+        ]
+      }
+    }
+  ]
+}

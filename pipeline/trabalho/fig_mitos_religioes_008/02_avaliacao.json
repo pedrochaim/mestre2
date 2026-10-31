@@ -1,0 +1,237 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem clara e reconhecível do monte.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que região da França fica este monte com abadia, cercado pelas marés?",
+      "resposta": "Normandia",
+      "distratores": [
+        "Bretanha",
+        "Provença",
+        "Aquitânia"
+      ],
+      "ancora": {
+        "nome": "Mont-Saint-Michel",
+        "descricao": "Ilha de maré e comuna da Normandia, França, coroada por uma abadia medieval.",
+        "variantes": [
+          "Monte Saint-Michel",
+          "Mont Saint-Michel"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Mitra bordada, bem visível, sem texto; reconhecível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que peça cerimonial, usada na cabeça por bispos, é esta?",
+      "resposta": "Mitra",
+      "distratores": [
+        "Solidéu",
+        "Camauro",
+        "Barrete"
+      ],
+      "ancora": {
+        "nome": "Mitra",
+        "descricao": "Cobertura de cabeça cerimonial de bispos e certos abades no cristianismo.",
+        "variantes": [
+          "Mitra episcopal",
+          "Mitre"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Fragmento de vaso em que a criatura não é claramente reconhecível; pode ser confundida com outros monstros marinhos."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Escultura clara e emblemática; pessoa minúscula no canto, sem relevância.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta escultura circular de pedra, hoje exposta num museu?",
+      "resposta": "Cidade do México",
+      "distratores": [
+        "Cusco",
+        "Antígua Guatemala",
+        "Lima"
+      ],
+      "ancora": {
+        "nome": "Pedra do Sol asteca",
+        "descricao": "Grande escultura monolítica mexica em basalto, conservada no Museu Nacional de Antropologia, no México.",
+        "variantes": [
+          "Piedra del Sol",
+          "Calendário asteca",
+          "Aztec sun stone"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Ilustração com chifres e disco solar também compatível com Ísis; resposta não única diante da imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fachada característica, sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta basílica, ainda em construção?",
+      "resposta": "Barcelona",
+      "distratores": [
+        "Madri",
+        "Valência",
+        "Sevilha"
+      ],
+      "ancora": {
+        "nome": "Sagrada Família",
+        "descricao": "Basílica católica projetada por Antoni Gaudí, em Barcelona, Espanha.",
+        "variantes": [
+          "Templo Expiatório da Sagrada Família",
+          "Basílica de la Sagrada Família"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Estatueta de gênio alado de forma humana; não mostra o corpo de touro ou leão do lamassu, então não é reconhecível como tal."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vaso de figuras vermelhas com cavalo alado atacando uma fera; cena reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que herói grego é o cavaleiro representado neste vaso?",
+      "resposta": "Belerofonte",
+      "distratores": [
+        "Perseu",
+        "Teseu",
+        "Jasão"
+      ],
+      "ancora": {
+        "nome": "Belerofonte",
+        "descricao": "Herói coríntio da mitologia grega, domador de Pégaso e matador da Quimera.",
+        "variantes": [
+          "Bellerophon",
+          "Belerofontes"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto clara da Grande Esfinge, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Na mitologia grega, que herói decifrou o enigma de uma criatura como esta?",
+      "resposta": "Édipo",
+      "distratores": [
+        "Teseu",
+        "Perseu",
+        "Héracles"
+      ],
+      "ancora": {
+        "nome": "Grande Esfinge de Gizé",
+        "descricao": "Estátua de calcário de uma esfinge, com cabeça humana e corpo de leão, no planalto de Gizé, Egito.",
+        "variantes": [
+          "Esfinge de Gizé",
+          "Esfinge de Giza"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bandeiras de oração claras; texto em escrita tibetana não entrega a resposta.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que cordilheira estas bandeiras coloridas são tradicionalmente penduradas?",
+      "resposta": "Himalaia",
+      "distratores": [
+        "Andes",
+        "Alpes",
+        "Cáucaso"
+      ],
+      "ancora": {
+        "nome": "Bandeiras de oração",
+        "descricao": "Tecidos retangulares coloridos com textos sagrados, típicos do budismo tibetano, pendurados ao ar livre.",
+        "variantes": [
+          "Bandeiras de oração tibetanas",
+          "Prayer flags"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pintura em domínio público, deusa inconfundível; assinatura do pintor não revela a resposta.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que deus hindu está deitado sob os pés desta deusa?",
+      "resposta": "Shiva",
+      "distratores": [
+        "Vishnu",
+        "Brahma",
+        "Ganesha"
+      ],
+      "ancora": {
+        "nome": "Kali",
+        "descricao": "Deusa hindu associada ao tempo, à morte e à destruição, representada em cor azul-escura.",
+        "variantes": [
+          "Kālī",
+          "Kalika",
+          "Cáli"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fachada clara; inscrição minúscula não entrega o nome.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que basílica de Roma é esta?",
+      "resposta": "Basílica de São Pedro",
+      "distratores": [
+        "São João de Latrão",
+        "São Paulo Fora dos Muros",
+        "Santa Maria Maior"
+      ],
+      "ancora": {
+        "nome": "Basílica de São Pedro",
+        "descricao": "Basílica papal renascentista na Cidade do Vaticano, uma das maiores igrejas do mundo.",
+        "variantes": [
+          "São Pedro do Vaticano",
+          "St. Peter's Basilica"
+        ]
+      }
+    }
+  ]
+}
