@@ -1,0 +1,191 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fileira de ovos fossilizados na rocha, sem texto; reconhecível como ovos.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de fóssil está preservado nesta rocha?",
+      "resposta": "Ovos de dinossauro",
+      "distratores": [
+        "Coprólitos",
+        "Pegadas de saurópode",
+        "Troncos petrificados"
+      ],
+      "ancora": {
+        "nome": "Ovo de dinossauro",
+        "descricao": "Ovo fossilizado depositado por dinossauros, encontrado em ninhos preservados em rocha.",
+        "variantes": [
+          "Ovos de dinossauro fósseis"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Exemplar empalhado de arau-gigante com ovo, claramente reconhecível, sem texto legível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que século desapareceu da natureza esta ave que não voava?",
+      "resposta": "Século dezenove",
+      "distratores": [
+        "Século dezoito",
+        "Século vinte",
+        "Século dezessete"
+      ],
+      "ancora": {
+        "nome": "Arau-gigante",
+        "descricao": "Ave marinha não voadora do Atlântico Norte (Pinguinus impennis), extinta em meados do século XIX por exploração humana.",
+        "variantes": [
+          "Pinguinus impennis",
+          "Great auk"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Reconstrução clara de anquilossaurídeo com clava na cauda; pergunta pelo grupo evita confundir gêneros parecidos.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "A que grupo de dinossauros pertence este animal?",
+      "resposta": "Anquilossauros",
+      "distratores": [
+        "Estegossauros",
+        "Ceratopsídeos",
+        "Hadrossauros"
+      ],
+      "ancora": {
+        "nome": "Euoplocéfalo",
+        "descricao": "Dinossauro anquilossaurídeo herbívoro e blindado do Cretáceo Superior do Canadá (Euoplocephalus tutus).",
+        "variantes": [
+          "Euoplocephalus"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Montagem de vistas de um crânio humano; não é reconhecível como Luzia e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ilustração nítida de dois ceratopsídeos com protuberância nasal e chifres; sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "A que grupo de dinossauros pertencem estes animais?",
+      "resposta": "Ceratopsídeos",
+      "distratores": [
+        "Anquilossauros",
+        "Hadrossauros",
+        "Paquicefalossauros"
+      ],
+      "ancora": {
+        "nome": "Paquirrinossauro",
+        "descricao": "Dinossauro ceratopsídeo centrossaurino do Cretáceo Superior da América do Norte, com uma grossa protuberância óssea no focinho.",
+        "variantes": [
+          "Pachyrhinosaurus"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Crânio fóssil de Andrewsarchus sobre fundo branco, sem texto; época é fato documentado.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que época geológica viveu o mamífero a que pertenceu este crânio?",
+      "resposta": "Eoceno",
+      "distratores": [
+        "Paleoceno",
+        "Oligoceno",
+        "Mioceno"
+      ],
+      "ancora": {
+        "nome": "Andrewsarchus",
+        "descricao": "Mamífero artiodáctilo extinto do Eoceno Médio da China e Mongólia Interior, conhecido principalmente por um grande crânio.",
+        "variantes": [
+          "Andrewsarchus mongoliensis"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Fóssil quase invisível na laje e legenda em francês com o nome Meganeura legível, entregando a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Esqueleto parcialmente embutido no piso de um museu, difícil de reconhecer; identificação do exemplar incerta e confundível com outros pliossauros."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Esqueleto montado de dinossauro primitivo, sem texto; o período vale para o grupo inteiro.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que período viveu este dinossauro, um dos mais antigos conhecidos?",
+      "resposta": "Triássico",
+      "distratores": [
+        "Jurássico",
+        "Cretáceo",
+        "Permiano"
+      ],
+      "ancora": {
+        "nome": "Estauricossauro",
+        "descricao": "Dinossauro herrerassaurídeo do Triássico Superior do Brasil, encontrado na Formação Santa Maria (Staurikosaurus).",
+        "variantes": [
+          "Staurikosaurus"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Blocos cilíndricos numa paisagem, sem características claras de madeira petrificada; não reconhecível."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Diagrama de escala com legendas e nomes de espécies visíveis, além de silhuetas e figura humana."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Ilustração clara do réptil de pescoço extremamente longo, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que era geológica viveu este réptil?",
+      "resposta": "Era Mesozoica",
+      "distratores": [
+        "Era Paleozoica",
+        "Era Cenozoica",
+        "Era Arqueana"
+      ],
+      "ancora": {
+        "nome": "Tanistrofeu",
+        "descricao": "Réptil arcossauromorfo do Triássico, de pescoço extremamente alongado, com 13 vértebras cervicais (Tanystropheus).",
+        "variantes": [
+          "Tanystropheus"
+        ]
+      }
+    }
+  ]
+}

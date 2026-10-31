@@ -1,0 +1,77 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado não nomeia a resposta, só se resolve olhando a figura, e os distratores são do mesmo tipo e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A extinção em meados do século dezenove está nos trechos. 'Ave que não voava' sozinho não identifica a espécie, então a figura é necessária. Os distratores são séculos errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos o classificam como anquilossaurídeo. O enunciado não vaza a resposta e os distratores são grupos distintos e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato é correto (ceratopsídeo), mas 'estes animais', no plural, pode não ser verdadeiro para a imagem. O texto em `mostra` descreve um único dinossauro. Passei para o singular.",
+      "reescrita": {
+        "pergunta": "A que grupo de dinossauros pertence este animal?",
+        "resposta": "Ceratopsídeos",
+        "distratores": [
+          "Anquilossauros",
+          "Hadrossauros",
+          "Paquicefalossauros"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos situam o animal no Eoceno. O enunciado não identifica o animal sem o crânio e os distratores são épocas vizinhas incorretas.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'um dos mais antigos conhecidos' entrega o Triássico sem olhar a figura. Troquei por 'brasileiro', que ajuda a reconhecer sem entregar o período.",
+      "reescrita": {
+        "pergunta": "Em que período viveu este dinossauro encontrado no Brasil?",
+        "resposta": "Triássico",
+        "distratores": [
+          "Jurássico",
+          "Cretáceo",
+          "Permiano"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Perguntar a era ('Mesozoica') para um réptil extinto é quase dedutível sem a figura, e os distratores se eliminam facilmente. Passei para o período, que exige reconhecer o animal. Os trechos o situam no Triássico.",
+      "reescrita": {
+        "pergunta": "Em que período geológico viveu este réptil de pescoço longo?",
+        "resposta": "Triássico",
+        "distratores": [
+          "Jurássico",
+          "Cretáceo",
+          "Permiano"
+        ]
+      }
+    }
+  ]
+}

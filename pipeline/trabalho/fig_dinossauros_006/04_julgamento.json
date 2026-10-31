@@ -1,0 +1,425 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ovo de dinossauro",
+        "descricao": "Ovo fossilizado depositado por dinossauros, encontrado em ninhos preservados em rocha.",
+        "variantes": [
+          "Ovos de dinossauro fósseis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sue",
+          "nome": "Sue",
+          "descricao": "Esqueleto fóssil de tiranossauro encontrado em 1990 em Dakota do Sul e exposto no Field Museum, em Chicago.",
+          "variantes": [
+            "Sue (dinossauro)",
+            "FMNH PR 2081"
+          ]
+        },
+        {
+          "id": "vale_dos_dinossauros",
+          "nome": "Vale dos Dinossauros",
+          "descricao": "Sítio paleontológico em Sousa, na Paraíba, com pegadas fósseis de dinossauros às margens do rio do Peixe.",
+          "variantes": [
+            "Monumento Natural Vale dos Dinossauros"
+          ]
+        },
+        {
+          "id": "horacio",
+          "nome": "Horácio",
+          "descricao": "Filhote de tiranossauro verde, protagonista da Turma do Horácio, de Mauricio de Sousa.",
+          "variantes": [
+            "Horácio, o dinossauro"
+          ]
+        },
+        {
+          "id": "dinossauro",
+          "nome": "Dinossauro",
+          "descricao": "Grupo de répteis arcossauros que dominou os ambientes terrestres na Era Mesozoica e do qual descendem as aves.",
+          "variantes": [
+            "Dinosauria",
+            "Dinossauros"
+          ]
+        },
+        {
+          "id": "espinossauro",
+          "nome": "Espinossauro",
+          "descricao": "Gênero de grande dinossauro terópode semiaquático do Cretáceo do norte da África, com uma vela nas costas.",
+          "variantes": [
+            "Spinosaurus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Arau-gigante",
+        "descricao": "Ave marinha não voadora do Atlântico Norte (Pinguinus impennis), extinta em meados do século XIX por exploração humana.",
+        "variantes": [
+          "Pinguinus impennis",
+          "Great auk"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arau_gigante",
+          "nome": "Arau-gigante",
+          "descricao": "Ave marinha não voadora do Atlântico Norte (Pinguinus impennis), extinta em 1844.",
+          "variantes": [
+            "Pinguinus impennis",
+            "Great auk",
+            "Grande arau"
+          ]
+        },
+        {
+          "id": "great_tusk",
+          "nome": "Great Tusk",
+          "descricao": "Pokémon dos tipos Terrestre e Lutador, número 984 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "tatu_canastra",
+          "nome": "Tatu-canastra",
+          "descricao": "Maior espécie viva de tatu (Priodontes maximus), sul-americano, que se alimenta sobretudo de cupins.",
+          "variantes": [
+            "Tatu-gigante",
+            "Tatu-carreta",
+            "Priodontes maximus"
+          ]
+        },
+        {
+          "id": "tartaruga_de_couro",
+          "nome": "Tartaruga-de-couro",
+          "descricao": "Maior tartaruga marinha viva (Dermochelys coriacea), de casco coberto por pele coriácea em vez de placas duras.",
+          "variantes": [
+            "Tartaruga-gigante",
+            "Dermochelys coriacea",
+            "Leatherback"
+          ]
+        },
+        {
+          "id": "panda_gigante",
+          "nome": "Panda-gigante",
+          "descricao": "Urso preto e branco da China, espécie Ailuropoda melanoleuca.",
+          "variantes": [
+            "Ailuropoda melanoleuca",
+            "Giant panda",
+            "Panda"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Euoplocéfalo",
+        "descricao": "Dinossauro anquilossaurídeo herbívoro e blindado do Cretáceo Superior do Canadá (Euoplocephalus tutus).",
+        "variantes": [
+          "Euoplocephalus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bucefalo",
+          "nome": "Bucéfalo",
+          "descricao": "Cavalo de guerra de Alexandre, o Grande.",
+          "variantes": [
+            "Bucephalus",
+            "Boukephalas"
+          ]
+        },
+        {
+          "id": "tainha",
+          "nome": "Tainha",
+          "descricao": "Peixe costeiro prateado da família Mugilidae, Mugil cephalus, comum em estuários e litorais.",
+          "variantes": [
+            "Mugil cephalus",
+            "Muge",
+            "Striped mullet"
+          ]
+        },
+        {
+          "id": "cerebro_humano",
+          "nome": "Cérebro humano",
+          "descricao": "Órgão central do sistema nervoso, dentro do crânio, formado por cérebro, tronco encefálico e cerebelo.",
+          "variantes": [
+            "Encéfalo"
+          ]
+        },
+        {
+          "id": "violoncelo",
+          "nome": "Violoncelo",
+          "descricao": "Instrumento de cordas friccionadas da família do violino, de som grave, tocado sentado e apoiado no chão por uma ponteira.",
+          "variantes": [
+            "Cello"
+          ]
+        },
+        {
+          "id": "holoceno",
+          "nome": "Holoceno",
+          "descricao": "Época geológica iniciada ao fim da última glaciação, que se estende até os dias de hoje.",
+          "variantes": [
+            "Holocene"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Paquirrinossauro",
+        "descricao": "Dinossauro ceratopsídeo centrossaurino do Cretáceo Superior da América do Norte, com uma grossa protuberância óssea no focinho.",
+        "variantes": [
+          "Pachyrhinosaurus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paquicefalossauro",
+          "nome": "Paquicefalossauro",
+          "descricao": "Dinossauro bípede de crânio espessado em domo, do fim do Cretáceo da América do Norte (Pachycephalosaurus wyomingensis).",
+          "variantes": [
+            "Pachycephalosaurus"
+          ]
+        },
+        {
+          "id": "braquiossauro",
+          "nome": "Braquiossauro",
+          "descricao": "Gênero de dinossauro saurópode do Jurássico Superior da América do Norte, de pescoço longo e patas dianteiras mais longas que as traseiras.",
+          "variantes": [
+            "Brachiosaurus"
+          ]
+        },
+        {
+          "id": "anquilossauro",
+          "nome": "Anquilossauro",
+          "descricao": "Gênero de dinossauro herbívoro encouraçado do fim do Cretáceo da América do Norte.",
+          "variantes": [
+            "Ankylosaurus"
+          ]
+        },
+        {
+          "id": "espinossauro",
+          "nome": "Espinossauro",
+          "descricao": "Gênero de grande dinossauro terópode semiaquático do Cretáceo do norte da África, com uma vela nas costas.",
+          "variantes": [
+            "Spinosaurus"
+          ]
+        },
+        {
+          "id": "tiranossauro",
+          "nome": "Tiranossauro",
+          "descricao": "Gênero de grande dinossauro terópode carnívoro do fim do Cretáceo da América do Norte.",
+          "variantes": [
+            "Tyrannosaurus rex",
+            "T. rex",
+            "Tiranossauro rex"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Andrewsarchus",
+        "descricao": "Mamífero artiodáctilo extinto do Eoceno Médio da China e Mongólia Interior, conhecido principalmente por um grande crânio.",
+        "variantes": [
+          "Andrewsarchus mongoliensis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ipe_amarelo",
+          "nome": "Ipê-amarelo",
+          "descricao": "Árvore brasileira de flores amarelas, comum no Cerrado e símbolo da estação seca",
+          "variantes": [
+            "Ipê",
+            "Handroanthus"
+          ]
+        },
+        {
+          "id": "esquilo",
+          "nome": "Ésquilo",
+          "descricao": "Dramaturgo ateniense do século cinco a.C., considerado o pai da tragédia grega.",
+          "variantes": [
+            "Aeschylus",
+            "Aiskhylos",
+            "Aischylos"
+          ]
+        },
+        {
+          "id": "anschluss",
+          "nome": "Anschluss",
+          "descricao": "Anexação da Áustria pela Alemanha nazista, em março de 1938.",
+          "variantes": [
+            "Anexação da Áustria"
+          ]
+        },
+        {
+          "id": "tandemaus",
+          "nome": "Tandemaus",
+          "descricao": "Pokémon do tipo Normal, número 924 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "andre_vesalio",
+          "nome": "André Vesálio",
+          "descricao": "Anatomista flamengo autor de De humani corporis fabrica, tratado de anatomia humana publicado em 1543.",
+          "variantes": [
+            "Andreas Vesalius",
+            "Vesálio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Estauricossauro",
+        "descricao": "Dinossauro herrerassaurídeo do Triássico Superior do Brasil, encontrado na Formação Santa Maria (Staurikosaurus).",
+        "variantes": [
+          "Staurikosaurus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "staurikosaurus",
+          "nome": "Staurikosaurus",
+          "descricao": "Gênero de dinossauro primitivo do Triássico do Rio Grande do Sul, descrito em 1970.",
+          "variantes": [
+            "Estauricossauro",
+            "Staurikosaurus pricei"
+          ]
+        },
+        {
+          "id": "estiracossauro",
+          "nome": "Estiracossauro",
+          "descricao": "Gênero de dinossauro ceratopsídeo herbívoro do Cretáceo Superior da América do Norte, com longos espinhos no colar ósseo.",
+          "variantes": [
+            "Styracosaurus"
+          ]
+        },
+        {
+          "id": "arcossauros",
+          "nome": "Arcossauros",
+          "descricao": "Grupo de répteis que reúne os crocodilianos, os dinossauros extintos e as aves.",
+          "variantes": [
+            "Archosauria",
+            "Archosaur"
+          ]
+        },
+        {
+          "id": "estegossauro",
+          "nome": "Estegossauro",
+          "descricao": "Gênero de dinossauro herbívoro do Jurássico Superior com placas nas costas e espinhos na cauda.",
+          "variantes": [
+            "Stegosaurus"
+          ]
+        },
+        {
+          "id": "espinossauro",
+          "nome": "Espinossauro",
+          "descricao": "Gênero de grande dinossauro terópode semiaquático do Cretáceo do norte da África, com uma vela nas costas.",
+          "variantes": [
+            "Spinosaurus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Tanistrofeu",
+        "descricao": "Réptil arcossauromorfo do Triássico, de pescoço extremamente alongado, com 13 vértebras cervicais (Tanystropheus).",
+        "variantes": [
+          "Tanystropheus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "australopithecus",
+          "nome": "Australopithecus",
+          "descricao": "Gênero de hominídeos africanos extintos que viveram há cerca de 4 a 2 milhões de anos, como Lucy.",
+          "variantes": [
+            "Australopiteco"
+          ]
+        },
+        {
+          "id": "transistor",
+          "nome": "Transistor",
+          "descricao": "Dispositivo semicondutor usado para amplificar ou chavear sinais elétricos, bloco básico da eletrônica moderna.",
+          "variantes": []
+        },
+        {
+          "id": "pithecanthropus",
+          "nome": "Pithecanthropus",
+          "descricao": "Nome de gênero criado no século dezenove para o elo perdido entre macacos e humanos, depois usado para o Homem de Java.",
+          "variantes": [
+            "Pitecantropo"
+          ]
+        },
+        {
+          "id": "gigantopithecus",
+          "nome": "Gigantopithecus",
+          "descricao": "Gênero extinto de grande símio asiático, aparentado aos orangotangos, que viveu no sul da China até algumas centenas de milhares de anos atrás.",
+          "variantes": [
+            "Gigantopithecus blacki",
+            "Gigantopiteco"
+          ]
+        },
+        {
+          "id": "anopheles",
+          "nome": "Anopheles",
+          "descricao": "Gênero de mosquitos cujas fêmeas transmitem os parasitas da malária.",
+          "variantes": [
+            "Mosquito-prego",
+            "Anófele"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ovo fóssil de dinossauro não é nenhuma das candidatas (esqueleto, sítio, personagem, grupo, gênero)."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "arau_gigante",
+      "motivo": "Mesma espécie, Pinguinus impennis, mesmas variantes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Euoplocephalus não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pachyrhinosaurus é gênero distinto dos candidatos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Andrewsarchus não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "staurikosaurus",
+      "motivo": "Mesmo gênero Staurikosaurus (Estauricossauro), Triássico do RS."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Tanystropheus não corresponde a nenhuma candidata."
+    }
+  ]
+}

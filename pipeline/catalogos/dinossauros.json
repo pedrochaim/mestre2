@@ -194,7 +194,7 @@
       "titulo": "en:Staurikosaurus",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Tapejara",
@@ -341,7 +341,7 @@
       "titulo": "en:Meganeura",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Ave-elefante",
@@ -397,7 +397,7 @@
       "titulo": "en:Plateosaurus",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Mamenquissauro",
@@ -556,6 +556,286 @@
     {
       "nome": "Pterodaustro",
       "titulo": "en:Pterodaustro",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Neandertal",
+      "titulo": "en:Neanderthal",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ovo de dinossauro",
+      "titulo": "en:Dinosaur egg",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Madeira petrificada",
+      "titulo": "en:Petrified wood",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lucy",
+      "titulo": "en:Lucy (Australopithecus)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Luzia",
+      "titulo": "pt:Luzia (fóssil)",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Patagotitan",
+      "titulo": "en:Patagotitan",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hadrossauro",
+      "titulo": "en:Hadrosaurus",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Celófise",
+      "titulo": "en:Coelophysis",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Herrerassauro",
+      "titulo": "en:Herrerasaurus",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Camarassauro",
+      "titulo": "en:Camarasaurus",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Kronossauro",
+      "titulo": "en:Kronosaurus",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Arquelon",
+      "titulo": "en:Archelon",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gastornis",
+      "titulo": "en:Gastornis",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Águia-de-haast",
+      "titulo": "en:Haast's eagle",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arau-gigante",
+      "titulo": "en:Great auk",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Vaca-marinha-de-steller",
+      "titulo": "en:Steller's sea cow",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Paquirrinossauro",
+      "titulo": "en:Pachyrhinosaurus",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Homem-de-flores",
+      "titulo": "en:Homo floresiensis",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Belemnite",
+      "titulo": "en:Belemnoidea",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gigantopiteco",
+      "titulo": "en:Gigantopithecus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Criolofossauro",
+      "titulo": "en:Cryolophosaurus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Majungassauro",
+      "titulo": "en:Majungasaurus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Suchomimus",
+      "titulo": "en:Suchomimus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Psitacossauro",
+      "titulo": "en:Psittacosaurus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Euoplocéfalo",
+      "titulo": "en:Euoplocephalus",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Quasmossauro",
+      "titulo": "en:Chasmosaurus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lambeossauro",
+      "titulo": "en:Lambeosaurus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tanistrofeu",
+      "titulo": "en:Tanystropheus",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Diplocaulo",
+      "titulo": "en:Diplocaulus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Edafossauro",
+      "titulo": "en:Edaphosaurus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Euriptero",
+      "titulo": "en:Eurypterus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Livyatan",
+      "titulo": "en:Livyatan",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Paquiceto",
+      "titulo": "en:Pakicetus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Andrewsarchus",
+      "titulo": "en:Andrewsarchus",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Uintatério",
+      "titulo": "en:Uintatherium",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Baurusuchus",
+      "titulo": "en:Baurusuchus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Megalania",
+      "titulo": "en:Megalania",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Inostrancevia",
+      "titulo": "en:Inostrancevia",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Argentavis",
+      "titulo": "en:Argentavis",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estupendêmis",
+      "titulo": "en:Stupendemys",
       "camada": 3,
       "destino": 0,
       "status": "nova"

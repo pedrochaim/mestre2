@@ -337806,5 +337806,180 @@
       "licenca": "FAL"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q17377",
+    "tema": "Natureza",
+    "subtema": "Dinossauros e Fósseis",
+    "ancora": "ovo_de_dinossauro",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de fóssil está preservado nesta rocha?",
+    "resposta": "Ovos de dinossauro",
+    "distratores": [
+      "Coprólitos",
+      "Pegadas de saurópode",
+      "Troncos petrificados"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dinosaur_egg",
+      "https://pt.wikipedia.org/wiki/Ovo_de_dinossauro"
+    ],
+    "imagem": {
+      "arquivo": "q17377.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Indroda_eggs.JPG",
+      "autor": "Sballal",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q17378",
+    "tema": "Natureza",
+    "subtema": "Dinossauros e Fósseis",
+    "ancora": "arau_gigante",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que século desapareceu da natureza esta ave que não voava?",
+    "resposta": "Século dezenove",
+    "distratores": [
+      "Século dezoito",
+      "Século vinte",
+      "Século dezessete"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_auk",
+      "https://pt.wikipedia.org/wiki/Arau-gigante"
+    ],
+    "imagem": {
+      "arquivo": "q17378.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Great_Auk_(Pinguinis_impennis)_specimen,_Kelvingrove,_Glasgow_-_geograph.org.uk_-_1108249.jpg",
+      "autor": "Mike Pennington",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q17379",
+    "tema": "Natureza",
+    "subtema": "Dinossauros e Fósseis",
+    "ancora": "euoplocefalo",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "A que grupo de dinossauros pertence este animal?",
+    "resposta": "Anquilossauros",
+    "distratores": [
+      "Estegossauros",
+      "Ceratopsídeos",
+      "Hadrossauros"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Euoplocephalus",
+      "https://pt.wikipedia.org/wiki/Euoplocephalus"
+    ],
+    "imagem": {
+      "arquivo": "q17379.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Euoplocephalus_BW_transparent.png",
+      "autor": "Nobu Tamura (http://spinops.blogspot.com)",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q17380",
+    "tema": "Natureza",
+    "subtema": "Dinossauros e Fósseis",
+    "ancora": "paquirrinossauro",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "A que grupo de dinossauros pertence este animal?",
+    "resposta": "Ceratopsídeos",
+    "distratores": [
+      "Anquilossauros",
+      "Hadrossauros",
+      "Paquicefalossauros"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pachyrhinosaurus",
+      "https://pt.wikipedia.org/wiki/Pachyrhinosaurus"
+    ],
+    "imagem": {
+      "arquivo": "q17380.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pachyrhinosaurus_Perotorum_Alaska_copyright_web.jpg",
+      "autor": "James havens",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q17381",
+    "tema": "Natureza",
+    "subtema": "Dinossauros e Fósseis",
+    "ancora": "andrewsarchus",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que época geológica viveu o mamífero a que pertenceu este crânio?",
+    "resposta": "Eoceno",
+    "distratores": [
+      "Paleoceno",
+      "Oligoceno",
+      "Mioceno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Andrewsarchus",
+      "https://pt.wikipedia.org/wiki/Andrewsarchus"
+    ],
+    "imagem": {
+      "arquivo": "q17381.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Andrewsarchus_AMNH.jpg",
+      "autor": "Jonathan Chen",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q17382",
+    "tema": "Natureza",
+    "subtema": "Dinossauros e Fósseis",
+    "ancora": "staurikosaurus",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que período viveu este dinossauro encontrado no Brasil?",
+    "resposta": "Triássico",
+    "distratores": [
+      "Jurássico",
+      "Cretáceo",
+      "Permiano"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Staurikosaurus",
+      "https://pt.wikipedia.org/wiki/Staurikosaurus"
+    ],
+    "imagem": {
+      "arquivo": "q17382.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Staurikosaurus.jpg",
+      "autor": "Kabacchi",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q17383",
+    "tema": "Natureza",
+    "subtema": "Dinossauros e Fósseis",
+    "ancora": "tanistrofeu",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que período geológico viveu este réptil de pescoço longo?",
+    "resposta": "Triássico",
+    "distratores": [
+      "Jurássico",
+      "Cretáceo",
+      "Permiano"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tanystropheus",
+      "https://pt.wikipedia.org/wiki/Tanystropheus"
+    ],
+    "imagem": {
+      "arquivo": "q17383.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tanystropheus_BW.jpg",
+      "autor": "User:ArthurWeasley",
+      "licenca": "CC BY 2.5"
+    }
   }
 ]

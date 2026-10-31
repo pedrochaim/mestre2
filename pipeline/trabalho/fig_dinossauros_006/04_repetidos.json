@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que século desapareceu da natureza esta ave que não voava?",
+        "resposta": "Século dezenove"
+      },
+      "existentes": [
+        {
+          "id": "q06507",
+          "pergunta": "O último casal conhecido do arau-gigante, ave marinha sem voo, foi morto numa ilhota da Islândia. Em que ano?",
+          "resposta": "1844"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que período viveu este dinossauro encontrado no Brasil?",
+        "resposta": "Triássico"
+      },
+      "existentes": [
+        {
+          "id": "q08332",
+          "pergunta": "O Staurikosaurus, um dos dinossauros mais antigos conhecidos, achado no Rio Grande do Sul, tem nome inspirado em que constelação?",
+          "resposta": "Cruzeiro do Sul"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Século da extinção (XIX) é diferente do ano exato da morte do último casal; embora relacionados, a nova pergunta não é respondida pela existente de forma garantida (e a âncora pode ser outra ave)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Período geológico do dinossauro é fato diferente da origem do nome da constelação."
+    }
+  ]
+}
