@@ -1,0 +1,283 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clara de tatuíra na mão, sem texto; reconhecível por forma oval e antenas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que pequeno crustáceo, que se enterra na areia da praia, é este?",
+      "resposta": "Tatuíra",
+      "distratores": [
+        "Camarão-fantasma",
+        "Craca",
+        "Caranguejo-ermitão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tatuíra",
+        "descricao": "Pequeno crustáceo decápode do gênero Emerita, que se enterra na areia da zona de arrebentação e se alimenta por filtração.",
+        "variantes": [
+          "Emerita",
+          "Caranguejo-da-areia",
+          "Pulga-do-mar"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida, bico vermelho e bigode branco inconfundíveis; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ave marinha é esta?",
+      "resposta": "Trinta-réis-inca",
+      "distratores": [
+        "Talha-mar",
+        "Gaivota-de-franklin",
+        "Biguá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Trinta-réis-inca",
+        "descricao": "Ave marinha da família Laridae, de plumagem cinza-escura, bico vermelho e bigode branco, das costas do Pacífico sul-americano.",
+        "variantes": [
+          "Larosterna inca",
+          "Inca tern"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida de Velella na areia, com vela translúcida; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lesma-do-mar azul, também flutuante, se alimenta deste animal?",
+      "resposta": "Dragão-azul",
+      "distratores": [
+        "Lebre-do-mar",
+        "Dançarina-espanhola",
+        "Polvo-de-anéis-azuis"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Veleiro",
+        "descricao": "Cnidário colonial flutuante, Velella velella, azul, com uma pequena vela rígida que o leva ao vento pela superfície do oceano.",
+        "variantes": [
+          "Velella velella",
+          "Velella",
+          "Vela-do-mar",
+          "By-the-wind sailor"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Peixe-borboleta bem visível, cores marcantes, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que peixe de recife é este?",
+      "resposta": "Peixe-borboleta",
+      "distratores": [
+        "Peixe-anjo",
+        "Ídolo-mouro",
+        "Peixe-palhaço"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Peixe-borboleta",
+        "descricao": "Peixe de recife da família Chaetodontidae, de corpo achatado e colorido.",
+        "variantes": [
+          "Quetodontídeos",
+          "Butterflyfish",
+          "Chaetodontidae"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ramos cilíndricos característicos de Acropora cervicornis; foto um pouco desfocada, mas reconhecível; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que coral é este?",
+      "resposta": "Coral-chifre-de-veado",
+      "distratores": [
+        "Coral-cérebro",
+        "Coral-couve-flor",
+        "Coral-de-fogo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Coral-chifre-de-veado",
+        "descricao": "Coral pétreo ramificado, Acropora cervicornis, de ramos eretos que lembram chifres, importante construtor de recifes no Atlântico ocidental.",
+        "variantes": [
+          "Acropora cervicornis",
+          "Staghorn coral"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Peixe-serra bem visível de perfil, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este animal de focinho serrilhado pertence a que grupo de peixes?",
+      "resposta": "Raias",
+      "distratores": [
+        "Tubarões",
+        "Peixes-espada",
+        "Enguias"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Peixe-serra",
+        "descricao": "Raia da família Pristidae, de corpo semelhante ao de um tubarão e focinho alongado em forma de serra.",
+        "variantes": [
+          "Pristis pristis",
+          "Largetooth sawfish",
+          "Peixe-serra-comum"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Caranguejo-dos-coqueiros nítido sobre um coco, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este gigante terrestre é, na verdade, uma espécie de qual crustáceo?",
+      "resposta": "Caranguejo-eremita",
+      "distratores": [
+        "Siri-azul",
+        "Lagosta-espinhosa",
+        "Caranguejo-aranha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caranguejo-dos-coqueiros",
+        "descricao": "Birgus latro, o maior artrópode terrestre, um caranguejo-eremita gigante das ilhas do Índico e do Pacífico.",
+        "variantes": [
+          "Birgus latro",
+          "Coconut crab",
+          "Caranguejo-ladrão"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida do pinguim-de-barbicha, de perfil, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "O nome deste pinguim vem de qual traço do corpo?",
+      "resposta": "Faixa preta sob o queixo",
+      "distratores": [
+        "Penacho amarelo na testa",
+        "Bico vermelho forte",
+        "Anel branco no olho"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pinguim-de-barbicha",
+        "descricao": "Pinguim antártico Pygoscelis antarcticus, com uma estreita faixa preta sob a cabeça.",
+        "variantes": [
+          "Pygoscelis antarcticus",
+          "Chinstrap penguin",
+          "Pinguim-antártico"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Albatroz nítido na água, sem texto; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ave marinha é esta?",
+      "resposta": "Albatroz-de-sobrancelha-negra",
+      "distratores": [
+        "Albatroz-errante",
+        "Petrel-gigante",
+        "Gaivotão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Albatroz-de-sobrancelha-negra",
+        "descricao": "Grande ave marinha Thalassarche melanophris, de cabeça branca com uma marca escura sobre o olho, a mais comum dos albatrozes.",
+        "variantes": [
+          "Thalassarche melanophris",
+          "Black-browed albatross",
+          "Albatroz-de-sobrancelha"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Gaivotão nítido na praia, sem texto; dorso preto e bico amarelo com mancha vermelha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave costeira é esta?",
+      "resposta": "Gaivotão",
+      "distratores": [
+        "Gaivota-de-cabeça-cinza",
+        "Gaivota-de-franklin",
+        "Talha-mar"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gaivotão",
+        "descricao": "Gaivota Larus dominicanus, de dorso preto e cabeça branca, comum no litoral do hemisfério sul.",
+        "variantes": [
+          "Larus dominicanus",
+          "Gaivota-meridional",
+          "Kelp gull"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Zeus faber nítido, com mancha ocelar e espinhos; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que peixe é este, de corpo achatado e grande mancha no flanco?",
+      "resposta": "Peixe-galo (peixe-são-pedro)",
+      "distratores": [
+        "Peixe-leão",
+        "Peixe-lua",
+        "Peixe-sapo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Peixe-galo",
+        "descricao": "Peixe costeiro Zeus faber, de corpo comprimido, mancha escura no flanco e longos espinhos na nadadeira dorsal.",
+        "variantes": [
+          "Zeus faber",
+          "John Dory",
+          "Peixe-são-pedro"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Diagrama com texto visível (\"web\", \"water pores\") e setas; ilustração com legendas, sem reconhecimento justo."
+    }
+  ]
+}

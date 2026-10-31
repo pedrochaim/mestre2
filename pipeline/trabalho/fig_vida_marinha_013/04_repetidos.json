@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este gigante terrestre é, na verdade, uma espécie de qual crustáceo?",
+        "resposta": "Caranguejo-eremita"
+      },
+      "existentes": [
+        {
+          "id": "q16200",
+          "pergunta": "Que animal é este?",
+          "resposta": "Caranguejo-dos-coqueiros"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que ave costeira é esta?",
+        "resposta": "Gaivotão"
+      },
+      "existentes": [
+        {
+          "id": "q15777",
+          "pergunta": "Que ave marinha é esta?",
+          "resposta": "Gaivotão"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede de qual crustáceo o animal é espécie (caranguejo-eremita); a existente pede a identificação (caranguejo-dos-coqueiros). Respostas diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "As duas pedem a identificação da mesma ave (gaivotão) a partir da imagem, com enunciados quase iguais."
+    }
+  ]
+}

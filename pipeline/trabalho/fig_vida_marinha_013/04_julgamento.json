@@ -1,0 +1,726 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tatuíra",
+        "descricao": "Pequeno crustáceo decápode do gênero Emerita, que se enterra na areia da zona de arrebentação e se alimenta por filtração.",
+        "variantes": [
+          "Emerita",
+          "Caranguejo-da-areia",
+          "Pulga-do-mar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lagarta",
+          "nome": "Lagarta",
+          "descricao": "Fase larval de borboletas e mariposas (ordem Lepidoptera), de corpo alongado e que se alimenta de forma voraz.",
+          "variantes": [
+            "Larva de lepidóptero",
+            "Taturana",
+            "Caterpillar"
+          ]
+        },
+        {
+          "id": "ovelha_merino",
+          "nome": "Ovelha merino",
+          "descricao": "Raça de ovelha originária da Espanha, criada pela lã fina e macia",
+          "variantes": [
+            "Merino",
+            "Merina"
+          ]
+        },
+        {
+          "id": "caranguejo_yeti",
+          "nome": "Caranguejo-yeti",
+          "descricao": "Crustáceo das fontes hidrotermais do Pacífico Sul, Kiwa hirsuta, com garras cobertas de cerdas claras.",
+          "variantes": [
+            "Kiwa hirsuta",
+            "Yeti crab"
+          ]
+        },
+        {
+          "id": "nudibranquio",
+          "nome": "Nudibrânquio",
+          "descricao": "Molusco gastrópode marinho sem concha na fase adulta, da ordem Nudibranchia, de cores vistosas.",
+          "variantes": [
+            "Lesma-do-mar",
+            "Nudibranchia"
+          ]
+        },
+        {
+          "id": "geometria",
+          "nome": "Geometria",
+          "descricao": "Ramo da matemática que estuda formas, tamanhos e posições de figuras no espaço.",
+          "variantes": [
+            "Geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Trinta-réis-inca",
+        "descricao": "Ave marinha da família Laridae, de plumagem cinza-escura, bico vermelho e bigode branco, das costas do Pacífico sul-americano.",
+        "variantes": [
+          "Larosterna inca",
+          "Inca tern"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "andorinha_do_mar_artica",
+          "nome": "Andorinha-do-mar-ártica",
+          "descricao": "Ave marinha Sterna paradisaea, que se reproduz no Ártico e passa o verão austral perto da Antártida.",
+          "variantes": [
+            "Andorinha-do-ártico",
+            "Trinta-réis-ártico",
+            "Sterna paradisaea",
+            "Arctic tern"
+          ]
+        },
+        {
+          "id": "lanterna_magica",
+          "nome": "Lanterna mágica",
+          "descricao": "Antigo projetor de imagens pintadas em placas de vidro, com lentes e fonte de luz.",
+          "variantes": [
+            "Lanterna mágica antiga"
+          ]
+        },
+        {
+          "id": "inter_de_milao",
+          "nome": "Inter de Milão",
+          "descricao": "Football Club Internazionale Milano, clube de futebol de Milão, na Itália, fundado em 1908.",
+          "variantes": [
+            "Internazionale",
+            "Inter Milan",
+            "Inter"
+          ]
+        },
+        {
+          "id": "sport_club_internacional",
+          "nome": "Sport Club Internacional",
+          "descricao": "Clube de futebol de Porto Alegre, no Rio Grande do Sul, fundado em 1909, conhecido como Colorado.",
+          "variantes": [
+            "Internacional",
+            "Inter",
+            "Inter de Porto Alegre",
+            "Internacional de Porto Alegre"
+          ]
+        },
+        {
+          "id": "turbina_eolica",
+          "nome": "Turbina eólica",
+          "descricao": "Máquina de eixo horizontal com três pás que converte a energia cinética do vento em energia elétrica.",
+          "variantes": [
+            "Aerogerador",
+            "Gerador eólico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Veleiro",
+        "descricao": "Cnidário colonial flutuante, Velella velella, azul, com uma pequena vela rígida que o leva ao vento pela superfície do oceano.",
+        "variantes": [
+          "Velella velella",
+          "Velella",
+          "Vela-do-mar",
+          "By-the-wind sailor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vespa_do_mar",
+          "nome": "Vespa-do-mar",
+          "descricao": "Água-viva-de-caixa (Chironex fleckeri) do norte da Austrália e do Indo-Pacífico, de veneno potentíssimo.",
+          "variantes": [
+            "Chironex fleckeri",
+            "Sea wasp"
+          ]
+        },
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        },
+        {
+          "id": "nudibranquio",
+          "nome": "Nudibrânquio",
+          "descricao": "Molusco gastrópode marinho sem concha na fase adulta, da ordem Nudibranchia, de cores vistosas.",
+          "variantes": [
+            "Lesma-do-mar",
+            "Nudibranchia"
+          ]
+        },
+        {
+          "id": "velcro",
+          "nome": "Velcro",
+          "descricao": "Sistema de fecho de gancho e argola inventado pelo engenheiro suíço George de Mestral.",
+          "variantes": [
+            "Fecho de gancho e argola",
+            "Hook-and-loop fastener",
+            "Fecho de contato",
+            "Hook-and-loop"
+          ]
+        },
+        {
+          "id": "voleio",
+          "nome": "Voleio",
+          "descricao": "Golpe em que se bate na bola no ar, antes que ela toque o chão, termo usado no tênis e no futebol.",
+          "variantes": [
+            "Volley"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Peixe-borboleta",
+        "descricao": "Peixe de recife da família Chaetodontidae, de corpo achatado e colorido.",
+        "variantes": [
+          "Quetodontídeos",
+          "Butterflyfish",
+          "Chaetodontidae"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nado_borboleta",
+          "nome": "Nado borboleta",
+          "descricao": "Estilo de natação com braços simétricos e pernas em golfinhada.",
+          "variantes": [
+            "Borboleta",
+            "Butterfly",
+            "Butterfly stroke"
+          ]
+        },
+        {
+          "id": "borboleta",
+          "nome": "Borboleta",
+          "descricao": "Inseto alado da superfamília Papilionoidea, de asas grandes e coloridas; aqui, uma borboleta de asas alaranjadas e brancas, pousada numa folha.",
+          "variantes": [
+            "Borboletas",
+            "Butterfly"
+          ]
+        },
+        {
+          "id": "baiacu",
+          "nome": "Baiacu",
+          "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+          "variantes": [
+            "Peixe-balão",
+            "Tetraodontidae",
+            "Fugu"
+          ]
+        },
+        {
+          "id": "efeito_borboleta",
+          "nome": "Efeito borboleta",
+          "descricao": "Ideia da teoria do caos segundo a qual pequenas mudanças nas condições iniciais podem gerar grandes diferenças, popularizada por Edward Lorenz.",
+          "variantes": [
+            "Butterfly effect"
+          ]
+        },
+        {
+          "id": "peixe_bolha",
+          "nome": "Peixe-bolha",
+          "descricao": "Peixe de águas profundas, Psychrolutes marcidus, que vive na costa da Austrália e da Nova Zelândia.",
+          "variantes": [
+            "Psychrolutes marcidus",
+            "Blobfish"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Coral-chifre-de-veado",
+        "descricao": "Coral pétreo ramificado, Acropora cervicornis, de ramos eretos que lembram chifres, importante construtor de recifes no Atlântico ocidental.",
+        "variantes": [
+          "Acropora cervicornis",
+          "Staghorn coral"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coral_sol",
+          "nome": "Coral-sol",
+          "descricao": "Coral invasor do gênero Tubastraea, nativo do Indo-Pacífico, que se espalhou pelo litoral brasileiro.",
+          "variantes": [
+            "Tubastraea coccinea",
+            "Sun coral"
+          ]
+        },
+        {
+          "id": "rastro_de_estrelas",
+          "nome": "Rastro de estrelas",
+          "descricao": "Fotografia de longa exposição que registra o movimento aparente das estrelas no céu causado pela rotação da Terra.",
+          "variantes": [
+            "Trilha de estrelas",
+            "Star trail"
+          ]
+        },
+        {
+          "id": "horario_de_verao",
+          "nome": "Horário de verão",
+          "descricao": "Prática de adiantar os relógios em uma hora durante parte do ano para aproveitar melhor a luz do dia.",
+          "variantes": [
+            "Daylight saving time"
+          ]
+        },
+        {
+          "id": "coral_cerebro",
+          "nome": "Coral-cérebro",
+          "descricao": "Coral pétreo de colônia esférica com sulcos que lembram um cérebro, construtor de recifes.",
+          "variantes": [
+            "Brain coral"
+          ]
+        },
+        {
+          "id": "kopi_luwak",
+          "nome": "Kopi luwak",
+          "descricao": "Café da Indonésia feito com grãos parcialmente digeridos pela civeta-das-palmeiras.",
+          "variantes": [
+            "Café de civeta",
+            "Civet coffee"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Peixe-serra",
+        "descricao": "Raia da família Pristidae, de corpo semelhante ao de um tubarão e focinho alongado em forma de serra.",
+        "variantes": [
+          "Pristis pristis",
+          "Largetooth sawfish",
+          "Peixe-serra-comum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_serra",
+          "nome": "Peixe-serra",
+          "descricao": "Raia de corpo alongado da família Pristidae, com um longo focinho achatado cheio de dentes nas laterais.",
+          "variantes": [
+            "Pristidae",
+            "Sawfish"
+          ]
+        },
+        {
+          "id": "peixe_pedra",
+          "nome": "Peixe-pedra",
+          "descricao": "Peixe de recife do Indo-Pacífico do gênero Synanceia, camuflado como rocha, com espinhos dorsais muito venenosos.",
+          "variantes": [
+            "Synanceia",
+            "Stonefish"
+          ]
+        },
+        {
+          "id": "peixe_leao",
+          "nome": "Peixe-leão",
+          "descricao": "Peixe de recife de coral do gênero Pterois, de nadadeiras listradas e espinhos venenosos.",
+          "variantes": [
+            "Pterois volitans",
+            "Lionfish",
+            "Pterois"
+          ]
+        },
+        {
+          "id": "peixe_frade",
+          "nome": "Peixe-frade",
+          "descricao": "Peixe-anjo de recifes do Atlântico (Pomacanthus paru), de corpo escuro com escamas de borda amarela.",
+          "variantes": [
+            "Pomacanthus paru",
+            "French angelfish",
+            "Paru-frade"
+          ]
+        },
+        {
+          "id": "peixe_lua",
+          "nome": "Peixe-lua",
+          "descricao": "Grande peixe oceânico de corpo achatado e arredondado (Mola mola), um dos peixes ósseos mais pesados.",
+          "variantes": [
+            "Mola mola",
+            "Ocean sunfish",
+            "Peixe-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Caranguejo-dos-coqueiros",
+        "descricao": "Birgus latro, o maior artrópode terrestre, um caranguejo-eremita gigante das ilhas do Índico e do Pacífico.",
+        "variantes": [
+          "Birgus latro",
+          "Coconut crab",
+          "Caranguejo-ladrão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caranguejo_dos_coqueiros",
+          "nome": "Caranguejo-dos-coqueiros",
+          "descricao": "Maior artrópode terrestre, um caranguejo-eremita gigante (Birgus latro) das ilhas do Índico e do Pacífico.",
+          "variantes": [
+            "Caranguejo-ladrão",
+            "Birgus latro"
+          ]
+        },
+        {
+          "id": "limulo",
+          "nome": "Límulo",
+          "descricao": "Artrópode marinho da família Limulidae, conhecido como caranguejo-ferradura, de carapaça em forma de ferradura e sangue azul.",
+          "variantes": [
+            "caranguejo-ferradura",
+            "horseshoe crab",
+            "Limulus polyphemus"
+          ]
+        },
+        {
+          "id": "caranguejo_ermitao",
+          "nome": "Caranguejo-ermitão",
+          "descricao": "Crustáceo decápode que protege o abdome mole numa concha vazia de caracol.",
+          "variantes": [
+            "Paguro",
+            "Hermit crab"
+          ]
+        },
+        {
+          "id": "caranguejo_fantasma",
+          "nome": "Caranguejo-fantasma",
+          "descricao": "Caranguejo de praia do gênero Ocypode, de olhos em hastes longas, que vive na areia.",
+          "variantes": [
+            "Caranguejo",
+            "Maria-farinha",
+            "Ocypode"
+          ]
+        },
+        {
+          "id": "caranguejo",
+          "nome": "Caranguejo",
+          "descricao": "Crustáceo decápode da infraordem Brachyura, de carapaça larga e cauda curta dobrada sob o corpo.",
+          "variantes": [
+            "Brachyura",
+            "Crab"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Pinguim-de-barbicha",
+        "descricao": "Pinguim antártico Pygoscelis antarcticus, com uma estreita faixa preta sob a cabeça.",
+        "variantes": [
+          "Pygoscelis antarcticus",
+          "Chinstrap penguin",
+          "Pinguim-antártico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pinguim_africano",
+          "nome": "Pinguim-africano",
+          "descricao": "Pinguim do sul da África (Spheniscus demersus), de faixa preta no peito, máscara facial preta e mancha rosada acima dos olhos.",
+          "variantes": [
+            "Spheniscus demersus",
+            "Pinguim-do-cabo",
+            "African penguin"
+          ]
+        },
+        {
+          "id": "pinguim_de_magalhaes",
+          "nome": "Pinguim-de-magalhães",
+          "descricao": "Pinguim sul-americano, Spheniscus magellanicus, que se reproduz na Patagônia e migra para o norte no inverno.",
+          "variantes": [
+            "Spheniscus magellanicus",
+            "Magellanic penguin"
+          ]
+        },
+        {
+          "id": "pinguim_rei",
+          "nome": "Pinguim-rei",
+          "descricao": "Segunda maior espécie de pinguim, Aptenodytes patagonicus, de manchas laranja na cabeça e no peito.",
+          "variantes": [
+            "Aptenodytes patagonicus",
+            "King penguin"
+          ]
+        },
+        {
+          "id": "pincel_de_barbear",
+          "nome": "Pincel de barbear",
+          "descricao": "Pincel de cerdas macias usado para fazer espuma de sabão e aplicá-la no rosto ao se barbear.",
+          "variantes": [
+            "Blaireau",
+            "Pincel de barba"
+          ]
+        },
+        {
+          "id": "krill_2",
+          "nome": "Krill",
+          "descricao": "Pequeno crustáceo planctônico (Euphausia superba) que forma enormes enxames nas águas antárticas.",
+          "variantes": [
+            "Krill-antártico",
+            "Euphausia superba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Albatroz-de-sobrancelha-negra",
+        "descricao": "Grande ave marinha Thalassarche melanophris, de cabeça branca com uma marca escura sobre o olho, a mais comum dos albatrozes.",
+        "variantes": [
+          "Thalassarche melanophris",
+          "Black-browed albatross",
+          "Albatroz-de-sobrancelha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "albatroz_errante",
+          "nome": "Albatroz-errante",
+          "descricao": "Grande ave marinha (Diomedea exulans) dos oceanos do Hemisfério Sul.",
+          "variantes": [
+            "Diomedea exulans",
+            "Albatroz-viajeiro",
+            "Wandering albatross"
+          ]
+        },
+        {
+          "id": "pau_de_sebo",
+          "nome": "Pau de sebo",
+          "descricao": "Brincadeira de subir num mastro untado de gordura para alcançar um prêmio no topo, típica das festas juninas.",
+          "variantes": [
+            "Mastro de cocanha",
+            "Cocanha"
+          ]
+        },
+        {
+          "id": "gibao_de_maos_brancas",
+          "nome": "Gibão-de-mãos-brancas",
+          "descricao": "Primata da família dos gibões, Hylobates lar, do Sudeste Asiático.",
+          "variantes": [
+            "Gibão-lar",
+            "Hylobates lar"
+          ]
+        },
+        {
+          "id": "rastro_de_estrelas",
+          "nome": "Rastro de estrelas",
+          "descricao": "Fotografia de longa exposição que registra o movimento aparente das estrelas no céu causado pela rotação da Terra.",
+          "variantes": [
+            "Trilha de estrelas",
+            "Star trail"
+          ]
+        },
+        {
+          "id": "faixa_preta",
+          "nome": "Faixa preta",
+          "descricao": "Faixa de cor preta que indica o grau de proficiência mais alto em muitas artes marciais, como judô e karatê.",
+          "variantes": [
+            "Cinturão preto",
+            "Black belt"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Gaivotão",
+        "descricao": "Gaivota Larus dominicanus, de dorso preto e cabeça branca, comum no litoral do hemisfério sul.",
+        "variantes": [
+          "Larus dominicanus",
+          "Gaivota-meridional",
+          "Kelp gull"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gaivotao",
+          "nome": "Gaivotão",
+          "descricao": "Gaivota grande Larus dominicanus, de dorso preto e cabeça branca, comum nas costas do Hemisfério Sul.",
+          "variantes": [
+            "Gaivota-meridional",
+            "Kelp gull",
+            "Larus dominicanus"
+          ]
+        },
+        {
+          "id": "gaivota",
+          "nome": "Gaivota",
+          "descricao": "Ave marinha da subfamília Larinae, da família Laridae, geralmente cinza e branca, com pés palmados.",
+          "variantes": [
+            "Gaivotas"
+          ]
+        },
+        {
+          "id": "gaita",
+          "nome": "Gaita",
+          "descricao": "Instrumento de palhetas livres tocado com a boca, soprando e aspirando o ar.",
+          "variantes": [
+            "Gaita de boca",
+            "Harmônica",
+            "Harmonica"
+          ]
+        },
+        {
+          "id": "gastao",
+          "nome": "Gastão",
+          "descricao": "Primo do Pato Donald nos quadrinhos da Disney, famoso por sua sorte absurda",
+          "variantes": [
+            "Gladstone Gander",
+            "Gastão (Disney)"
+          ]
+        },
+        {
+          "id": "chocolates_garoto",
+          "nome": "Chocolates Garoto",
+          "descricao": "Fabricante brasileira de chocolates fundada em 1929 em Vila Velha pelo imigrante alemão Heinrich Meyerfreund.",
+          "variantes": [
+            "Garoto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Peixe-galo",
+        "descricao": "Peixe costeiro Zeus faber, de corpo comprimido, mancha escura no flanco e longos espinhos na nadadeira dorsal.",
+        "variantes": [
+          "Zeus faber",
+          "John Dory",
+          "Peixe-são-pedro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_gelo",
+          "nome": "Peixe-gelo",
+          "descricao": "Família de peixes antárticos, Channichthyidae, de sangue quase transparente.",
+          "variantes": [
+            "Channichthyidae",
+            "Peixe-crocodilo-do-gelo",
+            "Icefish"
+          ]
+        },
+        {
+          "id": "baiacu",
+          "nome": "Baiacu",
+          "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+          "variantes": [
+            "Peixe-balão",
+            "Tetraodontidae",
+            "Fugu"
+          ]
+        },
+        {
+          "id": "peixe_leao",
+          "nome": "Peixe-leão",
+          "descricao": "Peixe de recife de coral do gênero Pterois, de nadadeiras listradas e espinhos venenosos.",
+          "variantes": [
+            "Pterois volitans",
+            "Lionfish",
+            "Pterois"
+          ]
+        },
+        {
+          "id": "peixe_palhaco",
+          "nome": "Peixe-palhaço",
+          "descricao": "Pequeno peixe de recife alaranjado, da subfamília Amphiprioninae, que vive associado a anêmonas-do-mar.",
+          "variantes": [
+            "Peixe-palhaço-laranja",
+            "Clownfish",
+            "Amphiprion"
+          ]
+        },
+        {
+          "id": "peixe_pedra",
+          "nome": "Peixe-pedra",
+          "descricao": "Peixe de recife do Indo-Pacífico do gênero Synanceia, camuflado como rocha, com espinhos dorsais muito venenosos.",
+          "variantes": [
+            "Synanceia",
+            "Stonefish"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Tatuíra (Emerita) não consta entre as candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Trinta-réis-inca (Larosterna inca) é espécie diferente da andorinha-do-mar-ártica."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Velella velella não consta entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Peixe-borboleta (Chaetodontidae) é diferente das candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Acropora cervicornis difere do coral-cérebro e do coral-sol."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "A proposta é Pristis pristis, uma espécie específica. A candidata peixe_serra é a família Pristidae, que é mais ampla. Na dúvida, nova."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "caranguejo_dos_coqueiros",
+      "motivo": "Mesma espécie, Birgus latro, com o mesmo nome e a mesma descrição."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Pygoscelis antarcticus não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Thalassarche melanophris é espécie diferente do albatroz-errante."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "gaivotao",
+      "motivo": "Mesma espécie, Larus dominicanus, com o mesmo nome e a mesma descrição."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Zeus faber não consta entre as candidatas."
+    }
+  ]
+}
