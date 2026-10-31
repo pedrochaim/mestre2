@@ -1,0 +1,395 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Wimbledon (1877) é o mais antigo dos quatro; enunciado correto e distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Federer tem oito títulos em Wimbledon, de vinte no total; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Djokovic tem dez títulos no Aberto da Austrália, bem à frente dos demais torneios.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bueno tem sete títulos de simples, contra três de Kuerten.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os EUA foram o país que mais venceu a Davis no século vinte.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Carpete é mais rápido que a grama, e 'areia' não é piso profissional; os distratores são fracos e a resposta é discutível.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O US Open foi o primeiro Slam a pagar prêmios iguais, em 1973.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Aberto da Austrália foi o primeiro Slam com quadra de teto móvel, em 1988.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Roland Garros 1968 foi o primeiro Slam aberto a profissionais.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sampras nunca venceu Roland Garros; fato sustentado e interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato (feltro de náilon e lã) só aparece na página em português; é preciso citar uma fonte que o sustente.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "Tradicionalmente, o feltro que reveste as bolas de tênis leva qual fibra natural, misturada ao náilon?",
+        "resposta": "Lã",
+        "distratores": [
+          "Algodão",
+          "Seda",
+          "Linho"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Bola_de_t%C3%AAnis",
+          "https://en.wikipedia.org/wiki/Tennis_ball"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cordas de catgut vêm de intestino de animais; sustentado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os corredores laterais só valem em duplas; fato conhecido e distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Laver Cup opõe Europa e Resto do Mundo; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Djokovic completou o Golden Slam em Paris 2024 junto de Agassi e Nadal.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Channel Slam é Roland Garros mais Wimbledon no mesmo ano; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reverência ao Camarote Real até 2003, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guga venceu Corretja na final de 2001, seu terceiro título.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Melo, de Belo Horizonte, venceu Wimbledon 2017 com Kubot.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Uma fonte é inexistente; a outra já sustenta o fato, então basta mantê-la.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "No complexo de Roland Garros, em Paris, a quadra principal homenageia um antigo dirigente do tênis francês. Qual é o nome dela?",
+        "resposta": "Philippe-Chatrier",
+        "distratores": [
+          "Suzanne-Lenglen",
+          "Simonne-Mathieu",
+          "René Lacoste"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Stade_Roland_Garros"
+        ]
+      }
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A regra de roupas brancas de Wimbledon é bem conhecida.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O backhand de uma mão era a marca registrada de Guga.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Uniforme azul e amarelo de 1997, confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Seles usava as duas mãos no forehand e no backhand.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O livro Serve to Win traz um plano de 14 dias sem glúten; os trechos mostram a dieta sem glúten.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Dizer que Perry 'fundou' a marca é impreciso: ela foi lançada com Tibby Wegner; basta dizer que leva o nome dele.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "multipla",
+        "pergunta": "A marca de roupas que leva o nome do tenista inglês Fred Perry usa como símbolo qual figura?",
+        "resposta": "Coroa de louros",
+        "distratores": [
+          "Crocodilo",
+          "Raquetes cruzadas",
+          "Leão rampante"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Fred_Perry",
+          "https://en.wikipedia.org/wiki/Fred_Perry"
+        ]
+      }
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A abertura de pernas (espacate) de Clijsters é sua marca, segundo a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O tie-break tradicional vai a sete pontos com dois de vantagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Simples masculino em Slams é melhor de cinco sets.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Navratilova tem nove títulos em Wimbledon, de 1978 a 1990.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "No tênis em cadeira de rodas a bola pode quicar duas vezes.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A rede tem 0,914 m no centro; o distrator de 107 cm é a altura nos postes.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Bueno venceu Wimbledon em simples em 1959, 1960 e 1964.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A teoria do l'œuf para 'love' está na fonte e a pergunta a apresenta como teoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O apelido Iceborg vem da frieza de Borg, segundo a fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pistol Pete vem do saque preciso e potente; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O modelo se chamava Adidas Robert Haillet antes de virar Stan Smith.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nadal é chamado de Rei do Saibro, inclusive em Roland Garros.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mike Agassi representou o Irã no boxe em 1948 e 1952.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Larri Passos foi técnico de Guga por 15 anos, a partir dos 14.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A África do Sul é a terra natal da mãe de Federer, que tem dupla cidadania.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lendl treinou Murray nos títulos de Wimbledon de 2013 e 2016.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Federer ganhou Wimbledon e seu primeiro Slam em 2003; distratores próximos.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Serena ganhou o US Open de 1999, aos 17 anos.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "As fontes divergem sobre a origem do jeu de paume (século onze ou doze); o fato é impreciso demais.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guga nasceu em Florianópolis.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Murray é escocês; resposta correta e sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Saque que toca a rede e cai na área correta é let e se repete.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Federation Cup foi lançada em 1963 pelos 50 anos da ITF.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Billie Jean King organizou a fundação da WTA em 1973.",
+      "reescrita": null
+    }
+  ]
+}
