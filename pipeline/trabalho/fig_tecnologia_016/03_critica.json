@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o nome vem de Luigi Galvani, italiano. O enunciado não nomeia o instrumento. Outros instrumentos elétricos também homenageiam italianos (o voltímetro, por exemplo), então a figura é necessária. Os distratores são do mesmo tipo e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está certo: o trecho diz que foi inventado em 1943. A expressão \"brinquedo de mola\" quase identifica o Slinky sem a figura, então o teste da imagem coberta falha. Basta tirar a pista.",
+      "reescrita": {
+        "pergunta": "Em que década foi inventado este brinquedo?",
+        "resposta": "Década de 1940",
+        "distratores": [
+          "Década de 1920",
+          "Década de 1930",
+          "Década de 1950"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato é verdadeiro (trilhas de cobre). Mas o enunciado já descreve uma placa com trilhas que conectam componentes, e a resposta \"cobre\" sai sem olhar a figura. Não há como tirar a pista sem descaracterizar a pergunta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o primeiro programa rodou em 21 de junho de 1948. A resposta é um ano, então a pergunta é múltipla, como exige o manifesto. Os distratores são anos próximos e plausíveis. O enunciado não nomeia a máquina.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o alto-falante faz o processo inverso ao do microfone. \"Aparelho de som\" é vago e não entrega a resposta sem a figura. Nenhum distrator é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O zootrópio é um aparelho de animação pré-cinema do século dezenove, o que os trechos confirmam. O enunciado não nomeia o aparelho. Os distratores são aparelhos parecidos, e nenhum descreve a imagem mostrada.",
+      "reescrita": null
+    }
+  ]
+}

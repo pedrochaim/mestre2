@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que década foi inventado este brinquedo?",
+        "resposta": "Década de 1940"
+      },
+      "existentes": [
+        {
+          "id": "q07346",
+          "pergunta": "A mola maluca nasceu quando um engenheiro naval americano viu uma mola cair e continuar se mexendo. Para que ele testava essas molas?",
+          "resposta": "Estabilizar instrumentos de navios"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que aparelho de animação do século dezenove é este?",
+        "resposta": "Zootrópio"
+      },
+      "existentes": [
+        {
+          "id": "q06734",
+          "pergunta": "Que aparelho de animação do século dezenove é este?",
+          "resposta": "Zootrópio"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre a década da invenção; a existente é sobre a finalidade dos testes com as molas. São fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "As duas perguntas são idênticas e têm a mesma resposta (Zootrópio).",
+      "id_existente": "q06734"
+    }
+  ]
+}

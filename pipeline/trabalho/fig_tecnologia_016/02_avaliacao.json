@@ -1,0 +1,178 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A marca NETGEAR aparece escrita no aparelho, além de legendas; entrega a identificação."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Aparecem escritos 'SONY' e o logotipo 'PSP' no aparelho, entregando a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto histórica sem texto, instrumento com ímã em ferradura, bobina e escala curva; reconhecível.",
+      "pergunta": "O nome deste instrumento de medição elétrica homenageia qual cientista italiano?",
+      "resposta": "Luigi Galvani",
+      "distratores": [
+        "Alessandro Volta",
+        "Galileu Galilei",
+        "Guglielmo Marconi"
+      ],
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 1,
+      "ancora": {
+        "nome": "Galvanômetro",
+        "descricao": "Instrumento eletromecânico que detecta e mede pequenas correntes elétricas pela deflexão de um ponteiro numa bobina em campo magnético.",
+        "variantes": [
+          "Galvanometer"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Mola helicoidal metálica sem texto, forma inconfundível.",
+      "pergunta": "Em que década foi inventado este brinquedo de mola?",
+      "resposta": "Década de 1940",
+      "distratores": [
+        "Década de 1920",
+        "Década de 1930",
+        "Década de 1950"
+      ],
+      "tipo": "multipla",
+      "familia": "quando",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Mola maluca (Slinky)",
+        "descricao": "Brinquedo de mola helicoidal de metal inventado pelo engenheiro naval Richard T. James em 1943.",
+        "variantes": [
+          "Slinky",
+          "Mola maluca"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Placa verde nua, claramente um circuito impresso; a marca 'aurora' é pequena e não entrega a resposta.",
+      "pergunta": "Nesta placa, as trilhas que conectam os componentes costumam ser feitas de que metal?",
+      "resposta": "Cobre",
+      "distratores": [
+        "Alumínio",
+        "Ferro",
+        "Chumbo"
+      ],
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Placa de circuito impresso",
+        "descricao": "Placa laminada com trilhas de cobre gravadas sobre substrato isolante, usada para conectar componentes eletrônicos.",
+        "variantes": [
+          "PCB",
+          "Circuito impresso",
+          "Placa de circuito"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Réplica do Manchester Baby com racks de válvulas e placas verdes sem o nome; aceitável, com cautela.",
+      "pergunta": "Em que ano esta máquina rodou seu primeiro programa?",
+      "resposta": "1948",
+      "distratores": [
+        "1944",
+        "1946",
+        "1951"
+      ],
+      "tipo": "multipla",
+      "familia": "quando",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Manchester Baby",
+        "descricao": "Primeiro computador eletrônico de programa armazenado, construído na Universidade de Manchester em 1948 (aqui, uma réplica).",
+        "variantes": [
+          "Small-Scale Experimental Machine",
+          "SSEM"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Par de caixas acústicas com alto-falante visível; logotipo pequeno e ilegível.",
+      "pergunta": "Este aparelho de som faz o caminho inverso de qual outro aparelho?",
+      "resposta": "Microfone",
+      "distratores": [
+        "Amplificador",
+        "Antena",
+        "Câmera"
+      ],
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Alto-falante",
+        "descricao": "Transdutor eletroacústico que converte um sinal elétrico de áudio em som.",
+        "variantes": [
+          "Altifalante",
+          "Caixa de som"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A imagem mostra um despertador mecânico de dois sinos, e não um rádio-relógio; não corresponde ao item e a pergunta seria trivial."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto antiga e granulada, com a inscrição 'Cie de l'Industrie Electrique Genève'. Máquina elétrica ambígua entre gerador, dínamo e motor."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Aparecem escritos 'SEGA MASTER SYSTEM' no console e 'SEGA' no controle."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Zootrópio com fendas e tiras de desenhos, sem texto; reconhecível.",
+      "pergunta": "Que aparelho de animação do século dezenove é este?",
+      "resposta": "Zootrópio",
+      "distratores": [
+        "Fenacistoscópio",
+        "Cinetoscópio",
+        "Lanterna mágica"
+      ],
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Zootrópio",
+        "descricao": "Aparelho cilíndrico pré-cinema que cria a ilusão de movimento ao girar uma tira de desenhos vista por fendas.",
+        "variantes": [
+          "Zoetrope",
+          "Zootropo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem pequena e de baixa resolução; o disco iridescente pode ser confundido com um CD ou holograma."
+    }
+  ]
+}
