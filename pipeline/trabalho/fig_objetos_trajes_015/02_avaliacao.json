@@ -1,0 +1,160 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem mostra fechadura e chave juntas; qualquer pergunta sobre a chave entrega a fechadura ou fica ambígua entre os dois objetos."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Espremedor cilíndrico sem os furos visíveis; o objeto não é reconhecível pela foto e poderia ser confundido com outro utensílio."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, numa plantação, sem ser figura pública nem festa pública."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pasta de dente sobre escova, reconhecível; o texto do tubo é ilegível e não entrega a resposta.",
+      "pergunta": "Que ingrediente ativo, o mais comum neste produto, ajuda a prevenir as cáries?",
+      "resposta": "Flúor",
+      "tipo": "multipla",
+      "distratores": [
+        "Cloro",
+        "Iodo",
+        "Ferro"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Pasta de dente",
+        "descricao": "Dentifrício em pasta ou gel, usado com escova para limpar os dentes.",
+        "variantes": [
+          "Creme dental",
+          "Dentifrício"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Navalha de barbear dobrável, bem reconhecível; o texto 'Solingen' não é a resposta pedida (Sheffield).",
+      "pergunta": "Em 1680, em que cidade inglesa foram fabricados os primeiros exemplares deste objeto com lâmina de aço?",
+      "resposta": "Sheffield",
+      "tipo": "multipla",
+      "distratores": [
+        "Birmingham",
+        "Manchester",
+        "Leeds"
+      ],
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Navalha",
+        "descricao": "Navalha de barbear com lâmina que se dobra para dentro do cabo.",
+        "variantes": [
+          "Navalha de barbear",
+          "Navalha de cabo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Cartão-postal ilustrado com legenda 'Polesia' visível, que mostra o casal e sugere outra região; ilustração onde cabe foto e resposta ambígua."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "É um cesto trançado de estilo africano, difícil de reconhecer como bolsa; a imagem é amadora e a resposta não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Duas pessoas comuns em primeiro plano, modelos num desfile sem identificação."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Conjunto de cabides de modelos variados, um único assunto, sem texto e nítido.",
+      "pergunta": "Estes objetos têm o formato de qual parte do corpo humano?",
+      "resposta": "Ombros",
+      "tipo": "multipla",
+      "distratores": [
+        "Quadris",
+        "Costelas",
+        "Cotovelos"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Cabide",
+        "descricao": "Suporte em forma de ombros usado para pendurar roupas.",
+        "variantes": [
+          "Cabides",
+          "Cabide de roupa"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O texto 'Bialetti Moka Express' está visível na cafeteira e entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Gancho de abotoar com cabo de madeira, em foto simples e nítida; o enunciado delimita o uso e afasta ganchos de crochê.",
+      "pergunta": "Na era vitoriana, esta ferramenta servia para puxar os botões de que tipo de calçado?",
+      "resposta": "Botas",
+      "tipo": "multipla",
+      "distratores": [
+        "Sandálias",
+        "Chinelos",
+        "Tamancos"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Gancho de abotoar",
+        "descricao": "Pequena ferramenta com cabo e gancho metálico para passar botões de botas ou luvas pelas casas.",
+        "variantes": [
+          "Abotoador",
+          "Buttonhook"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Disco de telefone antigo, nítido e inconfundível; números visíveis não entregam a resposta.",
+      "pergunta": "Ao voltar à posição inicial depois de girado, este disco envia à central telefônica que tipo de sinal?",
+      "resposta": "Pulsos de corrente",
+      "tipo": "multipla",
+      "distratores": [
+        "Tons musicais",
+        "Ondas de rádio",
+        "Sinais de luz"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Telefone de disco",
+        "descricao": "Disco giratório de discagem de telefones antigos, que transmite o número por pulsos.",
+        "variantes": [
+          "Disco de discar",
+          "Disco rotativo",
+          "Rotary dial"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Navalha",
+        "descricao": "Navalha de barbear com lâmina que se dobra para dentro do cabo.",
+        "variantes": [
+          "Navalha de barbear",
+          "Navalha de cabo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aparelho_de_barbear",
+          "nome": "Aparelho de barbear",
+          "descricao": "Aparelho de barbear de segurança, com proteção entre a lâmina e a pele e lâmina removível.",
+          "variantes": [
+            "Barbeador",
+            "Safety razor",
+            "Gilete"
+          ]
+        },
+        {
+          "id": "batalha_de_gaugamela",
+          "nome": "Batalha de Gaugamela",
+          "descricao": "Batalha de 331 a.C. em que Alexandre, o Grande, derrotou o rei persa Dario III.",
+          "variantes": [
+            "Batalha de Arbela",
+            "Battle of Gaugamela"
+          ]
+        },
+        {
+          "id": "batalha_de_acaba",
+          "nome": "Batalha de Ácaba",
+          "descricao": "Ataque de julho de 1917 em que forças da Revolta Árabe, com participação de T. E. Lawrence, tomaram dos otomanos o porto de Ácaba.",
+          "variantes": [
+            "Battle of Aqaba",
+            "Tomada de Ácaba"
+          ]
+        },
+        {
+          "id": "narval",
+          "nome": "Narval",
+          "descricao": "Cetáceo do Ártico com uma longa presa em espiral, espécie Monodon monoceros.",
+          "variantes": [
+            "Monodon monoceros",
+            "Narwhal",
+            "Unicórnio-do-mar"
+          ]
+        },
+        {
+          "id": "avalanche",
+          "nome": "Avalanche",
+          "descricao": "Fluxo rápido de neve encosta abaixo em montanhas.",
+          "variantes": [
+            "Avalancha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cabide",
+        "descricao": "Suporte em forma de ombros usado para pendurar roupas.",
+        "variantes": [
+          "Cabides",
+          "Cabide de roupa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hades",
+          "nome": "Hades",
+          "descricao": "Deus grego dos mortos e rei do mundo subterrâneo, irmão de Zeus e Poseidon.",
+          "variantes": [
+            "Plutão",
+            "Plutão (Roma)",
+            "Aides"
+          ]
+        },
+        {
+          "id": "bide",
+          "nome": "Bidê",
+          "descricao": "Peça sanitária baixa, parecida com uma pia, usada para a higiene íntima.",
+          "variantes": [
+            "Bidet"
+          ]
+        },
+        {
+          "id": "candido",
+          "nome": "Cândido",
+          "descricao": "Novela satírica de Voltaire publicada em 1759, que ridiculariza o otimismo filosófico.",
+          "variantes": [
+            "Cândido, ou o Otimismo",
+            "Candide"
+          ]
+        },
+        {
+          "id": "cabinda",
+          "nome": "Cabinda",
+          "descricao": "Província-enclave de Angola, separada do resto do país por uma faixa da República Democrática do Congo.",
+          "variantes": [
+            "Província de Cabinda"
+          ]
+        },
+        {
+          "id": "chade",
+          "nome": "Chade",
+          "descricao": "País sem litoral da África Central, com capital em N'Djamena.",
+          "variantes": [
+            "República do Chade"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Gancho de abotoar",
+        "descricao": "Pequena ferramenta com cabo e gancho metálico para passar botões de botas ou luvas pelas casas.",
+        "variantes": [
+          "Abotoador",
+          "Buttonhook"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abotoadura",
+          "nome": "Abotoadura",
+          "descricao": "Par de joias douradas com esmalte azul, usadas para fechar os punhos de camisas sociais.",
+          "variantes": [
+            "Abotoaduras",
+            "Cufflinks"
+          ]
+        },
+        {
+          "id": "apontador",
+          "nome": "Apontador",
+          "descricao": "Pequena ferramenta com lâmina para afiar a ponta de lápis de madeira.",
+          "variantes": [
+            "Apontador de lápis",
+            "Apara-lápis"
+          ]
+        },
+        {
+          "id": "biscoito_de_polvilho",
+          "nome": "Biscoito de polvilho",
+          "descricao": "Biscoito típico brasileiro feito de polvilho, em forma de argola, como o Biscoito Globo.",
+          "variantes": [
+            "Avoador",
+            "Biscoito de goma",
+            "Biscoito de vento",
+            "Biscoito voador",
+            "Peta"
+          ]
+        },
+        {
+          "id": "gato_de_botas",
+          "nome": "Gato de Botas",
+          "descricao": "Gato laranja espadachim de chapéu e botas, companheiro de Shrek nos filmes da DreamWorks.",
+          "variantes": [
+            "Puss in Boots",
+            "Gato de Botas de Shrek"
+          ]
+        },
+        {
+          "id": "weezing",
+          "nome": "Weezing",
+          "descricao": "Pokémon de tipo Veneno, número 110 da Pokédex Nacional, evolução de Koffing, formado por duas esferas de gás.",
+          "variantes": [
+            "Matadora",
+            "Matadogas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Telefone de disco",
+        "descricao": "Disco giratório de discagem de telefones antigos, que transmite o número por pulsos.",
+        "variantes": [
+          "Disco de discar",
+          "Disco rotativo",
+          "Rotary dial"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "telefone",
+          "nome": "Telefone",
+          "descricao": "Aparelho de telecomunicação que transmite a voz à distância, aqui um modelo antigo de disco.",
+          "variantes": [
+            "Telefone de disco"
+          ]
+        },
+        {
+          "id": "telefone_sem_fio",
+          "nome": "Telefone sem fio",
+          "descricao": "Telefone portátil que se conecta por rádio a uma base ligada à rede telefônica pública.",
+          "variantes": [
+            "Telefone cordless",
+            "Cordless"
+          ]
+        },
+        {
+          "id": "motor_wankel",
+          "nome": "Motor Wankel",
+          "descricao": "Motor de combustão interna rotativo com rotor triangular, desenvolvido por Felix Wankel.",
+          "variantes": [
+            "Motor de combustão interna",
+            "Motor rotativo",
+            "Wankel engine"
+          ]
+        },
+        {
+          "id": "disco_de_festo",
+          "nome": "Disco de Festo",
+          "descricao": "Disco de argila cozida de Creta, da Idade do Bronze minoica, coberto de sinais de escrita não decifrada.",
+          "variantes": [
+            "Disco de Phaistos",
+            "Phaistos Disc",
+            "Disco de Faistos"
+          ]
+        },
+        {
+          "id": "canicula",
+          "nome": "Canícula",
+          "descricao": "Período mais quente do verão no hemisfério norte, tradicionalmente associado à estrela Sírius",
+          "variantes": [
+            "Dias de cão",
+            "Dog days"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Navalha de barbear dobrável é diferente do aparelho de barbear de segurança e das demais candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cabide não corresponde a nenhuma candidata; nomes apenas parecidos."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Gancho de abotoar é uma ferramenta distinta de abotoadura (joia) e das outras candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A proposta descreve o disco de discagem (peça), enquanto a candidata 'Telefone' é o aparelho em geral; na dúvida, nova."
+    }
+  ]
+}
