@@ -1,0 +1,122 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arquibancadas e desfile de carnaval à noite, reconhecível; público de festa popular.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que local é este, palco de um dos maiores desfiles do mundo?",
+      "resposta": "Sambódromo da Marquês de Sapucaí",
+      "distratores": [
+        "Sambódromo do Anhembi",
+        "Estádio do Maracanã",
+        "Passarela do Samba Parintins"
+      ],
+      "ancora": {
+        "nome": "Sambódromo da Marquês de Sapucaí",
+        "descricao": "Passarela do desfile das escolas de samba do Carnaval do Rio de Janeiro, inaugurada em 1984.",
+        "variantes": [
+          "Sambódromo do Rio de Janeiro",
+          "Passarela Professor Darcy Ribeiro",
+          "Sapucaí"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Textos visíveis entregam a resposta: 'Don Revie Stand', 'We are Leeds' e Leeds United."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Mostra só a entrada, com placa com o nome; não deixa claro que é um estádio nem permite reconhecê-lo bem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Arquibancadas escavadas na encosta, sem texto; característico do estádio.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que clube manda seus jogos neste estádio?",
+      "resposta": "Sporting de Braga",
+      "distratores": [
+        "Vitória de Guimarães",
+        "Boavista",
+        "Rio Ave"
+      ],
+      "ancora": {
+        "nome": "Estádio Municipal de Braga",
+        "descricao": "Estádio de futebol de Braga, em Portugal, escavado numa pedreira e projetado por Souto de Moura para a Euro 2004.",
+        "variantes": [
+          "A Pedreira",
+          "Estádio Municipal de Braga"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Faixa com 'Prefeitura de Santo André Campeão do Brasil 2004' entrega a cidade."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Tribuna principal moderna, característica, sem texto que entregue a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que castelo real fica a cerca de dez quilômetros deste local?",
+      "resposta": "Castelo de Windsor",
+      "distratores": [
+        "Castelo de Balmoral",
+        "Castelo de Warwick",
+        "Castelo de Edimburgo"
+      ],
+      "ancora": {
+        "nome": "Hipódromo de Ascot",
+        "descricao": "Hipódromo britânico em Ascot, Berkshire, fundado em 1711 pela rainha Ana, ligado à família real.",
+        "variantes": [
+          "Ascot Racecourse",
+          "Royal Ascot"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Interior genérico de estádio com pista; não é reconhecível com segurança."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O nome 'Veltins Arena' está escrito na fachada e entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Faixa 'Prefeitura do Município de Londrina' visível e imagem pouco distinta; entrega a cidade."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Escudo e texto 'Fulham Football Club' na arquibancada entregam a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Pista de hóquei genérica, parecida com muitas outras; não é reconhecível, e há texto ('Olympic Center')."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Texto 'Sheffield Wednesday - Hillsborough' visível no estádio entrega a resposta."
+    }
+  ]
+}

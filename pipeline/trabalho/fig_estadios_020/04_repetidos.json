@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que local, inaugurado em mil novecentos e oitenta e quatro, é este?",
+        "resposta": "Sambódromo da Marquês de Sapucaí"
+      },
+      "existentes": [
+        {
+          "id": "q02027",
+          "pergunta": "Inaugurado em 1984 na avenida Marquês de Sapucaí, o Sambódromo do Rio foi projetado por qual arquiteto?",
+          "resposta": "Oscar Niemeyer"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede identificar o local (Sambódromo) a partir do ano de inauguração; a existente pergunta o arquiteto (Niemeyer). Fatos diferentes."
+    }
+  ]
+}

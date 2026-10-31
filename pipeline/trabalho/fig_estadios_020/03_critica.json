@@ -1,0 +1,33 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'palco de um dos maiores desfiles do mundo' quase entrega a resposta sem olhar a figura (desfile de escola de samba leva ao Sambódromo) e é vaga ('um dos maiores'). Troquei por uma pista que ajuda sem entregar: o ano de inauguração, 1984, confirmado nos trechos.",
+      "reescrita": {
+        "pergunta": "Que local, inaugurado em mil novecentos e oitenta e quatro, é este?",
+        "resposta": "Sambódromo da Marquês de Sapucaí",
+        "distratores": [
+          "Sambódromo do Anhembi",
+          "Estádio do Maracanã",
+          "Passarela do Samba Parintins"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O estádio é a casa do Sporting Clube de Braga, como diz o trecho. O enunciado não vaza a resposta e os distratores são clubes portugueses críveis, nenhum deles também correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que Ascot fica a cerca de 10 km (6 milhas) do Castelo de Windsor. O enunciado não nomeia o local e exige reconhecer a figura. Os distratores são castelos que não ficam perto dali.",
+      "reescrita": null
+    }
+  ]
+}
