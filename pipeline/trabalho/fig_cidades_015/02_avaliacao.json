@@ -1,0 +1,233 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea clara das três quedas, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Estas cataratas são formadas por um rio que liga o lago Erie a qual outro lago?",
+      "resposta": "Lago Ontário",
+      "distratores": [
+        "Lago Huron",
+        "Lago Michigan",
+        "Lago Superior"
+      ],
+      "ancora": {
+        "nome": "Cataratas do Niágara",
+        "descricao": "Conjunto de três quedas-d'água do rio Niágara, na fronteira entre o Canadá e os Estados Unidos.",
+        "variantes": [
+          "Niagara Falls",
+          "Cataratas do Niagara"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Supertrees bem visíveis, sem texto, reconhecíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que parque urbano é este?",
+      "resposta": "Gardens by the Bay",
+      "distratores": [
+        "Jardim Botânico de Singapura",
+        "Projeto Eden",
+        "Parque Marina Barrage"
+      ],
+      "ancora": {
+        "nome": "Gardens by the Bay",
+        "descricao": "Parque urbano de Singapura famoso por suas estruturas em forma de árvores gigantes, os Supertrees.",
+        "variantes": [
+          "Jardins da Baía",
+          "Jardins da Baía de Singapura"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Vista característica da cidade medieval (Plönlein), sem texto que entregue a resposta.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta cidade medieval alemã faz parte de qual famosa rota turística?",
+      "resposta": "Estrada Romântica",
+      "distratores": [
+        "Rota Alpina Alemã",
+        "Rota dos Contos de Fadas",
+        "Rota da Floresta Negra"
+      ],
+      "ancora": {
+        "nome": "Rothenburg ob der Tauber",
+        "descricao": "Cidade medieval murada da Baviera, na Alemanha, conhecida pelo centro histórico bem preservado.",
+        "variantes": [
+          "Rothenburg"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada e cúpula características, sem texto legível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que mercado público brasileiro é este?",
+      "resposta": "Mercado Municipal de São Paulo",
+      "distratores": [
+        "Mercado Ver-o-Peso",
+        "Mercado Modelo",
+        "Mercado Central de Belo Horizonte"
+      ],
+      "ancora": {
+        "nome": "Mercado Municipal de São Paulo",
+        "descricao": "Mercado público do centro histórico de São Paulo, inaugurado em 1933, conhecido como Mercadão.",
+        "variantes": [
+          "Mercadão",
+          "Mercado Municipal Paulistano"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Edifício inconfundível, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta sala de concertos?",
+      "resposta": "Hamburgo",
+      "distratores": [
+        "Berlim",
+        "Copenhague",
+        "Roterdã"
+      ],
+      "ancora": {
+        "nome": "Elbphilharmonie",
+        "descricao": "Sala de concertos de Hamburgo construída sobre um antigo armazém de tijolos às margens do Elba.",
+        "variantes": [
+          "Elphi",
+          "Filarmônica do Elba"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A fachada traz escrito 'THEATRO MUNICIPAL', o que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Há letreiros 'CASA BATLLÓ' legíveis no térreo e pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Basílica de São Pedro e praça, reconhecíveis; só inscrição em latim, que não entrega a resposta.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta basílica?",
+      "resposta": "Vaticano",
+      "distratores": [
+        "San Marino",
+        "Mônaco",
+        "Liechtenstein"
+      ],
+      "ancora": {
+        "nome": "Cidade do Vaticano",
+        "descricao": "Estado soberano encravado em Roma, sede da Igreja Católica, onde fica a Basílica de São Pedro.",
+        "variantes": [
+          "Vaticano",
+          "Estado da Cidade do Vaticano"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista noturna do complexo de Calatrava, inconfundível e sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este complexo cultural fica no antigo leito seco de qual rio?",
+      "resposta": "Rio Turia",
+      "distratores": [
+        "Rio Ebro",
+        "Rio Tejo",
+        "Rio Guadalquivir"
+      ],
+      "ancora": {
+        "nome": "Cidade das Artes e das Ciências",
+        "descricao": "Complexo cultural e arquitetônico de Valência, na Espanha, projetado por Santiago Calatrava e Félix Candela.",
+        "variantes": [
+          "Ciudad de las Artes y las Ciencias",
+          "Ciutat de les Arts i les Ciències"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano e interior pouco reconhecível, que poderia ser de outro café histórico."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Avenida com o Arco do Triunfo ao fundo, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta avenida é o ponto de chegada de qual famosa corrida de ciclismo?",
+      "resposta": "Tour de France",
+      "distratores": [
+        "Giro d'Italia",
+        "Vuelta a España",
+        "Paris-Roubaix"
+      ],
+      "ancora": {
+        "nome": "Champs-Élysées",
+        "descricao": "Avenida do 8º distrito de Paris que liga a Place de la Concorde ao Arco do Triunfo.",
+        "variantes": [
+          "Avenue des Champs-Élysées",
+          "Avenida dos Campos Elíseos"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista aérea de Fernando de Noronha com o Morro do Pico, reconhecível, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arquipélago brasileiro é este?",
+      "resposta": "Fernando de Noronha",
+      "distratores": [
+        "Abrolhos",
+        "Atol das Rocas",
+        "Ilha de Trindade"
+      ],
+      "ancora": {
+        "nome": "Fernando de Noronha",
+        "descricao": "Arquipélago vulcânico de Pernambuco no Atlântico, com o Morro do Pico e a Baía do Sancho.",
+        "variantes": [
+          "Arquipélago de Fernando de Noronha"
+        ]
+      }
+    }
+  ]
+}

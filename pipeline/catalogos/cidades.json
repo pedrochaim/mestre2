@@ -215,7 +215,7 @@
       "titulo": "en:Rothenburg ob der Tauber",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Colmar",
@@ -936,7 +936,7 @@
       "titulo": "pt:Mercado Municipal de São Paulo",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Estação da Luz",
@@ -957,7 +957,7 @@
       "titulo": "en:Theatro Municipal (São Paulo)",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Farol da Barra",
@@ -1076,7 +1076,7 @@
       "titulo": "en:Casa Batlló",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Palácio de Schönbrunn",
@@ -1399,6 +1399,286 @@
       "camada": 3,
       "destino": 0,
       "status": "usada"
+    },
+    {
+      "nome": "Cidade do Vaticano",
+      "titulo": "en:Vatican City",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Exército de Terracota",
+      "titulo": "en:Terracotta Army",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cataratas do Niágara",
+      "titulo": "en:Niagara Falls",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Monte Fuji",
+      "titulo": "en:Mount Fuji",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Grand Canyon",
+      "titulo": "en:Grand Canyon",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lençóis Maranhenses",
+      "titulo": "en:Lençóis Maranhenses National Park",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pantanal",
+      "titulo": "en:Pantanal",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio do Morumbi",
+      "titulo": "pt:Estádio do Morumbi",
+      "camada": 1,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Allianz Parque",
+      "titulo": "en:Allianz Parque",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fórum Romano",
+      "titulo": "en:Roman Forum",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Abadia de Westminster",
+      "titulo": "en:Westminster Abbey",
+      "camada": 1,
+      "destino": 0,
+      "status": "saturada"
+    },
+    {
+      "nome": "Champs-Élysées",
+      "titulo": "en:Champs-Élysées",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Calçada da Fama de Hollywood",
+      "titulo": "en:Hollywood Walk of Fame",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Taipei 101",
+      "titulo": "en:Taipei 101",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Abu Simbel",
+      "titulo": "en:Abu Simbel",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Borobudur",
+      "titulo": "en:Borobudur",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Aqueduto de Segóvia",
+      "titulo": "en:Aqueduct of Segovia",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mônaco",
+      "titulo": "en:Monaco",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Salzburgo",
+      "titulo": "en:Salzburg",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Castelo de Windsor",
+      "titulo": "en:Windsor Castle",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cidade das Artes e das Ciências",
+      "titulo": "en:City of Arts and Sciences",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Gardens by the Bay",
+      "titulo": "en:Gardens by the Bay",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Estádio do Pacaembu",
+      "titulo": "pt:Estádio do Pacaembu",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha Grande",
+      "titulo": "en:Ilha Grande",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Baía do Sancho",
+      "titulo": "pt:Baía do Sancho",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Meteora",
+      "titulo": "en:Meteora",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hallgrímskirkja",
+      "titulo": "en:Hallgrímskirkja",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bryggen",
+      "titulo": "en:Bryggen",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Elbphilharmonie",
+      "titulo": "en:Elbphilharmonie",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Templo de Lótus",
+      "titulo": "en:Lotus Temple",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Grande Mesquita de Djenné",
+      "titulo": "en:Great Mosque of Djenné",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Carcassonne",
+      "titulo": "en:Carcassonne",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "30 St Mary Axe (The Gherkin)",
+      "titulo": "en:30 St Mary Axe",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sensō-ji",
+      "titulo": "en:Sensō-ji",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Kiyomizu-dera",
+      "titulo": "en:Kiyomizu-dera",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Galeria Vittorio Emanuele II",
+      "titulo": "en:Galleria Vittorio Emanuele II",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alberobello",
+      "titulo": "en:Alberobello",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Santuário Dom Bosco",
+      "titulo": "pt:Santuário Dom Bosco",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Confeitaria Colombo",
+      "titulo": "en:Confeitaria Colombo",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mercado Público de Porto Alegre",
+      "titulo": "pt:Mercado Público de Porto Alegre",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
     }
   ]
 }

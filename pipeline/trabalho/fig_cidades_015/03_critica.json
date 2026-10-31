@@ -1,0 +1,91 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o rio Niágara liga o Erie ao Ontário. Sem a figura não se sabe de que cataratas se fala, e os distratores são lagos que não servem.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É reconhecimento direto, sem vazamento. Os distratores são parques críveis e têm no máximo 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está nos trechos. O trecho em português usa 'Rota Romântica', e os distratores são todos 'Rota', então 'Estrada Romântica' se destaca pela forma. Uniformizei a resposta.",
+      "reescrita": {
+        "pergunta": "Esta cidade medieval alemã faz parte de qual famosa rota turística?",
+        "resposta": "Rota Romântica",
+        "distratores": [
+          "Rota Alpina Alemã",
+          "Rota dos Contos de Fadas",
+          "Rota da Floresta Negra"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de nível 1 sem vazamento. Os distratores são mercados brasileiros críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que fica em Hamburgo. O enunciado não entrega nada, e os distratores são cidades de porte parecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Esta basílica' pode ser falso para a foto: a entidade mostrada é a Cidade do Vaticano, que pode aparecer em vista geral. O enunciado passa a perguntar pelo que a figura mostra, sem nomear.",
+      "reescrita": {
+        "pergunta": "Que país europeu é este?",
+        "resposta": "Vaticano",
+        "distratores": [
+          "San Marino",
+          "Mônaco",
+          "Liechtenstein"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o antigo leito do rio Turia em Valência. O enunciado não nomeia o complexo, e os distratores são rios espanhóis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Reprova no teste da imagem coberta: 'avenida onde termina uma corrida de ciclismo' leva ao Tour de France sem olhar a figura. Além disso, o verbo no presente é frágil, pois o trecho diz que a chegada foi ali de 1975 a 2023. Troquei por um fato do trecho que exige reconhecer a figura.",
+      "reescrita": {
+        "pergunta": "Esta avenida de Paris tem, na sua ponta oeste, qual monumento?",
+        "resposta": "Arco do Triunfo",
+        "distratores": [
+          "Torre Eiffel",
+          "Sacré-Cœur",
+          "Ópera Garnier"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É reconhecimento de nível 2 com distratores do mesmo tipo (arquipélagos e ilhas oceânicas brasileiras). Nenhum deles descreve a figura.",
+      "reescrita": null
+    }
+  ]
+}

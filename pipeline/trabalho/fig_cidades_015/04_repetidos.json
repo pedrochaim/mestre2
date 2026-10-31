@@ -1,0 +1,127 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Estas cataratas são formadas por um rio que liga o lago Erie a qual outro lago?",
+        "resposta": "Lago Ontário"
+      },
+      "existentes": [
+        {
+          "id": "q03873",
+          "pergunta": "Que dois países dividem estas cataratas?",
+          "resposta": "Estados Unidos e Canadá"
+        },
+        {
+          "id": "q06711",
+          "pergunta": "Em 1901, quem foi a primeira pessoa a despencar das Cataratas do Niágara dentro de um barril e sobreviver?",
+          "resposta": "Annie Edson Taylor"
+        },
+        {
+          "id": "q07176",
+          "pergunta": "Das três quedas que formam as Cataratas do Niágara, qual é a maior, situada quase toda do lado canadense?",
+          "resposta": "Queda da Ferradura (Horseshoe Falls)"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que mercado público brasileiro é este?",
+        "resposta": "Mercado Municipal de São Paulo"
+      },
+      "existentes": [
+        {
+          "id": "q14513",
+          "pergunta": "Em que cidade brasileira fica este mercado?",
+          "resposta": "São Paulo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade fica esta sala de concertos?",
+        "resposta": "Hamburgo"
+      },
+      "existentes": [
+        {
+          "id": "q15782",
+          "pergunta": "Esta sala de concertos foi erguida sobre que tipo de construção antiga?",
+          "resposta": "Um armazém"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que país europeu é este?",
+        "resposta": "Vaticano"
+      },
+      "existentes": [
+        {
+          "id": "q04028",
+          "pergunta": "Em 1929, que acordo entre a Itália e a Santa Sé criou o Estado da Cidade do Vaticano?",
+          "resposta": "Tratado de Latrão"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que arquipélago brasileiro é este?",
+        "resposta": "Fernando de Noronha"
+      },
+      "existentes": [
+        {
+          "id": "q02190",
+          "pergunta": "O arquipélago de Fernando de Noronha leva o nome de um comerciante de Lisboa que, no início do século dezesseis, arrendou da Coroa o comércio de qual madeira?",
+          "resposta": "Pau-brasil"
+        },
+        {
+          "id": "q02426",
+          "pergunta": "O arquipélago de Fernando de Noronha fica mais perto de Natal, mas pertence a qual estado brasileiro?",
+          "resposta": "Pernambuco"
+        },
+        {
+          "id": "q02427",
+          "pergunta": "Quantas ilhas, ilhotas e rochedos formam o arquipélago de Fernando de Noronha?",
+          "resposta": "Vinte e uma"
+        },
+        {
+          "id": "q16317",
+          "pergunta": "Que arquipélago brasileiro aparece nesta foto?",
+          "resposta": "Fernando de Noronha"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Rio que liga Erie a Ontário é fato diferente de países, barril ou maior queda."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o mercado (nome) é diferente de dizer em que cidade fica, embora a resposta da nova contenha a cidade; porém saber a cidade não permite responder o nome."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cidade e tipo de construção original são fatos diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar o país não é o mesmo que o tratado de 1929."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "id_existente": "q16317",
+      "motivo": "Mesma pergunta de identificar o arquipélago na imagem, mesma resposta."
+    }
+  ]
+}
