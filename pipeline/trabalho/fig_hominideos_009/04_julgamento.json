@@ -1,0 +1,253 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cérebro humano",
+        "descricao": "Órgão central do sistema nervoso humano, dentro do crânio.",
+        "variantes": [
+          "Encéfalo humano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cerebro_humano",
+          "nome": "Cérebro humano",
+          "descricao": "Órgão central do sistema nervoso, dentro do crânio, formado por cérebro, tronco encefálico e cerebelo.",
+          "variantes": [
+            "Encéfalo"
+          ]
+        },
+        {
+          "id": "homo_sapiens",
+          "nome": "Homo sapiens",
+          "descricao": "Espécie humana moderna, a única do gênero Homo ainda viva.",
+          "variantes": [
+            "Ser humano",
+            "Humano moderno",
+            "Human",
+            "Ser humano moderno"
+          ]
+        },
+        {
+          "id": "dente_humano",
+          "nome": "Dente humano",
+          "descricao": "Estrutura dura da boca humana, formada por esmalte, dentina e polpa, usada para cortar e mastigar.",
+          "variantes": [
+            "Dente"
+          ]
+        },
+        {
+          "id": "coracao_humano",
+          "nome": "Coração humano",
+          "descricao": "Órgão muscular do tórax que bombeia o sangue por todo o corpo.",
+          "variantes": [
+            "Coração"
+          ]
+        },
+        {
+          "id": "esqueleto_humano",
+          "nome": "Esqueleto humano",
+          "descricao": "Conjunto de ossos que sustenta e protege o corpo humano.",
+          "variantes": [
+            "Human skeleton"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Polegar",
+        "descricao": "Primeiro dedo da mão, ao lado do indicador, oponível aos demais.",
+        "variantes": [
+          "Dedão da mão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "polegar",
+          "nome": "Polegar",
+          "descricao": "Primeiro dedo da mão, o mais afastado quando a palma está voltada para a frente.",
+          "variantes": [
+            "Pólex",
+            "Dedo polegar"
+          ]
+        },
+        {
+          "id": "dedo",
+          "nome": "Dedo",
+          "descricao": "Dedos da mão humana, mostrados em vista dorsal e palmar com numeração de um a cinco.",
+          "variantes": [
+            "Dedos da mão"
+          ]
+        },
+        {
+          "id": "pokegear",
+          "nome": "Pokégear",
+          "descricao": "Aparelho multifuncional do jogador em Pokémon Gold, Silver e Crystal e nos remakes HeartGold e SoulSilver.",
+          "variantes": [
+            "Poké Gear"
+          ]
+        },
+        {
+          "id": "polegada",
+          "nome": "Polegada",
+          "descricao": "Unidade de comprimento do sistema imperial, usada no Brasil para medir telas, canos e aros de roda.",
+          "variantes": [
+            "Inch"
+          ]
+        },
+        {
+          "id": "pole_position",
+          "nome": "Pole position",
+          "descricao": "Primeira posição no grid de largada de uma corrida, conquistada em geral pelo mais rápido no treino classificatório.",
+          "variantes": [
+            "Pole"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Reflexo de preensão palmar",
+        "descricao": "Reflexo involuntário de bebês de fechar os dedos ao tocar a palma da mão.",
+        "variantes": [
+          "Reflexo de agarrar",
+          "Grasp reflex"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rolo_de_macarrao",
+          "nome": "Rolo de macarrão",
+          "descricao": "Utensílio cilíndrico de madeira, com cabos nas pontas, usado para abrir massas.",
+          "variantes": [
+            "Rolo de massa"
+          ]
+        },
+        {
+          "id": "admiral_graf_spee",
+          "nome": "Admiral Graf Spee",
+          "descricao": "Navio de guerra alemão da classe Deutschland, afundado pela própria tripulação no Rio da Prata em dezembro de 1939.",
+          "variantes": [
+            "Graf Spee",
+            "Encouraçado de bolso Graf Spee"
+          ]
+        },
+        {
+          "id": "lei_da_pureza_da_cerveja",
+          "nome": "Lei da Pureza da Cerveja",
+          "descricao": "Regulamento da Baviera que limitava os ingredientes permitidos na fabricação de cerveja",
+          "variantes": [
+            "Reinheitsgebot",
+            "Lei de Pureza Alemã"
+          ]
+        },
+        {
+          "id": "galar",
+          "nome": "Galar",
+          "descricao": "Região fictícia dos jogos Pokémon Sword e Shield, da oitava geração, inspirada na Grã-Bretanha.",
+          "variantes": [
+            "Região de Galar"
+          ]
+        },
+        {
+          "id": "clepsidra",
+          "nome": "Clepsidra",
+          "descricao": "Relógio de água usado na Grécia Antiga, entre outras funções, para marcar o tempo dos discursos nos tribunais de Atenas.",
+          "variantes": [
+            "Relógio de água",
+            "Clepsydra",
+            "Water clock"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Hoolock",
+        "descricao": "Gênero de gibões (Hoolock) do leste de Bangladesh, nordeste da Índia, Mianmar e sudoeste da China.",
+        "variantes": [
+          "Hulock",
+          "Gibão-hoolock",
+          "Hoolock gibbon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hulk",
+          "nome": "Hulk",
+          "descricao": "Monstro da Marvel, alter ego do cientista Bruce Banner, criado por Stan Lee e Jack Kirby em 1962",
+          "variantes": [
+            "Incrível Hulk",
+            "Bruce Banner"
+          ]
+        },
+        {
+          "id": "hulk_2",
+          "nome": "Hulk",
+          "descricao": "Givanildo Vieira de Sousa, atacante brasileiro de futebol conhecido como Hulk, ex-Porto, Zenit e Atlético Mineiro.",
+          "variantes": [
+            "Givanildo Vieira de Sousa"
+          ]
+        },
+        {
+          "id": "cicuta",
+          "nome": "Cicuta",
+          "descricao": "Planta venenosa Conium maculatum, da família da cenoura",
+          "variantes": [
+            "Conium maculatum",
+            "hemlock",
+            "cicuta-maior"
+          ]
+        },
+        {
+          "id": "charles_barkley",
+          "nome": "Charles Barkley",
+          "descricao": "Ex-ala-pivô americano de basquete, MVP da NBA em 1993 e hoje comentarista de TV.",
+          "variantes": [
+            "Sir Charles",
+            "Chuck"
+          ]
+        },
+        {
+          "id": "charlie_brown",
+          "nome": "Charlie Brown",
+          "descricao": "Protagonista da tira de quadrinhos Peanuts, menino de camiseta amarela com zigue-zague preto.",
+          "variantes": [
+            "Charles Brown",
+            "Chuck",
+            "Carlinhos"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "cerebro_humano",
+      "motivo": "Mesmo órgão, descrição e variantes equivalentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "polegar",
+      "motivo": "Mesmo dedo da mão, o polegar."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o reflexo de preensão palmar."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Gênero de gibões; nenhuma candidata corresponde."
+    }
+  ]
+}

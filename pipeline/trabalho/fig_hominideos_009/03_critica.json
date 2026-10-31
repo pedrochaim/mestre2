@@ -1,0 +1,62 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, enunciado sem pista, distratores do mesmo tipo e claramente errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento limpa. Os distratores são outros dedos da mão e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Criança neandertal' mais 'Ásia Central' quase identifica o achado de Teshik-Tash, então dá para responder sem a figura. Um crânio também não permite reconhecer o país. Conserto incerto, então descarte.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Homo erectus' mais 'Indonésia' e 1936 apontam para Java sem olhar a figura, pois é a ilha clássica dos fósseis de erectus. A figura vira enfeite e o conserto é incerto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Presente também em outros primatas' é pista que reduz a figura a enfeite. Além disso, o reflexo de Moro também ocorre em outros primatas, então o distrator seria defensável. Basta tirar a pista.",
+      "reescrita": {
+        "pergunta": "Que nome tem este reflexo involuntário de recém-nascidos?",
+        "resposta": "Preensão palmar",
+        "distratores": [
+          "Moro",
+          "Sucção",
+          "Babinski"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Gibão' também seria resposta defensável, pois a resposta 'Hoolock' é um gênero. Siamango e orangotango também têm braços muito longos. O enunciado passa a pedir o gênero entre gêneros de gibões.",
+      "reescrita": {
+        "pergunta": "Que gênero de gibões asiáticos é este?",
+        "resposta": "Hoolock",
+        "distratores": [
+          "Hylobates",
+          "Nomascus",
+          "Symphalangus"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que órgão do corpo humano é este?",
+        "resposta": "Cérebro"
+      },
+      "existentes": [
+        {
+          "id": "q01861",
+          "pergunta": "Que órgão é este?",
+          "resposta": "Cérebro"
+        },
+        {
+          "id": "q11855",
+          "pergunta": "Que grande feixe de fibras nervosas liga o hemisfério esquerdo ao hemisfério direito do cérebro?",
+          "resposta": "Corpo caloso"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que dedo da mão é este?",
+        "resposta": "Polegar"
+      },
+      "existentes": [
+        {
+          "id": "q15320",
+          "pergunta": "Este dedo da mão corresponde a qual dedo do pé?",
+          "resposta": "Hálux (dedão do pé)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q01861",
+      "motivo": "Ambas mostram a imagem e perguntam qual é o órgão; resposta Cérebro."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome do dedo (polegar); a existente pede o correspondente no pé (hálux). Fatos diferentes."
+    }
+  ]
+}

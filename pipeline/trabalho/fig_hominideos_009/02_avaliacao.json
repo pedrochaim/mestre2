@@ -1,0 +1,175 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de cérebro humano, sem texto; reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que órgão do corpo humano é este?",
+      "resposta": "Cérebro",
+      "distratores": [
+        "Fígado",
+        "Pulmão",
+        "Rim"
+      ],
+      "ancora": {
+        "nome": "Cérebro humano",
+        "descricao": "Órgão central do sistema nervoso humano, dentro do crânio.",
+        "variantes": [
+          "Encéfalo humano"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Close do polegar, claro e sem texto; pergunta simples porém válida.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que dedo da mão é este?",
+      "resposta": "Polegar",
+      "distratores": [
+        "Indicador",
+        "Médio",
+        "Mindinho"
+      ],
+      "ancora": {
+        "nome": "Polegar",
+        "descricao": "Primeiro dedo da mão, ao lado do indicador, oponível aos demais.",
+        "variantes": [
+          "Dedão da mão"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Crânio de museu, sem texto; a pergunta de lugar é respondível por múltipla escolha para aficionados.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este crânio de criança neandertal foi encontrado numa caverna de que país da Ásia Central?",
+      "resposta": "Uzbequistão",
+      "distratores": [
+        "Cazaquistão",
+        "Tajiquistão",
+        "Quirguistão"
+      ],
+      "ancora": {
+        "nome": "Teshik-Tash 1",
+        "descricao": "Esqueleto de criança neandertal achado em 1938 na caverna de Teshik-Tash, no Uzbequistão.",
+        "variantes": [
+          "Criança de Teshik-Tash"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto confusa: arcos e aljavas misturados a tambores e janela; o assunto não fica claro."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto desfocada de um gorila genérico; não dá para reconhecer o Ivan, e a resposta sobre ele não é única diante da imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Calota craniana em exposição, sem texto; pergunta de lugar com múltipla escolha.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta calota craniana de uma criança Homo erectus foi achada em 1936 em que ilha da Indonésia?",
+      "resposta": "Java",
+      "distratores": [
+        "Sumatra",
+        "Bornéu",
+        "Celebes"
+      ],
+      "ancora": {
+        "nome": "Criança de Mojokerto",
+        "descricao": "Calota craniana fossilizada de um Homo erectus juvenil, achada em 1936 perto de Mojokerto, em Java.",
+        "variantes": [
+          "Mojokerto 1",
+          "Perning 1"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Mão de bebê agarrando o dedo de um adulto, sem rostos nem texto; ilustra o reflexo.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que nome tem este reflexo de recém-nascido, presente também em outros primatas?",
+      "resposta": "Preensão palmar",
+      "distratores": [
+        "Moro",
+        "Sucção",
+        "Babinski"
+      ],
+      "ancora": {
+        "nome": "Reflexo de preensão palmar",
+        "descricao": "Reflexo involuntário de bebês de fechar os dedos ao tocar a palma da mão.",
+        "variantes": [
+          "Reflexo de agarrar",
+          "Grasp reflex"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida de um gibão pendurado; reconhecível como hoolock, com distratores de outros gêneros.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que primata asiático de braços muito longos é este?",
+      "resposta": "Hoolock",
+      "distratores": [
+        "Siamango",
+        "Orangotango",
+        "Langur"
+      ],
+      "ancora": {
+        "nome": "Hoolock",
+        "descricao": "Gênero de gibões (Hoolock) do leste de Bangladesh, nordeste da Índia, Mianmar e sudoeste da China.",
+        "variantes": [
+          "Gibão-hoolock",
+          "Hoolock gibbon"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto de rochas num gramado (memorial); nada reconhecível e sem relação clara com o crânio."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O busto traz a placa com o nome ALFRED, que entrega a resposta; foto escura."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Panorama de floresta e vale, sem nada que permita reconhecer a caverna; resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Diagrama anatômico com legendas em texto (plantar, flexor etc.) e sem relação clara com o pé como entidade reconhecível."
+    }
+  ]
+}
