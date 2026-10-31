@@ -1,0 +1,268 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Willian com a camisa do Brasil; reconhecível pelo cabelo e sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que jogador da seleção brasileira é este?",
+      "resposta": "Willian",
+      "distratores": [
+        "Oscar",
+        "Douglas Costa",
+        "Philippe Coutinho"
+      ],
+      "ancora": {
+        "nome": "Willian",
+        "descricao": "Willian Borges da Silva, futebolista brasileiro nascido em 1988, ponta do Corinthians, Chelsea e seleção brasileira.",
+        "variantes": [
+          "Willian Borges da Silva"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto de Petrović com a camisa dos Nets; o texto mostra só o time, não o nome. A pergunta não usa o time como pista.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Por qual clube este armador foi bicampeão da Euroliga em 1985 e 1986?",
+      "resposta": "Cibona",
+      "distratores": [
+        "Real Madrid",
+        "Partizan Belgrado",
+        "Jugoplastika Split"
+      ],
+      "ancora": {
+        "nome": "Dražen Petrović",
+        "descricao": "Basquetebolista croata e iugoslavo, armador, estrela da Cibona, do Real Madrid e do New Jersey Nets, morto em 1993.",
+        "variantes": [
+          "Drazen Petrovic"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Maicon com a camisa da Inter; sem nome visível. A pergunta usa um clube diferente do da camisa.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Para qual clube inglês este lateral brasileiro se transferiu em 2012?",
+      "resposta": "Manchester City",
+      "distratores": [
+        "Chelsea",
+        "Liverpool",
+        "Arsenal"
+      ],
+      "ancora": {
+        "nome": "Maicon",
+        "descricao": "Maicon Douglas Sisenando, lateral-direito brasileiro nascido em 1981, campeão europeu pela Inter de Milão em 2010.",
+        "variantes": [
+          "Maicon Douglas",
+          "Maicon Douglas Sisenando"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Del Potro erguendo um troféu, rosto bem visível e sem texto que entregue o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Qual torneio de Grand Slam este tenista argentino venceu em 2009?",
+      "resposta": "US Open",
+      "distratores": [
+        "Wimbledon",
+        "Roland Garros",
+        "Aberto da Austrália"
+      ],
+      "ancora": {
+        "nome": "Juan Martín del Potro",
+        "descricao": "Tenista argentino, campeão do US Open de 2009 e da Copa Davis de 2016.",
+        "variantes": [
+          "Del Potro",
+          "Delpo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Uchimura. A marca Konami na jaqueta é patrocinador e não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 5,
+      "pergunta": "Que ginasta japonês, campeão olímpico, é este?",
+      "resposta": "Kohei Uchimura",
+      "distratores": [
+        "Kenzo Shirai",
+        "Hisashi Mizutori",
+        "Ryohei Kato"
+      ],
+      "ancora": {
+        "nome": "Kohei Uchimura",
+        "descricao": "Ginasta artístico japonês, tricampeão olímpico, vencedor do individual geral em Londres 2012.",
+        "variantes": [
+          "Kōhei Uchimura"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato de Valderrama, reconhecível pelo cabelo; o texto na camiseta é de outro artista e não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que seleção este meio-campista defendeu nas Copas do Mundo de 1990, 1994 e 1998?",
+      "resposta": "Colômbia",
+      "distratores": [
+        "Peru",
+        "Equador",
+        "Uruguai"
+      ],
+      "ancora": {
+        "nome": "Carlos Valderrama",
+        "descricao": "Meio-campista colombiano conhecido como El Pibe, craque da seleção da Colômbia nos anos 1990.",
+        "variantes": [
+          "El Pibe",
+          "Pibe Valderrama"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Guerrero com a camisa do Corinthians e uma bola de bronze; rosto nítido e sem nome visível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que competição este atacante peruano marcou o gol do título do Corinthians em 2012?",
+      "resposta": "Mundial de Clubes",
+      "distratores": [
+        "Copa Libertadores",
+        "Copa do Brasil",
+        "Recopa Sul-Americana"
+      ],
+      "ancora": {
+        "nome": "Paolo Guerrero",
+        "descricao": "Atacante peruano nascido em 1984, autor do gol do título do Corinthians no Mundial de Clubes de 2012.",
+        "variantes": [
+          "José Paolo Guerrero",
+          "Guerrero"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Jéssica Andrade; o UFC aparece só parcialmente ao fundo e não entrega o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 6,
+      "pergunta": "Em que categoria de peso esta lutadora brasileira foi campeã do UFC?",
+      "resposta": "Peso-palha",
+      "distratores": [
+        "Peso-mosca",
+        "Peso-galo",
+        "Peso-pena"
+      ],
+      "ancora": {
+        "nome": "Jéssica Andrade",
+        "descricao": "Lutadora brasileira de MMA, ex-campeã peso-palha feminino do UFC.",
+        "variantes": [
+          "Jessica Andrade",
+          "Bate-Estaca"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato do Undertaker, de gorro e jaqueta. Não há ficha com nome; o reconhecimento é plausível pelo rosto, mas moderado.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 6,
+      "pergunta": "Que lutador de luta livre profissional é este?",
+      "resposta": "The Undertaker",
+      "distratores": [
+        "Kane",
+        "Mick Foley",
+        "Big Show"
+      ],
+      "ancora": {
+        "nome": "The Undertaker",
+        "descricao": "Nome artístico do lutador americano Mark Calaway, astro da WWE.",
+        "variantes": [
+          "Undertaker",
+          "Mark Calaway"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Platini, sem texto que entregue o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Por qual clube italiano este craque francês ganhou três Bolas de Ouro seguidas?",
+      "resposta": "Juventus",
+      "distratores": [
+        "Milan",
+        "Inter de Milão",
+        "Napoli"
+      ],
+      "ancora": {
+        "nome": "Michel Platini",
+        "descricao": "Ex-meia francês, tricampeão seguido da Bola de Ouro (1983 a 1985) pela Juventus e ex-presidente da UEFA.",
+        "variantes": [
+          "Platini"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Não dá para reconhecer a modalidade nem o atleta pela imagem. É só um retrato com camisa de patrocinador e sem pista visual do esporte; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Pedro Scooby, figura pública. O texto ao fundo (prêmio de música) é parcial e não entrega o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Que esporte pratica este brasileiro?",
+      "resposta": "Surfe",
+      "distratores": [
+        "Skate",
+        "Windsurfe",
+        "Kitesurfe"
+      ],
+      "ancora": {
+        "nome": "Pedro Scooby",
+        "descricao": "Surfista luso-brasileiro nascido no Rio de Janeiro em 1988, adepto do freesurf e de ondas grandes.",
+        "variantes": [
+          "Pedro Henrique Mota Vianna"
+        ]
+      }
+    }
+  ]
+}

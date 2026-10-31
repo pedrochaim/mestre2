@@ -1,0 +1,105 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; o enunciado só dá o grupo (seleção brasileira), sem entregar o nome. Distratores são jogadores brasileiros de perfil parecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato está certo, mas o enunciado (bicampeão da Euroliga em 1985 e 1986) entrega o clube sem a figura. Ele também chama de armador quem as fontes descrevem como shooting guard. Não há pista alternativa segura: clubes anteriores e times da NBA são ambíguos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a transferência para o Manchester City em agosto de 2012. O enunciado só dá nacionalidade, posição e ano, então é preciso reconhecer o jogador.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Um argentino campeão de Grand Slam em 2009 só pode ser Del Potro, então o enunciado entrega o tenista e responde sem a figura. Reescrita para reconhecimento puro.",
+      "reescrita": {
+        "pergunta": "Que tenista argentino é este?",
+        "resposta": "Juan Martín del Potro",
+        "distratores": [
+          "David Nalbandian",
+          "Guillermo Coria",
+          "Gastón Gaudio"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento. Uchimura é campeão olímpico, como diz o enunciado. A figura é que decide a resposta, e os distratores são ginastas japoneses plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que ele disputou e capitaneou a Colômbia nas Copas de 1990, 1994 e 1998. O enunciado não nomeia o jogador e exige reconhecê-lo.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado permite responder sem a figura (gol do título do Corinthians em 2012). Também é ambíguo, porque o Corinthians foi campeão da Libertadores no mesmo ano. Reescrita para reconhecimento, sem pista que entregue.",
+      "reescrita": {
+        "pergunta": "Que atacante peruano é este?",
+        "resposta": "Paolo Guerrero",
+        "distratores": [
+          "Claudio Pizarro",
+          "Jefferson Farfán",
+          "Raúl Ruidíaz"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Andrade é ex-campeã peso-palha do UFC, segundo os trechos. O enunciado não a nomeia, e os distratores são categorias reais em que ela não foi campeã.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de um lutador de luta livre profissional, sem vazamento. Os distratores são lutadores da WWE de perfil parecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Um francês com três Bolas de Ouro seguidas é só Platini, então o enunciado entrega o jogador sem a figura. Reescrita para reconhecimento, usando só a época como pista.",
+      "reescrita": {
+        "pergunta": "Que craque francês dos anos oitenta é este?",
+        "resposta": "Michel Platini",
+        "distratores": [
+          "Jean-Pierre Papin",
+          "Alain Giresse",
+          "Jean Tigana"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que ele é surfista. O enunciado só diz brasileiro, então é preciso reconhecê-lo, e os distratores são esportes afins que não são o dele.",
+      "reescrita": null
+    }
+  ]
+}
