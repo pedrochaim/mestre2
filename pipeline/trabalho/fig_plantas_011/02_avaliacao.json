@@ -1,0 +1,272 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fruto vermelho com folhas e flor, claro e reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Acerola",
+      "distratores": [
+        "Pitanga",
+        "Cereja",
+        "Groselha"
+      ],
+      "ancora": {
+        "nome": "Acerola",
+        "descricao": "Fruto da Malpighia emarginata, arbusto tropical rico em vitamina C.",
+        "variantes": [
+          "Cereja-das-antilhas",
+          "Malpighia emarginata"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Flores rosadas típicas de azaleia, nítidas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que flor é esta?",
+      "resposta": "Azaleia",
+      "distratores": [
+        "Camélia",
+        "Begônia",
+        "Hibisco"
+      ],
+      "ancora": {
+        "nome": "Azaleia",
+        "descricao": "Arbusto ornamental do gênero Rhododendron, de flores primaveris.",
+        "variantes": [
+          "Azálea",
+          "Rhododendron"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Folhas em leque inconfundíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que planta de folhas dispostas em leque é esta?",
+      "resposta": "Árvore-do-viajante",
+      "distratores": [
+        "Bananeira",
+        "Ave-do-paraíso",
+        "Papiro"
+      ],
+      "ancora": {
+        "nome": "Árvore-do-viajante",
+        "descricao": "Ravenala madagascariensis, planta de Madagascar com folhas em leque.",
+        "variantes": [
+          "Ravenala",
+          "Palmeira-do-viajante"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Figos e folhas lobadas características.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Figo",
+      "distratores": [
+        "Goiaba",
+        "Caqui",
+        "Pera"
+      ],
+      "ancora": {
+        "nome": "Figo",
+        "descricao": "Fruto da figueira-comum, Ficus carica.",
+        "variantes": [
+          "Figueira",
+          "Ficus carica"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Flor de gérbera nítida, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que flor é esta?",
+      "resposta": "Gérbera",
+      "distratores": [
+        "Dália",
+        "Zínia",
+        "Crisântemo"
+      ],
+      "ancora": {
+        "nome": "Gérbera",
+        "descricao": "Planta ornamental da família Asteraceae, de flores grandes em forma de margarida.",
+        "variantes": [
+          "Gerbera",
+          "Margarida-do-transvaal"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Só a flor, com frutos ainda fechados; pouco reconhecível e poderia ser confundida com outras flores de cinco pétalas."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cogumelos inteiros e cortado, claros; pergunta de nível 3 sobre sósia venenoso, sustentada pelo trecho.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que cogumelo mortal já foi confundido com este?",
+      "resposta": "Amanita phalloides (chapéu-da-morte)",
+      "distratores": [
+        "Shiitake",
+        "Cantarelo",
+        "Trufa-negra"
+      ],
+      "ancora": {
+        "nome": "Champignon",
+        "descricao": "Cogumelo comestível cultivado, Agaricus bisporus, em sua forma branca.",
+        "variantes": [
+          "Cogumelo-de-paris",
+          "Agaricus bisporus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Flor de amor-perfeito nítida.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que flor é esta?",
+      "resposta": "Amor-perfeito",
+      "distratores": [
+        "Petúnia",
+        "Cravina",
+        "Prímula"
+      ],
+      "ancora": {
+        "nome": "Amor-perfeito",
+        "descricao": "Flor ornamental híbrida do gênero Viola, Viola × wittrockiana.",
+        "variantes": [
+          "Pensamento",
+          "Viola × wittrockiana"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cones de lúpulo bem visíveis.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que planta trepadeira produz estes cones?",
+      "resposta": "Lúpulo",
+      "distratores": [
+        "Cânhamo",
+        "Videira",
+        "Framboeseira"
+      ],
+      "ancora": {
+        "nome": "Lúpulo",
+        "descricao": "Humulus lupulus, trepadeira da família Cannabaceae cujas flores femininas em cone são usadas na cerveja.",
+        "variantes": [
+          "Humulus lupulus"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fruto grande de casca espinhosa preso ao tronco, inconfundível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fruta é esta, presa ao tronco da árvore?",
+      "resposta": "Jaca",
+      "distratores": [
+        "Fruta-pão",
+        "Durião",
+        "Graviola"
+      ],
+      "ancora": {
+        "nome": "Jaca",
+        "descricao": "Fruto da jaqueira, Artocarpus heterophyllus, o maior fruto de árvore.",
+        "variantes": [
+          "Jaqueira",
+          "Artocarpus heterophyllus"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Folhas lobadas de hera trepando em tronco, claras.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que trepadeira é esta?",
+      "resposta": "Hera",
+      "distratores": [
+        "Jiboia",
+        "Parreira-virgem",
+        "Unha-de-gato"
+      ],
+      "ancora": {
+        "nome": "Hera",
+        "descricao": "Hedera helix, trepadeira perene da família Araliaceae.",
+        "variantes": [
+          "Hera-comum",
+          "Hedera helix"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Folhagem colorida típica do cróton, nítida; nível 3 sobre a família botânica.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta planta ornamental pertence à mesma família botânica de qual destas?",
+      "resposta": "Mandioca",
+      "distratores": [
+        "Batata",
+        "Milho",
+        "Feijão"
+      ],
+      "ancora": {
+        "nome": "Cróton",
+        "descricao": "Codiaeum variegatum, arbusto ornamental da família Euphorbiaceae de folhas coloridas.",
+        "variantes": [
+          "Codiaeum variegatum",
+          "Croton"
+        ]
+      }
+    }
+  ]
+}

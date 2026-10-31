@@ -1,0 +1,97 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples, sem vazamento; distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, resposta única, distratores plausíveis e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A ave-do-paraíso (Strelitzia nicolai) também tem folhas em leque e é parente próxima, então o distrator é defensável. Troquei-o por outro crível.",
+      "reescrita": {
+        "pergunta": "Que planta tropical, de folhas dispostas em leque, é esta?",
+        "resposta": "Árvore-do-viajante",
+        "distratores": [
+          "Bananeira",
+          "Helicônia",
+          "Papiro"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista, distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; distratores são flores parecidas e nenhuma é correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está no trecho (Amanita phalloides já foi confundida com A. bisporus). Os distratores (shiitake, cantarelo, trufa) são comestíveis e o enunciado diz 'mortal', então eram eliminados sem esforço. Troquei por cogumelos tóxicos ou mortais sem registro de confusão com o champignon.",
+      "reescrita": {
+        "pergunta": "Que cogumelo extremamente tóxico já foi confundido com este?",
+        "resposta": "Amanita phalloides (chapéu-da-morte)",
+        "distratores": [
+          "Galerina marginata",
+          "Cortinarius orellanus",
+          "Gyromitra esculenta"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, distratores plausíveis e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a planta nem a função na cerveja. Os trechos confirmam que é uma trepadeira com cones; os distratores são incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A jaca nasce presa ao tronco e à base dos galhos, o que é amplamente documentado. A pista não identifica sozinha, porque cacau e jabuticaba também brotam no tronco. Distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de trepadeira, resposta única, distratores plausíveis e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cróton e mandioca são Euphorbiaceae, e o trecho confirma a família do cróton. Batata, milho e feijão pertencem a outras famílias. O enunciado não nomeia a planta, então é preciso reconhecê-la na figura.",
+      "reescrita": null
+    }
+  ]
+}

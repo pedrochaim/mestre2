@@ -1,0 +1,686 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Acerola",
+        "descricao": "Fruto da Malpighia emarginata, arbusto tropical rico em vitamina C.",
+        "variantes": [
+          "Cereja-das-antilhas",
+          "Malpighia emarginata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "acerola",
+          "nome": "Acerola",
+          "descricao": "Fruta pequena e vermelha da Malpighia emarginata, muito cultivada no Nordeste brasileiro.",
+          "variantes": [
+            "Cereja-das-antilhas",
+            "Malpighia emarginata"
+          ]
+        },
+        {
+          "id": "saint_domingue",
+          "nome": "Saint-Domingue",
+          "descricao": "Colônia francesa no oeste da ilha de Hispaniola, de 1697 a 1804, que se tornou o Haiti independente.",
+          "variantes": [
+            "São Domingos francês",
+            "Pérola das Antilhas"
+          ]
+        },
+        {
+          "id": "cebolinha",
+          "nome": "Cebolinha",
+          "descricao": "Menino de cinco fios de cabelo que troca o R pelo L, rival da Mônica na Turma da Mônica.",
+          "variantes": [
+            "Cebola",
+            "Cebolácio Júnior Menezes da Silva"
+          ]
+        },
+        {
+          "id": "perola",
+          "nome": "Pérola",
+          "descricao": "Gema orgânica formada dentro de ostras e outros moluscos.",
+          "variantes": [
+            "Pearl"
+          ]
+        },
+        {
+          "id": "cebola",
+          "nome": "Cebola",
+          "descricao": "Planta Allium cepa, hortaliça de bulbo muito usada na culinária e em aulas de microscopia.",
+          "variantes": [
+            "Allium cepa",
+            "Onion"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Azaleia",
+        "descricao": "Arbusto ornamental do gênero Rhododendron, de flores primaveris.",
+        "variantes": [
+          "Azálea",
+          "Rhododendron"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "azalea",
+          "nome": "Azalea",
+          "descricao": "Cidade da região de Johto, nos jogos Pokémon Gold e Silver, onde fica o ginásio de tipo Inseto e o Poço Slowpoke.",
+          "variantes": [
+            "Azalea Town",
+            "Cidade de Azalea"
+          ]
+        },
+        {
+          "id": "arale_norimaki",
+          "nome": "Arale Norimaki",
+          "descricao": "Menina robô protagonista do mangá Dr. Slump, de Akira Toriyama.",
+          "variantes": [
+            "Arale",
+            "Dr. Slump"
+          ]
+        },
+        {
+          "id": "akala",
+          "nome": "Akala",
+          "descricao": "Segunda ilha da região de Alola, nos jogos Pokémon Sun e Moon, comandada pela kahuna Olivia.",
+          "variantes": [
+            "Ilha Akala",
+            "Akala Island"
+          ]
+        },
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        },
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea",
+            "Lago de Aral"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Árvore-do-viajante",
+        "descricao": "Ravenala madagascariensis, planta de Madagascar com folhas em leque.",
+        "variantes": [
+          "Ravenala",
+          "Palmeira-do-viajante"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "avental",
+          "nome": "Avental",
+          "descricao": "Peça que cobre a frente do corpo sobre a roupa; aqui, um avental tradicional bordado em ponto cruz.",
+          "variantes": [
+            "Apron"
+          ]
+        },
+        {
+          "id": "avela",
+          "nome": "Avelã",
+          "descricao": "Fruto da aveleira (Corylus avellana), fruto seco usado em doces e pastas de chocolate.",
+          "variantes": [
+            "Avelã comum",
+            "Hazelnut"
+          ]
+        },
+        {
+          "id": "caravela",
+          "nome": "Caravela",
+          "descricao": "Embarcação a vela leve usada por portugueses e espanhóis nas Grandes Navegações dos séculos quinze e dezesseis.",
+          "variantes": [
+            "Caravel"
+          ]
+        },
+        {
+          "id": "avenca",
+          "nome": "Avenca",
+          "descricao": "Samambaia do gênero Adiantum, de folhas delicadas que repelem a água.",
+          "variantes": [
+            "Adiantum",
+            "Maidenhair fern"
+          ]
+        },
+        {
+          "id": "arvore_do_tenere",
+          "nome": "Árvore do Ténéré",
+          "descricao": "Acácia solitária no deserto do Ténéré, no Níger, considerada a árvore mais isolada do mundo até 1973",
+          "variantes": [
+            "Arbre du Ténéré",
+            "Tree of Ténéré"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Figo",
+        "descricao": "Fruto da figueira-comum, Ficus carica.",
+        "variantes": [
+          "Figueira",
+          "Ficus carica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "luis_figo",
+          "nome": "Luís Figo",
+          "descricao": "Ex-ponta português, Bola de Ouro de 2000, que jogou no Barcelona e no Real Madrid.",
+          "variantes": [
+            "Figo"
+          ]
+        },
+        {
+          "id": "figo",
+          "nome": "Figo",
+          "descricao": "Fruto da figueira-comum (Ficus carica), nativa da região mediterrânea.",
+          "variantes": [
+            "Figo-comum",
+            "Ficus carica"
+          ]
+        },
+        {
+          "id": "figado",
+          "nome": "Fígado",
+          "descricao": "Órgão do abdome que processa nutrientes, produz bile e filtra substâncias do sangue.",
+          "variantes": [
+            "Liver"
+          ]
+        },
+        {
+          "id": "frigideira",
+          "nome": "Frigideira",
+          "descricao": "Utensílio de cozinha de fundo plano, bordas baixas e cabo longo, usado para fritar e dourar alimentos.",
+          "variantes": [
+            "Frypan",
+            "Skillet"
+          ]
+        },
+        {
+          "id": "figa",
+          "nome": "Figa",
+          "descricao": "Gesto ou amuleto com o polegar entre dois dedos, usado na crença popular contra o mau-olhado.",
+          "variantes": [
+            "Figa de mão",
+            "Gesto da figa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Gérbera",
+        "descricao": "Planta ornamental da família Asteraceae, de flores grandes em forma de margarida.",
+        "variantes": [
+          "Margarida-do-transvaal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gim",
+          "nome": "Gim",
+          "descricao": "Bebida destilada aromatizada com botânicos, base de coquetéis como o gim-tônica",
+          "variantes": [
+            "Gin",
+            "Genebra"
+          ]
+        },
+        {
+          "id": "algebra",
+          "nome": "Álgebra",
+          "descricao": "Ramo da matemática que usa letras e símbolos para representar números e resolver equações.",
+          "variantes": []
+        },
+        {
+          "id": "cerbero",
+          "nome": "Cérbero",
+          "descricao": "Cão monstruoso da mitologia grega que guardava a entrada do mundo dos mortos.",
+          "variantes": [
+            "Cerberus",
+            "Kerberos"
+          ]
+        },
+        {
+          "id": "colobo",
+          "nome": "Colobo",
+          "descricao": "Macaco africano de pelagem preta e branca (gênero Colobus), como o guereza.",
+          "variantes": [
+            "Colobus",
+            "Guereza",
+            "Colobo-preto-e-branco"
+          ]
+        },
+        {
+          "id": "era_aberta",
+          "nome": "Era Aberta",
+          "descricao": "Período do tênis iniciado em 1968, em que profissionais e amadores passaram a competir nos mesmos torneios.",
+          "variantes": [
+            "Open Era"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Champignon",
+        "descricao": "Cogumelo comestível cultivado, Agaricus bisporus, em sua forma branca.",
+        "variantes": [
+          "Cogumelo-de-paris",
+          "Agaricus bisporus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "champignon",
+          "nome": "Champignon",
+          "descricao": "Cogumelo cultivado branco, Agaricus bisporus, o mais consumido no mundo.",
+          "variantes": [
+            "Champignon de Paris",
+            "Agaricus bisporus",
+            "Cogumelo-de-paris"
+          ]
+        },
+        {
+          "id": "metro_de_paris",
+          "nome": "Metrô de Paris",
+          "descricao": "Sistema de metrô da cidade de Paris, inaugurado em 1900.",
+          "variantes": [
+            "Paris Métro"
+          ]
+        },
+        {
+          "id": "acordo_de_paris",
+          "nome": "Acordo de Paris",
+          "descricao": "Tratado internacional sobre mudanças climáticas adotado em dezembro de 2015, na COP21.",
+          "variantes": [
+            "Paris Agreement"
+          ]
+        },
+        {
+          "id": "comuna_de_paris",
+          "nome": "Comuna de Paris",
+          "descricao": "Governo revolucionário popular que controlou Paris em 1871, após a derrota francesa na guerra contra a Prússia, até ser esmagado pelo exército.",
+          "variantes": [
+            "Paris Commune",
+            "La Commune"
+          ]
+        },
+        {
+          "id": "champanhe",
+          "nome": "Champanhe",
+          "descricao": "Vinho espumante produzido na região de Champagne, na França",
+          "variantes": [
+            "Champagne",
+            "Champanha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Amor-perfeito",
+        "descricao": "Flor ornamental híbrida do gênero Viola, Viola × wittrockiana.",
+        "variantes": [
+          "Pensamento",
+          "Viola × wittrockiana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "apertizacao",
+          "nome": "Apertização",
+          "descricao": "Método de conservar alimentos em recipientes hermeticamente fechados e aquecidos, origem da comida enlatada.",
+          "variantes": [
+            "Conserva",
+            "Enlatamento",
+            "Canning"
+          ]
+        },
+        {
+          "id": "encilhamento",
+          "nome": "Encilhamento",
+          "descricao": "Bolha especulativa e crise financeira ocorrida no Brasil nos primeiros anos da República, entre 1889 e 1891.",
+          "variantes": []
+        },
+        {
+          "id": "adestramento",
+          "nome": "Adestramento",
+          "descricao": "Modalidade hípica em que o cavalo executa uma sequência de movimentos predeterminados guiado pelo cavaleiro.",
+          "variantes": [
+            "Dressage"
+          ]
+        },
+        {
+          "id": "desmatamento",
+          "nome": "Desmatamento",
+          "descricao": "Remoção e destruição de uma floresta para converter a terra em uso não florestal, como agricultura.",
+          "variantes": [
+            "Desflorestação",
+            "Derrubada de florestas"
+          ]
+        },
+        {
+          "id": "deslizamento_de_terra",
+          "nome": "Deslizamento de terra",
+          "descricao": "Movimento de massa de solo e rochas encosta abaixo pela ação da gravidade.",
+          "variantes": [
+            "Deslizamento",
+            "Escorregamento",
+            "Landslide"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Lúpulo",
+        "descricao": "Humulus lupulus, trepadeira da família Cannabaceae cujas flores femininas em cone são usadas na cerveja.",
+        "variantes": [
+          "Humulus lupulus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "romulo_augusto",
+          "nome": "Rômulo Augusto",
+          "descricao": "Último imperador romano do Ocidente, deposto por Odoacro em 476.",
+          "variantes": [
+            "Rômulo Augústulo",
+            "Romulus Augustulus"
+          ]
+        },
+        {
+          "id": "limulo",
+          "nome": "Límulo",
+          "descricao": "Artrópode marinho da família Limulidae, conhecido como caranguejo-ferradura, de carapaça em forma de ferradura e sangue azul.",
+          "variantes": [
+            "caranguejo-ferradura",
+            "horseshoe crab",
+            "Limulus polyphemus"
+          ]
+        },
+        {
+          "id": "pulmao",
+          "nome": "Pulmão",
+          "descricao": "Órgão par do sistema respiratório responsável pelas trocas gasosas.",
+          "variantes": [
+            "Pulmões"
+          ]
+        },
+        {
+          "id": "pulgao",
+          "nome": "Pulgão",
+          "descricao": "Pequeno inseto da superfamília Aphidoidea que suga a seiva das plantas.",
+          "variantes": [
+            "Afídeo",
+            "Aphid"
+          ]
+        },
+        {
+          "id": "cumulo",
+          "nome": "Cúmulo",
+          "descricao": "Nuvem baixa de base plana e topo em forma de couve-flor, de aspecto algodoado.",
+          "variantes": [
+            "Cumulus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Jaca",
+        "descricao": "Fruto da jaqueira, Artocarpus heterophyllus, o maior fruto de árvore.",
+        "variantes": [
+          "Jaqueira",
+          "Artocarpus heterophyllus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jaca",
+          "nome": "Jaca",
+          "descricao": "Enorme fruto da Artocarpus heterophyllus, nativa da Índia, que cresce no tronco da árvore.",
+          "variantes": [
+            "Artocarpus heterophyllus"
+          ]
+        },
+        {
+          "id": "arqueias",
+          "nome": "Arqueias",
+          "descricao": "Domínio de microrganismos unicelulares, Archaea, distinto das bactérias e comum em ambientes extremos.",
+          "variantes": [
+            "Archaea",
+            "Arqueobactérias",
+            "Arqueia"
+          ]
+        },
+        {
+          "id": "jacana",
+          "nome": "Jaçanã",
+          "descricao": "Ave pernalta (Jacana jacana) de corpo preto e avermelhado, crista vermelha e bico amarelo, que vive em áreas alagadas da América do Sul.",
+          "variantes": [
+            "Jacana jacana",
+            "Wattled jacana",
+            "Jaçanã-comum"
+          ]
+        },
+        {
+          "id": "jaqueline_carvalho",
+          "nome": "Jaqueline Carvalho",
+          "descricao": "Ex-jogadora brasileira de vôlei, campeã olímpica com a seleção em Pequim 2008 e Londres 2012.",
+          "variantes": [
+            "Jaqueline Maria Pereira de Carvalho",
+            "Jaque"
+          ]
+        },
+        {
+          "id": "jeca_tatu",
+          "nome": "Jeca Tatu",
+          "descricao": "Personagem caipira da literatura brasileira, levado ao cinema por Amácio Mazzaropi.",
+          "variantes": [
+            "Jeca",
+            "Jeca Tatuzinho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Hera",
+        "descricao": "Hedera helix, trepadeira perene da família Araliaceae.",
+        "variantes": [
+          "Hera-comum",
+          "Hedera helix"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hera",
+          "nome": "Hera",
+          "descricao": "Deusa grega do casamento, rainha dos deuses do Olimpo e esposa de Zeus.",
+          "variantes": [
+            "Juno"
+          ]
+        },
+        {
+          "id": "santorini",
+          "nome": "Santorini",
+          "descricao": "Ilha vulcânica grega das Cíclades, no mar Egeu, formada ao redor de uma caldeira.",
+          "variantes": [
+            "Thira",
+            "Thera",
+            "Tera"
+          ]
+        },
+        {
+          "id": "hegira",
+          "nome": "Hégira",
+          "descricao": "Migração de Maomé e seus seguidores de Meca para Medina, em 622",
+          "variantes": [
+            "Hijra",
+            "Hijrah",
+            "Égira"
+          ]
+        },
+        {
+          "id": "pega_rabuda",
+          "nome": "Pega-rabuda",
+          "descricao": "Ave preta e branca de cauda longa da família dos corvídeos, comum na Eurásia (Pica pica).",
+          "variantes": [
+            "Pica pica",
+            "Pega-comum",
+            "Eurasian magpie"
+          ]
+        },
+        {
+          "id": "avela",
+          "nome": "Avelã",
+          "descricao": "Fruto da aveleira (Corylus avellana), fruto seco usado em doces e pastas de chocolate.",
+          "variantes": [
+            "Avelã comum",
+            "Hazelnut"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Cróton",
+        "descricao": "Codiaeum variegatum, arbusto ornamental da família Euphorbiaceae de folhas coloridas.",
+        "variantes": [
+          "Codiaeum variegatum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "proton",
+          "nome": "Próton",
+          "descricao": "Partícula subatômica de carga elétrica positiva presente no núcleo de todos os átomos.",
+          "variantes": [
+            "Protão"
+          ]
+        },
+        {
+          "id": "corto_maltese",
+          "nome": "Corto Maltese",
+          "descricao": "Marinheiro e aventureiro dos quadrinhos europeus, de quepe e casaco azul, criado em 1967.",
+          "variantes": [
+            "Corto"
+          ]
+        },
+        {
+          "id": "vulpix",
+          "nome": "Vulpix",
+          "descricao": "Pokémon raposa de fogo da primeira geração, número 37 da Pokédex Nacional.",
+          "variantes": [
+            "Rokon"
+          ]
+        },
+        {
+          "id": "rotom",
+          "nome": "Rotom",
+          "descricao": "Pokémon dos tipos Elétrico e Fantasma da quarta geração, que entra em aparelhos e muda de forma.",
+          "variantes": []
+        },
+        {
+          "id": "colon_costarriquenho",
+          "nome": "Colón costarriquenho",
+          "descricao": "Moeda oficial da Costa Rica.",
+          "variantes": [
+            "Colón",
+            "Colón da Costa Rica"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "acerola",
+      "motivo": "Mesmo fruto, Malpighia emarginata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Azaleia é planta; Azalea candidata é cidade Pokémon."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Ravenala madagascariensis."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "figo",
+      "motivo": "Mesmo fruto, Ficus carica."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Gérbera planta não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "champignon",
+      "motivo": "Mesmo cogumelo Agaricus bisporus."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a flor amor-perfeito."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Lúpulo planta não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "jaca",
+      "motivo": "Mesmo fruto, Artocarpus heterophyllus."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Hera planta difere da deusa Hera."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o arbusto Codiaeum variegatum."
+    }
+  ]
+}

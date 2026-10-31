@@ -1,0 +1,82 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fruta é esta?",
+        "resposta": "Acerola"
+      },
+      "existentes": [
+        {
+          "id": "q09699",
+          "pergunta": "Qual destas frutas tem, de longe, a maior concentração de vitamina C?",
+          "resposta": "Acerola"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que fruta é esta?",
+        "resposta": "Figo"
+      },
+      "existentes": [
+        {
+          "id": "q15385",
+          "pergunta": "Que fruta é esta, ainda verde, pendurada na árvore?",
+          "resposta": "Figo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que cogumelo extremamente tóxico já foi confundido com este?",
+        "resposta": "Amanita phalloides (chapéu-da-morte)"
+      },
+      "existentes": [
+        {
+          "id": "q14664",
+          "pergunta": "Que cogumelo é este?",
+          "resposta": "Champignon"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que fruta é esta, presa ao tronco da árvore?",
+        "resposta": "Jaca"
+      },
+      "existentes": [
+        {
+          "id": "q02770",
+          "pergunta": "Que fruta é esta?",
+          "resposta": "Jaca"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta qual fruta tem mais vitamina C; a nova pede identificar a fruta por imagem. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar o figo pela imagem; a existente só acrescenta que está verde na árvore."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova trata de um cogumelo tóxico confundido com outro; a existente pede identificar o champignon. Fatos diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar a jaca pela imagem; quem sabe uma sabe a outra."
+    }
+  ]
+}
