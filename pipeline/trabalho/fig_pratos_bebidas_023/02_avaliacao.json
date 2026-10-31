@@ -1,0 +1,231 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Croquetes empanados, imagem clara; nível 2 em múltipla com distratores salgados fritos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que salgado frito e empanado é este?",
+      "resposta": "Croquete",
+      "distratores": [
+        "Coxinha",
+        "Arancini",
+        "Bolinho de bacalhau"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Croquete",
+        "descricao": "Rolinho frito e empanado de massa cremosa com recheio, típico das cozinhas francesa e espanhola.",
+        "variantes": [
+          "Croqueta",
+          "Croquette"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Sopa de missô com tofu e wakame, reconhecível; pergunta sobre a alga.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que alga aparece nesta sopa japonesa?",
+      "resposta": "Wakame",
+      "distratores": [
+        "Nori",
+        "Kombu",
+        "Hijiki"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Missoshiru",
+        "descricao": "Sopa japonesa de missô em caldo dashi, com ingredientes como tofu e wakame.",
+        "variantes": [
+          "Sopa de missô",
+          "Miso soup"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Trifle em taça de vidro, camadas visíveis e reconhecível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "De que país vem esta sobremesa em camadas, servida numa taça de vidro?",
+      "resposta": "Inglaterra",
+      "distratores": [
+        "Itália",
+        "França",
+        "Áustria"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Trifle",
+        "descricao": "Sobremesa inglesa de camadas de bolo, frutas ou gelatina, creme e chantilly, servida em taça de vidro.",
+        "variantes": [
+          "Trifle inglês"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pão de alho com ervas, imagem clara; pergunta sobre a gordura da pasta.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que gordura leva a pasta que cobre estas fatias de pão?",
+      "resposta": "Manteiga",
+      "distratores": [
+        "Banha",
+        "Requeijão",
+        "Maionese"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pão de alho",
+        "descricao": "Pão fatiado coberto com pasta de alho e manteiga, com ervas, assado ou grelhado.",
+        "variantes": [
+          "Garlic bread"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Molho laranja cremoso quase idêntico ao frango na manteiga (butter chicken); sem pedaços claros, resposta não única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Mesa com panela dividida, tigelas com caracteres e garrafa com texto; parece mais hot pot chinês e a imagem mostra vários itens e texto."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Rocambole sobre fundo branco, espiral de recheio visível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que bolo é este, enrolado em espiral com recheio cremoso?",
+      "resposta": "Rocambole",
+      "distratores": [
+        "Pão de ló",
+        "Bolo inglês",
+        "Brownie"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Rocambole",
+        "descricao": "Bolo de massa fina enrolado sobre um recheio doce, formando espiral.",
+        "variantes": [
+          "Swiss roll",
+          "Bolo enrolado"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Calzone aberto, dobra em meia-lua visível; distratores de massas italianas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que prato italiano, uma espécie de pizza dobrada, é este?",
+      "resposta": "Calzone",
+      "distratores": [
+        "Panzerotti",
+        "Stromboli",
+        "Focaccia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Calzone",
+        "descricao": "Pizza italiana dobrada em meia-lua e assada, recheada com presunto e queijo.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Panqueca desfiada com compota ao lado, típica; múltipla com sobremesas austríacas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sobremesa austríaca é esta?",
+      "resposta": "Kaiserschmarrn",
+      "distratores": [
+        "Palatschinke",
+        "Strudel de maçã",
+        "Knödel"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Kaiserschmarrn",
+        "descricao": "Panqueca austríaca fofa e desfiada, polvilhada com açúcar e servida com compota.",
+        "variantes": [
+          "Kaiserschmarren",
+          "Mexido do Imperador"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bolo de três andares com casal de porcelana; pessoas só aparecem ao fundo, sem rosto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que bolo de vários andares, com rosas de marzipã, é este?",
+      "resposta": "Bolo de casamento",
+      "distratores": [
+        "Bolo de aniversário",
+        "Bolo de batizado",
+        "Bolo de formatura"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bolo de casamento",
+        "descricao": "Bolo tradicional de vários andares servido na recepção de casamentos.",
+        "variantes": [
+          "Bolo de noiva",
+          "Wedding cake"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Grelha com vários tipos de salsicha, pães e hambúrguer; não identifica com unicidade uma bratwurst."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Tortinhas com purê piped, prato reconhecível; pergunta sobre a cobertura.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que ingrediente forma a cobertura gratinada deste prato britânico?",
+      "resposta": "Purê de batata",
+      "distratores": [
+        "Massa folhada",
+        "Polenta",
+        "Creme de queijo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Torta de pastor (shepherd's pie)",
+        "descricao": "Prato britânico de carne moída coberta com purê de batata e assada.",
+        "variantes": [
+          "Shepherd's pie",
+          "Cottage pie",
+          "Hachis Parmentier"
+        ]
+      }
+    }
+  ]
+}

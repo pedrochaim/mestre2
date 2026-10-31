@@ -1,0 +1,372 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Croquete",
+        "descricao": "Rolinho frito e empanado de massa cremosa com recheio, típico das cozinhas francesa e espanhola.",
+        "variantes": [
+          "Croqueta",
+          "Croquette"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "croque",
+          "nome": "Croqué",
+          "descricao": "Jogo de gramado em que os jogadores batem bolas com malhos, fazendo-as passar por arcos fincados no chão.",
+          "variantes": [
+            "Croquet",
+            "Croquet (jogo)"
+          ]
+        },
+        {
+          "id": "criquete",
+          "nome": "Críquete",
+          "descricao": "Esporte de bastão e bola, muito popular na Inglaterra, na Índia e na Austrália.",
+          "variantes": []
+        },
+        {
+          "id": "creta",
+          "nome": "Creta",
+          "descricao": "A maior ilha da Grécia, no mar Mediterrâneo, berço da civilização minoica.",
+          "variantes": [
+            "Crete",
+            "Kriti"
+          ]
+        },
+        {
+          "id": "roque",
+          "nome": "Roque",
+          "descricao": "Lance especial do xadrez em que o rei e uma torre se movem ao mesmo tempo.",
+          "variantes": [
+            "Castling",
+            "Roque (xadrez)"
+          ]
+        },
+        {
+          "id": "colete",
+          "nome": "Colete",
+          "descricao": "Peça sem mangas usada sobre a camisa e sob o paletó, parte do terno de três peças",
+          "variantes": [
+            "Waistcoat",
+            "Vest"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Trifle",
+        "descricao": "Sobremesa inglesa de camadas de bolo, frutas ou gelatina, creme e chantilly, servida em taça de vidro.",
+        "variantes": [
+          "Trifle inglês"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "trufa",
+          "nome": "Trufa",
+          "descricao": "Corpo de frutificação subterrâneo de fungos do gênero Tuber, muito valorizado na culinária",
+          "variantes": [
+            "Tuber",
+            "truffle",
+            "túbera",
+            "Trufa (fungo)"
+          ]
+        },
+        {
+          "id": "corrida_de_cavalos",
+          "nome": "Corrida de cavalos",
+          "descricao": "Esporte em que cavalos montados por jóqueis disputam quem é o mais rápido numa distância determinada.",
+          "variantes": [
+            "Turfe",
+            "Hipismo de corrida"
+          ]
+        },
+        {
+          "id": "til",
+          "nome": "Til",
+          "descricao": "Sinal gráfico ondulado usado sobre as vogais a e o no português",
+          "variantes": [
+            "Tilde"
+          ]
+        },
+        {
+          "id": "toile_de_jouy",
+          "nome": "Toile de Jouy",
+          "descricao": "Estampa têxtil de origem francesa, com cenas pastorais em um só tom sobre fundo claro.",
+          "variantes": [
+            "Toile",
+            "Tela de Jouy"
+          ]
+        },
+        {
+          "id": "hat_trick",
+          "nome": "Hat-trick",
+          "descricao": "Expressão para três gols marcados por um mesmo jogador numa única partida.",
+          "variantes": [
+            "Tripleta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Rocambole",
+        "descricao": "Bolo de massa fina enrolado sobre um recheio doce, formando espiral.",
+        "variantes": [
+          "Swiss roll",
+          "Bolo enrolado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bolo_de_rolo",
+          "nome": "Bolo de rolo",
+          "descricao": "Bolo de camadas finíssimas de massa enroladas com goiabada, típico do Nordeste brasileiro",
+          "variantes": []
+        },
+        {
+          "id": "bambole",
+          "nome": "Bambolê",
+          "descricao": "Aro de plástico girado em volta da cintura, que virou febre nos Estados Unidos em 1958.",
+          "variantes": [
+            "Hula hoop",
+            "Bambolê de plástico"
+          ]
+        },
+        {
+          "id": "arco_ginastica_ritmica",
+          "nome": "Arco (ginástica rítmica)",
+          "descricao": "Aparelho circular de ginástica rítmica manipulado pela ginasta em sua série.",
+          "variantes": [
+            "Ginástica rítmica",
+            "Bambolê"
+          ]
+        },
+        {
+          "id": "trombone",
+          "nome": "Trombone",
+          "descricao": "Instrumento de metal que muda a nota com uma vara deslizante.",
+          "variantes": [
+            "Trombone de vara"
+          ]
+        },
+        {
+          "id": "lewis_carroll",
+          "nome": "Lewis Carroll",
+          "descricao": "Escritor e matemático inglês do século dezenove, autor de Alice no País das Maravilhas.",
+          "variantes": [
+            "Charles Lutwidge Dodgson",
+            "Charles Dodgson"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Calzone",
+        "descricao": "Pizza italiana dobrada em meia-lua e assada, recheada com presunto e queijo.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "clone",
+          "nome": "Clone",
+          "descricao": "Organismo ou célula geneticamente idêntico a outro, obtido por reprodução assexuada ou por clonagem.",
+          "variantes": [
+            "Clonagem",
+            "Cloning"
+          ]
+        },
+        {
+          "id": "babosa",
+          "nome": "Babosa",
+          "descricao": "Planta suculenta Aloe vera, de folhas carnosas e dentadas, originária da Península Arábica.",
+          "variantes": [
+            "Aloe vera",
+            "Aloé",
+            "Aloe barbadensis"
+          ]
+        },
+        {
+          "id": "pinha_cone_de_conifera",
+          "nome": "Pinha (cone de conífera)",
+          "descricao": "Estrutura lenhosa com escamas que carrega as sementes em pinheiros e outras coníferas.",
+          "variantes": [
+            "Cone",
+            "Estróbilo",
+            "Pine cone"
+          ]
+        },
+        {
+          "id": "caronte",
+          "nome": "Caronte",
+          "descricao": "Maior lua de Plutão, de superfície cinzenta com um polo avermelhado, fotografada pela sonda New Horizons.",
+          "variantes": [
+            "Charon",
+            "Plutão I"
+          ]
+        },
+        {
+          "id": "caliope",
+          "nome": "Calíope",
+          "descricao": "Musa grega da poesia épica e da eloquência, mãe de Orfeu em algumas versões.",
+          "variantes": [
+            "Calliope",
+            "Kalliope"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Kaiserschmarrn",
+        "descricao": "Panqueca austríaca fofa e desfiada, polvilhada com açúcar e servida com compota.",
+        "variantes": [
+          "Kaiserschmarren",
+          "Mexido do Imperador"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "qin_shi_huang",
+          "nome": "Qin Shi Huang",
+          "descricao": "Primeiro imperador da China unificada, fundador da dinastia Qin no século três antes de Cristo.",
+          "variantes": [
+            "Shi Huangdi",
+            "Primeiro Imperador"
+          ]
+        },
+        {
+          "id": "peixe_anjo_imperador",
+          "nome": "Peixe-anjo-imperador",
+          "descricao": "Peixe de recife Pomacanthus imperator, listrado de azul e amarelo, nativo dos oceanos Índico e Pacífico.",
+          "variantes": [
+            "Pomacanthus imperator",
+            "Emperor angelfish"
+          ]
+        },
+        {
+          "id": "extincao_do_permiano_triassico",
+          "nome": "Extinção do Permiano-Triássico",
+          "descricao": "Extinção em massa ocorrida há cerca de 252 milhões de anos, no fim do Permiano, a mais severa conhecida.",
+          "variantes": [
+            "Grande Morte",
+            "Great Dying",
+            "Extinção do fim do Permiano"
+          ]
+        },
+        {
+          "id": "amethio",
+          "nome": "Amethio",
+          "descricao": "Integrante dos Exploradores, grupo vilão da série Pokémon Horizontes, que persegue Liko com seu Ceruledge.",
+          "variantes": [
+            "Amethio dos Exploradores"
+          ]
+        },
+        {
+          "id": "half_dome",
+          "nome": "Half Dome",
+          "descricao": "Domo de granito na extremidade leste do Vale de Yosemite, na Califórnia.",
+          "variantes": [
+            "Meio Domo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Torta de pastor (shepherd's pie)",
+        "descricao": "Prato britânico de carne moída coberta com purê de batata e assada.",
+        "variantes": [
+          "Shepherd's pie",
+          "Cottage pie",
+          "Hachis Parmentier"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "scottie_pippen",
+          "nome": "Scottie Pippen",
+          "descricao": "Ala americano de basquete, seis vezes campeão da NBA com o Chicago Bulls.",
+          "variantes": [
+            "Scotty Pippen"
+          ]
+        },
+        {
+          "id": "opera_garnier",
+          "nome": "Ópera Garnier",
+          "descricao": "Teatro de ópera de Paris, projetado por Charles Garnier e inaugurado em 1875.",
+          "variantes": [
+            "Palais Garnier",
+            "Ópera de Paris"
+          ]
+        },
+        {
+          "id": "palm_jumeirah",
+          "nome": "Palm Jumeirah",
+          "descricao": "Arquipélago artificial em forma de palmeira na costa de Dubai, nos Emirados Árabes Unidos.",
+          "variantes": [
+            "Palmeira Jumeirah",
+            "Palm Islands",
+            "Ilhas Palmeira"
+          ]
+        },
+        {
+          "id": "monte_pelee",
+          "nome": "Monte Pelée",
+          "descricao": "Vulcão ativo no norte da Martinica, cuja erupção de 1902 destruiu a cidade de Saint-Pierre.",
+          "variantes": [
+            "Montagne Pelée",
+            "Mount Pelée"
+          ]
+        },
+        {
+          "id": "cottonee",
+          "nome": "Cottonee",
+          "descricao": "Pokémon planta e fada da quinta geração, uma bola de algodão, número 546 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Croquete é um salgado; Croqué é jogo de gramado, entidade diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Trifle é sobremesa inglesa; nenhuma candidata é a mesma."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Rocambole (swiss roll) difere do bolo de rolo nordestino, embora parecidos; na dúvida, nova."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Calzone é um prato; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Kaiserschmarrn é uma sobremesa; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Prato britânico; candidatas são entidades não relacionadas."
+    }
+  ]
+}

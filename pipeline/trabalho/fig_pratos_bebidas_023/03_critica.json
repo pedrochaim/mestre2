@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não entrega a resposta (vários salgados são fritos e empanados). Distratores plausíveis e distintos visualmente do croquete cilíndrico.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'alga na sopa de missô' se responde por conhecimento geral (wakame). A figura vira enfeite, além de outras algas serem possíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem inglesa confirmada nos dois trechos. O enunciado não nomeia o prato e não basta sozinho para responder. Distratores de outros países são críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Os trechos mostram que a pasta pode levar azeite ou manteiga, e também maionese, então a resposta não é única. Não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Enrolado em espiral com recheio' define o rocambole e vaza a resposta. A figura deve fazer o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que bolo é este?",
+        "resposta": "Rocambole",
+        "distratores": [
+          "Pão de ló",
+          "Bolo inglês",
+          "Brownie"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Uma espécie de pizza dobrada' define o calzone e vaza a resposta. Panzerotti é também outro nome do calzone em algumas regiões, então pode ser defendido como correto.",
+      "reescrita": {
+        "pergunta": "Que prato italiano é este?",
+        "resposta": "Calzone",
+        "distratores": [
+          "Stromboli",
+          "Focaccia",
+          "Piadina"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Kaiserschmarrn é sobremesa austríaca nos trechos, e os distratores são pratos austríacos de aparência diferente.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "'Bolo de vários andares' praticamente entrega a resposta. 'Rosas de marzipã' não está na descrição da imagem e pode ser falso para esta foto. Os distratores também podem ser bolos de vários andares.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O purê de batata como cobertura está nos dois trechos. O enunciado não nomeia o prato, e 'britânico' ajuda sem entregar. Os distratores são críveis e errados.",
+      "reescrita": null
+    }
+  ]
+}
