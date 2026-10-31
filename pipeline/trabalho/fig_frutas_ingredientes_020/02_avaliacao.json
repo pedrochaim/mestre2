@@ -1,0 +1,122 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Granulado colorido reconhecível, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em inglês, como se chama este confeito colorido usado para decorar bolos e sorvetes?",
+      "resposta": "Sprinkles",
+      "distratores": [
+        "Crumbles",
+        "Candy dust",
+        "Sugar pearls"
+      ],
+      "ancora": {
+        "nome": "Granulado",
+        "descricao": "Confeito em pequenos bastões coloridos de açúcar, usado para decorar doces.",
+        "variantes": [
+          "Confeito granulado",
+          "Sprinkles",
+          "Jimmies",
+          "Hundreds and thousands"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Campo de quinoa nos Andes, vermelha, reconhecível; distratores evitam o amaranto, parecido.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que planta andina é esta?",
+      "resposta": "Quinoa",
+      "distratores": [
+        "Trigo",
+        "Sorgo",
+        "Painço"
+      ],
+      "ancora": {
+        "nome": "Quinoa",
+        "descricao": "Planta andina (Chenopodium quinoa) cultivada pelas sementes comestíveis.",
+        "variantes": [
+          "Quinua"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Árvore com frutos pequenos e distantes; o tamarillo não é reconhecível pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Flor de camomila nítida, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que erva, muito usada em chás, tem esta flor?",
+      "resposta": "Camomila",
+      "distratores": [
+        "Margarida",
+        "Calêndula",
+        "Arnica"
+      ],
+      "ancora": {
+        "nome": "Camomila",
+        "descricao": "Planta (Matricaria chamomilla) de flores brancas com miolo amarelo, usada em chás.",
+        "variantes": [
+          "Camomila-vulgar",
+          "Matricaria chamomilla"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Prancha botânica com o nome científico impresso, que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Fruto verde na árvore, facilmente confundido com atemoia ou fruta-do-conde; resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem escura e ambígua; não se reconhece o polvilho."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Massa branca num prato, sem traço que identifique banha."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Pimenta laranja confundível com scotch bonnet e outras; resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Garrafas com ervas não permitem reconhecer vinagre."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Ilustração botânica, e a planta é fotografável; pouco reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Só folhagem, sem fruto; não se reconhece o bilimbi."
+    }
+  ]
+}

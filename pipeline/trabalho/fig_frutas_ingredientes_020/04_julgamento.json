@@ -1,0 +1,126 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Granulado",
+        "descricao": "Confeito em pequenos bastões coloridos de açúcar, usado para decorar doces.",
+        "variantes": [
+          "Chocolate granulado",
+          "Confeito granulado",
+          "Sprinkles",
+          "Jimmies",
+          "Hundreds and thousands"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chocolate_branco",
+          "nome": "Chocolate branco",
+          "descricao": "Doce de cor marfim feito de açúcar, leite e manteiga de cacau, sem os sólidos escuros do cacau.",
+          "variantes": [
+            "White chocolate"
+          ]
+        },
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        },
+        {
+          "id": "gramado",
+          "nome": "Gramado",
+          "descricao": "Município turístico da Serra Gaúcha, no Rio Grande do Sul, conhecido pela arquitetura de influência alemã e italiana.",
+          "variantes": []
+        },
+        {
+          "id": "ralador",
+          "nome": "Ralador",
+          "descricao": "Utensílio de cozinha com lâmina perfurada usado para ralar alimentos.",
+          "variantes": []
+        },
+        {
+          "id": "chocolates_garoto",
+          "nome": "Chocolates Garoto",
+          "descricao": "Fabricante brasileira de chocolates fundada em 1929 em Vila Velha pelo imigrante alemão Heinrich Meyerfreund.",
+          "variantes": [
+            "Garoto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Quinoa",
+        "descricao": "Planta andina (Chenopodium quinoa) cultivada pelas sementes comestíveis.",
+        "variantes": [
+          "Quinua"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cinchona",
+          "nome": "Cinchona",
+          "descricao": "Gênero de árvores andinas de cuja casca se extrai o quinino",
+          "variantes": [
+            "Quina",
+            "Chinchona"
+          ]
+        },
+        {
+          "id": "kilwa_kisiwani",
+          "nome": "Kilwa Kisiwani",
+          "descricao": "Ilha e ruínas de uma cidade-estado suaíli medieval na costa da África Oriental, Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Kilwa",
+            "Quíloa"
+          ]
+        },
+        {
+          "id": "kea",
+          "nome": "Kea",
+          "descricao": "Papagaio oliváceo de bico curvo, nativo dos Alpes da Ilha Sul da Nova Zelândia, Nestor notabilis.",
+          "variantes": [
+            "Nestor notabilis",
+            "Quia"
+          ]
+        },
+        {
+          "id": "equidna",
+          "nome": "Equidna",
+          "descricao": "Mamífero monotremado coberto de espinhos da família Tachyglossidae, da Austrália e Nova Guiné.",
+          "variantes": [
+            "Echidna",
+            "Tachyglossidae",
+            "Tamanduá-espinhoso"
+          ]
+        },
+        {
+          "id": "quimono",
+          "nome": "Quimono",
+          "descricao": "Vestimenta tradicional japonesa em forma de T, com mangas largas e presa por uma faixa chamada obi",
+          "variantes": [
+            "Kimono"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Granulado (confeito) não corresponde a nenhuma candidata; são chocolate branco, romã, cidade, utensílio e fabricante."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Quinoa é uma planta andina diferente de todas as candidatas (Cinchona é outro gênero de árvores)."
+    }
+  ]
+}

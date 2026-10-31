@@ -1,0 +1,41 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Sprinkles é o termo geral, confirmado nos trechos. Porém o distrator 'Sugar pearls' descreve um tipo de granulado (pearl sugar/dragées, listados no trecho como sprinkles), então pode ser também correto. Troquei por um distrator inequivocamente errado.",
+      "reescrita": {
+        "pergunta": "Em inglês, como se chama este confeito colorido usado para decorar bolos e sorvetes?",
+        "resposta": "Sprinkles",
+        "distratores": [
+          "Crumbles",
+          "Candy dust",
+          "Sugar flakes"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os distratores (trigo, sorgo, painço) não são andinos, então a pista 'andina' permite acertar por eliminação sem olhar a figura. Retirei a pista e usei distratores visualmente e funcionalmente parecidos, de plantas cultivadas pelas sementes.",
+      "reescrita": {
+        "pergunta": "Que planta, cultivada por suas sementes comestíveis, é esta?",
+        "resposta": "Quinoa",
+        "distratores": [
+          "Amaranto",
+          "Chia",
+          "Trigo-sarraceno"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Erva muito usada em chás' entrega a camomila sem a figura (a pista basta para responder). Além disso, a flor branca de miolo amarelo é facilmente confundida com a margarida, um dos distratores, e com a camomila-romana, então a resposta não é única diante da imagem.",
+      "reescrita": null
+    }
+  ]
+}
