@@ -339283,5 +339283,103 @@
       "licenca": "Public domain"
     },
     "dificuldade": 3
+  },
+  {
+    "id": "q17434",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cebola_roxa",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Além de temperar pratos, a casca deste ingrediente também serve para quê?",
+    "resposta": "Tingir tecidos",
+    "distratores": [
+      "Fazer papel",
+      "Curtir couro",
+      "Fabricar cola"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Red_onion",
+      "https://pt.wikipedia.org/wiki/Cebola_roxa"
+    ],
+    "imagem": {
+      "arquivo": "q17434.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Red_Onion_on_White.JPG",
+      "autor": "Colin",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q17435",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "ovo_de_codorna",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que ave põe estes ovos pintadinhos?",
+    "resposta": "Codorna",
+    "distratores": [
+      "Pato",
+      "Faisão",
+      "Pombo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Quail_eggs"
+    ],
+    "imagem": {
+      "arquivo": "q17435.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Quail_eggs_(Перепелиные_яйца).jpg",
+      "autor": "Alon-De-Lon",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q17436",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "noz_moscada_2",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Esta árvore é nativa de um arquipélago da Indonésia. Que arquipélago é esse?",
+    "resposta": "Ilhas Molucas",
+    "distratores": [
+      "Sumatra",
+      "Bornéu",
+      "Java"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nutmeg"
+    ],
+    "imagem": {
+      "arquivo": "q17436.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Myristica_fragrans_-_Köhler–s_Medizinal-Pflanzen-097.jpg",
+      "autor": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q17437",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "semente_de_girassol",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que semente é esta?",
+    "resposta": "Girassol",
+    "distratores": [
+      "Abóbora",
+      "Melancia",
+      "Cártamo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sunflower_seed",
+      "https://pt.wikipedia.org/wiki/Semente_de_girassol"
+    ],
+    "imagem": {
+      "arquivo": "q17437.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sunflower_Seeds_Kaldari.jpg",
+      "autor": "Kaldari",
+      "licenca": "Public domain"
+    }
   }
 ]

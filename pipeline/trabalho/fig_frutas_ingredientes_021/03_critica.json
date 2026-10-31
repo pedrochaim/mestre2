@@ -1,0 +1,48 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a casca já foi usada como corante. O enunciado não nomeia a cebola, e a pista 'temperar pratos' não entrega a resposta. Os distratores são do mesmo tipo (usos de materiais) e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Os ovos de perdiz podem ter pintas, então 'Perdiz' é um distrator defensável. Troquei por 'Pato'. O resto está correto.",
+      "reescrita": {
+        "pergunta": "Que ave põe estes ovos pintadinhos?",
+        "resposta": "Codorna",
+        "distratores": [
+          "Pato",
+          "Faisão",
+          "Pombo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A película vermelha que envolve a semente é a definição do macis. Cobrindo a imagem, quem conhece a especiaria responde só pelo enunciado, então a figura virou enfeite. A reescrita pergunta onde a árvore é nativa, fato que está no trecho, e só se alcança depois de reconhecer a árvore.",
+      "reescrita": {
+        "pergunta": "Esta árvore é nativa de um arquipélago da Indonésia. Que arquipélago é esse?",
+        "resposta": "Ilhas Molucas",
+        "distratores": [
+          "Sumatra",
+          "Bornéu",
+          "Java"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto: a figura é a pergunta e o enunciado não entrega nada. Os distratores são sementes comestíveis plausíveis e nenhum descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}
