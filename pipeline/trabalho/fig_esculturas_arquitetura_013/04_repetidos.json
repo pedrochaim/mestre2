@@ -1,0 +1,232 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de ponte é esta?",
+        "resposta": "Ponte estaiada"
+      },
+      "existentes": [
+        {
+          "id": "q08668",
+          "pergunta": "Que rio esta ponte atravessa?",
+          "resposta": "Rio Pinheiros"
+        },
+        {
+          "id": "q16081",
+          "pergunta": "Em que ano foi inaugurada esta ponte?",
+          "resposta": "2008"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que estilo arquitetônico predomina neste edifício?",
+        "resposta": "Neogótico"
+      },
+      "existentes": [
+        {
+          "id": "q09523",
+          "pergunta": "Em que cidade fica este edifício neogótico?",
+          "resposta": "Budapeste"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Este castelo japonês é chamado pelo nome de que ave?",
+        "resposta": "Garça-branca"
+      },
+      "existentes": [
+        {
+          "id": "q04701",
+          "pergunta": "Que castelo japonês é este?",
+          "resposta": "Castelo de Himeji"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que monumento é este?",
+        "resposta": "Monumento a Washington"
+      },
+      "existentes": [
+        {
+          "id": "q11604",
+          "pergunta": "O obelisco do Monumento a Washington tem duas tonalidades de mármore, uma na base e outra no alto. Por quê?",
+          "resposta": "Obra interrompida por duas décadas"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que tipo de monumento de pedra é este?",
+        "resposta": "Estela"
+      },
+      "existentes": [
+        {
+          "id": "q03342",
+          "pergunta": "Levada como saque de guerra pelos elamitas, a estela do Código de Hamurábi foi encontrada em 1901 em que antiga cidade, hoje no Irã?",
+          "resposta": "Susa"
+        },
+        {
+          "id": "q07692",
+          "pergunta": "O princípio do olho por olho, dente por dente, presente no Código de Hamurábi, é conhecido por que nome?",
+          "resposta": "Lei de talião"
+        },
+        {
+          "id": "q13788",
+          "pergunta": "No relevo do alto da estela do Código de Hamurábi, o rei aparece diante de que deus, o do sol e da justiça?",
+          "resposta": "Shamash"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Esta ponte medieval de pedra foi iniciada no século quatorze por qual rei?",
+        "resposta": "Carlos IV"
+      },
+      "existentes": [
+        {
+          "id": "q11611",
+          "pergunta": "Em que século começou a construção da Ponte Carlos, que cruza o rio Moldava, em Praga?",
+          "resposta": "Século quatorze"
+        },
+        {
+          "id": "q14589",
+          "pergunta": "Que ponte medieval é esta?",
+          "resposta": "Ponte Carlos"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em que cidade brasileira fica este elevador público?",
+        "resposta": "Salvador"
+      },
+      "existentes": [
+        {
+          "id": "q04541",
+          "pergunta": "Em Salvador, o Elevador Lacerda liga a Cidade Baixa à Cidade Alta. Em que século ele foi inaugurado?",
+          "resposta": "Século dezenove"
+        },
+        {
+          "id": "q05437",
+          "pergunta": "Ligando a Cidade Baixa à Cidade Alta de Salvador, o Elevador Lacerda transportou os primeiros passageiros no reinado de qual imperador?",
+          "resposta": "Dom Pedro II"
+        },
+        {
+          "id": "q14396",
+          "pergunta": "Em que ano foi inaugurado este elevador urbano?",
+          "resposta": "1873"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Que rei mandou erguer o castelo original, depois da invasão normanda da Inglaterra?",
+        "resposta": "Guilherme, o Conquistador"
+      },
+      "existentes": [
+        {
+          "id": "q06289",
+          "pergunta": "Que rei normando mandou construir o castelo original deste local, no século onze?",
+          "resposta": "Guilherme, o Conquistador"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Que estátua grega da época arcaica é esta?",
+        "resposta": "Moscóforo"
+      },
+      "existentes": [
+        {
+          "id": "q14277",
+          "pergunta": "Em que museu fica hoje esta estátua grega arcaica de um homem carregando um bezerro?",
+          "resposta": "Museu da Acrópole"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em que cidade fica este edifício?",
+        "resposta": "Paris"
+      },
+      "existentes": [
+        {
+          "id": "q04256",
+          "pergunta": "Em que ano foi inaugurada a Ópera Garnier, de Paris, cenário do romance O Fantasma da Ópera?",
+          "resposta": "1875"
+        },
+        {
+          "id": "q08472",
+          "pergunta": "O reservatório de água sob o Palais Garnier, em Paris, inspirou o esconderijo de qual personagem do romance de Gaston Leroux?",
+          "resposta": "O Fantasma da Ópera"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Tipo de ponte difere de rio e ano."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Estilo arquitetônico difere da cidade (embora a existente cite neogótico, não responde a nova pergunta de forma independente)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Apelido de ave é fato diferente do nome do castelo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar o monumento difere do motivo das tonalidades do mármore."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Tipo de monumento (estela) não é perguntado pelas existentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Rei que iniciou a ponte é fato distinto do século ou do nome."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Cidade do elevador não é perguntada; o enunciado das existentes cita Salvador mas ano/século/imperador são outros fatos."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "id_existente": "q06289",
+      "motivo": "Mesma pergunta e mesma resposta: rei que mandou construir o castelo original."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Identificar a estátua difere do museu onde fica."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Cidade do edifício é fato distinto de ano de inauguração ou personagem."
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ponte reconhecível, sem texto que entregue a resposta.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de ponte é esta?",
+      "resposta": "Ponte estaiada",
+      "distratores": [
+        "Ponte pênsil",
+        "Ponte em arco",
+        "Ponte treliçada"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ponte Octávio Frias de Oliveira",
+        "descricao": "Ponte estaiada sobre o Rio Pinheiros, em São Paulo, com torre em forma de X, inaugurada em 2008.",
+        "variantes": [
+          "Ponte Estaiada"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada frontal nítida e reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estilo arquitetônico predomina neste edifício?",
+      "resposta": "Neogótico",
+      "distratores": [
+        "Neoclássico",
+        "Barroco",
+        "Românico"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Parlamento Húngaro",
+        "descricao": "Sede da Assembleia Nacional da Hungria, edifício neogótico às margens do Danúbio, em Budapeste.",
+        "variantes": [
+          "Parlamento de Budapeste",
+          "Országház"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Castelo branco inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este castelo japonês é chamado pelo nome de que ave?",
+      "resposta": "Garça-branca",
+      "distratores": [
+        "Corvo",
+        "Grou",
+        "Águia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Castelo de Himeji",
+        "descricao": "Complexo de castelo japonês de cor branca, na cidade de Himeji, província de Hyogo.",
+        "variantes": [
+          "Himeji-jō",
+          "Castelo da Garça Branca"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Obelisco reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que monumento é este?",
+      "resposta": "Monumento a Washington",
+      "distratores": [
+        "Monumento de San Jacinto",
+        "Torre Juche",
+        "Obelisco de Buenos Aires"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Monumento a Washington",
+        "descricao": "Obelisco de 169 metros no National Mall, em Washington, D.C., em homenagem ao primeiro presidente dos Estados Unidos.",
+        "variantes": [
+          "Washington Monument"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Estela inconfundível; a escrita cuneiforme é ilegível e não entrega a resposta.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de monumento de pedra é este?",
+      "resposta": "Estela",
+      "distratores": [
+        "Obelisco",
+        "Menir",
+        "Coluna"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Código de Hamurabi",
+        "descricao": "Estela babilônica de basalto com leis do rei Hamurabi, hoje no Louvre.",
+        "variantes": [
+          "Estela de Hamurabi"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vista aérea reconhecível da ponte e da torre; pessoas ao fundo, minúsculas.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que rei começou a construir esta ponte em 1357?",
+      "resposta": "Carlos IV",
+      "distratores": [
+        "Venceslau IV",
+        "Otakar II",
+        "Rodolfo II"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ponte Carlos",
+        "descricao": "Ponte medieval de pedra sobre o rio Vltava, em Praga, cuja construção começou em 1357.",
+        "variantes": [
+          "Karlův most",
+          "Charles Bridge"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Torre do elevador e a Baía de Todos os Santos reconhecíveis, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade brasileira fica este elevador público?",
+      "resposta": "Salvador",
+      "distratores": [
+        "Recife",
+        "Rio de Janeiro",
+        "Fortaleza"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Elevador Lacerda",
+        "descricao": "Elevador urbano de Salvador que liga a Cidade Baixa à Cidade Alta, inaugurado em 1873.",
+        "variantes": [
+          "Elevador Lacerda de Salvador"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista clássica do Long Walk com a Torre Redonda, reconhecível.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que rei mandou erguer o castelo original, depois da invasão normanda da Inglaterra?",
+      "resposta": "Guilherme, o Conquistador",
+      "distratores": [
+        "Ricardo Coração de Leão",
+        "Eduardo III",
+        "Henrique VIII"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Castelo de Windsor",
+        "descricao": "Residência real em Windsor, Berkshire, Inglaterra, o palácio habitado há mais tempo na Europa.",
+        "variantes": [
+          "Windsor Castle"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Escultura grega arcaica nítida e distinta, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estátua grega da época arcaica é esta?",
+      "resposta": "Moscóforo",
+      "distratores": [
+        "Kouros de Anavisos",
+        "Cavaleiro Rampin",
+        "Auriga de Delfos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Moscóforo",
+        "descricao": "Estátua grega arcaica, de cerca de 560 a.C., de um homem carregando um bezerro, achada na Acrópole de Atenas.",
+        "variantes": [
+          "Moschophoros",
+          "Carregador de bezerro"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada reconhecível; inscrições minúsculas e ilegíveis, sem nome na fachada.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este edifício?",
+      "resposta": "Paris",
+      "distratores": [
+        "Viena",
+        "Bruxelas",
+        "Milão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ópera Garnier",
+        "descricao": "Casa de ópera de 1875 projetada por Charles Garnier, em Paris.",
+        "variantes": [
+          "Palais Garnier",
+          "Palácio Garnier"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Grupo escultórico nítido; pergunta sobre a figura mitológica central.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que personagem da mitologia grega é a mulher ajoelhada no centro deste grupo?",
+      "resposta": "Dirce",
+      "distratores": [
+        "Níobe",
+        "Europa",
+        "Pasífae"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Touro Farnese",
+        "descricao": "Grupo escultórico romano em mármore, cópia de obra helenística, que representa a morte de Dirce; está no Museu Arqueológico de Nápoles.",
+        "variantes": [
+          "Farnese Bull",
+          "Toro Farnese",
+          "Touro Farnésio"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Grande Buda sentado, reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade chinesa fica esta estátua de bronze?",
+      "resposta": "Hong Kong",
+      "distratores": [
+        "Pequim",
+        "Xangai",
+        "Leshan"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Buda de Tian Tan",
+        "descricao": "Grande estátua de bronze de Buda, concluída em 1993, na ilha de Lantau, em Hong Kong.",
+        "variantes": [
+          "Tian Tan Big Buddha",
+          "Grande Buda de Hong Kong"
+        ]
+      }
+    }
+  ]
+}

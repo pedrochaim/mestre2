@@ -1,0 +1,768 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ponte Octávio Frias de Oliveira",
+        "descricao": "Ponte estaiada sobre o Rio Pinheiros, em São Paulo, com torre em forma de X, inaugurada em 2008.",
+        "variantes": [
+          "Ponte Estaiada (Octávio Frias de Oliveira)",
+          "Ponte Estaiada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_estaiada",
+          "nome": "Ponte Estaiada",
+          "descricao": "Ponte estaiada com torre em forma de X sobre o Rio Pinheiros, em São Paulo, inaugurada em 2008.",
+          "variantes": [
+            "Ponte Octavio Frias de Oliveira",
+            "Ponte Octávio Frias de Oliveira"
+          ]
+        },
+        {
+          "id": "ponte_25_de_abril",
+          "nome": "Ponte 25 de Abril",
+          "descricao": "Ponte pênsil sobre o rio Tejo que liga Lisboa a Almada, inaugurada em 1966.",
+          "variantes": [
+            "Ponte Salazar",
+            "25 de Abril Bridge"
+          ]
+        },
+        {
+          "id": "monte_testaccio",
+          "nome": "Monte Testaccio",
+          "descricao": "Colina artificial de Roma formada por restos de ânforas descartadas na Antiguidade.",
+          "variantes": [
+            "Testaccio",
+            "Monte dos Cacos"
+          ]
+        },
+        {
+          "id": "joao_do_pulo",
+          "nome": "João do Pulo",
+          "descricao": "João Carlos de Oliveira, atleta brasileiro do salto triplo, recordista mundial em 1975.",
+          "variantes": [
+            "João Carlos de Oliveira"
+          ]
+        },
+        {
+          "id": "monte_etna",
+          "nome": "Monte Etna",
+          "descricao": "Vulcão ativo da costa leste da Sicília, na Itália.",
+          "variantes": [
+            "Etna",
+            "Mount Etna",
+            "Mongibello"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Parlamento Húngaro",
+        "descricao": "Sede da Assembleia Nacional da Hungria, edifício neogótico às margens do Danúbio, em Budapeste.",
+        "variantes": [
+          "Parlamento de Budapeste",
+          "Országház"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "parlamento_hungaro",
+          "nome": "Parlamento Húngaro",
+          "descricao": "Sede da Assembleia Nacional da Hungria, edifício neogótico às margens do Danúbio, em Budapeste.",
+          "variantes": [
+            "Parlamento de Budapeste",
+            "Országház"
+          ]
+        },
+        {
+          "id": "par_de_bases",
+          "nome": "Par de bases",
+          "descricao": "Ligação entre duas bases nitrogenadas complementares que une as duas fitas do DNA, adenina com timina e citosina com guanina.",
+          "variantes": [
+            "Pareamento de bases",
+            "Base pair"
+          ]
+        },
+        {
+          "id": "o_parlamento_de_londres",
+          "nome": "O Parlamento de Londres",
+          "descricao": "Série de pinturas impressionistas de Claude Monet (1900-1901) que mostra o Palácio de Westminster, sede do Parlamento britânico, visto do Tâmisa.",
+          "variantes": [
+            "O Parlamento de Londres (Monet)",
+            "Houses of Parliament",
+            "Parlamento de Londres, Efeito de Neblina",
+            "Palácio de Westminster"
+          ]
+        },
+        {
+          "id": "arremesso_de_peso",
+          "nome": "Arremesso de peso",
+          "descricao": "Prova do atletismo em que o atleta arremessa uma bola metálica pesada o mais longe possível, a partir de um círculo.",
+          "variantes": [
+            "Lançamento de peso"
+          ]
+        },
+        {
+          "id": "acoplamento_de_mare",
+          "nome": "Acoplamento de maré",
+          "descricao": "Sincronização em que um astro leva o mesmo tempo para girar em torno de si e para orbitar outro, como a Lua em relação à Terra.",
+          "variantes": [
+            "Rotação síncrona",
+            "Travamento de maré",
+            "Tidal locking"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Castelo de Himeji",
+        "descricao": "Complexo de castelo japonês de cor branca, na cidade de Himeji, província de Hyogo.",
+        "variantes": [
+          "Himeji-jō",
+          "Castelo da Garça Branca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castelo_de_himeji",
+          "nome": "Castelo de Himeji",
+          "descricao": "Complexo de castelo feudal japonês de fachada branca, na cidade de Himeji, província de Hyōgo.",
+          "variantes": [
+            "Himeji-jō",
+            "Castelo da Garça Branca",
+            "Shirasagi-jō"
+          ]
+        },
+        {
+          "id": "castelo_de_n",
+          "nome": "Castelo de N",
+          "descricao": "Castelo da Equipe Plasma em Pokémon Black e White, onde acontece o confronto final da história.",
+          "variantes": [
+            "N's Castle"
+          ]
+        },
+        {
+          "id": "shimeji",
+          "nome": "Shimeji",
+          "descricao": "Cogumelo comestível Hypsizygus tessulatus, de chapéu marrom e pé branco, cultivado em tufos.",
+          "variantes": [
+            "Hypsizygus tessulatus",
+            "Buna-shimeji"
+          ]
+        },
+        {
+          "id": "castelo_de_bran",
+          "nome": "Castelo de Bran",
+          "descricao": "Castelo medieval na Transilvânia, Romênia, divulgado como o Castelo do Drácula.",
+          "variantes": [
+            "Castelo do Drácula",
+            "Bran Castle"
+          ]
+        },
+        {
+          "id": "castelo_de_chambord",
+          "nome": "Castelo de Chambord",
+          "descricao": "Castelo renascentista no Vale do Loire, na França, construído como pavilhão de caça de Francisco I.",
+          "variantes": [
+            "Château de Chambord",
+            "Chambord"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Monumento a Washington",
+        "descricao": "Obelisco de 169 metros no National Mall, em Washington, D.C., em homenagem ao primeiro presidente dos Estados Unidos.",
+        "variantes": [
+          "Washington Monument"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monumento_a_washington",
+          "nome": "Monumento a Washington",
+          "descricao": "Obelisco de mármore no National Mall, em Washington, D.C., em homenagem a George Washington, concluído em 1884.",
+          "variantes": [
+            "Washington Monument"
+          ]
+        },
+        {
+          "id": "laranja_de_umbigo",
+          "nome": "Laranja-de-umbigo",
+          "descricao": "Variedade de laranja sem sementes, com um segundo fruto rudimentar na ponta, surgida no Brasil",
+          "variantes": [
+            "Laranja-baía",
+            "Laranja-da-baía",
+            "Washington navel",
+            "Navel orange"
+          ]
+        },
+        {
+          "id": "estatua_de_borba_gato",
+          "nome": "Estátua de Borba Gato",
+          "descricao": "Monumento ao bandeirante Manoel de Borba Gato, no bairro de Santo Amaro, em São Paulo.",
+          "variantes": [
+            "Monumento a Borba Gato"
+          ]
+        },
+        {
+          "id": "washington_d_c",
+          "nome": "Washington, D.C.",
+          "descricao": "Capital federal dos Estados Unidos, situada no Distrito de Colúmbia.",
+          "variantes": [
+            "Washington",
+            "Distrito de Colúmbia",
+            "District of Columbia"
+          ]
+        },
+        {
+          "id": "george_washington",
+          "nome": "George Washington",
+          "descricao": "Comandante do Exército Continental e primeiro presidente dos Estados Unidos, de 1789 a 1797.",
+          "variantes": [
+            "Washington"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Código de Hamurabi",
+        "descricao": "Estela babilônica de basalto com leis do rei Hamurabi, hoje no Louvre.",
+        "variantes": [
+          "Estela de Hamurabi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "codigo_de_hamurabi",
+          "nome": "Código de Hamurábi",
+          "descricao": "Código de leis babilônico do século dezoito antes de Cristo, gravado numa estela de basalto.",
+          "variantes": [
+            "Código de Hammurabi",
+            "Code of Hammurabi"
+          ]
+        },
+        {
+          "id": "codigo_de_barras",
+          "nome": "Código de barras",
+          "descricao": "Representação de dados em barras paralelas lidas por scanners, criada por Norman Joseph Woodland e Bernard Silver.",
+          "variantes": [
+            "Barcode",
+            "Código de barras UPC"
+          ]
+        },
+        {
+          "id": "obelisco_de_axum",
+          "nome": "Obelisco de Axum",
+          "descricao": "Estela de fonolito de 24 metros, do século quarto, na cidade de Axum, na Etiópia.",
+          "variantes": [
+            "Estela de Axum",
+            "Obelisco de Aksum",
+            "Obelisk of Axum"
+          ]
+        },
+        {
+          "id": "estrela_de_davi",
+          "nome": "Estrela de Davi",
+          "descricao": "Hexagrama formado por dois triângulos equiláteros, símbolo da identidade judaica.",
+          "variantes": [
+            "Magen David",
+            "Escudo de Davi"
+          ]
+        },
+        {
+          "id": "estela_raimondi",
+          "nome": "Estela Raimondi",
+          "descricao": "Estela de granito polido da cultura Chavín, no Peru, com a figura do Deus dos Bastões.",
+          "variantes": [
+            "Raimondi Stele",
+            "Estela de Raimondi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Ponte Carlos",
+        "descricao": "Ponte medieval de pedra sobre o rio Vltava, em Praga, cuja construção começou em 1357.",
+        "variantes": [
+          "Karlův most",
+          "Charles Bridge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_carlos",
+          "nome": "Ponte Carlos",
+          "descricao": "Ponte medieval de pedra sobre o rio Moldava, em Praga, ladeada por estátuas barrocas.",
+          "variantes": [
+            "Karlův most",
+            "Charles Bridge",
+            "Ponte Carlos IV"
+          ]
+        },
+        {
+          "id": "carlos_i_da_inglaterra",
+          "nome": "Carlos I da Inglaterra",
+          "descricao": "Rei da Inglaterra, Escócia e Irlanda de 1625 a 1649, derrotado na Guerra Civil Inglesa e executado.",
+          "variantes": [
+            "Charles I",
+            "Carlos Primeiro"
+          ]
+        },
+        {
+          "id": "a_ponte_de_langlois_em_arles",
+          "nome": "A Ponte de Langlois em Arles",
+          "descricao": "Série de pinturas de Van Gogh de 1888 que retratam a ponte levadiça de Langlois sobre um canal perto de Arles.",
+          "variantes": [
+            "A Ponte de Langlois em Arles (Van Gogh)",
+            "A Ponte de Langlois",
+            "Ponte de Arles",
+            "Langlois Bridge at Arles",
+            "Pont de Langlois"
+          ]
+        },
+        {
+          "id": "charles_babbage",
+          "nome": "Charles Babbage",
+          "descricao": "Matemático e engenheiro inglês que concebeu a máquina diferencial e a máquina analítica, precursoras do computador.",
+          "variantes": []
+        },
+        {
+          "id": "charles_barkley",
+          "nome": "Charles Barkley",
+          "descricao": "Ex-ala-pivô americano de basquete, MVP da NBA em 1993 e hoje comentarista de TV.",
+          "variantes": [
+            "Sir Charles",
+            "Chuck"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Elevador Lacerda",
+        "descricao": "Elevador urbano de Salvador que liga a Cidade Baixa à Cidade Alta, inaugurado em 1873.",
+        "variantes": [
+          "Elevador Lacerda de Salvador"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "elevador_lacerda",
+          "nome": "Elevador Lacerda",
+          "descricao": "Elevador público de Salvador que liga a Cidade Baixa à Cidade Alta.",
+          "variantes": [
+            "Elevador Hidráulico da Conceição"
+          ]
+        },
+        {
+          "id": "freio_de_seguranca_do_elevador",
+          "nome": "Freio de segurança do elevador",
+          "descricao": "Mecanismo que trava a cabine do elevador caso o cabo se rompa, demonstrado em 1854 em Nova York.",
+          "variantes": [
+            "Elevador de segurança"
+          ]
+        },
+        {
+          "id": "leao_de_lucerna",
+          "nome": "Leão de Lucerna",
+          "descricao": "Relevo de um leão moribundo esculpido na rocha em Lucerna, na Suíça, em memória dos guardas suíços mortos em 1792.",
+          "variantes": [
+            "Löwendenkmal",
+            "Monumento do Leão"
+          ]
+        },
+        {
+          "id": "ojos_del_salado",
+          "nome": "Ojos del Salado",
+          "descricao": "Vulcão dos Andes na fronteira entre Argentina e Chile, com cerca de 6 900 metros de altitude.",
+          "variantes": [
+            "Nevado Ojos del Salado"
+          ]
+        },
+        {
+          "id": "catedral_basilica_de_salvador",
+          "nome": "Catedral Basílica de Salvador",
+          "descricao": "Antiga igreja do colégio dos jesuítas, de estilo maneirista, catedral primacial de Salvador, na Bahia.",
+          "variantes": [
+            "Catedral-Basílica Primacial de São Salvador",
+            "Catedral Primacial do Brasil",
+            "Igreja do Colégio dos Jesuítas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Castelo de Windsor",
+        "descricao": "Residência real em Windsor, Berkshire, Inglaterra, o palácio habitado há mais tempo na Europa.",
+        "variantes": [
+          "Windsor Castle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castelo_de_windsor",
+          "nome": "Castelo de Windsor",
+          "descricao": "Residência real inglesa em Windsor, Berkshire, construída no século onze após a conquista normanda.",
+          "variantes": [
+            "Windsor Castle"
+          ]
+        },
+        {
+          "id": "casa_de_windsor",
+          "nome": "Casa de Windsor",
+          "descricao": "Casa real do Reino Unido, que adotou esse nome em 1917, no reinado de Jorge V.",
+          "variantes": [
+            "House of Windsor"
+          ]
+        },
+        {
+          "id": "castelo_de_n",
+          "nome": "Castelo de N",
+          "descricao": "Castelo da Equipe Plasma em Pokémon Black e White, onde acontece o confronto final da história.",
+          "variantes": [
+            "N's Castle"
+          ]
+        },
+        {
+          "id": "fasil_ghebbi",
+          "nome": "Fasil Ghebbi",
+          "descricao": "Cidadela real em Gondar, Etiópia, fundada no século dezessete e residência de imperadores etíopes.",
+          "variantes": [
+            "Cidade-fortaleza de Fasil Ghebbi",
+            "Castelos de Gondar"
+          ]
+        },
+        {
+          "id": "castelo_de_sao_jorge_da_mina",
+          "nome": "Castelo de São Jorge da Mina",
+          "descricao": "Fortaleza construída pelos portugueses em 1482 no litoral da África Ocidental, centro do comércio de ouro e depois de escravizados.",
+          "variantes": [
+            "Castelo de Elmina",
+            "Elmina Castle",
+            "São Jorge da Mina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Moscóforo",
+        "descricao": "Estátua grega arcaica, de cerca de 560 a.C., de um homem carregando um bezerro, achada na Acrópole de Atenas.",
+        "variantes": [
+          "Moschophoros",
+          "Carregador de bezerro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "moscoforo",
+          "nome": "Moscóforo",
+          "descricao": "Estátua grega arcaica de cerca de 560 a.C., em mármore, que representa um homem carregando um bezerro nos ombros, encontrada na Acrópole de Atenas.",
+          "variantes": [
+            "Moschophoros",
+            "Portador de bezerro",
+            "Calf Bearer"
+          ]
+        },
+        {
+          "id": "peripato",
+          "nome": "Peripato",
+          "descricao": "Animal do filo Onychophora, de corpo mole e muitas patas curtas, que captura presas com jato de muco.",
+          "variantes": [
+            "Onicóforo",
+            "Verme-de-veludo",
+            "Velvet worm",
+            "Onychophora"
+          ]
+        },
+        {
+          "id": "moscou",
+          "nome": "Moscou",
+          "descricao": "Capital da Rússia, com o Kremlin e a Praça Vermelha.",
+          "variantes": [
+            "Moscow",
+            "Moscovo"
+          ]
+        },
+        {
+          "id": "fosforo",
+          "nome": "Fósforo",
+          "descricao": "Elemento químico de número atômico 15, cuja forma branca brilha no escuro.",
+          "variantes": [
+            "Phosphorus",
+            "Fósforo (elemento químico)"
+          ]
+        },
+        {
+          "id": "fosforo_de_seguranca",
+          "nome": "Fósforo de segurança",
+          "descricao": "Palito de fósforo que só acende quando riscado na superfície própria da caixa.",
+          "variantes": [
+            "Safety match",
+            "Fósforo",
+            "Fósforo sueco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Ópera Garnier",
+        "descricao": "Casa de ópera de 1875 projetada por Charles Garnier, em Paris.",
+        "variantes": [
+          "Palais Garnier",
+          "Palácio Garnier"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "opera_garnier",
+          "nome": "Ópera Garnier",
+          "descricao": "Teatro de ópera de Paris, projetado por Charles Garnier e inaugurado em 1875.",
+          "variantes": [
+            "Palais Garnier",
+            "Ópera de Paris"
+          ]
+        },
+        {
+          "id": "partida_da_opera",
+          "nome": "Partida da Ópera",
+          "descricao": "Célebre partida de xadrez vencida pelo americano Paul Morphy em 1858, jogada num camarote de teatro durante uma ópera.",
+          "variantes": [
+            "Opera Game",
+            "Jogo da Ópera"
+          ]
+        },
+        {
+          "id": "palacio_parfum",
+          "nome": "Palácio Parfum",
+          "descricao": "Palácio luxuoso com grandes jardins na região de Kalos, nos jogos Pokémon X e Y.",
+          "variantes": [
+            "Parfum Palace"
+          ]
+        },
+        {
+          "id": "palacio_da_liberdade",
+          "nome": "Palácio da Liberdade",
+          "descricao": "Palácio histórico do governo de Minas Gerais, na Praça da Liberdade, em Belo Horizonte.",
+          "variantes": [
+            "Palácio Presidencial"
+          ]
+        },
+        {
+          "id": "pancracio",
+          "nome": "Pancrácio",
+          "descricao": "Esporte de combate dos Jogos Olímpicos da Grécia Antiga, quase sem restrições de golpes.",
+          "variantes": [
+            "Pankration",
+            "Pancrátio",
+            "Pancrátion",
+            "Pancrácio grego"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Touro Farnese",
+        "descricao": "Grupo escultórico romano em mármore, cópia de obra helenística, que representa a morte de Dirce; está no Museu Arqueológico de Nápoles.",
+        "variantes": [
+          "Farnese Bull",
+          "Toro Farnese",
+          "Touro Farnésio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "atlas_farnese",
+          "nome": "Atlas Farnese",
+          "descricao": "Escultura romana em mármore do Titã Atlas sustentando o globo celeste, no Museu Arqueológico Nacional de Nápoles.",
+          "variantes": [
+            "Atlas",
+            "Atlante Farnese"
+          ]
+        },
+        {
+          "id": "hercules_farnese",
+          "nome": "Hércules Farnese",
+          "descricao": "Estátua romana em mármore de Hércules em repouso, cópia de um original grego, no Museu Arqueológico de Nápoles.",
+          "variantes": [
+            "Hércules Farnésio",
+            "Farnese Hercules",
+            "Ercole Farnese"
+          ]
+        },
+        {
+          "id": "red_bull",
+          "nome": "Red Bull",
+          "descricao": "Bebida energética austríaca lançada em 1987 por Dietrich Mateschitz.",
+          "variantes": []
+        },
+        {
+          "id": "ouro_preto",
+          "nome": "Ouro Preto",
+          "descricao": "Cidade histórica de Minas Gerais, centro do ciclo do ouro e palco da Inconfidência Mineira.",
+          "variantes": [
+            "Vila Rica"
+          ]
+        },
+        {
+          "id": "tour_de_france",
+          "nome": "Tour de France",
+          "descricao": "Volta ciclística da França, a mais tradicional das grandes voltas do ciclismo.",
+          "variantes": [
+            "Volta da França"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Buda de Tian Tan",
+        "descricao": "Grande estátua de bronze de Buda, concluída em 1993, na ilha de Lantau, em Hong Kong.",
+        "variantes": [
+          "Tian Tan Big Buddha",
+          "Grande Buda de Hong Kong"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_hong_kong",
+          "nome": "Bandeira de Hong Kong",
+          "descricao": "Bandeira da região administrativa especial de Hong Kong, com flor de bauhínia branca sobre fundo vermelho.",
+          "variantes": [
+            "Hong Kong"
+          ]
+        },
+        {
+          "id": "buda_gigante_de_leshan",
+          "nome": "Buda Gigante de Leshan",
+          "descricao": "Estátua de Buda de 71 metros esculpida em um penhasco em Leshan, Sichuan, China.",
+          "variantes": [
+            "Grande Buda de Leshan"
+          ]
+        },
+        {
+          "id": "budas_de_bamiyan",
+          "nome": "Budas de Bamiyan",
+          "descricao": "Duas estátuas gigantes de Buda esculpidas num penhasco do vale de Bamiyan e destruídas em 2001",
+          "variantes": [
+            "Budas de Bamian"
+          ]
+        },
+        {
+          "id": "grande_buda_de_kamakura",
+          "nome": "Grande Buda de Kamakura",
+          "descricao": "Estátua monumental de bronze de Amitabha no templo Kōtoku-in, em Kamakura, Japão.",
+          "variantes": [
+            "Kamakura Daibutsu",
+            "Daibutsu de Kamakura"
+          ]
+        },
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "ponte_estaiada",
+      "motivo": "Mesma ponte estaiada sobre o Rio Pinheiros, com torre em X, de 2008."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "parlamento_hungaro",
+      "motivo": "Nome e descrição idênticos."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "castelo_de_himeji",
+      "motivo": "Mesmo castelo em Himeji."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "monumento_a_washington",
+      "motivo": "Mesmo obelisco no National Mall."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "codigo_de_hamurabi",
+      "motivo": "Mesmo código/estela babilônica de Hamurabi."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "ponte_carlos",
+      "motivo": "Mesma ponte de Praga sobre o Vltava/Moldava."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "elevador_lacerda",
+      "motivo": "Mesmo elevador de Salvador."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "castelo_de_windsor",
+      "motivo": "Mesmo castelo real em Windsor."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "moscoforo",
+      "motivo": "Mesma estátua grega arcaica do Moscóforo."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "opera_garnier",
+      "motivo": "Mesmo teatro de ópera de Paris projetado por Garnier."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Touro Farnese é uma escultura distinta do Atlas e do Hércules Farnese; não há candidata equivalente."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Buda de Tian Tan em Hong Kong não corresponde a nenhuma candidata; os outros Budas são estátuas diferentes."
+    }
+  ]
+}

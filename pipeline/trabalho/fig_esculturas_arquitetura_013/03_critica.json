@@ -1,0 +1,104 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem pista, resposta confirmada pelos trechos; distratores de outros tipos de ponte, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Estilo neogótico amplamente documentado; enunciado não vaza e distratores são estilos plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido Hakuro-jō (garça-branca) está no trecho; a figura é necessária para identificar o castelo. Distratores plausíveis (há castelo do corvo, mas não é o da imagem).",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento, enunciado sem vazamento, distratores de monumentos parecidos e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estela de basalto confirmada; enunciado sem vazamento; distratores são outros tipos de monumento de pedra, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A data 1357 mais 'começou a construir' identifica a ponte sem a figura (imagem coberta). Retirei a data e deixei só a época.",
+      "reescrita": {
+        "pergunta": "Esta ponte medieval de pedra foi iniciada no século quatorze por qual rei?",
+        "resposta": "Carlos IV",
+        "distratores": [
+          "Venceslau IV",
+          "Otakar II",
+          "Rodolfo II"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Salvador confirmado; a figura é necessária para identificar o elevador; distratores são cidades brasileiras plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guilherme, o Conquistador, ordenou o castelo depois de 1066, conforme os trechos; o enunciado não nomeia o castelo e exige reconhecer a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estátua arcaica de c. 560 a.C.; enunciado sem vazamento; distratores são estátuas gregas conhecidas e nenhuma é o Moscóforo.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fica em Paris, no 9º arrondissement; enunciado não vaza e os distratores são cidades europeias com óperas famosas.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A descrição 'mulher ajoelhada no centro' não é sustentada pelos trechos e é arriscada, pois o grupo tem outras figuras femininas como Antíope. Reescrevi pelo mito, que o trecho sustenta: Dirce é a punida.",
+      "reescrita": {
+        "pergunta": "Que personagem da mitologia grega este grupo escultórico mostra sendo punida até a morte?",
+        "resposta": "Dirce",
+        "distratores": [
+          "Níobe",
+          "Europa",
+          "Pasífae"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estátua em Hong Kong confirmada nos trechos; a figura é necessária e os distratores são cidades chinesas plausíveis, nenhuma correta.",
+      "reescrita": null
+    }
+  ]
+}
