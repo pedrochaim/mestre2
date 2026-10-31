@@ -1,0 +1,84 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o rio nasce na Serra da Canastra, em Minas Gerais. O enunciado não vaza a resposta e os distratores são estados plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que os monges vivem a tradição do 'ora et labora'. O enunciado não nomeia o mosteiro e os distratores são lemas de outras ordens.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A cor amarela não consta em `mostra` e não dá para confirmá-la na imagem. O enunciado precisa ser verdadeiro para esta figura, então a cor sai.",
+      "reescrita": {
+        "pergunta": "Que bioma brasileiro está destacado neste mapa?",
+        "resposta": "Cerrado",
+        "distratores": [
+          "Caatinga",
+          "Pantanal",
+          "Mata Atlântica"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta. A praça é mineira, em Belo Horizonte, e os distratores são praças da mesma cidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado afirma a posição ('à direita') e o formato ('mais baixo e comprido') na foto. `mostra` não permite confirmar nada disso, e a pergunta fica ambígua em relação ao Pão de Açúcar.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz 'revolução', palavra que também está na resposta e vaza parte dela. Trocar por 'acontecimento' resolve, e o fato está nos trechos.",
+      "reescrita": {
+        "pergunta": "Que acontecimento histórico este obelisco, em um parque paulistano, homenageia?",
+        "resposta": "Revolução Constitucionalista de 1932",
+        "distratores": [
+          "Revolução Farroupilha",
+          "Revolução de 1930",
+          "Revolta da Vacina"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Sarney e Temer usaram o palácio como presidentes, então 'Presidente da República' é um distrator defensável. Troquei esse distrator por outro cargo.",
+      "reescrita": {
+        "pergunta": "Que autoridade tem neste palácio de Brasília a sua residência oficial?",
+        "resposta": "Vice-presidente da República",
+        "distratores": [
+          "Presidente da Câmara",
+          "Presidente do Senado",
+          "Presidente do Supremo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de lugar apoiado pelos trechos. O enunciado não vaza a resposta e os distratores são praias do Nordeste, em especial do Rio Grande do Norte e do Ceará.",
+      "reescrita": null
+    }
+  ]
+}

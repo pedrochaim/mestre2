@@ -1,0 +1,444 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Rio São Francisco",
+        "descricao": "Rio brasileiro de 2.914 km, o mais longo a correr inteiramente em território do Brasil, conhecido como Velho Chico.",
+        "variantes": [
+          "Velho Chico",
+          "Opara"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_sao_francisco",
+          "nome": "Rio São Francisco",
+          "descricao": "Rio brasileiro que nasce na Serra da Canastra e deságua no Atlântico entre Alagoas e Sergipe.",
+          "variantes": [
+            "Velho Chico",
+            "São Francisco River"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "bandeira_do_para",
+          "nome": "Bandeira do Pará",
+          "descricao": "Bandeira do estado brasileiro do Pará, com faixa diagonal branca e estrela azul sobre fundo vermelho.",
+          "variantes": [
+            "Pará"
+          ]
+        },
+        {
+          "id": "sao_francisco",
+          "nome": "São Francisco",
+          "descricao": "Cidade da Califórnia, nos Estados Unidos, ligada à ponte Golden Gate.",
+          "variantes": [
+            "San Francisco"
+          ]
+        },
+        {
+          "id": "chevrolet_opala",
+          "nome": "Chevrolet Opala",
+          "descricao": "Automóvel médio produzido pela General Motors do Brasil de 1968 a 1992, derivado do Opel Rekord.",
+          "variantes": [
+            "Opala",
+            "Opala Especial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mosteiro de São Bento (São Paulo)",
+        "descricao": "Mosteiro beneditino no centro histórico de São Paulo, fundado em 1598, com basílica construída entre 1910 e 1914.",
+        "variantes": [
+          "Basílica Abacial de Nossa Senhora da Assunção",
+          "Mosteiro de São Bento de São Paulo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "igreja_da_penha_rio_de_janeiro",
+          "nome": "Igreja da Penha (Rio de Janeiro)",
+          "descricao": "Basílica santuário de Nossa Senhora da Penha de França, no bairro da Penha, no Rio de Janeiro.",
+          "variantes": [
+            "Basílica Santuário de Nossa Senhora da Penha de França",
+            "Igreja de Nossa Senhora da Penha"
+          ]
+        },
+        {
+          "id": "museu_de_arte_de_sao_paulo",
+          "nome": "Museu de Arte de São Paulo",
+          "descricao": "Museu na Avenida Paulista, em São Paulo, cujo prédio é suspenso sobre um grande vão livre.",
+          "variantes": [
+            "MASP",
+            "Museu de Arte de São Paulo Assis Chateaubriand"
+          ]
+        },
+        {
+          "id": "arquipelago_de_sao_pedro_e_sao_paulo",
+          "nome": "Arquipélago de São Pedro e São Paulo",
+          "descricao": "Pequeno grupo de rochedos brasileiros no meio do oceano Atlântico, perto da linha do Equador.",
+          "variantes": [
+            "Penedos de São Pedro e São Paulo",
+            "Rochedos de São Pedro e São Paulo"
+          ]
+        },
+        {
+          "id": "templo_de_salomao_sao_paulo",
+          "nome": "Templo de Salomão (São Paulo)",
+          "descricao": "Templo da Igreja Universal do Reino de Deus em São Paulo, construído como réplica do Templo de Salomão de Jerusalém.",
+          "variantes": [
+            "Templo de Salomão da Igreja Universal"
+          ]
+        },
+        {
+          "id": "basilica_de_nossa_senhora_de_guadalupe",
+          "nome": "Basílica de Nossa Senhora de Guadalupe",
+          "descricao": "Basílica circular moderna ao pé do morro de Tepeyac, na Cidade do México, um dos santuários mais visitados do mundo.",
+          "variantes": [
+            "Basílica de Santa María de Guadalupe",
+            "Nova Basílica de Guadalupe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cerrado",
+        "descricao": "Savana tropical do Brasil central, o segundo maior bioma do país, depois da Amazônia.",
+        "variantes": [
+          "Savana brasileira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cerrado",
+          "nome": "Cerrado",
+          "descricao": "Bioma de savana do Brasil central",
+          "variantes": [
+            "Savana brasileira"
+          ]
+        },
+        {
+          "id": "anta",
+          "nome": "Anta",
+          "descricao": "Grande mamífero herbívoro de focinho em forma de pequena tromba da América do Sul, espécie Tapirus terrestris.",
+          "variantes": [
+            "Tapirus terrestris",
+            "Tapir",
+            "Anta-brasileira"
+          ]
+        },
+        {
+          "id": "bachianas_brasileiras",
+          "nome": "Bachianas Brasileiras",
+          "descricao": "Ciclo de nove suítes de Heitor Villa-Lobos que une a música brasileira ao estilo barroco.",
+          "variantes": [
+            "Bachianas"
+          ]
+        },
+        {
+          "id": "viola_caipira",
+          "nome": "Viola caipira",
+          "descricao": "Instrumento de cordas símbolo da música sertaneja de raiz.",
+          "variantes": [
+            "Viola brasileira",
+            "Viola de dez cordas",
+            "Viola sertaneja"
+          ]
+        },
+        {
+          "id": "litoral_do_brasil",
+          "nome": "Litoral do Brasil",
+          "descricao": "Faixa costeira brasileira banhada pelo oceano Atlântico, do Amapá ao Rio Grande do Sul.",
+          "variantes": [
+            "Costa brasileira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Praça da Liberdade (Belo Horizonte)",
+        "descricao": "Praça e conjunto arquitetônico na região da Savassi, em Belo Horizonte, ao redor do Palácio da Liberdade.",
+        "variantes": [
+          "Praça da Liberdade"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_da_liberdade",
+          "nome": "Palácio da Liberdade",
+          "descricao": "Palácio histórico do governo de Minas Gerais, na Praça da Liberdade, em Belo Horizonte.",
+          "variantes": [
+            "Palácio Presidencial"
+          ]
+        },
+        {
+          "id": "estatua_da_liberdade",
+          "nome": "Estátua da Liberdade",
+          "descricao": "Estátua de cobre presenteada pela França, na Ilha da Liberdade, em Nova York.",
+          "variantes": [
+            "Statue of Liberty",
+            "A Liberdade Iluminando o Mundo",
+            "Liberdade Iluminando o Mundo"
+          ]
+        },
+        {
+          "id": "one_world_trade_center",
+          "nome": "One World Trade Center",
+          "descricao": "Arranha-céu principal do novo complexo do World Trade Center, em Manhattan, inaugurado em 2014.",
+          "variantes": [
+            "Freedom Tower",
+            "Torre da Liberdade",
+            "One WTC"
+          ]
+        },
+        {
+          "id": "barrete_frigio",
+          "nome": "Barrete frígio",
+          "descricao": "Gorro cônico macio com a ponta dobrada para a frente, usado na Antiguidade e depois símbolo de liberdade na Revolução Francesa.",
+          "variantes": [
+            "Gorro frígio",
+            "Barrete da liberdade",
+            "Phrygian cap"
+          ]
+        },
+        {
+          "id": "boca_da_verdade",
+          "nome": "Boca da Verdade",
+          "descricao": "Máscara de mármore com rosto de boca aberta, no pórtico da igreja de Santa Maria in Cosmedin, em Roma.",
+          "variantes": [
+            "Bocca della Verità"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Obelisco de São Paulo",
+        "descricao": "Obelisco de 72 metros no Parque Ibirapuera, em São Paulo, monumento à Revolução Constitucionalista de 1932.",
+        "variantes": [
+          "Obelisco do Ibirapuera",
+          "Obelisco Mausoléu aos Heróis de 32"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "obelisco_de_sao_paulo",
+          "nome": "Obelisco de São Paulo",
+          "descricao": "Monumento de 72 metros no Parque Ibirapuera, em São Paulo, símbolo da Revolução Constitucionalista de 1932.",
+          "variantes": [
+            "Obelisco do Ibirapuera",
+            "Obelisco Mausoléu aos Heróis de 32",
+            "Obelisk of São Paulo"
+          ]
+        },
+        {
+          "id": "bienal_de_sao_paulo",
+          "nome": "Bienal de São Paulo",
+          "descricao": "Exposição internacional de arte realizada a cada dois anos em São Paulo.",
+          "variantes": [
+            "Bienal Internacional de Arte de São Paulo",
+            "São Paulo Art Biennial"
+          ]
+        },
+        {
+          "id": "sao_paulo_estado",
+          "nome": "São Paulo (estado)",
+          "descricao": "Estado mais populoso do Brasil, na Região Sudeste.",
+          "variantes": [
+            "São Paulo",
+            "Estado de São Paulo"
+          ]
+        },
+        {
+          "id": "conversao_de_paulo",
+          "nome": "Conversão de Paulo",
+          "descricao": "Episódio em que Saulo de Tarso se converteu ao cristianismo no caminho de Damasco, celebrado em 25 de janeiro",
+          "variantes": [
+            "Conversão de São Paulo",
+            "Conversão de Paulo de Tarso"
+          ]
+        },
+        {
+          "id": "metro_de_sao_paulo",
+          "nome": "Metrô de São Paulo",
+          "descricao": "Sistema de metrô da cidade de São Paulo, o primeiro do Brasil.",
+          "variantes": [
+            "Companhia do Metropolitano de São Paulo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Palácio do Jaburu",
+        "descricao": "Residência oficial do vice-presidente do Brasil em Brasília, projetada por Oscar Niemeyer e inaugurada em 1977.",
+        "variantes": [
+          "Jaburu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tuiuiu",
+          "nome": "Tuiuiú",
+          "descricao": "Grande cegonha (Jabiru mycteria) de plumagem branca, cabeça e pescoço pretos com colar vermelho, ave-símbolo do Pantanal.",
+          "variantes": [
+            "Jaburu",
+            "Jabiru",
+            "Jabiru mycteria"
+          ]
+        },
+        {
+          "id": "palacio_itamaraty",
+          "nome": "Palácio Itamaraty",
+          "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+          "variantes": [
+            "Palácio dos Arcos",
+            "Itamaraty"
+          ]
+        },
+        {
+          "id": "bauru",
+          "nome": "Bauru",
+          "descricao": "Sanduíche brasileiro de rosbife, queijo derretido, tomate e picles no pão francês, criado no bar Ponto Chic",
+          "variantes": [
+            "Bauru (sanduíche)"
+          ]
+        },
+        {
+          "id": "nauru",
+          "nome": "Nauru",
+          "descricao": "País insular e microestado do Pacífico Sul, na Micronésia, cuja capital de fato é Yaren.",
+          "variantes": [
+            "Naoero",
+            "República de Nauru"
+          ]
+        },
+        {
+          "id": "jambu",
+          "nome": "Jambu",
+          "descricao": "Erva amazônica (Acmella oleracea) de flores amarelas com centro vermelho, usada em pratos paraenses.",
+          "variantes": [
+            "Agrião-do-pará",
+            "Acmella oleracea",
+            "Abecedária"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Praia de Ponta Negra (Natal)",
+        "descricao": "Praia mais visitada de Natal, no Rio Grande do Norte, onde fica o Morro do Careca.",
+        "variantes": [
+          "Ponta Negra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eusebio",
+          "nome": "Eusébio",
+          "descricao": "Eusébio da Silva Ferreira, atacante do Benfica e da seleção portuguesa, artilheiro da Copa de 1966.",
+          "variantes": [
+            "Eusébio da Silva Ferreira",
+            "Pantera Negra",
+            "Pérola Negra"
+          ]
+        },
+        {
+          "id": "porta_nigra",
+          "nome": "Porta Nigra",
+          "descricao": "Grande portão de cidade romano em Trier, na Alemanha.",
+          "variantes": [
+            "Porta Negra de Trier"
+          ]
+        },
+        {
+          "id": "polvora",
+          "nome": "Pólvora",
+          "descricao": "Mistura explosiva de salitre, enxofre e carvão, a mais antiga conhecida.",
+          "variantes": [
+            "Pólvora negra",
+            "Gunpowder"
+          ]
+        },
+        {
+          "id": "peste_negra",
+          "nome": "Peste Negra",
+          "descricao": "Pandemia de peste bubônica que devastou a Europa, a Ásia e o Norte da África em meados do século quatorze.",
+          "variantes": [
+            "Grande Peste",
+            "Black Death",
+            "Morte Negra"
+          ]
+        },
+        {
+          "id": "ponte_aerea",
+          "nome": "Ponte aérea",
+          "descricao": "Jogada de basquete em que um jogador lança a bola perto do aro e um companheiro a pega no ar e a enterra.",
+          "variantes": [
+            "Alley-oop"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "rio_sao_francisco",
+      "motivo": "Mesmo rio, Velho Chico."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Mosteiro de São Bento de São Paulo."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "cerrado",
+      "motivo": "Mesmo bioma de savana do Brasil central."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A praça é distinta do Palácio da Liberdade, que é só um edifício ao redor."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "obelisco_de_sao_paulo",
+      "motivo": "Mesmo monumento no Ibirapuera."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Palácio do Jaburu é diferente da ave Jaburu e dos outros palácios."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a praia de Ponta Negra."
+    }
+  ]
+}

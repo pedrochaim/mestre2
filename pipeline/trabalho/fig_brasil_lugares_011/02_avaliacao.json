@@ -1,0 +1,211 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto aérea do cânion do São Francisco, com paredões vermelhos; sem texto. Difícil, mas a pergunta só se responde reconhecendo o rio.",
+      "pergunta": "Em que estado nasce o rio que aparece nesta foto?",
+      "resposta": "Minas Gerais",
+      "tipo": "multipla",
+      "distratores": [
+        "Bahia",
+        "Pernambuco",
+        "Goiás"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Rio São Francisco",
+        "descricao": "Rio brasileiro de 2.914 km, o mais longo a correr inteiramente em território do Brasil, conhecido como Velho Chico.",
+        "variantes": [
+          "Velho Chico",
+          "Opara"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida da fachada com as duas torres e o relógio; sem texto. A pergunta sobre o lema só se responde reconhecendo o mosteiro.",
+      "pergunta": "Qual é o lema latino que orienta a vida dos monges deste mosteiro?",
+      "resposta": "Ora et labora",
+      "tipo": "multipla",
+      "distratores": [
+        "Ad maiorem Dei gloriam",
+        "Memento mori",
+        "Pax et bonum"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "ancora": {
+        "nome": "Mosteiro de São Bento (São Paulo)",
+        "descricao": "Mosteiro beneditino no centro histórico de São Paulo, fundado em 1598, com basílica construída entre 1910 e 1914.",
+        "variantes": [
+          "Basílica Abacial de Nossa Senhora da Assunção",
+          "Mosteiro de São Bento de São Paulo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A foto antiga traz a legenda 'Teatro Guaíra' e 'Avenida Municipal' escrita na parte de baixo. O texto entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem de satélite da América do Sul com o contorno amarelo do Cerrado, sem texto. A área é distinta dos outros biomas.",
+      "pergunta": "Que bioma brasileiro está delimitado em amarelo neste mapa?",
+      "resposta": "Cerrado",
+      "tipo": "multipla",
+      "distratores": [
+        "Caatinga",
+        "Pantanal",
+        "Mata Atlântica"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Cerrado",
+        "descricao": "Savana tropical do Brasil central, o segundo maior bioma do país, depois da Amazônia.",
+        "variantes": [
+          "Savana brasileira"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A foto mostra uma praia com a foz de um rio e manguezal, sem nada que identifique Trancoso. Qualquer litoral nordestino poderia ser, então a resposta não é única."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fontes, coreto, palácio e o Edifício Niemeyer ao fundo; sem texto e sem pessoas. É reconhecível para quem conhece Belo Horizonte, e a múltipla escolha ajuda.",
+      "pergunta": "Que praça mineira é esta?",
+      "resposta": "Praça da Liberdade",
+      "tipo": "multipla",
+      "distratores": [
+        "Praça Sete",
+        "Praça da Estação",
+        "Praça do Papa"
+      ],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "ancora": {
+        "nome": "Praça da Liberdade (Belo Horizonte)",
+        "descricao": "Praça e conjunto arquitetônico na região da Savassi, em Belo Horizonte, ao redor do Palácio da Liberdade.",
+        "variantes": [
+          "Praça da Liberdade"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A casa colorida é genérica e não é reconhecível como o museu. Há também texto em faixas e uma placa, com o nome do pavilhão, que aparecem na imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "O Pão de Açúcar e o Morro da Urca aparecem nítidos, sem texto. A pergunta aponta o morro da direita e o Pão de Açúcar não está entre as alternativas.",
+      "pergunta": "Que morro aparece à direita nesta foto, mais baixo e comprido?",
+      "resposta": "Morro da Urca",
+      "tipo": "multipla",
+      "distratores": [
+        "Corcovado",
+        "Morro Dois Irmãos",
+        "Pico da Tijuca"
+      ],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Morro da Urca",
+        "descricao": "Morro do bairro da Urca, no Rio de Janeiro, que fica ao lado do Pão de Açúcar e faz parte do mesmo monumento natural.",
+        "variantes": [
+          "Urca"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "O obelisco do Ibirapuera aparece inteiro, com os relevos e o céu limpo. Não há texto legível nem pessoas.",
+      "pergunta": "Que revolução este obelisco homenageia?",
+      "resposta": "Revolução Constitucionalista de 1932",
+      "tipo": "multipla",
+      "distratores": [
+        "Revolução Farroupilha",
+        "Revolução de 1930",
+        "Revolta da Vacina"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Obelisco de São Paulo",
+        "descricao": "Obelisco de 72 metros no Parque Ibirapuera, em São Paulo, monumento à Revolução Constitucionalista de 1932.",
+        "variantes": [
+          "Obelisco do Ibirapuera",
+          "Obelisco Mausoléu aos Heróis de 32"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A foto mostra torcedores em primeiro plano e faixas e logos com texto. Também não permite reconhecer o estádio pela imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista aérea do palácio baixo com piscina, à beira do lago, sem texto nem pessoas. Reconhecer a residência é difícil, mas a pergunta usa múltipla escolha.",
+      "pergunta": "Quem é a autoridade que reside neste palácio de Brasília?",
+      "resposta": "Vice-presidente da República",
+      "tipo": "multipla",
+      "distratores": [
+        "Presidente da República",
+        "Presidente do Senado",
+        "Presidente do Supremo"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 1,
+      "ancora": {
+        "nome": "Palácio do Jaburu",
+        "descricao": "Residência oficial do vice-presidente do Brasil em Brasília, projetada por Oscar Niemeyer e inaugurada em 1977.",
+        "variantes": [
+          "Jaburu"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Praia com o Morro do Careca ao fundo, sem texto que entregue a resposta. As pessoas são banhistas ao longe.",
+      "pergunta": "Que praia do Nordeste é esta?",
+      "resposta": "Ponta Negra",
+      "tipo": "multipla",
+      "distratores": [
+        "Pipa",
+        "Genipabu",
+        "Canoa Quebrada"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Praia de Ponta Negra (Natal)",
+        "descricao": "Praia mais visitada de Natal, no Rio Grande do Norte, onde fica o Morro do Careca.",
+        "variantes": [
+          "Ponta Negra"
+        ]
+      }
+    }
+  ]
+}

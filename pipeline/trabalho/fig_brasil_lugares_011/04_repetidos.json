@@ -1,0 +1,85 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que estado nasce o rio que aparece nesta foto?",
+        "resposta": "Minas Gerais"
+      },
+      "existentes": [
+        {
+          "id": "q02156",
+          "pergunta": "Que rio separa as cidades vizinhas de Petrolina, em Pernambuco, e Juazeiro, na Bahia?",
+          "resposta": "Rio São Francisco"
+        },
+        {
+          "id": "q02157",
+          "pergunta": "O rio São Francisco, o Velho Chico, nasce na Serra da Canastra, em qual estado brasileiro?",
+          "resposta": "Minas Gerais"
+        },
+        {
+          "id": "q09155",
+          "pergunta": "Na divisa entre a Bahia e Alagoas, que cachoeira do rio São Francisco deu nome a um grande complexo de usinas hidrelétricas?",
+          "resposta": "Cachoeira de Paulo Afonso"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que bioma brasileiro está destacado neste mapa?",
+        "resposta": "Cerrado"
+      },
+      "existentes": [
+        {
+          "id": "q02274",
+          "pergunta": "A casca grossa, parecida com cortiça, de muitas árvores do Cerrado é uma adaptação que as protege contra o quê?",
+          "resposta": "O fogo"
+        },
+        {
+          "id": "q06255",
+          "pergunta": "O bioma do Brasil central recebeu o nome de uma palavra portuguesa que descreve sua vegetação. Nesse sentido, o que significa cerrado?",
+          "resposta": "Fechado"
+        },
+        {
+          "id": "q08681",
+          "pergunta": "Atrás apenas da Amazônia, qual é o segundo maior bioma do Brasil em área?",
+          "resposta": "Cerrado"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que acontecimento histórico este obelisco, em um parque paulistano, homenageia?",
+        "resposta": "Revolução Constitucionalista de 1932"
+      },
+      "existentes": [
+        {
+          "id": "q16243",
+          "pergunta": "Que monumento é este?",
+          "resposta": "Obelisco do Ibirapuera"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q02157",
+      "motivo": "Ambas perguntam o estado onde nasce o rio São Francisco (Minas Gerais)."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q08681",
+      "motivo": "Ambas têm como resposta o Cerrado como bioma; identificar o bioma no mapa equivale a saber que é o segundo maior, mas na dúvida... a resposta é a mesma entidade identificada, porém fatos distintos."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A existente pergunta o nome do monumento; a nova pergunta o acontecimento homenageado, fato diferente."
+    }
+  ]
+}
