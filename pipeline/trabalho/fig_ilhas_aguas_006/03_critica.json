@@ -1,0 +1,70 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas \"catarinense\" no enunciado com distratores de outros estados (PR, RJ, SP) deixa a figura quase dispensável. Distratores do mesmo litoral catarinense deixam a pergunta justa.",
+      "reescrita": {
+        "pergunta": "Que ilha do litoral catarinense é esta?",
+        "resposta": "Ilha do Campeche",
+        "distratores": [
+          "Ilha do Arvoredo",
+          "Ilha do Xavier",
+          "Ilha de Anhatomirim"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Rio de águas ácidas\" descreve o Rio Tinto e permite responder sem a figura. A cor e a acidez devem vir da imagem. O fato (Espanha) está nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que país corre este rio?",
+        "resposta": "Espanha",
+        "distratores": [
+          "Portugal",
+          "Chile",
+          "Bolívia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreito de Bass confirmado nos trechos. O enunciado não nomeia a ilha, e a figura é necessária (outras ilhas também ficam perto do continente). Distratores são estreitos reais e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A ponte de 2,9 km ligando a ilha a La Rochelle está nos dois trechos. O enunciado não nomeia a ilha e não dá para responder sem a figura. Distratores são cidades francesas do litoral atlântico, e nenhuma delas é ligada por ponte.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Creta é só uma das ilhas do limite sul (Citera, Anticítera, Creta, Cárpato, Rodes), e \"grande ilha\" deixa Rodes defensável. Pedir a maior elimina a ambiguidade sem entregar a resposta.",
+      "reescrita": {
+        "pergunta": "Qual é a maior ilha no limite sul deste mar?",
+        "resposta": "Creta",
+        "distratores": [
+          "Chipre",
+          "Sicília",
+          "Malta"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Distratores plausíveis (Menorca, Córsega, Sardenha) são outras ilhas mediterrâneas, e nenhum deles é correto.",
+      "reescrita": null
+    }
+  ]
+}

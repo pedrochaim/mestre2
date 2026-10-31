@@ -1,0 +1,176 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto sem texto da ilha vista da praia, com silhueta característica de dois morros; resposta única com distratores brasileiros.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que ilha do litoral catarinense é esta?",
+      "resposta": "Ilha do Campeche",
+      "distratores": [
+        "Ilha do Mel",
+        "Ilha Grande",
+        "Ilhabela"
+      ],
+      "ancora": {
+        "nome": "Ilha do Campeche",
+        "descricao": "Ilha do litoral de Florianópolis, em Santa Catarina, Brasil.",
+        "variantes": [
+          "Campeche"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Águas e rochas vermelho-alaranjadas muito características; sem texto.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Em que país corre este rio de águas ácidas?",
+      "resposta": "Espanha",
+      "distratores": [
+        "Portugal",
+        "Chile",
+        "Bolívia"
+      ],
+      "ancora": {
+        "nome": "Rio Tinto",
+        "descricao": "Rio ácido de cor avermelhada no sudoeste da Espanha, que desemboca em Huelva.",
+        "variantes": [
+          "Río Tinto",
+          "Rio Tinto (Espanha)"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem de satélite sem texto, com contorno inconfundível da ilha.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Que estreito separa esta ilha do continente australiano?",
+      "resposta": "Estreito de Bass",
+      "distratores": [
+        "Estreito de Torres",
+        "Estreito de Cook",
+        "Estreito de Magalhães"
+      ],
+      "ancora": {
+        "nome": "Tasmânia",
+        "descricao": "Ilha e estado ao sul da Austrália continental.",
+        "variantes": [
+          "Tasmania"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Falésias e mar genéricos; não permitem reconhecer Lampedusa e a resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem de satélite sem texto, com forma alongada característica e a ponte visível no canto; múltipla escolha deixa justo.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que cidade do continente é ligada a esta ilha por uma ponte?",
+      "resposta": "La Rochelle",
+      "distratores": [
+        "Bordeaux",
+        "Nantes",
+        "Saint-Malo"
+      ],
+      "ancora": {
+        "nome": "Ilha de Ré",
+        "descricao": "Ilha francesa do Atlântico, diante de La Rochelle.",
+        "variantes": [
+          "Île de Ré",
+          "Ile de Ré"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Mapa antigo holandês cheio de legendas, com o nome SUMATRA visível."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem de satélite sem texto; ilhas gregas e a costa turca reconhecíveis, com Creta ao sul.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Que grande ilha aparece no limite sul deste mar?",
+      "resposta": "Creta",
+      "distratores": [
+        "Chipre",
+        "Sicília",
+        "Malta"
+      ],
+      "ancora": {
+        "nome": "Mar Egeu",
+        "descricao": "Mar do Mediterrâneo entre a Grécia e a Turquia, com centenas de ilhas.",
+        "variantes": [
+          "Egeu",
+          "Mar Egeu"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Imagem de satélite de montanhas e rios, sem forma que permita reconhecer o lago; ambígua."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem de satélite sem texto, com contorno característico da ilha.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que ilha mediterrânea é esta?",
+      "resposta": "Maiorca",
+      "distratores": [
+        "Menorca",
+        "Córsega",
+        "Sardenha"
+      ],
+      "ancora": {
+        "nome": "Maiorca",
+        "descricao": "Maior ilha das Baleares, na Espanha.",
+        "variantes": [
+          "Mallorca",
+          "Majorca"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Paisagem genérica de lago com pinheiros e montanhas; não permite reconhecer o Tahoe."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Mapa com legendas que entregam a resposta (Sea of Japan)."
+    }
+  ]
+}

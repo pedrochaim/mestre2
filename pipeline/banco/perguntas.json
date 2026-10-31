@@ -337104,5 +337104,155 @@
       "licenca": "CC BY 2.0"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q17350",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "ilha_do_campeche",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que ilha do litoral catarinense é esta?",
+    "resposta": "Ilha do Campeche",
+    "distratores": [
+      "Ilha do Arvoredo",
+      "Ilha do Xavier",
+      "Ilha de Anhatomirim"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ilha_do_Campeche",
+      "https://en.wikipedia.org/wiki/Campeche_Island"
+    ],
+    "imagem": {
+      "arquivo": "q17350.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Florianopolis_Campeche_Ilha.JPG",
+      "autor": "Lionel Baur",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q17351",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_tinto",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país corre este rio?",
+    "resposta": "Espanha",
+    "distratores": [
+      "Portugal",
+      "Chile",
+      "Bolívia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rio_Tinto_%28river%29",
+      "https://pt.wikipedia.org/wiki/Rio_Tinto_%28Espanha%29"
+    ],
+    "imagem": {
+      "arquivo": "q17351.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:IronInRocksMakeRiverRed.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q17352",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "tasmania",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que estreito separa esta ilha do continente australiano?",
+    "resposta": "Estreito de Bass",
+    "distratores": [
+      "Estreito de Torres",
+      "Estreito de Cook",
+      "Estreito de Magalhães"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tasmania",
+      "https://pt.wikipedia.org/wiki/Tasm%C3%A2nia"
+    ],
+    "imagem": {
+      "arquivo": "q17352.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tasmania.A2005320.2355.250m.jpg",
+      "autor": "Jeff Schmaltz, MODIS Rapid Response Team, NASA/GSFC",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q17353",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "ilha_de_re",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que cidade do continente é ligada a esta ilha por uma ponte?",
+    "resposta": "La Rochelle",
+    "distratores": [
+      "Bordeaux",
+      "Nantes",
+      "Saint-Malo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/%C3%8Ele_de_R%C3%A9",
+      "https://pt.wikipedia.org/wiki/Ilha_de_R%C3%A9"
+    ],
+    "imagem": {
+      "arquivo": "q17353.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ré_SPOT_1156.jpg",
+      "autor": "Cnes - Spot Image",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q17354",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "mar_egeu",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Qual é a maior ilha no limite sul deste mar?",
+    "resposta": "Creta",
+    "distratores": [
+      "Chipre",
+      "Sicília",
+      "Malta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aegean_Sea",
+      "https://pt.wikipedia.org/wiki/Mar_Egeu"
+    ],
+    "imagem": {
+      "arquivo": "q17354.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Aegeansea.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q17355",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "maiorca",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que ilha mediterrânea é esta?",
+    "resposta": "Maiorca",
+    "distratores": [
+      "Menorca",
+      "Córsega",
+      "Sardenha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mallorca",
+      "https://pt.wikipedia.org/wiki/Maiorca"
+    ],
+    "imagem": {
+      "arquivo": "q17355.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Imagen_satelital_de_Mallorca_(Islas_Baleares,_España).jpg",
+      "autor": "Pierre Markuse from Hamm, Germany",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]

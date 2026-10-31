@@ -1,0 +1,366 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ilha do Campeche",
+        "descricao": "Ilha do litoral de Florianópolis, em Santa Catarina, Brasil.",
+        "variantes": [
+          "Campeche"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_do_mel",
+          "nome": "Ilha do Mel",
+          "descricao": "Ilha na entrada da baía de Paranaguá, conhecida pelas praias, pelo farol e pela proibição de carros.",
+          "variantes": []
+        },
+        {
+          "id": "andre_marie_ampere",
+          "nome": "André-Marie Ampère",
+          "descricao": "Físico e matemático francês, fundador do eletromagnetismo clássico, que dá nome à unidade de corrente elétrica.",
+          "variantes": [
+            "Ampère"
+          ]
+        },
+        {
+          "id": "champanhe",
+          "nome": "Champanhe",
+          "descricao": "Vinho espumante produzido na região de Champagne, na França",
+          "variantes": [
+            "Champagne",
+            "Champanha"
+          ]
+        },
+        {
+          "id": "captcha",
+          "nome": "CAPTCHA",
+          "descricao": "Teste automático usado em sites para distinguir pessoas de programas, como digitar letras distorcidas.",
+          "variantes": []
+        },
+        {
+          "id": "ceviche",
+          "nome": "Ceviche",
+          "descricao": "Prato frio de peixe ou frutos do mar crus marinados em suco cítrico, prato nacional do Peru.",
+          "variantes": [
+            "Cebiche",
+            "Seviche",
+            "Sebiche"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Rio Tinto",
+        "descricao": "Rio ácido de cor avermelhada no sudoeste da Espanha, que desemboca em Huelva.",
+        "variantes": [
+          "Rio Tinto (Espanha)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_tinto",
+          "nome": "Rio Tinto",
+          "descricao": "Rio do sudoeste da Espanha, na Andaluzia, de águas ácidas e avermelhadas.",
+          "variantes": []
+        },
+        {
+          "id": "rio_indo",
+          "nome": "Rio Indo",
+          "descricao": "Grande rio do sul da Ásia que nasce no Tibete e deságua no mar da Arábia, perto de Karachi.",
+          "variantes": [
+            "Indus",
+            "Sindhu"
+          ]
+        },
+        {
+          "id": "vinho",
+          "nome": "Vinho",
+          "descricao": "Bebida alcoólica feita da fermentação do suco de uva.",
+          "variantes": [
+            "Vinho tinto",
+            "Vinho branco"
+          ]
+        },
+        {
+          "id": "rio_tiete",
+          "nome": "Rio Tietê",
+          "descricao": "Rio do estado de São Paulo que nasce em Salesópolis, atravessa a capital paulista e deságua no rio Paraná.",
+          "variantes": [
+            "Tietê",
+            "Tietê River"
+          ]
+        },
+        {
+          "id": "risoto",
+          "nome": "Risoto",
+          "descricao": "Prato italiano de arroz cozido lentamente em caldo até ficar cremoso.",
+          "variantes": [
+            "Risotto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Tasmânia",
+        "descricao": "Ilha e estado ao sul da Austrália continental.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "esquilo_listrado",
+          "nome": "Esquilo-listrado",
+          "descricao": "Pequeno roedor Tamias striatus, de listras escuras nas costas, do leste da América do Norte.",
+          "variantes": [
+            "Tâmia",
+            "Tâmia-oriental",
+            "Tamias striatus"
+          ]
+        },
+        {
+          "id": "tanzania",
+          "nome": "Tanzânia",
+          "descricao": "País da África Oriental formado em 1964 pela união de Tanganica e Zanzibar.",
+          "variantes": [
+            "República Unida da Tanzânia"
+          ]
+        },
+        {
+          "id": "floresta_amazonica",
+          "nome": "Floresta Amazônica",
+          "descricao": "Floresta tropical úmida da bacia amazônica, na América do Sul",
+          "variantes": [
+            "Amazônia",
+            "Hileia Amazônica",
+            "Amazon rainforest"
+          ]
+        },
+        {
+          "id": "rodovia_transamazonica",
+          "nome": "Rodovia Transamazônica",
+          "descricao": "Rodovia federal BR-230, que atravessa a Amazônia no sentido leste-oeste.",
+          "variantes": [
+            "Transamazônica",
+            "BR-230"
+          ]
+        },
+        {
+          "id": "amarna",
+          "nome": "Amarna",
+          "descricao": "Cidade fundada pelo faraó Aquenáton no século quatorze antes de Cristo como nova capital do Egito",
+          "variantes": [
+            "Tell el-Amarna",
+            "Aquetáton",
+            "Akhetaten"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Ilha de Ré",
+        "descricao": "Ilha francesa do Atlântico, diante de La Rochelle.",
+        "variantes": [
+          "Île de Ré",
+          "Ile de Ré"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_de_goree",
+          "nome": "Ilha de Gorée",
+          "descricao": "Pequena ilha diante de Dacar, símbolo do tráfico atlântico de escravizados e Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Gorée",
+            "Ilha de Goreia"
+          ]
+        },
+        {
+          "id": "elba",
+          "nome": "Elba",
+          "descricao": "Ilha italiana no mar Tirreno, entre a Toscana e a Córsega.",
+          "variantes": [
+            "Isola d'Elba",
+            "Ilha de Elba"
+          ]
+        },
+        {
+          "id": "ilha_de_calor",
+          "nome": "Ilha de calor",
+          "descricao": "Fenômeno em que áreas urbanas ficam mais quentes que o campo ao redor",
+          "variantes": [
+            "Ilha de calor urbana",
+            "Urban heat island"
+          ]
+        },
+        {
+          "id": "delos",
+          "nome": "Delos",
+          "descricao": "Pequena ilha grega das Cíclades, grande santuário de Apolo na Antiguidade e primeira sede da Liga de Delos.",
+          "variantes": [
+            "Ilha de Delos",
+            "Dílos"
+          ]
+        },
+        {
+          "id": "lei_de_moore",
+          "nome": "Lei de Moore",
+          "descricao": "Previsão de que o número de transistores num chip dobra a intervalos regulares, formulada por Gordon Moore em 1965.",
+          "variantes": [
+            "Moore's law"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Mar Egeu",
+        "descricao": "Mar do Mediterrâneo entre a Grécia e a Turquia, com centenas de ilhas.",
+        "variantes": [
+          "Egeu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "egeu_rei_de_atenas",
+          "nome": "Egeu (rei de Atenas)",
+          "descricao": "Rei mítico de Atenas, pai de Teseu, que deu nome ao Mar Egeu.",
+          "variantes": [
+            "Aegeus"
+          ]
+        },
+        {
+          "id": "teiu",
+          "nome": "Teiú",
+          "descricao": "Grande lagarto preto e branco (Salvator merianae) do leste e centro da América do Sul.",
+          "variantes": [
+            "Teiú-comum",
+            "Tegu",
+            "Salvator merianae",
+            "Teju"
+          ]
+        },
+        {
+          "id": "mareep",
+          "nome": "Mareep",
+          "descricao": "Pokémon ovelha do tipo Elétrico, número 179 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "mar_negro",
+          "nome": "Mar Negro",
+          "descricao": "Mar interior entre o sudeste da Europa e a Ásia Menor, ligado ao Mediterrâneo pelo Bósforo.",
+          "variantes": [
+            "Black Sea"
+          ]
+        },
+        {
+          "id": "herge",
+          "nome": "Hergé",
+          "descricao": "Quadrinista belga, criador de Tintim",
+          "variantes": [
+            "Georges Remi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Maiorca",
+        "descricao": "Maior ilha das Baleares, na Espanha.",
+        "variantes": [
+          "Mallorca",
+          "Majorca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maloca",
+          "nome": "Maloca",
+          "descricao": "Grande cabana comunitária de madeira e palha usada por povos indígenas da região amazônica.",
+          "variantes": []
+        },
+        {
+          "id": "mandioca",
+          "nome": "Mandioca",
+          "descricao": "Raiz da planta Manihot esculenta, base alimentar indígena e ingrediente central da cozinha brasileira",
+          "variantes": [
+            "Aipim",
+            "Macaxeira",
+            "Manihot esculenta",
+            "cassava",
+            "mandioca-brava"
+          ]
+        },
+        {
+          "id": "federico_garcia_lorca",
+          "nome": "Federico García Lorca",
+          "descricao": "Poeta e dramaturgo espanhol (1898–1936), autor de Bodas de Sangue.",
+          "variantes": [
+            "García Lorca",
+            "Lorca"
+          ]
+        },
+        {
+          "id": "marcha_atletica",
+          "nome": "Marcha atlética",
+          "descricao": "Prova de pedestrianismo do atletismo em que os atletas andam o mais rápido possível, sem correr.",
+          "variantes": [
+            "Racewalking",
+            "Marcha"
+          ]
+        },
+        {
+          "id": "cultura_marajoara",
+          "nome": "Cultura marajoara",
+          "descricao": "Sociedade indígena que viveu na ilha de Marajó, no Pará, entre cerca de 400 e 1400, famosa por sua cerâmica pintada.",
+          "variantes": [
+            "Cerâmica marajoara",
+            "Marajoara"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ilha do Campeche (Florianópolis) não consta entre as candidatas; Ilha do Mel é outra ilha."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "rio_tinto",
+      "motivo": "Mesmo rio ácido avermelhado do sudoeste da Espanha (Andaluzia)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Tasmânia não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Ilha de Ré (França) é diferente de Gorée, Elba e Delos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "O Mar Egeu é diferente do rei mítico Egeu, que lhe deu nome."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Maiorca não consta entre as candidatas."
+    }
+  ]
+}

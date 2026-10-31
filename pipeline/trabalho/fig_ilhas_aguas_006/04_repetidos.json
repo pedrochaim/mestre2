@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que país corre este rio?",
+        "resposta": "Espanha"
+      },
+      "existentes": [
+        {
+          "id": "q02866",
+          "pergunta": "O rio Tinto, na Espanha, de águas ácidas e avermelhadas, empresta o nome a uma empresa gigante de que setor?",
+          "resposta": "Mineração"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta o setor da empresa Rio Tinto (a Espanha é dada no enunciado). A nova pede o país do rio; responder uma não é saber a outra, e o fato é diferente, embora a Espanha apareça no enunciado da existente."
+    }
+  ]
+}
