@@ -1,0 +1,251 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arte oficial de Dhalsim, reconhecível (iogue de barba branca soltando fogo). Silhueta poluída por fumaça, então usa a colorida.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que empresa criou este personagem?",
+      "resposta": "Capcom",
+      "distratores": [
+        "SNK",
+        "Namco",
+        "Midway"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Dhalsim",
+        "descricao": "Mestre de ioga indiano da série de jogos de luta Street Fighter, que estica o corpo e cospe fogo.",
+        "variantes": [
+          "Darushimu"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ken Masters reconhecível pelo cabelo loiro e pelo golpe de fogo; silhueta cheia de respingos, então usa a colorida com distratores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Ken Masters",
+      "distratores": [
+        "Ryu",
+        "Terry Bogard",
+        "Guile"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Ken Masters",
+        "descricao": "Lutador americano loiro de Street Fighter, rival e amigo de Ryu.",
+        "variantes": [
+          "Ken"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Arte oficial clara de Ness, com boné vermelho e camiseta listrada.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que RPG de Super Nintendo este menino é o protagonista?",
+      "resposta": "EarthBound",
+      "distratores": [
+        "Chrono Trigger",
+        "Final Fantasy VI",
+        "Secret of Mana"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Ness",
+        "descricao": "Menino de boné vermelho, protagonista mudo do RPG EarthBound, da Nintendo.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Captura de cena de jogo, de rosto realista e sem traço inconfundível; a personagem não é reconhecível com segurança e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Gordon Freeman reconhecível pelos óculos, barba e traje com o lambda. A silhueta é só busto e não é característica.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que empresa criou o jogo de estreia deste personagem?",
+      "resposta": "Valve",
+      "distratores": [
+        "id Software",
+        "Bungie",
+        "Epic Games"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Gordon Freeman",
+        "descricao": "Físico teórico de óculos, protagonista silencioso da série de jogos Half-Life.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O rosto e o tapa-olho ficam ocultos atrás do joelho e dos respingos; o lutador de muay thai pode ser confundido com Adon, então a resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Planta Piranha no cano, bem reconhecível. A silhueta traz o cano grudado, então usa a colorida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que jogo esta planta inimiga apareceu pela primeira vez?",
+      "resposta": "Super Mario Bros.",
+      "distratores": [
+        "Super Mario Bros. 3",
+        "Super Mario World",
+        "Super Mario 64"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Planta Piranha",
+        "descricao": "Inimigo da série Mario, uma planta de cabeça vermelha com bolinhas brancas e dentes que sai de canos verdes.",
+        "variantes": [
+          "Piranha Plant"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Lady Dimitrescu com chapéu enorme e piteira, bem reconhecível. A silhueta funcionaria, mas a pergunta de nível 3 usa a colorida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que jogo de Resident Evil esta personagem é uma das vilãs?",
+      "resposta": "Resident Evil Village",
+      "distratores": [
+        "Resident Evil 7",
+        "Resident Evil 4",
+        "Resident Evil 2"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Lady Dimitrescu",
+        "descricao": "Condessa altíssima de chapéu largo, vilã de Resident Evil Village.",
+        "variantes": [
+          "Alcina Dimitrescu"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Ratchet com a chave inglesa, reconhecível pelo lombax de orelha longa; a silhueta com a arma é ambígua, então usa a colorida.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estúdio criou este personagem?",
+      "resposta": "Insomniac Games",
+      "distratores": [
+        "Naughty Dog",
+        "Sucker Punch",
+        "Rare"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Ratchet",
+        "descricao": "Lombax mecânico, protagonista da série de jogos Ratchet & Clank.",
+        "variantes": [
+          "Ratchet & Clank"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Johnny Cage com óculos escuros e ataduras nas mãos, reconhecível. A silhueta, com as pernas desvanecidas, não é característica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Johnny Cage",
+      "distratores": [
+        "Liu Kang",
+        "Jax Briggs",
+        "Stryker"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Johnny Cage",
+        "descricao": "Ator e artista marcial de óculos escuros, lutador da série Mortal Kombat.",
+        "variantes": [
+          "Jonathan Carlton"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Shy Guy vermelho, bem reconhecível pela máscara branca. A silhueta é uma mancha, então usa a colorida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que jogo este inimigo apareceu pela primeira vez, antes de entrar no universo de Mario?",
+      "resposta": "Doki Doki Panic",
+      "distratores": [
+        "Kid Icarus",
+        "The Legend of Zelda",
+        "Punch-Out"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Shy Guy",
+        "descricao": "Inimigo mascarado de túnica vermelha das séries Mario e Yoshi.",
+        "variantes": [
+          "Maskass",
+          "Shyguy"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Marth em arte clássica, com capa, tiara e espada. A silhueta pode ser confundida com outros espadachins da série, então usa a colorida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Marth",
+      "distratores": [
+        "Roy",
+        "Ike",
+        "Lucina"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Marth",
+        "descricao": "Príncipe de cabelo azul, protagonista do primeiro Fire Emblem.",
+        "variantes": [
+          "Marth Lowell"
+        ]
+      }
+    }
+  ]
+}
