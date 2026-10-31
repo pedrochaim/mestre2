@@ -1265,7 +1265,7 @@
       "titulo": "en:Kettlebell",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Velódromo",
@@ -1867,7 +1867,7 @@
       "titulo": "en:Kyokushin",
       "camada": 2,
       "destino": 2,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Jiu-jítsu japonês",
@@ -1895,14 +1895,14 @@
       "titulo": "en:Gaelic football",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Korfebol",
       "titulo": "en:Korfball",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Floorball",
@@ -1966,6 +1966,286 @@
       "camada": 3,
       "destino": 4,
       "status": "nova"
+    },
+    {
+      "nome": "Esteira ergométrica",
+      "titulo": "en:Treadmill",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bicicleta ergométrica",
+      "titulo": "en:Stationary bicycle",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Berimbau",
+      "titulo": "en:Berimbau",
+      "camada": 1,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Tabuleiro de xadrez",
+      "titulo": "en:Chessboard",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Damas",
+      "titulo": "en:Draughts",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Corrida de sacos",
+      "titulo": "en:Sack race",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cabo de guerra",
+      "titulo": "en:Tug of war",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Frisbee",
+      "titulo": "en:Frisbee",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Bumerangue",
+      "titulo": "en:Boomerang",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Queimada",
+      "titulo": "en:Dodgeball",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Taco (bets)",
+      "titulo": "pt:Taco (jogo)",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tirolesa",
+      "titulo": "en:Zip line",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Trampolim de saltos ornamentais",
+      "titulo": "en:Diving board",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Minigolfe",
+      "titulo": "en:Miniature golf",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Kunai",
+      "titulo": "en:Kunai",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Bola de futebol americano",
+      "titulo": "en:Ball (gridiron football)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Remoergômetro",
+      "titulo": "en:Indoor rower",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Medicine ball",
+      "titulo": "en:Medicine ball",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Corrida de galgos",
+      "titulo": "en:Greyhound racing",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Sandboard",
+      "titulo": "en:Sandboarding",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Barco-dragão",
+      "titulo": "en:Dragon boat",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pole dance",
+      "titulo": "en:Pole dance",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Drift",
+      "titulo": "en:Drifting (motorsport)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Arrancada",
+      "titulo": "en:Drag racing",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Monster truck",
+      "titulo": "en:Monster truck",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lob (tênis)",
+      "titulo": "en:Lob (tennis)",
+      "camada": 2,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Vila Olímpica",
+      "titulo": "en:Olympic Village",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Defesa escorpião",
+      "titulo": "en:Scorpion kick",
+      "camada": 2,
+      "destino": 3,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Jitte",
+      "titulo": "en:Jitte",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Karambit",
+      "titulo": "en:Karambit",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Guandao",
+      "titulo": "en:Guandao",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Bastão de três seções",
+      "titulo": "en:Three-section staff",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Tweener (golpe entre as pernas)",
+      "titulo": "en:Tweener (tennis)",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Cordas de raquete de tênis",
+      "titulo": "en:Strings (tennis)",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Quadra de carpete",
+      "titulo": "en:Carpet court",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Esqui de moguls",
+      "titulo": "en:Mogul skiing",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hóquei subaquático",
+      "titulo": "en:Underwater hockey",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Bossaball",
+      "titulo": "en:Bossaball",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Disc golf",
+      "titulo": "en:Disc golf",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Roller derby",
+      "titulo": "en:Roller derby",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
     }
   ]
 }

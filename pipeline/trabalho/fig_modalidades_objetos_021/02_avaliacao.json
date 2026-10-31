@@ -1,0 +1,159 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Três berimbaus, um só assunto, sem texto, bem reconhecíveis.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Este instrumento de uma corda está ligado a qual arte?",
+      "resposta": "Capoeira",
+      "distratores": [
+        "Jiu-jitsu",
+        "Karatê",
+        "Taekwondo"
+      ],
+      "ancora": {
+        "nome": "Berimbau",
+        "descricao": "Instrumento musical de arco com uma corda e cabaça, usado na capoeira.",
+        "variantes": [
+          "Berimbau de barriga"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Atletas amadoras em primeiro plano (pessoas comuns), com texto e números visíveis."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Menino comum em primeiro plano; o disco é pequeno e secundário."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Jogo subaquático com tacos e disco no fundo da piscina, rostos cobertos por máscaras, sem texto que entregue a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "No Reino Unido, este esporte também é conhecido por qual nome?",
+      "resposta": "Octopush",
+      "distratores": [
+        "Squidpush",
+        "Octoball",
+        "Krakenpush"
+      ],
+      "ancora": {
+        "nome": "Hóquei subaquático",
+        "descricao": "Esporte de contato limitado jogado no fundo de uma piscina, com tacos curtos e um disco, sem equipamento de respiração.",
+        "variantes": [
+          "Underwater hockey",
+          "Octopush"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bola pesada nítida, sem texto que entregue a resposta (só '8 LB').",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que equipamento de treino é este?",
+      "resposta": "Medicine ball",
+      "distratores": [
+        "Bola suíça",
+        "Bola de handebol",
+        "Bola de vôlei"
+      ],
+      "ancora": {
+        "nome": "Medicine ball",
+        "descricao": "Bola pesada usada em treinos de força e reabilitação.",
+        "variantes": [
+          "Bola medicinal",
+          "Med ball"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Faixas com texto visível ('Copa 3 Nacions de Korfbal', 'korfbal.cat') entregam a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Tabuleiro de damas de 10x10 com peças redondas, sem texto, nítido.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que jogo de tabuleiro é este?",
+      "resposta": "Damas",
+      "distratores": [
+        "Xadrez",
+        "Gamão",
+        "Go"
+      ],
+      "ancora": {
+        "nome": "Damas",
+        "descricao": "Jogo de estratégia para dois jogadores, com peças que avançam e capturam por salto, jogado em tabuleiro quadriculado.",
+        "variantes": [
+          "Jogo de damas",
+          "Draughts",
+          "Checkers"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Textos visíveis (GAA, Kerry) denunciam o esporte e o país; a resposta deixa de depender do reconhecimento da cena."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Tabuleiro 8x8 também serve às damas, então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Kettlebell nítido, sem texto, fácil de reconhecer.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este peso de ferro com alça tem origem em que país?",
+      "resposta": "Rússia",
+      "distratores": [
+        "Alemanha",
+        "Estados Unidos",
+        "China"
+      ],
+      "ancora": {
+        "nome": "Kettlebell",
+        "descricao": "Peso de ferro fundido em forma de bola com uma alça no topo, usado em exercícios de força.",
+        "variantes": [
+          "Girya",
+          "Pesa russa"
+        ]
+      }
+    }
+  ]
+}

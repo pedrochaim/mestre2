@@ -1,0 +1,312 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Berimbau",
+        "descricao": "Instrumento musical de arco com uma corda e cabaça, usado na capoeira.",
+        "variantes": [
+          "Berimbau de barriga"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "berimbau",
+          "nome": "Berimbau",
+          "descricao": "Instrumento de corda de arco e cabaça que comanda o ritmo da roda de capoeira.",
+          "variantes": [
+            "Berimbau de barriga",
+            "Gunga"
+          ]
+        },
+        {
+          "id": "berlim",
+          "nome": "Berlim",
+          "descricao": "Capital da Alemanha, vista com a torre de TV, o Reichstag e o Portão de Brandemburgo.",
+          "variantes": [
+            "Berlin"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "esgrima",
+          "nome": "Esgrima",
+          "descricao": "Esporte de combate com armas brancas: florete, espada e sabre.",
+          "variantes": []
+        },
+        {
+          "id": "seriema",
+          "nome": "Seriema",
+          "descricao": "Ave terrestre predadora (Cariama cristata), de pernas e bico vermelhos e topete de penas eriçadas, dos campos da América do Sul.",
+          "variantes": [
+            "Seriema-de-perna-vermelha",
+            "Siriema",
+            "Red-legged seriema",
+            "Cariama cristata"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Hóquei subaquático",
+        "descricao": "Esporte de contato limitado jogado no fundo de uma piscina, com tacos curtos e um disco, sem equipamento de respiração.",
+        "variantes": [
+          "Underwater hockey",
+          "Octopush"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "polvo",
+          "nome": "Polvo",
+          "descricao": "Molusco cefalópode marinho de oito braços e corpo mole, do gênero Octopus e afins.",
+          "variantes": [
+            "Octopus"
+          ]
+        },
+        {
+          "id": "esqui_aquatico",
+          "nome": "Esqui aquático",
+          "descricao": "Esporte em que o atleta é puxado por um barco ou cabo sobre a água, deslizando sobre esquis.",
+          "variantes": [
+            "Water ski"
+          ]
+        },
+        {
+          "id": "opus",
+          "nome": "Opus",
+          "descricao": "Palavra latina usada para numerar as obras de um compositor, geralmente na ordem de publicação.",
+          "variantes": [
+            "Op.",
+            "Número de opus"
+          ]
+        },
+        {
+          "id": "polvo_mimetico",
+          "nome": "Polvo-mimético",
+          "descricao": "Polvo do Indo-Pacífico, Thaumoctopus mimicus, capaz de imitar outros animais marinhos.",
+          "variantes": [
+            "Thaumoctopus mimicus",
+            "Mimic octopus"
+          ]
+        },
+        {
+          "id": "polvo_dumbo",
+          "nome": "Polvo-dumbo",
+          "descricao": "Polvo de águas profundas do gênero Grimpoteuthis, com duas nadadeiras em forma de orelha.",
+          "variantes": [
+            "Grimpoteuthis",
+            "Dumbo octopus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Medicine ball",
+        "descricao": "Bola pesada usada em treinos de força e reabilitação.",
+        "variantes": [
+          "Bola medicinal",
+          "Med ball"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "met_gala",
+          "nome": "Met Gala",
+          "descricao": "Baile beneficente anual de moda do Instituto do Figurino do Metropolitan Museum of Art, em Nova York.",
+          "variantes": [
+            "Met Ball",
+            "Costume Institute Gala"
+          ]
+        },
+        {
+          "id": "red_bull",
+          "nome": "Red Bull",
+          "descricao": "Bebida energética austríaca lançada em 1987 por Dietrich Mateschitz.",
+          "variantes": []
+        },
+        {
+          "id": "master_ball",
+          "nome": "Master Ball",
+          "descricao": "Poké Bola roxa marcada com a letra M, a mais poderosa dos jogos Pokémon, fabricada pela Silph.",
+          "variantes": [
+            "Bola Mestra"
+          ]
+        },
+        {
+          "id": "poke_bola",
+          "nome": "Poké Bola",
+          "descricao": "Esfera vermelha e branca usada pelos treinadores para capturar e carregar pokémon.",
+          "variantes": [
+            "Poké Ball",
+            "Pokébola",
+            "Monster Ball"
+          ]
+        },
+        {
+          "id": "premier_ball",
+          "nome": "Premier Ball",
+          "descricao": "Poké Bola toda branca com faixa vermelha, dada de brinde nas lojas dos jogos Pokémon desde a terceira geração.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Damas",
+        "descricao": "Jogo de estratégia para dois jogadores, com peças que avançam e capturam por salto, jogado em tabuleiro quadriculado.",
+        "variantes": [
+          "Jogo de damas",
+          "Draughts",
+          "Checkers"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "damas_brasileiras",
+          "nome": "Damas brasileiras",
+          "descricao": "Variante do jogo de damas jogada no Brasil num tabuleiro de oito por oito casas, com dama que anda várias casas.",
+          "variantes": [
+            "Brazilian draughts",
+            "Jogo de damas"
+          ]
+        },
+        {
+          "id": "damas_inglesas",
+          "nome": "Damas inglesas",
+          "descricao": "Variante do jogo de damas jogada em tabuleiro de oito por oito, em que a dama anda uma casa por vez, resolvida por computador em 2007.",
+          "variantes": [
+            "Checkers",
+            "English draughts"
+          ]
+        },
+        {
+          "id": "damasco",
+          "nome": "Damasco",
+          "descricao": "Fruta alaranjada de caroço (Prunus armeniaca), consumida fresca ou seca.",
+          "variantes": [
+            "Abricó",
+            "Apricot"
+          ]
+        },
+        {
+          "id": "dardos",
+          "nome": "Dardos",
+          "descricao": "Jogo de salão em que os jogadores arremessam pequenos dardos contra um alvo circular dividido em vinte setores.",
+          "variantes": [
+            "Darts",
+            "Jogo de dardos"
+          ]
+        },
+        {
+          "id": "damao",
+          "nome": "Damão",
+          "descricao": "Pequeno mamífero herbívoro da África e do Oriente Médio, ordem Hyracoidea.",
+          "variantes": [
+            "Hírax",
+            "Hyrax"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Kettlebell",
+        "descricao": "Peso de ferro fundido em forma de bola com uma alça no topo, usado em exercícios de força.",
+        "variantes": [
+          "Girya",
+          "Pesa russa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hegira",
+          "nome": "Hégira",
+          "descricao": "Migração de Maomé e seus seguidores de Meca para Medina, em 622",
+          "variantes": [
+            "Hijra",
+            "Hijrah",
+            "Égira"
+          ]
+        },
+        {
+          "id": "sigiriya",
+          "nome": "Sigiriya",
+          "descricao": "Antiga fortaleza real sobre uma rocha de granito no distrito de Matale, no Sri Lanka, do rei Kashyapa, século cinco.",
+          "variantes": [
+            "Sinhagiri",
+            "Rocha do Leão"
+          ]
+        },
+        {
+          "id": "ira",
+          "nome": "Irã",
+          "descricao": "País da Ásia Ocidental, antiga Pérsia, com capital em Teerã.",
+          "variantes": [
+            "Pérsia",
+            "República Islâmica do Irã"
+          ]
+        },
+        {
+          "id": "girafa",
+          "nome": "Girafa",
+          "descricao": "Mamífero africano de pescoço longo do gênero Giraffa.",
+          "variantes": [
+            "Giraffa",
+            "Giraffe"
+          ]
+        },
+        {
+          "id": "matrioska",
+          "nome": "Matrioska",
+          "descricao": "Conjunto russo de bonecas de madeira ocas que se encaixam umas dentro das outras.",
+          "variantes": [
+            "Matryoshka",
+            "Boneca russa"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "berimbau",
+      "motivo": "Mesmo instrumento da capoeira, com descrição e variantes coincidentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o hóquei subaquático; polvo e opus são entidades diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Bola de treino de força não corresponde a nenhuma candidata, como Master Ball ou Poké Bola."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Damas é o jogo em geral; as candidatas são variantes específicas, que são entidades distintas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Kettlebell é um peso de treino e nenhuma candidata o descreve."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Com distratores só de artes marciais sem música, a resposta sai por eliminação sem ver a figura (\"instrumento\" + artes de luta = capoeira). Reescrita pede a origem do instrumento, que exige reconhecê-lo; origem angolana consta nos trechos.",
+      "reescrita": {
+        "pergunta": "Este instrumento musical de uma corda tem origem em qual país africano?",
+        "resposta": "Angola",
+        "distratores": [
+          "Nigéria",
+          "Moçambique",
+          "Gana"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Octopush é o nome no Reino Unido, confirmado nos trechos. O enunciado não nomeia o esporte, e os distratores são inventados e plausíveis, sem nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. O nome vem dos trechos, e os distratores são do mesmo tipo (bolas) e distintos da medicine ball.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento nível 1. O enunciado não vaza a resposta, e os distratores são jogos de tabuleiro críveis, nenhum também correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A origem russa está nos trechos. O enunciado descreve só a forma, sem entregar o país, e os distratores são países plausíveis.",
+      "reescrita": null
+    }
+  ]
+}
