@@ -1,0 +1,177 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Triciclo infantil nítido, só a logomarca discreta do fabricante.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que veículo é este?",
+      "resposta": "Triciclo",
+      "distratores": [
+        "Bicicleta",
+        "Patinete",
+        "Quadriciclo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Triciclo",
+        "descricao": "Veículo de três rodas, movido por pedais, comum entre crianças.",
+        "variantes": [
+          "Velocípede de três rodas"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Carro dos anos 1960 em preto e branco; modelo exato (Dart ou outro Dodge da época) não é seguro pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Supercarro inconfundível, bem visível, sem texto que entregue.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que carro esportivo britânico dos anos noventa é este?",
+      "resposta": "McLaren F1",
+      "distratores": [
+        "Jaguar XJ220",
+        "Bugatti EB110",
+        "Ferrari F40"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "McLaren F1",
+        "descricao": "Carro esportivo de rua britânico da McLaren, com motor BMW V12, lançado nos anos 1990.",
+        "variantes": [
+          "F1"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Monociclo claro, de frente, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que veículo é este?",
+      "resposta": "Monociclo",
+      "distratores": [
+        "Bicicleta",
+        "Triciclo",
+        "Patinete"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Monociclo",
+        "descricao": "Veículo de uma só roda, com selim e pedais, usado em circos e esportes.",
+        "variantes": [
+          "Unicycle"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Os quatro anéis da Audi aparecem na grade e na porta e entregam a marca."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Calçados com quatro rodas visíveis, sem texto; reconhecíveis como patins.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que equipamento é este?",
+      "resposta": "Patins",
+      "distratores": [
+        "Skate",
+        "Patinete",
+        "Hoverboard"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Patins",
+        "descricao": "Calçado com rodas fixadas na sola, para deslizar em superfícies duras.",
+        "variantes": [
+          "Patins de quatro rodas",
+          "Roller skates"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O nome СОЮЗ aparece escrito no casco e entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Autogiro em voo, com rotor livre e hélice propulsora, bem visível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de aeronave é esta?",
+      "resposta": "Autogiro",
+      "distratores": [
+        "Helicóptero",
+        "Planador",
+        "Dirigível"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Autogiro",
+        "descricao": "Aeronave com rotor sem motor, que gira pelo ar, e hélice propulsora independente.",
+        "variantes": [
+          "Girocóptero",
+          "Gyrocopter",
+          "Autogyro"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A marca Winnebago está escrita na cabine e na lateral."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Passageiros em destaque no vagão e trilhos com cremalheira dificultam resposta única e uso de pessoas comuns."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O texto Cousteau Society aparece no casco e entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Embarcação de transporte de veículos nítida; o texto visível é só o nome do barco e não entrega o tipo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de embarcação é esta, que cruza a água levando passageiros e veículos?",
+      "resposta": "Balsa",
+      "distratores": [
+        "Cargueiro",
+        "Rebocador",
+        "Petroleiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Balsa",
+        "descricao": "Embarcação que transporta passageiros e veículos de uma margem a outra.",
+        "variantes": [
+          "Ferry",
+          "Ferry-boat",
+          "Ferryboat"
+        ]
+      }
+    }
+  ]
+}

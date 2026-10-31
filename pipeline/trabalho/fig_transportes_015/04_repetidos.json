@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que equipamento é este?",
+        "resposta": "Patins"
+      },
+      "existentes": [
+        {
+          "id": "q07973",
+          "pergunta": "Que tipo de patins é este?",
+          "resposta": "Patins quad"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar o equipamento (patins); a existente pede o tipo específico (patins quad). Fatos diferentes, e saber um não garante o outro."
+    }
+  ]
+}

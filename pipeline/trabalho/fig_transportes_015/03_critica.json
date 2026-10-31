@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pista; distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Britânico e anos noventa são verdadeiros (produzido de 1993 a 1998) e não entregam o modelo. O Jaguar XJ220 também é britânico dos anos noventa, mas não corresponde à figura, então é distrator válido e parecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples e sem vazamento; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro; distratores são equipamentos de rodas parecidos, mas distintos de patins.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro; o helicóptero é um distrator visualmente parecido e errado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'cruza a água levando passageiros e veículos' define a balsa, então dá para responder sem a figura. Basta tirar a pista.",
+      "reescrita": {
+        "pergunta": "Que tipo de embarcação é esta?",
+        "resposta": "Balsa",
+        "distratores": [
+          "Cargueiro",
+          "Rebocador",
+          "Petroleiro"
+        ]
+      }
+    }
+  ]
+}
