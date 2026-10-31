@@ -1,0 +1,80 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que estado do Nordeste fica este sítio arqueológico?",
+        "resposta": "Paraíba"
+      },
+      "existentes": [
+        {
+          "id": "q03084",
+          "pergunta": "Gravuras pré-históricas em rocha, como as da Pedra do Ingá, são chamadas de itacoatiaras. Em tupi, o que essa palavra significa?",
+          "resposta": "Pedra riscada (ou pintada)"
+        },
+        {
+          "id": "q03085",
+          "pergunta": "A Pedra do Ingá, rocha coberta de gravuras pré-históricas misteriosas, fica em que estado brasileiro?",
+          "resposta": "Paraíba"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que morro é este?",
+        "resposta": "Pão de Açúcar"
+      },
+      "existentes": [
+        {
+          "id": "q02102",
+          "pergunta": "Em que ano foi inaugurado o primeiro trecho do bondinho do Pão de Açúcar?",
+          "resposta": "1912"
+        },
+        {
+          "id": "q04555",
+          "pergunta": "Segundo a explicação mais conhecida, o Pão de Açúcar lembra a forma de que objeto de barro usado nos engenhos coloniais?",
+          "resposta": "Forma cônica de barro"
+        },
+        {
+          "id": "q14030",
+          "pergunta": "Que morro brasileiro, o pico mais alto desta imagem, é este?",
+          "resposta": "Pão de Açúcar"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que estádio é este, visto do alto?",
+        "resposta": "Estádio São Januário"
+      },
+      "existentes": [
+        {
+          "id": "q02174",
+          "pergunta": "Que clube de futebol manda seus jogos neste estádio?",
+          "resposta": "Vasco da Gama"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q03085",
+      "motivo": "Ambas perguntam o estado onde fica a Pedra do Ingá: Paraíba."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q14030",
+      "motivo": "Ambas pedem a identificação do morro como Pão de Açúcar a partir da imagem."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Uma pede a identificação do estádio, a outra o clube mandante; fatos diferentes."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Igreja e casario à beira d'água sem nenhum traço que permita reconhecer Itaparica; resposta não é única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O letreiro 'Arena do Grêmio' aparece na fachada e entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Rocha com inscrições é inconfundível.",
+      "pergunta": "Em que estado do Nordeste fica este sítio arqueológico?",
+      "tipo": "multipla",
+      "resposta": "Paraíba",
+      "distratores": [
+        "Pernambuco",
+        "Rio Grande do Norte",
+        "Ceará"
+      ],
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Pedra do Ingá",
+        "descricao": "Rochedo com petróglifos de origem desconhecida, no leito do rio Ingá, na Paraíba.",
+        "variantes": [
+          "Itacoatiara do Ingá"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta inconfundível do morro com o bondinho; nada de texto.",
+      "pergunta": "Que morro é este?",
+      "tipo": "multipla",
+      "resposta": "Pão de Açúcar",
+      "distratores": [
+        "Corcovado",
+        "Pedra da Gávea",
+        "Morro Dois Irmãos"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Pão de Açúcar",
+        "descricao": "Morro de granito de 396 metros na entrada da Baía de Guanabara, no Rio de Janeiro, ligado por bondinho ao Morro da Urca.",
+        "variantes": [
+          "Morro do Pão de Açúcar",
+          "Sugarloaf Mountain"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A fachada traz 'Mercado Central' escrito, o que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Casarão em ruínas com pasto, sem elemento que identifique Alcântara com segurança; foto antiga e pouco legível."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista aérea com as cruzes de Malta do Vasco nas arquibancadas e o formato característico; sem texto.",
+      "pergunta": "Que estádio é este, visto do alto?",
+      "tipo": "multipla",
+      "resposta": "Estádio São Januário",
+      "distratores": [
+        "Maracanã",
+        "Estádio Nilton Santos",
+        "Estádio Caio Martins"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Estádio São Januário",
+        "descricao": "Estádio do Vasco da Gama, no bairro de São Cristóvão, no Rio de Janeiro, conhecido como Gigante da Colina.",
+        "variantes": [
+          "Estádio Vasco da Gama",
+          "São Januário"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Vista aérea de praia com coqueiral genérica, sem elemento que permita reconhecer a Praia do Futuro."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fachada com cúpula e torres, muito característica; o texto do mosaico não entrega a cidade.",
+      "pergunta": "Em que cidade fica esta catedral?",
+      "tipo": "multipla",
+      "resposta": "Porto Alegre",
+      "distratores": [
+        "Curitiba",
+        "Florianópolis",
+        "Pelotas"
+      ],
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Catedral Metropolitana de Porto Alegre",
+        "descricao": "Catedral da Praça da Matriz, no Centro Histórico de Porto Alegre, dedicada a Nossa Senhora da Madre de Deus.",
+        "variantes": [
+          "Igreja Matriz de Nossa Senhora da Madre de Deus"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista da orla e das lagoas da Barra tirada da Pedra da Gávea; reconhecível pela faixa de arranha-céus junto à praia e pelas lagoas.",
+      "pergunta": "Quem desenhou o plano urbanístico deste bairro carioca?",
+      "tipo": "multipla",
+      "resposta": "Lúcio Costa",
+      "distratores": [
+        "Oscar Niemeyer",
+        "Burle Marx",
+        "Pereira Passos"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "ancora": {
+        "nome": "Barra da Tijuca",
+        "descricao": "Bairro da Zona Sudoeste do Rio de Janeiro, entre o oceano e as lagoas, com plano piloto de Lúcio Costa.",
+        "variantes": [
+          "Barra"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Panorâmica interna de baixa resolução, com faixas de torcida legíveis que citam o Botafogo; outros estádios com pista de atletismo são parecidos."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Caverna com salão e rio sem traço único; outras cavernas brasileiras são parecidas, então a resposta não é única, e há uma pessoa em primeiro plano."
+    }
+  ]
+}
