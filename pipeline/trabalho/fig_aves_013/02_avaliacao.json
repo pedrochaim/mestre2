@@ -1,0 +1,298 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Macho cantando, reconhecível pelo colar e bico amarelado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta pequena ave canora pertence à família de que grupo de aves?",
+      "resposta": "Tangarás e sanhaços",
+      "distratores": [
+        "Pombas e rolinhas",
+        "Beija-flores",
+        "Corujas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Coleirinho",
+        "descricao": "Pequena ave canora (Sporophila caerulescens) da família Thraupidae, comum na América do Sul.",
+        "variantes": [
+          "Papa-capim",
+          "Double-collared seedeater",
+          "Sporophila caerulescens"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cabeça vermelha nítida, muito reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Urubu-de-cabeça-vermelha",
+      "distratores": [
+        "Urubu-de-cabeça-preta",
+        "Urubu-rei",
+        "Condor-dos-andes"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Urubu-de-cabeça-vermelha",
+        "descricao": "Ave necrófaga (Cathartes aura) de cabeça vermelha e nua, a mais difundida entre os abutres do Novo Mundo.",
+        "variantes": [
+          "Turkey vulture",
+          "Cathartes aura"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Coruja pequena, bem visível; distratores de corujas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Mocho-galego",
+      "distratores": [
+        "Coruja-buraqueira",
+        "Mocho-diabo",
+        "Coruja-do-mato"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mocho-galego",
+        "descricao": "Pequena coruja (Athene noctua) da Europa, Ásia e norte da África, ligada à deusa Atena.",
+        "variantes": [
+          "Little owl",
+          "Athene noctua",
+          "Coruja-pequena"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto clara do macho com plumagem rosada.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Rolinha-roxa",
+      "distratores": [
+        "Rolinha-picuí",
+        "Fogo-apagou",
+        "Avoante"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Rolinha-roxa",
+        "descricao": "Pequena pomba tropical (Columbina talpacoti) de plumagem avermelhada, comum em áreas abertas e cidades.",
+        "variantes": [
+          "Ruddy ground dove",
+          "Columbina talpacoti"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Coruja com tufos nas orelhas, bem visível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Corujão-orelhudo",
+      "distratores": [
+        "Bufo-pequeno",
+        "Coruja-orelhuda",
+        "Mocho-diabo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Corujão-orelhudo",
+        "descricao": "Grande coruja (Bubo virginianus) das Américas, com tufos de penas semelhantes a chifres.",
+        "variantes": [
+          "Great horned owl",
+          "Bubo virginianus",
+          "Jacurutu"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ave nítida, bico longo e cauda ruiva característicos.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em qual destes países vive esta ave de bico longo e fino?",
+      "resposta": "Brasil",
+      "distratores": [
+        "Chile",
+        "Estados Unidos",
+        "Uruguai"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ariramba-de-cauda-ruiva",
+        "descricao": "Ave de bico longo e plumagem verde metálica e ruiva (Galbula ruficauda), da família Galbulidae, de florestas tropicais americanas.",
+        "variantes": [
+          "Rufous-tailed jacamar",
+          "Galbula ruficauda"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pomba no chão, reconhecível pelo olho com anel e patas rosadas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Juriti-pupu",
+      "distratores": [
+        "Juriti-gemedeira",
+        "Pomba-galega",
+        "Rolinha-picuí"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Juriti-pupu",
+        "descricao": "Pomba tropical grande (Leptotila verreauxi) de plumagem acinzentada e patas rosadas.",
+        "variantes": [
+          "White-tipped dove",
+          "Leptotila verreauxi",
+          "Juriti"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta em voo com cauda bifurcada inconfundível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta ave de rapina se reproduz desde o sudeste de qual país, ao norte, até a América do Sul?",
+      "resposta": "Estados Unidos",
+      "distratores": [
+        "Canadá",
+        "Cuba",
+        "Espanha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gavião-tesoura",
+        "descricao": "Ave de rapina (Elanoides forficatus) de cauda longa e bifurcada, branca e preta, das Américas.",
+        "variantes": [
+          "Swallow-tailed kite",
+          "Elanoides forficatus"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Ave em voo, com colar preto e corpo ruivo visíveis; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ave de rapina é esta?",
+      "resposta": "Gavião-belo",
+      "distratores": [
+        "Gavião-caramujeiro",
+        "Gavião-carijó",
+        "Gavião-real"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gavião-belo",
+        "descricao": "Ave de rapina (Busarellus nigricollis) de corpo ruivo, cabeça clara e meia-lua preta no peito, de áreas alagadas.",
+        "variantes": [
+          "Black-collared hawk",
+          "Busarellus nigricollis"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Ave nítida, com peito cinza e dorso oliváceo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Saracura-do-mato",
+      "distratores": [
+        "Saracura-três-potes",
+        "Saracura-sanã",
+        "Pinto-d'água"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Saracura-do-mato",
+        "descricao": "Ave pernalta (Aramides saracura) de peito cinza e dorso oliváceo, da Mata Atlântica.",
+        "variantes": [
+          "Slaty-breasted wood rail",
+          "Aramides saracura",
+          "Saracura-do-brejo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cegonha nítida com asas pretas e bico claro; razoavelmente reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta ave sul-americana é muito parecida com qual ave europeia?",
+      "resposta": "Cegonha-branca",
+      "distratores": [
+        "Cegonha-preta",
+        "Garça-real",
+        "Grou-comum"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Maguari",
+        "descricao": "Grande cegonha (Ciconia maguari) de áreas alagadas sazonais da América do Sul.",
+        "variantes": [
+          "Maguari stork",
+          "Ciconia maguari",
+          "João-grande"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bico extremamente longo, inconfundível e nítido.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta ave vive em que região da América do Sul?",
+      "resposta": "Andes",
+      "distratores": [
+        "Pantanal",
+        "Pampas",
+        "Mata Atlântica"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Beija-flor-bico-de-espada",
+        "descricao": "Beija-flor andino (Ensifera ensifera) com bico mais longo que o corpo.",
+        "variantes": [
+          "Sword-billed hummingbird",
+          "Ensifera ensifera"
+        ]
+      }
+    }
+  ]
+}

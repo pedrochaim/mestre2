@@ -1,0 +1,788 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Coleirinho",
+        "descricao": "Pequena ave canora (Sporophila caerulescens) da família Thraupidae, comum na América do Sul.",
+        "variantes": [
+          "Papa-capim",
+          "Double-collared seedeater",
+          "Sporophila caerulescens"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rede_integrada_de_transporte",
+          "nome": "Rede Integrada de Transporte",
+          "descricao": "Sistema de ônibus de Curitiba com canaletas exclusivas e estações-tubo, referência mundial em corredores expressos.",
+          "variantes": [
+            "RIT",
+            "Ligeirinho"
+          ]
+        },
+        {
+          "id": "colher",
+          "nome": "Colher",
+          "descricao": "Utensílio com concha oval na ponta de um cabo, usado para levar alimento à boca.",
+          "variantes": [
+            "Colher de mesa",
+            "Colherzinha"
+          ]
+        },
+        {
+          "id": "curio",
+          "nome": "Curió",
+          "descricao": "Pássaro canoro (Sporophila angolensis) de cabeça preta e ventre castanho, da América do Sul.",
+          "variantes": [
+            "Sporophila angolensis",
+            "Chestnut-bellied seed finch"
+          ]
+        },
+        {
+          "id": "corindon",
+          "nome": "Coríndon",
+          "descricao": "Mineral de óxido de alumínio, muito duro, cujas variedades coloridas são o rubi e a safira.",
+          "variantes": [
+            "Corindo",
+            "Corundum"
+          ]
+        },
+        {
+          "id": "matterhorn",
+          "nome": "Matterhorn",
+          "descricao": "Montanha piramidal dos Alpes na fronteira entre Suíça e Itália, com 4.478 metros.",
+          "variantes": [
+            "Cervino",
+            "Monte Cervino",
+            "Cervin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Urubu-de-cabeça-vermelha",
+        "descricao": "Ave necrófaga (Cathartes aura) de cabeça vermelha e nua, a mais difundida entre os abutres do Novo Mundo.",
+        "variantes": [
+          "Turkey vulture",
+          "Cathartes aura"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "urubu_de_cabeca_preta",
+          "nome": "Urubu-de-cabeça-preta",
+          "descricao": "Ave necrófaga das Américas (Coragyps atratus), toda preta e de cabeça nua cinza-escura, comum nas cidades brasileiras.",
+          "variantes": [
+            "Urubu",
+            "Urubu-comum",
+            "Coragyps atratus"
+          ]
+        },
+        {
+          "id": "douc_de_canelas_vermelhas",
+          "nome": "Douc-de-canelas-vermelhas",
+          "descricao": "Macaco do Velho Mundo, Pygathrix nemaeus, colorido, do Laos, Vietnã e Camboja.",
+          "variantes": [
+            "Douc",
+            "Pygathrix nemaeus"
+          ]
+        },
+        {
+          "id": "urubu_rei",
+          "nome": "Urubu-rei",
+          "descricao": "Grande urubu das Américas, de plumagem branca e preta e cabeça nua colorida.",
+          "variantes": [
+            "Sarcoramphus papa",
+            "King vulture"
+          ]
+        },
+        {
+          "id": "abutre_barbudo",
+          "nome": "Abutre-barbudo",
+          "descricao": "Grande ave de rapina de montanha, Gypaetus barbatus, que se alimenta sobretudo de ossos.",
+          "variantes": [
+            "Quebra-ossos",
+            "Bearded vulture",
+            "Lammergeier",
+            "Gypaetus barbatus"
+          ]
+        },
+        {
+          "id": "gullfoss",
+          "nome": "Gullfoss",
+          "descricao": "Cachoeira no cânion do rio Hvítá, no sudoeste da Islândia, parada do Círculo Dourado.",
+          "variantes": [
+            "Cataratas Douradas",
+            "Golden Falls"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mocho-galego",
+        "descricao": "Pequena coruja (Athene noctua) da Europa, Ásia e norte da África, ligada à deusa Atena.",
+        "variantes": [
+          "Little owl",
+          "Athene noctua",
+          "Coruja-pequena"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "little_boy",
+          "nome": "Little Boy",
+          "descricao": "Bomba atômica de fissão tipo canhão lançada sobre Hiroshima em 6 de agosto de 1945.",
+          "variantes": [
+            "Little Boy (bomba de Hiroshima)",
+            "L-11"
+          ]
+        },
+        {
+          "id": "litleo",
+          "nome": "Litleo",
+          "descricao": "Pokémon dos tipos Fogo e Normal, número 667 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "tetradracma_ateniense",
+          "nome": "Tetradracma ateniense",
+          "descricao": "Moeda de prata de Atenas, da época clássica, com a cabeça de Atena de um lado e uma coruja do outro.",
+          "variantes": [
+            "Coruja de Atenas",
+            "Athenian tetradrachm"
+          ]
+        },
+        {
+          "id": "olho_grego",
+          "nome": "Olho grego",
+          "descricao": "Amuleto de vidro em forma de olho azul, usado para proteger contra o mau-olhado, comum na Turquia e na Grécia.",
+          "variantes": [
+            "Olho turco",
+            "Nazar",
+            "Nazar boncuğu",
+            "Máti"
+          ]
+        },
+        {
+          "id": "coruja_buraqueira",
+          "nome": "Coruja-buraqueira",
+          "descricao": "Pequena coruja de pernas longas, ativa de dia e de hábitos terrestres, que vive em campos abertos das Américas.",
+          "variantes": [
+            "Athene cunicularia",
+            "Burrowing owl"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Rolinha-roxa",
+        "descricao": "Pequena pomba tropical (Columbina talpacoti) de plumagem avermelhada, comum em áreas abertas e cidades.",
+        "variantes": [
+          "Ruddy ground dove",
+          "Columbina talpacoti"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coluna_de_trajano",
+          "nome": "Coluna de Trajano",
+          "descricao": "Coluna triunfal romana com relevo em espiral, no Fórum de Trajano, em Roma, que comemora as guerras contra os dácios.",
+          "variantes": [
+            "Coluna Trajana",
+            "Columna Traiani"
+          ]
+        },
+        {
+          "id": "cebola_roxa",
+          "nome": "Cebola roxa",
+          "descricao": "Cultivar de cebola (Allium cepa) de casca arroxeada e polpa branca tingida de vermelho.",
+          "variantes": [
+            "Cebola vermelha"
+          ]
+        },
+        {
+          "id": "the_blue_marble",
+          "nome": "The Blue Marble",
+          "descricao": "Fotografia da Terra tirada em 7 de dezembro de 1972 pela tripulação da Apollo 17.",
+          "variantes": [
+            "A Bolinha Azul (Blue Marble)",
+            "Bolinha Azul",
+            "Blue Marble",
+            "AS17-148-22727"
+          ]
+        },
+        {
+          "id": "golfinho_rotador",
+          "nome": "Golfinho-rotador",
+          "descricao": "Pequeno golfinho tropical (Stenella longirostris), famoso pelos saltos em que gira no ar.",
+          "variantes": [
+            "Stenella longirostris",
+            "Spinner dolphin",
+            "Golfinho-rotador-de-noronha"
+          ]
+        },
+        {
+          "id": "dama_xadrez",
+          "nome": "Dama (xadrez)",
+          "descricao": "Peça mais poderosa do xadrez, que se move em linha reta e na diagonal por quantas casas quiser, também chamada rainha.",
+          "variantes": [
+            "Rainha (xadrez)",
+            "Queen",
+            "Rainha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Corujão-orelhudo",
+        "descricao": "Grande coruja (Bubo virginianus) das Américas, com tufos de penas semelhantes a chifres.",
+        "variantes": [
+          "Great horned owl",
+          "Bubo virginianus",
+          "Jacurutu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jacuraru",
+          "nome": "Jacuraru",
+          "descricao": "Grande lagarto semiaquático da Amazônia, de escamas em quilha (Dracaena guianensis).",
+          "variantes": [
+            "Lagarto-jacaré",
+            "Dracaena guianensis",
+            "Northern caiman lizard"
+          ]
+        },
+        {
+          "id": "grande_mancha_vermelha",
+          "nome": "Grande Mancha Vermelha",
+          "descricao": "Tempestade anticiclônica gigante e persistente na atmosfera de Júpiter.",
+          "variantes": [
+            "Great Red Spot",
+            "Mancha Vermelha de Júpiter"
+          ]
+        },
+        {
+          "id": "calau_bicorne",
+          "nome": "Calau-bicorne",
+          "descricao": "Grande calau do subcontinente indiano e do Sudeste Asiático, Buceros bicornis, com elmo amarelo sobre o bico.",
+          "variantes": [
+            "Calau-malhado-grande",
+            "Great hornbill",
+            "Buceros bicornis"
+          ]
+        },
+        {
+          "id": "tuiuiu",
+          "nome": "Tuiuiú",
+          "descricao": "Grande cegonha (Jabiru mycteria) de plumagem branca, cabeça e pescoço pretos com colar vermelho, ave-símbolo do Pantanal.",
+          "variantes": [
+            "Jaburu",
+            "Jabiru",
+            "Jabiru mycteria"
+          ]
+        },
+        {
+          "id": "urutau",
+          "nome": "Urutau",
+          "descricao": "Ave noturna Nyctibius griseus, de plumagem camuflada que imita um toco de árvore, de olhos grandes amarelos.",
+          "variantes": [
+            "Urutau-comum",
+            "Mãe-da-lua",
+            "Common potoo",
+            "Nyctibius griseus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Ariramba-de-cauda-ruiva",
+        "descricao": "Ave de bico longo e plumagem verde metálica e ruiva (Galbula ruficauda), da família Galbulidae, de florestas tropicais americanas.",
+        "variantes": [
+          "Rufous-tailed jacamar",
+          "Galbula ruficauda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tabula_rasa",
+          "nome": "Tábula rasa",
+          "descricao": "Expressão latina para a ideia de que a mente nasce vazia, como uma folha em branco, associada a John Locke.",
+          "variantes": []
+        },
+        {
+          "id": "catedral_de_cantuaria",
+          "nome": "Catedral de Cantuária",
+          "descricao": "Catedral da arquidiocese anglicana em Cantuária (Kent), na Inglaterra, sede espiritual da Igreja da Inglaterra.",
+          "variantes": [
+            "Catedral de Canterbury",
+            "Canterbury Cathedral"
+          ]
+        },
+        {
+          "id": "bula_de_ouro_de_1356",
+          "nome": "Bula de Ouro de 1356",
+          "descricao": "Decreto do imperador Carlos Quarto que fixou as regras de eleição do rei e imperador do Sacro Império Romano-Germânico.",
+          "variantes": [
+            "Golden Bull of 1356",
+            "Bula Dourada"
+          ]
+        },
+        {
+          "id": "gladiolo",
+          "nome": "Gladíolo",
+          "descricao": "Planta com bulbo-tubérculo do gênero Gladiolus, da família das iridáceas, de flores em espigas.",
+          "variantes": [
+            "Gladiolus",
+            "Palma-de-santa-rita",
+            "Lírio-espada"
+          ]
+        },
+        {
+          "id": "parauacu",
+          "nome": "Parauacu",
+          "descricao": "Macaco sul-americano de pelagem escura e rosto claro, Pithecia pithecia.",
+          "variantes": [
+            "Parauacu-de-cara-branca",
+            "Macaco-voador",
+            "White-faced saki",
+            "Pithecia pithecia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Juriti-pupu",
+        "descricao": "Pomba tropical grande (Leptotila verreauxi) de plumagem acinzentada e patas rosadas.",
+        "variantes": [
+          "White-tipped dove",
+          "Leptotila verreauxi",
+          "Juriti"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "creta",
+          "nome": "Creta",
+          "descricao": "A maior ilha da Grécia, no mar Mediterrâneo, berço da civilização minoica.",
+          "variantes": [
+            "Crete",
+            "Kriti"
+          ]
+        },
+        {
+          "id": "curitiba",
+          "nome": "Curitiba",
+          "descricao": "Capital do estado do Paraná, conhecida pelo planejamento urbano e pelo transporte coletivo.",
+          "variantes": []
+        },
+        {
+          "id": "white_tie",
+          "nome": "White tie",
+          "descricao": "Código de traje de gala noturno que exige casaca e gravata-borboleta branca",
+          "variantes": [
+            "Traje a rigor",
+            "Casaca"
+          ]
+        },
+        {
+          "id": "kiribati",
+          "nome": "Kiribati",
+          "descricao": "País insular do Oceano Pacífico formado por atóis espalhados em torno do equador, cuja capital é Tarawa do Sul.",
+          "variantes": [
+            "República de Kiribati",
+            "Quiribati"
+          ]
+        },
+        {
+          "id": "rede_integrada_de_transporte",
+          "nome": "Rede Integrada de Transporte",
+          "descricao": "Sistema de ônibus de Curitiba com canaletas exclusivas e estações-tubo, referência mundial em corredores expressos.",
+          "variantes": [
+            "RIT",
+            "Ligeirinho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Gavião-tesoura",
+        "descricao": "Ave de rapina (Elanoides forficatus) de cauda longa e bifurcada, branca e preta, das Américas.",
+        "variantes": [
+          "Swallow-tailed kite",
+          "Elanoides forficatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gaviao_real",
+          "nome": "Gavião-real",
+          "descricao": "Grande águia neotropical (Harpia harpyja), a maior ave de rapina de sua área de distribuição, das florestas tropicais de baixada.",
+          "variantes": [
+            "Harpia",
+            "Harpy eagle",
+            "Harpia harpyja"
+          ]
+        },
+        {
+          "id": "beija_flor_tesoura",
+          "nome": "Beija-flor-tesoura",
+          "descricao": "Beija-flor azulado de cauda longa e bifurcada da América do Sul, Eupetomena macroura.",
+          "variantes": [
+            "Eupetomena macroura",
+            "Swallow-tailed hummingbird",
+            "Tesourão"
+          ]
+        },
+        {
+          "id": "a_ilha_do_tesouro",
+          "nome": "A Ilha do Tesouro",
+          "descricao": "Romance de aventura sobre piratas e um mapa de tesouro, publicado em livro em 1883.",
+          "variantes": [
+            "Treasure Island",
+            "Ilha do Tesouro"
+          ]
+        },
+        {
+          "id": "petra_al_khazneh",
+          "nome": "Petra (Al-Khazneh)",
+          "descricao": "Tumba nabateia esculpida na rocha, chamada de Tesouro, na cidade antiga de Petra, na Jordânia.",
+          "variantes": [
+            "Al-Khazneh",
+            "O Tesouro",
+            "Petra"
+          ]
+        },
+        {
+          "id": "kinkaku_ji_pavilhao_dourado",
+          "nome": "Kinkaku-ji (Pavilhão Dourado)",
+          "descricao": "Templo budista zen em Quioto, Japão, cujo pavilhão é coberto de folha de ouro.",
+          "variantes": [
+            "Pavilhão Dourado",
+            "Rokuon-ji",
+            "Kinkakuji",
+            "Kinkaku-ji",
+            "Templo do Pavilhão Dourado"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Gavião-belo",
+        "descricao": "Ave de rapina (Busarellus nigricollis) de corpo ruivo, cabeça clara e meia-lua preta no peito, de áreas alagadas.",
+        "variantes": [
+          "Black-collared hawk",
+          "Busarellus nigricollis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gaviao_real",
+          "nome": "Gavião-real",
+          "descricao": "Grande águia neotropical (Harpia harpyja), a maior ave de rapina de sua área de distribuição, das florestas tropicais de baixada.",
+          "variantes": [
+            "Harpia",
+            "Harpy eagle",
+            "Harpia harpyja"
+          ]
+        },
+        {
+          "id": "galvao_bueno",
+          "nome": "Galvão Bueno",
+          "descricao": "Narrador esportivo brasileiro, conhecido pelas transmissões de Fórmula 1 e futebol na TV.",
+          "variantes": [
+            "Carlos Eduardo dos Santos Galvão Bueno"
+          ]
+        },
+        {
+          "id": "ded_moroz",
+          "nome": "Ded Moroz",
+          "descricao": "Personagem do folclore russo e eslavo que traz presentes às crianças no Ano-Novo, equivalente ao Papai Noel.",
+          "variantes": [
+            "Avô Gelo",
+            "Grandfather Frost",
+            "Vovô Frio"
+          ]
+        },
+        {
+          "id": "gavial",
+          "nome": "Gavial",
+          "descricao": "Crocodiliano de focinho longo e fino (Gavialis gangeticus) dos rios do norte do subcontinente indiano.",
+          "variantes": [
+            "Gavialis gangeticus",
+            "Gharial",
+            "Gavial-do-ganges"
+          ]
+        },
+        {
+          "id": "vila_belmiro",
+          "nome": "Vila Belmiro",
+          "descricao": "Estádio Urbano Caldeira, em Santos (SP), casa do Santos Futebol Clube.",
+          "variantes": [
+            "Estádio Urbano Caldeira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Saracura-do-mato",
+        "descricao": "Ave pernalta (Aramides saracura) de peito cinza e dorso oliváceo, da Mata Atlântica.",
+        "variantes": [
+          "Slaty-breasted wood rail",
+          "Aramides saracura",
+          "Saracura-do-brejo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cachorro_do_mato",
+          "nome": "Cachorro-do-mato",
+          "descricao": "Canídeo de porte médio (Cerdocyon thous) da América do Sul, que não é uma raposa verdadeira.",
+          "variantes": [
+            "Graxaim-do-mato",
+            "Raposa-do-mato",
+            "Crab-eating fox",
+            "Cerdocyon thous"
+          ]
+        },
+        {
+          "id": "bandagem_de_boxe",
+          "nome": "Bandagem de boxe",
+          "descricao": "Faixa de tecido enrolada na mão e no pulso para protegê-los em lutas.",
+          "variantes": [
+            "Atadura de mão",
+            "Hand wrap"
+          ]
+        },
+        {
+          "id": "heliconia",
+          "nome": "Helicônia",
+          "descricao": "Planta tropical do gênero Heliconia, de brácteas coloridas e pontiagudas dispostas em fileira.",
+          "variantes": [
+            "Bananeira-do-mato",
+            "Falsa-ave-do-paraíso"
+          ]
+        },
+        {
+          "id": "praca_naqsh_e_jahan",
+          "nome": "Praça Naqsh-e Jahan",
+          "descricao": "Grande praça histórica safávida no centro de Isfahan, no Irã, cercada por mesquitas e palácio.",
+          "variantes": [
+            "Praça do Imã",
+            "Praça Naghsh-e Jahan",
+            "Praça Shah"
+          ]
+        },
+        {
+          "id": "caninana",
+          "nome": "Caninana",
+          "descricao": "Serpente não peçonhenta Spilotes pullatus, preta com manchas amarelas, do Neotrópico.",
+          "variantes": [
+            "Spilotes pullatus",
+            "Cobra-papagaio",
+            "Caninana-do-brejo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Maguari",
+        "descricao": "Grande cegonha (Ciconia maguari) de áreas alagadas sazonais da América do Sul.",
+        "variantes": [
+          "Maguari stork",
+          "Ciconia maguari",
+          "João-grande"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aguape",
+          "nome": "Aguapé",
+          "descricao": "Planta aquática flutuante sul-americana (Pontederia crassipes), de flores lilases, invasora em várias partes do mundo.",
+          "variantes": [
+            "Baguari",
+            "Jacinto-d'água",
+            "Water hyacinth",
+            "Eichhornia crassipes"
+          ]
+        },
+        {
+          "id": "ajax_2",
+          "nome": "Ájax",
+          "descricao": "Herói grego da Guerra de Troia, filho de Télamon, famoso pela força e pelo escudo enorme.",
+          "variantes": [
+            "Ájax, o Grande",
+            "Ájax Telamônio"
+          ]
+        },
+        {
+          "id": "mapinguari",
+          "nome": "Mapinguari",
+          "descricao": "Monstro peludo do folclore amazônico, descrito com um só olho e uma boca na barriga.",
+          "variantes": [
+            "Mapinguary"
+          ]
+        },
+        {
+          "id": "boiuna",
+          "nome": "Boiuna",
+          "descricao": "Monstro do folclore amazônico, serpente gigantesca e escura que vive nos rios, também chamada Cobra Grande.",
+          "variantes": [
+            "Cobra Grande"
+          ]
+        },
+        {
+          "id": "campo_grande",
+          "nome": "Campo Grande",
+          "descricao": "Capital do estado de Mato Grosso do Sul.",
+          "variantes": [
+            "Campo Grande (Mato Grosso do Sul)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Beija-flor-bico-de-espada",
+        "descricao": "Beija-flor andino (Ensifera ensifera) com bico mais longo que o corpo.",
+        "variantes": [
+          "Sword-billed hummingbird",
+          "Ensifera ensifera"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "beija_flor_tesoura",
+          "nome": "Beija-flor-tesoura",
+          "descricao": "Beija-flor azulado de cauda longa e bifurcada da América do Sul, Eupetomena macroura.",
+          "variantes": [
+            "Eupetomena macroura",
+            "Swallow-tailed hummingbird",
+            "Tesourão"
+          ]
+        },
+        {
+          "id": "colibri_abelha",
+          "nome": "Colibri-abelha",
+          "descricao": "Minúsculo beija-flor (Mellisuga helenae), endêmico de Cuba, a menor ave do mundo.",
+          "variantes": [
+            "Beija-flor-abelha",
+            "Mellisuga helenae",
+            "Zunzuncito"
+          ]
+        },
+        {
+          "id": "jardim_botanico_de_padua",
+          "nome": "Jardim Botânico de Pádua",
+          "descricao": "Jardim botânico universitário da cidade italiana de Pádua, Patrimônio Mundial da Unesco",
+          "variantes": [
+            "Orto Botanico di Padova"
+          ]
+        },
+        {
+          "id": "bloco_de_partida",
+          "nome": "Bloco de partida",
+          "descricao": "Equipamento em que corredores de velocidade apoiam os pés na largada de uma prova.",
+          "variantes": [
+            "Blocos de partida",
+            "Starting blocks"
+          ]
+        },
+        {
+          "id": "carlos_ii_da_espanha",
+          "nome": "Carlos II da Espanha",
+          "descricao": "Último rei Habsburgo da Espanha, de 1665 a 1700, cuja morte sem herdeiros causou a Guerra de Sucessão Espanhola.",
+          "variantes": [
+            "Carlos II de Espanha",
+            "Charles II of Spain",
+            "El Hechizado"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Coleirinho (S. caerulescens) é diferente do Curió (S. angolensis)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cathartes aura é espécie diferente de Coragyps atratus e do urubu-rei."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Athene noctua não é a coruja-buraqueira (Athene cunicularia)."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a rolinha Columbina talpacoti."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Bubo virginianus."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a ariramba."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Leptotila verreauxi."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Elanoides forficatus não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Busarellus nigricollis é diferente da harpia."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Aramides saracura."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a cegonha Ciconia maguari."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Ensifera ensifera é diferente das outras espécies de beija-flor."
+    }
+  ]
+}
