@@ -1,0 +1,203 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Reta dos boxes com arquibancada e cobertura branca característica; reconhecível o suficiente para múltipla escolha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que piloto brasileiro dá nome oficial a este autódromo?",
+      "resposta": "José Carlos Pace",
+      "distratores": [
+        "Ayrton Senna",
+        "Emerson Fittipaldi",
+        "Nelson Piquet"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Autódromo de Interlagos",
+        "descricao": "Circuito de automobilismo na cidade de São Paulo, sede do Grande Prêmio do Brasil de Fórmula 1, oficialmente Autódromo José Carlos Pace.",
+        "variantes": [
+          "Autódromo José Carlos Pace",
+          "Interlagos"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Vista aérea genérica de lago com casas; não é reconhecível como Capitólio e poderia ser outro ponto de Furnas ou de outro lago."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Mirante em estilo de pagode de bambu, com o Cristo Redentor visível ao fundo; pessoas pequenas e ao fundo.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este mirante?",
+      "resposta": "Rio de Janeiro",
+      "distratores": [
+        "Petrópolis",
+        "Salvador",
+        "Curitiba"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Vista Chinesa",
+        "descricao": "Mirante em estilo chinês na Floresta da Tijuca, no Alto da Boa Vista, Rio de Janeiro.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Vista aérea de um trecho urbano comum, sem marco que permita reconhecer Porto Seguro; resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Catedral em forma de cone, silhueta única e inconfundível; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta catedral?",
+      "resposta": "Maringá",
+      "distratores": [
+        "Londrina",
+        "Cascavel",
+        "Ponta Grossa"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Catedral de Maringá",
+        "descricao": "Catedral Basílica Menor de Nossa Senhora da Glória, templo católico em forma de cone em Maringá, Paraná.",
+        "variantes": [
+          "Catedral Basílica Menor Nossa Senhora da Glória"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Edifício de tijolos com torres de aspecto de castelo, característico; sem texto que entregue a resposta. Múltipla escolha ajuda no reconhecimento.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este museu de aspecto de castelo?",
+      "resposta": "Recife",
+      "distratores": [
+        "Olinda",
+        "Salvador",
+        "Fortaleza"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Instituto Ricardo Brennand",
+        "descricao": "Complexo cultural em edifício de tijolos com aspecto de castelo, em Recife, com museu, galeria, biblioteca e parque.",
+        "variantes": [
+          "Museu Ricardo Brennand"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Praia da baía com o Museu de Arte Contemporânea ao fundo à direita; aceitável em múltipla, com distratores que não incluem cidades defensáveis.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta praia?",
+      "resposta": "Niterói",
+      "distratores": [
+        "Cabo Frio",
+        "Santos",
+        "Angra dos Reis"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Niterói",
+        "descricao": "Município do estado do Rio de Janeiro, do outro lado da Baía de Guanabara em frente à capital fluminense.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Imagem pequena e de baixa resolução, com marca d'água; queda d'água genérica, não reconhecível de forma única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fachada colonial com torre de relógio, nítida e sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade histórica de Minas Gerais fica este museu?",
+      "resposta": "Ouro Preto",
+      "distratores": [
+        "Tiradentes",
+        "Mariana",
+        "Diamantina"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Museu da Inconfidência",
+        "descricao": "Museu de história da Inconfidência Mineira, instalado na antiga Casa de Câmara e Cadeia, na Praça Tiradentes, em Ouro Preto.",
+        "variantes": [
+          "Casa de Câmara e Cadeia de Vila Rica"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Praia com jangadas e prédios; reconhecível com razoável dificuldade, adequada para múltipla escolha.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que capital do Nordeste é esta, vista da praia?",
+      "resposta": "Fortaleza",
+      "distratores": [
+        "Natal",
+        "Maceió",
+        "João Pessoa"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Fortaleza",
+        "descricao": "Capital do estado do Ceará, no Nordeste do Brasil.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Paisagem de serra vista de um balcão pichado; nada permite reconhecer a Serra do Cipó, e há pichação com texto."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Formações rochosas de arenito com cores características; suficiente para múltipla escolha.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que estado fica este parque nacional de formações rochosas?",
+      "resposta": "Piauí",
+      "distratores": [
+        "Maranhão",
+        "Ceará",
+        "Goiás"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Parque Nacional de Sete Cidades",
+        "descricao": "Parque nacional no Piauí conhecido por formações rochosas de arenito esculpidas pela erosão.",
+        "variantes": [
+          "Sete Cidades"
+        ]
+      }
+    }
+  ]
+}

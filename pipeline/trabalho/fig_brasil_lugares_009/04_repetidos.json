@@ -1,0 +1,56 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que piloto brasileiro dá nome oficial a este autódromo?",
+        "resposta": "José Carlos Pace"
+      },
+      "existentes": [
+        {
+          "id": "q00548",
+          "pergunta": "Que circuito de Fórmula 1 é este?",
+          "resposta": "Interlagos"
+        },
+        {
+          "id": "q01560",
+          "pergunta": "O Autódromo de Interlagos leva oficialmente o nome de qual piloto brasileiro, morto num acidente aéreo em 1977?",
+          "resposta": "José Carlos Pace"
+        },
+        {
+          "id": "q01561",
+          "pergunta": "O autódromo de Interlagos fica entre quais duas grandes represas da cidade de São Paulo?",
+          "resposta": "Guarapiranga e Billings"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que estado fica este parque nacional de formações rochosas?",
+        "resposta": "Piauí"
+      },
+      "existentes": [
+        {
+          "id": "q09636",
+          "pergunta": "O Parque Nacional de Sete Cidades, com rochas que lembram ruínas e castelos, fica em qual estado do Nordeste?",
+          "resposta": "Piauí"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q01560",
+      "motivo": "Ambas perguntam qual piloto brasileiro dá nome oficial ao autódromo de Interlagos (José Carlos Pace)."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q09636",
+      "motivo": "Ambas perguntam o estado do parque nacional de formações rochosas (Sete Cidades, Piauí)."
+    }
+  ]
+}

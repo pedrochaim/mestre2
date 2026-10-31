@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia o autódromo nem a resposta. Os trechos confirmam que o autódromo foi rebatizado em 1985 em homenagem a José Carlos Pace. Os distratores são pilotos brasileiros críveis e nenhum deles dá nome ao autódromo.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta sobre o lugar. A resposta, Rio de Janeiro, está nos trechos. Os distratores são cidades plausíveis e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não vaza a resposta. Maringá está confirmada nos trechos, e os distratores são cidades paranaenses críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O instituto fica em Recife, segundo os trechos. A pista do castelo não entrega a cidade. Os distratores são capitais ou cidades nordestinas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O campo `mostra` descreve o município de Niterói, não uma praia. A pergunta pressupõe uma praia que não está confirmada, e a figura é ambígua (praia de Icaraí, Itaipu etc.). Não dá para consertar sem ver a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O museu fica em Ouro Preto, segundo os trechos. O enunciado não vaza a resposta. Os distratores são cidades históricas mineiras e nenhum deles abriga o museu.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A expressão \"vista da praia\" afirma algo sobre o ponto de vista da foto que `mostra` não confirma. Basta tirar a expressão. Fortaleza é a capital do Ceará, no Nordeste, segundo os trechos.",
+      "reescrita": {
+        "pergunta": "Que capital do Nordeste brasileiro é esta?",
+        "resposta": "Fortaleza",
+        "distratores": [
+          "Natal",
+          "Maceió",
+          "João Pessoa"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O parque fica no Piauí, segundo os trechos. O enunciado não vaza a resposta e os distratores são estados vizinhos ou próximos, críveis.",
+      "reescrita": null
+    }
+  ]
+}

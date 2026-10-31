@@ -1,0 +1,412 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Autódromo de Interlagos",
+        "descricao": "Circuito de automobilismo na cidade de São Paulo, sede do Grande Prêmio do Brasil de Fórmula 1, oficialmente Autódromo José Carlos Pace.",
+        "variantes": [
+          "Autódromo José Carlos Pace",
+          "Interlagos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "interlagos",
+          "nome": "Interlagos",
+          "descricao": "Autódromo José Carlos Pace, em São Paulo.",
+          "variantes": [
+            "Autódromo José Carlos Pace",
+            "Autódromo de Interlagos"
+          ]
+        },
+        {
+          "id": "autodromo_de_imola",
+          "nome": "Autódromo de Ímola",
+          "descricao": "Autódromo Enzo e Dino Ferrari, em Ímola, na Itália, onde Ayrton Senna morreu em 1994.",
+          "variantes": [
+            "Autodromo Enzo e Dino Ferrari",
+            "Imola Circuit",
+            "Autodromo Internazionale Enzo e Dino Ferrari"
+          ]
+        },
+        {
+          "id": "sinterklaas",
+          "nome": "Sinterklaas",
+          "descricao": "Figura holandesa e belga inspirada em São Nicolau, que traz presentes às crianças no início de dezembro.",
+          "variantes": [
+            "Sint Nicolaas"
+          ]
+        },
+        {
+          "id": "jose_carlos_pace",
+          "nome": "José Carlos Pace",
+          "descricao": "Piloto brasileiro de Fórmula 1 nos anos setenta, morto num acidente aéreo em 1977, que dá nome ao autódromo de Interlagos.",
+          "variantes": [
+            "Carlos Pace",
+            "Moco"
+          ]
+        },
+        {
+          "id": "terapagos",
+          "nome": "Terapagos",
+          "descricao": "Pokémon do tipo Normal, número 1024 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Vista Chinesa",
+        "descricao": "Mirante em estilo chinês na Floresta da Tijuca, no Alto da Boa Vista, Rio de Janeiro.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "kiwi_2",
+          "nome": "Kiwi",
+          "descricao": "Fruto comestível de trepadeiras do gênero Actinidia, nativo da China",
+          "variantes": [
+            "Kiwifruit",
+            "Actinidia deliciosa",
+            "groselha-chinesa"
+          ]
+        },
+        {
+          "id": "mandarim_padrao",
+          "nome": "Mandarim padrão",
+          "descricao": "Forma padronizada do chinês, baseada no falar de Pequim, língua oficial da China.",
+          "variantes": [
+            "Putonghua",
+            "Chinês padrão",
+            "Standard Chinese"
+          ]
+        },
+        {
+          "id": "pistache",
+          "nome": "Pistache",
+          "descricao": "Semente comestível verde da árvore Pistacia vera, da família do caju, usada em doces e sorvetes.",
+          "variantes": [
+            "Pistácio"
+          ]
+        },
+        {
+          "id": "vitamina",
+          "nome": "Vitamina",
+          "descricao": "Nutriente orgânico necessário em pequenas quantidades para o funcionamento do organismo.",
+          "variantes": [
+            "Vitamin"
+          ]
+        },
+        {
+          "id": "zodiaco_chines",
+          "nome": "Zodíaco chinês",
+          "descricao": "Ciclo de doze anos da tradição chinesa, em que cada ano é associado a um animal.",
+          "variantes": [
+            "Horóscopo chinês",
+            "Chinese zodiac",
+            "Shengxiao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Catedral de Maringá",
+        "descricao": "Catedral Basílica Menor de Nossa Senhora da Glória, templo católico em forma de cone em Maringá, Paraná.",
+        "variantes": [
+          "Catedral Basílica Menor Nossa Senhora da Glória"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_cantuaria",
+          "nome": "Catedral de Cantuária",
+          "descricao": "Catedral da arquidiocese anglicana em Cantuária (Kent), na Inglaterra, sede espiritual da Igreja da Inglaterra.",
+          "variantes": [
+            "Catedral de Canterbury",
+            "Canterbury Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_milao",
+          "nome": "Catedral de Milão",
+          "descricao": "Catedral gótica de mármore branco, sede do arcebispo de Milão, na Itália, cuja construção começou em 1386.",
+          "variantes": [
+            "Duomo di Milano",
+            "Milan Cathedral",
+            "Duomo de Milão"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "catedral_de_rouen_monet",
+          "nome": "Catedral de Rouen (Monet)",
+          "descricao": "Série de pinturas de Claude Monet, dos anos 1890, da fachada da Catedral de Ruão em diferentes luzes.",
+          "variantes": [
+            "Catedral de Ruão",
+            "Rouen Cathedral",
+            "Série Catedral de Rouen"
+          ]
+        },
+        {
+          "id": "cartas_de_amarna",
+          "nome": "Cartas de Amarna",
+          "descricao": "Arquivo de tabuletas de argila com a correspondência diplomática dos faraós com reis do Oriente Próximo, achado em Amarna",
+          "variantes": [
+            "Amarna letters",
+            "Correspondência de Amarna"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Instituto Ricardo Brennand",
+        "descricao": "Complexo cultural em edifício de tijolos com aspecto de castelo, em Recife, com museu, galeria, biblioteca e parque.",
+        "variantes": [
+          "Museu Ricardo Brennand"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fundacao_oswaldo_cruz",
+          "nome": "Fundação Oswaldo Cruz",
+          "descricao": "Instituição de pesquisa em saúde sediada em Manguinhos, no Rio de Janeiro, criada como Instituto Soroterápico Federal.",
+          "variantes": [
+            "Fiocruz",
+            "Instituto Oswaldo Cruz"
+          ]
+        },
+        {
+          "id": "museu_do_ipiranga",
+          "nome": "Museu do Ipiranga",
+          "descricao": "Museu Paulista da USP, edifício monumental em São Paulo próximo ao local do grito da Independência.",
+          "variantes": [
+            "Museu Paulista",
+            "Museu Paulista da USP"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Museu da Inconfidência",
+        "descricao": "Museu de história da Inconfidência Mineira, instalado na antiga Casa de Câmara e Cadeia, na Praça Tiradentes, em Ouro Preto.",
+        "variantes": [
+          "Casa de Câmara e Cadeia de Vila Rica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "casa_da_opera_de_ouro_preto",
+          "nome": "Casa da Ópera de Ouro Preto",
+          "descricao": "Teatro colonial de Ouro Preto, em Minas Gerais, inaugurado em 1770, hoje Teatro Municipal da cidade.",
+          "variantes": [
+            "Casa da Ópera de Vila Rica",
+            "Teatro Municipal de Ouro Preto"
+          ]
+        },
+        {
+          "id": "brasao_da_indonesia",
+          "nome": "Brasão da Indonésia",
+          "descricao": "Brasão de armas da Indonésia, com a ave mitológica Garuda e escudo com cinco símbolos do Pancasila.",
+          "variantes": [
+            "Indonésia",
+            "Garuda Pancasila",
+            "Armas da Indonésia"
+          ]
+        },
+        {
+          "id": "museu_de_imagens_do_inconsciente",
+          "nome": "Museu de Imagens do Inconsciente",
+          "descricao": "Museu no Rio de Janeiro, criado em 1952, que reúne obras feitas por pacientes psiquiátricos.",
+          "variantes": []
+        },
+        {
+          "id": "conjuracao_baiana",
+          "nome": "Conjuração Baiana",
+          "descricao": "Movimento separatista e igualitário descoberto em Salvador, na Bahia, em 1798.",
+          "variantes": [
+            "Revolta dos Alfaiates",
+            "Revolta dos Búzios",
+            "Inconfidência Baiana"
+          ]
+        },
+        {
+          "id": "inconfidencia_mineira",
+          "nome": "Inconfidência Mineira",
+          "descricao": "Conspiração separatista descoberta em 1789 na capitania de Minas Gerais, da qual participou Tiradentes.",
+          "variantes": [
+            "Conjuração Mineira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Fortaleza",
+        "descricao": "Capital do estado do Ceará, no Nordeste do Brasil.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "fortaleza_esporte_clube",
+          "nome": "Fortaleza Esporte Clube",
+          "descricao": "Clube de futebol de Fortaleza, no Ceará, de uniforme tricolor listrado.",
+          "variantes": [
+            "Fortaleza",
+            "Fortaleza EC",
+            "Leão do Pici"
+          ]
+        },
+        {
+          "id": "b_29_superfortress",
+          "nome": "B-29 Superfortress",
+          "descricao": "Bombardeiro pesado quadrimotor americano da Boeing, usado na Segunda Guerra Mundial, que lançou as bombas atômicas sobre o Japão.",
+          "variantes": [
+            "Boeing B-29",
+            "B-29",
+            "Superfortaleza"
+          ]
+        },
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala",
+            "Potala Palace"
+          ]
+        },
+        {
+          "id": "formiga_leao",
+          "nome": "Formiga-leão",
+          "descricao": "Larva de insetos da família Myrmeleontidae, que cava funis na areia para capturar presas.",
+          "variantes": [
+            "Myrmeleontidae",
+            "Antlion",
+            "Cachorrinho-da-areia"
+          ]
+        },
+        {
+          "id": "freeza",
+          "nome": "Freeza",
+          "descricao": "Imperador alienígena, principal vilão da saga de Namek em Dragon Ball Z.",
+          "variantes": [
+            "Frieza",
+            "Freezer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Parque Nacional de Sete Cidades",
+        "descricao": "Parque nacional no Piauí conhecido por formações rochosas de arenito esculpidas pela erosão.",
+        "variantes": [
+          "Sete Cidades"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "parque_nacional_de_sete_cidades",
+          "nome": "Parque Nacional de Sete Cidades",
+          "descricao": "Parque nacional no Nordeste do Brasil com formações de arenito que lembram ruínas, castelos e animais.",
+          "variantes": [
+            "Sete Cidades"
+          ]
+        },
+        {
+          "id": "parque_nacional_de_yosemite",
+          "nome": "Parque Nacional de Yosemite",
+          "descricao": "Parque nacional na Serra Nevada da Califórnia, famoso por paredões de granito e cachoeiras.",
+          "variantes": [
+            "Yosemite",
+            "Yosemite National Park"
+          ]
+        },
+        {
+          "id": "white_sands",
+          "nome": "White Sands",
+          "descricao": "Parque nacional no Novo México, Estados Unidos, com um enorme campo de dunas brancas.",
+          "variantes": [
+            "White Sands National Park",
+            "Parque Nacional de White Sands"
+          ]
+        },
+        {
+          "id": "mesa_verde",
+          "nome": "Mesa Verde",
+          "descricao": "Conjunto de moradias de pedra construídas sob penhascos pelos antigos povos pueblo, hoje parque nacional nos Estados Unidos.",
+          "variantes": [
+            "Mesa Verde National Park",
+            "Parque Nacional de Mesa Verde"
+          ]
+        },
+        {
+          "id": "floresta_da_tijuca",
+          "nome": "Floresta da Tijuca",
+          "descricao": "Floresta urbana replantada no século dezenove, no maciço da Tijuca, no Rio de Janeiro",
+          "variantes": [
+            "Parque Nacional da Tijuca"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "interlagos",
+      "motivo": "Ambas descrevem o autódromo José Carlos Pace em São Paulo."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o mirante Vista Chinesa."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a catedral de Maringá."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Instituto Ricardo Brennand."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "O Museu da Inconfidência é distinto da Inconfidência Mineira e das demais candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "A cidade é diferente do clube Fortaleza EC."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "parque_nacional_de_sete_cidades",
+      "motivo": "Mesmo parque nacional, com mesmo nome e formações de arenito."
+    }
+  ]
+}
