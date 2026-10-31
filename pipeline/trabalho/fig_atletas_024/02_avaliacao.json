@@ -1,0 +1,224 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem nome visível; cabelo característico.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que jogador brasileiro é este?",
+      "resposta": "Zé Roberto",
+      "distratores": [
+        "Roberto Carlos",
+        "Gilberto Silva",
+        "Zé Elias"
+      ],
+      "ancora": {
+        "nome": "Zé Roberto",
+        "descricao": "Zé Roberto, ex-meia e lateral brasileiro de Bayern de Munique, Bayer Leverkusen e Palmeiras.",
+        "variantes": [
+          "José Roberto da Silva Júnior"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido de goleiro com uniforme do Corinthians; sem nome visível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que goleiro brasileiro é este?",
+      "resposta": "Cássio",
+      "distratores": [
+        "Fábio",
+        "Weverton",
+        "Rogério Ceni"
+      ],
+      "ancora": {
+        "nome": "Cássio",
+        "descricao": "Cássio Ramos, goleiro brasileiro ídolo do Corinthians, nascido em 1987.",
+        "variantes": [
+          "Cássio Ramos"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A camisa traz o nome ZONTA escrito, o que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato de estúdio nítido, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em 1998, para qual clube espanhol este ex-jogador brasileiro deixou o São Paulo?",
+      "resposta": "Real Betis",
+      "distratores": [
+        "Sevilla",
+        "Valencia",
+        "Deportivo La Coruña"
+      ],
+      "ancora": {
+        "nome": "Denílson",
+        "descricao": "Denílson de Oliveira, ex-ponta brasileiro campeão mundial em 2002, ex-São Paulo e Real Betis.",
+        "variantes": [
+          "Denílson Show",
+          "Denílson de Oliveira"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem nome visível; a credencial só diz Fórmula 1 e Melbourne.",
+      "destino": 4,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Por qual equipe de Fórmula 1 este ex-piloto australiano correu de dois mil e sete a dois mil e treze?",
+      "resposta": "Red Bull",
+      "distratores": [
+        "Ferrari",
+        "McLaren",
+        "Toyota"
+      ],
+      "ancora": {
+        "nome": "Mark Webber",
+        "descricao": "Mark Webber, ex-piloto australiano de Fórmula 1, vice-campeão em 2010 pela Red Bull.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida, só logotipos de patrocinadores no fundo, sem nome.",
+      "destino": 5,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que nadadora americana é esta?",
+      "resposta": "Katie Ledecky",
+      "distratores": [
+        "Missy Franklin",
+        "Simone Manuel",
+        "Dana Vollmer"
+      ],
+      "ancora": {
+        "nome": "Katie Ledecky",
+        "descricao": "Katie Ledecky, nadadora americana de provas de longa distância, multicampeã olímpica.",
+        "variantes": [
+          "Kathleen Ledecky"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O fundo traz o cartaz 'Dos Santos vs Carwin', com outros nomes, e há outras pessoas na cena. O lutador não é reconhecível e a resposta fica ambígua."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido em preto e branco, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ex-meia brasileiro é este?",
+      "resposta": "Ademir da Guia",
+      "distratores": [
+        "Rivellino",
+        "Dirceu Lopes",
+        "Zito"
+      ],
+      "ancora": {
+        "nome": "Ademir da Guia",
+        "descricao": "Ademir da Guia, meia brasileiro ídolo do Palmeiras nos anos 1960 e 1970.",
+        "variantes": [
+          "O Divino"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido, camisa amarela, só um letreiro parcial ao fundo, sem nome.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este meia brasileiro marcou na final da Copa do Mundo de mil novecentos e setenta. Contra qual seleção?",
+      "resposta": "Itália",
+      "distratores": [
+        "Alemanha Ocidental",
+        "Uruguai",
+        "Inglaterra"
+      ],
+      "ancora": {
+        "nome": "Gérson",
+        "descricao": "Gérson de Oliveira Nunes, meia brasileiro campeão mundial em 1970.",
+        "variantes": [
+          "Gérson de Oliveira Nunes",
+          "Canhotinha de Ouro"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de atleta com a camisa do Brasil, sem nome visível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que jogador brasileiro de vôlei de praia é este?",
+      "resposta": "Emanuel Rego",
+      "distratores": [
+        "Ricardo Santos",
+        "Márcio Araújo",
+        "Alison Cerutti"
+      ],
+      "ancora": {
+        "nome": "Emanuel Rego",
+        "descricao": "Emanuel Rego, jogador brasileiro de vôlei de praia, campeão olímpico em 2004.",
+        "variantes": [
+          "Emanuel"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto antiga e granulada de um homem de terno sorrindo. Nada na imagem remete a goleiro ou futebol, e ele não é reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido; o texto da camisa (Rio de Janeiro, Brasil) não entrega o nome.",
+      "destino": 7,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que surfista brasileira é esta?",
+      "resposta": "Maya Gabeira",
+      "distratores": [
+        "Silvana Lima",
+        "Tatiana Weston-Webb",
+        "Jessica Maia"
+      ],
+      "ancora": {
+        "nome": "Maya Gabeira",
+        "descricao": "Maya Gabeira, surfista brasileira de ondas gigantes, recordista em Nazaré.",
+        "variantes": []
+      }
+    }
+  ]
+}

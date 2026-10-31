@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que nadadora americana é esta?",
+        "resposta": "Katie Ledecky"
+      },
+      "existentes": [
+        {
+          "id": "q15377",
+          "pergunta": "Que nadadora norte-americana é esta?",
+          "resposta": "Katie Ledecky"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que jogador brasileiro de vôlei de praia é este?",
+        "resposta": "Emanuel Rego"
+      },
+      "existentes": [
+        {
+          "id": "q07078",
+          "pergunta": "Campeão olímpico de vôlei de praia em Atenas 2004, Emanuel Rego é natural de que capital do Sul do país?",
+          "resposta": "Curitiba"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificação da imagem, mesma resposta (Katie Ledecky)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do jogador; a existente pergunta a cidade natal. Fatos diferentes."
+    }
+  ]
+}
