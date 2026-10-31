@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pista; distratores são outros instrumentos médicos de mesmo tipo e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a água-marinha é uma variedade do berilo. A cor não entrega a resposta, e a figura é necessária. Distratores são minerais de mesmo tipo e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a própria condição (olhos de cores diferentes) e dá para responder 'melanina' sem ver a figura, então a imagem virou enfeite. O enunciado também afirma que é um gato, o que `mostra` não confirma. Não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Carapaça de sílica' entrega as diatomáceas sem a figura. Além disso, radiolários também têm esqueleto de sílica e não são algas. Tirei a pista e troquei os distratores por grupos de fitoplâncton visualmente distintos.",
+      "reescrita": {
+        "pergunta": "Estes organismos microscópicos fazem parte do fitoplâncton. Que grupo é este?",
+        "resposta": "Diatomáceas",
+        "distratores": [
+          "Dinoflagelados",
+          "Cianobactérias",
+          "Cocolitoforídeos"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de nível 2 com distratores de minerais vermelhos ou alaranjados parecidos. A cor sozinha não entrega a resposta, e a composição está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho descreve o condensador de Liebig como um tubo reto com camisa de água. Distratores são outras peças de vidraria de destilação, com no máximo 4 palavras, e nenhum é correto para a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 'por esporos' está nos trechos. Porém 'Por estolhos' é um distrator defensável, porque algumas samambaias, como a samambaia-americana, se propagam por estolhos. Troquei o distrator.",
+      "reescrita": {
+        "pergunta": "Como se reproduz esta planta?",
+        "resposta": "Por esporos",
+        "distratores": [
+          "Por sementes",
+          "Por bulbos",
+          "Por tubérculos"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o pistilo (ou pilão) é o bastão do conjunto. Pergunta de nível 1, e os distratores são utensílios de laboratório que não são bastões.",
+      "reescrita": null
+    }
+  ]
+}

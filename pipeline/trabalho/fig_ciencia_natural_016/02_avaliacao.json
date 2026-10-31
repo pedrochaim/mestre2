@@ -1,0 +1,215 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de termômetro digital; a marca 'bms' não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que instrumento médico é este?",
+      "resposta": "Termômetro clínico",
+      "distratores": [
+        "Oxímetro de pulso",
+        "Glicosímetro",
+        "Esfigmomanômetro"
+      ],
+      "ancora": {
+        "nome": "Termômetro clínico",
+        "descricao": "Instrumento usado para medir a temperatura do corpo de uma pessoa ou animal.",
+        "variantes": [
+          "Termômetro médico",
+          "Termômetro digital"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cristais prismáticos azul-claros de água-marinha sobre muscovita, bem visíveis.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "A que família de minerais pertence esta gema azul-clara?",
+      "resposta": "Berilo",
+      "distratores": [
+        "Coríndon",
+        "Quartzo",
+        "Topázio"
+      ],
+      "ancora": {
+        "nome": "Água-marinha",
+        "descricao": "Variedade azul-clara a verde-azulada do berilo, usada como gema.",
+        "variantes": [
+          "Aquamarine"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Olhos de cores diferentes (amarelo e azul) de um gato, claramente visíveis.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Este gato tem olhos de cores diferentes. Que pigmento, em quantidades distintas, explica isso?",
+      "resposta": "Melanina",
+      "distratores": [
+        "Clorofila",
+        "Hemoglobina",
+        "Caroteno"
+      ],
+      "ancora": {
+        "nome": "Heterocromia",
+        "descricao": "Variação de cor entre os olhos (ou em pelos e pele) de um mesmo indivíduo, determinada pela melanina.",
+        "variantes": [
+          "Heterochromia"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "É uma ilustração (prancha de Haeckel) de várias espécies de musgo, e não uma foto; fora da regra de figuras."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Microfotografia nítida de diatomáceas, reconhecíveis pelas carapaças; a pergunta foca o grupo.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Estes organismos microscópicos, comuns no plâncton, têm carapaça de sílica. Que grupo de algas é este?",
+      "resposta": "Diatomáceas",
+      "distratores": [
+        "Dinoflagelados",
+        "Cianobactérias",
+        "Radiolários"
+      ],
+      "ancora": {
+        "nome": "Diatomáceas",
+        "descricao": "Algas unicelulares microscópicas com carapaça de sílica, componentes do fitoplâncton.",
+        "variantes": [
+          "Diatomácea",
+          "Diatomito",
+          "Diatoms"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cristais prismáticos vermelho-alaranjados muito característicos de crocoíta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que mineral vermelho-alaranjado é este?",
+      "resposta": "Crocoíta",
+      "distratores": [
+        "Realgar",
+        "Cinábrio",
+        "Vanadinita"
+      ],
+      "ancora": {
+        "nome": "Crocoíta",
+        "descricao": "Mineral de cromato de chumbo, PbCrO4, de cristais prismáticos vermelho-alaranjados.",
+        "variantes": [
+          "Crocoite"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem borrada de um feto dentro de um saco, de difícil leitura no celular e sensível; pouco clara."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto de uma criança comum em primeiro plano; pessoa comum não permitida."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vidraria reta com camisa de água, sem texto legível relevante.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que peça de vidraria de laboratório é esta?",
+      "resposta": "Condensador de Liebig",
+      "distratores": [
+        "Condensador de Allihn",
+        "Condensador de Graham",
+        "Coluna de Vigreux"
+      ],
+      "ancora": {
+        "nome": "Condensador de Liebig",
+        "descricao": "Vidraria de laboratório formada por um tubo reto envolto por uma camisa de água, usada para condensar vapores.",
+        "variantes": [
+          "Condensador reto",
+          "Liebig condenser"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto clara de samambaia com frondes divididas.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Como se reproduz esta planta?",
+      "resposta": "Por esporos",
+      "distratores": [
+        "Por sementes",
+        "Por bulbos",
+        "Por estolhos"
+      ],
+      "ancora": {
+        "nome": "Samambaia",
+        "descricao": "Planta vascular sem flores nem sementes, que se reproduz por esporos e tem frondes divididas.",
+        "variantes": [
+          "Feto",
+          "Fern"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Almofariz de cerâmica com pistilo e grãos de pimenta, bem nítido.",
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Como se chama a peça em forma de bastão deste conjunto?",
+      "resposta": "Pistilo",
+      "distratores": [
+        "Cadinho",
+        "Espátula",
+        "Bureta"
+      ],
+      "ancora": {
+        "nome": "Almofariz e pistilo",
+        "descricao": "Conjunto de uma tigela (almofariz) e de um bastão (pistilo) usado para triturar substâncias.",
+        "variantes": [
+          "Pilão e socador",
+          "Gral e pistilo",
+          "Mortar and pestle"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Rocha azul com veios brancos, facilmente confundível com lazurita, lápis-lazúli ou outros minerais azuis; resposta não única."
+    }
+  ]
+}

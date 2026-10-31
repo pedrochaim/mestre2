@@ -1,0 +1,84 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A que família de minerais pertence esta gema azul-clara?",
+        "resposta": "Berilo"
+      },
+      "existentes": [
+        {
+          "id": "q04311",
+          "pergunta": "Que mineral dá origem tanto à esmeralda verde quanto à água-marinha azulada?",
+          "resposta": "Berilo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Estes organismos microscópicos fazem parte do fitoplâncton. Que grupo é este?",
+        "resposta": "Diatomáceas"
+      },
+      "existentes": [
+        {
+          "id": "q08162",
+          "pergunta": "Que algas microscópicas formam este arranjo visto ao microscópio?",
+          "resposta": "Diatomáceas"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Como se reproduz esta planta?",
+        "resposta": "Por esporos"
+      },
+      "existentes": [
+        {
+          "id": "q09181",
+          "pergunta": "Que planta, sem flores nem sementes, comum em jardins e matas úmidas, é esta?",
+          "resposta": "Samambaia"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Como se chama a peça em forma de bastão deste conjunto?",
+        "resposta": "Pistilo"
+      },
+      "existentes": [
+        {
+          "id": "q05070",
+          "pergunta": "Que utensílio de cozinha é este?",
+          "resposta": "Almofariz (com pilão)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas têm como resposta o berilo como mineral da gema (água-marinha); quem soubesse uma saberia a outra.",
+      "id_existente": "q04311"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar o grupo das diatomáceas a partir da imagem de algas microscópicas.",
+      "id_existente": "q08162"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Uma pergunta é sobre a reprodução por esporos e a outra sobre a identificação da planta; fatos diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome da peça (pistilo), enquanto a existente pede o utensílio completo (almofariz); fatos diferentes."
+    }
+  ]
+}

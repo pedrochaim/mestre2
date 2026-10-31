@@ -343425,5 +343425,128 @@
       "licenca": "Public domain"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q17607",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "termometro_clinico",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que instrumento médico é este?",
+    "resposta": "Termômetro clínico",
+    "distratores": [
+      "Oxímetro de pulso",
+      "Glicosímetro",
+      "Esfigmomanômetro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Medical_thermometer"
+    ],
+    "imagem": {
+      "arquivo": "q17607.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2023_Elektroniczny_termometr_lekarski.jpg",
+      "autor": "Jacek Halicki",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q17608",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "crocoita",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que mineral vermelho-alaranjado é este?",
+    "resposta": "Crocoíta",
+    "distratores": [
+      "Realgar",
+      "Cinábrio",
+      "Vanadinita"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crocoite",
+      "https://pt.wikipedia.org/wiki/Croco%C3%ADta"
+    ],
+    "imagem": {
+      "arquivo": "q17608.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Crocoïte_Dundas2p.jpg",
+      "autor": "Didier Descouens",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q17609",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "condensador_de_liebig",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que peça de vidraria de laboratório é esta?",
+    "resposta": "Condensador de Liebig",
+    "distratores": [
+      "Condensador de Allihn",
+      "Condensador de Graham",
+      "Coluna de Vigreux"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Liebig_condenser"
+    ],
+    "imagem": {
+      "arquivo": "q17609.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:LiebigCondenser.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q17610",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "samambaia",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Como se reproduz esta planta?",
+    "resposta": "Por esporos",
+    "distratores": [
+      "Por sementes",
+      "Por bulbos",
+      "Por tubérculos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fern",
+      "https://pt.wikipedia.org/wiki/Samambaia"
+    ],
+    "imagem": {
+      "arquivo": "q17610.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Athyrium_filix-femina0.jpg",
+      "autor": "MPF (Wikimedia Commons)",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q17611",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "almofariz_e_pilao",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Como se chama a peça em forma de bastão deste conjunto?",
+    "resposta": "Pistilo",
+    "distratores": [
+      "Cadinho",
+      "Espátula",
+      "Bureta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mortar_and_pestle",
+      "https://pt.wikipedia.org/wiki/Almofariz"
+    ],
+    "imagem": {
+      "arquivo": "q17611.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Black_peppercorns_with_mortar_and_pestle.jpg",
+      "autor": "Dvortygirl",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

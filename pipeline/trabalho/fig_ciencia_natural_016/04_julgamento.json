@@ -1,0 +1,453 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Termômetro clínico",
+        "descricao": "Instrumento usado para medir a temperatura do corpo de uma pessoa ou animal.",
+        "variantes": [
+          "Termômetro médico",
+          "Termômetro digital"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "termometro_de_mercurio",
+          "nome": "Termômetro de mercúrio",
+          "descricao": "Termômetro de vidro em que uma coluna de mercúrio se dilata para indicar a temperatura.",
+          "variantes": [
+            "Termômetro de vidro",
+            "Termômetro de mercúrio em vidro",
+            "Termômetro de vidro com mercúrio",
+            "Mercury-in-glass thermometer"
+          ]
+        },
+        {
+          "id": "multimetro",
+          "nome": "Multímetro",
+          "descricao": "Instrumento que mede grandezas elétricas como tensão, corrente e resistência.",
+          "variantes": [
+            "Multímetro digital",
+            "Multitester",
+            "Voltímetro-amperímetro-ohmímetro"
+          ]
+        },
+        {
+          "id": "projetor_multimidia",
+          "nome": "Projetor multimídia",
+          "descricao": "Aparelho que recebe um sinal de vídeo e projeta a imagem numa tela por um sistema de lentes.",
+          "variantes": [
+            "Projetor de vídeo",
+            "Datashow",
+            "Projetor digital"
+          ]
+        },
+        {
+          "id": "teatro_olimpico_de_vicenza",
+          "nome": "Teatro Olímpico de Vicenza",
+          "descricao": "Teatro coberto renascentista de Vicenza, na Itália, projetado por Andrea Palladio e inaugurado em 1585.",
+          "variantes": [
+            "Teatro Olimpico",
+            "Teatro Olímpico"
+          ]
+        },
+        {
+          "id": "alemanha_nazista",
+          "nome": "Alemanha Nazista",
+          "descricao": "O Estado alemão sob o regime de Adolf Hitler e do Partido Nazista, de 1933 a 1945, também chamado Terceiro Reich.",
+          "variantes": [
+            "Terceiro Reich",
+            "Reich Alemão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Água-marinha",
+        "descricao": "Variedade azul-clara a verde-azulada do berilo, usada como gema.",
+        "variantes": [
+          "Aquamarine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "agua_marinha",
+          "nome": "Água-marinha",
+          "descricao": "Gema azul-esverdeada, variedade do mineral berilo, com grandes jazidas no Brasil.",
+          "variantes": [
+            "Aquamarine"
+          ]
+        },
+        {
+          "id": "iguana_marinha",
+          "nome": "Iguana-marinha",
+          "descricao": "Lagarto de Galápagos (Amblyrhynchus cristatus) que mergulha no mar para comer algas.",
+          "variantes": [
+            "Amblyrhynchus cristatus",
+            "Marine iguana"
+          ]
+        },
+        {
+          "id": "dugongo",
+          "nome": "Dugongo",
+          "descricao": "Mamífero marinho herbívoro da ordem Sirenia, que vive no Indo-Pacífico e se alimenta de capim-marinho.",
+          "variantes": [
+            "Dugong dugon",
+            "Vaca-marinha"
+          ]
+        },
+        {
+          "id": "aquaman",
+          "nome": "Aquaman",
+          "descricao": "Super-herói da DC Comics que vive no mar e se comunica com as criaturas marinhas",
+          "variantes": [
+            "Arthur Curry"
+          ]
+        },
+        {
+          "id": "azul_ultramarino",
+          "nome": "Azul ultramarino",
+          "descricao": "Pigmento azul intenso, caríssimo na pintura medieval e renascentista, obtido originalmente de uma pedra do Afeganistão.",
+          "variantes": [
+            "Ultramarino",
+            "Ultramarine"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Diatomáceas",
+        "descricao": "Algas unicelulares microscópicas com carapaça de sílica, componentes do fitoplâncton.",
+        "variantes": [
+          "Plâncton",
+          "Diatomácea",
+          "Diatomito",
+          "Diatoms"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "diatomacea",
+          "nome": "Diatomácea",
+          "descricao": "Microalga unicelular com carapaça de sílica, abundante nos oceanos e nas águas doces.",
+          "variantes": [
+            "Diatomáceas",
+            "Diatomito"
+          ]
+        },
+        {
+          "id": "plancton",
+          "nome": "Plâncton",
+          "descricao": "Conjunto de organismos aquáticos, em geral minúsculos, que vivem à deriva levados pelas correntes.",
+          "variantes": [
+            "Plankton"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        },
+        {
+          "id": "pancracio",
+          "nome": "Pancrácio",
+          "descricao": "Esporte de combate dos Jogos Olímpicos da Grécia Antiga, quase sem restrições de golpes.",
+          "variantes": [
+            "Pankration",
+            "Pancrátio",
+            "Pancrátion",
+            "Pancrácio grego"
+          ]
+        },
+        {
+          "id": "panteao_de_roma",
+          "nome": "Panteão de Roma",
+          "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+          "variantes": [
+            "Panteão",
+            "Pantheon",
+            "Pantheon, Rome"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Crocoíta",
+        "descricao": "Mineral de cromato de chumbo, PbCrO4, de cristais prismáticos vermelho-alaranjados.",
+        "variantes": [
+          "Crocoite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_croacia",
+          "nome": "Bandeira da Croácia",
+          "descricao": "Bandeira atual da Croácia: listras vermelha, branca e azul com brasão xadrez vermelho e branco.",
+          "variantes": [
+            "Croácia",
+            "Bandeira croata"
+          ]
+        },
+        {
+          "id": "selecao_croata_de_futebol",
+          "nome": "Seleção Croata de Futebol",
+          "descricao": "Seleção nacional masculina de futebol da Croácia, de camisa em xadrez vermelho e branco.",
+          "variantes": [
+            "Croácia",
+            "Vatreni",
+            "Seleção da Croácia"
+          ]
+        },
+        {
+          "id": "brasao_da_croacia",
+          "nome": "Brasão da Croácia",
+          "descricao": "Brasão de armas da República da Croácia, com escudo em xadrez vermelho e branco e coroa de cinco brasões menores.",
+          "variantes": [
+            "Croácia",
+            "Armas da Croácia",
+            "Grb Hrvatske"
+          ]
+        },
+        {
+          "id": "crocodilo",
+          "nome": "Crocodilo",
+          "descricao": "Grande réptil aquático da ordem dos crocodilianos, que inclui crocodilos, jacarés e gaviais.",
+          "variantes": [
+            "Crocodilianos",
+            "Crocodilia"
+          ]
+        },
+        {
+          "id": "croconaw",
+          "nome": "Croconaw",
+          "descricao": "Pokémon crocodilo do tipo água, número 159 da Pokédex Nacional, evolução do Totodile.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Condensador de Liebig",
+        "descricao": "Vidraria de laboratório formada por um tubo reto envolto por uma camisa de água, usada para condensar vapores.",
+        "variantes": [
+          "Condensador reto",
+          "Liebig condenser"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "leite_condensado",
+          "nome": "Leite condensado",
+          "descricao": "Leite de vaca do qual se retira parte da água e ao qual se adiciona açúcar, base de muitos doces brasileiros.",
+          "variantes": [
+            "Leite condensado açucarado"
+          ]
+        },
+        {
+          "id": "ar_condicionado",
+          "nome": "Ar-condicionado",
+          "descricao": "Sistema de controle de temperatura e umidade do ar, cuja versão moderna foi criada por Willis Carrier em 1902.",
+          "variantes": [
+            "Air conditioning",
+            "Condicionador de ar"
+          ]
+        },
+        {
+          "id": "cartola",
+          "nome": "Cartola",
+          "descricao": "Angenor de Oliveira, sambista carioca, fundador da Estação Primeira de Mangueira.",
+          "variantes": [
+            "Angenor de Oliveira"
+          ]
+        },
+        {
+          "id": "ar_condicionado_2",
+          "nome": "Ar-condicionado",
+          "descricao": "Aparelho que retira calor de um ambiente fechado para resfriá-lo, aqui a unidade externa de um sistema split.",
+          "variantes": [
+            "Condicionador de ar"
+          ]
+        },
+        {
+          "id": "leite_moca",
+          "nome": "Leite Moça",
+          "descricao": "Marca de leite condensado da Nestlé vendida no Brasil.",
+          "variantes": [
+            "Leite Condensado Moça",
+            "Milkmaid"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Samambaia",
+        "descricao": "Planta vascular sem flores nem sementes, que se reproduz por esporos e tem frondes divididas.",
+        "variantes": [
+          "Feto",
+          "Fern"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "samambaia",
+          "nome": "Samambaia",
+          "descricao": "Planta vascular sem flores nem sementes, que se reproduz por esporos, do grupo dos fetos (Polypodiopsida).",
+          "variantes": [
+            "Feto",
+            "Polypodiopsida"
+          ]
+        },
+        {
+          "id": "xaxim",
+          "nome": "Xaxim",
+          "descricao": "Samambaia arborescente nativa das Américas, Dicksonia sellowiana, de tronco escuro e fibroso.",
+          "variantes": [
+            "Samambaiaçu",
+            "Dicksonia sellowiana"
+          ]
+        },
+        {
+          "id": "berna",
+          "nome": "Berna",
+          "descricao": "Cidade suíça que funciona como sede do governo federal da Suíça.",
+          "variantes": [
+            "Bern",
+            "Berne"
+          ]
+        },
+        {
+          "id": "veto",
+          "nome": "Veto",
+          "descricao": "Poder de barrar uma decisão, cuja palavra vem do latim e era usada pelos tribunos da plebe romana.",
+          "variantes": []
+        },
+        {
+          "id": "cern",
+          "nome": "CERN",
+          "descricao": "Organização Europeia para a Pesquisa Nuclear, laboratório de física de partículas fundado em 1954 na fronteira franco-suíça.",
+          "variantes": [
+            "Organização Europeia para a Pesquisa Nuclear",
+            "European Organization for Nuclear Research"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Almofariz e pistilo",
+        "descricao": "Conjunto de uma tigela (almofariz) e de um bastão (pistilo) usado para triturar substâncias.",
+        "variantes": [
+          "Pilão e socador",
+          "Gral e pistilo",
+          "Mortar and pestle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "almofariz_e_pilao",
+          "nome": "Almofariz e pilão",
+          "descricao": "Conjunto de uma tigela e uma peça em forma de bastão usado para triturar ingredientes.",
+          "variantes": [
+            "Pilão",
+            "Gral",
+            "Almofariz"
+          ]
+        },
+        {
+          "id": "ilha_de_calor",
+          "nome": "Ilha de calor",
+          "descricao": "Fenômeno em que áreas urbanas ficam mais quentes que o campo ao redor",
+          "variantes": [
+            "Ilha de calor urbana",
+            "Urban heat island"
+          ]
+        },
+        {
+          "id": "peste_negra",
+          "nome": "Peste Negra",
+          "descricao": "Pandemia de peste bubônica que devastou a Europa, a Ásia e o Norte da África em meados do século quatorze.",
+          "variantes": [
+            "Grande Peste",
+            "Black Death",
+            "Morte Negra"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "peixe_pescador",
+          "nome": "Peixe-pescador",
+          "descricao": "Peixes da ordem Lophiiformes, muitos de águas profundas, que atraem presas com uma isca na cabeça.",
+          "variantes": [
+            "Tamboril",
+            "Anglerfish",
+            "Lophiiformes"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Termômetro clínico é diferente do termômetro de mercúrio; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "agua_marinha",
+      "motivo": "Mesma gema, variedade do berilo."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "diatomacea",
+      "motivo": "Diatomáceas são o mesmo grupo de microalgas com carapaça de sílica que a candidata Diatomácea."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Mineral crocoíta não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Vidraria de laboratório; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "samambaia",
+      "motivo": "Mesma planta, o grupo das samambaias/fetos."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "almofariz_e_pilao",
+      "motivo": "Mesmo utensílio: tigela e bastão para triturar (pilão = pistilo)."
+    }
+  ]
+}
