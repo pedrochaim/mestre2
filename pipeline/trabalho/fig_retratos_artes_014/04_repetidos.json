@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que escritor inglês do século dezenove é este?",
+        "resposta": "Lewis Carroll"
+      },
+      "existentes": [
+        {
+          "id": "q03305",
+          "pergunta": "O matemático inglês Charles Dodgson, professor em Oxford, ficou mundialmente famoso como escritor usando que pseudônimo?",
+          "resposta": "Lewis Carroll"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual destas obras foi escrita por esta autora?",
+        "resposta": "O Segundo Sexo"
+      },
+      "existentes": [
+        {
+          "id": "q08248",
+          "pergunta": "Simone de Beauvoir está enterrada no mesmo túmulo que Jean-Paul Sartre. Em que cemitério de Paris?",
+          "resposta": "Cemitério de Montparnasse"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas têm como resposta Lewis Carroll, o pseudônimo de Charles Dodgson; saber uma leva à outra.",
+      "id_existente": "q03305"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre obra de Simone de Beauvoir, fato diferente do local de sepultamento."
+    }
+  ]
+}

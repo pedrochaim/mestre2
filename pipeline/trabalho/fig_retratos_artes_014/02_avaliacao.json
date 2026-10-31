@@ -1,0 +1,227 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato pintado nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que escritor é este?",
+      "resposta": "Herman Melville",
+      "distratores": [
+        "Nathaniel Hawthorne",
+        "Walt Whitman",
+        "Edgar Allan Poe"
+      ],
+      "ancora": {
+        "nome": "Herman Melville",
+        "descricao": "Escritor americano do século dezenove, autor de Moby Dick.",
+        "variantes": [
+          "Melville"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida e reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Que dramaturgo é este?",
+      "resposta": "Arthur Miller",
+      "distratores": [
+        "Tennessee Williams",
+        "Eugene O'Neill",
+        "Edward Albee"
+      ],
+      "ancora": {
+        "nome": "Arthur Miller",
+        "descricao": "Dramaturgo americano, autor de A Morte do Caixeiro Viajante e As Bruxas de Salem.",
+        "variantes": [
+          "Arthur Asher Miller"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, com assinatura manuscrita no canto; pouco legível no celular e a assinatura pode entregar o nome."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fotografia antiga nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que escritor inglês do século dezenove é este?",
+      "resposta": "Lewis Carroll",
+      "distratores": [
+        "Charles Dickens",
+        "Edward Lear",
+        "Oscar Wilde"
+      ],
+      "ancora": {
+        "nome": "Lewis Carroll",
+        "descricao": "Pseudônimo do escritor e matemático inglês Charles Dodgson, autor de Alice no País das Maravilhas.",
+        "variantes": [
+          "Charles Lutwidge Dodgson"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico clássico, nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Qual destas obras foi escrita por este autor?",
+      "resposta": "Em Busca do Tempo Perdido",
+      "distratores": [
+        "O Vermelho e o Negro",
+        "Madame Bovary",
+        "Os Miseráveis"
+      ],
+      "ancora": {
+        "nome": "Marcel Proust",
+        "descricao": "Romancista francês, autor de Em Busca do Tempo Perdido.",
+        "variantes": [
+          "Valentin Louis Georges Eugène Marcel Proust"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto de corpo inteiro num evento, rosto pequeno e sem traços que permitam reconhecer o escritor; não reconhecível pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Qual destas obras foi escrita por este autor?",
+      "resposta": "Drácula",
+      "distratores": [
+        "Frankenstein",
+        "O Médico e o Monstro",
+        "O Retrato de Dorian Gray"
+      ],
+      "ancora": {
+        "nome": "Bram Stoker",
+        "descricao": "Escritor irlandês, autor do romance Drácula.",
+        "variantes": [
+          "Abraham Stoker"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que escritor é este?",
+      "resposta": "H. G. Wells",
+      "distratores": [
+        "Júlio Verne",
+        "Arthur Conan Doyle",
+        "Rudyard Kipling"
+      ],
+      "ancora": {
+        "nome": "H. G. Wells",
+        "descricao": "Escritor inglês de ficção científica, autor de A Máquina do Tempo e A Guerra dos Mundos.",
+        "variantes": [
+          "Herbert George Wells"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato pintado nítido; só há a assinatura do pintor, em cirílico, que não revela o retratado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Qual destas obras foi escrita por este autor?",
+      "resposta": "Almas Mortas",
+      "distratores": [
+        "Crime e Castigo",
+        "Pais e Filhos",
+        "Anna Kariênina"
+      ],
+      "ancora": {
+        "nome": "Nikolai Gógol",
+        "descricao": "Escritor russo de origem ucraniana, autor de O Capote e Almas Mortas.",
+        "variantes": [
+          "Nikolai Gogol",
+          "Nicolau Gógol"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que músico brasileiro é este?",
+      "resposta": "João Carlos Martins",
+      "distratores": [
+        "Nelson Freire",
+        "Arthur Moreira Lima",
+        "Eleazar de Carvalho"
+      ],
+      "ancora": {
+        "nome": "João Carlos Martins",
+        "descricao": "Pianista e maestro brasileiro, intérprete de Bach.",
+        "variantes": [
+          "Maestro João Carlos Martins"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida em preto e branco, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Qual destas obras foi escrita por esta autora?",
+      "resposta": "O Segundo Sexo",
+      "distratores": [
+        "A Náusea",
+        "O Ser e o Nada",
+        "A Peste"
+      ],
+      "ancora": {
+        "nome": "Simone de Beauvoir",
+        "descricao": "Filósofa e escritora existencialista francesa, autora de O Segundo Sexo.",
+        "variantes": [
+          "Simone Lucie Ernestine Marie Bertrand de Beauvoir"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto de perfil, granulada, com outra pessoa com câmera ao fundo; o poeta não é reconhecível pela imagem."
+    }
+  ]
+}
