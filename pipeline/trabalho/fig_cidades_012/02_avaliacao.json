@@ -1,0 +1,248 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista clássica e inconfundível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que civilização construiu esta cidadela nas montanhas?",
+      "resposta": "Inca",
+      "distratores": [
+        "Maia",
+        "Asteca",
+        "Olmeca"
+      ],
+      "ancora": {
+        "nome": "Machu Picchu",
+        "descricao": "Cidadela inca do século quinze nos Andes do sul do Peru, perto de Cusco.",
+        "variantes": [
+          "Machupicchu"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada reconhecível, sem texto que entregue a resposta.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade fica esta estação ferroviária?",
+      "resposta": "Nova York",
+      "distratores": [
+        "Chicago",
+        "Boston",
+        "Filadélfia"
+      ],
+      "ancora": {
+        "nome": "Grand Central Terminal",
+        "descricao": "Grande estação ferroviária de passageiros na Rua 42, em Manhattan, Nova York.",
+        "variantes": [
+          "Grand Central Station",
+          "Estação Grand Central"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Praça reconhecível com a prefeitura gótica; sem texto relevante.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em 1695, tropas de que país bombardearam esta praça e destruíram quase tudo ao redor da prefeitura?",
+      "resposta": "França",
+      "distratores": [
+        "Espanha",
+        "Inglaterra",
+        "Países Baixos"
+      ],
+      "ancora": {
+        "nome": "Grand-Place de Bruxelas",
+        "descricao": "Praça central de Bruxelas, cercada por casas de corporações barrocas e pela prefeitura gótica.",
+        "variantes": [
+          "Grand-Place",
+          "Grote Markt"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Trecho restaurado da muralha com torre; reconhecível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que dinastia construiu os trechos mais conhecidos desta muralha?",
+      "resposta": "Ming",
+      "distratores": [
+        "Han",
+        "Tang",
+        "Song"
+      ],
+      "ancora": {
+        "nome": "Grande Muralha da China",
+        "descricao": "Sistema de fortificações no norte da China, cujos trechos mais conhecidos datam da dinastia Ming.",
+        "variantes": [
+          "Muralha da China",
+          "Great Wall of China"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Sequência de curvas fechadas bem visível e característica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que rua famosa é esta?",
+      "resposta": "Lombard Street",
+      "distratores": [
+        "Filbert Street",
+        "Vermont Street",
+        "Haight Street"
+      ],
+      "ancora": {
+        "nome": "Lombard Street",
+        "descricao": "Rua de São Francisco, na Califórnia, com um quarteirão íngreme de oito curvas fechadas.",
+        "variantes": [
+          "Rua Lombard"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A placa 'Circolo Italiano' e as bandeiras entregam a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Círculo de pedras inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que monumento pré-histórico é este?",
+      "resposta": "Stonehenge",
+      "distratores": [
+        "Avebury",
+        "Carnac",
+        "Callanish"
+      ],
+      "ancora": {
+        "nome": "Stonehenge",
+        "descricao": "Monumento megalítico pré-histórico na planície de Salisbury, na Inglaterra.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista aérea da Esplanada com o Congresso ao fundo, reconhecível e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quem criou o plano urbanístico da cidade onde fica esta avenida?",
+      "resposta": "Lúcio Costa",
+      "distratores": [
+        "Oscar Niemeyer",
+        "Burle Marx",
+        "Affonso Eduardo Reidy"
+      ],
+      "ancora": {
+        "nome": "Esplanada dos Ministérios",
+        "descricao": "Trecho inicial do Eixo Monumental de Brasília, ladeado pelos edifícios dos ministérios, com o Congresso Nacional ao fundo.",
+        "variantes": [
+          "Eixo Monumental"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Minarete de tijolo vermelho característico, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que torre é esta?",
+      "resposta": "Qutb Minar",
+      "distratores": [
+        "Minarete de Jam",
+        "Minarete Kalyan",
+        "Torre de Hassan"
+      ],
+      "ancora": {
+        "nome": "Qutb Minar",
+        "descricao": "Minarete e torre da vitória do século doze em Mehrauli, Délhi, na Índia.",
+        "variantes": [
+          "Qutub Minar",
+          "Qutab Minar"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cúpula dourada e azulejos inconfundíveis; só inscrições decorativas em árabe.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que dinastia califal mandou construir este santuário no fim do século sete?",
+      "resposta": "Omíada",
+      "distratores": [
+        "Abássida",
+        "Fatímida",
+        "Otomana"
+      ],
+      "ancora": {
+        "nome": "Domo da Rocha",
+        "descricao": "Santuário islâmico octogonal de cúpula dourada na Cidade Velha de Jerusalém.",
+        "variantes": [
+          "Cúpula da Rocha",
+          "Dome of the Rock"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Letreiros 'Shibuya Tsutaya' e 'Shibuya' visíveis entregam a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Torre cilíndrica com teto cônico, reconhecível e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que república marítima italiana construiu esta torre na Idade Média, em sua colônia à margem do Corno de Ouro?",
+      "resposta": "Gênova",
+      "distratores": [
+        "Veneza",
+        "Pisa",
+        "Amalfi"
+      ],
+      "ancora": {
+        "nome": "Torre de Gálata",
+        "descricao": "Torre medieval de pedra no bairro de Gálata, em Istambul, construída pelos genoveses no século catorze.",
+        "variantes": [
+          "Galata Tower",
+          "Galata Kulesi"
+        ]
+      }
+    }
+  ]
+}

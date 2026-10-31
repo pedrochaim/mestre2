@@ -1,0 +1,82 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cidadela inca confirmada nos trechos; enunciado não nomeia a entidade; distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estação em Manhattan, Nova York, confirmada; distratores são cidades críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bombardeio francês de 1695 destruiu tudo exceto a prefeitura e duas fachadas; sem vazamento do nome da praça.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As seções mais conhecidas foram construídas pela dinastia Ming, conforme os trechos; distratores são dinastias críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lombard Street identificada pela figura; distratores são ruas de São Francisco, e nenhum descreve a imagem (Vermont é a rua com sete curvas).",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Stonehenge é monumento megalítico pré-histórico; distratores são outros monumentos pré-históricos parecidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Plano urbanístico de Brasília é de Lúcio Costa; Niemeyer fez os edifícios e Burle Marx o paisagismo, logo não são corretos como plano.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Qutb Minar confirmado; distratores são minaretes e torres históricas, com até 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Construído sob o califa omíada Abd al-Malik, c. 691, fim do século sete; distratores são dinastias críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato é verdadeiro (torre genovesa de 1348), mas 'colônia à margem do Corno de Ouro' entrega Gálata e Gênova sem olhar a figura. Tirar essa pista.",
+      "reescrita": {
+        "pergunta": "Que república marítima italiana construiu esta torre no século catorze?",
+        "resposta": "Gênova",
+        "distratores": [
+          "Veneza",
+          "Pisa",
+          "Amalfi"
+        ]
+      }
+    }
+  ]
+}

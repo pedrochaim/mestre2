@@ -1,0 +1,625 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Machu Picchu",
+        "descricao": "Cidadela inca do século quinze nos Andes do sul do Peru, perto de Cusco.",
+        "variantes": [
+          "Machupicchu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "machu_picchu",
+          "nome": "Machu Picchu",
+          "descricao": "Cidadela inca do século quinze nos Andes peruanos.",
+          "variantes": [
+            "Machu Pichu"
+          ]
+        },
+        {
+          "id": "irmaos_pichu",
+          "nome": "Irmãos Pichu",
+          "descricao": "Dupla de irmãos Pichu travessos que estreou no curta Pikachu & Pichu, exibido nos cinemas antes de Pokémon 3: O Filme.",
+          "variantes": [
+            "Pichu Brothers",
+            "Pikachu & Pichu"
+          ]
+        },
+        {
+          "id": "chuchu",
+          "nome": "Chuchu",
+          "descricao": "Fruto verde da trepadeira Sechium edule, da família das abóboras, usado como legume.",
+          "variantes": [
+            "Chayote",
+            "Sechium edule"
+          ]
+        },
+        {
+          "id": "chupa_chups",
+          "nome": "Chupa Chups",
+          "descricao": "Marca espanhola de pirulitos fundada por Enric Bernat em 1958, com logotipo em forma de margarida.",
+          "variantes": []
+        },
+        {
+          "id": "pirulito",
+          "nome": "Pirulito",
+          "descricao": "Doce de açúcar duro preso a um palito, feito para chupar ou lamber.",
+          "variantes": [
+            "Chupa-chupa",
+            "Lollipop"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Grand Central Terminal",
+        "descricao": "Grande estação ferroviária de passageiros na Rua 42, em Manhattan, Nova York.",
+        "variantes": [
+          "Grand Central Station",
+          "Estação Grand Central"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "central_do_brasil",
+          "nome": "Central do Brasil",
+          "descricao": "Filme brasileiro de 1998 dirigido por Walter Salles, com Fernanda Montenegro e Vinícius de Oliveira.",
+          "variantes": [
+            "Central Station"
+          ]
+        },
+        {
+          "id": "usina_geotermica",
+          "nome": "Usina geotérmica",
+          "descricao": "Usina que gera eletricidade a partir do calor do interior da Terra, aqui com vapor saindo das chaminés.",
+          "variantes": [
+            "Central geotérmica",
+            "Usina de energia geotérmica"
+          ]
+        },
+        {
+          "id": "usina_maremotriz_de_la_rance",
+          "nome": "Usina maremotriz de La Rance",
+          "descricao": "Usina que gera eletricidade com a força das marés no estuário do rio Rance, inaugurada em 1966.",
+          "variantes": [
+            "Rance Tidal Power Station",
+            "Usine marémotrice de la Rance"
+          ]
+        },
+        {
+          "id": "estacao_global_de_trocas",
+          "nome": "Estação Global de Trocas",
+          "descricao": "Serviço dos jogos Pokémon, criado em Diamond e Pearl, que permite trocar pokémon pela internet com jogadores do mundo todo.",
+          "variantes": [
+            "GTS",
+            "Global Trade Station"
+          ]
+        },
+        {
+          "id": "grande_hino_a_aton",
+          "nome": "Grande Hino a Áton",
+          "descricao": "Poema religioso egípcio de louvor ao disco solar Áton, encontrado numa tumba de Amarna",
+          "variantes": [
+            "Great Hymn to the Aten",
+            "Hino ao Sol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Grand-Place de Bruxelas",
+        "descricao": "Praça central de Bruxelas, cercada por casas de corporações barrocas e pela prefeitura gótica.",
+        "variantes": [
+          "Grand-Place",
+          "Grote Markt"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grand_palais",
+          "nome": "Grand Palais",
+          "descricao": "Salão de exposições e museu de Paris, com grande cúpula de vidro e ferro, construído para a Exposição Universal de 1900.",
+          "variantes": [
+            "Grand Palais des Champs-Élysées"
+          ]
+        },
+        {
+          "id": "grand_slam_tenis",
+          "nome": "Grand Slam (tênis)",
+          "descricao": "Conjunto dos quatro maiores torneios do tênis, e também o feito de vencer os quatro no mesmo ano.",
+          "variantes": [
+            "Grand Slam"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "bolshoy_ice_dome",
+          "nome": "Bolshoy Ice Dome",
+          "descricao": "Arena coberta no Parque Olímpico de Sóchi, na Rússia, construída para o hóquei dos Jogos de Inverno de 2014.",
+          "variantes": [
+            "Grande Palácio de Gelo",
+            "Domo de Gelo Bolshoi",
+            "Большой Ледовый дворец"
+          ]
+        },
+        {
+          "id": "couve_de_bruxelas",
+          "nome": "Couve-de-bruxelas",
+          "descricao": "Hortaliça de pequenos brotos globosos da espécie Brassica oleracea, grupo Gemmifera.",
+          "variantes": [
+            "Brussels sprout"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Grande Muralha da China",
+        "descricao": "Sistema de fortificações no norte da China, cujos trechos mais conhecidos datam da dinastia Ming.",
+        "variantes": [
+          "Muralha da China",
+          "Great Wall of China"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "muralha_da_china",
+          "nome": "Muralha da China",
+          "descricao": "Série de fortificações construídas ao longo da fronteira norte da China antiga e imperial.",
+          "variantes": [
+            "Grande Muralha da China",
+            "Great Wall of China",
+            "Grande Muralha"
+          ]
+        },
+        {
+          "id": "grande_canal_da_china",
+          "nome": "Grande Canal da China",
+          "descricao": "Sistema de canais artificiais da China, ampliado na dinastia Sui, que liga Pequim a Hangzhou.",
+          "variantes": [
+            "Grand Canal",
+            "Canal Pequim-Hangzhou",
+            "Da Yunhe"
+          ]
+        },
+        {
+          "id": "muralhas_de_ataque_dos_titas",
+          "nome": "Muralhas de Ataque dos Titãs",
+          "descricao": "As três muralhas concêntricas, Maria, Rose e Sina, que protegem a humanidade dos titãs em Ataque dos Titãs.",
+          "variantes": [
+            "Muralha Maria",
+            "Muralha Rose",
+            "Muralha Sina"
+          ]
+        },
+        {
+          "id": "muralha_aureliana",
+          "nome": "Muralha Aureliana",
+          "descricao": "Muralha que cerca Roma, construída a partir de 271 por ordem do imperador Aureliano.",
+          "variantes": [
+            "Muralhas Aurelianas",
+            "Aurelian Walls"
+          ]
+        },
+        {
+          "id": "galeoes_de_manila",
+          "nome": "Galeões de Manila",
+          "descricao": "Navios espanhóis que, de 1565 a 1815, cruzavam o Pacífico entre as Filipinas e a Nova Espanha levando prata e mercadorias asiáticas.",
+          "variantes": [
+            "Galeão de Manila",
+            "Nau da China",
+            "Manila galleon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Lombard Street",
+        "descricao": "Rua de São Francisco, na Califórnia, com um quarteirão íngreme de oito curvas fechadas.",
+        "variantes": [
+          "Rua Lombard"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gra_colombia",
+          "nome": "Grã-Colômbia",
+          "descricao": "República criada por Simón Bolívar em 1819 no norte da América do Sul, dissolvida em 1831.",
+          "variantes": [
+            "Gran Colombia",
+            "República da Colômbia"
+          ]
+        },
+        {
+          "id": "tres_leais",
+          "nome": "Três Leais",
+          "descricao": "Trio de pokémon venenosos da expansão The Teal Mask, de Scarlet e Violet, formado por Okidogi, Munkidori e Fezandipiti.",
+          "variantes": [
+            "Loyal Three"
+          ]
+        },
+        {
+          "id": "real_madrid",
+          "nome": "Real Madrid",
+          "descricao": "Real Madrid Club de Fútbol, clube de futebol da capital espanhola fundado em 1902.",
+          "variantes": [
+            "Real Madrid Club de Fútbol",
+            "Real Madrid CF",
+            "Madrid Football Club"
+          ]
+        },
+        {
+          "id": "svalbard",
+          "nome": "Svalbard",
+          "descricao": "Arquipélago norueguês no oceano Ártico, entre a Noruega continental e o Polo Norte.",
+          "variantes": [
+            "Spitsbergen"
+          ]
+        },
+        {
+          "id": "ambar",
+          "nome": "Âmbar",
+          "descricao": "Material fóssil translúcido que às vezes preserva insetos e outros pequenos organismos.",
+          "variantes": [
+            "Amber"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Stonehenge",
+        "descricao": "Monumento megalítico pré-histórico na planície de Salisbury, na Inglaterra.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "stonehenge",
+          "nome": "Stonehenge",
+          "descricao": "Monumento pré-histórico de grandes pedras em círculo, na Inglaterra.",
+          "variantes": []
+        },
+        {
+          "id": "stone_edge",
+          "nome": "Stone Edge",
+          "descricao": "Golpe de pokémon do tipo Pedra, da 4ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "stonehenge_do_amapa",
+          "nome": "Stonehenge do Amapá",
+          "descricao": "Parque Arqueológico do Solstício, sítio de megálitos em Calçoene, no litoral norte do Amapá.",
+          "variantes": [
+            "Parque Arqueológico do Solstício",
+            "Observatório Astronômico de Calçoene",
+            "Stonehenge brasileiro"
+          ]
+        },
+        {
+          "id": "stephen_king",
+          "nome": "Stephen King",
+          "descricao": "Escritor americano conhecido por romances de terror, como Carrie e O Iluminado.",
+          "variantes": [
+            "Stephen Edwin King"
+          ]
+        },
+        {
+          "id": "serengeti",
+          "nome": "Serengeti",
+          "descricao": "Região de savanas no norte da Tanzânia e no sudoeste do Quênia, famosa pela migração de grandes manadas",
+          "variantes": [
+            "Serengueti"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Esplanada dos Ministérios",
+        "descricao": "Trecho inicial do Eixo Monumental de Brasília, ladeado pelos edifícios dos ministérios, com o Congresso Nacional ao fundo.",
+        "variantes": [
+          "Eixo Monumental"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esplanada_dos_ministerios",
+          "nome": "Esplanada dos Ministérios",
+          "descricao": "Trecho inicial do Eixo Monumental de Brasília, com os prédios dos ministérios e o Congresso Nacional.",
+          "variantes": [
+            "Eixo Monumental",
+            "Esplanada"
+          ]
+        },
+        {
+          "id": "plano_piloto_de_brasilia_2",
+          "nome": "Plano Piloto de Brasília",
+          "descricao": "Área central planejada de Brasília, com o Eixo Monumental, a Esplanada dos Ministérios e o Congresso Nacional.",
+          "variantes": [
+            "Praça dos Três Poderes",
+            "Brasília",
+            "Esplanada dos Ministérios"
+          ]
+        },
+        {
+          "id": "estadio_monumental_de_nunez",
+          "nome": "Estádio Monumental de Núñez",
+          "descricao": "Estádio do River Plate em Buenos Aires, Argentina, palco da final da Copa do Mundo de 1978.",
+          "variantes": [
+            "Estádio Monumental",
+            "Estadio Más Monumental",
+            "Estádio Monumental Antonio Vespucio Liberti"
+          ]
+        },
+        {
+          "id": "monumento_ao_grande_incendio_de_londres",
+          "nome": "Monumento ao Grande Incêndio de Londres",
+          "descricao": "Coluna dórica no centro de Londres, conhecida simplesmente como The Monument.",
+          "variantes": [
+            "The Monument",
+            "Monument to the Great Fire of London"
+          ]
+        },
+        {
+          "id": "emmental",
+          "nome": "Emmental",
+          "descricao": "Queijo suíço de massa amarela e firme, famoso pelos grandes buracos redondos.",
+          "variantes": [
+            "Emmentaler",
+            "Queijo suíço"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Qutb Minar",
+        "descricao": "Minarete e torre da vitória do século doze em Mehrauli, Délhi, na Índia.",
+        "variantes": [
+          "Qutub Minar",
+          "Qutab Minar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "qutb_minar",
+          "nome": "Qutb Minar",
+          "descricao": "Minarete e torre da vitória de tijolos vermelhos do sultanato de Délhi, em Mehrauli, no sul de Délhi, na Índia.",
+          "variantes": [
+            "Qutub Minar",
+            "Qutab Minar"
+          ]
+        },
+        {
+          "id": "cinchona",
+          "nome": "Cinchona",
+          "descricao": "Gênero de árvores andinas de cuja casca se extrai o quinino",
+          "variantes": [
+            "Quina",
+            "Chinchona"
+          ]
+        },
+        {
+          "id": "tubarao_anjo",
+          "nome": "Tubarão-anjo",
+          "descricao": "Tubarão de corpo achatado do gênero Squatina, que vive no fundo arenoso e lembra uma raia.",
+          "variantes": [
+            "Anjo-do-mar",
+            "Squatina",
+            "Angel shark"
+          ]
+        },
+        {
+          "id": "palacio_quitandinha",
+          "nome": "Palácio Quitandinha",
+          "descricao": "Antigo hotel-cassino de luxo em Petrópolis, no Rio de Janeiro, de estilo normando.",
+          "variantes": [
+            "Quitandinha",
+            "Hotel Quitandinha"
+          ]
+        },
+        {
+          "id": "mapa_do_metro_de_londres",
+          "nome": "Mapa do metrô de Londres",
+          "descricao": "Diagrama esquemático das linhas do metrô de Londres, criado por Harry Beck e publicado em 1933.",
+          "variantes": [
+            "Tube map",
+            "Mapa de Harry Beck"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Domo da Rocha",
+        "descricao": "Santuário islâmico octogonal de cúpula dourada na Cidade Velha de Jerusalém.",
+        "variantes": [
+          "Cúpula da Rocha",
+          "Dome of the Rock"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "domo_da_rocha",
+          "nome": "Domo da Rocha",
+          "descricao": "Santuário islâmico octogonal de cúpula dourada na Esplanada das Mesquitas, na Cidade Velha de Jerusalém, erguido pelos omíadas.",
+          "variantes": [
+            "Cúpula da Rocha",
+            "Dome of the Rock"
+          ]
+        },
+        {
+          "id": "eco_92",
+          "nome": "Eco-92",
+          "descricao": "Conferência das Nações Unidas sobre Meio Ambiente e Desenvolvimento, realizada no Rio de Janeiro em 1992.",
+          "variantes": [
+            "Rio-92",
+            "Cúpula da Terra",
+            "Earth Summit"
+          ]
+        },
+        {
+          "id": "jogo_da_onca",
+          "nome": "Jogo da onça",
+          "descricao": "Jogo de tabuleiro de origem indígena brasileira em que uma onça enfrenta um grupo de cachorros que tenta encurralá-la.",
+          "variantes": [
+            "Adugo"
+          ]
+        },
+        {
+          "id": "a_virgem_das_rochas",
+          "nome": "A Virgem das Rochas",
+          "descricao": "Pintura renascentista de Leonardo da Vinci com a Virgem, o menino Jesus, São João Batista criança e um anjo numa gruta rochosa.",
+          "variantes": [
+            "Madonna das Rochas",
+            "Vergine delle rocce",
+            "Virgin of the Rocks"
+          ]
+        },
+        {
+          "id": "amigo_da_onca",
+          "nome": "Amigo da Onça",
+          "descricao": "Personagem de humor publicado na revista O Cruzeiro a partir de 1943, que vive deixando os outros em apuros",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Torre de Gálata",
+        "descricao": "Torre medieval de pedra no bairro de Gálata, em Istambul, construída pelos genoveses no século catorze.",
+        "variantes": [
+          "Galata Tower",
+          "Galata Kulesi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_de_babel",
+          "nome": "Torre de Babel",
+          "descricao": "Torre narrada no livro do Gênesis, cuja história explica a diversidade das línguas",
+          "variantes": [
+            "Babel"
+          ]
+        },
+        {
+          "id": "linha_de_transmissao",
+          "nome": "Linha de transmissão",
+          "descricao": "Linha aérea de condutores suspensos por torres que leva energia elétrica por longas distâncias.",
+          "variantes": [
+            "Torre de transmissão",
+            "Linha de alta tensão",
+            "Torre de alta tensão"
+          ]
+        },
+        {
+          "id": "torre_de_hanoi",
+          "nome": "Torre de Hanói",
+          "descricao": "Quebra-cabeça matemático de discos de tamanhos diferentes que devem ser movidos entre três hastes, criado em 1883.",
+          "variantes": [
+            "Tower of Hanoi",
+            "Torre de Brahma"
+          ]
+        },
+        {
+          "id": "fawlty_towers",
+          "nome": "Fawlty Towers",
+          "descricao": "Série de comédia britânica de 1975 sobre o hoteleiro Basil Fawlty e seu hotel em Torquay.",
+          "variantes": [
+            "Fawlty Towers (1975)"
+          ]
+        },
+        {
+          "id": "torre_de_pisa",
+          "nome": "Torre de Pisa",
+          "descricao": "Campanário inclinado da catedral de Pisa, na Itália.",
+          "variantes": [
+            "Torre Inclinada de Pisa",
+            "Leaning Tower of Pisa"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "machu_picchu",
+      "motivo": "Mesma cidadela inca."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a estação Grand Central."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Grand-Place de Bruxelas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "muralha_da_china",
+      "motivo": "Mesma muralha, com variantes coincidentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Lombard Street."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "stonehenge",
+      "motivo": "Mesmo monumento inglês."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "esplanada_dos_ministerios",
+      "motivo": "Mesma esplanada, descrição equivalente."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "qutb_minar",
+      "motivo": "Mesmo minarete em Délhi."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "domo_da_rocha",
+      "motivo": "Mesmo santuário de Jerusalém."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Torre de Gálata."
+    }
+  ]
+}
