@@ -1,0 +1,202 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bar mitzvá",
+        "descricao": "Cerimônia judaica em que o menino, aos treze anos, passa a ser responsável pelo cumprimento dos mandamentos religiosos.",
+        "variantes": [
+          "Bar mitzvah",
+          "Bar mitsvá"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bar_mitzva",
+          "nome": "Bar mitzvá",
+          "descricao": "Rito judaico de maioridade religiosa dos meninos",
+          "variantes": [
+            "Bar mitzvah",
+            "Bar mitsvá"
+          ]
+        },
+        {
+          "id": "bartitsu",
+          "nome": "Bartitsu",
+          "descricao": "Método de defesa pessoal criado na Inglaterra por volta de 1900, citado como baritsu nas histórias de Sherlock Holmes.",
+          "variantes": [
+            "Baritsu"
+          ]
+        },
+        {
+          "id": "balsa_muisca",
+          "nome": "Balsa Muísca",
+          "descricao": "Peça de ouro dos muíscas que representa uma jangada com um chefe e acompanhantes, ligada ao ritual que originou a lenda do Eldorado.",
+          "variantes": [
+            "Balsa de El Dorado",
+            "Muisca raft"
+          ]
+        },
+        {
+          "id": "boa_vista",
+          "nome": "Boa Vista",
+          "descricao": "Capital do estado de Roraima, às margens do rio Branco, inteiramente no Hemisfério Norte.",
+          "variantes": [
+            "Boa Vista (Roraima)"
+          ]
+        },
+        {
+          "id": "rio_tamisa",
+          "nome": "Rio Tâmisa",
+          "descricao": "Rio da Inglaterra que atravessa Londres e Oxford e deságua no mar do Norte.",
+          "variantes": [
+            "Tâmisa",
+            "River Thames",
+            "Thames"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pessach",
+        "descricao": "Festa judaica que celebra a libertação dos hebreus da escravidão no Egito, também chamada Páscoa judaica.",
+        "variantes": [
+          "Pesach",
+          "Páscoa judaica",
+          "Passover"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pessach",
+          "nome": "Pessach",
+          "descricao": "Festa judaica que celebra a saída dos hebreus do Egito",
+          "variantes": [
+            "Páscoa judaica",
+            "Passover",
+            "Pesach"
+          ]
+        },
+        {
+          "id": "princesa_peach",
+          "nome": "Princesa Peach",
+          "descricao": "Princesa dos jogos da série Super Mario, da Nintendo, frequentemente sequestrada por Bowser.",
+          "variantes": [
+            "Peach",
+            "Princesa Toadstool"
+          ]
+        },
+        {
+          "id": "a_noiva_judia_rembrandt",
+          "nome": "A Noiva Judia (Rembrandt)",
+          "descricao": "Pintura de Rembrandt, de cerca de 1665 a 1669, que mostra um casal em gesto terno, ele com manga dourada e ela com vestido vermelho.",
+          "variantes": [
+            "The Jewish Bride",
+            "Het Joodse bruidje",
+            "A Noiva Judaica"
+          ]
+        },
+        {
+          "id": "messias",
+          "nome": "Messias",
+          "descricao": "Oratório em inglês de Georg Friedrich Händel, de 1741, famoso pelo coro Aleluia.",
+          "variantes": [
+            "Messiah",
+            "O Messias"
+          ]
+        },
+        {
+          "id": "pistache",
+          "nome": "Pistache",
+          "descricao": "Semente comestível verde da árvore Pistacia vera, da família do caju, usada em doces e sorvetes.",
+          "variantes": [
+            "Pistácio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Holi",
+        "descricao": "Festa hindu da primavera, conhecida como festa das cores, em que as pessoas se jogam pó colorido e água.",
+        "variantes": [
+          "Festa das cores"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "holi",
+          "nome": "Holi",
+          "descricao": "Festa hindu em que as pessoas se cobrem de pós e águas coloridas",
+          "variantes": [
+            "Festival das Cores",
+            "Festa das Cores"
+          ]
+        },
+        {
+          "id": "hanukkah",
+          "nome": "Hanukkah",
+          "descricao": "Festa judaica de oito dias em que se acendem as velas de um candelabro de nove braços.",
+          "variantes": [
+            "Chanucá",
+            "Hanucá",
+            "Chanukah",
+            "Festa das Luzes"
+          ]
+        },
+        {
+          "id": "tanabata",
+          "nome": "Tanabata",
+          "descricao": "Festival japonês das estrelas, em que se penduram pedidos escritos em ramos de bambu.",
+          "variantes": [
+            "Festival das Estrelas",
+            "Festa das Estrelas"
+          ]
+        },
+        {
+          "id": "hinamatsuri",
+          "nome": "Hinamatsuri",
+          "descricao": "Festa japonesa do Dia das Meninas, em que se expõem bonecas da corte imperial em degraus.",
+          "variantes": [
+            "Dia das Meninas",
+            "Festival das Bonecas",
+            "Hina Matsuri",
+            "Festa das Bonecas"
+          ]
+        },
+        {
+          "id": "irmandade_da_boa_morte",
+          "nome": "Irmandade da Boa Morte",
+          "descricao": "Confraria religiosa baiana formada por mulheres negras, que realiza todo mês de agosto a Festa da Boa Morte.",
+          "variantes": [
+            "Festa da Boa Morte",
+            "Irmandade de Nossa Senhora da Boa Morte"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "bar_mitzva",
+      "motivo": "Mesmo rito judaico de maioridade dos meninos; nomes e variantes idênticos."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "pessach",
+      "motivo": "Mesma festa judaica da saída do Egito (Páscoa judaica)."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "holi",
+      "motivo": "Mesma festa hindu das cores."
+    }
+  ]
+}

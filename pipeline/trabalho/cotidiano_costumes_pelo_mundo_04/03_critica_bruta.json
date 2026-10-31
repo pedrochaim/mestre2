@@ -1,0 +1,465 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato correto (azeite de um dia que durou oito), sustentado pelo artigo em português; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kinara de sete velas, confirmado pela fonte; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta é um momento no calendário (dia do mês), portanto o ângulo correto é tempo, não numero.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "As festas do Ano-Novo Chinês terminam com o Festival das Lanternas. Em que dia do primeiro mês lunar ele acontece?",
+        "resposta": "Décimo quinto dia",
+        "distratores": [
+          "Sétimo dia",
+          "Décimo dia",
+          "Trigésimo dia"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Lantern_Festival",
+          "https://en.wikipedia.org/wiki/Chinese_New_Year"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O Ano-Novo Chinês cai sempre entre 21 de janeiro e 20 de fevereiro; fato bem documentado e enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Maß de um litro é fato amplamente documentado; pergunta clara e distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Oktoberfest começa em meados de setembro, como mostra a fonte; pergunta curiosa e precisa.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte da Oktoberfest Blumenau não existe; troca por páginas de Blumenau, que sustentam o fato.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Que cidade catarinense, colonizada por alemães, promove desde 1984 uma famosa Oktoberfest inspirada na de Munique?",
+        "resposta": "Blumenau",
+        "distratores": [
+          "Joinville",
+          "Pomerode",
+          "Brusque"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Blumenau",
+          "https://pt.wikipedia.org/wiki/Blumenau"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Três dias de celebração em 1621, confirmado pela fonte; enunciado cuidadoso com 'tida como'.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mayflower sustentado pelas fontes; distratores da mesma categoria (navios).",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte menciona o Diwali de cinco dias; pergunta precisa com 'na maior parte da Índia'.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lakshmi é recebida com lamparinas na noite do Diwali, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'De dezembro até a véspera do Natal' entrega o 24 por conta; remover o período evita o vazamento.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Quantas portinhas tem o calendário do Advento tradicional, de papelão, aberto uma por dia?",
+        "resposta": "Vinte e quatro",
+        "distratores": [
+          "Vinte e cinco",
+          "Vinte e oito",
+          "Trinta e um"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Advent_calendar",
+          "https://pt.wikipedia.org/wiki/Calend%C3%A1rio_do_Advento"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Com portinhas' é impreciso para os primeiros calendários impressos de 1902-1908; simplificar e citar a fonte em português.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Os primeiros calendários do Advento impressos surgiram no início do século vinte em que país?",
+        "resposta": "Alemanha",
+        "distratores": [
+          "Áustria",
+          "Dinamarca",
+          "Suíça"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Calend%C3%A1rio_do_Advento",
+          "https://en.wikipedia.org/wiki/Advent_calendar"
+        ]
+      }
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte San Fermín é desambiguação; além disso, o número de touros é 'normalmente' seis, não sempre.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Em cada corrida pelas ruas de Pamplona, na festa de São Firmino, normalmente quantos touros bravos são soltos, além dos bois que guiam a manada?",
+        "resposta": "Seis",
+        "distratores": [
+          "Três",
+          "Dez",
+          "Doze"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Running_of_the_bulls",
+          "https://pt.wikipedia.org/wiki/Encierro"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas a fonte San Fermín é desambiguação; mantém só a página do romance.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Que escritor americano espalhou pelo mundo a fama da festa de São Firmino, em Pamplona, com o romance O Sol Também se Levanta?",
+        "resposta": "Ernest Hemingway",
+        "distratores": [
+          "John Steinbeck",
+          "F. Scott Fitzgerald",
+          "William Faulkner"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/The_Sun_Also_Rises"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sete voltas anti-horárias na Caaba, confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Eid al-Adha com sacrifício, sustentado pelas fontes; distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Doze pratos na Wigilia é tradição amplamente documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Raiz ligada a calor escaldante, confirmado; pergunta de nome interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado literal 'coisa de vestir' confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Santa Claus vem do holandês Sinterklaas, baseado em São Nicolau, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sundblom para a Coca-Cola desde 1931; 'anos trinta' distingue da Pepsi.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Tromsø é norueguesa e não é distrator crível para 'cidade finlandesa'; troca por cidade da Finlândia.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Que cidade finlandesa, cortada pelo Círculo Polar Ártico, abriga a Vila do Papai Noel, que recebe turistas o ano todo?",
+        "resposta": "Rovaniemi",
+        "distratores": [
+          "Helsinque",
+          "Oulu",
+          "Kemi"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Santa_Claus_Village",
+          "https://en.wikipedia.org/wiki/Rovaniemi"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Filho do mandamento' confirmado pela fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A leitura da Torá é o centro do bar mitzvá, confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A etimologia latina de Matriona é ambígua (mater 'mãe' ou matrona 'senhora'); os trechos não a mostram e a resposta não é segura.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Samovar vem de 'sam' + 'varit', 'que ferve sozinho'; fato bem documentado, em linha com 'self-brewer'.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ushanka vem de 'ushi', orelhas, confirmado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Songkran vem do sânscrito para 'passagem astrológica', confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nowruz significa 'novo dia', confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pessach significa 'passagem' (passar por cima), confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Holika queimada na fogueira da véspera do Holi, confirmado; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Holi celebra a primavera, confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Coco (Viva: A Vida é uma Festa) é baseado no Dia dos Mortos; título brasileiro confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bill Murray vive o repórter do tempo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Midsommar (2019) foi dirigido por Ari Aster, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A máscara de Guy Fawkes foi criada para V de Vingança, de Alan Moore, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trevo para explicar a Trindade é tradição confirmada pela fonte em português; 'segundo a tradição' cobre a lenda.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O azul (azul de São Patrício) foi a cor originalmente associada ao santo; fato documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A versão mais contada fala de um desfile de gigantes e cabeçudos em 1945, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gotas de néctar da imortalidade nas quatro cidades, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Herodes ordenou o massacre dos meninos de Belém, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A superstição do atraso no casamento é confirmada pela fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lenda chinesa da carpa que sobe a cascata e vira dragão é amplamente documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Carnaval de Veneza voltou em 1979 após longa ausência, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jalisco como berço do mariachi, confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lanternas eram esculpidas em nabos e outras raízes; a fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Shamash correto, mas Shofar e Havdalá não são nomes de velas e destoam como distratores.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "No candelabro da Hanucá, uma vela fica destacada das outras e serve para acendê-las. Como ela se chama?",
+        "resposta": "Shamash",
+        "distratores": [
+          "Ner tamid",
+          "Vela de Shabat",
+          "Yahrzeit"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Hanukkah_menorah",
+          "https://en.wikipedia.org/wiki/Hanukkah"
+        ]
+      }
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A associação a Lutero é feita como lenda, de acordo com a fonte; enunciado cuidadoso.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sen no Rikyū enfatizou a simplicidade rústica da cerimônia do chá, confirmado.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,1410 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "hanukkah",
+        "nome": "Hanukkah",
+        "descricao": "Festa judaica de oito dias em que se acendem as velas de um candelabro de nove braços.",
+        "variantes": [
+          "Hanucá",
+          "Chanucá"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hanukkah"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Segundo a tradição da Hanucá, o óleo do Templo, que daria para um só dia, manteve o candelabro aceso por quantos dias?",
+      "resposta": "Oito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hanukkah"
+      ],
+      "distratores": [
+        "Sete",
+        "Doze",
+        "Quarenta"
+      ],
+      "ancora": "hanukkah"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "kwanzaa",
+        "nome": "Kwanzaa",
+        "descricao": "Celebração afro-americana de sete dias, de 26 de dezembro a 1º de janeiro, criada em 1966.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kwanzaa"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No Kwanzaa, acende-se a cada noite uma vela da kinara, nas cores vermelha, verde e preta. Quantas velas ela tem?",
+      "resposta": "Sete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kwanzaa",
+        "https://en.wikipedia.org/wiki/Kinara"
+      ],
+      "distratores": [
+        "Cinco",
+        "Oito",
+        "Nove"
+      ],
+      "ancora": "kwanzaa"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "ano_novo_chines",
+        "nome": "Ano-Novo Chinês",
+        "descricao": "Festa da virada do ano no calendário lunissolar chinês, também chamada Festa da Primavera.",
+        "variantes": [
+          "Festa da Primavera",
+          "Ano-Novo Lunar"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chinese_New_Year"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "As festas do Ano-Novo Chinês terminam com o Festival das Lanternas. Em que dia do primeiro mês lunar ele acontece?",
+      "resposta": "Décimo quinto dia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lantern_Festival",
+        "https://en.wikipedia.org/wiki/Chinese_New_Year"
+      ],
+      "distratores": [
+        "Sétimo dia",
+        "Décimo dia",
+        "Trigésimo dia"
+      ],
+      "ancora": "ano_novo_chines"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "oktoberfest",
+        "nome": "Oktoberfest",
+        "descricao": "Festa popular anual de Munique, na Alemanha, famosa pela cerveja e pelos trajes típicos bávaros.",
+        "variantes": [
+          "Wiesn"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Oktoberfest"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na Oktoberfest de Munique, a cerveja é servida na Maß, a caneca tradicional da Baviera. Quanto ela comporta?",
+      "resposta": "Um litro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Oktoberfest"
+      ],
+      "distratores": [
+        "Meio litro",
+        "Dois litros",
+        "Um litro e meio"
+      ],
+      "ancora": "oktoberfest"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "oktoberfest",
+        "nome": "Oktoberfest",
+        "descricao": "Festa popular anual de Munique, na Alemanha, famosa pela cerveja e pelos trajes típicos bávaros.",
+        "variantes": [
+          "Wiesn"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Oktoberfest"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que cidade catarinense, colonizada por alemães, promove desde 1984 uma famosa Oktoberfest inspirada na de Munique?",
+      "resposta": "Blumenau",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Blumenau",
+        "https://pt.wikipedia.org/wiki/Blumenau"
+      ],
+      "distratores": [
+        "Joinville",
+        "Pomerode",
+        "Brusque"
+      ],
+      "ancora": "oktoberfest"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "dia_de_acao_de_gracas_nos_estados_unidos",
+        "nome": "Dia de Ação de Graças nos Estados Unidos",
+        "descricao": "Feriado americano de agradecimento, celebrado na quarta quinta-feira de novembro.",
+        "variantes": [
+          "Thanksgiving"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Thanksgiving_(United_States)"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Segundo um relato da época, a festa de 1621 entre os colonos de Plymouth e os indígenas wampanoag, tida como o primeiro Ação de Graças, durou quantos dias?",
+      "resposta": "Três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Thanksgiving_(United_States)"
+      ],
+      "distratores": [
+        "Um",
+        "Dois",
+        "Sete"
+      ],
+      "ancora": "dia_de_acao_de_gracas_nos_estados_unidos"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "dia_de_acao_de_gracas_nos_estados_unidos",
+        "nome": "Dia de Ação de Graças nos Estados Unidos",
+        "descricao": "Feriado americano de agradecimento, celebrado na quarta quinta-feira de novembro.",
+        "variantes": [
+          "Thanksgiving"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Thanksgiving_(United_States)"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Os colonos ingleses que celebraram em 1621 a festa considerada o primeiro Dia de Ação de Graças americano tinham chegado à América em que navio?",
+      "resposta": "Mayflower",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mayflower",
+        "https://en.wikipedia.org/wiki/Thanksgiving_(United_States)"
+      ],
+      "distratores": [
+        "Speedwell",
+        "Santa Maria",
+        "Endeavour"
+      ],
+      "ancora": "dia_de_acao_de_gracas_nos_estados_unidos"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "diwali",
+        "nome": "Diwali",
+        "descricao": "Grande festa hindu das luzes, celebrada no outono com lamparinas, velas e fogos.",
+        "variantes": [
+          "Deepavali"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Diwali"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na maior parte da Índia, as celebrações do Diwali, a festa hindu das luzes, se estendem por quantos dias?",
+      "resposta": "Cinco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Diwali"
+      ],
+      "distratores": [
+        "Três",
+        "Sete",
+        "Dez"
+      ],
+      "ancora": "diwali"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "diwali",
+        "nome": "Diwali",
+        "descricao": "Grande festa hindu das luzes, celebrada no outono com lamparinas, velas e fogos.",
+        "variantes": [
+          "Deepavali"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Diwali"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Na noite principal do Diwali, as famílias hindus deixam lamparinas acesas para receber qual deusa da riqueza e da prosperidade?",
+      "resposta": "Lakshmi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Diwali",
+        "https://en.wikipedia.org/wiki/Lakshmi"
+      ],
+      "distratores": [
+        "Durga",
+        "Kali",
+        "Saraswati"
+      ],
+      "ancora": "diwali"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "id_existente": "calendario_do_advento",
+        "nome": "Calendário do Advento",
+        "descricao": "Objeto com pequenas portas ou pacotes, aberto um por dia, que marca a contagem para o Natal.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Advent_calendar"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Quantas portinhas tem o calendário do Advento tradicional, de papelão, aberto uma por dia?",
+      "resposta": "Vinte e quatro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Advent_calendar",
+        "https://pt.wikipedia.org/wiki/Calend%C3%A1rio_do_Advento"
+      ],
+      "distratores": [
+        "Vinte e cinco",
+        "Vinte e oito",
+        "Trinta e um"
+      ],
+      "ancora": "calendario_do_advento"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "calendario_do_advento",
+        "nome": "Calendário do Advento",
+        "descricao": "Objeto com pequenas portas ou pacotes, aberto um por dia, que marca a contagem para o Natal.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Advent_calendar"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Os primeiros calendários do Advento impressos surgiram no início do século vinte em que país?",
+      "resposta": "Alemanha",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Calend%C3%A1rio_do_Advento",
+        "https://en.wikipedia.org/wiki/Advent_calendar"
+      ],
+      "distratores": [
+        "Áustria",
+        "Dinamarca",
+        "Suíça"
+      ],
+      "ancora": "calendario_do_advento"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "festa_de_sao_firmino",
+        "nome": "Festa de São Firmino",
+        "descricao": "Festa de julho em Pamplona, na Espanha, famosa pelos encierros, em que as pessoas correm à frente de touros pelas ruas.",
+        "variantes": [
+          "San Fermín",
+          "Sanfermines"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/San_Ferm%C3%ADn"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em cada corrida pelas ruas de Pamplona, na festa de São Firmino, normalmente quantos touros bravos são soltos, além dos bois que guiam a manada?",
+      "resposta": "Seis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Running_of_the_bulls",
+        "https://pt.wikipedia.org/wiki/Encierro"
+      ],
+      "distratores": [
+        "Três",
+        "Dez",
+        "Doze"
+      ],
+      "ancora": "festa_de_sao_firmino"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "festa_de_sao_firmino",
+        "nome": "Festa de São Firmino",
+        "descricao": "Festa de julho em Pamplona, na Espanha, famosa pelos encierros, em que as pessoas correm à frente de touros pelas ruas.",
+        "variantes": [
+          "San Fermín",
+          "Sanfermines"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/San_Ferm%C3%ADn"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que escritor americano espalhou pelo mundo a fama da festa de São Firmino, em Pamplona, com o romance O Sol Também se Levanta?",
+      "resposta": "Ernest Hemingway",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Sun_Also_Rises"
+      ],
+      "distratores": [
+        "John Steinbeck",
+        "F. Scott Fitzgerald",
+        "William Faulkner"
+      ],
+      "ancora": "festa_de_sao_firmino"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "hajj",
+        "nome": "Hajj",
+        "descricao": "Peregrinação anual a Meca, um dos pilares do islã",
+        "variantes": [
+          "Haje",
+          "Hadj"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hajj"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No Hajj, os peregrinos caminham em volta da Caaba, em Meca, no sentido anti-horário. Quantas voltas eles completam a cada circuito?",
+      "resposta": "Sete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tawaf",
+        "https://en.wikipedia.org/wiki/Hajj"
+      ],
+      "distratores": [
+        "Três",
+        "Cinco",
+        "Doze"
+      ],
+      "ancora": "hajj"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "hajj",
+        "nome": "Hajj",
+        "descricao": "Peregrinação anual a Meca, um dos pilares do islã",
+        "variantes": [
+          "Haje",
+          "Hadj"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hajj"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Durante os dias do Hajj, muçulmanos do mundo todo celebram uma grande festa com o sacrifício de um animal. Como ela se chama?",
+      "resposta": "Eid al-Adha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eid_al-Adha",
+        "https://en.wikipedia.org/wiki/Hajj"
+      ],
+      "distratores": [
+        "Eid al-Fitr",
+        "Mawlid",
+        "Ashura"
+      ],
+      "ancora": "hajj"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "wigilia",
+        "nome": "Wigilia",
+        "descricao": "Ceia tradicional polonesa da véspera de Natal, sem carne e cheia de rituais.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wigilia"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Pela tradição, quantos pratos devem ser servidos na Wigilia, a ceia polonesa da véspera de Natal?",
+      "resposta": "Doze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wigilia"
+      ],
+      "distratores": [
+        "Três",
+        "Seis",
+        "Vinte"
+      ],
+      "ancora": "wigilia"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "ramada",
+        "nome": "Ramadã",
+        "descricao": "Nono mês do calendário islâmico, dedicado ao jejum",
+        "variantes": [
+          "Ramadan",
+          "Ramadão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ramadan"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome Ramadã, mês do jejum muçulmano, vem de uma raiz árabe ligada a quê?",
+      "resposta": "Calor intenso",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ramadan"
+      ],
+      "distratores": [
+        "Fome",
+        "Lua nova",
+        "Silêncio"
+      ],
+      "ancora": "ramada"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "id_existente": "papai_noel",
+        "nome": "Papai Noel",
+        "descricao": "Personagem lendário que traz presentes no Natal",
+        "variantes": [
+          "Santa Claus",
+          "Pai Natal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Santa_Claus"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome americano Santa Claus, dado ao Papai Noel, deriva do nome holandês de qual santo?",
+      "resposta": "São Nicolau",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Santa_Claus",
+        "https://en.wikipedia.org/wiki/Sinterklaas"
+      ],
+      "distratores": [
+        "São Martinho",
+        "São Bento",
+        "São Valentim"
+      ],
+      "ancora": "papai_noel"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "papai_noel",
+        "nome": "Papai Noel",
+        "descricao": "Personagem lendário que traz presentes no Natal",
+        "variantes": [
+          "Santa Claus",
+          "Pai Natal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Santa_Claus"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que marca de refrigerante ajudou a fixar a imagem do Papai Noel gordo e sorridente, em anúncios pintados a partir dos anos trinta?",
+      "resposta": "Coca-Cola",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Haddon_Sundblom",
+        "https://en.wikipedia.org/wiki/Santa_Claus"
+      ],
+      "distratores": [
+        "Pepsi",
+        "Dr Pepper",
+        "Canada Dry"
+      ],
+      "ancora": "papai_noel"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "id_existente": "papai_noel",
+        "nome": "Papai Noel",
+        "descricao": "Personagem lendário que traz presentes no Natal",
+        "variantes": [
+          "Santa Claus",
+          "Pai Natal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Santa_Claus"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Que cidade finlandesa, cortada pelo Círculo Polar Ártico, abriga a Vila do Papai Noel, que recebe turistas o ano todo?",
+      "resposta": "Rovaniemi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Santa_Claus_Village",
+        "https://en.wikipedia.org/wiki/Rovaniemi"
+      ],
+      "distratores": [
+        "Helsinque",
+        "Oulu",
+        "Kemi"
+      ],
+      "ancora": "papai_noel"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Bar mitzvá",
+        "descricao": "Cerimônia judaica em que o menino, aos treze anos, passa a ser responsável pelo cumprimento dos mandamentos religiosos.",
+        "variantes": [
+          "Bar mitzvah",
+          "Bar mitsvá"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bar_and_bat_mitzvah"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Aos treze anos, os meninos judeus celebram o bar mitzvá. O que significa essa expressão?",
+      "resposta": "Filho do mandamento",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bar_and_bat_mitzvah"
+      ],
+      "distratores": [
+        "Filho de Abraão",
+        "Homem da lei",
+        "Dia da maioridade"
+      ],
+      "ancora": "bar_mitzva"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Bar mitzvá",
+        "descricao": "Cerimônia judaica em que o menino, aos treze anos, passa a ser responsável pelo cumprimento dos mandamentos religiosos.",
+        "variantes": [
+          "Bar mitzvah",
+          "Bar mitsvá"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bar_and_bat_mitzvah"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na cerimônia do bar mitzvá, o menino lê em público, na sinagoga, um trecho de qual texto sagrado?",
+      "resposta": "Torá",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bar_and_bat_mitzvah"
+      ],
+      "distratores": [
+        "Talmude",
+        "Livro dos Salmos",
+        "Cabala"
+      ],
+      "ancora": "bar_mitzva"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "id_existente": "samovar",
+        "nome": "Samovar",
+        "descricao": "Recipiente de metal de origem russa, tradicionalmente usado para aquecer e ferver água para o chá.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Samovar"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O samovar, usado pelos russos para esquentar a água do chá, tem um nome que significa literalmente o quê?",
+      "resposta": "Que ferve sozinho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Samovar"
+      ],
+      "distratores": [
+        "Chaleira de cobre",
+        "Fogo da casa",
+        "Pote de chá"
+      ],
+      "ancora": "samovar"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "ushanka",
+        "nome": "Ushanka",
+        "descricao": "Chapéu russo de pele com abas que cobrem as orelhas, usado contra o frio.",
+        "variantes": [
+          "Chapka"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ushanka"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome do chapéu russo de pele ushanka vem da palavra russa para qual parte do corpo?",
+      "resposta": "Orelhas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ushanka"
+      ],
+      "distratores": [
+        "Cabeça",
+        "Testa",
+        "Nuca"
+      ],
+      "ancora": "ushanka"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "songkran",
+        "nome": "Songkran",
+        "descricao": "Ano-novo tradicional tailandês, celebrado em abril com uma grande guerra de água nas ruas.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Songkran_(Thailand)"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Songkran, o ano-novo tailandês da guerra de água, tem um nome vindo do sânscrito. O que essa palavra significa?",
+      "resposta": "Transição astrológica",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Songkran_(Thailand)"
+      ],
+      "distratores": [
+        "Água sagrada",
+        "Novo sol",
+        "Lua cheia"
+      ],
+      "ancora": "songkran"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "nowruz",
+        "nome": "Nowruz",
+        "descricao": "Ano-novo persa, celebrado no Irã, na Ásia Central e em outras regiões de influência persa.",
+        "variantes": [
+          "Noruz",
+          "Norouz"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nowruz"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em persa, o que significa a palavra Nowruz, nome do ano-novo celebrado no Irã?",
+      "resposta": "Novo dia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nowruz"
+      ],
+      "distratores": [
+        "Nova lua",
+        "Primavera",
+        "Luz nova"
+      ],
+      "ancora": "nowruz"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Holi",
+        "descricao": "Festa hindu da primavera, conhecida como festa das cores, em que as pessoas se jogam pó colorido e água.",
+        "variantes": [
+          "Festa das cores"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Holi"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome do Holi, a festa hindu das cores, vem de qual demônia da mitologia, queimada numa fogueira acesa na véspera?",
+      "resposta": "Holika",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Holi",
+        "https://en.wikipedia.org/wiki/Holika"
+      ],
+      "distratores": [
+        "Putana",
+        "Surpanakha",
+        "Tataka"
+      ],
+      "ancora": "holi"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "id_existente": "dia_dos_mortos",
+        "nome": "Dia dos Mortos",
+        "descricao": "Celebração mexicana do início de novembro em que as famílias homenageiam seus mortos com altares e oferendas.",
+        "variantes": [
+          "Día de Muertos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Day_of_the_Dead"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que animação da Pixar, sobre um menino que sonha ser músico, se passa durante o Dia dos Mortos mexicano?",
+      "resposta": "Viva: A Vida é uma Festa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Coco_(2017_film)"
+      ],
+      "distratores": [
+        "Encanto",
+        "Festa no Céu",
+        "Divertida Mente"
+      ],
+      "ancora": "dia_dos_mortos"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "id_existente": "dia_da_marmota",
+        "nome": "Dia da Marmota",
+        "descricao": "Tradição americana e canadense de 2 de fevereiro em que uma marmota supostamente prevê a duração do inverno.",
+        "variantes": [
+          "Groundhog Day"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Groundhog_Day"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que ator vive, no filme Feitiço do Tempo, um repórter do tempo condenado a reviver sem parar o mesmo Dia da Marmota?",
+      "resposta": "Bill Murray",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Groundhog_Day_(film)"
+      ],
+      "distratores": [
+        "Jim Carrey",
+        "Steve Martin",
+        "Tom Hanks"
+      ],
+      "ancora": "dia_da_marmota"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "id_existente": "midsommar",
+        "nome": "Midsommar",
+        "descricao": "Festa sueca do solstício de verão, com danças em volta de um mastro enfeitado com folhas e flores.",
+        "variantes": [
+          "Midsummer sueco"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Midsummer"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "A festa sueca do solstício de verão deu nome a um filme de terror de 2019, passado numa comunidade rural da Suécia. Quem o dirigiu?",
+      "resposta": "Ari Aster",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Midsommar_(film)"
+      ],
+      "distratores": [
+        "Jordan Peele",
+        "Robert Eggers",
+        "Lars von Trier"
+      ],
+      "ancora": "midsommar"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "noite_de_guy_fawkes",
+        "nome": "Noite de Guy Fawkes",
+        "descricao": "Comemoração britânica de 5 de novembro, com fogueiras e fogos de artifício.",
+        "variantes": [
+          "Bonfire Night",
+          "Guy Fawkes Night"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Guy_Fawkes_Night"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Na noite de cinco de novembro, os britânicos queimam bonecos de Guy Fawkes. Seu rosto estilizado virou máscara em qual quadrinho de Alan Moore?",
+      "resposta": "V de Vingança",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Guy_Fawkes_mask",
+        "https://en.wikipedia.org/wiki/V_for_Vendetta"
+      ],
+      "distratores": [
+        "Watchmen",
+        "Do Inferno",
+        "Sandman"
+      ],
+      "ancora": "noite_de_guy_fawkes"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "id_existente": "dia_de_sao_patricio",
+        "nome": "Dia de São Patrício",
+        "descricao": "Festa irlandesa de 17 de março em honra do padroeiro da Irlanda, celebrada com desfiles e a cor verde.",
+        "variantes": [
+          "St. Patrick's Day"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Saint_Patrick%27s_Day"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Segundo a tradição, por que São Patrício usava o trevo de três folhas, hoje símbolo da sua festa, ao pregar na Irlanda?",
+      "resposta": "Explicar a Santíssima Trindade",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Saint_Patrick%27s_Day",
+        "https://en.wikipedia.org/wiki/Shamrock"
+      ],
+      "distratores": [
+        "Espantar as serpentes",
+        "Trazer boa sorte",
+        "Curar os doentes"
+      ],
+      "ancora": "dia_de_sao_patricio"
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "id_existente": "dia_de_sao_patricio",
+        "nome": "Dia de São Patrício",
+        "descricao": "Festa irlandesa de 17 de março em honra do padroeiro da Irlanda, celebrada com desfiles e a cor verde.",
+        "variantes": [
+          "St. Patrick's Day"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Saint_Patrick%27s_Day"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Hoje o Dia de São Patrício é todo verde, mas qual cor foi associada primeiro ao santo?",
+      "resposta": "Azul",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Saint_Patrick%27s_Day"
+      ],
+      "distratores": [
+        "Laranja",
+        "Branco",
+        "Vermelho"
+      ],
+      "ancora": "dia_de_sao_patricio"
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "id_existente": "tomatina",
+        "nome": "Tomatina",
+        "descricao": "Festa espanhola em que milhares de participantes atiram tomates uns nos outros, na última quarta-feira de agosto.",
+        "variantes": [
+          "La Tomatina"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/La_Tomatina"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Segundo a versão mais contada, a Tomatina nasceu em 1945, quando jovens brigaram e atiraram tomates durante que tipo de evento?",
+      "resposta": "Desfile de bonecos gigantes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/La_Tomatina"
+      ],
+      "distratores": [
+        "Uma tourada",
+        "Um jogo de futebol",
+        "Uma procissão religiosa"
+      ],
+      "ancora": "tomatina"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "id_existente": "kumbh_mela",
+        "nome": "Kumbh Mela",
+        "descricao": "Peregrinação hindu realizada a cada quatro ou doze anos em Prayagraj, Haridwar, Nashik e Ujjain.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kumbh_Mela"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Segundo o mito hindu, as quatro cidades da Kumbh Mela são sagradas porque ali caíram gotas de quê?",
+      "resposta": "Néctar da imortalidade",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kumbh_Mela"
+      ],
+      "distratores": [
+        "Sangue de Shiva",
+        "Leite sagrado",
+        "Lágrimas de Vishnu"
+      ],
+      "ancora": "kumbh_mela"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "dia_dos_santos_inocentes",
+        "nome": "Dia dos Santos Inocentes",
+        "descricao": "Data cristã de 28 de dezembro que, na Espanha e na América hispânica, é o dia tradicional das pegadinhas.",
+        "variantes": [
+          "Día de los Santos Inocentes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Feast_of_the_Holy_Innocents"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O Dia dos Santos Inocentes, data das pegadinhas na Espanha, lembra os meninos de Belém mortos por ordem de qual rei?",
+      "resposta": "Herodes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Feast_of_the_Holy_Innocents",
+        "https://en.wikipedia.org/wiki/Massacre_of_the_Innocents"
+      ],
+      "distratores": [
+        "Davi",
+        "Salomão",
+        "Nabucodonosor"
+      ],
+      "ancora": "dia_dos_santos_inocentes"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "hinamatsuri",
+        "nome": "Hinamatsuri",
+        "descricao": "Festa japonesa do Dia das Meninas, em que se expõem bonecas da corte imperial em degraus.",
+        "variantes": [
+          "Dia das Meninas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hinamatsuri"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Diz uma crença japonesa que, se as bonecas do Dia das Meninas não forem guardadas logo após a festa, as filhas da casa sofrerão o quê?",
+      "resposta": "Atraso no casamento",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hinamatsuri"
+      ],
+      "distratores": [
+        "Doenças no ano",
+        "Azar nos estudos",
+        "Pesadelos"
+      ],
+      "ancora": "hinamatsuri"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "id_existente": "koinobori",
+        "nome": "Koinobori",
+        "descricao": "Bandeiras em forma de carpa hasteadas no Japão para o Dia das Crianças, em cinco de maio.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Koinobori"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "As carpas do Dia das Crianças japonês simbolizam força porque, segundo uma lenda chinesa, a carpa que sobe uma cascata se transforma em quê?",
+      "resposta": "Dragão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Koinobori"
+      ],
+      "distratores": [
+        "Garça",
+        "Tartaruga",
+        "Fênix"
+      ],
+      "ancora": "koinobori"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "id_existente": "carnaval_de_veneza",
+        "nome": "Carnaval de Veneza",
+        "descricao": "Festival anual de Veneza, na Itália, famoso por suas máscaras e fantasias elaboradas.",
+        "variantes": [
+          "Carnevale di Venezia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Carnival_of_Venice"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Depois de quase dois séculos de decadência e proibições, o Carnaval de Veneza voltou a ser celebrado oficialmente em que década?",
+      "resposta": "Década de 1970",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carnival_of_Venice"
+      ],
+      "distratores": [
+        "Década de 1920",
+        "Década de 1950",
+        "Década de 1990"
+      ],
+      "ancora": "carnaval_de_veneza"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "id_existente": "mariachi",
+        "nome": "Mariachi",
+        "descricao": "Conjunto musical tradicional mexicano com violinos, trompetes, violão, vihuela e guitarrón, em trajes de charro.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mariachi"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O mariachi nasceu no oeste do México. Qual estado mexicano, terra também da tequila, é considerado o seu berço?",
+      "resposta": "Jalisco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mariachi",
+        "https://en.wikipedia.org/wiki/Jalisco"
+      ],
+      "distratores": [
+        "Oaxaca",
+        "Veracruz",
+        "Chihuahua"
+      ],
+      "ancora": "mariachi"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "id_existente": "hanukkah",
+        "nome": "Hanukkah",
+        "descricao": "Festa judaica de oito dias em que se acendem as velas de um candelabro de nove braços.",
+        "variantes": [
+          "Hanucá",
+          "Chanucá"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hanukkah"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No candelabro da Hanucá, uma vela fica destacada das outras e serve para acendê-las. Como ela se chama?",
+      "resposta": "Shamash",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hanukkah_menorah",
+        "https://en.wikipedia.org/wiki/Hanukkah"
+      ],
+      "distratores": [
+        "Ner tamid",
+        "Vela de Shabat",
+        "Yahrzeit"
+      ],
+      "ancora": "hanukkah"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "id_existente": "arvore_de_natal",
+        "nome": "Árvore de Natal",
+        "descricao": "Pinheiro, natural ou artificial, enfeitado com luzes e ornamentos durante as festas de fim de ano.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Christmas_tree"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Uma lenda alemã atribui a qual reformador protestante a ideia de pôr velas acesas num pinheiro, para imitar as estrelas da noite de Natal?",
+      "resposta": "Martinho Lutero",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Christmas_tree"
+      ],
+      "distratores": [
+        "João Calvino",
+        "Ulrico Zuínglio",
+        "John Wesley"
+      ],
+      "ancora": "arvore_de_natal"
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "id_existente": "cerimonia_do_cha_japonesa",
+        "nome": "Cerimônia do chá japonesa",
+        "descricao": "Ritual tradicional japonês de preparo e serviço do chá, ligado ao zen-budismo.",
+        "variantes": [
+          "Chanoyu",
+          "Sadō"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Japanese_tea_ceremony"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Costumes pelo Mundo",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que mestre japonês do século dezesseis, a serviço de grandes chefes militares, deu à cerimônia do chá sua forma clássica, simples e rústica?",
+      "resposta": "Sen no Rikyu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sen_no_Riky%C5%AB",
+        "https://en.wikipedia.org/wiki/Japanese_tea_ceremony"
+      ],
+      "distratores": [
+        "Murata Juko",
+        "Takeno Joo",
+        "Eisai"
+      ],
+      "ancora": "cerimonia_do_cha_japonesa"
+    }
+  ],
+  "ancoras_novas": [],
+  "variantes": {
+    "hanukkah": [
+      "Hanukkah",
+      "Hanucá",
+      "Chanucá"
+    ],
+    "kwanzaa": [
+      "Kwanzaa"
+    ],
+    "ano_novo_chines": [
+      "Ano-Novo Chinês",
+      "Festa da Primavera",
+      "Ano-Novo Lunar"
+    ],
+    "oktoberfest": [
+      "Oktoberfest",
+      "Wiesn"
+    ],
+    "dia_de_acao_de_gracas_nos_estados_unidos": [
+      "Dia de Ação de Graças nos Estados Unidos",
+      "Thanksgiving"
+    ],
+    "diwali": [
+      "Diwali",
+      "Deepavali"
+    ],
+    "calendario_do_advento": [
+      "Calendário do Advento"
+    ],
+    "festa_de_sao_firmino": [
+      "Festa de São Firmino",
+      "San Fermín",
+      "Sanfermines"
+    ],
+    "hajj": [
+      "Hajj",
+      "Haje",
+      "Hadj"
+    ],
+    "wigilia": [
+      "Wigilia"
+    ],
+    "ramada": [
+      "Ramadã",
+      "Ramadan",
+      "Ramadão"
+    ],
+    "quimono": [
+      "Quimono",
+      "Kimono"
+    ],
+    "papai_noel": [
+      "Papai Noel",
+      "Santa Claus",
+      "Pai Natal"
+    ],
+    "samovar": [
+      "Samovar"
+    ],
+    "ushanka": [
+      "Ushanka",
+      "Chapka"
+    ],
+    "songkran": [
+      "Songkran"
+    ],
+    "nowruz": [
+      "Nowruz",
+      "Noruz",
+      "Norouz"
+    ],
+    "dia_dos_mortos": [
+      "Dia dos Mortos",
+      "Día de Muertos"
+    ],
+    "dia_da_marmota": [
+      "Dia da Marmota",
+      "Groundhog Day"
+    ],
+    "midsommar": [
+      "Midsommar",
+      "Midsummer sueco"
+    ],
+    "noite_de_guy_fawkes": [
+      "Noite de Guy Fawkes",
+      "Bonfire Night",
+      "Guy Fawkes Night"
+    ],
+    "dia_de_sao_patricio": [
+      "Dia de São Patrício",
+      "St. Patrick's Day"
+    ],
+    "tomatina": [
+      "Tomatina",
+      "La Tomatina"
+    ],
+    "kumbh_mela": [
+      "Kumbh Mela"
+    ],
+    "dia_dos_santos_inocentes": [
+      "Dia dos Santos Inocentes",
+      "Día de los Santos Inocentes"
+    ],
+    "hinamatsuri": [
+      "Hinamatsuri",
+      "Dia das Meninas"
+    ],
+    "koinobori": [
+      "Koinobori"
+    ],
+    "carnaval_de_veneza": [
+      "Carnaval de Veneza",
+      "Carnevale di Venezia"
+    ],
+    "mariachi": [
+      "Mariachi"
+    ],
+    "lanterna_de_abobora": [
+      "Lanterna de abóbora",
+      "Jack-o'-lantern"
+    ],
+    "arvore_de_natal": [
+      "Árvore de Natal"
+    ],
+    "cerimonia_do_cha_japonesa": [
+      "Cerimônia do chá japonesa",
+      "Chanoyu",
+      "Sadō"
+    ],
+    "bar_mitzva": [
+      "Bar mitzvá",
+      "Bar mitzvah",
+      "Bar mitsvá"
+    ],
+    "pessach": [
+      "Pessach",
+      "Pesach",
+      "Páscoa judaica",
+      "Passover"
+    ],
+    "holi": [
+      "Holi",
+      "Festa das cores"
+    ]
+  }
+}
