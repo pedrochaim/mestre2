@@ -959,9 +959,10 @@
     "fig_invencoes_015",
     "fig_transportes_015",
     "fig_plantas_010",
-    "fig_brasil_lugares_008"
+    "fig_brasil_lugares_008",
+    "fig_templos_lugares_sagrados_006"
   ],
-  "maior_id": 17116,
+  "maior_id": 17123,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1800,15 +1801,15 @@
     "templos_lugares_sagrados": {
       "familias": {
         "o_que_e": 13,
-        "com_o_que_se_liga": 13,
-        "onde": 13
+        "com_o_que_se_liga": 16,
+        "onde": 17
       },
       "niveis": {
-        "1": 16,
-        "3": 8,
-        "2": 15
+        "1": 17,
+        "3": 10,
+        "2": 19
       },
-      "registradas": 39
+      "registradas": 46
     },
     "relevo_maravilhas": {
       "familias": {

@@ -1,0 +1,654 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Panteão de Roma",
+        "descricao": "Antigo templo romano a todos os deuses, em Roma, hoje basílica católica.",
+        "variantes": [
+          "Panteão",
+          "Pantheon",
+          "Basílica de Santa Maria dos Mártires"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "panteao_de_roma",
+          "nome": "Panteão de Roma",
+          "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+          "variantes": [
+            "Panteão",
+            "Pantheon",
+            "Pantheon, Rome"
+          ]
+        },
+        {
+          "id": "panteao_de_paris",
+          "nome": "Panteão de Paris",
+          "descricao": "Edifício neoclássico no Quartier Latin, em Paris, que guarda os restos de grandes personalidades francesas.",
+          "variantes": [
+            "Panthéon",
+            "Panteão"
+          ]
+        },
+        {
+          "id": "pantano",
+          "nome": "Pântano",
+          "descricao": "Terra úmida florestada, alagada de forma permanente ou sazonal.",
+          "variantes": [
+            "Swamp",
+            "Floresta alagada"
+          ]
+        },
+        {
+          "id": "partenon",
+          "nome": "Partenon",
+          "descricao": "Templo dórico dedicado a Atena, na Acrópole de Atenas, construído no século V a.C.",
+          "variantes": [
+            "Parthenon"
+          ]
+        },
+        {
+          "id": "pantera_cor_de_rosa",
+          "nome": "Pantera Cor-de-Rosa",
+          "descricao": "Personagem animado de felino rosa, surgido na abertura do filme A Pantera Cor-de-Rosa, de 1963, e depois estrela de desenhos na TV.",
+          "variantes": [
+            "Pink Panther"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Igreja da Penha (Rio de Janeiro)",
+        "descricao": "Basílica santuário de Nossa Senhora da Penha de França, no bairro da Penha, no Rio de Janeiro.",
+        "variantes": [
+          "Basílica Santuário de Nossa Senhora da Penha de França",
+          "Igreja de Nossa Senhora da Penha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "igreja_da_candelaria",
+          "nome": "Igreja da Candelária",
+          "descricao": "Igreja católica no centro do Rio de Janeiro, de fachada barroca portuguesa, construída a partir de 1775.",
+          "variantes": [
+            "Igreja de Nossa Senhora da Candelária"
+          ]
+        },
+        {
+          "id": "igrejinha_nossa_senhora_de_fatima",
+          "nome": "Igrejinha Nossa Senhora de Fátima",
+          "descricao": "Primeira igreja católica de alvenaria de Brasília, na quadra 307/308 Sul, inaugurada em 1958.",
+          "variantes": [
+            "Igrejinha da 307/308 Sul",
+            "Igreja Nossa Senhora de Fátima"
+          ]
+        },
+        {
+          "id": "igreja_de_nossa_senhora_do_carmo_ouro_preto",
+          "nome": "Igreja de Nossa Senhora do Carmo (Ouro Preto)",
+          "descricao": "Igreja rococó do século dezoito em Ouro Preto, Minas Gerais, tombada pelo IPHAN.",
+          "variantes": [
+            "Igreja do Carmo de Ouro Preto"
+          ]
+        },
+        {
+          "id": "santuario_de_fatima",
+          "nome": "Santuário de Fátima",
+          "descricao": "Conjunto de edifícios católicos em Fátima, Portugal, dedicado às aparições marianas de 1917.",
+          "variantes": [
+            "Santuário de Nossa Senhora de Fátima",
+            "Cova da Iria"
+          ]
+        },
+        {
+          "id": "cirio_de_nazare",
+          "nome": "Círio de Nazaré",
+          "descricao": "Grande procissão católica em honra de Nossa Senhora de Nazaré realizada em Belém do Pará em outubro.",
+          "variantes": [
+            "Círio de Nossa Senhora de Nazaré"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Templo da Concórdia",
+        "descricao": "Templo dórico grego do Vale dos Templos, em Agrigento, na Sicília.",
+        "variantes": [
+          "Tempio della Concordia",
+          "Temple of Concordia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "wat_arun",
+          "nome": "Wat Arun",
+          "descricao": "Templo budista em Bangkok, na Tailândia, na margem oeste do rio Chao Phraya, conhecido pelo prang central.",
+          "variantes": [
+            "Templo do Amanhecer",
+            "Templo da Aurora",
+            "Wat Arun Ratchawararam"
+          ]
+        },
+        {
+          "id": "templo_de_debod",
+          "nome": "Templo de Debod",
+          "descricao": "Templo egípcio antigo da Núbia doado pelo Egito à Espanha e remontado num parque de Madri",
+          "variantes": [
+            "Temple of Debod"
+          ]
+        },
+        {
+          "id": "baalbek",
+          "nome": "Baalbek",
+          "descricao": "Cidade e sítio arqueológico romano no Vale do Beca, no Líbano, aqui o Templo de Baco.",
+          "variantes": [
+            "Heliópolis",
+            "Templo de Baco"
+          ]
+        },
+        {
+          "id": "pomo_da_discordia",
+          "nome": "Pomo da discórdia",
+          "descricao": "Expressão para o motivo de uma briga, vinda da maçã de ouro do mito grego",
+          "variantes": [
+            "Maçã da discórdia"
+          ]
+        },
+        {
+          "id": "templo_de_edfu",
+          "nome": "Templo de Edfu",
+          "descricao": "Templo dedicado ao deus Hórus na cidade de Edfu, no sul do Egito, um dos mais bem conservados do país",
+          "variantes": [
+            "Templo de Hórus em Edfu",
+            "Temple of Edfu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Catedral de Milão",
+        "descricao": "Catedral gótica de mármore branco em Milão, Itália, dedicada à Natividade de Santa Maria.",
+        "variantes": [
+          "Duomo di Milano",
+          "Milan Cathedral"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_milao",
+          "nome": "Catedral de Milão",
+          "descricao": "Catedral gótica de mármore branco, sede do arcebispo de Milão, na Itália, cuja construção começou em 1386.",
+          "variantes": [
+            "Duomo di Milano",
+            "Milan Cathedral",
+            "Duomo de Milão"
+          ]
+        },
+        {
+          "id": "catedral_de_rouen_monet",
+          "nome": "Catedral de Rouen (Monet)",
+          "descricao": "Série de pinturas de Claude Monet, dos anos 1890, da fachada da Catedral de Ruão em diferentes luzes.",
+          "variantes": [
+            "Catedral de Ruão",
+            "Rouen Cathedral",
+            "Série Catedral de Rouen"
+          ]
+        },
+        {
+          "id": "catedral_de_lincoln",
+          "nome": "Catedral de Lincoln",
+          "descricao": "Catedral gótica da cidade de Lincoln, na Inglaterra, cuja torre central foi concluída por volta de 1311.",
+          "variantes": [
+            "Lincoln Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Templo do Sol de Konark",
+        "descricao": "Templo hindu do século treze em Konark, Odisha, Índia, dedicado ao deus Sol Surya.",
+        "variantes": [
+          "Konark Sun Temple",
+          "Templo do Sol em Konarak",
+          "Surya Devalaya"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_do_sol_de_konark",
+          "nome": "Templo do Sol de Konark",
+          "descricao": "Templo hindu do século treze em Konark, em Odisha, na Índia, dedicado ao deus Sol Surya e com forma de carruagem.",
+          "variantes": [
+            "Templo do Sol em Konarak",
+            "Konark Sun Temple",
+            "Surya Devalaya"
+          ]
+        },
+        {
+          "id": "coricancha",
+          "nome": "Coricancha",
+          "descricao": "Principal templo inca, dedicado ao Sol, em Cusco, no Peru.",
+          "variantes": [
+            "Qorikancha",
+            "Templo do Sol de Cusco"
+          ]
+        },
+        {
+          "id": "templo_de_karnak",
+          "nome": "Templo de Karnak",
+          "descricao": "Vasto complexo de templos dedicado sobretudo ao deus Amon, na antiga Tebas, atual Luxor",
+          "variantes": [
+            "Karnak",
+            "Ipet-isut"
+          ]
+        },
+        {
+          "id": "templo_de_apolo_epicuro",
+          "nome": "Templo de Apolo Epicuro",
+          "descricao": "Templo dórico do século cinco antes de Cristo em Bassas, na Arcádia, no Peloponeso, Grécia.",
+          "variantes": [
+            "Templo de Apolo em Bassas",
+            "Templo de Bassae",
+            "Temple of Apollo Epicurius"
+          ]
+        },
+        {
+          "id": "templo_i_de_tikal",
+          "nome": "Templo I de Tikal",
+          "descricao": "Pirâmide-templo maia de cerca de 732 d.C. na Grande Praça de Tikal, na Guatemala, também chamada Templo do Grande Jaguar.",
+          "variantes": [
+            "Templo do Grande Jaguar",
+            "Templo de Ah Cacao",
+            "Tikal Temple I"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Mont-Saint-Michel",
+        "descricao": "Ilha de maré na Normandia, França, com abadia medieval fortificada.",
+        "variantes": [
+          "Monte Saint-Michel",
+          "Monte São Miguel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mont_saint_michel",
+          "nome": "Mont-Saint-Michel",
+          "descricao": "Ilha de maré com abadia medieval fortificada, na costa da Normandia, França.",
+          "variantes": [
+            "Monte Saint-Michel"
+          ]
+        },
+        {
+          "id": "monte_santa_helena",
+          "nome": "Monte Santa Helena",
+          "descricao": "Estratovulcão ativo da Cordilheira das Cascatas, nos Estados Unidos, cuja erupção de 1980 arrancou o seu topo.",
+          "variantes": [
+            "Mount St. Helens",
+            "Monte St. Helens"
+          ]
+        },
+        {
+          "id": "monte_sainte_victoire_cezanne",
+          "nome": "Monte Sainte-Victoire (Cézanne)",
+          "descricao": "Série de pinturas a óleo de Paul Cézanne que retratam a montanha Sainte-Victoire, na Provença, França.",
+          "variantes": [
+            "Mont Sainte-Victoire",
+            "A Montanha Sainte-Victoire"
+          ]
+        },
+        {
+          "id": "kirkjufell",
+          "nome": "Kirkjufell",
+          "descricao": "Montanha de 463 metros na costa norte da península de Snæfellsnes, na Islândia, junto à cidade de Grundarfjörður.",
+          "variantes": [
+            "Kirkjufellsfoss",
+            "Monte da Igreja"
+          ]
+        },
+        {
+          "id": "bibendum",
+          "nome": "Bibendum",
+          "descricao": "Mascote da fabricante francesa de pneus Michelin, criado em 1898.",
+          "variantes": [
+            "Boneco da Michelin",
+            "Michelin Man"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Avenida das Esfinges",
+        "descricao": "Avenida de esfinges de 2,7 km que liga os templos de Karnak e Luxor, no Egito.",
+        "variantes": [
+          "Avenue of Sphinxes",
+          "Estrada dos Carneiros"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "revolta_da_chibata",
+          "nome": "Revolta da Chibata",
+          "descricao": "Rebelião de marinheiros da Marinha do Brasil no Rio de Janeiro, em novembro de 1910, contra os castigos físicos.",
+          "variantes": [
+            "Revolta dos Marinheiros"
+          ]
+        },
+        {
+          "id": "esmeraldas_do_caos",
+          "nome": "Esmeraldas do Caos",
+          "descricao": "Joias mágicas da série Sonic, da Sega, que dão poderes a quem as reúne.",
+          "variantes": [
+            "Chaos Emeralds"
+          ]
+        },
+        {
+          "id": "terceira_cruzada",
+          "nome": "Terceira Cruzada",
+          "descricao": "Cruzada de 1189 a 1192 lançada para retomar Jerusalém de Saladino.",
+          "variantes": [
+            "Cruzada dos Reis",
+            "Third Crusade"
+          ]
+        },
+        {
+          "id": "sirius",
+          "nome": "Sírius",
+          "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+          "variantes": [
+            "Alfa do Cão Maior",
+            "Estrela do Cão"
+          ]
+        },
+        {
+          "id": "estacoes_do_ano",
+          "nome": "Estações do ano",
+          "descricao": "As quatro divisões do ano, primavera, verão, outono e inverno, com mudanças de temperatura e duração do dia.",
+          "variantes": [
+            "Estação do ano",
+            "Season"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Mesquita Badshahi",
+        "descricao": "Mesquita imperial mogol de arenito vermelho em Lahore, Paquistão, construída entre 1671 e 1673.",
+        "variantes": [
+          "Badshahi Mosque",
+          "Mesquita Real de Lahore"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_de_al_aqsa",
+          "nome": "Mesquita de Al-Aqsa",
+          "descricao": "Mesquita na Esplanada das Mesquitas, em Jerusalém, um dos lugares mais sagrados do islã",
+          "variantes": [
+            "Al-Aqsa",
+            "Mesquita Al-Aqsa"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_meca",
+          "nome": "Grande Mesquita de Meca",
+          "descricao": "Masjid al-Haram, a mais sagrada mesquita do Islã, que envolve a Caaba em Meca, na Arábia Saudita.",
+          "variantes": [
+            "Masjid al-Haram",
+            "Mesquita Sagrada",
+            "Al-Masjid al-Haram"
+          ]
+        },
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        },
+        {
+          "id": "mesquita_azul",
+          "nome": "Mesquita Azul",
+          "descricao": "Mesquita do Sultão Ahmed, em Istambul, construída no início do século dezessete",
+          "variantes": [
+            "Mesquita do Sultão Ahmed",
+            "Sultanahmet Camii",
+            "Sultan Ahmed Mosque",
+            "Blue Mosque"
+          ]
+        },
+        {
+          "id": "esporte_clube_bahia",
+          "nome": "Esporte Clube Bahia",
+          "descricao": "Clube de futebol de Salvador, na Bahia, fundado em 1931, de uniforme branco com faixa diagonal azul e vermelha.",
+          "variantes": [
+            "Bahia",
+            "EC Bahia",
+            "Esquadrão de Aço"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Catedral de Brasília",
+        "descricao": "Catedral metropolitana católica de Brasília, projetada por Oscar Niemeyer e inaugurada em 1970.",
+        "variantes": [
+          "Catedral Metropolitana de Brasília",
+          "Cathedral of Brasília"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_basilio",
+          "nome": "Catedral de São Basílio",
+          "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+          "variantes": [
+            "Catedral de São Basílio, o Bem-Aventurado",
+            "Catedral da Intercessão",
+            "Catedral Pokrovsky",
+            "Saint Basil's Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_da_se_de_sao_paulo",
+          "nome": "Catedral da Sé de São Paulo",
+          "descricao": "Catedral metropolitana neogótica com cúpula renascentista, na Praça da Sé, em São Paulo.",
+          "variantes": [
+            "Catedral Metropolitana de São Paulo",
+            "Catedral da Sé"
+          ]
+        },
+        {
+          "id": "catedral_de_milao",
+          "nome": "Catedral de Milão",
+          "descricao": "Catedral gótica de mármore branco, sede do arcebispo de Milão, na Itália, cuja construção começou em 1386.",
+          "variantes": [
+            "Duomo di Milano",
+            "Milan Cathedral",
+            "Duomo de Milão"
+          ]
+        },
+        {
+          "id": "catedral_de_rouen_monet",
+          "nome": "Catedral de Rouen (Monet)",
+          "descricao": "Série de pinturas de Claude Monet, dos anos 1890, da fachada da Catedral de Ruão em diferentes luzes.",
+          "variantes": [
+            "Catedral de Ruão",
+            "Rouen Cathedral",
+            "Série Catedral de Rouen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Mosteiro de Santa Catarina (Sinai)",
+        "descricao": "Mosteiro ortodoxo do século seis aos pés do Monte Sinai, no Egito.",
+        "variantes": [
+          "Saint Catherine's Monastery",
+          "Mosteiro de Santa Catarina do Sinai"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mosteiro_da_batalha",
+          "nome": "Mosteiro da Batalha",
+          "descricao": "Mosteiro gótico dominicano na vila da Batalha, em Portugal, mandado erguer por Dom João Primeiro.",
+          "variantes": [
+            "Mosteiro de Santa Maria da Vitória",
+            "Batalha Monastery"
+          ]
+        },
+        {
+          "id": "mosteiro_dos_jeronimos",
+          "nome": "Mosteiro dos Jerónimos",
+          "descricao": "Mosteiro manuelino em Belém, Lisboa, ligado às viagens de Vasco da Gama.",
+          "variantes": [
+            "Mosteiro de Santa Maria de Belém"
+          ]
+        },
+        {
+          "id": "mosteiro_de_taktsang_ninho_do_tigre",
+          "nome": "Mosteiro de Taktsang (Ninho do Tigre)",
+          "descricao": "Mosteiro budista vajrayana construído num penhasco do vale de Paro, no Butão.",
+          "variantes": [
+            "Paro Taktsang",
+            "Ninho do Tigre",
+            "Tiger's Nest",
+            "Takshang"
+          ]
+        },
+        {
+          "id": "dia_de_sao_patricio",
+          "nome": "Dia de São Patrício",
+          "descricao": "Festa irlandesa de 17 de março em honra do padroeiro da Irlanda, celebrada com desfiles e a cor verde.",
+          "variantes": [
+            "Saint Patrick's Day",
+            "St. Patrick's Day"
+          ]
+        },
+        {
+          "id": "mosteiro_de_rila",
+          "nome": "Mosteiro de Rila",
+          "descricao": "Maior mosteiro ortodoxo da Bulgária, nas montanhas de Rila, fundado no século dez.",
+          "variantes": [
+            "Mosteiro de São João de Rila",
+            "Rila Monastery",
+            "Rilski manastir"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "panteao_de_roma",
+      "motivo": "Mesmo templo romano em Roma, hoje igreja."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Basílica da Penha no Rio não consta entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Templo da Concórdia de Agrigento não consta entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_milao",
+      "motivo": "Mesma catedral gótica de Milão."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "templo_do_sol_de_konark",
+      "motivo": "Mesmo templo hindu de Konark."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "mont_saint_michel",
+      "motivo": "Mesma ilha de maré com abadia na Normandia."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde à avenida de esfinges."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Mesquita Badshahi de Lahore não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_brasilia",
+      "motivo": "Mesma catedral metropolitana de Brasília."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Mosteiro de Santa Catarina no Sinai não consta entre as candidatas."
+    }
+  ]
+}

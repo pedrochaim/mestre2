@@ -1,0 +1,256 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fachada inconfundível; a inscrição cita Agrippa, não o nome Panteão.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que antigo templo romano, hoje igreja católica, é este?",
+      "resposta": "Panteão",
+      "distratores": [
+        "Templo de Vesta",
+        "Templo de Adriano",
+        "Templo de Saturno"
+      ],
+      "ancora": {
+        "nome": "Panteão de Roma",
+        "descricao": "Antigo templo romano a todos os deuses, em Roma, hoje basílica católica.",
+        "variantes": [
+          "Panteão",
+          "Pantheon",
+          "Basílica de Santa Maria dos Mártires"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Igreja no alto de uma rocha, bem visível; resposta única por cidade.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade brasileira fica este santuário católico, erguido no alto de uma pedra?",
+      "resposta": "Rio de Janeiro",
+      "distratores": [
+        "Salvador",
+        "Niterói",
+        "Belo Horizonte"
+      ],
+      "ancora": {
+        "nome": "Igreja da Penha (Rio de Janeiro)",
+        "descricao": "Basílica santuário de Nossa Senhora da Penha de França, no bairro da Penha, no Rio de Janeiro.",
+        "variantes": [
+          "Basílica Santuário de Nossa Senhora da Penha de França",
+          "Igreja de Nossa Senhora da Penha"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Templo dórico bem preservado, claro na imagem; pergunta de localização numa ilha.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ilha do Mediterrâneo fica este templo grego?",
+      "resposta": "Sicília",
+      "distratores": [
+        "Creta",
+        "Sardenha",
+        "Malta"
+      ],
+      "ancora": {
+        "nome": "Templo da Concórdia",
+        "descricao": "Templo dórico grego do Vale dos Templos, em Agrigento, na Sicília.",
+        "variantes": [
+          "Tempio della Concordia",
+          "Temple of Concordia"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada gótica inconfundível; a inscrição é ilegível e não entrega a resposta.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A quem é dedicada esta catedral?",
+      "resposta": "Natividade de Maria",
+      "distratores": [
+        "Assunção de Maria",
+        "Imaculada Conceição",
+        "Santo Ambrósio"
+      ],
+      "ancora": {
+        "nome": "Catedral de Milão",
+        "descricao": "Catedral gótica de mármore branco em Milão, Itália, dedicada à Natividade de Santa Maria.",
+        "variantes": [
+          "Duomo di Milano",
+          "Milan Cathedral"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A imagem é uma reconstrução em 3D, não uma foto do monumento; a ruína real é bem diferente e não seria reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Templo hindu reconhecível, com andaimes mas legível; sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "A que divindade hindu é dedicado este templo?",
+      "resposta": "Surya, o deus Sol",
+      "distratores": [
+        "Vishnu",
+        "Shiva",
+        "Ganesha"
+      ],
+      "ancora": {
+        "nome": "Templo do Sol de Konark",
+        "descricao": "Templo hindu do século treze em Konark, Odisha, Índia, dedicado ao deus Sol Surya.",
+        "variantes": [
+          "Konark Sun Temple",
+          "Templo do Sol em Konarak",
+          "Surya Devalaya"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta icônica da abadia sobre a ilha; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que abadia fortificada, lugar de peregrinação, é esta?",
+      "resposta": "Mont-Saint-Michel",
+      "distratores": [
+        "Abadia de Melk",
+        "Mosteiro de Montserrat",
+        "Mosteiro de Meteora"
+      ],
+      "ancora": {
+        "nome": "Mont-Saint-Michel",
+        "descricao": "Ilha de maré na Normandia, França, com abadia medieval fortificada.",
+        "variantes": [
+          "Monte Saint-Michel",
+          "Monte São Miguel"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fileira de esfinges e ambiente reconhecíveis; resposta única por cidade.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade do Egito fica este caminho cerimonial que liga dois grandes templos?",
+      "resposta": "Luxor",
+      "distratores": [
+        "Cairo",
+        "Assuã",
+        "Alexandria"
+      ],
+      "ancora": {
+        "nome": "Avenida das Esfinges",
+        "descricao": "Avenida de esfinges de 2,7 km que liga os templos de Karnak e Luxor, no Egito.",
+        "variantes": [
+          "Avenue of Sphinxes",
+          "Estrada dos Carneiros"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Mesquita de arenito vermelho com cúpulas brancas, nítida e sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que imperador mogol mandou construir esta mesquita?",
+      "resposta": "Aurangzeb",
+      "distratores": [
+        "Akbar",
+        "Shah Jahan",
+        "Humayun"
+      ],
+      "ancora": {
+        "nome": "Mesquita Badshahi",
+        "descricao": "Mesquita imperial mogol de arenito vermelho em Lahore, Paquistão, construída entre 1671 e 1673.",
+        "variantes": [
+          "Badshahi Mosque",
+          "Mesquita Real de Lahore"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Forma inconfundível; a pichação na placa é ilegível e não entrega a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que catedral modernista é esta?",
+      "resposta": "Catedral de Brasília",
+      "distratores": [
+        "Catedral de Liverpool",
+        "Catedral de São Sebastião",
+        "Catedral de Coventry"
+      ],
+      "ancora": {
+        "nome": "Catedral de Brasília",
+        "descricao": "Catedral metropolitana católica de Brasília, projetada por Oscar Niemeyer e inaugurada em 1970.",
+        "variantes": [
+          "Catedral Metropolitana de Brasília",
+          "Cathedral of Brasília"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Mosteiro murado em paisagem desértica de montanha, claro e sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Aos pés de que monte fica este mosteiro cristão?",
+      "resposta": "Monte Sinai",
+      "distratores": [
+        "Monte Ararate",
+        "Monte Carmelo",
+        "Monte Tabor"
+      ],
+      "ancora": {
+        "nome": "Mosteiro de Santa Catarina (Sinai)",
+        "descricao": "Mosteiro ortodoxo do século seis aos pés do Monte Sinai, no Egito.",
+        "variantes": [
+          "Saint Catherine's Monastery",
+          "Mosteiro de Santa Catarina do Sinai"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Vista de ruínas baixas e muros num planalto; sem traço marcante, não é reconhecível pela imagem e poderia ser qualquer sítio andino."
+    }
+  ]
+}

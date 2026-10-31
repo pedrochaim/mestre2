@@ -1,0 +1,139 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que edifício de Roma, reconstruído no século dois sob o imperador Adriano, é este?",
+        "resposta": "Panteão"
+      },
+      "existentes": [
+        {
+          "id": "q02520",
+          "pergunta": "Que edifício da Roma antiga é este?",
+          "resposta": "Panteão"
+        },
+        {
+          "id": "q03196",
+          "pergunta": "Como se chama a abertura circular no topo da cúpula do Panteão de Roma, por onde entram luz e chuva?",
+          "resposta": "Óculo"
+        },
+        {
+          "id": "q03972",
+          "pergunta": "A fachada do Panteão de Roma traz o nome de Agripa, mas o edifício que vemos hoje foi reconstruído por que imperador, no século dois?",
+          "resposta": "Adriano"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Esta catedral gótica de mármore é dedicada a Maria sob que título?",
+        "resposta": "Natividade de Maria"
+      },
+      "existentes": [
+        {
+          "id": "q05289",
+          "pergunta": "Em que cidade italiana fica esta catedral gótica?",
+          "resposta": "Milão"
+        },
+        {
+          "id": "q06917",
+          "pergunta": "Que estilo arquitetônico caracteriza esta catedral?",
+          "resposta": "Gótico"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A que divindade hindu é dedicado este templo?",
+        "resposta": "Surya, o deus Sol"
+      },
+      "existentes": [
+        {
+          "id": "q08998",
+          "pergunta": "Que templo hindu do século treze, no leste da Índia, é este?",
+          "resposta": "Templo do Sol de Konark"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que abadia fortificada, lugar de peregrinação, é esta?",
+        "resposta": "Mont-Saint-Michel"
+      },
+      "existentes": [
+        {
+          "id": "q02448",
+          "pergunta": "Em que região da França fica este monte fortificado, cercado pelas marés?",
+          "resposta": "Normandia"
+        },
+        {
+          "id": "q05310",
+          "pergunta": "Que lugar da França, com uma abadia no alto, é este?",
+          "resposta": "Monte Saint-Michel"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que catedral modernista é esta?",
+        "resposta": "Catedral de Brasília"
+      },
+      "existentes": [
+        {
+          "id": "q04694",
+          "pergunta": "Que arquiteto projetou esta catedral?",
+          "resposta": "Oscar Niemeyer"
+        },
+        {
+          "id": "q07513",
+          "pergunta": "Na entrada da Catedral de Brasília, quatro grandes estátuas de bronze de Alfredo Ceschiatti representam que personagens bíblicos?",
+          "resposta": "Os quatro evangelistas"
+        },
+        {
+          "id": "q07529",
+          "pergunta": "A Catedral de Brasília, de Niemeyer, lembra mãos erguidas ao céu. Quantas colunas curvas de concreto formam sua estrutura?",
+          "resposta": "Dezesseis"
+        },
+        {
+          "id": "q16439",
+          "pergunta": "Em que cidade fica esta catedral?",
+          "resposta": "Brasília"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q02520",
+      "motivo": "Ambas pedem a identificação do edifício como Panteão (imagem); a nova só acrescenta dicas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O título de dedicação da catedral é um fato diferente de cidade ou estilo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A divindade a que o templo é dedicado é um fato diferente da identificação do templo."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q05310",
+      "motivo": "Ambas pedem a identificação do Mont-Saint-Michel com a abadia no alto."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "id_existente": "q16439",
+      "motivo": "Ambas pedem a identificação da catedral na imagem; q16439 tem resposta Brasília, que é a cidade, mas a nova pede o nome da catedral, que é fato distinto."
+    }
+  ]
+}

@@ -236,7 +236,7 @@
       "titulo": "en:Temple of Concordia, Agrigento",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Templo de Debod",
@@ -327,7 +327,7 @@
       "titulo": "en:Mont-Saint-Michel",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Ankh",
@@ -453,7 +453,7 @@
       "titulo": "en:Temple of Vesta",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Pirâmide da Lua",
@@ -551,7 +551,7 @@
       "titulo": "en:Kalasasaya",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Templo de Saturno",
@@ -559,6 +559,286 @@
       "camada": 3,
       "destino": 1,
       "status": "nova"
+    },
+    {
+      "nome": "Basílica de São Pedro",
+      "titulo": "en:St. Peter's Basilica",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Catedral de Notre-Dame de Paris",
+      "titulo": "en:Notre-Dame de Paris",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Catedral de Brasília",
+      "titulo": "en:Cathedral of Brasília",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Basílica de Sacré-Cœur",
+      "titulo": "en:Sacré-Cœur, Paris",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Catedral de Milão",
+      "titulo": "en:Milan Cathedral",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Igreja da Pampulha",
+      "titulo": "pt:Igreja de São Francisco de Assis (Belo Horizonte)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Catedral de São Paulo (Londres)",
+      "titulo": "en:St Paul's Cathedral",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo Sensō-ji",
+      "titulo": "en:Sensō-ji",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mosteiro Shaolin",
+      "titulo": "en:Shaolin Monastery",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Kiyomizu-dera",
+      "titulo": "en:Kiyomizu-dera",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Wat Pho",
+      "titulo": "en:Wat Pho",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mosteiro de Santa Catarina (Sinai)",
+      "titulo": "en:Saint Catherine's Monastery",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Tálit",
+      "titulo": "en:Tallit",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Basílica de Nossa Senhora de Nazaré (Belém)",
+      "titulo": "pt:Basílica de Nossa Senhora de Nazaré (Belém)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Igreja da Penha (Rio de Janeiro)",
+      "titulo": "pt:Igreja de Nossa Senhora da Penha (Rio de Janeiro)",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Santuário Meiji",
+      "titulo": "en:Meiji Shrine",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Catedral de Chartres",
+      "titulo": "en:Chartres Cathedral",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mesquita Badshahi",
+      "titulo": "en:Badshahi Mosque",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Mesquita de Süleymaniye",
+      "titulo": "en:Süleymaniye Mosque",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo Akshardham (Délhi)",
+      "titulo": "en:Akshardham (Delhi)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Panteão de Roma",
+      "titulo": "en:Pantheon, Rome",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pedra do Sol (Calendário Asteca)",
+      "titulo": "en:Aztec calendar stone",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Santuário de Olímpia",
+      "titulo": "en:Olympia, Greece",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Avenida das Esfinges",
+      "titulo": "en:Avenue of Sphinxes",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Altar de Pérgamo",
+      "titulo": "en:Pergamon Altar",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Portal do Sol (Tiwanaku)",
+      "titulo": "en:Gate of the Sun",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Delos",
+      "titulo": "en:Delos",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo de Bel (Palmira)",
+      "titulo": "en:Temple of Bel",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Disco celeste de Nebra",
+      "titulo": "en:Nebra sky disc",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo de Castor e Pólux",
+      "titulo": "en:Temple of Castor and Pollux",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Maison Carrée",
+      "titulo": "en:Maison Carrée",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo de Garni",
+      "titulo": "en:Garni Temple",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Oráculo de Dodona",
+      "titulo": "en:Dodona",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Coricancha",
+      "titulo": "en:Coricancha",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cenote Sagrado de Chichén Itzá",
+      "titulo": "en:Sacred Cenote",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo da Serpente Emplumada (Teotihuacan)",
+      "titulo": "en:Temple of the Feathered Serpent, Teotihuacan",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Caldeirão de Gundestrup",
+      "titulo": "en:Gundestrup cauldron",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Carruagem Solar de Trundholm",
+      "titulo": "en:Trundholm sun chariot",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Gamla Uppsala",
+      "titulo": "en:Gamla Uppsala",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo do Sol de Konark",
+      "titulo": "en:Konark Sun Temple",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
     }
   ]
 }
