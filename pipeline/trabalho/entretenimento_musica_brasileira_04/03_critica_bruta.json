@@ -1,0 +1,502 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oito cordas em quatro pares, confirmado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Morreu aos 36 anos, confirmado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Morreu aos 32 anos, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas o enunciado é confuso ('banda de Pelados em Santos').",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Quantos álbuns de estúdio os Mamonas Assassinas, autores de Pelados em Santos, chegaram a lançar?",
+        "resposta": "Um",
+        "distratores": [
+          "Dois",
+          "Três",
+          "Quatro"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Mamonas_Assassinas",
+          "https://pt.wikipedia.org/wiki/Mamonas_Assassinas_(%C3%A1lbum)"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "De 11 a 20 de janeiro de 1985, dez dias.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Casou-se nove vezes, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Série de nove Bachianas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Canção 'Eu Nasci Há 10 Mil Anos Atrás' do disco de 1976.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Resposta 'Nenhuma' não é sustentada pelos trechos e é frágil como pergunta numérica.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz dois meninos numa estrada de terra, não que estão sentados à beira dela.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "A famosa capa do disco Clube da Esquina, de 1972, mostra quantos meninos numa estrada de terra?",
+        "resposta": "Dois",
+        "distratores": [
+          "Um",
+          "Três",
+          "Quatro"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Clube_da_Esquina_(%C3%A1lbum)",
+          "https://en.wikipedia.org/wiki/Clube_da_Esquina_(album)"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Frevo vem de ferver (frever), confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bechara: forró é redução de forrobodó.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome de batismo Maria da Graça, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mirosmar, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fato não verificável nos trechos e resposta genérica, adivinhável pelos distratores.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome inspirado na valsa de Capiba, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Segundo a fonte portuguesa a ideia veio de Alberto Helena Júnior; Ronnie Von levou o nome ao grupo, então 'sugeriu' é impreciso.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O nome Os Mutantes nasceu de uma brincadeira com qual cantor e apresentador de TV, que lia um livro de ficção científica sobre o tema?",
+        "resposta": "Ronnie Von",
+        "distratores": [
+          "Erasmo Carlos",
+          "Wilson Simonal",
+          "Chacrinha"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Os_Mutantes",
+          "https://en.wikipedia.org/wiki/Os_Mutantes"
+        ]
+      }
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Título original Menina que Passa, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido A Pequena Notável, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Sempre' é absoluto demais; o apelido vem da infância.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Entre amigos e parceiros do Clube da Esquina, Milton Nascimento é conhecido por qual apelido de infância?",
+        "resposta": "Bituca",
+        "distratores": [
+          "Bolacha",
+          "Tuca",
+          "Miltinho"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Milton_Nascimento"
+        ]
+      }
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rainha da sofrência, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato perguntado (diretor do filme) não é sobre a âncora; melhor perguntar o filme a partir da canção.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Que filme distópico de 1985, dirigido por Terry Gilliam, usa Aquarela do Brasil como tema musical?",
+        "resposta": "Brazil",
+        "distratores": [
+          "Blade Runner",
+          "Os Doze Macacos",
+          "Os Bandidos do Tempo"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Aquarela_do_Brasil",
+          "https://en.wikipedia.org/wiki/Brazil_(1985_film)"
+        ]
+      }
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro casamento com Ronaldo Bôscoli, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Domingo no Parque com Os Mutantes, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Native Dancer com Wayne Shorter, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A data foi escolhida pelo que se acreditava ser o nascimento de Pixinguinha (o real é 4 de maio); fonte do Dia Nacional do Choro inexistente.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "O Dia Nacional do Choro, vinte e três de abril, foi escolhido por se acreditar ser a data de nascimento de qual músico?",
+        "resposta": "Pixinguinha",
+        "distratores": [
+          "Jacob do Bandolim",
+          "Waldir Azevedo",
+          "Ernesto Nazareth"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Pixinguinha"
+        ]
+      }
+    },
+    {
+      "indice": 27,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Vaza o sobrenome Gonzaga no enunciado e a fonte diz que a filiação era só registral.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ex-integrantes formaram o Capital Inicial, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas a segunda fonte é página de desambiguação.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Cazuza era filho do produtor João Araújo, que comandou por décadas qual gravadora ligada à TV Globo?",
+        "resposta": "Som Livre",
+        "distratores": [
+          "Odeon",
+          "Polygram",
+          "Continental"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Cazuza",
+          "https://pt.wikipedia.org/wiki/Som_Livre"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Unicamp, vestibular 2020, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Olodum na faixa de Paul Simon, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Coisinha do Pai acordou o Sojourner, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mais de um ano' não é sustentado pela fonte.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Em 1969, ameaçado pela repressão da ditadura, Chico Buarque se autoexilou em qual país europeu?",
+        "resposta": "Itália",
+        "distratores": [
+          "França",
+          "Portugal",
+          "Inglaterra"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Chico_Buarque"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos nasceram em Santo Amaro, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nasceu em Marco de Canaveses, Portugal.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Honório Gurgel, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O sítio era em Vargem Grande, então localidade de Jacarepaguá; resposta ambígua e distratores fracos.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "No começo dos anos setenta, os Novos Baianos viveram em comunidade num sítio de qual localidade da Zona Oeste carioca?",
+        "resposta": "Vargem Grande",
+        "distratores": [
+          "Guaratiba",
+          "Campo Grande",
+          "Realengo"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Novos_Baianos"
+        ]
+      }
+    },
+    {
+      "indice": 38,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A causa do nome é apenas especulada; as fontes citam outras versões.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fórceps fraturou a mandíbula, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Queda de ultraleve em 2001, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A letra tem mais de um motivo (mãe não dorme, trabalhar cedo), então 'outro motivo' é ambíguo e um distrator é parcialmente correto.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "Em Trem das Onze, o narrador diz que precisa ir embora porque uma pessoa não dorme enquanto ele não chegar. Quem?",
+        "resposta": "A mãe",
+        "distratores": [
+          "A esposa",
+          "A namorada",
+          "O pai"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Trem_das_Onze"
+        ]
+      }
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jobim e Newton Mendonça, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fred Zero Quatro autor do manifesto, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dorival Caymmi, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Composta por Jorge Ben, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caxixi acompanha o berimbau, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A letra diz 'Eu tomo uma Coca-Cola, ela pensa em casamento'.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Pergunta quase definicional (pavilhão/bandeira vazam a resposta), fraca e mal classificada em Música Brasileira.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Morreu em 5 de agosto de 1955, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Cartola era vigia e lavador de carros; 'Porteiro de prédio' fica ambíguo. Melhor perguntar o bairro.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Esquecido nos anos cinquenta, Cartola foi reencontrado pelo jornalista Sérgio Porto lavando carros em qual bairro carioca?",
+        "resposta": "Ipanema",
+        "distratores": [
+          "Copacabana",
+          "Leblon",
+          "Botafogo"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Cartola_(compositor)"
+        ]
+      }
+    }
+  ]
+}
