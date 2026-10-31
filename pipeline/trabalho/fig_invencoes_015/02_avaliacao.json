@@ -1,0 +1,188 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A frente do aparelho mostra 'PHILIPS MAGNAVOX', 'VCR Plus' e 'VHS HQ', texto que entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "É um diagrama esquemático genérico, não um aparelho reconhecível; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Praxinoscópio com tambor de espelhos e imagens, sem texto, reconhecível.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem inventou este aparelho, na França, em 1877?",
+      "resposta": "Charles-Émile Reynaud",
+      "distratores": [
+        "Louis Lumière",
+        "Eadweard Muybridge",
+        "Georges Méliès"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Praxinoscópio",
+        "descricao": "Aparelho de animação inventado em 1877, sucessor do zoótropo, que usa espelhos internos num cilindro giratório.",
+        "variantes": [
+          "Praxinoscope"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O guarda-chuva/sombrinha tem origem antiga e difusa; não há resposta única para época ou autor."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Concorde inconfundível; o texto 'British Airways' é da companhia, não entrega o nome.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que duas empresas, uma francesa e uma britânica, desenvolveram este avião?",
+      "resposta": "Sud Aviation e British Aircraft Corporation",
+      "distratores": [
+        "Airbus e Boeing",
+        "Dassault e Vickers",
+        "Aérospatiale e Fokker"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Concorde",
+        "descricao": "Avião de passageiros supersônico anglo-francês, aposentado em 2003.",
+        "variantes": [
+          "Aérospatiale-BAC Concorde"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Réplica do Manchester Baby, com placas apenas dos módulos, sem o nome.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que universidade britânica construiu este computador pioneiro de programa armazenado?",
+      "resposta": "Universidade de Manchester",
+      "distratores": [
+        "Universidade de Cambridge",
+        "Universidade de Oxford",
+        "Universidade de Edimburgo"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Manchester Baby",
+        "descricao": "Primeiro computador eletrônico de programa armazenado, construído em Manchester e rodando o primeiro programa em 1948.",
+        "variantes": [
+          "Small-Scale Experimental Machine",
+          "SSEM"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Palito de fósforo aceso, claro e sem texto; autoria do fósforo é ambígua, por isso a pergunta é de reconhecimento.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto é este?",
+      "resposta": "Fósforo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Fósforo",
+        "descricao": "Palito com cabeça de material inflamável que acende por atrito.",
+        "variantes": [
+          "Palito de fósforo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Disco de ouro da Voyager, reconhecível, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foram lançadas as sondas espaciais que levaram este disco?",
+      "resposta": "1977",
+      "distratores": [
+        "1975",
+        "1979",
+        "1973"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Disco de Ouro da Voyager",
+        "descricao": "Disco fonográfico de ouro levado pelas sondas Voyager com sons e imagens da Terra.",
+        "variantes": [
+          "Voyager Golden Record"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Anemômetro de conchas nítido, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem fez a primeira descrição conhecida deste instrumento, por volta de 1450?",
+      "resposta": "Leon Battista Alberti",
+      "distratores": [
+        "Filippo Brunelleschi",
+        "Galileu Galilei",
+        "Robert Hooke"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Anemômetro",
+        "descricao": "Instrumento meteorológico que mede a velocidade do vento, aqui de conchas.",
+        "variantes": [
+          "Anemometer"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "É uma torradeira de esteira comercial, atípica, com a marca 'Dosilet' visível; pouco reconhecível como torradeira comum."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O microfone mostra 'SHURE SM58' escrito, que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Aparelho de barbear de segurança nítido, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que empresário americano popularizou, no início do século vinte, este tipo de aparelho com lâmina removível?",
+      "resposta": "King Camp Gillette",
+      "distratores": [
+        "Jacob Schick",
+        "William Painter",
+        "Jean-Jacques Perret"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Aparelho de barbear",
+        "descricao": "Aparelho de barbear de segurança, com proteção entre a lâmina e a pele e lâmina removível.",
+        "variantes": [
+          "Barbeador",
+          "Safety razor",
+          "Gilete"
+        ]
+      }
+    }
+  ]
+}

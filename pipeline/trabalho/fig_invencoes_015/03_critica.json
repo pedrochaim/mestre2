@@ -1,0 +1,85 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro (França, 1877, Reynaud) e confirmado nos trechos; não nomeia o aparelho; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "O trecho em português cita Aérospatiale (sucessora da Sud Aviation) em vez de Sud Aviation, então a resposta composta é discutível; a resposta ficou longa. Perguntar só pela empresa britânica, que é consensual, resolve.",
+      "reescrita": {
+        "pergunta": "Que empresa britânica desenvolveu este avião em parceria com uma empresa francesa?",
+        "resposta": "British Aircraft Corporation",
+        "distratores": [
+          "Hawker Siddeley",
+          "Handley Page",
+          "De Havilland"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A expressão 'computador pioneiro de programa armazenado' descreve a resposta e permite identificar o Baby e sua universidade sem ver a figura. Retirar a pista.",
+      "reescrita": {
+        "pergunta": "Que universidade britânica construiu este computador, que rodou seu primeiro programa em 1948?",
+        "resposta": "Universidade de Manchester",
+        "distratores": [
+          "Universidade de Cambridge",
+          "Universidade de Oxford",
+          "Universidade de Edimburgo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento, direto, resposta única e sem pista no enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As duas sondas Voyager foram lançadas em 1977, conforme os trechos; o enunciado não vaza; distratores são anos próximos e críveis; é múltipla, como exigido para ano.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A figura mostra um anemômetro de conchas, mas Alberti descreveu o tipo de disco/placa; o enunciado não é verdadeiro para este tipo. O inventor do anemômetro de conchas (1846) é Robinson, segundo o trecho em português.",
+      "reescrita": {
+        "pergunta": "Quem inventou, em 1846, este instrumento de conchas giratórias?",
+        "resposta": "John Thomas Romney Robinson",
+        "distratores": [
+          "James Lind",
+          "Robert Hooke",
+          "Leon Battista Alberti"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Aparelho com lâmina removível' descreve o objeto e permite responder Gillette sem a figura. Tirar a pista.",
+      "reescrita": {
+        "pergunta": "Que empresário americano popularizou este aparelho no início do século vinte?",
+        "resposta": "King Camp Gillette",
+        "distratores": [
+          "Jacob Schick",
+          "William Painter",
+          "Jean-Jacques Perret"
+        ]
+      }
+    }
+  ]
+}

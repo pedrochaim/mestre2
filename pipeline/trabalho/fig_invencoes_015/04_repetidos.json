@@ -1,0 +1,97 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que empresa britânica desenvolveu este avião em parceria com uma empresa francesa?",
+        "resposta": "British Aircraft Corporation"
+      },
+      "existentes": [
+        {
+          "id": "q00985",
+          "pergunta": "Depois de quase trinta anos levando passageiros entre Europa e Estados Unidos, em que ano o Concorde fez seus últimos voos comerciais?",
+          "resposta": "2003"
+        },
+        {
+          "id": "q08432",
+          "pergunta": "Em que ano foi o primeiro voo deste avião?",
+          "resposta": "1969"
+        },
+        {
+          "id": "q09383",
+          "pergunta": "Na decolagem e no pouso, que parte do Concorde se inclinava para baixo, para os pilotos conseguirem enxergar a pista?",
+          "resposta": "O nariz"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que universidade britânica construiu este computador, que rodou seu primeiro programa em 1948?",
+        "resposta": "Universidade de Manchester"
+      },
+      "existentes": [
+        {
+          "id": "q17074",
+          "pergunta": "Em que ano esta máquina rodou seu primeiro programa?",
+          "resposta": "1948"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que ano foram lançadas as sondas espaciais que levaram este disco?",
+        "resposta": "1977"
+      },
+      "existentes": [
+        {
+          "id": "q08293",
+          "pergunta": "Que pioneiro do rock americano tem uma canção gravada no Disco de Ouro, levado ao espaço pelas sondas Voyager?",
+          "resposta": "Chuck Berry"
+        },
+        {
+          "id": "q15100",
+          "pergunta": "Que sondas espaciais levam a bordo este disco?",
+          "resposta": "Voyager 1 e Voyager 2"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Quem inventou, em 1846, este instrumento de conchas giratórias?",
+        "resposta": "John Thomas Romney Robinson"
+      },
+      "existentes": [
+        {
+          "id": "q16752",
+          "pergunta": "Que instrumento meteorológico é este?",
+          "resposta": "Anemômetro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Fabricante britânico é fato diferente de ano de voos, primeiro voo ou nariz."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A pergunta nova é sobre qual universidade construiu o computador; a existente é sobre o ano do primeiro programa. Os fatos são diferentes, embora o ano apareça no enunciado."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ano de lançamento das sondas é fato diferente de quais sondas levam o disco ou da canção."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Inventor do instrumento é fato diferente do nome do instrumento."
+    }
+  ]
+}
