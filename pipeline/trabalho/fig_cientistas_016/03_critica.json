@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado genérico, sem vazamento; distratores plausíveis e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; distratores matemáticos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma o canal Nerdologia; o enunciado não permite responder sem a figura; distratores são outros canais.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta não é única: a constante de Stefan-Boltzmann também leva o nome dele. A resposta também repete o nome do retratado. Troquei por local de nascimento, que está nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que cidade nasceu este físico austríaco, defensor da teoria atômica?",
+        "resposta": "Viena",
+        "distratores": [
+          "Graz",
+          "Salzburgo",
+          "Linz"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples, sem vazamento; distratores são biólogos evolucionistas/divulgadores, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Francesa e Nobel de 1935 confirmados; nenhum distrator é francês, e eles são mulheres cientistas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado (NIAID, 1984–2022), mas dois distratores são fracos: CDC e OMS não são institutos de pesquisa do mesmo tipo. Troquei por outros institutos do NIH.",
+      "reescrita": {
+        "pergunta": "Este médico americano dirigiu por décadas qual instituto de pesquisa?",
+        "resposta": "Instituto Nacional de Alergia e Doenças Infecciosas",
+        "distratores": [
+          "Instituto Nacional do Câncer",
+          "Instituto Nacional do Coração",
+          "Instituto Nacional do Envelhecimento"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; distratores são físicos britânicos críveis, nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}

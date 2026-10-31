@@ -1,0 +1,205 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O nome COLLINS aparece legível na roupa de astronauta, entregando a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato do Nobel sem texto, rosto nítido; reconhecimento difícil, por isso múltipla com distratores de mesmo perfil.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Quem é este médico e imunologista?",
+      "resposta": "Karl Landsteiner",
+      "distratores": [
+        "Robert Koch",
+        "Paul Ehrlich",
+        "Emil von Behring"
+      ],
+      "ancora": {
+        "nome": "Karl Landsteiner",
+        "descricao": "Médico e imunologista austríaco-americano que identificou os grupos sanguíneos e ganhou o Nobel de Medicina em 1930.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, de figura pública; múltipla por reconhecimento moderado.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Quem é este matemático?",
+      "resposta": "Benoit Mandelbrot",
+      "distratores": [
+        "Paul Erdős",
+        "John Conway",
+        "Andrew Wiles"
+      ],
+      "ancora": {
+        "nome": "Benoit Mandelbrot",
+        "descricao": "Matemático franco-americano nascido na Polônia, criador da geometria fractal.",
+        "variantes": [
+          "Benoît Mandelbrot"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido de divulgador científico público, sem texto; pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 6,
+      "pergunta": "Este biólogo brasileiro ficou conhecido por apresentar qual canal de divulgação científica no YouTube?",
+      "resposta": "Nerdologia",
+      "distratores": [
+        "Manual do Mundo",
+        "Ciência Todo Dia",
+        "Pirulla"
+      ],
+      "ancora": {
+        "nome": "Átila Iamarino",
+        "descricao": "Biólogo e divulgador científico brasileiro, doutor em microbiologia, conhecido pelo canal Nerdologia.",
+        "variantes": [
+          "Atila Iamarino"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Astronauta de viseira escura na Lua, sem rosto visível: não é reconhecível como Shepard, e a cena serve a vários astronautas."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Gravura em retrato sem texto, nítida; pergunta de nível 3 sobre a constante com seu nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual constante da física leva o nome deste físico austríaco?",
+      "resposta": "Constante de Boltzmann",
+      "distratores": [
+        "Constante de Planck",
+        "Constante de Avogadro",
+        "Constante de Faraday"
+      ],
+      "ancora": {
+        "nome": "Ludwig Boltzmann",
+        "descricao": "Físico teórico austríaco, criador da mecânica estatística e da definição estatística de entropia.",
+        "variantes": [
+          "Ludwig Eduard Boltzmann"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem texto identificador.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 6,
+      "pergunta": "Quem é este biólogo evolucionista britânico?",
+      "resposta": "Richard Dawkins",
+      "distratores": [
+        "Stephen Jay Gould",
+        "Jared Diamond",
+        "Edward O. Wilson"
+      ],
+      "ancora": {
+        "nome": "Richard Dawkins",
+        "descricao": "Biólogo evolucionista e divulgador científico britânico, autor de O Gene Egoísta.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato histórico nítido, sem texto; distratores sem parentesco para evitar ambiguidade.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quem é esta cientista francesa, ganhadora do Nobel?",
+      "resposta": "Irène Joliot-Curie",
+      "distratores": [
+        "Lise Meitner",
+        "Rosalind Franklin",
+        "Dorothy Hodgkin"
+      ],
+      "ancora": {
+        "nome": "Irène Joliot-Curie",
+        "descricao": "Química e física francesa, filha de Marie e Pierre Curie, Nobel de Química de 1935 pela radioatividade induzida.",
+        "variantes": [
+          "Irène Curie"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O crachá no peito traz o nome Terence Tao legível, entregando a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido sem texto de figura pública; pergunta de nível 3.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Este médico americano dirigiu por décadas qual instituto de pesquisa?",
+      "resposta": "Instituto Nacional de Alergia e Doenças Infecciosas",
+      "distratores": [
+        "Instituto Nacional do Câncer",
+        "Centros de Controle de Doenças",
+        "Organização Mundial da Saúde"
+      ],
+      "ancora": {
+        "nome": "Anthony Fauci",
+        "descricao": "Médico e imunologista americano, diretor do NIAID de 1984 a 2022.",
+        "variantes": [
+          "Anthony Stephen Fauci",
+          "Tony Fauci"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato histórico nítido, sem texto; distratores de físicos britânicos da mesma época e aparência.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é este físico britânico?",
+      "resposta": "J. J. Thomson",
+      "distratores": [
+        "Ernest Rutherford",
+        "Lord Kelvin",
+        "James Clerk Maxwell"
+      ],
+      "ancora": {
+        "nome": "J. J. Thomson",
+        "descricao": "Físico britânico que descobriu o elétron e ganhou o Nobel de Física de 1906.",
+        "variantes": [
+          "Joseph John Thomson"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem minúscula, granulada e escura (cerca de 200x280); não fica legível num celular nem permite reconhecer o rosto."
+    }
+  ]
+}

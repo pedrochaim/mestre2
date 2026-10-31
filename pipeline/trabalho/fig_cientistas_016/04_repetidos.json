@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é este biólogo evolucionista britânico?",
+        "resposta": "Richard Dawkins"
+      },
+      "existentes": [
+        {
+          "id": "q15146",
+          "pergunta": "Qual destes livros foi escrito por este biólogo evolucionista britânico?",
+          "resposta": "O Gene Egoísta"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identidade da pessoa (Richard Dawkins); a existente pede uma obra dele. São fatos diferentes, e saber o livro não garante saber o nome da pessoa na imagem."
+    }
+  ]
+}

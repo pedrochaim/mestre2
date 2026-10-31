@@ -1,0 +1,414 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Karl Landsteiner",
+        "descricao": "Médico e imunologista austríaco-americano que identificou os grupos sanguíneos e ganhou o Nobel de Medicina em 1930.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "calipateira",
+          "nome": "Calipateira",
+          "descricao": "Mulher de Rodes que, segundo Pausânias, entrou disfarçada de treinador nos Jogos de Olímpia para ver o filho competir.",
+          "variantes": [
+            "Kallipateira",
+            "Ferenice de Rodes"
+          ]
+        },
+        {
+          "id": "auld_lang_syne",
+          "nome": "Auld Lang Syne",
+          "descricao": "Canção escocesa cantada na virada do ano em países de língua inglesa, conhecida no Brasil pela melodia da Valsa da Despedida.",
+          "variantes": [
+            "Valsa da Despedida"
+          ]
+        },
+        {
+          "id": "karl_lagerfeld",
+          "nome": "Karl Lagerfeld",
+          "descricao": "Estilista alemão (1933–2019), diretor criativo da Chanel e da Fendi",
+          "variantes": [
+            "Lagerfeld"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Benoit Mandelbrot",
+        "descricao": "Matemático franco-americano nascido na Polônia, criador da geometria fractal.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "conjunto_de_mandelbrot",
+          "nome": "Conjunto de Mandelbrot",
+          "descricao": "Conjunto fractal de números complexos c para os quais a iteração de z ao quadrado mais c não diverge.",
+          "variantes": [
+            "Fractal de Mandelbrot"
+          ]
+        },
+        {
+          "id": "denis_diderot",
+          "nome": "Denis Diderot",
+          "descricao": "Filósofo, crítico de arte e escritor francês do Iluminismo, co-fundador e editor da Enciclopédia.",
+          "variantes": [
+            "Diderot"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Átila Iamarino",
+        "descricao": "Biólogo e divulgador científico brasileiro, doutor em microbiologia, conhecido pelo canal Nerdologia.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "tamarindo",
+          "nome": "Tamarindo",
+          "descricao": "Fruto em vagem do tamarindeiro (Tamarindus indica), de polpa doce e azeda.",
+          "variantes": [
+            "Tamarindus indica"
+          ]
+        },
+        {
+          "id": "tamarindo_2",
+          "nome": "Tamarindo",
+          "descricao": "Árvore leguminosa tropical (Tamarindus indica) de vagens marrons com polpa azedinha.",
+          "variantes": [
+            "Tamarindus indica"
+          ]
+        },
+        {
+          "id": "camisa_canarinho",
+          "nome": "Camisa canarinho",
+          "descricao": "Uniforme amarelo da seleção brasileira de futebol, adotado a partir de 1954 no lugar da camisa branca.",
+          "variantes": [
+            "Camisa amarela da seleção",
+            "Amarelinha",
+            "Uniforme canarinho"
+          ]
+        },
+        {
+          "id": "bilhar_americano",
+          "nome": "Bilhar americano",
+          "descricao": "Grupo de jogos de taco (pool) disputados em mesa com seis caçapas e bolas numeradas, como o eight-ball e o nine-ball.",
+          "variantes": [
+            "Sinuca",
+            "Pool",
+            "Bilhar"
+          ]
+        },
+        {
+          "id": "bandeira_de_san_marino",
+          "nome": "Bandeira de San Marino",
+          "descricao": "Bandeira nacional de San Marino, branca e azul-celeste com o brasão de três torres no centro.",
+          "variantes": [
+            "San Marino",
+            "Bandeira sanmarinense"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Ludwig Boltzmann",
+        "descricao": "Físico teórico austríaco, criador da mecânica estatística e da definição estatística de entropia.",
+        "variantes": [
+          "Ludwig Eduard Boltzmann"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caso_bosman",
+          "nome": "Caso Bosman",
+          "descricao": "Decisão de 1995 do Tribunal de Justiça europeu, a partir da ação do jogador belga Jean-Marc Bosman, que mudou as regras de transferência no futebol.",
+          "variantes": [
+            "Lei Bosman",
+            "Bosman ruling"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Richard Dawkins",
+        "descricao": "Biólogo evolucionista e divulgador científico britânico, autor de O Gene Egoísta.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "richard_dawkins",
+          "nome": "Richard Dawkins",
+          "descricao": "Biólogo evolucionista e divulgador científico britânico, autor de O Gene Egoísta.",
+          "variantes": [
+            "Clinton Richard Dawkins"
+          ]
+        },
+        {
+          "id": "ricardo_iii_de_inglaterra",
+          "nome": "Ricardo III de Inglaterra",
+          "descricao": "Último rei da casa de York, morto em 1485 na Batalha de Bosworth.",
+          "variantes": [
+            "Ricardo Terceiro",
+            "Richard III"
+          ]
+        },
+        {
+          "id": "charles_darwin",
+          "nome": "Charles Darwin",
+          "descricao": "Naturalista inglês autor da teoria da evolução por seleção natural.",
+          "variantes": [
+            "Charles Robert Darwin",
+            "Darwin"
+          ]
+        },
+        {
+          "id": "richard_wagner",
+          "nome": "Richard Wagner",
+          "descricao": "Compositor alemão romântico (1813–1883), autor de dramas musicais como O Anel do Nibelungo.",
+          "variantes": [
+            "Wilhelm Richard Wagner",
+            "Wagner"
+          ]
+        },
+        {
+          "id": "richard_leakey",
+          "nome": "Richard Leakey",
+          "descricao": "Paleoantropólogo e conservacionista queniano, líder de expedições no lago Turkana.",
+          "variantes": [
+            "Richard Erskine Frere Leakey"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Irène Joliot-Curie",
+        "descricao": "Química e física francesa, filha de Marie e Pierre Curie, Nobel de Química de 1935 pela radioatividade induzida.",
+        "variantes": [
+          "Irène Curie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pierre_curie",
+          "nome": "Pierre Curie",
+          "descricao": "Físico francês (1859–1906), pioneiro do estudo da radioatividade e da piezeletricidade, laureado com o Nobel de Física de 1903.",
+          "variantes": [
+            "Pierre Curie, físico"
+          ]
+        },
+        {
+          "id": "marie_curie",
+          "nome": "Marie Curie",
+          "descricao": "Física e química polonesa naturalizada francesa, duas vezes Nobel, descobridora do rádio e do polônio.",
+          "variantes": [
+            "Maria Skłodowska Curie",
+            "Madame Curie"
+          ]
+        },
+        {
+          "id": "cortina_de_ferro",
+          "nome": "Cortina de Ferro",
+          "descricao": "Expressão que designou a fronteira política e militar que dividia a Europa entre o bloco soviético e o Ocidente na Guerra Fria.",
+          "variantes": [
+            "Iron Curtain"
+          ]
+        },
+        {
+          "id": "reino_de_cuxe",
+          "nome": "Reino de Cuxe",
+          "descricao": "Antigo reino núbio no vale do Nilo, no atual Sudão, cujos reis chegaram a governar o Egito como a vigésima quinta dinastia.",
+          "variantes": [
+            "Kush",
+            "Reino de Kush",
+            "Cush"
+          ]
+        },
+        {
+          "id": "rene_descartes",
+          "nome": "René Descartes",
+          "descricao": "Filósofo e matemático francês (1596–1650), autor de Discurso do Método.",
+          "variantes": [
+            "Descartes",
+            "Renatus Cartesius",
+            "Cartesius"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Anthony Fauci",
+        "descricao": "Médico e imunologista americano, diretor do NIAID de 1984 a 2022.",
+        "variantes": [
+          "Anthony Stephen Fauci",
+          "Tony Fauci"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "anthony_davis",
+          "nome": "Anthony Davis",
+          "descricao": "Ala-pivô americano de basquete da NBA, apelidado The Brow.",
+          "variantes": [
+            "AD",
+            "The Brow"
+          ]
+        },
+        {
+          "id": "antoni_gaudi",
+          "nome": "Antoni Gaudí",
+          "descricao": "Arquiteto catalão, 1852-1926, autor da Sagrada Família, da Casa Batlló e do Parque Güell, em Barcelona.",
+          "variantes": [
+            "Gaudí",
+            "Antoni Gaudí i Cornet"
+          ]
+        },
+        {
+          "id": "confucio",
+          "nome": "Confúcio",
+          "descricao": "Filósofo chinês do século seis antes de Cristo, fundador do confucionismo.",
+          "variantes": [
+            "Kong Fuzi",
+            "Kongzi",
+            "Confucius"
+          ]
+        },
+        {
+          "id": "galinha_d_angola",
+          "nome": "Galinha-d'angola",
+          "descricao": "Ave galiforme africana domesticada (Numida meleagris), de plumagem cinza pintalgada de branco.",
+          "variantes": [
+            "Numida meleagris",
+            "Angolinha",
+            "Guiné",
+            "Capote",
+            "Tô-fraco"
+          ]
+        },
+        {
+          "id": "tonfa",
+          "nome": "Tonfa",
+          "descricao": "Arma de artes marciais de Okinawa formada por um bastão com um cabo perpendicular, usada em pares.",
+          "variantes": [
+            "Tunkua",
+            "Tui-fa",
+            "Senkon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "J. J. Thomson",
+        "descricao": "Físico britânico que descobriu o elétron e ganhou o Nobel de Física de 1906.",
+        "variantes": [
+          "Joseph John Thomson"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "george_paget_thomson",
+          "nome": "George Paget Thomson",
+          "descricao": "Físico britânico (1892–1975), filho de J. J. Thomson, Nobel de Física de 1937 pela difração de elétrons.",
+          "variantes": [
+            "G. P. Thomson"
+          ]
+        },
+        {
+          "id": "submetralhadora_thompson",
+          "nome": "Submetralhadora Thompson",
+          "descricao": "Submetralhadora americana criada por John T. Thompson em 1918, famosa nos anos 1920 e na Segunda Guerra Mundial.",
+          "variantes": [
+            "Thompson",
+            "Tommy gun",
+            "Thompson submachine gun"
+          ]
+        },
+        {
+          "id": "klay_thompson",
+          "nome": "Klay Thompson",
+          "descricao": "Arremessador americano de basquete da NBA, quatro vezes campeão pelo Golden State Warriors.",
+          "variantes": [
+            "Klay Alexander Thompson"
+          ]
+        },
+        {
+          "id": "gazela_de_thomson",
+          "nome": "Gazela-de-thomson",
+          "descricao": "Pequena gazela da África Oriental (Eudorcas thomsonii), com faixa escura no flanco.",
+          "variantes": [
+            "Eudorcas thomsonii",
+            "Tommie",
+            "Thomson's gazelle"
+          ]
+        },
+        {
+          "id": "ceramica_jomon",
+          "nome": "Cerâmica Jōmon",
+          "descricao": "Cerâmica pré-histórica do Japão, decorada com marcas de cordas.",
+          "variantes": [
+            "Jomon",
+            "Período Jōmon"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Karl Landsteiner."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O conjunto de Mandelbrot é um objeto matemático, não a pessoa."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde a Átila Iamarino."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Boltzmann."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "richard_dawkins",
+      "motivo": "Mesma pessoa, descrição idêntica."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Irène é filha de Marie e Pierre; é pessoa diferente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Anthony Fauci."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "George Paget Thomson é o filho, outra pessoa; as demais não correspondem."
+    }
+  ]
+}
