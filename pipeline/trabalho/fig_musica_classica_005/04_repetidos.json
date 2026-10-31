@@ -1,0 +1,99 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade brasileira fica esta casa de ópera?",
+        "resposta": "Manaus"
+      },
+      "existentes": [
+        {
+          "id": "q00388",
+          "pergunta": "Que teatro é este?",
+          "resposta": "Teatro Amazonas"
+        },
+        {
+          "id": "q02417",
+          "pergunta": "O luxuoso Teatro Amazonas, em Manaus, foi erguido no fim do século dezenove com a riqueza de que produto da floresta?",
+          "resposta": "Borracha"
+        },
+        {
+          "id": "q07521",
+          "pergunta": "Inaugurado em 1896, no auge da borracha, o Teatro Amazonas, em Manaus, tem a cúpula coberta de telhas pintadas com as cores de quê?",
+          "resposta": "Da bandeira do Brasil"
+        },
+        {
+          "id": "q16210",
+          "pergunta": "Em que cidade brasileira fica este teatro?",
+          "resposta": "Manaus"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que região do mundo vem este instrumento de percussão?",
+        "resposta": "Sudeste Asiático"
+      },
+      "existentes": [
+        {
+          "id": "q16529",
+          "pergunta": "Que instrumento de percussão é este?",
+          "resposta": "Gongo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A que família de instrumentos da orquestra pertence este?",
+        "resposta": "Percussão"
+      },
+      "existentes": [
+        {
+          "id": "q04166",
+          "pergunta": "Que instrumento de percussão é este?",
+          "resposta": "Triângulo"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que instrumento de percussão é este?",
+        "resposta": "Castanholas"
+      },
+      "existentes": [
+        {
+          "id": "q05759",
+          "pergunta": "Que instrumento de percussão é este?",
+          "resposta": "Castanholas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q16210",
+      "motivo": "Mesma pergunta: cidade do teatro, resposta Manaus."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Origem geográfica do instrumento é fato diferente do nome do instrumento."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Família do instrumento na orquestra difere de identificar o instrumento; embora a categoria percussão já esteja no enunciado existente, a pergunta nova pede a família, e saber o triângulo não responde isso diretamente."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q05759",
+      "motivo": "Pergunta e resposta idênticas."
+    }
+  ]
+}

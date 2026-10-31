@@ -1,0 +1,195 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fachada rosa e cúpula de azulejos inconfundíveis, sem texto legível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade brasileira fica esta casa de ópera?",
+      "resposta": "Manaus",
+      "distratores": [
+        "Belém",
+        "Salvador",
+        "Recife"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Teatro Amazonas",
+        "descricao": "Casa de ópera do século dezenove em Manaus, símbolo do auge da borracha.",
+        "variantes": [
+          "Amazon Theatre"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Edifício reconhecível pelo volume branco à beira do rio Potomac, sem texto; dificuldade moderada, resolvida com distratores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que centro cultural é este, às margens de um rio?",
+      "resposta": "Kennedy Center",
+      "distratores": [
+        "Lincoln Center",
+        "Barbican Centre",
+        "Royal Festival Hall"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Kennedy Center",
+        "descricao": "Centro nacional de artes cênicas dos Estados Unidos, em Washington, às margens do rio Potomac.",
+        "variantes": [
+          "John F. Kennedy Center for the Performing Arts"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fachada com a fonte Mendebrunnen, nítida; faixas com texto são minúsculas e ilegíveis.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que orquestra tem sede nesta sala de concertos?",
+      "resposta": "Orquestra do Gewandhaus de Leipzig",
+      "distratores": [
+        "Filarmônica de Berlim",
+        "Staatskapelle de Dresden",
+        "Orquestra do Concertgebouw"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gewandhaus de Leipzig",
+        "descricao": "Sala de concertos de Leipzig, na Alemanha, sede da Orquestra do Gewandhaus.",
+        "variantes": [
+          "Gewandhaus",
+          "Gewandhaus zu Leipzig"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Gongo de museu com baqueta, claro e reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que região do mundo vem este instrumento de percussão?",
+      "resposta": "Sudeste Asiático",
+      "distratores": [
+        "África Ocidental",
+        "Andes",
+        "Oriente Médio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gongo",
+        "descricao": "Instrumento de percussão metálico, circular, originário do Sudeste Asiático, tocado com baqueta.",
+        "variantes": [
+          "Gong"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A placa de rua traz 'Teatro Castro Alves' e há pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Gravura antiga; teorba, alaúde atiorbado e arquialaúde são muito parecidos, a resposta não é única pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Triângulo metálico nítido, fundo neutro; rabiscos da parede não são texto legível.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "A que família de instrumentos da orquestra pertence este?",
+      "resposta": "Percussão",
+      "distratores": [
+        "Cordas",
+        "Madeiras",
+        "Metais"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Triângulo",
+        "descricao": "Instrumento de percussão de metal dobrado em forma triangular, tocado com uma baqueta metálica.",
+        "variantes": [
+          "Triangle"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cúpula de titânio e vidro em forma de ovo, única; sem texto que entregue.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este centro de artes cênicas, que lembra um ovo?",
+      "resposta": "Pequim",
+      "distratores": [
+        "Xangai",
+        "Tóquio",
+        "Seul"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Centro Nacional de Artes Cênicas de Pequim",
+        "descricao": "Complexo com casa de ópera em forma de cúpula elíptica de titânio e vidro, em Pequim, projetado por Paul Andreu.",
+        "variantes": [
+          "Grande Teatro Nacional",
+          "National Centre for the Performing Arts",
+          "Ovo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Instrumento fotografado é ambíguo, com aparência de viola da gamba ou bárítono; não distingue com certeza a viola d'amore."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Castanhola isolada, nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de percussão é este?",
+      "resposta": "Castanholas",
+      "distratores": [
+        "Claves",
+        "Maracas",
+        "Pandeiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Castanholas",
+        "descricao": "Par de conchas côncavas de madeira ligadas por um cordão, usado como instrumento de percussão, típico da Espanha.",
+        "variantes": [
+          "Castanhetas",
+          "Castanholas espanholas",
+          "Castanets"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Há uma pessoa comum em primeiro plano, e o instrumento é difícil de distinguir de uma tuba pequena."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Pode ser confundido com órgão positivo ou outro pequeno órgão; a resposta não é única diante da imagem."
+    }
+  ]
+}
