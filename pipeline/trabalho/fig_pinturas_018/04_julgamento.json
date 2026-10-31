@@ -1,0 +1,565 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Watson e o Tubarão",
+        "descricao": "Pintura a óleo de John Singleton Copley sobre o resgate de Brook Watson de um ataque de tubarão no porto de Havana.",
+        "variantes": [
+          "Watson e o Tubarão (Copley)",
+          "Watson and the Shark"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "leda_e_o_cisne",
+          "nome": "Leda e o cisne",
+          "descricao": "Tema da mitologia grega em que Zeus, transformado em cisne, seduz Leda, rainha de Esparta.",
+          "variantes": [
+            "Leda and the Swan"
+          ]
+        },
+        {
+          "id": "giratina_e_o_guerreiro_dos_ceus",
+          "nome": "Giratina e o Guerreiro dos Céus",
+          "descricao": "Décimo primeiro filme da franquia Pokémon, de 2008, em que Ash ajuda o mítico Shaymin e enfrenta o caçador Zero.",
+          "variantes": [
+            "Giratina and the Sky Warrior",
+            "Pokémon: Giratina and the Sky Warrior"
+          ]
+        },
+        {
+          "id": "wilson",
+          "nome": "Wilson",
+          "descricao": "Bola de vôlei que se torna companheira do personagem de Tom Hanks no filme Náufrago, de 2000.",
+          "variantes": [
+            "Wilson the Volleyball",
+            "Wilson de Náufrago",
+            "Wilson (Náufrago)"
+          ]
+        },
+        {
+          "id": "salto_de_sete_quedas",
+          "nome": "Salto de Sete Quedas",
+          "descricao": "Conjunto de cachoeiras do rio Paraná, na fronteira entre Brasil e Paraguai, submerso em 1982.",
+          "variantes": [
+            "Sete Quedas",
+            "Salto del Guairá",
+            "Guaíra Falls",
+            "Salto de Guaíra",
+            "Saltos del Guairá"
+          ]
+        },
+        {
+          "id": "salto_em_altura",
+          "nome": "Salto em altura",
+          "descricao": "Prova do atletismo em que o atleta salta sobre um sarrafo horizontal sem derrubá-lo.",
+          "variantes": [
+            "High jump"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "A Execução de Lady Jane Grey",
+        "descricao": "Pintura a óleo de Paul Delaroche, de 1833, na National Gallery de Londres, sobre a execução de Lady Jane Grey.",
+        "variantes": [
+          "A Execução de Lady Jane Grey (Delaroche)",
+          "The Execution of Lady Jane Grey"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_execucao_do_imperador_maximiliano_manet",
+          "nome": "A Execução do Imperador Maximiliano (Manet)",
+          "descricao": "Série de pinturas de Édouard Manet, de 1867 a 1869, sobre o fuzilamento de Maximiliano I do México.",
+          "variantes": [
+            "The Execution of Emperor Maximilian",
+            "A Execução de Maximiliano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "O Berço",
+        "descricao": "Pintura a óleo impressionista de Berthe Morisot, de 1872, no Museu d'Orsay.",
+        "variantes": [
+          "O Berço (Berthe Morisot)",
+          "Le Berceau",
+          "The Cradle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_corvo",
+          "nome": "O Corvo",
+          "descricao": "Poema narrativo de Edgar Allan Poe, publicado em 1845.",
+          "variantes": [
+            "The Raven"
+          ]
+        },
+        {
+          "id": "as_bruxas_de_salem",
+          "nome": "As Bruxas de Salem",
+          "descricao": "Peça de Arthur Miller, de 1953, sobre os julgamentos de bruxaria de Salem, em Massachusetts, em 1692.",
+          "variantes": [
+            "The Crucible",
+            "O Caldeirão"
+          ]
+        },
+        {
+          "id": "cama_de_gato",
+          "nome": "Cama de gato",
+          "descricao": "Brincadeira em que se formam figuras com um laço de barbante entre os dedos das mãos.",
+          "variantes": [
+            "Cat's cradle"
+          ]
+        },
+        {
+          "id": "os_incriveis",
+          "nome": "Os Incríveis",
+          "descricao": "Animação da Pixar de 2004 sobre uma família de super-heróis obrigada a viver no anonimato.",
+          "variantes": [
+            "The Incredibles"
+          ]
+        },
+        {
+          "id": "william_shakespeare",
+          "nome": "William Shakespeare",
+          "descricao": "Dramaturgo e poeta inglês (1564–1616), autor de Hamlet e Romeu e Julieta.",
+          "variantes": [
+            "Shakespeare",
+            "O Bardo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Victory Boogie-Woogie",
+        "descricao": "Última pintura, inacabada, do pintor holandês Piet Mondrian, em losango, no Kunstmuseum de Haia.",
+        "variantes": [
+          "Victory Boogie-Woogie (Mondrian)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "broadway_boogie_woogie",
+          "nome": "Broadway Boogie-Woogie",
+          "descricao": "Pintura abstrata de Piet Mondrian de 1943, feita em Nova York, com grade de linhas e quadrados amarelos, vermelhos, azuis e cinza.",
+          "variantes": [
+            "Broadway Boogie-Woogie (Mondrian)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "O Balcão",
+        "descricao": "Pintura a óleo de Édouard Manet, de 1868-69, com quatro figuras numa sacada, no Museu d'Orsay.",
+        "variantes": [
+          "O Balcão (Manet)",
+          "Le Balcon",
+          "The Balcony"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "balao_de_ar_quente",
+          "nome": "Balão de ar quente",
+          "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+          "variantes": [
+            "Balão",
+            "Balão aerostático",
+            "Montgolfière",
+            "Hot air balloon"
+          ]
+        },
+        {
+          "id": "lago_balaton",
+          "nome": "Lago Balaton",
+          "descricao": "Grande lago de água doce no oeste da Hungria, o maior da Europa Central.",
+          "variantes": [
+            "Balaton",
+            "Lake Balaton"
+          ]
+        },
+        {
+          "id": "cloud_gate",
+          "nome": "Cloud Gate",
+          "descricao": "Escultura de aço inoxidável espelhado de Anish Kapoor, no Millennium Park, em Chicago.",
+          "variantes": [
+            "The Bean",
+            "O Feijão"
+          ]
+        },
+        {
+          "id": "irmaos_dalton",
+          "nome": "Irmãos Dalton",
+          "descricao": "Quarteto de irmãos bandidos, Joe, William, Jack e Averell, inimigos do caubói Lucky Luke nos quadrinhos franco-belgas",
+          "variantes": [
+            "Os Dalton",
+            "The Daltons",
+            "Les Dalton"
+          ]
+        },
+        {
+          "id": "paulo_roberto_falcao",
+          "nome": "Paulo Roberto Falcão",
+          "descricao": "Ex-meia brasileiro do Internacional e da Roma, ídolo dos anos 1980.",
+          "variantes": [
+            "Falcão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Amolação Interrompida",
+        "descricao": "Pintura de Almeida Júnior, de 1894, na Pinacoteca do Estado de São Paulo, de um caipira com um machado.",
+        "variantes": [
+          "Amolação Interrompida (Almeida Júnior)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "amolacao_interrompida",
+          "nome": "Amolação Interrompida",
+          "descricao": "Pintura de 1894 de Almeida Júnior que mostra um caipira com um machado, interrompido na amolação.",
+          "variantes": [
+            "Amolação Interrompida (Almeida Júnior)"
+          ]
+        },
+        {
+          "id": "almeida_junior",
+          "nome": "Almeida Júnior",
+          "descricao": "Pintor paulista José Ferraz de Almeida Júnior, autor de Caipira Picando Fumo, que viveu de 1850 a 1899.",
+          "variantes": [
+            "José Ferraz de Almeida Júnior"
+          ]
+        },
+        {
+          "id": "nado_artistico",
+          "nome": "Nado artístico",
+          "descricao": "Esporte aquático em que nadadoras executam coreografias sincronizadas ao som de música.",
+          "variantes": [
+            "Natação sincronizada",
+            "Nado sincronizado"
+          ]
+        },
+        {
+          "id": "museu_de_arte_contemporanea_de_niteroi",
+          "nome": "Museu de Arte Contemporânea de Niterói",
+          "descricao": "Museu projetado por Oscar Niemeyer, em forma de disco, sobre um mirante à beira da baía de Guanabara, inaugurado em 1996.",
+          "variantes": [
+            "MAC Niterói",
+            "MAC"
+          ]
+        },
+        {
+          "id": "linguas_indo_europeias",
+          "nome": "Línguas indo-europeias",
+          "descricao": "Família de línguas que inclui as românicas, germânicas, eslavas, o grego, o persa e as línguas do norte da Índia.",
+          "variantes": [
+            "Família indo-europeia",
+            "Indo-European languages"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "A Corrente do Golfo",
+        "descricao": "Pintura a óleo de Winslow Homer, de 1899, de um homem num barco sem mastro cercado de tubarões.",
+        "variantes": [
+          "A Corrente do Golfo (Winslow Homer)",
+          "The Gulf Stream"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "corrente_do_golfo",
+          "nome": "Corrente do Golfo",
+          "descricao": "Corrente oceânica quente que sai do golfo do México e atravessa o Atlântico Norte.",
+          "variantes": [
+            "Gulf Stream"
+          ]
+        },
+        {
+          "id": "o_grito",
+          "nome": "O Grito",
+          "descricao": "Obra expressionista de Edvard Munch, de 1893.",
+          "variantes": [
+            "The Scream",
+            "Skrik"
+          ]
+        },
+        {
+          "id": "corrente_de_humboldt",
+          "nome": "Corrente de Humboldt",
+          "descricao": "Corrente marítima fria que corre para o norte ao longo da costa oeste da América do Sul",
+          "variantes": [
+            "Corrente do Peru",
+            "Humboldt Current"
+          ]
+        },
+        {
+          "id": "o_vagabundo",
+          "nome": "O Vagabundo",
+          "descricao": "Personagem de chapéu-coco, bengala e bigodinho criado e interpretado por Charlie Chaplin no cinema mudo.",
+          "variantes": [
+            "The Tramp",
+            "Carlitos",
+            "Charlot"
+          ]
+        },
+        {
+          "id": "hakeem_olajuwon",
+          "nome": "Hakeem Olajuwon",
+          "descricao": "Pivô nigeriano bicampeão da NBA pelo Houston Rockets nos anos 1990.",
+          "variantes": [
+            "Akeem Olajuwon",
+            "The Dream"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "O Cavaleiro, a Morte e o Diabo",
+        "descricao": "Gravura em metal de Albrecht Dürer, de 1513, com um cavaleiro armado entre a Morte e o Diabo.",
+        "variantes": [
+          "O Cavaleiro, a Morte e o Diabo (Dürer)",
+          "Ritter, Tod und Teufel",
+          "Knight, Death and the Devil"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "os_cavaleiros_do_zodiaco",
+          "nome": "Os Cavaleiros do Zodíaco",
+          "descricao": "Mangá e anime de Masami Kurumada sobre guerreiros que protegem a deusa Atena, chamado Saint Seiya no Japão.",
+          "variantes": [
+            "Saint Seiya",
+            "Les Chevaliers du Zodiaque"
+          ]
+        },
+        {
+          "id": "batman_o_cavaleiro_das_trevas",
+          "nome": "Batman: O Cavaleiro das Trevas",
+          "descricao": "Filme de super-herói de 2008 dirigido por Christopher Nolan, com Christian Bale como Batman e Heath Ledger como Coringa.",
+          "variantes": [
+            "The Dark Knight",
+            "O Cavaleiro das Trevas"
+          ]
+        },
+        {
+          "id": "cavalaria_medieval",
+          "nome": "Cavalaria medieval",
+          "descricao": "Instituição da nobreza guerreira da Europa medieval, com formação, ritos de investidura e código de conduta próprios.",
+          "variantes": [
+            "Cavaleiro medieval",
+            "Chivalry"
+          ]
+        },
+        {
+          "id": "tavola_redonda",
+          "nome": "Távola Redonda",
+          "descricao": "Mesa lendária em que o rei Artur reunia seus cavaleiros em Camelot.",
+          "variantes": [
+            "Mesa Redonda",
+            "Round Table",
+            "Cavaleiros da Távola Redonda"
+          ]
+        },
+        {
+          "id": "o_cavaleiro_sorridente",
+          "nome": "O Cavaleiro Sorridente",
+          "descricao": "Retrato de 1624 pintado por Frans Hals, guardado na Wallace Collection, em Londres.",
+          "variantes": [
+            "The Laughing Cavalier",
+            "O Cavaleiro Risonho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "A Família Bellelli",
+        "descricao": "Retrato de família a óleo de Edgar Degas, pintado por volta de 1858-1867, no Museu d'Orsay.",
+        "variantes": [
+          "A Família Bellelli (Degas)",
+          "Retrato da família Bellelli",
+          "The Bellelli Family"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_familia_sol_la_si_do",
+          "nome": "A Família Sol-Lá-Si-Dó",
+          "descricao": "Sitcom americana exibida de 1969 a 1974, The Brady Bunch, sobre uma família formada pela união de um pai e uma mãe com filhos de casamentos anteriores.",
+          "variantes": [
+            "The Brady Bunch"
+          ]
+        },
+        {
+          "id": "a_familia_addams",
+          "nome": "A Família Addams",
+          "descricao": "Família macabra criada pelo cartunista Charles Addams, levada à TV em série de 1964 e depois ao cinema e ao streaming.",
+          "variantes": [
+            "The Addams Family"
+          ]
+        },
+        {
+          "id": "a_familia_de_carlos_iv",
+          "nome": "A Família de Carlos IV",
+          "descricao": "Retrato de grupo a óleo de Goya, concluído em 1801, da família do rei Carlos IV da Espanha.",
+          "variantes": [
+            "A Família de Carlos IV (Goya)",
+            "Carlos IV de Espanha e sua Família",
+            "Charles IV of Spain and His Family",
+            "La familia de Carlos IV"
+          ]
+        },
+        {
+          "id": "retrato_da_armada_de_elizabeth_i",
+          "nome": "Retrato da Armada de Elizabeth I",
+          "descricao": "Pintura alegórica inglesa do fim do século dezesseis que retrata Elizabeth I com cenas da derrota da Armada Espanhola ao fundo.",
+          "variantes": [
+            "Armada Portrait",
+            "Retrato da Armada"
+          ]
+        },
+        {
+          "id": "irmas_bronte",
+          "nome": "Irmãs Brontë",
+          "descricao": "Charlotte, Emily e Anne Brontë, escritoras inglesas do século dezenove, autoras de Jane Eyre e O Morro dos Ventos Uivantes.",
+          "variantes": [
+            "Brontë sisters",
+            "Família Brontë"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Jogos Infantis",
+        "descricao": "Pintura a óleo de Pieter Bruegel, o Velho, de 1560, no Kunsthistorisches Museum de Viena, com dezenas de brincadeiras de crianças.",
+        "variantes": [
+          "Jogos Infantis (Bruegel)",
+          "Children's Games",
+          "Jogos de Crianças"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "damas_brasileiras",
+          "nome": "Damas brasileiras",
+          "descricao": "Variante do jogo de damas jogada no Brasil num tabuleiro de oito por oito casas, com dama que anda várias casas.",
+          "variantes": [
+            "Brazilian draughts",
+            "Jogo de damas"
+          ]
+        },
+        {
+          "id": "ze_carioca",
+          "nome": "Zé Carioca",
+          "descricao": "Papagaio brasileiro criado pelos estúdios Disney em 1942.",
+          "variantes": [
+            "José Carioca",
+            "Joe Carioca"
+          ]
+        },
+        {
+          "id": "jogo_da_onca",
+          "nome": "Jogo da onça",
+          "descricao": "Jogo de tabuleiro de origem indígena brasileira em que uma onça enfrenta um grupo de cachorros que tenta encurralá-la.",
+          "variantes": [
+            "Adugo"
+          ]
+        },
+        {
+          "id": "jose_de_alencar",
+          "nome": "José de Alencar",
+          "descricao": "Romancista, dramaturgo e político brasileiro do Romantismo, expoente do Indianismo.",
+          "variantes": [
+            "José Martiniano de Alencar"
+          ]
+        },
+        {
+          "id": "ofensiva_nivelle",
+          "nome": "Ofensiva Nivelle",
+          "descricao": "Ofensiva franco-britânica de abril e maio de 1917, comandada pelo general Robert Nivelle, que terminou em grande fracasso.",
+          "variantes": [
+            "Segunda Batalha do Aisne",
+            "Chemin des Dames"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Copley."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pintura de Delaroche, diferente da série de Manet."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Morisot."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Victory Boogie-Woogie é obra distinta de Broadway Boogie-Woogie."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Manet."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "amolacao_interrompida",
+      "motivo": "Mesma pintura de Almeida Júnior, de 1894."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Pintura de Homer, distinta da corrente oceânica."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Gravura de Dürer não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Pintura de Degas não consta entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Pintura de Bruegel não consta entre as candidatas."
+    }
+  ]
+}

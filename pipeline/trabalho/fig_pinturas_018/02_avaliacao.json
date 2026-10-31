@@ -1,0 +1,247 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto. Pergunta sobre a cidade onde se passa a cena.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade portuária do Caribe se passa o ataque retratado nesta pintura?",
+      "resposta": "Havana",
+      "distratores": [
+        "Lisboa",
+        "Veneza",
+        "Nova Orleans"
+      ],
+      "ancora": {
+        "nome": "Watson e o Tubarão",
+        "descricao": "Pintura a óleo de John Singleton Copley sobre o resgate de Brook Watson de um ataque de tubarão no porto de Havana.",
+        "variantes": [
+          "Watson and the Shark"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto. Pintor pedido entre contemporâneos franceses.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que pintor francês do século dezenove pintou esta cena histórica?",
+      "resposta": "Paul Delaroche",
+      "distratores": [
+        "Eugène Delacroix",
+        "Théodore Géricault",
+        "Jean-Auguste Ingres"
+      ],
+      "ancora": {
+        "nome": "A Execução de Lady Jane Grey",
+        "descricao": "Pintura a óleo de Paul Delaroche, de 1833, na National Gallery de Londres, sobre a execução de Lady Jane Grey.",
+        "variantes": [
+          "The Execution of Lady Jane Grey"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto. Única pergunta do lote com resposta em ano.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que ano foi pintado este quadro impressionista de Berthe Morisot?",
+      "resposta": "1872",
+      "distratores": [
+        "1866",
+        "1869",
+        "1876"
+      ],
+      "ancora": {
+        "nome": "O Berço",
+        "descricao": "Pintura a óleo impressionista de Berthe Morisot, de 1872, no Museu d'Orsay.",
+        "variantes": [
+          "Le Berceau",
+          "The Cradle"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, abstração reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "A que movimento artístico pertence esta pintura abstrata?",
+      "resposta": "Neoplasticismo",
+      "distratores": [
+        "Suprematismo",
+        "Construtivismo",
+        "Orfismo"
+      ],
+      "ancora": {
+        "nome": "Victory Boogie-Woogie",
+        "descricao": "Última pintura, inacabada, do pintor holandês Piet Mondrian, em losango, no Kunstmuseum de Haia.",
+        "variantes": [
+          "Victory Boogie Woogie"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem clara; assinatura quase ilegível no canto. Autoria entre impressionistas próximos.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que pintor francês do século dezenove pintou esta cena de figuras numa sacada?",
+      "resposta": "Édouard Manet",
+      "distratores": [
+        "Claude Monet",
+        "Pierre-Auguste Renoir",
+        "Edgar Degas"
+      ],
+      "ancora": {
+        "nome": "O Balcão",
+        "descricao": "Pintura a óleo de Édouard Manet, de 1868-69, com quatro figuras numa sacada, no Museu d'Orsay.",
+        "variantes": [
+          "Le Balcon",
+          "The Balcony"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, obra brasileira reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é o título desta pintura brasileira de Almeida Júnior?",
+      "resposta": "Amolação Interrompida",
+      "distratores": [
+        "Caipira Picando Fumo",
+        "O Derrubador Brasileiro",
+        "O Violeiro"
+      ],
+      "ancora": {
+        "nome": "Amolação Interrompida",
+        "descricao": "Pintura de Almeida Júnior, de 1894, na Pinacoteca do Estado de São Paulo, de um caipira com um machado.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Assinatura e data 'C FABRITIVS 1654' visíveis na imagem entregam autor e ano."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O título 'Manaò tupapaú' está escrito na própria pintura e entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; distratores de tema marítimo parecido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é o título desta pintura de Winslow Homer?",
+      "resposta": "A Corrente do Golfo",
+      "distratores": [
+        "A Jangada da Medusa",
+        "Watson e o Tubarão",
+        "Tempestade de Neve"
+      ],
+      "ancora": {
+        "nome": "A Corrente do Golfo",
+        "descricao": "Pintura a óleo de Winslow Homer, de 1899, de um homem num barco sem mastro cercado de tubarões.",
+        "variantes": [
+          "The Gulf Stream"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Gravura clara; apenas monograma pequeno no canto, sem nome legível.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que técnica de gravura em metal, feita com um instrumento pontiagudo que corta a chapa, foi usada nesta obra?",
+      "resposta": "Buril",
+      "distratores": [
+        "Água-forte",
+        "Xilogravura",
+        "Litografia"
+      ],
+      "ancora": {
+        "nome": "O Cavaleiro, a Morte e o Diabo",
+        "descricao": "Gravura em metal de Albrecht Dürer, de 1513, com um cavaleiro armado entre a Morte e o Diabo.",
+        "variantes": [
+          "Ritter, Tod und Teufel",
+          "Knight, Death and the Devil"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, retrato de grupo reconhecível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que museu de Paris fica este retrato de família de Edgar Degas?",
+      "resposta": "Museu d'Orsay",
+      "distratores": [
+        "Museu do Louvre",
+        "Museu da Orangerie",
+        "Petit Palais"
+      ],
+      "ancora": {
+        "nome": "A Família Bellelli",
+        "descricao": "Retrato de família a óleo de Edgar Degas, pintado por volta de 1858-1867, no Museu d'Orsay.",
+        "variantes": [
+          "Retrato da família Bellelli",
+          "The Bellelli Family"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cena única de uma obra, sem texto, bem legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que pintura flamenca do século dezesseis é esta?",
+      "resposta": "Jogos Infantis",
+      "distratores": [
+        "Provérbios Neerlandeses",
+        "Dança de Casamento",
+        "A Torre de Babel"
+      ],
+      "ancora": {
+        "nome": "Jogos Infantis",
+        "descricao": "Pintura a óleo de Pieter Bruegel, o Velho, de 1560, no Kunsthistorisches Museum de Viena, com dezenas de brincadeiras de crianças.",
+        "variantes": [
+          "Children's Games",
+          "Jogos de Crianças"
+        ]
+      }
+    }
+  ]
+}

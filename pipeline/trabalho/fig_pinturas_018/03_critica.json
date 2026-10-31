@@ -1,0 +1,98 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado pelo trecho (ataque no porto de Havana). Mas os distratores (Lisboa, Veneza, Nova Orleans) não são do Caribe, então o enunciado já elimina três deles. Troquei por portos caribenhos.",
+      "reescrita": {
+        "pergunta": "Em que cidade portuária do Caribe se passa o ataque retratado nesta pintura?",
+        "resposta": "Havana",
+        "distratores": [
+          "Kingston",
+          "San Juan",
+          "Cartagena"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria confirmada pelo trecho. O enunciado não vaza a resposta. Os distratores são pintores franceses do século dezenove e nenhum pintou a obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A resposta é um ano, então a pergunta é multipla, como o §6 exige. O ano 1872 está no trecho e os distratores são anos próximos e críveis. É o único ano do lote.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O movimento de Mondrian é o Neoplasticismo, fato amplamente documentado. O enunciado não vaza a resposta e os distratores são movimentos abstratos do começo do século vinte. O trecho não diz o movimento.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma Manet como autor e a cena de figuras na sacada. A pista ajuda sem entregar, e os distratores são impressionistas franceses que não pintaram a obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O título e o autor estão confirmados no trecho. Os distratores são outras obras reais de Almeida Júnior, sem relação com a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O título e o autor estão confirmados no trecho. Os distratores originais são obras de outros pintores (Géricault, Copley, Turner), então o 'de Winslow Homer' já os elimina. Troquei por obras do próprio Homer.",
+      "reescrita": {
+        "pergunta": "Qual é o título desta pintura de Winslow Homer?",
+        "resposta": "A Corrente do Golfo",
+        "distratores": [
+          "O Aviso de Nevoeiro",
+          "A Linha de Vida",
+          "Estala o Chicote"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado define a resposta ('instrumento pontiagudo que corta a chapa' é o buril), então a figura virou enfeite. Tirei a descrição e deixei só a pista de época e país. A técnica do buril nesta gravura é amplamente documentada.",
+      "reescrita": {
+        "pergunta": "Que técnica de gravura em metal foi usada nesta obra alemã de 1513?",
+        "resposta": "Buril",
+        "distratores": [
+          "Água-forte",
+          "Ponta-seca",
+          "Mezzotinta"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os dois trechos confirmam o Museu d'Orsay, em Paris. O enunciado não vaza a resposta e os distratores são museus parisienses que não abrigam a obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que é uma pintura flamenca de 1560. A pista de época e escola ajuda sem entregar o título. Os distratores são outras obras de Bruegel.",
+      "reescrita": null
+    }
+  ]
+}

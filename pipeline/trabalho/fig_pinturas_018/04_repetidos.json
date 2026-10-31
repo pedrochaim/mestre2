@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Qual é o título desta pintura brasileira de Almeida Júnior?",
+        "resposta": "Amolação Interrompida"
+      },
+      "existentes": [
+        {
+          "id": "q15878",
+          "pergunta": "Em que museu fica este quadro?",
+          "resposta": "Pinacoteca do Estado de São Paulo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede o título da pintura e a outra o museu onde ela fica; são fatos diferentes."
+    }
+  ]
+}
