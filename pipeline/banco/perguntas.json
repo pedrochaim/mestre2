@@ -339381,5 +339381,105 @@
       "autor": "Kaldari",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q17438",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "grande_mesquita_de_meca",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade fica este santuário?",
+    "resposta": "Meca",
+    "distratores": [
+      "Medina",
+      "Jerusalém",
+      "Najaf"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Masjid_al-Haram",
+      "https://pt.wikipedia.org/wiki/Grande_Mesquita_de_Meca"
+    ],
+    "imagem": {
+      "arquivo": "q17438.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kaba_(restored).jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q17439",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "igreja_da_candelaria",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que igreja do centro do Rio de Janeiro é esta?",
+    "resposta": "Igreja da Candelária",
+    "distratores": [
+      "Igreja da Glória",
+      "Igreja da Penha",
+      "Igreja de Santa Luzia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Candel%C3%A1ria_Church",
+      "https://pt.wikipedia.org/wiki/Igreja_de_Nossa_Senhora_da_Candel%C3%A1ria"
+    ],
+    "imagem": {
+      "arquivo": "q17439.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Igreja_da_Candelária.jpg",
+      "autor": "Halley Pacheco de Oliveira",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q17440",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "castelo_de_neuschwanstein",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que castelo é este?",
+    "resposta": "Castelo de Neuschwanstein",
+    "distratores": [
+      "Castelo de Hohenzollern",
+      "Castelo de Eltz",
+      "Castelo de Lichtenstein"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
+      "https://pt.wikipedia.org/wiki/Castelo_de_Neuschwanstein"
+    ],
+    "imagem": {
+      "arquivo": "q17440.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Neuschwanstein_Castle_2024-02.jpg",
+      "autor": "Wilfredor",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q17441",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "mesquita_azul",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que sultão mandou construir esta mesquita no início do século dezessete?",
+    "resposta": "Ahmed I",
+    "distratores": [
+      "Solimão, o Magnífico",
+      "Mehmed II",
+      "Selim I"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Blue_Mosque%2C_Istanbul",
+      "https://pt.wikipedia.org/wiki/Mesquita_Azul"
+    ],
+    "imagem": {
+      "arquivo": "q17441.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Exterior_of_Sultan_Ahmed_I_Mosque_in_Istanbul,_Turkey_002.jpg",
+      "autor": "Moonik",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

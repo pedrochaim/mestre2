@@ -1,0 +1,75 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que a Esfinge fica em Gizé, Egito. O enunciado não nomeia o monumento e os distratores são cidades egípcias críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento. Os distratores são templos gregos críveis e o Partenon está sustentado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a Mesquita Sagrada fica em Meca. O enunciado não entrega a resposta e os distratores são cidades santas ou de peso religioso.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a igreja fica no centro do Rio de Janeiro. As pistas de cidade e de tipo de edifício não bastam para identificá-la sem a figura, e os distratores são igrejas cariocas.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Schönbrunn era a residência de verão dos Habsburgo. Sem a figura não dá para saber de qual palácio se fala, e os distratores são dinastias europeias plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento de nível 1. O enunciado não vaza a resposta e os distratores são catedrais góticas francesas parecidas.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta. Manaus, ponte estaiada e rio amazônico bastam para responder Iranduba, então a figura vira enfeite. A reescrita pede o reconhecimento da ponte.",
+      "reescrita": {
+        "pergunta": "Que ponte brasileira é esta?",
+        "resposta": "Ponte Rio Negro",
+        "distratores": [
+          "Ponte Rio-Niterói",
+          "Ponte Hercílio Luz",
+          "Ponte Octavio Frias"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Os distratores são castelos alemães críveis e a resposta está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a Mesquita Azul foi construída entre 1609 e 1617 por ordem de Ahmed I. O enunciado não nomeia a mesquita nem a cidade, e os distratores são outros sultões otomanos.",
+      "reescrita": null
+    }
+  ]
+}

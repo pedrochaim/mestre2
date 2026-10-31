@@ -1,0 +1,234 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Esfinge de perfil, bem reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade do Egito fica este monumento?",
+      "resposta": "Gizé",
+      "distratores": [
+        "Luxor",
+        "Alexandria",
+        "Assuã"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Grande Esfinge de Gizé",
+        "descricao": "Estátua de calcário de uma esfinge deitada, no planalto de Gizé, no Egito.",
+        "variantes": [
+          "Esfinge de Gizé",
+          "Grande Esfinge"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Partenon emblemático, nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que templo grego é este?",
+      "resposta": "Partenon",
+      "distratores": [
+        "Templo de Hefesto",
+        "Erecteion",
+        "Templo de Poseidon"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Partenon",
+        "descricao": "Antigo templo dórico dedicado a Atena, na Acrópole de Atenas.",
+        "variantes": [
+          "Parthenon"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto antiga da Caaba, forma cúbica negra inconfundível, sem texto nem pessoas em primeiro plano.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este santuário?",
+      "resposta": "Meca",
+      "distratores": [
+        "Medina",
+        "Jerusalém",
+        "Najaf"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mesquita Sagrada de Meca",
+        "descricao": "Principal mesquita do Islã, em Meca, que envolve a Caaba.",
+        "variantes": [
+          "Masjid al-Haram",
+          "Grande Mesquita de Meca",
+          "Caaba"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada nítida da Candelária, sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que igreja do centro do Rio de Janeiro é esta?",
+      "resposta": "Igreja da Candelária",
+      "distratores": [
+        "Igreja da Glória",
+        "Igreja da Penha",
+        "Igreja de Santa Luzia"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Igreja da Candelária",
+        "descricao": "Igreja católica histórica de fachada barroca e cúpula, no centro do Rio de Janeiro.",
+        "variantes": [
+          "Candelária",
+          "Igreja de Nossa Senhora da Candelária"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista clássica do palácio com jardins, reconhecível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que dinastia usava este palácio como residência de verão?",
+      "resposta": "Habsburgo",
+      "distratores": [
+        "Bourbon",
+        "Romanov",
+        "Hohenzollern"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Palácio de Schönbrunn",
+        "descricao": "Palácio barroco de verão dos Habsburgo, em Viena.",
+        "variantes": [
+          "Schönbrunn",
+          "Schloss Schönbrunn"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fachada frontal de Notre-Dame, nítida; pessoas pequenas ao fundo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que catedral gótica é esta?",
+      "resposta": "Notre-Dame de Paris",
+      "distratores": [
+        "Catedral de Reims",
+        "Catedral de Amiens",
+        "Catedral de Chartres"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Catedral de Notre-Dame de Paris",
+        "descricao": "Catedral gótica medieval na Île de la Cité, em Paris.",
+        "variantes": [
+          "Notre-Dame",
+          "Notre Dame de Paris"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Ponte estaiada de cabos amarelos, distinta; reconhecimento razoável em múltipla escolha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta ponte estaiada sobre um rio amazônico liga Manaus a que município?",
+      "resposta": "Iranduba",
+      "distratores": [
+        "Manacapuru",
+        "Parintins",
+        "Itacoatiara"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Ponte Rio Negro",
+        "descricao": "Ponte estaiada sobre o Rio Negro que liga Manaus a Iranduba, no Amazonas.",
+        "variantes": [
+          "Ponte Jornalista Phelippe Daou",
+          "Ponte Manaus-Iranduba"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista clássica de Neuschwanstein, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que castelo é este?",
+      "resposta": "Castelo de Neuschwanstein",
+      "distratores": [
+        "Castelo de Hohenzollern",
+        "Castelo de Eltz",
+        "Castelo de Lichtenstein"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Castelo de Neuschwanstein",
+        "descricao": "Palácio histórico do século dezenove nos Alpes da Baviera, mandado construir por Luís II.",
+        "variantes": [
+          "Neuschwanstein"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Contraluz do pôr do sol: só uma silhueta escura, pouco reconhecível e confundível com outro minarete."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O letreiro 'Moulin Rouge' está visível na imagem e entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Seis minaretes e cúpulas em cascata, inconfundível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que sultão mandou construir esta mesquita no início do século dezessete?",
+      "resposta": "Ahmed I",
+      "distratores": [
+        "Solimão, o Magnífico",
+        "Mehmed II",
+        "Selim I"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mesquita Azul",
+        "descricao": "Mesquita imperial otomana de Istambul, construída entre 1609 e 1617.",
+        "variantes": [
+          "Mesquita do Sultão Ahmed",
+          "Sultanahmet Camii"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Faixa com 'Resto das Docas' visível entrega o nome; cena de restaurante pouco identificável."
+    }
+  ]
+}

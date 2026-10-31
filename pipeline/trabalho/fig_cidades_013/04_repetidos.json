@@ -1,0 +1,237 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade do Egito fica este monumento?",
+        "resposta": "Gizé"
+      },
+      "existentes": [
+        {
+          "id": "q00065",
+          "pergunta": "Os árabes apelidaram a Grande Esfinge de Gizé de Abul-Hol, que quer dizer pai de alguma coisa. Pai de quê?",
+          "resposta": "Do terror"
+        },
+        {
+          "id": "q06374",
+          "pergunta": "A maioria dos egiptólogos atribui a Grande Esfinge de Gizé a qual faraó da Quarta Dinastia, filho de Quéops?",
+          "resposta": "Quéfren"
+        },
+        {
+          "id": "q06925",
+          "pergunta": "Em que cidade egípcia, na margem oeste do Nilo, fica este monumento?",
+          "resposta": "Gizé"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que templo grego é este?",
+        "resposta": "Partenon"
+      },
+      "existentes": [
+        {
+          "id": "q02454",
+          "pergunta": "Em que século antes de Cristo foi construído este templo de Atenas?",
+          "resposta": "Quinto século a.C."
+        },
+        {
+          "id": "q03170",
+          "pergunta": "O nome Partenon vem de um título da deusa Atena. O que esse título significa?",
+          "resposta": "Virgem"
+        },
+        {
+          "id": "q03220",
+          "pergunta": "Em 1687, quando os venezianos cercaram Atenas, uma explosão destruiu boa parte do Partenon. O que os otomanos guardavam lá dentro?",
+          "resposta": "Pólvora"
+        },
+        {
+          "id": "q16908",
+          "pergunta": "Que templo grego é este?",
+          "resposta": "Partenon"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade fica este santuário?",
+        "resposta": "Meca"
+      },
+      "existentes": [
+        {
+          "id": "q15835",
+          "pergunta": "Que mesquita é esta?",
+          "resposta": "Grande Mesquita de Meca"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que igreja do centro do Rio de Janeiro é esta?",
+        "resposta": "Igreja da Candelária"
+      },
+      "existentes": [
+        {
+          "id": "q16086",
+          "pergunta": "Esta igreja carioca tem fachada barroca portuguesa. Em que século começou a construção do atual edifício?",
+          "resposta": "Século dezoito"
+        },
+        {
+          "id": "q16725",
+          "pergunta": "Que igreja é esta?",
+          "resposta": "Igreja da Candelária"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que dinastia usava este palácio como residência de verão?",
+        "resposta": "Habsburgo"
+      },
+      "existentes": [
+        {
+          "id": "q14608",
+          "pergunta": "Que dinastia imperial tinha este palácio barroco como principal residência de verão?",
+          "resposta": "Habsburgo"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que catedral gótica é esta?",
+        "resposta": "Notre-Dame de Paris"
+      },
+      "existentes": [
+        {
+          "id": "q01920",
+          "pergunta": "Que catedral gótica é esta?",
+          "resposta": "Notre-Dame de Paris"
+        },
+        {
+          "id": "q03974",
+          "pergunta": "Marco da arquitetura gótica, a Catedral de Notre-Dame de Paris teve sua construção iniciada em que século?",
+          "resposta": "Século doze"
+        },
+        {
+          "id": "q07527",
+          "pergunta": "No século dezenove, que romance de Victor Hugo despertou o interesse do público e ajudou a salvar da ruína a grande catedral gótica de Paris?",
+          "resposta": "O Corcunda de Notre-Dame"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que ponte brasileira é esta?",
+        "resposta": "Ponte Rio Negro"
+      },
+      "existentes": [
+        {
+          "id": "q16549",
+          "pergunta": "Que ponte estaiada brasileira é esta?",
+          "resposta": "Ponte Rio Negro"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Que castelo é este?",
+        "resposta": "Castelo de Neuschwanstein"
+      },
+      "existentes": [
+        {
+          "id": "q03982",
+          "pergunta": "O castelo de Neuschwanstein, mandado erguer pelo rei Luís Segundo da Baviera, inspirou o castelo de que princesa na Disneylândia?",
+          "resposta": "Bela Adormecida"
+        },
+        {
+          "id": "q05290",
+          "pergunta": "Que rei da Baviera mandou construir este castelo no século dezenove?",
+          "resposta": "Luís II da Baviera"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Que sultão mandou construir esta mesquita no início do século dezessete?",
+        "resposta": "Ahmed I"
+      },
+      "existentes": [
+        {
+          "id": "q05585",
+          "pergunta": "A Mesquita Azul de Istambul, construída no século dezessete, chama atenção por ter quantos minaretes?",
+          "resposta": "Seis"
+        },
+        {
+          "id": "q07522",
+          "pergunta": "Em Istambul, a Mesquita do Sultão Ahmed é chamada de Mesquita Azul por causa de que revestimento do seu interior?",
+          "resposta": "Azulejos de Iznik"
+        },
+        {
+          "id": "q08996",
+          "pergunta": "Que mesquita famosa de Istambul é esta?",
+          "resposta": "Mesquita Azul"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q06925",
+      "motivo": "Mesma pergunta: cidade egípcia do monumento, resposta Gizé."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q16908",
+      "motivo": "Pergunta idêntica."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Existente pede o nome da mesquita; nova pede a cidade, fato diferente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nova pede o nome da igreja, mas a existente q16725 é a mesma identificação... "
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "id_existente": "q14608",
+      "motivo": "Mesmo fato: dinastia da residência de verão."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q01920",
+      "motivo": "Pergunta idêntica de identificação."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "id_existente": "q16549",
+      "motivo": "Mesma identificação da ponte, resposta igual."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nova pede identificação do castelo; existentes tratam de outros fatos."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Construtor da mesquita é fato diferente dos existentes."
+    }
+  ]
+}

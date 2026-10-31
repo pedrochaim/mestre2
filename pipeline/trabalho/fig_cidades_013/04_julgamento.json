@@ -1,0 +1,586 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Grande Esfinge de Gizé",
+        "descricao": "Estátua de calcário de uma esfinge deitada, no planalto de Gizé, no Egito.",
+        "variantes": [
+          "Esfinge de Gizé",
+          "Grande Esfinge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_esfinge_de_gize",
+          "nome": "Grande Esfinge de Gizé",
+          "descricao": "Estátua colossal de calcário com corpo de leão e cabeça humana, no planalto de Gizé, no Egito",
+          "variantes": [
+            "Great Sphinx of Giza",
+            "Esfinge de Gizé",
+            "Abul-Hol"
+          ]
+        },
+        {
+          "id": "esfinge_de_tebas",
+          "nome": "Esfinge de Tebas",
+          "descricao": "Monstro da mitologia grega com corpo de leão e cabeça de mulher que propunha um enigma aos viajantes de Tebas.",
+          "variantes": [
+            "Esfinge grega"
+          ]
+        },
+        {
+          "id": "peste_negra",
+          "nome": "Peste Negra",
+          "descricao": "Pandemia de peste bubônica que devastou a Europa, a Ásia e o Norte da África em meados do século quatorze.",
+          "variantes": [
+            "Grande Peste",
+            "Black Death",
+            "Morte Negra"
+          ]
+        },
+        {
+          "id": "grande_piramide_de_gize",
+          "nome": "Grande Pirâmide de Gizé",
+          "descricao": "Maior das pirâmides egípcias de Gizé, tumba do faraó Quéops da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Quéops",
+            "Pirâmide de Khufu",
+            "Great Pyramid of Giza"
+          ]
+        },
+        {
+          "id": "gruta_de_fingal",
+          "nome": "Gruta de Fingal",
+          "descricao": "Caverna marinha de colunas de basalto na ilha desabitada de Staffa, nas Hébridas Interiores, na Escócia.",
+          "variantes": [
+            "Fingal's Cave"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Partenon",
+        "descricao": "Antigo templo dórico dedicado a Atena, na Acrópole de Atenas.",
+        "variantes": [
+          "Parthenon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "partenon",
+          "nome": "Partenon",
+          "descricao": "Templo dórico dedicado a Atena, na Acrópole de Atenas, construído no século V a.C.",
+          "variantes": [
+            "Parthenon"
+          ]
+        },
+        {
+          "id": "panteao_de_roma",
+          "nome": "Panteão de Roma",
+          "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+          "variantes": [
+            "Panteão",
+            "Pantheon",
+            "Pantheon, Rome"
+          ]
+        },
+        {
+          "id": "panteao_de_paris",
+          "nome": "Panteão de Paris",
+          "descricao": "Edifício neoclássico no Quartier Latin, em Paris, que guarda os restos de grandes personalidades francesas.",
+          "variantes": [
+            "Panthéon",
+            "Panteão"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        },
+        {
+          "id": "george_s_patton",
+          "nome": "George S. Patton",
+          "descricao": "General do Exército dos Estados Unidos que comandou o Sétimo e o Terceiro Exércitos na Segunda Guerra Mundial.",
+          "variantes": [
+            "George Smith Patton Jr.",
+            "Patton"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mesquita Sagrada de Meca",
+        "descricao": "Principal mesquita do Islã, em Meca, que envolve a Caaba.",
+        "variantes": [
+          "Masjid al-Haram",
+          "Grande Mesquita de Meca",
+          "Caaba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caaba",
+          "nome": "Caaba",
+          "descricao": "Santuário em forma de cubo no centro da Grande Mesquita de Meca",
+          "variantes": [
+            "Kaaba",
+            "Kaba"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_meca",
+          "nome": "Grande Mesquita de Meca",
+          "descricao": "Masjid al-Haram, a mais sagrada mesquita do Islã, que envolve a Caaba em Meca, na Arábia Saudita.",
+          "variantes": [
+            "Masjid al-Haram",
+            "Mesquita Sagrada",
+            "Al-Masjid al-Haram"
+          ]
+        },
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_djenne",
+          "nome": "Grande Mesquita de Djenné",
+          "descricao": "Mesquita de barro na cidade de Djenné, no Mali, reconstruída em 1907 e Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Great Mosque of Djenné",
+            "Mesquita de Djenné"
+          ]
+        },
+        {
+          "id": "domingos_fernandes_calabar",
+          "nome": "Domingos Fernandes Calabar",
+          "descricao": "Senhor de engenho pernambucano que passou para o lado dos holandeses e foi executado pelos portugueses em 1635.",
+          "variantes": [
+            "Calabar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Igreja da Candelária",
+        "descricao": "Igreja católica histórica de fachada barroca e cúpula, no centro do Rio de Janeiro.",
+        "variantes": [
+          "Candelária",
+          "Igreja de Nossa Senhora da Candelária"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "igreja_da_candelaria",
+          "nome": "Igreja da Candelária",
+          "descricao": "Igreja católica no centro do Rio de Janeiro, de fachada barroca portuguesa, construída a partir de 1775.",
+          "variantes": [
+            "Igreja de Nossa Senhora da Candelária"
+          ]
+        },
+        {
+          "id": "igreja_da_penha_rio_de_janeiro",
+          "nome": "Igreja da Penha (Rio de Janeiro)",
+          "descricao": "Basílica santuário de Nossa Senhora da Penha de França, no bairro da Penha, no Rio de Janeiro.",
+          "variantes": [
+            "Basílica Santuário de Nossa Senhora da Penha de França",
+            "Igreja de Nossa Senhora da Penha"
+          ]
+        },
+        {
+          "id": "ilhas_canarias",
+          "nome": "Ilhas Canárias",
+          "descricao": "Arquipélago espanhol no oceano Atlântico, diante da costa do Marrocos e do Saara Ocidental.",
+          "variantes": [
+            "Canárias",
+            "Canary Islands",
+            "Islas Canarias"
+          ]
+        },
+        {
+          "id": "dedo_anelar",
+          "nome": "Dedo anelar",
+          "descricao": "Quarto dedo da mão, onde tradicionalmente se usa a aliança de noivado ou de casamento.",
+          "variantes": [
+            "Anelar",
+            "Ring finger"
+          ]
+        },
+        {
+          "id": "igreja_anglicana",
+          "nome": "Igreja Anglicana",
+          "descricao": "Igreja da Inglaterra, separada de Roma no reinado de Henrique VIII",
+          "variantes": [
+            "Igreja da Inglaterra",
+            "Church of England"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Palácio de Schönbrunn",
+        "descricao": "Palácio barroco de verão dos Habsburgo, em Viena.",
+        "variantes": [
+          "Schönbrunn",
+          "Schloss Schönbrunn"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_de_schonbrunn",
+          "nome": "Palácio de Schönbrunn",
+          "descricao": "Palácio barroco de Viena, principal residência de verão dos Habsburgo, com 1.441 cômodos.",
+          "variantes": [
+            "Schönbrunn",
+            "Schloss Schönbrunn"
+          ]
+        },
+        {
+          "id": "scorbunny",
+          "nome": "Scorbunny",
+          "descricao": "Pokémon do tipo Fogo, número 813 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "shonen",
+          "nome": "Shōnen",
+          "descricao": "Categoria de mangá e anime voltada ao público masculino jovem, como Dragon Ball e Naruto.",
+          "variantes": [
+            "Shounen",
+            "少年"
+          ]
+        },
+        {
+          "id": "palau_sant_jordi",
+          "nome": "Palau Sant Jordi",
+          "descricao": "Ginásio coberto do Anel Olímpico de Montjuïc, em Barcelona, projetado por Arata Isozaki.",
+          "variantes": [
+            "Palácio de São Jorge"
+          ]
+        },
+        {
+          "id": "palacio_de_cnossos",
+          "nome": "Palácio de Cnossos",
+          "descricao": "Grande complexo palaciano da Idade do Bronze em Creta, centro da civilização minoica.",
+          "variantes": [
+            "Cnossos",
+            "Knossos",
+            "Cnosso"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Catedral de Notre-Dame de Paris",
+        "descricao": "Catedral gótica medieval na Île de la Cité, em Paris.",
+        "variantes": [
+          "Notre-Dame",
+          "Notre Dame de Paris"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_notre_dame_de_paris",
+          "nome": "Catedral de Notre-Dame de Paris",
+          "descricao": "Catedral gótica medieval na Île de la Cité, em Paris.",
+          "variantes": [
+            "Notre-Dame",
+            "Notre Dame de Paris",
+            "Nossa Senhora de Paris"
+          ]
+        },
+        {
+          "id": "catedral_de_chartres",
+          "nome": "Catedral de Chartres",
+          "descricao": "Catedral gótica de Notre-Dame em Chartres, na França, famosa por suas duas torres assimétricas e seus vitrais.",
+          "variantes": [
+            "Catedral de Notre-Dame de Chartres",
+            "Chartres Cathedral"
+          ]
+        },
+        {
+          "id": "incendio_da_catedral_de_notre_dame_de_paris",
+          "nome": "Incêndio da Catedral de Notre-Dame de Paris",
+          "descricao": "Incêndio que destruiu o telhado e a agulha da catedral de Notre-Dame, em Paris.",
+          "variantes": [
+            "Notre-Dame de Paris fire"
+          ]
+        },
+        {
+          "id": "opera_garnier",
+          "nome": "Ópera Garnier",
+          "descricao": "Teatro de ópera de Paris, projetado por Charles Garnier e inaugurado em 1875.",
+          "variantes": [
+            "Palais Garnier",
+            "Ópera de Paris"
+          ]
+        },
+        {
+          "id": "acordo_de_paris",
+          "nome": "Acordo de Paris",
+          "descricao": "Tratado internacional sobre mudanças climáticas adotado em dezembro de 2015, na COP21.",
+          "variantes": [
+            "Paris Agreement"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ponte Rio Negro",
+        "descricao": "Ponte estaiada sobre o Rio Negro que liga Manaus a Iranduba, no Amazonas.",
+        "variantes": [
+          "Ponte Jornalista Phelippe Daou",
+          "Ponte Manaus-Iranduba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_rio_negro",
+          "nome": "Ponte Rio Negro",
+          "descricao": "Ponte estaiada sobre o Rio Negro que liga Manaus a Iranduba, no Amazonas.",
+          "variantes": [
+            "Ponte Jornalista Phelippe Daou",
+            "Rio Negro Bridge"
+          ]
+        },
+        {
+          "id": "ponte_rio_niteroi",
+          "nome": "Ponte Rio-Niterói",
+          "descricao": "Ponte sobre a Baía de Guanabara que liga as cidades do Rio de Janeiro e de Niterói, inaugurada em 1974.",
+          "variantes": [
+            "Ponte Presidente Costa e Silva"
+          ]
+        },
+        {
+          "id": "rio_negro",
+          "nome": "Rio Negro",
+          "descricao": "Rio de águas escuras da Amazônia, principal afluente da margem esquerda do Amazonas, que passa por Manaus.",
+          "variantes": [
+            "Rio Negro (Amazonas)",
+            "Rio Negro do Amazonas",
+            "Guainía",
+            "Negro River"
+          ]
+        },
+        {
+          "id": "palacio_rio_negro",
+          "nome": "Palácio Rio Negro",
+          "descricao": "Palácio histórico amarelo em Petrópolis, no estado do Rio de Janeiro, antiga residência de verão dos presidentes.",
+          "variantes": [
+            "Palácio Rio Negro de Petrópolis"
+          ]
+        },
+        {
+          "id": "ponto_nemo",
+          "nome": "Ponto Nemo",
+          "descricao": "Polo de inacessibilidade oceânica, o ponto do oceano mais distante de qualquer terra, no Pacífico Sul.",
+          "variantes": [
+            "Point Nemo",
+            "Polo oceânico de inacessibilidade"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Castelo de Neuschwanstein",
+        "descricao": "Palácio histórico do século dezenove nos Alpes da Baviera, mandado construir por Luís II.",
+        "variantes": [
+          "Neuschwanstein"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castelo_de_neuschwanstein",
+          "nome": "Castelo de Neuschwanstein",
+          "descricao": "Castelo romântico do século dezenove nos Alpes da Baviera, mandado erguer pelo rei Luís II.",
+          "variantes": [
+            "Neuschwanstein",
+            "Schloss Neuschwanstein"
+          ]
+        },
+        {
+          "id": "escanteio",
+          "nome": "Escanteio",
+          "descricao": "Cobrança de bola parada a partir do canto do campo, após a bola sair pela linha de fundo tocada por um defensor.",
+          "variantes": [
+            "Tiro de canto",
+            "Corner"
+          ]
+        },
+        {
+          "id": "castelo_de_sao_jorge_da_mina",
+          "nome": "Castelo de São Jorge da Mina",
+          "descricao": "Fortaleza construída pelos portugueses em 1482 no litoral da África Ocidental, centro do comércio de ouro e depois de escravizados.",
+          "variantes": [
+            "Castelo de Elmina",
+            "Elmina Castle",
+            "São Jorge da Mina"
+          ]
+        },
+        {
+          "id": "castelo_de_santo_angelo",
+          "nome": "Castelo de Santo Ângelo",
+          "descricao": "Fortaleza cilíndrica em Roma, antigo Mausoléu de Adriano, depois usada pelos papas.",
+          "variantes": [
+            "Mausoléu de Adriano",
+            "Castel Sant'Angelo",
+            "Castelo do Santo Anjo"
+          ]
+        },
+        {
+          "id": "liechtenstein",
+          "nome": "Liechtenstein",
+          "descricao": "Pequeno principado sem litoral nos Alpes, com capital em Vaduz.",
+          "variantes": [
+            "Principado de Liechtenstein"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Mesquita Azul",
+        "descricao": "Mesquita imperial otomana de Istambul, construída entre 1609 e 1617.",
+        "variantes": [
+          "Mesquita do Sultão Ahmed",
+          "Sultanahmet Camii"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_azul",
+          "nome": "Mesquita Azul",
+          "descricao": "Mesquita do Sultão Ahmed, em Istambul, construída no início do século dezessete",
+          "variantes": [
+            "Mesquita do Sultão Ahmed",
+            "Sultanahmet Camii",
+            "Sultan Ahmed Mosque",
+            "Blue Mosque"
+          ]
+        },
+        {
+          "id": "mesquita_de_al_aqsa",
+          "nome": "Mesquita de Al-Aqsa",
+          "descricao": "Mesquita na Esplanada das Mesquitas, em Jerusalém, um dos lugares mais sagrados do islã",
+          "variantes": [
+            "Al-Aqsa",
+            "Mesquita Al-Aqsa"
+          ]
+        },
+        {
+          "id": "gruta_azul_de_capri",
+          "nome": "Gruta Azul de Capri",
+          "descricao": "Caverna marinha na costa da ilha de Capri, no sul da Itália, cuja água brilha em azul pela luz que entra por baixo d'água.",
+          "variantes": [
+            "Gruta Azul",
+            "Grotta Azzurra",
+            "Blue Grotto"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_meca",
+          "nome": "Grande Mesquita de Meca",
+          "descricao": "Masjid al-Haram, a mais sagrada mesquita do Islã, que envolve a Caaba em Meca, na Arábia Saudita.",
+          "variantes": [
+            "Masjid al-Haram",
+            "Mesquita Sagrada",
+            "Al-Masjid al-Haram"
+          ]
+        },
+        {
+          "id": "baleia_azul",
+          "nome": "Baleia-azul",
+          "descricao": "Cetáceo gigante da espécie Balaenoptera musculus.",
+          "variantes": [
+            "Balaenoptera musculus",
+            "Blue whale"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "grande_esfinge_de_gize",
+      "motivo": "Mesma estátua em Gizé."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "partenon",
+      "motivo": "Mesmo templo na Acrópole de Atenas."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "grande_mesquita_de_meca",
+      "motivo": "Masjid al-Haram é a Grande Mesquita de Meca; a Caaba é só uma variante listada, mas a entidade principal é a mesquita."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "igreja_da_candelaria",
+      "motivo": "Mesma igreja no centro do Rio."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "palacio_de_schonbrunn",
+      "motivo": "Mesmo palácio em Viena."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_notre_dame_de_paris",
+      "motivo": "Mesma catedral; o incêndio é um evento distinto."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "ponte_rio_negro",
+      "motivo": "Mesma ponte Manaus-Iranduba."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "castelo_de_neuschwanstein",
+      "motivo": "Mesmo castelo da Baviera."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "mesquita_azul",
+      "motivo": "Mesma mesquita do Sultão Ahmed em Istambul."
+    }
+  ]
+}
