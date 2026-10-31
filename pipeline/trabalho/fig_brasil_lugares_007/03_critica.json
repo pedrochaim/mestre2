@@ -1,0 +1,47 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia o estádio nem o clube; os trechos confirmam o Corinthians como mandante. Distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem vazamento: o enunciado não nomeia o memorial nem o presidente. Os trechos confirmam o túmulo de JK. Distratores são presidentes que não estão sepultados lá.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O apelido 'Banespão' deriva da resposta 'Banespa' e a entrega. Basta tirar o apelido e manter a pista de banco estadual.",
+      "reescrita": {
+        "pergunta": "Em São Paulo, este arranha-céu art déco foi durante décadas a sede de um banco estadual. Que banco era esse?",
+        "resposta": "Banespa",
+        "distratores": [
+          "Banerj",
+          "Banrisul",
+          "Banestes"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a resposta. Os trechos confirmam a dedicação a Nossa Senhora Aparecida. Distratores são outras invocações marianas, nenhuma correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento nível 1, sem vazamento. Distratores são estádios da Copa de 2014, nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}

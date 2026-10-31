@@ -1,0 +1,106 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que clube manda seus jogos neste estádio?",
+        "resposta": "Corinthians"
+      },
+      "existentes": [
+        {
+          "id": "q01867",
+          "pergunta": "Que estádio paulistano é este?",
+          "resposta": "Neo Química Arena"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que presidente brasileiro está sepultado neste memorial?",
+        "resposta": "Juscelino Kubitschek"
+      },
+      "existentes": [
+        {
+          "id": "q15681",
+          "pergunta": "Que arquiteto projetou este memorial?",
+          "resposta": "Oscar Niemeyer"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em São Paulo, este arranha-céu art déco foi durante décadas a sede de um banco estadual. Que banco era esse?",
+        "resposta": "Banespa"
+      },
+      "existentes": [
+        {
+          "id": "q16238",
+          "pergunta": "Em que ano foi inaugurado este arranha-céu paulistano?",
+          "resposta": "1947"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A que santa católica é dedicada esta basílica?",
+        "resposta": "Nossa Senhora Aparecida"
+      },
+      "existentes": [
+        {
+          "id": "q11583",
+          "pergunta": "Em que cidade do interior paulista fica esta basílica católica, principal santuário de peregrinação do Brasil?",
+          "resposta": "Aparecida"
+        },
+        {
+          "id": "q15832",
+          "pergunta": "Em que estado brasileiro fica esta basílica?",
+          "resposta": "São Paulo"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que estádio brasileiro é este?",
+        "resposta": "Arena da Amazônia"
+      },
+      "existentes": [
+        {
+          "id": "q02835",
+          "pergunta": "Em que cidade brasileira fica este estádio?",
+          "resposta": "Manaus"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o clube mandante, fato diferente do nome do estádio."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Sepultado no memorial é diferente do arquiteto que o projetou."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Banco sede é diferente do ano de inauguração."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A dedicatória da basílica é fato diferente da cidade ou estado onde fica."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nome do estádio é diferente da cidade onde fica."
+    }
+  ]
+}

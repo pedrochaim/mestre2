@@ -1,0 +1,158 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea reconhecível do estádio; sem texto que entregue a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que clube manda seus jogos neste estádio?",
+      "resposta": "Corinthians",
+      "distratores": [
+        "Palmeiras",
+        "São Paulo",
+        "Santos"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Neo Química Arena",
+        "descricao": "Estádio do Corinthians no bairro de Itaquera, em São Paulo, também chamado Arena Corinthians.",
+        "variantes": [
+          "Arena Corinthians",
+          "Itaquerão"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano e camisas com patrocinador visível; estádio por dentro sem traço único."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Mostra só um barco no lago; sem as esculturas de orixás, o lugar não é reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto borrada de cavaleiro e casa; o parque não é reconhecível."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Há uma pessoa comum em primeiro plano e a data impressa na foto; reconhecimento incerto."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Escultura inconfundível do memorial, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que presidente brasileiro está sepultado neste memorial?",
+      "resposta": "Juscelino Kubitschek",
+      "distratores": [
+        "Getúlio Vargas",
+        "Tancredo Neves",
+        "Castelo Branco"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Memorial JK",
+        "descricao": "Mausoléu e centro cultural de Juscelino Kubitschek em Brasília, projetado por Oscar Niemeyer.",
+        "variantes": [
+          "Memorial Juscelino Kubitschek"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arranha-céu art déco reconhecível, sem texto legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que banco estadual teve sede neste arranha-céu, conhecido pelo apelido de Banespão?",
+      "resposta": "Banespa",
+      "distratores": [
+        "Banerj",
+        "Banrisul",
+        "Banestes"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Edifício Altino Arantes",
+        "descricao": "Arranha-céu art déco no centro de São Paulo, antiga sede do Banespa, hoje Farol Santander.",
+        "variantes": [
+          "Farol Santander",
+          "Edifício Banespa",
+          "Banespão"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Areia, folhas e coqueiros sem a capela nem outro traço característico; a praia não é reconhecível."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Fachada branca genérica; o prédio não é claramente reconhecível entre outros palácios."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Basílica e torre do relógio reconhecíveis, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "A que santa católica é dedicada esta basílica?",
+      "resposta": "Nossa Senhora Aparecida",
+      "distratores": [
+        "Nossa Senhora de Fátima",
+        "Nossa Senhora de Nazaré",
+        "Nossa Senhora da Penha"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Basílica de Aparecida",
+        "descricao": "Santuário nacional católico na cidade de Aparecida, em São Paulo, dedicado à padroeira do Brasil.",
+        "variantes": [
+          "Santuário Nacional de Aparecida",
+          "Basílica de Nossa Senhora Aparecida"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista aérea com a cobertura característica em forma de cesto indígena, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estádio brasileiro é este?",
+      "resposta": "Arena da Amazônia",
+      "distratores": [
+        "Arena Pantanal",
+        "Arena Pernambuco",
+        "Arena Fonte Nova"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Arena da Amazônia",
+        "descricao": "Estádio de futebol em Manaus, construído para a Copa do Mundo de 2014.",
+        "variantes": [
+          "Vivaldão"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Fonte e palmeiras sem traço único; o lugar não é reconhecível com resposta única."
+    }
+  ]
+}
