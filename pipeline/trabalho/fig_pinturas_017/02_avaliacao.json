@@ -1,0 +1,286 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; cena do levante de Madri.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que acontecimento de 1808, contra a ocupação francesa, este quadro retrata?",
+      "resposta": "Levante de Dois de Maio",
+      "distratores": [
+        "Cerco de Saragoça",
+        "Batalha de Bailén",
+        "Fuzilamentos de Três de Maio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Dois de Maio de 1808",
+        "descricao": "Pintura de Francisco Goya de 1814 sobre o levante popular de Madri contra os franceses, no Museu do Prado.",
+        "variantes": [
+          "A Carga dos Mamelucos",
+          "El 2 de mayo de 1808 en Madrid",
+          "The Second of May 1808"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem icônica e legível; o texto em japonês (cartucho e assinatura) não entrega a resposta a leitores brasileiros.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que década esta gravura japonesa foi criada?",
+      "resposta": "Década de 1830",
+      "distratores": [
+        "Década de 1680",
+        "Década de 1730",
+        "Década de 1880"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fuji Vermelho",
+        "descricao": "Xilogravura de Hokusai da série Trinta e Seis Vistas do Monte Fuji, mostrando o monte avermelhado ao amanhecer.",
+        "variantes": [
+          "Vento Firme, Manhã Clara",
+          "Gaifū kaisei",
+          "Red Fuji",
+          "Fine Wind, Clear Morning"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; pergunta de lugar sobre a obra.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que museu de Paris está esta pintura de uma igreja?",
+      "resposta": "Museu d'Orsay",
+      "distratores": [
+        "Louvre",
+        "Orangerie",
+        "Centro Pompidou"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Igreja de Auvers",
+        "descricao": "Pintura a óleo de Vincent van Gogh, de junho de 1890, que retrata a igreja de Auvers-sur-Oise.",
+        "variantes": [
+          "A Igreja em Auvers",
+          "The Church at Auvers",
+          "L'église d'Auvers"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Obra reconhecível; o texto em hebraico na parede não entrega o pintor.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que pintor holandês do século dezessete pintou este quadro?",
+      "resposta": "Rembrandt",
+      "distratores": [
+        "Vermeer",
+        "Frans Hals",
+        "Jan Steen"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Festim de Baltasar",
+        "descricao": "Pintura de Rembrandt, na National Gallery de Londres, que mostra o rei Baltasar vendo uma escrita misteriosa na parede.",
+        "variantes": [
+          "O Banquete de Baltazar",
+          "Belshazzar's Feast"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem nítida; assinatura pequena no canto não nomeia o movimento. Resposta única (Impressionismo).",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "A que movimento artístico francês pertence esta pintura de um jardim à beira-mar?",
+      "resposta": "Impressionismo",
+      "distratores": [
+        "Realismo",
+        "Romantismo",
+        "Expressionismo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jardim em Sainte-Adresse",
+        "descricao": "Pintura a óleo de Claude Monet que mostra um terraço florido diante do mar em Sainte-Adresse, hoje no Metropolitan Museum.",
+        "variantes": [
+          "O Jardim em Sainte-Adresse",
+          "Terraço em Sainte-Adresse",
+          "The Garden at Sainte-Adresse"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; única pergunta de ano do lote.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano um pintor holandês, morando no sul da França, fez esta tela de uma ponte levadiça?",
+      "resposta": "1888",
+      "distratores": [
+        "1886",
+        "1887",
+        "1889"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Ponte de Langlois em Arles",
+        "descricao": "Série de pinturas de Van Gogh de 1888 que retratam a ponte levadiça de Langlois sobre um canal perto de Arles.",
+        "variantes": [
+          "A Ponte de Langlois",
+          "Ponte de Arles",
+          "Langlois Bridge at Arles",
+          "Pont de Langlois"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O título da obra aparece escrito à mão no alto da imagem (\"Zwitscher Maschine\"), o que entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto legível; há outra versão em Milão, então a pergunta especifica a versão de 1601.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta versão, de 1601, do quadro em que Jesus ressuscitado aparece a dois discípulos?",
+      "resposta": "Londres",
+      "distratores": [
+        "Milão",
+        "Roma",
+        "Paris"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Ceia em Emaús (Caravaggio, Londres)",
+        "descricao": "Pintura de Caravaggio de 1601, na National Gallery de Londres, que mostra Jesus ressuscitado revelando-se aos discípulos em Emaús.",
+        "variantes": [
+          "Ceia em Emaús",
+          "Supper at Emmaus",
+          "Cena de Emaús"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem forte e reconhecível; a assinatura é pequena e a pergunta é de lugar.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica o museu que guarda esta pintura simbolista?",
+      "resposta": "Viena",
+      "distratores": [
+        "Praga",
+        "Budapeste",
+        "Munique"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Morte e Vida",
+        "descricao": "Pintura a óleo de Gustav Klimt, iniciada em 1908 e concluída em 1915, que contrapõe a Morte a um grupo de figuras vivas, hoje no Museu Leopold.",
+        "variantes": [
+          "Tod und Leben",
+          "Death and Life"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; pergunta de nível 3 sobre a ocasião da encomenda, citada como presumida na fonte.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este quadro veneziano do começo do século dezesseis foi provavelmente encomendado para celebrar que acontecimento?",
+      "resposta": "Um casamento",
+      "distratores": [
+        "Uma coroação",
+        "Uma vitória militar",
+        "Um batizado"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Amor Sacro e Amor Profano",
+        "descricao": "Pintura a óleo de Ticiano, provavelmente de 1514, com duas mulheres e um Cupido junto a uma fonte, na Galleria Borghese.",
+        "variantes": [
+          "Amor Sagrado e Amor Profano",
+          "Sacred and Profane Love",
+          "Amor Divino e Amor Profano"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Gigante inconfundível, sem texto; resposta única pelo título.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Qual é o título desta pintura, tradicionalmente atribuída a Goya, em que uma multidão foge de uma figura enorme?",
+      "resposta": "O Colosso",
+      "distratores": [
+        "Saturno Devorando seu Filho",
+        "Duelo a Garrotadas",
+        "O Cão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Colosso",
+        "descricao": "Pintura tradicionalmente atribuída a Goya, com um gigante entre nuvens e uma multidão fugindo no vale, no Museu do Prado.",
+        "variantes": [
+          "O Gigante",
+          "El Coloso",
+          "El Gigante",
+          "O Pânico",
+          "The Colossus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto; figura histórica; pergunta sobre o pintor entre contemporâneos.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor italiano da Alta Renascença pintou este retrato de um diplomata e humanista?",
+      "resposta": "Rafael",
+      "distratores": [
+        "Ticiano",
+        "Leonardo da Vinci",
+        "Bronzino"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Retrato de Baldassare Castiglione",
+        "descricao": "Retrato a óleo de c. 1514-1515 atribuído a Rafael, que mostra o diplomata e humanista Baldassare Castiglione, no Louvre.",
+        "variantes": [
+          "Retrato de Baldassare Castiglione",
+          "Retrato de Castiglione",
+          "Portrait of Baldassare Castiglione"
+        ]
+      }
+    }
+  ]
+}
