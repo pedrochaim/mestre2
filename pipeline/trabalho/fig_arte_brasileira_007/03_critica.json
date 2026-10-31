@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Morte em 5 de dezembro de 2012 confirmada nos trechos. Multipla com anos próximos, como exige o manifesto; o enunciado não nomeia o arquiteto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Brasília foi inaugurada em 21/04/1960, segundo os trechos. O enunciado não nomeia a cidade e a figura é necessária. Os distratores são décadas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma o palácio cercado pela mata do Morro Nova Cintra. A pista não entrega o nome. Os distratores são palácios cariocas críveis, e o Guanabara fica no mesmo bairro, o que ajuda a distinguir.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os distratores 'século dezoito' e 'século dezessete' são inverossímeis para uma pintora modernista, então a pergunta se resolve por eliminação e sobram só duas opções. Troquei pelo local de nascimento (Capivari), que está no trecho, com distratores de cidades paulistas.",
+      "reescrita": {
+        "pergunta": "Em que cidade do interior paulista nasceu esta pintora modernista brasileira?",
+        "resposta": "Capivari",
+        "distratores": [
+          "Piracicaba",
+          "Campinas",
+          "Sorocaba"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos atribuem o projeto do prédio de 1908 a Adolfo Morales de los Ríos. O enunciado não vaza a resposta. Os distratores são arquitetos brasileiros ou do Rio, críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fundação do colégio em 1554 (século dezesseis) está nos trechos. O enunciado não nomeia o conjunto, e os distratores são séculos próximos.",
+      "reescrita": null
+    }
+  ]
+}

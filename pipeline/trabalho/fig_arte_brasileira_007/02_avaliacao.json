@@ -1,0 +1,173 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto; pergunta de tempo com anos próximos.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano morreu este arquiteto brasileiro?",
+      "resposta": "2012",
+      "distratores": [
+        "2010",
+        "2011",
+        "2013"
+      ],
+      "ancora": {
+        "nome": "Oscar Niemeyer",
+        "descricao": "Arquiteto brasileiro modernista (1907–2012), autor dos principais prédios públicos de Brasília.",
+        "variantes": [
+          "Oscar Ribeiro de Almeida Niemeyer Soares Filho"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto antiga de rosto pouco conhecido; o pintor não é reconhecível pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Fachada parcialmente encoberta por árvores e muros; não é inequivocamente reconhecível, e a autoria não está sustentada pelo trecho."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista aérea com a Esplanada e a Praça dos Três Poderes, sem texto; reconhecível pelo conjunto e pela cidade planejada.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que década foi inaugurada a cidade onde fica este conjunto de prédios?",
+      "resposta": "Década de 1960",
+      "distratores": [
+        "Década de 1930",
+        "Década de 1950",
+        "Década de 1970"
+      ],
+      "ancora": {
+        "nome": "Praça dos Três Poderes",
+        "descricao": "Praça de Brasília cercada pelo Planalto, pelo Congresso Nacional e pelo Supremo Tribunal Federal, projetada por Lúcio Costa e Oscar Niemeyer.",
+        "variantes": [
+          "Praça dos 3 Poderes"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A fachada traz o nome 'Real Gabinete Portuguez de Leitura' escrito, o que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do palácio, sem texto; reconhecível entre palácios cariocas com distratores próximos.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que palácio carioca, rodeado de mata, é este?",
+      "resposta": "Palácio das Laranjeiras",
+      "distratores": [
+        "Palácio Guanabara",
+        "Palácio do Catete",
+        "Palácio Tiradentes"
+      ],
+      "ancora": {
+        "nome": "Palácio Laranjeiras",
+        "descricao": "Palácio no bairro de Laranjeiras, no Rio de Janeiro, residência oficial do governador do estado.",
+        "variantes": [
+          "Palácio das Laranjeiras"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem texto; a pergunta de século surpreende.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que século nasceu esta pintora modernista brasileira?",
+      "resposta": "Século dezenove",
+      "distratores": [
+        "Século vinte",
+        "Século dezoito",
+        "Século dezessete"
+      ],
+      "ancora": {
+        "nome": "Tarsila do Amaral",
+        "descricao": "Pintora modernista brasileira (1886–1973), autora do Abaporu.",
+        "variantes": [
+          "Tarsila",
+          "Tarsila de Aguiar do Amaral"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Prédio eclético nítido, sem texto legível; autoria sustentada pelo trecho.",
+      "destino": 1,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto projetou este prédio, hoje sede de um museu carioca?",
+      "resposta": "Adolfo Morales de los Ríos",
+      "distratores": [
+        "Grandjean de Montigny",
+        "Ramos de Azevedo",
+        "Francisco Joaquim Bethencourt"
+      ],
+      "ancora": {
+        "nome": "Museu Nacional de Belas Artes",
+        "descricao": "Museu de arte no centro do Rio de Janeiro, instalado em prédio eclético de 1908.",
+        "variantes": [
+          "MNBA"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A fachada traz 'Theatro São Pedro' escrito, o que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Conjunto jesuíta caiado, reconhecível; a placa pequena não entrega o nome do Pátio do Colégio.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que século os jesuítas fundaram o colégio que deu origem a este conjunto?",
+      "resposta": "Século dezesseis",
+      "distratores": [
+        "Século quinze",
+        "Século dezessete",
+        "Século dezoito"
+      ],
+      "ancora": {
+        "nome": "Pátio do Colégio",
+        "descricao": "Conjunto de igreja e colégio jesuíta no centro de São Paulo, marco da fundação da cidade em 1554.",
+        "variantes": [
+          "Pateo do Collegio"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A legenda do retrato traz 'J. B. Debret', o que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Vista aérea de um edifício baixo à beira do lago, sem traço distintivo; não dá para afirmar com segurança que é o Jaburu nem reconhecê-lo."
+    }
+  ]
+}

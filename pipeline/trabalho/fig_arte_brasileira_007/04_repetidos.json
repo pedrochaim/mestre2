@@ -1,0 +1,31 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que século os jesuítas fundaram o colégio que deu origem a este conjunto?",
+        "resposta": "Século dezesseis"
+      },
+      "existentes": [
+        {
+          "id": "q00172",
+          "pergunta": "Em que ano os jesuítas fundaram o colégio que deu origem à cidade de São Paulo?",
+          "resposta": "1554"
+        },
+        {
+          "id": "q16620",
+          "pergunta": "Este conjunto marca o local de fundação de qual grande cidade brasileira?",
+          "resposta": "São Paulo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q00172",
+      "motivo": "Quem sabe que os jesuítas fundaram o colégio em 1554 sabe que foi no século XVI; a nova pergunta pede o mesmo fato (data da fundação) em outra granularidade."
+    }
+  ]
+}
