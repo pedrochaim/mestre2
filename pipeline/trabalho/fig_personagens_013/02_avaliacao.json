@@ -1,0 +1,250 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arte oficial clara, sem texto; a silhueta tem artefatos do capacete e não se reconhece, então usa a colorida.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Quem é esta personagem?",
+      "resposta": "Sandy Bochechas",
+      "distratores": [
+        "Pérola Krabs",
+        "Sra. Puff",
+        "Lula Molusco"
+      ],
+      "ancora": {
+        "nome": "Sandy Bochechas",
+        "descricao": "Esquilo texano cientista, personagem do desenho Bob Esponja Calça Quadrada.",
+        "variantes": [
+          "Sandy Cheeks"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto de ator sem capacete; a mesma imagem serviria a Jango Fett (mesmo ator), então a resposta não é única. A silhueta é um busto retangular, sem forma reconhecível."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Captura de tela do anime, sem texto, com rosto marcante e cicatriz; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é este personagem?",
+      "resposta": "Jet Black",
+      "distratores": [
+        "Spike Spiegel",
+        "Vicious",
+        "Gren"
+      ],
+      "ancora": {
+        "nome": "Jet Black",
+        "descricao": "Ex-policial e caçador de recompensas, capitão da nave Bebop no anime Cowboy Bebop.",
+        "variantes": [
+          "Black Dog"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "É uma foto antiga de uma pessoa real comum em primeiro plano, e não a arte do personagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida de corpo inteiro; a assinatura do autor não revela o nome da personagem.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quem é esta personagem?",
+      "resposta": "Tina",
+      "distratores": [
+        "Pipa",
+        "Milena",
+        "Marina"
+      ],
+      "ancora": {
+        "nome": "Tina",
+        "descricao": "Jovem jornalista de óculos e lenço roxo, protagonista da Turma da Tina, de Mauricio de Sousa.",
+        "variantes": [
+          "Cristina Lima e Sousa"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Silhueta nítida, de um só pokémon, com bigodes, orelhas e cauda enrolada característicos.",
+      "usar_silhueta": true,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Meowth",
+      "distratores": [
+        "Persian",
+        "Glameow",
+        "Purrloin"
+      ],
+      "ancora": {
+        "nome": "Meowth",
+        "descricao": "Pokémon gato do tipo Normal, da primeira geração, com uma moeda dourada na testa.",
+        "variantes": [
+          "Nyarth"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arte clara do personagem, sem texto; a silhueta é uma mancha deitada sem contorno claro, então usa a colorida.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Qual sargento é o superior direto deste soldado?",
+      "resposta": "Sargento Tainha",
+      "distratores": [
+        "Sargento Rock",
+        "Sargento Garcia",
+        "Sargento Slaughter"
+      ],
+      "ancora": {
+        "nome": "Recruta Zero",
+        "descricao": "Soldado preguiçoso da tirinha Beetle Bailey, de Mort Walker.",
+        "variantes": [
+          "Beetle Bailey"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Personagem sozinha, de corpo inteiro, com chifres e cabelo longo que formam silhueta reconhecível.",
+      "usar_silhueta": true,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esta personagem?",
+      "resposta": "Power",
+      "distratores": [
+        "Makima",
+        "Reze",
+        "Himeno"
+      ],
+      "ancora": {
+        "nome": "Power",
+        "descricao": "Demônio do Sangue de chifres vermelhos, caçadora de demônios em Chainsaw Man.",
+        "variantes": [
+          "Pawā"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem nítida do elfo doméstico dos filmes, sem texto, inconfundível.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que ator deu voz a este personagem nos filmes?",
+      "resposta": "Toby Jones",
+      "distratores": [
+        "Andy Serkis",
+        "Warwick Davis",
+        "Simon McBurney"
+      ],
+      "ancora": {
+        "nome": "Dobby",
+        "descricao": "Elfo doméstico libertado por Harry Potter, antes servo da família Malfoy.",
+        "variantes": [
+          "Dobby, o elfo doméstico"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Arte de quadrinhos com rosto pintado e correntes de cabelo, reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quem é este personagem?",
+      "resposta": "Lobo",
+      "distratores": [
+        "Coringa",
+        "Duas-Caras",
+        "Solomon Grundy"
+      ],
+      "ancora": {
+        "nome": "Lobo",
+        "descricao": "Caçador de recompensas alienígena da DC Comics, estreou em Omega Men.",
+        "variantes": [
+          "Main Man"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Quadro nítido do personagem, sem texto, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Quem é este personagem?",
+      "resposta": "Ned Flanders",
+      "distratores": [
+        "Rod Flanders",
+        "Seymour Skinner",
+        "Lenny Leonard"
+      ],
+      "ancora": {
+        "nome": "Ned Flanders",
+        "descricao": "Vizinho religioso e simpático da família Simpson, em Os Simpsons.",
+        "variantes": [
+          "Nedward Flanders Jr.",
+          "Flanders"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Personagem sozinho, de corpo inteiro, com cartola, charuto e guarda-chuva: silhueta reconhecível.",
+      "usar_silhueta": true,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Com o Pato Donald, este papagaio forma um trio famoso. Que galo completa o grupo?",
+      "resposta": "Panchito Pistoles",
+      "distratores": [
+        "Foghorn Leghorn",
+        "Chanticleer",
+        "Chicken Little"
+      ],
+      "ancora": {
+        "nome": "Zé Carioca",
+        "descricao": "Papagaio malandro carioca criado pela Disney, que estreou em Alô, Amigos.",
+        "variantes": [
+          "José Carioca"
+        ]
+      }
+    }
+  ]
+}

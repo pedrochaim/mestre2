@@ -1,0 +1,82 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; nome em português confirmado no trecho. Distratores são personagens da mesma série.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento; distratores todos de Cowboy Bebop e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples; distratores são personagens da Turma da Mônica e do universo da Tina, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Formato padrão da vinheta de pokémon; distratores felinos e plausíveis, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma o Sargento Tainha como o superior que persegue o recruta. O enunciado não nomeia o soldado, então a figura é necessária. Distratores são outros sargentos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; distratores da mesma obra, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma Toby Jones como voz de Dobby nos filmes. Sem vazamento, e os distratores são atores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; distratores são vilões e antagonistas da DC, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 2 plausível, já que Rod Flanders é visualmente parecido. Distratores são personagens de Springfield, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta: 'Donald + papagaio + galo' já entrega Panchito sem olhar a figura. Reescrita pede a cidade do personagem, que exige reconhecê-lo. O trecho confirma que ele é de Rio de Janeiro.",
+      "reescrita": {
+        "pergunta": "Este papagaio da Disney é um malandro típico de qual cidade brasileira?",
+        "resposta": "Rio de Janeiro",
+        "distratores": [
+          "São Paulo",
+          "Salvador",
+          "Recife"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este papagaio da Disney é um malandro típico de qual cidade brasileira?",
+        "resposta": "Rio de Janeiro"
+      },
+      "existentes": [
+        {
+          "id": "q00131",
+          "pergunta": "O papagaio Zé Carioca, da Disney, surgiu em 1942 como parte de qual política americana de aproximação com a América Latina durante a guerra?",
+          "resposta": "Política da Boa Vizinhança"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre a cidade de origem do malandro típico (Rio de Janeiro). A existente é sobre a política americana que originou o personagem. São fatos diferentes."
+    }
+  ]
+}
