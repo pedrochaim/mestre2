@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento de fole é este?",
+        "resposta": "Sanfona (acordeão)"
+      },
+      "existentes": [
+        {
+          "id": "q01836",
+          "pergunta": "Que instrumento musical é este?",
+          "resposta": "Sanfona (acordeão)"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que orixá é homenageada na festa popular que esta imagem retrata?",
+        "resposta": "Iemanjá"
+      },
+      "existentes": [
+        {
+          "id": "q03564",
+          "pergunta": "Em que dia do ano acontece a tradicional festa de Iemanjá no bairro do Rio Vermelho, em Salvador?",
+          "resposta": "2 de fevereiro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do mesmo instrumento (sanfona/acordeão) a partir da imagem, com a mesma resposta.",
+      "id_existente": "q01836"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede qual orixá é homenageada; a existente pede a data da festa. São fatos diferentes."
+    }
+  ]
+}

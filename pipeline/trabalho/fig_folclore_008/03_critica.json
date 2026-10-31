@@ -1,0 +1,63 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sanfona/acordeão confirmado pelos trechos. A pista 'de fole' é só a categoria, não entrega a resposta. Os distratores são instrumentos parecidos e, pelo que a figura mostra, nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O campo 'mostra' não confirma que a imagem é uma escultura, então 'nesta escultura' pode ser falso para esta foto. Troquei por 'figura', que vale para qualquer imagem. Os distratores são orixás críveis.",
+      "reescrita": {
+        "pergunta": "Que orixá é representado nesta figura?",
+        "resposta": "Oxalá",
+        "distratores": [
+          "Xangô",
+          "Ogum",
+          "Omolu"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A data '2 de fevereiro' entrega Iemanjá sem olhar a figura, e 'barquinhos e flores' reforça a pista. Tirei a data e os detalhes e deixei só a festa que a imagem retrata.",
+      "reescrita": {
+        "pergunta": "Que orixá é homenageada na festa popular que esta imagem retrata?",
+        "resposta": "Iemanjá",
+        "distratores": [
+          "Oxum",
+          "Nanã",
+          "Iansã"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cabaça (Lagenaria siceraria) confirmada pelos trechos. Os distratores são frutos de forma parecida e nenhum é correto. O enunciado é curto e não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A boneca Abayomi é feita de retalhos de pano e o trecho a lista junto das bonecas de pano, então o distrator também é defensável. Troquei por um distrator de outro material.",
+      "reescrita": {
+        "pergunta": "Que brinquedo artesanal é este?",
+        "resposta": "Boneca de pano",
+        "distratores": [
+          "Boneca de milho",
+          "Boneca de porcelana",
+          "Boneca de madeira"
+        ]
+      }
+    }
+  ]
+}

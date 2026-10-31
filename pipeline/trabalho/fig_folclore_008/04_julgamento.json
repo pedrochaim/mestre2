@@ -1,0 +1,322 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Sanfona",
+        "descricao": "Instrumento musical de fole e palhetas livres, com teclado ou botões, também chamado acordeão.",
+        "variantes": [
+          "Acordeão",
+          "Acordeom",
+          "Gaita"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sanfona",
+          "nome": "Sanfona",
+          "descricao": "Instrumento de fole com palhetas livres, com teclado ou botões na mão direita e baixos na esquerda.",
+          "variantes": [
+            "Acordeão",
+            "Acordeom"
+          ]
+        },
+        {
+          "id": "gaita",
+          "nome": "Gaita",
+          "descricao": "Instrumento de palhetas livres tocado com a boca, soprando e aspirando o ar.",
+          "variantes": [
+            "Gaita de boca",
+            "Harmônica",
+            "Harmonica"
+          ]
+        },
+        {
+          "id": "sanfona_de_roda",
+          "nome": "Sanfona de roda",
+          "descricao": "Instrumento de cordas friccionadas por uma roda girada com manivela e tocado por teclas.",
+          "variantes": [
+            "Hurdy-gurdy",
+            "Viela de roda",
+            "Sanfona"
+          ]
+        },
+        {
+          "id": "bhagavad_gita",
+          "nome": "Bhagavad Gita",
+          "descricao": "Texto sagrado hindu em forma de diálogo entre Krishna e Arjuna, parte do Mahabharata.",
+          "variantes": [
+            "Gita"
+          ]
+        },
+        {
+          "id": "grafite",
+          "nome": "Grafite",
+          "descricao": "Mineral formado por carbono em camadas, macio e escuro, usado na ponta dos lápis.",
+          "variantes": [
+            "Grafita",
+            "Graphite"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Oxalá",
+        "descricao": "Orixá criador da humanidade nas religiões afro-brasileiras, associado ao branco e ao opaxorô.",
+        "variantes": [
+          "Obatalá",
+          "Orixalá"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oxalaia",
+          "nome": "Oxalaia",
+          "descricao": "Gênero de dinossauro espinossaurídeo do Cretáceo do Maranhão, descrito em 2011 e batizado em homenagem ao orixá Oxalá.",
+          "variantes": [
+            "Oxalaia quilombensis"
+          ]
+        },
+        {
+          "id": "coala",
+          "nome": "Coala",
+          "descricao": "Marsupial arborícola australiano, espécie Phascolarctos cinereus.",
+          "variantes": [
+            "Phascolarctos cinereus",
+            "Koala"
+          ]
+        },
+        {
+          "id": "oxala_interjeicao",
+          "nome": "Oxalá (interjeição)",
+          "descricao": "Interjeição portuguesa que exprime desejo, de origem árabe",
+          "variantes": [
+            "Ojalá",
+            "Inshallah"
+          ]
+        },
+        {
+          "id": "chevrolet_opala",
+          "nome": "Chevrolet Opala",
+          "descricao": "Automóvel médio produzido pela General Motors do Brasil de 1968 a 1992, derivado do Opel Rekord.",
+          "variantes": [
+            "Opala",
+            "Opala Especial"
+          ]
+        },
+        {
+          "id": "opala",
+          "nome": "Opala",
+          "descricao": "Mineraloide de sílica hidratada amorfa, aqui opala boulder com jogo de cores.",
+          "variantes": [
+            "Opala preciosa",
+            "Opal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Festa de Iemanjá",
+        "descricao": "Celebração religiosa em homenagem à orixá Iemanjá, com oferendas ao mar, realizada em 2 de fevereiro em Salvador.",
+        "variantes": [
+          "Festa de Yemanjá",
+          "Festa do Rio Vermelho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "festa_de_iemanja",
+          "nome": "Festa de Iemanjá",
+          "descricao": "Celebração em homenagem ao orixá Iemanjá no bairro do Rio Vermelho, em Salvador",
+          "variantes": [
+            "Dois de Fevereiro",
+            "Festa do Rio Vermelho"
+          ]
+        },
+        {
+          "id": "midsommar",
+          "nome": "Midsommar",
+          "descricao": "Festa sueca do solstício de verão, com danças em volta de um mastro enfeitado com folhas e flores.",
+          "variantes": [
+            "Midsummer sueco",
+            "Festa do Meio do Verão"
+          ]
+        },
+        {
+          "id": "cogumelo_gaiola",
+          "nome": "Cogumelo-gaiola",
+          "descricao": "Clathrus ruber, fungo da família Phallaceae com corpo frutífero vermelho em forma de rede esférica.",
+          "variantes": [
+            "Clathrus ruber",
+            "Cesto-vermelho"
+          ]
+        },
+        {
+          "id": "cervo_vermelho",
+          "nome": "Cervo-vermelho",
+          "descricao": "Grande cervídeo (Cervus elaphus) da Europa e do oeste da Ásia; o macho tem galhada ramificada.",
+          "variantes": [
+            "Veado-vermelho",
+            "Cervus elaphus",
+            "Red deer"
+          ]
+        },
+        {
+          "id": "festa_junina",
+          "nome": "Festa junina",
+          "descricao": "Conjunto de festas populares de junho no Brasil em homenagem a Santo Antônio, São João e São Pedro.",
+          "variantes": [
+            "Festas juninas",
+            "São João",
+            "Festa joanina",
+            "Festa de São João"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Cabaça",
+        "descricao": "Fruto da trepadeira Lagenaria siceraria, cuja casca seca vira recipiente e instrumento musical.",
+        "variantes": [
+          "Porongo",
+          "Cuia",
+          "Lagenaria"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "afoxe_instrumento",
+          "nome": "Afoxé (instrumento)",
+          "descricao": "Instrumento de percussão afro-brasileiro formado por uma cabaça envolta em rede de contas ou sementes.",
+          "variantes": [
+            "Afoxé",
+            "Cabaça",
+            "Cabaça afoxé"
+          ]
+        },
+        {
+          "id": "cutia",
+          "nome": "Cutia",
+          "descricao": "Roedor do gênero Dasyprocta, comum nas florestas das Américas Central e do Sul.",
+          "variantes": [
+            "Dasyprocta",
+            "Agouti"
+          ]
+        },
+        {
+          "id": "cuica",
+          "nome": "Cuíca",
+          "descricao": "Tambor de fricção usado no samba, com uma vareta presa ao centro do couro.",
+          "variantes": []
+        },
+        {
+          "id": "orangotango",
+          "nome": "Orangotango",
+          "descricao": "Grandes primatas de pelagem avermelhada do gênero Pongo, nativos de Bornéu e Sumatra.",
+          "variantes": [
+            "Pongo",
+            "Orangutan",
+            "Orangutã"
+          ]
+        },
+        {
+          "id": "white_tie",
+          "nome": "White tie",
+          "descricao": "Código de traje de gala noturno que exige casaca e gravata-borboleta branca",
+          "variantes": [
+            "Traje a rigor",
+            "Casaca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Boneca de pano",
+        "descricao": "Boneca feita de retalhos de tecido, brinquedo artesanal tradicional.",
+        "variantes": [
+          "Boneca de trapo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "conferencia_de_teera",
+          "nome": "Conferência de Teerã",
+          "descricao": "Encontro de Roosevelt, Churchill e Stálin realizado no Irã entre novembro e dezembro de 1943.",
+          "variantes": [
+            "Conferência de Teerão",
+            "Tehran Conference"
+          ]
+        },
+        {
+          "id": "marionete",
+          "nome": "Marionete",
+          "descricao": "Boneco de teatro controlado por fios ou cordas a partir de cima.",
+          "variantes": [
+            "Marioneta",
+            "Boneco de fios"
+          ]
+        },
+        {
+          "id": "balanca_de_roberval",
+          "nome": "Balança de Roberval",
+          "descricao": "Balança de dois pratos com mecanismo de paralelogramo articulado, apresentada em 1669.",
+          "variantes": [
+            "Balança de pratos",
+            "Roberval balance"
+          ]
+        },
+        {
+          "id": "comecar_de_novo",
+          "nome": "Começar de Novo",
+          "descricao": "Canção de Ivan Lins e Vitor Martins, de 1979, gravada por Simone.",
+          "variantes": []
+        },
+        {
+          "id": "buneary_de_dawn",
+          "nome": "Buneary de Dawn",
+          "descricao": "Buneary de Dawn no anime Pokémon, capturada em Sinnoh, conhecida pela paixão pelo Pikachu de Ash.",
+          "variantes": [
+            "Dawn's Buneary"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "sanfona",
+      "motivo": "Mesmo instrumento: sanfona/acordeão de fole com palhetas livres e teclado ou botões."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Orixá Oxalá não corresponde a nenhuma candidata; a interjeição é outra entidade e Oxalaia é um dinossauro."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "festa_de_iemanja",
+      "motivo": "Mesma celebração a Iemanjá no Rio Vermelho, Salvador, em 2 de fevereiro."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Cabaça como fruto da Lagenaria siceraria é diferente do afoxé, instrumento feito com cabaça."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é boneca de pano; marionete é um tipo diferente de boneco."
+    }
+  ]
+}

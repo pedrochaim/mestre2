@@ -1,0 +1,160 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Dois acordeões (de teclas e de botões) do mesmo tipo; marca visível não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de fole é este?",
+      "resposta": "Sanfona (acordeão)",
+      "distratores": [
+        "Concertina",
+        "Bandoneon",
+        "Harmônio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sanfona",
+        "descricao": "Instrumento musical de fole e palhetas livres, com teclado ou botões, também chamado acordeão.",
+        "variantes": [
+          "Acordeão",
+          "Acordeom",
+          "Gaita"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, em retrato posado, sem contexto de festa pública."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Escultura prateada com coroa de franjas e opaxorô, reconhecível como Oxalá; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que orixá é representado nesta escultura?",
+      "resposta": "Oxalá",
+      "distratores": [
+        "Xangô",
+        "Ogum",
+        "Omolu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Oxalá",
+        "descricao": "Orixá criador da humanidade nas religiões afro-brasileiras, associado ao branco e ao opaxorô.",
+        "variantes": [
+          "Obatalá",
+          "Orixalá"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem com Iemanjá azul, flores e barquinhos, típicos da festa; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que orixá é homenageada na festa de 2 de fevereiro que esta imagem retrata, com barquinhos e flores?",
+      "resposta": "Iemanjá",
+      "distratores": [
+        "Oxum",
+        "Nanã",
+        "Iansã"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Festa de Iemanjá",
+        "descricao": "Celebração religiosa em homenagem à orixá Iemanjá, com oferendas ao mar, realizada em 2 de fevereiro em Salvador.",
+        "variantes": [
+          "Festa de Yemanjá",
+          "Festa do Rio Vermelho"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Relevo em pedra confuso, não reconhecível como Oxóssi; resposta não única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Mostra almofariz de porcelana com pimenta, não o pilão do folclore brasileiro; não corresponde à âncora."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Pintura de moça jogando uma bola, sem peças de cinco-marias reconhecíveis; ambígua."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Monumento sem relação reconhecível com Mestre Pastinha; pessoas em segundo plano e resposta não identificável pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Carro de parada com texto visível (SPD, slogans) e pessoas comuns; não é carro alegórico de festa folclórica."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fruto de cabaça fresco, claro e reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruto é este?",
+      "resposta": "Cabaça",
+      "distratores": [
+        "Abóbora-pescoço",
+        "Chuchu",
+        "Pera"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cabaça",
+        "descricao": "Fruto da trepadeira Lagenaria siceraria, cuja casca seca vira recipiente e instrumento musical.",
+        "variantes": [
+          "Porongo",
+          "Cuia",
+          "Lagenaria"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bonecas de pano artesanais, nítidas e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que brinquedo artesanal é este?",
+      "resposta": "Boneca de pano",
+      "distratores": [
+        "Boneca de milho",
+        "Abayomi",
+        "Boneca de porcelana"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Boneca de pano",
+        "descricao": "Boneca feita de retalhos de tecido, brinquedo artesanal tradicional.",
+        "variantes": [
+          "Boneca de trapo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, com placas de texto visíveis, em rodeio nos EUA."
+    }
+  ]
+}
