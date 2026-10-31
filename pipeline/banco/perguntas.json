@@ -334994,5 +334994,840 @@
       "autor": "H. Zell (original photographs and collage), Papa Lima Whiskey (derivative edit)",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q17257",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "mercurio_2",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual planeta do Sistema Solar tem o ano mais curto, com menos de três meses terrestres?",
+    "resposta": "Mercúrio",
+    "distratores": [
+      "Vênus",
+      "Marte",
+      "Terra"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mercury_(planet)"
+    ]
+  },
+  {
+    "id": "q17258",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "mercurio_2",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Para o seu tamanho, Mercúrio tem um núcleo gigante. De que metal esse núcleo é feito principalmente?",
+    "resposta": "Ferro",
+    "distratores": [
+      "Alumínio",
+      "Magnésio",
+      "Titânio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mercury_(planet)"
+    ]
+  },
+  {
+    "id": "q17259",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "venus",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Em qual planeta um único giro em torno do próprio eixo demora mais do que uma volta inteira ao redor do Sol?",
+    "resposta": "Vênus",
+    "distratores": [
+      "Mercúrio",
+      "Marte",
+      "Netuno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Venus"
+    ]
+  },
+  {
+    "id": "q17260",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "venus",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Vênus gira no sentido contrário ao da Terra. Para quem estivesse em sua superfície, de que lado o Sol nasceria?",
+    "resposta": "No oeste",
+    "distratores": [
+      "No leste",
+      "No norte",
+      "No sul"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Venus"
+    ]
+  },
+  {
+    "id": "q17261",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "terra",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Ao contrário do que muitos imaginam, o planeta mais denso do Sistema Solar não é um gigante gasoso. Qual é ele?",
+    "resposta": "Terra",
+    "distratores": [
+      "Mercúrio",
+      "Vênus",
+      "Júpiter"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Earth"
+    ]
+  },
+  {
+    "id": "q17262",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "terra",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que mês do ano a Terra passa pelo ponto da sua órbita mais próximo do Sol?",
+    "resposta": "Janeiro",
+    "distratores": [
+      "Julho",
+      "Dezembro",
+      "Março"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Perihelion_and_aphelion"
+    ]
+  },
+  {
+    "id": "q17263",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "marte",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Fora a Terra, que planeta tem o dia mais parecido com o nosso, com pouco mais de vinte e quatro horas?",
+    "resposta": "Marte",
+    "distratores": [
+      "Vênus",
+      "Mercúrio",
+      "Saturno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mars"
+    ]
+  },
+  {
+    "id": "q17264",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "marte",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "As calotas polares de Marte têm gelo de água e também uma camada congelada de qual outra substância?",
+    "resposta": "Gás carbônico",
+    "distratores": [
+      "Metano",
+      "Amônia",
+      "Nitrogênio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Martian_polar_ice_caps"
+    ]
+  },
+  {
+    "id": "q17265",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "jupiter",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Júpiter também tem anéis, bem mais apagados que os de Saturno. Eles são formados principalmente de quê?",
+    "resposta": "Poeira",
+    "distratores": [
+      "Gelo de água",
+      "Rochas grandes",
+      "Gases congelados"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rings_of_Jupiter"
+    ]
+  },
+  {
+    "id": "q17266",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "saturno",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Em inglês, um dos dias da semana carrega o nome do deus romano Saturno, que também batiza o planeta. Que dia é esse?",
+    "resposta": "Sábado",
+    "distratores": [
+      "Domingo",
+      "Sexta-feira",
+      "Terça-feira"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Saturday"
+    ]
+  },
+  {
+    "id": "q17267",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "aneis_de_saturno",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Os anéis de Saturno se estendem por centenas de milhares de quilômetros. Qual é, em geral, a espessura dos anéis principais?",
+    "resposta": "Cerca de dez metros",
+    "distratores": [
+      "Cerca de dez quilômetros",
+      "Cerca de mil quilômetros",
+      "Cerca de cem mil quilômetros"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+    ]
+  },
+  {
+    "id": "q17268",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "urano",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Mesmo não sendo o planeta mais distante do Sol, qual deles tem a atmosfera mais fria do Sistema Solar?",
+    "resposta": "Urano",
+    "distratores": [
+      "Saturno",
+      "Júpiter",
+      "Marte"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Uranus"
+    ]
+  },
+  {
+    "id": "q17269",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "urano",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Urano tem uma cor azul-esverdeada. Que gás da sua atmosfera absorve a luz vermelha e produz esse tom?",
+    "resposta": "Metano",
+    "distratores": [
+      "Gás carbônico",
+      "Amônia",
+      "Hélio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Uranus"
+    ]
+  },
+  {
+    "id": "q17270",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "netuno",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Netuno está tão longe que seu ano é longuíssimo. Quanto tempo ele leva para completar uma volta em torno do Sol?",
+    "resposta": "Cerca de 165 anos",
+    "distratores": [
+      "Cerca de 30 anos",
+      "Cerca de 84 anos",
+      "Cerca de 500 anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Neptune"
+    ]
+  },
+  {
+    "id": "q17271",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "lua",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Em tamanho, que posição a nossa Lua ocupa entre todas as luas do Sistema Solar?",
+    "resposta": "Quinta maior",
+    "distratores": [
+      "Maior de todas",
+      "Segunda maior",
+      "Décima maior"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Moon"
+    ]
+  },
+  {
+    "id": "q17272",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "lua",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "As grandes manchas escuras da Lua, chamadas de mares, são na verdade planícies formadas por quê?",
+    "resposta": "Lava solidificada",
+    "distratores": [
+      "Poeira de cometas",
+      "Gelo sujo",
+      "Areia de quartzo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lunar_mare"
+    ]
+  },
+  {
+    "id": "q17273",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "sol",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O Sol tem muito mais massa que todos os planetas juntos. Que parte da massa total do Sistema Solar ele concentra?",
+    "resposta": "Cerca de 99,9%",
+    "distratores": [
+      "Cerca de 50%",
+      "Cerca de 75%",
+      "Cerca de 90%"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sun"
+    ]
+  },
+  {
+    "id": "q17274",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "tita",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Titã é o único corpo conhecido, além da Terra, com lagos e mares estáveis na superfície. Eles são feitos de quê?",
+    "resposta": "Metano e etano",
+    "distratores": [
+      "Água salgada",
+      "Ácido sulfúrico",
+      "Lava derretida"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lakes_of_Titan",
+      "https://en.wikipedia.org/wiki/Titan_(moon)"
+    ]
+  },
+  {
+    "id": "q17275",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "plutao",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "A grande planície que forma metade do famoso coração de Plutão é coberta principalmente por gelo de quê?",
+    "resposta": "Nitrogênio",
+    "distratores": [
+      "Água",
+      "Gás carbônico",
+      "Amônia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sputnik_Planitia"
+    ]
+  },
+  {
+    "id": "q17276",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "encelado",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual lua de Saturno, coberta de gelo muito limpo, reflete quase toda a luz que recebe e está entre os objetos mais brancos do Sistema Solar?",
+    "resposta": "Encélado",
+    "distratores": [
+      "Titã",
+      "Mimas",
+      "Jápeto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Enceladus"
+    ]
+  },
+  {
+    "id": "q17277",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "grande_nuvem_de_magalhaes",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Das galáxias que orbitam a Via Láctea, qual é a maior, vista a olho nu no céu do Hemisfério Sul?",
+    "resposta": "Grande Nuvem de Magalhães",
+    "distratores": [
+      "Pequena Nuvem de Magalhães",
+      "Anã de Sagitário",
+      "Galáxia do Triângulo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Large_Magellanic_Cloud"
+    ]
+  },
+  {
+    "id": "q17278",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "canopus",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Sírius é a estrela mais brilhante do céu noturno. Qual vem logo depois dela, bem visível no céu do Brasil?",
+    "resposta": "Canopus",
+    "distratores": [
+      "Rigel",
+      "Arcturo",
+      "Vega"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Canopus"
+    ]
+  },
+  {
+    "id": "q17279",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "sirius",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Sírius tem uma companheira pequena e extremamente densa, chamada Sírius B. Que tipo de estrela ela é?",
+    "resposta": "Anã branca",
+    "distratores": [
+      "Anã vermelha",
+      "Gigante vermelha",
+      "Estrela de nêutrons"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sirius"
+    ]
+  },
+  {
+    "id": "q17280",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "buraco_negro",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Como se chama a fronteira em volta de um buraco negro a partir da qual nem a luz consegue escapar?",
+    "resposta": "Horizonte de eventos",
+    "distratores": [
+      "Singularidade",
+      "Disco de acreção",
+      "Esfera de fótons"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Event_horizon",
+      "https://en.wikipedia.org/wiki/Black_hole"
+    ]
+  },
+  {
+    "id": "q17281",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "eclipse_solar",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Num eclipse total do Sol, surge em volta do disco escuro um halo branco e brilhante. Que parte do Sol é essa?",
+    "resposta": "Coroa solar",
+    "distratores": [
+      "Fotosfera",
+      "Núcleo solar",
+      "Mancha solar"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stellar_corona",
+      "https://en.wikipedia.org/wiki/Solar_eclipse"
+    ]
+  },
+  {
+    "id": "q17282",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "apollo_11",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Enquanto Armstrong e Aldrin andavam na Lua, que terceiro tripulante da Apollo 11 ficou sozinho na órbita lunar?",
+    "resposta": "Michael Collins",
+    "distratores": [
+      "Jim Lovell",
+      "Gene Cernan",
+      "John Glenn"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Apollo_11",
+      "https://en.wikipedia.org/wiki/Michael_Collins_(astronaut)"
+    ]
+  },
+  {
+    "id": "q17283",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "apollo_17",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre todas as missões Apollo, qual permaneceu mais tempo na superfície da Lua, cerca de três dias?",
+    "resposta": "Apollo 17",
+    "distratores": [
+      "Apollo 11",
+      "Apollo 15",
+      "Apollo 16"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Apollo_17"
+    ]
+  },
+  {
+    "id": "q17284",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "voyager_2",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual foi a primeira sonda a passar perto dos quatro planetas gigantes, de Júpiter a Netuno?",
+    "resposta": "Voyager 2",
+    "distratores": [
+      "Voyager 1",
+      "Pioneer 11",
+      "Galileo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Voyager_2"
+    ]
+  },
+  {
+    "id": "q17285",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "sputnik_1",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "O Sputnik 1 não tinha câmeras. O que ele fazia em órbita que radioamadores do mundo todo conseguiam captar?",
+    "resposta": "Emitia bipes de rádio",
+    "distratores": [
+      "Piscava luzes fortes",
+      "Transmitia fotos da Terra",
+      "Tocava o hino soviético"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sputnik_1"
+    ]
+  },
+  {
+    "id": "q17286",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "cometa",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Ao contrário do que parece, a cauda de um cometa não fica sempre atrás dele. Para onde ela sempre aponta?",
+    "resposta": "Para longe do Sol",
+    "distratores": [
+      "Para o Sol",
+      "Para a Terra",
+      "Na direção do movimento"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Comet_tail",
+      "https://en.wikipedia.org/wiki/Comet"
+    ]
+  },
+  {
+    "id": "q17287",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "via_lactea",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Sistema Solar fica num dos braços da Via Láctea, que leva o nome de uma constelação famosa. Que braço é esse?",
+    "resposta": "Braço de Órion",
+    "distratores": [
+      "Braço de Perseu",
+      "Braço de Sagitário",
+      "Braço de Escudo-Centauro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Orion_Arm"
+    ]
+  },
+  {
+    "id": "q17288",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "cruzeiro_do_sul",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Prolongando cerca de quatro vezes e meia o braço maior do Cruzeiro do Sul, chega-se perto de que ponto do céu?",
+    "resposta": "Polo sul celeste",
+    "distratores": [
+      "Equador celeste",
+      "Zênite",
+      "Nuvens de Magalhães"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crux"
+    ]
+  },
+  {
+    "id": "q17289",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "telescopio_espacial_james_webb",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O telescópio James Webb não orbita a Terra. Ele fica a cerca de um milhão e meio de quilômetros daqui, perto de qual ponto?",
+    "resposta": "Ponto de Lagrange L2",
+    "distratores": [
+      "Ponto de Lagrange L1",
+      "Órbita da Lua",
+      "Órbita de Marte"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope",
+      "https://en.wikipedia.org/wiki/Lagrange_point"
+    ]
+  },
+  {
+    "id": "q17290",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "vostok_1",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Em 1961, Iuri Gagarin deu uma volta completa em torno da Terra. Quanto tempo durou o seu voo inteiro?",
+    "resposta": "Cerca de 108 minutos",
+    "distratores": [
+      "Cerca de 15 minutos",
+      "Cerca de 6 horas",
+      "Cerca de 2 dias"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vostok_1"
+    ]
+  },
+  {
+    "id": "q17291",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "estacao_espacial_internacional",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A Estação Espacial Internacional viaja a cerca de vinte e oito mil quilômetros por hora. Quanto tempo ela leva para dar uma volta na Terra?",
+    "resposta": "Cerca de 90 minutos",
+    "distratores": [
+      "Cerca de 30 minutos",
+      "Cerca de 12 horas",
+      "Cerca de 24 horas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/International_Space_Station"
+    ]
+  },
+  {
+    "id": "q17292",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "eclipse_lunar",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Um eclipse lunar não acontece em qualquer noite. Em qual fase a Lua precisa estar para que ele ocorra?",
+    "resposta": "Lua cheia",
+    "distratores": [
+      "Lua nova",
+      "Quarto crescente",
+      "Quarto minguante"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lunar_eclipse"
+    ]
+  },
+  {
+    "id": "q17293",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "solsticio",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A palavra solstício, data do dia mais longo ou mais curto do ano, tem origem latina. Que ideia ela expressa?",
+    "resposta": "Sol parado",
+    "distratores": [
+      "Sol nascente",
+      "Sol dividido",
+      "Noite curta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Solstice"
+    ]
+  },
+  {
+    "id": "q17294",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "falcon_9",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome do foguete Falcon 9, da SpaceX, foi inspirado em qual nave da ficção científica?",
+    "resposta": "Millennium Falcon",
+    "distratores": [
+      "Enterprise",
+      "Serenity",
+      "Nostromo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Falcon_9"
+    ]
+  },
+  {
+    "id": "q17295",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "carl_sagan",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que filme de 1997, estrelado por Jodie Foster, adapta um romance de Carl Sagan sobre uma mensagem de rádio vinda das estrelas?",
+    "resposta": "Contato",
+    "distratores": [
+      "Interestelar",
+      "Gravidade",
+      "A Chegada"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Contact_(1997_American_film)"
+    ]
+  },
+  {
+    "id": "q17296",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "apollo_13",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "No filme de 1995 sobre a missão Apollo 13, que ator interpretou o comandante Jim Lovell?",
+    "resposta": "Tom Hanks",
+    "distratores": [
+      "Kevin Costner",
+      "Ed Harris",
+      "Harrison Ford"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Apollo_13_(film)"
+    ]
+  },
+  {
+    "id": "q17297",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "cometa_halley",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que famoso bordado medieval, que narra a conquista normanda da Inglaterra em 1066, mostra a passagem do cometa Halley?",
+    "resposta": "Tapeçaria de Bayeux",
+    "distratores": [
+      "A Dama e o Unicórnio",
+      "Livro de Kells",
+      "Tapeçaria de Gobelins"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bayeux_Tapestry",
+      "https://en.wikipedia.org/wiki/Halley%27s_Comet"
+    ]
+  },
+  {
+    "id": "q17298",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "big_bang",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Uma radiação fraca, que chega de todas as direções do céu, é considerada o eco do Big Bang. Como ela se chama?",
+    "resposta": "Radiação cósmica de fundo",
+    "distratores": [
+      "Vento solar",
+      "Raios cósmicos",
+      "Radiação Hawking"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cosmic_microwave_background"
+    ]
+  },
+  {
+    "id": "q17299",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "perseidas",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Todo mês de agosto, a chuva de meteoros Perseidas acontece quando a Terra atravessa a poeira deixada por qual cometa?",
+    "resposta": "Swift-Tuttle",
+    "distratores": [
+      "Halley",
+      "Hale-Bopp",
+      "Encke"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Perseids"
+    ]
+  },
+  {
+    "id": "q17300",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "laika",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Por muitos anos, os soviéticos esconderam como a cadela Laika morreu, poucas horas após o lançamento. O que a matou?",
+    "resposta": "Superaquecimento da cápsula",
+    "distratores": [
+      "Falta de comida",
+      "Frio extremo",
+      "Falta de oxigênio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Laika"
+    ]
+  },
+  {
+    "id": "q17301",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "telescopio_espacial_hubble",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Logo depois do lançamento, em 1990, as imagens do telescópio Hubble saíram borradas. Qual era o problema?",
+    "resposta": "Defeito no espelho principal",
+    "distratores": [
+      "Lente rachada",
+      "Antena desalinhada",
+      "Painel solar quebrado"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hubble_Space_Telescope"
+    ]
+  },
+  {
+    "id": "q17302",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "centro_de_lancamento_de_alcantara",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Por que é vantajoso lançar foguetes de Alcântara, no Maranhão, tão perto da linha do Equador?",
+    "resposta": "Impulso da rotação terrestre",
+    "distratores": [
+      "Menos chuva na região",
+      "Ar mais rarefeito",
+      "Gravidade mais forte"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alc%C3%A2ntara_Space_Center"
+    ]
   }
 ]

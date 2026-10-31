@@ -1,0 +1,926 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em qual planeta um único giro em torno do próprio eixo demora mais do que uma volta inteira ao redor do Sol?",
+        "resposta": "Vênus"
+      },
+      "existentes": [
+        {
+          "id": "q00563",
+          "pergunta": "Mesmo estando mais longe do Sol do que Mercúrio, qual é o planeta mais quente do Sistema Solar?",
+          "resposta": "Vênus"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Vênus gira no sentido contrário ao da Terra. Para quem estivesse em sua superfície, de que lado o Sol nasceria?",
+        "resposta": "No oeste"
+      },
+      "existentes": [
+        {
+          "id": "q00563",
+          "pergunta": "Mesmo estando mais longe do Sol do que Mercúrio, qual é o planeta mais quente do Sistema Solar?",
+          "resposta": "Vênus"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Fora a Terra, que planeta tem o dia mais parecido com o nosso, com pouco mais de vinte e quatro horas?",
+        "resposta": "Marte"
+      },
+      "existentes": [
+        {
+          "id": "q00578",
+          "pergunta": "A cor avermelhada de Marte vem de qual composto, o mesmo da ferrugem, presente em sua poeira e rochas?",
+          "resposta": "Óxido de ferro"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "As calotas polares de Marte têm gelo de água e também uma camada congelada de qual outra substância?",
+        "resposta": "Gás carbônico"
+      },
+      "existentes": [
+        {
+          "id": "q00578",
+          "pergunta": "A cor avermelhada de Marte vem de qual composto, o mesmo da ferrugem, presente em sua poeira e rochas?",
+          "resposta": "Óxido de ferro"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Júpiter também tem anéis, bem mais apagados que os de Saturno. Eles são formados principalmente de quê?",
+        "resposta": "Poeira"
+      },
+      "existentes": [
+        {
+          "id": "q00568",
+          "pergunta": "Que planeta gira mais rápido em torno do próprio eixo, com um dia de menos de dez horas?",
+          "resposta": "Júpiter"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em inglês, um dos dias da semana carrega o nome do deus romano Saturno, que também batiza o planeta. Que dia é esse?",
+        "resposta": "Sábado"
+      },
+      "existentes": [
+        {
+          "id": "q00567",
+          "pergunta": "Qual é o planeta menos denso do Sistema Solar, com densidade menor até que a da água?",
+          "resposta": "Saturno"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Os anéis de Saturno se estendem por centenas de milhares de quilômetros. Qual é, em geral, a espessura dos anéis principais?",
+        "resposta": "Cerca de dez metros"
+      },
+      "existentes": [
+        {
+          "id": "q00601",
+          "pergunta": "Os famosos anéis de Saturno são formados principalmente por pedaços de quê?",
+          "resposta": "Gelo de água"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Mesmo não sendo o planeta mais distante do Sol, qual deles tem a atmosfera mais fria do Sistema Solar?",
+        "resposta": "Urano"
+      },
+      "existentes": [
+        {
+          "id": "q00554",
+          "pergunta": "Os planetas costumam ter nomes de deuses romanos. Qual deles é a exceção, com o nome tirado direto da mitologia grega?",
+          "resposta": "Urano"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Urano tem uma cor azul-esverdeada. Que gás da sua atmosfera absorve a luz vermelha e produz esse tom?",
+        "resposta": "Metano"
+      },
+      "existentes": [
+        {
+          "id": "q00554",
+          "pergunta": "Os planetas costumam ter nomes de deuses romanos. Qual deles é a exceção, com o nome tirado direto da mitologia grega?",
+          "resposta": "Urano"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Netuno está tão longe que seu ano é longuíssimo. Quanto tempo ele leva para completar uma volta em torno do Sol?",
+        "resposta": "Cerca de 165 anos"
+      },
+      "existentes": [
+        {
+          "id": "q00569",
+          "pergunta": "Em qual planeta sopram os ventos mais rápidos já medidos no Sistema Solar, acima de dois mil quilômetros por hora?",
+          "resposta": "Netuno"
+        },
+        {
+          "id": "q08254",
+          "pergunta": "Em 1846, o planeta Netuno foi achado quase exatamente onde previam os cálculos de qual matemático francês?",
+          "resposta": "Urbain Le Verrier"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em tamanho, que posição a nossa Lua ocupa entre todas as luas do Sistema Solar?",
+        "resposta": "Quinta maior"
+      },
+      "existentes": [
+        {
+          "id": "q01216",
+          "pergunta": "Que astro é este, que muda de fase ao longo do mês e provoca as marés na Terra?",
+          "resposta": "Lua"
+        },
+        {
+          "id": "q08295",
+          "pergunta": "Em média, a que distância a Lua fica da Terra?",
+          "resposta": "384 mil quilômetros"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "As grandes manchas escuras da Lua, chamadas de mares, são na verdade planícies formadas por quê?",
+        "resposta": "Lava solidificada"
+      },
+      "existentes": [
+        {
+          "id": "q01216",
+          "pergunta": "Que astro é este, que muda de fase ao longo do mês e provoca as marés na Terra?",
+          "resposta": "Lua"
+        },
+        {
+          "id": "q08295",
+          "pergunta": "Em média, a que distância a Lua fica da Terra?",
+          "resposta": "384 mil quilômetros"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O Sol tem muito mais massa que todos os planetas juntos. Que parte da massa total do Sistema Solar ele concentra?",
+        "resposta": "Cerca de 99,9%"
+      },
+      "existentes": [
+        {
+          "id": "q01219",
+          "pergunta": "Que astro é este, que ilumina e aquece a Terra durante o dia?",
+          "resposta": "Sol"
+        },
+        {
+          "id": "q08630",
+          "pergunta": "Em que classe se enquadra esta estrela, segundo o seu tamanho e a sua cor?",
+          "resposta": "Anã amarela"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Titã é o único corpo conhecido, além da Terra, com lagos e mares estáveis na superfície. Eles são feitos de quê?",
+        "resposta": "Metano e etano"
+      },
+      "existentes": [
+        {
+          "id": "q04573",
+          "pergunta": "Que lua é esta, vista por completo?",
+          "resposta": "Titã"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "A grande planície que forma metade do famoso coração de Plutão é coberta principalmente por gelo de quê?",
+        "resposta": "Nitrogênio"
+      },
+      "existentes": [
+        {
+          "id": "q00555",
+          "pergunta": "Em 1930, quem sugeriu o nome Plutão para o astro recém-descoberto?",
+          "resposta": "Venetia Burney"
+        },
+        {
+          "id": "q00581",
+          "pergunta": "Em 2006, Plutão deixou de ser considerado planeta porque não cumpria qual critério?",
+          "resposta": "Limpar a vizinhança de sua órbita"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Qual lua de Saturno, coberta de gelo muito limpo, reflete quase toda a luz que recebe e está entre os objetos mais brancos do Sistema Solar?",
+        "resposta": "Encélado"
+      },
+      "existentes": [
+        {
+          "id": "q05808",
+          "pergunta": "Que lua de Saturno é esta?",
+          "resposta": "Encélado"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Das galáxias que orbitam a Via Láctea, qual é a maior, vista a olho nu no céu do Hemisfério Sul?",
+        "resposta": "Grande Nuvem de Magalhães"
+      },
+      "existentes": [
+        {
+          "id": "q02403",
+          "pergunta": "Que galáxia é esta?",
+          "resposta": "Grande Nuvem de Magalhães"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Sírius tem uma companheira pequena e extremamente densa, chamada Sírius B. Que tipo de estrela ela é?",
+        "resposta": "Anã branca"
+      },
+      "existentes": [
+        {
+          "id": "q00561",
+          "pergunta": "Os dias mais quentes do verão são chamados de canícula, palavra latina para cachorrinha. Ela se refere a qual estrela?",
+          "resposta": "Sírius"
+        },
+        {
+          "id": "q00566",
+          "pergunta": "Tirando o Sol, que estrela brilha com mais força no céu visto da Terra?",
+          "resposta": "Sírius"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Como se chama a fronteira em volta de um buraco negro a partir da qual nem a luz consegue escapar?",
+        "resposta": "Horizonte de eventos"
+      },
+      "existentes": [
+        {
+          "id": "q08284",
+          "pergunta": "Que físico americano popularizou, numa palestra em 1967, a expressão buraco negro?",
+          "resposta": "John Wheeler"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Num eclipse total do Sol, surge em volta do disco escuro um halo branco e brilhante. Que parte do Sol é essa?",
+        "resposta": "Coroa solar"
+      },
+      "existentes": [
+        {
+          "id": "q00582",
+          "pergunta": "Num eclipse solar total, a Lua consegue cobrir o Sol inteiro, apesar de ser muito menor. Por quê?",
+          "resposta": "Está quatrocentas vezes mais perto"
+        },
+        {
+          "id": "q08291",
+          "pergunta": "A lua nova acontece todo mês. Por que, então, não há um eclipse solar a cada lua nova?",
+          "resposta": "A órbita da Lua é inclinada"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Enquanto Armstrong e Aldrin andavam na Lua, que terceiro tripulante da Apollo 11 ficou sozinho na órbita lunar?",
+        "resposta": "Michael Collins"
+      },
+      "existentes": [
+        {
+          "id": "q00592",
+          "pergunta": "Em que ano a missão Apollo 11 levou o primeiro ser humano a pisar na Lua?",
+          "resposta": "1969"
+        },
+        {
+          "id": "q08274",
+          "pergunta": "Em julho de 1969, o módulo lunar Eagle, da Apollo 11, pousou em qual planície da Lua?",
+          "resposta": "Mar da Tranquilidade"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Entre todas as missões Apollo, qual permaneceu mais tempo na superfície da Lua, cerca de três dias?",
+        "resposta": "Apollo 17"
+      },
+      "existentes": [
+        {
+          "id": "q08268",
+          "pergunta": "A Apollo 17, última missão do programa Apollo a pousar astronautas na Lua, voou em dezembro de qual ano?",
+          "resposta": "1972"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Qual foi a primeira sonda a passar perto dos quatro planetas gigantes, de Júpiter a Netuno?",
+        "resposta": "Voyager 2"
+      },
+      "existentes": [
+        {
+          "id": "q16223",
+          "pergunta": "Que sonda da NASA é esta?",
+          "resposta": "Voyager"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "O Sputnik 1 não tinha câmeras. O que ele fazia em órbita que radioamadores do mundo todo conseguiam captar?",
+        "resposta": "Emitia bipes de rádio"
+      },
+      "existentes": [
+        {
+          "id": "q00560",
+          "pergunta": "O primeiro satélite artificial, lançado pelos soviéticos, tem um nome russo que pode ser traduzido como o quê?",
+          "resposta": "Companheiro de viagem"
+        },
+        {
+          "id": "q00593",
+          "pergunta": "Em que ano a União Soviética lançou o Sputnik, o primeiro satélite artificial, dando início à corrida espacial?",
+          "resposta": "1957"
+        },
+        {
+          "id": "q03911",
+          "pergunta": "O lançamento do satélite soviético Sputnik, em 1957, levou os Estados Unidos a criar no ano seguinte qual agência espacial?",
+          "resposta": "Nasa"
+        },
+        {
+          "id": "q15804",
+          "pergunta": "Quem foi o engenheiro-chefe do programa que construiu este satélite?",
+          "resposta": "Sergei Korolev"
+        },
+        {
+          "id": "q16835",
+          "pergunta": "Lançado pela União Soviética em 1957, o Sputnik 1 era uma esfera metálica polida com quantas antenas compridas?",
+          "resposta": "Quatro"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Ao contrário do que parece, a cauda de um cometa não fica sempre atrás dele. Para onde ela sempre aponta?",
+        "resposta": "Para longe do Sol"
+      },
+      "existentes": [
+        {
+          "id": "q05807",
+          "pergunta": "Que tipo de astro é este?",
+          "resposta": "Cometa"
+        },
+        {
+          "id": "q08283",
+          "pergunta": "A palavra cometa vem de um termo grego que descreve a aparência desses astros no céu. O que ele significa?",
+          "resposta": "Cabeludo (de cabelos longos)"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "O Sistema Solar fica num dos braços da Via Láctea, que leva o nome de uma constelação famosa. Que braço é esse?",
+        "resposta": "Braço de Órion"
+      },
+      "existentes": [
+        {
+          "id": "q00556",
+          "pergunta": "Num mito grego, a Via Láctea surgiu do leite derramado do seio de qual deusa ao amamentar o bebê Hércules?",
+          "resposta": "Hera"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Prolongando cerca de quatro vezes e meia o braço maior do Cruzeiro do Sul, chega-se perto de que ponto do céu?",
+        "resposta": "Polo sul celeste"
+      },
+      "existentes": [
+        {
+          "id": "q00571",
+          "pergunta": "Entre as oitenta e oito constelações oficiais, qual é a menor de todas?",
+          "resposta": "Cruzeiro do Sul"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "O telescópio James Webb não orbita a Terra. Ele fica a cerca de um milhão e meio de quilômetros daqui, perto de qual ponto?",
+        "resposta": "Ponto de Lagrange L2"
+      },
+      "existentes": [
+        {
+          "id": "q06739",
+          "pergunta": "Que telescópio espacial é este?",
+          "resposta": "Telescópio Espacial James Webb"
+        },
+        {
+          "id": "q15805",
+          "pergunta": "Em que ano este telescópio foi lançado ao espaço?",
+          "resposta": "2021"
+        },
+        {
+          "id": "q16836",
+          "pergunta": "O espelho principal do telescópio espacial James Webb, lançado em 2021, é formado por quantos segmentos em forma de hexágono?",
+          "resposta": "18"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "O eclipse solar de 1919, que ajudou a confirmar a relatividade de Einstein, foi observado na cidade de Sobral. Em que estado ela fica?",
+        "resposta": "Ceará"
+      },
+      "existentes": [
+        {
+          "id": "q03020",
+          "pergunta": "Em 1919, astrônomos britânicos foram a que cidade do Ceará observar um eclipse que ajudou a confirmar a teoria da relatividade de Einstein?",
+          "resposta": "Sobral"
+        },
+        {
+          "id": "q08256",
+          "pergunta": "Em 1919, a observação de um eclipse solar confirmou a teoria da relatividade de Einstein. Que astrônomo britânico liderou a expedição à ilha do Príncipe?",
+          "resposta": "Arthur Eddington"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Em 1961, Iuri Gagarin deu uma volta completa em torno da Terra. Quanto tempo durou o seu voo inteiro?",
+        "resposta": "Cerca de 108 minutos"
+      },
+      "existentes": [
+        {
+          "id": "q00588",
+          "pergunta": "Em abril de 1961, a bordo da nave Vostok 1, quem se tornou o primeiro ser humano a viajar ao espaço?",
+          "resposta": "Iuri Gagarin"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "A Estação Espacial Internacional viaja a cerca de vinte e oito mil quilômetros por hora. Quanto tempo ela leva para dar uma volta na Terra?",
+        "resposta": "Cerca de 90 minutos"
+      },
+      "existentes": [
+        {
+          "id": "q00580",
+          "pergunta": "Na altura da Estação Espacial Internacional, a gravidade da Terra ainda é forte. Por que, então, os astronautas flutuam?",
+          "resposta": "Estão em queda livre constante"
+        },
+        {
+          "id": "q08269",
+          "pergunta": "A Estação Espacial Internacional recebeu sua primeira tripulação de longa duração em novembro de que ano?",
+          "resposta": "2000"
+        },
+        {
+          "id": "q17228",
+          "pergunta": "Que estação espacial é esta?",
+          "resposta": "Estação Espacial Internacional"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Um eclipse lunar não acontece em qualquer noite. Em qual fase a Lua precisa estar para que ele ocorra?",
+        "resposta": "Lua cheia"
+      },
+      "existentes": [
+        {
+          "id": "q00577",
+          "pergunta": "Num eclipse lunar total, por que a Lua fica avermelhada em vez de sumir do céu?",
+          "resposta": "Luz desviada pela atmosfera terrestre"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "A palavra solstício, data do dia mais longo ou mais curto do ano, tem origem latina. Que ideia ela expressa?",
+        "resposta": "Sol parado"
+      },
+      "existentes": [
+        {
+          "id": "q00594",
+          "pergunta": "No hemisfério sul, o solstício de verão, que marca o dia mais longo do ano, acontece em que mês?",
+          "resposta": "Dezembro"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "O nome do foguete Falcon 9, da SpaceX, foi inspirado em qual nave da ficção científica?",
+        "resposta": "Millennium Falcon"
+      },
+      "existentes": [
+        {
+          "id": "q15175",
+          "pergunta": "Que foguete é este?",
+          "resposta": "Falcon 9"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Stephen Hawking nasceu em 8 de janeiro de 1942, exatamente trezentos anos depois da morte de qual cientista?",
+        "resposta": "Galileu Galilei"
+      },
+      "existentes": [
+        {
+          "id": "q01422",
+          "pergunta": "Que cientista é este, famoso por seus estudos sobre buracos negros?",
+          "resposta": "Stephen Hawking"
+        },
+        {
+          "id": "q03006",
+          "pergunta": "O físico Stephen Hawking nasceu em oito de janeiro de 1942, exatamente trezentos anos após a morte de que cientista italiano?",
+          "resposta": "Galileu Galilei"
+        },
+        {
+          "id": "q07259",
+          "pergunta": "Em 2018, as cinzas de Stephen Hawking foram depositadas perto dos túmulos de Isaac Newton e Charles Darwin, em que igreja de Londres?",
+          "resposta": "Abadia de Westminster"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Que filme de 1997, estrelado por Jodie Foster, adapta um romance de Carl Sagan sobre uma mensagem de rádio vinda das estrelas?",
+        "resposta": "Contato"
+      },
+      "existentes": [
+        {
+          "id": "q03714",
+          "pergunta": "Quem é este astrônomo e divulgador científico americano?",
+          "resposta": "Carl Sagan"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "No filme de 1995 sobre a missão Apollo 13, que ator interpretou o comandante Jim Lovell?",
+        "resposta": "Tom Hanks"
+      },
+      "existentes": [
+        {
+          "id": "q08289",
+          "pergunta": "A Apollo 13 teve de abandonar o pouso na Lua e voltar às pressas para a Terra depois de qual acidente a bordo?",
+          "resposta": "Explosão de um tanque de oxigênio"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Que famoso bordado medieval, que narra a conquista normanda da Inglaterra em 1066, mostra a passagem do cometa Halley?",
+        "resposta": "Tapeçaria de Bayeux"
+      },
+      "existentes": [
+        {
+          "id": "q00585",
+          "pergunta": "O escritor Mark Twain nasceu em 1835 e morreu em 1910, os dois anos de passagem de qual cometa?",
+          "resposta": "Cometa Halley"
+        },
+        {
+          "id": "q00598",
+          "pergunta": "Aproximadamente de quantos em quantos anos o cometa Halley volta a ser visto da Terra?",
+          "resposta": "Cerca de 76 anos"
+        },
+        {
+          "id": "q08257",
+          "pergunta": "No início do século dezoito, que astrônomo inglês previu que um cometa visto em 1682 voltaria por volta de 1758?",
+          "resposta": "Edmond Halley"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "Uma radiação fraca, que chega de todas as direções do céu, é considerada o eco do Big Bang. Como ela se chama?",
+        "resposta": "Radiação cósmica de fundo"
+      },
+      "existentes": [
+        {
+          "id": "q00559",
+          "pergunta": "O nome Big Bang foi criado em 1949, num programa de rádio, por um astrônomo que rejeitava a teoria. Quem era ele?",
+          "resposta": "Fred Hoyle"
+        },
+        {
+          "id": "q08258",
+          "pergunta": "Em 1931, que padre e físico belga propôs que o universo teria surgido de um átomo primordial, ideia precursora do Big Bang?",
+          "resposta": "Georges Lemaître"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "Por muitos anos, os soviéticos esconderam como a cadela Laika morreu, poucas horas após o lançamento. O que a matou?",
+        "resposta": "Superaquecimento da cápsula"
+      },
+      "existentes": [
+        {
+          "id": "q00602",
+          "pergunta": "Em 1957, a bordo do Sputnik 2, qual cadela soviética se tornou o primeiro animal a orbitar a Terra?",
+          "resposta": "Laika"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "Logo depois do lançamento, em 1990, as imagens do telescópio Hubble saíram borradas. Qual era o problema?",
+        "resposta": "Defeito no espelho principal"
+      },
+      "existentes": [
+        {
+          "id": "q01226",
+          "pergunta": "Que astrônomo dá nome a este telescópio espacial lançado em mil novecentos e noventa?",
+          "resposta": "Edwin Hubble"
+        },
+        {
+          "id": "q05742",
+          "pergunta": "Em que ano foi lançado ao espaço este observatório?",
+          "resposta": "1990"
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "nova": {
+        "pergunta": "Por que é vantajoso lançar foguetes de Alcântara, no Maranhão, tão perto da linha do Equador?",
+        "resposta": "Impulso da rotação terrestre"
+      },
+      "existentes": [
+        {
+          "id": "q00596",
+          "pergunta": "A base de foguetes de Alcântara, muito próxima da linha do Equador, fica em que estado brasileiro?",
+          "resposta": "Maranhão"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Rotação vs. temperatura: fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Direção do nascer do Sol em Vênus é outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Duração do dia de Marte, não a cor."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Calotas polares, outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Anéis de Júpiter, não rotação."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Dia da semana, outro fato."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Espessura dos anéis, não composição."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Temperatura da atmosfera vs. origem do nome."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Cor/metano, outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Período orbital, não ventos nem descoberta."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Ranking de tamanho é outro fato."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Origem dos mares lunares é outro fato."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Fração da massa, outro fato."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Composição dos lagos, não identificação por imagem."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Gelo do coração de Plutão, outro fato."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Pergunta de imagem difere de descrição de albedo; na dúvida, nova."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Identificação por imagem vs. descrição; na dúvida, nova."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Sírius B é outro fato."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Horizonte de eventos, não quem popularizou o termo."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Coroa solar, outro fato."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Michael Collins, outro fato."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Missão mais longa na Lua, não o ano da Apollo 17."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Fato histórico da Voyager 2 diferente de identificação por imagem."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Função do Sputnik 1 é outro fato."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Direção da cauda, outro fato."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Braço de Órion, outro fato."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Uso do Cruzeiro do Sul para achar o polo, outro fato."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Localização do Webb, outro fato."
+    },
+    {
+      "caso": 29,
+      "decisao": "repete",
+      "id_existente": "q03020",
+      "motivo": "Sobral–Ceará: a mesma relação, em direção inversa."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Duração do voo, outro fato."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Período orbital da ISS, outro fato."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Fase da Lua no eclipse lunar, outro fato."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Etimologia de solstício, outro fato."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Origem do nome Falcon 9, outro fato."
+    },
+    {
+      "caso": 35,
+      "decisao": "repete",
+      "id_existente": "q03006",
+      "motivo": "Mesmo fato: Hawking nasceu 300 anos após a morte de Galileu."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Filme Contato, outro fato."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Ator do filme, outro fato."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Tapeçaria de Bayeux, outro fato."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Radiação cósmica de fundo, outro fato."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Causa da morte de Laika, outro fato."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "Defeito do espelho do Hubble, outro fato."
+    },
+    {
+      "caso": 42,
+      "decisao": "nova",
+      "motivo": "Vantagem da localização, não o estado."
+    }
+  ]
+}

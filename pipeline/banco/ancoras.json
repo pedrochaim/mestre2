@@ -85506,7 +85506,10 @@
       "wikidata": "Q3559",
       "pt": 1129,
       "en": 26597
-    }
+    },
+    "variantes": [
+      "Comet"
+    ]
   },
   {
     "id": "encelado",
@@ -117332,7 +117335,10 @@
       "wikidata": "Q180971",
       "pt": 1586,
       "en": 55387
-    }
+    },
+    "variantes": [
+      "Apolo 17"
+    ]
   },
   {
     "id": "meteoro_de_cheliabinsk",
@@ -117522,7 +117528,10 @@
       "wikidata": "Q589",
       "pt": 4777,
       "en": 179916
-    }
+    },
+    "variantes": [
+      "Black hole"
+    ]
   },
   {
     "id": "projeto_gemini",
@@ -117606,7 +117615,10 @@
       "wikidata": "Q182252",
       "pt": 4586,
       "en": 132939
-    }
+    },
+    "variantes": [
+      "Apolo 13"
+    ]
   },
   {
     "id": "desastre_do_columbia",
@@ -214618,6 +214630,58 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Slug",
       "https://pt.wikipedia.org/wiki/Lesma"
+    ]
+  },
+  {
+    "id": "mercurio_2",
+    "nome": "Mercúrio",
+    "descricao": "Planeta mais próximo do Sol e o menor do Sistema Solar.",
+    "variantes": [
+      "Mercúrio (planeta)",
+      "Mercury"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)",
+      "https://en.wikipedia.org/wiki/Mercury_(planet)"
+    ]
+  },
+  {
+    "id": "terra",
+    "nome": "Terra",
+    "descricao": "Terceiro planeta a partir do Sol, o planeta onde vivemos.",
+    "variantes": [
+      "Planeta Terra",
+      "Earth"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Terra",
+      "https://en.wikipedia.org/wiki/Earth"
+    ]
+  },
+  {
+    "id": "canopus",
+    "nome": "Canopus",
+    "descricao": "Estrela supergigante branco-amarelada da constelação da Carena, a segunda mais brilhante do céu noturno.",
+    "variantes": [
+      "Canopo",
+      "Alfa Carinae"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Canopus",
+      "https://en.wikipedia.org/wiki/Canopus"
+    ]
+  },
+  {
+    "id": "perseidas",
+    "nome": "Perseidas",
+    "descricao": "Chuva de meteoros anual, com pico em agosto, cujos meteoros parecem vir da constelação de Perseu.",
+    "variantes": [
+      "Perseids",
+      "Lágrimas de São Lourenço"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Perseids",
+      "https://pt.wikipedia.org/wiki/Perseidas"
     ]
   }
 ]

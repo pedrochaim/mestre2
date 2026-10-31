@@ -1,0 +1,1268 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Mercúrio",
+        "descricao": "Planeta mais próximo do Sol e o menor do Sistema Solar.",
+        "variantes": [
+          "Mercúrio (planeta)",
+          "Mercury"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)",
+          "https://en.wikipedia.org/wiki/Mercury_(planet)"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual planeta do Sistema Solar tem o ano mais curto, com menos de três meses terrestres?",
+      "resposta": "Mercúrio",
+      "distratores": [
+        "Vênus",
+        "Marte",
+        "Terra"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mercury_(planet)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mercúrio",
+        "descricao": "Planeta mais próximo do Sol e o menor do Sistema Solar.",
+        "variantes": [
+          "Mercúrio (planeta)",
+          "Mercury"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)",
+          "https://en.wikipedia.org/wiki/Mercury_(planet)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Para o seu tamanho, Mercúrio tem um núcleo gigante. De que metal esse núcleo é feito principalmente?",
+      "resposta": "Ferro",
+      "distratores": [
+        "Alumínio",
+        "Magnésio",
+        "Titânio"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mercury_(planet)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "venus",
+        "nome": "Vênus",
+        "descricao": "Segundo planeta a partir do Sol, coberto por uma atmosfera densa de gás carbônico.",
+        "variantes": [
+          "Venus"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/V%C3%AAnus_(planeta)",
+          "https://en.wikipedia.org/wiki/Venus"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Em qual planeta um único giro em torno do próprio eixo demora mais do que uma volta inteira ao redor do Sol?",
+      "resposta": "Vênus",
+      "distratores": [
+        "Mercúrio",
+        "Marte",
+        "Netuno"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Venus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "venus",
+        "nome": "Vênus",
+        "descricao": "Segundo planeta a partir do Sol, coberto por uma atmosfera densa de gás carbônico.",
+        "variantes": [
+          "Venus"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/V%C3%AAnus_(planeta)",
+          "https://en.wikipedia.org/wiki/Venus"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Vênus gira no sentido contrário ao da Terra. Para quem estivesse em sua superfície, de que lado o Sol nasceria?",
+      "resposta": "No oeste",
+      "distratores": [
+        "No leste",
+        "No norte",
+        "No sul"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Venus"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Terra",
+        "descricao": "Terceiro planeta a partir do Sol, o planeta onde vivemos.",
+        "variantes": [
+          "Planeta Terra",
+          "Earth"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Terra",
+          "https://en.wikipedia.org/wiki/Earth"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Ao contrário do que muitos imaginam, o planeta mais denso do Sistema Solar não é um gigante gasoso. Qual é ele?",
+      "resposta": "Terra",
+      "distratores": [
+        "Mercúrio",
+        "Vênus",
+        "Júpiter"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Earth"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Terra",
+        "descricao": "Terceiro planeta a partir do Sol, o planeta onde vivemos.",
+        "variantes": [
+          "Planeta Terra",
+          "Earth"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Terra",
+          "https://en.wikipedia.org/wiki/Earth"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que mês do ano a Terra passa pelo ponto da sua órbita mais próximo do Sol?",
+      "resposta": "Janeiro",
+      "distratores": [
+        "Julho",
+        "Dezembro",
+        "Março"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Perihelion_and_aphelion"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "marte",
+        "nome": "Marte",
+        "descricao": "Quarto planeta a partir do Sol, conhecido como planeta vermelho.",
+        "variantes": [
+          "Mars"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Marte_(planeta)",
+          "https://en.wikipedia.org/wiki/Mars"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Fora a Terra, que planeta tem o dia mais parecido com o nosso, com pouco mais de vinte e quatro horas?",
+      "resposta": "Marte",
+      "distratores": [
+        "Vênus",
+        "Mercúrio",
+        "Saturno"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mars"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "marte",
+        "nome": "Marte",
+        "descricao": "Quarto planeta a partir do Sol, conhecido como planeta vermelho.",
+        "variantes": [
+          "Mars"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Marte_(planeta)",
+          "https://en.wikipedia.org/wiki/Mars"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "As calotas polares de Marte têm gelo de água e também uma camada congelada de qual outra substância?",
+      "resposta": "Gás carbônico",
+      "distratores": [
+        "Metano",
+        "Amônia",
+        "Nitrogênio"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Martian_polar_ice_caps"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "jupiter",
+        "nome": "Júpiter",
+        "descricao": "Quinto planeta a partir do Sol, o maior do Sistema Solar.",
+        "variantes": [
+          "Jupiter"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jupiter"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Júpiter também tem anéis, bem mais apagados que os de Saturno. Eles são formados principalmente de quê?",
+      "resposta": "Poeira",
+      "distratores": [
+        "Gelo de água",
+        "Rochas grandes",
+        "Gases congelados"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rings_of_Jupiter"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "saturno",
+        "nome": "Saturno",
+        "descricao": "Sexto planeta a partir do Sol, gigante gasoso famoso pelos anéis.",
+        "variantes": [
+          "Saturn"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Saturn"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em inglês, um dos dias da semana tem o nome tirado do planeta Saturno. Que dia é esse?",
+      "resposta": "Sábado",
+      "distratores": [
+        "Domingo",
+        "Sexta-feira",
+        "Terça-feira"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Saturday"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "aneis_de_saturno",
+        "nome": "Anéis de Saturno",
+        "descricao": "Sistema de anéis planetários que circunda Saturno, o mais extenso do Sistema Solar.",
+        "variantes": [
+          "Rings of Saturn"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Os anéis de Saturno se estendem por centenas de milhares de quilômetros. Qual é, em geral, a espessura dos anéis principais?",
+      "resposta": "Cerca de dez metros",
+      "distratores": [
+        "Cerca de dez quilômetros",
+        "Cerca de mil quilômetros",
+        "Cerca de cem mil quilômetros"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "urano",
+        "nome": "Urano",
+        "descricao": "Sétimo planeta a partir do Sol, um gigante gelado.",
+        "variantes": [
+          "Uranus"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Urano_(planeta)",
+          "https://en.wikipedia.org/wiki/Uranus"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Mesmo não sendo o planeta mais distante do Sol, qual deles tem a atmosfera mais fria do Sistema Solar?",
+      "resposta": "Urano",
+      "distratores": [
+        "Saturno",
+        "Júpiter",
+        "Marte"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Uranus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "urano",
+        "nome": "Urano",
+        "descricao": "Sétimo planeta a partir do Sol, um gigante gelado.",
+        "variantes": [
+          "Uranus"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Urano_(planeta)",
+          "https://en.wikipedia.org/wiki/Uranus"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Urano tem uma cor azul-esverdeada. Que gás da sua atmosfera absorve a luz vermelha e produz esse tom?",
+      "resposta": "Metano",
+      "distratores": [
+        "Gás carbônico",
+        "Amônia",
+        "Hélio"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Uranus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "netuno",
+        "nome": "Netuno",
+        "descricao": "Oitavo planeta a partir do Sol, um gigante gelado.",
+        "variantes": [
+          "Neptune"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Neptune"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Netuno está tão longe que seu ano é longuíssimo. Quanto tempo ele leva para completar uma volta em torno do Sol?",
+      "resposta": "Cerca de 165 anos",
+      "distratores": [
+        "Cerca de 30 anos",
+        "Cerca de 84 anos",
+        "Cerca de 500 anos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Neptune"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lua",
+        "nome": "Lua",
+        "descricao": "Único satélite natural da Terra.",
+        "variantes": [
+          "Moon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Moon"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Em tamanho, que posição a nossa Lua ocupa entre todas as luas do Sistema Solar?",
+      "resposta": "Quinta maior",
+      "distratores": [
+        "Maior de todas",
+        "Segunda maior",
+        "Décima maior"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Moon"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lua",
+        "nome": "Lua",
+        "descricao": "Único satélite natural da Terra.",
+        "variantes": [
+          "Moon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Moon"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "As grandes manchas escuras da Lua, chamadas de mares, são na verdade planícies formadas por quê?",
+      "resposta": "Lava solidificada",
+      "distratores": [
+        "Poeira de cometas",
+        "Gelo sujo",
+        "Areia de quartzo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lunar_mare"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sol",
+        "nome": "Sol",
+        "descricao": "Estrela no centro do Sistema Solar.",
+        "variantes": [
+          "Sun"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sun"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O Sol pesa muito mais que todos os planetas juntos. Que parte da massa total do Sistema Solar ele concentra?",
+      "resposta": "Cerca de 99,8%",
+      "distratores": [
+        "Cerca de 50%",
+        "Cerca de 75%",
+        "Cerca de 90%"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sun"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tita",
+        "nome": "Titã",
+        "descricao": "Maior lua de Saturno, com densa atmosfera alaranjada.",
+        "variantes": [
+          "Titan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Titan_(moon)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Titã é o único corpo conhecido, além da Terra, com lagos e mares estáveis na superfície. Eles são feitos de quê?",
+      "resposta": "Metano e etano",
+      "distratores": [
+        "Água salgada",
+        "Ácido sulfúrico",
+        "Lava derretida"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lakes_of_Titan",
+        "https://en.wikipedia.org/wiki/Titan_(moon)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "plutao",
+        "nome": "Plutão",
+        "descricao": "Planeta anão do Cinturão de Kuiper, descoberto em 1930 e considerado o nono planeta até 2006.",
+        "variantes": [
+          "Pluto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pluto"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A grande planície que forma metade do famoso coração de Plutão é coberta principalmente por gelo de quê?",
+      "resposta": "Nitrogênio",
+      "distratores": [
+        "Água",
+        "Gás carbônico",
+        "Amônia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sputnik_Planitia"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "encelado",
+        "nome": "Encélado",
+        "descricao": "Satélite natural de Saturno, coberto de gelo muito reflexivo, com gêiseres no polo sul.",
+        "variantes": [
+          "Enceladus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Enceladus"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual lua de Saturno, coberta de gelo muito limpo, reflete quase toda a luz que recebe e está entre os objetos mais brancos do Sistema Solar?",
+      "resposta": "Encélado",
+      "distratores": [
+        "Titã",
+        "Mimas",
+        "Jápeto"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Enceladus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "grande_nuvem_de_magalhaes",
+        "nome": "Grande Nuvem de Magalhães",
+        "descricao": "Galáxia anã satélite da Via Láctea, visível do Hemisfério Sul, a cerca de 163 mil anos-luz.",
+        "variantes": [
+          "Large Magellanic Cloud"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Large_Magellanic_Cloud"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Das galáxias que orbitam a Via Láctea, qual é a maior, vista a olho nu no céu do Hemisfério Sul?",
+      "resposta": "Grande Nuvem de Magalhães",
+      "distratores": [
+        "Pequena Nuvem de Magalhães",
+        "Anã de Sagitário",
+        "Galáxia do Triângulo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Large_Magellanic_Cloud"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Canopus",
+        "descricao": "Estrela supergigante branco-amarelada da constelação da Carena, a segunda mais brilhante do céu noturno.",
+        "variantes": [
+          "Canopo",
+          "Alfa Carinae"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Canopus",
+          "https://en.wikipedia.org/wiki/Canopus"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Sírius é a estrela mais brilhante do céu noturno. Qual vem logo depois dela, bem visível no céu do Brasil?",
+      "resposta": "Canopus",
+      "distratores": [
+        "Rigel",
+        "Arcturo",
+        "Vega"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Canopus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sirius",
+        "nome": "Sírius",
+        "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+        "variantes": [
+          "Sirius"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sirius"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Sírius tem uma companheira pequena e extremamente densa, chamada Sírius B. Que tipo de estrela ela é?",
+      "resposta": "Anã branca",
+      "distratores": [
+        "Anã vermelha",
+        "Gigante vermelha",
+        "Estrela de nêutrons"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sirius"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bandeira_do_brasil",
+        "nome": "Bandeira do Brasil",
+        "descricao": "Bandeira nacional brasileira, adotada em 1889, com um céu estrelado no círculo azul.",
+        "variantes": [
+          "Bandeira nacional"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na bandeira do Brasil, qual constelação reúne oito estrelas e representa a maioria dos estados do Nordeste?",
+      "resposta": "Escorpião",
+      "distratores": [
+        "Cruzeiro do Sul",
+        "Cão Maior",
+        "Hidra"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "buraco_negro",
+        "nome": "Buraco negro",
+        "descricao": "Região do espaço em que a gravidade é tão intensa que nada, nem mesmo a luz, consegue escapar.",
+        "variantes": [
+          "Black hole"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Black_hole"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Como se chama a fronteira em volta de um buraco negro a partir da qual nem a luz consegue escapar?",
+      "resposta": "Horizonte de eventos",
+      "distratores": [
+        "Singularidade",
+        "Disco de acreção",
+        "Esfera de fótons"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Event_horizon",
+        "https://en.wikipedia.org/wiki/Black_hole"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "eclipse_solar",
+        "nome": "Eclipse solar",
+        "descricao": "Fenômeno em que a Lua passa entre a Terra e o Sol e encobre o Sol total ou parcialmente.",
+        "variantes": [
+          "Eclipse do Sol"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Solar_eclipse"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Num eclipse total do Sol, surge em volta do disco escuro um halo branco e brilhante. Que parte do Sol é essa?",
+      "resposta": "Coroa solar",
+      "distratores": [
+        "Fotosfera",
+        "Núcleo solar",
+        "Mancha solar"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stellar_corona",
+        "https://en.wikipedia.org/wiki/Solar_eclipse"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "apollo_11",
+        "nome": "Apollo 11",
+        "descricao": "Missão da Nasa que levou os primeiros seres humanos à superfície da Lua.",
+        "variantes": [
+          "Apolo 11"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Apollo_11"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Enquanto Armstrong e Aldrin andavam na Lua, que terceiro tripulante da Apollo 11 ficou sozinho na órbita lunar?",
+      "resposta": "Michael Collins",
+      "distratores": [
+        "Jim Lovell",
+        "Gene Cernan",
+        "John Glenn"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Apollo_11",
+        "https://en.wikipedia.org/wiki/Michael_Collins_(astronaut)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "apollo_17",
+        "nome": "Apollo 17",
+        "descricao": "Missão da NASA de dezembro de 1972, a última do programa Apollo a pousar na Lua.",
+        "variantes": [
+          "Apolo 17"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Apollo_17"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre todas as missões Apollo, qual permaneceu mais tempo na superfície da Lua, cerca de três dias?",
+      "resposta": "Apollo 17",
+      "distratores": [
+        "Apollo 11",
+        "Apollo 15",
+        "Apollo 16"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Apollo_17"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "voyager_2",
+        "nome": "Voyager 2",
+        "descricao": "Sonda espacial da NASA lançada em 1977, única a visitar Urano e Netuno; ilustração da sonda do programa Voyager.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Voyager_2"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual foi a primeira sonda a passar perto dos quatro planetas gigantes, de Júpiter a Netuno?",
+      "resposta": "Voyager 2",
+      "distratores": [
+        "Voyager 1",
+        "Pioneer 11",
+        "Galileo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Voyager_2"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sputnik_1",
+        "nome": "Sputnik 1",
+        "descricao": "Primeiro satélite artificial da Terra, lançado pela União Soviética em 1957.",
+        "variantes": [
+          "Sputnik"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sputnik_1"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "O Sputnik 1 não tinha câmeras. O que ele fazia em órbita que radioamadores do mundo todo conseguiam captar?",
+      "resposta": "Emitia bipes de rádio",
+      "distratores": [
+        "Piscava luzes fortes",
+        "Transmitia fotos da Terra",
+        "Tocava o hino soviético"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sputnik_1"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "betelgeuse",
+        "nome": "Betelgeuse",
+        "descricao": "Estrela supergigante vermelha da constelação de Órion, que marca o ombro do caçador.",
+        "variantes": [
+          "Alfa Orionis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Betelgeuse"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Betelgeuse é uma estrela gigantesca. Se ela estivesse no lugar do Sol, até onde chegaria a sua superfície?",
+      "resposta": "Além da órbita de Marte",
+      "distratores": [
+        "Até a órbita de Mercúrio",
+        "Até a órbita de Vênus",
+        "Além da órbita de Netuno"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Betelgeuse"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cometa",
+        "nome": "Cometa",
+        "descricao": "Pequeno corpo gelado do Sistema Solar que libera gás e poeira ao se aproximar do Sol, formando coma e cauda.",
+        "variantes": [
+          "Comet"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Comet"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Ao contrário do que parece, a cauda de um cometa não fica sempre atrás dele. Para onde ela sempre aponta?",
+      "resposta": "Para longe do Sol",
+      "distratores": [
+        "Para o Sol",
+        "Para a Terra",
+        "Na direção do movimento"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Comet_tail",
+        "https://en.wikipedia.org/wiki/Comet"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "via_lactea",
+        "nome": "Via Láctea",
+        "descricao": "A galáxia espiral onde fica o Sistema Solar.",
+        "variantes": [
+          "Milky Way"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Milky_Way"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O Sistema Solar fica num dos braços da Via Láctea, que leva o nome de uma constelação famosa. Que braço é esse?",
+      "resposta": "Braço de Órion",
+      "distratores": [
+        "Braço de Perseu",
+        "Braço de Sagitário",
+        "Braço de Escudo-Centauro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Orion_Arm"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cruzeiro_do_sul",
+        "nome": "Cruzeiro do Sul",
+        "descricao": "Constelação do céu austral, presente na bandeira do Brasil.",
+        "variantes": [
+          "Crux",
+          "Cruzeiro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Crux"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Prolongando cerca de quatro vezes e meia o braço maior do Cruzeiro do Sul, chega-se perto de que ponto do céu?",
+      "resposta": "Polo sul celeste",
+      "distratores": [
+        "Equador celeste",
+        "Zênite",
+        "Nuvens de Magalhães"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Crux"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "telescopio_espacial_james_webb",
+        "nome": "Telescópio Espacial James Webb",
+        "descricao": "Telescópio espacial infravermelho da NASA, ESA e CSA, lançado em 2021, com espelho primário de segmentos hexagonais dourados.",
+        "variantes": [
+          "James Webb",
+          "JWST"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O telescópio James Webb não orbita a Terra. Ele fica a cerca de um milhão e meio de quilômetros daqui, perto de qual ponto?",
+      "resposta": "Ponto de Lagrange L2",
+      "distratores": [
+        "Ponto de Lagrange L1",
+        "Órbita da Lua",
+        "Órbita de Marte"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope",
+        "https://en.wikipedia.org/wiki/Lagrange_point"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "eclipse_solar_de_29_de_maio_de_1919",
+        "nome": "Eclipse solar de 29 de maio de 1919",
+        "descricao": "Eclipse total do Sol observado em Sobral e na ilha do Príncipe, que ajudou a confirmar a relatividade geral.",
+        "variantes": [
+          "Eclipse de Sobral"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eddington_experiment"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O eclipse solar de 1919, que ajudou a confirmar a relatividade de Einstein, foi observado na cidade de Sobral. Em que estado ela fica?",
+      "resposta": "Ceará",
+      "distratores": [
+        "Piauí",
+        "Maranhão",
+        "Pernambuco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eddington_experiment",
+        "https://pt.wikipedia.org/wiki/Sobral_(Cear%C3%A1)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "vostok_1",
+        "nome": "Vostok 1",
+        "descricao": "Missão soviética de abril de 1961, o primeiro voo espacial tripulado da história.",
+        "variantes": [
+          "Vostok-1"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vostok_1"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em 1961, Iuri Gagarin deu uma volta completa em torno da Terra. Quanto tempo durou o seu voo inteiro?",
+      "resposta": "Cerca de 108 minutos",
+      "distratores": [
+        "Cerca de 15 minutos",
+        "Cerca de 6 horas",
+        "Cerca de 2 dias"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vostok_1"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "estacao_espacial_internacional",
+        "nome": "Estação Espacial Internacional",
+        "descricao": "Laboratório espacial habitado em órbita baixa da Terra, construído por várias agências espaciais.",
+        "variantes": [
+          "ISS",
+          "EEI"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/International_Space_Station"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A Estação Espacial Internacional viaja a cerca de vinte e oito mil quilômetros por hora. Quanto tempo ela leva para dar uma volta na Terra?",
+      "resposta": "Cerca de 90 minutos",
+      "distratores": [
+        "Cerca de 30 minutos",
+        "Cerca de 12 horas",
+        "Cerca de 24 horas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/International_Space_Station"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "eclipse_lunar",
+        "nome": "Eclipse lunar",
+        "descricao": "Fenômeno em que a Terra fica entre o Sol e a Lua, e sua sombra cobre a Lua.",
+        "variantes": [
+          "Eclipse da Lua"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lunar_eclipse"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Um eclipse lunar não acontece em qualquer noite. Em qual fase a Lua precisa estar para que ele ocorra?",
+      "resposta": "Lua cheia",
+      "distratores": [
+        "Lua nova",
+        "Quarto crescente",
+        "Quarto minguante"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lunar_eclipse"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "solsticio",
+        "nome": "Solstício",
+        "descricao": "Momento do ano em que o Sol atinge sua maior declinação, marcando o dia mais longo ou o mais curto do ano.",
+        "variantes": [
+          "Solstice"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Solstice"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra solstício, data do dia mais longo ou mais curto do ano, tem origem latina. Que ideia ela expressa?",
+      "resposta": "Sol parado",
+      "distratores": [
+        "Sol nascente",
+        "Sol dividido",
+        "Noite curta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Solstice"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "falcon_9",
+        "nome": "Falcon 9",
+        "descricao": "Foguete de dois estágios parcialmente reutilizável da SpaceX, cujo primeiro estágio pousa na vertical.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Falcon_9"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome do foguete Falcon 9, da SpaceX, foi inspirado em qual nave da ficção científica?",
+      "resposta": "Millennium Falcon",
+      "distratores": [
+        "Enterprise",
+        "Serenity",
+        "Nostromo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Falcon_9"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "stephen_hawking",
+        "nome": "Stephen Hawking",
+        "descricao": "Físico teórico e cosmólogo inglês, professor lucasiano em Cambridge, conhecido por estudos sobre buracos negros.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Stephen_Hawking"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Stephen Hawking nasceu em 8 de janeiro de 1942, exatamente trezentos anos depois da morte de qual cientista?",
+      "resposta": "Galileu Galilei",
+      "distratores": [
+        "Isaac Newton",
+        "Johannes Kepler",
+        "Nicolau Copérnico"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stephen_Hawking",
+        "https://en.wikipedia.org/wiki/Galileo_Galilei"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "carl_sagan",
+        "nome": "Carl Sagan",
+        "descricao": "Astrônomo e divulgador científico americano (1934–1996), autor e apresentador da série Cosmos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Carl_Sagan"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que filme de 1997, estrelado por Jodie Foster, adapta um romance de Carl Sagan sobre uma mensagem de rádio vinda das estrelas?",
+      "resposta": "Contato",
+      "distratores": [
+        "Interestelar",
+        "Gravidade",
+        "A Chegada"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Contact_(1997_American_film)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "apollo_13",
+        "nome": "Apollo 13",
+        "descricao": "Missão lunar da NASA de abril de 1970, cujo pouso foi cancelado após um acidente a bordo, com retorno seguro da tripulação.",
+        "variantes": [
+          "Apolo 13"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Apollo_13"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "No filme de 1995 sobre a missão Apollo 13, que ator interpretou o comandante Jim Lovell?",
+      "resposta": "Tom Hanks",
+      "distratores": [
+        "Kevin Costner",
+        "Ed Harris",
+        "Harrison Ford"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Apollo_13_(film)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cometa_halley",
+        "nome": "Cometa Halley",
+        "descricao": "Cometa periódico visível a olho nu que volta às proximidades da Terra em intervalos regulares.",
+        "variantes": [
+          "Halley",
+          "1P/Halley"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Halley%27s_Comet"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que famoso bordado medieval, que narra a conquista normanda da Inglaterra em 1066, mostra a passagem do cometa Halley?",
+      "resposta": "Tapeçaria de Bayeux",
+      "distratores": [
+        "A Dama e o Unicórnio",
+        "Livro de Kells",
+        "Tapeçaria de Gobelins"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bayeux_Tapestry",
+        "https://en.wikipedia.org/wiki/Halley%27s_Comet"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "big_bang",
+        "nome": "Big Bang",
+        "descricao": "Teoria cosmológica segundo a qual o universo se expande a partir de um estado inicial muito quente e denso.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Big_Bang"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Uma radiação fraca, que chega de todas as direções do céu, é considerada o eco do Big Bang. Como ela se chama?",
+      "resposta": "Radiação cósmica de fundo",
+      "distratores": [
+        "Vento solar",
+        "Raios cósmicos",
+        "Radiação Hawking"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cosmic_microwave_background"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Perseidas",
+        "descricao": "Chuva de meteoros anual, com pico em agosto, cujos meteoros parecem vir da constelação de Perseu.",
+        "variantes": [
+          "Perseids",
+          "Lágrimas de São Lourenço"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Perseids",
+          "https://pt.wikipedia.org/wiki/Perseidas"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Todo mês de agosto, a chuva de meteoros Perseidas acontece quando a Terra atravessa a poeira deixada por qual cometa?",
+      "resposta": "Swift-Tuttle",
+      "distratores": [
+        "Halley",
+        "Hale-Bopp",
+        "Encke"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Perseids"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "laika",
+        "nome": "Laika",
+        "descricao": "Cadela soviética lançada ao espaço a bordo do Sputnik 2, em 1957.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Laika"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Por muitos anos, os soviéticos esconderam como a cadela Laika morreu, poucas horas após o lançamento. O que a matou?",
+      "resposta": "Superaquecimento da cápsula",
+      "distratores": [
+        "Falta de comida",
+        "Frio extremo",
+        "Falta de oxigênio"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Laika"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "telescopio_espacial_hubble",
+        "nome": "Telescópio Espacial Hubble",
+        "descricao": "Telescópio espacial da NASA e da ESA em órbita baixa da Terra, lançado em 1990.",
+        "variantes": [
+          "Hubble"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hubble_Space_Telescope"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Logo depois do lançamento, em 1990, as imagens do telescópio Hubble saíram borradas. Qual era o problema?",
+      "resposta": "Defeito no espelho principal",
+      "distratores": [
+        "Lente rachada",
+        "Antena desalinhada",
+        "Painel solar quebrado"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hubble_Space_Telescope"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "centro_de_lancamento_de_alcantara",
+        "nome": "Centro de Lançamento de Alcântara",
+        "descricao": "Base brasileira de lançamento de foguetes, próxima à linha do Equador.",
+        "variantes": [
+          "CLA",
+          "Base de Alcântara"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alc%C3%A2ntara_Space_Center"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Por que é vantajoso lançar foguetes de Alcântara, no Maranhão, tão perto da linha do Equador?",
+      "resposta": "Impulso da rotação terrestre",
+      "distratores": [
+        "Menos chuva na região",
+        "Ar mais rarefeito",
+        "Gravidade mais forte"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alc%C3%A2ntara_Space_Center"
+      ]
+    }
+  ]
+}
