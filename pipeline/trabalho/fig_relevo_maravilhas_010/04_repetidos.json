@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta ilha vulcânica grega faz parte de que arquipélago?",
+        "resposta": "Cíclades"
+      },
+      "existentes": [
+        {
+          "id": "q02339",
+          "pergunta": "Em que mar fica esta ilha grega?",
+          "resposta": "Mar Egeu"
+        },
+        {
+          "id": "q05839",
+          "pergunta": "A erupção que devastou a ilha grega de Santorini e enterrou o povoado de Akrotiri aconteceu em qual destas épocas?",
+          "resposta": "Idade do Bronze"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que estado dos Estados Unidos fica este lago salgado?",
+        "resposta": "Utah"
+      },
+      "existentes": [
+        {
+          "id": "q17025",
+          "pergunta": "Este grande lago fica em qual estado americano?",
+          "resposta": "Utah"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Arquipélago (Cíclades) é fato diferente do mar (Egeu) e da época da erupção."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam em qual estado americano fica o lago, resposta Utah.",
+      "id_existente": "q17025"
+    }
+  ]
+}

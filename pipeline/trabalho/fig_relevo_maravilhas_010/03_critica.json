@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Santorini é o membro mais ao sul das Cíclades. O enunciado não vaza a resposta, e os distratores são outros grupos de ilhas gregas que não incluem Santorini.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O trecho da Wikipédia diz rio Liuzhi, mas a cachoeira costuma ser citada no rio Baishui. Como a resposta única fica em dúvida, descarto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que a laguna fica aos pés do Licancabur, que aparece ao fundo. O enunciado não vaza a resposta, e os distratores são vulcões andinos críveis que não estão ao fundo desta laguna.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato é confirmado (Utah). Mas \"visto do espaço\" afirma algo sobre a foto que não está em `mostra` e que não dá para verificar. Retirei essa expressão.",
+      "reescrita": {
+        "pergunta": "Em que estado dos Estados Unidos fica este lago salgado?",
+        "resposta": "Utah",
+        "distratores": [
+          "Nevada",
+          "Idaho",
+          "Colorado"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Ligado ao Pão de Açúcar pelo bondinho\" entrega a resposta sem olhar a figura, porque o bondinho para na Urca. \"À direita na foto\" também não dá para verificar. Reescrevi só com o reconhecimento do morro.",
+      "reescrita": {
+        "pergunta": "Que morro do Rio de Janeiro é este?",
+        "resposta": "Morro da Urca",
+        "distratores": [
+          "Morro Dois Irmãos",
+          "Corcovado",
+          "Pedra da Gávea"
+        ]
+      }
+    }
+  ]
+}

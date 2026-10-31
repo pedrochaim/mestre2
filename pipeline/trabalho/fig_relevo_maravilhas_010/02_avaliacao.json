@@ -1,0 +1,156 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida da caldera em anel, inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta ilha vulcânica grega faz parte de que arquipélago?",
+      "resposta": "Cíclades",
+      "distratores": [
+        "Dodecaneso",
+        "Ilhas Jônicas",
+        "Espórades"
+      ],
+      "ancora": {
+        "nome": "Santorini",
+        "descricao": "Ilha grega do Mar Egeu formada em torno de uma caldera vulcânica, no sul das Cíclades.",
+        "variantes": [
+          "Thira",
+          "Thera"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cachoeira larga e característica, sem texto; reconhecível por especialistas, múltipla escolha deixa justo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Esta cachoeira chinesa fica em qual rio?",
+      "resposta": "Rio Liuzhi",
+      "distratores": [
+        "Rio Yangtzé",
+        "Rio Amarelo",
+        "Rio das Pérolas"
+      ],
+      "ancora": {
+        "nome": "Cachoeira de Huangguoshu",
+        "descricao": "Maior cachoeira da China, no rio Liuzhi, em Anshun, província de Guizhou.",
+        "variantes": [
+          "Huangguoshu Waterfall",
+          "Cataratas de Huangguoshu"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Rochas esféricas isoladas no deserto; formações parecidas existem em outros lugares e nada na imagem identifica o parque."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Mostra um prédio genérico com bandeiras, sem paisagem que permita reconhecer Bora Bora."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Imagem de satélite de um lago sem traços que o identifiquem com segurança; difícil demais."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto antiga de quedas d'água que não permite distinguir de outras cachoeiras, como as do Iguaçu; resposta não única."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Ponte sobre rio largo e cidade ao fundo; nada permite reconhecer o Neva com segurança."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Laguna turquesa com cone vulcânico nevado ao fundo, característico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que vulcão aparece ao fundo desta laguna boliviana?",
+      "resposta": "Licancabur",
+      "distratores": [
+        "Ojos del Salado",
+        "Sajama",
+        "Llullaillaco"
+      ],
+      "ancora": {
+        "nome": "Laguna Verde (Bolívia)",
+        "descricao": "Lago salgado turquesa no Altiplano boliviano, no departamento de Potosí, aos pés do vulcão Licancabur.",
+        "variantes": [
+          "Laguna Verde"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem de satélite de um lago sem traços distintivos; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com a divisão de cores causada pelo aterro ferroviário, característica do lago.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que estado dos Estados Unidos fica este lago visto do espaço?",
+      "resposta": "Utah",
+      "distratores": [
+        "Nevada",
+        "Idaho",
+        "Colorado"
+      ],
+      "ancora": {
+        "nome": "Grande Lago Salgado",
+        "descricao": "Maior lago de água salgada do Hemisfério Ocidental, em Utah, nos Estados Unidos.",
+        "variantes": [
+          "Great Salt Lake"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Estalactites e colunas genéricas; muitas cavernas se parecem, resposta não única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto mostra o Pão de Açúcar à esquerda e o Morro da Urca à direita, ambos reconhecíveis.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que morro aparece à direita na foto, ligado ao Pão de Açúcar pelo bondinho?",
+      "resposta": "Morro da Urca",
+      "distratores": [
+        "Morro Dois Irmãos",
+        "Corcovado",
+        "Pedra da Gávea"
+      ],
+      "ancora": {
+        "nome": "Morro da Urca",
+        "descricao": "Morro do Rio de Janeiro, no bairro da Urca, primeira parada do bondinho que leva ao Pão de Açúcar.",
+        "variantes": [
+          "Urca"
+        ]
+      }
+    }
+  ]
+}
