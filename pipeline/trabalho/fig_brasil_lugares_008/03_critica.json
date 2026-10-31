@@ -1,0 +1,47 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza, resposta única (Petrópolis, confirmada nos trechos), distratores plausíveis de cidades fluminenses.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto e sem vazamento, mas os distratores não são do mesmo tipo da resposta: Itacaré é município, Morro de São Paulo e Barra Grande são vilas ou localidades, não praias. Troquei por praias baianas.",
+      "reescrita": {
+        "pergunta": "Que praia baiana é esta?",
+        "resposta": "Praia do Forte",
+        "distratores": [
+          "Praia de Itapuã",
+          "Praia do Espelho",
+          "Taipu de Fora"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Belo Horizonte confirmada nos trechos. O enunciado não nomeia o palácio nem a cidade, e os distratores são plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mato Grosso do Sul confirmado nos trechos. 'Dolina' descreve a figura sem entregar o estado, e os distratores são estados plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Viaduto do Chá sobre o Vale do Anhangabaú confirmado nos trechos. A pista do vale não identifica sozinha, porque outros viadutos também o cruzam, e a figura decide. Distratores do mesmo tipo e com até 4 palavras.",
+      "reescrita": null
+    }
+  ]
+}

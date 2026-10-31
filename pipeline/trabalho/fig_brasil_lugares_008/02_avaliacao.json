@@ -1,0 +1,148 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Vista genérica de orla com prédios, sem elemento que permita reconhecer a Praia de Iracema; poderia ser outra praia de Fortaleza."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada marcante do palácio, com brasão da República; reconhecível e sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fluminense fica este palácio?",
+      "resposta": "Petrópolis",
+      "distratores": [
+        "Teresópolis",
+        "Nova Friburgo",
+        "Angra dos Reis"
+      ],
+      "ancora": {
+        "nome": "Palácio Rio Negro",
+        "descricao": "Palácio histórico amarelo em Petrópolis, no estado do Rio de Janeiro, antiga residência de verão dos presidentes.",
+        "variantes": [
+          "Palácio Rio Negro de Petrópolis"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O letreiro \"Itaipava Arena Fonte Nova\" está visível no estádio e entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Igrejinha branca de portas azuis junto ao mar, imagem característica de Praia do Forte; sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que praia baiana é esta?",
+      "resposta": "Praia do Forte",
+      "distratores": [
+        "Morro de São Paulo",
+        "Itacaré",
+        "Barra Grande"
+      ],
+      "ancora": {
+        "nome": "Praia do Forte",
+        "descricao": "Praia e vila no município de Mata de São João, Bahia, a cerca de 80 km de Salvador.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pessoas comuns penduradas no bonde em primeiro plano."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Vista aérea de cidade litorânea sem elemento distintivo; Itacaré não é reconhecível pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fachada do palácio visível e sem texto; edifício único e reconhecível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que capital brasileira fica este palácio?",
+      "resposta": "Belo Horizonte",
+      "distratores": [
+        "Ouro Preto",
+        "Curitiba",
+        "Porto Alegre"
+      ],
+      "ancora": {
+        "nome": "Palácio da Liberdade",
+        "descricao": "Palácio histórico em Belo Horizonte, antiga sede do governo de Minas Gerais, no alto da Praça da Liberdade.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Interior do estádio com faixas e patrocinadores e torcedores em primeiro plano; não há elemento que identifique a Vila Belmiro com segurança."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Vista aérea de cidade com rio e morros, sem marco que permita reconhecer Blumenau."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Grande dolina com mata no fundo, aspecto distintivo, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que estado fica esta grande dolina?",
+      "resposta": "Mato Grosso do Sul",
+      "distratores": [
+        "Mato Grosso",
+        "Goiás",
+        "Minas Gerais"
+      ],
+      "ancora": {
+        "nome": "Buraco das Araras",
+        "descricao": "Grande dolina de cerca de 500 metros de diâmetro, em reserva particular perto de Jardim, Mato Grosso do Sul.",
+        "variantes": [
+          "Reserva Particular do Patrimônio Natural Buraco das Araras"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A fachada traz o nome \"Estádio Municipal Paulo Machado de Carvalho\", que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Viaduto sobre o Vale do Anhangabaú, com o prédio da Prefeitura ao fundo; sem texto que entregue; pessoas pequenas e ao fundo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que viaduto paulistano é este, sobre o Vale do Anhangabaú?",
+      "resposta": "Viaduto do Chá",
+      "distratores": [
+        "Viaduto Santa Ifigênia",
+        "Viaduto Nove de Julho",
+        "Viaduto Major Quedinho"
+      ],
+      "ancora": {
+        "nome": "Viaduto do Chá",
+        "descricao": "Viaduto de concreto sobre o Vale do Anhangabaú, no centro de São Paulo, o primeiro construído na cidade.",
+        "variantes": []
+      }
+    }
+  ]
+}

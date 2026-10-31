@@ -383,7 +383,7 @@
       "titulo": "en:Viaduto do Chá",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Edifício Itália",
@@ -621,14 +621,14 @@
       "titulo": "en:Pacaembu Stadium",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Arena Fonte Nova",
       "titulo": "en:Arena Fonte Nova",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Ponte da Amizade",
@@ -768,7 +768,7 @@
       "titulo": "en:Palácio da Liberdade",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Museu da Inconfidência",
@@ -839,6 +839,293 @@
       "camada": 3,
       "destino": 1,
       "status": "sem_imagem"
+    },
+    {
+      "nome": "Bondinho do Pão de Açúcar",
+      "titulo": "en:Sugarloaf Cable Car",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bonde de Santa Teresa",
+      "titulo": "en:Santa Teresa Tram",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Autódromo de Interlagos",
+      "titulo": "en:Interlagos Circuit",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estátua do Padre Cícero",
+      "titulo": "pt:Estátua de Padre Cícero",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fortaleza",
+      "titulo": "en:Fortaleza",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Natal",
+      "titulo": "en:Natal, Rio Grande do Norte",
+      "camada": 1,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Niterói",
+      "titulo": "en:Niterói",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Santos",
+      "titulo": "en:Santos, São Paulo",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Porto Seguro",
+      "titulo": "en:Porto Seguro",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Leblon",
+      "titulo": "en:Leblon",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Barra da Tijuca",
+      "titulo": "en:Barra da Tijuca",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Maceió",
+      "titulo": "en:Maceió",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Vila Belmiro",
+      "titulo": "en:Estádio Urbano Caldeira",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Catedral de Pedra de Canela",
+      "titulo": "pt:Catedral de Pedra",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena do Grêmio",
+      "titulo": "en:Arena do Grêmio",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena Castelão",
+      "titulo": "en:Castelão (Fortaleza)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Praia do Forte",
+      "titulo": "en:Praia do Forte",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Itacaré",
+      "titulo": "en:Itacaré",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Alter do Chão",
+      "titulo": "en:Alter do Chão",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Angra dos Reis",
+      "titulo": "en:Angra dos Reis",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Serra do Cipó",
+      "titulo": "en:Serra do Cipó National Park",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Terceira Ponte",
+      "titulo": "en:Terceira Ponte",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Blumenau",
+      "titulo": "en:Blumenau",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Praia de Boa Viagem",
+      "titulo": "en:Boa Viagem",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Praia de Iracema",
+      "titulo": "en:Praia de Iracema",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mariana",
+      "titulo": "en:Mariana, Minas Gerais",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Capitólio",
+      "titulo": "en:Capitólio",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cachoeira de Paulo Afonso",
+      "titulo": "en:Paulo Afonso Falls",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vista Chinesa",
+      "titulo": "pt:Vista Chinesa",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fortaleza de Santa Cruz da Barra",
+      "titulo": "en:Fortress of Santa Cruz da Barra",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Santuário Dom Bosco",
+      "titulo": "pt:Santuário Dom Bosco",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Panteão da Pátria",
+      "titulo": "en:Pantheon of the Fatherland and Freedom Tancredo Neves",
+      "camada": 3,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Alcântara",
+      "titulo": "en:Alcântara, Maranhão",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedra Azul",
+      "titulo": "pt:Parque Estadual da Pedra Azul",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Casa de Cultura Mario Quintana",
+      "titulo": "en:Casa de Cultura Mario Quintana",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Guaíra",
+      "titulo": "pt:Teatro Guaíra",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Morro da Igreja",
+      "titulo": "pt:Morro da Igreja",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lagoa do Abaeté",
+      "titulo": "pt:Lagoa do Abaeté",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Buraco das Araras",
+      "titulo": "pt:Buraco das Araras",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Palácio Rio Negro",
+      "titulo": "pt:Palácio Rio Negro",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "São João del-Rei",
+      "titulo": "en:São João del-Rei",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
     }
   ]
 }

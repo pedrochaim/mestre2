@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que capital brasileira fica este palácio?",
+        "resposta": "Belo Horizonte"
+      },
+      "existentes": [
+        {
+          "id": "q16735",
+          "pergunta": "Em que cidade fica este palácio do governo estadual?",
+          "resposta": "Belo Horizonte"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a cidade (Belo Horizonte) onde fica o mesmo palácio; quem soubesse uma saberia a outra.",
+      "id_existente": "q16735"
+    }
+  ]
+}
