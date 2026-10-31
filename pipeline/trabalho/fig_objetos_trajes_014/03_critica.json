@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro; distratores parecidos visualmente e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a função do agal (prender o lenço), o que permite responder sem ver a figura. Basta apontar o cordão na foto, sem a definição funcional. A 'quefia' fica excluída como distrator porque o enunciado já a trata como lenço.",
+      "reescrita": {
+        "pergunta": "Como se chama o cordão preto que este homem usa sobre o lenço da cabeça?",
+        "resposta": "Agal",
+        "distratores": [
+          "Quefia",
+          "Fez",
+          "Turbante"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de nível 1; distratores são outros aparelhos de ar, plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples; distratores de tecidos domésticos, nenhum correto para uma toalha de praia.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro; resposta correta e distratores de utensílios de cozinha distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Facas de cozinha são um único assunto; enunciado sem vazamento e distratores incorretos.",
+      "reescrita": null
+    }
+  ]
+}

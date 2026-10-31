@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que aparelho é este?",
+        "resposta": "Ventilador"
+      },
+      "existentes": [
+        {
+          "id": "q11767",
+          "pergunta": "Que aparelho doméstico é este?",
+          "resposta": "Ventilador"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q11767",
+      "motivo": "Ambas pedem a identificação do mesmo aparelho (ventilador) a partir da imagem; mesma resposta e mesmo fato."
+    }
+  ]
+}

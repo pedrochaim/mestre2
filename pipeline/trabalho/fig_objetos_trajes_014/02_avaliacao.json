@@ -1,0 +1,198 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Duas mamadeiras nítidas; só há escala de volume, sem entregar o nome. Família 'onde' não rende; trocada por o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que objeto é este?",
+      "resposta": "Mamadeira",
+      "distratores": [
+        "Garrafa térmica",
+        "Copo de treinamento",
+        "Frasco de soro"
+      ],
+      "ancora": {
+        "nome": "Mamadeira",
+        "descricao": "Frasco com bico de borracha ou silicone usado para alimentar bebês.",
+        "variantes": [
+          "Mamadeira de bebê"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Pincel de barbear em fundo branco, nítido e reconhecível. Família 'onde' não serve; trocada por o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que objeto é este?",
+      "resposta": "Pincel de barbear",
+      "distratores": [
+        "Pincel de maquiagem",
+        "Escova de roupa",
+        "Espanador de pó"
+      ],
+      "ancora": {
+        "nome": "Pincel de barbear",
+        "descricao": "Pincel de cerdas macias usado para fazer espuma de sabão e aplicá-la no rosto ao se barbear.",
+        "variantes": [
+          "Blaireau",
+          "Pincel de barba"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública árabe com o agal bem visível sobre o lenço; pergunta centrada no acessório.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Como se chama o aro preto de corda que prende o lenço na cabeça do homem desta foto?",
+      "resposta": "Agal",
+      "distratores": [
+        "Quefia",
+        "Fez",
+        "Turbante"
+      ],
+      "ancora": {
+        "nome": "Agal",
+        "descricao": "Cordão preto duplo usado por homens árabes para manter o lenço quefia preso à cabeça.",
+        "variantes": [
+          "Iqal",
+          "Egal",
+          "Igal"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Ventilador de clipe, nítido; o logotipo da marca não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que aparelho é este?",
+      "resposta": "Ventilador",
+      "distratores": [
+        "Aquecedor elétrico",
+        "Umidificador",
+        "Purificador de ar"
+      ],
+      "ancora": {
+        "nome": "Ventilador",
+        "descricao": "Aparelho com pás giratórias que produz corrente de ar, aqui na versão de mesa com clipe.",
+        "variantes": [
+          "Ventilador de mesa",
+          "Ventilador de clipe"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano usando o chapéu."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Mulheres comuns em primeiro plano, com texto em cirílico nos estandartes; imagem cheia de elementos."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Toalha de praia sobre a areia, textura felpuda visível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que objeto é este?",
+      "resposta": "Toalha",
+      "distratores": [
+        "Cobertor",
+        "Tapete",
+        "Lençol"
+      ],
+      "ancora": {
+        "nome": "Toalha",
+        "descricao": "Peça de tecido absorvente usada para secar o corpo ou superfícies, aqui uma toalha de praia.",
+        "variantes": [
+          "Toalha de praia",
+          "Toalha de banho"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano; camiseta com texto visível."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Montagem de várias chuteiras de épocas diferentes, com anos escritos."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Três batedores de metal, todos do mesmo tipo de utensílio, fundo neutro e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que utensílio de cozinha é este?",
+      "resposta": "Batedor de ovos (fouet)",
+      "distratores": [
+        "Escumadeira",
+        "Espremedor de batata",
+        "Concha"
+      ],
+      "ancora": {
+        "nome": "Batedor de ovos (fouet)",
+        "descricao": "Utensílio de cozinha de arames metálicos usado para bater claras, cremes e misturas.",
+        "variantes": [
+          "Fouet",
+          "Batedor de claras",
+          "Whisk"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Mulheres comuns em primeiro plano, numa rua, sem ser festa pública."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Quatro facas de cozinha sobre fundo branco; o pequeno rótulo no cabo não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que utensílios de cozinha são estes?",
+      "resposta": "Facas",
+      "distratores": [
+        "Espátulas",
+        "Tesouras",
+        "Espetos"
+      ],
+      "ancora": {
+        "nome": "Faca",
+        "descricao": "Utensílio com lâmina cortante presa a um cabo, aqui facas de cozinha de vários tamanhos.",
+        "variantes": [
+          "Facas",
+          "Faca de cozinha"
+        ]
+      }
+    }
+  ]
+}
