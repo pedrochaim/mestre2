@@ -1,0 +1,99 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que macaco sul-americano é este?",
+        "resposta": "Parauacu-de-cara-branca"
+      },
+      "existentes": [
+        {
+          "id": "q16064",
+          "pergunta": "Que macaco sul-americano é este?",
+          "resposta": "Parauacu-de-cara-branca"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A que ordem de mamíferos pertence este animal?",
+        "resposta": "Sirênios"
+      },
+      "existentes": [
+        {
+          "id": "q02057",
+          "pergunta": "Que mamífero aquático é este?",
+          "resposta": "Peixe-boi-marinho"
+        },
+        {
+          "id": "q02533",
+          "pergunta": "A ordem que reúne peixes-bois e dugongos tem o nome de que seres mitológicos, ligados a esses animais por relatos de antigos marinheiros?",
+          "resposta": "Sereias"
+        },
+        {
+          "id": "q02534",
+          "pergunta": "Apesar do nome, o peixe-boi não é parente do boi. Que grandes mamíferos terrestres estão entre os seus parentes vivos mais próximos?",
+          "resposta": "Elefantes"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que animal pré-histórico é este?",
+        "resposta": "Mastodonte"
+      },
+      "existentes": [
+        {
+          "id": "q08337",
+          "pergunta": "O nome mastodonte vem do formato das saliências de seus dentes, que lembravam que parte do corpo humano?",
+          "resposta": "Mamilos"
+        },
+        {
+          "id": "q15633",
+          "pergunta": "Que animal extinto, parente dos elefantes, é este?",
+          "resposta": "Mastodonte"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Os fósseis que deram nome ao gênero deste felino extinto foram achados em que país?",
+        "resposta": "Brasil"
+      },
+      "existentes": [
+        {
+          "id": "q02748",
+          "pergunta": "O gênero Smilodon, o famoso tigre-dentes-de-sabre, foi batizado no século dezenove por um naturalista europeu que estudava cavernas de Minas Gerais. Quem?",
+          "resposta": "Peter Lund"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Pergunta e resposta idênticas.",
+      "id_existente": "q16064"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Ordem dos sirênios como resposta; a existente sobre sereias pergunta o nome mitológico, e outras são sobre espécie e parentesco. Fato diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Identificar o animal da imagem como mastodonte: mesmo fato.",
+      "id_existente": "q15633"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "País onde foram achados os fósseis é diferente de quem batizou o gênero."
+    }
+  ]
+}

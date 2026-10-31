@@ -1,0 +1,82 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta, sem vazamento; distratores do mesmo tipo e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado só dá o grupo (macaco sul-americano); distratores são primatas sul-americanos parecidos, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a ordem Sirenia. O enunciado não entrega nada e os distratores são ordens ou grupos de mamíferos marinhos ou afins, todos errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples; distratores são outros proboscídeos extintos, nenhum correto para o mastodonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pichiciego' também nomeia o pichiciego-maior, outro tatu. O trecho pt-wiki dá o nome específico da espécie mostrada: pichiciego-menor.",
+      "reescrita": {
+        "pergunta": "Que tatu é este?",
+        "resposta": "Pichiciego-menor",
+        "distratores": [
+          "Tatu-bola",
+          "Tatu-peludo",
+          "Tatu-galinha"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta simples sem vazamento; distratores são roedores de estimação, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fato bem documentado: Lund nomeou Smilodon em 1842 a partir de fósseis das cavernas de Lagoa Santa, no Brasil. O enunciado não nomeia o animal e os distratores são países onde há fósseis, mas não os que deram nome ao gênero.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores são os outros camelídeos sul-americanos, nenhum correto. O enunciado só dá o grupo.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado só dá região e grupo; distratores incluem a espécie parecida (canelas-pretas), distinguível pela figura, e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; distratores são roedores sem semelhança com o planador, nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}

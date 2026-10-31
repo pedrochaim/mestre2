@@ -1,0 +1,259 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Doninha-anã e arminho (e outras doninhas) são muito parecidos nesta foto, sem a cauda visível; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida, animal reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que macaco é este?",
+      "resposta": "Sagui-pigmeu",
+      "distratores": [
+        "Sagui-de-tufo-branco",
+        "Mico-leão-dourado",
+        "Sagui-imperador"
+      ],
+      "ancora": {
+        "nome": "Sagui-pigmeu",
+        "descricao": "Pequeno macaco do gênero Cebuella, o menor macaco do mundo, da Amazônia ocidental.",
+        "variantes": [
+          "Leãozinho",
+          "Cebuella pygmaea"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido com a face branca característica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que macaco sul-americano é este?",
+      "resposta": "Parauacu-de-cara-branca",
+      "distratores": [
+        "Cuxiú-preto",
+        "Uacari-calvo",
+        "Macaco-prego"
+      ],
+      "ancora": {
+        "nome": "Parauacu-de-cara-branca",
+        "descricao": "Macaco do Novo Mundo, Pithecia pithecia, de pelagem escura e face clara no macho.",
+        "variantes": [
+          "Macaco-voador",
+          "Pithecia pithecia",
+          "Parauacu"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto subaquática clara, mãe e filhote da mesma espécie.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "A que ordem de mamíferos pertence este animal?",
+      "resposta": "Sirênios",
+      "distratores": [
+        "Cetáceos",
+        "Pinípedes",
+        "Proboscídeos"
+      ],
+      "ancora": {
+        "nome": "Peixe-boi-marinho",
+        "descricao": "Grande mamífero aquático herbívoro, Trichechus manatus, das costas quentes do Caribe ao norte do Brasil.",
+        "variantes": [
+          "Peixe-boi",
+          "Peixe-boi-da-Flórida",
+          "Trichechus manatus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Reconstrução clara, de perfil; o texto '3.0 m' da escala não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que animal pré-histórico é este?",
+      "resposta": "Mastodonte",
+      "distratores": [
+        "Mamute-lanoso",
+        "Deinotério",
+        "Estegodonte"
+      ],
+      "ancora": {
+        "nome": "Mastodonte",
+        "descricao": "Proboscídeo extinto do gênero Mammut, da América do Norte, parente dos elefantes.",
+        "variantes": [
+          "Mammut",
+          "Mastodonte-americano"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem um pouco desfocada, mas a carapaça rosada e o corpo peludo são reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tatu é este?",
+      "resposta": "Pichiciego",
+      "distratores": [
+        "Tatu-bola",
+        "Tatu-peludo",
+        "Tatu-galinha"
+      ],
+      "ancora": {
+        "nome": "Pichiciego",
+        "descricao": "Menor espécie de tatu, Chlamyphorus truncatus, de carapaça rosada, do centro da Argentina.",
+        "variantes": [
+          "Tatu-rosado",
+          "Pichi",
+          "Chlamyphorus truncatus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de gerbilo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que roedor é este?",
+      "resposta": "Gerbilo",
+      "distratores": [
+        "Hamster-sírio",
+        "Camundongo",
+        "Porquinho-da-índia"
+      ],
+      "ancora": {
+        "nome": "Gerbilo",
+        "descricao": "Pequeno roedor da subfamília Gerbillinae, como o gerbilo-da-mongólia, criado como animal de estimação.",
+        "variantes": [
+          "Gerbo",
+          "Esquilo-da-mongólia",
+          "Meriones unguiculatus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Gravura antiga com dois animais (um segundo macaco ao fundo) e assinaturas; a identificação da espécie pelo desenho não é segura."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Reconstrução nítida, de perfil, com os dentes de sabre visíveis.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Os fósseis que deram nome ao gênero deste felino extinto foram achados em que país?",
+      "resposta": "Brasil",
+      "distratores": [
+        "Argentina",
+        "Estados Unidos",
+        "México"
+      ],
+      "ancora": {
+        "nome": "Tigre-dente-de-sabre",
+        "descricao": "Felino extinto do gênero Smilodon, de longos caninos, que viveu nas Américas no Pleistoceno.",
+        "variantes": [
+          "Smilodon",
+          "Tigre-dente-de-sabre",
+          "Gato-dente-de-sabre"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de corpo inteiro, com a cabeça cinza e as pernas claras características.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que camelídeo sul-americano é este?",
+      "resposta": "Guanaco",
+      "distratores": [
+        "Lhama",
+        "Vicunha",
+        "Alpaca"
+      ],
+      "ancora": {
+        "nome": "Guanaco",
+        "descricao": "Camelídeo selvagem sul-americano, Lama guanicoe, ancestral da lhama.",
+        "variantes": [
+          "Lama guanicoe",
+          "Guanaco"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto legível, com a pelagem de pernas vermelhas visível; todos os animais são da mesma espécie.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que macaco do sudeste asiático é este?",
+      "resposta": "Douc-de-canelas-vermelhas",
+      "distratores": [
+        "Langur-prateado",
+        "Macaco-narigudo",
+        "Douc-de-canelas-pretas"
+      ],
+      "ancora": {
+        "nome": "Douc-de-canelas-vermelhas",
+        "descricao": "Macaco do Velho Mundo, Pygathrix nemaeus, colorido, do Laos, Vietnã e Camboja.",
+        "variantes": [
+          "Douc",
+          "Pygathrix nemaeus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida de esquilo-voador, reconhecível pelos olhos grandes e pela membrana lateral.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que roedor é este?",
+      "resposta": "Esquilo-voador",
+      "distratores": [
+        "Esquilo-vermelho",
+        "Marmota",
+        "Caxinguelê"
+      ],
+      "ancora": {
+        "nome": "Esquilo-voador",
+        "descricao": "Esquilo planador do gênero Glaucomys, aqui o esquilo-voador-do-sul, da América do Norte.",
+        "variantes": [
+          "Glaucomys volans",
+          "Esquilo-voador-mexicano"
+        ]
+      }
+    }
+  ]
+}

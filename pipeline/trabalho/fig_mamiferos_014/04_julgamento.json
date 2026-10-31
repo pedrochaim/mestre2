@@ -1,0 +1,645 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Sagui-pigmeu",
+        "descricao": "Pequeno macaco do gênero Cebuella, o menor macaco do mundo, da Amazônia ocidental.",
+        "variantes": [
+          "Leãozinho",
+          "Cebuella pygmaea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pelezinho",
+          "nome": "Pelezinho",
+          "descricao": "Garoto craque de bola da Turma do Pelezinho, de Mauricio de Sousa, baseado na infância de Pelé.",
+          "variantes": [
+            "Turma do Pelezinho"
+          ]
+        },
+        {
+          "id": "leao_marinho",
+          "nome": "Leão-marinho",
+          "descricao": "Mamífero marinho da família Otariidae, com orelhas externas, como o leão-marinho-da-califórnia.",
+          "variantes": [
+            "Leão-marinho-da-Califórnia",
+            "Otariidae"
+          ]
+        },
+        {
+          "id": "lao_zi",
+          "nome": "Lao Zi",
+          "descricao": "Filósofo chinês tradicionalmente tido como autor do Tao Te Ching e fundador do taoísmo.",
+          "variantes": [
+            "Laozi",
+            "Lao-Tsé",
+            "Laotsé",
+            "Lao Tzu"
+          ]
+        },
+        {
+          "id": "aleijadinho",
+          "nome": "Aleijadinho",
+          "descricao": "Antônio Francisco Lisboa, escultor e arquiteto do barroco mineiro do século dezoito.",
+          "variantes": [
+            "Antônio Francisco Lisboa"
+          ]
+        },
+        {
+          "id": "sagui_de_tufos_brancos",
+          "nome": "Sagui-de-tufos-brancos",
+          "descricao": "Primata do Novo Mundo, Callithrix jacchus, de tufos brancos nas orelhas, nativo do litoral do Nordeste brasileiro.",
+          "variantes": [
+            "Callithrix jacchus",
+            "Sagui-comum",
+            "Sagui-de-tufo-branco",
+            "Mico-estrela"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Parauacu-de-cara-branca",
+        "descricao": "Macaco do Novo Mundo, Pithecia pithecia, de pelagem escura e face clara no macho.",
+        "variantes": [
+          "Macaco-voador",
+          "Pithecia pithecia",
+          "Parauacu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "parauacu",
+          "nome": "Parauacu",
+          "descricao": "Macaco sul-americano de pelagem escura e rosto claro, Pithecia pithecia.",
+          "variantes": [
+            "Parauacu-de-cara-branca",
+            "Macaco-voador",
+            "White-faced saki",
+            "Pithecia pithecia"
+          ]
+        },
+        {
+          "id": "macaco_dourado_de_nariz_arrebitado",
+          "nome": "Macaco-dourado-de-nariz-arrebitado",
+          "descricao": "Macaco do Velho Mundo (Rhinopithecus roxellana) das florestas montanhosas do centro e sudoeste da China.",
+          "variantes": [
+            "Macaco-dourado",
+            "Rhinopithecus roxellana",
+            "Golden snub-nosed monkey"
+          ]
+        },
+        {
+          "id": "rio_paraguai",
+          "nome": "Rio Paraguai",
+          "descricao": "Rio sul-americano que nasce em Mato Grosso, atravessa o Pantanal e deságua no rio Paraná.",
+          "variantes": [
+            "Paraguai",
+            "Paraguay River",
+            "Río Paraguay"
+          ]
+        },
+        {
+          "id": "paraguai",
+          "nome": "Paraguai",
+          "descricao": "País sem litoral da América do Sul, com capital em Assunção.",
+          "variantes": [
+            "Paraguay",
+            "República do Paraguai"
+          ]
+        },
+        {
+          "id": "selecao_paraguaia_de_futebol",
+          "nome": "Seleção Paraguaia de Futebol",
+          "descricao": "Seleção masculina de futebol do Paraguai, apelidada La Albirroja.",
+          "variantes": [
+            "Paraguai",
+            "La Albirroja"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Peixe-boi-marinho",
+        "descricao": "Grande mamífero aquático herbívoro, Trichechus manatus, das costas quentes do Caribe ao norte do Brasil.",
+        "variantes": [
+          "Peixe-boi",
+          "Peixe-boi-da-Flórida",
+          "Trichechus manatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_boi_marinho",
+          "nome": "Peixe-boi-marinho",
+          "descricao": "Grande mamífero aquático herbívoro (Trichechus manatus) das costas quentes das Américas.",
+          "variantes": [
+            "Peixe-boi",
+            "Trichechus manatus",
+            "Manati"
+          ]
+        },
+        {
+          "id": "baiacu",
+          "nome": "Baiacu",
+          "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+          "variantes": [
+            "Peixe-balão",
+            "Tetraodontidae",
+            "Fugu"
+          ]
+        },
+        {
+          "id": "peixe_pescador_abissal",
+          "nome": "Peixe-pescador abissal",
+          "descricao": "Peixe das profundezas da subordem Ceratioidei, cuja fêmea tem uma isca luminosa na cabeça.",
+          "variantes": [
+            "Peixe-diabo",
+            "Ceratioidei",
+            "Deep-sea anglerfish"
+          ]
+        },
+        {
+          "id": "peixe_bolha",
+          "nome": "Peixe-bolha",
+          "descricao": "Peixe de águas profundas, Psychrolutes marcidus, que vive na costa da Austrália e da Nova Zelândia.",
+          "variantes": [
+            "Psychrolutes marcidus",
+            "Blobfish"
+          ]
+        },
+        {
+          "id": "peixe_lua",
+          "nome": "Peixe-lua",
+          "descricao": "Grande peixe oceânico de corpo achatado e arredondado (Mola mola), um dos peixes ósseos mais pesados.",
+          "variantes": [
+            "Mola mola",
+            "Ocean sunfish",
+            "Peixe-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mastodonte",
+        "descricao": "Proboscídeo extinto do gênero Mammut, da América do Norte, parente dos elefantes.",
+        "variantes": [
+          "Mammut",
+          "Mastodonte-americano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mastodonte",
+          "nome": "Mastodonte",
+          "descricao": "Gênero extinto de proboscídeo parente dos elefantes, que viveu na América do Norte até o fim da última era do gelo.",
+          "variantes": [
+            "Mammut",
+            "Mastodon"
+          ]
+        },
+        {
+          "id": "mamute_lanoso",
+          "nome": "Mamute-lanoso",
+          "descricao": "Espécie extinta de mamute coberto de pelos que viveu nas regiões frias da Eurásia e da América do Norte.",
+          "variantes": [
+            "Mammuthus primigenius",
+            "Woolly mammoth",
+            "Mamute"
+          ]
+        },
+        {
+          "id": "megalodonte",
+          "nome": "Megalodonte",
+          "descricao": "Espécie extinta de tubarão gigante que viveu entre o Mioceno e o Plioceno.",
+          "variantes": [
+            "Otodus megalodon",
+            "Megalodon",
+            "Carcharocles megalodon"
+          ]
+        },
+        {
+          "id": "toxodonte",
+          "nome": "Toxodonte",
+          "descricao": "Gênero extinto de grande ungulado notoungulado da América do Sul, do Plioceno ao Pleistoceno.",
+          "variantes": [
+            "Toxodon"
+          ]
+        },
+        {
+          "id": "bastiodon",
+          "nome": "Bastiodon",
+          "descricao": "Pokémon dos tipos Pedra e Aço, número 411 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Pichiciego",
+        "descricao": "Menor espécie de tatu, Chlamyphorus truncatus, de carapaça rosada, do centro da Argentina.",
+        "variantes": [
+          "Tatu-rosado",
+          "Pichi",
+          "Chlamyphorus truncatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pichu",
+          "nome": "Pichu",
+          "descricao": "Pokémon do tipo Elétrico, número 172 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "ichigo_kurosaki",
+          "nome": "Ichigo Kurosaki",
+          "descricao": "Adolescente de cabelo laranja que vira ceifador de almas, protagonista do mangá e anime Bleach.",
+          "variantes": [
+            "Ichigo"
+          ]
+        },
+        {
+          "id": "kimchi",
+          "nome": "Kimchi",
+          "descricao": "Acompanhamento coreano de legumes salgados e fermentados, geralmente repolho chinês com pimenta.",
+          "variantes": [
+            "Gimchi",
+            "Kimchee"
+          ]
+        },
+        {
+          "id": "itachi_uchiha",
+          "nome": "Itachi Uchiha",
+          "descricao": "Ninja do clã Uchiha, irmão mais velho de Sasuke e membro da Akatsuki em Naruto.",
+          "variantes": [
+            "Itachi"
+          ]
+        },
+        {
+          "id": "pilcha",
+          "nome": "Pilcha",
+          "descricao": "Indumentária tradicional do gaúcho, com bombacha, botas, lenço e chapéu para os homens.",
+          "variantes": [
+            "Pilcha gaúcha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Gerbilo",
+        "descricao": "Pequeno roedor da subfamília Gerbillinae, como o gerbilo-da-mongólia, criado como animal de estimação.",
+        "variantes": [
+          "Gerbo",
+          "Esquilo-da-mongólia",
+          "Meriones unguiculatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grilo",
+          "nome": "Grilo",
+          "descricao": "Inseto ortóptero de corpo cilíndrico e antenas longas, cujos machos cantam esfregando as asas.",
+          "variantes": [
+            "Gryllidae",
+            "Grylloidea",
+            "cricket"
+          ]
+        },
+        {
+          "id": "brasao_da_mongolia",
+          "nome": "Brasão da Mongólia",
+          "descricao": "Brasão de armas da Mongólia, com o símbolo Soyombo e um cavalo alado sobre fundo azul, cercado por um aro dourado.",
+          "variantes": [
+            "Mongólia",
+            "Emblema da Mongólia"
+          ]
+        },
+        {
+          "id": "iurta",
+          "nome": "Iurta",
+          "descricao": "Tenda redonda portátil, coberta de feltro, usada por nômades das estepes da Ásia.",
+          "variantes": [
+            "Yurt",
+            "Ger"
+          ]
+        },
+        {
+          "id": "pinha_cone_de_conifera",
+          "nome": "Pinha (cone de conífera)",
+          "descricao": "Estrutura lenhosa com escamas que carrega as sementes em pinheiros e outras coníferas.",
+          "variantes": [
+            "Cone",
+            "Estróbilo",
+            "Pine cone"
+          ]
+        },
+        {
+          "id": "torre_de_telefonia_celular",
+          "nome": "Torre de telefonia celular",
+          "descricao": "Estrutura elevada com antenas e equipamentos que forma uma célula numa rede de telefonia celular.",
+          "variantes": [
+            "Torre celular",
+            "Estação rádio base",
+            "ERB",
+            "Antena de celular"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Tigre-dente-de-sabre",
+        "descricao": "Felino extinto do gênero Smilodon, de longos caninos, que viveu nas Américas no Pleistoceno.",
+        "variantes": [
+          "Smilodon",
+          "Gato-dente-de-sabre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "smilodon",
+          "nome": "Smilodon",
+          "descricao": "Gênero extinto de felino dentes-de-sabre das Américas, que viveu até o fim da última era do gelo.",
+          "variantes": [
+            "Tigre-dentes-de-sabre",
+            "Dente-de-sabre",
+            "Smilodon populator",
+            "Tigre-dente-de-sabre"
+          ]
+        },
+        {
+          "id": "silcoon",
+          "nome": "Silcoon",
+          "descricao": "Pokémon do tipo Inseto, número 266 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "shieldon",
+          "nome": "Shieldon",
+          "descricao": "Pokémon dos tipos Pedra e Aço, número 410 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "gato_de_botas",
+          "nome": "Gato de Botas",
+          "descricao": "Gato laranja espadachim de chapéu e botas, companheiro de Shrek nos filmes da DreamWorks.",
+          "variantes": [
+            "Puss in Boots",
+            "Gato de Botas de Shrek"
+          ]
+        },
+        {
+          "id": "londres",
+          "nome": "Londres",
+          "descricao": "Capital da Inglaterra e do Reino Unido, às margens do rio Tâmisa.",
+          "variantes": [
+            "London"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Guanaco",
+        "descricao": "Camelídeo selvagem sul-americano, Lama guanicoe, ancestral da lhama.",
+        "variantes": [
+          "Lama guanicoe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "iguana",
+          "nome": "Iguana",
+          "descricao": "Lagarto arborícola e herbívoro (Iguana iguana), comum da América tropical, também chamado iguana-verde.",
+          "variantes": [
+            "Iguana-verde",
+            "Green iguana",
+            "Iguana iguana"
+          ]
+        },
+        {
+          "id": "guiana",
+          "nome": "Guiana",
+          "descricao": "País do norte da América do Sul, de língua oficial inglesa, cuja capital é Georgetown.",
+          "variantes": [
+            "Guyana",
+            "República Cooperativa da Guiana"
+          ]
+        },
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+          "variantes": [
+            "Ghana",
+            "República de Gana"
+          ]
+        },
+        {
+          "id": "guacamole",
+          "nome": "Guacamole",
+          "descricao": "Pasta ou molho à base de abacate, originário do México.",
+          "variantes": [
+            "Guac"
+          ]
+        },
+        {
+          "id": "guarana",
+          "nome": "Guaraná",
+          "descricao": "Planta trepadeira amazônica cujas sementes são usadas em refrigerantes, pós e xaropes",
+          "variantes": [
+            "Paullinia cupana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Douc-de-canelas-vermelhas",
+        "descricao": "Macaco do Velho Mundo, Pygathrix nemaeus, colorido, do Laos, Vietnã e Camboja.",
+        "variantes": [
+          "Douc",
+          "Pygathrix nemaeus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dr_martens",
+          "nome": "Dr. Martens",
+          "descricao": "Marca de botas de couro com sola de amortecimento de ar, criada pelo médico alemão Klaus Märtens",
+          "variantes": [
+            "Doc Martens",
+            "Docs"
+          ]
+        },
+        {
+          "id": "dogu",
+          "nome": "Dogū",
+          "descricao": "Estatueta humanoide de argila do período Jōmon do Japão pré-histórico.",
+          "variantes": [
+            "Dogū Jōmon"
+          ]
+        },
+        {
+          "id": "dc_comics",
+          "nome": "DC Comics",
+          "descricao": "Editora americana de quadrinhos, casa do Superman e do Batman",
+          "variantes": [
+            "DC"
+          ]
+        },
+        {
+          "id": "rio_danubio",
+          "nome": "Rio Danúbio",
+          "descricao": "Rio da Europa Central e Oriental que nasce na Alemanha e deságua no mar Negro.",
+          "variantes": [
+            "Danúbio",
+            "Danube",
+            "Donau"
+          ]
+        },
+        {
+          "id": "louco",
+          "nome": "Louco",
+          "descricao": "Personagem maluco e loiro da Turma da Mônica que atazana o Cebolinha.",
+          "variantes": [
+            "Licurgo Orival Umbelino Cafiaspirino de Oliveira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Esquilo-voador",
+        "descricao": "Esquilo planador do gênero Glaucomys, aqui o esquilo-voador-do-sul, da América do Norte.",
+        "variantes": [
+          "Glaucomys volans",
+          "Esquilo-voador-mexicano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "frisbee",
+          "nome": "Frisbee",
+          "descricao": "Disco voador de plástico usado em brincadeiras de arremesso, popularizado pela empresa Wham-O.",
+          "variantes": [
+            "Disco voador",
+            "Frisbi"
+          ]
+        },
+        {
+          "id": "peixe_voador",
+          "nome": "Peixe-voador",
+          "descricao": "Peixe marinho da família Exocoetidae, que plana sobre a água com nadadeiras peitorais alongadas.",
+          "variantes": [
+            "Exocoetidae",
+            "Flying fish"
+          ]
+        },
+        {
+          "id": "danza_de_los_voladores",
+          "nome": "Danza de los Voladores",
+          "descricao": "Ritual mesoamericano em que homens se lançam amarrados por cordas de um mastro de cerca de trinta metros.",
+          "variantes": [
+            "Dança dos Voladores",
+            "Palo Volador",
+            "Voladores de Papantla"
+          ]
+        },
+        {
+          "id": "biscoito_de_polvilho",
+          "nome": "Biscoito de polvilho",
+          "descricao": "Biscoito típico brasileiro feito de polvilho, em forma de argola, como o Biscoito Globo.",
+          "variantes": [
+            "Avoador",
+            "Biscoito de goma",
+            "Biscoito de vento",
+            "Biscoito voador",
+            "Peta"
+          ]
+        },
+        {
+          "id": "equador",
+          "nome": "Equador",
+          "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+          "variantes": [
+            "Ecuador",
+            "República do Equador"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Sagui-pigmeu (Cebuella) é espécie diferente do sagui-de-tufos-brancos."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "parauacu",
+      "motivo": "Mesma espécie Pithecia pithecia, com variantes coincidentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "peixe_boi_marinho",
+      "motivo": "Mesma espécie Trichechus manatus."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "mastodonte",
+      "motivo": "Mesmo gênero Mammut, proboscídeo extinto da América do Norte."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Tatu pichiciego não aparece entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Gerbilo não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "smilodon",
+      "motivo": "Mesmo gênero Smilodon, com a variante tigre-dente-de-sabre."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Guanaco não aparece entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Douc é um primata, sem correspondência nas candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Esquilo-voador (Glaucomys) é diferente de peixe-voador e das outras candidatas."
+    }
+  ]
+}
