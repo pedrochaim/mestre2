@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de controle de jogos é este?",
+        "resposta": "Joystick"
+      },
+      "existentes": [
+        {
+          "id": "q14960",
+          "pergunta": "Que dispositivo de controle de videogames é este?",
+          "resposta": "Joystick"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que antigo jogo de tabuleiro para dois jogadores aparece nesta imagem?",
+        "resposta": "Trilha"
+      },
+      "existentes": [
+        {
+          "id": "q06441",
+          "pergunta": "Na versão mais comum da trilha, jogo em que se tenta alinhar três peças para capturar uma do adversário, quantas peças cada jogador tem?",
+          "resposta": "Nove"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q14960",
+      "motivo": "Ambas pedem identificar o joystick pela imagem; mesma resposta e mesmo fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome do jogo (Trilha); a existente pergunta o número de peças (nove). Fatos diferentes."
+    }
+  ]
+}

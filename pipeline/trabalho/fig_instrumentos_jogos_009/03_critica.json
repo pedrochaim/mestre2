@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza; distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado genérico, sem vazamento; distratores são outros controles e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento limpa, com distratores plausíveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos associam a guitarra portuguesa ao fado. O enunciado não entrega a resposta, e os distratores são outros gêneros.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; distratores são puzzles parecidos e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o PS5 foi anunciado como sucessor do PS4. O enunciado não nomeia o console, e os distratores são críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado fala em 'miniatura' e 'Idade Média', mas 'mostra' não diz que a imagem é uma miniatura medieval, e os trechos só dizem que o jogo é antigo, com origem no Império Romano. Reescrevi só com o que se confirma.",
+      "reescrita": {
+        "pergunta": "Que antigo jogo de tabuleiro para dois jogadores aparece nesta imagem?",
+        "resposta": "Trilha",
+        "distratores": [
+          "Alquerque",
+          "Raposa e gansos",
+          "Gamão"
+        ]
+      }
+    }
+  ]
+}

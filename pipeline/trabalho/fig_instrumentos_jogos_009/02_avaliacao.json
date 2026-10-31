@@ -1,0 +1,196 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Jogador em primeiro plano, aparentemente pessoa comum, e há texto na mesa; a cena é escura e distante."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano num bloco de carnaval e texto legível no pavilhão (arlekinos.ch)."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Kendama isolado em fundo preto, claro e reconhecível, sem texto.",
+      "pergunta": "Que brinquedo de habilidade é este?",
+      "tipo": "multipla",
+      "resposta": "Kendama",
+      "distratores": [
+        "Ioiô",
+        "Diabolô",
+        "Pião"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 2,
+      "ancora": {
+        "nome": "Kendama",
+        "descricao": "Brinquedo tradicional japonês de habilidade, com cabo, copos e bola presa por um cordão.",
+        "variantes": [
+          "Kendamá",
+          "Ken-dama"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Joystick de console antigo, isolado em fundo branco, sem texto relevante.",
+      "pergunta": "Que tipo de controle de jogos é este?",
+      "tipo": "multipla",
+      "resposta": "Joystick",
+      "distratores": [
+        "Gamepad",
+        "Volante de corrida",
+        "Pistola óptica"
+      ],
+      "familia": "que_tipo",
+      "nivel": 1,
+      "destino": 3,
+      "ancora": {
+        "nome": "Joystick",
+        "descricao": "Dispositivo de entrada com uma haste que pivota sobre uma base, usado em videogames.",
+        "variantes": [
+          "Manche",
+          "Manípulo eletrônico"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Kazoo metálico claro sobre carpete; a moeda de euro serve só de escala e não entrega a resposta.",
+      "pergunta": "Que instrumento musical é este?",
+      "tipo": "multipla",
+      "resposta": "Kazoo",
+      "distratores": [
+        "Gaita de boca",
+        "Ocarina",
+        "Apito de metal"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Kazoo",
+        "descricao": "Instrumento que acrescenta um timbre zumbido à voz de quem vocaliza nele, por meio de uma membrana vibrante.",
+        "variantes": [
+          "Mirliton"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O nome Vectrex aparece escrito no console e no controle, entregando a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Diagrama com legendas em inglês (Bull, Double ring etc.) e números; texto entrega a resposta e não é foto."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Duas guitarras portuguesas claramente visíveis; etiquetas de preço não entregam a resposta.",
+      "pergunta": "A que gênero musical este instrumento está associado?",
+      "tipo": "multipla",
+      "resposta": "Fado",
+      "distratores": [
+        "Flamenco",
+        "Tango",
+        "Morna"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "ancora": {
+        "nome": "Guitarra portuguesa",
+        "descricao": "Instrumento de cordas dedilhadas com doze cordas de aço em seis ordens, de caixa em forma de pera.",
+        "variantes": [
+          "Guitarra de Coimbra",
+          "Guitarra de Lisboa"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Megaminx nítido, sem texto, forma dodecaédrica reconhecível.",
+      "pergunta": "Que quebra-cabeça é este?",
+      "tipo": "multipla",
+      "resposta": "Megaminx",
+      "distratores": [
+        "Pyraminx",
+        "Skewb",
+        "Cubo de Rubik"
+      ],
+      "familia": "que_tipo",
+      "nivel": 1,
+      "destino": 2,
+      "ancora": {
+        "nome": "Megaminx",
+        "descricao": "Quebra-cabeça em forma de dodecaedro, semelhante ao cubo de Rubik, com 50 peças móveis.",
+        "variantes": [
+          "Mégaminx"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "PlayStation 5 vertical com o controle DualSense, forma inconfundível, sem texto legível.",
+      "pergunta": "Este console é o sucessor de qual outro?",
+      "tipo": "multipla",
+      "resposta": "PlayStation 4",
+      "distratores": [
+        "PlayStation 3",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 3,
+      "ancora": {
+        "nome": "PlayStation 5",
+        "descricao": "Console de videogame de nona geração da Sony, lançado em 2020.",
+        "variantes": [
+          "PS5"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto escura e de baixa qualidade, quarto desorganizado com dois instrumentos e um piano; pouco legível no celular."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Miniatura medieval em domínio público mostrando o tabuleiro da trilha com figuras históricas, sem texto.",
+      "pergunta": "Que jogo de tabuleiro, jogado já na Idade Média, aparece nesta miniatura?",
+      "tipo": "multipla",
+      "resposta": "Trilha",
+      "distratores": [
+        "Alquerque",
+        "Raposa e gansos",
+        "Gamão"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 2,
+      "ancora": {
+        "nome": "Trilha (moinho)",
+        "descricao": "Jogo de estratégia antigo para dois jogadores, com tabuleiro de três quadrados concêntricos e peças que formam moinhos.",
+        "variantes": [
+          "Moinho",
+          "Jogo do moinho",
+          "Nine men's morris",
+          "Mill"
+        ]
+      }
+    }
+  ]
+}
