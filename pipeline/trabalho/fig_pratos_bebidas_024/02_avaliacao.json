@@ -1,0 +1,232 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Doces embrulhados em papel crepom com fita, mais um aberto; reconhecível.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Estes doces típicos de festas de casamento costumam vir embrulhados em que tipo de papel?",
+      "resposta": "Papel crepom",
+      "distratores": [
+        "Papel celofane",
+        "Papel alumínio",
+        "Papel manteiga"
+      ],
+      "ancora": {
+        "nome": "Bem-casado",
+        "descricao": "Doce brasileiro de dois discos de pão de ló com recheio, embrulhado em papel crepom e fita, típico de casamentos.",
+        "variantes": [
+          "Casadinho"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Caneca de cobre típica com gelo e canudo; guardanapo com texto ilegível e invertido.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destas bebidas destiladas é a base deste coquetel?",
+      "resposta": "Vodca",
+      "distratores": [
+        "Rum",
+        "Gim",
+        "Tequila"
+      ],
+      "ancora": {
+        "nome": "Moscow mule",
+        "descricao": "Coquetel de vodca, ginger beer e limão, servido em caneca de cobre.",
+        "variantes": [
+          "Vodka buck"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Rótulo Malta Goya visível e fatia de bolo com chantili pouco distintiva; não reconhecível como tres leches."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Fatia de doce de fruta marrom que pode ser confundida com marmelada ou outros doces em massa; resposta não única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Prato de arroz frito com lula, claramente reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que prato é este?",
+      "resposta": "Arroz frito",
+      "distratores": [
+        "Risoto",
+        "Paella",
+        "Arroz de forno"
+      ],
+      "ancora": {
+        "nome": "Arroz frito",
+        "descricao": "Prato de arroz cozido salteado em wok ou frigideira com ovos, legumes, carnes ou frutos do mar.",
+        "variantes": [
+          "Fried rice",
+          "Chao fan"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bolinho em forma de peixe, inconfundível.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual é o recheio mais comum deste bolinho japonês em forma de peixe?",
+      "resposta": "Pasta de feijão azuki",
+      "distratores": [
+        "Creme de matcha",
+        "Pasta de amendoim",
+        "Geleia de limão"
+      ],
+      "ancora": {
+        "nome": "Taiyaki",
+        "descricao": "Bolinho japonês em forma de peixe, assado em forma, vendido como comida de rua.",
+        "variantes": [
+          "Taiyaki japonês"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Salada de batata com cebola e páprica, em prato branco sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que prato é este?",
+      "resposta": "Salada de batata",
+      "distratores": [
+        "Batata ao murro",
+        "Batata gratinada",
+        "Purê de batata"
+      ],
+      "ancora": {
+        "nome": "Salada de batata",
+        "descricao": "Prato frio de batatas cozidas fatiadas ou em cubos, com tempero e outros ingredientes, servido como acompanhamento.",
+        "variantes": [
+          "Potato salad"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tomate, mozzarella e manjericão em círculo; caprese inconfundível, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que salada italiana é esta?",
+      "resposta": "Salada caprese",
+      "distratores": [
+        "Salada grega",
+        "Salada niçoise",
+        "Salada Waldorf"
+      ],
+      "ancora": {
+        "nome": "Salada caprese",
+        "descricao": "Salada italiana de mozzarella, tomate e manjericão temperada com azeite, originária da ilha de Capri.",
+        "variantes": [
+          "Insalata caprese",
+          "Caprese"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O rótulo da garrafa traz a palavra OUZO, que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fatia de bacon frito sobre fundo branco, nítida.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que corte do porco vem tipicamente esta fatia?",
+      "resposta": "Barriga",
+      "distratores": [
+        "Pernil",
+        "Paleta",
+        "Cabeça"
+      ],
+      "ancora": {
+        "nome": "Bacon",
+        "descricao": "Carne de porco salgada e curada, geralmente da barriga, servida em fatias fritas.",
+        "variantes": [
+          "Toucinho defumado",
+          "Bacon frito"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cesto de bambu com pãezinhos recheados no vapor, de pregas características.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual é o principal ingrediente da massa destes pãezinhos chineses cozidos no vapor?",
+      "resposta": "Farinha de trigo",
+      "distratores": [
+        "Farinha de arroz",
+        "Farinha de milho",
+        "Fécula de batata"
+      ],
+      "ancora": {
+        "nome": "Baozi",
+        "descricao": "Pãozinho chinês recheado, de massa fermentada, geralmente cozido no vapor.",
+        "variantes": [
+          "Bao",
+          "Pão no vapor chinês"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Massa fina com carne moída e salada de folhas, sem texto; lahmacun reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que prato do Oriente Médio é este?",
+      "resposta": "Lahmacun",
+      "distratores": [
+        "Pide",
+        "Flammkuchen",
+        "Focaccia"
+      ],
+      "ancora": {
+        "nome": "Lahmacun",
+        "descricao": "Pão achatado do Oriente Médio coberto com carne moída e temperos, assado e servido com ervas e legumes.",
+        "variantes": [
+          "Lahmajun",
+          "Lahmajo",
+          "Pizza turca"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que corte do porco vem tipicamente esta fatia?",
+        "resposta": "Barriga"
+      },
+      "existentes": [
+        {
+          "id": "q15387",
+          "pergunta": "Que alimento é esta fatia frita?",
+          "resposta": "Bacon"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede o alimento (bacon) e a outra o corte do porco de origem (barriga); são fatos diferentes, e saber um não garante saber o outro."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Doces típicos de festas de casamento' entrega o bem-casado sem olhar a figura. Retirei a pista e troquei o distrator celofane, que também é usado em bem-casados, para não haver alternativa defensável.",
+      "reescrita": {
+        "pergunta": "Estes doces brasileiros costumam vir embrulhados em que tipo de papel?",
+        "resposta": "Papel crepom",
+        "distratores": [
+          "Papel alumínio",
+          "Papel manteiga",
+          "Papel kraft"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos. O enunciado não nomeia o coquetel. Os distratores são destilados do mesmo tipo e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento, direto. Os distratores são pratos de arroz plausíveis e não vazam a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Bolinho japonês em forma de peixe' identifica o taiyaki, e a resposta vem de conhecimento sobre ele sem olhar a figura. Retirei a descrição.",
+      "reescrita": {
+        "pergunta": "Qual é o recheio mais comum deste bolinho?",
+        "resposta": "Pasta de feijão azuki",
+        "distratores": [
+          "Creme de matcha",
+          "Pasta de amendoim",
+          "Geleia de limão"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento. Os distratores são pratos de batata parecidos e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Italiana' e 'salada' no enunciado entregam parte da resposta. 'Italiana' também elimina sozinho os distratores grega, niçoise e Waldorf. Retirei 'italiana'.",
+      "reescrita": {
+        "pergunta": "Que salada é esta?",
+        "resposta": "Salada caprese",
+        "distratores": [
+          "Salada grega",
+          "Salada niçoise",
+          "Salada Waldorf"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o bacon vem tipicamente da barriga. O enunciado não vaza e os distratores são cortes que não são o típico.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A descrição de pãezinhos chineses no vapor permitia responder 'farinha de trigo' sem a figura. A nova pergunta exige reconhecer o baozi e depois saber de qual pão ele é variação, o que o trecho em inglês confirma.",
+      "reescrita": {
+        "pergunta": "Estes pãezinhos recheados são uma variação de qual pão cozido no vapor do norte da China?",
+        "resposta": "Mantou",
+        "distratores": [
+          "Jiaozi",
+          "Youtiao",
+          "Shaobing"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Oriente Médio' eliminava os distratores Flammkuchen (alemão) e Focaccia (italiana). Retirei a pista de região.",
+      "reescrita": {
+        "pergunta": "Que prato é este?",
+        "resposta": "Lahmacun",
+        "distratores": [
+          "Pide",
+          "Flammkuchen",
+          "Focaccia"
+        ]
+      }
+    }
+  ]
+}
