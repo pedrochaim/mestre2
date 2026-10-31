@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Como se chama esta estrutura cônica, vista na garganta aberta?",
+        "resposta": "Úvula"
+      },
+      "existentes": [
+        {
+          "id": "q17125",
+          "pergunta": "Que estrutura do fundo da boca ocupa o centro desta foto?",
+          "resposta": "Úvula"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que naturalista britânico descobriu, em 1859, este fungo?",
+        "resposta": "Alfred Russel Wallace"
+      },
+      "existentes": [
+        {
+          "id": "q02615",
+          "pergunta": "Que franquia de jogos eletrônicos, depois adaptada para série de TV, se inspirou no fungo que transforma formigas em zumbis?",
+          "resposta": "The Last of Us"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação da úvula na imagem da garganta; mesma resposta e mesmo fato.",
+      "id_existente": "q17125"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre quem descobriu o fungo; a existente é sobre a franquia inspirada no fungo. Fatos diferentes."
+    }
+  ]
+}

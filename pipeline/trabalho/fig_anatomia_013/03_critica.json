@@ -1,0 +1,92 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia o parasita nem a doença; só a figura permite responder. Trechos confirmam que causa a toxoplasmose. Distratores são doenças por outros protozoários, nenhuma causada por ele.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pende no centro, ao fundo da boca' descreve a úvula e dá para responder sem a figura. Troquei por uma pista mais neutra.",
+      "reescrita": {
+        "pergunta": "Como se chama esta estrutura cônica, vista na garganta aberta?",
+        "resposta": "Úvula",
+        "distratores": [
+          "Epiglote",
+          "Amígdala",
+          "Laringe"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato (Wallace, 1859) está nos trechos, mas 'fungo que cresce na formiga' entrega a identificação sem a figura. Tirei essa pista.",
+      "reescrita": {
+        "pergunta": "Que naturalista britânico descobriu, em 1859, este fungo?",
+        "resposta": "Alfred Russel Wallace",
+        "distratores": [
+          "Charles Darwin",
+          "Henry Walter Bates",
+          "Joseph Hooker"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não entrega a resposta; desmídias são algas verdes unicelulares microscópicas, segundo os trechos. Distratores são microalgas ou algas de outro grupo e a imagem os distingue.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato é verdadeiro, mas o enunciado ('ácido que causa lesão no dente') já leva a 'bactérias' sem a figura. Ela vira enfeite e não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Novelo de capilares do rim' descreve o glomérulo, e a cápsula de Bowman se responde sem a figura. Troquei por uma pergunta que exige reconhecer a estrutura e dar um passo além. Que a cápsula leva o nome de William Bowman está nos trechos e é amplamente documentado.",
+      "reescrita": {
+        "pergunta": "A cápsula que envolve esta estrutura do rim leva o nome de que anatomista?",
+        "resposta": "William Bowman",
+        "distratores": [
+          "Jacob Henle",
+          "Camillo Golgi",
+          "Paul Langerhans"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia a condição e depende da imagem. Heterocromia é definida nos trechos como variação de cor da íris, inclusive em animais. Distratores são outras condições oculares.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos, mas 'da pele' é pista desnecessária para a resposta. Retirei.",
+      "reescrita": {
+        "pergunta": "Que doença humana é causada por este ácaro microscópico?",
+        "resposta": "Sarna (escabiose)",
+        "distratores": [
+          "Pediculose",
+          "Micose",
+          "Dermatite atópica"
+        ]
+      }
+    }
+  ]
+}

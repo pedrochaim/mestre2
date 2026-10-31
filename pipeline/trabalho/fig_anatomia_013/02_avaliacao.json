@@ -1,0 +1,213 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Close de olho de pessoa comum em primeiro plano; a imagem também é ambígua entre olho e pálpebra."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Ilustração com legendas em inglês (Vocal fold, Epiglottis etc.) que entregam a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Esfregaço corado com taquizoítos típicos, sem texto; baixa resolução, mas legível.",
+      "nivel": 1,
+      "familia": "com_o_que_se_liga",
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que doença é causada por este parasita microscópico?",
+      "resposta": "Toxoplasmose",
+      "distratores": [
+        "Malária",
+        "Doença de Chagas",
+        "Leishmaniose"
+      ],
+      "ancora": {
+        "nome": "Toxoplasma gondii",
+        "descricao": "Protozoário parasita que causa a toxoplasmose e tem os felinos como hospedeiros definitivos.",
+        "variantes": [
+          "T. gondii"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto interna da garganta com a úvula bem visível no centro, sem texto nem rosto.",
+      "nivel": 1,
+      "familia": "que_parte",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Como se chama esta estrutura que pende no centro, ao fundo da boca?",
+      "resposta": "Úvula",
+      "distratores": [
+        "Epiglote",
+        "Amígdala",
+        "Laringe"
+      ],
+      "ancora": {
+        "nome": "Úvula",
+        "descricao": "Projeção cônica na borda posterior do palato mole, no fundo da garganta.",
+        "variantes": [
+          "Campainha",
+          "Úvula palatina"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Duas fotos do mesmo assunto (formiga infectada pelo fungo), sem texto; reconhecível.",
+      "nivel": 3,
+      "familia": "com_o_que_se_liga",
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que naturalista britânico descobriu, em 1859, este fungo que cresce na formiga?",
+      "resposta": "Alfred Russel Wallace",
+      "distratores": [
+        "Charles Darwin",
+        "Henry Walter Bates",
+        "Joseph Hooker"
+      ],
+      "ancora": {
+        "nome": "Fungo-zumbi",
+        "descricao": "Ophiocordyceps unilateralis, fungo que infecta formigas e altera seu comportamento antes de matá-las.",
+        "variantes": [
+          "Ophiocordyceps unilateralis",
+          "Fungo da formiga-zumbi"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Micrografia nítida de Micrasterias, desmídia inconfundível, sem texto.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que tipo de alga unicelular microscópica é esta?",
+      "resposta": "Desmídia",
+      "distratores": [
+        "Diatomácea",
+        "Euglena",
+        "Alga parda"
+      ],
+      "ancora": {
+        "nome": "Desmídia",
+        "descricao": "Alga verde microscópica unicelular, simétrica, da ordem Desmidiales, comum em água doce.",
+        "variantes": [
+          "Desmidiales",
+          "Micrasterias"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Modelo didático de dentes seccionados com cavidade escura evidente, sem texto.",
+      "nivel": 3,
+      "familia": "com_o_que_se_liga",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que seres vivos produzem o ácido que causa esta lesão escura no dente?",
+      "resposta": "Bactérias",
+      "distratores": [
+        "Fungos",
+        "Vírus",
+        "Protozoários"
+      ],
+      "ancora": {
+        "nome": "Cárie dentária",
+        "descricao": "Destruição dos tecidos duros do dente por ácidos produzidos por bactérias.",
+        "variantes": [
+          "Cárie",
+          "Cavidade dentária"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Esquema genérico de corte de osso sem detalhes; a parte avermelhada pode ser confundida com osso esponjoso e a medula amarela do centro cria ambiguidade."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Diagrama limpo, sem texto, do novelo de capilares dentro da cápsula de Bowman.",
+      "nivel": 1,
+      "familia": "com_o_que_se_liga",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este novelo de capilares do rim filtra o sangue para dentro de que cápsula?",
+      "resposta": "Cápsula de Bowman",
+      "distratores": [
+        "Cápsula de Glisson",
+        "Cápsula de Tenon",
+        "Cápsula articular"
+      ],
+      "ancora": {
+        "nome": "Glomérulo",
+        "descricao": "Rede de capilares no início do néfron, no rim, onde o sangue é filtrado.",
+        "variantes": [
+          "Glomérulo renal"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Close dos olhos de um gato, um amarelo e outro azul, sem texto; inconfundível.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Como se chama a condição vista nos olhos deste gato?",
+      "resposta": "Heterocromia",
+      "distratores": [
+        "Estrabismo",
+        "Albinismo",
+        "Catarata"
+      ],
+      "ancora": {
+        "nome": "Heterocromia",
+        "descricao": "Variação de coloração, em geral íris de cores diferentes nos dois olhos.",
+        "variantes": [
+          "Heterocromia da íris"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem traz o título e as legendas escritas (Pharynx, Nasopharynx, Oropharynx, Laryngopharynx), que entregam a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Microfotografia do ácaro Sarcoptes scabiei sem texto, forma arredondada característica.",
+      "nivel": 3,
+      "familia": "com_o_que_se_liga",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que doença da pele é causada por este ácaro microscópico?",
+      "resposta": "Sarna (escabiose)",
+      "distratores": [
+        "Pediculose",
+        "Micose",
+        "Dermatite atópica"
+      ],
+      "ancora": {
+        "nome": "Ácaro da sarna",
+        "descricao": "Sarcoptes scabiei, ácaro parasita que escava a pele e causa a sarna.",
+        "variantes": [
+          "Sarcoptes scabiei",
+          "Ácaro da coceira"
+        ]
+      }
+    }
+  ]
+}
