@@ -1,0 +1,103 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que filósofo grego da Antiguidade é este?",
+        "resposta": "Aristóteles"
+      },
+      "existentes": [
+        {
+          "id": "q03776",
+          "pergunta": "Que filósofo grego da Antiguidade este busto representa?",
+          "resposta": "Aristóteles"
+        },
+        {
+          "id": "q04738",
+          "pergunta": "Que filósofo grego, discípulo de Platão, foi chamado pelo rei Filipe da Macedônia para ser professor de seu filho Alexandre?",
+          "resposta": "Aristóteles"
+        },
+        {
+          "id": "q04746",
+          "pergunta": "Aristóteles entrou jovem na Academia de Platão e só saiu depois da morte do mestre. Por quanto tempo, aproximadamente, ele ficou lá?",
+          "resposta": "Cerca de vinte anos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Esta atriz francesa do século dezenove interpretou, em papel masculino, qual personagem de Shakespeare?",
+        "resposta": "Hamlet"
+      },
+      "existentes": [
+        {
+          "id": "q07849",
+          "pergunta": "Numa turnê pela América do Sul, a atriz francesa Sarah Bernhardt feriu o joelho ao saltar de um parapeito em cena, lesão que anos depois custou sua perna. Em que cidade?",
+          "resposta": "Rio de Janeiro"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que filósofo francês do século dezessete é este?",
+        "resposta": "René Descartes"
+      },
+      "existentes": [
+        {
+          "id": "q03739",
+          "pergunta": "Descartes morreu em Estocolmo, em 1650. Que rainha o havia convidado a ir à Suécia para lhe dar aulas de filosofia?",
+          "resposta": "Cristina da Suécia"
+        },
+        {
+          "id": "q07760",
+          "pergunta": "René Descartes morreu em 1650 numa capital do norte da Europa, para onde tinha ido dar aulas a uma rainha. Que cidade?",
+          "resposta": "Estocolmo"
+        },
+        {
+          "id": "q08247",
+          "pergunta": "O crânio atribuído a René Descartes, separado do resto do corpo após a morte, fica guardado em que museu de Paris?",
+          "resposta": "Museu do Homem"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Qual é a obra mais famosa desta escritora brasileira?",
+        "resposta": "Quarto de Despejo"
+      },
+      "existentes": [
+        {
+          "id": "q11679",
+          "pergunta": "Antes do sucesso do seu diário, de que trabalho Carolina Maria de Jesus tirava o sustento dos filhos na favela paulistana?",
+          "resposta": "Catadora de papel"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q03776",
+      "motivo": "Ambas pedem identificar o filósofo grego Aristóteles a partir da imagem; mesmo fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Papel shakespeariano (Hamlet) é diferente do local da lesão no joelho."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar Descartes pela imagem é fato diferente de morte em Estocolmo, rainha ou crânio no museu."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Obra mais famosa é fato diferente da profissão de catadora de papel."
+    }
+  ]
+}

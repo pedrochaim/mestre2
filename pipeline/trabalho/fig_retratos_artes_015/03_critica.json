@@ -1,0 +1,99 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Busto' não está confirmado em `mostra`; o enunciado deve valer só para o que se sabe da imagem. Removida a menção ao tipo de figura.",
+      "reescrita": {
+        "pergunta": "Que filósofo grego da Antiguidade é este?",
+        "resposta": "Aristóteles",
+        "distratores": [
+          "Platão",
+          "Sócrates",
+          "Epicuro"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Retrato de Johann Strauss II, ativo no século dezenove. Enunciado sem vazamento e distratores do mesmo tipo e época.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Hamlet está sustentado (1899). Mas 'Romeu' é um distrator arriscado e não está confirmado como incorreto. Troquei por Ricardo Terceiro, que ela não interpretou.",
+      "reescrita": {
+        "pergunta": "Esta atriz francesa do século dezenove interpretou, em papel masculino, qual personagem de Shakespeare?",
+        "resposta": "Hamlet",
+        "distratores": [
+          "Macbeth",
+          "Otelo",
+          "Ricardo Terceiro"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Quadro' não está confirmado em `mostra`; pode ser gravura. Removida a menção ao suporte.",
+      "reescrita": {
+        "pergunta": "Que filósofo francês do século dezessete é este?",
+        "resposta": "René Descartes",
+        "distratores": [
+          "Blaise Pascal",
+          "Michel de Montaigne",
+          "Voltaire"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'compositor italiano em Viena famoso na ficção como rival de…' leva direto a Mozart pelo enunciado. A figura vira enfeite e não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de Emily Dickinson, sem pista que entregue. Distratores são poetas anglófonas plausíveis e nenhuma é a retratada.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ser e Tempo é a obra principal de Heidegger (trecho). O enunciado não entrega nada sem a imagem e os distratores são obras de filósofos reais.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quarto de Despejo é a obra mais famosa dela (trechos). Os distratores são obras de outras autoras brasileiras (Evaristo, Maria Firmina dos Reis).",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Gramsci (1891–1937) atuou na primeira metade do século vinte; 'início' é impreciso. Corrigida a época.",
+      "reescrita": {
+        "pergunta": "Que filósofo italiano da primeira metade do século vinte é este?",
+        "resposta": "Antonio Gramsci",
+        "distratores": [
+          "Benedetto Croce",
+          "Giovanni Gentile",
+          "Antonio Labriola"
+        ]
+      }
+    }
+  ]
+}

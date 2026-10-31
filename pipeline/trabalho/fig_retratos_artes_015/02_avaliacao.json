@@ -1,0 +1,227 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Busto romano nítido e reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que filósofo grego é este, retratado neste busto?",
+      "resposta": "Aristóteles",
+      "distratores": [
+        "Platão",
+        "Sócrates",
+        "Epicuro"
+      ],
+      "ancora": {
+        "nome": "Aristóteles",
+        "descricao": "Filósofo grego da Antiguidade, fundador da escola peripatética no Liceu de Atenas.",
+        "variantes": [
+          "Aristotle"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto antiga nítida, sem texto; compositor reconhecível pelas costeletas e barba.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que compositor do século dezenove é este?",
+      "resposta": "Johann Strauss II (Johann Strauss filho)",
+      "distratores": [
+        "Johannes Brahms",
+        "Franz Liszt",
+        "Jacques Offenbach"
+      ],
+      "ancora": {
+        "nome": "Johann Strauss II",
+        "descricao": "Compositor austríaco do século dezenove, o Rei da Valsa, autor de Danúbio Azul.",
+        "variantes": [
+          "Johann Strauss filho",
+          "Johann Strauss Jr.",
+          "Johann Strauss Sohn"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto antiga clara de Sarah Bernhardt, sem texto; reconhecimento moderado, mas aceitável.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Esta atriz francesa do século dezenove interpretou, em papel masculino, qual personagem de Shakespeare?",
+      "resposta": "Hamlet",
+      "distratores": [
+        "Romeu",
+        "Macbeth",
+        "Otelo"
+      ],
+      "ancora": {
+        "nome": "Sarah Bernhardt",
+        "descricao": "Atriz de teatro francesa (1844–1923), uma das mais famosas de seu tempo.",
+        "variantes": [
+          "Sarah Bernard"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato a óleo clássico, sem texto, muito difundido.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que filósofo francês do século dezessete é retratado neste quadro?",
+      "resposta": "René Descartes",
+      "distratores": [
+        "Blaise Pascal",
+        "Michel de Montaigne",
+        "Voltaire"
+      ],
+      "ancora": {
+        "nome": "René Descartes",
+        "descricao": "Filósofo, matemático e cientista francês do século dezessete, pai da geometria analítica.",
+        "variantes": [
+          "Descartes",
+          "Renatus Cartesius"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato a óleo claro, sem texto; reconhecível para quem conhece o compositor.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Este compositor italiano, que fez carreira em Viena, ficou famoso na ficção como rival de qual compositor?",
+      "resposta": "Mozart",
+      "distratores": [
+        "Haydn",
+        "Beethoven",
+        "Gluck"
+      ],
+      "ancora": {
+        "nome": "Antonio Salieri",
+        "descricao": "Compositor italiano do período clássico, mestre de capela da corte de Viena.",
+        "variantes": [
+          "Salieri"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Daguerreótipo conhecido, sem texto, imagem única da poeta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que poeta é esta, retratada nesta fotografia antiga?",
+      "resposta": "Emily Dickinson",
+      "distratores": [
+        "Emily Brontë",
+        "Christina Rossetti",
+        "Sylvia Plath"
+      ],
+      "ancora": {
+        "nome": "Emily Dickinson",
+        "descricao": "Poeta americana do século dezenove, de Amherst, Massachusetts.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto de um homem ao piano; sem contexto, o compositor não é reconhecível pela imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Quadro de vídeo de baixa resolução; o ator não é reconhecível e a imagem é pouco legível no celular."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco sem texto; há pessoas ao fundo, mas o filósofo está em primeiro plano.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Qual é a principal obra deste filósofo alemão?",
+      "resposta": "Ser e Tempo",
+      "distratores": [
+        "O Ser e o Nada",
+        "Crítica da Razão Pura",
+        "A Gaia Ciência"
+      ],
+      "ancora": {
+        "nome": "Martin Heidegger",
+        "descricao": "Filósofo alemão do século vinte, autor de Ser e Tempo, ligado à fenomenologia e ao existencialismo.",
+        "variantes": [
+          "Heidegger"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco nítido, sem texto; figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é a obra mais famosa desta escritora brasileira?",
+      "resposta": "Quarto de Despejo",
+      "distratores": [
+        "Becos da Memória",
+        "Ponciá Vicêncio",
+        "Úrsula"
+      ],
+      "ancora": {
+        "nome": "Carolina Maria de Jesus",
+        "descricao": "Escritora brasileira (1914–1977), catadora e moradora de favela em São Paulo, autora do diário Quarto de Despejo.",
+        "variantes": [
+          "Carolina de Jesus"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto de estúdio antiga de um ator sem elementos identificáveis; pouco reconhecível pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto clássica nítida, sem texto, muito difundida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que filósofo italiano do início do século vinte é este?",
+      "resposta": "Antonio Gramsci",
+      "distratores": [
+        "Benedetto Croce",
+        "Giovanni Gentile",
+        "Antonio Labriola"
+      ],
+      "ancora": {
+        "nome": "Antonio Gramsci",
+        "descricao": "Filósofo marxista, jornalista e político italiano, autor dos Cadernos do Cárcere.",
+        "variantes": [
+          "Gramsci"
+        ]
+      }
+    }
+  ]
+}
