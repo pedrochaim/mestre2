@@ -1,0 +1,54 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que milênio antes de Cristo foi construída esta pirâmide?",
+        "resposta": "Terceiro milênio a.C."
+      },
+      "existentes": [
+        {
+          "id": "q02449",
+          "pergunta": "Que faraó mandou construir esta pirâmide de Gizé para ser seu túmulo?",
+          "resposta": "Quéops (Khufu)"
+        },
+        {
+          "id": "q06352",
+          "pergunta": "Quando a Grande Pirâmide de Gizé foi construída, ainda sobrevivia, numa ilha do Ártico, uma população de qual animal da Era do Gelo?",
+          "resposta": "Mamute-lanoso"
+        },
+        {
+          "id": "q06353",
+          "pergunta": "A Grande Pirâmide foi a construção mais alta do mundo por cerca de três mil e oitocentos anos. Que catedral inglesa a superou no século quatorze?",
+          "resposta": "Catedral de Lincoln"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Este osso do Paleolítico Superior, achado na atual República Democrática do Congo, é interpretado por muitos como que tipo de instrumento?",
+        "resposta": "Bastão de contagem"
+      },
+      "existentes": [
+        {
+          "id": "q07756",
+          "pergunta": "O osso de Ishango, com entalhes de cerca de vinte mil anos que podem ser marcas de contagem, foi encontrado em que país africano?",
+          "resposta": "República Democrática do Congo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o milênio da construção; as existentes tratam do faraó, do mamute e da catedral, fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre a interpretação do osso (bastão de contagem); a existente pergunta o país da descoberta. Fatos distintos, embora a existente mencione marcas de contagem no enunciado."
+    }
+  ]
+}

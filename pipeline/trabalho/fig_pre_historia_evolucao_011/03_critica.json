@@ -1,0 +1,48 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma escultura neolítica, c. 6000 a.C., achada em Çatalhöyük, Turquia. O enunciado não vaza a resposta nem nomeia a estatueta, e os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Grande Pirâmide foi construída por volta de 2600 a.C., no terceiro milênio a.C. Isso é amplamente documentado e consta na descrição. O enunciado não vaza, a resposta é única e os distratores são os outros milênios.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato é sustentado pelos trechos: a interpretação como instrumento de contagem é a mais citada. Mas \"entalhado\" entrega a resposta sem olhar a figura, porque osso entalhado leva a bastão de contagem. Reescrita sem essa pista.",
+      "reescrita": {
+        "pergunta": "Este osso do Paleolítico Superior, achado na atual República Democrática do Congo, é interpretado por muitos como que tipo de instrumento?",
+        "resposta": "Bastão de contagem",
+        "distratores": [
+          "Flauta",
+          "Agulha de costura",
+          "Ponta de arpão"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que é um ding de bronze da dinastia Shang, achado em Anyang. Mas \"Anyang\" é a antiga capital Shang (Yinxu) e entrega a dinastia no teste da imagem coberta. Reescrita sem a cidade, com o país como pista.",
+      "reescrita": {
+        "pergunta": "Esta grande vasilha ritual de bronze, achada na China, é de que dinastia?",
+        "resposta": "Shang",
+        "distratores": [
+          "Zhou",
+          "Han",
+          "Tang"
+        ]
+      }
+    }
+  ]
+}

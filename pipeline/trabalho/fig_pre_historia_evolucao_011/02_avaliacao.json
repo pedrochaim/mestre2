@@ -1,0 +1,141 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Diagrama cheio de texto (nomes de gêneros e tribos) que entrega respostas."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Estatueta inconfundível, sem texto, boa para época.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Esta estatueta de argila, feita onde hoje é a Turquia, pertence a que período da Pré-História?",
+      "resposta": "Neolítico",
+      "distratores": [
+        "Paleolítico",
+        "Mesolítico",
+        "Idade do Ferro"
+      ],
+      "ancora": {
+        "nome": "Mulher Sentada de Çatalhöyük",
+        "descricao": "Estatueta neolítica de argila de uma mulher sentada entre braços de felinos, achada em Çatalhöyük, na Turquia.",
+        "variantes": [
+          "Seated Woman of Çatalhöyük",
+          "Deusa de Çatalhöyük"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Calota craniana fragmentada com setas numeradas e barra de escala; não reconhecível pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Cinco lanças de tipos diferentes, sem época definida; resposta ambígua (lança, azagaia) e imagem sem ligação clara com datação."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Tábua cuneiforme genérica; não é reconhecível como a Epopeia de Gilgamesh pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Escavação sob cobertura moderna, não reconhecível; só um especialista identificaria o sítio."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Monumento emblemático, sem texto; turistas ao fundo são pequenos e incidentais.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que milênio antes de Cristo foi construída esta pirâmide?",
+      "resposta": "Terceiro milênio a.C.",
+      "distratores": [
+        "Quarto milênio a.C.",
+        "Segundo milênio a.C.",
+        "Primeiro milênio a.C."
+      ],
+      "ancora": {
+        "nome": "Grande Pirâmide de Gizé",
+        "descricao": "Maior das pirâmides egípcias, túmulo do faraó Quéops, construída por volta de 2600 a.C.",
+        "variantes": [
+          "Pirâmide de Quéops",
+          "Pirâmide de Khufu",
+          "Grande Pirâmide"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Osso entalhado reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este osso entalhado, achado na atual República Democrática do Congo, é interpretado por muitos como que tipo de instrumento?",
+      "resposta": "Bastão de contagem",
+      "distratores": [
+        "Flauta",
+        "Agulha de costura",
+        "Ponta de arpão"
+      ],
+      "ancora": {
+        "nome": "Osso de Ishango",
+        "descricao": "Osso do Paleolítico Superior com entalhes organizados, achado em Ishango, no Congo, possível instrumento de contagem.",
+        "variantes": [
+          "Ishango bone"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Caldeirão ritual de bronze característico, sem texto legível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Esta vasilha ritual de bronze, achada em Anyang, é de que dinastia chinesa?",
+      "resposta": "Shang",
+      "distratores": [
+        "Zhou",
+        "Han",
+        "Tang"
+      ],
+      "ancora": {
+        "nome": "Ding Houmuwu",
+        "descricao": "Grande caldeirão ritual retangular de bronze da dinastia Shang, achado em Anyang, na China.",
+        "variantes": [
+          "Houmuwu ding",
+          "Simuwu ding",
+          "Ding Simuwu"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Almofariz moderno de porcelana com pimenta; fora do tema pré-histórico e com nome ambíguo (pilão, almofariz)."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A foto antiga traz legenda em francês ('Trésor de Priam découvert...') que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Paisagem de caverna sem arte rupestre ou traço que a distinga de outras cavernas; não reconhecível."
+    }
+  ]
+}
