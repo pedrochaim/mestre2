@@ -1,0 +1,742 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Antes de ser reunida em livro, a série Watchmen, de Alan Moore e Dave Gibbons, saiu em quantas edições mensais?",
+        "resposta": "Doze"
+      },
+      "existentes": [
+        {
+          "id": "q01436",
+          "pergunta": "O título Watchmen vem da pergunta quem vigia os vigilantes, escrita por qual poeta da Roma Antiga?",
+          "resposta": "Juvenal"
+        },
+        {
+          "id": "q08861",
+          "pergunta": "Em Watchmen, qual personagem tem a pele azul e poderes quase divinos, ganhos num acidente em laboratório de física nuclear?",
+          "resposta": "Doutor Manhattan"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Na primeira revista dos Vingadores, de 1963, quantos heróis formavam a equipe original?",
+        "resposta": "Cinco"
+      },
+      "existentes": [
+        {
+          "id": "q04454",
+          "pergunta": "Que herói, muitas vezes líder dos Vingadores, ficou fora da formação original de 1963 e só entrou para a equipe na quarta edição?",
+          "resposta": "Capitão América"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Quando o mutante Wolverine põe suas garras de adamantium para fora, quantas lâminas saem de cada mão?",
+        "resposta": "Três"
+      },
+      "existentes": [
+        {
+          "id": "q01435",
+          "pergunta": "Em português, qual animal dá nome ao herói Wolverine?",
+          "resposta": "Glutão (também chamado carcaju)"
+        },
+        {
+          "id": "q04448",
+          "pergunta": "Antes de entrar para os X-Men, Wolverine estreou em 1974 como adversário de qual gigante verde da Marvel?",
+          "resposta": "Hulk"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Nos álbuns de Asterix, a aldeia gaulesa vive cercada por acampamentos de soldados romanos. Quantos são esses acampamentos?",
+        "resposta": "Quatro"
+      },
+      "existentes": [
+        {
+          "id": "q01438",
+          "pergunta": "O nome do gaulês Asterix é uma brincadeira com qual sinal tipográfico?",
+          "resposta": "Asterisco"
+        },
+        {
+          "id": "q04423",
+          "pergunta": "No ano cinquenta antes de Cristo, a aldeia de Asterix resiste aos romanos em qual região da atual França?",
+          "resposta": "Bretanha (Armórica)"
+        },
+        {
+          "id": "q08863",
+          "pergunta": "Na aldeia de Asterix, qual bardo costuma terminar amarrado e amordaçado no banquete final, porque ninguém suporta sua cantoria?",
+          "resposta": "Chatotorix"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em 1938, Jerry Siegel e Joe Shuster receberam quanto da editora pela primeira história do Superman?",
+        "resposta": "Cento e trinta dólares"
+      },
+      "existentes": [
+        {
+          "id": "q04411",
+          "pergunta": "Na capa da revista Action Comics número um, o Superman estreou levantando um carro. Em que ano essa revista chegou às bancas?",
+          "resposta": "1938"
+        },
+        {
+          "id": "q08855",
+          "pergunta": "Na famosa abertura dos programas de rádio e TV, o Superman é mais rápido que uma bala e mais poderoso que o quê?",
+          "resposta": "Uma locomotiva"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Para dominar o universo, o titã Thanos reúne na Manopla do Infinito um conjunto de joias. Quantas são as Joias do Infinito?",
+        "resposta": "Seis"
+      },
+      "existentes": [
+        {
+          "id": "q08793",
+          "pergunta": "Quem é este personagem?",
+          "resposta": "Thanos"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Como cabe a um entregador de menires, o nome do gaulês Obelix vem de qual tipo de monumento de pedra?",
+        "resposta": "Obelisco"
+      },
+      "existentes": [
+        {
+          "id": "q01456",
+          "pergunta": "Por que Obelix é proibido pelo druida Panoramix de tomar a poção mágica?",
+          "resposta": "Caiu no caldeirão quando bebê"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Antes de virar Clark Kent na Terra, que nome o Superman recebeu dos pais no planeta Krypton?",
+        "resposta": "Kal-El"
+      },
+      "existentes": [
+        {
+          "id": "q04411",
+          "pergunta": "Na capa da revista Action Comics número um, o Superman estreou levantando um carro. Em que ano essa revista chegou às bancas?",
+          "resposta": "1938"
+        },
+        {
+          "id": "q08855",
+          "pergunta": "Na famosa abertura dos programas de rádio e TV, o Superman é mais rápido que uma bala e mais poderoso que o quê?",
+          "resposta": "Uma locomotiva"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Antes de Peanuts, Charles Schulz publicava um painel semanal com crianças num jornal de Saint Paul. Como ele se chamava?",
+        "resposta": "Li'l Folks"
+      },
+      "existentes": [
+        {
+          "id": "q04412",
+          "pergunta": "Charles Schulz desenhou a tira Peanuts, de Charlie Brown e Snoopy, por quase cinquenta anos. Em que ano ela estreou nos jornais?",
+          "resposta": "1950"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O codinome do parceiro mirim do Batman, criado em 1940, foi inspirado em qual fora da lei lendário da floresta de Sherwood?",
+        "resposta": "Robin Hood"
+      },
+      "existentes": [
+        {
+          "id": "q08850",
+          "pergunta": "Bem antes de Jason Todd, quem foi o primeiro garoto a vestir o uniforme de Robin, parceiro do Batman, estreando em 1940?",
+          "resposta": "Dick Grayson"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Obcecado pela Morte, o vilão Thanos tem um nome derivado de qual figura da mitologia grega que personifica a morte?",
+        "resposta": "Tânatos"
+      },
+      "existentes": [
+        {
+          "id": "q08793",
+          "pergunta": "Quem é este personagem?",
+          "resposta": "Thanos"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Nas versões em inglês da Turma da Mônica, o Cascão ganhou um nome que significa mancha ou borrão de sujeira. Qual?",
+        "resposta": "Smudge"
+      },
+      "existentes": [
+        {
+          "id": "q05823",
+          "pergunta": "Quem é o melhor amigo deste personagem nos quadrinhos?",
+          "resposta": "Cebolinha"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "No original em inglês, o Tio Patinhas se chama Scrooge, nome de um velho avarento de qual livro de Charles Dickens?",
+        "resposta": "Um Conto de Natal"
+      },
+      "existentes": [
+        {
+          "id": "q01469",
+          "pergunta": "Que desenhista da Disney criou o Tio Patinhas numa história de Natal publicada em 1947?",
+          "resposta": "Carl Barks"
+        },
+        {
+          "id": "q04422",
+          "pergunta": "O Tio Patinhas ganhou sua primeira moeda engraxando sapatos ainda menino, no país onde nasceu. Que país é esse?",
+          "resposta": "Escócia"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Nas edições em inglês de Tintim, os detetives Dupond e Dupont também ganharam nomes quase iguais. Quais?",
+        "resposta": "Thomson e Thompson"
+      },
+      "existentes": [
+        {
+          "id": "q08794",
+          "pergunta": "Que quadrinista criou estes dois detetives trapalhões?",
+          "resposta": "Hergé"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "O criador de Thanos, Jim Starlin, admitiu que o vilão da Marvel foi inspirado em qual tirano da DC, criado por Jack Kirby?",
+        "resposta": "Darkseid"
+      },
+      "existentes": [
+        {
+          "id": "q15382",
+          "pergunta": "Que artista criou este vilão dos quadrinhos?",
+          "resposta": "Jack Kirby"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Ao criar o caipira Chico Bento, Mauricio de Sousa se inspirou em histórias que sua avó contava sobre quais parentes?",
+        "resposta": "Dois tios-avôs"
+      },
+      "existentes": [
+        {
+          "id": "q02248",
+          "pergunta": "Quem criou este personagem?",
+          "resposta": "Mauricio de Sousa"
+        },
+        {
+          "id": "q08883",
+          "pergunta": "Na Vila Abobrinha, por que o Nhô Lau vive correndo atrás do Chico Bento?",
+          "resposta": "Ele rouba as goiabas do pomar"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Em 1978, a DC lançou uma revista especial em que o Superman enfrenta num ringue qual campeão de boxe da vida real?",
+        "resposta": "Muhammad Ali"
+      },
+      "existentes": [
+        {
+          "id": "q04411",
+          "pergunta": "Na capa da revista Action Comics número um, o Superman estreou levantando um carro. Em que ano essa revista chegou às bancas?",
+          "resposta": "1938"
+        },
+        {
+          "id": "q08855",
+          "pergunta": "Na famosa abertura dos programas de rádio e TV, o Superman é mais rápido que uma bala e mais poderoso que o quê?",
+          "resposta": "Uma locomotiva"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Em 2009, uma revista do Homem-Aranha esgotou nas bancas por trazer, ao lado do herói, qual presidente americano recém-empossado?",
+        "resposta": "Barack Obama"
+      },
+      "existentes": [
+        {
+          "id": "q01453",
+          "pergunta": "Que tragédia familiar fez Peter Parker deixar o egoísmo de lado e usar seus poderes como herói?",
+          "resposta": "O assassinato do tio Ben"
+        },
+        {
+          "id": "q01454",
+          "pergunta": "Em 1962, o Homem-Aranha estreou na última edição de qual revista de antologia da Marvel?",
+          "resposta": "Amazing Fantasy"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Uma história do Tio Patinhas de 1954, de Carl Barks, teria inspirado a famosa fuga de uma bola de pedra gigante. Que herói do cinema protagoniza essa cena?",
+        "resposta": "Indiana Jones"
+      },
+      "existentes": [
+        {
+          "id": "q01469",
+          "pergunta": "Que desenhista da Disney criou o Tio Patinhas numa história de Natal publicada em 1947?",
+          "resposta": "Carl Barks"
+        },
+        {
+          "id": "q04422",
+          "pergunta": "O Tio Patinhas ganhou sua primeira moeda engraxando sapatos ainda menino, no país onde nasceu. Que país é esse?",
+          "resposta": "Escócia"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Desde 2009, o Homem-Aranha e o Mickey Mouse pertencem à mesma empresa. Qual?",
+        "resposta": "Disney"
+      },
+      "existentes": [
+        {
+          "id": "q04442",
+          "pergunta": "Em 1941, quando lançou o Capitão América, a editora que hoje se chama Marvel tinha outro nome. Qual?",
+          "resposta": "Timely Comics"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "No filme Alô, Amigos, de 1942, o papagaio Zé Carioca estreia num segmento embalado por qual canção de Ary Barroso?",
+        "resposta": "Aquarela do Brasil"
+      },
+      "existentes": [
+        {
+          "id": "q00131",
+          "pergunta": "O papagaio Zé Carioca, da Disney, surgiu em 1942 como parte de qual política americana de aproximação com a América Latina durante a guerra?",
+          "resposta": "Política da Boa Vizinhança"
+        },
+        {
+          "id": "q17456",
+          "pergunta": "Este papagaio da Disney é um malandro típico de qual cidade brasileira?",
+          "resposta": "Rio de Janeiro"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Stan Lee se inspirou em qual milionário americano, inventor, aviador e produtor de cinema, para criar Tony Stark, o Homem de Ferro?",
+        "resposta": "Howard Hughes"
+      },
+      "existentes": [
+        {
+          "id": "q04420",
+          "pergunta": "Na origem do Homem de Ferro, publicada em 1963, o milionário Tony Stark é ferido e capturado em qual país asiático em guerra?",
+          "resposta": "Vietnã"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "O primeiro Lanterna Verde, Alan Scott, de 1940, tinha uma lanterna mágica inspirada em qual conto das Mil e Uma Noites?",
+        "resposta": "Aladim"
+      },
+      "existentes": [
+        {
+          "id": "q08866",
+          "pergunta": "Nos quadrinhos clássicos, o anel do Lanterna Verde Hal Jordan não tinha efeito sobre objetos de qual cor?",
+          "resposta": "Amarelo"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Qual presidente francês teria dito que, no fundo, seu único rival internacional era o repórter Tintim?",
+        "resposta": "Charles de Gaulle"
+      },
+      "existentes": [
+        {
+          "id": "q01465",
+          "pergunta": "Em sua primeira aventura, publicada em 1929, o repórter Tintim viaja para qual país?",
+          "resposta": "União Soviética"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "O saci Pererê, dos quadrinhos dos anos 1960, e o Menino Maluquinho, de 1980, foram criados por qual cartunista?",
+        "resposta": "Ziraldo"
+      },
+      "existentes": [
+        {
+          "id": "q04415",
+          "pergunta": "Em que ano Ziraldo lançou a revista da Turma do Pererê, estrelada por um saci da mata brasileira?",
+          "resposta": "1960"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Uma estátua da Mafalda sentada num banco é atração turística em qual bairro boêmio de Buenos Aires, onde Quino morou?",
+        "resposta": "San Telmo"
+      },
+      "existentes": [
+        {
+          "id": "q01457",
+          "pergunta": "Mafalda foi criada por Quino para uma campanha publicitária que nunca saiu. Que tipo de produto ela anunciaria?",
+          "resposta": "Eletrodomésticos"
+        },
+        {
+          "id": "q01458",
+          "pergunta": "Que comida a Mafalda, a menina contestadora do argentino Quino, detesta acima de tudo?",
+          "resposta": "Sopa"
+        },
+        {
+          "id": "q04414",
+          "pergunta": "A tira Mafalda, do argentino Quino, estreou em 1964. Em que ano ele encerrou de vez a publicação dela?",
+          "resposta": "1973"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Em 1959, Asterix estreou no primeiro número de qual revista francesa de quadrinhos?",
+        "resposta": "Pilote"
+      },
+      "existentes": [
+        {
+          "id": "q01438",
+          "pergunta": "O nome do gaulês Asterix é uma brincadeira com qual sinal tipográfico?",
+          "resposta": "Asterisco"
+        },
+        {
+          "id": "q04423",
+          "pergunta": "No ano cinquenta antes de Cristo, a aldeia de Asterix resiste aos romanos em qual região da atual França?",
+          "resposta": "Bretanha (Armórica)"
+        },
+        {
+          "id": "q08863",
+          "pergunta": "Na aldeia de Asterix, qual bardo costuma terminar amarrado e amordaçado no banquete final, porque ninguém suporta sua cantoria?",
+          "resposta": "Chatotorix"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "O Zé Carioca nasceu de uma viagem de Walt Disney à América do Sul, num esforço dos Estados Unidos para ganhar aliados durante qual conflito?",
+        "resposta": "Segunda Guerra Mundial"
+      },
+      "existentes": [
+        {
+          "id": "q00131",
+          "pergunta": "O papagaio Zé Carioca, da Disney, surgiu em 1942 como parte de qual política americana de aproximação com a América Latina durante a guerra?",
+          "resposta": "Política da Boa Vizinhança"
+        },
+        {
+          "id": "q17456",
+          "pergunta": "Este papagaio da Disney é um malandro típico de qual cidade brasileira?",
+          "resposta": "Rio de Janeiro"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Numa viagem experimental ao espaço, o Quarteto Fantástico ganhou seus poderes depois de ser atingido pelo quê?",
+        "resposta": "Raios cósmicos"
+      },
+      "existentes": [
+        {
+          "id": "q01475",
+          "pergunta": "Qual membro do Quarteto Fantástico é o irmão mais novo da Mulher Invisível?",
+          "resposta": "Tocha Humana"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Ainda menino, Matt Murdock salvou um homem de ser atropelado por um caminhão e perdeu a visão. O que o cegou?",
+        "resposta": "Uma substância radioativa"
+      },
+      "existentes": [
+        {
+          "id": "q04421",
+          "pergunta": "O advogado cego Matt Murdock, o Demolidor, protege qual bairro de Nova York, onde cresceu?",
+          "resposta": "Hell's Kitchen (Cozinha do Inferno)"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "No filme Você Já Foi à Bahia?, Zé Carioca e Pato Donald formam o trio dos Três Cavaleiros com qual galo mexicano?",
+        "resposta": "Panchito"
+      },
+      "existentes": [
+        {
+          "id": "q00131",
+          "pergunta": "O papagaio Zé Carioca, da Disney, surgiu em 1942 como parte de qual política americana de aproximação com a América Latina durante a guerra?",
+          "resposta": "Política da Boa Vizinhança"
+        },
+        {
+          "id": "q17456",
+          "pergunta": "Este papagaio da Disney é um malandro típico de qual cidade brasileira?",
+          "resposta": "Rio de Janeiro"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Qual destes heróis americanos de traje colante foi o primeiro a estrear nos quadrinhos?",
+        "resposta": "Fantasma"
+      },
+      "existentes": [
+        {
+          "id": "q04429",
+          "pergunta": "Nas tiras de Lee Falk, onde fica o esconderijo do Fantasma, o espírito que anda?",
+          "resposta": "Na Caverna da Caveira"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Em 1992, Maus, de Art Spiegelman, recebeu um prêmio especial de qual premiação americana de jornalismo e literatura?",
+        "resposta": "Prêmio Pulitzer"
+      },
+      "existentes": [
+        {
+          "id": "q01476",
+          "pergunta": "Em Maus, de Art Spiegelman, os judeus são desenhados como ratos. Que animais representam os nazistas?",
+          "resposta": "Gatos"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Segundo a inscrição gravada no martelo Mjolnir, de Thor, quem consegue erguê-lo e receber o poder do deus do trovão?",
+        "resposta": "Quem for digno"
+      },
+      "existentes": [
+        {
+          "id": "q08860",
+          "pergunta": "Nos quadrinhos da Marvel, o martelo Mjolnir, do deus Thor, foi forjado com qual metal fictício?",
+          "resposta": "Uru"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Número de edições é outro fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Tamanho da equipe original difere de quem entrou na quarta edição."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Número de garras é fato distinto."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Número de acampamentos é outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Valor pago difere do ano de lançamento."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Quantidade de joias, não identidade do personagem."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Origem do nome difere da proibição da poção."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nome kryptoniano é outro fato."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Painel anterior a Peanuts é outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Inspiração do codinome difere de quem foi o primeiro Robin."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Origem do nome, não identidade."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Nome em inglês é outro fato."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Origem do nome Scrooge é outro fato."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Nomes em inglês dos detetives, não o criador."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Inspiração de Thanos difere do criador de um vilão."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Inspiração familiar é outro fato."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Revista de 1978 é fato distinto."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Edição de 2009 é fato distinto."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Inspiração para cena de cinema é outro fato."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Empresa atual é outro fato."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Canção do segmento é outro fato."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Inspiração de Tony Stark difere do local da origem."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Inspiração do Alan Scott é outro fato."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Citação de presidente difere da primeira aventura."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Criador comum difere do ano da revista."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Localização da estátua é outro fato."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Revista de estreia é outro fato."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Conflito difere do nome da política; na dúvida, nova."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Origem dos poderes difere de parentesco."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Causa da cegueira difere do bairro."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Filme e parceiro são outro fato."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Primeiro herói a estrear difere do esconderijo."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Prêmio é outro fato."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Inscrição do martelo difere do metal."
+    }
+  ]
+}

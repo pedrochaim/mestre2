@@ -1,0 +1,445 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fato amplamente documentado (nasceu com seis dedos em cada mão); pergunta e distratores corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A contagem de álbuns de Goscinny é ambígua (o 24º foi terminado por Uderzo) e os trechos não sustentam o número.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Doze edições mensais confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Homem de Ferro, Homem-Formiga, Hulk, Thor e Vespa: cinco, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte diz 546 (553 na série animada), não 542; a idade varia entre versões e o detalhe é frágil.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Três garras retráteis em cada antebraço, sustentado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O número de setores mudou na cronologia dos quadrinhos (3600 vs 2814), então não é estável.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Babaorum, Aquarium, Laudanum e Petibonum: quatro acampamentos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A fonte diz que os US$130 pagaram a primeira história, e não os direitos, que foram cedidos de graça.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Em 1938, Jerry Siegel e Joe Shuster receberam quanto da editora pela primeira história do Superman?",
+        "resposta": "Cento e trinta dólares",
+        "distratores": [
+          "Quinhentos dólares",
+          "Mil dólares",
+          "Dez mil dólares"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Superman"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A formação original é ambígua (estreia com seis heróis, outros entrando depois) e os trechos não trazem o número.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quatro tentáculos mecânicos, confirmado; o contraste com o polvo torna a pergunta interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Seis Joias do Infinito, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A fonte é sobre a planta e não sustenta o fato; não tenho certeza do nome verdadeiro.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome é trocadilho com obélisque, confirmado na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kal-El é o nome kryptoniano, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Li'l Folks, painel semanal no St. Paul Pioneer Press, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome e visual inspirados em Robin Hood, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português diz que Thanos é inspirado em Thanatos.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte usa Smudge como nome em inglês do Cascão.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Scrooge vem de Ebenezer Scrooge, de Um Conto de Natal, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Nuvenzinhas é distrator defensável como 'puffs de fumaça'; trocar por um distrator claramente errado.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Na Itália, as histórias em quadrinhos são chamadas de fumetti, por causa dos balões de fala. O que essa palavra significa?",
+        "resposta": "Fumacinhas",
+        "distratores": [
+          "Bolhinhas",
+          "Desenhinhos",
+          "Quadradinhos"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Fumetti"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Satélite batizado com o nome do personagem Astérix, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "E. Nygma = enigma, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Thomson and Thompson nas edições em inglês, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Starlin admitiu a influência de Darkseid, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte fala em tios-avôs Chico e Bento (dois), não 'um tio-avô'.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Ao criar o caipira Chico Bento, Mauricio de Sousa se inspirou em histórias que sua avó contava sobre quais parentes?",
+        "resposta": "Dois tios-avôs",
+        "distratores": [
+          "Dois primos",
+          "Dois irmãos",
+          "Dois sobrinhos"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Chico_Bento"
+        ]
+      }
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Superman vs. Muhammad Ali, DC, 1978, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A edição de Amazing Spider-Man com Obama em 2009 foi um sucesso de vendas; fonte trata do tema.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte inexistente e a influência é atribuída ('teria inspirado'); trocar a fonte e suavizar o verbo.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Uma história do Tio Patinhas de 1954, de Carl Barks, teria inspirado a famosa fuga de uma bola de pedra gigante. Que herói do cinema protagoniza essa cena?",
+        "resposta": "Indiana Jones",
+        "distratores": [
+          "Allan Quatermain",
+          "Lara Croft",
+          "Han Solo"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Raiders_of_the_Lost_Ark"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Disney concluiu a compra da Marvel em 2009, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aquarela do Brasil no segmento de estreia do Zé Carioca, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lee modelou Stark em Howard Hughes, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nodell se inspirou em Aladim, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Citação de De Gaulle em 1966 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta 'O criador, Ziraldo' é estranha; melhor perguntar o cartunista diretamente.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "O saci Pererê, dos quadrinhos dos anos 1960, e o Menino Maluquinho, de 1980, foram criados por qual cartunista?",
+        "resposta": "Ziraldo",
+        "distratores": [
+          "Mauricio de Sousa",
+          "Henfil",
+          "Angeli"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Turma_do_Perer%C3%AA"
+        ]
+      }
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ditko criou o Doutor Estranho em 1963, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Don Rosa escreveu e desenhou a saga, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estátua em frente à antiga casa de Quino em San Telmo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreou em Fantastic Four #52, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Asterix estreou em Pilote #1, 1959, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kryptonita estreou no rádio em 1943, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Criado na Segunda Guerra, Política da Boa Vizinhança, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Poderes vieram de raios cósmicos, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cegado por substância radioativa, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Helga é a esposa de Hagar, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz 'galo' mas os distratores não são galos; usar distratores da mesma categoria.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "No filme Você Já Foi à Bahia?, Zé Carioca e Pato Donald formam o trio dos Três Cavaleiros com qual galo mexicano?",
+        "resposta": "Panchito",
+        "distratores": [
+          "Foghorn Leghorn",
+          "Chanticleer",
+          "Rocky"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/The_Three_Caballeros"
+        ]
+      }
+    },
+    {
+      "indice": 47,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Superman não é mascarado, então o enunciado é impreciso; reformular para heróis de traje.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Qual destes heróis americanos de traje colante foi o primeiro a estrear nos quadrinhos?",
+        "resposta": "Fantasma",
+        "distratores": [
+          "Superman",
+          "Batman",
+          "Capitão América"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/The_Phantom"
+        ]
+      }
+    },
+    {
+      "indice": 48,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "As fontes divergem sobre a data da última tira e a formulação 'na véspera de quê' é fraca, com distratores arbitrários.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Prêmio Especial do Pulitzer em 1992, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Encantamento: só quem for digno ergue o Mjolnir, confirmado.",
+      "reescrita": null
+    }
+  ]
+}
