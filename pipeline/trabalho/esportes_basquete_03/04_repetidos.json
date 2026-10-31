@@ -1,0 +1,917 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Nos Jogos de Barcelona, em 1992, qual jogador foi o cestinha do Dream Team americano?",
+        "resposta": "Charles Barkley"
+      },
+      "existentes": [
+        {
+          "id": "q01772",
+          "pergunta": "Por que astros da NBA só puderam disputar as Olimpíadas a partir de 1992?",
+          "resposta": "A FIBA passou a aceitar profissionais"
+        },
+        {
+          "id": "q01773",
+          "pergunta": "Ao lado de onze astros da NBA, o Dream Team de 1992 tinha um único jogador universitário. Quem era ele?",
+          "resposta": "Christian Laettner"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No draft da NBA de 1984, qual destes jogadores foi escolhido mais tarde?",
+        "resposta": "John Stockton"
+      },
+      "existentes": [
+        {
+          "id": "q08074",
+          "pergunta": "No draft da NBA de 1984, Michael Jordan foi apenas a terceira escolha. Que pivô foi escolhido em primeiro lugar?",
+          "resposta": "Hakeem Olajuwon"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em qual destas competições a linha de três pontos fica mais distante da cesta?",
+        "resposta": "NBA"
+      },
+      "existentes": [
+        {
+          "id": "q01804",
+          "pergunta": "Em qual temporada a NBA passou a usar a cesta de três pontos?",
+          "resposta": "Temporada 1979–80"
+        },
+        {
+          "id": "q08055",
+          "pergunta": "Depois de surgir nas ligas americanas, a cesta de três pontos foi adotada pela FIBA, nas competições internacionais, em que ano?",
+          "resposta": "1984"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Entre estes jogadores do San Antonio Spurs, qual conquistou mais títulos da NBA?",
+        "resposta": "Tim Duncan"
+      },
+      "existentes": [
+        {
+          "id": "q01779",
+          "pergunta": "Na adolescência, Tim Duncan treinava para ser nadador nas Ilhas Virgens. Que acontecimento de 1989 o fez trocar a natação pelo basquete?",
+          "resposta": "O furacão Hugo, que destruiu a piscina"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Nos seis títulos do Chicago Bulls com Michael Jordan, qual adversário foi derrotado em duas finais?",
+        "resposta": "Utah Jazz"
+      },
+      "existentes": [
+        {
+          "id": "q08035",
+          "pergunta": "O Utah Jazz nasceu em 1974 em outra cidade, e o nome homenageia a música que surgiu lá. Que cidade era essa?",
+          "resposta": "Nova Orleans"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Qual destes astros dos anos oitenta ganhou o prêmio de melhor jogador da temporada da NBA três vezes seguidas?",
+        "resposta": "Larry Bird"
+      },
+      "existentes": [
+        {
+          "id": "q01783",
+          "pergunta": "Antes da rivalidade entre Celtics e Lakers, Larry Bird e Magic Johnson já tinham se enfrentado em qual decisão de 1979?",
+          "resposta": "A final do campeonato universitário americano"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Qual destes jogadores marcou mais pontos em Jogos Olímpicos, somando todas as edições que disputou?",
+        "resposta": "Oscar Schmidt"
+      },
+      "existentes": [
+        {
+          "id": "q00535",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Oscar Schmidt"
+        },
+        {
+          "id": "q01774",
+          "pergunta": "Oscar Schmidt recusou a NBA em 1984 para seguir na seleção brasileira. Até 1989, o que a liga proibia seus jogadores de fazer?",
+          "resposta": "Defender suas seleções nacionais"
+        },
+        {
+          "id": "q01775",
+          "pergunta": "Em 1984, qual time da NBA escolheu Oscar Schmidt no draft?",
+          "resposta": "New Jersey Nets"
+        },
+        {
+          "id": "q15374",
+          "pergunta": "Em que cidade brasileira nasceu este ex-jogador de basquete?",
+          "resposta": "Natal"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Nos três títulos seguidos do Los Angeles Lakers, de 2000 a 2002, quem foi eleito o melhor jogador de todas as finais?",
+        "resposta": "Shaquille O'Neal"
+      },
+      "existentes": [
+        {
+          "id": "q04486",
+          "pergunta": "Por que time da NBA este pivô americano começou a carreira profissional, nos anos noventa?",
+          "resposta": "Orlando Magic"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Qual destes astros da NBA ganhou mais medalhas de ouro olímpicas pela seleção americana?",
+        "resposta": "Kevin Durant"
+      },
+      "existentes": [
+        {
+          "id": "q05965",
+          "pergunta": "Quem é este jogador de basquete?",
+          "resposta": "Kevin Durant"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Na final do Mundial de 1994, a seleção feminina do Brasil, de Hortência e Paula, venceu qual adversário?",
+        "resposta": "China"
+      },
+      "existentes": [
+        {
+          "id": "q01794",
+          "pergunta": "Em 1994, a seleção feminina de Hortência e Paula conquistou o título mundial de basquete em qual país?",
+          "resposta": "Austrália"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Além de Michael Jordan, qual jogador do Chicago Bulls fez parte do Dream Team de 1992?",
+        "resposta": "Scottie Pippen"
+      },
+      "existentes": [
+        {
+          "id": "q01772",
+          "pergunta": "Por que astros da NBA só puderam disputar as Olimpíadas a partir de 1992?",
+          "resposta": "A FIBA passou a aceitar profissionais"
+        },
+        {
+          "id": "q01773",
+          "pergunta": "Ao lado de onze astros da NBA, o Dream Team de 1992 tinha um único jogador universitário. Quem era ele?",
+          "resposta": "Christian Laettner"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "No segundo tricampeonato do Chicago Bulls, de 1996 a 1998, Jordan e Pippen formavam um trio com qual especialista em rebotes?",
+        "resposta": "Dennis Rodman"
+      },
+      "existentes": [
+        {
+          "id": "q08060",
+          "pergunta": "Fundado em 1966, o Chicago Bulls ganhou esse nome em referência a qual atividade econômica famosa da cidade?",
+          "resposta": "Os frigoríficos"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Nos títulos do Lakers nos anos oitenta, Magic Johnson e Kareem Abdul-Jabbar tinham como parceiro qual ala, eleito o melhor das finais de 1988?",
+        "resposta": "James Worthy"
+      },
+      "existentes": [
+        {
+          "id": "q01760",
+          "pergunta": "O nome Lakers lembra uma terra de muitos lagos. O time ganhou esse nome antes de se mudar para Los Angeles, em qual estado americano?",
+          "resposta": "Minnesota"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Nos anos oitenta, o Boston Celtics de Larry Bird e Kevin McHale tinha qual pivô, apelidado de O Chefe?",
+        "resposta": "Robert Parish"
+      },
+      "existentes": [
+        {
+          "id": "q08061",
+          "pergunta": "O nome do Boston Celtics foi escolhido em homenagem à grande comunidade de imigrantes de qual país na cidade?",
+          "resposta": "Irlanda"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "O troféu Larry O'Brien, entregue ao campeão da NBA, é banhado a ouro. De que metal ele é feito por baixo desse banho?",
+        "resposta": "Prata"
+      },
+      "existentes": [
+        {
+          "id": "q08049",
+          "pergunta": "Que joalheria de Nova York fabrica o troféu Larry O'Brien, entregue ao campeão da NBA?",
+          "resposta": "Tiffany"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "No filme Space Jam, de 1996, qual comediante de Hollywood entra em quadra ao lado de Michael Jordan e dos Looney Tunes?",
+        "resposta": "Bill Murray"
+      },
+      "existentes": [
+        {
+          "id": "q01802",
+          "pergunta": "No filme Space Jam, de 1996, como se chama o time de alienígenas gigantes que rouba o talento de astros da NBA?",
+          "resposta": "Monstars"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Em Barcelona, em 1992, a Lituânia ganhou o bronze no basquete liderada por qual pivô, que depois brilhou no Portland Trail Blazers?",
+        "resposta": "Arvydas Sabonis"
+      },
+      "existentes": [
+        {
+          "id": "q08050",
+          "pergunta": "Em 1992, a seleção da Lituânia subiu ao pódio olímpico com camisetas coloridas de esqueleto, após ter a viagem financiada por qual banda de rock americana?",
+          "resposta": "Grateful Dead"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Nos primeiros jogos de basquete, em 1891, ainda não existia uma bola própria para o esporte. Que bola James Naismith usou?",
+        "resposta": "Bola de futebol"
+      },
+      "existentes": [
+        {
+          "id": "q04346",
+          "pergunta": "Que bola esportiva é esta?",
+          "resposta": "Bola de basquete"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "No fim dos anos cinquenta, a bola de basquete, que era marrom, passou a ser laranja. Qual era o objetivo da mudança?",
+        "resposta": "Ficar mais visível"
+      },
+      "existentes": [
+        {
+          "id": "q04346",
+          "pergunta": "Que bola esportiva é esta?",
+          "resposta": "Bola de basquete"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "No jogo decisivo das finais de 1980, com Kareem machucado, o novato Magic Johnson começou jogando em qual posição?",
+        "resposta": "Pivô"
+      },
+      "existentes": [
+        {
+          "id": "q01776",
+          "pergunta": "Em novembro de 1991, Magic Johnson anunciou de surpresa que deixaria as quadras. Qual foi o motivo?",
+          "resposta": "Ele era portador do vírus HIV"
+        },
+        {
+          "id": "q06545",
+          "pergunta": "Que time da NBA este armador defendeu durante toda a carreira?",
+          "resposta": "Los Angeles Lakers"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Na temporada em que marcou cem pontos num jogo, Wilt Chamberlain, que errava muitos lances livres, passou a cobrá-los de um jeito incomum. Qual?",
+        "resposta": "Arremessando por baixo"
+      },
+      "existentes": [
+        {
+          "id": "q01786",
+          "pergunta": "Antes de estrear na NBA, Wilt Chamberlain passou uma temporada em qual time, famoso por suas exibições cômicas?",
+          "resposta": "Harlem Globetrotters"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Pelas regras originais do basquete, escritas por James Naismith em 1891, o que o jogador com a bola nas mãos estava proibido de fazer?",
+        "resposta": "Correr com a bola"
+      },
+      "existentes": [
+        {
+          "id": "q08042",
+          "pergunta": "Leiloado em 2010, o documento original com as regras do basquete hoje fica em qual universidade americana, onde Naismith foi técnico?",
+          "resposta": "Universidade do Kansas"
+        },
+        {
+          "id": "q08071",
+          "pergunta": "Ao inventar o basquete, em 1891, o professor James Naismith escreveu quantas regras para o novo jogo?",
+          "resposta": "13"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Fora das quadras, o pivô sérvio Nikola Jokić é conhecido pela paixão por qual esporte?",
+        "resposta": "Corrida de cavalos"
+      },
+      "existentes": [
+        {
+          "id": "q15764",
+          "pergunta": "Qual é o apelido deste pivô sérvio?",
+          "resposta": "Joker"
+        },
+        {
+          "id": "q15889",
+          "pergunta": "Quem é este jogador de basquete?",
+          "resposta": "Nikola Jokić"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Nos anos noventa, Shaquille O'Neal gravou discos, e o primeiro deles ganhou disco de platina. De qual gênero musical?",
+        "resposta": "Rap"
+      },
+      "existentes": [
+        {
+          "id": "q04486",
+          "pergunta": "Por que time da NBA este pivô americano começou a carreira profissional, nos anos noventa?",
+          "resposta": "Orlando Magic"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Em 2018, Kobe Bryant recebeu um prêmio pelo curta de animação Dear Basketball, baseado num poema seu. Em qual grande cerimônia do cinema?",
+        "resposta": "Oscar"
+      },
+      "existentes": [
+        {
+          "id": "q01764",
+          "pergunta": "Kobe Bryant adotou o apelido Black Mamba depois de assistir a qual filme de Quentin Tarantino?",
+          "resposta": "Kill Bill"
+        },
+        {
+          "id": "q08043",
+          "pergunta": "Antes de virar astro do Lakers, Kobe Bryant passou boa parte da infância em qual país europeu, onde seu pai jogava basquete?",
+          "resposta": "Itália"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Em 1966, sem deixar de jogar, Bill Russell passou a acumular qual outra função no Boston Celtics?",
+        "resposta": "Técnico do time"
+      },
+      "existentes": [
+        {
+          "id": "q01799",
+          "pergunta": "Em 2022, a NBA aposentou em todos os seus times o número de camisa de Bill Russell. Que número é esse?",
+          "resposta": "6"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Pela pontaria nos arremessos de três, Stephen Curry e Klay Thompson ganharam qual apelido de dupla?",
+        "resposta": "Splash Brothers"
+      },
+      "existentes": [
+        {
+          "id": "q15484",
+          "pergunta": "Que jogador de basquete é este?",
+          "resposta": "Klay Thompson"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "No San Antonio Spurs do fim dos anos noventa, Tim Duncan e David Robinson formavam uma dupla de gigantes com qual apelido?",
+        "resposta": "Twin Towers"
+      },
+      "existentes": [
+        {
+          "id": "q01779",
+          "pergunta": "Na adolescência, Tim Duncan treinava para ser nadador nas Ilhas Virgens. Que acontecimento de 1989 o fez trocar a natação pelo basquete?",
+          "resposta": "O furacão Hugo, que destruiu a piscina"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "O logotipo da linha Air Jordan, com a silhueta de Michael Jordan saltando de pernas abertas, tem qual nome?",
+        "resposta": "Jumpman"
+      },
+      "existentes": [
+        {
+          "id": "q01791",
+          "pergunta": "Que empresa de material esportivo criou a linha de tênis Air Jordan, lançada em 1985?",
+          "resposta": "Nike"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Nos anos oitenta, o estilo veloz e cheio de passes espetaculares do Lakers de Magic Johnson ganhou qual apelido?",
+        "resposta": "Showtime"
+      },
+      "existentes": [
+        {
+          "id": "q01776",
+          "pergunta": "Em novembro de 1991, Magic Johnson anunciou de surpresa que deixaria as quadras. Qual foi o motivo?",
+          "resposta": "Ele era portador do vírus HIV"
+        },
+        {
+          "id": "q06545",
+          "pergunta": "Que time da NBA este armador defendeu durante toda a carreira?",
+          "resposta": "Los Angeles Lakers"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Os pais de Kobe Bryant escolheram o nome do filho depois de ver qual item no cardápio de um restaurante?",
+        "resposta": "Carne bovina japonesa"
+      },
+      "existentes": [
+        {
+          "id": "q01764",
+          "pergunta": "Kobe Bryant adotou o apelido Black Mamba depois de assistir a qual filme de Quentin Tarantino?",
+          "resposta": "Kill Bill"
+        },
+        {
+          "id": "q08043",
+          "pergunta": "Antes de virar astro do Lakers, Kobe Bryant passou boa parte da infância em qual país europeu, onde seu pai jogava basquete?",
+          "resposta": "Itália"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Suspeitas de que times perderam jogos de propósito para escolher Hakeem Olajuwon em 1984 levaram a NBA a criar, no ano seguinte, qual mecanismo?",
+        "resposta": "Loteria do draft"
+      },
+      "existentes": [
+        {
+          "id": "q08074",
+          "pergunta": "No draft da NBA de 1984, Michael Jordan foi apenas a terceira escolha. Que pivô foi escolhido em primeiro lugar?",
+          "resposta": "Hakeem Olajuwon"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Numa propaganda famosa, a Nike dizia que a NBA tinha banido o tênis vermelho e preto de Michael Jordan. Qual era o motivo alegado?",
+        "resposta": "Cores fora do padrão"
+      },
+      "existentes": [
+        {
+          "id": "q01791",
+          "pergunta": "Que empresa de material esportivo criou a linha de tênis Air Jordan, lançada em 1985?",
+          "resposta": "Nike"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "O filme Space Jam nasceu do sucesso de comerciais em que Michael Jordan contracenava com o Pernalonga. Eram anúncios de qual marca?",
+        "resposta": "Nike"
+      },
+      "existentes": [
+        {
+          "id": "q01802",
+          "pergunta": "No filme Space Jam, de 1996, como se chama o time de alienígenas gigantes que rouba o talento de astros da NBA?",
+          "resposta": "Monstars"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "No basquete feminino adaptado por Senda Berenson, as jogadoras ficavam presas a zonas da quadra. Que preocupação da época motivou essa regra?",
+        "resposta": "Evitar esforço físico excessivo"
+      },
+      "existentes": [
+        {
+          "id": "q08057",
+          "pergunta": "A professora Senda Berenson adaptou o basquete para suas alunas do Smith College. Em que ano ela organizou ali o primeiro jogo feminino universitário?",
+          "resposta": "1893"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Os pivôs Patrick Ewing, Alonzo Mourning e Dikembe Mutombo jogaram, antes da NBA, por qual mesma universidade americana?",
+        "resposta": "Georgetown"
+      },
+      "existentes": [
+        {
+          "id": "q08040",
+          "pergunta": "O pivô Dikembe Mutombo, famoso por balançar o dedo depois de cada toco, construiu um hospital em qual país, sua terra natal?",
+          "resposta": "República Democrática do Congo"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Em 1982, ainda calouro, Michael Jordan acertou a cesta que decidiu o título universitário americano. Por qual universidade?",
+        "resposta": "Carolina do Norte"
+      },
+      "existentes": [
+        {
+          "id": "q00537",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Michael Jordan"
+        },
+        {
+          "id": "q01798",
+          "pergunta": "Ao voltar do beisebol para a NBA, em 1995, Michael Jordan usou por alguns meses qual número de camisa antes de retomar o vinte e três?",
+          "resposta": "45"
+        },
+        {
+          "id": "q15622",
+          "pergunta": "Com o Dream Team, esta lenda do basquete foi campeã olímpica em que edição dos Jogos?",
+          "resposta": "Barcelona 1992"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "O armador francês Tony Parker, do San Antonio Spurs, casou-se em 2007 com qual atriz da série Desperate Housewives?",
+        "resposta": "Eva Longoria"
+      },
+      "existentes": [
+        {
+          "id": "q15890",
+          "pergunta": "Quantos títulos da NBA conquistou este armador francês, todos defendendo um mesmo clube?",
+          "resposta": "Quatro"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "O pai de Klay Thompson, o pivô Mychal Thompson, também foi campeão da NBA nos anos oitenta. Por qual time?",
+        "resposta": "Los Angeles Lakers"
+      },
+      "existentes": [
+        {
+          "id": "q15484",
+          "pergunta": "Que jogador de basquete é este?",
+          "resposta": "Klay Thompson"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "Os cestos de pêssego dos primeiros jogos de basquete foram usados até que ano, quando deram lugar a aros de metal?",
+        "resposta": "1906"
+      },
+      "existentes": [
+        {
+          "id": "q01805",
+          "pergunta": "Os primeiros cestos usados no basquete, pregados na sacada de um ginásio em 1891, eram feitos para a colheita de qual fruta?",
+          "resposta": "Pêssego"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "O armador canadense Steve Nash, duas vezes melhor jogador da temporada da NBA, nasceu em qual país?",
+        "resposta": "África do Sul"
+      },
+      "existentes": [
+        {
+          "id": "q13938",
+          "pergunta": "Este ex-armador canadense jogou dezoito temporadas na NBA. Qual time ele defendeu por mais temporadas?",
+          "resposta": "Phoenix Suns"
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "nova": {
+        "pergunta": "Dennis Rodman liderou a NBA em rebotes por quantas temporadas seguidas?",
+        "resposta": "Sete"
+      },
+      "existentes": [
+        {
+          "id": "q08039",
+          "pergunta": "Em 2013, o ex-astro do Chicago Bulls Dennis Rodman fez uma visita polêmica a qual país, governado por um ditador fã de basquete?",
+          "resposta": "Coreia do Norte"
+        }
+      ]
+    },
+    {
+      "caso": 43,
+      "nova": {
+        "pergunta": "Em janeiro de 2006, contra o Toronto Raptors, Kobe Bryant fez a maior pontuação de sua carreira num só jogo. Quantos pontos?",
+        "resposta": "81"
+      },
+      "existentes": [
+        {
+          "id": "q01764",
+          "pergunta": "Kobe Bryant adotou o apelido Black Mamba depois de assistir a qual filme de Quentin Tarantino?",
+          "resposta": "Kill Bill"
+        },
+        {
+          "id": "q08043",
+          "pergunta": "Antes de virar astro do Lakers, Kobe Bryant passou boa parte da infância em qual país europeu, onde seu pai jogava basquete?",
+          "resposta": "Itália"
+        }
+      ]
+    },
+    {
+      "caso": 44,
+      "nova": {
+        "pergunta": "Numa partida da NBA, quantos minutos dura cada um dos quatro quartos?",
+        "resposta": "12"
+      },
+      "existentes": [
+        {
+          "id": "q08052",
+          "pergunta": "A principal liga americana de basquete passou a se chamar NBA depois da fusão de duas ligas rivais. Em que ano?",
+          "resposta": "1949"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cestinha do Dream Team é fato distinto."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Escolha tardia de Stockton difere do primeiro escolhido."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Distância da linha difere de datas de adoção."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Títulos vs. infância de Duncan."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Adversário nas finais vs. origem do nome do Jazz."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "MVP vs. final universitária de 1979."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Recorde de pontos olímpicos é fato diferente."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "MVP das finais vs. time inicial."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Ouros olímpicos vs. identificação."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Adversário da final vs. país-sede."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Membro do Dream Team é fato diferente."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Trio dos Bulls vs. origem do nome."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Parceiro do Lakers vs. origem do nome."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Pivô dos Celtics vs. origem do nome."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Metal vs. fabricante."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Comediante vs. time de alienígenas."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Pivô lituano vs. banda financiadora."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Bola original vs. identificação de imagem."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Motivo da cor laranja é outro fato."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Posição em 1980 é outro fato."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Lances livres vs. Globetrotters."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Regra específica vs. número de regras/local."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Hobby vs. apelido/identificação."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Gênero musical vs. time inicial."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Oscar vs. apelido/infância."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Função de técnico vs. número aposentado."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Apelido da dupla vs. identificação."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Apelido da dupla vs. infância."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Nome do logotipo vs. empresa criadora."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Apelido do estilo é outro fato."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Origem do nome Kobe é outro fato."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Loteria do draft vs. primeira escolha."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Motivo do banimento vs. fabricante."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Marca dos comerciais vs. time Monstars."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Motivo da regra vs. ano do jogo."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Universidade vs. hospital."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Universidade de 1982 é outro fato."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Casamento vs. títulos."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Time do pai vs. identificação."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Ano de uso vs. fruta."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "País de nascimento vs. time."
+    },
+    {
+      "caso": 42,
+      "decisao": "nova",
+      "motivo": "Rebotes vs. visita à Coreia do Norte."
+    },
+    {
+      "caso": 43,
+      "decisao": "nova",
+      "motivo": "Recorde de pontos é outro fato."
+    },
+    {
+      "caso": 44,
+      "decisao": "nova",
+      "motivo": "Duração dos quartos vs. ano da fusão."
+    }
+  ]
+}

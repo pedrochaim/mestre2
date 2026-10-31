@@ -1,0 +1,423 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Golden State Warriors",
+        "descricao": "Franquia da NBA sediada em San Francisco, na Califórnia, fundada em 1946 na Filadélfia.",
+        "variantes": [
+          "Warriors"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "wario",
+          "nome": "Wario",
+          "descricao": "Personagem da Nintendo, rival ganancioso de Mario, de roupa amarela e roxa.",
+          "variantes": []
+        },
+        {
+          "id": "golden_slam",
+          "nome": "Golden Slam",
+          "descricao": "Feito de vencer os quatro torneios de Grand Slam e a medalha de ouro olímpica de simples.",
+          "variantes": [
+            "Golden Grand Slam",
+            "Golden Slam de carreira"
+          ]
+        },
+        {
+          "id": "cavalo_de_guerra_filme",
+          "nome": "Cavalo de Guerra (filme)",
+          "descricao": "Filme americano de 2011, baseado no livro de Michael Morpurgo, sobre um cavalo de fazenda inglês levado para a Primeira Guerra Mundial.",
+          "variantes": [
+            "War Horse"
+          ]
+        },
+        {
+          "id": "arrufos",
+          "nome": "Arrufos",
+          "descricao": "Quadro de Belmiro de Almeida de 1887.",
+          "variantes": []
+        },
+        {
+          "id": "ponte_golden_gate",
+          "nome": "Ponte Golden Gate",
+          "descricao": "Ponte pênsil sobre o estreito de Golden Gate, em São Francisco, inaugurada em 1937.",
+          "variantes": [
+            "Golden Gate Bridge",
+            "Golden Gate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Miami Heat",
+        "descricao": "Franquia da NBA sediada em Miami, na Flórida, fundada em 1988.",
+        "variantes": [
+          "Heat"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "copas_naipe",
+          "nome": "Copas (naipe)",
+          "descricao": "Naipe vermelho do baralho representado por corações, cujo nome em português vem do naipe de taças do baralho latino.",
+          "variantes": [
+            "Hearts",
+            "Naipe de copas"
+          ]
+        },
+        {
+          "id": "celulas_hela",
+          "nome": "Células HeLa",
+          "descricao": "Linhagem de células humanas cultivadas continuamente desde 1951, retiradas de um tumor de Henrietta Lacks.",
+          "variantes": [
+            "HeLa"
+          ]
+        },
+        {
+          "id": "hel_mitologia",
+          "nome": "Hel (mitologia)",
+          "descricao": "Deusa nórdica, filha de Loki, que governa o reino dos mortos de mesmo nome.",
+          "variantes": [
+            "Hela"
+          ]
+        },
+        {
+          "id": "hera",
+          "nome": "Hera",
+          "descricao": "Deusa grega do casamento, rainha dos deuses do Olimpo e esposa de Zeus.",
+          "variantes": [
+            "Juno"
+          ]
+        },
+        {
+          "id": "mawile",
+          "nome": "Mawile",
+          "descricao": "Pokémon do tipo Aço/Fada da terceira geração, número 303 da Pokédex Nacional, com uma grande mandíbula na cabeça.",
+          "variantes": [
+            "Kucheat"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bola de basquete",
+        "descricao": "Bola esférica e inflável usada no basquete, hoje de cor laranja e com gomos marcados por linhas pretas.",
+        "variantes": [
+          "Bola de basquetebol",
+          "Basketball (ball)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bola_de_basquete",
+          "nome": "Bola de basquete",
+          "descricao": "Bola esférica alaranjada com gomos pretos usada no basquete.",
+          "variantes": [
+            "Basketball"
+          ]
+        },
+        {
+          "id": "tabela_de_basquete",
+          "nome": "Tabela de basquete",
+          "descricao": "Placa vertical presa atrás do aro, na qual a bola pode quicar antes de entrar na cesta.",
+          "variantes": [
+            "Backboard",
+            "Tabela"
+          ]
+        },
+        {
+          "id": "aro_de_basquete",
+          "nome": "Aro de basquete",
+          "descricao": "Anel de metal com rede, preso à tabela, por onde a bola deve passar para marcar pontos.",
+          "variantes": [
+            "Cesta",
+            "Rim",
+            "Hoop"
+          ]
+        },
+        {
+          "id": "bola_de_beisebol",
+          "nome": "Bola de beisebol",
+          "descricao": "Bola branca de couro com costura vermelha usada no esporte beisebol.",
+          "variantes": [
+            "Baseball"
+          ]
+        },
+        {
+          "id": "balao_de_ar_quente",
+          "nome": "Balão de ar quente",
+          "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+          "variantes": [
+            "Balão",
+            "Balão aerostático",
+            "Montgolfière",
+            "Hot air balloon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Philadelphia 76ers",
+        "descricao": "Franquia da NBA sediada na Filadélfia, na Pensilvânia, fundada em 1946 como Syracuse Nationals.",
+        "variantes": [
+          "Sixers",
+          "76ers"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piers",
+          "nome": "Piers",
+          "descricao": "Líder do ginásio de tipo Sombrio de Spikemuth, em Galar, cantor de rock, nos jogos Pokémon Sword e Shield.",
+          "variantes": [
+            "Nezu"
+          ]
+        },
+        {
+          "id": "snickers",
+          "nome": "Snickers",
+          "descricao": "Barra de chocolate com amendoim, caramelo e nougat lançada pela americana Mars em 1930.",
+          "variantes": []
+        },
+        {
+          "id": "sirius",
+          "nome": "Sírius",
+          "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+          "variantes": [
+            "Alfa do Cão Maior",
+            "Estrela do Cão"
+          ]
+        },
+        {
+          "id": "sesta",
+          "nome": "Sesta",
+          "descricao": "Cochilo tradicional depois do almoço, típico da Espanha e de outros países de clima quente.",
+          "variantes": [
+            "Siesta"
+          ]
+        },
+        {
+          "id": "carrapato",
+          "nome": "Carrapato",
+          "descricao": "Aracnídeo parasita da ordem Ixodida, que se alimenta de sangue de mamíferos, aves e outros vertebrados.",
+          "variantes": [
+            "Ixodida",
+            "Ixodes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Seleção Brasileira de Basquete Masculino",
+        "descricao": "Equipe nacional masculina de basquete do Brasil, bicampeã mundial em 1959 e 1963.",
+        "variantes": [
+          "Seleção Brasileira de Basquetebol Masculino"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "selecao_brasileira_de_voleibol_masculino",
+          "nome": "Seleção Brasileira de Voleibol Masculino",
+          "descricao": "Seleção masculina de vôlei de quadra do Brasil.",
+          "variantes": [
+            "Seleção brasileira masculina de vôlei"
+          ]
+        },
+        {
+          "id": "selecao_brasileira_de_futebol",
+          "nome": "Seleção Brasileira de Futebol",
+          "descricao": "Seleção nacional masculina de futebol do Brasil, pentacampeã mundial.",
+          "variantes": [
+            "Brasil",
+            "Canarinho"
+          ]
+        },
+        {
+          "id": "selecao_brasileira_de_voleibol_feminino",
+          "nome": "Seleção Brasileira de Voleibol Feminino",
+          "descricao": "Seleção feminina de vôlei de quadra do Brasil, campeã olímpica em 2008 e 2012.",
+          "variantes": [
+            "Seleção brasileira feminina de vôlei"
+          ]
+        },
+        {
+          "id": "selecao_italiana_de_voleibol_masculino",
+          "nome": "Seleção Italiana de Voleibol Masculino",
+          "descricao": "Seleção masculina de vôlei de quadra da Itália.",
+          "variantes": [
+            "Italy men's national volleyball team",
+            "Generazione di fenomeni"
+          ]
+        },
+        {
+          "id": "selecao_alema_de_futebol",
+          "nome": "Seleção Alemã de Futebol",
+          "descricao": "Equipe nacional masculina de futebol da Alemanha, de camisa branca com detalhes nas cores da bandeira.",
+          "variantes": [
+            "Alemanha",
+            "Seleção da Alemanha",
+            "Die Mannschaft"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "WNBA",
+        "descricao": "Liga profissional feminina de basquete dos Estados Unidos, criada com o apoio da NBA.",
+        "variantes": [
+          "Women's National Basketball Association"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "national_basketball_association",
+          "nome": "National Basketball Association",
+          "descricao": "Principal liga profissional de basquete dos Estados Unidos e do Canadá.",
+          "variantes": [
+            "NBA"
+          ]
+        },
+        {
+          "id": "museu_nacional_de_belas_artes",
+          "nome": "Museu Nacional de Belas Artes",
+          "descricao": "Museu de arte no centro do Rio de Janeiro, instalado em prédio eclético de 1908.",
+          "variantes": [
+            "MNBA"
+          ]
+        },
+        {
+          "id": "american_basketball_association",
+          "nome": "American Basketball Association",
+          "descricao": "Liga profissional americana de basquete que rivalizou com a NBA de 1967 a 1976.",
+          "variantes": [
+            "ABA"
+          ]
+        },
+        {
+          "id": "wta",
+          "nome": "WTA",
+          "descricao": "Women's Tennis Association, entidade que organiza o circuito profissional feminino de tênis, fundada em 1973.",
+          "variantes": [
+            "Women's Tennis Association",
+            "Associação de Tênis Feminino"
+          ]
+        },
+        {
+          "id": "fifa",
+          "nome": "FIFA",
+          "descricao": "Federação Internacional de Futebol, entidade que organiza a Copa do Mundo, fundada em 1904.",
+          "variantes": [
+            "Fédération Internationale de Football Association",
+            "Federação Internacional de Futebol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Campeonato Mundial de Basquete Masculino de 1963",
+        "descricao": "Quarta edição do Mundial masculino da FIBA, vencida pela seleção brasileira, que conquistou o bicampeonato.",
+        "variantes": [
+          "1963 FIBA World Championship"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "campeonato_mundial_de_basquete_masculino_de_1950",
+          "nome": "Campeonato Mundial de Basquete Masculino de 1950",
+          "descricao": "Primeira edição do Mundial de basquete masculino da FIBA, disputada na Argentina.",
+          "variantes": [
+            "Mundial de 1950",
+            "1950 FIBA World Championship"
+          ]
+        },
+        {
+          "id": "campeonato_mundial_de_basquete_masculino_de_1959",
+          "nome": "Campeonato Mundial de Basquete Masculino de 1959",
+          "descricao": "Terceira edição do Mundial masculino da FIBA, vencida pela seleção brasileira.",
+          "variantes": [
+            "Mundial de Basquete de 1959",
+            "1959 FIBA World Championship"
+          ]
+        },
+        {
+          "id": "campeonato_mundial_de_basquete_masculino_de_2002",
+          "nome": "Campeonato Mundial de Basquete Masculino de 2002",
+          "descricao": "Mundial de basquete masculino da FIBA disputado em Indianápolis, nos Estados Unidos.",
+          "variantes": [
+            "Mundial de 2002",
+            "2002 FIBA World Championship"
+          ]
+        },
+        {
+          "id": "campeonato_mundial_de_basquete_feminino_de_1994",
+          "nome": "Campeonato Mundial de Basquete Feminino de 1994",
+          "descricao": "Mundial feminino da FIBA disputado na Austrália e vencido pela seleção brasileira.",
+          "variantes": [
+            "Mundial feminino de 1994",
+            "1994 FIBA World Championship for Women"
+          ]
+        },
+        {
+          "id": "campeonato_mundial_de_voleibol_masculino_de_1949",
+          "nome": "Campeonato Mundial de Voleibol Masculino de 1949",
+          "descricao": "Primeira edição do Mundial masculino de vôlei, disputada em Praga, na Tchecoslováquia.",
+          "variantes": [
+            "1949 FIVB Volleyball Men's World Championship"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a franquia Golden State Warriors."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Miami Heat."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "bola_de_basquete",
+      "motivo": "Mesma bola usada no basquete, laranja com gomos pretos."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Philadelphia 76ers."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Seleção masculina de basquete do Brasil não está entre as candidatas, que são de outros esportes ou países."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "A WNBA é liga distinta da NBA, da ABA e da WTA."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "A edição de 1963 não está entre as candidatas, que são de outros anos."
+    }
+  ]
+}
