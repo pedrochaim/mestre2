@@ -1,0 +1,278 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Esquilo-cinzento nítido, sem texto; fato do trecho (invasor na Europa).",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este esquilo, nativo da América do Norte, é hoje considerado espécie invasora em qual continente?",
+      "resposta": "Europa",
+      "distratores": [
+        "Ásia",
+        "Oceania",
+        "América do Sul"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Esquilo-cinzento",
+        "descricao": "Esquilo arborícola Sciurus carolinensis, nativo do leste da América do Norte e invasor na Europa.",
+        "variantes": [
+          "Esquilo-cinza",
+          "Esquilo-cinzento-oriental",
+          "Sciurus carolinensis"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Saguis de tufos pretos e máscara branca, bem visíveis, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este pequeno primata, nativo do Planalto Central do Brasil, foi introduzido em qual cidade, onde hoje é comum?",
+      "resposta": "Rio de Janeiro",
+      "distratores": [
+        "Recife",
+        "Vitória",
+        "Fortaleza"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mico-estrela",
+        "descricao": "Pequeno primata brasileiro Callithrix penicillata, de tufos auriculares pretos e mancha branca na testa.",
+        "variantes": [
+          "Sagui-de-tufos-pretos",
+          "Callithrix penicillata"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Urso-beiçudo inteiro, focinho claro característico; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que se alimenta principalmente este urso, nativo do subcontinente indiano?",
+      "resposta": "Formigas e cupins",
+      "distratores": [
+        "Salmão",
+        "Bambu",
+        "Focas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Urso-beiçudo",
+        "descricao": "Urso insetívoro Melursus ursinus, de pelagem negra e desgrenhada, nativo do subcontinente indiano.",
+        "variantes": [
+          "Urso-preguiça",
+          "Urso-labiado",
+          "Melursus ursinus"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Esquilo-listrado nítido, de perfil, listras visíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que animal é este?",
+      "resposta": "Esquilo-listrado",
+      "distratores": [
+        "Esquilo-cinzento",
+        "Esquilo-vermelho",
+        "Cão-da-pradaria"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Esquilo-listrado",
+        "descricao": "Pequeno roedor Tamias striatus, de listras escuras nas costas, do leste da América do Norte.",
+        "variantes": [
+          "Tâmia",
+          "Tâmia-oriental",
+          "Tamias striatus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Veado-campeiro em campo aberto, com anel branco nos olhos, focinho escuro e chifres pequenos; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que veado brasileiro é este?",
+      "resposta": "Veado-campeiro",
+      "distratores": [
+        "Cervo-do-pantanal",
+        "Veado-catingueiro",
+        "Veado-mateiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Veado-campeiro",
+        "descricao": "Cervo Ozotoceros bezoarticus, de campos abertos da América do Sul.",
+        "variantes": [
+          "Cervo-das-pampas",
+          "Ozotoceros bezoarticus"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Indri de frente, pelagem preta e branca bem visível.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A que grupo de primatas pertence este animal?",
+      "resposta": "Lêmures",
+      "distratores": [
+        "Gibões",
+        "Társios",
+        "Babuínos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Indri",
+        "descricao": "Grande lêmure preto e branco, Indri indri, de Madagascar.",
+        "variantes": [
+          "Babakoto",
+          "Indri indri"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Carneiro-selvagem macho com grandes chifres espiralados, nítido.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que carneiro selvagem é este?",
+      "resposta": "Carneiro-selvagem-das-montanhas-rochosas",
+      "distratores": [
+        "Muflão",
+        "Argali",
+        "Cabra-montesa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Carneiro-selvagem-das-montanhas-rochosas",
+        "descricao": "Carneiro selvagem Ovis canadensis, de grandes chifres espiralados, nativo da América do Norte.",
+        "variantes": [
+          "Bighorn",
+          "Carneiro-selvagem",
+          "Ovis canadensis"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Elande nítido, de corpo inteiro, chifres espiralados e barbela.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que antílope é este?",
+      "resposta": "Elande",
+      "distratores": [
+        "Cudo-maior",
+        "Órix",
+        "Bongo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Elande",
+        "descricao": "Grande antílope africano Tragelaphus oryx, de savanas do leste e sul da África.",
+        "variantes": [
+          "Elande-comum",
+          "Tragelaphus oryx"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Springbok nítido, com a faixa marrom e a face branca.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que antílope africano é este?",
+      "resposta": "Springbok",
+      "distratores": [
+        "Gazela-de-thomson",
+        "Impala",
+        "Gerenuque"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Springbok",
+        "descricao": "Antílope Antidorcas marsupialis, do sul e sudoeste da África.",
+        "variantes": [
+          "Cabra-de-leque",
+          "Springbuck",
+          "Antidorcas marsupialis"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "É uma ilustração antiga de espécie viva que pode ser fotografada; o Manifesto só aceita ilustração para o que não pode ser fotografado."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ilustração de animal extinto (permitida); preguiça-gigante em pose clássica. Distratores de outra forma corporal para a resposta ser única.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal extinto da América do Sul é este?",
+      "resposta": "Megatério",
+      "distratores": [
+        "Gliptodonte",
+        "Toxodonte",
+        "Macrauquênia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Megatério",
+        "descricao": "Gênero extinto de preguiças-gigantes terrícolas da América do Sul, do tamanho de um elefante.",
+        "variantes": [
+          "Megatherium",
+          "Preguiça-gigante"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foca-de-capuz taxidermizada, manchas e capuz nasal visíveis, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que foca é esta?",
+      "resposta": "Foca-de-capuz",
+      "distratores": [
+        "Foca-comum",
+        "Foca-cinzenta",
+        "Foca-barbuda"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Foca-de-capuz",
+        "descricao": "Grande foca Cystophora cristata do Atlântico Norte, de pelagem manchada e capuz nasal inflável.",
+        "variantes": [
+          "Foca-de-crista",
+          "Cystophora cristata"
+        ]
+      }
+    }
+  ]
+}

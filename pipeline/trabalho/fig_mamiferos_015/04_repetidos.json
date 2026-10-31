@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este pequeno primata, nativo do Planalto Central do Brasil, foi introduzido em qual cidade, onde hoje é comum?",
+        "resposta": "Rio de Janeiro"
+      },
+      "existentes": [
+        {
+          "id": "q14699",
+          "pergunta": "Que sagui brasileiro é este?",
+          "resposta": "Sagui-de-tufos-pretos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que animal extinto da América do Sul é este?",
+        "resposta": "Megatério"
+      },
+      "existentes": [
+        {
+          "id": "q02736",
+          "pergunta": "O megatério, mamífero sul-americano do tamanho de um elefante, é parente extinto de que animal atual que vive pendurado nas árvores?",
+          "resposta": "Bicho-preguiça"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a cidade onde o sagui foi introduzido; a existente pede a identificação da espécie. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do animal (megatério) pela imagem; a existente pergunta o parente atual (preguiça), que é outro fato, e o nome já aparece no enunciado dela."
+    }
+  ]
+}

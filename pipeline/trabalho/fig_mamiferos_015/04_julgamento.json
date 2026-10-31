@@ -1,0 +1,724 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Esquilo-cinzento",
+        "descricao": "Esquilo arborícola Sciurus carolinensis, nativo do leste da América do Norte e invasor na Europa.",
+        "variantes": [
+          "Esquilo-cinza",
+          "Esquilo-cinzento-oriental",
+          "Sciurus carolinensis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lobo_cinzento",
+          "nome": "Lobo-cinzento",
+          "descricao": "Maior canídeo selvagem (Canis lupus), nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Lobo",
+            "Lobo-comum",
+            "Canis lupus"
+          ]
+        },
+        {
+          "id": "laranja",
+          "nome": "Laranja",
+          "descricao": "Fruta cítrica Citrus × sinensis, híbrido de pomelo e tangerina, de casca e polpa alaranjadas.",
+          "variantes": [
+            "Laranja-doce",
+            "Citrus sinensis"
+          ]
+        },
+        {
+          "id": "ordem_corintia",
+          "nome": "Ordem coríntia",
+          "descricao": "Ordem arquitetônica clássica grega, a mais ornamentada, com capitel decorado com folhas de acanto.",
+          "variantes": [
+            "Corinthian order",
+            "Estilo coríntio"
+          ]
+        },
+        {
+          "id": "esquilo",
+          "nome": "Ésquilo",
+          "descricao": "Dramaturgo ateniense do século cinco a.C., considerado o pai da tragédia grega.",
+          "variantes": [
+            "Aeschylus",
+            "Aiskhylos",
+            "Aischylos"
+          ]
+        },
+        {
+          "id": "sanhaco_cinzento",
+          "nome": "Sanhaço-cinzento",
+          "descricao": "Ave Thraupis sayaca, de corpo cinza-azulado e asas azul-esverdeadas, comum no Brasil e em países vizinhos.",
+          "variantes": [
+            "Sanhaçu-cinzento",
+            "Sayaca tanager",
+            "Thraupis sayaca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mico-estrela",
+        "descricao": "Pequeno primata brasileiro Callithrix penicillata, de tufos auriculares pretos e mancha branca na testa.",
+        "variantes": [
+          "Sagui-de-tufos-pretos",
+          "Callithrix penicillata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sagui_de_tufos_brancos",
+          "nome": "Sagui-de-tufos-brancos",
+          "descricao": "Primata do Novo Mundo, Callithrix jacchus, de tufos brancos nas orelhas, nativo do litoral do Nordeste brasileiro.",
+          "variantes": [
+            "Callithrix jacchus",
+            "Sagui-comum",
+            "Sagui-de-tufo-branco",
+            "Mico-estrela"
+          ]
+        },
+        {
+          "id": "sagui_de_tufos_pretos",
+          "nome": "Sagui-de-tufos-pretos",
+          "descricao": "Primata do Novo Mundo (Callithrix penicillata) do Planalto Central brasileiro, com tufos pretos nas orelhas.",
+          "variantes": [
+            "Mico-estrela",
+            "Sagui-estrela",
+            "Black-tufted marmoset",
+            "Callithrix penicillata"
+          ]
+        },
+        {
+          "id": "tipo_estelar",
+          "nome": "Tipo Estelar",
+          "descricao": "Teratipo especial introduzido na expansão The Indigo Disk, de Pokémon Scarlet e Violet, ligado ao lendário Terapagos.",
+          "variantes": [
+            "Stellar",
+            "Teratipo Estelar"
+          ]
+        },
+        {
+          "id": "patrick_estrela",
+          "nome": "Patrick Estrela",
+          "descricao": "Estrela-do-mar rosa, melhor amigo de Bob Esponja na série animada Bob Esponja Calça Quadrada.",
+          "variantes": [
+            "Patrick Star",
+            "Patrick"
+          ]
+        },
+        {
+          "id": "costela",
+          "nome": "Costela",
+          "descricao": "Osso longo e curvo que forma a caixa torácica e protege órgãos do tórax.",
+          "variantes": [
+            "Costelas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Urso-beiçudo",
+        "descricao": "Urso insetívoro Melursus ursinus, de pelagem negra e desgrenhada, nativo do subcontinente indiano.",
+        "variantes": [
+          "Urso-preguiça",
+          "Urso-labiado",
+          "Melursus ursinus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bicho_preguica",
+          "nome": "Bicho-preguiça",
+          "descricao": "Mamífero arborícola lento das Américas Central e do Sul, da subordem Folivora.",
+          "variantes": [
+            "Preguiça",
+            "Sloth",
+            "Folivora"
+          ]
+        },
+        {
+          "id": "urso_pardo",
+          "nome": "Urso-pardo",
+          "descricao": "Grande urso (Ursus arctos) de pelagem marrom, nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Urso-marrom",
+            "Grizzly",
+            "Ursus arctos"
+          ]
+        },
+        {
+          "id": "burro",
+          "nome": "Burro",
+          "descricao": "Equino doméstico descendente do asno-selvagem-africano, usado como animal de carga.",
+          "variantes": [
+            "Asno",
+            "Jumento",
+            "Equus asinus"
+          ]
+        },
+        {
+          "id": "urso_polar",
+          "nome": "Urso-polar",
+          "descricao": "Urso das regiões árticas, espécie Ursus maritimus.",
+          "variantes": [
+            "Ursus maritimus",
+            "Polar bear",
+            "Urso-branco"
+          ]
+        },
+        {
+          "id": "urso_de_oculos",
+          "nome": "Urso-de-óculos",
+          "descricao": "Único urso sul-americano (Tremarctos ornatus), com manchas claras ao redor dos olhos.",
+          "variantes": [
+            "Urso-andino",
+            "Tremarctos ornatus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Esquilo-listrado",
+        "descricao": "Pequeno roedor Tamias striatus, de listras escuras nas costas, do leste da América do Norte.",
+        "variantes": [
+          "Tâmia",
+          "Tâmia-oriental",
+          "Tamias striatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_tamisa",
+          "nome": "Rio Tâmisa",
+          "descricao": "Rio da Inglaterra que atravessa Londres e Oxford e deságua no mar do Norte.",
+          "variantes": [
+            "Tâmisa",
+            "River Thames",
+            "Thames"
+          ]
+        },
+        {
+          "id": "taiga",
+          "nome": "Taiga",
+          "descricao": "Floresta boreal de coníferas que cobre o norte da Eurásia e da América do Norte",
+          "variantes": [
+            "Floresta boreal"
+          ]
+        },
+        {
+          "id": "projeto_tamar",
+          "nome": "Projeto Tamar",
+          "descricao": "Programa brasileiro de conservação das tartarugas marinhas, criado em 1980.",
+          "variantes": [
+            "Tamar"
+          ]
+        },
+        {
+          "id": "tamal",
+          "nome": "Tamal",
+          "descricao": "Prato mesoamericano de massa de milho nixtamalizado, cozido no vapor em palha de milho ou folha de bananeira.",
+          "variantes": [
+            "Tamale",
+            "Tamales"
+          ]
+        },
+        {
+          "id": "injera",
+          "nome": "Injera",
+          "descricao": "Pão achatado e fermentado, de farinha de teff, base da culinária da Etiópia.",
+          "variantes": [
+            "Enjera",
+            "Taita"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Veado-campeiro",
+        "descricao": "Cervo Ozotoceros bezoarticus, de campos abertos da América do Sul.",
+        "variantes": [
+          "Cervo-das-pampas",
+          "Ozotoceros bezoarticus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cervo_do_pantanal",
+          "nome": "Cervo-do-pantanal",
+          "descricao": "Maior cervo da América do Sul, Blastocerus dichotomus, de áreas alagadas.",
+          "variantes": [
+            "Blastocerus dichotomus",
+            "Veado-galheiro"
+          ]
+        },
+        {
+          "id": "cervo_almiscarado_siberiano",
+          "nome": "Cervo-almiscarado-siberiano",
+          "descricao": "Pequeno ruminante sem chifres, com presas, das florestas montanhosas do nordeste da Ásia, Moschus moschiferus.",
+          "variantes": [
+            "Veado-almiscareiro",
+            "Siberian musk deer",
+            "Moschus moschiferus"
+          ]
+        },
+        {
+          "id": "inundacao_da_varzea_do_carmo_benedito_calixto",
+          "nome": "Inundação da Várzea do Carmo (Benedito Calixto)",
+          "descricao": "Pintura a óleo de Benedito Calixto, de 1892, que mostra a cheia do Tamanduateí no centro de São Paulo.",
+          "variantes": [
+            "Inundação da Várzea do Carmo",
+            "Várzea do Carmo"
+          ]
+        },
+        {
+          "id": "vasco_da_gama",
+          "nome": "Vasco da Gama",
+          "descricao": "Club de Regatas Vasco da Gama, clube carioca fundado em 1898 por remadores.",
+          "variantes": [
+            "Club de Regatas Vasco da Gama",
+            "Vasco",
+            "CR Vasco da Gama"
+          ]
+        },
+        {
+          "id": "fernao_dias_pais",
+          "nome": "Fernão Dias Pais",
+          "descricao": "Bandeirante paulista do século dezessete que liderou uma longa expedição pelo sertão de Minas Gerais em busca de pedras preciosas.",
+          "variantes": [
+            "Fernão Dias",
+            "Fernão Dias Paes Leme"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Indri",
+        "descricao": "Grande lêmure preto e branco, Indri indri, de Madagascar.",
+        "variantes": [
+          "Babakoto",
+          "Indri indri"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "lingua_hindi",
+          "nome": "Língua hindi",
+          "descricao": "Língua indo-ariana oficial da Índia, falada sobretudo no norte do país.",
+          "variantes": [
+            "Hindi"
+          ]
+        },
+        {
+          "id": "escoria_vulcanica",
+          "nome": "Escória vulcânica",
+          "descricao": "Rocha vulcânica escura e muito vesicular, formada por lava expelida e resfriada no ar.",
+          "variantes": [
+            "Escória",
+            "Scoria",
+            "Cinder"
+          ]
+        },
+        {
+          "id": "bobina_de_inducao_ruhmkorff",
+          "nome": "Bobina de indução (Ruhmkorff)",
+          "descricao": "Tipo de transformador que produz pulsos de alta tensão a partir de corrente contínua, usando um interruptor vibratório; inventada em 1836.",
+          "variantes": [
+            "Bobina de Ruhmkorff",
+            "Bobina de indução",
+            "Indutório"
+          ]
+        },
+        {
+          "id": "quindim",
+          "nome": "Quindim",
+          "descricao": "Doce brasileiro assado, amarelo e brilhante, de herança portuguesa",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Carneiro-selvagem-das-montanhas-rochosas",
+        "descricao": "Carneiro selvagem Ovis canadensis, de grandes chifres espiralados, nativo da América do Norte.",
+        "variantes": [
+          "Bighorn",
+          "Carneiro-selvagem",
+          "Ovis canadensis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bigorna",
+          "nome": "Bigorna",
+          "descricao": "Ossículo do ouvido médio que recebe as vibrações do martelo e as transmite ao estribo.",
+          "variantes": [
+            "Incus",
+            "Osso bigorna"
+          ]
+        },
+        {
+          "id": "area_selvagem",
+          "nome": "Área Selvagem",
+          "descricao": "Grande área aberta de Pokémon Sword e Shield, no centro de Galar, com câmera livre, clima variável e batalhas Max Raid.",
+          "variantes": [
+            "Wild Area"
+          ]
+        },
+        {
+          "id": "farfetch_d",
+          "nome": "Farfetch’d",
+          "descricao": "Pokémon de tipo Normal/Voador, número 83 da Pokédex Nacional, um pato selvagem que carrega um talo de alho-poró.",
+          "variantes": [
+            "Pato Selvagem",
+            "Farfetchd",
+            "Kamonegi",
+            "Farfetch'd de Galar"
+          ]
+        },
+        {
+          "id": "gafanhoto_das_montanhas_rochosas",
+          "nome": "Gafanhoto-das-montanhas-rochosas",
+          "descricao": "Gafanhoto norte-americano extinto (Melanoplus spretus) que formava nuvens gigantescas nas pradarias no século dezenove.",
+          "variantes": [
+            "Melanoplus spretus",
+            "Rocky Mountain locust"
+          ]
+        },
+        {
+          "id": "snorlax",
+          "nome": "Snorlax",
+          "descricao": "Pokémon do tipo Normal, número 143 da Pokédex Nacional.",
+          "variantes": [
+            "Kabigon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Elande",
+        "descricao": "Grande antílope africano Tragelaphus oryx, de savanas do leste e sul da África.",
+        "variantes": [
+          "Elande-comum",
+          "Tragelaphus oryx"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "garrafao",
+          "nome": "Garrafão",
+          "descricao": "Área pintada da quadra de basquete entre a linha de fundo e a linha do lance livre.",
+          "variantes": [
+            "Key",
+            "Lane",
+            "Área restritiva"
+          ]
+        },
+        {
+          "id": "avela",
+          "nome": "Avelã",
+          "descricao": "Fruto da aveleira (Corylus avellana), fruto seco usado em doces e pastas de chocolate.",
+          "variantes": [
+            "Avelã comum",
+            "Hazelnut"
+          ]
+        },
+        {
+          "id": "lince_euroasiatico",
+          "nome": "Lince-euroasiático",
+          "descricao": "Felino de médio porte (Lynx lynx) das florestas da Europa e da Ásia, com tufos pretos nas orelhas.",
+          "variantes": [
+            "Lince-boreal",
+            "Lince-comum",
+            "Eurasian lynx",
+            "Lynx lynx"
+          ]
+        },
+        {
+          "id": "islandia",
+          "nome": "Islândia",
+          "descricao": "País insular no Atlântico Norte, entre a Groenlândia e a Noruega, conhecido por vulcões e gêiseres.",
+          "variantes": [
+            "Iceland",
+            "Ísland"
+          ]
+        },
+        {
+          "id": "melanie_anime",
+          "nome": "Melanie (anime)",
+          "descricao": "Moça do anime Pokémon que cuida de pokémon abandonados num vilarejo escondido de Kanto, protegido pelo Bulbasaur que depois segue Ash.",
+          "variantes": [
+            "Melanie"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Springbok",
+        "descricao": "Antílope Antidorcas marsupialis, do sul e sudoeste da África.",
+        "variantes": [
+          "Cabra-de-leque",
+          "Springbuck",
+          "Antidorcas marsupialis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pingo",
+          "nome": "Pingo",
+          "descricao": "Colina cônica com núcleo de gelo que se forma em regiões de permafrost no Ártico e subártico.",
+          "variantes": [
+            "Pingos",
+            "Colina de gelo"
+          ]
+        },
+        {
+          "id": "sporting_clube_de_portugal",
+          "nome": "Sporting Clube de Portugal",
+          "descricao": "Clube desportivo de Lisboa, famoso pelo futebol, de camisa com listras horizontais verdes e brancas.",
+          "variantes": [
+            "Sporting",
+            "Sporting CP",
+            "Sporting Lisboa"
+          ]
+        },
+        {
+          "id": "sabre_de_luz",
+          "nome": "Sabre de luz",
+          "descricao": "Arma de lâmina de energia usada pelos Jedi e Sith na franquia Star Wars.",
+          "variantes": [
+            "Lightsaber"
+          ]
+        },
+        {
+          "id": "cabeca_de_meroe",
+          "nome": "Cabeça de Méroe",
+          "descricao": "Cabeça de bronze de Augusto achada em Méroe, no atual Sudão, hoje no Museu Britânico.",
+          "variantes": [
+            "Cabeça de Augusto de Méroe",
+            "Meroë Head"
+          ]
+        },
+        {
+          "id": "cartas_zener",
+          "nome": "Cartas Zener",
+          "descricao": "Baralho de cinco símbolos (círculo, cruz, ondas, quadrado e estrela) usado em experimentos de percepção extrassensorial.",
+          "variantes": [
+            "Cartas de Zener",
+            "Zener cards",
+            "Cartas ESP"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Megatério",
+        "descricao": "Gênero extinto de preguiças-gigantes terrícolas da América do Sul, do tamanho de um elefante.",
+        "variantes": [
+          "Megatherium",
+          "Preguiça-gigante"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "megaterio",
+          "nome": "Megatério",
+          "descricao": "Gênero extinto de preguiça-terrestre gigante que viveu na América do Sul até o fim do Pleistoceno.",
+          "variantes": [
+            "Megatherium",
+            "Preguiça-gigante"
+          ]
+        },
+        {
+          "id": "protea_rei",
+          "nome": "Protea-rei",
+          "descricao": "Planta Protea cynaroides, de enorme inflorescência com brácteas rosa-avermelhadas, típica do fynbos sul-africano.",
+          "variantes": [
+            "Protea cynaroides",
+            "Protea gigante",
+            "King protea"
+          ]
+        },
+        {
+          "id": "meteorito_hoba",
+          "nome": "Meteorito Hoba",
+          "descricao": "Grande meteorito de ferro encontrado na Namíbia, o maior bloco único de ferro de origem natural na superfície terrestre.",
+          "variantes": [
+            "Meteorito",
+            "Hoba",
+            "Hoba West"
+          ]
+        },
+        {
+          "id": "sequoia_gigante",
+          "nome": "Sequoia-gigante",
+          "descricao": "Sequoiadendron giganteum, conífera da Serra Nevada, na Califórnia, a maior árvore do mundo em volume.",
+          "variantes": [
+            "Sequoiadendron giganteum",
+            "Sequoia-da-sierra",
+            "Wellingtonia"
+          ]
+        },
+        {
+          "id": "saguaro",
+          "nome": "Saguaro",
+          "descricao": "Cacto colunar gigante, Carnegiea gigantea, de braços erguidos, típico do sudoeste dos Estados Unidos e do noroeste do México.",
+          "variantes": [
+            "Carnegiea gigantea"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Foca-de-capuz",
+        "descricao": "Grande foca Cystophora cristata do Atlântico Norte, de pelagem manchada e capuz nasal inflável.",
+        "variantes": [
+          "Foca-de-crista",
+          "Cystophora cristata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ra_de_vidro",
+          "nome": "Rã-de-vidro",
+          "descricao": "Rã arborícola verde da família Centrolenidae, cuja pele da barriga é translúcida, das florestas da América Central e do Sul.",
+          "variantes": [
+            "Centrolenidae",
+            "Rã-de-cristal",
+            "Glass frog"
+          ]
+        },
+        {
+          "id": "gecko_de_crista",
+          "nome": "Gecko-de-crista",
+          "descricao": "Correlophus ciliatus, gecko da Nova Caledônia com cristas acima dos olhos.",
+          "variantes": [
+            "Gecko-de-cílios",
+            "Correlophus ciliatus",
+            "Rhacodactylus ciliatus"
+          ]
+        },
+        {
+          "id": "porco_espinho",
+          "nome": "Porco-espinho",
+          "descricao": "Roedor da espécie Hystrix cristata, o porco-espinho-de-crista, com espinhos longos no dorso.",
+          "variantes": [
+            "Porco-espinho-de-crista",
+            "Hystrix cristata",
+            "Porco-espinho-crestado"
+          ]
+        },
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis",
+            "Terno de Reis"
+          ]
+        },
+        {
+          "id": "tritao_de_crista",
+          "nome": "Tritão-de-crista",
+          "descricao": "Anfíbio europeu de grande porte, Triturus cristatus, cujo macho desenvolve uma crista serrilhada no dorso na época de reprodução.",
+          "variantes": [
+            "Triturus cristatus",
+            "Tritão-crestado"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Esquilo-cinzento (Sciurus carolinensis) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "sagui_de_tufos_pretos",
+      "motivo": "Callithrix penicillata, mesma espécie (sagui-de-tufos-pretos / mico-estrela)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Melursus ursinus não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Tamias striatus não está entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Ozotoceros bezoarticus é diferente do cervo-do-pantanal e das demais."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Indri indri não consta nas candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Ovis canadensis não consta nas candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Elande (Tragelaphus oryx) não consta nas candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Springbok não consta nas candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "megaterio",
+      "motivo": "Mesmo gênero extinto Megatherium."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Cystophora cristata não consta nas candidatas."
+    }
+  ]
+}
