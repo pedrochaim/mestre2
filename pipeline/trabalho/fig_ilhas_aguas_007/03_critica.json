@@ -1,0 +1,41 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Mar Morto, distrator, também é um lago que banha Israel e poderia ser defendido como resposta. Restringir a pergunta a lago de água doce (confirmado nos trechos) e trocar o distrator por um lago de água doce, para a resposta ser única.",
+      "reescrita": {
+        "pergunta": "Que lago de água doce de Israel é este, visto do espaço?",
+        "resposta": "Mar da Galileia",
+        "distratores": [
+          "Lago Van",
+          "Lago Sevan",
+          "Lago Tana"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está nos trechos: a ilha apareceu em O Homem da Pistola de Ouro, de 1974. O problema são os distratores, que passam de 4 palavras (\"Com 007 Só Se Vive Duas Vezes\", \"007 Contra o Satânico Dr. No\"). Troquei-os por filmes de Bond com títulos curtos e da mesma época.",
+      "reescrita": {
+        "pergunta": "Que filme de James Bond usou esta ilha tailandesa como cenário?",
+        "resposta": "O Homem da Pistola de Ouro",
+        "distratores": [
+          "Viva e Deixe Morrer",
+          "Os Diamantes São Eternos",
+          "007 Contra Goldfinger"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o rio atravessa o centro de Chicago. O enunciado não nomeia a cidade, os distratores são cidades americanas grandes e críveis, e a resposta é única.",
+      "reescrita": null
+    }
+  ]
+}

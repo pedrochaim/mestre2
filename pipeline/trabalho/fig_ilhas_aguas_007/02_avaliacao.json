@@ -1,0 +1,122 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com a forma de pera inconfundível do lago.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que lago de Israel é este, visto do espaço?",
+      "resposta": "Mar da Galileia",
+      "distratores": [
+        "Mar Morto",
+        "Lago Van",
+        "Lago Sevan"
+      ],
+      "ancora": {
+        "nome": "Mar da Galileia",
+        "descricao": "Lago de água doce no nordeste de Israel, atravessado pelo rio Jordão.",
+        "variantes": [
+          "Lago de Tiberíades",
+          "Kinneret",
+          "Lago Genesaré"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Vila costeira com igreja genérica, sem elementos que permitam reconhecer a ilha; resposta não única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Ilha coberta de gelo, plana, parecida com uma barreira de gelo antártica ou outras ilhas subantárticas; não reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto genérica de reservatório, sem nada que identifique a represa."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rochedos de calcário inconfundíveis, com o ilhéu Ko Tapu no centro.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que filme de James Bond usou esta ilha tailandesa como cenário?",
+      "resposta": "O Homem da Pistola de Ouro",
+      "distratores": [
+        "Com 007 Só Se Vive Duas Vezes",
+        "Viva e Deixe Morrer",
+        "007 Contra o Satânico Dr. No"
+      ],
+      "ancora": {
+        "nome": "Ilha de James Bond (Khao Phing Kan e Ko Tapu)",
+        "descricao": "Ilha de calcário na baía de Phang Nga, na Tailândia, com o ilhéu Ko Tapu, famosa pelo filme O Homem da Pistola de Ouro.",
+        "variantes": [
+          "Khao Phing Kan",
+          "Ko Tapu",
+          "James Bond Island"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Vista aérea de ilhas áridas genéricas; não é reconhecível como Komodo e há muitas ilhas parecidas na região."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Vista urbana com ponte sobre rio largo; o rio não é reconhecível pela imagem para o público."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O Monte Fuji aparece, mas o lago não é identificável, pois o vulcão é visto de vários dos Cinco Lagos."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Paisagem de lago com montanhas nevadas, parecida com muitos lagos andinos; não reconhecível."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Canal entre arranha-céus, com as torres de Marina City à direita, reconhecível como o rio de Chicago.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade dos Estados Unidos corre este rio, cercado de arranha-céus?",
+      "resposta": "Chicago",
+      "distratores": [
+        "Nova York",
+        "Filadélfia",
+        "Detroit"
+      ],
+      "ancora": {
+        "nome": "Rio Chicago",
+        "descricao": "Sistema de rios e canais que atravessa o centro da cidade de Chicago, nos Estados Unidos.",
+        "variantes": [
+          "Chicago River"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Trecho de rio genérico, sem elementos que o identifiquem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Trecho de rio com bosque e barco, parecido com muitos rios europeus; não reconhecível como o Loire."
+    }
+  ]
+}
