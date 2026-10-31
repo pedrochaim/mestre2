@@ -1,0 +1,138 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Baía e orla de Santos reconhecíveis; pergunta de lugar com distratores litorâneos paulistas.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que cidade do litoral paulista é esta, com sua longa praia em curva?",
+      "resposta": "Santos",
+      "distratores": [
+        "Guarujá",
+        "São Vicente",
+        "Praia Grande"
+      ],
+      "ancora": {
+        "nome": "Santos",
+        "descricao": "Cidade do litoral de São Paulo, sede do maior porto do Brasil.",
+        "variantes": [
+          "Santos (SP)"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Vila colorida na encosta sob neblina; pouco reconhecível e confundível com Paraty ou outras cidades litorâneas."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Lagoa genérica com dunas; não reconhecível pela imagem e há pessoas comuns ao fundo."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista aérea com o Morro Dois Irmãos e a Pedra da Gávea, inconfundível como Rio de Janeiro.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade brasileira fica esta paisagem, com praia, morros e prédios?",
+      "resposta": "Rio de Janeiro",
+      "distratores": [
+        "Niterói",
+        "Santos",
+        "Salvador"
+      ],
+      "ancora": {
+        "nome": "Morro Dois Irmãos",
+        "descricao": "Morro de dois picos entre Leblon e Vidigal, na Zona Sul do Rio de Janeiro.",
+        "variantes": [
+          "Dois Irmãos"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Paisagem aérea de rios e ilhas alagadas, confundível com outras áreas da Amazônia; resposta não única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Vista aérea de áreas alagadas sem elemento distintivo; confundível com outras várzeas."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Cidade colonial mineira genérica, confundível com Ouro Preto, Tiradentes e outras."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Estátua do Padre Cícero reconhecível; pergunta de lugar com cidades cearenses como distratores.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade do Ceará fica esta enorme estátua?",
+      "resposta": "Juazeiro do Norte",
+      "distratores": [
+        "Crato",
+        "Sobral",
+        "Fortaleza"
+      ],
+      "ancora": {
+        "nome": "Estátua do Padre Cícero",
+        "descricao": "Estátua de 30 metros na Colina do Horto, em Juazeiro do Norte, Ceará.",
+        "variantes": [
+          "Estátua do Padre Cícero na Colina do Horto"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Torres de igrejas coloniais mineiras, não identificáveis com segurança; confundível com outras cidades históricas."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Avenida litorânea genérica, não reconhecível como Maceió."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem mostra Alter do Chão em Portugal, não o destino turístico paraense."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Prédio com torre de relógio, antiga bolsa, hoje museu; pergunta liga o prédio ao produto negociado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que produto era negociado neste prédio histórico, que hoje é um museu?",
+      "resposta": "Café",
+      "distratores": [
+        "Algodão",
+        "Açúcar",
+        "Cacau"
+      ],
+      "ancora": {
+        "nome": "Bolsa Oficial de Café",
+        "descricao": "Palácio histórico em Santos (SP), antigo centro de negociação de café e hoje Museu do Café.",
+        "variantes": [
+          "Bolsa de Café",
+          "Museu do Café",
+          "Palácio da Bolsa Oficial de Café"
+        ]
+      }
+    }
+  ]
+}

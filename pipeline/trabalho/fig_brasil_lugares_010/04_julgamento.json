@@ -1,0 +1,263 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Santos",
+        "descricao": "Cidade do litoral de São Paulo, sede do maior porto do Brasil.",
+        "variantes": [
+          "Santos (SP)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santos_futebol_clube",
+          "nome": "Santos Futebol Clube",
+          "descricao": "Clube de futebol da cidade de Santos, São Paulo, fundado em 1912 e onde Pelé fez carreira.",
+          "variantes": [
+            "Santos",
+            "Santos FC",
+            "Peixe"
+          ]
+        },
+        {
+          "id": "el_santo",
+          "nome": "El Santo",
+          "descricao": "Lutador mexicano de lucha libre e astro de cinema, famoso pela máscara prateada.",
+          "variantes": [
+            "Santo",
+            "Rodolfo Guzmán Huerta"
+          ]
+        },
+        {
+          "id": "hipismo_saltos",
+          "nome": "Hipismo (saltos)",
+          "descricao": "Modalidade equestre em que cavalo e cavaleiro vencem uma sequência de obstáculos.",
+          "variantes": [
+            "Salto",
+            "Saltos",
+            "Show jumping",
+            "Hipismo"
+          ]
+        },
+        {
+          "id": "cavaleiros_de_atena",
+          "nome": "Cavaleiros de Atena",
+          "descricao": "Guerreiros de armadura que protegem a deusa Atena em Os Cavaleiros do Zodíaco, divididos em bronze, prata e ouro.",
+          "variantes": [
+            "Saints"
+          ]
+        },
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis",
+            "Terno de Reis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Morro Dois Irmãos",
+        "descricao": "Morro de dois picos entre Leblon e Vidigal, na Zona Sul do Rio de Janeiro.",
+        "variantes": [
+          "Leblon",
+          "Dois Irmãos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lebron_james",
+          "nome": "LeBron James",
+          "descricao": "Astro americano do basquete da NBA, conhecido como King James.",
+          "variantes": [
+            "King James",
+            "LeBron"
+          ]
+        },
+        {
+          "id": "leon",
+          "nome": "Leon",
+          "descricao": "Campeão da Liga Pokémon de Galar nos jogos Sword e Shield, adversário de Ash na final do Mundial no anime Jornadas Pokémon.",
+          "variantes": [
+            "Dande"
+          ]
+        },
+        {
+          "id": "o_balcao",
+          "nome": "O Balcão",
+          "descricao": "Pintura a óleo de Édouard Manet, de 1868-69, com quatro figuras numa sacada, no Museu d'Orsay.",
+          "variantes": [
+            "O Balcão (Manet)",
+            "Le Balcon",
+            "The Balcony"
+          ]
+        },
+        {
+          "id": "guerra_civil_inca",
+          "nome": "Guerra civil inca",
+          "descricao": "Conflito entre os irmãos Huáscar e Atahualpa pelo trono inca, pouco antes da chegada de Pizarro.",
+          "variantes": [
+            "Guerra dos Dois Irmãos",
+            "Inca Civil War"
+          ]
+        },
+        {
+          "id": "morro_do_pai_inacio",
+          "nome": "Morro do Pai Inácio",
+          "descricao": "Elevação de topo plano no município de Palmeiras, na Chapada Diamantina, Bahia.",
+          "variantes": [
+            "Pai Inácio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Estátua do Padre Cícero",
+        "descricao": "Estátua de 30 metros na Colina do Horto, em Juazeiro do Norte, Ceará.",
+        "variantes": [
+          "Estátua do Padre Cícero na Colina do Horto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estatua_de_coatlicue",
+          "nome": "Estátua de Coatlicue",
+          "descricao": "Monumental escultura asteca de pedra da deusa mãe Coatlicue, a da saia de serpentes, no Museu Nacional de Antropologia do México.",
+          "variantes": [
+            "Coatlicue",
+            "Coatlicue Mayor"
+          ]
+        },
+        {
+          "id": "padre_cicero",
+          "nome": "Padre Cícero",
+          "descricao": "Cícero Romão Batista, sacerdote cearense venerado pela religiosidade popular nordestina e alvo de grandes romarias.",
+          "variantes": [
+            "Padim Ciço",
+            "Cícero Romão Batista"
+          ]
+        },
+        {
+          "id": "estatua_de_hachiko",
+          "nome": "Estátua de Hachiko",
+          "descricao": "Estátua de bronze do cão akita Hachiko, diante da estação de Shibuya, em Tóquio.",
+          "variantes": [
+            "Hachikō",
+            "Hachiko"
+          ]
+        },
+        {
+          "id": "estatua_do_lacador",
+          "nome": "Estátua do Laçador",
+          "descricao": "Monumento em bronze ao gaúcho pilchado, símbolo oficial de Porto Alegre, obra do escultor Antônio Caringi.",
+          "variantes": [
+            "Laçador",
+            "Monumento ao Laçador",
+            "O Laçador"
+          ]
+        },
+        {
+          "id": "estatua_equestre_de_marco_aurelio",
+          "nome": "Estátua equestre de Marco Aurélio",
+          "descricao": "Estátua romana de bronze do imperador Marco Aurélio a cavalo, exposta nos Museus Capitolinos, em Roma.",
+          "variantes": [
+            "Equus Marci Aurelii",
+            "Estátua de Marco Aurélio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bolsa Oficial de Café",
+        "descricao": "Palácio histórico em Santos (SP), antigo centro de negociação de café e hoje Museu do Café.",
+        "variantes": [
+          "Bolsa de Café",
+          "Museu do Café",
+          "Palácio da Bolsa Oficial de Café"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "airbag",
+          "nome": "Airbag",
+          "descricao": "Bolsa de segurança dos automóveis que se infla em milésimos de segundo numa colisão para amortecer o impacto dos ocupantes.",
+          "variantes": [
+            "Bolsa de ar",
+            "Air bag"
+          ]
+        },
+        {
+          "id": "bola_de_golfe",
+          "nome": "Bola de golfe",
+          "descricao": "Pequena bola com covinhas na superfície usada no golfe.",
+          "variantes": [
+            "Golf ball"
+          ]
+        },
+        {
+          "id": "cesta_de_tres_pontos",
+          "nome": "Cesta de três pontos",
+          "descricao": "Arremesso feito de trás de uma linha distante do aro, que vale três pontos.",
+          "variantes": [
+            "Linha de três pontos",
+            "Three-point field goal",
+            "Bola de três",
+            "Arremesso de três pontos"
+          ]
+        },
+        {
+          "id": "bolinha_de_gude",
+          "nome": "Bolinha de gude",
+          "descricao": "Pequena esfera de vidro usada em jogos infantis.",
+          "variantes": [
+            "Bola de gude",
+            "Berlinde",
+            "Bolita",
+            "Búlica"
+          ]
+        },
+        {
+          "id": "museu_do_amanha",
+          "nome": "Museu do Amanhã",
+          "descricao": "Museu de ciências projetado por Santiago Calatrava no Píer Mauá, no Rio de Janeiro, aberto em 2015.",
+          "variantes": [
+            "Museum of Tomorrow"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A proposta é a cidade de Santos; a candidata Santos FC é o clube, entidade diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Morro Dois Irmãos do Rio; a Guerra dos Dois Irmãos e o Morro do Pai Inácio são outras entidades."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A estátua é um monumento distinto da pessoa Padre Cícero."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o palácio da Bolsa Oficial de Café em Santos; o Museu do Amanhã é outro museu."
+    }
+  ]
+}
