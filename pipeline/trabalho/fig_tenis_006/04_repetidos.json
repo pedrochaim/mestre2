@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tenista é este?",
+        "resposta": "Stefanos Tsitsipas"
+      },
+      "existentes": [
+        {
+          "id": "q16078",
+          "pergunta": "Este tenista chegou à final de um Grand Slam em 2021. Em qual torneio?",
+          "resposta": "Roland Garros"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identidade do tenista; a existente pede o torneio da final de 2021. Fatos diferentes."
+    }
+  ]
+}

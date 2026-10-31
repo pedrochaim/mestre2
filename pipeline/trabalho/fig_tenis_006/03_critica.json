@@ -1,0 +1,77 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado (sérvia, ex-número um, duplas mistas de Wimbledon em 2007) identifica a tenista sem a imagem, então a figura virou enfeite. Reescrita pede um fato que exige reconhecê-la: o ano em que terminou como número um (2008, nos trechos).",
+      "reescrita": {
+        "pergunta": "Esta tenista terminou um ano como número um do mundo. Em que ano foi?",
+        "resposta": "2008",
+        "distratores": [
+          "2007",
+          "2009",
+          "2010"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os distratores (Medvedev, Zverev, Berrettini) não são gregos, então a palavra 'grego' no enunciado os elimina. Tirar a nacionalidade do enunciado deixa os distratores críveis.",
+      "reescrita": {
+        "pergunta": "Que tenista é este?",
+        "resposta": "Stefanos Tsitsipas",
+        "distratores": [
+          "Daniil Medvedev",
+          "Alexander Zverev",
+          "Matteo Berrettini"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. A nacionalidade ajuda sem entregar a resposta, e os distratores também são canadenses.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Kyrgios e Kokkinakis ganharam as duplas do Aberto da Austrália de 2022. O enunciado não nomeia o tenista e a figura é necessária. Os distratores são australianos críveis e nenhum deles é o parceiro campeão.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, com distratores australianos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento com distratores brasileiros críveis. Nenhum deles é a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta 'espanhol, técnico de qual britânico' dá para responder sem ver a figura, porque Corretja é o espanhol ligado a Murray. Reescrita pede o reconhecimento, com distratores ex-tenistas espanhóis.",
+      "reescrita": {
+        "pergunta": "Que ex-tenista espanhol é este?",
+        "resposta": "Àlex Corretja",
+        "distratores": [
+          "Carlos Moyá",
+          "Albert Costa",
+          "Juan Carlos Ferrero"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, com logotipo e texto 'Wikipedia' na camisa; o foco é a pessoa, não a peça."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto livre de figura pública em quadra de saibro, sem texto que entregue o nome.",
+      "nivel": 3,
+      "familia": "com_o_que_se_liga",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta tenista sérvia, ex-número um do mundo, ganhou as duplas mistas de Wimbledon em 2007 com qual parceiro?",
+      "resposta": "Jamie Murray",
+      "distratores": [
+        "Andy Murray",
+        "Max Mirnyi",
+        "Mahesh Bhupathi"
+      ],
+      "ancora": {
+        "nome": "Jelena Janković",
+        "descricao": "Ex-tenista sérvia, número um do mundo em 2008 e campeã de duplas mistas em Wimbledon 2007.",
+        "variantes": [
+          "Jelena Jankovic",
+          "Elena Jankovic"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto livre de figura pública; só marcas de patrocinadores, sem nome. Reconhecível pelo rosto e pelo visual.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tenista grego é este?",
+      "resposta": "Stefanos Tsitsipas",
+      "distratores": [
+        "Daniil Medvedev",
+        "Alexander Zverev",
+        "Matteo Berrettini"
+      ],
+      "ancora": {
+        "nome": "Stefanos Tsitsipas",
+        "descricao": "Tenista profissional grego, ex-número três do mundo e campeão do ATP Finals de 2019.",
+        "variantes": [
+          "Stéfanos Tsitsípas"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Close desfocado de rosto com viseira; a tenista não é reconhecível pela imagem, sem contexto que permita resposta única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto antiga em preto e branco, recortada, com as iniciais 'MC' bordadas na blusa (pista textual) e pessoas ao fundo; pouco legível e pouco reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto livre de figura pública jogando em quadra, sem texto que revele o nome.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tenista canadense é este?",
+      "resposta": "Milos Raonic",
+      "distratores": [
+        "Denis Shapovalov",
+        "Félix Auger-Aliassime",
+        "Vasek Pospisil"
+      ],
+      "ancora": {
+        "nome": "Milos Raonic",
+        "descricao": "Ex-tenista canadense, número três do mundo e finalista de Wimbledon em 2016.",
+        "variantes": [
+          "Miloš Raonić"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Retrato casual de um tenista pouco famoso, parado, sem contexto de jogo; só a camisa de patrocinador e a bandeira. Não é reconhecível o bastante para resposta única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto livre de figura pública em quadra de grama, sem texto que entregue o nome.",
+      "nivel": 3,
+      "familia": "com_o_que_se_liga",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este tenista australiano ganhou as duplas do Aberto da Austrália de 2022 com qual compatriota?",
+      "resposta": "Thanasi Kokkinakis",
+      "distratores": [
+        "Alex de Minaur",
+        "Jordan Thompson",
+        "Max Purcell"
+      ],
+      "ancora": {
+        "nome": "Nick Kyrgios",
+        "descricao": "Tenista profissional australiano, finalista de Wimbledon em 2022 e campeão de duplas do Aberto da Austrália de 2022.",
+        "variantes": [
+          "Nicholas Kyrgios"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto livre de figura pública em quadra de saibro; só logotipos de patrocinadores, sem nome.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tenista australiano é este?",
+      "resposta": "Alex de Minaur",
+      "distratores": [
+        "Nick Kyrgios",
+        "Jordan Thompson",
+        "Alexei Popyrin"
+      ],
+      "ancora": {
+        "nome": "Alex de Minaur",
+        "descricao": "Tenista profissional australiano, entre os dez melhores do mundo no ranking da ATP.",
+        "variantes": [
+          "Alex de Miñaur"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto livre de figura pública brasileira, sem texto com o nome; a bandeira ajuda sem entregar.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tenista brasileiro é este?",
+      "resposta": "Thiago Seyboth Wild",
+      "distratores": [
+        "Thiago Monteiro",
+        "Felipe Meligeni Alves",
+        "João Fonseca"
+      ],
+      "ancora": {
+        "nome": "Thiago Seyboth Wild",
+        "descricao": "Tenista profissional brasileiro, campeão do Chile Open de 2020 aos 19 anos.",
+        "variantes": [
+          "Thiago Seyboth"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto livre de figura pública em ação numa quadra coberta; os letreiros ao fundo são de patrocinadores e não revelam o nome.",
+      "nivel": 1,
+      "familia": "com_o_que_se_liga",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este ex-tenista espanhol foi técnico de qual britânico?",
+      "resposta": "Andy Murray",
+      "distratores": [
+        "Tim Henman",
+        "Greg Rusedski",
+        "Kyle Edmund"
+      ],
+      "ancora": {
+        "nome": "Àlex Corretja",
+        "descricao": "Ex-tenista espanhol, número dois do mundo em 1999, campeão do ATP Finals de 1998 e depois técnico de Andy Murray.",
+        "variantes": [
+          "Alex Corretja"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Desenho com a assinatura 'Ernie Lossiah' visível; mostra um perfil indígena e não uma munhequeira ou testeira de tênis; a imagem não ilustra a entidade."
+    }
+  ]
+}
