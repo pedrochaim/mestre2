@@ -1,0 +1,259 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Escultura do Buda sentado, clara e sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Segundo a tradição budista, em que país atual nasceu o personagem representado nesta escultura?",
+      "resposta": "Nepal",
+      "distratores": [
+        "Índia",
+        "Sri Lanka",
+        "Butão"
+      ],
+      "ancora": {
+        "nome": "Buda",
+        "descricao": "Siddhartha Gautama, mestre religioso que fundou o budismo, aqui em escultura de Buda sentado.",
+        "variantes": [
+          "Siddhartha Gautama",
+          "Sidarta Gautama",
+          "Buda Shakyamuni"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Pintura neoclássica de Perseu com sandálias aladas, Pégaso e monstro marinho; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que herói da mitologia grega está no centro deste quadro?",
+      "resposta": "Perseu",
+      "distratores": [
+        "Teseu",
+        "Aquiles",
+        "Jasão"
+      ],
+      "ancora": {
+        "nome": "Perseu",
+        "descricao": "Herói da mitologia grega, filho de Zeus e Dânae, que decapitou Medusa.",
+        "variantes": [
+          "Perseus"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Escultura de dragão da Ponte do Dragão de Liubliana, nítida e sem texto; múltipla escolha por ser menos conhecida.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade europeia fica esta escultura de dragão, que é símbolo local?",
+      "resposta": "Liubliana",
+      "distratores": [
+        "Praga",
+        "Zagreb",
+        "Budapeste"
+      ],
+      "ancora": {
+        "nome": "Dragão de Liubliana",
+        "descricao": "Escultura de dragão de bronze esverdeado da Ponte do Dragão, símbolo da capital eslovena.",
+        "variantes": [
+          "Ponte do Dragão",
+          "Dragon Bridge",
+          "Ljubljana dragon"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida e inconfundível de Santa Sofia, sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este edifício?",
+      "resposta": "Istambul",
+      "distratores": [
+        "Atenas",
+        "Ancara",
+        "Salônica"
+      ],
+      "ancora": {
+        "nome": "Santa Sofia",
+        "descricao": "Antiga catedral bizantina de Constantinopla, depois mesquita, museu e novamente mesquita, em Istambul.",
+        "variantes": [
+          "Hagia Sophia",
+          "Ayasofya"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Estátua de jardim isolada, sem atributos claros; não é reconhecível como Andrômeda com resposta única."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Interior da Capela Sistina, inconfundível, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que artista pintou o teto desta capela?",
+      "resposta": "Michelangelo",
+      "distratores": [
+        "Rafael",
+        "Leonardo da Vinci",
+        "Ticiano"
+      ],
+      "ancora": {
+        "nome": "Capela Sistina",
+        "descricao": "Capela do Palácio Apostólico, no Vaticano, famosa pelos afrescos de Michelangelo.",
+        "variantes": [
+          "Sistine Chapel",
+          "Cappella Sistina"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Gravura clara de Reia entregando a pedra envolta em panos a Cronos com a foice; sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Segundo o mito, que objeto envolto em panos a mulher entrega a este deus sentado?",
+      "resposta": "Uma pedra",
+      "distratores": [
+        "Um cordeiro",
+        "Uma espada",
+        "Uma coroa"
+      ],
+      "ancora": {
+        "nome": "Cronos",
+        "descricao": "Líder dos Titãs na mitologia grega, pai de Zeus, representado com uma foice.",
+        "variantes": [
+          "Cronus",
+          "Kronos",
+          "Saturno"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida da Grande Estupa de Sanchi; só uma placa pequena sem relação com a resposta.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que imperador mauriano mandou construir esta estupa budista no século três antes de Cristo?",
+      "resposta": "Ashoka",
+      "distratores": [
+        "Chandragupta",
+        "Akbar",
+        "Kanishka"
+      ],
+      "ancora": {
+        "nome": "Grande Estupa de Sanchi",
+        "descricao": "Monumento budista em Madhya Pradesh, Índia, uma das mais antigas construções de pedra do país.",
+        "variantes": [
+          "Estupa de Sanchi",
+          "Sanchi Stupa",
+          "Great Stupa of Sanchi"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Símbolo yin-yang nítido, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este símbolo está ligado a qual filosofia e religião chinesa?",
+      "resposta": "Taoísmo",
+      "distratores": [
+        "Confucionismo",
+        "Xintoísmo",
+        "Hinduísmo"
+      ],
+      "ancora": {
+        "nome": "Yin-yang",
+        "descricao": "Símbolo chinês de forças opostas e complementares, em círculo preto e branco.",
+        "variantes": [
+          "Yin e yang",
+          "Taijitu"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Peça de lã tipo Ojo de Dios, de tradição huichol; não é inequivocamente uma mandala indiana, resposta não única."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Báculo medieval dourado nítido, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que objeto litúrgico é este?",
+      "resposta": "Báculo",
+      "distratores": [
+        "Mitra",
+        "Turíbulo",
+        "Cálice"
+      ],
+      "ancora": {
+        "nome": "Báculo",
+        "descricao": "Cajado cerimonial curvo, insígnia de bispos e abades.",
+        "variantes": [
+          "Bastão pastoral",
+          "Crozier",
+          "Cajado de bispo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Gravura de Doré de Satanás em Paraíso Perdido, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que poema épico é esta gravura de Gustave Doré?",
+      "resposta": "Paraíso Perdido",
+      "distratores": [
+        "Fausto",
+        "Os Lusíadas",
+        "Eneida"
+      ],
+      "ancora": {
+        "nome": "Satanás",
+        "descricao": "Anjo caído e adversário de Deus nas religiões abraâmicas, aqui na gravura de Doré para Paraíso Perdido.",
+        "variantes": [
+          "Diabo",
+          "Satan",
+          "Lúcifer"
+        ]
+      }
+    }
+  ]
+}

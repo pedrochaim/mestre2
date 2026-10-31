@@ -1,0 +1,90 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A expressão 'tradição budista' denuncia que o personagem é o Buda e o enunciado quase nomeia a figura. A tradição sobre o nascimento fica sem essa pista.",
+      "reescrita": {
+        "pergunta": "Segundo a tradição, em que país atual nasceu o personagem representado nesta escultura?",
+        "resposta": "Nepal",
+        "distratores": [
+          "Índia",
+          "Sri Lanka",
+          "Butão"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento, sem vazamento. A categoria 'herói grego' não entrega o nome, e os distratores são heróis plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O dragão da Ponte do Dragão é símbolo de Liubliana, fato bem documentado. O enunciado não entrega a cidade e os distratores são capitais do centro da Europa.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de nível 1 correta, confirmada pelos trechos. Resposta única e distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O teto foi pintado por Michelangelo, e os trechos confirmam. O enunciado não vaza e os distratores são artistas do Renascimento.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado descreve o mito (objeto envolto em panos entregue a um deus), então dá para responder com a imagem coberta. Além disso, 'mulher' e 'deus sentado' são detalhes da cena que a descrição da figura não confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Imperador mauriano', 'estupa budista' e 'século três a.C.' formam uma pista que leva a Ashoka sem a figura. O trecho em português atribui a construção aos Sungas, então o enunciado deve dizer 'originalmente'. Os trechos em inglês confirmam Ashoka como encomendante. Akbar era um distrator fraco.",
+      "reescrita": {
+        "pergunta": "Que imperador encomendou originalmente o núcleo desta estupa, uma das mais antigas construções de pedra da Índia?",
+        "resposta": "Ashoka",
+        "distratores": [
+          "Chandragupta",
+          "Kanishka",
+          "Harsha"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho liga yin-yang ao taoísmo. Não há vazamento e a resposta é única. Os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento de nível 1, sem vazamento. Os distratores são objetos litúrgicos distintos do báculo.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Gravura de Doré para o Paraíso Perdido, segundo a descrição da figura. Os distratores são obras épicas ou poemas longos plausíveis, e nenhum corresponde à gravura.",
+      "reescrita": null
+    }
+  ]
+}

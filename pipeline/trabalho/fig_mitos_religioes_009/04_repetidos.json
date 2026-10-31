@@ -1,0 +1,94 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Segundo a tradição, em que país atual nasceu o personagem representado nesta escultura?",
+        "resposta": "Nepal"
+      },
+      "existentes": [
+        {
+          "id": "q03348",
+          "pergunta": "O título Buda, dado a Sidarta Gautama, significa o quê em sânscrito?",
+          "resposta": "O Desperto"
+        },
+        {
+          "id": "q03349",
+          "pergunta": "Sidarta Gautama, o Buda, nasceu em Lumbini. Em que país atual fica esse lugar?",
+          "resposta": "Nepal"
+        },
+        {
+          "id": "q16684",
+          "pergunta": "Que religião nasceu dos ensinamentos do homem representado nesta escultura?",
+          "resposta": "Budismo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade fica este edifício?",
+        "resposta": "Istambul"
+      },
+      "existentes": [
+        {
+          "id": "q02452",
+          "pergunta": "Que monumento de Istambul é este?",
+          "resposta": "Santa Sofia"
+        },
+        {
+          "id": "q03171",
+          "pergunta": "Santa Sofia, em Istambul, não homenageia nenhuma santa. O que significa seu nome em grego?",
+          "resposta": "Santa Sabedoria"
+        },
+        {
+          "id": "q03940",
+          "pergunta": "Que imperador mandou construir este edifício, concluído no ano quinhentos e trinta e sete?",
+          "resposta": "Justiniano I"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que artista pintou o teto desta capela?",
+        "resposta": "Michelangelo"
+      },
+      "existentes": [
+        {
+          "id": "q05286",
+          "pergunta": "Em que século foi construída esta capela do Vaticano?",
+          "resposta": "Século quinze"
+        },
+        {
+          "id": "q11586",
+          "pergunta": "Que papa do século quinze mandou construir esta capela, hoje sede do conclave?",
+          "resposta": "Sisto IV"
+        },
+        {
+          "id": "q13672",
+          "pergunta": "No teto da Capela Sistina, que cena pintada por Michelangelo mostra os dedos de Deus e do primeiro homem quase se tocando?",
+          "resposta": "A Criação de Adão"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q03349",
+      "motivo": "Ambas perguntam o país de nascimento de Buda (Nepal)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A cidade onde fica o edifício é um fato diferente; q02452 pergunta o nome do monumento, embora cite Istambul no enunciado, a resposta seria outra."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Quem pintou o teto da capela é um fato diferente de século, papa construtor ou cena pintada."
+    }
+  ]
+}
