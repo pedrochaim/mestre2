@@ -1,0 +1,236 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Mostra duas coisas: flores em primeiro plano e o morro ao fundo; a entidade não é clara."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Pilares com blocos escuros no topo, bem reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de formação rochosa, esculpida pela erosão, com blocos escuros equilibrados no topo, é esta?",
+      "resposta": "Chaminé de fada",
+      "distratores": [
+        "Arco natural",
+        "Pilar basáltico",
+        "Estalagmite"
+      ],
+      "ancora": {
+        "nome": "Chaminé de fada",
+        "descricao": "Pilar de rocha mole esculpido pela erosão, coberto por um bloco mais duro no topo.",
+        "variantes": [
+          "Hoodoo",
+          "Pirâmide de terra",
+          "Tent rock"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Formação colunar inconfundível; a bandeira só indica o país.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que formação rochosa, de paredes sulcadas em colunas, é esta?",
+      "resposta": "Torre do Diabo",
+      "distratores": [
+        "Shiprock",
+        "Half Dome",
+        "Chimney Rock"
+      ],
+      "ancora": {
+        "nome": "Torre do Diabo",
+        "descricao": "Monumento natural em Wyoming, EUA, uma torre de rocha ígnea com colunas verticais.",
+        "variantes": [
+          "Devils Tower",
+          "Matȟó Thípila"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Aglomerado de cristais de quartzo claro; a escala 1cm não entrega nada.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que mineral forma este aglomerado de cristais transparentes?",
+      "resposta": "Quartzo",
+      "distratores": [
+        "Calcita",
+        "Fluorita",
+        "Selenita"
+      ],
+      "ancora": {
+        "nome": "Cristal",
+        "descricao": "Aglomerado de cristais prismáticos transparentes de quartzo (cristal de rocha).",
+        "variantes": [
+          "Cristal de rocha",
+          "Quartzo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Caverna com lago azul e estalactites bem visíveis.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Como se chamam as formações calcárias pontiagudas que pendem do teto desta caverna?",
+      "resposta": "Estalactites",
+      "distratores": [
+        "Estalagmites",
+        "Helictites",
+        "Colunas"
+      ],
+      "ancora": {
+        "nome": "Gruta do Lago Azul",
+        "descricao": "Caverna calcária em Bonito, Mato Grosso do Sul, com um lago de água azul.",
+        "variantes": [
+          "Monumento Natural da Gruta do Lago Azul"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Rocha escura e vesicular, boa foto de amostra; risco moderado de confusão com pedra-pomes, evitada nos distratores.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que rocha vulcânica, escura e cheia de bolhas, é esta?",
+      "resposta": "Escória vulcânica",
+      "distratores": [
+        "Obsidiana",
+        "Granito",
+        "Arenito"
+      ],
+      "ancora": {
+        "nome": "Escória vulcânica",
+        "descricao": "Rocha vulcânica escura e muito vesicular, formada por lava expelida e resfriada no ar.",
+        "variantes": [
+          "Escória",
+          "Scoria",
+          "Cinder"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Resposta não única: seixos, cascalho e pedregulho descrevem a foto; sem entidade específica."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fóssil de concha enrolada e heteromorfa, reconhecível como amonite.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que animal extinto, parente de polvos e lulas, deixou esta concha fossilizada?",
+      "resposta": "Amonite",
+      "distratores": [
+        "Trilobita",
+        "Belemnite",
+        "Braquiópode"
+      ],
+      "ancora": {
+        "nome": "Amonite",
+        "descricao": "Cefalópode extinto de concha enrolada, subclasse Ammonoidea, comum como fóssil.",
+        "variantes": [
+          "Amonoide",
+          "Ammonoidea",
+          "Amonita"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Esferas rochosas na beira da praia, bem características.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que conjunto de rochas esféricas numa praia é este?",
+      "resposta": "Rochas de Moeraki",
+      "distratores": [
+        "Calçada dos Gigantes",
+        "Praia das Catedrais",
+        "Pedras de Ica"
+      ],
+      "ancora": {
+        "nome": "Rochas de Moeraki",
+        "descricao": "Concreções esféricas gigantes na praia de Koekohe, na costa de Otago, Nova Zelândia.",
+        "variantes": [
+          "Moeraki Boulders",
+          "Seixos gigantes de Moeraki"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bloco metálico grande e isolado, bem visível.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este bloco caiu do espaço. Pela composição, que tipo de meteorito ele é?",
+      "resposta": "Ferroso",
+      "distratores": [
+        "Rochoso",
+        "Metalorrochoso",
+        "Vítreo"
+      ],
+      "ancora": {
+        "nome": "Meteorito Hoba",
+        "descricao": "Grande meteorito de ferro e níquel encontrado na Namíbia.",
+        "variantes": [
+          "Hoba",
+          "Meteorito"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Amostra pouco característica, com etiqueta numérica; xisto pode ser confundido com filito, gnaisse e outros."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Amostra azul-clara com padrão característico.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que gema azul-clara, variedade de um mineral chamado pectolita, é esta?",
+      "resposta": "Larimar",
+      "distratores": [
+        "Turquesa",
+        "Amazonita",
+        "Água-marinha"
+      ],
+      "ancora": {
+        "nome": "Larimar",
+        "descricao": "Variedade azul rara de pectolita, encontrada na República Dominicana.",
+        "variantes": [
+          "Pectolita azul"
+        ]
+      }
+    }
+  ]
+}

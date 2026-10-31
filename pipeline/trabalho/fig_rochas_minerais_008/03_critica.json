@@ -1,0 +1,107 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a formação (erosão, blocos no topo), entregando a resposta sem a figura; 'escuros' também pode não valer para esta foto.",
+      "reescrita": {
+        "pergunta": "Como se chama este tipo de formação rochosa?",
+        "resposta": "Chaminé de fada",
+        "distratores": [
+          "Arco natural",
+          "Pilar basáltico",
+          "Estalagmite"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista das colunas ajuda sem entregar; distratores são outras formações norte-americanas, nenhuma colunar.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta, resposta única diante da imagem, distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado define estalactites (pontiagudas, pendem do teto), então a resposta está nele e a figura não importa. Passa a pedir o estado, fato dos trechos, que exige reconhecer a caverna.",
+      "reescrita": {
+        "pergunta": "Em que estado brasileiro fica esta caverna calcária?",
+        "resposta": "Mato Grosso do Sul",
+        "distratores": [
+          "Minas Gerais",
+          "Bahia",
+          "Goiás"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 'Escória vulcânica' repete 'vulcânica' do enunciado (vazamento parcial). Os distratores são fracos.",
+      "reescrita": {
+        "pergunta": "Que rocha vulcânica, escura e cheia de bolhas, é esta?",
+        "resposta": "Escória",
+        "distratores": [
+          "Obsidiana",
+          "Basalto maciço",
+          "Granito"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Parente de polvos e lulas' vale também para belemnites, que é distrator, e entrega demais. Troco a pista por uma época.",
+      "reescrita": {
+        "pergunta": "Que animal extinto, comum em mares do Mesozoico, deixou este fóssil?",
+        "resposta": "Amonite",
+        "distratores": [
+          "Trilobita",
+          "Belemnite",
+          "Braquiópode"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; os distratores são formações famosas e não esféricas.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O Hoba é um meteorito de ferro e níquel, fato amplamente documentado e coerente com os trechos. A resposta é única e o enunciado não entrega a identidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Variedade de pectolita' define o larimar, então a pergunta se responde sem a figura. Troco por uma pista geográfica que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que gema azul-clara, típica do Caribe, é esta?",
+        "resposta": "Larimar",
+        "distratores": [
+          "Turquesa",
+          "Amazonita",
+          "Água-marinha"
+        ]
+      }
+    }
+  ]
+}

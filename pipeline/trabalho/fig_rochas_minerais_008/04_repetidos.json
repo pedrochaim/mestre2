@@ -1,0 +1,99 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que formação rochosa, de paredes sulcadas em colunas, é esta?",
+        "resposta": "Torre do Diabo"
+      },
+      "existentes": [
+        {
+          "id": "q06726",
+          "pergunta": "A Torre do Diabo, rochedo do Wyoming, é o ponto de encontro com alienígenas em qual filme de Steven Spielberg, de 1977?",
+          "resposta": "Contatos Imediatos do Terceiro Grau"
+        },
+        {
+          "id": "q09625",
+          "pergunta": "Em 1906, a Torre do Diabo, no Wyoming, tornou-se o primeiro lugar dos Estados Unidos a receber qual título de proteção?",
+          "resposta": "Monumento nacional"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que estado brasileiro fica esta caverna calcária?",
+        "resposta": "Mato Grosso do Sul"
+      },
+      "existentes": [
+        {
+          "id": "q03869",
+          "pergunta": "Em que estado brasileiro fica esta gruta?",
+          "resposta": "Mato Grosso do Sul"
+        },
+        {
+          "id": "q04812",
+          "pergunta": "A Gruta do Lago Azul, com um lago subterrâneo de água azul intensa, fica em que município de Mato Grosso do Sul?",
+          "resposta": "Bonito"
+        },
+        {
+          "id": "q14217",
+          "pergunta": "Que gruta brasileira, em Mato Grosso do Sul, é esta?",
+          "resposta": "Gruta do Lago Azul"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que animal extinto, comum em mares do Mesozoico, deixou este fóssil?",
+        "resposta": "Amonite"
+      },
+      "existentes": [
+        {
+          "id": "q02726",
+          "pergunta": "Famosos fósseis de moluscos marinhos em espiral têm nome inspirado nos chifres de carneiro de que deus egípcio?",
+          "resposta": "Amon"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Este bloco caiu do espaço. Pela composição, que tipo de meteorito ele é?",
+        "resposta": "Ferroso"
+      },
+      "existentes": [
+        {
+          "id": "q03719",
+          "pergunta": "Quanto à composição, que tipo de meteorito é este grande bloco?",
+          "resposta": "Meteorito de ferro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar a formação pela imagem é um fato diferente de filme ou título de proteção."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato do q03869: estado onde fica a gruta (Mato Grosso do Sul).",
+      "id_existente": "q03869"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o animal do fóssil difere da origem do nome em Amon, embora a resposta seja relacionada."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: tipo de meteorito pela composição, ferro/ferroso.",
+      "id_existente": "q03719"
+    }
+  ]
+}
