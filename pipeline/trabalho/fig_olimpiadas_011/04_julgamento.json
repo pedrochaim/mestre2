@@ -1,0 +1,120 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Roger Federer",
+        "descricao": "Tenista suíço, ex-número 1 do mundo, vencedor de 20 títulos de Grand Slam.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "roger_federer",
+          "nome": "Roger Federer",
+          "descricao": "Tenista suíço nascido em 1981, ex-número 1 do mundo e campeão de 20 torneios de Grand Slam, aposentado em 2022.",
+          "variantes": [
+            "Federer"
+          ]
+        },
+        {
+          "id": "gertrude_ederle",
+          "nome": "Gertrude Ederle",
+          "descricao": "Nadadora americana que, em 1926, foi a primeira mulher a atravessar o Canal da Mancha a nado.",
+          "variantes": []
+        },
+        {
+          "id": "friede",
+          "nome": "Friede",
+          "descricao": "Professor pokémon e líder dos aventureiros Rising Volt Tacklers na série Pokémon Horizontes.",
+          "variantes": [
+            "Professor Friede"
+          ]
+        },
+        {
+          "id": "fokker_eindecker",
+          "nome": "Fokker Eindecker",
+          "descricao": "Série de caças monoplanos alemães da Primeira Guerra Mundial, projetados por Anthony Fokker, os primeiros com tiro sincronizado com a hélice.",
+          "variantes": [
+            "Fokker E.III",
+            "Fokker Eindecker fighters"
+          ]
+        },
+        {
+          "id": "roger_penrose",
+          "nome": "Roger Penrose",
+          "descricao": "Matemático, físico matemático e filósofo da ciência inglês, Nobel de Física de 2020, criador do triângulo de Penrose.",
+          "variantes": [
+            "Sir Roger Penrose"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "José Roberto Guimarães",
+        "descricao": "Técnico brasileiro de vôlei, campeão olímpico com a seleção masculina em 1992 e com a feminina em 2008 e 2012.",
+        "variantes": [
+          "Zé Roberto",
+          "Zé Roberto Guimarães"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ze_roberto",
+          "nome": "Zé Roberto",
+          "descricao": "Zé Roberto, ex-meia e lateral brasileiro de Bayern de Munique, Bayer Leverkusen e Palmeiras.",
+          "variantes": [
+            "José Roberto da Silva Júnior"
+          ]
+        },
+        {
+          "id": "bernardo_guimaraes",
+          "nome": "Bernardo Guimarães",
+          "descricao": "Poeta e romancista brasileiro, autor de A Escrava Isaura e O Seminarista.",
+          "variantes": [
+            "Bernardo Joaquim da Silva Guimarães"
+          ]
+        },
+        {
+          "id": "bebeto",
+          "nome": "Bebeto",
+          "descricao": "José Roberto Gama de Oliveira, atacante brasileiro campeão mundial em 1994, parceiro de ataque de Romário.",
+          "variantes": [
+            "José Roberto Gama de Oliveira"
+          ]
+        },
+        {
+          "id": "cerbero",
+          "nome": "Cérbero",
+          "descricao": "Cão monstruoso da mitologia grega que guardava a entrada do mundo dos mortos.",
+          "variantes": [
+            "Cerberus",
+            "Kerberos"
+          ]
+        },
+        {
+          "id": "robert_koch",
+          "nome": "Robert Koch",
+          "descricao": "Médico e microbiologista alemão (1843–1910), Nobel de Medicina de 1905 por seus estudos sobre a tuberculose.",
+          "variantes": [
+            "Heinrich Hermann Robert Koch"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "roger_federer",
+      "motivo": "Mesmo tenista suíço, 20 Grand Slams, ex-número 1."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Zé Roberto Guimarães é técnico de vôlei; a candidata ze_roberto é um meia de futebol, outra pessoa."
+    }
+  ]
+}

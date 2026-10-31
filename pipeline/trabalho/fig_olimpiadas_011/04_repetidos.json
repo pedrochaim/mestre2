@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que país é este tenista?",
+        "resposta": "Suíça"
+      },
+      "existentes": [
+        {
+          "id": "q07577",
+          "pergunta": "Roger Federer foi gandula no torneio de quadra coberta da sua cidade natal, onde depois foi campeão várias vezes. Que cidade suíça é essa?",
+          "resposta": "Basileia"
+        },
+        {
+          "id": "q09285",
+          "pergunta": "Que tenista é este, em quadra de grama?",
+          "resposta": "Roger Federer"
+        },
+        {
+          "id": "q16951",
+          "pergunta": "Dos vinte títulos de Grand Slam de Roger Federer, oito vieram de um só torneio. Qual?",
+          "resposta": "Wimbledon"
+        },
+        {
+          "id": "q16988",
+          "pergunta": "Além da suíça, Roger Federer tem a cidadania de qual país, terra natal da sua mãe?",
+          "resposta": "África do Sul"
+        },
+        {
+          "id": "q16990",
+          "pergunta": "Em que ano Roger Federer venceu Wimbledon pela primeira vez, conquistando também seu primeiro título de Grand Slam?",
+          "resposta": "2003"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a nacionalidade do tenista (Suíça). Nenhuma existente pergunta isso. q09285 pede o nome do tenista, q07577 pede a cidade natal e q16988 pede a segunda cidadania."
+    }
+  ]
+}

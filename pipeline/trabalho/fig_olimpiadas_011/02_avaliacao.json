@@ -1,0 +1,99 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Retrato de rosto sem contexto esportivo; não reconhecível de forma justa."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Federer em ação, reconhecível; pergunta de país sem entregar a resposta.",
+      "pergunta": "De que país é este tenista?",
+      "resposta": "Suíça",
+      "tipo": "multipla",
+      "distratores": [
+        "Espanha",
+        "Sérvia",
+        "Escócia"
+      ],
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Roger Federer",
+        "descricao": "Tenista suíço, ex-número 1 do mundo, vencedor de 20 títulos de Grand Slam.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Cartão-postal com legenda 'Grèce, Jeux Olympiques à Athènes' que entrega a edição."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Retrato de rosto com medalha, pouco reconhecível, e contexto de evento incerto; resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, com marca 'Klein' visível; não é figura pública."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Retrato de rosto sem contexto; não reconhecível pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Nadador sem contexto que permita reconhecer; reconhecimento só pelo rosto."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto antiga em que o disco não aparece; a modalidade e o atleta não são inequívocos."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Reconhecimento depende só do rosto, com mãos de pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Técnico brasileiro de vôlei, figura pública reconhecível pelo público brasileiro; pergunta de nível 3 sustentada pelo trecho.",
+      "pergunta": "Em que cidade este técnico brasileiro conquistou o primeiro ouro olímpico da carreira?",
+      "resposta": "Barcelona",
+      "tipo": "multipla",
+      "distratores": [
+        "Atlanta",
+        "Pequim",
+        "Londres"
+      ],
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "José Roberto Guimarães",
+        "descricao": "Técnico brasileiro de vôlei, campeão olímpico com a seleção masculina em 1992 e com a feminina em 2008 e 2012.",
+        "variantes": [
+          "Zé Roberto",
+          "Zé Roberto Guimarães"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Retrato de rosto sem contexto; não reconhecível pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto com pessoas comuns e um político; a entidade não está clara."
+    }
+  ]
+}
