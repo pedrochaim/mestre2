@@ -1,0 +1,139 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fenômeno atmosférico aparece nesta foto?",
+        "resposta": "Halo solar"
+      },
+      "existentes": [
+        {
+          "id": "q14148",
+          "pergunta": "Que fenômeno óptico é este, visto junto ao Sol?",
+          "resposta": "Halo solar"
+        },
+        {
+          "id": "q16761",
+          "pergunta": "Que fenômeno óptico da atmosfera forma este anel em volta do Sol ou da Lua?",
+          "resposta": "Halo de 22 graus"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que peixes alongados são estes, fotografados no fundo do mar?",
+        "resposta": "Enguia-de-jardim"
+      },
+      "existentes": [
+        {
+          "id": "q16255",
+          "pergunta": "Que peixe marinho, que vive em colônias de tocas na areia, é este?",
+          "resposta": "Enguia-de-jardim"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que animal marinho, de braços plumosos, é este?",
+        "resposta": "Lírio-do-mar"
+      },
+      "existentes": [
+        {
+          "id": "q15865",
+          "pergunta": "Este animal marinho de braços plumosos é parente próximo de qual destes?",
+          "resposta": "Estrela-do-mar"
+        },
+        {
+          "id": "q16826",
+          "pergunta": "Que classe de equinodermos marinhos é esta?",
+          "resposta": "Crinoides"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que tipo de lava aparece nesta foto?",
+        "resposta": "Lava em almofada"
+      },
+      "existentes": [
+        {
+          "id": "q14010",
+          "pergunta": "Que tipo de lava é este?",
+          "resposta": "Lava almofadada"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que tipo de planta produz esta fruta?",
+        "resposta": "Cacto"
+      },
+      "existentes": [
+        {
+          "id": "q04352",
+          "pergunta": "Que fruta tropical, produzida por um cacto, é esta?",
+          "resposta": "Pitaia"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que país fica este parque nacional de lagos e cachoeiras?",
+        "resposta": "Croácia"
+      },
+      "existentes": [
+        {
+          "id": "q02334",
+          "pergunta": "Em que país ficam estes lagos?",
+          "resposta": "Croácia"
+        },
+        {
+          "id": "q09175",
+          "pergunta": "No parque nacional croata de Plitvice, quantos lagos principais, ligados por cachoeiras, descem em degraus pelo vale?",
+          "resposta": "Dezesseis"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q14148",
+      "motivo": "Ambas pedem identificar o halo solar na foto; mesma resposta."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q16255",
+      "motivo": "Ambas pedem identificar a enguia-de-jardim; mesma resposta."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pede identificar o lírio-do-mar; as existentes pedem parente próximo e a classe (crinoides), fatos diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q14010",
+      "motivo": "Ambas pedem o tipo de lava: almofadada/em almofada."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Pergunta o tipo de planta (cacto), enquanto a existente pede o nome da fruta (pitaia)."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q02334",
+      "motivo": "Ambas pedem o país (Croácia) onde ficam os lagos."
+    }
+  ]
+}

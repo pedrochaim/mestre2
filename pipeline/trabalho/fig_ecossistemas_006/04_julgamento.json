@@ -1,0 +1,466 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Halo solar",
+        "descricao": "Fenômeno óptico em que cristais de gelo suspensos na atmosfera formam um anel luminoso em torno do Sol ou da Lua.",
+        "variantes": [
+          "Halo de 22 graus",
+          "Halo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "halo",
+          "nome": "Halo",
+          "descricao": "Arco de proteção de titânio instalado sobre o cockpit dos carros de Fórmula 1 para proteger a cabeça do piloto.",
+          "variantes": [
+            "Halo de proteção"
+          ]
+        },
+        {
+          "id": "halo_solar",
+          "nome": "Halo solar",
+          "descricao": "Anel luminoso em torno do Sol, produzido pela luz ao atravessar cristais de gelo na atmosfera.",
+          "variantes": [
+            "Halo",
+            "Halo de 22 graus"
+          ]
+        },
+        {
+          "id": "halo_combat_evolved",
+          "nome": "Halo: Combat Evolved",
+          "descricao": "Primeiro jogo da série de tiro Halo, da Bungie, lançado em 2001 e estrelado pelo soldado Master Chief.",
+          "variantes": [
+            "Halo"
+          ]
+        },
+        {
+          "id": "hal_9000",
+          "nome": "HAL 9000",
+          "descricao": "Computador fictício com inteligência artificial do filme 2001: Uma Odisseia no Espaço, de 1968.",
+          "variantes": [
+            "HAL"
+          ]
+        },
+        {
+          "id": "baia_de_ha_long",
+          "nome": "Baía de Ha Long",
+          "descricao": "Baía do norte do Vietnã com milhares de ilhotas e torres de calcário que saem do mar.",
+          "variantes": [
+            "Ha Long Bay",
+            "Hạ Long",
+            "Halong"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Enguia-de-jardim",
+        "descricao": "Peixe da subfamília Heterocongrinae que vive em colônias, em tocas no fundo arenoso, com a cabeça para fora para comer plâncton.",
+        "variantes": [
+          "Garden eel",
+          "Congro-de-jardim"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "enguia_de_jardim",
+          "nome": "Enguia-de-jardim",
+          "descricao": "Peixe semelhante a enguia da subfamília Heterocongrinae, que vive em colônias em tocas na areia com a cabeça para fora.",
+          "variantes": [
+            "Garden eel",
+            "Enguia-jardineira"
+          ]
+        },
+        {
+          "id": "cica",
+          "nome": "Cica",
+          "descricao": "Cycas revoluta, gimnosperma ornamental originária do sul do Japão, de tronco fibroso e folhas pinadas.",
+          "variantes": [
+            "Cycas revoluta",
+            "Sagu-de-jardim",
+            "Palmeira-sagu"
+          ]
+        },
+        {
+          "id": "caracol_de_jardim",
+          "nome": "Caracol-de-jardim",
+          "descricao": "Caracol terrestre europeu (Cornu aspersum), comum em jardins e usado como escargot.",
+          "variantes": [
+            "Cornu aspersum",
+            "Helix aspersa",
+            "caracol-comum"
+          ]
+        },
+        {
+          "id": "acordo_de_paris",
+          "nome": "Acordo de Paris",
+          "descricao": "Tratado internacional sobre mudanças climáticas adotado em dezembro de 2015, na COP21.",
+          "variantes": [
+            "Paris Agreement"
+          ]
+        },
+        {
+          "id": "tatuzinho_de_jardim",
+          "nome": "Tatuzinho-de-jardim",
+          "descricao": "Pequeno crustáceo terrestre da ordem Isopoda que se enrola em bola quando ameaçado.",
+          "variantes": [
+            "tatu-bola-de-jardim",
+            "Armadillidium vulgare",
+            "isópode terrestre",
+            "woodlouse",
+            "pill bug",
+            "Tatu-bola",
+            "Bicho-de-conta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Aguapé",
+        "descricao": "Planta aquática flutuante sul-americana (Pontederia crassipes), de flores lilases, invasora em várias partes do mundo.",
+        "variantes": [
+          "Baguari",
+          "Jacinto-d'água",
+          "Water hyacinth",
+          "Eichhornia crassipes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "agua",
+          "nome": "Água",
+          "descricao": "Substância formada por hidrogênio e oxigênio, essencial à vida, considerada um dos quatro elementos pelos antigos.",
+          "variantes": [
+            "H2O"
+          ]
+        },
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        },
+        {
+          "id": "agriao",
+          "nome": "Agrião",
+          "descricao": "Planta aquática da família das brassicáceas (Nasturtium officinale), consumida como folha de sabor picante.",
+          "variantes": [
+            "Agrião-d'água",
+            "Watercress"
+          ]
+        },
+        {
+          "id": "uva",
+          "nome": "Uva",
+          "descricao": "Fruto em cachos da videira (gênero Vitis), consumido fresco, seco ou usado na vinificação.",
+          "variantes": [
+            "Grape"
+          ]
+        },
+        {
+          "id": "agata",
+          "nome": "Ágata",
+          "descricao": "Variedade de calcedônia com bandas coloridas, comum em geodos de rochas vulcânicas.",
+          "variantes": [
+            "Agate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Lírio-do-mar",
+        "descricao": "Equinodermo da classe Crinoidea, com braços plumosos; os que têm haste são lírios-do-mar e os sem haste são estrelas-pena.",
+        "variantes": [
+          "Crinoide",
+          "Estrela-pena",
+          "Crinoidea",
+          "Feather star"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "crinoide",
+          "nome": "Crinoide",
+          "descricao": "Equinodermo marinho da classe Crinoidea, de braços plumosos, que inclui lírios-do-mar e estrelas-pluma.",
+          "variantes": [
+            "Lírio-do-mar",
+            "Crinoidea",
+            "Estrela-pluma",
+            "Comatulídeo"
+          ]
+        },
+        {
+          "id": "crinolina",
+          "nome": "Crinolina",
+          "descricao": "Armação rígida de aros usada sob as saias para deixá-las amplas e rodadas",
+          "variantes": [
+            "Crinoline",
+            "Saia-balão"
+          ]
+        },
+        {
+          "id": "ourico_do_mar",
+          "nome": "Ouriço-do-mar",
+          "descricao": "Equinodermo marinho de corpo globoso coberto de espinhos, da classe Echinoidea.",
+          "variantes": [
+            "Ouriço",
+            "Sea urchin"
+          ]
+        },
+        {
+          "id": "estrela_polar",
+          "nome": "Estrela Polar",
+          "descricao": "Estrela muito próxima do polo norte celeste, usada há séculos para indicar o norte.",
+          "variantes": [
+            "Polaris",
+            "Alfa da Ursa Menor"
+          ]
+        },
+        {
+          "id": "shuriken",
+          "nome": "Shuriken",
+          "descricao": "Arma japonesa de arremesso, em geral uma lâmina em forma de estrela, associada aos ninjas.",
+          "variantes": [
+            "Estrela ninja",
+            "Shuriken de arremesso"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Lava em almofada",
+        "descricao": "Lava que forma massas arredondadas em forma de almofada ao ser extrudida debaixo d'água.",
+        "variantes": [
+          "Pillow lava",
+          "Lava almofadada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lava_almofadada",
+          "nome": "Lava almofadada",
+          "descricao": "Lava com estruturas arredondadas em forma de almofada, formada por extrusão subaquática.",
+          "variantes": [
+            "Lava em almofada",
+            "Pillow lava"
+          ]
+        },
+        {
+          "id": "chapeu_pillbox",
+          "nome": "Chapéu pillbox",
+          "descricao": "Chapéu pequeno de copa plana, lados retos e sem aba, que lembra uma caixa de comprimidos.",
+          "variantes": [
+            "Pillbox",
+            "Chapéu caixa de pílulas",
+            "Pillbox hat"
+          ]
+        },
+        {
+          "id": "lata_de_bebida",
+          "nome": "Lata de bebida",
+          "descricao": "Embalagem cilíndrica de alumínio usada para refrigerantes e cervejas.",
+          "variantes": [
+            "Lata de refrigerante",
+            "Lata de alumínio"
+          ]
+        },
+        {
+          "id": "caviar",
+          "nome": "Caviar",
+          "descricao": "Iguaria feita de ovas salgadas de esturjão e, por extensão, de outros peixes.",
+          "variantes": [
+            "Caviare",
+            "Ova de salmão"
+          ]
+        },
+        {
+          "id": "homem_de_piltdown",
+          "nome": "Homem de Piltdown",
+          "descricao": "Fraude paleontológica apresentada em 1912 na Inglaterra como um elo perdido entre macacos e humanos.",
+          "variantes": [
+            "Piltdown Man",
+            "Eoanthropus dawsoni"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pitaya",
+        "descricao": "Fruto rosado e escamoso de cactos do gênero Selenicereus, nativos do México e da América Central.",
+        "variantes": [
+          "Pitaia",
+          "Fruta-do-dragão",
+          "Dragon fruit",
+          "Pitahaya"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pitaia",
+          "nome": "Pitaia",
+          "descricao": "Fruta de um cacto do gênero Selenicereus, de casca rosa com escamas, também chamada pitahaya.",
+          "variantes": [
+            "Pitaya",
+            "Fruta-do-dragão",
+            "Dragon fruit"
+          ]
+        },
+        {
+          "id": "oraculo_de_delfos",
+          "nome": "Oráculo de Delfos",
+          "descricao": "Santuário de Apolo em Delfos, na Grécia, onde a sacerdotisa Pítia dava respostas proféticas.",
+          "variantes": [
+            "Pítia",
+            "Delphi Oracle",
+            "Delfos",
+            "Oráculo de Delphi"
+          ]
+        },
+        {
+          "id": "italia",
+          "nome": "Itália",
+          "descricao": "País da Europa meridional, formado por uma península em forma de bota, Sicília e Sardenha.",
+          "variantes": [
+            "República Italiana"
+          ]
+        },
+        {
+          "id": "fruta_do_diabo",
+          "nome": "Fruta do Diabo",
+          "descricao": "Fruta mágica de One Piece que dá poderes sobre-humanos a quem a come.",
+          "variantes": [
+            "Akuma no Mi",
+            "Devil Fruit"
+          ]
+        },
+        {
+          "id": "o_voo_do_dragao",
+          "nome": "O Voo do Dragão",
+          "descricao": "Filme de artes marciais de 1972 escrito, dirigido e estrelado por Bruce Lee.",
+          "variantes": [
+            "The Way of the Dragon",
+            "A Fúria do Dragão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Lagos de Plitvice",
+        "descricao": "Parque nacional croata, Patrimônio Mundial da UNESCO, conhecido por lagos de travertino interligados por cachoeiras.",
+        "variantes": [
+          "Parque Nacional dos Lagos de Plitvice",
+          "Plitvička jezera",
+          "Plitvice Lakes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lagos_de_plitvice",
+          "nome": "Lagos de Plitvice",
+          "descricao": "Série de lagos de travertino interligados por cachoeiras, em parque nacional da Croácia central.",
+          "variantes": [
+            "Parque Nacional dos Lagos de Plitvice",
+            "Plitvice Lakes",
+            "Plitvička jezera"
+          ]
+        },
+        {
+          "id": "pitch_lake",
+          "nome": "Pitch Lake",
+          "descricao": "Lago natural de asfalto em La Brea, na ilha de Trinidad, em Trinidad e Tobago.",
+          "variantes": [
+            "Lago de Piche",
+            "Lago de Asfalto de Trinidad"
+          ]
+        },
+        {
+          "id": "torres_del_paine",
+          "nome": "Torres del Paine",
+          "descricao": "Parque nacional da Patagônia chilena, com o maciço de picos de granito Cordillera del Paine.",
+          "variantes": [
+            "Parque Nacional Torres del Paine"
+          ]
+        },
+        {
+          "id": "parque_nacional_de_yosemite",
+          "nome": "Parque Nacional de Yosemite",
+          "descricao": "Parque nacional na Serra Nevada da Califórnia, famoso por paredões de granito e cachoeiras.",
+          "variantes": [
+            "Yosemite",
+            "Yosemite National Park"
+          ]
+        },
+        {
+          "id": "parque_nacional_da_serra_do_divisor",
+          "nome": "Parque Nacional da Serra do Divisor",
+          "descricao": "Parque nacional na fronteira com o Peru, onde fica o ponto extremo oeste do Brasil.",
+          "variantes": [
+            "Serra do Divisor"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "halo_solar",
+      "motivo": "Mesmo fenômeno óptico: halo solar de 22 graus."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "enguia_de_jardim",
+      "motivo": "Mesmo peixe, subfamília Heterocongrinae, vive em colônias em tocas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o aguapé (Pontederia crassipes); agrião é outra planta aquática."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "crinoide",
+      "motivo": "Mesma classe Crinoidea, com lírios-do-mar e estrelas-pena."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "lava_almofadada",
+      "motivo": "Mesmo tipo de lava, pillow lava formada sob a água."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "pitaia",
+      "motivo": "Mesma fruta, pitaia/pitaya do gênero Selenicereus."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "lagos_de_plitvice",
+      "motivo": "Mesmo parque nacional croata com lagos de travertino."
+    }
+  ]
+}

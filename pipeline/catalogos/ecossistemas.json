@@ -47,7 +47,7 @@
       "titulo": "en:Pororoca",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Calçada dos Gigantes",
@@ -89,7 +89,7 @@
       "titulo": "en:Brinicle",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Nuvem mammatus",
@@ -173,7 +173,7 @@
       "titulo": "en:Crinoid",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Mar dos Sargaços",
@@ -348,7 +348,7 @@
       "titulo": "en:Halo (optical phenomenon)",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Fogo-de-santelmo",
@@ -404,7 +404,7 @@
       "titulo": "en:Swordfish",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Tamarutaca (camarão-louva-deus)",
@@ -453,7 +453,7 @@
       "titulo": "en:Garden eel",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Leque-do-mar",
@@ -474,7 +474,7 @@
       "titulo": "en:Pontederia crassipes",
       "camada": 1,
       "destino": 2,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Champignon",
@@ -502,7 +502,7 @@
       "titulo": "en:Rhizophora mangle",
       "camada": 2,
       "destino": 2,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Lentilha-d'água",
@@ -559,6 +559,286 @@
       "camada": 3,
       "destino": 2,
       "status": "usada"
+    },
+    {
+      "nome": "Raio",
+      "titulo": "en:Lightning",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Furacão",
+      "titulo": "en:Tropical cyclone",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lava",
+      "titulo": "en:Lava",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Avalanche",
+      "titulo": "en:Avalanche",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tromba-d'água",
+      "titulo": "en:Waterspout",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Antelope Canyon",
+      "titulo": "en:Antelope Canyon",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Parque Estadual de Vila Velha",
+      "titulo": "pt:Parque Estadual de Vila Velha",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Migração da borboleta-monarca",
+      "titulo": "en:Monarch butterfly migration",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Migração do caranguejo-vermelho da Ilha Christmas",
+      "titulo": "en:Christmas Island red crab",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Glória (fenômeno óptico)",
+      "titulo": "en:Glory (optical phenomenon)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Coluna de luz",
+      "titulo": "en:Light pillar",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lava em almofada",
+      "titulo": "en:Pillow lava",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Fenda Silfra",
+      "titulo": "en:Silfra",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lagos de Plitvice",
+      "titulo": "en:Plitvice Lakes National Park",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lobo-marinho",
+      "titulo": "en:Fur seal",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Craca",
+      "titulo": "en:Barnacle",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Sardinha",
+      "titulo": "en:Sardine",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Caranguejo-dos-coqueiros",
+      "titulo": "en:Coconut crab",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pinguim-de-adélia",
+      "titulo": "en:Adélie penguin",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Foca-leopardo",
+      "titulo": "en:Leopard seal",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Agulhão-vela",
+      "titulo": "en:Sailfish",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pinguim-saltador-da-rocha",
+      "titulo": "en:Southern rockhopper penguin",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Polvo-gigante-do-pacífico",
+      "titulo": "en:Giant Pacific octopus",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estrela-girassol",
+      "titulo": "en:Sunflower sea star",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Salpa",
+      "titulo": "en:Salp",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Golfinho-de-commerson",
+      "titulo": "en:Commerson's dolphin",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Caramujo-cone-geográfico",
+      "titulo": "en:Conus geographus",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Jaca",
+      "titulo": "en:Jackfruit",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Açaí",
+      "titulo": "en:Euterpe oleracea",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Coqueiro",
+      "titulo": "en:Coconut",
+      "camada": 1,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pitaya",
+      "titulo": "en:Pitaya",
+      "camada": 1,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Carambola",
+      "titulo": "en:Carambola",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Buriti",
+      "titulo": "en:Mauritia flexuosa",
+      "camada": 2,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Durião",
+      "titulo": "en:Durian",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Ipê-roxo",
+      "titulo": "en:Handroanthus impetiginosus",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Lithops (pedra-viva)",
+      "titulo": "en:Lithops",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Porcini",
+      "titulo": "en:Boletus edulis",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Eucalipto-arco-íris",
+      "titulo": "en:Eucalyptus deglupta",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Puya raimondii",
+      "titulo": "en:Puya raimondii",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Fungo dente-sangrento",
+      "titulo": "en:Hydnellum peckii",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
     }
   ]
 }

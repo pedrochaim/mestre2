@@ -1,0 +1,204 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Peixe visto de cima, junto ao casco do barco, com linhas de pesca; sem a nadadeira dorsal visível, pode ser marlim ou agulhão em vez de espadarte. Resposta não única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Halo circular nítido em torno do Sol, sem texto. As pessoas ao fundo são minúsculas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fenômeno óptico, causado por cristais de gelo na atmosfera, aparece em volta do Sol nesta foto?",
+      "resposta": "Halo solar",
+      "distratores": [
+        "Arco-íris",
+        "Coroa solar",
+        "Raios crepusculares"
+      ],
+      "ancora": {
+        "nome": "Halo solar",
+        "descricao": "Fenômeno óptico em que cristais de gelo suspensos na atmosfera formam um anel luminoso em torno do Sol ou da Lua.",
+        "variantes": [
+          "Halo de 22 graus",
+          "Halo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Enguias-de-jardim com o corpo saindo da areia, bem nítidas e reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que peixes são estes, que vivem em tocas e deixam só a cabeça de fora?",
+      "resposta": "Enguia-de-jardim",
+      "distratores": [
+        "Moreia",
+        "Peixe-cobra",
+        "Peixe-agulha"
+      ],
+      "ancora": {
+        "nome": "Enguia-de-jardim",
+        "descricao": "Peixe da subfamília Heterocongrinae que vive em colônias, em tocas no fundo arenoso, com a cabeça para fora para comer plâncton.",
+        "variantes": [
+          "Garden eel",
+          "Congro-de-jardim"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Flor e folhas de aguapé nítidas sobre a água, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que planta aquática, de flores lilases, é esta?",
+      "resposta": "Aguapé",
+      "distratores": [
+        "Vitória-régia",
+        "Flor-de-lótus",
+        "Ninfeia"
+      ],
+      "ancora": {
+        "nome": "Aguapé",
+        "descricao": "Planta aquática flutuante sul-americana (Pontederia crassipes), de flores lilases, invasora em várias partes do mundo.",
+        "variantes": [
+          "Baguari",
+          "Jacinto-d'água",
+          "Water hyacinth",
+          "Eichhornia crassipes"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Cena de mercado com pessoas comuns em primeiro plano, inclusive um bebê dormindo sob a carroça. O coco não é o único foco."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e estreita, de baixa resolução. O buriti não é reconhecível num celular."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Crinoide (estrela-pena) em recife, nítido e com fundo azul limpo.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que tipo de animal marinho é este?",
+      "resposta": "Crinoide",
+      "distratores": [
+        "Anêmona-do-mar",
+        "Pepino-do-mar",
+        "Esponja-do-mar"
+      ],
+      "ancora": {
+        "nome": "Lírio-do-mar",
+        "descricao": "Equinodermo da classe Crinoidea, com braços plumosos; os que têm haste são lírios-do-mar e os sem haste são estrelas-pena.",
+        "variantes": [
+          "Crinoide",
+          "Estrela-pena",
+          "Crinoidea",
+          "Feather star"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto antiga e granulada de duas focas nas rochas. Não distingue lobo-marinho de leão-marinho, e a espécie e o lugar não ficam únicos."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Lava em almofada no fundo do mar, com blocos arredondados característicos, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de lava forma estas massas arredondadas, fotografadas no fundo do mar?",
+      "resposta": "Lava em almofada",
+      "distratores": [
+        "Lava pahoehoe",
+        "Lava aa",
+        "Lava em blocos"
+      ],
+      "ancora": {
+        "nome": "Lava em almofada",
+        "descricao": "Lava que forma massas arredondadas em forma de almofada ao ser extrudida debaixo d'água.",
+        "variantes": [
+          "Pillow lava",
+          "Lava almofadada"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Pilha de pitayas rosadas, bem reconhecíveis. O jornal ao fundo não entrega a resposta.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que tipo de planta produz esta fruta?",
+      "resposta": "Cacto",
+      "distratores": [
+        "Palmeira",
+        "Bromélia",
+        "Orquídea"
+      ],
+      "ancora": {
+        "nome": "Pitaya",
+        "descricao": "Fruto rosado e escamoso de cactos do gênero Selenicereus, nativos do México e da América Central.",
+        "variantes": [
+          "Pitaia",
+          "Fruta-do-dragão",
+          "Dragon fruit",
+          "Pitahaya"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Close de uma flor pequena e esverdeada, em baixa resolução, que não é reconhecível como mangue-vermelho. A imagem não mostra as raízes aéreas."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista aérea característica dos lagos de Plitvice, de águas turquesa e cachoeiras, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país fica este parque nacional de lagos e cachoeiras?",
+      "resposta": "Croácia",
+      "distratores": [
+        "Eslovênia",
+        "Bósnia e Herzegovina",
+        "Montenegro"
+      ],
+      "ancora": {
+        "nome": "Lagos de Plitvice",
+        "descricao": "Parque nacional croata, Patrimônio Mundial da UNESCO, conhecido por lagos de travertino interligados por cachoeiras.",
+        "variantes": [
+          "Parque Nacional dos Lagos de Plitvice",
+          "Plitvička jezera",
+          "Plitvice Lakes"
+        ]
+      }
+    }
+  ]
+}

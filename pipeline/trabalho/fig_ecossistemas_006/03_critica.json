@@ -1,0 +1,85 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado define o fenômeno (cristais de gelo, em volta do Sol) e entrega a resposta sem a figura. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Que fenômeno atmosférico aparece nesta foto?",
+        "resposta": "Halo solar",
+        "distratores": [
+          "Arco-íris",
+          "Coroa solar",
+          "Raios crepusculares"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O comportamento descrito (tocas, só a cabeça de fora) identifica o animal sem a figura. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Que peixes alongados são estes, fotografados no fundo do mar?",
+        "resposta": "Enguia-de-jardim",
+        "distratores": [
+          "Moreia",
+          "Peixe-cobra",
+          "Peixe-agulha"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1. A pista (planta aquática de flores lilases) não identifica sozinha, e os distratores são plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Crinoide e lírio-do-mar são ambos corretos para a figura, então a resposta não é única. A pergunta também é vaga. Passei a pedir o nome específico.",
+      "reescrita": {
+        "pergunta": "Que animal marinho, de braços plumosos, é este?",
+        "resposta": "Lírio-do-mar",
+        "distratores": [
+          "Estrela-do-mar",
+          "Pepino-do-mar",
+          "Anêmona-do-mar"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'No fundo do mar' mais 'massas arredondadas' entrega a resposta pelo enunciado. Tirei as pistas.",
+      "reescrita": {
+        "pergunta": "Que tipo de lava aparece nesta foto?",
+        "resposta": "Lava em almofada",
+        "distratores": [
+          "Lava pahoehoe",
+          "Lava aa",
+          "Lava em blocos"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A figura é necessária para reconhecer a fruta. O fato, cacto, está nos trechos, e os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Precisa da figura para identificar o parque. A Croácia está nos trechos, e os distratores são países vizinhos plausíveis.",
+      "reescrita": null
+    }
+  ]
+}
