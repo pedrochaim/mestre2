@@ -1,0 +1,210 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cone nevado inconfundível do Osorno, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este vulcão chileno fica na margem sudeste de que lago?",
+      "resposta": "Lago Llanquihue",
+      "distratores": [
+        "Lago Villarrica",
+        "Lago Ranco",
+        "Lago General Carrera"
+      ],
+      "ancora": {
+        "nome": "Vulcão Osorno",
+        "descricao": "Estratovulcão cônico de 2652 metros no sul do Chile, na região de Los Lagos.",
+        "variantes": [
+          "Osorno",
+          "Volcán Osorno"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Estalactites genéricas: muitas cavernas parecem iguais, a imagem não permite reconhecer Carlsbad com resposta única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Monólito de granito característico, sem texto, reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que estado brasileiro fica esta pedra?",
+      "resposta": "Espírito Santo",
+      "distratores": [
+        "Minas Gerais",
+        "Rio de Janeiro",
+        "São Paulo"
+      ],
+      "ancora": {
+        "nome": "Pedra Azul",
+        "descricao": "Monólito de granito no Parque Estadual da Pedra Azul, em Domingos Martins, Espírito Santo.",
+        "variantes": [
+          "Pico da Pedra Azul",
+          "Parque Estadual de Pedra Azul"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Delicate Arch bem visível; pessoas minúsculas ao fundo, sem texto. A âncora é o arco, não o parque.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "De que tipo de rocha é feito este arco natural de Utah?",
+      "resposta": "Arenito",
+      "distratores": [
+        "Granito",
+        "Calcário",
+        "Basalto"
+      ],
+      "ancora": {
+        "nome": "Delicate Arch",
+        "descricao": "Arco natural de arenito no Parque Nacional dos Arcos, em Utah, nos Estados Unidos.",
+        "variantes": [
+          "Arco Delicado"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Coluna de rocha marinha isolada em penhasco, muito característica, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que coluna de rocha à beira-mar, no litoral da Escócia, é esta?",
+      "resposta": "Old Man of Hoy",
+      "distratores": [
+        "Old Harry Rocks",
+        "Am Buachaille",
+        "The Needles"
+      ],
+      "ancora": {
+        "nome": "Old Man of Hoy",
+        "descricao": "Coluna de arenito de 137 metros na ilha de Hoy, no arquipélago de Orkney, Escócia.",
+        "variantes": [
+          "O Velho de Hoy"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Queda em dois degraus com ponte, muito reconhecível, sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta cachoeira americana fica na garganta de que rio?",
+      "resposta": "Rio Columbia",
+      "distratores": [
+        "Rio Colorado",
+        "Rio Snake",
+        "Rio Hudson"
+      ],
+      "ancora": {
+        "nome": "Cataratas Multnomah",
+        "descricao": "Cachoeira de dois níveis e 189 metros no Oregon, nos Estados Unidos.",
+        "variantes": [
+          "Multnomah Falls"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arenito ondulado inconfundível, sem texto nem pessoas. Família trocada para o_que_e.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que formação de arenito do Arizona é esta?",
+      "resposta": "The Wave",
+      "distratores": [
+        "Antelope Canyon",
+        "Coyote Gulch",
+        "Monument Valley"
+      ],
+      "ancora": {
+        "nome": "The Wave",
+        "descricao": "Formação de arenito de formas onduladas nos Coyote Buttes, no Arizona, EUA.",
+        "variantes": [
+          "A Onda"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Turista agachado em primeiro plano, grande na imagem; pessoa comum."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Lagoa de cratera com hortênsias, típica dos Açores, sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ilha dos Açores fica esta lagoa?",
+      "resposta": "São Miguel",
+      "distratores": [
+        "Terceira",
+        "Flores",
+        "Pico"
+      ],
+      "ancora": {
+        "nome": "Lagoa das Sete Cidades",
+        "descricao": "Lago gêmeo na cratera de um vulcão adormecido na ilha de São Miguel, nos Açores.",
+        "variantes": [
+          "Sete Cidades"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vulcão com a cidade e a baía à frente, sem texto legível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que cidade japonesa aparece em primeiro plano, diante deste vulcão?",
+      "resposta": "Kagoshima",
+      "distratores": [
+        "Nagasaki",
+        "Fukuoka",
+        "Kumamoto"
+      ],
+      "ancora": {
+        "nome": "Sakurajima",
+        "descricao": "Estratovulcão ativo na baía de Kagoshima, na ilha de Kyushu, Japão.",
+        "variantes": [
+          "Sakura-jima"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Vale com rio e colinas genérico; não permite reconhecer o Krka com resposta única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Dunas com lagoas parecem os Lençóis Maranhenses; a imagem não identifica o Delta do Parnaíba com clareza."
+    }
+  ]
+}

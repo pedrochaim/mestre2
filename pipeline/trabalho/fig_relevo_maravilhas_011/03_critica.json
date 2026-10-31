@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A EN Wikipedia diz que o vulcão fica na margem sudeste do Lago Llanquihue. Os distratores são lagos chilenos e nenhum é correto. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pedra fica em Domingos Martins, no Espírito Santo, segundo os trechos. Os distratores são estados vizinhos e plausíveis. O enunciado é curto e não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta. Quase todo arco natural de Utah é de arenito, então dá para responder sem ver a figura. O reconhecimento do Delicate Arch não é necessário.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma coluna de arenito na costa norte da Escócia. Os distratores são formações de mar parecidas, em parte inglesas, e nenhum descreve a imagem. O enunciado não nomeia a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que a cachoeira fica na Columbia River Gorge, em Oregon. Os distratores são rios americanos e nenhum é correto. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "The Wave é uma formação de arenito no Arizona, em Coyote Buttes. Os distratores são outras paisagens de arenito da região, mas nenhum corresponde à imagem. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos situam a lagoa na ilha de São Miguel. Os distratores são outras ilhas dos Açores e nenhum é correto. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado afirma que uma cidade aparece em primeiro plano, mas `mostra` não garante isso e a afirmação pode ser falsa para a foto. O fato verificável está nos trechos: Kagoshima fica a cerca de 4 km, do outro lado da baía. A reescrita usa esse fato.",
+      "reescrita": {
+        "pergunta": "Que cidade japonesa fica do outro lado da baía, a cerca de quatro quilômetros deste vulcão?",
+        "resposta": "Kagoshima",
+        "distratores": [
+          "Nagasaki",
+          "Fukuoka",
+          "Kumamoto"
+        ]
+      }
+    }
+  ]
+}

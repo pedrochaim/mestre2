@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que formação de arenito do Arizona é esta?",
+        "resposta": "The Wave"
+      },
+      "existentes": [
+        {
+          "id": "q14027",
+          "pergunta": "Que formação de arenito do Arizona, perto da divisa com Utah, é esta?",
+          "resposta": "The Wave"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q14027",
+      "motivo": "Ambas pedem identificar a mesma formação de arenito do Arizona (The Wave), com a mesma resposta."
+    }
+  ]
+}
