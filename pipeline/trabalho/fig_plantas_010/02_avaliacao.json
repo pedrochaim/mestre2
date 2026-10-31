@@ -1,0 +1,275 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Tangerinas com folhas, imagem clara.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fruta cítrica é esta?",
+      "resposta": "Tangerina",
+      "distratores": [
+        "Limão-siciliano",
+        "Toranja",
+        "Cidra"
+      ],
+      "ancora": {
+        "nome": "Tangerina",
+        "descricao": "Fruta cítrica pequena e de casca solta (Citrus reticulata), também chamada mexerica ou bergamota.",
+        "variantes": [
+          "Mexerica",
+          "Bergamota",
+          "Mandarina"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Shiitake cultivado em tora, claro e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que cogumelo comestível de origem asiática é este?",
+      "resposta": "Shiitake",
+      "distratores": [
+        "Champignon",
+        "Shimeji",
+        "Porcini"
+      ],
+      "ancora": {
+        "nome": "Shiitake",
+        "descricao": "Cogumelo comestível do Leste Asiático (Lentinula edodes), cultivado em toras ou substrato.",
+        "variantes": [
+          "Lentinula edodes",
+          "Cogumelo-shiitake"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Árvore com vagens típicas de tamarindo, bem visível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que árvore é esta?",
+      "resposta": "Tamarindo",
+      "distratores": [
+        "Flamboyant",
+        "Algaroba",
+        "Ingazeiro"
+      ],
+      "ancora": {
+        "nome": "Tamarindo",
+        "descricao": "Árvore leguminosa tropical (Tamarindus indica) de vagens marrons com polpa azedinha.",
+        "variantes": [
+          "Tamarindus indica"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Chuchus em grande quantidade, formato inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que legume é este?",
+      "resposta": "Chuchu",
+      "distratores": [
+        "Pepino",
+        "Abobrinha",
+        "Jiló"
+      ],
+      "ancora": {
+        "nome": "Chuchu",
+        "descricao": "Fruto da trepadeira Sechium edule, da família das cucurbitáceas, usado como legume.",
+        "variantes": [
+          "Sechium edule",
+          "Chayote"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Variedade de flor dobrada, mas as brácteas vermelhas e folhas permitem reconhecer.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que planta ornamental, originária do México, é esta?",
+      "resposta": "Bico-de-papagaio",
+      "distratores": [
+        "Antúrio",
+        "Hibisco",
+        "Ixora"
+      ],
+      "ancora": {
+        "nome": "Bico-de-papagaio",
+        "descricao": "Arbusto ornamental (Euphorbia pulcherrima) de brácteas vermelhas, típico dos enfeites de Natal.",
+        "variantes": [
+          "Poinsétia",
+          "Flor-de-natal",
+          "Euphorbia pulcherrima"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fungo laranja de consolo, claro; pergunta de nível 3 sustentada pelo trecho.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Na natureza, este fungo alaranjado se desenvolve sobre qual material?",
+      "resposta": "Madeira morta",
+      "distratores": [
+        "Rochas",
+        "Estrume",
+        "Folhas vivas"
+      ],
+      "ancora": {
+        "nome": "Orelha-de-pau",
+        "descricao": "Fungo laranja-avermelhado de consolo (Pycnoporus sanguineus) que decompõe madeira morta nos trópicos.",
+        "variantes": [
+          "Urupê",
+          "Pycnoporus sanguineus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Abobrinha jovem com flor, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que legume, ainda na planta, é este?",
+      "resposta": "Abobrinha",
+      "distratores": [
+        "Berinjela",
+        "Quiabo",
+        "Jiló"
+      ],
+      "ancora": {
+        "nome": "Abobrinha",
+        "descricao": "Fruto jovem de Cucurbita pepo var. cylindrica, usado como legume.",
+        "variantes": [
+          "Zucchini",
+          "Courgette",
+          "Abobrinha-italiana"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Flor rosa de gladíolo silvestre, nítida; pergunta de família sustentada por fonte.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta flor pertence à mesma família de qual destas?",
+      "resposta": "Íris",
+      "distratores": [
+        "Rosa",
+        "Orquídea",
+        "Girassol"
+      ],
+      "ancora": {
+        "nome": "Gladíolo",
+        "descricao": "Planta com bulbo-tubérculo do gênero Gladiolus, da família das iridáceas, de flores em espigas.",
+        "variantes": [
+          "Gladiolus",
+          "Palma-de-santa-rita",
+          "Lírio-espada"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Placa visível na imagem com o nome científico Platycerium bifurcatum, entregando a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Rabanetes coloridos com folhas, claros.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta raiz pertence à mesma família de qual destes vegetais?",
+      "resposta": "Repolho",
+      "distratores": [
+        "Beterraba",
+        "Cenoura",
+        "Batata"
+      ],
+      "ancora": {
+        "nome": "Rabanete",
+        "descricao": "Raiz comestível de Raphanus sativus, da família das brassicáceas, de sabor picante.",
+        "variantes": [
+          "Raphanus sativus"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Flor de magnólia clara e nítida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que botânico francês é homenageado no nome científico desta flor?",
+      "resposta": "Pierre Magnol",
+      "distratores": [
+        "Charles Plumier",
+        "Carlos Lineu",
+        "Jean-Baptiste Lamarck"
+      ],
+      "ancora": {
+        "nome": "Magnólia",
+        "descricao": "Gênero de árvores e arbustos (Magnolia) de grandes flores perfumadas, da família das magnoliáceas.",
+        "variantes": [
+          "Magnolia"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fungo inconfundível com braços vermelhos saindo do ovo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que insetos espalham os esporos deste fungo?",
+      "resposta": "Moscas",
+      "distratores": [
+        "Abelhas",
+        "Borboletas",
+        "Formigas"
+      ],
+      "ancora": {
+        "nome": "Cogumelo-dedos-do-diabo",
+        "descricao": "Fungo fétido (Clathrus archeri) que emerge de um ovo branco com braços vermelhos cobertos de esporos.",
+        "variantes": [
+          "Dedos-do-diabo",
+          "Cogumelo-polvo",
+          "Clathrus archeri"
+        ]
+      }
+    }
+  ]
+}

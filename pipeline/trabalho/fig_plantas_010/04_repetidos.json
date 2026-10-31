@@ -1,0 +1,115 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fruta cítrica é esta?",
+        "resposta": "Tangerina"
+      },
+      "existentes": [
+        {
+          "id": "q14666",
+          "pergunta": "Que fruta cítrica é esta?",
+          "resposta": "Tangerina"
+        },
+        {
+          "id": "q16777",
+          "pergunta": "No Rio Grande do Sul, como se chama a fruta que os paulistas costumam chamar de mexerica?",
+          "resposta": "Bergamota"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que cogumelo comestível de origem asiática é este?",
+        "resposta": "Shiitake"
+      },
+      "existentes": [
+        {
+          "id": "q14662",
+          "pergunta": "Os registros escritos mais antigos do cultivo deste cogumelo vêm de que país?",
+          "resposta": "China"
+        },
+        {
+          "id": "q15268",
+          "pergunta": "Que cogumelo comestível é este?",
+          "resposta": "Shiitake"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que legume é este?",
+        "resposta": "Chuchu"
+      },
+      "existentes": [
+        {
+          "id": "q15290",
+          "pergunta": "Que legume é este?",
+          "resposta": "Chuchu"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que legume, ainda na planta, é este?",
+        "resposta": "Abobrinha"
+      },
+      "existentes": [
+        {
+          "id": "q14367",
+          "pergunta": "Que hortaliça é esta, ainda com a flor?",
+          "resposta": "Abobrinha"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Esta raiz pertence à mesma família de qual destes vegetais?",
+        "resposta": "Repolho"
+      },
+      "existentes": [
+        {
+          "id": "q08081",
+          "pergunta": "Que hortaliça de raiz pequena e arredondada é esta?",
+          "resposta": "Rabanete"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q14666",
+      "motivo": "Mesma pergunta e resposta (identificar a tangerina na imagem)."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q15268",
+      "motivo": "Ambas pedem para identificar o shiitake na imagem."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q15290",
+      "motivo": "Pergunta e resposta idênticas."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q14367",
+      "motivo": "Ambas pedem identificar a abobrinha na planta; mesma resposta."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre a família botânica (resposta repolho); a existente pede identificar o rabanete. Fatos diferentes."
+    }
+  ]
+}
