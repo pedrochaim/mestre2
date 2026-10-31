@@ -1,0 +1,270 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto, figura pública.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que filósofo e educador brasileiro é este?",
+      "resposta": "Mario Sergio Cortella",
+      "distratores": [
+        "Leandro Karnal",
+        "Clóvis de Barros Filho",
+        "Luiz Felipe Pondé"
+      ],
+      "ancora": {
+        "nome": "Mario Sergio Cortella",
+        "descricao": "Filósofo, educador e escritor brasileiro, nascido em Londrina em 1954.",
+        "variantes": [
+          "Mário Sérgio Cortella"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido e sem texto de maestro famoso.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que orquestra este maestro austríaco dirigiu como regente titular por trinta e quatro anos?",
+      "resposta": "Filarmônica de Berlim",
+      "distratores": [
+        "Filarmônica de Viena",
+        "Concertgebouw de Amsterdã",
+        "Orquestra de Paris"
+      ],
+      "ancora": {
+        "nome": "Herbert von Karajan",
+        "descricao": "Maestro austríaco, regente titular da Filarmônica de Berlim por 34 anos.",
+        "variantes": [
+          "Karajan"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Rosto nítido de figura pública, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Que ator e humorista brasileiro é este?",
+      "resposta": "Paulo Gustavo",
+      "distratores": [
+        "Fábio Porchat",
+        "Marcus Majella",
+        "Rodrigo Sant'Anna"
+      ],
+      "ancora": {
+        "nome": "Paulo Gustavo",
+        "descricao": "Ator, humorista e roteirista brasileiro, criador do monólogo Minha Mãe É uma Peça.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Qual é a obra mais conhecida deste escritor uruguaio?",
+      "resposta": "As Veias Abertas da América Latina",
+      "distratores": [
+        "Cem Anos de Solidão",
+        "O Labirinto da Solidão",
+        "Pedro Páramo"
+      ],
+      "ancora": {
+        "nome": "Eduardo Galeano",
+        "descricao": "Jornalista e escritor uruguaio, autor de As Veias Abertas da América Latina.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto de palco nítida, sem texto; figura pública.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que atriz e poeta brasileira é esta?",
+      "resposta": "Bruna Lombardi",
+      "distratores": [
+        "Regina Duarte",
+        "Vera Fischer",
+        "Christiane Torloni"
+      ],
+      "ancora": {
+        "nome": "Bruna Lombardi",
+        "descricao": "Atriz, poeta e escritora brasileira, nascida no Rio de Janeiro em 1952.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Qual destas séries de livros é deste escritor americano de ficção científica?",
+      "resposta": "Fundação",
+      "distratores": [
+        "Duna",
+        "O Jogo do Exterminador",
+        "Trilogia Marte"
+      ],
+      "ancora": {
+        "nome": "Isaac Asimov",
+        "descricao": "Escritor americano de ficção científica e professor de bioquímica, autor da série Fundação.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que escritora americana é esta?",
+      "resposta": "Toni Morrison",
+      "distratores": [
+        "Alice Walker",
+        "Maya Angelou",
+        "Zora Neale Hurston"
+      ],
+      "ancora": {
+        "nome": "Toni Morrison",
+        "descricao": "Romancista americana, autora de Amada e Nobel de Literatura em 1993.",
+        "variantes": [
+          "Chloe Anthony Wofford"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto histórica expressiva, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Com que ator este artista brasileiro formou uma dupla cômica famosa no cinema?",
+      "resposta": "Oscarito",
+      "distratores": [
+        "Zé Trindade",
+        "Mazzaropi",
+        "Ankito"
+      ],
+      "ancora": {
+        "nome": "Grande Otelo",
+        "descricao": "Ator, comediante, cantor e compositor brasileiro nascido em Uberlândia.",
+        "variantes": [
+          "Sebastião Bernardes de Souza Prata"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Daguerreótipo conhecido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que romancista francês do século dezenove é este?",
+      "resposta": "Honoré de Balzac",
+      "distratores": [
+        "Victor Hugo",
+        "Émile Zola",
+        "Gustave Flaubert"
+      ],
+      "ancora": {
+        "nome": "Honoré de Balzac",
+        "descricao": "Romancista francês, autor de A Comédia Humana.",
+        "variantes": [
+          "Balzac"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Qual destas peças foi escrita por este dramaturgo italiano?",
+      "resposta": "Seis Personagens à Procura de um Autor",
+      "distratores": [
+        "Esperando Godot",
+        "Casa de Bonecas",
+        "A Gaivota"
+      ],
+      "ancora": {
+        "nome": "Luigi Pirandello",
+        "descricao": "Dramaturgo e novelista italiano, Nobel de Literatura em 1934.",
+        "variantes": [
+          "Pirandello"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Figura pública central com violino; os outros são artistas de palco ao fundo; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que violinista e maestro holandês é este?",
+      "resposta": "André Rieu",
+      "distratores": [
+        "David Garrett",
+        "Itzhak Perlman",
+        "Nigel Kennedy"
+      ],
+      "ancora": {
+        "nome": "André Rieu",
+        "descricao": "Violinista e maestro holandês, fundador da Orquestra Johann Strauss.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato antigo legível; o único texto é um pequeno número de página que não revela a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que manifesto, de 1928, foi escrito por este poeta modernista brasileiro?",
+      "resposta": "Manifesto Antropófago",
+      "distratores": [
+        "Manifesto Futurista",
+        "Manifesto Regionalista",
+        "Manifesto Verde-Amarelo"
+      ],
+      "ancora": {
+        "nome": "Oswald de Andrade",
+        "descricao": "Poeta, romancista e crítico modernista brasileiro, nascido em São Paulo em 1890.",
+        "variantes": [
+          "José Oswald de Souza Andrade"
+        ]
+      }
+    }
+  ]
+}

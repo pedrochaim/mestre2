@@ -1,0 +1,120 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; o enunciado só dá profissão e nacionalidade, sem entregar o nome. Distratores são de perfil parecido e nenhum é o retratado.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Trinta e quatro anos' é um feito único que, com 'maestro austríaco', permite responder sem ver a figura; os trechos também divergem (34 e 35 anos). Retirei o número. Troquei a Filarmônica de Viena e a Orquestra de Paris por orquestras em que ele não foi regente titular, porque ele teve ligação com ambas.",
+      "reescrita": {
+        "pergunta": "Este maestro austríaco foi, a partir de 1955, regente titular de qual orquestra?",
+        "resposta": "Filarmônica de Berlim",
+        "distratores": [
+          "Concertgebouw de Amsterdã",
+          "Sinfônica de Chicago",
+          "Filarmônica de Nova York"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Os distratores são humoristas da mesma geração e nenhum é o retratado.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português diz que Veias Abertas é a obra mais conhecida de Galeano. A figura é necessária para identificar o escritor, e os distratores são obras latino-americanas de outros autores.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento sem vazamento. Os distratores são atrizes brasileiras críveis e nenhuma é a retratada.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fundação é a série mais famosa de Asimov, segundo o trecho. 'O Jogo do Exterminador' é um livro e não uma série, então troquei pelo nome da série correspondente, 'Saga de Ender'.",
+      "reescrita": {
+        "pergunta": "Qual destas séries de livros é deste escritor americano de ficção científica?",
+        "resposta": "Fundação",
+        "distratores": [
+          "Duna",
+          "Saga de Ender",
+          "Trilogia Marte"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento sem vazamento. Os distratores são escritoras americanas afro-americanas críveis e nenhuma é Morrison.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho cita Ankito como outra parceria cômica de sucesso de Otelo, então ele também é defensável como distrator. Troquei por um ator que não formou dupla com Otelo. 'Famosa' continua apontando para Oscarito.",
+      "reescrita": {
+        "pergunta": "Com que ator este artista brasileiro formou uma dupla cômica famosa no cinema?",
+        "resposta": "Oscarito",
+        "distratores": [
+          "Zé Trindade",
+          "Mazzaropi",
+          "Costinha"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento sem vazamento. Os distratores são romancistas franceses do mesmo século e nenhum é Balzac.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Seis Personagens é de Pirandello (1921), segundo o trecho. Os distratores são peças de outros autores (Beckett, Ibsen, Tchékhov).",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento sem vazamento. 'Holandês' exclui os distratores, que são violinistas de outras nacionalidades, e nenhum é Rieu.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Manifesto de 1928' mais 'modernista brasileiro' já aponta para o Manifesto Antropófago, então a figura virou enfeite. Retirei o ano. Os distratores continuam críveis e nenhum é de Oswald.",
+      "reescrita": {
+        "pergunta": "Qual destes manifestos foi escrito por este poeta modernista brasileiro?",
+        "resposta": "Manifesto Antropófago",
+        "distratores": [
+          "Manifesto Futurista",
+          "Manifesto Regionalista",
+          "Manifesto Verde-Amarelo"
+        ]
+      }
+    }
+  ]
+}

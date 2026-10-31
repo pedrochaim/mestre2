@@ -1,0 +1,89 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ator e humorista brasileiro é este?",
+        "resposta": "Paulo Gustavo"
+      },
+      "existentes": [
+        {
+          "id": "q11740",
+          "pergunta": "Este ator e humorista ficou famoso em todo o país com qual monólogo, adaptado ao cinema em 2013?",
+          "resposta": "Minha Mãe é uma Peça"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual destas séries de livros é deste escritor americano de ficção científica?",
+        "resposta": "Fundação"
+      },
+      "existentes": [
+        {
+          "id": "q08133",
+          "pergunta": "Este escritor americano do século vinte é mais famoso por qual série de ficção científica?",
+          "resposta": "Fundação"
+        },
+        {
+          "id": "q16842",
+          "pergunta": "O escritor Isaac Asimov é apontado como criador de que palavra, que usou num conto de 1941 e hoje nomeia uma área da engenharia?",
+          "resposta": "Robótica"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Com que ator este artista brasileiro formou uma dupla cômica famosa no cinema?",
+        "resposta": "Oscarito"
+      },
+      "existentes": [
+        {
+          "id": "q01821",
+          "pergunta": "Em filmes como Carnaval no Fogo, de mil novecentos e quarenta e nove, este ator formou uma das duplas cômicas mais emblemáticas do cinema brasileiro. Quem era o parceiro?",
+          "resposta": "Oscarito"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Qual destes manifestos foi escrito por este poeta modernista brasileiro?",
+        "resposta": "Manifesto Antropófago"
+      },
+      "existentes": [
+        {
+          "id": "q11691",
+          "pergunta": "Oswald de Andrade foi casado com a pintora Tarsila do Amaral e, logo depois, com que jovem escritora e militante comunista?",
+          "resposta": "Pagu (Patrícia Galvão)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identidade do ator; a existente pergunta o monólogo famoso, fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a série de ficção científica pela qual o escritor é conhecido, com resposta Fundação.",
+      "id_existente": "q08133"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o parceiro da dupla cômica, Oscarito.",
+      "id_existente": "q01821"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Manifesto escrito por Oswald é um fato diferente do casamento com Pagu."
+    }
+  ]
+}
