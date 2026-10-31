@@ -1,0 +1,251 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida e inequívoca do Palácio de Westminster.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "pergunta": "Que estilo arquitetônico caracteriza este edifício?",
+      "tipo": "multipla",
+      "resposta": "Neogótico",
+      "distratores": [
+        "Barroco",
+        "Neoclássico",
+        "Românico"
+      ],
+      "ancora": {
+        "nome": "Palácio de Westminster",
+        "descricao": "Sede do Parlamento do Reino Unido, em Londres, às margens do Tâmisa, com a torre do Big Ben.",
+        "variantes": [
+          "Houses of Parliament",
+          "Casas do Parlamento"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Mesquita Azul com seus minaretes, reconhecível; autor é fato documentado.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "pergunta": "Quem projetou esta mesquita, construída no início do século dezessete?",
+      "tipo": "multipla",
+      "resposta": "Sedefkâr Mehmed Ağa",
+      "distratores": [
+        "Mimar Sinan",
+        "Davut Ağa",
+        "Isidoro de Mileto"
+      ],
+      "ancora": {
+        "nome": "Mesquita Azul",
+        "descricao": "Mesquita imperial otomana do sultão Ahmed I em Istambul, Turquia, com seis minaretes.",
+        "variantes": [
+          "Mesquita do Sultão Ahmed",
+          "Sultanahmet Camii"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Mosteiro fortificado no deserto, identificável com distratores de países vizinhos.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "pergunta": "Em que país fica este mosteiro cristão?",
+      "tipo": "multipla",
+      "resposta": "Egito",
+      "distratores": [
+        "Israel",
+        "Jordânia",
+        "Arábia Saudita"
+      ],
+      "ancora": {
+        "nome": "Mosteiro de Santa Catarina",
+        "descricao": "Mosteiro cristão ortodoxo do século seis aos pés do monte Sinai, no Egito.",
+        "variantes": [
+          "Mosteiro de Santa Catarina do Sinai"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Estátua da Liberdade claramente visível, sem texto.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "pergunta": "Que escultor francês projetou esta estátua?",
+      "tipo": "multipla",
+      "resposta": "Frédéric Auguste Bartholdi",
+      "distratores": [
+        "Auguste Rodin",
+        "Aristide Maillol",
+        "Jean-Baptiste Carpeaux"
+      ],
+      "ancora": {
+        "nome": "Estátua da Liberdade",
+        "descricao": "Estátua colossal de cobre na Ilha da Liberdade, em Nova York, presente da França aos Estados Unidos.",
+        "variantes": [
+          "Liberty Enlightening the World",
+          "Lady Liberty"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pessoas comuns aparecem em primeiro plano, bem no centro da imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Colossos reconhecíveis; turistas pequenos e incidentais ao fundo da foto.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "pergunta": "Que faraó retratam estas duas estátuas colossais?",
+      "tipo": "multipla",
+      "resposta": "Amenhotep III",
+      "distratores": [
+        "Ramsés II",
+        "Quéfren",
+        "Akhenaton"
+      ],
+      "ancora": {
+        "nome": "Colossos de Mêmnon",
+        "descricao": "Duas estátuas colossais de Amenhotep III diante do templo funerário dele, em Luxor, Egito.",
+        "variantes": [
+          "Colossi of Memnon"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista aérea do estádio circular com anel branco; reconhecível para quem conhece estádios da Copa, com múltipla escolha.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "pergunta": "Em que cidade brasileira fica este estádio?",
+      "tipo": "multipla",
+      "resposta": "Belo Horizonte",
+      "distratores": [
+        "Fortaleza",
+        "Brasília",
+        "Salvador"
+      ],
+      "ancora": {
+        "nome": "Mineirão",
+        "descricao": "Estádio Governador Magalhães Pinto, estádio de futebol em Belo Horizonte, sede de jogos da Copa de 2014.",
+        "variantes": [
+          "Estádio Governador Magalhães Pinto"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Contra-luz distante, só a silhueta do minarete: não é reconhecível com segurança nem legível no celular."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Estátua de Netuno com tridente, nítida e sem texto.",
+      "destino": 2,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "pergunta": "Que divindade da mitologia romana é representada nesta escultura?",
+      "tipo": "multipla",
+      "resposta": "Netuno",
+      "distratores": [
+        "Júpiter",
+        "Hércules",
+        "Apolo"
+      ],
+      "ancora": {
+        "nome": "Fonte de Netuno (Bolonha)",
+        "descricao": "Fonte monumental maneirista do século dezesseis na Piazza del Nettuno, em Bolonha, com estátua de bronze de Netuno.",
+        "variantes": [
+          "Fontana del Nettuno",
+          "Netuno de Bolonha"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Arco bem enquadrado; inscrição latina pequena, ilegível no celular e sem entregar o nome.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que arco do triunfo romano é este?",
+      "tipo": "multipla",
+      "resposta": "Arco de Constantino",
+      "distratores": [
+        "Arco de Tito",
+        "Arco de Septímio Severo",
+        "Arco de Trajano"
+      ],
+      "ancora": {
+        "nome": "Arco de Constantino",
+        "descricao": "Arco do triunfo de Roma, junto ao Coliseu, dedicado em 315 ao imperador Constantino.",
+        "variantes": [
+          "Arco di Costantino"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Kouros arcaico de corpo inteiro, nítido; placa ilegível.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "pergunta": "Como se chama este tipo de estátua da Grécia arcaica?",
+      "tipo": "multipla",
+      "resposta": "Kouros",
+      "distratores": [
+        "Kore",
+        "Cariátide",
+        "Herma"
+      ],
+      "ancora": {
+        "nome": "Kouros de Kroisos",
+        "descricao": "Estátua funerária de mármore de um jovem guerreiro, achada em Anavyssos, na Ática, hoje em Atenas.",
+        "variantes": [
+          "Kouros de Anavyssos",
+          "Kroisos Kouros"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pedra do Sol nítida, sem texto; cabeça de visitante pequena no canto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Qual é o nome desta escultura asteca?",
+      "tipo": "multipla",
+      "resposta": "Pedra do Sol",
+      "distratores": [
+        "Pedra de Tizoc",
+        "Monólito de Coatlicue",
+        "Pedra de Moctezuma"
+      ],
+      "ancora": {
+        "nome": "Pedra do Sol (calendário asteca)",
+        "descricao": "Monólito circular mexica de basalto, exposto no Museu Nacional de Antropologia da Cidade do México.",
+        "variantes": [
+          "Piedra del Sol",
+          "Calendário asteca",
+          "Aztec sun stone"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem projetou esta mesquita, construída no início do século dezessete?",
+        "resposta": "Sedefkâr Mehmed Ağa"
+      },
+      "existentes": [
+        {
+          "id": "q05585",
+          "pergunta": "A Mesquita Azul de Istambul, construída no século dezessete, chama atenção por ter quantos minaretes?",
+          "resposta": "Seis"
+        },
+        {
+          "id": "q07522",
+          "pergunta": "Em Istambul, a Mesquita do Sultão Ahmed é chamada de Mesquita Azul por causa de que revestimento do seu interior?",
+          "resposta": "Azulejos de Iznik"
+        },
+        {
+          "id": "q08996",
+          "pergunta": "Que mesquita famosa de Istambul é esta?",
+          "resposta": "Mesquita Azul"
+        },
+        {
+          "id": "q17441",
+          "pergunta": "Que sultão mandou construir esta mesquita no início do século dezessete?",
+          "resposta": "Ahmed I"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país fica este mosteiro cristão?",
+        "resposta": "Egito"
+      },
+      "existentes": [
+        {
+          "id": "q17123",
+          "pergunta": "Aos pés de que monte fica este mosteiro cristão?",
+          "resposta": "Monte Sinai"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que escultor francês projetou esta estátua?",
+        "resposta": "Frédéric Auguste Bartholdi"
+      },
+      "existentes": [
+        {
+          "id": "q02008",
+          "pergunta": "A Estátua da Liberdade era avermelhada quando nova. Por que ficou esverdeada com o tempo?",
+          "resposta": "Oxidação do cobre"
+        },
+        {
+          "id": "q02018",
+          "pergunta": "O engenheiro francês cuja empresa projetou a estrutura interna de ferro da Estátua da Liberdade dá nome a qual monumento de Paris?",
+          "resposta": "Torre Eiffel"
+        },
+        {
+          "id": "q07509",
+          "pergunta": "Na mão esquerda, a Estátua da Liberdade segura uma tábua com uma data gravada em algarismos romanos. Que data é essa?",
+          "resposta": "4 de julho de 1776"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que faraó retratam estas duas estátuas colossais?",
+        "resposta": "Amenhotep III"
+      },
+      "existentes": [
+        {
+          "id": "q03880",
+          "pergunta": "Que faraó é representado nestas duas estátuas gigantes?",
+          "resposta": "Amenhotep III"
+        },
+        {
+          "id": "q06354",
+          "pergunta": "Depois de um terremoto, um dos Colossos de Mêmnon passou a emitir um som que atraía viajantes romanos. Em que momento do dia isso acontecia?",
+          "resposta": "Ao amanhecer"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que cidade brasileira fica este estádio?",
+        "resposta": "Belo Horizonte"
+      },
+      "existentes": [
+        {
+          "id": "q00525",
+          "pergunta": "Que estádio brasileiro é este?",
+          "resposta": "Mineirão"
+        },
+        {
+          "id": "q14583",
+          "pergunta": "Em que cidade brasileira fica este estádio?",
+          "resposta": "Belo Horizonte"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que arco do triunfo romano é este?",
+        "resposta": "Arco de Constantino"
+      },
+      "existentes": [
+        {
+          "id": "q02455",
+          "pergunta": "Que imperador romano é homenageado por este arco do triunfo?",
+          "resposta": "Constantino"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Qual é o nome desta escultura asteca?",
+        "resposta": "Pedra do Sol"
+      },
+      "existentes": [
+        {
+          "id": "q03620",
+          "pergunta": "Que escultura asteca é esta?",
+          "resposta": "Pedra do Sol"
+        },
+        {
+          "id": "q08585",
+          "pergunta": "Enterrada depois da conquista espanhola, a Pedra do Sol asteca foi reencontrada na praça central da Cidade do México em que século?",
+          "resposta": "Século dezoito (em 1790)"
+        },
+        {
+          "id": "q17356",
+          "pergunta": "Em que cidade fica esta escultura circular de pedra, hoje exposta num museu?",
+          "resposta": "Cidade do México"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "O arquiteto é um fato diferente de minaretes, revestimento, nome ou sultão."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O país é um fato diferente do monte ao pé do qual fica o mosteiro."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O escultor projetista não é perguntado por nenhuma das existentes. A pergunta sobre Eiffel trata do engenheiro, que é outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q03880",
+      "motivo": "Mesma pergunta sobre qual faraó as estátuas retratam, com a mesma resposta."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "id_existente": "q14583",
+      "motivo": "O enunciado e a resposta são idênticos."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Identificar o arco é diferente de identificar o imperador homenageado. Mesmo assim, o nome do arco entrega a resposta, mas a pergunta é de identificação do monumento."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "id_existente": "q03620",
+      "motivo": "Ambas pedem o nome da escultura asteca, e a resposta é a mesma."
+    }
+  ]
+}

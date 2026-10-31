@@ -1,0 +1,649 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Palácio de Westminster",
+        "descricao": "Sede do Parlamento do Reino Unido, em Londres, às margens do Tâmisa, com a torre do Big Ben.",
+        "variantes": [
+          "Houses of Parliament",
+          "Casas do Parlamento"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_parlamento_de_londres",
+          "nome": "O Parlamento de Londres",
+          "descricao": "Série de pinturas impressionistas de Claude Monet (1900-1901) que mostra o Palácio de Westminster, sede do Parlamento britânico, visto do Tâmisa.",
+          "variantes": [
+            "O Parlamento de Londres (Monet)",
+            "Houses of Parliament",
+            "Parlamento de Londres, Efeito de Neblina",
+            "Palácio de Westminster"
+          ]
+        },
+        {
+          "id": "abadia_de_westminster",
+          "nome": "Abadia de Westminster",
+          "descricao": "Igreja anglicana gótica em Westminster, Londres, local das coroações dos monarcas ingleses.",
+          "variantes": [
+            "Westminster Abbey"
+          ]
+        },
+        {
+          "id": "palacio_de_inverno",
+          "nome": "Palácio de Inverno",
+          "descricao": "Palácio barroco em São Petersburgo, residência oficial dos imperadores russos e hoje parte do Museu Hermitage.",
+          "variantes": [
+            "Winter Palace",
+            "Palácio de Inverno de São Petersburgo"
+          ]
+        },
+        {
+          "id": "palacio_de_peterhof",
+          "nome": "Palácio de Peterhof",
+          "descricao": "Conjunto de palácios e jardins com fontes perto de São Petersburgo, na Rússia, mandado construir por Pedro, o Grande.",
+          "variantes": [
+            "Peterhof",
+            "Petergof"
+          ]
+        },
+        {
+          "id": "castanha_do_para",
+          "nome": "Castanha-do-pará",
+          "descricao": "Semente da castanheira amazônica Bertholletia excelsa, vendida como fruto seco.",
+          "variantes": [
+            "Castanha-do-brasil",
+            "Brazil nut",
+            "Bertholletia excelsa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mesquita Azul",
+        "descricao": "Mesquita imperial otomana do sultão Ahmed I em Istambul, Turquia, com seis minaretes.",
+        "variantes": [
+          "Mesquita do Sultão Ahmed",
+          "Sultanahmet Camii"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_azul",
+          "nome": "Mesquita Azul",
+          "descricao": "Mesquita do Sultão Ahmed, em Istambul, construída no início do século dezessete",
+          "variantes": [
+            "Mesquita do Sultão Ahmed",
+            "Sultanahmet Camii",
+            "Sultan Ahmed Mosque",
+            "Blue Mosque"
+          ]
+        },
+        {
+          "id": "mesquita_de_al_aqsa",
+          "nome": "Mesquita de Al-Aqsa",
+          "descricao": "Mesquita na Esplanada das Mesquitas, em Jerusalém, um dos lugares mais sagrados do islã",
+          "variantes": [
+            "Al-Aqsa",
+            "Mesquita Al-Aqsa"
+          ]
+        },
+        {
+          "id": "gruta_azul_de_capri",
+          "nome": "Gruta Azul de Capri",
+          "descricao": "Caverna marinha na costa da ilha de Capri, no sul da Itália, cuja água brilha em azul pela luz que entra por baixo d'água.",
+          "variantes": [
+            "Gruta Azul",
+            "Grotta Azzurra",
+            "Blue Grotto"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_meca",
+          "nome": "Grande Mesquita de Meca",
+          "descricao": "Masjid al-Haram, a mais sagrada mesquita do Islã, que envolve a Caaba em Meca, na Arábia Saudita.",
+          "variantes": [
+            "Masjid al-Haram",
+            "Mesquita Sagrada",
+            "Al-Masjid al-Haram"
+          ]
+        },
+        {
+          "id": "baleia_azul",
+          "nome": "Baleia-azul",
+          "descricao": "Cetáceo gigante da espécie Balaenoptera musculus.",
+          "variantes": [
+            "Balaenoptera musculus",
+            "Blue whale"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mosteiro de Santa Catarina",
+        "descricao": "Mosteiro cristão ortodoxo do século seis aos pés do monte Sinai, no Egito.",
+        "variantes": [
+          "Mosteiro de Santa Catarina do Sinai"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mosteiro_de_santa_catarina_sinai",
+          "nome": "Mosteiro de Santa Catarina (Sinai)",
+          "descricao": "Mosteiro ortodoxo do século seis aos pés do Monte Sinai, no Egito.",
+          "variantes": [
+            "Saint Catherine's Monastery",
+            "Mosteiro de Santa Catarina do Sinai"
+          ]
+        },
+        {
+          "id": "mosteiro_da_batalha",
+          "nome": "Mosteiro da Batalha",
+          "descricao": "Mosteiro gótico dominicano na vila da Batalha, em Portugal, mandado erguer por Dom João Primeiro.",
+          "variantes": [
+            "Mosteiro de Santa Maria da Vitória",
+            "Batalha Monastery"
+          ]
+        },
+        {
+          "id": "mosteiro_dos_jeronimos",
+          "nome": "Mosteiro dos Jerónimos",
+          "descricao": "Mosteiro manuelino em Belém, Lisboa, ligado às viagens de Vasco da Gama.",
+          "variantes": [
+            "Mosteiro de Santa Maria de Belém"
+          ]
+        },
+        {
+          "id": "mosteiro_de_rila",
+          "nome": "Mosteiro de Rila",
+          "descricao": "Maior mosteiro ortodoxo da Bulgária, nas montanhas de Rila, fundado no século dez.",
+          "variantes": [
+            "Mosteiro de São João de Rila",
+            "Rila Monastery",
+            "Rilski manastir"
+          ]
+        },
+        {
+          "id": "santa_catarina",
+          "nome": "Santa Catarina",
+          "descricao": "Estado da Região Sul do Brasil, entre o Paraná e o Rio Grande do Sul, com capital em Florianópolis.",
+          "variantes": [
+            "SC"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Estátua da Liberdade",
+        "descricao": "Estátua colossal de cobre na Ilha da Liberdade, em Nova York, presente da França aos Estados Unidos.",
+        "variantes": [
+          "Liberty Enlightening the World",
+          "Lady Liberty"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estatua_da_liberdade",
+          "nome": "Estátua da Liberdade",
+          "descricao": "Estátua de cobre presenteada pela França, na Ilha da Liberdade, em Nova York.",
+          "variantes": [
+            "Statue of Liberty",
+            "A Liberdade Iluminando o Mundo",
+            "Liberdade Iluminando o Mundo"
+          ]
+        },
+        {
+          "id": "praca_da_liberdade_belo_horizonte",
+          "nome": "Praça da Liberdade (Belo Horizonte)",
+          "descricao": "Praça e conjunto arquitetônico na região da Savassi, em Belo Horizonte, ao redor do Palácio da Liberdade.",
+          "variantes": [
+            "Praça da Liberdade"
+          ]
+        },
+        {
+          "id": "barrete_frigio",
+          "nome": "Barrete frígio",
+          "descricao": "Gorro cônico macio com a ponta dobrada para a frente, usado na Antiguidade e depois símbolo de liberdade na Revolução Francesa.",
+          "variantes": [
+            "Gorro frígio",
+            "Barrete da liberdade",
+            "Phrygian cap"
+          ]
+        },
+        {
+          "id": "palacio_da_liberdade",
+          "nome": "Palácio da Liberdade",
+          "descricao": "Palácio histórico do governo de Minas Gerais, na Praça da Liberdade, em Belo Horizonte.",
+          "variantes": [
+            "Palácio Presidencial"
+          ]
+        },
+        {
+          "id": "one_world_trade_center",
+          "nome": "One World Trade Center",
+          "descricao": "Arranha-céu principal do novo complexo do World Trade Center, em Manhattan, inaugurado em 2014.",
+          "variantes": [
+            "Freedom Tower",
+            "Torre da Liberdade",
+            "One WTC"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Colossos de Mêmnon",
+        "descricao": "Duas estátuas colossais de Amenhotep III diante do templo funerário dele, em Luxor, Egito.",
+        "variantes": [
+          "Colossi of Memnon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "colossos_de_memnon",
+          "nome": "Colossos de Mêmnon",
+          "descricao": "Par de estátuas colossais de Amenhotep III diante do seu templo funerário, em Luxor, no Egito.",
+          "variantes": [
+            "Colossi of Memnon"
+          ]
+        },
+        {
+          "id": "colosso_de_rodes",
+          "nome": "Colosso de Rodes",
+          "descricao": "Estátua gigante de bronze erguida na ilha de Rodes no século três a.C., uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Colossus of Rhodes"
+          ]
+        },
+        {
+          "id": "tesouro_de_atreu",
+          "nome": "Tesouro de Atreu",
+          "descricao": "Grande tumba tholos micênica, de cerca de 1300 a 1250 a.C., em Micenas, na Grécia.",
+          "variantes": [
+            "Túmulo de Agamêmnon",
+            "Treasury of Atreus",
+            "Túmulo de Agamenon"
+          ]
+        },
+        {
+          "id": "compasso",
+          "nome": "Compasso",
+          "descricao": "Instrumento de desenho técnico com duas hastes, usado para traçar circunferências e arcos.",
+          "variantes": [
+            "Compasso de desenho",
+            "Compasso de ponta seca"
+          ]
+        },
+        {
+          "id": "mascara_de_agamenon",
+          "nome": "Máscara de Agamenon",
+          "descricao": "Máscara funerária de ouro encontrada em Micenas em 1876.",
+          "variantes": [
+            "Mask of Agamemnon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Mineirão",
+        "descricao": "Estádio Governador Magalhães Pinto, estádio de futebol em Belo Horizonte, sede de jogos da Copa de 2014.",
+        "variantes": [
+          "Estádio Governador Magalhães Pinto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mineirao",
+          "nome": "Mineirão",
+          "descricao": "Estádio de Belo Horizonte, oficialmente Estádio Governador Magalhães Pinto.",
+          "variantes": []
+        },
+        {
+          "id": "brasil_1_x_7_alemanha",
+          "nome": "Brasil 1 x 7 Alemanha",
+          "descricao": "Semifinal da Copa do Mundo de 2014, disputada no Mineirão, em Belo Horizonte, em 8 de julho de 2014.",
+          "variantes": [
+            "Mineiraço",
+            "Sete a um",
+            "Brazil v Germany 2014"
+          ]
+        },
+        {
+          "id": "atena",
+          "nome": "Atena",
+          "descricao": "Deusa grega da sabedoria, da estratégia na guerra e dos ofícios, padroeira de Atenas.",
+          "variantes": [
+            "Palas Atena",
+            "Minerva",
+            "Athena"
+          ]
+        },
+        {
+          "id": "mangueirao",
+          "nome": "Mangueirão",
+          "descricao": "Estádio Estadual Jornalista Edgar Proença, estádio de Belém, Pará, inaugurado em 1978.",
+          "variantes": [
+            "Estádio Olímpico do Pará",
+            "Estádio Edgar Proença"
+          ]
+        },
+        {
+          "id": "santo_crisma",
+          "nome": "Santo crisma",
+          "descricao": "Óleo consagrado usado em ritos cristãos como o batismo, a crisma e a ordenação",
+          "variantes": [
+            "Crisma (óleo)",
+            "Óleo do crisma",
+            "Chrism",
+            "Mirão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Fonte de Netuno (Bolonha)",
+        "descricao": "Fonte monumental maneirista do século dezesseis na Piazza del Nettuno, em Bolonha, com estátua de bronze de Netuno.",
+        "variantes": [
+          "Fontana del Nettuno",
+          "Netuno de Bolonha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_da_bolha",
+          "nome": "Nebulosa da Bolha",
+          "descricao": "Nebulosa de emissão na constelação de Cassiopeia, também chamada NGC 7635, em forma de bolha criada pelo vento de uma estrela massiva.",
+          "variantes": [
+            "NGC 7635",
+            "Sharpless 162",
+            "Caldwell 11",
+            "Bubble Nebula"
+          ]
+        },
+        {
+          "id": "fernando_de_noronha",
+          "nome": "Fernando de Noronha",
+          "descricao": "Arquipélago brasileiro no oceano Atlântico, pertencente ao estado de Pernambuco.",
+          "variantes": [
+            "Arquipélago de Fernando de Noronha",
+            "Noronha"
+          ]
+        },
+        {
+          "id": "cruz_de_borgonha",
+          "nome": "Cruz de Borgonha",
+          "descricao": "Bandeira em forma de cruz de Santo André denteada, estandarte histórico dos duques de Borgonha e depois dos Habsburgos.",
+          "variantes": [
+            "Aspa de Borgonha",
+            "Cruz de Santo André de Borgonha",
+            "Cruz de Borgoña"
+          ]
+        },
+        {
+          "id": "santuario_do_bom_jesus_de_congonhas",
+          "nome": "Santuário do Bom Jesus de Congonhas",
+          "descricao": "Santuário barroco do século dezoito em Congonhas, Minas Gerais, com os profetas esculpidos por Aleijadinho.",
+          "variantes": [
+            "Santuário do Bom Jesus de Matosinhos",
+            "Basílica do Bom Jesus de Matosinhos",
+            "Santuário de Congonhas"
+          ]
+        },
+        {
+          "id": "pave",
+          "nome": "Pavê",
+          "descricao": "Sobremesa gelada brasileira em camadas de biscoito ou bolo e creme, de inspiração francesa.",
+          "variantes": [
+            "Torta de bolacha",
+            "Pavê de doce de leite"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Arco de Constantino",
+        "descricao": "Arco do triunfo de Roma, junto ao Coliseu, dedicado em 315 ao imperador Constantino.",
+        "variantes": [
+          "Arco di Costantino"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arco_de_constantino",
+          "nome": "Arco de Constantino",
+          "descricao": "Arco do triunfo de Roma, entre o Coliseu e o monte Palatino, dedicado em 315.",
+          "variantes": [
+            "Arco di Costantino"
+          ]
+        },
+        {
+          "id": "queda_de_constantinopla",
+          "nome": "Queda de Constantinopla",
+          "descricao": "Conquista da capital bizantina pelo Império Otomano do sultão Maomé Segundo, em 1453.",
+          "variantes": [
+            "Tomada de Constantinopla",
+            "Fall of Constantinople"
+          ]
+        },
+        {
+          "id": "velcro",
+          "nome": "Velcro",
+          "descricao": "Sistema de fecho de gancho e argola inventado pelo engenheiro suíço George de Mestral.",
+          "variantes": [
+            "Fecho de gancho e argola",
+            "Hook-and-loop fastener",
+            "Fecho de contato",
+            "Hook-and-loop"
+          ]
+        },
+        {
+          "id": "constantino",
+          "nome": "Constantino",
+          "descricao": "Imperador romano de 306 a 337, o primeiro a se converter ao cristianismo.",
+          "variantes": [
+            "Constantino I",
+            "Constantino, o Grande",
+            "Constantine the Great"
+          ]
+        },
+        {
+          "id": "arco_de_tito",
+          "nome": "Arco de Tito",
+          "descricao": "Arco triunfal romano do século primeiro, no Fórum Romano, que celebra a tomada de Jerusalém pelo imperador Tito.",
+          "variantes": [
+            "Arch of Titus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Kouros de Kroisos",
+        "descricao": "Estátua funerária de mármore de um jovem guerreiro, achada em Anavyssos, na Ática, hoje em Atenas.",
+        "variantes": [
+          "Kouros de Anavyssos",
+          "Kroisos Kouros"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "urso_de_oculos",
+          "nome": "Urso-de-óculos",
+          "descricao": "Único urso sul-americano (Tremarctos ornatus), com manchas claras ao redor dos olhos.",
+          "variantes": [
+            "Urso-andino",
+            "Tremarctos ornatus"
+          ]
+        },
+        {
+          "id": "trilogia_das_cores",
+          "nome": "Trilogia das Cores",
+          "descricao": "Trilogia de filmes de Krzysztof Kieślowski, de 1993 e 1994, inspirada nas cores da bandeira francesa: Azul, Branco e Vermelho.",
+          "variantes": [
+            "Three Colours trilogy",
+            "Trois Couleurs"
+          ]
+        },
+        {
+          "id": "krokorok",
+          "nome": "Krokorok",
+          "descricao": "Pokémon dos tipos Terrestre e Sombrio, número 552 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "longos_muros_de_atenas",
+          "nome": "Longos Muros de Atenas",
+          "descricao": "Muralhas do século cinco a.C. que ligavam a cidade de Atenas aos seus portos, garantindo o abastecimento pelo mar.",
+          "variantes": [
+            "Longas Muralhas",
+            "Long Walls"
+          ]
+        },
+        {
+          "id": "touro_de_wall_street",
+          "nome": "Touro de Wall Street",
+          "descricao": "Escultura de bronze de um touro em posição de ataque, de Arturo Di Modica, no distrito financeiro de Nova York.",
+          "variantes": [
+            "Charging Bull",
+            "Touro de Bronze"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Pedra do Sol (calendário asteca)",
+        "descricao": "Monólito circular mexica de basalto, exposto no Museu Nacional de Antropologia da Cidade do México.",
+        "variantes": [
+          "Piedra del Sol",
+          "Calendário asteca",
+          "Aztec sun stone"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pedra_do_sol_asteca",
+          "nome": "Pedra do Sol asteca",
+          "descricao": "Monólito circular mexica esculpido no início do século dezesseis, exposto no Museu Nacional de Antropologia da Cidade do México.",
+          "variantes": [
+            "Calendário Asteca",
+            "Piedra del Sol",
+            "Pedra do Sol"
+          ]
+        },
+        {
+          "id": "porta_do_sol_de_tiwanaku",
+          "nome": "Porta do Sol de Tiwanaku",
+          "descricao": "Portal monolítico esculpido pela cultura Tiwanaku, perto do Lago Titicaca, na Bolívia.",
+          "variantes": [
+            "Porta do Sol",
+            "Puerta del Sol",
+            "Gateway of the Sun"
+          ]
+        },
+        {
+          "id": "puerta_del_sol",
+          "nome": "Puerta del Sol",
+          "descricao": "Praça central de Madri, na Espanha, com o relógio cujas badaladas marcam a virada do ano no país.",
+          "variantes": [
+            "Porta do Sol"
+          ]
+        },
+        {
+          "id": "calendario_gregoriano",
+          "nome": "Calendário gregoriano",
+          "descricao": "Calendário solar instituído pelo papa Gregório treze em 1582 e usado hoje na maior parte do mundo.",
+          "variantes": [
+            "Gregorian calendar",
+            "Calendário cristão"
+          ]
+        },
+        {
+          "id": "piramide_do_sol_teotihuacan",
+          "nome": "Pirâmide do Sol (Teotihuacan)",
+          "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
+          "variantes": [
+            "Pirâmide do Sol",
+            "Pyramid of the Sun",
+            "Pirámide del Sol"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A candidata é a série de pinturas de Monet, não o edifício."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "mesquita_azul",
+      "motivo": "Mesma mesquita do Sultão Ahmed em Istambul."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "mosteiro_de_santa_catarina_sinai",
+      "motivo": "Mesmo mosteiro ortodoxo do Sinai."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "estatua_da_liberdade",
+      "motivo": "Mesma estátua em Nova York."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "colossos_de_memnon",
+      "motivo": "Mesmas estátuas de Amenhotep III em Luxor."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "mineirao",
+      "motivo": "Mesmo estádio de Belo Horizonte."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a fonte de Netuno de Bolonha."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "arco_de_constantino",
+      "motivo": "Mesmo arco do triunfo em Roma."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o kouros de Kroisos."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "pedra_do_sol_asteca",
+      "motivo": "Mesmo monólito mexica no Museu Nacional de Antropologia."
+    }
+  ]
+}
