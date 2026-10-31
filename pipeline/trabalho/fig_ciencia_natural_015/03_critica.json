@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Doença que causa a cavidade' é quase uma definição de cárie: dá para responder com a imagem coberta. Reescrita sem a pista.",
+      "reescrita": {
+        "pergunta": "Que doença bucal aparece nestes dentes?",
+        "resposta": "Cárie",
+        "distratores": [
+          "Gengivite",
+          "Bruxismo",
+          "Fluorose"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não entrega a resposta (clavícula, costela e escápula são outros candidatos); distratores plausíveis e nenhum correto para o osso destacado.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Fundo da boca' e 'centro da foto' não bastam para identificar sem a imagem; distratores do mesmo tipo e não centrais.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Neurônio do cerebelo não identifica a resposta sozinho (há células granulares, de Golgi etc.); a figura é necessária. Distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Organismos marinhos coloniais' descreve o coral e entrega a pista; além disso 'esta estrutura' é vago. Reescrita pede o reconhecimento pela figura.",
+      "reescrita": {
+        "pergunta": "Que tipo de animal marinho aparece nesta foto?",
+        "resposta": "Corais",
+        "distratores": [
+          "Esponjas",
+          "Anêmonas",
+          "Ouriços-do-mar"
+        ]
+      }
+    }
+  ]
+}

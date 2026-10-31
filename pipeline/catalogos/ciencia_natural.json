@@ -1083,7 +1083,7 @@
       "titulo": "en:Sternum",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Sacro",
@@ -1097,7 +1097,7 @@
       "titulo": "en:Purkinje cell",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Vilosidade intestinal",
@@ -1146,7 +1146,7 @@
       "titulo": "en:Uvula",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Amígdala palatina",
@@ -1251,7 +1251,7 @@
       "titulo": "en:Golgi apparatus",
       "camada": 2,
       "destino": 2,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Retículo endoplasmático",
@@ -1328,7 +1328,7 @@
       "titulo": "en:Goblet cell",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Centríolo",
@@ -1398,6 +1398,286 @@
       "titulo": "en:Sodalite",
       "camada": 3,
       "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estetoscópio",
+      "titulo": "en:Stethoscope",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Seringa",
+      "titulo": "en:Syringe",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Termômetro clínico",
+      "titulo": "en:Medical thermometer",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ressonância magnética",
+      "titulo": "en:Magnetic resonance imaging",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lábio",
+      "titulo": "en:Lip",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cílio",
+      "titulo": "en:Eyelash",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Sarda",
+      "titulo": "en:Freckle",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Catapora",
+      "titulo": "en:Chickenpox",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cárie dentária",
+      "titulo": "en:Tooth decay",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Gêmeos",
+      "titulo": "en:Twin",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Feto",
+      "titulo": "en:Fetus",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Musgo",
+      "titulo": "en:Moss",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Samambaia",
+      "titulo": "en:Fern",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Erlenmeyer",
+      "titulo": "en:Erlenmeyer flask",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pipeta",
+      "titulo": "en:Pipette",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Almofariz e pistilo",
+      "titulo": "en:Mortar and pestle",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Potássio",
+      "titulo": "en:Potassium",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cálcio",
+      "titulo": "en:Calcium",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Talco",
+      "titulo": "en:Talc",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Água-marinha",
+      "titulo": "en:Aquamarine (gem)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vitiligo",
+      "titulo": "en:Vitiligo",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Escoliose",
+      "titulo": "en:Scoliosis",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Albinismo",
+      "titulo": "en:Albinism",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Sinapse",
+      "titulo": "en:Synapse",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Medula óssea",
+      "titulo": "en:Bone marrow",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Coral",
+      "titulo": "en:Coral",
+      "camada": 2,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Plâncton",
+      "titulo": "en:Plankton",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Kitassato",
+      "titulo": "en:Büchner flask",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Condensador de Liebig",
+      "titulo": "en:Liebig condenser",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cadinho",
+      "titulo": "en:Crucible",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Funil de separação",
+      "titulo": "en:Separatory funnel",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Neodímio",
+      "titulo": "en:Neodymium",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Germânio",
+      "titulo": "en:Germanium",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estaurolita",
+      "titulo": "en:Staurolite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tanzanita",
+      "titulo": "en:Tanzanite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Glândula pineal",
+      "titulo": "en:Pineal gland",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Epiglote",
+      "titulo": "en:Epiglottis",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Menisco",
+      "titulo": "en:Meniscus (anatomy)",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Glândula suprarrenal",
+      "titulo": "en:Adrenal gland",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Heterocromia",
+      "titulo": "en:Heterochromia iridum",
+      "camada": 3,
+      "destino": 2,
       "status": "nova"
     }
   ]

@@ -1,0 +1,157 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Modelo de dente em corte com cavidade escura, claro.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que doença causa a cavidade escura nestes dentes?",
+      "resposta": "Cárie",
+      "distratores": [
+        "Gengivite",
+        "Bruxismo",
+        "Fluorose"
+      ],
+      "ancora": {
+        "nome": "Cárie dentária",
+        "descricao": "Destruição dos tecidos duros do dente por ácidos produzidos por bactérias.",
+        "variantes": [
+          "Cárie",
+          "Cárie dental"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Amostra branca lamelar sem traços que a distingam de mica, gipsita ou calcita; não reconhecível com resposta única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Esqueleto do tórax com o esterno destacado em vermelho, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que osso do tórax está destacado em vermelho nesta figura?",
+      "resposta": "Esterno",
+      "distratores": [
+        "Clavícula",
+        "Escápula",
+        "Costela"
+      ],
+      "ancora": {
+        "nome": "Esterno",
+        "descricao": "Osso plano no centro do peito, que se liga às costelas por cartilagem.",
+        "variantes": [
+          "Osso do peito"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto intraoral com a úvula bem visível, sem rosto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que estrutura do fundo da boca ocupa o centro desta foto?",
+      "resposta": "Úvula",
+      "distratores": [
+        "Amígdala",
+        "Epiglote",
+        "Palato duro"
+      ],
+      "ancora": {
+        "nome": "Úvula",
+        "descricao": "Projeção cônica na borda posterior do palato mole, no fundo da boca.",
+        "variantes": [
+          "Campainha",
+          "Úvula palatina"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Rosto de pessoa comum em primeiro plano, em foto de baixa resolução."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A gravura traz legendas em inglês (meniscos medial e lateral) que entregam a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Aparelho híbrido PET/RM com marca visível, parecido com tomógrafo; resposta não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Diagrama com várias organelas e números de legenda; ambíguo e cheio de elementos."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Lâmina histológica com neurônios de Purkinje evidentes, de corpo em frasco e dendritos ramificados.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que tipo de neurônio do cerebelo aparece nesta lâmina?",
+      "resposta": "Célula de Purkinje",
+      "distratores": [
+        "Célula piramidal",
+        "Célula granular",
+        "Astrócito"
+      ],
+      "ancora": {
+        "nome": "Célula de Purkinje",
+        "descricao": "Grande neurônio do córtex cerebelar, de corpo em forma de frasco e dendritos muito ramificados.",
+        "variantes": [
+          "Neurônio de Purkinje"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Close do rosto de uma pessoa comum, em primeiro plano."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Recife de corais nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que organismos marinhos coloniais formam esta estrutura?",
+      "resposta": "Corais",
+      "distratores": [
+        "Esponjas",
+        "Anêmonas",
+        "Ouriços-do-mar"
+      ],
+      "ancora": {
+        "nome": "Coral",
+        "descricao": "Invertebrado marinho colonial do filo Cnidaria que forma recifes com esqueleto de carbonato de cálcio.",
+        "variantes": [
+          "Corais",
+          "Recife de coral"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto de um menino comum sem camisa em primeiro plano."
+    }
+  ]
+}

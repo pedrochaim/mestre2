@@ -1,0 +1,70 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que osso do tórax está destacado em vermelho nesta figura?",
+        "resposta": "Esterno"
+      },
+      "existentes": [
+        {
+          "id": "q14826",
+          "pergunta": "Que osso do tórax está destacado em vermelho nesta figura?",
+          "resposta": "Esterno"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que tipo de neurônio do cerebelo aparece nesta lâmina?",
+        "resposta": "Célula de Purkinje"
+      },
+      "existentes": [
+        {
+          "id": "q14856",
+          "pergunta": "Que tipo de célula nervosa aparece nesta imagem?",
+          "resposta": "Célula de Purkinje"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que tipo de animal marinho aparece nesta foto?",
+        "resposta": "Corais"
+      },
+      "existentes": [
+        {
+          "id": "q02555",
+          "pergunta": "Corais, anêmonas-do-mar e águas-vivas pertencem ao mesmo grande grupo de animais com células urticantes. Que filo é esse?",
+          "resposta": "Cnidários"
+        },
+        {
+          "id": "q09198",
+          "pergunta": "Muitos corais devem suas cores e boa parte do alimento a algas microscópicas que vivem dentro de seus tecidos. Como se chamam essas algas?",
+          "resposta": "Zooxantelas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q14826",
+      "motivo": "Mesma pergunta e resposta (esterno)."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q14856",
+      "motivo": "Ambas pedem identificar a célula de Purkinje na imagem; mesma resposta."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar corais numa foto é fato diferente de filo cnidários ou zooxantelas."
+    }
+  ]
+}

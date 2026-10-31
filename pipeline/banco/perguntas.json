@@ -332110,5 +332110,80 @@
       "autor": "Berthold Werner",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q17124",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "carie_dentaria",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que doença bucal aparece nestes dentes?",
+    "resposta": "Cárie",
+    "distratores": [
+      "Gengivite",
+      "Bruxismo",
+      "Fluorose"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tooth_decay",
+      "https://pt.wikipedia.org/wiki/C%C3%A1rie"
+    ],
+    "imagem": {
+      "arquivo": "q17124.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tooth_model.jpg",
+      "autor": "Xauxa (Wikimedia Commons)",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q17125",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "uvula",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estrutura do fundo da boca ocupa o centro desta foto?",
+    "resposta": "Úvula",
+    "distratores": [
+      "Amígdala",
+      "Epiglote",
+      "Palato duro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Uvula",
+      "https://pt.wikipedia.org/wiki/%C3%9Avula"
+    ],
+    "imagem": {
+      "arquivo": "q17125.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Swollen_Uvula.jpg",
+      "autor": "Diss 50",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q17126",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "coral",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de animal marinho aparece nesta foto?",
+    "resposta": "Corais",
+    "distratores": [
+      "Esponjas",
+      "Anêmonas",
+      "Ouriços-do-mar"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Coral",
+      "https://pt.wikipedia.org/wiki/Coral"
+    ],
+    "imagem": {
+      "arquivo": "q17126.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Coral_Outcrop_Flynn_Reef.jpg",
+      "autor": "Toby Hudson",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]
