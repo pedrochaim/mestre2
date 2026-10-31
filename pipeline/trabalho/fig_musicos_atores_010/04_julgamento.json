@@ -1,0 +1,726 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Jackie Chan",
+        "descricao": "Ator, artista marcial e cineasta de Hong Kong, famoso por filmes de ação e comédia com acrobacias.",
+        "variantes": [
+          "Chan Kong-sang",
+          "Sing Lung"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jackie_chan",
+          "nome": "Jackie Chan",
+          "descricao": "Ator, dublê e artista marcial de Hong Kong, famoso por filmes de ação com comédia.",
+          "variantes": [
+            "Chan Kong-sang"
+          ]
+        },
+        {
+          "id": "ting_lu",
+          "nome": "Ting-Lu",
+          "descricao": "Pokémon dos tipos Sombrio e Terrestre, número 1003 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "chang_an",
+          "nome": "Chang'an",
+          "descricao": "Antiga capital chinesa das dinastias Han e Tang, extremo oriental da Rota da Seda, onde hoje fica Xian.",
+          "variantes": [
+            "Changan"
+          ]
+        },
+        {
+          "id": "rio_yangtze",
+          "nome": "Rio Yangtzé",
+          "descricao": "Grande rio da China que nasce no planalto do Tibete e deságua no mar da China Oriental, perto de Xangai.",
+          "variantes": [
+            "Yangtze",
+            "Chang Jiang",
+            "Rio Azul",
+            "Iangtsé"
+          ]
+        },
+        {
+          "id": "jack_walker",
+          "nome": "Jack Walker",
+          "descricao": "Pokémon Ranger do filme Pokémon Ranger e o Templo do Mar, que protege o ovo de Manaphy infiltrado num grupo do Povo da Água.",
+          "variantes": [
+            "Jackie",
+            "Jack Walker (Pokémon Ranger)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Harry Styles",
+        "descricao": "Cantor, compositor e ator inglês, ex-integrante da One Direction.",
+        "variantes": [
+          "Harry Edward Styles"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "harry_kane",
+          "nome": "Harry Kane",
+          "descricao": "Centroavante inglês, maior artilheiro da história da seleção da Inglaterra e do Tottenham.",
+          "variantes": [
+            "Harry Edward Kane"
+          ]
+        },
+        {
+          "id": "tipo_fada",
+          "nome": "Tipo Fada",
+          "descricao": "Tipo elemental de pokémon e golpes introduzido na sexta geração, em Pokémon X e Y.",
+          "variantes": [
+            "Fairy type"
+          ]
+        },
+        {
+          "id": "os_contos_da_cantuaria",
+          "nome": "Os Contos da Cantuária",
+          "descricao": "Coletânea de histórias em versos de Geoffrey Chaucer, contadas por peregrinos a caminho da catedral de Canterbury.",
+          "variantes": [
+            "The Canterbury Tales",
+            "Contos de Canterbury",
+            "Contos da Cantuária"
+          ]
+        },
+        {
+          "id": "harry_truman",
+          "nome": "Harry Truman",
+          "descricao": "33º presidente dos Estados Unidos, de 1945 a 1953, que decidiu o uso das bombas atômicas sobre o Japão.",
+          "variantes": [
+            "Harry S. Truman"
+          ]
+        },
+        {
+          "id": "capture_styler",
+          "nome": "Capture Styler",
+          "descricao": "Aparelho usado pelos guardas da série Pokémon Ranger para riscar círculos em volta dos pokémon selvagens e acalmá-los.",
+          "variantes": [
+            "Styler"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Arnaldo Antunes",
+        "descricao": "Cantor, compositor e poeta brasileiro, ex-integrante dos Titãs e dos Tribalistas.",
+        "variantes": [
+          "Arnaldo Augusto Nora Antunes Filho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arnaldo_antunes",
+          "nome": "Arnaldo Antunes",
+          "descricao": "Cantor, compositor e poeta brasileiro, ex-integrante dos Titãs e dos Tribalistas.",
+          "variantes": [
+            "Arnaldo Augusto Nora Antunes Filho"
+          ]
+        },
+        {
+          "id": "baralho_frances",
+          "nome": "Baralho francês",
+          "descricao": "Baralho de cinquenta e duas cartas com os naipes copas, espadas, paus e ouros, o mais usado no Brasil e no mundo.",
+          "variantes": [
+            "Baralho comum",
+            "Baralho de 52 cartas"
+          ]
+        },
+        {
+          "id": "virtudes_cardeais",
+          "nome": "Virtudes cardeais",
+          "descricao": "Conjunto de quatro virtudes morais descrito desde Platão e adotado pela tradição cristã.",
+          "variantes": [
+            "Cardinal virtues"
+          ]
+        },
+        {
+          "id": "gavial",
+          "nome": "Gavial",
+          "descricao": "Crocodiliano de focinho longo e fino (Gavialis gangeticus) dos rios do norte do subcontinente indiano.",
+          "variantes": [
+            "Gavialis gangeticus",
+            "Gharial",
+            "Gavial-do-ganges"
+          ]
+        },
+        {
+          "id": "cardeal_do_norte",
+          "nome": "Cardeal-do-norte",
+          "descricao": "Ave canora de crista, o macho vermelho, nativa do leste da América do Norte (Cardinalis cardinalis).",
+          "variantes": [
+            "Cardinalis cardinalis",
+            "Northern cardinal",
+            "Cardeal-vermelho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Ringo Starr",
+        "descricao": "Músico inglês, baterista dos Beatles.",
+        "variantes": [
+          "Richard Starkey",
+          "Sir Richard Starkey"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ringo_starr",
+          "nome": "Ringo Starr",
+          "descricao": "Músico inglês, baterista dos Beatles, nascido Richard Starkey",
+          "variantes": [
+            "Richard Starkey"
+          ]
+        },
+        {
+          "id": "richard_leakey",
+          "nome": "Richard Leakey",
+          "descricao": "Paleoantropólogo e conservacionista queniano, líder de expedições no lago Turkana.",
+          "variantes": [
+            "Richard Erskine Frere Leakey"
+          ]
+        },
+        {
+          "id": "cartas_gold_star",
+          "nome": "Cartas Gold Star",
+          "descricao": "Cartas raríssimas da era EX do card game Pokémon, com pokémon de cor rara e uma estrela ao lado do nome.",
+          "variantes": [
+            "Gold Star",
+            "Pokémon Star",
+            "Pokémon ☆"
+          ]
+        },
+        {
+          "id": "aneis_de_saturno",
+          "nome": "Anéis de Saturno",
+          "descricao": "Sistema de anéis planetários que circunda Saturno, o mais extenso do Sistema Solar.",
+          "variantes": [
+            "Rings of Saturn"
+          ]
+        },
+        {
+          "id": "richard_wagner",
+          "nome": "Richard Wagner",
+          "descricao": "Compositor alemão romântico (1813–1883), autor de dramas musicais como O Anel do Nibelungo.",
+          "variantes": [
+            "Wilhelm Richard Wagner",
+            "Wagner"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Billie Eilish",
+        "descricao": "Cantora e compositora americana, autora de Bad Guy e Ocean Eyes.",
+        "variantes": [
+          "Billie Eilish Pirate Baird O'Connell"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ellie_the_last_of_us",
+          "nome": "Ellie (The Last of Us)",
+          "descricao": "Jovem imune ao fungo Cordyceps, protagonista da série de jogos The Last of Us.",
+          "variantes": [
+            "Ellie Williams"
+          ]
+        },
+        {
+          "id": "mille_miglia",
+          "nome": "Mille Miglia",
+          "descricao": "Corrida italiana de longa distância em estradas abertas, disputada de 1927 a 1957, depois revivida como prova de carros clássicos.",
+          "variantes": [
+            "Mil Milhas"
+          ]
+        },
+        {
+          "id": "billie_jean_king",
+          "nome": "Billie Jean King",
+          "descricao": "Ex-tenista americana, número 1 do mundo, com 39 títulos de Grand Slam.",
+          "variantes": [
+            "Billie Jean Moffitt King"
+          ]
+        },
+        {
+          "id": "mil_folhas",
+          "nome": "Mil-folhas",
+          "descricao": "Doce francês de camadas de massa folhada intercaladas com creme de confeiteiro.",
+          "variantes": [
+            "Mille-feuille",
+            "Napoleão",
+            "Vanilla slice"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Steve Buscemi",
+        "descricao": "Ator e diretor americano, conhecido por Cães de Aluguel, Fargo e Boardwalk Empire.",
+        "variantes": [
+          "Steven Vincent Buscemi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "steve_jobs",
+          "nome": "Steve Jobs",
+          "descricao": "Empresário americano (1955–2011), cofundador da Apple.",
+          "variantes": []
+        },
+        {
+          "id": "steve_biko",
+          "nome": "Steve Biko",
+          "descricao": "Ativista sul-africano antiapartheid, líder do movimento da Consciência Negra, morto sob custódia policial em 1977.",
+          "variantes": [
+            "Stephen Bantu Biko"
+          ]
+        },
+        {
+          "id": "steven_stone",
+          "nome": "Steven Stone",
+          "descricao": "Campeão da Liga Pokémon de Hoenn nos jogos Ruby e Sapphire, colecionador de pedras raras.",
+          "variantes": [
+            "Steven",
+            "Daigo"
+          ]
+        },
+        {
+          "id": "sete_cumes",
+          "nome": "Sete Cumes",
+          "descricao": "Conjunto formado pela montanha mais alta de cada continente, desafio clássico do montanhismo.",
+          "variantes": [
+            "Seven Summits"
+          ]
+        },
+        {
+          "id": "steven_seagal",
+          "nome": "Steven Seagal",
+          "descricao": "Ator, produtor e mestre de aikido americano, famoso por filmes de ação como Nico e Difícil de Matar.",
+          "variantes": [
+            "Steven Frederic Seagal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Chacrinha",
+        "descricao": "Apresentador e comunicador brasileiro de rádio e TV, nascido José Abelardo Barbosa de Medeiros.",
+        "variantes": [
+          "Abelardo Barbosa",
+          "José Abelardo Barbosa de Medeiros"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tesourinha",
+          "nome": "Tesourinha",
+          "descricao": "Inseto da ordem Dermaptera, com pinças no fim do abdômen.",
+          "variantes": [
+            "Lacrainha",
+            "Dermáptero",
+            "Earwig"
+          ]
+        },
+        {
+          "id": "gabigol",
+          "nome": "Gabigol",
+          "descricao": "Gabriel Barbosa Almeida, atacante brasileiro de futebol, ídolo do Flamengo.",
+          "variantes": [
+            "Gabriel Barbosa",
+            "Gabi"
+          ]
+        },
+        {
+          "id": "la_calavera_catrina",
+          "nome": "La Calavera Catrina",
+          "descricao": "Figura de uma caveira feminina elegante de chapéu, símbolo do Dia dos Mortos mexicano.",
+          "variantes": [
+            "Catrina",
+            "La Catrina",
+            "Calavera Garbancera"
+          ]
+        },
+        {
+          "id": "ocarina",
+          "nome": "Ocarina",
+          "descricao": "Instrumento de sopro de cerâmica, com corpo fechado e furos para os dedos.",
+          "variantes": [
+            "Okarina"
+          ]
+        },
+        {
+          "id": "eta_carinae",
+          "nome": "Eta Carinae",
+          "descricao": "Sistema estelar massivo na constelação da Carena, cercado pela Nebulosa do Homúnculo, formada na Grande Erupção do século dezenove.",
+          "variantes": [
+            "η Carinae",
+            "Eta Argus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Emma Watson",
+        "descricao": "Atriz inglesa, conhecida por interpretar Hermione Granger nos filmes de Harry Potter.",
+        "variantes": [
+          "Emma Charlotte Duerre Watson"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "james_watson",
+          "nome": "James Watson",
+          "descricao": "Biólogo molecular americano, codescobridor da estrutura em dupla hélice do DNA e Nobel de 1962.",
+          "variantes": [
+            "James Dewey Watson"
+          ]
+        },
+        {
+          "id": "wattson",
+          "nome": "Wattson",
+          "descricao": "Velho líder do ginásio de tipo Elétrico de Mauville, em Hoenn, nos jogos Pokémon Ruby, Sapphire e Emerald, famoso pela risada.",
+          "variantes": []
+        },
+        {
+          "id": "marco_antonio",
+          "nome": "Marco Antônio",
+          "descricao": "General e político romano do século primeiro antes de Cristo, aliado de Cleópatra e derrotado por Otaviano.",
+          "variantes": [
+            "Marcus Antonius",
+            "Mark Antony"
+          ]
+        },
+        {
+          "id": "maratona",
+          "nome": "Maratona",
+          "descricao": "Corrida de longa distância do atletismo, com percurso oficial de 42,195 quilômetros.",
+          "variantes": [
+            "Marathon"
+          ]
+        },
+        {
+          "id": "maratona_grecia",
+          "nome": "Maratona (Grécia)",
+          "descricao": "Cidade e planície da Ática, na Grécia, onde os atenienses venceram os persas em 490 a.C.",
+          "variantes": [
+            "Marathon",
+            "Marathonas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Irandhir Santos",
+        "descricao": "Ator brasileiro pernambucano, premiado por filmes como Tatuagem e Febre do Rato.",
+        "variantes": [
+          "Irandhir Santos Pinto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "daiane_dos_santos",
+          "nome": "Daiane dos Santos",
+          "descricao": "Ginasta artística brasileira, campeã mundial no solo em 2003.",
+          "variantes": [
+            "Daiane Garcia dos Santos"
+          ]
+        },
+        {
+          "id": "ziraldo",
+          "nome": "Ziraldo",
+          "descricao": "Cartunista, escritor e jornalista brasileiro, criador do Menino Maluquinho (1932–2024).",
+          "variantes": [
+            "Ziraldo Alves Pinto"
+          ]
+        },
+        {
+          "id": "silvio_santos",
+          "nome": "Silvio Santos",
+          "descricao": "Apresentador e empresário brasileiro, fundador e dono do SBT.",
+          "variantes": [
+            "Senor Abravanel"
+          ]
+        },
+        {
+          "id": "duplo_twist_carpado",
+          "nome": "Duplo twist carpado",
+          "descricao": "Movimento da ginástica artística de solo que entrou no código de pontuação com o nome da ginasta brasileira que o executou primeiro.",
+          "variantes": [
+            "Dos Santos",
+            "Duplo twist carpado (Dos Santos)",
+            "Double Arabian piked",
+            "Duplo twist carpado de Daiane"
+          ]
+        },
+        {
+          "id": "dia_dos_santos_inocentes",
+          "nome": "Dia dos Santos Inocentes",
+          "descricao": "Data cristã de 28 de dezembro que, na Espanha e na América hispânica, é o dia tradicional das pegadinhas.",
+          "variantes": [
+            "Día de los Santos Inocentes",
+            "Dia dos Inocentes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Dwayne Johnson",
+        "descricao": "Ator americano e ex-lutador de wrestling, conhecido como The Rock.",
+        "variantes": [
+          "The Rock",
+          "Dwayne Douglas Johnson"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dwayne_johnson_the_rock",
+          "nome": "Dwayne Johnson (The Rock)",
+          "descricao": "Ator norte-americano e ex-lutador de luta livre profissional da WWF/WWE.",
+          "variantes": [
+            "Dwayne Johnson",
+            "The Rock"
+          ]
+        },
+        {
+          "id": "o_turco_automato",
+          "nome": "O Turco (autômato)",
+          "descricao": "Falso autômato jogador de xadrez construído por Wolfgang von Kempelen em 1770, que percorreu a Europa e a América.",
+          "variantes": [
+            "Turco Mecânico",
+            "Mechanical Turk",
+            "The Turk"
+          ]
+        },
+        {
+          "id": "anthony_davis",
+          "nome": "Anthony Davis",
+          "descricao": "Ala-pivô americano de basquete da NBA, apelidado The Brow.",
+          "variantes": [
+            "AD",
+            "The Brow"
+          ]
+        },
+        {
+          "id": "equipe_rocket",
+          "nome": "Equipe Rocket",
+          "descricao": "Organização criminosa da franquia Pokémon, representada no anime pela dupla Jessie e James e pelo Meowth falante.",
+          "variantes": [
+            "Team Rocket"
+          ]
+        },
+        {
+          "id": "magic_johnson",
+          "nome": "Magic Johnson",
+          "descricao": "Armador americano do Los Angeles Lakers, cinco vezes campeão da NBA nos anos 1980.",
+          "variantes": [
+            "Earvin Johnson",
+            "Earvin Magic Johnson"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Zendaya",
+        "descricao": "Atriz e cantora americana, conhecida por Euphoria, Duna e Homem-Aranha.",
+        "variantes": [
+          "Zendaya Coleman"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        },
+        {
+          "id": "princesa_zelda",
+          "nome": "Princesa Zelda",
+          "descricao": "Princesa do reino de Hyrule na série The Legend of Zelda, da Nintendo.",
+          "variantes": [
+            "Princess Zelda",
+            "Zelda"
+          ]
+        },
+        {
+          "id": "zonda",
+          "nome": "Zonda",
+          "descricao": "Vento quente e seco que desce a encosta leste dos Andes, no oeste da Argentina",
+          "variantes": [
+            "Viento zonda",
+            "Zonda wind"
+          ]
+        },
+        {
+          "id": "lenda_da_mandioca",
+          "nome": "Lenda da mandioca",
+          "descricao": "Lenda indígena tupi sobre a menina Mani, de cujo túmulo teria brotado a mandioca.",
+          "variantes": [
+            "Lenda de Mani"
+          ]
+        },
+        {
+          "id": "usina_solar_fotovoltaica",
+          "nome": "Usina solar fotovoltaica",
+          "descricao": "Usina que converte a luz do sol em eletricidade por painéis fotovoltaicos, em grande escala.",
+          "variantes": [
+            "Parque solar",
+            "Fazenda solar",
+            "Central fotovoltaica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Nina Simone",
+        "descricao": "Cantora, pianista e compositora americana, chamada de Sacerdotisa do Soul.",
+        "variantes": [
+          "Eunice Kathleen Waymon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pedra_do_inga",
+          "nome": "Pedra do Ingá",
+          "descricao": "Rocha na Paraíba coberta de gravuras pré-históricas, também chamada Itacoatiara do Ingá.",
+          "variantes": [
+            "Itacoatiara do Ingá",
+            "Ingá Stone"
+          ]
+        },
+        {
+          "id": "ninfeias_monet",
+          "nome": "Ninfeias (Monet)",
+          "descricao": "Série de quadros de Claude Monet com o lago de seu jardim em Giverny.",
+          "variantes": [
+            "Water Lilies",
+            "Nymphéas"
+          ]
+        },
+        {
+          "id": "simone",
+          "nome": "Simone",
+          "descricao": "Cantora brasileira de MPB nascida em 1949, com mais de 30 álbuns.",
+          "variantes": [
+            "Simone Bittencourt de Oliveira"
+          ]
+        },
+        {
+          "id": "lisa_simpson",
+          "nome": "Lisa Simpson",
+          "descricao": "Filha do meio, inteligente e saxofonista, da família do desenho Os Simpsons.",
+          "variantes": [
+            "Lisa"
+          ]
+        },
+        {
+          "id": "simon_jogo",
+          "nome": "Simon (jogo)",
+          "descricao": "Brinquedo eletrônico de memória com quatro botões coloridos que acendem em sequência, lançado em 1978.",
+          "variantes": [
+            "Simon",
+            "Genius"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "jackie_chan",
+      "motivo": "Mesmo ator de Hong Kong."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Harry Styles."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "arnaldo_antunes",
+      "motivo": "Descrição e variantes idênticas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "ringo_starr",
+      "motivo": "Mesmo baterista dos Beatles."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Billie Eilish não consta nas candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Steve Buscemi não consta nas candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Chacrinha não consta nas candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Emma Watson não consta nas candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Irandhir Santos não consta nas candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "dwayne_johnson_the_rock",
+      "motivo": "Mesmo ator e ex-lutador The Rock."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Zendaya não consta nas candidatas."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Nina Simone é diferente de Simone e das demais."
+    }
+  ]
+}

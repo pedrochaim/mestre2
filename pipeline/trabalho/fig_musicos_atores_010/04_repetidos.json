@@ -1,0 +1,82 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Qual destes filmes tem este ator no elenco?",
+        "resposta": "A Hora do Rush"
+      },
+      "existentes": [
+        {
+          "id": "q01971",
+          "pergunta": "Na infância, Jackie Chan estudou por anos numa escola de que arte cênica chinesa, onde aprendeu acrobacias e luta?",
+          "resposta": "Ópera de Pequim"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que músico e poeta brasileiro é este?",
+        "resposta": "Arnaldo Antunes"
+      },
+      "existentes": [
+        {
+          "id": "q14870",
+          "pergunta": "De que banda de rock paulistana, formada nos anos oitenta, este cantor e poeta foi um dos fundadores?",
+          "resposta": "Titãs"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "De qual destas bandas este músico foi baterista?",
+        "resposta": "The Beatles"
+      },
+      "existentes": [
+        {
+          "id": "q16658",
+          "pergunta": "O apelido Ringo, adotado pelo baterista Richard Starkey, veio do hábito de usar o quê?",
+          "resposta": "Anéis"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Qual destes filmes de aventura tem este ator como protagonista?",
+        "resposta": "Jumanji: Bem-Vindo à Selva"
+      },
+      "existentes": [
+        {
+          "id": "q15062",
+          "pergunta": "Que nome de ringue este ator usava como lutador de luta livre profissional?",
+          "resposta": "The Rock"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Filme do elenco é fato diferente da escola de infância."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o músico pela imagem é diferente de perguntar a banda que fundou (a resposta existente é Titãs, e a nova pede o nome do músico)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Banda em que foi baterista é diferente da origem do apelido Ringo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Filme protagonizado é diferente do nome de ringue."
+    }
+  ]
+}
