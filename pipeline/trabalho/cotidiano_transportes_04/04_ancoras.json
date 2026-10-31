@@ -1,0 +1,1446 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "rms_titanic",
+        "nome": "RMS Titanic",
+        "descricao": "Transatlântico britânico da White Star Line que afundou em 1912 após colidir com um iceberg.",
+        "variantes": [
+          "Titanic"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Titanic"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O Titanic tinha quatro chaminés, mas nem todas eram ligadas às caldeiras. Quantas serviam só de enfeite e ventilação?",
+      "resposta": "Uma",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Titanic"
+      ],
+      "distratores": [
+        "Duas",
+        "Três",
+        "Nenhuma"
+      ],
+      "ancora": "rms_titanic"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "concorde",
+        "nome": "Concorde",
+        "descricao": "Avião comercial supersônico franco-britânico que operou de 1976 a 2003.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Concorde"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em velocidade de cruzeiro, o Concorde voava a cerca de quantas vezes a velocidade do som?",
+      "resposta": "Duas vezes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Concorde"
+      ],
+      "distratores": [
+        "Uma vez e meia",
+        "Três vezes",
+        "Cinco vezes"
+      ],
+      "ancora": "concorde"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "concorde",
+        "nome": "Concorde",
+        "descricao": "Avião comercial supersônico franco-britânico que operou de 1976 a 2003.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Concorde"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 2000, um Concorde da Air France caiu logo depois de decolar de Paris. O que, na pista, deu início ao desastre?",
+      "resposta": "Peça metálica de outro avião",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Air_France_Flight_4590"
+      ],
+      "distratores": [
+        "Bando de pássaros",
+        "Óleo derramado",
+        "Gelo acumulado"
+      ],
+      "ancora": "concorde"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "ford_modelo_t",
+        "nome": "Ford Modelo T",
+        "descricao": "Automóvel da Ford fabricado de 1908 a 1927, o primeiro carro produzido em massa em linha de montagem.",
+        "variantes": [
+          "Ford Model T",
+          "Ford Bigode"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ford_Model_T"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Entre 1908 e 1927, a Ford fabricou cerca de quantas unidades do Modelo T?",
+      "resposta": "15 milhões",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ford_Model_T"
+      ],
+      "distratores": [
+        "1 milhão",
+        "5 milhões",
+        "40 milhões"
+      ],
+      "ancora": "ford_modelo_t"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "guia_michelin",
+        "nome": "Guia Michelin",
+        "descricao": "Guia de viagem francês publicado desde 1900 pela fabricante de pneus Michelin, famoso por dar estrelas a restaurantes.",
+        "variantes": [
+          "Michelin Guide"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Michelin_Guide"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Criado por uma fabricante de pneus, o Guia Michelin dá estrelas a restaurantes. Quantas estrelas, no máximo, um restaurante pode receber?",
+      "resposta": "Três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Michelin_Guide"
+      ],
+      "distratores": [
+        "Quatro",
+        "Cinco",
+        "Dez"
+      ],
+      "ancora": "guia_michelin"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "mayday",
+        "nome": "Mayday",
+        "descricao": "Palavra usada internacionalmente no rádio como pedido de socorro por aviões e navios.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mayday"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Pela regra internacional, quantas vezes seguidas o piloto ou o comandante deve repetir a palavra mayday ao pedir socorro pelo rádio?",
+      "resposta": "Três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mayday"
+      ],
+      "distratores": [
+        "Duas",
+        "Quatro",
+        "Cinco"
+      ],
+      "ancora": "mayday"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "onibus_espacial",
+        "nome": "Ônibus espacial",
+        "descricao": "Sistema espacial parcialmente reutilizável da NASA, operado de 1981 a 2011.",
+        "variantes": [
+          "Space Shuttle"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Space_Shuttle"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Entre 1981 e 2011, quantos ônibus espaciais diferentes da NASA chegaram a ir ao espaço?",
+      "resposta": "Cinco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Space_Shuttle"
+      ],
+      "distratores": [
+        "Três",
+        "Quatro",
+        "Oito"
+      ],
+      "ancora": "onibus_espacial"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "jipe_lunar",
+        "nome": "Jipe lunar",
+        "descricao": "Veículo elétrico de quatro rodas usado pelos astronautas das missões Apollo 15, 16 e 17.",
+        "variantes": [
+          "Lunar Roving Vehicle",
+          "LRV"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lunar_Roving_Vehicle"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Nas últimas missões Apollo, os astronautas passearam pela Lua num jipe elétrico. Quantos desses jipes ficaram abandonados por lá?",
+      "resposta": "Três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lunar_Roving_Vehicle"
+      ],
+      "distratores": [
+        "Um",
+        "Dois",
+        "Seis"
+      ],
+      "ancora": "jipe_lunar"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "linha_de_montagem_de_henry_ford",
+        "nome": "Linha de montagem de Henry Ford",
+        "descricao": "Linha de montagem móvel adotada pela Ford em 1913 para produzir o Modelo T em massa.",
+        "variantes": [
+          "Linha de montagem móvel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Assembly_line"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Com a linha de montagem móvel, adotada em 1913, o tempo para montar um Ford Modelo T caiu de mais de doze horas para cerca de quanto?",
+      "resposta": "Uma hora e meia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Assembly_line",
+        "https://en.wikipedia.org/wiki/Ford_Model_T"
+      ],
+      "distratores": [
+        "Dez minutos",
+        "Três horas",
+        "Seis horas"
+      ],
+      "ancora": "linha_de_montagem_de_henry_ford"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "delorean_dmc_12",
+        "nome": "DeLorean DMC-12",
+        "descricao": "Carro esportivo de carroceria de aço inoxidável e portas que abrem para cima, fabricado de 1981 a 1983 e famoso como máquina do tempo no cinema.",
+        "variantes": [
+          "DeLorean"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/DeLorean_time_machine"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No filme De Volta para o Futuro, o DeLorean precisa atingir quantas milhas por hora para viajar no tempo?",
+      "resposta": "88 milhas por hora",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/DeLorean_time_machine"
+      ],
+      "distratores": [
+        "55 milhas por hora",
+        "100 milhas por hora",
+        "121 milhas por hora"
+      ],
+      "ancora": "delorean_dmc_12"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "id_existente": "volkswagen_fusca",
+        "nome": "Volkswagen Fusca",
+        "descricao": "Carro compacto de motor traseiro da Volkswagen, projetado na Alemanha nos anos trinta e conhecido mundialmente como Beetle.",
+        "variantes": [
+          "Fusca",
+          "Beetle",
+          "Käfer",
+          "Volkswagen Sedan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volkswagen_Beetle"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Na Alemanha, o Fusca ganhou o apelido de Käfer. Que bicho essa palavra alemã quer dizer?",
+      "resposta": "Besouro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volkswagen_Beetle"
+      ],
+      "distratores": [
+        "Tartaruga",
+        "Joaninha",
+        "Formiga"
+      ],
+      "ancora": "volkswagen_fusca"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "volkswagen_fusca",
+        "nome": "Volkswagen Fusca",
+        "descricao": "Carro compacto de motor traseiro da Volkswagen, projetado na Alemanha nos anos trinta e conhecido mundialmente como Beetle.",
+        "variantes": [
+          "Fusca",
+          "Beetle",
+          "Käfer",
+          "Volkswagen Sedan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volkswagen_Beetle"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 2003, depois de mais de vinte milhões de unidades, o último Fusca original saiu de uma fábrica em qual país?",
+      "resposta": "México",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volkswagen_Beetle"
+      ],
+      "distratores": [
+        "Brasil",
+        "Alemanha",
+        "Nigéria"
+      ],
+      "ancora": "volkswagen_fusca"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "volkswagen_fusca",
+        "nome": "Volkswagen Fusca",
+        "descricao": "Carro compacto de motor traseiro da Volkswagen, projetado na Alemanha nos anos trinta e conhecido mundialmente como Beetle.",
+        "variantes": [
+          "Fusca",
+          "Beetle",
+          "Käfer",
+          "Volkswagen Sedan"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Volkswagen_Fusca"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 1993, anos depois de sair de linha, o Fusca voltou a ser fabricado no Brasil a pedido de qual presidente?",
+      "resposta": "Itamar Franco",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Volkswagen_Fusca",
+        "https://en.wikipedia.org/wiki/Volkswagen_Beetle"
+      ],
+      "distratores": [
+        "Fernando Collor",
+        "José Sarney",
+        "Fernando Henrique Cardoso"
+      ],
+      "ancora": "volkswagen_fusca"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "chevrolet_opala",
+        "nome": "Chevrolet Opala",
+        "descricao": "Automóvel médio produzido pela General Motors do Brasil de 1968 a 1992, derivado do Opel Rekord.",
+        "variantes": [
+          "Opala"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Chevrolet_Opala"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Segundo a explicação mais difundida, o nome Opala junta o da marca alemã Opel com o de qual modelo americano da Chevrolet?",
+      "resposta": "Impala",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Chevrolet_Opala"
+      ],
+      "distratores": [
+        "Camaro",
+        "Bel Air",
+        "Malibu"
+      ],
+      "ancora": "chevrolet_opala"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "lamborghini",
+        "nome": "Lamborghini",
+        "descricao": "Fabricante italiana de carros esportivos fundada por Ferruccio Lamborghini em 1963.",
+        "variantes": [
+          "Automobili Lamborghini"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lamborghini"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Miura, Diablo e Murciélago são carros da Lamborghini. Esses nomes homenageiam o quê?",
+      "resposta": "Touros de tourada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lamborghini"
+      ],
+      "distratores": [
+        "Ventos da Itália",
+        "Cavalos de corrida",
+        "Personagens de ópera"
+      ],
+      "ancora": "lamborghini"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "metro_de_londres",
+        "nome": "Metrô de Londres",
+        "descricao": "Sistema de metrô de Londres, aberto em 1863 com a Metropolitan Railway.",
+        "variantes": [
+          "London Underground",
+          "The Tube"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/London_Underground"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em 1900, abriu em Londres uma linha de metrô apelidada de Twopenny Tube, pela tarifa baixa e pelos túneis cilíndricos. Qual linha era essa?",
+      "resposta": "Linha Central",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Metropolitano_de_Londres"
+      ],
+      "distratores": [
+        "Linha Northern",
+        "Linha Victoria",
+        "Linha District"
+      ],
+      "ancora": "metro_de_londres"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "cutty_sark",
+        "nome": "Cutty Sark",
+        "descricao": "Clíper britânico construído em 1869, preservado em Greenwich, Londres.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cutty_Sark"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O veleiro Cutty Sark leva o nome de uma camisola curta usada por uma bruxa num poema de qual escritor escocês?",
+      "resposta": "Robert Burns",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cutty_Sark"
+      ],
+      "distratores": [
+        "Walter Scott",
+        "Robert Louis Stevenson",
+        "Arthur Conan Doyle"
+      ],
+      "ancora": "cutty_sark"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "SOS",
+        "descricao": "Sinal internacional de socorro em código Morse, formado por três pontos, três traços e três pontos, adotado em 1906.",
+        "variantes": [
+          "S.O.S."
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/SOS"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Muita gente acha que o sinal de socorro SOS, usado por navios, é a abreviação de uma frase. Por que ele foi escolhido, na verdade?",
+      "resposta": "Simples em código Morse",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/SOS"
+      ],
+      "distratores": [
+        "Sigla de Save Our Souls",
+        "Sigla de Save Our Ship",
+        "Iniciais de um inventor"
+      ],
+      "ancora": "sos"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "uss_constitution",
+        "nome": "USS Constitution",
+        "descricao": "Fragata de madeira de três mastros da Marinha dos Estados Unidos, lançada em 1797 e apelidada de Old Ironsides.",
+        "variantes": [
+          "Old Ironsides"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/USS_Constitution"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A fragata americana USS Constitution é de madeira, mas ganhou o apelido de Old Ironsides, lados de ferro. Por quê?",
+      "resposta": "Balas de canhão ricocheteavam",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/USS_Constitution"
+      ],
+      "distratores": [
+        "Casco forrado de ferro",
+        "Canhões de ferro fundido",
+        "Âncoras de ferro"
+      ],
+      "ancora": "uss_constitution"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "id_existente": "modulo_lunar_apollo",
+        "nome": "Módulo lunar Apollo",
+        "descricao": "Nave de pouso de dois estágios do programa Apollo, que levou astronautas da órbita lunar à superfície da Lua.",
+        "variantes": [
+          "Apollo Lunar Module",
+          "LEM"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Apollo_Lunar_Module"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em 1969, o módulo lunar da Apollo 11, que pousou com Armstrong e Aldrin, foi batizado com o nome de uma ave. Qual?",
+      "resposta": "Eagle, a águia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Apollo_11"
+      ],
+      "distratores": [
+        "Falcon, o falcão",
+        "Hawk, o gavião",
+        "Raven, o corvo"
+      ],
+      "ancora": "modulo_lunar_apollo"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "tuk_tuk",
+        "nome": "Tuk-tuk",
+        "descricao": "Veículo motorizado de três rodas, em geral semiaberto, usado como táxi em países tropicais, sobretudo no sul da Ásia.",
+        "variantes": [
+          "Autorriquixá",
+          "Auto rickshaw"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Auto_rickshaw"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em vários países da Ásia, o triciclo motorizado usado como táxi é chamado de tuk-tuk. O que esse nome imita?",
+      "resposta": "O barulho do motor",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Auto_rickshaw"
+      ],
+      "distratores": [
+        "Uma dança tailandesa",
+        "O grito dos motoristas",
+        "Um deus hindu"
+      ],
+      "ancora": "tuk_tuk"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "toyota_corolla",
+        "nome": "Toyota Corolla",
+        "descricao": "Série de carros compactos da Toyota, produzida desde 1966.",
+        "variantes": [
+          "Corolla"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Toyota_Corolla"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Corona e Camry, nomes de carros da Toyota, vêm de palavras em latim e em japonês com o mesmo significado. Qual?",
+      "resposta": "Coroa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Toyota_Camry"
+      ],
+      "distratores": [
+        "Sol",
+        "Estrela",
+        "Montanha"
+      ],
+      "ancora": "toyota_corolla"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "id_existente": "shinkansen",
+        "nome": "Shinkansen",
+        "descricao": "Rede japonesa de trens de alta velocidade, inaugurada em 1964 e conhecida como trem-bala.",
+        "variantes": [
+          "Trem-bala japonês"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Shinkansen"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Para reduzir o estrondo na saída dos túneis, o nariz de uma série de trens-bala japoneses imitou o bico de qual ave?",
+      "resposta": "Martim-pescador",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/500_Series_Shinkansen"
+      ],
+      "distratores": [
+        "Garça",
+        "Pelicano",
+        "Tucano"
+      ],
+      "ancora": "shinkansen"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "canal_do_panama",
+        "nome": "Canal do Panamá",
+        "descricao": "Canal artificial que atravessa o istmo do Panamá e liga o oceano Atlântico ao Pacífico.",
+        "variantes": [
+          "Panama Canal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Panama_Canal"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Nos anos 1880, a primeira tentativa de abrir o Canal do Panamá foi liderada por um francês que já tinha construído qual outro canal famoso?",
+      "resposta": "Canal de Suez",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Panama_Canal",
+        "https://en.wikipedia.org/wiki/Ferdinand_de_Lesseps"
+      ],
+      "distratores": [
+        "Canal de Corinto",
+        "Canal de Kiel",
+        "Canal do Midi"
+      ],
+      "ancora": "canal_do_panama"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "irmaos_wright",
+        "nome": "Irmãos Wright",
+        "descricao": "Orville e Wilbur Wright, americanos pioneiros da aviação com o Wright Flyer em 1903.",
+        "variantes": [
+          "Wright Brothers",
+          "Orville e Wilbur Wright"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wright_Flyer"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 1969, pedaços de madeira e de tecido do avião de 1903 dos irmãos Wright foram levados até a Lua. Que astronauta os carregou?",
+      "resposta": "Neil Armstrong",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wright_Flyer"
+      ],
+      "distratores": [
+        "John Glenn",
+        "Alan Shepard",
+        "Yuri Gagarin"
+      ],
+      "ancora": "irmaos_wright"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "id_existente": "estacao_da_luz",
+        "nome": "Estação da Luz",
+        "descricao": "Estação ferroviária no bairro da Luz, em São Paulo, construída entre 1895 e 1901 para a São Paulo Railway.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Esta%C3%A7%C3%A3o_da_Luz"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Além de estação de trens, o prédio histórico da Estação da Luz, em São Paulo, abriga desde 2006 qual museu?",
+      "resposta": "Museu da Língua Portuguesa",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Museu_da_L%C3%ADngua_Portuguesa",
+        "https://pt.wikipedia.org/wiki/Esta%C3%A7%C3%A3o_da_Luz"
+      ],
+      "distratores": [
+        "Pinacoteca do Estado",
+        "Museu do Futebol",
+        "Museu do Ipiranga"
+      ],
+      "ancora": "estacao_da_luz"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "id_existente": "jangada",
+        "nome": "Jangada",
+        "descricao": "Embarcação de pesca de madeira, com vela triangular, típica do litoral do Nordeste do Brasil.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Jangada"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 1941, quatro jangadeiros cearenses navegaram de jangada até o Rio para levar reivindicações a Getúlio Vargas. Que cineasta americano foi filmar a história deles?",
+      "resposta": "Orson Welles",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/It%27s_All_True_(film)"
+      ],
+      "distratores": [
+        "Walt Disney",
+        "Alfred Hitchcock",
+        "John Ford"
+      ],
+      "ancora": "jangada"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "id_existente": "helicoptero",
+        "nome": "Helicóptero",
+        "descricao": "Aeronave de asas rotativas em que a sustentação e a propulsão vêm de rotores que giram na horizontal.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Helicopter"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que gênio do Renascimento desenhou um parafuso aéreo, máquina de voar considerada uma das precursoras do helicóptero?",
+      "resposta": "Leonardo da Vinci",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Helicopter"
+      ],
+      "distratores": [
+        "Michelangelo",
+        "Galileu Galilei",
+        "Rafael Sanzio"
+      ],
+      "ancora": "helicoptero"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "id_existente": "vespa",
+        "nome": "Vespa",
+        "descricao": "Marca italiana de scooters fabricados pela Piaggio, criada em 1946.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vespa"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em que filme de 1953 Audrey Hepburn e Gregory Peck passeiam pelas ruas de Roma numa Vespa?",
+      "resposta": "A Princesa e o Plebeu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Roman_Holiday",
+        "https://en.wikipedia.org/wiki/Vespa"
+      ],
+      "distratores": [
+        "Bonequinha de Luxo",
+        "Sabrina",
+        "A Doce Vida"
+      ],
+      "ancora": "vespa"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "id_existente": "isetta",
+        "nome": "Isetta",
+        "descricao": "Microcarro em formato de ovo com porta frontal, projetado na Itália pela Iso e produzido sob licença em vários países.",
+        "variantes": [
+          "BMW Isetta",
+          "Romi-Isetta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Isetta"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que montadora alemã, hoje famosa por carros de luxo, fabricou o microcarro Isetta e se apoiou nele para se recuperar no pós-guerra?",
+      "resposta": "BMW",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Isetta"
+      ],
+      "distratores": [
+        "Audi",
+        "Porsche",
+        "Opel"
+      ],
+      "ancora": "isetta"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "id_existente": "isetta",
+        "nome": "Isetta",
+        "descricao": "Microcarro em formato de ovo com porta frontal, projetado na Itália pela Iso e produzido sob licença em vários países.",
+        "variantes": [
+          "BMW Isetta",
+          "Romi-Isetta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Isetta"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Nos anos cinquenta, o microcarro Isetta também foi fabricado no Brasil, em Santa Bárbara d'Oeste. Que empresa o produziu?",
+      "resposta": "Indústrias Romi",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Romi-Isetta",
+        "https://en.wikipedia.org/wiki/Isetta"
+      ],
+      "distratores": [
+        "Vemag",
+        "Willys-Overland",
+        "Gurgel"
+      ],
+      "ancora": "isetta"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "aston_martin_db5",
+        "nome": "Aston Martin DB5",
+        "descricao": "Carro esportivo grã-turismo britânico fabricado pela Aston Martin de 1963 a 1965 e famoso por aparecer nos filmes de James Bond.",
+        "variantes": [
+          "DB5"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aston_Martin_DB5"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em que filme o Aston Martin DB5, com metralhadoras e assento ejetor, apareceu pela primeira vez como carro de James Bond?",
+      "resposta": "007 Contra Goldfinger",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aston_Martin_DB5"
+      ],
+      "distratores": [
+        "007 Contra Dr. No",
+        "Moscou Contra 007",
+        "Os Diamantes São Eternos"
+      ],
+      "ancora": "aston_martin_db5"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "id_existente": "porsche_911",
+        "nome": "Porsche 911",
+        "descricao": "Carro esportivo da fabricante alemã Porsche, produzido desde 1964, com motor traseiro.",
+        "variantes": [
+          "Porsche 901"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Porsche_911"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O Porsche 911 seria lançado como 901, mas mudou de nome porque outra montadora reivindicava os números de três algarismos com zero no meio. Qual?",
+      "resposta": "Peugeot",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Porsche_911"
+      ],
+      "distratores": [
+        "Renault",
+        "Citroën",
+        "Fiat"
+      ],
+      "ancora": "porsche_911"
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "id_existente": "hindenburg",
+        "nome": "Hindenburg",
+        "descricao": "Dirigível alemão de passageiros destruído por um incêndio em Lakehurst, nos Estados Unidos, em 1937.",
+        "variantes": [
+          "LZ 129 Hindenburg"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/LZ_129_Hindenburg"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O incêndio do Hindenburg, em 1937, foi filmado e transmitido pelo rádio. Que consequência ele teve para o transporte aéreo?",
+      "resposta": "Fim dos dirigíveis de passageiros",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Desastre_do_Hindenburg"
+      ],
+      "distratores": [
+        "Proibição de voos noturnos",
+        "Fim dos aviões a hélice",
+        "Proibição de voos transatlânticos"
+      ],
+      "ancora": "hindenburg"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "id_existente": "hindenburg",
+        "nome": "Hindenburg",
+        "descricao": "Dirigível alemão de passageiros destruído por um incêndio em Lakehurst, nos Estados Unidos, em 1937.",
+        "variantes": [
+          "LZ 129 Hindenburg"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/LZ_129_Hindenburg"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1936, o dirigível Hindenburg fez viagens à América do Sul. Qual cidade brasileira era o destino final desses voos?",
+      "resposta": "Rio de Janeiro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/LZ_129_Hindenburg"
+      ],
+      "distratores": [
+        "Salvador",
+        "Santos",
+        "Recife"
+      ],
+      "ancora": "hindenburg"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "motim_do_bounty",
+        "nome": "Motim do Bounty",
+        "descricao": "Rebelião de 1789 a bordo do navio britânico HMS Bounty, no Pacífico, liderada por Fletcher Christian contra o capitão William Bligh.",
+        "variantes": [
+          "HMS Bounty"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mutiny_on_the_Bounty"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O navio britânico Bounty, palco de um famoso motim, foi ao Taiti em missão de buscar mudas de qual planta para levar ao Caribe?",
+      "resposta": "Fruta-pão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mutiny_on_the_Bounty"
+      ],
+      "distratores": [
+        "Cana-de-açúcar",
+        "Baunilha",
+        "Café"
+      ],
+      "ancora": "motim_do_bounty"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "de_havilland_comet",
+        "nome": "de Havilland Comet",
+        "descricao": "Avião britânico da de Havilland, primeiro jato comercial de passageiros a entrar em serviço, em 1952.",
+        "variantes": [
+          "Comet"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/De_Havilland_Comet"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 1954, dois jatos Comet se partiram em pleno voo. Que problema, revelado pela investigação, mudou o projeto dos aviões a jato?",
+      "resposta": "Fadiga do metal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/De_Havilland_Comet"
+      ],
+      "distratores": [
+        "Bombas a bordo",
+        "Gelo nas asas",
+        "Raios em tempestades"
+      ],
+      "ancora": "de_havilland_comet"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "id_existente": "mini_mark_i",
+        "nome": "Mini Mark I",
+        "descricao": "Primeira versão do carro compacto Mini da British Motor Corporation, produzida a partir de 1959.",
+        "variantes": [
+          "Mini",
+          "Austin Mini",
+          "Morris Mini-Minor"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mini"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O Mini, lançado em 1959, foi encomendado como carro econômico depois de um racionamento de combustível causado por qual crise de 1956?",
+      "resposta": "Crise de Suez",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mini"
+      ],
+      "distratores": [
+        "Crise dos mísseis",
+        "Crise do petróleo",
+        "Crise de Berlim"
+      ],
+      "ancora": "mini_mark_i"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "id_existente": "airbus_a380",
+        "nome": "Airbus A380",
+        "descricao": "Avião de passageiros de grande porte e dois conveses completos, fabricado pela Airbus de 2003 a 2021.",
+        "variantes": [
+          "A380"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Airbus_A380"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O gigante Airbus A380 tinha peças feitas em vários países europeus. Em que cidade francesa ficava a sua montagem final?",
+      "resposta": "Toulouse",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Airbus_A380"
+      ],
+      "distratores": [
+        "Paris",
+        "Lyon",
+        "Marselha"
+      ],
+      "ancora": "airbus_a380"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "id_existente": "bleriot_xi",
+        "nome": "Blériot XI",
+        "descricao": "Monoplano francês pioneiro, usado por Louis Blériot na travessia do Canal da Mancha em 1909.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bl%C3%A9riot_XI"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1909, Louis Blériot cruzou de avião o Canal da Mancha, partindo da França. Perto de qual cidade inglesa ele pousou?",
+      "resposta": "Dover",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bl%C3%A9riot_XI"
+      ],
+      "distratores": [
+        "Brighton",
+        "Portsmouth",
+        "Southampton"
+      ],
+      "ancora": "bleriot_xi"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "id_existente": "rede_integrada_de_transporte",
+        "nome": "Rede Integrada de Transporte",
+        "descricao": "Sistema de ônibus de Curitiba com canaletas exclusivas e estações-tubo, referência mundial em corredores expressos.",
+        "variantes": [
+          "RIT",
+          "Ligeirinho"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rede_Integrada_de_Transporte"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto, prefeito de Curitiba em três mandatos, ficou ligado à criação das canaletas exclusivas e das estações-tubo de ônibus da cidade?",
+      "resposta": "Jaime Lerner",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jaime_Lerner",
+        "https://pt.wikipedia.org/wiki/Rede_Integrada_de_Transporte"
+      ],
+      "distratores": [
+        "Rafael Greca",
+        "Oscar Niemeyer",
+        "Lúcio Costa"
+      ],
+      "ancora": "rede_integrada_de_transporte"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "id_existente": "canal_de_suez",
+        "nome": "Canal de Suez",
+        "descricao": "Canal artificial no Egito que liga o mar Mediterrâneo ao mar Vermelho.",
+        "variantes": [
+          "Suez Canal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Suez_Canal"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "O Canal de Suez liga dois mares no mesmo nível e não precisa das estruturas que sobem e descem os navios no Canal do Panamá. Como elas se chamam?",
+      "resposta": "Eclusas",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Canal_de_Suez"
+      ],
+      "distratores": [
+        "Faróis",
+        "Pontes levadiças",
+        "Quebra-mares"
+      ],
+      "ancora": "canal_de_suez"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "id_existente": "cinto_de_seguranca_de_tres_pontos",
+        "nome": "Cinto de segurança de três pontos",
+        "descricao": "Cinto de segurança que prende o tronco e o quadril, introduzido pela Volvo em 1959.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Seat_belt"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "A Volvo patenteou o cinto de segurança de três pontos, criado em 1959. O que a empresa decidiu fazer com essa patente?",
+      "resposta": "Liberou o uso gratuito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nils_Bohlin",
+        "https://en.wikipedia.org/wiki/Seat_belt"
+      ],
+      "distratores": [
+        "Vendeu à Ford",
+        "Manteve a exclusividade",
+        "Doou ao governo sueco"
+      ],
+      "ancora": "cinto_de_seguranca_de_tres_pontos"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "sos",
+      "nome": "SOS",
+      "descricao": "Sinal internacional de socorro em código Morse, formado por três pontos, três traços e três pontos, adotado em 1906.",
+      "variantes": [
+        "S.O.S."
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/SOS"
+      ]
+    }
+  ],
+  "variantes": {
+    "rms_titanic": [
+      "RMS Titanic",
+      "Titanic"
+    ],
+    "concorde": [
+      "Concorde"
+    ],
+    "14_bis": [
+      "14-bis",
+      "Quatorze Bis",
+      "Oiseau de Proie"
+    ],
+    "ford_modelo_t": [
+      "Ford Modelo T",
+      "Ford Model T",
+      "Ford Bigode"
+    ],
+    "guia_michelin": [
+      "Guia Michelin",
+      "Michelin Guide"
+    ],
+    "mayday": [
+      "Mayday"
+    ],
+    "onibus_espacial": [
+      "Ônibus espacial",
+      "Space Shuttle"
+    ],
+    "jipe_lunar": [
+      "Jipe lunar",
+      "Lunar Roving Vehicle",
+      "LRV"
+    ],
+    "linha_de_montagem_de_henry_ford": [
+      "Linha de montagem de Henry Ford",
+      "Linha de montagem móvel"
+    ],
+    "delorean_dmc_12": [
+      "DeLorean DMC-12",
+      "DeLorean"
+    ],
+    "volkswagen_fusca": [
+      "Volkswagen Fusca",
+      "Fusca",
+      "Beetle",
+      "Käfer",
+      "Volkswagen Sedan"
+    ],
+    "chevrolet_opala": [
+      "Chevrolet Opala",
+      "Opala"
+    ],
+    "lamborghini": [
+      "Lamborghini",
+      "Automobili Lamborghini"
+    ],
+    "metro_de_londres": [
+      "Metrô de Londres",
+      "London Underground",
+      "The Tube"
+    ],
+    "cutty_sark": [
+      "Cutty Sark"
+    ],
+    "uss_constitution": [
+      "USS Constitution",
+      "Old Ironsides"
+    ],
+    "modulo_lunar_apollo": [
+      "Módulo lunar Apollo",
+      "Apollo Lunar Module",
+      "LEM"
+    ],
+    "tuk_tuk": [
+      "Tuk-tuk",
+      "Autorriquixá",
+      "Auto rickshaw"
+    ],
+    "toyota_corolla": [
+      "Toyota Corolla",
+      "Corolla"
+    ],
+    "shinkansen": [
+      "Shinkansen",
+      "Trem-bala japonês"
+    ],
+    "canal_do_panama": [
+      "Canal do Panamá",
+      "Panama Canal"
+    ],
+    "irmaos_wright": [
+      "Irmãos Wright",
+      "Wright Brothers",
+      "Orville e Wilbur Wright"
+    ],
+    "estacao_da_luz": [
+      "Estação da Luz"
+    ],
+    "jangada": [
+      "Jangada"
+    ],
+    "helicoptero": [
+      "Helicóptero"
+    ],
+    "vespa": [
+      "Vespa"
+    ],
+    "isetta": [
+      "Isetta",
+      "BMW Isetta",
+      "Romi-Isetta"
+    ],
+    "aston_martin_db5": [
+      "Aston Martin DB5",
+      "DB5"
+    ],
+    "porsche_911": [
+      "Porsche 911",
+      "Porsche 901"
+    ],
+    "vasa": [
+      "Vasa",
+      "Wasa"
+    ],
+    "hindenburg": [
+      "Hindenburg",
+      "LZ 129 Hindenburg"
+    ],
+    "motim_do_bounty": [
+      "Motim do Bounty",
+      "HMS Bounty"
+    ],
+    "de_havilland_comet": [
+      "de Havilland Comet",
+      "Comet"
+    ],
+    "mini_mark_i": [
+      "Mini Mark I",
+      "Mini",
+      "Austin Mini",
+      "Morris Mini-Minor"
+    ],
+    "airbus_a380": [
+      "Airbus A380",
+      "A380"
+    ],
+    "bleriot_xi": [
+      "Blériot XI"
+    ],
+    "rede_integrada_de_transporte": [
+      "Rede Integrada de Transporte",
+      "RIT",
+      "Ligeirinho"
+    ],
+    "canal_de_suez": [
+      "Canal de Suez",
+      "Suez Canal"
+    ],
+    "cinto_de_seguranca_de_tres_pontos": [
+      "Cinto de segurança de três pontos"
+    ],
+    "motor_a_diesel": [
+      "Motor a diesel",
+      "Motor diesel"
+    ],
+    "mercedes_benz": [
+      "Mercedes-Benz",
+      "Mercedes"
+    ],
+    "volkswagen_passat": [
+      "Volkswagen Passat",
+      "Passat"
+    ]
+  }
+}

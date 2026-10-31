@@ -1,0 +1,197 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Mercedes-Benz",
+        "descricao": "Marca alemã de automóveis criada em 1926 com a fusão da Daimler e da Benz, famosa pela estrela de três pontas.",
+        "variantes": [
+          "Mercedes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mercedes_benz",
+          "nome": "Mercedes-Benz",
+          "descricao": "Marca alemã de automóveis cujo nome Mercedes surgiu nos carros da Daimler no início do século vinte.",
+          "variantes": [
+            "Mercedes"
+          ]
+        },
+        {
+          "id": "mercedes_benz_w196",
+          "nome": "Mercedes-Benz W196",
+          "descricao": "Carro de Fórmula 1 da Mercedes-Benz usado em 1954 e 1955, pilotado por Fangio e Stirling Moss.",
+          "variantes": [
+            "W196",
+            "Mercedes W196"
+          ]
+        },
+        {
+          "id": "mercedes_w11",
+          "nome": "Mercedes W11",
+          "descricao": "Carro de Fórmula 1 da Mercedes na temporada de 2020, pintado de preto, com o qual Lewis Hamilton foi campeão.",
+          "variantes": [
+            "Mercedes-AMG F1 W11 EQ Performance"
+          ]
+        },
+        {
+          "id": "mercedes_benz_classe_g",
+          "nome": "Mercedes-Benz Classe G",
+          "descricao": "Utilitário esportivo de tração nas quatro rodas da Mercedes-Benz, de linhas retas, produzido desde 1979.",
+          "variantes": [
+            "G-Wagen",
+            "Mercedes Classe G",
+            "Geländewagen"
+          ]
+        },
+        {
+          "id": "arquimedes",
+          "nome": "Arquimedes",
+          "descricao": "Matemático, físico e inventor grego de Siracusa, do século três antes de Cristo, autor do princípio do empuxo.",
+          "variantes": [
+            "Arquimedes de Siracusa",
+            "Archimedes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "SOS",
+        "descricao": "Sinal internacional de socorro em código Morse, formado por três pontos, três traços e três pontos, adotado em 1906.",
+        "variantes": [
+          "S.O.S."
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "wobbuffet",
+          "nome": "Wobbuffet",
+          "descricao": "Pokémon do tipo Psíquico, número 202 da Pokédex Nacional.",
+          "variantes": [
+            "Sonans",
+            "Sōnansu"
+          ]
+        },
+        {
+          "id": "estacao_espacial_internacional",
+          "nome": "Estação Espacial Internacional",
+          "descricao": "Laboratório espacial habitado em órbita baixa da Terra, construído por várias agências espaciais.",
+          "variantes": [
+            "ISS",
+            "EEI",
+            "International Space Station"
+          ]
+        },
+        {
+          "id": "sol",
+          "nome": "Sol",
+          "descricao": "Estrela no centro do Sistema Solar.",
+          "variantes": [
+            "O Sol",
+            "Sun"
+          ]
+        },
+        {
+          "id": "lesbos",
+          "nome": "Lesbos",
+          "descricao": "Ilha grega no nordeste do mar Egeu, perto da costa da Turquia.",
+          "variantes": [
+            "Lesvos",
+            "Lesbos Island"
+          ]
+        },
+        {
+          "id": "onibus_espacial",
+          "nome": "Ônibus espacial",
+          "descricao": "Sistema espacial parcialmente reutilizável da NASA, operado de 1981 a 2011.",
+          "variantes": [
+            "Space Shuttle",
+            "Space Transportation System",
+            "STS",
+            "Shuttle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Volkswagen Passat",
+        "descricao": "Sedã médio da Volkswagen lançado em 1973, também fabricado no Brasil entre 1974 e 1988.",
+        "variantes": [
+          "Passat"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "volkswagen_passat",
+          "nome": "Volkswagen Passat",
+          "descricao": "Modelo de automóvel da Volkswagen lançado em 1973",
+          "variantes": [
+            "Passat"
+          ]
+        },
+        {
+          "id": "uva_passa",
+          "nome": "Uva-passa",
+          "descricao": "Uva desidratada, usada em bolos, farofas e na ceia de Natal.",
+          "variantes": [
+            "Passa",
+            "Raisin"
+          ]
+        },
+        {
+          "id": "volkswagen_1600_ze_do_caixao",
+          "nome": "Volkswagen 1600 (Zé do Caixão)",
+          "descricao": "Sedã de quatro portas da Volkswagen com motor traseiro refrigerado a ar, lançado no Brasil em 1968 e baseado na mecânica do Fusca.",
+          "variantes": [
+            "Volkswagen Variant",
+            "Volkswagen 1600 sedã",
+            "Zé do Caixão",
+            "VW 1600"
+          ]
+        },
+        {
+          "id": "volkswagen_brasilia",
+          "nome": "Volkswagen Brasília",
+          "descricao": "Carro familiar compacto com motor traseiro da Volkswagen do Brasil, fabricado de 1973 a 1982.",
+          "variantes": [
+            "Brasília",
+            "VW Brasília"
+          ]
+        },
+        {
+          "id": "volkswagen_sp2",
+          "nome": "Volkswagen SP2",
+          "descricao": "Esportivo fabricado pela Volkswagen do Brasil de 1972 a 1975, baseado no chassi do Volkswagen Tipo 3.",
+          "variantes": [
+            "SP2",
+            "VW SP2"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "mercedes_benz",
+      "motivo": "Ambas são a marca alemã de automóveis Mercedes-Benz."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O sinal de socorro SOS não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "volkswagen_passat",
+      "motivo": "Ambas são o modelo Volkswagen Passat lançado em 1973."
+    }
+  ]
+}
