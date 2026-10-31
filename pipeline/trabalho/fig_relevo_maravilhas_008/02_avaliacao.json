@@ -1,0 +1,178 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Vista aérea de áreas alagadas e ilhas de vegetação; sem elemento que permita reconhecer o Okavango e não o distinguir de outros pantanais."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Lago com manchas circulares muito característico, sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este lago de manchas?",
+      "resposta": "Canadá",
+      "distratores": [
+        "Estados Unidos",
+        "Bolívia",
+        "Austrália"
+      ],
+      "ancora": {
+        "nome": "Spotted Lake",
+        "descricao": "Lago salino de manchas circulares no vale do Similkameen, perto de Osoyoos, na Colúmbia Britânica.",
+        "variantes": [
+          "Lago Manchado",
+          "Lake Khiluk",
+          "Kłlil’xw"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Erupção de gêiser em paisagem verde islandesa, com turistas pequenos ao fundo; sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este gêiser em erupção?",
+      "resposta": "Islândia",
+      "distratores": [
+        "Nova Zelândia",
+        "Estados Unidos",
+        "Chile"
+      ],
+      "ancora": {
+        "nome": "Strokkur",
+        "descricao": "Gêiser de erupção frequente na área geotérmica de Haukadalur, no sudoeste da Islândia.",
+        "variantes": [
+          "Strokkur Geyser"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Mostra apenas uma barragem e o rio largo; as Portas de Ferro (desfiladeiro) não são reconhecíveis pela imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Morro coberto de mata sem traço distintivo; não permite reconhecer o Monte Pascoal, e a pergunta histórica seria respondida sem a imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cachoeira larga de água acinzentada em cânion basáltico, característica de Dettifoss; sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "De que geleira vem a água do rio que forma esta cachoeira?",
+      "resposta": "Vatnajökull",
+      "distratores": [
+        "Langjökull",
+        "Mýrdalsjökull",
+        "Snæfellsjökull"
+      ],
+      "ancora": {
+        "nome": "Dettifoss",
+        "descricao": "Cachoeira de água acinzentada no rio Jökulsá á Fjöllum, no Parque Nacional Vatnajökull, nordeste da Islândia.",
+        "variantes": [
+          "Dettifoss Falls"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Montanha rochosa de deserto genérica, com pessoa; não é reconhecível como o Monte Sinai e poderia ser outra montanha árida."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cone vulcânico isolado com o cone secundário Fanthams Peak, bem reconhecível; sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este vulcão adormecido da Nova Zelândia também é conhecido por qual nome europeu?",
+      "resposta": "Monte Egmont",
+      "distratores": [
+        "Monte Cook",
+        "Monte Ruapehu",
+        "Monte Tasman"
+      ],
+      "ancora": {
+        "nome": "Monte Taranaki",
+        "descricao": "Estratovulcão adormecido na costa oeste da Ilha Norte da Nova Zelândia.",
+        "variantes": [
+          "Taranaki Maunga",
+          "Monte Egmont",
+          "Mount Taranaki"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com a forma característica do lago e o St. Lawrence a leste; sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que lago é este, visto do espaço?",
+      "resposta": "Lago Ontário",
+      "distratores": [
+        "Lago Erie",
+        "Lago Huron",
+        "Lago Michigan"
+      ],
+      "ancora": {
+        "nome": "Lago Ontário",
+        "descricao": "O menor dos cinco Grandes Lagos da América do Norte, entre o Canadá e os Estados Unidos.",
+        "variantes": [
+          "Lake Ontario"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Domos vermelhos de Kata Tjuta no deserto australiano, sem texto nem pessoas.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país ficam estas rochas arredondadas?",
+      "resposta": "Austrália",
+      "distratores": [
+        "Estados Unidos",
+        "Namíbia",
+        "Marrocos"
+      ],
+      "ancora": {
+        "nome": "Kata Tjuta",
+        "descricao": "Conjunto de 36 domos rochosos de conglomerado no Território do Norte, Austrália, perto de Uluru.",
+        "variantes": [
+          "Monte Olga",
+          "The Olgas",
+          "Kata Tjuṯa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Dunas e rochas erodidas genéricas de deserto; não permitem identificar o Vale da Lua com segurança."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Interior de caverna de gelo com pessoa em destaque; sem elemento que distinga a Eisriesenwelt de outras cavernas de gelo."
+    }
+  ]
+}

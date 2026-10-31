@@ -1,0 +1,62 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Lago de manchas\" é tradução direta de Spotted Lake e quase nomeia a entidade. O fato (Canadá) está nos trechos. Basta tirar a pista do nome.",
+      "reescrita": {
+        "pergunta": "Em que país fica este lago salino?",
+        "resposta": "Canadá",
+        "distratores": [
+          "Estados Unidos",
+          "Bolívia",
+          "Austrália"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Islândia está nos trechos. O enunciado não entrega a resposta, e gêiseres existem em vários países, então a figura é necessária. Os distratores são críveis e do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o Jökulsá á Fjöllum flui da geleira Vatnajökull. O enunciado não nomeia a cachoeira nem a geleira, e os distratores são geleiras islandesas incorretas.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o Monte Taranaki também é conhecido como Monte Egmont e que é um estratovulcão adormecido. A figura é necessária para identificar qual vulcão neozelandês é. Os distratores são do mesmo tipo e não são nomes alternativos do Taranaki.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "\"Visto do espaço\" afirma algo sobre a foto que `mostra` não confirma, então pode ser falso para esta imagem. A pergunta é reescrita sem essa afirmação e com o contexto de Grande Lago.",
+      "reescrita": {
+        "pergunta": "Que Grande Lago norte-americano é este?",
+        "resposta": "Lago Ontário",
+        "distratores": [
+          "Lago Erie",
+          "Lago Huron",
+          "Lago Michigan"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos situam o Kata Tjuta no Território do Norte, na Austrália. O enunciado não entrega a resposta, e os distratores são países de formações rochosas famosas, mas incorretos.",
+      "reescrita": null
+    }
+  ]
+}

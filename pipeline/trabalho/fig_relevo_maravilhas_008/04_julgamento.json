@@ -1,0 +1,361 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Spotted Lake",
+        "descricao": "Lago salino de manchas circulares no vale do Similkameen, perto de Osoyoos, na Colúmbia Britânica.",
+        "variantes": [
+          "Lago Manchado",
+          "Lake Khiluk",
+          "Kłlil’xw"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lago_chade",
+          "nome": "Lago Chade",
+          "descricao": "Lago de água doce no centro-oeste da África, na junção de Nigéria, Níger, Chade e Camarões, que encolheu muito desde 1960.",
+          "variantes": [
+            "Lago Tchad",
+            "Lake Chad"
+          ]
+        },
+        {
+          "id": "lago_de_genebra",
+          "nome": "Lago de Genebra",
+          "descricao": "Grande lago alpino na fronteira entre a Suíça e a França, às margens do qual fica a cidade de Genebra.",
+          "variantes": [
+            "Lago Léman",
+            "Lago Lemano",
+            "Lake Geneva",
+            "Lac Léman"
+          ]
+        },
+        {
+          "id": "lago_maracaibo",
+          "nome": "Lago Maracaibo",
+          "descricao": "Grande corpo d'água salobra no noroeste da Venezuela, ligado ao mar do Caribe.",
+          "variantes": [
+            "Lake Maracaibo"
+          ]
+        },
+        {
+          "id": "canal_da_mancha",
+          "nome": "Canal da Mancha",
+          "descricao": "Braço do oceano Atlântico que separa a Inglaterra do norte da França.",
+          "variantes": [
+            "English Channel",
+            "La Manche"
+          ]
+        },
+        {
+          "id": "hiena_malhada",
+          "nome": "Hiena-malhada",
+          "descricao": "Maior hiena atual, de pelagem manchada, da África subsaariana (Crocuta crocuta).",
+          "variantes": [
+            "Crocuta crocuta",
+            "Hiena-pintada",
+            "Hiena-risonha",
+            "Spotted hyena"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Strokkur",
+        "descricao": "Gêiser de erupção frequente na área geotérmica de Haukadalur, no sudoeste da Islândia.",
+        "variantes": [
+          "Strokkur Geyser"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "geysir",
+          "nome": "Geysir",
+          "descricao": "Fonte termal eruptiva no sudoeste da Islândia que deu nome a todos os gêiseres.",
+          "variantes": [
+            "Grande Geysir",
+            "Gêiser",
+            "Great Geysir",
+            "Gêiser de Haukadalur",
+            "Stóri Geysir"
+          ]
+        },
+        {
+          "id": "astronauta",
+          "nome": "Astronauta",
+          "descricao": "Astronauta Pereira, herói espacial brasileiro da Turma da Mônica, de Mauricio de Sousa.",
+          "variantes": [
+            "Astronauta (Turma da Mônica)",
+            "Astronauta Pereira",
+            "Astro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Dettifoss",
+        "descricao": "Cachoeira de água acinzentada no rio Jökulsá á Fjöllum, no Parque Nacional Vatnajökull, nordeste da Islândia.",
+        "variantes": [
+          "Dettifoss Falls"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oraculo_de_delfos",
+          "nome": "Oráculo de Delfos",
+          "descricao": "Santuário de Apolo em Delfos, na Grécia, onde a sacerdotisa Pítia dava respostas proféticas.",
+          "variantes": [
+            "Pítia",
+            "Delphi Oracle",
+            "Delfos",
+            "Oráculo de Delphi"
+          ]
+        },
+        {
+          "id": "delfos",
+          "nome": "Delfos",
+          "descricao": "Antigo santuário grego na encosta do monte Parnaso, sede do oráculo da Pítia e do templo de Apolo.",
+          "variantes": [
+            "Delphi",
+            "Santuário de Delfos",
+            "Oráculo de Delfos"
+          ]
+        },
+        {
+          "id": "deimos",
+          "nome": "Deimos",
+          "descricao": "A menor e mais externa das duas luas naturais de Marte.",
+          "variantes": [
+            "Deimos (satélite)"
+          ]
+        },
+        {
+          "id": "meditacoes_marco_aurelio",
+          "nome": "Meditações (Marco Aurélio)",
+          "descricao": "Série de anotações pessoais de filosofia estoica escritas pelo imperador Marco Aurélio.",
+          "variantes": [
+            "Meditações",
+            "Meditations",
+            "Ta eis heauton",
+            "Meditações de Marco Aurélio"
+          ]
+        },
+        {
+          "id": "dian_fossey",
+          "nome": "Dian Fossey",
+          "descricao": "Primatóloga e conservacionista americana que estudou os gorilas-da-montanha em Ruanda.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Monte Taranaki",
+        "descricao": "Estratovulcão adormecido na costa oeste da Ilha Norte da Nova Zelândia.",
+        "variantes": [
+          "Taranaki Maunga",
+          "Monte Egmont",
+          "Mount Taranaki"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vulcao_mayon",
+          "nome": "Vulcão Mayon",
+          "descricao": "Estratovulcão ativo na província de Albay, nas Filipinas, famoso pelo cone simétrico.",
+          "variantes": [
+            "Monte Mayon",
+            "Mayon"
+          ]
+        },
+        {
+          "id": "monte_ararat",
+          "nome": "Monte Ararat",
+          "descricao": "Vulcão adormecido no leste da Turquia, perto das fronteiras com a Armênia e o Irã.",
+          "variantes": [
+            "Ararat",
+            "Ağrı Dağı",
+            "Mount Ararat"
+          ]
+        },
+        {
+          "id": "monte_etna",
+          "nome": "Monte Etna",
+          "descricao": "Vulcão ativo da costa leste da Sicília, na Itália.",
+          "variantes": [
+            "Etna",
+            "Mount Etna",
+            "Mongibello"
+          ]
+        },
+        {
+          "id": "monte_tambora",
+          "nome": "Monte Tambora",
+          "descricao": "Vulcão na ilha de Sumbawa, na Indonésia, cuja erupção de 1815 foi a maior da história registrada.",
+          "variantes": [
+            "Tambora",
+            "Mount Tambora"
+          ]
+        },
+        {
+          "id": "monte_caburai",
+          "nome": "Monte Caburaí",
+          "descricao": "Monte em Roraima, na fronteira com a Guiana, ponto extremo norte do Brasil.",
+          "variantes": [
+            "Caburaí"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Lago Ontário",
+        "descricao": "O menor dos cinco Grandes Lagos da América do Norte, entre o Canadá e os Estados Unidos.",
+        "variantes": [
+          "Lake Ontario"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "akebono",
+          "nome": "Akebono",
+          "descricao": "Lutador de sumô nascido nos Estados Unidos, primeiro yokozuna nascido fora do Japão, em 1993.",
+          "variantes": [
+            "Akebono Tarō",
+            "Chad Rowan"
+          ]
+        },
+        {
+          "id": "leonardo_da_vinci",
+          "nome": "Leonardo da Vinci",
+          "descricao": "Pintor, inventor e cientista renascentista italiano, autor da Mona Lisa e de A Última Ceia, que viveu de 1452 a 1519.",
+          "variantes": [
+            "Leonardo",
+            "Da Vinci",
+            "Leonardo di ser Piero da Vinci"
+          ]
+        },
+        {
+          "id": "leonardo",
+          "nome": "Leonardo",
+          "descricao": "Cantor sertanejo brasileiro, ex-integrante da dupla Leandro & Leonardo.",
+          "variantes": [
+            "Emival Eterno da Costa"
+          ]
+        },
+        {
+          "id": "lago_nasser",
+          "nome": "Lago Nasser",
+          "descricao": "Lago artificial no rio Nilo, entre o Egito e o Sudão, formado pela represa alta de Assuã.",
+          "variantes": [
+            "Lake Nasser",
+            "Lago Nasser-Núbia"
+          ]
+        },
+        {
+          "id": "lago_vostok",
+          "nome": "Lago Vostok",
+          "descricao": "Lago subglacial sob o manto de gelo da Antártida Oriental, abaixo da estação russa Vostok.",
+          "variantes": [
+            "Lake Vostok"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Kata Tjuta",
+        "descricao": "Conjunto de 36 domos rochosos de conglomerado no Território do Norte, Austrália, perto de Uluru.",
+        "variantes": [
+          "Monte Olga",
+          "The Olgas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mt_moon",
+          "nome": "Mt. Moon",
+          "descricao": "Montanha com cavernas entre Pewter e Cerulean, em Kanto, nos jogos Pokémon Red e Blue, famosa pelos Clefairy e pelos fósseis.",
+          "variantes": [
+            "Monte Lua",
+            "Mount Moon"
+          ]
+        },
+        {
+          "id": "monte_alban",
+          "nome": "Monte Albán",
+          "descricao": "Sítio arqueológico zapoteca no vale de Oaxaca, México.",
+          "variantes": []
+        },
+        {
+          "id": "o_cao_goya",
+          "nome": "O Cão (Goya)",
+          "descricao": "Pintura negra de Francisco de Goya, no Museu do Prado, com a cabeça de um cão olhando para cima.",
+          "variantes": [
+            "El Perro",
+            "The Dog",
+            "Cão semi-submerso"
+          ]
+        },
+        {
+          "id": "monte_olimpo",
+          "nome": "Monte Olimpo",
+          "descricao": "Enorme vulcão-escudo marciano, um dos maiores vulcões conhecidos do Sistema Solar.",
+          "variantes": [
+            "Olympus Mons"
+          ]
+        },
+        {
+          "id": "monte_olimpo_2",
+          "nome": "Monte Olimpo",
+          "descricao": "Montanha mais alta da Grécia, considerada pelos gregos antigos a morada dos deuses olímpicos.",
+          "variantes": [
+            "Olimpo",
+            "Mount Olympus"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Spotted Lake é um lago na Colúmbia Britânica; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Strokkur é um gêiser distinto de Geysir, embora na mesma área."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Dettifoss é uma cachoeira na Islândia; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Monte Taranaki é um vulcão da Nova Zelândia; nenhuma candidata é o mesmo."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Lago Ontário não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Kata Tjuta é um conjunto de domos na Austrália; nenhuma candidata corresponde."
+    }
+  ]
+}
