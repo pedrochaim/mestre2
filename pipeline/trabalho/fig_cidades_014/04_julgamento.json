@@ -1,0 +1,703 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ilha de Alcatraz",
+        "descricao": "Ilha na baía de São Francisco, Califórnia, sede de uma antiga prisão federal.",
+        "variantes": [
+          "Alcatraz",
+          "Alcatraz Island"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_de_alcatraz",
+          "nome": "Ilha de Alcatraz",
+          "descricao": "Ilha na baía de São Francisco, na Califórnia, que abrigou uma prisão federal de segurança máxima.",
+          "variantes": [
+            "Alcatraz",
+            "Alcatraz Island"
+          ]
+        },
+        {
+          "id": "ilha_de_calor",
+          "nome": "Ilha de calor",
+          "descricao": "Fenômeno em que áreas urbanas ficam mais quentes que o campo ao redor",
+          "variantes": [
+            "Ilha de calor urbana",
+            "Urban heat island"
+          ]
+        },
+        {
+          "id": "malta_2",
+          "nome": "Malta",
+          "descricao": "A maior e mais populosa ilha do arquipélago maltês, no Mediterrâneo, ao sul da Itália.",
+          "variantes": [
+            "Ilha de Malta"
+          ]
+        },
+        {
+          "id": "akala",
+          "nome": "Akala",
+          "descricao": "Segunda ilha da região de Alola, nos jogos Pokémon Sun e Moon, comandada pela kahuna Olivia.",
+          "variantes": [
+            "Ilha Akala",
+            "Akala Island"
+          ]
+        },
+        {
+          "id": "ilha_de_pascoa",
+          "nome": "Ilha de Páscoa",
+          "descricao": "Ilha chilena isolada no Pacífico Sul, famosa pelas estátuas moai.",
+          "variantes": [
+            "Rapa Nui",
+            "Easter Island",
+            "Isla de Pascua"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Santuário de Itsukushima",
+        "descricao": "Santuário xintoísta na ilha de Miyajima, no Japão, famoso pelo torii que parece flutuar no mar.",
+        "variantes": [
+          "Itsukushima",
+          "Miyajima",
+          "Torii de Miyajima"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santuario_de_itsukushima",
+          "nome": "Santuário de Itsukushima",
+          "descricao": "Santuário xintoísta na ilha de Miyajima, no Japão, famoso pelo grande portal torii erguido sobre o mar.",
+          "variantes": [
+            "Itsukushima-jinja",
+            "Miyajima"
+          ]
+        },
+        {
+          "id": "torii",
+          "nome": "Torii",
+          "descricao": "Portal tradicional japonês na entrada de santuários xintoístas, aqui o torii flutuante de Itsukushima.",
+          "variantes": [
+            "Portal torii",
+            "Torii de Itsukushima"
+          ]
+        },
+        {
+          "id": "santuario_de_fatima",
+          "nome": "Santuário de Fátima",
+          "descricao": "Conjunto de edifícios católicos em Fátima, Portugal, dedicado às aparições marianas de 1917.",
+          "variantes": [
+            "Santuário de Nossa Senhora de Fátima",
+            "Cova da Iria"
+          ]
+        },
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        },
+        {
+          "id": "makima",
+          "nome": "Makima",
+          "descricao": "Caçadora de demônios da Segurança Pública e principal antagonista de Chainsaw Man.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Teatro Colón",
+        "descricao": "Casa de ópera de Buenos Aires, inaugurada em 1908.",
+        "variantes": [
+          "Colón Theatre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teatro_colon",
+          "nome": "Teatro Colón",
+          "descricao": "Casa de ópera de Buenos Aires, inaugurada em 1908 e famosa pela acústica.",
+          "variantes": []
+        },
+        {
+          "id": "teatro_bolshoi",
+          "nome": "Teatro Bolshoi",
+          "descricao": "Teatro histórico de ópera e balé em Moscou, sede da companhia Bolshoi.",
+          "variantes": [
+            "Bolshoi Theatre",
+            "Teatro Bolchoi"
+          ]
+        },
+        {
+          "id": "teatro_globe",
+          "nome": "Teatro Globe",
+          "descricao": "Teatro elisabetano de Londres, construído em 1599, onde a companhia de Shakespeare se apresentava.",
+          "variantes": [
+            "Globe Theatre",
+            "The Globe",
+            "Shakespeare's Globe"
+          ]
+        },
+        {
+          "id": "teatro_no",
+          "nome": "Teatro nô",
+          "descricao": "Forma clássica de teatro musical japonês, com atores mascarados e movimentos lentos, desenvolvida por Kan'ami e Zeami.",
+          "variantes": [
+            "Nô",
+            "Noh",
+            "Nō"
+          ]
+        },
+        {
+          "id": "teatro_amazonas",
+          "nome": "Teatro Amazonas",
+          "descricao": "Casa de ópera de Manaus inaugurada em 1896.",
+          "variantes": [
+            "Amazon Theatre",
+            "Teatro Amazonas de Manaus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "London Eye",
+        "descricao": "Roda-gigante de observação à margem do Tâmisa, em Londres.",
+        "variantes": [
+          "Millennium Wheel",
+          "Roda do Milênio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "london_eye",
+          "nome": "London Eye",
+          "descricao": "Roda-gigante de observação à margem sul do rio Tâmisa, em Londres, inaugurada na virada do milênio.",
+          "variantes": [
+            "Millennium Wheel",
+            "Roda do Milênio"
+          ]
+        },
+        {
+          "id": "nyepi",
+          "nome": "Nyepi",
+          "descricao": "Ano-novo hindu balinês, dia de silêncio, jejum e meditação na ilha de Bali, na Indonésia.",
+          "variantes": [
+            "Dia do Silêncio"
+          ]
+        },
+        {
+          "id": "the_o2_arena",
+          "nome": "The O2 Arena",
+          "descricao": "Arena coberta na Península de Greenwich, em Londres, instalada no antigo Millennium Dome.",
+          "variantes": [
+            "The O2",
+            "O2 Arena",
+            "Millennium Dome"
+          ]
+        },
+        {
+          "id": "bug_do_milenio",
+          "nome": "Bug do milênio",
+          "descricao": "Problema de software temido na virada de 1999 para 2000, ligado ao modo como os sistemas registravam o ano.",
+          "variantes": [
+            "Problema do ano 2000",
+            "Y2K"
+          ]
+        },
+        {
+          "id": "londres",
+          "nome": "Londres",
+          "descricao": "Capital da Inglaterra e do Reino Unido, às margens do rio Tâmisa.",
+          "variantes": [
+            "London"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Panteão de Roma",
+        "descricao": "Antigo templo romano com grande cúpula, hoje basílica, em Roma.",
+        "variantes": [
+          "Pantheon",
+          "Panteão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "panteao_de_roma",
+          "nome": "Panteão de Roma",
+          "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+          "variantes": [
+            "Panteão",
+            "Pantheon",
+            "Pantheon, Rome"
+          ]
+        },
+        {
+          "id": "panteao_de_paris",
+          "nome": "Panteão de Paris",
+          "descricao": "Edifício neoclássico no Quartier Latin, em Paris, que guarda os restos de grandes personalidades francesas.",
+          "variantes": [
+            "Panthéon",
+            "Panteão"
+          ]
+        },
+        {
+          "id": "pantano",
+          "nome": "Pântano",
+          "descricao": "Terra úmida florestada, alagada de forma permanente ou sazonal.",
+          "variantes": [
+            "Swamp",
+            "Floresta alagada"
+          ]
+        },
+        {
+          "id": "partenon",
+          "nome": "Partenon",
+          "descricao": "Templo dórico dedicado a Atena, na Acrópole de Atenas, construído no século V a.C.",
+          "variantes": [
+            "Parthenon"
+          ]
+        },
+        {
+          "id": "pantera_cor_de_rosa",
+          "nome": "Pantera Cor-de-Rosa",
+          "descricao": "Personagem animado de felino rosa, surgido na abertura do filme A Pantera Cor-de-Rosa, de 1963, e depois estrela de desenhos na TV.",
+          "variantes": [
+            "Pink Panther"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Elevador de Santa Justa",
+        "descricao": "Elevador vertical de ferro no centro histórico de Lisboa, ligando a Baixa ao Largo do Carmo.",
+        "variantes": [
+          "Elevador do Carmo",
+          "Santa Justa Lift"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "inundacao_da_varzea_do_carmo_benedito_calixto",
+          "nome": "Inundação da Várzea do Carmo (Benedito Calixto)",
+          "descricao": "Pintura a óleo de Benedito Calixto, de 1892, que mostra a cheia do Tamanduateí no centro de São Paulo.",
+          "variantes": [
+            "Inundação da Várzea do Carmo",
+            "Várzea do Carmo"
+          ]
+        },
+        {
+          "id": "freio_de_seguranca_do_elevador",
+          "nome": "Freio de segurança do elevador",
+          "descricao": "Mecanismo que trava a cabine do elevador caso o cabo se rompa, demonstrado em 1854 em Nova York.",
+          "variantes": [
+            "Elevador de segurança"
+          ]
+        },
+        {
+          "id": "elevador_lacerda",
+          "nome": "Elevador Lacerda",
+          "descricao": "Elevador público de Salvador que liga a Cidade Baixa à Cidade Alta.",
+          "variantes": [
+            "Elevador Hidráulico da Conceição"
+          ]
+        },
+        {
+          "id": "selecao_marroquina_de_futebol",
+          "nome": "Seleção Marroquina de Futebol",
+          "descricao": "Seleção nacional de futebol do Marrocos, semifinalista da Copa do Mundo de 2022.",
+          "variantes": [
+            "Seleção do Marrocos",
+            "Leões do Atlas"
+          ]
+        },
+        {
+          "id": "o_lavrador_de_cafe",
+          "nome": "O Lavrador de Café",
+          "descricao": "Quadro de Candido Portinari, de 1934, que mostra um trabalhador rural diante de um cafezal, no acervo do MASP.",
+          "variantes": [
+            "Lavrador de Café"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Catedral de Florença",
+        "descricao": "Catedral de Santa Maria del Fiore, em Florença, com cúpula de Brunelleschi.",
+        "variantes": [
+          "Duomo de Florença",
+          "Santa Maria del Fiore"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_florenca",
+          "nome": "Catedral de Florença",
+          "descricao": "Catedral de Santa Maria del Fiore, em Florença, com grande cúpula renascentista.",
+          "variantes": [
+            "Santa Maria del Fiore",
+            "Duomo de Florença",
+            "Florence Cathedral"
+          ]
+        },
+        {
+          "id": "cupula_da_catedral_de_florenca",
+          "nome": "Cúpula da Catedral de Florença",
+          "descricao": "Grande cúpula de alvenaria da Catedral de Santa Maria del Fiore, em Florença, concluída em 1436.",
+          "variantes": [
+            "Cúpula de Brunelleschi",
+            "Duomo de Florença",
+            "Santa Maria del Fiore"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "buenos_aires",
+          "nome": "Buenos Aires",
+          "descricao": "Capital da Argentina, às margens do Rio da Prata.",
+          "variantes": [
+            "Santa María del Buen Ayre"
+          ]
+        },
+        {
+          "id": "catedral_de_lincoln",
+          "nome": "Catedral de Lincoln",
+          "descricao": "Catedral gótica da cidade de Lincoln, na Inglaterra, cuja torre central foi concluída por volta de 1311.",
+          "variantes": [
+            "Lincoln Cathedral"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Palácio Itamaraty",
+        "descricao": "Palácio de Niemeyer em Brasília, sede do Ministério das Relações Exteriores.",
+        "variantes": [
+          "Palácio dos Arcos",
+          "Itamaraty"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_itamaraty",
+          "nome": "Palácio Itamaraty",
+          "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+          "variantes": [
+            "Palácio dos Arcos",
+            "Itamaraty"
+          ]
+        },
+        {
+          "id": "palacio_ducal_de_veneza",
+          "nome": "Palácio Ducal de Veneza",
+          "descricao": "Palácio gótico veneziano que foi residência do doge e sede do governo da República de Veneza.",
+          "variantes": [
+            "Palazzo Ducale",
+            "Palácio dos Doges"
+          ]
+        },
+        {
+          "id": "palacio_do_jaburu",
+          "nome": "Palácio do Jaburu",
+          "descricao": "Residência oficial do vice-presidente do Brasil em Brasília, projetada por Oscar Niemeyer e inaugurada em 1977.",
+          "variantes": [
+            "Jaburu"
+          ]
+        },
+        {
+          "id": "mero",
+          "nome": "Mero",
+          "descricao": "Grande peixe de recife da família das garoupas, Epinephelus itajara, também chamado itajara.",
+          "variantes": [
+            "Mero-preto",
+            "Itajara",
+            "Epinephelus itajara"
+          ]
+        },
+        {
+          "id": "palacio_de_cnossos",
+          "nome": "Palácio de Cnossos",
+          "descricao": "Grande complexo palaciano da Idade do Bronze em Creta, centro da civilização minoica.",
+          "variantes": [
+            "Cnossos",
+            "Knossos",
+            "Cnosso"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Hawa Mahal",
+        "descricao": "Palácio de arenito rosa com fachada de 953 janelas, em Jaipur, Índia.",
+        "variantes": [
+          "Palácio dos Ventos",
+          "Palace of Winds"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_ducal_de_veneza",
+          "nome": "Palácio Ducal de Veneza",
+          "descricao": "Palácio gótico veneziano que foi residência do doge e sede do governo da República de Veneza.",
+          "variantes": [
+            "Palazzo Ducale",
+            "Palácio dos Doges"
+          ]
+        },
+        {
+          "id": "palacio_itamaraty",
+          "nome": "Palácio Itamaraty",
+          "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+          "variantes": [
+            "Palácio dos Arcos",
+            "Itamaraty"
+          ]
+        },
+        {
+          "id": "palacio_de_inverno",
+          "nome": "Palácio de Inverno",
+          "descricao": "Palácio barroco em São Petersburgo, residência oficial dos imperadores russos e hoje parte do Museu Hermitage.",
+          "variantes": [
+            "Winter Palace",
+            "Palácio de Inverno de São Petersburgo"
+          ]
+        },
+        {
+          "id": "paco_imperial",
+          "nome": "Paço Imperial",
+          "descricao": "Edifício colonial do século dezoito na Praça XV, no Rio de Janeiro, sede do governo colonial e residência real.",
+          "variantes": [
+            "Paço Real",
+            "Palácio dos Vice-Reis",
+            "Paço de São Cristóvão"
+          ]
+        },
+        {
+          "id": "palacio_do_planalto",
+          "nome": "Palácio do Planalto",
+          "descricao": "Sede do governo federal e local de trabalho do presidente do Brasil, em Brasília, projetado por Oscar Niemeyer.",
+          "variantes": [
+            "Planalto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Catedral de Santo Isaac",
+        "descricao": "Grande catedral de cúpula dourada em São Petersburgo, hoje museu.",
+        "variantes": [
+          "Catedral de São Isaac",
+          "Saint Isaac's Cathedral"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_sao_basilio",
+          "nome": "Catedral de São Basílio",
+          "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+          "variantes": [
+            "Catedral de São Basílio, o Bem-Aventurado",
+            "Catedral da Intercessão",
+            "Catedral Pokrovsky",
+            "Saint Basil's Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        },
+        {
+          "id": "catedral_metropolitana_do_rio_de_janeiro",
+          "nome": "Catedral Metropolitana do Rio de Janeiro",
+          "descricao": "Catedral cônica de concreto, sede da Arquidiocese do Rio de Janeiro, dedicada a São Sebastião.",
+          "variantes": [
+            "Catedral de São Sebastião do Rio de Janeiro",
+            "Catedral de São Sebastião"
+          ]
+        },
+        {
+          "id": "catedral_de_cantuaria",
+          "nome": "Catedral de Cantuária",
+          "descricao": "Catedral da arquidiocese anglicana em Cantuária (Kent), na Inglaterra, sede espiritual da Igreja da Inglaterra.",
+          "variantes": [
+            "Catedral de Canterbury",
+            "Canterbury Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_rouen_monet",
+          "nome": "Catedral de Rouen (Monet)",
+          "descricao": "Série de pinturas de Claude Monet, dos anos 1890, da fachada da Catedral de Ruão em diferentes luzes.",
+          "variantes": [
+            "Catedral de Ruão",
+            "Rouen Cathedral",
+            "Série Catedral de Rouen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Castelo de Santo Ângelo",
+        "descricao": "Fortaleza cilíndrica em Roma, antigo mausoléu do imperador Adriano.",
+        "variantes": [
+          "Castel Sant'Angelo",
+          "Mausoléu de Adriano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castelo_de_santo_angelo",
+          "nome": "Castelo de Santo Ângelo",
+          "descricao": "Fortaleza cilíndrica em Roma, antigo Mausoléu de Adriano, depois usada pelos papas.",
+          "variantes": [
+            "Mausoléu de Adriano",
+            "Castel Sant'Angelo",
+            "Castelo do Santo Anjo"
+          ]
+        },
+        {
+          "id": "muralha_de_adriano",
+          "nome": "Muralha de Adriano",
+          "descricao": "Muralha defensiva romana construída a partir de 122 no norte da Britânia, por ordem do imperador Adriano.",
+          "variantes": [
+            "Hadrian's Wall"
+          ]
+        },
+        {
+          "id": "mausoleu_de_halicarnasso",
+          "nome": "Mausoléu de Halicarnasso",
+          "descricao": "Túmulo monumental do governante Mausolo, na antiga Halicarnasso, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Mausoleum at Halicarnassus",
+            "Túmulo de Mausolo",
+            "Mausoléu de Mausolo"
+          ]
+        },
+        {
+          "id": "battle_chateau",
+          "nome": "Battle Château",
+          "descricao": "Castelo de batalhas da região de Kalos, nos jogos Pokémon X e Y, onde os treinadores sobem de posto a cada vitória.",
+          "variantes": [
+            "Castelo de Batalha"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "ilha_de_alcatraz",
+      "motivo": "Mesma ilha de Alcatraz."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "santuario_de_itsukushima",
+      "motivo": "Mesmo santuário em Miyajima."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "teatro_colon",
+      "motivo": "Mesma casa de ópera de Buenos Aires."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "london_eye",
+      "motivo": "Mesma roda-gigante."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "panteao_de_roma",
+      "motivo": "Mesmo Panteão de Roma."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Elevador de Santa Justa de Lisboa; Elevador Lacerda é outro."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_florenca",
+      "motivo": "Mesma catedral; a cúpula é uma parte distinta."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "palacio_itamaraty",
+      "motivo": "Mesmo palácio em Brasília."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Hawa Mahal não consta entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a catedral de Santo Isaac em São Petersburgo."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "castelo_de_santo_angelo",
+      "motivo": "Mesma fortaleza, Mausoléu de Adriano em Roma."
+    }
+  ]
+}

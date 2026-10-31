@@ -1,0 +1,89 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que Alcatraz fica na Baía de São Francisco; distratores são baías americanas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam a prefeitura de Hiroshima; o enunciado não vaza e os distratores são prefeituras críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação direta de casa de ópera de Buenos Aires; enunciado não vaza, distratores são teatros plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; distratores são outras rodas-gigantes citadas nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento do Panteão; distratores são templos romanos plausíveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta: 'elevador de ferro que liga a Baixa a um largo' já identifica o Elevador de Santa Justa e entrega o Largo do Carmo sem a figura. Reescrita pede o reconhecimento, sem pista que entregue.",
+      "reescrita": {
+        "pergunta": "Que monumento de ferro, no centro de Lisboa, é este?",
+        "resposta": "Elevador de Santa Justa",
+        "distratores": [
+          "Elevador da Glória",
+          "Elevador da Bica",
+          "Elevador do Lavra"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam Brunelleschi como autor da cúpula; o enunciado não nomeia a catedral e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de palácio de Brasília; distratores são outros palácios da cidade, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que o Hawa Mahal fica em Jaipur; distratores são cidades do Rajastão/Índia plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam São Petersburgo; distratores são cidades russas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que Adriano mandou construir o edifício como mausoléu; enunciado não vaza e distratores são imperadores plausíveis.",
+      "reescrita": null
+    }
+  ]
+}

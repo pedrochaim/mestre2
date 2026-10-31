@@ -1,0 +1,273 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ilha reconhecível, sem texto legível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que baía americana fica esta ilha?",
+      "resposta": "Baía de São Francisco",
+      "distratores": [
+        "Baía de Chesapeake",
+        "Baía de Monterey",
+        "Baía de Tampa"
+      ],
+      "ancora": {
+        "nome": "Ilha de Alcatraz",
+        "descricao": "Ilha na baía de São Francisco, Califórnia, sede de uma antiga prisão federal.",
+        "variantes": [
+          "Alcatraz",
+          "Alcatraz Island"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Torii flutuante inconfundível; a placa tem só caracteres japoneses.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que prefeitura japonesa fica este portal?",
+      "resposta": "Hiroshima",
+      "distratores": [
+        "Nara",
+        "Kyoto",
+        "Nagasaki"
+      ],
+      "ancora": {
+        "nome": "Santuário de Itsukushima",
+        "descricao": "Santuário xintoísta na ilha de Miyajima, no Japão, famoso pelo torii que parece flutuar no mar.",
+        "variantes": [
+          "Itsukushima",
+          "Miyajima",
+          "Torii de Miyajima"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fachada clara e reconhecível; sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que casa de ópera é esta?",
+      "resposta": "Teatro Colón",
+      "distratores": [
+        "Ópera Garnier",
+        "Teatro Solís",
+        "Teatro Amazonas"
+      ],
+      "ancora": {
+        "nome": "Teatro Colón",
+        "descricao": "Casa de ópera de Buenos Aires, inaugurada em 1908.",
+        "variantes": [
+          "Colón Theatre"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Roda-gigante inconfundível; texto no barco é minúsculo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que roda-gigante é esta?",
+      "resposta": "London Eye",
+      "distratores": [
+        "High Roller",
+        "Singapore Flyer",
+        "Star of Nanchang"
+      ],
+      "ancora": {
+        "nome": "London Eye",
+        "descricao": "Roda-gigante de observação à margem do Tâmisa, em Londres.",
+        "variantes": [
+          "Millennium Wheel",
+          "Roda do Milênio"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pórtico e rotunda reconhecíveis; a inscrição latina não nomeia o edifício.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que templo romano é este?",
+      "resposta": "Panteão",
+      "distratores": [
+        "Templo de Vesta",
+        "Maison Carrée",
+        "Templo de Júpiter"
+      ],
+      "ancora": {
+        "nome": "Panteão de Roma",
+        "descricao": "Antigo templo romano com grande cúpula, hoje basílica, em Roma.",
+        "variantes": [
+          "Pantheon",
+          "Panteão"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Elevador de ferro inconfundível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este elevador de ferro liga a Baixa, embaixo, a que largo, no alto?",
+      "resposta": "Largo do Carmo",
+      "distratores": [
+        "Largo do Rossio",
+        "Praça do Comércio",
+        "Largo de Camões"
+      ],
+      "ancora": {
+        "nome": "Elevador de Santa Justa",
+        "descricao": "Elevador vertical de ferro no centro histórico de Lisboa, ligando a Baixa ao Largo do Carmo.",
+        "variantes": [
+          "Elevador do Carmo",
+          "Santa Justa Lift"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Não é possível ter certeza de que o prédio é o Planalto e não o Alvorada (colunas parecidas, capela à direita); resposta ambígua."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cúpula e campanário inconfundíveis.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem projetou a cúpula desta catedral?",
+      "resposta": "Filippo Brunelleschi",
+      "distratores": [
+        "Michelangelo",
+        "Leon Battista Alberti",
+        "Donato Bramante"
+      ],
+      "ancora": {
+        "nome": "Catedral de Florença",
+        "descricao": "Catedral de Santa Maria del Fiore, em Florença, com cúpula de Brunelleschi.",
+        "variantes": [
+          "Duomo de Florença",
+          "Santa Maria del Fiore"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Arcos e espelho d'água característicos, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que palácio de Brasília é este?",
+      "resposta": "Palácio Itamaraty",
+      "distratores": [
+        "Palácio do Planalto",
+        "Palácio da Alvorada",
+        "Palácio do Jaburu"
+      ],
+      "ancora": {
+        "nome": "Palácio Itamaraty",
+        "descricao": "Palácio de Niemeyer em Brasília, sede do Ministério das Relações Exteriores.",
+        "variantes": [
+          "Palácio dos Arcos",
+          "Itamaraty"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada alveolada única; placa de banco pequena e irrelevante.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade indiana fica este palácio?",
+      "resposta": "Jaipur",
+      "distratores": [
+        "Agra",
+        "Udaipur",
+        "Jodhpur"
+      ],
+      "ancora": {
+        "nome": "Hawa Mahal",
+        "descricao": "Palácio de arenito rosa com fachada de 953 janelas, em Jaipur, Índia.",
+        "variantes": [
+          "Palácio dos Ventos",
+          "Palace of Winds"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Catedral de cúpula dourada reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade russa fica esta catedral?",
+      "resposta": "São Petersburgo",
+      "distratores": [
+        "Moscou",
+        "Kazan",
+        "Novgorod"
+      ],
+      "ancora": {
+        "nome": "Catedral de Santo Isaac",
+        "descricao": "Grande catedral de cúpula dourada em São Petersburgo, hoje museu.",
+        "variantes": [
+          "Catedral de São Isaac",
+          "Saint Isaac's Cathedral"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Rotunda com anjo no topo, vista da ponte; sem texto legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que imperador romano mandou construir este edifício?",
+      "resposta": "Adriano",
+      "distratores": [
+        "Augusto",
+        "Nero",
+        "Constantino"
+      ],
+      "ancora": {
+        "nome": "Castelo de Santo Ângelo",
+        "descricao": "Fortaleza cilíndrica em Roma, antigo mausoléu do imperador Adriano.",
+        "variantes": [
+          "Castel Sant'Angelo",
+          "Mausoléu de Adriano"
+        ]
+      }
+    }
+  ]
+}

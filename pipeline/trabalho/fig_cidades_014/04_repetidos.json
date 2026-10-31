@@ -1,0 +1,201 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que baía americana fica esta ilha?",
+        "resposta": "Baía de São Francisco"
+      },
+      "existentes": [
+        {
+          "id": "q02212",
+          "pergunta": "Que famoso gângster de Chicago, condenado por sonegação de impostos, cumpriu parte da pena na prisão da ilha de Alcatraz?",
+          "resposta": "Al Capone"
+        },
+        {
+          "id": "q05840",
+          "pergunta": "A penitenciária federal da ilha de Alcatraz, na baía de São Francisco, foi fechada em qual década?",
+          "resposta": "Década de 1960"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que prefeitura japonesa fica este portal?",
+        "resposta": "Hiroshima"
+      },
+      "existentes": [
+        {
+          "id": "q07664",
+          "pergunta": "O portal torii que parece flutuar sobre o mar, no santuário de Itsukushima, fica numa ilha perto de que grande cidade japonesa?",
+          "resposta": "Hiroshima"
+        },
+        {
+          "id": "q16273",
+          "pergunta": "Que santuário xintoísta japonês tem este portal?",
+          "resposta": "Santuário de Itsukushima"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que casa de ópera é esta?",
+        "resposta": "Teatro Colón"
+      },
+      "existentes": [
+        {
+          "id": "q04246",
+          "pergunta": "Em que capital sul-americana fica o Teatro Colón, casa de ópera inaugurada em 1908 e famosa pela acústica?",
+          "resposta": "Buenos Aires"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que roda-gigante é esta?",
+        "resposta": "London Eye"
+      },
+      "existentes": [
+        {
+          "id": "q11600",
+          "pergunta": "A roda-gigante London Eye, à beira do Tâmisa, tem uma cápsula para cada distrito municipal de Londres. Quantas cápsulas são?",
+          "resposta": "Trinta e duas"
+        },
+        {
+          "id": "q14540",
+          "pergunta": "Que escritório de arquitetura projetou esta roda-gigante?",
+          "resposta": "Marks Barfield Architects"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que templo romano é este?",
+        "resposta": "Panteão"
+      },
+      "existentes": [
+        {
+          "id": "q02520",
+          "pergunta": "Que edifício da Roma antiga é este?",
+          "resposta": "Panteão"
+        },
+        {
+          "id": "q03196",
+          "pergunta": "Como se chama a abertura circular no topo da cúpula do Panteão de Roma, por onde entram luz e chuva?",
+          "resposta": "Óculo"
+        },
+        {
+          "id": "q03972",
+          "pergunta": "A fachada do Panteão de Roma traz o nome de Agripa, mas o edifício que vemos hoje foi reconstruído por que imperador, no século dois?",
+          "resposta": "Adriano"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Quem projetou a cúpula desta catedral?",
+        "resposta": "Filippo Brunelleschi"
+      },
+      "existentes": [
+        {
+          "id": "q03188",
+          "pergunta": "Que arquiteto renascentista ergueu a enorme cúpula da Catedral de Florença, no século quinze?",
+          "resposta": "Filippo Brunelleschi"
+        },
+        {
+          "id": "q07189",
+          "pergunta": "Em que século foi concluída a cúpula desta catedral?",
+          "resposta": "Século quinze"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que palácio de Brasília é este?",
+        "resposta": "Palácio Itamaraty"
+      },
+      "existentes": [
+        {
+          "id": "q09123",
+          "pergunta": "Em Brasília, o Palácio Itamaraty, projetado por Niemeyer e cercado por um espelho d'água, também é conhecido por que outro nome?",
+          "resposta": "Palácio dos Arcos"
+        },
+        {
+          "id": "q16551",
+          "pergunta": "Que palácio de Brasília é este?",
+          "resposta": "Palácio do Itamaraty"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Que imperador romano mandou construir este edifício?",
+        "resposta": "Adriano"
+      },
+      "existentes": [
+        {
+          "id": "q03876",
+          "pergunta": "Que imperador romano mandou construir este edifício para ser o mausoléu de sua família?",
+          "resposta": "Adriano"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q05840",
+      "motivo": "A baía de São Francisco já é perguntada/dada na existente q05840."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q07664",
+      "motivo": "Ambas levam a Hiroshima como localização do portal."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q04246",
+      "motivo": "Identificar o Teatro Colón é o mesmo fato do existente, apenas em direção inversa, e a resposta aparece no enunciado."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q11600",
+      "motivo": "O enunciado existente já nomeia o London Eye; identificar a roda-gigante é o mesmo fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "id_existente": "q02520",
+      "motivo": "Mesma pergunta de identificação do Panteão."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q03188",
+      "motivo": "Ambas perguntam quem projetou/ergueu a cúpula da catedral: Brunelleschi."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "id_existente": "q16551",
+      "motivo": "Mesma pergunta de identificação do Palácio Itamaraty."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "id_existente": "q03876",
+      "motivo": "Mesmo fato: Adriano mandou construir o edifício."
+    }
+  ]
+}
