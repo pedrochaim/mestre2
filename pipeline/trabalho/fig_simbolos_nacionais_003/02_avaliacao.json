@@ -1,0 +1,266 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Brasão limpo, sem texto, reconhecível pela cruz e pela coroa de louros.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Grécia",
+      "distratores": [
+        "Chipre",
+        "Suíça",
+        "Geórgia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Grécia",
+        "descricao": "Brasão de armas da Grécia: escudo azul com cruz branca cercado por ramos de louro.",
+        "variantes": [
+          "Brasão de armas da Grécia"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Condor e huemul reconhecíveis; o lema em espanhol não nomeia o país.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Chile",
+      "distratores": [
+        "Peru",
+        "Bolívia",
+        "Argentina"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão do Chile",
+        "descricao": "Brasão de armas do Chile, com condor e huemul coroados ao lado de um escudo azul e vermelho com estrela.",
+        "variantes": [
+          "Brasão de armas do Chile"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A faixa traz 'Repubblika ta' Malta', que escreve o nome do país e entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vicunha, árvore e cornucópia reconhecíveis; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Peru",
+      "distratores": [
+        "Chile",
+        "Bolívia",
+        "Equador"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão do Peru",
+        "descricao": "Brasão de armas do Peru, com escudo dividido em vicunha, árvore de quina e cornucópia.",
+        "variantes": [
+          "Brasão de armas do Peru"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Leão e unicórnio emblemáticos; os lemas em francês não nomeiam o país.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é este brasão real?",
+      "resposta": "Reino Unido",
+      "distratores": [
+        "Canadá",
+        "Dinamarca",
+        "Noruega"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão do Reino Unido",
+        "descricao": "Brasão real de armas do Reino Unido, com leão e unicórnio sustentando o escudo.",
+        "variantes": [
+          "Brasão real do Reino Unido",
+          "Armas reais britânicas"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Tridente dourado sobre escudo azul, sem texto e marcante.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este é o brasão pequeno, que aparece no estandarte presidencial de que país?",
+      "resposta": "Ucrânia",
+      "distratores": [
+        "Rússia",
+        "Bielorrússia",
+        "Polônia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Ucrânia",
+        "descricao": "Brasão de armas da Ucrânia: tridente dourado sobre escudo azul, chamado tryzub.",
+        "variantes": [
+          "Tryzub",
+          "Tridente da Ucrânia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Órix e águia-pesqueira reconhecíveis; o lema em inglês não nomeia o país.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Namíbia",
+      "distratores": [
+        "Botsuana",
+        "Zimbábue",
+        "África do Sul"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Namíbia",
+        "descricao": "Brasão de armas da Namíbia, com dois órix, águia-pesqueira e escudo com sol e faixa diagonal.",
+        "variantes": [
+          "Brasão de armas da Namíbia"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Leões e manto real; o lema em francês não nomeia o país.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Países Baixos",
+      "distratores": [
+        "Bélgica",
+        "Luxemburgo",
+        "Dinamarca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão dos Países Baixos",
+        "descricao": "Brasão real de armas do Reino dos Países Baixos, com leão coroado, espada e flechas num escudo azul.",
+        "variantes": [
+          "Brasão da Holanda",
+          "Brasão dos Países Baixos"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Leão boêmio e águias, sem texto, distintivo.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Tchéquia",
+      "distratores": [
+        "Eslováquia",
+        "Polônia",
+        "Hungria"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Tchéquia",
+        "descricao": "Brasão de armas da Tchéquia, em quatro quartéis com leões da Boêmia e águias da Morávia e da Silésia.",
+        "variantes": [
+          "Brasão da República Tcheca",
+          "Brasão de armas da Chéquia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cobo-de-orelha, grou-coroado e tambor; o lema em inglês não nomeia o país.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Uganda",
+      "distratores": [
+        "Quênia",
+        "Tanzânia",
+        "Ruanda"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão de Uganda",
+        "descricao": "Brasão de armas de Uganda, com cobo-de-orelha e grou-coroado ladeando um escudo com sol e tambor.",
+        "variantes": [
+          "Brasão de armas de Uganda"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Águia negra com foice, martelo e correntes partidas; sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "De que país é este brasão, de águia com correntes partidas?",
+      "resposta": "Áustria",
+      "distratores": [
+        "Alemanha",
+        "Polônia",
+        "Espanha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Áustria",
+        "descricao": "Brasão de armas da Áustria: águia negra com coroa mural, foice, martelo, correntes partidas e escudo vermelho e branco.",
+        "variantes": [
+          "Brasão de armas da Áustria"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Leão coroado com espada, sem texto, marcante.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Finlândia",
+      "distratores": [
+        "Suécia",
+        "Noruega",
+        "Dinamarca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Finlândia",
+        "descricao": "Brasão de armas da Finlândia: leão coroado com espada sobre escudo vermelho com rosas.",
+        "variantes": [
+          "Brasão de armas da Finlândia"
+        ]
+      }
+    }
+  ]
+}

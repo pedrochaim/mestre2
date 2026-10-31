@@ -1,0 +1,695 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Brasão da Grécia",
+        "descricao": "Brasão de armas da Grécia: escudo azul com cruz branca cercado por ramos de louro.",
+        "variantes": [
+          "Grécia",
+          "Brasão de armas da Grécia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grecia",
+          "nome": "Grécia",
+          "descricao": "País do sul da Europa, na península Balcânica, com capital em Atenas.",
+          "variantes": [
+            "Greece",
+            "República Helênica"
+          ]
+        },
+        {
+          "id": "brasao_da_romenia",
+          "nome": "Brasão da Romênia",
+          "descricao": "Brasão de armas da Romênia, uma águia dourada coroada que segura espada e maça, com escudo de cinco brasões regionais.",
+          "variantes": [
+            "Romênia",
+            "Armas da Romênia"
+          ]
+        },
+        {
+          "id": "brasao_da_croacia",
+          "nome": "Brasão da Croácia",
+          "descricao": "Brasão de armas da República da Croácia, com escudo em xadrez vermelho e branco e coroa de cinco brasões menores.",
+          "variantes": [
+            "Croácia",
+            "Armas da Croácia",
+            "Grb Hrvatske"
+          ]
+        },
+        {
+          "id": "brasao_da_hungria",
+          "nome": "Brasão da Hungria",
+          "descricao": "Brasão de armas da Hungria, com a Santa Coroa, listras vermelhas e brancas e cruz dupla sobre três montes.",
+          "variantes": [
+            "Hungria",
+            "Armas da Hungria"
+          ]
+        },
+        {
+          "id": "brasao_da_armenia",
+          "nome": "Brasão da Armênia",
+          "descricao": "Brasão de armas da Armênia, com águia e leão sustentando escudo com o monte Ararate.",
+          "variantes": [
+            "Armênia",
+            "Armas da Armênia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Brasão do Chile",
+        "descricao": "Brasão de armas do Chile, com condor e huemul coroados ao lado de um escudo azul e vermelho com estrela.",
+        "variantes": [
+          "Chile",
+          "Brasão de armas do Chile"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_chile",
+          "nome": "Bandeira do Chile",
+          "descricao": "Bandeira nacional do Chile, com quadrado azul com estrela branca, faixa branca e faixa vermelha.",
+          "variantes": [
+            "Chile",
+            "La Estrella Solitaria"
+          ]
+        },
+        {
+          "id": "chile",
+          "nome": "Chile",
+          "descricao": "País longo e estreito da América do Sul, entre os Andes e o Oceano Pacífico, com capital em Santiago.",
+          "variantes": [
+            "República do Chile"
+          ]
+        },
+        {
+          "id": "selecao_chilena_de_futebol",
+          "nome": "Seleção Chilena de Futebol",
+          "descricao": "Seleção masculina de futebol do Chile, apelidada La Roja.",
+          "variantes": [
+            "Chile",
+            "La Roja"
+          ]
+        },
+        {
+          "id": "brasao_do_chipre",
+          "nome": "Brasão do Chipre",
+          "descricao": "Brasão de armas da República de Chipre, com pomba carregando ramo de oliveira sobre escudo laranja e ramos de oliveira.",
+          "variantes": [
+            "Chipre",
+            "Armas de Chipre",
+            "Brasão de Chipre"
+          ]
+        },
+        {
+          "id": "armas_nacionais_do_brasil",
+          "nome": "Armas Nacionais do Brasil",
+          "descricao": "Brasão de armas oficial da República Federativa do Brasil, um dos quatro símbolos nacionais.",
+          "variantes": [
+            "Brasão de armas do Brasil",
+            "Brasão da República"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Brasão do Peru",
+        "descricao": "Brasão de armas do Peru, com escudo dividido em vicunha, árvore de quina e cornucópia.",
+        "variantes": [
+          "Peru",
+          "Brasão de armas do Peru"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_peru",
+          "nome": "Bandeira do Peru",
+          "descricao": "Bandeira nacional atual do Peru, com três faixas verticais vermelha, branca e vermelha.",
+          "variantes": [
+            "Peru",
+            "Bandeira peruana"
+          ]
+        },
+        {
+          "id": "peru",
+          "nome": "Peru",
+          "descricao": "Ave galiforme domesticada (Meleagris gallopavo), nativa da América do Norte, tradicional nas ceias de fim de ano.",
+          "variantes": [
+            "Peru-doméstico",
+            "Meleagris gallopavo"
+          ]
+        },
+        {
+          "id": "selecao_peruana_de_futebol",
+          "nome": "Seleção Peruana de Futebol",
+          "descricao": "Seleção masculina de futebol do Peru, apelidada La Bicolor.",
+          "variantes": [
+            "Peru",
+            "La Bicolor"
+          ]
+        },
+        {
+          "id": "armas_nacionais_do_brasil",
+          "nome": "Armas Nacionais do Brasil",
+          "descricao": "Brasão de armas oficial da República Federativa do Brasil, um dos quatro símbolos nacionais.",
+          "variantes": [
+            "Brasão de armas do Brasil",
+            "Brasão da República"
+          ]
+        },
+        {
+          "id": "peruca",
+          "nome": "Peruca",
+          "descricao": "Cabeleira postiça usada como adorno ou para cobrir a calvície, moda na corte europeia dos séculos dezessete e dezoito",
+          "variantes": [
+            "Wig",
+            "Cabeleira postiça"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Brasão do Reino Unido",
+        "descricao": "Brasão real de armas do Reino Unido, com leão e unicórnio sustentando o escudo.",
+        "variantes": [
+          "Brasão real do Reino Unido",
+          "Armas reais britânicas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_reino_unido",
+          "nome": "Bandeira do Reino Unido",
+          "descricao": "Bandeira nacional do Reino Unido, a Union Jack, que combina as cruzes de São Jorge, Santo André e São Patrício.",
+          "variantes": [
+            "Reino Unido",
+            "Union Jack",
+            "Union Flag"
+          ]
+        },
+        {
+          "id": "rainha_vitoria",
+          "nome": "Rainha Vitória",
+          "descricao": "Rainha do Reino Unido de 1837 a 1901, que deu nome à era vitoriana.",
+          "variantes": [
+            "Vitória do Reino Unido",
+            "Queen Victoria"
+          ]
+        },
+        {
+          "id": "marinha_real_britanica",
+          "nome": "Marinha Real Britânica",
+          "descricao": "Força naval do Reino Unido, conhecida em inglês como Royal Navy.",
+          "variantes": [
+            "Royal Navy"
+          ]
+        },
+        {
+          "id": "brasao_da_noruega",
+          "nome": "Brasão da Noruega",
+          "descricao": "Brasão de armas da Noruega, um leão dourado coroado com machado sobre escudo vermelho.",
+          "variantes": [
+            "Noruega",
+            "Brasão do Reino da Noruega"
+          ]
+        },
+        {
+          "id": "brasao_do_mexico",
+          "nome": "Brasão do México",
+          "descricao": "Brasão de armas nacional do México, com uma águia sobre um cacto devorando uma serpente.",
+          "variantes": [
+            "Escudo nacional do México",
+            "Coat of arms of Mexico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Brasão da Ucrânia",
+        "descricao": "Brasão de armas da Ucrânia: tridente dourado sobre escudo azul, chamado tryzub.",
+        "variantes": [
+          "Tryzub",
+          "Tridente da Ucrânia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "brasao_da_croacia",
+          "nome": "Brasão da Croácia",
+          "descricao": "Brasão de armas da República da Croácia, com escudo em xadrez vermelho e branco e coroa de cinco brasões menores.",
+          "variantes": [
+            "Croácia",
+            "Armas da Croácia",
+            "Grb Hrvatske"
+          ]
+        },
+        {
+          "id": "brasao_da_albania",
+          "nome": "Brasão da Albânia",
+          "descricao": "Brasão de armas da Albânia, uma águia negra de duas cabeças sobre fundo vermelho, com o elmo de Skanderbeg.",
+          "variantes": [
+            "Albânia",
+            "Emblema da Albânia"
+          ]
+        },
+        {
+          "id": "brasao_da_romenia",
+          "nome": "Brasão da Romênia",
+          "descricao": "Brasão de armas da Romênia, uma águia dourada coroada que segura espada e maça, com escudo de cinco brasões regionais.",
+          "variantes": [
+            "Romênia",
+            "Armas da Romênia"
+          ]
+        },
+        {
+          "id": "brasao_da_hungria",
+          "nome": "Brasão da Hungria",
+          "descricao": "Brasão de armas da Hungria, com a Santa Coroa, listras vermelhas e brancas e cruz dupla sobre três montes.",
+          "variantes": [
+            "Hungria",
+            "Armas da Hungria"
+          ]
+        },
+        {
+          "id": "brasao_da_armenia",
+          "nome": "Brasão da Armênia",
+          "descricao": "Brasão de armas da Armênia, com águia e leão sustentando escudo com o monte Ararate.",
+          "variantes": [
+            "Armênia",
+            "Armas da Armênia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Brasão da Namíbia",
+        "descricao": "Brasão de armas da Namíbia, com dois órix, águia-pesqueira e escudo com sol e faixa diagonal.",
+        "variantes": [
+          "Namíbia",
+          "Brasão de armas da Namíbia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "namibia",
+          "nome": "Namíbia",
+          "descricao": "País do sudoeste da África, banhado pelo Atlântico, cuja capital é Windhoek.",
+          "variantes": [
+            "República da Namíbia"
+          ]
+        },
+        {
+          "id": "deserto_do_namibe",
+          "nome": "Deserto do Namibe",
+          "descricao": "Deserto costeiro do sudoeste da África, ao longo da Namíbia e do sul de Angola",
+          "variantes": [
+            "Namib",
+            "Deserto do Namib"
+          ]
+        },
+        {
+          "id": "anfibios",
+          "nome": "Anfíbios",
+          "descricao": "Classe de vertebrados (Amphibia) que inclui sapos, rãs, salamandras e cecílias, em geral com fase larval aquática.",
+          "variantes": [
+            "Amphibia",
+            "Anfíbio"
+          ]
+        },
+        {
+          "id": "brasao_da_colombia",
+          "nome": "Brasão da Colômbia",
+          "descricao": "Brasão de armas da República da Colômbia, com um condor, cornucópias e bandeiras tricolores.",
+          "variantes": [
+            "Colômbia",
+            "Escudo de Colombia"
+          ]
+        },
+        {
+          "id": "brasao_do_panama",
+          "nome": "Brasão do Panamá",
+          "descricao": "Brasão de armas do Panamá, com uma harpia, bandeiras e um escudo dividido em cinco campos.",
+          "variantes": [
+            "Panamá",
+            "Escudo de Panamá"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Brasão dos Países Baixos",
+        "descricao": "Brasão real de armas do Reino dos Países Baixos, com leão coroado, espada e flechas num escudo azul.",
+        "variantes": [
+          "Brasão da Holanda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paises_baixos",
+          "nome": "Países Baixos",
+          "descricao": "País da Europa Ocidental cuja capital constitucional é Amsterdã.",
+          "variantes": [
+            "Holanda",
+            "Netherlands",
+            "Reino dos Países Baixos"
+          ]
+        },
+        {
+          "id": "reino_dos_paises_baixos",
+          "nome": "Reino dos Países Baixos",
+          "descricao": "Estado soberano formado pelos Países Baixos e por três países constituintes no Caribe.",
+          "variantes": [
+            "Kingdom of the Netherlands",
+            "Reino da Holanda"
+          ]
+        },
+        {
+          "id": "brasao_da_albania",
+          "nome": "Brasão da Albânia",
+          "descricao": "Brasão de armas da Albânia, uma águia negra de duas cabeças sobre fundo vermelho, com o elmo de Skanderbeg.",
+          "variantes": [
+            "Albânia",
+            "Emblema da Albânia"
+          ]
+        },
+        {
+          "id": "selecao_neerlandesa_de_futebol",
+          "nome": "Seleção Neerlandesa de Futebol",
+          "descricao": "Seleção nacional de futebol dos Países Baixos, vice-campeã mundial em 1974, 1978 e 2010.",
+          "variantes": [
+            "Seleção da Holanda",
+            "Seleção Holandesa",
+            "Laranja Mecânica"
+          ]
+        },
+        {
+          "id": "brasao_da_alemanha",
+          "nome": "Brasão da Alemanha",
+          "descricao": "Brasão de armas da República Federal da Alemanha, com águia negra de garras vermelhas sobre escudo dourado.",
+          "variantes": [
+            "Alemanha",
+            "Armas da Alemanha",
+            "Bundesadler"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Brasão da Tchéquia",
+        "descricao": "Brasão de armas da Tchéquia, em quatro quartéis com leões da Boêmia e águias da Morávia e da Silésia.",
+        "variantes": [
+          "Tchéquia",
+          "Brasão da República Tcheca",
+          "Brasão de armas da Chéquia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_tchequia",
+          "nome": "Bandeira da Tchéquia",
+          "descricao": "Bandeira atual da Tchéquia: faixas branca e vermelha com triângulo azul junto à haste.",
+          "variantes": [
+            "Tchéquia",
+            "Bandeira da República Tcheca",
+            "Bandeira tcheca"
+          ]
+        },
+        {
+          "id": "republica_tcheca",
+          "nome": "República Tcheca",
+          "descricao": "País sem litoral da Europa Central, antiga Boêmia, com capital em Praga.",
+          "variantes": [
+            "Tchéquia",
+            "Chéquia"
+          ]
+        },
+        {
+          "id": "armas_nacionais_do_brasil",
+          "nome": "Armas Nacionais do Brasil",
+          "descricao": "Brasão de armas oficial da República Federativa do Brasil, um dos quatro símbolos nacionais.",
+          "variantes": [
+            "Brasão de armas do Brasil",
+            "Brasão da República"
+          ]
+        },
+        {
+          "id": "tequila",
+          "nome": "Tequila",
+          "descricao": "Bebida destilada mexicana, originária da região de Jalisco",
+          "variantes": []
+        },
+        {
+          "id": "brasao_da_hungria",
+          "nome": "Brasão da Hungria",
+          "descricao": "Brasão de armas da Hungria, com a Santa Coroa, listras vermelhas e brancas e cruz dupla sobre três montes.",
+          "variantes": [
+            "Hungria",
+            "Armas da Hungria"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Brasão de Uganda",
+        "descricao": "Brasão de armas de Uganda, com cobo-de-orelha e grou-coroado ladeando um escudo com sol e tambor.",
+        "variantes": [
+          "Uganda",
+          "Brasão de armas de Uganda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_uganda",
+          "nome": "Bandeira de Uganda",
+          "descricao": "Bandeira atual de Uganda: seis listras horizontais pretas, amarelas e vermelhas com um grou-coroado em disco branco.",
+          "variantes": [
+            "Uganda",
+            "Bandeira ugandense"
+          ]
+        },
+        {
+          "id": "luanda",
+          "nome": "Luanda",
+          "descricao": "Capital de Angola, fundada pelos portugueses em 1576 e ocupada pelos holandeses de 1641 a 1648.",
+          "variantes": [
+            "São Paulo da Assunção de Loanda"
+          ]
+        },
+        {
+          "id": "ruanda",
+          "nome": "Ruanda",
+          "descricao": "País sem litoral da África Central, conhecido como terra das mil colinas.",
+          "variantes": [
+            "Rwanda"
+          ]
+        },
+        {
+          "id": "bandeira_de_ruanda",
+          "nome": "Bandeira de Ruanda",
+          "descricao": "Bandeira nacional de Ruanda, com faixas azul, amarela e verde e um sol dourado no canto superior.",
+          "variantes": [
+            "Ruanda",
+            "Bandeira do Ruanda"
+          ]
+        },
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+          "variantes": [
+            "Ghana",
+            "República de Gana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Brasão da Áustria",
+        "descricao": "Brasão de armas da Áustria: águia negra com coroa mural, foice, martelo, correntes partidas e escudo vermelho e branco.",
+        "variantes": [
+          "Áustria",
+          "Brasão de armas da Áustria"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_austria",
+          "nome": "Bandeira da Áustria",
+          "descricao": "Bandeira nacional atual da Áustria, com três faixas horizontais iguais vermelha, branca e vermelha.",
+          "variantes": [
+            "Áustria",
+            "Bandeira austríaca"
+          ]
+        },
+        {
+          "id": "austria",
+          "nome": "Áustria",
+          "descricao": "País sem litoral da Europa Central, nos Alpes orientais, com capital em Viena.",
+          "variantes": [
+            "República da Áustria"
+          ]
+        },
+        {
+          "id": "bandeira_da_australia",
+          "nome": "Bandeira da Austrália",
+          "descricao": "Bandeira nacional da Austrália, azul com Union Jack no canto, estrela da Comunidade e cinco estrelas do Cruzeiro do Sul.",
+          "variantes": [
+            "Austrália"
+          ]
+        },
+        {
+          "id": "australia",
+          "nome": "Austrália",
+          "descricao": "País que ocupa o continente australiano e a Tasmânia, com capital em Camberra.",
+          "variantes": [
+            "Commonwealth da Austrália"
+          ]
+        },
+        {
+          "id": "brasao_da_hungria",
+          "nome": "Brasão da Hungria",
+          "descricao": "Brasão de armas da Hungria, com a Santa Coroa, listras vermelhas e brancas e cruz dupla sobre três montes.",
+          "variantes": [
+            "Hungria",
+            "Armas da Hungria"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Brasão da Finlândia",
+        "descricao": "Brasão de armas da Finlândia: leão coroado com espada sobre escudo vermelho com rosas.",
+        "variantes": [
+          "Finlândia",
+          "Brasão de armas da Finlândia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_finlandia",
+          "nome": "Bandeira da Finlândia",
+          "descricao": "Bandeira nacional atual da Finlândia, branca com cruz nórdica azul.",
+          "variantes": [
+            "Finlândia",
+            "Siniristilippu",
+            "Bandeira finlandesa"
+          ]
+        },
+        {
+          "id": "finlandia",
+          "nome": "Finlândia",
+          "descricao": "Poema sinfônico patriótico de Jean Sibelius, de 1899–1900.",
+          "variantes": [
+            "Finlandia, op. 26"
+          ]
+        },
+        {
+          "id": "finlandia_2",
+          "nome": "Finlândia",
+          "descricao": "País nórdico do norte da Europa que faz fronteira com Suécia, Noruega e Rússia.",
+          "variantes": [
+            "República da Finlândia",
+            "Finland"
+          ]
+        },
+        {
+          "id": "vinland",
+          "nome": "Vinland",
+          "descricao": "Região da América do Norte alcançada por navegadores nórdicos por volta do ano mil, segundo as sagas islandesas.",
+          "variantes": [
+            "Vinlândia"
+          ]
+        },
+        {
+          "id": "brasao_da_albania",
+          "nome": "Brasão da Albânia",
+          "descricao": "Brasão de armas da Albânia, uma águia negra de duas cabeças sobre fundo vermelho, com o elmo de Skanderbeg.",
+          "variantes": [
+            "Albânia",
+            "Emblema da Albânia"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o brasão da Grécia; Grécia é o país."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Candidatas são bandeira, país, seleção; nenhuma é o brasão do Chile."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o brasão do Peru."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o brasão do Reino Unido."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o brasão da Ucrânia."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o brasão da Namíbia."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o brasão dos Países Baixos."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o brasão da Tchéquia."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o brasão de Uganda."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o brasão da Áustria."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o brasão da Finlândia."
+    }
+  ]
+}

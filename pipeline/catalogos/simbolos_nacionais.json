@@ -33,14 +33,14 @@
       "titulo": "en:Chile",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Peru",
       "titulo": "en:Peru",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Colômbia",
@@ -54,14 +54,14 @@
       "titulo": "en:Austria",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Grécia",
       "titulo": "en:Greece",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Croácia",
@@ -159,7 +159,7 @@
       "titulo": "en:Finland",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Armênia",
@@ -173,7 +173,7 @@
       "titulo": "en:Czech Republic",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Mongólia",
@@ -215,14 +215,14 @@
       "titulo": "en:Namibia",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Uganda",
       "titulo": "en:Uganda",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Fiji",
@@ -257,7 +257,7 @@
       "titulo": "en:Malta",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Estônia",
@@ -279,6 +279,286 @@
       "camada": 3,
       "destino": 0,
       "status": "usada"
+    },
+    {
+      "nome": "Brasão de Portugal",
+      "titulo": "en:Coat of arms of Portugal",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão da Espanha",
+      "titulo": "en:Coat of arms of Spain",
+      "camada": 1,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Brasão do Reino Unido",
+      "titulo": "en:Royal coat of arms of the United Kingdom",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Brasão da Argentina",
+      "titulo": "en:Coat of arms of Argentina",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão da Rússia",
+      "titulo": "en:Coat of arms of Russia",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão do Vaticano",
+      "titulo": "en:Coat of arms of Vatican City",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão da Suíça",
+      "titulo": "en:Coat of arms of Switzerland",
+      "camada": 1,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Brasão do Canadá",
+      "titulo": "en:Coat of arms of Canada",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão do Chile",
+      "titulo": "en:Coat of arms of Chile",
+      "camada": 1,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Brasão do Uruguai",
+      "titulo": "en:Coat of arms of Uruguay",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão do Peru",
+      "titulo": "en:Coat of arms of Peru",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Emblema nacional da China",
+      "titulo": "en:National Emblem of China",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão do estado de São Paulo",
+      "titulo": "pt:Brasão do estado de São Paulo",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão de Cuba",
+      "titulo": "en:Coat of arms of Cuba",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Emblema da Índia",
+      "titulo": "en:State Emblem of India",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão da Ucrânia",
+      "titulo": "en:Coat of arms of Ukraine",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Brasão da Polônia",
+      "titulo": "en:Coat of arms of Poland",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão dos Países Baixos",
+      "titulo": "en:Coat of arms of the Netherlands",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Brasão da Bélgica",
+      "titulo": "en:Coat of arms of Belgium",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão da Áustria",
+      "titulo": "en:Coat of arms of Austria",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão da Grécia",
+      "titulo": "en:Coat of arms of Greece",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão da Suécia",
+      "titulo": "en:Coat of arms of Sweden",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão da Irlanda",
+      "titulo": "en:Coat of arms of Ireland",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Brasão da África do Sul",
+      "titulo": "en:Coat of arms of South Africa",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Emblema do Irã",
+      "titulo": "en:Emblem of Iran",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Emblema da Arábia Saudita",
+      "titulo": "en:Emblem of Saudi Arabia",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Brasão do estado do Rio de Janeiro",
+      "titulo": "pt:Brasão do estado do Rio de Janeiro",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão de Minas Gerais",
+      "titulo": "pt:Brasão de Minas Gerais",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão da Finlândia",
+      "titulo": "en:Coat of arms of Finland",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão da Tchéquia",
+      "titulo": "en:Coat of arms of the Czech Republic",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão da Eslováquia",
+      "titulo": "en:Coat of arms of Slovakia",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão da Sérvia",
+      "titulo": "en:Coat of arms of Serbia",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão da Lituânia",
+      "titulo": "en:Coat of arms of Lithuania",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Brasão da Islândia",
+      "titulo": "en:Coat of arms of Iceland",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Brasão de Marrocos",
+      "titulo": "en:Coat of arms of Morocco",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão do Quênia",
+      "titulo": "en:Coat of arms of Kenya",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Brasão da Jamaica",
+      "titulo": "en:Coat of arms of Jamaica",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão da Geórgia",
+      "titulo": "en:Coat of arms of Georgia (country)",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Emblema da Tailândia",
+      "titulo": "en:Emblem of Thailand",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasão da Nova Zelândia",
+      "titulo": "en:Coat of arms of New Zealand",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }
