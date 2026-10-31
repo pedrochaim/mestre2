@@ -1,0 +1,274 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retábulo claro; assinatura minúscula quase ilegível.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que pintor italiano do Renascimento pintou este retábulo veneziano?",
+      "resposta": "Ticiano",
+      "distratores": [
+        "Veronese",
+        "Tintoretto",
+        "Giorgione"
+      ],
+      "ancora": {
+        "nome": "Assunção da Virgem (Ticiano)",
+        "descricao": "Retábulo de Ticiano na Basílica dos Frari, em Veneza, pintado entre 1515 e 1518.",
+        "variantes": [
+          "Assunta",
+          "Assunção de Frari"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem nítida, sem texto; pintura negra de Goya reconhecível.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que pintor espanhol fez esta cena, pintada a óleo na parede de sua própria casa?",
+      "resposta": "Francisco de Goya",
+      "distratores": [
+        "Diego Velázquez",
+        "El Greco",
+        "Bartolomé Murillo"
+      ],
+      "ancora": {
+        "nome": "O Sabá das Bruxas (Goya)",
+        "descricao": "Pintura mural de Goya, das Pinturas Negras, que mostra um sabá de bruxas diante de um bode.",
+        "variantes": [
+          "O Grande Bode",
+          "Aquelarre",
+          "El gran cabrón"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem clara; assinatura cirílica pequena, não entrega.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica o museu que guarda este quadro russo de uma pilha de crânios?",
+      "resposta": "Moscou",
+      "distratores": [
+        "São Petersburgo",
+        "Kiev",
+        "Minsk"
+      ],
+      "ancora": {
+        "nome": "A Apoteose da Guerra (Vereshchagin)",
+        "descricao": "Pintura de 1871 de Vasily Vereshchagin que mostra uma pirâmide de crânios diante de uma cidade da Ásia Central.",
+        "variantes": [
+          "The Apotheosis of War",
+          "Apofeoz Voyny"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pintura nítida, sem texto; século como resposta evita ano.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que século foi pintado este quadro holandês de uma mulher no banho?",
+      "resposta": "Século dezessete",
+      "distratores": [
+        "Século quinze",
+        "Século dezesseis",
+        "Século dezoito"
+      ],
+      "ancora": {
+        "nome": "Betsabá no Banho (Rembrandt)",
+        "descricao": "Pintura a óleo de Rembrandt de 1654, no Louvre, que retrata Betsabá em seu banho.",
+        "variantes": [
+          "Bathsheba at Her Bath",
+          "Betsabé com a carta do rei Davi"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Alegoria clara; 'School Book' no livro não entrega a resposta.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta alegoria americana do século dezenove ilustra qual ideia?",
+      "resposta": "Destino Manifesto",
+      "distratores": [
+        "Doutrina Monroe",
+        "Lei Homestead",
+        "Corrida do Ouro"
+      ],
+      "ancora": {
+        "nome": "Progresso Americano (John Gast)",
+        "descricao": "Pintura de 1872 de John Gast, alegoria do Destino Manifesto, com uma mulher luminosa que guia colonos para o oeste.",
+        "variantes": [
+          "American Progress"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem nítida sem texto; Turner reconhecível.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que movimento artístico do século dezenove inclui esta pintura marítima de um mar em tempestade?",
+      "resposta": "Romantismo",
+      "distratores": [
+        "Realismo",
+        "Neoclassicismo",
+        "Barroco"
+      ],
+      "ancora": {
+        "nome": "O Navio Negreiro (Turner)",
+        "descricao": "Pintura de J. M. W. Turner, exibida em 1840, com um navio negreiro e corpos na água em meio a uma tempestade.",
+        "variantes": [
+          "The Slave Ship",
+          "Slavers Throwing Overboard the Dead and Dying"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Obra nítida e sem texto.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estilo artístico italiano do início do século dezessete é este quadro?",
+      "resposta": "Barroco",
+      "distratores": [
+        "Rococó",
+        "Maneirismo",
+        "Renascimento"
+      ],
+      "ancora": {
+        "nome": "Amor Vincit Omnia (Caravaggio)",
+        "descricao": "Pintura de Caravaggio, de 1601-1602, que mostra um Cupido sorridente e vitorioso sobre instrumentos e armaduras.",
+        "variantes": [
+          "Amor Vitorioso",
+          "Cupido Vitorioso",
+          "Amor Victorious"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Montagem de duas gravuras (Beer Street e Gin Lane) com os títulos escritos na imagem, que entregam a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Obra nítida; a assinatura 'Gauguin' aparece, então a pergunta é pelo título, não pelo autor.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é o título deste quadro simbolista francês de uma crucificação na Bretanha?",
+      "resposta": "O Cristo Amarelo",
+      "distratores": [
+        "O Cristo Verde",
+        "O Cristo Dourado",
+        "O Cristo Vermelho"
+      ],
+      "ancora": {
+        "nome": "O Cristo Amarelo",
+        "descricao": "Pintura de Paul Gauguin de 1889 que mostra um Cristo crucificado amarelo e mulheres bretãs rezando.",
+        "variantes": [
+          "Le Christ jaune",
+          "The Yellow Christ"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Paisagem clara; assinatura cirílica pequena não entrega a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave, vista aos montes nas árvores, dá nome a este famoso quadro russo do fim do inverno?",
+      "resposta": "Gralhas",
+      "distratores": [
+        "Cegonhas",
+        "Andorinhas",
+        "Pombos"
+      ],
+      "ancora": {
+        "nome": "As Gralhas Voltaram (Savrasov)",
+        "descricao": "Paisagem de Alexei Savrasov de 1871, na Galeria Tretyakov, com gralhas em bétulas diante de uma igreja.",
+        "variantes": [
+          "Os Corvos Voltaram",
+          "The Rooks Have Returned",
+          "Grachi prileteli"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que museu de Paris está este retrato renascentista de uma dama?",
+      "resposta": "Louvre",
+      "distratores": [
+        "Museu d'Orsay",
+        "Museu da Orangerie",
+        "Centro Pompidou"
+      ],
+      "ancora": {
+        "nome": "La Belle Ferronnière (Leonardo)",
+        "descricao": "Retrato de uma dama desconhecida atribuído a Leonardo da Vinci, no Louvre.",
+        "variantes": [
+          "Retrato de uma Dama Desconhecida",
+          "La Belle Ferronnière"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Gravura colorida nítida e sem texto além de um número.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é o título desta obra do poeta e gravador inglês William Blake, com um velho e um compasso?",
+      "resposta": "O Ancião dos Dias",
+      "distratores": [
+        "Newton",
+        "O Grande Dragão Vermelho",
+        "O Fantasma da Pulga"
+      ],
+      "ancora": {
+        "nome": "O Ancião dos Dias (William Blake)",
+        "descricao": "Gravura colorida de William Blake de 1794 que mostra Urizen curvado, medindo o vazio com um compasso.",
+        "variantes": [
+          "The Ancient of Days"
+        ]
+      }
+    }
+  ]
+}

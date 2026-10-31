@@ -1,0 +1,137 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos; a pista (retábulo veneziano) não entrega o autor e os distratores são pintores venezianos críveis, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pintada a óleo na parede da própria casa, em obra de Pinturas Negras, é uma pista famosa que entrega Goya sem olhar a figura. Troquei por época (1819 a 1823, confirmada no trecho).",
+      "reescrita": {
+        "pergunta": "Que pintor espanhol fez esta cena por volta do ano de 1820?",
+        "resposta": "Francisco de Goya",
+        "distratores": [
+          "Diego Velázquez",
+          "El Greco",
+          "Bartolomé Murillo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O quadro está na Galeria Tretyakov, em Moscou (fato amplamente documentado). Enunciado só descreve a imagem, resposta única e distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pintado em 1654 (trecho), logo século dezessete. Enunciado não vaza e os distratores são séculos vizinhos, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Destino Manifesto confirmado nos trechos. Os distratores Lei Homestead e Corrida do Ouro não são ideias como a resposta, o que denuncia a resposta; troquei por ideias políticas do mesmo tipo.",
+      "reescrita": {
+        "pergunta": "Esta alegoria americana do século dezenove ilustra qual ideia?",
+        "resposta": "Destino Manifesto",
+        "distratores": [
+          "Doutrina Monroe",
+          "Isolacionismo",
+          "Pan-americanismo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho a descreve como exemplo clássico de pintura marítima romântica. Pergunta de nível 3 sem vazamento; distratores são movimentos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Estilo italiano do início do século dezessete entrega Barroco sem ver a imagem (figura vira enfeite), e o próprio trecho nota afinidade com o Renascimento. Passei a pedir o autor.",
+      "reescrita": {
+        "pergunta": "Que pintor italiano, ativo em Roma por volta de 1600, fez este quadro?",
+        "resposta": "Caravaggio",
+        "distratores": [
+          "Annibale Carracci",
+          "Guido Reni",
+          "Artemisia Gentileschi"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Título confirmado. O distrator O Cristo Dourado pode ser confundido com o amarelo da imagem; troquei por cor claramente distinta, mantendo O Cristo Verde, obra real de Gauguin.",
+      "reescrita": {
+        "pergunta": "Qual é o título deste quadro simbolista francês de uma crucificação na Bretanha?",
+        "resposta": "O Cristo Amarelo",
+        "distratores": [
+          "O Cristo Verde",
+          "O Cristo Azul",
+          "O Cristo Vermelho"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Título e obra confirmados, mas fim do inverno não é literalmente sustentado pelos trechos (a cena é de início de primavera). Removi a afirmação imprecisa.",
+      "reescrita": {
+        "pergunta": "Que ave, vista aos montes nas árvores, dá nome a este famoso quadro russo de paisagem?",
+        "resposta": "Gralhas",
+        "distratores": [
+          "Cegonhas",
+          "Andorinhas",
+          "Pombos"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Retrato renascentista em museu de Paris leva ao Louvre sem a figura, e os distratores não são museus de arte renascentista. Passei a pedir o autor, com cautela por ser atribuição tradicional.",
+      "reescrita": {
+        "pergunta": "Que artista renascentista italiano é tradicionalmente apontado como autor deste retrato de dama?",
+        "resposta": "Leonardo da Vinci",
+        "distratores": [
+          "Rafael",
+          "Botticelli",
+          "Ticiano"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Um velho e um compasso é quase sinônimo do título (ancião) e entrega a resposta; além disso, Newton, de Blake, também traz um homem com compasso, então o distrator seria defensável. Troquei pela data e técnica.",
+      "reescrita": {
+        "pergunta": "Qual é o título desta gravura colorida, ligada a uma obra publicada em 1794 pelo poeta inglês William Blake?",
+        "resposta": "O Ancião dos Dias",
+        "distratores": [
+          "Newton",
+          "O Grande Dragão Vermelho",
+          "O Fantasma da Pulga"
+        ]
+      }
+    }
+  ]
+}
