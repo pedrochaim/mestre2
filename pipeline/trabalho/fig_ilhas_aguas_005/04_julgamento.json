@@ -1,0 +1,577 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ibiza",
+        "descricao": "Ilha espanhola do Mediterrâneo, a terceira maior das Ilhas Baleares, famosa pela vida noturna.",
+        "variantes": [
+          "Eivissa",
+          "Iviza"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_libia",
+          "nome": "Bandeira da Líbia",
+          "descricao": "Bandeira nacional da Líbia, com listras vermelha, preta e verde e crescente com estrela brancos.",
+          "variantes": [
+            "Líbia",
+            "Bandeira líbia"
+          ]
+        },
+        {
+          "id": "tibia",
+          "nome": "Tíbia",
+          "descricao": "Osso longo da perna, entre o joelho e o tornozelo, que forma a canela.",
+          "variantes": [
+            "Osso da canela"
+          ]
+        },
+        {
+          "id": "iza",
+          "nome": "Iza",
+          "descricao": "Cantora, compositora e dançarina brasileira nascida em 1990, que ficou famosa com covers no YouTube.",
+          "variantes": [
+            "Isabela Cristina Correia de Lima"
+          ]
+        },
+        {
+          "id": "jiboia",
+          "nome": "Jiboia",
+          "descricao": "Serpente constritora não venenosa da América tropical, Boa constrictor.",
+          "variantes": [
+            "Jiboia-constritora",
+            "Boa constrictor"
+          ]
+        },
+        {
+          "id": "gol_baliza",
+          "nome": "Gol (baliza)",
+          "descricao": "Armação formada por duas traves e um travessão onde a bola deve entrar para valer um gol no futebol.",
+          "variantes": [
+            "Baliza",
+            "Meta",
+            "Goal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pirâmide de Ball",
+        "descricao": "Ilhéu rochoso vulcânico no Pacífico, a sudeste da Ilha Lord Howe, o maior pináculo vulcânico do mundo.",
+        "variantes": [
+          "Ball's Pyramid"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piramide_do_sol_teotihuacan",
+          "nome": "Pirâmide do Sol (Teotihuacan)",
+          "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
+          "variantes": [
+            "Pirâmide do Sol",
+            "Pyramid of the Sun",
+            "Pirámide del Sol"
+          ]
+        },
+        {
+          "id": "piramides_de_gize",
+          "nome": "Pirâmides de Gizé",
+          "descricao": "Conjunto de três grandes pirâmides do Egito Antigo no planalto de Gizé, perto do Cairo.",
+          "variantes": [
+            "Complexo de Gizé",
+            "Giza pyramid complex",
+            "Pirâmides de Giza"
+          ]
+        },
+        {
+          "id": "piramide_de_quefren",
+          "nome": "Pirâmide de Quéfren",
+          "descricao": "Segunda maior pirâmide de Gizé, túmulo do faraó Quéfren da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Khafre",
+            "Pyramid of Khafre",
+            "Pirâmide de Chefren"
+          ]
+        },
+        {
+          "id": "piramide_de_djoser",
+          "nome": "Pirâmide de Djoser",
+          "descricao": "Pirâmide de degraus construída em Sacará no século vinte e sete antes de Cristo para o faraó Djoser, considerada a primeira pirâmide egípcia",
+          "variantes": [
+            "Pirâmide de Degraus",
+            "Pyramid of Djoser",
+            "Pirâmide de Zoser"
+          ]
+        },
+        {
+          "id": "grande_piramide_de_cholula",
+          "nome": "Grande Pirâmide de Cholula",
+          "descricao": "Enorme pirâmide pré-colombiana no estado mexicano de Puebla, hoje coberta de terra e com uma igreja no topo.",
+          "variantes": [
+            "Pirâmide de Cholula",
+            "Tlachihualtépetl"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Malta",
+        "descricao": "A maior e mais populosa ilha do arquipélago maltês, no Mediterrâneo, ao sul da Itália.",
+        "variantes": [
+          "Ilha de Malta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "malta",
+          "nome": "Malta",
+          "descricao": "País insular do Mar Mediterrâneo, ao sul da Sicília, cuja capital é Valeta.",
+          "variantes": [
+            "República de Malta"
+          ]
+        },
+        {
+          "id": "bandeira_de_malta",
+          "nome": "Bandeira de Malta",
+          "descricao": "Bandeira nacional de Malta, metade branca e metade vermelha, com a Cruz de São Jorge no canto.",
+          "variantes": [
+            "Malta",
+            "Bandeira maltesa"
+          ]
+        },
+        {
+          "id": "japamala",
+          "nome": "Japamala",
+          "descricao": "Cordão de contas usado para contar orações e mantras no hinduísmo e no budismo",
+          "variantes": [
+            "Mala",
+            "Japa mala"
+          ]
+        },
+        {
+          "id": "bandeira_da_ilha_de_man",
+          "nome": "Bandeira da Ilha de Man",
+          "descricao": "Bandeira da dependência da Coroa britânica Ilha de Man, com três pernas armadas em triskelion sobre fundo vermelho.",
+          "variantes": [
+            "Ilha de Man",
+            "Isle of Man",
+            "Mann"
+          ]
+        },
+        {
+          "id": "ilha_de_alcatraz",
+          "nome": "Ilha de Alcatraz",
+          "descricao": "Ilha na baía de São Francisco, na Califórnia, que abrigou uma prisão federal de segurança máxima.",
+          "variantes": [
+            "Alcatraz",
+            "Alcatraz Island"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Cataratas do Iguaçu",
+        "descricao": "Sistema de quedas-d'água do Rio Iguaçu na fronteira entre Paraná, no Brasil, e Misiones, na Argentina.",
+        "variantes": [
+          "Cataratas do Iguazú",
+          "Iguazú Falls"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cataratas_do_iguacu",
+          "nome": "Cataratas do Iguaçu",
+          "descricao": "Conjunto de quedas d'água do rio Iguaçu, na fronteira entre o Paraná, no Brasil, e a província argentina de Misiones.",
+          "variantes": [
+            "Iguaçu",
+            "Cataratas del Iguazú",
+            "Iguazu Falls",
+            "Foz do Iguaçu"
+          ]
+        },
+        {
+          "id": "cataratas_do_niagara",
+          "nome": "Cataratas do Niágara",
+          "descricao": "Grupo de três quedas d'água no Rio Niágara, na fronteira entre Ontário e Nova York.",
+          "variantes": [
+            "Niagara Falls"
+          ]
+        },
+        {
+          "id": "gullfoss",
+          "nome": "Gullfoss",
+          "descricao": "Cachoeira no cânion do rio Hvítá, no sudoeste da Islândia, parada do Círculo Dourado.",
+          "variantes": [
+            "Cataratas Douradas",
+            "Golden Falls"
+          ]
+        },
+        {
+          "id": "salto_de_sete_quedas",
+          "nome": "Salto de Sete Quedas",
+          "descricao": "Conjunto de cachoeiras do rio Paraná, na fronteira entre Brasil e Paraguai, submerso em 1982.",
+          "variantes": [
+            "Sete Quedas",
+            "Salto del Guairá",
+            "Guaíra Falls",
+            "Salto de Guaíra",
+            "Saltos del Guairá"
+          ]
+        },
+        {
+          "id": "cataratas_vitoria",
+          "nome": "Cataratas Vitória",
+          "descricao": "Queda d'água do rio Zambeze, na fronteira entre Zâmbia e Zimbábue.",
+          "variantes": [
+            "Victoria Falls",
+            "Mosi-oa-Tunya"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Ilhas Cagarras",
+        "descricao": "Arquipélago desabitado a cerca de cinco quilômetros de Ipanema, no Rio de Janeiro.",
+        "variantes": [
+          "Arquipélago das Cagarras"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilhas_canarias",
+          "nome": "Ilhas Canárias",
+          "descricao": "Arquipélago espanhol no oceano Atlântico, diante da costa do Marrocos e do Saara Ocidental.",
+          "variantes": [
+            "Canárias",
+            "Canary Islands",
+            "Islas Canarias"
+          ]
+        },
+        {
+          "id": "acores",
+          "nome": "Açores",
+          "descricao": "Arquipélago português no meio do oceano Atlântico Norte, região autônoma de Portugal.",
+          "variantes": [
+            "Arquipélago dos Açores",
+            "Ilhas dos Açores",
+            "Azores"
+          ]
+        },
+        {
+          "id": "madeira",
+          "nome": "Madeira",
+          "descricao": "Arquipélago português no oceano Atlântico, região autônoma cuja capital é Funchal, na ilha da Madeira.",
+          "variantes": [
+            "Arquipélago da Madeira",
+            "Região Autónoma da Madeira"
+          ]
+        },
+        {
+          "id": "arquipelago_de_abrolhos",
+          "nome": "Arquipélago de Abrolhos",
+          "descricao": "Arquipélago no litoral sul da Bahia, sede do primeiro parque nacional marinho do Brasil.",
+          "variantes": [
+            "Abrolhos",
+            "Abrolhos Archipelago",
+            "Arquipélago dos Abrolhos",
+            "Parque Nacional Marinho dos Abrolhos"
+          ]
+        },
+        {
+          "id": "ilhas_baleares",
+          "nome": "Ilhas Baleares",
+          "descricao": "Arquipélago espanhol no oeste do mar Mediterrâneo, formado por Maiorca, Menorca, Ibiza e Formentera.",
+          "variantes": [
+            "Baleares"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Socotra",
+        "descricao": "Maior ilha do arquipélago homônimo, no Oceano Índico, pertencente ao Iêmen e com flora endêmica.",
+        "variantes": [
+          "Socotorá",
+          "Soqotra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "socotra",
+          "nome": "Socotra",
+          "descricao": "Maior ilha do arquipélago de Socotra, no oceano Índico, pertencente ao Iêmen e conhecida pelas espécies endêmicas.",
+          "variantes": [
+            "Socotorá",
+            "Soqotra"
+          ]
+        },
+        {
+          "id": "do_contra",
+          "nome": "Do Contra",
+          "descricao": "Menino rebelde e diferentão da Turma da Mônica, irmão do ilusionista Nimbus.",
+          "variantes": [
+            "Mauricio Hiromashi"
+          ]
+        },
+        {
+          "id": "circuito_das_americas",
+          "nome": "Circuito das Américas",
+          "descricao": "Autódromo de Austin, Texas, EUA, sede do GP dos Estados Unidos de Fórmula 1.",
+          "variantes": [
+            "Circuit of the Americas",
+            "COTA"
+          ]
+        },
+        {
+          "id": "socrates",
+          "nome": "Sócrates",
+          "descricao": "Sócrates Brasileiro Sampaio de Souza Vieira de Oliveira, meia do Corinthians e capitão da seleção brasileira na Copa de 1982.",
+          "variantes": [
+            "Doutor Sócrates",
+            "Magrão"
+          ]
+        },
+        {
+          "id": "socrates_2",
+          "nome": "Sócrates",
+          "descricao": "Filósofo grego de Atenas (c. 470–399 a.C.), mestre de Platão, retratado aqui em busto de mármore.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Cataratas Vitória",
+        "descricao": "Queda-d'água do Rio Zambeze na fronteira entre Zâmbia e Zimbábue.",
+        "variantes": [
+          "Victoria Falls",
+          "Mosi-oa-Tunya"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cataratas_vitoria",
+          "nome": "Cataratas Vitória",
+          "descricao": "Queda d'água do rio Zambeze, na fronteira entre Zâmbia e Zimbábue.",
+          "variantes": [
+            "Victoria Falls",
+            "Mosi-oa-Tunya"
+          ]
+        },
+        {
+          "id": "cataratas_kaieteur",
+          "nome": "Cataratas Kaieteur",
+          "descricao": "Queda d'água de 226 metros no Rio Potaro, no Parque Nacional Kaieteur, na Guiana.",
+          "variantes": [
+            "Kaieteur Falls",
+            "Cataratas de Kaieteur"
+          ]
+        },
+        {
+          "id": "gullfoss",
+          "nome": "Gullfoss",
+          "descricao": "Cachoeira no cânion do rio Hvítá, no sudoeste da Islândia, parada do Círculo Dourado.",
+          "variantes": [
+            "Cataratas Douradas",
+            "Golden Falls"
+          ]
+        },
+        {
+          "id": "cataratas_havasu",
+          "nome": "Cataratas Havasu",
+          "descricao": "Cachoeira de água turquesa no Havasu Creek, dentro do Grand Canyon, no Arizona.",
+          "variantes": [
+            "Havasu Falls"
+          ]
+        },
+        {
+          "id": "fuga_para_a_vitoria",
+          "nome": "Fuga para a Vitória",
+          "descricao": "Filme de 1981 dirigido por John Huston, sobre prisioneiros aliados que enfrentam uma seleção nazista no futebol.",
+          "variantes": [
+            "Escape to Victory",
+            "Victory"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Grande Lago Salgado",
+        "descricao": "Maior lago de água salgada do Hemisfério Ocidental, no norte de Utah, nos Estados Unidos.",
+        "variantes": [
+          "Great Salt Lake"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pre_sal",
+          "nome": "Pré-sal",
+          "descricao": "Camada de rochas sob uma espessa camada de sal no litoral brasileiro, que guarda grandes reservas de petróleo.",
+          "variantes": [
+            "Camada pré-sal",
+            "Pre-salt layer"
+          ]
+        },
+        {
+          "id": "pagode_shwedagon",
+          "nome": "Pagode Shwedagon",
+          "descricao": "Estupa dourada, o pagode budista mais sagrado de Mianmar, em Yangon.",
+          "variantes": [
+            "Shwedagon Pagoda",
+            "Pagode Dourado",
+            "Grande Pagode Dagon"
+          ]
+        },
+        {
+          "id": "big_bang",
+          "nome": "Big Bang",
+          "descricao": "Teoria cosmológica segundo a qual o universo se expande a partir de um estado inicial muito quente e denso.",
+          "variantes": [
+            "Teoria do Big Bang",
+            "Grande Explosão"
+          ]
+        },
+        {
+          "id": "grande_fedor",
+          "nome": "Grande Fedor",
+          "descricao": "Episódio do verão de 1858 em que o mau cheiro do rio Tâmisa, poluído por esgoto, tomou conta de Londres.",
+          "variantes": [
+            "Great Stink",
+            "Grande Mau Cheiro"
+          ]
+        },
+        {
+          "id": "estacao_saint_lazare",
+          "nome": "Estação Saint-Lazare",
+          "descricao": "Estação ferroviária de Paris inaugurada em 1837, uma das mais movimentadas da França.",
+          "variantes": [
+            "Gare Saint-Lazare"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Lagoa Mirim",
+        "descricao": "Grande lagoa estuarina entre o sul do Rio Grande do Sul e o leste do Uruguai.",
+        "variantes": [
+          "Laguna Merín",
+          "Lagoon Mirim"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caja",
+          "nome": "Cajá",
+          "descricao": "Fruto da cajazeira (Spondias mombin), amarelo, de polpa fina e azedinha, comum no Nordeste do Brasil.",
+          "variantes": [
+            "Taperebá",
+            "Cajá-mirim",
+            "Spondias mombin"
+          ]
+        },
+        {
+          "id": "agua_marinha",
+          "nome": "Água-marinha",
+          "descricao": "Gema azul-esverdeada, variedade do mineral berilo, com grandes jazidas no Brasil.",
+          "variantes": [
+            "Aquamarine"
+          ]
+        },
+        {
+          "id": "ana_neri",
+          "nome": "Ana Néri",
+          "descricao": "Enfermeira baiana do século dezenove, considerada a patrona da enfermagem no Brasil.",
+          "variantes": [
+            "Anna Nery",
+            "Ana Justina Ferreira Néri"
+          ]
+        },
+        {
+          "id": "lago_erie",
+          "nome": "Lago Erie",
+          "descricao": "Um dos cinco Grandes Lagos da América do Norte, na fronteira entre os Estados Unidos e o Canadá, às margens do qual fica Cleveland.",
+          "variantes": [
+            "Lake Erie"
+          ]
+        },
+        {
+          "id": "lago_vitoria",
+          "nome": "Lago Vitória",
+          "descricao": "Maior lago da África, dividido entre Uganda, Quênia e Tanzânia.",
+          "variantes": [
+            "Lake Victoria",
+            "Lago Victoria",
+            "Nyanza"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ibiza é uma ilha; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pirâmide de Ball é um ilhéu vulcânico, não uma pirâmide construída."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A proposta é a ilha de Malta; a candidata 'malta' é o país, que é outra entidade."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "cataratas_do_iguacu",
+      "motivo": "Mesma queda-d'água do rio Iguaçu na fronteira Paraná/Misiones."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Ilhas Cagarras (RJ) não aparecem entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "socotra",
+      "motivo": "Mesma ilha de Socotra, no Iêmen, com as mesmas variantes."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "cataratas_vitoria",
+      "motivo": "Mesma queda-d'água do Zambeze entre Zâmbia e Zimbábue."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Great Salt Lake, em Utah, não aparece entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Lagoa Mirim não aparece entre as candidatas."
+    }
+  ]
+}

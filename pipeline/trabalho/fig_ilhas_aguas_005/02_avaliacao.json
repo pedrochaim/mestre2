@@ -1,0 +1,231 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Praia de Ibiza com o ilhéu Es Vedrà ao fundo, paisagem característica, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "A que arquipélago pertence a ilha desta paisagem?",
+      "resposta": "Ilhas Baleares",
+      "distratores": [
+        "Ilhas Canárias",
+        "Ilhas Cíes",
+        "Ilhas Eólias"
+      ],
+      "ancora": {
+        "nome": "Ibiza",
+        "descricao": "Ilha espanhola do Mediterrâneo, a terceira maior das Ilhas Baleares, famosa pela vida noturna.",
+        "variantes": [
+          "Eivissa",
+          "Iviza"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Rocha vulcânica piramidal inconfundível, sem texto, legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta rocha vulcânica no Pacífico fica perto de qual ilha australiana?",
+      "resposta": "Ilha Lord Howe",
+      "distratores": [
+        "Ilha Norfolk",
+        "Ilha Macquarie",
+        "Ilha Christmas"
+      ],
+      "ancora": {
+        "nome": "Pirâmide de Ball",
+        "descricao": "Ilhéu rochoso vulcânico no Pacífico, a sudeste da Ilha Lord Howe, o maior pináculo vulcânico do mundo.",
+        "variantes": [
+          "Ball's Pyramid"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto de uma árvore alagada, sem elementos que permitam reconhecer o Rio Araguaia; não é identificável."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem de satélite da ilha com contorno característico, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é a capital do país formado por esta ilha?",
+      "resposta": "Valeta",
+      "distratores": [
+        "Rabat",
+        "Sliema",
+        "Victoria"
+      ],
+      "ancora": {
+        "nome": "Malta",
+        "descricao": "A maior e mais populosa ilha do arquipélago maltês, no Mediterrâneo, ao sul da Itália.",
+        "variantes": [
+          "Ilha de Malta"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista aérea clara e emblemática das cataratas, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Estas cataratas ficam na fronteira entre o Brasil e qual país?",
+      "resposta": "Argentina",
+      "distratores": [
+        "Paraguai",
+        "Uruguai",
+        "Bolívia"
+      ],
+      "ancora": {
+        "nome": "Cataratas do Iguaçu",
+        "descricao": "Sistema de quedas-d'água do Rio Iguaçu na fronteira entre Paraná, no Brasil, e Misiones, na Argentina.",
+        "variantes": [
+          "Cataratas do Iguazú",
+          "Iguazú Falls"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ilhas vistas do alto diante da orla carioca, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Estas ilhas ficam diante de qual praia carioca?",
+      "resposta": "Ipanema",
+      "distratores": [
+        "Copacabana",
+        "Barra da Tijuca",
+        "Botafogo"
+      ],
+      "ancora": {
+        "nome": "Ilhas Cagarras",
+        "descricao": "Arquipélago desabitado a cerca de cinco quilômetros de Ipanema, no Rio de Janeiro.",
+        "variantes": [
+          "Arquipélago das Cagarras"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com formato alongado característico da ilha, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta ilha do Oceano Índico pertence a qual país?",
+      "resposta": "Iêmen",
+      "distratores": [
+        "Omã",
+        "Somália",
+        "Eritreia"
+      ],
+      "ancora": {
+        "nome": "Socotra",
+        "descricao": "Maior ilha do arquipélago homônimo, no Oceano Índico, pertencente ao Iêmen e com flora endêmica.",
+        "variantes": [
+          "Socotorá",
+          "Soqotra"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista aérea característica das cataratas, com a ponte; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que cataratas africanas são estas?",
+      "resposta": "Cataratas Vitória",
+      "distratores": [
+        "Cataratas Murchison",
+        "Cataratas Kalambo",
+        "Cataratas do Tugela"
+      ],
+      "ancora": {
+        "nome": "Cataratas Vitória",
+        "descricao": "Queda-d'água do Rio Zambeze na fronteira entre Zâmbia e Zimbábue.",
+        "variantes": [
+          "Victoria Falls",
+          "Mosi-oa-Tunya"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com a forma e a divisão de cores típicas do lago, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este lago salgado fica em qual estado americano?",
+      "resposta": "Utah",
+      "distratores": [
+        "Nevada",
+        "Idaho",
+        "Wyoming"
+      ],
+      "ancora": {
+        "nome": "Grande Lago Salgado",
+        "descricao": "Maior lago de água salgada do Hemisfério Ocidental, no norte de Utah, nos Estados Unidos.",
+        "variantes": [
+          "Great Salt Lake"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem de satélite da lagoa com a faixa de areia e a linha da fronteira, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Esta lagoa fica na fronteira do Brasil com qual país?",
+      "resposta": "Uruguai",
+      "distratores": [
+        "Argentina",
+        "Paraguai",
+        "Chile"
+      ],
+      "ancora": {
+        "nome": "Lagoa Mirim",
+        "descricao": "Grande lagoa estuarina entre o sul do Rio Grande do Sul e o leste do Uruguai.",
+        "variantes": [
+          "Laguna Merín",
+          "Lagoon Mirim"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Dunas com lagoas e mar: paisagem parecida com os Lençóis Maranhenses, sem elementos que identifiquem o Delta do Parnaíba; resposta não única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Rochedos calcários genéricos com um barco; paisagem cárstica parecida com a da Tailândia ou da China, sem resposta única diante da imagem."
+    }
+  ]
+}

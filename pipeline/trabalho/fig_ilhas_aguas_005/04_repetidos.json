@@ -1,0 +1,94 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Estas cataratas ficam na fronteira entre o Brasil e qual país?",
+        "resposta": "Argentina"
+      },
+      "existentes": [
+        {
+          "id": "q02064",
+          "pergunta": "Em tupi-guarani, o que significa o nome Iguaçu?",
+          "resposta": "Água grande"
+        },
+        {
+          "id": "q02065",
+          "pergunta": "Que nome tem a queda das Cataratas do Iguaçu, uma fenda longa e estreita que recebe cerca de metade da vazão do rio?",
+          "resposta": "Garganta do Diabo"
+        },
+        {
+          "id": "q06713",
+          "pergunta": "Que explorador espanhol é considerado o primeiro europeu a ver as Cataratas do Iguaçu, no século dezesseis?",
+          "resposta": "Cabeza de Vaca"
+        },
+        {
+          "id": "q15264",
+          "pergunta": "Que cataratas são estas?",
+          "resposta": "Cataratas do Iguaçu"
+        },
+        {
+          "id": "q16553",
+          "pergunta": "Em que estado brasileiro ficam estas quedas-d'água?",
+          "resposta": "Paraná"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Esta ilha do Oceano Índico pertence a qual país?",
+        "resposta": "Iêmen"
+      },
+      "existentes": [
+        {
+          "id": "q14244",
+          "pergunta": "Em que país fica esta ilha, vista do espaço?",
+          "resposta": "Iêmen"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que cataratas africanas são estas?",
+        "resposta": "Cataratas Vitória"
+      },
+      "existentes": [
+        {
+          "id": "q02066",
+          "pergunta": "Os povos locais chamam as Cataratas Vitória de Mosi-oa-Tunya. O que significa esse nome?",
+          "resposta": "A fumaça que troveja"
+        },
+        {
+          "id": "q02067",
+          "pergunta": "Em 1855, que explorador escocês deu às grandes cataratas do rio Zambeze o nome da rainha britânica?",
+          "resposta": "David Livingstone"
+        },
+        {
+          "id": "q09617",
+          "pergunta": "Na estação seca, turistas se banham numa piscina natural bem na borda das Cataratas Vitória. Que nome assustador ela tem?",
+          "resposta": "Piscina do Diabo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "País da fronteira é um fato diferente dos existentes (nome, estado, explorador, etc.)."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a qual país pertence a ilha, resposta Iêmen.",
+      "id_existente": "q14244"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar as cataratas pela imagem é diferente dos fatos existentes sobre significado, explorador e piscina."
+    }
+  ]
+}
