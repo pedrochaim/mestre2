@@ -1,0 +1,232 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida do lançamento de um Saturn V; reconhecível pela silhueta e pela torre.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que foguete americano é este?",
+      "resposta": "Saturn V",
+      "distratores": [
+        "Falcon 9",
+        "Atlas V",
+        "Ariane 5"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Saturn V",
+        "descricao": "Foguete lunar de três estágios da NASA usado no programa Apollo.",
+        "variantes": [
+          "Saturno V"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem em H-alfa mostra bem um filamento escuro sobre o disco solar; sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estrutura solar é esta faixa escura sobre o disco do Sol?",
+      "resposta": "Proeminência solar (filamento)",
+      "distratores": [
+        "Mancha solar",
+        "Grânulo solar",
+        "Ejeção de massa coronal"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Proeminência solar",
+        "descricao": "Estrutura de plasma e campo magnético que se projeta da superfície do Sol, vista como filamento escuro quando está sobre o disco.",
+        "variantes": [
+          "Filamento solar"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem da DART mostra a superfície de blocos de Dimorphos, característica; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que lua de asteroide, coberta de pedregulhos, é esta?",
+      "resposta": "Dimorphos",
+      "distratores": [
+        "Dactyl",
+        "Phobos",
+        "Linus"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dimorphos",
+        "descricao": "Pequena lua do asteroide Didymos, alvo da missão DART da NASA.",
+        "variantes": [
+          "Didymos I"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Balões sobre a Capadócia ao amanhecer: a imagem mostra vários assuntos e a resposta não é única (nascer do sol, balões, Capadócia)."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O crachá com 'CHRISTA' entrega a resposta e a foto é um retrato oficial com nome visível."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem icônica do Hubble, forma em X reconhecível, sem texto; pergunta sobre a constelação.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que constelação fica esta nebulosa protoplanetária?",
+      "resposta": "Monoceros (Unicórnio)",
+      "distratores": [
+        "Órion",
+        "Cassiopeia",
+        "Cisne"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nebulosa do Retângulo Vermelho",
+        "descricao": "Nebulosa protoplanetária na constelação de Monoceros, em torno da estrela binária HD 44179.",
+        "variantes": [
+          "Retângulo Vermelho",
+          "Red Rectangle",
+          "HD 44179"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto clara da ISS sobre a Terra, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estação espacial é esta?",
+      "resposta": "Estação Espacial Internacional",
+      "distratores": [
+        "Mir",
+        "Skylab",
+        "Tiangong"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estação Espacial Internacional",
+        "descricao": "Estação espacial habitada em órbita da Terra, operada por várias agências.",
+        "variantes": [
+          "ISS"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Disco escuro nítido diante do Sol, proporção compatível com Vênus; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que planeta é este pequeno disco escuro passando diante do Sol?",
+      "resposta": "Vênus",
+      "distratores": [
+        "Marte",
+        "Júpiter",
+        "Saturno"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Trânsito de Vênus",
+        "descricao": "Passagem de Vênus entre a Terra e o Sol, vista como um pequeno disco escuro sobre o disco solar.",
+        "variantes": [
+          "Passagem de Vênus"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem composta famosa do Aglomerado da Bala; escala '1.5' não entrega a resposta.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de estrutura cósmica é esta?",
+      "resposta": "Aglomerado de galáxias",
+      "distratores": [
+        "Nebulosa planetária",
+        "Aglomerado globular",
+        "Remanescente de supernova"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Aglomerado da Bala",
+        "descricao": "Par de aglomerados de galáxias em colisão, usado como evidência da matéria escura.",
+        "variantes": [
+          "Bullet Cluster",
+          "1E 0657-56"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto clara da sonda Viking (orbitador com módulo de pouso), forma distintiva; a resposta 'Viking' vale para as duas sondas gêmeas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sonda espacial americana é esta?",
+      "resposta": "Viking",
+      "distratores": [
+        "Voyager",
+        "Mariner",
+        "Galileo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Viking 1",
+        "descricao": "Sonda da NASA, com orbitador e módulo de pouso, enviada a Marte em 1975 no programa Viking.",
+        "variantes": [
+          "Programa Viking",
+          "Viking"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida da Nebulosa do Coração, vermelha por emissão de hidrogênio; sem texto.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de nebulosa é esta, de brilho avermelhado?",
+      "resposta": "Nebulosa de emissão",
+      "distratores": [
+        "Nebulosa de reflexão",
+        "Nebulosa planetária",
+        "Nebulosa escura"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nebulosa do Coração",
+        "descricao": "Nebulosa de emissão na constelação de Cassiopeia, a cerca de 7.500 anos-luz da Terra.",
+        "variantes": [
+          "Heart Nebula",
+          "IC 1805",
+          "Sharpless 2-190"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Pioneer 10 e Pioneer 11 são gêmeas, então a resposta não é única diante da imagem; há também pessoas comuns aparecendo no fundo."
+    }
+  ]
+}

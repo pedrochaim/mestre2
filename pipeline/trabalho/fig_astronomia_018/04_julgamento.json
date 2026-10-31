@@ -1,0 +1,579 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Saturn V",
+        "descricao": "Foguete lunar de três estágios da NASA usado no programa Apollo.",
+        "variantes": [
+          "Lançamento de foguete",
+          "Saturno V"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "saturn_v",
+          "nome": "Saturn V",
+          "descricao": "Foguete lunar de três estágios da NASA, usado no programa Apollo.",
+          "variantes": [
+            "Foguete",
+            "Saturno V",
+            "Saturn 5"
+          ]
+        },
+        {
+          "id": "hiperion",
+          "nome": "Hipérion",
+          "descricao": "Lua de Saturno de forma irregular, rotação caótica e aparência de esponja.",
+          "variantes": [
+            "Hyperion",
+            "Saturno VII"
+          ]
+        },
+        {
+          "id": "saturno",
+          "nome": "Saturno",
+          "descricao": "Sexto planeta a partir do Sol, gigante gasoso famoso pelos anéis.",
+          "variantes": [
+            "Saturn"
+          ]
+        },
+        {
+          "id": "pa_lua_de_saturno",
+          "nome": "Pã (lua de Saturno)",
+          "descricao": "Pequena lua de Saturno que orbita na Divisão de Encke, no anel A.",
+          "variantes": [
+            "Pan",
+            "Saturno XVIII"
+          ]
+        },
+        {
+          "id": "arremesso_de_peso",
+          "nome": "Arremesso de peso",
+          "descricao": "Prova do atletismo em que o atleta arremessa uma bola metálica pesada o mais longe possível, a partir de um círculo.",
+          "variantes": [
+            "Lançamento de peso"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Proeminência solar",
+        "descricao": "Estrutura de plasma e campo magnético que se projeta da superfície do Sol, vista como filamento escuro quando está sobre o disco.",
+        "variantes": [
+          "Filamento solar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pomo_de_adao",
+          "nome": "Pomo de adão",
+          "descricao": "Saliência na frente do pescoço formada pela cartilagem tireoide da laringe.",
+          "variantes": [
+            "Gogó",
+            "Proeminência laríngea",
+            "Adam's apple"
+          ]
+        },
+        {
+          "id": "parque_do_flamengo",
+          "nome": "Parque do Flamengo",
+          "descricao": "Grande parque construído sobre aterro à beira da baía de Guanabara, no Rio de Janeiro, inaugurado nos anos 1960.",
+          "variantes": [
+            "Aterro do Flamengo",
+            "Flamengo Park"
+          ]
+        },
+        {
+          "id": "aquecedor_solar_de_agua",
+          "nome": "Aquecedor solar de água",
+          "descricao": "Sistema de placas coletoras, geralmente instaladas em telhados, que aquece água com a energia do Sol.",
+          "variantes": [
+            "Coletor solar"
+          ]
+        },
+        {
+          "id": "usina_solar_fotovoltaica",
+          "nome": "Usina solar fotovoltaica",
+          "descricao": "Usina que converte a luz do sol em eletricidade por painéis fotovoltaicos, em grande escala.",
+          "variantes": [
+            "Parque solar",
+            "Fazenda solar",
+            "Central fotovoltaica"
+          ]
+        },
+        {
+          "id": "painel_solar",
+          "nome": "Painel solar",
+          "descricao": "Equipamento com células fotovoltaicas que converte luz solar em eletricidade.",
+          "variantes": [
+            "Painel fotovoltaico",
+            "Placa solar",
+            "Célula solar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Dimorphos",
+        "descricao": "Pequena lua do asteroide Didymos, alvo da missão DART da NASA.",
+        "variantes": [
+          "Didymos I"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dimorfodonte",
+          "nome": "Dimorfodonte",
+          "descricao": "Gênero de pterossauro de médio porte do Jurássico Inferior da Europa, com dois tipos de dentes.",
+          "variantes": [
+            "Dimorphodon"
+          ]
+        },
+        {
+          "id": "doriforo",
+          "nome": "Doríforo",
+          "descricao": "Escultura grega de Policleto, de cerca de 440 a.C., que mostra um guerreiro nu em contrapposto com uma lança, conhecida por cópias romanas em mármore.",
+          "variantes": [
+            "Doryphoros",
+            "Portador da lança"
+          ]
+        },
+        {
+          "id": "morfeu",
+          "nome": "Morfeu",
+          "descricao": "Deus grego dos sonhos, filho de Hipnos.",
+          "variantes": [
+            "Morpheus"
+          ]
+        },
+        {
+          "id": "dia_do_pi",
+          "nome": "Dia do Pi",
+          "descricao": "Data comemorativa da constante pi, celebrada em catorze de março.",
+          "variantes": [
+            "Pi Day"
+          ]
+        },
+        {
+          "id": "deimos",
+          "nome": "Deimos",
+          "descricao": "A menor e mais externa das duas luas naturais de Marte.",
+          "variantes": [
+            "Deimos (satélite)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Nebulosa do Retângulo Vermelho",
+        "descricao": "Nebulosa protoplanetária na constelação de Monoceros, em torno da estrela binária HD 44179.",
+        "variantes": [
+          "Retângulo Vermelho",
+          "Red Rectangle",
+          "HD 44179"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cartoes_amarelo_e_vermelho",
+          "nome": "Cartões amarelo e vermelho",
+          "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+          "variantes": [
+            "Cartão amarelo",
+            "Cartão vermelho",
+            "Penalty card"
+          ]
+        },
+        {
+          "id": "bandeira_do_pais_de_gales",
+          "nome": "Bandeira do País de Gales",
+          "descricao": "Bandeira do País de Gales, com um dragão vermelho sobre faixas branca e verde.",
+          "variantes": [
+            "Y Ddraig Goch",
+            "Dragão Vermelho"
+          ]
+        },
+        {
+          "id": "canguru_vermelho",
+          "nome": "Canguru-vermelho",
+          "descricao": "Maior dos cangurus e maior marsupial vivo, da Austrália continental (Osphranter rufus).",
+          "variantes": [
+            "Osphranter rufus",
+            "Macropus rufus",
+            "Red kangaroo"
+          ]
+        },
+        {
+          "id": "hemacia",
+          "nome": "Hemácia",
+          "descricao": "Célula do sangue em forma de disco bicôncavo que transporta oxigênio por meio da hemoglobina.",
+          "variantes": [
+            "Glóbulo vermelho",
+            "Eritrócito"
+          ]
+        },
+        {
+          "id": "esquilo_vermelho",
+          "nome": "Esquilo-vermelho",
+          "descricao": "Esquilo arborícola da espécie Sciurus vulgaris, de pelagem ruiva, comum na Eurásia.",
+          "variantes": [
+            "Esquilo-vermelho-eurasiático",
+            "Sciurus vulgaris"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Estação Espacial Internacional",
+        "descricao": "Estação espacial habitada em órbita da Terra, operada por várias agências.",
+        "variantes": [
+          "Estação espacial",
+          "ISS"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estacao_espacial_internacional",
+          "nome": "Estação Espacial Internacional",
+          "descricao": "Laboratório espacial habitado em órbita baixa da Terra, construído por várias agências espaciais.",
+          "variantes": [
+            "ISS",
+            "EEI",
+            "International Space Station"
+          ]
+        },
+        {
+          "id": "estacao_espacial_mir",
+          "nome": "Estação Espacial Mir",
+          "descricao": "Estação espacial modular soviética e depois russa, operada em órbita baixa de 1986 a 2001.",
+          "variantes": [
+            "Mir",
+            "Estação Mir"
+          ]
+        },
+        {
+          "id": "isis",
+          "nome": "Ísis",
+          "descricao": "Deusa egípcia da magia e da maternidade, esposa de Osíris e mãe de Hórus",
+          "variantes": [
+            "Aset"
+          ]
+        },
+        {
+          "id": "skylab",
+          "nome": "Skylab",
+          "descricao": "Primeira estação espacial dos Estados Unidos, lançada pela NASA em 1973 a partir de um estágio do foguete Saturn V.",
+          "variantes": [
+            "Skylab (estação espacial)"
+          ]
+        },
+        {
+          "id": "estacao_espacial_tiangong",
+          "nome": "Estação Espacial Tiangong",
+          "descricao": "Estação espacial permanente da China, em órbita baixa da Terra desde 2021.",
+          "variantes": [
+            "Tiangong",
+            "Estação Espacial Chinesa",
+            "China Space Station"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Trânsito de Vênus",
+        "descricao": "Passagem de Vênus entre a Terra e o Sol, vista como um pequeno disco escuro sobre o disco solar.",
+        "variantes": [
+          "Passagem de Vênus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_nascimento_de_venus_cabanel",
+          "nome": "O Nascimento de Vênus (Cabanel)",
+          "descricao": "Pintura de 1863 de Alexandre Cabanel que mostra a deusa Vênus deitada sobre as ondas, cercada por cupidos.",
+          "variantes": [
+            "Naissance de Vénus",
+            "The Birth of Venus (Cabanel)"
+          ]
+        },
+        {
+          "id": "passagem_de_drake",
+          "nome": "Passagem de Drake",
+          "descricao": "Trecho de mar entre o cabo Horn, no sul da América do Sul, e a península Antártica.",
+          "variantes": [
+            "Estreito de Drake",
+            "Mar de Hoces"
+          ]
+        },
+        {
+          "id": "engis_2",
+          "nome": "Engis 2",
+          "descricao": "Crânio parcial de uma criança neandertal achado em 1829 na caverna de Engis, na Bélgica, só reconhecido como neandertal no século vinte.",
+          "variantes": [
+            "Criança de Engis",
+            "Crânio de Engis"
+          ]
+        },
+        {
+          "id": "o_nascimento_de_venus_bouguereau",
+          "nome": "O Nascimento de Vênus (Bouguereau)",
+          "descricao": "Pintura de William-Adolphe Bouguereau que mostra Vênus de pé numa concha, cercada por tritões, ninfas e anjinhos.",
+          "variantes": [
+            "The Birth of Venus",
+            "La Naissance de Vénus",
+            "Nascimento de Vênus de Bouguereau"
+          ]
+        },
+        {
+          "id": "passagem_de_humaita_victor_meirelles",
+          "nome": "Passagem de Humaitá (Victor Meirelles)",
+          "descricao": "Óleo sobre tela de Victor Meirelles sobre a passagem da esquadra brasileira por Humaitá na Guerra do Paraguai.",
+          "variantes": [
+            "Passagem de Humaitá"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Aglomerado da Bala",
+        "descricao": "Par de aglomerados de galáxias em colisão, usado como evidência da matéria escura.",
+        "variantes": [
+          "Bullet Cluster",
+          "1E 0657-56"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bullet_seed",
+          "nome": "Bullet Seed",
+          "descricao": "Golpe de pokémon do tipo Planta, da 3ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "shinkansen",
+          "nome": "Shinkansen",
+          "descricao": "Rede japonesa de trens de alta velocidade, inaugurada em 1964 e conhecida como trem-bala.",
+          "variantes": [
+            "Trem-bala japonês",
+            "Bullet train"
+          ]
+        },
+        {
+          "id": "tocandira",
+          "nome": "Tocandira",
+          "descricao": "Grande formiga amazônica (Paraponera clavata), conhecida como formiga-bala pela picada extremamente dolorosa.",
+          "variantes": [
+            "Paraponera clavata",
+            "formiga-bala",
+            "bullet ant",
+            "tucandeira"
+          ]
+        },
+        {
+          "id": "tomada_da_bastilha",
+          "nome": "Tomada da Bastilha",
+          "descricao": "Ataque popular de 14 de julho de 1789 à fortaleza-prisão da Bastilha, em Paris, marco da Revolução Francesa.",
+          "variantes": [
+            "Queda da Bastilha",
+            "Storming of the Bastille"
+          ]
+        },
+        {
+          "id": "mosteiro_da_batalha",
+          "nome": "Mosteiro da Batalha",
+          "descricao": "Mosteiro gótico dominicano na vila da Batalha, em Portugal, mandado erguer por Dom João Primeiro.",
+          "variantes": [
+            "Mosteiro de Santa Maria da Vitória",
+            "Batalha Monastery"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Viking 1",
+        "descricao": "Sonda da NASA, com orbitador e módulo de pouso, enviada a Marte em 1975 no programa Viking.",
+        "variantes": [
+          "Programa Viking",
+          "Viking"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rei_carta_de_baralho",
+          "nome": "Rei (carta de baralho)",
+          "descricao": "Carta de figura do baralho francês que, na tradição francesa, homenageia um rei histórico ou lendário em cada naipe.",
+          "variantes": [
+            "King (playing card)",
+            "Rei de espadas",
+            "King"
+          ]
+        },
+        {
+          "id": "rei_xadrez",
+          "nome": "Rei (xadrez)",
+          "descricao": "Peça mais importante do xadrez, cuja captura iminente é o xeque e cujo xeque-mate encerra a partida.",
+          "variantes": [
+            "Rei",
+            "King"
+          ]
+        },
+        {
+          "id": "projeto_gemini",
+          "nome": "Projeto Gemini",
+          "descricao": "Programa espacial tripulado da NASA dos anos 1960, entre o Mercury e o Apollo, com naves para dois astronautas.",
+          "variantes": [
+            "Programa Gemini",
+            "Project Gemini"
+          ]
+        },
+        {
+          "id": "nidoking",
+          "nome": "Nidoking",
+          "descricao": "Pokémon dos tipos Venenoso e Terrestre, número 34 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "cintilacao_estelar",
+          "nome": "Cintilação estelar",
+          "descricao": "Variação rápida do brilho das estrelas vistas da superfície da Terra, o popular piscar das estrelas.",
+          "variantes": [
+            "Cintilação",
+            "Twinkling"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Nebulosa do Coração",
+        "descricao": "Nebulosa de emissão na constelação de Cassiopeia, a cerca de 7.500 anos-luz da Terra.",
+        "variantes": [
+          "Heart Nebula",
+          "IC 1805",
+          "Sharpless 2-190"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_da_bolha",
+          "nome": "Nebulosa da Bolha",
+          "descricao": "Nebulosa de emissão na constelação de Cassiopeia, também chamada NGC 7635, em forma de bolha criada pelo vento de uma estrela massiva.",
+          "variantes": [
+            "NGC 7635",
+            "Sharpless 162",
+            "Caldwell 11",
+            "Bubble Nebula"
+          ]
+        },
+        {
+          "id": "nebulosa_do_caranguejo",
+          "nome": "Nebulosa do Caranguejo",
+          "descricao": "Remanescente da supernova de 1054, na constelação de Touro, também chamada Messier 1.",
+          "variantes": [
+            "Messier 1",
+            "M1",
+            "NGC 1952",
+            "Crab Nebula"
+          ]
+        },
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        },
+        {
+          "id": "pesagem_do_coracao",
+          "nome": "Pesagem do coração",
+          "descricao": "Julgamento dos mortos na religião egípcia, em que o coração do falecido era pesado numa balança.",
+          "variantes": [
+            "Julgamento de Osíris",
+            "Psicostasia"
+          ]
+        },
+        {
+          "id": "nebulosa_da_helice",
+          "nome": "Nebulosa da Hélice",
+          "descricao": "Nebulosa planetária NGC 7293, em Aquário, uma das mais próximas da Terra.",
+          "variantes": [
+            "Nebulosa de Hélix",
+            "NGC 7293",
+            "Caldwell 63",
+            "Helix Nebula",
+            "Olho de Deus"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "saturn_v",
+      "motivo": "Mesmo foguete lunar Saturn V do programa Apollo."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é fenômeno solar; são entidades distintas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Dimorphos é lua de Didymos; nenhuma candidata corresponde (Deimos é lua de Marte)."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nebulosa protoplanetária; candidatas não relacionadas."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "estacao_espacial_internacional",
+      "motivo": "Mesma estação espacial ISS."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Fenômeno astronômico; candidatas são obras de arte ou outros."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Aglomerado de galáxias; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Sonda Viking 1 não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nebulosa do Coração é distinta da Bolha, mesmo na mesma constelação."
+    }
+  ]
+}

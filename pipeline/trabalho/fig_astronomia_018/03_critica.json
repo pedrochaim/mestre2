@@ -1,0 +1,91 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pergunta pede foguete americano, mas Ariane 5 é europeu e se elimina sozinho. Troquei por distrator americano e crível.",
+      "reescrita": {
+        "pergunta": "Que foguete americano é este?",
+        "resposta": "Saturn V",
+        "distratores": [
+          "Falcon 9",
+          "Atlas V",
+          "Titan IV"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português confirma que a proeminência vista sobre o disco aparece escura e se chama filamento. O enunciado não entrega a resposta e os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a superfície de Dimorphos é coberta de pedregulhos. A pista ajuda sem nomear, e Dactyl e Linus são luas de outros asteroides.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a nebulosa fica em Monoceros. O enunciado não nomeia a nebulosa e os distratores são constelações plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento. Os distratores são estações de mesmo tipo e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Só Mercúrio e Vênus transitam diante do Sol, e Mercúrio, o distrator mais óbvio, não estava entre as opções. Sem ele, os distratores eram eliminados só pelo enunciado. Incluí Mercúrio.",
+      "reescrita": {
+        "pergunta": "Que planeta é este pequeno disco escuro passando diante do Sol?",
+        "resposta": "Vênus",
+        "distratores": [
+          "Mercúrio",
+          "Marte",
+          "Júpiter"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o Aglomerado da Bala é uma colisão de dois aglomerados de galáxias. A pergunta é de reconhecimento sem vazamento e os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Viking 1 é uma sonda americana do programa Viking. A resposta 'Viking' cobre as duas naves idênticas, e os distratores são sondas da NASA.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'brilho avermelhado' entrega 'emissão' sem olhar a imagem. Além disso, nebulosa planetária também é de emissão, então há ambiguidade. Reescrevi pedindo a constelação, que os trechos confirmam e que exige reconhecer a nebulosa.",
+      "reescrita": {
+        "pergunta": "Em que constelação fica esta nebulosa de emissão, a cerca de sete mil e quinhentos anos-luz da Terra?",
+        "resposta": "Cassiopeia",
+        "distratores": [
+          "Perseu",
+          "Cefeu",
+          "Órion"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que foguete americano é este?",
+        "resposta": "Saturn V"
+      },
+      "existentes": [
+        {
+          "id": "q04572",
+          "pergunta": "Que foguete é este?",
+          "resposta": "Saturn V"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que estação espacial é esta?",
+        "resposta": "Estação Espacial Internacional"
+      },
+      "existentes": [
+        {
+          "id": "q00580",
+          "pergunta": "Na altura da Estação Espacial Internacional, a gravidade da Terra ainda é forte. Por que, então, os astronautas flutuam?",
+          "resposta": "Estão em queda livre constante"
+        },
+        {
+          "id": "q08269",
+          "pergunta": "A Estação Espacial Internacional recebeu sua primeira tripulação de longa duração em novembro de que ano?",
+          "resposta": "2000"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar o foguete da imagem, com resposta Saturn V."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a estação em imagem é um fato diferente de gravidade ou da data da primeira tripulação."
+    }
+  ]
+}
