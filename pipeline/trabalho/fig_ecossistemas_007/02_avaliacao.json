@@ -1,0 +1,229 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fatias de carambola nítidas, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta fruta, que forma uma estrela quando cortada, é nativa de que região do mundo?",
+      "resposta": "Sudeste Asiático",
+      "distratores": [
+        "América Central",
+        "África Ocidental",
+        "Oceania"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Carambola",
+        "descricao": "Fruto da árvore Averrhoa carambola, de sulcos longitudinais que formam uma estrela em corte transversal.",
+        "variantes": [
+          "Fruta-estrela",
+          "Star fruit"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Camarão-louva-deus colorido, claro, em seu ambiente de recife.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de ambiente marinho é o habitat deste crustáceo predador?",
+      "resposta": "Mares rasos tropicais",
+      "distratores": [
+        "Abismos polares",
+        "Rios de água doce",
+        "Oceano aberto profundo"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Tamarutaca",
+        "descricao": "Crustáceo marinho predador da ordem Stomatopoda, com apêndices raptoriais poderosos, que vive em tocas.",
+        "variantes": [
+          "Camarão-louva-deus",
+          "Mantis shrimp",
+          "Stomatopoda"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cogumelos de boleto bem visíveis, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de relação este fungo forma com as raízes de árvores vivas?",
+      "resposta": "Simbiose (micorriza)",
+      "distratores": [
+        "Parasitismo",
+        "Predação",
+        "Decomposição de troncos mortos"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Boletus edulis",
+        "descricao": "Cogumelo comestível de chapéu marrom e poros em vez de lâminas, conhecido como porcini ou cepe.",
+        "variantes": [
+          "Porcini",
+          "Cepe",
+          "Cogumelo-de-paris-marrom",
+          "Penny bun"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, cardume que poderia ser de anchovas ou arenques; resposta não única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pinguim de penacho amarelo nítido, de corpo inteiro.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que águas este pinguim de penacho amarelo frequenta?",
+      "resposta": "Águas subantárticas",
+      "distratores": [
+        "Trópicos equatoriais",
+        "Polo Norte",
+        "Mares do Mediterrâneo"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Pinguim-saltador-da-rocha",
+        "descricao": "Pinguim de penacho amarelo e olhos vermelhos do gênero Eudyptes, que vive em águas subantárticas.",
+        "variantes": [
+          "Pinguim-de-penacho-amarelo",
+          "Rockhopper penguin"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Um mergulhador aparece em destaque na imagem, competindo com a salpa, e a cadeia translúcida é difícil de reconhecer."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Palmeiras de açaí em mata amazônica, reconhecíveis pelos caules finos e agrupados.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta palmeira amazônica dá frutos de que cor, quando maduros?",
+      "resposta": "Roxo-escuro",
+      "distratores": [
+        "Vermelho vivo",
+        "Amarelo",
+        "Verde"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Açaí",
+        "descricao": "Palmeira amazônica Euterpe oleracea, cultivada pelo fruto roxo-escuro e pelo palmito.",
+        "variantes": [
+          "Açaizeiro",
+          "Euterpe oleracea",
+          "Açaí palm"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida de um caranguejo-vermelho; a imagem mostra o animal, não a migração.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ilha este caranguejo faz uma migração anual em massa até o mar?",
+      "resposta": "Ilha Christmas (Ilha do Natal)",
+      "distratores": [
+        "Ilha de Páscoa",
+        "Ilhas Galápagos",
+        "Ilha de Santa Helena"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caranguejo-vermelho da Ilha Christmas",
+        "descricao": "Caranguejo terrestre Gecarcoidea natalis, endêmico da Ilha Christmas, famoso pela migração anual em massa para o mar.",
+        "variantes": [
+          "Christmas Island red crab",
+          "Gecarcoidea natalis"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem pequena, borrada e escura; a forma não permite reconhecer com segurança a lebre-do-mar."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Avalanche espetacular, clara, sem texto nem pessoas identificáveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno natural é este, registrado numa montanha acima de um acampamento?",
+      "resposta": "Avalanche",
+      "destino": 0,
+      "ancora": {
+        "nome": "Avalanche",
+        "descricao": "Fluxo rápido de neve encosta abaixo em uma montanha.",
+        "variantes": [
+          "Avalancha"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Durões inconfundíveis, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta do Sudeste Asiático é esta?",
+      "resposta": "Durião",
+      "destino": 2,
+      "ancora": {
+        "nome": "Durião",
+        "descricao": "Fruto grande de casca espinhosa da árvore do gênero Durio, de cheiro forte.",
+        "variantes": [
+          "Durian",
+          "Durio zibethinus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fungo com gotas vermelhas muito característico, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que tipo de floresta cresce este fungo, que parece sangrar?",
+      "resposta": "Floresta de coníferas",
+      "distratores": [
+        "Manguezal",
+        "Floresta de bambu",
+        "Savana arbórea"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Fungo dente-sangrento",
+        "descricao": "Fungo Hydnellum peckii, de corpo branco que exsuda gotas vermelhas, micorrízico e encontrado em florestas.",
+        "variantes": [
+          "Hydnellum peckii",
+          "Bleeding tooth fungus",
+          "Morango com creme"
+        ]
+      }
+    }
+  ]
+}

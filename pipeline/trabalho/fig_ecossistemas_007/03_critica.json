@@ -1,0 +1,126 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'forma uma estrela quando cortada' entrega a carambola sem olhar a figura; a imagem vira enfeite. Fato (nativa do Sudeste Asiático) confirmado nos trechos.",
+      "reescrita": {
+        "pergunta": "Esta fruta é nativa de que região do mundo?",
+        "resposta": "Sudeste Asiático",
+        "distratores": [
+          "América Central",
+          "África Ocidental",
+          "Oceania"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mares rasos' não está nos trechos e 'tipo de ambiente' é vago (recifes também serviria). Os trechos sustentam águas tropicais e subtropicais.",
+      "reescrita": {
+        "pergunta": "Este crustáceo predador vive em tocas no fundo do mar. Em que tipo de águas vive a maioria das espécies?",
+        "resposta": "Águas tropicais e subtropicais",
+        "distratores": [
+          "Águas polares",
+          "Águas doces",
+          "Abismos oceânicos"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A pergunta sobre micorriza vale para qualquer fungo e não exige reconhecer a imagem. Reescrita para reconhecer o cogumelo.",
+      "reescrita": {
+        "pergunta": "Que cogumelo comestível é este, de chapéu marrom e poros em vez de lâminas?",
+        "resposta": "Porcini (Boletus edulis)",
+        "distratores": [
+          "Shiitake",
+          "Cantarelo",
+          "Champignon"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto (águas subantárticas), mas os distratores são de tipos diferentes e pouco críveis ('Polo Norte' não é águas).",
+      "reescrita": {
+        "pergunta": "Em que tipo de águas vive este pinguim de penacho amarelo?",
+        "resposta": "Águas subantárticas",
+        "distratores": [
+          "Águas tropicais",
+          "Águas árticas",
+          "Águas do Mediterrâneo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Existe a variedade rara 'Branco', que permanece verde quando madura, tornando 'Verde' defensável como distrator. Trocado por outro.",
+      "reescrita": {
+        "pergunta": "Esta palmeira amazônica dá frutos de que cor, quando maduros?",
+        "resposta": "Roxo-escuro",
+        "distratores": [
+          "Vermelho vivo",
+          "Amarelo",
+          "Laranja"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista da migração anual em massa até o mar é famosa e permite responder sem a figura. Troquei por pista que ajuda sem entregar; distratores no mesmo oceano.",
+      "reescrita": {
+        "pergunta": "Em que ilha do oceano Índico vive em maior número este caranguejo vermelho?",
+        "resposta": "Ilha Christmas (Ilha do Natal)",
+        "distratores": [
+          "Ilhas Maldivas",
+          "Ilha Reunião",
+          "Ilha de Madagascar"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Acima de um acampamento' não consta em 'mostra' e não é verificável para esta foto.",
+      "reescrita": {
+        "pergunta": "Que fenômeno natural de montanha é este?",
+        "resposta": "Avalanche"
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; durião é do Sudeste Asiático.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Que parece sangrar' entrega o fungo (dente-sangrento) sem a figura. Fato das coníferas está nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que tipo de floresta cresce este fungo, que vive associado às raízes das árvores?",
+        "resposta": "Floresta de coníferas",
+        "distratores": [
+          "Manguezal",
+          "Floresta de bambu",
+          "Savana arbórea"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,576 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Carambola",
+        "descricao": "Fruto da árvore Averrhoa carambola, de sulcos longitudinais que formam uma estrela em corte transversal.",
+        "variantes": [
+          "Fruta-estrela",
+          "Star fruit"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carambola",
+          "nome": "Carambola",
+          "descricao": "Fruto amarelo da caramboleira (Averrhoa carambola), cujo corte transversal tem forma de estrela.",
+          "variantes": [
+            "Star fruit",
+            "Averrhoa carambola"
+          ]
+        },
+        {
+          "id": "parabola",
+          "nome": "Parábola",
+          "descricao": "Curva plana simétrica em forma de U, definida pelos pontos equidistantes de um foco e de uma reta diretriz.",
+          "variantes": []
+        },
+        {
+          "id": "cardamomo",
+          "nome": "Cardamomo",
+          "descricao": "Especiaria feita das sementes de plantas dos gêneros Elettaria e Amomum, da família do gengibre.",
+          "variantes": [
+            "Cardamomo-verde",
+            "Cardamona"
+          ]
+        },
+        {
+          "id": "carimbo",
+          "nome": "Carimbó",
+          "descricao": "Ritmo e dança de roda de origem indígena e africana típicos do Pará.",
+          "variantes": []
+        },
+        {
+          "id": "cartola",
+          "nome": "Cartola",
+          "descricao": "Angenor de Oliveira, sambista carioca, fundador da Estação Primeira de Mangueira.",
+          "variantes": [
+            "Angenor de Oliveira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tamarutaca",
+        "descricao": "Crustáceo marinho predador da ordem Stomatopoda, com apêndices raptoriais poderosos, que vive em tocas.",
+        "variantes": [
+          "Tamarutaca (camarão-louva-deus)",
+          "Camarão-louva-deus",
+          "Mantis shrimp",
+          "Stomatopoda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tamarutaca",
+          "nome": "Tamarutaca",
+          "descricao": "Crustáceos marinhos da ordem Stomatopoda, com patas raptoriais que golpeiam a presa com enorme velocidade.",
+          "variantes": [
+            "Stomatopoda",
+            "camarão-louva-a-deus",
+            "mantis shrimp",
+            "estomatópode"
+          ]
+        },
+        {
+          "id": "tamarutaca_2",
+          "nome": "Tamarutaca",
+          "descricao": "Odontodactylus scyllarus, crustáceo estomatópode colorido de garras rápidas e visão excepcional do Indo-Pacífico.",
+          "variantes": [
+            "Camarão-mantis",
+            "Camarão-louva-a-deus",
+            "Odontodactylus scyllarus",
+            "Peacock mantis shrimp"
+          ]
+        },
+        {
+          "id": "maitaca_verde",
+          "nome": "Maitaca-verde",
+          "descricao": "Papagaio Pionus maximiliani, de cabeça escura com penas escamadas, presente no Brasil, Bolívia, Argentina e Paraguai.",
+          "variantes": [
+            "Maritaca",
+            "Maitaca",
+            "Pionus maximiliani",
+            "Scaly-headed parrot"
+          ]
+        },
+        {
+          "id": "tomate",
+          "nome": "Tomate",
+          "descricao": "Fruto do tomateiro (Solanum lycopersicum), consumido como hortaliça.",
+          "variantes": [
+            "Tomate-cereja",
+            "Tomato",
+            "Solanum lycopersicum"
+          ]
+        },
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Boletus edulis",
+        "descricao": "Cogumelo comestível de chapéu marrom e poros em vez de lâminas, conhecido como porcini ou cepe.",
+        "variantes": [
+          "Porcini",
+          "Cepe",
+          "Cogumelo-de-paris-marrom",
+          "Penny bun"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "champignon",
+          "nome": "Champignon",
+          "descricao": "Cogumelo cultivado branco, Agaricus bisporus, o mais consumido no mundo.",
+          "variantes": [
+            "Champignon de Paris",
+            "Agaricus bisporus",
+            "Cogumelo-de-paris"
+          ]
+        },
+        {
+          "id": "candido_portinari",
+          "nome": "Candido Portinari",
+          "descricao": "Pintor brasileiro, nascido em Brodowski em 1903 e morto em 1962, autor de Os Retirantes e dos painéis Guerra e Paz.",
+          "variantes": [
+            "Portinari"
+          ]
+        },
+        {
+          "id": "espada_esgrima",
+          "nome": "Espada (esgrima)",
+          "descricao": "A mais pesada das três armas da esgrima, de estocada, com lâmina rígida e grande guarda em forma de sino.",
+          "variantes": [
+            "Épée",
+            "Espada de esgrima"
+          ]
+        },
+        {
+          "id": "creeper",
+          "nome": "Creeper",
+          "descricao": "Criatura verde que explode ao se aproximar do jogador no jogo Minecraft.",
+          "variantes": [
+            "Creeper (Minecraft)"
+          ]
+        },
+        {
+          "id": "giacomo_puccini",
+          "nome": "Giacomo Puccini",
+          "descricao": "Compositor italiano de óperas como La bohème, Tosca e Madama Butterfly.",
+          "variantes": [
+            "Puccini"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pinguim-saltador-da-rocha",
+        "descricao": "Pinguim de penacho amarelo e olhos vermelhos do gênero Eudyptes, que vive em águas subantárticas.",
+        "variantes": [
+          "Pinguim-de-penacho-amarelo",
+          "Rockhopper penguin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pinguim_saltador_da_rocha",
+          "nome": "Pinguim-saltador-da-rocha",
+          "descricao": "Pinguim de topete amarelo e olhos vermelhos das águas subantárticas da América do Sul (Eudyptes chrysocome).",
+          "variantes": [
+            "Eudyptes chrysocome",
+            "Western rockhopper penguin",
+            "Pinguim-de-penacho-amarelo"
+          ]
+        },
+        {
+          "id": "pinguim_imperador",
+          "nome": "Pinguim-imperador",
+          "descricao": "Maior e mais pesado dos pinguins (Aptenodytes forsteri), endêmico da Antártida, com manchas amarelas nos lados da cabeça.",
+          "variantes": [
+            "Emperor penguin",
+            "Aptenodytes forsteri"
+          ]
+        },
+        {
+          "id": "pinguim_de_barbicha",
+          "nome": "Pinguim-de-barbicha",
+          "descricao": "Pinguim antártico Pygoscelis antarcticus, com uma estreita faixa preta sob a cabeça.",
+          "variantes": [
+            "Pygoscelis antarcticus",
+            "Chinstrap penguin",
+            "Pinguim-antártico"
+          ]
+        },
+        {
+          "id": "pinguim_africano",
+          "nome": "Pinguim-africano",
+          "descricao": "Pinguim do sul da África (Spheniscus demersus), de faixa preta no peito, máscara facial preta e mancha rosada acima dos olhos.",
+          "variantes": [
+            "Spheniscus demersus",
+            "Pinguim-do-cabo",
+            "African penguin"
+          ]
+        },
+        {
+          "id": "tie_dye",
+          "nome": "Tie-dye",
+          "descricao": "Técnica de tingimento com reserva, em que o tecido é dobrado ou torcido e amarrado antes de receber o corante, gerando padrões coloridos.",
+          "variantes": [
+            "Tingimento amarrado"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Açaí",
+        "descricao": "Palmeira amazônica Euterpe oleracea, cultivada pelo fruto roxo-escuro e pelo palmito.",
+        "variantes": [
+          "Açaizeiro",
+          "Euterpe oleracea",
+          "Açaí palm"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "acai_na_tigela",
+          "nome": "Açaí na tigela",
+          "descricao": "Lanche brasileiro de polpa de açaí congelada e batida, servida em tigela com granola e banana.",
+          "variantes": [
+            "Açaí",
+            "Açaí bowl"
+          ]
+        },
+        {
+          "id": "acaro",
+          "nome": "Ácaro",
+          "descricao": "Pequeno aracnídeo de oito patas, geralmente com menos de um milímetro.",
+          "variantes": [
+            "Acari",
+            "Mite"
+          ]
+        },
+        {
+          "id": "uacari_vermelho",
+          "nome": "Uacari-vermelho",
+          "descricao": "Macaco amazônico do gênero Cacajao, de rosto vermelho vivo, cabeça calva e cauda curta.",
+          "variantes": [
+            "Uacari",
+            "Uacari-careca",
+            "Cacajao"
+          ]
+        },
+        {
+          "id": "gotcha_clipe",
+          "nome": "GOTCHA! (clipe)",
+          "descricao": "Clipe animado de 2020 que relembra as aventuras dos jogos Pokémon, embalado pela música Acacia.",
+          "variantes": [
+            "GOTCHA!",
+            "Acacia"
+          ]
+        },
+        {
+          "id": "imperio_acadio",
+          "nome": "Império Acádio",
+          "descricao": "Império mesopotâmico fundado por volta de 2300 antes de Cristo, com capital em Acádia.",
+          "variantes": [
+            "Acádia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Caranguejo-vermelho da Ilha Christmas",
+        "descricao": "Caranguejo terrestre Gecarcoidea natalis, endêmico da Ilha Christmas, famoso pela migração anual em massa para o mar.",
+        "variantes": [
+          "Migração do caranguejo-vermelho da Ilha Christmas",
+          "Christmas Island red crab",
+          "Gecarcoidea natalis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caranguejo_vermelho_da_ilha_christmas",
+          "nome": "Caranguejo-vermelho-da-ilha-christmas",
+          "descricao": "Caranguejo terrestre (Gecarcoidea natalis) da Ilha Christmas, famoso pela migração anual em massa até o mar para desovar.",
+          "variantes": [
+            "Gecarcoidea natalis",
+            "Christmas Island red crab"
+          ]
+        },
+        {
+          "id": "flor_de_maio",
+          "nome": "Flor-de-maio",
+          "descricao": "Cacto epífito do gênero Schlumbergera, nativo da Mata Atlântica do Sudeste brasileiro",
+          "variantes": [
+            "Schlumbergera",
+            "Cacto-de-natal",
+            "Christmas cactus"
+          ]
+        },
+        {
+          "id": "cartao_de_natal",
+          "nome": "Cartão de Natal",
+          "descricao": "Cartão ilustrado enviado com votos de boas festas, cuja versão comercial surgiu na Inglaterra vitoriana.",
+          "variantes": [
+            "Christmas card"
+          ]
+        },
+        {
+          "id": "mercado_de_natal",
+          "nome": "Mercado de Natal",
+          "descricao": "Feira de rua típica do Advento, nascida na Europa de língua alemã, com barracas de artesanato, doces e enfeites.",
+          "variantes": [
+            "Christmas market",
+            "Christkindlmarkt"
+          ]
+        },
+        {
+          "id": "arvore_de_natal",
+          "nome": "Árvore de Natal",
+          "descricao": "Pinheiro, natural ou artificial, enfeitado com luzes e ornamentos durante as festas de fim de ano.",
+          "variantes": [
+            "Pinheirinho de Natal",
+            "Christmas tree"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Avalanche",
+        "descricao": "Fluxo rápido de neve encosta abaixo em uma montanha.",
+        "variantes": [
+          "Avalancha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "avalanche",
+          "nome": "Avalanche",
+          "descricao": "Fluxo rápido de neve encosta abaixo em montanhas.",
+          "variantes": [
+            "Avalancha"
+          ]
+        },
+        {
+          "id": "cavalinha",
+          "nome": "Cavalinha",
+          "descricao": "Planta do gênero Equisetum, de caules verdes articulados, que se reproduz por esporos.",
+          "variantes": [
+            "Equisetum",
+            "Rabo-de-cavalo",
+            "Horsetail"
+          ]
+        },
+        {
+          "id": "alianca_de_casamento",
+          "nome": "Aliança de casamento",
+          "descricao": "Anel usado como símbolo do casamento, tradicionalmente no dedo anelar.",
+          "variantes": [
+            "Anel de casamento",
+            "Wedding ring",
+            "Aliança"
+          ]
+        },
+        {
+          "id": "navalha",
+          "nome": "Navalha",
+          "descricao": "Navalha de barbear com lâmina que se dobra para dentro do cabo.",
+          "variantes": [
+            "Navalha de barbear",
+            "Navalha de cabo"
+          ]
+        },
+        {
+          "id": "casablanca_filme",
+          "nome": "Casablanca (filme)",
+          "descricao": "Filme americano de 1942 dirigido por Michael Curtiz, com Humphrey Bogart e Ingrid Bergman, passado no Marrocos durante a Segunda Guerra.",
+          "variantes": [
+            "Casablanca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Durião",
+        "descricao": "Fruto grande de casca espinhosa da árvore do gênero Durio, de cheiro forte.",
+        "variantes": [
+          "Durian",
+          "Durio zibethinus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "duriao",
+          "nome": "Durião",
+          "descricao": "Fruta do sudeste asiático, de casca espinhosa e cheiro forte, do gênero Durio, chamada de rei das frutas.",
+          "variantes": [
+            "Durian"
+          ]
+        },
+        {
+          "id": "durant",
+          "nome": "Durant",
+          "descricao": "Pokémon dos tipos Inseto e Aço, número 632 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "dugtrio",
+          "nome": "Dugtrio",
+          "descricao": "Pokémon do tipo Terrestre, número 51 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "adriano",
+          "nome": "Adriano",
+          "descricao": "Imperador romano de 117 a 138, nascido em Itálica, na Hispânia.",
+          "variantes": [
+            "Hadrian",
+            "Públio Élio Adriano"
+          ]
+        },
+        {
+          "id": "jigglypuff",
+          "nome": "Jigglypuff",
+          "descricao": "Pokémon dos tipos Normal e Fada, número 39 da Pokédex Nacional.",
+          "variantes": [
+            "Purin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Fungo dente-sangrento",
+        "descricao": "Fungo Hydnellum peckii, de corpo branco que exsuda gotas vermelhas, micorrízico e encontrado em florestas.",
+        "variantes": [
+          "Hydnellum peckii",
+          "Bleeding tooth fungus",
+          "Morango com creme"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oito_com_remo",
+          "nome": "Oito com (remo)",
+          "descricao": "Barco de remo com oito remadores, cada um com um remo, considerado a principal classe do remo.",
+          "variantes": [
+            "Eight",
+            "Oito com timoneiro"
+          ]
+        },
+        {
+          "id": "fogo_de_santelmo",
+          "nome": "Fogo de santelmo",
+          "descricao": "Fenômeno atmosférico em que uma descarga corona cria um brilho azulado em mastros e outras pontas durante tempestades.",
+          "variantes": [
+            "St. Elmo's fire"
+          ]
+        },
+        {
+          "id": "concreto_romano",
+          "nome": "Concreto romano",
+          "descricao": "Material de construção usado na Roma Antiga, famoso pela durabilidade, empregado em obras como o Panteão.",
+          "variantes": [
+            "Opus caementicium",
+            "Roman concrete"
+          ]
+        },
+        {
+          "id": "campo_de_trigo_com_ciprestes",
+          "nome": "Campo de Trigo com Ciprestes",
+          "descricao": "Pintura a óleo de Vincent van Gogh de 1889 com um campo de trigo, ciprestes e céu turbulento.",
+          "variantes": [
+            "Wheat Field with Cypresses",
+            "A Wheatfield with Cypresses"
+          ]
+        },
+        {
+          "id": "fungo_radiotrofico",
+          "nome": "Fungo radiotrófico",
+          "descricao": "Fungo rico em melanina que parece usar a radiação ionizante para crescer.",
+          "variantes": [
+            "Radiotrophic fungus"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "carambola",
+      "motivo": "Mesmo fruto da Averrhoa carambola."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "tamarutaca",
+      "motivo": "Ambas descrevem a ordem Stomatopoda de forma geral; tamarutaca_2 é uma espécie específica."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Boletus edulis; champignon é Agaricus bisporus."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "pinguim_saltador_da_rocha",
+      "motivo": "Mesmo pinguim de penacho amarelo, Eudyptes chrysocome, com as mesmas variantes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A proposta é a palmeira; a candidata é o prato de açaí na tigela."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "caranguejo_vermelho_da_ilha_christmas",
+      "motivo": "Mesmo caranguejo, Gecarcoidea natalis, conhecido pela migração."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "avalanche",
+      "motivo": "Mesma entidade, com descrição idêntica."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "duriao",
+      "motivo": "Mesma fruta, o durião (Durio)."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Hydnellum peckii; o fungo radiotrófico é outro."
+    }
+  ]
+}

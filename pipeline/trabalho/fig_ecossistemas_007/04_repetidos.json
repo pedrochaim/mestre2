@@ -1,0 +1,123 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta fruta é nativa de que região do mundo?",
+        "resposta": "Sudeste Asiático"
+      },
+      "existentes": [
+        {
+          "id": "q14647",
+          "pergunta": "Que fruta é esta?",
+          "resposta": "Carambola"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Este crustáceo predador vive em tocas no fundo do mar. Em que tipo de águas vive a maioria das espécies?",
+        "resposta": "Águas tropicais e subtropicais"
+      },
+      "existentes": [
+        {
+          "id": "q02592",
+          "pergunta": "Por causa das patas dobradas de caça, o crustáceo tamarutaca é chamado em inglês e em outros idiomas pelo nome de qual inseto?",
+          "resposta": "Louva-a-deus"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que tipo de águas vive este pinguim de penacho amarelo?",
+        "resposta": "Águas subantárticas"
+      },
+      "existentes": [
+        {
+          "id": "q16597",
+          "pergunta": "Que pinguim é este?",
+          "resposta": "Pinguim-saltador-da-rocha"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que ilha do oceano Índico vive em maior número este caranguejo vermelho?",
+        "resposta": "Ilha Christmas (Ilha do Natal)"
+      },
+      "existentes": [
+        {
+          "id": "q06946",
+          "pergunta": "Todo ano, milhões de caranguejos-vermelhos cruzam estradas rumo ao mar para desovar, numa ilha australiana do oceano Índico. Que ilha?",
+          "resposta": "Ilha Christmas (Ilha do Natal)"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que fenômeno natural de montanha é este?",
+        "resposta": "Avalanche"
+      },
+      "existentes": [
+        {
+          "id": "q14245",
+          "pergunta": "Que fenômeno natural de montanha é este?",
+          "resposta": "Avalanche"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que fruta do Sudeste Asiático é esta?",
+        "resposta": "Durião"
+      },
+      "existentes": [
+        {
+          "id": "q04357",
+          "pergunta": "Que fruta de casca espinhosa é esta?",
+          "resposta": "Durião"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Região de origem é fato diferente da identificação da fruta."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Tipo de águas difere do apelido louva-a-deus."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Habitat é fato diferente da identificação do pinguim."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q06946",
+      "motivo": "Mesma ilha Christmas dos caranguejos-vermelhos."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "id_existente": "q14245",
+      "motivo": "Pergunta idêntica, mesma resposta."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q04357",
+      "motivo": "Ambas pedem identificar a fruta, com resposta Durião."
+    }
+  ]
+}
