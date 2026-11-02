@@ -1,5 +1,5 @@
-// Modo Linear (MANIFESTO §15): uma trilha única de 32 casas (3 de cada tema e 8 especiais), numa faixa ondulada de 4
-// fileiras que vai e volta, entre a área de Início e a de Chegada, fora da trilha.
+// Modo Linear (MANIFESTO §15): uma trilha única de 26 casas (3 de cada tema e 2 especiais), numa faixa ondulada de 3
+// fileiras que vai e volta, entre a área de Início, à esquerda, e a de Chegada, à direita, fora da trilha.
 // O modo Pokémon, o primeiro dos modos temáticos, é separado: tem a sua trilha, de 60 casas (Início e Chegada contados
 // como casas), e o seu desenho (svgPokemon), um caminho de terra na grama com as casas temáticas do modo.
 // Só dados e desenho: a ligação com a tela e o Firestore fica no index.html. A posição do peão é o campo "pontos",
@@ -9,13 +9,14 @@ const TEMAS = ["Geografia", "Natureza", "Artes e Pensamento", "Cotidiano", "Ciê
 
 // ---------------------------------------------------------------- casas do Linear
 
-// 32 casas na trilha (posições 1 a 32), mais o Início (0) e a Chegada (33). A cada 4 casas, uma especial (★), em
-// posição fixa, que pergunta de qualquer tema. As outras 24 repetem 3 vezes uma ordem dos 8 temas, sorteada em cada
-// partida pela "semente" gravada nela (a mesma em todos os aparelhos); sem semente, como nas partidas antigas, vale a
-// ordem das cores. Repetir a mesma ordem mantém o padrão e nunca põe dois temas iguais lado a lado.
-export const CASAS = 32;
+// 26 casas na trilha (posições 1 a 26), mais o Início (0) e a Chegada (27). Duas especiais (★), em posição fixa (9 e
+// 18, nas curvas do tabuleiro), que perguntam de qualquer tema. As outras 24 repetem 3 vezes uma ordem dos 8 temas,
+// uma volta em cada fileira, sorteada em cada partida pela "semente" gravada nela (a mesma em todos os aparelhos); sem
+// semente, como nas partidas antigas, vale a ordem das cores. Repetir a mesma ordem mantém o padrão e nunca põe dois
+// temas iguais lado a lado.
+export const CASAS = 26;
 export const CHEGADA = CASAS + 1;
-const ESPECIAIS = new Set([3, 7, 11, 15, 19, 23, 27, 31]);
+const ESPECIAIS = new Set([9, 18]);
 export const ehEspecial = c => ESPECIAIS.has(c);
 
 // Gerador pseudoaleatório (mulberry32) e embaralhamento reproduzíveis a partir da semente.
@@ -130,13 +131,14 @@ function trilha({ casas, linhas, x0, x1, faixa, ampl }) {
 
 const LARGURA = 1600;
 
-// Linear: casas maiores, e uma margem à esquerda para as áreas de Início e de Chegada, fora da trilha. Embaixo à
-// direita fica espaço livre para o dado no modo mesa.
+// Linear: casas grandes, em 3 fileiras, e margens dos dois lados para as áreas de Início (à esquerda) e de Chegada (à
+// direita), fora da trilha. Embaixo, abaixo da Chegada, fica espaço livre para o dado no modo mesa.
 export const ALTURA_LINEAR = 960;
-const LIN = trilha({ casas: CASAS, linhas: [120, 330, 540, 750], x0: 300, x1: 1350, faixa: 140, ampl: 22 });
-// As áreas de Início e de Chegada: retângulos à esquerda do começo da primeira fileira e do fim da última.
-const AREA = { x: 40, w: LIN.x0 - 64, h: 176 };
-const areaDe = c => ({ ...AREA, y: (c === 0 ? LIN.linhas[0] : LIN.linhas.at(-1)) - AREA.h / 2 });
+const LIN = trilha({ casas: CASAS, linhas: [130, 415, 700], x0: 300, x1: 1300, faixa: 170, ampl: 22 });
+// As áreas de Início e de Chegada: retângulos à esquerda do começo da primeira fileira e à direita do fim da última.
+const AREA = { w: LIN.x0 - 64, h: 176 };
+const areaDe = c => c === 0 ? { ...AREA, x: 40, y: LIN.linhas[0] - AREA.h / 2 }
+                            : { ...AREA, x: LARGURA - 40 - AREA.w, y: LIN.linhas.at(-1) - AREA.h / 2 };
 
 // Pokémon: a trilha antiga.
 const ALTURA = 880;

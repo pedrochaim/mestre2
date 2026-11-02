@@ -359,7 +359,7 @@
     ul.subtemas li.vazio .sub-topo strong { color: var(--suave); }
     .atalhos { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; }
     .atalhos button[aria-expanded="true"] { border-color: var(--acento); color: var(--acento); }
-    /* Modo Linear: o tabuleiro é deitado (1600 × 880; no modo Pokémon, mais alto, com a legenda: --alt-linear);
+    /* Modo Linear: o tabuleiro é deitado (1600 × 960; no modo Pokémon, mais alto, com a legenda: --alt-linear);
        com a pergunta, fica ao lado dela na tela deitada. */
     #mesa.linear .tabuleiro { width: min(100%, calc((100vh - 4vmin) * 1600 / var(--alt-linear, 880))); }
     #mesa.com-pergunta.linear .tabuleiro { width: min(60vw, calc((100vh - 4vmin) * 1600 / var(--alt-linear, 880))); }
@@ -403,7 +403,7 @@
     </div>
     <div id="outros-modos" class="cartao" hidden>
       <button id="criar-linear" style="width:100%">Nova partida · Linear (protótipo)</button>
-      <p class="suave" style="margin:.3rem 0 .8rem">Todos na mesma trilha de 32 casas, com um dado de 1 a 3.</p>
+      <p class="suave" style="margin:.3rem 0 .8rem">Todos na mesma trilha de 26 casas, com um dado de 1 a 3.</p>
       <!-- Modos temáticos: um universo só, com perguntas, tabuleiro e regras próprios. O Pokémon é o primeiro. -->
       <h2 class="grupo-modos">Modos temáticos</h2>
       <button id="criar-pokemon" style="width:100%">Nova partida · Pokémon</button>
@@ -528,7 +528,7 @@
             aberta passa adiante e outro acerta, ele anda uma casa.</p>
           <p id="legenda-pokemon" class="suave legenda-pokemon" hidden></p>
           <p id="regras-linear-trilha" class="suave">Protótipo. Todos começam no Início e seguem a mesma trilha de
-            32 casas, 3 de cada tema e 8 casas ★, até a Chegada. As ★ têm posição fixa; a ordem dos temas é sorteada
+            26 casas, 3 de cada tema e 2 casas ★, até a Chegada. As ★ têm posição fixa; a ordem dos temas é sorteada
             em cada partida e se repete ao longo da trilha. A cor da casa do peão é o tema da próxima pergunta; no
             Início e nas casas ★ a pergunta é de qualquer tema. Com a pergunta sai um dado de 1 a 3, que vale para
             quem a recebeu: se acertar, anda esse número de casas; errar não move o peão. ✨ Dado da sorte: quem errou
@@ -1042,7 +1042,7 @@
       </ul>
       <h3>Linear</h3>
       <ul>
-        <li>Uma trilha de 32 casas, a mesma para todos. A cor da casa é o tema da pergunta; nas casas ★, qualquer tema.</li>
+        <li>Uma trilha de 26 casas, a mesma para todos. A cor da casa é o tema da pergunta; nas casas ★, qualquer tema.</li>
         <li>Com a pergunta sai um dado de 1 a 3: quem a recebeu anda esse número de casas se acertar.</li>
         <li>✨ <strong>Dado da sorte:</strong> quem errou as duas últimas perguntas da sua vez tira 3.</li>
         <li>★ <strong>Casa especial:</strong> se quem está nela acerta, todos os que estão à frente dele voltam uma casa.</li>
