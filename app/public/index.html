@@ -124,7 +124,7 @@
     /* Modo mesa: o tabuleiro em tela cheia, com uma margem para não encostar nas bordas da tela. */
     #mesa { position: fixed; inset: 0; background: #000; z-index: 20; display: flex; align-items: center;
             justify-content: center; gap: 2.5vmin; padding: 2vmin; }
-    #mesa .tabuleiro { width: min(100%, calc(100vh - 4vmin)); flex: none; }
+    #mesa .tabuleiro { width: min(100%, calc(100vh - var(--folga, 4vmin))); flex: none; }
     /* Sair e som: discretos no canto de cima à esquerda, que fica vazio no tabuleiro (à direita fica o
        cartão da pergunta); acendem ao passar o mouse ou tocar. */
     #mesa-botoes { position: absolute; top: 1.2vmin; left: 1.2vmin; display: flex; gap: 8px; z-index: 1; }
@@ -135,11 +135,26 @@
     #mesa-duracao { align-self: center; background: #000c; color: #fff; border: 1px solid #444; border-radius: 10px;
                     padding: .3rem .8rem; font-variant-numeric: tabular-nums; opacity: .8; }
     #mesa-duracao.parado { color: #f5c542; border-color: #f5c542; opacity: 1; }
+    /* Modo TV: o modo mesa num aparelho espelhado na televisão. Margem maior, porque algumas TVs cortam as
+       bordas da imagem; os botões somem (um toque na tela os traz por 5 s) e o código da partida fica à vista. */
+    #mesa.tv { --folga: 6vmin; padding: 3vmin 3vw; }
+    #mesa.tv #mesa-botoes { top: 1.5vmin; left: 3vw; }
+    #mesa.tv:not(.controles) #mesa-botoes > button { display: none; }
+    #mesa-tv-codigo { align-self: center; background: #000c; color: var(--suave); border: 1px solid #444; border-radius: 10px;
+                      padding: .3rem .8rem; font-size: clamp(13px, 2.4vmin, 30px); }
+    #mesa-tv-codigo strong { color: #fff; letter-spacing: .08em; }
+    #mesa:not(.tv) #mesa-tv-codigo { display: none; }
+    #tv-pagina { position: fixed; inset: 0; background: var(--fundo); z-index: 30; overflow: auto; }
+    #tv-pagina ol { padding-left: 1.3rem; }
+    #tv-pagina li { margin: .2rem 0 .9rem; }
+    #tv-pagina dl { margin: .3rem 0 0; }
+    #tv-pagina dt { font-weight: 700; margin-top: .45rem; }
+    #tv-pagina dd { margin: .1rem 0 0; color: var(--suave); }
     /* Modo mesa com pergunta: o tabuleiro de um lado e, do outro, o cartão da pergunta e a fila de jogadores
        (empilhados com a tela em pé), com letras grandes para serem lidas de longe, como numa projeção. */
     #mesa-lado { flex: 1; min-width: 0; min-height: 0; align-self: stretch; display: flex; flex-direction: column;
                  justify-content: center; gap: 2vmin; }
-    #mesa.com-pergunta .tabuleiro { width: min(56vw, calc(100vh - 4vmin)); }
+    #mesa.com-pergunta .tabuleiro { width: min(56vw, calc(100vh - var(--folga, 4vmin))); }
     #mesa-pergunta, #mesa-seguinte { position: relative; min-height: 0; overflow: auto; background: var(--cartao);
                      border: 1px solid var(--linha); border-radius: 2vmin; padding: 3.6vmin 3.2vmin 3vmin;
                      font-size: clamp(16px, 3.6vmin, 52px); line-height: 1.3; }
@@ -361,8 +376,8 @@
     .atalhos button[aria-expanded="true"] { border-color: var(--acento); color: var(--acento); }
     /* Modo Linear: o tabuleiro é deitado (1600 × 960; no modo Pokémon, mais alto, com a legenda: --alt-linear);
        com a pergunta, fica ao lado dela na tela deitada. */
-    #mesa.linear .tabuleiro { width: min(100%, calc((100vh - 4vmin) * 1600 / var(--alt-linear, 880))); }
-    #mesa.com-pergunta.linear .tabuleiro { width: min(60vw, calc((100vh - 4vmin) * 1600 / var(--alt-linear, 880))); }
+    #mesa.linear .tabuleiro { width: min(100%, calc((100vh - var(--folga, 4vmin)) * 1600 / var(--alt-linear, 880))); }
+    #mesa.com-pergunta.linear .tabuleiro { width: min(60vw, calc((100vh - var(--folga, 4vmin)) * 1600 / var(--alt-linear, 880))); }
     @media (orientation: portrait) { #mesa.com-pergunta.linear .tabuleiro { width: min(100%, calc(48vh * 1600 / var(--alt-linear, 880))); } }
     [hidden] { display: none !important; }
       /* Legenda das casas temáticas do modo Pokémon: ícone e nome, em linhas que quebram. */
@@ -514,6 +529,7 @@
         <p id="vencedor-tab" class="vencedor" hidden></p>
         <div id="tabuleiro" class="tabuleiro"></div>
         <button id="modo-mesa" style="width:100%;margin-top:.6rem">Modo mesa: tabuleiro em tela cheia</button>
+        <button id="modo-tv" style="width:100%;margin-top:.5rem">Modo TV: espelhar na televisão</button>
         <!-- Recursos em teste, ligados aparelho por aparelho: por enquanto, os sons do modo mesa -->
         <button id="experimental" aria-pressed="false" style="width:100%;margin-top:.5rem"></button>
         <p id="experimental-nota" class="suave" style="margin:.3rem 0 0" hidden>Em teste neste aparelho: sons na tela grande do modo mesa.</p>
@@ -588,6 +604,7 @@
     <button id="mesa-rever" title="Mostrar de novo a rodada anterior" hidden>↩ Rodada anterior</button>
     <button id="mesa-som" title="Ligar ou desligar o som" hidden>🔊</button>
     <span id="mesa-duracao" title="Duração da partida" hidden></span>
+    <span id="mesa-tv-codigo"></span>
   </div>
 </div>
 
@@ -601,6 +618,33 @@
     <p class="suave">Os sons que tocam na tela grande do modo mesa (por enquanto só com o Modo experimental ligado). Quando
       uma ação tem mais de um som, o app sorteia um a cada vez. Toque ▶ para ouvir.</p>
     <div id="sons-lista"></div>
+  </main>
+</div>
+
+<!-- Modo TV: como espelhar a tela do aparelho na televisão, antes de abrir o modo mesa preparado para ela -->
+<div id="tv-pagina" hidden>
+  <main>
+    <div class="topo"><h1 style="margin:0">Modo TV</h1><button id="tv-fechar">Fechar</button></div>
+    <p class="suave">A televisão mostra o tabuleiro e a pergunta, como no modo mesa. A resposta só aparece quando quem
+      lê a mostra para todos.</p>
+    <ol>
+      <li><strong>Use um aparelho só para a TV</strong>: um celular reserva, um tablet ou um notebook. Quem lê as perguntas
+        joga pelo próprio celular, entrando com o código <strong id="tv-codigo"></strong>.</li>
+      <li><strong>Espelhe a tela deste aparelho na TV</strong>, pelo próprio sistema:
+        <dl>
+          <dt>Android</dt>
+          <dd>Puxe a barra de cima e toque em <em>Transmitir tela</em> (na Samsung, <em>Smart View</em>). Funciona com
+            Chromecast, Google TV e TVs com espelhamento (Miracast).</dd>
+          <dt>iPhone e iPad</dt>
+          <dd>Abra a Central de Controle, toque em <em>Espelhar Tela</em> e escolha a TV. Precisa de Apple TV ou TV com
+            AirPlay. Deite o aparelho com a rotação destravada.</dd>
+          <dt>Notebook com Windows</dt>
+          <dd>Tecle <em>Windows + K</em> e escolha a TV. No Chrome, também dá: menu ⋮ → <em>Transmitir</em>.</dd>
+        </dl></li>
+      <li><strong>Toque em Abrir na TV.</strong> A tela fica deitada, em tela cheia, e não apaga sozinha; deixe o aparelho
+        carregando. Para sair, toque na tela e depois em ×.</li>
+    </ol>
+    <button id="tv-abrir" class="principal" style="width:100%">Abrir na TV</button>
   </main>
 </div>
 
@@ -2214,14 +2258,34 @@
   };
 
   let mesaAcesa = null;  // trava que impede a tela de apagar no modo mesa
-  $("modo-mesa").onclick = async () => {
+  async function abrirMesa(tv) {
+    $("mesa").classList.toggle("tv", tv);
+    $("mesa").classList.remove("controles");
+    $("mesa-tv-codigo").replaceChildren("Partida ", el("strong", { textContent: codigo }));
     $("mesa").hidden = false;
     prepararSom();
     ajustarMesa();
     desenharDuracao();
     try { await $("mesa").requestFullscreen?.(); } catch {}
+    // Na TV, a tela deitada; só funciona em tela cheia, e o iPhone não deixa (lá, deita-se o aparelho).
+    if (tv) try { await screen.orientation?.lock?.("landscape"); } catch {}
     try { mesaAcesa = await navigator.wakeLock?.request("screen"); } catch {}
+  }
+  $("modo-mesa").onclick = () => abrirMesa(false);
+  $("modo-tv").onclick = () => {
+    $("tv-codigo").textContent = codigo;
+    $("tv-pagina").hidden = false;
   };
+  $("tv-fechar").onclick = () => { $("tv-pagina").hidden = true; };
+  $("tv-abrir").onclick = () => { $("tv-pagina").hidden = true; abrirMesa(true); };
+  // No modo TV, os botões ficam escondidos; um toque na tela os mostra por alguns segundos.
+  let controlesTv;
+  $("mesa").addEventListener("pointerdown", () => {
+    if (!$("mesa").classList.contains("tv")) return;
+    $("mesa").classList.add("controles");
+    clearTimeout(controlesTv);
+    controlesTv = setTimeout(() => $("mesa").classList.remove("controles"), 5000);
+  });
   $("mesa-rever").onclick = () => { revendo = !revendo; desenharMesa(); };
   // Tocar na figura da tela grande a amplia ocupando a tela toda, sem sair da tela cheia; outro toque (ou Esc) volta.
   $("mesa-pergunta").addEventListener("click", e => {
@@ -2236,6 +2300,7 @@
     fecharZoom();
     pararAudio();
     $("mesa").hidden = true;
+    try { screen.orientation?.unlock?.(); } catch {}
     if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
     mesaAcesa?.release().catch(() => {});
     mesaAcesa = null;
