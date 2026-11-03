@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: o Bósforo liga o Mar Negro ao Mármara, então dá para responder sem a figura. O reconhecimento do mar não é exigido.",
+      "reescrita": {
+        "pergunta": "Que pequeno mar, inteiramente dentro da Turquia, é este?",
+        "resposta": "Mar de Mármara",
+        "distratores": [
+          "Mar Egeu",
+          "Mar Negro",
+          "Mar Cáspio"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro e sem vazamento. A Escócia está nos trechos, e os distratores são de ilhas de outros países, sem o Reino Unido como alternativa.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Mar Vermelho não é um golfo, e o enunciado já o exclui. Os distratores precisam ser todos golfos.",
+      "reescrita": {
+        "pergunta": "Que golfo é este, visto do espaço?",
+        "resposta": "Golfo Pérsico",
+        "distratores": [
+          "Golfo de Áden",
+          "Golfo de Suez",
+          "Golfo da Califórnia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta de reconhecimento não vaza a resposta. Os distratores são outros Grandes Lagos, críveis e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O lago fica na Guatemala, como dizem os trechos. O fato de ser cercado por vulcões é bem documentado. A pista ajuda sem entregar, porque outros países da região também têm lagos vulcânicos.",
+      "reescrita": null
+    }
+  ]
+}

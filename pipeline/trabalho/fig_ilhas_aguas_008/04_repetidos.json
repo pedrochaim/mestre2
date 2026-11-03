@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que lago é este, visto do espaço?",
+        "resposta": "Lago Ontário"
+      },
+      "existentes": [
+        {
+          "id": "q17092",
+          "pergunta": "Que Grande Lago norte-americano é este?",
+          "resposta": "Lago Ontário"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país fica este lago, cercado por vulcões?",
+        "resposta": "Guatemala"
+      },
+      "existentes": [
+        {
+          "id": "q16584",
+          "pergunta": "Este lago fica nas terras altas da Guatemala. Que lago é este?",
+          "resposta": "Lago Atitlán"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do mesmo lago (Ontário) a partir da imagem; mesma resposta."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o país (Guatemala); a existente pede o nome do lago, embora a dica cite o país. Fatos diferentes, e saber o país não revela o lago."
+    }
+  ]
+}

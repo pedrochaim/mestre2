@@ -348596,5 +348596,105 @@
       "licenca": "Public domain"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q17852",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "mar_de_marmara",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que pequeno mar, inteiramente dentro da Turquia, é este?",
+    "resposta": "Mar de Mármara",
+    "distratores": [
+      "Mar Egeu",
+      "Mar Negro",
+      "Mar Cáspio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sea_of_Marmara",
+      "https://pt.wikipedia.org/wiki/Mar_de_M%C3%A1rmara"
+    ],
+    "imagem": {
+      "arquivo": "q17852.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:STS040-610-50.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q17853",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "ilha_de_skye",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país fica esta ilha?",
+    "resposta": "Escócia",
+    "distratores": [
+      "Irlanda",
+      "Islândia",
+      "Noruega"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Isle_of_Skye",
+      "https://pt.wikipedia.org/wiki/Ilha_de_Skye"
+    ],
+    "imagem": {
+      "arquivo": "q17853.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Quiraing,_Isle_of_Skye.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q17854",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "golfo_persico",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que golfo é este, visto do espaço?",
+    "resposta": "Golfo Pérsico",
+    "distratores": [
+      "Golfo de Áden",
+      "Golfo de Suez",
+      "Golfo da Califórnia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Persian_Gulf",
+      "https://pt.wikipedia.org/wiki/Golfo_P%C3%A9rsico"
+    ],
+    "imagem": {
+      "arquivo": "q17854.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:PersianGulf_vue_satellite_du_golfe_persique.jpg",
+      "autor": "NASA",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q17855",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "lago_atitlan",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país fica este lago, cercado por vulcões?",
+    "resposta": "Guatemala",
+    "distratores": [
+      "Nicarágua",
+      "El Salvador",
+      "Costa Rica"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lake_Atitl%C3%A1n",
+      "https://pt.wikipedia.org/wiki/Lago_de_Atitl%C3%A1n"
+    ],
+    "imagem": {
+      "arquivo": "q17855.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lago_de_Atitlan_seen_from_orbit.jpg",
+      "autor": "NASA",
+      "licenca": "Public domain"
+    }
   }
 ]

@@ -1,0 +1,158 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Mostra um lago com montanhas (região de Shiretoko); não permite reconhecer a ilha de Hokkaido."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com forma reconhecível do Mar de Mármara e dos estreitos.",
+      "pergunta": "Por qual estreito este mar se liga ao Mar Negro?",
+      "tipo": "multipla",
+      "resposta": "Bósforo",
+      "distratores": [
+        "Dardanelos",
+        "Gibraltar",
+        "Ormuz"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Mar de Mármara",
+        "descricao": "Pequeno mar interior inteiramente dentro da Turquia, entre o Mar Negro e o Mar Egeu.",
+        "variantes": [
+          "Mar de Marmara",
+          "Propôntida"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Paisagem genérica de lago alpino entre montanhas; não é reconhecível como o Lago de Lucerna, resposta não única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Paisagem característica do Quiraing, na Ilha de Skye, reconhecível por aficionados; sem texto.",
+      "pergunta": "Em que país fica esta ilha?",
+      "tipo": "multipla",
+      "resposta": "Escócia",
+      "distratores": [
+        "Irlanda",
+        "Islândia",
+        "Noruega"
+      ],
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Ilha de Skye",
+        "descricao": "Maior e mais setentrional das principais ilhas das Hébridas Interiores, na Escócia.",
+        "variantes": [
+          "Isle of Skye",
+          "Skye"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com contorno inconfundível do Golfo Pérsico.",
+      "pergunta": "Que golfo é este, visto do espaço?",
+      "tipo": "multipla",
+      "resposta": "Golfo Pérsico",
+      "distratores": [
+        "Mar Vermelho",
+        "Golfo de Áden",
+        "Golfo de Omã"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Golfo Pérsico",
+        "descricao": "Mar interior do Oceano Índico entre a Península Arábica e o Irã.",
+        "variantes": [
+          "Golfo Arábico",
+          "Persian Gulf"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com a forma característica do Lago Ontário e o rio São Lourenço a nordeste.",
+      "pergunta": "Que lago é este, visto do espaço?",
+      "tipo": "multipla",
+      "resposta": "Lago Ontário",
+      "distratores": [
+        "Lago Erie",
+        "Lago Huron",
+        "Lago Michigan"
+      ],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "ancora": {
+        "nome": "Lago Ontário",
+        "descricao": "O menor em área dos cinco Grandes Lagos, entre o Canadá e os Estados Unidos.",
+        "variantes": [
+          "Lake Ontario"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Praia de areia e rochas vulcânicas genérica; não permite reconhecer a Ilha de Ascensão."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Lagoa comum com pessoas em primeiro plano e sem traços que permitam reconhecê-la."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Navios num mar aberto; poderia ser o Estreito de Singapura, resposta não única e sem traço reconhecível."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com forma e vulcões característicos do Lago Atitlán.",
+      "pergunta": "Em que país fica este lago, cercado por vulcões?",
+      "tipo": "multipla",
+      "resposta": "Guatemala",
+      "distratores": [
+        "Nicarágua",
+        "El Salvador",
+        "Costa Rica"
+      ],
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Lago Atitlán",
+        "descricao": "Lago vulcânico nas terras altas da Guatemala, o mais profundo da América Central.",
+        "variantes": [
+          "Lago de Atitlán",
+          "Lake Atitlán"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Vista aérea de um grande rio amazônico genérico; não é reconhecível como o Xingu."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Paisagem de lago patagônico genérica, parecida com muitos outros lagos andinos; resposta não única."
+    }
+  ]
+}
