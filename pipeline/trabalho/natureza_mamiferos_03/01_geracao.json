@@ -1,0 +1,1253 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "guepardo",
+        "nome": "Guepardo",
+        "descricao": "Felino de pelagem amarelada com manchas sólidas e o animal terrestre mais veloz (Acinonyx jubatus).",
+        "variantes": [
+          "Chita"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cheetah"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Capaz de passar dos cem quilômetros por hora em arrancadas curtas, qual é o mamífero terrestre mais veloz do mundo?",
+      "resposta": "Guepardo",
+      "distratores": [
+        "Leopardo",
+        "Antílope-americano",
+        "Gazela-de-thomson"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cheetah"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "elefante_africano",
+        "nome": "Elefante-africano",
+        "descricao": "Elefantes do gênero Loxodonta, nativos da África.",
+        "variantes": [
+          "Elefante-da-savana"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/African_bush_elephant"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre todos os animais terrestres que vivem hoje, qual é o mais pesado?",
+      "resposta": "Elefante-africano",
+      "distratores": [
+        "Elefante-asiático",
+        "Rinoceronte-branco",
+        "Hipopótamo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/African_bush_elephant"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "girafa",
+        "nome": "Girafa",
+        "descricao": "Mamífero africano de pescoço longo do gênero Giraffa.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Giraffe"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Com machos que chegam perto de seis metros de altura, que animal é o mais alto do planeta?",
+      "resposta": "Girafa",
+      "distratores": [
+        "Elefante-africano",
+        "Alce",
+        "Camelo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Giraffe"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cachalote",
+        "descricao": "Maior baleia dentada (Physeter macrocephalus), de cabeça enorme e quadrada, que mergulha a grandes profundidades para caçar lulas.",
+        "variantes": [
+          "Physeter macrocephalus",
+          "Baleia-cachalote"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sperm_whale",
+          "https://pt.wikipedia.org/wiki/Cachalote"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Pesando cerca de oito quilos, o maior cérebro de todo o reino animal pertence a qual mamífero marinho?",
+      "resposta": "Cachalote",
+      "distratores": [
+        "Baleia-azul",
+        "Orca",
+        "Baleia-jubarte"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sperm_whale"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tatu_canastra",
+        "nome": "Tatu-canastra",
+        "descricao": "Maior espécie viva de tatu (Priodontes maximus), sul-americano, que se alimenta sobretudo de cupins.",
+        "variantes": [
+          "Priodontes maximus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Giant_armadillo"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Podendo passar de trinta quilos, qual tatu sul-americano é a maior espécie de tatu do mundo?",
+      "resposta": "Tatu-canastra",
+      "distratores": [
+        "Tatu-galinha",
+        "Tatu-peba",
+        "Tatu-bola"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Giant_armadillo"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cervo_do_pantanal",
+        "nome": "Cervo-do-pantanal",
+        "descricao": "Maior cervo da América do Sul, Blastocerus dichotomus, de áreas alagadas.",
+        "variantes": [
+          "Blastocerus dichotomus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Marsh_deer"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Habitante de brejos e várzeas alagadas, qual é o maior cervo da América do Sul?",
+      "resposta": "Cervo-do-pantanal",
+      "distratores": [
+        "Veado-campeiro",
+        "Veado-mateiro",
+        "Huemul"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Marsh_deer"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pudu",
+        "nome": "Pudu",
+        "descricao": "Gênero de pequenos cervos sul-americanos, os menores cervos do mundo.",
+        "variantes": [
+          "Pudu puda"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pudu"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Medindo menos de meio metro de altura, qual cervo das florestas andinas é o menor do mundo?",
+      "resposta": "Pudu",
+      "distratores": [
+        "Muntíaco",
+        "Veado-catingueiro",
+        "Huemul"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pudu"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sagui_pigmeu",
+        "nome": "Sagui-pigmeu",
+        "descricao": "Pequeno macaco do gênero Cebuella, o menor macaco do mundo, da Amazônia ocidental.",
+        "variantes": [
+          "Cebuella pygmaea"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pygmy_marmoset"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual primata amazônico, que cabe na palma da mão de um adulto, é considerado o menor macaco do mundo?",
+      "resposta": "Sagui-pigmeu",
+      "distratores": [
+        "Mico-leão-dourado",
+        "Sagui-de-tufos-brancos",
+        "Macaco-de-cheiro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pygmy_marmoset"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "gorila",
+        "nome": "Gorila",
+        "descricao": "Grande primata africano de pelagem escura do gênero Gorilla.",
+        "variantes": [
+          "Gorilla"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gorilla"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Com machos que passam dos cento e cinquenta quilos, quem detém o título de maior primata vivo?",
+      "resposta": "Gorila",
+      "distratores": [
+        "Orangotango",
+        "Chimpanzé",
+        "Mandril"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gorilla"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "urso_polar",
+        "nome": "Urso-polar",
+        "descricao": "Urso das regiões árticas, espécie Ursus maritimus.",
+        "variantes": [
+          "Ursus maritimus",
+          "Urso-branco"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Polar_bear"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Com machos que podem passar de meia tonelada, que urso é considerado o maior carnívoro terrestre vivo?",
+      "resposta": "Urso-polar",
+      "distratores": [
+        "Urso-pardo",
+        "Urso-negro-americano",
+        "Urso-de-óculos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Polar_bear"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tigre",
+        "nome": "Tigre",
+        "descricao": "Grande felino asiático do gênero Panthera, de pelagem laranja com listras pretas (Panthera tigris).",
+        "variantes": [
+          "Panthera tigris"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tiger"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Na família dos felinos, qual espécie é a maior de todas, superando até o leão em tamanho e peso?",
+      "resposta": "Tigre",
+      "distratores": [
+        "Onça-pintada",
+        "Leopardo-das-neves",
+        "Puma"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tiger"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "canguru_vermelho",
+        "nome": "Canguru-vermelho",
+        "descricao": "Maior dos cangurus e maior marsupial vivo, da Austrália continental (Osphranter rufus).",
+        "variantes": [
+          "Osphranter rufus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Red_kangaroo"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Na Austrália, terra dos animais de bolsa, qual espécie leva o título de maior marsupial vivo?",
+      "resposta": "Canguru-vermelho",
+      "distratores": [
+        "Vombate",
+        "Coala",
+        "Wallaby"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Red_kangaroo"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pangolim",
+        "nome": "Pangolim",
+        "descricao": "Mamífero da África e da Ásia coberto de escamas, ordem Pholidota.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pangolin"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Muito traficadas para a medicina tradicional, as escamas que cobrem o corpo do pangolim são feitas de qual substância?",
+      "resposta": "Queratina",
+      "distratores": [
+        "Osso",
+        "Cartilagem",
+        "Esmalte dentário"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pangolin"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "elefante_africano",
+        "nome": "Elefante-africano",
+        "descricao": "Elefantes do gênero Loxodonta, nativos da África.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Elephant"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A tromba do elefante é formada pela fusão do nariz com qual outra parte do corpo?",
+      "resposta": "Lábio superior",
+      "distratores": [
+        "Lábio inferior",
+        "Língua",
+        "Bochechas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Elephant"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "morsa",
+        "nome": "Morsa",
+        "descricao": "Grande mamífero marinho do Ártico com presas longas, espécie Odobenus rosmarus.",
+        "variantes": [
+          "Odobenus rosmarus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Walrus"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "As longas presas da morsa, que podem chegar a um metro, são na verdade que tipo de dente alongado?",
+      "resposta": "Caninos",
+      "distratores": [
+        "Incisivos",
+        "Molares",
+        "Pré-molares"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Walrus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "girafa",
+        "nome": "Girafa",
+        "descricao": "Mamífero africano de pescoço longo do gênero Giraffa.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Giraffe"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Os ossicones, chifrinhos da girafa, são feitos de cartilagem que se transforma em osso. Por fora, eles são cobertos por quê?",
+      "resposta": "Pele e pelos",
+      "distratores": [
+        "Queratina",
+        "Escamas",
+        "Esmalte"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ossicone",
+        "https://en.wikipedia.org/wiki/Giraffe"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ornitorrinco",
+        "nome": "Ornitorrinco",
+        "descricao": "Mamífero monotremado semiaquático australiano, espécie Ornithorhynchus anatinus.",
+        "variantes": [
+          "Ornithorhynchus anatinus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Platypus"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O macho do ornitorrinco é um dos raros mamíferos venenosos. Em que parte do corpo fica o esporão que injeta o veneno?",
+      "resposta": "Patas traseiras",
+      "distratores": [
+        "Patas dianteiras",
+        "Cauda",
+        "Bico"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Platypus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "morcego",
+        "nome": "Morcego",
+        "descricao": "Mamífero voador da ordem Chiroptera.",
+        "variantes": [
+          "Quiróptero"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bat"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A asa do morcego é uma membrana de pele sustentada principalmente por ossos muito alongados de qual parte do corpo?",
+      "resposta": "Dedos das mãos",
+      "distratores": [
+        "Costelas",
+        "Pernas",
+        "Cauda"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bat"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bicho_preguica",
+        "nome": "Bicho-preguiça",
+        "descricao": "Mamífero arborícola lento das Américas Central e do Sul, da subordem Folivora.",
+        "variantes": [
+          "Preguiça"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sloth"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No pelo da preguiça-de-três-dedos vivem insetos que põem ovos nas fezes dela, quando ela desce da árvore. Que insetos são esses?",
+      "resposta": "Mariposas",
+      "distratores": [
+        "Abelhas",
+        "Formigas",
+        "Cigarras"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sloth_moth",
+        "https://en.wikipedia.org/wiki/Sloth"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "golfinho",
+        "nome": "Golfinho",
+        "descricao": "Cetáceos com dentes da família Delphinidae, como o golfinho-nariz-de-garrafa.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dolphin"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O orifício no alto da cabeça, por onde o golfinho respira, corresponde a qual parte do corpo humano?",
+      "resposta": "Narinas",
+      "distratores": [
+        "Boca",
+        "Ouvidos",
+        "Garganta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Blowhole_(anatomy)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tatu_galinha",
+        "nome": "Tatu-galinha",
+        "descricao": "Tatu das Américas, espécie Dasypus novemcinctus.",
+        "variantes": [
+          "Dasypus novemcinctus",
+          "Tatu-de-nove-bandas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nine-banded_armadillo"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Para atravessar rios a nado, o tatu-galinha engole ar e infla quais órgãos, ganhando flutuação?",
+      "resposta": "Estômago e intestinos",
+      "distratores": [
+        "Bexiga urinária",
+        "Bolsas nas bochechas",
+        "Glândulas da pele"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nine-banded_armadillo"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "canguru",
+        "nome": "Canguru",
+        "descricao": "Marsupiais saltadores australianos da família Macropodidae, de patas traseiras longas e cauda forte.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kangaroo"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Ao se mover devagar, apoiado nas patas dianteiras, o canguru usa qual parte do corpo como uma quinta perna?",
+      "resposta": "Cauda",
+      "distratores": [
+        "Bolsa marsupial",
+        "Cotovelos",
+        "Focinho"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kangaroo"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "onca_pintada",
+        "nome": "Onça-pintada",
+        "descricao": "Grande felino das Américas, espécie Panthera onca.",
+        "variantes": [
+          "Jaguar"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jaguar"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Diferente de outros grandes felinos, que atacam o pescoço, a onça-pintada costuma matar com uma mordida em qual parte da presa?",
+      "resposta": "Crânio",
+      "distratores": [
+        "Barriga",
+        "Patas traseiras",
+        "Lombo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jaguar"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "baleia_azul",
+        "nome": "Baleia-azul",
+        "descricao": "Cetáceo gigante da espécie Balaenoptera musculus.",
+        "variantes": [
+          "Balaenoptera musculus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Blue_whale"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Para sustentar seu tamanho colossal, a baleia-azul se alimenta quase exclusivamente de quê?",
+      "resposta": "Krill",
+      "distratores": [
+        "Lulas gigantes",
+        "Sardinhas",
+        "Focas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Blue_whale"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ornitorrinco",
+        "nome": "Ornitorrinco",
+        "descricao": "Mamífero monotremado semiaquático australiano, espécie Ornithorhynchus anatinus.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Platypus"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Sem mamilos, como a fêmea do ornitorrinco oferece leite aos filhotes?",
+      "resposta": "Por poros na barriga",
+      "distratores": [
+        "Pelo bico",
+        "Regurgitando o leite",
+        "Por mamilos internos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Platypus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "gamba",
+        "nome": "Gambá",
+        "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+        "variantes": [
+          "Saruê",
+          "Timbu",
+          "Didelphis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Opossum"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Os gambás do gênero Didelphis, comuns no Brasil, são muito resistentes a quê, o que lhes permite até comer jararacas?",
+      "resposta": "Veneno de cobra",
+      "distratores": [
+        "Frio intenso",
+        "Desidratação",
+        "Febre amarela"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Opossum"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ariranha",
+        "nome": "Ariranha",
+        "descricao": "Lontra gigante dos rios da América do Sul, espécie Pteronura brasiliensis.",
+        "variantes": [
+          "Pteronura brasiliensis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Giant_otter"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Pesquisadores reconhecem cada ariranha individualmente por uma marca que nunca se repete de um animal para outro. Que marca é essa?",
+      "resposta": "Mancha clara na garganta",
+      "distratores": [
+        "Formato da cauda",
+        "Cor dos olhos",
+        "Cicatrizes no focinho"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Giant_otter"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "morcego_vampiro",
+        "nome": "Morcego-vampiro",
+        "descricao": "Morcegos da subfamília Desmodontinae, que se alimentam de sangue.",
+        "variantes": [
+          "Desmodus rotundus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Common_vampire_bat"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Quando um morcego-vampiro volta ao abrigo sem ter conseguido comer, o que os companheiros de colônia costumam fazer por ele?",
+      "resposta": "Regurgitam sangue para ele",
+      "distratores": [
+        "Levam frutas",
+        "Expulsam-no do grupo",
+        "Aquecem-no com asas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Common_vampire_bat"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "coala",
+        "nome": "Coala",
+        "descricao": "Marsupial arborícola australiano, espécie Phascolarctos cinereus.",
+        "variantes": [
+          "Phascolarctos cinereus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Koala"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Antes de começar a comer eucalipto, o filhote de coala se alimenta de uma papa especial produzida pela mãe. Do que ela é feita?",
+      "resposta": "Fezes da mãe",
+      "distratores": [
+        "Folhas mastigadas",
+        "Leite engrossado",
+        "Resina de eucalipto"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Koala"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "gato",
+        "nome": "Gato",
+        "descricao": "Pequeno mamífero carnívoro doméstico (Felis catus).",
+        "variantes": [
+          "Felis catus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cat"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Por causa de um gene defeituoso, os gatos são indiferentes a qual sabor básico?",
+      "resposta": "Doce",
+      "distratores": [
+        "Salgado",
+        "Amargo",
+        "Azedo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cat"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lontra_marinha",
+        "nome": "Lontra-marinha",
+        "descricao": "Mamífero marinho do Pacífico Norte, espécie Enhydra lutris.",
+        "variantes": [
+          "Enhydra lutris"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sea_otter"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Boiando de costas, a lontra-marinha usa o próprio peito como mesa. Que ferramenta ela usa para quebrar conchas e ouriços?",
+      "resposta": "Pedras",
+      "distratores": [
+        "Galhos",
+        "Ossos de peixe",
+        "Pedaços de gelo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sea_otter"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bicho_preguica",
+        "nome": "Bicho-preguiça",
+        "descricao": "Mamífero arborícola lento das Américas Central e do Sul, da subordem Folivora.",
+        "variantes": [
+          "Preguiça"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sloth"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Lenta nos galhos, a preguiça surpreende em qual destas atividades, na qual se mostra ágil e habilidosa?",
+      "resposta": "Nadar",
+      "distratores": [
+        "Correr no chão",
+        "Saltar entre árvores",
+        "Cavar tocas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sloth"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "guepardo",
+        "nome": "Guepardo",
+        "descricao": "Felino de pelagem amarelada com manchas sólidas e o animal terrestre mais veloz (Acinonyx jubatus).",
+        "variantes": [
+          "Chita"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cheetah"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "As garras do guepardo ficam sempre expostas, como as travas de uma chuteira. Que vantagem isso lhe dá?",
+      "resposta": "Mais aderência na corrida",
+      "distratores": [
+        "Subir em árvores",
+        "Cavar tocas",
+        "Abrir carcaças"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cheetah"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lobo_guara",
+        "nome": "Lobo-guará",
+        "descricao": "Canídeo de pernas longas e pelagem alaranjada do Cerrado e de campos sul-americanos, espécie Chrysocyon brachyurus.",
+        "variantes": [
+          "Chrysocyon brachyurus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Maned_wolf"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Segundo os biólogos, as pernas longuíssimas do lobo-guará são uma adaptação para quê?",
+      "resposta": "Ver por cima do capim",
+      "distratores": [
+        "Atravessar rios fundos",
+        "Colher frutas altas",
+        "Fugir de onças"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Maned_wolf"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "baleia_jubarte",
+        "nome": "Baleia-jubarte",
+        "descricao": "Grande baleia migratória da espécie Megaptera novaeangliae.",
+        "variantes": [
+          "Jubarte",
+          "Megaptera novaeangliae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Humpback_whale"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Todo inverno, jubartes trocam as águas geladas da Antártida pelo litoral brasileiro, onde quase não comem. Por que fazem essa viagem?",
+      "resposta": "Para se reproduzir",
+      "distratores": [
+        "Fugir das orcas",
+        "Caçar sardinhas",
+        "Trocar de pele"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Humpback_whale"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "camelo",
+        "nome": "Camelo",
+        "descricao": "Mamíferos do gênero Camelus, adaptados a desertos e com corcovas nas costas.",
+        "variantes": [
+          "Camelus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Camel"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O camelo tem duas fileiras de cílios longos e narinas que se fecham. Contra o que essas adaptações o protegem?",
+      "resposta": "Areia",
+      "distratores": [
+        "Moscas",
+        "Frio noturno",
+        "Fumaça"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Camel"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "raposa_do_artico",
+        "nome": "Raposa-do-ártico",
+        "descricao": "Pequena raposa (Vulpes lagopus) nativa da tundra ártica, de pelagem que muda com as estações.",
+        "variantes": [
+          "Vulpes lagopus",
+          "Raposa-polar"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Arctic_fox"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "No inverno, a raposa-do-ártico troca a pelagem marrom por uma toda branca. Qual é a principal vantagem dessa mudança de cor?",
+      "resposta": "Camuflagem na neve",
+      "distratores": [
+        "Refletir o sol",
+        "Atrair parceiros",
+        "Afastar parasitas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Arctic_fox"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "elefante_marinho_do_sul",
+        "nome": "Elefante-marinho-do-sul",
+        "descricao": "Maior foca e maior mamífero marinho não cetáceo (Mirounga leonina), das regiões subantárticas.",
+        "variantes": [
+          "Mirounga leonina"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Southern_elephant_seal"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O elefante-marinho deve o nome a qual característica dos machos adultos?",
+      "resposta": "Focinho em forma de tromba",
+      "distratores": [
+        "Presas de marfim",
+        "Orelhas grandes",
+        "Pele enrugada"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Elephant_seal",
+        "https://en.wikipedia.org/wiki/Southern_elephant_seal"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Peixe-boi-da-amazônia",
+        "descricao": "Sirênio de água doce da bacia amazônica (Trichechus inunguis), menor espécie de peixe-boi.",
+        "variantes": [
+          "Peixe-boi-amazônico",
+          "Trichechus inunguis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Amazonian_manatee"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome científico do peixe-boi-da-amazônia, inunguis, é uma palavra latina que indica a ausência de quê nas nadadeiras?",
+      "resposta": "Unhas",
+      "distratores": [
+        "Pelos",
+        "Escamas",
+        "Dedos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Amazonian_manatee"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "muriqui",
+        "nome": "Muriqui",
+        "descricao": "Primata do gênero Brachyteles, endêmico da Mata Atlântica brasileira.",
+        "variantes": [
+          "Brachyteles"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Muriqui",
+          "https://en.wikipedia.org/wiki/Muriqui"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O muriqui, primata da Mata Atlântica, também é conhecido por qual outro nome popular?",
+      "resposta": "Mono-carvoeiro",
+      "distratores": [
+        "Macaco-barrigudo",
+        "Bugio-ruivo",
+        "Cuxiú"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Muriqui"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "orca",
+        "nome": "Orca",
+        "descricao": "Cetáceo dentado preto e branco, o maior membro da família dos golfinhos oceânicos (Orcinus orca).",
+        "variantes": [
+          "Baleia-assassina",
+          "Orcinus orca"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Orca"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A orca é chamada de baleia-assassina por causa de um nome antigo dado por marinheiros. Na origem, esse nome significava o quê?",
+      "resposta": "Assassina de baleias",
+      "distratores": [
+        "Baleia do diabo",
+        "Lobo do mar",
+        "Baleia pirata"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Orca"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "baleia_jubarte",
+        "nome": "Baleia-jubarte",
+        "descricao": "Grande baleia migratória da espécie Megaptera novaeangliae.",
+        "variantes": [
+          "Jubarte",
+          "Megaptera novaeangliae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Humpback_whale"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Vindo do grego, o que significa Megaptera, o nome científico da baleia-jubarte?",
+      "resposta": "Asa grande",
+      "distratores": [
+        "Grande cantora",
+        "Cabeça grande",
+        "Grande viajante"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Humpback_whale"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tamandua_bandeira",
+        "nome": "Tamanduá-bandeira",
+        "descricao": "Grande mamífero comedor de formigas e cupins da América do Sul e Central, espécie Myrmecophaga tridactyla.",
+        "variantes": [
+          "Myrmecophaga tridactyla"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Giant_anteater"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Para alcançar cupins no fundo dos ninhos, a língua do tamanduá-bandeira pode chegar a cerca de quanto de comprimento?",
+      "resposta": "Sessenta centímetros",
+      "distratores": [
+        "Quinze centímetros",
+        "Trinta centímetros",
+        "Um metro e meio"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Giant_anteater"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "capivara",
+        "nome": "Capivara",
+        "descricao": "Roedor semiaquático sul-americano, espécie Hydrochoerus hydrochaeris.",
+        "variantes": [
+          "Hydrochoerus hydrochaeris"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Capybara"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Ao fugir de predadores, a capivara mergulha e pode ficar submersa por até cerca de quanto tempo?",
+      "resposta": "Cinco minutos",
+      "distratores": [
+        "Trinta segundos",
+        "Um minuto",
+        "Vinte minutos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Capybara"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "leao",
+        "nome": "Leão",
+        "descricao": "Grande felino social da África e da Índia, espécie Panthera leo.",
+        "variantes": [
+          "Panthera leo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lion"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na savana, o rugido de um leão pode ser ouvido a até cerca de qual distância?",
+      "resposta": "Oito quilômetros",
+      "distratores": [
+        "Quinhentos metros",
+        "Dois quilômetros",
+        "Trinta quilômetros"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lion"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "panda_gigante",
+        "nome": "Panda-gigante",
+        "descricao": "Urso preto e branco da China, espécie Ailuropoda melanoleuca.",
+        "variantes": [
+          "Ailuropoda melanoleuca"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Giant_panda"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Quanto pesa, aproximadamente, um filhote de panda-gigante recém-nascido?",
+      "resposta": "Cerca de cem gramas",
+      "distratores": [
+        "Cerca de meio quilo",
+        "Cerca de um quilo",
+        "Cerca de três quilos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Giant_panda"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cao_domestico",
+        "nome": "Cão doméstico",
+        "descricao": "Canídeo domesticado pelo ser humano, classificado como Canis familiaris ou Canis lupus familiaris.",
+        "variantes": [
+          "Cachorro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dog_anatomy"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Depois de trocar os dentes de leite, quantos dentes tem normalmente um cachorro adulto?",
+      "resposta": "Quarenta e dois",
+      "distratores": [
+        "Vinte e oito",
+        "Trinta e dois",
+        "Trinta e seis"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dog_anatomy"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "peixe_boi_marinho",
+        "nome": "Peixe-boi-marinho",
+        "descricao": "Grande mamífero aquático herbívoro (Trichechus manatus) das costas quentes das Américas.",
+        "variantes": [
+          "Trichechus manatus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Manatee"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Apesar de viver na água e lembrar uma foca, o peixe-boi é parente próximo de qual grande animal terrestre?",
+      "resposta": "Elefante",
+      "distratores": [
+        "Hipopótamo",
+        "Rinoceronte",
+        "Anta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Manatee",
+        "https://en.wikipedia.org/wiki/Sirenia"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "golfinho",
+        "nome": "Golfinho",
+        "descricao": "Cetáceos com dentes da família Delphinidae, como o golfinho-nariz-de-garrafa.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dolphin"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que habilidade, usada para caçar e se orientar mesmo no escuro, golfinhos e morcegos têm em comum?",
+      "resposta": "Ecolocalização",
+      "distratores": [
+        "Eletrorrecepção",
+        "Visão infravermelha",
+        "Magnetorrecepção"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Animal_echolocation"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "boto_cor_de_rosa",
+        "nome": "Boto-cor-de-rosa",
+        "descricao": "Golfinho de água doce das bacias do Amazonas e do Orinoco, espécie Inia geoffrensis.",
+        "variantes": [
+          "Inia geoffrensis",
+          "Boto-vermelho"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Amazon_river_dolphin"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Além da bacia amazônica, o boto-cor-de-rosa vive na bacia de qual outro grande rio sul-americano?",
+      "resposta": "Orinoco",
+      "distratores": [
+        "São Francisco",
+        "Rio da Prata",
+        "Paraná"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Amazon_river_dolphin"
+      ]
+    }
+  ]
+}

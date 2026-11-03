@@ -1,0 +1,1159 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Capaz de passar dos cem quilômetros por hora em arrancadas curtas, qual é o mamífero terrestre mais veloz do mundo?",
+        "resposta": "Guepardo"
+      },
+      "existentes": [
+        {
+          "id": "q01236",
+          "pergunta": "Que felino de manchas é este?",
+          "resposta": "Guepardo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Entre todos os animais terrestres que vivem hoje, qual é o mais pesado?",
+        "resposta": "Elefante-africano"
+      },
+      "existentes": [
+        {
+          "id": "q00257",
+          "pergunta": "Em dias quentes, por que o elefante-africano abana suas enormes orelhas?",
+          "resposta": "Para resfriar o corpo"
+        },
+        {
+          "id": "q07945",
+          "pergunta": "Dona da gestação mais longa entre os mamíferos terrestres, a elefanta-africana carrega o filhote por cerca de quantos meses?",
+          "resposta": "Cerca de 22 meses"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Com machos que chegam perto de seis metros de altura, que animal é o mais alto do planeta?",
+        "resposta": "Girafa"
+      },
+      "existentes": [
+        {
+          "id": "q00266",
+          "pergunta": "Apesar do pescoço enorme, quantas vértebras cervicais tem a girafa?",
+          "resposta": "Sete"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Pesando cerca de oito quilos, o maior cérebro de todo o reino animal pertence a qual mamífero marinho?",
+        "resposta": "Cachalote"
+      },
+      "existentes": [
+        {
+          "id": "q02049",
+          "pergunta": "Que baleia é esta?",
+          "resposta": "Cachalote"
+        },
+        {
+          "id": "q02527",
+          "pergunta": "Em 1820, um cachalote afundou o navio baleeiro Essex no Oceano Pacífico. Que romance americano foi inspirado nesse naufrágio?",
+          "resposta": "Moby Dick"
+        },
+        {
+          "id": "q05670",
+          "pergunta": "Em inglês, o cachalote se chama sperm whale porque os baleeiros confundiam com esperma uma substância cerosa encontrada em que parte do corpo dele?",
+          "resposta": "Na cabeça"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Podendo passar de trinta quilos, qual tatu sul-americano é a maior espécie de tatu do mundo?",
+        "resposta": "Tatu-canastra"
+      },
+      "existentes": [
+        {
+          "id": "q01235",
+          "pergunta": "Que insetos formam a base da dieta deste animal?",
+          "resposta": "Cupins e formigas"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Habitante de brejos e várzeas alagadas, qual é o maior cervo da América do Sul?",
+        "resposta": "Cervo-do-pantanal"
+      },
+      "existentes": [
+        {
+          "id": "q06915",
+          "pergunta": "Que cervo sul-americano é este?",
+          "resposta": "Cervo-do-pantanal"
+        },
+        {
+          "id": "q07946",
+          "pergunta": "Os chifres ramificados do cervo-do-pantanal, que caem e crescem de novo periodicamente, são feitos de qual material?",
+          "resposta": "Osso"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Medindo menos de meio metro de altura, qual cervo das florestas andinas é o menor do mundo?",
+        "resposta": "Pudu"
+      },
+      "existentes": [
+        {
+          "id": "q06912",
+          "pergunta": "O nome deste cervo sul-americano vem do idioma de que povo indígena?",
+          "resposta": "Mapuche"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Qual primata amazônico, que cabe na palma da mão de um adulto, é considerado o menor macaco do mundo?",
+        "resposta": "Sagui-pigmeu"
+      },
+      "existentes": [
+        {
+          "id": "q17033",
+          "pergunta": "Que macaco é este?",
+          "resposta": "Sagui-pigmeu"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Com machos que passam dos cento e cinquenta quilos, quem detém o título de maior primata vivo?",
+        "resposta": "Gorila"
+      },
+      "existentes": [
+        {
+          "id": "q00857",
+          "pergunta": "Em que continente vive na natureza este primata?",
+          "resposta": "África"
+        },
+        {
+          "id": "q07934",
+          "pergunta": "O nome gorila vem do relato de qual navegador cartaginês, que descreveu uma tribo de selvagens peludos na costa da África?",
+          "resposta": "Hanão"
+        },
+        {
+          "id": "q13941",
+          "pergunta": "Que grande primata africano é este?",
+          "resposta": "Gorila"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Com machos que podem passar de meia tonelada, que urso é considerado o maior carnívoro terrestre vivo?",
+        "resposta": "Urso-polar"
+      },
+      "existentes": [
+        {
+          "id": "q00264",
+          "pergunta": "Por baixo do pelo que parece branco, qual é a cor da pele do urso-polar?",
+          "resposta": "Preta"
+        },
+        {
+          "id": "q02861",
+          "pergunta": "Por que, na natureza, ursos-polares nunca caçam pinguins?",
+          "resposta": "Vivem em polos opostos"
+        },
+        {
+          "id": "q15868",
+          "pergunta": "Apesar de andar sobre o gelo, este animal é considerado que tipo de mamífero?",
+          "resposta": "Mamífero marinho"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Na família dos felinos, qual espécie é a maior de todas, superando até o leão em tamanho e peso?",
+        "resposta": "Tigre"
+      },
+      "existentes": [
+        {
+          "id": "q00848",
+          "pergunta": "Que animal é este?",
+          "resposta": "Tigre"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Na Austrália, terra dos animais de bolsa, qual espécie leva o título de maior marsupial vivo?",
+        "resposta": "Canguru-vermelho"
+      },
+      "existentes": [
+        {
+          "id": "q00854",
+          "pergunta": "De que espécie de canguru é este animal?",
+          "resposta": "Canguru-vermelho"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Muito traficadas para a medicina tradicional, as escamas que cobrem o corpo do pangolim são feitas de qual substância?",
+        "resposta": "Queratina"
+      },
+      "existentes": [
+        {
+          "id": "q00375",
+          "pergunta": "Que animal é este?",
+          "resposta": "Pangolim"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "A tromba do elefante é formada pela fusão do nariz com qual outra parte do corpo?",
+        "resposta": "Lábio superior"
+      },
+      "existentes": [
+        {
+          "id": "q00257",
+          "pergunta": "Em dias quentes, por que o elefante-africano abana suas enormes orelhas?",
+          "resposta": "Para resfriar o corpo"
+        },
+        {
+          "id": "q07945",
+          "pergunta": "Dona da gestação mais longa entre os mamíferos terrestres, a elefanta-africana carrega o filhote por cerca de quantos meses?",
+          "resposta": "Cerca de 22 meses"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "As longas presas da morsa, que podem chegar a um metro, são na verdade que tipo de dente alongado?",
+        "resposta": "Caninos"
+      },
+      "existentes": [
+        {
+          "id": "q00277",
+          "pergunta": "O nome científico da morsa, Odobenus, vem do grego e significa aquele que caminha com o quê?",
+          "resposta": "Dentes"
+        },
+        {
+          "id": "q09114",
+          "pergunta": "Que mamífero marinho do Ártico é este?",
+          "resposta": "Morsa"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Os ossicones, chifrinhos da girafa, são feitos de cartilagem que se transforma em osso. Por fora, eles são cobertos por quê?",
+        "resposta": "Pele e pelos"
+      },
+      "existentes": [
+        {
+          "id": "q00266",
+          "pergunta": "Apesar do pescoço enorme, quantas vértebras cervicais tem a girafa?",
+          "resposta": "Sete"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "O macho do ornitorrinco é um dos raros mamíferos venenosos. Em que parte do corpo fica o esporão que injeta o veneno?",
+        "resposta": "Patas traseiras"
+      },
+      "existentes": [
+        {
+          "id": "q00276",
+          "pergunta": "Por causa do bico achatado, o ornitorrinco recebeu um nome grego que significa focinho de que tipo de animal?",
+          "resposta": "Ave"
+        },
+        {
+          "id": "q07928",
+          "pergunta": "Em 1799, ao fazer a primeira descrição científica do ornitorrinco, que zoólogo britânico chegou a suspeitar que o exemplar fosse uma montagem falsa?",
+          "resposta": "George Shaw"
+        },
+        {
+          "id": "q15480",
+          "pergunta": "Que animal é este?",
+          "resposta": "Ornitorrinco"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "A asa do morcego é uma membrana de pele sustentada principalmente por ossos muito alongados de qual parte do corpo?",
+        "resposta": "Dedos das mãos"
+      },
+      "existentes": [
+        {
+          "id": "q00253",
+          "pergunta": "Ao contrário dos esquilos-voadores, que apenas planam, que grupo de mamíferos é o único capaz de voar batendo asas?",
+          "resposta": "Morcegos"
+        },
+        {
+          "id": "q07935",
+          "pergunta": "Vinda do latim, a palavra morcego significa, literalmente, que tipo de rato?",
+          "resposta": "Rato cego"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "No pelo da preguiça-de-três-dedos vivem insetos que põem ovos nas fezes dela, quando ela desce da árvore. Que insetos são esses?",
+        "resposta": "Mariposas"
+      },
+      "existentes": [
+        {
+          "id": "q00239",
+          "pergunta": "Por que o pelo do bicho-preguiça costuma ter um tom esverdeado?",
+          "resposta": "Algas crescem no pelo"
+        },
+        {
+          "id": "q00240",
+          "pergunta": "Em média, quantas vezes por semana a preguiça-de-três-dedos desce da árvore para defecar?",
+          "resposta": "Uma vez"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "O orifício no alto da cabeça, por onde o golfinho respira, corresponde a qual parte do corpo humano?",
+        "resposta": "Narinas"
+      },
+      "existentes": [
+        {
+          "id": "q00259",
+          "pergunta": "Por que os golfinhos dormem com apenas metade do cérebro de cada vez?",
+          "resposta": "Para continuar respirando"
+        },
+        {
+          "id": "q07914",
+          "pergunta": "Em qual cidade de Santa Catarina golfinhos encurralam cardumes de tainha e sinalizam aos pescadores artesanais a hora de lançar a rede?",
+          "resposta": "Laguna"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Para atravessar rios flutuando, o tatu-galinha infla qual parte do corpo?",
+        "resposta": "Intestinos"
+      },
+      "existentes": [
+        {
+          "id": "q00267",
+          "pergunta": "O tatu-galinha costuma parir filhotes idênticos, todos vindos de um único óvulo. Quantos, normalmente?",
+          "resposta": "Quatro"
+        },
+        {
+          "id": "q07943",
+          "pergunta": "O tatu-galinha é um dos raros animais que carregam naturalmente a bactéria de qual doença humana, podendo transmiti-la a quem o manipula ou come?",
+          "resposta": "Hanseníase"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Ao se mover devagar, apoiado nas patas dianteiras, o canguru usa qual parte do corpo como uma quinta perna?",
+        "resposta": "Cauda"
+      },
+      "existentes": [
+        {
+          "id": "q07930",
+          "pergunta": "Em 1770, a expedição de qual navegador britânico registrou a palavra canguru, ouvida de aborígenes no nordeste da Austrália?",
+          "resposta": "James Cook"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Diferente de outros grandes felinos, que atacam o pescoço, a onça-pintada costuma matar com uma mordida em qual parte da presa?",
+        "resposta": "Crânio"
+      },
+      "existentes": [
+        {
+          "id": "q00237",
+          "pergunta": "Com manchas em forma de roseta, qual é o maior felino das Américas?",
+          "resposta": "Onça-pintada"
+        },
+        {
+          "id": "q00238",
+          "pergunta": "Algumas onças-pintadas nascem quase totalmente pretas, embora as manchas ainda apareçam sob certa luz. Que fenômeno causa essa cor?",
+          "resposta": "Melanismo"
+        },
+        {
+          "id": "q07936",
+          "pergunta": "A palavra jaguar, que nomeia a onça-pintada em inglês e em várias outras línguas, tem origem em qual família de línguas indígenas sul-americanas?",
+          "resposta": "Tupi-guarani"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Para sustentar seu tamanho colossal, a baleia-azul se alimenta quase exclusivamente de quê?",
+        "resposta": "Krill"
+      },
+      "existentes": [
+        {
+          "id": "q00251",
+          "pergunta": "Até onde a ciência sabe, que animal é o maior que já viveu na Terra?",
+          "resposta": "Baleia-azul"
+        },
+        {
+          "id": "q09205",
+          "pergunta": "A baleia-azul, o maior animal que já existiu, se alimenta quase só de quê?",
+          "resposta": "Krill"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Sem mamilos, como a fêmea do ornitorrinco oferece leite aos filhotes?",
+        "resposta": "Por poros na barriga"
+      },
+      "existentes": [
+        {
+          "id": "q00276",
+          "pergunta": "Por causa do bico achatado, o ornitorrinco recebeu um nome grego que significa focinho de que tipo de animal?",
+          "resposta": "Ave"
+        },
+        {
+          "id": "q07928",
+          "pergunta": "Em 1799, ao fazer a primeira descrição científica do ornitorrinco, que zoólogo britânico chegou a suspeitar que o exemplar fosse uma montagem falsa?",
+          "resposta": "George Shaw"
+        },
+        {
+          "id": "q15480",
+          "pergunta": "Que animal é este?",
+          "resposta": "Ornitorrinco"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Comuns no Brasil, os gambás do gênero Didelphis têm uma resistência natural rara entre os mamíferos. Resistência a quê?",
+        "resposta": "Veneno de cobra"
+      },
+      "existentes": [
+        {
+          "id": "q00274",
+          "pergunta": "Na forma de criar os filhotes, o que o gambá brasileiro e o canguru têm em comum?",
+          "resposta": "São marsupiais"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Pesquisadores reconhecem cada ariranha individualmente por uma marca que nunca se repete de um animal para outro. Que marca é essa?",
+        "resposta": "Mancha clara na garganta"
+      },
+      "existentes": [
+        {
+          "id": "q00248",
+          "pergunta": "Vivendo em rios da Amazônia e do Pantanal, qual é a mais comprida de todas as lontras do mundo?",
+          "resposta": "Ariranha"
+        },
+        {
+          "id": "q00380",
+          "pergunta": "Que animal é este?",
+          "resposta": "Ariranha"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Quando um morcego-vampiro volta ao abrigo sem ter conseguido comer, o que os companheiros de colônia costumam fazer por ele?",
+        "resposta": "Regurgitam sangue para ele"
+      },
+      "existentes": [
+        {
+          "id": "q00255",
+          "pergunta": "Por que o sangue da presa demora a coagular enquanto o morcego-vampiro se alimenta?",
+          "resposta": "Anticoagulante na saliva"
+        },
+        {
+          "id": "q00256",
+          "pergunta": "Apesar da associação com o Drácula, os morcegos-vampiros vivem naturalmente apenas em que parte do mundo?",
+          "resposta": "Nas Américas"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Antes de começar a comer eucalipto, o filhote de coala se alimenta de uma papa especial produzida pela mãe. Do que ela é feita?",
+        "resposta": "Fezes da mãe"
+      },
+      "existentes": [
+        {
+          "id": "q00258",
+          "pergunta": "O coala passa quase o dia inteiro dormindo ou descansando. Isso se deve principalmente a quê?",
+          "resposta": "Dieta de eucalipto pobre em energia"
+        },
+        {
+          "id": "q07940",
+          "pergunta": "O coala tem nos dedos algo tão parecido com o dos seres humanos que poderia confundir peritos numa cena de crime. O quê?",
+          "resposta": "Impressões digitais"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Por causa de um gene defeituoso, os gatos são indiferentes a qual sabor básico?",
+        "resposta": "Doce"
+      },
+      "existentes": [
+        {
+          "id": "q09509",
+          "pergunta": "Que animal doméstico é este?",
+          "resposta": "Gato"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Boiando de costas, a lontra-marinha usa o próprio peito como mesa. Que ferramenta ela usa para quebrar conchas e ouriços?",
+        "resposta": "Pedras"
+      },
+      "existentes": [
+        {
+          "id": "q00252",
+          "pergunta": "Qual mamífero do Pacífico Norte, que boia de costas para comer, tem a pelagem mais densa do reino animal?",
+          "resposta": "Lontra-marinha"
+        },
+        {
+          "id": "q02547",
+          "pergunta": "No Pacífico Norte, a caça quase acabou com as lontras-marinhas, e os ouriços se multiplicaram. Que ambiente submarino foi devastado em consequência?",
+          "resposta": "Florestas de kelp"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Lenta nos galhos, a preguiça surpreende em qual destas atividades, na qual se mostra ágil e habilidosa?",
+        "resposta": "Nadar"
+      },
+      "existentes": [
+        {
+          "id": "q00239",
+          "pergunta": "Por que o pelo do bicho-preguiça costuma ter um tom esverdeado?",
+          "resposta": "Algas crescem no pelo"
+        },
+        {
+          "id": "q00240",
+          "pergunta": "Em média, quantas vezes por semana a preguiça-de-três-dedos desce da árvore para defecar?",
+          "resposta": "Uma vez"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "As garras do guepardo não se recolhem por completo, como as travas de uma chuteira. Que vantagem isso lhe dá?",
+        "resposta": "Mais aderência na corrida"
+      },
+      "existentes": [
+        {
+          "id": "q01236",
+          "pergunta": "Que felino de manchas é este?",
+          "resposta": "Guepardo"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Segundo os biólogos, as pernas longuíssimas do lobo-guará são uma adaptação para quê?",
+        "resposta": "Ver por cima do capim"
+      },
+      "existentes": [
+        {
+          "id": "q00245",
+          "pergunta": "Com pernas longas e pelagem alaranjada, qual é o maior canídeo da América do Sul?",
+          "resposta": "Lobo-guará"
+        },
+        {
+          "id": "q00246",
+          "pergunta": "Lançada em 2020, a cédula de duzentos reais traz a imagem de qual animal?",
+          "resposta": "Lobo-guará"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Todo inverno, jubartes trocam as águas geladas da Antártida pelo litoral brasileiro, onde quase não comem. Por que fazem essa viagem?",
+        "resposta": "Para se reproduzir"
+      },
+      "existentes": [
+        {
+          "id": "q00268",
+          "pergunta": "Qual arquipélago do sul da Bahia é um dos principais berçários das baleias-jubarte no Brasil?",
+          "resposta": "Abrolhos"
+        },
+        {
+          "id": "q00269",
+          "pergunta": "Entre as baleias-jubarte, quem produz os longos e complexos cantos que tornaram a espécie famosa?",
+          "resposta": "Os machos"
+        },
+        {
+          "id": "q02048",
+          "pergunta": "Que baleia é esta?",
+          "resposta": "Baleia-jubarte"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "O camelo tem duas fileiras de cílios longos e narinas que se fecham. Contra o que essas adaptações o protegem?",
+        "resposta": "Areia"
+      },
+      "existentes": [
+        {
+          "id": "q00282",
+          "pergunta": "Ao contrário do que muita gente pensa, a corcova do camelo armazena principalmente o quê?",
+          "resposta": "Gordura"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "No inverno, a raposa-do-ártico troca a pelagem marrom por uma toda branca. Qual é a principal vantagem dessa mudança de cor?",
+        "resposta": "Camuflagem na neve"
+      },
+      "existentes": [
+        {
+          "id": "q14476",
+          "pergunta": "Em que região do planeta vive naturalmente esta raposa?",
+          "resposta": "Ártico"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "O elefante-marinho deve o nome a qual característica dos machos adultos?",
+        "resposta": "Focinho em forma de tromba"
+      },
+      "existentes": [
+        {
+          "id": "q14469",
+          "pergunta": "Que grande mamífero marinho das regiões subantárticas é este?",
+          "resposta": "Elefante-marinho-do-sul"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "O muriqui, primata da Mata Atlântica, também é conhecido por qual outro nome popular?",
+        "resposta": "Mono-carvoeiro"
+      },
+      "existentes": [
+        {
+          "id": "q00250",
+          "pergunta": "Endêmico da Mata Atlântica, qual primata é o maior macaco das Américas?",
+          "resposta": "Muriqui"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "A orca é chamada de baleia-assassina, mas não pelo que faz com pessoas. Marinheiros antigos a batizaram assim porque ela fazia o quê?",
+        "resposta": "Caçava baleias maiores"
+      },
+      "existentes": [
+        {
+          "id": "q01730",
+          "pergunta": "Este mamífero marinho é o maior representante de qual família de cetáceos?",
+          "resposta": "Golfinhos"
+        },
+        {
+          "id": "q09572",
+          "pergunta": "A família dos golfinhos tem dezenas de espécies. Qual é a maior delas, que muita gente chama de baleia?",
+          "resposta": "Orca"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "Vindo do grego, o que significa Megaptera, o nome científico da baleia-jubarte?",
+        "resposta": "Asa grande"
+      },
+      "existentes": [
+        {
+          "id": "q00268",
+          "pergunta": "Qual arquipélago do sul da Bahia é um dos principais berçários das baleias-jubarte no Brasil?",
+          "resposta": "Abrolhos"
+        },
+        {
+          "id": "q00269",
+          "pergunta": "Entre as baleias-jubarte, quem produz os longos e complexos cantos que tornaram a espécie famosa?",
+          "resposta": "Os machos"
+        },
+        {
+          "id": "q02048",
+          "pergunta": "Que baleia é esta?",
+          "resposta": "Baleia-jubarte"
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "nova": {
+        "pergunta": "Para alcançar cupins no fundo dos ninhos, a língua do tamanduá-bandeira pode chegar a cerca de quanto de comprimento?",
+        "resposta": "Sessenta centímetros"
+      },
+      "existentes": [
+        {
+          "id": "q00241",
+          "pergunta": "O tamanduá-bandeira ganhou esse nome por causa de que parte do corpo, longa e muito peluda?",
+          "resposta": "Cauda"
+        },
+        {
+          "id": "q00242",
+          "pergunta": "Apesar de comer milhares de formigas por dia, quantos dentes tem o tamanduá-bandeira?",
+          "resposta": "Nenhum"
+        }
+      ]
+    },
+    {
+      "caso": 43,
+      "nova": {
+        "pergunta": "Ao fugir de predadores, a capivara mergulha e pode ficar submersa por até cerca de quanto tempo?",
+        "resposta": "Cinco minutos"
+      },
+      "existentes": [
+        {
+          "id": "q00235",
+          "pergunta": "O nome capivara vem do tupi. O que ele significa, aproximadamente?",
+          "resposta": "Comedora de capim"
+        },
+        {
+          "id": "q00236",
+          "pergunta": "Qual é o maior roedor vivo do mundo?",
+          "resposta": "Capivara"
+        },
+        {
+          "id": "q07924",
+          "pergunta": "Na Venezuela, a carne de capivara é tradicional em qual período do calendário católico, quando outras carnes costumam ser evitadas?",
+          "resposta": "Quaresma"
+        }
+      ]
+    },
+    {
+      "caso": 44,
+      "nova": {
+        "pergunta": "Na savana, o rugido de um leão pode ser ouvido a até cerca de qual distância?",
+        "resposta": "Oito quilômetros"
+      },
+      "existentes": [
+        {
+          "id": "q00270",
+          "pergunta": "Num grupo de leões, quem realiza a maior parte das caçadas?",
+          "resposta": "As fêmeas"
+        }
+      ]
+    },
+    {
+      "caso": 45,
+      "nova": {
+        "pergunta": "Quanto pesa, aproximadamente, um filhote de panda-gigante recém-nascido?",
+        "resposta": "Cerca de cem gramas"
+      },
+      "existentes": [
+        {
+          "id": "q00260",
+          "pergunta": "Por que o panda-gigante precisa passar grande parte do dia comendo?",
+          "resposta": "O bambu é pouco nutritivo"
+        },
+        {
+          "id": "q00261",
+          "pergunta": "O falso polegar que o panda-gigante usa para segurar o bambu é, na verdade, um osso alongado de que parte do corpo?",
+          "resposta": "Pulso"
+        },
+        {
+          "id": "q07929",
+          "pergunta": "Em 1869, que missionário francês descreveu o panda-gigante para a ciência ocidental, depois de ver a pele do animal com um caçador chinês?",
+          "resposta": "Armand David"
+        }
+      ]
+    },
+    {
+      "caso": 46,
+      "nova": {
+        "pergunta": "Depois de trocar os dentes de leite, quantos dentes tem normalmente um cachorro adulto?",
+        "resposta": "Quarenta e dois"
+      },
+      "existentes": [
+        {
+          "id": "q03849",
+          "pergunta": "Para muitos biólogos, o cachorro doméstico é apenas uma subespécie de qual animal selvagem?",
+          "resposta": "Lobo"
+        },
+        {
+          "id": "q05537",
+          "pergunta": "Que animal doméstico é este?",
+          "resposta": "Cachorro"
+        },
+        {
+          "id": "q11470",
+          "pergunta": "O ser humano tem quarenta e seis cromossomos em cada célula. E o cão doméstico, quantos tem?",
+          "resposta": "78"
+        }
+      ]
+    },
+    {
+      "caso": 47,
+      "nova": {
+        "pergunta": "Apesar de viver na água e lembrar uma foca, o peixe-boi é parente próximo de qual grande animal terrestre?",
+        "resposta": "Elefante"
+      },
+      "existentes": [
+        {
+          "id": "q02057",
+          "pergunta": "Que mamífero aquático é este?",
+          "resposta": "Peixe-boi-marinho"
+        },
+        {
+          "id": "q02533",
+          "pergunta": "A ordem que reúne peixes-bois e dugongos tem o nome de que seres mitológicos, ligados a esses animais por relatos de antigos marinheiros?",
+          "resposta": "Sereias"
+        },
+        {
+          "id": "q02534",
+          "pergunta": "Apesar do nome, o peixe-boi não é parente do boi. Que grandes mamíferos terrestres estão entre os seus parentes vivos mais próximos?",
+          "resposta": "Elefantes"
+        },
+        {
+          "id": "q17034",
+          "pergunta": "A que ordem de mamíferos pertence este animal?",
+          "resposta": "Sirênios"
+        }
+      ]
+    },
+    {
+      "caso": 48,
+      "nova": {
+        "pergunta": "Que habilidade, usada para caçar e se orientar mesmo no escuro, golfinhos e morcegos têm em comum?",
+        "resposta": "Ecolocalização"
+      },
+      "existentes": [
+        {
+          "id": "q00259",
+          "pergunta": "Por que os golfinhos dormem com apenas metade do cérebro de cada vez?",
+          "resposta": "Para continuar respirando"
+        },
+        {
+          "id": "q07914",
+          "pergunta": "Em qual cidade de Santa Catarina golfinhos encurralam cardumes de tainha e sinalizam aos pescadores artesanais a hora de lançar a rede?",
+          "resposta": "Laguna"
+        }
+      ]
+    },
+    {
+      "caso": 49,
+      "nova": {
+        "pergunta": "Além da bacia amazônica, o boto-cor-de-rosa vive na bacia de qual outro grande rio sul-americano?",
+        "resposta": "Orinoco"
+      },
+      "existentes": [
+        {
+          "id": "q00247",
+          "pergunta": "Entre todos os golfinhos de rio do planeta, qual espécie amazônica é a maior?",
+          "resposta": "Boto-cor-de-rosa"
+        },
+        {
+          "id": "q07949",
+          "pergunta": "Graças às vértebras do pescoço não fundidas, o boto-cor-de-rosa faz algo impossível para a maioria dos golfinhos, útil para caçar entre raízes alagadas. O quê?",
+          "resposta": "Virar a cabeça para os lados"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Existente é identificação por imagem; fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Maior animal terrestre é outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Altura vs vértebras."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Maior cérebro é fato novo."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Maior tatu vs dieta."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Maior cervo vs identificação/chifres."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Menor cervo vs origem do nome."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Existente é identificação por imagem."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Maior primata é outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Maior carnívoro terrestre é outro fato."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Identificação por imagem difere."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Maior marsupial é outro fato."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Material das escamas é novo."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Formação da tromba é novo."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Tipo de dente das presas é novo."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Cobertura dos ossicones é novo."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Local do esporão é novo."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Estrutura da asa é novo."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Mariposas no pelo é novo."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Espiráculo é novo."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Flutuar nos rios é novo."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Cauda como quinta perna é novo."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Mordida no crânio é novo."
+    },
+    {
+      "caso": 24,
+      "decisao": "repete",
+      "id_existente": "q09205",
+      "motivo": "Mesma pergunta sobre alimentação de krill."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Lactação é novo."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Resistência a veneno é novo."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Marca individual é novo."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Compartilhar sangue é novo."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Papa do filhote é novo."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Sabor doce é novo."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Uso de pedras é novo."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Natação é novo."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Garras é novo."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Adaptação das pernas é novo."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Motivo da migração é novo."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Cílios e narinas é novo."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Cor do pelo é novo."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Origem do nome é novo."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Outro nome popular é novo."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Origem de baleia-assassina é novo."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "Significado do nome científico é novo."
+    },
+    {
+      "caso": 42,
+      "decisao": "nova",
+      "motivo": "Comprimento da língua é novo."
+    },
+    {
+      "caso": 43,
+      "decisao": "nova",
+      "motivo": "Tempo submersa é novo."
+    },
+    {
+      "caso": 44,
+      "decisao": "nova",
+      "motivo": "Alcance do rugido é novo."
+    },
+    {
+      "caso": 45,
+      "decisao": "nova",
+      "motivo": "Peso do filhote é novo."
+    },
+    {
+      "caso": 46,
+      "decisao": "nova",
+      "motivo": "Número de dentes é novo."
+    },
+    {
+      "caso": 47,
+      "decisao": "repete",
+      "id_existente": "q02534",
+      "motivo": "Mesmo fato: parentesco com elefantes."
+    },
+    {
+      "caso": 48,
+      "decisao": "nova",
+      "motivo": "Ecolocalização é novo."
+    },
+    {
+      "caso": 49,
+      "decisao": "nova",
+      "motivo": "Distribuição no Orinoco é novo."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cachalote",
+        "descricao": "Maior baleia dentada (Physeter macrocephalus), de cabeça enorme e quadrada, que mergulha a grandes profundidades para caçar lulas.",
+        "variantes": [
+          "Physeter macrocephalus",
+          "Baleia-cachalote"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cachalote",
+          "nome": "Cachalote",
+          "descricao": "Maior baleia de dentes (Physeter macrocephalus), de cabeça grande e quadrada.",
+          "variantes": [
+            "Physeter macrocephalus",
+            "Baleia-cachalote",
+            "Sperm whale"
+          ]
+        },
+        {
+          "id": "o_vagabundo",
+          "nome": "O Vagabundo",
+          "descricao": "Personagem de chapéu-coco, bengala e bigodinho criado e interpretado por Charlie Chaplin no cinema mudo.",
+          "variantes": [
+            "The Tramp",
+            "Carlitos",
+            "Charlot"
+          ]
+        },
+        {
+          "id": "chuchu",
+          "nome": "Chuchu",
+          "descricao": "Fruto verde da trepadeira Sechium edule, da família das abóboras, usado como legume.",
+          "variantes": [
+            "Chayote",
+            "Sechium edule"
+          ]
+        },
+        {
+          "id": "cacau",
+          "nome": "Cacau",
+          "descricao": "Árvore Theobroma cacao, cujas sementes são a matéria-prima do chocolate",
+          "variantes": [
+            "Theobroma cacao",
+            "cacaueiro",
+            "cacao"
+          ]
+        },
+        {
+          "id": "baleia_azul",
+          "nome": "Baleia-azul",
+          "descricao": "Cetáceo gigante da espécie Balaenoptera musculus.",
+          "variantes": [
+            "Balaenoptera musculus",
+            "Blue whale"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Peixe-boi-da-amazônia",
+        "descricao": "Sirênio de água doce da bacia amazônica (Trichechus inunguis), menor espécie de peixe-boi.",
+        "variantes": [
+          "Peixe-boi-amazônico",
+          "Trichechus inunguis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "recife_da_amazonia",
+          "nome": "Recife da Amazônia",
+          "descricao": "Extenso sistema de recifes de corais, esponjas e algas calcárias sob as águas barrentas da foz do rio Amazonas, anunciado em 2016.",
+          "variantes": [
+            "Grande Recife da Amazônia",
+            "Amazon Reef"
+          ]
+        },
+        {
+          "id": "peixe_boi_marinho",
+          "nome": "Peixe-boi-marinho",
+          "descricao": "Grande mamífero aquático herbívoro (Trichechus manatus) das costas quentes das Américas.",
+          "variantes": [
+            "Peixe-boi",
+            "Trichechus manatus",
+            "Manati"
+          ]
+        },
+        {
+          "id": "perereca_macaco",
+          "nome": "Perereca-macaco",
+          "descricao": "Perereca arborícola Phyllomedusa bicolor, verde e de grande porte, da Bacia Amazônica.",
+          "variantes": [
+            "Phyllomedusa bicolor",
+            "Sapo-verde-da-amazônia",
+            "Giant monkey frog"
+          ]
+        },
+        {
+          "id": "diabo_da_tasmania",
+          "nome": "Diabo-da-tasmânia",
+          "descricao": "Marsupial carnívoro de pelo preto (Sarcophilus harrisii), hoje restrito à ilha da Tasmânia.",
+          "variantes": [
+            "Demônio-da-tasmânia",
+            "Sarcophilus harrisii"
+          ]
+        },
+        {
+          "id": "arena_da_amazonia",
+          "nome": "Arena da Amazônia",
+          "descricao": "Estádio de futebol de Manaus, Amazonas, construído para a Copa do Mundo de 2014 no local do antigo Vivaldão.",
+          "variantes": [
+            "Estádio Vivaldo Lima",
+            "Arena Amazônia"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "cachalote",
+      "motivo": "Mesma espécie, Physeter macrocephalus, com as mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Trichechus inunguis é uma espécie diferente de Trichechus manatus (peixe-boi-marinho); as demais candidatas não têm relação."
+    }
+  ]
+}
