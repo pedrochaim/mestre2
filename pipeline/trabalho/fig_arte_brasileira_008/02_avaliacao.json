@@ -1,0 +1,177 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Palácio rosa sem texto, reconhecível e sem pessoas em destaque.",
+      "destino": 1,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que engenheiro militar projetou este palácio imperial do século dezenove?",
+      "resposta": "Julius Friedrich Koeler",
+      "distratores": [
+        "Grandjean de Montigny",
+        "Joseph Gire",
+        "Ramos de Azevedo"
+      ],
+      "ancora": {
+        "nome": "Museu Imperial de Petrópolis",
+        "descricao": "Museu instalado no antigo Palácio Imperial, residência de verão de Pedro II em Petrópolis (RJ).",
+        "variantes": [
+          "Palácio Imperial de Petrópolis",
+          "Museu Imperial"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano na rua."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Forma inconfundível e sem texto, um prédio de Niemeyer.",
+      "destino": 1,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto projetou esta catedral de Brasília?",
+      "resposta": "Oscar Niemeyer",
+      "distratores": [
+        "Lúcio Costa",
+        "Affonso Eduardo Reidy",
+        "Lina Bo Bardi"
+      ],
+      "ancora": {
+        "nome": "Catedral Militar Rainha da Paz",
+        "descricao": "Catedral católica projetada por Oscar Niemeyer no Eixo Monumental de Brasília.",
+        "variantes": [
+          "Catedral Militar de Brasília",
+          "Catedral Militar Nossa Senhora da Paz"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Texto visível (Museu da Cidade, Fundação Casa de Jorge Amado) e pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Retrato em preto e branco de um homem; rosto não reconhecível pelo público, e não mostra uma obra."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O nome COPACABANA PALACE aparece escrito na fachada, entregando a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto de um senhor com camisa manchada de tinta, não reconhecível; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Arranha-céu visto de longe, genérico; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fachada frontal clara, sem texto nem pessoas.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano um grande incêndio destruiu boa parte deste palácio?",
+      "resposta": "2018",
+      "distratores": [
+        "2014",
+        "2016",
+        "2020"
+      ],
+      "ancora": {
+        "nome": "Museu Nacional (Quinta da Boa Vista)",
+        "descricao": "Antigo Paço de São Cristóvão, na Quinta da Boa Vista, no Rio de Janeiro, sede do Museu Nacional, a mais antiga instituição científica do Brasil.",
+        "variantes": [
+          "Paço de São Cristóvão",
+          "Museu Nacional do Rio de Janeiro"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada neogótica clara, sem texto legível que entregue a resposta.",
+      "destino": 1,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto francês projetou esta catedral?",
+      "resposta": "George Maunier",
+      "distratores": [
+        "Grandjean de Montigny",
+        "Joseph Gire",
+        "Louis Léger Vauthier"
+      ],
+      "ancora": {
+        "nome": "Catedral Metropolitana de Fortaleza",
+        "descricao": "Catedral católica neogótica de Fortaleza (CE), na Praça da Sé, inaugurada em 1978.",
+        "variantes": [
+          "Catedral da Sé de Fortaleza",
+          "Catedral de São José"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista aérea clara, sem texto; torres e relógio característicos.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este mosteiro?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Rio de Janeiro",
+        "Salvador",
+        "Olinda"
+      ],
+      "ancora": {
+        "nome": "Mosteiro de São Bento (São Paulo)",
+        "descricao": "Mosteiro beneditino com basílica de torres gêmeas no Largo de São Bento, no centro de São Paulo.",
+        "variantes": [
+          "Basílica Abacial de Nossa Senhora da Assunção",
+          "Mosteiro de São Bento de São Paulo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fachada neoclássica rosa, sem texto, reconhecível.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este teatro neoclássico do século dezenove?",
+      "resposta": "Recife",
+      "distratores": [
+        "Belém",
+        "Manaus",
+        "Fortaleza"
+      ],
+      "ancora": {
+        "nome": "Teatro de Santa Isabel",
+        "descricao": "Teatro neoclássico do século dezenove no Recife (PE), projetado pelo engenheiro francês Louis Léger Vauthier.",
+        "variantes": [
+          "Teatro Santa Isabel"
+        ]
+      }
+    }
+  ]
+}

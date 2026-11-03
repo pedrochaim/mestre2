@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que engenheiro militar projetou este palácio imperial do século dezenove?",
+        "resposta": "Julius Friedrich Koeler"
+      },
+      "existentes": [
+        {
+          "id": "q16897",
+          "pergunta": "Que governante do Brasil usava este palácio como residência de verão?",
+          "resposta": "Dom Pedro II"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade fica este mosteiro?",
+        "resposta": "São Paulo"
+      },
+      "existentes": [
+        {
+          "id": "q17504",
+          "pergunta": "Qual é o lema latino que orienta a vida dos monges deste mosteiro?",
+          "resposta": "Ora et labora"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade fica este teatro neoclássico do século dezenove?",
+        "resposta": "Recife"
+      },
+      "existentes": [
+        {
+          "id": "q16686",
+          "pergunta": "Que abolicionista fez campanha neste teatro?",
+          "resposta": "Joaquim Nabuco"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Arquiteto do palácio é fato diferente de quem o usava como residência de verão."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Localização do mosteiro é diferente do lema dos monges."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cidade do teatro é fato diferente do abolicionista que fez campanha lá."
+    }
+  ]
+}

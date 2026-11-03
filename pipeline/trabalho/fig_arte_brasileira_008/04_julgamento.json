@@ -1,0 +1,390 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Museu Imperial de Petrópolis",
+        "descricao": "Museu instalado no antigo Palácio Imperial, residência de verão de Pedro II em Petrópolis (RJ).",
+        "variantes": [
+          "Palácio Imperial de Petrópolis",
+          "Museu Imperial"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "museu_imperial",
+          "nome": "Museu Imperial",
+          "descricao": "Museu em Petrópolis (RJ), instalado no antigo palácio de verão de Dom Pedro II.",
+          "variantes": [
+            "Palácio Imperial de Petrópolis",
+            "Museu Imperial de Petrópolis"
+          ]
+        },
+        {
+          "id": "cidade_proibida",
+          "nome": "Cidade Proibida",
+          "descricao": "Complexo de palácios imperiais no centro de Pequim, na China, residência dos imperadores Ming e Qing.",
+          "variantes": [
+            "Palácio Imperial de Pequim",
+            "Forbidden City",
+            "Museu do Palácio"
+          ]
+        },
+        {
+          "id": "palacio_rio_negro",
+          "nome": "Palácio Rio Negro",
+          "descricao": "Palácio histórico amarelo em Petrópolis, no estado do Rio de Janeiro, antiga residência de verão dos presidentes.",
+          "variantes": [
+            "Palácio Rio Negro de Petrópolis"
+          ]
+        },
+        {
+          "id": "purpura_de_tiro",
+          "nome": "Púrpura de Tiro",
+          "descricao": "Corante púrpura caríssimo da Antiguidade, produzido na Fenícia e associado à realeza",
+          "variantes": [
+            "Púrpura tíria",
+            "Tyrian purple",
+            "Púrpura imperial"
+          ]
+        },
+        {
+          "id": "catedral_de_petropolis",
+          "nome": "Catedral de Petrópolis",
+          "descricao": "Catedral neogótica de São Pedro de Alcântara, com torre em flecha, em Petrópolis, no estado do Rio de Janeiro.",
+          "variantes": [
+            "Catedral de São Pedro de Alcântara",
+            "Cathedral of Petrópolis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Catedral Militar Rainha da Paz",
+        "descricao": "Catedral católica projetada por Oscar Niemeyer no Eixo Monumental de Brasília.",
+        "variantes": [
+          "Catedral Militar de Brasília",
+          "Catedral Militar Nossa Senhora da Paz"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "catedral_de_maringa",
+          "nome": "Catedral de Maringá",
+          "descricao": "Catedral Basílica Menor de Nossa Senhora da Glória, templo católico em forma de cone em Maringá, Paraná.",
+          "variantes": [
+            "Catedral Basílica Menor Nossa Senhora da Glória"
+          ]
+        },
+        {
+          "id": "ditadura_militar_brasileira",
+          "nome": "Ditadura militar brasileira",
+          "descricao": "Regime autoritário governado por militares no Brasil, instaurado pelo golpe de 1964 e encerrado em 1985.",
+          "variantes": [
+            "Regime militar",
+            "Ditadura de 1964"
+          ]
+        },
+        {
+          "id": "catedral_basilica_de_salvador",
+          "nome": "Catedral Basílica de Salvador",
+          "descricao": "Antiga igreja do colégio dos jesuítas, de estilo maneirista, catedral primacial de Salvador, na Bahia.",
+          "variantes": [
+            "Catedral-Basílica Primacial de São Salvador",
+            "Catedral Primacial do Brasil",
+            "Igreja do Colégio dos Jesuítas"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_basilio",
+          "nome": "Catedral de São Basílio",
+          "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+          "variantes": [
+            "Catedral de São Basílio, o Bem-Aventurado",
+            "Catedral da Intercessão",
+            "Catedral Pokrovsky",
+            "Saint Basil's Cathedral"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Museu Nacional (Quinta da Boa Vista)",
+        "descricao": "Antigo Paço de São Cristóvão, na Quinta da Boa Vista, no Rio de Janeiro, sede do Museu Nacional, a mais antiga instituição científica do Brasil.",
+        "variantes": [
+          "Paço de São Cristóvão",
+          "Museu Nacional do Rio de Janeiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paco_imperial",
+          "nome": "Paço Imperial",
+          "descricao": "Edifício colonial do século dezoito na Praça XV, no Rio de Janeiro, sede do governo colonial e residência real.",
+          "variantes": [
+            "Paço Real",
+            "Palácio dos Vice-Reis",
+            "Paço de São Cristóvão"
+          ]
+        },
+        {
+          "id": "aeroporto_internacional_do_galeao",
+          "nome": "Aeroporto Internacional do Galeão",
+          "descricao": "Principal aeroporto internacional do Rio de Janeiro, na Ilha do Governador.",
+          "variantes": [
+            "Aeroporto Internacional do Rio de Janeiro",
+            "Galeão"
+          ]
+        },
+        {
+          "id": "theatro_municipal_do_rio_de_janeiro",
+          "nome": "Theatro Municipal do Rio de Janeiro",
+          "descricao": "Teatro na Cinelândia, no centro do Rio de Janeiro, inaugurado em 1909.",
+          "variantes": [
+            "Teatro Municipal do Rio de Janeiro",
+            "Theatro Municipal (Rio de Janeiro)",
+            "Theatro Municipal"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro_estado",
+          "nome": "Rio de Janeiro (estado)",
+          "descricao": "Estado da Região Sudeste do Brasil, cuja capital é a cidade do Rio de Janeiro.",
+          "variantes": [
+            "Rio de Janeiro",
+            "Estado do Rio de Janeiro",
+            "RJ"
+          ]
+        },
+        {
+          "id": "museu_de_arte_moderna_do_rio_de_janeiro",
+          "nome": "Museu de Arte Moderna do Rio de Janeiro",
+          "descricao": "Museu modernista no Parque do Flamengo, no Rio de Janeiro, com estrutura de concreto aparente.",
+          "variantes": [
+            "MAM Rio",
+            "MAM-RJ"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Catedral Metropolitana de Fortaleza",
+        "descricao": "Catedral católica neogótica de Fortaleza (CE), na Praça da Sé, inaugurada em 1978.",
+        "variantes": [
+          "Catedral da Sé de Fortaleza",
+          "Catedral de São José"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_metropolitana_de_porto_alegre",
+          "nome": "Catedral Metropolitana de Porto Alegre",
+          "descricao": "Catedral da Praça da Matriz, no Centro Histórico de Porto Alegre, dedicada a Nossa Senhora da Madre de Deus.",
+          "variantes": [
+            "Igreja Matriz de Nossa Senhora da Madre de Deus"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        },
+        {
+          "id": "catedral_de_santo_isaac",
+          "nome": "Catedral de Santo Isaac",
+          "descricao": "Grande catedral de cúpula dourada em São Petersburgo, hoje museu.",
+          "variantes": [
+            "Catedral de São Isaac",
+            "Saint Isaac's Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_da_se_de_sao_paulo",
+          "nome": "Catedral da Sé de São Paulo",
+          "descricao": "Catedral metropolitana neogótica com cúpula renascentista, na Praça da Sé, em São Paulo.",
+          "variantes": [
+            "Catedral Metropolitana de São Paulo",
+            "Catedral da Sé"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Mosteiro de São Bento (São Paulo)",
+        "descricao": "Mosteiro beneditino com basílica de torres gêmeas no Largo de São Bento, no centro de São Paulo.",
+        "variantes": [
+          "Basílica Abacial de Nossa Senhora da Assunção",
+          "Mosteiro de São Bento de São Paulo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mosteiro_de_sao_bento_sao_paulo",
+          "nome": "Mosteiro de São Bento (São Paulo)",
+          "descricao": "Mosteiro beneditino no centro histórico de São Paulo, fundado em 1598, com basílica construída entre 1910 e 1914.",
+          "variantes": [
+            "Basílica Abacial de Nossa Senhora da Assunção",
+            "Mosteiro de São Bento de São Paulo"
+          ]
+        },
+        {
+          "id": "igreja_da_penha_rio_de_janeiro",
+          "nome": "Igreja da Penha (Rio de Janeiro)",
+          "descricao": "Basílica santuário de Nossa Senhora da Penha de França, no bairro da Penha, no Rio de Janeiro.",
+          "variantes": [
+            "Basílica Santuário de Nossa Senhora da Penha de França",
+            "Igreja de Nossa Senhora da Penha"
+          ]
+        },
+        {
+          "id": "museu_de_arte_de_sao_paulo",
+          "nome": "Museu de Arte de São Paulo",
+          "descricao": "Museu na Avenida Paulista, em São Paulo, cujo prédio é suspenso sobre um grande vão livre.",
+          "variantes": [
+            "MASP",
+            "Museu de Arte de São Paulo Assis Chateaubriand"
+          ]
+        },
+        {
+          "id": "arquipelago_de_sao_pedro_e_sao_paulo",
+          "nome": "Arquipélago de São Pedro e São Paulo",
+          "descricao": "Pequeno grupo de rochedos brasileiros no meio do oceano Atlântico, perto da linha do Equador.",
+          "variantes": [
+            "Penedos de São Pedro e São Paulo",
+            "Rochedos de São Pedro e São Paulo"
+          ]
+        },
+        {
+          "id": "templo_de_salomao_sao_paulo",
+          "nome": "Templo de Salomão (São Paulo)",
+          "descricao": "Templo da Igreja Universal do Reino de Deus em São Paulo, construído como réplica do Templo de Salomão de Jerusalém.",
+          "variantes": [
+            "Templo de Salomão da Igreja Universal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Teatro de Santa Isabel",
+        "descricao": "Teatro neoclássico do século dezenove no Recife (PE), projetado pelo engenheiro francês Louis Léger Vauthier.",
+        "variantes": [
+          "Teatro Santa Isabel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teatro_de_santa_isabel",
+          "nome": "Teatro de Santa Isabel",
+          "descricao": "Teatro neoclássico do século dezenove no Recife, Pernambuco.",
+          "variantes": [
+            "Teatro Santa Isabel"
+          ]
+        },
+        {
+          "id": "teatro_alla_scala",
+          "nome": "Teatro alla Scala",
+          "descricao": "Casa de ópera de Milão, na Itália, inaugurada em 1778.",
+          "variantes": [
+            "La Scala",
+            "Scala de Milão"
+          ]
+        },
+        {
+          "id": "mosteiro_dos_jeronimos",
+          "nome": "Mosteiro dos Jerónimos",
+          "descricao": "Mosteiro manuelino em Belém, Lisboa, ligado às viagens de Vasco da Gama.",
+          "variantes": [
+            "Mosteiro de Santa Maria de Belém"
+          ]
+        },
+        {
+          "id": "teatro_di_san_carlo",
+          "nome": "Teatro di San Carlo",
+          "descricao": "Casa de ópera de Nápoles, na Itália, inaugurada em 1737.",
+          "variantes": [
+            "Teatro San Carlo",
+            "Teatro de São Carlos de Nápoles"
+          ]
+        },
+        {
+          "id": "gateway_arch",
+          "nome": "Gateway Arch",
+          "descricao": "Arco monumental de aço inoxidável à beira do rio Mississippi, nos Estados Unidos, símbolo da expansão para o Oeste.",
+          "variantes": [
+            "Arco Gateway",
+            "Arco de Saint Louis"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "museu_imperial",
+      "motivo": "Mesmo museu no palácio de verão de Pedro II em Petrópolis; variantes coincidem."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Catedral Militar de Brasília é distinta da Catedral Metropolitana de Brasília."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Museu Nacional na Quinta da Boa Vista é diferente do Paço Imperial da Praça XV, apesar da variante em comum."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Catedral de Fortaleza não está entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "mosteiro_de_sao_bento_sao_paulo",
+      "motivo": "Mesmo mosteiro beneditino de São Paulo, mesmas variantes."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "teatro_de_santa_isabel",
+      "motivo": "Mesmo teatro neoclássico do Recife."
+    }
+  ]
+}
