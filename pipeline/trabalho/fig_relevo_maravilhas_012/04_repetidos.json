@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ilha calcária da baía de Phang Nga, na Tailândia, é esta?",
+        "resposta": "Ilha James Bond (Khao Phing Kan)"
+      },
+      "existentes": [
+        {
+          "id": "q17605",
+          "pergunta": "Que filme de James Bond usou esta ilha tailandesa como cenário?",
+          "resposta": "O Homem da Pistola de Ouro"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país ficam estas rochas esféricas à beira-mar?",
+        "resposta": "Nova Zelândia"
+      },
+      "existentes": [
+        {
+          "id": "q17175",
+          "pergunta": "Que conjunto de rochas esféricas numa praia é este?",
+          "resposta": "Rochas de Moeraki"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que ilha italiana fica esta caverna marinha?",
+        "resposta": "Capri"
+      },
+      "existentes": [
+        {
+          "id": "q11826",
+          "pergunta": "Que gruta marinha, numa ilha italiana, é esta?",
+          "resposta": "Gruta Azul de Capri"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação da ilha; a existente pede o filme de Bond que a usou. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta o país; a existente pede o nome do conjunto de rochas. Fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pergunta o nome da ilha (Capri), que a existente apenas cita na resposta, mas a existente pede o nome da gruta. Fatos diferentes, na dúvida nova."
+    }
+  ]
+}

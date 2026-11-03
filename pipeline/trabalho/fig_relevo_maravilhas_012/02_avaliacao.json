@@ -1,0 +1,273 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Rochas calcárias na baía, formato característico; reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ilha da Tailândia, famosa por um filme de espionagem, é esta?",
+      "resposta": "Ilha James Bond",
+      "distratores": [
+        "Ilha Phi Phi Leh",
+        "Ilha Koh Samui",
+        "Ilha Koh Tao"
+      ],
+      "ancora": {
+        "nome": "Ilha James Bond",
+        "descricao": "Ilha calcária de Khao Phing Kan, com o islote Ko Tapu, na baía de Phang Nga, Tailândia.",
+        "variantes": [
+          "Khao Phing Kan",
+          "Ko Tapu",
+          "James Bond Island"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Barcos shikara em lago cercado de montanhas, característico da Caxemira.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que lago da Caxemira, com estes barcos coloridos, é este?",
+      "resposta": "Lago Dal",
+      "distratores": [
+        "Lago Wular",
+        "Lago Pangong",
+        "Lago Nainital"
+      ],
+      "ancora": {
+        "nome": "Lago Dal",
+        "descricao": "Lago de água doce em Srinagar, na Caxemira indiana, famoso por seus barcos shikara e casas-barco.",
+        "variantes": [
+          "Dal Lake"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do lago alpino com os Alpes Julianos ao fundo; múltipla escolha deixa justo.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que lago esloveno, o maior do país, é este?",
+      "resposta": "Lago Bohinj",
+      "distratores": [
+        "Lago Bled",
+        "Lago Königssee",
+        "Lago Como"
+      ],
+      "ancora": {
+        "nome": "Lago Bohinj",
+        "descricao": "Maior lago permanente da Eslovênia, nos Alpes Julianos, no Parque Nacional do Triglav.",
+        "variantes": [
+          "Bohinjsko jezero",
+          "Lake Bohinj"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Muralha do Kremlin e margem do rio, reconhecível; pergunta vai além do nome.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "As águas deste rio acabam em que mar, depois de passar por outros dois rios?",
+      "resposta": "Mar Cáspio",
+      "distratores": [
+        "Mar Negro",
+        "Mar Báltico",
+        "Mar Branco"
+      ],
+      "ancora": {
+        "nome": "Rio Moscou",
+        "descricao": "Rio da Rússia ocidental que atravessa a capital e deságua no Oka, afluente do Volga.",
+        "variantes": [
+          "Moskva",
+          "Rio Moskva"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ponte Samuel Beckett reconhecível; pergunta pela cidade para não entregar o rio.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que capital europeia corre este rio?",
+      "resposta": "Dublin",
+      "distratores": [
+        "Edimburgo",
+        "Londres",
+        "Cardiff"
+      ],
+      "ancora": {
+        "nome": "Rio Liffey",
+        "descricao": "Rio do leste da Irlanda que atravessa o centro de Dublin até a baía de Dublin.",
+        "variantes": [
+          "River Liffey",
+          "An Life"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Lago com o Latemar ao fundo; reconhecível pela cadeia de montanhas.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cadeia de montanhas fica este lago de cores intensas?",
+      "resposta": "Dolomitas",
+      "distratores": [
+        "Alpes Julianos",
+        "Montes Tatra",
+        "Pirineus"
+      ],
+      "ancora": {
+        "nome": "Lago di Carezza",
+        "descricao": "Pequeno lago alpino nas Dolomitas, no Tirol do Sul, Itália, com vista para o Latemar.",
+        "variantes": [
+          "Karersee",
+          "Lago Carezza"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto de duna e praia genérica, sem elementos que permitam reconhecer Genipabu com unicidade; parecida com outras praias do Nordeste."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vale com terraços agrícolas e cânion profundo, característico do Colca.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cânion peruano, um dos mais profundos do mundo, é este?",
+      "resposta": "Cânion do Colca",
+      "distratores": [
+        "Cânion de Cotahuasi",
+        "Cânion do Pato",
+        "Cânion Sumidero"
+      ],
+      "ancora": {
+        "nome": "Cânion do Colca",
+        "descricao": "Cânion do rio Colca no sul do Peru, a noroeste de Arequipa, com terraços pré-incaicos.",
+        "variantes": [
+          "Colca Canyon",
+          "Vale do Colca"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Rochas esféricas na praia, inconfundíveis.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que país ficam estas rochas esféricas à beira-mar?",
+      "resposta": "Nova Zelândia",
+      "distratores": [
+        "Austrália",
+        "Irlanda",
+        "Chile"
+      ],
+      "ancora": {
+        "nome": "Rochas de Moeraki",
+        "descricao": "Grandes concreções esféricas na praia de Koekohe, na costa de Otago, Nova Zelândia.",
+        "variantes": [
+          "Moeraki Boulders",
+          "Seixos de Moeraki"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Interior da gruta com água de brilho azul intenso, característico.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ilha italiana fica esta gruta de águas azuis?",
+      "resposta": "Capri",
+      "distratores": [
+        "Sicília",
+        "Ísquia",
+        "Elba"
+      ],
+      "ancora": {
+        "nome": "Gruta Azul de Capri",
+        "descricao": "Caverna marinha na costa da ilha de Capri, Itália, iluminada por reflexo azul na água.",
+        "variantes": [
+          "Grotta Azzurra",
+          "Blue Grotto"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Picos escuros característicos dos Cuernos; múltipla com montanhas patagônicas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que montanhas da Patagônia são estas?",
+      "resposta": "Cuernos del Paine",
+      "distratores": [
+        "Monte Fitz Roy",
+        "Cerro Torre",
+        "Monte Tronador"
+      ],
+      "ancora": {
+        "nome": "Cuernos del Paine",
+        "descricao": "Montanhas de picos escuros e claros no Parque Nacional Torres del Paine, região de Magalhães, Chile.",
+        "variantes": [
+          "Cuernos del Paine",
+          "Chifres do Paine"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Duna enorme com mar e pinheiral; reconhecível com múltipla escolha.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que país europeu fica esta duna?",
+      "resposta": "França",
+      "distratores": [
+        "Espanha",
+        "Portugal",
+        "Países Baixos"
+      ],
+      "ancora": {
+        "nome": "Duna de Pilat",
+        "descricao": "Maior duna de areia da Europa, em La Teste-de-Buch, na baía de Arcachon, França.",
+        "variantes": [
+          "Dune du Pilat",
+          "Grande Dune du Pilat"
+        ]
+      }
+    }
+  ]
+}

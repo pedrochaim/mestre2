@@ -1,0 +1,708 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ilha James Bond",
+        "descricao": "Ilha calcária de Khao Phing Kan, com o islote Ko Tapu, na baía de Phang Nga, Tailândia.",
+        "variantes": [
+          "Ilha James Bond (Khao Phing Kan)",
+          "Khao Phing Kan",
+          "Ko Tapu",
+          "James Bond Island"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_de_james_bond_khao_phing_kan_e_ko_tapu",
+          "nome": "Ilha de James Bond (Khao Phing Kan e Ko Tapu)",
+          "descricao": "Ilha de calcário na baía de Phang Nga, na Tailândia, com o ilhéu Ko Tapu, famosa pelo filme O Homem da Pistola de Ouro.",
+          "variantes": [
+            "Ilha de James Bond (Ko Tapu)",
+            "Khao Phing Kan",
+            "Ko Tapu",
+            "James Bond Island"
+          ]
+        },
+        {
+          "id": "james_bond",
+          "nome": "James Bond",
+          "descricao": "Agente secreto britânico de código 007, criado pelo escritor Ian Fleming e levado ao cinema a partir de 1962.",
+          "variantes": [
+            "007",
+            "Agente 007"
+          ]
+        },
+        {
+          "id": "lesbos",
+          "nome": "Lesbos",
+          "descricao": "Ilha grega no nordeste do mar Egeu, perto da costa da Turquia.",
+          "variantes": [
+            "Lesvos",
+            "Lesbos Island"
+          ]
+        },
+        {
+          "id": "ilha_pinkan",
+          "nome": "Ilha Pinkan",
+          "descricao": "Ilha das Ilhas Laranja, no anime Pokémon, reserva protegida onde os pokémon selvagens são cor-de-rosa.",
+          "variantes": [
+            "Pinkan Island"
+          ]
+        },
+        {
+          "id": "otaku",
+          "nome": "Otaku",
+          "descricao": "Termo japonês para fãs obcecados, especialmente de anime, mangá e games.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Lago Dal",
+        "descricao": "Lago de água doce em Srinagar, na Caxemira indiana, famoso por seus barcos shikara e casas-barco.",
+        "variantes": [
+          "Dal Lake"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea",
+            "Lago de Aral"
+          ]
+        },
+        {
+          "id": "lagoa_azul",
+          "nome": "Lagoa Azul",
+          "descricao": "Spa geotérmico de águas quentes e leitosas na península de Reykjanes, na Islândia.",
+          "variantes": [
+            "Blue Lagoon",
+            "Bláa lónið"
+          ]
+        },
+        {
+          "id": "lagoa_rodrigo_de_freitas",
+          "nome": "Lagoa Rodrigo de Freitas",
+          "descricao": "Lagoa na Zona Sul do Rio de Janeiro, ligada ao Atlântico por um canal.",
+          "variantes": [
+            "Lagoa"
+          ]
+        },
+        {
+          "id": "lago_baikal",
+          "nome": "Lago Baikal",
+          "descricao": "Lago de água doce no sul da Sibéria, na Rússia, o mais profundo do mundo.",
+          "variantes": [
+            "Baikal",
+            "Baical",
+            "Lake Baikal"
+          ]
+        },
+        {
+          "id": "lago_ladoga",
+          "nome": "Lago Ladoga",
+          "descricao": "Grande lago de água doce no noroeste da Rússia, perto de São Petersburgo.",
+          "variantes": [
+            "Lake Ladoga",
+            "Ladoga"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Lago Bohinj",
+        "descricao": "Maior lago permanente da Eslovênia, nos Alpes Julianos, no Parque Nacional do Triglav.",
+        "variantes": [
+          "Bohinjsko jezero",
+          "Lake Bohinj"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lago_bled",
+          "nome": "Lago Bled",
+          "descricao": "Lago glacial dos Alpes Julianos, no noroeste da Eslovênia, com uma ilhota que abriga uma igreja.",
+          "variantes": [
+            "Lake Bled",
+            "Blejsko jezero"
+          ]
+        },
+        {
+          "id": "lago_inle",
+          "nome": "Lago Inle",
+          "descricao": "Lago de água doce no estado de Shan, em Mianmar, famoso por suas aldeias sobre palafitas e jardins flutuantes.",
+          "variantes": [
+            "Inle Lake",
+            "Inlay"
+          ]
+        },
+        {
+          "id": "lago_moraine",
+          "nome": "Lago Moraine",
+          "descricao": "Lago glacial alpino no Vale dos Dez Picos, no Parque Nacional de Banff, em Alberta, Canadá.",
+          "variantes": [
+            "Moraine Lake"
+          ]
+        },
+        {
+          "id": "lago_balaton",
+          "nome": "Lago Balaton",
+          "descricao": "Grande lago de água doce no oeste da Hungria, o maior da Europa Central.",
+          "variantes": [
+            "Balaton",
+            "Lake Balaton"
+          ]
+        },
+        {
+          "id": "akebono",
+          "nome": "Akebono",
+          "descricao": "Lutador de sumô nascido nos Estados Unidos, primeiro yokozuna nascido fora do Japão, em 1993.",
+          "variantes": [
+            "Akebono Tarō",
+            "Chad Rowan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Rio Moscou",
+        "descricao": "Rio da Rússia ocidental que atravessa a capital e deságua no Oka, afluente do Volga.",
+        "variantes": [
+          "Moskva",
+          "Rio Moskva"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_moldava",
+          "nome": "Rio Moldava",
+          "descricao": "Rio mais longo da República Tcheca, que atravessa a cidade de Praga.",
+          "variantes": [
+            "Vltava",
+            "Moldau"
+          ]
+        },
+        {
+          "id": "moscou",
+          "nome": "Moscou",
+          "descricao": "Capital da Rússia, com o Kremlin e a Praça Vermelha.",
+          "variantes": [
+            "Moscow",
+            "Moscovo"
+          ]
+        },
+        {
+          "id": "morsa",
+          "nome": "Morsa",
+          "descricao": "Grande mamífero marinho do Ártico com presas longas, espécie Odobenus rosmarus.",
+          "variantes": [
+            "Odobenus rosmarus",
+            "Walrus"
+          ]
+        },
+        {
+          "id": "mosca_domestica",
+          "nome": "Mosca-doméstica",
+          "descricao": "Mosca comum Musca domestica, cosmopolita, que convive com os humanos.",
+          "variantes": [
+            "Musca domestica",
+            "Mosca"
+          ]
+        },
+        {
+          "id": "moca_iemen",
+          "nome": "Moca (Iêmen)",
+          "descricao": "Cidade portuária no mar Vermelho, no Iêmen, antigo centro de exportação de café que deu nome ao café moca.",
+          "variantes": [
+            "Mocha",
+            "Mokha",
+            "Al-Makha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Rio Liffey",
+        "descricao": "Rio do leste da Irlanda que atravessa o centro de Dublin até a baía de Dublin.",
+        "variantes": [
+          "River Liffey",
+          "An Life"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "morros_carsticos_de_guilin",
+          "nome": "Morros cársticos de Guilin",
+          "descricao": "Paisagem de morros isolados de calcário às margens do rio Li, na região de Guilin, no sul da China.",
+          "variantes": [
+            "Paisagem de Guilin",
+            "Rio Li"
+          ]
+        },
+        {
+          "id": "half_life",
+          "nome": "Half-Life",
+          "descricao": "Jogo de tiro em primeira pessoa lançado em 1998, protagonizado pelo cientista Gordon Freeman.",
+          "variantes": []
+        },
+        {
+          "id": "driver_golfe",
+          "nome": "Driver (golfe)",
+          "descricao": "Taco de golfe de cabeça grande, o chamado madeira um, usado nas tacadas de saída.",
+          "variantes": [
+            "Driver",
+            "Madeira 1",
+            "1-wood"
+          ]
+        },
+        {
+          "id": "rio_li",
+          "nome": "Rio Li",
+          "descricao": "Rio do nordeste de Guangxi, China, famoso pelas colinas cársticas que o margeiam, perto de Guilin.",
+          "variantes": [
+            "Li Jiang",
+            "Rio Lijiang"
+          ]
+        },
+        {
+          "id": "river_plate",
+          "nome": "River Plate",
+          "descricao": "Club Atlético River Plate, clube de futebol de Buenos Aires fundado em 1901, hoje sediado no bairro de Núñez.",
+          "variantes": [
+            "Club Atlético River Plate",
+            "River",
+            "CARP"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Lago di Carezza",
+        "descricao": "Pequeno lago alpino nas Dolomitas, no Tirol do Sul, Itália, com vista para o Latemar.",
+        "variantes": [
+          "Karersee",
+          "Lago Carezza"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea",
+            "Lago de Aral"
+          ]
+        },
+        {
+          "id": "lago_retba",
+          "nome": "Lago Retba",
+          "descricao": "Lago salgado de águas cor-de-rosa perto de Dacar, no Senegal.",
+          "variantes": [
+            "Lago Rosa",
+            "Lac Rose",
+            "Lake Retba"
+          ]
+        },
+        {
+          "id": "lago_chade",
+          "nome": "Lago Chade",
+          "descricao": "Lago de água doce no centro-oeste da África, na junção de Nigéria, Níger, Chade e Camarões, que encolheu muito desde 1960.",
+          "variantes": [
+            "Lago Tchad",
+            "Lake Chad"
+          ]
+        },
+        {
+          "id": "lago_crater",
+          "nome": "Lago Crater",
+          "descricao": "Lago vulcânico numa caldeira no Oregon, EUA, o mais profundo do país, com a Ilha do Mago.",
+          "variantes": [
+            "Crater Lake"
+          ]
+        },
+        {
+          "id": "lago_nicaragua",
+          "nome": "Lago Nicarágua",
+          "descricao": "Grande lago de água doce no sul da Nicarágua, na América Central, ligado ao Caribe pelo rio San Juan.",
+          "variantes": [
+            "Lake Nicaragua",
+            "Cocibolca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Cânion do Colca",
+        "descricao": "Cânion do rio Colca no sul do Peru, a noroeste de Arequipa, com terraços pré-incaicos.",
+        "variantes": [
+          "Colca Canyon",
+          "Vale do Colca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arte_rupestre_do_vale_do_coa",
+          "nome": "Arte rupestre do Vale do Côa",
+          "descricao": "Conjunto de gravuras paleolíticas ao ar livre no vale do rio Côa, no norte de Portugal.",
+          "variantes": [
+            "Gravuras do Côa",
+            "Vale do Côa"
+          ]
+        },
+        {
+          "id": "wadi_rum",
+          "nome": "Wadi Rum",
+          "descricao": "Vale desértico de areia vermelha e montanhas de arenito no sul da Jordânia.",
+          "variantes": [
+            "Vale da Lua"
+          ]
+        },
+        {
+          "id": "parque_provincial_ischigualasto",
+          "nome": "Parque Provincial Ischigualasto",
+          "descricao": "Área protegida na província de San Juan, na Argentina, apelidada de Vale da Lua e rica em fósseis de dinossauros do Triássico.",
+          "variantes": [
+            "Ischigualasto",
+            "Valle de la Luna",
+            "Vale da Lua"
+          ]
+        },
+        {
+          "id": "parelio",
+          "nome": "Parélio",
+          "descricao": "Fenômeno óptico em que pontos luminosos aparecem ao lado do Sol, causado por cristais de gelo.",
+          "variantes": [
+            "Sun dog",
+            "Falso sol",
+            "Cão-do-sol"
+          ]
+        },
+        {
+          "id": "parque_nacional_de_zion",
+          "nome": "Parque Nacional de Zion",
+          "descricao": "Parque nacional no sudoeste de Utah, nos Estados Unidos, conhecido pelo Zion Canyon.",
+          "variantes": [
+            "Zion National Park",
+            "Zion Canyon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Rochas de Moeraki",
+        "descricao": "Grandes concreções esféricas na praia de Koekohe, na costa de Otago, Nova Zelândia.",
+        "variantes": [
+          "Moeraki Boulders",
+          "Seixos de Moeraki"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rochas_de_moeraki",
+          "nome": "Rochas de Moeraki",
+          "descricao": "Concreções esféricas gigantes na praia de Koekohe, na costa de Otago, Nova Zelândia.",
+          "variantes": [
+            "Moeraki Boulders",
+            "Seixos gigantes de Moeraki"
+          ]
+        },
+        {
+          "id": "roda_de_oracao",
+          "nome": "Roda de oração",
+          "descricao": "Cilindro budista, comum no Tibete, que contém mantras e é girado como forma de recitação.",
+          "variantes": [
+            "Roda de mani",
+            "Mani wheel",
+            "Prayer wheel"
+          ]
+        },
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda",
+            "Capoeira circle"
+          ]
+        },
+        {
+          "id": "peaky_blinders",
+          "nome": "Peaky Blinders",
+          "descricao": "Série britânica estreada em 2013 sobre a família Shelby e sua gangue, no período após a Primeira Guerra Mundial.",
+          "variantes": [
+            "Peaky Blinders: Sangue, Apostas e Navalhas"
+          ]
+        },
+        {
+          "id": "tenis_de_mesa",
+          "nome": "Tênis de mesa",
+          "descricao": "Esporte de raquete jogado sobre uma mesa com rede, com bola leve e oca.",
+          "variantes": [
+            "Ping-pong",
+            "Pingue-pongue"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Gruta Azul de Capri",
+        "descricao": "Caverna marinha na costa da ilha de Capri, Itália, iluminada por reflexo azul na água.",
+        "variantes": [
+          "Grotta Azzurra",
+          "Blue Grotto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gruta_azul_de_capri",
+          "nome": "Gruta Azul de Capri",
+          "descricao": "Caverna marinha na costa da ilha de Capri, no sul da Itália, cuja água brilha em azul pela luz que entra por baixo d'água.",
+          "variantes": [
+            "Gruta Azul",
+            "Grotta Azzurra",
+            "Blue Grotto"
+          ]
+        },
+        {
+          "id": "lagoa_azul",
+          "nome": "Lagoa Azul",
+          "descricao": "Spa geotérmico de águas quentes e leitosas na península de Reykjanes, na Islândia.",
+          "variantes": [
+            "Blue Lagoon",
+            "Bláa lónið"
+          ]
+        },
+        {
+          "id": "ararinha_azul",
+          "nome": "Ararinha-azul",
+          "descricao": "Pequena arara azul (Cyanopsitta spixii) da caatinga do norte da Bahia.",
+          "variantes": [
+            "Arara-azul-de-spix",
+            "Cyanopsitta spixii",
+            "Spix's macaw"
+          ]
+        },
+        {
+          "id": "arara_azul_de_lear",
+          "nome": "Arara-azul-de-lear",
+          "descricao": "Arara azul ameaçada (Anodorhynchus leari) do Raso da Catarina, no sertão da Bahia.",
+          "variantes": [
+            "Anodorhynchus leari",
+            "Lear's macaw"
+          ]
+        },
+        {
+          "id": "selecao_italiana_de_futebol",
+          "nome": "Seleção Italiana de Futebol",
+          "descricao": "Seleção nacional de futebol da Itália, campeã mundial em 1934, 1938, 1982 e 2006.",
+          "variantes": [
+            "Azzurra",
+            "Squadra Azzurra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Cuernos del Paine",
+        "descricao": "Montanhas de picos escuros e claros no Parque Nacional Torres del Paine, região de Magalhães, Chile.",
+        "variantes": [
+          "Chifres do Paine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torres_del_paine",
+          "nome": "Torres del Paine",
+          "descricao": "Parque nacional da Patagônia chilena, com o maciço de picos de granito Cordillera del Paine.",
+          "variantes": [
+            "Parque Nacional Torres del Paine"
+          ]
+        },
+        {
+          "id": "carlos_ii_da_espanha",
+          "nome": "Carlos II da Espanha",
+          "descricao": "Último rei Habsburgo da Espanha, de 1665 a 1700, cuja morte sem herdeiros causou a Guerra de Sucessão Espanhola.",
+          "variantes": [
+            "Carlos II de Espanha",
+            "Charles II of Spain",
+            "El Hechizado"
+          ]
+        },
+        {
+          "id": "charles_darwin",
+          "nome": "Charles Darwin",
+          "descricao": "Naturalista inglês autor da teoria da evolução por seleção natural.",
+          "variantes": [
+            "Charles Robert Darwin",
+            "Darwin"
+          ]
+        },
+        {
+          "id": "cajueiro_de_pirangi",
+          "nome": "Cajueiro de Pirangi",
+          "descricao": "Cajueiro gigante em Parnamirim, cuja copa se espalha por milhares de metros quadrados",
+          "variantes": [
+            "Maior cajueiro do mundo"
+          ]
+        },
+        {
+          "id": "esboco_da_arvore_evolutiva_de_darwin",
+          "nome": "Esboço da árvore evolutiva de Darwin",
+          "descricao": "Diagrama em forma de árvore desenhado por Charles Darwin em 1837 no seu Caderno B, sobre a transmutação das espécies.",
+          "variantes": [
+            "I think",
+            "Árvore da vida de Darwin",
+            "Caderno B de Darwin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Duna de Pilat",
+        "descricao": "Maior duna de areia da Europa, em La Teste-de-Buch, na baía de Arcachon, França.",
+        "variantes": [
+          "Dune du Pilat",
+          "Grande Dune du Pilat"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "duna",
+          "nome": "Duna",
+          "descricao": "Elevação de areia acumulada e moldada pelo vento ou pela água, comum em desertos.",
+          "variantes": [
+            "Dunas",
+            "Duna de areia"
+          ]
+        },
+        {
+          "id": "grande_fome_da_irlanda",
+          "nome": "Grande Fome da Irlanda",
+          "descricao": "Período de fome e doenças na Irlanda entre 1845 e 1849, que matou cerca de um milhão de pessoas e provocou emigração em massa.",
+          "variantes": [
+            "Grande Fome Irlandesa",
+            "Great Famine"
+          ]
+        },
+        {
+          "id": "grande_vale_do_rift",
+          "nome": "Grande Vale do Rift",
+          "descricao": "Sistema de fendas tectônicas que corta o leste da África, onde o continente está se partindo.",
+          "variantes": [
+            "Vale do Rift",
+            "Rift do Leste Africano",
+            "Great Rift Valley",
+            "Rifte da África Oriental",
+            "East African Rift"
+          ]
+        },
+        {
+          "id": "catedral_de_milao",
+          "nome": "Catedral de Milão",
+          "descricao": "Catedral gótica de mármore branco, sede do arcebispo de Milão, na Itália, cuja construção começou em 1386.",
+          "variantes": [
+            "Duomo di Milano",
+            "Milan Cathedral",
+            "Duomo de Milão"
+          ]
+        },
+        {
+          "id": "kahuna_pokemon",
+          "nome": "Kahuna (Pokémon)",
+          "descricao": "Título dos chefes e treinadores mais fortes de cada ilha da região de Alola, nos jogos Pokémon Sun e Moon.",
+          "variantes": [
+            "Island Kahuna",
+            "Kahuna da ilha"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "ilha_de_james_bond_khao_phing_kan_e_ko_tapu",
+      "motivo": "Mesma ilha na baía de Phang Nga com Ko Tapu."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o lago Dal."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Bohinj é distinto de Bled e demais."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "O rio Moscou é diferente da cidade Moscou."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Liffey não consta nas candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Lago di Carezza não consta nas candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Cânion do Colca não consta nas candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "rochas_de_moeraki",
+      "motivo": "Mesmas concreções na praia de Koekohe."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "gruta_azul_de_capri",
+      "motivo": "Mesma caverna marinha de Capri."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Cuernos del Paine são montanhas, parte do parque Torres del Paine, entidade distinta."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Duna de Pilat específica; 'Duna' é conceito genérico."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Famosa por um filme de espionagem' entrega o nome James Bond sem olhar a figura. Tirar a pista e usar a localização, que ajuda sem entregar. A resposta ganha o nome local entre parênteses.",
+      "reescrita": {
+        "pergunta": "Que ilha calcária da baía de Phang Nga, na Tailândia, é esta?",
+        "resposta": "Ilha James Bond (Khao Phing Kan)",
+        "distratores": [
+          "Ilha Phi Phi Leh",
+          "Ilha Koh Samui",
+          "Ilha Koh Tao"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A região (Caxemira) ajuda sem entregar. Os barcos shikara aparecem na figura e o trecho os confirma. Os distratores são plausíveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'O maior do país' permite responder sem a figura. Além disso, o trecho diz 'maior lago permanente', então a afirmação não é literal. Trocar pela localização no Parque Nacional do Triglav, que o trecho confirma e que exclui o Bled.",
+      "reescrita": {
+        "pergunta": "Que lago esloveno, dentro do Parque Nacional do Triglav, é este?",
+        "resposta": "Lago Bohinj",
+        "distratores": [
+          "Lago Bled",
+          "Lago Königssee",
+          "Lago Como"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Moscou, Oka, Volga e Mar Cáspio é uma cadeia documentada. O trecho confirma Oka e Volga, e que o Volga desemboca no Cáspio é amplamente sabido. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Liffey atravessa Dublin, segundo o trecho. Resposta única e distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma as Dolomitas e as cores do lago. O enunciado não vaza a resposta e os distratores são cadeias de montanhas incorretas.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Cânion de Cotahuasi, usado como distrator, também é peruano e entre os mais profundos do mundo, então também serve ao enunciado. Trocar esse distrator por outro cânion que não seja correto.",
+      "reescrita": {
+        "pergunta": "Que cânion peruano, um dos mais profundos do mundo, é este?",
+        "resposta": "Cânion do Colca",
+        "distratores": [
+          "Cânion do Pato",
+          "Cânion Sumidero",
+          "Cânion Fish River"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a Nova Zelândia. O enunciado não nomeia as rochas e os distratores são países críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Gruta de águas azuis' remete à Gruta Azul de Capri, então dá para responder sem a figura. Tirar a pista de cor.",
+      "reescrita": {
+        "pergunta": "Em que ilha italiana fica esta caverna marinha?",
+        "resposta": "Capri",
+        "distratores": [
+          "Sicília",
+          "Ísquia",
+          "Elba"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho situa os Cuernos del Paine na Patagônia chilena. A pergunta pede reconhecer a figura e os distratores são montanhas patagônicas parecidas.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a duna fica na França. O enunciado não vaza a resposta e os distratores são países europeus plausíveis.",
+      "reescrita": null
+    }
+  ]
+}
