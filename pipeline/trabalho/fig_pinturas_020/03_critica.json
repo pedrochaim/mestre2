@@ -1,0 +1,90 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o quadro está no Louvre, em Paris. O enunciado não vaza a resposta e os distratores são museus de Paris.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O ano 1759 vaza a resposta por eliminação: os distratores são batalhas de outros anos (Saratoga, Yorktown, Trafalgar). Troco a data pela guerra, e os distratores passam a ser batalhas da mesma guerra.",
+      "reescrita": {
+        "pergunta": "Que batalha da Guerra dos Sete Anos é lembrada neste quadro?",
+        "resposta": "Batalha de Quebec",
+        "distratores": [
+          "Batalha de Minden",
+          "Batalha de Rossbach",
+          "Batalha de Plassey"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A pista \"retoques de ponta-seca\" permite responder \"água-forte\" sem ver a imagem, então a figura vira enfeite. Não achei como reescrever sem nomear a obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que os dois painéis estão no Museu do Prado, em Madri. O enunciado não entrega a resposta, e os distratores são museus de Madri.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a obra é uma das Pinturas Negras de Goya. Os distratores são outras séries dele, nenhuma também correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Formato circular\" define a resposta (tondo), e os distratores não são circulares, então dá para responder sem a imagem. Peço o autor, que exige reconhecer a obra.",
+      "reescrita": {
+        "pergunta": "Que pintor italiano do Renascimento pintou esta Madona, por volta de mil quinhentos e treze?",
+        "resposta": "Rafael",
+        "distratores": [
+          "Leonardo da Vinci",
+          "Michelangelo",
+          "Botticelli"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que Velázquez pintou o retrato em Roma, em 1650. Os distratores são pintores espanhóis do mesmo período.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o ícone foi criado no início do século quinze. O enunciado não vaza a resposta, e os distratores são séculos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a obra é uma pintura maneirista italiana de Parmigianino. O enunciado não nomeia a obra, e os distratores são outras madonas famosas que não são maneiristas.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Barca de Dante é amplamente documentada como obra do Romantismo. O trecho confirma o ano de 1822 e o Louvre. Os distratores são movimentos plausíveis, e nenhum descreve a obra.",
+      "reescrita": null
+    }
+  ]
+}
