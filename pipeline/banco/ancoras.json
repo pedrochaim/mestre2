@@ -32657,7 +32657,8 @@
     "descricao": "Máquina de torre movida pela força do vento sobre pás ou velas, usada para moer grãos.",
     "variantes": [
       "Moinho de vento vertical",
-      "Windmill"
+      "Windmill",
+      "Moinho eólico"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Windmill",
@@ -47944,7 +47945,8 @@
     "nome": "Doença de Minamata",
     "descricao": "Síndrome neurológica causada por envenenamento por mercúrio de efluentes industriais, identificada nos anos 1950.",
     "variantes": [
-      "Minamata disease"
+      "Minamata disease",
+      "Mal de Minamata"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Minamata_disease"
@@ -61790,7 +61792,8 @@
     "variantes": [
       "Usinas de Angra",
       "Angra 1 e Angra 2",
-      "Central Nuclear de Angra"
+      "Central Nuclear de Angra",
+      "CNAAA"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Central_Nuclear_Almirante_%C3%81lvaro_Alberto"
@@ -61895,7 +61898,8 @@
       "Desastre de Chernobyl",
       "Chernobyl disaster",
       "Acidente nuclear de Chernobil",
-      "Chernobyl"
+      "Chernobyl",
+      "Tchernóbil"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Chernobyl_disaster"
@@ -61954,7 +61958,8 @@
       "Salto del Guairá",
       "Guaíra Falls",
       "Salto de Guaíra",
-      "Saltos del Guairá"
+      "Saltos del Guairá",
+      "Salto das Sete Quedas"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Gua%C3%ADra_Falls",
@@ -62082,7 +62087,8 @@
     "variantes": [
       "Chumbo tetraetila",
       "Tetraethyllead",
-      "Leaded gasoline"
+      "Leaded gasoline",
+      "Gasolina aditivada com chumbo tetraetila"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Tetraethyllead",
@@ -62208,7 +62214,8 @@
     "nome": "Parque Nacional do Itatiaia",
     "descricao": "Parque nacional criado em 1937 entre os estados do Rio de Janeiro e de Minas Gerais.",
     "variantes": [
-      "Itatiaia"
+      "Itatiaia",
+      "Parna Itatiaia"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Parque_Nacional_do_Itatiaia"
@@ -80734,7 +80741,8 @@
     "descricao": "Trigésima Conferência das Nações Unidas sobre Mudanças Climáticas, realizada em novembro de 2025.",
     "variantes": [
       "COP 30",
-      "Conferência do Clima de 2025"
+      "Conferência do Clima de 2025",
+      "Conferência de Belém"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/2025_United_Nations_Climate_Change_Conference"
@@ -80946,7 +80954,8 @@
     "descricao": "Acidente na usina nuclear de Fukushima Daiichi, no Japão, em março de 2011.",
     "variantes": [
       "Desastre de Fukushima",
-      "Acidente de Fukushima Daiichi"
+      "Acidente de Fukushima Daiichi",
+      "Fukushima Daiichi"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Fukushima_nuclear_accident"
@@ -80965,7 +80974,8 @@
     "variantes": [
       "Represa Alta de Assuã",
       "Barragem de Assuã",
-      "Aswan High Dam"
+      "Aswan High Dam",
+      "Alta Barragem de Assuã"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Aswan_Dam"
@@ -125937,7 +125947,8 @@
     "descricao": "Estrutura gigante concluída em 2016 para cobrir o reator 4 destruído da usina de Chernobyl e o antigo sarcófago.",
     "variantes": [
       "New Safe Confinement",
-      "Novo sarcófago de Chernobyl"
+      "Novo sarcófago de Chernobyl",
+      "Arco de Chernobyl"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Chernobyl_New_Safe_Confinement"
@@ -126042,7 +126053,8 @@
     "nome": "Césio-137",
     "descricao": "Isótopo radioativo do césio, produzido na fissão nuclear, com meia-vida de cerca de trinta anos.",
     "variantes": [
-      "Cs-137"
+      "Cs-137",
+      "Caesium-137"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Caesium-137"
@@ -187493,7 +187505,8 @@
     "descricao": "Máquina que confina plasma em forma de toro com campos magnéticos para obter fusão nuclear controlada.",
     "variantes": [
       "ITER",
-      "Reator de fusão tokamak"
+      "Reator de fusão tokamak",
+      "Tokamaque"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Tokamak",
@@ -219354,6 +219367,30 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Barra_da_Tijuca",
       "https://pt.wikipedia.org/wiki/Barra_da_Tijuca"
+    ]
+  },
+  {
+    "id": "poco_de_lobato",
+    "nome": "Poço de Lobato",
+    "descricao": "Poço no bairro do Lobato, em Salvador, na Bahia, onde o petróleo jorrou pela primeira vez no Brasil, em 1939.",
+    "variantes": [
+      "Descoberta de petróleo no Lobato"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Lobato_(Salvador)"
+    ]
+  },
+  {
+    "id": "organizacao_dos_paises_exportadores_de_petroleo",
+    "nome": "Organização dos Países Exportadores de Petróleo",
+    "descricao": "Organização intergovernamental de países produtores de petróleo, fundada em 1960 para coordenar suas políticas petrolíferas.",
+    "variantes": [
+      "Opep",
+      "OPEC"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Organiza%C3%A7%C3%A3o_dos_Pa%C3%ADses_Exportadores_de_Petr%C3%B3leo",
+      "https://en.wikipedia.org/wiki/OPEC"
     ]
   }
 ]

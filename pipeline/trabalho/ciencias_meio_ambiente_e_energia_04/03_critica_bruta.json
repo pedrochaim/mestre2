@@ -1,0 +1,394 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vinte unidades geradoras confirmado na Wikipédia em português; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte registra 'pedra que canta' como significado tupi; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Itaorna é a praia das usinas e significa 'pedra podre'; o significado é bem documentado, embora fora dos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O prefixo 'pré' entrega a resposta; o fato é trivial e fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator Rei Faruk não foi presidente e se elimina de imediato; troca por outro presidente egípcio.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O enorme lago formado pela represa de Assuã, no Egito, leva o nome de que presidente egípcio?",
+        "resposta": "Gamal Abdel Nasser",
+        "distratores": [
+          "Anwar Sadat",
+          "Hosni Mubarak",
+          "Mohamed Naguib"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Lake_Nasser",
+          "https://pt.wikipedia.org/wiki/Lago_Nasser"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tokamak vem do russo, conforme a fonte; pergunta clara.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A fusão no Sol é amplamente documentada; a pergunta é correta e os distratores são razoáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "E de Earth-class, ou seja, Terra, é fato conhecido; enunciado correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Albedo vem do latim 'brancura', confirmado na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "COP é Conferência das Partes, confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Drake era chamado de Coronel, título usado pelo patrão para impressionar; fonte sustenta.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte traduz Daiichi como 'number 1'.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O sarcófago cobria o reator 4 antes do novo arco, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A fonte em português é inexistente; mantém só a fonte em inglês. O apelido 'Cofre do Juízo Final' é bem conhecido.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Por guardar sementes para replantar o mundo após uma catástrofe, o banco de sementes de Svalbard ganhou que apelido?",
+        "resposta": "Cofre do Juízo Final",
+        "distratores": [
+          "Jardim do Éden",
+          "Caixa de Pandora",
+          "Torre de Babel"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Svalbard_Global_Seed_Vault"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Volta encontrou metano em 1776 no Lago Maior e dá nome ao volt; fontes confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A cena dos moinhos de vento em Dom Quixote está confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Drummond escreveu o poema de despedida às Sete Quedas, confirmado na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Convenção de Minamata sobre Mercúrio foi adotada em 2013, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mesmo nome de um escritor' é impreciso (Lobato é sobrenome) e entrega a resposta; reformulado direto.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Em 1939, o primeiro poço de petróleo reconhecido pelo governo brasileiro foi perfurado em que bairro de Salvador?",
+        "resposta": "Lobato",
+        "distratores": [
+          "Pituba",
+          "Itapuã",
+          "Rio Vermelho"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Lobato_(Salvador)"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Carbonífero foi nomeado pelo carvão e vai de 359 a 299 milhões de anos atrás.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Patterson combateu a gasolina com chumbo, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vale é sócia da Samarco e antiga Vale do Rio Doce; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A lama chegou ao rio Doce, confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os rios foram desviados para irrigar algodão, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Clean Air Act de 1956 em resposta ao Grande Nevoeiro, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A chuva ácida corrói monumentos de mármore; sem calcário entre os distratores, a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Temperaturas elevadas são a principal causa do branqueamento em massa.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Proálcool nasceu da crise do petróleo da década de 1970; fato documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Belo Monte fica no rio Xingu, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os rejeitos atingiram o rio Paraopeba, afluente do São Francisco, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os rejeitos do césio estão em Abadia de Goiás, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A OPEP foi fundada em Bagdá em 1960, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tetra Pak é uma empresa sueca; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Angra 1 foi fornecida pela Westinghouse, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vargas sancionou a Lei 2.004 em 1953, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Turner criou a série e fundou a CNN, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O silício cristalino é dominante nas células solares.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O triângulo do fogo é combustível, calor e oxigênio.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O pico das Agulhas Negras fica no Parque Nacional do Itatiaia; distratores fora do parque.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O reator 4 explodiu em 1986, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A meia-vida do césio-137 é de cerca de 30 anos; fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O ozônio é O3, com três átomos de oxigênio.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As turbinas de eixo horizontal são tipicamente de três pás.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A usina tem seis reatores VVER-1000, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O barril de petróleo tem cerca de 159 litros, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O botijão de 13 kg é citado na fonte e é o mais comum no Brasil.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cerca de 90% do iceberg fica submerso, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Um milímetro de chuva equivale a um litro por metro quadrado; fato certo.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A meta do racionamento de 2001 era cortar 20% do consumo.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chico Mendes recebeu o Global 500 da ONU em 1987, confirmado.",
+      "reescrita": null
+    }
+  ]
+}
