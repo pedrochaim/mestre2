@@ -1,0 +1,245 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto que entregue o nome (o broche diz só Brasil).",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é este ex-zagueiro brasileiro?",
+      "resposta": "Lúcio",
+      "distratores": [
+        "Juan",
+        "Roque Júnior",
+        "Edmílson"
+      ],
+      "ancora": {
+        "nome": "Lúcio",
+        "descricao": "Ex-zagueiro brasileiro (Lucimar Ferreira da Silva), campeão mundial em 2002, conhecido como O Cavalo.",
+        "variantes": [
+          "Lucimar Ferreira da Silva"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido; o fundo com letras parciais não entrega o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 5,
+      "pergunta": "Esta esquiadora norte-americana ganhou o ouro olímpico de 2014 em qual prova?",
+      "resposta": "Slalom",
+      "distratores": [
+        "Slalom gigante",
+        "Super-G",
+        "Descida livre"
+      ],
+      "ancora": {
+        "nome": "Mikaela Shiffrin",
+        "descricao": "Esquiadora alpina norte-americana, maior vencedora da história da Copa do Mundo de esqui alpino.",
+        "variantes": [
+          "Mikaela Pauline Shiffrin"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública; camisa dos Lakers e número 0 não entregam o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Quem é este armador norte-americano de basquete?",
+      "resposta": "Russell Westbrook",
+      "distratores": [
+        "Chris Paul",
+        "Kyrie Irving",
+        "Damian Lillard"
+      ],
+      "ancora": {
+        "nome": "Russell Westbrook",
+        "descricao": "Armador norte-americano de basquete da NBA, MVP da temporada 2016-17.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Quem é este jogador inglês de sinuca?",
+      "resposta": "Ronnie O'Sullivan",
+      "distratores": [
+        "Mark Williams",
+        "John Higgins",
+        "Judd Trump"
+      ],
+      "ancora": {
+        "nome": "Ronnie O'Sullivan",
+        "descricao": "Jogador inglês de sinuca (snooker), sete vezes campeão mundial.",
+        "variantes": [
+          "Ronald Antonio O'Sullivan"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Quem é este enxadrista, campeão mundial de 1985 a 2000?",
+      "resposta": "Garry Kasparov",
+      "distratores": [
+        "Anatoly Karpov",
+        "Vladimir Kramnik",
+        "Viswanathan Anand"
+      ],
+      "ancora": {
+        "nome": "Garry Kasparov",
+        "descricao": "Grande mestre russo de xadrez, campeão mundial de 1985 a 2000.",
+        "variantes": [
+          "Garri Kasparov",
+          "Garik Weinstein"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto histórica legível, sem texto; pergunta vai além do nome sem pista que entregue.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Antes de ir para o Real Madrid, este atacante jogou na Colômbia por qual clube?",
+      "resposta": "Millonarios",
+      "distratores": [
+        "Atlético Nacional",
+        "Deportivo Cali",
+        "Independiente Santa Fe"
+      ],
+      "ancora": {
+        "nome": "Alfredo Di Stéfano",
+        "descricao": "Atacante argentino naturalizado espanhol, ídolo do Real Madrid nos anos 1950, apelidado Saeta Rubia.",
+        "variantes": [
+          "Alfredo Stéfano Di Stéfano Laulhé",
+          "Saeta Rubia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O boné traz escrito 'No hay otro como Durán', entregando o nome."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Este ex-jogador de basquete ajudou a legitimar qual liga, que se fundiu à NBA em 1976?",
+      "resposta": "ABA",
+      "distratores": [
+        "NBL",
+        "BAA",
+        "CBA"
+      ],
+      "ancora": {
+        "nome": "Julius Erving",
+        "descricao": "Ex-jogador norte-americano de basquete, conhecido como Dr. J, astro da ABA e do Philadelphia 76ers.",
+        "variantes": [
+          "Dr. J",
+          "Julius Winfield Erving II"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto antiga legível; a marca Head na camisa não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Quem é este ex-tenista argentino?",
+      "resposta": "Guillermo Vilas",
+      "distratores": [
+        "José Luis Clerc",
+        "Guillermo Coria",
+        "David Nalbandian"
+      ],
+      "ancora": {
+        "nome": "Guillermo Vilas",
+        "descricao": "Ex-tenista argentino, campeão de quatro Grand Slams nos anos 1970 e 1980.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato histórico nítido; o boné dos Yankees não entrega o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Em que clube este astro do beisebol estreou na MLB, antes de brilhar nos Yankees?",
+      "resposta": "Boston Red Sox",
+      "distratores": [
+        "Baltimore Orioles",
+        "Chicago Cubs",
+        "Detroit Tigers"
+      ],
+      "ancora": {
+        "nome": "Babe Ruth",
+        "descricao": "Jogador norte-americano de beisebol, lenda do New York Yankees, apelidado Bambino.",
+        "variantes": [
+          "George Herman Ruth",
+          "The Bambino"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Rosto quase coberto pelo capacete; patrocínios e carro da Leyton House não identificam o piloto, que dividia a equipe com outro."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este atacante argentino virou ídolo de qual clube italiano, do qual é o maior artilheiro na Serie A?",
+      "resposta": "Fiorentina",
+      "distratores": [
+        "Parma",
+        "Udinese",
+        "Sampdoria"
+      ],
+      "ancora": {
+        "nome": "Gabriel Batistuta",
+        "descricao": "Ex-atacante argentino, apelidado Batigol, ídolo da Fiorentina.",
+        "variantes": [
+          "Batigol",
+          "Gabriel Omar Batistuta"
+        ]
+      }
+    }
+  ]
+}

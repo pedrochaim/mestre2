@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é este armador norte-americano de basquete?",
+        "resposta": "Russell Westbrook"
+      },
+      "existentes": [
+        {
+          "id": "q17958",
+          "pergunta": "Quem é este jogador de basquete?",
+          "resposta": "Russell Westbrook"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quem é este grande mestre de xadrez?",
+        "resposta": "Garry Kasparov"
+      },
+      "existentes": [
+        {
+          "id": "q06430",
+          "pergunta": "Garry Kasparov, campeão mundial de xadrez em 1985, nasceu numa república da antiga União Soviética. Qual?",
+          "resposta": "Azerbaijão"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identidade da mesma pessoa na imagem (Russell Westbrook); a nova só acrescenta detalhes descritivos.",
+      "id_existente": "q17958"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede a identidade na imagem; a existente pergunta o local de nascimento de Kasparov, fato diferente."
+    }
+  ]
+}

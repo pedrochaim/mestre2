@@ -1,0 +1,90 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. Distratores são zagueiros brasileiros críveis e nenhum é a pessoa da figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Esquiadora norte-americana' com ouro olímpico em 2014 é um feito único que identifica a atleta sem a imagem. A figura vira enfeite. Qualquer troca de pista seria incerta ou fora dos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem pista que entregue o nome. Distratores são armadores da NBA críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. Os distratores são jogadores de snooker críveis, e a figura decide entre eles.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Campeão mundial de 1985 a 2000' é um feito único que entrega a resposta sem a imagem. Basta pedir o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Quem é este grande mestre de xadrez?",
+        "resposta": "Garry Kasparov",
+        "distratores": [
+          "Anatoly Karpov",
+          "Vladimir Kramnik",
+          "Viswanathan Anand"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Exige reconhecer o atacante e depois saber o clube colombiano. O fato está nos trechos e o enunciado não nomeia o jogador. Os distratores são clubes colombianos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Liga que se fundiu à NBA em 1976' só pode ser a ABA, então dá para responder sem a figura. Os distratores NBL, BAA e CBA também são fracos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista que entregue o nome. Os distratores são tenistas argentinos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A estreia de Ruth na MLB pelo Boston Red Sox está nos trechos. O enunciado não identifica o jogador sozinho, pois há muitos astros dos Yankees. Os distratores são clubes da MLB.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Ídolo' e 'maior artilheiro na Serie A' de um clube italiano apontam quase só para Batistuta e para a Fiorentina, então a figura vira enfeite. Troquei por um fato dos trechos (a maior parte da carreira no clube) que exige reconhecer o jogador.",
+      "reescrita": {
+        "pergunta": "Em que clube italiano este atacante argentino passou a maior parte da carreira?",
+        "resposta": "Fiorentina",
+        "distratores": [
+          "Parma",
+          "Udinese",
+          "Sampdoria"
+        ]
+      }
+    }
+  ]
+}
