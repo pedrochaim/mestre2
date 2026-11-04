@@ -1,0 +1,294 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida, ave inteira, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Caturrita",
+      "distratores": [
+        "Periquitão-maracanã",
+        "Tiriba-de-testa-vermelha",
+        "Periquito-rico"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caturrita",
+        "descricao": "Pequeno papagaio verde de peito acinzentado (Myiopsitta monachus), da América do Sul.",
+        "variantes": [
+          "Periquito-do-monge",
+          "Myiopsitta monachus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ave nítida e inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que papagaio amazônico é este?",
+      "resposta": "Anacã",
+      "distratores": [
+        "Papagaio-moleiro",
+        "Maitaca-verde",
+        "Jandaia-sol"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Anacã",
+        "descricao": "Papagaio amazônico de cabeça marrom estriada e leque de penas vermelhas e azuis na nuca (Deroptyus accipitrinus).",
+        "variantes": [
+          "Papagaio-de-coleira",
+          "Deroptyus accipitrinus"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida, espécie reconhecível pela sobrancelha clara e cauda longa.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Sabiá-do-campo",
+      "distratores": [
+        "Sabiá-laranjeira",
+        "Sabiá-poca",
+        "Sabiá-barranco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sabiá-do-campo",
+        "descricao": "Ave pardacenta de cauda longa e sobrancelha clara (Mimus saturninus), da América do Sul.",
+        "variantes": [
+          "Mimo-de-sobrancelha",
+          "Calhandra",
+          "Mimus saturninus"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida, plumagem característica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave de origem europeia é esta?",
+      "resposta": "Estorninho-comum",
+      "distratores": [
+        "Melro-preto",
+        "Anu-preto",
+        "Graúna"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estorninho-comum",
+        "descricao": "Ave preta de brilho metálico e pintas claras (Sturnus vulgaris), nativa da Europa e introduzida em vários continentes.",
+        "variantes": [
+          "Estorninho-malhado",
+          "Sturnus vulgaris"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida, cabeça rubra e peito dourado inconfundíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que beija-flor é este?",
+      "resposta": "Beija-flor-vermelho",
+      "distratores": [
+        "Beija-flor-tesoura",
+        "Beija-flor-roxo",
+        "Beija-flor-de-papo-branco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Beija-flor-vermelho",
+        "descricao": "Beija-flor de cabeça vermelha e garganta dourada (Chrysolampis mosquitus).",
+        "variantes": [
+          "Chrysolampis mosquitus",
+          "Ruby-topaz hummingbird"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida, cauda bifurcada característica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Tesourinha",
+      "distratores": [
+        "Viuvinha",
+        "Lavadeira-mascarada",
+        "Bem-te-vi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tesourinha",
+        "descricao": "Ave de cabeça preta e cauda longa bifurcada (Tyrannus savana).",
+        "variantes": [
+          "Tesourinha-do-campo",
+          "Tyrannus savana"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida, ave com mancha marrom no olho típica.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que continente esta ave é nativa?",
+      "resposta": "África",
+      "distratores": [
+        "Ásia",
+        "América do Sul",
+        "Oceania"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ganso-do-nilo",
+        "descricao": "Ave aquática de mancha marrom em volta do olho (Alopochen aegyptiaca), nativa da África.",
+        "variantes": [
+          "Ganso-do-egito",
+          "Alopochen aegyptiaca"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida, cores características.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que saíra é esta?",
+      "resposta": "Saíra-militar",
+      "distratores": [
+        "Saíra-sete-cores",
+        "Saíra-lagarta",
+        "Saíra-douradinha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Saíra-militar",
+        "descricao": "Pequena ave de cabeça azul, garganta vermelha e corpo verde (Tangara cyanocephala).",
+        "variantes": [
+          "Saíra-de-chapéu-azul",
+          "Tangara cyanocephala"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida, ave inteira no tronco.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pica-pau é este?",
+      "resposta": "Pica-pau-do-campo",
+      "distratores": [
+        "Pica-pau-verde-barrado",
+        "Pica-pau-de-cabeça-amarela",
+        "Pica-pau-branco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pica-pau-do-campo",
+        "descricao": "Pica-pau de garganta amarela e costas barradas (Colaptes campestris), de campos sul-americanos.",
+        "variantes": [
+          "Colaptes campestris"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida, bico característico.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ave marinha é esta?",
+      "resposta": "Talha-mar",
+      "distratores": [
+        "Trinta-réis-real",
+        "Gaivotão",
+        "Fragata"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Talha-mar",
+        "descricao": "Ave marinha de bico vermelho e preto com mandíbula inferior mais longa (Rynchops niger).",
+        "variantes": [
+          "Rynchops niger",
+          "Black skimmer"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida, boné vermelho e corpo branco característicos.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que estado brasileiro vive esta ave ameaçada?",
+      "resposta": "Ceará",
+      "distratores": [
+        "Pernambuco",
+        "Bahia",
+        "Piauí"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Soldadinho-do-araripe",
+        "descricao": "Pequena ave branca de cabeça vermelha (Antilophia bokermanni), restrita à Chapada do Araripe.",
+        "variantes": [
+          "Chiroxiphia bokermanni",
+          "Antilophia bokermanni",
+          "Araripe manakin"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida, ave inteira no campo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ave de campo é esta?",
+      "resposta": "Perdiz",
+      "distratores": [
+        "Codorna",
+        "Jaó",
+        "Seriema"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Perdiz",
+        "descricao": "Ave terrestre de pescoço castanho e dorso barrado (Rhynchotus rufescens), do centro e leste da América do Sul.",
+        "variantes": [
+          "Inhambu-carapé",
+          "Perdiz-grande",
+          "Rhynchotus rufescens"
+        ]
+      }
+    }
+  ]
+}

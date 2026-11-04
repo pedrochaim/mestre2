@@ -1,0 +1,771 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Caturrita",
+        "descricao": "Pequeno papagaio verde de peito acinzentado (Myiopsitta monachus), da América do Sul.",
+        "variantes": [
+          "Periquito-do-monge",
+          "Myiopsitta monachus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "petalita",
+          "nome": "Petalita",
+          "descricao": "Mineral de silicato de lítio e alumínio, descrito por José Bonifácio na ilha sueca de Utö por volta de 1800.",
+          "variantes": [
+            "Petalite",
+            "Castorita"
+          ]
+        },
+        {
+          "id": "la_calavera_catrina",
+          "nome": "La Calavera Catrina",
+          "descricao": "Figura de uma caveira feminina elegante de chapéu, símbolo do Dia dos Mortos mexicano.",
+          "variantes": [
+            "Catrina",
+            "La Catrina",
+            "Calavera Garbancera"
+          ]
+        },
+        {
+          "id": "azurita",
+          "nome": "Azurita",
+          "descricao": "Mineral de carbonato básico de cobre, azul profundo, formado pelo intemperismo de jazidas de cobre.",
+          "variantes": [
+            "Azurite"
+          ]
+        },
+        {
+          "id": "periquito_australiano",
+          "nome": "Periquito-australiano",
+          "descricao": "Melopsittacus undulatus, pequeno papagaio australiano de cauda longa, popular como ave de estimação.",
+          "variantes": [
+            "Budgerigar",
+            "Periquito-comum",
+            "Melopsittacus undulatus"
+          ]
+        },
+        {
+          "id": "buzio_cauri",
+          "nome": "Búzio-cauri",
+          "descricao": "Concha de pequenos moluscos do oceano Índico, usada como moeda em várias regiões da África.",
+          "variantes": [
+            "Cauri",
+            "Cowrie",
+            "Búzio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Anacã",
+        "descricao": "Papagaio amazônico de cabeça marrom estriada e leque de penas vermelhas e azuis na nuca (Deroptyus accipitrinus).",
+        "variantes": [
+          "Papagaio-de-coleira",
+          "Deroptyus accipitrinus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "corpo_de_exercito_australiano_e_neozelandes",
+          "nome": "Corpo de Exército Australiano e Neozelandês",
+          "descricao": "Corpo militar formado em 1914 por tropas da Austrália e da Nova Zelândia, conhecido pela sigla ANZAC e pela luta em Galípoli.",
+          "variantes": [
+            "ANZAC",
+            "Anzacs"
+          ]
+        },
+        {
+          "id": "panna_cotta",
+          "nome": "Panna cotta",
+          "descricao": "Sobremesa italiana de creme de leite adoçado, endurecido com gelatina e desenformado.",
+          "variantes": [
+            "Panacota"
+          ]
+        },
+        {
+          "id": "kakapo",
+          "nome": "Kakapo",
+          "descricao": "Papagaio noturno, pesado e incapaz de voar (Strigops habroptilus), da Nova Zelândia.",
+          "variantes": [
+            "Strigops habroptilus",
+            "Papagaio-coruja"
+          ]
+        },
+        {
+          "id": "canada",
+          "nome": "Canadá",
+          "descricao": "País da América do Norte cuja capital é Ottawa.",
+          "variantes": []
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Sabiá-do-campo",
+        "descricao": "Ave pardacenta de cauda longa e sobrancelha clara (Mimus saturninus), da América do Sul.",
+        "variantes": [
+          "Mimo-de-sobrancelha",
+          "Calhandra",
+          "Mimus saturninus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "observatorio_de_raios_x_chandra",
+          "nome": "Observatório de Raios X Chandra",
+          "descricao": "Telescópio espacial da NASA lançado em 1999 para observar raios X.",
+          "variantes": [
+            "Chandra",
+            "Chandra X-ray Observatory",
+            "CXO",
+            "AXAF"
+          ]
+        },
+        {
+          "id": "albatroz_de_sobrancelha_negra",
+          "nome": "Albatroz-de-sobrancelha-negra",
+          "descricao": "Grande ave marinha Thalassarche melanophris, de cabeça branca com uma marca escura sobre o olho, a mais comum dos albatrozes.",
+          "variantes": [
+            "Thalassarche melanophris",
+            "Black-browed albatross",
+            "Albatroz-de-sobrancelha"
+          ]
+        },
+        {
+          "id": "cavalhadas_de_pirenopolis",
+          "nome": "Cavalhadas de Pirenópolis",
+          "descricao": "Encenação equestre de batalhas entre cristãos e mouros realizada em Pirenópolis, Goiás, durante a Festa do Divino.",
+          "variantes": [
+            "Cavalhadas"
+          ]
+        },
+        {
+          "id": "calcadeira",
+          "nome": "Calçadeira",
+          "descricao": "Utensílio de cabo longo e ponta curva usado para ajudar o calcanhar a entrar no sapato.",
+          "variantes": [
+            "Calçador",
+            "Shoehorn"
+          ]
+        },
+        {
+          "id": "alexandria",
+          "nome": "Alexandria",
+          "descricao": "Cidade portuária no litoral mediterrâneo do Egito, fundada por Alexandre, o Grande, e capital da dinastia ptolemaica",
+          "variantes": [
+            "Alexandria (Egito)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Estorninho-comum",
+        "descricao": "Ave preta de brilho metálico e pintas claras (Sturnus vulgaris), nativa da Europa e introduzida em vários continentes.",
+        "variantes": [
+          "Estorninho-malhado",
+          "Sturnus vulgaris"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esquilo_vermelho",
+          "nome": "Esquilo-vermelho",
+          "descricao": "Esquilo arborícola da espécie Sciurus vulgaris, de pelagem ruiva, comum na Eurásia.",
+          "variantes": [
+            "Esquilo-vermelho-eurasiático",
+            "Sciurus vulgaris"
+          ]
+        },
+        {
+          "id": "tomilho",
+          "nome": "Tomilho",
+          "descricao": "Erva culinária mediterrânea do gênero Thymus, da família da hortelã, usada seca ou fresca como tempero.",
+          "variantes": [
+            "Thyme",
+            "Thymus vulgaris"
+          ]
+        },
+        {
+          "id": "pelourinho",
+          "nome": "Pelourinho",
+          "descricao": "Centro histórico de Salvador, na Bahia, com casario colonial, Patrimônio da UNESCO.",
+          "variantes": [
+            "Pelourinho (Salvador)",
+            "Pelô"
+          ]
+        },
+        {
+          "id": "avestruz",
+          "nome": "Avestruz",
+          "descricao": "Ave não voadora africana do gênero Struthio, a maior ave viva.",
+          "variantes": [
+            "Avestruz-comum",
+            "Struthio camelus"
+          ]
+        },
+        {
+          "id": "corvo",
+          "nome": "Corvo",
+          "descricao": "Grande ave negra da família dos corvídeos, Corvus corax, a mais difundida no Hemisfério Norte.",
+          "variantes": [
+            "Corvo-comum",
+            "Common raven",
+            "Corvus corax"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Beija-flor-vermelho",
+        "descricao": "Beija-flor de cabeça vermelha e garganta dourada (Chrysolampis mosquitus).",
+        "variantes": [
+          "Chrysolampis mosquitus",
+          "Ruby-topaz hummingbird"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "colibri_abelha",
+          "nome": "Colibri-abelha",
+          "descricao": "Minúsculo beija-flor (Mellisuga helenae), endêmico de Cuba, a menor ave do mundo.",
+          "variantes": [
+            "Beija-flor-abelha",
+            "Mellisuga helenae",
+            "Zunzuncito"
+          ]
+        },
+        {
+          "id": "erik_o_vermelho",
+          "nome": "Erik, o Vermelho",
+          "descricao": "Explorador nórdico do século dez que fundou a primeira colônia europeia na Groenlândia.",
+          "variantes": [
+            "Érico, o Vermelho",
+            "Erik the Red",
+            "Eiríkr rauði"
+          ]
+        },
+        {
+          "id": "esquilo_vermelho",
+          "nome": "Esquilo-vermelho",
+          "descricao": "Esquilo arborícola da espécie Sciurus vulgaris, de pelagem ruiva, comum na Eurásia.",
+          "variantes": [
+            "Esquilo-vermelho-eurasiático",
+            "Sciurus vulgaris"
+          ]
+        },
+        {
+          "id": "barao_vermelho",
+          "nome": "Barão Vermelho",
+          "descricao": "Banda de rock carioca formada em 1981, que revelou o cantor Cazuza.",
+          "variantes": []
+        },
+        {
+          "id": "jambo",
+          "nome": "Jambo",
+          "descricao": "Fruta vermelha e brilhante de árvore tropical do gênero Syzygium, como o jambo-vermelho (Syzygium malaccense).",
+          "variantes": [
+            "Jambo-vermelho",
+            "Jambo-rosa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tesourinha",
+        "descricao": "Ave de cabeça preta e cauda longa bifurcada (Tyrannus savana).",
+        "variantes": [
+          "Tesourinha-do-campo",
+          "Tyrannus savana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tesourinha",
+          "nome": "Tesourinha",
+          "descricao": "Inseto da ordem Dermaptera, com pinças no fim do abdômen.",
+          "variantes": [
+            "Lacrainha",
+            "Dermáptero",
+            "Earwig"
+          ]
+        },
+        {
+          "id": "bicicleta_futebol",
+          "nome": "Bicicleta (futebol)",
+          "descricao": "Golpe acrobático em que o jogador chuta a bola no ar, de costas, jogando o corpo para trás.",
+          "variantes": [
+            "Chilena",
+            "Voadora",
+            "Bicycle kick",
+            "Tesoura"
+          ]
+        },
+        {
+          "id": "tesourao",
+          "nome": "Tesourão",
+          "descricao": "Ave marinha de cauda bifurcada (Fregata magnificens), cujo macho infla uma bolsa vermelha.",
+          "variantes": [
+            "Fragata",
+            "Rabiforcado-magnífico",
+            "Fregata magnificens",
+            "Magnificent frigatebird"
+          ]
+        },
+        {
+          "id": "beija_flor_tesoura",
+          "nome": "Beija-flor-tesoura",
+          "descricao": "Beija-flor azulado de cauda longa e bifurcada da América do Sul, Eupetomena macroura.",
+          "variantes": [
+            "Eupetomena macroura",
+            "Swallow-tailed hummingbird",
+            "Tesourão"
+          ]
+        },
+        {
+          "id": "tangara",
+          "nome": "Tangará",
+          "descricao": "Pequena ave azul de cabeça preta e coroa vermelha (Chiroxiphia caudata), macho dançarino da Mata Atlântica.",
+          "variantes": [
+            "Tesourinha-da-mata",
+            "Dançador",
+            "Chiroxiphia caudata"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ganso-do-nilo",
+        "descricao": "Ave aquática de mancha marrom em volta do olho (Alopochen aegyptiaca), nativa da África.",
+        "variantes": [
+          "Ganso-do-egito",
+          "Alopochen aegyptiaca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pragas_do_egito",
+          "nome": "Pragas do Egito",
+          "descricao": "As dez calamidades que, segundo o livro bíblico do Êxodo, Deus enviou ao Egito para libertar os hebreus.",
+          "variantes": [
+            "Dez pragas do Egito",
+            "Plagues of Egypt",
+            "Dez pragas"
+          ]
+        },
+        {
+          "id": "varano_do_nilo",
+          "nome": "Varano-do-nilo",
+          "descricao": "Grande lagarto semiaquático da África subsaariana, Varanus niloticus.",
+          "variantes": [
+            "Lagarto-do-nilo",
+            "Varanus niloticus"
+          ]
+        },
+        {
+          "id": "ganso",
+          "nome": "Ganso",
+          "descricao": "Ave doméstica branca de pescoço longo, do gênero Anser, criada por carne, ovos e penas.",
+          "variantes": [
+            "Ganso-doméstico",
+            "Anser anser domesticus"
+          ]
+        },
+        {
+          "id": "gansos_do_capitolio",
+          "nome": "Gansos do Capitólio",
+          "descricao": "Gansos sagrados de Juno que, segundo a tradição, alertaram os romanos de um ataque gaulês noturno ao Capitólio, por volta de 390 antes de Cristo.",
+          "variantes": [
+            "Gansos sagrados de Juno"
+          ]
+        },
+        {
+          "id": "azul_egipcio",
+          "nome": "Azul egípcio",
+          "descricao": "Pigmento azul artificial de silicato de cálcio e cobre, fabricado e usado na pintura do Egito Antigo",
+          "variantes": [
+            "Egyptian blue",
+            "Azul do Egito"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Saíra-militar",
+        "descricao": "Pequena ave de cabeça azul, garganta vermelha e corpo verde (Tangara cyanocephala).",
+        "variantes": [
+          "Saíra-de-chapéu-azul",
+          "Tangara cyanocephala"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sagrada_familia",
+          "nome": "Sagrada Família",
+          "descricao": "Basílica projetada por Antoni Gaudí em Barcelona, ainda em construção por mais de um século.",
+          "variantes": [
+            "Templo Expiatório da Sagrada Família",
+            "Basílica da Sagrada Família",
+            "Sagrada Família de Barcelona"
+          ]
+        },
+        {
+          "id": "esfera_armilar",
+          "nome": "Esfera armilar",
+          "descricao": "Modelo da esfera celeste formado por anéis metálicos que representam círculos astronômicos como a eclíptica.",
+          "variantes": [
+            "Armila",
+            "Astrolábio esférico"
+          ]
+        },
+        {
+          "id": "frango_d_agua_azul",
+          "nome": "Frango-d'água-azul",
+          "descricao": "Porphyrio martinica, ave de brejo americana da família Rallidae, de plumagem azul-púrpura e verde, bico vermelho e pernas amarelas.",
+          "variantes": [
+            "Purple gallinule",
+            "Porphyrio martinica",
+            "Frango-de-água-azul"
+          ]
+        },
+        {
+          "id": "ditadura_militar_brasileira",
+          "nome": "Ditadura militar brasileira",
+          "descricao": "Regime autoritário governado por militares no Brasil, instaurado pelo golpe de 1964 e encerrado em 1985.",
+          "variantes": [
+            "Regime militar",
+            "Ditadura de 1964"
+          ]
+        },
+        {
+          "id": "sailor_mars",
+          "nome": "Sailor Mars",
+          "descricao": "Rei Hino, guardiã de Marte e sacerdotisa de santuário em Sailor Moon.",
+          "variantes": [
+            "Rei Hino",
+            "Sailor Marte"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Pica-pau-do-campo",
+        "descricao": "Pica-pau de garganta amarela e costas barradas (Colaptes campestris), de campos sul-americanos.",
+        "variantes": [
+          "Colaptes campestris"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "capsula_do_tempo",
+          "nome": "Cápsula do Tempo",
+          "descricao": "Máquina dos Centros Pokémon em Pokémon Gold, Silver e Crystal que permite trocar pokémon com os jogos da primeira geração.",
+          "variantes": [
+            "Time Capsule"
+          ]
+        },
+        {
+          "id": "pica_pau_de_cabeca_amarela",
+          "nome": "Pica-pau-de-cabeça-amarela",
+          "descricao": "Pica-pau (Celeus flavescens) de cabeça clara e mancha vermelha na face, que vive na Argentina, no Brasil e no Paraguai.",
+          "variantes": [
+            "Celeus flavescens",
+            "Blond-crested woodpecker"
+          ]
+        },
+        {
+          "id": "pica_pau",
+          "nome": "Pica-Pau",
+          "descricao": "Pássaro de desenho animado, de risada característica, que estreou nos cinemas em 1940 e fez sucesso na TV.",
+          "variantes": [
+            "Woody Woodpecker",
+            "Picapau"
+          ]
+        },
+        {
+          "id": "pica_pau_de_banda_branca",
+          "nome": "Pica-pau-de-banda-branca",
+          "descricao": "Grande pica-pau Dryocopus lineatus, de crista vermelha e riscas brancas no dorso, do México à Argentina.",
+          "variantes": [
+            "Lineated woodpecker",
+            "Dryocopus lineatus"
+          ]
+        },
+        {
+          "id": "inundacao_da_varzea_do_carmo_benedito_calixto",
+          "nome": "Inundação da Várzea do Carmo (Benedito Calixto)",
+          "descricao": "Pintura a óleo de Benedito Calixto, de 1892, que mostra a cheia do Tamanduateí no centro de São Paulo.",
+          "variantes": [
+            "Inundação da Várzea do Carmo",
+            "Várzea do Carmo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Talha-mar",
+        "descricao": "Ave marinha de bico vermelho e preto com mandíbula inferior mais longa (Rynchops niger).",
+        "variantes": [
+          "Rynchops niger",
+          "Black skimmer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fumarola_negra",
+          "nome": "Fumarola negra",
+          "descricao": "Tipo de fonte hidrotermal do fundo do mar que expele água muito quente carregada de minerais escuros.",
+          "variantes": [
+            "Black smoker",
+            "Chaminé hidrotermal"
+          ]
+        },
+        {
+          "id": "lula",
+          "nome": "Lula",
+          "descricao": "Molusco cefalópode marinho de corpo alongado, com oito braços e dois tentáculos.",
+          "variantes": [
+            "Squid",
+            "Calamar"
+          ]
+        },
+        {
+          "id": "malamar",
+          "nome": "Malamar",
+          "descricao": "Pokémon lula dos tipos Sombrio e Psíquico da sexta geração, evolução de Inkay.",
+          "variantes": [
+            "Calamanero"
+          ]
+        },
+        {
+          "id": "muralhas_de_ataque_dos_titas",
+          "nome": "Muralhas de Ataque dos Titãs",
+          "descricao": "As três muralhas concêntricas, Maria, Rose e Sina, que protegem a humanidade dos titãs em Ataque dos Titãs.",
+          "variantes": [
+            "Muralha Maria",
+            "Muralha Rose",
+            "Muralha Sina"
+          ]
+        },
+        {
+          "id": "sky_battle",
+          "nome": "Sky Battle",
+          "descricao": "Formato de batalha de Pokémon X e Y em que só podem lutar pokémon voadores ou com a habilidade de levitar.",
+          "variantes": [
+            "Batalha aérea"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Soldadinho-do-araripe",
+        "descricao": "Pequena ave branca de cabeça vermelha (Antilophia bokermanni), restrita à Chapada do Araripe.",
+        "variantes": [
+          "Chiroxiphia bokermanni",
+          "Antilophia bokermanni",
+          "Araripe manakin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chapada_do_araripe",
+          "nome": "Chapada do Araripe",
+          "descricao": "Planalto do Nordeste brasileiro, famoso por fósseis do Cretáceo, como peixes e pterossauros.",
+          "variantes": [
+            "Araripe",
+            "Bacia do Araripe"
+          ]
+        },
+        {
+          "id": "aracari_banana",
+          "nome": "Araçari-banana",
+          "descricao": "Pequeno tucano amarelo-esverdeado (Pteroglossus bailloni), da Mata Atlântica.",
+          "variantes": [
+            "Pteroglossus bailloni",
+            "Saffron toucanet",
+            "Tucaninho-banana"
+          ]
+        },
+        {
+          "id": "flamingo_americano",
+          "nome": "Flamingo-americano",
+          "descricao": "Espécie de flamingo (Phoenicopterus ruber) das Antilhas, norte da América do Sul e Iucatã, também chamada flamingo-do-caribe.",
+          "variantes": [
+            "Flamingo-do-caribe",
+            "Phoenicopterus ruber",
+            "American flamingo"
+          ]
+        },
+        {
+          "id": "almondega",
+          "nome": "Almôndega",
+          "descricao": "Bolinho de carne moída, de forma esférica, cozido em molho ou frito.",
+          "variantes": [
+            "Almôndegas",
+            "Bolinho de carne"
+          ]
+        },
+        {
+          "id": "pokemon_alfa",
+          "nome": "Pokémon Alfa",
+          "descricao": "Pokémon selvagens maiores, mais fortes e agressivos que os comuns, introduzidos em Pokémon Legends: Arceus.",
+          "variantes": [
+            "Alpha Pokémon",
+            "Pokémon Alpha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Perdiz",
+        "descricao": "Ave terrestre de pescoço castanho e dorso barrado (Rhynchotus rufescens), do centro e leste da América do Sul.",
+        "variantes": [
+          "Inhambu-carapé",
+          "Perdiz-grande",
+          "Rhynchotus rufescens"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_grande",
+          "nome": "Rio Grande",
+          "descricao": "Rio da América do Norte que forma a fronteira entre o Texas, nos Estados Unidos, e o México.",
+          "variantes": [
+            "Río Bravo",
+            "Río Bravo del Norte",
+            "Rio Grande do Norte americano"
+          ]
+        },
+        {
+          "id": "pedro_o_grande",
+          "nome": "Pedro, o Grande",
+          "descricao": "Tsar da Rússia a partir de 1682 e primeiro imperador russo, de 1721 a 1725.",
+          "variantes": [
+            "Pedro I da Rússia",
+            "Peter the Great"
+          ]
+        },
+        {
+          "id": "giuseppe_verdi",
+          "nome": "Giuseppe Verdi",
+          "descricao": "Compositor italiano de óperas do século dezenove, autor de Aida, La Traviata e Nabucco.",
+          "variantes": [
+            "Verdi"
+          ]
+        },
+        {
+          "id": "ilha_grande",
+          "nome": "Ilha Grande",
+          "descricao": "Ilha do município de Angra dos Reis, no litoral sul do estado do Rio de Janeiro.",
+          "variantes": [
+            "Ilha Grande de Angra dos Reis"
+          ]
+        },
+        {
+          "id": "jardim_persa",
+          "nome": "Jardim persa",
+          "descricao": "Tradição de jardins murados do antigo Irã, cujo termo em persa antigo deu origem à palavra paraíso.",
+          "variantes": [
+            "Persian garden",
+            "Pairidaeza"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Caturrita (Myiopsitta monachus) não corresponde a nenhuma candidata; periquito-australiano é outra espécie."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Anacã é Deroptyus accipitrinus; kakapo é outra espécie."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Mimus saturninus não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Sturnus vulgaris é distinto de esquilo-vermelho, avestruz e corvo."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Chrysolampis mosquitus é distinto do colibri-abelha e demais candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "A candidata Tesourinha é um inseto; a proposta é a ave Tyrannus savana."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Ganso-do-nilo (Alopochen aegyptiaca) é espécie diferente do ganso doméstico."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Tangara cyanocephala não está entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Colaptes campestris é espécie diferente dos outros pica-paus candidatos."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Rynchops niger não está entre as candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "A ave é distinta da Chapada do Araripe, que é um lugar."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Perdiz (Rhynchotus rufescens) não corresponde a nenhuma candidata."
+    }
+  ]
+}
