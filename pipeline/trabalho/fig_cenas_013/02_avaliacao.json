@@ -1,0 +1,222 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arte de divulgação sem texto, com o Taj Mahal e o trio de protagonistas; reconhecível para o público brasileiro.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "De que novela brasileira é esta imagem?",
+      "resposta": "Caminho das Índias",
+      "distratores": [
+        "O Clone",
+        "Salve Jorge",
+        "Passione"
+      ],
+      "ancora": {
+        "nome": "Caminho das Índias",
+        "descricao": "Novela brasileira da TV Globo exibida em 2009, ambientada na Índia e no Brasil.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "A imagem é de Treinando o Papai (The Game Plan), sem texto, com ator famoso; a pergunta usa o ator.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ator vive o protagonista deste filme?",
+      "resposta": "Dwayne Johnson",
+      "distratores": [
+        "Vin Diesel",
+        "John Cena",
+        "Dave Bautista"
+      ],
+      "ancora": {
+        "nome": "Treinando o Papai",
+        "descricao": "Comédia americana de 2007 sobre um jogador de futebol americano que descobre ter uma filha.",
+        "variantes": [
+          "The Game Plan"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Crianças comuns em primeiro plano, imagem sem elementos que permitam reconhecer a obra e marca d'água ao fundo."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cena sem texto com atriz conhecida; pergunta pelo elenco, sem entregar a novela.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que atriz interpreta a Helena nesta novela?",
+      "resposta": "Christiane Torloni",
+      "distratores": [
+        "Susana Vieira",
+        "Vera Fischer",
+        "Glória Pires"
+      ],
+      "ancora": {
+        "nome": "Mulheres Apaixonadas",
+        "descricao": "Novela de Manoel Carlos exibida pela TV Globo em 2003.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Arte da série original com Rod Serling, sem texto; reconhecível.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que década estreou a série original desta imagem?",
+      "resposta": "Década de 1950",
+      "distratores": [
+        "Década de 1940",
+        "Década de 1960",
+        "Década de 1970"
+      ],
+      "ancora": {
+        "nome": "Além da Imaginação",
+        "descricao": "Série americana de antologia de ficção científica e terror criada por Rod Serling, estreada em 1959.",
+        "variantes": [
+          "The Twilight Zone"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Cena em preto e branco de dois atores pouco conhecidos, sem nada que permita reconhecer o filme."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem de divulgação sem texto, com as duas protagonistas; reconhecível.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que década foi lançado este filme?",
+      "resposta": "Década de 2000",
+      "distratores": [
+        "Década de 1980",
+        "Década de 1990",
+        "Década de 2010"
+      ],
+      "ancora": {
+        "nome": "O Diabo Veste Prada",
+        "descricao": "Comédia dramática americana de 2006 sobre a assistente de uma editora de moda.",
+        "variantes": [
+          "The Devil Wears Prada"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cena icônica sem texto; pergunta sobre o diretor, sem tocar no desfecho.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem dirigiu este filme?",
+      "resposta": "Wes Craven",
+      "distratores": [
+        "John Carpenter",
+        "Tobe Hooper",
+        "Brian De Palma"
+      ],
+      "ancora": {
+        "nome": "Pânico (filme de 1996)",
+        "descricao": "Filme de terror slasher americano de 1996, dirigido por Wes Craven.",
+        "variantes": [
+          "Scream"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cena em preto e branco sem texto, reconhecível pelo elenco e pelo clima natalino; pergunta só sobre a época.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que década foi lançado este filme?",
+      "resposta": "Década de 1940",
+      "distratores": [
+        "Década de 1930",
+        "Década de 1950",
+        "Década de 1960"
+      ],
+      "ancora": {
+        "nome": "A Felicidade Não Se Compra",
+        "descricao": "Filme americano de Frank Capra, de 1946, estrelado por James Stewart.",
+        "variantes": [
+          "It's a Wonderful Life"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cena famosa da escadaria, sem texto; pergunta sobre o ator sem spoiler.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ator interpreta este personagem neste filme?",
+      "resposta": "Joaquin Phoenix",
+      "distratores": [
+        "Heath Ledger",
+        "Jared Leto",
+        "Jack Nicholson"
+      ],
+      "ancora": {
+        "nome": "Coringa (filme de 2019)",
+        "descricao": "Filme americano de 2019 dirigido por Todd Phillips sobre a origem do Coringa.",
+        "variantes": [
+          "Joker"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Arte de divulgação sem texto, com o grupo de crianças, o mapa e o navio pirata; reconhecível.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem dirigiu este filme?",
+      "resposta": "Richard Donner",
+      "distratores": [
+        "Steven Spielberg",
+        "Joe Dante",
+        "Robert Zemeckis"
+      ],
+      "ancora": {
+        "nome": "Os Goonies",
+        "descricao": "Filme de aventura americano de 1985 sobre crianças em busca do tesouro do pirata Willy Caolho.",
+        "variantes": [
+          "The Goonies"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Arte de divulgação que só se reconhece pelos rostos de atores pouco conhecidos; o cenário não identifica a série com segurança."
+    }
+  ]
+}

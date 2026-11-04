@@ -1,0 +1,513 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Caminho das Índias",
+        "descricao": "Novela brasileira da TV Globo exibida em 2009, ambientada na Índia e no Brasil.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "rota_da_seda",
+          "nome": "Rota da Seda",
+          "descricao": "Rede de rotas comerciais que ligava a China ao Mediterrâneo desde a Antiguidade.",
+          "variantes": [
+            "Silk Road",
+            "Caminho da Seda"
+          ]
+        },
+        {
+          "id": "cravo_da_india",
+          "nome": "Cravo-da-índia",
+          "descricao": "Botão floral seco da árvore Syzygium aromaticum, usado como tempero",
+          "variantes": [
+            "Syzygium aromaticum",
+            "cravinho",
+            "clove"
+          ]
+        },
+        {
+          "id": "cartagena",
+          "nome": "Cartagena",
+          "descricao": "Cidade portuária do litoral caribenho da Colômbia, também chamada Cartagena das Índias.",
+          "variantes": [
+            "Cartagena de Indias",
+            "Cartagena das Índias"
+          ]
+        },
+        {
+          "id": "qhapaq_nan",
+          "nome": "Qhapaq Ñan",
+          "descricao": "Rede de estradas do Império Inca que ligava Cusco a todo o território andino.",
+          "variantes": [
+            "Caminho Inca",
+            "Inca road system",
+            "Capac Ñan",
+            "Estradas incas"
+          ]
+        },
+        {
+          "id": "porquinho_da_india",
+          "nome": "Porquinho-da-índia",
+          "descricao": "Roedor doméstico da espécie Cavia porcellus, criado como animal de estimação e de laboratório.",
+          "variantes": [
+            "Cobaia",
+            "Cavia porcellus",
+            "Preá doméstico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Treinando o Papai",
+        "descricao": "Comédia americana de 2007 sobre um jogador de futebol americano que descobre ter uma filha.",
+        "variantes": [
+          "Ó Paí, Ó",
+          "The Game Plan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cairo",
+          "nome": "Cairo",
+          "descricao": "Capital do Egito, às margens do rio Nilo, fundada no século dez pela dinastia fatímida.",
+          "variantes": [
+            "O Cairo",
+            "Al-Qahira"
+          ]
+        },
+        {
+          "id": "topazio",
+          "nome": "Topázio",
+          "descricao": "Mineral silicato de alumínio e flúor usado como gema, em cristais prismáticos de cor amarelo-alaranjada ou incolor.",
+          "variantes": [
+            "Topázio imperial"
+          ]
+        },
+        {
+          "id": "gambia",
+          "nome": "Gâmbia",
+          "descricao": "País da África Ocidental formado por uma faixa estreita ao longo do rio Gâmbia, com capital em Banjul.",
+          "variantes": [
+            "The Gambia"
+          ]
+        },
+        {
+          "id": "jogo_da_vida",
+          "nome": "Jogo da Vida",
+          "descricao": "Jogo de tabuleiro em que os jogadores percorrem etapas da vida, como carreira, casamento e aposentadoria.",
+          "variantes": [
+            "The Game of Life",
+            "The Checkered Game of Life"
+          ]
+        },
+        {
+          "id": "nintendo",
+          "nome": "Nintendo",
+          "descricao": "Empresa japonesa de videogames fundada em 1889, criadora de Mario e Zelda.",
+          "variantes": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Koppai"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mulheres Apaixonadas",
+        "descricao": "Novela de Manoel Carlos exibida pela TV Globo em 2003.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "mulher_maravilha",
+          "nome": "Mulher-Maravilha",
+          "descricao": "Heroína amazona da DC Comics, também conhecida como Diana Prince.",
+          "variantes": [
+            "Wonder Woman",
+            "Diana Prince"
+          ]
+        },
+        {
+          "id": "rapto_das_sabinas",
+          "nome": "Rapto das Sabinas",
+          "descricao": "Episódio lendário dos primeiros anos de Roma em que os homens de Rômulo raptaram mulheres do povo sabino.",
+          "variantes": [
+            "Rapto das mulheres sabinas",
+            "The Rape of the Sabine Women"
+          ]
+        },
+        {
+          "id": "mulher_tapuia",
+          "nome": "Mulher Tapuia",
+          "descricao": "Quadro de Albert Eckhout de 1641, pintado no Brasil holandês.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Além da Imaginação",
+        "descricao": "Série americana de antologia de ficção científica e terror criada por Rod Serling, estreada em 1959.",
+        "variantes": [
+          "The Twilight Zone"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arvore_bodhi",
+          "nome": "Árvore Bodhi",
+          "descricao": "Figueira sagrada sob a qual, segundo a tradição budista, Sidarta Gautama alcançou a iluminação.",
+          "variantes": [
+            "Bodhi Tree",
+            "Árvore da Iluminação",
+            "Árvore de Bodhi",
+            "Figueira sagrada"
+          ]
+        },
+        {
+          "id": "wayne_gretzky",
+          "nome": "Wayne Gretzky",
+          "descricao": "Jogador canadense de hóquei no gelo, apelidado de The Great One.",
+          "variantes": [
+            "The Great One"
+          ]
+        },
+        {
+          "id": "juneteenth",
+          "nome": "Juneteenth",
+          "descricao": "Feriado dos Estados Unidos que comemora a emancipação dos afro-americanos escravizados.",
+          "variantes": [
+            "Dia da Emancipação",
+            "Juneteenth National Independence Day"
+          ]
+        },
+        {
+          "id": "lema_olimpico",
+          "nome": "Lema olímpico",
+          "descricao": "Divisa em latim do movimento olímpico, conhecida como Citius, Altius, Fortius.",
+          "variantes": [
+            "Citius, Altius, Fortius",
+            "Mais rápido, mais alto, mais forte"
+          ]
+        },
+        {
+          "id": "o_cafe_noturno",
+          "nome": "O Café Noturno",
+          "descricao": "Pintura a óleo de Vincent van Gogh, de setembro de 1888, com o interior do Café de la Gare, em Arles.",
+          "variantes": [
+            "O Café à Noite",
+            "The Night Café",
+            "Le Café de nuit"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "O Diabo Veste Prada",
+        "descricao": "Comédia dramática americana de 2006 sobre a assistente de uma editora de moda.",
+        "variantes": [
+          "The Devil Wears Prada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "periodo_quente_medieval",
+          "nome": "Período Quente Medieval",
+          "descricao": "Época de clima mais ameno no Atlântico Norte durante a Idade Média",
+          "variantes": [
+            "Medieval Warm Period",
+            "Ótimo Climático Medieval",
+            "Anomalia Climática Medieval"
+          ]
+        },
+        {
+          "id": "rei_carta_de_baralho",
+          "nome": "Rei (carta de baralho)",
+          "descricao": "Carta de figura do baralho francês que, na tradição francesa, homenageia um rei histórico ou lendário em cada naipe.",
+          "variantes": [
+            "King (playing card)",
+            "Rei de espadas",
+            "King"
+          ]
+        },
+        {
+          "id": "jiboia_esmeralda",
+          "nome": "Jiboia-esmeralda",
+          "descricao": "Jiboia arborícola verde das florestas sul-americanas, Corallus caninus.",
+          "variantes": [
+            "Periquitamboia",
+            "Corallus caninus",
+            "Emerald tree boa"
+          ]
+        },
+        {
+          "id": "the_star_spangled_banner",
+          "nome": "The Star-Spangled Banner",
+          "descricao": "Hino nacional dos Estados Unidos, com letra de Francis Scott Key escrita em 1814.",
+          "variantes": [
+            "Hino dos Estados Unidos",
+            "A Bandeira Estrelada"
+          ]
+        },
+        {
+          "id": "teatro_dos_estados_praga",
+          "nome": "Teatro dos Estados (Praga)",
+          "descricao": "Teatro histórico neoclássico de Praga, na República Tcheca, ligado ao Teatro Nacional.",
+          "variantes": [
+            "Estates Theatre",
+            "Stavovské divadlo",
+            "Teatro Estates"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pânico (filme de 1996)",
+        "descricao": "Filme de terror slasher americano de 1996, dirigido por Wes Craven.",
+        "variantes": [
+          "Scream"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pinoquio_filme_de_1940",
+          "nome": "Pinóquio (filme de 1940)",
+          "descricao": "Segundo longa-metragem de animação da Disney, sobre o boneco de madeira cujo nariz cresce quando mente.",
+          "variantes": [
+            "Pinocchio"
+          ]
+        },
+        {
+          "id": "o_grito",
+          "nome": "O Grito",
+          "descricao": "Obra expressionista de Edvard Munch, de 1893.",
+          "variantes": [
+            "The Scream",
+            "Skrik"
+          ]
+        },
+        {
+          "id": "creta",
+          "nome": "Creta",
+          "descricao": "A maior ilha da Grécia, no mar Mediterrâneo, berço da civilização minoica.",
+          "variantes": [
+            "Crete",
+            "Kriti"
+          ]
+        },
+        {
+          "id": "antonio_jose_de_sucre",
+          "nome": "Antonio José de Sucre",
+          "descricao": "General venezuelano das guerras de independência sul-americanas, vencedor de Ayacucho e presidente da Bolívia.",
+          "variantes": [
+            "Sucre",
+            "Marechal Sucre"
+          ]
+        },
+        {
+          "id": "sucre",
+          "nome": "Sucre",
+          "descricao": "Cidade boliviana que é a capital constitucional da Bolívia.",
+          "variantes": [
+            "La Plata",
+            "Chuquisaca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "A Felicidade Não Se Compra",
+        "descricao": "Filme americano de Frank Capra, de 1946, estrelado por James Stewart.",
+        "variantes": [
+          "It's a Wonderful Life"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "velocidade_do_som",
+          "nome": "Velocidade do som",
+          "descricao": "Velocidade com que as ondas sonoras se propagam num meio, que depende do material.",
+          "variantes": [
+            "Speed of sound"
+          ]
+        },
+        {
+          "id": "rivalidade_senna_e_prost",
+          "nome": "Rivalidade Senna e Prost",
+          "descricao": "Disputa entre Ayrton Senna e Alain Prost na Fórmula 1, no fim dos anos oitenta e começo dos noventa.",
+          "variantes": [
+            "Prost–Senna rivalry"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Coringa (filme de 2019)",
+        "descricao": "Filme americano de 2019 dirigido por Todd Phillips sobre a origem do Coringa.",
+        "variantes": [
+          "Joker"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coringa",
+          "nome": "Coringa",
+          "descricao": "Vilão palhaço e principal inimigo do Batman, criado em 1940",
+          "variantes": [
+            "Joker"
+          ]
+        },
+        {
+          "id": "curinga",
+          "nome": "Curinga",
+          "descricao": "Carta extra do baralho, geralmente com a figura de um bobo da corte, que pode substituir outras cartas.",
+          "variantes": [
+            "Coringa",
+            "Joker"
+          ]
+        },
+        {
+          "id": "nikola_jokic",
+          "nome": "Nikola Jokić",
+          "descricao": "Pivô sérvio do Denver Nuggets, três vezes MVP da NBA.",
+          "variantes": [
+            "Joker"
+          ]
+        },
+        {
+          "id": "poquer",
+          "nome": "Pôquer",
+          "descricao": "Jogo de cartas de apostas e blefe em que vence a melhor combinação de cinco cartas.",
+          "variantes": [
+            "Poker"
+          ]
+        },
+        {
+          "id": "croke_park",
+          "nome": "Croke Park",
+          "descricao": "Estádio de esportes gaélicos em Dublin, na Irlanda, sede da Associação Atlética Gaélica.",
+          "variantes": [
+            "Croker",
+            "Páirc an Chrócaigh"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Os Goonies",
+        "descricao": "Filme de aventura americano de 1985 sobre crianças em busca do tesouro do pirata Willy Caolho.",
+        "variantes": [
+          "The Goonies"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ramones",
+          "nome": "Ramones",
+          "descricao": "Banda punk americana formada em Nova York em 1974",
+          "variantes": [
+            "The Ramones"
+          ]
+        },
+        {
+          "id": "teatro_globe",
+          "nome": "Teatro Globe",
+          "descricao": "Teatro elisabetano de Londres, construído em 1599, onde a companhia de Shakespeare se apresentava.",
+          "variantes": [
+            "Globe Theatre",
+            "The Globe",
+            "Shakespeare's Globe"
+          ]
+        },
+        {
+          "id": "the_doors",
+          "nome": "The Doors",
+          "descricao": "Banda de rock americana formada em Los Angeles em 1965, liderada pelo vocalista Jim Morrison",
+          "variantes": [
+            "Doors"
+          ]
+        },
+        {
+          "id": "iaque",
+          "nome": "Iaque",
+          "descricao": "Bovino domesticado de pelagem longa das montanhas da Ásia central, Bos grunniens.",
+          "variantes": [
+            "Yak",
+            "Bos grunniens"
+          ]
+        },
+        {
+          "id": "dois_papas",
+          "nome": "Dois Papas",
+          "descricao": "Filme de 2019 sobre os papas Bento dezesseis e Francisco, com Anthony Hopkins e Jonathan Pryce.",
+          "variantes": [
+            "The Two Popes"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Novela de 2009; nenhuma candidata é a mesma obra."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Filme de 2007; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Novela de 2003; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Série de TV; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Filme de 2006; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Filme Scream de 1996 é diferente da pintura O Grito e das demais."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Filme de 1946; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "O filme de 2019 é diferente do personagem Coringa e das demais candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Filme de 1985; nenhuma candidata corresponde."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta, sem vazamento. Distratores são novelas brasileiras críveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os trechos tratam de outro filme (Ó Paí, Ó) e não confirmam o fato. Mas é amplamente documentado que Dwayne Johnson protagoniza o filme The Game Plan (2007), em português Treinando o Papai. A resposta é única e os distratores são do mesmo tipo e não estão corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que Christiane Torloni interpreta a Helena. O enunciado não nomeia a novela e os distratores são atrizes de novela que não fizeram esse papel.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a estreia em 1959. O enunciado não vaza o título e os distratores são décadas vizinhas.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o lançamento em 2006, portanto a década de 2000. Os distratores são décadas e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a direção de Wes Craven. Os distratores são diretores de terror críveis e nenhum dirigiu o filme.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o lançamento em 1946, portanto a década de 1940. Os distratores são décadas e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Este personagem' pressupõe que a imagem mostra um personagem específico, mas `mostra` só confirma o filme, e a cena pode mostrar outro personagem. Perguntar pelo protagonista do filme é verdadeiro para qualquer cena, e o trecho confirma Joaquin Phoenix. Os distratores continuam válidos, pois Ledger, Leto e Nicholson interpretaram o Coringa em outros filmes.",
+      "reescrita": {
+        "pergunta": "Que ator vive o protagonista deste filme?",
+        "resposta": "Joaquin Phoenix",
+        "distratores": [
+          "Heath Ledger",
+          "Jared Leto",
+          "Jack Nicholson"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma a direção de Richard Donner. Spielberg foi produtor, não diretor, então o distrator é crível e não está correto.",
+      "reescrita": null
+    }
+  ]
+}
