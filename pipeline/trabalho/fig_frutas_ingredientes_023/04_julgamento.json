@@ -1,0 +1,318 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Caranguejo",
+        "descricao": "Crustáceo decápode de carapaça rígida e andar lateral, aqui um caranguejo-fantasma na areia.",
+        "variantes": [
+          "Caranguejo-fantasma",
+          "Maria-farinha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caranguejo_fantasma",
+          "nome": "Caranguejo-fantasma",
+          "descricao": "Caranguejo de praia do gênero Ocypode, de olhos em hastes longas, que vive na areia.",
+          "variantes": [
+            "Caranguejo",
+            "Maria-farinha",
+            "Ocypode"
+          ]
+        },
+        {
+          "id": "caranguejo",
+          "nome": "Caranguejo",
+          "descricao": "Crustáceo decápode da infraordem Brachyura, de carapaça larga e cauda curta dobrada sob o corpo.",
+          "variantes": [
+            "Brachyura",
+            "Crab"
+          ]
+        },
+        {
+          "id": "maria_farinha",
+          "nome": "Maria-farinha",
+          "descricao": "Caranguejo semiterrestre de praia, de cor clara e olhos em hastes, que vive em tocas na areia.",
+          "variantes": [
+            "Caranguejo-fantasma",
+            "Ocypode quadrata",
+            "Ghost crab"
+          ]
+        },
+        {
+          "id": "maria_maria",
+          "nome": "Maria, Maria",
+          "descricao": "Canção de Milton Nascimento e Fernando Brant, lançada em disco em 1978.",
+          "variantes": []
+        },
+        {
+          "id": "caranguejo_yeti",
+          "nome": "Caranguejo-yeti",
+          "descricao": "Crustáceo das fontes hidrotermais do Pacífico Sul, Kiwa hirsuta, com garras cobertas de cerdas claras.",
+          "variantes": [
+            "Kiwa hirsuta",
+            "Yeti crab"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Fruta-milagrosa",
+        "descricao": "Baga vermelha de Synsepalum dulcificum, planta africana que faz alimentos azedos parecerem doces.",
+        "variantes": [
+          "Synsepalum dulcificum",
+          "Miracle fruit",
+          "Baga-milagrosa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fruta_do_diabo",
+          "nome": "Fruta do Diabo",
+          "descricao": "Fruta mágica de One Piece que dá poderes sobre-humanos a quem a come.",
+          "variantes": [
+            "Akuma no Mi",
+            "Devil Fruit"
+          ]
+        },
+        {
+          "id": "fruta_pao",
+          "nome": "Fruta-pão",
+          "descricao": "Fruto da árvore Artocarpus altilis, originária do Pacífico, rico em amido",
+          "variantes": [
+            "Artocarpus altilis",
+            "Breadfruit"
+          ]
+        },
+        {
+          "id": "camisa_rosa_do_giro_d_italia",
+          "nome": "Camisa rosa do Giro d'Italia",
+          "descricao": "Camisa do líder da classificação geral da volta ciclística da Itália.",
+          "variantes": [
+            "Maglia rosa"
+          ]
+        },
+        {
+          "id": "pitaia",
+          "nome": "Pitaia",
+          "descricao": "Fruta de um cacto do gênero Selenicereus, de casca rosa com escamas, também chamada pitahaya.",
+          "variantes": [
+            "Pitaya",
+            "Fruta-do-dragão",
+            "Dragon fruit"
+          ]
+        },
+        {
+          "id": "esfera_armilar",
+          "nome": "Esfera armilar",
+          "descricao": "Modelo da esfera celeste formado por anéis metálicos que representam círculos astronômicos como a eclíptica.",
+          "variantes": [
+            "Armila",
+            "Astrolábio esférico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ameixa seca",
+        "descricao": "Ameixa europeia desidratada, de casca escura e enrugada.",
+        "variantes": [
+          "Ameixa-preta",
+          "Prune"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caixa_preta",
+          "nome": "Caixa-preta",
+          "descricao": "Gravador de dados e de voz da cabine instalado em aviões para investigar acidentes.",
+          "variantes": [
+            "Registrador de voo",
+            "Flight recorder",
+            "Black box"
+          ]
+        },
+        {
+          "id": "faixa_preta",
+          "nome": "Faixa preta",
+          "descricao": "Faixa de cor preta que indica o grau de proficiência mais alto em muitas artes marciais, como judô e karatê.",
+          "variantes": [
+            "Cinturão preto",
+            "Black belt"
+          ]
+        },
+        {
+          "id": "mamba_negra",
+          "nome": "Mamba-negra",
+          "descricao": "Serpente peçonhenta africana (Dendroaspis polylepis), longa e veloz, de pele cinza ou oliva.",
+          "variantes": [
+            "Mamba-preta",
+            "Dendroaspis polylepis"
+          ]
+        },
+        {
+          "id": "amora_preta",
+          "nome": "Amora-preta",
+          "descricao": "Fruto escuro e composto de plantas do gênero Rubus, a blackberry.",
+          "variantes": [
+            "Amora",
+            "Blackberry"
+          ]
+        },
+        {
+          "id": "bandeira_preta",
+          "nome": "Bandeira preta",
+          "descricao": "Bandeira de sinalização do automobilismo mostrada a um piloto que foi desclassificado e deve deixar a pista.",
+          "variantes": [
+            "Black flag"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Penne",
+        "descricao": "Massa italiana tubular com as pontas cortadas em diagonal.",
+        "variantes": [
+          "Penne rigate"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pente",
+          "nome": "Pente",
+          "descricao": "Objeto com uma fileira de dentes usado para desembaraçar, limpar ou pentear o cabelo.",
+          "variantes": [
+            "Comb"
+          ]
+        },
+        {
+          "id": "feneco",
+          "nome": "Feneco",
+          "descricao": "Pequena raposa do deserto do Saara, Vulpes zerda, de orelhas enormes.",
+          "variantes": [
+            "Raposa-do-deserto",
+            "Vulpes zerda",
+            "Fennec"
+          ]
+        },
+        {
+          "id": "portao_de_menin",
+          "nome": "Portão de Menin",
+          "descricao": "Memorial de guerra na cidade belga de Ypres dedicado aos soldados britânicos e da Comunidade Britânica desaparecidos na Primeira Guerra Mundial.",
+          "variantes": [
+            "Menin Gate",
+            "Menenpoort"
+          ]
+        },
+        {
+          "id": "pele",
+          "nome": "Pelé",
+          "descricao": "Edson Arantes do Nascimento, tricampeão mundial pela seleção brasileira.",
+          "variantes": [
+            "Edson Arantes do Nascimento"
+          ]
+        },
+        {
+          "id": "pince_nez",
+          "nome": "Pince-nez",
+          "descricao": "Tipo de óculos sem hastes, cujas lentes são presas pressionando a ponte do nariz, popular no fim do século dezenove.",
+          "variantes": [
+            "Pincenê"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Granadilla",
+        "descricao": "Fruta alaranjada de casca lisa e polpa gelatinosa com sementes escuras, Passiflora ligularis.",
+        "variantes": [
+          "Granadilha",
+          "Maracujá-doce",
+          "Passiflora ligularis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        },
+        {
+          "id": "laranja",
+          "nome": "Laranja",
+          "descricao": "Fruta cítrica Citrus × sinensis, híbrido de pomelo e tangerina, de casca e polpa alaranjadas.",
+          "variantes": [
+            "Laranja-doce",
+            "Citrus sinensis"
+          ]
+        },
+        {
+          "id": "maracuja",
+          "nome": "Maracujá",
+          "descricao": "Fruto das trepadeiras do gênero Passiflora, cujas flores são chamadas de flor-da-paixão",
+          "variantes": [
+            "Passiflora",
+            "flor-da-paixão",
+            "passion fruit",
+            "maracujazeiro"
+          ]
+        },
+        {
+          "id": "colar",
+          "nome": "Colar",
+          "descricao": "Joia usada ao redor do pescoço, aqui de correntes de argolas com pérolas.",
+          "variantes": [
+            "Gargantilha"
+          ]
+        },
+        {
+          "id": "agua_doce",
+          "nome": "Água doce",
+          "descricao": "Água com baixa concentração de sais, presente em geleiras, aquíferos, rios e lagos.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "caranguejo_fantasma",
+      "motivo": "A descrição trata de um caranguejo-fantasma na areia, com variantes idênticas às da candidata Caranguejo-fantasma."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a fruta-milagrosa (Synsepalum dulcificum)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é ameixa seca."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a massa penne."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A granadilla (Passiflora ligularis) é uma espécie específica. Maracujá é o gênero e a fruta em geral, então são entidades diferentes."
+    }
+  ]
+}

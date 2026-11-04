@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que crustáceo é este, visto numa praia?",
+        "resposta": "Caranguejo"
+      },
+      "existentes": [
+        {
+          "id": "q05508",
+          "pergunta": "Que caranguejo da areia das praias é este?",
+          "resposta": "Caranguejo-fantasma"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pede a espécie específica (caranguejo-fantasma); a nova pede só 'caranguejo' de forma genérica. Respostas diferentes, e saber uma não garante a outra."
+    }
+  ]
+}

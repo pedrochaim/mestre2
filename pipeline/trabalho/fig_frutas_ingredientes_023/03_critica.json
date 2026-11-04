@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta, enunciado verdadeiro e sem vazamento; distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem africana confirmada nos trechos; 'africana' ajuda sem entregar; distratores plausíveis e nenhum africano de mesma aparência.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'fruta seca' no enunciado vaza parte da resposta 'Ameixa seca'. Troca por pista visual que não entrega.",
+      "reescrita": {
+        "pergunta": "Que fruta de casca escura e enrugada é esta?",
+        "resposta": "Ameixa seca",
+        "distratores": [
+          "Tâmara",
+          "Uva-passa",
+          "Figo seco"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Penne descrita nos trechos como massa tubular de pontas cortadas em diagonal; enunciado não vaza; distratores são massas distintas.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Granadilha (Passiflora ligularis) confirmada; enunciado neutro; distratores são frutas de outro tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Resposta não é única só pela imagem: salsicha, linguiça, chouriço etc. são defensáveis num embutido servido com purê. Além disso, presunto não é embutido, e 'sobre o purê' não bate com a descrição (servido com purê).",
+      "reescrita": null
+    }
+  ]
+}

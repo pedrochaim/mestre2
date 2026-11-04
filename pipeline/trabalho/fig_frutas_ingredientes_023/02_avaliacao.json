@@ -1,0 +1,179 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Caranguejo-fantasma nítido, reconhecível como caranguejo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que crustáceo é este, visto numa praia?",
+      "resposta": "Caranguejo",
+      "distratores": [
+        "Lagosta",
+        "Camarão",
+        "Lagostim"
+      ],
+      "ancora": {
+        "nome": "Caranguejo",
+        "descricao": "Crustáceo decápode de carapaça rígida e andar lateral, aqui um caranguejo-fantasma na areia.",
+        "variantes": [
+          "Caranguejo-fantasma",
+          "Maria-farinha"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Campo de cereal em que cevada e trigo se confundem; não há resposta única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Frutos vermelhos nítidos e folhas características; reconhecível com distratores visualmente parecidos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fruta africana é esta?",
+      "resposta": "Fruta-milagrosa",
+      "distratores": [
+        "Acerola",
+        "Pitanga",
+        "Groselha"
+      ],
+      "ancora": {
+        "nome": "Fruta-milagrosa",
+        "descricao": "Baga vermelha de Synsepalum dulcificum, planta africana que faz alimentos azedos parecerem doces.",
+        "variantes": [
+          "Synsepalum dulcificum",
+          "Miracle fruit",
+          "Baga-milagrosa"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Prancha com cinco peixes de espécies diferentes; montagem de várias espécies."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ameixas secas em close, claras e reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fruta seca é esta?",
+      "resposta": "Ameixa seca",
+      "distratores": [
+        "Tâmara",
+        "Uva-passa",
+        "Figo seco"
+      ],
+      "ancora": {
+        "nome": "Ameixa seca",
+        "descricao": "Ameixa europeia desidratada, de casca escura e enrugada.",
+        "variantes": [
+          "Ameixa-preta",
+          "Prune"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A imagem mostra a inflorescência de uma cebola/Allium; não é reconhecível como chalota."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Dois penne nítidos sobre fundo branco, com corte diagonal característico.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de massa é este?",
+      "resposta": "Penne",
+      "distratores": [
+        "Rigatoni",
+        "Fusilli",
+        "Macarrão cotovelo"
+      ],
+      "ancora": {
+        "nome": "Penne",
+        "descricao": "Massa italiana tubular com as pontas cortadas em diagonal.",
+        "variantes": [
+          "Penne rigate"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Queijo de casca branca que pode ser confundido com brie ou outros queijos de casca florida; resposta não é única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fruta inteira e cortada, nítida e característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Granadilha",
+      "distratores": [
+        "Caqui",
+        "Fisális",
+        "Marmelo"
+      ],
+      "ancora": {
+        "nome": "Granadilla",
+        "descricao": "Fruta alaranjada de casca lisa e polpa gelatinosa com sementes escuras, Passiflora ligularis.",
+        "variantes": [
+          "Granadilha",
+          "Maracujá-doce",
+          "Passiflora ligularis"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Salsichas servidas sobre purê, bem visíveis.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que embutido é este, servido sobre purê de batata?",
+      "resposta": "Salsicha",
+      "distratores": [
+        "Mortadela",
+        "Salame",
+        "Presunto"
+      ],
+      "ancora": {
+        "nome": "Salsicha",
+        "descricao": "Embutido cilíndrico de carne moída temperada, aqui servido com purê, ketchup e cebola frita.",
+        "variantes": [
+          "Salsichão",
+          "Hot dog"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Lulas secas ambíguas com lula-comum ou sépia, e etiqueta manuscrita visível com a palavra sotong."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Prancha botânica antiga com texto visível (Orbignia phalerata, Tab. 170) e várias partes da planta."
+    }
+  ]
+}
