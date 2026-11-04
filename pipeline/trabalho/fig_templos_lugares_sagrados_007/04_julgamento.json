@@ -1,0 +1,582 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Igreja da Pampulha",
+        "descricao": "Igreja de São Francisco de Assis em Belo Horizonte, projeto de Oscar Niemeyer, inaugurada em 1943.",
+        "variantes": [
+          "Igrejinha da Pampulha",
+          "Igreja de São Francisco de Assis (Belo Horizonte)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "conjunto_moderno_da_pampulha",
+          "nome": "Conjunto Moderno da Pampulha",
+          "descricao": "Conjunto arquitetônico projetado por Oscar Niemeyer nos anos 1940 em torno da lagoa da Pampulha, com a Igreja de São Francisco de Assis.",
+          "variantes": [
+            "Pampulha",
+            "Igreja da Pampulha",
+            "Pampulha Modern Ensemble"
+          ]
+        },
+        {
+          "id": "igreja_de_sao_francisco_de_assis_ouro_preto",
+          "nome": "Igreja de São Francisco de Assis (Ouro Preto)",
+          "descricao": "Igreja barroca do século dezoito em Ouro Preto, com projeto atribuído a Aleijadinho.",
+          "variantes": []
+        },
+        {
+          "id": "lagoa_da_pampulha",
+          "nome": "Lagoa da Pampulha",
+          "descricao": "Lagoa artificial de Belo Horizonte, cercada pelo conjunto arquitetônico moderno da Pampulha.",
+          "variantes": [
+            "Lago da Pampulha",
+            "Pampulha"
+          ]
+        },
+        {
+          "id": "igreja_de_sao_francisco_de_assis_sao_joao_del_rei",
+          "nome": "Igreja de São Francisco de Assis (São João del-Rei)",
+          "descricao": "Igreja barroca da Ordem Terceira de São Francisco em São João del-Rei, Minas Gerais, com projeto de Aleijadinho.",
+          "variantes": [
+            "Igreja de São Francisco de São João del-Rei"
+          ]
+        },
+        {
+          "id": "igreja_de_sao_francisco_de_salvador",
+          "nome": "Igreja de São Francisco de Salvador",
+          "descricao": "Igreja barroca do convento franciscano no centro histórico de Salvador, na Bahia, do século dezoito.",
+          "variantes": [
+            "Igreja e Convento de São Francisco",
+            "Church and Convent of São Francisco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mesquita de Süleymaniye",
+        "descricao": "Mesquita imperial otomana de Istambul, projetada por Mimar Sinan e concluída em 1557.",
+        "variantes": [
+          "Mesquita de Solimão",
+          "Süleymaniye Camii"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_do_profeta",
+          "nome": "Mesquita do Profeta",
+          "descricao": "Mesquita em Medina, Arábia Saudita, segunda mais sagrada do Islã, com a cúpula verde sobre o túmulo de Maomé.",
+          "variantes": [
+            "Al-Masjid an-Nabawi",
+            "Mesquita de Medina"
+          ]
+        },
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        },
+        {
+          "id": "mesquita_de_al_aqsa",
+          "nome": "Mesquita de Al-Aqsa",
+          "descricao": "Mesquita na Esplanada das Mesquitas, em Jerusalém, um dos lugares mais sagrados do islã",
+          "variantes": [
+            "Al-Aqsa",
+            "Mesquita Al-Aqsa"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_djenne",
+          "nome": "Grande Mesquita de Djenné",
+          "descricao": "Mesquita de barro na cidade de Djenné, no Mali, reconstruída em 1907 e Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Great Mosque of Djenné",
+            "Mesquita de Djenné"
+          ]
+        },
+        {
+          "id": "mesquita_azul",
+          "nome": "Mesquita Azul",
+          "descricao": "Mesquita do Sultão Ahmed, em Istambul, construída no início do século dezessete",
+          "variantes": [
+            "Mesquita do Sultão Ahmed",
+            "Sultanahmet Camii",
+            "Sultan Ahmed Mosque",
+            "Blue Mosque"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Catedral de São Paulo (Londres)",
+        "descricao": "Catedral anglicana de Londres, projetada por Christopher Wren e concluída em 1710.",
+        "variantes": [
+          "St Paul's Cathedral"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_basilio",
+          "nome": "Catedral de São Basílio",
+          "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+          "variantes": [
+            "Catedral de São Basílio, o Bem-Aventurado",
+            "Catedral da Intercessão",
+            "Catedral Pokrovsky",
+            "Saint Basil's Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_santo_isaac",
+          "nome": "Catedral de Santo Isaac",
+          "descricao": "Grande catedral de cúpula dourada em São Petersburgo, hoje museu.",
+          "variantes": [
+            "Catedral de São Isaac",
+            "Saint Isaac's Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_da_se_de_sao_paulo",
+          "nome": "Catedral da Sé de São Paulo",
+          "descricao": "Catedral metropolitana neogótica com cúpula renascentista, na Praça da Sé, em São Paulo.",
+          "variantes": [
+            "Catedral Metropolitana de São Paulo",
+            "Catedral da Sé"
+          ]
+        },
+        {
+          "id": "catedral_metropolitana_de_fortaleza",
+          "nome": "Catedral Metropolitana de Fortaleza",
+          "descricao": "Catedral católica neogótica de Fortaleza (CE), na Praça da Sé, inaugurada em 1978.",
+          "variantes": [
+            "Catedral da Sé de Fortaleza",
+            "Catedral de São José"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Templo de Saturno",
+        "descricao": "Templo romano dedicado ao deus Saturno, cujas ruínas ficam no Fórum Romano.",
+        "variantes": [
+          "Templum Saturni",
+          "Tempio di Saturno"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_karnak",
+          "nome": "Templo de Karnak",
+          "descricao": "Vasto complexo de templos dedicado sobretudo ao deus Amon, na antiga Tebas, atual Luxor",
+          "variantes": [
+            "Karnak",
+            "Ipet-isut"
+          ]
+        },
+        {
+          "id": "wat_arun",
+          "nome": "Wat Arun",
+          "descricao": "Templo budista em Bangkok, na Tailândia, na margem oeste do rio Chao Phraya, conhecido pelo prang central.",
+          "variantes": [
+            "Templo do Amanhecer",
+            "Templo da Aurora",
+            "Wat Arun Ratchawararam"
+          ]
+        },
+        {
+          "id": "baalbek",
+          "nome": "Baalbek",
+          "descricao": "Cidade e sítio arqueológico romano no Vale do Beca, no Líbano, aqui o Templo de Baco.",
+          "variantes": [
+            "Heliópolis",
+            "Templo de Baco"
+          ]
+        },
+        {
+          "id": "templo_de_hefesto",
+          "nome": "Templo de Hefesto",
+          "descricao": "Templo dórico muito bem preservado, no noroeste da Ágora de Atenas, dedicado a Hefesto.",
+          "variantes": [
+            "Hefesteion",
+            "Teseion"
+          ]
+        },
+        {
+          "id": "primeiro_templo_de_jerusalem",
+          "nome": "Primeiro Templo de Jerusalém",
+          "descricao": "Templo judaico erguido em Jerusalém e destruído pelos babilônios no século seis antes de Cristo",
+          "variantes": [
+            "Templo de Salomão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Templo de Luxor",
+        "descricao": "Grande complexo de templo egípcio antigo na margem leste do Nilo, em Luxor (antiga Tebas).",
+        "variantes": [
+          "Luxor Temple"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_luxor",
+          "nome": "Templo de Luxor",
+          "descricao": "Grande complexo de templo egípcio antigo na margem leste do Nilo, na antiga Tebas.",
+          "variantes": [
+            "Luxor Temple"
+          ]
+        },
+        {
+          "id": "templo_de_lotus",
+          "nome": "Templo de Lótus",
+          "descricao": "Casa de adoração bahá'í em Nova Délhi, na Índia, em forma de flor de lótus com 27 pétalas de mármore.",
+          "variantes": [
+            "Lotus Temple",
+            "Casa de Adoração Bahá'í"
+          ]
+        },
+        {
+          "id": "wat_arun",
+          "nome": "Wat Arun",
+          "descricao": "Templo budista em Bangkok, na Tailândia, na margem oeste do rio Chao Phraya, conhecido pelo prang central.",
+          "variantes": [
+            "Templo do Amanhecer",
+            "Templo da Aurora",
+            "Wat Arun Ratchawararam"
+          ]
+        },
+        {
+          "id": "baalbek",
+          "nome": "Baalbek",
+          "descricao": "Cidade e sítio arqueológico romano no Vale do Beca, no Líbano, aqui o Templo de Baco.",
+          "variantes": [
+            "Heliópolis",
+            "Templo de Baco"
+          ]
+        },
+        {
+          "id": "templo_de_edfu",
+          "nome": "Templo de Edfu",
+          "descricao": "Templo dedicado ao deus Hórus na cidade de Edfu, no sul do Egito, um dos mais bem conservados do país",
+          "variantes": [
+            "Templo de Hórus em Edfu",
+            "Temple of Edfu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Disco celeste de Nebra",
+        "descricao": "Disco de bronze com símbolos de ouro, achado na Alemanha em 1999 e datado de cerca de 1800 a 1600 a.C.",
+        "variantes": [
+          "Disco de Nebra",
+          "Nebra sky disc",
+          "Himmelsscheibe von Nebra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "disco_de_nebra",
+          "nome": "Disco de Nebra",
+          "descricao": "Disco de bronze e ouro da Idade do Bronze, encontrado na Alemanha, com representações celestes.",
+          "variantes": [
+            "Nebra sky disc",
+            "Disco celeste de Nebra"
+          ]
+        },
+        {
+          "id": "disco_de_newton",
+          "nome": "Disco de Newton",
+          "descricao": "Disco pintado em fatias coloridas que parece branco quando gira rapidamente, demonstrando a composição da luz branca.",
+          "variantes": [
+            "Newton disc"
+          ]
+        },
+        {
+          "id": "zodiaco_de_dendera",
+          "nome": "Zodíaco de Dendera",
+          "descricao": "Relevo egípcio do teto de uma capela do templo de Hathor em Dendera, hoje no Louvre.",
+          "variantes": [
+            "Zodíaco de Denderah",
+            "Dendera zodiac"
+          ]
+        },
+        {
+          "id": "edipo",
+          "nome": "Édipo",
+          "descricao": "Rei mítico de Tebas que decifrou o enigma da Esfinge e, sem saber, matou o pai e se casou com a mãe.",
+          "variantes": [
+            "Oedipus",
+            "Édipo de Tebas"
+          ]
+        },
+        {
+          "id": "disco_de_festo",
+          "nome": "Disco de Festo",
+          "descricao": "Disco de argila cozida de Creta, da Idade do Bronze minoica, coberto de sinais de escrita não decifrada.",
+          "variantes": [
+            "Disco de Phaistos",
+            "Phaistos Disc",
+            "Disco de Faistos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Coricancha",
+        "descricao": "Templo do Sol, o mais importante templo do Império Inca, em Cusco, sob o convento de Santo Domingo.",
+        "variantes": [
+          "Qorikancha",
+          "Quri Kancha",
+          "Templo do Sol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coricancha",
+          "nome": "Coricancha",
+          "descricao": "Principal templo inca, dedicado ao Sol, em Cusco, no Peru.",
+          "variantes": [
+            "Qorikancha",
+            "Templo do Sol de Cusco"
+          ]
+        },
+        {
+          "id": "pau_de_sebo",
+          "nome": "Pau de sebo",
+          "descricao": "Brincadeira de subir num mastro untado de gordura para alcançar um prêmio no topo, típica das festas juninas.",
+          "variantes": [
+            "Mastro de cocanha",
+            "Cocanha"
+          ]
+        },
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        },
+        {
+          "id": "curicaca",
+          "nome": "Curicaca",
+          "descricao": "Ibis grande de bico longo e curvo, de campos abertos da América do Sul (Theristicus caudatus).",
+          "variantes": [
+            "Theristicus caudatus",
+            "Curicaca-real",
+            "Buff-necked ibis"
+          ]
+        },
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Catedral de Notre-Dame de Paris",
+        "descricao": "Catedral católica gótica na Île de la Cité, em Paris, iniciada em 1163.",
+        "variantes": [
+          "Notre-Dame",
+          "Notre-Dame de Paris"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_notre_dame_de_paris",
+          "nome": "Catedral de Notre-Dame de Paris",
+          "descricao": "Catedral gótica medieval na Île de la Cité, em Paris.",
+          "variantes": [
+            "Notre-Dame",
+            "Notre Dame de Paris",
+            "Nossa Senhora de Paris"
+          ]
+        },
+        {
+          "id": "catedral_de_chartres",
+          "nome": "Catedral de Chartres",
+          "descricao": "Catedral gótica de Notre-Dame em Chartres, na França, famosa por suas duas torres assimétricas e seus vitrais.",
+          "variantes": [
+            "Catedral de Notre-Dame de Chartres",
+            "Chartres Cathedral"
+          ]
+        },
+        {
+          "id": "incendio_da_catedral_de_notre_dame_de_paris",
+          "nome": "Incêndio da Catedral de Notre-Dame de Paris",
+          "descricao": "Incêndio que destruiu o telhado e a agulha da catedral de Notre-Dame, em Paris.",
+          "variantes": [
+            "Notre-Dame de Paris fire"
+          ]
+        },
+        {
+          "id": "opera_garnier",
+          "nome": "Ópera Garnier",
+          "descricao": "Teatro de ópera de Paris, projetado por Charles Garnier e inaugurado em 1875.",
+          "variantes": [
+            "Palais Garnier",
+            "Ópera de Paris"
+          ]
+        },
+        {
+          "id": "notre_dame_stadium",
+          "nome": "Notre Dame Stadium",
+          "descricao": "Estádio de futebol americano da Universidade de Notre Dame, em South Bend, Indiana.",
+          "variantes": [
+            "Estádio de Notre Dame"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Templo de Kom Ombo",
+        "descricao": "Templo duplo da época ptolomaica em Kom Ombo, no Alto Egito, dedicado a Sobek e Haroeris.",
+        "variantes": [
+          "Templo de Com Ombo",
+          "Temple of Kom Ombo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_kom_ombo",
+          "nome": "Templo de Kom Ombo",
+          "descricao": "Templo duplo de época ptolomaica em Kom Ombo, na província de Assuã, no Alto Egito.",
+          "variantes": [
+            "Templo de Com Ombo",
+            "Temple of Kom Ombo"
+          ]
+        },
+        {
+          "id": "baalbek",
+          "nome": "Baalbek",
+          "descricao": "Cidade e sítio arqueológico romano no Vale do Beca, no Líbano, aqui o Templo de Baco.",
+          "variantes": [
+            "Heliópolis",
+            "Templo de Baco"
+          ]
+        },
+        {
+          "id": "primeiro_templo_de_jerusalem",
+          "nome": "Primeiro Templo de Jerusalém",
+          "descricao": "Templo judaico erguido em Jerusalém e destruído pelos babilônios no século seis antes de Cristo",
+          "variantes": [
+            "Templo de Salomão"
+          ]
+        },
+        {
+          "id": "templo_de_debod",
+          "nome": "Templo de Debod",
+          "descricao": "Templo egípcio antigo da Núbia doado pelo Egito à Espanha e remontado num parque de Madri",
+          "variantes": [
+            "Temple of Debod"
+          ]
+        },
+        {
+          "id": "templo_mahabodhi",
+          "nome": "Templo Mahabodhi",
+          "descricao": "Templo budista restaurado em Bodh Gaya, na Índia, que marca o local onde Buda teria alcançado a iluminação.",
+          "variantes": [
+            "Templo de Mahabodhi",
+            "Mahabodhi Mahavihara"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A igreja é uma parte do Conjunto Moderno da Pampulha; entidades distintas, apesar da variante compartilhada."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Mesquita de Süleymaniye; a Mesquita Azul é outra mesquita de Istambul."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_sao_paulo_de_londres",
+      "motivo": "Mesma catedral anglicana de Londres (St Paul's), reconstruída por Wren."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Templo de Saturno do Fórum Romano."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "templo_de_luxor",
+      "motivo": "Mesmo templo egípcio em Luxor, descrições equivalentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "disco_de_nebra",
+      "motivo": "Mesmo disco de bronze e ouro de Nebra, com variantes coincidentes."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "coricancha",
+      "motivo": "Mesmo templo inca do Sol em Cusco."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_notre_dame_de_paris",
+      "motivo": "Mesma catedral; o incêndio é evento distinto."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "templo_de_kom_ombo",
+      "motivo": "Mesmo templo duplo ptolomaico de Kom Ombo."
+    }
+  ]
+}

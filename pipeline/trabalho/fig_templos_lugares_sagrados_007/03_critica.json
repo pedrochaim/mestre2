@@ -1,0 +1,91 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A Catedral de Brasília, também de Niemeyer, é um distrator que o enunciado atual torna defensável. Trocar a pista por época e estilo.",
+      "reescrita": {
+        "pergunta": "Que igreja modernista brasileira, inaugurada na década de 1940, é esta?",
+        "resposta": "Igreja da Pampulha",
+        "distratores": [
+          "Catedral de Brasília",
+          "Santuário Dom Bosco",
+          "Catedral de Maringá"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento. Os distratores são mesquitas parecidas, e a imagem decide.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento sem vazamento. 'Cúpula alta' ajuda sem entregar, e os distratores são catedrais com cúpula.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fórum Romano é só contexto. Os distratores são outros templos do Fórum, e a imagem decide.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o templo fica na cidade de Luxor. A figura é necessária e os distratores são cidades egípcias críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'sete pontos agrupados' leva às Plêiades sem olhar a figura. Passa a pedir o reconhecimento do próprio disco.",
+      "reescrita": {
+        "pergunta": "Que famoso disco de bronze da Idade do Bronze, achado na Alemanha, é este?",
+        "resposta": "Disco celeste de Nebra",
+        "distratores": [
+          "Disco de Festo",
+          "Carro solar de Trundholm",
+          "Pedra do Sol"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a igreja de Santo Domingo foi erguida sobre o Coricancha. Resposta única, distratores incas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, com distratores de cidades com catedrais góticas.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Citar Haroeris e 'templo duplo' permite responder Sobek sem a figura. Passa a pedir o reconhecimento do templo.",
+      "reescrita": {
+        "pergunta": "Que templo egípcio da época ptolomaica, no Alto Egito, é este?",
+        "resposta": "Templo de Kom Ombo",
+        "distratores": [
+          "Templo de Edfu",
+          "Templo de Dendera",
+          "Templo de Filas"
+        ]
+      }
+    }
+  ]
+}

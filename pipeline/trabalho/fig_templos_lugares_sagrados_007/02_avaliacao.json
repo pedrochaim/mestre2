@@ -1,0 +1,235 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fachada e espelho d'água característicos, reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que igreja projetada por um famoso arquiteto brasileiro é esta?",
+      "resposta": "Igreja da Pampulha",
+      "distratores": [
+        "Catedral de Brasília",
+        "Santuário Dom Bosco",
+        "Catedral de Maringá"
+      ],
+      "ancora": {
+        "nome": "Igreja da Pampulha",
+        "descricao": "Igreja de São Francisco de Assis em Belo Horizonte, projeto de Oscar Niemeyer, inaugurada em 1943.",
+        "variantes": [
+          "Igrejinha da Pampulha",
+          "Igreja de São Francisco de Assis (Belo Horizonte)"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, de perfil, usando o tálit; fora da política de pessoas."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida, com quatro minaretes e cúpulas escalonadas, reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que mesquita imperial otomana é esta?",
+      "resposta": "Mesquita de Süleymaniye",
+      "distratores": [
+        "Mesquita Azul",
+        "Mesquita de Selimiye",
+        "Mesquita Nova"
+      ],
+      "ancora": {
+        "nome": "Mesquita de Süleymaniye",
+        "descricao": "Mesquita imperial otomana de Istambul, projetada por Mimar Sinan e concluída em 1557.",
+        "variantes": [
+          "Mesquita de Solimão",
+          "Süleymaniye Camii"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cúpula e torres barrocas características, vista aérea clara.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que catedral de cúpula alta é esta?",
+      "resposta": "Catedral de São Paulo (Londres)",
+      "distratores": [
+        "Basílica de São Pedro",
+        "Catedral de Santo Isaac",
+        "Catedral de Florença"
+      ],
+      "ancora": {
+        "nome": "Catedral de São Paulo (Londres)",
+        "descricao": "Catedral anglicana de Londres, projetada por Christopher Wren e concluída em 1710.",
+        "variantes": [
+          "St Paul's Cathedral"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Detalhe de pagodes e telhados que pode ser confundido com outros templos de Bangkok; não garante resposta única."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Colunas jônicas e entablamento do Fórum Romano; a inscrição latina não nomeia o templo.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que templo do Fórum Romano é este?",
+      "resposta": "Templo de Saturno",
+      "distratores": [
+        "Templo de Vesta",
+        "Templo de Castor e Pólux",
+        "Templo de Vespasiano"
+      ],
+      "ancora": {
+        "nome": "Templo de Saturno",
+        "descricao": "Templo romano dedicado ao deus Saturno, cujas ruínas ficam no Fórum Romano.",
+        "variantes": [
+          "Templum Saturni",
+          "Tempio di Saturno"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pilono com obelisco e estátuas de Ramsés, inconfundível.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade do Egito fica este templo?",
+      "resposta": "Luxor",
+      "distratores": [
+        "Assuã",
+        "Gizé",
+        "Alexandria"
+      ],
+      "ancora": {
+        "nome": "Templo de Luxor",
+        "descricao": "Grande complexo de templo egípcio antigo na margem leste do Nilo, em Luxor (antiga Tebas).",
+        "variantes": [
+          "Luxor Temple"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Objeto isolado e inconfundível, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Os sete pontos agrupados neste disco da Idade do Bronze costumam ser interpretados como que aglomerado de estrelas?",
+      "resposta": "Plêiades",
+      "distratores": [
+        "Híades",
+        "Órion",
+        "Ursa Maior"
+      ],
+      "ancora": {
+        "nome": "Disco celeste de Nebra",
+        "descricao": "Disco de bronze com símbolos de ouro, achado na Alemanha em 1999 e datado de cerca de 1800 a 1600 a.C.",
+        "variantes": [
+          "Disco de Nebra",
+          "Nebra sky disc",
+          "Himmelsscheibe von Nebra"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Muros incas sob igreja colonial em Cusco; pedestres pequenos ao fundo, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Sobre as paredes de que antigo edifício inca foi erguida esta igreja de Cusco?",
+      "resposta": "Coricancha",
+      "distratores": [
+        "Sacsayhuamán",
+        "Qenqo",
+        "Ollantaytambo"
+      ],
+      "ancora": {
+        "nome": "Coricancha",
+        "descricao": "Templo do Sol, o mais importante templo do Império Inca, em Cusco, sob o convento de Santo Domingo.",
+        "variantes": [
+          "Qorikancha",
+          "Quri Kancha",
+          "Templo do Sol"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada ocidental icônica, reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta catedral gótica?",
+      "resposta": "Paris",
+      "distratores": [
+        "Reims",
+        "Amiens",
+        "Bruxelas"
+      ],
+      "ancora": {
+        "nome": "Catedral de Notre-Dame de Paris",
+        "descricao": "Catedral católica gótica na Île de la Cité, em Paris, iniciada em 1163.",
+        "variantes": [
+          "Notre-Dame",
+          "Notre-Dame de Paris"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Templo duplo com colunas de capitéis florais, característico.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Neste templo duplo egípcio, que deus era venerado ao lado de Haroeris?",
+      "resposta": "Sobek",
+      "distratores": [
+        "Anúbis",
+        "Ptah",
+        "Khnum"
+      ],
+      "ancora": {
+        "nome": "Templo de Kom Ombo",
+        "descricao": "Templo duplo da época ptolomaica em Kom Ombo, no Alto Egito, dedicado a Sobek e Haroeris.",
+        "variantes": [
+          "Templo de Com Ombo",
+          "Temple of Kom Ombo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Poço verde cercado de vegetação, sem elemento que permita reconhecer o Cenote Sagrado entre outros cenotes."
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que catedral de cúpula alta é esta?",
+        "resposta": "Catedral de São Paulo (Londres)"
+      },
+      "existentes": [
+        {
+          "id": "q11608",
+          "pergunta": "Reconstruída depois do Grande Incêndio de 1666, a Catedral de São Paulo, em Londres, foi projetada por qual arquiteto?",
+          "resposta": "Christopher Wren"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade do Egito fica este templo?",
+        "resposta": "Luxor"
+      },
+      "existentes": [
+        {
+          "id": "q06287",
+          "pergunta": "Em que cidade do Egito fica este templo?",
+          "resposta": "Luxor"
+        },
+        {
+          "id": "q13657",
+          "pergunta": "Dentro do Templo de Luxor, erguido para os deuses de Tebas, funciona há séculos, sobre as ruínas antigas, um templo de outra religião. Qual?",
+          "resposta": "Uma mesquita"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que famoso disco de bronze da Idade do Bronze, achado na Alemanha, é este?",
+        "resposta": "Disco celeste de Nebra"
+      },
+      "existentes": [
+        {
+          "id": "q03109",
+          "pergunta": "O Disco de Nebra, de bronze e ouro, mostra o Sol, a Lua e um aglomerado de sete pontos. Que estrelas esses pontos representariam?",
+          "resposta": "Plêiades"
+        },
+        {
+          "id": "q13328",
+          "pergunta": "Em 1999, o Disco de Nebra, de bronze e ouro, foi desenterrado na Alemanha por quem?",
+          "resposta": "Caçadores de tesouros ilegais"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Sobre as paredes de que antigo edifício inca foi erguida esta igreja de Cusco?",
+        "resposta": "Coricancha"
+      },
+      "existentes": [
+        {
+          "id": "q03509",
+          "pergunta": "Sobre as paredes do Coricancha, o templo inca do Sol em Cusco, os espanhóis ergueram que construção?",
+          "resposta": "Convento de Santo Domingo"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que cidade fica esta catedral gótica?",
+        "resposta": "Paris"
+      },
+      "existentes": [
+        {
+          "id": "q01920",
+          "pergunta": "Que catedral gótica é esta?",
+          "resposta": "Notre-Dame de Paris"
+        },
+        {
+          "id": "q03974",
+          "pergunta": "Marco da arquitetura gótica, a Catedral de Notre-Dame de Paris teve sua construção iniciada em que século?",
+          "resposta": "Século doze"
+        },
+        {
+          "id": "q07527",
+          "pergunta": "No século dezenove, que romance de Victor Hugo despertou o interesse do público e ajudou a salvar da ruína a grande catedral gótica de Paris?",
+          "resposta": "O Corcunda de Notre-Dame"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que templo egípcio da época ptolomaica, no Alto Egito, é este?",
+        "resposta": "Templo de Kom Ombo"
+      },
+      "existentes": [
+        {
+          "id": "q14606",
+          "pergunta": "Sob que dinastia foi construído o templo que vemos aqui, no Alto Egito?",
+          "resposta": "Ptolomaica"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar a catedral pela imagem é diferente de perguntar o arquiteto."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Pergunta idêntica à q06287.",
+      "id_existente": "q06287"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o objeto é diferente de Plêiades ou de quem o desenterrou."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: o Coricancha e a construção espanhola sobre ele; a resposta de uma está contida na pergunta da outra.",
+      "id_existente": "q03509"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Cidade da catedral é um fato diferente; a pergunta q01920 pede o nome da catedral, e a cidade aparece em sua resposta, mas a pergunta nova pede a localização, que não é o mesmo fato perguntado."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "A dinastia ptolomaica é a época do templo, igual ao enunciado da nova.",
+      "id_existente": "q14606"
+    }
+  ]
+}
