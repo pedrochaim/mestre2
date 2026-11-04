@@ -1,0 +1,179 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Parece um milkshake ou vitamina de chocolate com barra e granulado; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Imagem pequena, escura e de baixa resolução, pouco legível no celular; cubos de peixe cru poderiam ser confundidos com tartare ou ceviche."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto clara dos puddings assados na forma de muffins; pergunta de país de origem.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "De que país é originário este prato assado, que acompanha o almoço de domingo?",
+      "resposta": "Inglaterra",
+      "distratores": [
+        "Escócia",
+        "País de Gales",
+        "Irlanda"
+      ],
+      "ancora": {
+        "nome": "Yorkshire pudding",
+        "descricao": "Pudim salgado assado feito de massa de ovos, farinha e leite, típico da culinária inglesa.",
+        "variantes": [
+          "Yorkshire pud"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "São ovos tingidos de galinha, não o ovo de chocolate que o público brasileiro associa a 'ovo de Páscoa'; o enunciado ficaria adivinhável sem a imagem ou ambíguo."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O pão (kanelbulle sueco) é igual ao de Dinamarca, Noruega e Finlândia; a origem não é única e a pergunta de ingrediente seria adivinhável sem a imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Torre de bombinhas com caramelo, bem reconhecível; foto clara, retrato do casal ao fundo é minúsculo.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "De que país é originária esta sobremesa, servida em casamentos?",
+      "resposta": "França",
+      "distratores": [
+        "Espanha",
+        "Alemanha",
+        "Suíça"
+      ],
+      "ancora": {
+        "nome": "Croquembouche",
+        "descricao": "Sobremesa francesa de bolinhas de massa choux empilhadas em cone e unidas por fios de caramelo.",
+        "variantes": [
+          "Croque-en-bouche"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Bombom isolado com noz por cima: genérico, parecido com muitos outros doces; resposta não é única nem reconhecível."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A etiqueta visível diz 'Jamón Ibérico' e 'Bellota', entregando a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fatias de ovo centenário com a gema verde-escura e clara translúcida, bem característico.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "De que país é originário este petisco de aparência escura e translúcida?",
+      "resposta": "China",
+      "distratores": [
+        "Japão",
+        "Coreia do Sul",
+        "Índia"
+      ],
+      "ancora": {
+        "nome": "Ovo centenário",
+        "descricao": "Ovo de pata, galinha ou codorna conservado em argila, cinzas e cal, de clara escura e gema verde-acinzentada, da culinária chinesa.",
+        "variantes": [
+          "Ovo de cem anos",
+          "Pidan",
+          "Ovo milenar"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Massa em espiral, nítida e reconhecível; distratores de formato diferente mas do mesmo catálogo.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que tipo de massa italiana é este, em forma de espiral?",
+      "resposta": "Fusilli (macarrão parafuso)",
+      "distratores": [
+        "Penne",
+        "Farfalle",
+        "Conchiglie"
+      ],
+      "ancora": {
+        "nome": "Macarrão parafuso",
+        "descricao": "Massa italiana de formato helicoidal, originária do sul da Itália.",
+        "variantes": [
+          "Fusilli",
+          "Rotini"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cubos polvilhados de açúcar com hortelã, reconhecíveis; foto nítida.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que doce em cubos, polvilhado com açúcar de confeiteiro, é este?",
+      "resposta": "Delícia turca (lokum)",
+      "distratores": [
+        "Halva",
+        "Nugá",
+        "Marshmallow"
+      ],
+      "ancora": {
+        "nome": "Lokum (delícia turca)",
+        "descricao": "Doce turco em cubos feito de gel de amido e açúcar, polvilhado com açúcar de confeiteiro.",
+        "variantes": [
+          "Delícia turca",
+          "Turkish delight",
+          "Manjar turco",
+          "Lokum"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bandeja de jalebi, nítida e característica pelos espirais alaranjados.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que doce do sul da Ásia, em espirais alaranjados, é este?",
+      "resposta": "Jalebi",
+      "distratores": [
+        "Gulab jamun",
+        "Churros",
+        "Barfi"
+      ],
+      "ancora": {
+        "nome": "Jalebi",
+        "descricao": "Doce do sul da Ásia feito de massa frita em espirais e embebida em calda de açúcar.",
+        "variantes": [
+          "Jilapi",
+          "Zalabia"
+        ]
+      }
+    }
+  ]
+}

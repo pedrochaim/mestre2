@@ -1,0 +1,70 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o pudim já era feito na Inglaterra e acompanha o assado de domingo. O enunciado não nomeia o prato, e os distratores são plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que é uma sobremesa francesa, servida em casamentos na França e na Itália. A pista ajuda sem entregar, e os distratores são adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que é um prato chinês. O enunciado não entrega a resposta, e os distratores são países asiáticos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Em forma de espiral' descreve a massa e permite responder sem a imagem. A figura vira enfeite. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Que tipo de massa italiana, originária do sul da Itália, é este?",
+        "resposta": "Fusilli",
+        "distratores": [
+          "Penne",
+          "Farfalle",
+          "Conchiglie"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Em cubos, polvilhado com açúcar de confeiteiro' descreve a imagem e entrega o doce. Marshmallow também é um doce em cubos polvilhado, então é um distrator defensável como correto. Troquei a pista e o distrator.",
+      "reescrita": {
+        "pergunta": "Que doce, comum no Oriente Médio e nos Bálcãs, é este?",
+        "resposta": "Delícia turca (lokum)",
+        "distratores": [
+          "Halva",
+          "Nugá",
+          "Baklava"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Espirais alaranjados' descreve a figura e entrega o doce. Churros não é um doce do sul da Ásia e seria descartado de imediato pelo enunciado. Tirei a pista visual e troquei o distrator.",
+      "reescrita": {
+        "pergunta": "Que doce do sul da Ásia é este?",
+        "resposta": "Jalebi",
+        "distratores": [
+          "Gulab jamun",
+          "Rasgulla",
+          "Barfi"
+        ]
+      }
+    }
+  ]
+}

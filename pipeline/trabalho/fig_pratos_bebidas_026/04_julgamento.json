@@ -1,0 +1,338 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Yorkshire pudding",
+        "descricao": "Pudim salgado assado feito de massa de ovos, farinha e leite, típico da culinária inglesa.",
+        "variantes": [
+          "Yorkshire pud"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vestido_de_noiva_branco",
+          "nome": "Vestido de noiva branco",
+          "descricao": "Costume ocidental de a noiva se casar vestida de branco.",
+          "variantes": [
+            "White wedding",
+            "Casamento branco",
+            "White wedding dress",
+            "Vestido de noiva"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Croquembouche",
+        "descricao": "Sobremesa francesa de bolinhas de massa choux empilhadas em cone e unidas por fios de caramelo.",
+        "variantes": [
+          "Croque-en-bouche"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "buzio_rainha",
+          "nome": "Búzio-rainha",
+          "descricao": "Grande caramujo marinho do Caribe (Aliger gigas), da família Strombidae.",
+          "variantes": [
+            "Concha-rainha",
+            "Aliger gigas",
+            "Lobatus gigas",
+            "Strombus gigas",
+            "Queen conch"
+          ]
+        },
+        {
+          "id": "croquete",
+          "nome": "Croquete",
+          "descricao": "Rolinho frito e empanado de massa cremosa com recheio, típico das cozinhas francesa e espanhola.",
+          "variantes": [
+            "Croqueta",
+            "Croquette"
+          ]
+        },
+        {
+          "id": "misto_quente",
+          "nome": "Misto-quente",
+          "descricao": "Sanduíche quente de pão com queijo e presunto, prensado ou grelhado.",
+          "variantes": [
+            "Tosta mista",
+            "Croque-monsieur",
+            "Sandes mista"
+          ]
+        },
+        {
+          "id": "abelha_rainha",
+          "nome": "Abelha-rainha",
+          "descricao": "Fêmea fértil e reprodutora de uma colônia de abelhas-europeias.",
+          "variantes": [
+            "Rainha",
+            "Queen bee"
+          ]
+        },
+        {
+          "id": "cartucho",
+          "nome": "Cartucho",
+          "descricao": "Contorno oval que envolve os nomes reais nos hieróglifos egípcios",
+          "variantes": [
+            "Cartouche",
+            "Shenu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ovo centenário",
+        "descricao": "Ovo de pata, galinha ou codorna conservado em argila, cinzas e cal, de clara escura e gema verde-acinzentada, da culinária chinesa.",
+        "variantes": [
+          "Ovo de cem anos",
+          "Pidan",
+          "Ovo milenar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "piano",
+          "nome": "Piano",
+          "descricao": "Instrumento de teclado em que martelos percutem cordas, inventado na Itália por volta de 1700.",
+          "variantes": [
+            "Pianoforte"
+          ]
+        },
+        {
+          "id": "missao_centenario",
+          "nome": "Missão Centenário",
+          "descricao": "Missão de 2006 que levou o primeiro astronauta brasileiro à Estação Espacial Internacional.",
+          "variantes": [
+            "Missão Centenária"
+          ]
+        },
+        {
+          "id": "estadio_centenario",
+          "nome": "Estádio Centenário",
+          "descricao": "Estádio de futebol em Montevidéu, Uruguai, construído para a Copa do Mundo de 1930.",
+          "variantes": []
+        },
+        {
+          "id": "pa",
+          "nome": "Pã",
+          "descricao": "Deus grego dos pastores e dos rebanhos, com pernas e chifres de bode.",
+          "variantes": [
+            "Pan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Macarrão parafuso",
+        "descricao": "Massa italiana de formato helicoidal, originária do sul da Itália.",
+        "variantes": [
+          "Fusilli",
+          "Rotini"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "markhor",
+          "nome": "Markhor",
+          "descricao": "Grande cabra selvagem (Capra falconeri) de chifres espiralados, das montanhas da Ásia Central e do Sul.",
+          "variantes": [
+            "Capra falconeri",
+            "Cabra-parafuso"
+          ]
+        },
+        {
+          "id": "chibiusa",
+          "nome": "Chibiusa",
+          "descricao": "Filha do futuro de Usagi e Mamoru em Sailor Moon, identidade de Sailor Chibi Moon.",
+          "variantes": [
+            "Sailor Chibi Moon",
+            "Rini",
+            "Small Lady"
+          ]
+        },
+        {
+          "id": "gioachino_rossini",
+          "nome": "Gioachino Rossini",
+          "descricao": "Compositor italiano de óperas (1792–1868), autor de O Barbeiro de Sevilha e Guilherme Tell.",
+          "variantes": [
+            "Rossini"
+          ]
+        },
+        {
+          "id": "rodinia",
+          "nome": "Rodínia",
+          "descricao": "Supercontinente que existiu há cerca de um bilhão de anos, muito antes da Pangeia.",
+          "variantes": []
+        },
+        {
+          "id": "dratini",
+          "nome": "Dratini",
+          "descricao": "Pokémon do tipo Dragão, número 147 da Pokédex Nacional, de corpo serpentino azul.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Lokum (delícia turca)",
+        "descricao": "Doce turco em cubos feito de gel de amido e açúcar, polvilhado com açúcar de confeiteiro.",
+        "variantes": [
+          "Delícia turca",
+          "Turkish delight",
+          "Manjar turco",
+          "Lokum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "olodum",
+          "nome": "Olodum",
+          "descricao": "Bloco afro e grupo percussivo de Salvador, criado em 1979.",
+          "variantes": []
+        },
+        {
+          "id": "hamame",
+          "nome": "Hamame",
+          "descricao": "Banho público a vapor tradicional do mundo islâmico, também chamado de banho turco.",
+          "variantes": [
+            "Hammam",
+            "Banho turco"
+          ]
+        },
+        {
+          "id": "delicate_arch",
+          "nome": "Delicate Arch",
+          "descricao": "Arco natural de arenito isolado no Parque Nacional dos Arcos, perto de Moab, nos Estados Unidos.",
+          "variantes": [
+            "Arco Delicado"
+          ]
+        },
+        {
+          "id": "goku",
+          "nome": "Goku",
+          "descricao": "Protagonista de Dragon Ball, criado por Akira Toriyama.",
+          "variantes": [
+            "Son Goku",
+            "Kakarotto",
+            "Kakaroto"
+          ]
+        },
+        {
+          "id": "ogum",
+          "nome": "Ogum",
+          "descricao": "Orixá guerreiro, ligado ao ferro, cultuado no candomblé e na umbanda",
+          "variantes": [
+            "Ogun"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Jalebi",
+        "descricao": "Doce do sul da Ásia feito de massa frita em espirais e embebida em calda de açúcar.",
+        "variantes": [
+          "Jilapi",
+          "Zalabia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alfaia",
+          "nome": "Alfaia",
+          "descricao": "Tambor membranofone tocado com baquetas, típico do maracatu e usado também no coco e na ciranda, popular em Pernambuco.",
+          "variantes": [
+            "Bumbo de maracatu"
+          ]
+        },
+        {
+          "id": "zambia",
+          "nome": "Zâmbia",
+          "descricao": "País sem litoral da África Austral, com capital em Lusaka, cuja bandeira é verde com uma águia e faixas vermelha, preta e laranja.",
+          "variantes": [
+            "República da Zâmbia"
+          ]
+        },
+        {
+          "id": "lapis",
+          "nome": "Lápis",
+          "descricao": "Instrumento de escrita e desenho com miolo sólido de grafite em um revestimento, aqui um lápis preto HB.",
+          "variantes": [
+            "Lápis grafite"
+          ]
+        },
+        {
+          "id": "alhambra",
+          "nome": "Alhambra",
+          "descricao": "Palácio-fortaleza dos emires nacéridas, em Granada, na Espanha.",
+          "variantes": [
+            "Alhambra de Granada",
+            "Alambra",
+            "La Alhambra"
+          ]
+        },
+        {
+          "id": "malaria",
+          "nome": "Malária",
+          "descricao": "Doença infecciosa causada por parasitas do gênero Plasmodium e transmitida por mosquitos.",
+          "variantes": [
+            "Paludismo",
+            "Impaludismo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Prato inglês; candidata é vestido de noiva, sem relação."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Croquembouche é sobremesa distinta; croquete e outras candidatas são entidades diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ovo conservado chinês; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Massa fusilli; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Doce turco; hamame é banho, não o doce."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Jalebi é doce; nenhuma candidata corresponde."
+    }
+  ]
+}
