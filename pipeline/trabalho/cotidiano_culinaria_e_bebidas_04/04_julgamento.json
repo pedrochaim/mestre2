@@ -1,0 +1,250 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Biscoito",
+        "descricao": "Pequeno alimento assado e seco de massa de farinha, doce ou salgado.",
+        "variantes": [
+          "Bolacha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bocha_paralimpica",
+          "nome": "Bocha paralímpica",
+          "descricao": "Esporte paralímpico de precisão em que atletas com deficiência motora severa lançam bolas para chegar perto de uma bola-alvo.",
+          "variantes": [
+            "Boccia",
+            "Bocha"
+          ]
+        },
+        {
+          "id": "plebiscito",
+          "nome": "Plebiscito",
+          "descricao": "Na Roma antiga, decisão votada pela assembleia dos plebeus; hoje, consulta popular direta.",
+          "variantes": [
+            "Plebiscitum"
+          ]
+        },
+        {
+          "id": "constituicao_brasileira_de_1937",
+          "nome": "Constituição brasileira de 1937",
+          "descricao": "Constituição outorgada por Getúlio Vargas em 1937, que instituiu o Estado Novo.",
+          "variantes": [
+            "Polaca",
+            "Constituição do Estado Novo"
+          ]
+        },
+        {
+          "id": "oreo",
+          "nome": "Oreo",
+          "descricao": "Biscoito de chocolate recheado com creme branco, lançado pela americana Nabisco em Nova York.",
+          "variantes": [
+            "Biscoito Oreo"
+          ]
+        },
+        {
+          "id": "bicorne",
+          "nome": "Bicorne",
+          "descricao": "Chapéu de feltro com a aba levantada na frente e atrás, usado por oficiais no fim do século dezoito e início do dezenove",
+          "variantes": [
+            "Bicórnio",
+            "Chapéu bicorne"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Morango",
+        "descricao": "Fruto vermelho do morangueiro (Fragaria × ananassa), da família das rosáceas.",
+        "variantes": [
+          "Moranguinho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "morango",
+          "nome": "Morango",
+          "descricao": "Fruto do morangueiro, Fragaria × ananassa, um pseudofruto com aquênios na superfície",
+          "variantes": [
+            "Fragaria",
+            "morangueiro",
+            "strawberry",
+            "Fragaria × ananassa"
+          ]
+        },
+        {
+          "id": "manga",
+          "nome": "Manga",
+          "descricao": "Fruta tropical da mangueira (Mangifera indica), de origem no sul da Ásia.",
+          "variantes": [
+            "Mango",
+            "Mangifera indica",
+            "mangueira"
+          ]
+        },
+        {
+          "id": "galinha",
+          "nome": "Galinha",
+          "descricao": "Ave doméstica (Gallus gallus domesticus), forma domesticada do galo-bankiva, criada para carne e ovos.",
+          "variantes": [
+            "Galo",
+            "Gallus gallus domesticus",
+            "Frango"
+          ]
+        },
+        {
+          "id": "murano",
+          "nome": "Murano",
+          "descricao": "Conjunto de ilhas na lagoa de Veneza, na Itália, tradicional centro de produção artesanal.",
+          "variantes": []
+        },
+        {
+          "id": "morcego",
+          "nome": "Morcego",
+          "descricao": "Mamífero voador da ordem Chiroptera.",
+          "variantes": [
+            "Quiróptero",
+            "Chiroptera",
+            "Bat"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Escala de Scoville",
+        "descricao": "Escala que mede a ardência das pimentas pela concentração de capsaicinoides, criada em 1912 por Wilbur Scoville.",
+        "variantes": [
+          "Scoville",
+          "Unidades de calor Scoville"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "scovillain",
+          "nome": "Scovillain",
+          "descricao": "Pokémon dos tipos Planta e Fogo, número 952 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "escala_de_mercalli",
+          "nome": "Escala de Mercalli",
+          "descricao": "Escala que mede a intensidade de um terremoto pelos efeitos sentidos e pelos estragos causados.",
+          "variantes": [
+            "Escala de Mercalli modificada",
+            "Mercalli intensity scale"
+          ]
+        },
+        {
+          "id": "joinville",
+          "nome": "Joinville",
+          "descricao": "Maior cidade de Santa Catarina, no norte do estado, fundada por imigrantes europeus em 1851.",
+          "variantes": []
+        },
+        {
+          "id": "escala_de_mohs",
+          "nome": "Escala de Mohs",
+          "descricao": "Escala de dureza de minerais de um a dez, criada pelo mineralogista alemão Friedrich Mohs em 1812.",
+          "variantes": [
+            "Mohs scale"
+          ]
+        },
+        {
+          "id": "teatro_alla_scala",
+          "nome": "Teatro alla Scala",
+          "descricao": "Casa de ópera de Milão, na Itália, inaugurada em 1778.",
+          "variantes": [
+            "La Scala",
+            "Scala de Milão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Macarrão instantâneo",
+        "descricao": "Macarrão pré-cozido e desidratado, preparado em minutos com água quente, inventado no Japão em 1958.",
+        "variantes": [
+          "Miojo",
+          "Lámen instantâneo",
+          "Instant noodles"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "macarrao_instantaneo",
+          "nome": "Macarrão instantâneo",
+          "descricao": "Macarrão pré-cozido e desidratado, pronto em poucos minutos, lançado no Japão em 1958 pela Nissin com o nome Chicken Ramen.",
+          "variantes": [
+            "Miojo",
+            "Lámen instantâneo",
+            "Instant noodles",
+            "Chicken Ramen"
+          ]
+        },
+        {
+          "id": "polaroid",
+          "nome": "Polaroid",
+          "descricao": "Câmera fotográfica instantânea que revela a foto logo após o clique, criada por Edwin Land.",
+          "variantes": [
+            "Câmera Polaroid",
+            "Câmera instantânea",
+            "Polaroid Corporation"
+          ]
+        },
+        {
+          "id": "mojito",
+          "nome": "Mojito",
+          "descricao": "Coquetel cubano de rum branco, açúcar, limão, água com gás e hortelã.",
+          "variantes": []
+        },
+        {
+          "id": "constantinopla",
+          "nome": "Constantinopla",
+          "descricao": "Cidade às margens do Bósforo, capital do Império Bizantino de 330 a 1453, hoje Istambul.",
+          "variantes": [
+            "Bizâncio",
+            "Istambul",
+            "Constantinople"
+          ]
+        },
+        {
+          "id": "luan_santana",
+          "nome": "Luan Santana",
+          "descricao": "Cantor e compositor sertanejo brasileiro, nascido em 1991.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Biscoito genérico; Oreo é uma marca específica, e as demais candidatas não têm relação."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "morango",
+      "motivo": "Mesmo fruto do morangueiro, Fragaria × ananassa."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Escala de Scoville é diferente de Mercalli, Mohs e das demais candidatas; Scovillain é um Pokémon."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "macarrao_instantaneo",
+      "motivo": "Mesma entidade: macarrão instantâneo criado no Japão em 1958, com as mesmas variantes."
+    }
+  ]
+}

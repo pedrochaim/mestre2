@@ -1,0 +1,907 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O nome do croissant, pão folhado símbolo da padaria francesa, quer dizer o quê em francês?",
+        "resposta": "Crescente"
+      },
+      "existentes": [
+        {
+          "id": "q00204",
+          "pergunta": "Símbolo das padarias francesas, o croissant descende do kipferl, um pão em forma de meia-lua típico de qual cidade?",
+          "resposta": "Viena"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Segundo a tradição napolitana, a pizza marguerita, de tomate, muçarela e manjericão, recebeu esse nome em homenagem a quem?",
+        "resposta": "Rainha Margarida de Saboia"
+      },
+      "existentes": [
+        {
+          "id": "q00229",
+          "pergunta": "O que a pizza marguerita, com tomate, muçarela e manjericão, tem em comum com a bandeira da Itália?",
+          "resposta": "As cores: verde, branco e vermelho"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O nome espaguete vem de um diminutivo italiano. Por causa do formato fino e comprido, que objeto essa palavra lembra?",
+        "resposta": "Barbante"
+      },
+      "existentes": [
+        {
+          "id": "q14385",
+          "pergunta": "Que tipo de massa é este?",
+          "resposta": "Espaguete"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A salada Caesar, de alface-romana e croutons, é atribuída a um imigrante italiano que a teria criado num restaurante em qual cidade mexicana?",
+        "resposta": "Tijuana"
+      },
+      "existentes": [
+        {
+          "id": "q00205",
+          "pergunta": "A salada Caesar foi criada em 1924 por um imigrante italiano, num restaurante de qual cidade mexicana?",
+          "resposta": "Tijuana"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O nome muçarela vem de um verbo do dialeto napolitano ligado ao preparo do queijo. Que verbo é esse?",
+        "resposta": "Cortar"
+      },
+      "existentes": [
+        {
+          "id": "q00216",
+          "pergunta": "Nascida no sul da Itália, a muçarela tradicional é feita com o leite de qual animal?",
+          "resposta": "Búfala"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em iorubá, as duas palavras que formam o nome do acarajé baiano querem dizer o quê?",
+        "resposta": "Comer bola de fogo"
+      },
+      "existentes": [
+        {
+          "id": "q00211",
+          "pergunta": "Vendido pelas baianas de tabuleiro, o acarajé é um bolinho frito no dendê feito com a massa de qual feijão?",
+          "resposta": "Feijão-fradinho"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em italiano, o que quer dizer ossobuco, nome da fatia de jarrete de vitela braseada típica de Milão?",
+        "resposta": "Osso furado"
+      },
+      "existentes": [
+        {
+          "id": "q14641",
+          "pergunta": "Que prato é este?",
+          "resposta": "Ossobuco"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Na galette des rois, a figurinha escondida na massa se chama fève, lembrando o objeto original. Que alimento esse nome indica?",
+        "resposta": "Fava"
+      },
+      "existentes": [
+        {
+          "id": "q06110",
+          "pergunta": "Na França, a galette des rois, torta folhada com uma pequena figura escondida na massa, é comida em qual festa do calendário cristão?",
+          "resposta": "Dia de Reis (Epifania)"
+        },
+        {
+          "id": "q08928",
+          "pergunta": "Na França, a torta do Dia de Reis, a galette des rois, esconde um brinde chamado fève. O que essa palavra significa?",
+          "resposta": "Fava"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Na botânica, o que a batata, o tomate, a berinjela e o pimentão têm em comum?",
+        "resposta": "Família das solanáceas"
+      },
+      "existentes": [
+        {
+          "id": "q02693",
+          "pergunta": "A batata, nativa dos Andes, foi levada para a Europa pelos espanhóis em que século?",
+          "resposta": "Século dezesseis"
+        },
+        {
+          "id": "q06107",
+          "pergunta": "Antes de conquistar a Europa, a batata foi domesticada há milhares de anos por povos de qual cordilheira sul-americana?",
+          "resposta": "Andes"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Usado em doces e sorvetes, o pistache pertence à mesma família botânica da manga e de qual fruta nordestina?",
+        "resposta": "Caju"
+      },
+      "existentes": [
+        {
+          "id": "q04356",
+          "pergunta": "Que semente comestível se forma nestes cachos, ainda na árvore?",
+          "resposta": "Pistache"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O morango, a maçã e a pera pertencem à mesma família botânica de qual flor famosa?",
+        "resposta": "Rosa"
+      },
+      "existentes": [
+        {
+          "id": "q02688",
+          "pergunta": "Botanicamente, o que são os pontinhos na superfície do morango que parecem sementes?",
+          "resposta": "Os frutos verdadeiros, chamados aquênios"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "A amendoeira, árvore que dá a amêndoa, é do mesmo gênero botânico de qual destas árvores frutíferas?",
+        "resposta": "Pessegueiro"
+      },
+      "existentes": [
+        {
+          "id": "q09274",
+          "pergunta": "De que árvore é esta ilustração botânica, com flores, frutos e semente?",
+          "resposta": "Amendoeira"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Que agente secreto dos livros e do cinema costuma pedir o seu martíni batido, e não mexido?",
+        "resposta": "James Bond"
+      },
+      "existentes": [
+        {
+          "id": "q14640",
+          "pergunta": "Que coquetel é servido nesta taça?",
+          "resposta": "Martíni"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Segundo a história, o Negroni nasceu em Florença quando um conde pediu gim no lugar da água com gás de qual coquetel?",
+        "resposta": "Americano"
+      },
+      "existentes": [
+        {
+          "id": "q05529",
+          "pergunta": "Em que país foi criado este coquetel?",
+          "resposta": "Itália"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Em qual romance de Marcel Proust uma madeleine molhada no chá desperta as lembranças de infância do narrador?",
+        "resposta": "Em Busca do Tempo Perdido"
+      },
+      "existentes": [
+        {
+          "id": "q15226",
+          "pergunta": "Que bolinho francês é este?",
+          "resposta": "Madeleine"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "O que o saquê, o shoyu e o missô, três pilares da cozinha japonesa, têm em comum na fabricação?",
+        "resposta": "O fungo koji"
+      },
+      "existentes": [
+        {
+          "id": "q06137",
+          "pergunta": "Servido quente ou frio em pequenos copos, o saquê, bebida alcoólica tradicional do Japão, é obtido pela fermentação de qual cereal?",
+          "resposta": "Arroz"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Que compositor alemão do século dezoito escreveu uma cantata cômica sobre uma jovem viciada em café?",
+        "resposta": "Johann Sebastian Bach"
+      },
+      "existentes": [
+        {
+          "id": "q06118",
+          "pergunta": "Segundo uma lenda etíope, quem descobriu o café ao notar que suas cabras ficavam agitadas depois de comer os frutos do cafeeiro?",
+          "resposta": "O pastor Kaldi"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Na versão original, a Lei da Pureza da Baviera permitia fazer cerveja com quantos ingredientes?",
+        "resposta": "Três"
+      },
+      "existentes": [
+        {
+          "id": "q00218",
+          "pergunta": "A lei da pureza da cerveja, que na Baviera só permitia água, cevada e lúpulo, foi decretada em que século?",
+          "resposta": "Século dezesseis"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Para fazer um café expresso, a máquina força a água quente pelo pó a uma pressão de cerca de quantas atmosferas?",
+        "resposta": "Cerca de nove"
+      },
+      "existentes": [
+        {
+          "id": "q04462",
+          "pergunta": "Como se chama a camada clara de espuma que cobre o topo desta bebida?",
+          "resposta": "Crema"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "O açafrão é feito dos fiozinhos vermelhos colhidos à mão no centro da flor. Quantos desses estigmas cada flor tem?",
+        "resposta": "Três"
+      },
+      "existentes": [
+        {
+          "id": "q00230",
+          "pergunta": "Colhida à mão dos estigmas de uma flor, qual é considerada a especiaria mais cara do mundo por peso?",
+          "resposta": "Açafrão"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "O vinho Beaujolais Nouveau é lançado todo ano numa quinta-feira fixa de novembro. Qual delas?",
+        "resposta": "A terceira"
+      },
+      "existentes": [
+        {
+          "id": "q06113",
+          "pergunta": "Lançado todo ano numa quinta-feira, com festas pela França, o vinho jovem Beaujolais Nouveau chega ao mercado em qual mês?",
+          "resposta": "Novembro"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Uma roda inteira do queijo parmesão italiano, o Parmigiano Reggiano, pesa em média cerca de quantos quilos?",
+        "resposta": "Cerca de quarenta"
+      },
+      "existentes": [
+        {
+          "id": "q15915",
+          "pergunta": "Este queijo italiano duro tem nome ligado a uma cidade. Que cidade é essa?",
+          "resposta": "Parma"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Pelas regras mexicanas, qual é a porcentagem mínima de agave-azul nos açúcares usados para fazer uma tequila?",
+        "resposta": "Cinquenta e um por cento"
+      },
+      "existentes": [
+        {
+          "id": "q00214",
+          "pergunta": "A tequila é destilada a partir de qual planta suculenta mexicana?",
+          "resposta": "Agave azul"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Muito usada para champanhe em comemorações, a garrafa chamada magnum equivale a quantas garrafas comuns de vinho?",
+        "resposta": "Duas"
+      },
+      "existentes": [
+        {
+          "id": "q09738",
+          "pergunta": "Quantos mililitros cabem na garrafa de vinho de tamanho padrão?",
+          "resposta": "Setecentos e cinquenta mililitros"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Qual emenda à Constituição americana, ratificada em 1919, estabeleceu a proibição nacional das bebidas alcoólicas, a Lei Seca?",
+        "resposta": "Décima Oitava Emenda"
+      },
+      "existentes": [
+        {
+          "id": "q06115",
+          "pergunta": "A Lei Seca, que proibiu a venda de bebidas alcoólicas em todo o território dos Estados Unidos, entrou em vigor em que ano?",
+          "resposta": "1920"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "A pizza moderna, de massa coberta com molho de tomate e queijo, nasceu em qual cidade italiana?",
+        "resposta": "Nápoles"
+      },
+      "existentes": [
+        {
+          "id": "q14631",
+          "pergunta": "Que prato é este?",
+          "resposta": "Pizza"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "O milho, que vira pipoca, pamonha e polenta, foi domesticado há cerca de nove mil anos em qual país atual?",
+        "resposta": "México"
+      },
+      "existentes": [
+        {
+          "id": "q04176",
+          "pergunta": "No topo desta gramínea cultivada pelos grãos, há uma estrutura que produz o pólen. Como ela se chama?",
+          "resposta": "Pendão"
+        },
+        {
+          "id": "q05981",
+          "pergunta": "Que planta cultivada é esta?",
+          "resposta": "Milho"
+        },
+        {
+          "id": "q08597",
+          "pergunta": "A partir de uma gramínea selvagem chamada teosinto, povos indígenas domesticaram o milho há cerca de nove mil anos em que país atual?",
+          "resposta": "México"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Muito presente nas cozinhas da África e da Ásia, o amendoim é originário de qual parte do mundo?",
+        "resposta": "América do Sul"
+      },
+      "existentes": [
+        {
+          "id": "q02685",
+          "pergunta": "Depois que a flor é polinizada, onde se formam as vagens do amendoim?",
+          "resposta": "Debaixo da terra"
+        },
+        {
+          "id": "q06141",
+          "pergunta": "Apesar de ser vendido junto com as castanhas, o que o amendoim tem em comum com o feijão e a ervilha?",
+          "resposta": "São leguminosas"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Embora o nome remeta à Pérsia, o pêssego é originário de qual país?",
+        "resposta": "China"
+      },
+      "existentes": [
+        {
+          "id": "q06127",
+          "pergunta": "O nome da fruta pêssego vem do latim e indica a região de onde os romanos achavam que ela vinha. Que região era essa?",
+          "resposta": "Pérsia"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Criado nos anos quarenta, o coquetel Moscow mule, de vodca servida em caneca de cobre, surgiu em qual país?",
+        "resposta": "Estados Unidos"
+      },
+      "existentes": [
+        {
+          "id": "q17458",
+          "pergunta": "Qual destas bebidas destiladas é a base deste coquetel?",
+          "resposta": "Vodca"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Em 1875, que chocolateiro suíço acrescentou leite ao chocolate sólido e criou o chocolate ao leite?",
+        "resposta": "Daniel Peter"
+      },
+      "existentes": [
+        {
+          "id": "q06117",
+          "pergunta": "Bebido pelos astecas como um preparo amargo e apimentado, o chocolate chegou à Europa, levado pelos espanhóis, em qual século?",
+          "resposta": "Século dezesseis"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Segundo a tradição, quem criou a tarte Tatin, de maçãs caramelizadas, num hotel francês no fim do século dezenove?",
+        "resposta": "Duas irmãs hoteleiras"
+      },
+      "existentes": [
+        {
+          "id": "q06143",
+          "pergunta": "O que a tarte Tatin, torta francesa de maçãs caramelizadas, tem de peculiar no modo de assar?",
+          "resposta": "É assada de cabeça para baixo"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Em 1958, que empresário japonês, nascido em Taiwan, inventou o macarrão instantâneo?",
+        "resposta": "Momofuku Ando"
+      },
+      "existentes": [
+        {
+          "id": "q07045",
+          "pergunta": "Em 1958, no Japão, qual empresário, fundador da Nissin, inventou o macarrão instantâneo?",
+          "resposta": "Momofuku Ando"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Quem faz gelatina com abacaxi fresco descobre que ela não endurece. Por que isso acontece?",
+        "resposta": "Enzima que digere proteínas"
+      },
+      "existentes": [
+        {
+          "id": "q02652",
+          "pergunta": "Pineapple, o nome do abacaxi em inglês, compara a fruta a que coisa?",
+          "resposta": "Pinha, o cone do pinheiro"
+        },
+        {
+          "id": "q06098",
+          "pergunta": "Que enzima do abacaxi fresco ajuda a amaciar carnes e deixa a língua ardida quando se come muito da fruta?",
+          "resposta": "Bromelina"
+        },
+        {
+          "id": "q09278",
+          "pergunta": "Que fruta tropical é esta, ainda na planta?",
+          "resposta": "Abacaxi"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Por que a maçã cortada fica escura depois de alguns minutos exposta ao ar?",
+        "resposta": "Oxidação por enzimas da fruta"
+      },
+      "existentes": [
+        {
+          "id": "q01851",
+          "pergunta": "Que fruta é esta?",
+          "resposta": "Maçã"
+        },
+        {
+          "id": "q15412",
+          "pergunta": "Em que região do mundo se originou a árvore desta fruta?",
+          "resposta": "Ásia Central"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "No Japão, deixar os hashis espetados de pé numa tigela de arroz é falta grave de etiqueta. Por quê?",
+        "resposta": "Lembra um ritual funerário"
+      },
+      "existentes": [
+        {
+          "id": "q00813",
+          "pergunta": "No Japão, espetar os hashis em pé numa tigela de arroz é uma falta grave de etiqueta. Esse gesto lembra o quê?",
+          "resposta": "Oferenda aos mortos em funerais"
+        },
+        {
+          "id": "q06109",
+          "pergunta": "Embora sejam conhecidos no Brasil pelo nome japonês, os hashis, palitinhos usados para comer, surgiram em qual país?",
+          "resposta": "China"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "A primeira Oktoberfest, realizada em Munique em 1810, foi organizada para comemorar o quê?",
+        "resposta": "Casamento do príncipe herdeiro"
+      },
+      "existentes": [
+        {
+          "id": "q00811",
+          "pergunta": "A primeira Oktoberfest, em Munique, aconteceu em 1810 para celebrar qual acontecimento na família real da Baviera?",
+          "resposta": "O casamento do príncipe Luís"
+        },
+        {
+          "id": "q06114",
+          "pergunta": "Apesar do nome, a Oktoberfest de Munique, a famosa festa da cerveja, começa tradicionalmente em qual mês?",
+          "resposta": "Setembro"
+        },
+        {
+          "id": "q08933",
+          "pergunta": "Os moradores de Munique chamam a Oktoberfest pelo apelido de Wiesn. Esse apelido vem de que tipo de lugar onde a festa acontece?",
+          "resposta": "Um prado, a Theresienwiese"
+        },
+        {
+          "id": "q17615",
+          "pergunta": "Na Oktoberfest de Munique, a cerveja é servida na Maß, a caneca tradicional da Baviera. Quanto ela comporta?",
+          "resposta": "Um litro"
+        },
+        {
+          "id": "q17616",
+          "pergunta": "Que cidade catarinense, colonizada por alemães, promove desde 1984 uma famosa Oktoberfest inspirada na de Munique?",
+          "resposta": "Blumenau"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Segundo a história, o restaurador romano Alfredo di Lelio criou seu famoso fettuccine com manteiga e parmesão para alimentar quem?",
+        "resposta": "A esposa, após o parto"
+      },
+      "existentes": [
+        {
+          "id": "q15308",
+          "pergunta": "Que prato de massa é este?",
+          "resposta": "Fettuccine Alfredo"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "Qual destas variedades de arroz, italiana, de grão médio e rica em amido, é típica do risoto?",
+        "resposta": "Arbório"
+      },
+      "existentes": [
+        {
+          "id": "q04468",
+          "pergunta": "De que país é originário este prato?",
+          "resposta": "Itália"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "Na receita tradicional romana da carbonara, qual carne curada de porco é usada no lugar do bacon?",
+        "resposta": "Guanciale (bochecha de porco)"
+      },
+      "existentes": [
+        {
+          "id": "q15309",
+          "pergunta": "Que prato de massa italiano é este?",
+          "resposta": "Carbonara"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "Na feijoada completa, ao lado do arroz, da couve e da farofa, que fruta fatiada costuma ser servida?",
+        "resposta": "Laranja"
+      },
+      "existentes": [
+        {
+          "id": "q00966",
+          "pergunta": "Que prato emblemático do Brasil, servido geralmente com arroz, farofa e couve, é este?",
+          "resposta": "Feijoada"
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "nova": {
+        "pergunta": "O brigadeiro, doce de leite condensado com chocolate, surgiu durante uma campanha presidencial brasileira em qual década?",
+        "resposta": "Década de 1940"
+      },
+      "existentes": [
+        {
+          "id": "q00187",
+          "pergunta": "O doce brigadeiro surgiu na campanha presidencial de 1945 e leva o nome de qual militar candidato?",
+          "resposta": "Eduardo Gomes"
+        }
+      ]
+    },
+    {
+      "caso": 43,
+      "nova": {
+        "pergunta": "As primeiras mudas de café chegaram ao Brasil, vindas da Guiana Francesa para o Pará, em qual século?",
+        "resposta": "Século dezoito"
+      },
+      "existentes": [
+        {
+          "id": "q00220",
+          "pergunta": "Em 1727, que sargento-mor trouxe da Guiana Francesa para o Pará as primeiras mudas de café do Brasil?",
+          "resposta": "Francisco de Melo Palheta"
+        }
+      ]
+    },
+    {
+      "caso": 44,
+      "nova": {
+        "pergunta": "No Brasil e na Argentina, em que dia de cada mês se come o nhoque da sorte, com dinheiro debaixo do prato?",
+        "resposta": "Dia vinte e nove"
+      },
+      "existentes": [
+        {
+          "id": "q05531",
+          "pergunta": "De que país vem este prato?",
+          "resposta": "Itália"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs. cidade de origem do kipferl."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Homenageada vs. cores da bandeira."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Etimologia vs. identificação de imagem; fato diferente."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesma cidade, Tijuana."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Etimologia vs. leite usado."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs. feijão."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs. identificar o prato por imagem."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Fève significa fava, igual q08928."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Família botânica é outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Família botânica vs. imagem."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Família botânica vs. aquênios."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Gênero botânico vs. imagem."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "James Bond vs. identificar o coquetel."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Origem do Negroni a partir do Americano vs. país do coquetel."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Romance de Proust vs. identificar o bolinho."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Koji vs. arroz."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Bach vs. lenda de Kaldi."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Número de ingredientes vs. século; embora a existente cite os três, a resposta é outra."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Pressão vs. crema."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Número de estigmas vs. especiaria mais cara."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Qual quinta-feira vs. mês."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Peso vs. cidade."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Porcentagem mínima vs. planta."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Magnum vs. garrafa padrão; fatos diferentes."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Emenda vs. ano."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Cidade de origem vs. imagem."
+    },
+    {
+      "caso": 27,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: México, domesticação do milho."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Origem do amendoim é fato novo."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Origem real (China) vs. origem do nome."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "País de criação vs. base de vodca."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Daniel Peter vs. chegada à Europa."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Criadoras vs. modo de assar."
+    },
+    {
+      "caso": 33,
+      "decisao": "repete",
+      "motivo": "Mesmo inventor do macarrão instantâneo."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Gelatina não endurece envolve bromelina, mas a pergunta é outra; ainda assim a resposta (enzima) seria deduzível... na dúvida, nova."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Escurecimento é fato novo."
+    },
+    {
+      "caso": 36,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: hashis em pé lembram ritual funerário."
+    },
+    {
+      "caso": 37,
+      "decisao": "repete",
+      "motivo": "Mesmo motivo da primeira Oktoberfest: casamento."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "História do prato vs. imagem."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Tipo de arroz vs. país do prato."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Guanciale vs. identificar prato."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "Laranja vs. identificar feijoada."
+    },
+    {
+      "caso": 42,
+      "decisao": "nova",
+      "motivo": "Década vs. nome do militar; fatos diferentes."
+    },
+    {
+      "caso": 43,
+      "decisao": "nova",
+      "motivo": "Século vs. quem trouxe."
+    },
+    {
+      "caso": 44,
+      "decisao": "nova",
+      "motivo": "Dia do nhoque vs. país."
+    }
+  ]
+}

@@ -1,0 +1,1391 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "croissant",
+        "nome": "Croissant",
+        "descricao": "Pão folhado amanteigado em forma de meia-lua, símbolo da padaria francesa",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Croissant"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome do croissant, pão folhado símbolo da padaria francesa, quer dizer o quê em francês?",
+      "resposta": "Crescente",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Croissant",
+        "https://pt.wikipedia.org/wiki/Croissant"
+      ],
+      "distratores": [
+        "Folhado",
+        "Enrolado",
+        "Amanteigado"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Sanduíche",
+        "descricao": "Alimento formado por fatias de pão com recheio entre elas, cujo nome vem do quarto conde de Sandwich.",
+        "variantes": [
+          "Sanduiche",
+          "Sandwich"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sandwich"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Segundo a história mais contada, o sanduíche deve o nome a um nobre inglês do século dezoito. Que título esse nobre tinha?",
+      "resposta": "Conde de Sandwich",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sandwich",
+        "https://en.wikipedia.org/wiki/John_Montagu,_4th_Earl_of_Sandwich"
+      ],
+      "distratores": [
+        "Duque de Wellington",
+        "Conde de Cardigan",
+        "Duque de Bedford"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "pizza_marguerita",
+        "nome": "Pizza marguerita",
+        "descricao": "Pizza napolitana clássica coberta com tomate, muçarela e folhas de manjericão",
+        "variantes": [
+          "Pizza Margherita"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pizza_Margherita"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Segundo a tradição napolitana, a pizza marguerita, de tomate, muçarela e manjericão, recebeu esse nome em homenagem a quem?",
+      "resposta": "Rainha Margarida de Saboia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pizza_Margherita"
+      ],
+      "distratores": [
+        "Uma santa napolitana",
+        "A esposa do pizzaiolo",
+        "A flor margarida"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "espaguete",
+        "nome": "Espaguete",
+        "descricao": "Massa italiana longa, fina e cilíndrica, feita de trigo.",
+        "variantes": [
+          "Spaghetti"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Spaghetti"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome espaguete vem de um diminutivo italiano. Por causa do formato fino e comprido, que objeto essa palavra lembra?",
+      "resposta": "Barbante",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Spaghetti"
+      ],
+      "distratores": [
+        "Agulha",
+        "Cabelo",
+        "Minhoca"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "abacaxi",
+        "nome": "Abacaxi",
+        "descricao": "Fruta tropical da planta Ananas comosus, nativa da América do Sul",
+        "variantes": [
+          "Ananás"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Abacaxi"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Herdado do tupi, o nome da fruta abacaxi significa o quê?",
+      "resposta": "Fruta cheirosa",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Abacaxi"
+      ],
+      "distratores": [
+        "Fruta espinhosa",
+        "Coroa do rei",
+        "Fruta azeda"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "salada_caesar",
+        "nome": "Salada Caesar",
+        "descricao": "Salada de alface-romana, croûtons, parmesão e molho à base de ovo, anchova e limão",
+        "variantes": [
+          "Caesar salad",
+          "Salada César"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Caesar_salad"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A salada Caesar, de alface-romana, parmesão e pão torrado, leva o nome de quem?",
+      "resposta": "O restaurador Caesar Cardini",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Caesar_salad"
+      ],
+      "distratores": [
+        "Júlio César",
+        "César Ritz",
+        "Augusto César"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "mucarela",
+        "nome": "Muçarela",
+        "descricao": "Queijo fresco italiano de massa filada, originário do sul da Itália",
+        "variantes": [
+          "Mozzarella",
+          "Mussarela"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mozzarella"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome muçarela vem de um verbo do dialeto napolitano ligado ao preparo do queijo. Que verbo é esse?",
+      "resposta": "Cortar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mozzarella"
+      ],
+      "distratores": [
+        "Esticar",
+        "Ferver",
+        "Enrolar"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "acaraje",
+        "nome": "Acarajé",
+        "descricao": "Bolinho baiano frito no azeite de dendê e recheado com vatapá e camarão, de origem africana",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Acaraj%C3%A9"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em iorubá, as duas palavras que formam o nome do acarajé baiano querem dizer o quê?",
+      "resposta": "Comer bola de fogo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Acaraj%C3%A9"
+      ],
+      "distratores": [
+        "Pão da rainha",
+        "Bolinho de feijão",
+        "Comida de santo"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Biscoito",
+        "descricao": "Pequeno alimento assado e seco de massa de farinha, doce ou salgado.",
+        "variantes": [
+          "Bolacha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Biscuit"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome biscoito vem do latim e descreve como ele era preparado antigamente, para durar mais. O que esse nome significa?",
+      "resposta": "Cozido duas vezes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Biscuit",
+        "https://pt.wikipedia.org/wiki/Biscoito"
+      ],
+      "distratores": [
+        "Assado na brasa",
+        "Pão pequeno",
+        "Feito de trigo"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "ossobuco",
+        "nome": "Ossobuco",
+        "descricao": "Especialidade lombarda de jarrete de vitela em fatia transversal, braseado com legumes, vinho branco e caldo.",
+        "variantes": [
+          "Osso buco"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ossobuco"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em italiano, o que quer dizer ossobuco, nome da fatia de jarrete de vitela braseada típica de Milão?",
+      "resposta": "Osso furado",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ossobuco"
+      ],
+      "distratores": [
+        "Osso cozido",
+        "Carne macia",
+        "Osso de boi"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "galette_des_rois",
+        "nome": "Galette des rois",
+        "descricao": "Torta folhada francesa recheada de creme de amêndoas, com uma pequena figura escondida na massa.",
+        "variantes": [
+          "Bolo-rei francês"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/King_cake"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Na galette des rois, a figurinha escondida na massa se chama fève, lembrando o objeto original. Que alimento esse nome indica?",
+      "resposta": "Fava",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/King_cake"
+      ],
+      "distratores": [
+        "Amêndoa",
+        "Ervilha",
+        "Avelã"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "id_existente": "batata",
+        "nome": "Batata",
+        "descricao": "Tubérculo comestível da planta Solanum tuberosum, nativa dos Andes",
+        "variantes": [
+          "Batata-inglesa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Potato"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Na botânica, o que a batata, o tomate, a berinjela e o pimentão têm em comum?",
+      "resposta": "Família das solanáceas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Solanaceae",
+        "https://pt.wikipedia.org/wiki/Solanaceae"
+      ],
+      "distratores": [
+        "São todos tubérculos",
+        "Família das abóboras",
+        "Família das couves"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "pistache",
+        "nome": "Pistache",
+        "descricao": "Semente comestível verde da árvore Pistacia vera, da família do caju, usada em doces e sorvetes.",
+        "variantes": [
+          "Pistachio"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pistachio"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Usado em doces e sorvetes, o pistache pertence à mesma família botânica da manga e de qual fruta nordestina?",
+      "resposta": "Caju",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Anacardiaceae",
+        "https://en.wikipedia.org/wiki/Pistachio"
+      ],
+      "distratores": [
+        "Pitanga",
+        "Graviola",
+        "Acerola"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Morango",
+        "descricao": "Fruto vermelho do morangueiro (Fragaria × ananassa), da família das rosáceas.",
+        "variantes": [
+          "Moranguinho"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Strawberry"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O morango, a maçã e a pera pertencem à mesma família botânica de qual flor famosa?",
+      "resposta": "Rosa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rosaceae",
+        "https://pt.wikipedia.org/wiki/Rosaceae"
+      ],
+      "distratores": [
+        "Orquídea",
+        "Margarida",
+        "Tulipa"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "amendoeira",
+        "nome": "Amendoeira",
+        "descricao": "Árvore Prunus dulcis, da família das rosáceas, cuja semente é a amêndoa.",
+        "variantes": [
+          "Prunus dulcis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Almond"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "A amendoeira, árvore que dá a amêndoa, é do mesmo gênero botânico de qual destas árvores frutíferas?",
+      "resposta": "Pessegueiro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Almond"
+      ],
+      "distratores": [
+        "Macieira",
+        "Nogueira",
+        "Figueira"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "martini",
+        "nome": "Martíni",
+        "descricao": "Coquetel de gim e vermute, guarnecido com azeitona ou casca de limão.",
+        "variantes": [
+          "Dry martini"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Martini_(cocktail)"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que agente secreto dos livros e do cinema costuma pedir o seu martíni batido, e não mexido?",
+      "resposta": "James Bond",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shaken,_not_stirred"
+      ],
+      "distratores": [
+        "Jason Bourne",
+        "Ethan Hunt",
+        "Austin Powers"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "negroni",
+        "nome": "Negroni",
+        "descricao": "Coquetel italiano de partes iguais de gim, vermute rosso e Campari.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Negroni"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Segundo a história, o Negroni nasceu em Florença quando um conde pediu gim no lugar da água com gás de qual coquetel?",
+      "resposta": "Americano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Negroni",
+        "https://en.wikipedia.org/wiki/Americano_(cocktail)"
+      ],
+      "distratores": [
+        "Spritz",
+        "Bellini",
+        "Martíni"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "ratatouille",
+        "nome": "Ratatouille",
+        "descricao": "Prato francês da Provença de legumes de verão cozidos em azeite, como abobrinha, berinjela, pimentão e tomate.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ratatouille"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Na animação da Pixar que leva o nome do prato provençal ratatouille, que bicho é o cozinheiro protagonista?",
+      "resposta": "Um rato",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ratatouille_(film)"
+      ],
+      "distratores": [
+        "Um gato",
+        "Um pato",
+        "Um cachorro"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "madeleine",
+        "nome": "Madeleine",
+        "descricao": "Pequeno bolo francês assado em forma de concha, originário da Lorena.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Madeleine_(cake)"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em qual romance de Marcel Proust uma madeleine molhada no chá desperta as lembranças de infância do narrador?",
+      "resposta": "Em Busca do Tempo Perdido",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Madeleine_(cake)",
+        "https://pt.wikipedia.org/wiki/Em_Busca_do_Tempo_Perdido"
+      ],
+      "distratores": [
+        "Os Miseráveis",
+        "Madame Bovary",
+        "O Vermelho e o Negro"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "saque",
+        "nome": "Saquê",
+        "descricao": "Bebida alcoólica tradicional do Japão, obtida pela fermentação do arroz polido.",
+        "variantes": [
+          "Sake"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sake"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O que o saquê, o shoyu e o missô, três pilares da cozinha japonesa, têm em comum na fabricação?",
+      "resposta": "O fungo koji",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aspergillus_oryzae"
+      ],
+      "distratores": [
+        "São feitos de soja",
+        "Levam vinagre de arroz",
+        "Envelhecem em barris"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "id_existente": "cafe",
+        "nome": "Café",
+        "descricao": "Bebida preparada com os grãos torrados e moídos do cafeeiro, originário da Etiópia.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Coffee"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que compositor alemão do século dezoito escreveu uma cantata cômica sobre uma jovem viciada em café?",
+      "resposta": "Johann Sebastian Bach",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Coffee_Cantata"
+      ],
+      "distratores": [
+        "Wolfgang Amadeus Mozart",
+        "Ludwig van Beethoven",
+        "Georg Friedrich Händel"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "lei_da_pureza_da_cerveja",
+        "nome": "Lei da Pureza da Cerveja",
+        "descricao": "Regulamento da Baviera que limitava os ingredientes permitidos na fabricação de cerveja",
+        "variantes": [
+          "Reinheitsgebot"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Reinheitsgebot"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na versão original, a Lei da Pureza da Baviera permitia fazer cerveja com quantos ingredientes?",
+      "resposta": "Três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Reinheitsgebot"
+      ],
+      "distratores": [
+        "Dois",
+        "Quatro",
+        "Cinco"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "id_existente": "cafe_expresso",
+        "nome": "Café expresso",
+        "descricao": "Café concentrado preparado forçando água quente sob alta pressão através do pó fino, de origem italiana.",
+        "variantes": [
+          "Espresso"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Espresso"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Para fazer um café expresso, a máquina força a água quente pelo pó a uma pressão de cerca de quantas atmosferas?",
+      "resposta": "Cerca de nove",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Espresso"
+      ],
+      "distratores": [
+        "Cerca de duas",
+        "Cerca de trinta",
+        "Cerca de cem"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "acafrao",
+        "nome": "Açafrão",
+        "descricao": "Especiaria feita dos estigmas secos da flor Crocus sativus, usada em pratos como a paella e o risoto",
+        "variantes": [
+          "Saffron"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Saffron"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O açafrão é feito dos fiozinhos vermelhos colhidos à mão no centro da flor. Quantos desses estigmas cada flor tem?",
+      "resposta": "Três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Saffron"
+      ],
+      "distratores": [
+        "Um",
+        "Cinco",
+        "Doze"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "id_existente": "beaujolais_nouveau",
+        "nome": "Beaujolais Nouveau",
+        "descricao": "Vinho tinto jovem da região francesa de Beaujolais, feito com a uva gamay e lançado poucas semanas após a colheita.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Beaujolais_nouveau"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O vinho Beaujolais Nouveau é lançado todo ano numa quinta-feira fixa de novembro. Qual delas?",
+      "resposta": "A terceira",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Beaujolais_nouveau"
+      ],
+      "distratores": [
+        "A primeira",
+        "A segunda",
+        "A última"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Doze uvas da sorte",
+        "descricao": "Tradição espanhola de comer uma uva a cada badalada da meia-noite na virada do Ano-Novo.",
+        "variantes": [
+          "Uvas de la suerte",
+          "Doze uvas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Twelve_Grapes"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na Espanha, à meia-noite da virada do ano, come-se uma uva a cada badalada do relógio. Quantas uvas são ao todo?",
+      "resposta": "Doze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Twelve_Grapes"
+      ],
+      "distratores": [
+        "Sete",
+        "Nove",
+        "Treze"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "id_existente": "parmesao",
+        "nome": "Parmesão",
+        "descricao": "Queijo italiano duro e granuloso de leite de vaca (Parmigiano Reggiano), curado por pelo menos doze meses.",
+        "variantes": [
+          "Parmigiano Reggiano"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Parmigiano_Reggiano"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Uma roda inteira do queijo parmesão italiano, o Parmigiano Reggiano, pesa em média cerca de quantos quilos?",
+      "resposta": "Cerca de quarenta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Parmigiano_Reggiano"
+      ],
+      "distratores": [
+        "Cerca de cinco",
+        "Cerca de quinze",
+        "Cerca de cem"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "tequila",
+        "nome": "Tequila",
+        "descricao": "Bebida destilada mexicana, originária da região de Jalisco",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tequila"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Pelas regras mexicanas, no mínimo que parte dos açúcares fermentados de uma tequila precisa vir do agave-azul?",
+      "resposta": "Cinquenta e um por cento",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tequila"
+      ],
+      "distratores": [
+        "Trinta por cento",
+        "Setenta e cinco por cento",
+        "Cem por cento"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "garrafa_de_vinho",
+        "nome": "Garrafa de vinho",
+        "descricao": "Recipiente de vidro padronizado em que o vinho é engarrafado e vendido.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wine_bottle"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Muito usada para champanhe em comemorações, a garrafa chamada magnum equivale a quantas garrafas comuns de vinho?",
+      "resposta": "Duas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wine_bottle"
+      ],
+      "distratores": [
+        "Três",
+        "Quatro",
+        "Seis"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "lei_seca_dos_estados_unidos",
+        "nome": "Lei Seca dos Estados Unidos",
+        "descricao": "Proibição nacional da produção, do transporte e da venda de bebidas alcoólicas nos Estados Unidos, de 1920 a 1933.",
+        "variantes": [
+          "Prohibition"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Prohibition_in_the_United_States"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A Lei Seca, que proibiu as bebidas alcoólicas nos Estados Unidos, foi instituída por qual emenda à Constituição americana?",
+      "resposta": "Décima Oitava Emenda",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eighteenth_Amendment_to_the_United_States_Constitution"
+      ],
+      "distratores": [
+        "Primeira Emenda",
+        "Quinta Emenda",
+        "Vigésima Primeira Emenda"
+      ]
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "id_existente": "pizza",
+        "nome": "Pizza",
+        "descricao": "Prato italiano de massa de trigo achatada coberta com tomate, queijo e outros ingredientes, assada em forno quente.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pizza"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A pizza moderna, de massa coberta com molho de tomate e queijo, nasceu em qual cidade italiana?",
+      "resposta": "Nápoles",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pizza"
+      ],
+      "distratores": [
+        "Roma",
+        "Milão",
+        "Veneza"
+      ]
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "id_existente": "milho",
+        "nome": "Milho",
+        "descricao": "Gramínea alta Zea mays, domesticada no México, cultivada pelos grãos.",
+        "variantes": [
+          "Zea mays"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Maize"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O milho, que vira pipoca, pamonha e polenta, foi domesticado há cerca de nove mil anos em qual país atual?",
+      "resposta": "México",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Maize"
+      ],
+      "distratores": [
+        "Peru",
+        "Brasil",
+        "Estados Unidos"
+      ]
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "id_existente": "amendoim",
+        "nome": "Amendoim",
+        "descricao": "Planta leguminosa Arachis hypogaea, cujas sementes comestíveis se formam sob o solo",
+        "variantes": [
+          "Arachis hypogaea"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Peanut"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Muito presente nas cozinhas da África e da Ásia, o amendoim é originário de qual parte do mundo?",
+      "resposta": "América do Sul",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Peanut"
+      ],
+      "distratores": [
+        "África",
+        "Sul da Ásia",
+        "Oceania"
+      ]
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "id_existente": "pessego",
+        "nome": "Pêssego",
+        "descricao": "Fruto aveludado do pessegueiro, Prunus persica, originário da China.",
+        "variantes": [
+          "Prunus persica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Peach"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Embora o nome remeta à Pérsia, o pêssego é originário de qual país?",
+      "resposta": "China",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Peach"
+      ],
+      "distratores": [
+        "Índia",
+        "Turquia",
+        "Irã"
+      ]
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "id_existente": "moscow_mule",
+        "nome": "Moscow mule",
+        "descricao": "Coquetel de vodca, ginger beer e limão, servido em caneca de cobre.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Moscow_mule"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Criado nos anos quarenta, o coquetel Moscow mule, de vodca servida em caneca de cobre, surgiu em qual país?",
+      "resposta": "Estados Unidos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Moscow_mule"
+      ],
+      "distratores": [
+        "Rússia",
+        "Inglaterra",
+        "Polônia"
+      ]
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Escala de Scoville",
+        "descricao": "Escala que mede a ardência das pimentas pela concentração de capsaicinoides, criada em 1912 por Wilbur Scoville.",
+        "variantes": [
+          "Scoville",
+          "Unidades de calor Scoville"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Scoville_scale"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Criada em 1912, a escala que mede a ardência das pimentas leva o nome de qual farmacêutico americano?",
+      "resposta": "Wilbur Scoville",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Scoville_scale",
+        "https://en.wikipedia.org/wiki/Wilbur_Scoville"
+      ],
+      "distratores": [
+        "John Pemberton",
+        "Gail Borden",
+        "Joseph Lister"
+      ]
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "chocolate",
+        "nome": "Chocolate",
+        "descricao": "Alimento feito das sementes fermentadas e torradas do cacau, consumido originalmente como bebida na Mesoamérica.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chocolate"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1875, que chocolateiro suíço acrescentou leite ao chocolate sólido e criou o chocolate ao leite?",
+      "resposta": "Daniel Peter",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Daniel_Peter",
+        "https://en.wikipedia.org/wiki/Milk_chocolate"
+      ],
+      "distratores": [
+        "Rodolphe Lindt",
+        "Coenraad van Houten",
+        "Philippe Suchard"
+      ]
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "id_existente": "tarte_tatin",
+        "nome": "Tarte Tatin",
+        "descricao": "Torta francesa de maçãs caramelizadas na manteiga e no açúcar, popularizada no Hotel Tatin.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tarte_Tatin"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Segundo a tradição, quem criou a tarte Tatin, de maçãs caramelizadas, no hotel da família, no fim do século dezenove?",
+      "resposta": "Duas irmãs hoteleiras",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tarte_Tatin"
+      ],
+      "distratores": [
+        "Um monge beneditino",
+        "O chef do rei",
+        "Um padeiro parisiense"
+      ]
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Macarrão instantâneo",
+        "descricao": "Macarrão pré-cozido e desidratado, preparado em minutos com água quente, inventado no Japão em 1958.",
+        "variantes": [
+          "Miojo",
+          "Lámen instantâneo",
+          "Instant noodles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Instant_noodle"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1958, que empresário japonês, nascido em Taiwan, inventou o macarrão instantâneo?",
+      "resposta": "Momofuku Ando",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Momofuku_Ando",
+        "https://en.wikipedia.org/wiki/Instant_noodle"
+      ],
+      "distratores": [
+        "Kikunae Ikeda",
+        "Akio Morita",
+        "Soichiro Honda"
+      ]
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "id_existente": "abacaxi",
+        "nome": "Abacaxi",
+        "descricao": "Fruta tropical da planta Ananas comosus, nativa da América do Sul",
+        "variantes": [
+          "Ananás"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pineapple"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Quem faz gelatina com abacaxi fresco descobre que ela não endurece. Por que isso acontece?",
+      "resposta": "Enzima que digere proteínas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bromelain",
+        "https://en.wikipedia.org/wiki/Gelatin"
+      ],
+      "distratores": [
+        "Acidez da fruta",
+        "Excesso de água",
+        "Excesso de açúcar"
+      ]
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "id_existente": "maca",
+        "nome": "Maçã",
+        "descricao": "Fruto da macieira (Malus domestica), cultivado no mundo todo.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Apple"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Por que a maçã cortada fica escura depois de alguns minutos exposta ao ar?",
+      "resposta": "Oxidação por enzimas da fruta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Food_browning",
+        "https://en.wikipedia.org/wiki/Polyphenol_oxidase"
+      ],
+      "distratores": [
+        "Perda de água",
+        "Ação de bactérias",
+        "Efeito da luz"
+      ]
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "hashi",
+        "nome": "Hashi",
+        "descricao": "Par de palitos usado como talher no Japão, na China e em outros países do Leste Asiático.",
+        "variantes": [
+          "Pauzinhos",
+          "Chopsticks"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chopsticks"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "No Japão, deixar os hashis espetados de pé numa tigela de arroz é falta grave de etiqueta. Por quê?",
+      "resposta": "Lembra um ritual funerário",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chopsticks"
+      ],
+      "distratores": [
+        "Ofende o cozinheiro",
+        "Anuncia o fim",
+        "Pede mais comida"
+      ]
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "oktoberfest",
+        "nome": "Oktoberfest",
+        "descricao": "Festa popular anual de Munique, na Alemanha, famosa pela cerveja e pelos trajes típicos bávaros.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Oktoberfest"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "A primeira Oktoberfest, realizada em Munique em 1810, foi organizada para comemorar o quê?",
+      "resposta": "Casamento do príncipe herdeiro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Oktoberfest"
+      ],
+      "distratores": [
+        "Fim de uma guerra",
+        "Colheita do lúpulo",
+        "Coroação do rei"
+      ]
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "id_existente": "fettuccine_alfredo",
+        "nome": "Fettuccine Alfredo",
+        "descricao": "Prato de fettuccine com manteiga e parmesão, ou molho cremoso de queijo, criado em Roma.",
+        "variantes": [
+          "Fettuccine all'Alfredo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fettuccine_Alfredo"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Segundo a história, o restaurador romano Alfredo di Lelio criou seu famoso fettuccine com manteiga e parmesão para alimentar quem?",
+      "resposta": "A esposa, após o parto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fettuccine_Alfredo"
+      ],
+      "distratores": [
+        "Astros de Hollywood",
+        "O rei da Itália",
+        "Um cardeal do Vaticano"
+      ]
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "id_existente": "risoto",
+        "nome": "Risoto",
+        "descricao": "Prato italiano de arroz cozido lentamente em caldo até ficar cremoso.",
+        "variantes": [
+          "Risotto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Risotto"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas variedades de arroz, italiana, de grão curto e rica em amido, é típica do risoto?",
+      "resposta": "Arbório",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Arborio_rice",
+        "https://en.wikipedia.org/wiki/Risotto"
+      ],
+      "distratores": [
+        "Basmati",
+        "Jasmim",
+        "Agulhinha"
+      ]
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "id_existente": "carbonara",
+        "nome": "Carbonara",
+        "descricao": "Massa italiana do Lazio com porco curado, queijo duro, ovos e pimenta-do-reino.",
+        "variantes": [
+          "Spaghetti alla carbonara"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Carbonara"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na receita tradicional romana da carbonara, qual carne curada de porco é usada no lugar do bacon?",
+      "resposta": "Guanciale (bochecha de porco)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carbonara",
+        "https://en.wikipedia.org/wiki/Guanciale"
+      ],
+      "distratores": [
+        "Presunto cru",
+        "Linguiça calabresa",
+        "Mortadela"
+      ]
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "id_existente": "feijoada",
+        "nome": "Feijoada",
+        "descricao": "Cozido de feijão com carnes de porco ou boi, prato emblemático do Brasil.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Feijoada"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na feijoada completa, ao lado do arroz, da couve e da farofa, que fruta fatiada costuma ser servida?",
+      "resposta": "Laranja",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Feijoada",
+        "https://pt.wikipedia.org/wiki/Feijoada"
+      ],
+      "distratores": [
+        "Abacaxi",
+        "Mamão",
+        "Maçã"
+      ]
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "id_existente": "brigadeiro",
+        "nome": "Brigadeiro",
+        "descricao": "Doce brasileiro de leite condensado, chocolate e manteiga, enrolado em bolinhas e coberto de granulado",
+        "variantes": [
+          "Negrinho"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Brigadeiro_(doce)"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O brigadeiro, doce de leite condensado com chocolate, surgiu durante uma campanha presidencial brasileira em qual década?",
+      "resposta": "Década de 1940",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Brigadeiro_(doce)",
+        "https://en.wikipedia.org/wiki/Brigadeiro"
+      ],
+      "distratores": [
+        "Década de 1920",
+        "Década de 1960",
+        "Década de 1970"
+      ]
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "id_existente": "introducao_do_cafe_no_brasil",
+        "nome": "Introdução do café no Brasil",
+        "descricao": "Chegada das primeiras mudas de café ao território brasileiro, no século dezoito",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Coffee_production_in_Brazil"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "As primeiras mudas de café chegaram ao Brasil, vindas da Guiana Francesa para o Pará, em qual século?",
+      "resposta": "Século dezoito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Coffee_production_in_Brazil",
+        "https://pt.wikipedia.org/wiki/Caf%C3%A9_no_Brasil"
+      ],
+      "distratores": [
+        "Século dezesseis",
+        "Século dezessete",
+        "Século dezenove"
+      ]
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "id_existente": "nhoque",
+        "nome": "Nhoque",
+        "descricao": "Bolinhos de massa de batata e farinha da culinária italiana.",
+        "variantes": [
+          "Gnocchi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gnocchi"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "No Brasil e na Argentina, em que dia de cada mês se come o nhoque da sorte, com dinheiro debaixo do prato?",
+      "resposta": "Dia vinte e nove",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gnocchi",
+        "https://es.wikipedia.org/wiki/%C3%91oquis_del_29"
+      ],
+      "distratores": [
+        "Dia primeiro",
+        "Dia treze",
+        "Dia quinze"
+      ]
+    }
+  ]
+}
