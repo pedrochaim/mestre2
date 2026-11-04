@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma Upper West Side. Distratores são bairros de Nova York que não abrigam o Met.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Juilliard School funciona no Lincoln Center, conforme os trechos. Os distratores ficam em outras cidades. O enunciado não entrega a resposta sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Schelling é filósofo do idealismo alemão, entre Fichte e Hegel. A pista de escola não identifica sozinha. Os distratores são plausíveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Triskle' está grafado errado (o certo é Tríscele). A leitura em voz alta também ficaria confusa. O resto está correto.",
+      "reescrita": {
+        "pergunta": "Que símbolo de origem chinesa é este?",
+        "resposta": "Yin-yang",
+        "distratores": [
+          "Bagua",
+          "Ouroboros",
+          "Tríscele"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que Tomás de Aquino foi aluno de Alberto Magno. Os distratores são franciscanos ou não foram seus alunos. O enunciado não entrega o frade.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta: 'médico austríaco que fundou um método de tratamento pela fala' já leva a Freud e à psicanálise. A figura vira enfeite, e não há conserto simples sem trocar a pergunta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado descreve o feito lendário, então a resposta sai sem olhar a figura. A lenda da cabeça falante também é atribuída a Alberto Magno, como diz o trecho. Troquei por um fato de nome (o título Doctor Mirabilis), que o trecho confirma e que só se alcança depois de reconhecer a figura.",
+      "reescrita": {
+        "pergunta": "Este frade franciscano inglês do século treze ficou conhecido por qual título latino?",
+        "resposta": "Doctor Mirabilis",
+        "distratores": [
+          "Doctor Subtilis",
+          "Doctor Seraphicus",
+          "Doctor Invincibilis"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o teatro fica em Roma. O enunciado não vaza. Os distratores são cidades com teatros romanos, e o teatro mostrado é único.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A gravura traz texto visível que entrega a resposta (\"Antrum Platonicum\" e a legenda em latim). Além disso, é uma cena cheia de personagens e de texto."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada clara e reconhecível. A faixa \"AIDA\" não nomeia o teatro nem o bairro.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta casa de ópera fica em Nova York. Em que bairro da cidade?",
+      "resposta": "Upper West Side",
+      "distratores": [
+        "Greenwich Village",
+        "Harlem",
+        "Brooklyn Heights"
+      ],
+      "ancora": {
+        "nome": "Metropolitan Opera House",
+        "descricao": "Casa de ópera do Lincoln Center, em Manhattan, Nova York, inaugurada em 1966.",
+        "variantes": [
+          "Met",
+          "The Met",
+          "Metropolitan Opera"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A inscrição no retrato (\"Geo. Berkeley S.T.P.\") entrega o nome do retratado."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto antiga de dois artistas desconhecidos, com figurinos que lembram palhaço, arlequim e pierrô. A resposta não é única e a imagem não permite reconhecer uma entidade específica."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Praça com fonte e a fachada da Met, reconhecível. O texto \"American Ballet Theatre\" não entrega a resposta, e as pessoas aparecem ao fundo e pequenas.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que famosa escola de artes e música funciona neste complexo cultural?",
+      "resposta": "Juilliard School",
+      "distratores": [
+        "Curtis Institute",
+        "Berklee",
+        "Peabody Institute"
+      ],
+      "ancora": {
+        "nome": "Lincoln Center",
+        "descricao": "Complexo de artes cênicas no Upper West Side, em Manhattan, que abriga a Metropolitan Opera e o New York City Ballet.",
+        "variantes": [
+          "Lincoln Center for the Performing Arts"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato em daguerreótipo, sem texto, de um filósofo de aficionado. Múltipla escolha com distratores do mesmo meio e da mesma época.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que filósofo do idealismo alemão é este?",
+      "resposta": "Friedrich Schelling",
+      "distratores": [
+        "Johann Fichte",
+        "Georg Hegel",
+        "Ludwig Feuerbach"
+      ],
+      "ancora": {
+        "nome": "Friedrich Schelling",
+        "descricao": "Filósofo alemão (1775–1854) do idealismo alemão, situado entre Fichte e Hegel.",
+        "variantes": [
+          "Friedrich Wilhelm Joseph Schelling",
+          "Schelling"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Símbolo nítido, sem texto e legível no celular. Os distratores são símbolos circulares e parecidos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que símbolo de origem chinesa é este?",
+      "resposta": "Yin-yang",
+      "distratores": [
+        "Bagua",
+        "Ouroboros",
+        "Triskle"
+      ],
+      "ancora": {
+        "nome": "Yin-yang",
+        "descricao": "Símbolo da filosofia chinesa antiga que representa forças opostas e complementares.",
+        "variantes": [
+          "Yin e yang",
+          "Taijitu",
+          "Tai chi"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Afresco claro de um frade dominicano com mitra e livro, sem texto. A pergunta vai além do nome, e o discípulo é amplamente documentado.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que célebre filósofo dominicano foi aluno deste frade?",
+      "resposta": "Tomás de Aquino",
+      "distratores": [
+        "Duns Scotus",
+        "Guilherme de Ockham",
+        "Boaventura"
+      ],
+      "ancora": {
+        "nome": "Alberto Magno",
+        "descricao": "Frade dominicano alemão do século treze, filósofo, cientista e bispo, santo e doutor da Igreja.",
+        "variantes": [
+          "Santo Alberto Magno",
+          "Albertus Magnus",
+          "Alberto de Colônia"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Busto de homem barbado genérico, sem atributos que o identifiquem. Não é reconhecível como Parmênides e se confunde com muitos outros bustos gregos."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato famoso, sem texto. A pergunta exige reconhecer o homem e dar um passo adiante.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que método clínico de tratamento pela fala fundou este médico austríaco?",
+      "resposta": "Psicanálise",
+      "distratores": [
+        "Behaviorismo",
+        "Gestalt-terapia",
+        "Fenomenologia"
+      ],
+      "ancora": {
+        "nome": "Sigmund Freud",
+        "descricao": "Neurologista austríaco (1856–1939), fundador da psicanálise.",
+        "variantes": [
+          "Freud"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Estátua sem texto, com esfera armilar, de um frade medieval. É de aficionado, mas a pergunta se apoia em fato documentado.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que lendário autômato falante se atribuía a este frade franciscano inglês?",
+      "resposta": "Cabeça de bronze",
+      "distratores": [
+        "Golem",
+        "Turco Mecânico",
+        "Pato de Vaucanson"
+      ],
+      "ancora": {
+        "nome": "Roger Bacon",
+        "descricao": "Frade franciscano, filósofo e cientista inglês do século treze, chamado Doctor Mirabilis.",
+        "variantes": [
+          "Rogério Bacon",
+          "Doctor Mirabilis"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida do teatro antigo, sem texto. As arcadas são características, e os distratores são outros teatros romanos.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este teatro da Antiguidade?",
+      "resposta": "Roma",
+      "distratores": [
+        "Verona",
+        "Orange",
+        "Mérida"
+      ],
+      "ancora": {
+        "nome": "Teatro de Marcelo",
+        "descricao": "Teatro romano ao ar livre do fim da República, em Roma, depois convertido em palácio.",
+        "variantes": [
+          "Teatro di Marcello",
+          "Theatrum Marcelli"
+        ]
+      }
+    }
+  ]
+}

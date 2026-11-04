@@ -110,7 +110,7 @@
       "titulo": "en:George Berkeley",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Mêncio",
@@ -131,7 +131,7 @@
       "titulo": "en:Parmenides",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Zenão de Eleia",
@@ -194,7 +194,7 @@
       "titulo": "en:Metropolitan Opera House (Lincoln Center)",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Royal Opera House",
@@ -369,7 +369,7 @@
       "titulo": "en:Friedrich Wilhelm Joseph Schelling",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Ludwig Feuerbach",
@@ -397,7 +397,7 @@
       "titulo": "en:Zhuangzi (philosopher)",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Mozi",
@@ -481,7 +481,7 @@
       "titulo": "en:Theatre of Marcellus",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Punch e Judy",
@@ -559,6 +559,286 @@
       "camada": 3,
       "destino": 1,
       "status": "usada"
+    },
+    {
+      "nome": "Yin-yang",
+      "titulo": "en:Yin and yang",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Alegoria da caverna",
+      "titulo": "en:Allegory of the cave",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Sigmund Freud",
+      "titulo": "en:Sigmund Freud",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Max Weber",
+      "titulo": "en:Max Weber",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alexis de Tocqueville",
+      "titulo": "en:Alexis de Tocqueville",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alberto Magno",
+      "titulo": "en:Albertus Magnus",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Émile Durkheim",
+      "titulo": "en:Émile Durkheim",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Roger Bacon",
+      "titulo": "en:Roger Bacon",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Pierre-Joseph Proudhon",
+      "titulo": "en:Pierre-Joseph Proudhon",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mikhail Bakunin",
+      "titulo": "en:Mikhail Bakunin",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedro Abelardo",
+      "titulo": "en:Peter Abelard",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Herbert Spencer",
+      "titulo": "en:Herbert Spencer",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Anselmo de Cantuária",
+      "titulo": "en:Anselm of Canterbury",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Duns Scotus",
+      "titulo": "en:Duns Scotus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hugo Grócio",
+      "titulo": "en:Hugo Grotius",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Edmund Husserl",
+      "titulo": "en:Edmund Husserl",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Charles Sanders Peirce",
+      "titulo": "en:Charles Sanders Peirce",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Antístenes",
+      "titulo": "en:Antisthenes",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Condorcet",
+      "titulo": "en:Marquis de Condorcet",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Zhu Xi",
+      "titulo": "en:Zhu Xi",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mímico",
+      "titulo": "en:Mime artist",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ventriloquia",
+      "titulo": "en:Ventriloquism",
+      "camada": 1,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Carnegie Hall",
+      "titulo": "en:Carnegie Hall",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lincoln Center",
+      "titulo": "en:Lincoln Center",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Palácio de Belas Artes (Cidade do México)",
+      "titulo": "en:Palacio de Bellas Artes",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Antigo de Taormina",
+      "titulo": "en:Ancient Theatre of Taormina",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mamulengo",
+      "titulo": "pt:Mamulengo",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro de bonecos na água",
+      "titulo": "en:Water puppetry",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Folies Bergère",
+      "titulo": "en:Folies Bergère",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Kumadori",
+      "titulo": "en:Kumadori",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Guignol",
+      "titulo": "en:Guignol",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ópera da Bastilha",
+      "titulo": "en:Opéra Bastille",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Burgtheater",
+      "titulo": "en:Burgtheater",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Nacional de Praga",
+      "titulo": "en:National Theatre (Prague)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ópera de Odessa",
+      "titulo": "en:Odesa Opera and Ballet Theater",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Solís",
+      "titulo": "en:Teatro Solís",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Theatro São Pedro (Porto Alegre)",
+      "titulo": "pt:Theatro São Pedro (Porto Alegre)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Brighella",
+      "titulo": "en:Brighella",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Il Dottore",
+      "titulo": "en:Il Dottore",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Kyōgen",
+      "titulo": "en:Kyōgen",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
     }
   ]
 }

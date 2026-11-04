@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta casa de ópera fica em Nova York. Em que bairro da cidade?",
+        "resposta": "Upper West Side"
+      },
+      "existentes": [
+        {
+          "id": "q15902",
+          "pergunta": "Em que cidade fica esta casa de ópera?",
+          "resposta": "Nova York"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que símbolo de origem chinesa é este?",
+        "resposta": "Yin-yang"
+      },
+      "existentes": [
+        {
+          "id": "q03373",
+          "pergunta": "Que país asiático estampa no centro da bandeira o símbolo do yin e yang, em vermelho e azul?",
+          "resposta": "Coreia do Sul"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Existente pergunta a cidade; a nova pergunta o bairro dentro da cidade, fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Existente pergunta qual país tem o símbolo na bandeira; a nova pede o nome do símbolo, fato diferente."
+    }
+  ]
+}
