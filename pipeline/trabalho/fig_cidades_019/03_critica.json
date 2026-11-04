@@ -1,0 +1,70 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Aparece ao fundo\" não é verificável para esta foto: a descrição só diz que ela mostra a cidade. O Vesúvio fica perto de Nápoles, e os trechos confirmam isso.",
+      "reescrita": {
+        "pergunta": "Que vulcão fica perto desta cidade italiana?",
+        "resposta": "Vesúvio",
+        "distratores": [
+          "Etna",
+          "Estrômboli",
+          "Vulcano"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Empire State superou o Chrysler como o mais alto do mundo, e os trechos confirmam. O enunciado não vaza a resposta e os distratores são edifícios altos críveis, nenhum deles correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O apelido The Gherkin é confirmado nos trechos. O enunciado não vaza a resposta, e os distratores são apelidos de outros arranha-céus de Londres, então nenhum deles também está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "\"Ponte desta foto\" sugere várias pontes, e a imagem mostra uma só. Dublin tem outras pontes com nome de escritor (James Joyce, Seán O'Casey), então a pergunta fica ambígua sem a figura. Reescrita pedindo o escritor que dá nome à ponte mostrada.",
+      "reescrita": {
+        "pergunta": "Que escritor irlandês dá nome a esta ponte sobre o rio Liffey, em Dublin?",
+        "resposta": "Samuel Beckett",
+        "distratores": [
+          "Oscar Wilde",
+          "Bram Stoker",
+          "Jonathan Swift"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Sintra é vila e recusou ser elevada a cidade (trecho em português), então \"cidade portuguesa\" é literalmente falso.",
+      "reescrita": {
+        "pergunta": "Em que vila portuguesa fica este palácio real?",
+        "resposta": "Sintra",
+        "distratores": [
+          "Mafra",
+          "Óbidos",
+          "Cascais"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A cisterna fica em Istambul e foi construída no século seis, sob Justiniano, como confirmam os trechos. A época ajuda sem entregar a resposta, e os distratores são cidades críveis.",
+      "reescrita": null
+    }
+  ]
+}

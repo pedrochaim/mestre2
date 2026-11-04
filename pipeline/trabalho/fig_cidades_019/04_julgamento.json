@@ -1,0 +1,391 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Nápoles",
+        "descricao": "Cidade do sul da Itália, capital da região da Campânia, à beira do golfo de Nápoles.",
+        "variantes": [
+          "Napoli",
+          "Naples"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "napoles",
+          "nome": "Nápoles",
+          "descricao": "Cidade do sul da Itália fundada por colonos gregos com o nome de Neápolis.",
+          "variantes": [
+            "Neápolis",
+            "Napoli",
+            "Naples"
+          ]
+        },
+        {
+          "id": "societa_sportiva_calcio_napoli",
+          "nome": "Società Sportiva Calcio Napoli",
+          "descricao": "Clube de futebol italiano sediado em Nápoles, na Campânia.",
+          "variantes": [
+            "Napoli",
+            "SSC Napoli",
+            "Nápoles"
+          ]
+        },
+        {
+          "id": "napoleao_bonaparte",
+          "nome": "Napoleão Bonaparte",
+          "descricao": "General e imperador dos franceses de 1804 a 1814, com breve retorno em 1815.",
+          "variantes": [
+            "Napoleão I",
+            "Napoleon Bonaparte",
+            "Napoleon"
+          ]
+        },
+        {
+          "id": "mil_folhas",
+          "nome": "Mil-folhas",
+          "descricao": "Doce francês de camadas de massa folhada intercaladas com creme de confeiteiro.",
+          "variantes": [
+            "Mille-feuille",
+            "Napoleão",
+            "Vanilla slice"
+          ]
+        },
+        {
+          "id": "samis",
+          "nome": "Sámis",
+          "descricao": "Povo indígena do norte da Escandinávia e da península de Kola, tradicionalmente criador de renas.",
+          "variantes": [
+            "Sami",
+            "Lapões",
+            "Saami"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Edifício Chrysler",
+        "descricao": "Arranha-céu art déco de 319 metros em Manhattan, Nova York, concluído em 1930.",
+        "variantes": [
+          "Chrysler Building"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "edificio_chrysler",
+          "nome": "Edifício Chrysler",
+          "descricao": "Arranha-céu de Manhattan, em Nova York, concluído em 1930, com coroa de arcos de aço inoxidável.",
+          "variantes": [
+            "Chrysler Building"
+          ]
+        },
+        {
+          "id": "flatiron_building",
+          "nome": "Flatiron Building",
+          "descricao": "Arranha-céu triangular de 1902 na esquina da Quinta Avenida com a Broadway, em Nova York.",
+          "variantes": [
+            "Edifício Flatiron",
+            "Fuller Building"
+          ]
+        },
+        {
+          "id": "edificio_niemeyer_belo_horizonte",
+          "nome": "Edifício Niemeyer (Belo Horizonte)",
+          "descricao": "Edifício residencial de varandas onduladas na Praça da Liberdade, em Belo Horizonte, projetado por Oscar Niemeyer.",
+          "variantes": [
+            "Edifício Niemeyer",
+            "Niemeyer Building"
+          ]
+        },
+        {
+          "id": "30_st_mary_axe",
+          "nome": "30 St Mary Axe",
+          "descricao": "Arranha-céu de vidro em forma de projétil, projetado por Norman Foster na City de Londres e concluído em 2003.",
+          "variantes": [
+            "The Gherkin",
+            "O Pepino",
+            "Swiss Re Building",
+            "Gherkin"
+          ]
+        },
+        {
+          "id": "edificio_copan",
+          "nome": "Edifício Copan",
+          "descricao": "Edifício residencial sinuoso projetado por Oscar Niemeyer no centro de São Paulo.",
+          "variantes": [
+            "Copan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "30 St Mary Axe (The Gherkin)",
+        "descricao": "Arranha-céu de vidro em forma de ovo no distrito financeiro de Londres, concluído em 2003.",
+        "variantes": [
+          "The Gherkin",
+          "Swiss Re Building",
+          "Pepino"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "30_st_mary_axe",
+          "nome": "30 St Mary Axe",
+          "descricao": "Arranha-céu de vidro em forma de projétil, projetado por Norman Foster na City de Londres e concluído em 2003.",
+          "variantes": [
+            "The Gherkin",
+            "O Pepino",
+            "Swiss Re Building",
+            "Gherkin"
+          ]
+        },
+        {
+          "id": "pepino",
+          "nome": "Pepino",
+          "descricao": "Fruto cilíndrico de Cucumis sativus, usado como hortaliça em saladas e conservas.",
+          "variantes": [
+            "Cucumis sativus"
+          ]
+        },
+        {
+          "id": "pain",
+          "nome": "Pain",
+          "descricao": "Líder da Akatsuki em Naruto, identidade adotada por Nagato.",
+          "variantes": [
+            "Pein",
+            "Nagato"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "piano",
+          "nome": "Piano",
+          "descricao": "Instrumento de teclado em que martelos percutem cordas, inventado na Itália por volta de 1700.",
+          "variantes": [
+            "Pianoforte"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Ponte Samuel Beckett",
+        "descricao": "Ponte estaiada em forma de harpa sobre o rio Liffey, em Dublin.",
+        "variantes": [
+          "Dublin",
+          "Samuel Beckett Bridge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "samuel_beckett",
+          "nome": "Samuel Beckett",
+          "descricao": "Dramaturgo, romancista e poeta irlandês (1906–1989), autor de Esperando Godot e Nobel de Literatura de 1969.",
+          "variantes": [
+            "Samuel Barclay Beckett"
+          ]
+        },
+        {
+          "id": "dubai",
+          "nome": "Dubai",
+          "descricao": "Cidade mais populosa dos Emirados Árabes Unidos, onde fica o Burj Khalifa.",
+          "variantes": []
+        },
+        {
+          "id": "musselina",
+          "nome": "Musselina",
+          "descricao": "Tecido de algodão leve e de trama fina, usado em vestidos, cortinas e fraldas",
+          "variantes": [
+            "Muslin",
+            "Mousseline"
+          ]
+        },
+        {
+          "id": "dulcineia_del_toboso",
+          "nome": "Dulcineia del Toboso",
+          "descricao": "Dama idealizada por Dom Quixote no romance de Miguel de Cervantes.",
+          "variantes": [
+            "Dulcinea del Toboso",
+            "Dulcineia"
+          ]
+        },
+        {
+          "id": "berlim",
+          "nome": "Berlim",
+          "descricao": "Capital da Alemanha, vista com a torre de TV, o Reichstag e o Portão de Brandemburgo.",
+          "variantes": [
+            "Berlin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Palácio Nacional de Sintra",
+        "descricao": "Palácio real medieval na vila de Sintra, Portugal, com duas grandes chaminés cônicas brancas.",
+        "variantes": [
+          "Sintra",
+          "Palácio da Vila"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_da_pena",
+          "nome": "Palácio da Pena",
+          "descricao": "Palácio romântico do século dezenove no alto da serra de Sintra, em Portugal.",
+          "variantes": [
+            "Pena Palace",
+            "Palácio Nacional da Pena"
+          ]
+        },
+        {
+          "id": "paulinho_da_viola",
+          "nome": "Paulinho da Viola",
+          "descricao": "Sambista, cantor e compositor carioca, ligado à Portela, nascido Paulo César Batista de Faria.",
+          "variantes": [
+            "Paulo César Batista de Faria"
+          ]
+        },
+        {
+          "id": "palacio_da_alvorada",
+          "nome": "Palácio da Alvorada",
+          "descricao": "Palácio projetado por Oscar Niemeyer em Brasília, à beira do lago Paranoá, residência oficial do presidente da República.",
+          "variantes": [
+            "Alvorada"
+          ]
+        },
+        {
+          "id": "ilha_fiscal",
+          "nome": "Ilha Fiscal",
+          "descricao": "Pequena ilha na baía de Guanabara, no Rio de Janeiro, onde fica um castelo neogótico da antiga alfândega.",
+          "variantes": [
+            "Ilha dos Ratos",
+            "Palácio da Ilha Fiscal"
+          ]
+        },
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala",
+            "Potala Palace"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cisterna da Basílica",
+        "descricao": "Grande cisterna subterrânea bizantina do século seis, construída sob Justiniano I, em Istambul.",
+        "variantes": [
+          "Yerebatan Sarnıcı",
+          "Basilica Cistern",
+          "Cisterna Basílica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "litoral_do_brasil",
+          "nome": "Litoral do Brasil",
+          "descricao": "Faixa costeira brasileira banhada pelo oceano Atlântico, do Amapá ao Rio Grande do Sul.",
+          "variantes": [
+            "Costa brasileira"
+          ]
+        },
+        {
+          "id": "basilica_de_sao_pedro",
+          "nome": "Basílica de São Pedro",
+          "descricao": "Basílica renascentista no Vaticano, com grande cúpula, principal templo da Igreja Católica.",
+          "variantes": [
+            "St. Peter's Basilica",
+            "Basílica de São Pedro do Vaticano",
+            "São Pedro do Vaticano"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_basilio",
+          "nome": "Catedral de São Basílio",
+          "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+          "variantes": [
+            "Catedral de São Basílio, o Bem-Aventurado",
+            "Catedral da Intercessão",
+            "Catedral Pokrovsky",
+            "Saint Basil's Cathedral"
+          ]
+        },
+        {
+          "id": "castanheira_do_para",
+          "nome": "Castanheira-do-pará",
+          "descricao": "Árvore amazônica Bertholletia excelsa, que produz a castanha-do-pará dentro de um ouriço duro",
+          "variantes": [
+            "Bertholletia excelsa",
+            "Castanha-do-brasil",
+            "Castanheira-do-brasil"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "napoles",
+      "motivo": "Mesma cidade italiana, Nápoles/Napoli/Naples; descrições compatíveis."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "edificio_chrysler",
+      "motivo": "Mesmo arranha-céu de Manhattan concluído em 1930."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "30_st_mary_axe",
+      "motivo": "Mesmo arranha-céu de Londres (Gherkin), concluído em 2003."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Ponte em Dublin é diferente do escritor Samuel Beckett; nenhuma candidata é a ponte."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Palácio Nacional de Sintra é distinto do Palácio da Pena, apesar de ambos serem em Sintra."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Cisterna subterrânea de Istambul não corresponde a nenhuma candidata."
+    }
+  ]
+}

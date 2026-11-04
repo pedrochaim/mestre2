@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que vulcão fica perto desta cidade italiana?",
+        "resposta": "Vesúvio"
+      },
+      "existentes": [
+        {
+          "id": "q09556",
+          "pergunta": "Que cidade do sul da Itália, fundada por colonos gregos, tem um nome que significa cidade nova?",
+          "resposta": "Nápoles"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que prédio superou este arranha-céu como o mais alto do mundo?",
+        "resposta": "Empire State Building"
+      },
+      "existentes": [
+        {
+          "id": "q07524",
+          "pergunta": "O Edifício Chrysler, em Nova York, e o Cristo Redentor, no Rio, ambos do início dos anos trinta, são ícones de que estilo?",
+          "resposta": "Art déco"
+        },
+        {
+          "id": "q16611",
+          "pergunta": "Que estilo arquitetônico caracteriza este arranha-céu?",
+          "resposta": "Art Déco"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Este arranha-céu de Londres é conhecido por um apelido em inglês. Qual?",
+        "resposta": "The Gherkin"
+      },
+      "existentes": [
+        {
+          "id": "q09121",
+          "pergunta": "Em Londres, o arranha-céu arredondado de vidro que Norman Foster projetou na rua St Mary Axe ganhou, pela forma, o apelido de que legume?",
+          "resposta": "Pepino"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o vulcão próximo; a existente trata do significado do nome/fundação de Nápoles."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre qual prédio superou o arranha-céu em altura; as existentes tratam de estilo arquitetônico."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q09121",
+      "motivo": "Ambas perguntam o apelido do arranha-céu de Londres (Gherkin = pepino); saber um leva ao outro."
+    }
+  ]
+}
