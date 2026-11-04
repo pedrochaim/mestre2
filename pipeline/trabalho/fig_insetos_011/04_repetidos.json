@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este mosquito transmite qual destas doenças?",
+        "resposta": "Dengue"
+      },
+      "existentes": [
+        {
+          "id": "q02588",
+          "pergunta": "O mosquito da dengue se chama cientificamente Aedes aegypti. A palavra grega Aedes, que dá nome ao gênero, significa o quê?",
+          "resposta": "Desagradável ou odioso"
+        },
+        {
+          "id": "q05366",
+          "pergunta": "Que mosquito é este, de pernas listradas de preto e branco?",
+          "resposta": "Aedes aegypti"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Este molusco marinho, cuja fêmea secreta uma concha fina e delicada, é qual tipo de cefalópode?",
+        "resposta": "Polvo"
+      },
+      "existentes": [
+        {
+          "id": "q15570",
+          "pergunta": "Apesar da concha, que animal é este?",
+          "resposta": "Polvo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a doença transmitida pelo mosquito, fato diferente do significado de Aedes e da identificação da espécie."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas identificam o animal com concha como polvo (Argonauta); saber uma permite responder a outra.",
+      "id_existente": "q15570"
+    }
+  ]
+}

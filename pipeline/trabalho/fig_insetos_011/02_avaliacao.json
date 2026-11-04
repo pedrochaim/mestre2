@@ -1,0 +1,239 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A foto mostra uma bolacha peluda e coberta de espinhos finos, sem o aspecto típico de bolacha-da-praia. Pode ser confundida com um ouriço pequeno, então a resposta não é única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de Aedes aegypti, com pernas listradas e marcas brancas no tórax.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este mosquito transmite qual destas doenças?",
+      "resposta": "Dengue",
+      "distratores": [
+        "Malária",
+        "Doença de Chagas",
+        "Leishmaniose"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mosquito-da-dengue",
+        "descricao": "Mosquito Aedes aegypti, de pernas listradas de preto e branco, transmissor de dengue, febre amarela e chikungunya.",
+        "variantes": [
+          "Aedes aegypti",
+          "Mosquito da febre amarela"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A aranha é pequena, de pernas alaranjadas e abdômen escuro, e não mostra o padrão amarelo, branco e preto da aranha-vespa. Não dá para reconhecer a espécie."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista dorsal nítida de uma mutuca, com os olhos grandes e as asas características.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que inseto é este?",
+      "resposta": "Mutuca",
+      "distratores": [
+        "Mosca-varejeira",
+        "Mosca-doméstica",
+        "Mosca-das-frutas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mutuca",
+        "descricao": "Mosca grande da família Tabanidae, cujas fêmeas picam animais e pessoas para sugar sangue.",
+        "variantes": [
+          "Tabanídeo",
+          "Mosca-de-cavalo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Espécime de isópode-gigante em vista lateral, com corpo segmentado e inconfundível, ao lado de um menor.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este bicho do fundo do mar é parente de qual pequeno animal de jardim?",
+      "resposta": "Tatuzinho-de-jardim",
+      "distratores": [
+        "Lesma",
+        "Joaninha",
+        "Minhoca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Isópode-gigante",
+        "descricao": "Crustáceo marinho de águas profundas do gênero Bathynomus, parecido com um tatuzinho-de-jardim enorme.",
+        "variantes": [
+          "Bathynomus",
+          "Isópode gigante"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida de um amblipígio, com patas dianteiras longas e finas e pedipalpos espinhosos.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este aracnídeo, sem cauda, é parente próximo de qual animal que tem um flagelo no fim do corpo?",
+      "resposta": "Escorpião-chicote",
+      "distratores": [
+        "Escorpião-amarelo",
+        "Opilião",
+        "Aranha-armadeira"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Amblipígio",
+        "descricao": "Aracnídeo da ordem Amblypygi, de patas dianteiras muito longas e finas, sem veneno e sem cauda.",
+        "variantes": [
+          "Amblypygi",
+          "Aranha-chicote",
+          "Whip spider"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem de baixa resolução, mas mostra a forma achatada e a cabeça triangular com auriculas, típicas de uma planária.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que verme é este?",
+      "resposta": "Planária",
+      "distratores": [
+        "Sanguessuga",
+        "Minhoca",
+        "Lombriga"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Planária",
+        "descricao": "Verme achatado de vida livre da ordem Tricladida, conhecido por regenerar partes do corpo.",
+        "variantes": [
+          "Planaria",
+          "Tricládida"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O inseto verde, espinhoso e alado não tem a forma de graveto do bicho-pau típico. Pode ser confundido com um esperança ou uma folha-inseto, então a resposta não é única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida de um argonauta dentro da concha fina, com os tentáculos à mostra.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este animal, que vive numa concha fina, é um tipo de quê?",
+      "resposta": "Polvo",
+      "distratores": [
+        "Náutilo",
+        "Lula",
+        "Mexilhão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Argonauta",
+        "descricao": "Polvo pelágico do gênero Argonauta, cuja fêmea secreta uma concha fina e delicada.",
+        "variantes": [
+          "Argonauta",
+          "Náutilo-de-papel",
+          "Paper nautilus"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de uma maria-farinha na areia, com olhos em hastes e carapaça clara.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que caranguejo é este, comum nas praias brasileiras?",
+      "resposta": "Maria-farinha",
+      "distratores": [
+        "Chama-maré",
+        "Guaiamum",
+        "Siri-azul"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Maria-farinha",
+        "descricao": "Caranguejo semiterrestre de praia, de cor clara e olhos em hastes, que vive em tocas na areia.",
+        "variantes": [
+          "Caranguejo-fantasma",
+          "Ocypode quadrata",
+          "Ghost crab"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida e inconfundível da borboleta Papilio machaon, com asas abertas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que borboleta europeia é esta?",
+      "resposta": "Rabo-de-andorinha",
+      "distratores": [
+        "Apolo",
+        "Borboleta-limão",
+        "Borboleta-pavão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Borboleta-rabo-de-andorinha",
+        "descricao": "Borboleta amarela e preta Papilio machaon, da família Papilionidae, com prolongamentos nas asas posteriores.",
+        "variantes": [
+          "Papilio machaon",
+          "Swallowtail",
+          "Rabo-de-andorinha"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida de mosca com olhos em hastes bem visíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que mosca é esta?",
+      "resposta": "Mosca-de-olhos-pedunculados",
+      "distratores": [
+        "Mosca-das-frutas",
+        "Mosca-varejeira",
+        "Mosca-doméstica"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mosca-de-olhos-pedunculados",
+        "descricao": "Mosca da família Diopsidae, com os olhos nas pontas de projeções laterais da cabeça.",
+        "variantes": [
+          "Diopsidae",
+          "Stalk-eyed fly"
+        ]
+      }
+    }
+  ]
+}

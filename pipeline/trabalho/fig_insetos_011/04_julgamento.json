@@ -1,0 +1,515 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Mosquito-da-dengue",
+        "descricao": "Mosquito Aedes aegypti, de pernas listradas de preto e branco, transmissor de dengue, febre amarela e chikungunya.",
+        "variantes": [
+          "Aedes aegypti",
+          "Mosquito da febre amarela"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aedes_aegypti",
+          "nome": "Aedes aegypti",
+          "descricao": "Mosquito de origem africana, transmissor da dengue, da zika, da chikungunya e da febre amarela urbana.",
+          "variantes": [
+            "mosquito da dengue",
+            "Aedes"
+          ]
+        },
+        {
+          "id": "anopheles",
+          "nome": "Anopheles",
+          "descricao": "Gênero de mosquitos cujas fêmeas transmitem os parasitas da malária.",
+          "variantes": [
+            "Mosquito-prego",
+            "Anófele"
+          ]
+        },
+        {
+          "id": "febre_amarela",
+          "nome": "Febre amarela",
+          "descricao": "Doença viral transmitida por mosquitos, que causa icterícia e hemorragias.",
+          "variantes": [
+            "Yellow fever"
+          ]
+        },
+        {
+          "id": "mesquita_de_djinguereber",
+          "nome": "Mesquita de Djinguereber",
+          "descricao": "Mesquita de barro em Tombuctu, no Mali, construída no século quatorze.",
+          "variantes": [
+            "Djinguereber Mosque",
+            "Djingareyber"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_djenne",
+          "nome": "Grande Mesquita de Djenné",
+          "descricao": "Mesquita de barro na cidade de Djenné, no Mali, reconstruída em 1907 e Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Great Mosque of Djenné",
+            "Mesquita de Djenné"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mutuca",
+        "descricao": "Mosca grande da família Tabanidae, cujas fêmeas picam animais e pessoas para sugar sangue.",
+        "variantes": [
+          "Tabanídeo",
+          "Mosca-de-cavalo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cavalinha",
+          "nome": "Cavalinha",
+          "descricao": "Planta do gênero Equisetum, de caules verdes articulados, que se reproduz por esporos.",
+          "variantes": [
+            "Equisetum",
+            "Rabo-de-cavalo",
+            "Horsetail"
+          ]
+        },
+        {
+          "id": "corrida_de_cavalos",
+          "nome": "Corrida de cavalos",
+          "descricao": "Esporte em que cavalos montados por jóqueis disputam quem é o mais rápido numa distância determinada.",
+          "variantes": [
+            "Turfe",
+            "Hipismo de corrida"
+          ]
+        },
+        {
+          "id": "gorro_de_la",
+          "nome": "Gorro de lã",
+          "descricao": "Touca de tricô que cobre a cabeça, usada para aquecer em tempo frio.",
+          "variantes": [
+            "Touca de lã",
+            "Beanie",
+            "Touca"
+          ]
+        },
+        {
+          "id": "salto_sobre_a_mesa",
+          "nome": "Salto sobre a mesa",
+          "descricao": "Prova da ginástica artística em que o ginasta salta apoiando as mãos na mesa de salto.",
+          "variantes": [
+            "Salto",
+            "Mesa de salto"
+          ]
+        },
+        {
+          "id": "leque",
+          "nome": "Leque",
+          "descricao": "Objeto de mão, plano e largo, agitado para criar fluxo de ar e refrescar.",
+          "variantes": [
+            "Abano",
+            "Leque de mão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Isópode-gigante",
+        "descricao": "Crustáceo marinho de águas profundas do gênero Bathynomus, parecido com um tatuzinho-de-jardim enorme.",
+        "variantes": [
+          "Bathynomus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tridacna_gigante",
+          "nome": "Tridacna-gigante",
+          "descricao": "Molusco bivalve gigante (Tridacna gigas) dos recifes de coral do Indo-Pacífico, o maior bivalve vivo.",
+          "variantes": [
+            "Marisco-gigante",
+            "Tridacna gigas",
+            "Giant clam"
+          ]
+        },
+        {
+          "id": "marisco_gigante",
+          "nome": "Marisco-gigante",
+          "descricao": "Molusco bivalve do gênero Tridacna, o maior bivalve vivo, dos recifes do Indo-Pacífico.",
+          "variantes": [
+            "Tridacna",
+            "Ostra-gigante",
+            "Giant clam"
+          ]
+        },
+        {
+          "id": "panda_gigante",
+          "nome": "Panda-gigante",
+          "descricao": "Urso preto e branco da China, espécie Ailuropoda melanoleuca.",
+          "variantes": [
+            "Ailuropoda melanoleuca",
+            "Giant panda",
+            "Panda"
+          ]
+        },
+        {
+          "id": "protea_rei",
+          "nome": "Protea-rei",
+          "descricao": "Planta Protea cynaroides, de enorme inflorescência com brácteas rosa-avermelhadas, típica do fynbos sul-africano.",
+          "variantes": [
+            "Protea cynaroides",
+            "Protea gigante",
+            "King protea"
+          ]
+        },
+        {
+          "id": "homus",
+          "nome": "Homus",
+          "descricao": "Pasta levantina de grão-de-bico cozido e amassado com tahine, limão e alho.",
+          "variantes": [
+            "Hummus",
+            "Hommus",
+            "Houmous"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Amblipígio",
+        "descricao": "Aracnídeo da ordem Amblypygi, de patas dianteiras muito longas e finas, sem veneno e sem cauda.",
+        "variantes": [
+          "Amblypygi",
+          "Aranha-chicote",
+          "Whip spider"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "anderson_silva",
+          "nome": "Anderson Silva",
+          "descricao": "Lutador brasileiro de MMA, ex-campeão peso-médio do UFC com o reinado mais longo da história da categoria.",
+          "variantes": [
+            "Anderson da Silva",
+            "Spider"
+          ]
+        },
+        {
+          "id": "ambipom",
+          "nome": "Ambipom",
+          "descricao": "Pokémon do tipo Normal, número 424 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "agatha_christie",
+          "nome": "Agatha Christie",
+          "descricao": "Escritora inglesa de romances policiais, criadora dos detetives Hercule Poirot e Miss Marple.",
+          "variantes": []
+        },
+        {
+          "id": "chicote",
+          "nome": "Chicote",
+          "descricao": "Instrumento flexível de couro ou corda cujo estalo é um pequeno estrondo sônico.",
+          "variantes": [
+            "Whip"
+          ]
+        },
+        {
+          "id": "aranha_mergulhadora",
+          "nome": "Aranha-mergulhadora",
+          "descricao": "Aranha europeia e asiática (Argyroneta aquatica) que vive quase toda a vida debaixo d'água.",
+          "variantes": [
+            "Argyroneta aquatica",
+            "Diving bell spider",
+            "Aranha-de-sino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Planária",
+        "descricao": "Verme achatado de vida livre da ordem Tricladida, conhecido por regenerar partes do corpo.",
+        "variantes": [
+          "Tricládida"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cabaca",
+          "nome": "Cabaça",
+          "descricao": "Fruto da trepadeira Lagenaria siceraria, cuja casca seca vira recipiente e instrumento musical.",
+          "variantes": [
+            "Porongo",
+            "Cuia",
+            "Lagenaria"
+          ]
+        },
+        {
+          "id": "ilhas_canarias",
+          "nome": "Ilhas Canárias",
+          "descricao": "Arquipélago espanhol no oceano Atlântico, diante da costa do Marrocos e do Saara Ocidental.",
+          "variantes": [
+            "Canárias",
+            "Canary Islands",
+            "Islas Canarias"
+          ]
+        },
+        {
+          "id": "tailandia",
+          "nome": "Tailândia",
+          "descricao": "País do Sudeste Asiático com capital em Bangkok, antes chamado Sião.",
+          "variantes": [
+            "Reino da Tailândia",
+            "Sião"
+          ]
+        },
+        {
+          "id": "bandeira_da_tailandia",
+          "nome": "Bandeira da Tailândia",
+          "descricao": "Bandeira atual da Tailândia: cinco listras horizontais vermelha, branca, azul larga, branca e vermelha.",
+          "variantes": [
+            "Tailândia",
+            "Bandeira tailandesa"
+          ]
+        },
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Argonauta",
+        "descricao": "Polvo pelágico do gênero Argonauta, cuja fêmea secreta uma concha fina e delicada.",
+        "variantes": [
+          "Náutilo-de-papel",
+          "Paper nautilus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "argonauta",
+          "nome": "Argonauta",
+          "descricao": "Gênero Argonauta, polvos pelágicos cujas fêmeas secretam uma concha fina e frágil para guardar os ovos.",
+          "variantes": [
+            "Náutilo-de-papel",
+            "Paper nautilus"
+          ]
+        },
+        {
+          "id": "argonautas",
+          "nome": "Argonautas",
+          "descricao": "Heróis gregos que navegaram com Jasão no navio Argo em busca do velocino de ouro.",
+          "variantes": [
+            "Argonauts"
+          ]
+        },
+        {
+          "id": "astronauta",
+          "nome": "Astronauta",
+          "descricao": "Astronauta Pereira, herói espacial brasileiro da Turma da Mônica, de Mauricio de Sousa.",
+          "variantes": [
+            "Astronauta (Turma da Mônica)",
+            "Astronauta Pereira",
+            "Astro"
+          ]
+        },
+        {
+          "id": "argonath",
+          "nome": "Argonath",
+          "descricao": "Par de estátuas gigantes de reis às margens do rio Anduin em O Senhor dos Anéis: A Sociedade do Anel.",
+          "variantes": [
+            "O Senhor dos Anéis: A Sociedade do Anel",
+            "Pilares dos Reis"
+          ]
+        },
+        {
+          "id": "solenodonte",
+          "nome": "Solenodonte",
+          "descricao": "Pequeno mamífero insetívoro e venenoso (Solenodon paradoxus), nativo da ilha de Hispaniola.",
+          "variantes": [
+            "Solenodonte-de-hispaniola",
+            "Agouta",
+            "Solenodon paradoxus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Maria-farinha",
+        "descricao": "Caranguejo semiterrestre de praia, de cor clara e olhos em hastes, que vive em tocas na areia.",
+        "variantes": [
+          "Caranguejo-fantasma",
+          "Ocypode quadrata",
+          "Ghost crab"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caranguejo_fantasma",
+          "nome": "Caranguejo-fantasma",
+          "descricao": "Caranguejo de praia do gênero Ocypode, de olhos em hastes longas, que vive na areia.",
+          "variantes": [
+            "Caranguejo",
+            "Maria-farinha",
+            "Ocypode"
+          ]
+        },
+        {
+          "id": "maria_maria",
+          "nome": "Maria, Maria",
+          "descricao": "Canção de Milton Nascimento e Fernando Brant, lançada em disco em 1978.",
+          "variantes": []
+        },
+        {
+          "id": "maria_rita",
+          "nome": "Maria Rita",
+          "descricao": "Cantora brasileira de MPB e samba, filha de Elis Regina.",
+          "variantes": [
+            "Maria Rita Camargo Mariano"
+          ]
+        },
+        {
+          "id": "cogumelo_bioluminescente",
+          "nome": "Cogumelo bioluminescente",
+          "descricao": "Cogumelo do gênero Mycena que emite luz verde pálida por bioluminescência, como Mycena chlorophos.",
+          "variantes": [
+            "Mycena chlorophos",
+            "Cogumelo fantasma"
+          ]
+        },
+        {
+          "id": "pradaria_marinha",
+          "nome": "Pradaria marinha",
+          "descricao": "Ecossistema costeiro submerso dominado por ervas marinhas, plantas com flores adaptadas ao mar.",
+          "variantes": [
+            "Campo de ervas marinhas",
+            "Seagrass meadow",
+            "Prado de fanerógamas marinhas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Mosca-de-olhos-pedunculados",
+        "descricao": "Mosca da família Diopsidae, com os olhos nas pontas de projeções laterais da cabeça.",
+        "variantes": [
+          "Diopsidae",
+          "Stalk-eyed fly"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grandes_dionisias",
+          "nome": "Grandes Dionísias",
+          "descricao": "Festival religioso de Atenas em honra a Dionísio, com concursos de tragédia e comédia.",
+          "variantes": [
+            "Dionísias Urbanas",
+            "Dionysia"
+          ]
+        },
+        {
+          "id": "dioptasio",
+          "nome": "Dioptásio",
+          "descricao": "Mineral verde-esmeralda, ciclossilicato de cobre, de cristais hexagonais terminados em romboedros.",
+          "variantes": [
+            "Dioptase"
+          ]
+        },
+        {
+          "id": "samambaia",
+          "nome": "Samambaia",
+          "descricao": "Planta vascular sem flores nem sementes, que se reproduz por esporos, do grupo dos fetos (Polypodiopsida).",
+          "variantes": [
+            "Feto",
+            "Polypodiopsida"
+          ]
+        },
+        {
+          "id": "piolho_de_cobra",
+          "nome": "Piolho-de-cobra",
+          "descricao": "Artrópodes da classe Diplopoda, de corpo cilíndrico com dois pares de patas por segmento, que se enrolam quando ameaçados.",
+          "variantes": [
+            "Diplopoda",
+            "diplópode",
+            "gongolo",
+            "embuá",
+            "millipede"
+          ]
+        },
+        {
+          "id": "fidipides",
+          "nome": "Fidípides",
+          "descricao": "Corredor ateniense que, segundo Heródoto, levou um pedido de ajuda antes da Batalha de Maratona.",
+          "variantes": [
+            "Pheidippides",
+            "Filípides"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "aedes_aegypti",
+      "motivo": "Mosquito-da-dengue é Aedes aegypti, mesma espécie."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Mutuca (Tabanidae) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Isópode-gigante (Bathynomus) é crustáceo, diferente das candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Amblipígio não aparece entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Planária não tem correspondente nas candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "argonauta",
+      "motivo": "Mesmo gênero Argonauta de polvos pelágicos, mesmas variantes."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Maria-farinha é nome popular de Ocypode quadrata; candidata é o gênero Ocypode; na dúvida, nova."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Diopsidae não tem correspondente nas candidatas."
+    }
+  ]
+}
