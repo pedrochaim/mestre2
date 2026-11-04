@@ -1454,7 +1454,7 @@
       "titulo": "en:Kayak",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Mergulho autônomo",
@@ -1510,7 +1510,7 @@
       "titulo": "en:Shuriken",
       "camada": 2,
       "destino": 2,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Brazuca",
@@ -1741,7 +1741,7 @@
       "titulo": "en:Keepie uppie",
       "camada": 1,
       "destino": 3,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Touca de natação",
@@ -1916,7 +1916,7 @@
       "titulo": "en:Bandy",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Biribol",
@@ -1965,7 +1965,7 @@
       "titulo": "en:Daphne Akhurst Memorial Cup",
       "camada": 3,
       "destino": 4,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Esteira ergométrica",
@@ -2070,7 +2070,7 @@
       "titulo": "en:Kunai",
       "camada": 2,
       "destino": 2,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Bola de futebol americano",
@@ -2140,7 +2140,7 @@
       "titulo": "en:Monster truck",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Lob (tênis)",
@@ -2246,6 +2246,286 @@
       "camada": 3,
       "destino": 1,
       "status": "reprovada"
+    },
+    {
+      "nome": "Atletismo",
+      "titulo": "en:Track and field",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fórmula 1",
+      "titulo": "en:Formula One",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Goleiro",
+      "titulo": "en:Goalkeeper (association football)",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Disputa de pênaltis",
+      "titulo": "en:Penalty shoot-out (association football)",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Musculação",
+      "titulo": "en:Weight training",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Hidroginástica",
+      "titulo": "en:Water aerobics",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rodeio",
+      "titulo": "en:Rodeo",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tourada",
+      "titulo": "en:Bullfighting",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bambolê",
+      "titulo": "en:Hula hoop",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Corrida de rua",
+      "titulo": "en:Road running",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Aero hockey",
+      "titulo": "en:Air hockey",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Bicicleta elíptica",
+      "titulo": "en:Elliptical trainer",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Mergulho com snorkel",
+      "titulo": "en:Snorkeling",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Futebol de várzea",
+      "titulo": "pt:Futebol de várzea",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Wing chun",
+      "titulo": "en:Wing Chun",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Saco de velocidade (punching ball)",
+      "titulo": "en:Speed bag",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Manopla de foco",
+      "titulo": "en:Focus mitt",
+      "camada": 2,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Voo a vela (planador)",
+      "titulo": "en:Gliding",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Espeleologia",
+      "titulo": "en:Caving",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rali Dakar",
+      "titulo": "en:Dakar Rally",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "24 Horas de Le Mans",
+      "titulo": "en:24 Hours of Le Mans",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tecido acrobático",
+      "titulo": "en:Aerial silk",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Saltos ornamentais sincronizados",
+      "titulo": "en:Synchronized diving",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Misha (mascote de Moscou 1980)",
+      "titulo": "en:Misha",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Prótese de corrida Flex-Foot Cheetah",
+      "titulo": "en:Flex-Foot Cheetah",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Adidas Teamgeist",
+      "titulo": "en:Adidas Teamgeist",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Corrida de trenó puxado por cães",
+      "titulo": "en:Mushing",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Meisterschale",
+      "titulo": "en:Meisterschale",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Adidas Etrusco Unico",
+      "titulo": "en:Adidas Etrusco Unico",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Coupe Suzanne-Lenglen (troféu)",
+      "titulo": "en:Coupe Suzanne Lenglen",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Louis Armstrong",
+      "titulo": "en:Louis Armstrong Stadium",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Paddle tennis",
+      "titulo": "en:Paddle tennis",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Hapkido",
+      "titulo": "en:Hapkido",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Sanda",
+      "titulo": "en:Sanda (sport)",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Luta mongol (bökh)",
+      "titulo": "en:Mongolian wrestling",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Iaido",
+      "titulo": "en:Iaido",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Classe Laser (ILCA)",
+      "titulo": "en:Laser (dinghy)",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Troféu do Comissário (MLB)",
+      "titulo": "en:Commissioner's Trophy (MLB)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Trote atrelado",
+      "titulo": "en:Harness racing",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Snowboard cross",
+      "titulo": "en:Snowboard cross",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
     }
   ]
 }

@@ -1,0 +1,79 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Que esmaga um carro' é a façanha típica do monster truck e entrega a resposta sem a imagem; além disso, a foto pode não mostrar um carro sendo esmagado.",
+      "reescrita": {
+        "pergunta": "Que tipo de veículo é este?",
+        "resposta": "Monster truck",
+        "distratores": [
+          "Trator agrícola",
+          "Buggy de areia",
+          "Jipe de rali"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que a palavra kayak vem do inuktitut qajaq. Inuit é a resposta única entre as opções, e os distratores são povos de outras regiões.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Arma de arremesso japonesa' quase entrega a resposta. A figura vira enfeite.",
+      "reescrita": {
+        "pergunta": "Como se chama esta arma?",
+        "resposta": "Shuriken"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que é um veleiro individual da classe Laser (ILCA). Os distratores são outras classes individuais, e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a manopla de foco é um alvo acolchoado usado em treino de boxe. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Precursora do hóquei no gelo' é pista que permite responder sem a imagem, e a pergunta não passa de reconhecimento. Os distratores também eram fracos, porque o curling é de gelo. A nova versão usa uma pista que ajuda sem entregar (a Rússia).",
+      "reescrita": {
+        "pergunta": "Que esporte de inverno, jogado em grandes campos de gelo e considerado esporte nacional da Rússia, é este?",
+        "resposta": "Bandy",
+        "distratores": [
+          "Shinty",
+          "Curling",
+          "Hóquei em patins"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A resposta é única e específica. Os distratores são outras modalidades de snowboard, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é direta, sem vazamento, e o trecho descreve o aparelho (elíptico, ou bicicleta elíptica).",
+      "reescrita": null
+    }
+  ]
+}

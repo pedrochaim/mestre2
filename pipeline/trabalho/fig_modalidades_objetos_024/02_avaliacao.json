@@ -1,0 +1,203 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, sem ser figura pública."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Monster truck esmagando um carro, claro e reconhecível; 'El Toro' não entrega a resposta.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que tipo de veículo é este, que esmaga um carro?",
+      "resposta": "Monster truck",
+      "distratores": [
+        "Trator agrícola",
+        "Buggy de areia",
+        "Jipe de rali"
+      ],
+      "ancora": {
+        "nome": "Monster truck",
+        "descricao": "Veículo off-road com pneus gigantes e carroceria de picape, usado em espetáculos e competições.",
+        "variantes": [
+          "Caminhão monstro"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma arena de tênis lotada, não a taça; há patrocinadores com texto e público comum em primeiro plano."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Caiaque de águas bravas claro; a pergunta vai além do nome, para a origem da palavra.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "De que povo do Ártico vem o nome da embarcação desta imagem?",
+      "resposta": "Inuit",
+      "distratores": [
+        "Sami",
+        "Maori",
+        "Mapuche"
+      ],
+      "ancora": {
+        "nome": "Caiaque",
+        "descricao": "Pequena embarcação estreita, movida a remo de pá dupla, com convés fechado e cockpit.",
+        "variantes": [
+          "Kayak"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vários shurikens de formatos diferentes, mas um único tipo de objeto, sem texto; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Como se chama este tipo de arma de arremesso japonesa?",
+      "resposta": "Shuriken",
+      "distratores": [],
+      "ancora": {
+        "nome": "Shuriken",
+        "descricao": "Arma japonesa de arremesso, lâmina pequena em forma de estrela ou haste, associada aos ninjas.",
+        "variantes": [
+          "Estrela ninja"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Veleiro Laser bem visível; o logotipo da vela não escreve o nome. Distratores são de outros veleiros.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que classe de veleiro individual é esta?",
+      "resposta": "Laser (ILCA)",
+      "distratores": [
+        "Optimist",
+        "Finn",
+        "Sunfish"
+      ],
+      "ancora": {
+        "nome": "Classe Laser (ILCA)",
+        "descricao": "Classe de dingue de vela individual, projetada em 1970 e olímpica desde 1996.",
+        "variantes": [
+          "Laser",
+          "ILCA",
+          "Laser Standard"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Criança comum em primeiro plano."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Par de manoplas de foco nítido, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Como se chama este acessório de treino de boxe?",
+      "resposta": "Manopla de foco",
+      "distratores": [],
+      "ancora": {
+        "nome": "Manopla de foco",
+        "descricao": "Alvo acolchoado preso a uma luva, usado para treinar golpes de boxeadores e outros lutadores.",
+        "variantes": [
+          "Luva de foco",
+          "Manopla de boxe",
+          "Focus mitt"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Jogadores de bandy patinando com bola rosa, claro e distinto do hóquei no gelo; textos são só patrocínios.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que modalidade de gelo, considerada precursora do hóquei no gelo, é esta?",
+      "resposta": "Bandy",
+      "distratores": [
+        "Shinty",
+        "Curling",
+        "Hóquei sobre grama"
+      ],
+      "ancora": {
+        "nome": "Bandy",
+        "descricao": "Esporte de inverno em que duas equipes patinam num campo de gelo grande e usam tacos para levar uma bola ao gol adversário.",
+        "variantes": [
+          "Hóquei bandy"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Quatro atletas numa prova de snowboard cross, cena clara; textos são só patrocínios.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que modalidade de snowboard é esta?",
+      "resposta": "Snowboard cross",
+      "distratores": [
+        "Halfpipe",
+        "Slopestyle",
+        "Big air"
+      ],
+      "ancora": {
+        "nome": "Snowboard cross",
+        "descricao": "Prova de snowboard em que de quatro a seis competidores descem juntos uma pista com saltos e curvas inclinadas.",
+        "variantes": [
+          "Boardercross",
+          "SBX"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Aparelho elíptico claro, de perfil; as marcas visíveis não dão o nome do aparelho.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que aparelho de ginástica é este?",
+      "resposta": "Bicicleta elíptica",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bicicleta elíptica",
+        "descricao": "Aparelho de ginástica estacionário em que se simula caminhada ou corrida, sem impacto nas articulações.",
+        "variantes": [
+          "Elíptico",
+          "Transport",
+          "Cross-trainer"
+        ]
+      }
+    }
+  ]
+}

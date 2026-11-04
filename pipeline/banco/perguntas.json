@@ -363751,5 +363751,119 @@
       "autor": "Ted Eytan",
       "licenca": "CC BY-SA 2.0"
     }
+  },
+  {
+    "id": "q18512",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "classe_laser_ilca",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que classe de veleiro individual é esta?",
+    "resposta": "Laser (ILCA)",
+    "distratores": [
+      "Optimist",
+      "Finn",
+      "Sunfish"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Laser_%28dinghy%29",
+      "https://pt.wikipedia.org/wiki/Laser_%28vela%29"
+    ],
+    "imagem": {
+      "arquivo": "q18512.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Laser_Standard_160588_01.jpg",
+      "autor": "User:Etnoy",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q18513",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "manopla_de_foco",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Como se chama este acessório de treino de boxe?",
+    "resposta": "Manopla de foco",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Focus_mitt"
+    ],
+    "imagem": {
+      "arquivo": "q18513.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Boxpratzen_-_Tellerpratzen_-_Handpratzen_-_Trainerpratzen.JPG",
+      "autor": "Rasanta",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q18514",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "bandy",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que esporte de inverno, jogado em grandes campos de gelo e considerado esporte nacional da Rússia, é este?",
+    "resposta": "Bandy",
+    "distratores": [
+      "Shinty",
+      "Curling",
+      "Hóquei em patins"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bandy",
+      "https://pt.wikipedia.org/wiki/Bandy"
+    ],
+    "imagem": {
+      "arquivo": "q18514.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bandy_players.jpg",
+      "autor": "Anemone Nemorosa",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q18515",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "snowboard_cross",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que modalidade de snowboard é esta?",
+    "resposta": "Snowboard cross",
+    "distratores": [
+      "Halfpipe",
+      "Slopestyle",
+      "Big air"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Snowboard_cross",
+      "https://pt.wikipedia.org/wiki/Snowboard_cross"
+    ],
+    "imagem": {
+      "arquivo": "q18515.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bad_Gastein_2010_QF_4_Women.jpg",
+      "autor": "https://www.flickr.com/photos/lge/",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q18516",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "bicicleta_eliptica",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que aparelho de ginástica é este?",
+    "resposta": "Bicicleta elíptica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Elliptical_trainer",
+      "https://pt.wikipedia.org/wiki/El%C3%ADptico"
+    ],
+    "imagem": {
+      "arquivo": "q18516.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Elliptical_machine.jpg",
+      "autor": "Cpetro45 (Wikimedia Commons)",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

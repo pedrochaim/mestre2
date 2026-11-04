@@ -1,0 +1,71 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de veículo é este?",
+        "resposta": "Monster truck"
+      },
+      "existentes": [
+        {
+          "id": "q15219",
+          "pergunta": "Que tipo de veículo de espetáculo é este?",
+          "resposta": "Monster truck"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que povo do Ártico vem o nome da embarcação desta imagem?",
+        "resposta": "Inuit"
+      },
+      "existentes": [
+        {
+          "id": "q14166",
+          "pergunta": "Esta embarcação nasceu entre que povo do Ártico?",
+          "resposta": "Inuítes"
+        },
+        {
+          "id": "q16625",
+          "pergunta": "Que tipo de embarcação a remo é esta?",
+          "resposta": "Caiaque"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Como se chama esta arma?",
+        "resposta": "Shuriken"
+      },
+      "existentes": [
+        {
+          "id": "q15035",
+          "pergunta": "Que arma de artes marciais japonesas são estes objetos?",
+          "resposta": "Shuriken"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q15219",
+      "motivo": "Ambas pedem identificar o veículo da imagem como monster truck."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q14166",
+      "motivo": "Ambas perguntam o povo do Ártico de origem da embarcação (caiaque), resposta Inuit."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q15035",
+      "motivo": "Ambas pedem identificar a arma da imagem como shuriken."
+    }
+  ]
+}

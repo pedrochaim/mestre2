@@ -1,0 +1,506 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Monster truck",
+        "descricao": "Veículo off-road com pneus gigantes e carroceria de picape, usado em espetáculos e competições.",
+        "variantes": [
+          "Caminhão monstro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monster_truck",
+          "nome": "Monster truck",
+          "descricao": "Veículo off-road de pneus enormes e suspensão reforçada, usado em shows e competições, como esmagar carros.",
+          "variantes": [
+            "Caminhão monstro"
+          ]
+        },
+        {
+          "id": "nobre_caminho_octuplo",
+          "nome": "Nobre Caminho Óctuplo",
+          "descricao": "Ensinamento de Buda sobre o caminho que leva ao fim do sofrimento, a quarta das Quatro Nobres Verdades.",
+          "variantes": [
+            "Caminho Óctuplo",
+            "Noble Eightfold Path"
+          ]
+        },
+        {
+          "id": "costela_de_adao",
+          "nome": "Costela-de-adão",
+          "descricao": "Planta trepadeira tropical, Monstera deliciosa, de folhas grandes com cortes e furos, muito usada como planta de vaso.",
+          "variantes": [
+            "Monstera",
+            "Monstera deliciosa",
+            "Swiss cheese plant"
+          ]
+        },
+        {
+          "id": "monte_taranaki",
+          "nome": "Monte Taranaki",
+          "descricao": "Estratovulcão adormecido na costa oeste da Ilha Norte da Nova Zelândia.",
+          "variantes": [
+            "Taranaki Maunga",
+            "Monte Egmont",
+            "Mount Taranaki"
+          ]
+        },
+        {
+          "id": "caminho_de_santiago",
+          "nome": "Caminho de Santiago",
+          "descricao": "Rede de rotas de peregrinação medievais até o túmulo atribuído ao apóstolo Tiago, em Santiago de Compostela, na Galiza.",
+          "variantes": [
+            "Camino de Santiago",
+            "Caminho de Compostela"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Caiaque",
+        "descricao": "Pequena embarcação estreita, movida a remo de pá dupla, com convés fechado e cockpit.",
+        "variantes": [
+          "Kayak"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caiaque",
+          "nome": "Caiaque",
+          "descricao": "Pequena embarcação estreita, propulsionada por remo de pá dupla, de origem inuíte.",
+          "variantes": [
+            "Kayak",
+            "Qajaq"
+          ]
+        },
+        {
+          "id": "iaque",
+          "nome": "Iaque",
+          "descricao": "Bovino domesticado de pelagem longa das montanhas da Ásia central, Bos grunniens.",
+          "variantes": [
+            "Yak",
+            "Bos grunniens"
+          ]
+        },
+        {
+          "id": "cortada",
+          "nome": "Cortada",
+          "descricao": "Ataque do vôlei em que o jogador salta e golpeia a bola de cima para baixo na quadra adversária.",
+          "variantes": [
+            "Ataque",
+            "Spike",
+            "Bomba"
+          ]
+        },
+        {
+          "id": "iraque",
+          "nome": "Iraque",
+          "descricao": "País da Ásia Ocidental, na antiga Mesopotâmia, com capital em Bagdá.",
+          "variantes": [
+            "República do Iraque"
+          ]
+        },
+        {
+          "id": "bandeira_do_iraque",
+          "nome": "Bandeira do Iraque",
+          "descricao": "Bandeira nacional do Iraque, com listras vermelha, branca e preta e inscrição árabe verde.",
+          "variantes": [
+            "Iraque",
+            "Bandeira iraquiana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Shuriken",
+        "descricao": "Arma japonesa de arremesso, lâmina pequena em forma de estrela ou haste, associada aos ninjas.",
+        "variantes": [
+          "Estrela ninja"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "shuriken",
+          "nome": "Shuriken",
+          "descricao": "Arma japonesa de arremesso, em geral uma lâmina em forma de estrela, associada aos ninjas.",
+          "variantes": [
+            "Estrela ninja",
+            "Shuriken de arremesso"
+          ]
+        },
+        {
+          "id": "festa_junina",
+          "nome": "Festa junina",
+          "descricao": "Conjunto de festas populares de junho no Brasil em homenagem a Santo Antônio, São João e São Pedro.",
+          "variantes": [
+            "Festas juninas",
+            "São João",
+            "Festa joanina",
+            "Festa de São João"
+          ]
+        },
+        {
+          "id": "la_nina",
+          "nome": "La Niña",
+          "descricao": "Fenômeno de resfriamento anormal das águas do Oceano Pacífico equatorial",
+          "variantes": []
+        },
+        {
+          "id": "ken_sugimori",
+          "nome": "Ken Sugimori",
+          "descricao": "Ilustrador e designer japonês da Game Freak, responsável pela arte dos primeiros jogos Pokémon.",
+          "variantes": [
+            "Sugimori Ken"
+          ]
+        },
+        {
+          "id": "estrela_polar",
+          "nome": "Estrela Polar",
+          "descricao": "Estrela muito próxima do polo norte celeste, usada há séculos para indicar o norte.",
+          "variantes": [
+            "Polaris",
+            "Alfa da Ursa Menor"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Classe Laser (ILCA)",
+        "descricao": "Classe de dingue de vela individual, projetada em 1970 e olímpica desde 1996.",
+        "variantes": [
+          "Laser",
+          "ILCA",
+          "Laser Standard"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "laser",
+          "nome": "Laser",
+          "descricao": "Dispositivo que emite um feixe de luz concentrado e coerente por emissão estimulada de radiação.",
+          "variantes": [
+            "Raio laser",
+            "Lêiser"
+          ]
+        },
+        {
+          "id": "pilcha",
+          "nome": "Pilcha",
+          "descricao": "Indumentária tradicional do gaúcho, com bombacha, botas, lenço e chapéu para os homens.",
+          "variantes": [
+            "Pilcha gaúcha"
+          ]
+        },
+        {
+          "id": "lager",
+          "nome": "Lager",
+          "descricao": "Família de cervejas de baixa fermentação, feitas com leveduras que trabalham a frio no fundo do tanque.",
+          "variantes": [
+            "Cerveja lager"
+          ]
+        },
+        {
+          "id": "isla",
+          "nome": "Islã",
+          "descricao": "Religião monoteísta fundada por Maomé na Arábia no século sete",
+          "variantes": [
+            "Islão",
+            "Islamismo",
+            "Islam"
+          ]
+        },
+        {
+          "id": "goma_laca",
+          "nome": "Goma-laca",
+          "descricao": "Resina secretada pela cochonilha-da-laca, usada como verniz e na fabricação de antigos discos de gramofone.",
+          "variantes": [
+            "Shellac",
+            "Laca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Manopla de foco",
+        "descricao": "Alvo acolchoado preso a uma luva, usado para treinar golpes de boxeadores e outros lutadores.",
+        "variantes": [
+          "Luva de foco",
+          "Manopla de boxe",
+          "Focus mitt"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "luva_de_boxe",
+          "nome": "Luva de boxe",
+          "descricao": "Luva acolchoada usada por lutadores em combates e treinos de boxe.",
+          "variantes": [
+            "Luvas de boxe"
+          ]
+        },
+        {
+          "id": "agua_de_coco",
+          "nome": "Água de coco",
+          "descricao": "Líquido claro do interior do coco verde, consumido como bebida.",
+          "variantes": [
+            "Coconut water",
+            "Água de coco verde"
+          ]
+        },
+        {
+          "id": "circulo_de_fogo_do_pacifico",
+          "nome": "Círculo de Fogo do Pacífico",
+          "descricao": "Faixa de intensa atividade vulcânica e sísmica que contorna as bordas de um oceano.",
+          "variantes": [
+            "Anel de Fogo",
+            "Cinturão de Fogo",
+            "Ring of Fire",
+            "Cinturão de Fogo do Pacífico",
+            "Anel de Fogo do Pacífico"
+          ]
+        },
+        {
+          "id": "bandagem_de_boxe",
+          "nome": "Bandagem de boxe",
+          "descricao": "Faixa de tecido enrolada na mão e no pulso para protegê-los em lutas.",
+          "variantes": [
+            "Atadura de mão",
+            "Hand wrap"
+          ]
+        },
+        {
+          "id": "fuso_mitotico",
+          "nome": "Fuso mitótico",
+          "descricao": "Estrutura de microtúbulos que se forma na divisão celular para separar as cromátides-irmãs.",
+          "variantes": [
+            "Fuso acromático",
+            "Aparelho do fuso"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Bandy",
+        "descricao": "Esporte de inverno em que duas equipes patinam num campo de gelo grande e usam tacos para levar uma bola ao gol adversário.",
+        "variantes": [
+          "Hóquei bandy"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "queen",
+          "nome": "Queen",
+          "descricao": "Banda de rock britânica formada em Londres em 1970, de Freddie Mercury e Brian May",
+          "variantes": [
+            "Queen (banda)"
+          ]
+        },
+        {
+          "id": "rand",
+          "nome": "Rand",
+          "descricao": "Moeda oficial da África do Sul.",
+          "variantes": [
+            "Rand sul-africano"
+          ]
+        },
+        {
+          "id": "umbanda",
+          "nome": "Umbanda",
+          "descricao": "Religião brasileira que reúne elementos africanos, indígenas, católicos e espíritas, surgida no início do século vinte",
+          "variantes": []
+        },
+        {
+          "id": "bandana",
+          "nome": "Bandana",
+          "descricao": "Lenço quadrado estampado usado na cabeça ou no pescoço",
+          "variantes": [
+            "Bandanna"
+          ]
+        },
+        {
+          "id": "banh_mi",
+          "nome": "Bánh mì",
+          "descricao": "Sanduíche vietnamita em baguete curta, com carne, legumes em conserva e ervas.",
+          "variantes": [
+            "Bánh mỳ",
+            "Sanduíche vietnamita"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Snowboard cross",
+        "descricao": "Prova de snowboard em que de quatro a seis competidores descem juntos uma pista com saltos e curvas inclinadas.",
+        "variantes": [
+          "Boardercross",
+          "SBX"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "snowboard",
+          "nome": "Snowboard",
+          "descricao": "Esporte de descida em superfície nevada sobre uma prancha com fixações para os dois pés.",
+          "variantes": [
+            "Snowboarding"
+          ]
+        },
+        {
+          "id": "cruz_nordica",
+          "nome": "Cruz nórdica",
+          "descricao": "Cruz com o braço vertical deslocado para o lado da haste, usada nas bandeiras dos países nórdicos.",
+          "variantes": [
+            "Cruz escandinava",
+            "Nordic cross"
+          ]
+        },
+        {
+          "id": "playstation",
+          "nome": "PlayStation",
+          "descricao": "Primeiro console de videogame da Sony, lançado em 1994.",
+          "variantes": [
+            "PS1",
+            "PSX",
+            "PSone"
+          ]
+        },
+        {
+          "id": "sbt",
+          "nome": "SBT",
+          "descricao": "Sistema Brasileiro de Televisão, rede de TV fundada pelo apresentador e empresário Silvio Santos.",
+          "variantes": [
+            "Sistema Brasileiro de Televisão"
+          ]
+        },
+        {
+          "id": "saxofone",
+          "nome": "Saxofone",
+          "descricao": "Instrumento de sopro de metal com palheta simples, inventado pelo belga Adolphe Sax na década de 1840.",
+          "variantes": [
+            "Sax"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Bicicleta elíptica",
+        "descricao": "Aparelho de ginástica estacionário em que se simula caminhada ou corrida, sem impacto nas articulações.",
+        "variantes": [
+          "Elíptico",
+          "Transport",
+          "Cross-trainer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kombi",
+          "nome": "Kombi",
+          "descricao": "Furgão da Volkswagen, também chamado Volkswagen Type 2, fabricado no Brasil de 1957 a 2013.",
+          "variantes": [
+            "Volkswagen Kombi",
+            "Volkswagen Type 2",
+            "Transporter",
+            "Volkswagen Transporter"
+          ]
+        },
+        {
+          "id": "teletransporte_jornada_nas_estrelas",
+          "nome": "Teletransporte (Jornada nas Estrelas)",
+          "descricao": "Aparelho fictício da franquia Jornada nas Estrelas que desmaterializa pessoas e as transporta da nave para outro local.",
+          "variantes": [
+            "Transporter"
+          ]
+        },
+        {
+          "id": "neolitico",
+          "nome": "Neolítico",
+          "descricao": "Último período da Idade da Pedra, marcado pela agricultura, pela vida sedentária e pelas ferramentas de pedra polida.",
+          "variantes": [
+            "Idade da Pedra Polida",
+            "Neolithic"
+          ]
+        },
+        {
+          "id": "fetiche",
+          "nome": "Fetiche",
+          "descricao": "Palavra que várias línguas europeias tomaram do português feitiço",
+          "variantes": [
+            "Fetish",
+            "Feitiço"
+          ]
+        },
+        {
+          "id": "calcolitico",
+          "nome": "Calcolítico",
+          "descricao": "Período de transição entre o Neolítico e a Idade do Bronze, também chamado Idade do Cobre.",
+          "variantes": [
+            "Idade do Cobre",
+            "Eneolítico",
+            "Chalcolithic"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "monster_truck",
+      "motivo": "Mesmo veículo, mesmo nome e variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "caiaque",
+      "motivo": "Mesma embarcação."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "shuriken",
+      "motivo": "Mesma arma japonesa."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Classe de vela é diferente do dispositivo laser."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Manopla de foco é diferente de luva de boxe e bandagem."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o esporte bandy."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Snowboard cross é uma prova, distinta do esporte snowboard geral."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o aparelho de ginástica; 'Transporter' refere-se a outras entidades."
+    }
+  ]
+}
