@@ -1,0 +1,196 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Biribá",
+        "descricao": "Fruta da Annona mucosa, da família das anonáceas, de casca verde-amarelada coberta de projeções pontudas e polpa branca e doce.",
+        "variantes": [
+          "Annona mucosa",
+          "Rollinia mucosa",
+          "Fruta-torta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fruta_do_conde",
+          "nome": "Fruta-do-conde",
+          "descricao": "Fruto da Annona squamosa, de casca com saliências arredondadas e polpa doce.",
+          "variantes": [
+            "Pinha",
+            "Ata",
+            "Annona squamosa"
+          ]
+        },
+        {
+          "id": "graviola",
+          "nome": "Graviola",
+          "descricao": "Fruto da Annona muricata, verde, com espinhos moles e polpa branca cremosa.",
+          "variantes": [
+            "Annona muricata"
+          ]
+        },
+        {
+          "id": "urso_negro_americano",
+          "nome": "Urso-negro-americano",
+          "descricao": "Urso de médio porte da América do Norte, Ursus americanus, de pelagem geralmente escura.",
+          "variantes": [
+            "Urso-negro",
+            "Baribal",
+            "Ursus americanus"
+          ]
+        },
+        {
+          "id": "bolsa_birkin",
+          "nome": "Bolsa Birkin",
+          "descricao": "Bolsa de couro da Hermès criada para a atriz e cantora Jane Birkin",
+          "variantes": [
+            "Birkin bag",
+            "Birkin"
+          ]
+        },
+        {
+          "id": "kiribati",
+          "nome": "Kiribati",
+          "descricao": "País insular do Oceano Pacífico formado por atóis espalhados em torno do equador, cuja capital é Tarawa do Sul.",
+          "variantes": [
+            "República de Kiribati",
+            "Quiribati"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tomate-cereja",
+        "descricao": "Variedade de tomate pequeno e redondo, geralmente vermelho, da variedade botânica Solanum lycopersicum var. cerasiforme.",
+        "variantes": [
+          "Cherry tomato",
+          "Tomatinho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tomate",
+          "nome": "Tomate",
+          "descricao": "Fruto do tomateiro (Solanum lycopersicum), consumido como hortaliça.",
+          "variantes": [
+            "Tomate-cereja",
+            "Tomato",
+            "Solanum lycopersicum"
+          ]
+        },
+        {
+          "id": "tomatina",
+          "nome": "Tomatina",
+          "descricao": "Festa espanhola em que milhares de participantes atiram tomates uns nos outros, na última quarta-feira de agosto.",
+          "variantes": [
+            "La Tomatina"
+          ]
+        },
+        {
+          "id": "tomilho",
+          "nome": "Tomilho",
+          "descricao": "Erva culinária mediterrânea do gênero Thymus, da família da hortelã, usada seca ou fresca como tempero.",
+          "variantes": [
+            "Thyme",
+            "Thymus vulgaris"
+          ]
+        },
+        {
+          "id": "tainos",
+          "nome": "Taínos",
+          "descricao": "Povo indígena das Grandes Antilhas, como Cuba, Hispaniola e Porto Rico, encontrado por Colombo em 1492.",
+          "variantes": [
+            "Taíno"
+          ]
+        },
+        {
+          "id": "philippe_coutinho",
+          "nome": "Philippe Coutinho",
+          "descricao": "Meia brasileiro, ex-Vasco, Liverpool e Barcelona.",
+          "variantes": [
+            "Coutinho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Hibisco",
+        "descricao": "Planta Hibiscus sabdariffa, da família das malváceas, cujos cálices são usados em chás e infusões.",
+        "variantes": [
+          "Hibiscus sabdariffa",
+          "Roselle",
+          "Vinagreira",
+          "Caruru-azedo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hibisco",
+          "nome": "Hibisco",
+          "descricao": "Gênero de plantas da família Malvaceae, com grandes flores vistosas, cultivado como ornamental.",
+          "variantes": [
+            "Hibiscus",
+            "Graxa-de-estudante"
+          ]
+        },
+        {
+          "id": "vinagre",
+          "nome": "Vinagre",
+          "descricao": "Condimento ácido obtido pela fermentação acética do vinho ou de outras bebidas alcoólicas.",
+          "variantes": []
+        },
+        {
+          "id": "ross_geller",
+          "nome": "Ross Geller",
+          "descricao": "Personagem da sitcom Friends, paleontólogo e irmão de Monica, interpretado por David Schwimmer.",
+          "variantes": [
+            "Ross"
+          ]
+        },
+        {
+          "id": "vieira",
+          "nome": "Vieira",
+          "descricao": "Molusco bivalve marinho da família Pectinidae, com muitos olhos pequenos na borda do manto.",
+          "variantes": [
+            "Scallop",
+            "Pectinidae"
+          ]
+        },
+        {
+          "id": "semaforo",
+          "nome": "Semáforo",
+          "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres; o primeiro foi instalado em Londres em 1868.",
+          "variantes": [
+            "Sinal de trânsito",
+            "Farol",
+            "Sinaleiro",
+            "Traffic light",
+            "Sinaleira"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Biribá (Annona mucosa) é uma espécie diferente de fruta-do-conde e graviola."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Tomate-cereja é uma variedade específica; o tomate em geral é uma entidade mais ampla."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Hibiscus sabdariffa é uma espécie específica; a candidata é o gênero Hibiscus em geral."
+    }
+  ]
+}

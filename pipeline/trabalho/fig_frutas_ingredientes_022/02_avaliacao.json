@@ -1,0 +1,143 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem mostra cocos inteiros com casca verde num mercado, com pessoas comuns em primeiro plano; não mostra coco ralado."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Farinha amarela granulada numa colher, sem texto. Boa para a pergunta de ligação com a polenta.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Cozida em água até virar uma massa cremosa, esta farinha de milho dá que prato da culinária italiana?",
+      "resposta": "Polenta",
+      "distratores": [
+        "Risoto",
+        "Nhoque",
+        "Ravióli"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fubá",
+        "descricao": "Farinha amarela de milho moído, usada na culinária brasileira em bolos, angus e polentas.",
+        "variantes": [
+          "Farinha de milho",
+          "Cornmeal"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fruto espinhoso de casca verde-amarelada, bem característico e sem texto. Múltipla com distratores de frutas de aspecto parecido.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que fruta amazônica, de casca coberta de espinhos moles, é esta?",
+      "resposta": "Biribá",
+      "distratores": [
+        "Graviola",
+        "Jaca",
+        "Fruta-do-conde"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Biribá",
+        "descricao": "Fruta da Annona mucosa, da família das anonáceas, de casca verde-amarelada coberta de projeções pontudas e polpa branca e doce.",
+        "variantes": [
+          "Annona mucosa",
+          "Rollinia mucosa",
+          "Fruta-torta"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Tomates pequenos e redondos sobre fundo branco, sem texto. Pergunta de ligação com o nome do tipo.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Que fruta, pelo tamanho e pela forma, dá nome a este tipo de tomate?",
+      "resposta": "Cereja",
+      "distratores": [
+        "Framboesa",
+        "Morango",
+        "Groselha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tomate-cereja",
+        "descricao": "Variedade de tomate pequeno e redondo, geralmente vermelho, da variedade botânica Solanum lycopersicum var. cerasiforme.",
+        "variantes": [
+          "Cherry tomato",
+          "Tomatinho"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Xarope escuro que pode ser confundido com caramelo, melaço de romã, vinagre balsâmico reduzido ou xarope de alfarroba; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Árvore genérica num campo, com uma pessoa ao lado; a alfarrobeira não é reconhecível pela imagem, e não aparecem frutos."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Tronco velho e retorcido numa floresta; o castanheiro não é reconhecível e não aparecem castanhas."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Imagem pequena e de baixa resolução; o rizoma lembra gengibre e a galanga não é reconhecível com segurança. Há marca de faca com texto minúsculo."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A lata mostra o texto 'Tropical Kokosmelk', que entrega a resposta; o copo traz ainda marca de refrigerante."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Folhas grandes em formato de coração, quase iguais às do taro e do inhame; a taioba não é distinguível com segurança."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Flor rosada de centro vermelho, com cálices fechados e folhas lobadas visíveis, sem texto. Pergunta de ligação com a parte usada no chá.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "pergunta": "Desta planta, que parte, e não a pétala, é seca e usada para preparar um chá avermelhado?",
+      "resposta": "Cálice",
+      "distratores": [
+        "Raiz",
+        "Casca",
+        "Semente"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hibisco",
+        "descricao": "Planta Hibiscus sabdariffa, da família das malváceas, cujos cálices são usados em chás e infusões.",
+        "variantes": [
+          "Hibiscus sabdariffa",
+          "Roselle",
+          "Vinagreira",
+          "Caruru-azedo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Há uma pessoa em primeiro plano e outras ao fundo, com uma marca de cerveja visível; os frutos marrons também podem ser confundidos com longan e outros."
+    }
+  ]
+}

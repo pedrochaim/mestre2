@@ -1,0 +1,40 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Teste da imagem coberta falha: 'farinha de milho cozida em água até virar massa cremosa, prato italiano' já entrega polenta sem a figura. Sem pista alternativa que não vaze.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia a fruta. Frutos com projeções moles, origem amazônica ocidental, confirmados nos trechos. A figura decide entre os distratores.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta pede a fruta que dá nome ao tomate-cereja, por tamanho e forma, e o trecho confirma. O enunciado não nomeia a entidade, e os distratores são frutas pequenas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'E não a pétala' é uma pista que ajuda a chegar ao cálice sem olhar a figura. Troquei por uma descrição que continua verdadeira (cálice vermelho e carnoso, seco, para chá) sem excluir alternativas.",
+      "reescrita": {
+        "pergunta": "Desta planta, que parte vermelha e carnosa, depois de seca, é usada para preparar um chá?",
+        "resposta": "Cálice",
+        "distratores": [
+          "Raiz",
+          "Casca",
+          "Semente"
+        ]
+      }
+    }
+  ]
+}
