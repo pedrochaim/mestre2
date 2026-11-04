@@ -1,0 +1,179 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Vitrine com reflexos e várias toucas de formas estranhas, parecidas com chapéus; objeto não reconhecível com clareza e há legenda ao fundo."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Pista de minigolfe com obstáculo ondulado, sem texto e sem pessoas; reconhecível em múltipla escolha.",
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que esporte se joga neste tipo de pista, com obstáculos como este?",
+      "resposta": "Minigolfe",
+      "distratores": [
+        "Croquet",
+        "Bocha",
+        "Shuffleboard"
+      ],
+      "ancora": {
+        "nome": "Minigolfe",
+        "descricao": "Variante do golfe focada nas tacadas curtas, jogada em pistas com obstáculos artificiais.",
+        "variantes": [
+          "Mini golfe",
+          "Crazy golf",
+          "Putt-putt"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Dois dragsters largando lado a lado; claro, sem texto que entregue a resposta.",
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que modalidade do automobilismo é esta, em que dois carros disputam uma reta curta?",
+      "resposta": "Arrancada",
+      "distratores": [
+        "Rali",
+        "Kart",
+        "Stock car"
+      ],
+      "ancora": {
+        "nome": "Arrancada",
+        "descricao": "Modalidade de automobilismo em que dois veículos largam parados e disputam uma pista reta curta.",
+        "variantes": [
+          "Drag racing",
+          "Prova de arrancada"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Jitte com a bainha, bem visível e sem texto relevante; distinguível de armas parecidas em múltipla escolha.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arma japonesa de ferro, com um gancho lateral, é esta?",
+      "resposta": "Jitte",
+      "distratores": [
+        "Sai",
+        "Tonfa",
+        "Kama"
+      ],
+      "ancora": {
+        "nome": "Jitte",
+        "descricao": "Arma de ferro sem corte, com gancho lateral, usada pela polícia do Japão no período Edo.",
+        "variantes": [
+          "Jutte",
+          "Jitte japonês"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Carro de rali saltando em estrada de terra com público; patrocínios não entregam a resposta.",
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que modalidade do automobilismo é esta, disputada em estradas de terra?",
+      "resposta": "Rali",
+      "distratores": [
+        "Arrancada",
+        "Fórmula 1",
+        "Stock car"
+      ],
+      "ancora": {
+        "nome": "Rali",
+        "descricao": "Modalidade de automobilismo disputada em estradas fechadas, em etapas cronometradas.",
+        "variantes": [
+          "Rally",
+          "Rallying"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O texto 'Concept II Indoor Rower' aparece em vários aparelhos e entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Pintura com três personagens; a arma é só um detalhe e o assunto é ambíguo, com pessoas pintadas em primeiro plano."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Marca d'água 'Dodgeball World Championships' entrega a resposta, e há jogadores comuns em primeiro plano."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Jogadoras universitárias comuns em primeiro plano; não são figuras públicas, e o softbol pode ser confundido com beisebol."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Patins em linha isolados em fundo branco; a marca visível não entrega a resposta.",
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de patins é este?",
+      "resposta": "Patins em linha",
+      "distratores": [
+        "Patins quad",
+        "Patins de gelo",
+        "Patins de velocidade"
+      ],
+      "ancora": {
+        "nome": "Patins em linha",
+        "descricao": "Botas com rodas dispostas em uma única fileira, de frente para trás.",
+        "variantes": [
+          "Rollerblades",
+          "Inline skates"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Homem comum em primeiro plano arremessando o disco; não é figura pública."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto histórica, sem texto, de figura pública (Eugen Sandow) posando; a pergunta vai além do reconhecimento.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este homem, fotografado no fim do século dezenove, é considerado pioneiro de qual esporte?",
+      "resposta": "Fisiculturismo",
+      "distratores": [
+        "Ginástica artística",
+        "Luta livre",
+        "Atletismo"
+      ],
+      "ancora": {
+        "nome": "Eugen Sandow",
+        "descricao": "Fisiculturista e artista de circo prussiano do século dezenove, tido como o pai do fisiculturismo moderno.",
+        "variantes": [
+          "Eugen Sandow",
+          "Friedrich Müller"
+        ]
+      }
+    }
+  ]
+}

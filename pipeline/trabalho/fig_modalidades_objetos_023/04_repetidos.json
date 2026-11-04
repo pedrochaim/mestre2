@@ -1,0 +1,46 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que modalidade do automobilismo é esta?",
+        "resposta": "Arrancada"
+      },
+      "existentes": [
+        {
+          "id": "q15217",
+          "pergunta": "Que modalidade do automobilismo é esta?",
+          "resposta": "Corrida de arrancada"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que modalidade do automobilismo é esta?",
+        "resposta": "Rali"
+      },
+      "existentes": [
+        {
+          "id": "q15214",
+          "pergunta": "Que modalidade do automobilismo é esta?",
+          "resposta": "Rali"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta (provavelmente mesma imagem) e a resposta é a mesma modalidade: arrancada.",
+      "id_existente": "q15217"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Pergunta e resposta idênticas: Rali.",
+      "id_existente": "q15214"
+    }
+  ]
+}

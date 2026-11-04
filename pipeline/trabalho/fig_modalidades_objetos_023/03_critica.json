@@ -1,0 +1,86 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pista com obstáculos' funciona como definição e dá pista forte sem olhar a figura. Basta pedir o esporte.",
+      "reescrita": {
+        "pergunta": "Que esporte se pratica nesta pista?",
+        "resposta": "Minigolfe",
+        "distratores": [
+          "Croquet",
+          "Bocha",
+          "Shuffleboard"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Dois carros disputam uma reta curta' é a definição da arrancada; a figura vira enfeite.",
+      "reescrita": {
+        "pergunta": "Que modalidade do automobilismo é esta?",
+        "resposta": "Arrancada",
+        "distratores": [
+          "Rali",
+          "Kart",
+          "Stock car"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Ferro, com gancho lateral' descreve a resposta e também serve ao sai, um distrator. Melhor tirar a descrição.",
+      "reescrita": {
+        "pergunta": "Que arma tradicional do Japão é esta?",
+        "resposta": "Jitte",
+        "distratores": [
+          "Sai",
+          "Tonfa",
+          "Kama"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Estradas de terra' não é literalmente verdadeiro, pois o rali também se corre em asfalto e neve. Além disso, é uma pista que entrega a resposta.",
+      "reescrita": {
+        "pergunta": "Que modalidade do automobilismo é esta?",
+        "resposta": "Rali",
+        "distratores": [
+          "Arrancada",
+          "Fórmula 1",
+          "Stock car"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Patins de velocidade' também podem ser em linha, então esse distrator pode estar correto. Troquei por um distrator inequívoco.",
+      "reescrita": {
+        "pergunta": "Que tipo de patins é este?",
+        "resposta": "Patins em linha",
+        "distratores": [
+          "Patins quad",
+          "Patins de gelo",
+          "Patins artísticos"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia Sandow, e a figura é necessária. O trecho o chama de 'Father of Modern Bodybuilding'. Os distratores são plausíveis e incorretos.",
+      "reescrita": null
+    }
+  ]
+}
