@@ -1,0 +1,124 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano foi construída esta máquina de duas rodas, considerada a primeira motocicleta com motor a gasolina?",
+        "resposta": "1885"
+      },
+      "existentes": [
+        {
+          "id": "q05637",
+          "pergunta": "Em 1885, Gottlieb Daimler e Wilhelm Maybach criaram a Reitwagen, motocicleta a gasolina pioneira. De que material eram o quadro e as rodas?",
+          "resposta": "Madeira"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que estação espacial é esta?",
+        "resposta": "Estação Espacial Internacional"
+      },
+      "existentes": [
+        {
+          "id": "q00580",
+          "pergunta": "Na altura da Estação Espacial Internacional, a gravidade da Terra ainda é forte. Por que, então, os astronautas flutuam?",
+          "resposta": "Estão em queda livre constante"
+        },
+        {
+          "id": "q08269",
+          "pergunta": "A Estação Espacial Internacional recebeu sua primeira tripulação de longa duração em novembro de que ano?",
+          "resposta": "2000"
+        },
+        {
+          "id": "q17228",
+          "pergunta": "Que estação espacial é esta?",
+          "resposta": "Estação Espacial Internacional"
+        },
+        {
+          "id": "q17291",
+          "pergunta": "A Estação Espacial Internacional viaja a cerca de vinte e oito mil quilômetros por hora. Quanto tempo ela leva para dar uma volta na Terra?",
+          "resposta": "Cerca de 90 minutos"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que década surgiu o primeiro projeto prático deste tipo de veículo anfíbio?",
+        "resposta": "Década de 1950"
+      },
+      "existentes": [
+        {
+          "id": "q03990",
+          "pergunta": "Que tipo de veículo é este?",
+          "resposta": "Hovercraft (aerodeslizador)"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que engenheiro liderou a equipe que projetou este console de videogame?",
+        "resposta": "Ralph Baer"
+      },
+      "existentes": [
+        {
+          "id": "q07387",
+          "pergunta": "Que engenheiro, chamado de pai dos videogames, criou o Magnavox Odyssey, primeiro console doméstico, lançado em 1972?",
+          "resposta": "Ralph Baer"
+        },
+        {
+          "id": "q16189",
+          "pergunta": "Para enfeitar seus gráficos simples, o Magnavox Odyssey, de 1972, vinha com películas plásticas coloridas que o jogador prendia onde?",
+          "resposta": "Na tela da TV"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que peça de vidro de laboratório é esta?",
+        "resposta": "Tubo de ensaio"
+      },
+      "existentes": [
+        {
+          "id": "q08163",
+          "pergunta": "Que peça de vidro de laboratório é esta?",
+          "resposta": "Tubo de ensaio"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ano da construção vs. material do quadro; o ano 1885 aparece no enunciado existente, mas o fato perguntado é outro (material)."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Pergunta idêntica já existe (q17228).",
+      "id_existente": "q17228"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Década do primeiro projeto prático do hovercraft é fato diferente de identificar o veículo."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Ralph Baer como engenheiro criador do Magnavox Odyssey.",
+      "id_existente": "q07387"
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Pergunta idêntica já existe (q08163).",
+      "id_existente": "q08163"
+    }
+  ]
+}

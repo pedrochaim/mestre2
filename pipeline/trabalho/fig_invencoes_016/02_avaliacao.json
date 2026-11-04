@@ -1,0 +1,215 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Réplica de máquina de cerco de torção que pode ser confundida com onagro, balista ou outro tipo; resposta não é única diante da imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Termômetro de esferas flutuantes reconhecível; a etiqueta de temperatura não entrega a resposta.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este termômetro de esferas coloridas flutuantes leva o nome de qual cientista?",
+      "resposta": "Galileu Galilei",
+      "distratores": [
+        "Evangelista Torricelli",
+        "Daniel Fahrenheit",
+        "Anders Celsius"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Termômetro de Galileu",
+        "descricao": "Termômetro de coluna de vidro com esferas de densidades diferentes que sobem ou descem conforme a temperatura.",
+        "variantes": [
+          "Termômetro galileano"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Gravura clara da torre com braço articulado; sem texto. Pessoas são figurantes de uma ilustração histórica.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem inventou este sistema de torres de sinais, usado na França no fim do século dezoito?",
+      "resposta": "Claude Chappe",
+      "distratores": [
+        "Samuel Morse",
+        "Alexander Graham Bell",
+        "Guglielmo Marconi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Telégrafo óptico de Chappe",
+        "descricao": "Sistema de torres de semáforo com braços articulados para transmitir mensagens à distância, criado na França em 1792.",
+        "variantes": [
+          "Telégrafo de Chappe",
+          "Telégrafo semafórico",
+          "Telégrafo óptico"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida de binóculo; o texto impresso não revela a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento óptico é este?",
+      "resposta": "Binóculo",
+      "distratores": [
+        "Microscópio",
+        "Periscópio",
+        "Luneta astronômica"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Binóculo",
+        "descricao": "Instrumento óptico formado por dois pequenos telescópios paralelos que dão visão ampliada aos dois olhos.",
+        "variantes": [
+          "Binóculos"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e borrada, ilegível num celular; não mostra com clareza uma impressora 3D."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O nome 'Super Nintendo' aparece escrito no console e no controle, entregando a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O nome 'PlayStation' e o logotipo aparecem escritos no console e no controle, entregando a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto clara da primeira motocicleta, sem texto; reconhecível por aficionados, ano em múltipla escolha.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi construída esta máquina de duas rodas, considerada a primeira motocicleta com motor a gasolina?",
+      "resposta": "1885",
+      "distratores": [
+        "1875",
+        "1880",
+        "1890"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Daimler Reitwagen",
+        "descricao": "Veículo de duas rodas de madeira com motor a gasolina, construído por Daimler e Maybach, considerado a primeira motocicleta.",
+        "variantes": [
+          "Reitwagen",
+          "Einspur",
+          "Daimler Einspur"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida da ISS, sem texto, inconfundível pelos painéis solares.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estação espacial é esta?",
+      "resposta": "Estação Espacial Internacional",
+      "distratores": [
+        "Mir",
+        "Skylab",
+        "Tiangong"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Estação Espacial Internacional",
+        "descricao": "Estação espacial em órbita baixa da Terra, operada por NASA, Roscosmos, ESA, JAXA e CSA.",
+        "variantes": [
+          "ISS",
+          "International Space Station"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto clara de hovercraft militar; os textos visíveis não entregam a resposta.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década surgiu o primeiro projeto prático deste tipo de veículo anfíbio?",
+      "resposta": "Década de 1950",
+      "distratores": [
+        "Década de 1930",
+        "Década de 1970",
+        "Década de 1910"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hovercraft",
+        "descricao": "Veículo anfíbio que flutua sobre um colchão de ar produzido por ventiladores.",
+        "variantes": [
+          "Aerodeslizador",
+          "Veículo de colchão de ar",
+          "ACV"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Console reconhecível pelo design; o 'ODYSSEY' minúsculo não entrega o engenheiro pedido.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que engenheiro liderou a equipe que projetou este console de videogame?",
+      "resposta": "Ralph Baer",
+      "distratores": [
+        "Nolan Bushnell",
+        "Masayuki Uemura",
+        "Ken Kutaragi"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Magnavox Odyssey",
+        "descricao": "Primeiro console de videogame doméstico comercial, lançado em 1972 pela Magnavox.",
+        "variantes": [
+          "Odyssey"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Tubos de ensaio claros, sem texto; a mão é apenas um detalhe.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que peça de vidro de laboratório é esta?",
+      "resposta": "Tubo de ensaio",
+      "distratores": [
+        "Béquer",
+        "Erlenmeyer",
+        "Pipeta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tubo de ensaio",
+        "descricao": "Vidraria de laboratório em forma de tubo, aberta no topo e fechada embaixo.",
+        "variantes": [
+          "Tubo de teste"
+        ]
+      }
+    }
+  ]
+}

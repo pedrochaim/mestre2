@@ -1,0 +1,518 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Termômetro de Galileu",
+        "descricao": "Termômetro de coluna de vidro com esferas de densidades diferentes que sobem ou descem conforme a temperatura.",
+        "variantes": [
+          "Termômetro galileano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "termometro_clinico",
+          "nome": "Termômetro clínico",
+          "descricao": "Instrumento usado para medir a temperatura do corpo de uma pessoa ou animal.",
+          "variantes": [
+            "Termômetro médico",
+            "Termômetro digital"
+          ]
+        },
+        {
+          "id": "termometro_de_mercurio",
+          "nome": "Termômetro de mercúrio",
+          "descricao": "Termômetro de vidro em que uma coluna de mercúrio se dilata para indicar a temperatura.",
+          "variantes": [
+            "Termômetro de vidro",
+            "Termômetro de mercúrio em vidro",
+            "Termômetro de vidro com mercúrio",
+            "Mercury-in-glass thermometer"
+          ]
+        },
+        {
+          "id": "caso_galileu",
+          "nome": "Caso Galileu",
+          "descricao": "Conflito entre Galileu Galilei e a Igreja Católica, que levou à sua condenação pela Inquisição em 1633.",
+          "variantes": [
+            "Processo de Galileu",
+            "Julgamento de Galileu",
+            "Galileo affair"
+          ]
+        },
+        {
+          "id": "monstro_de_gila",
+          "nome": "Monstro-de-gila",
+          "descricao": "Lagarto venenoso (Heloderma suspectum) do sudoeste dos Estados Unidos e noroeste do México.",
+          "variantes": [
+            "Gila monster",
+            "Heloderma suspectum"
+          ]
+        },
+        {
+          "id": "luas_galileanas",
+          "nome": "Luas galileanas",
+          "descricao": "As quatro maiores luas de Júpiter: Io, Europa, Ganimedes e Calisto.",
+          "variantes": [
+            "Satélites galileanos",
+            "Galilean moons"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Telégrafo óptico de Chappe",
+        "descricao": "Sistema de torres de semáforo com braços articulados para transmitir mensagens à distância, criado na França em 1792.",
+        "variantes": [
+          "Telégrafo de Chappe",
+          "Telégrafo semafórico",
+          "Telégrafo óptico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teleferico",
+          "nome": "Teleférico",
+          "descricao": "Meio de transporte com cabines suspensas por cabos de aço, usado para vencer desníveis.",
+          "variantes": [
+            "Bondinho",
+            "Gôndola aérea",
+            "Cable car"
+          ]
+        },
+        {
+          "id": "telefone_sem_fio",
+          "nome": "Telefone sem fio",
+          "descricao": "Telefone portátil que se conecta por rádio a uma base ligada à rede telefônica pública.",
+          "variantes": [
+            "Telefone cordless",
+            "Cordless"
+          ]
+        },
+        {
+          "id": "teatro_olimpico_de_vicenza",
+          "nome": "Teatro Olímpico de Vicenza",
+          "descricao": "Teatro coberto renascentista de Vicenza, na Itália, projetado por Andrea Palladio e inaugurado em 1585.",
+          "variantes": [
+            "Teatro Olimpico",
+            "Teatro Olímpico"
+          ]
+        },
+        {
+          "id": "eletroscopio_de_folhas",
+          "nome": "Eletroscópio de folhas",
+          "descricao": "Instrumento que detecta carga elétrica pelo afastamento de duas folhas metálicas dentro de uma campânula de vidro.",
+          "variantes": [
+            "Eletroscópio",
+            "Eletroscópio de folha de ouro"
+          ]
+        },
+        {
+          "id": "fortaleza_esporte_clube",
+          "nome": "Fortaleza Esporte Clube",
+          "descricao": "Clube de futebol de Fortaleza, no Ceará, de uniforme tricolor listrado.",
+          "variantes": [
+            "Fortaleza",
+            "Fortaleza EC",
+            "Leão do Pici"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Binóculo",
+        "descricao": "Instrumento óptico formado por dois pequenos telescópios paralelos que dão visão ampliada aos dois olhos.",
+        "variantes": [
+          "Binóculos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oculos",
+          "nome": "Óculos",
+          "descricao": "Armação com lentes usada diante dos olhos para corrigir a visão.",
+          "variantes": [
+            "Glasses",
+            "Eyeglasses"
+          ]
+        },
+        {
+          "id": "deserto_dos_pinaculos",
+          "nome": "Deserto dos Pináculos",
+          "descricao": "Campo de milhares de colunas de calcário no Parque Nacional Nambung, perto de Cervantes, na Austrália Ocidental.",
+          "variantes": [
+            "The Pinnacles",
+            "Pináculos"
+          ]
+        },
+        {
+          "id": "monoculo",
+          "nome": "Monóculo",
+          "descricao": "Lente circular corretiva usada em um só olho, presa pela órbita e por um cordão.",
+          "variantes": [
+            "Monocle"
+          ]
+        },
+        {
+          "id": "bigorna",
+          "nome": "Bigorna",
+          "descricao": "Ossículo do ouvido médio que recebe as vibrações do martelo e as transmite ao estribo.",
+          "variantes": [
+            "Incus",
+            "Osso bigorna"
+          ]
+        },
+        {
+          "id": "bicudo_do_algodoeiro",
+          "nome": "Bicudo-do-algodoeiro",
+          "descricao": "Besouro Anthonomus grandis, da família Curculionidae, grave praga do algodão.",
+          "variantes": [
+            "Boll weevil",
+            "Anthonomus grandis",
+            "Bicudo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Daimler Reitwagen",
+        "descricao": "Veículo de duas rodas de madeira com motor a gasolina, construído por Daimler e Maybach, considerado a primeira motocicleta.",
+        "variantes": [
+          "Reitwagen",
+          "Einspur",
+          "Daimler Einspur"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "daimler_reitwagen",
+          "nome": "Daimler Reitwagen",
+          "descricao": "Veículo de duas rodas com motor a gasolina construído por Gottlieb Daimler e Wilhelm Maybach em 1885, considerado a primeira motocicleta a gasolina.",
+          "variantes": [
+            "Reitwagen"
+          ]
+        },
+        {
+          "id": "espurr",
+          "nome": "Espurr",
+          "descricao": "Pokémon do tipo Psíquico, número 677 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "anubis",
+          "nome": "Anúbis",
+          "descricao": "Deus egípcio da mumificação e protetor dos mortos e das necrópoles",
+          "variantes": [
+            "Inpu",
+            "Anpu"
+          ]
+        },
+        {
+          "id": "museu_hermitage",
+          "nome": "Museu Hermitage",
+          "descricao": "Grande museu de arte de São Petersburgo, na Rússia, instalado no antigo Palácio de Inverno dos czares.",
+          "variantes": [
+            "Hermitage",
+            "Museu Estatal Hermitage",
+            "Ermitage"
+          ]
+        },
+        {
+          "id": "wilhelm_rontgen",
+          "nome": "Wilhelm Röntgen",
+          "descricao": "Físico alemão (1845–1923), descobridor dos raios X e primeiro Nobel de Física.",
+          "variantes": [
+            "Wilhelm Conrad Röntgen",
+            "Roentgen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Estação Espacial Internacional",
+        "descricao": "Estação espacial em órbita baixa da Terra, operada por NASA, Roscosmos, ESA, JAXA e CSA.",
+        "variantes": [
+          "ISS",
+          "International Space Station"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estacao_espacial_internacional",
+          "nome": "Estação Espacial Internacional",
+          "descricao": "Laboratório espacial habitado em órbita baixa da Terra, construído por várias agências espaciais.",
+          "variantes": [
+            "ISS",
+            "EEI",
+            "International Space Station"
+          ]
+        },
+        {
+          "id": "isis",
+          "nome": "Ísis",
+          "descricao": "Deusa egípcia da magia e da maternidade, esposa de Osíris e mãe de Hórus",
+          "variantes": [
+            "Aset"
+          ]
+        },
+        {
+          "id": "estacao_espacial_tiangong",
+          "nome": "Estação Espacial Tiangong",
+          "descricao": "Estação espacial permanente da China, em órbita baixa da Terra desde 2021.",
+          "variantes": [
+            "Tiangong",
+            "Estação Espacial Chinesa",
+            "China Space Station"
+          ]
+        },
+        {
+          "id": "estacao_espacial_mir",
+          "nome": "Estação Espacial Mir",
+          "descricao": "Estação espacial modular soviética e depois russa, operada em órbita baixa de 1986 a 2001.",
+          "variantes": [
+            "Mir",
+            "Estação Mir"
+          ]
+        },
+        {
+          "id": "unova",
+          "nome": "Unova",
+          "descricao": "Região fictícia dos jogos Pokémon Black e White, da quinta geração.",
+          "variantes": [
+            "Região de Unova",
+            "Isshu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Hovercraft",
+        "descricao": "Veículo anfíbio que flutua sobre um colchão de ar produzido por ventiladores.",
+        "variantes": [
+          "Aerodeslizador",
+          "Veículo de colchão de ar",
+          "ACV"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hovercraft",
+          "nome": "Hovercraft",
+          "descricao": "Veículo anfíbio que se sustenta sobre um colchão de ar produzido por ventiladores, também chamado de aerodeslizador.",
+          "variantes": [
+            "Aerodeslizador",
+            "Veículo sobre colchão de ar",
+            "Air-cushion vehicle"
+          ]
+        },
+        {
+          "id": "cavalo_vapor",
+          "nome": "Cavalo-vapor",
+          "descricao": "Unidade de potência criada no século dezoito para comparar máquinas a vapor com a força de cavalos.",
+          "variantes": [
+            "Horsepower",
+            "HP",
+            "CV"
+          ]
+        },
+        {
+          "id": "delicate_arch",
+          "nome": "Delicate Arch",
+          "descricao": "Arco natural de arenito isolado no Parque Nacional dos Arcos, perto de Moab, nos Estados Unidos.",
+          "variantes": [
+            "Arco Delicado"
+          ]
+        },
+        {
+          "id": "turbina_eolica",
+          "nome": "Turbina eólica",
+          "descricao": "Máquina de eixo horizontal com três pás que converte a energia cinética do vento em energia elétrica.",
+          "variantes": [
+            "Aerogerador",
+            "Gerador eólico"
+          ]
+        },
+        {
+          "id": "museu_de_arte_contemporanea_de_niteroi",
+          "nome": "Museu de Arte Contemporânea de Niterói",
+          "descricao": "Museu projetado por Oscar Niemeyer, em forma de disco, sobre um mirante à beira da baía de Guanabara, inaugurado em 1996.",
+          "variantes": [
+            "MAC Niterói",
+            "MAC"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Magnavox Odyssey",
+        "descricao": "Primeiro console de videogame doméstico comercial, lançado em 1972 pela Magnavox.",
+        "variantes": [
+          "Odyssey"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "odisseia",
+          "nome": "Odisseia",
+          "descricao": "Poema épico grego atribuído a Homero, sobre o retorno de Ulisses a Ítaca.",
+          "variantes": [
+            "Odyssey",
+            "Odisseia de Homero"
+          ]
+        },
+        {
+          "id": "magnavox_odyssey",
+          "nome": "Magnavox Odyssey",
+          "descricao": "Primeiro console de videogame doméstico comercial, lançado em 1972 pela Magnavox.",
+          "variantes": [
+            "Odyssey"
+          ]
+        },
+        {
+          "id": "ulisses_2",
+          "nome": "Ulisses",
+          "descricao": "Herói grego da Guerra de Troia e protagonista da Odisseia de Homero.",
+          "variantes": [
+            "Odisseu",
+            "Odysseus"
+          ]
+        },
+        {
+          "id": "de_havilland_mosquito",
+          "nome": "De Havilland Mosquito",
+          "descricao": "Bimotor britânico multifunção da Segunda Guerra Mundial, de estrutura quase toda de madeira.",
+          "variantes": [
+            "Mosquito",
+            "DH.98 Mosquito",
+            "Mossie"
+          ]
+        },
+        {
+          "id": "mousse",
+          "nome": "Mousse",
+          "descricao": "Preparo macio e aerado, doce ou salgado; aqui, de chocolate.",
+          "variantes": [
+            "Mousse de chocolate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Tubo de ensaio",
+        "descricao": "Vidraria de laboratório em forma de tubo, aberta no topo e fechada embaixo.",
+        "variantes": [
+          "Tubo de teste"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubo_de_ensaio",
+          "nome": "Tubo de ensaio",
+          "descricao": "Vidraria de laboratório cilíndrica, aberta em cima e fechada embaixo, usada para conter amostras.",
+          "variantes": [
+            "Tubo de teste"
+          ]
+        },
+        {
+          "id": "tubo_de_geissler",
+          "nome": "Tubo de Geissler",
+          "descricao": "Tubo de vidro com gás rarefeito e eletrodos que brilha sob alta tensão, criado por Heinrich Geissler em 1857.",
+          "variantes": [
+            "Tubos de Geissler"
+          ]
+        },
+        {
+          "id": "valvula_termionica",
+          "nome": "Válvula termiônica",
+          "descricao": "Dispositivo de vidro com vácuo que controla a corrente elétrica entre eletrodos, usado para amplificar e retificar sinais.",
+          "variantes": [
+            "Válvula",
+            "Válvula a vácuo",
+            "Tubo de vácuo"
+          ]
+        },
+        {
+          "id": "cesta_de_tres_pontos",
+          "nome": "Cesta de três pontos",
+          "descricao": "Arremesso feito de trás de uma linha distante do aro, que vale três pontos.",
+          "variantes": [
+            "Linha de três pontos",
+            "Three-point field goal",
+            "Bola de três",
+            "Arremesso de três pontos"
+          ]
+        },
+        {
+          "id": "tubo_de_crookes",
+          "nome": "Tubo de Crookes",
+          "descricao": "Tubo de descarga com vácuo parcial e dois eletrodos, em que foram descobertos os raios catódicos.",
+          "variantes": [
+            "Crookes tube",
+            "Tubo de Crookes-Hittorf"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Termômetro de Galileu não está entre as candidatas; são outros instrumentos ou entidades."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Telégrafo óptico de Chappe não consta nas candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Binóculo é distinto de óculos e monóculo."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "daimler_reitwagen",
+      "motivo": "Mesmo veículo, primeira motocicleta de Daimler e Maybach."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "estacao_espacial_internacional",
+      "motivo": "Mesma estação espacial, a ISS."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "hovercraft",
+      "motivo": "Mesmo veículo, o aerodeslizador."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "magnavox_odyssey",
+      "motivo": "Mesmo console, com descrição idêntica."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "tubo_de_ensaio",
+      "motivo": "Mesma vidraria de laboratório."
+    }
+  ]
+}

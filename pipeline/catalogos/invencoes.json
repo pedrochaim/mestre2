@@ -950,7 +950,7 @@
       "titulo": "en:3D printing",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Mimeógrafo",
@@ -1237,7 +1237,7 @@
       "titulo": "en:PlayStation (console)",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Mega Drive",
@@ -1391,7 +1391,7 @@
       "titulo": "en:Semaphore line",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Analisador diferencial",
@@ -1399,6 +1399,286 @@
       "camada": 3,
       "destino": 1,
       "status": "sem_imagem"
+    },
+    {
+      "nome": "Roda",
+      "titulo": "en:Wheel",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Binóculo",
+      "titulo": "en:Binoculars",
+      "camada": 1,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Caixa eletrônico",
+      "titulo": "en:Automated teller machine",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Clipe de papel",
+      "titulo": "en:Paper clip",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alfinete de segurança",
+      "titulo": "en:Safety pin",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Orelhão",
+      "titulo": "pt:Orelhão",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Urna eletrônica",
+      "titulo": "pt:Urna eletrônica",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estação Espacial Internacional",
+      "titulo": "en:International Space Station",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "iPad",
+      "titulo": "en:iPad",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Super Nintendo",
+      "titulo": "en:Super Nintendo Entertainment System",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Tubo de ensaio",
+      "titulo": "en:Test tube",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Relógio cuco",
+      "titulo": "en:Cuckoo clock",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cronômetro",
+      "titulo": "en:Stopwatch",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Catapulta",
+      "titulo": "en:Catapult",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Nintendinho (NES)",
+      "titulo": "en:Nintendo Entertainment System",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Calculadora HP 12C",
+      "titulo": "en:HP-12C",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Frasco de Erlenmeyer",
+      "titulo": "en:Erlenmeyer flask",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Marca-passo",
+      "titulo": "en:Artificial cardiac pacemaker",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pulmão de aço",
+      "titulo": "en:Iron lung",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Biciclo (penny-farthing)",
+      "titulo": "en:Penny-farthing",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Benz Patent-Motorwagen",
+      "titulo": "en:Benz Patent-Motorwagen",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hovercraft",
+      "titulo": "en:Hovercraft",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Curiosity (jipe-robô)",
+      "titulo": "en:Curiosity (rover)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Little Boy",
+      "titulo": "en:Little Boy",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Lâmpada de lava",
+      "titulo": "en:Lava lamp",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Termômetro de Galileu",
+      "titulo": "en:Galileo thermometer",
+      "camada": 2,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Fogão solar",
+      "titulo": "en:Solar cooker",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Apple II",
+      "titulo": "en:Apple II",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Demoiselle",
+      "titulo": "en:Santos-Dumont Demoiselle",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bateria de Bagdá",
+      "titulo": "en:Baghdad Battery",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Descaroçador de algodão",
+      "titulo": "en:Cotton gin",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Aparelho de Kipp",
+      "titulo": "en:Kipp's apparatus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Condensador de Liebig",
+      "titulo": "en:Liebig condenser",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Magnavox Odyssey",
+      "titulo": "en:Magnavox Odyssey",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Xerox Alto",
+      "titulo": "en:Xerox Alto",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "MSX",
+      "titulo": "en:MSX",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fotofone",
+      "titulo": "en:Photophone",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Martelo-pilão a vapor",
+      "titulo": "en:Steam hammer",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Daimler Reitwagen",
+      "titulo": "en:Daimler Reitwagen",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Fat Man",
+      "titulo": "en:Fat Man",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
     }
   ]
 }
