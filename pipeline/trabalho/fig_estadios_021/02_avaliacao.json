@@ -1,0 +1,102 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fachada e mastros inconfundíveis, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estádio da Olimpíada do Rio de Janeiro é este?",
+      "resposta": "Estádio Aquático Olímpico",
+      "distratores": [
+        "Velódromo Olímpico do Rio",
+        "Arena do Futuro",
+        "Estádio Olímpico Nilton Santos"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Estádio Aquático Olímpico (Rio 2016)",
+        "descricao": "Centro aquático temporário do Parque Olímpico da Barra, no Rio de Janeiro, sede da natação e do polo aquático em 2016.",
+        "variantes": [
+          "Olympic Aquatics Stadium",
+          "Estádio Aquático do Rio 2016"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Estádio só identificável por faixas e textos; sem forma reconhecível, resposta frágil."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem mostra uma largada de carros, não o autódromo; não reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Panorama com torcedores em primeiro plano e sem traço reconhecível."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A imagem mostra um prédio-garagem, não o Oracle Park."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Campo traz 'Ohio State' e 'Buckeyes' escritos, entregando a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Estádio obscuro e não reconhecível pela imagem; foto ruim."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Fachada tem 'Real Betis' escrito, entregando a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Não é reconhecível com segurança como o Castelão de São Luís; resposta não única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Letreiro 'Barclays Center' visível entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Panorama noturno com torcedores, sem traço reconhecível do estádio."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arquibancada com escudo e morros ao fundo permitem reconhecer; sem texto que entregue.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estádio carioca é este?",
+      "resposta": "Estádio da Gávea",
+      "distratores": [
+        "Estádio São Januário",
+        "Estádio Giulite Coutinho",
+        "Estádio Luso-Brasileiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio da Gávea",
+        "descricao": "Estádio José Bastos Padilha, na sede social do Flamengo, no Rio de Janeiro.",
+        "variantes": [
+          "Estádio José Bastos Padilha",
+          "Gávea"
+        ]
+      }
+    }
+  ]
+}

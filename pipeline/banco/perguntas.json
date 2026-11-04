@@ -350441,5 +350441,55 @@
       "autor": "江戸村のとくぞう",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q17935",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "estadio_aquatico_olimpico_rio_2016",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estádio da Olimpíada do Rio de Janeiro é este?",
+    "resposta": "Estádio Aquático Olímpico",
+    "distratores": [
+      "Velódromo Olímpico do Rio",
+      "Arena do Futuro",
+      "Estádio Olímpico Nilton Santos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Olympic_Aquatics_Stadium",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Aqu%C3%A1tico_Ol%C3%ADmpico"
+    ],
+    "imagem": {
+      "arquivo": "q17935.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Esportes_Aquáticos_Rio_2016.jpg",
+      "autor": "André Motta/Brasil2016.gov.br",
+      "licenca": "CC BY 3.0 br"
+    }
+  },
+  {
+    "id": "q17936",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_da_gavea",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estádio carioca é este?",
+    "resposta": "Estádio da Gávea",
+    "distratores": [
+      "Estádio São Januário",
+      "Estádio Giulite Coutinho",
+      "Estádio Luso-Brasileiro"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_da_G%C3%A1vea",
+      "https://en.wikipedia.org/wiki/Est%C3%A1dio_da_G%C3%A1vea"
+    ],
+    "imagem": {
+      "arquivo": "q17936.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gávea_HPIM0892.JPG",
+      "autor": "Martins, Tito",
+      "licenca": "CC BY 3.0"
+    }
   }
 ]

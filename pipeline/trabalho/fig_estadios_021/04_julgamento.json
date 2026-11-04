@@ -1,0 +1,130 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Estádio Aquático Olímpico (Rio 2016)",
+        "descricao": "Centro aquático temporário do Parque Olímpico da Barra, no Rio de Janeiro, sede da natação e do polo aquático em 2016.",
+        "variantes": [
+          "Olympic Aquatics Stadium",
+          "Estádio Aquático do Rio 2016"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_olimpico_de_montreal",
+          "nome": "Estádio Olímpico de Montreal",
+          "descricao": "Estádio com torre inclinada em Montreal, Canadá, principal sede dos Jogos Olímpicos de 1976.",
+          "variantes": [
+            "Olympic Stadium",
+            "Big O",
+            "Stade olympique"
+          ]
+        },
+        {
+          "id": "parque_olimpico_da_barra",
+          "nome": "Parque Olímpico da Barra",
+          "descricao": "Conjunto de arenas no Rio de Janeiro que foi o principal polo de competições dos Jogos Olímpicos de 2016.",
+          "variantes": [
+            "Parque Olímpico Rio 2016",
+            "Barra Olympic Park"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_fisht",
+          "nome": "Estádio Olímpico Fisht",
+          "descricao": "Estádio de Sochi, Rússia, construído para os Jogos de Inverno de 2014 e usado na Copa do Mundo de 2018.",
+          "variantes": [
+            "Fisht Olympic Stadium",
+            "Estádio Fisht"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_roma",
+          "nome": "Estádio Olímpico de Roma",
+          "descricao": "Estádio multiuso de Roma, no complexo Foro Italico, casa de Lazio e Roma.",
+          "variantes": [
+            "Stadio Olimpico",
+            "Olimpico de Roma"
+          ]
+        },
+        {
+          "id": "mangueirao",
+          "nome": "Mangueirão",
+          "descricao": "Estádio Estadual Jornalista Edgar Proença, estádio de Belém, Pará, inaugurado em 1978.",
+          "variantes": [
+            "Estádio Olímpico do Pará",
+            "Estádio Edgar Proença"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Estádio da Gávea",
+        "descricao": "Estádio José Bastos Padilha, na sede social do Flamengo, no Rio de Janeiro.",
+        "variantes": [
+          "Estádio José Bastos Padilha",
+          "Gávea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "avela",
+          "nome": "Avelã",
+          "descricao": "Fruto da aveleira (Corylus avellana), fruto seco usado em doces e pastas de chocolate.",
+          "variantes": [
+            "Avelã comum",
+            "Hazelnut"
+          ]
+        },
+        {
+          "id": "aveia",
+          "nome": "Aveia",
+          "descricao": "Cereal (Avena sativa) de panícula solta com espiguetas pendentes, usado em farinhas e flocos.",
+          "variantes": [
+            "Aveia-comum",
+            "Avena sativa"
+          ]
+        },
+        {
+          "id": "sao_januario",
+          "nome": "São Januário",
+          "descricao": "Estádio do Club de Regatas Vasco da Gama, no bairro de São Cristóvão, Rio de Janeiro.",
+          "variantes": [
+            "Estádio Vasco da Gama"
+          ]
+        },
+        {
+          "id": "estado_da_guanabara",
+          "nome": "Estado da Guanabara",
+          "descricao": "Antiga unidade da federação formada pelo território da cidade do Rio de Janeiro após a mudança da capital para Brasília.",
+          "variantes": [
+            "Guanabara"
+          ]
+        },
+        {
+          "id": "palestina",
+          "nome": "Palestina",
+          "descricao": "Estado do Levante, na Ásia Ocidental, que compreende a Cisjordânia e a Faixa de Gaza.",
+          "variantes": [
+            "Estado da Palestina"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "O Estádio Aquático Olímpico é uma arena específica; o Parque Olímpico da Barra é o conjunto que a contém, então são entidades distintas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o estádio da Gávea do Flamengo. São Januário é o estádio do Vasco."
+    }
+  ]
+}
