@@ -1,0 +1,65 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que país é este brasão?",
+        "resposta": "Grécia"
+      },
+      "existentes": [
+        {
+          "id": "q17308",
+          "pergunta": "De que país é este brasão?",
+          "resposta": "Grécia"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que país tem a maior fronteira terrestre com o país deste brasão?",
+        "resposta": "Rússia"
+      },
+      "existentes": [
+        {
+          "id": "q17318",
+          "pergunta": "De que país é este brasão?",
+          "resposta": "Finlândia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "De que país é este brasão?",
+        "resposta": "Peru"
+      },
+      "existentes": [
+        {
+          "id": "q17310",
+          "pergunta": "De que país é este brasão?",
+          "resposta": "Peru"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e mesma resposta (brasão da Grécia).",
+      "id_existente": "q17308"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a maior fronteira terrestre da Finlândia, fato diferente de identificar o brasão."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e mesma resposta (brasão do Peru).",
+      "id_existente": "q17310"
+    }
+  ]
+}

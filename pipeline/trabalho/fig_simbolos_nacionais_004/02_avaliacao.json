@@ -1,0 +1,262 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O lema 'Out of many, one people' aparece legível na faixa e identifica o país, entregando a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Brasão marcante, sem o nome do país; o lema em latim não identifica o lugar.",
+      "nivel": 2,
+      "familia": "onde",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Andorra",
+      "distratores": [
+        "Mônaco",
+        "Liechtenstein",
+        "San Marino"
+      ],
+      "ancora": {
+        "nome": "Brasão de Andorra",
+        "descricao": "Brasão de armas do Principado de Andorra, com a mitra e o báculo, as listras catalãs e duas vacas.",
+        "variantes": [
+          "Escudo de Andorra"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Brasão com águia e cabeça de auroque, reconhecível e sem texto.",
+      "nivel": 1,
+      "familia": "onde",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Moldávia",
+      "distratores": [
+        "Romênia",
+        "Ucrânia",
+        "Bulgária"
+      ],
+      "ancora": {
+        "nome": "Brasão da Moldávia",
+        "descricao": "Brasão de armas da República da Moldávia, com águia segurando cruz, ramo e cetro, e escudo com cabeça de auroque.",
+        "variantes": [
+          "Brasão da Moldova"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Águia bicéfala com São Jorge, marcante e sem texto.",
+      "nivel": 2,
+      "familia": "onde",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Rússia",
+      "distratores": [
+        "Sérvia",
+        "Montenegro",
+        "Albânia"
+      ],
+      "ancora": {
+        "nome": "Brasão da Rússia",
+        "descricao": "Brasão de armas da Federação Russa, com águia bicéfala dourada sobre fundo vermelho e São Jorge no escudo central.",
+        "variantes": [
+          "Escudo da Rússia"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Águia bicéfala dourada com leão no escudo, sem texto, reconhecível.",
+      "nivel": 3,
+      "familia": "com_o_que_se_liga",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que cidade é a antiga capital real do país deste brasão?",
+      "resposta": "Cetinje",
+      "distratores": [
+        "Nikšić",
+        "Kotor",
+        "Bar"
+      ],
+      "ancora": {
+        "nome": "Brasão de Montenegro",
+        "descricao": "Brasão de armas de Montenegro, com águia bicéfala dourada coroada e escudo com leão sobre fundo azul.",
+        "variantes": [
+          "Escudo de Montenegro"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Brasão grande da Bélgica com leões; o lema em francês não nomeia o país.",
+      "nivel": 1,
+      "familia": "onde",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Bélgica",
+      "distratores": [
+        "Países Baixos",
+        "Luxemburgo",
+        "Dinamarca"
+      ],
+      "ancora": {
+        "nome": "Brasão da Bélgica",
+        "descricao": "Brasão de armas grande do Reino da Bélgica, com o leão negro-dourado no escudo, dois leões laterais e manto real.",
+        "variantes": [
+          "Escudo da Bélgica"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Três leões azuis sobre escudo dourado com ramos de carvalho, sem texto.",
+      "nivel": 2,
+      "familia": "onde",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Estônia",
+      "distratores": [
+        "Dinamarca",
+        "Letônia",
+        "Lituânia"
+      ],
+      "ancora": {
+        "nome": "Brasão da Estônia",
+        "descricao": "Brasão de armas da Estônia, com três leões azuis sobre escudo dourado, ladeado por ramos de carvalho.",
+        "variantes": [
+          "Escudo da Estônia"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cruz branca em escudo azul com louros, sem texto.",
+      "nivel": 1,
+      "familia": "onde",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Grécia",
+      "distratores": [
+        "Chipre",
+        "Finlândia",
+        "Islândia"
+      ],
+      "ancora": {
+        "nome": "Brasão da Grécia",
+        "descricao": "Brasão de armas da Grécia, com cruz branca sobre escudo azul cercado por ramos de louro.",
+        "variantes": [
+          "Escudo da Grécia"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Escudo com quinas e esfera armilar, sem texto.",
+      "nivel": 2,
+      "familia": "onde",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Portugal",
+      "distratores": [
+        "Espanha",
+        "Brasil",
+        "Cabo Verde"
+      ],
+      "ancora": {
+        "nome": "Brasão de Portugal",
+        "descricao": "Brasão de armas de Portugal, com o escudo das quinas diante de uma esfera armilar e ramos de oliveira.",
+        "variantes": [
+          "Escudo de Portugal"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Leão coroado com espada e sabre, marcante e sem texto.",
+      "nivel": 3,
+      "familia": "com_o_que_se_liga",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que país tem a maior fronteira terrestre com o país deste brasão?",
+      "resposta": "Rússia",
+      "distratores": [
+        "Suécia",
+        "Noruega",
+        "Estônia"
+      ],
+      "ancora": {
+        "nome": "Brasão da Finlândia",
+        "descricao": "Brasão de armas da Finlândia, com leão dourado coroado, braço armado com espada e rosas brancas sobre fundo vermelho.",
+        "variantes": [
+          "Escudo da Finlândia"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vicunha, árvore e cornucópia entre bandeiras, sem texto.",
+      "nivel": 1,
+      "familia": "onde",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Peru",
+      "distratores": [
+        "Bolívia",
+        "Equador",
+        "Colômbia"
+      ],
+      "ancora": {
+        "nome": "Brasão do Peru",
+        "descricao": "Brasão de armas do Peru, com escudo de vicunha, árvore de quina e cornucópia, entre bandeiras e coroa de louros.",
+        "variantes": [
+          "Escudo do Peru"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cruz dupla branca sobre três colinas azuis, sem texto.",
+      "nivel": 2,
+      "familia": "onde",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Eslováquia",
+      "distratores": [
+        "Hungria",
+        "Eslovênia",
+        "Croácia"
+      ],
+      "ancora": {
+        "nome": "Brasão da Eslováquia",
+        "descricao": "Brasão de armas da Eslováquia, com cruz dupla branca sobre três colinas azuis em escudo vermelho.",
+        "variantes": [
+          "Escudo da Eslováquia"
+        ]
+      }
+    }
+  ]
+}
