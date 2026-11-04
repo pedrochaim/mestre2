@@ -1,0 +1,82 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que acessório de jogos de tabuleiro é este?",
+        "resposta": "Relógio de xadrez"
+      },
+      "existentes": [
+        {
+          "id": "q16605",
+          "pergunta": "Em que cidade foi o torneio de 1883 em que este aparelho foi usado pela primeira vez?",
+          "resposta": "Londres"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que portátil da Sony foi o principal concorrente deste console da Nintendo?",
+        "resposta": "PlayStation Vita"
+      },
+      "existentes": [
+        {
+          "id": "q16753",
+          "pergunta": "Em que ano este console portátil de duas telas chegou ao mercado?",
+          "resposta": "2011"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que instrumento de cordas friccionadas é este?",
+        "resposta": "Contrabaixo acústico"
+      },
+      "existentes": [
+        {
+          "id": "q03290",
+          "pergunta": "Na família das cordas tocadas com arco na orquestra, qual instrumento é o maior e o de som mais grave?",
+          "resposta": "Contrabaixo"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Este instrumento de cordas produz som por meio de que peça?",
+        "resposta": "Roda girada por manivela"
+      },
+      "existentes": [
+        {
+          "id": "q16135",
+          "pergunta": "Que instrumento de cordas antigo, tocado por trovadores e músicos de rua na Europa, é este?",
+          "resposta": "Sanfona de roda"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o objeto (relógio de xadrez) é diferente de saber a cidade do torneio de 1883."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Concorrente da Sony é um fato diferente do ano de lançamento do console."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas têm como resposta o contrabaixo; saber que é o maior e mais grave das cordas friccionadas leva à mesma identificação."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pergunta a peça que produz o som (roda com manivela), não o nome do instrumento; fato diferente."
+    }
+  ]
+}

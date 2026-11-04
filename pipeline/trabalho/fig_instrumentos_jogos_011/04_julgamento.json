@@ -1,0 +1,311 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Relógio de xadrez",
+        "descricao": "Aparelho com dois relógios e botões ou hastes que alternam a contagem de tempo entre dois jogadores.",
+        "variantes": [
+          "Relógio de jogo",
+          "Chess clock"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "relogio_de_xadrez",
+          "nome": "Relógio de xadrez",
+          "descricao": "Aparelho com dois relógios e botões alternados que controla o tempo de cada jogador em partidas.",
+          "variantes": [
+            "Relógio de jogo",
+            "Chess clock"
+          ]
+        },
+        {
+          "id": "ampulheta",
+          "nome": "Ampulheta",
+          "descricao": "Instrumento de medir o tempo com dois bulbos de vidro ligados por um gargalo estreito, por onde escorre areia.",
+          "variantes": [
+            "Relógio de areia",
+            "Hourglass"
+          ]
+        },
+        {
+          "id": "relogio_de_bolso",
+          "nome": "Relógio de bolso",
+          "descricao": "Relógio portátil com corrente, carregado no bolso em vez de usado no pulso.",
+          "variantes": [
+            "Relógio de pulso",
+            "Relógio de algibeira"
+          ]
+        },
+        {
+          "id": "relogio_de_sol",
+          "nome": "Relógio de sol",
+          "descricao": "Instrumento com um gnômon que projeta sombra sobre um mostrador marcado com horas.",
+          "variantes": [
+            "Quadrante solar"
+          ]
+        },
+        {
+          "id": "johto",
+          "nome": "Johto",
+          "descricao": "Região fictícia dos jogos Pokémon Gold e Silver, da segunda geração, vizinha de Kanto.",
+          "variantes": [
+            "Região de Johto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Nintendo 3DS",
+        "descricao": "Console portátil dobrável de duas telas da Nintendo, lançado em 2011, com visual 3D sem óculos.",
+        "variantes": [
+          "3DS"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nintendo_3ds",
+          "nome": "Nintendo 3DS",
+          "descricao": "Console portátil dobrável de duas telas da Nintendo, com imagens 3D sem óculos, lançado em 2011.",
+          "variantes": [
+            "3DS"
+          ]
+        },
+        {
+          "id": "nintendo",
+          "nome": "Nintendo",
+          "descricao": "Empresa japonesa de videogames fundada em 1889, criadora de Mario e Zelda.",
+          "variantes": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Koppai"
+          ]
+        },
+        {
+          "id": "nintendo_64",
+          "nome": "Nintendo 64",
+          "descricao": "Console de mesa da Nintendo, de cartuchos, lançado em 1996, famoso por Super Mario 64.",
+          "variantes": [
+            "N64"
+          ]
+        },
+        {
+          "id": "wii",
+          "nome": "Wii",
+          "descricao": "Console de mesa da Nintendo lançado em 2006, famoso pelos controles com sensor de movimento.",
+          "variantes": [
+            "Nintendo Wii"
+          ]
+        },
+        {
+          "id": "nintendo_switch",
+          "nome": "Nintendo Switch",
+          "descricao": "Console de videogame híbrido da Nintendo, lançado em 2017, que funciona como portátil ou conectado à TV.",
+          "variantes": [
+            "Switch"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bandoneón",
+        "descricao": "Instrumento de fole da família da concertina, típico da Argentina e do Uruguai e central nos conjuntos de tango.",
+        "variantes": [
+          "Bandônion"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "brandon",
+          "nome": "Brandon",
+          "descricao": "Rei da Pirâmide, o último cérebro da Frente de Batalha enfrentado por Ash no anime Pokémon.",
+          "variantes": [
+            "Pyramid King Brandon"
+          ]
+        },
+        {
+          "id": "cebola",
+          "nome": "Cebola",
+          "descricao": "Planta Allium cepa, hortaliça de bulbo muito usada na culinária e em aulas de microscopia.",
+          "variantes": [
+            "Allium cepa",
+            "Onion"
+          ]
+        },
+        {
+          "id": "bandana",
+          "nome": "Bandana",
+          "descricao": "Lenço quadrado estampado usado na cabeça ou no pescoço",
+          "variantes": [
+            "Bandanna"
+          ]
+        },
+        {
+          "id": "bandolim",
+          "nome": "Bandolim",
+          "descricao": "Instrumento de cordas dedilhadas da família do alaúde, com oito cordas em quatro ordens e caixa em forma de pera.",
+          "variantes": [
+            "Mandolin",
+            "Mandolino"
+          ]
+        },
+        {
+          "id": "borneu",
+          "nome": "Bornéu",
+          "descricao": "Grande ilha do Sudeste Asiático, a terceira maior do mundo.",
+          "variantes": [
+            "Borneo",
+            "Kalimantan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Contrabaixo acústico",
+        "descricao": "Maior e mais grave instrumento de cordas friccionadas da orquestra moderna, também usado no jazz.",
+        "variantes": [
+          "Contrabaixo",
+          "Baixo acústico",
+          "Double bass",
+          "Baixo de arco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "contrabaixo",
+          "nome": "Contrabaixo",
+          "descricao": "Instrumento de cordas friccionadas, tocado de pé, o maior da família das cordas na orquestra.",
+          "variantes": [
+            "Contrabaixo acústico",
+            "Double bass"
+          ]
+        },
+        {
+          "id": "tuba",
+          "nome": "Tuba",
+          "descricao": "Grande instrumento de sopro de metal, de registro grave, com válvulas e pavilhão voltado para cima.",
+          "variantes": [
+            "Tuba contrabaixo",
+            "Tuba orquestral"
+          ]
+        },
+        {
+          "id": "assassinato_de_julio_cesar",
+          "nome": "Assassinato de Júlio César",
+          "descricao": "Morte de Júlio César a punhaladas por senadores nos Idos de Março de 44 antes de Cristo.",
+          "variantes": [
+            "Idos de Março",
+            "Assassination of Julius Caesar"
+          ]
+        },
+        {
+          "id": "idos_de_marco",
+          "nome": "Idos de Março",
+          "descricao": "Data do calendário romano que caía no meio de março, famosa pelo assassinato de Júlio César.",
+          "variantes": [
+            "Ides of March"
+          ]
+        },
+        {
+          "id": "batalha_dupla",
+          "nome": "Batalha dupla",
+          "descricao": "Formato de batalha dos jogos Pokémon em que cada lado usa dois pokémon ao mesmo tempo.",
+          "variantes": [
+            "Double Battle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Viela de roda",
+        "descricao": "Instrumento de cordas em que uma roda com breu, girada por manivela, atrita as cordas, enquanto teclas mudam as notas.",
+        "variantes": [
+          "Sanfona",
+          "Hurdy-gurdy",
+          "Vielle à roue"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sanfona",
+          "nome": "Sanfona",
+          "descricao": "Instrumento de fole com palhetas livres, com teclado ou botões na mão direita e baixos na esquerda.",
+          "variantes": [
+            "Acordeão",
+            "Acordeom"
+          ]
+        },
+        {
+          "id": "sanfona_de_roda",
+          "nome": "Sanfona de roda",
+          "descricao": "Instrumento de cordas friccionadas por uma roda girada com manivela e tocado por teclas.",
+          "variantes": [
+            "Hurdy-gurdy",
+            "Viela de roda",
+            "Sanfona"
+          ]
+        },
+        {
+          "id": "cafona",
+          "nome": "Cafona",
+          "descricao": "Adjetivo brasileiro para algo de mau gosto ou brega, vindo do italiano cafone",
+          "variantes": []
+        },
+        {
+          "id": "viola",
+          "nome": "Viola",
+          "descricao": "Instrumento de cordas friccionadas com arco, um pouco maior e mais grave que o violino, tocado apoiado no ombro.",
+          "variantes": [
+            "Viola de arco",
+            "Viola d'arco"
+          ]
+        },
+        {
+          "id": "swanna",
+          "nome": "Swanna",
+          "descricao": "Pokémon dos tipos Água e Voador, número 581 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "relogio_de_xadrez",
+      "motivo": "Mesma entidade: relógio de xadrez com dois mostradores, mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "nintendo_3ds",
+      "motivo": "Mesmo console portátil Nintendo 3DS de 2011."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Bandoneón é um instrumento de fole distinto; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "contrabaixo",
+      "motivo": "Contrabaixo acústico é o mesmo instrumento de cordas friccionadas, com variantes coincidentes (Double bass)."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "sanfona_de_roda",
+      "motivo": "Viela de roda/hurdy-gurdy é o mesmo instrumento de cordas com roda e manivela; não é o acordeão."
+    }
+  ]
+}

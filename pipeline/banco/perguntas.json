@@ -364033,5 +364033,105 @@
       "licenca": "CC BY-SA 3.0"
     },
     "dificuldade": 3
+  },
+  {
+    "id": "q18523",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "relogio_de_xadrez",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que acessório de jogos de tabuleiro é este?",
+    "resposta": "Relógio de xadrez",
+    "distratores": [
+      "Metrônomo",
+      "Cronômetro de corrida",
+      "Relógio de ponto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chess_clock",
+      "https://pt.wikipedia.org/wiki/Rel%C3%B3gio_de_xadrez"
+    ],
+    "imagem": {
+      "arquivo": "q18523.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:SchachuhrLudwigsburg.jpg",
+      "autor": "Mussklprozz",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q18524",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "nintendo_3ds",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que portátil da Sony foi o principal concorrente deste console da Nintendo?",
+    "resposta": "PlayStation Vita",
+    "distratores": [
+      "PlayStation Portal",
+      "Nokia N-Gage",
+      "Neo Geo Pocket"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nintendo_3DS",
+      "https://pt.wikipedia.org/wiki/Nintendo_3DS"
+    ],
+    "imagem": {
+      "arquivo": "q18524.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Nintendo-3DS-AquaOpen.jpg",
+      "autor": "Evan-Amos",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q18525",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "bandoneon",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este instrumento de fole é típico de qual gênero musical?",
+    "resposta": "Tango",
+    "distratores": [
+      "Fado",
+      "Flamenco",
+      "Samba"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bandoneon",
+      "https://pt.wikipedia.org/wiki/Bandoneon"
+    ],
+    "imagem": {
+      "arquivo": "q18525.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bandoneon-curved.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "id": "q18526",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "sanfona_de_roda",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Este instrumento de cordas produz som por meio de que peça?",
+    "resposta": "Roda girada por manivela",
+    "distratores": [
+      "Arco de crina",
+      "Palheta de casco",
+      "Martelos de feltro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hurdy-gurdy",
+      "https://pt.wikipedia.org/wiki/Sanfona"
+    ],
+    "imagem": {
+      "arquivo": "q18526.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Chiesa_di_San_Maurizio_-_Museo_della_Musica_in_Venice_-_Ghironda_1850_.jpg",
+      "autor": "Didier Descouens",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

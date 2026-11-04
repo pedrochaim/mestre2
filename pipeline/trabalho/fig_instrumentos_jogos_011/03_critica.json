@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento: o enunciado não cita xadrez nem relógio. Os distratores são plausíveis e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta. 'Instrumento andino' com 'caixa de carapaça' já identifica o charango e o tatu sem olhar a figura. Remover a pista deixaria a pergunta sem sentido.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está nos trechos: o principal concorrente do 3DS foi o PlayStation Vita. O distrator PlayStation Portable é defensável, porque o PSP ainda estava à venda em 2011 e concorria no mesmo mercado. Troquei por um portátil da Sony que não concorreu.",
+      "reescrita": {
+        "pergunta": "Que portátil da Sony foi o principal concorrente deste console da Nintendo?",
+        "resposta": "PlayStation Vita",
+        "distratores": [
+          "PlayStation Portal",
+          "Nokia N-Gage",
+          "Neo Geo Pocket"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O bandoneón é usado na maioria dos conjuntos de tango, e os trechos confirmam. O enunciado não vaza e os distratores são gêneros de mesmo tipo, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. O enunciado dá só a categoria (cordas friccionadas) e os distratores são instrumentos de cordas parecidos, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o som vem de uma roda com breu acionada por manivela. Sem a figura não dá para responder, e os distratores são peças de outros instrumentos.",
+      "reescrita": null
+    }
+  ]
+}
