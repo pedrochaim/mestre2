@@ -1,0 +1,606 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Retrato de um homem em giz vermelho (Leonardo da Vinci)",
+        "descricao": "Desenho em sanguínea de c. 1510, atribuído a Leonardo da Vinci como autorretrato, na Biblioteca Real de Turim.",
+        "variantes": [
+          "Autorretrato de Leonardo da Vinci (sanguínea)",
+          "Autorretrato de Leonardo da Vinci",
+          "Portrait of a Man in Red Chalk"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sao_joao_batista_leonardo",
+          "nome": "São João Batista (Leonardo)",
+          "descricao": "Pintura a óleo de Leonardo da Vinci, hoje no Louvre, que mostra são João Batista apontando para o alto.",
+          "variantes": [
+            "Saint John the Baptist",
+            "São João Batista de Leonardo da Vinci"
+          ]
+        },
+        {
+          "id": "leonardo_da_vinci",
+          "nome": "Leonardo da Vinci",
+          "descricao": "Pintor, inventor e cientista renascentista italiano, autor da Mona Lisa e de A Última Ceia, que viveu de 1452 a 1519.",
+          "variantes": [
+            "Leonardo",
+            "Da Vinci",
+            "Leonardo di ser Piero da Vinci"
+          ]
+        },
+        {
+          "id": "retrato_de_juan_de_pareja",
+          "nome": "Retrato de Juan de Pareja",
+          "descricao": "Retrato de Velázquez, de 1650, do assistente escravizado Juan de Pareja, no Metropolitan Museum de Nova York.",
+          "variantes": [
+            "Retrato de Juan de Pareja (Velázquez)",
+            "Portrait of Juan de Pareja"
+          ]
+        },
+        {
+          "id": "retrato_de_madame_recamier_david",
+          "nome": "Retrato de Madame Récamier (David)",
+          "descricao": "Retrato inacabado de Juliette Récamier, pintado por Jacques-Louis David em 1800, reclinada num divã.",
+          "variantes": [
+            "Madame Récamier",
+            "Portrait of Madame Récamier",
+            "Retrato de Madame de Récamier"
+          ]
+        },
+        {
+          "id": "o_casal_arnolfini",
+          "nome": "O Casal Arnolfini",
+          "descricao": "Quadro de Jan van Eyck de 1434.",
+          "variantes": [
+            "Arnolfini Portrait",
+            "O Retrato de Arnolfini"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Expulsão do Jardim do Éden (Masaccio)",
+        "descricao": "Afresco de Masaccio, c. 1425, na Capela Brancacci, em Florença, que mostra Adão e Eva expulsos do Paraíso.",
+        "variantes": [
+          "Expulsão do Paraíso",
+          "Cacciata dei progenitori dall'Eden"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        },
+        {
+          "id": "aves_do_paraiso",
+          "nome": "Aves-do-paraíso",
+          "descricao": "Família de aves (Paradisaeidae) de plumagens exuberantes e danças de corte, sobretudo da Nova Guiné.",
+          "variantes": [
+            "Paradisaeidae",
+            "Ave-do-paraíso",
+            "Birds-of-paradise"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "ave_do_paraiso",
+          "nome": "Ave-do-paraíso",
+          "descricao": "Planta Strelitzia reginae, nativa da África do Sul, de flor laranja e azul.",
+          "variantes": [
+            "Estrelítzia",
+            "Strelitzia reginae",
+            "Flor-da-rainha"
+          ]
+        },
+        {
+          "id": "heliconia",
+          "nome": "Helicônia",
+          "descricao": "Planta tropical do gênero Heliconia, de brácteas coloridas e pontiagudas dispostas em fileira.",
+          "variantes": [
+            "Bananeira-do-mato",
+            "Falsa-ave-do-paraíso"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "O Bibliotecário (Arcimboldo)",
+        "descricao": "Retrato composto de livros, pintado por Giuseppe Arcimboldo por volta de 1566, no Castelo de Skokloster, na Suécia.",
+        "variantes": [
+          "The Librarian",
+          "Der Bibliothekar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cloud_gate",
+          "nome": "Cloud Gate",
+          "descricao": "Escultura de aço inoxidável espelhado de Anish Kapoor, no Millennium Park, em Chicago.",
+          "variantes": [
+            "The Bean",
+            "O Feijão"
+          ]
+        },
+        {
+          "id": "tenia_solitaria",
+          "nome": "Tênia (solitária)",
+          "descricao": "Platelminto parasita intestinal do gênero Taenia, com escólex dotado de ventosas e ganchos.",
+          "variantes": [
+            "Solitária",
+            "Taenia solium",
+            "Taenia",
+            "Tapeworm"
+          ]
+        },
+        {
+          "id": "o_corvo",
+          "nome": "O Corvo",
+          "descricao": "Poema narrativo de Edgar Allan Poe, publicado em 1845.",
+          "variantes": [
+            "The Raven"
+          ]
+        },
+        {
+          "id": "barbaro_termo_grego",
+          "nome": "Bárbaro (termo grego)",
+          "descricao": "Termo usado pelos gregos antigos para designar os povos estrangeiros que não falavam grego.",
+          "variantes": [
+            "Barbaros",
+            "Barbarian"
+          ]
+        },
+        {
+          "id": "os_maias",
+          "nome": "Os Maias",
+          "descricao": "Romance de Eça de Queirós, publicado em 1888, sobre a decadência de uma família rica de Lisboa.",
+          "variantes": [
+            "The Maias"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mulher Segurando uma Balança (Vermeer)",
+        "descricao": "Pintura de Johannes Vermeer, c. 1662-1663, na National Gallery of Art, em Washington.",
+        "variantes": [
+          "Woman Holding a Balance",
+          "Mulher pesando ouro",
+          "Vrouw met weegschaal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quilate_pureza_do_ouro",
+          "nome": "Quilate (pureza do ouro)",
+          "descricao": "Unidade que indica a proporção de ouro puro numa liga, em partes de vinte e quatro.",
+          "variantes": [
+            "Quilate",
+            "Karat",
+            "Quilatagem"
+          ]
+        },
+        {
+          "id": "moca_lendo_uma_carta_a_janela_vermeer",
+          "nome": "Moça Lendo uma Carta à Janela (Vermeer)",
+          "descricao": "Pintura de Johannes Vermeer, na Gemäldegalerie de Dresden, que mostra uma jovem lendo uma carta diante de uma janela aberta.",
+          "variantes": [
+            "Girl Reading a Letter at an Open Window",
+            "Mulher lendo uma carta à janela"
+          ]
+        },
+        {
+          "id": "venus_de_willendorf",
+          "nome": "Vênus de Willendorf",
+          "descricao": "Estatueta paleolítica de uma figura feminina, esculpida em calcário.",
+          "variantes": [
+            "Venus of Willendorf",
+            "Mulher de Willendorf"
+          ]
+        },
+        {
+          "id": "razao_aurea",
+          "nome": "Razão áurea",
+          "descricao": "Número irracional aproximadamente igual a um vírgula seis um oito, também chamado proporção áurea ou número de ouro.",
+          "variantes": [
+            "Proporção áurea",
+            "Número de ouro",
+            "Golden ratio"
+          ]
+        },
+        {
+          "id": "mulher_gato",
+          "nome": "Mulher-Gato",
+          "descricao": "Personagem da DC Comics, ladra de Gotham City e interesse amoroso do Batman, cuja identidade civil é Selina Kyle.",
+          "variantes": [
+            "Catwoman",
+            "Selina Kyle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Autorretrato com Dois Círculos (Rembrandt)",
+        "descricao": "Autorretrato a óleo de Rembrandt, c. 1665-1669, em Kenwood House, Londres, com dois círculos ao fundo.",
+        "variantes": [
+          "Self-Portrait with Two Circles",
+          "Autorretrato com dois círculos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "autorretrato_com_a_orelha_enfaixada",
+          "nome": "Autorretrato com a Orelha Enfaixada",
+          "descricao": "Autorretrato de Vincent van Gogh de 1889.",
+          "variantes": [
+            "Self-Portrait with Bandaged Ear"
+          ]
+        },
+        {
+          "id": "3000_metros_com_obstaculos",
+          "nome": "3000 metros com obstáculos",
+          "descricao": "Prova do atletismo em que os corredores saltam barreiras e um fosso com água ao longo de três mil metros.",
+          "variantes": [
+            "Steeplechase",
+            "Corrida com obstáculos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Nossa Senhora de Guadalupe",
+        "descricao": "Imagem venerada da Virgem Maria na tilma de Juan Diego, na Basílica de Guadalupe, na Cidade do México.",
+        "variantes": [
+          "Virgem de Guadalupe",
+          "Virgen de Guadalupe",
+          "La Virgen Morena"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "basilica_de_nossa_senhora_de_guadalupe",
+          "nome": "Basílica de Nossa Senhora de Guadalupe",
+          "descricao": "Basílica circular moderna ao pé do morro de Tepeyac, na Cidade do México, um dos santuários mais visitados do mundo.",
+          "variantes": [
+            "Basílica de Santa María de Guadalupe",
+            "Nova Basílica de Guadalupe"
+          ]
+        },
+        {
+          "id": "catedral_de_notre_dame_de_paris",
+          "nome": "Catedral de Notre-Dame de Paris",
+          "descricao": "Catedral gótica medieval na Île de la Cité, em Paris.",
+          "variantes": [
+            "Notre-Dame",
+            "Notre Dame de Paris",
+            "Nossa Senhora de Paris"
+          ]
+        },
+        {
+          "id": "nossa_senhora_de_vladimir",
+          "nome": "Nossa Senhora de Vladimir",
+          "descricao": "Ícone bizantino do século doze da Virgem com o Menino, tipo Eleousa, venerado na Rússia.",
+          "variantes": [
+            "Teótoco de Vladimir",
+            "Virgem de Vladimir"
+          ]
+        },
+        {
+          "id": "nossa_senhora_aparecida",
+          "nome": "Nossa Senhora Aparecida",
+          "descricao": "Imagem de Nossa Senhora da Conceição encontrada em 1717, padroeira do Brasil",
+          "variantes": [
+            "Nossa Senhora da Conceição Aparecida",
+            "Our Lady of Aparecida",
+            "Imagem de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "cirio_de_nazare",
+          "nome": "Círio de Nazaré",
+          "descricao": "Grande procissão católica em honra de Nossa Senhora de Nazaré realizada em Belém do Pará em outubro.",
+          "variantes": [
+            "Círio de Nossa Senhora de Nazaré"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Whistlejacket (Stubbs)",
+        "descricao": "Pintura de George Stubbs, c. 1762, de um cavalo de corrida empinado, na National Gallery, em Londres.",
+        "variantes": [
+          "Whistlejacket"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "wicket",
+          "nome": "Wicket",
+          "descricao": "Conjunto de três estacas e duas travessas guardado pelo rebatedor no críquete.",
+          "variantes": [
+            "Wicket de críquete",
+            "Stumps"
+          ]
+        },
+        {
+          "id": "smoking",
+          "nome": "Smoking",
+          "descricao": "Traje masculino de gala com lapelas de cetim, chamado tuxedo nos Estados Unidos",
+          "variantes": [
+            "Tuxedo",
+            "Dinner jacket"
+          ]
+        },
+        {
+          "id": "jaqueta_bomber",
+          "nome": "Jaqueta bomber",
+          "descricao": "Jaqueta curta de couro com gola de pelo e punhos e barra de malha, criada para pilotos e depois popularizada como moda.",
+          "variantes": [
+            "Bomber",
+            "Jaqueta de aviador",
+            "Flight jacket"
+          ]
+        },
+        {
+          "id": "uisque",
+          "nome": "Uísque",
+          "descricao": "Bebida destilada de cereais maltados e envelhecida em barris, tradicional da Escócia e da Irlanda",
+          "variantes": [
+            "Whisky",
+            "Whiskey"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "O Nobre com a Mão no Peito (El Greco)",
+        "descricao": "Retrato a óleo de El Greco, c. 1580, no Museu do Prado, em Madri.",
+        "variantes": [
+          "O cavaleiro da mão no peito",
+          "El caballero de la mano en el pecho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "os_cavaleiros_do_zodiaco",
+          "nome": "Os Cavaleiros do Zodíaco",
+          "descricao": "Mangá e anime de Masami Kurumada sobre guerreiros que protegem a deusa Atena, chamado Saint Seiya no Japão.",
+          "variantes": [
+            "Saint Seiya",
+            "Les Chevaliers du Zodiaque"
+          ]
+        },
+        {
+          "id": "batman_o_cavaleiro_das_trevas",
+          "nome": "Batman: O Cavaleiro das Trevas",
+          "descricao": "Filme de super-herói de 2008 dirigido por Christopher Nolan, com Christian Bale como Batman e Heath Ledger como Coringa.",
+          "variantes": [
+            "The Dark Knight",
+            "O Cavaleiro das Trevas"
+          ]
+        },
+        {
+          "id": "o_cavaleiro_sorridente",
+          "nome": "O Cavaleiro Sorridente",
+          "descricao": "Retrato de 1624 pintado por Frans Hals, guardado na Wallace Collection, em Londres.",
+          "variantes": [
+            "The Laughing Cavalier",
+            "O Cavaleiro Risonho"
+          ]
+        },
+        {
+          "id": "o_cavaleiro_a_morte_e_o_diabo",
+          "nome": "O Cavaleiro, a Morte e o Diabo",
+          "descricao": "Gravura em metal de Albrecht Dürer, de 1513, com um cavaleiro armado entre a Morte e o Diabo.",
+          "variantes": [
+            "O Cavaleiro, a Morte e o Diabo (Dürer)",
+            "Ritter, Tod und Teufel",
+            "Knight, Death and the Devil"
+          ]
+        },
+        {
+          "id": "tavola_redonda",
+          "nome": "Távola Redonda",
+          "descricao": "Mesa lendária em que o rei Artur reunia seus cavaleiros em Camelot.",
+          "variantes": [
+            "Mesa Redonda",
+            "Round Table",
+            "Cavaleiros da Távola Redonda"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Dânae (Rembrandt)",
+        "descricao": "Pintura de Rembrandt, de 1636 e retocada até 1643, sobre a personagem mitológica Dânae, no Museu Hermitage, em São Petersburgo.",
+        "variantes": [
+          "Danaë",
+          "Danae"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "danae_klimt",
+          "nome": "Dânae (Klimt)",
+          "descricao": "Pintura simbolista de 1907 de Gustav Klimt que retrata Dânae adormecida sob a chuva de ouro.",
+          "variantes": [
+            "Danaë",
+            "Danae"
+          ]
+        },
+        {
+          "id": "dante_alighieri",
+          "nome": "Dante Alighieri",
+          "descricao": "Poeta florentino, autor da Divina Comédia.",
+          "variantes": [
+            "Dante"
+          ]
+        },
+        {
+          "id": "a_danca",
+          "nome": "A Dança",
+          "descricao": "Grande painel decorativo de Henri Matisse de 1910, com cinco figuras vermelhas dançando em roda sobre fundo azul e verde, no Museu Hermitage.",
+          "variantes": [
+            "A Dança (Matisse)",
+            "La Danse",
+            "Dance",
+            "A Dança de Matisse"
+          ]
+        },
+        {
+          "id": "leon",
+          "nome": "Leon",
+          "descricao": "Campeão da Liga Pokémon de Galar nos jogos Sword e Shield, adversário de Ash na final do Mundial no anime Jornadas Pokémon.",
+          "variantes": [
+            "Dande"
+          ]
+        },
+        {
+          "id": "artemis",
+          "nome": "Ártemis",
+          "descricao": "Deusa grega da caça e da Lua, filha de Zeus e Leto.",
+          "variantes": [
+            "Diana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Dulle Griet (Bruegel)",
+        "descricao": "Pintura a óleo de Pieter Bruegel, o Velho, de 1563, no Museu Mayer van den Bergh, em Antuérpia.",
+        "variantes": [
+          "Dull Gret",
+          "Mad Meg",
+          "Margot, a Louca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mad_men",
+          "nome": "Mad Men",
+          "descricao": "Série dramática americana exibida de 2007 a 2015, sobre publicitários de uma agência de Nova York nos anos sessenta.",
+          "variantes": []
+        },
+        {
+          "id": "amigo_da_onca",
+          "nome": "Amigo da Onça",
+          "descricao": "Personagem de humor publicado na revista O Cruzeiro a partir de 1943, que vive deixando os outros em apuros",
+          "variantes": []
+        },
+        {
+          "id": "maome",
+          "nome": "Maomé",
+          "descricao": "Profeta do islã, nascido em Meca",
+          "variantes": [
+            "Muhammad",
+            "Mohammed"
+          ]
+        },
+        {
+          "id": "retrato_de_madame_x",
+          "nome": "Retrato de Madame X",
+          "descricao": "Retrato de 1884 de Virginie Gautreau, pintado por John Singer Sargent.",
+          "variantes": [
+            "Madame X",
+            "Portrait of Madame X"
+          ]
+        },
+        {
+          "id": "mariposa_luna",
+          "nome": "Mariposa-luna",
+          "descricao": "Grande mariposa verde-clara norte-americana da família Saturniidae, com caudas nas asas posteriores (Actias luna).",
+          "variantes": [
+            "Actias luna",
+            "Luna moth"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Desenho em sanguínea distinto das candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Afresco de Masaccio; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pintura de Arcimboldo; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pintura de Vermeer distinta da outra obra de Vermeer."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Autorretrato de Rembrandt, diferente do de Van Gogh."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "A imagem é distinta da basílica e de outras imagens marianas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Pintura de Stubbs; candidatas não relacionadas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Retrato de El Greco; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Dânae de Rembrandt é obra diferente da de Klimt."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Pintura de Bruegel; nenhuma candidata corresponde."
+    }
+  ]
+}

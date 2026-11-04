@@ -1,0 +1,121 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Desenho de c. 1510, portanto século dezesseis. O enunciado não nomeia nada e os distratores são séculos vizinhos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz 'Adão e Eva', o que nomeia o tema da figura. Outros afrescos também mostram Adão e Eva, então a pista só confunde.",
+      "reescrita": {
+        "pergunta": "Em que século foi pintado este afresco?",
+        "resposta": "Século quinze",
+        "distratores": [
+          "Século catorze",
+          "Século dezesseis",
+          "Século dezessete"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Arcimboldo é italiano, a obra é do século dezesseis e a data é c. 1566. A pista não entrega o autor, e os distratores são plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vermeer, c. 1662-63, século dezessete. A descrição é genérica e a figura é necessária. Os distratores são pintores holandeses contemporâneos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pintado entre 1665 e 1669, século dezessete. O trecho confirma paleta e pincéis. O enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A imagem está na Basílica de Guadalupe, na Cidade do México. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cavalo empinado em tamanho natural' descreve a obra e quase a identifica, então a figura vira enfeite. Os distratores Géricault e Bonheur são do século dezenove, e o enunciado já os elimina.",
+      "reescrita": {
+        "pergunta": "Que pintor britânico do século dezoito fez este retrato de um cavalo de corrida?",
+        "resposta": "George Stubbs",
+        "distratores": [
+          "Thomas Gainsborough",
+          "Joshua Reynolds",
+          "William Hogarth"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Fidalgo com a mão no peito' é o título da obra, então o enunciado a nomeia. Os distratores são todos do século dezessete.",
+      "reescrita": {
+        "pergunta": "Que pintor ativo na Espanha no século dezesseis fez este retrato?",
+        "resposta": "El Greco",
+        "distratores": [
+          "Alonso Sánchez Coello",
+          "Luis de Morales",
+          "Juan Pantoja de la Cruz"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pintura está no Hermitage, em São Petersburgo. Rembrandt tem outras obras mitológicas, então a figura é necessária. Os distratores são museus plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Gravura japonesa em xilogravura' entrega ukiyo-e sem a imagem. Os distratores (sumi-e, nihonga, rinpa) não são gêneros de xilogravura, então são pouco críveis. A pergunta é melhor se pedir a série, que o trecho confirma.",
+      "reescrita": {
+        "pergunta": "De que série de Hiroshige faz parte esta xilogravura?",
+        "resposta": "Cem Vistas Famosas de Edo",
+        "distratores": [
+          "Cinquenta e Três Estações",
+          "Sessenta e Nove Estações",
+          "Oito Vistas de Ōmi"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mulher armada que invade o inferno' resume o tema da obra, então o enunciado permite reconhecê-la sem a imagem.",
+      "reescrita": {
+        "pergunta": "Que pintor flamenco do século dezesseis fez este quadro?",
+        "resposta": "Pieter Bruegel, o Velho",
+        "distratores": [
+          "Hieronymus Bosch",
+          "Jan Brueghel, o Velho",
+          "Joachim Patinir"
+        ]
+      }
+    }
+  ]
+}

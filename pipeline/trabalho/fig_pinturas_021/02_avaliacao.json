@@ -1,0 +1,275 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Desenho em sanguínea claro, sem texto relevante; o século é defensável (c. 1510).",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que século foi feito este desenho a giz vermelho?",
+      "resposta": "Século dezesseis",
+      "distratores": [
+        "Século quinze",
+        "Século dezessete",
+        "Século dezoito"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Retrato de um homem em giz vermelho (Leonardo da Vinci)",
+        "descricao": "Desenho em sanguínea de c. 1510, atribuído a Leonardo da Vinci como autorretrato, na Biblioteca Real de Turim.",
+        "variantes": [
+          "Autorretrato de Leonardo da Vinci",
+          "Portrait of a Man in Red Chalk"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Afresco claro, sem texto; detalhe da Capela Brancacci reconhecível.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que século foi pintado este afresco que mostra Adão e Eva?",
+      "resposta": "Século quinze",
+      "distratores": [
+        "Século catorze",
+        "Século dezesseis",
+        "Século dezessete"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Expulsão do Jardim do Éden (Masaccio)",
+        "descricao": "Afresco de Masaccio, c. 1425, na Capela Brancacci, em Florença, que mostra Adão e Eva expulsos do Paraíso.",
+        "variantes": [
+          "Expulsão do Paraíso",
+          "Cacciata dei progenitori dall'Eden"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem nítida e inconfundível, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que pintor italiano do século dezesseis fez este retrato?",
+      "resposta": "Giuseppe Arcimboldo",
+      "distratores": [
+        "Hieronymus Bosch",
+        "Pieter Bruegel, o Velho",
+        "Federico Barocci"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Bibliotecário (Arcimboldo)",
+        "descricao": "Retrato composto de livros, pintado por Giuseppe Arcimboldo por volta de 1566, no Castelo de Skokloster, na Suécia.",
+        "variantes": [
+          "The Librarian",
+          "Der Bibliothekar"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Obra famosa, clara, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem pintou este quadro de uma mulher junto a uma mesa, no século dezessete?",
+      "resposta": "Johannes Vermeer",
+      "distratores": [
+        "Pieter de Hooch",
+        "Gerard ter Borch",
+        "Gabriel Metsu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mulher Segurando uma Balança (Vermeer)",
+        "descricao": "Pintura de Johannes Vermeer, c. 1662-1663, na National Gallery of Art, em Washington.",
+        "variantes": [
+          "Woman Holding a Balance",
+          "Mulher pesando ouro",
+          "Vrouw met weegschaal"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Autorretrato reconhecível, sem texto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que século foi pintado este autorretrato com paleta e pincéis?",
+      "resposta": "Século dezessete",
+      "distratores": [
+        "Século quinze",
+        "Século dezesseis",
+        "Século dezoito"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Autorretrato com Dois Círculos (Rembrandt)",
+        "descricao": "Autorretrato a óleo de Rembrandt, c. 1665-1669, em Kenwood House, Londres, com dois círculos ao fundo.",
+        "variantes": [
+          "Self-Portrait with Two Circles",
+          "Autorretrato com dois círculos"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem clara e emblemática, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica o santuário que guarda esta imagem venerada?",
+      "resposta": "México",
+      "distratores": [
+        "Espanha",
+        "Peru",
+        "Colômbia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nossa Senhora de Guadalupe",
+        "descricao": "Imagem venerada da Virgem Maria na tilma de Juan Diego, na Basílica de Guadalupe, na Cidade do México.",
+        "variantes": [
+          "Virgem de Guadalupe",
+          "Virgen de Guadalupe",
+          "La Virgen Morena"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cavalo sobre fundo liso, sem texto; obra muito reconhecível.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem pintou este cavalo empinado, em tamanho natural, no século dezoito?",
+      "resposta": "George Stubbs",
+      "distratores": [
+        "Théodore Géricault",
+        "Rosa Bonheur",
+        "Thomas Gainsborough"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Whistlejacket (Stubbs)",
+        "descricao": "Pintura de George Stubbs, c. 1762, de um cavalo de corrida empinado, na National Gallery, em Londres.",
+        "variantes": [
+          "Whistlejacket"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato famoso, sem texto que entregue (apenas número de inventário).",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem pintou este retrato de um fidalgo com a mão no peito?",
+      "resposta": "El Greco",
+      "distratores": [
+        "Diego Velázquez",
+        "Francisco de Zurbarán",
+        "José de Ribera"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Nobre com a Mão no Peito (El Greco)",
+        "descricao": "Retrato a óleo de El Greco, c. 1580, no Museu do Prado, em Madri.",
+        "variantes": [
+          "O cavaleiro da mão no peito",
+          "El caballero de la mano en el pecho"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Obra clara, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que museu fica este quadro mitológico de Rembrandt?",
+      "resposta": "Hermitage",
+      "distratores": [
+        "Louvre",
+        "Museu do Prado",
+        "Rijksmuseum"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dânae (Rembrandt)",
+        "descricao": "Pintura de Rembrandt, de 1636 e retocada até 1643, sobre a personagem mitológica Dânae, no Museu Hermitage, em São Petersburgo.",
+        "variantes": [
+          "Danaë",
+          "Danae"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Gravura legível; texto em japonês na cartela e assinatura não entrega a resposta para o público.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que gênero de gravura japonesa em xilogravura é este?",
+      "resposta": "Ukiyo-e",
+      "distratores": [
+        "Sumi-e",
+        "Nihonga",
+        "Rinpa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jardim de Ameixeiras em Kameido (Hiroshige)",
+        "descricao": "Xilogravura ukiyo-e de Hiroshige, de 1857, da série Cem Vistas Famosas de Edo.",
+        "variantes": [
+          "Plum Park in Kameido",
+          "Kameido Umeyashiki"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A assinatura 'Serov 87' é visível no canto e entrega a resposta de autoria e época; a pergunta de reconhecimento fica comprometida."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem nítida e inconfundível, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem pintou este quadro de uma mulher armada que invade o inferno?",
+      "resposta": "Pieter Bruegel, o Velho",
+      "distratores": [
+        "Hieronymus Bosch",
+        "Jan Brueghel, o Velho",
+        "Joachim Patinir"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dulle Griet (Bruegel)",
+        "descricao": "Pintura a óleo de Pieter Bruegel, o Velho, de 1563, no Museu Mayer van den Bergh, em Antuérpia.",
+        "variantes": [
+          "Dull Gret",
+          "Mad Meg",
+          "Margot, a Louca"
+        ]
+      }
+    }
+  ]
+}
