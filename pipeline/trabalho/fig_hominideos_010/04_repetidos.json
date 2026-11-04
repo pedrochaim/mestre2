@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta mulher entalhada na pedra, num abrigo da França, tem aproximadamente quantos anos?",
+        "resposta": "25 mil anos"
+      },
+      "existentes": [
+        {
+          "id": "q14004",
+          "pergunta": "Que obra de arte do Paleolítico superior, entalhada na pedra, é esta?",
+          "resposta": "Vênus de Laussel"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Esta estatueta paleolítica, achada na atual República Tcheca, está entre os objetos mais antigos do mundo feitos de que material?",
+        "resposta": "Cerâmica"
+      },
+      "existentes": [
+        {
+          "id": "q13999",
+          "pergunta": "Em que país foi encontrada esta estatueta de cerâmica, de cerca de trinta mil anos?",
+          "resposta": "República Tcheca"
+        },
+        {
+          "id": "q14192",
+          "pergunta": "A Vênus de Dolní Věstonice, estatueta de cerca de trinta mil anos, é um dos objetos mais antigos do mundo feitos de qual material?",
+          "resposta": "Cerâmica (argila cozida)"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que estatueta paleolítica é esta?",
+        "resposta": "Vênus de Lespugue"
+      },
+      "existentes": [
+        {
+          "id": "q13981",
+          "pergunta": "Em que país foi encontrada esta estatueta feminina de cerca de 25 mil anos?",
+          "resposta": "França"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre a idade da obra; a existente pergunta qual é a obra. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "A existente q14192 já pergunta de que material é a estatueta, com resposta cerâmica. É o mesmo fato.",
+      "id_existente": "q14192"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre a identidade da estatueta; a existente é sobre o país onde foi encontrada. Fatos diferentes."
+    }
+  ]
+}

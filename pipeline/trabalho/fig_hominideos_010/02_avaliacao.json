@@ -1,0 +1,139 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Chimpanzé num piano, sem nada que permita reconhecer que é a Chita do Tarzan; há mão de pessoa comum no quadro. A resposta não é única diante da imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Mandíbula fóssil que não é reconhecível pela imagem como Dryopithecus; só um especialista a identificaria e ela se confunde com outros primatas do Mioceno."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Cinco lanças de tamanhos diferentes na mesma imagem, sem relação com hominídeos; vários objetos e assunto fora do catálogo."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Baixo-relevo paleolítico claro, sem texto, reconhecível pelo chifre e pela figura feminina.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta mulher entalhada na pedra, num abrigo da França, tem aproximadamente quantos anos?",
+      "resposta": "25 mil anos",
+      "distratores": [
+        "10 mil anos",
+        "15 mil anos",
+        "40 mil anos"
+      ],
+      "ancora": {
+        "nome": "Vênus de Laussel",
+        "descricao": "Baixo-relevo paleolítico gravetiano de uma mulher nua segurando um chifre, esculpido num abrigo rochoso de Laussel, na Dordonha, França.",
+        "variantes": [
+          "Venus of Laussel",
+          "Mulher do chifre"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Abrigo rochoso coberto de vegetação, com placa legível que entrega o local; sem elementos que o tornem reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Diagrama anatômico cheio de rótulos em latim, incluindo o nome do músculo; fora do tema e com texto que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Estatueta paleolítica bem fotografada, fundo preto, sem texto; reconhecível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta estatueta paleolítica, achada na atual República Tcheca, está entre os objetos mais antigos do mundo feitos de que material?",
+      "resposta": "Cerâmica",
+      "distratores": [
+        "Marfim",
+        "Osso",
+        "Calcário"
+      ],
+      "ancora": {
+        "nome": "Vênus de Dolní Věstonice",
+        "descricao": "Estatueta de cerâmica de uma figura feminina nua, de cerca de 30 mil anos (Gravetiano), achada em Dolní Věstonice, na República Tcheca.",
+        "variantes": [
+          "Venus of Dolní Věstonice",
+          "Věstonická venuše"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Crânio fóssil fragmentado que não é reconhecível pela imagem como Saadanius; resposta não sustentada pela figura."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Montagem de quatro fotos de gibões em cabos, distantes e em contraluz; não dá para identificar a espécie, que se confunde com outros gibões."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Esqueleto montado em vitrine com legenda em japonês visível (texto na imagem) e sem reconhecimento possível pela imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Estatueta paleolítica nítida, fundo branco, sem texto; distinguível de outras vênus por especialistas, adequada para múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estatueta paleolítica é esta?",
+      "resposta": "Vênus de Lespugue",
+      "distratores": [
+        "Vênus de Willendorf",
+        "Vênus de Hohle Fels",
+        "Vênus de Brassempouy"
+      ],
+      "ancora": {
+        "nome": "Vênus de Lespugue",
+        "descricao": "Estatueta gravetiana de marfim de uma figura feminina, de cerca de 25 mil anos, achada em Lespugue, na França.",
+        "variantes": [
+          "Venus of Lespugue"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Mandíbula fóssil nítida, fundo preto, sem texto; pergunta de nível 3 sobre o grupo humano a que pertenceu.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta mandíbula, achada numa caverna do planalto tibetano, na China, pertenceu a que grupo humano arcaico?",
+      "resposta": "Denisovanos",
+      "distratores": [
+        "Neandertais",
+        "Homo erectus",
+        "Homo floresiensis"
+      ],
+      "ancora": {
+        "nome": "Mandíbula de Xiahe",
+        "descricao": "Mandíbula fóssil de um denisovano, de cerca de 160 mil anos, achada na caverna de Baishiya, em Xiahe, Gansu, China.",
+        "variantes": [
+          "Xiahe mandible",
+          "Mandíbula de Baishiya"
+        ]
+      }
+    }
+  ]
+}
