@@ -1,0 +1,94 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Pista 'livraria on-line em 1994' entrega Amazon sem olhar a figura; a imagem virou enfeite. Passa a pedir o reconhecimento da pessoa.",
+      "reescrita": {
+        "pergunta": "Que empresário americano, nascido em 1964, é este?",
+        "resposta": "Jeff Bezos",
+        "distratores": [
+          "Elon Musk",
+          "Bill Gates",
+          "Mark Zuckerberg"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Imprecisão: o objeto inventado foi o aparelho de segurança com lâmina descartável; o aparelho em si não é descartável.",
+      "reescrita": {
+        "pergunta": "Este empresário americano, nascido em 1855, inventou qual objeto de uso diário?",
+        "resposta": "Aparelho de barbear com lâmina descartável",
+        "distratores": [
+          "Escova de dentes elétrica",
+          "Secador de cabelo",
+          "Cortador de unhas"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Nobel 2023 mais vacina entrega mRNA sem a figura (teste da imagem coberta). Passa a pedir o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que bioquímica húngara é esta?",
+        "resposta": "Katalin Karikó",
+        "distratores": [
+          "Jennifer Doudna",
+          "Emmanuelle Charpentier",
+          "Rosalind Franklin"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Físico indiano com classe de partículas com seu nome é um feito único que entrega Bose sem a imagem. Passa a pedir o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que físico indiano do século vinte é este?",
+        "resposta": "Satyendra Nath Bose",
+        "distratores": [
+          "Chandrasekhara Raman",
+          "Meghnad Saha",
+          "Homi Bhabha"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta entrega a resposta pelo teste da imagem coberta (unidade elétrica nomeada por físico alemão) e admite outras respostas, como Siemens ou Weber. Passa a pedir o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que físico alemão do início do século dezenove é este?",
+        "resposta": "Georg Ohm",
+        "distratores": [
+          "Heinrich Hertz",
+          "Gustav Kirchhoff",
+          "Wilhelm Röntgen"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A palavra 'matemática' no enunciado vaza parte da resposta, que pode ser deduzida sem a figura. 'Primeira' também é discutível, pois há outras primazias. Reformulada para um fato do trecho, que ela foi professora em Estocolmo.",
+      "reescrita": {
+        "pergunta": "Esta matemática russa do século dezenove foi professora em que universidade europeia?",
+        "resposta": "Universidade de Estocolmo",
+        "distratores": [
+          "Universidade de Göttingen",
+          "Universidade de Berlim",
+          "Universidade de Paris"
+        ]
+      }
+    }
+  ]
+}

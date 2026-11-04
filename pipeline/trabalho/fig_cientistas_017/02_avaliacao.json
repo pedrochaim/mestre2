@@ -1,0 +1,174 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que empresa este empresário americano fundou em 1994, começando como livraria on-line?",
+      "resposta": "Amazon",
+      "distratores": [
+        "eBay",
+        "Alibaba",
+        "Netflix"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Jeff Bezos",
+        "descricao": "Empresário americano, fundador da Amazon.",
+        "variantes": [
+          "Jeffrey Preston Bezos"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O retrato traz legenda dourada com o nome (EDMVND HALLEIVS) no alto, o que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico limpo, sem texto, de figura pública histórica.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este empresário americano é conhecido por inventar qual objeto de uso diário?",
+      "resposta": "Aparelho de barbear descartável",
+      "distratores": [
+        "Escova de dentes elétrica",
+        "Secador de cabelo",
+        "Cortador de unhas"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "King Camp Gillette",
+        "descricao": "Empresário americano que inventou o aparelho de barbear de segurança com lâmina descartável e fundou a Gillette.",
+        "variantes": [
+          "King C. Gillette"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O emblema da missão no uniforme traz os nomes dos tripulantes, incluindo RIDE, o que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pintura pouco conhecida, sem elemento que permita reconhecer o astrônomo; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Pintura obscura; o retrato não permite reconhecer a pessoa pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto antiga genérica; Eddington não é reconhecível pelo rosto e a imagem não ajuda a distingui-lo."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto simples, sem texto, de cientista laureada; imagem de baixa resolução, mas legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta bioquímica húngara ganhou o Nobel de Medicina em 2023 por pesquisas que abriram caminho para que tipo de vacina?",
+      "resposta": "Vacinas de RNA mensageiro",
+      "distratores": [
+        "Vacinas de vírus inativado",
+        "Vacinas de vetor viral",
+        "Vacinas de subunidade proteica"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Katalin Karikó",
+        "descricao": "Bioquímica húngara, Nobel de Fisiologia ou Medicina em 2023 por seu trabalho com RNA mensageiro.",
+        "variantes": [
+          "Katalin Kariko",
+          "Kati Karikó"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A moldura do quadro traz o nome escrito (FAMOSO DOCTOR PARESELSVS), o que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto antiga nítida, sem texto; o rosto sozinho é difícil, mas a pergunta exige reconhecer a pessoa.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que classe de partículas leva o nome deste físico indiano?",
+      "resposta": "Bósons",
+      "distratores": [
+        "Férmions",
+        "Léptons",
+        "Hádrons"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Satyendra Nath Bose",
+        "descricao": "Físico teórico e matemático indiano, autor da estatística de Bose-Einstein.",
+        "variantes": [
+          "S. N. Bose"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato impresso sem texto, de cientista histórico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que unidade de medida elétrica leva o nome deste físico alemão?",
+      "resposta": "Ohm",
+      "distratores": [
+        "Volt",
+        "Ampère",
+        "Watt"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Georg Ohm",
+        "descricao": "Físico e matemático alemão que formulou a lei que relaciona tensão e corrente elétrica.",
+        "variantes": [
+          "Georg Simon Ohm"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto antiga sem texto, de matemática histórica.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta matemática russa do século dezenove foi a primeira mulher no mundo moderno a obter o quê?",
+      "resposta": "Doutorado em matemática",
+      "distratores": [
+        "Prêmio Nobel de Física",
+        "Medalha Fields",
+        "Cátedra em Cambridge"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Sofia Kovalevskaya",
+        "descricao": "Matemática russa do século dezenove, primeira mulher a obter um doutorado em matemática no sentido moderno.",
+        "variantes": [
+          "Sofya Kovalevskaya",
+          "Sonya Kovalevsky"
+        ]
+      }
+    }
+  ]
+}
