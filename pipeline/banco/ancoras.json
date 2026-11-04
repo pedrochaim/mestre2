@@ -6075,7 +6075,10 @@
       "wikidata": "Q500242",
       "pt": 4906,
       "en": 56677
-    }
+    },
+    "variantes": [
+      "The Creation of Adam"
+    ]
   },
   {
     "id": "as_meninas",
@@ -6164,7 +6167,10 @@
       "wikidata": "Q328523",
       "pt": 1239,
       "en": 15542
-    }
+    },
+    "variantes": [
+      "Impression, soleil levant"
+    ]
   },
   {
     "id": "ninfeias_monet",
@@ -6338,7 +6344,11 @@
       "wikidata": "Q220859",
       "pt": 1368,
       "en": 23205
-    }
+    },
+    "variantes": [
+      "Arnolfini Portrait",
+      "O Retrato de Arnolfini"
+    ]
   },
   {
     "id": "os_embaixadores",
@@ -6690,7 +6700,10 @@
       "wikidata": "Q3647744",
       "pt": 501,
       "en": 456
-    }
+    },
+    "variantes": [
+      "Batalha do Avaí"
+    ]
   },
   {
     "id": "fundacao_de_sao_paulo_pintura",
@@ -46545,7 +46558,8 @@
     "nome": "Frida Kahlo",
     "descricao": "Pintora mexicana, famosa por seus autorretratos, que viveu de 1907 a 1954.",
     "variantes": [
-      "Magdalena Carmen Frida Kahlo y Calderón"
+      "Magdalena Carmen Frida Kahlo y Calderón",
+      "Frida"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Frida_Kahlo",
@@ -46600,7 +46614,8 @@
     "descricao": "Pintor holandês do século dezessete, autor de Moça com Brinco de Pérola e A Leiteira.",
     "variantes": [
       "Jan Vermeer",
-      "Vermeer de Delft"
+      "Vermeer de Delft",
+      "Vermeer"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Johannes_Vermeer",
@@ -87471,7 +87486,8 @@
     "descricao": "Pintura de Jacques-Louis David, de 1807, que retrata a coroação de Napoleão em Notre-Dame de Paris, guardada no Louvre.",
     "variantes": [
       "Le Sacre de Napoléon",
-      "The Coronation of Napoleon"
+      "The Coronation of Napoleon",
+      "A Sagração de Napoleão"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/The_Coronation_of_Napoleon",
@@ -95967,7 +95983,8 @@
     "descricao": "Fase de Pablo Picasso, entre 1901 e 1904, de quadros melancólicos pintados em tons de azul.",
     "variantes": [
       "Fase Azul",
-      "Picasso's Blue Period"
+      "Picasso's Blue Period",
+      "Blue Period"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Picasso's_Blue_Period"
@@ -220012,6 +220029,41 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Bacchus_%28Michelangelo%29",
       "https://pt.wikipedia.org/wiki/Baco_%28Michelangelo%29"
+    ]
+  },
+  {
+    "id": "rembrandt",
+    "nome": "Rembrandt",
+    "descricao": "Pintor holandês do século dezessete, Rembrandt van Rijn, autor de A Ronda Noturna, que viveu de 1606 a 1669.",
+    "variantes": [
+      "Rembrandt van Rijn",
+      "Rembrandt Harmenszoon van Rijn"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rembrandt"
+    ]
+  },
+  {
+    "id": "os_girassois_van_gogh",
+    "nome": "Os Girassóis (Van Gogh)",
+    "descricao": "Série de naturezas-mortas de Vincent van Gogh, pintadas em Arles a partir de 1888, com girassóis num vaso.",
+    "variantes": [
+      "Sunflowers",
+      "Os Girassóis"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sunflowers_(Van_Gogh_series)"
+    ]
+  },
+  {
+    "id": "surrealismo",
+    "nome": "Surrealismo",
+    "descricao": "Movimento artístico e literário de vanguarda, lançado em Paris nos anos 1920 por André Breton, que explora o sonho e o inconsciente.",
+    "variantes": [
+      "Surrealism"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Surrealism"
     ]
   }
 ]

@@ -1,0 +1,1076 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A Mona Lisa, de Leonardo da Vinci, não foi pintada sobre tela. Sobre que suporte ela foi pintada?",
+        "resposta": "Painel de madeira de choupo"
+      },
+      "existentes": [
+        {
+          "id": "q00412",
+          "pergunta": "Em que museu fica este quadro?",
+          "resposta": "Museu do Louvre, em Paris"
+        },
+        {
+          "id": "q03032",
+          "pergunta": "Na Itália e na França, a Mona Lisa é chamada de Gioconda. De onde vem esse nome?",
+          "resposta": "Do sobrenome do marido da retratada"
+        },
+        {
+          "id": "q07617",
+          "pergunta": "Em que século foi pintado este quadro?",
+          "resposta": "Século dezesseis"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No título Mona Lisa, a palavra mona é a forma abreviada de que tratamento respeitoso em italiano?",
+        "resposta": "Madonna (minha senhora)"
+      },
+      "existentes": [
+        {
+          "id": "q00412",
+          "pergunta": "Em que museu fica este quadro?",
+          "resposta": "Museu do Louvre, em Paris"
+        },
+        {
+          "id": "q03032",
+          "pergunta": "Na Itália e na França, a Mona Lisa é chamada de Gioconda. De onde vem esse nome?",
+          "resposta": "Do sobrenome do marido da retratada"
+        },
+        {
+          "id": "q07617",
+          "pergunta": "Em que século foi pintado este quadro?",
+          "resposta": "Século dezesseis"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em primeiro plano n'A Noite Estrelada, de Van Gogh, uma árvore escura sobe como uma chama em direção ao céu. Que árvore é essa?",
+        "resposta": "Cipreste"
+      },
+      "existentes": [
+        {
+          "id": "q00403",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Vincent van Gogh"
+        },
+        {
+          "id": "q03062",
+          "pergunta": "Van Gogh pintou A Noite Estrelada a partir da vista da janela do lugar onde estava internado. Que lugar era esse?",
+          "resposta": "Um asilo psiquiátrico em Saint-Rémy"
+        },
+        {
+          "id": "q06585",
+          "pergunta": "Que cantor americano gravou, em 1971, a canção Vincent, que começa evocando A Noite Estrelada de Van Gogh?",
+          "resposta": "Don McLean"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Na versão de 1893 d'O Grito há uma frase a lápis, escrita pelo próprio Munch, dizendo que o quadro só poderia ter sido pintado por quem?",
+        "resposta": "Por um louco"
+      },
+      "existentes": [
+        {
+          "id": "q00404",
+          "pergunta": "Qual é o nome deste quadro?",
+          "resposta": "O Grito"
+        },
+        {
+          "id": "q06564",
+          "pergunta": "Em 1994, uma versão de O Grito foi roubada em Oslo no dia da abertura de que grande evento esportivo, sediado na Noruega?",
+          "resposta": "Olimpíadas de Inverno de Lillehammer"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Munch contou que O Grito nasceu de algo que ele viu no céu durante um passeio com dois amigos, perto de um fiorde. O que foi?",
+        "resposta": "O pôr do sol vermelho-sangue"
+      },
+      "existentes": [
+        {
+          "id": "q00404",
+          "pergunta": "Qual é o nome deste quadro?",
+          "resposta": "O Grito"
+        },
+        {
+          "id": "q06564",
+          "pergunta": "Em 1994, uma versão de O Grito foi roubada em Oslo no dia da abertura de que grande evento esportivo, sediado na Noruega?",
+          "resposta": "Olimpíadas de Inverno de Lillehammer"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em 1652, abriram uma porta na parede onde está A Última Ceia, de Leonardo. Que parte da figura de Jesus se perdeu com isso?",
+        "resposta": "Os pés"
+      },
+      "existentes": [
+        {
+          "id": "q00413",
+          "pergunta": "Qual é o nome desta pintura?",
+          "resposta": "A Última Ceia"
+        },
+        {
+          "id": "q03045",
+          "pergunta": "A Última Ceia, de Leonardo da Vinci, começou a descascar poucos anos depois de pronta. Por quê?",
+          "resposta": "Foi pintada na parede seca, e não em afresco"
+        },
+        {
+          "id": "q06559",
+          "pergunta": "A Última Ceia, de Leonardo da Vinci, foi pintada no fim de que século?",
+          "resposta": "Século quinze"
+        },
+        {
+          "id": "q16378",
+          "pergunta": "Em que cidade italiana fica esta pintura mural, feita na parede de um antigo refeitório?",
+          "resposta": "Milão"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "A Última Ceia, de Leonardo da Vinci, ocupa a parede de que cômodo do convento de Santa Maria delle Grazie, em Milão?",
+        "resposta": "O refeitório"
+      },
+      "existentes": [
+        {
+          "id": "q00413",
+          "pergunta": "Qual é o nome desta pintura?",
+          "resposta": "A Última Ceia"
+        },
+        {
+          "id": "q03045",
+          "pergunta": "A Última Ceia, de Leonardo da Vinci, começou a descascar poucos anos depois de pronta. Por quê?",
+          "resposta": "Foi pintada na parede seca, e não em afresco"
+        },
+        {
+          "id": "q06559",
+          "pergunta": "A Última Ceia, de Leonardo da Vinci, foi pintada no fim de que século?",
+          "resposta": "Século quinze"
+        },
+        {
+          "id": "q16378",
+          "pergunta": "Em que cidade italiana fica esta pintura mural, feita na parede de um antigo refeitório?",
+          "resposta": "Milão"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Na Ronda Noturna, de Rembrandt, uma menina iluminada leva presa à cintura uma ave morta, emblema da milícia retratada. Que ave é essa?",
+        "resposta": "Uma galinha"
+      },
+      "existentes": [
+        {
+          "id": "q00416",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Rembrandt"
+        },
+        {
+          "id": "q03033",
+          "pergunta": "A Ronda Noturna, de Rembrandt, mostra na verdade uma cena de dia. O que a fez parecer noturna e lhe rendeu esse nome?",
+          "resposta": "O verniz escurecido com o tempo"
+        },
+        {
+          "id": "q06583",
+          "pergunta": "Em 1715, A Ronda Noturna, de Rembrandt, teve faixas cortadas nas bordas. Qual foi o motivo?",
+          "resposta": "Caber numa parede da prefeitura de Amsterdã"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em 1990, um médico americano observou que o manto que envolve Deus e os anjos na Criação de Adão tem a forma de que órgão humano?",
+        "resposta": "O cérebro"
+      },
+      "existentes": [
+        {
+          "id": "q00414",
+          "pergunta": "Quem pintou esta cena?",
+          "resposta": "Michelangelo"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "No painel do inferno d'O Jardim das Delícias Terrenas, de Bosch, uma partitura musical aparece pintada em que parte do corpo de um condenado?",
+        "resposta": "Nas nádegas"
+      },
+      "existentes": [
+        {
+          "id": "q00417",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Hieronymus Bosch"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Na parede do quadro O Casal Arnolfini, logo acima do espelho, o pintor deixou uma frase escrita em latim. O que ela diz?",
+        "resposta": "Jan van Eyck esteve aqui"
+      },
+      "existentes": [
+        {
+          "id": "q00430",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Jan van Eyck"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Na Escola de Atenas, Rafael teria dado o rosto de Michelangelo a um filósofo sentado e pensativo, em primeiro plano. Que filósofo é esse?",
+        "resposta": "Heráclito"
+      },
+      "existentes": [
+        {
+          "id": "q00433",
+          "pergunta": "Quem pintou este afresco?",
+          "resposta": "Rafael"
+        },
+        {
+          "id": "q03057",
+          "pergunta": "No afresco A Escola de Atenas, Rafael teria dado ao filósofo Platão o rosto de que outro artista?",
+          "resposta": "Leonardo da Vinci"
+        },
+        {
+          "id": "q06566",
+          "pergunta": "Enquanto Rafael pintava A Escola de Atenas no Vaticano, entre 1509 e 1511, que obra famosa Michelangelo pintava ali perto?",
+          "resposta": "O teto da Capela Sistina"
+        },
+        {
+          "id": "q16689",
+          "pergunta": "Que papa encomendou este afresco para decorar salas do Vaticano?",
+          "resposta": "Júlio II"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O azul intenso da Grande Onda de Kanagawa vem de um pigmento sintético importado da Europa, então novidade no Japão. Que pigmento é esse?",
+        "resposta": "Azul da Prússia"
+      },
+      "existentes": [
+        {
+          "id": "q00407",
+          "pergunta": "Que artista japonês criou esta gravura?",
+          "resposta": "Hokusai"
+        },
+        {
+          "id": "q03067",
+          "pergunta": "A Grande Onda de Kanagawa, de Hokusai, faz parte de uma série cujo título fala em quantas vistas do Monte Fuji?",
+          "resposta": "Trinta e seis"
+        },
+        {
+          "id": "q06586",
+          "pergunta": "A Grande Onda de Kanagawa, de Hokusai, ilustrou a capa da partitura original de que obra orquestral de Claude Debussy?",
+          "resposta": "O Mar"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Na Coroação de Napoleão, de David, uma mulher aparece num lugar de honra, embora não tenha ido à cerimônia. Quem é ela?",
+        "resposta": "A mãe de Napoleão"
+      },
+      "existentes": [
+        {
+          "id": "q05957",
+          "pergunta": "Que estilo artístico marca esta pintura francesa do início do século dezenove?",
+          "resposta": "Neoclassicismo"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Para pintar o casal de Gótico Americano, Grant Wood usou como modelos a própria irmã e quem?",
+        "resposta": "O dentista dele"
+      },
+      "existentes": [
+        {
+          "id": "q00439",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Grant Wood"
+        },
+        {
+          "id": "q03040",
+          "pergunta": "No título do quadro Gótico Americano, de Grant Wood, a palavra gótico se refere a quê?",
+          "resposta": "Ao estilo arquitetônico da casa ao fundo"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Em As Meninas, Velázquez se pintou com uma cruz vermelha no peito, que teria sido acrescentada anos depois. Ela é o símbolo de que ordem de cavalaria?",
+        "resposta": "Ordem de Santiago"
+      },
+      "existentes": [
+        {
+          "id": "q00415",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Diego Velázquez"
+        },
+        {
+          "id": "q03070",
+          "pergunta": "No quadro As Meninas, de Velázquez, quem aparece refletido no pequeno espelho ao fundo da sala?",
+          "resposta": "O rei e a rainha da Espanha"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "No título do quadro As Meninas, de Velázquez, a palavra meninas designava que tipo de jovens da corte espanhola?",
+        "resposta": "Damas de honra da infanta"
+      },
+      "existentes": [
+        {
+          "id": "q00415",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Diego Velázquez"
+        },
+        {
+          "id": "q03070",
+          "pergunta": "No quadro As Meninas, de Velázquez, quem aparece refletido no pequeno espelho ao fundo da sala?",
+          "resposta": "O rei e a rainha da Espanha"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Na Moça com Brinco de Pérola, de Vermeer, a jovem usa na cabeça um turbante de que duas cores?",
+        "resposta": "Azul e amarelo"
+      },
+      "existentes": [
+        {
+          "id": "q00405",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Johannes Vermeer"
+        },
+        {
+          "id": "q06549",
+          "pergunta": "A Moça com Brinco de Pérola, de Vermeer, está num museu de que cidade holandesa, sede do governo do país?",
+          "resposta": "Haia"
+        },
+        {
+          "id": "q06587",
+          "pergunta": "Que atriz americana interpretou a criada que posa para Vermeer no filme Moça com Brinco de Pérola, de 2003?",
+          "resposta": "Scarlett Johansson"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Para retratar o bombardeio de Guernica, Picasso abriu mão das cores vivas. Em que tons o painel foi pintado?",
+        "resposta": "Preto, branco e cinza"
+      },
+      "existentes": [
+        {
+          "id": "q03041",
+          "pergunta": "Por vontade de Picasso, Guernica ficou décadas fora da Espanha. Que condição o país precisava cumprir para receber o quadro?",
+          "resposta": "Voltar a ser uma democracia"
+        },
+        {
+          "id": "q06550",
+          "pergunta": "Desde 1992, o painel Guernica, de Picasso, fica em que museu de Madri?",
+          "resposta": "Museu Reina Sofía"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Uma lenda diz que Michelangelo pintou o teto da Capela Sistina deitado de costas. Como ele de fato trabalhou?",
+        "resposta": "De pé, num andaime"
+      },
+      "existentes": [
+        {
+          "id": "q06560",
+          "pergunta": "Michelangelo começou a pintar o teto da Capela Sistina em 1508. Em que ano terminou o trabalho?",
+          "resposta": "1512"
+        },
+        {
+          "id": "q06592",
+          "pergunta": "No centro do teto da Capela Sistina, Michelangelo pintou quantas cenas do livro do Gênesis?",
+          "resposta": "Nove"
+        },
+        {
+          "id": "q08141",
+          "pergunta": "Em que século foi pintado este teto, obra de um mestre do Renascimento?",
+          "resposta": "Século dezesseis"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Os cadernos de anotações de Leonardo da Vinci são difíceis de ler por causa de um hábito curioso do autor. Que hábito é esse?",
+        "resposta": "Escrita espelhada"
+      },
+      "existentes": [
+        {
+          "id": "q03034",
+          "pergunta": "No nome Leonardo da Vinci, a palavra Vinci não é um sobrenome de família. O que ela indica?",
+          "resposta": "A cidade toscana de onde ele vinha"
+        },
+        {
+          "id": "q06558",
+          "pergunta": "Leonardo da Vinci não morreu na Itália. Em que país ele passou seus últimos anos e morreu, em 1519?",
+          "resposta": "França"
+        },
+        {
+          "id": "q13677",
+          "pergunta": "Leonardo da Vinci tinha um jeito curioso de escrever em seus cadernos de anotações. Como era essa escrita?",
+          "resposta": "Espelhada, da direita para a esquerda"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Destes grandes nomes do Renascimento italiano, qual nasceu primeiro?",
+        "resposta": "Leonardo da Vinci"
+      },
+      "existentes": [
+        {
+          "id": "q03034",
+          "pergunta": "No nome Leonardo da Vinci, a palavra Vinci não é um sobrenome de família. O que ela indica?",
+          "resposta": "A cidade toscana de onde ele vinha"
+        },
+        {
+          "id": "q06558",
+          "pergunta": "Leonardo da Vinci não morreu na Itália. Em que país ele passou seus últimos anos e morreu, em 1519?",
+          "resposta": "França"
+        },
+        {
+          "id": "q13677",
+          "pergunta": "Leonardo da Vinci tinha um jeito curioso de escrever em seus cadernos de anotações. Como era essa escrita?",
+          "resposta": "Espelhada, da direita para a esquerda"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Que nome recebe o estilo de contrastes violentos entre sombra profunda e luz forte, como de holofote, que Caravaggio levou ao extremo?",
+        "resposta": "Tenebrismo"
+      },
+      "existentes": [
+        {
+          "id": "q03029",
+          "pergunta": "O pintor conhecido como Caravaggio tirou o apelido de uma cidade da Lombardia. Qual era o primeiro nome dele, o mesmo de um gênio renascentista?",
+          "resposta": "Michelangelo"
+        },
+        {
+          "id": "q03030",
+          "pergunta": "Em 1606, Caravaggio fugiu de Roma e nunca mais voltou a viver lá. O que provocou a fuga?",
+          "resposta": "Matou um homem numa briga"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Qual destes mestres da pintura italiana morreu mais jovem?",
+        "resposta": "Caravaggio"
+      },
+      "existentes": [
+        {
+          "id": "q03029",
+          "pergunta": "O pintor conhecido como Caravaggio tirou o apelido de uma cidade da Lombardia. Qual era o primeiro nome dele, o mesmo de um gênio renascentista?",
+          "resposta": "Michelangelo"
+        },
+        {
+          "id": "q03030",
+          "pergunta": "Em 1606, Caravaggio fugiu de Roma e nunca mais voltou a viver lá. O que provocou a fuga?",
+          "resposta": "Matou um homem numa briga"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Anita Malfatti nasceu com uma atrofia no braço e na mão direita. Como ela fez para pintar?",
+        "resposta": "Usava a mão esquerda"
+      },
+      "existentes": [
+        {
+          "id": "q03056",
+          "pergunta": "Que escritor, criador do Sítio do Picapau Amarelo, atacou num artigo de jornal a exposição de Anita Malfatti de 1917?",
+          "resposta": "Monteiro Lobato"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Antes de se dedicar à pintura, Vincent van Gogh tentou outra vocação, vivendo entre mineiros de carvão na Bélgica. Que vocação era essa?",
+        "resposta": "Pregador religioso"
+      },
+      "existentes": [
+        {
+          "id": "q06555",
+          "pergunta": "Em julho de 1890, Van Gogh morreu num vilarejo perto de Paris, onde está enterrado ao lado do irmão Theo. Que vilarejo é esse?",
+          "resposta": "Auvers-sur-Oise"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Entre estes pintores impressionistas franceses, qual chegou à idade mais avançada?",
+        "resposta": "Claude Monet"
+      },
+      "existentes": [
+        {
+          "id": "q03048",
+          "pergunta": "Que problema de visão é apontado como causa das cores mais avermelhadas e borradas nas últimas obras de Claude Monet?",
+          "resposta": "Catarata"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Que pintor holandês do século dezessete deixou uma obra tão pequena que hoje se conhecem menos de quarenta quadros dele?",
+        "resposta": "Johannes Vermeer"
+      },
+      "existentes": [
+        {
+          "id": "q03053",
+          "pergunta": "Johannes Vermeer nasceu e trabalhou na mesma cidade holandesa que dá nome a uma famosa louça azul e branca. Que cidade é essa?",
+          "resposta": "Delft"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Destes pintores ativos na Espanha, qual ficou famoso por figuras exageradamente alongadas, que parecem esticadas para o alto?",
+        "resposta": "El Greco"
+      },
+      "existentes": [
+        {
+          "id": "q03058",
+          "pergunta": "O pintor que a Espanha conheceu como El Greco, ou seja, o grego, nasceu em que ilha do Mediterrâneo?",
+          "resposta": "Creta"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Na primeira exposição impressionista, em Paris, só uma mulher mostrou suas obras ao lado de Monet e Degas. Quem era ela?",
+        "resposta": "Berthe Morisot"
+      },
+      "existentes": [
+        {
+          "id": "q03063",
+          "pergunta": "Em que ano Monet, Degas, Renoir e colegas fizeram sua primeira exposição em grupo, no antigo estúdio do fotógrafo Nadar, em Paris?",
+          "resposta": "1874"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Qual destes quadros históricos brasileiros do século dezenove é o maior em tamanho?",
+        "resposta": "Batalha do Avaí"
+      },
+      "existentes": [
+        {
+          "id": "q00452",
+          "pergunta": "Este quadro de Pedro Américo retrata uma batalha de qual guerra?",
+          "resposta": "Guerra do Paraguai (da Tríplice Aliança)"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Nas paredes da caverna de Lascaux há centenas de animais pintados na pré-história. Qual deles aparece mais vezes?",
+        "resposta": "Cavalo"
+      },
+      "existentes": [
+        {
+          "id": "q03066",
+          "pergunta": "Em 1940, na França, quem descobriu as pinturas pré-históricas da caverna de Lascaux?",
+          "resposta": "Quatro adolescentes da região"
+        },
+        {
+          "id": "q03075",
+          "pergunta": "Em 1963, a caverna de Lascaux, na França, foi fechada ao público porque suas pinturas se deterioravam. O que, vindo dos visitantes, as prejudicava?",
+          "resposta": "A respiração dos visitantes"
+        },
+        {
+          "id": "q06293",
+          "pergunta": "Em que país fica a caverna com estas pinturas pré-históricas?",
+          "resposta": "França"
+        },
+        {
+          "id": "q15066",
+          "pergunta": "Que caverna da Dordonha, no sudoeste da França, com mais de seiscentas pinturas pré-históricas, é esta?",
+          "resposta": "Lascaux"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Em novembro de 1918, Monet ofereceu ao Estado francês grandes painéis das Ninfeias. Que acontecimento ele queria celebrar com a doação?",
+        "resposta": "O fim da Primeira Guerra"
+      },
+      "existentes": [
+        {
+          "id": "q00420",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Claude Monet"
+        },
+        {
+          "id": "q03060",
+          "pergunta": "Em que museu de Paris as grandes telas das Ninfeias de Monet ocupam duas salas ovais?",
+          "resposta": "Museu de l'Orangerie"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "O Abaporu entusiasmou tanto Oswald de Andrade que o levou a lançar, em 1928, que movimento, com manifesto próprio?",
+        "resposta": "Movimento Antropofágico"
+      },
+      "existentes": [
+        {
+          "id": "q03035",
+          "pergunta": "O nome do quadro Abaporu, pintado por Tarsila do Amaral em 1928, vem do tupi. O que ele significa?",
+          "resposta": "Homem que come gente"
+        },
+        {
+          "id": "q03036",
+          "pergunta": "Tarsila do Amaral pintou o Abaporu como presente de aniversário para quem?",
+          "resposta": "Oswald de Andrade"
+        },
+        {
+          "id": "q06551",
+          "pergunta": "O Abaporu, de Tarsila do Amaral, foi comprado em 1995 por Eduardo Costantini e está hoje em que museu, criado por ele?",
+          "resposta": "MALBA (Museu de Arte Latino-Americana de Buenos Aires)"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Em Paris, nos anos 1920, Tarsila do Amaral estudou com qual pintor francês, famoso por figuras tubulares que lembram máquinas?",
+        "resposta": "Fernand Léger"
+      },
+      "existentes": [
+        {
+          "id": "q17306",
+          "pergunta": "Em que cidade do interior paulista nasceu esta pintora modernista brasileira?",
+          "resposta": "Capivari"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Frida Kahlo se casou duas vezes com o mesmo homem, um famoso muralista mexicano. Quem era ele?",
+        "resposta": "Diego Rivera"
+      },
+      "existentes": [
+        {
+          "id": "q03049",
+          "pergunta": "Aos dezoito anos, Frida Kahlo passou meses de cama e começou a pintar por causa de que tipo de acidente?",
+          "resposta": "Um acidente de ônibus"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Pedro Américo foi acusado de imitar, em Independência ou Morte, a composição de um quadro de batalha napoleônica de que pintor francês?",
+        "resposta": "Ernest Meissonier"
+      },
+      "existentes": [
+        {
+          "id": "q00408",
+          "pergunta": "Que acontecimento da história do Brasil este quadro retrata?",
+          "resposta": "A Independência (o Grito do Ipiranga, em 1822)"
+        },
+        {
+          "id": "q03061",
+          "pergunta": "Pedro Américo pintou Independência ou Morte longe do Brasil. Em que cidade italiana ele fez o quadro?",
+          "resposta": "Florença"
+        },
+        {
+          "id": "q13736",
+          "pergunta": "Que pintor paraibano pintou Independência ou Morte, o quadro mais famoso do grito do Ipiranga, exposto no Museu Paulista?",
+          "resposta": "Pedro Américo"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Para pintar A Primeira Missa no Brasil, Victor Meirelles se baseou na descrição feita em que documento escrito em 1500?",
+        "resposta": "Carta de Pero Vaz de Caminha"
+      },
+      "existentes": [
+        {
+          "id": "q00451",
+          "pergunta": "Que acontecimento este quadro de Victor Meirelles retrata?",
+          "resposta": "A primeira missa no Brasil, em 1500"
+        },
+        {
+          "id": "q06197",
+          "pergunta": "A carta de quem ao rei de Portugal inspirou este quadro?",
+          "resposta": "Pero Vaz de Caminha"
+        },
+        {
+          "id": "q06557",
+          "pergunta": "Victor Meirelles pintou A Primeira Missa no Brasil quando estudava na Europa como bolsista da Academia. Em que cidade ele fez o quadro?",
+          "resposta": "Paris"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "O menino de pistolas em punho ao lado da Liberdade, no quadro de Delacroix, costuma ser apontado como inspiração de que personagem de Victor Hugo?",
+        "resposta": "Gavroche"
+      },
+      "existentes": [
+        {
+          "id": "q00411",
+          "pergunta": "Que revolução este quadro celebra?",
+          "resposta": "Revolução de Julho, de 1830"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "Uma das origens propostas para a palavra barroco, nome do estilo de Caravaggio e Rubens, é um termo português. O que ele designava?",
+        "resposta": "Pérola de formato irregular"
+      },
+      "existentes": [
+        {
+          "id": "q03653",
+          "pergunta": "O nome do estilo barroco vem de uma palavra portuguesa que designava o quê?",
+          "resposta": "Pérola irregular"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "Antes de ir para o Museu do Prado, Saturno Devorando um Filho, de Goya, foi pintado originalmente em que lugar?",
+        "resposta": "Nas paredes da casa dele"
+      },
+      "existentes": [
+        {
+          "id": "q01991",
+          "pergunta": "Que pintor espanhol pintou este quadro, por volta de 1820?",
+          "resposta": "Francisco Goya"
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "nova": {
+        "pergunta": "O quadro Impressão, Nascer do Sol, de Claude Monet, mostra o porto de que cidade francesa?",
+        "resposta": "Le Havre"
+      },
+      "existentes": [
+        {
+          "id": "q00419",
+          "pergunta": "Este quadro inspirou o nome de qual movimento artístico?",
+          "resposta": "Impressionismo"
+        }
+      ]
+    },
+    {
+      "caso": 43,
+      "nova": {
+        "pergunta": "Logo depois do Período Azul, Picasso passou a pintar arlequins e artistas de circo em tons mais quentes. Como se chama essa nova fase?",
+        "resposta": "Período Rosa"
+      },
+      "existentes": [
+        {
+          "id": "q06581",
+          "pergunta": "O Período Azul de Picasso, de quadros tristes em tons frios, começou depois de que acontecimento trágico de 1901?",
+          "resposta": "O suicídio do amigo Carlos Casagemas"
+        }
+      ]
+    },
+    {
+      "caso": 44,
+      "nova": {
+        "pergunta": "A jangada retratada por Géricault levava cerca de cento e cinquenta pessoas abandonadas após o naufrágio. Quantas foram resgatadas com vida, dias depois?",
+        "resposta": "Quinze"
+      },
+      "existentes": [
+        {
+          "id": "q00426",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Théodore Géricault"
+        },
+        {
+          "id": "q03038",
+          "pergunta": "No quadro A Jangada da Medusa, de Géricault, Medusa não é o monstro mitológico. É o nome de quê?",
+          "resposta": "Uma fragata francesa que naufragou"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "suporte da pintura é fato distinto"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "origem da palavra mona difere da origem de Gioconda"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "árvore é fato distinto"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "inscrição a lápis é outro fato"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "inspiração do quadro é outro fato"
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "porta de 1652 é outro fato"
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "id_existente": "q16378",
+      "motivo": "refeitório já está na pergunta existente sobre a parede de antigo refeitório; responder uma dá a outra"
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "ave na cintura é outro fato"
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "forma de cérebro é outro fato"
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "partitura nas nádegas é outro fato"
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "inscrição é outro fato"
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Heráclito/Michelangelo é diferente de Platão/Leonardo"
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "pigmento é outro fato"
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "personagem presente é outro fato"
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "modelos são outro fato"
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "cruz da ordem é outro fato"
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "significado do título é outro fato"
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "cores do turbante são outro fato"
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "cores do painel são outro fato"
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "posição de trabalho é outro fato"
+    },
+    {
+      "caso": 21,
+      "decisao": "repete",
+      "id_existente": "q13677",
+      "motivo": "escrita espelhada nos cadernos é o mesmo fato"
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "comparação de nascimento é outro fato"
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "tenebrismo é outro fato"
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "comparação de idade na morte é outro fato"
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "atrofia e mão esquerda é outro fato"
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "vocação anterior é outro fato"
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "longevidade é outro fato"
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "obra pequena é outro fato"
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "estilo alongado é outro fato"
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "única mulher é outro fato"
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "tamanho comparado é outro fato"
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "animal mais frequente é outro fato"
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "doação de 1918 é outro fato"
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "movimento antropofágico é outro fato"
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "mestre em Paris é outro fato"
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "casamento é outro fato"
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "acusação de imitação é outro fato"
+    },
+    {
+      "caso": 38,
+      "decisao": "repete",
+      "id_existente": "q06197",
+      "motivo": "a carta de Caminha como fonte é o mesmo fato"
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Gavroche é outro fato"
+    },
+    {
+      "caso": 40,
+      "decisao": "repete",
+      "id_existente": "q03653",
+      "motivo": "mesma origem da palavra barroco: pérola irregular"
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "local original é outro fato"
+    },
+    {
+      "caso": 42,
+      "decisao": "nova",
+      "motivo": "cidade do porto é outro fato"
+    },
+    {
+      "caso": 43,
+      "decisao": "nova",
+      "motivo": "Período Rosa é outro fato"
+    },
+    {
+      "caso": 44,
+      "decisao": "nova",
+      "motivo": "número de sobreviventes é outro fato"
+    }
+  ]
+}
