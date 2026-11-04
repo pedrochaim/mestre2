@@ -1,0 +1,237 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida do módulo de comando e serviço em órbita lunar; única placa visível diz só 'United States'.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que nave é esta, fotografada em órbita da Lua?",
+      "resposta": "Módulo de comando e serviço",
+      "distratores": [
+        "Módulo lunar",
+        "Cápsula Gemini",
+        "Cápsula Soyuz"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Módulo de comando e serviço Apollo",
+        "descricao": "Nave principal do programa Apollo, formada pelo módulo de comando cônico e pelo módulo de serviço cilíndrico, que levou astronautas à órbita da Lua.",
+        "variantes": [
+          "CSM",
+          "Módulo de Comando e Serviço"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem nítida de espiral vista quase de perfil, com poeira e estrelas jovens; sem texto. Reconhecível e resposta única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que constelação fica esta galáxia?",
+      "resposta": "Escultor",
+      "distratores": [
+        "Fornalha",
+        "Fênix",
+        "Tucano"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Galáxia do Escultor",
+        "descricao": "Galáxia espiral intermediária com intensa formação de estrelas, na constelação do Escultor, também chamada NGC 253.",
+        "variantes": [
+          "NGC 253",
+          "Galáxia da Moeda de Prata",
+          "Caldwell 65"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto da sonda mostra o formato de amendoim característico, sem texto; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que sonda japonesa trouxe poeira da superfície deste asteroide de volta à Terra, em 2010?",
+      "resposta": "Hayabusa",
+      "distratores": [
+        "Akatsuki",
+        "Kaguya",
+        "Voyager 1"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Itokawa (asteroide)",
+        "descricao": "Asteroide próximo da Terra em forma de amendoim, alvo da primeira missão de retorno de amostras de um asteroide, a sonda japonesa Hayabusa.",
+        "variantes": [
+          "25143 Itokawa",
+          "Itokawa"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A imagem traz texto que entrega a resposta ('SgrA*') e é uma montagem de quadros com anos e elipses, não uma imagem única legível."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem em infravermelho mostra a nuvem rosada com forma de cabeça e tromba; sem texto. Nome só é entregue na resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que nebulosa é esta?",
+      "resposta": "Nebulosa da Tromba de Elefante",
+      "distratores": [
+        "Nebulosa Cabeça de Cavalo",
+        "Nebulosa da Águia",
+        "Nebulosa do Caranguejo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nebulosa da Tromba de Elefante",
+        "descricao": "Nuvem escura e densa de gás e poeira dentro da região IC 1396, na constelação de Cefeu, onde nascem estrelas.",
+        "variantes": [
+          "IC 1396A",
+          "Elephant's Trunk Nebula"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem clássica do Hubble, bipolar e simétrica, sem texto; reconhecível e única.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de nebulosa é esta?",
+      "resposta": "Planetária",
+      "distratores": [
+        "De reflexão",
+        "Escura",
+        "De emissão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nebulosa da Formiga",
+        "descricao": "Nebulosa planetária bipolar jovem na constelação de Norma, também chamada Mz 3 ou Menzel 3.",
+        "variantes": [
+          "Mz 3",
+          "Menzel 3",
+          "Ant Nebula"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública (físico e astrônomo brasileiro), sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que físico e astrônomo brasileiro é este?",
+      "resposta": "Marcelo Gleiser",
+      "distratores": [
+        "Mario Schenberg",
+        "Ronaldo Rogério de Freitas Mourão",
+        "César Lattes"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Marcelo Gleiser",
+        "descricao": "Físico e astrônomo brasileiro, professor de filosofia natural, física e astronomia no Dartmouth College e divulgador científico.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto de três astronautas em trajes: a tripulação não é reconhecível pelos rostos e a resposta (Apollo 8) não é única diante da imagem, pois outras tripulações Apollo aparecem de forma parecida."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem do Hubble com quatro pontos em cruz e um central, sem texto; formato inconfundível. Pergunta pede o fenômeno, passo além do reconhecimento.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno, previsto pela relatividade geral, produz estes quatro pontos de luz em cruz?",
+      "resposta": "Lente gravitacional",
+      "distratores": [
+        "Efeito Doppler",
+        "Paralaxe estelar",
+        "Aberração cromática"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cruz de Einstein",
+        "descricao": "Quasar distante com imagem quadruplicada por lente gravitacional de uma galáxia à frente, formando uma cruz, também chamado Q2237+0305.",
+        "variantes": [
+          "Q2237+0305",
+          "Einstein Cross",
+          "Lente de Huchra"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto de lançamento nítida, sem nome escrito (só 'USA'); o enunciado fixa o primeiro voo, o que torna a resposta única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este foi o primeiro lançamento do programa dos ônibus espaciais, em 1981. Que orbitador é este?",
+      "resposta": "Columbia",
+      "distratores": [
+        "Challenger",
+        "Discovery",
+        "Atlantis"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ônibus espacial Columbia",
+        "descricao": "Primeiro orbitador do programa do ônibus espacial da NASA, lançado pela primeira vez em 1981 e destruído na reentrada em 2003.",
+        "variantes": [
+          "Columbia",
+          "OV-102",
+          "Space Shuttle Columbia"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto de um cometa pequeno e fraco, sem traços que o identifiquem; o cometa não é reconhecível pela imagem e a legenda do item não é confiável para esta foto."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem do Hubble do jato de M87 sobre o brilho difuso da galáxia, sem texto. A pergunta pede o tipo da galáxia.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de galáxia é esta, com um jato saindo do núcleo?",
+      "resposta": "Elíptica",
+      "distratores": [
+        "Espiral",
+        "Espiral barrada",
+        "Irregular"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Messier 87",
+        "descricao": "Galáxia elíptica supergigante na constelação de Virgem, com um jato de plasma saindo do núcleo e um buraco negro supermassivo central.",
+        "variantes": [
+          "M87",
+          "NGC 4486",
+          "Virgo A"
+        ]
+      }
+    }
+  ]
+}

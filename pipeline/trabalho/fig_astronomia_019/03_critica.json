@@ -1,0 +1,115 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Fotografada em órbita da Lua' não é verificável para esta foto específica, e o distrator 'Módulo lunar' também orbitou a Lua. Reescrita aponta para a figura sem afirmar onde foi tirada.",
+      "reescrita": {
+        "pergunta": "Que nave principal do programa Apollo é esta?",
+        "resposta": "Módulo de comando e serviço",
+        "distratores": [
+          "Cápsula Gemini",
+          "Cápsula Soyuz",
+          "Cápsula Mercury"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a galáxia. NGC 253 fica só na constelação do Escultor e os distratores são constelações vizinhas.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "No teste da imagem coberta, 'sonda japonesa trouxe poeira de asteroide em 2010' já entrega Hayabusa e Itokawa, então a figura vira enfeite. Reescrita pede algo que se vê na imagem e está nos trechos, a forma de amendoim.",
+      "reescrita": {
+        "pergunta": "Este asteroide próximo da Terra tem a forma de qual alimento?",
+        "resposta": "Amendoim",
+        "distratores": [
+          "Batata",
+          "Banana",
+          "Pão"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pede o reconhecimento da imagem sem vazar o nome. Os distratores são nebulosas conhecidas e nenhuma descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'De emissão' é um distrator defensável, porque nebulosas planetárias também são nebulosas de emissão. Troquei por um tipo claramente errado.",
+      "reescrita": {
+        "pergunta": "Que tipo de nebulosa é esta?",
+        "resposta": "Planetária",
+        "distratores": [
+          "De reflexão",
+          "Escura",
+          "Remanescente de supernova"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Ronaldo Rogério de Freitas Mourão' passa de 4 palavras. Encurtei.",
+      "reescrita": {
+        "pergunta": "Que físico e astrônomo brasileiro é este?",
+        "resposta": "Marcelo Gleiser",
+        "distratores": [
+          "Mario Schenberg",
+          "Ronaldo Mourão",
+          "César Lattes"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a imagem e a relatividade geral, então 'lente gravitacional' sai sem olhar a figura, e a pergunta não é sobre o objeto. Reescrita pede a constelação do quasar, que está nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que constelação fica este quasar?",
+        "resposta": "Pégaso",
+        "distratores": [
+          "Andrômeda",
+          "Aquário",
+          "Cisne"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Primeiro lançamento do programa, em 1981' entrega Columbia sem a figura. Removi a pista.",
+      "reescrita": {
+        "pergunta": "Que ônibus espacial da NASA é este?",
+        "resposta": "Columbia",
+        "distratores": [
+          "Challenger",
+          "Discovery",
+          "Atlantis"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "M87 é elíptica supergigante com jato no núcleo, e o enunciado não a nomeia. Os distratores são tipos de galáxia distintos e errados.",
+      "reescrita": null
+    }
+  ]
+}

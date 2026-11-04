@@ -1,0 +1,603 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Módulo de comando e serviço Apollo",
+        "descricao": "Nave principal do programa Apollo, formada pelo módulo de comando cônico e pelo módulo de serviço cilíndrico, que levou astronautas à órbita da Lua.",
+        "variantes": [
+          "CSM",
+          "Módulo de Comando e Serviço"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cesio",
+          "nome": "Césio",
+          "descricao": "Elemento químico de símbolo Cs e número atômico 55, metal alcalino dourado que derrete perto da temperatura ambiente.",
+          "variantes": [
+            "Cs",
+            "Cesium",
+            "Caesium"
+          ]
+        },
+        {
+          "id": "sms",
+          "nome": "SMS",
+          "descricao": "Serviço de mensagens curtas de texto entre celulares.",
+          "variantes": [
+            "Short Message Service",
+            "Torpedo",
+            "Mensagem de texto"
+          ]
+        },
+        {
+          "id": "cubismo",
+          "nome": "Cubismo",
+          "descricao": "Movimento artístico do início do século vinte, criado por Picasso e Braque, que decompõe as formas em planos geométricos.",
+          "variantes": [
+            "Cubism"
+          ]
+        },
+        {
+          "id": "associacao_crista_de_mocos",
+          "nome": "Associação Cristã de Moços",
+          "descricao": "Organização cristã internacional voltada aos jovens, fundada em Londres em 1844 e conhecida em inglês como YMCA.",
+          "variantes": [
+            "ACM",
+            "YMCA",
+            "Young Men's Christian Association"
+          ]
+        },
+        {
+          "id": "santo_crisma",
+          "nome": "Santo crisma",
+          "descricao": "Óleo consagrado usado em ritos cristãos como o batismo, a crisma e a ordenação",
+          "variantes": [
+            "Crisma (óleo)",
+            "Óleo do crisma",
+            "Chrism",
+            "Mirão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Galáxia do Escultor",
+        "descricao": "Galáxia espiral intermediária com intensa formação de estrelas, na constelação do Escultor, também chamada NGC 253.",
+        "variantes": [
+          "NGC 253",
+          "Galáxia da Moeda de Prata",
+          "Caldwell 65"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_do_olho_de_gato",
+          "nome": "Nebulosa do Olho de Gato",
+          "descricao": "Nebulosa planetária NGC 6543, na constelação do Dragão.",
+          "variantes": [
+            "NGC 6543",
+            "Cat's Eye Nebula",
+            "Caldwell 6"
+          ]
+        },
+        {
+          "id": "nebulosa_da_helice",
+          "nome": "Nebulosa da Hélice",
+          "descricao": "Nebulosa planetária NGC 7293, em Aquário, uma das mais próximas da Terra.",
+          "variantes": [
+            "Nebulosa de Hélix",
+            "NGC 7293",
+            "Caldwell 63",
+            "Helix Nebula",
+            "Olho de Deus"
+          ]
+        },
+        {
+          "id": "nebulosa_da_borboleta",
+          "nome": "Nebulosa da Borboleta",
+          "descricao": "Nebulosa planetária bipolar NGC 6302, na constelação do Escorpião, com formato de asas de borboleta.",
+          "variantes": [
+            "NGC 6302",
+            "Nebulosa do Inseto",
+            "Caldwell 69"
+          ]
+        },
+        {
+          "id": "nebulosa_roseta",
+          "nome": "Nebulosa Roseta",
+          "descricao": "Região H II na constelação do Unicórnio, associada ao aglomerado aberto NGC 2244, com formato de rosa.",
+          "variantes": [
+            "Rosette Nebula",
+            "Caldwell 49",
+            "NGC 2237"
+          ]
+        },
+        {
+          "id": "nebulosa_da_bolha",
+          "nome": "Nebulosa da Bolha",
+          "descricao": "Nebulosa de emissão na constelação de Cassiopeia, também chamada NGC 7635, em forma de bolha criada pelo vento de uma estrela massiva.",
+          "variantes": [
+            "NGC 7635",
+            "Sharpless 162",
+            "Caldwell 11",
+            "Bubble Nebula"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Itokawa (asteroide)",
+        "descricao": "Asteroide próximo da Terra em forma de amendoim, alvo da primeira missão de retorno de amostras de um asteroide, a sonda japonesa Hayabusa.",
+        "variantes": [
+          "25143 Itokawa",
+          "Itokawa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ida_asteroide",
+          "nome": "Ida (asteroide)",
+          "descricao": "Asteroide 243 Ida, da família Koronis do cinturão de asteroides, o primeiro encontrado com um satélite natural, fotografado pela sonda Galileo em 1993.",
+          "variantes": [
+            "243 Ida",
+            "Ida"
+          ]
+        },
+        {
+          "id": "tokamak",
+          "nome": "Tokamak",
+          "descricao": "Máquina que confina plasma em forma de toro com campos magnéticos para obter fusão nuclear controlada.",
+          "variantes": [
+            "ITER",
+            "Reator de fusão tokamak",
+            "Tokamaque"
+          ]
+        },
+        {
+          "id": "eros_asteroide",
+          "nome": "Eros (asteroide)",
+          "descricao": "Asteroide alongado 433 Eros, próximo da Terra, explorado pela sonda NEAR Shoemaker.",
+          "variantes": [
+            "433 Eros",
+            "Eros"
+          ]
+        },
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        },
+        {
+          "id": "ceres",
+          "nome": "Ceres",
+          "descricao": "Planeta anão do cinturão de asteroides entre Marte e Júpiter, com manchas brilhantes na cratera Occator.",
+          "variantes": [
+            "Asteroide",
+            "Ceres (planeta anão)",
+            "1 Ceres"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Nebulosa da Tromba de Elefante",
+        "descricao": "Nuvem escura e densa de gás e poeira dentro da região IC 1396, na constelação de Cefeu, onde nascem estrelas.",
+        "variantes": [
+          "IC 1396A",
+          "Elephant's Trunk Nebula"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_do_olho_de_gato",
+          "nome": "Nebulosa do Olho de Gato",
+          "descricao": "Nebulosa planetária NGC 6543, na constelação do Dragão.",
+          "variantes": [
+            "NGC 6543",
+            "Cat's Eye Nebula",
+            "Caldwell 6"
+          ]
+        },
+        {
+          "id": "nebulosa_da_tarantula",
+          "nome": "Nebulosa da Tarântula",
+          "descricao": "Grande região H II, também chamada 30 Doradus, no canto sudeste da Grande Nuvem de Magalhães.",
+          "variantes": [
+            "30 Doradus",
+            "Tarantula Nebula"
+          ]
+        },
+        {
+          "id": "nebulosa_da_borboleta",
+          "nome": "Nebulosa da Borboleta",
+          "descricao": "Nebulosa planetária bipolar NGC 6302, na constelação do Escorpião, com formato de asas de borboleta.",
+          "variantes": [
+            "NGC 6302",
+            "Nebulosa do Inseto",
+            "Caldwell 69"
+          ]
+        },
+        {
+          "id": "pata_de_elefante",
+          "nome": "Pata-de-elefante",
+          "descricao": "Beaucarnea recurvata, planta da família Asparagaceae com tronco dilatado na base e folhas em tufo, nativa do leste do México.",
+          "variantes": [
+            "Beaucarnea recurvata",
+            "Palmeira-de-rabo-de-cavalo",
+            "Ponytail palm"
+          ]
+        },
+        {
+          "id": "nebulosa_do_esquimo",
+          "nome": "Nebulosa do Esquimó",
+          "descricao": "Nebulosa planetária de casca dupla na constelação de Gêmeos, catalogada como NGC 2392.",
+          "variantes": [
+            "NGC 2392",
+            "Nebulosa Cabeça de Palhaço",
+            "Caldwell 39"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Nebulosa da Formiga",
+        "descricao": "Nebulosa planetária bipolar jovem na constelação de Norma, também chamada Mz 3 ou Menzel 3.",
+        "variantes": [
+          "Mz 3",
+          "Menzel 3",
+          "Ant Nebula"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "floresta_nublada",
+          "nome": "Floresta nublada",
+          "descricao": "Floresta de montanhas tropicais envolta quase sempre por nuvens e neblina",
+          "variantes": [
+            "Mata nebular",
+            "Cloud forest"
+          ]
+        },
+        {
+          "id": "nebulosa_do_coracao",
+          "nome": "Nebulosa do Coração",
+          "descricao": "Nebulosa de emissão na constelação de Cassiopeia, a cerca de 7.500 anos-luz da Terra.",
+          "variantes": [
+            "Heart Nebula",
+            "IC 1805",
+            "Sharpless 2-190"
+          ]
+        },
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        },
+        {
+          "id": "nebulosa_da_aguia",
+          "nome": "Nebulosa da Águia",
+          "descricao": "Nebulosa de formação de estrelas na constelação da Serpente, onde ficam os Pilares da Criação (Messier 16).",
+          "variantes": [
+            "Messier 16",
+            "M16",
+            "NGC 6611",
+            "Pilares da Criação"
+          ]
+        },
+        {
+          "id": "nebulosa_da_bolha",
+          "nome": "Nebulosa da Bolha",
+          "descricao": "Nebulosa de emissão na constelação de Cassiopeia, também chamada NGC 7635, em forma de bolha criada pelo vento de uma estrela massiva.",
+          "variantes": [
+            "NGC 7635",
+            "Sharpless 162",
+            "Caldwell 11",
+            "Bubble Nebula"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Marcelo Gleiser",
+        "descricao": "Físico e astrônomo brasileiro, professor de filosofia natural, física e astronomia no Dartmouth College e divulgador científico.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "marcelo_gleiser",
+          "nome": "Marcelo Gleiser",
+          "descricao": "Físico e astrônomo brasileiro, professor no Dartmouth College e divulgador científico.",
+          "variantes": []
+        },
+        {
+          "id": "marcelo_gastaldi",
+          "nome": "Marcelo Gastaldi",
+          "descricao": "Dublador e diretor de dublagem brasileiro, voz clássica de Chaves e Chapolin.",
+          "variantes": []
+        },
+        {
+          "id": "foice_e_martelo",
+          "nome": "Foice e martelo",
+          "descricao": "Símbolo comunista que representa a união entre operários e camponeses, criado em 1918 e adotado na Rússia soviética.",
+          "variantes": [
+            "Martelo e foice",
+            "Hammer and sickle"
+          ]
+        },
+        {
+          "id": "marcelo_melo",
+          "nome": "Marcelo Melo",
+          "descricao": "Tenista brasileiro de duplas, ex-número 1 do mundo e campeão de Roland Garros 2015 e Wimbledon 2017.",
+          "variantes": [
+            "Marcelo Pinheiro Davi de Melo",
+            "Girafa"
+          ]
+        },
+        {
+          "id": "marcelinho_huertas",
+          "nome": "Marcelinho Huertas",
+          "descricao": "Armador brasileiro de basquete, ex-Los Angeles Lakers e capitão do Tenerife.",
+          "variantes": [
+            "Marcelo Huertas",
+            "Marcelo Tieppo Huertas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Cruz de Einstein",
+        "descricao": "Quasar distante com imagem quadruplicada por lente gravitacional de uma galáxia à frente, formando uma cruz, também chamado Q2237+0305.",
+        "variantes": [
+          "Q2237+0305",
+          "Einstein Cross",
+          "Lente de Huchra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cruz_da_ordem_de_cristo",
+          "nome": "Cruz da Ordem de Cristo",
+          "descricao": "Cruz vermelha e branca da Ordem de Cristo, símbolo de Portugal associado aos Descobrimentos.",
+          "variantes": [
+            "Cruz de Cristo",
+            "Cruz Portuguesa"
+          ]
+        },
+        {
+          "id": "albert_einstein",
+          "nome": "Albert Einstein",
+          "descricao": "Físico teórico alemão, criador da teoria da relatividade e Nobel de Física de 1921.",
+          "variantes": [
+            "Einstein"
+          ]
+        },
+        {
+          "id": "leite",
+          "nome": "Leite",
+          "descricao": "Líquido branco produzido pelas glândulas mamárias de mamíferos, consumido como bebida e base de laticínios.",
+          "variantes": [
+            "Leite de vaca"
+          ]
+        },
+        {
+          "id": "geladeira_de_einstein",
+          "nome": "Geladeira de Einstein",
+          "descricao": "Refrigerador sem partes móveis patenteado por Albert Einstein e Leó Szilárd em 1930.",
+          "variantes": [
+            "Refrigerador Einstein-Szilárd"
+          ]
+        },
+        {
+          "id": "einstenio",
+          "nome": "Einstênio",
+          "descricao": "Elemento químico sintético de número atômico 99, batizado em homenagem a Albert Einstein.",
+          "variantes": [
+            "Einsteinium",
+            "Einstênio (elemento químico)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Ônibus espacial Columbia",
+        "descricao": "Primeiro orbitador do programa do ônibus espacial da NASA, lançado pela primeira vez em 1981 e destruído na reentrada em 2003.",
+        "variantes": [
+          "Columbia",
+          "OV-102",
+          "Space Shuttle Columbia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "onibus_espacial_columbia",
+          "nome": "Ônibus espacial Columbia",
+          "descricao": "Primeiro ônibus espacial da NASA a ir ao espaço, em 1981, destruído na reentrada em 2003.",
+          "variantes": [
+            "Space Shuttle Columbia",
+            "Columbia",
+            "OV-102"
+          ]
+        },
+        {
+          "id": "bandeira_da_colombia",
+          "nome": "Bandeira da Colômbia",
+          "descricao": "Bandeira nacional da Colômbia, tricolor horizontal com faixa amarela dupla, azul e vermelha.",
+          "variantes": [
+            "Colômbia"
+          ]
+        },
+        {
+          "id": "colombia",
+          "nome": "Colômbia",
+          "descricao": "País do noroeste da América do Sul, com costa no Caribe e no Pacífico, cuja capital é Bogotá.",
+          "variantes": [
+            "República da Colômbia"
+          ]
+        },
+        {
+          "id": "niobio",
+          "nome": "Nióbio",
+          "descricao": "Elemento químico metálico de número atômico 41, usado em ligas de aço e com grandes reservas no Brasil.",
+          "variantes": [
+            "Niobium",
+            "Colúmbio"
+          ]
+        },
+        {
+          "id": "brasao_da_colombia",
+          "nome": "Brasão da Colômbia",
+          "descricao": "Brasão de armas da República da Colômbia, com um condor, cornucópias e bandeiras tricolores.",
+          "variantes": [
+            "Colômbia",
+            "Escudo de Colombia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Messier 87",
+        "descricao": "Galáxia elíptica supergigante na constelação de Virgem, com um jato de plasma saindo do núcleo e um buraco negro supermassivo central.",
+        "variantes": [
+          "M87",
+          "NGC 4486",
+          "Virgo A"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "m87",
+          "nome": "M87*",
+          "descricao": "Buraco negro supermassivo no centro da galáxia Messier 87, fotografado pelo Event Horizon Telescope e divulgado em 2019.",
+          "variantes": [
+            "Buraco negro",
+            "Messier 87*",
+            "Buraco negro de M87",
+            "Primeira imagem de um buraco negro"
+          ]
+        },
+        {
+          "id": "nebulosa_do_anel",
+          "nome": "Nebulosa do Anel",
+          "descricao": "Nebulosa planetária na constelação de Lira, catalogada como Messier 57.",
+          "variantes": [
+            "Messier 57",
+            "M57",
+            "NGC 6720",
+            "Ring Nebula"
+          ]
+        },
+        {
+          "id": "galaxia_do_charuto",
+          "nome": "Galáxia do Charuto",
+          "descricao": "Galáxia starburst na Ursa Maior, também chamada Messier 82, membro do Grupo M81.",
+          "variantes": [
+            "Messier 82",
+            "M82",
+            "NGC 3034",
+            "Cigar Galaxy"
+          ]
+        },
+        {
+          "id": "nebulosa_haltere",
+          "nome": "Nebulosa Haltere",
+          "descricao": "Nebulosa planetária na constelação da Raposa, também conhecida como Messier 27.",
+          "variantes": [
+            "Nebulosa do Haltere",
+            "Dumbbell Nebula",
+            "Messier 27",
+            "M27",
+            "NGC 6853"
+          ]
+        },
+        {
+          "id": "nebulosa_do_caranguejo",
+          "nome": "Nebulosa do Caranguejo",
+          "descricao": "Remanescente da supernova de 1054, na constelação de Touro, também chamada Messier 1.",
+          "variantes": [
+            "Messier 1",
+            "M1",
+            "NGC 1952",
+            "Crab Nebula"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a nave Apollo CSM."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Galáxia NGC 253; candidatas são nebulosas diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Itokawa é um asteroide distinto de Ida, Eros e Ceres."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nebulosa IC 1396A não consta entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nebulosa da Formiga (Mz 3) não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "marcelo_gleiser",
+      "motivo": "Mesma pessoa, físico brasileiro do Dartmouth College."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Quasar com lente gravitacional; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "onibus_espacial_columbia",
+      "motivo": "Mesmo orbitador OV-102, lançado em 1981 e destruído em 2003."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "A galáxia M87 é distinta do buraco negro M87* em seu centro (parte da entidade)."
+    }
+  ]
+}

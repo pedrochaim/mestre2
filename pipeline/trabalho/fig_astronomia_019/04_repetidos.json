@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que físico e astrônomo brasileiro é este?",
+        "resposta": "Marcelo Gleiser"
+      },
+      "existentes": [
+        {
+          "id": "q16705",
+          "pergunta": "Em que universidade americana este físico brasileiro é professor?",
+          "resposta": "Dartmouth College"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que ônibus espacial da NASA é este?",
+        "resposta": "Columbia"
+      },
+      "existentes": [
+        {
+          "id": "q09376",
+          "pergunta": "Qual destes ônibus espaciais da NASA foi o primeiro a ir ao espaço, em 1981?",
+          "resposta": "Columbia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede a identidade do físico (imagem); a outra pede a universidade onde ele leciona. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação do ônibus espacial pela imagem; a existente pergunta qual foi o primeiro a ir ao espaço, em 1981. Embora a resposta seja a mesma, acertar uma não garante acertar a outra."
+    }
+  ]
+}
