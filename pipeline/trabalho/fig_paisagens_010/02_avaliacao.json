@@ -1,0 +1,255 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mapa de satélite sem texto, com a área contornada em amarelo ao longo do litoral; reconhecível.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que bioma brasileiro é o contornado em amarelo nesta imagem de satélite?",
+      "resposta": "Mata Atlântica",
+      "distratores": [
+        "Cerrado",
+        "Caatinga",
+        "Floresta Amazônica"
+      ],
+      "ancora": {
+        "nome": "Mata Atlântica",
+        "descricao": "Bioma de floresta tropical úmida que se estende pelo litoral do Brasil, do Rio Grande do Norte ao Rio Grande do Sul.",
+        "variantes": [
+          "Atlantic Forest",
+          "Floresta Atlântica"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista aérea clara do lago com a ilha e a igreja, reconhecível; sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que lago alpino, com uma pequena ilha e uma igreja, é este?",
+      "resposta": "Lago Bled",
+      "distratores": [
+        "Lago Bohinj",
+        "Lago Braies",
+        "Lago Como"
+      ],
+      "ancora": {
+        "nome": "Lago Bled",
+        "descricao": "Lago glacial dos Alpes Julianos, no noroeste da Eslovênia, com uma ilha que abriga uma igreja.",
+        "variantes": [
+          "Lake Bled",
+          "Blejsko jezero"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Uma pessoa comum aparece em primeiro plano, de braços abertos sobre a rocha, e é o foco da foto."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto submarina nítida de corais, sem texto nem pessoas; resposta única como tipo de ecossistema.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ecossistema marinho é este?",
+      "resposta": "Recife de coral",
+      "distratores": [
+        "Manguezal",
+        "Campo de algas",
+        "Fonte hidrotermal"
+      ],
+      "ancora": {
+        "nome": "Recife de coral",
+        "descricao": "Ecossistema submarino formado por colônias de pólipos de coral unidas por carbonato de cálcio.",
+        "variantes": [
+          "Coral reef",
+          "Recife coralino"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cratera em chamas inconfundível; a pessoa pequena na borda esquerda não é o foco.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que deserto fica esta cratera de gás em chamas?",
+      "resposta": "Karakum",
+      "distratores": [
+        "Gobi",
+        "Kyzylkum",
+        "Taklamakan"
+      ],
+      "ancora": {
+        "nome": "Cratera de Darvaza",
+        "descricao": "Cratera de gás natural em chamas desde 1971, no deserto de Karakum, no Turcomenistão, conhecida como Porta do Inferno.",
+        "variantes": [
+          "Darvaza gas crater",
+          "Porta do Inferno",
+          "Portões do Inferno"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Três picos característicos, bem visíveis, sem texto nem pessoas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que conjunto de picos das Dolomitas é este?",
+      "resposta": "Tre Cime di Lavaredo",
+      "distratores": [
+        "Cinque Torri",
+        "Sassolungo",
+        "Seceda"
+      ],
+      "ancora": {
+        "nome": "Tre Cime di Lavaredo",
+        "descricao": "Grupo de três picos em forma de ameias nas Dolomitas de Sesto, no nordeste da Itália.",
+        "variantes": [
+          "Drei Zinnen",
+          "Três Picos de Lavaredo",
+          "Lavaredo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Montanha dominante atrás das ruínas, reconhecível; o enunciado pede a montanha, não as ruínas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que montanha se ergue atrás destas ruínas incas?",
+      "resposta": "Huayna Picchu",
+      "distratores": [
+        "Montanha Machu Picchu",
+        "Salcantay",
+        "Ausangate"
+      ],
+      "ancora": {
+        "nome": "Huayna Picchu",
+        "descricao": "Montanha do Peru, na região de Cusco, que se ergue sobre as ruínas de Machu Picchu.",
+        "variantes": [
+          "Wayna Picchu",
+          "Waynapicchu"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Formação de arenito ondulada muito característica, sem texto nem pessoas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que formação de arenito, no deserto americano, é esta?",
+      "resposta": "The Wave",
+      "distratores": [
+        "Antelope Canyon",
+        "Monument Valley",
+        "Bryce Canyon"
+      ],
+      "ancora": {
+        "nome": "The Wave",
+        "descricao": "Formação de arenito ondulada nas Coyote Buttes, no Arizona, perto da divisa com Utah, nos Estados Unidos.",
+        "variantes": [
+          "A Onda",
+          "The Wave (Arizona)"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Água cercada de palmeiras e dunas ao fundo; imagem pequena, mas legível e o conceito é reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de lugar é este, cercado por dunas?",
+      "resposta": "Oásis",
+      "distratores": [
+        "Uádi",
+        "Salina",
+        "Delta"
+      ],
+      "ancora": {
+        "nome": "Oásis",
+        "descricao": "Área fértil em meio a um deserto, onde há água e vegetação.",
+        "variantes": [
+          "Oasis"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Vista aérea de várias ilhas sem traço distintivo; não é possível identificar Komodo pela imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Montanha emblemática, perfil inconfundível, sem texto nem pessoas.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta montanha do Himalaia?",
+      "resposta": "Nepal",
+      "distratores": [
+        "Butão",
+        "Paquistão",
+        "Índia"
+      ],
+      "ancora": {
+        "nome": "Ama Dablam",
+        "descricao": "Montanha de 6.812 metros no Himalaia Oriental, no Nepal, vista no caminho para o acampamento-base do Everest.",
+        "variantes": [
+          "Ama Dablam (montanha)"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cachoeira em duas quedas sobre paredão basáltico cercada de mata e araucárias; reconhecível e sem texto.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cachoeira brasileira é esta?",
+      "resposta": "Cascata do Caracol",
+      "distratores": [
+        "Cachoeira da Fumaça",
+        "Salto Itiquira",
+        "Salto São Francisco"
+      ],
+      "ancora": {
+        "nome": "Cascata do Caracol",
+        "descricao": "Cachoeira de 130 metros no Parque Estadual do Caracol, em Canela, no Rio Grande do Sul.",
+        "variantes": [
+          "Cachoeira do Caracol",
+          "Caracol Falls",
+          "Cataratas do Caracol"
+        ]
+      }
+    }
+  ]
+}

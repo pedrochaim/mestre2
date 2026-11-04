@@ -1,0 +1,90 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza, resposta única, distratores do mesmo tipo e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'pequena ilha e igreja' distingue o Bled dos distratores (Bohinj, Braies, Como) sem olhar a figura, e outros lagos alpinos também têm ilha com igreja. Basta pedir o reconhecimento do lago alpino.",
+      "reescrita": {
+        "pergunta": "Que lago alpino é este?",
+        "resposta": "Lago Bled",
+        "distratores": [
+          "Lago Bohinj",
+          "Lago Braies",
+          "Lago Como"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista que vaze, distratores plausíveis e distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cratera de gás em chamas' identifica Darvaza pelo texto, e a resposta Karakum sai sem ver a figura. É preciso tirar a descrição.",
+      "reescrita": {
+        "pergunta": "Em que deserto fica este lugar?",
+        "resposta": "Karakum",
+        "distratores": [
+          "Gobi",
+          "Kyzylkum",
+          "Taklamakan"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia nem entrega a resposta, e os distratores são formações dolomíticas parecidas.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a montanha se ergue sobre Machu Picchu. A pista não entrega o nome, e os distratores são montanhas andinas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Formação de arenito no Arizona, confirmada. A pista é genérica e os distratores são paisagens visualmente parecidas.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento do tipo de lugar. 'Cercado por dunas' só descreve o cenário, e os distratores são formas de relevo de regiões áridas.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que Ama Dablam fica no Nepal, sem outra resposta defensável. A pergunta é de lugar e não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento da cachoeira, sem pista que vaze. Os distratores são cachoeiras brasileiras críveis.",
+      "reescrita": null
+    }
+  ]
+}

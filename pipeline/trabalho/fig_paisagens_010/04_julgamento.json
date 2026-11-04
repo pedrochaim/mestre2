@@ -1,0 +1,611 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Mata Atlântica",
+        "descricao": "Bioma de floresta tropical úmida que se estende pelo litoral do Brasil, do Rio Grande do Norte ao Rio Grande do Sul.",
+        "variantes": [
+          "Atlantic Forest",
+          "Floresta Atlântica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mata_atlantica",
+          "nome": "Mata Atlântica",
+          "descricao": "Bioma de florestas tropicais que acompanha o litoral leste e sul do Brasil",
+          "variantes": [
+            "Atlantic Forest",
+            "Floresta Atlântica"
+          ]
+        },
+        {
+          "id": "floresta_amazonica",
+          "nome": "Floresta Amazônica",
+          "descricao": "Floresta tropical úmida da bacia amazônica, na América do Sul",
+          "variantes": [
+            "Amazônia",
+            "Hileia Amazônica",
+            "Amazon rainforest"
+          ]
+        },
+        {
+          "id": "floresta_da_tijuca",
+          "nome": "Floresta da Tijuca",
+          "descricao": "Floresta urbana replantada no século dezenove, no maciço da Tijuca, no Rio de Janeiro",
+          "variantes": [
+            "Parque Nacional da Tijuca"
+          ]
+        },
+        {
+          "id": "pantano",
+          "nome": "Pântano",
+          "descricao": "Terra úmida florestada, alagada de forma permanente ou sazonal.",
+          "variantes": [
+            "Swamp",
+            "Floresta alagada"
+          ]
+        },
+        {
+          "id": "marcha_atletica",
+          "nome": "Marcha atlética",
+          "descricao": "Prova de pedestrianismo do atletismo em que os atletas andam o mais rápido possível, sem correr.",
+          "variantes": [
+            "Racewalking",
+            "Marcha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Lago Bled",
+        "descricao": "Lago glacial dos Alpes Julianos, no noroeste da Eslovênia, com uma ilha que abriga uma igreja.",
+        "variantes": [
+          "Lake Bled",
+          "Blejsko jezero"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lago_bled",
+          "nome": "Lago Bled",
+          "descricao": "Lago glacial dos Alpes Julianos, no noroeste da Eslovênia, com uma ilhota que abriga uma igreja.",
+          "variantes": [
+            "Lake Bled",
+            "Blejsko jezero"
+          ]
+        },
+        {
+          "id": "lago_bohinj",
+          "nome": "Lago Bohinj",
+          "descricao": "Maior lago permanente da Eslovênia, nos Alpes Julianos, no Parque Nacional do Triglav.",
+          "variantes": [
+            "Bohinjsko jezero",
+            "Lake Bohinj"
+          ]
+        },
+        {
+          "id": "lago_inle",
+          "nome": "Lago Inle",
+          "descricao": "Lago de água doce no estado de Shan, em Mianmar, famoso por suas aldeias sobre palafitas e jardins flutuantes.",
+          "variantes": [
+            "Inle Lake",
+            "Inlay"
+          ]
+        },
+        {
+          "id": "lago_de_genebra",
+          "nome": "Lago de Genebra",
+          "descricao": "Grande lago alpino na fronteira entre a Suíça e a França, às margens do qual fica a cidade de Genebra.",
+          "variantes": [
+            "Lago Léman",
+            "Lago Lemano",
+            "Lake Geneva",
+            "Lac Léman"
+          ]
+        },
+        {
+          "id": "lago_dal",
+          "nome": "Lago Dal",
+          "descricao": "Lago de água doce em Srinagar, na Caxemira indiana, famoso por seus barcos shikara e casas-barco.",
+          "variantes": [
+            "Dal Lake"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Recife de coral",
+        "descricao": "Ecossistema submarino formado por colônias de pólipos de coral unidas por carbonato de cálcio.",
+        "variantes": [
+          "Coral reef",
+          "Recife coralino"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "recife_de_coral",
+          "nome": "Recife de coral",
+          "descricao": "Estrutura submarina formada pelo acúmulo dos esqueletos calcários de corais ao longo de séculos.",
+          "variantes": [
+            "Recife coralino",
+            "Coral reef"
+          ]
+        },
+        {
+          "id": "eclipse_solar_de_29_de_maio_de_1919",
+          "nome": "Eclipse solar de 29 de maio de 1919",
+          "descricao": "Eclipse total do Sol observado em Sobral e na ilha do Príncipe, que ajudou a confirmar a relatividade geral.",
+          "variantes": [
+            "Experimento de Eddington",
+            "Eclipse de Sobral"
+          ]
+        },
+        {
+          "id": "cobra_real",
+          "nome": "Cobra-real",
+          "descricao": "Maior serpente venenosa do mundo (Ophiophagus hannah), nativa do sul e sudeste da Ásia.",
+          "variantes": [
+            "Ophiophagus hannah",
+            "King cobra"
+          ]
+        },
+        {
+          "id": "coral_cerebro",
+          "nome": "Coral-cérebro",
+          "descricao": "Coral pétreo de colônia esférica com sulcos que lembram um cérebro, construtor de recifes.",
+          "variantes": [
+            "Brain coral"
+          ]
+        },
+        {
+          "id": "reino_de_portugal",
+          "nome": "Reino de Portugal",
+          "descricao": "Monarquia ibérica que surgiu do Condado Portucalense no século doze e durou até 1910.",
+          "variantes": [
+            "Kingdom of Portugal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Cratera de Darvaza",
+        "descricao": "Cratera de gás natural em chamas desde 1971, no deserto de Karakum, no Turcomenistão, conhecida como Porta do Inferno.",
+        "variantes": [
+          "Darvaza gas crater",
+          "Porta do Inferno",
+          "Portões do Inferno"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cratera_de_darvaza",
+          "nome": "Cratera de Darvaza",
+          "descricao": "Cratera de gás em chamas no deserto de Caracum, no Turcomenistão, apelidada de Porta do Inferno.",
+          "variantes": [
+            "Porta do Inferno",
+            "Darvaza gas crater",
+            "Darweze"
+          ]
+        },
+        {
+          "id": "a_porta_do_inferno",
+          "nome": "A Porta do Inferno",
+          "descricao": "Grupo escultórico monumental em bronze de Auguste Rodin, inspirado no Inferno de Dante.",
+          "variantes": [
+            "La Porte de l'Enfer",
+            "The Gates of Hell"
+          ]
+        },
+        {
+          "id": "gregorio_de_matos",
+          "nome": "Gregório de Matos",
+          "descricao": "Poeta barroco baiano do século dezessete, famoso por sua poesia satírica.",
+          "variantes": [
+            "Gregório de Matos e Guerra",
+            "Boca do Inferno"
+          ]
+        },
+        {
+          "id": "centro_de_lancamento_da_barreira_do_inferno",
+          "nome": "Centro de Lançamento da Barreira do Inferno",
+          "descricao": "Base brasileira de lançamento de foguetes inaugurada em 1965 em Parnamirim, perto de Natal.",
+          "variantes": [
+            "Barreira do Inferno",
+            "CLBI"
+          ]
+        },
+        {
+          "id": "porta_do_sol_de_tiwanaku",
+          "nome": "Porta do Sol de Tiwanaku",
+          "descricao": "Portal monolítico esculpido pela cultura Tiwanaku, perto do Lago Titicaca, na Bolívia.",
+          "variantes": [
+            "Porta do Sol",
+            "Puerta del Sol",
+            "Gateway of the Sun"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Tre Cime di Lavaredo",
+        "descricao": "Grupo de três picos em forma de ameias nas Dolomitas de Sesto, no nordeste da Itália.",
+        "variantes": [
+          "Drei Zinnen",
+          "Três Picos de Lavaredo",
+          "Lavaredo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "minas_de_laurio",
+          "nome": "Minas de Láurio",
+          "descricao": "Minas de prata da Ática, ao sul de Atenas, cuja riqueza financiou a frota ateniense no século cinco a.C.",
+          "variantes": [
+            "Laurium",
+            "Lavrio",
+            "Láurion"
+          ]
+        },
+        {
+          "id": "lava",
+          "nome": "Lava",
+          "descricao": "Rocha derretida expelida por um vulcão durante uma erupção.",
+          "variantes": []
+        },
+        {
+          "id": "flareon",
+          "nome": "Flareon",
+          "descricao": "Pokémon do tipo fogo, número 136 da Pokédex Nacional, evolução do Eevee.",
+          "variantes": [
+            "Flareon (Pokémon)"
+          ]
+        },
+        {
+          "id": "fettuccine_alfredo",
+          "nome": "Fettuccine Alfredo",
+          "descricao": "Prato de fettuccine com manteiga e parmesão, ou molho cremoso de queijo, criado em Roma.",
+          "variantes": [
+            "Fettuccine al burro",
+            "Alfredo"
+          ]
+        },
+        {
+          "id": "caviar",
+          "nome": "Caviar",
+          "descricao": "Iguaria feita de ovas salgadas de esturjão e, por extensão, de outros peixes.",
+          "variantes": [
+            "Caviare",
+            "Ova de salmão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Huayna Picchu",
+        "descricao": "Montanha do Peru, na região de Cusco, que se ergue sobre as ruínas de Machu Picchu.",
+        "variantes": [
+          "Wayna Picchu",
+          "Waynapicchu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "machu_picchu",
+          "nome": "Machu Picchu",
+          "descricao": "Cidadela inca do século quinze nos Andes peruanos.",
+          "variantes": [
+            "Machu Pichu"
+          ]
+        },
+        {
+          "id": "pichu",
+          "nome": "Pichu",
+          "descricao": "Pokémon do tipo Elétrico, número 172 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "irmaos_pichu",
+          "nome": "Irmãos Pichu",
+          "descricao": "Dupla de irmãos Pichu travessos que estreou no curta Pikachu & Pichu, exibido nos cinemas antes de Pokémon 3: O Filme.",
+          "variantes": [
+            "Pichu Brothers",
+            "Pikachu & Pichu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "The Wave",
+        "descricao": "Formação de arenito ondulada nas Coyote Buttes, no Arizona, perto da divisa com Utah, nos Estados Unidos.",
+        "variantes": [
+          "A Onda",
+          "The Wave (Arizona)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "the_wave_arizona",
+          "nome": "The Wave (Arizona)",
+          "descricao": "Formação de arenito com formas onduladas e coloridas em Coyote Buttes, no Arizona.",
+          "variantes": [
+            "The Wave",
+            "A Onda"
+          ]
+        },
+        {
+          "id": "o_corvo",
+          "nome": "O Corvo",
+          "descricao": "Poema narrativo de Edgar Allan Poe, publicado em 1845.",
+          "variantes": [
+            "The Raven"
+          ]
+        },
+        {
+          "id": "heat_wave",
+          "nome": "Heat Wave",
+          "descricao": "Golpe de pokémon do tipo Fogo, da 3ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "a_rendeira_vermeer",
+          "nome": "A Rendeira (Vermeer)",
+          "descricao": "Pintura de Johannes Vermeer que mostra uma jovem de corpete amarelo fazendo renda de bilros.",
+          "variantes": [
+            "The Lacemaker",
+            "A Rendeira de Vermeer",
+            "A Renda"
+          ]
+        },
+        {
+          "id": "e_honda",
+          "nome": "E. Honda",
+          "descricao": "Lutador de sumô da série de jogos de luta Street Fighter, da Capcom.",
+          "variantes": [
+            "Edmond Honda"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Oásis",
+        "descricao": "Área fértil em meio a um deserto, onde há água e vegetação.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "oasis",
+          "nome": "Oasis",
+          "descricao": "Banda britânica de rock formada em Manchester em 1991",
+          "variantes": []
+        },
+        {
+          "id": "oasis_2",
+          "nome": "Oásis",
+          "descricao": "Área fértil e com água no meio de um deserto, alimentada por fontes ou lençóis subterrâneos",
+          "variantes": []
+        },
+        {
+          "id": "moais_da_ilha_de_pascoa",
+          "nome": "Moais da Ilha de Páscoa",
+          "descricao": "Estátuas monolíticas esculpidas pelo povo Rapa Nui na Ilha de Páscoa.",
+          "variantes": [
+            "Moai",
+            "Estátuas da Ilha de Páscoa",
+            "Moais"
+          ]
+        },
+        {
+          "id": "asics",
+          "nome": "Asics",
+          "descricao": "Fabricante japonesa de tênis e artigos esportivos sediada em Kobe.",
+          "variantes": [
+            "Onitsuka Tiger"
+          ]
+        },
+        {
+          "id": "coral",
+          "nome": "Coral",
+          "descricao": "Animal marinho colonial da classe Anthozoa, cujos esqueletos formam os recifes.",
+          "variantes": [
+            "Corais"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Ama Dablam",
+        "descricao": "Montanha de 6.812 metros no Himalaia Oriental, no Nepal, vista no caminho para o acampamento-base do Everest.",
+        "variantes": [
+          "Ama Dablam (montanha)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "puma_2",
+          "nome": "Puma",
+          "descricao": "Grande felino de pelagem uniforme, Puma concolor, presente nas Américas.",
+          "variantes": [
+            "Onça-parda",
+            "Suçuarana",
+            "Leão-da-montanha",
+            "Puma concolor"
+          ]
+        },
+        {
+          "id": "gorila_da_montanha",
+          "nome": "Gorila-da-montanha",
+          "descricao": "Subespécie do gorila-oriental que vive nas montanhas Virunga e em Bwindi, na África Central.",
+          "variantes": [
+            "Gorila-das-montanhas",
+            "Gorilla beringei beringei",
+            "Mountain gorilla"
+          ]
+        },
+        {
+          "id": "lhama",
+          "nome": "Lhama",
+          "descricao": "Camelídeo doméstico sul-americano (Lama glama), usado como animal de carga e fonte de carne e lã nos Andes.",
+          "variantes": [
+            "Llama",
+            "Lama glama"
+          ]
+        },
+        {
+          "id": "urutau",
+          "nome": "Urutau",
+          "descricao": "Ave noturna Nyctibius griseus, de plumagem camuflada que imita um toco de árvore, de olhos grandes amarelos.",
+          "variantes": [
+            "Urutau-comum",
+            "Mãe-da-lua",
+            "Common potoo",
+            "Nyctibius griseus"
+          ]
+        },
+        {
+          "id": "camisa_de_bolinhas_do_tour_de_france",
+          "nome": "Camisa de bolinhas do Tour de France",
+          "descricao": "Camisa branca com bolinhas vermelhas vestida pelo líder da classificação de montanha do Tour de France.",
+          "variantes": [
+            "Maillot à pois",
+            "Camisa de rei da montanha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Cascata do Caracol",
+        "descricao": "Cachoeira de 130 metros no Parque Estadual do Caracol, em Canela, no Rio Grande do Sul.",
+        "variantes": [
+          "Cachoeira do Caracol",
+          "Caracol Falls",
+          "Cataratas do Caracol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cascata_do_caracol",
+          "nome": "Cascata do Caracol",
+          "descricao": "Queda d'água de cerca de 130 metros no Parque Estadual do Caracol, na serra gaúcha.",
+          "variantes": [
+            "Cachoeira do Caracol"
+          ]
+        },
+        {
+          "id": "cataratas_do_reno",
+          "nome": "Cataratas do Reno",
+          "descricao": "Cachoeira no Alto Reno, na Suíça, entre os cantões de Schaffhausen e Zurique.",
+          "variantes": [
+            "Rheinfall",
+            "Rhine Falls"
+          ]
+        },
+        {
+          "id": "cataratas_do_niagara",
+          "nome": "Cataratas do Niágara",
+          "descricao": "Grupo de três quedas d'água no Rio Niágara, na fronteira entre Ontário e Nova York.",
+          "variantes": [
+            "Niagara Falls"
+          ]
+        },
+        {
+          "id": "cataratas_do_iguacu",
+          "nome": "Cataratas do Iguaçu",
+          "descricao": "Conjunto de quedas d'água do rio Iguaçu, na fronteira entre o Paraná, no Brasil, e a província argentina de Misiones.",
+          "variantes": [
+            "Iguaçu",
+            "Cataratas del Iguazú",
+            "Iguazu Falls",
+            "Foz do Iguaçu"
+          ]
+        },
+        {
+          "id": "cachoeira_do_tabuleiro",
+          "nome": "Cachoeira do Tabuleiro",
+          "descricao": "Queda-d'água de 273 metros na serra do Espinhaço, em Conceição do Mato Dentro, Minas Gerais.",
+          "variantes": [
+            "Tabuleiro"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "mata_atlantica",
+      "motivo": "Mesmo bioma brasileiro, mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "lago_bled",
+      "motivo": "Mesmo lago esloveno com ilha e igreja."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "recife_de_coral",
+      "motivo": "Mesmo conceito de recife de coral, variantes idênticas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "cratera_de_darvaza",
+      "motivo": "Mesma cratera de gás no Turcomenistão."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é as Tre Cime di Lavaredo."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Huayna Picchu é a montanha, distinta da cidadela Machu Picchu."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "the_wave_arizona",
+      "motivo": "Mesma formação de arenito em Coyote Buttes."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "oasis_2",
+      "motivo": "Mesmo conceito de oásis no deserto; a banda Oasis é outra entidade."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a montanha Ama Dablam."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "cascata_do_caracol",
+      "motivo": "Mesma cachoeira no Parque Estadual do Caracol."
+    }
+  ]
+}

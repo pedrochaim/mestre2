@@ -1,0 +1,164 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que bioma brasileiro é o contornado em amarelo nesta imagem de satélite?",
+        "resposta": "Mata Atlântica"
+      },
+      "existentes": [
+        {
+          "id": "q06267",
+          "pergunta": "Qual bioma brasileiro, hoje reduzido a fragmentos, abriga a maior parte da população do país?",
+          "resposta": "Mata Atlântica"
+        },
+        {
+          "id": "q08690",
+          "pergunta": "Que árvore nativa da Mata Atlântica, de madeira avermelhada usada para tingir tecidos, acabou dando nome ao nosso país?",
+          "resposta": "Pau-brasil"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que lago alpino é este?",
+        "resposta": "Lago Bled"
+      },
+      "existentes": [
+        {
+          "id": "q14154",
+          "pergunta": "Em que país fica este lago alpino?",
+          "resposta": "Eslovênia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que ecossistema marinho é este?",
+        "resposta": "Recife de coral"
+      },
+      "existentes": [
+        {
+          "id": "q09577",
+          "pergunta": "Os recifes de coral crescem com o acúmulo dos esqueletos dos corais. De que substância mineral, a mesma do calcário, esses esqueletos são feitos?",
+          "resposta": "Carbonato de cálcio"
+        },
+        {
+          "id": "q14151",
+          "pergunta": "Que ecossistema marinho é este?",
+          "resposta": "Recife de coral"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que deserto fica este lugar?",
+        "resposta": "Karakum"
+      },
+      "existentes": [
+        {
+          "id": "q09213",
+          "pergunta": "A cratera de Darvaza, no deserto do Turcomenistão, ganhou o apelido de Porta do Inferno por causa das chamas que saem dela. O que queima ali?",
+          "resposta": "Gás natural"
+        },
+        {
+          "id": "q16583",
+          "pergunta": "Esta cratera em chamas, que arde desde 1971, fica no meio de qual deserto?",
+          "resposta": "Karakum"
+        },
+        {
+          "id": "q16696",
+          "pergunta": "Que cratera é esta?",
+          "resposta": "Cratera de Darvaza (Porta do Inferno)"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que formação de arenito, no deserto americano, é esta?",
+        "resposta": "The Wave"
+      },
+      "existentes": [
+        {
+          "id": "q14027",
+          "pergunta": "Que formação de arenito do Arizona, perto da divisa com Utah, é esta?",
+          "resposta": "The Wave"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que tipo de lugar é este, cercado por dunas?",
+        "resposta": "Oásis"
+      },
+      "existentes": [
+        {
+          "id": "q08692",
+          "pergunta": "Que palmeira, cujos frutos doces alimentavam as caravanas, é a árvore mais típica dos oásis do Saara?",
+          "resposta": "Tamareira"
+        },
+        {
+          "id": "q15271",
+          "pergunta": "Que tipo de ambiente é este?",
+          "resposta": "Oásis"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que cachoeira brasileira é esta?",
+        "resposta": "Cascata do Caracol"
+      },
+      "existentes": [
+        {
+          "id": "q09635",
+          "pergunta": "Com cerca de cento e trinta metros de queda, a Cascata do Caracol é a grande atração natural de qual cidade da serra gaúcha?",
+          "resposta": "Canela"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o bioma pela imagem de satélite é outro fato; a existente pergunta qual bioma abriga a maior parte da população, embora a resposta coincida. Na dúvida, nova."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede o nome do lago e a outra o país; são fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e mesma resposta que q14151."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "q16583 já pergunta em qual deserto fica a cratera em chamas, com a resposta Karakum."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Pergunta a mesma identificação da formação The Wave que q14027."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesma identificação do oásis e mesma resposta que q15271."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Identificar a cachoeira pela imagem é diferente de saber a cidade onde ela fica."
+    }
+  ]
+}

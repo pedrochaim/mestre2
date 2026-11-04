@@ -352059,5 +352059,155 @@
       "licenca": "CC0"
     },
     "dificuldade": 3
+  },
+  {
+    "id": "q17997",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "mata_atlantica",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que bioma brasileiro é o contornado em amarelo nesta imagem de satélite?",
+    "resposta": "Mata Atlântica",
+    "distratores": [
+      "Cerrado",
+      "Caatinga",
+      "Floresta Amazônica"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Atlantic_Forest",
+      "https://pt.wikipedia.org/wiki/Mata_Atl%C3%A2ntica"
+    ],
+    "imagem": {
+      "arquivo": "q17997.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Atlantic_Forest_WWF.jpg",
+      "autor": "NASA and Miguelrangeljr",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q17998",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "lago_bled",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que lago alpino é este?",
+    "resposta": "Lago Bled",
+    "distratores": [
+      "Lago Bohinj",
+      "Lago Braies",
+      "Lago Como"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lake_Bled",
+      "https://pt.wikipedia.org/wiki/Lago_Bled"
+    ],
+    "imagem": {
+      "arquivo": "q17998.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Lake_Bled_(view_from_the_southwest).jpg",
+      "autor": "Carsten Steger",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q17999",
+    "tema": "Geografia",
+    "subtema": "Relevo e Maravilhas Naturais",
+    "ancora": "tre_cime_di_lavaredo",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que conjunto de picos das Dolomitas é este?",
+    "resposta": "Tre Cime di Lavaredo",
+    "distratores": [
+      "Cinque Torri",
+      "Sassolungo",
+      "Seceda"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tre_Cime_di_Lavaredo",
+      "https://pt.wikipedia.org/wiki/Lavaredo"
+    ],
+    "imagem": {
+      "arquivo": "q17999.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lavaredo.jpg",
+      "autor": "sambuco",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q18000",
+    "tema": "Geografia",
+    "subtema": "Relevo e Maravilhas Naturais",
+    "ancora": "huayna_picchu",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que montanha se ergue atrás destas ruínas incas?",
+    "resposta": "Huayna Picchu",
+    "distratores": [
+      "Montanha Machu Picchu",
+      "Salcantay",
+      "Ausangate"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Huayna_Picchu",
+      "https://pt.wikipedia.org/wiki/Huayna_Picchu"
+    ],
+    "imagem": {
+      "arquivo": "q18000.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Machu_Picchu_(2005)_Mark_Blumenthal.jpg",
+      "autor": "Mblument at en.wikipedia",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q18001",
+    "tema": "Geografia",
+    "subtema": "Relevo e Maravilhas Naturais",
+    "ancora": "ama_dablam",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país fica esta montanha do Himalaia?",
+    "resposta": "Nepal",
+    "distratores": [
+      "Butão",
+      "Paquistão",
+      "Índia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ama_Dablam",
+      "https://pt.wikipedia.org/wiki/Ama_Dablam"
+    ],
+    "imagem": {
+      "arquivo": "q18001.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Himalayas,_Ama_Dablam,_Nepal.jpg",
+      "autor": "Vyacheslav Argenberg",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q18002",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "cascata_do_caracol",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que cachoeira brasileira é esta?",
+    "resposta": "Cascata do Caracol",
+    "distratores": [
+      "Cachoeira da Fumaça",
+      "Salto Itiquira",
+      "Salto São Francisco"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cascata_do_Caracol",
+      "https://en.wikipedia.org/wiki/Caracol_Falls"
+    ],
+    "imagem": {
+      "arquivo": "q18002.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Caracol_falls_(2_April_2008).jpg",
+      "autor": "Tiago Fioreze",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]
