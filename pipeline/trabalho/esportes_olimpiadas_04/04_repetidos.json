@@ -1,0 +1,786 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em Pequim 2008, a caminho dos oito ouros, Michael Phelps venceu os cem metros borboleta com que diferença para o segundo colocado?",
+        "resposta": "Um centésimo de segundo"
+      },
+      "existentes": [
+        {
+          "id": "q02570",
+          "pergunta": "Quantas medalhas olímpicas, no total, este atleta americano conquistou na carreira?",
+          "resposta": "28"
+        },
+        {
+          "id": "q05716",
+          "pergunta": "Nos Jogos de Pequim, em 2008, quantas medalhas de ouro o nadador americano Michael Phelps conquistou?",
+          "resposta": "Oito"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quantas vezes Usain Bolt conseguiu vencer os cem e os duzentos metros rasos numa mesma edição dos Jogos Olímpicos?",
+        "resposta": "Três"
+      },
+      "existentes": [
+        {
+          "id": "q00538",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Usain Bolt"
+        },
+        {
+          "id": "q00678",
+          "pergunta": "Por que Usain Bolt perdeu, anos depois, a medalha de ouro do revezamento quatro por cem de Pequim 2008?",
+          "resposta": "Doping do colega Nesta Carter"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Nos Jogos de Paris 1924, o fundista finlandês Paavo Nurmi ganhou quantas medalhas de ouro?",
+        "resposta": "Cinco"
+      },
+      "existentes": [
+        {
+          "id": "q09070",
+          "pergunta": "Nove vezes campeão olímpico nos anos vinte, o fundista Paavo Nurmi ficou conhecido por que apelido?",
+          "resposta": "Finlandês Voador"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Carl Lewis começou a ganhar o salto em distância olímpico em Los Angeles 1984. Em quantas edições seguidas ele venceu essa prova?",
+        "resposta": "Quatro"
+      },
+      "existentes": [
+        {
+          "id": "q00682",
+          "pergunta": "Em Los Angeles 1984, Carl Lewis venceu cem metros, duzentos metros, revezamento e salto em distância, repetindo o feito de que atleta em 1936?",
+          "resposta": "Jesse Owens"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "No arremesso de peso masculino, a bola de metal que os atletas lançam pesa quanto?",
+        "resposta": "7,26 quilos"
+      },
+      "existentes": [
+        {
+          "id": "q07975",
+          "pergunta": "Que prova do atletismo é esta?",
+          "resposta": "Arremesso de peso"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O nadador Daniel Dias se despediu das Paralimpíadas em Tóquio. Quantas medalhas paralímpicas ele somou na carreira?",
+        "resposta": "Vinte e sete"
+      },
+      "existentes": [
+        {
+          "id": "q00685",
+          "pergunta": "O nadador Daniel Dias decidiu começar na natação depois de ver na TV, nas Paralimpíadas de 2004, qual nadador brasileiro?",
+          "resposta": "Clodoaldo Silva"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Apelidado de Big Owe, a grande dívida, o Estádio Olímpico de Montreal custou tanto que a conta levou quantos anos para ser quitada?",
+        "resposta": "Cerca de trinta anos"
+      },
+      "existentes": [
+        {
+          "id": "q02172",
+          "pergunta": "Em que cidade fica este estádio?",
+          "resposta": "Montreal"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Pelas regras olímpicas, a medalha de ouro é quase toda de prata, mas precisa ter um mínimo de ouro. Quantos gramas?",
+        "resposta": "Seis gramas"
+      },
+      "existentes": [
+        {
+          "id": "q00700",
+          "pergunta": "Desde 1912, as medalhas de ouro olímpicas não são maciças. Elas são feitas, em sua maior parte, de que metal?",
+          "resposta": "Prata"
+        },
+        {
+          "id": "q09067",
+          "pergunta": "Desde Atenas 2004, as medalhas dos Jogos de Verão mostram o Estádio Panatenaico e a figura de qual deusa grega da vitória?",
+          "resposta": "Nike"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O Estádio Panatenaico, palco dos Jogos de 1896 em Atenas, é apelidado pelos gregos de Kalimármaro. O que esse nome significa?",
+        "resposta": "Mármore bonito"
+      },
+      "existentes": [
+        {
+          "id": "q02698",
+          "pergunta": "Que estádio histórico da Grécia é este?",
+          "resposta": "Estádio Panatenaico (Calimármaro)"
+        },
+        {
+          "id": "q08028",
+          "pergunta": "Quem reconstruiu este estádio em mármore, no século dois?",
+          "resposta": "Herodes Ático"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O nome do judô, arte marcial criada por Jigoro Kano e hoje esporte olímpico, significa o que em japonês?",
+        "resposta": "Caminho suave"
+      },
+      "existentes": [
+        {
+          "id": "q01939",
+          "pergunta": "O que significa, ao pé da letra, o nome japonês da arte marcial judô?",
+          "resposta": "Caminho suave"
+        },
+        {
+          "id": "q01940",
+          "pergunta": "Em 1882, ao abrir o Instituto Kodokan em Tóquio, que educador japonês fundou o judô?",
+          "resposta": "Jigoro Kano"
+        },
+        {
+          "id": "q15045",
+          "pergunta": "Que esporte olímpico é este?",
+          "resposta": "Judô"
+        },
+        {
+          "id": "q16481",
+          "pergunta": "Até os Jogos de Paris, em 2024, que modalidade tinha dado mais medalhas olímpicas ao Brasil?",
+          "resposta": "Judô"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Mondo é só o apelido do sueco Duplantis, campeão olímpico do salto com vara. Qual é o primeiro nome de batismo dele?",
+        "resposta": "Armand"
+      },
+      "existentes": [
+        {
+          "id": "q15110",
+          "pergunta": "Por qual país compete este atleta olímpico do salto com vara?",
+          "resposta": "Suécia"
+        },
+        {
+          "id": "q15665",
+          "pergunta": "Em que prova do atletismo este atleta é o recordista mundial?",
+          "resposta": "Salto com vara"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Baixinha e explosiva na largada, a velocista jamaicana Shelly-Ann Fraser-Pryce ganhou um apelido em inglês. O que ele significa?",
+        "resposta": "Foguete de bolso"
+      },
+      "existentes": [
+        {
+          "id": "q15200",
+          "pergunta": "Em que cidade esta velocista conquistou seu primeiro ouro olímpico nos cem metros?",
+          "resposta": "Pequim"
+        },
+        {
+          "id": "q16282",
+          "pergunta": "Quem é esta velocista jamaicana?",
+          "resposta": "Shelly-Ann Fraser-Pryce"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Na Grécia antiga, stadion, palavra que deu origem a estádio, era uma medida de comprimento e também o nome de quê, nos Jogos de Olímpia?",
+        "resposta": "Uma corrida a pé"
+      },
+      "existentes": [
+        {
+          "id": "q00698",
+          "pergunta": "Segundo a data tradicional, em que ano antes de Cristo foram disputados os primeiros Jogos em Olímpia, na Grécia?",
+          "resposta": "776 antes de Cristo"
+        },
+        {
+          "id": "q03246",
+          "pergunta": "Nos Jogos de Olímpia, em vez de medalhas, que prêmio oficial o vencedor recebia?",
+          "resposta": "Coroa de ramos de oliveira"
+        },
+        {
+          "id": "q04674",
+          "pergunta": "Segundo a tradição, os Jogos de Olímpia acabaram no fim do século quatro, por causa dos decretos contra cultos pagãos de que imperador romano?",
+          "resposta": "Teodósio I"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Em Paris 2024, Rebeca Andrade virou a maior medalhista olímpica do Brasil, superando dois velejadores. Um era Torben Grael. Quem era o outro?",
+        "resposta": "Robert Scheidt"
+      },
+      "existentes": [
+        {
+          "id": "q04649",
+          "pergunta": "A ginasta Rebeca Andrade, campeã olímpica no salto e no solo, nasceu em que cidade da Grande São Paulo?",
+          "resposta": "Guarulhos"
+        },
+        {
+          "id": "q04681",
+          "pergunta": "Em Tóquio 2020, Rebeca Andrade empolgou o Brasil com uma série de solo ao som de que funk de MC João?",
+          "resposta": "Baile de Favela"
+        },
+        {
+          "id": "q05047",
+          "pergunta": "Que ginasta brasileira é esta?",
+          "resposta": "Rebeca Andrade"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Antes da glória olímpica, o maratonista Abebe Bikila era soldado da guarda imperial de qual imperador da Etiópia?",
+        "resposta": "Haile Selassie"
+      },
+      "existentes": [
+        {
+          "id": "q00703",
+          "pergunta": "Na maratona de Roma 1960, o etíope Abebe Bikila conquistou o ouro de um jeito que ficou para a história. Como ele correu?",
+          "resposta": "Descalço"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Depois do ouro no atletismo em 1912, Jim Thorpe jogou como profissional no beisebol e virou astro de que outro esporte?",
+        "resposta": "Futebol americano"
+      },
+      "existentes": [
+        {
+          "id": "q00671",
+          "pergunta": "Campeão do pentatlo e do decatlo em 1912, o americano Jim Thorpe teve as medalhas retiradas no ano seguinte. Por quê?",
+          "resposta": "Tinha jogado beisebol sendo pago"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Campeão olímpico de boxe em Roma 1960, ainda com o nome Cassius Clay, Muhammad Ali voltou aos Jogos em Atlanta 1996 para fazer o quê?",
+        "resposta": "Acender a pira olímpica"
+      },
+      "existentes": [
+        {
+          "id": "q00539",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Muhammad Ali"
+        },
+        {
+          "id": "q01955",
+          "pergunta": "Aos doze anos, em Louisville, o futuro Muhammad Ali foi parar numa academia de boxe depois de que incidente?",
+          "resposta": "O roubo de sua bicicleta"
+        },
+        {
+          "id": "q06639",
+          "pergunta": "Ainda com o nome de Cassius Clay, Muhammad Ali ganhou a medalha de ouro olímpica em 1960, nos Jogos de que cidade?",
+          "resposta": "Roma"
+        },
+        {
+          "id": "q16495",
+          "pergunta": "Descrevendo seu estilo de luta, Muhammad Ali dizia que flutuava como uma borboleta e picava como que inseto?",
+          "resposta": "Abelha"
+        },
+        {
+          "id": "q16507",
+          "pergunta": "Ao se juntar à Nação do Islã, em 1964, o novo campeão dos pesos-pesados usou por pouco tempo que nome, antes de adotar Muhammad Ali?",
+          "resposta": "Cassius X"
+        },
+        {
+          "id": "q16520",
+          "pergunta": "Já com o mal de Parkinson, Muhammad Ali emocionou o mundo ao acender a pira dos Jogos Olímpicos de Atlanta. Em que ano?",
+          "resposta": "1996"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Cinco vezes campeão olímpico de natação nos anos vinte, o americano Johnny Weissmuller ficou famoso no cinema interpretando que personagem?",
+        "resposta": "Tarzan"
+      },
+      "existentes": [
+        {
+          "id": "q01642",
+          "pergunta": "O nadador americano Johnny Weissmuller, cinco vezes campeão olímpico, ficou famoso no cinema interpretando qual personagem?",
+          "resposta": "Tarzan"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Sob pseudônimo, Pierre de Coubertin ganhou uma medalha de ouro em Estocolmo 1912, sem ser atleta, num concurso de arte. Em que categoria?",
+        "resposta": "Literatura"
+      },
+      "existentes": [
+        {
+          "id": "q04650",
+          "pergunta": "Pierre de Coubertin foi sepultado na Suíça, mas seu coração foi levado para a Grécia e enterrado num monumento. Em que lugar?",
+          "resposta": "Olímpia"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "A torre do Estádio Olímpico de Helsinque mede setenta e dois metros e setenta e um centímetros, a marca de um ouro finlandês em 1932. Em que prova?",
+        "resposta": "Lançamento de dardo"
+      },
+      "existentes": [
+        {
+          "id": "q14392",
+          "pergunta": "Que cidade nórdica abriga este estádio olímpico?",
+          "resposta": "Helsinque"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "O Cubo d'Água, palco da natação em Pequim 2008, foi adaptado para os Jogos de Inverno de 2022 e recebeu qual esporte?",
+        "resposta": "Curling"
+      },
+      "existentes": [
+        {
+          "id": "q02700",
+          "pergunta": "Em que cidade da Ásia fica este centro aquático?",
+          "resposta": "Pequim"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Em Paris 2024, sob a cúpula de vidro do Grand Palais, foram disputadas a esgrima e qual outra modalidade de combate?",
+        "resposta": "Taekwondo"
+      },
+      "existentes": [
+        {
+          "id": "q17367",
+          "pergunta": "Que edifício de Paris, construído para uma exposição universal e usado em uma Olimpíada, é este?",
+          "resposta": "Grand Palais"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Construído para os Jogos de 1936, o Estádio Olímpico de Berlim recebeu a final da Copa do Mundo de 2006. Que seleção saiu campeã?",
+        "resposta": "Itália"
+      },
+      "existentes": [
+        {
+          "id": "q01869",
+          "pergunta": "Que estádio alemão é este?",
+          "resposta": "Estádio Olímpico de Berlim"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "O ataque aos atletas israelenses em Munique 1972 e a vingança que se seguiu viraram o filme Munique, de 2005. Quem o dirigiu?",
+        "resposta": "Steven Spielberg"
+      },
+      "existentes": [
+        {
+          "id": "q00689",
+          "pergunta": "Nos Jogos de Munique 1972, atletas israelenses foram feitos reféns e mortos por militantes de que grupo palestino?",
+          "resposta": "Setembro Negro"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Ex-recordista mundial do salto triplo e duas vezes bronze olímpico, João do Pulo teve a carreira interrompida em dezembro de 1981. Por quê?",
+        "resposta": "Acidente de carro"
+      },
+      "existentes": [
+        {
+          "id": "q01638",
+          "pergunta": "Um acidente de carro no fim de 1981 acabou com a carreira de João do Pulo, recordista mundial do salto triplo. Que parte do corpo ele perdeu?",
+          "resposta": "A perna direita"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Segundo colocado nos saltos do hipismo em Atenas 2004, o brasileiro Rodrigo Pessoa recebeu depois a medalha de ouro. O que causou a troca?",
+        "resposta": "Doping do cavalo vencedor"
+      },
+      "existentes": [
+        {
+          "id": "q05712",
+          "pergunta": "Rodrigo Pessoa ficou com o ouro do hipismo em Atenas, em 2004, porque o irlandês que venceu a prova foi desclassificado. Por qual motivo?",
+          "resposta": "Doping do cavalo"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Em Atenas 1896, o campeão recebia uma medalha de prata. Em que edição os Jogos adotaram pela primeira vez o trio ouro, prata e bronze?",
+        "resposta": "Saint Louis 1904"
+      },
+      "existentes": [
+        {
+          "id": "q00700",
+          "pergunta": "Desde 1912, as medalhas de ouro olímpicas não são maciças. Elas são feitas, em sua maior parte, de que metal?",
+          "resposta": "Prata"
+        },
+        {
+          "id": "q09067",
+          "pergunta": "Desde Atenas 2004, as medalhas dos Jogos de Verão mostram o Estádio Panatenaico e a figura de qual deusa grega da vitória?",
+          "resposta": "Nike"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Desde que edição os Jogos Paralímpicos de Verão acontecem sempre na mesma cidade dos Jogos Olímpicos, logo depois deles?",
+        "resposta": "Seul 1988"
+      },
+      "existentes": [
+        {
+          "id": "q04670",
+          "pergunta": "No nome Jogos Paralímpicos, o prefixo para é explicado hoje como uma preposição grega. Com que significado?",
+          "resposta": "Ao lado, em paralelo"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "A maratona feminina demorou a entrar no programa olímpico. Em que edição ela estreou, com vitória da americana Joan Benoit?",
+        "resposta": "Los Angeles 1984"
+      },
+      "existentes": [
+        {
+          "id": "q00677",
+          "pergunta": "Segundo a explicação mais repetida, por que a maratona de Londres 1908 ganhou o percurso de quarenta e dois quilômetros e cento e noventa e cinco metros?",
+          "resposta": "Largar em Windsor e chegar ao camarote real"
+        },
+        {
+          "id": "q01619",
+          "pergunta": "O nome da prova de maratona vem de um lugar da Grécia onde, em 490 antes de Cristo, aconteceu o quê?",
+          "resposta": "Uma batalha entre gregos e persas"
+        },
+        {
+          "id": "q04646",
+          "pergunta": "Segundo a lenda que inspirou a maratona, o mensageiro grego Fidípides correu da planície de Maratona até que cidade para anunciar a vitória?",
+          "resposta": "Atenas"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "O lema mais rápido, mais alto, mais forte foi criado por Henri Didon, um amigo de Coubertin. Qual era a profissão dele?",
+        "resposta": "Padre dominicano"
+      },
+      "existentes": [
+        {
+          "id": "q04679",
+          "pergunta": "Em 2021, o lema olímpico mais rápido, mais alto, mais forte ganhou uma quarta palavra latina. O que ela significa?",
+          "resposta": "Juntos"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Depois que o projeto de Zaha Hadid foi abandonado, que arquiteto japonês desenhou o Estádio Nacional de Tóquio, cheio de madeira?",
+        "resposta": "Kengo Kuma"
+      },
+      "existentes": [
+        {
+          "id": "q05522",
+          "pergunta": "Em que cidade fica este estádio?",
+          "resposta": "Tóquio"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Criada na Cidade de Deus, que judoca conquistou a primeira medalha de ouro do Brasil nos Jogos do Rio, em 2016?",
+        "resposta": "Rafaela Silva"
+      },
+      "existentes": [
+        {
+          "id": "q04688",
+          "pergunta": "Como país-sede da Rio 2016, com títulos no judô, no salto com vara, no boxe e no futebol, quantas medalhas de ouro o Brasil conquistou?",
+          "resposta": "Sete"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Depois de dois dias e nove provas, o decatlo olímpico termina sempre com qual corrida?",
+        "resposta": "1500 metros"
+      },
+      "existentes": [
+        {
+          "id": "q01660",
+          "pergunta": "Depois de dois dias de competição, qual é a última das dez provas do decatlo?",
+          "resposta": "1500 metros"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Uma das sete maravilhas do mundo antigo ficava no santuário de Olímpia, onde aconteciam os Jogos da Antiguidade. Qual era ela?",
+        "resposta": "Estátua de Zeus"
+      },
+      "existentes": [
+        {
+          "id": "q03228",
+          "pergunta": "Que tradição dos Jogos Olímpicos modernos começa nas ruínas de Olímpia, com raios de sol concentrados por um espelho?",
+          "resposta": "O acendimento da chama olímpica"
+        },
+        {
+          "id": "q15198",
+          "pergunta": "Que sítio arqueológico grego é este?",
+          "resposta": "Olímpia"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Em Munique 1972, Mark Spitz ganhou sete ouros exibindo algo raro entre nadadores, que virou sua marca registrada. O quê?",
+        "resposta": "Bigode"
+      },
+      "existentes": [
+        {
+          "id": "q06540",
+          "pergunta": "Em que esporte olímpico este atleta americano foi campeão?",
+          "resposta": "Natação"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Diferença na prova dos 100m borboleta é outro fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Fato distinto."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Número de ouros em 1924 difere do apelido."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Número de edições seguidas é outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Peso do implemento é outro fato."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Total de medalhas é outro fato."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Tempo para quitar a dívida é outro fato."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Mínimo de ouro difere do metal principal."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Significado do apelido é outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "id_existente": "q01939",
+      "motivo": "Mesmo significado de judô."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nome de batismo é outro fato."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Apelido é outro fato."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Stadion como corrida é outro fato."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Velejador é outro fato."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Imperador é outro fato."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Outro esporte, não o motivo da perda das medalhas."
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "id_existente": "q16520",
+      "motivo": "Acender a pira em Atlanta 1996 já é perguntado; acertar uma dá a outra."
+    },
+    {
+      "caso": 18,
+      "decisao": "repete",
+      "id_existente": "q01642",
+      "motivo": "Mesma pergunta."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Categoria de arte é outro fato."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Prova do ouro de 1932 é outro fato."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Esporte em 2022 é outro fato."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Modalidade no Grand Palais é outro fato."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Campeã de 2006 é outro fato."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Diretor do filme é outro fato."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Causa do fim da carreira difere da parte do corpo perdida, embora a pergunta existente revele o acidente."
+    },
+    {
+      "caso": 26,
+      "decisao": "repete",
+      "id_existente": "q05712",
+      "motivo": "Mesmo motivo da troca de medalha."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Primeira edição com ouro, prata e bronze é outro fato."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Fato distinto."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Estreia da maratona feminina é outro fato."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Criador do lema é outro fato."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Arquiteto é outro fato."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Primeira medalha de ouro é outro fato."
+    },
+    {
+      "caso": 33,
+      "decisao": "repete",
+      "id_existente": "q01660",
+      "motivo": "Mesma última prova do decatlo."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Maravilha antiga é outro fato."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Marca registrada é outro fato."
+    }
+  ]
+}
