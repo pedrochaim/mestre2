@@ -1,0 +1,447 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Praça da Sé",
+        "descricao": "Praça central da cidade de São Paulo, em frente à catedral, marco zero das distâncias rodoviárias.",
+        "variantes": [
+          "Praça da Sé (São Paulo)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pinacoteca_do_estado_de_sao_paulo",
+          "nome": "Pinacoteca do Estado de São Paulo",
+          "descricao": "Museu de artes visuais de arte brasileira, no edifício de tijolos aparentes do bairro da Luz, em São Paulo.",
+          "variantes": [
+            "Pinacoteca de São Paulo",
+            "Pinacoteca Luz"
+          ]
+        },
+        {
+          "id": "praca_de_sao_pedro",
+          "nome": "Praça de São Pedro",
+          "descricao": "Grande praça diante da Basílica de São Pedro, no Vaticano, cercada por uma colunata em semicírculo.",
+          "variantes": [
+            "Piazza San Pietro",
+            "St. Peter's Square"
+          ]
+        },
+        {
+          "id": "catedral_da_se_de_sao_paulo",
+          "nome": "Catedral da Sé de São Paulo",
+          "descricao": "Catedral metropolitana neogótica com cúpula renascentista, na Praça da Sé, em São Paulo.",
+          "variantes": [
+            "Catedral Metropolitana de São Paulo",
+            "Catedral da Sé"
+          ]
+        },
+        {
+          "id": "prancha_de_surfe",
+          "nome": "Prancha de surfe",
+          "descricao": "Prancha alongada sobre a qual o surfista desliza em pé na onda.",
+          "variantes": [
+            "Surfboard",
+            "Prancha de surf"
+          ]
+        },
+        {
+          "id": "arca_da_alianca",
+          "nome": "Arca da Aliança",
+          "descricao": "Baú sagrado descrito na Bíblia hebraica, levado pelos israelitas no deserto e depois guardado no Templo de Jerusalém",
+          "variantes": [
+            "Arca do Testemunho",
+            "Arca da Lei"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Catedral de Petrópolis",
+        "descricao": "Catedral neogótica de São Pedro de Alcântara, em Petrópolis, na região serrana do Rio de Janeiro.",
+        "variantes": [
+          "Catedral de São Pedro de Alcântara"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_petropolis",
+          "nome": "Catedral de Petrópolis",
+          "descricao": "Catedral neogótica de São Pedro de Alcântara, com torre em flecha, em Petrópolis, no estado do Rio de Janeiro.",
+          "variantes": [
+            "Catedral de São Pedro de Alcântara",
+            "Cathedral of Petrópolis"
+          ]
+        },
+        {
+          "id": "tratado_de_petropolis",
+          "nome": "Tratado de Petrópolis",
+          "descricao": "Acordo assinado em 1903 entre Brasil e Bolívia que incorporou o território do Acre ao Brasil.",
+          "variantes": []
+        },
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        },
+        {
+          "id": "catedral_de_rouen_monet",
+          "nome": "Catedral de Rouen (Monet)",
+          "descricao": "Série de pinturas de Claude Monet, dos anos 1890, da fachada da Catedral de Ruão em diferentes luzes.",
+          "variantes": [
+            "Catedral de Ruão",
+            "Rouen Cathedral",
+            "Série Catedral de Rouen"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Esplanada dos Ministérios",
+        "descricao": "Primeiro trecho do Eixo Monumental de Brasília, ladeado pelos prédios dos ministérios, com o Congresso Nacional ao fundo.",
+        "variantes": [
+          "Eixo Monumental"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esplanada_dos_ministerios",
+          "nome": "Esplanada dos Ministérios",
+          "descricao": "Trecho inicial do Eixo Monumental de Brasília, com os prédios dos ministérios e o Congresso Nacional.",
+          "variantes": [
+            "Eixo Monumental",
+            "Esplanada"
+          ]
+        },
+        {
+          "id": "plano_piloto_de_brasilia_2",
+          "nome": "Plano Piloto de Brasília",
+          "descricao": "Área central planejada de Brasília, com o Eixo Monumental, a Esplanada dos Ministérios e o Congresso Nacional.",
+          "variantes": [
+            "Praça dos Três Poderes",
+            "Brasília",
+            "Esplanada dos Ministérios"
+          ]
+        },
+        {
+          "id": "estadio_monumental_de_nunez",
+          "nome": "Estádio Monumental de Núñez",
+          "descricao": "Estádio do River Plate em Buenos Aires, Argentina, palco da final da Copa do Mundo de 1978.",
+          "variantes": [
+            "Estádio Monumental",
+            "Estadio Más Monumental",
+            "Estádio Monumental Antonio Vespucio Liberti"
+          ]
+        },
+        {
+          "id": "monumento_ao_grande_incendio_de_londres",
+          "nome": "Monumento ao Grande Incêndio de Londres",
+          "descricao": "Coluna dórica no centro de Londres, conhecida simplesmente como The Monument.",
+          "variantes": [
+            "The Monument",
+            "Monument to the Great Fire of London"
+          ]
+        },
+        {
+          "id": "emmental",
+          "nome": "Emmental",
+          "descricao": "Queijo suíço de massa amarela e firme, famoso pelos grandes buracos redondos.",
+          "variantes": [
+            "Emmentaler",
+            "Queijo suíço"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Farol de Itapuã",
+        "descricao": "Farol de torre listrada de branco e vermelho na praia de Itapuã, em Salvador, Bahia.",
+        "variantes": [
+          "Farol da Ponta de Itapuã"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barao_de_maua",
+          "nome": "Barão de Mauá",
+          "descricao": "Irineu Evangelista de Sousa, empresário, banqueiro e industrial brasileiro do Império, barão e depois visconde de Mauá.",
+          "variantes": [
+            "Visconde de Mauá",
+            "Irineu Evangelista de Sousa"
+          ]
+        },
+        {
+          "id": "farol_de_alexandria",
+          "nome": "Farol de Alexandria",
+          "descricao": "Farol da Antiguidade na ilha de Faros, no Egito, uma das Sete Maravilhas do Mundo Antigo.",
+          "variantes": [
+            "Farol de Faros",
+            "Pharos de Alexandria",
+            "Lighthouse of Alexandria"
+          ]
+        },
+        {
+          "id": "usina_de_itaipu",
+          "nome": "Usina de Itaipu",
+          "descricao": "Usina hidrelétrica binacional de Brasil e Paraguai, no rio Paraná.",
+          "variantes": [
+            "Itaipu",
+            "Itaipu Binacional",
+            "Itaipu Dam",
+            "Usina Hidrelétrica de Itaipu"
+          ]
+        },
+        {
+          "id": "roda_d_agua",
+          "nome": "Roda d'água",
+          "descricao": "Grande roda de madeira com pás ou caçambas que converte a energia da água corrente em força mecânica, usada em moinhos.",
+          "variantes": [
+            "Roda de água",
+            "Roda hidráulica",
+            "Azenha"
+          ]
+        },
+        {
+          "id": "arco_de_tito",
+          "nome": "Arco de Tito",
+          "descricao": "Arco triunfal romano do século primeiro, no Fórum Romano, que celebra a tomada de Jerusalém pelo imperador Tito.",
+          "variantes": [
+            "Arch of Titus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Pedra Azul",
+        "descricao": "Monólito de granito no Parque Estadual da Pedra Azul, em Domingos Martins, Espírito Santo.",
+        "variantes": [
+          "Pico Pedra Azul"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pedra_azul",
+          "nome": "Pedra Azul",
+          "descricao": "Monólito de granito no Parque Estadual da Pedra Azul, em Domingos Martins, Espírito Santo.",
+          "variantes": [
+            "Pico da Pedra Azul",
+            "Parque Estadual de Pedra Azul"
+          ]
+        },
+        {
+          "id": "led_azul",
+          "nome": "LED azul",
+          "descricao": "Diodo emissor de luz azul eficiente, desenvolvido nos anos 1990 e premiado com o Nobel de Física de 2014.",
+          "variantes": [
+            "Diodo emissor de luz azul"
+          ]
+        },
+        {
+          "id": "dragao_azul",
+          "nome": "Dragão-azul",
+          "descricao": "Lesma-do-mar pelágica Glaucus atlanticus, azul e prateada, que flutua de cabeça para baixo na superfície.",
+          "variantes": [
+            "Glaucus atlanticus",
+            "Dragão-azul-do-mar",
+            "Anjo-azul"
+          ]
+        },
+        {
+          "id": "remo_2",
+          "nome": "Remo",
+          "descricao": "Clube do Remo, clube de futebol brasileiro de Belém, Pará.",
+          "variantes": [
+            "Clube do Remo",
+            "Leão Azul"
+          ]
+        },
+        {
+          "id": "magnetita",
+          "nome": "Magnetita",
+          "descricao": "Mineral de óxido de ferro, naturalmente magnético, que forma os ímãs naturais conhecidos desde a Antiguidade.",
+          "variantes": [
+            "Magnetite",
+            "Pedra-ímã",
+            "Lodestone"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Museu Nacional da República",
+        "descricao": "Museu de cúpula branca projetado por Oscar Niemeyer, no Setor Cultural Sul de Brasília.",
+        "variantes": [
+          "Museu Nacional Honestino Guimarães",
+          "Museu Nacional de Brasília"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teatro_nacional_claudio_santoro",
+          "nome": "Teatro Nacional Cláudio Santoro",
+          "descricao": "Teatro de Brasília projetado por Oscar Niemeyer, com fachadas decoradas por Athos Bulcão.",
+          "variantes": [
+            "Teatro Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "estadio_mane_garrincha",
+          "nome": "Estádio Mané Garrincha",
+          "descricao": "Estádio nacional de futebol de Brasília, com fileira de colunas ao redor, reformado para a Copa de 2014.",
+          "variantes": [
+            "Arena BRB Mané Garrincha",
+            "Estádio Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "museu_nacional_de_belas_artes",
+          "nome": "Museu Nacional de Belas Artes",
+          "descricao": "Museu de arte no centro do Rio de Janeiro, instalado em prédio eclético de 1908.",
+          "variantes": [
+            "MNBA"
+          ]
+        },
+        {
+          "id": "armas_nacionais_do_brasil",
+          "nome": "Armas Nacionais do Brasil",
+          "descricao": "Brasão de armas oficial da República Federativa do Brasil, um dos quatro símbolos nacionais.",
+          "variantes": [
+            "Brasão de armas do Brasil",
+            "Brasão da República"
+          ]
+        },
+        {
+          "id": "simbolos_nacionais_do_brasil",
+          "nome": "Símbolos nacionais do Brasil",
+          "descricao": "Os quatro símbolos oficiais da República Federativa do Brasil definidos pela Lei 5.700 de 1971.",
+          "variantes": [
+            "Símbolos Nacionais"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Santuário Dom Bosco",
+        "descricao": "Igreja católica de Brasília, na Asa Sul, famosa pelos vitrais e dedicada a São João Bosco.",
+        "variantes": [
+          "Santuário São João Bosco",
+          "Igreja de Dom Bosco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santuario_dom_bosco",
+          "nome": "Santuário Dom Bosco",
+          "descricao": "Igreja católica de Brasília, na Asa Sul, famosa por seus vitrais e dedicada a São João Bosco.",
+          "variantes": [
+            "Santuário São João Bosco",
+            "Igreja Dom Bosco"
+          ]
+        },
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        },
+        {
+          "id": "delfos",
+          "nome": "Delfos",
+          "descricao": "Antigo santuário grego na encosta do monte Parnaso, sede do oráculo da Pítia e do templo de Apolo.",
+          "variantes": [
+            "Delphi",
+            "Santuário de Delfos",
+            "Oráculo de Delfos"
+          ]
+        },
+        {
+          "id": "canario",
+          "nome": "Canário",
+          "descricao": "Pequeno passarinho amarelo (Serinus canaria), nativo das Ilhas Canárias, Açores e Madeira, criado como ave de gaiola no mundo todo.",
+          "variantes": [
+            "Canário-doméstico",
+            "Canário-do-reino",
+            "Serinus canaria"
+          ]
+        },
+        {
+          "id": "santo_do_pau_oco",
+          "nome": "Santo do pau oco",
+          "descricao": "Expressão brasileira para uma pessoa dissimulada, que finge ser virtuosa",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A praça é distinta da catedral, que é só uma candidata relacionada; não há candidata da Praça da Sé."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_petropolis",
+      "motivo": "Mesma catedral neogótica de São Pedro de Alcântara em Petrópolis."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "esplanada_dos_ministerios",
+      "motivo": "Mesma entidade: trecho inicial do Eixo Monumental com os ministérios."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Farol de Itapuã."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "pedra_azul",
+      "motivo": "Descrições idênticas: monólito no Parque Estadual da Pedra Azul, ES."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Museu Nacional da República."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "santuario_dom_bosco",
+      "motivo": "Mesma igreja de Brasília dedicada a São João Bosco."
+    }
+  ]
+}

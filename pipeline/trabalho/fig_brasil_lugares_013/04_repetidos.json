@@ -1,0 +1,87 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A qual santo é dedicada esta catedral neogótica do Rio de Janeiro?",
+        "resposta": "São Pedro de Alcântara"
+      },
+      "existentes": [
+        {
+          "id": "q16244",
+          "pergunta": "Em que cidade fica esta catedral neogótica?",
+          "resposta": "Petrópolis"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade fica este conjunto de prédios alinhados em torno de um gramado, com as duas torres ao fundo?",
+        "resposta": "Brasília"
+      },
+      "existentes": [
+        {
+          "id": "q15678",
+          "pergunta": "Que arquiteto projetou os edifícios públicos deste conjunto?",
+          "resposta": "Oscar Niemeyer"
+        },
+        {
+          "id": "q17373",
+          "pergunta": "Quem criou o plano urbanístico da cidade onde fica esta avenida?",
+          "resposta": "Lúcio Costa"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que monólito de granito do Espírito Santo, com mil oitocentos e vinte e dois metros de altitude, é este?",
+        "resposta": "Pedra Azul"
+      },
+      "existentes": [
+        {
+          "id": "q17467",
+          "pergunta": "Em que estado brasileiro fica esta pedra?",
+          "resposta": "Espírito Santo"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Segundo a tradição, o santo a quem é dedicada esta igreja previu em sonho a existência de qual cidade?",
+        "resposta": "Brasília"
+      },
+      "existentes": [
+        {
+          "id": "q15876",
+          "pergunta": "Em que cidade fica esta igreja católica?",
+          "resposta": "Brasília"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o santo padroeiro, não a cidade; fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cidade do conjunto é fato distinto do arquiteto ou do urbanista."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o nome da pedra é diferente de saber o estado onde fica."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A pergunta sobre a profecia do santo (Dom Bosco) é outro fato, embora a resposta seja a mesma cidade; a existente pergunta a localização da igreja."
+    }
+  ]
+}

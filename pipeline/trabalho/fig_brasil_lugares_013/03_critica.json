@@ -1,0 +1,77 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a Praça da Sé é o marco zero de onde se contam as distâncias das rodovias de São Paulo. O enunciado não nomeia a praça nem a cidade, e a resposta exige reconhecer a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "As pistas \"padroeiro da cidade e do Brasil imperial\" quase entregam o santo sem a figura, e \"serrana\" estreita demais o lugar. O fato (dedicada a São Pedro de Alcântara) está confirmado nos trechos. Reescrita sem a pista de patronato.",
+      "reescrita": {
+        "pergunta": "A qual santo é dedicada esta catedral neogótica do Rio de Janeiro?",
+        "resposta": "São Pedro de Alcântara",
+        "distratores": [
+          "São Francisco de Assis",
+          "Santo Antônio de Pádua",
+          "São Sebastião"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Esplanada dos Ministérios, com o Congresso e suas duas torres ao fundo, fica em Brasília, o que os trechos confirmam. O enunciado só descreve o que se vê, e os distratores são capitais plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma o farol em Salvador, pintado com barras brancas e vermelhas e ligado à praia por uma ponte de concreto. O enunciado não permite responder sem a figura, e os distratores são capitais nordestinas.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Formação rochosa de um parque estadual do Espírito Santo\" deixa a resposta quase deduzível, porque o parque leva o nome da pedra. Também é ambígua, já que o parque tem outras formações, como a Pedra das Flores e a Pedra do Lagarto. A altitude de 1.822 m do pico, dada nos trechos, distingue a Pedra Azul.",
+      "reescrita": {
+        "pergunta": "Que monólito de granito do Espírito Santo, com mil oitocentos e vinte e dois metros de altitude, é este?",
+        "resposta": "Pedra Azul",
+        "distratores": [
+          "Pedra da Gávea",
+          "Pedra do Baú",
+          "Pedra Grande"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O distrator \"Museu de Arte Contemporânea\" é genérico e pode descrever o MAC de Niterói, também branco, em formato de cúpula e com rampa de acesso. Isso ameaça a resposta única. Reescrita situa o museu na capital federal e troca o distrator.",
+      "reescrita": {
+        "pergunta": "Que museu da capital federal, de cúpula branca e rampa de acesso, é este?",
+        "resposta": "Museu Nacional da República",
+        "distratores": [
+          "Museu do Amanhã",
+          "Museu Oscar Niemeyer",
+          "Museu Histórico Nacional"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que Dom Bosco teria profetizado em sonho a existência da capital brasileira, e o enunciado hedge com \"segundo a tradição\". O santo não é nomeado, então é preciso reconhecer a igreja. Os distratores são cidades plausíveis.",
+      "reescrita": null
+    }
+  ]
+}

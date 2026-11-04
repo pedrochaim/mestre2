@@ -1,0 +1,192 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Praça com a catedral ao fundo e palmeiras imperiais, reconhecível; pessoas pequenas e ao longe.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Desta praça partem as medições das distâncias de todas as rodovias que passam por qual cidade?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Rio de Janeiro",
+        "Belo Horizonte",
+        "Curitiba"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Praça da Sé",
+        "descricao": "Praça central da cidade de São Paulo, em frente à catedral, marco zero das distâncias rodoviárias.",
+        "variantes": [
+          "Praça da Sé (São Paulo)"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Catedral neogótica com a agulha característica, nítida e sem texto; as pessoas são minúsculas e ao fundo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "A qual santo é dedicada esta catedral serrana, padroeiro da cidade e do Brasil imperial?",
+      "resposta": "São Pedro de Alcântara",
+      "distratores": [
+        "São Francisco de Assis",
+        "Santo Antônio de Pádua",
+        "São Sebastião"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Catedral de Petrópolis",
+        "descricao": "Catedral neogótica de São Pedro de Alcântara, em Petrópolis, na região serrana do Rio de Janeiro.",
+        "variantes": [
+          "Catedral de São Pedro de Alcântara"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem mostra um morro baixo com radar e estrada, sem traço que permita reconhecer o Morro da Igreja; não é reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista aérea clássica do Congresso e dos prédios dos ministérios, sem texto e reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este conjunto de prédios alinhados em torno de um gramado, com as duas torres ao fundo?",
+      "resposta": "Brasília",
+      "distratores": [
+        "Goiânia",
+        "Belo Horizonte",
+        "Rio de Janeiro"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Esplanada dos Ministérios",
+        "descricao": "Primeiro trecho do Eixo Monumental de Brasília, ladeado pelos prédios dos ministérios, com o Congresso Nacional ao fundo.",
+        "variantes": [
+          "Eixo Monumental"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Há duas pessoas comuns em primeiro plano, na parte de baixo da foto; fachada azul pouco distintiva para ser resposta única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Vista aérea de um parque de lagos e viveiro, sem elemento que permita reconhecer o lugar; há ainda um texto pequeno no muro e parte do mirante em primeiro plano."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Farol listrado de vermelho e branco ligado à praia por uma ponte de pedra; foto nítida, sem texto nem pessoas.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que capital nordestina fica este farol de listras vermelhas e brancas, ligado à praia por uma ponte?",
+      "resposta": "Salvador",
+      "distratores": [
+        "Recife",
+        "Fortaleza",
+        "Natal"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Farol de Itapuã",
+        "descricao": "Farol de torre listrada de branco e vermelho na praia de Itapuã, em Salvador, Bahia.",
+        "variantes": [
+          "Farol da Ponta de Itapuã"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Praia lotada, com banhistas em primeiro plano, e pouco distintiva; não dá para garantir resposta única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Grande monólito granítico de forma marcante, junto à Pedra das Flores; sem texto nem pessoas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que formação rochosa de um parque estadual do Espírito Santo é esta?",
+      "resposta": "Pedra Azul",
+      "distratores": [
+        "Pedra da Gávea",
+        "Pedra do Baú",
+        "Pedra Grande"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pedra Azul",
+        "descricao": "Monólito de granito no Parque Estadual da Pedra Azul, em Domingos Martins, Espírito Santo.",
+        "variantes": [
+          "Pico Pedra Azul"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Vista urbana genérica de uma orla com prédios baixos e morros; nada permite reconhecer Cabo Frio com segurança."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cúpula branca com rampa, formato inconfundível, sem texto e sem pessoas em destaque.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que museu, de cúpula branca e rampa de acesso, é este?",
+      "resposta": "Museu Nacional da República",
+      "distratores": [
+        "Museu do Amanhã",
+        "Museu Oscar Niemeyer",
+        "Museu de Arte Contemporânea"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Museu Nacional da República",
+        "descricao": "Museu de cúpula branca projetado por Oscar Niemeyer, no Setor Cultural Sul de Brasília.",
+        "variantes": [
+          "Museu Nacional Honestino Guimarães",
+          "Museu Nacional de Brasília"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fachada de arcos ogivais altos, inconfundível; sem texto legível e sem pessoas.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Segundo a tradição, o santo a quem é dedicada esta igreja previu em sonho a existência de qual cidade?",
+      "resposta": "Brasília",
+      "distratores": [
+        "Goiânia",
+        "Belo Horizonte",
+        "Curitiba"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Santuário Dom Bosco",
+        "descricao": "Igreja católica de Brasília, na Asa Sul, famosa pelos vitrais e dedicada a São João Bosco.",
+        "variantes": [
+          "Santuário São João Bosco",
+          "Igreja de Dom Bosco"
+        ]
+      }
+    }
+  ]
+}
