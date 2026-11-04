@@ -1,0 +1,158 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Praia com o museu em forma de disco ao fundo, que identifica a cidade.",
+      "pergunta": "Em que cidade fica o prédio em forma de disco voador, à direita desta praia?",
+      "resposta": "Niterói",
+      "tipo": "multipla",
+      "distratores": [
+        "Rio de Janeiro",
+        "Santos",
+        "Vitória"
+      ],
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Niterói",
+        "descricao": "Município do estado do Rio de Janeiro, em frente à baía de Guanabara, onde fica o Museu de Arte Contemporânea projetado por Niemeyer.",
+        "variantes": [
+          "Niteroi"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, em grande número."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Hotel Taj Mahal Palace e Portal da Índia, vista clássica de Mumbai, sem texto.",
+      "pergunta": "Que cidade é esta?",
+      "resposta": "Mumbai (antiga Bombaim)",
+      "tipo": "multipla",
+      "distratores": [
+        "Nova Délhi",
+        "Calcutá",
+        "Chennai"
+      ],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Mumbai",
+        "descricao": "Cidade portuária da costa oeste da Índia, capital do estado de Maharashtra e capital financeira do país.",
+        "variantes": [
+          "Bombaim",
+          "Bombay"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Baía, porto e colina do Castelo, vista típica de Nice, sem texto.",
+      "pergunta": "Que cidade litorânea é esta?",
+      "resposta": "Nice",
+      "tipo": "multipla",
+      "distratores": [
+        "Cannes",
+        "Marselha",
+        "Gênova"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Nice",
+        "descricao": "Cidade francesa da Riviera, no Mediterrâneo, capital do departamento de Alpes-Marítimos.",
+        "variantes": [
+          "Nizza",
+          "Nissa"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O letreiro da fachada mostra Lello & Irmão e Livraria Chardron, o que entrega a resposta, e há pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vista aérea da caldeira, de forma muito característica.",
+      "pergunta": "Que ilha grega é esta?",
+      "resposta": "Santorini",
+      "tipo": "multipla",
+      "distratores": [
+        "Mykonos",
+        "Creta",
+        "Naxos"
+      ],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Santorini",
+        "descricao": "Ilha grega das Cíclades, no mar Egeu, formada ao redor de uma caldeira vulcânica.",
+        "variantes": [
+          "Thira",
+          "Thera",
+          "Santorino"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Rua genérica com pessoas comuns, sem elemento que permita reconhecer a cidade."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Vista aérea de praça e telhados, difícil de reconhecer; a resposta não é clara pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Palácio Emirates e torres Etihad à noite, reconhecíveis, sem texto legível.",
+      "pergunta": "Que cidade é esta?",
+      "resposta": "Abu Dhabi",
+      "tipo": "multipla",
+      "distratores": [
+        "Dubai",
+        "Doha",
+        "Riad"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Abu Dhabi",
+        "descricao": "Capital dos Emirados Árabes Unidos, situada numa ilha do golfo Pérsico.",
+        "variantes": [
+          "Abu Dabi"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Panorama de casario sem marco distintivo; a cidade não é reconhecível pela imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Skyline genérico com ponte, difícil de reconhecer, e há marca d'água vermelha no canto."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Encosta com casario colorido, parecida com outras cidades litorâneas; resposta não é única diante da imagem."
+    }
+  ]
+}

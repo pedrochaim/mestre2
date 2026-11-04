@@ -1,0 +1,47 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve o prédio em forma de disco voador (o MAC de Niemeyer). Esse prédio é famoso e identifica Niterói sem olhar a figura, então a figura virou enfeite. Além disso, 'à direita desta praia' é uma afirmação sobre a foto que não dá para conferir. A reescrita tira a pista e usa só a baía de Guanabara. Também troquei o distrator 'Rio de Janeiro', que também fica na baía e poderia ser defendido.",
+      "reescrita": {
+        "pergunta": "Que cidade fluminense, de frente para a baía de Guanabara, é esta?",
+        "resposta": "Niterói",
+        "distratores": [
+          "Cabo Frio",
+          "Angra dos Reis",
+          "Búzios"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento. Os trechos confirmam Mumbai e o antigo nome Bombaim. Os distratores são cidades indianas críveis. O parêntese é apropriado.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Nice é uma cidade litorânea no Mediterrâneo. O enunciado não vaza a resposta. Os distratores são cidades costeiras do mesmo tipo e nenhum é a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Santorini é uma ilha grega. O enunciado não vaza a resposta. Os distratores são ilhas gregas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam Abu Dhabi como capital dos Emirados Árabes Unidos. O enunciado não vaza a resposta. Os distratores são cidades do Golfo, do mesmo tipo da resposta.",
+      "reescrita": null
+    }
+  ]
+}

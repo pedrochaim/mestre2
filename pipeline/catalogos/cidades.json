@@ -1391,7 +1391,7 @@
       "titulo": "en:Livraria Lello",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Catedral de Santo Isaac",
@@ -1676,6 +1676,286 @@
     {
       "nome": "Mercado Público de Porto Alegre",
       "titulo": "pt:Mercado Público de Porto Alegre",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Milão",
+      "titulo": "en:Milan",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nápoles",
+      "titulo": "en:Naples",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Santorini",
+      "titulo": "en:Santorini",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Toronto",
+      "titulo": "en:Toronto",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cancún",
+      "titulo": "en:Cancún",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mumbai",
+      "titulo": "en:Mumbai",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Santiago",
+      "titulo": "en:Santiago",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Abu Dhabi",
+      "titulo": "en:Abu Dhabi",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Niterói",
+      "titulo": "pt:Niterói",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Armação dos Búzios",
+      "titulo": "pt:Armação dos Búzios",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Angra dos Reis",
+      "titulo": "pt:Angra dos Reis",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Porto Seguro",
+      "titulo": "pt:Porto Seguro",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cabo Frio",
+      "titulo": "pt:Cabo Frio",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Munique",
+      "titulo": "en:Munich",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dublin",
+      "titulo": "en:Dublin",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cracóvia",
+      "titulo": "en:Kraków",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nice",
+      "titulo": "en:Nice",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Granada",
+      "titulo": "en:Granada",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sintra",
+      "titulo": "en:Sintra",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cidade de Quebec",
+      "titulo": "en:Quebec City",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Doha",
+      "titulo": "en:Doha",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bento Gonçalves",
+      "titulo": "pt:Bento Gonçalves",
+      "camada": 2,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Canela",
+      "titulo": "pt:Canela (Rio Grande do Sul)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pomerode",
+      "titulo": "pt:Pomerode",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mariana",
+      "titulo": "pt:Mariana (Minas Gerais)",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Parintins",
+      "titulo": "pt:Parintins",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Katmandu",
+      "titulo": "en:Kathmandu",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hanói",
+      "titulo": "en:Hanoi",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Wellington",
+      "titulo": "en:Wellington",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bergen",
+      "titulo": "en:Bergen",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Liubliana",
+      "titulo": "en:Ljubljana",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sucre",
+      "titulo": "en:Sucre",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Quito",
+      "titulo": "en:Quito",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "São João del-Rei",
+      "titulo": "pt:São João del-Rei",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cachoeira",
+      "titulo": "pt:Cachoeira (Bahia)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Laguna",
+      "titulo": "pt:Laguna (Santa Catarina)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Corumbá",
+      "titulo": "pt:Corumbá",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Santarém",
+      "titulo": "pt:Santarém (Pará)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Holambra",
+      "titulo": "pt:Holambra",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Caruaru",
+      "titulo": "pt:Caruaru",
       "camada": 3,
       "destino": 1,
       "status": "nova"

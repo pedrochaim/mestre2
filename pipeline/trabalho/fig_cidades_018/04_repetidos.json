@@ -1,0 +1,35 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ilha grega é esta?",
+        "resposta": "Santorini"
+      },
+      "existentes": [
+        {
+          "id": "q02339",
+          "pergunta": "Em que mar fica esta ilha grega?",
+          "resposta": "Mar Egeu"
+        },
+        {
+          "id": "q05839",
+          "pergunta": "A erupção que devastou a ilha grega de Santorini e enterrou o povoado de Akrotiri aconteceu em qual destas épocas?",
+          "resposta": "Idade do Bronze"
+        },
+        {
+          "id": "q17413",
+          "pergunta": "Esta ilha vulcânica grega faz parte de que arquipélago?",
+          "resposta": "Cíclades"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identidade da ilha (Santorini); as existentes perguntam o mar, a época da erupção e o arquipélago, que são fatos diferentes. Saber o mar ou o arquipélago não dá o nome da ilha."
+    }
+  ]
+}
