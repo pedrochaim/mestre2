@@ -1,0 +1,103 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pião de madeira com cordão, sem texto, bem reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que brinquedo tradicional é este?",
+      "resposta": "Pião",
+      "distratores": [
+        "Ioiô",
+        "Peteca",
+        "Bilboquê"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Pião",
+        "descricao": "Brinquedo de corpo arredondado e ponta metálica, lançado com um cordão para girar sobre o próprio eixo.",
+        "variantes": [
+          "Peão",
+          "Spinning top"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: 'PS VITA' e 'SONY' no aparelho."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: 'INTELLIVISION' escrito no console."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano; a imagem mostra um jogador, não o jogo com clareza."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto borrada e escura de um instrumento de bambu; pode ser confundido com xilofone ou outro instrumento de teclas, sem resposta única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: 'ODYSSEY 2' e 'MAGNAVOX'."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: 'PS4' gravado no console."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Caixa clara com esteira e aros cromados, sem texto legível, reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de percussão é este?",
+      "resposta": "Caixa clara",
+      "distratores": [
+        "Surdo",
+        "Tamborim",
+        "Timbale"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caixa clara",
+        "descricao": "Tambor de percussão de pele dupla e esteira, tocado com baquetas, peça central da bateria e das bandas marciais.",
+        "variantes": [
+          "Caixa",
+          "Tarol",
+          "Snare drum"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: 'Panasonic' e 'R.E.A.L. 3DO Interactive Multiplayer'."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Marca d'água 'Dan Moi' visível; a cabaça pode ainda ser confundida com outros chocalhos."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: 'NINTENDO 64' no console e no controle."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: 'NEOGEOPOCKET COLOR' e 'SNK' no aparelho."
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pião",
+        "descricao": "Brinquedo de corpo arredondado e ponta metálica, lançado com um cordão para girar sobre o próprio eixo.",
+        "variantes": [
+          "Peão",
+          "Spinning top"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piao",
+          "nome": "Pião",
+          "descricao": "Brinquedo de madeira com ponta metálica que gira sobre o próprio eixo, lançado com cordão.",
+          "variantes": [
+            "Carrapeta",
+            "Peão"
+          ]
+        },
+        {
+          "id": "peao_xadrez",
+          "nome": "Peão (xadrez)",
+          "descricao": "Peça mais numerosa do xadrez, oito para cada lado, que avança para a frente e captura na diagonal.",
+          "variantes": [
+            "Peão"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "piano",
+          "nome": "Piano",
+          "descricao": "Instrumento de teclado em que martelos percutem cordas, inventado na Itália por volta de 1700.",
+          "variantes": [
+            "Pianoforte"
+          ]
+        },
+        {
+          "id": "almofariz_e_pilao",
+          "nome": "Almofariz e pilão",
+          "descricao": "Conjunto de uma tigela e uma peça em forma de bastão usado para triturar ingredientes.",
+          "variantes": [
+            "Pilão",
+            "Gral",
+            "Almofariz"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Caixa clara",
+        "descricao": "Tambor de percussão de pele dupla e esteira, tocado com baquetas, peça central da bateria e das bandas marciais.",
+        "variantes": [
+          "Caixa",
+          "Tarol",
+          "Snare drum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caixa_clara",
+          "nome": "Caixa-clara",
+          "descricao": "Tambor de pele dupla com esteira de fios que produz som seco, usado em orquestras e bandas.",
+          "variantes": [
+            "Caixa",
+            "Snare drum",
+            "Tarol"
+          ]
+        },
+        {
+          "id": "taro",
+          "nome": "Tarô",
+          "descricao": "Baralho com arcanos ilustrados surgido na Itália no século quinze, hoje associado à adivinhação.",
+          "variantes": [
+            "Tarot",
+            "Tarocchi"
+          ]
+        },
+        {
+          "id": "semaforo",
+          "nome": "Semáforo",
+          "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres; o primeiro foi instalado em Londres em 1868.",
+          "variantes": [
+            "Sinal de trânsito",
+            "Farol",
+            "Sinaleiro",
+            "Traffic light",
+            "Sinaleira"
+          ]
+        },
+        {
+          "id": "tao",
+          "nome": "Tao",
+          "descricao": "Conceito central da filosofia chinesa, que dá nome ao taoismo.",
+          "variantes": [
+            "Dao"
+          ]
+        },
+        {
+          "id": "tarsio",
+          "nome": "Társio",
+          "descricao": "Pequeno primata noturno do Sudeste Asiático, de olhos enormes, família Tarsiidae.",
+          "variantes": [
+            "Tarsier"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "piao",
+      "motivo": "Ambos descrevem o brinquedo pião de ponta metálica lançado com cordão; variantes coincidem."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "caixa_clara",
+      "motivo": "Mesmo tambor de pele dupla com esteira (snare drum); nome e variantes coincidem."
+    }
+  ]
+}

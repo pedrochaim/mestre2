@@ -1,0 +1,46 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que brinquedo tradicional é este?",
+        "resposta": "Pião"
+      },
+      "existentes": [
+        {
+          "id": "q06904",
+          "pergunta": "Que brinquedo tradicional é este?",
+          "resposta": "Pião"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que instrumento de percussão é este?",
+        "resposta": "Caixa clara"
+      },
+      "existentes": [
+        {
+          "id": "q16527",
+          "pergunta": "Que tipo de tambor é este?",
+          "resposta": "Caixa-clara"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q06904",
+      "motivo": "Pergunta e resposta idênticas (pião)."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q16527",
+      "motivo": "Ambas pedem a identificação da caixa clara a partir da imagem; mesma resposta."
+    }
+  ]
+}
