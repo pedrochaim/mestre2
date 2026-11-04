@@ -1,0 +1,208 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Nalbert",
+        "descricao": "Nalbert Bitencourt, ex-jogador brasileiro de vôlei, campeão olímpico em 2004.",
+        "variantes": [
+          "Nalbert Bitencourt",
+          "Nalbert Tavares Bitencourt"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nalbert",
+          "nome": "Nalbert",
+          "descricao": "Ex-jogador brasileiro de vôlei, ponta, campeão olímpico em 2004.",
+          "variantes": [
+            "Nalbert Bitencourt",
+            "Nalbert Tavares Bitencourt"
+          ]
+        },
+        {
+          "id": "david_hilbert",
+          "nome": "David Hilbert",
+          "descricao": "Matemático alemão que apresentou em 1900 uma lista de problemas que orientou a matemática do século vinte.",
+          "variantes": [
+            "Hilbert"
+          ]
+        },
+        {
+          "id": "alfabeto_hebraico",
+          "nome": "Alfabeto hebraico",
+          "descricao": "Sistema de escrita usado no hebraico, no iídiche e em outras línguas judaicas.",
+          "variantes": [
+            "Hebrew alphabet",
+            "Alefbet"
+          ]
+        },
+        {
+          "id": "open_britanico",
+          "nome": "Open Britânico",
+          "descricao": "The Open Championship, torneio de golfe disputado no Reino Unido desde 1860, um dos quatro principais do golfe masculino.",
+          "variantes": [
+            "The Open Championship",
+            "The Open",
+            "British Open",
+            "Aberto Britânico"
+          ]
+        },
+        {
+          "id": "albert_einstein",
+          "nome": "Albert Einstein",
+          "descricao": "Físico teórico alemão, criador da teoria da relatividade e Nobel de Física de 1921.",
+          "variantes": [
+            "Einstein"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Lisa Leslie",
+        "descricao": "Ex-jogadora americana de basquete, tricampeã da MVP da WNBA e quatro vezes campeã olímpica.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "lillie",
+          "nome": "Lillie",
+          "descricao": "Colega de Ash na Escola Pokémon de Alola, na série Sol e Lua do anime, irmã de Gladion e filha de Lusamine.",
+          "variantes": [
+            "Lillie (anime)"
+          ]
+        },
+        {
+          "id": "elvis_presley",
+          "nome": "Elvis Presley",
+          "descricao": "Cantor e ator americano conhecido como o Rei do Rock and Roll.",
+          "variantes": [
+            "Elvis Aaron Presley",
+            "Elvis"
+          ]
+        },
+        {
+          "id": "claudia_leitte",
+          "nome": "Claudia Leitte",
+          "descricao": "Cantora brasileira de axé, ex-vocalista da banda Babado Novo.",
+          "variantes": []
+        },
+        {
+          "id": "stan_lee",
+          "nome": "Stan Lee",
+          "descricao": "Roteirista e editor americano da Marvel, cocriador do Homem-Aranha, do Hulk e do Quarteto Fantástico",
+          "variantes": [
+            "Stanley Lieber"
+          ]
+        },
+        {
+          "id": "rita_lee",
+          "nome": "Rita Lee",
+          "descricao": "Cantora e compositora paulistana, ex-integrante dos Mutantes, chamada de rainha do rock brasileiro, morta em 2023.",
+          "variantes": [
+            "Rita Lee Jones"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Chris Paul",
+        "descricao": "Armador americano de basquete, apelidado CP3, campeão olímpico e 12 vezes All-Star da NBA.",
+        "variantes": [
+          "CP3"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cop30",
+          "nome": "COP30",
+          "descricao": "Trigésima Conferência das Nações Unidas sobre Mudanças Climáticas, realizada em novembro de 2025.",
+          "variantes": [
+            "COP 30",
+            "Conferência do Clima de 2025",
+            "Conferência de Belém"
+          ]
+        },
+        {
+          "id": "crisopideo",
+          "nome": "Crisopídeo",
+          "descricao": "Inseto verde da família Chrysopidae, ordem Neuroptera, de asas transparentes com nervuras finas.",
+          "variantes": [
+            "Crisopa",
+            "Crisopídeos",
+            "Green lacewing",
+            "Bicho-lixeiro"
+          ]
+        },
+        {
+          "id": "cristal",
+          "nome": "Cristal",
+          "descricao": "Aglomerado de cristais prismáticos transparentes de quartzo (cristal de rocha).",
+          "variantes": [
+            "Cristal de rocha",
+            "Quartzo"
+          ]
+        },
+        {
+          "id": "charles_perrault",
+          "nome": "Charles Perrault",
+          "descricao": "Escritor francês (1628–1703), fundador do gênero do conto de fadas literário.",
+          "variantes": []
+        },
+        {
+          "id": "mp3",
+          "nome": "MP3",
+          "descricao": "Formato de compressão de áudio digital que popularizou a música em arquivos de computador.",
+          "variantes": [
+            "MPEG-1 Audio Layer III"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Russell Westbrook",
+        "descricao": "Armador americano de basquete, MVP da NBA em 2016–17 e recordista de triplos-duplos.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "couve_de_bruxelas",
+          "nome": "Couve-de-bruxelas",
+          "descricao": "Hortaliça de pequenos brotos globosos da espécie Brassica oleracea, grupo Gemmifera.",
+          "variantes": [
+            "Brussels sprout"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "nalbert",
+      "motivo": "Mesmo ex-jogador de vôlei Nalbert Bitencourt, campeão olímpico em 2004, com variantes idênticas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Lisa Leslie, jogadora de basquete."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o jogador Chris Paul; nomes apenas parecidos."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A única candidata é uma hortaliça, entidade diferente de Russell Westbrook."
+    }
+  ]
+}

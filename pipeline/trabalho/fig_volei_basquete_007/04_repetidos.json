@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este jogador de vôlei brasileiro foi campeão olímpico com a seleção em qual cidade?",
+        "resposta": "Atenas"
+      },
+      "existentes": [
+        {
+          "id": "q16278",
+          "pergunta": "Este ex-jogador de vôlei da seleção brasileira conquistou a medalha de ouro olímpica em qual edição dos Jogos?",
+          "resposta": "Atenas 2004"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam onde/quando o jogador foi campeão olímpico; a resposta é Atenas 2004 em ambas. Saber uma leva à outra.",
+      "id_existente": "q16278"
+    }
+  ]
+}
