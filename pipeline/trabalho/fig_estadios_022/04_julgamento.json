@@ -1,0 +1,66 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Antigo Estádio de Wembley",
+        "descricao": "Estádio de futebol em Londres inaugurado em 1923 e demolido em 2002, conhecido pelas duas torres na fachada.",
+        "variantes": [
+          "Empire Stadium",
+          "Wembley (1923)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_de_wembley",
+          "nome": "Estádio de Wembley",
+          "descricao": "Estádio nacional da Inglaterra, em Londres, com um grande arco.",
+          "variantes": []
+        },
+        {
+          "id": "empire_state_building",
+          "nome": "Empire State Building",
+          "descricao": "Arranha-céu art déco de 102 andares em Manhattan, Nova York, concluído em 1931.",
+          "variantes": [
+            "Empire State"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_montreal",
+          "nome": "Estádio Olímpico de Montreal",
+          "descricao": "Estádio com torre inclinada em Montreal, Canadá, principal sede dos Jogos Olímpicos de 1976.",
+          "variantes": [
+            "Olympic Stadium",
+            "Big O",
+            "Stade olympique"
+          ]
+        },
+        {
+          "id": "etihad_stadium",
+          "nome": "Etihad Stadium",
+          "descricao": "Estádio do Manchester City, na Inglaterra, construído para os Jogos da Comunidade Britânica de 2002.",
+          "variantes": [
+            "City of Manchester Stadium",
+            "Estádio da Cidade de Manchester"
+          ]
+        },
+        {
+          "id": "estadio_narendra_modi",
+          "nome": "Estádio Narendra Modi",
+          "descricao": "Estádio de críquete em Motera, Ahmedabad, Índia, o maior do mundo em capacidade.",
+          "variantes": [
+            "Narendra Modi Stadium",
+            "Motera Stadium"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "O antigo Wembley (1923–2002, torres) é distinto do estádio atual com arco, descrito na candidata; são entidades diferentes."
+    }
+  ]
+}

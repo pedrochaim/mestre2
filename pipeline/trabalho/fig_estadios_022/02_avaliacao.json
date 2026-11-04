@@ -1,0 +1,83 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fachada com as duas torres, inconfundível; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Neste estádio, hoje demolido, foi disputada a final da Copa do Mundo de que ano?",
+      "resposta": "1966",
+      "distratores": [
+        "1962",
+        "1970",
+        "1974"
+      ],
+      "ancora": {
+        "nome": "Antigo Estádio de Wembley",
+        "descricao": "Estádio de futebol em Londres inaugurado em 1923 e demolido em 2002, conhecido pelas duas torres na fachada.",
+        "variantes": [
+          "Empire Stadium",
+          "Wembley (1923)"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A placa 'Forum Club' aparece na imagem e entrega o nome."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Vista aérea noturna sem traços distintivos; não é reconhecível e não há resposta única."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Texto visível (France 98, Paris La Défense) e público em primeiro plano."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, de noite."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Faixas com texto visíveis, torcedores comuns em primeiro plano; estádio pouco reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Interior genérico de arena, não reconhecível; resposta não única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Texto 'Patriots' no gramado e no placar entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Letreiro 'Scotiabank Saddledome' visível."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Letreiro 'DRV PNK Stadium' visível."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Texto 'riocentro' no telhado; além disso, é centro de convenções, pouco reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Estádio de críquete genérico, com pessoas em primeiro plano; não reconhecível."
+    }
+  ]
+}
