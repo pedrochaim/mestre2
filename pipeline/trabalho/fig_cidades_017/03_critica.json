@@ -1,0 +1,136 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Calçada com estrelas no chão' nos EUA descreve a Calçada da Fama e entrega a resposta sem olhar a figura. Retirar a pista.",
+      "reescrita": {
+        "pergunta": "Em que cidade dos Estados Unidos fica esta calçada?",
+        "resposta": "Los Angeles",
+        "distratores": [
+          "Las Vegas",
+          "Nova York",
+          "São Francisco"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Índice sem pergunta no lote; nada a avaliar.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A varanda de madeira sobre a encosta é a marca do templo e entrega a resposta com a imagem coberta.",
+      "reescrita": {
+        "pergunta": "Que templo budista japonês é este?",
+        "resposta": "Kiyomizu-dera",
+        "distratores": [
+          "Kinkaku-ji",
+          "Todai-ji",
+          "Senso-ji"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve o conjunto (esculturas enterradas com o imperador para protegê-lo) e dá para responder sem a figura. Troca por uma formulação que depende de reconhecer a imagem.",
+      "reescrita": {
+        "pergunta": "Este conjunto de esculturas foi enterrado no mausoléu de que imperador chinês?",
+        "resposta": "Qin Shi Huang",
+        "distratores": [
+          "Kublai Khan",
+          "Wu de Han",
+          "Kangxi"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento, com distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Manarola é uma das cinco vilas da Cinque Terre, e o enunciado não a nomeia.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista, com distratores de cânions.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Borobudur fica em Java Central, e 'templo budista' não entrega a ilha. Os distratores são ilhas indonésias.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'O primeiro arranha-céu do país' entrega a identidade e é contestável: a Wikipédia em português cita o A Noite, do Rio, também concluído em 1929. 'Marrom em primeiro plano' não é verificável. A conclusão em 1929 é sustentada pelo trecho.",
+      "reescrita": {
+        "pergunta": "Em que década foi concluído este edifício do centro de São Paulo?",
+        "resposta": "Década de 1920",
+        "distratores": [
+          "Década de 1900",
+          "Década de 1910",
+          "Década de 1930"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mozart nasceu em Salzburgo, e os distratores nasceram em outras cidades.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pétalas de mármore' em Nova Délhi entrega o Templo de Lótus, que também deriva da palavra lótus. A Ópera de Sydney e a Mesquita Azul não são distratores críveis para Nova Délhi.",
+      "reescrita": {
+        "pergunta": "Que edifício de Nova Délhi é este?",
+        "resposta": "Templo de Lótus",
+        "distratores": [
+          "Templo Akshardham",
+          "Forte Vermelho",
+          "Tumba de Humayun"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Complexo de mosteiros sobre rochedos' descreve Meteora e entrega a resposta. Monte Athos, de uma pergunta sobre mosteiros, é distrator que confunde.",
+      "reescrita": {
+        "pergunta": "Que lugar da Grécia é este?",
+        "resposta": "Meteora",
+        "distratores": [
+          "Monte Athos",
+          "Delfos",
+          "Micenas"
+        ]
+      }
+    }
+  ]
+}

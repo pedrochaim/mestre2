@@ -1,0 +1,271 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Estrelas rosa no chão, características da Calçada da Fama; o nome numa estrela é pequeno e não entrega a resposta.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade dos Estados Unidos fica esta calçada com estrelas no chão?",
+      "resposta": "Los Angeles",
+      "distratores": [
+        "Las Vegas",
+        "Nova York",
+        "São Francisco"
+      ],
+      "ancora": {
+        "nome": "Calçada da Fama de Hollywood",
+        "descricao": "Calçada de Hollywood Boulevard, em Los Angeles, com mais de duas mil estrelas em homenagem a profissionais do entretenimento.",
+        "variantes": [
+          "Hollywood Walk of Fame",
+          "Passeio da Fama de Hollywood"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A foto mostra só um pavilhão com estátuas de raposa, sem os portões torii característicos; não é reconhecível, e há texto em japonês com o nome Inari."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Varanda de madeira sobre pilares e pagode vermelho, vista clássica e reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que templo japonês, com esta grande varanda de madeira sobre a encosta, é este?",
+      "resposta": "Kiyomizu-dera",
+      "distratores": [
+        "Kinkaku-ji",
+        "Todai-ji",
+        "Senso-ji"
+      ],
+      "ancora": {
+        "nome": "Kiyomizu-dera",
+        "descricao": "Templo budista no leste de Quioto, no Japão, famoso pela grande varanda de madeira sobre a encosta.",
+        "variantes": [
+          "Templo Kiyomizu",
+          "Kiyomizudera"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fosso com centenas de guerreiros de terracota sob a cobertura do museu, inconfundível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que imperador chinês mandou enterrar este conjunto de esculturas junto com ele, para protegê-lo depois da morte?",
+      "resposta": "Qin Shi Huang",
+      "distratores": [
+        "Kublai Khan",
+        "Wu de Han",
+        "Kangxi"
+      ],
+      "ancora": {
+        "nome": "Exército de Terracota",
+        "descricao": "Conjunto de mais de oito mil esculturas de terracota enterrado perto de Xi'an, na China, no mausoléu do primeiro imperador chinês.",
+        "variantes": [
+          "Exército de terracota",
+          "Guerreiros de Terracota",
+          "Terracotta Army"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista clássica do castelo a partir do Long Walk, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que castelo britânico é este?",
+      "resposta": "Castelo de Windsor",
+      "distratores": [
+        "Castelo de Arundel",
+        "Castelo de Warwick",
+        "Castelo de Leeds"
+      ],
+      "ancora": {
+        "nome": "Castelo de Windsor",
+        "descricao": "Residência real em Windsor, na Inglaterra, a cerca de quarenta quilômetros de Londres, ocupada por monarcas há quase mil anos.",
+        "variantes": [
+          "Windsor Castle"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vila colorida sobre rochedo à beira-mar, típica da Cinque Terre; a resposta (o conjunto) é única mesmo entre as vilas parecidas.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta vila litorânea italiana pertence a que conjunto de povoados famosos?",
+      "resposta": "Cinque Terre",
+      "distratores": [
+        "Costa Amalfitana",
+        "Riviera Francesa",
+        "Costa Dálmata"
+      ],
+      "ancora": {
+        "nome": "Manarola",
+        "descricao": "Pequena vila da Ligúria, no norte da Itália, uma das cidades da Cinque Terre.",
+        "variantes": [
+          "Manaea"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Paisagem de camadas rochosas com o rio Colorado ao fundo, reconhecível e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que cânion é este?",
+      "resposta": "Grand Canyon",
+      "distratores": [
+        "Cânion de Zion",
+        "Cânion do Colca",
+        "Cânion Fish River"
+      ],
+      "ancora": {
+        "nome": "Grand Canyon",
+        "descricao": "Cânion escavado pelo rio Colorado, no Arizona, Estados Unidos, com cerca de 446 km de extensão.",
+        "variantes": [
+          "Grande Cânion",
+          "Grand Canyon do Colorado"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Templo em platôs empilhados com estupa central, inconfundível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ilha da Indonésia fica este templo budista?",
+      "resposta": "Java",
+      "distratores": [
+        "Sumatra",
+        "Bornéu",
+        "Bali"
+      ],
+      "ancora": {
+        "nome": "Borobudur",
+        "descricao": "Templo budista mahayana do século nove, em Java Central, na Indonésia, com plataformas empilhadas e estupa central.",
+        "variantes": [
+          "Candi Borobudur",
+          "Barabudur"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Edifício marrom de ornamentos clássicos em primeiro plano, reconhecível por quem conhece o centro de São Paulo; o enunciado indica qual prédio.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que década foi concluído este edifício marrom em primeiro plano, o primeiro arranha-céu do país?",
+      "resposta": "Década de 1920",
+      "distratores": [
+        "Década de 1900",
+        "Década de 1910",
+        "Década de 1930"
+      ],
+      "ancora": {
+        "nome": "Edifício Martinelli",
+        "descricao": "Edifício de 28 andares no centro de São Paulo, concluído em 1929, considerado o primeiro arranha-céu do Brasil.",
+        "variantes": [
+          "Prédio Martinelli",
+          "Martinelli Building"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Centro histórico com a fortaleza Hohensalzburg e a catedral, vista reconhecível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que compositor nasceu nesta cidade?",
+      "resposta": "Wolfgang Amadeus Mozart",
+      "distratores": [
+        "Ludwig van Beethoven",
+        "Joseph Haydn",
+        "Franz Schubert"
+      ],
+      "ancora": {
+        "nome": "Salzburgo",
+        "descricao": "Cidade austríaca às margens do rio Salzach, perto da fronteira com a Alemanha, com a fortaleza Hohensalzburg.",
+        "variantes": [
+          "Salzburg"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Edifício em forma de flor de lótus, único e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que edifício de Nova Délhi, com estas pétalas de mármore, é este?",
+      "resposta": "Templo de Lótus",
+      "distratores": [
+        "Ópera de Sydney",
+        "Templo Akshardham",
+        "Mesquita Azul"
+      ],
+      "ancora": {
+        "nome": "Templo de Lótus",
+        "descricao": "Casa de adoração bahá'í em Nova Délhi, na Índia, em forma de flor de lótus com 27 pétalas de mármore.",
+        "variantes": [
+          "Lotus Temple",
+          "Casa de Adoração Bahá'í"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Mosteiro sobre rochedos gigantes, paisagem característica de Meteora.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que complexo de mosteiros sobre rochedos é este?",
+      "resposta": "Meteora",
+      "distratores": [
+        "Monte Athos",
+        "Mosteiro de Rila",
+        "Mosteiro de Sumela"
+      ],
+      "ancora": {
+        "nome": "Meteora",
+        "descricao": "Formação rochosa na Tessália, no noroeste da Grécia, com mosteiros ortodoxos construídos no topo de grandes pilares de pedra.",
+        "variantes": [
+          "Metéora",
+          "Meteoros"
+        ]
+      }
+    }
+  ]
+}

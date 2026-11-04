@@ -1,0 +1,659 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Calçada da Fama de Hollywood",
+        "descricao": "Calçada de Hollywood Boulevard, em Los Angeles, com mais de duas mil estrelas em homenagem a profissionais do entretenimento.",
+        "variantes": [
+          "Hollywood Walk of Fame",
+          "Passeio da Fama de Hollywood"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "letreiro_de_hollywood",
+          "nome": "Letreiro de Hollywood",
+          "descricao": "Letreiro gigante instalado no Monte Lee, nas colinas de Los Angeles, símbolo da indústria do cinema americano.",
+          "variantes": [
+            "Hollywood Sign"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Kiyomizu-dera",
+        "descricao": "Templo budista no leste de Quioto, no Japão, famoso pela grande varanda de madeira sobre a encosta.",
+        "variantes": [
+          "Templo Kiyomizu",
+          "Kiyomizudera"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "byodo_in",
+          "nome": "Byodo-in",
+          "descricao": "Templo budista do século onze em Uji, perto de Quioto, famoso pelo Pavilhão da Fênix.",
+          "variantes": [
+            "Templo Byodoin"
+          ]
+        },
+        {
+          "id": "masahiko_kimura",
+          "nome": "Masahiko Kimura",
+          "descricao": "Judoca japonês dos anos 1950 que dá nome à chave de ombro conhecida como kimura.",
+          "variantes": [
+            "Kimura"
+          ]
+        },
+        {
+          "id": "templo_mayor",
+          "nome": "Templo Mayor",
+          "descricao": "Principal templo dos mexicas em Tenochtitlan, cujas ruínas ficam no centro da Cidade do México.",
+          "variantes": [
+            "Huey Teocalli",
+            "Grande Templo de Tenochtitlan"
+          ]
+        },
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        },
+        {
+          "id": "dormideira",
+          "nome": "Dormideira",
+          "descricao": "Mimosa pudica, planta rasteira da família das leguminosas cujas folhas se fecham ao toque.",
+          "variantes": [
+            "Sensitiva",
+            "Mimosa pudica",
+            "Malícia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Exército de Terracota",
+        "descricao": "Conjunto de mais de oito mil esculturas de terracota enterrado perto de Xi'an, na China, no mausoléu do primeiro imperador chinês.",
+        "variantes": [
+          "Guerreiros de Terracota",
+          "Terracotta Army"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "exercito_de_terracota",
+          "nome": "Exército de Terracota",
+          "descricao": "Conjunto de milhares de estatuetas de soldados de barro enterradas junto ao mausoléu de Qin Shi Huang, em Xian.",
+          "variantes": [
+            "Guerreiros de Terracota",
+            "Terracotta Army",
+            "Guerreiros de Xian"
+          ]
+        },
+        {
+          "id": "bronzes_de_riace",
+          "nome": "Bronzes de Riace",
+          "descricao": "Par de estátuas gregas de guerreiros em bronze, do século cinco a.C., encontradas em 1972 no mar perto de Riace, na Calábria.",
+          "variantes": [
+            "Guerreiros de Riace",
+            "Riace bronzes"
+          ]
+        },
+        {
+          "id": "experimento_de_rutherford",
+          "nome": "Experimento de Rutherford",
+          "descricao": "Experimentos de Geiger e Marsden, orientados por Ernest Rutherford a partir de 1909, que levaram à descoberta do núcleo atômico.",
+          "variantes": [
+            "Experimento da folha de ouro",
+            "Experimento de Geiger-Marsden",
+            "Geiger–Marsden experiments"
+          ]
+        },
+        {
+          "id": "guerrilheiro_heroico",
+          "nome": "Guerrilheiro Heroico",
+          "descricao": "Fotografia de Che Guevara de boina com estrela, tirada em Havana em 5 de março de 1960.",
+          "variantes": [
+            "Guerrillero Heroico"
+          ]
+        },
+        {
+          "id": "erupcao_minoica",
+          "nome": "Erupção minoica",
+          "descricao": "Grande erupção vulcânica de Thera, no mar Egeu, durante a Idade do Bronze.",
+          "variantes": [
+            "Erupção de Thera",
+            "Erupção de Santorini"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Castelo de Windsor",
+        "descricao": "Residência real em Windsor, na Inglaterra, a cerca de quarenta quilômetros de Londres, ocupada por monarcas há quase mil anos.",
+        "variantes": [
+          "Windsor Castle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castelo_de_windsor",
+          "nome": "Castelo de Windsor",
+          "descricao": "Residência real inglesa em Windsor, Berkshire, construída no século onze após a conquista normanda.",
+          "variantes": [
+            "Windsor Castle"
+          ]
+        },
+        {
+          "id": "casa_de_windsor",
+          "nome": "Casa de Windsor",
+          "descricao": "Casa real do Reino Unido, que adotou esse nome em 1917, no reinado de Jorge V.",
+          "variantes": [
+            "House of Windsor"
+          ]
+        },
+        {
+          "id": "castelo_de_n",
+          "nome": "Castelo de N",
+          "descricao": "Castelo da Equipe Plasma em Pokémon Black e White, onde acontece o confronto final da história.",
+          "variantes": [
+            "N's Castle"
+          ]
+        },
+        {
+          "id": "fasil_ghebbi",
+          "nome": "Fasil Ghebbi",
+          "descricao": "Cidadela real em Gondar, Etiópia, fundada no século dezessete e residência de imperadores etíopes.",
+          "variantes": [
+            "Cidade-fortaleza de Fasil Ghebbi",
+            "Castelos de Gondar"
+          ]
+        },
+        {
+          "id": "castelo_de_sao_jorge_da_mina",
+          "nome": "Castelo de São Jorge da Mina",
+          "descricao": "Fortaleza construída pelos portugueses em 1482 no litoral da África Ocidental, centro do comércio de ouro e depois de escravizados.",
+          "variantes": [
+            "Castelo de Elmina",
+            "Elmina Castle",
+            "São Jorge da Mina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Manarola",
+        "descricao": "Pequena vila da Ligúria, no norte da Itália, uma das cidades da Cinque Terre.",
+        "variantes": [
+          "Manaea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mauna_kea",
+          "nome": "Mauna Kea",
+          "descricao": "Vulcão adormecido na ilha do Havaí, nos Estados Unidos, cuja base fica no fundo do Oceano Pacífico.",
+          "variantes": [
+            "Mauna Kea, Havaí"
+          ]
+        },
+        {
+          "id": "mancala",
+          "nome": "Mancala",
+          "descricao": "Família de jogos de tabuleiro para dois jogadores, com sementes ou pedras distribuídas em covas.",
+          "variantes": [
+            "Kalah",
+            "Manqala"
+          ]
+        },
+        {
+          "id": "pangeia",
+          "nome": "Pangeia",
+          "descricao": "Supercontinente que reuniu quase todas as terras emersas no fim da Era Paleozoica e no início da Mesozoica.",
+          "variantes": [
+            "Pangea",
+            "Pangaea"
+          ]
+        },
+        {
+          "id": "fumarola",
+          "nome": "Fumarola",
+          "descricao": "Abertura na superfície de terreno vulcânico que emite vapor e gases quentes, sem líquidos nem sólidos.",
+          "variantes": [
+            "Fumarolas"
+          ]
+        },
+        {
+          "id": "magnolia",
+          "nome": "Magnólia",
+          "descricao": "Gênero de árvores e arbustos (Magnolia) de grandes flores perfumadas, da família das magnoliáceas.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Grand Canyon",
+        "descricao": "Cânion escavado pelo rio Colorado, no Arizona, Estados Unidos, com cerca de 446 km de extensão.",
+        "variantes": [
+          "Grande Cânion",
+          "Grand Canyon do Colorado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grand_canyon",
+          "nome": "Grand Canyon",
+          "descricao": "Grande desfiladeiro no estado do Arizona, nos Estados Unidos.",
+          "variantes": [
+            "Grande Cânion",
+            "Grand Canyon do Colorado"
+          ]
+        },
+        {
+          "id": "grande_banho_de_mohenjo_daro",
+          "nome": "Grande Banho de Mohenjo-daro",
+          "descricao": "Grande tanque de tijolos da cidade de Mohenjo-daro, da civilização do Vale do Indo, provavelmente usado em rituais de purificação.",
+          "variantes": [
+            "Grande Banho",
+            "Great Bath"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "grande_canal_da_china",
+          "nome": "Grande Canal da China",
+          "descricao": "Sistema de canais artificiais da China, ampliado na dinastia Sui, que liga Pequim a Hangzhou.",
+          "variantes": [
+            "Grand Canal",
+            "Canal Pequim-Hangzhou",
+            "Da Yunhe"
+          ]
+        },
+        {
+          "id": "grande_seca_de_1877",
+          "nome": "Grande Seca de 1877",
+          "descricao": "Seca de 1877 a 1879 que devastou o sertão nordestino, sobretudo o Ceará",
+          "variantes": [
+            "Grande Seca",
+            "Seca dos Dois Setes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Borobudur",
+        "descricao": "Templo budista mahayana do século nove, em Java Central, na Indonésia, com plataformas empilhadas e estupa central.",
+        "variantes": [
+          "Candi Borobudur",
+          "Barabudur"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "borobudur",
+          "nome": "Borobudur",
+          "descricao": "Templo budista monumental do século nove, na ilha de Java.",
+          "variantes": [
+            "Templo de Borobudur"
+          ]
+        },
+        {
+          "id": "barracuda",
+          "nome": "Barracuda",
+          "descricao": "Peixe predador alongado de mandíbula grande, do gênero Sphyraena, de mares tropicais.",
+          "variantes": [
+            "Sphyraena"
+          ]
+        },
+        {
+          "id": "magmar",
+          "nome": "Magmar",
+          "descricao": "Pokémon do tipo Fogo, número 126 da Pokédex Nacional.",
+          "variantes": [
+            "Boober"
+          ]
+        },
+        {
+          "id": "balder",
+          "nome": "Balder",
+          "descricao": "Deus nórdico da luz e da beleza, filho de Odin e Frigg, morto por artimanha de Loki.",
+          "variantes": [
+            "Baldr",
+            "Baldur"
+          ]
+        },
+        {
+          "id": "marabu",
+          "nome": "Marabu",
+          "descricao": "Grande cegonha africana Leptoptilos crumenifer, de cabeça e pescoço pelados e bico enorme, que frequenta também lixões.",
+          "variantes": [
+            "Marabou",
+            "Leptoptilos crumenifer",
+            "Marabout stork"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Edifício Martinelli",
+        "descricao": "Edifício de 28 andares no centro de São Paulo, concluído em 1929, considerado o primeiro arranha-céu do Brasil.",
+        "variantes": [
+          "Prédio Martinelli",
+          "Martinelli Building"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "edificio_martinelli",
+          "nome": "Edifício Martinelli",
+          "descricao": "Primeiro arranha-céu do Brasil, de 28 andares, no centro de São Paulo.",
+          "variantes": [
+            "Prédio Martinelli",
+            "Martinelli Building"
+          ]
+        },
+        {
+          "id": "flatiron_building",
+          "nome": "Flatiron Building",
+          "descricao": "Arranha-céu triangular de 1902 na esquina da Quinta Avenida com a Broadway, em Nova York.",
+          "variantes": [
+            "Edifício Flatiron",
+            "Fuller Building"
+          ]
+        },
+        {
+          "id": "edificio_altino_arantes",
+          "nome": "Edifício Altino Arantes",
+          "descricao": "Arranha-céu art déco no centro de São Paulo, sede do antigo Banespa, também chamado Banespão.",
+          "variantes": [
+            "Edifício Altino Arantes (Banespa)",
+            "Banespão",
+            "Edifício Banespa",
+            "Altino Arantes Building"
+          ]
+        },
+        {
+          "id": "edificio_copan",
+          "nome": "Edifício Copan",
+          "descricao": "Edifício residencial sinuoso projetado por Oscar Niemeyer no centro de São Paulo.",
+          "variantes": [
+            "Copan"
+          ]
+        },
+        {
+          "id": "frango_d_agua_azul",
+          "nome": "Frango-d'água-azul",
+          "descricao": "Porphyrio martinica, ave de brejo americana da família Rallidae, de plumagem azul-púrpura e verde, bico vermelho e pernas amarelas.",
+          "variantes": [
+            "Purple gallinule",
+            "Porphyrio martinica",
+            "Frango-de-água-azul"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Salzburgo",
+        "descricao": "Cidade austríaca às margens do rio Salzach, perto da fronteira com a Alemanha, com a fortaleza Hohensalzburg.",
+        "variantes": [
+          "Salzburg"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lesma",
+          "nome": "Lesma",
+          "descricao": "Molusco gastrópode terrestre sem concha aparente.",
+          "variantes": [
+            "Slug"
+          ]
+        },
+        {
+          "id": "luxemburgo",
+          "nome": "Luxemburgo",
+          "descricao": "Grão-ducado sem litoral da Europa Ocidental, entre Bélgica, França e Alemanha, com capital de mesmo nome.",
+          "variantes": [
+            "Luxembourg",
+            "Grão-Ducado do Luxemburgo"
+          ]
+        },
+        {
+          "id": "bandeira_de_luxemburgo",
+          "nome": "Bandeira de Luxemburgo",
+          "descricao": "Bandeira atual de Luxemburgo: faixas horizontais vermelha, branca e azul-celeste.",
+          "variantes": [
+            "Luxemburgo",
+            "Bandeira do Grão-Ducado de Luxemburgo"
+          ]
+        },
+        {
+          "id": "brasao_de_luxemburgo",
+          "nome": "Brasão de Luxemburgo",
+          "descricao": "Brasão de armas do Grão-Ducado de Luxemburgo, com leão vermelho sobre listras azuis e brancas, sustentado por dois leões sob manto e coroa.",
+          "variantes": [
+            "Luxemburgo",
+            "Armas do Grão-Ducado de Luxemburgo"
+          ]
+        },
+        {
+          "id": "saturno",
+          "nome": "Saturno",
+          "descricao": "Sexto planeta a partir do Sol, gigante gasoso famoso pelos anéis.",
+          "variantes": [
+            "Saturn"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Templo de Lótus",
+        "descricao": "Casa de adoração bahá'í em Nova Délhi, na Índia, em forma de flor de lótus com 27 pétalas de mármore.",
+        "variantes": [
+          "Lotus Temple",
+          "Casa de Adoração Bahá'í"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_luxor",
+          "nome": "Templo de Luxor",
+          "descricao": "Grande complexo de templo egípcio antigo na margem leste do Nilo, na antiga Tebas.",
+          "variantes": [
+            "Luxor Temple"
+          ]
+        },
+        {
+          "id": "templo_de_philae",
+          "nome": "Templo de Philae",
+          "descricao": "Complexo de templos egípcios dedicado à deusa Ísis, hoje na ilha de Agilkia, perto de Assuã, no Egito.",
+          "variantes": [
+            "Templo de Filas",
+            "Templo de Ísis em Filas"
+          ]
+        },
+        {
+          "id": "lotus_2",
+          "nome": "Lótus",
+          "descricao": "Planta aquática Nelumbo nucifera, da família Nelumbonaceae, de grandes flores rosadas, sagrada no hinduísmo e no budismo.",
+          "variantes": [
+            "Flor-de-lótus",
+            "Lótus-sagrado",
+            "Nelumbo nucifera"
+          ]
+        },
+        {
+          "id": "baalbek",
+          "nome": "Baalbek",
+          "descricao": "Cidade e sítio arqueológico romano no Vale do Beca, no Líbano, aqui o Templo de Baco.",
+          "variantes": [
+            "Heliópolis",
+            "Templo de Baco"
+          ]
+        },
+        {
+          "id": "templo_de_edfu",
+          "nome": "Templo de Edfu",
+          "descricao": "Templo dedicado ao deus Hórus na cidade de Edfu, no sul do Egito, um dos mais bem conservados do país",
+          "variantes": [
+            "Templo de Hórus em Edfu",
+            "Temple of Edfu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Meteora",
+        "descricao": "Formação rochosa na Tessália, no noroeste da Grécia, com mosteiros ortodoxos construídos no topo de grandes pilares de pedra.",
+        "variantes": [
+          "Meteoros"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "meteora",
+          "nome": "Meteora",
+          "descricao": "Conjunto de mosteiros ortodoxos construídos no alto de pilares de rocha, na Tessália",
+          "variantes": []
+        },
+        {
+          "id": "meteoro_bruno_giorgi",
+          "nome": "Meteoro (Bruno Giorgi)",
+          "descricao": "Escultura de mármore de Bruno Giorgi, de 1967-1968, no espelho d'água do Palácio Itamaraty, em Brasília.",
+          "variantes": [
+            "Meteoro",
+            "Meteoro do Itamaraty"
+          ]
+        },
+        {
+          "id": "metro",
+          "nome": "Metro",
+          "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito.",
+          "variantes": [
+            "Metro (unidade)",
+            "Metre",
+            "Meter",
+            "Metro-padrão"
+          ]
+        },
+        {
+          "id": "meteorito_hoba",
+          "nome": "Meteorito Hoba",
+          "descricao": "Grande meteorito de ferro encontrado na Namíbia, o maior bloco único de ferro de origem natural na superfície terrestre.",
+          "variantes": [
+            "Meteorito",
+            "Hoba",
+            "Hoba West"
+          ]
+        },
+        {
+          "id": "metecos",
+          "nome": "Metecos",
+          "descricao": "Estrangeiros livres que residiam em Atenas, pagavam imposto e serviam no exército, mas não tinham direitos políticos.",
+          "variantes": [
+            "Meteco",
+            "Metic",
+            "Métoikos"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Calçada da Fama é diferente do Letreiro de Hollywood."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Kiyomizu-dera não corresponde a nenhuma candidata; Byodo-in é outro templo."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "exercito_de_terracota",
+      "motivo": "Mesma entidade: exército de terracota do mausoléu de Qin Shi Huang em Xi'an."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "castelo_de_windsor",
+      "motivo": "Mesma residência real em Windsor."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Manarola não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "grand_canyon",
+      "motivo": "Mesmo cânion no Arizona, com mesmas variantes."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "borobudur",
+      "motivo": "Mesmo templo budista do século nove em Java."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "edificio_martinelli",
+      "motivo": "Mesmo primeiro arranha-céu do Brasil, de 28 andares em São Paulo."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Salzburgo é uma cidade austríaca, sem correspondência nas candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "O Templo de Lótus bahá'í é diferente da planta lótus e dos outros templos."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "meteora",
+      "motivo": "Meteora com mosteiros nos pilares de rocha da Tessália é a mesma entidade."
+    }
+  ]
+}

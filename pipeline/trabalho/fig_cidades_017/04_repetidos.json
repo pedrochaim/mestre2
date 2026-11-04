@@ -1,0 +1,167 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este conjunto de esculturas foi enterrado no mausoléu de que imperador chinês?",
+        "resposta": "Qin Shi Huang"
+      },
+      "existentes": [
+        {
+          "id": "q03361",
+          "pergunta": "Por que milhares de soldados de barro foram enterrados junto ao túmulo do imperador chinês Qin Shi Huang?",
+          "resposta": "Para protegê-lo após a morte"
+        },
+        {
+          "id": "q03362",
+          "pergunta": "Em que década do século vinte agricultores chineses que cavavam um poço encontraram o Exército de Terracota?",
+          "resposta": "Década de 1970"
+        },
+        {
+          "id": "q03968",
+          "pergunta": "Os milhares de guerreiros de terracota de Xian foram feitos para guardar o túmulo de que imperador, o unificador da China?",
+          "resposta": "Qin Shi Huang"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que castelo britânico é este?",
+        "resposta": "Castelo de Windsor"
+      },
+      "existentes": [
+        {
+          "id": "q06289",
+          "pergunta": "Que rei normando mandou construir o castelo original deste local, no século onze?",
+          "resposta": "Guilherme, o Conquistador"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que cânion é este?",
+        "resposta": "Grand Canyon"
+      },
+      "existentes": [
+        {
+          "id": "q02076",
+          "pergunta": "Ao longo de milhões de anos, que rio escavou o Grand Canyon, no Arizona?",
+          "resposta": "Rio Colorado"
+        },
+        {
+          "id": "q06710",
+          "pergunta": "Em 1908, que presidente americano, caçador e conservacionista, protegeu o Grand Canyon ao declará-lo monumento nacional?",
+          "resposta": "Theodore Roosevelt"
+        },
+        {
+          "id": "q14028",
+          "pergunta": "Que cânion americano, escavado por um rio, é este?",
+          "resposta": "Grand Canyon"
+        },
+        {
+          "id": "q15677",
+          "pergunta": "Em que estado americano fica este cânion, escavado pelo rio que corre no fundo?",
+          "resposta": "Arizona"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que ilha da Indonésia fica este templo budista?",
+        "resposta": "Java"
+      },
+      "existentes": [
+        {
+          "id": "q03960",
+          "pergunta": "Borobudur, enorme templo budista de pedra construído no século nove em forma de mandala, fica em que país?",
+          "resposta": "Indonésia"
+        },
+        {
+          "id": "q05291",
+          "pergunta": "Que templo budista é este?",
+          "resposta": "Borobudur"
+        },
+        {
+          "id": "q06918",
+          "pergunta": "Que dinastia reinava em Java quando este templo foi construído, no século nove?",
+          "resposta": "Sailendra"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que década foi concluído este edifício do centro de São Paulo?",
+        "resposta": "Década de 1920"
+      },
+      "existentes": [
+        {
+          "id": "q16015",
+          "pergunta": "Em que cidade fica este edifício de vinte e oito andares, concluído em 1929?",
+          "resposta": "São Paulo"
+        },
+        {
+          "id": "q16898",
+          "pergunta": "Que empresário de origem italiana mandou construir este arranha-céu do centro de São Paulo?",
+          "resposta": "Giuseppe Martinelli"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que lugar da Grécia é este?",
+        "resposta": "Meteora"
+      },
+      "existentes": [
+        {
+          "id": "q09494",
+          "pergunta": "Em que país ficam os mosteiros ortodoxos de Meteora, construídos no alto de enormes pilares de rocha?",
+          "resposta": "Grécia"
+        },
+        {
+          "id": "q16681",
+          "pergunta": "Em que região da Grécia fica este conjunto rochoso?",
+          "resposta": "Tessália"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q03968",
+      "motivo": "Ambas perguntam de que imperador (Qin Shi Huang) é o túmulo guardado pelos guerreiros."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o castelo é diferente de perguntar sobre o construtor original."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q14028",
+      "motivo": "Ambas pedem a identificação do cânion como Grand Canyon."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Ilha (Java) é um fato distinto de país, nome ou dinastia."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Década de conclusão é distinta da cidade e do construtor; ano 1929 aparece apenas no enunciado da outra pergunta, que pergunta a cidade."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Identificar o lugar (Meteora) difere de país ou região."
+    }
+  ]
+}
