@@ -1,0 +1,89 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que formação de caverna é esta?",
+        "resposta": "Estalactite"
+      },
+      "existentes": [
+        {
+          "id": "q09200",
+          "pergunta": "Nas cavernas de calcário, estalactites e estalagmites são formadas principalmente por que mineral?",
+          "resposta": "Calcita"
+        },
+        {
+          "id": "q13963",
+          "pergunta": "Como se chamam estas formações de caverna?",
+          "resposta": "Estalactites"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país fica este rio?",
+        "resposta": "Colômbia"
+      },
+      "existentes": [
+        {
+          "id": "q09169",
+          "pergunta": "Chamado de rio de cinco cores, o Caño Cristales, na Colômbia, fica vermelho em certas épocas do ano. O que provoca essa cor?",
+          "resposta": "Uma planta aquática"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que país fica esta montanha?",
+        "resposta": "Nova Zelândia"
+      },
+      "existentes": [
+        {
+          "id": "q16322",
+          "pergunta": "A que cordilheira pertence esta montanha, a mais alta do seu país?",
+          "resposta": "Alpes do Sul"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que forma de relevo é esta?",
+        "resposta": "Duna"
+      },
+      "existentes": [
+        {
+          "id": "q14149",
+          "pergunta": "Que forma de relevo é esta?",
+          "resposta": "Duna"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q13963",
+      "motivo": "Ambas pedem identificar a mesma formação (estalactite) a partir da imagem."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o país do rio; a existente pergunta a causa da cor, fato diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "País da montanha é diferente da cordilheira a que ela pertence."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q14149",
+      "motivo": "Pergunta e resposta idênticas."
+    }
+  ]
+}

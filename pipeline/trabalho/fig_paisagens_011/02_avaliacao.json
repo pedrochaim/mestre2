@@ -1,0 +1,197 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Terraços de arroz com coqueiros também existem em Java, Filipinas e outros lugares; a imagem não permite resposta única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Picos genéricos de serra com ipês; não é reconhecível como Serra do Mar e a resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Estalactites de caverna claras, formas pendentes bem visíveis.",
+      "pergunta": "Que formação de caverna é esta?",
+      "tipo": "multipla",
+      "resposta": "Estalactite",
+      "distratores": [
+        "Estalagmite",
+        "Coluna calcária",
+        "Cortina de caverna"
+      ],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Estalactite",
+        "descricao": "Formação mineral que pende do teto de cavernas, oposta à estalagmite.",
+        "variantes": [
+          "Stalactite"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Vista distante e nublada de um vale; a cratera não é reconhecível pela imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rio de leito vermelho e amarelo, muito característico.",
+      "pergunta": "Em que país fica este rio?",
+      "tipo": "multipla",
+      "resposta": "Colômbia",
+      "distratores": [
+        "Venezuela",
+        "Equador",
+        "Peru"
+      ],
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 1,
+      "ancora": {
+        "nome": "Caño Cristales",
+        "descricao": "Rio da Serranía de la Macarena, na Colômbia, conhecido como Rio das Cinco Cores por causa das plantas do leito.",
+        "variantes": [
+          "Cano Cristales",
+          "Rio das Cinco Cores",
+          "Arco-íris Líquido"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Iceberg bem nítido no centro, rodeado de gelo marinho.",
+      "pergunta": "Que massa de gelo flutuante se destaca no centro desta imagem?",
+      "tipo": "multipla",
+      "resposta": "Iceberg",
+      "distratores": [
+        "Geleira",
+        "Banquisa",
+        "Calota polar"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 2,
+      "ancora": {
+        "nome": "Iceberg",
+        "descricao": "Bloco de gelo de água doce desprendido de uma geleira ou plataforma de gelo, flutuando livremente no mar.",
+        "variantes": [
+          "Icebergue"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Vista aérea de pântano genérico, não reconhecível como o Delta do Okavango."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Monólito basáltico com laguna, foto aérea nítida e distintiva.",
+      "pergunta": "Em que país insular do Índico fica esta montanha?",
+      "tipo": "multipla",
+      "resposta": "Maurício",
+      "distratores": [
+        "Seicheles",
+        "Madagascar",
+        "Comores"
+      ],
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 2,
+      "ancora": {
+        "nome": "Le Morne Brabant",
+        "descricao": "Monólito basáltico de 556 metros numa península no extremo sudoeste da ilha Maurício.",
+        "variantes": [
+          "Morne Brabant",
+          "Le Morne"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "É um diagrama esquemático, não uma foto de gêiser."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Enseada com falésias e naufrágio, muito característica.",
+      "pergunta": "Em que ilha grega fica esta praia?",
+      "tipo": "multipla",
+      "resposta": "Zacinto",
+      "distratores": [
+        "Creta",
+        "Corfu",
+        "Rodes"
+      ],
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 2,
+      "ancora": {
+        "nome": "Praia de Navagio",
+        "descricao": "Enseada com um navio naufragado na costa da ilha de Zacinto, na Grécia.",
+        "variantes": [
+          "Praia do Naufrágio",
+          "Navagio Beach",
+          "Shipwreck Beach"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pico nevado com vale glacial, aceitável com múltipla escolha de montanhas parecidas.",
+      "pergunta": "Em que país fica esta montanha, a mais alta do lugar?",
+      "tipo": "multipla",
+      "resposta": "Nova Zelândia",
+      "distratores": [
+        "Canadá",
+        "Chile",
+        "Suíça"
+      ],
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Monte Cook (Aoraki)",
+        "descricao": "Montanha mais alta da Nova Zelândia, nos Alpes do Sul, na Ilha Sul.",
+        "variantes": [
+          "Aoraki",
+          "Mount Cook",
+          "Aoraki / Mount Cook"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Duna de areia com ondulações, clara e legível.",
+      "pergunta": "Que forma de relevo é esta?",
+      "tipo": "multipla",
+      "resposta": "Duna",
+      "distratores": [
+        "Mesa",
+        "Cânion",
+        "Planalto"
+      ],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Duna",
+        "descricao": "Forma de relevo composta de areia movida pelo vento ou pela água, comum em desertos.",
+        "variantes": [
+          "Dune"
+        ]
+      }
+    }
+  ]
+}

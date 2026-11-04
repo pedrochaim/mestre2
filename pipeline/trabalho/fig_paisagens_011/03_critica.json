@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pista. Distratores do mesmo tipo e nenhum também correto (a estalagmite sobe do chão, a estalactite pende do teto).",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Colômbia está nos trechos. O enunciado não entrega a resposta. Distratores são países vizinhos e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "\"Massa de gelo flutuante\" é a definição de iceberg, então o enunciado responde sozinho (imagem coberta). O distrator \"Geleira\" também é defensável, porque a Wikipédia em português trata \"geleira\" como sinônimo de iceberg. Não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma a ilha Maurício. \"País insular do Índico\" ajuda sem entregar a resposta. Distratores são ilhas ou países do Índico, e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zacinto está no trecho. O enunciado não entrega a resposta. Distratores são ilhas gregas e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"A mais alta do lugar\" é vago e estranho para voz, e \"lugar\" não diz de qual recorte se fala. Uma pergunta limpa de lugar resolve, sem pista extra.",
+      "reescrita": {
+        "pergunta": "Em que país fica esta montanha?",
+        "resposta": "Nova Zelândia",
+        "distratores": [
+          "Canadá",
+          "Chile",
+          "Suíça"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista. Distratores são formas de relevo do mesmo tipo e nenhum descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}

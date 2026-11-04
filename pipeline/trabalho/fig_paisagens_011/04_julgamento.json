@@ -1,0 +1,379 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Estalactite",
+        "descricao": "Formação mineral que pende do teto de cavernas, oposta à estalagmite.",
+        "variantes": [
+          "Stalactite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estalactite",
+          "nome": "Estalactite",
+          "descricao": "Formação mineral que pende do teto de cavernas, depositada pela água que goteja.",
+          "variantes": [
+            "Stalactite"
+          ]
+        },
+        {
+          "id": "estalagmite",
+          "nome": "Estalagmite",
+          "descricao": "Formação rochosa que cresce do chão de uma caverna pelo acúmulo de material gotejado do teto.",
+          "variantes": [
+            "Stalagmite"
+          ]
+        },
+        {
+          "id": "malaquita",
+          "nome": "Malaquita",
+          "descricao": "Mineral de carbonato hidróxido de cobre, verde e bandado, de fórmula Cu2CO3(OH)2.",
+          "variantes": [
+            "Malachite"
+          ]
+        },
+        {
+          "id": "petalita",
+          "nome": "Petalita",
+          "descricao": "Mineral de silicato de lítio e alumínio, descrito por José Bonifácio na ilha sueca de Utö por volta de 1800.",
+          "variantes": [
+            "Petalite",
+            "Castorita"
+          ]
+        },
+        {
+          "id": "afogamento_xadrez",
+          "nome": "Afogamento (xadrez)",
+          "descricao": "Situação do xadrez em que o jogador da vez não está em xeque mas não tem nenhum lance legal.",
+          "variantes": [
+            "Stalemate",
+            "Rei afogado"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Caño Cristales",
+        "descricao": "Rio da Serranía de la Macarena, na Colômbia, conhecido como Rio das Cinco Cores por causa das plantas do leito.",
+        "variantes": [
+          "Rio das Cinco Cores",
+          "Arco-íris Líquido"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cano_cristales",
+          "nome": "Caño Cristales",
+          "descricao": "Rio da serra de La Macarena, na Colômbia, conhecido como rio de cinco cores.",
+          "variantes": [
+            "Rio de Cinco Cores",
+            "Rio Arco-Íris"
+          ]
+        },
+        {
+          "id": "caverna_dos_cristais",
+          "nome": "Caverna dos Cristais",
+          "descricao": "Caverna na mina de Naica, no estado de Chihuahua, com cristais gigantes de gipsita e calor extremo.",
+          "variantes": [
+            "Cueva de los Cristales",
+            "Cave of the Crystals",
+            "Caverna dos Cristais de Naica",
+            "Caverna de Naica"
+          ]
+        },
+        {
+          "id": "bic_cristal",
+          "nome": "BIC Cristal",
+          "descricao": "Caneta esferográfica descartável de corpo transparente lançada pela empresa francesa BIC em 1950.",
+          "variantes": [
+            "Caneta BIC"
+          ]
+        },
+        {
+          "id": "pavao",
+          "nome": "Pavão",
+          "descricao": "Pavão-azul, ave originária do subcontinente indiano, cujo macho tem longa cauda com ocelos.",
+          "variantes": [
+            "Pavão-azul",
+            "Pavão-indiano",
+            "Pavo cristatus"
+          ]
+        },
+        {
+          "id": "rio_branco",
+          "nome": "Rio Branco",
+          "descricao": "Capital do estado do Acre, às margens do rio Acre.",
+          "variantes": [
+            "Rio Branco (Acre)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Le Morne Brabant",
+        "descricao": "Monólito basáltico de 556 metros numa península no extremo sudoeste da ilha Maurício.",
+        "variantes": [
+          "Morne Brabant",
+          "Le Morne"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_mundo_descartes",
+          "nome": "O Mundo (Descartes)",
+          "descricao": "Tratado de física de René Descartes, concluído por volta de 1633 e publicado só após sua morte.",
+          "variantes": [
+            "Le Monde",
+            "Tratado do Mundo e da Luz"
+          ]
+        },
+        {
+          "id": "monte_alban",
+          "nome": "Monte Albán",
+          "descricao": "Sítio arqueológico zapoteca no vale de Oaxaca, México.",
+          "variantes": []
+        },
+        {
+          "id": "monte_ararat",
+          "nome": "Monte Ararat",
+          "descricao": "Vulcão adormecido no leste da Turquia, perto das fronteiras com a Armênia e o Irã.",
+          "variantes": [
+            "Ararat",
+            "Ağrı Dağı",
+            "Mount Ararat"
+          ]
+        },
+        {
+          "id": "mont_blanc",
+          "nome": "Mont Blanc",
+          "descricao": "Montanha mais alta dos Alpes, no maciço do Mont Blanc, na fronteira entre França e Itália.",
+          "variantes": [
+            "Monte Branco",
+            "Monte Bianco"
+          ]
+        },
+        {
+          "id": "lemure",
+          "nome": "Lêmure",
+          "descricao": "Primatas da infraordem Lemuriformes, nativos de Madagascar.",
+          "variantes": [
+            "Lemur",
+            "Lemuriformes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Praia de Navagio",
+        "descricao": "Enseada com um navio naufragado na costa da ilha de Zacinto, na Grécia.",
+        "variantes": [
+          "Praia do Naufrágio",
+          "Navagio Beach",
+          "Shipwreck Beach"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "praca_de_maio",
+          "nome": "Praça de Maio",
+          "descricao": "Praça central de Buenos Aires, diante da Casa Rosada, palco de grandes manifestações políticas argentinas.",
+          "variantes": [
+            "Plaza de Mayo"
+          ]
+        },
+        {
+          "id": "arpoador",
+          "nome": "Arpoador",
+          "descricao": "Pequena península rochosa entre as praias de Ipanema e Copacabana, no Rio de Janeiro.",
+          "variantes": [
+            "Pedra do Arpoador",
+            "Praia do Arpoador"
+          ]
+        },
+        {
+          "id": "mingau",
+          "nome": "Mingau",
+          "descricao": "Preparação semissólida de cereais cozidos em leite ou água, aqui de aveia com leite.",
+          "variantes": [
+            "Porridge",
+            "Papa de aveia"
+          ]
+        },
+        {
+          "id": "praia_da_pipa",
+          "nome": "Praia da Pipa",
+          "descricao": "Famosa praia de Tibau do Sul, no litoral sul do Rio Grande do Norte, a cerca de 85 km de Natal.",
+          "variantes": [
+            "Praia de Pipa",
+            "Pipa"
+          ]
+        },
+        {
+          "id": "praia_do_forte",
+          "nome": "Praia do Forte",
+          "descricao": "Praia e vila no município de Mata de São João, Bahia, a cerca de 80 km de Salvador.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Monte Cook (Aoraki)",
+        "descricao": "Montanha mais alta da Nova Zelândia, nos Alpes do Sul, na Ilha Sul.",
+        "variantes": [
+          "Aoraki",
+          "Mount Cook",
+          "Aoraki / Mount Cook"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_cook_aoraki",
+          "nome": "Monte Cook (Aoraki)",
+          "descricao": "Montanha mais alta da Nova Zelândia, com 3724 metros, nos Alpes do Sul da Ilha Sul.",
+          "variantes": [
+            "Aoraki",
+            "Mount Cook",
+            "Aoraki / Mount Cook"
+          ]
+        },
+        {
+          "id": "larry",
+          "nome": "Larry",
+          "descricao": "Líder do ginásio de tipo Normal de Medali e membro da Elite dos Quatro de Paldea, nos jogos Pokémon Scarlet e Violet.",
+          "variantes": [
+            "Aoki"
+          ]
+        },
+        {
+          "id": "mt_moon",
+          "nome": "Mt. Moon",
+          "descricao": "Montanha com cavernas entre Pewter e Cerulean, em Kanto, nos jogos Pokémon Red e Blue, famosa pelos Clefairy e pelos fósseis.",
+          "variantes": [
+            "Monte Lua",
+            "Mount Moon"
+          ]
+        },
+        {
+          "id": "conde_dookan",
+          "nome": "Conde Dookan",
+          "descricao": "Lorde Sith da franquia Star Wars, vilão de O Ataque dos Clones e A Vingança dos Sith.",
+          "variantes": [
+            "Count Dooku",
+            "Darth Tyranus"
+          ]
+        },
+        {
+          "id": "monte_caburai",
+          "nome": "Monte Caburaí",
+          "descricao": "Monte em Roraima, na fronteira com a Guiana, ponto extremo norte do Brasil.",
+          "variantes": [
+            "Caburaí"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Duna",
+        "descricao": "Forma de relevo composta de areia movida pelo vento ou pela água, comum em desertos.",
+        "variantes": [
+          "Dune"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "duna",
+          "nome": "Duna",
+          "descricao": "Elevação de areia acumulada e moldada pelo vento ou pela água, comum em desertos.",
+          "variantes": [
+            "Dunas",
+            "Duna de areia"
+          ]
+        },
+        {
+          "id": "dunga",
+          "nome": "Dunga",
+          "descricao": "Ex-volante e técnico brasileiro, capitão da seleção campeã do mundo em 1994.",
+          "variantes": [
+            "Carlos Caetano Bledorn Verri"
+          ]
+        },
+        {
+          "id": "idun",
+          "nome": "Idun",
+          "descricao": "Deusa nórdica que guarda os frutos que mantêm os deuses jovens.",
+          "variantes": [
+            "Iðunn",
+            "Idunn",
+            "Iduna"
+          ]
+        },
+        {
+          "id": "dna",
+          "nome": "DNA",
+          "descricao": "Molécula que carrega as informações genéticas dos seres vivos.",
+          "variantes": [
+            "ADN",
+            "Ácido desoxirribonucleico"
+          ]
+        },
+        {
+          "id": "atum",
+          "nome": "Atum",
+          "descricao": "Peixe oceânico veloz da tribo Thunnini, de corpo fusiforme, muito usado na alimentação.",
+          "variantes": [
+            "Thunnus",
+            "Tuna"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "estalactite",
+      "motivo": "Mesma formação mineral pendente do teto de cavernas."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "cano_cristales",
+      "motivo": "Mesmo rio colombiano da Serranía de la Macarena, conhecido como rio das cinco cores."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o monólito de Maurício; são entidades distintas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Praia grega de Zacinto não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "monte_cook_aoraki",
+      "motivo": "Mesma montanha mais alta da Nova Zelândia, mesmo nome e variantes."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "duna",
+      "motivo": "Mesmo conceito de relevo de areia moldado pelo vento."
+    }
+  ]
+}
