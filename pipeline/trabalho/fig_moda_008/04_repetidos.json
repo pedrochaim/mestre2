@@ -1,0 +1,66 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que peça de vestuário é esta?",
+        "resposta": "Meia"
+      },
+      "existentes": [
+        {
+          "id": "q15855",
+          "pergunta": "Que peça de vestuário é esta?",
+          "resposta": "Meia"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que tipo de casaco de frio é este?",
+        "resposta": "Parka"
+      },
+      "existentes": [
+        {
+          "id": "q16309",
+          "pergunta": "Que tipo de casaco de frio é este?",
+          "resposta": "Parca"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que calçado é este?",
+        "resposta": "Alpargata"
+      },
+      "existentes": [
+        {
+          "id": "q15086",
+          "pergunta": "Que calçado é este?",
+          "resposta": "Alpargata"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e mesma resposta (meia), pergunta com imagem idêntica.",
+      "id_existente": "q15855"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo enunciado e mesma resposta; parka e parca são variantes ortográficas da mesma peça.",
+      "id_existente": "q16309"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo enunciado e mesma resposta (alpargata).",
+      "id_existente": "q15086"
+    }
+  ]
+}

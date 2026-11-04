@@ -1,0 +1,210 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto de modelo anônimo em primeiro plano (queixo e boca visíveis), pessoa comum; o recorte fechado também dificulta a pergunta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Casaco de veludo vermelho em museu, textura inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tecido, de pelo denso e macio, forma esta peça?",
+      "resposta": "Veludo",
+      "distratores": [
+        "Cetim",
+        "Tafetá",
+        "Feltro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Veludo",
+        "descricao": "Tecido tecido com pelo denso e uniforme, de toque macio, historicamente feito de seda.",
+        "variantes": [
+          "Velvet"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Obi grande e decorado amarrado às costas de um quimono; modelo de costas, sem rosto; peça bem visível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Como se chama a faixa larga amarrada na cintura deste quimono?",
+      "resposta": "Obi",
+      "distratores": [
+        "Haori",
+        "Hakama",
+        "Tabi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Obi",
+        "descricao": "Faixa usada na cintura com o quimono e outras vestes tradicionais japonesas.",
+        "variantes": [
+          "Faixa de quimono"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Par de meias listradas de tricô, nítido, fundo branco; a régua não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que peça de vestuário é esta?",
+      "resposta": "Meia",
+      "distratores": [
+        "Polaina",
+        "Pantufa",
+        "Sapatilha de lã"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Meia",
+        "descricao": "Peça de vestuário usada nos pés, geralmente sob sapatos.",
+        "variantes": [
+          "Meias"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "É um desenho a nanquim, não uma foto; gargantilha podia ser fotografada, e o traço esquemático dificulta o reconhecimento."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Retrato de pessoa comum em primeiro plano, com o rosto bem visível."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto de uma criança pequena, pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Casaco militar verde com capuz forrado de pelo, em fundo branco, nítido e sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de casaco de frio é este?",
+      "resposta": "Parka",
+      "distratores": [
+        "Anorak",
+        "Peacoat",
+        "Trench coat"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Parka",
+        "descricao": "Casaco de frio com capuz, muitas vezes forrado de pelo, de origem inuíte.",
+        "variantes": [
+          "Parca"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Chapéu homburg cinza com fita larga e aba enrolada, bem visível; a bengala ao lado não confunde a pergunta pelo chapéu.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que chapéu de feltro, com vinco no centro da copa, é este?",
+      "resposta": "Chapéu homburg",
+      "distratores": [
+        "Chapéu-coco",
+        "Cartola",
+        "Chapéu de palheta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chapéu homburg",
+        "descricao": "Chapéu semiformal de feltro com um vinco central na copa, fita larga de gorgorão e aba plana com borda enrolada.",
+        "variantes": [
+          "Homburg"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Mãos com agulha de crochê trabalhando uma peça circular; só mãos, a técnica é reconhecível pelo gancho.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que técnica artesanal com fio é esta?",
+      "resposta": "Crochê",
+      "distratores": [
+        "Tricô",
+        "Macramê",
+        "Tear manual"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Crochê",
+        "descricao": "Técnica de criar tecidos entrelaçando laçadas de fio com uma agulha em forma de gancho.",
+        "variantes": [
+          "Crochet"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Par de alpargatas de lona com sola de corda, em fundo preto, bem reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que calçado é este?",
+      "resposta": "Alpargata",
+      "distratores": [
+        "Mocassim",
+        "Sapatilha",
+        "Tênis de lona"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alpargata",
+        "descricao": "Calçado leve de lona com sola de corda trançada, típico do verão espanhol.",
+        "variantes": [
+          "Alpercata",
+          "Espadrille"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Sapato social marrom com duas fivelas, nítido, fundo neutro, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de sapato social é este?",
+      "resposta": "Sapato monk",
+      "distratores": [
+        "Sapato Oxford",
+        "Sapato Derby",
+        "Mocassim loafer"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sapato monk",
+        "descricao": "Sapato social sem cadarço, fechado por uma ou mais fivelas e tiras.",
+        "variantes": [
+          "Monk strap",
+          "Monk shoe"
+        ]
+      }
+    }
+  ]
+}

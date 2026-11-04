@@ -1,0 +1,100 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pelo denso e macio' é a definição do veludo e permite responder sem ver a figura. Remover a pista.",
+      "reescrita": {
+        "pergunta": "Que tecido forma esta peça?",
+        "resposta": "Veludo",
+        "distratores": [
+          "Cetim",
+          "Tafetá",
+          "Feltro"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Faixa larga amarrada na cintura do quimono' descreve a função do obi e entrega a resposta sem a imagem.",
+      "reescrita": {
+        "pergunta": "Que peça da indumentária tradicional japonesa é esta?",
+        "resposta": "Obi",
+        "distratores": [
+          "Haori",
+          "Hakama",
+          "Tabi"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de nível 1, sem pista, com distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Anorak é muito próximo da parka (as fontes dizem que há poucas diferenças), então pode ser defensável diante da imagem. Troquei o distrator.",
+      "reescrita": {
+        "pergunta": "Que tipo de casaco de frio é este?",
+        "resposta": "Parka",
+        "distratores": [
+          "Peacoat",
+          "Trench coat",
+          "Blusão bomber"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O vinco central na copa é a característica definidora do homburg, e a pista entrega a resposta a quem conhece o chapéu. Remover.",
+      "reescrita": {
+        "pergunta": "Que chapéu masculino semiformal é este?",
+        "resposta": "Chapéu homburg",
+        "distratores": [
+          "Chapéu-coco",
+          "Cartola",
+          "Chapéu de palheta"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não entrega a resposta. Os distratores são técnicas têxteis plausíveis e nenhum está certo.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia descreve a alpargata como 'calçado do tipo tênis, em lona', então 'Tênis de lona' também é defensável. Troquei o distrator.",
+      "reescrita": {
+        "pergunta": "Que calçado é este?",
+        "resposta": "Alpargata",
+        "distratores": [
+          "Mocassim",
+          "Sapatilha",
+          "Rasteira de couro"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento. Os distratores são outros sapatos sociais, e nenhum descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}
