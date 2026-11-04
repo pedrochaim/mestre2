@@ -1,0 +1,158 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Close de olho de pessoa comum, com sobrancelha também em destaque; resposta ambígua (cílios ou sobrancelha) e pouco legível."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Erlenmeyer nítido; o texto na vidraria (500 ml, Germany) não entrega o nome.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que vidraria de laboratório é esta?",
+      "resposta": "Erlenmeyer",
+      "distratores": [
+        "Béquer",
+        "Kitassato",
+        "Balão volumétrico"
+      ],
+      "ancora": {
+        "nome": "Erlenmeyer",
+        "descricao": "Vidraria de laboratório de base plana, corpo cônico e gargalo cilíndrico, inventada por Emil Erlenmeyer em 1860.",
+        "variantes": [
+          "Frasco de Erlenmeyer",
+          "Balão de Erlenmeyer",
+          "Frasco cônico"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Desenho com os rótulos SACRUM e VERTEBRAE escritos, que entregam a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A legenda Rectus abdominis está escrita na imagem e entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rocha bruta com veios azul-celeste típicos de turquesa; sem texto. Distratores escolhidos para não serem também corretos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que mineral azul-esverdeado, usado como gema, aparece nesta rocha?",
+      "resposta": "Turquesa",
+      "distratores": [
+        "Malaquita",
+        "Azurita",
+        "Amazonita"
+      ],
+      "ancora": {
+        "nome": "Turquesa",
+        "descricao": "Mineral opaco azul a verde, fosfato hidratado de cobre e alumínio, usado como gema.",
+        "variantes": [
+          "Turquoise"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Ilustração estilizada de bastonetes roxos, sem características que permitam reconhecer o bacilo de Koch; pode ser qualquer bactéria em bastão."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Gravura anatômica antiga mostrando dois fetos no útero; só há um pequeno 'Tab. 119' sem relação com a resposta.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que tipo de gestação esta gravura anatômica antiga mostra?",
+      "resposta": "Gestação de gêmeos",
+      "distratores": [
+        "Gestação de trigêmeos",
+        "Gestação ectópica",
+        "Gravidez molar"
+      ],
+      "ancora": {
+        "nome": "Gêmeos",
+        "descricao": "Dois filhos gerados na mesma gestação, monozigóticos ou dizigóticos.",
+        "variantes": [
+          "Gemelaridade",
+          "Gestação gemelar"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Ilustração limpa, sem texto, do retículo endoplasmático com ribossomos junto ao envoltório nuclear.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que organela celular, que aparece junto ao núcleo, é esta?",
+      "resposta": "Retículo endoplasmático",
+      "distratores": [
+        "Complexo de Golgi",
+        "Mitocôndria",
+        "Lisossomo"
+      ],
+      "ancora": {
+        "nome": "Retículo endoplasmático",
+        "descricao": "Organela das células eucarióticas formada por membranas em rede, contínua ao envoltório nuclear, com porções rugosa e lisa.",
+        "variantes": [
+          "RE",
+          "Retículo endoplasmático rugoso e liso"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto da boca de pessoa comum; a epiglote aparece pequena e pode ser confundida com a úvula, e a imagem é pouco legível."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Várias seringas do mesmo tipo, sem texto que entregue o nome; um único assunto.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que instrumento é este, cujo nome vem da palavra grega para flauta de Pã?",
+      "resposta": "Seringa",
+      "distratores": [
+        "Pipeta",
+        "Bureta",
+        "Conta-gotas"
+      ],
+      "ancora": {
+        "nome": "Seringa",
+        "descricao": "Bomba simples formada por êmbolo dentro de um tubo, usada para injetar ou retirar líquidos.",
+        "variantes": [
+          "Seringa hipodérmica"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Rótulos em francês (Fontanelle...) entregam a resposta; imagem é uma prancha com vários crânios e texto."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e borrada de mineral azul-esverdeado, confundível com turquesa e outros minerais de cobre; resposta não é única."
+    }
+  ]
+}

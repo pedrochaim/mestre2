@@ -362568,5 +362568,80 @@
       "autor": "Autor desconhecido",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q18468",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "erlenmeyer",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que vidraria de laboratório é esta?",
+    "resposta": "Erlenmeyer",
+    "distratores": [
+      "Béquer",
+      "Kitassato",
+      "Balão volumétrico"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Erlenmeyer_flask",
+      "https://pt.wikipedia.org/wiki/Erlenmeyer_%28bal%C3%A3o%29"
+    ],
+    "imagem": {
+      "arquivo": "q18468.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Erlenmeyer_flask_hg.jpg",
+      "autor": "Hannes Grobe 19:04, 3 September 2006 (UTC)",
+      "licenca": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "id": "q18469",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "gemeos",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de gestação esta gravura anatômica antiga mostra?",
+    "resposta": "Gestação de gêmeos",
+    "distratores": [
+      "Gestação de trigêmeos",
+      "Gestação ectópica",
+      "Gravidez molar"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Twin",
+      "https://pt.wikipedia.org/wiki/G%C3%AAmeos"
+    ],
+    "imagem": {
+      "arquivo": "q18469.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:A_cross-section_of_a_pregnant_uterus_containing_twins._Engra_Wellcome_V0014950.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q18470",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "reticulo_endoplasmatico",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que organela celular, que aparece junto ao núcleo, é esta?",
+    "resposta": "Retículo endoplasmático",
+    "distratores": [
+      "Complexo de Golgi",
+      "Mitocôndria",
+      "Lisossomo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Endoplasmic_reticulum",
+      "https://pt.wikipedia.org/wiki/Ret%C3%ADculo_endoplasm%C3%A1tico"
+    ],
+    "imagem": {
+      "arquivo": "q18470.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:201601_Endoplasmic_reticulum.png",
+      "autor": "DataBase Center for Life Science (DBCLS)",
+      "licenca": "CC BY 4.0"
+    }
   }
 ]

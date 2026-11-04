@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que mineral é este?",
+        "resposta": "Turquesa"
+      },
+      "existentes": [
+        {
+          "id": "q13966",
+          "pergunta": "Que mineral, usado como gema, é este, ainda em estado bruto?",
+          "resposta": "Turquesa"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q13966",
+      "motivo": "Ambas pedem a identificação do mesmo mineral (turquesa) a partir de imagem; quem soubesse uma saberia a outra."
+    }
+  ]
+}

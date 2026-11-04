@@ -1,0 +1,47 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado genérico, sem pista que entregue a resposta. Distratores do mesmo tipo e todos errados para a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista \"azul-esverdeado, usado como gema\" não é exclusiva: a amazonita, um dos distratores, também é uma gema azul-esverdeada. A pista também entrega quase a resposta. \"Nesta rocha\" não consta em `mostra`. Basta pedir o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que mineral é este?",
+        "resposta": "Turquesa",
+        "distratores": [
+          "Malaquita",
+          "Azurita",
+          "Amazonita"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gêmeos são dois filhos da mesma gestação, como dizem os trechos. O enunciado não entrega a resposta, e os distratores são tipos de gestação distintos e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O retículo endoplasmático se comunica com o envoltório nuclear, então \"junto ao núcleo\" é verdadeiro e não entrega a resposta. Distratores são organelas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A pista etimológica (\"flauta de Pã\", do grego syrinx) entrega a resposta sem olhar a figura, pois leva direto a \"seringa\". O trecho fala só em \"caniço, canudo\", e a ligação com a flauta de Pã vem de conhecimento externo. Sem conserto simples.",
+      "reescrita": null
+    }
+  ]
+}
