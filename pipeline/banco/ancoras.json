@@ -12763,7 +12763,8 @@
     "descricao": "Frade agostiniano austríaco, fundador da genética pelos experimentos com ervilhas.",
     "variantes": [
       "Gregor Johann Mendel",
-      "Mendel"
+      "Mendel",
+      "Johann Gregor Mendel"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Gregor_Mendel",
@@ -41711,7 +41712,8 @@
     "nome": "Cloroplasto",
     "descricao": "Organela de células vegetais e de algas que realiza a fotossíntese, rica em clorofila.",
     "variantes": [
-      "Cloroplastos"
+      "Cloroplastos",
+      "Chloroplast"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Chloroplast",
@@ -43171,7 +43173,8 @@
     "nome": "Alfred Russel Wallace",
     "descricao": "Naturalista britânico do século dezenove que explorou a Amazônia e o arquipélago Malaio.",
     "variantes": [
-      "Alfred Wallace"
+      "Alfred Wallace",
+      "Wallace"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace"
@@ -74918,7 +74921,8 @@
     "nome": "Rosalind Franklin",
     "descricao": "Química e cristalógrafa britânica (1920–1958) cujas imagens de raios X ajudaram a revelar a estrutura do DNA.",
     "variantes": [
-      "Rosalind Elsie Franklin"
+      "Rosalind Elsie Franklin",
+      "Franklin"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Rosalind_Franklin"
@@ -190263,7 +190267,8 @@
     "nome": "Francis Crick",
     "descricao": "Biólogo molecular britânico, co-descobridor da estrutura helicoidal do DNA e Nobel de 1962.",
     "variantes": [
-      "Francis Harry Compton Crick"
+      "Francis Harry Compton Crick",
+      "Crick"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Francis_Crick",
@@ -222676,5 +222681,67 @@
       "pt": 21,
       "en": 598
     }
+  },
+  {
+    "id": "meiose",
+    "nome": "Meiose",
+    "descricao": "Divisão celular que reduz pela metade o número de cromossomos e dá origem aos gametas.",
+    "variantes": [
+      "Meiosis"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Meiosis",
+      "https://pt.wikipedia.org/wiki/Meiose"
+    ]
+  },
+  {
+    "id": "eucarionte",
+    "nome": "Eucarionte",
+    "descricao": "Organismo cujas células têm núcleo delimitado por membrana, como animais, plantas, fungos e protistas.",
+    "variantes": [
+      "Eucarioto",
+      "Eukaryote"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Eukaryote",
+      "https://pt.wikipedia.org/wiki/Eucarionte"
+    ]
+  },
+  {
+    "id": "apoptose",
+    "nome": "Apoptose",
+    "descricao": "Morte celular programada, processo controlado pelo qual a célula se autodestrói.",
+    "variantes": [
+      "Apoptosis",
+      "Morte celular programada"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Apoptosis",
+      "https://pt.wikipedia.org/wiki/Apoptose"
+    ]
+  },
+  {
+    "id": "gemeos_identicos",
+    "nome": "Gêmeos idênticos",
+    "descricao": "Gêmeos monozigóticos, formados a partir de um único óvulo fecundado que se divide em dois embriões.",
+    "variantes": [
+      "Gêmeos monozigóticos",
+      "Gêmeos univitelinos"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Twin"
+    ]
+  },
+  {
+    "id": "membrana_plasmatica",
+    "nome": "Membrana plasmática",
+    "descricao": "Membrana que envolve a célula e controla a passagem de substâncias entre o interior e o exterior.",
+    "variantes": [
+      "Membrana celular",
+      "Cell membrane"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cell_membrane"
+    ]
   }
 ]

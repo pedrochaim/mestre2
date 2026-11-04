@@ -1,0 +1,989 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O genoma humano herdado de cada um dos pais tem cerca de quantos pares de bases de DNA?",
+        "resposta": "Cerca de 3 bilhões"
+      },
+      "existentes": [
+        {
+          "id": "q05036",
+          "pergunta": "Em 1920, o botânico alemão Hans Winkler criou a palavra genoma juntando gene com qual outra palavra?",
+          "resposta": "Cromossomo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A primeira edição de A Origem das Espécies, de Darwin, trazia quantas ilustrações?",
+        "resposta": "Apenas uma"
+      },
+      "existentes": [
+        {
+          "id": "q03839",
+          "pergunta": "Darwin passou cerca de vinte anos sem publicar sua teoria. Em 1858, o que o fez finalmente se apressar a divulgá-la?",
+          "resposta": "Wallace chegou à mesma ideia"
+        },
+        {
+          "id": "q03859",
+          "pergunta": "Em que ano Charles Darwin publicou A Origem das Espécies?",
+          "resposta": "1859"
+        },
+        {
+          "id": "q07466",
+          "pergunta": "A primeira edição de A Origem das Espécies, de 1859, foi toda vendida às livrarias logo no lançamento. Quantos exemplares ela tinha?",
+          "resposta": "1 250 exemplares"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A mosca-da-fruta, estrela dos laboratórios de genética, tem quantos pares de cromossomos?",
+        "resposta": "Quatro pares"
+      },
+      "existentes": [
+        {
+          "id": "q03829",
+          "pergunta": "O nome da mosca dos laboratórios de genética, Drosophila melanogaster, significa amante do orvalho de barriga de que cor?",
+          "resposta": "Preta"
+        },
+        {
+          "id": "q05012",
+          "pergunta": "Que geneticista americano, Nobel de Medicina de 1933, usou moscas-da-fruta para mostrar que os genes ficam nos cromossomos?",
+          "resposta": "Thomas Hunt Morgan"
+        },
+        {
+          "id": "q08675",
+          "pergunta": "Que mosca é esta?",
+          "resposta": "Mosca-das-frutas"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em condições ideais de laboratório, a bactéria Escherichia coli se divide em duas a cada quanto tempo?",
+        "resposta": "Cerca de 20 minutos"
+      },
+      "existentes": [
+        {
+          "id": "q01864",
+          "pergunta": "Que formato têm estas bactérias?",
+          "resposta": "Bacilos (em bastão)"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Os microscópios de uma lente só de Leeuwenhoek que sobreviveram até hoje ampliam até cerca de quantas vezes?",
+        "resposta": "Cerca de 275 vezes"
+      },
+      "existentes": [
+        {
+          "id": "q03618",
+          "pergunta": "Os microscópios com que o holandês Antonie van Leeuwenhoek observou bactérias, no século dezessete, tinham quantas lentes?",
+          "resposta": "Uma só"
+        },
+        {
+          "id": "q03834",
+          "pergunta": "No século dezessete, como o holandês Leeuwenhoek chamou os seres minúsculos que via em seus microscópios caseiros?",
+          "resposta": "Animálculos"
+        },
+        {
+          "id": "q04528",
+          "pergunta": "Quem é este holandês do século dezessete?",
+          "resposta": "Antonie van Leeuwenhoek"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Os sessenta e quatro códons do código genético correspondem a quantos aminoácidos padrão, usados para montar as proteínas?",
+        "resposta": "Vinte"
+      },
+      "existentes": [
+        {
+          "id": "q03864",
+          "pergunta": "Quantos códons diferentes formam o código genético?",
+          "resposta": "64"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "A usina de energia da célula, a mitocôndria, é envolvida por quantas membranas?",
+        "resposta": "Duas"
+      },
+      "existentes": [
+        {
+          "id": "q02707",
+          "pergunta": "Que organela da célula é esta, vista ao microscópio eletrônico?",
+          "resposta": "Mitocôndria"
+        },
+        {
+          "id": "q03825",
+          "pergunta": "O nome mitocôndria junta duas palavras gregas. Quais são elas?",
+          "resposta": "Fio e grânulo"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Nós temos dois cromossomos sexuais em cada célula. Quantos cromossomos sexuais tem o ornitorrinco?",
+        "resposta": "Dez"
+      },
+      "existentes": [
+        {
+          "id": "q00276",
+          "pergunta": "Por causa do bico achatado, o ornitorrinco recebeu um nome grego que significa focinho de que tipo de animal?",
+          "resposta": "Ave"
+        },
+        {
+          "id": "q07928",
+          "pergunta": "Em 1799, ao fazer a primeira descrição científica do ornitorrinco, que zoólogo britânico chegou a suspeitar que o exemplar fosse uma montagem falsa?",
+          "resposta": "George Shaw"
+        },
+        {
+          "id": "q15480",
+          "pergunta": "Que animal é este?",
+          "resposta": "Ornitorrinco"
+        },
+        {
+          "id": "q17805",
+          "pergunta": "O macho do ornitorrinco é um dos raros mamíferos venenosos. Em que parte do corpo fica o esporão que injeta o veneno?",
+          "resposta": "Patas traseiras"
+        },
+        {
+          "id": "q17812",
+          "pergunta": "Sem mamilos, como a fêmea do ornitorrinco oferece leite aos filhotes?",
+          "resposta": "Por poros na barriga"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Quantos anos tinha Charles Darwin quando partiu na viagem do Beagle, no fim de 1831?",
+        "resposta": "Vinte e dois"
+      },
+      "existentes": [
+        {
+          "id": "q00866",
+          "pergunta": "Que naturalista é este?",
+          "resposta": "Charles Darwin"
+        },
+        {
+          "id": "q02813",
+          "pergunta": "O que o naturalista Charles Darwin e o presidente americano Abraham Lincoln têm em comum?",
+          "resposta": "Nasceram no mesmo dia"
+        },
+        {
+          "id": "q05031",
+          "pergunta": "Apesar da polêmica religiosa causada por suas ideias, onde Charles Darwin foi sepultado em 1882?",
+          "resposta": "Abadia de Westminster"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O DNA é um ácido desoxirribonucleico. A que parte da molécula ele deve o nome de ácido?",
+        "resposta": "Aos grupos fosfato"
+      },
+      "existentes": [
+        {
+          "id": "q00640",
+          "pergunta": "Em 1953, com base em imagens obtidas por Rosalind Franklin, que dupla de cientistas propôs a estrutura em dupla hélice do DNA?",
+          "resposta": "James Watson e Francis Crick"
+        },
+        {
+          "id": "q00647",
+          "pergunta": "O código genético do DNA é escrito com quatro bases: adenina, timina, citosina e qual outra?",
+          "resposta": "Guanina"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O nome ribossomo junta ribo, de ácido ribonucleico, com uma palavra grega que significa o quê?",
+        "resposta": "Corpo"
+      },
+      "existentes": [
+        {
+          "id": "q11450",
+          "pergunta": "Os ribossomos, as fábricas de proteínas da célula, são feitos de proteínas e de qual outra molécula?",
+          "resposta": "RNA (RNA ribossômico)"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "O nome clorofila, o pigmento que capta a luz na fotossíntese, vem do grego e significa o quê?",
+        "resposta": "Folha verde"
+      },
+      "existentes": [
+        {
+          "id": "q03836",
+          "pergunta": "A clorofila capta luz para a fotossíntese. Por que, então, as folhas que a contêm parecem verdes?",
+          "resposta": "Ela absorve pouco a luz verde"
+        },
+        {
+          "id": "q09429",
+          "pergunta": "No centro da molécula de clorofila, o pigmento verde das plantas, fica um átomo de que metal?",
+          "resposta": "Magnésio"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Pela ferocidade com que defendia a teoria da evolução, o biólogo inglês Thomas Huxley ganhou qual apelido?",
+        "resposta": "Buldogue de Darwin"
+      },
+      "existentes": [
+        {
+          "id": "q02792",
+          "pergunta": "Por defender com unhas e dentes a teoria da evolução no século dezenove, o biólogo inglês Thomas Huxley ganhou que apelido?",
+          "resposta": "Buldogue de Darwin"
+        },
+        {
+          "id": "q07480",
+          "pergunta": "Que parentesco ligava o biólogo Thomas Huxley, defensor de Darwin, ao escritor Aldous Huxley, autor de Admirável Mundo Novo?",
+          "resposta": "Era seu avô"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Ao entrar no mosteiro, o frade das ervilhas adotou o nome Gregor. Qual era o seu nome de batismo?",
+        "resposta": "Johann"
+      },
+      "existentes": [
+        {
+          "id": "q00864",
+          "pergunta": "Que monge e cientista é este?",
+          "resposta": "Gregor Mendel"
+        },
+        {
+          "id": "q03863",
+          "pergunta": "Em que cidade, hoje na República Tcheca, ficava o mosteiro onde Mendel cruzou suas ervilhas?",
+          "resposta": "Brno"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "O vírus que infecta bactérias se chama bacteriófago. O que significa, em grego, a parte fago desse nome?",
+        "resposta": "Comer, devorar"
+      },
+      "existentes": [
+        {
+          "id": "q02710",
+          "pergunta": "Que tipo de vírus é este?",
+          "resposta": "Bacteriófago"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "O vacúolo, organela que armazena água nas células das plantas, tem um nome de origem latina. O que ele significa?",
+        "resposta": "Vazio"
+      },
+      "existentes": [
+        {
+          "id": "q11438",
+          "pergunta": "Nas células das plantas, qual organela cheia de líquido costuma ser a maior de todas, ocupando boa parte do volume da célula?",
+          "resposta": "Vacúolo"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Charles Darwin nasceu em 12 de fevereiro de 1809, exatamente no mesmo dia que qual presidente americano?",
+        "resposta": "Abraham Lincoln"
+      },
+      "existentes": [
+        {
+          "id": "q00866",
+          "pergunta": "Que naturalista é este?",
+          "resposta": "Charles Darwin"
+        },
+        {
+          "id": "q02813",
+          "pergunta": "O que o naturalista Charles Darwin e o presidente americano Abraham Lincoln têm em comum?",
+          "resposta": "Nasceram no mesmo dia"
+        },
+        {
+          "id": "q05031",
+          "pergunta": "Apesar da polêmica religiosa causada por suas ideias, onde Charles Darwin foi sepultado em 1882?",
+          "resposta": "Abadia de Westminster"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "O famoso desenho da dupla hélice, publicado com o artigo de 1953, foi feito por qual pessoa ligada a Francis Crick?",
+        "resposta": "A esposa, Odile"
+      },
+      "existentes": [
+        {
+          "id": "q15207",
+          "pergunta": "Quem é este biólogo molecular britânico?",
+          "resposta": "Francis Crick"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Depois de estudar o DNA, Rosalind Franklin dedicou seus últimos anos à estrutura de qual vírus de plantas?",
+        "resposta": "Mosaico do tabaco"
+      },
+      "existentes": [
+        {
+          "id": "q05041",
+          "pergunta": "Por que Rosalind Franklin não dividiu com Watson, Crick e Wilkins o Nobel de 1962 pela estrutura do DNA?",
+          "resposta": "Já tinha morrido, em 1958"
+        },
+        {
+          "id": "q09681",
+          "pergunta": "Que cientista inglesa do século vinte é esta?",
+          "resposta": "Rosalind Franklin"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Um neto de Thomas Huxley, o defensor de Darwin, escreveu qual famoso romance distópico, publicado em 1932?",
+        "resposta": "Admirável Mundo Novo"
+      },
+      "existentes": [
+        {
+          "id": "q02792",
+          "pergunta": "Por defender com unhas e dentes a teoria da evolução no século dezenove, o biólogo inglês Thomas Huxley ganhou que apelido?",
+          "resposta": "Buldogue de Darwin"
+        },
+        {
+          "id": "q07480",
+          "pergunta": "Que parentesco ligava o biólogo Thomas Huxley, defensor de Darwin, ao escritor Aldous Huxley, autor de Admirável Mundo Novo?",
+          "resposta": "Era seu avô"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Robert FitzRoy, o capitão do Beagle na viagem de Darwin, ficou famoso depois como pioneiro de quê?",
+        "resposta": "Previsão do tempo"
+      },
+      "existentes": [
+        {
+          "id": "q03833",
+          "pergunta": "O navio Beagle, em que Darwin deu a volta ao mundo, recebeu esse nome em referência a quê?",
+          "resposta": "Uma raça de cão"
+        },
+        {
+          "id": "q05021",
+          "pergunta": "No fim de fevereiro de 1832, o Beagle chegou a uma cidade brasileira onde Darwin escreveu maravilhado sobre a floresta tropical. Que cidade?",
+          "resposta": "Salvador"
+        },
+        {
+          "id": "q05045",
+          "pergunta": "A viagem do Beagle com Darwin estava planejada para durar dois anos. Quanto tempo ela acabou durando?",
+          "resposta": "Quase cinco anos"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "No início de 1953, qual químico americano, rival de Watson e Crick, propôs um modelo errado do DNA em tripla hélice?",
+        "resposta": "Linus Pauling"
+      },
+      "existentes": [
+        {
+          "id": "q05003",
+          "pergunta": "Em 1953, na Universidade de Cambridge, que dupla de cientistas propôs o modelo em dupla hélice para a molécula de DNA?",
+          "resposta": "James Watson e Francis Crick"
+        },
+        {
+          "id": "q05004",
+          "pergunta": "O modelo da dupla hélice do DNA foi publicado no ano da coroação de Elizabeth Segunda e da primeira escalada do Everest. Que ano?",
+          "resposta": "1953"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Que botânico e geneticista soviético, adversário das ideias de Lysenko, morreu de fome numa prisão em 1943?",
+        "resposta": "Nikolai Vavilov"
+      },
+      "existentes": [
+        {
+          "id": "q05029",
+          "pergunta": "Em que país as ideias do agrônomo Trofim Lysenko, que negavam a genética de Mendel, foram doutrina oficial até os anos sessenta?",
+          "resposta": "União Soviética"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "À frente da empresa Celera, que cientista americano disputou com o Projeto Genoma Humano a corrida para sequenciar nosso DNA?",
+        "resposta": "Craig Venter"
+      },
+      "existentes": [
+        {
+          "id": "q03858",
+          "pergunta": "Lançado em 1990, em que ano o Projeto Genoma Humano foi declarado concluído?",
+          "resposta": "2003"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Que casal de biólogos britânicos passou décadas nas Galápagos medindo, geração após geração, a evolução dos bicos dos tentilhões?",
+        "resposta": "Peter e Rosemary Grant"
+      },
+      "existentes": [
+        {
+          "id": "q03860",
+          "pergunta": "Em que arquipélago do Pacífico vivem os tentilhões de Darwin, famosos pelos bicos adaptados a cada tipo de alimento?",
+          "resposta": "Galápagos"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Mitocôndrias e cloroplastos têm DNA próprio, separado do núcleo da célula. Por quê?",
+        "resposta": "Descendem de bactérias"
+      },
+      "existentes": [
+        {
+          "id": "q02712",
+          "pergunta": "Que organelas aparecem dentro destas células, vistas ao microscópio?",
+          "resposta": "Cloroplastos"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Os chimpanzés têm quarenta e oito cromossomos, e nós, quarenta e seis. O que aconteceu na linhagem humana?",
+        "resposta": "Dois cromossomos se fundiram"
+      },
+      "existentes": [
+        {
+          "id": "q02802",
+          "pergunta": "Chimpanzés e gorilas têm vinte e quatro pares de cromossomos, e nós temos vinte e três. Que evento na linhagem humana explica essa diferença?",
+          "resposta": "A fusão de dois cromossomos"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Há mais de dois bilhões de anos, as cianobactérias provocaram uma mudança radical em todo o planeta. Qual?",
+        "resposta": "Oxigenaram a atmosfera"
+      },
+      "existentes": [
+        {
+          "id": "q11465",
+          "pergunta": "Segundo a teoria mais aceita, os cloroplastos das plantas descendem de qual grupo de bactérias?",
+          "resposta": "Cianobactérias"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Em 1852, voltando da Amazônia para a Inglaterra, Alfred Russel Wallace perdeu quase todas as suas coleções. O que aconteceu?",
+        "resposta": "O navio pegou fogo"
+      },
+      "existentes": [
+        {
+          "id": "q02814",
+          "pergunta": "O britânico Alfred Russel Wallace, que explorou a Amazônia e a Malásia, chegou por conta própria a que ideia também proposta por Darwin?",
+          "resposta": "Seleção natural"
+        },
+        {
+          "id": "q06217",
+          "pergunta": "Que naturalista inglês do século dezenove é este?",
+          "resposta": "Alfred Russel Wallace"
+        },
+        {
+          "id": "q07457",
+          "pergunta": "Em 1858, as ideias de Darwin e Wallace sobre seleção natural foram lidas pela primeira vez em público numa reunião de que sociedade científica de Londres?",
+          "resposta": "Sociedade Lineana"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "A partir de 1868, Gregor Mendel praticamente abandonou suas pesquisas científicas. Por quê?",
+        "resposta": "Foi eleito abade do mosteiro"
+      },
+      "existentes": [
+        {
+          "id": "q00864",
+          "pergunta": "Que monge e cientista é este?",
+          "resposta": "Gregor Mendel"
+        },
+        {
+          "id": "q03863",
+          "pergunta": "Em que cidade, hoje na República Tcheca, ficava o mosteiro onde Mendel cruzou suas ervilhas?",
+          "resposta": "Brno"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "O arroz dourado deve sua cor amarelada a qual substância, a mesma que deixa a cenoura alaranjada?",
+        "resposta": "Betacaroteno"
+      },
+      "existentes": [
+        {
+          "id": "q11467",
+          "pergunta": "O arroz dourado foi modificado geneticamente para combater, em países pobres, a falta de qual vitamina?",
+          "resposta": "Vitamina A"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Que palavra, hoje sinônimo da teoria de Darwin, ficou de fora da primeira edição de A Origem das Espécies?",
+        "resposta": "Evolução"
+      },
+      "existentes": [
+        {
+          "id": "q03839",
+          "pergunta": "Darwin passou cerca de vinte anos sem publicar sua teoria. Em 1858, o que o fez finalmente se apressar a divulgá-la?",
+          "resposta": "Wallace chegou à mesma ideia"
+        },
+        {
+          "id": "q03859",
+          "pergunta": "Em que ano Charles Darwin publicou A Origem das Espécies?",
+          "resposta": "1859"
+        },
+        {
+          "id": "q07466",
+          "pergunta": "A primeira edição de A Origem das Espécies, de 1859, foi toda vendida às livrarias logo no lançamento. Quantos exemplares ela tinha?",
+          "resposta": "1 250 exemplares"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Nos vírus, o material genético fica protegido dentro de uma capa feita de proteínas. Como ela se chama?",
+        "resposta": "Capsídeo"
+      },
+      "existentes": [
+        {
+          "id": "q03827",
+          "pergunta": "Muito antes de nomear micróbios, a palavra latina vírus significava o quê?",
+          "resposta": "Veneno"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Baleias e golfinhos descendem de mamíferos terrestres. Entre os animais vivos de hoje, qual é o parente mais próximo deles?",
+        "resposta": "Hipopótamo"
+      },
+      "existentes": [
+        {
+          "id": "q02556",
+          "pergunta": "Estudos de DNA mostraram que baleias e golfinhos têm como parente vivo mais próximo que mamífero terrestre?",
+          "resposta": "Hipopótamo"
+        },
+        {
+          "id": "q05663",
+          "pergunta": "Em 1758, que naturalista sueco, pai dos nomes científicos modernos, classificou baleias e golfinhos entre os mamíferos, e não entre os peixes?",
+          "resposta": "Lineu (Carl Linnaeus)"
+        },
+        {
+          "id": "q09594",
+          "pergunta": "A palavra cetáceo, usada para baleias e golfinhos, vem do termo grego kétos. O que esse termo designava?",
+          "resposta": "Monstro marinho"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Antes de virar ferramenta de laboratório, o sistema CRISPR funcionava nas bactérias como o quê?",
+        "resposta": "Defesa contra vírus"
+      },
+      "existentes": [
+        {
+          "id": "q03854",
+          "pergunta": "Em 2020, quais duas cientistas ganharam o Nobel de Química pela tesoura genética CRISPR?",
+          "resposta": "Emmanuelle Charpentier e Jennifer Doudna"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "A hidra de água doce intriga os cientistas porque parece imune a qual processo, comum a quase todos os seres vivos?",
+        "resposta": "Envelhecimento"
+      },
+      "existentes": [
+        {
+          "id": "q14834",
+          "pergunta": "Que pequeno animal de água doce, visto ao microscópio, é este?",
+          "resposta": "Hidra"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "A enzima retirada da bactéria Thermus aquaticus é essencial nos testes de PCR por qual característica?",
+        "resposta": "Resiste ao calor"
+      },
+      "existentes": [
+        {
+          "id": "q02862",
+          "pergunta": "Uma bactéria das fontes termais de Yellowstone forneceu a enzima que tornou prática que técnica de laboratório, usada até em testes de covid?",
+          "resposta": "PCR"
+        },
+        {
+          "id": "q03862",
+          "pergunta": "A enzima usada no teste de PCR vem de uma bactéria descoberta em fontes termais de qual parque americano?",
+          "resposta": "Yellowstone"
+        },
+        {
+          "id": "q04792",
+          "pergunta": "Que microbiologista americano, com o aluno Hudson Freeze, isolou nas fontes termais de Yellowstone a bactéria Thermus aquaticus, origem da enzima Taq polimerase?",
+          "resposta": "Thomas Brock"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Em fevereiro de 1953, Crick teria anunciado que tinham descoberto o segredo da vida. Em que lugar de Cambridge?",
+        "resposta": "No pub The Eagle"
+      },
+      "existentes": [
+        {
+          "id": "q05003",
+          "pergunta": "Em 1953, na Universidade de Cambridge, que dupla de cientistas propôs o modelo em dupla hélice para a molécula de DNA?",
+          "resposta": "James Watson e Francis Crick"
+        },
+        {
+          "id": "q05004",
+          "pergunta": "O modelo da dupla hélice do DNA foi publicado no ano da coroação de Elizabeth Segunda e da primeira escalada do Everest. Que ano?",
+          "resposta": "1953"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "A ovelha Dolly foi criada no Instituto Roslin, perto de qual cidade escocesa?",
+        "resposta": "Edimburgo"
+      },
+      "existentes": [
+        {
+          "id": "q03830",
+          "pergunta": "Clonada a partir de uma célula de glândula mamária, a ovelha Dolly recebeu o nome em homenagem a qual cantora?",
+          "resposta": "Dolly Parton"
+        },
+        {
+          "id": "q05014",
+          "pergunta": "Em que ano nasceu a ovelha Dolly, o primeiro mamífero clonado a partir de uma célula adulta?",
+          "resposta": "1996"
+        },
+        {
+          "id": "q11468",
+          "pergunta": "A ovelha Dolly foi a única a chegar à vida adulta entre quantas tentativas de clonagem?",
+          "resposta": "277"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "A famosa Sala das Moscas, onde Thomas Hunt Morgan criava milhares de moscas-da-fruta, ficava em qual universidade de Nova York?",
+        "resposta": "Universidade Columbia"
+      },
+      "existentes": [
+        {
+          "id": "q15211",
+          "pergunta": "Quem é este geneticista americano?",
+          "resposta": "Thomas Hunt Morgan"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "Em que ano foi feita a Foto 51, a imagem de raios X do DNA obtida no King's College de Londres?",
+        "resposta": "1952"
+      },
+      "existentes": [
+        {
+          "id": "q03850",
+          "pergunta": "A Foto 51, imagem de raios X que revelou a forma em hélice do DNA, foi obtida pela equipe de qual cientista britânica?",
+          "resposta": "Rosalind Franklin"
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "nova": {
+        "pergunta": "Em que ano Jennifer Doudna e Emmanuelle Charpentier publicaram o artigo que transformou o CRISPR numa tesoura genética programável?",
+        "resposta": "2012"
+      },
+      "existentes": [
+        {
+          "id": "q03854",
+          "pergunta": "Em 2020, quais duas cientistas ganharam o Nobel de Química pela tesoura genética CRISPR?",
+          "resposta": "Emmanuelle Charpentier e Jennifer Doudna"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Tamanho do genoma vs etimologia da palavra."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Número de ilustrações é outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pares de cromossomos é outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Tempo de divisão vs formato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Aumento máximo é fato distinto de número de lentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Número de aminoácidos vs número de códons."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Número de membranas é outro fato."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Cromossomos sexuais é outro fato."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Idade na partida é outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Origem do termo ácido é outro fato."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Etimologia vs composição."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Etimologia do nome é outro fato."
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "id_existente": "q02792",
+      "motivo": "Mesmo apelido Buldogue de Darwin."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Nome de batismo é outro fato."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Significado de fago, distinto de identificar a imagem."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs identificar organela."
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "id_existente": "q02813",
+      "motivo": "Mesmo fato: nasceram no mesmo dia que Lincoln."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Autor do desenho é outro fato."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Pesquisa posterior sobre vírus é outro fato."
+    },
+    {
+      "caso": 20,
+      "decisao": "repete",
+      "id_existente": "q07480",
+      "motivo": "Neto Aldous Huxley/Admirável Mundo Novo: mesmo fato do parentesco."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "FitzRoy e previsão do tempo é outro fato."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Rival Pauling é outro fato."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Vavilov é outro fato."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Celera/Venter é outro fato."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Casal Grant é outro fato."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Origem endossimbiótica do DNA próprio é outro fato."
+    },
+    {
+      "caso": 27,
+      "decisao": "repete",
+      "id_existente": "q02802",
+      "motivo": "Mesma fusão de cromossomos."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Oxigenação da atmosfera é outro fato."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Perda das coleções é outro fato."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Motivo de abandonar pesquisas é outro fato."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Substância da cor vs vitamina visada; fatos distintos."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Palavra omitida é outro fato."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Capsídeo é outro fato."
+    },
+    {
+      "caso": 34,
+      "decisao": "repete",
+      "id_existente": "q02556",
+      "motivo": "Mesmo: hipopótamo parente mais próximo."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Função natural do CRISPR é outro fato."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Imunidade ao envelhecimento é outro fato."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Característica da enzima é outro fato."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Local do anúncio é outro fato."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Localização do instituto é outro fato."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Universidade da Sala das Moscas é outro fato."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "Ano da Foto 51 vs autora."
+    },
+    {
+      "caso": 42,
+      "decisao": "nova",
+      "motivo": "Ano do artigo vs Nobel de 2020."
+    }
+  ]
+}

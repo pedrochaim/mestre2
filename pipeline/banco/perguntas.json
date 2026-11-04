@@ -355804,5 +355804,785 @@
       "licenca": "CC BY 2.0"
     },
     "dificuldade": 2
+  },
+  {
+    "id": "q18162",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "genoma",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O genoma humano herdado de cada um dos pais tem cerca de quantos pares de bases de DNA?",
+    "resposta": "Cerca de 3 bilhões",
+    "distratores": [
+      "Cerca de 3 milhões",
+      "Cerca de 30 milhões",
+      "Cerca de 3 trilhões"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Human_genome"
+    ]
+  },
+  {
+    "id": "q18163",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "a_origem_das_especies",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A primeira edição de A Origem das Espécies, de Darwin, trazia quantas ilustrações?",
+    "resposta": "Apenas uma",
+    "distratores": [
+      "Nenhuma",
+      "Doze",
+      "Mais de cem"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/On_the_Origin_of_Species"
+    ]
+  },
+  {
+    "id": "q18164",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "drosophila_melanogaster",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A mosca-da-fruta, estrela dos laboratórios de genética, tem quantos pares de cromossomos?",
+    "resposta": "Quatro pares",
+    "distratores": [
+      "Dois pares",
+      "Oito pares",
+      "Vinte e três pares"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Drosophila_melanogaster"
+    ]
+  },
+  {
+    "id": "q18165",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "escherichia_coli",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Em condições ideais de laboratório, a bactéria Escherichia coli se divide em duas a cada quanto tempo?",
+    "resposta": "Cerca de 20 minutos",
+    "distratores": [
+      "Cerca de 2 minutos",
+      "Cerca de 2 horas",
+      "Cerca de um dia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Escherichia_coli"
+    ]
+  },
+  {
+    "id": "q18166",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "antonie_van_leeuwenhoek",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Os microscópios de uma lente só de Leeuwenhoek que sobreviveram até hoje ampliam até cerca de quantas vezes?",
+    "resposta": "Cerca de 275 vezes",
+    "distratores": [
+      "Cerca de 10 vezes",
+      "Cerca de 2 mil vezes",
+      "Cerca de 50 mil vezes"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek"
+    ]
+  },
+  {
+    "id": "q18167",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "meiose",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Na meiose, a divisão que forma os gametas, uma única célula dá origem a quantas células-filhas?",
+    "resposta": "Quatro",
+    "distratores": [
+      "Duas",
+      "Oito",
+      "Dezesseis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Meiosis"
+    ]
+  },
+  {
+    "id": "q18168",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "codigo_genetico",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Os sessenta e quatro códons do código genético correspondem a quantos aminoácidos padrão, usados para montar as proteínas?",
+    "resposta": "Vinte",
+    "distratores": [
+      "Oito",
+      "Doze",
+      "Trinta e dois"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Genetic_code"
+    ]
+  },
+  {
+    "id": "q18169",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "mitocondria",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A usina de energia da célula, a mitocôndria, é envolvida por quantas membranas?",
+    "resposta": "Duas",
+    "distratores": [
+      "Uma",
+      "Três",
+      "Quatro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mitochondrion"
+    ]
+  },
+  {
+    "id": "q18170",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "ornitorrinco",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Nós temos dois cromossomos sexuais em cada célula. Quantos cromossomos sexuais tem o ornitorrinco?",
+    "resposta": "Dez",
+    "distratores": [
+      "Três",
+      "Quatro",
+      "Seis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Platypus"
+    ]
+  },
+  {
+    "id": "q18171",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "charles_darwin",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Quantos anos tinha Charles Darwin quando partiu na viagem do Beagle, no fim de 1831?",
+    "resposta": "Vinte e dois",
+    "distratores": [
+      "Dezoito",
+      "Trinta e um",
+      "Quarenta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Charles_Darwin",
+      "https://en.wikipedia.org/wiki/Second_voyage_of_HMS_Beagle"
+    ]
+  },
+  {
+    "id": "q18172",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "dna",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O DNA é um ácido desoxirribonucleico. A que parte da molécula ele deve o nome de ácido?",
+    "resposta": "Aos grupos fosfato",
+    "distratores": [
+      "Ao açúcar",
+      "Às bases nitrogenadas",
+      "Às proteínas histonas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nucleic_acid",
+      "https://en.wikipedia.org/wiki/DNA"
+    ]
+  },
+  {
+    "id": "q18173",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "ribossomo",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome ribossomo junta ribo, de ácido ribonucleico, com uma palavra grega que significa o quê?",
+    "resposta": "Corpo",
+    "distratores": [
+      "Grão",
+      "Fábrica",
+      "Semente"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ribosome"
+    ]
+  },
+  {
+    "id": "q18174",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "eucarionte",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Plantas, animais e fungos são eucariontes. Traduzido do grego, o que esse nome significa?",
+    "resposta": "Núcleo verdadeiro",
+    "distratores": [
+      "Depois do núcleo",
+      "Célula completa",
+      "Muitos núcleos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Eukaryote"
+    ]
+  },
+  {
+    "id": "q18175",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "meiose",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A divisão celular que forma óvulos e espermatozoides se chama meiose. Em grego, essa palavra significa o quê?",
+    "resposta": "Diminuição",
+    "distratores": [
+      "Divisão",
+      "Mistura",
+      "Renovação"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Meiosis"
+    ]
+  },
+  {
+    "id": "q18176",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "clorofila",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome clorofila, o pigmento que capta a luz na fotossíntese, vem do grego e significa o quê?",
+    "resposta": "Folha verde",
+    "distratores": [
+      "Luz do sol",
+      "Sangue da planta",
+      "Seiva viva"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chlorophyll"
+    ]
+  },
+  {
+    "id": "q18177",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "gregor_mendel",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Ao entrar no mosteiro, o frade das ervilhas adotou o nome Gregor. Qual era o seu nome de batismo?",
+    "resposta": "Johann",
+    "distratores": [
+      "Franz",
+      "Karl",
+      "Anton"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gregor_Mendel"
+    ]
+  },
+  {
+    "id": "q18178",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "apoptose",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A morte programada das células se chama apoptose, uma palavra grega que lembra uma cena da natureza. Qual?",
+    "resposta": "A queda das folhas",
+    "distratores": [
+      "O pôr do sol",
+      "O fim do inverno",
+      "A seca dos rios"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Apoptosis"
+    ]
+  },
+  {
+    "id": "q18179",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "bacteriofago",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O vírus que infecta bactérias se chama bacteriófago. O que significa, em grego, a parte fago desse nome?",
+    "resposta": "Comer, devorar",
+    "distratores": [
+      "Matar",
+      "Invadir",
+      "Pequeno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bacteriophage"
+    ]
+  },
+  {
+    "id": "q18180",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "vacuolo",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O vacúolo, organela que armazena água nas células das plantas, tem um nome de origem latina. O que ele significa?",
+    "resposta": "Vazio",
+    "distratores": [
+      "Bolsa",
+      "Gota",
+      "Lago"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vacuole"
+    ]
+  },
+  {
+    "id": "q18181",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "francis_crick",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O famoso desenho da dupla hélice, publicado com o artigo de 1953, foi feito por qual pessoa ligada a Francis Crick?",
+    "resposta": "A esposa, Odile",
+    "distratores": [
+      "O colega Watson",
+      "Rosalind Franklin",
+      "O filho, Michael"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Odile_Crick"
+    ]
+  },
+  {
+    "id": "q18182",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "rosalind_franklin",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Depois de estudar o DNA, Rosalind Franklin dedicou seus últimos anos à estrutura de qual vírus de plantas?",
+    "resposta": "Mosaico do tabaco",
+    "distratores": [
+      "Tristeza dos citros",
+      "Mosaico da alfafa",
+      "Enrolamento da batata"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rosalind_Franklin"
+    ]
+  },
+  {
+    "id": "q18183",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "hms_beagle",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Robert FitzRoy, o capitão do Beagle na viagem de Darwin, ficou famoso depois como pioneiro de quê?",
+    "resposta": "Previsão do tempo",
+    "distratores": [
+      "Navegação a vapor",
+      "Cartografia polar",
+      "Telegrafia sem fio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Robert_FitzRoy"
+    ]
+  },
+  {
+    "id": "q18184",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "modelo_da_dupla_helice_do_dna",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "No início de 1953, qual químico americano, rival de Watson e Crick, propôs um modelo errado do DNA em tripla hélice?",
+    "resposta": "Linus Pauling",
+    "distratores": [
+      "Erwin Chargaff",
+      "Maurice Wilkins",
+      "Oswald Avery"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Linus_Pauling"
+    ]
+  },
+  {
+    "id": "q18185",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "lysenkoismo",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que botânico e geneticista soviético, adversário das ideias de Lysenko, morreu de fome numa prisão em 1943?",
+    "resposta": "Nikolai Vavilov",
+    "distratores": [
+      "Ivan Pavlov",
+      "Ivan Michurin",
+      "Alexander Oparin"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nikolai_Vavilov",
+      "https://en.wikipedia.org/wiki/Lysenkoism"
+    ]
+  },
+  {
+    "id": "q18186",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "projeto_genoma_humano",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "À frente da empresa Celera, que cientista americano disputou com o Projeto Genoma Humano a corrida para sequenciar nosso DNA?",
+    "resposta": "Craig Venter",
+    "distratores": [
+      "Francis Collins",
+      "Kary Mullis",
+      "Eric Lander"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Craig_Venter",
+      "https://en.wikipedia.org/wiki/Human_Genome_Project"
+    ]
+  },
+  {
+    "id": "q18187",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "tentilhoes_de_darwin",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que casal de biólogos britânicos passou décadas nas Galápagos medindo, geração após geração, a evolução dos bicos dos tentilhões?",
+    "resposta": "Peter e Rosemary Grant",
+    "distratores": [
+      "Charles e Emma Darwin",
+      "Louis e Mary Leakey",
+      "Jacques e Simone Cousteau"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Peter_and_Rosemary_Grant"
+    ]
+  },
+  {
+    "id": "q18188",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "cloroplasto",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Mitocôndrias e cloroplastos têm DNA próprio, separado do núcleo da célula. Por quê?",
+    "resposta": "Descendem de bactérias",
+    "distratores": [
+      "Vieram de vírus",
+      "Surgiram de fungos",
+      "Copiam o DNA nuclear"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Symbiogenesis"
+    ]
+  },
+  {
+    "id": "q18189",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "cianobacteria",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Há mais de dois bilhões de anos, as cianobactérias provocaram uma mudança radical em todo o planeta. Qual?",
+    "resposta": "Oxigenaram a atmosfera",
+    "distratores": [
+      "Formaram os continentes",
+      "Criaram os vulcões",
+      "Salgaram os oceanos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Oxidation_Event"
+    ]
+  },
+  {
+    "id": "q18190",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "alfred_russel_wallace",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Em 1852, voltando da Amazônia para a Inglaterra, Alfred Russel Wallace perdeu quase todas as suas coleções. O que aconteceu?",
+    "resposta": "O navio pegou fogo",
+    "distratores": [
+      "Piratas saquearam o navio",
+      "Ratos devoraram tudo",
+      "Confiscadas na alfândega"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace"
+    ]
+  },
+  {
+    "id": "q18191",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "gemeos_identicos",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Por que gêmeos idênticos têm praticamente o mesmo DNA?",
+    "resposta": "Vêm do mesmo zigoto",
+    "distratores": [
+      "Vêm de dois óvulos",
+      "Nasceram no mesmo dia",
+      "Herdaram só da mãe"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Twin"
+    ]
+  },
+  {
+    "id": "q18192",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "gregor_mendel",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "A partir de 1868, Gregor Mendel praticamente abandonou suas pesquisas científicas. Por quê?",
+    "resposta": "Foi eleito abade do mosteiro",
+    "distratores": [
+      "Ficou cego",
+      "Foi expulso da ordem",
+      "Mudou-se para Viena"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gregor_Mendel"
+    ]
+  },
+  {
+    "id": "q18193",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "arroz_dourado",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O arroz dourado deve sua cor amarelada a qual substância, a mesma que deixa a cenoura alaranjada?",
+    "resposta": "Betacaroteno",
+    "distratores": [
+      "Clorofila",
+      "Curcumina",
+      "Licopeno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Golden_rice"
+    ]
+  },
+  {
+    "id": "q18194",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "a_origem_das_especies",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Que palavra, hoje sinônimo da teoria de Darwin, ficou de fora da primeira edição de A Origem das Espécies?",
+    "resposta": "Evolução",
+    "distratores": [
+      "Seleção",
+      "Adaptação",
+      "Variação"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/On_the_Origin_of_Species"
+    ]
+  },
+  {
+    "id": "q18195",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "membrana_plasmatica",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "A membrana que envolve as células é formada principalmente por uma dupla camada de quais moléculas?",
+    "resposta": "Fosfolipídios",
+    "distratores": [
+      "Celulose",
+      "Queratina",
+      "Amido"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cell_membrane"
+    ]
+  },
+  {
+    "id": "q18196",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "virus",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Nos vírus, o material genético fica protegido dentro de uma capa feita de proteínas. Como ela se chama?",
+    "resposta": "Capsídeo",
+    "distratores": [
+      "Parede celular",
+      "Nucleoide",
+      "Cápsula"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Capsid"
+    ]
+  },
+  {
+    "id": "q18197",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "crispr_cas9",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Antes de virar ferramenta de laboratório, o sistema CRISPR funcionava nas bactérias como o quê?",
+    "resposta": "Defesa contra vírus",
+    "distratores": [
+      "Motor do flagelo",
+      "Reserva de energia",
+      "Relógio celular"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/CRISPR"
+    ]
+  },
+  {
+    "id": "q18198",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "hidra",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "A hidra de água doce intriga os cientistas porque parece imune a qual processo, comum a quase todos os seres vivos?",
+    "resposta": "Envelhecimento",
+    "distratores": [
+      "Respiração",
+      "Digestão",
+      "Crescimento"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hydra_(genus)"
+    ]
+  },
+  {
+    "id": "q18199",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "thermus_aquaticus",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "A enzima retirada da bactéria Thermus aquaticus é essencial nos testes de PCR por qual característica?",
+    "resposta": "Resiste ao calor",
+    "distratores": [
+      "Brilha sob luz",
+      "Funciona no gelo",
+      "Dispensa o DNA"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Taq_polymerase"
+    ]
+  },
+  {
+    "id": "q18200",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "modelo_da_dupla_helice_do_dna",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em fevereiro de 1953, Crick teria anunciado que tinham descoberto o segredo da vida. Em que lugar de Cambridge?",
+    "resposta": "No pub The Eagle",
+    "distratores": [
+      "Na capela do King's",
+      "Na biblioteca da universidade",
+      "No jardim botânico"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Eagle,_Cambridge"
+    ]
+  },
+  {
+    "id": "q18201",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "ovelha_dolly",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A ovelha Dolly foi criada no Instituto Roslin, perto de qual cidade escocesa?",
+    "resposta": "Edimburgo",
+    "distratores": [
+      "Glasgow",
+      "Aberdeen",
+      "Dundee"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dolly_(sheep)",
+      "https://en.wikipedia.org/wiki/Roslin_Institute"
+    ]
+  },
+  {
+    "id": "q18202",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "thomas_hunt_morgan",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A famosa Sala das Moscas, onde Thomas Hunt Morgan criava milhares de moscas-da-fruta, ficava em qual universidade de Nova York?",
+    "resposta": "Universidade Columbia",
+    "distratores": [
+      "Universidade Cornell",
+      "Universidade Rockefeller",
+      "Universidade de Nova York"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thomas_Hunt_Morgan"
+    ]
+  },
+  {
+    "id": "q18203",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "foto_51",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano foi feita a Foto 51, a imagem de raios X do DNA obtida no King's College de Londres?",
+    "resposta": "1952",
+    "distratores": [
+      "1948",
+      "1950",
+      "1955"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Photo_51"
+    ]
+  },
+  {
+    "id": "q18204",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "crispr_cas9",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano Jennifer Doudna e Emmanuelle Charpentier publicaram o artigo que transformou o CRISPR numa tesoura genética programável?",
+    "resposta": "2012",
+    "distratores": [
+      "2005",
+      "2009",
+      "2016"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/CRISPR_gene_editing",
+      "https://en.wikipedia.org/wiki/Jennifer_Doudna"
+    ]
   }
 ]

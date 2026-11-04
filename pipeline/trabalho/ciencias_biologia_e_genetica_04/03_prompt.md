@@ -1,0 +1,2008 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Biologia e Genética** (tema **Ciências**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6). Uma pergunta `aberta` cuja resposta é um ano ou uma data deve ser reescrita como `multipla`, com 3 anos ou datas próximos e críveis (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Genoma",
+      "descricao": "Conjunto completo do material genético de um organismo."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O genoma humano herdado de cada um dos pais tem cerca de quantos pares de bases de DNA?",
+    "resposta": "Cerca de 3 bilhões",
+    "distratores": [
+      "Cerca de 3 milhões",
+      "Cerca de 30 milhões",
+      "Cerca de 3 trilhões"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Human_genome"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Human_genome",
+        "situacao": "ok",
+        "texto": "The human genome is a complete set of DNA sequences for each of the 22 autosomes and the two distinct sex chromosomes (X and Y) in humans. A small DNA molecule is found within individual mitochondria. These are usually treated separately as the nuclear genome and the mitochondrial genome.\n[…]\nThere are also a significant number of retroviruses in human DNA, at least 3 of which have been proven to possess an important function (i.e., HIV-like functional HERV-K; envelope genes of non-functional viruses HERV-W and HERV-FRD play a role in placenta formation by inducing cell-cell fusion).\n[…]\nMobile elements within the human genome can be classified into LTR retrotransposons (8.3% of total genome), SINEs (13.1% of total genome) including Alu elements, LINEs (20.4% of total genome), SVAs (SINE-VNTR-Alu) and Class II DNA transposons (2.9% of total genome).\n[…]\nAbout 90% of structural variants are noncoding deletions but most individuals have more than a thousand such deletions; the size of deletions ranges from dozens of base pairs to tens of thousands of bp. On average, individuals carry ~3 rare structural variants that alter coding regions, e.g. delete exons. About 2% of individuals carry ultra-rare megabase-scale structural variants, especially rearrangements.\n[…]\nFor example, going back 5 generations, only 1 of a person's 32 ancestors contributed to that person's mtDNA, so if one of these 32 was pure Neanderthal an expected ~3% of that person's autosomal DNA would be of Neanderthal origin, yet they would have a ~97% chance of having no trace of Neanderthal mtDNA."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Genoma_humano",
+        "situacao": "ok",
+        "texto": "O genoma humano é o conjunto completo de sequências de ácido nucleico codificado como DNA dentro dos 23 pares de cromossomos nos núcleos das células e em uma pequena molécula de DNA encontrada nas mitocôndrias individuais. Usualmente, o genoma mitocondrial é tratado separadamente do genoma nuclear.\n[…]\nOs genomas humanos são compostos tanto por genes de DNA codificadores de proteínas quanto por DNAs não codificadores.\n[…]\nOs genomas humanos haplóides estão contidos nas células germinativas (óvulos e espermatozóides) e são constituídos por três bilhões de pares de bases de DNA, enquanto os genomas diplóides (encontrados em células somáticas) tem o dobro do conteúdo de DNA.\n[…]\nO comprimento total do genoma humano é superior a 3 bilhões de pares de bases. O genoma é organizado em 22 cromossomos pareados, mais o cromossomo X pareado com outro cromossomo X em fêmeas, e, em machos, com um cromossomo Y.\n[…]\nO genoma humano haplóide (23 cromossomos) tem cerca de 3 bilhões de pares de bases e contém cerca de 30 000 genes. Como cada par de bases pode ser codificado por 2 bits, isso significa aproximadamente 750 megabytes de dados. Uma célula somática individual (diploide) contém o dobro dessa quantidade, isto é, cerca de 6 bilhões de pares de bases.\n[…]\nOs homens têm menos que as mulheres porque o cromossomo Y tem cerca de 57 milhões de pares de bases, enquanto o X é cerca de 156 milhões, mas em termos de informação os homens têm mais porque o segundo X contém quase as mesmas informações que o primeiro. Como os genomas individuais variam em sequência em menos de 1% um do outro, as variações do genoma de um dado humano a partir de uma referência comum podem ser compactadas sem perda para aproximadamente 4 megabytes.\n[…]\nVisualizador do genoma humano da Biblioteca Nacional de Medicina\n[…]\nProjeto Genoma Humano.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "A Origem das Espécies",
+      "descricao": "Livro de Charles Darwin, publicado em 1859, que apresenta a teoria da evolução por seleção natural."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A primeira edição de A Origem das Espécies, de Darwin, trazia quantas ilustrações?",
+    "resposta": "Apenas uma",
+    "distratores": [
+      "Nenhuma",
+      "Doze",
+      "Mais de cem"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/On_the_Origin_of_Species"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/On_the_Origin_of_Species",
+        "situacao": "ok",
+        "texto": "On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life is a work of scientific literature by the English naturalist Charles Darwin that is considered to be the foundation of evolutionary biology. It was published on 24 November 1859.\n[…]\nIn the final chapter of On the Origin of Species, \"Recapitulation and Conclusion\", Darwin briefly highlights the human implications of his theory:\n[…]\nIn On the Origin of Species, Chapter VI: \"Difficulties on Theory\", Darwin mentions this in the context of \"slight and unimportant variations\":\n[…]\nWorldwide commemorations of the 150th anniversary of the publication of On the Origin of Species and the bicentenary of Darwin's birth were scheduled for 2009. They celebrated the ideas which \"over the last 150 years have revolutionised our understanding of nature and our place within it\".\n[…]\nPechenik, Jan A. (2023), The Readable Darwin: The Origin of Species Edited for Modern Readers (2 ed.), Oxford University Press, ISBN 978-0-19-757526-0\n[…]\nCarpenter, William Benjamin (1859), \"Darwin on the Origin of Species\", National Review, vol. 10, no. December 1859, pp. 188–214. Published anonymously.\n[…]\nHuxley, Thomas Henry (1859), \"Time and Life: Mr Darwin's Origin of Species\", Macmillan's Magazine, 1: 142–148.\n[…]\nHuxley, Thomas Henry (1859), \"Darwin on the Origin of Species\", The Times (26 December 1859): 8–9. Published anonymously.\n[…]\nMurray, Andrew (1860), \"On Mr Darwin's Theory of the Origin of Species\", Proceedings of the Royal Society of Edinburgh, 4: 274–291, doi:10.1017/S0370164600034246.\n[…]\nOwen, Richard (1860), \"Review of Darwin's Origin of Species\", Edinburgh Review, 3 (April 1860): 487–532. Published anonymously.\n[…]\nDarwin's notes on the creation of On the Origin of Species digitised in Cambridge Digital Library"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/A_Origem_das_Esp%C3%A9cies",
+        "situacao": "ok",
+        "texto": "A Origem das Espécies (ou, mais completamente, A Origem das Espécies por Meio da Seleção Natural, ou Preservação das Raças Favorecidas na Luta pela Vida) é uma obra de literatura científica escrita por Charles Darwin, que é considerada a base da biologia evolutiva. Publicado em 24 de novembro de 1859, ele introduziu a teoria científica de que as formas de vida evoluem ao longo das gerações por mei\n[…]\nPor sugestão de Lyell, Elwin recomendou que, em vez de \"apresentar a teoria sem evidências\", o livro deveria se concentrar em observações sobre pombos, declarando resumidamente como estes princípios gerais de Darwin ilustravam e preparavam o caminho para o trabalho maior esperado em breve: \"todos estão interessados em pombos\". Darwin respondeu que isso era impraticável: ele tinha apenas o último capítulo ainda para escrever.\n[…]\nGray conseguiu negociar um royalty de 5% com a Appleton's de Nova York, que lançou sua edição em meados de janeiro de 1860, enquanto as outras duas editoras se retiraram. Em uma carta de maio, Darwin mencionou uma tiragem de 2 500 cópias, mas não está claro se isso se referia à primeira impressão apenas porque havia quatro naquele ano.\n[…]\nNo Capítulo II, Darwin especifica que a distinção entre espécies e variedades é arbitrária, com especialistas discordando e mudando suas decisões quando novas formas são encontradas. Ele conclui que \"uma variedade bem marcada pode ser justamente chamada de espécie incipiente\" e que \"as espécies são apenas variedades fortemente marcadas e permanentes\". Ele defende a onipresença da variação na natureza.\n[…]\nQuando Darwin publicou A Descendência do Homem e Seleção em Relação ao Sexo doze anos depois, ele disse que não havia entrado em detalhes sobre a evolução humana na Origem, pois pensava que isso \"apenas aumentaria os preconceitos contra meus pontos de vista\". Ele não havia evitado completamente o tópico:\n[…]\nOn the Origin of Species",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Drosophila melanogaster",
+      "descricao": "Mosca-da-fruta usada como organismo-modelo em genética."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A mosca-da-fruta, estrela dos laboratórios de genética, tem quantos pares de cromossomos?",
+    "resposta": "Quatro pares",
+    "distratores": [
+      "Dois pares",
+      "Oito pares",
+      "Vinte e três pares"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Drosophila_melanogaster"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Drosophila_melanogaster",
+        "situacao": "ok",
+        "texto": "Drosophila melanogaster is a species of fly (an insect of the order Diptera) in the family Drosophilidae. The species is often referred to as the fruit fly or lesser fruit fly, or less commonly the \"vinegar fly\", \"pomace fly\", or \"banana fly\". D. melanogaster is attracted to rotting fruit and fermenting beverages and is often found in orchards, kitchens, and pubs.\n[…]\nDrosophila melanogaster is typically used in research owing to its rapid life cycle, relatively simple genetics with only four pairs of chromosomes, and large number of offspring per generation. It was originally an African species, with all non-African lineages having a common origin. Its geographic range includes all continents, including islands. D. melanogaster is a common pest in homes, restaurants, and other places where food is served.\n[…]\nD. melanogaster had historically been used in laboratories to study genetics and patterns of inheritance. However, D. melanogaster also has importance in environmental mutagenesis research, allowing researchers to study the effects of specific environmental mutagens.\n[…]\nw: white – Drosophila melanogaster wild type typically expresses a brick-red eye color. The white eye mutation in fruit flies is caused due to the absence of two pigments associated with red and brown eye colors; peridines (red) and ommochromes (brown). In January 1910, Thomas Hunt Morgan first discovered the white gene and denoted it as w. The discovery of the white-eye mutation by Morgan brought about the beginnings of genetic experimentation and analysis of Drosophila melanogaster.\n[…]\n\"A quick and simple introduction to Drosophila melanogaster\". Drosophila Virtual Library.\n[…]\n\"Bloomington Drosophila Stock Center\" – collects, maintains and distributes Drosophila melanogaster strains for research\n[…]\n\"NCBI Map Viewer – Drosophila melanogaster\". Archived from the original on June 5, 2003."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Drosophila_melanogaster",
+        "situacao": "ok",
+        "texto": "Drosophila melanogaster é uma espécie de mosca (ordem taxonômica Diptera) na família Drosophilidae. A espécie também é conhecida como mosca-das-frutas (mosca-da-fruta em Portugal) ou mosca-do-vinagre.\n[…]\nDesde que Charles W. Woodworth propôs o uso desta mosca como organismo modelo para realizar estudos científicos, a D. melanogaster é amplamente utilizada na investigação biológica em estudos de genética, fisiologia, patogênese microbiana e evolução. A espécie é normalmente utilizada em pesquisas devido ao seu ciclo de vida rápido, genética relativamente simples com apenas quatro pares de cromossomos e grande número de descendentes por geração.\n[…]\nExistem muitos motivos pelos quais a mosca da fruta é uma escolha popular como organismo modelo:\n[…]\nPossui apenas quatro pares de cromossomos - três autossomos e um par de cromossomos sexuais.\n[…]\nO genoma de D. melanogaster (sequenciado em 2000) contém quatro pares de cromossomos - um par X/Y e três autossomos rotulados 2, 3 e 4. O quarto cromossomo é tão minúsculo, que muitas vezes é ignorado, com exceção de seu importante gene eyeless (sem olhos). O genoma sequenciado de D. melanogaster possui 139,5 milhões de pares de bases, e contém cerca de 15.682 genes de acordo com a versão 73 do Ensemble.\n[…]\nCada folículo ovariano de Drosophila é constituído por 16 células germinativas conectadas por canais em anel. Duas dessas células adquirem quatro canais de comunicação e são denominadas de pró-ovócitos, e por competição somente uma terminará a meiose I e será o futuro ovócito. As demais 15 células se tornarão nutridoras poliploides, que se especializam em transcrever RNAs mensageiros importantes para o futuro desenvolvimento embrionário.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Escherichia coli",
+      "descricao": "Bactéria gram-negativa em forma de bastonete, comum no intestino de animais de sangue quente."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Em condições ideais de laboratório, a bactéria Escherichia coli se divide em duas a cada quanto tempo?",
+    "resposta": "Cerca de 20 minutos",
+    "distratores": [
+      "Cerca de 2 minutos",
+      "Cerca de 2 horas",
+      "Cerca de um dia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Escherichia_coli"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Escherichia_coli",
+        "situacao": "ok",
+        "texto": "Escherichia coli ( ESH-ə-RIK-ee-ə KOH-lye) is a gram-negative, facultative anaerobic, rod-shaped, coliform bacterium of the genus Escherichia that is commonly found in the lower intestine of warm-blooded organisms. Most E. coli strains are part of the normal microbiota of the gut, where they constitute about 0.1%, along with other  facultative anaerobes. These bacteria are mostly harmless or even \n[…]\nUnder favourable conditions, it takes as little as 20 minutes to reproduce.\n[…]\nE. coli encompasses an enormous population of bacteria that exhibit a very high degree of both genetic and phenotypic diversity. Genome sequencing of many isolates of E. coli and related bacteria shows that a taxonomic reclassification would be desirable. However, this has not been done, largely due to its medical importance, and E. coli remains one of the most diverse bacterial species: only 20% of the genes in a typical E. coli genome is shared among all strains.\n[…]\nThe genera Escherichia and Salmonella diverged around 102 million years ago (credibility interval: 57–176 mya), an event unrelated to the much earlier (see Synapsid) divergence of their hosts: the former being found in mammals and the latter in birds and reptiles. This was followed by a split of an Escherichia ancestor into five species (E. albertii, E. coli, E. fergusonii, E. hermannii, and E. vulneris). The last E. coli ancestor split between 20 and 30 million years ago.\n[…]\nMore than three hundred complete genomic sequences of Escherichia and Shigella species are known. The genome sequence of the type strain of E. coli was added to this collection before 2014. Comparison of these sequences shows a remarkable amount of diversity; only about 20% of each genome represents sequences present in every one of the isolates, while around 80% of each genome can vary among isolates.\n[…]\nE. coli on Protein Data Bank\n[…]\nNIAID Data Ecosystem - E. coli"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Escherichia_coli",
+        "situacao": "ok",
+        "texto": "Escherichia coli (/eʃe'ɾikia 'kɔli/, mais conhecida pela abreviatura E. coli), é uma bactéria bacilar Gram-negativa que se encontra normalmente no trato gastrointestinal inferior dos organismos de sangue quente (endotérmicos). A maioria das estirpes de E. coli são inofensivas, mas alguns sorotipos podem causar graves intoxicações alimentares nos seres humanos, e são ocasionalmente responsáveis pel\n[…]\nE. coli e as bactérias relacionadas constituem cerca de 0,1% da microbiota intestinal, e a transmissão fecal-oral é a principal via utilizada pelas cepas patogénicas que causam doenças. As células desta bactéria podem sobreviver fora do corpo por um tempo bastante limitado, o que faz com que sejam um organismo indicador ideal para comprovação da contaminação fecal em amostras quando extraídas para o meio ambiente. Entretanto, existe um crescente número de investigações que identificaram a E.\n[…]\nA bactéria também pode crescer e ser cultivada facilmente e a baixo custo em laboratório, e tem sido intensamente investigada há mais de 60 anos. Assim, pode-se dizer que a E. coli é o organismo modelo procariota mais estudado, e uma importante espécie no campo da biotecnologia e microbiologia, onde serviu como organismo hóspede para a maioria dos trabalhos sobre o ADN recombinante. Em condições favoráveis, leva apenas 20 minutos para se reproduzir.\n[…]\nMeningite: a maioria dos casos de meningite em neonatos é causada pela E.coli.\n[…]\nUma complicação grave possível é a síndrome hemolítico-urêmica (SHU) causada por substâncias tóxicas produzidas por algumas espécies de bactérias que destroem as células vermelhas do sangue, causando danos nos rins. Pode exigir cuidados intensivos, diálise renal e transfusões de sangue. Esse tipo de complicação é raro nos países desenvolvidos (apenas 1 caso em cada 100.000 habitantes por ano), mas são mais de 20 vezes mais comuns em países latinos e africanos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Antonie van Leeuwenhoek",
+      "descricao": "Comerciante e cientista holandês do século dezessete, pioneiro da microbiologia com microscópios que ele mesmo fabricava."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Os microscópios de uma lente só, fabricados por Leeuwenhoek no século dezessete, ampliavam até cerca de quantas vezes?",
+    "resposta": "Cerca de 270 vezes",
+    "distratores": [
+      "Cerca de 10 vezes",
+      "Cerca de 2 mil vezes",
+      "Cerca de 50 mil vezes"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek",
+        "situacao": "ok",
+        "texto": "Antonie Philips van Leeuwenhoek ( AHN-tə-nee vahn LAY-vən-hook, -⁠huuk; Dutch: [ˈɑntoːni vɑn ˈleːu.ə(n)ˌɦuk] ; 24 October 1632 – 26 August 1723) was a Dutch microbiologist and microscopist in the Golden Age of Dutch art, science and technology. A largely self-taught man in science, he is commonly known as \"the Father of Microbiology\", and one of the first microscopists and microbiologists.\n[…]\nAntonie van Leeuwenhoek made more than 500 optical lenses. He also created at least 25 single-lens microscopes, of differing types, of which only nine have survived. These microscopes were made of silver or copper frames, holding hand-made lenses. Those that have survived are capable of magnification up to 275 times. It is suspected that Van Leeuwenhoek possessed some microscopes that could magnify up to 500 times.\n[…]\nTimeline of microscope technology\n[…]\nFournier, Marian: The Fabric of Life: The Rise and Decline of Seventeenth-Century Microscopy (Johns Hopkins University Press, 1996, ISBN 978-0801851384)\n[…]\nMoll, Warnar (2003). \"Antonie van Leeuwenhoek\". Onderzoeksportal [Research Portal]. University of Amsterdam. Archived from the original on 18 February 2004. Retrieved 3 March 2016.\n[…]\nPayne, Alma Smith (1970). The Cleere Observer: A biography of Antoni van Leeuwenhoek. London: Macmillan.\n[…]\nRobertson, Lesley; Backer, Jantien et al.: Antoni van Leeuwenhoek: Master of the Minuscule. (Brill, 2016, ISBN 978-9004304284)\n[…]\nSnyder, Laura J. (2015). Eye of the Beholder: Johannes Vermeer, Antoni van Leeuwenhoek, and the Reinvention of Seeing. New York: W. W. Norton & Company.\n[…]\nWorks by Antoni van Leeuwenhoek at Project Gutenberg\n[…]\nWorks by or about Antonie van Leeuwenhoek at the Internet Archive\n[…]\nRetrospective paper on the Leeuwenhoek research by Brian J. Ford.\n[…]\nImages seen through a van Leeuwenhoek microscope by Brian J. Ford.\n[…]\nInstructions on making a van Leeuwenhoek Microscope Replica by Alan Shinn (archived)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Anton_van_Leeuwenhoek",
+        "situacao": "ok",
+        "texto": "Antonie Philips van Leeuwenhoek ([ˈɑːntəni vɑːn ˈleɪvənhuːk,_ʔhʊk] AHN-tə-nee-_-vahn-_-LAY-vən; nl; 24 de outubro de 1632 – 26 de agosto de 1723) foi um microbiologista e microscopista neerlandês da Idade de Ouro da arte, ciência e tecnologia holandesa. Um homem largamente autodidata em ciência, ele é comumente conhecido como \"o Pai da Microbiologia\", e um dos primeiros microscopistas e microbiolo\n[…]\nQuando Van Leeuwenhoek morreu em 1723, ele havia escrito cerca de 190 cartas à Royal Society, detalhando suas descobertas em uma ampla variedade de campos, centradas em seu trabalho em microscopia. Ele só escrevia cartas em seu próprio holandês coloquial; ele nunca publicou um artigo científico adequado em latim. Ele preferia fortemente trabalhar sozinho, desconfiando da sinceridade daqueles que ofereciam sua assistência.\n[…]\nAntonie van Leeuwenhoek fez mais de 500 lentes ópticas. Ele também criou pelo menos 25 microscópios de lente única, de diferentes tipos, dos quais apenas nove sobreviveram. Esses microscópios eram feitos de armações de prata ou cobre, segurando lentes feitas à mão. Os que sobreviveram são capazes de ampliação de até 275 vezes. Suspeita-se que Van Leeuwenhoek possuía alguns microscópios que podiam ampliar até 500 vezes.\n[…]\nOs microscópios de lente única de Van Leeuwenhoek eram dispositivos relativamente pequenos, o maior tendo cerca de 5 cm de comprimento. Eles são usados colocando a lente muito perto na frente do olho. O outro lado do microscópio tinha um alfinete, onde a amostra era fixada para permanecer perto da lente. Havia também três parafusos para mover o alfinete e a amostra ao longo de três eixos: um eixo para mudar o foco, e os outros dois eixos para navegar pela amostra.\n[…]\nMicroscópio\n[…]\nEscala microscópica\n[…]\nImages seen through a van Leeuwenhoek microscope by Brian J. Ford.\n[…]\nInstructions on making a van Leeuwenhoek Microscope Replica by Alan Shinn (arquivado)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Meiose",
+      "descricao": "Divisão celular que reduz pela metade o número de cromossomos e dá origem aos gametas."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Na meiose, a divisão que forma os gametas, uma única célula dá origem a quantas células-filhas?",
+    "resposta": "Quatro",
+    "distratores": [
+      "Duas",
+      "Oito",
+      "Dezesseis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Meiosis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Meiosis",
+        "situacao": "ok",
+        "texto": "Meiosis ( ) is a special type of cell division of germ cells in sexually-reproducing organisms that produces the gametes: the sperm or egg cells. It involves two rounds of division that ultimately result in four cells, each with only one copy of each chromosome (haploid). Additionally, prior to the division, genetic material from the paternal and maternal copies of each chromosome is crossed over,\n[…]\nMeiotic arrest requires inhibitory phosphorylation of CDK1 at amino acid residues Thr-14 and Tyr-15 by MYT1 and WEE1 as well as regulation of cyclin B levels facilitated by the anaphase-promoting complex (APC). CDK1 is regulated by cyclin B, whose synthesis peaks at the end of meiosis I. At anaphase I, cyclin B is degraded by an ubiquitin-dependent pathway.\n[…]\nMei2 may inactivate the DSR-Mmi1 system through sequestration of Mmi1 to stabilize meiosis-specific transcript expression. Mei2 may stall growth and bring about G1 arrest. Pat1 is a Ser/Thr protein kinase that phosphorylates Mei2, an RNA-binding protein, on residues Ser438 and Thr527. This phosphorylation may decrease the half-life of Mei2 by making it more likely to be destroyed by a proteasome working with E2 Ubc2 and E3 Ubr1.\n[…]\nThe Mei4 transcription factor is necessary to transcriptionally activate cdc25 in meiosis, and the mei4 mutant experiences cell cycle arrest. Mes1 inhibits the APC/C activator Slp1 such that the Cdc2-Cdc13 MPF activity can drive the second meiotic division.\n[…]\nIt has been suggested that Yeast CEP1 gene product, that binds centromeric region CDE1, may play a role in chromosome pairing during meiosis-I.\n[…]\nIn vertebrate oogenesis, maintained by cytostatic factor (CSF) has role in switching into meiosis-II.\n[…]\nMeiosis Flash Animation Archived 2010-08-23 at the Wayback Machine\n[…]\nMeiosis at Kimball's Biology Pages\n[…]\nStages of Meiosis animation\n[…]\n\"Abby Dernburg Seminar: Chromosome Dynamics During Meiosis\""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Meiose",
+        "situacao": "ok",
+        "texto": "Meiose é o processo de divisão celular através do qual uma célula tem o seu número de cromossomos reduzido pela metade.\n[…]\nA meiose permite a recombinação gênica, de tal forma que cada célula diplóide é capaz de formar quatro células haplóides (três no caso da oogênese) geneticamente diferentes entre si. Isso explica a variabilidade das espécies de reprodução sexuada.\n[…]\nOs dois núcleos resultantes dividem-se na Meiose II (ou Divisão II da Meiose), formando quatro células (três células no caso da oogênese). Qualquer das divisões ocorre em quatro fases: prófase, metáfase, anáfase e telófase.\n[…]\nEles descobriram que, durante a formação dos gametas, ocorrem duas divisões celulares sucessivas, após uma única duplicação cromossômica, de modo que as quatro células-filhas formadas ficam com a metade do número de cromossomo existentes na célula original (como Weismann previu que deveria acontecer. Essas duas divisões consecutivas são semelhantes à mitose).\n[…]\nÉ o tipo de divisão celular que leva à redução do número de cromossomos para metade, no qual ocorrem duas divisões nucleares sucessivas — Divisão I e Divisão II. Deste modo originam-se quatro células-filhas (três células-filhas no caso da oogénese) com metade do número de cromossomas da célula inicial, devido à separação dos cromossomos homólogos. Tendo cada célula-filha apenas um cromossoma de cada par de homólogos, esta é denominada célula haplóide (n).\n[…]\nPor fim, formam-se quatro células-filhas haplóides denominadas de tétrades (três células no caso da ovogênese), contendo cada uma apenas um cromossomo de cada par de homólogos (ou dos hemiomólogos).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Código genético",
+      "descricao": "Conjunto de regras pelo qual trincas de bases do material genético são traduzidas em aminoácidos."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Os sessenta e quatro códons do código genético correspondem a quantos aminoácidos padrão, usados para montar as proteínas?",
+    "resposta": "Vinte",
+    "distratores": [
+      "Oito",
+      "Doze",
+      "Trinta e dois"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Genetic_code"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Genetic_code",
+        "situacao": "ok",
+        "texto": "Genetic code is a set of rules used by living cells to translate information encoded within genetic material (DNA or RNA sequences of nucleotide triplets or codons) into proteins. Translation is accomplished by the ribosome, which links proteinogenic amino acids in an order specified by messenger RNA (mRNA), using transfer RNA (tRNA) molecules to carry amino acids and to read the mRNA three nucleo\n[…]\nSince 2001, 40 non-natural amino acids have been added into proteins by creating a unique codon (recoding) and a corresponding transfer-RNA:aminoacyl – tRNA-synthetase pair to encode it with diverse physicochemical and biological properties in order to be used as a tool to exploring protein structure and function or to create novel or enhanced proteins.\n[…]\nIn 2017, researchers in South Korea reported that they had engineered a mouse with an extended genetic code that can produce proteins with unnatural amino acids.\n[…]\nHowever, viruses such as totiviruses have adapted to the host's genetic code modification. In bacteria and archaea, GUG and UUG are common start codons. In rare cases, certain proteins may use alternative start codons.\n[…]\nThe genetic code is a key part of the history of life. Under the RNA world hypothesis, self-replicating RNA molecules preceded significant use of proteins. Under the nucleopeptide world hypothesis, significant use of peptides preceded the genetic code and was concurrent with early life's sophisticated use of RNA. Transfer RNA molecules appear to have evolved before modern aminoacyl-tRNA synthetases.\n[…]\nStereochemical affinity: the genetic code is a result of a high affinity between each amino acid and its codon or anti-codon; the latter option implies that pre-tRNA molecules matched their corresponding amino acids by this affinity. Later during evolution, this matching was gradually replaced with matching by aminoacyl-tRNA synthetases."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/C%C3%B3digo_gen%C3%A9tico",
+        "situacao": "ok",
+        "texto": "Código genético é a relação entre a sequência de bases no RNA mensageiro (mRNA) e a sequência correspondente de aminoácidos, num polipeptídeo, e portanto numa proteína. Ele é equivalente a uma língua e é constituído basicamente por um dicionário de palavras, a tabela do código genético, e por uma gramática, correspondente às propriedades do código, que estabelece como a mensagem codificada no mate\n[…]\nNo código genético existem códons de finalização (UAA,UGA e UAG) que indicam à célula que a sequência de aminoácidos destinada àquela proteína acaba ali. Existe ainda um códon de iniciação (AUG) que indica que a sequência de aminoácidos da proteína começa a ser codificada ali. Este códon (AUG) codifica o aminoácido Metionina (Met) de forma que todas as proteínas começam com o aminoácido Met.\n[…]\nAssim, facilmente percebemos a ligação entre os tripletos de ADN e os aminoácidos. Esta linguagem que os une é o que chamamos código genético. No final da década de 60 o código genético foi decifrado, e agora é geralmente representado em uma tabela que estabelece a conexão entre as bases azotas dos códons dos aminoácidos formados.\n[…]\nAfirma-se que o Código Genético é universal porque os códons têm o mesmo significado em quase todos os organismos. Assim, o códon AAU codifica o aminoácido Asparagina (Asn) tanto em um  ser humano como em um Streptococcus.\n[…]\n(ii) Para cada possibilidade obtida, analisar todos os subgrupos e tentar encontrar pelo menos um subgrupo que reproduz a distribuição de multipletos do código genético, isto e, que decompõe uma representação de códons em:\n[…]\nO grupo inicial G, em conjunto com sua representação de códons, representa a “simetria exata primordial” do modelo escolhido. Nesta fase, o código genético ´e completamente degenerado, isto ´e, todos os códons têm o mesmo significado e portanto ainda não codificam nenhum aminoácido.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Mitocôndria",
+      "descricao": "Organela de células eucariotas com dupla membrana, responsável pela respiração aérea e produção de ATP."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A usina de energia da célula, a mitocôndria, é envolvida por quantas membranas?",
+    "resposta": "Duas",
+    "distratores": [
+      "Uma",
+      "Três",
+      "Quatro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mitochondrion"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mitochondrion",
+        "situacao": "ok",
+        "texto": "A mitochondrion (pl. mitochondria) is an organelle found in the cells of most eukaryotes, such as animals, plants and fungi. Mitochondria have a double membrane structure and use aerobic respiration to generate adenosine triphosphate (ATP), which is used throughout the cell as a source of chemical energy. They were discovered by Albert von Kölliker in 1857 in the voluntary muscles of insects. The \n[…]\nThe inner mitochondrial membrane,\n[…]\nHowever, once Ca2+ signaling in the mitochondria passes a certain threshold, it stimulates the intrinsic pathway of apoptosis in part by collapsing the mitochondrial membrane potential required for metabolism.\n[…]\nThe hypothesis of mitochondrial binary fission has relied on the visualization by fluorescence microscopy and conventional transmission electron microscopy (TEM). The resolution of fluorescence microscopy (≈200 nm) is insufficient to distinguish structural details, such as double mitochondrial membrane in mitochondrial division or even to distinguish individual mitochondria when several are close together. Conventional TEM has also some technical limitations in verifying mitochondrial division.\n[…]\nThe first high-resolution electron micrographs appeared in 1952, replacing the Janus Green stains as the preferred way to visualize mitochondria. This led to a more detailed analysis of the structure of the mitochondria, including confirmation that they were surrounded by a membrane. It also showed a second membrane inside the mitochondria that folded up in ridges dividing up the inner chamber and that the size and shape of the mitochondria varied from cell to cell.\n[…]\n3D structures of proteins from inner mitochondrial membrane Archived September 13, 2011, at the Wayback Machine at University of Michigan\n[…]\n3D structures of proteins associated with outer mitochondrial membrane Archived September 13, 2011, at the Wayback Machine at University of Michigan"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mitoc%C3%B4ndria",
+        "situacao": "ok",
+        "texto": "A mitocôndria (do Grego μίτος ou mitos (fio/linha) + χονδρίοv ou \"chondrion\" (grânulo).) é uma das organelas celulares mais importantes, também sendo extremamente relevante para a respiração celular. É abastecida pela célula que a hospeda por substâncias orgânicas como a glicose, as quais processa e converte em energia sob a forma de ATP, que devolve para a célula hospedeira, sendo energia química\n[…]\nEsta apresenta duas membranas lipoprotéicas, uma externa lisa e outra interna que se dobra formando vilosidades, chamadas cristas. A região limitada pela membrana interna é conhecida como matriz mitocondrial, onde existem proteínas, ribossomos e DNA mitocondrial, de forma circular, que contém 37 genes codificadores de 13 proteínas, de 2 rRNAs e 22 tRNAs. Estes são necessários no processo de produção de ATP, ou seja, necessários para que a respiração celular ocorra.[carece de fontes]?\n[…]\nA mitocôndria contém as membranas exteriores e interiores compostas de bicamadas de fosfolípidos e proteínas. As duas membranas, no entanto, têm propriedades distintas. Devido a esta organização de dupla membrana, existem cinco compartimentos distintos dentro da mitocôndria. São eles:\n[…]\nA membrana mitocondrial interna,\n[…]\nHoje em dia a maioria da comunidade científica acredita na teoria da endossimbiose. Esta afirma que a mitocôndria é descendente de uma bactéria. Há milhões de anos formaram-se as primeiras células que sobreviviam em poças de lamas vulcânicas fervilhantes atestadas de enxofre que servia para estas células produzirem energia. Após a formação dos primeiros oceanos, apareceram as primeiras células fotossintéticas.\n[…]\nO ciclo de Krebs é uma rota anfibólica, catabólica e anabólica , com a finalidade de oxidar a acetil-CoA (acetil coenzima A), que se obtém da degradação de carboidratos, ácidos graxos e aminoácidos a duas moléculas de CO2.\n[…]\nBiologia Celular - Mitocôndrias[ligação inativa]",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Ornitorrinco",
+      "descricao": "Mamífero monotremado semiaquático australiano, espécie Ornithorhynchus anatinus."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Nós temos dois cromossomos sexuais em cada célula. Quantos cromossomos sexuais tem o ornitorrinco?",
+    "resposta": "Dez",
+    "distratores": [
+      "Três",
+      "Quatro",
+      "Seis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Platypus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Platypus",
+        "situacao": "ok",
+        "texto": "The platypus (Ornithorhynchus anatinus), sometimes referred to as the duck-billed platypus, is a semiaquatic, egg-laying mammal endemic to eastern Australia, including Tasmania. The platypus is the sole living representative of the family Ornithorhynchidae and genus Ornithorhynchus, though a number of related species appear in the fossil record.\n[…]\nDuring the Second World War, in spite of an export ban, Australia gave live platypuses as diplomatic gifts to Allied nations as part of an initiative to increase military assistance. One of which was intended as a gift to Winston Churchill died while en route as a result of either erratic temperature changes, malnourishment, or shock from depth charges deployed after a U-boat harassed the ship.\n[…]\nIn another story from the upper Darling, the major animal groups, the land animals, water animals and birds, all competed for the platypus to join their respective groups, but the platypus ultimately decided to not join any of them, feeling that he did not need to be part of a group to be special, and wished to remain friends with all of those groups.\n[…]\nThe platypus is also featured as a totem for some Aboriginal peoples, which is to them \"a natural object, plant or animal that is inherited by members of a clan or family as their spiritual emblem\", and the animal holds special meaning for the Wadi Wadi people at the Murray River. Because of their cultural significance and importance in connection to country, the platypus is protected and conserved by these Indigenous peoples.\n[…]\nThe platypus has often represented Australia's cultural identity and its image has also been used for stamps and currency and as a mascot in the 2000 Summer Olympics in Sydney.\n[…]\nPlatypus facts (archived 10 September 2019)\n[…]\nView the platypus genome in Ensembl\n[…]\nPBS Nature \"The Platypus Guardian\""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ornitorrinco",
+        "situacao": "ok",
+        "texto": "O ornitorrinco (nome científico: Ornithorhynchus anatinus, do grego: ornitho, ave + rhynchus, bico; e do latim: anati, pato + inus, semelhante a: \"com bico de ave, semelhante a pato\") é um mamífero semiaquático natural da Austrália e Tasmânia. É o único representante vivo da família Ornithorhynchidae, e a única espécie do gênero Ornithorhynchus. Juntamente com as equidnas, formam o grupo dos monot\n[…]\nPor causa da divergência inicial dos térios e do baixo número de espécies viventes, os monotremados são frequentes objetos de pesquisas moleculares. Em 2004, pesquisadores da Universidade Nacional da Austrália descobriram que o ornitorrinco tem dez cromossomos sexuais, comparados aos dois (XY) da maioria dos outros mamíferos (sendo assim o macho é representado por XYXYXYXYXY).\n[…]\nEmbora tenham a designação XY dos mamíferos, os cromossomos sexuais do ornitorrinco são mais similares aos cromossomos ZZ/ZW encontrados nas aves. A espécie também não possui o gene determinante sexual (SRY), significando que o processo de determinação sexual no ornitorrinco permanece desconhecido.\n[…]\nO ornitorrinco é também retratado em músicas, como na canção do grupo Green Day, Platypus (I Hate You), e do grupo Mr. Bungle, Platypus.\n[…]\nEle é o tema de um poema infantil de Banjo Paterson, Old Man Platypus, e frequentemente aparece como personagens de programas infantis, como por exemplo, a família de ornitorrincos em Mister Rogers' Neighborhood, Perry o Ornitorrinco no programa Phineas and Ferb - no qual ele é um agente secreto, nomeado de Agent P - e Ovide, a estrela do desenho animado Ovide and the Gang.\n[…]\n«Terra: Ornitorrinco é confirmado como ave, réptil e mamífero»\n[…]\n«BBC: Genoma explica 'estranheza' do ornitorrinco»\n[…]\n«Platypus - Evolution and Conservation» (em inglês)\n[…]\n«The University of Sydney - Platypus venom linked to pain relief» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Charles Darwin",
+      "descricao": "Naturalista inglês autor da teoria da evolução por seleção natural."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Quantos anos tinha Charles Darwin quando partiu na viagem do Beagle, no fim de 1831?",
+    "resposta": "Vinte e dois",
+    "distratores": [
+      "Dezoito",
+      "Trinta e um",
+      "Quarenta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Charles_Darwin",
+      "https://en.wikipedia.org/wiki/Second_voyage_of_HMS_Beagle"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Charles_Darwin",
+        "situacao": "ok",
+        "texto": "Charles Robert Darwin ( DAR-win; 12 February 1809 – 19 April 1882) was an English naturalist, geologist, and biologist, widely known for his contributions to evolutionary biology. His proposition that all species  have descended from a common ancestor is now  accepted and considered a fundamental scientific concept.\n[…]\nDarwin's early interest in nature led him to neglect his medical education at the University of Edinburgh; instead, he helped Robert Edmond Grant to investigate marine invertebrates. His studies at the University of Cambridge's Christ's College from 1828 to 1831 encouraged his passion for natural science. However, it was his five-year voyage on HMS Beagle from 1831 to 1836 that established Darwin as an eminent geologist.\n[…]\nThe observations he made during his voyage supported Charles Lyell's concept of gradual geological change. The Voyage of the Beagle (1839), Darwin's travel journal, made him a popular author. His first scientific work was The Structure and Distribution of Coral Reefs (1842). Along with his work on barnacles, it won him the Royal Medal in 1853.\n[…]\nAfter delays, the voyage began on 27 December 1831; it lasted almost five years. As FitzRoy had intended, Darwin spent most of that time on land investigating geology and making natural history collections, while HMS Beagle surveyed and charted coasts. He kept careful notes of his observations and theoretical speculations. At intervals during the voyage, his specimens were sent to Cambridge together with letters including a copy of his journal for his family.\n[…]\nPortraits of Charles Darwin at the National Portrait Gallery, London\n[…]\nScientific American, 29 April 1882, pp. 256, Obituary of Charles Darwin\n[…]\nFieser, James; Dowden, Bradley (eds.). \"Charles Darwin\". Internet Encyclopedia of Philosophy. ISSN 2161-0002. OCLC 37741658."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Second_voyage_of_HMS_Beagle",
+        "situacao": "ok",
+        "texto": "The second survey expedition of HMS Beagle took place from 27 December 1831 to 2 October 1836. Robert FitzRoy, the newest commander of Beagle, had thought of the advantages of having someone onboard who could investigate geology, and sought a naturalist to accompany them as a supernumerary. At the age of 22, the graduate Charles Darwin hoped to see the tropics before becoming a parson, and accepte\n[…]\nHe was greatly influenced by reading Charles Lyell's Principles of Geology during the voyage. By the end of the expedition, Darwin had made his name as a geologist, and fossil collector, and the publication of his journal (later known as The Voyage of the Beagle) gave him wide renown as a writer.\n[…]\nCharles Darwin had been told that Beagle was expected to sail about the end of September 1831, but fitting out took longer. The Admiralty Instructions were received on 14 November, and on 23 November, she was moved to anchorage, ready to depart. Repeated westerly gales caused delays, and forced them to turn back after departing on 10 and 21 December. Drunkenness at Christmas lost another day.\n[…]\nBeagle sailed on to Charles Island. By chance, they were greeted by the \"Englishman\" Nicholas Lawson, acting Governor of Galápagos for the Republic of the Equator, who accompanied them up to the penal colony. It was said that tortoises differed in the shape of the shells from island to island, and Darwin noted Lawson's statement that on seeing a tortoise, he could \"pronounce with certainty from which island it has been brought\".\n[…]\nAfter further surveying, Beagle set sail for Tahiti on 20 October 1835. Darwin wrote up his notes, and to his astonishment, found that all the mockingbirds caught on Charles, Albemarle, James and Chatham Islands differed from island to island. He wrote \"This birds which is so closely allied to the Thenca of Chili (Callandra of B.\n[…]\nDarwin in Galapagos: Footsteps to a New World"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Charles_Darwin",
+        "situacao": "ok",
+        "texto": "Charles Robert Darwin FRS FGRS FLS FLZ (pronúncia em inglês: ['dɑːrwɪn]; ocasionalmente aportuguesado em Carlos Darwin. Shrewsbury, 12 de fevereiro de 1809 – Downe, 19 de abril de 1882) foi um naturalista, geólogo e biólogo britânico, célebre por seus avanços sobre evolução nas ciências biológicas.\n[…]\nNa Austrália, os marsupiais potoroidae e o ornitorrinco chamaram tanta a atenção de Darwin pelas suas peculiaridades que ele chegou a cogitar na obra de dois distintos Criadores. Ele achou os aborígenes \"bem-humorados e receptivos\", e notou o quanto estavam ameaçados pela presença dos europeus.\n[…]\nDarwin completou seu terceiro livro geológico em 1846. Ele renovou seu fascínio em animais marinhos invertebrados, entusiasmo que datava de seus tempos de estudante com Grant, dissecando e classificando cracas que tinha coletado em sua viagem, observando suas interessantes estruturas e as comparando com formas parecidas.\n[…]\nDurante a vida de Darwin, muitos locais foram homenageados com seu nome. Uma extensão de água adjacente ao Estreito de Beagle foi nomeado Canal de Darwin por Robert FitzRoy após uma reação heroica de Darwin, junto com dois ou três homens, que os salvou de naufragarem de seus barcos quando uma geleira colapsou e causou uma grande onda que teria virado suas embarcações; o Monte Darwin, nos Andes, também foi nomeado em celebração ao 25.º aniversário de Darwin.\n[…]\nOs Darwins tiveram dez filhos: dois morreram na infância, sendo que a morte de Annie, aos dez anos, teve efeitos devastadores nos pais. Charles foi um pai devoto e especialmente atento aos seus filhos. Quando ficavam doentes, ele temia que tivessem herdado suas fraquezas por consanguinidade, por conta dos laços de parentesco próximos que ele compartilhava com sua esposa e prima, Emma Wedgwood.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "DNA",
+      "descricao": "Ácido desoxirribonucleico, a molécula em dupla hélice que guarda a informação genética dos seres vivos."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O DNA é um ácido desoxirribonucleico. A que parte da molécula ele deve o nome de ácido?",
+    "resposta": "Aos grupos fosfato",
+    "distratores": [
+      "Ao açúcar",
+      "Às bases nitrogenadas",
+      "Às proteínas histonas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nucleic_acid",
+      "https://en.wikipedia.org/wiki/DNA"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nucleic_acid",
+        "situacao": "ok",
+        "texto": "Nucleic acids are large biomolecules that are crucial in all cells and viruses. They are composed of nucleotides, which are the monomer components: a 5-carbon sugar, a phosphate group and a nitrogenous base. The two main classes of nucleic acids are deoxyribonucleic acid (DNA) and ribonucleic acid (RNA). If the sugar is ribose, the polymer is RNA; if the sugar is deoxyribose, a variant of ribose, \n[…]\nDNA consists of two long polymers of monomer units called nucleotides, with backbones made of sugars and phosphate groups joined by ester bonds. These two strands are oriented in opposite directions to each other and are, therefore, antiparallel. Attached to each sugar is one of four types of molecules called nucleobases (informally, bases). It is the sequence of these four nucleobases along the backbone that encodes genetic information.\n[…]\nTransfer RNA serves as the carrier molecule for amino acids to be used in protein synthesis, and is responsible for decoding the mRNA. In addition, many other classes of RNA are now known.\n[…]\nArtificial nucleic acid analogues have been designed and synthesized. They include peptide nucleic acid, morpholino- and locked nucleic acid, glycol nucleic acid, and threose nucleic acid. Each of these is distinguished from naturally occurring DNA or RNA by changes to the backbone of the molecules.\n[…]\nHistory of molecular biology\n[…]\nMolecular biology – Branch of biology that studies biological systems at the molecular level\n[…]\nQuantification of nucleic acids – Process in molecular biologyPages displaying short descriptions of redirect targets\n[…]\nBruce Alberts, Alexander Johnson, Julian Lewis, Martin Raff, Keith Roberts, and Peter Walter Molecular Biology of the Cell, 2007, ISBN 978-0-8153-4105-5. Fourth edition is available online through the NCBI Bookshelf: link"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/DNA",
+        "situacao": "ok",
+        "texto": "Deoxyribonucleic acid (; DNA) is a polymer composed of two polynucleotide chains that coil around each other to form a double helix. The polymer carries genetic instructions for the development, functioning, growth and reproduction of all known organisms and many viruses. DNA and ribonucleic acid (RNA) are nucleic acids.\n[…]\nHelicases are proteins that are a type of molecular motor. They use the chemical energy in nucleoside triphosphates, predominantly adenosine triphosphate (ATP), to break hydrogen bonds between bases and unwind the DNA double helix into single strands. These enzymes are essential for most processes where enzymes need to access the DNA bases.\n[…]\nIn 1927, Nikolai Koltsov proposed that inherited traits would be inherited via a \"giant hereditary molecule\" made up of \"two mirror strands that would replicate in a semi-conservative fashion using each strand as a template\". In 1928, Frederick Griffith in his experiment discovered that traits of the \"smooth\" form of Pneumococcus could be transferred to the \"rough\" form of the same bacteria by mixing killed \"smooth\" bacteria with the live \"rough\" form.\n[…]\nIn an influential presentation in 1957, Crick laid out the central dogma of molecular biology, which foretold the relationship between DNA, RNA, and proteins, and articulated the \"adaptor hypothesis\". Final confirmation of the replication mechanism that was implied by the double-helical structure followed in 1958 through the Meselson–Stahl experiment.\n[…]\nFurther work by Crick and co-workers showed that the genetic code was based on non-overlapping triplets of bases, called codons, allowing Har Gobind Khorana, Robert W. Holley, and Marshall Warren Nirenberg to decipher the genetic code. These findings represent the birth of molecular biology.\n[…]\nPDB Molecule of the Month DNA"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%81cido_nucleico",
+        "situacao": "ok",
+        "texto": "Os ácidos nucleicos são moléculas de um grande tamanho (macromoléculas), formadas por unidades monoméricas menores conhecidas como nucleótidos. Cada nucleotídeo, por sua vez, é formado por três partes:\n[…]\num radical “fosfato”, derivado da molécula do ácido ortofosfórico (H3PO4);\n[…]\nExistem dois tipos de ácidos nucleicos: ácido desoxirribonucleico - DNA - e ácido ribonucleico - RNA.\n[…]\nPentoses - como o próprio nome descreve, é um açúcar formado por cinco carbonos. Ocorrem dois tipos: a desoxirribose e a ribose.\n[…]\nBase nitrogenada - há cinco bases azotadas diferentes, divididas em dois grupos:\n[…]\nAlguns vírus passam suas características hereditárias por meio dessa molécula, que tem o principal papel de armazenar as informações.\n[…]\nA duplicação do DNA é necessária devido à divisão celular, sendo denominada duplicação semiconservativa, pois ao ocorrer a separação das suas fitas de pela enzima helicase, cada uma delas irá servir de molde para a construção de uma nova, o que faz a nova fita conservar uma parte do DNA antigo, portanto as duas novas moléculas de DNA terá, em sua constituição, uma parte do antigo.\n[…]\nO RNA está envolvido no processo de fabricação de proteína. É formado por nucleotídeos compostos de um fosfato, uma ribose e uma base nitrogenada, que podem ser uracila, adenina, guanina ou citosina. Possui formato de uma fita hélice e se diferencia em RNA mensageiro, RNA transportador e RNA ribossomal em procariotos, porém em eucariotos há a presença de todos os contidos nos procariotos, com adição de dois RNAs, o snRNA (small nuclear RNA) e o  microRNA.\n[…]\nEm função desta descoberta, Miescher mudou o nome do produto para “Ácido Nucleico”.\n[…]\nTeste de ácido nucleico (NAT)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Ribossomo",
+      "descricao": "Estrutura celular, presente em todos os seres vivos celulares, que fabrica proteínas lendo o RNA mensageiro."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome ribossomo junta ribo, de ácido ribonucleico, com uma palavra grega que significa o quê?",
+    "resposta": "Corpo",
+    "distratores": [
+      "Grão",
+      "Fábrica",
+      "Semente"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ribosome"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ribosome",
+        "situacao": "ok",
+        "texto": "A ribosome () is a ribonucleoprotein particle found in all cells that synthesizes proteins by translating genetic information encoded in messenger RNA (mRNA). During translation, the ribosome decodes successive codons in an mRNA molecule and, with the aid of transfer RNA (tRNA), links amino acids into a polypeptide chain. Each ribosome comprises a small and a large subunit, each composed of one or\n[…]\nDuring the meeting, the word \"ribosome\" was suggested, which has a very satisfactory name and a pleasant sound. The present confusion would be eliminated if \"ribosome\" were adopted to designate ribonucleoprotein particles in sizes ranging from 35 to 100S.\n[…]\nA ribosome is a ribonucleoprotein particle made from complexes of ribosomal RNAs and proteins, arranged into two ribosomal subunits, one large and the other small. Ribosomes are complex molecular machines present in all cells both prokaryotic, and eukaryotic. The ribosomal subunits of prokaryotes and eukaryotes are quite similar.\n[…]\nRibosomes are classified as being either \"free\" or \"membrane-bound\".\n[…]\nFor example, 40S ribosomal units without eS25 in yeast and mammalian cells are unable to recruit the CrPV IGR IRES.\n[…]\nHeterogeneity of ribosomal RNA modifications plays a significant role in structural maintenance and/or function and most mRNA modifications are found in highly conserved regions. The most common rRNA modifications are pseudouridylation and 2'-O-methylation of ribose.\n[…]\nRibosome-associated vesicle\n[…]\nLab computer simulates ribosome in motion\n[…]\nRole of the Ribosome, Gwen V. Childs, copied here\n[…]\nRibosome in Proteopedia—The free, collaborative 3D encyclopedia of proteins & other molecules\n[…]\nRibosomal proteins families in ExPASy Archived 2011-04-30 at the Wayback Machine\n[…]\nRibosome Archived 2010-11-14 at the Wayback Machine\n[…]\n3D electron microscopy structures of ribosomes at the EM Data Bank (EMDB)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ribossoma",
+        "situacao": "ok",
+        "texto": "Ribossomas (português europeu) ou ribossomos (português brasileiro) são as estruturas nas quais são produzidas as proteínas das células. Encontram-se livres no citoplasma tanto nas células eucariontes como nas procariontes. Nas eucariontes, eles também podem estar aderidos ao retículo endoplasmático.\n[…]\nSão organelas celulares constituídos por proteínas e ácido ribonucleico presentes no citoplasma celular, nas mitocôndrias, nos cloroplastos e na parte superficial do retículo endoplasmático, formando o retículo endoplasmático rugoso (granular). Trata-se de um complexo macro-molecular que asseguram a síntese proteica através da informação genética que lhes chega do ARN transcrito na forma de ARN mensageiro.\n[…]\nO Ribo-T, um ribossoma artificial, foi criado para conduzir uma melhor compreensão de\n[…]\ncomo funcionam os ribossomas.\n[…]\nO centro decodificador na subunidade 30S garante que apenas os tRNA portadores de anticódons que se pareiam com o códon (chamados de RNA cognatos) serão aceitos no sítio A. Os tRNA cognatos se associam ao centro de peptidil transferase na subunidade 60S onde é catalisada a formação da ligação peptídica. Recentemente, a estrutura dos ribossomos em associação aos RNA foi determinada em termos atômicos como uso de varias técnicas, incluindo cristalografia de raios X.\n[…]\nOs resultados destes estudos elegantes mostraram claramente que ambos os centros são totalmente compostos de regiões de RNA. Isto é, os contatos importantes nestes centros são de RNA -RNA. A formação da ligação peptídica é tida como sendo catalisada por um sítio ativo no RNA ribossômico e apenas ajudadas por proteínas ribossômicas. Sua função é produzir proteinas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Eucarionte",
+      "descricao": "Organismo cujas células têm núcleo delimitado por membrana, como animais, plantas, fungos e protistas."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Plantas, animais e fungos são eucariontes. Traduzido do grego, o que esse nome significa?",
+    "resposta": "Núcleo verdadeiro",
+    "distratores": [
+      "Depois do núcleo",
+      "Célula completa",
+      "Muitos núcleos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Eukaryote"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Eukaryote",
+        "situacao": "ok",
+        "texto": "The eukaryotes () are cellular organisms of the domain Eukaryota or Eukarya, which have a distinct cell nucleus (formed by a nuclear membrane), membrane-bound organelles and organization supported by a cytoskeleton. Extant eukaryotes are traditionally grouped into four kingdoms:  animals, plants, fungi and protists.\n[…]\nEukaryotes can be unicellular or multicellular, and their cell sizes are significantly (hundreds of times) larger than prokaryotes. They have biomembranes enclosing their nucleus and organelles such as the endoplasmic reticulum, Golgi apparatus, ribosome, vacuole and lysosome, as well as endosymbiont-derived organelles (which are bound by two or more layers of membrane) such as mitochondria and various plastids.\n[…]\nEukaryotes have lower metabolic rates and longer generation times than prokaryotes, because they are larger and therefore have a smaller surface area to volume ratio.\n[…]\nKingdom Plantae\n[…]\nHowever, it is over 600 million years older than all other possible eukaryotes, and many of its \"eukaryote features\" are not specific to the clade, meaning it is almost certainly a microbial mat instead.\n[…]\nThe nature of steranes as eukaryotic biomarkers is further complicated by the production of sterols by some bacteria.\n[…]\nWhenever their origins, eukaryotes may not have become ecologically dominant until much later; a massive increase in the zinc composition of marine sediments 800 million years ago has been attributed to the rise of substantial populations of eukaryotes, which preferentially consume and incorporate zinc relative to prokaryotes, approximately a billion years after their origin (at the latest).\n[…]\nEukaryote hybrid genome\n[…]\nList of sequenced eukaryotic genomes\n[…]\n\"Eukaryotes\" Archived 29 January 2012 at the Wayback Machine (Tree of Life Web Project)\n[…]\n\"Eukaryote\". The Encyclopedia of Life."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Eukaryota",
+        "situacao": "ok",
+        "texto": "Os eucariotos, também chamados eucariontes, são os organismos do domínio Eukaryota ou Eukarya. Suas células têm o material genético principal guardado em um núcleo envolvido por membrana, característica que as distingue das células de bactérias e arqueias. Animais, plantas, fungos e os organismos reunidos informalmente como protistas pertencem a esse domínio.\n[…]\nA palavra eucarioto vem dos termos gregos eu, εὖ, \"verdadeiro\" ou \"bom\", e karyon, κάρυον, \"noz\" ou \"caroço\", em referência ao núcleo celular.\n[…]\nNo núcleo, o DNA é organizado em cromossomos geralmente lineares associados a histonas, e o envoltório nuclear delimita esse compartimento e controla a troca com o citoplasma por meio dos poros nucleares. O último ancestral comum eucariótico já possuía cromossomos lineares, histonas e um complexo de poro nuclear.\n[…]\nOs plastídeos primários de Archaeplastida descendem de uma endossimbiose entre um eucarioto e uma cianobactéria. A integração do endossimbionte envolveu transferência de genes para o núcleo e a evolução de sistemas que direcionam proteínas produzidas pela célula hospedeira de volta ao plastídeo. Nas plantas, os plastídeos se desenvolvem a partir de proplastídeos e podem se diferenciar em cloroplastos, cromoplastos e formas voltadas ao armazenamento, entre outras.\n[…]\nA eucariogênese culminou no último ancestral comum eucariótico, LECA, que já possuía um núcleo com poros, cromossomos lineares associados a histonas, um sistema endomembranoso, citoesqueleto de actina e tubulina com proteínas motoras, mitose, componentes da meiose e uma mitocôndria integrada.\n[…]\nProcarionte, organismos celulares sem núcleo delimitado por membrana\n[…]\nProtista, designação tradicional para muitos eucariotos que não são animais, plantas ou fungos\n[…]\nCélula Eucariótica, Núcleo de Ensino, Pesquisa e Extensão, Universidade Federal do Paraná",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Meiose",
+      "descricao": "Divisão celular que reduz pela metade o número de cromossomos e dá origem aos gametas."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A divisão celular que forma óvulos e espermatozoides se chama meiose. Em grego, essa palavra significa o quê?",
+    "resposta": "Diminuição",
+    "distratores": [
+      "Divisão",
+      "Mistura",
+      "Renovação"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Meiosis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Meiosis",
+        "situacao": "ok",
+        "texto": "Meiosis ( ) is a special type of cell division of germ cells in sexually-reproducing organisms that produces the gametes: the sperm or egg cells. It involves two rounds of division that ultimately result in four cells, each with only one copy of each chromosome (haploid). Additionally, prior to the division, genetic material from the paternal and maternal copies of each chromosome is crossed over,\n[…]\nThe significance of meiosis for reproduction and inheritance, however, was described only in 1890 by German biologist August Weismann, who noted that two cell divisions were necessary to transform one diploid cell into four haploid cells if the number of chromosomes had to be maintained. In 1911, the American geneticist Thomas Hunt Morgan detected crossovers in meiosis in the fruit fly Drosophila melanogaster, which helped to establish that genetic traits are transmitted on chromosomes.\n[…]\nThe new combinations of DNA created during meiosis are a significant source of genetic variation alongside mutation, resulting in new combinations of alleles, which may be beneficial. Meiosis generates gamete genetic diversity in two ways: (1) Law of Independent Assortment.\n[…]\nThe Mei4 transcription factor is necessary to transcriptionally activate cdc25 in meiosis, and the mei4 mutant experiences cell cycle arrest. Mes1 inhibits the APC/C activator Slp1 such that the Cdc2-Cdc13 MPF activity can drive the second meiotic division.\n[…]\nIt has been suggested that Yeast CEP1 gene product, that binds centromeric region CDE1, may play a role in chromosome pairing during meiosis-I.\n[…]\nIn vertebrate oogenesis, maintained by cytostatic factor (CSF) has role in switching into meiosis-II.\n[…]\nMeiosis Flash Animation Archived 2010-08-23 at the Wayback Machine\n[…]\nMeiosis at Kimball's Biology Pages\n[…]\nStages of Meiosis animation\n[…]\n\"Abby Dernburg Seminar: Chromosome Dynamics During Meiosis\""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Meiose",
+        "situacao": "ok",
+        "texto": "Meiose é o processo de divisão celular através do qual uma célula tem o seu número de cromossomos reduzido pela metade.\n[…]\nA meiose permite a recombinação gênica, de tal forma que cada célula diplóide é capaz de formar quatro células haplóides (três no caso da oogênese) geneticamente diferentes entre si. Isso explica a variabilidade das espécies de reprodução sexuada.\n[…]\nA meiose conduz à redução do número dos cromossomos à metade. A primeira divisão é a mais complexa, sendo designada divisão de redução. É durante esta divisão que ocorre a redução à metade do número de cromossomos. Na primeira fase, os cromossomos emparelham-se e trocam material genético (entrecruzamento ou crossing-over), antes de separar-se em duas células filhas. Cada um dos núcleos destas células filhas tem só metade do número original de cromossomos.\n[…]\nOs dois núcleos resultantes dividem-se na Meiose II (ou Divisão II da Meiose), formando quatro células (três células no caso da oogênese). Qualquer das divisões ocorre em quatro fases: prófase, metáfase, anáfase e telófase.\n[…]\nA meiose é fundamental para a manutenção da vida dos seres pluricelulares, pois é através dela que se formam as células de reprodução (gametas: espermatozoide e óvulo) que se juntam para formar o ovo, ou também conhecido como zigoto.\n[…]\nAs células haplóides resultantes da Meiose, apesar de conterem o mesmo número de cromossomos, não são iguais a nível genético, pois na Metáfase I a orientação dos cromossomos homólogos é aleatória. Cada par de homólogos orienta-se independentemente da orientação dos outros pares.\n[…]\nDivisão celular",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Clorofila",
+      "descricao": "Pigmento das plantas e algas que capta a luz para a fotossíntese."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome clorofila, o pigmento que capta a luz na fotossíntese, vem do grego e significa o quê?",
+    "resposta": "Folha verde",
+    "distratores": [
+      "Luz do sol",
+      "Sangue da planta",
+      "Seiva viva"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chlorophyll"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chlorophyll",
+        "situacao": "ok",
+        "texto": "Chlorophyll is any of several related photochemical catalysts and green pigments found in cyanobacteria and in the chloroplasts of algae and plants. Its name is derived from the Greek words χλωρός (khloros, \"pale green\") and φύλλον (phyllon, \"leaf\"). Chlorophyll allows plants to absorb energy from light. Those pigments are involved in oxygenic photosynthesis, as opposed to bacteriochlorophylls, wh\n[…]\nReaction center chlorophyll–protein complexes are capable of directly absorbing light and performing charge separation events without the assistance of other chlorophyll pigments, but the probability of a single chlorophyll molecule doing so under a given light intensity is small. Thus, the other chlorophylls in the photosystem and antenna pigment proteins all cooperatively absorb and funnel light energy to the reaction center.\n[…]\nBesides chlorophyll a, there are other pigments, called accessory pigments, which occur in these pigment–protein antenna complexes. These pigments complement chlorophyll by absorbing photons at wavelengths outside of chlorophyll's narrow absorption spectrum and deliver additional electrons to the photosystem. The evolution of the enzymes producing cholorophyll is thought to have taken place 2.3 billion years ago.\n[…]\nChlorophyll e is reserved for a pigment that has been extracted from algae in 1966 but not chemically described. Besides the lettered chlorophylls, a wide variety of sidechain modifications to the chlorophyll structures are known in the wild. For example, Prochlorococcus, a cyanobacterium, uses 8-vinyl Chl a and b.\n[…]\nCarotenoids, related photosensitive compounds that complement and protect chlorophyll\n[…]\nChlorophyllin, a semi-synthetic derivative of chlorophyll\n[…]\nDeep chlorophyll maximum\n[…]\nChlorophyll fluorescence, to measure plant stress\n[…]\nPurple Earth hypothesis, a scientific hypothesis that explains the evolution of red-blue spectral affinity of chlorophyll."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Clorofila",
+        "situacao": "ok",
+        "texto": "Clorofila é o nome de um grupo de pigmentos verdes que permite que plantas, algas e cianobactérias aproveitem a energia da luz na fotossíntese. Nas plantas e nas algas, ela se concentra nos cloroplastos e dá a folhas e outros tecidos grande parte de sua cor verde.\n[…]\nAs clorofilas absorvem principalmente luz azul e vermelha e absorvem menos luz verde. Existem diferentes formas, entre elas as clorofilas a, b, c, d e f. A clorofila a é o principal pigmento dos centros de reação na fotossíntese oxigênica. Outras formas ampliam as faixas do espectro aproveitadas na captação de luz e, em certos organismos, as clorofilas d e f também ocupam posições específicas nos fotossistemas.\n[…]\nEm 1817, Joseph Bienaimé Caventou e Pierre Joseph Pelletier isolaram o pigmento e lhe deram o nome de clorofila. O termo combina as palavras gregas χλωρός, khloros, \"verde-pálido\", e φύλλον, phyllon, \"folha\". Em 1906, a presença de magnésio na clorofila foi demonstrada.\n[…]\nEm uma folha intacta, a fluorescência da clorofila muda conforme a energia absorvida é usada em fotoquímica ou dissipada por outros caminhos. Medir essa emissão permite acompanhar processos do aparato fotossintético sem destruir o tecido.\n[…]\nEm terra, a fluorescência da clorofila induzida pelo Sol, ou SIF, pode ser detectada a distância e usada para acompanhar a fotossíntese desde a escala de uma folha até grandes áreas de vegetação. O satélite FLEX, da Agência Espacial Europeia, foi lançado em 15 de setembro de 2026. Seu Fluorescence Imaging Spectrometer, FLORIS, mede a fluorescência emitida pela vegetação durante a fotossíntese para estudar atividade fotossintética e estresse vegetal em escala global.\n[…]\nCarotenoide, grupo de pigmentos que absorve luz e atua junto às clorofilas em organismos fotossintéticos",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Thomas Huxley",
+      "descricao": "Biólogo inglês do século dezenove (1825–1895), grande defensor público da teoria de Darwin."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Pela ferocidade com que defendia a teoria da evolução, o biólogo inglês Thomas Huxley ganhou qual apelido?",
+    "resposta": "Buldogue de Darwin",
+    "distratores": [
+      "Leão de Oxford",
+      "Lobo de Darwin",
+      "Martelo da Ciência"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thomas_Henry_Huxley"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Thomas_Henry_Huxley",
+        "situacao": "ok",
+        "texto": "Thomas Henry Huxley (4 May 1825 – 29 June 1895) was an English biologist and anthropologist who specialised in comparative anatomy. He has become known as \"Darwin's Bulldog\" for his advocacy of Charles Darwin's theory of evolution.\n[…]\nOne effect of the debate was to hugely increase Huxley's visibility amongst educated people, through the accounts in newspapers and periodicals. Another consequence was to alert him to the importance of public debate: a lesson he never forgot. A third effect was to serve notice that Darwinian ideas could not be easily dismissed: on the contrary, they would be vigorously defended against orthodox authority.\n[…]\nHooker, John Lubbock (banker, biologist and neighbour of Darwin), Herbert Spencer (social philosopher and sub-editor of the Economist), William Spottiswoode (mathematician and the Queen's Printer), Thomas Hirst (Professor of Physics at University College London), Edward Frankland (the new Professor of Chemistry at the Royal Institution) and George Busk, zoologist and palaeontologist (formerly surgeon for HMS Dreadnought). All except Spencer were fellows of the Royal Society.\n[…]\nThis largely morphological program of comparative anatomy remained at the core of most biological education for a hundred years until the advent of cell and molecular biology and interest in evolutionary ecology forced a fundamental rethink. It is an interesting fact that the methods of the field naturalists who led the way in developing the theory of evolution (Darwin, Alfred Russel Wallace, Fritz Müller, Henry Bates) were scarcely represented at all in Huxley's program.\n[…]\nThe Huxley Lecture\n[…]\nHuxley review: Darwin on the origin of Species, Westminster Review, 17 (n.s.) April 1860 p. 541–570."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Thomas_Henry_Huxley",
+        "situacao": "ok",
+        "texto": "Thomas Henry Huxley (Ealing, Middlesex, 4 de maio de 1825 — Eastbourne, Sussex, 29 de junho de 1895) foi um biólogo e filósofo britânico que ficou conhecido como \"O Buldogue de Darwin\", por ser o principal defensor público da teoria da evolução de Charles Darwin e um dos principais cientistas ingleses do século XIX. É ainda reconhecido por ser o criador do termo \"agnóstico\" para representar um pos\n[…]\nT. H. Huxley foi um dos poucos confidentes a quem Charles Darwin expôs suas ideias evolucionistas antes da publicação de A Origem das Espécies e um dos principais responsáveis pelo sucesso da sua publicação.\n[…]\nLogo após conhecer e concordar com a Teoria da Evolução (apesar de não aceitar várias das ideias de Darwin, como o Gradualismo), iniciou a estratégia eficaz de substituir na cúpula científica inglesa, graças à sua influência, cientistas idosos e com ideias ultrapassadas, por uma nova classe de cientistas jovens e talentosos, abertos a novas ideias e prontos para uma \"revolução\" científica.\n[…]\nEm 1858, quando Darwin foi orientado (em parte por Huxley) a elaborar rapidamente um artigo científico sobre a Teoria da Evolução em conjunto com Alfred Russel Wallace (que havia chegado independentemente a conclusões semelhantes às de Darwin), para apresentar à Linnean Society em Londres, revigorando a comunidade científica que já era muito diferente e permeável à mudança.\n[…]\nComo Darwin nunca foi um grande orador e preferiu morar no interior da Inglaterra, longe dos debates e repercussões da sua teoria, coube a Thomas Huxley o papel de principal defensor da Evolução. Orador perspicaz e feroz, além de possuir um humor cínico, traços que lhe valeram o apelido. Como disse ao estudante Henry Fairfield Osborn, \"Você sabe que eu tenho que tomar conta dele - de fato, eu sempre tenho sido o buldogue de Darwin\".\n[…]\nCharles Darwin\n[…]\nTeoria da Evolução\n[…]\nObras de Thomas Henry Huxley na Open Library",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Gregor Mendel",
+      "descricao": "Frade agostiniano austríaco, fundador da genética pelos experimentos com ervilhas."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Ao entrar no mosteiro, o frade das ervilhas adotou o nome Gregor. Qual era o seu nome de batismo?",
+    "resposta": "Johann",
+    "distratores": [
+      "Franz",
+      "Karl",
+      "Anton"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gregor_Mendel"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gregor_Mendel",
+        "situacao": "ok",
+        "texto": "Gregor Johann Mendel (; German: [ˈmɛndl̩]; Czech: Řehoř Jan Mendel; 20 July 1822 – 6 January 1884) was an Austrian biologist, meteorologist, mathematician, Augustinian friar and abbot of St. Thomas' Abbey in Brno (Brünn), Margraviate of Moravia. Mendel was born in a German-speaking family in the Silesian part of the Austrian Empire (today's Czech Republic) and gained posthumous recognition as the \n[…]\nHe became a monk partly because it enabled him to obtain an education without paying for it himself. As the son of a struggling farmer, the monastic life, in his words, spared him the \"perpetual anxiety about a means of livelihood.\" Born Johann Mendel, he was given the name \"Gregor\" (Řehoř in Czech) when he joined the Order of Saint Augustine.\n[…]\nWhen Mendel entered the Faculty of Philosophy, the Department of Natural History and Agriculture was headed by Johann Karl Nestler, who conducted extensive research on hereditary traits of plants and animals, especially sheep. Upon recommendation of his physics teacher Friedrich Franz, Mendel entered the Augustinian St Thomas's Abbey in Brno and began his training as a Catholic priest. Mendel worked as a substitute high school teacher.\n[…]\nMendel Polar Station in Antarctica\n[…]\nMendel University in Brno\n[…]\nMendelian error\n[…]\nThe Gardener of God, an Italian docudrama about the life and works of Gregor Mendel\n[…]\nWorks by Gregor Mendel at Project Gutenberg\n[…]\nWorks by or about Gregor Mendel at the Internet Archive\n[…]\nWorks by Gregor Mendel at LibriVox (public domain audiobooks)\n[…]\n1913 Catholic Encyclopedia entry, \"Mendel, Mendelism\"\n[…]\nBiography of Gregor Mendel\n[…]\nGregor Mendel (1822–1884)\n[…]\nGregor Mendel Primary Sources\n[…]\nJohann Gregor Mendel: Why his discoveries were ignored for 35 (72) years (in German)\n[…]\nMasaryk University to rebuild Mendel's greenhouse | Brno Now\n[…]\nMendel Museum of Genetics\n[…]\nMendel's Paper in English\n[…]\nOnline Mendelian Inheritance in Man\n[…]\nVillanova University Mendel Collection"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gregor_Mendel",
+        "situacao": "ok",
+        "texto": "Gregor Johann Mendel OSA (Heinzendorf bei Odrau, 20 de julho de 1822 — Brno, 6 de janeiro 1884) foi um biólogo, botânico, frade agostiniano da Igreja Católica e meteorologista austríaco.\n[…]\nSendo um brilhante estudante a sua família encorajou-o a seguir estudos superiores, e, aos 21 anos, a entrar num mosteiro da Ordem de Santo Agostinho em 1843 (atual mosteiro de Brno, hoje na República Checa) pois não tinham dinheiro para suportar o custo dos estudos. Obedecendo ao costume ao tornar-se monge, optou um outro nome: \"Gregor\". Então Mendel tinha a seu cargo a supervisão dos jardins do mosteiro.\n[…]\nGregor Mendel, conhecido como o \"pai da genética moderna\", escolheu estudar a variação das plantas na horta experimental de 2 hectares de seu mosteiro.\n[…]\nEm 1936, Ronald Fisher, um estatístico proeminente e geneticista populacional, reconstruiu os experimentos de Mendel, analisou os resultados da geração F2 (segunda filial) e descobriu que a proporção de fenótipos dominantes para recessivos (por exemplo, ervilhas amarelas versus verdes; ervilhas redondas versus enrugadas) era implausível e consistentemente muito perto da proporção esperada de 3 para 1.\n[…]\n1822 - No dia 20 de julho, nasce Gregor Johann Mendel na Silésia, na região de Troppau, filho de uma família de camponeses.\n[…]\n1853 — De volta ao mosteiro, dá aulas principalmente de Física.\n[…]\n1856 — Inicia as suas experiências nos jardins do mosteiro onde cruza as ervilhas e diferentes árvores.\n[…]\n1865 — Gregor Mendel propõe que as características hereditárias são transmitidas em unidades autorreplicáveis, chamadas fatores e, posteriormente, genes\n[…]\n1873 — Mendel demite-se do cargo.\n[…]\nCATHOLIC ENCYCLOPEDIA: Mendel, Mendelism (newadvent.org)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Apoptose",
+      "descricao": "Morte celular programada, processo controlado pelo qual a célula se autodestrói."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A morte programada das células se chama apoptose, uma palavra grega que lembra uma cena da natureza. Qual?",
+    "resposta": "A queda das folhas",
+    "distratores": [
+      "O pôr do sol",
+      "O fim do inverno",
+      "A seca dos rios"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Apoptosis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Apoptosis",
+        "situacao": "ok",
+        "texto": "Apoptosis (from Ancient Greek: ἀπόπτωσις, romanized: apóptōsis, lit. 'falling off') is a form of programmed cell death that occurs in multicellular organisms and in some eukaryotic, single-celled microorganisms such as yeast. Biochemical events lead to characteristic cellular changes (morphology) and death. These changes include blebbing, cell shrinkage, nuclear fragmentation, chromatin condensati\n[…]\nThe various types of apoptotic pathways contain a multitude of different biochemical components, many of them not yet understood. As a pathway is more or less sequential in nature, removing or modifying one component leads to an effect in another. In a living organism, this can have disastrous effects, often in the form of disease or disorder.\n[…]\nApoptosis is a multi-step, multi-pathway cell-death programme that is inherent in every cell of the body. In cancer, the apoptosis cell-division ratio is altered. Cancer treatment by chemotherapy and irradiation kills target cells primarily by inducing apoptosis.\n[…]\nProgrammed cell death in plants has a number of molecular similarities to that of animal apoptosis, but it also has differences, notable ones being the presence of a cell wall and the lack of an immune system that removes the pieces of the dead cell. Instead of an immune response, the dying cell synthesizes substances to break itself down and places them in a vacuole that ruptures as the cell dies.\n[…]\nAdditionally, plants do not contain phagocytic cells, which are essential in the process of breaking down and removing apoptotic bodies. Whether this whole process resembles animal apoptosis closely enough to warrant using the name apoptosis (as opposed to the more general programmed cell death) is unclear.\n[…]\nApoptosis (Programmed Cell Death) – The Virtual Library of Biochemistry, Molecular Biology and Cell Biology Archived 2021-04-25 at the Wayback Machine\n[…]\nApoptosis Video"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Apoptose",
+        "situacao": "ok",
+        "texto": "A morte celular programada ou apoptose celular (do grego apoptosis, de apo - “de, desde” - e ptosis - “queda” -, numa referência à queda das folhas das árvores) é imprescindível para o desenvolvimento dos animais. Nos tecidos de um ser humano saudável, a cada dia, bilhões de células (de um total de aproximadamente 37 trilhões e 200 bilhões de células) ativam um programa de morte intracelular, por \n[…]\nProcessos fisiológicos e morfológicos similares à apoptose animal também ocorrem em plantas, durante o desenvolvimento (nas células do xilema) e na senescência de folhas e flores, bem como em interações com patógenos e parasitas e sob estresse ambiental, mas nas plantas não há fagocitose (o vacúolo em geral cumpre tal função) e nem caspases (proteínas exclusivas dos animais, explicadas a seguir nos Mecanismos Apoptóticos), e ainda não há consenso se os processos genéticos são os mesmos, já que os genes causadores podem ser outros; os genes se conservaram dos nematódeos aos humanos, entre os animais, mas parecem diferentes nos vegetais, que só produzem proteases distintas das caspases.\n[…]\nEm casos de corte no suprimento de hormônios estimulatórios. Ocorre fisiologicamente durante a menopausa, período no qual os tecidos endometrial e mamário sofrem atrofia devido à queda nos níveis séricos dos hormônios sexuais femininos. Caso o estímulo hormonal não seja retomado, a atrofia não será reversível e as células destes tecidos entrarão em apoptose.\n[…]\nDiminuição da célula com agregação dos componentes celulares, deixando a célula bastante eosinofílica;\n[…]\nIsso decorre do fato de alguns oncogenes (aqueles cujo ganho de função leva à proliferação celular) e genes supressores de tumor (a perda de função induz a multiplicação das células) estarem intimamente relacionados ao processo de morte celular programada. Um exemplo são os oncogenes do Bcl2 e Bcl-XL, que participam do bloqueio da apoptose.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Bacteriófago",
+      "descricao": "Vírus que infecta e se replica dentro de bactérias, com cabeça icosaédrica e cauda."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O vírus que infecta bactérias se chama bacteriófago. O que significa, em grego, a parte fago desse nome?",
+    "resposta": "Comer, devorar",
+    "distratores": [
+      "Matar",
+      "Invadir",
+      "Pequeno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bacteriophage"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bacteriophage",
+        "situacao": "ok",
+        "texto": "A bacteriophage (), also known informally as a phage (), is a virus that infects and replicates within bacteria. The term is derived from Ancient Greek  φαγεῖν (phagein) 'to devour' and  bacteria. Bacteriophages are composed of proteins that encapsulate a DNA or RNA genome, and may have structures that are either simple or elaborate. Their genomes may encode as few as four genes (e.g. MS2) and as \n[…]\nThe aforementioned taxa can be visualized as follows, with bacterial virus taxa in bold:\n[…]\na stage in the life cycle of the bacteria\n[…]\na virus that grew on and destroyed the bacteria\n[…]\nPhages may be released via cell lysis, by extrusion, or, in a few cases, by budding. Lysis, by tailed phages, is achieved by an enzyme called endolysin, which attacks and breaks down the cell wall peptidoglycan. An altogether different phage type, the filamentous phage, makes the host cell continually secrete new virus particles. Released virions are described as free, and, unless defective, are capable of infecting a new bacterium. Budding is associated with certain Mycoplasma phages.\n[…]\nThese signaling molecules activate downstream effector proteins, such as CapV (a phospholipase that can promote membrane lysis), that disrupt essential cellular processes leading to abortive infection and cell death. This is important in the defence of the bacteria population as the infected cell is sacrificed before viral replication is completed and the virus spreads to the whole population.\n[…]\nAlso, bacteriophages have been used in hydrological tracing and modelling in river systems, especially where surface water and groundwater interactions occur. The use of phages is preferred to the more conventional dye marker because they are significantly less absorbed when passing through ground waters and they are readily detected at very low concentrations. Non-polluted water may contain approximately 2×108 bacteriophages per ml."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bacteri%C3%B3fago",
+        "situacao": "ok",
+        "texto": "Um bacteriófago  (ou simplesmente fago ) é um ser acelular pertencente ao grupo dos vírus (parasita intracelular sem metabolismo próprio), que infecta apenas bactérias. Da mesma forma que os vírus que infectam eucariontes, os fagos consistem numa proteína exterior protetora e no material genético (dupla hélice em 95% dos fagos conhecidos) dentro da cápsula de 5-650 Kbp (1 Kpb = 1.000 pares de base\n[…]\nOs fagos infectam especificamente as bactérias. Os bacteriófagos podem classificar-se como «virulentos« ou «temperados».\n[…]\nSendo certo que os profagos, geralmente, não matam a célula, vigiam-na (via algumas proteínas que codificam para o efeito) o estado de seu hospedeiro. Quando a célula da bactéria hospedeira mostra sinais de stress (significando que ela esteja próxima de sua morte), os profagos tornam-se ativos novamente e iniciam seu ciclo reprodutivo, resultando na lise (destruição) de célula hospedeira.\n[…]\nUm exemplo disto é o fago lambda da E. coli.\n[…]\nO termo «fago temperado» foi proposto por Elie Wollman, do Instituto Pasteur em Paris, numa referência a \"O Cravo Bem Temperado\", de Johann Sebastian Bach. Algumas vezes, mesmo os profagos podem prover benefícios para as células hospedeiras, enquanto estão inativos, pela adição de novas funções ao genoma da bactéria, através de um fenómeno chamado conversão lisogénica. Um exemplo famoso é a inofensiva bactéria Vibrio, que se torna Vibrio cholerae, por causa de um fago, causando a cólera.\n[…]\nOs bacteriófagos podem ser usados na indústria alimentícia para combater a listeria, a salmonela e certas cepas de E. Coli. Os Estados Unidos autorizaram uma gama de produtos à base de fagos, a União Europeia nenhum, e a Suíça um, exclusivamente para uso na produção de queijo.\n[…]\nA pesquisa também está avaliando seu potencial na agricultura, para combater doenças bacterianas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Vacúolo",
+      "descricao": "Organela das células, especialmente desenvolvida nas plantas, que armazena água, sais e outras substâncias."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O vacúolo, organela que armazena água nas células das plantas, tem um nome de origem latina. O que ele significa?",
+    "resposta": "Vazio",
+    "distratores": [
+      "Bolsa",
+      "Gota",
+      "Lago"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vacuole"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Vacuole",
+        "situacao": "ok",
+        "texto": "A vacuole () is a membrane-bound organelle which is present in plant and fungal cells and some protist, animal, and bacterial cells. Vacuoles are essentially enclosed compartments which are filled with water containing inorganic and organic molecules including enzymes in solution, though in certain cases they may contain solids which have been engulfed. Vacuoles are formed by the fusion of multipl\n[…]\nThe function and significance of vacuoles varies greatly according to the type of cell in which they are present, having much greater prominence in the cells of plants, fungi and certain protists than those of animals and bacteria. In general, the functions of the vacuole include:\n[…]\nAside from storage, the main role of the central vacuole is to maintain turgor pressure against the cell wall. Proteins found in the tonoplast (aquaporins) control the flow of water into and out of the vacuole through active transport, pumping potassium (K+) ions into and out of the vacuolar interior. Due to osmosis, water will diffuse into the vacuole, placing pressure on the cell wall. If water loss leads to a significant decline in turgor pressure, the cell will plasmolyze.\n[…]\nA contractile vacuole is a specialized osmoregulatory organelle that is present in many free-living protists. The contractile vacuole is part of the contractile vacuole complex which includes radial arms and a spongiome. The contractile vacuole complex works periodically contracts to remove excess water and ions from the cell to balance water flow into the cell.\n[…]\nFood vacuoles (also called digestive vacuole) are organelles found in certain protists, such as ciliates, amoeboids and Plasmodium falciparum, a protozoan parasite that causes malaria.\n[…]\nIn histopathology, vacuolization is the formation of vacuoles or vacuole-like structures, within or adjacent to cells. It is an unspecific sign of disease."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vac%C3%BAolo",
+        "situacao": "ok",
+        "texto": "Os vacúolos (do latim \"vaccuus\" - vácuo) são estruturas celulares, muito abundantes nas células vegetais, contidas no citoplasma da célula, com formato mais ou menos esférico ou ovalado, geradas pela própria célula ao criar uma membrana fechada que isola um certo volume celular do resto do citoplasma. Seu conteúdo é fluido e armazenam produtos de nutrição ou de excreção, podendo conter enzimas lis\n[…]\nPermitem, para além de armazenar substâncias residuais ou de reserva (água com vários glicídeoss, sais, proteínas, etc.), aumentar o tamanho da célula através da acumulação de água.\n[…]\nPara além do armazenamento, a principal função do vacúolo central é manter o turgor da célula pressionando parede celular. Por osmose, a água difunde-se no vacúolo, regulando a pressão na parede celular. A pressão osmótica é diretamente proporcional à quantidade de moléculas e iões dissolvidos. No vacúolo, a pressão osmótica é sempre superior à pressão atmosférica (de 2 a 20 atm).\n[…]\nA pressão osmótica dos vacúolos é globalmente estável, exceto nos estomas, onde é regulada para abrir ou fechar o ostíolo. A turgescência é o estado em que a membrana é empurrada contra a parede celular, graças à pressão osmótica do vacúolo. É possível induzir “in vitro” o estado de turgescência colocando a célula num meio hipertónico. A água sai então do vacúolo: é plasmólise. Este fenómeno também ocorre quando a planta sofre dessecação.\n[…]\nA pressão de turgescência exercida pelos vacúolos é também fundamental para o alongamento celular, desempenhando um papel primordial no crescimento da célula vegetal.\n[…]\nNo interior dos vacúolos, no “sulco vacuolar”, existe um grande número de substâncias. A principal é a água, juntamente com outros componentes que variam de acordo com o tipo de planta em que se encontram. Além da água, os vacúolos contêm normalmente sais e hidratos de carbono e algumas proteínas em solução.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Charles Darwin",
+      "descricao": "Naturalista inglês autor da teoria da evolução por seleção natural."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Charles Darwin nasceu em 12 de fevereiro de 1809, exatamente no mesmo dia que qual presidente americano?",
+    "resposta": "Abraham Lincoln",
+    "distratores": [
+      "Ulysses Grant",
+      "Andrew Johnson",
+      "James Garfield"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Charles_Darwin",
+      "https://en.wikipedia.org/wiki/Abraham_Lincoln"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Charles_Darwin",
+        "situacao": "ok",
+        "texto": "Charles Robert Darwin ( DAR-win; 12 February 1809 – 19 April 1882) was an English naturalist, geologist, and biologist, widely known for his contributions to evolutionary biology. His proposition that all species  have descended from a common ancestor is now  accepted and considered a fundamental scientific concept.\n[…]\nCharles Robert Darwin was born on 12 February 1809 at his family's home, The Mount, in Shrewsbury, Shropshire. He was the fifth of six children of wealthy society doctor and financier Robert Darwin and Susannah Darwin (née Wedgwood). His grandfathers Erasmus Darwin and Josiah Wedgwood were both prominent abolitionists.\n[…]\nBoth families were largely Unitarian, though the Wedgwoods were adopting Anglicanism. Robert Darwin, a freethinker, had baby Charles baptised in November 1809 in the Anglican St Chad's Church, Shrewsbury, but Charles and his siblings attended the local Unitarian Church with their mother. The eight-year-old Charles already had a taste for natural history and collecting when he joined the day school run by its preacher in 1817. That July, his mother died.\n[…]\nDarwin Manuscript Project\n[…]\n\"Archival material relating to Charles Darwin\". UK National Archives.\n[…]\nView books owned and annotated by Charles Darwin at the online Biodiversity Heritage Library.\n[…]\nWorks by Charles Darwin at the Biodiversity Heritage Library\n[…]\nPortraits of Charles Darwin at the National Portrait Gallery, London\n[…]\nNewspaper clippings about Charles Darwin in the 20th Century Press Archives of the ZBW\n[…]\nCharles Darwin in the British horticultural press – Occasional Papers from RHS Lindley Library, volume 3 July 2010\n[…]\nScientific American, 29 April 1882, pp. 256, Obituary of Charles Darwin\n[…]\nFieser, James; Dowden, Bradley (eds.). \"Charles Darwin\". Internet Encyclopedia of Philosophy. ISSN 2161-0002. OCLC 37741658."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Abraham_Lincoln",
+        "situacao": "ok",
+        "texto": "Abraham Lincoln (February 12, 1809 – April 15, 1865) was the 16th president of the United States, from 1861 until his assassination in 1865. He led the United States through the American Civil War, defeating the Confederacy and playing a major role in the abolition of slavery.\n[…]\nBorn in a one-room log cabin in Kentucky on February 12, 1809, Abraham Lincoln was raised on Sinking Spring Farm and Knob Creek Farm near Hodgenville, Kentucky.\n[…]\nThe second child of Thomas Lincoln and Nancy Hanks Lincoln, he was a descendant of Samuel Lincoln, an Englishman who emigrated to Massachusetts in 1637 (Abraham Lincoln said that Samuel Lincoln \"came from Norwich, England, in 1638\".) His paternal grandfather and namesake, Captain Abraham Lincoln, moved the family from Virginia to Kentucky. The captain was killed in a Native American raid in 1786. The family settled in Hardin County, Kentucky, in the early 1800s.\n[…]\nMemorials in Springfield, Illinois, include the Abraham Lincoln Presidential Library and Museum, Lincoln's home, and his tomb. A carving of Lincoln appears with those of three other presidents on Mount Rushmore, which receives about 3 million visitors a year. A statue of Lincoln completed by Augustus Saint-Gaudens stands in Lincoln Park, Chicago, with recastings given as diplomatic gifts standing in Parliament Square, London, and Parque Lincoln, Mexico City.\n[…]\nAbraham Lincoln Presidential Library and Museum\n[…]\nAbraham Lincoln Association\n[…]\nAbraham Lincoln: A Resource Guide from the Library of Congress\n[…]\nPapers of Abraham Lincoln Digital Library from Abraham Lincoln Presidential Library — A digitization of all documents written by or to Abraham Lincoln during his lifetime\n[…]\n\"Writings of Abraham Lincoln\" from C-SPAN's American Writers: A Journey Through History, June 18, 2001"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Charles_Darwin",
+        "situacao": "ok",
+        "texto": "Charles Robert Darwin FRS FGRS FLS FLZ (pronúncia em inglês: ['dɑːrwɪn]; ocasionalmente aportuguesado em Carlos Darwin. Shrewsbury, 12 de fevereiro de 1809 – Downe, 19 de abril de 1882) foi um naturalista, geólogo e biólogo britânico, célebre por seus avanços sobre evolução nas ciências biológicas.\n[…]\nCharles Robert Darwin nasceu em Shrewsbury, Shropshire, em 12 de fevereiro de 1809, em uma propriedade da família apelidada The Mount. O quinto de seis irmãos e filho do médico e investidor Robert Darwin com Susannah Darwin (nome de solteira, Wedgwood), Charles era neto de dois proeminentes abolicionistas: Erasmus Darwin por parte de pai, e Josiah Wedgwood por parte de mãe.\n[…]\nAmbas as famílias eram unitaristas, embora os Wedgwoods também compartilhassem a crença anglicana. O próprio Robert Darwin, que se declarava um livre pensador, batizou Charles em novembro de 1809 na Anglican St Chad's Church, Shrewsbury. Enquanto pequeno, Darwin e seus irmãos iam à Igreja Unitarista juntamente com sua mãe. Com oito anos, demonstrava interesse precoce pela história natural durante suas participações escolares. Em julho daquele ano, sua mãe faleceu.\n[…]\nEm 17 de fevereiro, Darwin foi eleito para o Conselho da Geological Society e a posição de Lyell como presidente permitiu uma maior divulgação dos estudos de Owen sobre os fósseis de Darwin, ao apontar como as delimitações geográficas de cada espécie provavam as ideias uniformitaristas dele próprio.\n[…]\nQuando a obra Narrative, de Fitzroy, foi publicada em maio de 1839, os diários de Darwin fizeram tanto sucesso como o terceiro volume que mais tarde nesse mesmo ano foi lançado como obra separada. No início de 1842, Darwin escreveu sobre as suas ideias a Charles Lyell, que notou que o seu aliado \"nega ver um começo para os vários grupos de espécies\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Francis Crick",
+      "descricao": "Biólogo molecular britânico, co-descobridor da estrutura helicoidal do DNA e Nobel de 1962."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O famoso desenho da dupla hélice, publicado com o artigo de 1953, foi feito por qual pessoa ligada a Francis Crick?",
+    "resposta": "A esposa, Odile",
+    "distratores": [
+      "O colega Watson",
+      "Rosalind Franklin",
+      "O filho, Michael"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Odile_Crick"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Odile_Crick",
+        "situacao": "ok",
+        "texto": "Odile Crick (11 August 1920 – 5 July 2007) was a British artist best known for her drawing of the double helix structure of DNA discovered by her husband Francis Crick, James D. Watson, and Rosalind Franklin in 1953.\n[…]\nOdile Crick was born as Odile Speed in King's Lynn, Norfolk, England, to a French mother, Marie-Therese Josephine Jaeger and an English father, Alfred Valentine Speed,  who was a jeweller. She was an art student in Vienna when the Nazis occupied Austria in 1938. Returning to England, Speed joined the Women's Royal Naval Service (WRNS) as a lorry driver. However, her skills in German led to work as a code-breaker and translator at the Admiralty where she met Francis Crick in 1945.\n[…]\nOdile Speed married Francis Crick in 1949 and lived in Cambridge. Odile Crick worked as a teacher at what is now Anglia Ruskin University before the births of her daughters Gabrielle and Jacqueline.\n[…]\nFrancis Crick and James Watson asked her to draw an illustration of the double helix for their paper on DNA for  Nature in 1953. The sketch was reproduced widely in textbooks and scientific articles and has become the symbol for molecular biology. Terrence J. Sejnowski of the Salk Institute for Biological Studies said, \"It may be the most famous [scientific] drawing of the 20th century, in that it defines modern biology.\"\n[…]\nOdile Crick outlived her husband and died from cancer in La Jolla, California, aged 86. The Odile Crick Memorial Exhibition of her art was held at the Salk Institute, La Jolla, on 12 October 2007.\n[…]\nRobert Olby; Oxford National Dictionary article: 'Crick, Francis Harry Compton (1916–2004)', Oxford Dictionary of National Biography, Oxford University Press, January 2008;"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Odile_Crick",
+        "situacao": "ok",
+        "texto": "Odile Crick (King's Lynn, 11 de agosto de 1920 – La Jolla, 5 de julho de 2007) foi uma artista britânica conhecida pela seu desenho de dupla hélice do DNA - descoberto pelo seu marido Francis Crick e James D. Watson em 1953.\n[…]\nOdile Crick nasceu como Odile Speed ​​em King's Lynn, Norfolk, Inglaterra, filha de mãe francesa, Marie-Therese Josephine Jaeger e pai inglês, Alfred Valentine Speed, que era joalheiro. Ela era uma estudante de arte em Viena quando os nazistas ocuparam a Áustria em 1938. Retornando à Inglaterra, Speed ​​ingressou no Women's Royal Naval Service (WRNS) como motorista de caminhão.\n[…]\nOdile Speed ​​casou-se com Francis Crick em 1949 e viveu em Cambridge. Odile Crick trabalhou como professora no que hoje é a Anglia Ruskin University antes do nascimento de suas filhas Gabrielle e Jacqueline.\n[…]\nFrancis Crick e James Watson pediram a ela para desenhar uma ilustração da dupla hélice para seu artigo sobre DNA para a Nature em 1953. O esboço foi amplamente reproduzido em livros e artigos científicos e se tornou o símbolo da biologia molecular. Terrence J. Sejnowski, do Instituto Salk de Estudos Biológicos, disse: \"Pode ser o desenho [científico] mais famoso do século 20, pois define a biologia moderna\".\n[…]\nOdile Crick sobreviveu ao marido e morreu de câncer em La Jolla, Califórnia, aos 86 anos. A Odile Crick Memorial Exhibition de sua arte foi realizada no Salk Institute, La Jolla, em 12 de outubro de 2007.\n[…]\nMatt Ridley; Francis Crick: Discoverer of the Genetic Code (Eminent Lives) first published in June 2006 in the US and in the UK September 2006, by HarperCollins Publishers; 192 pp, ISBN 0-06-082333-X.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Rosalind Franklin",
+      "descricao": "Química e cristalógrafa britânica (1920–1958) cujas imagens de raios X ajudaram a revelar a estrutura do DNA."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Depois de estudar o DNA, Rosalind Franklin dedicou seus últimos anos à estrutura de qual vírus de plantas?",
+    "resposta": "Mosaico do tabaco",
+    "distratores": [
+      "Tristeza dos citros",
+      "Mosaico da alfafa",
+      "Enrolamento da batata"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rosalind_Franklin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rosalind_Franklin",
+        "situacao": "ok",
+        "texto": "Rosalind Elsie Franklin (25 July 1920 – 16 April 1958) was an English chemist and X-ray crystallographer. Her work was central to the understanding of the molecular structures of DNA (deoxyribonucleic acid), RNA (ribonucleic acid), viruses, coal, and graphite.\n[…]\nWorking under John Desmond Bernal, Franklin led pioneering work at Birkbeck on the molecular structures of viruses. On the day before she was to unveil the structure of tobacco mosaic virus at an international fair in Brussels, Franklin died of ovarian cancer at age 37 in 1958. Her team member Aaron Klug continued her research, winning the Nobel Prize in Chemistry in 1982.\n[…]\nFranklin continued to explore another major nucleic acid, RNA, a molecule as central to life as DNA. She again used X-ray crystallography to study the structure of the tobacco mosaic virus (TMV), an RNA virus. Franklin's meeting with Aaron Klug in early 1954 led to a longstanding and successful collaboration. Klug had just then earned his PhD degree from Trinity College, Cambridge, and joined Birkbeck in late 1953.\n[…]\nFranklin assigned the study of the complete structure of TMV to her PhD degree student Holmes. They soon discovered (published in 1956) that the covering of TMV was protein molecules arranged in helices. Her colleague Klug worked on spherical viruses with his student Finch, with Franklin coordinating and overseeing the work. As a team, from 1956 they started publishing seminal works on TMV, cucumber virus 4 and turnip yellow mosaic virus.\n[…]\n2017, Rue Rosalind Franklin made.\n[…]\nConlon, Anne Marie (3 August 2020). \"Rosalind Franklin\". New Scientist.\n[…]\nLevitt, Dan (25 April 2023). \"Opinion: 70 years ago, the structure of DNA was revealed. Was Rosalind Franklin robbed?\". CNN. Retrieved 25 April 2023."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rosalind_Franklin",
+        "situacao": "ok",
+        "texto": "Rosalind Elsie Franklin (Londres, 25 de julho de 1920 – Londres, 16 de abril de 1958) foi uma química britânica que contribuiu para o entendimento das estruturas moleculares do DNA, RNA, vírus, carvão mineral e grafite. Embora seus trabalhos sobre o carvão e o vírus tenham sido apreciadas em sua vida, suas contribuições para a descoberta da estrutura do DNA tiveram amplo reconhecimento póstumo.\n[…]\nEm plantas susceptíveis, causa sintomas óbvios, mas não mata suas plantas hospedeiras, que também tornou atraente para o estudo científico. Devido a essas condições, em 1953, a Dra. Franklin deixou King’s College para estudar o mosaico do vírus do tabaco (TMV) em Birkbeck College, Londres, onde ela passou os últimos cinco anos de sua vida, realizando um trabalho pioneiro na estrutura do vírus.\n[…]\nAs publicações mais notáveis ​​de Rosalind Franklin estão listadas abaixo. Os dois últimos foram publicados postumamente.\n[…]\nRosalind Franklin; K. C. Holmes. (1956), «The Helical Arrangement of the Protein Sub-Units in Tobacco Mosaic Virus» (PDF), Biochimica et Biophysica Acta, 21 (2): 405–406, PMID 13363941, doi:10.1016/0006-3002(56)90043-9, cópia arquivada (PDF) em 9 de outubro de 2022Article access per National Library of Medicine above\n[…]\nRosalind E. Franklina; A. Klug (1956), «The nature of the helical groove on the tobacco mosaic virus particle X-ray diffraction studies», Biochimica et Biophysica Acta, 19 (3): 403–416, PMID 13315300, doi:10.1016/0006-3002(56)90463-2\n[…]\nKlug, Aaron, J. T. Finch, and Rosalind Franklin (1957), «The Structure of Turnip Yellow Mosaic Virus: X-Ray Diffraction Studies» (PDF), Biochimica et Biophysica Acta, 25 (2): 242–252, PMID 13471561, doi:10.1016/0006-3002(57)90465-1, cópia arquivada (PDF) em 9 de outubro de 2022Per National Library of Medicine above  !CS1 manut: Nomes múltiplos: lista de autores (link)\n[…]\nConlon, Anne Marie (2020). «Rosalind Franklin». New Scientist",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Thomas Huxley",
+      "descricao": "Biólogo inglês do século dezenove (1825–1895), grande defensor público da teoria de Darwin."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Um neto de Thomas Huxley, o defensor de Darwin, escreveu qual famoso romance distópico, publicado em 1932?",
+    "resposta": "Admirável Mundo Novo",
+    "distratores": [
+      "1984",
+      "Fahrenheit 451",
+      "Nós"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aldous_Huxley",
+      "https://en.wikipedia.org/wiki/Thomas_Henry_Huxley"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Aldous_Huxley",
+        "situacao": "ok",
+        "texto": "Aldous Leonard Huxley (  AWL-dəs; 26 July 1894 – 22 November 1963) was an English writer and philosopher. His bibliography spans nearly 50 books, including non-fiction works, as well as essays, narratives and poems.\n[…]\nAldous was the grandson of Thomas Henry Huxley, the zoologist, agnostic and controversialist who had often been called \"Darwin's Bulldog\". His brother Julian Huxley and half-brother Andrew Huxley also became outstanding biologists. Aldous had another brother, Noel Trevenen Huxley (1889–1914), who took his own life after a period of clinical depression.\n[…]\nHuxley wrote an introduction to the posthumous publication of J. D. Unwin's 1940 book Hopousia or The Sexual and Economic Foundations of a New Society.\n[…]\nFor much of his life Huxley described himself as agnostic, a word coined by his grandfather Thomas Henry Huxley, a scientist who championed the scientific method and was a major supporter of Darwin's theories.\n[…]\nThe book contained some generally disputed theories, and after its publication there was a growing popular controversy about Huxley's eyesight.\n[…]\nIt was, and is, widely believed that Huxley was nearly blind since the illness in his teens, despite the partial recovery that had enabled him to study at Oxford. For example, some ten years after publication of The Art of Seeing, in 1952, Bennett Cerf was present when Huxley spoke at a Hollywood banquet, wearing no glasses and apparently reading his paper from the lectern without difficulty: Then suddenly he faltered—and the disturbing truth became obvious. He wasn't reading his address at all.\n[…]\nWorks by Aldous Leonard Huxley at Faded Page (Canada)\n[…]\nWorks by Aldous Huxley at LibriVox (public domain audiobooks)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Thomas_Henry_Huxley",
+        "situacao": "ok",
+        "texto": "Thomas Henry Huxley (4 May 1825 – 29 June 1895) was an English biologist and anthropologist who specialised in comparative anatomy. He has become known as \"Darwin's Bulldog\" for his advocacy of Charles Darwin's theory of evolution.\n[…]\nLogically speaking, the prior question was whether evolution had taken place at all. It is to this question that much of Darwin's On the Origin of Species was devoted. Its publication in 1859 completely convinced Huxley of evolution and it was this and no doubt his admiration of Darwin's way of amassing and using evidence that formed the basis of his support for Darwin in the debates that followed the book's publication.\n[…]\nHuxley, Leonard. Thomas Henry Huxley: A Character Sketch. Watts, London 1920.\n[…]\nIrvine, William. Thomas Henry Huxley. Longmans, London 1960.\n[…]\nJensen, J. Vernon. Thomas Henry Huxley: Communicating for Science. University of Delaware, Newark 1991.\n[…]\nLyons, Sherrie L. Thomas Henry Huxley: The Evolution of a Scientist. New York 1999.\n[…]\nMitchell, P. Chalmers. Thomas Henry Huxley: A Sketch of his Life and Work London 1901. Available at Project Gutenberg.\n[…]\nVoorhees, Irving Wilson. The Teachings of Thomas Henry Huxley. Broadway, New York 1907.\n[…]\nHuxley, Thomas Henry. Autobiography and Selected Essays. The Riverside Press Houghton Mifflin Company, Cambridge 1909.\n[…]\nStephen, Leslie (1898). \"Thomas Henry Huxley\" . Studies of a Biographer. Vol. 3. London: Duckworth & Co. pp. 188–219.\n[…]\nHuxley, Thomas Henry (1825–1895) National Library of Australia, Trove, People and Organisation record for Thomas Huxley\n[…]\nWorks by Thomas Henry Huxley at Project Gutenberg\n[…]\nWorks by or about Thomas Henry Huxley at the Internet Archive\n[…]\nWorks by Thomas Henry Huxley at LibriVox (public domain audiobooks)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Aldous_Huxley",
+        "situacao": "ok",
+        "texto": "Aldous Leonard Huxley (Godalming, 26 de julho de 1894 – Los Angeles, 22 de novembro de 1963) foi um escritor inglês e um dos mais proeminentes membros da família Huxley. Mais conhecido pelos seus romances, como Admirável Mundo Novo e diversos ensaios, Huxley também editou a revista Oxford Poetry e publicou contos, poesias, literatura de viagem e guiões de filmes. Passou a última parte de sua vida \n[…]\nHuxley era humanista e pacifista. Ele cresceu interessado no misticismo filosófico e universalismo, abordando esses temas com obras como A Filosofia Perene (1945) - que ilustra semelhanças entre misticismo ocidental e oriental - e As Portas da Percepção (1954) - que interpreta sua própria experiência psicodélica com mescalina. Em seu romance mais famoso Admirável Mundo Novo (1932) e seu último romance A Ilha (1962), ele apresentou sua visão de distopia e utopia, respectivamente.\n[…]\nFaziam parte da sua família os mais distintos membros da classe dominante inglesa; uma vasta elite intelectual. O seu avô era Thomas Henry Huxley, um grande biólogo defensor da teoria evolucionista de Charles Darwin, tendo desenvolvido o conceito agnóstico. A sua mãe era irmã da romancista Humphrey Ward; a sobrinha de Matthew Arnold, o poeta; e a neta de Thomas Arnold, um famoso professor e diretor da Rugby School que acabou por se tornar numa personagem do romance \"Tom Brown's Schooldays\".\n[…]\nA obra-prima de Huxley, Admirável Mundo Novo (Brave New World), foi escrita durante quatro meses no ano de 1931. Os temas nela abordados remontam grande parte de suas preocupações ideológicas como a liberdade individual em detrimento ao autoritarismo do Estado.\n[…]\n1959 American Academy of Arts and Letters Award of Merit (por Admirável Mundo Novo).\n[…]\n1980 Admirável Mundo Novo (adaptação na TV americana)\n[…]\n1998 Admirável Mundo Novo (adaptação na TV americana)\n[…]\nObras de Aldous Huxley na Open Library",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "HMS Beagle",
+      "descricao": "Navio da Marinha Real britânica em que Charles Darwin viajou ao redor do mundo entre 1831 e 1836."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Robert FitzRoy, o capitão do Beagle na viagem de Darwin, ficou famoso depois como pioneiro de quê?",
+    "resposta": "Previsão do tempo",
+    "distratores": [
+      "Navegação a vapor",
+      "Cartografia polar",
+      "Telegrafia sem fio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Robert_FitzRoy"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Robert_FitzRoy",
+        "situacao": "ok",
+        "texto": "Vice-Admiral Robert FitzRoy  (5 July 1805 – 30 April 1865) was an English officer of the Royal Navy, politician and scientist who served as the second governor of New Zealand between 1843 and 1845.\n[…]\nThe BBC made a BAFTA award-winning television series in 1978 titled The Voyage of Charles Darwin where Captain Robert Fitzroy was played by actor Andrew Burt with Malcolm Stoddard as Darwin with a storyline that followed the historic interaction between Darwin and FitzRoy before and after their time together on HMS Beagle.\n[…]\nThe play Darwins Kapten was published by Henning Mankell in 2009, and had its world premiere in 2010 at the Royal Dramatic Theatre in Stockholm. It is about Darwin and his journey on the Beagle: many years after the five-year long voyage, Darwin receives a message that his captain on the ship, FitzRoy, has died by suicide.\n[…]\nHMS Beagle\n[…]\nFitzRoy, Robert (1839). Narrative of the surveying voyages of His Majesty's Ships Adventure and Beagle between the years 1826 and 1836, describing their examination of the southern shores of South America, and the Beagle's circumnavigation of the globe. Vol. Appendix to Volume II. London: Henry Colburn. Retrieved 27 January 2009.\n[…]\nNichols, Peter (2003). Evolution's Captain: The Dark Fate of the Man Who Sailed Charles Darwin Around the World. HarperCollins. ISBN 978-0060-08877-4. UK edition: Evolution's Captain: The Tragic Fate of Robert FitzRoy, the Man Who Sailed Charles Darwin Around the World (Profile Books, 2003) ISBN 978-1-8619-7451-8\n[…]\nTaylor, James (2008). The Voyage of the Beagle: Darwin's extraordinary adventure aboard FitzRoy's famous survey ship. Naval Institute Press. ISBN 978-1-59114-920-0.\n[…]\nBBC – h2g2 – Robert FitzRoy"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Robert_FitzRoy",
+        "situacao": "ok",
+        "texto": "Robert FitzRoy (5 de julho de 1805 — 30 de abril de 1865) foi o capitão do navio HMS Beagle, durante a famosa viagem de Charles Darwin. Foi um pioneiro na área da meteorologia, tendo desenvolvido métodos precisos para a previsão do tempo. Foi explorador e hidrógrafo. Também exerceu tarefas desenhando diversos mapas e aquarelas.\n[…]\nRobert FitzRoy comandou o HMS Beagle em duas de suas três viagens, ficando conhecido por grandes feitos nelas.\n[…]\nO Beagle desembarcaria em Valparaíso em 1834, onde Darwin exploraria os Andes. FitzRoy navegaria ainda para as Ilhas Galápagos, ao Tahiti, Nova Zelândia, Austrália, e África do Sul.\n[…]\nFitzRoy vira poucas vezes Darwin após a viagem, Darwin ficara conhecido, mas FitzRoy apesar de todo talento, não foi chamado novamente para a terceira viagem do HMS Beagle. Robert FitzRoy casou-se com sua noiva de longa data Mary Henrietta O'Brien, filha do Marechal Edward O'Brien e foi morar em Londres, Rua Chester, 31 - para a surpresa de Darwin, a quem FitzRoy jamais mencionou ser noivo durante os cinco anos em que viajaram juntos.\n[…]\nFitzRoy acabou dedicando sua vida à política, exercendo o posto de prefeito de Durhan pelo partido dos tory e posteriormente governador da Nova Zelândia. Dedicou seu tempo a desenvolver seu método de previsão do tempo. Porém sua tentativa foi frustrada por falta de apoio político e financeiro a seu projeto.\n[…]\nSuas instruções como governador da ilha eram manter a ordem e proteger os Maori, ao mesmo tempo satisfazendo o desejo por terras dos colonizadores que chegavam ao país. Lhe foi fornecido poucos recursos e tropas. Afim de aliviar a situação financeira de seu governo, FitzRoy aumentou as tarifas, posteriormente transformando-as em imposto sob a propriedade e a renda. Todas essas medidas falharam.\n[…]\n«Fitzroy na Enciclopédia Britannica»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Modelo da dupla hélice do DNA",
+      "descricao": "Modelo da estrutura do DNA em duas fitas enroladas, publicado na revista Nature em 1953."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "No início de 1953, qual químico americano, rival de Watson e Crick, propôs um modelo errado do DNA em tripla hélice?",
+    "resposta": "Linus Pauling",
+    "distratores": [
+      "Erwin Chargaff",
+      "Maurice Wilkins",
+      "Oswald Avery"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Linus_Pauling"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Linus_Pauling",
+        "situacao": "ok",
+        "texto": "Linus Carl Pauling ( PAW-ling; February 28, 1901 – August 19, 1994) was an American chemist and peace activist. He published more than 1,200 papers and books, of which about 850 dealt with scientific topics. Scientific American called him one of the 20 greatest scientists of all time. For his scientific work, Pauling was awarded the Nobel Prize in Chemistry in 1954. For his peace activism, he was \n[…]\nWhen it was learned at the Cavendish Laboratory that Pauling was working on molecular models of the structure of DNA, James Watson and Francis Crick were allowed to make a molecular model of DNA. They later benefited from unpublished data from Maurice Wilkins and Rosalind Franklin at King's College which showed evidence for a helix and planar base stacking along the helix axis. Early in 1953 Watson and Crick proposed a correct structure for the DNA double helix.\n[…]\nOther places named after Pauling include Pauling Street in Foothill Ranch, California; Linus Pauling Drive in Hercules, California; Linus and Ava Helen Pauling Hall at Soka University of America in Aliso Viejo, California; Linus Pauling Middle School in Corvallis, Oregon; and Pauling Field, a small airfield located in Condon, Oregon, where Pauling spent his youth. There is a psychedelic rock band in Houston, Texas, named The Linus Pauling Quartet.\n[…]\nCrick, Francis, \"The Impact of Linus Pauling on Molecular Biology\" (transcribed from video at the 1995 Oregon State University symposium)\n[…]\nThe Pauling Blog\n[…]\nLinus Pauling (1901–1994)\n[…]\nLinus Pauling Centenary Exhibit\n[…]\nThe Linus Pauling Institute at Oregon State University\n[…]\nPublications of Pauling\n[…]\nThe Linus Pauling Papers – Profiles in Science, National Library of Medicine\n[…]\nLinus Pauling Archived July 19, 2019, at the Wayback Machine Documentary produced by Oregon Public Broadcasting\n[…]\nOral history interview with Linus C. Pauling from Science History Institute Digital Collections"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Linus_Pauling",
+        "situacao": "ok",
+        "texto": "Linus Carl Pauling (Portland, 28 de fevereiro de 1901 — Big Sur, 19 de agosto de 1994) foi um químico quântico e bioquímico dos Estados Unidos. Também é reconhecido como cristalógrafo, biólogo molecular e pesquisador médico.\n[…]\nO primeiro deles foi publicado na revista Journal of the American Chemical Society, e tratava a estrutura da molibdenita, MoS2. Linus Pauling recebeu o doutoramento summa cum laude em 1925.\n[…]\nQuando nos Laboratórios Cavendish se soube que Pauling trabalhava com os modelos moleculares da estrutura do ADN, James Watson e Francis Crick foram autorizados a propor um modelo estrutural da molécula de ADN, utilizando material não publicado, dos investigadores Maurice Wilkins e Rosalind Elsie Franklin, do King's College. Em 1953, Watson e Crick propuseram a estrutura, ainda hoje considerada correta, para a dupla hélice do ADN, o que lhes valeria o Nobel de Fisiologia ou Medicina de 1962.\n[…]\nEm 1973, Linus Pauling fundou, juntamente com dois colegas seus, o Instituto de Medicina Ortomolecular em Menlo Park. Neste instituto, cujo nome foi alterado, de seguida, para Instituto Linus Pauling de Ciência e Medicina, Pauling continuou a dirigir investigações sobre a vitamina C, mas também manteve o seu interesse em trabalhos de química e física teórica, até à sua morte em 1994.\n[…]\nO prêmio mais notável recebido por Linus Pauling foi o Prêmio Nobel, recebendo o de Química de 1954 e o da Paz de 1962. Para além de Pauling, só mais três pessoas o receberam em mais de uma ocasião. Pauling, contudo, foi o único a tê-lo recebido individualmente das duas vezes. Para além do Nobel, foi várias vezes distinguido ao longo da sua carreira, entre as quais cabe destacar:",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Lysenkoísmo",
+      "descricao": "Doutrina do agrônomo Trofim Lysenko que rejeitava a genética mendeliana e foi imposta oficialmente na União Soviética."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que botânico e geneticista soviético, adversário das ideias de Lysenko, morreu de fome numa prisão em 1943?",
+    "resposta": "Nikolai Vavilov",
+    "distratores": [
+      "Ivan Pavlov",
+      "Ivan Michurin",
+      "Alexander Oparin"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nikolai_Vavilov",
+      "https://en.wikipedia.org/wiki/Lysenkoism"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nikolai_Vavilov",
+        "situacao": "ok",
+        "texto": "Nikolai Ivanovich Vavilov  (Russian: Никола́й Ива́нович Вави́лов, IPA: [nʲɪkɐˈlaj ɪˈvanəvʲɪtɕ vɐˈvʲiləf] ; 25 November [O.S. 13 November] 1887 – 26 January 1943) was a Russian and Soviet agronomist, botanist and geneticist who identified the centers of origin of cultivated plants. His research focused on improvement of wheat, maize and other cereal crops.\n[…]\nNikolai Vavilov was born on 25 November 1887 into a merchant family in Moscow, the older brother of physicist Sergey Ivanovich Vavilov. Despite his strict upbringing in the Orthodox Church, he was an atheist.\n[…]\nIn 1943, parts of Vavilov's collection, samples stored within the territories occupied by the German armies, mainly in Ukraine and Crimea, were seized by a German unit headed by Heinz Brücher. Many of the samples were transferred to the Schutzstaffel (SS) Institute for Plant Genetics, which had been established at Schloss Lannach near Graz, Austria.\n[…]\nA minor planet, 2862 Vavilov, discovered in 1977 by Soviet astronomer Nikolai Stepanovich Chernykh is named after him and his brother Sergey Ivanovich Vavilov. The crater Vavilov on the far side of the Moon is named after him and his brother, a physicist.\n[…]\nIn 1990, a six-part feature film (TV series) entitled Nikolai Vavilov (Russian: Николай Вавилов) was created as a joint production of the USSR and East Germany.\n[…]\nLysenkoism\n[…]\nCohen, Barry Mendel (1980). Nikolai Ivanovich Vavilov: His Life and Work. University of Texas at Austin (PhD thesis).\n[…]\nNabhan, Gary Paul (2008). Where our Food Comes from: Retracing Nikolay Vavilov's Quest to End Famine. Island Press. ISBN 978-1-59726-399-3.\n[…]\nVasina-Popova, E. T. (1987). \"The role of N. I. Vavilov in the development of Soviet genetics and animal selection\". Genetika. 23 (11): 2002–2006. PMID 3322935.\n[…]\nGenetic Resources of Leguminous Plants in the N.I. Vavilov Institute of Plant Industry"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Lysenkoism",
+        "situacao": "ok",
+        "texto": "Lysenkoism was a pseudoscientific political campaign led by the Soviet biologist Trofim Lysenko against genetics and science-based agriculture in the mid-20th century, rejecting natural selection in favour of a form of Lamarckism, as well as expanding upon the techniques of vernalization and grafting.\n[…]\nMore than 3,000 mainstream biologists were dismissed or imprisoned, and numerous scientists were executed in the Soviet campaign to suppress scientific opponents. The president of the Soviet Agriculture Academy, Nikolai Vavilov, who had been Lysenko's mentor, but later denounced him, was sent to prison and died there, while Soviet genetics research was effectively destroyed.\n[…]\nAfter Lysenko became head of the Soviet Academy of Agricultural Sciences, classical genetics began to be called \"fascist science\" and many of Lysenkoism's opponents, such as his former mentor Nikolai Ivanovich Vavilov, were imprisoned or executed, although not on Lysenko's personal orders.\n[…]\nGenetics was eventually banned in the Soviet Union. Over 3,000 biologists were fired, and numerous scientists were imprisoned, or executed for attempting to oppose Lysenkoism, and genetics research was effectively destroyed until the death of Stalin in 1953. Secret research facilities such as sharashka were where numerous scientists ended up imprisoned.\n[…]\nFrom 1934 to 1940, under Lysenko's admonitions and with Stalin's approval, many geneticists were executed (including Izrail Agol, Solomon Levit, Grigorii Levitskii, Georgii Karpechenko and Georgii Nadson) or sent to labor camps. The famous Soviet geneticist and president of the Agriculture Academy, Nikolai Vavilov, was arrested in 1940 and died in prison in 1943.\n[…]\nAnton Lang, \"Michurin, Vavilov, and Lysenko\". Science, Vol. 124 No. 3215, 1956) doi:10.1126/science.124.3215.277b"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nikolai_Vavilov",
+        "situacao": "ok",
+        "texto": "Nikolai Ivanovich Vavilov, em russo Николай Иванович Вавилов (Moscou, 25 de novembro(calendário juliano)/13 de novembro(mudança para o calendário gregoriano) de 1887 — Saratov, 26 de janeiro de 1943), foi um proeminente botânico, agrônomo e geneticista russo. É conhecido por ter identificado os centros de diversidade de plantas cultivadas.\n[…]\nDedicou sua vida ao estudo e melhoramento do trigo, milho e outros grãos essenciais para a alimentação da população. Seu trabalho foi bastante criticado por Trofim Lysenko, cujas ideias anti-mendelianas sobre a biologia das plantas ganharam a simpatia de Joseph Stalin. Como resultado, Vavilov acabou preso e sentenciado à morte em julho de 1941. Sua sentença foi revertida para uma pena de 20 anos, mas ele acabou morrendo de fome na prisão em 1943.\n[…]\nMas Lysenko não tinha interesse em aprender com Vavilov.\n[…]\nComo resultado, Vavilov acabou preso em 6 de agosto de 1940 enquanto estava em uma expedição na Ucrânia. Foi sentenciado à morte em julho de 1941. Sua sentença acabou revertida para 20 anos de prisão. Em 26 de janeiro de 1943, Vavilov morreu sob circunstâncias pouco claras, mas as péssimas condições da prisão indicam seu estado precário. Na ficha médica de Vavilov na cadeia consta que ele foi internado na enfermaria da prisão com sinais de pneumonia, distrofia e edema, bem como fraqueza geral.\n[…]\nA Royal Society de Edimburgo menciona o nome de Vavilov como um de seus membros, indicando que ele morreu em um campo soviético na Sibéria, em 26 de janeiro de 1943. Porém, ele morreu em uma prisão em Saratov.\n[…]\nThe Murder of Nikolai Vavilov: The Story of Stalin's Persecution of One of the Great Scientists of the Twentieth Century. Peter Pringle, Simon and Schuster, 2008, ISBN 0743264983\n[…]\nVavilov - A triste história de um geneticista soviético - prof. Prof. Pierre Teodosio - Procure no Youtube.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Projeto Genoma Humano",
+      "descricao": "Projeto científico internacional, lançado em 1990, para sequenciar o genoma humano."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "À frente da empresa Celera, que cientista americano disputou com o Projeto Genoma Humano a corrida para sequenciar nosso DNA?",
+    "resposta": "Craig Venter",
+    "distratores": [
+      "Francis Collins",
+      "Kary Mullis",
+      "Eric Lander"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Craig_Venter",
+      "https://en.wikipedia.org/wiki/Human_Genome_Project"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Craig_Venter",
+        "situacao": "ok",
+        "texto": "John Craig Venter (October 14, 1946 – April 29, 2026) was an American geneticist and businessman. He is known for having led one of the first draft sequences of the human genome and led the first team to transfect a cell with a synthetic chromosome. Venter founded Celera Genomics, the Institute for Genomic Research (TIGR) and the J. Craig Venter Institute (JCVI). He was the co-founder of Human Lon\n[…]\nThe goal consequently put pressure on the public genome program and spurred several groups to redouble their efforts to produce the full sequence. Venter's effort won him renown as he and his team at Celera Corporation shared credit for sequencing the first draft human genome with the publicly funded Human Genome Project.\n[…]\nVenter was fired by Celera in early 2002. According to his biography, Venter was fired because of a conflict with the main investor, Tony White, specifically barring him from attending the White House ceremony celebrating the achievement of sequencing the human genome. White was sidelined at the ceremony and the presentation of the result as a tie weakened Celera's claims.\n[…]\nVenter is considered by his peers to have been a pioneer and maverick of genetic sequencing. He is credited with the shotgun sequencing method that has since helped reduce the time and cost for sequencing. By entering the Human Genome Project at a late stage yet pushing forward quickly with his commercial ties, Venter helped to bring the Project to public attention and make the results of the Project freely available to expand medical research.\n[…]\nShreeve, James (2004). The Genome War: How Craig Venter Tried to Capture the Code of Life and Save the World. New York: Alfred A. Knopf. ISBN 978-0-375-40629-4.\n[…]\nVideo of interview/discussion with Craig Venter by Carl Zimmer on Bloggingheads.tv\n[…]\nThe Richard Dimbleby Lecture 2007 – Dr. J. Craig Venter – A DNA Driven World\n[…]\nJ. Craig Venter at IMDb"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Human_Genome_Project",
+        "situacao": "ok",
+        "texto": "The Human Genome Project (HGP) was an international scientific research project with the goal of determining the base pairs that make up human DNA, and of identifying, mapping and sequencing all of the genes of the human genome from both a physical and a functional standpoint. It started in 1990 and was completed in 2003. It was the world's largest collaborative biological project. Planning for th\n[…]\nIn 1998, a similar, privately funded quest was launched by the American researcher Craig Venter, and his firm Celera Genomics. Venter was a scientist at the NIH during the early 1990s when the project was initiated. The $300 million Celera effort was intended to proceed at a faster pace and at a fraction of the cost of the roughly $3 billion publicly funded project.\n[…]\nWhile the Celera project focused its efforts on production sequencing and assembly of the human genome, the public HGP also funded mapping and sequencing of the worm, fly, and yeast genomes, funding of databases, development of new technologies, supporting bioinformatics and ethics programs, as well as polishing and assessment of the genome assembly. Both the Celera and public approaches spent roughly $250 million on the production sequencing effort.\n[…]\nIn the Celera Genomics private-sector project, DNA from five different individuals was used for sequencing. The lead scientist of Celera Genomics at that time, Craig Venter, later acknowledged (in a public letter to the journal Science) that his DNA was one of 21 samples in the pool, five of which were selected for use.\n[…]\nPrepared Statement of Craig Venter of Celera Venter discusses Celera's progress in deciphering the human genome sequence and relationship to healthcare and to the federally funded Human Genome Project.\n[…]\nWorks by Human Genome Project at Project Gutenberg\n[…]\nWorks by or about Human Genome Project at the Internet Archive"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Craig_Venter",
+        "situacao": "ok",
+        "texto": "John Craig Venter (Salt Lake City, 14 de outubro de 1946 – San Diego, 29 de abril de 2026) foi um bioquímico e empresário americano.\n[…]\nEra conhecido por seus trabalhos pioneiros no sequenciamento do genoma humano e mais recentemente por seu papel na criação de uma forma de vida artificial. Venter fundou a empresa Celera Genomics, The Institute for Genomic Research e o J. Craig Venter Institute. Trabalhava recentemente neste último, onde desenvolveu pesquisas acerca da criação de organismos biologicamente sintéticos e publicação de descobertas genéticas no campo da oceanografia.\n[…]\nFleischmann, Robert D.; Adams, Mark D.; White, Owen; Clayton, Rebecca; ... Venter, J. Craig (28 de julho de 1995). «Whole-Genome Random Sequencing and Assembly of Haemophilus influenzae Rd». Science. 269 (5223): 496–512. Bibcode:1995Sci...269..496F. PMID 7542800. doi:10.1126/science.7542800\n[…]\nTomb, Jean-F.; White, Owen; Kerlavage, Anthony R.; Clayton, Rebecca A.; Sutton, Granger G.; Fleischmann, Robert D.; ... Venter, J. Craig (7 de agosto de 1997). «The complete genome sequence of the gastric pathogen Helicobacter pylori». Nature. 388 (6642): 539–47. Bibcode:1997Natur.388..539T. PMID 9252185. doi:10.1038/41483\n[…]\nAdams, Mark D.; Celniker, Susan E.; Holt, Robert A.; Evans, Cheryl A.; Goccayne, Jeannine A.; Amanatides, Peter G.; ... Venter, J. Craig (24 de março de 2000). «The genome sequence of Drosophila melanogaster» (PDF). Science. 287 (5461): 2185–95. Bibcode:2000Sci...287.2185.. CiteSeerX 10.1.1.549.8639. PMID 10731132. doi:10.1126/science.287.5461.2185. Consultado em 24 de outubro de 2017. Cópia arquivada (PDF) em 22 de julho de 2018",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Tentilhões de Darwin",
+      "descricao": "Grupo de pequenas aves aparentadas, com bicos adaptados a diferentes alimentos, estudadas por Darwin."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que casal de biólogos britânicos passou décadas nas Galápagos medindo, geração após geração, a evolução dos bicos dos tentilhões?",
+    "resposta": "Peter e Rosemary Grant",
+    "distratores": [
+      "Charles e Emma Darwin",
+      "Louis e Mary Leakey",
+      "Jacques e Simone Cousteau"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Peter_and_Rosemary_Grant"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Peter_and_Rosemary_Grant",
+        "situacao": "ok",
+        "texto": "Peter Raymond Grant   (born 26 October 1936) and Barbara Rosemary Grant   (born 8 October 1936) are a British married couple who are evolutionary biologists at Princeton University. Each currently holds the position of emeritus professor. They are known for their work with Darwin's finches on Daphne Major, one of the Galápagos Islands. Since 1973, the Grants have spent six months of every year cap\n[…]\nPeter and Rosemary Grant are distinguished for their remarkable long-term studies demonstrating evolution in action in Galápagos finches. They have demonstrated how very rapid changes in body and beak size in response to changes in the food supply are driven by natural selection. They have also elucidated the mechanisms by which new species arise and how genetic diversity is maintained in natural populations.\n[…]\nPeter met Rosemary after beginning his research there, and after a year, the two wedded.\n[…]\nCharles Darwin Foundation\n[…]\nGrant, B. Rosemary; Grant, Peter R. (1989). Evolutionary Dynamics of a Natural Population: Large Cactus Finch of the Galápagos. Chicago: University of Chicago Press. ISBN 978-0-226-30590-5. OCLC 1149015572 – via Internet Archive.\n[…]\nGrant, Peter R.; Grant, B. Rosemary (2007). How and Why Species Multiply: The Radiation of Darwin's Finches. Princeton: Princeton University Press. doi:10.1515/9781400837946. ISBN 978-0-691-13360-7. JSTOR j.ctvx5wc23. OCLC 474218839.\n[…]\nGrant, Peter R.; Grant, B. Rosemary (2014). 40 Years of Evolution: Darwin's Finches on Daphne Major Island. Princeton, NJ: Princeton University Press. ISBN 978-1-4008-5130-0. JSTOR j.ctt5hhncc. OCLC 870597475.\n[…]\nGrant, B. Rosemary (2024). One Step Sideways, Three Steps Forward: One Woman's Path to Becoming a Biologist. Princeton, New Jersey: Princeton University Press. doi:10.2307/jj.9446867. ISBN 978-0-691-26069-3. JSTOR jj.9446867. OCLC 1437724652.\n[…]\nPeter Grant's webpage[link removed]\n[…]\nRosemary Grant's webpage"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Cloroplasto",
+      "descricao": "Organela de células vegetais e de algas que realiza a fotossíntese, rica em clorofila."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Cloroplastos e mitocôndrias guardam uma herança das bactérias que lhes deram origem. Que herança é essa?",
+    "resposta": "DNA próprio",
+    "distratores": [
+      "Clorofila",
+      "Parede celular",
+      "Flagelo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chloroplast",
+      "https://en.wikipedia.org/wiki/Symbiogenesis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chloroplast",
+        "situacao": "ok",
+        "texto": "A chloroplast ( KLOR-ə-plast, -⁠plahst) is a type of organelle known as a plastid that conducts photosynthesis mostly in plant and algal cells. Chloroplasts have a high concentration of chlorophyll pigments which capture the energy from sunlight, convert it to chemical energy and decompose water to release oxygen. The chemical energy created is then used to make sugar and other organic molecules f\n[…]\nThe ciliate Pseudoblepharisma tenue has two bacterial symbionts, one pink, one green. In 2021, both symbionts were confirmed to be photosynthetic: Ca. Thiodictyon intracellulare (Chromatiaceae), a purple sulfur bacterium with a genome just half the size of their closest known relatives; and Chlorella sp. K10, a green alga. There is also a variant of Pseudoblepharisma tenue that only contains chloroplasts from green algae and no endosymbiotic purple bacteria.\n[…]\nProtein synthesis within chloroplasts relies on two RNA polymerases. One is coded by the chloroplast DNA, the other is of nuclear origin. The two RNA polymerases may recognize and bind to different kinds of promoters within the chloroplast genome. The ribosomes in chloroplasts are similar to bacterial ribosomes.\n[…]\nChloroplasts have their own ribosomes, which they use to synthesize a small fraction of their proteins. Chloroplast ribosomes are about two-thirds the size of cytoplasmic ribosomes (around 17 nm vs 25 nm). They take mRNAs transcribed from the chloroplast DNA and translate them into protein. While similar to bacterial ribosomes, chloroplast translation is more complex than in bacteria, so chloroplast ribosomes include some chloroplast-unique features.\n[…]\nExposure to white light can stimulate these chloroplasts to divide and reduce the population of dumbbell-shaped chloroplasts.\n[…]\nChloroplast – Cell Centered Database\n[…]\nCo-Extra research on chloroplast transformation\n[…]\nNCBI full chloroplast genome"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Symbiogenesis",
+        "situacao": "ok",
+        "texto": "Symbiogenesis, also known as the endosymbiotic theory or serial endosymbiotic theory,) is the leading scientific theory for the evolutionary origin of eukaryotes from prokaryotic ancestors. The theory holds that multi-membraned eukaryotic organelles such as mitochondria and chloroplasts are endosymbionts descended from formerly free-living prokaryotes (more closely related to the Bacteria than to \n[…]\nMereschkowski proposed that complex life-forms had originated by two episodes of symbiogenesis, the incorporation of symbiotic bacteria to form successively nuclei and chloroplasts. Mereschkowski knew of the work of botanist Andreas Schimper. In 1883, Schimper had observed that the division of chloroplasts in green plants closely resembled that of free-living cyanobacteria. Schimper had tentatively proposed (in a footnote) that green plants had arisen from a symbiotic union of two organisms.\n[…]\nBoth cyanobacteria and alphaproteobacteria maintain a large (>6 Mb) genome encoding thousands of proteins. Plastids and mitochondria exhibit a dramatic reduction in genome size when compared with their bacterial relatives. Chloroplast genomes in photosynthetic organisms are normally 120–200 kb encoding 20–200 proteins and mitochondrial genomes in humans are approximately 16 kb and encode 37 genes, 13 of which are proteins.\n[…]\nThere are many lines of evidence that mitochondria and plastids including chloroplasts arose from bacteria.\n[…]\nTransport proteins called porins are found in the outer membranes of mitochondria and chloroplasts and are also found in bacterial cell membranes.\n[…]\nProteins created by mitochondria and chloroplasts use N-formylmethionine as the initiating amino acid, as do proteins created by bacteria but not proteins created by eukaryotic nuclear genes or archaea.\n[…]\nStrigomonas culicis, another protozoan that harbours an obligate bacterial symbiont"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cloroplasto",
+        "situacao": "ok",
+        "texto": "Cloroplasto é uma organela presente nas células das plantas e outros organismos fotossintetizadores, como as algas e alguns protistas. Possui clorofila, pigmento responsável pela sua cor verde. É um dos três tipos de plastos pigmentados, ou cromoplasto, sendo os outros dois os cromoplastos e os leucoplastos. Os plastídeos não pigmentados são chamados leucoplastos, podendo ser amiloplastos (armazen\n[…]\nCloroplasto é a organela onde se realiza a fotossíntese. Os cloroplastos distinguem-se bem dos restantes organelos da célula, quer pela cor, quer pela sua estrutura, geralmente laminar, possuem RNA, DNA e ribossomas, podendo assim sintetizar proteínas e multiplicar-se.\n[…]\nNo seu interior apresenta um líquido semelhante ao que preenche as mitocôndrias, o estroma. O sistema de membranas onde se encontra a clorofila encontra-se organizado em tilacóides, agrupados em grana.\n[…]\nA fotossíntese típica dos cloroplastos também é realizada por algumas bactérias, as cianobactérias, o que é considerado como uma das evidências nas quais se baseia a teoria endossimbiótica de origem dos cloroplastos. Segundo esta teoria, os cloroplastos teriam se originado de uma cianobactéria ancestral vivendo em simbiose dentro da célula eucariótica precursora. Essa teoria também é empregada para explicar a origem das mitocôndrias.\n[…]\nOs cloroplastos possuem nas suas delimitações duas membranas lipoproteicas. A membrana externa é lisa, enquanto a interna é composta por várias dobras voltadas para o interior do cloroplasto, formando os tilacoides e as lamelas.\n[…]\nNa membrana interna dos cloroplastos estão os fotossistemas com várias moléculas de clorofila dispostas de maneira a formar uma espécie de antena, que capta a luz. Os fotossistemas possuem outras substâncias além da clorofila que também participam da fotossíntese.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Cromossomo 2 humano",
+      "descricao": "Segundo maior cromossomo humano, formado pela fusão de dois cromossomos ancestrais que continuam separados nos outros grandes macacos."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Os chimpanzés têm quarenta e oito cromossomos, e nós, quarenta e seis. O que aconteceu na linhagem humana?",
+    "resposta": "Dois cromossomos se fundiram",
+    "distratores": [
+      "Dois cromossomos se perderam",
+      "Um par foi destruído",
+      "Um vírus os apagou"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chromosome_2"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chromosome_2",
+        "situacao": "ok",
+        "texto": "Chromosome 2 is one of the twenty-three pairs of chromosomes in humans. People normally have two copies of this chromosome. Chromosome 2 is the second-largest human chromosome, spanning more than 242 million base pairs and representing almost eight percent of the total DNA in human cells.\n[…]\nThe correspondence of chromosome 2 to two ape chromosomes. The closest human relative, the chimpanzee, has nearly identical DNA sequences to human chromosome 2, but they are found in two separate chromosomes. The same is true of the more distant gorilla and orangutan.\n[…]\nIn 2026, it was reported that incomplete lineage sorting of segmental duplications defines the human chromosome 2 fusion site early during African great ape speciation.\n[…]\nThe following are some of the gene count estimates of human chromosome 2. Because researchers use different approaches to genome annotation, their predictions of the number of genes on each chromosome vary. Among various projects, the collaborative consensus coding sequence project (CCDS) takes an extremely conservative strategy. So CCDS's gene number prediction represents a lower bound on the total number of human protein-coding genes.\n[…]\nThe following is a partial list of genes on human chromosome 2. For complete list, see the link in the infobox on the right.\n[…]\nPartial list of the genes located on p-arm (short arm) of human chromosome 2:\n[…]\nPartial list of the genes located on q-arm (long arm) of human chromosome 2:\n[…]\nThe following diseases and traits are related to genes located on chromosome 2:\n[…]\nNational Institutes of Health. \"Chromosome 2\". Genetics Home Reference. Archived from the original on 9 March 2016. Retrieved 6 May 2017.\n[…]\n\"Chromosome 2\". Human Genome Project Information Archive 1990–2003. Retrieved 6 May 2017."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cromossoma_2",
+        "situacao": "ok",
+        "texto": "O cromossoma 2 é um dos 23 pares de cromossomas do cariótipo humano. É o segundo maior cromossoma humano. Tem cerca de 237 milhões de pares de bases e representa quase 8% do total de DNA nas células. Contém entre 1300 e 2000 genes.\n[…]\nO Cromossomo 2 é amplamente aceito como resultado de uma fusão telômero-telômero entre dois cromossomos ancestrais. As evidências disso incluem:\n[…]\nA correspondência do cromossomo 2 com dois cromossomos de símios. O parente mais próximo do homem, o chimpanzé, tem seqüências de DNA quase totalmente idênticas ao cromossomo 2 humano porém em dois cromossomos separados. O mesmo é fato para mais distantes como o gorila e o orangotango.\n[…]\nA presença de um centrômero vestigial. Normalmente um cromossomo possui apenas um centrômero mas no cromossomo 2 encontram-se vestígios de um segundo.\n[…]\nA presença de telômeros vestigiais. Esses são normalmente encontrados apenas nos finais do cromossomo mas no cromossomo 2 encontramos seqüências de telômeros no meio.\n[…]\nO cromossomo 2 é, assim, forte evidência da origem comum de humanos e outros primatas. Segundo o pesquisador J. W. IJdo:\n[…]\n\"Nós concluimos que o locus clonado nos cosmídios c8.1 e c29B é a lembrança de uma antiga fusão telômero-telômero e marca o ponto em que dois cromossomos simiescos ancestrais fundiram-se originando o cromossomo 2 humano.\"\n[…]\nAlguns dos genes localizados no cromossoma 2:\n[…]\nAlgumas das doenças relacionadas com genes localizados no cromossoma 2:\n[…]\nEsclerose lateral amiotrófica, tipo 2",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Cianobactéria",
+      "descricao": "Grupo de bactérias que realizam fotossíntese liberando oxigênio, antigamente chamadas de algas azuis."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Há mais de dois bilhões de anos, as cianobactérias provocaram uma mudança radical em todo o planeta. Qual?",
+    "resposta": "Oxigenaram a atmosfera",
+    "distratores": [
+      "Formaram os continentes",
+      "Criaram os vulcões",
+      "Salgaram os oceanos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Oxidation_Event"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Great_Oxidation_Event",
+        "situacao": "ok",
+        "texto": "The Great Oxidation Event (GOE) or Great Oxygenation Event, also called the Oxygen Catastrophe, Oxygen Revolution, Oxygen Crisis, or Oxygen Holocaust, was a time interval during the Earth's Paleoproterozoic era when the Earth's atmosphere and shallow seas first experienced a rise in the concentration of free oxygen. This began approximately 2.46–2.426 billion years ago (Ga) during the Siderian per\n[…]\nThe total amount of oxygen produced by the cyanobacteria remained the same with longer days, but the longer the day, the more time oxygen has to diffuse into the water.\n[…]\nOne group of researchers has suggested that, if certain conditions were present (a low-productivity trajectory), it may have been plants, instead of cyanobacteria, that made the greatest contribution of oxygen to the GOE.\n[…]\nOxygen likely oxidized atmospheric methane (a strong greenhouse gas) to carbon dioxide (a weaker one) and water. This weakened the greenhouse effect of the Earth's atmosphere, causing planetary cooling, which has been proposed to have triggered a series of ice ages known as the Huronian glaciation, bracketing an age range of 2.45–2.22 Ga.\n[…]\nIn field studies done in Lake Fryxell, Antarctica, scientists found that mats of oxygen-producing cyanobacteria produced a thin layer, one to two millimeters thick, of oxygenated water in an otherwise anoxic environment, even under thick ice. By inference, these organisms could have adapted to oxygen even before oxygen accumulated in the atmosphere.\n[…]\nIt has been proposed that a local rise in oxygen levels due to cyanobacterial photosynthesis in ancient microenvironments was highly toxic to the surrounding biota and that this selective pressure drove the evolutionary transformation of an archaeal lineage into the first eukaryotes."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grande_Evento_de_Oxigena%C3%A7%C3%A3o",
+        "situacao": "ok",
+        "texto": "O Grande Evento de Oxigenação (GEO), também chamado de Catástrofe do Oxigênio, Crise de Oxigênio ou Grande Oxidação, foi um período em que a atmosfera da Terra e o então raso oceano experimentaram um aumento do teor de oxigênio, aproximadamente entre 2,4 bilhões de anos e 2,1-2,0 bilhões de anos, durante o período Paleoproterozoico.\n[…]\nAo final, o oxigênio começou a se acumular na atmosfera, com duas consequências principais:\n[…]\nPrimeiro, foi proposto que o oxigênio oxidou o metano atmosférico (um forte gás do efeito estufa) em dióxido de carbono (mais fraco) e água. Isto enfraqueceu o efeito estufa da atmosfera terrestre, causando o esfriamento planetário, que teria provocado uma série de eras de gelo conhecida como Glaciação Huroniana, numa faixa de idade de 2,45-2,22 Ga. Um quarto evento de glaciação, encontrado na África do Sul, data de aproximadamente 2,22 Ga atrás.\n[…]\nOutra hipótese postula um modelo da atmosfera que exibe biestabilidade: dois estados estáveis de concentração de oxigênio. O estado estável de baixa concentração de oxigênio (0,02%) experimenta uma alta taxa de oxidação do metano. Se algum evento eleva os níveis de oxigênio acima de um limite moderado, a formação de uma camada de ozônio cria um escudo para os raios ultravioleta e reduz a oxidação do metano, elevando a concentração de oxigênio ainda mais, para um estado estável de 21% ou mais.\n[…]\nNuma pesquisa de campo realizada em Lake Fryxell, Antártica, pesquisadores descobriram que tapetes de cianobactérias produtoras de oxigênio podem produzir uma fina camada, com um ou dois milímetros de espessura, de água oxigenada, em um ambiente que de outra forma seria anóxico, mesmo sob gelo espesso. Logo, antes que o oxigênio começasse a se acumular na atmosfera, esses organismos poderiam ter se adaptado ao oxigênio.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Alfred Russel Wallace",
+      "descricao": "Naturalista britânico do século dezenove que explorou a Amazônia e o arquipélago Malaio."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Em 1852, voltando da Amazônia para a Inglaterra, Alfred Russel Wallace perdeu quase todas as suas coleções. O que aconteceu?",
+    "resposta": "O navio pegou fogo",
+    "distratores": [
+      "Piratas saquearam o navio",
+      "Ratos devoraram tudo",
+      "Confiscadas na alfândega"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace",
+        "situacao": "ok",
+        "texto": "Alfred Russel Wallace (8 January 1823 – 7 November 1913) was an English naturalist, explorer, geographer, anthropologist and illustrator. He independently conceived the theory of evolution through natural selection; his 1858 paper on the subject was published that year alongside extracts from Charles Darwin's writings on the topic. It spurred Darwin to set aside the \"big species book\" he was draft\n[…]\nWallace describes how he discovered natural selection as follows:\n[…]\nMount Wallace in California's Sierra Nevada mountain range was named in his honour in 1895. In 1928, a house at Richard Hale School (then called Hertford Grammar School, where he had been a pupil) was named after Wallace. The Alfred Russel Wallace building is a prominent feature of the Glyntaff campus at the University of South Wales, by Pontypridd, with several teaching spaces and laboratories for science courses.\n[…]\nA group of Indonesian islands is known as the Wallacea biogeographical region in his honour, and Operation Wallacea, named after the region, awards \"Alfred Russel Wallace Grants\" to undergraduate ecology students. Several hundred species of plants and animals, both living and fossil, have been named after Wallace, such as the gecko Cyrtodactylus wallacei, and the freshwater stingray Potamotrygon wallacei.\n[…]\nThere is an extensive literature on Wallace. Recent books on him include:\n[…]\nThe Alfred Russel Wallace Website by George Beccaloni\n[…]\nThe Alfred Russel Wallace Page at Western Kentucky University\n[…]\nThe Alfred Russel Wallace Correspondence Project\n[…]\nWallace Online, ed. John van Wyhe – The first complete online edition of the writings of Alfred Russel Wallace\n[…]\nGreat Lives – Bill Bailey on his hero Alfred Russel Wallace on BBC Radio 4\n[…]\nWorks by Alfred Russel Wallace at Project Gutenberg\n[…]\nWorks by or about Alfred Russel Wallace at the Internet Archive\n[…]\nWorks by Alfred Russel Wallace at LibriVox (public domain audiobooks)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Alfred_Russel_Wallace",
+        "situacao": "ok",
+        "texto": "Alfred Russel Wallace, OM, FRS (Usk, País de Gales, 8 de janeiro de 1823 – Broadstone, Dorset, Inglaterra, 7 de novembro de 1913) foi um naturalista, geógrafo, antropólogo e biólogo britânico.\n[…]\nWallace continuou cartografando o Rio Negro por quatro anos, coletando espécimes e tomando notas acerca dos povos e línguas que encontrou bem como a geografia, flora e fauna. Em 12 de julho de 1852, Wallace embarcou rumo ao Reino Unido no brigue Helen. Após vinte e oito dias ao mar, o bálsamo na carga do navio pegou fogo e a tripulação foi forçada a abandona-lo. A coleção inteira que Wallace levava foi perdida. Pode apenas salvar parte de seu diário e uns poucos esboços.\n[…]\nPorém uma pequena parte de seu material ficou retida no porto de Manaus, esta se salvou. Wallace e sua tripulação passaram dez dias num barco aberto antes de serem resgatados pelo brigue Jordeson, que estava viajando de Cuba para Londres. As condições no Jordeson' foram tensas por causa dos passageiros inesperados, mas após uma viagem difícil com uma alimentação deficiente o navio finalmente chegou ao seu destino em 1 de outubro de 1852.\n[…]\nWallace, Alfred Russel (1853). Palm trees of the Amazon and their uses. (Biodiversity Heritage Library). [S.l.]: London. Consultado em 20 de agosto de 2009. Cópia arquivada em 25 de janeiro de 2026\n[…]\nWallace, Alfred Russel (1889). Travels on the Amazon and Rio Negro (Google Books) 1889 ed. [S.l.]: Ward, Lock. Consultado em 9 de dezembro de 2008\n[…]\nAlfred Russel Wallace, The Malay Archipelago (O Arquipélago Malaio)\n[…]\nObras de Alfred Russel Wallace (em inglês) no Projeto Gutenberg\n[…]\nWallace, Alfred Russel, Viagens pelo Amazonas e rio Negro, descarga do livro (em português)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Gêmeos idênticos",
+      "descricao": "Gêmeos monozigóticos, formados a partir de um único óvulo fecundado que se divide em dois embriões."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Por que gêmeos idênticos têm praticamente o mesmo DNA?",
+    "resposta": "Vêm do mesmo zigoto",
+    "distratores": [
+      "Vêm de dois óvulos",
+      "Nasceram no mesmo dia",
+      "Herdaram só da mãe"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Twin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Twin",
+        "situacao": "ok",
+        "texto": "Twins are two offspring produced by the same pregnancy. Twins can be either monozygotic ('identical'), meaning that they develop from one zygote, which splits and forms two embryos, or dizygotic ('non-identical' or 'fraternal'), meaning that each twin develops from a separate egg and each egg is fertilized by its own sperm cell. Since identical twins develop from one zygote, they will share the sa\n[…]\nCases of monozygotic twinning in the animal kingdom are rare but have been recorded on a number of occasions. In 2016, a C-section of an Irish Wolfhound revealed identical twin puppies sharing a singular placenta. South African scientists, who were called in to study the identical twins wrote that...\n[…]\n\"To the best of our knowledge, this is the first report of monozygotic twinning in the dog confirmed using DNA profiling.\" Additionally, armadillos have also been known to produce monozygotic twins, sometimes birthing two sets of identical twins during one reproductive cycle. Monozygotic twinning in armadillos functions as an evolutionary adaptation preventing inbreeding.\n[…]\nNieuwint, Aggie; Van Zalen-Sprock, Rieteke; Hummel, Pieter; Pals, Gerard; Van Vugt, John; et al. (1999). \"'Identical' twins with discordant karyotypes\". Prenatal Diagnosis. 19 (1): 72–6. doi:10.1002/(SICI)1097-0223(199901)19:1<72::AID-PD465>3.0.CO;2-V. PMID 10073913. S2CID 19112883.\n[…]\nSchein, Elyse; Paula Bernstein (2007). Identical Strangers: A Memoir of Twins Separated and Reunited. New York: Random House. ISBN 978-1-4000-6496-0. OCLC 123390922.\n[…]\nAm J Med Genet C Semin Med Genet. 2009 May 15;151C(2):136–41. Not really identical: epigenetic differences in monozygotic twins and implications for twin studies in psychiatry. Haque FN, Gottesman II, Wong AH.\n[…]\nGuinness World Record holding twins: https://www.guinnessworldrecords.com/news/2022/11/theyre-so-different-even-though-theyre-identical-twins-725135"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/G%C3%AAmeos",
+        "situacao": "ok",
+        "texto": "Gêmeos (português brasileiro) ou gémeos (português europeu) são dois ou mais irmãos que nascem de uma mesma gestação, podendo ser idênticos ou não. Os gémeos podem ser monozigóticos ('idênticos'), o que significa que se desenvolvem a partir de um zigoto, que produz dois embriões, ou dizigóticos ('não idênticos' ou 'fraternos'), o que significa que cada gémeo se desenvolve a partir de um óvulo sepa\n[…]\nÉ possível gêmeos fraternos terem pais diferentes, este fenômeno é conhecido como superfecundação heteropaternal, sua ocorrência é possível se a mulher liberar dois óvulos durante o mesmo ciclo e ambos forem fertilizados por dois homens diferentes, como resultado de relações sexuais num intervalo menor que 48 horas.[carece de fontes]?\n[…]\nEm geral, a proporção global é de dois terços de gêmeos dizigóticos para um de monozigóticos (ou seja, os gêmeos idênticos).\n[…]\nQuando um óvulo é produzido e fecundado por um só espermatozóide e se multiplica em duas culturas de células completas, origina os gêmeos monozigóticos ou idênticos/univitelinos, os quais possuem o mesmo genoma. Apenas um terço das gestações são de gêmeos univitelinos.\n[…]\nApesar de serem considerados clones e possuírem o mesmo DNA, gêmeos idênticos não possuem as mesmas impressões digitais devido a que, mesmo num pequeno espaço dentro do útero materno, eles têm contatos com partes diferentes desse ambiente.\n[…]\nOs gêmeos xifópagos ou siameses são monozigóticos, ou seja, formados a partir do mesmo zigoto. Porém, nesse caso, o disco embrionário não chega a se dividir por completo, produzindo gêmeos que estarão ligados por uma parte do corpo, ou têm uma parte do corpo comum aos dois. O embrião de gêmeos xifópagos é, então, constituído de apenas uma massa celular, sendo desenvolvido na mesma placenta, com o mesmo saco aminiótico.\n[…]\nMonozigóticos (também chamados de idênticos ou univitelinos)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Gregor Mendel",
+      "descricao": "Frade agostiniano austríaco, fundador da genética pelos experimentos com ervilhas."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "A partir de 1868, Gregor Mendel praticamente abandonou suas pesquisas científicas. Por quê?",
+    "resposta": "Foi eleito abade do mosteiro",
+    "distratores": [
+      "Ficou cego",
+      "Foi expulso da ordem",
+      "Mudou-se para Viena"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gregor_Mendel"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gregor_Mendel",
+        "situacao": "ok",
+        "texto": "Gregor Johann Mendel (; German: [ˈmɛndl̩]; Czech: Řehoř Jan Mendel; 20 July 1822 – 6 January 1884) was an Austrian biologist, meteorologist, mathematician, Augustinian friar and abbot of St. Thomas' Abbey in Brno (Brünn), Margraviate of Moravia. Mendel was born in a German-speaking family in the Silesian part of the Austrian Empire (today's Czech Republic) and gained posthumous recognition as the \n[…]\nHe became a monk partly because it enabled him to obtain an education without paying for it himself. As the son of a struggling farmer, the monastic life, in his words, spared him the \"perpetual anxiety about a means of livelihood.\" Born Johann Mendel, he was given the name \"Gregor\" (Řehoř in Czech) when he joined the Order of Saint Augustine.\n[…]\nAfter he was elevated as abbot in 1868, his scientific work largely ended, as Mendel became overburdened with administrative responsibilities, especially a dispute with the civil government over its attempt to impose special taxes on religious institutions. Mendel died on 6 January 1884, at the age of 61, in Brno, from chronic nephritis. Czech composer Leoš Janáček played the organ at his funeral.\n[…]\nMendel Museum of Genetics\n[…]\nMendel Polar Station in Antarctica\n[…]\nMendel University in Brno\n[…]\nMendelian error\n[…]\nThe Gardener of God, an Italian docudrama about the life and works of Gregor Mendel\n[…]\nWorks by Gregor Mendel at Project Gutenberg\n[…]\nWorks by or about Gregor Mendel at the Internet Archive\n[…]\nWorks by Gregor Mendel at LibriVox (public domain audiobooks)\n[…]\n1913 Catholic Encyclopedia entry, \"Mendel, Mendelism\"\n[…]\nBiography of Gregor Mendel\n[…]\nGregor Mendel (1822–1884)\n[…]\nGregor Mendel Primary Sources\n[…]\nJohann Gregor Mendel: Why his discoveries were ignored for 35 (72) years (in German)\n[…]\nMasaryk University to rebuild Mendel's greenhouse | Brno Now\n[…]\nMendel Museum of Genetics\n[…]\nMendel's Paper in English\n[…]\nOnline Mendelian Inheritance in Man\n[…]\nVillanova University Mendel Collection"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gregor_Mendel",
+        "situacao": "ok",
+        "texto": "Gregor Johann Mendel OSA (Heinzendorf bei Odrau, 20 de julho de 1822 — Brno, 6 de janeiro 1884) foi um biólogo, botânico, frade agostiniano da Igreja Católica e meteorologista austríaco.\n[…]\nSendo um brilhante estudante a sua família encorajou-o a seguir estudos superiores, e, aos 21 anos, a entrar num mosteiro da Ordem de Santo Agostinho em 1843 (atual mosteiro de Brno, hoje na República Checa) pois não tinham dinheiro para suportar o custo dos estudos. Obedecendo ao costume ao tornar-se monge, optou um outro nome: \"Gregor\". Então Mendel tinha a seu cargo a supervisão dos jardins do mosteiro.\n[…]\nGregor Mendel, conhecido como o \"pai da genética moderna\", escolheu estudar a variação das plantas na horta experimental de 2 hectares de seu mosteiro.\n[…]\nNenhum de seus resultados sobre as abelhas sobreviveu, exceto por uma menção passageira nos relatórios da Sociedade de Apicultura da Morávia. Tudo o que se sabe definitivamente é que ele usou abelhas cipriotas e carniolanas, que foram particularmente agressivas para o aborrecimento de outros monges e visitantes do mosteiro, de modo que foi solicitado que ele se livrasse delas. Mendel, por outro lado, gostava de suas abelhas e referia-se a elas como \"meus queridos animaizinhos\".\n[…]\n1853 — De volta ao mosteiro, dá aulas principalmente de Física.\n[…]\n1856 — Inicia as suas experiências nos jardins do mosteiro onde cruza as ervilhas e diferentes árvores.\n[…]\n1862 — Com alguns colegas do mosteiro funda a Sociedade de Ciências Naturais.\n[…]\n1868 — É eleito abade do mosteiro, após o que nunca mais pôde continuar as suas pesquisas devido às numerosas tarefas administrativas.\n[…]\nCATHOLIC ENCYCLOPEDIA: Mendel, Mendelism (newadvent.org)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Arroz dourado",
+      "descricao": "Variedade de arroz geneticamente modificada para produzir betacaroteno nos grãos."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O arroz dourado deve sua cor amarelada a qual substância, a mesma que deixa a cenoura alaranjada?",
+    "resposta": "Betacaroteno",
+    "distratores": [
+      "Clorofila",
+      "Curcumina",
+      "Licopeno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Golden_rice"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Golden_rice",
+        "situacao": "ok",
+        "texto": "Golden rice is a variety of rice (Oryza sativa) produced through genetic engineering to biosynthesize beta-carotene, a precursor of vitamin A, in the edible parts of the rice. It is intended to produce a fortified food to be grown and consumed in areas with a shortage of dietary vitamin A. Genetically modified golden rice can produce up to 23 times as much beta-carotene as the original golden rice\n[…]\nIn December 2021, an opinion piece in Proceedings of the National Academy of Sciences of the United States of America called on regulators to \"allow Golden Rice to save lives\", which the authors say has been delayed due to \"fear and false accusations\", leading to estimated 266,000 lives lost per year due to vitamin A deficiency.\n[…]\nOn August 8, 2013, an experimental plot of golden rice being developed by IRRI and DA-PhilRice in Camarines Sur province of the Philippines was uprooted by protesters. British author Mark Lynas reported in Slate that the vandalism was carried out by a group of activists led by Kilusang Magbubukid ng Pilipinas (KMP) (literally 'Farmers' Movement of the Philippines').\n[…]\nA recommendation was made that golden rice be distributed free to subsistence farmers. Free licenses for developing countries were granted quickly due to the positive publicity that golden rice received, particularly in Time magazine in July 2000. Monsanto Company was one of the companies to grant free licences for related patents owned by the company. The cutoff between humanitarian and commercial use was set at US$10,000.\n[…]\nTherefore, as long as a farmer or subsequent user of golden rice genetics would not make more than $10,000 per year, no royalties would need to be paid. In addition, farmers would be permitted to keep and replant seed.\n[…]\nThe Philippines Rice Research Institute – Golden Rice Questions and Answers"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Arroz%23Arroz_dourado",
+        "situacao": "ok",
+        "texto": "O arroz  é uma planta da família das gramíneas e gênero Oryza, que alimenta mais de metade da população humana do mundo. É a terceira maior cultura cerealífera do mundo, apenas ultrapassada pelas de milho e trigo. É rico em hidratos de carbono. A maior parte do arroz provém da espécie Oryza sativa (por vezes chamado arroz asiático), mas o chamado arroz africano provém da espécie Oryza glaberrima.\n[…]\nA produção mundial de arroz concentra-se, quase exclusivamente, na Ásia, com cerca de 90 % da produção nesta área, essencialmente na China e na Índia.\n[…]\nEm Portugal, actualmente, a produção de arroz é feita apenas em 5 rios (Mira, Sado, Sorraia, Tejo e Mondego); a cultura mais a norte é impedida pelo frio. A produção de arroz ronda as 1 250 mil toneladas/ano.\n[…]\nPortugal é o maior consumidor de arroz da Europa com valores superiores a 15 kg/capita/ano.\n[…]\nO arroz dourado é uma variedade do Oryza sativa produzida por engenharia genética para que biossintetizasse o betacaroteno.\n[…]\nA melhor variedade de arroz para fazer plov chama-se “devzira”, criada por seleção ao longo de muitos séculos no Uzbequistão. Existem registos dos séculos X e XI, na época dos samânidas, em que este arroz era usado para o plov servido na corte. Este arroz é cultivado no vale de Fergana, principalmente por agricultores individuais, uma vez que industrialmente é considerado de pouca produção.\n[…]\nA sequência genética da Zostera marina revela ideias inovadoras para as perdas e os ganhos envolvidos na realização das adaptações estruturais, fisiológicas e genômicas necessárias para plantas com flores terrestres mudarem o seu estilo de vida para a vida marinha, indiscutivelmente a mudança de habitat mais severa realizada por algumas plantas com flores Pesquisadores, usando tecnologia CRISPR/Cas, estão tentando transferir os genes responsáveis pela tolerância ao sal para outras plantas, em especial, o arroz.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "A Origem das Espécies",
+      "descricao": "Livro de Charles Darwin, publicado em 1859, que apresenta a teoria da evolução por seleção natural."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Que palavra, hoje sinônimo da teoria de Darwin, ficou de fora da primeira edição de A Origem das Espécies?",
+    "resposta": "Evolução",
+    "distratores": [
+      "Seleção",
+      "Adaptação",
+      "Variação"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/On_the_Origin_of_Species"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/On_the_Origin_of_Species",
+        "situacao": "ok",
+        "texto": "On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life is a work of scientific literature by the English naturalist Charles Darwin that is considered to be the foundation of evolutionary biology. It was published on 24 November 1859.\n[…]\nIn the final chapter of On the Origin of Species, \"Recapitulation and Conclusion\", Darwin briefly highlights the human implications of his theory:\n[…]\nIn On the Origin of Species, Chapter VI: \"Difficulties on Theory\", Darwin mentions this in the context of \"slight and unimportant variations\":\n[…]\nWorldwide commemorations of the 150th anniversary of the publication of On the Origin of Species and the bicentenary of Darwin's birth were scheduled for 2009. They celebrated the ideas which \"over the last 150 years have revolutionised our understanding of nature and our place within it\".\n[…]\nPechenik, Jan A. (2023), The Readable Darwin: The Origin of Species Edited for Modern Readers (2 ed.), Oxford University Press, ISBN 978-0-19-757526-0\n[…]\nCarpenter, William Benjamin (1859), \"Darwin on the Origin of Species\", National Review, vol. 10, no. December 1859, pp. 188–214. Published anonymously.\n[…]\nHuxley, Thomas Henry (1859), \"Time and Life: Mr Darwin's Origin of Species\", Macmillan's Magazine, 1: 142–148.\n[…]\nHuxley, Thomas Henry (1859), \"Darwin on the Origin of Species\", The Times (26 December 1859): 8–9. Published anonymously.\n[…]\nMurray, Andrew (1860), \"On Mr Darwin's Theory of the Origin of Species\", Proceedings of the Royal Society of Edinburgh, 4: 274–291, doi:10.1017/S0370164600034246.\n[…]\nOwen, Richard (1860), \"Review of Darwin's Origin of Species\", Edinburgh Review, 3 (April 1860): 487–532. Published anonymously.\n[…]\nDarwin's notes on the creation of On the Origin of Species digitised in Cambridge Digital Library"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/A_Origem_das_Esp%C3%A9cies",
+        "situacao": "ok",
+        "texto": "A Origem das Espécies (ou, mais completamente, A Origem das Espécies por Meio da Seleção Natural, ou Preservação das Raças Favorecidas na Luta pela Vida) é uma obra de literatura científica escrita por Charles Darwin, que é considerada a base da biologia evolutiva. Publicado em 24 de novembro de 1859, ele introduziu a teoria científica de que as formas de vida evoluem ao longo das gerações por mei\n[…]\nDarwin fez extensas revisões na sexta edição da Origin (esta foi a primeira edição em que ele usou a palavra \"evolução\", que costumava ser associada ao desenvolvimento embriológico, embora todas as edições concluíssem com a palavra \"evoluído\"), e adicionou um novo capítulo VII, Miscellaneous objections, para abordar os argumentos de Mivart.\n[…]\nAsa Gray promoveu e defendeu a Origem contra aqueles naturalistas norte-americanos com uma abordagem idealista, notadamente Louis Agassiz, que via cada espécie como uma unidade fixa distinta na mente do Criador, classificando como \"espécie\" o que os outros consideravam meramente variedades. Edward Drinker Cope e Alpheus Hyatt reconciliaram essa visão com o evolucionismo em uma forma de neo-lamarckismo envolvendo a teoria da recapitulação.\n[…]\nMivart apoiou a evolução dirigida e compilou objeções científicas e religiosas à seleção natural. Em resposta, Darwin fez mudanças consideráveis na sexta edição. Os problemas da idade da Terra e da hereditariedade só foram resolvidos no século XX.\n[…]\nA gama de teorias evolucionárias durante \"o eclipse do darwinismo\" incluiu formas de \"saltacionismo\" em que novas espécies eram pensadas para surgir através de \"saltos\" em vez de adaptação gradual, formas de ortogênese alegando que as espécies tinham uma tendência inerente de mudar em uma determinada direção e formas de neolamarquismo em que a herança de características adquiridas levava ao progresso.\n[…]\nHistória do pensamento evolucionário\n[…]\nOn the Origin of Species",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Membrana plasmática",
+      "descricao": "Membrana que envolve a célula e controla a passagem de substâncias entre o interior e o exterior."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "A membrana que envolve as células é formada principalmente por uma dupla camada de quais moléculas?",
+    "resposta": "Fosfolipídios",
+    "distratores": [
+      "Celulose",
+      "Queratina",
+      "Amido"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cell_membrane"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cell_membrane",
+        "situacao": "ok",
+        "texto": "The cell membrane (also known as the plasma membrane or cytoplasmic membrane, and historically referred to as the plasmalemma) is a semipermeable biological membrane that separates and protects the interior of a cell from the outside environment (the extracellular space).\n[…]\nCholesterol, a major component of plasma membranes, regulates the fluidity of the overall membrane, meaning that cholesterol controls the amount of movement of the various cell membrane components based on its concentrations. In high temperatures, cholesterol inhibits the movement of phospholipid fatty acid chains, causing a reduced permeability to small molecules and reduced membrane fluidity. The opposite is true for the role of cholesterol in cooler temperatures.\n[…]\nEndocytosis: Endocytosis is the process in which cells absorb molecules by engulfing them. The plasma membrane creates a small deformation inward, called an invagination, in which the substance to be transported is captured. This invagination is caused by proteins on the outside on the cell membrane, acting as receptors and clustering into depressions that eventually promote accumulation of more proteins and lipids on the cytosolic side of the membrane.\n[…]\nIn the process of exocytosis, the undigested waste-containing food vacuole or the secretory vesicle budded from Golgi apparatus, is first moved by cytoskeleton from the interior of the cell to the surface. The vesicle membrane comes in contact with the plasma membrane. The lipid molecules of the two bilayers rearrange themselves and the two membranes are, thus, fused. A passage is formed in the fused membrane and the vesicle discharges its contents outside the cell.\n[…]\n3D structures of proteins associated with plasma membrane of eukaryotic cells"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Membrana_plasm%C3%A1tica",
+        "situacao": "ok",
+        "texto": "A membrana plasmática, citoplasmática ou plasmalema é a estrutura que delimita todas as células vivas, tanto as procarióticas como as eucarióticas. Ela estabelece a fronteira entre o meio intracelular, o citoplasma, e o ambiente extracelular, que pode ser a matriz dos diversos tecidos.\n[…]\nOs lipídios presentes nas membranas celulares pertencem predominantemente ao grupo dos fosfolipídios. Estas moléculas são formadas pela união de três grupos de moléculas menores: um álcool, geralmente o glicerol, duas moléculas de ácidos graxos e um grupo fosfato, que pode conter ou não uma segunda molécula de álcool. A proporção de fosfolipídeos varia muito: compõe cerca de 50% da membrana plasmática e 90% da membrana mitocondrial.\n[…]\nA estrutura das membranas deve-se primariamente a essa camada dupla de fosfolipídios. Esses lipídios são moléculas longas com uma extremidade hidrofílica (tem afinidade com a água) e a cadeia hidrofóbica (não tem afinidade com a água). O grupo fosfato está situado nas lâminas externas da estrutura trilaminar. A parte situada entre as lâminas fosfatadas é composta pelas cadeias hidrofóbicas.\n[…]\nA maioria das proteínas da membrana celular está mergulhada na dupla camada fosfolipídica, interrompendo sua continuidade, são as proteínas integrais. Outras, as proteínas periféricas, estão aderentes às extremidades de proteínas integrais. Algumas proteínas atuam no transporte de substâncias para dentro ou para fora da célula. Entre estas, encontram-se glicoproteínas (proteínas ligadas a carboidratos).\n[…]\nHá ainda dois processos em que, não apenas moléculas específicas, mas a própria estrutura da membrana celular é envolvida no transporte de matéria (principalmente de grandes moléculas) para dentro e para fora da célula:\n[…]\nFisiologia da membrana celular",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Vírus",
+      "descricao": "Agente infeccioso microscópico que só se replica dentro de células vivas."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Nos vírus, o material genético fica protegido dentro de uma capa feita de proteínas. Como ela se chama?",
+    "resposta": "Capsídeo",
+    "distratores": [
+      "Parede celular",
+      "Nucleoide",
+      "Cápsula"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Capsid"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Capsid",
+        "situacao": "ok",
+        "texto": "A capsid is the protein shell of a virus, enclosing its genetic material. It consists of several oligomeric (repeating) structural subunits made of protein called protomers. The observable 3-dimensional morphological subunits, which may or may not correspond to individual proteins, are called capsomeres. The proteins making up the capsid are called capsid proteins or viral coat proteins (VCP).\n[…]\nThe capsid faces may consist of one or more proteins. For example, the foot-and-mouth disease virus capsid has faces consisting of three proteins named VP1–3.\n[…]\nThe icosahedral structure is extremely common among viruses. The icosahedron consists of 20 triangular faces delimited by 12 fivefold vertexes and consists of 60 asymmetric units. Thus, an icosahedral virus is made of 60N protein subunits. The number and arrangement of capsomeres in an icosahedral capsid can be classified using the \"quasi-equivalence principle\" proposed by Donald Caspar and Aaron Klug.\n[…]\nMany exceptions to this rule exist: For example, the polyomaviruses and papillomaviruses have pentamers instead of hexamers in hexavalent positions on a quasi T = 7 lattice. Members of the double-stranded RNA virus lineage, including reovirus, rotavirus and bacteriophage φ6 have capsids built of 120 copies of capsid protein, corresponding to a T = 2 capsid, or arguably a T = 1 capsid with a dimer in the asymmetric unit.\n[…]\nThe virus must assemble a stable, protective protein shell to protect the genome from lethal chemical and physical agents. These include extremes of pH or temperature and proteolytic and nucleolytic enzymes. For non-enveloped viruses, the capsid itself may be involved in interaction with receptors on the host cell, leading to penetration of the host cell membrane and internalization of the capsid.\n[…]\nIRAM-Virus Capsid Database and Analysis Resource Archived 2019-10-23 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/C%C3%A1pside",
+        "situacao": "ok",
+        "texto": "Capsíde ou capsídeo é o invólucro de origem proteica dos vírus que protege e facilita sua proliferação, e além de proteger o ácido nucléico (DNA ou RNA e, em alguns casos raros, os dois tipos juntos), tem a capacidade de se combinar quimicamente com substâncias presentes na superfície celular. Alguns vírus têm apenas um tipo de proteínas nos seus capsídeos, mas a maioria tem vários tipos diferente",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Hierarquia taxonômica",
+      "descricao": "Sequência de categorias usada para classificar os seres vivos, como reino, filo, classe, ordem, família, gênero e espécie."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Na classificação dos seres vivos, qual destas categorias é a mais ampla, reunindo o maior número de espécies?",
+    "resposta": "Classe",
+    "distratores": [
+      "Ordem",
+      "Família",
+      "Gênero"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Taxonomic_rank"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Taxonomic_rank",
+        "situacao": "ok",
+        "texto": "In biological taxonomy, a taxonomic rank determines the level that a group of organisms—either taxon or clade—occupies in a hierarchical system of classification, which is usually but not necessarily based on evolutionary relationships between those organisms. Some authors prefer to use the term nomenclatural rank, contending that, according to some definitions, the hierarchical rank occupied by a\n[…]\nMore generally, taxa describe and portray the hierarchical grouping of organisms resulting from the classification process; and the assigned ranks of the taxa indicate the relative positions of such groups within the hierarchy. High-ranking taxa (e.g., domains or kingdoms) contain more sub-taxa groups than lower-ranking taxa, such as phyla or genera—as illustrated by the inverted pyramid graphic of taxonomic rank.\n[…]\nIn systems of relative taxonomic rank, ranks are designated instead an indented taxonomy in which the level of indentation reflects the rank. In a relative system, the rank of a taxon is not necessarily an inherent attribute of the taxon so much as an attribute of a particular indented/nested hierarchy defining the relations between different groups.\n[…]\nThe International Code of Zoological Nomenclature defines rank as: \"The level, for nomenclatural purposes, of a taxon in a taxonomic hierarchy (e.g.\n[…]\nBotanical ranks categorize organisms based (often) on their relationships (monophyly is not required by that code, which does not even mention the word \"monophyly\", nor that of \"clade\"). They start with Kingdom, then move to Division (or Phylum), Class, Order, Family, Genus, and Species. Taxa at each rank generally possess shared characteristics and evolutionary history. Understanding these ranks aids in taxonomy and studying biodiversity.\n[…]\nBacteria may be classified by strains (for example Escherichia coli O157:H7, a strain that can cause food poisoning).\n[…]\nAlliance (taxonomy)"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Mitocôndria",
+      "descricao": "Organela de células eucariotas com dupla membrana, responsável pela respiração aérea e produção de ATP."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destas estruturas existe tanto nas células dos animais quanto nas células das plantas?",
+    "resposta": "Mitocôndria",
+    "distratores": [
+      "Cloroplasto",
+      "Parede celular",
+      "Centríolo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mitochondrion",
+      "https://en.wikipedia.org/wiki/Plant_cell"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mitochondrion",
+        "situacao": "ok",
+        "texto": "A mitochondrion (pl. mitochondria) is an organelle found in the cells of most eukaryotes, such as animals, plants and fungi. Mitochondria have a double membrane structure and use aerobic respiration to generate adenosine triphosphate (ATP), which is used throughout the cell as a source of chemical energy. They were discovered by Albert von Kölliker in 1857 in the voluntary muscles of insects. The \n[…]\nSignaling through mitochondrial reactive oxygen species\n[…]\nOver time, the fractionation method was further developed, improving the quality of the mitochondria isolated, and other elements of cell respiration were determined to occur in the mitochondria.\n[…]\nPowering the Cell Mitochondria Archived August 17, 2022, at the Wayback Machine – XVIVO Scientific Animation\n[…]\nMitodb.com Archived July 3, 2013, at the Wayback Machine – The mitochondrial disease database.\n[…]\nMitochondria Atlas Archived June 29, 2012, at the Wayback Machine at University of Mainz\n[…]\nMitochondria Research Portal at mitochondrial.net\n[…]\nMitochondria: Architecture dictates function at cytochemistry.net\n[…]\nMitochondria links at University of Alabama\n[…]\nMIP Archived May 23, 2016, at the Portuguese Web Archive Mitochondrial Physiology Society\n[…]\n3D structures of proteins from inner mitochondrial membrane Archived September 13, 2011, at the Wayback Machine at University of Michigan\n[…]\n3D structures of proteins associated with outer mitochondrial membrane Archived September 13, 2011, at the Wayback Machine at University of Michigan\n[…]\nMitochondrial Protein Partnership at University of Wisconsin\n[…]\nMitoMiner – A mitochondrial proteomics database at MRC Mitochondrial Biology Unit\n[…]\nMitochondrion – Cell Centered Database Archived October 7, 2011, at the Wayback Machine\n[…]\nMitochondrion Reconstructed by Electron Tomography Archived November 14, 2012, at the Wayback Machine at San Diego State University\n[…]\nVideo Clip of Rat-liver Mitochondrion from Cryo-electron Tomography"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Plant_cell",
+        "situacao": "ok",
+        "texto": "Plant cells are the cells present in green plants, photosynthetic eukaryotes of the kingdom Plantae.\n[…]\nAs in mitochondria, which have a genome encoding 37 genes, plastids have their own genomes of about 100–120 unique genes and are interpreted as having arisen as prokaryotic endosymbionts living in the cells of an early eukaryotic ancestor of the land plants and algae."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mitoc%C3%B4ndria",
+        "situacao": "ok",
+        "texto": "A mitocôndria (do Grego μίτος ou mitos (fio/linha) + χονδρίοv ou \"chondrion\" (grânulo).) é uma das organelas celulares mais importantes, também sendo extremamente relevante para a respiração celular. É abastecida pela célula que a hospeda por substâncias orgânicas como a glicose, as quais processa e converte em energia sob a forma de ATP, que devolve para a célula hospedeira, sendo energia química\n[…]\nEsta apresenta duas membranas lipoprotéicas, uma externa lisa e outra interna que se dobra formando vilosidades, chamadas cristas. A região limitada pela membrana interna é conhecida como matriz mitocondrial, onde existem proteínas, ribossomos e DNA mitocondrial, de forma circular, que contém 37 genes codificadores de 13 proteínas, de 2 rRNAs e 22 tRNAs. Estes são necessários no processo de produção de ATP, ou seja, necessários para que a respiração celular ocorra.[carece de fontes]?\n[…]\nA mitocôndria contém as membranas exteriores e interiores compostas de bicamadas de fosfolípidos e proteínas. As duas membranas, no entanto, têm propriedades distintas. Devido a esta organização de dupla membrana, existem cinco compartimentos distintos dentro da mitocôndria. São eles:\n[…]\nO ciclo é executado na mitocôndria dos eucariontes e no citoplasma dos procariontes. Trata-se de uma parte do metabolismo dos organismos aeróbicos (utilizando oxigênio da respiração celular); organismos anaeróbicos utilizam outro mecanismo, como a glicólise = outro processo de fermentação independente do oxigênio.\n[…]\nA síntese mitocondrial de ácidos gordos (mtFASII) é crucial para a respiração celular e a biogénese mitocondrial. Pensa-se também que desempenha um papel de mediador na sinalização intracelular, uma vez que os níveis de lípidos bioactivos, como os lisofosfolípidos e os esfingolípidos, estão correlacionados com o mtFASII.\n[…]\nBiologia Celular - Mitocôndrias[ligação inativa]\n[…]\nMitocôndrias: função, estrutura, o que é",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Cetáceos",
+      "descricao": "Ordem de mamíferos aquáticos que reúne baleias, golfinhos e botos, descendentes de ancestrais terrestres."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Baleias e golfinhos descendem de mamíferos terrestres. Entre os animais vivos de hoje, qual é o parente mais próximo deles?",
+    "resposta": "Hipopótamo",
+    "distratores": [
+      "Lontra",
+      "Elefante",
+      "Anta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Evolution_of_cetaceans"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Evolution_of_cetaceans",
+        "situacao": "ok",
+        "texto": "The evolution of cetaceans is thought to have proceeded in modern day Pakistan during the Eocene epoch (56–34 mya), the second epoch of the Paleogene period of the present-extending Cenozoic Era. Specifically, cetaceans are thought to have transitioned from land to water at the tailend of the Paleocene–Eocene transition about 56 Mya, which was marked by increased global temperatures of 5.6°C, warm\n[…]\nAlthough they somewhat resembled a wolf, the fossils of pakicetids showed the eye sockets were much closer to the top of their head than that of other terrestrial mammals, but similar to the structure of the eyes in cetaceans. Their transition from land to water led to reshaping of the skull and food processing equipment because the eating habits were changing. The change in position of the eyes and limb bones is associated with the pakicetids becoming waders.\n[…]\nPakicetus had a pelvic bone most similar to that of terrestrial mammals. In later species, such as Basilosaurus, the pelvic bone, no longer attached to the vertebrae and the ilium, was reduced. Certain genes are believed to be responsible for the changes that occurred to the cetacean pelvic structure, such as BMP7, PBX1, PBX2, PRRX1, and PRRX2. The pelvic girdle in modern cetaceans were once thought to be vestigial structures that served no purpose at all.\n[…]\nList of extinct cetaceans\n[…]\nCetacean Paleobiology  – University of Bristol\n[…]\nResearch on the Origin and Early Evolution of Whales (Cetacea), Gingerich, P.D., University of Michigan\n[…]\nPakicetus inachus, a new archaeocete (Mammalia, Cetacea) from the early-middle Eocene Kuldana Formation of Kohat (Pakistan). Gingerich, P.D., 1981, Museum of Paleontology, The University of Michigan\n[…]\nSkeletons of terrestrial cetaceans and the relationship of whales to artiodactyls, Nature 413, 277–281 (20 September 2001), J. G. M. Thewissen, E. M. Williams, L. J. Roe and S. T. Hussain"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Evolu%C3%A7%C3%A3o_dos_cet%C3%A1ceos",
+        "situacao": "ok",
+        "texto": "A evolução dos cetáceos (baleias, golfinhos e toninhas, entre outros mamíferos marinhos) reflete as origens desta ordem animal, que teria segundo a ciência início em antepassados mamíferos terrestres.\n[…]\nContudo, estudos mais recentes de filogenia molecular indicam que as baleias estão mais proximamente relacionadas com os artiodátilos, tendo os hipopótamos como grupo não extinto mais proximamente aparentado.\n[…]\nHá ainda sinais de adaptações à vida aquática, incluindo um revestimento exterior espesso e pesado e ossos densos dos membros, de modo a reduzir a flutuabilidade, de modo a permanecerem imersos, constituindo adaptações semelhantes às de animais atuais, como os hipopótamos.Isto sugere uma estratégia semelhante à dos trágulos africanos ou dos corsos-purema que, sob ameaça de uma ave de rapina, mergulham, escondendo-se da superfície por tempos que chegam a atingir os quatro minutos.\n[…]\nOs paquicetídeos são mamíferos ungulígrados, que se julga constituírem os primeiros exemplares conhecidos de espécies de baleia, sendo o género Indohyus o seu mais próximo grupo irmão. Viveram no Eoceno inicial, há cerca de 50 milhões de anos. Os seus fósseis foram descobertos pela primeira vez no norte do Paquistão em 1979, junto a um rio não muito afastado das margens do antigo Mar de Tétis.\n[…]\nA sua dieta incluía provavelmente animais terrestres que se aproximavam da água para beber ou alguns organismos aquáticos de água corrente fluvial. As vértebras cervicais alongadas e as quatro vértebras sacrais fundidas são consistentes com as dos Artiodactyla, o que torna os Pakicetidae um dos mais antigos fósseis recuperados do período posterior à divergência evolutiva dos Cetáceos/Artiodátilos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "CRISPR-Cas9",
+      "descricao": "Técnica de edição genética conhecida como tesoura genética."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Antes de virar ferramenta de laboratório, o sistema CRISPR funcionava nas bactérias como o quê?",
+    "resposta": "Defesa contra vírus",
+    "distratores": [
+      "Motor do flagelo",
+      "Reserva de energia",
+      "Relógio celular"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/CRISPR"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/CRISPR",
+        "situacao": "ok",
+        "texto": "CRISPR (; acronym for clustered regularly interspaced short palindromic repeats) is a family of DNA sequences found in the genomes of prokaryotic organisms such as bacteria and archaea. Each sequence within an individual prokaryotic CRISPR is derived from a DNA fragment of a bacteriophage that had previously infected the prokaryote or one of its ancestors. These sequences are used to detect and de\n[…]\nIn 2008, Brouns and Van der Oost identified a complex of Cas proteins called Cascade, that in E. coli cut the CRISPR RNA precursor within the repeats into mature spacer-containing RNA molecules called CRISPR RNA (crRNA), which remained bound to the protein complex. Cascade, crRNA and a helicase/nuclease (Cas3) were required to provide a bacterial host with immunity against infection by a DNA virus.\n[…]\nBy designing an anti-virus CRISPR, they demonstrated that two orientations of the crRNA (sense/antisense) provided immunity, indicating that the crRNA guides were targeting dsDNA. That year Marraffini and Sontheimer confirmed that a CRISPR sequence of S. epidermidis targeted DNA and not RNA to prevent conjugation.\n[…]\nCertain archaeal viruses were shown to carry mini-CRISPR arrays containing one or two spacers. It has been shown that spacers within the virus-borne CRISPR arrays target other viruses and plasmids, suggesting that mini-CRISPR arrays represent a mechanism of heterotypic superinfection exclusion and participate in interviral conflicts.\n[…]\nCRISPR gene editing is a revolutionary technology that allows for precise, targeted modifications to the DNA of living organisms. Developed from a natural defense mechanism found in bacteria, CRISPR-Cas9 is the most commonly used system. Gene editing with CRISPR-Cas9 involves a Cas9 nuclease and an engineered guide RNA, which come together to allow for the precise \"cutting\" of one or both strands of DNA at specific locations within the genome."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/CRISPR",
+        "situacao": "ok",
+        "texto": "O sistema CRISPR (do inglês Clustered Regularly Interspaced Short Palindromic Repeats), ou seja, Repetições Palindrômicas Curtas Agrupadas e Regularmente Interespaçadas, consiste em pequenas porções do DNA bacteriano compostas por repetições de nucleotídeos.\n[…]\nA transcrição do locus CRISPR resulta em pequenos fragmentos de RNA com capacidade de desempenhar o reconhecimento de um DNA exógeno específico e atuar como um guia de modo a orientar a nuclease Cas, que irá promover a clivagem e consequente eliminação do DNA invasor caso este entre novamente em contato com a bactéria, atuando como importante mecanismo de defesa contra DNAs invasores.\n[…]\nNo ano seguinte foi postulada a hipótese de que o CRISPR é um sistema de defesa adaptativo de bactérias e arqueias que faz uso de RNA antisenso como assinaturas de memória de invasões anteriores. Esta proposta recebeu o suporte necessário quando foi evidenciada experimentalmente em Streptococcus thermophilus, levando a sua primeira aplicação no campo da biotecnologia, a fim de imunizar bactérias utilizadas na indústria de laticínios contra infecção por bacteriófagos.\n[…]\nPosterior ao reconhecimento, a clivagem do DNA invasor mediada pelo complexo Cas9-crRNA-tracrRNA é realizada importante destacar que ao contrario do sistema Tipo I, o reconhecimento do domínio PAM no sistema Tipo II ocorre na mesma fita do crRNA.\n[…]\nA técnica se baseia no sistema CRISPR tipo II com uso da S. thermophilus, já envolvida no processo de acidificação do leite. Com a edição do gene alvo e ação das enzimas Cas, há o controle do espaçador e defesa contra fagos. Tal procedimento permite o isolamento de cepas resistentes a vários bacteriófagos, mas que ainda conservam as mesmas propriedades de cultura original  .",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Hidra",
+      "descricao": "Gênero de pequenos cnidários de água doce, com corpo tubular e tentáculos, capazes de regenerar o corpo."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "A hidra de água doce intriga os cientistas porque parece imune a qual processo, comum a quase todos os seres vivos?",
+    "resposta": "Envelhecimento",
+    "distratores": [
+      "Respiração",
+      "Digestão",
+      "Crescimento"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hydra_(genus)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hydra_(genus)",
+        "situacao": "ok",
+        "texto": "Hydra ( HY-drə) is a genus of small freshwater hydrozoans in the phylum Cnidaria. They are solitary, carnivorous jellyfish-like animals, native to the temperate and tropical regions. The genus was named by Linnaeus in 1758 after the Hydra, the mythical many-headed beast that was defeated by Heracles, as when the animal has a part severed, it will regenerate much like the mythical Hydra's heads.\n[…]\nHydra are generally sedentary or sessile, but do occasionally move quite readily, especially when hunting. They have two distinct methods for moving: looping and somersaulting. They do this by bending over and attaching themselves to the substrate with the mouth and tentacles and then relocate the foot, which provides the usual attachment; this process is called looping. In somersaulting, the body then bends over and makes a new place of attachment with the foot.\n[…]\nBy this process of looping or somersaulting, a Hydra can move several inches (c. 100 mm) in a day. Hydra may also move by amoeboid motion of their bases or by detaching from the substrate and floating away in the current.\n[…]\nThe transcription factor \"forkhead box O\" (FoxO) has been identified as a critical driver of the continuous self-renewal of Hydra. In experiments, a drastically reduced population growth resulted from FoxO downregulation.\n[…]\nDifferent Hydra cell types express gene families of different evolutionary ages. Progenitor cells (stem cells, neuron and nematocyst precursors, and germ cells) express genes from families that predate metazoans. Among differentiated cells some express genes from families that date from the base of metazoans, like gland and neuronal cells, and others express genes from newer families, originating from the base of cnidaria or medusozoa, like nematocysts.\n[…]\nLernaean Hydra, a Greek mythological aquatic creature after which the genus is named"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hydra_%28g%C3%A9nero%29",
+        "situacao": "ok",
+        "texto": "A hidra (gênero Hydra) é uma espécies de animal cnidário de corpo cilíndrico e em forma de pólipo. Vive em água doce, preferencialmente em águas frias e limpas, presa por uma extremidade a um rocha ou à vegetação aquática. Tem cor verde, parda ou cinza. As hidras são animais vágeis, locomovendo-se ao longo das superfícies que ocupa.\n[…]\nOs cnidários são carnívoros e nutrem-se de zooplâncton (pequenos animais em suspensão na água), crustáceos, ovos de peixe e larvas.\n[…]\nA hidra é um animal único no aspecto que ela nunca, jamais envelhece, podendo teoricamente viver para sempre. Na prática, é claro, em algum momento ela acaba morrendo devido a doença ou predadores.\n[…]\nEspécies do gênero Hydra há muito tempo têm sido importantes modelos para pesquisas em biologia do desenvolvimento, expressão gênica e células tronco. O naturalista suíço Abraham Trembley foi o primeiro pesquisador a descobrir, em 1744, a capacidade de pólipos de água doce de formar novos indivíduos a partir de pedaços retirados de um indivíduo adulto.\n[…]\nDiversas pesquisas em desenvolvimento celular sucederam essa descoberta com a aplicação de técnicas de observação de comportamento celular para elucidar os mecanismos que controlam a pluripotência e diferenciação de células de Hydra. No entanto, foi apenas a partir do início de pesquisas genômicas em Hydra pela J. Craig Venter Institute, nos Estados Unidos, que os processos de organização, posicionamento e regulação de regeneração celular começaram a ser compreendidos.\n[…]\nA partir dos anos 2000 foram encontradas diversas moléculas da cascata Wnt nas regiões terminais da hidra durante a regeneração da cabeça ou do disco pedal, como a HyWnt (molécula de sinalização Wnt específica ao gênero Hydra), a β-catenina e a TCF, todos responsáveis pela regulação da proliferação e reorganização celulares.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Thermus aquaticus",
+      "descricao": "Bactéria termófila descoberta nas fontes termais de Yellowstone, origem da enzima Taq polimerase."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "A enzima retirada da bactéria Thermus aquaticus é essencial nos testes de PCR por qual característica?",
+    "resposta": "Resiste ao calor",
+    "distratores": [
+      "Brilha sob luz",
+      "Funciona no gelo",
+      "Dispensa o DNA"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Taq_polymerase"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Taq_polymerase",
+        "situacao": "ok",
+        "texto": "Taq polymerase  is a thermostable DNA polymerase named after the thermophilic bacterium Thermus aquaticus, from which it was originally isolated by master's student Alice Chien et al. in 1976. Its name is often abbreviated to Taq or Taq pol. It is frequently used in the polymerase chain reaction (PCR), a method for greatly amplifying the quantity of short segments of DNA. It possesses a 5' → 3' po\n[…]\nT. aquaticus is a bacterium that lives in hot springs and hydrothermal vents, and Taq polymerase was identified  as an enzyme able to withstand the protein-denaturing conditions (high temperature) required during PCR. Therefore, it replaced the DNA polymerase from E. coli originally used in PCR.\n[…]\nOne of Taq's drawbacks is its lack of 3' to 5' exonuclease proofreading activity resulting in relatively low replication fidelity. Originally its error rate was measured at about 1 in 9,000 nucleotides . Use of recombinant DNA technology has enabled the use of an E. coli strain that carries the Taq DNA Polymerase gene from Thermus aquaticus YT-1 with an error rate of approximately 1 in 285 x 10-6 bases .\n[…]\nSome thermostable DNA polymerases have been isolated from other thermophilic bacteria and archaea, such as Pfu DNA polymerase, possessing a proofreading activity, and are being used instead of (or in combination with) Taq for high-fidelity amplification . Fidelity can vary widely between Taqs, which has profound effects in downstream sequencing applications ."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Taq_DNA_polimerase",
+        "situacao": "ok",
+        "texto": "A Taq DNA polimerase, também denominada Taq polimerase ou apenas Taq (EC 2.7.7.7), é uma DNA polimerase termoestável, utilizada na amplificação de fragmentos de DNA através da técnica de PCR. O seu nome é devido a ter sido identificada pela primeira vez na bactéria Thermus aquaticus, uma extremófila encontrada em fontes hidrotermais. A Taq polimerase suporta as elevadas temperaturas usadas em PCR,\n[…]\nA Taq polimerase tem a desvantagem de ter uma fidelidade relativamente baixa, ou seja, ao fabricar trechos de DNA durante o processo de PCR pode incorporar nucleótidos errados. Este fato deve-se à ausência de um mecanismo de proofreading (correcção), que consiste numa atividade 3'-5' exonuclease. Este tipo de atividade enzimática permite a outras polimerases corrigir a introdução de um nucleótido errado na cadeia de DNA nascente.\n[…]\nEstas polimerases podem construir uma cadeia de DNA com mil bases (1kb) em cerca de 30 segundos a 72°C. Têm também a característica de acrescentar uma adenina nas extremidades da cadeia produzida, o que permite a utilização deste DNA num tipo de clonagem conhecido como \"clonagem TA\". Neste, um vetor (por exemplo, um plasmídeo) com timinas salientes é ligado facilmente a esse DNA pois as extremidades são coesivas (a timina emparelha com a adenina em cadeias de DNA).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Modelo da dupla hélice do DNA",
+      "descricao": "Modelo da estrutura do DNA em duas fitas enroladas, publicado na revista Nature em 1953."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em fevereiro de 1953, Crick teria anunciado que tinham descoberto o segredo da vida. Em que lugar de Cambridge?",
+    "resposta": "No pub The Eagle",
+    "distratores": [
+      "Na capela do King's",
+      "Na biblioteca da universidade",
+      "No jardim botânico"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Eagle,_Cambridge"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Eagle,_Cambridge",
+        "situacao": "ok",
+        "texto": "The Eagle (formerly known as the Eagle and Child) is a Grade II listed public house in Cambridge, England, which opened in 1667 as a coaching inn. It is the second oldest pub in Cambridge, after the Pickerel Inn on Magdalene Street. The pub's front, on the north side of Bene't Street in the centre of the city, is of circa 1600, with a galleried 19th-century wing behind, facing the courtyard. The s\n[…]\nDuring the Second World War, Allied airmen, who drank and socialised at The Eagle, used wax candles, petrol lighters and lipstick to write their names, squadron numbers and other doodles onto the ceiling of the rear bar. The tradition is believed to have been started by RAF Flight Sergeant P. E. Turner, who climbed up on the table one night to burn his squadron number on the ceiling.\n[…]\nWhen the university's Cavendish Laboratory was still at its old site at nearby Free School Lane, the pub was a popular lunch destination for staff working there. Thus, it became the place where Francis Crick interrupted patrons' lunchtime on 28 February 1953 to announce that he and James Watson had \"discovered the secret of life\" after they had come up with their proposal for the structure of DNA.\n[…]\nThe anecdote is related in Watson's book The Double Helix, and is commemorated on a blue plaque next to the entrance, and two plaques in the middle room by the table where Crick and Watson lunched regularly. Today the pub serves a special ale to commemorate the discovery, dubbed \"Eagle's DNA\".\n[…]\nAlso in 1953 Watson and Crick worked over lunch in The Eagle to draw up a list of the 20 canonical amino acids. This has been a very influential rubric for molecular biology, and was a key development in understanding the protein-coding nature of DNA."
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Ovelha Dolly",
+      "descricao": "Ovelha nascida em 1996 na Escócia, primeiro mamífero clonado a partir de uma célula adulta."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A ovelha Dolly foi criada no Instituto Roslin, perto de qual cidade escocesa?",
+    "resposta": "Edimburgo",
+    "distratores": [
+      "Glasgow",
+      "Aberdeen",
+      "Dundee"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dolly_(sheep)",
+      "https://en.wikipedia.org/wiki/Roslin_Institute"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dolly_(sheep)",
+        "situacao": "ok",
+        "texto": "Dolly (5 July 1996 – 14 February 2003) was a female Finn-Dorset sheep and the first mammal that was cloned from an adult somatic cell. She was cloned by associates of the Roslin Institute in Scotland, using the process of nuclear transfer from a cell taken from a mammary gland (somatic cell nuclear transfer). Her cloning proved that a cloned organism could be produced from a mature cell from a spe\n[…]\nDolly was cloned by Keith Campbell, Ian Wilmut and colleagues at the Roslin Institute, part of the University of Edinburgh, Scotland, and the biotechnology company PPL Therapeutics, based near Edinburgh. The funding for Dolly's cloning was provided by PPL Therapeutics and the Ministry of Agriculture. She was born on 5 July 1996. She has been called \"the world's most famous sheep\" by sources including BBC News and Scientific American.\n[…]\nDolly lived her entire life at the Roslin Institute in Midlothian. There she was bred with a Welsh Mountain ram and produced six lambs in total. Her first lamb, named Bonnie, was born in April 1998. The following year, Dolly produced twin lambs, Sally and Rosie; further, she gave birth to the triplets Lucy, Darcy and Cotton in 2000. In late 2001, at the age of four, Dolly developed arthritis and started to have difficulty walking. This was treated with anti-inflammatory drugs.\n[…]\nSome in the press speculated that a contributing factor to Dolly's death was that she could have been born with a genetic age of six years, the same age as the sheep from which she was cloned. One basis for this idea was the finding that Dolly's telomeres were short, which is typically a result of the ageing process. The Roslin Institute stated that intensive health screening did not reveal any abnormalities in Dolly that could have come from advanced aging.\n[…]\nIn re Roslin Institute (Edinburgh) – US court decision that determined that Dolly could not be patented"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Roslin_Institute",
+        "situacao": "ok",
+        "texto": "The Roslin Institute is an animal sciences research institute at Easter Bush, Midlothian, Scotland, part of the University of Edinburgh, and is funded by the Biotechnology and Biological Sciences Research Council.\n[…]\nIn 1971, the institute's experimental facility moved from the Bush Estate to a larger site near the village of Roslin, and the main laboratories moved to the same site in 1980.\n[…]\nIn 2006, the BBSRC announced that the institute would move to a new site on the University of Edinburgh's Easter Bush campus, under the direction of David Hume. As part of the plans, the Roslin Institute merged with the Neuropathogenesis Unit of the Institute for Animal Health, well known for its role in deciphering the biology of transmissible spongiform encephalopathies and this was headed by Jean Manson.\n[…]\nIn April 2008, the combined institute became part of the University of Edinburgh's Royal (Dick) School of Veterinary Studies, and the institute's 197 staff members became University of Edinburgh employees on 1 May. The move to Easter Bush was completed in March 2011. Under the original plans, the new institute was to be known as EBRC, but the institute ultimately retained the Roslin name.\n[…]\nIn 1996, the institute won international fame when Ian Wilmut, Keith Campbell, and their colleagues created Dolly the sheep, the first mammal to be successfully cloned from an adult cell, at the institute. A year later, two other sheep named Polly and Molly were cloned, each of which contained a human gene.\n[…]\nResearch at the Roslin Institute is categorised into four scientific divisions:\n[…]\nBBSRC strategically funded institutes"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ovelha_Dolly",
+        "situacao": "ok",
+        "texto": "A ovelha Dolly (Easter Bush, 5 de julho de 1996 — Easter Bush, 14 de fevereiro de 2003) foi o primeiro mamífero a ser clonado com sucesso a partir de uma célula somática adulta.\n[…]\nDolly foi criada por investigadores do Instituto Roslin, na Escócia, onde viveu toda a sua vida. Os créditos pela clonagem foram dados ao biólogo Ian Wilmut, mas este admitiu, em 2006, que Keith Campbell seria na verdade o maior responsável pela clonagem.\n[…]\nEm 2002 foi anunciado que Dolly sofria de um tipo de doença pulmonar progressiva, o que foi interpretado por alguns setores como sinal de envelhecimento. Dolly foi abatida em fevereiro de 2003, aos 6 anos, para evitar uma morte dolorosa por infecção pulmonar incurável. O seu corpo empalhado está exposto no Museu Real da Escócia, em Edimburgo, Escócia.\n[…]\nA Scientific American concluiu em 2016 que o principal legado da ovelha Dolly não foi a clonagem de animais, mas sim os avanços na pesquisa com células-tronco. Depois de Dolly, os pesquisadores perceberam que células comuns poderiam ser reprogramadas para células-tronco pluripotentes induzidas, que podem ser cultivadas em qualquer tecido.\n[…]\nEm janeiro de 2019, cientistas na China relataram a criação de cinco macacos clonados idênticos com edição de genes, usando a mesma técnica de clonagem que foi usada com Zhong Zhong e Hua Hua - os primeiros macacos clonados - e a ovelha Dolly, e a mesma técnica gene-edição CRISPR-Cas9 supostamente usada por He Jiankui na criação dos primeiros bebês humanos modificados por genes, Lulu e Nana. Os clones de macacos foram feitos para estudar várias doenças médicas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Thomas Hunt Morgan",
+      "descricao": "Geneticista americano, Nobel de 1933, que demonstrou que os genes ficam nos cromossomos usando a mosca-das-frutas."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A famosa Sala das Moscas, onde Thomas Hunt Morgan criava milhares de moscas-da-fruta, ficava em qual universidade de Nova York?",
+    "resposta": "Universidade Columbia",
+    "distratores": [
+      "Universidade Cornell",
+      "Universidade Rockefeller",
+      "Universidade de Nova York"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thomas_Hunt_Morgan"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Thomas_Hunt_Morgan",
+        "situacao": "ok",
+        "texto": "Thomas Hunt Morgan  (September 25, 1866 – December 4, 1945) was an American evolutionary biologist, geneticist, and embryologist. In 1933, he won the Nobel Prize in Physiology or Medicine for discoveries on the role of chromosomes in heredity.\n[…]\nMorgan received his Ph.D. from Johns Hopkins University in zoology in 1890 and researched embryology during his tenure at Bryn Mawr. Following the rediscovery of Mendelian inheritance in 1900, Morgan began to study the genetic characteristics of the fruit fly Drosophila melanogaster. In his famous Fly Room at Columbia University's Schermerhorn Hall, Morgan demonstrated that genes are carried on chromosomes and are the mechanical basis of heredity.\n[…]\nEvery summer from 1910 to 1925, Morgan and his colleagues at the famous Fly Room at Columbia University moved their research program to the Marine Biological Laboratory. Aside from being an independent investigator at the MBL from 1890 to 1942, he became very involved in the governance of the institution, including serving as an MBL trustee from 1897 to 1945.\n[…]\nMorgan worked at Columbia University for 24 years, from 1904 until 1928 when he left for a position at the California Institute of Technology.\n[…]\nIn 1904, his friend, Jofi Joseph died of tuberculosis, and he felt he ought to mourn her, though E. B. Wilson—still blazing the path for his younger friend—invited Morgan to join him at Columbia University. This move freed him to focus fully on experimental work.\n[…]\nShine, Ian B; Sylvia Wrobel (1976). Thomas Hunt Morgan: Pioneer of Genetics. University Press of Kentucky. ISBN 0-8131-0095-X.\n[…]\nThomas Hunt Morgan Biological Sciences Building at University of Kentucky\n[…]\nThomas Hunt Morgan\n[…]\nWorks by Thomas Hunt Morgan at the Biodiversity Heritage Library"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Thomas_Hunt_Morgan",
+        "situacao": "ok",
+        "texto": "Thomas Hunt Morgan (25 de setembro de 1866 – 4 de dezembro de 1945) foi um biólogo evolutivo, geneticista e embriologista americano. Em 1933, recebeu o Prêmio Nobel de Fisiologia ou Medicina por suas descobertas sobre o papel dos cromossomos na hereditariedade.\n[…]\nEm sua famosa Sala das Moscas, no Schermerhorn Hall da Universidade Columbia, Morgan demonstrou que os genes são transportados pelos cromossomos e constituem a base mecânica da hereditariedade. Essas descobertas formaram a base da ciência moderna da genética.\n[…]\nEm todos os verões de 1910 a 1925, Morgan e seus colegas da famosa Sala das Moscas da Universidade Columbia transferiam seu programa de pesquisa para o Marine Biological Laboratory. Além de atuar como pesquisador independente no MBL entre 1890 e 1942, envolveu-se intensamente na administração da instituição, inclusive como membro de seu conselho de administração entre 1897 e 1945.\n[…]\nMorgan trabalhou na Universidade Columbia durante 24 anos, de 1904 a 1928, quando deixou a instituição para assumir um cargo no Instituto de Tecnologia da Califórnia.\n[…]\nEm 1904, sua amiga Jofi Joseph morreu de tuberculose, e Morgan sentiu que deveria lamentar sua morte, enquanto E. B. Wilson — que continuava abrindo caminho para seu colega mais jovem — convidou Morgan para se juntar a ele na Universidade Columbia. Essa mudança permitiu que Morgan se concentrasse integralmente no trabalho experimental.\n[…]\nA Sala das Moscas de Morgan em Columbia tornou-se mundialmente famosa, e ele passou a atrair facilmente financiamento e pesquisadores visitantes. Em 1927, após 25 anos em Columbia e já próximo da idade de aposentadoria, recebeu de George Ellery Hale a proposta de criar uma escola de biologia na Califórnia.\n[…]\nThomas Hunt Morgan",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Foto 51",
+      "descricao": "Imagem de difração de raios X do DNA obtida em 1952 no King's College de Londres."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano foi feita a Foto 51, a imagem de raios X do DNA obtida no King's College de Londres?",
+    "resposta": "1952",
+    "distratores": [
+      "1948",
+      "1950",
+      "1955"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Photo_51"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Photo_51",
+        "situacao": "ok",
+        "texto": "Photo 51 is a 1952 X-ray based fiber diffraction image of a paracrystalline gel composed of DNA fiber taken by Rosalind Franklin's PhD student Raymond Gosling at King's College London, while working in Sir John Randall's group; Maurice Wilkins later shared the image with James Watson without their permission. The image was tagged \"photo 51\" because it was the 51st diffraction photograph that Gosli\n[…]\nPhoto 51 was taken by Raymond Gosling, working under Rosalind Franklin, on 2 May 1952. According to a later account by Gosling, although Photo 51 was an exceptionally clear diffraction pattern of the \"B\" form of DNA, Franklin was more interested in solving the diffraction pattern of the \"A\" form of DNA, so she put Gosling's Photo 51 to the side.\n[…]\nA few days later, Wilkins showed the photo to James Watson after Gosling had returned to working under Wilkins' supervision. Franklin did not know this at the time because she was leaving King's College London. Randall, the head of the group, had asked Gosling to share all his data with Wilkins. Watson recognized the pattern as a helix because his co-worker Francis Crick had previously published a paper of what the diffraction pattern of a helix would be.\n[…]\nPhoto 51 became a crucial data source that led to the development of the DNA model and confirmed the prior postulated double helical structure of DNA, which were presented in the series of three articles in the journal Nature in 1953.\n[…]\nA 56-minute documentary, DNA – Secret of Photo 51, was broadcast in 2003 on PBS NOVA. Narrated by Sigourney Weaver, the program features interviews with Wilkins, Gosling, Aaron Klug, Brenda Maddox, including Franklin's friends Vittorio Luzzati, Donald Caspar, Anne Piper, and Sue Richley. The UK version produced by the BBC is titled Rosalind Franklin: DNA's Dark Lady."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fotografia_51",
+        "situacao": "ok",
+        "texto": "Fotografia 51 é o rótulo dado a uma imagem de DNA feita por difração de raio X. Esta fotografia foi tirada por Raymond Gosling em maio de 1952, sendo ele à época um estudante de PhD sob a supervisão de Rosalind Franklin, no King's College London. Esta fotografia foi a evidência crucial para a identificação da estrutura do DNA.\n[…]\nA foto foi mostrada a James Watson por  Maurice Wilkins sem o consentimento e conhecimento de Rosalind Franklin, apesar de que o aspirante Gosling já estava novamente sob a supervisão de Wilkins. Assim, juntamente com Francis Crick, Watson observando as características e o aspecto da Fotografia 51 desenvolveu o modelo químico da molécula do DNA. E a partir desse modelo, em 1962, Watson, Crick e Wilkins foram agraciados com o Prêmio Nobel de Medicina.\n[…]\nOs historiadores estão reexaminando o período no qual esta imagem foi obtida e grande controvérsias estão surgindo sobre tanto as reais contribuições desta fotografia para o trabalho de Watson e Crick quanto sobre a forma (se ética ou não) que estes obtiveram acesso à fotografia. Rosalind Franklin foi contratada independentemente, isto é, sem vínculo hierárquico, de Maurice Wilkins que mostrou a Fotografia 51 para Watson e Crick sem o conhecimento daquela.\n[…]\nDesta forma, um debate acalorado se intensifica ao se questionar se Rosalind Franklin poderia deduzir a estrutura do DNA por contra própria e com seus próprios dados (até onde ela já tinha pesquisado) se Watson e Crick não tivessem tido acesso a imagem para chegarem as conclusões e finalizarem os estudos. Watson falou sobre Rosalind Franklin admitindo importância às realizações dela\n[…]\nFotografia 51, mostrando os padrões de difração de raio X num DNA.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "CRISPR-Cas9",
+      "descricao": "Técnica de edição genética conhecida como tesoura genética."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano Jennifer Doudna e Emmanuelle Charpentier publicaram o artigo que transformou o CRISPR numa tesoura genética programável?",
+    "resposta": "2012",
+    "distratores": [
+      "2005",
+      "2009",
+      "2016"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/CRISPR_gene_editing",
+      "https://en.wikipedia.org/wiki/Jennifer_Doudna"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/CRISPR_gene_editing",
+        "situacao": "ok",
+        "texto": "CRISPR gene editing (; pronounced like \"crisper\"; an abbreviation for \"clustered regularly interspaced short palindromic repeats\") is a genetic engineering technique in molecular biology by which the genomes of living organisms may be modified. It is based on a simplified version of the bacterial CRISPR-Cas9 antiviral defense system.\n[…]\nHowever, its use in human germline genetic modification is highly controversial. The development of this technique earned Jennifer Doudna and Emmanuelle Charpentier the Nobel Prize in Chemistry in 2020. The third researcher group that shared the Kavli Prize for the same discovery, led by Virginijus Šikšnys, was not awarded the Nobel Prize.\n[…]\nIn 2012, the research team led by professor Jennifer Doudna (University of California, Berkeley) and professor Emmanuelle Charpentier (Umeå University) was the first group to identify, disclose, and file a patent application for the CRISPR-Cas9 system needed to edit DNA. They also published their finding that CRISPR-Cas9 could be programmed with RNA to edit genomic DNA, now considered one of the most significant discoveries in the history of biology.\n[…]\nIn October 2020, researchers Emmanuelle Charpentier and Jennifer Doudna were awarded the Nobel Prize in Chemistry for their work in this field. They made history as the first two women to share this award without a male contributor.\n[…]\nThe advantage of pooled CRISPR libraries is that more genes can be targeted at once.\n[…]\nIn 2012 and 2013, CRISPR was a runner-up in Science Magazine's Breakthrough of the Year award. In 2015, it was the winner of that award. CRISPR was named as one of MIT Technology Review's 10 breakthrough technologies in 2014 and 2016. In 2016, Jennifer Doudna and Emmanuelle Charpentier, along with Rodolphe Barrangou, Philippe Horvath, and Feng Zhang won the Gairdner International award."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Jennifer_Doudna",
+        "situacao": "ok",
+        "texto": "Jennifer Anne  Doudna  (; born February 19, 1964) is an American biochemist who has pioneered work in CRISPR gene editing, and made other fundamental contributions in biochemistry and genetics. She received the 2020 Nobel Prize in Chemistry, with Emmanuelle Charpentier, \"for the development of a method for genome editing.\" She is the Li Ka Shing Chancellor's Chair Professor at the University of Ca\n[…]\nIn 2012, Doudna and Emmanuelle Charpentier were the first to propose that CRISPR-Cas9 (enzymes from bacteria that control microbial immunity) could be used for programmable editing of genomes, which has been called one of the most significant discoveries in the history of biology. Since then, Doudna has been a leading figure in what is referred to as the \"CRISPR revolution\" for her fundamental work and leadership in developing CRISPR-mediated genome editing.\n[…]\nDoudna's awards and fellowships include the 2000 Alan T. Waterman Award for her research on the structure of a ribozyme, as determined by X-ray crystallography and the 2015 Breakthrough Prize in Life Sciences for CRISPR-Cas9 genome editing technology, with Charpentier. She has been a co-recipient of the Gruber Prize in Genetics (2015), the Tang Prize (2016), the Canada Gairdner International Award (2016), and the Japan Prize (2017).\n[…]\nDoudna was introduced to CRISPR by Jillian Banfield in 2006 who had found Doudna by way of a Google search, having typed \"RNAi and UC Berkeley\" into her browser, and Doudna's name came up at the top of the list. In 2012, Doudna and her colleagues made a new discovery that reduces the time and work needed to edit genomic DNA. Their discovery relies on a protein named Cas9 found in the Streptococcus bacterial \"CRISPR\" immune system that cooperates with guide RNA and works like scissors.\n[…]\n\"How CRISPR lets us edit our DNA\". TED talk by Jennifer Doudna on YouTube\n[…]\nJennifer A. Doudna on Nobelprize.org"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/CRISPR/Cas",
+        "situacao": "ok",
+        "texto": "Em biologia molecular, CRISPR/Cas é uma ferramenta de edição de genoma que consiste em dois componentes: uma transcrição do locus CRISPR que resulta em curtos fragmentos de RNA com capacidade de desempenhar o reconhecimento de um DNA exógeno específico e atua como um guia a um local particular no genoma, e uma proteína chamada Cas9 que corta o DNA nesse local.\n[…]\nEntão, em 2012, foi publicado um artigo sobre esta nova técnica que iria permitir aos investigadores para alterar rapidamente o DNA de quase qualquer organismo - incluindo os seres humanos. Logo depois, vários pesquisadores abandonaram suas abordagens anteriores à modelagem de doenças  e adoptaram este nova técnica. Dr. Bruce Conklin, um geneticista, disse que seu laboratório foi em seguida, febrilmente alterar genes associados a várias doenças cardíacas.\n[…]\nEm abril de 2014, uma patente aberta, nos EUA, foi atribuída a Feng Zhang, um cientista do Instituto \"Broad\" MIT-Harvard que afirma ter descoberto a eficácia das CRISPR/Cas9 na edição de genes em células humanas. Zhang apresentou sua patente com a data de prioridade de dezembro de 2012. Apenas alguns meses mais tarde, o prêmio \"Breakthrough\" foi atribuído a J. Doudna e E. Charpentier pela contribuição para a descoberta de CRISPR.\n[…]\nDoudner e Charpentier registraram uma patente com a data de prioridade de 25 de maio de 2012, que inclui 155 reivindicações, englobando inúmeras aplicações do sistema para uma variedade de tipos de células.\n[…]\nEm 2015, Jennifer Doudna, um bioquímica da Universidade da Califórnia co-fundadora de \"Editas Medicine\", e sua colaboradora, Emmanuelle Charpentier do Centro Helmholtz para Pesquisa de Infecções na Alemanha, receberam $3 milhões de dólares cada uma pela invenção da revolucionária ferramenta para a edição de DNA CRISPR.\n[…]\nVídeo explicando a técnica CRISPR",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.94 — 2026-11-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 e até 20 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+> - [`modo_pokemon.md`](modo_pokemon.md): o modo Pokémon e a coleção de perguntas de pokémon (§6, §15, §16, §17)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Dificuldade percebida** (2026-10-12): no app, quem lê pode avaliar a pergunta em cinco níveis, de muito fácil a muito difícil (§16, "Avaliação"). Essa avaliação poderá mudar o campo `dificuldade`, como **informação adicional à popularidade**, e não no lugar dela. **Por enquanto só é registrada:** não altera o campo, e a dificuldade, estimada ou percebida, **não orienta a criação de perguntas**. A ideia é coletar dados antes de decidir como usá-los.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **3 perguntas por âncora** em cada lote (2 até 2026-10-27), nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **8 perguntas por âncora** no banco inteiro (3 até 2026-10-23, 5 até 2026-10-27), somando texto e figura, e no máximo **3 com figura** (2 até 2026-10-27). As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+- **Resposta que é um ano ou uma data: sempre `multipla`.** Quando a resposta é um ano específico ("1969") ou uma data mais detalhada ("15 de novembro de 1889", "2 de fevereiro"), a pergunta é obrigatoriamente de múltipla escolha, com ou sem figura. Os distratores são anos (ou datas) próximos e críveis, no mesmo formato da resposta, nenhum deles também correto. A regra vale só quando **a resposta é o próprio ano ou a data**: século e década ("século dezenove", "década de 1970") e respostas em que o ano identifica outra coisa, como uma edição de Olimpíada ou de Copa ("Londres 2012", "1970, no México"), podem continuar abertas. Essas perguntas têm um teto no jogo original (§9).
+- **Metade aberta, metade múltipla escolha** (desde 2026-10-27). O jogo original busca as duas formas na mesma proporção, em cada tema, para que um modo só de múltipla escolha tenha perguntas de todos os temas. Vale para texto e figura. Cada lote recebe a quantidade de `multipla` que aproxima o seu tema dessa meta (§17), e a pergunta segue a quantidade pedida, salvo quando a outra forma for claramente melhor.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **três perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+### Coleções
+
+Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um modo de jogo próprio (decidido em 2026-10-13). Cada coleção tem um documento próprio com as diretrizes dela; a única até agora é a de **pokémon**, do modo Pokémon, em [`modo_pokemon.md`](modo_pokemon.md).
+
+- A pergunta da coleção tem o campo `colecao`. O modo da coleção sorteia só as perguntas dela, de qualquer tema.
+- **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master e Linear).
+- **Subtema da coleção** (campo `subtema_colecao`): uma coleção pode ter subtemas próprios, definidos no documento dela, que dividem as perguntas dentro do modo. Eles não substituem tema e subtema, e a lista canônica (§3) não muda. A folga para sobreposição entre eles também é definida no documento da coleção.
+- As perguntas da coleção seguem esta Parte I: tema e subtema, âncora, fontes, redação e critérios. Podem ser com ou sem figura.
+- **Regras de conteúdo próprias:** o documento de uma coleção pode ter regras de conteúdo para as exclusivas dela, que partem desta Parte I e prevalecem sobre ela onde divergirem. Nos lotes exclusivos, o gerador e o crítico recebem esta Parte I e, depois dela, essas regras.
+- **Saturação das exclusivas:** é contada só dentro da coleção, com o limite definido no documento dela, e as exclusivas não contam na saturação do jogo original, porque uma partida nunca sorteia os dois conjuntos.
+- As exclusivas não contam nas metas do jogo original (§17), e o autopiloto não as produz: os lotes delas são rodados à mão.
+
+### Perguntas com áudio
+
+Uma pergunta de qualquer tipo pode ter um **trecho de áudio** (campo `audio`), decidido em 2026-10-12. O questionador lê o enunciado e manda o trecho tocar **na tela grande** (modo mesa), para todos ouvirem; o celular de quem lê não toca o som. **Até segunda ordem, as perguntas com áudio ficam fora do jogo:** o app não as sorteia em nenhum modo (§16), enquanto os trechos são revistos.
+
+- **De reconhecimento**, como as figuras: a pergunta pede para reconhecer o que se ouve ("De que país é este hino nacional?", "Que música é esta?", "Que animal faz este som?", "Que instrumento é este?", "De que compositor é esta peça?"). O enunciado nunca diz o que toca; pode trazer uma pista que ajude sem entregar ("Que ave do Cerrado…").
+- **Categorias:** hinos nacionais (Geografia › Bandeiras e Símbolos); música clássica e ópera (Artes e Pensamento › Música Clássica, Teatro e Ópera); música brasileira antiga (Entretenimento › Música Brasileira); sons de animais (Natureza, no subtema do bicho); instrumentos (Música Clássica, Música Brasileira ou Música Internacional, conforme o instrumento).
+- **Só áudio livre**, porque o repositório e o site são públicos: domínio público, CC0, CC BY ou CC BY-SA, sem NC nem ND. Gravações comerciais de música popular **não entram**: a composição fica protegida até 70 anos depois da morte do autor, e a gravação, até 70 anos depois de publicada. Na música brasileira antiga, a composição e a gravação precisam estar em domínio público no Brasil: autores mortos há mais de 70 anos (Chiquinha Gonzaga, Ernesto Nazareth, Zequinha de Abreu, Catulo da Paixão Cearense, Carlos Gomes) e gravação publicada há mais de 70 anos. *Pelo Telefone*, de Donga (morto em 1974), por exemplo, fica de fora. Boas fontes: os hinos da Banda da Marinha dos EUA e os sons do Serviço de Pesca e Vida Selvagem dos EUA (obras do governo americano, em domínio público), o Musopen e as gravações antigas da Casa Edison, todos no Wikimedia Commons.
+- **O LLM não ouve áudio.** A pergunta sai dos metadados do arquivo (título, descrição, categorias, origem) e das fontes, e **uma pessoa ouve o trecho** antes de ele entrar no banco, na página que o pipeline gera (§17).
+- **O trecho:** de 6 a 30 segundos, escolhido para ser reconhecível (o tema famoso de uma peça, o começo de um hino, o canto típico de uma ave), com entrada e saída suaves e volume igualado. Nas gravações antigas, o trecho pula o anúncio do locutor, que muitas vezes diz o nome da música.
+- **Saturação:** o áudio conta no limite de 8 perguntas por âncora, e cada âncora tem no máximo 1 pergunta com áudio.
+- **Resposta específica e justa:** o nome da música, do país, do animal ou do instrumento. Quando o som não permite distinguir a espécie ou o instrumento exato de outros parecidos (uma coruja de outra, o acordeão do bandoneón), a pergunta é `multipla`, sem distratores que soem igual.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- **Respostas que são um ano específico** ("1969", "800 a.C."), somando abertas e múltiplas: no máximo **9%** das perguntas do lote, e no máximo **uma** num lote de figuras, que tem 12 itens (desde 2026-10-30, só no jogo original). Para pedir a época, prefira o século, a década ou a ordem entre dois fatos. O registro descarta o que passar do teto; as perguntas que já estavam no banco ficam.
+- No máximo **3 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras centrais e conhecidas**, mesmo que já tenham perguntas, a âncoras novas e obscuras (desde 2026-10-27; antes, "prefira âncoras novas"). O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para aprofundá-las com fatos e ângulos novos, sem repetir fatos.
+- **Tentar incluir uma âncora nova a cada 50 perguntas**, tão conhecida quanto as centrais, para manter alguma variedade. Se for difícil achar uma assim, o lote fica sem: uma âncora nova obscura não vale a troca.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
