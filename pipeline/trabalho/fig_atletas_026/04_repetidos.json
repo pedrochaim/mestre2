@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fisiculturista aposentado é este?",
+        "resposta": "Arnold Schwarzenegger"
+      },
+      "existentes": [
+        {
+          "id": "q15330",
+          "pergunta": "Em qual destes filmes este ator atuou?",
+          "resposta": "O Exterminador do Futuro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identidade do ator (fisiculturista aposentado) pela imagem; a existente pede em qual filme ele atuou. Fatos diferentes."
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto de multidão com várias pessoas ao redor; a atleta não é reconhecível pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, com patrocínios visíveis; a atleta não é reconhecível num celular."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, figura pública reconhecível.",
+      "destino": 7,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fisiculturista aposentado é este?",
+      "resposta": "Arnold Schwarzenegger",
+      "distratores": [
+        "Sylvester Stallone",
+        "Dolph Lundgren",
+        "Lou Ferrigno"
+      ],
+      "ancora": {
+        "nome": "Arnold Schwarzenegger",
+        "descricao": "Ex-fisiculturista austro-americano, sete vezes Mr. Olympia, ator e ex-governador da Califórnia.",
+        "variantes": [
+          "Arnold Alois Schwarzenegger",
+          "Schwarzenegger"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto de baixa resolução em evento, com camisa com texto e outras pessoas; o jogador não é reconhecível."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto de jogo com a camisa do Blazers (sem nome); rosto reconhecível, sem texto que entregue a resposta.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que pivô lituano é este?",
+      "resposta": "Arvydas Sabonis",
+      "distratores": [
+        "Zydrunas Ilgauskas",
+        "Vlade Divac",
+        "Rik Smits"
+      ],
+      "ancora": {
+        "nome": "Arvydas Sabonis",
+        "descricao": "Pivô lituano de basquete, campeão olímpico em 1988 pela União Soviética e jogador do Portland Trail Blazers.",
+        "variantes": [
+          "Arvydas Romas Sabonis",
+          "Sabonis"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O logotipo na roupa traz o nome 'Michael Johnson', entregando a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Quadro de vídeo escuro, de um senhor idoso; o piloto não é reconhecível pela imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida com a camisa do Uruguai e número sem nome; jogador reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que atacante é este?",
+      "resposta": "Edinson Cavani",
+      "distratores": [
+        "Luis Suárez",
+        "Diego Forlán",
+        "Gonzalo Higuaín"
+      ],
+      "ancora": {
+        "nome": "Edinson Cavani",
+        "descricao": "Atacante uruguaio apelidado de El Matador, com passagens por Napoli, PSG e Manchester United.",
+        "variantes": [
+          "Cavani",
+          "El Matador"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto granulada e escura, recortada de perto; o boxeador não é reconhecível com segurança."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido em coletiva, sem nome visível; figura pública reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ex-meia argentino é este?",
+      "resposta": "Juan Román Riquelme",
+      "distratores": [
+        "Pablo Aimar",
+        "Juan Sebastián Verón",
+        "Andrés D'Alessandro"
+      ],
+      "ancora": {
+        "nome": "Juan Román Riquelme",
+        "descricao": "Ex-meia argentino, ídolo do Boca Juniors, hoje presidente do clube.",
+        "variantes": [
+          "Riquelme",
+          "Román"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato limpo, sem texto, figura pública reconhecível.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ex-tenista é este?",
+      "resposta": "Stefan Edberg",
+      "distratores": [
+        "Boris Becker",
+        "Mats Wilander",
+        "Ivan Lendl"
+      ],
+      "ancora": {
+        "nome": "Stefan Edberg",
+        "descricao": "Ex-tenista sueco, número um do mundo, seis vezes campeão de Grand Slam em simples.",
+        "variantes": [
+          "Edberg"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido; os textos (patrocinador, Garmisch, número) não trazem o nome. Atleta reconhecível.",
+      "destino": 5,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que prova esta esquiadora conquistou o ouro olímpico em 2010?",
+      "resposta": "Descida",
+      "distratores": [
+        "Super-G",
+        "Slalom gigante",
+        "Combinada"
+      ],
+      "ancora": {
+        "nome": "Lindsey Vonn",
+        "descricao": "Esquiadora alpina americana, campeã olímpica da descida em 2010 e quatro vezes campeã geral da Copa do Mundo.",
+        "variantes": [
+          "Lindsey Caroline Vonn",
+          "Lindsey Kildow"
+        ]
+      }
+    }
+  ]
+}
