@@ -1,0 +1,120 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ordem arquitetônica caracteriza o capitel desta coluna?",
+        "resposta": "Coríntia"
+      },
+      "existentes": [
+        {
+          "id": "q11602",
+          "pergunta": "Na Trafalgar Square, em Londres, quantos leões de bronze guardam a base da Coluna de Nelson?",
+          "resposta": "Quatro"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país fica este castelo medieval, construído no século catorze perto de Brașov?",
+        "resposta": "Romênia"
+      },
+      "existentes": [
+        {
+          "id": "q03881",
+          "pergunta": "Em que região histórica da Romênia fica este castelo medieval?",
+          "resposta": "Transilvânia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "De que material principal é feita esta estátua egípcia pintada?",
+        "resposta": "Calcário"
+      },
+      "existentes": [
+        {
+          "id": "q06364",
+          "pergunta": "A estátua do Escriba Sentado, de olhos incrustados que parecem acompanhar o visitante, é uma das joias de qual museu?",
+          "resposta": "Museu do Louvre"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que arquiteto projetou esta ponte coberta de pedra branca, concluída por volta de 1600?",
+        "resposta": "Antonio Contin"
+      },
+      "existentes": [
+        {
+          "id": "q02004",
+          "pergunta": "Segundo a tradição, de quem eram os suspiros que deram nome à famosa ponte coberta de Veneza?",
+          "resposta": "Dos prisioneiros"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Com que material é revestido este arco monumental?",
+        "resposta": "Aço inoxidável"
+      },
+      "existentes": [
+        {
+          "id": "q05429",
+          "pergunta": "À beira do rio Mississippi, o Gateway Arch, arco de aço inoxidável que celebra a expansão americana para o Oeste, é o cartão-postal de qual cidade?",
+          "resposta": "Saint Louis"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que cidade fica este palácio, sede do governo de um país sul-americano?",
+        "resposta": "Buenos Aires"
+      },
+      "existentes": [
+        {
+          "id": "q07443",
+          "pergunta": "Que palácio presidencial é este?",
+          "resposta": "Casa Rosada"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ordem do capitel é fato diferente da quantidade de leões."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "País (Romênia) difere da região histórica (Transilvânia); saber uma não implica a outra."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Material da estátua é diferente do museu em que fica."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Arquiteto da ponte difere da origem do nome."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Existente pergunta a cidade; a nova pergunta o material, embora o enunciado existente cite aço inoxidável, o fato perguntado é outro."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Cidade onde fica o palácio é diferente do nome do palácio."
+    }
+  ]
+}

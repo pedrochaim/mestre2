@@ -1,0 +1,239 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Multidão de pessoas comuns em primeiro plano; a imagem não mostra com clareza a arquitetura e não é reconhecível pela forma."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Monumento nítido e reconhecível; pessoas pequenas ao fundo.",
+      "nivel": 1,
+      "familia": "que_tipo",
+      "tipo": "multipla",
+      "pergunta": "Que ordem arquitetônica caracteriza o capitel desta coluna?",
+      "resposta": "Coríntia",
+      "distratores": [
+        "Dórica",
+        "Jônica",
+        "Toscana"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Coluna de Nelson",
+        "descricao": "Monumento de granito em Trafalgar Square, Londres, com estátua do almirante Nelson no topo.",
+        "variantes": [
+          "Nelson's Column"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Escultura bem fotografada, sem texto, reconhecível; pergunta vai além do nome.",
+      "nivel": 3,
+      "familia": "quem_fez",
+      "tipo": "multipla",
+      "pergunta": "Que escultor italiano esculpiu, em 1620, o colchão de mármore desta escultura romana?",
+      "resposta": "Gian Lorenzo Bernini",
+      "distratores": [
+        "Michelangelo",
+        "Antonio Canova",
+        "Donatello"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hermafrodita Borghese",
+        "descricao": "Escultura romana em mármore de Hermafrodito adormecido, com colchão de Bernini, hoje no Louvre.",
+        "variantes": [
+          "Hermafrodita Dormindo",
+          "Sleeping Hermaphroditus",
+          "Borghese Hermaphrodite"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Pessoas comuns aparecem em primeiro plano (criança correndo, visitantes), e a estufa lembra outras estufas de ferro e vidro."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Castelo nítido, sem texto e reconhecível pelas torres e telhados.",
+      "nivel": 2,
+      "familia": "onde",
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este castelo medieval, conhecido fora dele como o Castelo do Drácula?",
+      "resposta": "Romênia",
+      "distratores": [
+        "Hungria",
+        "Bulgária",
+        "Eslováquia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Castelo de Bran",
+        "descricao": "Castelo medieval do século catorze perto de Brașov, na Transilvânia, Romênia, associado ao Drácula.",
+        "variantes": [
+          "Bran Castle",
+          "Castelul Bran",
+          "Castelo do Drácula"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Estátua nítida, fundo neutro, sem texto; reconhecível.",
+      "nivel": 1,
+      "familia": "que_tipo",
+      "tipo": "multipla",
+      "pergunta": "De que material principal é feita esta estátua egípcia pintada?",
+      "resposta": "Calcário",
+      "distratores": [
+        "Granito",
+        "Bronze",
+        "Alabastro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Escriba Sentado",
+        "descricao": "Estátua egípcia do Reino Antigo, de calcário pintado, encontrada em Saqqara e hoje no Louvre.",
+        "variantes": [
+          "O Escriba Sentado",
+          "Seated Scribe",
+          "Escriba Acocorado"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Ponte nítida, sem texto, reconhecível; pergunta sobre o arquiteto.",
+      "nivel": 2,
+      "familia": "quem_fez",
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto projetou esta ponte coberta de pedra branca, concluída por volta de 1600?",
+      "resposta": "Antonio Contino",
+      "distratores": [
+        "Andrea Palladio",
+        "Jacopo Sansovino",
+        "Vincenzo Scamozzi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ponte dos Suspiros",
+        "descricao": "Ponte coberta de calcário em Veneza que liga o Palácio Ducal à prisão nova.",
+        "variantes": [
+          "Ponte dei Sospiri",
+          "Bridge of Sighs"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Monumento inteiro e icônico, sem texto.",
+      "nivel": 1,
+      "familia": "que_tipo",
+      "tipo": "multipla",
+      "pergunta": "Com que material é revestido este arco monumental?",
+      "resposta": "Aço inoxidável",
+      "distratores": [
+        "Alumínio",
+        "Titânio",
+        "Cobre"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Arco Gateway",
+        "descricao": "Arco catenário de 192 metros em St. Louis, Missouri, projetado por Eero Saarinen.",
+        "variantes": [
+          "Gateway Arch",
+          "Arco de St. Louis",
+          "Portal do Oeste"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Minarete em espiral reconhecível, sem texto; resolução baixa mas legível.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "pergunta": "De que mesquita é este minarete em espiral?",
+      "resposta": "Grande Mesquita de Samarra",
+      "distratores": [
+        "Mesquita de Ibn Tulun",
+        "Mesquita Kutubiyya",
+        "Mesquita Azul"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Grande Mesquita de Samarra",
+        "descricao": "Antiga mesquita abássida do século nove em Samarra, Iraque, famosa pelo minarete em espiral.",
+        "variantes": [
+          "Mesquita Al-Malwiya",
+          "Great Mosque of Samarra",
+          "Malwiya"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada nítida e reconhecível; só uma pequena placa de rua ao fundo, sem entregar a resposta.",
+      "nivel": 2,
+      "familia": "onde",
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este palácio, sede do governo de um país sul-americano?",
+      "resposta": "Buenos Aires",
+      "distratores": [
+        "Montevidéu",
+        "Santiago",
+        "Assunção"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Casa Rosada",
+        "descricao": "Palácio rosa, local de trabalho do presidente da Argentina, em Buenos Aires.",
+        "variantes": [
+          "Casa de Gobierno",
+          "Casa de Governo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: 'The Solomon R. Guggenheim Museum' na fachada e 'Guggenheim' no cartaz."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Escultura clara, sem texto, reconhecível pela taça, uvas e pequeno sátiro.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "pergunta": "Que deus romano esta escultura de Michelangelo representa?",
+      "resposta": "Baco",
+      "distratores": [
+        "Apolo",
+        "Mercúrio",
+        "Netuno"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Baco (Michelangelo)",
+        "descricao": "Escultura de mármore de Michelangelo (1496–1497) que representa o deus romano do vinho, com um pequeno sátiro.",
+        "variantes": [
+          "Bacchus",
+          "Baco de Michelangelo"
+        ]
+      }
+    }
+  ]
+}
