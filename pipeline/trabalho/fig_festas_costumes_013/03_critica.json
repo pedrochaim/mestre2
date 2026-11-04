@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gat é coreano, confirmado pelos trechos. O enunciado não vaza a resposta e os distratores são países asiáticos críveis, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "No Brasil o objeto é muito chamado de terço, então a resposta não é única. A resposta aceita os dois nomes. O distrator Turíbulo não é um objeto de contagem de oração, e foi trocado por outro mais crível.",
+      "reescrita": {
+        "pergunta": "Que objeto de oração católica é este?",
+        "resposta": "Rosário (ou terço)",
+        "distratores": [
+          "Escapulário",
+          "Relicário",
+          "Ostensório"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O ritual é praticado na ilha de Pentecostes, em Vanuatu, segundo os trechos. O enunciado não vaza e os distratores são países melanésios críveis, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O capelo de formatura tem topo quadrado e borla, segundo o trecho da Wikipédia em português. O enunciado é neutro e os distratores são chapéus de outros tipos, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Phi Ta Khon acontece em Dan Sai, na província de Loei, na Tailândia. O enunciado não vaza e os distratores são países vizinhos ou do Sudeste Asiático, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A mitra é o toucado cerimonial de bispos e abades, segundo os trechos. A pista do enunciado, 'cobertura cerimonial de cabeça', não entrega o nome. Os distratores são outras coberturas de cabeça e nenhum descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}

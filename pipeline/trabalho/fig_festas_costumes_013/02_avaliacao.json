@@ -1,0 +1,180 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Retrato de um homem comum em primeiro plano, sem identificação como figura pública; a batina é só o traje dele."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Tecido ikat exposto em museu, sem contexto de uso. Não é reconhecível como sarongue e pode ser outro tecido tradicional, então a resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Manequim de museu com gat e hanbok, nítido e reconhecível. Não é pessoa real.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país é este chapéu tradicional?",
+      "resposta": "Coreia",
+      "distratores": [
+        "Japão",
+        "China",
+        "Vietnã"
+      ],
+      "ancora": {
+        "nome": "Gat (chapéu coreano)",
+        "descricao": "Chapéu tradicional coreano de bambu ou crina de cavalo, de aba larga, usado por homens com o hanbok na era Joseon.",
+        "variantes": [
+          "Gat",
+          "Chapéu coreano"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A foto mostra um retrato de Leonard Bernstein. O blazer não é o assunto, e o foco na pessoa torna a pergunta ambígua."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Há texto em japonês bem visível, incluindo a palavra 'ねぶた' (nebuta) na placa, que entrega a resposta. Há também pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Rosário de contas de coral com crucifixo, objeto isolado e nítido.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que objeto de oração católica é este?",
+      "resposta": "Rosário",
+      "distratores": [
+        "Escapulário",
+        "Turíbulo",
+        "Relicário"
+      ],
+      "ancora": {
+        "nome": "Rosário",
+        "descricao": "Cordão de contas usado na Igreja Católica para contar as orações do Rosário, com um crucifixo na ponta.",
+        "variantes": [
+          "Terço",
+          "Rosary"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, junto de um político. Não identifica um baile de formatura com clareza e tem faixa com texto."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Homem em pleno salto de uma torre de cipós, ritual público. O cenário com cipós e a torre são característicos.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país acontece este ritual?",
+      "resposta": "Vanuatu",
+      "distratores": [
+        "Papua-Nova Guiné",
+        "Fiji",
+        "Ilhas Salomão"
+      ],
+      "ancora": {
+        "nome": "Salto de Pentecostes (land diving)",
+        "descricao": "Ritual dos homens do sul da ilha de Pentecostes, em Vanuatu, que saltam de torres de madeira com cipós amarrados aos tornozelos.",
+        "variantes": [
+          "Naghol",
+          "Land diving",
+          "Gol"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Capelo sobre uma pilha de livros, sem texto nem pessoas. É claro e reconhecível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Como se chama este chapéu?",
+      "resposta": "Capelo",
+      "distratores": [
+        "Quepe",
+        "Fez",
+        "Boina"
+      ],
+      "ancora": {
+        "nome": "Capelo",
+        "descricao": "Chapéu acadêmico de topo quadrado e borla, usado em cerimônias de formatura.",
+        "variantes": [
+          "Barrete de formatura",
+          "Chapéu de formatura",
+          "Mortarboard"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Retrato de um homem comum falando ao celular, em primeiro plano. Pessoa comum, fora de festa pública."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Brincantes de festa pública, com máscaras e trajes coloridos muito característicos. Os textos ao fundo são em tailandês e não entregam a resposta.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país acontece este festival?",
+      "resposta": "Tailândia",
+      "distratores": [
+        "Camboja",
+        "Laos",
+        "Indonésia"
+      ],
+      "ancora": {
+        "nome": "Phi Ta Khon",
+        "descricao": "Festival de máscaras e trajes coloridos realizado em Dan Sai, na província de Loei, na Tailândia.",
+        "variantes": [
+          "Festival dos Fantasmas",
+          "Festival Phi Ta Khon"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Mitra bordada isolada sobre fundo escuro, nítida e reconhecível pela forma.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Como se chama esta cobertura cerimonial de cabeça?",
+      "resposta": "Mitra",
+      "distratores": [
+        "Solidéu",
+        "Turbante",
+        "Capelo"
+      ],
+      "ancora": {
+        "nome": "Mitra",
+        "descricao": "Cobertura cerimonial de cabeça em forma de ponta dupla, usada por bispos e alguns abades.",
+        "variantes": [
+          "Mitre",
+          "Miter"
+        ]
+      }
+    }
+  ]
+}

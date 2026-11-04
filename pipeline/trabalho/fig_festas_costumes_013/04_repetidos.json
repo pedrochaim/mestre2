@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Como se chama esta cobertura cerimonial de cabeça?",
+        "resposta": "Mitra"
+      },
+      "existentes": [
+        {
+          "id": "q16374",
+          "pergunta": "Que peça litúrgica é esta?",
+          "resposta": "Mitra"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q16374",
+      "motivo": "Ambas mostram a mesma imagem e pedem identificar o objeto, com resposta Mitra; quem sabe uma sabe a outra."
+    }
+  ]
+}
