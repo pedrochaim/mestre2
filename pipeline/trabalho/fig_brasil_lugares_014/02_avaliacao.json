@@ -1,0 +1,227 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fachada frontal nítida, reconhecível; pergunta pelo estado cuja sede de governo funciona nele.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "A sede do governo de que estado funciona neste palácio?",
+      "resposta": "Rio Grande do Sul",
+      "distratores": [
+        "Santa Catarina",
+        "Paraná",
+        "Minas Gerais"
+      ],
+      "ancora": {
+        "nome": "Palácio Piratini",
+        "descricao": "Sede do Poder Executivo do estado do Rio Grande do Sul, na Praça Marechal Deodoro, em Porto Alegre.",
+        "variantes": [
+          "Piratini"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Praça com estátua sobre coluna e o Museu do Amanhã ao fundo; localização inequívoca.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica esta praça?",
+      "resposta": "Rio de Janeiro",
+      "distratores": [
+        "Santos",
+        "Salvador",
+        "Recife"
+      ],
+      "ancora": {
+        "nome": "Praça Mauá",
+        "descricao": "Praça da zona portuária do Centro do Rio de Janeiro, com estátua do Visconde de Mauá, no início da Avenida Rio Branco.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Forma piramidal inconfundível; pergunta de nível 3 sobre o compositor que dá nome ao teatro.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que compositor brasileiro dá nome a este teatro?",
+      "resposta": "Cláudio Santoro",
+      "distratores": [
+        "Heitor Villa-Lobos",
+        "Carlos Gomes",
+        "Camargo Guarnieri"
+      ],
+      "ancora": {
+        "nome": "Teatro Nacional Cláudio Santoro",
+        "descricao": "Teatro em forma de pirâmide irregular no Eixo Monumental de Brasília, projetado por Oscar Niemeyer.",
+        "variantes": [
+          "Teatro Nacional de Brasília"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta única de Niemeyer, muito reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica esta torre de televisão?",
+      "resposta": "Brasília",
+      "distratores": [
+        "Goiânia",
+        "Belo Horizonte",
+        "Curitiba"
+      ],
+      "ancora": {
+        "nome": "Torre Digital de Brasília",
+        "descricao": "Torre de TV digital de Brasília, de Oscar Niemeyer, conhecida como Flor do Cerrado.",
+        "variantes": [
+          "Torre de TV Digital de Brasília",
+          "Flor do Cerrado"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Torcedores comuns em primeiro plano e o edifício não é claramente reconhecível como o Maracanãzinho."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vista aérea com cúpula do planetário e passarelas vermelhas, característicos; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que centro cultural é este?",
+      "resposta": "Centro Dragão do Mar de Arte e Cultura",
+      "distratores": [
+        "Cais das Artes",
+        "Usina do Gasômetro",
+        "Centro Cultural São Paulo"
+      ],
+      "ancora": {
+        "nome": "Centro Dragão do Mar de Arte e Cultura",
+        "descricao": "Centro cultural de Fortaleza, Ceará, com museus, planetário, teatro e cinemas.",
+        "variantes": [
+          "Dragão do Mar"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Praça com convento e igreja franciscana e cruzeiro, característicos de São Cristóvão; sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que estado fica esta praça colonial, Patrimônio Mundial da Unesco?",
+      "resposta": "Sergipe",
+      "distratores": [
+        "Bahia",
+        "Alagoas",
+        "Pernambuco"
+      ],
+      "ancora": {
+        "nome": "Praça São Francisco (São Cristóvão)",
+        "descricao": "Praça histórica de São Cristóvão, Sergipe, cercada pelo Convento de São Francisco e outros edifícios coloniais.",
+        "variantes": [
+          "Praça São Francisco de São Cristóvão"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Estátua de gaúcho pilchado com laço, de corpo inteiro e sem texto; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que monumento é este?",
+      "resposta": "Estátua do Laçador",
+      "distratores": [
+        "Monumento ao Colono",
+        "Estátua do Bandeirante",
+        "Monumento ao Tropeiro"
+      ],
+      "ancora": {
+        "nome": "Estátua do Laçador",
+        "descricao": "Monumento de bronze de Antônio Caringi que representa o gaúcho pilchado, símbolo oficial de Porto Alegre.",
+        "variantes": [
+          "Monumento ao Laçador",
+          "O Laçador"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fachada do Paço de São Cristóvão, anterior ao incêndio, nítida e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que museu funcionava neste antigo palácio imperial?",
+      "resposta": "Museu Nacional",
+      "distratores": [
+        "Museu Histórico Nacional",
+        "Museu Imperial",
+        "Museu da República"
+      ],
+      "ancora": {
+        "nome": "Museu Nacional",
+        "descricao": "Museu de história natural e antropologia do Rio de Janeiro, instalado no Paço de São Cristóvão, na Quinta da Boa Vista.",
+        "variantes": [
+          "Paço de São Cristóvão",
+          "Museu Nacional da UFRJ"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Vista aérea de barragem que pode ser confundida com outras usinas do Norte (Jirau, Santo Antônio); resposta não é única pela imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Paisagem genérica de mata, coqueiros e mar, sem elemento que permita reconhecer o lugar."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Marquise ondulada ao lado do palacete neoclássico, distintivos do MAR; sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que museu é este?",
+      "resposta": "Museu de Arte do Rio",
+      "distratores": [
+        "Museu do Amanhã",
+        "Museu de Arte Moderna",
+        "Museu Oscar Niemeyer"
+      ],
+      "ancora": {
+        "nome": "Museu de Arte do Rio",
+        "descricao": "Museu de arte inaugurado em 2013 na Praça Mauá, no Rio de Janeiro, que une um palacete eclético e um prédio moderno com marquise ondulada.",
+        "variantes": [
+          "MAR"
+        ]
+      }
+    }
+  ]
+}

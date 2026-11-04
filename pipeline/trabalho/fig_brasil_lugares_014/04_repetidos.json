@@ -1,0 +1,68 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que compositor brasileiro dá nome a este teatro?",
+        "resposta": "Cláudio Santoro"
+      },
+      "existentes": [
+        {
+          "id": "q07833",
+          "pergunta": "Projetado por Oscar Niemeyer, o Teatro Nacional Cláudio Santoro, em Brasília, tem a forma de que figura geométrica?",
+          "resposta": "Uma pirâmide sem topo"
+        },
+        {
+          "id": "q16084",
+          "pergunta": "Este prédio de Brasília foi projetado por Oscar Niemeyer. Que prédio é este?",
+          "resposta": "Teatro Nacional Cláudio Santoro"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que monumento é este?",
+        "resposta": "Estátua do Laçador"
+      },
+      "existentes": [
+        {
+          "id": "q16237",
+          "pergunta": "Quem esculpiu esta estátua?",
+          "resposta": "Antônio Caringi"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que museu está instalado neste antigo palácio imperial?",
+        "resposta": "Museu Nacional"
+      },
+      "existentes": [
+        {
+          "id": "q17839",
+          "pergunta": "Em que ano um grande incêndio destruiu boa parte deste palácio?",
+          "resposta": "2018"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede o compositor que dá nome ao teatro. As existentes pedem a forma do prédio e a identificação do prédio, que são fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede o nome do monumento. A existente pede o escultor, que é outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede o museu instalado no palácio. A existente pede o ano do incêndio, que é outro fato."
+    }
+  ]
+}

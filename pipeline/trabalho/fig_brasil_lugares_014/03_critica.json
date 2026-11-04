@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia o palácio nem o estado; trechos confirmam que é a sede do Executivo do RS. Distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que a praça fica no Centro do Rio de Janeiro. Sem vazamento; distratores são cidades portuárias críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos. Porém o distrator Villa-Lobos (e Nepomuceno) nomeia salas do próprio teatro, o que o torna discutível. Troquei por compositores sem ligação com o teatro.",
+      "reescrita": {
+        "pergunta": "Que compositor brasileiro dá nome a este teatro?",
+        "resposta": "Cláudio Santoro",
+        "distratores": [
+          "Carlos Gomes",
+          "Camargo Guarnieri",
+          "Francisco Mignone"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Torre fica no Distrito Federal, em Brasília (20 km do centro). Sem vazamento; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de um centro cultural de Fortaleza; trechos confirmam. Distratores são centros culturais de outras cidades.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam Sergipe e o título de Patrimônio da Humanidade. A pista não entrega a resposta. Distratores são estados nordestinos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento do monumento; o enunciado não vaza nada. Distratores são monumentos regionais do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Funcionava' no passado é impreciso: os trechos dizem que o museu está instalado no Paço de São Cristóvão até hoje. Corrigi o tempo verbal.",
+      "reescrita": {
+        "pergunta": "Que museu está instalado neste antigo palácio imperial?",
+        "resposta": "Museu Nacional",
+        "distratores": [
+          "Museu Histórico Nacional",
+          "Museu Imperial",
+          "Museu da República"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; o enunciado não vaza nada. Distratores são museus cariocas e brasileiros plausíveis, e nenhum descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}

@@ -467,7 +467,7 @@
       "titulo": "en:National Museum of Brazil",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Inhotim",
@@ -1139,7 +1139,7 @@
       "titulo": "en:Maracanãzinho",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Morro da Urca",
@@ -1307,7 +1307,7 @@
       "titulo": "pt:Teatro Nacional Cláudio Santoro",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Catedral de Petrópolis",
@@ -1321,14 +1321,14 @@
       "titulo": "pt:Mirante Dona Marta",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Palácio Piratini",
       "titulo": "en:Piratini Palace",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Catedral Metropolitana de Porto Alegre",
@@ -1398,11 +1398,291 @@
       "titulo": "en:Belo Monte Dam",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Catedral Metropolitana Ortodoxa de São Paulo",
       "titulo": "en:Metropolitan Orthodox Cathedral (São Paulo)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Avenida Atlântica",
+      "titulo": "en:Avenida Atlântica",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Praia de Botafogo",
+      "titulo": "en:Botafogo Beach",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Eixo Monumental",
+      "titulo": "en:Eixo Monumental",
+      "camada": 1,
+      "destino": 1,
+      "status": "saturada"
+    },
+    {
+      "nome": "Estátua do Laçador",
+      "titulo": "pt:Laçador",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Santa Teresa (Rio de Janeiro)",
+      "titulo": "en:Santa Teresa, Rio de Janeiro",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Praça XV",
+      "titulo": "en:Praça XV",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Guarujá",
+      "titulo": "en:Guarujá",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cinelândia",
+      "titulo": "en:Cinelândia",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Minhocão",
+      "titulo": "en:Elevado Presidente João Goulart",
+      "camada": 1,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Pedra Furada de Jericoacoara",
+      "titulo": "pt:Pedra Furada (Jericoacoara)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Negro",
+      "titulo": "pt:Lago Negro (Gramado)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arraial d'Ajuda",
+      "titulo": "en:Arraial d'Ajuda",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Praça Mauá",
+      "titulo": "en:Praça Mauá",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Museu de Arte do Rio",
+      "titulo": "en:Museu de Arte do Rio",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Confeitaria Colombo",
+      "titulo": "en:Confeitaria Colombo",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Biblioteca Nacional",
+      "titulo": "en:National Library of Brazil",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Auditório Ibirapuera",
+      "titulo": "en:Ibirapuera Auditorium",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Sambódromo do Anhembi",
+      "titulo": "pt:Sambódromo do Anhembi",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Centro Dragão do Mar de Arte e Cultura",
+      "titulo": "pt:Centro Dragão do Mar de Arte e Cultura",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Vale dos Vinhedos",
+      "titulo": "en:Vale dos Vinhedos",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pomerode",
+      "titulo": "en:Pomerode",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lençóis (Bahia)",
+      "titulo": "en:Lençóis",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha de Boipeba",
+      "titulo": "pt:Ilha de Boipeba",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vila Germânica",
+      "titulo": "pt:Vila Germânica",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cristo Luz",
+      "titulo": "pt:Cristo Luz",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Marco das Três Fronteiras",
+      "titulo": "pt:Marco das Três Fronteiras",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Praia do Rosa",
+      "titulo": "pt:Praia do Rosa",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Vale do Pati",
+      "titulo": "pt:Vale do Pati",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha do Campeche",
+      "titulo": "pt:Ilha do Campeche",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caraíva",
+      "titulo": "pt:Caraíva",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Serra do Curral",
+      "titulo": "en:Serra do Curral",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Casa dos Contos",
+      "titulo": "en:Casa dos Contos",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Forte Orange",
+      "titulo": "pt:Forte Orange",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bumbódromo de Parintins",
+      "titulo": "pt:Bumbódromo",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Torre Digital de Brasília",
+      "titulo": "en:Brasília Digital TV Tower",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Palácio Tiradentes",
+      "titulo": "en:Tiradentes Palace",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Transpantaneira",
+      "titulo": "en:Transpantaneira",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estrada da Graciosa",
+      "titulo": "pt:Estrada da Graciosa",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Praça São Francisco (São Cristóvão)",
+      "titulo": "en:São Francisco Square",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Farol do Cabo Branco",
+      "titulo": "pt:Farol do Cabo Branco",
       "camada": 3,
       "destino": 1,
       "status": "nova"

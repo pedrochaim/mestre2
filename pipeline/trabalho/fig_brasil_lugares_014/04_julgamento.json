@@ -1,0 +1,560 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Palácio Piratini",
+        "descricao": "Sede do Poder Executivo do estado do Rio Grande do Sul, na Praça Marechal Deodoro, em Porto Alegre.",
+        "variantes": [
+          "Piratini"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dratini",
+          "nome": "Dratini",
+          "descricao": "Pokémon do tipo Dragão, número 147 da Pokédex Nacional, de corpo serpentino azul.",
+          "variantes": []
+        },
+        {
+          "id": "michel_platini",
+          "nome": "Michel Platini",
+          "descricao": "Ex-meia francês, tricampeão seguido da Bola de Ouro (1983 a 1985) pela Juventus e ex-presidente da UEFA.",
+          "variantes": [
+            "Platini"
+          ]
+        },
+        {
+          "id": "giratina",
+          "nome": "Giratina",
+          "descricao": "Pokémon lendário dos tipos Fantasma e Dragão da quarta geração, mascote de Pokémon Platinum.",
+          "variantes": []
+        },
+        {
+          "id": "palacio_itamaraty",
+          "nome": "Palácio Itamaraty",
+          "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+          "variantes": [
+            "Palácio dos Arcos",
+            "Itamaraty"
+          ]
+        },
+        {
+          "id": "paraty",
+          "nome": "Paraty",
+          "descricao": "Município histórico do litoral sul do estado do Rio de Janeiro, visto da baía com a igreja de Santa Rita.",
+          "variantes": [
+            "Parati"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Praça Mauá",
+        "descricao": "Praça da zona portuária do Centro do Rio de Janeiro, com estátua do Visconde de Mauá, no início da Avenida Rio Branco.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "praca_naqsh_e_jahan",
+          "nome": "Praça Naqsh-e Jahan",
+          "descricao": "Grande praça histórica safávida no centro de Isfahan, no Irã, cercada por mesquitas e palácio.",
+          "variantes": [
+            "Praça do Imã",
+            "Praça Naghsh-e Jahan",
+            "Praça Shah"
+          ]
+        },
+        {
+          "id": "pac_man",
+          "nome": "Pac-Man",
+          "descricao": "Jogo de fliperama da Namco lançado em 1980, em que uma bola amarela come pastilhas num labirinto.",
+          "variantes": [
+            "Puck-Man",
+            "Pacman"
+          ]
+        },
+        {
+          "id": "raia_manta",
+          "nome": "Raia-manta",
+          "descricao": "Grande raia do gênero Mobula (antes Manta), de corpo em losango e nadadeiras cefálicas, que se alimenta de plâncton.",
+          "variantes": [
+            "Jamanta",
+            "Manta",
+            "Manta ray"
+          ]
+        },
+        {
+          "id": "pedra_da_agua",
+          "nome": "Pedra da Água",
+          "descricao": "Pedra evolutiva azul dos jogos Pokémon que faz evoluir pokémon como Staryu, Shellder, Poliwhirl e Eevee.",
+          "variantes": [
+            "Water Stone"
+          ]
+        },
+        {
+          "id": "praca_de_maio",
+          "nome": "Praça de Maio",
+          "descricao": "Praça central de Buenos Aires, diante da Casa Rosada, palco de grandes manifestações políticas argentinas.",
+          "variantes": [
+            "Plaza de Mayo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Teatro Nacional Cláudio Santoro",
+        "descricao": "Teatro em forma de pirâmide irregular no Eixo Monumental de Brasília, projetado por Oscar Niemeyer.",
+        "variantes": [
+          "Teatro Nacional de Brasília"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teatro_nacional_claudio_santoro",
+          "nome": "Teatro Nacional Cláudio Santoro",
+          "descricao": "Teatro de Brasília projetado por Oscar Niemeyer, com fachadas decoradas por Athos Bulcão.",
+          "variantes": [
+            "Teatro Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "estadio_mane_garrincha",
+          "nome": "Estádio Mané Garrincha",
+          "descricao": "Estádio nacional de futebol de Brasília, com fileira de colunas ao redor, reformado para a Copa de 2014.",
+          "variantes": [
+            "Arena BRB Mané Garrincha",
+            "Estádio Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "museu_nacional_da_republica",
+          "nome": "Museu Nacional da República",
+          "descricao": "Museu de cúpula branca projetado por Oscar Niemeyer, no Setor Cultural Sul de Brasília.",
+          "variantes": [
+            "Museu Nacional Honestino Guimarães",
+            "Museu Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "teatro_nacional_de_munique",
+          "nome": "Teatro Nacional de Munique",
+          "descricao": "Casa de ópera neoclássica na Max-Joseph-Platz, sede da Ópera Estatal da Baviera.",
+          "variantes": [
+            "Nationaltheater München",
+            "National Theatre Munich"
+          ]
+        },
+        {
+          "id": "biblioteca_nacional_do_brasil",
+          "nome": "Biblioteca Nacional do Brasil",
+          "descricao": "Maior biblioteca da América Latina, em prédio eclético na Cinelândia, no Rio de Janeiro.",
+          "variantes": [
+            "Biblioteca Nacional",
+            "Fundação Biblioteca Nacional"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Torre Digital de Brasília",
+        "descricao": "Torre de TV digital de Brasília, de Oscar Niemeyer, conhecida como Flor do Cerrado.",
+        "variantes": [
+          "Torre de TV Digital de Brasília",
+          "Flor do Cerrado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_de_tv_de_brasilia",
+          "nome": "Torre de TV de Brasília",
+          "descricao": "Torre de transmissão de rádio e TV de 224 metros no Eixo Monumental de Brasília, com mirante.",
+          "variantes": [
+            "Torre de Televisão de Brasília"
+          ]
+        },
+        {
+          "id": "torre_de_tv_de_berlim",
+          "nome": "Torre de TV de Berlim",
+          "descricao": "Torre de televisão com uma esfera no alto, na Alexanderplatz, construída pela Alemanha Oriental e inaugurada em 1969.",
+          "variantes": [
+            "Fernsehturm Berlin",
+            "Fernsehturm"
+          ]
+        },
+        {
+          "id": "catedral_militar_rainha_da_paz",
+          "nome": "Catedral Militar Rainha da Paz",
+          "descricao": "Catedral católica projetada por Oscar Niemeyer no Eixo Monumental de Brasília.",
+          "variantes": [
+            "Catedral Militar de Brasília",
+            "Catedral Militar Nossa Senhora da Paz"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "teatro_nacional_claudio_santoro",
+          "nome": "Teatro Nacional Cláudio Santoro",
+          "descricao": "Teatro de Brasília projetado por Oscar Niemeyer, com fachadas decoradas por Athos Bulcão.",
+          "variantes": [
+            "Teatro Nacional de Brasília"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Centro Dragão do Mar de Arte e Cultura",
+        "descricao": "Centro cultural de Fortaleza, Ceará, com museus, planetário, teatro e cinemas.",
+        "variantes": [
+          "Dragão do Mar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "francisco_jose_do_nascimento",
+          "nome": "Francisco José do Nascimento",
+          "descricao": "Jangadeiro cearense que liderou em 1881 a greve dos jangadeiros contra o embarque de escravizados em Fortaleza.",
+          "variantes": [
+            "Dragão do Mar",
+            "Chico da Matilde"
+          ]
+        },
+        {
+          "id": "dragao_azul",
+          "nome": "Dragão-azul",
+          "descricao": "Lesma-do-mar pelágica Glaucus atlanticus, azul e prateada, que flutua de cabeça para baixo na superfície.",
+          "variantes": [
+            "Glaucus atlanticus",
+            "Dragão-azul-do-mar",
+            "Anjo-azul"
+          ]
+        },
+        {
+          "id": "papagaio_do_mar",
+          "nome": "Papagaio-do-mar",
+          "descricao": "Ave marinha de bico colorido triangular do Atlântico Norte, Fratercula arctica.",
+          "variantes": [
+            "Fratercula arctica",
+            "Atlantic puffin",
+            "Fradinho",
+            "Puffin"
+          ]
+        },
+        {
+          "id": "iemanja",
+          "nome": "Iemanjá",
+          "descricao": "Orixá das águas salgadas nas religiões afro-brasileiras, homenageada com oferendas no mar.",
+          "variantes": [
+            "Yemanjá",
+            "Janaína",
+            "Rainha do Mar"
+          ]
+        },
+        {
+          "id": "tubarao_anjo",
+          "nome": "Tubarão-anjo",
+          "descricao": "Tubarão de corpo achatado do gênero Squatina, que vive no fundo arenoso e lembra uma raia.",
+          "variantes": [
+            "Anjo-do-mar",
+            "Squatina",
+            "Angel shark"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Praça São Francisco (São Cristóvão)",
+        "descricao": "Praça histórica de São Cristóvão, Sergipe, cercada pelo Convento de São Francisco e outros edifícios coloniais.",
+        "variantes": [
+          "Praça São Francisco de São Cristóvão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paco_imperial",
+          "nome": "Paço Imperial",
+          "descricao": "Edifício colonial do século dezoito na Praça XV, no Rio de Janeiro, sede do governo colonial e residência real.",
+          "variantes": [
+            "Paço Real",
+            "Palácio dos Vice-Reis",
+            "Paço de São Cristóvão"
+          ]
+        },
+        {
+          "id": "museu_nacional_quinta_da_boa_vista",
+          "nome": "Museu Nacional (Quinta da Boa Vista)",
+          "descricao": "Antigo Paço de São Cristóvão, na Quinta da Boa Vista, no Rio de Janeiro, sede do Museu Nacional, a mais antiga instituição científica do Brasil.",
+          "variantes": [
+            "Paço de São Cristóvão",
+            "Museu Nacional do Rio de Janeiro"
+          ]
+        },
+        {
+          "id": "igreja_de_sao_francisco_de_salvador",
+          "nome": "Igreja de São Francisco de Salvador",
+          "descricao": "Igreja barroca do convento franciscano no centro histórico de Salvador, na Bahia, do século dezoito.",
+          "variantes": [
+            "Igreja e Convento de São Francisco",
+            "Church and Convent of São Francisco"
+          ]
+        },
+        {
+          "id": "igreja_de_sao_francisco_de_assis_sao_joao_del_rei",
+          "nome": "Igreja de São Francisco de Assis (São João del-Rei)",
+          "descricao": "Igreja barroca da Ordem Terceira de São Francisco em São João del-Rei, Minas Gerais, com projeto de Aleijadinho.",
+          "variantes": [
+            "Igreja de São Francisco de São João del-Rei"
+          ]
+        },
+        {
+          "id": "igreja_de_sao_francisco_de_assis_ouro_preto",
+          "nome": "Igreja de São Francisco de Assis (Ouro Preto)",
+          "descricao": "Igreja barroca do século dezoito em Ouro Preto, com projeto atribuído a Aleijadinho.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Estátua do Laçador",
+        "descricao": "Monumento de bronze de Antônio Caringi que representa o gaúcho pilchado, símbolo oficial de Porto Alegre.",
+        "variantes": [
+          "Monumento ao Laçador",
+          "O Laçador"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estatua_do_lacador",
+          "nome": "Estátua do Laçador",
+          "descricao": "Monumento em bronze ao gaúcho pilchado, símbolo oficial de Porto Alegre, obra do escultor Antônio Caringi.",
+          "variantes": [
+            "Laçador",
+            "Monumento ao Laçador",
+            "O Laçador"
+          ]
+        },
+        {
+          "id": "leao_de_lucerna",
+          "nome": "Leão de Lucerna",
+          "descricao": "Relevo de um leão moribundo esculpido na rocha em Lucerna, na Suíça, em memória dos guardas suíços mortos em 1792.",
+          "variantes": [
+            "Löwendenkmal",
+            "Monumento do Leão"
+          ]
+        },
+        {
+          "id": "monumento_nacional_aos_mortos_da_segunda_guerra_mundial",
+          "nome": "Monumento Nacional aos Mortos da Segunda Guerra Mundial",
+          "descricao": "Monumento no Rio de Janeiro, inaugurado em 1960, que guarda os restos mortais dos pracinhas brasileiros mortos na Itália.",
+          "variantes": [
+            "Monumento aos Pracinhas",
+            "Monumento aos Mortos da Segunda Guerra Mundial"
+          ]
+        },
+        {
+          "id": "estatua_de_hachiko",
+          "nome": "Estátua de Hachiko",
+          "descricao": "Estátua de bronze do cão akita Hachiko, diante da estação de Shibuya, em Tóquio.",
+          "variantes": [
+            "Hachikō",
+            "Hachiko"
+          ]
+        },
+        {
+          "id": "tangara",
+          "nome": "Tangará",
+          "descricao": "Pequena ave azul de cabeça preta e coroa vermelha (Chiroxiphia caudata), macho dançarino da Mata Atlântica.",
+          "variantes": [
+            "Tesourinha-da-mata",
+            "Dançador",
+            "Chiroxiphia caudata"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Museu Nacional",
+        "descricao": "Museu de história natural e antropologia do Rio de Janeiro, instalado no Paço de São Cristóvão, na Quinta da Boa Vista.",
+        "variantes": [
+          "Paço de São Cristóvão",
+          "Museu Nacional da UFRJ"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paco_imperial",
+          "nome": "Paço Imperial",
+          "descricao": "Edifício colonial do século dezoito na Praça XV, no Rio de Janeiro, sede do governo colonial e residência real.",
+          "variantes": [
+            "Paço Real",
+            "Palácio dos Vice-Reis",
+            "Paço de São Cristóvão"
+          ]
+        },
+        {
+          "id": "museu_nacional_quinta_da_boa_vista",
+          "nome": "Museu Nacional (Quinta da Boa Vista)",
+          "descricao": "Antigo Paço de São Cristóvão, na Quinta da Boa Vista, no Rio de Janeiro, sede do Museu Nacional, a mais antiga instituição científica do Brasil.",
+          "variantes": [
+            "Paço de São Cristóvão",
+            "Museu Nacional do Rio de Janeiro"
+          ]
+        },
+        {
+          "id": "museu_nacional_da_republica",
+          "nome": "Museu Nacional da República",
+          "descricao": "Museu de cúpula branca projetado por Oscar Niemeyer, no Setor Cultural Sul de Brasília.",
+          "variantes": [
+            "Museu Nacional Honestino Guimarães",
+            "Museu Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "museu_nacional_de_belas_artes",
+          "nome": "Museu Nacional de Belas Artes",
+          "descricao": "Museu de arte no centro do Rio de Janeiro, instalado em prédio eclético de 1908.",
+          "variantes": [
+            "MNBA"
+          ]
+        },
+        {
+          "id": "palacio_de_cristal",
+          "nome": "Palácio de Cristal",
+          "descricao": "Grande edifício de ferro e vidro construído em Londres para a Grande Exposição de 1851, destruído por um incêndio em 1936.",
+          "variantes": [
+            "The Crystal Palace",
+            "Crystal Palace"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Museu de Arte do Rio",
+        "descricao": "Museu de arte inaugurado em 2013 na Praça Mauá, no Rio de Janeiro, que une um palacete eclético e um prédio moderno com marquise ondulada.",
+        "variantes": [
+          "MAR"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marte",
+          "nome": "Marte",
+          "descricao": "Quarto planeta a partir do Sol, conhecido como planeta vermelho.",
+          "variantes": [
+            "Mars",
+            "Planeta vermelho"
+          ]
+        },
+        {
+          "id": "karl_marx",
+          "nome": "Karl Marx",
+          "descricao": "Filósofo, economista e teórico político alemão (1818–1883), autor de O Capital e co-autor do Manifesto Comunista.",
+          "variantes": [
+            "Karl Heinrich Marx",
+            "Marx"
+          ]
+        },
+        {
+          "id": "mara",
+          "nome": "Mara",
+          "descricao": "Roedor parecido com uma lebre de pernas longas, Dolichotis patagonum, da Argentina.",
+          "variantes": [
+            "Mara-da-patagônia",
+            "Dolichotis patagonum"
+          ]
+        },
+        {
+          "id": "mare",
+          "nome": "Maré",
+          "descricao": "Subida e descida periódica do nível do mar ao longo do dia.",
+          "variantes": [
+            "Marés"
+          ]
+        },
+        {
+          "id": "maranhao",
+          "nome": "Maranhão",
+          "descricao": "Estado do Nordeste do Brasil, cuja capital é São Luís.",
+          "variantes": [
+            "MA"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Palácio Piratini."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Praça Mauá."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "teatro_nacional_claudio_santoro",
+      "motivo": "Mesmo teatro de Niemeyer em Brasília, mesmo nome e variante."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A Torre Digital (Flor do Cerrado) é diferente da Torre de TV de 224 m."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "O centro cultural é diferente do jangadeiro apelidado Dragão do Mar."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Praça em São Cristóvão (SE); nenhuma candidata corresponde."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "estatua_do_lacador",
+      "motivo": "Mesmo monumento de Caringi em Porto Alegre."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "museu_nacional_quinta_da_boa_vista",
+      "motivo": "Mesmo museu instalado no Paço de São Cristóvão, na Quinta da Boa Vista."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Museu de Arte do Rio."
+    }
+  ]
+}
