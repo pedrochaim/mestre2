@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tartaruga marinha é esta?",
+        "resposta": "Tartaruga-cabeçuda"
+      },
+      "existentes": [
+        {
+          "id": "q02548",
+          "pergunta": "Nas tartarugas-cabeçudas, como em outras tartarugas-marinhas, o que define se o filhote será macho ou fêmea?",
+          "resposta": "A temperatura da areia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar a espécie por imagem; a existente pergunta o que determina o sexo dos filhotes. Fatos diferentes."
+    }
+  ]
+}

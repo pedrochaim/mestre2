@@ -1,0 +1,714 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cobra-papagaio",
+        "descricao": "Serpente esguia e verde da família Colubridae (Leptophis ahaetulla), nativa da América Central e do norte da América do Sul.",
+        "variantes": [
+          "Azulão-boia",
+          "Parrot snake",
+          "Leptophis ahaetulla"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caninana",
+          "nome": "Caninana",
+          "descricao": "Serpente não peçonhenta Spilotes pullatus, preta com manchas amarelas, do Neotrópico.",
+          "variantes": [
+            "Spilotes pullatus",
+            "Cobra-papagaio",
+            "Caninana-do-brejo"
+          ]
+        },
+        {
+          "id": "bolo_de_cenoura",
+          "nome": "Bolo de cenoura",
+          "descricao": "Bolo feito com cenoura na massa, aqui com cobertura branca e cenourinhas decorativas.",
+          "variantes": [
+            "Carrot cake"
+          ]
+        },
+        {
+          "id": "bico_do_papagaio",
+          "nome": "Bico do Papagaio",
+          "descricao": "Região do extremo norte do Tocantins, entre os rios Araguaia e Tocantins, na divisa com o Pará e o Maranhão.",
+          "variantes": [
+            "Microrregião do Bico do Papagaio"
+          ]
+        },
+        {
+          "id": "bico_de_papagaio",
+          "nome": "Bico-de-papagaio",
+          "descricao": "Arbusto ornamental (Euphorbia pulcherrima) de brácteas vermelhas, típico dos enfeites de Natal.",
+          "variantes": [
+            "Poinsétia",
+            "Flor-de-natal",
+            "Euphorbia pulcherrima"
+          ]
+        },
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)",
+            "Raia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Gecko-diurno-de-madagascar",
+        "descricao": "Gecko arborícola verde de grande porte (Phelsuma grandis), nativo do norte de Madagascar.",
+        "variantes": [
+          "Madagascar giant day gecko",
+          "Phelsuma grandis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_madagascar",
+          "nome": "Bandeira de Madagascar",
+          "descricao": "Bandeira atual de Madagascar: faixa vertical branca à esquerda e duas faixas horizontais, vermelha e verde, à direita.",
+          "variantes": [
+            "Madagascar"
+          ]
+        },
+        {
+          "id": "fossa",
+          "nome": "Fossa",
+          "descricao": "Carnívoro esguio e de cauda longa, parecido com um felino, endêmico de Madagascar (Cryptoprocta ferox).",
+          "variantes": [
+            "Cryptoprocta ferox",
+            "Fossa-de-madagascar"
+          ]
+        },
+        {
+          "id": "madagascar",
+          "nome": "Madagascar",
+          "descricao": "País insular do Oceano Índico, a sudeste da África, com capital em Antananarivo.",
+          "variantes": [
+            "República de Madagascar"
+          ]
+        },
+        {
+          "id": "pinguim_de_magalhaes",
+          "nome": "Pinguim-de-magalhães",
+          "descricao": "Pinguim sul-americano, Spheniscus magellanicus, que se reproduz na Patagônia e migra para o norte no inverno.",
+          "variantes": [
+            "Spheniscus magellanicus",
+            "Magellanic penguin"
+          ]
+        },
+        {
+          "id": "toxoplasma_gondii",
+          "nome": "Toxoplasma gondii",
+          "descricao": "Protozoário parasita que causa a toxoplasmose e tem os felinos como hospedeiros definitivos.",
+          "variantes": [
+            "T. gondii"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Rã-de-chifre-malaia",
+        "descricao": "Rã camuflada de folhiço (Pelobatrachus nasutus) das florestas tropicais do Sudeste Asiático.",
+        "variantes": [
+          "Long-nosed horned frog",
+          "Malayan horned frog",
+          "Pelobatrachus nasutus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sal_rosa_do_himalaia",
+          "nome": "Sal rosa do Himalaia",
+          "descricao": "Sal-gema de cor rosada vendido como sal gourmet, extraído principalmente na região do Punjab.",
+          "variantes": [
+            "Sal do Himalaia",
+            "Himalayan salt"
+          ]
+        },
+        {
+          "id": "sapo_de_chifre",
+          "nome": "Sapo-de-chifre",
+          "descricao": "Sapo sul-americano de boca enorme e projeções em forma de chifre sobre os olhos, Ceratophrys cornuta.",
+          "variantes": [
+            "Ceratophrys cornuta",
+            "Surinam horned frog",
+            "Sapo-de-chifres-amazônico"
+          ]
+        },
+        {
+          "id": "lagarto_de_chifre_texano",
+          "nome": "Lagarto-de-chifre-texano",
+          "descricao": "Lagarto espinhoso (Phrynosoma cornutum) do centro-sul dos Estados Unidos e nordeste do México.",
+          "variantes": [
+            "Phrynosoma cornutum",
+            "Texas horned lizard",
+            "Sapo-de-chifres"
+          ]
+        },
+        {
+          "id": "brasao_do_chipre",
+          "nome": "Brasão do Chipre",
+          "descricao": "Brasão de armas da República de Chipre, com pomba carregando ramo de oliveira sobre escudo laranja e ramos de oliveira.",
+          "variantes": [
+            "Chipre",
+            "Armas de Chipre",
+            "Brasão de Chipre"
+          ]
+        },
+        {
+          "id": "periquito_australiano",
+          "nome": "Periquito-australiano",
+          "descricao": "Melopsittacus undulatus, pequeno papagaio australiano de cauda longa, popular como ave de estimação.",
+          "variantes": [
+            "Budgerigar",
+            "Periquito-comum",
+            "Melopsittacus undulatus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Tartaruga-cabeçuda",
+        "descricao": "Tartaruga marinha de cabeça grande (Caretta caretta), presente nos oceanos Atlântico, Pacífico e Índico.",
+        "variantes": [
+          "Tartaruga-comum",
+          "Loggerhead",
+          "Caretta caretta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tartaruga_cabecuda",
+          "nome": "Tartaruga-cabeçuda",
+          "descricao": "Tartaruga-marinha (Caretta caretta) de cabeça grande, comum no litoral brasileiro.",
+          "variantes": [
+            "Caretta caretta",
+            "Loggerhead"
+          ]
+        },
+        {
+          "id": "tartaruga_de_couro",
+          "nome": "Tartaruga-de-couro",
+          "descricao": "Maior tartaruga marinha viva (Dermochelys coriacea), de casco coberto por pele coriácea em vez de placas duras.",
+          "variantes": [
+            "Tartaruga-gigante",
+            "Dermochelys coriacea",
+            "Leatherback"
+          ]
+        },
+        {
+          "id": "tartaruga_verde",
+          "nome": "Tartaruga-verde",
+          "descricao": "Grande tartaruga-marinha herbívora (Chelonia mydas) de carapaça oliva a marrom.",
+          "variantes": [
+            "Chelonia mydas",
+            "Tartaruga-aruanã",
+            "Aruanã",
+            "Green sea turtle"
+          ]
+        },
+        {
+          "id": "araponga",
+          "nome": "Araponga",
+          "descricao": "Cotinga macho de plumagem branca e garganta nua esverdeada (Procnias nudicollis), da Mata Atlântica, de canto metálico muito forte.",
+          "variantes": [
+            "Araponga-comum",
+            "Ferreiro",
+            "Bare-throated bellbird",
+            "Procnias nudicollis"
+          ]
+        },
+        {
+          "id": "tartaruga_mordedora",
+          "nome": "Tartaruga-mordedora",
+          "descricao": "Grande tartaruga de água doce norte-americana (Chelydra serpentina), de mandíbulas potentes em forma de bico.",
+          "variantes": [
+            "Tartaruga-mordedora-comum",
+            "Chelydra serpentina",
+            "Common snapping turtle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Salamandra-pintada",
+        "descricao": "Salamandra preta com pintas amarelas (Ambystoma maculatum), nativa do leste da América do Norte.",
+        "variantes": [
+          "Spotted salamander",
+          "Ambystoma maculatum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "axolote",
+          "nome": "Axolote",
+          "descricao": "Salamandra mexicana (Ambystoma mexicanum) que mantém as brânquias externas na fase adulta.",
+          "variantes": [
+            "Axolotl",
+            "Ambystoma mexicanum"
+          ]
+        },
+        {
+          "id": "spotted_lake",
+          "nome": "Spotted Lake",
+          "descricao": "Lago salino de manchas circulares no vale do Similkameen, perto de Osoyoos, na Colúmbia Britânica.",
+          "variantes": [
+            "Lago Manchado",
+            "Lake Khiluk",
+            "Kłlil’xw"
+          ]
+        },
+        {
+          "id": "salamandra_de_fogo",
+          "nome": "Salamandra-de-fogo",
+          "descricao": "Anfíbio (Salamandra salamandra) preto com manchas ou listras amarelas, comum na Europa.",
+          "variantes": [
+            "Fire salamander",
+            "Salamandra salamandra"
+          ]
+        },
+        {
+          "id": "proteu",
+          "nome": "Proteu",
+          "descricao": "Salamandra aquática cavernícola e cega dos Alpes Dináricos, Proteus anguinus.",
+          "variantes": [
+            "Proteus anguinus",
+            "Olm",
+            "Salamandra-cega",
+            "Peixe-humano"
+          ]
+        },
+        {
+          "id": "salamandra_gigante_do_japao",
+          "nome": "Salamandra-gigante-do-japão",
+          "descricao": "Salamandra totalmente aquática (Andrias japonicus) que chega a 1,5 metro, endêmica do Japão.",
+          "variantes": [
+            "Andrias japonicus",
+            "Ōsanshōuo",
+            "Japanese giant salamander"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tritão-de-costelas-salientes",
+        "descricao": "Grande tritão da Península Ibérica e do Marrocos (Pleurodeles waltl), que projeta as costelas como defesa.",
+        "variantes": [
+          "Salamandra-de-costelas-salientes",
+          "Iberian ribbed newt",
+          "Pleurodeles waltl"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rainha_de_copas_alice",
+          "nome": "Rainha de Copas (Alice)",
+          "descricao": "Personagem tirana de Alice no País das Maravilhas, de Lewis Carroll, que vive mandando cortar cabeças.",
+          "variantes": [
+            "Rainha de Copas",
+            "Queen of Hearts"
+          ]
+        },
+        {
+          "id": "tritao_de_crista",
+          "nome": "Tritão-de-crista",
+          "descricao": "Anfíbio europeu de grande porte, Triturus cristatus, cujo macho desenvolve uma crista serrilhada no dorso na época de reprodução.",
+          "variantes": [
+            "Triturus cristatus",
+            "Tritão-crestado"
+          ]
+        },
+        {
+          "id": "kojiki",
+          "nome": "Kojiki",
+          "descricao": "Crônica japonesa compilada em 712, que reúne mitos da criação e a história lendária dos imperadores.",
+          "variantes": [
+            "Registro de Coisas Antigas"
+          ]
+        },
+        {
+          "id": "tratado_de_versalhes",
+          "nome": "Tratado de Versalhes",
+          "descricao": "Tratado de paz assinado em 1919 entre a Alemanha e os Aliados, que encerrou formalmente a Primeira Guerra Mundial.",
+          "variantes": [
+            "Treaty of Versailles"
+          ]
+        },
+        {
+          "id": "uniao_iberica",
+          "nome": "União Ibérica",
+          "descricao": "Período de 1580 a 1640 em que Portugal e Espanha tiveram o mesmo rei, da dinastia dos Habsburgos.",
+          "variantes": [
+            "Iberian Union",
+            "Domínio filipino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Lagarto-verde",
+        "descricao": "Lagarto teiídeo de corpo esverdeado (Ameiva ameiva), comum na América do Sul e Central.",
+        "variantes": [
+          "Calango-verde",
+          "Ameiva ameiva",
+          "Giant ameiva"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caldo_verde",
+          "nome": "Caldo verde",
+          "descricao": "Sopa portuguesa de couve em tiras, batata e azeite, servida com rodelas de linguiça ou chouriço.",
+          "variantes": []
+        },
+        {
+          "id": "laguna_verde_bolivia",
+          "nome": "Laguna Verde (Bolívia)",
+          "descricao": "Lago salgado turquesa no Altiplano boliviano, no departamento de Potosí, aos pés do vulcão Licancabur.",
+          "variantes": [
+            "Laguna Verde"
+          ]
+        },
+        {
+          "id": "cabo_verde",
+          "nome": "Cabo Verde",
+          "descricao": "País insular africano de língua portuguesa, no oceano Atlântico, a oeste do Senegal.",
+          "variantes": [
+            "Cape Verde"
+          ]
+        },
+        {
+          "id": "bandeira_de_cabo_verde",
+          "nome": "Bandeira de Cabo Verde",
+          "descricao": "Bandeira nacional de Cabo Verde, azul com faixas branca e vermelha e um círculo de dez estrelas amarelas.",
+          "variantes": [
+            "Cabo Verde",
+            "Bandeira cabo-verdiana"
+          ]
+        },
+        {
+          "id": "periodo_umido_africano",
+          "nome": "Período Úmido Africano",
+          "descricao": "Fase climática em que o Saara ficou coberto de lagos e vegetação, terminada há cerca de cinco mil anos.",
+          "variantes": [
+            "Saara Verde",
+            "African humid period",
+            "Green Sahara"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Tartaruga-panqueca",
+        "descricao": "Tartaruga terrestre de casco achatado e flexível (Malacochersus tornieri) da Tanzânia e do Quênia.",
+        "variantes": [
+          "Pancake tortoise",
+          "Malacochersus tornieri"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tartaruga_cabecuda",
+          "nome": "Tartaruga-cabeçuda",
+          "descricao": "Tartaruga-marinha (Caretta caretta) de cabeça grande, comum no litoral brasileiro.",
+          "variantes": [
+            "Caretta caretta",
+            "Loggerhead"
+          ]
+        },
+        {
+          "id": "tartaruga_verde",
+          "nome": "Tartaruga-verde",
+          "descricao": "Grande tartaruga-marinha herbívora (Chelonia mydas) de carapaça oliva a marrom.",
+          "variantes": [
+            "Chelonia mydas",
+            "Tartaruga-aruanã",
+            "Aruanã",
+            "Green sea turtle"
+          ]
+        },
+        {
+          "id": "tartaruga_de_couro",
+          "nome": "Tartaruga-de-couro",
+          "descricao": "Maior tartaruga marinha viva (Dermochelys coriacea), de casco coberto por pele coriácea em vez de placas duras.",
+          "variantes": [
+            "Tartaruga-gigante",
+            "Dermochelys coriacea",
+            "Leatherback"
+          ]
+        },
+        {
+          "id": "tartaruga_radiada",
+          "nome": "Tartaruga-radiada",
+          "descricao": "Tartaruga terrestre de Madagascar com casco de raios amarelos (Astrochelys radiata).",
+          "variantes": [
+            "Astrochelys radiata",
+            "Radiated tortoise"
+          ]
+        },
+        {
+          "id": "tartaruga_de_pente",
+          "nome": "Tartaruga-de-pente",
+          "descricao": "Tartaruga marinha tropical (Eretmochelys imbricata) com bico afilado e casco de bordas serrilhadas.",
+          "variantes": [
+            "Hawksbill sea turtle",
+            "Eretmochelys imbricata"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Salamandra-gigante-americana",
+        "descricao": "Maior salamandra da América do Norte (Cryptobranchus alleganiensis), aquática, do leste dos EUA.",
+        "variantes": [
+          "Hellbender",
+          "Cryptobranchus alleganiensis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "shellder",
+          "nome": "Shellder",
+          "descricao": "Pokémon do tipo Água, número 90 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "helenos",
+          "nome": "Helenos",
+          "descricao": "Nome que os gregos antigos davam a si mesmos, derivado de Heleno, ancestral mítico; a Grécia era a Hélade.",
+          "variantes": [
+            "Hellenes",
+            "Helenos (gregos)"
+          ]
+        },
+        {
+          "id": "salamandra_gigante_do_japao",
+          "nome": "Salamandra-gigante-do-japão",
+          "descricao": "Salamandra totalmente aquática (Andrias japonicus) que chega a 1,5 metro, endêmica do Japão.",
+          "variantes": [
+            "Andrias japonicus",
+            "Ōsanshōuo",
+            "Japanese giant salamander"
+          ]
+        },
+        {
+          "id": "bender",
+          "nome": "Bender",
+          "descricao": "Robô dobrador alcoólatra e egocêntrico da série animada Futurama, melhor amigo de Fry.",
+          "variantes": [
+            "Bender Bending Rodríguez",
+            "Bender Dobrador Rodríguez"
+          ]
+        },
+        {
+          "id": "caramujo_gigante_africano",
+          "nome": "Caramujo-gigante-africano",
+          "descricao": "Molusco terrestre (Achatina fulica) nativo da África Oriental, espécie invasora no Brasil.",
+          "variantes": [
+            "Achatina fulica",
+            "Lissachatina fulica",
+            "caramujo-africano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Píton-real",
+        "descricao": "Pequena píton africana (Python regius) que se enrola em bola quando ameaçada.",
+        "variantes": [
+          "Ball python",
+          "Royal python",
+          "Python regius"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pato_real",
+          "nome": "Pato-real",
+          "descricao": "Pato selvagem Anas platyrhynchos, o macho de cabeça verde, ancestral da maioria dos patos domésticos.",
+          "variantes": [
+            "Mallard",
+            "Anas platyrhynchos"
+          ]
+        },
+        {
+          "id": "monty_python",
+          "nome": "Monty Python",
+          "descricao": "Grupo de humoristas britânicos autor da série Monty Python's Flying Circus.",
+          "variantes": [
+            "Monty Python's Flying Circus"
+          ]
+        },
+        {
+          "id": "paco_imperial",
+          "nome": "Paço Imperial",
+          "descricao": "Edifício colonial do século dezoito na Praça XV, no Rio de Janeiro, sede do governo colonial e residência real.",
+          "variantes": [
+            "Paço Real",
+            "Palácio dos Vice-Reis",
+            "Paço de São Cristóvão"
+          ]
+        },
+        {
+          "id": "prison_break",
+          "nome": "Prison Break",
+          "descricao": "Série americana de 2005 sobre o engenheiro Michael Scofield, que planeja uma fuga de dentro de uma penitenciária.",
+          "variantes": [
+            "Prison Break: Em Busca da Verdade"
+          ]
+        },
+        {
+          "id": "piton_birmanesa",
+          "nome": "Píton-birmanesa",
+          "descricao": "Grande serpente constritora do Sudeste Asiático, Python bivittatus.",
+          "variantes": [
+            "Python bivittatus",
+            "Burmese python"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Rã-roxa",
+        "descricao": "Rã fossorial roxa (Nasikabatrachus sahyadrensis), endêmica dos Gates Ocidentais, na Índia.",
+        "variantes": [
+          "Purple frog",
+          "Rã-nariz-de-porco",
+          "Nasikabatrachus sahyadrensis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "terra_roxa",
+          "nome": "Terra roxa",
+          "descricao": "Solo avermelhado e fértil do sul e sudeste do Brasil, formado pela decomposição do basalto e famoso pelas lavouras de café.",
+          "variantes": []
+        },
+        {
+          "id": "tartaruga_de_nariz_de_porco",
+          "nome": "Tartaruga-de-nariz-de-porco",
+          "descricao": "Carettochelys insculpta, tartaruga de nadadeiras e focinho carnudo do norte da Austrália e da Nova Guiné.",
+          "variantes": [
+            "Carettochelys insculpta",
+            "Tartaruga-do-rio-Fly"
+          ]
+        },
+        {
+          "id": "rolinha_roxa",
+          "nome": "Rolinha-roxa",
+          "descricao": "Pequena pomba tropical (Columbina talpacoti) de plumagem avermelhada, comum em áreas abertas e cidades.",
+          "variantes": [
+            "Ruddy ground dove",
+            "Columbina talpacoti"
+          ]
+        },
+        {
+          "id": "selecao_espanhola_de_futebol",
+          "nome": "Seleção Espanhola de Futebol",
+          "descricao": "Seleção nacional masculina de futebol da Espanha, apelidada de La Roja.",
+          "variantes": [
+            "Espanha",
+            "La Roja",
+            "La Furia Roja"
+          ]
+        },
+        {
+          "id": "selecao_chilena_de_futebol",
+          "nome": "Seleção Chilena de Futebol",
+          "descricao": "Seleção masculina de futebol do Chile, apelidada La Roja.",
+          "variantes": [
+            "Chile",
+            "La Roja"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Leptophis ahaetulla difere de Spilotes pullatus (caninana); 'Cobra-papagaio' é apenas variante compartilhada."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Gecko Phelsuma grandis não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pelobatrachus nasutus é espécie distinta do sapo-de-chifre sul-americano."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "tartaruga_cabecuda",
+      "motivo": "Mesma espécie Caretta caretta."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Ambystoma maculatum é espécie distinta das candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Pleurodeles waltl é distinto do tritão-de-crista."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Ameiva ameiva não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Malacochersus tornieri é espécie distinta das candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Cryptobranchus alleganiensis é distinto de Andrias japonicus."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Python regius não corresponde a nenhuma candidata; píton-birmanesa é outra espécie."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nasikabatrachus sahyadrensis não corresponde a nenhuma candidata."
+    }
+  ]
+}

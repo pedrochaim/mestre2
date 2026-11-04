@@ -1,0 +1,280 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Serpente verde esguia, bem visível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta serpente verde e esguia, de olhos grandes, é nativa de que região?",
+      "resposta": "América Central e norte da América do Sul",
+      "distratores": [
+        "África Ocidental",
+        "Sudeste Asiático",
+        "Austrália e Nova Guiné"
+      ],
+      "ancora": {
+        "nome": "Cobra-papagaio",
+        "descricao": "Serpente esguia e verde da família Colubridae (Leptophis ahaetulla), nativa da América Central e do norte da América do Sul.",
+        "variantes": [
+          "Azulão-boia",
+          "Parrot snake",
+          "Leptophis ahaetulla"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Gecko verde nítido, boa foto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este gecko verde de hábitos diurnos é nativo de que ilha?",
+      "resposta": "Madagascar",
+      "distratores": [
+        "Bornéu",
+        "Sri Lanka",
+        "Nova Caledônia"
+      ],
+      "ancora": {
+        "nome": "Gecko-diurno-de-madagascar",
+        "descricao": "Gecko arborícola verde de grande porte (Phelsuma grandis), nativo do norte de Madagascar.",
+        "variantes": [
+          "Madagascar giant day gecko",
+          "Phelsuma grandis"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Rã com projeções sobre os olhos, vista de cima e de baixo, mesma espécie.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta rã, com projeções pontudas sobre os olhos, vive em florestas de que região?",
+      "resposta": "Sudeste Asiático",
+      "distratores": [
+        "América Central",
+        "África Central",
+        "Madagascar"
+      ],
+      "ancora": {
+        "nome": "Rã-de-chifre-malaia",
+        "descricao": "Rã camuflada de folhiço (Pelobatrachus nasutus) das florestas tropicais do Sudeste Asiático.",
+        "variantes": [
+          "Long-nosed horned frog",
+          "Malayan horned frog",
+          "Pelobatrachus nasutus"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Tartaruga marinha nítida, cabeça grande característica.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tartaruga marinha é esta?",
+      "resposta": "Tartaruga-cabeçuda",
+      "distratores": [
+        "Tartaruga-verde",
+        "Tartaruga-de-pente",
+        "Tartaruga-oliva"
+      ],
+      "ancora": {
+        "nome": "Tartaruga-cabeçuda",
+        "descricao": "Tartaruga marinha de cabeça grande (Caretta caretta), presente nos oceanos Atlântico, Pacífico e Índico.",
+        "variantes": [
+          "Tartaruga-comum",
+          "Loggerhead",
+          "Caretta caretta"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Salamandra preta de pintas amarelas inconfundível.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Nos embriões desta salamandra vive, em simbiose, que tipo de organismo?",
+      "resposta": "Alga",
+      "distratores": [
+        "Bactéria",
+        "Fungo",
+        "Vírus"
+      ],
+      "ancora": {
+        "nome": "Salamandra-pintada",
+        "descricao": "Salamandra preta com pintas amarelas (Ambystoma maculatum), nativa do leste da América do Norte.",
+        "variantes": [
+          "Spotted salamander",
+          "Ambystoma maculatum"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Tritão manchado sobre musgo, visível e coerente com a espécie.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que anfíbio europeu é este?",
+      "resposta": "Tritão-de-costelas-salientes",
+      "distratores": [
+        "Tritão-de-crista",
+        "Salamandra-de-fogo",
+        "Tritão-palmado"
+      ],
+      "ancora": {
+        "nome": "Tritão-de-costelas-salientes",
+        "descricao": "Grande tritão da Península Ibérica e do Marrocos (Pleurodeles waltl), que projeta as costelas como defesa.",
+        "variantes": [
+          "Salamandra-de-costelas-salientes",
+          "Iberian ribbed newt",
+          "Pleurodeles waltl"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Lagarto verde com manchas azuis, claro; identificação plausível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lagarto sul-americano é este?",
+      "resposta": "Lagarto-verde",
+      "distratores": [
+        "Teiú",
+        "Iguana-verde",
+        "Lagartixa-de-parede"
+      ],
+      "ancora": {
+        "nome": "Lagarto-verde",
+        "descricao": "Lagarto teiídeo de corpo esverdeado (Ameiva ameiva), comum na América do Sul e Central.",
+        "variantes": [
+          "Calango-verde",
+          "Ameiva ameiva",
+          "Giant ameiva"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Três tartarugas de casco achatado e padrão radiado, mesma espécie.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tartaruga terrestre africana é esta?",
+      "resposta": "Tartaruga-panqueca",
+      "distratores": [
+        "Tartaruga-leopardo",
+        "Tartaruga-estrelada",
+        "Tartaruga-radiada"
+      ],
+      "ancora": {
+        "nome": "Tartaruga-panqueca",
+        "descricao": "Tartaruga terrestre de casco achatado e flexível (Malacochersus tornieri) da Tanzânia e do Quênia.",
+        "variantes": [
+          "Pancake tortoise",
+          "Malacochersus tornieri"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Salamandra gigante nítida sobre fundo branco.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que salamandra gigante aquática é esta?",
+      "resposta": "Salamandra-gigante-americana",
+      "distratores": [
+        "Salamandra-gigante-chinesa",
+        "Salamandra-gigante-japonesa",
+        "Axolote"
+      ],
+      "ancora": {
+        "nome": "Salamandra-gigante-americana",
+        "descricao": "Maior salamandra da América do Norte (Cryptobranchus alleganiensis), aquática, do leste dos EUA.",
+        "variantes": [
+          "Hellbender",
+          "Cryptobranchus alleganiensis"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Píton enrolada em foto clara sobre fundo branco.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta cobra constritora, de padrão marrom e preto, é nativa de que região?",
+      "resposta": "África Ocidental e Central",
+      "distratores": [
+        "Sudeste Asiático",
+        "América do Sul",
+        "Austrália"
+      ],
+      "ancora": {
+        "nome": "Píton-real",
+        "descricao": "Pequena píton africana (Python regius) que se enrola em bola quando ameaçada.",
+        "variantes": [
+          "Ball python",
+          "Royal python",
+          "Python regius"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto de enrolado de cobra com a cabeça pouco visível; os chifres não aparecem e pode ser confundida com a víbora-do-gabão."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Rã roxa gordinha de focinho pontudo, inconfundível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta rã roxa, de corpo arredondado e focinho pontudo, é endêmica de que país?",
+      "resposta": "Índia",
+      "distratores": [
+        "Sri Lanka",
+        "Madagascar",
+        "Filipinas"
+      ],
+      "ancora": {
+        "nome": "Rã-roxa",
+        "descricao": "Rã fossorial roxa (Nasikabatrachus sahyadrensis), endêmica dos Gates Ocidentais, na Índia.",
+        "variantes": [
+          "Purple frog",
+          "Rã-nariz-de-porco",
+          "Nasikabatrachus sahyadrensis"
+        ]
+      }
+    }
+  ]
+}

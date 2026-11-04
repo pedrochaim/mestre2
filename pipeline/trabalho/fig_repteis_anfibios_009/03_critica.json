@@ -1,0 +1,105 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Olhos grandes' não é sustentado pelos trechos, e a resposta é longa demais (mais de 5 palavras). O fato da região está nos trechos.",
+      "reescrita": {
+        "pergunta": "Esta serpente verde e esguia é nativa de que região?",
+        "resposta": "América Central e do Sul",
+        "distratores": [
+          "África Ocidental",
+          "Sudeste Asiático",
+          "Austrália e Nova Guiné"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelo trecho, sem vazamento, distratores plausíveis e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Projeções sobre os olhos e distribuição no Sudeste Asiático sustentadas pelo trecho; distratores corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome tartaruga-cabeçuda consta no trecho; enunciado sem vazamento; distratores são outras tartarugas marinhas.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Simbiose com algas nos embriões sustentada pelos trechos; sem vazamento; distratores do mesmo tipo e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É o maior caudado europeu, nativo da Ibéria; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Lagarto-verde' é um nome genérico; o trecho dá também calango-verde e ameiva, então a resposta precisa acomodar o nome mais usado no Brasil.",
+      "reescrita": {
+        "pergunta": "Que lagarto sul-americano é este?",
+        "resposta": "Calango-verde (ameiva)",
+        "distratores": [
+          "Teiú",
+          "Iguana-verde",
+          "Lagartixa-de-parede"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome e origem sustentados pelo trecho; distratores do mesmo tipo e corretos como errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Salamandra gigante aquática norte-americana sustentada pelos trechos; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem na África Ocidental e Central e constritora sustentadas pelo trecho; distratores errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz 'rã roxa', que é o nome da entidade mostrada; vazamento parcial. O fato (endêmica da Índia) está no trecho.",
+      "reescrita": {
+        "pergunta": "Esta rã de corpo arredondado e focinho pontudo é endêmica de que país?",
+        "resposta": "Índia",
+        "distratores": [
+          "Sri Lanka",
+          "Madagascar",
+          "Filipinas"
+        ]
+      }
+    }
+  ]
+}
