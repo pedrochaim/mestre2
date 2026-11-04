@@ -1,0 +1,149 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que estado brasileiro está destacado neste mapa?",
+        "resposta": "Paraná"
+      },
+      "existentes": [
+        {
+          "id": "q04563",
+          "pergunta": "O que os nomes dos estados do Paraná, do Tocantins e do Amazonas têm em comum?",
+          "resposta": "São nomes de rios"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Macedônia do Norte"
+      },
+      "existentes": [
+        {
+          "id": "q05282",
+          "pergunta": "Que país faz fronteira ao sul com o país desta bandeira?",
+          "resposta": "Grécia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Este território destacado no mapa é autônomo dentro do reino de qual país?",
+        "resposta": "Dinamarca"
+      },
+      "existentes": [
+        {
+          "id": "q02192",
+          "pergunta": "Segundo as sagas islandesas, por que Érico, o Vermelho, chamou de Terra Verde uma ilha quase toda coberta de gelo?",
+          "resposta": "Para atrair colonos"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Sérvia"
+      },
+      "existentes": [
+        {
+          "id": "q05750",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Belgrado"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Qual destes países faz fronteira com o país destacado neste mapa?",
+        "resposta": "Burundi"
+      },
+      "existentes": [
+        {
+          "id": "q13549",
+          "pergunta": "Ruanda tem três grupos étnicos tradicionais: os twa, os hutus e qual outro, principal vítima do genocídio de 1994?",
+          "resposta": "Tutsis"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que golfo banha o sul do país destacado neste mapa?",
+        "resposta": "Golfo da Guiné"
+      },
+      "existentes": [
+        {
+          "id": "q04908",
+          "pergunta": "Ao se tornar independente em 1957, a Costa do Ouro adotou o nome de qual antigo império africano, que ficava a centenas de quilômetros dali?",
+          "resposta": "Império de Gana"
+        },
+        {
+          "id": "q08091",
+          "pergunta": "Em 1957, que líder conduziu a Costa do Ouro à independência e se tornou o primeiro-ministro do novo país, Gana?",
+          "resposta": "Kwame Nkrumah"
+        },
+        {
+          "id": "q14570",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Gana"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Líbano"
+      },
+      "existentes": [
+        {
+          "id": "q01294",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Beirute"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o estado no mapa é fato distinto de os nomes serem de rios."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o país no mapa difere de saber qual país faz fronteira ao sul."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Autonomia dentro do reino da Dinamarca é outro fato, não a razão do nome Terra Verde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar o país no mapa difere de sua capital."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Fronteira com Burundi é outro fato, não os grupos étnicos."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "O golfo que banha o sul é fato geográfico diferente dos existentes."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Identificar o país no mapa difere de sua capital."
+    }
+  ]
+}

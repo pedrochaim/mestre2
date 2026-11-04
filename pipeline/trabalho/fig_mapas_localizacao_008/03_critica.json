@@ -1,0 +1,96 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento; distratores do mesmo tipo e críveis (estados vizinhos).",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Capital confirmada nos trechos; enunciado não vaza; distratores são capitais vizinhas.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples, sem pista vazada; distratores balcânicos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam território autônomo do Reino da Dinamarca. Sem a figura há mais de um território possível, então o mapa é necessário.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Verde-escuro' afirma uma cor específica da imagem que não consta em 'mostra' e não pode ser verificada. O termo neutro 'destacado' basta.",
+      "reescrita": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Sérvia",
+        "distratores": [
+          "Croácia",
+          "Bulgária",
+          "Romênia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Burundi faz fronteira com Ruanda; Quênia, Zâmbia e Malawi não fazem. Distratores críveis e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o Golfo da Guiné ao sul de Gana. Reconhecer o país é necessário e os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta; distratores são estados vizinhos ou próximos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento do país no mapa; sem vazamento; distratores da Ásia Oriental.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; distratores são países vizinhos da Líbia.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; distratores são países do Levante e vizinhos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Capital Lilongwe confirmada; distratores são capitais de países vizinhos e nenhum está correto.",
+      "reescrita": null
+    }
+  ]
+}

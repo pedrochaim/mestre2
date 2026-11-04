@@ -1,0 +1,283 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mapa claro, estado destacado em vermelho, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estado brasileiro está destacado neste mapa?",
+      "resposta": "Paraná",
+      "distratores": [
+        "Santa Catarina",
+        "São Paulo",
+        "Mato Grosso do Sul"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Paraná",
+        "descricao": "Estado da região Sul do Brasil, cuja capital é Curitiba.",
+        "variantes": [
+          "Estado do Paraná"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "País destacado em globo, reconhecível no Sudeste Asiático, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Phnom Penh",
+      "distratores": [
+        "Bangkok",
+        "Vientiane",
+        "Hanói"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Camboja",
+        "descricao": "País do Sudeste Asiático, entre Tailândia, Laos e Vietnã, cuja capital é Phnom Penh.",
+        "variantes": [
+          "Reino do Camboja",
+          "Kampuchea"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "País pequeno mas destacado em verde nos Bálcãs, com mapa-múndi de apoio; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Macedônia do Norte",
+      "distratores": [
+        "Albânia",
+        "Bulgária",
+        "Montenegro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Macedônia do Norte",
+        "descricao": "País dos Bálcãs, sem litoral, cuja capital é Escópia.",
+        "variantes": [
+          "Macedônia",
+          "República da Macedônia do Norte"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Contorno inconfundível da Groenlândia em projeção polar.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este território destacado no mapa é autônomo dentro do reino de qual país?",
+      "resposta": "Dinamarca",
+      "distratores": [
+        "Noruega",
+        "Islândia",
+        "Canadá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Groenlândia",
+        "descricao": "Maior ilha do mundo, território autônomo do Reino da Dinamarca, com capital em Nuuk.",
+        "variantes": [
+          "Kalaallit Nunaat"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Sérvia em verde-escuro com recorte ampliado; Kosovo em tom mais claro, então o enunciado especifica o verde-escuro. Sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país está em verde-escuro neste mapa?",
+      "resposta": "Sérvia",
+      "distratores": [
+        "Croácia",
+        "Bulgária",
+        "Romênia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sérvia",
+        "descricao": "País sem litoral dos Bálcãs, cuja capital é Belgrado.",
+        "variantes": [
+          "República da Sérvia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ruanda em globo com recorte ampliado, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destes países faz fronteira com o país destacado neste mapa?",
+      "resposta": "Burundi",
+      "distratores": [
+        "Quênia",
+        "Zâmbia",
+        "Malawi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ruanda",
+        "descricao": "País sem litoral da África Oriental, cuja capital é Kigali.",
+        "variantes": [
+          "República de Ruanda"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Gana destacada em globo centrado na África, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que golfo banha o sul do país destacado neste mapa?",
+      "resposta": "Golfo da Guiné",
+      "distratores": [
+        "Golfo do México",
+        "Golfo Pérsico",
+        "Golfo de Áden"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gana",
+        "descricao": "País da África Ocidental, no Golfo da Guiné, cuja capital é Acra.",
+        "variantes": [
+          "República de Gana"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Mapa do Brasil com o Rio Grande do Sul em vermelho, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estado brasileiro está destacado neste mapa?",
+      "resposta": "Rio Grande do Sul",
+      "distratores": [
+        "Santa Catarina",
+        "Paraná",
+        "Mato Grosso do Sul"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Rio Grande do Sul",
+        "descricao": "Estado mais ao sul do Brasil, cuja capital é Porto Alegre.",
+        "variantes": [
+          "RS"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Coreia do Norte destacada em globo, formato reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Coreia do Norte",
+      "distratores": [
+        "Coreia do Sul",
+        "Mongólia",
+        "Japão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Coreia do Norte",
+        "descricao": "País da Ásia Oriental que ocupa a metade norte da península coreana, com capital em Pyongyang.",
+        "variantes": [
+          "República Popular Democrática da Coreia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Líbia grande e reconhecível no norte da África, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Líbia",
+      "distratores": [
+        "Egito",
+        "Argélia",
+        "Sudão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Líbia",
+        "descricao": "País do norte da África, no Mediterrâneo, cuja capital é Trípoli.",
+        "variantes": [
+          "Estado da Líbia"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Líbano com recorte ampliado legível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Líbano",
+      "distratores": [
+        "Israel",
+        "Síria",
+        "Jordânia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Líbano",
+        "descricao": "País do Oriente Médio, no litoral do Mediterrâneo, cuja capital é Beirute.",
+        "variantes": [
+          "República Libanesa"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Malawi destacado em globo, formato alongado reconhecível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Lilongwe",
+      "distratores": [
+        "Lusaka",
+        "Dodoma",
+        "Maputo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Malawi",
+        "descricao": "País sem litoral do sudeste da África, junto a um grande lago, cuja capital é Lilongwe.",
+        "variantes": [
+          "Maláui",
+          "República do Malawi"
+        ]
+      }
+    }
+  ]
+}
