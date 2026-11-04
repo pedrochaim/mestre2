@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não entrega a resposta; distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista 'de escritório' ajuda sem entregar; distratores válidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome usual no Brasil confirmado; nenhum distrator descreve uma chave ajustável.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Função confirmada; peneira tem malha fina e se distingue pela figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Espremedor/amassador de batata confirmado; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Objeto de higiene confirmado; a pista não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Masculino' não é literalmente exato: o trecho diz que homens e mulheres usam abotoaduras. Trocado por 'de moda'.",
+      "reescrita": {
+        "pergunta": "Que acessório de moda é este?",
+        "resposta": "Abotoadura",
+        "distratores": [
+          "Broche de lapela",
+          "Alfinete de gravata",
+          "Botão de colete"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Peça de proteção contra o frio confirmada; distratores são outros chapéus e toucas, sem ambiguidade.",
+      "reescrita": null
+    }
+  ]
+}

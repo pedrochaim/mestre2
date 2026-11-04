@@ -1,0 +1,493 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Abridor de garrafas",
+        "descricao": "Utensílio de metal usado para retirar tampinhas metálicas de garrafas.",
+        "variantes": [
+          "Abridor de tampinhas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abridor_de_latas",
+          "nome": "Abridor de latas",
+          "descricao": "Utensílio de cozinha usado para abrir latas de conserva.",
+          "variantes": [
+            "Can opener",
+            "Abre-latas"
+          ]
+        },
+        {
+          "id": "saca_rolhas",
+          "nome": "Saca-rolhas",
+          "descricao": "Utensílio com espiral metálica para tirar rolhas de garrafas, aqui no modelo de alavancas.",
+          "variantes": [
+            "Abridor de vinho",
+            "Corkscrew"
+          ]
+        },
+        {
+          "id": "marmore_de_carrara",
+          "nome": "Mármore de Carrara",
+          "descricao": "Mármore branco ou cinza-azulado extraído nas pedreiras dos Alpes Apuanos, na Toscana, usado em esculturas desde a Roma Antiga.",
+          "variantes": [
+            "Carrara marble"
+          ]
+        },
+        {
+          "id": "cocar",
+          "nome": "Cocar",
+          "descricao": "Adorno de cabeça de penas usado por muitos povos indígenas das Américas.",
+          "variantes": [
+            "Cocar de penas",
+            "Adorno de penas"
+          ]
+        },
+        {
+          "id": "paineira",
+          "nome": "Paineira",
+          "descricao": "Árvore decídua sul-americana Ceiba speciosa, de flores rosadas e tronco bojudo com espinhos.",
+          "variantes": [
+            "Ceiba speciosa",
+            "Barriguda",
+            "Paina-rosa",
+            "Árvore-de-paina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Furador de papel",
+        "descricao": "Ferramenta de escritório que faz furos em folhas de papel para arquivá-las em pastas.",
+        "variantes": [
+          "Perfurador de papel",
+          "Furador"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "furao",
+          "nome": "Furão",
+          "descricao": "Mustelídeo doméstico da espécie Mustela furo, derivado do furão-europeu selvagem.",
+          "variantes": [
+            "Mustela furo",
+            "Furão doméstico"
+          ]
+        },
+        {
+          "id": "fado",
+          "nome": "Fado",
+          "descricao": "Gênero musical português de canto melancólico, acompanhado pela guitarra portuguesa",
+          "variantes": []
+        },
+        {
+          "id": "equador",
+          "nome": "Equador",
+          "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+          "variantes": [
+            "Ecuador",
+            "República do Equador"
+          ]
+        },
+        {
+          "id": "ciclone_tropical",
+          "nome": "Ciclone tropical",
+          "descricao": "Tempestade giratória que se forma sobre oceanos quentes, chamada de furacão ou tufão conforme a região",
+          "variantes": [
+            "Furacão",
+            "Tufão"
+          ]
+        },
+        {
+          "id": "ralador",
+          "nome": "Ralador",
+          "descricao": "Utensílio de cozinha com lâmina perfurada usado para ralar alimentos.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Chave inglesa",
+        "descricao": "Chave com mandíbula móvel que se ajusta a porcas e parafusos de vários tamanhos.",
+        "variantes": [
+          "Chave ajustável"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mao_inglesa",
+          "nome": "Mão inglesa",
+          "descricao": "Regra de trânsito em que os veículos circulam pelo lado esquerdo da via, como no Reino Unido.",
+          "variantes": [
+            "Circulação pela esquerda",
+            "Mão esquerda"
+          ]
+        },
+        {
+          "id": "snooker",
+          "nome": "Snooker",
+          "descricao": "Modalidade de bilhar com vinte e duas bolas, que deu origem à sinuca brasileira.",
+          "variantes": [
+            "Sinuca inglesa"
+          ]
+        },
+        {
+          "id": "damas_inglesas",
+          "nome": "Damas inglesas",
+          "descricao": "Variante do jogo de damas jogada em tabuleiro de oito por oito, em que a dama anda uma casa por vez, resolvida por computador em 2007.",
+          "variantes": [
+            "Checkers",
+            "English draughts"
+          ]
+        },
+        {
+          "id": "batata",
+          "nome": "Batata",
+          "descricao": "Tubérculo comestível da planta Solanum tuberosum, nativa dos Andes",
+          "variantes": [
+            "Solanum tuberosum",
+            "batata-inglesa",
+            "potato"
+          ]
+        },
+        {
+          "id": "vingadores",
+          "nome": "Vingadores",
+          "descricao": "Equipe de super-heróis da Marvel criada por Stan Lee e Jack Kirby em 1963",
+          "variantes": [
+            "Avengers"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Escorredor de macarrão",
+        "descricao": "Utensílio de cozinha perfurado, em forma de tigela, usado para escorrer massas e lavar legumes.",
+        "variantes": [
+          "Escorredor",
+          "Passador",
+          "Colander"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "valete_carta_de_baralho",
+          "nome": "Valete (carta de baralho)",
+          "descricao": "Carta de figura do baralho que representa um jovem da corte, abaixo da dama e do rei.",
+          "variantes": [
+            "Valete",
+            "Jack",
+            "Conde"
+          ]
+        },
+        {
+          "id": "colar",
+          "nome": "Colar",
+          "descricao": "Joia usada ao redor do pescoço, aqui de correntes de argolas com pérolas.",
+          "variantes": [
+            "Gargantilha"
+          ]
+        },
+        {
+          "id": "uva_passa",
+          "nome": "Uva-passa",
+          "descricao": "Uva desidratada, usada em bolos, farofas e na ceia de Natal.",
+          "variantes": [
+            "Passa",
+            "Raisin"
+          ]
+        },
+        {
+          "id": "escocia",
+          "nome": "Escócia",
+          "descricao": "País constituinte do Reino Unido, no norte da ilha da Grã-Bretanha, cuja capital é Edimburgo.",
+          "variantes": [
+            "Scotland"
+          ]
+        },
+        {
+          "id": "pessach",
+          "nome": "Pessach",
+          "descricao": "Festa judaica que celebra a saída dos hebreus do Egito",
+          "variantes": [
+            "Páscoa judaica",
+            "Passover",
+            "Pesach"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Espremedor de batata",
+        "descricao": "Utensílio de cozinha de arame com cabo, usado para amassar batatas cozidas e outros alimentos macios.",
+        "variantes": [
+          "Amassador de batata",
+          "Socador de batata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "salada_de_batata",
+          "nome": "Salada de batata",
+          "descricao": "Prato frio de batatas cozidas fatiadas ou em cubos, com tempero e outros ingredientes, servido como acompanhamento.",
+          "variantes": [
+            "Potato salad"
+          ]
+        },
+        {
+          "id": "os_comedores_de_batata",
+          "nome": "Os Comedores de Batata",
+          "descricao": "Pintura a óleo de Vincent van Gogh de 1885 que mostra uma família camponesa jantando sob um lampião.",
+          "variantes": [
+            "The Potato Eaters",
+            "De Aardappeleters"
+          ]
+        },
+        {
+          "id": "senhor_cabeca_de_batata",
+          "nome": "Senhor Cabeça de Batata",
+          "descricao": "Brinquedo americano de batata com peças de rosto encaixáveis, lançado em 1952 pela Hasbro.",
+          "variantes": [
+            "Mr. Potato Head",
+            "Sr. Cabeça de Batata"
+          ]
+        },
+        {
+          "id": "estadio_de_saitama",
+          "nome": "Estádio de Saitama",
+          "descricao": "Estádio de futebol em Midori-ku, Saitama, no Japão, casa do Urawa Red Diamonds e sede de semifinais da Copa de 2002.",
+          "variantes": [
+            "Saitama Stadium 2002",
+            "Saisuta"
+          ]
+        },
+        {
+          "id": "battle_chateau",
+          "nome": "Battle Château",
+          "descricao": "Castelo de batalhas da região de Kalos, nos jogos Pokémon X e Y, onde os treinadores sobem de posto a cada vitória.",
+          "variantes": [
+            "Castelo de Batalha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cotonete",
+        "descricao": "Haste fina com algodão nas pontas, usada na higiene das orelhas, em primeiros socorros e em maquiagem.",
+        "variantes": [
+          "Haste flexível",
+          "Cotton swab"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cottonee",
+          "nome": "Cottonee",
+          "descricao": "Pokémon planta e fada da quinta geração, uma bola de algodão, número 546 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "colete",
+          "nome": "Colete",
+          "descricao": "Peça sem mangas usada sobre a camisa e sob o paletó, parte do terno de três peças",
+          "variantes": [
+            "Waistcoat",
+            "Vest"
+          ]
+        },
+        {
+          "id": "coiote",
+          "nome": "Coiote",
+          "descricao": "Canídeo da América do Norte (Canis latrans), menor que o lobo-cinzento.",
+          "variantes": [
+            "Canis latrans"
+          ]
+        },
+        {
+          "id": "disquete",
+          "nome": "Disquete",
+          "descricao": "Disco magnético flexível, protegido por uma capa plástica, usado para guardar arquivos de computador nas últimas décadas do século vinte.",
+          "variantes": [
+            "Floppy disk",
+            "Disco flexível"
+          ]
+        },
+        {
+          "id": "croton",
+          "nome": "Cróton",
+          "descricao": "Codiaeum variegatum, arbusto ornamental da família Euphorbiaceae de folhas coloridas.",
+          "variantes": [
+            "Codiaeum variegatum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Abotoadura",
+        "descricao": "Joia que fecha os punhos de camisas ssocial, no lugar de botões.",
+        "variantes": [
+          "Abotoaduras",
+          "Cufflinks"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abotoadura",
+          "nome": "Abotoadura",
+          "descricao": "Par de joias douradas com esmalte azul, usadas para fechar os punhos de camisas sociais.",
+          "variantes": [
+            "Abotoaduras",
+            "Cufflinks"
+          ]
+        },
+        {
+          "id": "gancho_de_abotoar",
+          "nome": "Gancho de abotoar",
+          "descricao": "Pequena ferramenta com cabo e gancho metálico para passar botões de botas ou luvas pelas casas.",
+          "variantes": [
+            "Abotoador",
+            "Buttonhook"
+          ]
+        },
+        {
+          "id": "falinks",
+          "nome": "Falinks",
+          "descricao": "Pokémon do tipo Lutador, número 870 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "macguffin",
+          "nome": "MacGuffin",
+          "descricao": "Recurso narrativo: objeto ou objetivo que move a trama, mas pouco importa em si mesmo.",
+          "variantes": [
+            "McGuffin"
+          ]
+        },
+        {
+          "id": "abobora",
+          "nome": "Abóbora",
+          "descricao": "Fruto de plantas do gênero Cucurbita, de formas e cores variadas.",
+          "variantes": [
+            "Jerimum",
+            "Pumpkin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Gorro de lã",
+        "descricao": "Touca de tricô que cobre a cabeça, usada para aquecer em tempo frio.",
+        "variantes": [
+          "Touca de lã",
+          "Beanie",
+          "Touca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "melanie_anime",
+          "nome": "Melanie (anime)",
+          "descricao": "Moça do anime Pokémon que cuida de pokémon abandonados num vilarejo escondido de Kanto, protegido pelo Bulbasaur que depois segue Ash.",
+          "variantes": [
+            "Melanie"
+          ]
+        },
+        {
+          "id": "organizacao_da_unidade_africana",
+          "nome": "Organização da Unidade Africana",
+          "descricao": "Organização de países africanos criada em 1963 e substituída pela União Africana em 2002.",
+          "variantes": [
+            "OUA",
+            "Organisation of African Unity"
+          ]
+        },
+        {
+          "id": "oca",
+          "nome": "Oca",
+          "descricao": "Habitação coletiva tradicional de povos indígenas do Brasil, de estrutura de madeira coberta de palha.",
+          "variantes": [
+            "Oka"
+          ]
+        },
+        {
+          "id": "caranguejo_violinista",
+          "nome": "Caranguejo-violinista",
+          "descricao": "Caranguejo do gênero Uca, cujos machos têm uma garra enorme.",
+          "variantes": [
+            "Uca",
+            "Fiddler crab",
+            "Chama-maré"
+          ]
+        },
+        {
+          "id": "berna",
+          "nome": "Berna",
+          "descricao": "Cidade suíça que funciona como sede do governo federal da Suíça.",
+          "variantes": [
+            "Bern",
+            "Berne"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Abridor de garrafas é diferente de abre-latas e saca-rolhas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um furador de papel."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ferramenta, sem correspondência com as candidatas de 'inglês(a)'."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um escorredor de massas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Utensílio distinto de pratos, obras ou brinquedos com 'batata'."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Cotonete não corresponde a nenhuma candidata; Cottonee é um Pokémon."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "abotoadura",
+      "motivo": "Mesmo objeto (cufflinks), mesmo nome e variantes, para fechar punhos de camisas sociais."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um gorro."
+    }
+  ]
+}

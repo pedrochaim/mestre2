@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que acessório de moda é este?",
+        "resposta": "Abotoadura"
+      },
+      "existentes": [
+        {
+          "id": "q15888",
+          "pergunta": "Que acessório de camisa é este?",
+          "resposta": "Abotoadura"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q15888",
+      "motivo": "Ambas pedem, com imagem, o nome do mesmo acessório (abotoadura); a resposta é idêntica e o fato perguntado é o mesmo."
+    }
+  ]
+}

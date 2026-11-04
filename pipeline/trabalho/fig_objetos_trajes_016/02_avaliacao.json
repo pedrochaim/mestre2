@@ -1,0 +1,216 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Objeto claro; o texto gravado é só marca de cerveja e não entrega a resposta. Só aparece uma mão.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que utensílio é este?",
+      "resposta": "Abridor de garrafas",
+      "distratores": [
+        "Abridor de latas",
+        "Saca-rolhas",
+        "Quebra-nozes"
+      ],
+      "ancora": {
+        "nome": "Abridor de garrafas",
+        "descricao": "Utensílio de metal usado para retirar tampinhas metálicas de garrafas.",
+        "variantes": [
+          "Abridor de tampinhas"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Objeto nítido, sem texto, fundo neutro.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que objeto de escritório é este?",
+      "resposta": "Furador de papel",
+      "distratores": [
+        "Grampeador",
+        "Apontador",
+        "Prensa de papel"
+      ],
+      "ancora": {
+        "nome": "Furador de papel",
+        "descricao": "Ferramenta de escritório que faz furos em folhas de papel para arquivá-las em pastas.",
+        "variantes": [
+          "Perfurador de papel",
+          "Furador"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Desenho a nanquim de um objeto que pode ser fotografado; pouco reconhecível, sem o contexto do traje, e pode ser confundido com outra pantufa ou sapato."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Ferramenta nítida; o texto (200 mm, chrome vanadium) não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ferramenta é esta?",
+      "resposta": "Chave inglesa",
+      "distratores": [
+        "Chave de boca",
+        "Chave de fenda",
+        "Alicate"
+      ],
+      "ancora": {
+        "nome": "Chave inglesa",
+        "descricao": "Chave com mandíbula móvel que se ajusta a porcas e parafusos de vários tamanhos.",
+        "variantes": [
+          "Chave ajustável"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O penico é pequeno e aparece ao fundo; a cena é uma senhora comum sentada na cama em primeiro plano, e o objeto não é o foco."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto antiga de um homem comum, em primeiro plano; pessoa não pública e fora de festa pública."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Objeto nítido, sem texto, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que utensílio de cozinha é este?",
+      "resposta": "Escorredor de macarrão",
+      "distratores": [
+        "Peneira",
+        "Escumadeira",
+        "Ralador"
+      ],
+      "ancora": {
+        "nome": "Escorredor de macarrão",
+        "descricao": "Utensílio de cozinha perfurado, em forma de tigela, usado para escorrer massas e lavar legumes.",
+        "variantes": [
+          "Escorredor",
+          "Passador",
+          "Colander"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Objeto nítido sobre fundo branco, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que utensílio de cozinha é este?",
+      "resposta": "Espremedor de batata",
+      "distratores": [
+        "Batedor de claras",
+        "Escumadeira",
+        "Ralador"
+      ],
+      "ancora": {
+        "nome": "Espremedor de batata",
+        "descricao": "Utensílio de cozinha de arame com cabo, usado para amassar batatas cozidas e outros alimentos macios.",
+        "variantes": [
+          "Amassador de batata",
+          "Socador de batata"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Objeto nítido sobre fundo branco, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que objeto de higiene é este?",
+      "resposta": "Cotonete",
+      "distratores": [
+        "Palito de dente",
+        "Escova interdental",
+        "Termômetro"
+      ],
+      "ancora": {
+        "nome": "Cotonete",
+        "descricao": "Haste fina com algodão nas pontas, usada na higiene das orelhas, em primeiros socorros e em maquiagem.",
+        "variantes": [
+          "Haste flexível",
+          "Cotton swab"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Par de abotoaduras nítido, sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que acessório masculino é este?",
+      "resposta": "Abotoadura",
+      "distratores": [
+        "Broche de lapela",
+        "Alfinete de gravata",
+        "Botão de colete"
+      ],
+      "ancora": {
+        "nome": "Abotoadura",
+        "descricao": "Joia que fecha os punhos de camisas ssocial, no lugar de botões.",
+        "variantes": [
+          "Abotoaduras",
+          "Cufflinks"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O objeto, um rolo de mata-borrão com tampa preta, parece um rolo de papel higiênico ou outro dispositivo; a resposta não é única nem reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Gorro de tricô nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que peça de vestuário é esta?",
+      "resposta": "Gorro de lã",
+      "distratores": [
+        "Boina",
+        "Balaclava",
+        "Chapéu de pescador"
+      ],
+      "ancora": {
+        "nome": "Gorro de lã",
+        "descricao": "Touca de tricô que cobre a cabeça, usada para aquecer em tempo frio.",
+        "variantes": [
+          "Touca de lã",
+          "Beanie",
+          "Touca"
+        ]
+      }
+    }
+  ]
+}
