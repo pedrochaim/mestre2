@@ -1,0 +1,86 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que museu fica esta escultura helenística de mármore?",
+        "resposta": "Museus do Vaticano"
+      },
+      "existentes": [
+        {
+          "id": "q05974",
+          "pergunta": "Em que museu está exposta esta escultura da Antiguidade?",
+          "resposta": "Museus do Vaticano"
+        },
+        {
+          "id": "q14276",
+          "pergunta": "Que famosa escultura da Antiguidade, hoje nos Museus do Vaticano, é esta?",
+          "resposta": "Laocoonte e seus filhos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade fica esta catedral gótica?",
+        "resposta": "Paris"
+      },
+      "existentes": [
+        {
+          "id": "q01920",
+          "pergunta": "Que catedral gótica é esta?",
+          "resposta": "Notre-Dame de Paris"
+        },
+        {
+          "id": "q03974",
+          "pergunta": "Marco da arquitetura gótica, a Catedral de Notre-Dame de Paris teve sua construção iniciada em que século?",
+          "resposta": "Século doze"
+        },
+        {
+          "id": "q07527",
+          "pergunta": "No século dezenove, que romance de Victor Hugo despertou o interesse do público e ajudou a salvar da ruína a grande catedral gótica de Paris?",
+          "resposta": "O Corcunda de Notre-Dame"
+        },
+        {
+          "id": "q18266",
+          "pergunta": "Em que cidade fica esta catedral gótica?",
+          "resposta": "Paris"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que divindade asteca é esta?",
+        "resposta": "Tláloc"
+      },
+      "existentes": [
+        {
+          "id": "q14331",
+          "pergunta": "Que divindade asteca é esta?",
+          "resposta": "Tláloc"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: em que museu fica a escultura, resposta Museus do Vaticano.",
+      "id_existente": "q05974"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Pergunta idêntica já existente.",
+      "id_existente": "q18266"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Pergunta idêntica já existente.",
+      "id_existente": "q14331"
+    }
+  ]
+}

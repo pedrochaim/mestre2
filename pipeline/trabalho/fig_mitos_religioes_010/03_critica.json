@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'desenterrada em Roma em 1506' é um feito único que identifica a obra sem a figura. Removida; o fato do museu está nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que museu fica esta escultura helenística de mármore?",
+        "resposta": "Museus do Vaticano",
+        "distratores": [
+          "Museu do Louvre",
+          "Museu Britânico",
+          "Museu do Prado"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Paris está nos trechos; o enunciado não nomeia a catedral; distratores são outras cidades de catedrais góticas e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de divindade asteca; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A palavra 'jardim' aparece no enunciado e na resposta (vazamento parcial). Trocada por 'onde'.",
+      "reescrita": {
+        "pergunta": "Segundo o livro do Gênesis, onde viveu o casal desta pintura?",
+        "resposta": "Jardim do Éden",
+        "distratores": [
+          "Jardim de Getsêmani",
+          "Jardins Suspensos",
+          "Jardim das Hespérides"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "'mostra' só confirma que a imagem tem Hércules; não garante que a pintura retrate a Hidra. O enunciado afirma uma cena não verificada, e Hércules enfrentou vários monstros.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; iconografia com quatro braços e pele azul confere com os trechos; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem pista que entregue; distratores são deusas hindus críveis e nenhuma serve para a imagem.",
+      "reescrita": null
+    }
+  ]
+}

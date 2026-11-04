@@ -1,0 +1,214 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem traz legenda visível ('Le Vampire, lithographie de R. de Moraine...') que entrega a resposta, e a cena não identifica o vampiro por si só."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Escultura famosa, clara, sem texto; resposta única.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que museu fica esta escultura antiga, desenterrada em Roma em 1506?",
+      "resposta": "Museus do Vaticano",
+      "distratores": [
+        "Museu do Louvre",
+        "Museu Britânico",
+        "Museu do Prado"
+      ],
+      "ancora": {
+        "nome": "Laocoonte e seus filhos",
+        "descricao": "Grupo escultórico helenístico em mármore que representa o sacerdote troiano Laocoonte e seus filhos atacados por serpentes marinhas.",
+        "variantes": [
+          "Grupo de Laocoonte",
+          "Laocoön and His Sons"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Ilustração clara da divindade egípcia com cabeça e orelhas características, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que deus egípcio é este?",
+      "resposta": "Set",
+      "distratores": [
+        "Anúbis",
+        "Sobek",
+        "Khnum"
+      ],
+      "ancora": {
+        "nome": "Set",
+        "descricao": "Deus egípcio dos desertos, das tempestades e da desordem, representado com cabeça de animal de focinho curvo e orelhas retas.",
+        "variantes": [
+          "Seth",
+          "Sutekh"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada frontal nítida de Notre-Dame, sem texto legível; pessoas pequenas ao fundo.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta catedral gótica?",
+      "resposta": "Paris",
+      "distratores": [
+        "Reims",
+        "Amiens",
+        "Chartres"
+      ],
+      "ancora": {
+        "nome": "Catedral de Notre-Dame de Paris",
+        "descricao": "Catedral católica gótica medieval na Île de la Cité, em Paris.",
+        "variantes": [
+          "Notre-Dame de Paris",
+          "Notre-Dame"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O ícone não identifica o arcanjo por si só (só uma inscrição grega parcial); poderia ser outro arcanjo, sem resposta única pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ilustração clara no estilo dos códices astecas, com olhos circulares e presas características, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que divindade asteca é esta?",
+      "resposta": "Tláloc",
+      "distratores": [
+        "Quetzalcóatl",
+        "Huitzilopochtli",
+        "Tezcatlipoca"
+      ],
+      "ancora": {
+        "nome": "Tláloc",
+        "descricao": "Deus asteca da chuva, da fertilidade e da água.",
+        "variantes": [
+          "Tlaloc"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pintura barroca clara de Adão e Eva, sem texto; resposta única.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Segundo o livro do Gênesis, em que jardim viveu o casal desta pintura?",
+      "resposta": "Jardim do Éden",
+      "distratores": [
+        "Jardim de Getsêmani",
+        "Jardins Suspensos",
+        "Jardim das Hespérides"
+      ],
+      "ancora": {
+        "nome": "Adão e Eva",
+        "descricao": "Primeiro homem e primeira mulher segundo a narrativa da criação das religiões abraâmicas.",
+        "variantes": [
+          "Adam and Eve"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A miniatura persa mostra uma batalha com demônios (divs) e tem texto persa; não representa um gênio reconhecível, e a resposta não é única."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O detalhe de relevo mesopotâmico não mostra Inanna de forma reconhecível; a entidade da imagem é ambígua e difícil de reconhecer."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Pintura renascentista clara do herói com a pele de leão e a clava enfrentando a Hidra, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que monstro este herói enfrenta nesta pintura?",
+      "resposta": "Hidra de Lerna",
+      "distratores": [
+        "Quimera",
+        "Cérbero",
+        "Píton"
+      ],
+      "ancora": {
+        "nome": "Hércules",
+        "descricao": "Herói da mitologia grega, filho de Zeus, conhecido pela força e pelos doze trabalhos.",
+        "variantes": [
+          "Héracles",
+          "Heracles"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pintura indiana clara: pele azul, quatro braços, concha, disco, maça e lótus, atributos inconfundíveis de Vishnu; sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que divindade hindu é esta?",
+      "resposta": "Vishnu",
+      "distratores": [
+        "Shiva",
+        "Brahma",
+        "Ganesha"
+      ],
+      "ancora": {
+        "nome": "Vishnu",
+        "descricao": "Divindade principal do hinduísmo, o deus da preservação, representado com quatro braços e pele azul.",
+        "variantes": [
+          "Vixnu",
+          "Narayana",
+          "Hari"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem nítida da deusa de muitos braços sobre o leão, derrotando o demônio, iconografia inconfundível de Durga; sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que deusa hindu é representada nesta imagem?",
+      "resposta": "Durga",
+      "distratores": [
+        "Kali",
+        "Lakshmi",
+        "Saraswati"
+      ],
+      "ancora": {
+        "nome": "Durga",
+        "descricao": "Deusa guerreira do hinduísmo, que cavalga um leão ou tigre e derrota demônios.",
+        "variantes": [
+          "Durgā"
+        ]
+      }
+    }
+  ]
+}
