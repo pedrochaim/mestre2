@@ -1,0 +1,216 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem de satélite do arquipélago artificial ao largo de Dubai, sem texto; formato circular característico.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que arquipélago é este, visto do espaço, ao largo de uma cidade do Golfo Pérsico?",
+      "resposta": "The World (Dubai)",
+      "distratores": [
+        "Palm Jumeirah",
+        "Ilhas Maldivas",
+        "Ilhas Seychelles"
+      ],
+      "ancora": {
+        "nome": "The World (Dubai)",
+        "descricao": "Arquipélago artificial de cerca de 300 ilhas no Golfo Pérsico, ao largo de Dubai, projetado em forma de mapa-múndi.",
+        "variantes": [
+          "The World Islands",
+          "Ilhas do Mundo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Rio com o Wat Arun ao fundo, reconhecível; a única escrita é em tailandês, no barco, e não entrega a resposta a quem ouve.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este rio atravessa a capital de um país asiático. Em que golfo ele deságua?",
+      "resposta": "Golfo da Tailândia",
+      "distratores": [
+        "Golfo de Bengala",
+        "Golfo de Tonquim",
+        "Golfo de Martaban"
+      ],
+      "ancora": {
+        "nome": "Rio Chao Phraya",
+        "descricao": "Principal rio da Tailândia, que atravessa Bangkok e deságua no Golfo da Tailândia.",
+        "variantes": [
+          "Chao Praya",
+          "Menam"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Mergulhador em primeiro plano, uma pessoa comum em destaque; a imagem também não permite reconhecer a lagoa com segurança."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Ilha com montanhas, pagode e o torii vermelho no mar, com os traços típicos de Miyajima; sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta ilha japonesa, sagrada para o xintoísmo, pertence a que prefeitura?",
+      "resposta": "Hiroshima",
+      "distratores": [
+        "Okayama",
+        "Yamaguchi",
+        "Kyoto"
+      ],
+      "ancora": {
+        "nome": "Itsukushima (Miyajima)",
+        "descricao": "Ilha sagrada do Mar Interior do Japão, na baía de Hiroshima, famosa pelo santuário com o torii flutuante.",
+        "variantes": [
+          "Miyajima",
+          "Ilha de Itsukushima"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida da queda, com ponte e castelo, sem texto; paisagem característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que grande queda-d'água europeia é esta?",
+      "resposta": "Cataratas do Reno",
+      "distratores": [
+        "Cataratas de Krimml",
+        "Cachoeira de Triberg",
+        "Cataratas de Gullfoss"
+      ],
+      "ancora": {
+        "nome": "Cataratas do Reno",
+        "descricao": "Cachoeira mais volumosa da Europa, no Alto Reno, na Suíça, perto de Schaffhausen.",
+        "variantes": [
+          "Rheinfall",
+          "Rhine Falls",
+          "Queda do Reno"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vista da cidade velha de Corfu com a Fortaleza Velha, sem texto e com paisagem reconhecível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta cidade fortificada fica em que ilha grega do mar Jônico?",
+      "resposta": "Corfu",
+      "distratores": [
+        "Cefalônia",
+        "Zacinto",
+        "Lefkada"
+      ],
+      "ancora": {
+        "nome": "Corfu",
+        "descricao": "Ilha grega do mar Jônico, no noroeste da Grécia, com sua cidade velha e a Fortaleza Velha.",
+        "variantes": [
+          "Kerkyra",
+          "Corfú"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Lago subterrâneo azul iluminado por um facho de luz, característico; só há uma silhueta anônima, sem identificação.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que estado brasileiro fica este lago de caverna iluminado por um facho de sol?",
+      "resposta": "Bahia",
+      "distratores": [
+        "Mato Grosso do Sul",
+        "Minas Gerais",
+        "Goiás"
+      ],
+      "ancora": {
+        "nome": "Poço Encantado",
+        "descricao": "Lago subterrâneo numa caverna de Itaetê, na Chapada Diamantina, Bahia, iluminado por um raio de sol.",
+        "variantes": [
+          "Poço Encantado de Itaetê"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Rochedo e mar genéricos; nada permite reconhecer as Ilhas Ballestas pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Close da superfície laranja sem a visão do conjunto; pode ser outra fonte de Yellowstone, resposta pouco única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Vista urbana genérica com cruzeiro; nada identifica a ilha de Rodes."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ilha fortificada ligada à costa por istmo de areia, muito característica, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país do Adriático fica esta pequena ilha de casas de telhado laranja, ligada ao continente por uma faixa de areia?",
+      "resposta": "Montenegro",
+      "distratores": [
+        "Croácia",
+        "Albânia",
+        "Itália"
+      ],
+      "ancora": {
+        "nome": "Sveti Stefan",
+        "descricao": "Pequena ilha-vila fortificada na costa adriática de Montenegro, ligada ao continente por um istmo.",
+        "variantes": [
+          "Santo Estêvão",
+          "Sveti Stefan (Montenegro)"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto clara da barragem, sem texto, com a imponente estrutura de concreto e os guindastes vermelhos.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que país fica esta usina hidrelétrica?",
+      "resposta": "China",
+      "distratores": [
+        "Brasil",
+        "Estados Unidos",
+        "Rússia"
+      ],
+      "ancora": {
+        "nome": "Usina de Três Gargantas",
+        "descricao": "Hidrelétrica de gravidade no Rio Yangtzé, em Yichang, província de Hubei, a maior do mundo em capacidade instalada.",
+        "variantes": [
+          "Barragem das Três Gargantas",
+          "Three Gorges Dam"
+        ]
+      }
+    }
+  ]
+}

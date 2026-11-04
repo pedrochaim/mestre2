@@ -1,0 +1,73 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que grande queda-d'água europeia é esta?",
+        "resposta": "Cataratas do Reno"
+      },
+      "existentes": [
+        {
+          "id": "q16831",
+          "pergunta": "Em que país europeu fica esta cachoeira?",
+          "resposta": "Suíça"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que estado brasileiro fica este lago de caverna iluminado por um facho de sol?",
+        "resposta": "Bahia"
+      },
+      "existentes": [
+        {
+          "id": "q09633",
+          "pergunta": "Entre abril e setembro, a água do Poço Encantado, caverna da Chapada Diamantina, ganha um brilho especial. O que a ilumina?",
+          "resposta": "Um facho de luz solar"
+        },
+        {
+          "id": "q11831",
+          "pergunta": "Que lago subterrâneo brasileiro, iluminado por um feixe de sol, é este?",
+          "resposta": "Poço Encantado"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que país fica esta usina hidrelétrica?",
+        "resposta": "China"
+      },
+      "existentes": [
+        {
+          "id": "q04153",
+          "pergunta": "A gigantesca usina hidrelétrica chinesa de Três Gargantas represa as águas de que rio?",
+          "resposta": "Yangtzé"
+        },
+        {
+          "id": "q15040",
+          "pergunta": "Que usina hidrelétrica é esta?",
+          "resposta": "Três Gargantas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nova pede o nome da cachoeira (imagem); existente pede o país. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nova pergunta o estado (Bahia); existentes tratam da iluminação e do nome do lago."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nova pergunta o país da usina (China); existentes pedem o rio e o nome da usina. Fato diferente."
+    }
+  ]
+}

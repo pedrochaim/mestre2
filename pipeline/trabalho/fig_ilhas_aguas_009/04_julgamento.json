@@ -1,0 +1,514 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "The World (Dubai)",
+        "descricao": "Arquipélago artificial de cerca de 300 ilhas no Golfo Pérsico, ao largo de Dubai, projetado em forma de mapa-múndi.",
+        "variantes": [
+          "The World Islands",
+          "Ilhas do Mundo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_do_diabo",
+          "nome": "Ilha do Diabo",
+          "descricao": "Pequena ilha das Ilhas da Salvação, na costa da Guiana Francesa, que abrigou uma temida colônia penal.",
+          "variantes": [
+            "Île du Diable",
+            "Ilha do Diabo (Guiana Francesa)"
+          ]
+        },
+        {
+          "id": "sete_maravilhas_do_mundo_antigo",
+          "nome": "Sete Maravilhas do Mundo Antigo",
+          "descricao": "Lista clássica de sete monumentos notáveis da Antiguidade mediterrânea, compilada por autores gregos.",
+          "variantes": [
+            "Sete Maravilhas do Mundo",
+            "Seven Wonders of the Ancient World"
+          ]
+        },
+        {
+          "id": "ilha_do_maranhao",
+          "nome": "Ilha do Maranhão",
+          "descricao": "Ilha da costa do Maranhão onde fica a cidade de São Luís, também chamada Upaon-Açu.",
+          "variantes": [
+            "Ilha de São Luís",
+            "Upaon-Açu"
+          ]
+        },
+        {
+          "id": "ilha_do_mel",
+          "nome": "Ilha do Mel",
+          "descricao": "Ilha na entrada da baía de Paranaguá, conhecida pelas praias, pelo farol e pela proibição de carros.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_da_ilha_de_man",
+          "nome": "Bandeira da Ilha de Man",
+          "descricao": "Bandeira da dependência da Coroa britânica Ilha de Man, com três pernas armadas em triskelion sobre fundo vermelho.",
+          "variantes": [
+            "Ilha de Man",
+            "Isle of Man",
+            "Mann"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Rio Chao Phraya",
+        "descricao": "Principal rio da Tailândia, que atravessa Bangkok e deságua no Golfo da Tailândia.",
+        "variantes": [
+          "Chao Praya",
+          "Menam"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hortela",
+          "nome": "Hortelã",
+          "descricao": "Planta aromática do gênero Mentha, da família das lamiáceas.",
+          "variantes": [
+            "Menta",
+            "Mentha"
+          ]
+        },
+        {
+          "id": "rio_da_prata",
+          "nome": "Rio da Prata",
+          "descricao": "Estuário sul-americano entre a Argentina e o Uruguai, às margens do qual ficam Buenos Aires e Montevidéu.",
+          "variantes": [
+            "Río de la Plata",
+            "River Plate",
+            "Prata"
+          ]
+        },
+        {
+          "id": "flamengo",
+          "nome": "Flamengo",
+          "descricao": "Clube de Regatas do Flamengo, clube carioca fundado em 1895.",
+          "variantes": [
+            "Clube de Regatas do Flamengo",
+            "CR Flamengo",
+            "Mengão"
+          ]
+        },
+        {
+          "id": "ovelha_merino",
+          "nome": "Ovelha merino",
+          "descricao": "Raça de ovelha originária da Espanha, criada pela lã fina e macia",
+          "variantes": [
+            "Merino",
+            "Merina"
+          ]
+        },
+        {
+          "id": "menora",
+          "nome": "Menorá",
+          "descricao": "Candelabro de sete braços do Tabernáculo e do Templo de Jerusalém, símbolo do judaísmo.",
+          "variantes": [
+            "Menorah",
+            "Menorá do Templo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Itsukushima (Miyajima)",
+        "descricao": "Ilha sagrada do Mar Interior do Japão, na baía de Hiroshima, famosa pelo santuário com o torii flutuante.",
+        "variantes": [
+          "Miyajima",
+          "Ilha de Itsukushima"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santuario_de_itsukushima",
+          "nome": "Santuário de Itsukushima",
+          "descricao": "Santuário xintoísta na ilha de Miyajima, no Japão, famoso pelo grande portal torii erguido sobre o mar.",
+          "variantes": [
+            "Itsukushima-jinja",
+            "Miyajima"
+          ]
+        },
+        {
+          "id": "torii",
+          "nome": "Torii",
+          "descricao": "Portal tradicional japonês na entrada de santuários xintoístas, aqui o torii flutuante de Itsukushima.",
+          "variantes": [
+            "Portal torii",
+            "Torii de Itsukushima"
+          ]
+        },
+        {
+          "id": "makima",
+          "nome": "Makima",
+          "descricao": "Caçadora de demônios da Segurança Pública e principal antagonista de Chainsaw Man.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_da_ilha_de_man",
+          "nome": "Bandeira da Ilha de Man",
+          "descricao": "Bandeira da dependência da Coroa britânica Ilha de Man, com três pernas armadas em triskelion sobre fundo vermelho.",
+          "variantes": [
+            "Ilha de Man",
+            "Isle of Man",
+            "Mann"
+          ]
+        },
+        {
+          "id": "acidente_nuclear_de_fukushima",
+          "nome": "Acidente nuclear de Fukushima",
+          "descricao": "Acidente na usina nuclear de Fukushima Daiichi, no Japão, em março de 2011.",
+          "variantes": [
+            "Desastre de Fukushima",
+            "Acidente de Fukushima Daiichi",
+            "Fukushima Daiichi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Cataratas do Reno",
+        "descricao": "Cachoeira mais volumosa da Europa, no Alto Reno, na Suíça, perto de Schaffhausen.",
+        "variantes": [
+          "Rheinfall",
+          "Rhine Falls",
+          "Queda do Reno"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cataratas_do_reno",
+          "nome": "Cataratas do Reno",
+          "descricao": "Cachoeira no Alto Reno, na Suíça, entre os cantões de Schaffhausen e Zurique.",
+          "variantes": [
+            "Rheinfall",
+            "Rhine Falls"
+          ]
+        },
+        {
+          "id": "queda_do_imperio_romano_do_ocidente",
+          "nome": "Queda do Império Romano do Ocidente",
+          "descricao": "Fim do poder imperial romano no Ocidente, marcado pela deposição de Rômulo Augusto pelo chefe germânico Odoacro.",
+          "variantes": [
+            "Queda de Roma",
+            "Fall of the Western Roman Empire"
+          ]
+        },
+        {
+          "id": "cataratas_do_niagara",
+          "nome": "Cataratas do Niágara",
+          "descricao": "Grupo de três quedas d'água no Rio Niágara, na fronteira entre Ontário e Nova York.",
+          "variantes": [
+            "Niagara Falls"
+          ]
+        },
+        {
+          "id": "gullfoss",
+          "nome": "Gullfoss",
+          "descricao": "Cachoeira no cânion do rio Hvítá, no sudoeste da Islândia, parada do Círculo Dourado.",
+          "variantes": [
+            "Cataratas Douradas",
+            "Golden Falls"
+          ]
+        },
+        {
+          "id": "salto_angel",
+          "nome": "Salto Ángel",
+          "descricao": "Queda d'água que despenca de um tepui no Parque Nacional Canaima, na Venezuela.",
+          "variantes": [
+            "Angel Falls",
+            "Kerepakupai Merú"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Corfu",
+        "descricao": "Ilha grega do mar Jônico, no noroeste da Grécia, com sua cidade velha e a Fortaleza Velha.",
+        "variantes": [
+          "Kerkyra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "orfeu",
+          "nome": "Orfeu",
+          "descricao": "Músico e poeta da mitologia grega que desceu ao mundo dos mortos para resgatar Eurídice.",
+          "variantes": [
+            "Orpheus"
+          ]
+        },
+        {
+          "id": "coruja",
+          "nome": "Coruja",
+          "descricao": "Ave de rapina, em geral noturna, da ordem Strigiformes, de olhos grandes voltados para a frente.",
+          "variantes": [
+            "Corujas",
+            "Strigiformes"
+          ]
+        },
+        {
+          "id": "morfeu",
+          "nome": "Morfeu",
+          "descricao": "Deus grego dos sonhos, filho de Hipnos.",
+          "variantes": [
+            "Morpheus"
+          ]
+        },
+        {
+          "id": "cafu",
+          "nome": "Cafu",
+          "descricao": "Marcos Evangelista de Morais, lateral-direito brasileiro, capitão da seleção campeã mundial em 2002.",
+          "variantes": [
+            "Marcos Evangelista de Morais"
+          ]
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Poço Encantado",
+        "descricao": "Lago subterrâneo numa caverna de Itaetê, na Chapada Diamantina, Bahia, iluminado por um raio de sol.",
+        "variantes": [
+          "Poço Encantado de Itaetê"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "poco_encantado",
+          "nome": "Poço Encantado",
+          "descricao": "Caverna com lago de águas transparentes no município de Itaetê, na Chapada Diamantina, Bahia.",
+          "variantes": []
+        },
+        {
+          "id": "lenda_do_boto",
+          "nome": "Lenda do boto",
+          "descricao": "Lenda amazônica do boto-cor-de-rosa que vira um rapaz elegante para seduzir moças nas festas.",
+          "variantes": [
+            "Boto encantado",
+            "Encantado"
+          ]
+        },
+        {
+          "id": "porco_espinho",
+          "nome": "Porco-espinho",
+          "descricao": "Roedor da espécie Hystrix cristata, o porco-espinho-de-crista, com espinhos longos no dorso.",
+          "variantes": [
+            "Porco-espinho-de-crista",
+            "Hystrix cristata",
+            "Porco-espinho-crestado"
+          ]
+        },
+        {
+          "id": "oposto",
+          "nome": "Oposto",
+          "descricao": "Posição do vôlei de quadra ocupada pelo atacante que fica na diagonal do levantador no rodízio.",
+          "variantes": [
+            "Opposite hitter",
+            "Oposto ao levantador"
+          ]
+        },
+        {
+          "id": "poco_de_lobato",
+          "nome": "Poço de Lobato",
+          "descricao": "Poço no bairro do Lobato, em Salvador, na Bahia, onde o petróleo jorrou pela primeira vez no Brasil, em 1939.",
+          "variantes": [
+            "Descoberta de petróleo no Lobato"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Sveti Stefan",
+        "descricao": "Pequena ilha-vila fortificada na costa adriática de Montenegro, ligada ao continente por um istmo.",
+        "variantes": [
+          "Santo Estêvão",
+          "Sveti Stefan (Montenegro)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boxing_day",
+          "nome": "Boxing Day",
+          "descricao": "Feriado de 26 de dezembro no Reino Unido e em outros países da Comunidade Britânica.",
+          "variantes": [
+            "Dia de Santo Estêvão"
+          ]
+        },
+        {
+          "id": "santa_coroa_da_hungria",
+          "nome": "Santa Coroa da Hungria",
+          "descricao": "Coroa de coroação usada pelos reis da Hungria a partir do século doze, também chamada Coroa de Santo Estêvão.",
+          "variantes": [
+            "Coroa de Santo Estêvão",
+            "Holy Crown of Hungary",
+            "Szent Korona"
+          ]
+        },
+        {
+          "id": "sudario_de_turim",
+          "nome": "Sudário de Turim",
+          "descricao": "Pano de linho com a imagem de um homem, venerado como o sudário de Jesus, guardado em Turim.",
+          "variantes": [
+            "Santo Sudário",
+            "Sindone di Torino"
+          ]
+        },
+        {
+          "id": "rosario",
+          "nome": "Rosário",
+          "descricao": "Devoção católica de orações contadas num cordão de contas, cuja forma reduzida é o terço",
+          "variantes": [
+            "Terço",
+            "Santo Rosário"
+          ]
+        },
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis",
+            "Terno de Reis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Usina de Três Gargantas",
+        "descricao": "Hidrelétrica de gravidade no Rio Yangtzé, em Yichang, província de Hubei, a maior do mundo em capacidade instalada.",
+        "variantes": [
+          "Barragem das Três Gargantas",
+          "Three Gorges Dam"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "usina_de_tres_gargantas",
+          "nome": "Usina de Três Gargantas",
+          "descricao": "Grande usina hidrelétrica e barragem na província de Hubei, na China.",
+          "variantes": [
+            "Three Gorges Dam",
+            "Barragem das Três Gargantas",
+            "Três Gargantas"
+          ]
+        },
+        {
+          "id": "cesta_de_tres_pontos",
+          "nome": "Cesta de três pontos",
+          "descricao": "Arremesso feito de trás de uma linha distante do aro, que vale três pontos.",
+          "variantes": [
+            "Linha de três pontos",
+            "Three-point field goal",
+            "Bola de três",
+            "Arremesso de três pontos"
+          ]
+        },
+        {
+          "id": "bastao_de_tres_secoes",
+          "nome": "Bastão de três seções",
+          "descricao": "Arma chinesa de artes marciais formada por três varas de madeira ou metal ligadas por argolas ou corda.",
+          "variantes": [
+            "Sanjiegun",
+            "Sansetsukon",
+            "Bastão de três partes",
+            "Bastão triplo"
+          ]
+        },
+        {
+          "id": "cinto_de_seguranca_de_tres_pontos",
+          "nome": "Cinto de segurança de três pontos",
+          "descricao": "Cinto de segurança que prende o tronco e o quadril, introduzido pela Volvo em 1959.",
+          "variantes": [
+            "Cinto de três pontos",
+            "Three-point seatbelt"
+          ]
+        },
+        {
+          "id": "semaforo",
+          "nome": "Semáforo",
+          "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres; o primeiro foi instalado em Londres em 1868.",
+          "variantes": [
+            "Sinal de trânsito",
+            "Farol",
+            "Sinaleiro",
+            "Traffic light",
+            "Sinaleira"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o arquipélago artificial de Dubai."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o rio tailandês."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A proposta é a ilha; a candidata é o santuário, entidade distinta (parte da ilha)."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "cataratas_do_reno",
+      "motivo": "Mesma cachoeira no Alto Reno, Suíça, com mesmas variantes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a ilha de Corfu."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "poco_encantado",
+      "motivo": "Mesma caverna com lago em Itaetê, Chapada Diamantina."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a ilha-vila de Montenegro."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "usina_de_tres_gargantas",
+      "motivo": "Mesma usina/barragem em Hubei, China, mesmas variantes."
+    }
+  ]
+}
