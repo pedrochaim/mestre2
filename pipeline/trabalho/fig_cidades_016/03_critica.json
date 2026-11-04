@@ -1,0 +1,78 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Escavado na rocha, com quatro estátuas colossais' quase entrega Abu Simbel sem a figura; o Templo de Hatshepsut é parcialmente escavado na rocha, distrator duvidoso.",
+      "reescrita": {
+        "pergunta": "Que templo do Egito antigo é este?",
+        "resposta": "Abu Simbel",
+        "distratores": [
+          "Templo de Karnak",
+          "Templo de Luxor",
+          "Templo de Edfu"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto, sem pista; distratores são montanhas vulcânicas críveis e nenhuma é o Fuji.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato (aqueduto no brasão de Segóvia) sustentado pelo trecho em português. Salamanca tem uma ponte romana no brasão, distrator arriscado; troca por Burgos.",
+      "reescrita": {
+        "pergunta": "Esta construção romana aparece no brasão de qual cidade espanhola?",
+        "resposta": "Segóvia",
+        "distratores": [
+          "Toledo",
+          "Ávila",
+          "Burgos"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Dunas e lagoas' é pista que praticamente identifica os Lençóis Maranhenses (teste da imagem coberta) e dunas com lagoas existem também no Ceará e Piauí.",
+      "reescrita": {
+        "pergunta": "Em que estado brasileiro fica esta paisagem?",
+        "resposta": "Maranhão",
+        "distratores": [
+          "Piauí",
+          "Ceará",
+          "Rio Grande do Norte"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de lugar direta, sem vazamento; distratores são países do Sahel do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Centro de Roma' e 'ruínas' não distinguem do Coliseu ou Palatino, e 'Roma' é raiz de 'Romano' (vazamento). Palatino era distrator ambíguo.",
+      "reescrita": {
+        "pergunta": "Que famoso sítio arqueológico da Itália é este?",
+        "resposta": "Fórum Romano",
+        "distratores": [
+          "Fórum de Trajano",
+          "Termas de Caracala",
+          "Circo Máximo"
+        ]
+      }
+    }
+  ]
+}

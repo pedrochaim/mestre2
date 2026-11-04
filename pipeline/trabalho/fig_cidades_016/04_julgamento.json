@@ -1,0 +1,394 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Abu Simbel",
+        "descricao": "Complexo de templos rupestres de Ramsés II, no sul do Egito, junto ao lago Nasser.",
+        "variantes": [
+          "Abul-Simbel",
+          "Templos de Abu Simbel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abu_simbel",
+          "nome": "Abu Simbel",
+          "descricao": "Par de templos escavados na rocha por ordem de Ramsés II, no sul do Egito, junto ao Lago Nasser",
+          "variantes": [
+            "Templos de Abu Simbel",
+            "Abu Simbel temples"
+          ]
+        },
+        {
+          "id": "templo_de_apolo_epicuro",
+          "nome": "Templo de Apolo Epicuro",
+          "descricao": "Templo dórico do século cinco antes de Cristo em Bassas, na Arcádia, no Peloponeso, Grécia.",
+          "variantes": [
+            "Templo de Apolo em Bassas",
+            "Templo de Bassae",
+            "Temple of Apollo Epicurius"
+          ]
+        },
+        {
+          "id": "templo_de_atena_nice",
+          "nome": "Templo de Atena Nice",
+          "descricao": "Pequeno templo jônico do século cinco a.C. na Acrópole de Atenas, dedicado a Atena Nice.",
+          "variantes": [
+            "Templo de Atena Nike",
+            "Temple of Athena Nike"
+          ]
+        },
+        {
+          "id": "arroba_simbolo",
+          "nome": "Arroba (símbolo)",
+          "descricao": "O símbolo @, usado nos endereços de e-mail, chamado de arroba em português e espanhol",
+          "variantes": [
+            "@",
+            "At sign",
+            "Arroba"
+          ]
+        },
+        {
+          "id": "templo_de_kom_ombo",
+          "nome": "Templo de Kom Ombo",
+          "descricao": "Templo duplo de época ptolomaica em Kom Ombo, na província de Assuã, no Alto Egito.",
+          "variantes": [
+            "Templo de Com Ombo",
+            "Temple of Kom Ombo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Monte Fuji",
+        "descricao": "Vulcão mais alto do Japão, na ilha de Honshu, de cone simétrico nevado.",
+        "variantes": [
+          "Fujisan",
+          "Fuji-san"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_fuji",
+          "nome": "Monte Fuji",
+          "descricao": "Vulcão de forma cônica na ilha de Honshu, o ponto mais alto do Japão.",
+          "variantes": [
+            "Fuji",
+            "Fujisan",
+            "Fuji-san",
+            "Fujiyama"
+          ]
+        },
+        {
+          "id": "mt_moon",
+          "nome": "Mt. Moon",
+          "descricao": "Montanha com cavernas entre Pewter e Cerulean, em Kanto, nos jogos Pokémon Red e Blue, famosa pelos Clefairy e pelos fósseis.",
+          "variantes": [
+            "Monte Lua",
+            "Mount Moon"
+          ]
+        },
+        {
+          "id": "escala_fujita",
+          "nome": "Escala Fujita",
+          "descricao": "Escala que classifica a intensidade dos tornados pelos danos que causam",
+          "variantes": [
+            "Fujita scale",
+            "Escala F",
+            "Escala Fujita aprimorada",
+            "Enhanced Fujita scale"
+          ]
+        },
+        {
+          "id": "montanha_do_pico",
+          "nome": "Montanha do Pico",
+          "descricao": "Estratovulcão da ilha do Pico, no arquipélago dos Açores, o ponto mais alto de Portugal.",
+          "variantes": [
+            "Monte Pico",
+            "Pico"
+          ]
+        },
+        {
+          "id": "monte_vesuvio",
+          "nome": "Monte Vesúvio",
+          "descricao": "Vulcão no golfo de Nápoles, na Itália, cuja erupção do ano 79 soterrou cidades romanas.",
+          "variantes": [
+            "Vesúvio",
+            "Vesuvius",
+            "Vesuvio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Aqueduto de Segóvia",
+        "descricao": "Aqueduto romano de arcadas de granito na cidade de Segóvia, na Espanha.",
+        "variantes": [
+          "Acueducto de Segovia",
+          "Aqueduto romano de Segóvia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aqueduto_de_segovia",
+          "nome": "Aqueduto de Segóvia",
+          "descricao": "Aqueduto romano de arcos de granito que atravessa o centro da cidade de Segóvia, na Espanha.",
+          "variantes": [
+            "Acueducto de Segovia"
+          ]
+        },
+        {
+          "id": "aqueduto_romano",
+          "nome": "Aqueduto romano",
+          "descricao": "Canal construído pelos romanos para levar água de fontes distantes até as cidades.",
+          "variantes": [
+            "Roman aqueduct"
+          ]
+        },
+        {
+          "id": "pacto_de_varsovia",
+          "nome": "Pacto de Varsóvia",
+          "descricao": "Aliança militar da União Soviética com os países comunistas do Leste Europeu, de 1955 a 1991.",
+          "variantes": [
+            "Warsaw Pact",
+            "Tratado de Varsóvia"
+          ]
+        },
+        {
+          "id": "arcos_da_lapa",
+          "nome": "Arcos da Lapa",
+          "descricao": "Aqueduto colonial de arcos brancos no bairro da Lapa, no Rio de Janeiro, construído no século dezoito.",
+          "variantes": [
+            "Aqueduto da Carioca"
+          ]
+        },
+        {
+          "id": "alcazar_de_segovia",
+          "nome": "Alcázar de Segóvia",
+          "descricao": "Castelo medieval e palácio real sobre um penhasco na cidade de Segóvia, em Castela e Leão, na Espanha.",
+          "variantes": [
+            "Alcázar of Segovia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Lençóis Maranhenses",
+        "descricao": "Parque nacional de dunas com lagoas sazonais no litoral do Maranhão.",
+        "variantes": [
+          "Parque Nacional dos Lençóis Maranhenses"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lencois_maranhenses",
+          "nome": "Lençóis Maranhenses",
+          "descricao": "Parque nacional no litoral do Maranhão, formado por dunas brancas intercaladas por lagoas.",
+          "variantes": [
+            "Parque Nacional dos Lençóis Maranhenses"
+          ]
+        },
+        {
+          "id": "lagos_de_plitvice",
+          "nome": "Lagos de Plitvice",
+          "descricao": "Série de lagos de travertino interligados por cachoeiras, em parque nacional da Croácia central.",
+          "variantes": [
+            "Parque Nacional dos Lagos de Plitvice",
+            "Plitvice Lakes",
+            "Plitvička jezera"
+          ]
+        },
+        {
+          "id": "chapada_dos_guimaraes",
+          "nome": "Chapada dos Guimarães",
+          "descricao": "Planalto de paredões e cachoeiras em Mato Grosso, protegido por um parque nacional.",
+          "variantes": [
+            "Parque Nacional da Chapada dos Guimarães"
+          ]
+        },
+        {
+          "id": "parque_nacional_do_itatiaia",
+          "nome": "Parque Nacional do Itatiaia",
+          "descricao": "Parque nacional criado em 1937 entre os estados do Rio de Janeiro e de Minas Gerais.",
+          "variantes": [
+            "Itatiaia",
+            "Parna Itatiaia"
+          ]
+        },
+        {
+          "id": "parque_nacional_de_yosemite",
+          "nome": "Parque Nacional de Yosemite",
+          "descricao": "Parque nacional na Serra Nevada da Califórnia, famoso por paredões de granito e cachoeiras.",
+          "variantes": [
+            "Yosemite",
+            "Yosemite National Park"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Grande Mesquita de Djenné",
+        "descricao": "Mesquita de tijolos de barro na cidade de Djenné, no Mali, a maior construção de adobe do mundo.",
+        "variantes": [
+          "Grande Mesquita de Jenê",
+          "Great Mosque of Djenné"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_mesquita_de_djenne",
+          "nome": "Grande Mesquita de Djenné",
+          "descricao": "Mesquita de barro na cidade de Djenné, no Mali, reconstruída em 1907 e Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Great Mosque of Djenné",
+            "Mesquita de Djenné"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_meca",
+          "nome": "Grande Mesquita de Meca",
+          "descricao": "Masjid al-Haram, a mais sagrada mesquita do Islã, que envolve a Caaba em Meca, na Arábia Saudita.",
+          "variantes": [
+            "Masjid al-Haram",
+            "Mesquita Sagrada",
+            "Al-Masjid al-Haram"
+          ]
+        },
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_samarra",
+          "nome": "Grande Mesquita de Samarra",
+          "descricao": "Antiga mesquita abássida do século nove em Samarra, Iraque, famosa pelo minarete em espiral.",
+          "variantes": [
+            "Mesquita Al-Malwiya",
+            "Great Mosque of Samarra",
+            "Malwiya"
+          ]
+        },
+        {
+          "id": "raul_boesel",
+          "nome": "Raul Boesel",
+          "descricao": "Ex-piloto brasileiro de Fórmula 1, Champ Car e protótipos, campeão mundial de esporte-protótipos em 1987.",
+          "variantes": [
+            "Raul de Mesquita Boesel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Fórum Romano",
+        "descricao": "Praça cercada por ruínas de edifícios públicos no centro da Roma antiga.",
+        "variantes": [
+          "Foro Romano",
+          "Forum Romanum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "forum_romano",
+          "nome": "Fórum Romano",
+          "descricao": "Praça cercada por ruínas de edifícios públicos, centro da vida da Roma antiga, entre o Palatino e o Capitólio.",
+          "variantes": [
+            "Foro Romano",
+            "Forum Romanum"
+          ]
+        },
+        {
+          "id": "concreto_romano",
+          "nome": "Concreto romano",
+          "descricao": "Material de construção usado na Roma Antiga, famoso pela durabilidade, empregado em obras como o Panteão.",
+          "variantes": [
+            "Opus caementicium",
+            "Roman concrete"
+          ]
+        },
+        {
+          "id": "ouro_branco",
+          "nome": "Ouro branco",
+          "descricao": "Liga de ouro com metais claros usada em joalheria, de cor prateada",
+          "variantes": [
+            "White gold"
+          ]
+        },
+        {
+          "id": "ditador_romano",
+          "nome": "Ditador romano",
+          "descricao": "Magistrado extraordinário da República romana nomeado com plenos poderes em tempos de crise.",
+          "variantes": [
+            "Dictator",
+            "Ditadura romana"
+          ]
+        },
+        {
+          "id": "dodecaedro_romano",
+          "nome": "Dodecaedro romano",
+          "descricao": "Pequeno objeto oco de liga de cobre, com doze faces pentagonais furadas, de uso desconhecido, dos séculos II a IV.",
+          "variantes": [
+            "Dodecaedro galo-romano",
+            "Roman dodecahedron"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "abu_simbel",
+      "motivo": "Mesmo complexo de templos de Ramsés II em Abu Simbel."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "monte_fuji",
+      "motivo": "Mesmo vulcão, ponto mais alto do Japão em Honshu."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "aqueduto_de_segovia",
+      "motivo": "Mesmo aqueduto romano de Segóvia."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "lencois_maranhenses",
+      "motivo": "Mesmo parque nacional de dunas e lagoas no Maranhão."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "grande_mesquita_de_djenne",
+      "motivo": "Mesma mesquita de barro em Djenné, Mali."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "forum_romano",
+      "motivo": "Mesmo Fórum Romano da Roma antiga."
+    }
+  ]
+}

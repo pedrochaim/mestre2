@@ -1,0 +1,177 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Torcedores em primeiro plano e camisas com patrocinador visível; estádio sem elementos que o identifiquem de forma única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada icônica, sem texto, reconhecível.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "pergunta": "Que templo egípcio escavado na rocha, com quatro estátuas colossais na entrada, é este?",
+      "resposta": "Abu Simbel",
+      "distratores": [
+        "Templo de Karnak",
+        "Templo de Luxor",
+        "Templo de Hatshepsut"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Abu Simbel",
+        "descricao": "Complexo de templos rupestres de Ramsés II, no sul do Egito, junto ao lago Nasser.",
+        "variantes": [
+          "Abul-Simbel",
+          "Templos de Abu Simbel"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Multidão de pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cone nevado simétrico, vista clássica, sem texto.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "pergunta": "Que montanha é esta?",
+      "resposta": "Monte Fuji",
+      "distratores": [
+        "Monte Rainier",
+        "Monte Shasta",
+        "Monte Elbrus"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Monte Fuji",
+        "descricao": "Vulcão mais alto do Japão, na ilha de Honshu, de cone simétrico nevado.",
+        "variantes": [
+          "Fujisan",
+          "Fuji-san"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Aqueduto romano nítido; texto de restaurante ao fundo não entrega a resposta.",
+      "nivel": 3,
+      "familia": "com_o_que_se_liga",
+      "tipo": "multipla",
+      "pergunta": "Esta construção romana aparece no brasão de qual cidade espanhola?",
+      "resposta": "Segóvia",
+      "distratores": [
+        "Toledo",
+        "Ávila",
+        "Salamanca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Aqueduto de Segóvia",
+        "descricao": "Aqueduto romano de arcadas de granito na cidade de Segóvia, na Espanha.",
+        "variantes": [
+          "Acueducto de Segovia",
+          "Aqueduto romano de Segóvia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Placa de rua com 'Bryggen' e nomes de lojas legíveis entregam a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Dunas com lagoas, paisagem inconfundível, sem texto.",
+      "nivel": 2,
+      "familia": "onde",
+      "tipo": "multipla",
+      "pergunta": "Em que estado brasileiro fica esta paisagem de dunas e lagoas?",
+      "resposta": "Maranhão",
+      "distratores": [
+        "Piauí",
+        "Ceará",
+        "Rio Grande do Norte"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Lençóis Maranhenses",
+        "descricao": "Parque nacional de dunas com lagoas sazonais no litoral do Maranhão.",
+        "variantes": [
+          "Parque Nacional dos Lençóis Maranhenses"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O nome do estádio está escrito na fachada."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Vista aérea de cidade genérica; os trulli são pequenos demais para reconhecer."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Vista aérea de áreas alagadas, sem marcos; pode ser confundida com outros pântanos."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Mesquita de barro inconfundível, sem texto; só pessoas distantes.",
+      "nivel": 1,
+      "familia": "onde",
+      "tipo": "multipla",
+      "pergunta": "Em que país africano fica esta mesquita?",
+      "resposta": "Mali",
+      "distratores": [
+        "Níger",
+        "Mauritânia",
+        "Burkina Faso"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Grande Mesquita de Djenné",
+        "descricao": "Mesquita de tijolos de barro na cidade de Djenné, no Mali, a maior construção de adobe do mundo.",
+        "variantes": [
+          "Grande Mesquita de Jenê",
+          "Great Mosque of Djenné"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Panorama das ruínas, turistas minúsculos, sem texto.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "pergunta": "Que famoso conjunto de ruínas no centro de Roma é este?",
+      "resposta": "Fórum Romano",
+      "distratores": [
+        "Fórum de Trajano",
+        "Monte Palatino",
+        "Termas de Caracala"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fórum Romano",
+        "descricao": "Praça cercada por ruínas de edifícios públicos no centro da Roma antiga.",
+        "variantes": [
+          "Foro Romano",
+          "Forum Romanum"
+        ]
+      }
+    }
+  ]
+}

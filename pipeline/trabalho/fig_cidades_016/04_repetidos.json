@@ -1,0 +1,170 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que templo do Egito antigo é este?",
+        "resposta": "Abu Simbel"
+      },
+      "existentes": [
+        {
+          "id": "q00116",
+          "pergunta": "Nos anos sessenta, os templos de Abu Simbel foram cortados em blocos e remontados num terreno mais alto. Que obra os ameaçava?",
+          "resposta": "Alta Represa de Assuã"
+        },
+        {
+          "id": "q06390",
+          "pergunta": "O templo menor de Abu Simbel foi dedicado à deusa Hátor e também a uma rainha, a grande esposa de Ramsés Segundo. Qual?",
+          "resposta": "Nefertari"
+        },
+        {
+          "id": "q06920",
+          "pergunta": "Que templo egípcio escavado na rocha é este?",
+          "resposta": "Abu Simbel"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que montanha é esta?",
+        "resposta": "Monte Fuji"
+      },
+      "existentes": [
+        {
+          "id": "q02090",
+          "pergunta": "Em que século o Monte Fuji teve a erupção Hoei, que cobriu de cinzas a cidade de Edo, atual Tóquio?",
+          "resposta": "Século dezoito"
+        },
+        {
+          "id": "q02091",
+          "pergunta": "Que artista japonês criou a série Trinta e Seis Vistas do Monte Fuji, que inclui A Grande Onda de Kanagawa?",
+          "resposta": "Hokusai"
+        },
+        {
+          "id": "q14006",
+          "pergunta": "Que montanha vulcânica japonesa é esta?",
+          "resposta": "Monte Fuji"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Esta construção romana aparece no brasão de qual cidade espanhola?",
+        "resposta": "Segóvia"
+      },
+      "existentes": [
+        {
+          "id": "q13336",
+          "pergunta": "O aqueduto romano de Segóvia, na Espanha, tem milhares de blocos de granito. O que é notável na forma como esses blocos se mantêm de pé?",
+          "resposta": "Não há argamassa entre eles"
+        },
+        {
+          "id": "q14551",
+          "pergunta": "Em que cidade espanhola fica este aqueduto romano?",
+          "resposta": "Segóvia"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que estado brasileiro fica esta paisagem?",
+        "resposta": "Maranhão"
+      },
+      "existentes": [
+        {
+          "id": "q02075",
+          "pergunta": "Em parte do ano, surgem lagoas azuis entre as dunas dos Lençóis Maranhenses. De onde vem essa água?",
+          "resposta": "Da chuva"
+        },
+        {
+          "id": "q09209",
+          "pergunta": "Apesar das dunas de areia a perder de vista, os Lençóis Maranhenses não são considerados um deserto. Por quê?",
+          "resposta": "Chove muito na região"
+        },
+        {
+          "id": "q14218",
+          "pergunta": "Em que estado brasileiro fica esta paisagem de dunas e lagoas?",
+          "resposta": "Maranhão"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que país africano fica esta mesquita?",
+        "resposta": "Mali"
+      },
+      "existentes": [
+        {
+          "id": "q04949",
+          "pergunta": "A Grande Mesquita de Djenné, no Mali, é reformada todo ano numa festa popular. De que material ela é feita?",
+          "resposta": "Tijolos de barro"
+        },
+        {
+          "id": "q08109",
+          "pergunta": "Apesar do aspecto medieval, a atual Grande Mesquita de Djenné, no Mali, foi construída em que século?",
+          "resposta": "Século vinte"
+        },
+        {
+          "id": "q11585",
+          "pergunta": "Em que país africano fica esta mesquita de barro?",
+          "resposta": "Mali"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que famoso sítio arqueológico da Itália é este?",
+        "resposta": "Fórum Romano"
+      },
+      "existentes": [
+        {
+          "id": "q03480",
+          "pergunta": "Que conjunto de ruínas da Roma antiga é este?",
+          "resposta": "Fórum Romano"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q06920",
+      "motivo": "Ambas pedem identificar Abu Simbel a partir da imagem."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q14006",
+      "motivo": "Ambas pedem identificar o Monte Fuji pela imagem."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre o brasão de Segóvia; a existente pergunta onde fica o aqueduto. Fatos diferentes, embora a resposta seja a mesma."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q14218",
+      "motivo": "Ambas perguntam em que estado fica a paisagem, e a resposta é Maranhão."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "id_existente": "q11585",
+      "motivo": "Ambas perguntam em que país africano fica a mesquita, e a resposta é Mali."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q03480",
+      "motivo": "Ambas pedem identificar o Fórum Romano pela imagem."
+    }
+  ]
+}
