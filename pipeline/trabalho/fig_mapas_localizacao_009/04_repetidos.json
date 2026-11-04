@@ -1,0 +1,144 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Jamaica"
+      },
+      "existentes": [
+        {
+          "id": "q01300",
+          "pergunta": "Que país fica logo ao norte da ilha do país desta bandeira?",
+          "resposta": "Cuba"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual é a capital do país do norte da África destacado neste mapa?",
+        "resposta": "Túnis"
+      },
+      "existentes": [
+        {
+          "id": "q05752",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Túnis"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que país da América Central está destacado neste mapa?",
+        "resposta": "Guatemala"
+      },
+      "existentes": [
+        {
+          "id": "q05744",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Guatemala"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que país europeu está destacado em verde-escuro neste mapa?",
+        "resposta": "Ucrânia"
+      },
+      "existentes": [
+        {
+          "id": "q05749",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Ucrânia"
+        },
+        {
+          "id": "q07532",
+          "pergunta": "Depois da Rússia, qual é o maior país do continente europeu em área?",
+          "resposta": "Ucrânia"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Qual é a capital do estado destacado neste mapa?",
+        "resposta": "Manaus"
+      },
+      "existentes": [
+        {
+          "id": "q07985",
+          "pergunta": "Vizinho do Peru, da Colômbia e da Venezuela, qual estado brasileiro faz fronteira com o maior número de países?",
+          "resposta": "Amazonas"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que país europeu está destacado em verde-escuro neste mapa?",
+        "resposta": "Irlanda"
+      },
+      "existentes": [
+        {
+          "id": "q14578",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Irlanda"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Qual é a capital do país destacado em verde-escuro neste mapa?",
+        "resposta": "Liubliana"
+      },
+      "existentes": [
+        {
+          "id": "q05748",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Eslovênia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar a Jamaica no mapa é diferente de saber qual país fica ao norte da ilha (Cuba)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede a capital a partir de um mapa; a existente usa uma bandeira. A imagem identifica o país por outro meio, então o fato exigido não é o mesmo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o país pelo mapa é diferente de identificá-lo pela bandeira. São habilidades visuais distintas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar a Ucrânia no mapa é diferente de reconhecer a bandeira ou de saber que é o maior país europeu depois da Rússia."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A capital do Amazonas é um fato diferente de ele fazer fronteira com o maior número de países."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Identificar a Irlanda no mapa é diferente de reconhecer a bandeira."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "A capital da Eslovênia é um fato diferente de reconhecer a bandeira."
+    }
+  ]
+}

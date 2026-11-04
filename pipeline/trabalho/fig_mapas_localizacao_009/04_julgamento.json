@@ -1,0 +1,685 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Jamaica",
+        "descricao": "País insular do Caribe, ao sul de Cuba, cuja capital é Kingston.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "jamaica",
+          "nome": "Jamaica",
+          "descricao": "País insular do Caribe, terceira maior ilha das Grandes Antilhas, cuja capital é Kingston.",
+          "variantes": []
+        },
+        {
+          "id": "rede_de_dormir",
+          "nome": "Rede de dormir",
+          "descricao": "Leito de tecido ou fibras suspenso entre dois pontos, de origem indígena americana.",
+          "variantes": [
+            "Hammock",
+            "Hamaca"
+          ]
+        },
+        {
+          "id": "cambacica",
+          "nome": "Cambacica",
+          "descricao": "Pequena ave nectarívora de peito amarelo e sobrancelha branca, Coereba flaveola.",
+          "variantes": [
+            "Coereba flaveola",
+            "Bananaquit",
+            "Sebinho"
+          ]
+        },
+        {
+          "id": "maca",
+          "nome": "Maçã",
+          "descricao": "Fruto da macieira (Malus domestica), cultivado no mundo todo.",
+          "variantes": [
+            "Apple"
+          ]
+        },
+        {
+          "id": "jaca",
+          "nome": "Jaca",
+          "descricao": "Enorme fruto da Artocarpus heterophyllus, nativa da Índia, que cresce no tronco da árvore.",
+          "variantes": [
+            "Artocarpus heterophyllus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Costa do Marfim",
+        "descricao": "País da costa sul da África Ocidental, com capital em Yamoussoukro e maior cidade em Abidjan.",
+        "variantes": [
+          "Côte d'Ivoire"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_costa_do_marfim",
+          "nome": "Bandeira da Costa do Marfim",
+          "descricao": "Bandeira atual da Costa do Marfim: três faixas verticais laranja, branca e verde, com o laranja junto à haste.",
+          "variantes": [
+            "Costa do Marfim",
+            "Bandeira da Côte d'Ivoire"
+          ]
+        },
+        {
+          "id": "salinidade_da_agua_do_mar",
+          "nome": "Salinidade da água do mar",
+          "descricao": "Quantidade de sais dissolvidos na água dos mares e oceanos.",
+          "variantes": [
+            "Sal do mar",
+            "Salinidade oceânica"
+          ]
+        },
+        {
+          "id": "echoed_voice",
+          "nome": "Echoed Voice",
+          "descricao": "Golpe de pokémon do tipo Normal, da 5ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "coco_do_mar",
+          "nome": "Coco-do-mar",
+          "descricao": "Palmeira Lodoicea maldivica, endêmica das Seicheles",
+          "variantes": [
+            "Lodoicea maldivica",
+            "Lodoicea",
+            "coco-de-mer"
+          ]
+        },
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Croácia",
+        "descricao": "País da Europa Central e do Sudeste, no mar Adriático, com capital em Zagreb.",
+        "variantes": [
+          "República da Croácia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_croacia",
+          "nome": "Bandeira da Croácia",
+          "descricao": "Bandeira atual da Croácia: listras vermelha, branca e azul com brasão xadrez vermelho e branco.",
+          "variantes": [
+            "Croácia",
+            "Bandeira croata"
+          ]
+        },
+        {
+          "id": "selecao_croata_de_futebol",
+          "nome": "Seleção Croata de Futebol",
+          "descricao": "Seleção nacional masculina de futebol da Croácia, de camisa em xadrez vermelho e branco.",
+          "variantes": [
+            "Croácia",
+            "Vatreni",
+            "Seleção da Croácia"
+          ]
+        },
+        {
+          "id": "brasao_da_croacia",
+          "nome": "Brasão da Croácia",
+          "descricao": "Brasão de armas da República da Croácia, com escudo em xadrez vermelho e branco e coroa de cinco brasões menores.",
+          "variantes": [
+            "Croácia",
+            "Armas da Croácia",
+            "Grb Hrvatske"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "colombia",
+          "nome": "Colômbia",
+          "descricao": "País do noroeste da América do Sul, com costa no Caribe e no Pacífico, cuja capital é Bogotá.",
+          "variantes": [
+            "República da Colômbia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Tunísia",
+        "descricao": "País do Magrebe, no norte da África, com capital em Túnis.",
+        "variantes": [
+          "República da Tunísia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tunisia",
+          "nome": "Tunísia",
+          "descricao": "País do norte da África, no Magrebe, entre a Argélia e a Líbia.",
+          "variantes": [
+            "República Tunisiana"
+          ]
+        },
+        {
+          "id": "lituania",
+          "nome": "Lituânia",
+          "descricao": "País báltico da Europa, com capital em Vilnius, cuja bandeira é um tricolor horizontal amarelo, verde e vermelho.",
+          "variantes": [
+            "Lithuania",
+            "República da Lituânia"
+          ]
+        },
+        {
+          "id": "turquia",
+          "nome": "Turquia",
+          "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+          "variantes": [
+            "Türkiye",
+            "República da Turquia",
+            "Turkey"
+          ]
+        },
+        {
+          "id": "namibia",
+          "nome": "Namíbia",
+          "descricao": "País do sudoeste da África, banhado pelo Atlântico, cuja capital é Windhoek.",
+          "variantes": [
+            "República da Namíbia"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Gabão",
+        "descricao": "País da costa atlântica da África Central, atravessado pela linha do equador, com capital em Libreville.",
+        "variantes": [
+          "República Gabonesa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_gabao",
+          "nome": "Bandeira do Gabão",
+          "descricao": "Bandeira nacional do Gabão, com listras horizontais verde, amarela e azul.",
+          "variantes": [
+            "Gabão",
+            "Bandeira gabonesa"
+          ]
+        },
+        {
+          "id": "gabriel_garcia_marquez",
+          "nome": "Gabriel García Márquez",
+          "descricao": "Escritor e jornalista colombiano, Nobel de Literatura de 1982, expoente do realismo mágico.",
+          "variantes": [
+            "Gabo"
+          ]
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        },
+        {
+          "id": "libano",
+          "nome": "Líbano",
+          "descricao": "País do Levante, na Ásia Ocidental, banhado pelo Mediterrâneo, cuja capital é Beirute.",
+          "variantes": [
+            "República Libanesa"
+          ]
+        },
+        {
+          "id": "gamba",
+          "nome": "Gambá",
+          "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+          "variantes": [
+            "Didelphis",
+            "Saruê",
+            "Opossum",
+            "Timbu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Guatemala",
+        "descricao": "País do norte da América Central, ao sul do México, com capital na Cidade da Guatemala.",
+        "variantes": [
+          "República da Guatemala"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "guatemala",
+          "nome": "Guatemala",
+          "descricao": "País da América Central que faz fronteira com México, Belize, Honduras e El Salvador.",
+          "variantes": [
+            "República da Guatemala"
+          ]
+        },
+        {
+          "id": "malta",
+          "nome": "Malta",
+          "descricao": "País insular do Mar Mediterrâneo, ao sul da Sicília, cuja capital é Valeta.",
+          "variantes": [
+            "República de Malta"
+          ]
+        },
+        {
+          "id": "guine",
+          "nome": "Guiné",
+          "descricao": "País da África Ocidental cuja capital é Conacri, antiga Guiné Francesa.",
+          "variantes": [
+            "Guiné-Conacri",
+            "República da Guiné"
+          ]
+        },
+        {
+          "id": "zambia",
+          "nome": "Zâmbia",
+          "descricao": "País sem litoral da África Austral, com capital em Lusaka, cuja bandeira é verde com uma águia e faixas vermelha, preta e laranja.",
+          "variantes": [
+            "República da Zâmbia"
+          ]
+        },
+        {
+          "id": "malawi",
+          "nome": "Malawi",
+          "descricao": "País sem litoral do sudeste da África, junto a um grande lago, cuja capital é Lilongwe.",
+          "variantes": [
+            "Maláui",
+            "República do Malawi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ucrânia",
+        "descricao": "País da Europa Oriental, ao norte do mar Negro, com capital em Kiev.",
+        "variantes": [
+          "Ukraine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ucrania",
+          "nome": "Ucrânia",
+          "descricao": "País da Europa Oriental com capital em Kiev, o segundo maior da Europa em área.",
+          "variantes": [
+            "Ukraine"
+          ]
+        },
+        {
+          "id": "cranio",
+          "nome": "Crânio",
+          "descricao": "Estrutura óssea que envolve e protege o cérebro dos vertebrados.",
+          "variantes": [
+            "Caveira",
+            "Cabeça óssea"
+          ]
+        },
+        {
+          "id": "uranio",
+          "nome": "Urânio",
+          "descricao": "Elemento químico de número atômico 92, metal radioativo usado como combustível nuclear.",
+          "variantes": [
+            "U"
+          ]
+        },
+        {
+          "id": "puma_2",
+          "nome": "Puma",
+          "descricao": "Grande felino de pelagem uniforme, Puma concolor, presente nas Américas.",
+          "variantes": [
+            "Onça-parda",
+            "Suçuarana",
+            "Leão-da-montanha",
+            "Puma concolor"
+          ]
+        },
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)",
+            "Raia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Armênia",
+        "descricao": "País sem litoral do Cáucaso, na Ásia Ocidental, com capital em Yerevan.",
+        "variantes": [
+          "República da Armênia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_armenia",
+          "nome": "Bandeira da Armênia",
+          "descricao": "Bandeira nacional da Armênia, tricolor horizontal vermelha, azul e laranja.",
+          "variantes": [
+            "Armênia",
+            "Bandeira armênia"
+          ]
+        },
+        {
+          "id": "brasao_da_armenia",
+          "nome": "Brasão da Armênia",
+          "descricao": "Brasão de armas da Armênia, com águia e leão sustentando escudo com o monte Ararate.",
+          "variantes": [
+            "Armênia",
+            "Armas da Armênia"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "zambia",
+          "nome": "Zâmbia",
+          "descricao": "País sem litoral da África Austral, com capital em Lusaka, cuja bandeira é verde com uma águia e faixas vermelha, preta e laranja.",
+          "variantes": [
+            "República da Zâmbia"
+          ]
+        },
+        {
+          "id": "brasao_da_romenia",
+          "nome": "Brasão da Romênia",
+          "descricao": "Brasão de armas da Romênia, uma águia dourada coroada que segura espada e maça, com escudo de cinco brasões regionais.",
+          "variantes": [
+            "Romênia",
+            "Armas da Romênia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Amazonas",
+        "descricao": "Maior estado do Brasil em área, na Região Norte, com capital em Manaus.",
+        "variantes": [
+          "Estado do Amazonas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_amazonas",
+          "nome": "Rio Amazonas",
+          "descricao": "Rio da América do Sul que atravessa o norte do Brasil e deságua no oceano Atlântico.",
+          "variantes": [
+            "Amazonas",
+            "Amazon River"
+          ]
+        },
+        {
+          "id": "amazonas_estado",
+          "nome": "Amazonas (estado)",
+          "descricao": "Estado da Região Norte do Brasil, o maior em área, com capital em Manaus.",
+          "variantes": [
+            "Estado do Amazonas"
+          ]
+        },
+        {
+          "id": "amazonas_mitologia",
+          "nome": "Amazonas (mitologia)",
+          "descricao": "Povo lendário de mulheres guerreiras da mitologia grega.",
+          "variantes": [
+            "Amazons",
+            "Amazonas gregas"
+          ]
+        },
+        {
+          "id": "floresta_amazonica",
+          "nome": "Floresta Amazônica",
+          "descricao": "Floresta tropical úmida da bacia amazônica, na América do Sul",
+          "variantes": [
+            "Amazônia",
+            "Hileia Amazônica",
+            "Amazon rainforest"
+          ]
+        },
+        {
+          "id": "amazon",
+          "nome": "Amazon",
+          "descricao": "Empresa americana de comércio eletrônico fundada por Jeff Bezos em 1994.",
+          "variantes": [
+            "Amazon.com"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Irlanda",
+        "descricao": "País que ocupa a maior parte da ilha da Irlanda, com capital em Dublin.",
+        "variantes": [
+          "República da Irlanda",
+          "Eire"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "irlanda",
+          "nome": "Irlanda",
+          "descricao": "País da Europa Ocidental que ocupa a maior parte da ilha da Irlanda, com capital em Dublin, cuja bandeira é um tricolor vertical verde, branco e laranja.",
+          "variantes": [
+            "Ireland",
+            "República da Irlanda",
+            "Eire"
+          ]
+        },
+        {
+          "id": "finlandia_2",
+          "nome": "Finlândia",
+          "descricao": "País nórdico do norte da Europa que faz fronteira com Suécia, Noruega e Rússia.",
+          "variantes": [
+            "República da Finlândia",
+            "Finland"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "miranda",
+          "nome": "Miranda",
+          "descricao": "Menor e mais interna das cinco luas esféricas de Urano, de superfície com cânions e coroas, fotografada pela Voyager 2.",
+          "variantes": [
+            "Miranda (satélite)",
+            "Uranus V"
+          ]
+        },
+        {
+          "id": "lituania",
+          "nome": "Lituânia",
+          "descricao": "País báltico da Europa, com capital em Vilnius, cuja bandeira é um tricolor horizontal amarelo, verde e vermelho.",
+          "variantes": [
+            "Lithuania",
+            "República da Lituânia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Eslovênia",
+        "descricao": "País da Europa Central, entre a Itália, a Áustria, a Hungria e a Croácia, com capital em Liubliana.",
+        "variantes": [
+          "República da Eslovênia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eslovenia",
+          "nome": "Eslovênia",
+          "descricao": "País da Europa Central com capital em Liubliana e uma pequena costa no Adriático.",
+          "variantes": [
+            "Slovenia"
+          ]
+        },
+        {
+          "id": "polonia",
+          "nome": "Polônia",
+          "descricao": "País da Europa Central, com capital em Varsóvia, cuja bandeira é bicolor, branca em cima e vermelha embaixo.",
+          "variantes": [
+            "Poland",
+            "República da Polônia"
+          ]
+        },
+        {
+          "id": "servia",
+          "nome": "Sérvia",
+          "descricao": "País sem litoral dos Bálcãs, na Europa Central e Sudeste, com capital em Belgrado.",
+          "variantes": [
+            "Serbia",
+            "República da Sérvia"
+          ]
+        },
+        {
+          "id": "georgia_pais",
+          "nome": "Geórgia (país)",
+          "descricao": "País do Cáucaso, com capital em Tbilisi, cuja bandeira é uma grande cruz vermelha com quatro cruzes menores sobre fundo branco.",
+          "variantes": [
+            "Geórgia",
+            "Georgia",
+            "República da Geórgia",
+            "Sakartvelo"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "jamaica",
+      "motivo": "Mesmo país, Kingston."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Só existe a bandeira, entidade distinta do país."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Candidatas são bandeira, seleção e brasão, não o país."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "tunisia",
+      "motivo": "Mesmo país, Tunísia."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Só há a bandeira do Gabão, não o país."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "guatemala",
+      "motivo": "Mesmo país, Guatemala."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "ucrania",
+      "motivo": "Mesmo país, capital Kiev."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Candidatas são bandeira e brasão, não o país."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "amazonas_estado",
+      "motivo": "Mesmo estado brasileiro, capital Manaus."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "irlanda",
+      "motivo": "Mesmo país, Dublin."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "eslovenia",
+      "motivo": "Mesmo país, Liubliana."
+    }
+  ]
+}

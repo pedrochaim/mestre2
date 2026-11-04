@@ -1,0 +1,261 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mapa claro, com recorte ampliado da ilha.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Jamaica",
+      "distratores": [
+        "Cuba",
+        "Haiti",
+        "República Dominicana"
+      ],
+      "ancora": {
+        "nome": "Jamaica",
+        "descricao": "País insular do Caribe, ao sul de Cuba, cuja capital é Kingston.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Mapa legível, país único em verde na costa da África Ocidental.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país da África Ocidental está destacado neste mapa?",
+      "resposta": "Costa do Marfim",
+      "distratores": [
+        "Gana",
+        "Libéria",
+        "Burkina Faso"
+      ],
+      "ancora": {
+        "nome": "Costa do Marfim",
+        "descricao": "País da costa sul da África Ocidental, com capital em Yamoussoukro e maior cidade em Abidjan.",
+        "variantes": [
+          "Côte d'Ivoire"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução; o país destacado quase não se vê num celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Mapa europeu nítido, com a Croácia em verde-escuro.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país europeu está destacado em verde-escuro neste mapa?",
+      "resposta": "Croácia",
+      "distratores": [
+        "Eslovênia",
+        "Sérvia",
+        "Bósnia e Herzegovina"
+      ],
+      "ancora": {
+        "nome": "Croácia",
+        "descricao": "País da Europa Central e do Sudeste, no mar Adriático, com capital em Zagreb.",
+        "variantes": [
+          "República da Croácia"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Mapa claro da Tunísia; pergunta de segundo passo sobre Cartago.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que antiga cidade, rival de Roma nas Guerras Púnicas, ficava no país destacado neste mapa?",
+      "resposta": "Cartago",
+      "distratores": [
+        "Esparta",
+        "Siracusa",
+        "Alexandria"
+      ],
+      "ancora": {
+        "nome": "Tunísia",
+        "descricao": "País do Magrebe, no norte da África, com capital em Túnis.",
+        "variantes": [
+          "República da Tunísia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Mapa claro do Gabão em verde na África Central.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país africano está destacado neste mapa?",
+      "resposta": "Gabão",
+      "distratores": [
+        "Camarões",
+        "República do Congo",
+        "Guiné Equatorial"
+      ],
+      "ancora": {
+        "nome": "Gabão",
+        "descricao": "País da costa atlântica da África Central, atravessado pela linha do equador, com capital em Libreville.",
+        "variantes": [
+          "República Gabonesa"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Mapa nítido, Guatemala em verde na América Central; legível apesar do tamanho.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país da América Central está destacado neste mapa?",
+      "resposta": "Guatemala",
+      "distratores": [
+        "Honduras",
+        "El Salvador",
+        "Belize"
+      ],
+      "ancora": {
+        "nome": "Guatemala",
+        "descricao": "País do norte da América Central, ao sul do México, com capital na Cidade da Guatemala.",
+        "variantes": [
+          "República da Guatemala"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Mapa europeu nítido, país grande e reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país europeu está destacado em verde-escuro neste mapa?",
+      "resposta": "Ucrânia",
+      "distratores": [
+        "Bielorrússia",
+        "Polônia",
+        "Romênia"
+      ],
+      "ancora": {
+        "nome": "Ucrânia",
+        "descricao": "País da Europa Oriental, ao norte do mar Negro, com capital em Kiev.",
+        "variantes": [
+          "Ukraine"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Mapa com recorte ampliado do país, bem legível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país do Cáucaso está destacado neste mapa?",
+      "resposta": "Armênia",
+      "distratores": [
+        "Geórgia",
+        "Azerbaijão",
+        "Irã"
+      ],
+      "ancora": {
+        "nome": "Armênia",
+        "descricao": "País sem litoral do Cáucaso, na Ásia Ocidental, com capital em Yerevan.",
+        "variantes": [
+          "República da Armênia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Mapa do Brasil com o Amazonas em vermelho, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do estado destacado neste mapa?",
+      "resposta": "Manaus",
+      "distratores": [
+        "Belém",
+        "Porto Velho",
+        "Boa Vista"
+      ],
+      "ancora": {
+        "nome": "Amazonas",
+        "descricao": "Maior estado do Brasil em área, na Região Norte, com capital em Manaus.",
+        "variantes": [
+          "Estado do Amazonas"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Mapa europeu nítido; a República da Irlanda em verde-escuro, com a Irlanda do Norte em cinza.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país europeu está destacado em verde-escuro neste mapa?",
+      "resposta": "Irlanda",
+      "distratores": [
+        "Reino Unido",
+        "Islândia",
+        "Dinamarca"
+      ],
+      "ancora": {
+        "nome": "Irlanda",
+        "descricao": "País que ocupa a maior parte da ilha da Irlanda, com capital em Dublin.",
+        "variantes": [
+          "República da Irlanda",
+          "Eire"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Mapa europeu nítido, Eslovênia pequena mas identificável pela posição.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país destacado em verde-escuro neste mapa?",
+      "resposta": "Liubliana",
+      "distratores": [
+        "Zagreb",
+        "Bratislava",
+        "Budapeste"
+      ],
+      "ancora": {
+        "nome": "Eslovênia",
+        "descricao": "País da Europa Central, entre a Itália, a Áustria, a Hungria e a Croácia, com capital em Liubliana.",
+        "variantes": [
+          "República da Eslovênia"
+        ]
+      }
+    }
+  ]
+}

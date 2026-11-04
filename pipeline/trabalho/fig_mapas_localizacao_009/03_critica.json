@@ -1,0 +1,89 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro, resposta única; distratores caribenhos críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista de região ajuda sem entregar; distratores são países vizinhos, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem vazamento; distratores são vizinhos balcânicos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Vazamento: a descrição de Cartago como rival de Roma nas Guerras Púnicas permite responder sem ver o mapa. Reescrito para pedir a capital do país destacado, fato amplamente documentado.",
+      "reescrita": {
+        "pergunta": "Qual é a capital do país do norte da África destacado neste mapa?",
+        "resposta": "Túnis",
+        "distratores": [
+          "Argel",
+          "Trípoli",
+          "Rabat"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro; distratores são vizinhos reais, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista de região não entrega; distratores vizinhos corretos como erros.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 simples, resposta única, distratores vizinhos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Armênia está no Cáucaso; Geórgia e Azerbaijão são vizinhos e o Irã é distrator plausível, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Exige reconhecer o estado e dar o passo da capital; Manaus está nos trechos; distratores são capitais da Região Norte.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem vazamento; distratores do mesmo tipo e nenhum correto para o país destacado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Capital Liubliana confirmada nos trechos; distratores são capitais vizinhas, nenhuma correta.",
+      "reescrita": null
+    }
+  ]
+}
