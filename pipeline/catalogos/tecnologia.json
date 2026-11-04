@@ -1027,7 +1027,7 @@
       "titulo": "en:View-Master",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "PDP-11",
@@ -1342,7 +1342,7 @@
       "titulo": "en:IBM 1401",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Lanterna mágica",
@@ -1363,7 +1363,7 @@
       "titulo": "en:Kinetoscope",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Wafer de silício",
@@ -1559,7 +1559,7 @@
       "titulo": "en:Google Glass",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "iBook",
@@ -1580,7 +1580,7 @@
       "titulo": "en:Lava lamp",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Câmara escura",
@@ -1643,7 +1643,7 @@
       "titulo": "en:Magnavox Odyssey 2",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Motor Stirling",
@@ -1679,6 +1679,286 @@
       "camada": 3,
       "destino": 1,
       "status": "reprovada"
+    },
+    {
+      "nome": "Smartphone",
+      "titulo": "en:Smartphone",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tablet",
+      "titulo": "en:Tablet computer",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gabinete de computador",
+      "titulo": "en:Computer case",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nobreak",
+      "titulo": "en:Uninterruptible power supply",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jukebox",
+      "titulo": "en:Jukebox",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Caleidoscópio",
+      "titulo": "en:Kaleidoscope",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Microscópio óptico",
+      "titulo": "en:Optical microscope",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Turbina eólica",
+      "titulo": "en:Wind turbine",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Eletroímã",
+      "titulo": "en:Electromagnet",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bateria de chumbo-ácido",
+      "titulo": "en:Lead–acid battery",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lâmpada fluorescente tubular",
+      "titulo": "en:Fluorescent lamp",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "PlayStation 5",
+      "titulo": "en:PlayStation 5",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Câmera de segurança",
+      "titulo": "en:Closed-circuit television",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "HP-12C",
+      "titulo": "en:HP-12C",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Casio F-91W",
+      "titulo": "en:Casio F-91W",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Raspberry Pi",
+      "titulo": "en:Raspberry Pi",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arduino",
+      "titulo": "en:Arduino",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "iMac G4",
+      "titulo": "en:iMac G4",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Kinect",
+      "titulo": "en:Kinect",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Wii U",
+      "titulo": "en:Wii U",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sintetizador Moog",
+      "titulo": "en:Moog synthesizer",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Periscópio",
+      "titulo": "en:Periscope",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lente de Fresnel",
+      "titulo": "en:Fresnel lens",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Máquina a vapor de Watt",
+      "titulo": "en:Watt steam engine",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Dissipador de calor",
+      "titulo": "en:Heat sink",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Conector RJ45",
+      "titulo": "en:Modular connector",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Steam Deck",
+      "titulo": "en:Steam Deck",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "EPROM",
+      "titulo": "en:EPROM",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Memória de corda de núcleo",
+      "titulo": "en:Core rope memory",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dekatron",
+      "titulo": "en:Dekatron",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Válvula olho mágico",
+      "titulo": "en:Magic eye tube",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Roland TR-808",
+      "titulo": "en:Roland TR-808",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "IBM Selectric",
+      "titulo": "en:IBM Selectric",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Comptômetro",
+      "titulo": "en:Comptometer",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Máquina de previsão de marés",
+      "titulo": "en:Tide-predicting machine",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Retificador de arco de mercúrio",
+      "titulo": "en:Mercury-arc valve",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Coesor",
+      "titulo": "en:Coherer",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Roda de Barlow",
+      "titulo": "en:Barlow's wheel",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Eletróforo",
+      "titulo": "en:Electrophorus",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Praxinoscópio",
+      "titulo": "en:Praxinoscope",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
     }
   ]
 }

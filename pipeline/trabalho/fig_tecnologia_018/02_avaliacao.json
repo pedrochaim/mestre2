@@ -1,0 +1,155 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Console reconhecível pelo formato e sem texto visível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este console, lançado em 2020, foi o sucessor de qual outro console da mesma marca?",
+      "resposta": "PlayStation 4",
+      "distratores": [
+        "PlayStation 3",
+        "PlayStation Vita",
+        "Xbox One"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "PlayStation 5",
+        "descricao": "Console de videogame da Sony Interactive Entertainment lançado em novembro de 2020.",
+        "variantes": [
+          "PS5"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Lâmpada de lava clássica, sem texto, bem reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Nesta lâmpada decorativa, o calor faz o que com a cera, para que ela suba pelo líquido?",
+      "resposta": "Diminui a sua densidade",
+      "distratores": [
+        "Aumenta a sua densidade",
+        "Endurece a cera",
+        "Dissolve a cera"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Lâmpada de lava",
+        "descricao": "Lâmpada decorativa inventada em 1963 por Edward Craven Walker, com cera que sobe e desce num líquido.",
+        "variantes": [
+          "Lava lamp"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Dispositivo muito obscuro, pouco reconhecível e confundível com outras válvulas de vidro; ano de invenção seria arbitrário para quem vê a imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Não fica claro se os tubos são fluorescentes ou de LED; resposta não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Aparelho vermelho típico, sem texto legível, reconhecível.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década foi lançado este aparelho de visão estereoscópica?",
+      "resposta": "Década de 1930",
+      "distratores": [
+        "Década de 1920",
+        "Década de 1950",
+        "Década de 1970"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "View-Master",
+        "descricao": "Visor estereoscópico de discos com fotos 3D, lançado em 1939.",
+        "variantes": [
+          "Viewmaster"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Gravura do Cinetoscópio, sem texto que entregue a resposta (apenas assinatura do gravador).",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este aparelho, visto por um buraco no alto, foi desenvolvido no laboratório de qual inventor?",
+      "resposta": "Thomas Edison",
+      "distratores": [
+        "Alexander Graham Bell",
+        "Nikola Tesla",
+        "Samuel Morse"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cinetoscópio",
+        "descricao": "Aparelho de exibição individual de filmes por visor, desenvolvido no laboratório de Edison por volta de 1891.",
+        "variantes": [
+          "Kinetoscope"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A imagem mostra só o padrão visto por dentro, não o instrumento; pouco reconhecível."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O mostrador traz escrito CASIO F-91W, o que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto antiga com três módulos de aparência genérica; o IBM 1401 não é reconhecível pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Aparecem as marcas Wurlitzer e Zodiac, e Wurlitzer é praticamente sinônimo de jukebox, o que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Óculos inteligente reconhecível, sem texto; só um pedaço de mão sem rosto ao fundo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que aparelho de vestir é este?",
+      "resposta": "Google Glass",
+      "distratores": [
+        "Oculus Rift",
+        "Microsoft HoloLens",
+        "Apple Vision Pro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Google Glass",
+        "descricao": "Óculos inteligente da Google com visor de realidade aumentada, apresentado em 2012-2013.",
+        "variantes": [
+          "Glass",
+          "Project Glass"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O console traz escritos Odyssey 2 e Magnavox, o que entrega a resposta."
+    }
+  ]
+}

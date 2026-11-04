@@ -1,0 +1,254 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "PlayStation 5",
+        "descricao": "Console de videogame da Sony Interactive Entertainment lançado em novembro de 2020.",
+        "variantes": [
+          "PS5"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "playstation_5",
+          "nome": "PlayStation 5",
+          "descricao": "Console de videogame de nona geração da Sony, lançado em 2020.",
+          "variantes": [
+            "PS5"
+          ]
+        },
+        {
+          "id": "playstation",
+          "nome": "PlayStation",
+          "descricao": "Primeiro console de videogame da Sony, lançado em 1994.",
+          "variantes": [
+            "PS1",
+            "PSX",
+            "PSone"
+          ]
+        },
+        {
+          "id": "pasteurizacao",
+          "nome": "Pasteurização",
+          "descricao": "Processo de aquecimento de alimentos, como o leite, para eliminar micro-organismos.",
+          "variantes": [
+            "Pasteurization",
+            "Pasteurizar",
+            "Pasteurização do leite"
+          ]
+        },
+        {
+          "id": "celula_tronco_pluripotente_induzida",
+          "nome": "Célula-tronco pluripotente induzida",
+          "descricao": "Célula adulta reprogramada em laboratório para voltar ao estado de célula-tronco, técnica criada em 2006.",
+          "variantes": [
+            "iPS",
+            "Induced pluripotent stem cell"
+          ]
+        },
+        {
+          "id": "isopor",
+          "nome": "Isopor",
+          "descricao": "Poliestireno expandido, espuma plástica leve usada em embalagens e isolamento térmico.",
+          "variantes": [
+            "Poliestireno expandido",
+            "EPS"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "View-Master",
+        "descricao": "Visor estereoscópico de discos com fotos 3D, lançado em 1939.",
+        "variantes": [
+          "Viewmaster"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "phil_jackson",
+          "nome": "Phil Jackson",
+          "descricao": "Técnico americano campeão da NBA com o Chicago Bulls e com o Los Angeles Lakers.",
+          "variantes": [
+            "Mestre Zen",
+            "Zen Master"
+          ]
+        },
+        {
+          "id": "masters_de_golfe",
+          "nome": "Masters de golfe",
+          "descricao": "Torneio principal de golfe disputado todo ano no Augusta National Golf Club, nos Estados Unidos.",
+          "variantes": [
+            "The Masters",
+            "Masters Tournament",
+            "Masters de Augusta"
+          ]
+        },
+        {
+          "id": "ken_masters",
+          "nome": "Ken Masters",
+          "descricao": "Lutador americano loiro de Street Fighter, rival e amigo de Ryu.",
+          "variantes": [
+            "Ken"
+          ]
+        },
+        {
+          "id": "vince_carter",
+          "nome": "Vince Carter",
+          "descricao": "Ex-jogador americano de basquete da NBA, conhecido pelas enterradas e por 22 temporadas na liga.",
+          "variantes": [
+            "Vincent Lamar Carter Jr.",
+            "Vinsanity",
+            "Air Canada"
+          ]
+        },
+        {
+          "id": "nova_amsterda",
+          "nome": "Nova Amsterdã",
+          "descricao": "Povoado colonial holandês na ilha de Manhattan, capital da Nova Holanda, tomado pelos ingleses em 1664.",
+          "variantes": [
+            "Nova Amsterdam",
+            "New Amsterdam",
+            "Nieuw Amsterdam"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cinetoscópio",
+        "descricao": "Aparelho de exibição individual de filmes por visor, desenvolvido no laboratório de Edison por volta de 1891.",
+        "variantes": [
+          "Kinetoscope"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cinetoscopio",
+          "nome": "Cinetoscópio",
+          "descricao": "Aparelho de exibição de filmes para um espectador por vez, desenvolvido no laboratório de Thomas Edison por volta de 1890.",
+          "variantes": [
+            "Kinetoscope"
+          ]
+        },
+        {
+          "id": "estetoscopio",
+          "nome": "Estetoscópio",
+          "descricao": "Instrumento médico para ouvir sons do coração e dos pulmões, inventado pelo francês René Laennec em 1816.",
+          "variantes": [
+            "Estetoscópio de Laennec"
+          ]
+        },
+        {
+          "id": "eletroscopio_de_folhas",
+          "nome": "Eletroscópio de folhas",
+          "descricao": "Instrumento que detecta carga elétrica pelo afastamento de duas folhas metálicas dentro de uma campânula de vidro.",
+          "variantes": [
+            "Eletroscópio",
+            "Eletroscópio de folha de ouro"
+          ]
+        },
+        {
+          "id": "fenacistoscopio",
+          "nome": "Fenacistoscópio",
+          "descricao": "Disco giratório com fendas e imagens em sequência que cria a ilusão de movimento, inventado por Joseph Plateau e Simon Stampfer.",
+          "variantes": [
+            "Phenakistoscope",
+            "Fenaquistoscópio",
+            "Fenacistiscópio"
+          ]
+        },
+        {
+          "id": "giroscopio",
+          "nome": "Giroscópio",
+          "descricao": "Dispositivo com disco giratório que mantém a orientação do eixo, usado para medir ou manter orientação.",
+          "variantes": [
+            "Gyroscope"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Google Glass",
+        "descricao": "Óculos inteligente da Google com visor de realidade aumentada, apresentado em 2012-2013.",
+        "variantes": [
+          "Glass",
+          "Project Glass"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vidro",
+          "nome": "Vidro",
+          "descricao": "Material sólido amorfo e transparente, feito principalmente de sílica, usado em janelas e garrafas.",
+          "variantes": [
+            "Glass"
+          ]
+        },
+        {
+          "id": "oculos",
+          "nome": "Óculos",
+          "descricao": "Armação com lentes usada diante dos olhos para corrigir a visão.",
+          "variantes": [
+            "Glasses",
+            "Eyeglasses"
+          ]
+        },
+        {
+          "id": "carl_friedrich_gauss",
+          "nome": "Carl Friedrich Gauss",
+          "descricao": "Matemático, astrônomo e físico alemão, o príncipe dos matemáticos.",
+          "variantes": [
+            "Johann Carl Friedrich Gauss",
+            "Gauß",
+            "Gauss"
+          ]
+        },
+        {
+          "id": "glasnost",
+          "nome": "Glasnost",
+          "descricao": "Política de abertura e transparência no governo e na imprensa lançada por Mikhail Gorbachev na União Soviética a partir de 1986.",
+          "variantes": []
+        },
+        {
+          "id": "gas",
+          "nome": "Gás",
+          "descricao": "Estado da matéria em que as partículas se movem livremente e ocupam todo o recipiente, cujo nome foi criado no século dezessete.",
+          "variantes": [
+            "Estado gasoso"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "playstation_5",
+      "motivo": "Mesmo console da Sony lançado em 2020."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o View-Master."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "cinetoscopio",
+      "motivo": "Mesmo aparelho de Edison, mesmo nome e variante."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Google Glass é um produto específico; as candidatas são vidro, óculos genéricos e outros conceitos."
+    }
+  ]
+}

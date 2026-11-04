@@ -363677,5 +363677,79 @@
       "autor": "Gpkp",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q18509",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "view_master",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que década foi lançado este aparelho de visão estereoscópica?",
+    "resposta": "Década de 1930",
+    "distratores": [
+      "Década de 1920",
+      "Década de 1950",
+      "Década de 1970"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/View-Master"
+    ],
+    "imagem": {
+      "arquivo": "q18509.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:View_Master_-_Model_G_Red.jpg",
+      "autor": "L'Ospite Inatteso",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q18510",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "cinetoscopio",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este aparelho, visto por um buraco no alto, foi desenvolvido no laboratório de qual inventor?",
+    "resposta": "Thomas Edison",
+    "distratores": [
+      "Alexander Graham Bell",
+      "Nikola Tesla",
+      "Samuel Morse"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kinetoscope",
+      "https://pt.wikipedia.org/wiki/Cinetosc%C3%B3pio"
+    ],
+    "imagem": {
+      "arquivo": "q18510.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kinetoscope.jpg",
+      "autor": "Albert Tissandier",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q18511",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "google_glass",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que aparelho de vestir é este?",
+    "resposta": "Google Glass",
+    "distratores": [
+      "Oculus Rift",
+      "Microsoft HoloLens",
+      "Apple Vision Pro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Google_Glass",
+      "https://pt.wikipedia.org/wiki/Project_Glass"
+    ],
+    "imagem": {
+      "arquivo": "q18511.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Google_Glass_Explorer_Edition.jpeg",
+      "autor": "Ted Eytan",
+      "licenca": "CC BY-SA 2.0"
+    }
   }
 ]

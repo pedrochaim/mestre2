@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este console, lançado em 2020, foi o sucessor de qual outro console da mesma marca?",
+        "resposta": "PlayStation 4"
+      },
+      "existentes": [
+        {
+          "id": "q17427",
+          "pergunta": "Este console é o sucessor de qual outro?",
+          "resposta": "PlayStation 4"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Este aparelho, visto por um buraco no alto, foi desenvolvido no laboratório de qual inventor?",
+        "resposta": "Thomas Edison"
+      },
+      "existentes": [
+        {
+          "id": "q03581",
+          "pergunta": "Que aparelho do fim do século dezenove é este?",
+          "resposta": "Cinetoscópio"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam de qual console este é sucessor, com a mesma resposta (PlayStation 4).",
+      "id_existente": "q17427"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta sobre o inventor/laboratório (Thomas Edison) é um fato diferente da identificação do aparelho (Cinetoscópio)."
+    }
+  ]
+}
