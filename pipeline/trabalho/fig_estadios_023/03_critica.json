@@ -1,0 +1,40 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza, resposta única, distratores plausíveis e do mesmo tipo (instalações de Pequim 2022), nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Palazzo dello Sport' também é um ginásio coberto usado nas Olimpíadas de 1960 em Roma (o trecho confirma), então também satisfaz o enunciado. Troquei por outro ginásio sem essa ambiguidade.",
+      "reescrita": {
+        "pergunta": "Que ginásio coberto, usado nas Olimpíadas de 1960, é este?",
+        "resposta": "Palazzetto dello Sport",
+        "distratores": [
+          "Ginásio Nacional de Yoyogi",
+          "Palau Sant Jordi",
+          "Hallenstadion"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que o Stadio dei Marmi fica no Foro Italico. O enunciado não nomeia a resposta e os distratores são locais de Roma que não abrigam esse estádio.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento, resposta única e verificada nos trechos. Distratores são estádios universitários ou de futebol americano universitário, mesmo tipo da resposta, e nenhum descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}

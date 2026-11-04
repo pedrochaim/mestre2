@@ -1,0 +1,138 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Rampa de big air ao lado de torres de resfriamento, inconfundível; o texto Beijing 2022 nas tendas não entrega o nome da instalação.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que instalação olímpica de inverno é esta?",
+      "resposta": "Big Air Shougang",
+      "distratores": [
+        "Centro de Salto Zhangjiakou",
+        "Ninho de Pássaro",
+        "Pista de Bobsled Yanqing"
+      ],
+      "ancora": {
+        "nome": "Big Air Shougang",
+        "descricao": "Rampa permanente de big air construída numa antiga siderúrgica em Pequim para os Jogos Olímpicos de Inverno de 2022.",
+        "variantes": [
+          "Shougang Big Air",
+          "Centro de Salto Shougang"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Panorama interno noturno de um estádio moderno, sem traço que o distinga de outros; não é reconhecível com resposta única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cúpula com contrafortes em Y inconfundível, sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que ginásio coberto, usado nas Olimpíadas de 1960, é este?",
+      "resposta": "Palazzetto dello Sport",
+      "distratores": [
+        "Palazzo dello Sport",
+        "Ginásio Nacional de Yoyogi",
+        "Palau Sant Jordi"
+      ],
+      "ancora": {
+        "nome": "Palazzetto dello Sport",
+        "descricao": "Ginásio coberto em forma de cúpula em Roma, construído para os Jogos Olímpicos de 1960.",
+        "variantes": [
+          "PalaFlaminio",
+          "PalaTiziano"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista aérea com estátuas de mármore em volta da pista, característica; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que complexo esportivo de Roma abriga este estádio?",
+      "resposta": "Foro Italico",
+      "distratores": [
+        "Complexo do EUR",
+        "Villa Borghese",
+        "Parque Ostiense"
+      ],
+      "ancora": {
+        "nome": "Stadio dei Marmi",
+        "descricao": "Estádio de atletismo em Roma cercado por sessenta estátuas de atletas em mármore, parte do Foro Italico.",
+        "variantes": [
+          "Estádio dos Mármores"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto histórica em preto e branco sem traço claro; o Polo Grounds teve quatro estádios e a imagem não permite resposta única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Faixas em grego com o lema do Olympiacos e o escudo do clube na arquibancada entregam a ligação; interior pouco distintivo."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista aérea do estádio universitário com o campus, forma e entorno reconhecíveis; sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que estádio de futebol americano universitário é este?",
+      "resposta": "Notre Dame Stadium",
+      "distratores": [
+        "Michigan Stadium",
+        "Ohio Stadium",
+        "Rose Bowl"
+      ],
+      "ancora": {
+        "nome": "Notre Dame Stadium",
+        "descricao": "Estádio de futebol americano da Universidade de Notre Dame, em South Bend, Indiana.",
+        "variantes": [
+          "Estádio de Notre Dame"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Interior genérico de estádio com publicidade da FIFA; não é reconhecível com resposta única."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O letreiro LUNA PARK está visível na fachada e entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O letreiro Levi's Stadium está visível e entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Estádio pequeno, sem traço distintivo, com faixas e torcida em primeiro plano; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Mostra só uma arquibancada com a placa Princess Royal Stand, que serve de pista textual; sem ela o hipódromo não é reconhecível."
+    }
+  ]
+}

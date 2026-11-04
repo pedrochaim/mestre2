@@ -1,0 +1,251 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Big Air Shougang",
+        "descricao": "Rampa permanente de big air construída numa antiga siderúrgica em Pequim para os Jogos Olímpicos de Inverno de 2022.",
+        "variantes": [
+          "Shougang Big Air",
+          "Centro de Salto Shougang"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mar_amarelo",
+          "nome": "Mar Amarelo",
+          "descricao": "Mar do oceano Pacífico entre o leste da China e a península da Coreia.",
+          "variantes": [
+            "Huang Hai"
+          ]
+        },
+        {
+          "id": "castelo_de_santo_angelo",
+          "nome": "Castelo de Santo Ângelo",
+          "descricao": "Fortaleza cilíndrica em Roma, antigo Mausoléu de Adriano, depois usada pelos papas.",
+          "variantes": [
+            "Mausoléu de Adriano",
+            "Castel Sant'Angelo",
+            "Castelo do Santo Anjo"
+          ]
+        },
+        {
+          "id": "metro_de_sao_paulo",
+          "nome": "Metrô de São Paulo",
+          "descricao": "Sistema de metrô da cidade de São Paulo, o primeiro do Brasil.",
+          "variantes": [
+            "Companhia do Metropolitano de São Paulo"
+          ]
+        },
+        {
+          "id": "batalha_de_alesia",
+          "nome": "Batalha de Alésia",
+          "descricao": "Cerco de 52 antes de Cristo em que Júlio César derrotou os gauleses de Vercingetórix.",
+          "variantes": [
+            "Cerco de Alésia",
+            "Battle of Alesia"
+          ]
+        },
+        {
+          "id": "ilha_do_havai",
+          "nome": "Ilha do Havaí",
+          "descricao": "A maior ilha do arquipélago havaiano, conhecida como Big Island, onde ficam Mauna Kea, Mauna Loa e Kilauea.",
+          "variantes": [
+            "Big Island",
+            "Hawaii Island"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Palazzetto dello Sport",
+        "descricao": "Ginásio coberto em forma de cúpula em Roma, construído para os Jogos Olímpicos de 1960.",
+        "variantes": [
+          "PalaFlaminio",
+          "PalaTiziano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_palatino",
+          "nome": "Monte Palatino",
+          "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+          "variantes": [
+            "Palatino",
+            "Palatine Hill",
+            "Palatium"
+          ]
+        },
+        {
+          "id": "palafin",
+          "nome": "Palafin",
+          "descricao": "Pokémon do tipo Água, número 964 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        },
+        {
+          "id": "aluminio",
+          "nome": "Alumínio",
+          "descricao": "Elemento químico de número atômico 13, metal leve e prateado, o mais abundante da crosta terrestre.",
+          "variantes": [
+            "Al"
+          ]
+        },
+        {
+          "id": "flamingo",
+          "nome": "Flamingo",
+          "descricao": "Ave pernalta rosada da família Phoenicopteridae, que se alimenta filtrando a água com o bico curvo.",
+          "variantes": [
+            "Phoenicopteridae",
+            "Flamingos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Stadio dei Marmi",
+        "descricao": "Estádio de atletismo em Roma cercado por sessenta estátuas de atletas em mármore, parte do Foro Italico.",
+        "variantes": [
+          "Estádio dos Mármores"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "foro_italico",
+          "nome": "Foro Italico",
+          "descricao": "Complexo esportivo de Roma, no Monte Mario, construído nos anos 1930 como Foro Mussolini.",
+          "variantes": [
+            "Foro Mussolini",
+            "Stadio dei Marmi"
+          ]
+        },
+        {
+          "id": "amazonas_estado",
+          "nome": "Amazonas (estado)",
+          "descricao": "Estado da Região Norte do Brasil, o maior em área, com capital em Manaus.",
+          "variantes": [
+            "Estado do Amazonas"
+          ]
+        },
+        {
+          "id": "estadio_beira_rio",
+          "nome": "Estádio Beira-Rio",
+          "descricao": "Estádio de futebol às margens do rio Guaíba, em Porto Alegre, casa do Sport Club Internacional.",
+          "variantes": [
+            "Beira-Rio",
+            "Estádio José Pinheiro Borda",
+            "Gigante da Beira-Rio"
+          ]
+        },
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Notre Dame Stadium",
+        "descricao": "Estádio de futebol americano da Universidade de Notre Dame, em South Bend, Indiana.",
+        "variantes": [
+          "Estádio de Notre Dame"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_narendra_modi",
+          "nome": "Estádio Narendra Modi",
+          "descricao": "Estádio de críquete em Motera, Ahmedabad, Índia, o maior do mundo em capacidade.",
+          "variantes": [
+            "Narendra Modi Stadium",
+            "Motera Stadium"
+          ]
+        },
+        {
+          "id": "tottenham_hotspur_stadium",
+          "nome": "Tottenham Hotspur Stadium",
+          "descricao": "Estádio de futebol em Londres, casa do Tottenham Hotspur, que substituiu White Hart Lane.",
+          "variantes": [
+            "Estádio do Tottenham",
+            "New White Hart Lane"
+          ]
+        },
+        {
+          "id": "estadio_de_wembley",
+          "nome": "Estádio de Wembley",
+          "descricao": "Estádio nacional da Inglaterra, em Londres, com um grande arco.",
+          "variantes": []
+        },
+        {
+          "id": "estadio_de_saitama",
+          "nome": "Estádio de Saitama",
+          "descricao": "Estádio de futebol em Midori-ku, Saitama, no Japão, casa do Urawa Red Diamonds e sede de semifinais da Copa de 2002.",
+          "variantes": [
+            "Saitama Stadium 2002",
+            "Saisuta"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_londres",
+          "nome": "Estádio Olímpico de Londres",
+          "descricao": "Estádio do Parque Olímpico Rainha Elizabeth, em Stratford, Londres, construído para os Jogos de 2012 e hoje casa do West Ham United.",
+          "variantes": [
+            "Estádio de Londres",
+            "London Stadium",
+            "Olympic Stadium de Londres"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Rampa de big air em Pequim; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Ginásio de Roma 1960; candidatas são entidades não relacionadas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Stadio dei Marmi é um estádio, parte do Foro Italico (complexo); entidade distinta mesmo constando como variante."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Estádio de Notre Dame em Indiana; nenhuma candidata corresponde."
+    }
+  ]
+}
