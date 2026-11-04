@@ -1,0 +1,196 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A cinta do presunto traz texto visível (Jamón...) que entrega a resposta; a peça inteira num jamonero também é pouco legível."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Prato reconhecível; pergunta sobre o queijo do molho (composição), apoiada no trecho.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que queijo é o mais comum no molho deste prato?",
+      "resposta": "Cheddar",
+      "distratores": [
+        "Parmesão",
+        "Gorgonzola",
+        "Mussarela"
+      ],
+      "ancora": {
+        "nome": "Macarrão com queijo",
+        "descricao": "Prato de macarrão cotovelo coberto com molho de queijo, típico dos Estados Unidos e do Reino Unido.",
+        "variantes": [
+          "Mac and cheese",
+          "Macaroni and cheese"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Doce em losangos com amêndoas, parecido com barfi, kalakand e outros doces indianos; não permite identificar halva com resposta única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Marshmallows em close, reconhecíveis; distratores de doces claros e macios.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que doce é este?",
+      "resposta": "Marshmallow",
+      "distratores": [
+        "Merengue",
+        "Pastilha de goma",
+        "Algodão-doce"
+      ],
+      "ancora": {
+        "nome": "Marshmallow",
+        "descricao": "Confeito macio feito de açúcar, água e gelatina batidos.",
+        "variantes": [
+          "Marshmallows"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Linguiça no pão com mostarda pode ser confundida com sanduíche de salsicha ou cachorro-quente; resposta não é única diante da imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Massa folhada em camadas, com a forma típica de concha; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que doce italiano é este?",
+      "resposta": "Sfogliatella",
+      "distratores": [
+        "Cornetto",
+        "Cannoli",
+        "Pasticciotto"
+      ],
+      "ancora": {
+        "nome": "Sfogliatella",
+        "descricao": "Doce napolitano de massa folhada em forma de concha, com recheio doce ou cremoso.",
+        "variantes": [
+          "Sfogliatelle",
+          "Sfogliatella riccia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Xícara com líquido marrom claro; pode ser café com leite, chá com leite ou outra bebida, sem resposta única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Asinhas laqueadas de molho laranja, reconhecíveis; pergunta sobre a cidade de origem, amplamente documentada.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade dos Estados Unidos surgiu este prato?",
+      "resposta": "Buffalo",
+      "distratores": [
+        "Chicago",
+        "Nova Orleans",
+        "Memphis"
+      ],
+      "ancora": {
+        "nome": "Asinhas de frango apimentadas (buffalo wings)",
+        "descricao": "Asinhas de frango fritas, passadas em molho de pimenta e manteiga, criadas em Buffalo, Nova York.",
+        "variantes": [
+          "Buffalo wings",
+          "Hot wings"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Espetos de bolinhas tricolores com chá ao lado; dango bem reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que doce japonês é este?",
+      "resposta": "Dango",
+      "distratores": [
+        "Daifuku",
+        "Mochi",
+        "Manju"
+      ],
+      "ancora": {
+        "nome": "Dango",
+        "descricao": "Bolinho japonês de farinha de arroz servido em espetos, aqui na versão tricolor.",
+        "variantes": [
+          "Hanami dango",
+          "Kushi-dango"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Purê liso num prato, com fundo branco limpo e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que acompanhamento é este?",
+      "resposta": "Purê de batata",
+      "distratores": [
+        "Polenta mole",
+        "Creme de milho",
+        "Arroz-doce"
+      ],
+      "ancora": {
+        "nome": "Purê de batata",
+        "descricao": "Prato feito de batatas cozidas e amassadas, com leite, manteiga e sal.",
+        "variantes": [
+          "Batata amassada",
+          "Mashed potatoes"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Copo alto com chá escuro, gelo e rodela de limão, sobre fundo branco e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que bebida é esta?",
+      "resposta": "Chá gelado",
+      "distratores": [
+        "Refrigerante de cola",
+        "Suco de caju",
+        "Sidra"
+      ],
+      "ancora": {
+        "nome": "Chá gelado",
+        "descricao": "Chá servido frio, em geral com gelo e limão.",
+        "variantes": [
+          "Iced tea",
+          "Chá com gelo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Discos achatados e tostados podem ser confundidos com arepas, gorditas ou tortilhas; a pupusa não é reconhecível pela imagem com resposta única."
+    }
+  ]
+}

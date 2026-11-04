@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho diz que o cheddar é o queijo mais usado. O enunciado não nomeia o prato e os distratores são queijos plausíveis, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento, sem vazamento. Os distratores são doces macios e parecidos, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Doce italiano de Campania, como diz o trecho. Os distratores são doces italianos plausíveis e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É amplamente documentado que as buffalo wings surgiram em Buffalo, Nova York (Anchor Bar). O enunciado não nomeia o prato e os distratores são cidades americanas.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dango é um bolinho japonês, tricolor na foto. Os distratores são doces japoneses parecidos e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O arroz-doce é sobremesa, e não acompanhamento, então não é do mesmo tipo da resposta. Troquei-o por um acompanhamento cremoso.",
+      "reescrita": {
+        "pergunta": "Que acompanhamento é este?",
+        "resposta": "Purê de batata",
+        "distratores": [
+          "Polenta mole",
+          "Creme de milho",
+          "Pirão"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento, sem vazamento. Os distratores são bebidas plausíveis e nenhum descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}
