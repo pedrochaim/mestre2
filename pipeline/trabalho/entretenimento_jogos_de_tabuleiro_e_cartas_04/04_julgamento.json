@@ -1,0 +1,251 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Xadrez",
+        "descricao": "Jogo de tabuleiro de estratégia para dois jogadores, com dezesseis peças cada um num tabuleiro de sessenta e quatro casas.",
+        "variantes": [
+          "Chess"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chess_musical",
+          "nome": "Chess (musical)",
+          "descricao": "Musical de 1984 sobre um duelo de xadrez entre um americano e um soviético durante a Guerra Fria.",
+          "variantes": [
+            "Chess"
+          ]
+        },
+        {
+          "id": "xadrez",
+          "nome": "Xadrez",
+          "descricao": "Jogo de tabuleiro para dois jogadores, com 64 casas e 16 peças para cada lado.",
+          "variantes": [
+            "Chess"
+          ]
+        },
+        {
+          "id": "xadrez_960",
+          "nome": "Xadrez 960",
+          "descricao": "Variante do xadrez em que a posição inicial das peças da última fileira é sorteada entre 960 possibilidades.",
+          "variantes": [
+            "Chess960",
+            "Xadrez aleatório de Fischer",
+            "Fischer Random"
+          ]
+        },
+        {
+          "id": "che_guevara",
+          "nome": "Che Guevara",
+          "descricao": "Ernesto Guevara, revolucionário argentino que foi um dos líderes da Revolução Cubana, morto na Bolívia em 1967.",
+          "variantes": [
+            "Ernesto Guevara",
+            "Che"
+          ]
+        },
+        {
+          "id": "rei_xadrez",
+          "nome": "Rei (xadrez)",
+          "descricao": "Peça mais importante do xadrez, cuja captura iminente é o xeque e cujo xeque-mate encerra a partida.",
+          "variantes": [
+            "Rei",
+            "King"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "En passant",
+        "descricao": "Lance especial do xadrez em que um peão captura um peão adversário que acabou de avançar duas casas e parou ao seu lado.",
+        "variantes": [
+          "Captura en passant"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "volkswagen_passat",
+          "nome": "Volkswagen Passat",
+          "descricao": "Modelo de automóvel da Volkswagen lançado em 1973",
+          "variantes": [
+            "Passat"
+          ]
+        },
+        {
+          "id": "faisao_dourado",
+          "nome": "Faisão-dourado",
+          "descricao": "Faisão colorido (Chrysolophus pictus), originário das montanhas da China.",
+          "variantes": [
+            "Chrysolophus pictus",
+            "Golden pheasant"
+          ]
+        },
+        {
+          "id": "el_santo",
+          "nome": "El Santo",
+          "descricao": "Lutador mexicano de lucha libre e astro de cinema, famoso pela máscara prateada.",
+          "variantes": [
+            "Santo",
+            "Rodolfo Guzmán Huerta"
+          ]
+        },
+        {
+          "id": "uva_passa",
+          "nome": "Uva-passa",
+          "descricao": "Uva desidratada, usada em bolos, farofas e na ceia de Natal.",
+          "variantes": [
+            "Passa",
+            "Raisin"
+          ]
+        },
+        {
+          "id": "passimian",
+          "nome": "Passimian",
+          "descricao": "Pokémon do tipo Lutador, número 766 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Peças Staunton",
+        "descricao": "Modelo padrão de peças de xadrez usado em competições, lançado em 1849 em Londres.",
+        "variantes": [
+          "Staunton chess set",
+          "Padrão Staunton"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jeca_tatu",
+          "nome": "Jeca Tatu",
+          "descricao": "Personagem caipira da literatura brasileira, levado ao cinema por Amácio Mazzaropi.",
+          "variantes": [
+            "Jeca",
+            "Jeca Tatuzinho"
+          ]
+        },
+        {
+          "id": "dom_pedro_ii",
+          "nome": "Dom Pedro II",
+          "descricao": "Segundo e último imperador do Brasil, que reinou de 1831 a 1889.",
+          "variantes": [
+            "Pedro II do Brasil",
+            "Pedro de Alcântara",
+            "Pedro Segundo"
+          ]
+        },
+        {
+          "id": "parana_estado",
+          "nome": "Paraná (estado)",
+          "descricao": "Estado da Região Sul do Brasil, com capital em Curitiba.",
+          "variantes": [
+            "Paraná"
+          ]
+        },
+        {
+          "id": "marco_antonio",
+          "nome": "Marco Antônio",
+          "descricao": "General e político romano do século primeiro antes de Cristo, aliado de Cleópatra e derrotado por Otaviano.",
+          "variantes": [
+            "Marcus Antonius",
+            "Mark Antony"
+          ]
+        },
+        {
+          "id": "duplo_twist_carpado",
+          "nome": "Duplo twist carpado",
+          "descricao": "Movimento da ginástica artística de solo que entrou no código de pontuação com o nome da ginasta brasileira que o executou primeiro.",
+          "variantes": [
+            "Dos Santos",
+            "Duplo twist carpado (Dos Santos)",
+            "Double Arabian piked",
+            "Duplo twist carpado de Daiane"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "War (jogo)",
+        "descricao": "Jogo de tabuleiro brasileiro de estratégia militar e conquista de territórios, lançado pela Grow e inspirado no Risk.",
+        "variantes": [
+          "War"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "onix",
+          "nome": "Onix",
+          "descricao": "Pokémon dos tipos Pedra e Terra, número 95 da Pokédex Nacional.",
+          "variantes": [
+            "Iwark"
+          ]
+        },
+        {
+          "id": "wario",
+          "nome": "Wario",
+          "descricao": "Personagem da Nintendo, rival ganancioso de Mario, de roupa amarela e roxa.",
+          "variantes": []
+        },
+        {
+          "id": "uruk",
+          "nome": "Uruk",
+          "descricao": "Antiga cidade suméria da Baixa Mesopotâmia, onde surgiram alguns dos primeiros registros escritos.",
+          "variantes": [
+            "Erech",
+            "Warka",
+            "Uruque"
+          ]
+        },
+        {
+          "id": "morsa",
+          "nome": "Morsa",
+          "descricao": "Grande mamífero marinho do Ártico com presas longas, espécie Odobenus rosmarus.",
+          "variantes": [
+            "Odobenus rosmarus",
+            "Walrus"
+          ]
+        },
+        {
+          "id": "arbitro_assistente_de_video",
+          "nome": "Árbitro assistente de vídeo",
+          "descricao": "Sistema de revisão de lances por vídeo usado pela arbitragem no futebol, conhecido como VAR.",
+          "variantes": [
+            "VAR",
+            "Video assistant referee",
+            "Árbitro de vídeo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "xadrez",
+      "motivo": "Mesmo jogo de tabuleiro de 64 casas e 16 peças por lado."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o lance en passant do xadrez; nomes apenas parecidos."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde ao modelo de peças Staunton."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o jogo de tabuleiro War; VAR e Wario são entidades distintas."
+    }
+  ]
+}

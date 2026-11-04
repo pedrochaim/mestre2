@@ -1,0 +1,1223 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "monopoly",
+        "nome": "Monopoly",
+        "descricao": "Jogo de tabuleiro americano de compra e venda de imóveis, lançado pela Parker Brothers em 1935.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Monopoly_(game)"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Contando os quatro cantos, quantas casas tem a volta completa do tabuleiro clássico do Monopoly?",
+      "resposta": "Quarenta",
+      "distratores": [
+        "Trinta e seis",
+        "Quarenta e quatro",
+        "Quarenta e oito"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Monopoly_(game)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "uno",
+        "nome": "Uno",
+        "descricao": "Jogo de cartas americano de descarte por cor e número, criado em 1971.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Uno_(card_game)"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O baralho original do Uno, com cartas numeradas, coringas e cartas de ação, tem quantas cartas ao todo?",
+      "resposta": "Cento e oito",
+      "distratores": [
+        "Noventa e seis",
+        "Cem",
+        "Cento e vinte"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Uno_(card_game)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "scrabble",
+        "nome": "Scrabble",
+        "descricao": "Jogo de tabuleiro de formar palavras com peças de letras, criado pelo arquiteto americano Alfred Butts.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Scrabble"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Somando as letras e as duas peças em branco, quantas peças vêm no saquinho do Scrabble original, em inglês?",
+      "resposta": "Cem",
+      "distratores": [
+        "Noventa",
+        "Cento e vinte",
+        "Cento e cinquenta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Scrabble_letter_distributions"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cubo_magico",
+        "nome": "Cubo mágico",
+        "descricao": "Quebra-cabeça tridimensional de faces coloridas giratórias criado pelo húngaro Ernő Rubik.",
+        "variantes": [
+          "Cubo de Rubik"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rubik%27s_Cube"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em 2010, provou-se que qualquer cubo mágico embaralhado pode ser resolvido com, no máximo, quantos giros de face?",
+      "resposta": "Vinte",
+      "distratores": [
+        "Quinze",
+        "Trinta",
+        "Quarenta e dois"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Optimal_solutions_for_the_Rubik%27s_Cube"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "canastra",
+        "nome": "Canastra",
+        "descricao": "Jogo de cartas da família do rummy, jogado com dois baralhos, criado em Montevidéu em 1939.",
+        "variantes": [
+          "Canasta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Canasta"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No jogo de canastra, quantas cartas do mesmo valor, no mínimo, um jogador precisa juntar na mesa para fechar uma canastra?",
+      "resposta": "Sete",
+      "distratores": [
+        "Cinco",
+        "Seis",
+        "Oito"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Canasta"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "truco",
+        "nome": "Truco",
+        "descricao": "Jogo de cartas de blefe, muito popular no Brasil, jogado com baralho sem oitos, noves e dez.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Truco"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Tirando do baralho comum os oitos, os noves, os dez e os curingas, com quantas cartas se joga o truco?",
+      "resposta": "Quarenta",
+      "distratores": [
+        "Trinta e seis",
+        "Quarenta e quatro",
+        "Quarenta e oito"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Truco"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "taro",
+        "nome": "Tarô",
+        "descricao": "Baralho com arcanos ilustrados surgido na Itália no século quinze, hoje associado à adivinhação.",
+        "variantes": [
+          "Tarot"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tarot"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Somando os arcanos maiores e os menores, quantas cartas tem um baralho de tarô completo?",
+      "resposta": "Setenta e oito",
+      "distratores": [
+        "Cinquenta e dois",
+        "Sessenta e quatro",
+        "Setenta e dois"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tarot"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "roleta",
+        "nome": "Roleta",
+        "descricao": "Jogo de cassino em que uma bolinha cai em um dos compartimentos numerados e coloridos de uma roda giratória.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Roulette"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Somando todos os números da roleta europeia, de zero a trinta e seis, chega-se a um número famoso. Qual?",
+      "resposta": "Seiscentos e sessenta e seis",
+      "distratores": [
+        "Quinhentos e cinquenta e cinco",
+        "Setecentos e setenta e sete",
+        "Novecentos e noventa e nove"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/666_(number)",
+        "https://en.wikipedia.org/wiki/Roulette"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Xadrez",
+        "descricao": "Jogo de tabuleiro de estratégia para dois jogadores, com dezesseis peças cada um num tabuleiro de sessenta e quatro casas.",
+        "variantes": [
+          "Chess"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Xadrez",
+          "https://en.wikipedia.org/wiki/Chess"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Contando peões e cavalos, quantos lances diferentes as brancas podem escolher para começar uma partida de xadrez?",
+      "resposta": "Vinte",
+      "distratores": [
+        "Dezesseis",
+        "Vinte e quatro",
+        "Trinta e dois"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shannon_number"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mahjong",
+        "nome": "Mahjong",
+        "descricao": "Jogo chinês para quatro jogadores, jogado com peças ilustradas de naipes, ventos e dragões.",
+        "variantes": [
+          "Mah-jong"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mahjong"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Um jogo completo de mahjong, com as peças de flores e de estações, tem quantas peças?",
+      "resposta": "Cento e quarenta e quatro",
+      "distratores": [
+        "Cento e oito",
+        "Cento e vinte",
+        "Cento e sessenta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mahjong_tiles"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cluedo",
+        "nome": "Cluedo",
+        "descricao": "Jogo de tabuleiro britânico de investigação de assassinato, lançado no Brasil como Detetive.",
+        "variantes": [
+          "Clue",
+          "Detetive"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cluedo"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No Cluedo original, o crime pode ter acontecido em qualquer cômodo da mansão. Quantos cômodos há no tabuleiro?",
+      "resposta": "Nove",
+      "distratores": [
+        "Seis",
+        "Oito",
+        "Doze"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cluedo"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "torre_de_hanoi",
+        "nome": "Torre de Hanói",
+        "descricao": "Quebra-cabeça matemático de discos de tamanhos diferentes que devem ser movidos entre três hastes, criado em 1883.",
+        "variantes": [
+          "Tower of Hanoi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tower_of_Hanoi"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na lenda que acompanha a Torre de Hanói, monges de um templo movem uma pilha de discos de ouro. Quantos discos?",
+      "resposta": "Sessenta e quatro",
+      "distratores": [
+        "Trinta e dois",
+        "Cem",
+        "Cento e vinte e oito"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tower_of_Hanoi"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "chaturanga",
+        "nome": "Chaturanga",
+        "descricao": "Jogo de estratégia da Índia antiga, surgido por volta do século seis, ancestral do xadrez.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chaturanga"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome chaturanga, do jogo indiano que deu origem ao xadrez, quer dizer quatro partes de quê?",
+      "resposta": "Do exército",
+      "distratores": [
+        "Do reino",
+        "Do céu",
+        "Do tabuleiro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chaturanga"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "dama_xadrez",
+        "nome": "Dama (xadrez)",
+        "descricao": "Peça mais poderosa do xadrez, que se move em linha reta e na diagonal por quantas casas quiser, também chamada rainha.",
+        "variantes": [
+          "Rainha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Queen_(chess)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Antes de virar rainha, a dama do xadrez era a peça persa farzin. Que figura da corte esse nome designava?",
+      "resposta": "O conselheiro do rei",
+      "distratores": [
+        "A esposa do rei",
+        "A princesa",
+        "O bobo da corte"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Queen_(chess)",
+        "https://en.wikipedia.org/wiki/Ferz"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cavalo_xadrez",
+        "nome": "Cavalo (xadrez)",
+        "descricao": "Peça de xadrez com cabeça de cavalo, que se move em L e salta sobre as outras peças.",
+        "variantes": [
+          "Knight"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Knight_(chess)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em inglês, a peça que chamamos de cavalo no xadrez se chama knight. O que essa palavra significa?",
+      "resposta": "Cavaleiro",
+      "distratores": [
+        "Escudeiro",
+        "Mensageiro",
+        "Cocheiro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Knight_(chess)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pachisi",
+        "nome": "Pachisi",
+        "descricao": "Jogo de tabuleiro tradicional da Índia, em forma de cruz, ancestral do ludo.",
+        "variantes": [
+          "Parchís"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pachisi"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O pachisi, jogo indiano que deu origem ao ludo, tem nome derivado da palavra hindi para qual número?",
+      "resposta": "Vinte e cinco",
+      "distratores": [
+        "Doze",
+        "Quatro",
+        "Cem"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pachisi"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "go",
+        "nome": "Go",
+        "descricao": "Jogo de tabuleiro de estratégia para dois, em que pedras pretas e brancas são postas nas interseções para cercar território.",
+        "variantes": [
+          "Weiqi",
+          "Baduk"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Go_(game)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Go é o nome japonês. Na China, o jogo se chama weiqi, expressão que quer dizer jogo de quê?",
+      "resposta": "Jogo de cercar",
+      "distratores": [
+        "Jogo das pedras",
+        "Jogo dos generais",
+        "Jogo do céu"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Go_(game)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "kendama",
+        "nome": "Kendama",
+        "descricao": "Brinquedo tradicional japonês de habilidade, com cabo, copos e bola presa por um cordão.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kendama"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome kendama, brinquedo japonês de encaixar uma bola presa num cordão, junta dama, que é bola, e ken, que significa o quê?",
+      "resposta": "Espada",
+      "distratores": [
+        "Copo",
+        "Mão",
+        "Madeira"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kendama"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "dreidel",
+        "nome": "Dreidel",
+        "descricao": "Pião de quatro lados com letras hebraicas, usado em jogo na festa judaica de Hanucá.",
+        "variantes": [
+          "Sevivon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dreidel"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "As quatro letras hebraicas do dreidel, pião da festa de Hanucá, são as iniciais de uma frase. Que frase é essa?",
+      "resposta": "Grande milagre aconteceu ali",
+      "distratores": [
+        "A luz sempre vence",
+        "Deus guarda Israel",
+        "Sorte ao bom jogador"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dreidel"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mancala",
+        "nome": "Mancala",
+        "descricao": "Família de jogos de tabuleiro para dois jogadores, com sementes ou pedras distribuídas em covas.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mancala"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome mancala, dos jogos de distribuir sementes em covas, vem de um verbo árabe. Que verbo?",
+      "resposta": "Mover",
+      "distratores": [
+        "Semear",
+        "Contar",
+        "Colher"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mancala"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "En passant",
+        "descricao": "Lance especial do xadrez em que um peão captura um peão adversário que acabou de avançar duas casas e parou ao seu lado.",
+        "variantes": [
+          "Captura en passant"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/En_passant",
+          "https://en.wikipedia.org/wiki/En_passant"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "No xadrez, um peão pode capturar outro que acabou de avançar duas casas ao seu lado. O nome francês desse lance quer dizer o quê?",
+      "resposta": "De passagem",
+      "distratores": [
+        "De surpresa",
+        "Pelas costas",
+        "Sem aviso"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/En_passant"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "deep_blue",
+        "nome": "Deep Blue",
+        "descricao": "Supercomputador de xadrez desenvolvido pela IBM, que enfrentou Garry Kasparov em 1996 e 1997.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome do computador de xadrez Deep Blue faz trocadilho com qual apelido da empresa que o construiu?",
+      "resposta": "Big Blue",
+      "distratores": [
+        "Blue Giant",
+        "Deep Sea",
+        "Blue Box"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Peças Staunton",
+        "descricao": "Modelo padrão de peças de xadrez usado em competições, lançado em 1849 em Londres.",
+        "variantes": [
+          "Staunton chess set",
+          "Padrão Staunton"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Staunton_chess_set"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O modelo clássico de peças usado nos torneios de xadrez, criado no século dezenove, leva o nome de qual enxadrista inglês?",
+      "resposta": "Howard Staunton",
+      "distratores": [
+        "Joseph Blackburne",
+        "Paul Morphy",
+        "Wilhelm Steinitz"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Staunton_chess_set"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "jogo_da_velha",
+        "nome": "Jogo da velha",
+        "descricao": "Jogo para dois em que se marcam xis e bolinhas numa grade de três por três, tentando alinhar três símbolos.",
+        "variantes": [
+          "Tic-tac-toe"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Jogo_da_velha"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "No Brasil, o símbolo usado nas hashtags, chamado oficialmente de cerquilha, ganhou no dia a dia o nome de qual brincadeira?",
+      "resposta": "Jogo da velha",
+      "distratores": [
+        "Amarelinha",
+        "Batalha naval",
+        "Cama de gato"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cerquilha"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "dado",
+        "nome": "Dado",
+        "descricao": "Pequeno cubo com faces numeradas de um a seis, usado para sortear números em jogos.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Dado"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "A frase a sorte está lançada, atribuída a Júlio César ao cruzar o Rubicão, fala em latim de qual objeto de jogo?",
+      "resposta": "Dado",
+      "distratores": [
+        "Moeda",
+        "Carta",
+        "Pedra"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alea_iacta_est"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "domino",
+        "nome": "Dominó",
+        "descricao": "Jogo de peças retangulares divididas em duas metades marcadas com pontos de zero a seis.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dominoes"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Na Guerra Fria, os americanos temiam que, se um país virasse comunista, os vizinhos cairiam em sequência. Essa teoria leva o nome de qual jogo?",
+      "resposta": "Dominó",
+      "distratores": [
+        "Xadrez",
+        "Pega-varetas",
+        "Jenga"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Domino_theory"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "poquer",
+        "nome": "Pôquer",
+        "descricao": "Jogo de cartas de apostas e blefe em que vence a melhor combinação de cinco cartas.",
+        "variantes": [
+          "Poker"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Poker"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que cantora americana fez sucesso em 2008 com uma música cujo título fala da cara impassível dos jogadores de pôquer?",
+      "resposta": "Lady Gaga",
+      "distratores": [
+        "Katy Perry",
+        "Britney Spears",
+        "Beyoncé"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Poker_Face_(Lady_Gaga_song)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "as_carta_de_baralho",
+        "nome": "Ás (carta de baralho)",
+        "descricao": "Carta de baralho com um único símbolo de naipe, aqui os quatro ases do baralho francês.",
+        "variantes": [
+          "Ace"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ace"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Na Primeira Guerra Mundial, o piloto que derrubava cinco aviões inimigos passava a ser chamado pelo nome de qual carta do baralho?",
+      "resposta": "Ás",
+      "distratores": [
+        "Rei",
+        "Valete",
+        "Curinga"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flying_ace"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "o_turco_automato",
+        "nome": "O Turco (autômato)",
+        "descricao": "Falso autômato jogador de xadrez construído por Wolfgang von Kempelen em 1770, que percorreu a Europa e a América.",
+        "variantes": [
+          "Mechanical Turk"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mechanical_Turk"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que empresa de tecnologia deu a um serviço de tarefas feitas por pessoas, escondidas atrás do computador, o nome do falso autômato enxadrista do século dezoito?",
+      "resposta": "Amazon",
+      "distratores": [
+        "Google",
+        "Microsoft",
+        "IBM"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Amazon_Mechanical_Turk"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "dungeons_dragons",
+        "nome": "Dungeons & Dragons",
+        "descricao": "Jogo de RPG de mesa de fantasia lançado nos Estados Unidos em 1974.",
+        "variantes": [
+          "D&D"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dungeons_%26_Dragons"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Na série Stranger Things, os meninos batizam o monstro do Mundo Invertido de Demogorgon, um vilão de qual jogo de RPG?",
+      "resposta": "Dungeons & Dragons",
+      "distratores": [
+        "Warhammer",
+        "GURPS",
+        "Call of Cthulhu"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Demogorgon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pictionary",
+        "descricao": "Jogo americano de adivinhar palavras a partir de desenhos feitos por um companheiro de equipe, criado por Rob Angel e lançado em 1985.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pictionary"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O Imagem e Ação, em que um jogador desenha para o próprio time adivinhar a palavra, segue a fórmula de qual jogo americano lançado em 1985?",
+      "resposta": "Pictionary",
+      "distratores": [
+        "Scattergories",
+        "Taboo",
+        "Trivial Pursuit"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pictionary",
+        "https://pt.wikipedia.org/wiki/Pictionary"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tabuleiro_de_xadrez",
+        "nome": "Tabuleiro de xadrez",
+        "descricao": "Tabuleiro de sessenta e quatro casas claras e escuras alternadas, usado no xadrez e nas damas.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chessboard"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que país europeu traz no centro da bandeira um escudo quadriculado de vermelho e branco, como um tabuleiro de xadrez?",
+      "resposta": "Croácia",
+      "distratores": [
+        "Polônia",
+        "Sérvia",
+        "Eslovênia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flag_of_Croatia",
+        "https://pt.wikipedia.org/wiki/Bandeira_da_Cro%C3%A1cia"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bobby_fischer",
+        "nome": "Bobby Fischer",
+        "descricao": "Enxadrista americano, campeão mundial de xadrez em 1972 após vencer o soviético Boris Spassky.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bobby_Fischer"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que ator, famoso por viver o Homem-Aranha no cinema, interpretou Bobby Fischer num filme sobre o duelo dele com Spassky?",
+      "resposta": "Tobey Maguire",
+      "distratores": [
+        "Andrew Garfield",
+        "Tom Holland",
+        "Jake Gyllenhaal"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pawn_Sacrifice"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cubo_magico",
+        "nome": "Cubo mágico",
+        "descricao": "Quebra-cabeça tridimensional de faces coloridas giratórias criado pelo húngaro Ernő Rubik.",
+        "variantes": [
+          "Cubo de Rubik"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rubik%27s_Cube"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Ernő Rubik não pensava em vender um brinquedo quando construiu o primeiro cubo mágico. Para que ele o fez?",
+      "resposta": "Para ensinar seus alunos",
+      "distratores": [
+        "Para presentear o filho",
+        "Para um concurso",
+        "Para tratar insônia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rubik%27s_Cube"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "torre_de_hanoi",
+        "nome": "Torre de Hanói",
+        "descricao": "Quebra-cabeça matemático de discos de tamanhos diferentes que devem ser movidos entre três hastes, criado em 1883.",
+        "variantes": [
+          "Tower of Hanoi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tower_of_Hanoi"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Segundo a lenda da Torre de Hanói, o que vai acontecer quando os monges terminarem de passar todos os discos para outra haste?",
+      "resposta": "O mundo vai acabar",
+      "distratores": [
+        "Virá a paz eterna",
+        "Nascerá um novo rei",
+        "Os deuses voltarão"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tower_of_Hanoi"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "anatoly_karpov",
+        "nome": "Anatoly Karpov",
+        "descricao": "Grande mestre russo de xadrez, décimo segundo campeão mundial.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Anatoly_Karpov"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 1975, o soviético Anatoly Karpov virou campeão mundial de xadrez sem disputar nenhuma partida da final. Por quê?",
+      "resposta": "Fischer se recusou a jogar",
+      "distratores": [
+        "Fischer estava doente",
+        "Spassky abandonou o título",
+        "Houve um boicote americano"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/World_Chess_Championship_1975",
+        "https://en.wikipedia.org/wiki/Anatoly_Karpov"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lee_sedol",
+        "nome": "Lee Sedol",
+        "descricao": "Ex-jogador profissional sul-coreano de go, 9 dan, que enfrentou o AlphaGo em 2016.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lee_Sedol"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 2019, o sul-coreano Lee Sedol abandonou o go profissional. Que motivo principal ele deu para a decisão?",
+      "resposta": "A IA é imbatível",
+      "distratores": [
+        "Problemas de saúde",
+        "Carreira na política",
+        "Virar treinador"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lee_Sedol"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "monopoly",
+        "nome": "Monopoly",
+        "descricao": "Jogo de tabuleiro americano de compra e venda de imóveis, lançado pela Parker Brothers em 1935.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Monopoly_(game)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na Segunda Guerra, o serviço secreto britânico mandou a prisioneiros aliados jogos de Monopoly adulterados. O que vinha escondido neles?",
+      "resposta": "Mapas de fuga",
+      "distratores": [
+        "Rádios em miniatura",
+        "Remédios e vitaminas",
+        "Facas desmontadas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Monopoly_(game)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pipa",
+        "nome": "Pipa",
+        "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+        "variantes": [
+          "Papagaio",
+          "Pandorga"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pipa_(brinquedo)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O perigoso cerol, passado na linha da pipa para cortar a dos adversários, é uma mistura de cola com o quê?",
+      "resposta": "Vidro moído",
+      "distratores": [
+        "Areia da praia",
+        "Sal grosso",
+        "Limalha de ferro"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cerol"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tabuleiro_ouija",
+        "nome": "Tabuleiro Ouija",
+        "descricao": "Tabuleiro com letras, números e palavras sim e não, usado com um indicador móvel em sessões espíritas.",
+        "variantes": [
+          "Ouija"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ouija"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Além das letras, dos números e das palavras sim e não, que outra palavra vem impressa no tabuleiro Ouija clássico?",
+      "resposta": "Adeus",
+      "distratores": [
+        "Talvez",
+        "Morte",
+        "Alma"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ouija"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cluedo",
+        "nome": "Cluedo",
+        "descricao": "Jogo de tabuleiro britânico de investigação de assassinato, lançado no Brasil como Detetive.",
+        "variantes": [
+          "Clue",
+          "Detetive"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cluedo"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Inventado por um pianista inglês, o Cluedo, jogo de descobrir o assassino, o lugar e a arma, chegou às lojas em que década?",
+      "resposta": "Década de 1940",
+      "distratores": [
+        "Década de 1920",
+        "Década de 1930",
+        "Década de 1960"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cluedo"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mahjong",
+        "nome": "Mahjong",
+        "descricao": "Jogo chinês para quatro jogadores, jogado com peças ilustradas de naipes, ventos e dragões.",
+        "variantes": [
+          "Mah-jong"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mahjong"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O mahjong, jogo chinês de peças, virou uma febre nos Estados Unidos, com clubes e até canções sobre ele, em que década?",
+      "resposta": "Década de 1920",
+      "distratores": [
+        "Década de 1890",
+        "Década de 1950",
+        "Década de 1970"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mahjong"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "War (jogo)",
+        "descricao": "Jogo de tabuleiro brasileiro de estratégia militar e conquista de territórios, lançado pela Grow e inspirado no Risk.",
+        "variantes": [
+          "War"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/War_(jogo)"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O War, jogo de tabuleiro de conquistar territórios com exércitos coloridos, foi lançado no Brasil em que década?",
+      "resposta": "Década de 1970",
+      "distratores": [
+        "Década de 1950",
+        "Década de 1960",
+        "Década de 1980"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/War_(jogo)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "War (jogo)",
+        "descricao": "Jogo de tabuleiro brasileiro de estratégia militar e conquista de territórios, lançado pela Grow e inspirado no Risk.",
+        "variantes": [
+          "War"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/War_(jogo)"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que fabricante brasileira de jogos lançou o War, versão nacional do jogo francês que se tornou o Risk?",
+      "resposta": "Grow",
+      "distratores": [
+        "Estrela",
+        "Xalingo",
+        "Toyster"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/War_(jogo)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "monopoly",
+        "nome": "Monopoly",
+        "descricao": "Jogo de tabuleiro americano de compra e venda de imóveis, lançado pela Parker Brothers em 1935.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Monopoly_(game)"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Nos anos trinta, quem vendeu o Monopoly à Parker Brothers apresentando o jogo como invenção sua, embora ele derivasse de outro mais antigo?",
+      "resposta": "Charles Darrow",
+      "distratores": [
+        "Milton Bradley",
+        "Alfred Butts",
+        "George Parker"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Charles_Darrow",
+        "https://en.wikipedia.org/wiki/Monopoly_(game)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "alphago",
+        "nome": "AlphaGo",
+        "descricao": "Programa de inteligência artificial que joga go e derrotou o profissional sul-coreano Lee Sedol em 2016.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/AlphaGo"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 2016, o duelo de cinco partidas entre o programa AlphaGo e o mestre de go Lee Sedol foi disputado em qual cidade?",
+      "resposta": "Seul",
+      "distratores": [
+        "Tóquio",
+        "Londres",
+        "Pequim"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "jenga",
+        "nome": "Jenga",
+        "descricao": "Jogo de habilidade em que se retiram blocos de madeira de uma torre e se recolocam no topo sem derrubá-la.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jenga"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O Jenga começou nos anos setenta como brincadeira de família, com blocos de madeira de uma serraria, em qual país africano?",
+      "resposta": "Gana",
+      "distratores": [
+        "Quênia",
+        "Nigéria",
+        "Tanzânia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jenga"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "torre_xadrez",
+        "nome": "Torre (xadrez)",
+        "descricao": "Peça do xadrez que se move em linha reta, na horizontal ou na vertical, chamada rukh no xadrez persa.",
+        "variantes": [
+          "Rook"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rook_(chess)"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Na contagem tradicional de pontos das peças de xadrez, qual destas vale mais?",
+      "resposta": "Torre",
+      "distratores": [
+        "Cavalo",
+        "Bispo",
+        "Peão"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chess_piece_relative_value"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "henrique_mecking",
+        "nome": "Henrique Mecking",
+        "descricao": "Enxadrista brasileiro nascido em Santa Cruz do Sul, conhecido como Mequinho, que esteve entre os melhores do mundo nos anos setenta.",
+        "variantes": [
+          "Mequinho"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Henrique_Mecking"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em 1972, o gaúcho Henrique Mecking, o Mequinho, tornou-se o primeiro brasileiro a receber qual título do xadrez?",
+      "resposta": "Grande mestre",
+      "distratores": [
+        "Campeão mundial",
+        "Campeão mundial júnior",
+        "Árbitro internacional"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Henrique_Mecking",
+        "https://en.wikipedia.org/wiki/Henrique_Mecking"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bispo_xadrez",
+        "nome": "Bispo (xadrez)",
+        "descricao": "Peça do xadrez que se move na diagonal, chamada al-fil no xadrez árabe.",
+        "variantes": [
+          "Bishop"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bishop_(chess)"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Que peça do xadrez passa a partida inteira em casas da mesma cor em que começou?",
+      "resposta": "Bispo",
+      "distratores": [
+        "Torre",
+        "Cavalo",
+        "Dama"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bishop_(chess)",
+        "https://pt.wikipedia.org/wiki/Bispo_(xadrez)"
+      ]
+    }
+  ]
+}

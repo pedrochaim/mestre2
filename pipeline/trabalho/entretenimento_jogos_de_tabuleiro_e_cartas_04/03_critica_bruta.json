@@ -1,0 +1,486 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fato bem conhecido (40 casas), enunciado preciso e distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O baralho original do Uno tem 108 cartas; fato conhecido e distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O Scrabble em inglês tem 100 peças (98 letras e 2 em branco); fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma a prova de 2010 do limite de 20 giros de face.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "No Brasil a canastra costuma ser de sequência; especificar a canasta clássica evita ambiguidade.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Na canasta clássica, quantas cartas do mesmo valor, no mínimo, formam uma canasta?",
+        "resposta": "Sete",
+        "distratores": [
+          "Cinco",
+          "Seis",
+          "Oito"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Canasta"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "52 menos oito, nove e dez dá 40 cartas, e o trecho confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O tarô completo tem 78 cartas, confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A soma de 0 a 36 é 666; curiosidade matemática verdadeira e memorável.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "16 lances de peão mais 4 de cavalo dão 20; fato certo, embora a fonte seja só tangencial.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O conjunto completo tem 144 peças; o distrator 108 é bem escolhido.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia em português confirma nove salas no Cluedo.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A lenda fala em 64 discos de ouro, e as fontes registram a variante com monges.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que chaturanga designa as quatro divisões do exército.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Farzin significa conselheiro/vizir, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "É só tradução trivial de knight, sem apoio nos trechos e sem graça.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pachisi vem de pachis, vinte e cinco, como o trecho confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta repete 'jogo' do enunciado e fica estranha; pedir o verbo é mais limpo e a fonte em português sustenta.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Go é o nome japonês do jogo. Na China, ele se chama weiqi, que significa jogo de tabuleiro de fazer o quê?",
+        "resposta": "Cercar",
+        "distratores": [
+          "Alinhar",
+          "Conquistar",
+          "Derrubar"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Go_(game)",
+          "https://pt.wikipedia.org/wiki/Go"
+        ]
+      }
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho dá 'sword and ball' como sentido literal de kendama.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A frase varia (lá em geral, aqui em Israel); é preciso fixar a versão tradicional.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Na versão tradicional, as quatro letras hebraicas do dreidel, pião de Hanucá, são as iniciais de qual frase?",
+        "resposta": "Um grande milagre aconteceu lá",
+        "distratores": [
+          "A luz sempre vence",
+          "Deus guarda Israel",
+          "Sorte ao bom jogador"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Dreidel"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia em português traz a origem no verbo árabe naqala, mover.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "En passant significa 'de passagem'; enunciado correto e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia em português confirma o trocadilho com Big Blue.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz 'inglês', e dois distratores não são ingleses; trocá-los por enxadristas ingleses os torna críveis.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O modelo clássico de peças usado nos torneios de xadrez, criado no século dezenove, leva o nome de qual enxadrista inglês?",
+        "resposta": "Howard Staunton",
+        "distratores": [
+          "Joseph Blackburne",
+          "Henry Bird",
+          "Amos Burn"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Staunton_chess_set"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Oficialmente' é duvidoso, pois dicionários registram antífen; basta dizer 'popularmente'.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "No Brasil, o símbolo usado nas hashtags é popularmente chamado pelo nome de qual brincadeira?",
+        "resposta": "Jogo da velha",
+        "distratores": [
+          "Amarelinha",
+          "Batalha naval",
+          "Cama de gato"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Cerquilha"
+        ]
+      }
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alea iacta est refere-se ao dado; conexão clara e boa.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A teoria do dominó está confirmada nas fontes; conexão memorável.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Poker Face, de Lady Gaga, é de 2008, como o trecho confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ás da aviação é quem abate cinco ou mais aeronaves; conexão válida.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O nome do Mechanical Turk foi inspirado em O Turco, segundo a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Demogorgon é vilão de Dungeons & Dragons; os meninos de Stranger Things deram o nome ao monstro.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A relação entre Imagem e Ação e Pictionary é vaga ('segue a fórmula'), a pergunta é fácil e a fonte em português não existe.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato é sobre a bandeira da Croácia, não sobre o tabuleiro; a âncora e o subtema não se encaixam.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tobey Maguire interpreta Fischer em Pawn Sacrifice, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte em português diz que o propósito real não era ensinar, e sim resolver um problema estrutural do mecanismo.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pela lenda, ao terminar a tarefa o mundo desapareceria; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fischer recusou-se a defender o título nas condições impostas, não propriamente a jogar; e Spassky não era campeão.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "Em 1975, o soviético Anatoly Karpov virou campeão mundial de xadrez sem jogar a final. Por quê?",
+        "resposta": "Fischer recusou defender o título",
+        "distratores": [
+          "Fischer estava doente",
+          "O match foi cancelado por guerra",
+          "Karpov venceu por sorteio"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/World_Chess_Championship_1975",
+          "https://en.wikipedia.org/wiki/Anatoly_Karpov"
+        ]
+      }
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lee citou a IA como 'entidade que não pode ser derrotada' ao se aposentar em 2019.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma mapas de fuga escondidos nos Monopoly para prisioneiros.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A limalha de ferro também é usada no cerol segundo a fonte, então o distrator é defensável; trocá-lo e dizer 'tradicionalmente'.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "O perigoso cerol, passado na linha da pipa para cortar a dos adversários, é tradicionalmente uma mistura de cola com o quê?",
+        "resposta": "Vidro moído",
+        "distratores": [
+          "Pó de café",
+          "Sal grosso",
+          "Pó de giz"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Cerol"
+        ]
+      }
+    },
+    {
+      "indice": 40,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que 'hello' e 'goodbye' aparecem só ocasionalmente, então o fato é incerto e a resposta pode ser contestada.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pianista inglês' não é sustentado pelos trechos; removê-lo e usar distratores mais próximos.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "O Cluedo, jogo de descobrir o assassino, o lugar e a arma, chegou às lojas britânicas em que década?",
+        "resposta": "Década de 1940",
+        "distratores": [
+          "Década de 1930",
+          "Década de 1950",
+          "Década de 1960"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Cluedo"
+        ]
+      }
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A febre do mahjong nos EUA foi nos anos 1920, com a canção de Eddie Cantor.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A fonte não existe; troco por outra URL. O War foi lançado pela Grow em 1972.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "O War, jogo brasileiro de conquistar territórios com exércitos coloridos, baseado no Risk, foi lançado em que década?",
+        "resposta": "Década de 1970",
+        "distratores": [
+          "Década de 1950",
+          "Década de 1960",
+          "Década de 1980"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/War_(jogo_de_tabuleiro)"
+        ]
+      }
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A fonte não existe; troco a URL e simplifico o enunciado, que misturava duas informações.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "Que fabricante brasileira de jogos lançou o War, adaptação nacional do Risk?",
+        "resposta": "Grow",
+        "distratores": [
+          "Estrela",
+          "Xalingo",
+          "Toyster"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/War_(jogo_de_tabuleiro)"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Darrow vendeu o jogo à Parker Brothers como seu, embora derivasse do Landlord's Game.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O match foi disputado em Seul, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os blocos vieram de uma serraria em Takoradi, Gana, nos anos 1970.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A torre vale 5 pontos, mais que cavalo, bispo e peão; a dama não está entre as opções.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mecking foi o primeiro grande mestre do Brasil, em 1972.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O bispo fica restrito à cor da casa onde começa; a pt.wikipedia confirma.",
+      "reescrita": null
+    }
+  ]
+}
