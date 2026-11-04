@@ -1,0 +1,106 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O canto de ave que este relógio faz a cada hora vem de um mecanismo em uso desde meados de que século?",
+        "resposta": "Século dezoito"
+      },
+      "existentes": [
+        {
+          "id": "q00910",
+          "pergunta": "O relógio cuco, fabricado artesanalmente desde o século dezoito, é o símbolo de qual região montanhosa e arborizada da Alemanha?",
+          "resposta": "Floresta Negra"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que químico alemão inventou este frasco de laboratório, em 1860?",
+        "resposta": "Emil Erlenmeyer"
+      },
+      "existentes": [
+        {
+          "id": "q18468",
+          "pergunta": "Que vidraria de laboratório é esta?",
+          "resposta": "Erlenmeyer"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que tipo de bicicleta do século dezenove é este?",
+        "resposta": "Biciclo (penny-farthing)"
+      },
+      "existentes": [
+        {
+          "id": "q00980",
+          "pergunta": "O antigo biciclo de roda dianteira enorme e traseira pequena era chamado em inglês de penny-farthing. A que se referia esse nome?",
+          "resposta": "Duas moedas de tamanhos diferentes"
+        },
+        {
+          "id": "q09378",
+          "pergunta": "No antigo biciclo de roda dianteira gigante, que não tinha corrente, onde ficavam presos os pedais?",
+          "resposta": "No eixo da roda dianteira"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que tipo de condensador de laboratório é este?",
+        "resposta": "Condensador de Liebig"
+      },
+      "existentes": [
+        {
+          "id": "q17609",
+          "pergunta": "Que peça de vidraria de laboratório é esta?",
+          "resposta": "Condensador de Liebig"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que objeto de escritório é este?",
+        "resposta": "Clipe de papel"
+      },
+      "existentes": [
+        {
+          "id": "q00909",
+          "pergunta": "Durante a Segunda Guerra, usar um clipe de papel preso à roupa virou símbolo de resistência à ocupação nazista em qual país?",
+          "resposta": "Noruega"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o século do mecanismo do canto; a existente trata da região símbolo do relógio. Fatos diferentes, apesar de a resposta coincidir."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta quer o inventor do frasco; a existente quer o nome da vidraria. Saber um não leva a saber o outro."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pergunta quer o nome do tipo de bicicleta. As existentes tratam do significado do nome em inglês e da posição dos pedais."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "As duas pedem a identificação do mesmo objeto, o condensador de Liebig, e têm a mesma resposta."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação do objeto. A existente pede o país onde o clipe simbolizou resistência."
+    }
+  ]
+}

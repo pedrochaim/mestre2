@@ -1,0 +1,62 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "\"Surgiu\" é impreciso: a ideia do cuco já aparece no século dezessete (Martinelli, 1669, no trecho). O que está documentado é o mecanismo em uso desde meados do século dezoito, e \"sem mudanças até hoje\" não é verificável. Reescrito com o fato literal.",
+      "reescrita": {
+        "pergunta": "O canto de ave que este relógio faz a cada hora vem de um mecanismo em uso desde meados de que século?",
+        "resposta": "Século dezoito",
+        "distratores": [
+          "Século dezessete",
+          "Século dezesseis",
+          "Século dezenove"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos (Emil Erlenmeyer, 1860). O enunciado não nomeia o frasco e só se responde reconhecendo-o. Os distratores são químicos alemães da mesma época e nenhum inventou o frasco.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o desenvolvimento nos anos 1970 (1973). O enunciado não entrega o nome nem a década, e os distratores são décadas do mesmo formato.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o biciclo é uma bicicleta do século dezenove com roda dianteira grande. A figura é necessária e os distratores são do mesmo tipo e não descrevem a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho descreve o condensador de Liebig como um tubo reto de vidro com camisa de água. Os distratores são outros condensadores reais, com aspecto diferente (bolhas, serpentina), e nenhum descreve a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator \"Grampo\" é defensável: o próprio trecho em português chama os clipes de \"grampos\". Troquei por um objeto de escritório claramente distinto.",
+      "reescrita": {
+        "pergunta": "Que objeto de escritório é este?",
+        "resposta": "Clipe de papel",
+        "distratores": [
+          "Elástico",
+          "Percevejo",
+          "Alfinete"
+        ]
+      }
+    }
+  ]
+}

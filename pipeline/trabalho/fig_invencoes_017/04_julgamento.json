@@ -1,0 +1,393 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Relógio cuco",
+        "descricao": "Relógio de parede de pêndulo, típico da Floresta Negra alemã, com uma ave mecânica que anuncia as horas imitando o canto do cuco.",
+        "variantes": [
+          "Cuckoo clock",
+          "Relógio de cuco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "relogio_cuco",
+          "nome": "Relógio cuco",
+          "descricao": "Relógio de parede com um pássaro mecânico que sai de uma portinhola para marcar as horas.",
+          "variantes": [
+            "Cuckoo clock"
+          ]
+        },
+        {
+          "id": "relogio_de_bolso",
+          "nome": "Relógio de bolso",
+          "descricao": "Relógio portátil com corrente, carregado no bolso em vez de usado no pulso.",
+          "variantes": [
+            "Relógio de pulso",
+            "Relógio de algibeira"
+          ]
+        },
+        {
+          "id": "relogio_de_sol",
+          "nome": "Relógio de sol",
+          "descricao": "Instrumento com um gnômon que projeta sombra sobre um mostrador marcado com horas.",
+          "variantes": [
+            "Quadrante solar"
+          ]
+        },
+        {
+          "id": "clepsidra",
+          "nome": "Clepsidra",
+          "descricao": "Relógio de água usado na Grécia Antiga, entre outras funções, para marcar o tempo dos discursos nos tribunais de Atenas.",
+          "variantes": [
+            "Relógio de água",
+            "Clepsydra",
+            "Water clock"
+          ]
+        },
+        {
+          "id": "relogio_de_xadrez",
+          "nome": "Relógio de xadrez",
+          "descricao": "Aparelho com dois relógios e botões alternados que controla o tempo de cada jogador em partidas.",
+          "variantes": [
+            "Relógio de jogo",
+            "Chess clock"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Frasco de Erlenmeyer",
+        "descricao": "Frasco de laboratório de fundo plano, corpo cônico e gargalo cilíndrico, criado em 1860.",
+        "variantes": [
+          "Erlenmeyer",
+          "Balão de Erlenmeyer",
+          "Erlenmeyer flask"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "erlenmeyer",
+          "nome": "Erlenmeyer",
+          "descricao": "Vidraria de laboratório de base plana, corpo cônico e gargalo cilíndrico, inventada por Emil Erlenmeyer em 1860.",
+          "variantes": [
+            "Frasco de Erlenmeyer",
+            "Balão de Erlenmeyer",
+            "Frasco cônico"
+          ]
+        },
+        {
+          "id": "johannes_vermeer",
+          "nome": "Johannes Vermeer",
+          "descricao": "Pintor holandês do século dezessete, autor de Moça com Brinco de Pérola e A Leiteira.",
+          "variantes": [
+            "Jan Vermeer",
+            "Vermeer de Delft",
+            "Vermeer"
+          ]
+        },
+        {
+          "id": "balao_de_ar_quente",
+          "nome": "Balão de ar quente",
+          "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+          "variantes": [
+            "Balão",
+            "Balão aerostático",
+            "Montgolfière",
+            "Hot air balloon"
+          ]
+        },
+        {
+          "id": "balonismo",
+          "nome": "Balonismo",
+          "descricao": "Esporte e aventura de voar em balões de ar quente.",
+          "variantes": [
+            "Balão de ar quente",
+            "Hot air ballooning"
+          ]
+        },
+        {
+          "id": "rosca_de_reyes",
+          "nome": "Rosca de Reyes",
+          "descricao": "Pão doce em forma de coroa que os mexicanos comem no Dia de Reis, seis de janeiro.",
+          "variantes": [
+            "Roscón de Reyes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Xerox Alto",
+        "descricao": "Computador desenvolvido no Xerox PARC nos anos 1970, pioneiro da interface gráfica e do mouse.",
+        "variantes": [
+          "Alto",
+          "Xerox Alto computer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "contralto",
+          "nome": "Contralto",
+          "descricao": "Tipo de voz feminina de canto lírico, a de registro mais grave entre as vozes femininas.",
+          "variantes": [
+            "Contralto (voz)",
+            "Alto"
+          ]
+        },
+        {
+          "id": "hipismo_saltos",
+          "nome": "Hipismo (saltos)",
+          "descricao": "Modalidade equestre em que cavalo e cavaleiro vencem uma sequência de obstáculos.",
+          "variantes": [
+            "Salto",
+            "Saltos",
+            "Show jumping",
+            "Hipismo"
+          ]
+        },
+        {
+          "id": "salto_sobre_a_mesa",
+          "nome": "Salto sobre a mesa",
+          "descricao": "Prova da ginástica artística em que o ginasta salta apoiando as mãos na mesa de salto.",
+          "variantes": [
+            "Salto",
+            "Mesa de salto"
+          ]
+        },
+        {
+          "id": "baltoy",
+          "nome": "Baltoy",
+          "descricao": "Pokémon de terra e psíquico em forma de boneco de argila giratório, número 343 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "mouse",
+          "nome": "Mouse",
+          "descricao": "Dispositivo apontador manual usado para controlar o cursor na tela de um computador.",
+          "variantes": [
+            "Computer mouse",
+            "Rato"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Biciclo (penny-farthing)",
+        "descricao": "Bicicleta antiga com roda dianteira enorme e roda traseira pequena, popular nas décadas de 1870 e 1880.",
+        "variantes": [
+          "Penny-farthing",
+          "Bicicleta de roda alta",
+          "High wheeler"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "penny_farthing",
+          "nome": "Penny-farthing",
+          "descricao": "Biciclo do século dezenove com roda dianteira enorme e roda traseira pequena.",
+          "variantes": [
+            "Biciclo",
+            "High wheeler",
+            "Grand-bi"
+          ]
+        },
+        {
+          "id": "salto_alto",
+          "nome": "Salto alto",
+          "descricao": "Calçado com o calcanhar elevado em relação à ponta do pé",
+          "variantes": [
+            "Sapato de salto alto",
+            "High heels"
+          ]
+        },
+        {
+          "id": "bicicleta_de_pista",
+          "nome": "Bicicleta de pista",
+          "descricao": "Bicicleta de marcha fixa usada nas provas de ciclismo em velódromo.",
+          "variantes": [
+            "Track bicycle",
+            "Bicicleta de velódromo"
+          ]
+        },
+        {
+          "id": "bicicleta_de_seguranca",
+          "nome": "Bicicleta de segurança",
+          "descricao": "Modelo de bicicleta com duas rodas do mesmo tamanho e transmissão por corrente, popularizado pela inglesa Rover em 1885, base da bicicleta moderna.",
+          "variantes": [
+            "Safety bicycle",
+            "Rover Safety Bicycle"
+          ]
+        },
+        {
+          "id": "bicicleta_futebol",
+          "nome": "Bicicleta (futebol)",
+          "descricao": "Golpe acrobático em que o jogador chuta a bola no ar, de costas, jogando o corpo para trás.",
+          "variantes": [
+            "Chilena",
+            "Voadora",
+            "Bicycle kick",
+            "Tesoura"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Condensador de Liebig",
+        "descricao": "Condensador de laboratório formado por um tubo reto de vidro envolto por uma camisa de água.",
+        "variantes": [
+          "Liebig condenser",
+          "Condensador reto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "condensador_de_liebig",
+          "nome": "Condensador de Liebig",
+          "descricao": "Vidraria de laboratório formada por um tubo reto envolto por uma camisa de água, usada para condensar vapores.",
+          "variantes": [
+            "Condensador reto",
+            "Liebig condenser"
+          ]
+        },
+        {
+          "id": "leite_condensado",
+          "nome": "Leite condensado",
+          "descricao": "Leite de vaca do qual se retira parte da água e ao qual se adiciona açúcar, base de muitos doces brasileiros.",
+          "variantes": [
+            "Leite condensado açucarado"
+          ]
+        },
+        {
+          "id": "libia",
+          "nome": "Líbia",
+          "descricao": "País do norte da África, no Mediterrâneo, cuja capital é Trípoli.",
+          "variantes": [
+            "Estado da Líbia"
+          ]
+        },
+        {
+          "id": "ar_condicionado",
+          "nome": "Ar-condicionado",
+          "descricao": "Sistema de controle de temperatura e umidade do ar, cuja versão moderna foi criada por Willis Carrier em 1902.",
+          "variantes": [
+            "Air conditioning",
+            "Condicionador de ar"
+          ]
+        },
+        {
+          "id": "cartola",
+          "nome": "Cartola",
+          "descricao": "Angenor de Oliveira, sambista carioca, fundador da Estação Primeira de Mangueira.",
+          "variantes": [
+            "Angenor de Oliveira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Clipe de papel",
+        "descricao": "Pequeno arame dobrado em laços, usado para prender folhas de papel.",
+        "variantes": [
+          "Clipe",
+          "Paper clip"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "clipe_de_papel",
+          "nome": "Clipe de papel",
+          "descricao": "Peça de arame dobrado usada para prender folhas de papel.",
+          "variantes": [
+            "Clipe",
+            "Paper clip"
+          ]
+        },
+        {
+          "id": "caliope",
+          "nome": "Calíope",
+          "descricao": "Musa grega da poesia épica e da eloquência, mãe de Orfeu em algumas versões.",
+          "variantes": [
+            "Calliope",
+            "Kalliope"
+          ]
+        },
+        {
+          "id": "paquimetro",
+          "nome": "Paquímetro",
+          "descricao": "Instrumento com escala e nônio que mede comprimentos, espessuras e diâmetros com precisão.",
+          "variantes": [
+            "Calibre",
+            "Caliper",
+            "Calipers"
+          ]
+        },
+        {
+          "id": "ipe_amarelo",
+          "nome": "Ipê-amarelo",
+          "descricao": "Árvore brasileira de flores amarelas, comum no Cerrado e símbolo da estação seca",
+          "variantes": [
+            "Ipê",
+            "Handroanthus"
+          ]
+        },
+        {
+          "id": "bandeira_do_chipre",
+          "nome": "Bandeira do Chipre",
+          "descricao": "Bandeira nacional do Chipre, com a silhueta da ilha em cobre sobre dois ramos de oliveira em fundo branco.",
+          "variantes": [
+            "Chipre",
+            "Bandeira de Chipre"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "relogio_cuco",
+      "motivo": "Mesmo objeto, relógio cuco; descrição compatível."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "erlenmeyer",
+      "motivo": "Mesma vidraria de laboratório, mesma descrição e invenção em 1860."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Xerox Alto é um computador; nenhuma candidata é essa entidade (mouse é outro objeto)."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "penny_farthing",
+      "motivo": "Biciclo penny-farthing é o mesmo objeto."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "condensador_de_liebig",
+      "motivo": "Mesma vidraria, mesma descrição e variantes."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "clipe_de_papel",
+      "motivo": "Mesmo objeto, clipe de papel."
+    }
+  ]
+}

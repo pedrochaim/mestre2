@@ -1,0 +1,180 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Relógio de estilo Floresta Negra, foto limpa, sem texto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que século surgiu o mecanismo sonoro deste relógio, usado quase sem mudanças até hoje?",
+      "resposta": "Século dezoito",
+      "distratores": [
+        "Século dezessete",
+        "Século dezesseis",
+        "Século dezenove"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Relógio cuco",
+        "descricao": "Relógio de parede de pêndulo, típico da Floresta Negra alemã, com uma ave mecânica que anuncia as horas imitando o canto do cuco.",
+        "variantes": [
+          "Cuckoo clock",
+          "Relógio de cuco"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Frasco claro e reconhecível; o texto visível (500 ml, Germany, marca) não revela o nome nem o inventor.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que químico alemão inventou este frasco de laboratório, em 1860?",
+      "resposta": "Emil Erlenmeyer",
+      "distratores": [
+        "Justus von Liebig",
+        "Robert Bunsen",
+        "Friedrich Wöhler"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Frasco de Erlenmeyer",
+        "descricao": "Frasco de laboratório de fundo plano, corpo cônico e gargalo cilíndrico, criado em 1860.",
+        "variantes": [
+          "Erlenmeyer",
+          "Balão de Erlenmeyer",
+          "Erlenmeyer flask"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Computador com monitor vertical e mouse, reconhecível; a plaquinha é ilegível no celular.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que década começou a ser produzido este computador?",
+      "resposta": "Década de 1970",
+      "distratores": [
+        "Década de 1960",
+        "Década de 1980",
+        "Década de 1990"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Xerox Alto",
+        "descricao": "Computador desenvolvido no Xerox PARC nos anos 1970, pioneiro da interface gráfica e do mouse.",
+        "variantes": [
+          "Alto",
+          "Xerox Alto computer"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Ilustração (não é foto) de uma roda de carroça com letra H de legenda; objeto que pode ser fotografado e resposta pouco sustentada."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto clara do biciclo, silhueta inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de bicicleta do século dezenove é este?",
+      "resposta": "Biciclo (penny-farthing)",
+      "distratores": [
+        "Draisiana",
+        "Triciclo",
+        "Bicicleta de segurança"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Biciclo (penny-farthing)",
+        "descricao": "Bicicleta antiga com roda dianteira enorme e roda traseira pequena, popular nas décadas de 1870 e 1880.",
+        "variantes": [
+          "Penny-farthing",
+          "Bicicleta de roda alta",
+          "High wheeler"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano e letreiro de loja visível."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Aparelho pouco reconhecível pela imagem, com texto de marca e modelo e régua; resposta não única (pode ser confundido com desfibrilador)."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto limpa de condensador reto com camisa de água, sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de condensador de laboratório é este?",
+      "resposta": "Condensador de Liebig",
+      "distratores": [
+        "Condensador de Allihn",
+        "Condensador de Graham",
+        "Condensador de Dimroth"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Condensador de Liebig",
+        "descricao": "Condensador de laboratório formado por um tubo reto de vidro envolto por uma camisa de água.",
+        "variantes": [
+          "Liebig condenser",
+          "Condensador reto"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cinco clipes de papel de tipo Gem, sem texto, claros.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que objeto de escritório é este?",
+      "resposta": "Clipe de papel",
+      "distratores": [
+        "Grampo",
+        "Percevejo",
+        "Alfinete"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Clipe de papel",
+        "descricao": "Pequeno arame dobrado em laços, usado para prender folhas de papel.",
+        "variantes": [
+          "Clipe",
+          "Paper clip"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: Hewlett-Packard e logo hp 12c."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: MSX Home Computer, Sony HB-10P."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Várias máquinas diferentes e texto visível (Bankomat, Poznań Główny, bancos)."
+    }
+  ]
+}
