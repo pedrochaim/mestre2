@@ -1,0 +1,60 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano foi encontrada esta estela com um decreto escrito em três escritas?",
+        "resposta": "1799"
+      },
+      "existentes": [
+        {
+          "id": "q00114",
+          "pergunta": "Em 2014, uma sonda espacial europeia enviou um módulo que pousou num cometa. A sonda recebeu o nome de qual célebre artefato egípcio?",
+          "resposta": "Pedra de Roseta"
+        },
+        {
+          "id": "q06359",
+          "pergunta": "Desde 1802, a Pedra de Roseta, chave para decifrar os hieróglifos, fica exposta em qual museu?",
+          "resposta": "Museu Britânico"
+        },
+        {
+          "id": "q06360",
+          "pergunta": "A Pedra de Roseta traz o mesmo decreto em hieróglifos, em grego antigo e em qual terceira escrita?",
+          "resposta": "Demótico"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país se originou este utensílio?",
+        "resposta": "China"
+      },
+      "existentes": [
+        {
+          "id": "q00813",
+          "pergunta": "No Japão, espetar os hashis em pé numa tigela de arroz é uma falta grave de etiqueta. Esse gesto lembra o quê?",
+          "resposta": "Oferenda aos mortos em funerais"
+        },
+        {
+          "id": "q06109",
+          "pergunta": "Embora sejam conhecidos no Brasil pelo nome japonês, os hashis, palitinhos usados para comer, surgiram em qual país?",
+          "resposta": "China"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "O ano da descoberta (1799) é um fato diferente do museu, da escrita demótica ou da sonda Rosetta."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Pergunta a origem dos hashis na China, o mesmo fato de q06109.",
+      "id_existente": "q06109"
+    }
+  ]
+}

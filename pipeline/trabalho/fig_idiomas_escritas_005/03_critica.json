@@ -1,0 +1,84 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz que a pedra ajudou a decifrar a escrita egípcia. Isso identifica o objeto e a resposta sem olhar a figura, então a figura virou enfeite. Reescrito para pedir o ano da descoberta (1799, nos trechos), em múltipla escolha.",
+      "reescrita": {
+        "pergunta": "Em que ano foi encontrada esta estela com um decreto escrito em três escritas?",
+        "resposta": "1799",
+        "distratores": [
+          "1789",
+          "1803",
+          "1822"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Texto mais copiado\" é um superlativo sem apoio. A Bíblia é um candidato defensável a texto mais copiado na história. Reescrito com base no que os trechos dizem: a caligrafia é muito usada em manuscritos do Alcorão.",
+      "reescrita": {
+        "pergunta": "Manuscritos feitos com esta arte da escrita costumam copiar qual livro sagrado?",
+        "resposta": "Alcorão",
+        "distratores": [
+          "Bíblia",
+          "Torá",
+          "Bhagavad Gita"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto. A pergunta não nomeia a resposta e os distratores são escritas plausíveis. Os trechos sustentam que é um sistema fonético.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o trullo é típico da Apúlia. O enunciado não entrega a região e os distratores são regiões italianas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Os trechos dizem que os tulou se associam aos hakka e também aos minnan, então a resposta única é duvidosa. As palavras \"moradias fortificadas de terra\" ainda deixam a pergunta quase respondível sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Em português o nome do objeto, \"rede\", vem do latim. Só \"maca\" e \"hamaca\" vêm do taíno, então a pergunta é ambígua. Qualquer reescrita citando hamaca ou hammock entregaria a resposta sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português diz que os hashis são originários da China. Os distratores são países vizinhos críveis e nenhum é a origem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Casa de reuniões entalhada\" é quase a definição literal de wharenui (\"casa entalhada\"). Isso permite responder sem a figura. Reescrito de forma neutra.",
+      "reescrita": {
+        "pergunta": "De que povo é esta construção tradicional?",
+        "resposta": "Maori",
+        "distratores": [
+          "Aborígenes australianos",
+          "Havaianos",
+          "Samoanos"
+        ]
+      }
+    }
+  ]
+}

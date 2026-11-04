@@ -1,0 +1,220 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem clara, só a pedra com as três escritas, sem legenda.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que estudioso francês decifrou a escrita egípcia antiga com a ajuda desta pedra?",
+      "resposta": "Jean-François Champollion",
+      "distratores": [
+        "Auguste Mariette",
+        "Howard Carter",
+        "Flinders Petrie"
+      ],
+      "ancora": {
+        "nome": "Pedra de Roseta",
+        "descricao": "Estela de granodiorito de 196 a.C. com um decreto em hieróglifos, demótico e grego, chave para decifrar a escrita egípcia.",
+        "variantes": [
+          "Rosetta Stone",
+          "Pedra de Rosetta"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Página manuscrita em escrita árabe magrebina, nítida e sem legenda que entregue a resposta.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que livro sagrado é o texto mais copiado em páginas como esta?",
+      "resposta": "Alcorão",
+      "distratores": [
+        "Bíblia",
+        "Torá",
+        "Bhagavad Gita"
+      ],
+      "ancora": {
+        "nome": "Caligrafia islâmica",
+        "descricao": "Arte da escrita em alfabeto árabe, muito usada em manuscritos do Alcorão, na arquitetura e na decoração.",
+        "variantes": [
+          "Caligrafia árabe",
+          "Khatt arabi"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Tabela com os símbolos do bopomofo, legível; o título em chinês não entrega a resposta em português.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que sistema de símbolos fonéticos é este?",
+      "resposta": "Bopomofo",
+      "distratores": [
+        "Katakana",
+        "Hangul",
+        "Devanágari"
+      ],
+      "ancora": {
+        "nome": "Bopomofo",
+        "descricao": "Sistema fonético de 37 símbolos usado para ensinar a pronúncia do mandarim, sobretudo em Taiwan.",
+        "variantes": [
+          "Zhuyin",
+          "Zhuyin Fuhao",
+          "Zhuyin fuhao"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Duas pessoas em primeiro plano, não são brincantes de festa pública, e o quimono é vestuário, fora do escopo do catálogo."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fileira de trulli em Alberobello, inconfundível; só há passantes pequenos ao fundo.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que região da Itália ficam casas de pedra com telhado cônico como estas?",
+      "resposta": "Puglia (Apúlia)",
+      "distratores": [
+        "Toscana",
+        "Sicília",
+        "Calábria"
+      ],
+      "ancora": {
+        "nome": "Trullo",
+        "descricao": "Habitação tradicional de pedra seca com telhado cônico, típica da Apúlia, no sul da Itália.",
+        "variantes": [
+          "Trulli",
+          "Trullo de Alberobello"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vista aérea de tulou circulares em meio a terraços, característicos e sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que povo chinês construiu estas grandes moradias fortificadas de terra?",
+      "resposta": "Hakka",
+      "distratores": [
+        "Uigures",
+        "Tibetanos",
+        "Miao"
+      ],
+      "ancora": {
+        "nome": "Tulou de Fujian",
+        "descricao": "Grandes moradias coletivas fortificadas de terra socada, circulares ou retangulares, do povo hakka no sudeste da China.",
+        "variantes": [
+          "Tulou",
+          "Fujian tulou"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pintura de Courbet em que a rede ocupa o centro; objeto claro, figura de arte em domínio público.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "De que língua indígena das Américas vem o nome deste objeto?",
+      "resposta": "Taíno",
+      "distratores": [
+        "Quíchua",
+        "Náuatle",
+        "Mapudungun"
+      ],
+      "ancora": {
+        "nome": "Rede de dormir",
+        "descricao": "Peça de tecido ou cordas suspensa entre dois pontos, criada por povos indígenas das Américas para dormir e descansar.",
+        "variantes": [
+          "Rede de descanso",
+          "Hammock",
+          "Hamaca"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, e o áo dài é vestuário, fora do escopo do catálogo."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Tendas cônicas num cenário de museu, com cartaz; facilmente confundidas com tipis, então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de hashi sobre fundo liso; só aparece uma mão, sem rosto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que país se originou este utensílio?",
+      "resposta": "China",
+      "distratores": [
+        "Japão",
+        "Coreia do Sul",
+        "Vietnã"
+      ],
+      "ancora": {
+        "nome": "Hashi",
+        "descricao": "Par de varetas de madeira, bambu ou outro material usado como talher na Ásia Oriental.",
+        "variantes": [
+          "Palitos chineses",
+          "Chopsticks",
+          "Pauzinhos"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Desenho com cavaleiro e ema, e a política só aceita ilustração para o que não pode ser fotografado; a cena mistura vários assuntos."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Casa de reuniões maori com entalhes vermelhos, característica; só uma pessoa pequena ao fundo.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que povo é esta casa de reuniões entalhada?",
+      "resposta": "Maori",
+      "distratores": [
+        "Aborígenes australianos",
+        "Havaianos",
+        "Samoanos"
+      ],
+      "ancora": {
+        "nome": "Wharenui",
+        "descricao": "Casa comunitária entalhada do povo maori da Nova Zelândia, centro de um marae.",
+        "variantes": [
+          "Whare whakairo",
+          "Casa de reuniões maori",
+          "Whare runanga"
+        ]
+      }
+    }
+  ]
+}
