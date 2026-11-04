@@ -1,0 +1,36 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado: produzido em Molsheim. Enunciado sem vazamento, distratores plausíveis (cidades francesas ligadas à indústria automotiva) e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Passa no teste da imagem coberta: 'piloto americano com sete títulos' já leva a NASCAR, e Earnhardt e Johnson têm o mesmo feito. A figura vira enfeite. Troquei por uma pergunta de apelido, confirmada nos trechos, que exige reconhecer o piloto.",
+      "reescrita": {
+        "pergunta": "Qual era o apelido deste piloto americano de stock car, heptacampeão da NASCAR?",
+        "resposta": "O Rei (The King)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português confirma que Dale Earnhardt Jr. correu na NASCAR. O enunciado não nomeia o piloto, e 'com o mesmo nome' afasta outros filhos. Distratores plausíveis e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que Jim Clark obteve 14 vitórias em GPs do Mundial com o Lotus 25. O enunciado não nomeia o carro e não dá pista que entregue a resposta. Distratores do mesmo tipo (pilotos da época) e nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}

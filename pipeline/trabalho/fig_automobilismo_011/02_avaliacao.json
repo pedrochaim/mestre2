@@ -1,0 +1,135 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Carro azul de corrida dos anos 1920, perfil nítido, cauda característica, sem texto que entregue.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade francesa este carro de corrida foi fabricado?",
+      "resposta": "Molsheim",
+      "distratores": [
+        "Mulhouse",
+        "Sochaux",
+        "Boulogne-Billancourt"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bugatti Type 35",
+        "descricao": "Carro de corrida da Bugatti produzido em Molsheim entre 1924 e 1930.",
+        "variantes": [
+          "Type 35",
+          "Bugatti T35"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Logotipos McLaren e Shell visíveis no carro entregam a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, chapéu de caubói característico, sem nome visível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este piloto americano conquistou sete títulos em que categoria do automobilismo?",
+      "resposta": "NASCAR (Cup Series)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Richard Petty",
+        "descricao": "Piloto americano de stock car apelidado de 'o Rei', heptacampeão da NASCAR Cup Series.",
+        "variantes": [
+          "Richard Lee Petty",
+          "The King"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Nome Red Bull escrito na carenagem entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Retrato de perfil pouco reconhecível, com patrocinadores no macacão; a identificação não é segura."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem nome visível; bigode e boné característicos.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que filho deste piloto da NASCAR, com o mesmo nome, também correu na categoria?",
+      "resposta": "Dale Earnhardt Jr.",
+      "distratores": [
+        "Kyle Petty",
+        "Ryan Newman",
+        "Kevin Harvick"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dale Earnhardt",
+        "descricao": "Piloto americano de stock car, heptacampeão da NASCAR, apelidado de 'o Intimidador'.",
+        "variantes": [
+          "Dale Earnhardt Sr.",
+          "Ralph Dale Earnhardt",
+          "The Intimidator"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Rosto pouco reconhecível e texto de equipe (Williams) no agasalho."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Difícil distinguir a F2008 de outros Ferrari da época pela imagem (pneus e número incertos); resposta não é única."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Retrato em traje civil sem contexto de corrida; piloto pouco reconhecível."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Carro verde com rodas amarelas, reconhecível como Lotus 25; sem nome visível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que piloto venceu quatorze Grandes Prêmios de Fórmula 1 com este carro?",
+      "resposta": "Jim Clark",
+      "distratores": [
+        "Graham Hill",
+        "Jackie Stewart",
+        "John Surtees"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lotus 25",
+        "descricao": "Carro de Fórmula 1 da Lotus projetado por Colin Chapman em 1962, primeiro monocoque total da categoria.",
+        "variantes": [
+          "Lotus 25 Climax"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução de uma rua residencial com canteiros, não de um circuito; pouco legível e ambígua."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Piloto em macacão de IndyCar, rosto pouco reconhecível e patrocinadores em texto; resposta ambígua."
+    }
+  ]
+}
