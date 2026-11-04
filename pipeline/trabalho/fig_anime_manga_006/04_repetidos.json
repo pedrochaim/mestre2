@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem criou o mangá em que aparece este personagem?",
+        "resposta": "Koyoharu Gotouge"
+      },
+      "existentes": [
+        {
+          "id": "q16578",
+          "pergunta": "Que estilo de respiração este caçador de demônios usa?",
+          "resposta": "Respiração das Chamas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre o autor do mangá; a existente é sobre o estilo de respiração do personagem. São fatos diferentes."
+    }
+  ]
+}

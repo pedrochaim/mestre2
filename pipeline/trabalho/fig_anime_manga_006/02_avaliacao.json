@@ -1,0 +1,297 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta de Squirtle reconhecível (cabeça redonda, cauda enrolada); pergunta de evolução exige reconhecer antes.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Wartortle",
+      "distratores": [
+        "Ivysaur",
+        "Charmeleon",
+        "Metapod"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Squirtle",
+        "descricao": "Pokémon inicial de tipo Água da primeira geração, uma tartaruga azul.",
+        "variantes": [
+          "Zenigame"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Personagem único, nítido, sem texto; reconhecível pelo lenço laranja e roupa.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Androide 17",
+      "distratores": [
+        "Androide 16",
+        "Androide 18",
+        "Cell"
+      ],
+      "ancora": {
+        "nome": "Androide 17",
+        "descricao": "Androide criado pelo Dr. Gero em Dragon Ball Z, irmão gêmeo da Androide 18.",
+        "variantes": [
+          "C-17",
+          "Android 17",
+          "Número 17"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Arte nítida de Akaza; a silhueta agachada, sem as marcas do corpo, não é bem reconhecível, então usa a imagem colorida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este demônio ocupava que posição entre os Doze Kizuki?",
+      "resposta": "Terceira Lua Superior",
+      "distratores": [
+        "Primeira Lua Superior",
+        "Segunda Lua Superior",
+        "Quarta Lua Superior"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Akaza",
+        "descricao": "Demônio de Demon Slayer, Terceira Lua Superior dos Doze Kizuki, antes um humano chamado Hakuji.",
+        "variantes": [
+          "Hakuji"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta de Snorlax muito característica (orelhas, corpanzil, pés).",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Snorlax",
+      "distratores": [
+        "Munchlax",
+        "Slaking",
+        "Hariyama"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Snorlax",
+        "descricao": "Pokémon gigante e sonolento de tipo Normal da primeira geração.",
+        "variantes": [
+          "Kabigon"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Personagem sozinho, corpo inteiro, capa de chamas e espada formam silhueta característica.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem criou o mangá em que aparece este personagem?",
+      "resposta": "Koyoharu Gotouge",
+      "distratores": [
+        "Tite Kubo",
+        "Eiichiro Oda",
+        "Gege Akutami"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Kyojuro Rengoku",
+        "descricao": "Pilar da Chama da Tropa dos Caçadores de Demônios em Demon Slayer.",
+        "variantes": [
+          "Rengoku",
+          "Kyoujurou Rengoku"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem nítida de Misato; silhueta feminina genérica, não reconhecível, usa colorida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que garoto piloto passa a morar com esta personagem?",
+      "resposta": "Shinji Ikari",
+      "distratores": [
+        "Kaworu Nagisa",
+        "Toji Suzuhara",
+        "Kensuke Aida"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Misato Katsuragi",
+        "descricao": "Capitã e diretora de operações da NERV em Neon Genesis Evangelion.",
+        "variantes": [
+          "Misato"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Personagem icônico e nítido; a silhueta é uma massa pouco distintiva, usa colorida com nome em múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Shin-chan",
+      "distratores": [
+        "Chibi Maruko-chan",
+        "Nobita",
+        "Doraemon"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Shin-chan",
+        "descricao": "Menino de cinco anos travesso, protagonista do mangá e anime Crayon Shin-chan.",
+        "variantes": [
+          "Shinnosuke Nohara",
+          "Shinchan"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Arte clara de Chibiusa; silhueta confusa, usa colorida e pergunta pela autora.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem criou o mangá em que aparece esta personagem?",
+      "resposta": "Naoko Takeuchi",
+      "distratores": [
+        "Rumiko Takahashi",
+        "Hiromu Arakawa",
+        "Masami Kurumada"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Chibiusa",
+        "descricao": "Filha do futuro de Usagi e Mamoru em Sailor Moon, identidade de Sailor Chibi Moon.",
+        "variantes": [
+          "Sailor Chibi Moon",
+          "Rini",
+          "Small Lady"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Arte nítida de Muzan; silhueta com a poltrona é uma massa, usa colorida.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Muzan Kibutsuji",
+      "distratores": [
+        "Kokushibo",
+        "Doma",
+        "Kagaya Ubuyashiki"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Muzan Kibutsuji",
+        "descricao": "Rei dos Demônios e principal vilão de Demon Slayer.",
+        "variantes": [
+          "Muzan"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida de James, sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "James",
+      "distratores": [
+        "Butch",
+        "Brock",
+        "Giovanni"
+      ],
+      "ancora": {
+        "nome": "James (Equipe Rocket)",
+        "descricao": "Membro da Equipe Rocket de cabelo azul-arroxeado que persegue o Pikachu de Ash no anime Pokémon.",
+        "variantes": [
+          "James",
+          "Kojiro",
+          "Jessie e James"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cena do anime com Kuwabara em destaque, sem texto, reconhecível pelo topete laranja.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Por qual personagem, irmã de Hiei, este rapaz é apaixonado?",
+      "resposta": "Yukina",
+      "distratores": [
+        "Keiko",
+        "Botan",
+        "Genkai"
+      ],
+      "ancora": {
+        "nome": "Kuwabara",
+        "descricao": "Kazuma Kuwabara, amigo e rival de Yusuke em Yu Yu Hakusho, de topete laranja.",
+        "variantes": [
+          "Kazuma Kuwabara"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cena nítida de Ryo Saeba, sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Ryo Saeba",
+      "distratores": [
+        "Lupin III",
+        "Kenshiro",
+        "Seiya"
+      ],
+      "ancora": {
+        "nome": "Ryo Saeba",
+        "descricao": "Protagonista de City Hunter, detetive e mercenário de Shinjuku que tem fraqueza por mulheres.",
+        "variantes": [
+          "Saeba Ryo",
+          "City Hunter"
+        ]
+      }
+    }
+  ]
+}
