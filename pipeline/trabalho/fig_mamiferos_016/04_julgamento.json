@@ -1,0 +1,587 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Camurça",
+        "descricao": "Antílope-cabra (Rupicapra rupicapra) das montanhas da Europa e do oeste da Ásia, com chifres em gancho e máscara facial clara.",
+        "variantes": [
+          "Camurça-alpina",
+          "Chamois"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camurca",
+          "nome": "Camurça",
+          "descricao": "Couro de acabamento aveludado, lixado no lado de dentro da pele",
+          "variantes": [
+            "Suede"
+          ]
+        },
+        {
+          "id": "samosa",
+          "nome": "Samosa",
+          "descricao": "Salgado frito do subcontinente indiano, de massa em forma triangular, cone ou meia-lua, com recheio picante.",
+          "variantes": [
+            "Chamuça",
+            "Samossa",
+            "Shingara"
+          ]
+        },
+        {
+          "id": "amaura",
+          "nome": "Amaura",
+          "descricao": "Pokémon dos tipos Pedra e Gelo, número 698 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "morro_da_urca",
+          "nome": "Morro da Urca",
+          "descricao": "Morro do Rio de Janeiro, no bairro da Urca, primeira parada do bondinho que leva ao Pão de Açúcar.",
+          "variantes": [
+            "Urca"
+          ]
+        },
+        {
+          "id": "carcara",
+          "nome": "Carcará",
+          "descricao": "Falconídeo (Caracara plancus) de topete preto, rosto alaranjado e pernas amarelas, comum em campos abertos da América do Sul.",
+          "variantes": [
+            "Caracará",
+            "Crested caracara",
+            "Caracara plancus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cão-guaxinim",
+        "descricao": "Canídeo do leste da Ásia (Nyctereutes procyonoides) com máscara facial semelhante à do guaxinim.",
+        "variantes": [
+          "Cão-guaxinim-comum",
+          "Common raccoon dog",
+          "Nyctereutes procyonoides"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "guaxinim",
+          "nome": "Guaxinim",
+          "descricao": "Mamífero procionídeo norte-americano com máscara facial e cauda anelada, Procyon lotor.",
+          "variantes": [
+            "Racum",
+            "Mão-pelada",
+            "Raccoon",
+            "Procyon lotor"
+          ]
+        },
+        {
+          "id": "sagui_de_tufos_brancos",
+          "nome": "Sagui-de-tufos-brancos",
+          "descricao": "Primata do Novo Mundo, Callithrix jacchus, de tufos brancos nas orelhas, nativo do litoral do Nordeste brasileiro.",
+          "variantes": [
+            "Callithrix jacchus",
+            "Sagui-comum",
+            "Sagui-de-tufo-branco",
+            "Mico-estrela"
+          ]
+        },
+        {
+          "id": "o_guarani",
+          "nome": "O Guarani",
+          "descricao": "Romance indianista de José de Alencar publicado em 1857, com o herói Peri.",
+          "variantes": []
+        },
+        {
+          "id": "o_guarani_2",
+          "nome": "O Guarani",
+          "descricao": "Ópera de Carlos Gomes baseada no romance de José de Alencar, estreada em 1870.",
+          "variantes": [
+            "Il Guarany",
+            "Il Guarani"
+          ]
+        },
+        {
+          "id": "corvo",
+          "nome": "Corvo",
+          "descricao": "Grande ave negra da família dos corvídeos, Corvus corax, a mais difundida no Hemisfério Norte.",
+          "variantes": [
+            "Corvo-comum",
+            "Common raven",
+            "Corvus corax"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bisão-europeu",
+        "descricao": "Bovino selvagem (Bison bonasus), o maior mamífero terrestre da Europa.",
+        "variantes": [
+          "Wisent",
+          "Bisonte-europeu",
+          "Zubr",
+          "Bison bonasus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hino_da_europa",
+          "nome": "Hino da Europa",
+          "descricao": "Hino do Conselho da Europa e da União Europeia, baseado na Ode à Alegria, sem letra oficial.",
+          "variantes": [
+            "Hino europeu",
+            "Anthem of Europe"
+          ]
+        },
+        {
+          "id": "bisao_americano",
+          "nome": "Bisão-americano",
+          "descricao": "Grande bovino de corcova e juba espessa, nativo da América do Norte (Bison bison).",
+          "variantes": [
+            "Bison bison",
+            "Búfalo-americano",
+            "American bison"
+          ]
+        },
+        {
+          "id": "dragao_de_liubliana",
+          "nome": "Dragão de Liubliana",
+          "descricao": "Escultura de dragão de bronze esverdeado da Ponte do Dragão, símbolo da capital eslovena.",
+          "variantes": [
+            "Dragão europeu",
+            "Ponte do Dragão",
+            "Dragon Bridge",
+            "Ljubljana dragon"
+          ]
+        },
+        {
+          "id": "oktoberfest",
+          "nome": "Oktoberfest",
+          "descricao": "Festa popular anual de Munique, na Alemanha, famosa pela cerveja e pelos trajes típicos bávaros.",
+          "variantes": [
+            "Wiesn",
+            "Festa de Outubro"
+          ]
+        },
+        {
+          "id": "senet",
+          "nome": "Senet",
+          "descricao": "Jogo de tabuleiro do Egito Antigo, de trinta casas, um dos jogos de tabuleiro mais antigos conhecidos.",
+          "variantes": [
+            "Senat"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Hiena-castanha",
+        "descricao": "Espécie de hiena (Parahyaena brunnea) do sul da África, de pelo longo e escuro e juba clara.",
+        "variantes": [
+          "Hiena-parda",
+          "Brown hyena",
+          "Parahyaena brunnea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hiena_malhada",
+          "nome": "Hiena-malhada",
+          "descricao": "Maior hiena atual, de pelagem manchada, da África subsaariana (Crocuta crocuta).",
+          "variantes": [
+            "Crocuta crocuta",
+            "Hiena-pintada",
+            "Hiena-risonha",
+            "Spotted hyena"
+          ]
+        },
+        {
+          "id": "puma_2",
+          "nome": "Puma",
+          "descricao": "Grande felino de pelagem uniforme, Puma concolor, presente nas Américas.",
+          "variantes": [
+            "Onça-parda",
+            "Suçuarana",
+            "Leão-da-montanha",
+            "Puma concolor"
+          ]
+        },
+        {
+          "id": "lebre_europeia",
+          "nome": "Lebre-europeia",
+          "descricao": "Espécie de lebre (Lepus europaeus) nativa da Europa e partes da Ásia, também chamada lebre-comum.",
+          "variantes": [
+            "Lebre-comum",
+            "Lepus europaeus",
+            "European hare",
+            "Brown hare"
+          ]
+        },
+        {
+          "id": "hiena_riscada",
+          "nome": "Hiena-riscada",
+          "descricao": "Hiena listrada (Hyaena hyaena) da África, Oriente Médio e Índia.",
+          "variantes": [
+            "Hiena-listrada",
+            "Hyaena hyaena"
+          ]
+        },
+        {
+          "id": "chien_pao",
+          "nome": "Chien-Pao",
+          "descricao": "Pokémon dos tipos Sombrio e Gelo, número 1002 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Niala",
+        "descricao": "Antílope de chifres espiralados (Tragelaphus angasii) do sul da África, o macho com listras brancas e pelagem cinza-escura.",
+        "variantes": [
+          "Inhala",
+          "Nyala",
+          "Tragelaphus angasii"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oxala_interjeicao",
+          "nome": "Oxalá (interjeição)",
+          "descricao": "Interjeição portuguesa que exprime desejo, de origem árabe",
+          "variantes": [
+            "Ojalá",
+            "Inshallah"
+          ]
+        },
+        {
+          "id": "sneasel",
+          "nome": "Sneasel",
+          "descricao": "Pokémon de garras afiadas do tipo Sombrio/Gelo, número 215 da Pokédex Nacional, da segunda geração.",
+          "variantes": [
+            "Nyula"
+          ]
+        },
+        {
+          "id": "hala",
+          "nome": "Hala",
+          "descricao": "Kahuna da ilha Melemele, em Alola, especialista em pokémon lutadores nos jogos Pokémon Sun e Moon.",
+          "variantes": []
+        },
+        {
+          "id": "pinata",
+          "nome": "Piñata",
+          "descricao": "Recipiente enfeitado e cheio de doces que as crianças quebram de olhos vendados em festas mexicanas e latino-americanas.",
+          "variantes": [
+            "Pinhata",
+            "Pignatta"
+          ]
+        },
+        {
+          "id": "lago_vitoria",
+          "nome": "Lago Vitória",
+          "descricao": "Maior lago da África, dividido entre Uganda, Quênia e Tanzânia.",
+          "variantes": [
+            "Lake Victoria",
+            "Lago Victoria",
+            "Nyanza"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Preá",
+        "descricao": "Roedor selvagem (Cavia aperea), parente do porquinho-da-índia, comum no Brasil e países vizinhos.",
+        "variantes": [
+          "Preá-brasileiro",
+          "Brazilian guinea pig",
+          "Cavia aperea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "real_moeda",
+          "nome": "Real (moeda)",
+          "descricao": "Moeda oficial do Brasil, criada pelo Plano Real.",
+          "variantes": [
+            "Real brasileiro"
+          ]
+        },
+        {
+          "id": "portugues_brasileiro",
+          "nome": "Português brasileiro",
+          "descricao": "Variedade da língua portuguesa falada no Brasil",
+          "variantes": [
+            "Português do Brasil"
+          ]
+        },
+        {
+          "id": "caixa_preta",
+          "nome": "Caixa-preta",
+          "descricao": "Gravador de dados e de voz da cabine instalado em aviões para investigar acidentes.",
+          "variantes": [
+            "Registrador de voo",
+            "Flight recorder",
+            "Black box"
+          ]
+        },
+        {
+          "id": "cruzeiro_moeda",
+          "nome": "Cruzeiro (moeda)",
+          "descricao": "Moeda brasileira criada em 1942 em substituição ao mil-réis.",
+          "variantes": [
+            "Cruzeiro brasileiro"
+          ]
+        },
+        {
+          "id": "araucaria",
+          "nome": "Araucária",
+          "descricao": "Árvore Araucaria angustifolia, o pinheiro-do-paraná, típica do Sul do Brasil",
+          "variantes": [
+            "Araucaria angustifolia",
+            "pinheiro-do-paraná",
+            "pinheiro-brasileiro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Gauro",
+        "descricao": "Maior bovino selvagem (Bos gaurus), nativo do subcontinente indiano e do Sudeste Asiático.",
+        "variantes": [
+          "Bisão-indiano",
+          "Gaur",
+          "Bos gaurus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carl_friedrich_gauss",
+          "nome": "Carl Friedrich Gauss",
+          "descricao": "Matemático, astrônomo e físico alemão, o príncipe dos matemáticos.",
+          "variantes": [
+            "Johann Carl Friedrich Gauss",
+            "Gauß",
+            "Gauss"
+          ]
+        },
+        {
+          "id": "garfo",
+          "nome": "Garfo",
+          "descricao": "Talher com dentes usado para espetar e levar a comida à boca.",
+          "variantes": [
+            "Fork"
+          ]
+        },
+        {
+          "id": "pavao",
+          "nome": "Pavão",
+          "descricao": "Pavão-azul, ave originária do subcontinente indiano, cujo macho tem longa cauda com ocelos.",
+          "variantes": [
+            "Pavão-azul",
+            "Pavão-indiano",
+            "Pavo cristatus"
+          ]
+        },
+        {
+          "id": "chupim",
+          "nome": "Chupim",
+          "descricao": "Ave preta de brilho violáceo (Molothrus bonariensis) que bota os ovos em ninhos de outras aves.",
+          "variantes": [
+            "Molothrus bonariensis",
+            "Vira-bosta",
+            "Gaudério",
+            "Shiny cowbird"
+          ]
+        },
+        {
+          "id": "auroque",
+          "nome": "Auroque",
+          "descricao": "Boi selvagem extinto (Bos primigenius) da Eurásia e do norte da África, ancestral do gado doméstico.",
+          "variantes": [
+            "Uro",
+            "Bos primigenius",
+            "Aurochs"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Solenodonte",
+        "descricao": "Pequeno mamífero insetívoro e venenoso (Solenodon paradoxus), nativo da ilha de Hispaniola.",
+        "variantes": [
+          "Solenodonte-de-hispaniola",
+          "Agouta",
+          "Solenodon paradoxus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cutia",
+          "nome": "Cutia",
+          "descricao": "Roedor do gênero Dasyprocta, comum nas florestas das Américas Central e do Sul.",
+          "variantes": [
+            "Dasyprocta",
+            "Agouti"
+          ]
+        },
+        {
+          "id": "agua",
+          "nome": "Água",
+          "descricao": "Substância formada por hidrogênio e oxigênio, essencial à vida, considerada um dos quatro elementos pelos antigos.",
+          "variantes": [
+            "H2O"
+          ]
+        },
+        {
+          "id": "gota",
+          "nome": "Gota",
+          "descricao": "Doença inflamatória das articulações causada por depósitos de cristais, conhecida como doença dos reis.",
+          "variantes": [
+            "Artrite gotosa"
+          ]
+        },
+        {
+          "id": "argonauta",
+          "nome": "Argonauta",
+          "descricao": "Gênero Argonauta, polvos pelágicos cujas fêmeas secretam uma concha fina e frágil para guardar os ovos.",
+          "variantes": [
+            "Náutilo-de-papel",
+            "Paper nautilus"
+          ]
+        },
+        {
+          "id": "lagosta",
+          "nome": "Lagosta",
+          "descricao": "Crustáceo decápode marinho de corpo alongado e cauda musculosa, muito apreciado na culinária.",
+          "variantes": [
+            "Lobster"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Arminho",
+        "descricao": "Pequeno mustelídeo (Mustela erminea) da Eurásia e norte da América, de cauda com ponta preta e pelo branco no inverno.",
+        "variantes": [
+          "Stoat",
+          "Ermine",
+          "Mustela erminea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jaiminho_o_carteiro",
+          "nome": "Jaiminho, o Carteiro",
+          "descricao": "Carteiro do seriado Chaves, interpretado por Raul Padilla.",
+          "variantes": [
+            "Jaiminho",
+            "Jaime Garabito",
+            "Senhor Garabito"
+          ]
+        },
+        {
+          "id": "carmim",
+          "nome": "Carmim",
+          "descricao": "Corante vermelho natural, também chamado ácido carmínico ou cochonilha, usado em alimentos e cosméticos.",
+          "variantes": [
+            "carmine",
+            "corante de cochonilha",
+            "E120",
+            "Cochonilha",
+            "Ácido carmínico"
+          ]
+        },
+        {
+          "id": "bromo",
+          "nome": "Bromo",
+          "descricao": "Elemento químico de número atômico 35, um halogênio que é líquido castanho-avermelhado em temperatura ambiente.",
+          "variantes": [
+            "Bromine"
+          ]
+        },
+        {
+          "id": "teremim",
+          "nome": "Teremim",
+          "descricao": "Instrumento eletrônico tocado sem contato físico, pelo movimento das mãos perto de duas antenas, criado por Léon Theremin.",
+          "variantes": [
+            "Theremin",
+            "Teremin",
+            "Eterofone"
+          ]
+        },
+        {
+          "id": "trilha_jogo",
+          "nome": "Trilha (jogo)",
+          "descricao": "Jogo de tabuleiro para dois em que se tenta alinhar três peças para capturar peças do adversário, conhecido em inglês como nine men's morris.",
+          "variantes": [
+            "Moinho",
+            "Nine men's morris"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Animal (Rupicapra rupicapra), diferente do couro camurça."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cão-guaxinim é outra espécie, distinta do guaxinim."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Bisão-europeu difere do bisão-americano."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Hiena-castanha é espécie distinta das outras hienas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Niala é antílope; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Preá é roedor; candidatas são não relacionadas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Gauro é bovino asiático distinto do auroque e demais."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Solenodonte é distinto da cutia (agouti)."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o mustelídeo arminho."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas o enunciado ('babuíno africano com nome de divindade egípcia') permite responder Anúbis sem olhar a figura; a figura vira enfeite e não há pista alternativa que corrija isso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho em português diz que a camurça também se chama cabra-montesa, então esse distrator também é correto. Troquei-o por outro animal de montanha.",
+      "reescrita": {
+        "pergunta": "Que animal de montanha é este?",
+        "resposta": "Camurça",
+        "distratores": [
+          "Íbex-dos-alpes",
+          "Muflão",
+          "Argali"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta, sem vazamento, com distratores plausíveis e sem outra resposta defensável.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O bisão-europeu é nativo da Europa e os distratores são continentes. Dá para distingui-lo do bisão americano pela figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A espécie é a hiena mais rara. O trecho em inglês diz que a maior população está no sul do Kalahari, e o enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, com distratores do mesmo gênero e plausíveis. Nenhum deles está certo.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento, com roedores sul-americanos como distratores e nenhum deles correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, com bovinos asiáticos como distratores e nenhum deles correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O solenodonte-haitiano (S. paradoxus) é endêmico de Hispaniola, venenoso e noturno, conforme o trecho. A resposta vale para a espécie mostrada.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Não há resposta única: o trecho cita marmotas do Dia da Marmota também em Nova York (Dunkirk e Staten Island) e em Wisconsin, e Nova York é distrator. Além disso, o enunciado se responde sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, com mustelídeos parecidos como distratores e sem vazamento.",
+      "reescrita": null
+    }
+  ]
+}

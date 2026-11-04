@@ -1,0 +1,285 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de babuíno de corpo inteiro; pergunta sobre a divindade que dá nome à espécie.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este babuíno africano tem o nome de uma divindade do Egito antigo. Que divindade é essa?",
+      "resposta": "Anúbis",
+      "distratores": [
+        "Osíris",
+        "Hórus",
+        "Set"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Babuíno-anúbis",
+        "descricao": "Espécie de babuíno (Papio anubis) de pelagem verde-acinzentada, a mais difundida na África.",
+        "variantes": [
+          "Babuíno-oliva",
+          "Olive baboon",
+          "Papio anubis"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem nítida, perfil e chifres em gancho característicos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal de montanha é este?",
+      "resposta": "Camurça",
+      "distratores": [
+        "Íbex-dos-alpes",
+        "Muflão",
+        "Cabra-montesa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Camurça",
+        "descricao": "Antílope-cabra (Rupicapra rupicapra) das montanhas da Europa e do oeste da Ásia, com chifres em gancho e máscara facial clara.",
+        "variantes": [
+          "Camurça-alpina",
+          "Chamois"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida com a máscara facial característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que animal é este?",
+      "resposta": "Cão-guaxinim",
+      "distratores": [
+        "Guaxinim",
+        "Quati",
+        "Texugo-europeu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cão-guaxinim",
+        "descricao": "Canídeo do leste da Ásia (Nyctereutes procyonoides) com máscara facial semelhante à do guaxinim.",
+        "variantes": [
+          "Cão-guaxinim-comum",
+          "Common raccoon dog",
+          "Nyctereutes procyonoides"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Bisão-europeu nítido, de perfil, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este grande bovino selvagem é nativo de que continente?",
+      "resposta": "Europa",
+      "distratores": [
+        "América do Norte",
+        "Ásia",
+        "África"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bisão-europeu",
+        "descricao": "Bovino selvagem (Bison bonasus), o maior mamífero terrestre da Europa.",
+        "variantes": [
+          "Wisent",
+          "Bisonte-europeu",
+          "Zubr",
+          "Bison bonasus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Hiena-castanha nítida e característica, com juba clara.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta hiena é a mais rara do seu grupo. Em que deserto africano fica sua maior população?",
+      "resposta": "Kalahari",
+      "distratores": [
+        "Saara",
+        "Danakil",
+        "Karoo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hiena-castanha",
+        "descricao": "Espécie de hiena (Parahyaena brunnea) do sul da África, de pelo longo e escuro e juba clara.",
+        "variantes": [
+          "Hiena-parda",
+          "Brown hyena",
+          "Parahyaena brunnea"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Macho de niala nítido, com chifres espiralados e listras claras.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que antílope africano é este?",
+      "resposta": "Niala",
+      "distratores": [
+        "Cudo-maior",
+        "Bongo",
+        "Elande"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Niala",
+        "descricao": "Antílope de chifres espiralados (Tragelaphus angasii) do sul da África, o macho com listras brancas e pelagem cinza-escura.",
+        "variantes": [
+          "Inhala",
+          "Nyala",
+          "Tragelaphus angasii"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de preá, roedor de aspecto característico.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que roedor sul-americano é este?",
+      "resposta": "Preá",
+      "distratores": [
+        "Mocó",
+        "Cutia",
+        "Capivara"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Preá",
+        "descricao": "Roedor selvagem (Cavia aperea), parente do porquinho-da-índia, comum no Brasil e países vizinhos.",
+        "variantes": [
+          "Preá-brasileiro",
+          "Brazilian guinea pig",
+          "Cavia aperea"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Gauro nítido, de perfil, com a corcova muscular marcante.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que bovino selvagem asiático é este?",
+      "resposta": "Gauro",
+      "distratores": [
+        "Búfalo-d'água",
+        "Iaque",
+        "Banteng"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gauro",
+        "descricao": "Maior bovino selvagem (Bos gaurus), nativo do subcontinente indiano e do Sudeste Asiático.",
+        "variantes": [
+          "Bisão-indiano",
+          "Gaur",
+          "Bos gaurus"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Solenodonte nítido, com focinho comprido característico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este mamífero venenoso e noturno vive em uma ilha do Caribe. Qual?",
+      "resposta": "Hispaniola",
+      "distratores": [
+        "Jamaica",
+        "Porto Rico",
+        "Trinidad"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Solenodonte",
+        "descricao": "Pequeno mamífero insetívoro e venenoso (Solenodon paradoxus), nativo da ilha de Hispaniola.",
+        "variantes": [
+          "Solenodonte-de-hispaniola",
+          "Agouta",
+          "Solenodon paradoxus"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Marmota-americana nítida; pergunta liga ao Dia da Marmota.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Todo dia dois de fevereiro, um destes animais prevê o fim do inverno numa cidade americana. Em que estado fica essa cidade?",
+      "resposta": "Pensilvânia",
+      "distratores": [
+        "Ohio",
+        "Nova York",
+        "Vermont"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Marmota-americana",
+        "descricao": "Roedor da família dos esquilos (Marmota monax), grande marmota das terras baixas da América do Norte.",
+        "variantes": [
+          "Groundhog",
+          "Woodchuck",
+          "Marmota monax",
+          "Marmota-comum"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Arminho em pelagem de verão, com ponta preta na cauda característica.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que pequeno mustelídeo é este?",
+      "resposta": "Arminho",
+      "distratores": [
+        "Doninha-anã",
+        "Marta",
+        "Furão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Arminho",
+        "descricao": "Pequeno mustelídeo (Mustela erminea) da Eurásia e norte da América, de cauda com ponta preta e pelo branco no inverno.",
+        "variantes": [
+          "Stoat",
+          "Ermine",
+          "Mustela erminea"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto antiga, escura e granulada, com o animal na água; pouco legível num celular."
+    }
+  ]
+}
