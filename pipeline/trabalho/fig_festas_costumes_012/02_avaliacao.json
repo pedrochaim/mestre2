@@ -1,0 +1,158 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de trevo de quatro folhas, reconhecível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Segundo a tradição, o que se atribui a quem encontra esta folha rara?",
+      "resposta": "Boa sorte",
+      "distratores": [
+        "Riqueza",
+        "Amor verdadeiro",
+        "Longa vida"
+      ],
+      "ancora": {
+        "nome": "Trevo de quatro folhas",
+        "descricao": "Mutação rara do trevo comum, com quatro folíolos em vez de três, tradicionalmente associada à boa sorte.",
+        "variantes": [
+          "Trevo-de-quatro-folhas",
+          "Four-leaf clover"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Túnica preta bordada num manequim: pode ser abaya, jalabiya ou cafetã, sem resposta única; pouco reconhecível."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Apresentação de Kathakali com trajes e maquiagem característicos, claramente reconhecível; artistas de espetáculo público.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que estado indiano vem esta forma de teatro dançado?",
+      "resposta": "Kerala",
+      "distratores": [
+        "Tâmil Nadu",
+        "Rajastão",
+        "Bengala Ocidental"
+      ],
+      "ancora": {
+        "nome": "Kathakali",
+        "descricao": "Forma clássica indiana de teatro dançado do estado de Kerala, com maquiagem e trajes grandes e elaborados.",
+        "variantes": [
+          "Kathakali"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Objeto isolado em fundo branco, nítido e inconfundível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que objeto é este?",
+      "resposta": "Narguilé",
+      "distratores": [
+        "Samovar",
+        "Lamparina a óleo",
+        "Cachimbo de barro"
+      ],
+      "ancora": {
+        "nome": "Narguilé",
+        "descricao": "Instrumento de fumo com base de água e mangueira, usado para fumar tabaco aromatizado.",
+        "variantes": [
+          "Shisha",
+          "Hookah",
+          "Cachimbo de água"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano num casamento privado e marca d'água do fotógrafo visível."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "É um desenho, não uma foto; objeto que pode ser fotografado, então ilustração não é aceita."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Retrato de pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto de lutadores de sumô profissionais em combate, com o mawashi bem visível.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta vestimenta usada por lutadores?",
+      "resposta": "Japão",
+      "distratores": [
+        "Coreia do Sul",
+        "Mongólia",
+        "China"
+      ],
+      "ancora": {
+        "nome": "Mawashi",
+        "descricao": "Faixa de tecido que os lutadores de sumô vestem em treinos e combates.",
+        "variantes": [
+          "Mawashi"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Desfile de carros alegóricos (hoko) com figurantes do festival público; reconhecível por quem conhece. Placa de rua não entrega o festival.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que festival japonês de carros alegóricos desfila nesta rua?",
+      "resposta": "Gion Matsuri",
+      "distratores": [
+        "Takayama Matsuri",
+        "Nebuta Matsuri",
+        "Kanda Matsuri"
+      ],
+      "ancora": {
+        "nome": "Gion Matsuri",
+        "descricao": "Festival xintoísta de Kyoto, em julho, famoso pelos desfiles de carros alegóricos Yamaboko Junkō.",
+        "variantes": [
+          "Festival Gion",
+          "Gion Festival"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A etiqueta do museu com 'Grass skirt' está visível e entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Esculturas de gelo genéricas e torre iluminada, pouco reconhecíveis; pode ser confundido com outros festivais de gelo."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem de baixíssima resolução, não fica legível no celular, e a cena é pouco distintiva."
+    }
+  ]
+}

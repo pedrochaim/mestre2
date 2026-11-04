@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que estado indiano vem esta forma de teatro dançado?",
+        "resposta": "Kerala"
+      },
+      "existentes": [
+        {
+          "id": "q14089",
+          "pergunta": "Que forma clássica de teatro dançado da Índia é esta?",
+          "resposta": "Kathakali"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que país é esta vestimenta usada por lutadores?",
+        "resposta": "Japão"
+      },
+      "existentes": [
+        {
+          "id": "q14375",
+          "pergunta": "Como se chama a faixa de pano que estes lutadores usam na cintura?",
+          "resposta": "Mawashi"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o estado de origem (Kerala), não o nome da forma de teatro (Kathakali)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o país de origem da vestimenta, não o nome da faixa (mawashi); fatos diferentes."
+    }
+  ]
+}
