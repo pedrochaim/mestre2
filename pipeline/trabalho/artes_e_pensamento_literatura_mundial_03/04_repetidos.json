@@ -1,0 +1,933 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Das irmãs Brontë que publicaram romances, qual delas nasceu por último?",
+        "resposta": "Anne"
+      },
+      "existentes": [
+        {
+          "id": "q02941",
+          "pergunta": "Charlotte, Emily e Anne Brontë estrearam com pseudônimos masculinos. Que sobrenome os três pseudônimos compartilhavam?",
+          "resposta": "Bell"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Com cerca de quatro mil versos, qual é a peça mais longa de William Shakespeare?",
+        "resposta": "Hamlet"
+      },
+      "existentes": [
+        {
+          "id": "q02956",
+          "pergunta": "Que tragédia de Shakespeare, em que um tio mata o rei e toma o trono do sobrinho, inspirou a animação O Rei Leão?",
+          "resposta": "Hamlet"
+        },
+        {
+          "id": "q04243",
+          "pergunta": "Hamlet, o príncipe de Shakespeare que se pergunta se deve ser ou não ser, vive no castelo de Elsinore. Em que país?",
+          "resposta": "Dinamarca"
+        },
+        {
+          "id": "q04274",
+          "pergunta": "Qual é a peça mais longa de William Shakespeare?",
+          "resposta": "Hamlet"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O Inferno, primeira parte da Divina Comédia, de Dante, tem um canto a mais que as outras duas partes. Quantos cantos ele tem?",
+        "resposta": "Trinta e quatro"
+      },
+      "existentes": [
+        {
+          "id": "q02973",
+          "pergunta": "Na Divina Comédia, que poeta da Roma Antiga guia Dante pelo Inferno e pelo Purgatório?",
+          "resposta": "Virgílio"
+        },
+        {
+          "id": "q02974",
+          "pergunta": "Somando Inferno, Purgatório e Paraíso, quantos cantos tem a Divina Comédia, de Dante?",
+          "resposta": "Cem"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Qual romance de Agatha Christie é o mais vendido de toda a sua obra?",
+        "resposta": "E Não Sobrou Nenhum"
+      },
+      "existentes": [
+        {
+          "id": "q04377",
+          "pergunta": "Trabalhando na farmácia de um hospital durante a Primeira Guerra, Agatha Christie aprendeu muito sobre o quê, arma frequente em seus crimes?",
+          "resposta": "Venenos"
+        },
+        {
+          "id": "q06408",
+          "pergunta": "Qual destes detetives foi criado por esta escritora?",
+          "resposta": "Hercule Poirot"
+        },
+        {
+          "id": "q07025",
+          "pergunta": "Em 1926, Agatha Christie sumiu sem deixar rastro e acabou achada num hotel, hospedada com nome falso. Quantos dias durou o sumiço?",
+          "resposta": "Onze"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Dos sete livros da série Harry Potter, de J. K. Rowling, qual é o mais longo?",
+        "resposta": "A Ordem da Fênix"
+      },
+      "existentes": [
+        {
+          "id": "q11479",
+          "pergunta": "Quem é esta autora britânica?",
+          "resposta": "J. K. Rowling"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Qual destes escritores latino-americanos recebeu o Nobel de Literatura antes dos outros?",
+        "resposta": "Gabriela Mistral"
+      },
+      "existentes": [
+        {
+          "id": "q06991",
+          "pergunta": "Em 1901, quem recebeu o primeiro Prêmio Nobel de Literatura da história?",
+          "resposta": "Sully Prudhomme"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Qual destes poemas épicos é o mais longo, em número de versos?",
+        "resposta": "Ilíada"
+      },
+      "existentes": [
+        {
+          "id": "q13425",
+          "pergunta": "Por volta de que século antes de Cristo foi composta a Ilíada, o poema de Homero sobre a Guerra de Troia?",
+          "resposta": "Século oito a.C."
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Entre as terras visitadas por Gulliver, no livro de Jonathan Swift, em qual vivem os habitantes mais altos?",
+        "resposta": "Brobdingnag"
+      },
+      "existentes": [
+        {
+          "id": "q06983",
+          "pergunta": "Em 1726, que clérigo irlandês, deão de uma catedral em Dublin, publicou As Viagens de Gulliver?",
+          "resposta": "Jonathan Swift"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Na Divina Comédia, Virgílio guia Dante até o alto do Purgatório. Que mulher amada pelo poeta o conduz pelo Paraíso?",
+        "resposta": "Beatriz"
+      },
+      "existentes": [
+        {
+          "id": "q02973",
+          "pergunta": "Na Divina Comédia, que poeta da Roma Antiga guia Dante pelo Inferno e pelo Purgatório?",
+          "resposta": "Virgílio"
+        },
+        {
+          "id": "q02974",
+          "pergunta": "Somando Inferno, Purgatório e Paraíso, quantos cantos tem a Divina Comédia, de Dante?",
+          "resposta": "Cem"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em Hamlet, no cemitério, o príncipe segura a caveira de um antigo bobo da corte que conhecera na infância. Como ele se chamava?",
+        "resposta": "Yorick"
+      },
+      "existentes": [
+        {
+          "id": "q02956",
+          "pergunta": "Que tragédia de Shakespeare, em que um tio mata o rei e toma o trono do sobrinho, inspirou a animação O Rei Leão?",
+          "resposta": "Hamlet"
+        },
+        {
+          "id": "q04243",
+          "pergunta": "Hamlet, o príncipe de Shakespeare que se pergunta se deve ser ou não ser, vive no castelo de Elsinore. Em que país?",
+          "resposta": "Dinamarca"
+        },
+        {
+          "id": "q04274",
+          "pergunta": "Qual é a peça mais longa de William Shakespeare?",
+          "resposta": "Hamlet"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em Os Lusíadas, que gigante, personificação do Cabo das Tormentas, surge para ameaçar a frota de Vasco da Gama?",
+        "resposta": "Adamastor"
+      },
+      "existentes": [
+        {
+          "id": "q02937",
+          "pergunta": "O título do poema épico Os Lusíadas, de Camões, se refere a que povo?",
+          "resposta": "Os portugueses"
+        },
+        {
+          "id": "q02967",
+          "pergunta": "Segundo a tradição, Camões salvou o manuscrito de Os Lusíadas a nado, num naufrágio na foz de que rio asiático?",
+          "resposta": "Rio Mekong"
+        },
+        {
+          "id": "q06841",
+          "pergunta": "Publicado em 1572, o poema épico Os Lusíadas, de Luís de Camões, é dividido em quantos cantos?",
+          "resposta": "Dez"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Entre os heterônimos de Fernando Pessoa, qual era tratado como mestre pelos outros e pelo próprio Pessoa?",
+        "resposta": "Alberto Caeiro"
+      },
+      "existentes": [
+        {
+          "id": "q02241",
+          "pergunta": "Que poeta português do início do século vinte é este?",
+          "resposta": "Fernando Pessoa"
+        },
+        {
+          "id": "q02969",
+          "pergunta": "Fernando Pessoa passou boa parte da infância numa cidade da África do Sul, onde estudou em inglês. Que cidade é essa?",
+          "resposta": "Durban"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Como se chama o cavalo velho e magro que Dom Quixote monta em suas aventuras?",
+        "resposta": "Rocinante"
+      },
+      "existentes": [
+        {
+          "id": "q07002",
+          "pergunta": "Em que ano foi publicada a primeira parte de Dom Quixote, de Cervantes?",
+          "resposta": "1605"
+        },
+        {
+          "id": "q07012",
+          "pergunta": "No espanhol da época de Cervantes, a palavra quijote designava uma peça de armadura. Que parte do corpo ela protegia?",
+          "resposta": "A coxa"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "O romance Moby Dick começa com o narrador pedindo ao leitor que o chame por um certo nome. Qual?",
+        "resposta": "Ismael"
+      },
+      "existentes": [
+        {
+          "id": "q02949",
+          "pergunta": "O naufrágio do baleeiro americano Essex, em 1820, inspirou o romance Moby Dick. O que afundou o navio?",
+          "resposta": "Um cachalote"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Ao chegar à Terra, no meio do deserto, qual é o primeiro ser que o Pequeno Príncipe encontra?",
+        "resposta": "A serpente"
+      },
+      "existentes": [
+        {
+          "id": "q06985",
+          "pergunta": "O Pequeno Príncipe, publicado em 1943, foi escrito e ilustrado por que escritor francês?",
+          "resposta": "Antoine de Saint-Exupéry"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "No grande romance de Marcel Proust, que bolinho, molhado no chá, desperta de repente as lembranças de infância do narrador?",
+        "resposta": "Madeleine"
+      },
+      "existentes": [
+        {
+          "id": "q17235",
+          "pergunta": "Qual destas obras foi escrita por este autor?",
+          "resposta": "Em Busca do Tempo Perdido"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Na última viagem de Gulliver, ele chega a uma terra governada por animais sábios e racionais. Que animais são esses?",
+        "resposta": "Cavalos"
+      },
+      "existentes": [
+        {
+          "id": "q06983",
+          "pergunta": "Em 1726, que clérigo irlandês, deão de uma catedral em Dublin, publicou As Viagens de Gulliver?",
+          "resposta": "Jonathan Swift"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "No livro de Collodi, Pinóquio e Gepeto são engolidos por um animal que a Disney trocou por uma baleia. Que animal é esse no original?",
+        "resposta": "Um tubarão gigante"
+      },
+      "existentes": [
+        {
+          "id": "q02940",
+          "pergunta": "No dialeto da Toscana, terra de Carlo Collodi, o que significa a palavra Pinocchio?",
+          "resposta": "Pinhão"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Dante escreveu a Divina Comédia numa forma de estrofe com rimas encadeadas, que ficou ligada ao seu nome. Como ela se chama?",
+        "resposta": "Terça rima"
+      },
+      "existentes": [
+        {
+          "id": "q02973",
+          "pergunta": "Na Divina Comédia, que poeta da Roma Antiga guia Dante pelo Inferno e pelo Purgatório?",
+          "resposta": "Virgílio"
+        },
+        {
+          "id": "q02974",
+          "pergunta": "Somando Inferno, Purgatório e Paraíso, quantos cantos tem a Divina Comédia, de Dante?",
+          "resposta": "Cem"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Nas horas de folga e de reflexão, que instrumento musical o detetive Sherlock Holmes costuma tocar?",
+        "resposta": "Violino"
+      },
+      "existentes": [
+        {
+          "id": "q02971",
+          "pergunta": "Sherlock Holmes morava no número duzentos e vinte e um B de que rua de Londres?",
+          "resposta": "Baker Street"
+        },
+        {
+          "id": "q07017",
+          "pergunta": "O médico Gregory House, genial e ranzinza protagonista da série House, foi inspirado em que detetive da literatura?",
+          "resposta": "Sherlock Holmes"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "O capitão Ahab persegue a baleia branca por vingança. Que parte do corpo ele perdeu num encontro anterior com ela?",
+        "resposta": "Uma perna"
+      },
+      "existentes": [
+        {
+          "id": "q02949",
+          "pergunta": "O naufrágio do baleeiro americano Essex, em 1820, inspirou o romance Moby Dick. O que afundou o navio?",
+          "resposta": "Um cachalote"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Em Alice no País das Maravilhas, o Gato de Cheshire desaparece aos poucos. Que parte dele fica por último no ar?",
+        "resposta": "O sorriso"
+      },
+      "existentes": [
+        {
+          "id": "q06986",
+          "pergunta": "Que escritor, na verdade um professor de matemática de Oxford usando pseudônimo, publicou Alice no País das Maravilhas em 1865?",
+          "resposta": "Lewis Carroll"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Em O Grande Gatsby, Jay Gatsby contempla à noite uma luz no fim do cais da casa de Daisy. De que cor é essa luz?",
+        "resposta": "Verde"
+      },
+      "existentes": [
+        {
+          "id": "q07005",
+          "pergunta": "O Grande Gatsby, de Scott Fitzgerald, retrata as festas luxuosas de um milionário em Long Island. Em que década se passa a história?",
+          "resposta": "Década de 1920"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Em A Metamorfose, de Kafka, Gregor Samsa acorda certa manhã transformado num inseto. Qual era a profissão dele?",
+        "resposta": "Caixeiro-viajante"
+      },
+      "existentes": [
+        {
+          "id": "q06940",
+          "pergunta": "Que escritor de Praga publicou em 1915 a novela em que o caixeiro-viajante Gregor Samsa acorda transformado num inseto monstruoso?",
+          "resposta": "Franz Kafka"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Nos romances de José Saramago, as falas dos personagens não levam travessão nem aspas. Que sinal de pontuação as separa?",
+        "resposta": "Vírgula"
+      },
+      "existentes": [
+        {
+          "id": "q07003",
+          "pergunta": "Em que ano José Saramago se tornou o primeiro escritor de língua portuguesa a receber o Nobel de Literatura?",
+          "resposta": "1998"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Que doença neurológica Dostoiévski tinha e deu a personagens como o príncipe Míchkin, de O Idiota?",
+        "resposta": "Epilepsia"
+      },
+      "existentes": [
+        {
+          "id": "q02942",
+          "pergunta": "Em 1849, Dostoiévski já estava diante do pelotão de fuzilamento quando a execução foi interrompida. Por quê?",
+          "resposta": "O czar comutou a pena"
+        },
+        {
+          "id": "q03631",
+          "pergunta": "Qual destes romances foi escrito pelo autor retratado nesta figura?",
+          "resposta": "Crime e Castigo"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Na Primeira Guerra Mundial, antes da fama, Hemingway foi ferido na Itália. Em que função ele servia lá?",
+        "resposta": "Motorista de ambulância"
+      },
+      "existentes": [
+        {
+          "id": "q05500",
+          "pergunta": "Qual destes livros foi escrito pelo homem fotografado aqui?",
+          "resposta": "O Velho e o Mar"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Nos últimos anos de vida, quase sem sair de casa, a poeta Emily Dickinson ficou conhecida por se vestir de que cor?",
+        "resposta": "Branco"
+      },
+      "existentes": [
+        {
+          "id": "q17419",
+          "pergunta": "Que poeta é esta, retratada nesta fotografia antiga?",
+          "resposta": "Emily Dickinson"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Na Odisseia, para enganar o ciclope Polifemo, Ulisses diz ter um nome que depois confunde os outros ciclopes. Que nome falso é esse?",
+        "resposta": "Ninguém"
+      },
+      "existentes": [
+        {
+          "id": "q02977",
+          "pergunta": "Na Odisseia, depois do fim da Guerra de Troia, quantos anos Ulisses leva para voltar para casa, em Ítaca?",
+          "resposta": "Dez anos"
+        },
+        {
+          "id": "q13466",
+          "pergunta": "Na Odisseia, quando Ulisses volta a Ítaca disfarçado de mendigo, que animal o reconhece e morre logo em seguida?",
+          "resposta": "O cão Argos"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Por que o companheiro nativo de Robinson Crusoé recebe dele o nome de Sexta-Feira?",
+        "resposta": "Dia em que se conheceram"
+      },
+      "existentes": [
+        {
+          "id": "q06984",
+          "pergunta": "Publicado em 1719, o romance Robinson Crusoé, sobre um náufrago que vive anos numa ilha, foi escrito por que inglês?",
+          "resposta": "Daniel Defoe"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Ferido numa batalha naval contra os turcos em 1571, Cervantes perdeu o movimento da mão esquerda. Que apelido ganhou por isso?",
+        "resposta": "Manco de Lepanto"
+      },
+      "existentes": [
+        {
+          "id": "q03658",
+          "pergunta": "Ferido na mão esquerda numa batalha naval contra os turcos, em 1571, Miguel de Cervantes ganhou que apelido?",
+          "resposta": "Manco de Lepanto"
+        },
+        {
+          "id": "q03667",
+          "pergunta": "O que Miguel de Cervantes, autor de Dom Quixote, e o dramaturgo inglês William Shakespeare têm em comum quanto à morte?",
+          "resposta": "Morreram no mesmo ano, 1616"
+        },
+        {
+          "id": "q06996",
+          "pergunta": "Em 1575, voltando para a Espanha, Cervantes foi capturado por piratas e passou cinco anos cativo em que cidade do norte da África?",
+          "resposta": "Argel"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Por superstição, muitos atores evitam dizer no teatro o nome de que tragédia de Shakespeare, chamando-a de a peça escocesa?",
+        "resposta": "Macbeth"
+      },
+      "existentes": [
+        {
+          "id": "q03389",
+          "pergunta": "Por superstição, atores de língua inglesa evitam dizer Macbeth dentro do teatro. Como costumam chamar essa tragédia?",
+          "resposta": "A peça escocesa"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Mark Twain nasceu em 1835 e morreu em 1910, como ele mesmo previra, em anos de passagem de que astro?",
+        "resposta": "Cometa Halley"
+      },
+      "existentes": [
+        {
+          "id": "q02934",
+          "pergunta": "O pseudônimo Mark Twain vem de um grito dos barqueiros do rio Mississippi. O que essa expressão indicava?",
+          "resposta": "Profundidade de duas braças"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Em 1857, Madame Bovary, de Flaubert, e As Flores do Mal, de Baudelaire, tiveram o mesmo destino na França. Qual?",
+        "resposta": "Processados por imoralidade"
+      },
+      "existentes": [
+        {
+          "id": "q06407",
+          "pergunta": "Quem é este romancista francês do século dezenove?",
+          "resposta": "Gustave Flaubert"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "O título do romance O Mundo se Despedaça, de Chinua Achebe, foi tirado de um verso de que poeta irlandês?",
+        "resposta": "W. B. Yeats"
+      },
+      "existentes": [
+        {
+          "id": "q02966",
+          "pergunta": "O Mundo se Despedaça, romance de 1958 sobre o choque da colonização britânica entre os igbos, foi escrito por que nigeriano?",
+          "resposta": "Chinua Achebe"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Na versão dos irmãos Grimm para Cinderela, as filhas da madrasta cortam partes dos próprios pés. Por que fazem isso?",
+        "resposta": "Para caber no sapato"
+      },
+      "existentes": [
+        {
+          "id": "q14547",
+          "pergunta": "Quem são estes dois irmãos alemães do século dezenove?",
+          "resposta": "Irmãos Grimm"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Aos doze anos, Charles Dickens foi trabalhar numa fábrica de graxa para sapatos. O que levou a família a essa situação?",
+        "resposta": "Prisão do pai por dívidas"
+      },
+      "existentes": [
+        {
+          "id": "q05494",
+          "pergunta": "Qual destes romances foi escrito pelo homem retratado aqui?",
+          "resposta": "Oliver Twist"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "O bisavô materno do poeta russo Pushkin, levado ainda criança para a corte de Pedro, o Grande, nasceu em que continente?",
+        "resposta": "África"
+      },
+      "existentes": [
+        {
+          "id": "q05504",
+          "pergunta": "Qual destas obras foi escrita pelo homem deste retrato?",
+          "resposta": "Eugênio Onêguin"
+        },
+        {
+          "id": "q07021",
+          "pergunta": "Em 1837, aos trinta e sete anos, o poeta Alexandre Pushkin morreu em São Petersburgo. O que provocou sua morte?",
+          "resposta": "Um ferimento num duelo"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "Depois de abandonar a poesia ainda jovem, Arthur Rimbaud virou comerciante na cidade de Harar. Em que país africano ela fica?",
+        "resposta": "Etiópia"
+      },
+      "existentes": [
+        {
+          "id": "q16921",
+          "pergunta": "Que poeta francês é este, retratado na juventude?",
+          "resposta": "Arthur Rimbaud"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "Em quantos cantos se divide o poema épico Os Lusíadas, de Camões?",
+        "resposta": "Dez"
+      },
+      "existentes": [
+        {
+          "id": "q02937",
+          "pergunta": "O título do poema épico Os Lusíadas, de Camões, se refere a que povo?",
+          "resposta": "Os portugueses"
+        },
+        {
+          "id": "q02967",
+          "pergunta": "Segundo a tradição, Camões salvou o manuscrito de Os Lusíadas a nado, num naufrágio na foz de que rio asiático?",
+          "resposta": "Rio Mekong"
+        },
+        {
+          "id": "q06841",
+          "pergunta": "Publicado em 1572, o poema épico Os Lusíadas, de Luís de Camões, é dividido em quantos cantos?",
+          "resposta": "Dez"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "Em Um Conto de Natal, depois da visita do fantasma do sócio Marley, quantos espíritos aparecem para Scrooge?",
+        "resposta": "Três"
+      },
+      "existentes": [
+        {
+          "id": "q07015",
+          "pergunta": "Em inglês, o Tio Patinhas se chama Scrooge, nome do velho avarento de que história de Charles Dickens?",
+          "resposta": "Um Conto de Natal"
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "nova": {
+        "pergunta": "Em Os Filhos da Meia-Noite, de Salman Rushdie, o narrador nasce exatamente na meia-noite que marca que acontecimento?",
+        "resposta": "Independência da Índia"
+      },
+      "existentes": [
+        {
+          "id": "q07024",
+          "pergunta": "Em 1989, o aiatolá Khomeini, líder do Irã, decretou a morte do escritor Salman Rushdie. Por causa de que livro?",
+          "resposta": "Os Versos Satânicos"
+        }
+      ]
+    },
+    {
+      "caso": 43,
+      "nova": {
+        "pergunta": "Aladim e Ali Babá não aparecem nos manuscritos árabes antigos das Mil e Uma Noites. Que tradutor francês os incluiu no século dezoito?",
+        "resposta": "Antoine Galland"
+      },
+      "existentes": [
+        {
+          "id": "q07019",
+          "pergunta": "Nas Mil e Uma Noites, que jovem conta histórias ao rei toda noite para adiar a própria execução?",
+          "resposta": "Sherazade"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ordem de nascimento vs pseudônimo."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q04274",
+      "motivo": "Mesmo fato: peça mais longa."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cantos do Inferno, diferente do total."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Livro mais vendido é outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Livro mais longo, outro fato."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Extensão vs data."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Guia do Paraíso é outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Yorick é outro fato."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Adamastor é outro fato."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 24,
+      "decisao": "repete",
+      "id_existente": "q06940",
+      "motivo": "A existente já revela que Gregor é caixeiro-viajante; quem sabe isso responde."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 31,
+      "decisao": "repete",
+      "id_existente": "q03658",
+      "motivo": "Mesmo apelido de Cervantes."
+    },
+    {
+      "caso": 32,
+      "decisao": "repete",
+      "id_existente": "q03389",
+      "motivo": "Mesmo fato, direção inversa."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 40,
+      "decisao": "repete",
+      "id_existente": "q06841",
+      "motivo": "Mesmo número de cantos."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 42,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    },
+    {
+      "caso": 43,
+      "decisao": "nova",
+      "motivo": "Outro fato."
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Datas de nascimento nos trechos confirmam Anne como a mais nova.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hamlet é a peça mais longa, com cerca de 4 mil versos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Nenhuma, são iguais' contradiz a premissa; só há duas outras partes. Melhor perguntar o número de cantos.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "O Inferno, primeira parte da Divina Comédia, de Dante, tem um canto a mais que as outras duas partes. Quantos cantos ele tem?",
+        "resposta": "Trinta e quatro",
+        "distratores": [
+          "Trinta e três",
+          "Trinta e dois",
+          "Trinta e seis"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Inferno_(Dante)",
+          "https://pt.wikipedia.org/wiki/Inferno_(Divina_Com%C3%A9dia)"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dmitri é o filho mais velho, conforme o trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lydia é a caçula Bennet, confirmado no trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "E Não Sobrou Nenhum é o mais vendido da autora, com mais de 100 milhões de cópias.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Ordem da Fênix é o mais longo da série, conforme o trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mistral (1945) precede Neruda, García Márquez e Paz; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ilíada tem 15.693 versos, mais que a Eneida (9.896) e os demais.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Brobdingnag é a terra dos gigantes; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Beatriz guia Dante pelo Paraíso; distratores de mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Yorick é o bobo da corte cuja caveira Hamlet segura.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Adamastor personifica o Cabo das Tormentas em Os Lusíadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caeiro é o mestre dos outros heterônimos e do próprio Pessoa.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rocinante é o cavalo magro de Dom Quixote; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Call me Ishmael' abre o romance.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os diálogos da aristocracia aparecem em francês, conforme o trecho em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "No livro, a serpente é o primeiro ser que o príncipe encontra na Terra.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Episódio da madeleine, bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os Houyhnhnms são cavalos racionais na quarta viagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "No original, Pinóquio é engolido por um tubarão gigante, conforme o trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Terça rima foi criada por Dante na Divina Comédia.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Holmes toca violino, conforme o trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Moby Dick arrancou a perna de Ahab.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O sorriso é o que resta do Gato de Cheshire.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A luz verde no cais de Daisy é o símbolo central do romance.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gregor Samsa é caixeiro-viajante, conforme o trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Saramago usa vírgulas onde outros usam pontos e travessões; o trecho confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Epilepsia de Dostoiévski e do príncipe Míchkin, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hemingway foi motorista de ambulância na Frente Italiana.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Preferência por roupas brancas confirmada no trecho em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ulisses diz chamar-se Ninguém, conforme o trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta 'Nenhum' não é específica e destoa dos distratores que são nomes; fica confusa em voz alta.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que o nome vem do dia em que se conheceram; 'foi salvo' não está na fonte. Ângulo mais específico é nome.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Por que o companheiro nativo de Robinson Crusoé recebe dele o nome de Sexta-Feira?",
+        "resposta": "Dia em que se conheceram",
+        "distratores": [
+          "Dia em que nasceu",
+          "Dia do naufrágio",
+          "Dia do batismo"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Man_Friday"
+        ]
+      }
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cervantes ficou conhecido como o Manco de Lepanto, conforme os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Macbeth é 'a peça escocesa' da superstição teatral.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Napoleão representa Stálin, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Twain nasceu e morreu em passagens do cometa Halley.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos foram processados por ofensa à moral em 1857.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O título vem de 'The Second Coming', de Yeats, segundo o trecho em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Dia de Portugal lembra a morte de Camões em 10 de junho.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Valjean foi preso por roubar pão, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Meias-irmãs' é impreciso (são irmãs postiças) e os distratores são absurdos, pois a madrasta é quem manda cortar.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "Na versão dos irmãos Grimm para Cinderela, as filhas da madrasta cortam partes dos próprios pés. Por que fazem isso?",
+        "resposta": "Para caber no sapato",
+        "distratores": [
+          "Por castigo da fada",
+          "Para fugir do príncipe",
+          "Para dançar melhor"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Cinderella"
+        ]
+      }
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pai preso por dívidas enquanto Dickens trabalhava na fábrica de graxa.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gannibal, bisavô materno de Pushkin, era de origem africana.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rimbaud foi comerciante em Harar, na Etiópia.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os Lusíadas têm dez cantos; o trecho cita o canto X.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Três espíritos visitam Scrooge depois de Marley.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Saleem nasce na meia-noite da independência da Índia.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Galland incluiu Aladim e Ali Babá, conforme os trechos.",
+      "reescrita": null
+    }
+  ]
+}

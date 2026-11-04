@@ -1,0 +1,1252 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "irmas_bronte",
+        "nome": "Irmãs Brontë",
+        "descricao": "Charlotte, Emily e Anne Brontë, escritoras inglesas do século dezenove, autoras de Jane Eyre e O Morro dos Ventos Uivantes.",
+        "variantes": [
+          "Brontë sisters"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bront%C3%AB_family"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Das irmãs Brontë que publicaram romances, qual delas nasceu por último?",
+      "resposta": "Anne",
+      "distratores": [
+        "Charlotte",
+        "Emily",
+        "Elizabeth"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Anne_Bront%C3%AB",
+        "https://en.wikipedia.org/wiki/Bront%C3%AB_family"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "hamlet",
+        "nome": "Hamlet",
+        "descricao": "Tragédia de William Shakespeare sobre o príncipe da Dinamarca que vinga a morte do pai.",
+        "variantes": [
+          "A Tragédia de Hamlet, Príncipe da Dinamarca"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hamlet"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Com cerca de quatro mil versos, qual é a peça mais longa de William Shakespeare?",
+      "resposta": "Hamlet",
+      "distratores": [
+        "Rei Lear",
+        "Otelo",
+        "Ricardo Terceiro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hamlet"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "divina_comedia",
+        "nome": "Divina Comédia",
+        "descricao": "Poema épico de Dante Alighieri, do início do século quatorze, dividido em Inferno, Purgatório e Paraíso.",
+        "variantes": [
+          "Divina Commedia",
+          "Commedia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Divine_Comedy"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "A Divina Comédia, de Dante, tem três partes. Qual delas tem um canto a mais que as outras duas?",
+      "resposta": "Inferno",
+      "distratores": [
+        "Purgatório",
+        "Paraíso",
+        "Nenhuma, são iguais"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Inferno_(Dante)",
+        "https://en.wikipedia.org/wiki/Divine_Comedy"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Os Irmãos Karamázov",
+        "descricao": "Último romance de Fiódor Dostoiévski, publicado em 1880, sobre os filhos de Fiódor Karamázov e o assassinato do pai.",
+        "variantes": [
+          "Os Irmãos Karamazov",
+          "The Brothers Karamazov"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Brothers_Karamazov",
+          "https://pt.wikipedia.org/wiki/Os_Irm%C3%A3os_Karam%C3%A1zov"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Em Os Irmãos Karamázov, de Dostoiévski, qual é o primogênito entre os filhos legítimos de Fiódor Karamázov?",
+      "resposta": "Dmitri",
+      "distratores": [
+        "Ivan",
+        "Aliócha",
+        "Smerdiakóv"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Brothers_Karamazov"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Orgulho e Preconceito",
+        "descricao": "Romance de Jane Austen, publicado em 1813, sobre Elizabeth Bennet e o senhor Darcy.",
+        "variantes": [
+          "Pride and Prejudice"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+          "https://pt.wikipedia.org/wiki/Orgulho_e_Preconceito"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Em Orgulho e Preconceito, Elizabeth é uma das cinco irmãs Bennet. Qual delas é a caçula?",
+      "resposta": "Lydia",
+      "distratores": [
+        "Jane",
+        "Mary",
+        "Kitty"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lydia_Bennet",
+        "https://en.wikipedia.org/wiki/Pride_and_Prejudice"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "agatha_christie",
+        "nome": "Agatha Christie",
+        "descricao": "Escritora inglesa de romances policiais, criadora dos detetives Hercule Poirot e Miss Marple.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Agatha_Christie"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual romance de Agatha Christie é o mais vendido de toda a sua obra?",
+      "resposta": "E Não Sobrou Nenhum",
+      "distratores": [
+        "Morte no Nilo",
+        "Um Corpo na Biblioteca",
+        "Cai o Pano"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/And_Then_There_Were_None"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "j_k_rowling",
+        "nome": "J. K. Rowling",
+        "descricao": "Autora britânica da série Harry Potter.",
+        "variantes": [
+          "Joanne Rowling"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/J._K._Rowling"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Dos sete livros da série Harry Potter, de J. K. Rowling, qual é o mais longo?",
+      "resposta": "A Ordem da Fênix",
+      "distratores": [
+        "O Cálice de Fogo",
+        "As Relíquias da Morte",
+        "O Enigma do Príncipe"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Order_of_the_Phoenix"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "premio_nobel_de_literatura",
+        "nome": "Prêmio Nobel de Literatura",
+        "descricao": "Prêmio anual concedido pela Academia Sueca desde 1901 a escritores de destaque.",
+        "variantes": [
+          "Nobel Prize in Literature"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nobel_Prize_in_Literature"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes escritores latino-americanos recebeu o Nobel de Literatura antes dos outros?",
+      "resposta": "Gabriela Mistral",
+      "distratores": [
+        "Pablo Neruda",
+        "Gabriel García Márquez",
+        "Octavio Paz"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gabriela_Mistral",
+        "https://en.wikipedia.org/wiki/List_of_Nobel_laureates_in_Literature"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ilíada",
+        "descricao": "Poema épico grego atribuído a Homero, sobre a ira de Aquiles durante a Guerra de Troia.",
+        "variantes": [
+          "Iliad",
+          "Ilias"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Iliad",
+          "https://pt.wikipedia.org/wiki/Il%C3%ADada"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes poemas épicos é o mais longo, em número de versos?",
+      "resposta": "Ilíada",
+      "distratores": [
+        "Odisseia",
+        "Eneida",
+        "Os Lusíadas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Iliad",
+        "https://en.wikipedia.org/wiki/Odyssey",
+        "https://en.wikipedia.org/wiki/Aeneid"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "as_viagens_de_gulliver",
+        "nome": "As Viagens de Gulliver",
+        "descricao": "Romance satírico de Jonathan Swift, publicado em 1726, sobre as viagens do cirurgião Lemuel Gulliver a terras imaginárias.",
+        "variantes": [
+          "Gulliver's Travels"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gulliver%27s_Travels"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre as terras visitadas por Gulliver, no livro de Jonathan Swift, em qual vivem os habitantes mais altos?",
+      "resposta": "Brobdingnag",
+      "distratores": [
+        "Liliput",
+        "Laputa",
+        "Blefuscu"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brobdingnag",
+        "https://en.wikipedia.org/wiki/Gulliver%27s_Travels"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "divina_comedia",
+        "nome": "Divina Comédia",
+        "descricao": "Poema épico de Dante Alighieri, do início do século quatorze, dividido em Inferno, Purgatório e Paraíso.",
+        "variantes": [
+          "Divina Commedia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Divine_Comedy"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na Divina Comédia, Virgílio guia Dante até o alto do Purgatório. Que mulher amada pelo poeta o conduz pelo Paraíso?",
+      "resposta": "Beatriz",
+      "distratores": [
+        "Laura",
+        "Francesca",
+        "Fiammetta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Beatrice_Portinari",
+        "https://en.wikipedia.org/wiki/Divine_Comedy"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "hamlet",
+        "nome": "Hamlet",
+        "descricao": "Tragédia de William Shakespeare sobre o príncipe da Dinamarca que vinga a morte do pai.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hamlet"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Em Hamlet, no cemitério, o príncipe segura a caveira de um antigo bobo da corte que conhecera na infância. Como ele se chamava?",
+      "resposta": "Yorick",
+      "distratores": [
+        "Polônio",
+        "Horácio",
+        "Osric"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Yorick"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "os_lusiadas",
+        "nome": "Os Lusíadas",
+        "descricao": "Poema épico de Luís de Camões, publicado em 1572, sobre a viagem de Vasco da Gama à Índia.",
+        "variantes": [
+          "Lusíadas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Os_Lus%C3%ADadas"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Em Os Lusíadas, que gigante, personificação do Cabo das Tormentas, surge para ameaçar a frota de Vasco da Gama?",
+      "resposta": "Adamastor",
+      "distratores": [
+        "Polifemo",
+        "Briareu",
+        "Golias"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Adamastor"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "fernando_pessoa",
+        "nome": "Fernando Pessoa",
+        "descricao": "Poeta português (1888–1935), criador de heterônimos como Alberto Caeiro, Álvaro de Campos e Ricardo Reis.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fernando_Pessoa"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Entre os heterônimos de Fernando Pessoa, qual era tratado como mestre pelos outros e pelo próprio Pessoa?",
+      "resposta": "Alberto Caeiro",
+      "distratores": [
+        "Álvaro de Campos",
+        "Ricardo Reis",
+        "Bernardo Soares"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alberto_Caeiro",
+        "https://pt.wikipedia.org/wiki/Alberto_Caeiro"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "dom_quixote",
+        "nome": "Dom Quixote",
+        "descricao": "Romance de Miguel de Cervantes, publicado em duas partes, em 1605 e 1615, sobre um fidalgo que se julga cavaleiro andante.",
+        "variantes": [
+          "Don Quijote de la Mancha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Don_Quixote"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Como se chama o cavalo velho e magro que Dom Quixote monta em suas aventuras?",
+      "resposta": "Rocinante",
+      "distratores": [
+        "Babieca",
+        "Bucéfalo",
+        "Rucio"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rocinante"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "moby_dick",
+        "nome": "Moby Dick",
+        "descricao": "Romance de Herman Melville, de 1851, sobre a caça do capitão Ahab a uma baleia branca.",
+        "variantes": [
+          "Moby-Dick"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Moby-Dick"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O romance Moby Dick começa com o narrador pedindo ao leitor que o chame por um certo nome. Qual?",
+      "resposta": "Ismael",
+      "distratores": [
+        "Ahab",
+        "Queequeg",
+        "Starbuck"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ishmael_(Moby-Dick)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Guerra e Paz",
+        "descricao": "Romance de Liev Tolstói, publicado na década de 1860, sobre famílias aristocráticas russas durante as guerras napoleônicas.",
+        "variantes": [
+          "War and Peace",
+          "Voina i mir"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/War_and_Peace",
+          "https://pt.wikipedia.org/wiki/Guerra_e_Paz"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Em Guerra e Paz, de Tolstói, muitos diálogos da aristocracia russa aparecem escritos em que outra língua?",
+      "resposta": "Francês",
+      "distratores": [
+        "Alemão",
+        "Inglês",
+        "Polonês"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/War_and_Peace"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "o_pequeno_principe",
+        "nome": "O Pequeno Príncipe",
+        "descricao": "Novela ilustrada de Antoine de Saint-Exupéry, publicada em 1943, sobre um principezinho vindo de um asteroide.",
+        "variantes": [
+          "Le Petit Prince"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Little_Prince"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Ao chegar à Terra, no meio do deserto, qual é o primeiro ser que o Pequeno Príncipe encontra?",
+      "resposta": "A serpente",
+      "distratores": [
+        "A raposa",
+        "O manobreiro",
+        "Um jardim de rosas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Little_Prince"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "marcel_proust",
+        "nome": "Marcel Proust",
+        "descricao": "Romancista francês, autor de Em Busca do Tempo Perdido.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Marcel_Proust"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No grande romance de Marcel Proust, que bolinho, molhado no chá, desperta de repente as lembranças de infância do narrador?",
+      "resposta": "Madeleine",
+      "distratores": [
+        "Croissant",
+        "Macaron",
+        "Brioche"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Madeleine_(cake)",
+        "https://en.wikipedia.org/wiki/In_Search_of_Lost_Time"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "as_viagens_de_gulliver",
+        "nome": "As Viagens de Gulliver",
+        "descricao": "Romance satírico de Jonathan Swift, publicado em 1726, sobre as viagens do cirurgião Lemuel Gulliver a terras imaginárias.",
+        "variantes": [
+          "Gulliver's Travels"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gulliver%27s_Travels"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na última viagem de Gulliver, ele chega a uma terra governada por animais sábios e racionais. Que animais são esses?",
+      "resposta": "Cavalos",
+      "distratores": [
+        "Macacos",
+        "Elefantes",
+        "Corujas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Houyhnhnm"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pinoquio",
+        "nome": "Pinóquio",
+        "descricao": "Boneco de madeira cujo nariz cresce quando mente, criado pelo italiano Carlo Collodi em 1883.",
+        "variantes": [
+          "Pinocchio"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Adventures_of_Pinocchio"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No livro de Collodi, Pinóquio e Gepeto são engolidos por um animal que a Disney trocou por uma baleia. Que animal é esse no original?",
+      "resposta": "Um tubarão gigante",
+      "distratores": [
+        "Uma lula gigante",
+        "Um polvo",
+        "Uma serpente marinha"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Adventures_of_Pinocchio"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "divina_comedia",
+        "nome": "Divina Comédia",
+        "descricao": "Poema épico de Dante Alighieri, do início do século quatorze, dividido em Inferno, Purgatório e Paraíso.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Divine_Comedy"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Dante escreveu a Divina Comédia numa forma de estrofe com rimas encadeadas, que ficou ligada ao seu nome. Como ela se chama?",
+      "resposta": "Terça rima",
+      "distratores": [
+        "Oitava rima",
+        "Soneto",
+        "Redondilha"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Terza_rima"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sherlock_holmes",
+        "nome": "Sherlock Holmes",
+        "descricao": "Detetive londrino criado pelo escritor escocês Arthur Conan Doyle em 1887.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sherlock_Holmes"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Nas horas de folga e de reflexão, que instrumento musical o detetive Sherlock Holmes costuma tocar?",
+      "resposta": "Violino",
+      "distratores": [
+        "Piano",
+        "Violoncelo",
+        "Flauta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sherlock_Holmes"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "moby_dick",
+        "nome": "Moby Dick",
+        "descricao": "Romance de Herman Melville, de 1851, sobre a caça do capitão Ahab a uma baleia branca.",
+        "variantes": [
+          "Moby-Dick"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Moby-Dick"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "O capitão Ahab persegue a baleia branca por vingança. Que parte do corpo ele perdeu num encontro anterior com ela?",
+      "resposta": "Uma perna",
+      "distratores": [
+        "Um braço",
+        "Um olho",
+        "Uma mão"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Captain_Ahab"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "alice_no_pais_das_maravilhas",
+        "nome": "Alice no País das Maravilhas",
+        "descricao": "Livro de Lewis Carroll, de 1865, sobre uma menina que cai numa toca de coelho e chega a um mundo fantástico.",
+        "variantes": [
+          "Alice's Adventures in Wonderland"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em Alice no País das Maravilhas, o Gato de Cheshire desaparece aos poucos. Que parte dele fica por último no ar?",
+      "resposta": "O sorriso",
+      "distratores": [
+        "O rabo",
+        "Os olhos",
+        "As orelhas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cheshire_Cat"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "o_grande_gatsby",
+        "nome": "O Grande Gatsby",
+        "descricao": "Romance de F. Scott Fitzgerald, de 1925, sobre o milionário misterioso Jay Gatsby em Long Island.",
+        "variantes": [
+          "The Great Gatsby"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Great_Gatsby"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em O Grande Gatsby, Jay Gatsby contempla à noite uma luz no fim do cais da casa de Daisy. De que cor é essa luz?",
+      "resposta": "Verde",
+      "distratores": [
+        "Vermelha",
+        "Azul",
+        "Amarela"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Great_Gatsby"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "A Metamorfose",
+        "descricao": "Novela de Franz Kafka, publicada em 1915, em que Gregor Samsa acorda transformado num inseto monstruoso.",
+        "variantes": [
+          "Die Verwandlung",
+          "The Metamorphosis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Metamorphosis",
+          "https://pt.wikipedia.org/wiki/A_Metamorfose"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em A Metamorfose, de Kafka, Gregor Samsa acorda certa manhã transformado num inseto. Qual era a profissão dele?",
+      "resposta": "Caixeiro-viajante",
+      "distratores": [
+        "Bancário",
+        "Professor",
+        "Alfaiate"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Metamorphosis"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "jose_saramago",
+        "nome": "José Saramago",
+        "descricao": "Escritor português (1922–2010), autor de Ensaio sobre a Cegueira e Memorial do Convento.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jos%C3%A9_Saramago"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Nos romances de José Saramago, as falas dos personagens não levam travessão nem aspas. Que sinal de pontuação as separa?",
+      "resposta": "Vírgula",
+      "distratores": [
+        "Ponto e vírgula",
+        "Dois-pontos",
+        "Reticências"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jos%C3%A9_Saramago",
+        "https://pt.wikipedia.org/wiki/Jos%C3%A9_Saramago"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "fiodor_dostoievski",
+        "nome": "Fiódor Dostoiévski",
+        "descricao": "Escritor russo (1821–1881), autor de Crime e Castigo e Os Irmãos Karamázov.",
+        "variantes": [
+          "Fyodor Dostoevsky"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Que doença neurológica Dostoiévski tinha e deu a personagens como o príncipe Míchkin, de O Idiota?",
+      "resposta": "Epilepsia",
+      "distratores": [
+        "Enxaqueca",
+        "Mal de Parkinson",
+        "Esclerose múltipla"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "https://en.wikipedia.org/wiki/The_Idiot"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ernest_hemingway",
+        "nome": "Ernest Hemingway",
+        "descricao": "Romancista americano, Nobel de Literatura em 1954, autor de O Velho e o Mar.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ernest_Hemingway"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Na Primeira Guerra Mundial, antes da fama, Hemingway foi ferido na Itália. Em que função ele servia lá?",
+      "resposta": "Motorista de ambulância",
+      "distratores": [
+        "Piloto de caça",
+        "Correspondente de guerra",
+        "Soldado de infantaria"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ernest_Hemingway"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "emily_dickinson",
+        "nome": "Emily Dickinson",
+        "descricao": "Poeta americana do século dezenove, de Amherst, Massachusetts.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Emily_Dickinson"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Nos últimos anos de vida, quase sem sair de casa, a poeta Emily Dickinson ficou conhecida por se vestir de que cor?",
+      "resposta": "Branco",
+      "distratores": [
+        "Preto",
+        "Cinza",
+        "Azul"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Emily_Dickinson"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "odisseia",
+        "nome": "Odisseia",
+        "descricao": "Poema épico grego atribuído a Homero, sobre o retorno de Ulisses a Ítaca.",
+        "variantes": [
+          "Odyssey"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Odyssey"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Na Odisseia, para enganar o ciclope Polifemo, Ulisses diz ter um nome que depois confunde os outros ciclopes. Que nome falso é esse?",
+      "resposta": "Ninguém",
+      "distratores": [
+        "Telêmaco",
+        "Estrangeiro",
+        "Todos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Polyphemus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "frankenstein",
+        "nome": "Frankenstein",
+        "descricao": "Romance de Mary Shelley, publicado em 1818, sobre um cientista que dá vida a uma criatura.",
+        "variantes": [
+          "Frankenstein, ou o Moderno Prometeu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Frankenstein"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "No romance de Mary Shelley, Frankenstein é o sobrenome do cientista. Que nome a criatura dele recebe no livro?",
+      "resposta": "Nenhum",
+      "distratores": [
+        "Igor",
+        "Lázaro",
+        "Prometeu"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Frankenstein%27s_monster"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "robinson_crusoe",
+        "nome": "Robinson Crusoé",
+        "descricao": "Romance inglês de 1719 sobre um náufrago que passa anos sozinho numa ilha.",
+        "variantes": [
+          "Robinson Crusoe"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Robinson_Crusoe"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Por que o companheiro nativo de Robinson Crusoé recebe dele o nome de Sexta-Feira?",
+      "resposta": "Dia em que foi salvo",
+      "distratores": [
+        "Dia em que nasceu",
+        "Dia do naufrágio",
+        "Dia do descanso"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Man_Friday",
+        "https://en.wikipedia.org/wiki/Robinson_Crusoe"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "miguel_de_cervantes",
+        "nome": "Miguel de Cervantes",
+        "descricao": "Escritor espanhol, autor de Dom Quixote, que lutou como soldado na Batalha de Lepanto.",
+        "variantes": [
+          "Miguel de Cervantes Saavedra"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Miguel_de_Cervantes"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Ferido numa batalha naval contra os turcos em 1571, Cervantes perdeu o movimento da mão esquerda. Que apelido ganhou por isso?",
+      "resposta": "Manco de Lepanto",
+      "distratores": [
+        "Cavaleiro da Triste Figura",
+        "Herói de Argel",
+        "Maneta de Castela"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "https://en.wikipedia.org/wiki/Miguel_de_Cervantes"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Macbeth",
+        "descricao": "Tragédia de William Shakespeare sobre um general escocês que mata o rei para tomar o trono.",
+        "variantes": [
+          "A Tragédia de Macbeth"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Macbeth"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Por superstição, muitos atores evitam dizer no teatro o nome de que tragédia de Shakespeare, chamando-a de a peça escocesa?",
+      "resposta": "Macbeth",
+      "distratores": [
+        "Rei Lear",
+        "Otelo",
+        "Hamlet"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Scottish_play"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "A Revolução dos Bichos",
+        "descricao": "Fábula satírica de George Orwell, de 1945, em que os animais de uma fazenda expulsam o dono e acabam dominados pelos porcos.",
+        "variantes": [
+          "Animal Farm",
+          "O Triunfo dos Porcos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Animal_Farm",
+          "https://pt.wikipedia.org/wiki/A_Revolu%C3%A7%C3%A3o_dos_Bichos"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em A Revolução dos Bichos, de Orwell, o porco Napoleão vira o ditador da fazenda. Que líder da história ele representa?",
+      "resposta": "Josef Stálin",
+      "distratores": [
+        "Vladimir Lênin",
+        "Leon Trótski",
+        "Nikita Khruschóv"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Napoleon_(Animal_Farm)",
+        "https://en.wikipedia.org/wiki/Animal_Farm"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mark_twain",
+        "nome": "Mark Twain",
+        "descricao": "Escritor americano (1835–1910), autor de As Aventuras de Tom Sawyer e Huckleberry Finn.",
+        "variantes": [
+          "Samuel Clemens"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mark_Twain"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Mark Twain nasceu em 1835 e morreu em 1910, como ele mesmo previra, em anos de passagem de que astro?",
+      "resposta": "Cometa Halley",
+      "distratores": [
+        "Cometa Hale-Bopp",
+        "Trânsito de Vênus",
+        "Cometa Encke"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mark_Twain"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "gustave_flaubert",
+        "nome": "Gustave Flaubert",
+        "descricao": "Romancista francês do realismo, autor de Madame Bovary.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gustave_Flaubert"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 1857, Madame Bovary, de Flaubert, e As Flores do Mal, de Baudelaire, tiveram o mesmo destino na França. Qual?",
+      "resposta": "Processados por imoralidade",
+      "distratores": [
+        "Premiados pela Academia",
+        "Queimados em praça pública",
+        "Escritos na prisão"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Madame_Bovary",
+        "https://en.wikipedia.org/wiki/Les_Fleurs_du_mal"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "o_mundo_se_despedaca",
+        "nome": "O Mundo se Despedaça",
+        "descricao": "Romance nigeriano de 1958 sobre a chegada da colonização britânica ao povo igbo.",
+        "variantes": [
+          "Things Fall Apart"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Things_Fall_Apart"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O título do romance O Mundo se Despedaça, de Chinua Achebe, foi tirado de um verso de que poeta irlandês?",
+      "resposta": "W. B. Yeats",
+      "distratores": [
+        "Oscar Wilde",
+        "Seamus Heaney",
+        "James Joyce"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Things_Fall_Apart"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Luís de Camões",
+        "descricao": "Poeta português do século dezesseis, autor de Os Lusíadas.",
+        "variantes": [
+          "Luís Vaz de Camões",
+          "Camões"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lu%C3%ADs_de_Cam%C3%B5es",
+          "https://pt.wikipedia.org/wiki/Lu%C3%ADs_de_Cam%C3%B5es"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Portugal comemora o seu dia nacional em dez de junho, data tradicional da morte de que escritor?",
+      "resposta": "Luís de Camões",
+      "distratores": [
+        "Fernando Pessoa",
+        "Eça de Queirós",
+        "Gil Vicente"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Portugal_Day",
+        "https://en.wikipedia.org/wiki/Lu%C3%ADs_de_Cam%C3%B5es"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Os Miseráveis",
+        "descricao": "Romance de Victor Hugo, publicado em 1862, sobre o ex-presidiário Jean Valjean na França do século dezenove.",
+        "variantes": [
+          "Les Misérables"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+          "https://pt.wikipedia.org/wiki/Os_Miser%C3%A1veis"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "No início de Os Miseráveis, Jean Valjean sai de dezenove anos na prisão. Que crime o levou à cadeia?",
+      "resposta": "Roubar um pão",
+      "distratores": [
+        "Furtar um cavalo",
+        "Agredir um padre",
+        "Caçar ilegalmente"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jean_Valjean"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "irmaos_grimm",
+        "nome": "Irmãos Grimm",
+        "descricao": "Jacob e Wilhelm Grimm, estudiosos e escritores alemães que reuniram contos populares.",
+        "variantes": [
+          "Brothers Grimm"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brothers_Grimm"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Na versão dos irmãos Grimm para Cinderela, as meias-irmãs cortam partes dos próprios pés. Por que fazem isso?",
+      "resposta": "Para caber no sapato",
+      "distratores": [
+        "Por castigo do príncipe",
+        "Para enganar a madrasta",
+        "Para dançar melhor"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cinderella"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "charles_dickens",
+        "nome": "Charles Dickens",
+        "descricao": "Romancista inglês da era vitoriana, autor de Oliver Twist e David Copperfield.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Charles_Dickens"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Aos doze anos, Charles Dickens foi trabalhar numa fábrica de graxa para sapatos. O que levou a família a essa situação?",
+      "resposta": "Prisão do pai por dívidas",
+      "distratores": [
+        "Morte do pai",
+        "Incêndio na casa",
+        "Doença da mãe"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Charles_Dickens"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "alexandre_pushkin",
+        "nome": "Alexandre Pushkin",
+        "descricao": "Poeta e romancista russo do Romantismo, autor de Eugênio Onêguin.",
+        "variantes": [
+          "Aleksandr Púchkin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alexander_Pushkin"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O bisavô materno do poeta russo Pushkin, levado ainda criança para a corte de Pedro, o Grande, nasceu em que continente?",
+      "resposta": "África",
+      "distratores": [
+        "Ásia",
+        "América do Sul",
+        "Oceania"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Abram_Petrovich_Gannibal",
+        "https://en.wikipedia.org/wiki/Alexander_Pushkin"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "arthur_rimbaud",
+        "nome": "Arthur Rimbaud",
+        "descricao": "Poeta francês do século dezenove, autor de Iluminações e Uma Temporada no Inferno.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Arthur_Rimbaud"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Depois de abandonar a poesia ainda jovem, Arthur Rimbaud virou comerciante na cidade de Harar. Em que país africano ela fica?",
+      "resposta": "Etiópia",
+      "distratores": [
+        "Egito",
+        "Sudão",
+        "Somália"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Arthur_Rimbaud"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "os_lusiadas",
+        "nome": "Os Lusíadas",
+        "descricao": "Poema épico de Luís de Camões, publicado em 1572, sobre a viagem de Vasco da Gama à Índia.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Os_Lus%C3%ADadas"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em quantos cantos se divide o poema épico Os Lusíadas, de Camões?",
+      "resposta": "Dez",
+      "distratores": [
+        "Doze",
+        "Oito",
+        "Vinte e quatro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Os_Lus%C3%ADadas"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ebenezer_scrooge",
+        "nome": "Ebenezer Scrooge",
+        "descricao": "Velho avarento protagonista de Um Conto de Natal, de Charles Dickens, publicado em 1843.",
+        "variantes": [
+          "Scrooge"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ebenezer_Scrooge"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em Um Conto de Natal, depois da visita do fantasma do sócio Marley, quantos espíritos aparecem para Scrooge?",
+      "resposta": "Três",
+      "distratores": [
+        "Dois",
+        "Quatro",
+        "Cinco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/A_Christmas_Carol"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "salman_rushdie",
+        "nome": "Salman Rushdie",
+        "descricao": "Escritor britânico de origem indiana, nascido em 1947, autor de Os Filhos da Meia-Noite.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Salman_Rushdie"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em Os Filhos da Meia-Noite, de Salman Rushdie, o narrador nasce exatamente na meia-noite que marca que acontecimento?",
+      "resposta": "Independência da Índia",
+      "distratores": [
+        "Assassinato de Gandhi",
+        "Fim da Segunda Guerra",
+        "Coroação de Jorge Sexto"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Midnight%27s_Children"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "as_mil_e_uma_noites",
+        "nome": "As Mil e Uma Noites",
+        "descricao": "Coletânea de contos do mundo árabe e persa, reunidos ao longo de séculos, narrados numa moldura em que uma jovem conta histórias a um rei.",
+        "variantes": [
+          "One Thousand and One Nights",
+          "Noites Árabes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Aladim e Ali Babá não aparecem nos manuscritos árabes antigos das Mil e Uma Noites. Que tradutor francês os incluiu no século dezoito?",
+      "resposta": "Antoine Galland",
+      "distratores": [
+        "Charles Perrault",
+        "Voltaire",
+        "Jean de La Fontaine"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Antoine_Galland",
+        "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights"
+      ]
+    }
+  ]
+}

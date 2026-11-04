@@ -45630,7 +45630,8 @@
     "descricao": "Poema épico de Dante Alighieri, do início do século quatorze, dividido em Inferno, Purgatório e Paraíso.",
     "variantes": [
       "Divina Commedia",
-      "Divine Comedy"
+      "Divine Comedy",
+      "Commedia"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Divine_Comedy"
@@ -101559,7 +101560,8 @@
     "variantes": [
       "Dom Quixote de La Mancha",
       "Don Quijote",
-      "Don Quixote"
+      "Don Quixote",
+      "Don Quijote de la Mancha"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Dom_Quixote",
@@ -101807,7 +101809,8 @@
     "variantes": [
       "Mil e Uma Noites",
       "One Thousand and One Nights",
-      "Arabian Nights"
+      "Arabian Nights",
+      "Noites Árabes"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/As_Mil_e_Uma_Noites",
@@ -163802,7 +163805,8 @@
     "nome": "Ilíada",
     "descricao": "Poema épico grego atribuído a Homero, sobre um episódio da Guerra de Troia.",
     "variantes": [
-      "Iliad"
+      "Iliad",
+      "Ilias"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Iliad"
@@ -224834,6 +224838,81 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Passiflora_ligularis",
       "https://pt.wikipedia.org/wiki/Granadilha"
+    ]
+  },
+  {
+    "id": "os_irmaos_karamazov",
+    "nome": "Os Irmãos Karamázov",
+    "descricao": "Último romance de Fiódor Dostoiévski, publicado em 1880, sobre os filhos de Fiódor Karamázov e o assassinato do pai.",
+    "variantes": [
+      "The Brothers Karamazov"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/The_Brothers_Karamazov",
+      "https://pt.wikipedia.org/wiki/Os_Irm%C3%A3os_Karam%C3%A1zov"
+    ]
+  },
+  {
+    "id": "orgulho_e_preconceito",
+    "nome": "Orgulho e Preconceito",
+    "descricao": "Romance de Jane Austen, publicado em 1813, sobre Elizabeth Bennet e o senhor Darcy.",
+    "variantes": [
+      "Pride and Prejudice"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+      "https://pt.wikipedia.org/wiki/Orgulho_e_Preconceito"
+    ]
+  },
+  {
+    "id": "guerra_e_paz",
+    "nome": "Guerra e Paz",
+    "descricao": "Romance de Liev Tolstói, publicado na década de 1860, sobre famílias aristocráticas russas durante as guerras napoleônicas.",
+    "variantes": [
+      "War and Peace",
+      "Voina i mir"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/War_and_Peace",
+      "https://pt.wikipedia.org/wiki/Guerra_e_Paz"
+    ]
+  },
+  {
+    "id": "a_revolucao_dos_bichos",
+    "nome": "A Revolução dos Bichos",
+    "descricao": "Fábula satírica de George Orwell, de 1945, em que os animais de uma fazenda expulsam o dono e acabam dominados pelos porcos.",
+    "variantes": [
+      "Animal Farm",
+      "O Triunfo dos Porcos"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Animal_Farm",
+      "https://pt.wikipedia.org/wiki/A_Revolu%C3%A7%C3%A3o_dos_Bichos"
+    ]
+  },
+  {
+    "id": "luis_de_camoes",
+    "nome": "Luís de Camões",
+    "descricao": "Poeta português do século dezesseis, autor de Os Lusíadas.",
+    "variantes": [
+      "Luís Vaz de Camões",
+      "Camões"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lu%C3%ADs_de_Cam%C3%B5es",
+      "https://pt.wikipedia.org/wiki/Lu%C3%ADs_de_Cam%C3%B5es"
+    ]
+  },
+  {
+    "id": "os_miseraveis",
+    "nome": "Os Miseráveis",
+    "descricao": "Romance de Victor Hugo, publicado em 1862, sobre o ex-presidiário Jean Valjean na França do século dezenove.",
+    "variantes": [
+      "Les Misérables"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+      "https://pt.wikipedia.org/wiki/Os_Miser%C3%A1veis"
     ]
   }
 ]
