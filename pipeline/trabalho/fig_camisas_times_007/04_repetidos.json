@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que seleção europeia é este uniforme?",
+        "resposta": "Países Baixos"
+      },
+      "existentes": [
+        {
+          "id": "q05122",
+          "pergunta": "A seleção holandesa de 1974 ganhou um apelido emprestado do título de um filme de Stanley Kubrick. Qual?",
+          "resposta": "Laranja Mecânica"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede qual seleção usa o uniforme (identificar Países Baixos); a existente pede o apelido 'Laranja Mecânica' da seleção de 1974. Fatos diferentes."
+    }
+  ]
+}

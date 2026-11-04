@@ -1,0 +1,197 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Uniforme verde reconhecível; múltipla com distratores africanos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que seleção africana é este uniforme?",
+      "resposta": "Nigéria",
+      "distratores": [
+        "Camarões",
+        "Argélia",
+        "Gana"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Seleção Nigeriana de Futebol",
+        "descricao": "Seleção masculina de futebol da Nigéria, tricampeã da Copa Africana de Nações.",
+        "variantes": [
+          "Nigéria",
+          "Super Eagles"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Branco com detalhes vermelhos e meias pretas; múltipla com distratores espanhóis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que time espanhol é este uniforme?",
+      "resposta": "Sevilla",
+      "distratores": [
+        "Real Madrid",
+        "Valencia",
+        "Espanyol"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sevilla",
+        "descricao": "Clube de futebol de Sevilha, na Andaluzia, Espanha, fundado em 1890.",
+        "variantes": [
+          "Sevilla FC",
+          "Sevilla Fútbol Club"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Listras azuis e brancas com calção azul; múltipla com distratores brasileiros.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que time brasileiro é este uniforme?",
+      "resposta": "CSA",
+      "distratores": [
+        "Grêmio",
+        "Cruzeiro",
+        "Bahia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "CSA",
+        "descricao": "Centro Sportivo Alagoano, clube de futebol de Maceió, Alagoas.",
+        "variantes": [
+          "Centro Sportivo Alagoano"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Camisa de ondas vermelhas e brancas, calção azul-marinho, distintiva.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que Copa do Mundo a seleção deste uniforme terminou em terceiro lugar?",
+      "resposta": "1930, no Uruguai",
+      "distratores": [
+        "1934, na Itália",
+        "1950, no Brasil",
+        "1966, na Inglaterra"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Seleção dos Estados Unidos de Futebol",
+        "descricao": "Seleção masculina de futebol dos Estados Unidos, terceira colocada na Copa de 1930.",
+        "variantes": [
+          "Estados Unidos",
+          "USMNT"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Uniforme todo vermelho, genérico; muitas seleções usam o mesmo (Suíça, Turquia, Noruega)."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Camisa vermelha com calção branco, igual a muitos times brasileiros; sem resposta única."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Listras verdes e brancas lembram o Betis e outros; pouco reconhecível como Chapecoense."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Laranja com calção preto, muito reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que seleção europeia é este uniforme?",
+      "resposta": "Países Baixos",
+      "distratores": [
+        "Bélgica",
+        "Dinamarca",
+        "Alemanha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Seleção Neerlandesa de Futebol",
+        "descricao": "Seleção masculina de futebol dos Países Baixos, conhecida como Oranje.",
+        "variantes": [
+          "Holanda",
+          "Países Baixos",
+          "Oranje",
+          "Laranja Mecânica"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Camisa vermelha, calção branco e meias vermelhas: padrão comum a muitos times, sem resposta única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Branco com calção azul-marinho; pergunta restrita a clubes ingleses para evitar confusão com a seleção da Inglaterra.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que clube inglês é este uniforme?",
+      "resposta": "Tottenham",
+      "distratores": [
+        "Arsenal",
+        "Chelsea",
+        "West Ham"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tottenham",
+        "descricao": "Tottenham Hotspur Football Club, clube de futebol do norte de Londres.",
+        "variantes": [
+          "Tottenham Hotspur",
+          "Spurs"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Amarelo com detalhes verdes e calção amarelo; razoavelmente distintivo.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que estado fica o time deste uniforme?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Goiás",
+        "Paraná",
+        "Santa Catarina"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mirassol",
+        "descricao": "Mirassol Futebol Clube, clube de futebol da cidade de Mirassol, São Paulo.",
+        "variantes": [
+          "Mirassol Futebol Clube"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Uniforme branco com detalhes discretos; genérico e confundível com muitos times de camisa branca."
+    }
+  ]
+}
