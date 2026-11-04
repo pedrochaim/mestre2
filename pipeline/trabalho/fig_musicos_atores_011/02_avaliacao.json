@@ -1,0 +1,224 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Rosto nítido, sem texto; pergunta sobre o personagem que a projetou.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Esta atriz alcançou projeção nacional em 2013 ao interpretar qual personagem de novela?",
+      "resposta": "Valdirene",
+      "distratores": [
+        "Nazaré Tedesco",
+        "Carminha",
+        "Odete Roitman"
+      ],
+      "ancora": {
+        "nome": "Tatá Werneck",
+        "descricao": "Atriz, comediante e apresentadora brasileira nascida em 1983 no Rio de Janeiro.",
+        "variantes": [
+          "Talita Werneck Arguelhes"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Rosto nítido em primeiro plano; figura pública; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Esta atriz foi a antagonista de qual novela das oito, exibida em 2001?",
+      "resposta": "Porto dos Milagres",
+      "distratores": [
+        "Esperança",
+        "Celebridade",
+        "Senhora do Destino"
+      ],
+      "ancora": {
+        "nome": "Camila Pitanga",
+        "descricao": "Atriz, produtora e apresentadora brasileira nascida em 1977 no Rio de Janeiro.",
+        "variantes": [
+          "Camila Pitanga Manhães Sampaio"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto, figura reconhecível pelo cabelo, bigode e óculos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que músico brasileiro é este?",
+      "resposta": "Moraes Moreira",
+      "distratores": [
+        "Zé Ramalho",
+        "Raul Seixas",
+        "Belchior"
+      ],
+      "ancora": {
+        "nome": "Moraes Moreira",
+        "descricao": "Músico e compositor baiano (1947–2020), integrante dos Novos Baianos.",
+        "variantes": [
+          "Antônio Carlos Moraes Pires"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Rosto parcialmente coberto por capuz e boné, foto pouco reconhecível; resposta não é única de forma segura pela imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rosto nítido, sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que ator britânico é este?",
+      "resposta": "Daniel Radcliffe",
+      "distratores": [
+        "Rupert Grint",
+        "Eddie Redmayne",
+        "Tom Felton"
+      ],
+      "ancora": {
+        "nome": "Daniel Radcliffe",
+        "descricao": "Ator inglês nascido em 1989, famoso por interpretar Harry Potter no cinema.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto de palco pequena e de baixa resolução, rosto minúsculo; não é reconhecível num celular."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto legível que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que apresentador de telejornal brasileiro é este?",
+      "resposta": "William Bonner",
+      "distratores": [
+        "Cid Moreira",
+        "Evaristo Costa",
+        "Heraldo Pereira"
+      ],
+      "ancora": {
+        "nome": "William Bonner",
+        "descricao": "Jornalista e apresentador brasileiro, por 29 anos à frente do Jornal Nacional.",
+        "variantes": [
+          "William Bonemer Júnior"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto de palco nítida, sem texto; rosto e dreads característicos.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este músico regravou, em 1999, qual canção da banda canadense The Guess Who?",
+      "resposta": "American Woman",
+      "distratores": [
+        "Fly Away",
+        "Again",
+        "Always on the Run"
+      ],
+      "ancora": {
+        "nome": "Lenny Kravitz",
+        "descricao": "Cantor, guitarrista e compositor americano nascido em 1964, autor de Let Love Rule.",
+        "variantes": [
+          "Leonard Albert Kravitz"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto antiga de jornal, granulada, rosto quase todo coberto pela guitarra de dois braços; não reconhecível."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Rosto nítido; o texto do cordão (#JuntosSomos) não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Este apresentador comandou, de 2000 a 2021, qual programa de sábado da Globo?",
+      "resposta": "Caldeirão do Huck",
+      "distratores": [
+        "Altas Horas",
+        "Domingão do Faustão",
+        "Esquenta"
+      ],
+      "ancora": {
+        "nome": "Luciano Huck",
+        "descricao": "Apresentador de TV e empresário brasileiro nascido em 1971.",
+        "variantes": [
+          "Luciano Grostein Huck"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que programa de entrevistas e música da Globo este apresentador comanda?",
+      "resposta": "Altas Horas",
+      "distratores": [
+        "Programa do Jô",
+        "Esquenta",
+        "Encontro"
+      ],
+      "ancora": {
+        "nome": "Serginho Groisman",
+        "descricao": "Apresentador de TV e jornalista brasileiro nascido em 1950.",
+        "variantes": [
+          "Sérgio Groisman"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Rosto visível; textos (camiseta, patrocinador ao fundo) não entregam o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Este humorista foi casado com qual VJ e humorista da MTV?",
+      "resposta": "Dani Calabresa",
+      "distratores": [
+        "Titi Müller",
+        "Mônica Iozzi",
+        "Fernanda Lima"
+      ],
+      "ancora": {
+        "nome": "Marcelo Adnet",
+        "descricao": "Humorista, ator e ex-VJ brasileiro nascido em 1981 no Rio de Janeiro.",
+        "variantes": [
+          "Marcelo França Adnet"
+        ]
+      }
+    }
+  ]
+}

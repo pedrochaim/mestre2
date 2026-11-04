@@ -1,0 +1,510 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tatá Werneck",
+        "descricao": "Atriz, comediante e apresentadora brasileira nascida em 1983 no Rio de Janeiro.",
+        "variantes": [
+          "Talita Werneck Arguelhes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gola_rule",
+          "nome": "Gola rulê",
+          "descricao": "Gola alta e justa que se dobra e cobre o pescoço, comum em suéteres.",
+          "variantes": [
+            "Gola alta",
+            "Gola olímpica",
+            "Turtleneck",
+            "Polo neck"
+          ]
+        },
+        {
+          "id": "taueret",
+          "nome": "Tauéret",
+          "descricao": "Deusa egípcia protetora das grávidas e dos partos, com corpo de hipopótamo, patas de leão e dorso de crocodilo",
+          "variantes": [
+            "Taweret",
+            "Tueris",
+            "Taurt"
+          ]
+        },
+        {
+          "id": "matinta_perera",
+          "nome": "Matinta Perera",
+          "descricao": "Figura do folclore amazônico, velha bruxa que se transforma em pássaro e assobia à noite.",
+          "variantes": [
+            "Matinta Pereira",
+            "Matita Perê"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Camila Pitanga",
+        "descricao": "Atriz, produtora e apresentadora brasileira nascida em 1977 no Rio de Janeiro.",
+        "variantes": [
+          "Camila Pitanga Manhães Sampaio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camisa_havaiana",
+          "nome": "Camisa havaiana",
+          "descricao": "Camisa social de manga curta e tecido estampado, originária do Havaí, também chamada aloha shirt.",
+          "variantes": [
+            "Aloha shirt",
+            "Camisa aloha"
+          ]
+        },
+        {
+          "id": "pitanga",
+          "nome": "Pitanga",
+          "descricao": "Fruta da pitangueira, Eugenia uniflora, árvore nativa do Brasil",
+          "variantes": [
+            "Eugenia uniflora"
+          ]
+        },
+        {
+          "id": "camaleao_pantera",
+          "nome": "Camaleão-pantera",
+          "descricao": "Camaleão Furcifer pardalis, do leste e norte de Madagascar, de colorido vivo nos machos.",
+          "variantes": [
+            "Furcifer pardalis",
+            "Panther chameleon"
+          ]
+        },
+        {
+          "id": "focaccia",
+          "nome": "Focaccia",
+          "descricao": "Pão italiano achatado, fermentado e assado no forno, geralmente com azeite e ervas.",
+          "variantes": [
+            "Focaccia italiana"
+          ]
+        },
+        {
+          "id": "jabuti_piranga",
+          "nome": "Jabuti-piranga",
+          "descricao": "Espécie de jabuti (Chelonoidis carbonarius) do norte da América do Sul, com patas de escamas vermelhas ou alaranjadas.",
+          "variantes": [
+            "Jabuti",
+            "Red-footed tortoise",
+            "Chelonoidis carbonarius"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Moraes Moreira",
+        "descricao": "Músico e compositor baiano (1947–2020), integrante dos Novos Baianos.",
+        "variantes": [
+          "Antônio Carlos Moraes Pires"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mussum",
+          "nome": "Mussum",
+          "descricao": "Humorista e músico brasileiro Antônio Carlos Bernardes Gomes, integrante de Os Trapalhões.",
+          "variantes": [
+            "Antônio Carlos Bernardes Gomes"
+          ]
+        },
+        {
+          "id": "carlos_gomes",
+          "nome": "Carlos Gomes",
+          "descricao": "Compositor brasileiro de óperas (1836–1896), autor de O Guarani.",
+          "variantes": [
+            "Antônio Carlos Gomes"
+          ]
+        },
+        {
+          "id": "tom_jobim",
+          "nome": "Tom Jobim",
+          "descricao": "Antônio Carlos Jobim, compositor, pianista e maestro carioca, um dos criadores da bossa nova.",
+          "variantes": [
+            "Antônio Carlos Jobim",
+            "Antonio Carlos Jobim"
+          ]
+        },
+        {
+          "id": "belchior",
+          "nome": "Belchior",
+          "descricao": "Antônio Carlos Belchior, cantor e compositor cearense, autor de Como Nossos Pais, morto em 2017.",
+          "variantes": [
+            "Antônio Carlos Belchior"
+          ]
+        },
+        {
+          "id": "airto_moreira",
+          "nome": "Airto Moreira",
+          "descricao": "Percussionista e baterista brasileiro de jazz, que tocou com Miles Davis e Return to Forever.",
+          "variantes": [
+            "Airto Guimorvan Moreira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Daniel Radcliffe",
+        "descricao": "Ator inglês nascido em 1989, famoso por interpretar Harry Potter no cinema.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "daniel_alves",
+          "nome": "Daniel Alves",
+          "descricao": "Lateral-direito brasileiro, um dos jogadores mais premiados da história do futebol.",
+          "variantes": [
+            "Dani Alves",
+            "Daniel Alves da Silva"
+          ]
+        },
+        {
+          "id": "daniel_ricciardo",
+          "nome": "Daniel Ricciardo",
+          "descricao": "Piloto australiano de Fórmula 1 apelidado de Honey Badger, com oito vitórias entre 2011 e 2024.",
+          "variantes": [
+            "Ricciardo"
+          ]
+        },
+        {
+          "id": "oraculo_de_delfos",
+          "nome": "Oráculo de Delfos",
+          "descricao": "Santuário de Apolo em Delfos, na Grécia, onde a sacerdotisa Pítia dava respostas proféticas.",
+          "variantes": [
+            "Pítia",
+            "Delphi Oracle",
+            "Delfos",
+            "Oráculo de Delphi"
+          ]
+        },
+        {
+          "id": "rio_liffey",
+          "nome": "Rio Liffey",
+          "descricao": "Rio do leste da Irlanda que atravessa o centro de Dublin até a baía de Dublin.",
+          "variantes": [
+            "River Liffey",
+            "An Life"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "William Bonner",
+        "descricao": "Jornalista e apresentador brasileiro, por 29 anos à frente do Jornal Nacional.",
+        "variantes": [
+          "William Bonemer Júnior"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "william_g_morgan",
+          "nome": "William G. Morgan",
+          "descricao": "Professor de educação física americano que criou o vôlei em 1895.",
+          "variantes": [
+            "William George Morgan",
+            "William Morgan"
+          ]
+        },
+        {
+          "id": "william_morton",
+          "nome": "William Morton",
+          "descricao": "Dentista americano (1819–1868) que fez, em 1846, a célebre demonstração pública de anestesia com éter numa cirurgia.",
+          "variantes": [
+            "William T. G. Morton",
+            "William Thomas Green Morton"
+          ]
+        },
+        {
+          "id": "bill_bowerman",
+          "nome": "Bill Bowerman",
+          "descricao": "Treinador americano de atletismo da Universidade do Oregon e cofundador da Nike.",
+          "variantes": [
+            "William Jay Bowerman"
+          ]
+        },
+        {
+          "id": "william_thomson_lorde_kelvin",
+          "nome": "William Thomson (Lorde Kelvin)",
+          "descricao": "Físico britânico do século dezenove, nascido em Belfast e professor em Glasgow, que dá nome à escala Kelvin.",
+          "variantes": [
+            "Lord Kelvin",
+            "Lorde Kelvin",
+            "William Thomson"
+          ]
+        },
+        {
+          "id": "william_herschel",
+          "nome": "William Herschel",
+          "descricao": "Astrônomo e compositor germano-britânico (1738–1822), descobridor de Urano.",
+          "variantes": [
+            "Frederick William Herschel",
+            "Friedrich Wilhelm Herschel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Lenny Kravitz",
+        "descricao": "Cantor, guitarrista e compositor americano nascido em 1964, autor de Let Love Rule.",
+        "variantes": [
+          "Leonard Albert Kravitz"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "leonard_bernstein",
+          "nome": "Leonard Bernstein",
+          "descricao": "Maestro e compositor americano, autor de West Side Story.",
+          "variantes": [
+            "Louis Bernstein"
+          ]
+        },
+        {
+          "id": "leonardo_da_vinci",
+          "nome": "Leonardo da Vinci",
+          "descricao": "Pintor, inventor e cientista renascentista italiano, autor da Mona Lisa e de A Última Ceia, que viveu de 1452 a 1519.",
+          "variantes": [
+            "Leonardo",
+            "Da Vinci",
+            "Leonardo di ser Piero da Vinci"
+          ]
+        },
+        {
+          "id": "leonhard_euler",
+          "nome": "Leonhard Euler",
+          "descricao": "Matemático e físico suíço do século dezoito, fundador da teoria dos grafos.",
+          "variantes": [
+            "Euler"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Luciano Huck",
+        "descricao": "Apresentador de TV e empresário brasileiro nascido em 1971.",
+        "variantes": [
+          "Luciano Grostein Huck"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lucian",
+          "nome": "Lucian",
+          "descricao": "Treinador especialista em pokémon psíquicos, membro da Elite dos Quatro de Sinnoh nos jogos Pokémon Diamond, Pearl e Platinum.",
+          "variantes": []
+        },
+        {
+          "id": "luciano_pavarotti",
+          "nome": "Luciano Pavarotti",
+          "descricao": "Tenor lírico italiano (1935–2007), um dos Três Tenores.",
+          "variantes": [
+            "Pavarotti"
+          ]
+        },
+        {
+          "id": "cinco_ks",
+          "nome": "Cinco Ks",
+          "descricao": "Os cinco artigos de fé usados pelos sikhs iniciados, cujos nomes começam com a letra K em punjabi",
+          "variantes": [
+            "Cinco K",
+            "Panj Kakar",
+            "Five Ks"
+          ]
+        },
+        {
+          "id": "santo_agostinho",
+          "nome": "Santo Agostinho",
+          "descricao": "Filósofo e bispo cristão (354–430), autor de Confissões e A Cidade de Deus.",
+          "variantes": [
+            "Agostinho de Hipona",
+            "Augustine of Hippo",
+            "Aurélio Agostinho"
+          ]
+        },
+        {
+          "id": "tucano_toco",
+          "nome": "Tucano-toco",
+          "descricao": "Maior espécie de tucano (Ramphastos toco), de corpo preto, papo branco e bico laranja com mancha preta na ponta, da América do Sul.",
+          "variantes": [
+            "Tucanuçu",
+            "Toco toucan",
+            "Ramphastos toco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Serginho Groisman",
+        "descricao": "Apresentador de TV e jornalista brasileiro nascido em 1950.",
+        "variantes": [
+          "Sérgio Groisman"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sergio_ramos",
+          "nome": "Sergio Ramos",
+          "descricao": "Zagueiro espanhol, revelado no Sevilla e ídolo do Real Madrid.",
+          "variantes": [
+            "Sergio Ramos García"
+          ]
+        },
+        {
+          "id": "sergio_aguero",
+          "nome": "Sergio Agüero",
+          "descricao": "Ex-atacante argentino, ídolo e maior artilheiro da história do Manchester City.",
+          "variantes": [
+            "Kun Agüero",
+            "Sergio Leonel Agüero del Castillo"
+          ]
+        },
+        {
+          "id": "senado_romano",
+          "nome": "Senado romano",
+          "descricao": "Assembleia política da Roma Antiga, existente desde a Monarquia até o fim do Império.",
+          "variantes": [
+            "Senatus",
+            "Roman Senate"
+          ]
+        },
+        {
+          "id": "sergey_brin",
+          "nome": "Sergey Brin",
+          "descricao": "Cientista da computação e empresário americano nascido na Rússia, cofundador do Google com Larry Page.",
+          "variantes": [
+            "Sergey Mikhailovich Brin",
+            "Serguei Brin"
+          ]
+        },
+        {
+          "id": "serginho",
+          "nome": "Serginho",
+          "descricao": "Ex-jogador brasileiro de vôlei, campeão olímpico em Atenas 2004 e no Rio 2016, conhecido como Serginho Escadinha.",
+          "variantes": [
+            "Sérgio Dutra Santos",
+            "Serginho Escadinha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Marcelo Adnet",
+        "descricao": "Humorista, ator e ex-VJ brasileiro nascido em 1981 no Rio de Janeiro.",
+        "variantes": [
+          "Marcelo França Adnet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marcelo_melo",
+          "nome": "Marcelo Melo",
+          "descricao": "Tenista brasileiro de duplas, ex-número 1 do mundo e campeão de Roland Garros 2015 e Wimbledon 2017.",
+          "variantes": [
+            "Marcelo Pinheiro Davi de Melo",
+            "Girafa"
+          ]
+        },
+        {
+          "id": "marcelo",
+          "nome": "Marcelo",
+          "descricao": "Lateral esquerdo brasileiro, ídolo do Real Madrid, ex-Fluminense.",
+          "variantes": [
+            "Marcelo Vieira da Silva Júnior"
+          ]
+        },
+        {
+          "id": "marco_antonio",
+          "nome": "Marco Antônio",
+          "descricao": "General e político romano do século primeiro antes de Cristo, aliado de Cleópatra e derrotado por Otaviano.",
+          "variantes": [
+            "Marcus Antonius",
+            "Mark Antony"
+          ]
+        },
+        {
+          "id": "marcelo_gastaldi",
+          "nome": "Marcelo Gastaldi",
+          "descricao": "Dublador e diretor de dublagem brasileiro, voz clássica de Chaves e Chapolin.",
+          "variantes": []
+        },
+        {
+          "id": "garca_branca_grande",
+          "nome": "Garça-branca-grande",
+          "descricao": "Ardea alba, grande garça branca de bico amarelo, amplamente distribuída pelo mundo.",
+          "variantes": [
+            "Great egret",
+            "Ardea alba",
+            "Garça-grande"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Tatá Werneck."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pitanga é fruta, não a atriz."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Moraes Moreira é pessoa distinta de todas as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Daniel Radcliffe."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é William Bonner."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Lenny Kravitz."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Luciano Huck difere de Luciano Pavarotti e das demais."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Serginho é jogador de vôlei, diferente de Serginho Groisman."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Marcelo Adnet."
+    }
+  ]
+}
