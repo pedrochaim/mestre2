@@ -1,0 +1,159 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Veleiro pequeno com texto visível (h25, nome do barco); a resposta 'iate' não é única diante da imagem (veleiro)."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida e inconfundível do B-17; sem texto que entregue a resposta.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que década este bombardeiro americano de quatro motores entrou em serviço?",
+      "resposta": "Década de 1930",
+      "distratores": [
+        "Década de 1920",
+        "Década de 1940",
+        "Década de 1950"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Boeing B-17 Flying Fortress",
+        "descricao": "Bombardeiro pesado americano de quatro motores da Segunda Guerra Mundial, fabricado pela Boeing.",
+        "variantes": [
+          "B-17",
+          "Fortaleza Voadora"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Renault 4 reconhecível pela forma; só há um pequeno losango na grade, sem o modelo.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que década começou a produção deste carro francês?",
+      "resposta": "Década de 1960",
+      "distratores": [
+        "Década de 1940",
+        "Década de 1950",
+        "Década de 1970"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Renault 4",
+        "descricao": "Carro econômico francês da Renault, produzido de 1961 a 1994 e considerado o primeiro hatchback de produção em massa.",
+        "variantes": [
+          "Renault 4L",
+          "R4",
+          "Quatrelle"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Ilustração vetorial genérica de caminhão, não foto; veículo que poderia ser fotografado e sem identidade específica."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Texto 'Chalk's' visível no avião e resposta pouco única (modelo específico de anfíbio, não só hidroavião)."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto histórica clara da GG1, de linhas art déco inconfundíveis; o texto visível não entrega a resposta pedida (a época).",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que década esta locomotiva elétrica americana entrou em serviço?",
+      "resposta": "Década de 1930",
+      "distratores": [
+        "Década de 1910",
+        "Década de 1920",
+        "Década de 1950"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Locomotiva PRR GG1",
+        "descricao": "Locomotiva elétrica aerodinâmica art déco da Pennsylvania Railroad, em serviço de 1935 a 1983.",
+        "variantes": [
+          "GG1",
+          "Pennsylvania Railroad class GG1"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem é de um VANT militar específico com texto visível (U.S. Army, Aeronautical Systems); 'drone' genérico não é resposta única e o fabricante aparece escrito."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Matrícula Y647 e texto visíveis; rebocador militar específico, sem pergunta boa de 'quando' sustentada."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A palavra 'Porsche' aparece escrita no capô e é o protótipo nº 1, não o 356 de série; entrega a marca e a resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Etiqueta no para-brisa com 'Fiat Palio Attractive' e logotipo Fiat visíveis; entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pintura histórica clara de embarcação de velas rígidas ripadas, típica do junco chinês.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de embarcação à vela é esta?",
+      "resposta": "Junco chinês",
+      "distratores": [
+        "Dhow",
+        "Caravela",
+        "Galeão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Junco chinês",
+        "descricao": "Tipo de navio à vela chinês com velas ripadas, leme central e casco de anteparas estanques.",
+        "variantes": [
+          "Junco",
+          "Junk"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Unimog reconhecível pela cabine e pela forma; a estrela da Mercedes não entrega o modelo.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década começou a produção desta linha de veículos off-road alemães?",
+      "resposta": "Década de 1940",
+      "distratores": [
+        "Década de 1930",
+        "Década de 1950",
+        "Década de 1960"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Unimog",
+        "descricao": "Linha de veículos multiuso de tração integral e alta capacidade off-road, produzida pela Mercedes-Benz/Daimler Truck desde 1948.",
+        "variantes": [
+          "Mercedes-Benz Unimog"
+        ]
+      }
+    }
+  ]
+}
