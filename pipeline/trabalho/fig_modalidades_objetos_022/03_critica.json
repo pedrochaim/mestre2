@@ -1,0 +1,33 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o cabo de guerra esteve nos Jogos de 1900 a 1920, e a edição de 1920 foi a de Antuérpia. O enunciado não nomeia o esporte, e a figura é necessária. Os distratores são edições posteriores, em que o esporte não foi disputado.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho em português diz que a arma é uma versão maior e mais complicada do nunchaku, então o fato é sustentado. O problema é 'arma de duas partes', que é pista e enfraquece os distratores: tonfa, sai e kama não são armas de duas partes. Tirei a pista e mantive os distratores, que ficam críveis.",
+      "reescrita": {
+        "pergunta": "Esta arma chinesa de artes marciais é descrita como uma versão maior e mais complicada de qual outra arma?",
+        "resposta": "Nunchaku",
+        "distratores": [
+          "Tonfa",
+          "Sai",
+          "Kama"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de nível 1 que pede só o reconhecimento. O enunciado não vaza a resposta. Os trechos confirmam que a vela é esporte olímpico. Remo, canoagem e surfe são esportes olímpicos de água que não descrevem a imagem.",
+      "reescrita": null
+    }
+  ]
+}

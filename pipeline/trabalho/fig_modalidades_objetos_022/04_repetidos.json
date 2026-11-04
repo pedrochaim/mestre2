@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que esporte olímpico é praticado nesta imagem?",
+        "resposta": "Vela"
+      },
+      "existentes": [
+        {
+          "id": "q16025",
+          "pergunta": "Que modalidade olímpica é esta?",
+          "resposta": "Vela"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q16025",
+      "motivo": "Ambas pedem a modalidade olímpica mostrada na imagem, com resposta Vela; quem soubesse uma responderia a outra."
+    }
+  ]
+}

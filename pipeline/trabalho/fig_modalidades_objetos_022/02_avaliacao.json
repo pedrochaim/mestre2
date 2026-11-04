@@ -1,0 +1,125 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clara de equipes puxando a corda, sem texto que entregue a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este esporte de equipe já foi disputado nos Jogos Olímpicos. Em que edição ele apareceu pela última vez?",
+      "resposta": "Antuérpia 1920",
+      "distratores": [
+        "Paris 1924",
+        "Amsterdã 1928",
+        "Los Angeles 1932"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cabo de guerra",
+        "descricao": "Esporte em que duas equipes puxam as pontas opostas de uma corda, tentando levar a marca do adversário além da linha central.",
+        "variantes": [
+          "Tug of war",
+          "Puxa-corda",
+          "Cabo-de-guerra"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto histórica em preto e branco que pode ser confundida com judô; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Crianças comuns em primeiro plano, que não são figuras públicas nem brincantes de festa pública."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O carro traz texto visível (Driftworks, patrocinadores, número) e a foto mostra um carro de competição, não o conceito de drift por si só."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A bola traz texto visível (Wilson, National Football League) que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Objeto isolado em fundo branco, sem texto. As três varas ligadas por argolas são reconhecíveis, e o fato da versão mais complexa do bastão de duas seções vem do trecho.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta arma de artes marciais é uma versão mais complexa de qual arma de duas partes?",
+      "resposta": "Nunchaku",
+      "distratores": [
+        "Tonfa",
+        "Sai",
+        "Kama"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Bastão de três seções",
+        "descricao": "Arma chinesa de artes marciais formada por três varas de madeira ou metal ligadas por argolas ou corda.",
+        "variantes": [
+          "Sanjiegun",
+          "Sansetsukon",
+          "Bastão de três partes",
+          "Bastão triplo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Veleiros em regata com boia, imagem clara. Os números nas velas são pequenos e não entregam a resposta.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que esporte olímpico é praticado nesta imagem?",
+      "resposta": "Vela",
+      "distratores": [
+        "Remo",
+        "Canoagem",
+        "Surfe"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Vela",
+        "descricao": "Esporte em que barcos a vela disputam regatas em percursos marcados por boias.",
+        "variantes": [
+          "Iatismo",
+          "Regata",
+          "Sailing"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, sem ser figura pública."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A foto não mostra com clareza um golpe entre as pernas. A jogadora chuta a perna para o alto e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano e texto visível na máquina (ClubTrackPlus)."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem é um pictograma de vôlei, não mostra dança no gelo."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Quadra coberta vermelha e verde que não se distingue de uma quadra rápida comum. O carpete não é reconhecível pela imagem, e a resposta não é única."
+    }
+  ]
+}
