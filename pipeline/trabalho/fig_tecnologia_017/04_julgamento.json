@@ -1,0 +1,182 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bola de plasma",
+        "descricao": "Esfera de vidro com gases nobres e um eletrodo central de alta tensão que forma filamentos de plasma luminosos.",
+        "variantes": [
+          "Globo de plasma",
+          "Lâmpada de plasma"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gol_de_placa",
+          "nome": "Gol de placa",
+          "descricao": "Expressão brasileira para um gol muito bonito, nascida de uma placa colocada no Maracanã em 1961.",
+          "variantes": []
+        },
+        {
+          "id": "lampada_incandescente",
+          "nome": "Lâmpada incandescente",
+          "descricao": "Lâmpada elétrica que produz luz aquecendo um filamento dentro de um bulbo de vidro.",
+          "variantes": [
+            "Lâmpada de filamento",
+            "Lâmpada elétrica incandescente",
+            "Lâmpada elétrica",
+            "Incandescent light bulb"
+          ]
+        },
+        {
+          "id": "lampada_de_davy",
+          "nome": "Lâmpada de Davy",
+          "descricao": "Lamparina de segurança para minas de carvão, criada por Humphry Davy em 1815.",
+          "variantes": [
+            "Lâmpada de segurança de Davy"
+          ]
+        },
+        {
+          "id": "armadura_de_placas",
+          "nome": "Armadura de placas",
+          "descricao": "Armadura de corpo inteiro feita de placas de aço articuladas, típica do fim da Idade Média e do Renascimento.",
+          "variantes": [
+            "Armadura completa",
+            "Plate armour"
+          ]
+        },
+        {
+          "id": "vulcao_de_lama",
+          "nome": "Vulcão de lama",
+          "descricao": "Forma de relevo criada pela erupção de lama, água e gases, sem lava.",
+          "variantes": [
+            "Domo de lama",
+            "Mud volcano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Diodo",
+        "descricao": "Componente eletrônico de dois terminais que conduz corrente principalmente num só sentido.",
+        "variantes": [
+          "Diodo semicondutor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dodo",
+          "nome": "Dodô",
+          "descricao": "Ave não voadora extinta (Raphus cucullatus), endêmica da ilha Maurício, no Oceano Índico.",
+          "variantes": [
+            "Raphus cucullatus"
+          ]
+        },
+        {
+          "id": "iodo",
+          "nome": "Iodo",
+          "descricao": "Elemento químico de número atômico 53, halogênio sólido escuro que solta vapor violeta, adicionado ao sal de cozinha.",
+          "variantes": []
+        },
+        {
+          "id": "doduo",
+          "nome": "Doduo",
+          "descricao": "Pokémon dos tipos Normal e Voador, número 84 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "copperajah",
+          "nome": "Copperajah",
+          "descricao": "Pokémon do tipo Aço, número 879 da Pokédex Nacional.",
+          "variantes": [
+            "Daioudou"
+          ]
+        },
+        {
+          "id": "dio_brando",
+          "nome": "Dio Brando",
+          "descricao": "Vilão principal de JoJo's Bizarre Adventure, vampiro e depois usuário do Stand The World.",
+          "variantes": [
+            "DIO",
+            "Dio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "AirPods",
+        "descricao": "Fones de ouvido sem fio Bluetooth da Apple, lançados em 2016, vendidos com estojo de carregamento.",
+        "variantes": [
+          "Apple AirPods"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ipod",
+          "nome": "iPod",
+          "descricao": "Linha de tocadores de mídia portáteis da Apple, lançada em 2001 e encerrada em 2022.",
+          "variantes": [
+            "Apple iPod"
+          ]
+        },
+        {
+          "id": "aipo",
+          "nome": "Aipo",
+          "descricao": "Hortaliça Apium graveolens, de talos fibrosos e crocantes usados em saladas, caldos e sucos.",
+          "variantes": [
+            "Salsão",
+            "Celery"
+          ]
+        },
+        {
+          "id": "caiapos",
+          "nome": "Caiapós",
+          "descricao": "Povo indígena de língua jê que vive no Pará e em Mato Grosso, ao longo do rio Xingu.",
+          "variantes": [
+            "Kayapó",
+            "Mebêngôkre",
+            "Caiapó"
+          ]
+        },
+        {
+          "id": "esopo",
+          "nome": "Esopo",
+          "descricao": "Fabulista grego do século seis a.C., a quem se atribuem fábulas como A Cigarra e a Formiga.",
+          "variantes": [
+            "Aesop",
+            "Aisopos"
+          ]
+        },
+        {
+          "id": "apple_i",
+          "nome": "Apple I",
+          "descricao": "Primeiro computador da Apple, projetado por Steve Wozniak e vendido a partir de 1976.",
+          "variantes": [
+            "Apple-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Bola de plasma é um objeto distinto de todas as candidatas (lâmpada incandescente, etc.)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Diodo é um componente eletrônico; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "AirPods são fones sem fio, diferentes do iPod e das demais candidatas."
+    }
+  ]
+}

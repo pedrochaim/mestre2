@@ -1,0 +1,119 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem mostra 'PS4' e 'SONY' escritos no console e o logotipo PlayStation, o que entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A placa na lateral da câmera traz 'Daguerreotype' escrito, o que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem traz texto legível (Bauer Bosch, VHS-C Movie, CCD, 'video camera recorder') que entrega a resposta e as pistas de uma pergunta de nível 3."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "É uma prancha com várias figuras numeradas e a legenda 'Dessein, Chambre Obscure', que entrega a resposta; também é diagrama com texto."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Um sensor CCD não se distingue visualmente de um sensor CMOS ou de outro chip de imagem, então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bola de plasma nítida e inconfundível. A mão é só um detalhe, sem pessoa em primeiro plano. A pergunta pede a década em que virou novidade popular, que o trecho sustenta.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que década este objeto luminoso e decorativo fez sucesso como novidade?",
+      "resposta": "Década de 1980",
+      "distratores": [
+        "Década de 1950",
+        "Década de 1960",
+        "Década de 1990"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Bola de plasma",
+        "descricao": "Esfera de vidro com gases nobres e um eletrodo central de alta tensão que forma filamentos de plasma luminosos.",
+        "variantes": [
+          "Globo de plasma",
+          "Lâmpada de plasma"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Diodo de vidro de perto, com o chip e o filamento de contato visíveis, sem texto que entregue a resposta. Família trocada para 'o que é', porque a sugerida não rende pergunta boa para esta imagem.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que componente eletrônico é este, encapsulado em vidro?",
+      "resposta": "Diodo",
+      "distratores": [
+        "Resistor",
+        "Capacitor",
+        "Transistor"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Diodo",
+        "descricao": "Componente eletrônico de dois terminais que conduz corrente principalmente num só sentido.",
+        "variantes": [
+          "Diodo semicondutor"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A foto em preto e branco mostra racks de válvulas e um homem de perfil. Vários computadores da época têm o mesmo aspecto, então não há resposta única, e o homem é uma pessoa comum em destaque."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fones sem fio e estojo de carregamento, sem marca visível. O formato é inconfundível. Família trocada para 'o que é', porque no nível 1 ela rende melhor.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fones de ouvido sem fio, com estojo de carregamento, são estes?",
+      "resposta": "AirPods",
+      "distratores": [
+        "EarPods",
+        "Galaxy Buds",
+        "Pixel Buds"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "AirPods",
+        "descricao": "Fones de ouvido sem fio Bluetooth da Apple, lançados em 2016, vendidos com estojo de carregamento.",
+        "variantes": [
+          "Apple AirPods"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Um núcleo toroidal enrolado em fio de cobre pode ser um transformador, um indutor ou um filtro de modo comum, então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O logotipo IBM visível no teclado entrega a marca e a resposta de uma pergunta sobre o computador a que ele se liga. O Model M também se confunde com outros teclados IBM."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "É uma ilustração vetorial de um monitor genérico, com o texto 'FLAT'. Não é um aparelho histórico reconhecível e não permite uma pergunta específica."
+    }
+  ]
+}

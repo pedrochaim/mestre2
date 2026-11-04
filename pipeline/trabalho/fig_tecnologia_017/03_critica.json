@@ -1,0 +1,33 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português diz que os globos de plasma se tornaram populares como curiosidades decorativas na década de 1980. O enunciado não nomeia o objeto nem entrega a resposta, e os distratores são décadas do mesmo formato.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Encapsulado em vidro' não consta em `mostra` e pode não valer para esta foto. É uma afirmação sobre a imagem que não dá para conferir, e ela só serve de pista. Basta pedir o reconhecimento do componente.",
+      "reescrita": {
+        "pergunta": "Que componente eletrônico é este?",
+        "resposta": "Diodo",
+        "distratores": [
+          "Resistor",
+          "Capacitor",
+          "Transistor"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que os AirPods são fones sem fio da Apple, vendidos com estojo de carregamento. O enunciado não nomeia a marca nem a resposta. Galaxy Buds e Pixel Buds não descrevem esta figura, e EarPods é um fone com fio.",
+      "reescrita": null
+    }
+  ]
+}
