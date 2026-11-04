@@ -363060,5 +363060,105 @@
       "autor": "E.D.W.",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q18485",
+    "tema": "Natureza",
+    "subtema": "Ecossistemas e Ambientes Extremos",
+    "ancora": "cachoeira",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que elemento da paisagem é este?",
+    "resposta": "Cachoeira",
+    "distratores": [
+      "Meandro",
+      "Gêiser",
+      "Fonte termal"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Waterfall",
+      "https://pt.wikipedia.org/wiki/Queda_de_%C3%A1gua"
+    ],
+    "imagem": {
+      "arquivo": "q18485.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cachoeira_do_Bianchini_-_panoramio.jpg",
+      "autor": "PortalVeneza.com.br",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q18486",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "smog",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que fenômeno atmosférico encobre a cidade nesta foto?",
+    "resposta": "Smog",
+    "distratores": [
+      "Geada",
+      "Tornado",
+      "Aurora boreal"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Smog",
+      "https://pt.wikipedia.org/wiki/Smog"
+    ],
+    "imagem": {
+      "arquivo": "q18486.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Fanhe_Town_10_day_interval_contrast.png",
+      "autor": "Tomskyhaha",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q18487",
+    "tema": "Natureza",
+    "subtema": "Ecossistemas e Ambientes Extremos",
+    "ancora": "laguna_de_veneza",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de ambiente costeiro aparece nesta imagem de satélite?",
+    "resposta": "Laguna",
+    "distratores": [
+      "Delta",
+      "Fiorde",
+      "Atol"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lagoon",
+      "https://pt.wikipedia.org/wiki/Laguna"
+    ],
+    "imagem": {
+      "arquivo": "q18487.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Venice_Lagoon_December_9_2001.jpg",
+      "autor": "NASA/GSFC/MITI/ERSDAC/JAROS, and U.S./Japan ASTER Science Team",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q18488",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "raios_crepusculares",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que fenômeno óptico da atmosfera aparece nesta foto?",
+    "resposta": "Raios crepusculares",
+    "distratores": [
+      "Halo solar",
+      "Arco-íris",
+      "Aurora boreal"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crepuscular_rays",
+      "https://pt.wikipedia.org/wiki/Raios_crepusculares"
+    ],
+    "imagem": {
+      "arquivo": "q18488.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Сончеви_зраци_над_Тиквеш_(cropped).jpg",
+      "autor": "Kiril Simeonovski",
+      "licenca": "CC BY 4.0"
+    }
   }
 ]

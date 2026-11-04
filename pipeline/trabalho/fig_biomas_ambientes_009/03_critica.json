@@ -1,0 +1,79 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado define a cachoeira (rio que despenca de um degrau), então dá para responder com a figura coberta. Reescrito sem a definição; troquei 'Corredeira', que poderia aparecer na mesma foto.",
+      "reescrita": {
+        "pergunta": "Que elemento da paisagem é este?",
+        "resposta": "Cachoeira",
+        "distratores": [
+          "Meandro",
+          "Gêiser",
+          "Fonte termal"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Poluição do ar' entrega a resposta, e 'metade esquerda' não dá para confirmar só por 'mostra'. Reescrito sem as duas pistas.",
+      "reescrita": {
+        "pergunta": "Que fenômeno atmosférico encobre a cidade nesta foto?",
+        "resposta": "Smog",
+        "distratores": [
+          "Geada",
+          "Tornado",
+          "Aurora boreal"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Típica de tempestades' e 'forma de bigorna' bastam para responder sem a imagem. Pistas retiradas.",
+      "reescrita": {
+        "pergunta": "Que tipo de nuvem é esta?",
+        "resposta": "Cumulonimbus",
+        "distratores": [
+          "Estratocúmulo",
+          "Cirro",
+          "Altostrato"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Separada do mar por faixas de areia' define laguna e entrega a resposta. 'Área roxa' não dá para confirmar. Reescrito sem as duas.",
+      "reescrita": {
+        "pergunta": "Que tipo de ambiente costeiro aparece nesta imagem de satélite?",
+        "resposta": "Laguna",
+        "distratores": [
+          "Delta",
+          "Fiorde",
+          "Atol"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Feixes de luz entre as nuvens' descreve a resposta e se aproxima de 'raios'. Pista retirada.",
+      "reescrita": {
+        "pergunta": "Que fenômeno óptico da atmosfera aparece nesta foto?",
+        "resposta": "Raios crepusculares",
+        "distratores": [
+          "Halo solar",
+          "Arco-íris",
+          "Aurora boreal"
+        ]
+      }
+    }
+  ]
+}

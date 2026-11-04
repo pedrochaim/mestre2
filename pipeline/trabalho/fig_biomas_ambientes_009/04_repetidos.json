@@ -1,0 +1,55 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fenômeno atmosférico encobre a cidade nesta foto?",
+        "resposta": "Smog"
+      },
+      "existentes": [
+        {
+          "id": "q04120",
+          "pergunta": "A palavra inglesa smog, usada para a névoa de poluição sobre as cidades, junta fumaça e que outra palavra?",
+          "resposta": "Neblina (fog)"
+        },
+        {
+          "id": "q08965",
+          "pergunta": "Protetor lá no alto da atmosfera, que gás é um dos principais poluentes da névoa fotoquímica das cidades em dias quentes e ensolarados?",
+          "resposta": "Ozônio"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que tipo de nuvem é esta?",
+        "resposta": "Cumulonimbus"
+      },
+      "existentes": [
+        {
+          "id": "q08685",
+          "pergunta": "Que tipo de nuvem, a mais alta de todas, pode passar de dez quilômetros de altura e traz raios e trovoadas?",
+          "resposta": "Cumulonimbo"
+        },
+        {
+          "id": "q08693",
+          "pergunta": "O topo achatado de um cumulonimbo, a nuvem das tempestades, tem a forma e o nome de que ferramenta de ferreiro?",
+          "resposta": "Bigorna"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome do fenômeno (smog) a partir de uma foto; a existente q04120 pergunta a etimologia da palavra (fog), outro fato. A q08965 trata do ozônio."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q08685",
+      "motivo": "Ambas pedem o nome da nuvem cumulonimbus; quem sabe uma responde a outra."
+    }
+  ]
+}

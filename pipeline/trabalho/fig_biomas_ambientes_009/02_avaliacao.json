@@ -1,0 +1,160 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Queda d'água nítida, sem texto; reconhecível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que elemento da paisagem, formado quando um rio despenca de um degrau no terreno, aparece nesta foto?",
+      "resposta": "Cachoeira",
+      "distratores": [
+        "Corredeira",
+        "Gêiser",
+        "Fonte termal"
+      ],
+      "ancora": {
+        "nome": "Cachoeira",
+        "descricao": "Ponto de um rio onde a água cai por um desnível vertical ou em degraus.",
+        "variantes": [
+          "Queda d'água",
+          "Waterfall"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Imagem de satélite de grande região; o deserto não é claramente delimitado e a resposta não é única (inclui Altiplano, litoral do Peru, Titicaca, salares)."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto dividida da mesma cidade, com e sem poluição; mostra bem o smog. Montagem de um único assunto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno de poluição do ar cobre a cidade na metade esquerda desta foto?",
+      "resposta": "Smog",
+      "distratores": [
+        "Geada",
+        "Chuva ácida",
+        "Tornado"
+      ],
+      "ancora": {
+        "nome": "Smog",
+        "descricao": "Tipo de poluição atmosférica visível, mistura de fumaça e neblina, que reduz a visibilidade.",
+        "variantes": [
+          "Poluição atmosférica",
+          "Smoke fog"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "A nuvem com topo em bigorna é um cumulonimbus claro; supercélula não se distingue só pela imagem, então a pergunta pede o tipo de nuvem.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de nuvem, típica de tempestades, tem esta forma de bigorna?",
+      "resposta": "Cumulonimbus",
+      "distratores": [
+        "Estratocúmulo",
+        "Cirro",
+        "Altostrato"
+      ],
+      "ancora": {
+        "nome": "Cumulonimbus",
+        "descricao": "Nuvem de grande desenvolvimento vertical, com topo em forma de bigorna, associada a tempestades.",
+        "variantes": [
+          "Cumulonimbus incus",
+          "Nuvem de tempestade"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem de satélite sem texto, com laguna e cidade de Veneza visíveis, separada do mar por faixas de areia.",
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de ambiente costeiro é a área roxa, separada do mar por faixas de areia, nesta imagem de satélite?",
+      "resposta": "Laguna",
+      "distratores": [
+        "Delta",
+        "Fiorde",
+        "Atol"
+      ],
+      "ancora": {
+        "nome": "Laguna de Veneza",
+        "descricao": "Laguna rasa no Mar Adriático, no nordeste da Itália, onde fica a cidade de Veneza.",
+        "variantes": [
+          "Lagoa de Veneza",
+          "Laguna Veneta"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "As nuvens vistas de cima parecem cúmulos; não é possível reconhecer estratocúmulo com segurança, resposta ambígua."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Montanha nevada sem elementos exclusivos; pode ser confundida com outros vulcões nevados, resposta não única diante da imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "É a gravura A Grande Onda de Kanagawa, com texto em japonês (título) visível, e não mostra um tsunami propriamente; assunto ambíguo."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Gotas de água numa teia: não é reconhecível como chuva ácida."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Vegetação arbustiva genérica; não distinguível de maquis ou outros matagais mediterrâneos."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Gotas em teia/superfície não identificam garoa; resposta ambígua (orvalho, chuva)."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Feixes de luz atravessando as nuvens, nítidos e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno óptico, com feixes de luz entre as nuvens, aparece nesta foto?",
+      "resposta": "Raios crepusculares",
+      "distratores": [
+        "Halo solar",
+        "Arco-íris",
+        "Aurora boreal"
+      ],
+      "ancora": {
+        "nome": "Raios crepusculares",
+        "descricao": "Feixes visíveis de luz solar que passam por aberturas entre nuvens.",
+        "variantes": [
+          "Raios de Deus",
+          "Raios de sol",
+          "Crepuscular rays"
+        ]
+      }
+    }
+  ]
+}

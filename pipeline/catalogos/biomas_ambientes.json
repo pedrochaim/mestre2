@@ -229,7 +229,7 @@
       "titulo": "en:Atacama Desert",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Floresta de kelp",
@@ -586,7 +586,7 @@
       "titulo": "en:Tsunami",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Deslizamento de terra",
@@ -600,7 +600,7 @@
       "titulo": "en:Crepuscular rays",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Nimbostrato",
@@ -614,7 +614,7 @@
       "titulo": "en:Supercell",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Rastro de condensação",
@@ -836,6 +836,286 @@
     {
       "nome": "Deserto Branco",
       "titulo": "en:White Desert National Park",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Trovoada",
+      "titulo": "en:Thunderstorm",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Smog",
+      "titulo": "en:Smog",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Miragem",
+      "titulo": "en:Mirage",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Garoa",
+      "titulo": "en:Drizzle",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Chuva ácida",
+      "titulo": "en:Acid rain",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Estratocúmulo",
+      "titulo": "en:Stratocumulus cloud",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Floresta temperada de coníferas",
+      "titulo": "en:Temperate coniferous forest",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tundra alpina",
+      "titulo": "en:Alpine tundra",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Outback",
+      "titulo": "en:Outback",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Altostrato",
+      "titulo": "en:Altostratus cloud",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arco-íris lunar",
+      "titulo": "en:Moonbow",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Virga",
+      "titulo": "en:Virga",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Píleo (nuvem)",
+      "titulo": "en:Pileus (meteorology)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nuvem muralha",
+      "titulo": "en:Wall cloud",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Glória (fenômeno óptico)",
+      "titulo": "en:Glory (optical phenomenon)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Raio verde",
+      "titulo": "en:Green flash",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Llanos",
+      "titulo": "en:Llanos",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Harmatão",
+      "titulo": "en:Harmattan",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Microexplosão",
+      "titulo": "en:Downburst",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Garrigue",
+      "titulo": "en:Garrigue",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Praia",
+      "titulo": "en:Beach",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lagoa",
+      "titulo": "en:Lagoon",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Cachoeira",
+      "titulo": "en:Waterfall",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Poça de maré",
+      "titulo": "en:Tide pool",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Caldeira vulcânica",
+      "titulo": "en:Caldera",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Campo de lava",
+      "titulo": "en:Lava field",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Deserto polar",
+      "titulo": "en:Polar desert",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Manto de gelo da Groenlândia",
+      "titulo": "en:Greenland ice sheet",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Badlands",
+      "titulo": "en:Badlands",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Chapada dos Veadeiros",
+      "titulo": "en:Chapada dos Veadeiros National Park",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Jalapão",
+      "titulo": "pt:Jalapão",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Salar de Atacama",
+      "titulo": "en:Salar de Atacama",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Exsudação fria",
+      "titulo": "en:Cold seep",
+      "camada": 3,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Piscina de salmoura",
+      "titulo": "en:Brine pool",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Nunatak",
+      "titulo": "en:Nunatak",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Geleira de rocha",
+      "titulo": "en:Rock glacier",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Gelo panqueca",
+      "titulo": "en:Pancake ice",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Erebus",
+      "titulo": "en:Mount Erebus",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Deserto de Lut",
+      "titulo": "en:Lut Desert",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Mono",
+      "titulo": "en:Mono Lake",
       "camada": 3,
       "destino": 1,
       "status": "nova"
