@@ -1,0 +1,139 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Raízes de mangue na água, reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de vegetação costeira, que cresce na água salobra, aparece nesta imagem?",
+      "resposta": "Manguezal",
+      "distratores": [
+        "Restinga",
+        "Caatinga",
+        "Mata ciliar"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Manguezal",
+        "descricao": "Ecossistema costeiro de árvores tolerantes a água salobra, em áreas de maré.",
+        "variantes": [
+          "Mangue",
+          "Mangal"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Vista aérea de rio largo com ilhas; não permite reconhecer o Xingu entre outros rios amazônicos."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Dunas e rochas erodidas sem elemento distintivo; resposta não única (outros desertos parecidos)."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Parede de gelo sobre o mar, ambígua entre geleira, plataforma de gelo e iceberg."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Mitre Peak e o fiorde são reconhecíveis; o nível 3 pergunta o parque nacional.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que parque nacional neozelandês fica este fiorde?",
+      "resposta": "Fiordland",
+      "distratores": [
+        "Abel Tasman",
+        "Tongariro",
+        "Aoraki Mount Cook"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Milford Sound",
+        "descricao": "Fiorde no sudoeste da Ilha Sul da Nova Zelândia, dentro do Parque Nacional Fiordland.",
+        "variantes": [
+          "Piopiotahi",
+          "Milford Sound / Piopiotahi"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Interior de caverna com estalactites genérico; não identifica Postojna de forma única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Mapa sem texto com o contorno amarelo do Cerrado em imagem de satélite da América do Sul.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que bioma brasileiro aparece contornado em amarelo neste mapa?",
+      "resposta": "Cerrado",
+      "distratores": [
+        "Caatinga",
+        "Mata Atlântica",
+        "Pampa"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Cerrado",
+        "descricao": "Bioma de savana tropical do Brasil central, o segundo maior do país.",
+        "variantes": [
+          "Savana brasileira"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Montanha nevada sem traços únicos; pode ser confundida com outros vulcões da cordilheira das Cascatas."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Placa com caracteres chineses que significam 'floresta de pedra' entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto do Lago Moraine, nas Rochosas canadenses; a cordilheira é única.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cordilheira da América do Norte fica este lago?",
+      "resposta": "Montanhas Rochosas",
+      "distratores": [
+        "Montanhas Apalaches",
+        "Sierra Nevada",
+        "Cordilheira das Cascatas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Montanhas Rochosas",
+        "descricao": "Grande cordilheira do oeste da América do Norte, do Canadá ao Novo México.",
+        "variantes": [
+          "Rocky Mountains",
+          "Rockies"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Imagem de satélite de todo o sul da África, sem contorno que indique o Kalahari; resposta ambígua."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Vista aérea escura de um canal, sem traços que permitam reconhecê-lo."
+    }
+  ]
+}

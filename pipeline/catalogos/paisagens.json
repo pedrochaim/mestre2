@@ -656,7 +656,7 @@
       "titulo": "en:Mount Rainier",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Denali",
@@ -691,7 +691,7 @@
       "titulo": "en:Milford Sound",
       "camada": 2,
       "destino": 2,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Monte Bromo",
@@ -839,6 +839,286 @@
       "camada": 3,
       "destino": 1,
       "status": "reprovada"
+    },
+    {
+      "nome": "Gêiser",
+      "titulo": "en:Geyser",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Iceberg",
+      "titulo": "en:Iceberg",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Oásis",
+      "titulo": "en:Oasis",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Duna",
+      "titulo": "en:Dune",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Geleira",
+      "titulo": "en:Glacier",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Recife de coral",
+      "titulo": "en:Coral reef",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Manguezal",
+      "titulo": "en:Mangrove",
+      "camada": 1,
+      "destino": 3,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Delta",
+      "titulo": "en:River delta",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estalactite",
+      "titulo": "en:Stalactite",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cerrado",
+      "titulo": "en:Cerrado",
+      "camada": 1,
+      "destino": 3,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mata Atlântica",
+      "titulo": "en:Atlantic Forest",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Montanhas Rochosas",
+      "titulo": "en:Rocky Mountains",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Bali",
+      "titulo": "en:Bali",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Praia de Navagio",
+      "titulo": "en:Navagio",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Costa Amalfitana",
+      "titulo": "en:Amalfi Coast",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Colinas de Chocolate",
+      "titulo": "en:Chocolate Hills",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cratera de Ngorongoro",
+      "titulo": "en:Ngorongoro Crater",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Huayna Picchu",
+      "titulo": "en:Huayna Picchu",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Everglades",
+      "titulo": "en:Everglades",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Deserto do Kalahari",
+      "titulo": "en:Kalahari Desert",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pirineus",
+      "titulo": "en:Pyrenees",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha de Komodo",
+      "titulo": "en:Komodo (island)",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Serra do Mar",
+      "titulo": "en:Serra do Mar",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio Xingu",
+      "titulo": "en:Xingu River",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pampa",
+      "titulo": "en:Pampas",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Delta do Okavango",
+      "titulo": "en:Okavango Delta",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Seychelles",
+      "titulo": "en:Seychelles",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Kjeragbolten",
+      "titulo": "en:Kjeragbolten",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ama Dablam",
+      "titulo": "en:Ama Dablam",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cavernas de Mármore",
+      "titulo": "en:Marble Caves",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Canal de Beagle",
+      "titulo": "en:Beagle Channel",
+      "camada": 3,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Vale da Lua (Atacama)",
+      "titulo": "en:Valle de la Luna (Chile)",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Montanhas Coloridas de Zhangye",
+      "titulo": "en:Zhangye National Geopark",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Floresta de Pedra de Shilin",
+      "titulo": "en:Stone Forest",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Vatnajökull",
+      "titulo": "en:Vatnajökull",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caverna de Postojna",
+      "titulo": "en:Postojna Cave",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Le Morne Brabant",
+      "titulo": "en:Le Morne Brabant",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Cânion Fortaleza",
+      "titulo": "pt:Cânion Fortaleza",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Vale do Pati",
+      "titulo": "pt:Vale do Pati",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Licancabur",
+      "titulo": "en:Licancabur",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }

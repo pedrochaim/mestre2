@@ -1,0 +1,252 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Manguezal",
+        "descricao": "Ecossistema costeiro de árvores tolerantes a água salobra, em áreas de maré.",
+        "variantes": [
+          "Mangue",
+          "Mangal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "manguezal",
+          "nome": "Manguezal",
+          "descricao": "Ecossistema costeiro de árvores adaptadas à água salobra, na foz de rios em regiões tropicais",
+          "variantes": [
+            "Mangue",
+            "Mangrove"
+          ]
+        },
+        {
+          "id": "manga",
+          "nome": "Manga",
+          "descricao": "Fruta tropical da mangueira (Mangifera indica), de origem no sul da Ásia.",
+          "variantes": [
+            "Mango",
+            "Mangifera indica",
+            "mangueira"
+          ]
+        },
+        {
+          "id": "mahjong",
+          "nome": "Mahjong",
+          "descricao": "Jogo chinês para quatro jogadores, jogado com peças ilustradas de naipes, ventos e dragões.",
+          "variantes": [
+            "Mah-jong",
+            "Majongue"
+          ]
+        },
+        {
+          "id": "sangue",
+          "nome": "Sangue",
+          "descricao": "Fluido que circula pelo corpo humano transportando oxigênio e nutrientes.",
+          "variantes": [
+            "Blood"
+          ]
+        },
+        {
+          "id": "magali",
+          "nome": "Magali",
+          "descricao": "Personagem comilona da Turma da Mônica, de Mauricio de Sousa",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Milford Sound",
+        "descricao": "Fiorde no sudoeste da Ilha Sul da Nova Zelândia, dentro do Parque Nacional Fiordland.",
+        "variantes": [
+          "Piopiotahi",
+          "Milford Sound / Piopiotahi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "milford_sound",
+          "nome": "Milford Sound",
+          "descricao": "Fiorde no sudoeste da Ilha Sul da Nova Zelândia, dominado pelo Mitre Peak, no Parque Nacional de Fiordland.",
+          "variantes": [
+            "Piopiotahi"
+          ]
+        },
+        {
+          "id": "smilodon",
+          "nome": "Smilodon",
+          "descricao": "Gênero extinto de felino dentes-de-sabre das Américas, que viveu até o fim da última era do gelo.",
+          "variantes": [
+            "Tigre-dentes-de-sabre",
+            "Dente-de-sabre",
+            "Smilodon populator",
+            "Tigre-dente-de-sabre"
+          ]
+        },
+        {
+          "id": "horatio_nelson",
+          "nome": "Horatio Nelson",
+          "descricao": "Almirante da Marinha Real Britânica, vencedor de batalhas navais nas Guerras Napoleônicas, morto em Trafalgar.",
+          "variantes": [
+            "Almirante Nelson",
+            "Lorde Nelson"
+          ]
+        },
+        {
+          "id": "wilfred_owen",
+          "nome": "Wilfred Owen",
+          "descricao": "Poeta e oficial britânico (1893–1918), autor de poemas sobre os horrores das trincheiras, morto em combate na França.",
+          "variantes": []
+        },
+        {
+          "id": "lord_s",
+          "nome": "Lord's",
+          "descricao": "Campo de críquete em St John's Wood, Londres, sede do Marylebone Cricket Club.",
+          "variantes": [
+            "Lord's Cricket Ground"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cerrado",
+        "descricao": "Bioma de savana tropical do Brasil central, o segundo maior do país.",
+        "variantes": [
+          "Savana brasileira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cerrado",
+          "nome": "Cerrado",
+          "descricao": "Bioma de savana do Brasil central",
+          "variantes": [
+            "Savana brasileira"
+          ]
+        },
+        {
+          "id": "anta",
+          "nome": "Anta",
+          "descricao": "Grande mamífero herbívoro de focinho em forma de pequena tromba da América do Sul, espécie Tapirus terrestris.",
+          "variantes": [
+            "Tapirus terrestris",
+            "Tapir",
+            "Anta-brasileira"
+          ]
+        },
+        {
+          "id": "bachianas_brasileiras",
+          "nome": "Bachianas Brasileiras",
+          "descricao": "Ciclo de nove suítes de Heitor Villa-Lobos que une a música brasileira ao estilo barroco.",
+          "variantes": [
+            "Bachianas"
+          ]
+        },
+        {
+          "id": "viola_caipira",
+          "nome": "Viola caipira",
+          "descricao": "Instrumento de cordas símbolo da música sertaneja de raiz.",
+          "variantes": [
+            "Viola brasileira",
+            "Viola de dez cordas",
+            "Viola sertaneja"
+          ]
+        },
+        {
+          "id": "litoral_do_brasil",
+          "nome": "Litoral do Brasil",
+          "descricao": "Faixa costeira brasileira banhada pelo oceano Atlântico, do Amapá ao Rio Grande do Sul.",
+          "variantes": [
+            "Costa brasileira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Montanhas Rochosas",
+        "descricao": "Grande cordilheira do oeste da América do Norte, do Canadá ao Novo México.",
+        "variantes": [
+          "Rocky Mountains",
+          "Rockies"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gafanhoto_das_montanhas_rochosas",
+          "nome": "Gafanhoto-das-montanhas-rochosas",
+          "descricao": "Gafanhoto norte-americano extinto (Melanoplus spretus) que formava nuvens gigantescas nas pradarias no século dezenove.",
+          "variantes": [
+            "Melanoplus spretus",
+            "Rocky Mountain locust"
+          ]
+        },
+        {
+          "id": "locomotiva_rocket",
+          "nome": "Locomotiva Rocket",
+          "descricao": "Locomotiva a vapor de Robert Stephenson, vencedora dos Rainhill Trials em 1829.",
+          "variantes": [
+            "Rocket",
+            "Stephenson's Rocket",
+            "Rocket de Stephenson"
+          ]
+        },
+        {
+          "id": "mega_man",
+          "nome": "Mega Man",
+          "descricao": "Robô protagonista da série de jogos da Capcom iniciada em 1987, chamado Rockman no Japão.",
+          "variantes": [
+            "Rockman",
+            "Rock"
+          ]
+        },
+        {
+          "id": "a_virgem_das_rochas",
+          "nome": "A Virgem das Rochas",
+          "descricao": "Pintura renascentista de Leonardo da Vinci com a Virgem, o menino Jesus, São João Batista criança e um anjo numa gruta rochosa.",
+          "variantes": [
+            "Madonna das Rochas",
+            "Vergine delle rocce",
+            "Virgin of the Rocks"
+          ]
+        },
+        {
+          "id": "froakie",
+          "nome": "Froakie",
+          "descricao": "Pokémon do tipo Água, número 656 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "manguezal",
+      "motivo": "Mesmo ecossistema costeiro de mangue, mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "milford_sound",
+      "motivo": "Mesmo fiorde na Nova Zelândia, em Fiordland."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "cerrado",
+      "motivo": "Mesmo bioma de savana do Brasil central."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a cordilheira; o gafanhoto só tem o nome parecido."
+    }
+  ]
+}

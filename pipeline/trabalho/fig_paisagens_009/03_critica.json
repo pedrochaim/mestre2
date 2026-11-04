@@ -1,0 +1,56 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz a definição do manguezal (vegetação costeira em água salobra): dá para responder com a imagem coberta. Os distratores também são fracos: a Caatinga não é costeira.",
+      "reescrita": {
+        "pergunta": "Que ecossistema costeiro é este?",
+        "resposta": "Manguezal",
+        "distratores": [
+          "Restinga",
+          "Recife de corais",
+          "Duna costeira"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato é confirmado pelos trechos. Porém \"fiorde\" é a raiz de \"Fiordland\", o que sopra a resposta. Basta trocar por \"lugar\".",
+      "reescrita": {
+        "pergunta": "Em que parque nacional neozelandês fica este lugar?",
+        "resposta": "Fiordland",
+        "distratores": [
+          "Abel Tasman",
+          "Tongariro",
+          "Aoraki Mount Cook"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A cor do contorno (\"amarelo\") não está confirmada em `mostra` e pode não valer para esta imagem. Troco por \"destacado\", que é verdadeiro de qualquer jeito.",
+      "reescrita": {
+        "pergunta": "Que bioma brasileiro aparece destacado neste mapa?",
+        "resposta": "Cerrado",
+        "distratores": [
+          "Caatinga",
+          "Mata Atlântica",
+          "Pampa"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não vaza a resposta e é preciso reconhecer a paisagem. A resposta é única e os distratores são cordilheiras norte-americanas críveis.",
+      "reescrita": null
+    }
+  ]
+}

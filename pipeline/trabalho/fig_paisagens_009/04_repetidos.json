@@ -1,0 +1,85 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ecossistema costeiro é este?",
+        "resposta": "Manguezal"
+      },
+      "existentes": [
+        {
+          "id": "q02277",
+          "pergunta": "Por que algumas árvores do mangue têm raízes que brotam da lama apontando para cima?",
+          "resposta": "Para respirar"
+        },
+        {
+          "id": "q02278",
+          "pergunta": "Que movimento musical de Recife, liderado por Chico Science nos anos noventa, tirou seu nome de um ecossistema costeiro?",
+          "resposta": "Manguebeat"
+        },
+        {
+          "id": "q15101",
+          "pergunta": "Que ecossistema costeiro é este?",
+          "resposta": "Manguezal"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que parque nacional neozelandês fica este lugar?",
+        "resposta": "Fiordland"
+      },
+      "existentes": [
+        {
+          "id": "q16682",
+          "pergunta": "Em que país fica este fiorde?",
+          "resposta": "Nova Zelândia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que bioma brasileiro aparece destacado neste mapa?",
+        "resposta": "Cerrado"
+      },
+      "existentes": [
+        {
+          "id": "q02274",
+          "pergunta": "A casca grossa, parecida com cortiça, de muitas árvores do Cerrado é uma adaptação que as protege contra o quê?",
+          "resposta": "O fogo"
+        },
+        {
+          "id": "q06255",
+          "pergunta": "O bioma do Brasil central recebeu o nome de uma palavra portuguesa que descreve sua vegetação. Nesse sentido, o que significa cerrado?",
+          "resposta": "Fechado"
+        },
+        {
+          "id": "q08681",
+          "pergunta": "Atrás apenas da Amazônia, qual é o segundo maior bioma do Brasil em área?",
+          "resposta": "Cerrado"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q15101",
+      "motivo": "Pergunta e resposta idênticas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o parque nacional (Fiordland), não o país; fato diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q08681",
+      "motivo": "Ambas têm como resposta o Cerrado como bioma identificado; saber um leva ao outro, porém o enunciado difere. Mesma resposta/identificação do bioma."
+    }
+  ]
+}
