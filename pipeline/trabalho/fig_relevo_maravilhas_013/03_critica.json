@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado afirma que o Fuji aparece ao fundo e de cume nevado, mas 'mostra' só confirma o lago; não há garantia de que esta foto mostre o Fuji. Além disso, a figura é o lago e a pergunta fala de outra entidade. Reescrita pergunta pela província, fato dos trechos.",
+      "reescrita": {
+        "pergunta": "Em que província japonesa fica este lago de cratera, famoso por suas fontes termais?",
+        "resposta": "Kanagawa",
+        "distratores": [
+          "Shizuoka",
+          "Yamanashi",
+          "Nagano"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos; enunciado não vaza; distratores são parques da região e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Islândia confirmada nos trechos; enunciado sem vazamento; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Wyoming confirmado nos trechos; sem vazamento; distratores são estados com montanhas, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mato Grosso do Sul confirmado; enunciado não nomeia a dolina nem as araras; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chile confirmado; enunciado sem vazamento; distratores andinos e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quilotoa é um lago de cratera, confirmado no trecho; os distratores são tipos de lago incorretos aqui e curtos.",
+      "reescrita": null
+    }
+  ]
+}

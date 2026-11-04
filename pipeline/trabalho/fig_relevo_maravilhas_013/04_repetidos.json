@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que estado brasileiro fica esta enorme dolina, de paredes de rocha e mata no fundo?",
+        "resposta": "Mato Grosso do Sul"
+      },
+      "existentes": [
+        {
+          "id": "q17115",
+          "pergunta": "Em que estado fica esta grande dolina?",
+          "resposta": "Mato Grosso do Sul"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q17115",
+      "motivo": "Ambas perguntam em que estado fica a mesma dolina; mesma resposta (Mato Grosso do Sul)."
+    }
+  ]
+}
