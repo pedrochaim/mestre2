@@ -1,0 +1,69 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Vista do espaço\" é afirmação não confirmada por `mostra`; pode ser falsa para esta foto. Resto correto (Nilo, Egito).",
+      "reescrita": {
+        "pergunta": "Em que país fica este delta triangular?",
+        "resposta": "Egito",
+        "distratores": [
+          "Bangladesh",
+          "Vietnã",
+          "Iraque"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Huanglong, também em Sichuan e com lagos e cascatas, é um distrator defensável; \"azuis\" é detalhe não garantido pela foto. Troco o distrator e retiro a cor.",
+      "reescrita": {
+        "pergunta": "Que vale chinês, com cachoeiras e lagos coloridos, é este?",
+        "resposta": "Jiuzhaigou",
+        "distratores": [
+          "Zhangjiajie",
+          "Guilin",
+          "Huangshan"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "\"Em plena atividade\" não é garantido por `mostra`. A resposta é uma categoria genérica e o enunciado fica vago. Sem conserto limpo.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos, sem vazamento, resposta única e distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Localização na China confirmada, sem vazamento, distratores são lugares coloridos plausíveis e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As águas turquesa e a localização na França estão nos trechos. A pista não identifica sozinha, a resposta é única e os distratores são críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Annapurna fica no Nepal, conforme o trecho. O enunciado não vaza e os distratores são outros picos de oito mil metros, nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}

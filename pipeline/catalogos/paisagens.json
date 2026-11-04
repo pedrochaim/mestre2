@@ -418,7 +418,7 @@
       "titulo": "en:Phi Phi Islands",
       "camada": 2,
       "destino": 2,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Falésias Brancas de Dover",
@@ -894,7 +894,7 @@
       "titulo": "en:River delta",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Estalactite",
@@ -950,7 +950,7 @@
       "titulo": "en:Chocolate Hills",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Cratera de Ngorongoro",
@@ -1013,7 +1013,7 @@
       "titulo": "en:Pampas",
       "camada": 2,
       "destino": 3,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Delta do Okavango",
@@ -1069,7 +1069,7 @@
       "titulo": "en:Zhangye National Geopark",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Floresta de Pedra de Shilin",
@@ -1116,6 +1116,286 @@
     {
       "nome": "Licancabur",
       "titulo": "en:Licancabur",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vulcão",
+      "titulo": "en:Volcano",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cachoeira",
+      "titulo": "en:Waterfall",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cânion",
+      "titulo": "en:Canyon",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Falésia",
+      "titulo": "en:Cliff",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lava",
+      "titulo": "en:Lava",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha",
+      "titulo": "en:Island",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago",
+      "titulo": "en:Lake",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Montanha",
+      "titulo": "en:Mountain",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Praia",
+      "titulo": "en:Beach",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Deserto",
+      "titulo": "en:Desert",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Caverna",
+      "titulo": "en:Cave",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio",
+      "titulo": "en:River",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pântano",
+      "titulo": "en:Swamp",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Arco natural",
+      "titulo": "en:Natural arch",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caldeira vulcânica",
+      "titulo": "en:Caldera",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Meandro",
+      "titulo": "en:Meander",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Corredeira",
+      "titulo": "en:Rapids",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cenote",
+      "titulo": "en:Cenote",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Floresta da Tijuca",
+      "titulo": "en:Tijuca Forest",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Cachoeira de Paulo Afonso",
+      "titulo": "en:Paulo Afonso Falls",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Praia dos Carneiros",
+      "titulo": "pt:Praia dos Carneiros",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Cinque Terre",
+      "titulo": "en:Cinque Terre",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Avenida dos Baobás",
+      "titulo": "en:Avenue of the Baobabs",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Huacachina",
+      "titulo": "en:Huacachina",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jiuzhaigou",
+      "titulo": "en:Jiuzhaigou",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Arpoador",
+      "titulo": "pt:Arpoador",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedra da Galinha Choca",
+      "titulo": "pt:Pedra da Galinha Choca",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Pico do Cabugi",
+      "titulo": "pt:Pico do Cabugi",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Mono",
+      "titulo": "en:Mono Lake",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Monte Nyiragongo",
+      "titulo": "en:Mount Nyiragongo",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Quênia",
+      "titulo": "en:Mount Kenya",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Annapurna",
+      "titulo": "en:Annapurna",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Shiprock",
+      "titulo": "en:Shiprock",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Raja Ampat",
+      "titulo": "en:Raja Ampat Islands",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Whitehaven Beach",
+      "titulo": "en:Whitehaven Beach",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Cerro de los Siete Colores",
+      "titulo": "en:Hill of Seven Colors",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hopewell Rocks",
+      "titulo": "en:Hopewell Rocks",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Gargantas do Verdon",
+      "titulo": "en:Verdon Gorge",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Vale de Viñales",
+      "titulo": "en:Viñales Valley",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hierve el Agua",
+      "titulo": "en:Hierve el Agua",
       "camada": 3,
       "destino": 0,
       "status": "nova"

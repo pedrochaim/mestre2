@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que país fica este delta triangular?",
+        "resposta": "Egito"
+      },
+      "existentes": [
+        {
+          "id": "q07164",
+          "pergunta": "A palavra delta, usada para certas fozes, nasceu porque os gregos acharam a foz de qual rio parecida com essa letra?",
+          "resposta": "Nilo"
+        },
+        {
+          "id": "q09149",
+          "pergunta": "O delta do Nilo tem dois braços principais. Um deles passa por Damieta. Qual é o outro, que deu nome a uma pedra famosa?",
+          "resposta": "Braço de Roseta"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país ficam estas montanhas coloridas?",
+        "resposta": "China"
+      },
+      "existentes": [
+        {
+          "id": "q15914",
+          "pergunta": "Que paisagem colorida da China é esta?",
+          "resposta": "Montanhas Arco-íris de Zhangye"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o país do delta (Egito); as existentes tratam da origem do nome e dos braços do delta, fatos diferentes. Saber o nome do rio Nilo não implica responder o país com certeza."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A existente pergunta qual é a paisagem (nome), cuja resposta já cita a China no enunciado; a nova pergunta o país, fato diferente."
+    }
+  ]
+}

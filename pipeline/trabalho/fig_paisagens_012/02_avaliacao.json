@@ -1,0 +1,194 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem de satélite nítida do delta do Nilo, com forma triangular inconfundível.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta região, vista do espaço?",
+      "resposta": "Egito",
+      "distratores": [
+        "Bangladesh",
+        "Vietnã",
+        "Iraque"
+      ],
+      "ancora": {
+        "nome": "Delta do Nilo",
+        "descricao": "Delta triangular formado pelo rio Nilo ao desaguar no Mar Mediterrâneo, no norte do Egito.",
+        "variantes": [
+          "Nile Delta"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista clara das cachoeiras e lagos do vale de Jiuzhaigou, sem texto; reconhecível para quem conhece.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que vale chinês, com cachoeiras e lagos de águas azuis, é este?",
+      "resposta": "Jiuzhaigou",
+      "distratores": [
+        "Huanglong",
+        "Zhangjiajie",
+        "Guilin"
+      ],
+      "ancora": {
+        "nome": "Jiuzhaigou",
+        "descricao": "Vale e parque nacional de Sichuan, na China, Patrimônio Mundial da UNESCO, conhecido por lagos coloridos e cachoeiras.",
+        "variantes": [
+          "Vale Jiuzhaigou",
+          "Jiuzhai Valley"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto de satélite de um lago sem traços que permitam reconhecê-lo; só dá para chutar."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Erupção explosiva com coluna de cinzas sobre um cone, claramente um vulcão; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que formação natural é esta, em plena atividade?",
+      "resposta": "Vulcão",
+      "distratores": [
+        "Gêiser",
+        "Fumarola",
+        "Cratera de meteorito"
+      ],
+      "ancora": {
+        "nome": "Vulcão",
+        "descricao": "Abertura da crosta por onde escapam lava, cinzas e gases de uma câmara magmática.",
+        "variantes": [
+          "Volcano"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Colinas cônicas cobertas de grama, muito características, sem texto nem pessoas.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que país asiático ficam estas colinas?",
+      "resposta": "Filipinas",
+      "distratores": [
+        "Indonésia",
+        "Vietnã",
+        "Tailândia"
+      ],
+      "ancora": {
+        "nome": "Colinas de Chocolate",
+        "descricao": "Formação de mais de mil colinas cônicas cobertas de grama na província de Bohol, nas Filipinas.",
+        "variantes": [
+          "Chocolate Hills"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Relevo listrado em vermelho, amarelo e verde, característico de Zhangye Danxia; sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que país ficam estas montanhas coloridas?",
+      "resposta": "China",
+      "distratores": [
+        "Peru",
+        "Irã",
+        "Argentina"
+      ],
+      "ancora": {
+        "nome": "Montanhas Coloridas de Zhangye",
+        "descricao": "Relevo danxia de rochas listradas multicoloridas no Parque Geológico Nacional de Zhangye, em Gansu, China.",
+        "variantes": [
+          "Zhangye Danxia",
+          "Parque Geológico Nacional Zhangye"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Dunas genéricas, sem traço que indique o deserto ou o país; resposta não única nem reconhecível."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Paredões de calcário e águas turquesa poderiam ser de vários lugares do Sudeste Asiático; há pessoas no barco em primeiro plano."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista panorâmica nítida do cânion com o rio turquesa e o lago de Sainte-Croix ao fundo; sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este desfiladeiro de águas turquesa?",
+      "resposta": "França",
+      "distratores": [
+        "Itália",
+        "Espanha",
+        "Eslovênia"
+      ],
+      "ancora": {
+        "nome": "Gargantas do Verdon",
+        "descricao": "Cânion fluvial de cerca de 25 km e até 700 m de profundidade, escavado pelo rio Verdon na Provença, no sudeste da França.",
+        "variantes": [
+          "Gorges du Verdon",
+          "Verdon Gorge",
+          "Cânion do Verdon"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Rio ou lago genérico, sem traço reconhecível; há pessoas comuns em primeiro plano e texto no barco."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Vista aérea de campos planos e genéricos; não se reconhece o pampa e a resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Face sul gelada e imponente do Annapurna I, nítida e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que montanha do Nepal é esta?",
+      "resposta": "Annapurna",
+      "distratores": [
+        "Dhaulagiri",
+        "Manaslu",
+        "Makalu"
+      ],
+      "ancora": {
+        "nome": "Annapurna",
+        "descricao": "Montanha de 8091 metros no Himalaia, no norte do Nepal, a décima mais alta do mundo.",
+        "variantes": [
+          "Annapurna I"
+        ]
+      }
+    }
+  ]
+}
