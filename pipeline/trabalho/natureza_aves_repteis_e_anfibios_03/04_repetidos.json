@@ -1,0 +1,906 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Do tamanho de uma galinha, que ave da Nova Zelândia põe um ovo que chega a um quinto do peso da fêmea?",
+        "resposta": "Kiwi"
+      },
+      "existentes": [
+        {
+          "id": "q02515",
+          "pergunta": "Diferente de outras aves, o kiwi da Nova Zelândia fareja minhocas no chão porque tem as narinas num lugar incomum. Onde?",
+          "resposta": "Na ponta do bico"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que ave tem os maiores olhos entre todos os animais terrestres, com cerca de cinco centímetros de diâmetro?",
+        "resposta": "Avestruz"
+      },
+      "existentes": [
+        {
+          "id": "q01479",
+          "pergunta": "Em que continente esta ave, a maior ave viva, é nativa?",
+          "resposta": "África"
+        },
+        {
+          "id": "q02505",
+          "pergunta": "A maioria das aves tem quatro dedos em cada pé. Quantos dedos tem cada pé do avestruz?",
+          "resposta": "Dois"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Capaz de descer a mais de quinhentos metros abaixo da superfície, qual é a ave que mergulha mais fundo?",
+        "resposta": "Pinguim-imperador"
+      },
+      "existentes": [
+        {
+          "id": "q01030",
+          "pergunta": "Que pinguim é este, o maior de todos?",
+          "resposta": "Pinguim-imperador"
+        },
+        {
+          "id": "q04829",
+          "pergunta": "No inverno antártico, pinguins-imperadores se amontoam aos milhares, revezando quem fica na borda do grupo. Por que fazem isso?",
+          "resposta": "Para conservar o calor"
+        },
+        {
+          "id": "q06534",
+          "pergunta": "No inverno antártico, o macho do pinguim-imperador choca o ovo apoiado sobre os pés. Por quanto tempo, aproximadamente?",
+          "resposta": "Cerca de dois meses"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que ave marinha faz a migração mais longa conhecida, viajando todo ano entre as regiões polares do norte e do sul?",
+        "resposta": "Andorinha-do-mar-ártica"
+      },
+      "existentes": [
+        {
+          "id": "q09192",
+          "pergunta": "Que ave marinha vive dois verões por ano, migrando entre o Ártico e a Antártida, e vê mais luz do dia que qualquer outro animal?",
+          "resposta": "Andorinha-do-mar-ártica"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "A sucuri-verde é a serpente mais pesada do mundo. E qual é a mais comprida?",
+        "resposta": "Píton-reticulada"
+      },
+      "existentes": [
+        {
+          "id": "q04214",
+          "pergunta": "Que píton asiática é esta?",
+          "resposta": "Píton-reticulada"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Somando as marinhas e as terrestres, qual é a maior tartaruga viva do mundo?",
+        "resposta": "Tartaruga-de-couro"
+      },
+      "existentes": [
+        {
+          "id": "q02484",
+          "pergunta": "Sacolas plásticas boiando no mar são uma ameaça para a tartaruga-de-couro, porque ela as confunde com seu alimento preferido. Qual?",
+          "resposta": "Águas-vivas"
+        },
+        {
+          "id": "q02568",
+          "pergunta": "Qual é a maior de todas as tartarugas-marinhas, que pode passar de meia tonelada?",
+          "resposta": "Tartaruga-de-couro"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Entre todos os papagaios do mundo, qual é o mais pesado, chegando a uns quatro quilos?",
+        "resposta": "Kakapo"
+      },
+      "existentes": [
+        {
+          "id": "q06497",
+          "pergunta": "Gordo, noturno e incapaz de voar, o kakapo é um papagaio raríssimo. Em que país ele vive?",
+          "resposta": "Nova Zelândia"
+        },
+        {
+          "id": "q07858",
+          "pergunta": "Que papagaio é este?",
+          "resposta": "Kakapo"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Qual é a mais longa das serpentes peçonhentas, capaz de passar dos cinco metros de comprimento?",
+        "resposta": "Cobra-real"
+      },
+      "existentes": [
+        {
+          "id": "q08643",
+          "pergunta": "Que serpente venenosa asiática é esta?",
+          "resposta": "Cobra-real"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O chocalho da cascavel é uma fileira de anéis ocos encaixados. Eles são feitos de que substância, a mesma das nossas unhas?",
+        "resposta": "Queratina"
+      },
+      "existentes": [
+        {
+          "id": "q02482",
+          "pergunta": "Contar os anéis do chocalho não revela a idade da cascavel, porque um novo anel surge a cada vez que acontece o quê?",
+          "resposta": "A troca de pele"
+        },
+        {
+          "id": "q02510",
+          "pergunta": "Entre o olho e a narina, a cascavel tem uma pequena cavidade que detecta o calor das presas. Como se chama essa estrutura?",
+          "resposta": "Fosseta loreal"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Como se chamam as manchas em forma de olho que enfeitam as penas que o pavão macho abre em leque?",
+        "resposta": "Ocelos"
+      },
+      "existentes": [
+        {
+          "id": "q01482",
+          "pergunta": "Esta ave é o macho da espécie. Como se chama a fêmea?",
+          "resposta": "Pavoa"
+        },
+        {
+          "id": "q02486",
+          "pergunta": "Para Charles Darwin, a cauda exuberante do pavão não evoluiu pela sobrevivência, mas por outro tipo de seleção. Qual?",
+          "resposta": "Seleção sexual"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Na perna do flamingo há uma dobra que parece um joelho virado para trás. Na verdade, que articulação é essa?",
+        "resposta": "Tornozelo"
+      },
+      "existentes": [
+        {
+          "id": "q06529",
+          "pergunta": "Pelo DNA, os parentes mais próximos do flamingo são aves aquáticas que mergulham para caçar e fazem ninhos flutuantes. Que aves são essas?",
+          "resposta": "Mergulhões"
+        },
+        {
+          "id": "q09211",
+          "pergunta": "Flamingos nascem com penas cinzentas e só depois ficam cor-de-rosa. O que causa essa cor?",
+          "resposta": "Pigmentos da alimentação"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "A cobra põe a língua bifurcada para fora para levar cheiros a um órgão no céu da boca. Como ele se chama?",
+        "resposta": "Órgão de Jacobson"
+      },
+      "existentes": [
+        {
+          "id": "q06533",
+          "pergunta": "Para caber no corpo longo e fino, a maioria das cobras tem quantos pulmões funcionando?",
+          "resposta": "Um"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O sapo-cururu guarda seu veneno em duas grandes glândulas logo atrás dos olhos. Como elas se chamam?",
+        "resposta": "Glândulas paratoides"
+      },
+      "existentes": [
+        {
+          "id": "q02480",
+          "pergunta": "Em 1935, o sapo-cururu, nativo das Américas, foi levado para a Austrália, onde virou praga. Com que objetivo ele foi levado?",
+          "resposta": "Controlar besouros da cana"
+        },
+        {
+          "id": "q08638",
+          "pergunta": "Que sapo grande, nativo das Américas, é este?",
+          "resposta": "Sapo-cururu"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Na época de reprodução, o macho do tesourão infla uma enorme bolsa vermelha para atrair as fêmeas. Em que parte do corpo ela fica?",
+        "resposta": "Na garganta"
+      },
+      "existentes": [
+        {
+          "id": "q11519",
+          "pergunta": "Que ave marinha tropical é esta?",
+          "resposta": "Tesourão"
+        },
+        {
+          "id": "q16253",
+          "pergunta": "Que ave marinha tropical é esta?",
+          "resposta": "Fragata"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Os pombos alimentam os filhotes com uma pasta nutritiva chamada leite de pombo. Em que parte do corpo ela é produzida?",
+        "resposta": "No papo"
+      },
+      "existentes": [
+        {
+          "id": "q07859",
+          "pergunta": "Que ave é esta?",
+          "resposta": "Pombo"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Debaixo d'água, os crocodilos protegem os olhos com uma terceira pálpebra transparente. Como ela se chama?",
+        "resposta": "Membrana nictitante"
+      },
+      "existentes": [
+        {
+          "id": "q02488",
+          "pergunta": "Os crocodilos lembram lagartos, mas seus parentes vivos mais próximos são de outro grupo de vertebrados. Qual?",
+          "resposta": "As aves"
+        },
+        {
+          "id": "q06532",
+          "pergunta": "Ao contrário da maioria dos répteis, os crocodilianos têm um coração como o das aves e dos mamíferos. Quantas cavidades ele tem?",
+          "resposta": "Quatro"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "A cobra-de-duas-cabeças tem, na verdade, uma cabeça só. Que parte do corpo, grossa e arredondada, parece ser a segunda?",
+        "resposta": "A cauda"
+      },
+      "existentes": [
+        {
+          "id": "q08644",
+          "pergunta": "Que réptil subterrâneo sem patas é este, comum na América do Sul?",
+          "resposta": "Cobra-de-duas-cabeças"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Famoso por defender o ninho com valentia, o quero-quero tem um esporão afiado em que parte do corpo?",
+        "resposta": "Nas asas"
+      },
+      "existentes": [
+        {
+          "id": "q06414",
+          "pergunta": "Que ave é esta?",
+          "resposta": "Quero-quero"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "O macho da rã-de-darwin guarda os filhotes até virarem pequenas rãs. Em que parte do corpo dele isso acontece?",
+        "resposta": "No saco vocal"
+      },
+      "existentes": [
+        {
+          "id": "q16537",
+          "pergunta": "Que rã sul-americana, com focinho pontudo e aparência de folha seca, é esta?",
+          "resposta": "Rã-de-darwin"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "O casco do jabuti não é uma armadura solta: ele faz parte do esqueleto. A coluna se funde a que ossos do tórax para formá-lo?",
+        "resposta": "Costelas"
+      },
+      "existentes": [
+        {
+          "id": "q06536",
+          "pergunta": "Entre estes quelônios brasileiros, qual é o que vive só em terra firme, sem nadar em rios nem no mar?",
+          "resposta": "Jabuti"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Além de parar no ar, o beija-flor domina uma manobra que quase nenhuma outra ave consegue fazer. Qual?",
+        "resposta": "Voar para trás"
+      },
+      "existentes": [
+        {
+          "id": "q16589",
+          "pergunta": "Esta ave só existe naturalmente em qual parte do mundo?",
+          "resposta": "Américas"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "O axolote, salamandra mexicana, é estudado em laboratórios do mundo todo por uma capacidade impressionante. Qual?",
+        "resposta": "Regenerar partes do corpo"
+      },
+      "existentes": [
+        {
+          "id": "q02504",
+          "pergunta": "O axolote, salamandra que mantém as brânquias na fase adulta, vive na natureza nos canais de Xochimilco, em que cidade?",
+          "resposta": "Cidade do México"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Ao contrário da maioria das aves, o urubu-de-cabeça-vermelha acha carniça escondida sob a mata usando que sentido?",
+        "resposta": "Olfato"
+      },
+      "existentes": [
+        {
+          "id": "q17473",
+          "pergunta": "Que ave é esta?",
+          "resposta": "Urubu-de-cabeça-vermelha"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Para espantar predadores como coiotes, o lagarto-de-chifre-texano consegue esguichar jatos de sangue por onde?",
+        "resposta": "Pelos olhos"
+      },
+      "existentes": [
+        {
+          "id": "q08642",
+          "pergunta": "Que lagarto espinhoso é este?",
+          "resposta": "Lagarto-de-chifre-texano"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Em zoológicos da Europa, fêmeas do dragão-de-komodo tiveram filhotes sem nenhum contato com machos. Como se chama essa reprodução?",
+        "resposta": "Partenogênese"
+      },
+      "existentes": [
+        {
+          "id": "q06496",
+          "pergunta": "O dragão-de-komodo, maior lagarto do mundo, vive na natureza só em algumas ilhas de que país?",
+          "resposta": "Indonésia"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Como se chama a capacidade da lagartixa de soltar a própria cauda, que continua se mexendo para distrair um predador?",
+        "resposta": "Autotomia"
+      },
+      "existentes": [
+        {
+          "id": "q02485",
+          "pergunta": "As lagartixas andam no teto graças a milhões de pelos microscópicos nos dedos, que aderem à parede por meio de quê?",
+          "resposta": "Forças de van der Waals"
+        },
+        {
+          "id": "q06522",
+          "pergunta": "As lagartixas são chamadas de gecos, palavra que veio do malaio. Esse nome imita o quê?",
+          "resposta": "O som que o animal emite"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "A seriema caça cobras e lagartos nos campos do Cerrado. Como ela costuma matar as presas maiores?",
+        "resposta": "Batendo-as contra o chão"
+      },
+      "existentes": [
+        {
+          "id": "q02489",
+          "pergunta": "A seriema, ave de pernas longas do Cerrado, é parente viva de que grupo de aves predadoras gigantes, já extintas?",
+          "resposta": "Aves do terror"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Isolada na Ilha da Queimada Grande, no litoral paulista, a jararaca-ilhoa adulta se alimenta principalmente de que animais?",
+        "resposta": "Aves"
+      },
+      "existentes": [
+        {
+          "id": "q02313",
+          "pergunta": "Que serpente brasileira é esta?",
+          "resposta": "Jararaca-ilhoa"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "O nome científico da cobra-real, Ophiophagus, vem do grego e descreve sua dieta preferida. O que ele quer dizer?",
+        "resposta": "Comedor de serpentes"
+      },
+      "existentes": [
+        {
+          "id": "q08643",
+          "pergunta": "Que serpente venenosa asiática é esta?",
+          "resposta": "Cobra-real"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "O urutau, ave noturna de canto melancólico, é conhecido no Brasil por um apelido ligado a um astro. Qual?",
+        "resposta": "Mãe-da-lua"
+      },
+      "existentes": [
+        {
+          "id": "q15781",
+          "pergunta": "Que ave noturna é esta?",
+          "resposta": "Urutau"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "A tartaruga-verde tem o casco oliva ou marrom. Seu nome vem da cor esverdeada de que parte do corpo dela?",
+        "resposta": "Da gordura"
+      },
+      "existentes": [
+        {
+          "id": "q02051",
+          "pergunta": "Que espécie de tartaruga-marinha é esta?",
+          "resposta": "Tartaruga-verde"
+        },
+        {
+          "id": "q02538",
+          "pergunta": "A tartaruga-verde tem a carapaça oliva ou marrom. De onde vem, então, o verde do seu nome?",
+          "resposta": "Da cor da sua gordura"
+        },
+        {
+          "id": "q04209",
+          "pergunta": "Depois de adultas, estas tartarugas marinhas comem quase só um tipo de vegetal do fundo do mar. Qual?",
+          "resposta": "Capim-marinho"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "O arquipélago de Galápagos, no Pacífico, tem o nome tirado de uma antiga palavra espanhola. Que animal ela designava?",
+        "resposta": "Tartaruga"
+      },
+      "existentes": [
+        {
+          "id": "q02312",
+          "pergunta": "Em que arquipélago vive em estado natural esta tartaruga gigante?",
+          "resposta": "Galápagos"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Pelo parentesco, o beija-flor está na mesma ordem de que aves velozes, que passam quase a vida toda voando?",
+        "resposta": "Andorinhões"
+      },
+      "existentes": [
+        {
+          "id": "q16589",
+          "pergunta": "Esta ave só existe naturalmente em qual parte do mundo?",
+          "resposta": "Américas"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "A araponga, de canto metálico, pertence à mesma família de que ave amazônica alaranjada de crista em meia-lua?",
+        "resposta": "Galo-da-serra"
+      },
+      "existentes": [
+        {
+          "id": "q01029",
+          "pergunta": "Que ave é esta, de canto metálico que lembra uma marreta batendo numa bigorna?",
+          "resposta": "Araponga"
+        },
+        {
+          "id": "q02473",
+          "pergunta": "No Brasil, araponga, o nome de uma ave de canto metálico, virou gíria para que tipo de pessoa?",
+          "resposta": "Espião"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "O tuiuiú, ave-símbolo do Pantanal, é da mesma família de que ave europeia que, segundo a lenda, entrega os bebês?",
+        "resposta": "Cegonha"
+      },
+      "existentes": [
+        {
+          "id": "q01031",
+          "pergunta": "Em que grande planície alagável do Brasil esta ave é mais comum?",
+          "resposta": "Pantanal"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "As corujas caçam voando quase sem fazer barulho. Que detalhe das penas das asas ajuda a abafar o som do voo?",
+        "resposta": "Bordas serrilhadas"
+      },
+      "existentes": [
+        {
+          "id": "q02506",
+          "pergunta": "Com os olhos fixos nas órbitas, a coruja compensa girando a cabeça. Até cerca de quantos graus ela consegue girá-la?",
+          "resposta": "270 graus"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Além da velocidade, o que permite ao basilisco correr sobre a água são estruturas nos dedos das patas traseiras. Quais?",
+        "resposta": "Franjas de pele"
+      },
+      "existentes": [
+        {
+          "id": "q02472",
+          "pergunta": "Por conseguir correr sobre a água, o lagarto basilisco ganhou o apelido de lagarto de que figura religiosa?",
+          "resposta": "Jesus Cristo"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Nos dias quentes, o urubu-de-cabeça-preta costuma defecar sobre as próprias pernas. Para que serve esse hábito curioso?",
+        "resposta": "Para se refrescar"
+      },
+      "existentes": [
+        {
+          "id": "q02495",
+          "pergunta": "O urubu é o mascote de que clube de futebol carioca, cuja torcida adotou a ave no fim dos anos sessenta?",
+          "resposta": "Flamengo"
+        },
+        {
+          "id": "q11515",
+          "pergunta": "Que ave é esta?",
+          "resposta": "Urubu-de-cabeça-preta"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "Nas últimas décadas, uma doença causada por um fungo levou ao declínio de centenas de espécies de sapos e rãs pelo mundo. Que doença?",
+        "resposta": "Quitridiomicose"
+      },
+      "existentes": [
+        {
+          "id": "q06519",
+          "pergunta": "Sapos e salamandras pertencem aos anfíbios, palavra de origem grega. O que ela significa?",
+          "resposta": "Vida dupla"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "Lançada como um projétil para capturar insetos, a língua do camaleão pode chegar a até quantas vezes o comprimento do corpo?",
+        "resposta": "Duas vezes"
+      },
+      "existentes": [
+        {
+          "id": "q06517",
+          "pergunta": "O nome camaleão vem do grego e significa, ao pé da letra, leão de onde?",
+          "resposta": "Da terra (ou do chão)"
+        },
+        {
+          "id": "q06518",
+          "pergunta": "Os camaleões mudam de cor reorganizando cristais minúsculos dentro de células da pele. Esses cristais são feitos de que substância?",
+          "resposta": "Guanina"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "Das sete espécies de tartarugas marinhas do mundo, quantas ocorrem no litoral brasileiro e são protegidas pelo Projeto Tamar?",
+        "resposta": "Cinco"
+      },
+      "existentes": [
+        {
+          "id": "q02474",
+          "pergunta": "Criado em 1980 no litoral brasileiro, o Projeto Tamar tem um nome que junta o começo de duas palavras. Quais são elas?",
+          "resposta": "Tartaruga marinha"
+        },
+        {
+          "id": "q02537",
+          "pergunta": "Em que década foi criado o Projeto Tamar, que protege as tartarugas-marinhas no Brasil?",
+          "resposta": "Anos 1980"
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "nova": {
+        "pergunta": "O dodô, ave sem voo da ilha Maurício, desapareceu poucas décadas depois da chegada dos navegadores europeus. Em que século?",
+        "resposta": "Século dezessete"
+      },
+      "existentes": [
+        {
+          "id": "q02490",
+          "pergunta": "O dodô, ave sem voo extinta da ilha Maurício, era um parente grandalhão de que ave comum nas praças das cidades?",
+          "resposta": "Pombo"
+        },
+        {
+          "id": "q04050",
+          "pergunta": "Que ave extinta é esta?",
+          "resposta": "Dodô"
+        },
+        {
+          "id": "q08342",
+          "pergunta": "Menos de um século depois de ser descrito por marinheiros holandeses, o dodô já tinha desaparecido. Em que século ele foi extinto?",
+          "resposta": "Século dezessete"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ovo grande vs. narinas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Olhos são outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Mergulho profundo é outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesma ave e mesmo fato: migração Ártico-Antártida."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Existente é identificação por imagem; nova pergunta serpente mais comprida. Fato diferente."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "q02568 pergunta a maior tartaruga marinha, mesma resposta; fato igual."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Maior papagaio é outro fato."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Existente é identificação por imagem."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Material do chocalho é outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Ocelos são outro fato."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Articulação da perna é outro fato."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Órgão de Jacobson é outro fato."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Glândulas são outro fato."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Bolsa na garganta é outro fato."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Leite de pombo é outro fato."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Terceira pálpebra é outro fato."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Cauda é outro fato."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Esporão é outro fato."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Incubação no saco vocal é outro fato."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Casco ósseo é outro fato."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Voar para trás é outro fato."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Regeneração é outro fato."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Olfato é outro fato."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Sangue pelos olhos é outro fato."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Partenogênese é outro fato."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Autotomia é outro fato."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Caça é outro fato."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Dieta é outro fato."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Etimologia é outro fato."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Apelido é outro fato."
+    },
+    {
+      "caso": 31,
+      "decisao": "repete",
+      "id_existente": "q02538",
+      "motivo": "Mesma origem do nome pela cor da gordura."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Etimologia do nome é outro fato."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Ordem é outro fato."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Família é outro fato."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Família é outro fato."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Penas silenciosas é outro fato."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Franjas nos dedos é outro fato."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Hábito é outro fato."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Doença é outro fato."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Língua é outro fato."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "Número de espécies é outro fato."
+    },
+    {
+      "caso": 42,
+      "decisao": "repete",
+      "id_existente": "q08342",
+      "motivo": "Mesmo fato: século da extinção."
+    }
+  ]
+}
