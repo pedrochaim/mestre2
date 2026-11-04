@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que crustáceo é este?",
+        "resposta": "Cavaquinha"
+      },
+      "existentes": [
+        {
+          "id": "q16799",
+          "pergunta": "Que crustáceo marinho é este?",
+          "resposta": "Lagosta-sapateira"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que ilha do oceano Índico este caranguejo faz, todo ano, uma migração em massa até o mar para desovar?",
+        "resposta": "Ilha Christmas"
+      },
+      "existentes": [
+        {
+          "id": "q06946",
+          "pergunta": "Todo ano, milhões de caranguejos-vermelhos cruzam estradas rumo ao mar para desovar, numa ilha australiana do oceano Índico. Que ilha?",
+          "resposta": "Ilha Christmas (Ilha do Natal)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Perguntas de identificação de imagem com respostas diferentes (Cavaquinha vs Lagosta-sapateira); fatos distintos."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q06946",
+      "motivo": "Ambas perguntam a ilha da migração de caranguejos para desovar; resposta Ilha Christmas."
+    }
+  ]
+}

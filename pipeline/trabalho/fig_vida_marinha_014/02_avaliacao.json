@@ -1,0 +1,263 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Ave (pelicano), fora do escopo de vida marinha; pertence a Aves. Há ainda anilha com texto na pata."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Peixe de listras verticais bem visível; reconhecível entre peixes-donzela.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peixe de recife, de listras verticais escuras, é este?",
+      "resposta": "Sargentinho",
+      "distratores": [
+        "Peixe-borboleta",
+        "Donzela-de-três-pontos",
+        "Peixe-cirurgião"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sargentinho",
+        "descricao": "Peixe-donzela Abudefduf saxatilis, azulado com cinco listras verticais escuras, comum em recifes do Atlântico.",
+        "variantes": [
+          "Castanheta-das-rochas",
+          "Sargento-major",
+          "Abudefduf saxatilis"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Prancha de Haeckel com várias espécies numeradas; montagem de assuntos diferentes, com números."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Padrão de manchas brancas e boca amarela inconfundíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que peixe de recife é este?",
+      "resposta": "Peixe-gatilho-palhaço",
+      "distratores": [
+        "Peixe-cofre",
+        "Baiacu-de-pintas",
+        "Peixe-gatilho-rei"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Peixe-gatilho-palhaço",
+        "descricao": "Peixe-gatilho Balistoides conspicillum, de ventre com grandes manchas brancas e lábios amarelos, de recifes do Indo-Pacífico.",
+        "variantes": [
+          "Balistoides conspicillum",
+          "Peixe-balestra-palhaço"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Tubarão de corpo robusto, nadadeiras dorsais de tamanho semelhante, vista lateral clara.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tubarão é este?",
+      "resposta": "Tubarão-mangona",
+      "distratores": [
+        "Tubarão-tigre",
+        "Tubarão-touro",
+        "Tubarão-lixa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tubarão-mangona",
+        "descricao": "Tubarão Carcharias taurus, de focinho pontudo e dentes salientes, que vive em águas costeiras subtropicais e temperadas.",
+        "variantes": [
+          "Carcharias taurus",
+          "Sand tiger shark",
+          "Tubarão-lixa-de-dentes-grandes"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Peixe de focinho arredondado, cauda longa e manchas claras no fundo marinho; reconhecível como quimera.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que peixe de águas profundas, parente dos tubarões, é este?",
+      "resposta": "Quimera",
+      "distratores": [
+        "Tubarão-gato",
+        "Raia-elétrica",
+        "Cação-anjo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Quimera",
+        "descricao": "Peixe cartilaginoso da ordem Chimaeriformes, de águas profundas, também chamado tubarão-fantasma.",
+        "variantes": [
+          "Tubarão-fantasma",
+          "Peixe-rato",
+          "Chimaera"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Crustáceo de antenas em placas largas, visível; distinguível de lagostas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que crustáceo é este?",
+      "resposta": "Cavaquinha",
+      "distratores": [
+        "Lagosta-espinhosa",
+        "Lavagante",
+        "Santola"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cavaquinha",
+        "descricao": "Crustáceo da família Scyllaridae, de antenas achatadas em forma de placas, parente das lagostas.",
+        "variantes": [
+          "Lagosta-sapateira",
+          "Scyllaridae",
+          "Slipper lobster"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Caranguejo vermelho vivo, reconhecível; foto nítida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ilha do oceano Índico este caranguejo faz, todo ano, uma migração em massa até o mar para desovar?",
+      "resposta": "Ilha Christmas",
+      "distratores": [
+        "Maurício",
+        "Madagascar",
+        "Seicheles"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caranguejo-vermelho-da-ilha-christmas",
+        "descricao": "Caranguejo terrestre Gecarcoidea natalis, vermelho, endêmico da Ilha Christmas e das Ilhas Cocos, famoso pela migração anual para o mar.",
+        "variantes": [
+          "Gecarcoidea natalis",
+          "Caranguejo-vermelho-da-Ilha do Natal"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Lesma-do-mar com aspecto de ovelha, reconhecível apesar do tamanho minúsculo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que minúscula lesma-do-mar é esta?",
+      "resposta": "Ovelha-do-mar",
+      "distratores": [
+        "Dragão-azul",
+        "Lebre-do-mar",
+        "Bailarina-espanhola"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ovelha-do-mar",
+        "descricao": "Lesma-do-mar Costasiella kuroshimae, minúscula, com projeções que lembram orelhas de ovelha, que faz fotossíntese por cleptoplastia.",
+        "variantes": [
+          "Costasiella kuroshimae",
+          "Ovelha-folha",
+          "Leaf sheep"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Grande nadadeira dorsal em vela e bico alongado, bem visíveis sobre fundo branco.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peixe de bico alongado é este?",
+      "resposta": "Agulhão-vela",
+      "distratores": [
+        "Espadarte",
+        "Marlim-azul",
+        "Atum-rabilho"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Agulhão-vela",
+        "descricao": "Peixe-de-bico do gênero Istiophorus, de grande nadadeira dorsal em forma de vela.",
+        "variantes": [
+          "Peixe-vela",
+          "Istiophorus",
+          "Sailfish"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Peixes com olhos salientes, apoiados em rocha fora da água; característicos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que peixe é este, fotografado fora da água?",
+      "resposta": "Saltador-do-lodo",
+      "distratores": [
+        "Peixe-sapo",
+        "Blênio-de-pedra",
+        "Gobião-de-areia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Saltador-do-lodo",
+        "descricao": "Peixe anfíbio da subfamília Oxudercinae, de olhos salientes, que anda sobre o lodo e rochas com as nadadeiras peitorais.",
+        "variantes": [
+          "Mudskipper",
+          "Peixe-saltador",
+          "Periophthalmus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Choco de cores vivas e projeções carnosas, reconhecível em foto nítida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que molusco de cores vivas é este?",
+      "resposta": "Choco-flamejante",
+      "distratores": [
+        "Choco-comum",
+        "Choco-gigante",
+        "Polvo-de-anéis-azuis"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Choco-flamejante",
+        "descricao": "Choco Ascarosepion pfefferi, de cores intensas e corpo com projeções, do Indo-Pacífico tropical.",
+        "variantes": [
+          "Choco-extravagante",
+          "Flamboyant cuttlefish",
+          "Ascarosepion pfefferi",
+          "Metasepia pfefferi"
+        ]
+      }
+    }
+  ]
+}

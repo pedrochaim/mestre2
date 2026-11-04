@@ -1,0 +1,605 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Sargentinho",
+        "descricao": "Peixe-donzela Abudefduf saxatilis, azulado com cinco listras verticais escuras, comum em recifes do Atlântico.",
+        "variantes": [
+          "Castanheta-das-rochas",
+          "Sargento-major",
+          "Abudefduf saxatilis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "argentina",
+          "nome": "Argentina",
+          "descricao": "País da América do Sul cuja capital é Buenos Aires.",
+          "variantes": [
+            "República Argentina"
+          ]
+        },
+        {
+          "id": "selecao_argentina_de_futebol",
+          "nome": "Seleção Argentina de Futebol",
+          "descricao": "Seleção masculina de futebol da Argentina, a Albiceleste.",
+          "variantes": [
+            "Argentina",
+            "Albiceleste"
+          ]
+        },
+        {
+          "id": "serginho",
+          "nome": "Serginho",
+          "descricao": "Ex-jogador brasileiro de vôlei, campeão olímpico em Atenas 2004 e no Rio 2016, conhecido como Serginho Escadinha.",
+          "variantes": [
+            "Sérgio Dutra Santos",
+            "Serginho Escadinha"
+          ]
+        },
+        {
+          "id": "sargento_alvin_york",
+          "nome": "Sargento Alvin York",
+          "descricao": "Soldado americano da Primeira Guerra Mundial, condecorado com a Medalha de Honra por ação na ofensiva Meuse-Argonne.",
+          "variantes": [
+            "Alvin Cullum York",
+            "Alvin C. York",
+            "Sergeant York"
+          ]
+        },
+        {
+          "id": "lago_argentino",
+          "nome": "Lago Argentino",
+          "descricao": "Maior lago de água doce da Argentina, na província de Santa Cruz, Patagônia.",
+          "variantes": [
+            "Lago Argentino (Patagônia)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Peixe-gatilho-palhaço",
+        "descricao": "Peixe-gatilho Balistoides conspicillum, de ventre com grandes manchas brancas e lábios amarelos, de recifes do Indo-Pacífico.",
+        "variantes": [
+          "Balistoides conspicillum",
+          "Peixe-balestra-palhaço"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_picasso",
+          "nome": "Peixe-picasso",
+          "descricao": "Peixe-picasso (Rhinecanthus aculeatus), peixe-porco do Indo-Pacífico de padrão colorido listrado.",
+          "variantes": [
+            "Peixe-gatilho-picasso",
+            "Lagoon triggerfish",
+            "Rhinecanthus aculeatus",
+            "Peixe-porco-picasso"
+          ]
+        },
+        {
+          "id": "peixe_palhaco",
+          "nome": "Peixe-palhaço",
+          "descricao": "Pequeno peixe de recife alaranjado, da subfamília Amphiprioninae, que vive associado a anêmonas-do-mar.",
+          "variantes": [
+            "Peixe-palhaço-laranja",
+            "Clownfish",
+            "Amphiprion"
+          ]
+        },
+        {
+          "id": "baiacu",
+          "nome": "Baiacu",
+          "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+          "variantes": [
+            "Peixe-balão",
+            "Tetraodontidae",
+            "Fugu"
+          ]
+        },
+        {
+          "id": "palmeiras",
+          "nome": "Palmeiras",
+          "descricao": "Sociedade Esportiva Palmeiras, clube de futebol de São Paulo fundado em 1914 por imigrantes italianos.",
+          "variantes": [
+            "Sociedade Esportiva Palmeiras",
+            "Verdão",
+            "Palestra Itália"
+          ]
+        },
+        {
+          "id": "peixe_galo",
+          "nome": "Peixe-galo",
+          "descricao": "Peixe costeiro Zeus faber, de corpo comprimido, mancha escura no flanco e longos espinhos na nadadeira dorsal.",
+          "variantes": [
+            "Zeus faber",
+            "John Dory",
+            "Peixe-são-pedro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Tubarão-mangona",
+        "descricao": "Tubarão Carcharias taurus, de focinho pontudo e dentes salientes, que vive em águas costeiras subtropicais e temperadas.",
+        "variantes": [
+          "Carcharias taurus",
+          "Sand tiger shark",
+          "Tubarão-lixa-de-dentes-grandes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubarao_anjo",
+          "nome": "Tubarão-anjo",
+          "descricao": "Tubarão de corpo achatado do gênero Squatina, que vive no fundo arenoso e lembra uma raia.",
+          "variantes": [
+            "Anjo-do-mar",
+            "Squatina",
+            "Angel shark"
+          ]
+        },
+        {
+          "id": "tubarao_mako",
+          "nome": "Tubarão-mako",
+          "descricao": "Isurus oxyrinchus, grande tubarão-cavala de corpo fusiforme, o mais rápido entre os tubarões conhecidos.",
+          "variantes": [
+            "Mako",
+            "Tubarão-anequim",
+            "Isurus oxyrinchus",
+            "Shortfin mako"
+          ]
+        },
+        {
+          "id": "tubarao_branco",
+          "nome": "Tubarão-branco",
+          "descricao": "Grande tubarão predador (Carcharodon carcharias), de dorso cinzento e ventre branco.",
+          "variantes": [
+            "Carcharodon carcharias",
+            "Tubarão-branco-grande"
+          ]
+        },
+        {
+          "id": "tubarao_duende",
+          "nome": "Tubarão-duende",
+          "descricao": "Raro tubarão de águas profundas, Mitsukurina owstoni, de focinho longo e achatado e mandíbulas protráteis.",
+          "variantes": [
+            "Mitsukurina owstoni",
+            "Goblin shark",
+            "Tubarão-goblin"
+          ]
+        },
+        {
+          "id": "tubarao_raposa",
+          "nome": "Tubarão-raposa",
+          "descricao": "Tubarão do gênero Alopias, de cauda quase tão longa quanto o resto do corpo.",
+          "variantes": [
+            "Alopias",
+            "Thresher shark",
+            "Tubarão-rabarraposa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Quimera",
+        "descricao": "Peixe cartilaginoso da ordem Chimaeriformes, de águas profundas, também chamado tubarão-fantasma.",
+        "variantes": [
+          "Tubarão-fantasma",
+          "Peixe-rato",
+          "Chimaera"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quimera",
+          "nome": "Quimera",
+          "descricao": "Monstro da mitologia grega que cuspia fogo, morto pelo herói Belerofonte.",
+          "variantes": [
+            "Chimera"
+          ]
+        },
+        {
+          "id": "linguado",
+          "nome": "Linguado",
+          "descricao": "Peixe chato marinho que vive deitado no fundo, com os dois olhos do mesmo lado da cabeça.",
+          "variantes": [
+            "Peixe chato",
+            "Flatfish"
+          ]
+        },
+        {
+          "id": "chimarrao",
+          "nome": "Chimarrão",
+          "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+          "variantes": [
+            "Mate",
+            "Mate amargo"
+          ]
+        },
+        {
+          "id": "peixe_leao",
+          "nome": "Peixe-leão",
+          "descricao": "Peixe de recife de coral do gênero Pterois, de nadadeiras listradas e espinhos venenosos.",
+          "variantes": [
+            "Pterois volitans",
+            "Lionfish",
+            "Pterois"
+          ]
+        },
+        {
+          "id": "regaleco",
+          "nome": "Regaleco",
+          "descricao": "Peixe oceânico prateado em forma de fita (Regalecus glesne), o peixe ósseo mais comprido do mundo.",
+          "variantes": [
+            "Peixe-remo",
+            "Regalecus glesne",
+            "Giant oarfish"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cavaquinha",
+        "descricao": "Crustáceo da família Scyllaridae, de antenas achatadas em forma de placas, parente das lagostas.",
+        "variantes": [
+          "Lagosta-sapateira",
+          "Scyllaridae",
+          "Slipper lobster"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lagosta_sapateira",
+          "nome": "Lagosta-sapateira",
+          "descricao": "Lagosta-sapateira, crustáceo da família Scyllaridae com antenas achatadas em forma de placas.",
+          "variantes": [
+            "Cigarra-do-mar",
+            "Slipper lobster",
+            "Scyllaridae"
+          ]
+        },
+        {
+          "id": "cavaquinho",
+          "nome": "Cavaquinho",
+          "descricao": "Pequeno instrumento de cordas de origem portuguesa, essencial no samba e no choro.",
+          "variantes": [
+            "Cavaco"
+          ]
+        },
+        {
+          "id": "peixe_papagaio",
+          "nome": "Peixe-papagaio",
+          "descricao": "Peixe de recife tropical, de cores vivas e dentes fundidos em forma de bico, que se alimenta raspando corais e algas.",
+          "variantes": [
+            "Budião",
+            "Parrotfish",
+            "Scaridae"
+          ]
+        },
+        {
+          "id": "cavalinha",
+          "nome": "Cavalinha",
+          "descricao": "Planta do gênero Equisetum, de caules verdes articulados, que se reproduz por esporos.",
+          "variantes": [
+            "Equisetum",
+            "Rabo-de-cavalo",
+            "Horsetail"
+          ]
+        },
+        {
+          "id": "paquinha",
+          "nome": "Paquinha",
+          "descricao": "Inseto escavador da família Gryllotalpidae, ortóptero de patas dianteiras em forma de pá.",
+          "variantes": [
+            "Grilo-toupeira",
+            "Gryllotalpidae",
+            "mole cricket"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Caranguejo-vermelho-da-ilha-christmas",
+        "descricao": "Caranguejo terrestre Gecarcoidea natalis, vermelho, endêmico da Ilha Christmas e das Ilhas Cocos, famoso pela migração anual para o mar.",
+        "variantes": [
+          "Gecarcoidea natalis",
+          "Caranguejo-vermelho-da-Ilha do Natal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caranguejo_vermelho_da_ilha_christmas",
+          "nome": "Caranguejo-vermelho-da-ilha-christmas",
+          "descricao": "Caranguejo terrestre (Gecarcoidea natalis) da Ilha Christmas, famoso pela migração anual em massa até o mar para desovar.",
+          "variantes": [
+            "Gecarcoidea natalis",
+            "Christmas Island red crab"
+          ]
+        },
+        {
+          "id": "flor_de_maio",
+          "nome": "Flor-de-maio",
+          "descricao": "Cacto epífito do gênero Schlumbergera, nativo da Mata Atlântica do Sudeste brasileiro",
+          "variantes": [
+            "Schlumbergera",
+            "Cacto-de-natal",
+            "Christmas cactus"
+          ]
+        },
+        {
+          "id": "cartao_de_natal",
+          "nome": "Cartão de Natal",
+          "descricao": "Cartão ilustrado enviado com votos de boas festas, cuja versão comercial surgiu na Inglaterra vitoriana.",
+          "variantes": [
+            "Christmas card"
+          ]
+        },
+        {
+          "id": "mercado_de_natal",
+          "nome": "Mercado de Natal",
+          "descricao": "Feira de rua típica do Advento, nascida na Europa de língua alemã, com barracas de artesanato, doces e enfeites.",
+          "variantes": [
+            "Christmas market",
+            "Christkindlmarkt"
+          ]
+        },
+        {
+          "id": "arvore_de_natal",
+          "nome": "Árvore de Natal",
+          "descricao": "Pinheiro, natural ou artificial, enfeitado com luzes e ornamentos durante as festas de fim de ano.",
+          "variantes": [
+            "Pinheirinho de Natal",
+            "Christmas tree"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ovelha-do-mar",
+        "descricao": "Lesma-do-mar Costasiella kuroshimae, minúscula, com projeções que lembram orelhas de ovelha, que faz fotossíntese por cleptoplastia.",
+        "variantes": [
+          "Costasiella kuroshimae",
+          "Ovelha-folha",
+          "Leaf sheep"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "veleiro",
+          "nome": "Veleiro",
+          "descricao": "Cnidário colonial flutuante, Velella velella, azul, com uma pequena vela rígida que o leva ao vento pela superfície do oceano.",
+          "variantes": [
+            "Velella velella",
+            "Velella",
+            "Vela-do-mar",
+            "By-the-wind sailor"
+          ]
+        },
+        {
+          "id": "vespa_do_mar",
+          "nome": "Vespa-do-mar",
+          "descricao": "Água-viva-de-caixa (Chironex fleckeri) do norte da Austrália e do Indo-Pacífico, de veneno potentíssimo.",
+          "variantes": [
+            "Chironex fleckeri",
+            "Sea wasp"
+          ]
+        },
+        {
+          "id": "o_velho_e_o_mar",
+          "nome": "O Velho e o Mar",
+          "descricao": "Novela de Ernest Hemingway, de 1952, sobre um velho pescador que luta com um enorme marlim.",
+          "variantes": [
+            "The Old Man and the Sea"
+          ]
+        },
+        {
+          "id": "ovelha_dolly",
+          "nome": "Ovelha Dolly",
+          "descricao": "Ovelha nascida em 1996 na Escócia, primeiro mamífero clonado a partir de uma célula adulta.",
+          "variantes": [
+            "Dolly (ovelha)",
+            "Dolly the sheep",
+            "Dolly"
+          ]
+        },
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Agulhão-vela",
+        "descricao": "Peixe-de-bico do gênero Istiophorus, de grande nadadeira dorsal em forma de vela.",
+        "variantes": [
+          "Peixe-vela",
+          "Istiophorus",
+          "Sailfish"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_lua",
+          "nome": "Peixe-lua",
+          "descricao": "Grande peixe oceânico de corpo achatado e arredondado (Mola mola), um dos peixes ósseos mais pesados.",
+          "variantes": [
+            "Mola mola",
+            "Ocean sunfish",
+            "Peixe-sol"
+          ]
+        },
+        {
+          "id": "peixe_gelo",
+          "nome": "Peixe-gelo",
+          "descricao": "Família de peixes antárticos, Channichthyidae, de sangue quase transparente.",
+          "variantes": [
+            "Channichthyidae",
+            "Peixe-crocodilo-do-gelo",
+            "Icefish"
+          ]
+        },
+        {
+          "id": "peixe_leao",
+          "nome": "Peixe-leão",
+          "descricao": "Peixe de recife de coral do gênero Pterois, de nadadeiras listradas e espinhos venenosos.",
+          "variantes": [
+            "Pterois volitans",
+            "Lionfish",
+            "Pterois"
+          ]
+        },
+        {
+          "id": "peixe_serra",
+          "nome": "Peixe-serra",
+          "descricao": "Raia de corpo alongado da família Pristidae, com um longo focinho achatado cheio de dentes nas laterais.",
+          "variantes": [
+            "Pristidae",
+            "Sawfish"
+          ]
+        },
+        {
+          "id": "baiacu",
+          "nome": "Baiacu",
+          "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+          "variantes": [
+            "Peixe-balão",
+            "Tetraodontidae",
+            "Fugu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Saltador-do-lodo",
+        "descricao": "Peixe anfíbio da subfamília Oxudercinae, de olhos salientes, que anda sobre o lodo e rochas com as nadadeiras peitorais.",
+        "variantes": [
+          "Mudskipper",
+          "Peixe-saltador",
+          "Periophthalmus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "transposon",
+          "nome": "Transposon",
+          "descricao": "Sequência de DNA capaz de mudar de posição no genoma, os chamados genes saltadores.",
+          "variantes": [
+            "Elemento transponível",
+            "Gene saltador",
+            "Transposable element",
+            "Genes saltadores"
+          ]
+        },
+        {
+          "id": "baiacu",
+          "nome": "Baiacu",
+          "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+          "variantes": [
+            "Peixe-balão",
+            "Tetraodontidae",
+            "Fugu"
+          ]
+        },
+        {
+          "id": "peixe_pescador",
+          "nome": "Peixe-pescador",
+          "descricao": "Peixes da ordem Lophiiformes, muitos de águas profundas, que atraem presas com uma isca na cabeça.",
+          "variantes": [
+            "Tamboril",
+            "Anglerfish",
+            "Lophiiformes"
+          ]
+        },
+        {
+          "id": "peixe_voador",
+          "nome": "Peixe-voador",
+          "descricao": "Peixe marinho da família Exocoetidae, que plana sobre a água com nadadeiras peitorais alongadas.",
+          "variantes": [
+            "Exocoetidae",
+            "Flying fish"
+          ]
+        },
+        {
+          "id": "mudkip",
+          "nome": "Mudkip",
+          "descricao": "Pokémon do tipo Água, número 258 da Pokédex Nacional.",
+          "variantes": [
+            "Mizugorou"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Peixe Abudefduf saxatilis; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Balistoides conspicillum difere do peixe-picasso e demais candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Carcharias taurus não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Quimera peixe cartilaginoso é diferente da Quimera mitológica."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "lagosta_sapateira",
+      "motivo": "Mesmo crustáceo Scyllaridae, com variantes coincidentes (lagosta-sapateira, slipper lobster)."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "caranguejo_vermelho_da_ilha_christmas",
+      "motivo": "Mesmo nome e mesma espécie Gecarcoidea natalis."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Lesma-do-mar Costasiella kuroshimae não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Istiophorus não está entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Mudskipper não está entre as candidatas."
+    }
+  ]
+}

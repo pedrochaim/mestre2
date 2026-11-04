@@ -1,0 +1,106 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distratores genéricos (peixe-borboleta, peixe-cirurgião) também têm espécies de listras verticais escuras, então a pista os torna defensáveis. Trocar por peixes claramente diferentes e tirar a pista ambígua.",
+      "reescrita": {
+        "pergunta": "Que peixe-donzela do oceano Atlântico é este?",
+        "resposta": "Sargentinho",
+        "distratores": [
+          "Peixe-palhaço",
+          "Peixe-anjo-rainha",
+          "Peixe-papagaio"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pergunta ok, mas 'peixe-gatilho-rei' não é um nome crível; trocar por um parente parecido e real.",
+      "reescrita": {
+        "pergunta": "Que peixe de recife é este?",
+        "resposta": "Peixe-gatilho-palhaço",
+        "distratores": [
+          "Peixe-cofre",
+          "Baiacu-de-pintas",
+          "Peixe-gatilho-titã"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Tubarão-touro' é sinônimo do tubarão-mangona segundo o trecho em português, então um distrator também está correto.",
+      "reescrita": {
+        "pergunta": "Que tubarão é este?",
+        "resposta": "Tubarão-mangona",
+        "distratores": [
+          "Tubarão-tigre",
+          "Tubarão-martelo",
+          "Tubarão-lixa"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelos trechos; a pista não entrega a resposta e os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome cavaquinha sustentado pelo trecho em português; distratores crustáceos críveis e não corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelos trechos e bem documentado; o enunciado não nomeia a ilha nem o caranguejo.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome 'sea sheep' sustentado pelos trechos; enunciado sem vazamento e distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Agulhão-vela é nome comum amplamente documentado do Istiophorus; enunciado sem vazamento e distratores sem ambiguidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Fotografado fora da água' é afirmação sobre a foto que não dá para confirmar por mostra. Simplificar.",
+      "reescrita": {
+        "pergunta": "Que peixe é este?",
+        "resposta": "Saltador-do-lodo",
+        "distratores": [
+          "Peixe-sapo",
+          "Blênio-de-pedra",
+          "Gobião-de-areia"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O nome em português 'choco-flamejante' não está nos trechos e não tenho certeza de que seja a forma usada. Na dúvida, descarta.",
+      "reescrita": null
+    }
+  ]
+}
