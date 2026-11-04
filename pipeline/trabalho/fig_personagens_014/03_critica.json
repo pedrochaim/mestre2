@@ -1,0 +1,97 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hans Conried foi a voz original do Capitão Gancho, conforme os trechos. O enunciado não nomeia o personagem e os distratores não são corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que Xaveco é personagem de Mauricio de Sousa. O enunciado não vaza a resposta e os distratores são cartunistas brasileiros críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Arraia Negra é arqui-inimigo do Aquaman. O enunciado não nomeia o vilão e os distratores são heróis da DC que não são o inimigo dele.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Stephen Hillenburg criou Bob Esponja, como dizem os trechos. A resposta é única e os distratores são criadores de desenhos animados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Kubikiribōchō é a arma característica de Zabuza, conforme o trecho. Os distratores são espadas de outros espadachins da Névoa.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Professor de poções' não é único nos filmes, porque Slugorn também ensina poções, e a descrição entrega o personagem sem olhar a figura. O trecho confirma que Rickman fez o papel nos oito filmes. A reescrita tira a pista e usa o fato dos oito filmes.",
+      "reescrita": {
+        "pergunta": "Em todos os oito filmes da saga de bruxos Harry Potter, que ator interpretou este personagem?",
+        "resposta": "Alan Rickman",
+        "distratores": [
+          "Gary Oldman",
+          "Ralph Fiennes",
+          "Timothy Spall"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Levi pertence à Tropa de Exploração (Survey Corps). O enunciado não vaza a resposta e os distratores são outras forças do universo da obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A dupla Claremont e Jim Lee é uma pista que permite responder sem a imagem. O trecho confirma que Claremont criou Gambit, e a estreia foi em 1990. A reescrita troca a pista por época e grupo, que ajudam sem entregar.",
+      "reescrita": {
+        "pergunta": "Que roteirista criou este mutante dos X-Men, que estreou nos quadrinhos em 1990?",
+        "resposta": "Chris Claremont",
+        "distratores": [
+          "Stan Lee",
+          "Grant Morrison",
+          "Jonathan Hickman"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Roberto Gómez Bolaños criou e interpretou o Chapolin, conforme os trechos. Os distratores são outros atores da trupe de Chespirito.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é de reconhecimento e o enunciado não entrega a resposta. Os distratores são personagens saiyajins parecidos e nenhum deles é Broly.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que André Franquin, belga, criou Gaston. Os distratores são outros cartunistas belgas, e nenhum deles criou Gaston.",
+      "reescrita": null
+    }
+  ]
+}

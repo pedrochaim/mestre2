@@ -1,0 +1,271 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arte clara do Capitão Gancho no filme de 1953, sem texto; reconhecível.",
+      "destino": 3,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ator deu a voz original a este vilão no filme de animação de 1953?",
+      "resposta": "Hans Conried",
+      "distratores": [
+        "Bobby Driscoll",
+        "Basil Rathbone",
+        "Sterling Holloway"
+      ],
+      "ancora": {
+        "nome": "Capitão Gancho",
+        "descricao": "Pirata vilão do filme de animação Peter Pan, da Disney, de 1953, inimigo de Peter Pan.",
+        "variantes": [
+          "Capitão Hook",
+          "Captain Hook"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Personagem sozinho e claro, mas a silhueta é um volume arredondado parecido com outros da Turma da Mônica; usa a imagem colorida.",
+      "usar_silhueta": false,
+      "destino": 1,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cartunista brasileiro criou este personagem?",
+      "resposta": "Mauricio de Sousa",
+      "distratores": [
+        "Ziraldo",
+        "Henfil",
+        "Angeli"
+      ],
+      "ancora": {
+        "nome": "Xaveco",
+        "descricao": "Personagem coadjuvante, atrapalhado e ingênuo, da Turma da Mônica, de cabelo amarelo e orelhas grandes.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Arte de quadrinhos clara do Arraia Negra, capacete inconfundível, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que herói da DC é o grande inimigo deste vilão?",
+      "resposta": "Aquaman",
+      "distratores": [
+        "Flash",
+        "Lanterna Verde",
+        "Gavião Negro"
+      ],
+      "ancora": {
+        "nome": "Arraia Negra",
+        "descricao": "Vilão da DC Comics, de capacete com olhos vermelhos, arqui-inimigo do Aquaman, estreado em 1967.",
+        "variantes": [
+          "Black Manta"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Personagem sozinho, de corpo inteiro, com antenas muito características; silhueta reconhecível.",
+      "usar_silhueta": true,
+      "destino": 2,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem criou o desenho animado em que aparece este personagem?",
+      "resposta": "Stephen Hillenburg",
+      "distratores": [
+        "Matt Groening",
+        "Butch Hartman",
+        "Craig McCracken"
+      ],
+      "ancora": {
+        "nome": "Plankton",
+        "descricao": "Pequeno vilão de um olho só e antenas, dono do restaurante Balde de Lixo em Bob Esponja Calça Quadrada.",
+        "variantes": [
+          "Sheldon J. Plankton"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Personagem sozinho, de corpo inteiro, com a espada gigante visível; silhueta reconhecível.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que espada gigante este ninja carrega nas costas?",
+      "resposta": "Kubikiribōchō",
+      "distratores": [
+        "Samehada",
+        "Hiramekarei",
+        "Kiba"
+      ],
+      "ancora": {
+        "nome": "Zabuza Momochi",
+        "descricao": "Ninja renegado da Névoa, um dos Sete Espadachins, vilão do início de Naruto.",
+        "variantes": [
+          "Zabuza",
+          "Demônio da Névoa Oculta"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato claro do personagem nos filmes, sem texto; figura pública caracterizada.",
+      "destino": 3,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ator interpretou este professor de poções nos filmes?",
+      "resposta": "Alan Rickman",
+      "distratores": [
+        "Gary Oldman",
+        "Ralph Fiennes",
+        "Timothy Spall"
+      ],
+      "ancora": {
+        "nome": "Severo Snape",
+        "descricao": "Professor de poções e diretor de Hogwarts na saga Harry Potter, interpretado nos filmes por Alan Rickman.",
+        "variantes": [
+          "Severus Snape",
+          "Snape"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Painel de mangá de Levi, reconhecível pelo corte de cabelo e rosto; sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A que tropa militar pertence este soldado?",
+      "resposta": "Tropa de Exploração",
+      "distratores": [
+        "Tropa Estacionária",
+        "Polícia Militar",
+        "Guerreiros de Marley"
+      ],
+      "ancora": {
+        "nome": "Levi Ackerman",
+        "descricao": "Capitão da Tropa de Exploração em Attack on Titan, conhecido como o soldado mais forte da humanidade.",
+        "variantes": [
+          "Levi",
+          "Capitão Levi",
+          "Rivaille"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Arte clara de Gambit com casaco e cartas, sem texto que entregue o nome.",
+      "destino": 1,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que roteirista criou este mutante, junto com o desenhista Jim Lee?",
+      "resposta": "Chris Claremont",
+      "distratores": [
+        "Stan Lee",
+        "Grant Morrison",
+        "Jonathan Hickman"
+      ],
+      "ancora": {
+        "nome": "Gambit",
+        "descricao": "Remy LeBeau, mutante da Marvel que carrega cartas de baralho e os transforma em explosivos, dos X-Men.",
+        "variantes": [
+          "Remy LeBeau",
+          "Gambito"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto de cena do Chapolin Colorado com figurino inconfundível; baixa resolução mas legível.",
+      "destino": 2,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ator e humorista mexicano interpretava este herói na série?",
+      "resposta": "Roberto Gómez Bolaños",
+      "distratores": [
+        "Carlos Villagrán",
+        "Ramón Valdés",
+        "Rubén Aguirre"
+      ],
+      "ancora": {
+        "nome": "Chapolin Colorado",
+        "descricao": "Herói atrapalhado de collant vermelho e antenas, da série humorística mexicana de Chespirito.",
+        "variantes": [
+          "El Chapulín Colorado",
+          "Chapolin"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Arte clara e reconhecível de Broly, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é este vilão?",
+      "resposta": "Broly",
+      "distratores": [
+        "Turles",
+        "Bardock",
+        "Paragus"
+      ],
+      "ancora": {
+        "nome": "Broly",
+        "descricao": "Saiyajin conhecido como Super Saiyajin Lendário, vilão dos filmes de Dragon Ball Z.",
+        "variantes": [
+          "Burorī"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Personagem sozinho, claro, em arte oficial, sem texto.",
+      "destino": 1,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cartunista belga criou este personagem?",
+      "resposta": "André Franquin",
+      "distratores": [
+        "Hergé",
+        "Peyo",
+        "Morris"
+      ],
+      "ancora": {
+        "nome": "Gaston Lagaffe",
+        "descricao": "Ajudante desastrado de redação de Spirou, protagonista da série de quadrinhos franco-belga Gaston.",
+        "variantes": [
+          "Gaston",
+          "Gastão"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Madara criança de peito para cima, com cabelo espetado e roupa simples, quase igual a outros meninos Uchiha; não é reconhecível com resposta única."
+    }
+  ]
+}
