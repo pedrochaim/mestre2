@@ -1,0 +1,191 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; o texto ao fundo é parcial e não entrega o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Este ator interpretou o personagem João Francisco dos Santos em qual filme de 2002?",
+      "resposta": "Madame Satã",
+      "distratores": [
+        "Cidade de Deus",
+        "Carandiru",
+        "O Invasor"
+      ],
+      "ancora": {
+        "nome": "Lázaro Ramos",
+        "descricao": "Ator, apresentador, diretor e escritor brasileiro, nascido em Salvador em 1978.",
+        "variantes": [
+          "Luís Lázaro Sacramento de Araújo Ramos"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto, de figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Qual livro de 1969 desta escritora americana lhe trouxe reconhecimento internacional?",
+      "resposta": "Eu Sei Por Que o Pássaro Canta na Gaiola",
+      "distratores": [
+        "A Cor Púrpura",
+        "Amada",
+        "O Olho Mais Azul"
+      ],
+      "ancora": {
+        "nome": "Maya Angelou",
+        "descricao": "Escritora, poeta e ativista americana dos direitos civis, autora de sete autobiografias.",
+        "variantes": [
+          "Marguerite Annie Johnson"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução, captura de vídeo; o escritor não é reconhecível pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública muito reconhecível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que prêmio literário este cantor e compositor americano recebeu em 2016?",
+      "resposta": "Nobel de Literatura",
+      "distratores": [
+        "Prêmio Booker",
+        "Prêmio Camões",
+        "Prêmio Cervantes"
+      ],
+      "ancora": {
+        "nome": "Bob Dylan",
+        "descricao": "Cantor e compositor americano de folk e rock, nascido Robert Allen Zimmerman em 1941.",
+        "variantes": [
+          "Robert Allen Zimmerman"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto antiga, desgastada e de rosto muito recortado; o autor não é reconhecível pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto minúscula e granulada, com outra pessoa em segundo plano; pouco reconhecível e pouco legível no celular."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto; a mãe, também atriz, serve de distrator parecido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Quem é esta atriz brasileira?",
+      "resposta": "Fernanda Torres",
+      "distratores": [
+        "Fernanda Montenegro",
+        "Andréa Beltrão",
+        "Fernanda Lima"
+      ],
+      "ancora": {
+        "nome": "Fernanda Torres",
+        "descricao": "Atriz e escritora brasileira, indicada ao Oscar por Ainda Estou Aqui.",
+        "variantes": [
+          "Fernanda Pinheiro Monteiro Torres"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, de autor reconhecível pela barba e pelo boné.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em qual jogo de 2022 este escritor americano contribuiu com a construção do mundo?",
+      "resposta": "Elden Ring",
+      "distratores": [
+        "Dark Souls",
+        "Skyrim",
+        "The Witcher três"
+      ],
+      "ancora": {
+        "nome": "George R. R. Martin",
+        "descricao": "Escritor americano, autor da série de fantasia As Crônicas de Gelo e Fogo.",
+        "variantes": [
+          "George Raymond Richard Martin",
+          "GRRM"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "É uma ilustração/caricatura digital pequena, não uma foto, e não permite reconhecer o filósofo com segurança."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto informal e antiga de um homem sem camisa fumando; pouco reconhecível e de baixa adequação."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Esta filósofa brasileira da USP é estudiosa de qual destes pensadores?",
+      "resposta": "Baruch Spinoza",
+      "distratores": [
+        "Immanuel Kant",
+        "Friedrich Nietzsche",
+        "Georg Hegel"
+      ],
+      "ancora": {
+        "nome": "Marilena Chaui",
+        "descricao": "Filósofa brasileira, professora de filosofia moderna na USP e estudiosa de Spinoza.",
+        "variantes": [
+          "Marilena de Souza Chaui"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fotografia histórica nítida, sem texto, de compositor reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Qual destas obras foi composta por este compositor romântico francês?",
+      "resposta": "Sinfonia Fantástica",
+      "distratores": [
+        "Sinfonia Italiana",
+        "Sinfonia Pastoral",
+        "Sinfonia Renana"
+      ],
+      "ancora": {
+        "nome": "Hector Berlioz",
+        "descricao": "Compositor, maestro e crítico francês do Romantismo, autor da Sinfonia Fantástica.",
+        "variantes": [
+          "Louis-Hector Berlioz"
+        ]
+      }
+    }
+  ]
+}

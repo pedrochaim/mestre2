@@ -1,0 +1,68 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este ator brasileiro ganhou o prêmio Grande Otelo de melhor ator por qual filme de 2002?",
+        "resposta": "Madame Satã"
+      },
+      "existentes": [
+        {
+          "id": "q01823",
+          "pergunta": "Quem é este ator brasileiro?",
+          "resposta": "Lázaro Ramos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 2008, este cantor e compositor americano recebeu uma citação especial de qual prêmio?",
+        "resposta": "Prêmio Pulitzer"
+      },
+      "existentes": [
+        {
+          "id": "q01254",
+          "pergunta": "Em 1965, no Festival Folk de Newport, Bob Dylan foi vaiado por parte do público. O que ele fez para provocar isso?",
+          "resposta": "Tocou com guitarra elétrica"
+        },
+        {
+          "id": "q16653",
+          "pergunta": "Para tocar violão e soprar ao mesmo tempo, Bob Dylan usava um suporte no pescoço que segurava que instrumento?",
+          "resposta": "Gaita"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Quem é esta atriz brasileira?",
+        "resposta": "Fernanda Torres"
+      },
+      "existentes": [
+        {
+          "id": "q01069",
+          "pergunta": "Além de serem mãe e filha, o que Fernanda Montenegro e Fernanda Torres têm em comum no Oscar?",
+          "resposta": "Foram indicadas a melhor atriz"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pede a identidade do ator (imagem); a nova pede o filme premiado com o Grande Otelo. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Citação especial do Pulitzer em 2008 não é abordada pelas existentes (Newport e gaita)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pede a identidade da atriz (imagem); a existente trata de indicação ao Oscar. Fatos diferentes."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "João Francisco dos Santos é o nome real de Madame Satã; o enunciado entrega a resposta sem a figura. Reescrito pedindo o filme do prêmio de melhor ator, sustentado pelo trecho.",
+      "reescrita": {
+        "pergunta": "Este ator brasileiro ganhou o prêmio Grande Otelo de melhor ator por qual filme de 2002?",
+        "resposta": "Madame Satã",
+        "distratores": [
+          "Cidade de Deus",
+          "Carandiru",
+          "O Invasor"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado pelo trecho; o enunciado não identifica a autora sem a figura; distratores são livros de outras autoras americanas.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Cantor americano mais prêmio literário em 2016 entrega o Nobel sem a figura. Reescrito com o fato menos óbvio da citação especial de 2008.",
+      "reescrita": {
+        "pergunta": "Em 2008, este cantor e compositor americano recebeu uma citação especial de qual prêmio?",
+        "resposta": "Prêmio Pulitzer",
+        "distratores": [
+          "Prêmio Emmy",
+          "Prêmio Tony",
+          "Prêmio Booker"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direto, sem vazamento; distratores plausíveis e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam a contribuição de construção de mundo em Elden Ring (2022); o enunciado não nomeia o autor; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que é especialista em Spinoza; os distratores não são alvos de estudo dela destacados nos trechos; o enunciado não a nomeia.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sinfonia Fantástica é de Berlioz; as outras são de Mendelssohn, Beethoven e Schumann. Sem vazamento.",
+      "reescrita": null
+    }
+  ]
+}
