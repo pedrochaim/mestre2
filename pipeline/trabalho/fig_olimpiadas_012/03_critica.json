@@ -1,0 +1,70 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o ouro olímpico em 1976 (Montreal). O enunciado não entrega a resposta, e os distratores são edições plausíveis e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A pista 'pipa grande sobre as ondas' descreve o esporte e deixa a figura como enfeite. Além disso, 'estreou' é ambíguo, porque o kitesurfe já tinha estreado nos Jogos Olímpicos da Juventude de 2018. A estreia nos Jogos Olímpicos de Verão em Paris 2024 (Formula Kite) é amplamente documentada.",
+      "reescrita": {
+        "pergunta": "Este esporte aquático estreou no programa dos Jogos Olímpicos de Verão em qual edição?",
+        "resposta": "Paris 2024",
+        "distratores": [
+          "Tóquio 2020",
+          "Rio 2016",
+          "Londres 2012"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Campeã olímpica no individual geral em 2012' identifica a ginasta sem olhar a figura. Pelo teste da imagem coberta, a pista entrega a resposta. Basta tirá-la.",
+      "reescrita": {
+        "pergunta": "Quem é esta ginasta norte-americana?",
+        "resposta": "Gabby Douglas",
+        "distratores": [
+          "Simone Biles",
+          "Aly Raisman",
+          "McKayla Maroney"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os trechos situam a torre no Parque Olímpico de Munique. Que o parque foi construído para os Jogos de 1972 é amplamente documentado. O enunciado não nomeia a cidade e exige reconhecer a torre.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Sediaram os Jogos' é impreciso, porque o complexo recebeu só o salto de esqui, o combinado nórdico e as cerimônias. O trecho diz que foi construído para os Jogos de 1994. Também é melhor chamar de colinas ou trampolins do que de pistas.",
+      "reescrita": {
+        "pergunta": "Este complexo de trampolins de salto de esqui foi construído para os Jogos Olímpicos de Inverno de qual edição?",
+        "resposta": "Lillehammer 1994",
+        "distratores": [
+          "Calgary 1988",
+          "Albertville 1992",
+          "Nagano 1998"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma o ouro de Richarlison em Tóquio. O enunciado não vaza a resposta, e os distratores são cidades-sede plausíveis em que ele não ganhou o ouro.",
+      "reescrita": null
+    }
+  ]
+}

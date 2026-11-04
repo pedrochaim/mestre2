@@ -1,0 +1,174 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Rosto recortado de perto, sem contexto; a jogadora não é reconhecível de forma confiável pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública, sem texto; pergunta vai além do nome.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este boxeador americano conquistou o ouro olímpico em qual edição dos Jogos?",
+      "resposta": "Montreal 1976",
+      "distratores": [
+        "Munique 1972",
+        "Moscou 1980",
+        "Los Angeles 1984"
+      ],
+      "ancora": {
+        "nome": "Sugar Ray Leonard",
+        "descricao": "Boxeador norte-americano, campeão olímpico dos meio-médios ligeiros em 1976 e campeão mundial profissional em cinco categorias.",
+        "variantes": [
+          "Ray Charles Leonard"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto de ex-jogador em evento comum, com camiseta e patrocinadores com texto; pouco reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem nítida de kitesurfe, sem texto que entregue a resposta (só marca de equipamento).",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este esporte, praticado com uma pipa grande sobre as ondas, estreou em qual edição dos Jogos Olímpicos de Verão?",
+      "resposta": "Paris 2024",
+      "distratores": [
+        "Tóquio 2020",
+        "Rio 2016",
+        "Londres 2012"
+      ],
+      "ancora": {
+        "nome": "Kitesurfe",
+        "descricao": "Esporte aquático em que o praticante é puxado sobre uma prancha por uma pipa de tração movida pelo vento.",
+        "variantes": [
+          "Kiteboarding",
+          "Kitesurf"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem texto; ginasta olímpica conhecida.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é esta ginasta norte-americana, campeã olímpica no individual geral em 2012?",
+      "resposta": "Gabby Douglas",
+      "distratores": [
+        "Simone Biles",
+        "Aly Raisman",
+        "McKayla Maroney"
+      ],
+      "ancora": {
+        "nome": "Gabby Douglas",
+        "descricao": "Ginasta artística norte-americana, campeã olímpica do individual geral em Londres 2012.",
+        "variantes": [
+          "Gabrielle Douglas"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto de divulgação com vários patrocinadores em texto e rosto pouco reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Jogadora em jogo de clube com texto de patrocinadores e número; não reconhecível pela imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Torre Olímpica de Munique claramente visível, sem texto; pessoas ao fundo são incidentais.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta torre fica num parque construído para os Jogos Olímpicos de Verão de qual cidade?",
+      "resposta": "Munique",
+      "distratores": [
+        "Berlim",
+        "Montreal",
+        "Moscou"
+      ],
+      "ancora": {
+        "nome": "Torre Olímpica de Munique",
+        "descricao": "Torre de telecomunicações de 291 metros no Parque Olímpico de Munique, inaugurada em 1968.",
+        "variantes": [
+          "Olympiaturm",
+          "Torre Olímpica"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Atleta com viseira e óculos cobrindo o rosto; não reconhecível de forma única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Ilustração com texto 'Paris 2024' na fita da medalha, que entrega informação; pessoa não identificável."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pista de saltos de esqui gêmeas, sem texto, com aspecto característico.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Estas pistas de salto de esqui sediaram os Jogos Olímpicos de Inverno de qual edição?",
+      "resposta": "Lillehammer 1994",
+      "distratores": [
+        "Calgary 1988",
+        "Albertville 1992",
+        "Nagano 1998"
+      ],
+      "ancora": {
+        "nome": "Lysgårdsbakken",
+        "descricao": "Complexo de trampolins de salto de esqui em Lillehammer, Noruega, construído para os Jogos de Inverno de 1994.",
+        "variantes": [
+          "Lysgårdsbakkene"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública, sem texto; pergunta exige conhecimento além do nome.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade este atacante brasileiro conquistou a medalha de ouro olímpica no futebol?",
+      "resposta": "Tóquio",
+      "distratores": [
+        "Rio de Janeiro",
+        "Londres",
+        "Pequim"
+      ],
+      "ancora": {
+        "nome": "Richarlison",
+        "descricao": "Atacante brasileiro de futebol, campeão olímpico nos Jogos de Tóquio e jogador da seleção brasileira.",
+        "variantes": [
+          "Richarlison de Andrade"
+        ]
+      }
+    }
+  ]
+}

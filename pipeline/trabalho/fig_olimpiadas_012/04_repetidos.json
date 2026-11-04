@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este esporte aquático estreou no programa dos Jogos Olímpicos de Verão em qual edição?",
+        "resposta": "Paris 2024"
+      },
+      "existentes": [
+        {
+          "id": "q05593",
+          "pergunta": "Que esporte aquático é este?",
+          "resposta": "Kitesurfe"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade este atacante brasileiro conquistou a medalha de ouro olímpica no futebol?",
+        "resposta": "Tóquio"
+      },
+      "existentes": [
+        {
+          "id": "q09692",
+          "pergunta": "Quem é este atacante brasileiro?",
+          "resposta": "Richarlison"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pede a identidade do esporte (kitesurfe); a nova pede a edição olímpica de estreia, fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A existente pede o nome do jogador; a nova pede a cidade do ouro olímpico, fato diferente."
+    }
+  ]
+}
