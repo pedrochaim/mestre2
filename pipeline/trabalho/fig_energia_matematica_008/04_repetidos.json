@@ -1,0 +1,65 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que húngaro inventou este quebra-cabeça?",
+        "resposta": "Ernő Rubik"
+      },
+      "existentes": [
+        {
+          "id": "q00905",
+          "pergunta": "O cubo mágico foi inventado pelo húngaro Ernő Rubik, professor de arquitetura. Em que ano ele criou o primeiro protótipo?",
+          "resposta": "1974"
+        },
+        {
+          "id": "q06444",
+          "pergunta": "Em 1974, que professor húngaro de arquitetura inventou o cubo mágico?",
+          "resposta": "Ernő Rubik"
+        },
+        {
+          "id": "q07330",
+          "pergunta": "No cubo mágico com o esquema de cores padrão, que cor fica na face oposta à branca?",
+          "resposta": "Amarelo"
+        },
+        {
+          "id": "q15701",
+          "pergunta": "Girando as faces de um cubo mágico comum, de três por três, é possível chegar a quantas combinações diferentes?",
+          "resposta": "Cerca de 43 quintilhões"
+        },
+        {
+          "id": "q18053",
+          "pergunta": "Em 2010, provou-se que qualquer cubo mágico embaralhado pode ser resolvido com, no máximo, quantos giros de face?",
+          "resposta": "Vinte"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que sólido geométrico é este?",
+        "resposta": "Esfera"
+      },
+      "existentes": [
+        {
+          "id": "q16330",
+          "pergunta": "Bolhas de sabão tendem a ficar redondas porque, para um mesmo volume, uma forma tem a menor superfície possível. Qual?",
+          "resposta": "Esfera"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q06444",
+      "motivo": "Ambas perguntam quem inventou o cubo mágico; resposta Ernő Rubik."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é identificar o sólido (provavelmente por imagem) e a existente pergunta qual forma minimiza a superfície; fatos distintos, embora a resposta coincida."
+    }
+  ]
+}

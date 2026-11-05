@@ -1,0 +1,178 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Parede de poeira avançando sobre veículos militares; fenômeno claramente reconhecível, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Quando se repete por muito tempo, este fenômeno ajuda a causar que processo de degradação do solo?",
+      "resposta": "Desertificação",
+      "distratores": [
+        "Salinização",
+        "Assoreamento",
+        "Eutrofização"
+      ],
+      "ancora": {
+        "nome": "Tempestade de areia",
+        "descricao": "Fenômeno meteorológico em que ventos fortes levantam areia e poeira de superfícies secas, comum em regiões áridas.",
+        "variantes": [
+          "Tempestade de poeira",
+          "Haboob"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Toro em malha, forma clara e inconfundível, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta superfície, gerada pela rotação de um círculo em torno de um eixo, é popularmente comparada a que alimento?",
+      "resposta": "Rosquinha (donut)",
+      "distratores": [
+        "Panqueca",
+        "Croissant",
+        "Pão de queijo"
+      ],
+      "ancora": {
+        "nome": "Toro",
+        "descricao": "Superfície matemática em forma de anel, gerada pela rotação de um círculo em torno de um eixo que não o toca.",
+        "variantes": [
+          "Toroide",
+          "Torus"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem mostra só a primeira iteração, um simples V; não é reconhecível como curva do dragão e serve a muitas figuras."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Máquina de museu ambígua (motor acoplado a gerador), com placa do fabricante e etiquetas; pouco reconhecível e sem resposta única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Imagem de microscópio borrada; os microplásticos não são reconhecíveis e ela não é legível no celular."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Vista aérea de um canteiro de obras; sem elemento que permita reconhecer o ITER, e poderia ser qualquer grande obra."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Ilustração limpa de um cubo mágico 3x3, reconhecível, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que húngaro inventou este quebra-cabeça?",
+      "resposta": "Ernő Rubik",
+      "distratores": [
+        "László Bíró",
+        "Ányos Jedlik",
+        "Dénes Gábor"
+      ],
+      "ancora": {
+        "nome": "Cubo mágico",
+        "descricao": "Quebra-cabeça tridimensional de rotação, de 3x3x3 peças, inventado pelo húngaro Ernő Rubik em 1974.",
+        "variantes": [
+          "Cubo de Rubik",
+          "Rubik's Cube"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto histórica em preto e branco de uma máquina elétrica, ambígua (dínamo, alternador ou motor) e com inscrição do fabricante."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Há um trabalhador em primeiro plano, com capacete em que se lê Siemens, e a turbina poderia ser a gás; resposta não única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Esfera em malha, clara e legível; distratores de formas redondas parecidas.",
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sólido geométrico é este?",
+      "resposta": "Esfera",
+      "distratores": [
+        "Elipsoide",
+        "Hemisfério",
+        "Cilindro"
+      ],
+      "ancora": {
+        "nome": "Esfera",
+        "descricao": "Sólido geométrico formado por todos os pontos do espaço à mesma distância de um ponto central.",
+        "variantes": [
+          "Esfera geométrica"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Torre solar com anéis de espelhos, bem reconhecível; o texto na torre em chinês não entrega a resposta.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Os espelhos móveis que cercam a torre desta usina recebem que nome?",
+      "resposta": "Heliostatos",
+      "distratores": [
+        "Coletores parabólicos",
+        "Células fotovoltaicas",
+        "Refletores Fresnel"
+      ],
+      "ancora": {
+        "nome": "Torre solar",
+        "descricao": "Usina solar térmica em que um campo de espelhos móveis concentra a luz do sol no topo de uma torre central.",
+        "variantes": [
+          "Usina de torre central",
+          "Torre de energia solar"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Grande sulco de erosão em mata, característico de voçoroca; sem texto.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de feição de erosão é esta?",
+      "resposta": "Voçoroca",
+      "distratores": [
+        "Dolina",
+        "Cânion",
+        "Duna"
+      ],
+      "ancora": {
+        "nome": "Voçoroca",
+        "descricao": "Grande buraco ou vala de erosão aberto pela água da chuva em solo sem cobertura vegetal.",
+        "variantes": [
+          "Boçoroca",
+          "Buracão",
+          "Ravina"
+        ]
+      }
+    }
+  ]
+}

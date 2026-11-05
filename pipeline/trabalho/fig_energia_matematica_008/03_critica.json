@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Os trechos não sustentam o nexo causal. A tempestade de areia é tanto sintoma quanto agente da desertificação, e a erosão eólica também seria defensável como processo de degradação. O verbo \"ajuda a causar\" é impreciso e a pergunta é arbitrária. Na dúvida, descarta-se.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o toro é comparado a uma rosquinha. O enunciado não nomeia a forma nem entrega a resposta, e os distratores são alimentos plausíveis que não têm forma de anel.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Ernő Rubik, húngaro, inventou o cubo em 1974. O enunciado não nomeia o objeto e precisa da figura. Os distratores são inventores húngaros plausíveis e nenhum deles é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direto, sem vazamento. Os distratores são sólidos visualmente parecidos ou da mesma família, e nenhum descreve uma esfera.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está nos trechos, mas o enunciado descreve \"espelhos móveis que cercam a torre\". Com a imagem coberta já dá para responder \"heliostatos\", então a figura virou enfeite. A nova pergunta exige reconhecer o tipo de usina.",
+      "reescrita": {
+        "pergunta": "Que tipo de usina de energia solar é esta?",
+        "resposta": "Torre solar",
+        "distratores": [
+          "Calha parabólica",
+          "Disco Stirling",
+          "Refletor Fresnel linear"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho define a voçoroca como um grande buraco de erosão. O enunciado não nomeia o termo e a pergunta é de reconhecimento. Os distratores são feições geomorfológicas plausíveis e nenhuma descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}

@@ -373606,5 +373606,104 @@
       "autor": "Jasonschock",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q18945",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "ancora": "toro",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Esta superfície, gerada pela rotação de um círculo em torno de um eixo, é popularmente comparada a que alimento?",
+    "resposta": "Rosquinha (donut)",
+    "distratores": [
+      "Panqueca",
+      "Croissant",
+      "Pão de queijo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Torus",
+      "https://pt.wikipedia.org/wiki/Toro_%28topologia%29"
+    ],
+    "imagem": {
+      "arquivo": "q18945.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Simple_Torus.svg",
+      "autor": "GYassineMrabetTalk✉",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q18946",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "ancora": "esfera",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que sólido geométrico é este?",
+    "resposta": "Esfera",
+    "distratores": [
+      "Elipsoide",
+      "Hemisfério",
+      "Cilindro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sphere",
+      "https://pt.wikipedia.org/wiki/Esfera"
+    ],
+    "imagem": {
+      "arquivo": "q18946.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sphere_wireframe_10deg_6r.svg",
+      "autor": "Geek3",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q18947",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "torre_solar",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de usina de energia solar é esta?",
+    "resposta": "Torre solar",
+    "distratores": [
+      "Calha parabólica",
+      "Disco Stirling",
+      "Refletor Fresnel linear"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Solar_power_tower"
+    ],
+    "imagem": {
+      "arquivo": "q18947.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:50_MW_molten-salt_power_tower_in_hami.jpg",
+      "autor": "Csp.guru",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q18948",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "vocoroca",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de feição de erosão é esta?",
+    "resposta": "Voçoroca",
+    "distratores": [
+      "Dolina",
+      "Cânion",
+      "Duna"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Vo%C3%A7oroca",
+      "https://en.wikipedia.org/wiki/Gully"
+    ],
+    "imagem": {
+      "arquivo": "q18948.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gully_in_the_Kharkov_region.jpg",
+      "autor": "Канопус Киля",
+      "licenca": "Public domain"
+    }
   }
 ]
