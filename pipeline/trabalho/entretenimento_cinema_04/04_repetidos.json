@@ -1,0 +1,770 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Na numeração da saga, o primeiro filme de Star Wars a chegar aos cinemas, Uma Nova Esperança, corresponde a qual episódio?",
+        "resposta": "Episódio quatro"
+      },
+      "existentes": [
+        {
+          "id": "q06853",
+          "pergunta": "O primeiro filme de Star Wars, que depois ganhou o subtítulo Uma Nova Esperança, chegou aos cinemas em que ano?",
+          "resposta": "1977"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Cidade de Deus, de Fernando Meirelles, concorreu ao Oscar em categorias como direção e roteiro adaptado. Quantas indicações o filme recebeu ao todo?",
+        "resposta": "Quatro"
+      },
+      "existentes": [
+        {
+          "id": "q01752",
+          "pergunta": "De que filme é esta cena?",
+          "resposta": "Cidade de Deus"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em Ainda Estou Aqui, depois que o marido é levado pelos militares, Eunice Paiva fica sozinha com quantos filhos?",
+        "resposta": "Cinco"
+      },
+      "existentes": [
+        {
+          "id": "q01756",
+          "pergunta": "Que atriz ganhou o Globo de Ouro de melhor atriz em filme dramático por este filme?",
+          "resposta": "Fernanda Torres"
+        },
+        {
+          "id": "q09228",
+          "pergunta": "Orfeu Negro, rodado no Rio, levou o Oscar de filme estrangeiro representando a França. Qual foi o primeiro filme do Brasil a vencer essa categoria?",
+          "resposta": "Ainda Estou Aqui"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em Toy Story, os alienígenas verdes de brinquedo que veneram a garra da máquina do Pizza Planet têm quantos olhos?",
+        "resposta": "Três"
+      },
+      "existentes": [
+        {
+          "id": "q04054",
+          "pergunta": "De que filme é esta cena?",
+          "resposta": "Toy Story"
+        },
+        {
+          "id": "q06858",
+          "pergunta": "Toy Story, primeiro longa-metragem feito inteiramente em computação gráfica, estreou em que ano?",
+          "resposta": "1995"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Na animação A Bela e a Fera, de 1991, a rosa encantada marca o prazo do feitiço, que termina quando a Fera completa quantos anos?",
+        "resposta": "Vinte e um"
+      },
+      "existentes": [
+        {
+          "id": "q09227",
+          "pergunta": "Qual destas animações foi a primeira a ser indicada ao Oscar de melhor filme?",
+          "resposta": "A Bela e a Fera"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Somando os três filmes, quantos Oscars a trilogia O Senhor dos Anéis, de Peter Jackson, conquistou?",
+        "resposta": "Dezessete"
+      },
+      "existentes": [
+        {
+          "id": "q06843",
+          "pergunta": "Para filmar a trilogia O Senhor dos Anéis, o diretor Peter Jackson transformou em Terra-média as paisagens de qual país?",
+          "resposta": "Nova Zelândia"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em A Noviça Rebelde, a jovem Maria vira governanta de quantos filhos do viúvo capitão Von Trapp?",
+        "resposta": "Sete"
+      },
+      "existentes": [
+        {
+          "id": "q01072",
+          "pergunta": "Que atriz estrelou Mary Poppins e A Noviça Rebelde, dois musicais lançados com apenas um ano de diferença?",
+          "resposta": "Julie Andrews"
+        },
+        {
+          "id": "q06845",
+          "pergunta": "O musical A Noviça Rebelde, com Julie Andrews, se passa em qual cidade austríaca, terra natal de Mozart?",
+          "resposta": "Salzburgo"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Cada letra do nome do computador HAL, de 2001: Uma Odisseia no Espaço, vem logo antes, no alfabeto, das letras de qual sigla de empresa?",
+        "resposta": "IBM"
+      },
+      "existentes": [
+        {
+          "id": "q01076",
+          "pergunta": "Stanley Kubrick escreveu o roteiro de 2001: Uma Odisseia no Espaço em parceria com qual escritor de ficção científica?",
+          "resposta": "Arthur C. Clarke"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "No ringue, o pugilista Rocky Balboa, vivido por Sylvester Stallone, era conhecido por qual apelido?",
+        "resposta": "Garanhão Italiano"
+      },
+      "existentes": [
+        {
+          "id": "q01927",
+          "pergunta": "Que ator interpreta o boxeador desta imagem?",
+          "resposta": "Sylvester Stallone"
+        },
+        {
+          "id": "q01962",
+          "pergunta": "Sylvester Stallone escreveu o roteiro de Rocky em poucos dias, logo depois de assistir a que luta de 1975 pelo título dos pesos-pesados?",
+          "resposta": "Muhammad Ali contra Chuck Wepner"
+        },
+        {
+          "id": "q06846",
+          "pergunta": "Na cena de treino mais famosa de Rocky, o lutador sobe correndo a escadaria de qual museu americano?",
+          "resposta": "Museu de Arte da Filadélfia"
+        },
+        {
+          "id": "q16487",
+          "pergunta": "No filme Rocky, de 1976, que ator interpretou o campeão Apollo Creed, adversário de Rocky Balboa?",
+          "resposta": "Carl Weathers"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Antes de ganhar o nome Mickey, por sugestão da esposa de Walt Disney, o famoso camundongo quase se chamou como?",
+        "resposta": "Mortimer"
+      },
+      "existentes": [
+        {
+          "id": "q01060",
+          "pergunta": "Em 1928, Walt Disney e Ub Iwerks criaram o Mickey depois de perderem o controle de qual personagem animado anterior?",
+          "resposta": "Oswald, o Coelho Sortudo"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O nome do Studio Ghibli, de Hayao Miyazaki, vem de uma palavra italiana que designa o quê?",
+        "resposta": "Um vento quente do deserto"
+      },
+      "existentes": [
+        {
+          "id": "q01090",
+          "pergunta": "Que personagem, uma enorme criatura peluda da floresta, aparece no logotipo do estúdio japonês Ghibli?",
+          "resposta": "Totoro"
+        },
+        {
+          "id": "q01367",
+          "pergunta": "O nome do Studio Ghibli vem de uma palavra usada pelos italianos para qual fenômeno do deserto do Saara?",
+          "resposta": "Um vento quente"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Em Matrix, o nome do herói Neo é um anagrama de qual palavra inglesa, ligada à profecia sobre ele?",
+        "resposta": "One"
+      },
+      "existentes": [
+        {
+          "id": "q01938",
+          "pergunta": "Que ator interpreta o personagem em primeiro plano nesta imagem?",
+          "resposta": "Keanu Reeves"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Segundo a versão mais contada, a estatueta da Academia ganhou seu famoso apelido porque uma funcionária a achou parecida com quem?",
+        "resposta": "Um tio dela"
+      },
+      "existentes": [
+        {
+          "id": "q01081",
+          "pergunta": "Num hotel de Hollywood, a primeira cerimônia de entrega do Oscar foi realizada em que ano?",
+          "resposta": "1929"
+        },
+        {
+          "id": "q06886",
+          "pergunta": "A estatueta do Oscar mostra um cavaleiro sobre um rolo de filme. Quantos raios tem esse rolo, um para cada ramo original da Academia?",
+          "resposta": "Cinco"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "O nome do ogro Shrek, herói da DreamWorks, vem de uma palavra alemã e iídiche que significa o quê?",
+        "resposta": "Medo"
+      },
+      "existentes": [
+        {
+          "id": "q02245",
+          "pergunta": "Quem é esse personagem?",
+          "resposta": "Shrek"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Indiana, o cachorro de George Lucas, emprestou o nome ao arqueólogo Indiana Jones e também inspirou qual personagem de Star Wars?",
+        "resposta": "Chewbacca"
+      },
+      "existentes": [
+        {
+          "id": "q07302",
+          "pergunta": "Que cineasta criou este personagem?",
+          "resposta": "George Lucas"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "O peixinho Nemo, da Pixar, tem o mesmo nome do capitão do submarino Náutilus, criado por qual escritor?",
+        "resposta": "Júlio Verne"
+      },
+      "existentes": [
+        {
+          "id": "q07196",
+          "pergunta": "De que filme é esta cena?",
+          "resposta": "Procurando Nemo"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Tom Hanks ganhou o Oscar de melhor ator por Forrest Gump um ano depois de levar o mesmo prêmio por qual filme?",
+        "resposta": "Filadélfia"
+      },
+      "existentes": [
+        {
+          "id": "q06857",
+          "pergunta": "Forrest Gump, Pulp Fiction e O Rei Leão chegaram aos cinemas no mesmo ano. Qual?",
+          "resposta": "1994"
+        },
+        {
+          "id": "q09241",
+          "pergunta": "Segundo a frase que a mãe de Forrest Gump repetia, a vida é como uma caixa de quê?",
+          "resposta": "Chocolates"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Que compositor italiano criou a trilha de Era Uma Vez no Oeste, de Sergio Leone, e também a de Cinema Paradiso?",
+        "resposta": "Ennio Morricone"
+      },
+      "existentes": [
+        {
+          "id": "q09651",
+          "pergunta": "Em que década foi lançado o faroeste desta cena?",
+          "resposta": "Anos 1960"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "A trilha sonora de Gladiador, com Russell Crowe, e a da animação O Rei Leão, de 1994, saíram das mãos de qual compositor?",
+        "resposta": "Hans Zimmer"
+      },
+      "existentes": [
+        {
+          "id": "q06859",
+          "pergunta": "Gladiador, de Ridley Scott, começa no fim do reinado do imperador Marco Aurélio. Em que século depois de Cristo?",
+          "resposta": "Século dois"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Robert De Niro ganhou um Oscar vivendo o jovem Vito Corleone. Que ator já tinha ganhado a estatueta pelo mesmo personagem, já idoso?",
+        "resposta": "Marlon Brando"
+      },
+      "existentes": [
+        {
+          "id": "q06875",
+          "pergunta": "Na história de O Poderoso Chefão, de onde vem o sobrenome Corleone, adotado por Vito ao chegar aos Estados Unidos?",
+          "resposta": "Sua cidade natal, na Sicília"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Na animação A Nova Onda do Imperador, da Disney, qual personagem foi dublado no Brasil pelo ator Selton Mello?",
+        "resposta": "Kuzco"
+      },
+      "existentes": [
+        {
+          "id": "q01820",
+          "pergunta": "Quem é este ator e diretor brasileiro?",
+          "resposta": "Selton Mello"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "O ator que deu corpo e expressões a Gollum, por captura de movimento, também viveu qual chimpanzé líder na trilogia Planeta dos Macacos iniciada em 2011?",
+        "resposta": "César"
+      },
+      "existentes": [
+        {
+          "id": "q05819",
+          "pergunta": "Que escritor criou este personagem?",
+          "resposta": "J. R. R. Tolkien"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "A Toho, produtora de Akira Kurosawa, processou os produtores de Por um Punhado de Dólares, de Sergio Leone, e recebeu um acordo. Qual era a acusação?",
+        "resposta": "Copiar o filme Yojimbo"
+      },
+      "existentes": [
+        {
+          "id": "q09232",
+          "pergunta": "A trilogia de Sergio Leone com Clint Eastwood começa com Por um Punhado de Dólares. Que filme a encerra?",
+          "resposta": "Três Homens em Conflito"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Na cena em que Indiana Jones encara um espadachim e simplesmente atira nele, a luta planejada foi abandonada porque Harrison Ford estava com quê?",
+        "resposta": "Disenteria"
+      },
+      "existentes": [
+        {
+          "id": "q04057",
+          "pergunta": "Em que década foi lançado este filme?",
+          "resposta": "Década de 1980"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Mad Max: Estrada da Fúria acabou filmado no deserto da Namíbia, e não no interior da Austrália, como planejado. Por quê?",
+        "resposta": "Chuvas fizeram o deserto florir"
+      },
+      "existentes": [
+        {
+          "id": "q04836",
+          "pergunta": "Em que década foi lançado este filme?",
+          "resposta": "Década de 2010 (2015)"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "George Lucas criou Star Wars depois de fracassar ao tentar comprar os direitos para filmar as aventuras de qual herói espacial?",
+        "resposta": "Flash Gordon"
+      },
+      "existentes": [
+        {
+          "id": "q06853",
+          "pergunta": "O primeiro filme de Star Wars, que depois ganhou o subtítulo Uma Nova Esperança, chegou aos cinemas em que ano?",
+          "resposta": "1977"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Durante a Segunda Guerra Mundial, por causa da falta de metal, as estatuetas do Oscar foram entregues feitas de qual material?",
+        "resposta": "Gesso pintado"
+      },
+      "existentes": [
+        {
+          "id": "q01081",
+          "pergunta": "Num hotel de Hollywood, a primeira cerimônia de entrega do Oscar foi realizada em que ano?",
+          "resposta": "1929"
+        },
+        {
+          "id": "q06886",
+          "pergunta": "A estatueta do Oscar mostra um cavaleiro sobre um rolo de filme. Quantos raios tem esse rolo, um para cada ramo original da Academia?",
+          "resposta": "Cinco"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Na famosa cena do batizado em O Poderoso Chefão, o bebê no colo é a filha recém-nascida do diretor, que depois virou cineasta. Quem é ela?",
+        "resposta": "Sofia Coppola"
+      },
+      "existentes": [
+        {
+          "id": "q06864",
+          "pergunta": "O Poderoso Chefão, de Francis Ford Coppola, é a adaptação do romance de qual escritor ítalo-americano?",
+          "resposta": "Mario Puzo"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Em Pulp Fiction, de Tarantino, Uma Thurman dança twist num concurso ao lado de qual ator, antigo astro dos filmes de discoteca?",
+        "resposta": "John Travolta"
+      },
+      "existentes": [
+        {
+          "id": "q01928",
+          "pergunta": "Quem dirigiu o filme desta cena?",
+          "resposta": "Quentin Tarantino"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Para filmar Titanic, James Cameron mandou construir uma réplica quase em tamanho real do navio num estúdio à beira-mar em qual país?",
+        "resposta": "México"
+      },
+      "existentes": [
+        {
+          "id": "q01933",
+          "pergunta": "Em que ano se passa a história do filme desta imagem?",
+          "resposta": "1912"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "As cenas no planeta gelado Hoth, que abrem O Império Contra-Ataca, foram filmadas perto de uma geleira de qual país?",
+        "resposta": "Noruega"
+      },
+      "existentes": [
+        {
+          "id": "q17018",
+          "pergunta": "Quem dirigiu este filme de ficção científica de 1980?",
+          "resposta": "Irvin Kershner"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Em O Pagador de Promessas, Zé do Burro carrega uma cruz pesada até a porta de uma igreja em qual capital brasileira?",
+        "resposta": "Salvador"
+      },
+      "existentes": [
+        {
+          "id": "q01077",
+          "pergunta": "O filme O Pagador de Promessas, de Anselmo Duarte, foi adaptado da peça de qual dramaturgo baiano?",
+          "resposta": "Dias Gomes"
+        },
+        {
+          "id": "q09221",
+          "pergunta": "Qual destes filmes foi o primeiro brasileiro indicado ao Oscar de filme em língua estrangeira?",
+          "resposta": "O Pagador de Promessas"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Lançado em 1982, Blade Runner imagina uma Los Angeles chuvosa e futurista, cheia de androides fugitivos. Em que ano se passa a história?",
+        "resposta": "2019"
+      },
+      "existentes": [
+        {
+          "id": "q06865",
+          "pergunta": "Blade Runner, com Harrison Ford caçando androides, foi baseado num romance de qual escritor americano de ficção científica?",
+          "resposta": "Philip K. Dick"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "O filme Que Horas Ela Volta, em que Regina Casé vive a empregada doméstica Val, foi escrito e dirigido por qual cineasta?",
+        "resposta": "Anna Muylaert"
+      },
+      "existentes": [
+        {
+          "id": "q01753",
+          "pergunta": "De que filme brasileiro é esta cena?",
+          "resposta": "Que Horas Ela Volta?"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "O filme Cidade de Deus foi adaptado do romance de um escritor que cresceu na própria comunidade carioca. Quem é ele?",
+        "resposta": "Paulo Lins"
+      },
+      "existentes": [
+        {
+          "id": "q01752",
+          "pergunta": "De que filme é esta cena?",
+          "resposta": "Cidade de Deus"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "A animação Branca de Neve e os Sete Anões, da Disney, adapta um conto popular alemão registrado por quem?",
+        "resposta": "Irmãos Grimm"
+      },
+      "existentes": [
+        {
+          "id": "q06852",
+          "pergunta": "Branca de Neve e os Sete Anões, o primeiro longa-metragem de animação da Disney, estreou em que ano?",
+          "resposta": "1937"
+        },
+        {
+          "id": "q06885",
+          "pergunta": "Na animação Branca de Neve e os Sete Anões, da Disney, qual dos anões é mudo?",
+          "resposta": "Dunga"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Em 1940, Hattie McDaniel se tornou a primeira pessoa negra a ganhar um Oscar, como a criada Mammy. Em que filme?",
+        "resposta": "E o Vento Levou"
+      },
+      "existentes": [
+        {
+          "id": "q01082",
+          "pergunta": "E o Vento Levou estreou no mesmo ano que O Mágico de Oz, e os dois têm o mesmo diretor creditado. Que ano foi esse?",
+          "resposta": "1939"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Número do episódio vs ano de estreia."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Indicações ao Oscar vs identificar cena."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Número de filhos é outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Olhos dos alienígenas é outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Idade da Fera é outro fato."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Oscars vs país de filmagem."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Número de filhos é outro fato."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "HAL/IBM vs coautor do roteiro."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Apelido do personagem é outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nome alternativo vs personagem anterior."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "id_existente": "q01367",
+      "motivo": "Mesma origem do nome Ghibli (vento quente)."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Anagrama vs ator."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Origem do apelido é outro fato."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Etimologia vs identificar personagem."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Cachorro inspirando Chewbacca é outro fato."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Origem do nome vs cena."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Oscar anterior de Hanks é outro fato."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Compositor vs década."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Compositor vs século da história."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Ator que interpretou Vito velho é outro fato."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Personagem dublado vs identificar ator."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "César vs criador de Gollum."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Acusação de plágio vs filme final da trilogia."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Disenteria vs década."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Local de filmagem vs década."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Flash Gordon vs ano de estreia."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Material das estatuetas é outro fato."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Bebê no batizado vs autor do romance."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Par de dança vs diretor."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Local da réplica vs ano da história."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Local de filmagem vs diretor."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Cidade da história é outro fato."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Ano da história vs autor do romance."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Diretora vs identificar cena."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Autor do romance vs identificar cena."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Fonte do conto é outro fato."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Filme do Oscar de McDaniel vs ano."
+    }
+  ]
+}
