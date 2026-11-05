@@ -1,0 +1,64 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este manuscrito asteca ilustrado foi produzido em que século?",
+        "resposta": "Século dezesseis"
+      },
+      "existentes": [
+        {
+          "id": "q06750",
+          "pergunta": "Este códice asteca, de cerca de 1541, recebeu o nome de que vice-rei da Nova Espanha?",
+          "resposta": "Antonio de Mendoza"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que santuário grego foi encontrada esta estátua, em 1877?",
+        "resposta": "Olímpia"
+      },
+      "existentes": [
+        {
+          "id": "q08581",
+          "pergunta": "Que deus grego esta escultura representa, carregando uma criança?",
+          "resposta": "Hermes"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Este vaso sumério de alabastro foi achado num templo de que antiga cidade?",
+        "resposta": "Uruk"
+      },
+      "existentes": [
+        {
+          "id": "q13978",
+          "pergunta": "Em que antiga cidade da Mesopotâmia foi encontrado este vaso de alabastro esculpido?",
+          "resposta": "Uruk"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Século de produção é fato diferente do vice-rei que dá nome ao códice."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Local da descoberta é diferente de qual deus a estátua representa."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q13978",
+      "motivo": "Ambas perguntam a cidade (Uruk) onde o vaso foi encontrado."
+    }
+  ]
+}

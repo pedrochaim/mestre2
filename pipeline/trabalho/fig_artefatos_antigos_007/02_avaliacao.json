@@ -1,0 +1,277 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cena clara do julgamento do morto, sem texto legível que entregue a resposta. Família trocada para o_que_e, porque a época seria ambígua diante de outros papiros do Livro dos Mortos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que texto funerário egípcio é ilustrado neste papiro?",
+      "resposta": "Livro dos Mortos",
+      "distratores": [
+        "Textos das Pirâmides",
+        "Textos dos Sarcófagos",
+        "Livro das Portas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Papiro de Hunefer",
+        "descricao": "Papiro egípcio da 19ª dinastia, cópia ilustrada do Livro dos Mortos do escriba Hunefer, com a cena da pesagem do coração.",
+        "variantes": [
+          "Papyrus of Hunefer",
+          "Livro dos Mortos de Hunefer"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto histórica em preto e branco, com duas trombetas bem visíveis. O número 175 não entrega a resposta.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Estas trombetas egípcias, as mais antigas ainda tocáveis, foram feitas em que século antes de Cristo?",
+      "resposta": "Século quatorze",
+      "distratores": [
+        "Século dezesseis",
+        "Século doze",
+        "Século dez"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Trombetas de Tutancâmon",
+        "descricao": "Par de trombetas, uma de prata e outra de bronze ou cobre, achadas na tumba do faraó Tutancâmon.",
+        "variantes": [
+          "Tutankhamun's trumpets"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Estátua nítida, de corpo inteiro e sem texto, com um fundo azul que não atrapalha.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta estátua grega de mármore foi esculpida por volta de que século antes de Cristo?",
+      "resposta": "Século seis",
+      "distratores": [
+        "Século quatro",
+        "Século cinco",
+        "Século oito"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Kore do Peplo",
+        "descricao": "Estátua arcaica grega de mármore de uma jovem, de cerca de 530 a.C., achada na Acrópole de Atenas.",
+        "variantes": [
+          "Peplos Kore",
+          "Koré do Peplos"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Estátua de cerâmica de um guerreiro com capacete de águia, num museu. O texto de fundo é parcial e não nomeia a resposta. A foto é escura, mas o capacete permite reconhecer.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de guerreiro de elite asteca esta estátua de cerâmica representa?",
+      "resposta": "Guerreiro-águia",
+      "distratores": [
+        "Guerreiro-jaguar",
+        "Guerreiro-coiote",
+        "Guerreiro-serpente"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Guerreiro-águia",
+        "descricao": "Soldado de elite do exército asteca, ordem militar de nobres e bravos; a estátua de cerâmica do Templo Mayor o representa.",
+        "variantes": [
+          "Cuāuhtli",
+          "Cavaleiro-águia",
+          "Eagle warrior"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Página reconhecível do manuscrito. O texto visível (Tenochtitlan, Thevet) não nomeia o códice. A pergunta pede só o século, que é robusto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este manuscrito asteca ilustrado foi produzido em que século?",
+      "resposta": "Século dezesseis",
+      "distratores": [
+        "Século quinze",
+        "Século quatorze",
+        "Século dezessete"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Códice Mendoza",
+        "descricao": "Códice asteca de cerca de 1541, feito por ordem do vice-rei Antonio de Mendoza, com a história dos governantes e da vida asteca.",
+        "variantes": [
+          "Codex Mendoza",
+          "Códice Mendocino"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bracelete de ouro com grifos, bem nítido e sem texto. É uma peça emblemática do tesouro.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este bracelete de ouro persa pertence a que famoso tesouro?",
+      "resposta": "Tesouro de Oxus",
+      "distratores": [
+        "Tesouro de Panagyurishte",
+        "Tesouro de Nimrud",
+        "Tesouro de Príamo"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Tesouro de Oxus",
+        "descricao": "Coleção de cerca de 180 peças de ouro e prata e 200 moedas do período aquemênida persa, achadas perto do rio Oxus no século dezenove.",
+        "variantes": [
+          "Tesouro do Oxo",
+          "Oxus Treasure",
+          "Tesouro de Amudaria"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Estátua nítida e sem texto. A família 'quando' foi trocada para 'onde', porque a datação e a autoria são controversas.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que santuário grego foi encontrada esta estátua, em 1877?",
+      "resposta": "Olímpia",
+      "distratores": [
+        "Delfos",
+        "Elêusis",
+        "Epidauro"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Hermes de Praxíteles",
+        "descricao": "Escultura grega de mármore de Hermes com o menino Dioniso, descoberta no Templo de Hera, em Olímpia, e atribuída a Praxíteles.",
+        "variantes": [
+          "Hermes com o infante Dioniso",
+          "Hermes e o menino Dioniso",
+          "Hermes of Olympia"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vaso de alabastro com relevos, claro, sem texto, e único. Foi pedida a cidade de origem, que é mais segura do que uma divindade.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este vaso sumério de alabastro foi achado num templo de que antiga cidade?",
+      "resposta": "Uruk",
+      "distratores": [
+        "Ur",
+        "Lagash",
+        "Babilônia"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Vaso de Warka",
+        "descricao": "Vaso de alabastro esculpido em relevo, de cerca de 3100 a.C., achado num complexo de templos da antiga cidade de Uruk, no Iraque.",
+        "variantes": [
+          "Vaso de Uruk",
+          "Warka Vase",
+          "Uruk vase"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A foto mostra uma festa com público comum em primeiro plano, marcas (MTN) e texto visível ('Obamwonyi of Benin Kingdom'). Os trajes listrados não são claramente os de Gelede, que usa máscaras esculpidas na cabeça. A resposta não é única diante da imagem. Também não é um artefato de museu."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida da estela diante da esfinge, sem texto legível. A pergunta sobre o faraó exige conhecimento além do reconhecimento. A família 'onde' foi trocada, porque revelaria a esfinge.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que faraó mandou erguer a estela de granito que aparece nesta imagem?",
+      "resposta": "Tutemés IV",
+      "distratores": [
+        "Quéfren",
+        "Ramsés II",
+        "Amenhotep III"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estela do Sonho",
+        "descricao": "Estela de granito erguida por Tutemés IV entre as patas da Grande Esfinge de Gizé, por volta de 1401 a.C.",
+        "variantes": [
+          "Estela da Esfinge",
+          "Dream Stele",
+          "Sphinx Stele"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Estátua sentada em diorito, nítida. A inscrição cuneiforme é ilegível para o público e não entrega a resposta. A pergunta é sobre a época.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta estátua mesopotâmica de um governante de Lagash foi esculpida por volta de que século antes de Cristo?",
+      "resposta": "Século vinte e dois",
+      "distratores": [
+        "Século vinte e quatro",
+        "Século vinte",
+        "Século dezoito"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Estátuas de Gudea",
+        "descricao": "Conjunto de cerca de vinte e sete estátuas do governante Gudea de Lagash, na Mesopotâmia, de cerca de 2144 a 2124 a.C.",
+        "variantes": [
+          "Estátua de Gudea",
+          "Statues of Gudea"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Objeto isolado, nítido e sem texto, com contas e relevo bem visíveis, reconhecível pela forma.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que povo da África Central criou esta peça?",
+      "resposta": "Luba",
+      "distratores": [
+        "Chokwe",
+        "Kuba",
+        "Dogon"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Lukasa",
+        "descricao": "Tábua de madeira com contas e relevos, dispositivo de memória da sociedade secreta Bambudye do povo Luba.",
+        "variantes": [
+          "Lukasa Luba",
+          "Tábua de memória luba"
+        ]
+      }
+    }
+  ]
+}

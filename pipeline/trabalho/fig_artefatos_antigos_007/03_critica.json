@@ -1,0 +1,105 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pelo teste da imagem coberta, 'texto funerário egípcio' em papiro já aponta o Livro dos Mortos, e a figura vira enfeite. Melhor perguntar o dono do papiro, o que exige reconhecer a peça.",
+      "reescrita": {
+        "pergunta": "Este papiro egípcio da décima nona dinastia traz a cena da pesagem do coração. Que escriba foi o seu dono?",
+        "resposta": "Hunefer",
+        "distratores": [
+          "Ani",
+          "Nebseni",
+          "Nakht"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os trechos sustentam 'mais antigas trombetas operacionais' e a 18ª dinastia. Tutancâmon reinou no século quatorze a.C., fato bem documentado. Os distratores são plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Kore do Peplo é datada de cerca de 530 a.C., ou seja, século seis, o que é bem documentado. O enunciado não vaza e os distratores são críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o guerreiro-águia como uma das duas ordens de elite astecas. O enunciado não nomeia a resposta e os distratores são do mesmo tipo e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho dá a data de cerca de 1541, século dezesseis. O enunciado não vaza e os distratores são séculos próximos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado afirma 'bracelete de ouro', mas 'mostra' não diz que a peça é um bracelete, e o tesouro tem outras peças. Os distratores também são fáceis de eliminar por não serem persas.",
+      "reescrita": {
+        "pergunta": "Esta peça de metal da época aquemênida pertence a que famoso tesouro?",
+        "resposta": "Tesouro de Oxus",
+        "distratores": [
+          "Tesouro de Ziwiye",
+          "Tesouro de Panagyurishte",
+          "Tesouro de Nimrud"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a descoberta em 1877 no Templo de Hera, em Olímpia. O enunciado não entrega a resposta e os distratores são santuários gregos que não abrigaram o achado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma o vaso de alabastro achado num complexo de templos de Uruk. O enunciado não nomeia a cidade e os distratores são cidades mesopotâmicas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Tutemés IV ergueu a estela de granito. O enunciado não vaza, e nenhum distrator é defensável (a estela foi só reaproveitada do templo de Quéfren).",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gudea governou Lagash de cerca de 2144 a 2124 a.C., ou seja, século vinte e dois. O enunciado não nomeia Gudea e os distratores são séculos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a lukasa é arte Luba. O distrator Dogon é da África Ocidental e cai por eliminação diante de 'África Central'. Troquei por um povo da própria região.",
+      "reescrita": {
+        "pergunta": "Que povo da África Central criou esta peça?",
+        "resposta": "Luba",
+        "distratores": [
+          "Chokwe",
+          "Kuba",
+          "Songye"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,704 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Papiro de Hunefer",
+        "descricao": "Papiro egípcio da 19ª dinastia, cópia ilustrada do Livro dos Mortos do escriba Hunefer, com a cena da pesagem do coração.",
+        "variantes": [
+          "Papyrus of Hunefer",
+          "Livro dos Mortos de Hunefer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "papiro_rhind",
+          "nome": "Papiro Rhind",
+          "descricao": "Papiro egípcio com problemas de matemática, copiado pelo escriba Ahmes por volta de 1550 antes de Cristo.",
+          "variantes": [
+            "Papiro de Ahmes",
+            "Rhind Mathematical Papyrus",
+            "Papiro de Rhind"
+          ]
+        },
+        {
+          "id": "livro_dos_mortos",
+          "nome": "Livro dos Mortos",
+          "descricao": "Coletânea egípcia de fórmulas mágicas escritas em papiro e postas nas tumbas para guiar o morto no além",
+          "variantes": [
+            "Book of the Dead",
+            "Livro egípcio dos mortos"
+          ]
+        },
+        {
+          "id": "clair_de_lune",
+          "nome": "Clair de Lune",
+          "descricao": "Terceiro movimento da Suíte Bergamasque para piano de Claude Debussy.",
+          "variantes": [
+            "Clair de lune (Debussy)",
+            "Suite bergamasque"
+          ]
+        },
+        {
+          "id": "palacio_de_inverno",
+          "nome": "Palácio de Inverno",
+          "descricao": "Palácio barroco em São Petersburgo, residência oficial dos imperadores russos e hoje parte do Museu Hermitage.",
+          "variantes": [
+            "Winter Palace",
+            "Palácio de Inverno de São Petersburgo"
+          ]
+        },
+        {
+          "id": "aro_de_basquete",
+          "nome": "Aro de basquete",
+          "descricao": "Anel de metal com rede, preso à tabela, por onde a bola deve passar para marcar pontos.",
+          "variantes": [
+            "Cesta",
+            "Rim",
+            "Hoop"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Trombetas de Tutancâmon",
+        "descricao": "Par de trombetas, uma de prata e outra de bronze ou cobre, achadas na tumba do faraó Tutancâmon.",
+        "variantes": [
+          "Tutankhamun's trumpets"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tumba_de_tutancamon",
+          "nome": "Tumba de Tutancâmon",
+          "descricao": "Tumba do faraó Tutancâmon no Vale dos Reis, catalogada como KV62 e encontrada quase intacta em 1922",
+          "variantes": [
+            "KV62"
+          ]
+        },
+        {
+          "id": "mascara_de_tutancamon",
+          "nome": "Máscara de Tutancâmon",
+          "descricao": "Máscara funerária de ouro com incrustações que cobria o rosto da múmia de Tutancâmon, hoje no Egito",
+          "variantes": [
+            "Mask of Tutankhamun",
+            "Máscara funerária de Tutancâmon"
+          ]
+        },
+        {
+          "id": "tutancamon",
+          "nome": "Tutancâmon",
+          "descricao": "Faraó da décima oitava dinastia do Egito, morto por volta dos dezoito anos, cuja tumba foi achada intacta em 1922.",
+          "variantes": [
+            "Tutankhamun",
+            "Tutankhamon"
+          ]
+        },
+        {
+          "id": "sitcom",
+          "nome": "Sitcom",
+          "descricao": "Gênero de série de comédia de TV com personagens fixos em situações do dia a dia, geralmente em episódios curtos.",
+          "variantes": [
+            "Comédia de situação"
+          ]
+        },
+        {
+          "id": "maldicao_dos_faraos",
+          "nome": "Maldição dos faraós",
+          "descricao": "Lenda de que quem perturba a múmia de um faraó é castigado, popularizada após a abertura da tumba de Tutancâmon",
+          "variantes": [
+            "Maldição de Tutancâmon",
+            "Curse of the pharaohs"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Kore do Peplo",
+        "descricao": "Estátua arcaica grega de mármore de uma jovem, de cerca de 530 a.C., achada na Acrópole de Atenas.",
+        "variantes": [
+          "Peplos Kore",
+          "Koré do Peplos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ordem_dos_templarios",
+          "nome": "Ordem dos Templários",
+          "descricao": "Ordem militar cristã fundada em Jerusalém por volta de 1119 e extinta pelo papa em 1312.",
+          "variantes": [
+            "Cavaleiros Templários",
+            "Knights Templar",
+            "Pobres Cavaleiros de Cristo e do Templo de Salomão"
+          ]
+        },
+        {
+          "id": "otzi",
+          "nome": "Ötzi",
+          "descricao": "Múmia natural de um homem da Idade do Cobre achada nos Alpes em 1991.",
+          "variantes": [
+            "Homem do gelo",
+            "Iceman",
+            "Homem de Similaun",
+            "Oetzi"
+          ]
+        },
+        {
+          "id": "menora",
+          "nome": "Menorá",
+          "descricao": "Candelabro de sete braços do Tabernáculo e do Templo de Jerusalém, símbolo do judaísmo.",
+          "variantes": [
+            "Menorah",
+            "Menorá do Templo"
+          ]
+        },
+        {
+          "id": "polo_norte",
+          "nome": "Polo Norte",
+          "descricao": "Polo Norte geográfico, ponto mais ao norte da Terra, no meio do Oceano Ártico.",
+          "variantes": [
+            "North Pole"
+          ]
+        },
+        {
+          "id": "cariatide_do_erecteion",
+          "nome": "Cariátide do Erecteion",
+          "descricao": "Estátua feminina que serve de coluna, do pórtico do Erecteion na Acrópole de Atenas, hoje no Museu da Acrópole.",
+          "variantes": [
+            "Cariátide",
+            "Koré do Erecteion",
+            "Caryatid"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Guerreiro-águia",
+        "descricao": "Soldado de elite do exército asteca, ordem militar de nobres e bravos; a estátua de cerâmica do Templo Mayor o representa.",
+        "variantes": [
+          "Cuāuhtli",
+          "Cavaleiro-águia",
+          "Eagle warrior"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dragon_quest",
+          "nome": "Dragon Quest",
+          "descricao": "Série japonesa de videogames de RPG criada por Yuji Horii, com personagens desenhados por Akira Toriyama.",
+          "variantes": [
+            "Dragon Warrior"
+          ]
+        },
+        {
+          "id": "exercito_de_terracota",
+          "nome": "Exército de Terracota",
+          "descricao": "Conjunto de milhares de estatuetas de soldados de barro enterradas junto ao mausoléu de Qin Shi Huang, em Xian.",
+          "variantes": [
+            "Guerreiros de Terracota",
+            "Terracotta Army",
+            "Guerreiros de Xian"
+          ]
+        },
+        {
+          "id": "bronzes_de_riace",
+          "nome": "Bronzes de Riace",
+          "descricao": "Par de estátuas gregas de guerreiros em bronze, do século cinco a.C., encontradas em 1972 no mar perto de Riace, na Calábria.",
+          "variantes": [
+            "Guerreiros de Riace",
+            "Riace bronzes"
+          ]
+        },
+        {
+          "id": "cavaleiros_de_atena",
+          "nome": "Cavaleiros de Atena",
+          "descricao": "Guerreiros de armadura que protegem a deusa Atena em Os Cavaleiros do Zodíaco, divididos em bronze, prata e ouro.",
+          "variantes": [
+            "Saints"
+          ]
+        },
+        {
+          "id": "paolo_guerrero",
+          "nome": "Paolo Guerrero",
+          "descricao": "Atacante peruano nascido em 1984, autor do gol do título do Corinthians no Mundial de Clubes de 2012.",
+          "variantes": [
+            "José Paolo Guerrero",
+            "Guerrero"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Códice Mendoza",
+        "descricao": "Códice asteca de cerca de 1541, feito por ordem do vice-rei Antonio de Mendoza, com a história dos governantes e da vida asteca.",
+        "variantes": [
+          "Codex Mendoza",
+          "Códice Mendocino"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "codice_mendoza",
+          "nome": "Códice Mendoza",
+          "descricao": "Códice asteca de cerca de 1541, feito sob o vice-rei Antonio de Mendoza, com a história dos governantes e do tributo astecas.",
+          "variantes": [
+            "Codex Mendoza"
+          ]
+        },
+        {
+          "id": "codice_florentino",
+          "nome": "Códice Florentino",
+          "descricao": "Obra em doze livros sobre a cultura e a história dos astecas, escrita em náuatle e espanhol no século dezesseis.",
+          "variantes": [
+            "Historia general de las cosas de la Nueva España",
+            "Florentine Codex"
+          ]
+        },
+        {
+          "id": "grogu",
+          "nome": "Grogu",
+          "descricao": "Pequeno foundling sensível à Força, da mesma espécie de Yoda, protegido de Din Djarin em The Mandalorian.",
+          "variantes": [
+            "O Menino",
+            "The Child",
+            "Baby Yoda",
+            "Din Grogu"
+          ]
+        },
+        {
+          "id": "conde_dookan",
+          "nome": "Conde Dookan",
+          "descricao": "Lorde Sith da franquia Star Wars, vilão de O Ataque dos Clones e A Vingança dos Sith.",
+          "variantes": [
+            "Count Dooku",
+            "Darth Tyranus"
+          ]
+        },
+        {
+          "id": "zodiaco_de_dendera",
+          "nome": "Zodíaco de Dendera",
+          "descricao": "Relevo egípcio do teto de uma capela do templo de Hathor em Dendera, hoje no Louvre.",
+          "variantes": [
+            "Zodíaco de Denderah",
+            "Dendera zodiac"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tesouro de Oxus",
+        "descricao": "Coleção de cerca de 180 peças de ouro e prata e 200 moedas do período aquemênida persa, achadas perto do rio Oxus no século dezenove.",
+        "variantes": [
+          "Tesouro do Oxo",
+          "Oxus Treasure",
+          "Tesouro de Amudaria"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jake_lamotta",
+          "nome": "Jake LaMotta",
+          "descricao": "Boxeador americano, campeão mundial dos pesos-médios, retratado no filme Touro Indomável.",
+          "variantes": [
+            "Touro do Bronx",
+            "Raging Bull"
+          ]
+        },
+        {
+          "id": "tesouro_de_atreu",
+          "nome": "Tesouro de Atreu",
+          "descricao": "Grande tumba tholos micênica, de cerca de 1300 a 1250 a.C., em Micenas, na Grécia.",
+          "variantes": [
+            "Túmulo de Agamêmnon",
+            "Treasury of Atreus",
+            "Túmulo de Agamenon"
+          ]
+        },
+        {
+          "id": "opus",
+          "nome": "Opus",
+          "descricao": "Palavra latina usada para numerar as obras de um compositor, geralmente na ordem de publicação.",
+          "variantes": [
+            "Op.",
+            "Número de opus"
+          ]
+        },
+        {
+          "id": "urso_de_oculos",
+          "nome": "Urso-de-óculos",
+          "descricao": "Único urso sul-americano (Tremarctos ornatus), com manchas claras ao redor dos olhos.",
+          "variantes": [
+            "Urso-andino",
+            "Tremarctos ornatus"
+          ]
+        },
+        {
+          "id": "touro_de_wall_street",
+          "nome": "Touro de Wall Street",
+          "descricao": "Escultura de bronze de um touro em posição de ataque, de Arturo Di Modica, no distrito financeiro de Nova York.",
+          "variantes": [
+            "Charging Bull",
+            "Touro de Bronze"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Hermes de Praxíteles",
+        "descricao": "Escultura grega de mármore de Hermes com o menino Dioniso, descoberta no Templo de Hera, em Olímpia, e atribuída a Praxíteles.",
+        "variantes": [
+          "Hermes com o infante Dioniso",
+          "Hermes e o menino Dioniso",
+          "Hermes of Olympia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hermes_de_praxiteles",
+          "nome": "Hermes de Praxíteles",
+          "descricao": "Escultura grega de Hermes com o bebê Dioniso, achada em Olímpia e atribuída a Praxíteles.",
+          "variantes": [
+            "Hermes e o Menino Dioniso",
+            "Hermes de Olímpia"
+          ]
+        },
+        {
+          "id": "rms_olympic",
+          "nome": "RMS Olympic",
+          "descricao": "Transatlântico britânico da White Star Line, irmão mais velho do Titanic, em serviço de 1911 a 1935.",
+          "variantes": [
+            "Olympic",
+            "Old Reliable"
+          ]
+        },
+        {
+          "id": "templo_de_hera_olimpia",
+          "nome": "Templo de Hera (Olímpia)",
+          "descricao": "Antigo templo grego arcaico em Olímpia, onde a chama olímpica é acesa.",
+          "variantes": [
+            "Heraion",
+            "Heréon de Olímpia"
+          ]
+        },
+        {
+          "id": "templo_de_zeus_olimpico",
+          "nome": "Templo de Zeus Olímpico",
+          "descricao": "Colossal templo em ruínas no centro de Atenas, concluído no reinado do imperador Adriano.",
+          "variantes": [
+            "Olimpeion",
+            "Olympieion",
+            "Templo de Zeus Olímpico (Atenas)",
+            "Olimpieion",
+            "Temple of Olympian Zeus"
+          ]
+        },
+        {
+          "id": "mr_olympia",
+          "nome": "Mr. Olympia",
+          "descricao": "Principal concurso internacional de fisiculturismo profissional, criado em 1965.",
+          "variantes": [
+            "Mister Olympia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Vaso de Warka",
+        "descricao": "Vaso de alabastro esculpido em relevo, de cerca de 3100 a.C., achado num complexo de templos da antiga cidade de Uruk, no Iraque.",
+        "variantes": [
+          "Vaso de Uruk",
+          "Warka Vase",
+          "Uruk vase"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vaso_de_warka",
+          "nome": "Vaso de Warka",
+          "descricao": "Vaso de alabastro esculpido em relevo, de cerca de 3100 a.C., encontrado em Uruk, no atual Iraque.",
+          "variantes": [
+            "Vaso de Uruk",
+            "Warka Vase"
+          ]
+        },
+        {
+          "id": "garrafa_termica",
+          "nome": "Garrafa térmica",
+          "descricao": "Recipiente de parede dupla com vácuo que conserva a temperatura de líquidos.",
+          "variantes": [
+            "Frasco a vácuo",
+            "Vacuum flask",
+            "Thermos",
+            "Vaso de Dewar"
+          ]
+        },
+        {
+          "id": "vasco_da_gama_2",
+          "nome": "Vasco da Gama",
+          "descricao": "Navegador português que abriu a rota marítima da Europa à Índia contornando a África.",
+          "variantes": [
+            "Vasco de Gama"
+          ]
+        },
+        {
+          "id": "mascara_de_warka",
+          "nome": "Máscara de Warka",
+          "descricao": "Rosto feminino de mármore branco, de cerca de 3100 a.C., encontrado em Uruk e hoje no Museu Nacional do Iraque.",
+          "variantes": [
+            "Dama de Uruk",
+            "Mask of Warka"
+          ]
+        },
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea",
+            "Lago de Aral"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Estela do Sonho",
+        "descricao": "Estela de granito erguida por Tutemés IV entre as patas da Grande Esfinge de Gizé, por volta de 1401 a.C.",
+        "variantes": [
+          "Estela da Esfinge",
+          "Dream Stele",
+          "Sphinx Stele"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dream_team",
+          "nome": "Dream Team",
+          "descricao": "Seleção masculina de basquete dos Estados Unidos nos Jogos Olímpicos de Barcelona, em 1992, a primeira com astros da NBA.",
+          "variantes": [
+            "Time dos Sonhos",
+            "Seleção americana de 1992"
+          ]
+        },
+        {
+          "id": "sirius",
+          "nome": "Sírius",
+          "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+          "variantes": [
+            "Alfa do Cão Maior",
+            "Estrela do Cão"
+          ]
+        },
+        {
+          "id": "inti_raymi",
+          "nome": "Inti Raymi",
+          "descricao": "Festa religiosa inca encenada todo mês de junho em Cusco, no Peru.",
+          "variantes": [
+            "Festa do Sol"
+          ]
+        },
+        {
+          "id": "dream_eater",
+          "nome": "Dream Eater",
+          "descricao": "Golpe de pokémon do tipo Psíquico, da 1ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "estela_de_naram_sin",
+          "nome": "Estela de Naram-Sin",
+          "descricao": "Estela de vitória em arenito rosado do rei acadiano Naram-Sin, de cerca de 2254 a.C., hoje no Louvre.",
+          "variantes": [
+            "Estela da Vitória de Naram-Sin",
+            "Victory Stele of Naram-Sin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Estátuas de Gudea",
+        "descricao": "Conjunto de cerca de vinte e sete estátuas do governante Gudea de Lagash, na Mesopotâmia, de cerca de 2144 a 2124 a.C.",
+        "variantes": [
+          "Estátua de Gudea",
+          "Statues of Gudea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estatua_de_coatlicue",
+          "nome": "Estátua de Coatlicue",
+          "descricao": "Monumental escultura asteca de pedra da deusa mãe Coatlicue, a da saia de serpentes, no Museu Nacional de Antropologia do México.",
+          "variantes": [
+            "Coatlicue",
+            "Coatlicue Mayor"
+          ]
+        },
+        {
+          "id": "estatua_de_hachiko",
+          "nome": "Estátua de Hachiko",
+          "descricao": "Estátua de bronze do cão akita Hachiko, diante da estação de Shibuya, em Tóquio.",
+          "variantes": [
+            "Hachikō",
+            "Hachiko"
+          ]
+        },
+        {
+          "id": "estatua_de_borba_gato",
+          "nome": "Estátua de Borba Gato",
+          "descricao": "Monumento ao bandeirante Manoel de Borba Gato, no bairro de Santo Amaro, em São Paulo.",
+          "variantes": [
+            "Monumento a Borba Gato"
+          ]
+        },
+        {
+          "id": "tanque_de_guerra",
+          "nome": "Tanque de guerra",
+          "descricao": "Veículo blindado de combate com lagartas, criado pelos britânicos e estreado na Primeira Guerra Mundial.",
+          "variantes": [
+            "Tank",
+            "Carro de combate"
+          ]
+        },
+        {
+          "id": "mehndi",
+          "nome": "Mehndi",
+          "descricao": "Arte de pintar desenhos temporários na pele, tradicional em casamentos na Índia e no sul da Ásia.",
+          "variantes": [
+            "Mehendi",
+            "Tatuagem de hena"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Lukasa",
+        "descricao": "Tábua de madeira com contas e relevos, dispositivo de memória da sociedade secreta Bambudye do povo Luba.",
+        "variantes": [
+          "Lukasa Luba",
+          "Tábua de memória luba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "luva",
+          "nome": "Luva",
+          "descricao": "Peça de vestuário que cobre a mão, com compartimentos separados para cada dedo.",
+          "variantes": [
+            "Luvas",
+            "Glove"
+          ]
+        },
+        {
+          "id": "mufasa",
+          "nome": "Mufasa",
+          "descricao": "Rei leão, pai de Simba, no filme de animação O Rei Leão, da Disney, de 1994.",
+          "variantes": []
+        },
+        {
+          "id": "lua",
+          "nome": "Lua",
+          "descricao": "Único satélite natural da Terra.",
+          "variantes": [
+            "A Lua",
+            "Moon"
+          ]
+        },
+        {
+          "id": "lua_linguagem_de_programacao",
+          "nome": "Lua (linguagem de programação)",
+          "descricao": "Linguagem de programação criada em 1993 na PUC-Rio, muito usada em jogos eletrônicos.",
+          "variantes": [
+            "Lua"
+          ]
+        },
+        {
+          "id": "luanda",
+          "nome": "Luanda",
+          "descricao": "Capital de Angola, fundada pelos portugueses em 1576 e ocupada pelos holandeses de 1641 a 1648.",
+          "variantes": [
+            "São Paulo da Assunção de Loanda"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Papiro específico de Hunefer; Livro dos Mortos é a coletânea geral."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Trombetas são objetos distintos da tumba, do faraó ou da máscara."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Estátua Kore do Peplo é diferente da Cariátide do Erecteion."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Guerreiro-águia asteca não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "motivo": "Mesmo códice asteca de 1541 do vice-rei Mendoza.",
+      "id_existente": "codice_mendoza"
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Tesouro de Oxus aquemênida não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "motivo": "Mesma escultura de Hermes com Dioniso achada em Olímpia.",
+      "id_existente": "hermes_de_praxiteles"
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "motivo": "Mesmo vaso de alabastro de Uruk, c. 3100 a.C.",
+      "id_existente": "vaso_de_warka"
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Estela do Sonho de Tutemés IV é distinta das candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Estátuas de Gudea não constam entre as candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Lukasa luba não corresponde a nenhuma candidata; nomes apenas parecidos."
+    }
+  ]
+}
