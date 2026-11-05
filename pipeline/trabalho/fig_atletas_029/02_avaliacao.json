@@ -1,0 +1,206 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto de ação com o rosto baixo e meio escondido; o jogador não é reconhecível pela imagem, só pela camisa do clube."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido e reconhecível, sem texto que entregue o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que clube inglês este atacante uruguaio defendeu entre 2002 e 2004?",
+      "resposta": "Manchester United",
+      "distratores": [
+        "Liverpool",
+        "Arsenal",
+        "Chelsea"
+      ],
+      "ancora": {
+        "nome": "Diego Forlán",
+        "descricao": "Ex-atacante uruguaio, ídolo de Villarreal e Atlético de Madrid e treinador da seleção do Uruguai.",
+        "variantes": [
+          "Forlan"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco, rosto claro; só uma sigla parcial na roupa, que não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 4,
+      "pergunta": "Que piloto sueco da Fórmula 1 dos anos setenta é este?",
+      "resposta": "Ronnie Peterson",
+      "distratores": [],
+      "ancora": {
+        "nome": "Ronnie Peterson",
+        "descricao": "Piloto sueco de Fórmula 1 dos anos 1970, apelidado de Superswede, vice-campeão em 1971 e 1978.",
+        "variantes": [
+          "Superswede"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto; o jogador é reconhecível pelo rosto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que clube italiano este atacante alemão nascido na Polônia defendeu entre 2011 e 2016?",
+      "resposta": "Lazio",
+      "distratores": [
+        "Roma",
+        "Napoli",
+        "Fiorentina"
+      ],
+      "ancora": {
+        "nome": "Miroslav Klose",
+        "descricao": "Ex-atacante alemão nascido na Polônia, campeão mundial em 2014 e ex-artilheiro de Copas do Mundo.",
+        "variantes": [
+          "Mirosław Klose"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rosto de perfil nítido, sem texto; a pessoa ao fundo está desfocada e não é o foco.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "Que ex-tenista australiano é este?",
+      "resposta": "Lleyton Hewitt",
+      "distratores": [],
+      "ancora": {
+        "nome": "Lleyton Hewitt",
+        "descricao": "Ex-tenista australiano, número 1 do mundo, campeão do US Open 2001 e de Wimbledon 2002.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco nítido, sem texto que entregue o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Que equipe italiana de motos este piloto defendeu quando venceu sete mundiais seguidos da classe quinhentas cilindradas?",
+      "resposta": "MV Agusta",
+      "distratores": [
+        "Ducati",
+        "Moto Guzzi",
+        "Gilera"
+      ],
+      "ancora": {
+        "nome": "Giacomo Agostini",
+        "descricao": "Ex-piloto italiano de motovelocidade, com 15 títulos mundiais, o maior campeão da história do Mundial de motos.",
+        "variantes": [
+          "Ago"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido; só aparece o patrocinador Itaú, que não entrega o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que clube inglês este atacante brasileiro defendeu entre 2015 e 2023?",
+      "resposta": "Liverpool",
+      "distratores": [],
+      "ancora": {
+        "nome": "Roberto Firmino",
+        "descricao": "Atacante brasileiro, ídolo do Liverpool e campeão da Champions League em 2019.",
+        "variantes": [
+          "Bobby Firmino"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido, apesar dos óculos escuros; sem texto. A mulher no pôster ao fundo é só cenário.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 6,
+      "pergunta": "Que lutador camaronês de MMA, ex-campeão dos pesos-pesados, é este?",
+      "resposta": "Francis Ngannou",
+      "distratores": [],
+      "ancora": {
+        "nome": "Francis Ngannou",
+        "descricao": "Lutador camaronês-francês de MMA e boxe, ex-campeão dos pesos-pesados do UFC.",
+        "variantes": [
+          "The Predator"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto histórica em preto e branco, rosto de perfil atrás da rede, sem texto; reconhecível por quem conhece o goleiro.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que goleiro brasileiro dos anos quarenta e cinquenta é este?",
+      "resposta": "Moacir Barbosa",
+      "distratores": [
+        "Gilmar",
+        "Castilho",
+        "Manga"
+      ],
+      "ancora": {
+        "nome": "Moacir Barbosa",
+        "descricao": "Goleiro brasileiro do Vasco da Gama e da seleção, goleiro na final da Copa do Mundo de 1950.",
+        "variantes": [
+          "Barbosa",
+          "Moacir Barbosa do Nascimento"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido e sorridente; só um trecho de letreiro ao fundo, que não entrega o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que clube italiano este ex-jogador defendeu por quase duas décadas?",
+      "resposta": "Juventus",
+      "distratores": [],
+      "ancora": {
+        "nome": "Alessandro Del Piero",
+        "descricao": "Ex-atacante italiano, maior ídolo da história da Juventus e campeão mundial em 2006.",
+        "variantes": [
+          "Del Piero",
+          "Pinturicchio"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto antiga e pequena de um Branco jovem, de baixa qualidade; o jogador não é reconhecível com segurança pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Figurinha antiga e pouco nítida; o jogador só é reconhecível por aficionados. Qualquer pergunta sobre a final de 1950 seria respondida sem a imagem."
+    }
+  ]
+}

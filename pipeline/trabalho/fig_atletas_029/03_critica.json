@@ -1,0 +1,97 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "O trecho em inglês diz que ele foi para o Manchester United em 2001, e o enunciado diz 2002. A pista de datas e nacionalidade quase entrega o jogador. Reescrevi sem datas, usando o Villarreal, que veio depois.",
+      "reescrita": {
+        "pergunta": "Que clube inglês este atacante uruguaio defendeu antes de ir para o Villarreal?",
+        "resposta": "Manchester United",
+        "distratores": [
+          "Liverpool",
+          "Arsenal",
+          "Chelsea"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento. Nacionalidade e época ajudam sem entregar o nome, e a imagem decide quem é. Fatos confirmados nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Alemão nascido na Polônia' somado às datas identifica Klose sem a imagem, então a figura vira enfeite. O fato é verdadeiro. Troquei por uma pista mais leve que mantém a resposta única.",
+      "reescrita": {
+        "pergunta": "Em 2011, ao deixar o Bayern de Munique, para que clube italiano se mudou este atacante alemão?",
+        "resposta": "Lazio",
+        "distratores": [
+          "Roma",
+          "Napoli",
+          "Fiorentina"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento. 'Ex-tenista australiano' ajuda sem entregar, e a imagem decide quem é.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Sete mundiais seguidos da classe 500cc' é um feito único e permite responder sem olhar a figura. O fato é verdadeiro, mas a pista entrega. Reescrevi com uma pista mais genérica.",
+      "reescrita": {
+        "pergunta": "Que equipe italiana de motos este piloto defendeu durante a maior parte da carreira?",
+        "resposta": "MV Agusta",
+        "distratores": [
+          "Ducati",
+          "Moto Guzzi",
+          "Gilera"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Nacionalidade, país do clube e período permitem responder sem a figura. Troquei por uma pergunta de nível 3 sobre o apelido dado pelos torcedores, confirmado nos trechos.",
+      "reescrita": {
+        "pergunta": "Que apelido em inglês os torcedores do Liverpool deram a este atacante brasileiro?",
+        "resposta": "Bobby"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Camaronês de MMA, ex-campeão dos pesos-pesados' identifica Ngannou sem a imagem. Troquei por uma pista mais ampla, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que lutador de MMA nascido na África é este?",
+        "resposta": "Francis Ngannou"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista de época e nacionalidade ajuda sem entregar. Os distratores são goleiros brasileiros críveis e nenhum corresponde à imagem. O trecho confirma que ele atuou nos anos quarenta e cinquenta.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Del Piero jogou 19 anos na Juventus, e 'quase duas décadas' é literalmente verdadeiro. Outros jogadores teriam feito o mesmo em clubes diferentes, então a pista não identifica sozinha e a figura é necessária.",
+      "reescrita": null
+    }
+  ]
+}
