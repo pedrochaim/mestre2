@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cordilheira fica esta montanha?",
+        "resposta": "Himalaia"
+      },
+      "existentes": [
+        {
+          "id": "q02058",
+          "pergunta": "Em 1953, o neozelandês Edmund Hillary chegou ao cume do Everest ao lado de qual alpinista sherpa?",
+          "resposta": "Tenzing Norgay"
+        },
+        {
+          "id": "q02059",
+          "pergunta": "O calcário do cume do Everest guarda fósseis de animais antigos. Onde viviam esses animais?",
+          "resposta": "No mar"
+        },
+        {
+          "id": "q14026",
+          "pergunta": "Que montanha dos Himalaias, o pico central desta foto aérea, é esta?",
+          "resposta": "Monte Everest"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Esta montanha fica na América do Sul. Que nome recebe esse tipo de formação?",
+        "resposta": "Tepui"
+      },
+      "existentes": [
+        {
+          "id": "q02088",
+          "pergunta": "Acredita-se que o Monte Roraima inspirou um romance de 1912 sobre dinossauros num planalto isolado. Quem escreveu esse livro?",
+          "resposta": "Arthur Conan Doyle"
+        },
+        {
+          "id": "q02089",
+          "pergunta": "O Monte Roraima fica na fronteira entre o Brasil, a Venezuela e qual outro país?",
+          "resposta": "Guiana"
+        },
+        {
+          "id": "q08822",
+          "pergunta": "O Monte Roraima, na fronteira do Brasil com a Venezuela e a Guiana, é um tepui. Qual é o formato típico desse tipo de montanha?",
+          "resposta": "Topo plano, como uma mesa"
+        },
+        {
+          "id": "q16548",
+          "pergunta": "Que tepui da América do Sul é este?",
+          "resposta": "Monte Roraima"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta a cordilheira da montanha (Himalaia); a existente q14026 pede o nome da montanha (Everest), que é outro fato, embora o enunciado mencione Himalaias."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o nome do tipo de formação (tepui). A q08822 já informa que é um tepui e pergunta o formato, e a q16548 pede o nome da montanha, então o fato é outro."
+    }
+  ]
+}

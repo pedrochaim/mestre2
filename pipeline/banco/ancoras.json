@@ -226927,5 +226927,56 @@
       "pt": 7,
       "en": 357
     }
+  },
+  {
+    "id": "deserto_polar",
+    "nome": "Deserto polar",
+    "descricao": "Bioma das regiões polares de clima de calota de gelo, com precipitação muito baixa e superfície coberta de gelo.",
+    "variantes": [
+      "Deserto branco",
+      "Deserto de gelo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Polar_desert",
+      "https://pt.wikipedia.org/wiki/Deserto_polar"
+    ]
+  },
+  {
+    "id": "virga",
+    "nome": "Virga",
+    "descricao": "Faixa de precipitação que evapora ou sublima antes de chegar ao solo.",
+    "variantes": [
+      "Virgas",
+      "Tempestade seca"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Virga",
+      "https://pt.wikipedia.org/wiki/Virga"
+    ]
+  },
+  {
+    "id": "outback",
+    "nome": "Outback",
+    "descricao": "Vasta região remota e pouco povoada do interior da Austrália.",
+    "variantes": [
+      "Interior australiano"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Outback",
+      "https://pt.wikipedia.org/wiki/Outback"
+    ]
+  },
+  {
+    "id": "nuvem_muralha",
+    "nome": "Nuvem muralha",
+    "descricao": "Abaixamento localizado e persistente da base de um cumulonimbo, de onde às vezes se formam tornados.",
+    "variantes": [
+      "Wall cloud",
+      "Murus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Wall_cloud",
+      "https://pt.wikipedia.org/wiki/Wall_Cloud"
+    ]
   }
 ]

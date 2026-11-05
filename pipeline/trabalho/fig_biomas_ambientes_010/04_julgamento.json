@@ -1,0 +1,386 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Deserto polar",
+        "descricao": "Bioma das regiões polares de clima de calota de gelo, com precipitação muito baixa e superfície coberta de gelo.",
+        "variantes": [
+          "Deserto branco",
+          "Deserto de gelo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "deserto_de_gobi",
+          "nome": "Deserto de Gobi",
+          "descricao": "Grande deserto frio da Ásia Central",
+          "variantes": [
+            "Gobi"
+          ]
+        },
+        {
+          "id": "deserto_do_saara",
+          "nome": "Deserto do Saara",
+          "descricao": "Maior deserto quente do mundo, que ocupa grande parte do norte da África.",
+          "variantes": [
+            "Saara",
+            "Sahara"
+          ]
+        },
+        {
+          "id": "deserto_do_kalahari",
+          "nome": "Deserto do Kalahari",
+          "descricao": "Grande região semiárida arenosa do sul da África, em Botsuana, Namíbia e África do Sul",
+          "variantes": [
+            "Kalahari",
+            "Calaári"
+          ]
+        },
+        {
+          "id": "barao_do_rio_branco",
+          "nome": "Barão do Rio Branco",
+          "descricao": "José Maria da Silva Paranhos Júnior, diplomata brasileiro que resolveu as fronteiras do país no início do século vinte.",
+          "variantes": [
+            "José Maria da Silva Paranhos Júnior",
+            "Rio Branco"
+          ]
+        },
+        {
+          "id": "rio_branco",
+          "nome": "Rio Branco",
+          "descricao": "Capital do estado do Acre, às margens do rio Acre.",
+          "variantes": [
+            "Rio Branco (Acre)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Monte Everest",
+        "descricao": "Montanha mais alta da Terra acima do nível do mar, na fronteira entre Nepal e China.",
+        "variantes": [
+          "Everest",
+          "Monte Evereste",
+          "Sagarmatha",
+          "Chomolungma"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_everest",
+          "nome": "Monte Everest",
+          "descricao": "Montanha do Himalaia, na fronteira entre Nepal e China, o ponto mais alto da Terra acima do nível do mar.",
+          "variantes": [
+            "Everest",
+            "Chomolungma",
+            "Sagarmatha",
+            "Mount Everest"
+          ]
+        },
+        {
+          "id": "monte_verde",
+          "nome": "Monte Verde",
+          "descricao": "Sítio arqueológico no sul do Chile com sinais de presença humana de cerca de 14,5 mil anos.",
+          "variantes": []
+        },
+        {
+          "id": "monte_erebus",
+          "nome": "Monte Erebus",
+          "descricao": "Vulcão ativo na Ilha de Ross, na Antártida.",
+          "variantes": [
+            "Erebus"
+          ]
+        },
+        {
+          "id": "sagarana",
+          "nome": "Sagarana",
+          "descricao": "Livro de contos de estreia de Guimarães Rosa, publicado em 1946.",
+          "variantes": []
+        },
+        {
+          "id": "rio_tibre",
+          "nome": "Rio Tibre",
+          "descricao": "Rio da Itália central que atravessa Roma, aqui com o Castelo e a Ponte Sant'Angelo.",
+          "variantes": [
+            "Tibre",
+            "Tevere",
+            "Tiber"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Monte Roraima",
+        "descricao": "Tepui da cadeia Pacaraima, na junção de Brasil, Guiana e Venezuela.",
+        "variantes": [
+          "Roraima",
+          "Tepui Roraima"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_roraima",
+          "nome": "Monte Roraima",
+          "descricao": "Tepui de topo plano na tríplice fronteira entre Brasil, Venezuela e Guiana.",
+          "variantes": [
+            "Roraima",
+            "Mount Roraima",
+            "Tepui Roraima",
+            "Roraima-tepui"
+          ]
+        },
+        {
+          "id": "roraima",
+          "nome": "Roraima",
+          "descricao": "Estado mais setentrional do Brasil, na Região Norte, com capital em Boa Vista.",
+          "variantes": []
+        },
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)",
+            "Raia"
+          ]
+        },
+        {
+          "id": "monte_bromo",
+          "nome": "Monte Bromo",
+          "descricao": "Vulcão ativo da montanhas Tengger, em Java Oriental, Indonésia.",
+          "variantes": [
+            "Bromo",
+            "Gunung Bromo"
+          ]
+        },
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Virga",
+        "descricao": "Faixa de precipitação que evapora ou sublima antes de chegar ao solo.",
+        "variantes": [
+          "Virgas",
+          "Tempestade seca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "messier_87",
+          "nome": "Messier 87",
+          "descricao": "Galáxia elíptica supergigante na constelação de Virgem, com um jato de plasma saindo do núcleo e um buraco negro supermassivo central.",
+          "variantes": [
+            "M87",
+            "NGC 4486",
+            "Virgo A"
+          ]
+        },
+        {
+          "id": "tempestade_de_areia",
+          "nome": "Tempestade de areia",
+          "descricao": "Fenômeno meteorológico em que ventos fortes levantam areia e poeira de superfícies secas, comum em regiões áridas.",
+          "variantes": [
+            "Tempestade de poeira",
+            "Haboob"
+          ]
+        },
+        {
+          "id": "ira",
+          "nome": "Irã",
+          "descricao": "País da Ásia Ocidental, antiga Pérsia, com capital em Teerã.",
+          "variantes": [
+            "Pérsia",
+            "República Islâmica do Irã"
+          ]
+        },
+        {
+          "id": "haboob",
+          "nome": "Haboob",
+          "descricao": "Intensa tempestade de poeira gerada pelas rajadas descendentes de uma tempestade.",
+          "variantes": [
+            "Habub",
+            "Tempestade de poeira"
+          ]
+        },
+        {
+          "id": "a_tempestade_giorgione",
+          "nome": "A Tempestade (Giorgione)",
+          "descricao": "Pintura renascentista de Giorgione, de cerca de 1506-1508, com um soldado, uma mulher amamentando e um raio sobre uma paisagem, na Galleria dell'Accademia de Veneza.",
+          "variantes": [
+            "La Tempesta",
+            "The Tempest",
+            "A Tempestade"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Outback",
+        "descricao": "Vasta região remota e pouco povoada do interior da Austrália.",
+        "variantes": [
+          "Interior australiano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "periquito_australiano",
+          "nome": "Periquito-australiano",
+          "descricao": "Melopsittacus undulatus, pequeno papagaio australiano de cauda longa, popular como ave de estimação.",
+          "variantes": [
+            "Budgerigar",
+            "Periquito-comum",
+            "Melopsittacus undulatus"
+          ]
+        },
+        {
+          "id": "futebol_australiano",
+          "nome": "Futebol australiano",
+          "descricao": "Esporte de contato entre duas equipes de 18 jogadores num campo oval, com bola oval.",
+          "variantes": [
+            "Futebol de regras australianas",
+            "Australian rules football",
+            "Footy"
+          ]
+        },
+        {
+          "id": "imperio_austriaco",
+          "nome": "Império Austríaco",
+          "descricao": "Império multinacional da Europa Central governado pelos Habsburgo entre 1804 e 1867.",
+          "variantes": [
+            "Império da Áustria",
+            "Áustria imperial"
+          ]
+        },
+        {
+          "id": "bandeira_da_italia",
+          "nome": "Bandeira da Itália",
+          "descricao": "Bandeira nacional atual da Itália, tricolor vertical verde, branca e vermelha.",
+          "variantes": [
+            "Il Tricolore",
+            "Tricolore italiano"
+          ]
+        },
+        {
+          "id": "aberto_da_australia",
+          "nome": "Aberto da Austrália",
+          "descricao": "Torneio de Grand Slam disputado em Melbourne, o primeiro da temporada.",
+          "variantes": [
+            "Australian Open",
+            "Aberto da Austrália de Tênis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Nuvem muralha",
+        "descricao": "Abaixamento localizado e persistente da base de um cumulonimbo, de onde às vezes se formam tornados.",
+        "variantes": [
+          "Wall cloud",
+          "Murus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cobra_coral",
+          "nome": "Cobra-coral",
+          "descricao": "Serpente peçonhenta das Américas, do gênero Micrurus, de anéis coloridos vermelhos, pretos e brancos ou amarelos.",
+          "variantes": [
+            "Coral-verdadeira",
+            "Micrurus"
+          ]
+        },
+        {
+          "id": "muralha_da_china",
+          "nome": "Muralha da China",
+          "descricao": "Série de fortificações construídas ao longo da fronteira norte da China antiga e imperial.",
+          "variantes": [
+            "Grande Muralha da China",
+            "Great Wall of China",
+            "Grande Muralha"
+          ]
+        },
+        {
+          "id": "urano",
+          "nome": "Urano",
+          "descricao": "Sétimo planeta a partir do Sol, um gigante gelado.",
+          "variantes": [
+            "Uranus"
+          ]
+        },
+        {
+          "id": "os_smurfs",
+          "nome": "Os Smurfs",
+          "descricao": "Criaturinhas azuis criadas pelo quadrinista belga Peyo em 1958",
+          "variantes": [
+            "Les Schtroumpfs",
+            "Smurfs"
+          ]
+        },
+        {
+          "id": "urupes",
+          "nome": "Urupês",
+          "descricao": "Livro de contos de Monteiro Lobato publicado em 1918, voltado ao público adulto, que popularizou o caipira Jeca Tatu.",
+          "variantes": [
+            "Urupês (livro)"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Deserto polar é um bioma; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "monte_everest",
+      "motivo": "Mesma montanha, mesma descrição e variantes."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "monte_roraima",
+      "motivo": "Mesmo tepui na tríplice fronteira."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Virga é fenômeno de precipitação evaporando; candidatas são tempestades de poeira ou outras coisas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Outback é região do interior australiano; nenhuma candidata equivale."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nuvem muralha (wall cloud) é um fenômeno meteorológico distinto das candidatas."
+    }
+  ]
+}

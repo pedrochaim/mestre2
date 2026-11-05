@@ -1,0 +1,179 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Lago e montanhas em névoa, sem traço distintivo; não dá para reconhecer o Mar Morto e poderia ser qualquer lago de deserto."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Planície branca e plana, típica de deserto polar; resposta razoavelmente única entre os biomas.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que bioma é este, onde quase nada cresce e a chuva é escassa?",
+      "resposta": "Deserto polar",
+      "distratores": [
+        "Tundra ártica",
+        "Taiga",
+        "Estepe"
+      ],
+      "ancora": {
+        "nome": "Deserto polar",
+        "descricao": "Bioma das regiões polares de clima de calota de gelo, com precipitação muito baixa e superfície coberta de gelo.",
+        "variantes": [
+          "Deserto branco",
+          "Deserto de gelo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Vista aérea clássica do Everest, com o pico piramidal destacado; sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que cordilheira fica esta montanha?",
+      "resposta": "Himalaia",
+      "distratores": [
+        "Andes",
+        "Alpes",
+        "Cáucaso"
+      ],
+      "ancora": {
+        "nome": "Monte Everest",
+        "descricao": "Montanha mais alta da Terra acima do nível do mar, na fronteira entre Nepal e China.",
+        "variantes": [
+          "Everest",
+          "Monte Evereste",
+          "Sagarmatha",
+          "Chomolungma"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Paredão de topo plano típico de tepui, com a savana da Gran Sabana à frente; sem texto.",
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que nome recebem estas montanhas de topo plano e paredões verticais, típicas da região das Guianas?",
+      "resposta": "Tepui",
+      "distratores": [
+        "Inselberg",
+        "Cuesta",
+        "Hoodoo"
+      ],
+      "ancora": {
+        "nome": "Monte Roraima",
+        "descricao": "Tepui da cadeia Pacaraima, na junção de Brasil, Guiana e Venezuela.",
+        "variantes": [
+          "Roraima",
+          "Tepui Roraima"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A imagem parece uma micrografia eletrônica de cristais; não mostra gelo panqueca reconhecível no mar."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Parece apenas um lago ao pé de montanhas; a miragem não é reconhecível sem legenda e a resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Vale com mata e paredões genéricos; não é reconhecível como Chapada dos Veadeiros e poderia ser outra serra."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Faixa de precipitação que não alcança o chão sob a nuvem, bem visível; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno do tempo é este, visível sob a nuvem?",
+      "resposta": "Virga",
+      "distratores": [
+        "Nuvem funil",
+        "Tromba-d'água",
+        "Nuvem lenticular"
+      ],
+      "ancora": {
+        "nome": "Virga",
+        "descricao": "Faixa de precipitação que evapora ou sublima antes de chegar ao solo.",
+        "variantes": [
+          "Virgas",
+          "Tempestade seca"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto antiga com muitas pessoas comuns, crianças, em primeiro plano; a poça de maré não se destaca."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Solo vermelho, vegetação esparsa e mesa ao fundo, típicos do interior australiano; sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta paisagem de solo vermelho e vegetação rala?",
+      "resposta": "Austrália",
+      "distratores": [
+        "Namíbia",
+        "Estados Unidos",
+        "África do Sul"
+      ],
+      "ancora": {
+        "nome": "Outback",
+        "descricao": "Vasta região remota e pouco povoada do interior da Austrália.",
+        "variantes": [
+          "Interior australiano"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Nuvem baixa e abrupta sob a base de uma tempestade, com raio; sem texto nem pessoas.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que formação de nuvem é esta, abaixo da base da tempestade?",
+      "resposta": "Nuvem muralha",
+      "distratores": [
+        "Nuvem lenticular",
+        "Mamatus",
+        "Nuvem funil"
+      ],
+      "ancora": {
+        "nome": "Nuvem muralha",
+        "descricao": "Abaixamento localizado e persistente da base de um cumulonimbo, de onde às vezes se formam tornados.",
+        "variantes": [
+          "Wall cloud",
+          "Murus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Duas pessoas comuns aparecem em primeiro plano na praia."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista genérica, não entrega 'polar'; a figura de gelo decide. Trechos confirmam pouca precipitação e quase nenhuma vegetação.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Everest fica nos Himalaias, confirmado pelos trechos. Enunciado não vaza e os distratores são cordilheiras plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve o tepui (topo plano, paredões, Guianas) e dá para responder sem a imagem. Tirei a descrição e deixei só o continente.",
+      "reescrita": {
+        "pergunta": "Esta montanha fica na América do Sul. Que nome recebe esse tipo de formação?",
+        "resposta": "Tepui",
+        "distratores": [
+          "Inselberg",
+          "Cuesta",
+          "Hoodoo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta. O enunciado não vaza, e os distratores são fenômenos de nuvem do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Outback fica na Austrália, como dizem os trechos. A pista de solo vermelho e vegetação rala não entrega o país e os distratores são países áridos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A nuvem muralha é um abaixamento sob a base do cumulonimbo, como diz o trecho. O enunciado não nomeia a resposta e os distratores são formações de nuvem do mesmo tipo.",
+      "reescrita": null
+    }
+  ]
+}
