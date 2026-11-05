@@ -1,0 +1,64 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este esqueleto fóssil parcial, de uma fêmea, pertence a que espécie de hominínio?",
+        "resposta": "Australopithecus afarensis"
+      },
+      "existentes": [
+        {
+          "id": "q02781",
+          "pergunta": "O apelido do fóssil Lucy, achado em 1974, veio de uma música que tocava no acampamento dos pesquisadores. De que banda era essa música?",
+          "resposta": "The Beatles"
+        },
+        {
+          "id": "q02782",
+          "pergunta": "Em 1974, na Etiópia, que paleoantropólogo americano encontrou o esqueleto de Lucy?",
+          "resposta": "Donald Johanson"
+        },
+        {
+          "id": "q07456",
+          "pergunta": "O esqueleto original de Lucy, achado em 1974, fica guardado no Museu Nacional de que capital africana?",
+          "resposta": "Adis Abeba"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Este crânio pertence a que espécie humana extinta?",
+        "resposta": "Neandertal"
+      },
+      "existentes": [
+        {
+          "id": "q02807",
+          "pergunta": "O que a maioria das pessoas com ancestrais de fora da África tem em comum com os Neandertais?",
+          "resposta": "Uma pequena parte do DNA"
+        },
+        {
+          "id": "q02808",
+          "pergunta": "Entre estes hominídeos, qual tinha, em média, o maior cérebro?",
+          "resposta": "Neandertal"
+        },
+        {
+          "id": "q07459",
+          "pergunta": "Os Neandertais, que conviveram com o Homo sapiens na Europa, desapareceram há cerca de quanto tempo?",
+          "resposta": "40 mil anos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma existente pergunta a espécie de Lucy; tratam da música, do descobridor e do local do esqueleto."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Perguntar a espécie de um crânio é fato diferente de qual hominídeo tinha o maior cérebro, do DNA compartilhado ou da época de extinção, embora a resposta seja a mesma que a de q02808."
+    }
+  ]
+}

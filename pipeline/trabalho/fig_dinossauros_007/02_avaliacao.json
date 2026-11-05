@@ -1,0 +1,231 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ossos de Lucy sobre fundo branco, imagem icônica e sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Estes ossos fossilizados, achados na Etiópia em 1974, pertencem a que espécie de hominínio?",
+      "resposta": "Australopithecus afarensis",
+      "distratores": [
+        "Homo habilis",
+        "Paranthropus boisei",
+        "Homo erectus"
+      ],
+      "ancora": {
+        "nome": "Lucy",
+        "descricao": "Esqueleto fóssil parcial de uma fêmea de Australopithecus afarensis, encontrado em Hadar, na Etiópia, em 1974.",
+        "variantes": [
+          "AL 288-1",
+          "Dinkinesh"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Reconstrução clara de hadrossaurídeo com crista arredondada, sem texto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que período geológico viveu este dinossauro de bico de pato?",
+      "resposta": "Cretáceo",
+      "distratores": [
+        "Jurássico",
+        "Triássico",
+        "Permiano"
+      ],
+      "ancora": {
+        "nome": "Coritossauro",
+        "descricao": "Dinossauro hadrossaurídeo lambeossaurino de crista em forma de capacete, do Cretáceo Superior da América do Norte.",
+        "variantes": [
+          "Corythosaurus"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Abelissaurídeo genérico, facilmente confundido com Carnotaurus e outros; resposta não única pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Ilustração antiga de ave corredora que pode ser confundida com uma moa; resposta não única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Reconstrução nítida de pterossauro de cauda longa com leme na ponta, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que período geológico viveu este réptil voador?",
+      "resposta": "Jurássico",
+      "distratores": [
+        "Cretáceo",
+        "Triássico",
+        "Permiano"
+      ],
+      "ancora": {
+        "nome": "Ranforrinco",
+        "descricao": "Pterossauro de cauda longa com leme na ponta, do Jurássico, conhecido pelos fósseis de Solnhofen, na Alemanha.",
+        "variantes": [
+          "Rhamphorhynchus"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fóssil de belemnite com braços e rostro preservados, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que animal marinho extinto, parente das lulas, deixou este fóssil?",
+      "resposta": "Belemnite",
+      "distratores": [
+        "Amonite",
+        "Trilobita",
+        "Náutilo"
+      ],
+      "ancora": {
+        "nome": "Belemnite",
+        "descricao": "Cefalópode marinho extinto, parecido com uma lula, com dez braços e um rostro interno em forma de dardo.",
+        "variantes": [
+          "Belemnitida",
+          "Belemnoidea"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pintura clara da águia atacando uma moa, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ave de rapina extinta é esta, que aparece atacando uma presa?",
+      "resposta": "Águia-de-haast",
+      "distratores": [
+        "Águia-harpia",
+        "Águia-real",
+        "Águia-de-steller"
+      ],
+      "ancora": {
+        "nome": "Águia-de-haast",
+        "descricao": "Maior águia conhecida, extinta, que vivia na Ilha Sul da Nova Zelândia e caçava moas.",
+        "variantes": [
+          "Hieraaetus moorei",
+          "Águia de Haast"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Esqueleto montado em museu, sem texto legível; fóssil distintivo.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que período geológico viveu este dinossauro saurópode?",
+      "resposta": "Cretáceo",
+      "distratores": [
+        "Jurássico",
+        "Triássico",
+        "Permiano"
+      ],
+      "ancora": {
+        "nome": "Nigerssauro",
+        "descricao": "Pequeno dinossauro saurópode rebaquissaurídeo de focinho largo e muitos dentes, do Cretáceo do Níger.",
+        "variantes": [
+          "Nigersaurus"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Crânio de Neandertal em vista frontal, característico, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este crânio pertence a que espécie humana extinta?",
+      "resposta": "Neandertal",
+      "distratores": [
+        "Homo erectus",
+        "Homo habilis",
+        "Homo floresiensis"
+      ],
+      "ancora": {
+        "nome": "Neandertal",
+        "descricao": "Espécie humana arcaica extinta (Homo neanderthalensis) que habitou a Europa e a Ásia no Pleistoceno.",
+        "variantes": [
+          "Homem de Neandertal",
+          "Homo neanderthalensis",
+          "Neanderthal"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Esqueleto montado de celófise; placas ilegíveis, sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que dinossauro é este, representado por um esqueleto?",
+      "resposta": "Celófise",
+      "distratores": [
+        "Compsognato",
+        "Eoraptor",
+        "Dilofossauro"
+      ],
+      "ancora": {
+        "nome": "Celófise",
+        "descricao": "Pequeno dinossauro terópode esguio do Triássico Superior, do sudoeste dos Estados Unidos.",
+        "variantes": [
+          "Coelophysis"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Reconstrução clara com crista na testa, sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que período geológico viveu este dinossauro carnívoro de crista na testa?",
+      "resposta": "Jurássico",
+      "distratores": [
+        "Cretáceo",
+        "Triássico",
+        "Permiano"
+      ],
+      "ancora": {
+        "nome": "Criolofossauro",
+        "descricao": "Grande dinossauro terópode de crista na testa, do Jurássico Inferior da Antártida.",
+        "variantes": [
+          "Cryolophosaurus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Reconstrução de pequeno terópode genérico, confundível com Celófise, Sinossauropterix e outros; resposta não única."
+    }
+  ]
+}
