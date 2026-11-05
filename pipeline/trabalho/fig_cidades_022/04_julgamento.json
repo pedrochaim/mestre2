@@ -1,0 +1,312 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Taipei 101",
+        "descricao": "Arranha-céu de 101 andares e 508 metros em Taipé, Taiwan, inaugurado em 2004.",
+        "variantes": [
+          "Taipei World Financial Center",
+          "Taipé 101"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piaggio_ape",
+          "nome": "Piaggio Ape",
+          "descricao": "Veículo comercial leve de três rodas fabricado pela Piaggio a partir da Vespa, desde 1948.",
+          "variantes": [
+            "Ape",
+            "Ape 50",
+            "Vespacar"
+          ]
+        },
+        {
+          "id": "one_world_trade_center",
+          "nome": "One World Trade Center",
+          "descricao": "Arranha-céu principal do novo complexo do World Trade Center, em Manhattan, inaugurado em 2014.",
+          "variantes": [
+            "Freedom Tower",
+            "Torre da Liberdade",
+            "One WTC"
+          ]
+        },
+        {
+          "id": "apple_i",
+          "nome": "Apple I",
+          "descricao": "Primeiro computador da Apple, projetado por Steve Wozniak e vendido a partir de 1976.",
+          "variantes": [
+            "Apple-1"
+          ]
+        },
+        {
+          "id": "galaxia_do_cata_vento_m101",
+          "nome": "Galáxia do Cata-Vento (M101)",
+          "descricao": "Galáxia espiral vista de frente, na constelação da Ursa Maior, a cerca de 21 milhões de anos-luz da Terra.",
+          "variantes": [
+            "Messier 101",
+            "M101",
+            "NGC 5457",
+            "Pinwheel Galaxy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Grande Canal de Veneza",
+        "descricao": "Principal canal de Veneza, na Itália, em forma de S invertido, com a Ponte de Rialto.",
+        "variantes": [
+          "Canal Grande",
+          "Grand Canal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_canal_da_china",
+          "nome": "Grande Canal da China",
+          "descricao": "Sistema de canais artificiais da China, ampliado na dinastia Sui, que liga Pequim a Hangzhou.",
+          "variantes": [
+            "Grand Canal",
+            "Canal Pequim-Hangzhou",
+            "Da Yunhe"
+          ]
+        },
+        {
+          "id": "grande_canal_de_veneza",
+          "nome": "Grande Canal de Veneza",
+          "descricao": "Principal canal de Veneza, Itália, com formato de S invertido, cruzado pela Ponte de Rialto.",
+          "variantes": [
+            "Canal Grande",
+            "Canalazzo"
+          ]
+        },
+        {
+          "id": "magna_carta",
+          "nome": "Magna Carta",
+          "descricao": "Carta de direitos que os barões ingleses impuseram ao rei em 1215, limitando o poder da coroa.",
+          "variantes": [
+            "Magna Charta",
+            "Grande Carta"
+          ]
+        },
+        {
+          "id": "grand_canyon",
+          "nome": "Grand Canyon",
+          "descricao": "Grande desfiladeiro no estado do Arizona, nos Estados Unidos.",
+          "variantes": [
+            "Grande Cânion",
+            "Grand Canyon do Colorado"
+          ]
+        },
+        {
+          "id": "pakal",
+          "nome": "Pakal",
+          "descricao": "Rei maia de Palenque no século sete, sepultado no Templo das Inscrições.",
+          "variantes": [
+            "Pakal, o Grande",
+            "K'inich Janaab' Pakal",
+            "Pacal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Doha",
+        "descricao": "Capital e maior cidade do Catar, no litoral do Golfo Pérsico.",
+        "variantes": [
+          "Ad-Dawha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "donphan",
+          "nome": "Donphan",
+          "descricao": "Pokémon do tipo Terrestre, número 232 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "taj_mahal",
+          "nome": "Taj Mahal",
+          "descricao": "Mausoléu de mármore branco em Agra, na Índia, construído no século dezessete.",
+          "variantes": [
+            "Tadj Mahal",
+            "Tajmahal"
+          ]
+        },
+        {
+          "id": "rio_danubio",
+          "nome": "Rio Danúbio",
+          "descricao": "Rio da Europa Central e Oriental que nasce na Alemanha e deságua no mar Negro.",
+          "variantes": [
+            "Danúbio",
+            "Danube",
+            "Donau"
+          ]
+        },
+        {
+          "id": "dolar",
+          "nome": "Dólar",
+          "descricao": "Nome de diversas moedas, como a dos Estados Unidos, derivado de uma antiga moeda de prata europeia.",
+          "variantes": [
+            "Dollar"
+          ]
+        },
+        {
+          "id": "moca_iemen",
+          "nome": "Moca (Iêmen)",
+          "descricao": "Cidade portuária no mar Vermelho, no Iêmen, antigo centro de exportação de café que deu nome ao café moca.",
+          "variantes": [
+            "Mocha",
+            "Mokha",
+            "Al-Makha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Trafalgar Square",
+        "descricao": "Praça pública em Westminster, no centro de Londres, diante da National Gallery.",
+        "variantes": [
+          "Praça Trafalgar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quadrado_magico",
+          "nome": "Quadrado mágico",
+          "descricao": "Arranjo quadrado de números em que linhas, colunas e diagonais principais têm a mesma soma.",
+          "variantes": [
+            "Magic square"
+          ]
+        },
+        {
+          "id": "placa_de_video",
+          "nome": "Placa de vídeo",
+          "descricao": "Placa de expansão do computador que gera as imagens enviadas ao monitor, com uma unidade de processamento gráfico.",
+          "variantes": [
+            "Placa gráfica",
+            "Placa de vídeo dedicada",
+            "GPU",
+            "Video card"
+          ]
+        },
+        {
+          "id": "haile_selassie",
+          "nome": "Hailé Selassié",
+          "descricao": "Imperador da Etiópia de 1930 a 1974, figura divina no movimento rastafári.",
+          "variantes": [
+            "Hailé Selassié I",
+            "Ras Tafari",
+            "Tafari Makonnen"
+          ]
+        },
+        {
+          "id": "praca_maua",
+          "nome": "Praça Mauá",
+          "descricao": "Praça da zona portuária do Centro do Rio de Janeiro, com estátua do Visconde de Mauá, no início da Avenida Rio Branco.",
+          "variantes": []
+        },
+        {
+          "id": "canal_casiquiare",
+          "nome": "Canal Casiquiare",
+          "descricao": "Canal natural no sul da Venezuela que liga o rio Orinoco ao rio Negro, da bacia amazônica.",
+          "variantes": [
+            "Casiquiare",
+            "Casiquiare canal",
+            "Brazo Casiquiare",
+            "Cassiquiare"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Torre do Cairo",
+        "descricao": "Torre de concreto de 187 metros na ilha de Gezira, no rio Nilo, no Cairo, Egito.",
+        "variantes": [
+          "Cairo Tower",
+          "Borg El-Qahira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_do_diabo",
+          "nome": "Torre do Diabo",
+          "descricao": "Grande rochedo de colunas de rocha ígnea no nordeste do Wyoming, nos Estados Unidos.",
+          "variantes": [
+            "Devils Tower"
+          ]
+        },
+        {
+          "id": "torre_do_silencio",
+          "nome": "Torre do Silêncio",
+          "descricao": "Estrutura circular elevada usada pelos zoroastristas para expor os mortos às aves de rapina.",
+          "variantes": [
+            "Dakhma",
+            "Tower of Silence"
+          ]
+        },
+        {
+          "id": "cn_tower",
+          "nome": "CN Tower",
+          "descricao": "Torre de comunicações e observação de 553 metros em Toronto, Canadá.",
+          "variantes": [
+            "Torre CN"
+          ]
+        },
+        {
+          "id": "burj_al_arab",
+          "nome": "Burj Al Arab",
+          "descricao": "Hotel de luxo erguido numa ilha artificial na costa de Dubai, nos Emirados Árabes Unidos, inaugurado em 1999.",
+          "variantes": [
+            "Torre dos Árabes"
+          ]
+        },
+        {
+          "id": "torre_solar",
+          "nome": "Torre solar",
+          "descricao": "Usina solar térmica em que um campo de espelhos móveis concentra a luz do sol no topo de uma torre central.",
+          "variantes": [
+            "Usina de torre central",
+            "Torre de energia solar"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Taipei 101 não está entre as candidatas; são outros edifícios/objetos."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "grande_canal_de_veneza",
+      "motivo": "Mesma descrição: principal canal de Veneza, S invertido, Ponte de Rialto."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Doha, capital do Catar, não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Trafalgar Square não está entre as candidatas; Praça Mauá é outra praça."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Torre do Cairo não consta; candidatas são outras torres."
+    }
+  ]
+}

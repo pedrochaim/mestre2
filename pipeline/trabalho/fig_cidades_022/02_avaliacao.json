@@ -1,0 +1,157 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução, rua com lanternas genéricas e pedestres comuns em primeiro plano; reconhecimento do bairro incerto."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Baía com ilhas e morros genérica; não é reconhecível como Ilha Grande, resposta não única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Panorama muito alongado e pequeno, ilegível num celular e sem marco inequívoco para reconhecer a cidade."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, penduradas no bonde; imagem tem muitos rostos de gente anônima."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta inconfundível, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este arranha-céu?",
+      "resposta": "Taipé",
+      "distratores": [
+        "Xangai",
+        "Hong Kong",
+        "Kuala Lumpur"
+      ],
+      "ancora": {
+        "nome": "Taipei 101",
+        "descricao": "Arranha-céu de 101 andares e 508 metros em Taipé, Taiwan, inaugurado em 2004.",
+        "variantes": [
+          "Taipei World Financial Center",
+          "Taipé 101"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Montagem com texto visível que entrega a resposta (\"HOLAMBRA 1948\", \"Restaurante Tulipa\")."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista clara do canal com a Ponte de Rialto, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este canal?",
+      "resposta": "Veneza",
+      "distratores": [
+        "Amsterdã",
+        "Bruges",
+        "Estocolmo"
+      ],
+      "ancora": {
+        "nome": "Grande Canal de Veneza",
+        "descricao": "Principal canal de Veneza, na Itália, em forma de S invertido, com a Ponte de Rialto.",
+        "variantes": [
+          "Canal Grande",
+          "Grand Canal"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Skyline com a Torre Burj Doha e outras torres reconhecíveis, sem texto; distratores de skylines parecidas.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cidade do Golfo Pérsico é esta?",
+      "resposta": "Doha",
+      "distratores": [
+        "Dubai",
+        "Abu Dhabi",
+        "Manama"
+      ],
+      "ancora": {
+        "nome": "Doha",
+        "descricao": "Capital e maior cidade do Catar, no litoral do Golfo Pérsico.",
+        "variantes": [
+          "Ad-Dawha"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto antiga com legenda legível na base (\"Teatro Guaíra\", \"Curitiba\") que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Praça reconhecível com a National Gallery, fonte e St Martin-in-the-Fields; pessoas pequenas ao fundo.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que praça de Londres é esta?",
+      "resposta": "Trafalgar Square",
+      "distratores": [
+        "Leicester Square",
+        "Parliament Square",
+        "Covent Garden"
+      ],
+      "ancora": {
+        "nome": "Trafalgar Square",
+        "descricao": "Praça pública em Westminster, no centro de Londres, diante da National Gallery.",
+        "variantes": [
+          "Praça Trafalgar"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A palavra INDIA está gravada no monumento, entregando a resposta, e há multidão de pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Torre em treliça reconhecível, com o Nilo e um barco à vela; sem texto relevante.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta torre de concreto?",
+      "resposta": "Cairo",
+      "distratores": [
+        "Alexandria",
+        "Luxor",
+        "Amã"
+      ],
+      "ancora": {
+        "nome": "Torre do Cairo",
+        "descricao": "Torre de concreto de 187 metros na ilha de Gezira, no rio Nilo, no Cairo, Egito.",
+        "variantes": [
+          "Cairo Tower",
+          "Borg El-Qahira"
+        ]
+      }
+    }
+  ]
+}

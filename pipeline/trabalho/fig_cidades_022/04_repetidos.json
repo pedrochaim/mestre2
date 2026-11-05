@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade fica este canal?",
+        "resposta": "Veneza"
+      },
+      "existentes": [
+        {
+          "id": "q16319",
+          "pergunta": "Que canal de Veneza é este?",
+          "resposta": "Grande Canal"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta quer a cidade (Veneza), enquanto a existente quer o nome do canal (Grande Canal). Os fatos são diferentes."
+    }
+  ]
+}
