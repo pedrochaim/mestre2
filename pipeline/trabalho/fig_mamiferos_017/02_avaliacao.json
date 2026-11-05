@@ -1,0 +1,260 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida, pelagem preta com garupa dourada, reconhecível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este pequeno primata ameaçado é endêmico de qual estado brasileiro?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Bahia",
+        "Rio de Janeiro",
+        "Espírito Santo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mico-leão-preto",
+        "descricao": "Primata brasileiro ameaçado (Leontopithecus chrysopygus), de pelagem preta e garupa dourada, endêmico do estado de São Paulo.",
+        "variantes": [
+          "Mico-leão-de-cara-preta",
+          "Leontopithecus chrysopygus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bigode branco inconfundível, foto nítida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Segundo se diz, o bigode deste primata lembra o de qual imperador?",
+      "resposta": "Guilherme II",
+      "distratores": [
+        "Napoleão Bonaparte",
+        "Pedro II",
+        "Francisco José"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sagui-imperador",
+        "descricao": "Pequeno primata amazônico (Saguinus imperator) de longo bigode branco.",
+        "variantes": [
+          "Saguinus imperator",
+          "Imperador-tamarino"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem borrada, só a cabeça arredondada fora da água; confundível com baleia-piloto ou orca-pigmeia, resposta não única."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Golfinho subaquático sem traços distintivos; confundível com outros Stenella e golfinhos de bico longo."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Carneiro selvagem de grandes chifres curvos, nítido e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que carneiro selvagem é este?",
+      "resposta": "Muflão",
+      "distratores": [
+        "Urial",
+        "Argali",
+        "Bighorn"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Muflão",
+        "descricao": "Carneiro selvagem (Ovis gmelini), considerado ancestral dos carneiros domésticos.",
+        "variantes": [
+          "Mufflon",
+          "Ovis gmelini",
+          "Mouflon"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Primata de pelagem cinza lanosa e cauda preênsil, bem visível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que macaco é este?",
+      "resposta": "Macaco-barrigudo",
+      "distratores": [
+        "Muriqui",
+        "Macaco-aranha",
+        "Bugio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Macaco-barrigudo",
+        "descricao": "Macaco amazônico de pelagem lanosa (Lagothrix lagotricha).",
+        "variantes": [
+          "Barrigudo",
+          "Lagothrix lagotricha",
+          "Macaco-barrigudo-comum"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto clara com mancha branca em V no peito.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que urso é este?",
+      "resposta": "Urso-negro-asiático",
+      "distratores": [
+        "Urso-negro-americano",
+        "Urso-malaio",
+        "Urso-pardo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Urso-negro-asiático",
+        "descricao": "Urso preto com mancha clara em V no peito (Ursus thibetanus), nativo da Ásia.",
+        "variantes": [
+          "Urso-da-lua",
+          "Urso-de-colar",
+          "Ursus thibetanus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fêmea com filhote, foto nítida, macaco-de-gibraltar reconhecível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta espécie de macaco vive em estado selvagem em que lugar da Europa?",
+      "resposta": "Gibraltar",
+      "distratores": [
+        "Malta",
+        "Córsega",
+        "Sardenha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Macaco-de-gibraltar",
+        "descricao": "Macaco do Norte da África (Macaca sylvanus), com população introduzida em Gibraltar.",
+        "variantes": [
+          "Macaco-de-barbária",
+          "Magote",
+          "Macaca sylvanus"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido, com testa alaranjada e barba branca típicas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que macaco africano é este?",
+      "resposta": "Macaco-de-brazza",
+      "distratores": [
+        "Macaco-diana",
+        "Macaco-de-hamlyn",
+        "Macaco-de-nariz-branco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Macaco-de-brazza",
+        "descricao": "Macaco africano (Cercopithecus neglectus) com barba branca e faixa alaranjada na testa.",
+        "variantes": [
+          "De Brazza's monkey",
+          "Cercopithecus neglectus"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Rosto nítido com queixo claro; queixada reconhecível, ainda que o cateto seja semelhante.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal é este?",
+      "resposta": "Queixada",
+      "distratores": [
+        "Cateto",
+        "Javali",
+        "Babirusa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Queixada",
+        "descricao": "Porco-do-mato sul-americano (Tayassu pecari) de queixo claro, que vive em grandes varas.",
+        "variantes": [
+          "Porco-do-mato",
+          "Tayassu pecari",
+          "Queixada-de-lábios-brancos"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida com mancha peitoral alaranjada e garras longas.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em florestas de que região do mundo vive este urso?",
+      "resposta": "Sudeste Asiático",
+      "distratores": [
+        "Andes",
+        "Sibéria",
+        "América Central"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Urso-malaio",
+        "descricao": "Menor espécie de urso (Helarctos malayanus), com mancha clara no peito, das florestas do Sudeste Asiático.",
+        "variantes": [
+          "Urso-do-sol",
+          "Helarctos malayanus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Macho adulto bem visível, com mancha branca na garganta e pequenos chifres.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que antílope asiático é este?",
+      "resposta": "Nilgó",
+      "distratores": [
+        "Antílope-negro",
+        "Elande",
+        "Cudo-maior"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nilgó",
+        "descricao": "Maior antílope da Ásia (Boselaphus tragocamelus), comum no norte do subcontinente indiano.",
+        "variantes": [
+          "Nilgai",
+          "Boselaphus tragocamelus",
+          "Vaca-azul"
+        ]
+      }
+    }
+  ]
+}

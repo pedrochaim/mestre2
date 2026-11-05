@@ -1,0 +1,657 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Mico-leão-preto",
+        "descricao": "Primata brasileiro ameaçado (Leontopithecus chrysopygus), de pelagem preta e garupa dourada, endêmico do estado de São Paulo.",
+        "variantes": [
+          "Mico-leão-de-cara-preta",
+          "Leontopithecus chrysopygus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mico_leao_de_cara_preta",
+          "nome": "Mico-leão-de-cara-preta",
+          "descricao": "Primata da Mata Atlântica do litoral sul de São Paulo e norte do Paraná, espécie Leontopithecus caissara, descrita em 1990.",
+          "variantes": [
+            "Leontopithecus caissara",
+            "Mico-leão-caiçara",
+            "Black-faced lion tamarin",
+            "Superagui lion tamarin"
+          ]
+        },
+        {
+          "id": "mico_leao_dourado",
+          "nome": "Mico-leão-dourado",
+          "descricao": "Pequeno primata alaranjado da Mata Atlântica brasileira, espécie Leontopithecus rosalia.",
+          "variantes": [
+            "Leontopithecus rosalia",
+            "Golden lion tamarin"
+          ]
+        },
+        {
+          "id": "mero",
+          "nome": "Mero",
+          "descricao": "Grande peixe de recife da família das garoupas, Epinephelus itajara, também chamado itajara.",
+          "variantes": [
+            "Mero-preto",
+            "Itajara",
+            "Epinephelus itajara"
+          ]
+        },
+        {
+          "id": "macaco_prego",
+          "nome": "Macaco-prego",
+          "descricao": "Primata sul-americano do gênero Sapajus, de topete escuro, como o Sapajus apella.",
+          "variantes": [
+            "Sapajus apella",
+            "Macaco-prego-das-guianas"
+          ]
+        },
+        {
+          "id": "cha",
+          "nome": "Chá",
+          "descricao": "Bebida preparada com a infusão das folhas da planta Camellia sinensis, originária da China.",
+          "variantes": [
+            "Chá preto",
+            "Chá verde"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Sagui-imperador",
+        "descricao": "Pequeno primata amazônico (Saguinus imperator) de longo bigode branco.",
+        "variantes": [
+          "Saguinus imperator",
+          "Imperador-tamarino"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pinguim_imperador",
+          "nome": "Pinguim-imperador",
+          "descricao": "Maior e mais pesado dos pinguins (Aptenodytes forsteri), endêmico da Antártida, com manchas amarelas nos lados da cabeça.",
+          "variantes": [
+            "Emperor penguin",
+            "Aptenodytes forsteri"
+          ]
+        },
+        {
+          "id": "peixe_anjo_imperador",
+          "nome": "Peixe-anjo-imperador",
+          "descricao": "Peixe de recife Pomacanthus imperator, listrado de azul e amarelo, nativo dos oceanos Índico e Pacífico.",
+          "variantes": [
+            "Pomacanthus imperator",
+            "Emperor angelfish"
+          ]
+        },
+        {
+          "id": "imperio_mauria",
+          "nome": "Império Máuria",
+          "descricao": "Império da Índia antiga, dos séculos quatro a dois antes de Cristo, que teve Ashoka entre seus imperadores.",
+          "variantes": [
+            "Maurya Empire",
+            "Dinastia Máuria"
+          ]
+        },
+        {
+          "id": "periodo_cambriano",
+          "nome": "Período Cambriano",
+          "descricao": "Primeiro período da Era Paleozoica, marcado pela explosão de diversidade da vida animal.",
+          "variantes": [
+            "Cambriano",
+            "Cambrian"
+          ]
+        },
+        {
+          "id": "tupandactylus",
+          "nome": "Tupandactylus",
+          "descricao": "Gênero de pterossauro tapejarídeo de grande crista, da Formação Crato, Cretáceo Inferior do Brasil.",
+          "variantes": [
+            "Tupandactylus imperator",
+            "Tapejara imperator"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Muflão",
+        "descricao": "Carneiro selvagem (Ovis gmelini), considerado ancestral dos carneiros domésticos.",
+        "variantes": [
+          "Mufflon",
+          "Ovis gmelini",
+          "Mouflon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mula",
+          "nome": "Mula",
+          "descricao": "Animal híbrido resultante do cruzamento de um jumento com uma égua.",
+          "variantes": [
+            "Mulo",
+            "Mule"
+          ]
+        },
+        {
+          "id": "moulin_glacial",
+          "nome": "Moulin glacial",
+          "descricao": "Poço vertical na superfície de uma geleira por onde desce a água de degelo.",
+          "variantes": [
+            "Moulin",
+            "Glacier mill"
+          ]
+        },
+        {
+          "id": "lua",
+          "nome": "Lua",
+          "descricao": "Único satélite natural da Terra.",
+          "variantes": [
+            "A Lua",
+            "Moon"
+          ]
+        },
+        {
+          "id": "ciclone_tropical",
+          "nome": "Ciclone tropical",
+          "descricao": "Tempestade giratória que se forma sobre oceanos quentes, chamada de furacão ou tufão conforme a região",
+          "variantes": [
+            "Furacão",
+            "Tufão"
+          ]
+        },
+        {
+          "id": "melao",
+          "nome": "Melão",
+          "descricao": "Fruta de casca lisa ou rendada da espécie Cucumis melo, da família das cucurbitáceas.",
+          "variantes": [
+            "Melão-amarelo",
+            "Cantaloupe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Macaco-barrigudo",
+        "descricao": "Macaco amazônico de pelagem lanosa (Lagothrix lagotricha).",
+        "variantes": [
+          "Barrigudo",
+          "Lagothrix lagotricha",
+          "Macaco-barrigudo-comum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "macaco_narigudo",
+          "nome": "Macaco-narigudo",
+          "descricao": "Macaco arborícola de nariz enorme (Nasalis larvatus), endêmico da ilha de Bornéu.",
+          "variantes": [
+            "Narigudo",
+            "Nasalis larvatus"
+          ]
+        },
+        {
+          "id": "paineira",
+          "nome": "Paineira",
+          "descricao": "Árvore decídua sul-americana Ceiba speciosa, de flores rosadas e tronco bojudo com espinhos.",
+          "variantes": [
+            "Ceiba speciosa",
+            "Barriguda",
+            "Paina-rosa",
+            "Árvore-de-paina"
+          ]
+        },
+        {
+          "id": "macaco_prego",
+          "nome": "Macaco-prego",
+          "descricao": "Primata sul-americano do gênero Sapajus, de topete escuro, como o Sapajus apella.",
+          "variantes": [
+            "Sapajus apella",
+            "Macaco-prego-das-guianas"
+          ]
+        },
+        {
+          "id": "barreado",
+          "nome": "Barreado",
+          "descricao": "Prato de carne cozida por muitas horas em panela de barro vedada com massa de farinha, típico do litoral sul do Brasil",
+          "variantes": []
+        },
+        {
+          "id": "mr_mime_de_delia",
+          "nome": "Mr. Mime de Delia",
+          "descricao": "Mr. Mime que vive com Delia Ketchum, mãe de Ash, em Pallet, no anime Pokémon, e ajuda nas tarefas da casa.",
+          "variantes": [
+            "Mimey",
+            "Delia's Mr. Mime",
+            "Barrierd"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Urso-negro-asiático",
+        "descricao": "Urso preto com mancha clara em V no peito (Ursus thibetanus), nativo da Ásia.",
+        "variantes": [
+          "Urso-da-lua",
+          "Urso-de-colar",
+          "Ursus thibetanus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tardigrado",
+          "nome": "Tardígrado",
+          "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas.",
+          "variantes": [
+            "Tardigrada",
+            "water bear",
+            "Urso-d'água"
+          ]
+        },
+        {
+          "id": "urso_de_ouro",
+          "nome": "Urso de Ouro",
+          "descricao": "Prêmio máximo do Festival Internacional de Cinema de Berlim.",
+          "variantes": [
+            "Golden Bear",
+            "Goldener Bär"
+          ]
+        },
+        {
+          "id": "urso_polar",
+          "nome": "Urso-polar",
+          "descricao": "Urso das regiões árticas, espécie Ursus maritimus.",
+          "variantes": [
+            "Ursus maritimus",
+            "Polar bear",
+            "Urso-branco"
+          ]
+        },
+        {
+          "id": "urso_negro_americano",
+          "nome": "Urso-negro-americano",
+          "descricao": "Urso de médio porte da América do Norte, Ursus americanus, de pelagem geralmente escura.",
+          "variantes": [
+            "Urso-negro",
+            "Baribal",
+            "Ursus americanus"
+          ]
+        },
+        {
+          "id": "europa_lua",
+          "nome": "Europa (lua)",
+          "descricao": "Lua gelada de Júpiter, a menor das quatro luas galileanas, com superfície lisa e fissurada.",
+          "variantes": [
+            "Europa",
+            "Júpiter II"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Macaco-de-gibraltar",
+        "descricao": "Macaco do Norte da África (Macaca sylvanus), com população introduzida em Gibraltar.",
+        "variantes": [
+          "Macaco-de-barbária",
+          "Magote",
+          "Macaca sylvanus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fagote",
+          "nome": "Fagote",
+          "descricao": "Instrumento de sopro da família das madeiras, de palheta dupla, com tubo longo dobrado e registro grave.",
+          "variantes": [
+            "Fagot",
+            "Bassoon"
+          ]
+        },
+        {
+          "id": "chimarrao",
+          "nome": "Chimarrão",
+          "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+          "variantes": [
+            "Mate",
+            "Mate amargo"
+          ]
+        },
+        {
+          "id": "erva_mate",
+          "nome": "Erva-mate",
+          "descricao": "Árvore sul-americana Ilex paraguariensis, cujas folhas são usadas no chimarrão e no tereré",
+          "variantes": [
+            "Ilex paraguariensis",
+            "mate",
+            "yerba mate"
+          ]
+        },
+        {
+          "id": "rochedo_de_gibraltar",
+          "nome": "Rochedo de Gibraltar",
+          "descricao": "Montanha monolítica de calcário de 426 metros, na entrada do Mediterrâneo, no território britânico de Gibraltar.",
+          "variantes": [
+            "Penhasco de Gibraltar",
+            "Peñón de Gibraltar",
+            "Rock of Gibraltar"
+          ]
+        },
+        {
+          "id": "gibraltar_1",
+          "nome": "Gibraltar 1",
+          "descricao": "Crânio de Neandertal achado em 1848 na pedreira Forbes, em Gibraltar, antes do fóssil do vale de Neander.",
+          "variantes": [
+            "Crânio de Gibraltar",
+            "Crânio da pedreira Forbes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Macaco-de-brazza",
+        "descricao": "Macaco africano (Cercopithecus neglectus) com barba branca e faixa alaranjada na testa.",
+        "variantes": [
+          "De Brazza's monkey",
+          "Cercopithecus neglectus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mao_de_buda",
+          "nome": "Mão-de-buda",
+          "descricao": "Variedade de cidra (Citrus medica var. sarcodactylis) cujo fruto se divide em partes como dedos.",
+          "variantes": [
+            "Cidra-digitada",
+            "Buddha's hand",
+            "Citrus medica var. sarcodactylis"
+          ]
+        },
+        {
+          "id": "brasil_cancao_de_cazuza",
+          "nome": "Brasil (canção de Cazuza)",
+          "descricao": "Canção de Cazuza, George Israel e Nilo Romero, de 1988, conhecida pelo verso Brasil, mostra tua cara.",
+          "variantes": [
+            "Brasil, mostra tua cara"
+          ]
+        },
+        {
+          "id": "taxi",
+          "nome": "Táxi",
+          "descricao": "Automóvel de aluguel com motorista que leva passageiros e cobra pela corrida.",
+          "variantes": [
+            "Carro de praça"
+          ]
+        },
+        {
+          "id": "flor_de_maio",
+          "nome": "Flor-de-maio",
+          "descricao": "Cacto epífito do gênero Schlumbergera, nativo da Mata Atlântica do Sudeste brasileiro",
+          "variantes": [
+            "Schlumbergera",
+            "Cacto-de-natal",
+            "Christmas cactus"
+          ]
+        },
+        {
+          "id": "macaco_dourado_de_nariz_arrebitado",
+          "nome": "Macaco-dourado-de-nariz-arrebitado",
+          "descricao": "Macaco do Velho Mundo (Rhinopithecus roxellana) das florestas montanhosas do centro e sudoeste da China.",
+          "variantes": [
+            "Macaco-dourado",
+            "Rhinopithecus roxellana",
+            "Golden snub-nosed monkey"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Queixada",
+        "descricao": "Porco-do-mato sul-americano (Tayassu pecari) de queixo claro, que vive em grandes varas.",
+        "variantes": [
+          "Porco-do-mato",
+          "Tayassu pecari",
+          "Queixada-de-lábios-brancos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mandibula",
+          "nome": "Mandíbula",
+          "descricao": "Osso móvel da parte inferior do rosto, que sustenta os dentes de baixo.",
+          "variantes": [
+            "Maxilar inferior",
+            "Queixada"
+          ]
+        },
+        {
+          "id": "incendio_florestal",
+          "nome": "Incêndio florestal",
+          "descricao": "Fogo não planejado e descontrolado em vegetação combustível, como florestas e matas.",
+          "variantes": [
+            "Queimada",
+            "Incêndio de vegetação",
+            "Wildfire"
+          ]
+        },
+        {
+          "id": "pato_do_mato",
+          "nome": "Pato-do-mato",
+          "descricao": "Pato grande de carúnculas vermelhas na face, nativo das Américas e domesticado (Cairina moschata).",
+          "variantes": [
+            "Cairina moschata",
+            "Pato-almiscarado",
+            "Muscovy duck"
+          ]
+        },
+        {
+          "id": "porco",
+          "nome": "Porco",
+          "descricao": "Mamífero doméstico da família Suidae (Sus domesticus), criado principalmente pela carne.",
+          "variantes": [
+            "Porco doméstico",
+            "Suíno",
+            "Sus domesticus"
+          ]
+        },
+        {
+          "id": "ourico_do_mar",
+          "nome": "Ouriço-do-mar",
+          "descricao": "Equinodermo marinho de corpo globoso coberto de espinhos, da classe Echinoidea.",
+          "variantes": [
+            "Ouriço",
+            "Sea urchin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Urso-malaio",
+        "descricao": "Menor espécie de urso (Helarctos malayanus), com mancha clara no peito, das florestas do Sudeste Asiático.",
+        "variantes": [
+          "Urso-do-sol",
+          "Helarctos malayanus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "urso_beicudo",
+          "nome": "Urso-beiçudo",
+          "descricao": "Urso insetívoro Melursus ursinus, de pelagem negra e desgrenhada, nativo do subcontinente indiano.",
+          "variantes": [
+            "Urso-preguiça",
+            "Urso-labiado",
+            "Melursus ursinus"
+          ]
+        },
+        {
+          "id": "luz_solar",
+          "nome": "Luz solar",
+          "descricao": "Radiação emitida pelo Sol que chega à Terra.",
+          "variantes": [
+            "Luz do Sol",
+            "Sunlight"
+          ]
+        },
+        {
+          "id": "parelio",
+          "nome": "Parélio",
+          "descricao": "Fenômeno óptico em que pontos luminosos aparecem ao lado do Sol, causado por cristais de gelo.",
+          "variantes": [
+            "Sun dog",
+            "Falso sol",
+            "Cão-do-sol"
+          ]
+        },
+        {
+          "id": "urso_pardo",
+          "nome": "Urso-pardo",
+          "descricao": "Grande urso (Ursus arctos) de pelagem marrom, nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Urso-marrom",
+            "Grizzly",
+            "Ursus arctos"
+          ]
+        },
+        {
+          "id": "urso_de_oculos",
+          "nome": "Urso-de-óculos",
+          "descricao": "Único urso sul-americano (Tremarctos ornatus), com manchas claras ao redor dos olhos.",
+          "variantes": [
+            "Urso-andino",
+            "Tremarctos ornatus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Nilgó",
+        "descricao": "Maior antílope da Ásia (Boselaphus tragocamelus), comum no norte do subcontinente indiano.",
+        "variantes": [
+          "Nilgai",
+          "Boselaphus tragocamelus",
+          "Vaca-azul"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_nilo",
+          "nome": "Rio Nilo",
+          "descricao": "Grande rio do nordeste da África que atravessa o Sudão e o Egito até o mar Mediterrâneo.",
+          "variantes": [
+            "Nilo",
+            "Nile"
+          ]
+        },
+        {
+          "id": "tubarao_azul",
+          "nome": "Tubarão-azul",
+          "descricao": "Tubarão-azul (Prionace glauca), tubarão cestídeo de oceano aberto, de corpo esguio e peitorais longas.",
+          "variantes": [
+            "Cação-azul",
+            "Prionace glauca",
+            "Blue shark"
+          ]
+        },
+        {
+          "id": "nihilego",
+          "nome": "Nihilego",
+          "descricao": "Pokémon dos tipos Pedra e Venenoso, número 793 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "arara_azul_grande",
+          "nome": "Arara-azul-grande",
+          "descricao": "Maior arara e maior papagaio voador (Anodorhynchus hyacinthinus), de plumagem azul-cobalto com detalhes amarelos no rosto.",
+          "variantes": [
+            "Arara-azul",
+            "Hyacinth macaw",
+            "Anodorhynchus hyacinthinus"
+          ]
+        },
+        {
+          "id": "pavao",
+          "nome": "Pavão",
+          "descricao": "Pavão-azul, ave originária do subcontinente indiano, cujo macho tem longa cauda com ocelos.",
+          "variantes": [
+            "Pavão-azul",
+            "Pavão-indiano",
+            "Pavo cristatus"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Mico-leão-preto (L. chrysopygus) é espécie distinta do mico-leão-de-cara-preta (L. caissara); a variante listada na proposta é ambígua."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Sagui-imperador é um primata; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Muflão não consta entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Macaco-barrigudo é espécie diferente das candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Urso-negro-asiático é espécie distinta do urso-negro-americano."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Macaca sylvanus não consta entre as candidatas; o Rochedo de Gibraltar é um lugar."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Macaco-de-brazza não consta entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Queixada (porco-do-mato) é diferente do osso mandíbula, mesmo que 'queixada' apareça como variante dele."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Urso-malaio não consta entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nilgó é um antílope; nenhuma candidata corresponde."
+    }
+  ]
+}
