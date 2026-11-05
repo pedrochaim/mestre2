@@ -1,0 +1,63 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A avenida percorre Copacabana e também o Leme (os trechos dizem que liga os dois bairros), então 'em que bairro' admite duas respostas. Reescrita pergunta o outro bairro, que a avenida liga ao Leme.",
+      "reescrita": {
+        "pergunta": "Esta avenida à beira-mar começa no Leme. Que outro bairro do Rio de Janeiro ela atravessa até o fim?",
+        "resposta": "Copacabana",
+        "distratores": [
+          "Ipanema",
+          "Leblon",
+          "Botafogo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Pinturas em cavernas' é próximo demais da resposta (o trecho em inglês fala em 'paintings' na ilha), podendo ser defendido como correto. Distratores trocados por tipos de arte claramente distintos.",
+      "reescrita": {
+        "pergunta": "Esta ilha do litoral catarinense é famosa por abrigar que tipo de arte antiga?",
+        "resposta": "Inscrições rupestres",
+        "distratores": [
+          "Cerâmica marajoara",
+          "Esculturas em pedra-sabão",
+          "Arte plumária indígena"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o Vale do Pati está inteiro no Parque Nacional da Chapada Diamantina e que tem altos paredões. A pista não entrega a resposta sozinha e os distratores são parques baianos reais.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado afirma que a delimitação é 'em amarelo' e 'extensão original', detalhes que não estão confirmados em 'mostra' e podem ser falsos para este mapa. Reescrita usa apenas o que consta em 'mostra'.",
+      "reescrita": {
+        "pergunta": "Que bioma brasileiro aparece destacado neste mapa?",
+        "resposta": "Mata Atlântica",
+        "distratores": [
+          "Cerrado",
+          "Caatinga",
+          "Pampa"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam Argentina, Brasil e Paraguai na confluência dos rios Iguaçu e Paraná. A figura distingue este ponto de outras tríplices fronteiras, que aparecem como distratores críveis.",
+      "reescrita": null
+    }
+  ]
+}

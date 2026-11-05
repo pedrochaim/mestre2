@@ -1,0 +1,55 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta ilha do litoral catarinense é famosa por abrigar que tipo de arte antiga?",
+        "resposta": "Inscrições rupestres"
+      },
+      "existentes": [
+        {
+          "id": "q17350",
+          "pergunta": "Que ilha do litoral catarinense é esta?",
+          "resposta": "Ilha do Campeche"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que bioma brasileiro aparece destacado neste mapa?",
+        "resposta": "Mata Atlântica"
+      },
+      "existentes": [
+        {
+          "id": "q06267",
+          "pergunta": "Qual bioma brasileiro, hoje reduzido a fragmentos, abriga a maior parte da população do país?",
+          "resposta": "Mata Atlântica"
+        },
+        {
+          "id": "q08690",
+          "pergunta": "Que árvore nativa da Mata Atlântica, de madeira avermelhada usada para tingir tecidos, acabou dando nome ao nosso país?",
+          "resposta": "Pau-brasil"
+        },
+        {
+          "id": "q17997",
+          "pergunta": "Que bioma brasileiro é o contornado em amarelo nesta imagem de satélite?",
+          "resposta": "Mata Atlântica"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta existente pede o nome da ilha; a nova pergunta o tipo de arte (inscrições rupestres). Fatos diferentes, e saber um não leva ao outro."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas mostram uma imagem com o bioma destacado e pedem o bioma, com a resposta Mata Atlântica (q17997).",
+      "id_existente": "q17997"
+    }
+  ]
+}

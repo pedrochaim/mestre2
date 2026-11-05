@@ -1,0 +1,157 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista noturna da orla de Copacabana com o calçadão de ondas, reconhecível e sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que bairro do Rio de Janeiro corre esta avenida à beira-mar?",
+      "resposta": "Copacabana",
+      "distratores": [
+        "Ipanema",
+        "Leblon",
+        "Botafogo"
+      ],
+      "ancora": {
+        "nome": "Avenida Atlântica",
+        "descricao": "Avenida beira-mar de cerca de 4 km no Rio de Janeiro, ao longo dos bairros de Copacabana e Leme.",
+        "variantes": [
+          "Av. Atlântica"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ilha vista da praia, sem texto; reconhecimento difícil, mas a pergunta é de múltipla escolha e sobre conhecimento documentado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta ilha do litoral catarinense é famosa por abrigar que tipo de arte antiga?",
+      "resposta": "Inscrições rupestres",
+      "distratores": [
+        "Pinturas em cavernas",
+        "Cerâmica marajoara",
+        "Esculturas em pedra-sabão"
+      ],
+      "ancora": {
+        "nome": "Ilha do Campeche",
+        "descricao": "Ilha de Florianópolis, em Santa Catarina, com sítio arqueológico de inscrições rupestres.",
+        "variantes": [
+          "Campeche Island"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Montagem de cinco fotos com o nome Pomerode escrito em placa e letreiro."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A escadaria mostra o texto 'Escadaria Selarón Rio de Janeiro', que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Árvore de mangue numa praia: não permite reconhecer a ilha."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Pátio interno de um forte caiado, sem elemento que o torne reconhecível; resposta não única."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Vista urbana genérica de prédios; a praça não é claramente reconhecível e há assinatura do fotógrafo."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vale encaixado de paredões e mata, típico da Chapada Diamantina; sem texto. Pergunta pelo parque, que serve para qualquer vale da região.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que parque nacional baiano abriga este vale de paredões rochosos?",
+      "resposta": "Chapada Diamantina",
+      "distratores": [
+        "Monte Pascoal",
+        "Abrolhos",
+        "Descobrimento"
+      ],
+      "ancora": {
+        "nome": "Parque Nacional da Chapada Diamantina",
+        "descricao": "Parque nacional no centro da Bahia que abriga vales, serras e cachoeiras, como o Vale do Pati.",
+        "variantes": [
+          "Chapada Diamantina",
+          "PARNA Chapada Diamantina"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem de satélite da América do Sul com o contorno amarelo da extensão original do bioma, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que bioma brasileiro tem a extensão original delimitada em amarelo neste mapa?",
+      "resposta": "Mata Atlântica",
+      "distratores": [
+        "Cerrado",
+        "Caatinga",
+        "Pampa"
+      ],
+      "ancora": {
+        "nome": "Mata Atlântica",
+        "descricao": "Bioma de floresta úmida que se estende pela costa leste e sul do Brasil.",
+        "variantes": [
+          "Atlantic Forest",
+          "Floresta Atlântica"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Confluência de dois rios de cores diferentes, reconhecível como a Tríplice Fronteira; sem texto relevante.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que três países se encontram neste ponto, onde dois rios se juntam?",
+      "resposta": "Brasil, Argentina e Paraguai",
+      "distratores": [
+        "Brasil, Uruguai e Argentina",
+        "Brasil, Paraguai e Bolívia",
+        "Argentina, Paraguai e Bolívia"
+      ],
+      "ancora": {
+        "nome": "Tríplice Fronteira",
+        "descricao": "Ponto de encontro de Brasil, Argentina e Paraguai na confluência dos rios Iguaçu e Paraná.",
+        "variantes": [
+          "Marco das Três Fronteiras",
+          "Tríplice Fronteira do Iguaçu"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Cânion com rio e mata genéricos, sem traço que permita reconhecê-lo."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Vista aérea de uma cidade litorânea genérica, sem monumento reconhecível."
+    }
+  ]
+}

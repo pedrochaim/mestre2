@@ -368704,5 +368704,104 @@
       "licenca": "CC BY 2.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q18748",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "avenida_atlantica",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Esta avenida à beira-mar começa no Leme. Que outro bairro do Rio de Janeiro ela atravessa até o fim?",
+    "resposta": "Copacabana",
+    "distratores": [
+      "Ipanema",
+      "Leblon",
+      "Botafogo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Avenida_Atl%C3%A2ntica",
+      "https://pt.wikipedia.org/wiki/Avenida_Atl%C3%A2ntica"
+    ],
+    "imagem": {
+      "arquivo": "q18748.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Copacabana_Rooftop_View.jpg",
+      "autor": "Porto Bay Hotels &amp; Resorts",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q18749",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "ilha_do_campeche",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Esta ilha do litoral catarinense é famosa por abrigar que tipo de arte antiga?",
+    "resposta": "Inscrições rupestres",
+    "distratores": [
+      "Cerâmica marajoara",
+      "Esculturas em pedra-sabão",
+      "Arte plumária indígena"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ilha_do_Campeche",
+      "https://en.wikipedia.org/wiki/Campeche_Island"
+    ],
+    "imagem": {
+      "arquivo": "q18749.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Florianopolis_Campeche_Ilha.JPG",
+      "autor": "Lionel Baur",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q18750",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "parque_nacional_da_chapada_diamantina",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que parque nacional baiano abriga este vale de paredões rochosos?",
+    "resposta": "Chapada Diamantina",
+    "distratores": [
+      "Monte Pascoal",
+      "Abrolhos",
+      "Descobrimento"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Vale_do_Pati"
+    ],
+    "imagem": {
+      "arquivo": "q18750.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Vale_do_Pati_-_Chapada_Diamantina.JPG",
+      "autor": "Jardelsliumba",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q18751",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "triplice_fronteira",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Que três países se encontram neste ponto, onde dois rios se juntam?",
+    "resposta": "Brasil, Argentina e Paraguai",
+    "distratores": [
+      "Brasil, Uruguai e Argentina",
+      "Brasil, Paraguai e Bolívia",
+      "Argentina, Paraguai e Bolívia"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tr%C3%ADplice_Fronteira_do_Igua%C3%A7u",
+      "https://en.wikipedia.org/wiki/Triple_Frontier"
+    ],
+    "imagem": {
+      "arquivo": "q18751.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Rio_Parana_Rio_Iguazu.jpg",
+      "autor": "Abuelodelanada",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]
