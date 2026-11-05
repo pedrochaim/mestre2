@@ -1,0 +1,47 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento. Os trechos confirmam que o Huangpu é um rio chinês, em Xangai. Os distratores são rios chineses críveis, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de nível 1 sem pista que entregue a resposta. É uma cachoeira brasileira (Canela, RS). Os distratores são cachoeiras brasileiras críveis e curtas.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado só situa a ilha na lagoa de Veneza e não entrega a resposta. Os distratores são outras ilhas da mesma lagoa e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Lindisfarne é uma ilha de maré com um castelo no alto, então o distrator também descreve a pista \"castelo\". A pista \"castelo no alto\" também é desnecessária. Troquei a pista por \"inglesa\", que ajuda sem entregar. Isso também deixa Mont-Saint-Michel, que fica na França, fora dos distratores.",
+      "reescrita": {
+        "pergunta": "Que ilha de maré inglesa é esta?",
+        "resposta": "St Michael's Mount",
+        "distratores": [
+          "Lindisfarne",
+          "Burgh Island",
+          "Hilbre Island"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A ilha fica na Upper New York Bay, como dizem os trechos. O enunciado não nomeia a ilha nem a estátua. Os distratores são ilhas de Nova York e nenhum é correto.",
+      "reescrita": null
+    }
+  ]
+}

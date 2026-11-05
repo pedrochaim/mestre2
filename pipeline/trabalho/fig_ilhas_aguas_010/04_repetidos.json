@@ -1,0 +1,31 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que cachoeira brasileira é esta?",
+        "resposta": "Cascata do Caracol"
+      },
+      "existentes": [
+        {
+          "id": "q09635",
+          "pergunta": "Com cerca de cento e trinta metros de queda, a Cascata do Caracol é a grande atração natural de qual cidade da serra gaúcha?",
+          "resposta": "Canela"
+        },
+        {
+          "id": "q18002",
+          "pergunta": "Que cachoeira brasileira é esta?",
+          "resposta": "Cascata do Caracol"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q18002",
+      "motivo": "Pergunta idêntica (identificar a cachoeira na imagem) com a mesma resposta, Cascata do Caracol."
+    }
+  ]
+}

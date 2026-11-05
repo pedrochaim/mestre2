@@ -1,0 +1,160 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Planície de sal com polígonos, sem montanhas ou elementos distintivos; poderia ser outro salar (Atacama, Vale da Morte). Resposta não única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Curva do rio com a margem do Bund diante de Pudong, vista da Torre Pérola; razoavelmente reconhecível. Letreiros na imagem não entregam o rio.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que rio chinês é este?",
+      "resposta": "Rio Huangpu",
+      "distratores": [
+        "Rio Amarelo",
+        "Rio das Pérolas",
+        "Rio Yangtzé"
+      ],
+      "ancora": {
+        "nome": "Rio Huangpu",
+        "descricao": "Rio de 113 km que atravessa Xangai e deságua no estuário do Yangtzé, separando Puxi e Pudong.",
+        "variantes": [
+          "Huangpu",
+          "Whangpoo",
+          "Rio Huangpu de Xangai"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Mapa com legendas que entregam a resposta (Sakhalin, mares, Kuriles)."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cachoeira em penhasco basáltico cercada de araucárias, bem legível e reconhecível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que cachoeira brasileira é esta?",
+      "resposta": "Cascata do Caracol",
+      "distratores": [
+        "Cachoeira da Fumaça",
+        "Salto Ventoso",
+        "Cachoeira do Tabuleiro"
+      ],
+      "ancora": {
+        "nome": "Cascata do Caracol",
+        "descricao": "Cachoeira de 130 metros no Parque Estadual do Caracol, em Canela, Rio Grande do Sul.",
+        "variantes": [
+          "Cachoeira do Caracol",
+          "Cataratas do Caracol",
+          "Caracol Falls"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pessoas em primeiro plano num mirante e paisagem cárstica parecida com outras (Palau, Phang Nga); resposta pouco única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto de longe e de lado, em que a ilha não tem forma de coração; não reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista aérea com casas coloridas e torre inclinada, característica de Burano; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ilha da lagoa de Veneza é esta?",
+      "resposta": "Burano",
+      "distratores": [
+        "Murano",
+        "Torcello",
+        "Lido"
+      ],
+      "ancora": {
+        "nome": "Burano",
+        "descricao": "Ilha da Lagoa de Veneza, na Itália, conhecida pelas casas coloridas e pelas rendas.",
+        "variantes": [
+          "Ilha de Burano"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto antiga colorida da ilha de maré com castelo e calçada de acesso; forma inconfundível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ilha de maré, com um castelo no alto, é esta?",
+      "resposta": "St Michael's Mount",
+      "distratores": [
+        "Mont-Saint-Michel",
+        "Lindisfarne",
+        "Burgh Island"
+      ],
+      "ancora": {
+        "nome": "St Michael's Mount",
+        "descricao": "Ilha de maré na baía de Mount, na Cornualha, Inglaterra, ligada a Marazion por uma calçada.",
+        "variantes": [
+          "Monte de São Miguel",
+          "Saint Michael's Mount"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Mata e praia genéricas, sem elementos que permitam reconhecer a ilha de Chiloé."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista aérea da ilha com a estátua; assinatura do fotógrafo minúscula, sem entregar a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ilha da baía de Nova York é esta?",
+      "resposta": "Ilha da Liberdade",
+      "distratores": [
+        "Ilha Ellis",
+        "Ilha Governors",
+        "Ilha Roosevelt"
+      ],
+      "ancora": {
+        "nome": "Ilha da Liberdade",
+        "descricao": "Ilha da Upper New York Bay onde fica a Estátua da Liberdade, antes chamada Bedloe's Island.",
+        "variantes": [
+          "Liberty Island",
+          "Ilha de Bedloe"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Rio num vale florestal sem marcos distintivos; não permite reconhecer o Elba."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Colunas isoladas que podem ser de qualquer sítio grego; a ilha não é reconhecível."
+    }
+  ]
+}
