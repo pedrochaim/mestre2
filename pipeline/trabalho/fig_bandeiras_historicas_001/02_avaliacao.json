@@ -1,0 +1,198 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Estandarte real com flores-de-lis e anjos, reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país era esta bandeira real, usada na época dos reis Bourbon?",
+      "resposta": "França",
+      "distratores": [
+        "Espanha",
+        "Áustria",
+        "Países Baixos"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Reino da França",
+        "descricao": "Monarquia francesa medieval e moderna, que existiu até 1848, simbolizada pelas flores-de-lis.",
+        "variantes": [
+          "Reino de França",
+          "Antigo Regime francês"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Brasão real Bourbon sobre fundo branco, sem texto; identificável por aficionados, e a pergunta de época funciona em múltipla escolha.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década foi extinto o reino desta bandeira?",
+      "resposta": "Década de 1860",
+      "distratores": [
+        "Década de 1830",
+        "Década de 1880",
+        "Década de 1900"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Reino das Duas Sicílias",
+        "descricao": "Reino do sul da Itália (1816–1861) governado pela Casa de Bourbon-Duas Sicílias, anexado na unificação italiana.",
+        "variantes": [
+          "Duas Sicílias",
+          "Reino de Nápoles e Sicília"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bandeira azul e branca com brasão e coroa, sem texto; reconhecível como portuguesa antiga.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em 1815, este reino passou a formar um reino unido com qual de suas colônias?",
+      "resposta": "Brasil",
+      "distratores": [
+        "Angola",
+        "Moçambique",
+        "Cabo Verde"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Reino de Portugal",
+        "descricao": "Monarquia portuguesa, existente do século doze ao início do século vinte, antecessora da República Portuguesa.",
+        "variantes": [
+          "Reino de Portugal e Algarves",
+          "Portugal monárquico"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O brasão traz escrito ROMÂNIA e REPUBLICA SOCIALISTĂ, o que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Tricolor com o xadrez croata e a letra U do movimento Ustaše, sem nome escrito; identificável.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década foi proclamado o Estado desta bandeira?",
+      "resposta": "Década de 1940",
+      "distratores": [
+        "Década de 1910",
+        "Década de 1920",
+        "Década de 1960"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Estado Independente da Croácia",
+        "descricao": "Estado fantoche fascista criado em 1941 na Iugoslávia ocupada, governado pelos Ustaše até 1945.",
+        "variantes": [
+          "NDH",
+          "Nezavisna Država Hrvatska",
+          "Croácia Ustaše"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bandeira amarela com três listras vermelhas, marcante, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que cidade era a capital do Estado desta bandeira?",
+      "resposta": "Saigon",
+      "distratores": [
+        "Hanói",
+        "Hué",
+        "Bangcoc"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Vietnã do Sul",
+        "descricao": "República do Vietnã, país do Sudeste Asiático aliado do Ocidente que existiu de 1955 a 1975.",
+        "variantes": [
+          "República do Vietnã",
+          "Vietname do Sul"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A Union Flag original foi usada também antes de 1707 e é muito parecida com a atual; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Bandeira de duas cores em diagonal, genérica e facilmente confundida com a bandeira atual do Acre ou com outras; não é reconhecível com resposta única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bandeira farroupilha de faixas diagonais verde, vermelha e amarela, sem texto; marcante.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que revolta deu origem ao Estado desta bandeira?",
+      "resposta": "Revolução Farroupilha",
+      "distratores": [
+        "Cabanagem",
+        "Balaiada",
+        "Sabinada"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "República Rio-Grandense",
+        "descricao": "Estado separatista proclamado em 1836 no sul do Império do Brasil durante a Revolução Farroupilha.",
+        "variantes": [
+          "República de Piratini",
+          "República Farroupilha"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A imagem é a bandeira da Palestina (preto, branco e verde com triângulo vermelho), e não a do Reino do Hejaz."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem é a bandeira de Artigas, uruguaia, e não uma bandeira da Província Cisplatina."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bicolor preto e amarelo dos Habsburgo, sem texto; a pergunta vale para qualquer uso da bandeira dessa dinastia.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que dinastia governava o Estado desta bandeira?",
+      "resposta": "Habsburgo",
+      "distratores": [
+        "Romanov",
+        "Hohenzollern",
+        "Bourbon"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Império Austríaco",
+        "descricao": "Império multinacional da Europa Central governado pelos Habsburgo entre 1804 e 1867.",
+        "variantes": [
+          "Império da Áustria",
+          "Áustria imperial"
+        ]
+      }
+    }
+  ]
+}

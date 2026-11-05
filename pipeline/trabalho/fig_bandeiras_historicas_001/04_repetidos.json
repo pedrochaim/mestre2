@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No século dezenove, este reino era governado por qual dinastia?",
+        "resposta": "Bragança"
+      },
+      "existentes": [
+        {
+          "id": "q13195",
+          "pergunta": "No século doze, quem fundou o Reino de Portugal e se tornou o seu primeiro rei?",
+          "resposta": "Dom Afonso Henriques"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta é sobre o fundador do reino no século XII; a outra, sobre a dinastia reinante no século XIX. São fatos diferentes."
+    }
+  ]
+}
