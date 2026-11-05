@@ -1,0 +1,444 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Templo de Luxor",
+        "descricao": "Grande complexo de templo do Egito Antigo na margem leste do Nilo, na cidade de Luxor, construído por volta de 1400 a.C.",
+        "variantes": [
+          "Luxor Temple"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_luxor",
+          "nome": "Templo de Luxor",
+          "descricao": "Grande complexo de templo egípcio antigo na margem leste do Nilo, na antiga Tebas.",
+          "variantes": [
+            "Luxor Temple"
+          ]
+        },
+        {
+          "id": "templo_de_lotus",
+          "nome": "Templo de Lótus",
+          "descricao": "Casa de adoração bahá'í em Nova Délhi, na Índia, em forma de flor de lótus com 27 pétalas de mármore.",
+          "variantes": [
+            "Lotus Temple",
+            "Casa de Adoração Bahá'í"
+          ]
+        },
+        {
+          "id": "wat_arun",
+          "nome": "Wat Arun",
+          "descricao": "Templo budista em Bangkok, na Tailândia, na margem oeste do rio Chao Phraya, conhecido pelo prang central.",
+          "variantes": [
+            "Templo do Amanhecer",
+            "Templo da Aurora",
+            "Wat Arun Ratchawararam"
+          ]
+        },
+        {
+          "id": "baalbek",
+          "nome": "Baalbek",
+          "descricao": "Cidade e sítio arqueológico romano no Vale do Beca, no Líbano, aqui o Templo de Baco.",
+          "variantes": [
+            "Heliópolis",
+            "Templo de Baco"
+          ]
+        },
+        {
+          "id": "templo_de_edfu",
+          "nome": "Templo de Edfu",
+          "descricao": "Templo dedicado ao deus Hórus na cidade de Edfu, no sul do Egito, um dos mais bem conservados do país",
+          "variantes": [
+            "Templo de Hórus em Edfu",
+            "Temple of Edfu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Dogū",
+        "descricao": "Estatuetas humanoides de argila do período Jōmon da pré-história do Japão.",
+        "variantes": [
+          "Dogū Jōmon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dogu",
+          "nome": "Dogū",
+          "descricao": "Estatueta humanoide de argila do período Jōmon do Japão pré-histórico.",
+          "variantes": [
+            "Dogū Jōmon"
+          ]
+        },
+        {
+          "id": "cao_domestico",
+          "nome": "Cão doméstico",
+          "descricao": "Canídeo domesticado pelo ser humano, classificado como Canis familiaris ou Canis lupus familiaris.",
+          "variantes": [
+            "Cachorro",
+            "Canis lupus familiaris",
+            "Dog"
+          ]
+        },
+        {
+          "id": "divisao_naval_em_operacoes_de_guerra",
+          "nome": "Divisão Naval em Operações de Guerra",
+          "descricao": "Esquadra da Marinha do Brasil enviada em 1918 para patrulhar o Atlântico ao lado dos Aliados na Primeira Guerra Mundial.",
+          "variantes": [
+            "DNOG"
+          ]
+        },
+        {
+          "id": "ogum",
+          "nome": "Ogum",
+          "descricao": "Orixá guerreiro, ligado ao ferro, cultuado no candomblé e na umbanda",
+          "variantes": [
+            "Ogun"
+          ]
+        },
+        {
+          "id": "bogu",
+          "nome": "Bogu",
+          "descricao": "Armadura de treino do kendo, formada por máscara, protetor de tronco, cintura e luvas.",
+          "variantes": [
+            "Bogu (armadura de kendo)",
+            "Kendogu",
+            "Armadura de kendo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mandril",
+        "descricao": "Grande macaco do Velho Mundo da África centro-oeste, de face vermelha e azul (Mandrillus sphinx).",
+        "variantes": [
+          "Mandrill",
+          "Mandrillus sphinx"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marill",
+          "nome": "Marill",
+          "descricao": "Pokémon rato aquático do tipo Água/Fada da segunda geração, número 183 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "madri",
+          "nome": "Madri",
+          "descricao": "Capital e maior cidade da Espanha, no centro da Península Ibérica.",
+          "variantes": [
+            "Madrid"
+          ]
+        },
+        {
+          "id": "mandarim",
+          "nome": "Mandarim",
+          "descricao": "Grupo de dialetos chineses do norte e do sudoeste da China, base do chinês padrão.",
+          "variantes": [
+            "Chinês mandarim"
+          ]
+        },
+        {
+          "id": "mandarim_2",
+          "nome": "Mandarim",
+          "descricao": "Pequeno pássaro estrildídeo australiano de bico laranja, macho com bochechas castanhas e peito listrado, Taeniopygia guttata.",
+          "variantes": [
+            "Diamante-mandarim",
+            "Zebra finch",
+            "Taeniopygia guttata"
+          ]
+        },
+        {
+          "id": "mantilha",
+          "nome": "Mantilha",
+          "descricao": "Véu ou xale de renda usado sobre a cabeça e os ombros, tradicional na Espanha.",
+          "variantes": [
+            "Mantilla"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Colossos de Mêmnon",
+        "descricao": "Duas estátuas colossais do faraó Amenhotep III diante do seu templo mortuário, em Tebas, no Egito.",
+        "variantes": [
+          "Colossi of Memnon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "colossos_de_memnon",
+          "nome": "Colossos de Mêmnon",
+          "descricao": "Par de estátuas colossais de Amenhotep III diante do seu templo funerário, em Luxor, no Egito.",
+          "variantes": [
+            "Colossi of Memnon"
+          ]
+        },
+        {
+          "id": "colosso_de_rodes",
+          "nome": "Colosso de Rodes",
+          "descricao": "Estátua gigante de bronze erguida na ilha de Rodes no século três a.C., uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Colossus of Rhodes"
+          ]
+        },
+        {
+          "id": "tesouro_de_atreu",
+          "nome": "Tesouro de Atreu",
+          "descricao": "Grande tumba tholos micênica, de cerca de 1300 a 1250 a.C., em Micenas, na Grécia.",
+          "variantes": [
+            "Túmulo de Agamêmnon",
+            "Treasury of Atreus",
+            "Túmulo de Agamenon"
+          ]
+        },
+        {
+          "id": "compasso",
+          "nome": "Compasso",
+          "descricao": "Instrumento de desenho técnico com duas hastes, usado para traçar circunferências e arcos.",
+          "variantes": [
+            "Compasso de desenho",
+            "Compasso de ponta seca"
+          ]
+        },
+        {
+          "id": "mascara_de_agamenon",
+          "nome": "Máscara de Agamenon",
+          "descricao": "Máscara funerária de ouro encontrada em Micenas em 1876.",
+          "variantes": [
+            "Mask of Agamemnon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Pensador de Cernavodă",
+        "descricao": "Estatueta neolítica de terracota da cultura Hamangia, na Romênia, de figura sentada em posição pensativa.",
+        "variantes": [
+          "Pensador de Hamangia",
+          "Thinker of Hamangia",
+          "Gânditorul de la Hamangia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alagoas",
+          "nome": "Alagoas",
+          "descricao": "Estado brasileiro do litoral da Região Nordeste, com capital em Maceió.",
+          "variantes": [
+            "Estado de Alagoas"
+          ]
+        },
+        {
+          "id": "vendedor_de_magikarp",
+          "nome": "Vendedor de Magikarp",
+          "descricao": "Personagem dos jogos Pokémon Red, Blue e Yellow que, num Centro Pokémon perto do Mt. Moon, vende um Magikarp ao jogador como se fosse um grande negócio.",
+          "variantes": [
+            "Magikarp salesman"
+          ]
+        },
+        {
+          "id": "gran_teatro_de_la_habana",
+          "nome": "Gran Teatro de La Habana",
+          "descricao": "Teatro e sala de espetáculos de Havana, em Cuba, sede do Balé Nacional de Cuba, inaugurado em 1914.",
+          "variantes": [
+            "Grande Teatro de Havana",
+            "Gran Teatro de La Habana Alicia Alonso"
+          ]
+        },
+        {
+          "id": "amapa",
+          "nome": "Amapá",
+          "descricao": "Estado brasileiro da Região Norte, na fronteira com a Guiana Francesa, com capital em Macapá.",
+          "variantes": [
+            "Estado do Amapá"
+          ]
+        },
+        {
+          "id": "goias",
+          "nome": "Goiás",
+          "descricao": "Estado brasileiro da região Centro-Oeste que cerca o Distrito Federal, com capital em Goiânia.",
+          "variantes": [
+            "Estado de Goiás"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Társio",
+        "descricao": "Pequeno primata noturno do Sudeste Asiático, de olhos enormes, da família Tarsiidae.",
+        "variantes": [
+          "Tarsier",
+          "Tarsiidae"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tarsio",
+          "nome": "Társio",
+          "descricao": "Pequeno primata noturno do Sudeste Asiático, de olhos enormes, família Tarsiidae.",
+          "variantes": [
+            "Tarsier"
+          ]
+        },
+        {
+          "id": "leao_marinho",
+          "nome": "Leão-marinho",
+          "descricao": "Mamífero marinho da família Otariidae, com orelhas externas, como o leão-marinho-da-califórnia.",
+          "variantes": [
+            "Leão-marinho-da-Califórnia",
+            "Otariidae"
+          ]
+        },
+        {
+          "id": "mosca_ladra",
+          "nome": "Mosca-ladra",
+          "descricao": "Mosca predadora da família Asilidae, robusta e cerdosa, que caça outros insetos em emboscada.",
+          "variantes": [
+            "Asilídeos",
+            "Mosca-assassina",
+            "Asilidae"
+          ]
+        },
+        {
+          "id": "trio_eletrico",
+          "nome": "Trio elétrico",
+          "descricao": "Caminhão com equipamento de som e músicos que arrasta foliões no carnaval, criado em Salvador.",
+          "variantes": [
+            "Fobica",
+            "Trio eléctrico",
+            "Trio"
+          ]
+        },
+        {
+          "id": "taro",
+          "nome": "Tarô",
+          "descricao": "Baralho com arcanos ilustrados surgido na Itália no século quinze, hoje associado à adivinhação.",
+          "variantes": [
+            "Tarot",
+            "Tarocchi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Templo de Hatshepsut",
+        "descricao": "Templo mortuário em terraços da faraó Hatshepsut, em Deir el-Bahari, em frente a Luxor, no Egito.",
+        "variantes": [
+          "Templo mortuário de Hatshepsut",
+          "Djeser-Djeseru"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_hatshepsut",
+          "nome": "Templo de Hatshepsut",
+          "descricao": "Templo mortuário em três terraços da faraó Hatshepsut, em Deir el-Bahari, perto de Luxor.",
+          "variantes": [
+            "Templo mortuário de Hatshepsut",
+            "Deir el-Bahari",
+            "Djeser-Djeseru",
+            "Mortuary Temple of Hatshepsut"
+          ]
+        },
+        {
+          "id": "templo_de_philae",
+          "nome": "Templo de Philae",
+          "descricao": "Complexo de templos egípcios dedicado à deusa Ísis, hoje na ilha de Agilkia, perto de Assuã, no Egito.",
+          "variantes": [
+            "Templo de Filas",
+            "Templo de Ísis em Filas"
+          ]
+        },
+        {
+          "id": "templo_de_apolo_epicuro",
+          "nome": "Templo de Apolo Epicuro",
+          "descricao": "Templo dórico do século cinco antes de Cristo em Bassas, na Arcádia, no Peloponeso, Grécia.",
+          "variantes": [
+            "Templo de Apolo em Bassas",
+            "Templo de Bassae",
+            "Temple of Apollo Epicurius"
+          ]
+        },
+        {
+          "id": "templo_de_edfu",
+          "nome": "Templo de Edfu",
+          "descricao": "Templo dedicado ao deus Hórus na cidade de Edfu, no sul do Egito, um dos mais bem conservados do país",
+          "variantes": [
+            "Templo de Hórus em Edfu",
+            "Temple of Edfu"
+          ]
+        },
+        {
+          "id": "templo_de_artemis",
+          "nome": "Templo de Ártemis",
+          "descricao": "Grande templo grego dedicado à deusa Ártemis na antiga cidade de Éfeso, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Artemísion",
+            "Templo de Diana em Éfeso",
+            "Templo de Ártemis em Éfeso",
+            "Temple of Artemis"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "templo_de_luxor",
+      "motivo": "Mesmo templo egípcio em Luxor, na margem leste do Nilo."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "dogu",
+      "motivo": "Mesmas estatuetas Jōmon, mesmo nome e variantes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Mandril (primata) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "colossos_de_memnon",
+      "motivo": "Mesmo par de estátuas de Amenhotep III em Tebas/Luxor."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Estatueta neolítica romena não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "tarsio",
+      "motivo": "Mesmo primata, família Tarsiidae."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "templo_de_hatshepsut",
+      "motivo": "Mesmo templo mortuário em Deir el-Bahari."
+    }
+  ]
+}

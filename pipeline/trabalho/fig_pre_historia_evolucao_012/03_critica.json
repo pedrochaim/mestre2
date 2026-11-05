@@ -1,0 +1,69 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento. Distratores são templos egípcios críveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que os dogū são exclusivamente do período Jōmon. A figura é necessária, porque as estatuetas de argila haniwa do Kofun também existem. O enunciado não nomeia a entidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. O mandril é primata africano do gênero Mandrillus e não é babuíno. Os distratores são primatas críveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que as estátuas existem desde 1350 a.C., o que dá o século quatorze a.C. O enunciado não vaza nada e os distratores são séculos plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A descrição 'sentada com as mãos no rosto' praticamente entrega o nome 'Pensador', então a figura vira enfeite. Troquei a pista por época, material e país (Romênia, neolítico, terracota), que ajudam sem entregar. Os trechos sustentam o neolítico e a Romênia.",
+      "reescrita": {
+        "pergunta": "Que estatueta neolítica de terracota, encontrada num cemitério da Romênia, é esta?",
+        "resposta": "Pensador de Cernavodă",
+        "distratores": [
+          "Vênus de Willendorf",
+          "Dama de Elche",
+          "Vênus de Lespugue"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que os társios vivem no Sudeste Asiático insular. A imagem distingue o társio do lóris. Os distratores são primatas de outras regiões ou outros grupos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Templo de terraços junto aos penhascos' na margem oeste já permite responder Deir el-Bahari sem ver a figura. Troquei isso pela localização em frente a Luxor, que ajuda sem entregar. Os trechos confirmam a margem oeste, a posição oposta a Luxor e Deir el-Bahari.",
+      "reescrita": {
+        "pergunta": "Este templo mortuário fica na margem oeste do Nilo, em frente a Luxor. Em que local ele está?",
+        "resposta": "Deir el-Bahari",
+        "distratores": [
+          "Vale dos Reis",
+          "Vale das Rainhas",
+          "Medinet Habu"
+        ]
+      }
+    }
+  ]
+}

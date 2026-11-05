@@ -1,0 +1,116 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que templo egípcio, às margens do Nilo, é este?",
+        "resposta": "Templo de Luxor"
+      },
+      "existentes": [
+        {
+          "id": "q06287",
+          "pergunta": "Em que cidade do Egito fica este templo?",
+          "resposta": "Luxor"
+        },
+        {
+          "id": "q13657",
+          "pergunta": "Dentro do Templo de Luxor, erguido para os deuses de Tebas, funciona há séculos, sobre as ruínas antigas, um templo de outra religião. Qual?",
+          "resposta": "Uma mesquita"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que período da pré-história japonesa foram feitas estatuetas de argila como esta?",
+        "resposta": "Jōmon"
+      },
+      "existentes": [
+        {
+          "id": "q14354",
+          "pergunta": "Esta estatueta de argila do Japão pré-histórico pertence a que período?",
+          "resposta": "Jōmon"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que século antes de Cristo foram erguidas estas duas estátuas gigantes de um faraó?",
+        "resposta": "Século quatorze a.C."
+      },
+      "existentes": [
+        {
+          "id": "q03880",
+          "pergunta": "Que faraó é representado nestas duas estátuas gigantes?",
+          "resposta": "Amenhotep III"
+        },
+        {
+          "id": "q06354",
+          "pergunta": "Depois de um terremoto, um dos Colossos de Mêmnon passou a emitir um som que atraía viajantes romanos. Em que momento do dia isso acontecia?",
+          "resposta": "Ao amanhecer"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que primata do Sudeste Asiático é este?",
+        "resposta": "Társio"
+      },
+      "existentes": [
+        {
+          "id": "q00374",
+          "pergunta": "Que animal é este?",
+          "resposta": "Társio"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Este templo mortuário fica na margem oeste do Nilo, em frente a Luxor. Em que local ele está?",
+        "resposta": "Deir el-Bahari"
+      },
+      "existentes": [
+        {
+          "id": "q01925",
+          "pergunta": "Que templo egípcio do Novo Reino, em três terraços, é este?",
+          "resposta": "Templo de Hatshepsut"
+        },
+        {
+          "id": "q06378",
+          "pergunta": "O templo em terraços de Hatshepsut, em Deir el-Bahari, é tradicionalmente atribuído a qual arquiteto e alto funcionário da rainha?",
+          "resposta": "Senenmut"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nova pede o nome do templo; a existente pede a cidade (Luxor), fato diferente, embora a resposta seja parecida."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o período Jōmon da estatueta de argila."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Século de construção é fato distinto do faraó representado ou do som ao amanhecer."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do animal na imagem: társio."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Pergunta a localização (Deir el-Bahari), diferente do nome do templo e do arquiteto."
+    }
+  ]
+}

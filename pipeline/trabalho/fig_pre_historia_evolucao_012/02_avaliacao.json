@@ -1,0 +1,196 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pilone com obelisco e estátuas colossais, reconhecível; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que templo egípcio, às margens do Nilo, é este?",
+      "resposta": "Templo de Luxor",
+      "distratores": [
+        "Templo de Edfu",
+        "Templo de Abu Simbel",
+        "Templo de Filas"
+      ],
+      "ancora": {
+        "nome": "Templo de Luxor",
+        "descricao": "Grande complexo de templo do Egito Antigo na margem leste do Nilo, na cidade de Luxor, construído por volta de 1400 a.C.",
+        "variantes": [
+          "Luxor Temple"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Dogū de olhos de óculos de neve, inconfundível; sem texto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que período da pré-história japonesa foram feitas estatuetas de argila como esta?",
+      "resposta": "Jōmon",
+      "distratores": [
+        "Yayoi",
+        "Kofun",
+        "Heian"
+      ],
+      "ancora": {
+        "nome": "Dogū",
+        "descricao": "Estatuetas humanoides de argila do período Jōmon da pré-história do Japão.",
+        "variantes": [
+          "Dogu",
+          "Dogū Jōmon"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Rochas com relevos pouco visíveis; não é reconhecível pela imagem nem legível no celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Mandril macho com cores típicas, claro e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que primata africano é este?",
+      "resposta": "Mandril",
+      "distratores": [
+        "Babuíno",
+        "Gelada",
+        "Gorila"
+      ],
+      "ancora": {
+        "nome": "Mandril",
+        "descricao": "Grande macaco do Velho Mundo da África centro-oeste, de face vermelha e azul (Mandrillus sphinx).",
+        "variantes": [
+          "Mandrill",
+          "Mandrillus sphinx"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Duas estátuas colossais sentadas, inconfundíveis; turistas pequenos ao fundo.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que século antes de Cristo foram erguidas estas duas estátuas gigantes de um faraó?",
+      "resposta": "Século quatorze a.C.",
+      "distratores": [
+        "Século vinte a.C.",
+        "Século dez a.C.",
+        "Século sete a.C."
+      ],
+      "ancora": {
+        "nome": "Colossos de Mêmnon",
+        "descricao": "Duas estátuas colossais do faraó Amenhotep III diante do seu templo mortuário, em Tebas, no Egito.",
+        "variantes": [
+          "Colossi of Memnon"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Fragmentos de crânio com etiqueta parcialmente visível ('indicus'), que entrega parte do nome; difícil de reconhecer."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Vista de um vale árido com entrada de tumba e pessoas; não é reconhecível com resposta única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Estatueta neolítica icônica, fundo limpo, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que estatueta de argila pré-histórica, de uma figura sentada com as mãos no rosto, é esta?",
+      "resposta": "Pensador de Cernavodă",
+      "distratores": [
+        "Vênus de Willendorf",
+        "Dama de Elche",
+        "Vênus de Lespugue"
+      ],
+      "ancora": {
+        "nome": "Pensador de Cernavodă",
+        "descricao": "Estatueta neolítica de terracota da cultura Hamangia, na Romênia, de figura sentada em posição pensativa.",
+        "variantes": [
+          "Pensador de Hamangia",
+          "Thinker of Hamangia",
+          "Gânditorul de la Hamangia"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Prancha com vários desenhos de carros diferentes, com hieróglifos; montagem de assuntos diversos."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Társio de olhos enormes, bem visível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que primata do Sudeste Asiático é este?",
+      "resposta": "Társio",
+      "distratores": [
+        "Gálago",
+        "Lóris",
+        "Aye-aye"
+      ],
+      "ancora": {
+        "nome": "Társio",
+        "descricao": "Pequeno primata noturno do Sudeste Asiático, de olhos enormes, da família Tarsiidae.",
+        "variantes": [
+          "Tarsier",
+          "Tarsiidae"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista aérea dos terraços colunados, reconhecível; sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que local da margem oeste do Nilo, junto aos penhascos, fica este templo de terraços?",
+      "resposta": "Deir el-Bahari",
+      "distratores": [
+        "Vale dos Reis",
+        "Vale das Rainhas",
+        "Medinet Habu"
+      ],
+      "ancora": {
+        "nome": "Templo de Hatshepsut",
+        "descricao": "Templo mortuário em terraços da faraó Hatshepsut, em Deir el-Bahari, em frente a Luxor, no Egito.",
+        "variantes": [
+          "Templo mortuário de Hatshepsut",
+          "Djeser-Djeseru"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução, corpo escuro atrás de vitrine; ilegível no celular e pode ser confundido com outros corpos de turfeira."
+    }
+  ]
+}
