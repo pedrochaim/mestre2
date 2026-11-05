@@ -1,0 +1,33 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'filtração a vácuo' descreve a função da resposta e torna os distratores (balões) facilmente eliminados sem olhar a figura. Tirei a pista e troquei os distratores por vidrarias visualmente parecidas (Erlenmeyer, balão de destilação com braço lateral). Grafia conforme a Wikipédia: Kitasato.",
+      "reescrita": {
+        "pergunta": "Que vidraria de laboratório é esta?",
+        "resposta": "Kitasato",
+        "distratores": [
+          "Erlenmeyer",
+          "Balão de destilação",
+          "Frasco de Kjeldahl"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto, sem vazamento. 'Instrumento médico' só delimita a categoria. Distratores são instrumentos médicos plausíveis e nenhum deles descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem pista, a figura é a pergunta. Distratores são vidrarias do mesmo tipo e nenhum é correto. Funil de Büchner é parecido o bastante para ser crível, mas diferente do funil com torneira.",
+      "reescrita": null
+    }
+  ]
+}

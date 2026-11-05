@@ -1,0 +1,36 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento médico é este?",
+        "resposta": "Estetoscópio"
+      },
+      "existentes": [
+        {
+          "id": "q03590",
+          "pergunta": "Em 1816, o médico francês René Laennec inventou o estetoscópio para evitar que situação constrangedora?",
+          "resposta": "Encostar o ouvido no peito de uma paciente"
+        },
+        {
+          "id": "q05000",
+          "pergunta": "Que instrumento médico é este?",
+          "resposta": "Estetoscópio"
+        },
+        {
+          "id": "q16841",
+          "pergunta": "René Laennec batizou seu invento de estetoscópio. Em grego, o começo dessa palavra designa que parte do corpo?",
+          "resposta": "Peito"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q05000",
+      "motivo": "Pergunta e resposta idênticas à q05000 (identificar o estetoscópio)."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Imagem borrada e de baixa resolução, com lábios de uma pessoa comum em primeiro plano; pouco legível no celular."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Um pedaço de metal cinza sem traço distintivo; o cálcio não é reconhecível pela imagem e poderia ser outro metal."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Frasco com tubo lateral bem nítido. O texto visível (marca, volume) não entrega o nome.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "pergunta": "Que vidraria de laboratório é esta, usada em filtração a vácuo?",
+      "resposta": "Kitassato",
+      "distratores": [
+        "Balão de destilação",
+        "Balão volumétrico",
+        "Frasco de Kjeldahl"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Kitassato",
+        "descricao": "Frasco de vidro de paredes grossas com tubo lateral, usado em filtração a vácuo.",
+        "variantes": [
+          "Kitasato",
+          "Frasco de Büchner",
+          "Frasco de Bunsen"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O diagrama traz legendas em inglês, como 'Large intestine' e 'Anatomy of Colon', que entregam a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Osso fotografado de cima sobre fundo azul. Não é reconhecível com segurança como patela e poderia ser outro osso."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A estrutura destacada no crânio transparente parece ser o tálamo e o tronco encefálico, não a glândula pineal. A imagem é confusa e não identifica a pineal."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida e sem texto de um estetoscópio, reconhecível pela silhueta.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "pergunta": "Que instrumento médico é este?",
+      "resposta": "Estetoscópio",
+      "distratores": [
+        "Otoscópio",
+        "Esfigmomanômetro",
+        "Oftalmoscópio"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Estetoscópio",
+        "descricao": "Instrumento médico com tubos e diafragma usado para auscultar sons internos do corpo.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Ilustração em preto e branco de um conta-gotas. A resposta não é única: pipeta ou conta-gotas, sem o que distinguir o tipo."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida de um funil de separação com duas fases e torneira. O texto visível (Pyrex 125 ml) não entrega a resposta.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "pergunta": "Que vidraria de laboratório é esta?",
+      "resposta": "Funil de separação",
+      "distratores": [
+        "Funil de Büchner",
+        "Bureta",
+        "Balão de fundo redondo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Funil de separação",
+        "descricao": "Vidraria em forma de pera, com torneira, usada para separar líquidos imiscíveis de densidades diferentes.",
+        "variantes": [
+          "Funil separador",
+          "Funil de decantação"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Micrografia eletrônica granulada, com letras visíveis ('b.s', 'd'). A sinapse não é reconhecível para o público e a imagem é ilegível no celular."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Duas peças de tecido sobre papel, com régua. Não são reconhecíveis como glândulas suprarrenais e poderiam ser outro tecido."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Fragmento azul-acinzentado sem forma característica. O potássio não é reconhecível pela imagem, e a cor sugere oxidação ou outro material."
+    }
+  ]
+}
